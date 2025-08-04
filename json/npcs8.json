@@ -3,7 +3,7 @@
 		"name": "Guildmaster",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Guildmaster]{cr=\"12\"}",
+			"::mh[Guildmaster]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/152}  ",
 			"**XP** 19,200  ",
@@ -57,7 +57,7 @@
 		"name": "Mad Prophet",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mad Prophet]{cr=\"12\"}",
+			"::mh[Mad Prophet]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/233}  ",
 			"**XP** 19,200  ",
@@ -120,7 +120,7 @@
 		"name": "Midnight Dancer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Midnight Dancer]{cr=\"12\"}",
+			"::mh[Midnight Dancer]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/237}  ",
 			"**XP** 19,200  ",
@@ -179,7 +179,7 @@
 		"name": "Monastic Sniper",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Monastic Sniper]{cr=\"12\"}",
+			"::mh[Monastic Sniper]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/104}  ",
 			"**XP** 19,200  ",
@@ -233,7 +233,7 @@
 		"name": "Nature Scholar",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Nature Scholar]{cr=\"12\"}",
+			"::mh[Nature Scholar]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/225}  ",
 			"**XP** 19,200  ",
@@ -293,7 +293,7 @@
 		"name": "Profane General",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Profane General]{cr=\"12\"}",
+			"::mh[Profane General]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/54}  ",
 			"**XP** 19,200  ",
@@ -362,7 +362,7 @@
 		"name": "Prophet of Kalistrade",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Prophet of Kalistrade]{cr=\"12\"}",
+			"::mh[Prophet of Kalistrade]{cr=12}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/44}  ",
 			"**XP** 19,200  ",
@@ -419,7 +419,7 @@
 		"name": "Pyromaniac Mage",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Pyromaniac Mage]{cr=\"12\"}",
+			"::mh[Pyromaniac Mage]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/188}  ",
 			"**XP** 19,200  ",
@@ -478,7 +478,7 @@
 		"name": "Savage Rider",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Savage Rider]{cr=\"12\"}",
+			"::mh[Savage Rider]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/18}  ",
 			"**XP** 19,200  ",
@@ -534,7 +534,7 @@
 		"name": "Sound Warrior",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Sound Warrior]{cr=\"12\"}",
+			"::mh[Sound Warrior]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/229}  ",
 			"**XP** 19,200  ",
@@ -604,7 +604,7 @@
 		"name": "Temple (High Priest)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Temple (High Priest)]{cr=\"12\"}",
+			"::mh[Temple (High Priest)]{cr=12}",
 			"",
 			"{SOURCE GameMastery Guide/305}  ",
 			"**XP** 19,200  ",
@@ -655,7 +655,7 @@
 		"name": "Tournament Champion",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Tournament Champion]{cr=\"12\"}",
+			"::mh[Tournament Champion]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/201}  ",
 			"**XP** 19,200  ",
@@ -719,7 +719,7 @@
 		"name": "Tribal Leader",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Tribal Leader]{cr=\"12\"}",
+			"::mh[Tribal Leader]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/36}  ",
 			"**XP** 19,200  ",
@@ -783,7 +783,7 @@
 		"name": "Dagger Master",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Dagger Master]{cr=\"17\"}",
+			"::mh[Dagger Master]{cr=17}",
 			"",
 			"{SOURCE NPC Codex/157}  ",
 			"**XP** 102,400  ",
@@ -836,7 +836,7 @@
 		"name": "Dark Nature Priest",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Dark Nature Priest]{cr=\"17\"}",
+			"::mh[Dark Nature Priest]{cr=17}",
 			"",
 			"{SOURCE NPC Codex/77}  ",
 			"**XP** 102,400  ",
@@ -898,7 +898,7 @@
 		"name": "Demon-Blooded Sorcerer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Demon-Blooded Sorcerer]{cr=\"17\"}",
+			"::mh[Demon-Blooded Sorcerer]{cr=17}",
 			"",
 			"{SOURCE NPC Codex/175}  ",
 			"**XP** 102,400  ",
@@ -960,7 +960,7 @@
 		"name": "Failed Disciple",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Failed Disciple]{cr=\"17\"}",
+			"::mh[Failed Disciple]{cr=17}",
 			"",
 			"{SOURCE NPC Codex/93}  ",
 			"**XP** 102,400  ",
@@ -1013,7 +1013,7 @@
 		"name": "Furious Crusader",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Furious Crusader]{cr=\"17\"}",
+			"::mh[Furious Crusader]{cr=17}",
 			"",
 			"{SOURCE NPC Codex/125}  ",
 			"**XP** 102,400  ",
@@ -1077,7 +1077,7 @@
 		"name": "Golem-Breaker",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Golem-Breaker]{cr=\"17\"}",
+			"::mh[Golem-Breaker]{cr=17}",
 			"",
 			"{SOURCE NPC Codex/141}  ",
 			"**XP** 102,400  ",
@@ -1137,7 +1137,7 @@
 		"name": "Grand Necromancer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Grand Necromancer]{cr=\"17\"}",
+			"::mh[Grand Necromancer]{cr=17}",
 			"",
 			"{SOURCE NPC Codex/193}  ",
 			"**XP** 102,400  ",
@@ -1197,7 +1197,7 @@
 		"name": "Grove Guardian",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Grove Guardian]{cr=\"17\"}",
+			"::mh[Grove Guardian]{cr=17}",
 			"",
 			"{SOURCE NPC Codex/109}  ",
 			"**XP** 102,400  ",
@@ -1248,7 +1248,7 @@
 		"name": "Refined Reaver",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Refined Reaver]{cr=\"17\"}",
+			"::mh[Refined Reaver]{cr=17}",
 			"",
 			"{SOURCE NPC Codex/23}  ",
 			"**XP** 102,400  ",
@@ -1296,7 +1296,7 @@
 		"name": "Rival Explorer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Rival Explorer]{cr=\"17\"}",
+			"::mh[Rival Explorer]{cr=17}",
 			"",
 			"{SOURCE NPC Codex/41}  ",
 			"**XP** 102,400  ",
@@ -1360,7 +1360,7 @@
 		"name": "Shadow Cleric",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Shadow Cleric]{cr=\"17\"}",
+			"::mh[Shadow Cleric]{cr=17}",
 			"",
 			"{SOURCE NPC Codex/59}  ",
 			"**XP** 102,400  ",
@@ -1432,7 +1432,7 @@
 		"name": "Aloof Scholar",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Aloof Scholar]{cr=\"8\"}",
+			"::mh[Aloof Scholar]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/232}  ",
 			"**XP** 4,800  ",
@@ -1489,7 +1489,7 @@
 		"name": "Blackstrike",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Blackstrike]{cr=\"8\"}",
+			"::mh[Blackstrike]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/236}  ",
 			"**XP** 4,800  ",
@@ -1545,7 +1545,7 @@
 		"name": "Cave Wizard",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Cave Wizard]{cr=\"8\"}",
+			"::mh[Cave Wizard]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/184}  ",
 			"**XP** 4,800  ",
@@ -1606,7 +1606,7 @@
 		"name": "Celestial Theurge",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Celestial Theurge]{cr=\"8\"}",
+			"::mh[Celestial Theurge]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/228}  ",
 			"**XP** 4,800  ",
@@ -1679,7 +1679,7 @@
 		"name": "Criminal (Slayer)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Criminal (Slayer)]{cr=\"8\"}",
+			"::mh[Criminal (Slayer)]{cr=8}",
 			"",
 			"{SOURCE GameMastery Guide/267}  ",
 			"**XP** 4,800  ",
@@ -1723,7 +1723,7 @@
 		"name": "Cruel Instructor",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Cruel Instructor]{cr=\"8\"}",
+			"::mh[Cruel Instructor]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/32}  ",
 			"**XP** 4,800  ",
@@ -1788,7 +1788,7 @@
 		"name": "Cultist",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Cultist]{cr=\"8\"}",
+			"::mh[Cultist]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/249}  ",
 			"**XP** 4,800  ",
@@ -1844,7 +1844,7 @@
 		"name": "Cyphermage",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Cyphermage]{cr=\"8\"}",
+			"::mh[Cyphermage]{cr=8}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/16}  ",
 			"**XP** 4,800  ",
@@ -1898,7 +1898,7 @@
 		"name": "Deadly Spy",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Deadly Spy]{cr=\"8\"}",
+			"::mh[Deadly Spy]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/148}  ",
 			"**XP** 4,800  ",
@@ -1954,7 +1954,7 @@
 		"name": "Death Priest",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Death Priest]{cr=\"8\"}",
+			"::mh[Death Priest]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/50}  ",
 			"**XP** 4,800  ",
@@ -2023,7 +2023,7 @@
 		"description": [
 			"*This weathered-looking desert dweller is dressed from head to toe in tan, loose-fitting robes.*",
 			"",
-			"::mh[Desert Hermit]{cr=\"8\"}",
+			"::mh[Desert Hermit]{cr=8}",
 			"",
 			"{SOURCE Osirion, Legacy of the Pharaohs/57}  ",
 			"**XP** 4,800  ",
@@ -2083,7 +2083,7 @@
 		"name": "Divine Loremaster",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Divine Loremaster]{cr=\"8\"}",
+			"::mh[Divine Loremaster]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/224}  ",
 			"**XP** 4,800  ",
@@ -2150,7 +2150,7 @@
 		"description": [
 			"*This stout, gray-skinned warrior sits astride an enormous spider.*",
 			"",
-			"::mh[Duergar Strandrider]{cr=\"8\"}",
+			"::mh[Duergar Strandrider]{cr=8}",
 			"",
 			"{SOURCE Tombs of Golarion/32}  ",
 			"**XP** 4,800  ",
@@ -2227,7 +2227,7 @@
 		"name": "Gladiator Champion",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Gladiator Champion]{cr=\"8\"}",
+			"::mh[Gladiator Champion]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/271}  ",
 			"**XP** 4,800  ",
@@ -2279,7 +2279,7 @@
 		"name": "Green Warden",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Green Warden]{cr=\"8\"}",
+			"::mh[Green Warden]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/200}  ",
 			"**XP** 4,800  ",
@@ -2333,7 +2333,7 @@
 		"name": "Halfling Slinger",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Halfling Slinger]{cr=\"8\"}",
+			"::mh[Halfling Slinger]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/84}  ",
 			"**XP** 4,800  ",
@@ -2390,7 +2390,7 @@
 		"name": "King",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[King]{cr=\"8\"}",
+			"::mh[King]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/255}  ",
 			"**XP** 4,800  ",
@@ -2440,7 +2440,7 @@
 		"description": [
 			"*Battered scraps of metal hang from this battle-scarred archer's necklace, trophies of the fierce Kellid's many mechanical kills.*",
 			"",
-			"::mh[Machine Slayer]{cr=\"8\"}",
+			"::mh[Machine Slayer]{cr=8}",
 			"",
 			"{SOURCE Numeria, Land of Fallen Stars/51}  ",
 			"**XP** 4,800  ",
@@ -2495,7 +2495,7 @@
 		"name": "Master Entertainer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Master Entertainer]{cr=\"8\"}",
+			"::mh[Master Entertainer]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/265}  ",
 			"**XP** 4,800  ",
@@ -2549,7 +2549,7 @@
 		"name": "Mud Shaman",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mud Shaman]{cr=\"8\"}",
+			"::mh[Mud Shaman]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/68}  ",
 			"**XP** 4,800  ",
@@ -2616,7 +2616,7 @@
 		"name": "Mushfens Cabalist",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Mushfens Cabalist]{cr=\"8\"}",
+			"::mh[Mushfens Cabalist]{cr=8}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/39}  ",
 			"**XP** 4,800  ",
@@ -2668,7 +2668,7 @@
 		"name": "Noble (Noble)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Noble (Noble)]{cr=\"8\"}",
+			"::mh[Noble (Noble)]{cr=8}",
 			"",
 			"{SOURCE GameMastery Guide/289}  ",
 			"**XP** 4,800  ",
@@ -2711,7 +2711,7 @@
 		"name": "Queen of Staves",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Queen of Staves]{cr=\"8\"}",
+			"::mh[Queen of Staves]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/220}  ",
 			"**XP** 4,800  ",
@@ -2768,7 +2768,7 @@
 		"name": "Raging Swimmer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Raging Swimmer]{cr=\"8\"}",
+			"::mh[Raging Swimmer]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/14}  ",
 			"**XP** 4,800  ",
@@ -2823,7 +2823,7 @@
 		"name": "Sacred Killer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Sacred Killer]{cr=\"8\"}",
+			"::mh[Sacred Killer]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/208}  ",
 			"**XP** 4,800  ",
@@ -2885,7 +2885,7 @@
 		"sources": [ "NPC Codex" ],
 		"name": "Sacred Sorcerer",
 		"description": [
-			"::mh[Sacred Sorcerer]{cr=\"8\"}",
+			"::mh[Sacred Sorcerer]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/166}  ",
 			"**XP** 4,800  ",
@@ -2944,7 +2944,7 @@
 		"name": "Sailor (First Mate)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Sailor (First Mate)]{cr=\"8\"}",
+			"::mh[Sailor (First Mate)]{cr=8}",
 			"",
 			"{SOURCE GameMastery Guide/295}  ",
 			"**XP** 4,800  ",
@@ -2987,7 +2987,7 @@
 		"name": "Saintly Knight",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Saintly Knight]{cr=\"8\"}",
+			"::mh[Saintly Knight]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/116}  ",
 			"**XP** 4,800  ",
@@ -3049,7 +3049,7 @@
 		"name": "Shieldmarshal",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Shieldmarshal]{cr=\"8\"}",
+			"::mh[Shieldmarshal]{cr=8}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/50}  ",
 			"**XP** 4,800  ",

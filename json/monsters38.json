@@ -149,7 +149,7 @@
 		"description": [
 			"*A huge eye opens in this conical creature's front, just above a toothy mouth. Long strands of fibrous material whip from its sides.*",
 			"",
-			"::mh[Roper]{cr=\"12\"}",
+			"::mh[Roper]{cr=12}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/237}  ",
 			"**XP** 19,200  ",
@@ -205,7 +205,7 @@
 		"description": [
 			"*A large amber eye tops a swollen head, surrounded evenly by four mouths loaded with needle-sharp teeth. This enormously long, yet slender creature stretches the length of five men and appears to be composed of twisted strands of pallid flesh and veiny musculature. The tentacle-like thing moves with the awkward, alien speed of a hunting insect, unnaturally still one moment and darting forth with incredible speed the next.*",
 			"",
-			"::mh[Rorkoun]{cr=\"6\"}",
+			"::mh[Rorkoun]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #32: Rivers Run Red/86}  ",
 			"**XP** 2,400  ",
@@ -263,7 +263,7 @@
 		"description": [
 			"*This small plant is shaped vaguely like a human with a rose blossom for a head and soft, petal-like wings fluttering from its shoulders.*",
 			"",
-			"::mh[Roseling]{cr=\"7\"}",
+			"::mh[Roseling]{cr=7}",
 			"",
 			"{SOURCE Planar Adventures/243}  ",
 			"**XP** 3,200  ",
@@ -322,7 +322,7 @@
 		"description": [
 			"*This twitching, pale maggot is the size of a large dog. A circular mouth quivers and gasps at one end of its pulsating body.*",
 			"",
-			"::mh[Giant Rot Grub]{cr=\"3\"}",
+			"::mh[Giant Rot Grub]{cr=3}",
 			"",
 			"{SOURCE Bestiary 3/215;Pathfinder #25: The Bastards of Erebus/78}  ",
 			"**XP** 800  ",
@@ -378,7 +378,7 @@
 		"description": [
 			"*This nauseating carpet of wriggling white grubs undulates outward in a pallid wave of hunger.*",
 			"",
-			"::mh[Rot Grub Swarm]{cr=\"7\"}",
+			"::mh[Rot Grub Swarm]{cr=7}",
 			"",
 			"{SOURCE Bestiary 3/215;Pathfinder #25: The Bastards of Erebus/78}  ",
 			"**XP** 3,200  ",
@@ -432,7 +432,7 @@
 		"description": [
 			"*This amorphous creature loosely resembles a cross between a large snake and an insect. It has black oily skin, and parts of its very flesh blend seamlessly into the shadows. Its constantly moving, writhing form makes it difficult to identify from a distance.*",
 			"",
-			"::mh[Shadowgarm]{cr=\"2\"}",
+			"::mh[Shadowgarm]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #25: The Bastards of Erebus/80}  ",
 			"**XP** 600  ",
@@ -488,7 +488,7 @@
 		"description": [
 			"*A white porcelain mask and elegant white clothing provide form and contrast to this shadowy woman's body.*",
 			"",
-			"::mh[Shae]{cr=\"4\"}",
+			"::mh[Shae]{cr=4}",
 			"",
 			"{SOURCE Bestiary 3/242}  ",
 			"**XP** 1,200  ",
@@ -545,7 +545,7 @@
 		"description": [
 			"*This predator resembles a brawny jackal with a dark, red-and-gray mottled coat covered in ash and dust.*",
 			"",
-			"::mh[Shaghal]{cr=\"8\"}",
+			"::mh[Shaghal]{cr=8}",
 			"",
 			"{SOURCE Feast of Dust/63}  ",
 			"**XP** 4,800  ",
@@ -602,7 +602,7 @@
 		"description": [
 			"*This creature's bulbous compound eyes peer in all directions as its twin mandibles twitch and gnash. Six legs, each ending in spade-like claws, support its bulk.*",
 			"",
-			"::mh[Shalkeshka]{cr=\"8\"}",
+			"::mh[Shalkeshka]{cr=8}",
 			"",
 			"{SOURCE Pathfinder #81: Shifting Sands/88}  ",
 			"**XP** 4,800  ",
@@ -675,7 +675,7 @@
 		"description": [
 			"*A mass of tangled vines and dripping slime rises on two trunk-like legs, reeking of rot and freshly turned earth.*",
 			"",
-			"::mh[Shambling Mound]{cr=\"6\"}",
+			"::mh[Shambling Mound]{cr=6}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/246}  ",
 			"**XP** 2,400  ",
@@ -732,7 +732,7 @@
 		"description": [
 			"*Larger than an elephant, this scaly, bird-like creature has a vaguely horse-like head and vast, slime-encrusted wings.*",
 			"",
-			"::mh[Shantak]{cr=\"8\"}",
+			"::mh[Shantak]{cr=8}",
 			"",
 			"{SOURCE Bestiary 2/244}  ",
 			"**XP** 4,800  ",
@@ -790,7 +790,7 @@
 		"description": [
 			"*This smoldering mass of metal-encrusted goo sports half a dozen pseudopods, each tipped with a burning-hot sword blade.*",
 			"",
-			"::mh[Shard Slag]{cr=\"8\"}",
+			"::mh[Shard Slag]{cr=8}",
 			"",
 			"{SOURCE Bestiary 4/240}  ",
 			"**XP** 4,800  ",
@@ -848,7 +848,7 @@
 		"description": [
 			"*This blue shark's fins slice through the water, its black eyes rolling and its gaping jaws showing countless teeth.*",
 			"",
-			"::mh[Shark]{cr=\"2\"}",
+			"::mh[Shark]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/247}  ",
 			"**XP** 600  ",
@@ -903,7 +903,7 @@
 		"description": [
 			"*This majestic beast glides through the water with murderous intent. Its thick-toothed maw is wide enough for a human to stand in, and its body stretches back more than 20 feet.*",
 			"",
-			"::mh[Angustiden]{cr=\"7\"}",
+			"::mh[Angustiden]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #57: Tempest Rising/84}  ",
 			"**XP** 3,200  ",
@@ -952,7 +952,7 @@
 		"description": [
 			"*This sleek, gray predator weaves back and forth through the water with savage grace.*",
 			"",
-			"::mh[Bull Shark]{cr=\"2\"}",
+			"::mh[Bull Shark]{cr=2}",
 			"",
 			"{SOURCE Bestiary 4/241}  ",
 			"**XP** 600  ",
@@ -998,7 +998,7 @@
 		"description": [
 			"*Large as a dragon, this shark's jaws open to reveal a cavernous, tooth-lined gullet capable of swallowing a horse whole.*",
 			"",
-			"::mh[Dire Shark (Megalodon)]{cr=\"9\"}",
+			"::mh[Dire Shark (Megalodon)]{cr=9}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/247}  ",
 			"**XP** 6,400  ",
@@ -1048,7 +1048,7 @@
 		"description": [
 			"*This immense silvery beast is a majestic specimen, its gigantic jaws lined with rows of serrated teeth.*",
 			"",
-			"::mh[Great White Shark]{cr=\"4\"}",
+			"::mh[Great White Shark]{cr=4}",
 			"",
 			"{SOURCE Bestiary 4/241;Pathfinder #57: Tempest Rising/84}  ",
 			"**XP** 1,200  ",
@@ -1098,7 +1098,7 @@
 		"description": [
 			"*Beneath this sleek gray shark's unusually shaped head, a disproportionately small mouth flashes with razor-sharp teeth.*",
 			"",
-			"::mh[Hammerhead Shark]{cr=\"3\"}",
+			"::mh[Hammerhead Shark]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #57: Tempest Rising/84}  ",
 			"**XP** 800  ",
@@ -1143,7 +1143,7 @@
 		"description": [
 			"*This creature resembles an ordinary shark from tail to mouth, but the unusual shape of its lower jaw marks it as something else. A whorl of teeth spirals inward, tiny at the centre, but long and brutal farther out.*",
 			"",
-			"::mh[Helicoprion]{cr=\"6\"}",
+			"::mh[Helicoprion]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #57: Tempest Rising/85}  ",
 			"**XP** 2,400  ",
@@ -1192,7 +1192,7 @@
 		"description": [
 			"*Jagged markings decorate the body of this human-sized shark. A multitude of stains on its large teeth tell of the frequency and ferocity with which it uses its bite.*",
 			"",
-			"::mh[Jigsaw Shark]{cr=\"1\"}",
+			"::mh[Jigsaw Shark]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #57: Tempest Rising/85}  ",
 			"**XP** 400  ",
@@ -1240,7 +1240,7 @@
 		"description": [
 			"*A ridge of jagged ice runs down the back of this glistening, desert-dwelling lizard.*",
 			"",
-			"::mh[Shasalqu]{cr=\"3\"}",
+			"::mh[Shasalqu]{cr=3}",
 			"",
 			"{SOURCE Bestiary 5/229;Pathfinder #79: The Half-Dead City/84}  ",
 			"**XP** 800  ",
@@ -1299,7 +1299,7 @@
 		"description": [
 			"*This noble creature stands strong and tall with the body of a powerful bull and the head of a wise-looking human.*",
 			"",
-			"::mh[Shedu]{cr=\"9\"}",
+			"::mh[Shedu]{cr=9}",
 			"",
 			"{SOURCE Bestiary 3/2543}  ",
 			"**XP** 6,400  ",
@@ -1355,7 +1355,7 @@
 		"description": [
 			"*This mass of shells is assembled into a shape that resembles a cross between a frog and a squid. Its \"head\" is a tangle of long limbs composed of razor-sharp edges, and its body seeps with foamy, toxic-looking slime.*",
 			"",
-			"::mh[Shell Sentinel]{cr=\"5\"}",
+			"::mh[Shell Sentinel]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #98: Turn of the Torrent/88}  ",
 			"**XP** 1,600  ",
@@ -1435,7 +1435,7 @@
 		"description": [
 			"*This hulking headless corpse clutches a massive axe in each fist. A grotesquely skinned face stretches across the creature's chest.*",
 			"",
-			"::mh[Shenzuzhou]{cr=\"12\"}",
+			"::mh[Shenzuzhou]{cr=12}",
 			"",
 			"{SOURCE The Ruby Phoenix Tournament/29}  ",
 			"**XP** 19,200  ",
@@ -1493,7 +1493,7 @@
 		"description": [
 			"*This emaciated, robed humanoid wields a scythe made of bone to match the skeletal wings that protrude from its shoulders.*",
 			"",
-			"::mh[Shinigami]{cr=\"17\"}",
+			"::mh[Shinigami]{cr=17}",
 			"",
 			"{SOURCE Bestiary 3/244}  ",
 			"**XP** 102,400  ",
@@ -1547,7 +1547,7 @@
 		"description": [
 			"*Surrounded by a nimbus of near-blinding light, this strange creature looks something like an emaciated child with clawed hands.*",
 			"",
-			"::mh[Shining Child]{cr=\"12\"}",
+			"::mh[Shining Child]{cr=12}",
 			"",
 			"{SOURCE Bestiary 2/245}  ",
 			"**XP** 19,200  ",
@@ -1610,7 +1610,7 @@
 		"description": [
 			"*A model sailing ship in a display bottle the size of a boot sails the air on vaporous waves. Speckles of water move about the deck like a crew, arming a miniature ballista and preparing to take aim.*",
 			"",
-			"::mh[Ship in a Bottle]{cr=\"2\"}",
+			"::mh[Ship in a Bottle]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #57: Tempest Rising/86}  ",
 			"**XP** 600  ",
@@ -1703,7 +1703,7 @@
 		"description": [
 			"*A fleet of miniature ships, each secure in a glass bottle, flies through the air. The ships move as one, coordinating their attacks.*",
 			"",
-			"::mh[Bottled Armada]{cr=\"6\"}",
+			"::mh[Bottled Armada]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #57: Tempest Rising/86}  ",
 			"**XP** 2,400  ",
@@ -1774,7 +1774,7 @@
 		"description": [
 			"*A larger-than-life wooden carving of a mermaid holding a spear clambers forward, the vibrant paint coating her frame encrusted in years' worth of sea salt.*",
 			"",
-			"::mh[Ship Sentinel]{cr=\"7\"}",
+			"::mh[Ship Sentinel]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #57: Tempest Rising/88}  ",
 			"**XP** 3,200  ",
@@ -1860,7 +1860,7 @@
 		"description": [
 			"*This yellowy viscous liquid bubbles in a large tank suspended by strangely organic cables. Wisps of white gas occasionally escape the roiling fluid.*",
 			"",
-			"::mh[Shipmind]{cr=\"13\"}",
+			"::mh[Shipmind]{cr=13}",
 			"",
 			"{SOURCE Pathfinder #88: Valley of the Brain Collectors/86}  ",
 			"**XP** 25,600  ",
@@ -1942,7 +1942,7 @@
 		"description": [
 			"*This sleek equine is slightly smaller than an average horse, but its eyes contain a gleam of higher intelligence.*",
 			"",
-			"::mh[Shissah]{cr=\"4\"}",
+			"::mh[Shissah]{cr=4}",
 			"",
 			"{SOURCE Qadira, Jewel of the East/63}  ",
 			"**XP** 1,200  ",
@@ -2005,7 +2005,7 @@
 		"description": [
 			"*This gray-skinned goliath is lean and muscled. Its four powerful arms carry weapons, and it wears a leather chest harness.*",
 			"",
-			"::mh[Shobhad]{cr=\"4\"}",
+			"::mh[Shobhad]{cr=4}",
 			"",
 			"{SOURCE Bestiary 4/242;Distant Worlds/63}  ",
 			"**XP** 1,200  ",
@@ -2063,7 +2063,7 @@
 		"description": [
 			"*This dog-sized lizard has two horns, one on either side of its head, and green scales that crackle with sparks of lightning.*",
 			"",
-			"::mh[Shocker Lizard]{cr=\"2\"}",
+			"::mh[Shocker Lizard]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/248}  ",
 			"**XP** 600  ",
@@ -2122,7 +2122,7 @@
 		"description": [
 			"*This immense mound of black slime thunders forward, eyes and mouths and even stranger things forming in its heaving bulk.*",
 			"",
-			"::mh[Shoggoth]{cr=\"19\"}",
+			"::mh[Shoggoth]{cr=19}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/249;Crucible of Chaos/29}  ",
 			"**XP** 204,800  ",
@@ -2179,7 +2179,7 @@
 		"description": [
 			"*This large, four-legged reptile has a brown scaled hide and a long, powerful tail.*",
 			"",
-			"::mh[Shotalashu]{cr=\"2\"}",
+			"::mh[Shotalashu]{cr=2}",
 			"",
 			"{SOURCE Occult Bestiary/53}  ",
 			"**XP** 600  ",
@@ -2236,7 +2236,7 @@
 		"description": [
 			"*This floating creature looks like an orc's animate, hollow skin. Its upper half is intact, but its lower half is in tatters.*",
 			"",
-			"::mh[Shredskin]{cr=\"2\"}",
+			"::mh[Shredskin]{cr=2}",
 			"",
 			"{SOURCE Bestiary 4/243}  ",
 			"**XP** 600  ",
@@ -2297,7 +2297,7 @@
 		"description": [
 			"*An oversized, eight-legged monstrosity stares ravenously from its three beady eyes, its gaping maw dripping with green venom.*",
 			"",
-			"::mh[Shriezyx]{cr=\"4\"}",
+			"::mh[Shriezyx]{cr=4}",
 			"",
 			"{SOURCE Bestiary 4/244;Dungeons of Golarion/31;Magnimar, City of Monuments/60}  ",
 			"**XP** 1,200  ",
@@ -2355,7 +2355,7 @@
 		"description": [
 			"*This bulbous, green-skinned spider is as large as a horse, its toothy maw smiling beneath three glowing eyes.*",
 			"",
-			"::mh[Shriezyx Queen]{cr=\"8\"}",
+			"::mh[Shriezyx Queen]{cr=8}",
 			"",
 			"{SOURCE Pathfinder #134: It Came from Hollow Mountain/88}  ",
 			"**XP** 4,800  ",
@@ -2434,7 +2434,7 @@
 		"description": [
 			"*Iridescent spines cover the back of this enormous, long-legged worm. Writhing tentacles sprout from its throat, below a circular, toothy maw dripping with luminescent spittle.*",
 			"",
-			"::mh[Shrike Worm]{cr=\"15\"}",
+			"::mh[Shrike Worm]{cr=15}",
 			"",
 			"{SOURCE Pathfinder #114: Black Stars Beckon/90}  ",
 			"**XP** 51,200  ",
@@ -2515,7 +2515,7 @@
 		"description": [
 			"*Jagged scales cover this lean humanoid's sculpted skin, glinting as it soars upon a disk of radiant energy.*",
 			"",
-			"::mh[Shulsaga]{cr=\"3\"}",
+			"::mh[Shulsaga]{cr=3}",
 			"",
 			"{SOURCE Bestiary 4/245}  ",
 			"**XP** 800  ",
@@ -2578,7 +2578,7 @@
 		"description": [
 			"*This petrified skeleton is clad in rotting furs. Stone antlers grow from the crown of its skull, and its eyes are polished white orbs.*",
 			"",
-			"::mh[Siabrae]{cr=\"15\"}",
+			"::mh[Siabrae]{cr=15}",
 			"",
 			"{SOURCE Bestiary 6/250;The Worldwound/58}  ",
 			"**XP** 51,200  ",
@@ -2641,7 +2641,7 @@
 		"description": [
 			"*This armless creature has a woman's torso supported by six spidery legs. It lacks a mouth or nose, and its gaze conveys a furious misery.*",
 			"",
-			"::mh[Misery Siktempora]{cr=\"12\"}",
+			"::mh[Misery Siktempora]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #135: Runeplague/90}  ",
 			"**XP** 19,200  ",
@@ -2731,7 +2731,7 @@
 		"description": [
 			"*An expression of intense malevolence crosses the face of this small, insubstantial spirit, which looks unsettlingly like that of a gnome.*",
 			"",
-			"::mh[Waldgeist]{cr=\"8\"}",
+			"::mh[Waldgeist]{cr=8}",
 			"",
 			"{SOURCE Pathfinder #105: The Inferno Gate/90}  ",
 			"**XP** 4,800  ",
@@ -2828,7 +2828,7 @@
 		"name": "Spriggan (Large Size)",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::mh[Spriggan (Large Size)]{cr=\"3\"}",
+			"::mh[Spriggan (Large Size)]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/257}  ",
 			"**XP** 800  ",
@@ -2883,7 +2883,7 @@
 		"description": [
 			"*Flecks of saliva drip from the corners of this filthy and ill-smelling humanoid, and his large pointed ears twitch at every sound.*",
 			"",
-			"::mh[Spriggan (Normal Size)]{cr=\"3\"}",
+			"::mh[Spriggan (Normal Size)]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/257}  ",
 			"**XP** 800  ",
@@ -2946,7 +2946,7 @@
 		"description": [
 			"*With jet-black skin and a small but menacing pair of horns, this goateed, impish creature wields a bloody knife and a wicked grin.*",
 			"",
-			"::mh[Spring-Heeled Jack]{cr=\"3\"}",
+			"::mh[Spring-Heeled Jack]{cr=3}",
 			"",
 			"{SOURCE Bestiary 4/253;Pathfinder #43: Haunting of Harrowstone/88}  ",
 			"**XP** 800  ",
@@ -3066,7 +3066,7 @@
 		"description": [
 			"*Thousands of tiny, colorful winged humanoids crawl from every corner of the forest to form this buzzing, writhing swarm.*",
 			"",
-			"::mh[Sprite Swarm]{cr=\"5\"}",
+			"::mh[Sprite Swarm]{cr=5}",
 			"",
 			"{SOURCE Fey Revisited/62}  ",
 			"**XP** 1,600  ",
@@ -3127,7 +3127,7 @@
 		"description": [
 			"*This slender red squid darts through the water with alacrity. Two large eyes stare from above the creature's tentacles.*",
 			"",
-			"::mh[Squid]{cr=\"1\"}",
+			"::mh[Squid]{cr=1}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/259}  ",
 			"**XP** 400  ",
@@ -3176,7 +3176,7 @@
 		"description": [
 			"*Immense in size, this great squid's tentacles writhe and flash with almost nauseating speed. The beast's eyes are as big as shields.*",
 			"",
-			"::mh[Giant Squid]{cr=\"9\"}",
+			"::mh[Giant Squid]{cr=9}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/259}  ",
 			"**XP** 6,400  ",
@@ -3223,7 +3223,7 @@
 		"description": [
 			"*This brilliantly colored moth rises taller than a house. A long tail resembling peacock feathers trails behind the creature.*",
 			"",
-			"::mh[Star Monarch]{cr=\"9\"}",
+			"::mh[Star Monarch]{cr=9}",
 			"",
 			"{SOURCE Inner Sea Bestiary/50}  ",
 			"**XP** 6,400  ",
@@ -3288,7 +3288,7 @@
 		"description": [
 			"*An unnatural tittering issues forth from the fanged maw of this floating mass of talon-tipped tentacles, all as red as freshly spilled blood.*",
 			"",
-			"::mh[Star Vampire]{cr=\"6\"}",
+			"::mh[Star Vampire]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #110: The Thrushmoor Terror/90}  ",
 			"**XP** 2,400  ",
@@ -3373,7 +3373,7 @@
 		"description": [
 			"*A mountainous form, this hideous creature is humanoid in general shape, but its hateful face is a writhing mass of tentacles.*",
 			"",
-			"::mh[Star-Spawn of Cthulhu]{cr=\"20\"}",
+			"::mh[Star-Spawn of Cthulhu]{cr=20}",
 			"",
 			"{SOURCE Bestiary 4/254;Pathfinder #46: Wake of the Watcher/90}  ",
 			"**XP** 307,200  ",
@@ -3446,7 +3446,7 @@
 		"description": [
 			"*This massive warthog is outfitted with all manner of steel armor and unnatural augmentations, including a pair of razor-sharp metal tusks.*",
 			"",
-			"::mh[Steam Hog]{cr=\"7\"}",
+			"::mh[Steam Hog]{cr=7}",
 			"",
 			"{SOURCE Monster Codex/64}  ",
 			"**XP** 3,200  ",
@@ -3554,7 +3554,7 @@
 		"description": [
 			"*Lighting crackles in the eyes of this enormous bull, whose body seems composed of dark storm clouds.*",
 			"",
-			"::mh[Storm Aurochs]{cr=\"9\"}",
+			"::mh[Storm Aurochs]{cr=9}",
 			"",
 			"{SOURCE Pathfinder #96: Shadow of the Storm Tyrant/90}  ",
 			"**XP** 6,400  ",
@@ -3635,7 +3635,7 @@
 		"description": [
 			"*This menacing creature stands on four pointed legs like those of an insect. A conical head sits atop its humanoid torso.*",
 			"",
-			"::mh[Stormghost]{cr=\"15\"}",
+			"::mh[Stormghost]{cr=15}",
 			"",
 			"{SOURCE Bestiary 5/236;Pathfinder #70: The Frozen Stars/84}  ",
 			"**XP** 51,200  ",
@@ -3700,7 +3700,7 @@
 		"description": [
 			"*This tangled mass of thick reeds extends from a bulbous pod split by a wide, thorn-toothed maw.*",
 			"",
-			"::mh[Stranglereed]{cr=\"9\"}",
+			"::mh[Stranglereed]{cr=9}",
 			"",
 			"{SOURCE Bestiary 5/237;Pathfinder #82: Secrets of the Sphinx/90}  ",
 			"**XP** 6,400  ",
@@ -3759,7 +3759,7 @@
 		"description": [
 			"*Stones jump and roll as if moved by an earthquake that affects nothing else around it. A wave of disturbed earth and rock follows behind them.*",
 			"",
-			"::mh[Sturzstromer]{cr=\"19\"}",
+			"::mh[Sturzstromer]{cr=19}",
 			"",
 			"{SOURCE Pathfinder #138: Rise of New Thassilon/92}  ",
 			"**XP** 204,800  ",
@@ -3841,7 +3841,7 @@
 		"description": [
 			"*Gaunt and parched, this crone-like figure moves with the predatory jerkiness of a hunting vulture. Unnaturally tall and lean, her form is all cracked flesh and stony crevices spanning a wasteland of withered gray flesh. Shattered black teeth jut from a chapped, lipless mouth that stretches beneath a high, scarred brow devoid of nose or eyes.*",
 			"",
-			"::mh[Stygira]{cr=\"7\"}",
+			"::mh[Stygira]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #33: The Varnhold Vanishing/88}  ",
 			"**XP** 3,200  ",

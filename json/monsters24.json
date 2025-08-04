@@ -8,7 +8,7 @@
 		"description": [
 			"*This hulking creature has the lower half of an eight-legged stallion and the upper half of a horned frost giant.*",
 			"",
-			"::mh[Svathurim]{cr=\"11\"}",
+			"::mh[Svathurim]{cr=11}",
 			"",
 			"{SOURCE Monster Codex/76;Pathfinder #69: Maiden, Mother, Crone/90}  ",
 			"**XP** 12,800  ",
@@ -65,7 +65,7 @@
 		"description": [
 			"*This bald gnome has rocky gray skin and a wiry physique. Its pale eyes are overly large and expressive.*",
 			"",
-			"::mh[Svirfneblin]{cr=\"1\"}",
+			"::mh[Svirfneblin]{cr=1}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/261}  ",
 			"**XP** 400  ",
@@ -119,7 +119,7 @@
 		"description": [
 			"*This elongated, olive fish has a thick set of jaws with a prominent underbite, and its body is covered in a layer of thick algae.*",
 			"",
-			"::mh[Swamp Barracuda]{cr=\"2\"}",
+			"::mh[Swamp Barracuda]{cr=2}",
 			"",
 			"{SOURCE Magnimar, City of Monuments/61;Pathfinder #13: Shadow in the Sky/86}  ",
 			"**XP** 600  ",
@@ -168,7 +168,7 @@
 		"description": [
 			"*Clad in the shreds of its original garments, this withered and leathery corpse has dark, empty eye sockets.*",
 			"",
-			"::mh[Swamp Mummy]{cr=\"4\"}",
+			"::mh[Swamp Mummy]{cr=4}",
 			"",
 			"{SOURCE Bestiary 5/178}  ",
 			"**XP** 1,200  ",
@@ -225,7 +225,7 @@
 		"description": [
 			"*This tall, regal woman is clad in a long cloak of pristine white swan feathers and silvery armor with a winged helm.*",
 			"",
-			"::mh[Swan Maiden]{cr=\"6\"}",
+			"::mh[Swan Maiden]{cr=6}",
 			"",
 			"{SOURCE Bestiary 4/257}  ",
 			"**XP** 2,400  ",
@@ -442,7 +442,7 @@
 		"description": [
 			"*A cobra head rests on a humanoid torso that splits into dozens of snakes. One arm is a snake tail, while the other is two snake heads.*",
 			"",
-			"::mh[Syricta]{cr=\"12\"}",
+			"::mh[Syricta]{cr=12}",
 			"",
 			"{SOURCE Bestiary 5/239}  ",
 			"**XP** 19,200  ",
@@ -556,7 +556,7 @@
 		"description": [
 			"*This wretched collection of undead have tight leathery skin, sunken eyes, and emaciated frames.*",
 			"",
-			"::mh[Barrier Breaker Troop]{cr=\"7\"}",
+			"::mh[Barrier Breaker Troop]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #141: Last Watch/90}  ",
 			"**XP** 3,200  ",
@@ -618,7 +618,7 @@
 		"description": [
 			"*A band of violet-skinned elves raises their hands high as vile magic swirls in the air above them.*",
 			"",
-			"::mh[Cultist Troop]{cr=\"11\"}",
+			"::mh[Cultist Troop]{cr=11}",
 			"",
 			"{SOURCE Bestiary 6/266}  ",
 			"**XP** 12,800  ",
@@ -683,7 +683,7 @@
 		"description": [
 			"*The pint-sized humanoids who make up this chattering, shrieking mob hold jagged swords and bare jagged teeth.*",
 			"",
-			"::mh[Goblin Troop]{cr=\"5\"}",
+			"::mh[Goblin Troop]{cr=5}",
 			"",
 			"{SOURCE Bestiary 6/267}  ",
 			"**XP** 1,600  ",
@@ -737,7 +737,7 @@
 		"description": [
 			"*Over two dozen men and women clad in chain shirts and leather armor brandish their knives and swords menacingly.*",
 			"",
-			"::mh[Outlaw Troop]{cr=\"7\"}",
+			"::mh[Outlaw Troop]{cr=7}",
 			"",
 			"{SOURCE Bestiary 6/267}  ",
 			"**XP** 3,200  ",
@@ -791,7 +791,7 @@
 		"description": [
 			"*This mob of undead is draped in soggy seaweed.*",
 			"",
-			"::mh[Sodden Drauger Troop]{cr=\"9\"}",
+			"::mh[Sodden Drauger Troop]{cr=9}",
 			"",
 			"{SOURCE Pathfinder #141: Last Watch/91}  ",
 			"**XP** 6,400  ",
@@ -855,7 +855,7 @@
 		"description": [
 			"*A column of soldiers clad in the black and red of House Thrune move together, their weapons at the ready in a coordinated front.*",
 			"",
-			"::mh[Dottari Troop]{cr=\"7\"}",
+			"::mh[Dottari Troop]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #100: A Song of Silver/122}  ",
 			"**XP** 3,200  ",
@@ -906,7 +906,7 @@
 		"description": [
 			"*The white-and-gold tabards of this tight formation of armored soldiers are spotless, and their swords and armor are polished to a mirror-bright sheen.*",
 			"",
-			"::mh[Glorious Reclamation]{cr=\"14\"}",
+			"::mh[Glorious Reclamation]{cr=14}",
 			"",
 			"{SOURCE Pathfinder #108: Hell Comes to Westcrown/90}  ",
 			"**XP** 38,400  ",
@@ -989,7 +989,7 @@
 		"name": "Hobgoblin Phalanx Troop",
 		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"description": [
-			"::mh[Hobgoblin Phalanx Troop]{cr=\"10\"}",
+			"::mh[Hobgoblin Phalanx Troop]{cr=10}",
 			"",
 			"{SOURCE Pathfinder #117: Assault on Longshadow/90}  ",
 			"**XP** 9,600  ",
@@ -1045,7 +1045,7 @@
 		"name": "Hound Archon Troop",
 		"sources": [ "Pathfinder #108: Hell Comes to Westcrown" ],
 		"description": [
-			"::mh[Hound Archon Troop]{cr=\"16\"}",
+			"::mh[Hound Archon Troop]{cr=16}",
 			"",
 			"{SOURCE Pathfinder #108: Hell Comes to Westcrown/91}  ",
 			"**XP** 76,800  ",
@@ -1100,7 +1100,7 @@
 		"description": [
 			"*A column of soldiers clad in the black and red of House Thrune move together, their weapons at the ready in a coordinated front.*",
 			"",
-			"::mh[Inquisitor Troop]{cr=\"9\"}",
+			"::mh[Inquisitor Troop]{cr=9}",
 			"",
 			"{SOURCE Pathfinder #100: A Song of Silver/122}  ",
 			"**XP** 6,400  ",
@@ -1154,7 +1154,7 @@
 		"description": [
 			"*This grim band of hobgoblin hunters is equipped with sturdy armor and well-used weapons.*",
 			"",
-			"::mh[Ironfang Magehunter Troop]{cr=\"14\"}",
+			"::mh[Ironfang Magehunter Troop]{cr=14}",
 			"",
 			"{SOURCE Pathfinder #120: Vault of the Onyx Citadel/88}  ",
 			"**XP** 38,400  ",
@@ -1214,7 +1214,7 @@
 		"description": [
 			"*A wild-eyed band of hobgoblins cluster tightly around fortified carts containing hoses and reservoirs brimming with strange fluids.*",
 			"",
-			"::mh[Ironfang Siege Alchemist Troop]{cr=\"16\"}",
+			"::mh[Ironfang Siege Alchemist Troop]{cr=16}",
 			"",
 			"{SOURCE Pathfinder #120: Vault of the Onyx Citadel/88}  ",
 			"**XP** 76,800  ",
@@ -1273,7 +1273,7 @@
 		"description": [
 			"*These hobgoblin knights ride atop brutish stinking yaks that paw the ground angrily.*",
 			"",
-			"::mh[Ironfang Yzobu Rider Troop]{cr=\"18\"}",
+			"::mh[Ironfang Yzobu Rider Troop]{cr=18}",
 			"",
 			"{SOURCE Pathfinder #120: Vault of the Onyx Citadel/89}  ",
 			"**XP** 153,600  ",
@@ -1332,7 +1332,7 @@
 		"name": "Morlock Swarmer Troop",
 		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"description": [
-			"::mh[Morlock Swarmer Troop]{cr=\"7\"}",
+			"::mh[Morlock Swarmer Troop]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #117: Assault on Longshadow/90}  ",
 			"**XP** 3,200  ",
@@ -1390,7 +1390,7 @@
 		"name": "Warmaze Disciples Troop",
 		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"description": [
-			"::mh[Warmaze Disciples Troop]{cr=\"11\"}",
+			"::mh[Warmaze Disciples Troop]{cr=11}",
 			"",
 			"{SOURCE Pathfinder #117: Assault on Longshadow/90}  ",
 			"**XP** 12,800  ",
@@ -1450,7 +1450,7 @@
 		"description": [
 			"*This hulking juggernaut has two massively muscled arms and a group of four smaller ones that jut from under its rib cage.*",
 			"",
-			"::mh[Trox]{cr=\"2\"}",
+			"::mh[Trox]{cr=2}",
 			"",
 			"{SOURCE Bestiary 4/264}  ",
 			"**XP** 600  ",
@@ -1522,7 +1522,7 @@
 		"description": [
 			"*Strange, translucent gas bladders carry this tangle of thorny, purple vines and clumps of mold through the air.*",
 			"",
-			"::mh[Tsaalgrend]{cr=\"2\"}",
+			"::mh[Tsaalgrend]{cr=2}",
 			"",
 			"{SOURCE Bestiary 5/251;Pathfinder #85: Fires of Creation/88}  ",
 			"**XP** 600  ",
@@ -1580,7 +1580,7 @@
 		"description": [
 			"*This small cylindrical creature has two eyestalks extending straight off to each side.*",
 			"",
-			"::mh[Tullimonstrum]{cr=\"1\"}",
+			"::mh[Tullimonstrum]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #124: City in the Deep/87}  ",
 			"**XP** 400  ",
@@ -1629,7 +1629,7 @@
 		"description": [
 			"*A gray-skinned humanoid with oddly unremarkable features floats ponderously in mid-air.*",
 			"",
-			"::mh[Tulpa]{cr=\"6\"}",
+			"::mh[Tulpa]{cr=6}",
 			"",
 			"{SOURCE Bestiary 5/254}  ",
 			"**XP** 2,400  ",
@@ -1682,7 +1682,7 @@
 		"description": [
 			"*Standing on three legs, this creature is a mix of dangerous jungle animals and plants fused into one deadly predator.*",
 			"",
-			"::mh[Tunche]{cr=\"17\"}",
+			"::mh[Tunche]{cr=17}",
 			"",
 			"{SOURCE Bestiary 4/265}  ",
 			"**XP** 102,400  ",
@@ -1744,7 +1744,7 @@
 		"description": [
 			"*This small humanoid figure grinds and clatters as it moves, its body carved from bones decorated with fine scrimshaw.*",
 			"",
-			"::mh[Tupilaq]{cr=\"7\"}",
+			"::mh[Tupilaq]{cr=7}",
 			"",
 			"{SOURCE Bestiary 3/275}  ",
 			"**XP** 3,200  ",
@@ -1853,7 +1853,7 @@
 		"description": [
 			"*This lumbering turtle is the size of a house; its head features powerful, razor-sharp beak.*",
 			"",
-			"::mh[Giant Snapping Turtle]{cr=\"9\"}",
+			"::mh[Giant Snapping Turtle]{cr=9}",
 			"",
 			"{SOURCE Bestiary 2/273}  ",
 			"**XP** 6,400  ",
@@ -1954,7 +1954,7 @@
 		"description": [
 			"*Flickers of light and energy radiate from this awe-inspiring, bird-like creature.*",
 			"",
-			"::mh[Turul]{cr=\"19\"}",
+			"::mh[Turul]{cr=19}",
 			"",
 			"{SOURCE Bestiary 5/256}  ",
 			"**XP** 204,800  ",
@@ -2032,7 +2032,7 @@
 		"description": [
 			"*The figure that crawls up from the grave may have once been a living man, but it is now wholly a monster. Its flesh crawls with worms and seeps with decay, allowing bones and internal organs to slip through hideous tears here and there. Its jaw distends and a long tongue whips out, almost like a tentacle. Its legs have been severed at the knee, forcing it to scrabble forward on all fours like some deranged beast.*",
 			"",
-			"::mh[Tuyewera]{cr=\"4\"}",
+			"::mh[Tuyewera]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #37: Souls for Smuggler's Shiv/86}  ",
 			"**XP** 1,200  ",
@@ -2100,7 +2100,7 @@
 		"description": [
 			"*This tiny, vaguely humanoid creature seems to be made completely of bundles of sticks wound with thorny vines.*",
 			"",
-			"::mh[Twigjack]{cr=\"3\"}",
+			"::mh[Twigjack]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/274}  ",
 			"**XP** 800  ",
@@ -2155,7 +2155,7 @@
 		"description": [
 			"*This hideous creature has a jet-black segmented body, four beady eyes, bat-like wings, and a pair of oversized mandibles that glisten with green ichor.*",
 			"",
-			"::mh[Typhilipede]{cr=\"2\"}",
+			"::mh[Typhilipede]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #103: The Hellfire Compact/88}  ",
 			"**XP** 600  ",
@@ -2230,7 +2230,7 @@
 		"description": [
 			"*Crusted with rock, this immense skeletal figure flies swiftly through the air, strange gasses clinging to its nightmarish form.*",
 			"",
-			"::mh[Tzitzimitl]{cr=\"19\"}",
+			"::mh[Tzitzimitl]{cr=19}",
 			"",
 			"{SOURCE Bestiary 3/276}  ",
 			"**XP** 204,800  ",
@@ -2294,7 +2294,7 @@
 		"name": "Ubashki Lynx",
 		"sources": [ "Lost Kingdoms" ],
 		"description": [
-			"::mh[Ubashki Lynx]{cr=\"6\"}",
+			"::mh[Ubashki Lynx]{cr=6}",
 			"",
 			"{SOURCE Lost Kingdoms/20}  ",
 			"**XP** 2,400  ",
@@ -2349,7 +2349,7 @@
 		"description": [
 			"*No flavor text*",
 			"",
-			"::mh[Ubashki Swarm]{cr=\"2\"}",
+			"::mh[Ubashki Swarm]{cr=2}",
 			"",
 			"{SOURCE Lost Kingdoms/19}  ",
 			"**XP** 600  ",
@@ -2401,7 +2401,7 @@
 		"description": [
 			"*This immense creature resembles a horrific, twelve-armed squid. Its emerald eyes burn with a terrifying malignance, and the thing has a fanged maw where its beak should be.*",
 			"",
-			"::mh[Ugash-Iram]{cr=\"15\"}",
+			"::mh[Ugash-Iram]{cr=15}",
 			"",
 			"{SOURCE Pathfinder #60: From Hell's Heart/66}  ",
 			"**XP** 51,200  ",
@@ -2470,7 +2470,7 @@
 		"description": [
 			"*This partially mechanical, partially organic spider moves with a skittering lurch. A single crystalline eye glares from its hideous face.*",
 			"",
-			"::mh[Ugothokra]{cr=\"7\"}",
+			"::mh[Ugothokra]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #88: Valley of the Brain Collectors/88}  ",
 			"**XP** 3,200  ",
@@ -2545,7 +2545,7 @@
 		"description": [
 			"*An emaciated humanoid bursts through the trees, brandishing a knife of black stone. His body is a patchwork of hair, skin, scales, and strange limbs stitched together with thick, black thread.*",
 			"",
-			"::mh[Umasi]{cr=\"4\"}",
+			"::mh[Umasi]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #39: The City of Seven Spears/88}  ",
 			"**XP** 1,200  ",
@@ -2604,7 +2604,7 @@
 		"description": [
 			"*This mass of shadow possesses a horrific demon face. Several writhing tentacles sprout from its grub-like body.*",
 			"",
-			"::mh[Umbral Shepherd]{cr=\"5\"}",
+			"::mh[Umbral Shepherd]{cr=5}",
 			"",
 			"{SOURCE Inner Sea Bestiary/53}  ",
 			"**XP** 1,600  ",
@@ -2661,7 +2661,7 @@
 		"description": [
 			"*What appeared at first glance to be the decaying husk of an enormous tree erupts into motion, as thick tendrils reach outward hungrily from all sides. Amid the jumble of motion, a subconscious whisper promises sleep and sweet rest to any that lie down at the thing's base.*",
 			"",
-			"::mh[Umdhlebi]{cr=\"12\"}",
+			"::mh[Umdhlebi]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #41: The Thousand Fangs Below/88}  ",
 			"**XP** 19,200  ",
@@ -2718,7 +2718,7 @@
 		"name": "Draugr Captain (Undead Pirate)",
 		"sources": [ "Isles of the Shackles" ],
 		"description": [
-			"::mh[Draugr Captain]{cr=\"4\"}",
+			"::mh[Draugr Captain]{cr=4}",
 			"",
 			"{SOURCE Isles of the Shackles/62}  ",
 			"**XP** 1,200  ",
@@ -2768,7 +2768,7 @@
 		"description": [
 			"*No flavor text.*",
 			"",
-			"::mh[Draugr Pirate]{cr=\"3\"}",
+			"::mh[Draugr Pirate]{cr=3}",
 			"",
 			"{SOURCE Isles of the Shackles/62}  ",
 			"**XP** 800  ",
@@ -2830,7 +2830,7 @@
 		"name": "Ghost Captain (Undead Pirate)",
 		"sources": [ "Isles of the Shackles" ],
 		"description": [
-			"::mh[Ghost Captain]{cr=\"7\"}",
+			"::mh[Ghost Captain]{cr=7}",
 			"",
 			"{SOURCE Isles of the Shackles/62}  ",
 			"**XP** 3,200  ",
@@ -2926,7 +2926,7 @@
 		"description": [
 			"*This brown-and-yellow sludge appears to be made of multiple smaller globules churning in a disgusting communal mass.*",
 			"",
-			"::mh[Undigested Swarm]{cr=\"5\"}",
+			"::mh[Undigested Swarm]{cr=5}",
 			"",
 			"{SOURCE Bestiary 5/258}  ",
 			"**XP** 1,600  ",
@@ -3051,7 +3051,7 @@
 		"description": [
 			"*This strange ghostly creature seems to writhe in the throes of some uncontrollable emotion.*",
 			"",
-			"::mh[Unfettered Phantom]{cr=\"4\"}",
+			"::mh[Unfettered Phantom]{cr=4}",
 			"",
 			"{SOURCE Bestiary 5/190}  ",
 			"**XP** 1,200  ",
@@ -3111,7 +3111,7 @@
 		"description": [
 			"*This magnificent beast looks like a white horse, but with a goat's beard and a single long ivory horn on its brow.*",
 			"",
-			"::mh[Unicorn]{cr=\"3\"}",
+			"::mh[Unicorn]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/269}  ",
 			"**XP** 800  ",
@@ -3175,7 +3175,7 @@
 		"description": [
 			"*This grotesque tangle of twisted bones, decayed flesh, and rotted organs is shaped into a vague parody of the human form.*",
 			"",
-			"::mh[Unrisen]{cr=\"5\"}",
+			"::mh[Unrisen]{cr=5}",
 			"",
 			"{SOURCE Bestiary 6/268}  ",
 			"**XP** 1,600  ",
@@ -3241,7 +3241,7 @@
 		"description": [
 			"*This two-headed cobra flies with a large pair of sleek, blackfeathered wings that sprout from its serpentine body.*",
 			"",
-			"::mh[Uraeus]{cr=\"5\"}",
+			"::mh[Uraeus]{cr=5}",
 			"",
 			"{SOURCE Bestiary 5/259;Osirion, Legacy of the Pharaohs/63}  ",
 			"**XP** 1,600  ",
@@ -3303,7 +3303,7 @@
 		"description": [
 			"*What at first appeared to be a sadistic spiked cage writhes into unholy life, extending bladed, articulated arms.*",
 			"",
-			"::mh[Urannag]{cr=\"8\"}",
+			"::mh[Urannag]{cr=8}",
 			"",
 			"{SOURCE Bestiary 5/260;The Worldwound/60}  ",
 			"**XP** 4,800  ",
@@ -3367,7 +3367,7 @@
 		"description": [
 			"*This fanged humanoid has hideously transparent skin, revealing the vivid colors of internal organs and ivory bones inside its body.*",
 			"",
-			"::mh[Urdefhan]{cr=\"3\"}",
+			"::mh[Urdefhan]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/276;Into the Darklands/60}  ",
 			"**XP** 800  ",
@@ -3442,7 +3442,7 @@
 		"description": [
 			"*The scent of death pours from this disheveled woman. Leather straps dotted with iron buckles bind her lean form.*",
 			"",
-			"::mh[Half-Fiend Scion]{cr=\"15\"}",
+			"::mh[Half-Fiend Scion]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/63}  ",
 			"**XP** 51,200  ",
@@ -3499,7 +3499,7 @@
 		"description": [
 			"*An elegant leather gown, skull-shaped studs, and a silken veil conceal much of this humanoid's transparent flesh.*",
 			"",
-			"::mh[Orvian Necromancer]{cr=\"12\"}",
+			"::mh[Orvian Necromancer]{cr=12}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/62}  ",
 			"**XP** 19,200  ",
@@ -3560,7 +3560,7 @@
 		"description": [
 			"*The smell of brine mingles with the sickly stench of uncured leather that surrounds this ferocious buccaneer.*",
 			"",
-			"::mh[Sightless Sea Sailor]{cr=\"4\"}",
+			"::mh[Sightless Sea Sailor]{cr=4}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/60}  ",
 			"**XP** 1,200  ",
@@ -3613,7 +3613,7 @@
 		"description": [
 			"*Additional straps and hooks concealed beneath this muscular horror's cloak secure it to the saddle of the rotting, flapping undead monstrosity he rides.*",
 			"",
-			"::mh[Skaveling Rider]{cr=\"10\"}",
+			"::mh[Skaveling Rider]{cr=10}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/61}  ",
 			"**XP** 9,600  ",
@@ -3688,7 +3688,7 @@
 		"description": [
 			"*This bat-like creature's body is mostly a large, toothy maw, held aloft by leathery wings. Its whip-thin tail ends in a slender stinger.*",
 			"",
-			"::mh[Urhag]{cr=\"3\"}",
+			"::mh[Urhag]{cr=3}",
 			"",
 			"{SOURCE Bestiary 6/269}  ",
 			"**XP** 800  ",
@@ -3748,7 +3748,7 @@
 		"description": [
 			"*This insect-like creature is covered in downy white fur. A pair of eyes gleams above a three-part mouth that drips viscous fluid.*",
 			"",
-			"::mh[Ursikka]{cr=\"10\"}",
+			"::mh[Ursikka]{cr=10}",
 			"",
 			"{SOURCE Bestiary 5/261;Pathfinder #70: The Frozen Stars/88}  ",
 			"**XP** 9,600  ",
@@ -3804,7 +3804,7 @@
 		"description": [
 			"*Surrounded by lightning, this impressive female warrior wears a gleaming golden breastplate and carries a shining spear.*",
 			"",
-			"::mh[Valkyrie]{cr=\"12\"}",
+			"::mh[Valkyrie]{cr=12}",
 			"",
 			"{SOURCE Bestiary 3/277}  ",
 			"**XP** 19,200  ",
@@ -3865,7 +3865,7 @@
 		"name": "Coffin Guard (Vampire Servant)",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Coffin Guard]{cr=\"3\"}",
+			"::mh[Coffin Guard]{cr=3}",
 			"",
 			"{SOURCE Monster Codex/238}  ",
 			"**XP** 800  ",
@@ -3917,7 +3917,7 @@
 		"name": "Weird Butler (Vampire Servant)",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Weird Butler]{cr=\"4\"}",
+			"::mh[Weird Butler]{cr=4}",
 			"",
 			"{SOURCE Monster Codex/238}  ",
 			"**XP** 1,200  ",
@@ -3968,7 +3968,7 @@
 		"name": "Enlightened Vampire",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Enlightened Vampire]{cr=\"12\"}",
+			"::mh[Enlightened Vampire]{cr=12}",
 			"",
 			"{SOURCE Monster Codex/242}  ",
 			"**XP** 19,200  ",
@@ -4021,7 +4021,7 @@
 		"name": "Vampire Lord",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Vampire Lord]{cr=\"15\"}",
+			"::mh[Vampire Lord]{cr=15}",
 			"",
 			"{SOURCE Monster Codex/243}  ",
 			"**XP** 51,200  ",
@@ -4079,7 +4079,7 @@
 		"name": "Vampire Savage",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Vampire Savage]{cr=\"10\"}",
+			"::mh[Vampire Savage]{cr=10}",
 			"",
 			"{SOURCE Monster Codex/241}  ",
 			"**XP** 9,600  ",
@@ -4139,7 +4139,7 @@
 		"name": "Vampire Seducer",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Vampire Seducer]{cr=\"6\"}",
+			"::mh[Vampire Seducer]{cr=6}",
 			"",
 			"{SOURCE Monster Codex/239}  ",
 			"**XP** 2,400  ",
@@ -4199,7 +4199,7 @@
 		"name": "Vampire Warrior",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Vampire Warrior]{cr=\"8\"}",
+			"::mh[Vampire Warrior]{cr=8}",
 			"",
 			"{SOURCE Monster Codex/240}  ",
 			"**XP** 4,800  ",
@@ -4265,7 +4265,7 @@
 		"description": [
 			"*A cloud of crimson vapor reeking of fresh blood hangs in the air, reaching out with lashing claws.*",
 			"",
-			"::mh[Vampiric Mist]{cr=\"3\"}",
+			"::mh[Vampiric Mist]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/277}  ",
 			"**XP** 800  ",
@@ -4387,7 +4387,7 @@
 		"description": [
 			"*This creature is a blackened, bat-winged fiend's head. Tentacles dangle from chin and scalp, and its fanged mouth hangs agape.*",
 			"",
-			"::mh[Vargouille]{cr=\"2\"}",
+			"::mh[Vargouille]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/272}  ",
 			"**XP** 600  ",
@@ -4446,7 +4446,7 @@
 		"description": [
 			"*This hairy humanoid's misshapen head appears too large for its body and it wields a lumpy, primitive club.*",
 			"",
-			"::mh[Ved]{cr=\"5\"}",
+			"::mh[Ved]{cr=5}",
 			"",
 			"{SOURCE Bestiary 5/263;Irrisen - Land of Eternal Winter/61}  ",
 			"**XP** 1,600  ",

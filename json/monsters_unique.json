@@ -5,7 +5,7 @@
 		"description": [
 			"*Stony segments cover this towering colossus like armor plates. Though it looks lifeless, its four arms move with supple grace.*",
 			"",
-			"::mh[Agmazar the Star Titan]{cr=\"26\"}",
+			"::mh[Agmazar the Star Titan]{cr=26}",
 			"",
 			"{SOURCE Mythic Realms/46}  ",
 			"**XP** 2,457,600  ",
@@ -88,7 +88,7 @@
 		"description": [
 			"*This humanoid creature has the head of a ravening, horned lion. A chorus of anguished screams echoes from his gaping maw.*",
 			"",
-			"::mh[Ahriman, Lord of All Divs]{cr=\"26\"}",
+			"::mh[Ahriman, Lord of All Divs]{cr=26}",
 			"",
 			"{SOURCE Mythic Realms/48;Pathfinder #24: The Final Wish/76}  ",
 			"**XP** 2,457,600  ",
@@ -174,7 +174,7 @@
 		"description": [
 			"*This beautiful female sphinx appears both wise and thoughtful.*",
 			"",
-			"::mh[Akilep, Lady of Stone]{cr=\"13\"}",
+			"::mh[Akilep, Lady of Stone]{cr=13}",
 			"",
 			"{SOURCE Mythical Monsters Revisited/57}  ",
 			"**XP** 25,600  ",
@@ -221,7 +221,7 @@
 		"description": [
 			"*This lithe, otherworldly woman has with deep brown eyes and dark green hair that cascades past her waist. She's adorned in trinkets made from a great white pine's needles and cones.*",
 			"",
-			"::mh[Amalya]{cr=\"6\"}",
+			"::mh[Amalya]{cr=6}",
 			"",
 			"{SOURCE Fey Revisited/8}  ",
 			"**XP** 2,400  ",
@@ -273,7 +273,7 @@
 		"description": [
 			"*This gray-skinned woman wears a royal gown that exposes the top of a jagged incision down the middle of her chest.*",
 			"",
-			"::mh[Arazni]{cr=\"26\" mr=\"8\"}",
+			"::mh[Arazni]{cr=26 mr=8}",
 			"",
 			"{SOURCE Mythic Realms/50}  ",
 			"**XP** 2,457,600  ",
@@ -351,7 +351,7 @@
 		"description": [
 			"*This swarm of droning black flies teems in the semblance of a winged angel with glowing red eyes.*",
 			"",
-			"::mh[Baalzebul]{cr=\"30\"}",
+			"::mh[Baalzebul]{cr=30}",
 			"",
 			"{SOURCE Bestiary 6/16}  ",
 			"**XP** 9,830,400  ",
@@ -434,7 +434,7 @@
 		"description": [
 			"*This humanoid wears a shabby hooded cloak. Within the darkness of its hood, eerie eyes glow and strange shapes twitch.*",
 			"",
-			"::mh[Barbatos]{cr=\"26\"}",
+			"::mh[Barbatos]{cr=26}",
 			"",
 			"{SOURCE Bestiary 6/18}  ",
 			"**XP** 2,457,600  ",
@@ -512,7 +512,7 @@
 		"description": [
 			"*One half of this figure's body is gleaming and beautiful with an angelic wing, while the other is scaled, scarred, and blackened.*",
 			"",
-			"::mh[Belial]{cr=\"28\"}",
+			"::mh[Belial]{cr=28}",
 			"",
 			"{SOURCE Bestiary 6/20}  ",
 			"**XP** 4,915,200  ",
@@ -596,7 +596,7 @@
 		"description": [
 			"*This diabolic figure is draped in a kingly robe and crowned with iron horns. He bears a long, heavy mace of black metal.*",
 			"",
-			"::mh[Dispater]{cr=\"27\"}",
+			"::mh[Dispater]{cr=27}",
 			"",
 			"{SOURCE Bestiary 6/22}  ",
 			"**XP** 3,276,800  ",
@@ -673,7 +673,7 @@
 		"description": [
 			"*This tripartite being has three humanoid bodies engulfed from the waist down by a tangle of three immense serpents.*",
 			"",
-			"::mh[Geryon]{cr=\"29\"}",
+			"::mh[Geryon]{cr=29}",
 			"",
 			"{SOURCE Bestiary 6/24}  ",
 			"**XP** 6,553,600  ",
@@ -756,7 +756,7 @@
 		"description": [
 			"*This shining being is humanoid, but its four arms, multiple legs, and horned head reveal its diabolic nature.*",
 			"",
-			"::mh[Mammon]{cr=\"28\"}",
+			"::mh[Mammon]{cr=28}",
 			"",
 			"{SOURCE Bestiary 6/26}  ",
 			"**XP** 4,915,200  ",
@@ -833,7 +833,7 @@
 		"description": [
 			"*This red-skinned devil has three sets of curving horns atop his brow and three mismatched pairs of wings.*",
 			"",
-			"::mh[Mephistopheles]{cr=\"30\"}",
+			"::mh[Mephistopheles]{cr=30}",
 			"",
 			"{SOURCE Bestiary 6/28}  ",
 			"**XP** 9,830,400  ",
@@ -910,7 +910,7 @@
 		"description": [
 			"*This immense figure appears to be a suit of blackened, diabolic armor filled with shrieking blasts of blistering fire.*",
 			"",
-			"::mh[Moloch]{cr=\"29\"}",
+			"::mh[Moloch]{cr=29}",
 			"",
 			"{SOURCE Bestiary 6/30}  ",
 			"**XP** 6,553,600  ",
@@ -993,7 +993,7 @@
 		"description": [
 			"*This hunched-over, vaguely humanoid creature has gauntly muscled biceps beneath a sandy hide and coarse fur. Its head is that of a jagged-toothed antelope, the face spotted with rot and sand slowly sifting out from between the fibers of its hair, and its legs end at the shin in stumps of charred flesh.*",
 			"",
-			"::mh[Aridus, the Desert's Howl]{cr=\"19\"}",
+			"::mh[Aridus, the Desert's Howl]{cr=19}",
 			"",
 			"{SOURCE Mythical Monsters Revisited/62}  ",
 			"**XP** 204,800  ",
@@ -1044,7 +1044,7 @@
 		"description": [
 			"*This pale woman is as beautiful as she is menacing-her smile promises endless bliss, yet her weapons and fangs drip with blood.*",
 			"",
-			"::mh[Ayandamahla, the Crimson Lotus]{cr=\"24\"}",
+			"::mh[Ayandamahla, the Crimson Lotus]{cr=24}",
 			"",
 			"{SOURCE Demons Revisited/56}  ",
 			"**XP** 1,228,800  ",
@@ -1100,7 +1100,7 @@
 		"name": "Baba Yaga",
 		"sources": [ "Pathfinder #72: The Witch Queen's Revenge" ],
 		"description": [
-			"::mh[Baba Yaga]{cr=\"30\" mr=\"10\"}",
+			"::mh[Baba Yaga]{cr=30 mr=10}",
 			"",
 			"{SOURCE Pathfinder #72: The Witch Queen's Revenge/74}  ",
 			"**XP** 9,830,400  ",
@@ -1172,7 +1172,7 @@
 		"description": [
 			"*A man with curling ram's horns sits astride a snorting, stamping black warhorse, gripping a dark, battle-worn spear.*",
 			"",
-			"::mh[Black Rider]{cr=\"13\"}",
+			"::mh[Black Rider]{cr=13}",
 			"",
 			"{SOURCE Irrisen - Land of Eternal Winter/53}  ",
 			"**XP** 25,600  ",
@@ -1236,7 +1236,7 @@
 		"description": [
 			"*A man with fiery red hair and antlers rides a red-gold stallion. His robes expose the hairy legs of a goat, ending in cloven hooves.*",
 			"",
-			"::mh[Red Rider]{cr=\"12\"}",
+			"::mh[Red Rider]{cr=12}",
 			"",
 			"{SOURCE Irrisen - Land of Eternal Winter/54}  ",
 			"**XP** 19,200  ",
@@ -1299,7 +1299,7 @@
 		"description": [
 			"*A tall, handsome woman sits astride a white horse. She grips an elegant longbow made of raw birch.*",
 			"",
-			"::mh[White Rider]{cr=\"11\"}",
+			"::mh[White Rider]{cr=11}",
 			"",
 			"{SOURCE Irrisen - Land of Eternal Winter/55}  ",
 			"**XP** 12,800  ",
@@ -1364,7 +1364,7 @@
 		"description": [
 			"*This lumbering toad-like demon wields a blood-soaked halberd in its powerful hands - one of those hands is clad in a rusting jagged gauntlet, while on the beast's misshapen head perches a leering helm made of greasy green metal.*",
 			"",
-			"::mh[Balravnus, Lord of the Deep Pools]{cr=\"18\"}",
+			"::mh[Balravnus, Lord of the Deep Pools]{cr=18}",
 			"",
 			"{SOURCE Demons Revisited/26}  ",
 			"**XP** 153,600  ",
@@ -1420,7 +1420,7 @@
 		"description": [
 			"*This shabby-cloaked figure is surrounded by hundreds of bees.*",
 			"",
-			"::mh[Bee-Man of Bellis]{cr=\"9\"}",
+			"::mh[Bee-Man of Bellis]{cr=9}",
 			"",
 			"{SOURCE Andoran, Birthplace of Freedom/51}  ",
 			"**XP** 6,400  ",
@@ -1480,7 +1480,7 @@
 		"description": [
 			"*This towering four-armed demon carries an evil-looking scepter in one of its two human hands - the other arms end in pincers.*",
 			"",
-			"::mh[Bezilak, the Silken Fang]{cr=\"17\"}",
+			"::mh[Bezilak, the Silken Fang]{cr=17}",
 			"",
 			"{SOURCE Demons Revisited/20}  ",
 			"**XP** 102,400  ",
@@ -1535,7 +1535,7 @@
 		"description": [
 			"*This enormous creature's serpentine neck supports a leering reptilian head - its body is a wriggling mass of tentacles.*",
 			"",
-			"::mh[Black Magga]{cr=\"15\"}",
+			"::mh[Black Magga]{cr=15}",
 			"",
 			"{SOURCE Rise of the Runelords Anniversary Edition/406;Pathfinder #3: The Hook Mountain Massacre/88}  ",
 			"**XP** 51,200  ",
@@ -1615,7 +1615,7 @@
 		"description": [
 			"*This alabaster-skinned man holds a rapier made of intricately carved crystal and wears armor made of the same material.*",
 			"",
-			"::mh[Captain Ignisco]{cr=\"6\"}",
+			"::mh[Captain Ignisco]{cr=6}",
 			"",
 			"{SOURCE Darklands Revisited/39}  ",
 			"**XP** 2,400  ",
@@ -1667,7 +1667,7 @@
 		"description": [
 			"*This woman with vaguely half-elven features wears a wooden breastplate and wields a wooden morningstar in one hand. In her other hand she holds a thorny red rose; blood from that hand trickles down her arm.*",
 			"",
-			"::mh[Courage Heart]{cr=\"15\"}",
+			"::mh[Courage Heart]{cr=15}",
 			"",
 			"{SOURCE Pathfinder #68: The Shackled Hut/84}  ",
 			"**XP** 51,200  ",
@@ -1753,7 +1753,7 @@
 		"description": [
 			"*This humanoid fiend has an overly long torso, black eyes, and a mouth full of razor-sharp teeth. It wears black robes that cover most of its rotting, frostbitten flesh.*",
 			"",
-			"::mh[Braismois]{cr=\"22\"}",
+			"::mh[Braismois]{cr=22}",
 			"",
 			"{SOURCE Druma, Profit and Prophecy/58}  ",
 			"**XP** 614,400  ",
@@ -1836,7 +1836,7 @@
 		"description": [
 			"*A rustic hut stands here, its timber walls hung with bundles of drying herbs and etched with eerie symbols. From beneath its splintering wooden porch extends a pair of legs, like those of a fifteen-foot-tall chicken with gigantic talons caked in mud but sharp as razors.*",
 			"",
-			"::mh[Dancing Hut of Baba Yaga]{cr=\"17\"}",
+			"::mh[Dancing Hut of Baba Yaga]{cr=17}",
 			"",
 			"{SOURCE Pathfinder #68: The Shackled Hut/63;Artifacts and Legends/22}  ",
 			"**XP** 102,400  ",
@@ -1890,7 +1890,7 @@
 		"description": [
 			"*Fire burns on the central horn and in the rheumy eyes of this bestial winged demon, who stands more than twice a human's height.*",
 			"",
-			"::mh[Baphomet]{cr=\"27\"}",
+			"::mh[Baphomet]{cr=27}",
 			"",
 			"{SOURCE Pathfinder #77: Herald of the Ivory Labyrinth/88}  ",
 			"**XP** 3,276,800  ",
@@ -1973,7 +1973,7 @@
 		"description": [
 			"*This demon's body is a nightmare of writhing tentacles and slippery coils below the leering maw of a deep sea predator.*",
 			"",
-			"::mh[Dagon]{cr=\"28\"}",
+			"::mh[Dagon]{cr=28}",
 			"",
 			"{SOURCE Bestiary 4/46}  ",
 			"**XP** 4,915,200  ",
@@ -2052,7 +2052,7 @@
 		"description": [
 			"*Larger than an elephant, this towering insectile nightmare wields a scythe made of bone. Its wings are swarms of biting flies, and its inhuman eyes glitter with cruel intelligence.*",
 			"",
-			"::mh[Deskari]{cr=\"29\"}",
+			"::mh[Deskari]{cr=29}",
 			"",
 			"{SOURCE Pathfinder #78: City of Locusts/88}  ",
 			"**XP** 6,553,600  ",
@@ -2135,7 +2135,7 @@
 		"description": [
 			"*This towering giant with twisted legs has human skulls woven into his beard and holds an immense warhammer.*",
 			"",
-			"::mh[Kostchtchie]{cr=\"26\"}",
+			"::mh[Kostchtchie]{cr=26}",
 			"",
 			"{SOURCE Bestiary 4/48}  ",
 			"**XP** 2,457,600  ",
@@ -2220,7 +2220,7 @@
 		"description": [
 			"*This frighteningly majestic creature spreads wide her runeadorned wings. Molten iron weeps from her hooves, and her three tails are studded with barbs.*",
 			"",
-			"::mh[Nocticula]{cr=\"30\"}",
+			"::mh[Nocticula]{cr=30}",
 			"",
 			"{SOURCE Pathfinder #76: The Midnight Isles/86}  ",
 			"**XP** 9,830,400  ",
@@ -2303,7 +2303,7 @@
 		"description": [
 			"*Held aloft by four great feathered wings, this hawk-faced fiend has a scorpion's tail and carries a black metal scepter.*",
 			"",
-			"::mh[Pazuzu]{cr=\"30\"}",
+			"::mh[Pazuzu]{cr=30}",
 			"",
 			"{SOURCE Bestiary 4/50}  ",
 			"**XP** 9,830,400  ",
@@ -2386,7 +2386,7 @@
 		"description": [
 			"*This stork-headed, winged humanoid is spattered with blood and wields a pair of gory, razor-sharp daggers in his dripping hands.*",
 			"",
-			"::mh[Shax]{cr=\"28\"}",
+			"::mh[Shax]{cr=28}",
 			"",
 			"{SOURCE Pathfinder #74: Sword of Valor/84}  ",
 			"**XP** 4,915,200  ",
@@ -2470,7 +2470,7 @@
 		"description": [
 			"*This gaunt woman has blood-soaked hair, eyes and lips stitched shut with wire, and severed limbs that float nearby as if they were still attached.*",
 			"",
-			"::mh[Sifkesh]{cr=\"28\"}",
+			"::mh[Sifkesh]{cr=28}",
 			"",
 			"{SOURCE Pathfinder #75: Demon's Heresy/86}  ",
 			"**XP** 4,915,200  ",
@@ -2553,7 +2553,7 @@
 		"description": [
 			"*This hulking, four-armed, four-headed, sting-tailed gargoyle stands as tall as a house.*",
 			"",
-			"::mh[Xoveron]{cr=\"27\"}",
+			"::mh[Xoveron]{cr=27}",
 			"",
 			"{SOURCE Pathfinder #73: The Worldwound Incursion/84}  ",
 			"**XP** 3,276,800  ",
@@ -2633,7 +2633,7 @@
 		"description": [
 			"*The air fills with the sound of hissing snakes as a giant, severed snake's head floats into view, with a gaping mouth and twin fangs dripping virulent poison. Its eyes are milky and blind, but its forked tongue constantly tests the air for fresh scents. Below the head, where a body should be, numerous hissing serpents thrash like tendrils of torn flesh. Blood drips from the severed head, sizzling as it burns like acid through anything it touches.*",
 			"",
-			"::mh[Emperor of Scales]{cr=\"15\"}",
+			"::mh[Emperor of Scales]{cr=15}",
 			"",
 			"{SOURCE Pathfinder #42: Sanctum of the Serpent God/82}  ",
 			"**XP** 51,200  ",

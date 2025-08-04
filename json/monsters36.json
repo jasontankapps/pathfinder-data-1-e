@@ -3,7 +3,7 @@
 		"name": "Ngoga",
 		"sources": [ "Lost Kingdoms" ],
 		"description": [
-			"::mh[Ngoga]{cr=\"7\"}",
+			"::mh[Ngoga]{cr=7}",
 			"",
 			"{SOURCE Lost Kingdoms/30}  ",
 			"**XP** 3,200  ",
@@ -59,7 +59,7 @@
 		"description": [
 			"*This lanky ebon humanoid has bat-like wings, horns, and a long prehensile tail, but lacks a face.*",
 			"",
-			"::mh[Nightgaunt]{cr=\"4\"}",
+			"::mh[Nightgaunt]{cr=4}",
 			"",
 			"{SOURCE Bestiary 4/203;Pathfinder #65: Into the Nightmare Rift/90}  ",
 			"**XP** 1,200  ",
@@ -119,7 +119,7 @@
 		"description": [
 			"*This eerie horse-like creature's skin is an inky blackness. Fire spurts from its hair and nostrils, and its hooves spray sparks.*",
 			"",
-			"::mh[Nightmare]{cr=\"5\"}",
+			"::mh[Nightmare]{cr=5}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/216}  ",
 			"**XP** 1,600  ",
@@ -172,7 +172,7 @@
 		"description": [
 			"*This towering, burning equine stands upon smoking hooves. Hellfire shimmers in its hateful eyes.*",
 			"",
-			"::mh[Cauchemar]{cr=\"11\"}",
+			"::mh[Cauchemar]{cr=11}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/216}  ",
 			"**XP** 12,800  ",
@@ -222,7 +222,7 @@
 		"description": [
 			"*This immense worm is covered with plates of dead-black, chitinous armor. Its toothy maw yawns like a cave.*",
 			"",
-			"::mh[Nightcrawler]{cr=\"18\"}",
+			"::mh[Nightcrawler]{cr=18}",
 			"",
 			"{SOURCE Bestiary 2/200}  ",
 			"**XP** 153,600  ",
@@ -288,7 +288,7 @@
 		"description": [
 			"*This bulky predator's feline form is cloaked in shadows, save for its red eyes, which glow with a baleful hatred.*",
 			"",
-			"::mh[Nightprowler]{cr=\"10\"}",
+			"::mh[Nightprowler]{cr=10}",
 			"",
 			"{SOURCE Pathfinder #102: Breaking the Bones of Hell/90}  ",
 			"**XP** 9,600  ",
@@ -370,7 +370,7 @@
 		"description": [
 			"*This towering, night-black giant has demonic features, including a huge pair of ram-like horns. Its arms end in massive blades.*",
 			"",
-			"::mh[Nightwalker]{cr=\"16\"}",
+			"::mh[Nightwalker]{cr=16}",
 			"",
 			"{SOURCE Bestiary 2/201}  ",
 			"**XP** 76,800  ",
@@ -436,7 +436,7 @@
 		"description": [
 			"*Immense almost beyond belief, this sleek, midnight-black shark rises from the sea like an unholy island heaved up from below.*",
 			"",
-			"::mh[Nightwave]{cr=\"20\"}",
+			"::mh[Nightwave]{cr=20}",
 			"",
 			"{SOURCE Bestiary 2/202}  ",
 			"**XP** 307,200  ",
@@ -500,7 +500,7 @@
 		"description": [
 			"*This enormous, bat-like creature is shaped from utter darkness, its eyes tiny red stars in the blackest night.*",
 			"",
-			"::mh[Nightwing]{cr=\"14\"}",
+			"::mh[Nightwing]{cr=14}",
 			"",
 			"{SOURCE Bestiary 2/203}  ",
 			"**XP** 38,400  ",
@@ -564,7 +564,7 @@
 		"description": [
 			"*A mass of black, bramble-like tentacles writhes from the back of this vague, shifting humanoid. Inky skin covers the creature, and ebon claws curve long and thin from the tips of its fingers. Numerous tendrils of wispy shadow hold the creature aloft while others rise above its shoulders in strange, wriggling wings.*",
 			"",
-			"::mh[Nihiloi]{cr=\"11\"}",
+			"::mh[Nihiloi]{cr=11}",
 			"",
 			"{SOURCE Pathfinder #29: Mother of Flies/86}  ",
 			"**XP** 12,800  ",
@@ -628,7 +628,7 @@
 		"description": [
 			"*This emaciated humanoid is barely visible in a swirl of engulfing shadow. Its eyes and mouth reveal a burning void within its head.*",
 			"",
-			"::mh[Nimbral Child]{cr=\"11\"}",
+			"::mh[Nimbral Child]{cr=11}",
 			"",
 			"{SOURCE Cradle of Night/63}  ",
 			"**XP** 12,800  ",
@@ -686,7 +686,7 @@
 		"description": [
 			"*This enormous flippered creature is as pale as an iceberg and is nearly as large.*",
 			"",
-			"::mh[Ningen]{cr=\"16\"}",
+			"::mh[Ningen]{cr=16}",
 			"",
 			"{SOURCE Bestiary 5/183}  ",
 			"**XP** 76,800  ",
@@ -750,7 +750,7 @@
 		"description": [
 			"*This hideous sea monstrosity combines the most ferocious features of simian and carp, its fish-like tail sprouting a grotesquely primitive humanoid torso, head, and limbs. Although little more than 2 feet long, the nasty thing gibbers wildly as it gnashes its curling fangs and swipes at prey with webbed claws.*",
 			"",
-			"::mh[Ningyo]{cr=\"1\"}",
+			"::mh[Ningyo]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #37: Souls for Smuggler's Shiv/80;Bestiary 4/206}  ",
 			"**XP** 400  ",
@@ -808,7 +808,7 @@
 		"description": [
 			"*The repulsively fused features of a dried fish and desiccated humanoid combine in these monstrous remains. The crackle of tiny grinding bones and the hiss of parched scales whisper with every motion as the snarling miniature mummy drags its shriveled corpse forward.*",
 			"",
-			"::mh[Undead Ningyo]{cr=\"1\"}",
+			"::mh[Undead Ningyo]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #37: Souls for Smuggler's Shiv/80}  ",
 			"**XP** 400  ",
@@ -871,7 +871,7 @@
 		"description": [
 			"*Thorny vines encircle this tropical tree's thick, spongy trunk, and jungle debris lies strewn about its base.*",
 			"",
-			"::mh[Nirento]{cr=\"4\"}",
+			"::mh[Nirento]{cr=4}",
 			"",
 			"{SOURCE Isles of the Shackles/55}  ",
 			"**XP** 1,200  ",
@@ -922,7 +922,7 @@
 		"description": [
 			"*Thorny vines encircle this tropical tree's thick, spongy trunk, and jungle debris lies strewn about its base.*",
 			"",
-			"::mh[Elder Nirento]{cr=\"6\"}",
+			"::mh[Elder Nirento]{cr=6}",
 			"",
 			"{SOURCE Isles of the Shackles/55}  ",
 			"**XP** 2,400  ",
@@ -969,7 +969,7 @@
 		"description": [
 			"*This small, naked creature looks like a lithe halfling, but with long, tapered ears and tough, brown skin. His hair is unkempt and his flesh is weathered, but his large eyes glitter violet.*",
 			"",
-			"::mh[Nisid]{cr=\"4\"}",
+			"::mh[Nisid]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #122: Into the Shattered Continent/83}  ",
 			"**XP** 1,200  ",
@@ -1117,7 +1117,7 @@
 		"description": [
 			"*Pale skin and dark features frame this starkly beautiful creature, which is surrounded by a palpable aura of death.*",
 			"",
-			"::mh[Orphne]{cr=\"4\"}",
+			"::mh[Orphne]{cr=4}",
 			"",
 			"{SOURCE Down the Blighted Path/58}  ",
 			"**XP** 1,200  ",
@@ -1178,7 +1178,7 @@
 		"description": [
 			"*This short, iron-skinned horse is surrounded by a flickering light. A preternatural intelligence glitters in its metallic golden eyes.*",
 			"",
-			"::mh[Orsheval]{cr=\"4\"}",
+			"::mh[Orsheval]{cr=4}",
 			"",
 			"{SOURCE Inner Sea Gods/277}  ",
 			"**XP** 1,200  ",
@@ -1236,7 +1236,7 @@
 		"name": "Ossumental (Air)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
-			"::mh[Ossumental (Air)]{cr=\"12\"}",
+			"::mh[Ossumental (Air)]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #83: The Slave Trenches of Hakotep/89}  ",
 			"**XP** 19,200  ",
@@ -1298,7 +1298,7 @@
 		"description": [
 			"*This towering collection of sun-bleached bones is assembled in a humanoid form.*",
 			"",
-			"::mh[Ossumental (Earth)]{cr=\"12\"}",
+			"::mh[Ossumental (Earth)]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #83: The Slave Trenches of Hakotep/88}  ",
 			"**XP** 19,200  ",
@@ -1358,7 +1358,7 @@
 		"name": "Ossumental (Fire)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
-			"::mh[Ossumental (Fire)]{cr=\"12\"}",
+			"::mh[Ossumental (Fire)]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #83: The Slave Trenches of Hakotep/88}  ",
 			"**XP** 19,200  ",
@@ -1421,7 +1421,7 @@
 		"name": "Ossumental (Water)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
-			"::mh[Ossumental (Water)]{cr=\"12\"}",
+			"::mh[Ossumental (Water)]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #83: The Slave Trenches of Hakotep/89}  ",
 			"**XP** 19,200  ",
@@ -1483,7 +1483,7 @@
 		"description": [
 			"*This tiny, skittering creature looks like an insect made of fish bones, with a head full of glowing red eyes.*",
 			"",
-			"::mh[Ostovite]{cr=\"1\"}",
+			"::mh[Ostovite]{cr=1}",
 			"",
 			"{SOURCE Bestiary 5/187}  ",
 			"**XP** 400  ",
@@ -1537,7 +1537,7 @@
 		"description": [
 			"*This human-sized bird has a long neck and legs sprouting from a round body covered in fluffy gray feathers.*",
 			"",
-			"::mh[Ostrich]{cr=\"1\"}",
+			"::mh[Ostrich]{cr=1}",
 			"",
 			"{SOURCE Osirion, Legacy of the Pharaohs/55}  ",
 			"**XP** 400  ",
@@ -1588,7 +1588,7 @@
 		"description": [
 			"*This three-legged freak is mostly mouth. Three tentacles, two tipped with barbs and one with eyes, extend from its sides.*",
 			"",
-			"::mh[Otyugh]{cr=\"4\"}",
+			"::mh[Otyugh]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/223}  ",
 			"**XP** 1,200  ",
@@ -1642,7 +1642,7 @@
 		"description": [
 			"*This serpentine creature chews at its own tail. Its body consists of a multitude of entangled serpents with countless hissing jaws.*",
 			"",
-			"::mh[Ouroboros]{cr=\"21\"}",
+			"::mh[Ouroboros]{cr=21}",
 			"",
 			"{SOURCE Bestiary 6/206}  ",
 			"**XP** 409,600  ",
@@ -1718,7 +1718,7 @@
 		"description": [
 			"*This thing looks like a skeletal human torso coated in liquid shadow, obscuring its bones but clearly revealing its shape.*",
 			"",
-			"::mh[Owb]{cr=\"6\"}",
+			"::mh[Owb]{cr=6}",
 			"",
 			"{SOURCE Bestiary 4/210}  ",
 			"**XP** 2,400  ",
@@ -1786,7 +1786,7 @@
 		"description": [
 			"*This creature resembles the skeletal torso of a winged, four-armed giant draped in tatters of liquid shadow.*",
 			"",
-			"::mh[Owb Prophet]{cr=\"13\"}",
+			"::mh[Owb Prophet]{cr=13}",
 			"",
 			"{SOURCE Cradle of Night/64}  ",
 			"**XP** 25,600  ",
@@ -1871,7 +1871,7 @@
 		"description": [
 			"*This enormous owl has a silent gracefulness and wisdom about it despite its considerable size.*",
 			"",
-			"::mh[Giant Owl]{cr=\"5\"}",
+			"::mh[Giant Owl]{cr=5}",
 			"",
 			"{SOURCE Bestiary 3/213}  ",
 			"**XP** 1,600  ",
@@ -1972,7 +1972,7 @@
 		"description": [
 			"*An amalgam of fur and feathers, this bizarre half-bear, half-owl monstrosity raises its huge, ursine claws in anger.*",
 			"",
-			"::mh[Owlbear]{cr=\"4\"}",
+			"::mh[Owlbear]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/224}  ",
 			"**XP** 1,200  ",
@@ -2025,7 +2025,7 @@
 		"description": [
 			"*Chunks of rock spin about a humanoid form of vibrant green light.*",
 			"",
-			"::mh[Ozimat]{cr=\"11\"}",
+			"::mh[Ozimat]{cr=11}",
 			"",
 			"{SOURCE Planes of Power/62}  ",
 			"**XP** 12,800  ",
@@ -2076,7 +2076,7 @@
 		"description": [
 			"*This crab-like creature has the torso and head of a human, one arm ending in a massive claw, and another arm wielding a scimitar. It scuttles on six legs that emerge from beneath a massive shell with glinting metal and gems embedded into its surface.*",
 			"",
-			"::mh[Paguroida]{cr=\"9\"}",
+			"::mh[Paguroida]{cr=9}",
 			"",
 			"{SOURCE Pathfinder #122: Into the Shattered Continent/86}  ",
 			"**XP** 6,400  ",
@@ -2152,7 +2152,7 @@
 		"description": [
 			"*This nearly skeletal figure wields a pistol in each hand. Its garb is dusty and weathered, and smells of old decay.*",
 			"",
-			"::mh[Pale Stranger]{cr=\"10\"}",
+			"::mh[Pale Stranger]{cr=10}",
 			"",
 			"{SOURCE Bestiary 3/214}  ",
 			"**XP** 9,600  ",
@@ -2213,7 +2213,7 @@
 		"description": [
 			"*This macabre beauty holds her ebon-feathered wings spread behind her. Her skin and clothing are soaked and splattered with blood, wine, and other fluids.*",
 			"",
-			"::mh[Pallid Angel]{cr=\"12\"}",
+			"::mh[Pallid Angel]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #141: Last Watch/82}  ",
 			"**XP** 19,200  ",
@@ -2291,7 +2291,7 @@
 		"description": [
 			"*This black-and-white-furred bear is about as long in the body as an average human - but much rounder.*",
 			"",
-			"::mh[Panda]{cr=\"2\"}",
+			"::mh[Panda]{cr=2}",
 			"",
 			"{SOURCE Animal Archive/29}  ",
 			"**XP** 600  ",
@@ -2338,7 +2338,7 @@
 		"description": [
 			"*This bald humanoid looks strikingly human except for the long folds of skin that droop from his head and neck to just above his ankles.*",
 			"",
-			"::mh[Panotti]{cr=\"2\"}",
+			"::mh[Panotti]{cr=2}",
 			"",
 			"{SOURCE Murder's Mark/29}  ",
 			"**XP** 600  ",
@@ -2394,7 +2394,7 @@
 		"description": [
 			"*This imposing one-eyed giant wears fragments of crude armor and a breechcloth adorned with skulls. Its breath reeks of pestilence.*",
 			"",
-			"::mh[Papinijuwari]{cr=\"13\"}",
+			"::mh[Papinijuwari]{cr=13}",
 			"",
 			"{SOURCE Bestiary 5/188}  ",
 			"**XP** 25,600  ",
@@ -2454,7 +2454,7 @@
 		"description": [
 			"*This brightly-colored feline blur resembles a cheetah with longer fur and lynx-like ears, and seems to scorch the air as it moves.*",
 			"",
-			"::mh[Pard]{cr=\"3\"}",
+			"::mh[Pard]{cr=3}",
 			"",
 			"{SOURCE Bestiary 4/211}  ",
 			"**XP** 800  ",
@@ -2509,7 +2509,7 @@
 		"description": [
 			"*This majestic tiger has white fur with deep blue stripes. It glows with divine radiance and radiates an aura of calm.*",
 			"",
-			"::mh[Pavbagha]{cr=\"4\"}",
+			"::mh[Pavbagha]{cr=4}",
 			"",
 			"{SOURCE Inner Sea Gods/295}  ",
 			"**XP** 1,200  ",
@@ -2575,7 +2575,7 @@
 		"description": [
 			"*This pale yellow humanoid has blank, bulging white eyes and gangly arms and legs. It clutches a pickaxe in its knobby hands.*",
 			"",
-			"::mh[Pech]{cr=\"3\"}",
+			"::mh[Pech]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/206}  ",
 			"**XP** 800  ",
@@ -2635,7 +2635,7 @@
 		"description": [
 			"*This magnificient horse has great bird-like wings upon its back and moves with a quiet and proud grace.*",
 			"",
-			"::mh[Pegasus]{cr=\"3\"}",
+			"::mh[Pegasus]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/225}  ",
 			"**XP** 800  ",
@@ -2694,7 +2694,7 @@
 		"description": [
 			"*This long-necked dragon has steamy breath, a lashing tail, and a back covered in hundreds of quills.*",
 			"",
-			"::mh[Peluda]{cr=\"10\"}",
+			"::mh[Peluda]{cr=10}",
 			"",
 			"{SOURCE Bestiary 4/212;Pathfinder #33: The Varnhold Vanishing/86}  ",
 			"**XP** 9,600  ",
@@ -2753,7 +2753,7 @@
 		"description": [
 			"*This beautiful albino woman is wreathed in wings of brilliant flame.*",
 			"",
-			"::mh[Peri]{cr=\"14\"}",
+			"::mh[Peri]{cr=14}",
 			"",
 			"{SOURCE Bestiary 3/218}  ",
 			"**XP** 38,400  ",
@@ -2815,7 +2815,7 @@
 		"description": [
 			"*This creature has a stag's body, a hawk's wings and talons, and the head of a slavering wolf with a rack of sharp antlers on its brow.*",
 			"",
-			"::mh[Peryton]{cr=\"4\"}",
+			"::mh[Peryton]{cr=4}",
 			"",
 			"{SOURCE Bestiary 2/207;Pathfinder #19: Howl of the Carrion King/86}  ",
 			"**XP** 1,200  ",
@@ -2872,7 +2872,7 @@
 		"description": [
 			"*These songbird-sized drakes declare their territory with an insistent chorus of shrill chirps.*",
 			"",
-			"::mh[Pest Drake Swarm]{cr=\"9\"}",
+			"::mh[Pest Drake Swarm]{cr=9}",
 			"",
 			"{SOURCE Pathfinder #141: Last Watch/84}  ",
 			"**XP** 6,400  ",
@@ -2944,7 +2944,7 @@
 		"description": [
 			"*Fresh blood seeps from the cracks of this weathered but exquisitely detailed stone sculpture of a warrior woman.*",
 			"",
-			"::mh[Petrified Maiden]{cr=\"6\"}",
+			"::mh[Petrified Maiden]{cr=6}",
 			"",
 			"{SOURCE Inner Sea Bestiary/37}  ",
 			"**XP** 2,400  ",
@@ -3057,7 +3057,7 @@
 		"description": [
 			"*This enormous snake has glowing green eyes, large fangs, and wide, membranous wings.*",
 			"",
-			"::mh[Peuchen]{cr=\"10\"}",
+			"::mh[Peuchen]{cr=10}",
 			"",
 			"{SOURCE Bestiary 5/189}  ",
 			"**XP** 9,600  ",
@@ -3117,7 +3117,7 @@
 		"description": [
 			"*This suit of armor moves with a warrior's deadly skill despite obviously being empty.*",
 			"",
-			"::mh[Giant Phantom Armor]{cr=\"4\"}",
+			"::mh[Giant Phantom Armor]{cr=4}",
 			"",
 			"{SOURCE Bestiary 4/213;Pathfinder #47: Ashes at Dawn/84}  ",
 			"**XP** 1,200  ",
@@ -3173,7 +3173,7 @@
 		"description": [
 			"*This suit of armor moves with a warrior's deadly skill despite obviously being empty.*",
 			"",
-			"::mh[Guardian Phantom Armor]{cr=\"2\"}",
+			"::mh[Guardian Phantom Armor]{cr=2}",
 			"",
 			"{SOURCE Bestiary 4/213;Pathfinder #47: Ashes at Dawn/84}  ",
 			"**XP** 600  ",
@@ -3225,7 +3225,7 @@
 		"description": [
 			"*Though at first appearing to be an ordinary suit of armor, this imposing being begins to move, its lumbering movements slow and methodical.*",
 			"",
-			"::mh[Hollow Helm]{cr=\"1\"}",
+			"::mh[Hollow Helm]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #47: Ashes at Dawn/84}  ",
 			"**XP** 400  ",
@@ -3286,7 +3286,7 @@
 		"name": "Phantom Lancer (Phantom Armor)",
 		"sources": [ "Pathfinder #47: Ashes at Dawn" ],
 		"description": [
-			"::mh[Phantom Lancer]{cr=\"6\"}",
+			"::mh[Phantom Lancer]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #47: Ashes at Dawn/84}  ",
 			"**XP** 2,400  ",
@@ -3349,7 +3349,7 @@
 		"description": [
 			"*Portions of this three-stalked fungoid monster's body seem to fade in and out of sight. A large maw gapes along its entire front.*",
 			"",
-			"::mh[Phantom Fungus]{cr=\"3\"}",
+			"::mh[Phantom Fungus]{cr=3}",
 			"",
 			"{SOURCE Bestiary 3/219}  ",
 			"**XP** 800  ",
@@ -3407,7 +3407,7 @@
 		"description": [
 			"*This translucent humanoid figure has an animal's head. Rising from its back are wings of chilling white light.*",
 			"",
-			"::mh[Pharaonic Guardian]{cr=\"11\"}",
+			"::mh[Pharaonic Guardian]{cr=11}",
 			"",
 			"{SOURCE Bestiary 5/191;Osirion, Legacy of the Pharaohs/60}  ",
 			"**XP** 12,800  ",
@@ -3467,7 +3467,7 @@
 		"description": [
 			"*The body of this monstrous creature is a foul mass of sore-covered flesh, a blubbery worm with the upper torso of a deformed man.*",
 			"",
-			"::mh[Pharmakos]{cr=\"15\"}",
+			"::mh[Pharmakos]{cr=15}",
 			"",
 			"{SOURCE Curse of the Crimson Throne/475}  ",
 			"**XP** 51,200  ",
@@ -3524,7 +3524,7 @@
 		"description": [
 			"*This large spider-like monster has an eerie, humanoid face surrounded by a shaggy mane of fur.*",
 			"",
-			"::mh[Phase Spider]{cr=\"5\"}",
+			"::mh[Phase Spider]{cr=5}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/226}  ",
 			"**XP** 1,600  ",
@@ -3584,7 +3584,7 @@
 		"description": [
 			"*This immense bird seems to be made of living flame. It spreads its wings and gives vent to a musical cry as it takes to the air.*",
 			"",
-			"::mh[Phoenix]{cr=\"15\"}",
+			"::mh[Phoenix]{cr=15}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/227}  ",
 			"**XP** 51,200  ",
@@ -3643,7 +3643,7 @@
 		"description": [
 			"*This tangle of purple-capped mushrooms growing out of a nasty green sludge shudders and writhes, wafting tendrils of smoke.*",
 			"",
-			"::mh[Phycomid]{cr=\"4\"}",
+			"::mh[Phycomid]{cr=4}",
 			"",
 			"{SOURCE Bestiary 2/210}  ",
 			"**XP** 1,200  ",
@@ -3696,7 +3696,7 @@
 		"description": [
 			"*This hollow-eyed, blue-skinned woman has a vulture's wings, bird-like talons for hands and feet, and a fang-filled mouth.*",
 			"",
-			"::mh[Rabisu]{cr=\"11\"}",
+			"::mh[Rabisu]{cr=11}",
 			"",
 			"{SOURCE Qadira, Jewel of the East/62}  ",
 			"**XP** 12,800  ",
@@ -3817,7 +3817,7 @@
 		"description": [
 			"*This creature has a hairless body and a black-striped abdomen. It prominently displays a pair of large, serrated, bright red fangs.*",
 			"",
-			"::mh[Razormouth]{cr=\"11\"}",
+			"::mh[Razormouth]{cr=11}",
 			"",
 			"{SOURCE Bestiary 6/256}  ",
 			"**XP** 12,800  ",
@@ -3866,7 +3866,7 @@
 		"description": [
 			"*This tall, cloaked figure stares out from the black hood that covers its head. It wields an enormous scythe in its skeletal, bone-white hands, looking as though it is freezing the very air around it.*",
 			"",
-			"::mh[Grim Reaper]{cr=\"20\"}",
+			"::mh[Grim Reaper]{cr=20}",
 			"",
 			"{SOURCE Pathfinder #48: Shadows of Gallowspire/86}  ",
 			"**XP** 307,200  ",
@@ -3942,7 +3942,7 @@
 		"name": "Minor Reaper",
 		"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
 		"description": [
-			"::mh[Minor Reaper]{cr=\"10\"}",
+			"::mh[Minor Reaper]{cr=10}",
 			"",
 			"{SOURCE Pathfinder #48: Shadows of Gallowspire/86}  ",
 			"**XP** 9,600  ",
@@ -4017,7 +4017,7 @@
 		"description": [
 			"*Squeaks and chittering cries rise from a tangle of diseased rats with their tails knotted together.*",
 			"",
-			"::mh[Rat King]{cr=\"5\"}",
+			"::mh[Rat King]{cr=5}",
 			"",
 			"{SOURCE Bestiary 4/225}  ",
 			"**XP** 1,600  ",
@@ -4125,7 +4125,7 @@
 		"description": [
 			"*A squirming, roiling mass of squeaking rats draws closer, teeth flashing and claws scratching everything in its path.*",
 			"",
-			"::mh[Rat Swarm]{cr=\"2\"}",
+			"::mh[Rat Swarm]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/232}  ",
 			"**XP** 600  ",
@@ -4180,7 +4180,7 @@
 		"description": [
 			"*This rat-like creature has tiny human hands in place of its front paws, and an unnerving human face with a toothy mouth.*",
 			"",
-			"::mh[Ratling]{cr=\"2\"}",
+			"::mh[Ratling]{cr=2}",
 			"",
 			"{SOURCE Bestiary 4/226;Pathfinder #49: The Brinewall Legacy/86}  ",
 			"**XP** 600  ",

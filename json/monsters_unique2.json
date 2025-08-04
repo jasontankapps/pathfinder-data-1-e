@@ -5,7 +5,7 @@
 		"description": [
 			"*This great reptilian monster is an aquatic lizard with a beard of tentacles and a sting-tipped tail.*",
 			"",
-			"::mh[Bokrug]{cr=\"27\"}",
+			"::mh[Bokrug]{cr=27}",
 			"",
 			"{SOURCE Bestiary 4/136}  ",
 			"**XP** 3,276,800  ",
@@ -90,7 +90,7 @@
 		"description": [
 			"*This towering impossibility, neither quite octopus nor dragon nor giant but something far worse, must surely herald the end of times.*",
 			"",
-			"::mh[Cthulhu]{cr=\"30\"}",
+			"::mh[Cthulhu]{cr=30}",
 			"",
 			"{SOURCE Bestiary 4/138}  ",
 			"**XP** 9,830,400  ",
@@ -171,7 +171,7 @@
 		"description": [
 			"*An insane tangle of eyes and mouths, arms and legs, tentacles and worse rises up upon itself, a mountain of madness come to life.*",
 			"",
-			"::mh[Ghatanothoa]{cr=\"29\"}",
+			"::mh[Ghatanothoa]{cr=29}",
 			"",
 			"{SOURCE Pathfinder #114: Black Stars Beckon/84}  ",
 			"**XP** 6,553,600  ",
@@ -248,7 +248,7 @@
 		"description": [
 			"*This entity appears to be a skeletal human form hidden under tattered yellow robes, but it moves with unsettling, inhuman grace.*",
 			"",
-			"::mh[Hastur]{cr=\"29\"}",
+			"::mh[Hastur]{cr=29}",
 			"",
 			"{SOURCE Bestiary 4/140}  ",
 			"**XP** 6,553,600  ",
@@ -327,7 +327,7 @@
 		"description": [
 			"*This looming humanoid shape has long, gangly limbs, glowing red eyes, and a gaping mouth full of fangs.*",
 			"",
-			"::mh[Ithaqua]{cr=\"28\"}",
+			"::mh[Ithaqua]{cr=28}",
 			"",
 			"{SOURCE Pathfinder #109: In Search of Sanity/82}  ",
 			"**XP** 4,915,200  ",
@@ -416,7 +416,7 @@
 		"description": [
 			"*Eight pairs of crystalline legs support this enormous volcano. The volcano's crater constantly spews smoke and roiling lava.*",
 			"",
-			"::mh[Mhar]{cr=\"26\"}",
+			"::mh[Mhar]{cr=26}",
 			"",
 			"{SOURCE Pathfinder #138: Rise of New Thassilon/86}  ",
 			"**XP** 2,457,600  ",
@@ -494,7 +494,7 @@
 		"description": [
 			"*This massive worm-like creature appears to be made of solid darkness that sucks surrounding light into its body to be forever extinguished.*",
 			"",
-			"::mh[Mordiggian]{cr=\"30\"}",
+			"::mh[Mordiggian]{cr=30}",
 			"",
 			"{SOURCE Pathfinder #110: The Thrushmoor Terror/86}  ",
 			"**XP** 9,830,400  ",
@@ -577,7 +577,7 @@
 		"description": [
 			"*This six-legged, spider-like monstrosity has a bloated abdomen and a hideous face from which three bulbous eyes glare.*",
 			"",
-			"::mh[Rhan-Tegoth]{cr=\"28\"}",
+			"::mh[Rhan-Tegoth]{cr=28}",
 			"",
 			"{SOURCE Bestiary 6/146}  ",
 			"**XP** 4,915,200  ",
@@ -660,7 +660,7 @@
 		"description": [
 			"*A gray robe and veil obscure this humanoid's form, save for a foaming mass of bubbles and tentacles extending from below.*",
 			"",
-			"::mh[Tawil At'umr]{cr=\"30\"}",
+			"::mh[Tawil At'umr]{cr=30}",
 			"",
 			"{SOURCE Bestiary 6/148}  ",
 			"**XP** 9,830,400  ",
@@ -744,7 +744,7 @@
 		"description": [
 			"*Neither quite humanoid nor quite toad, this lumbering monstrosity maintains a malevolent expression on its bat-like face.*",
 			"",
-			"::mh[Tsathoggua]{cr=\"29\"}",
+			"::mh[Tsathoggua]{cr=29}",
 			"",
 			"{SOURCE Pathfinder #111: Dreams of the Yellow King/84}  ",
 			"**XP** 6,553,600  ",
@@ -840,7 +840,7 @@
 		"description": [
 			"*A hideous tangle of hair-like fungal filaments writhes with nauseating purpose. Bones lie tangled in the wriggling mass, arrayed around a central draconic skull.*",
 			"",
-			"::mh[Xhamen-Dor]{cr=\"26\"}",
+			"::mh[Xhamen-Dor]{cr=26}",
 			"",
 			"{SOURCE Pathfinder #113: What Grows Within/86}  ",
 			"**XP** 2,457,600  ",
@@ -923,7 +923,7 @@
 		"description": [
 			"*This green-scaled humanoid has a long, serpentine neck and head, and its brow is marked by a distinctive crescent shape.*",
 			"",
-			"::mh[Yig]{cr=\"27\"}",
+			"::mh[Yig]{cr=27}",
 			"",
 			"{SOURCE Bestiary 6/150}  ",
 			"**XP** 3,276,800  ",
@@ -1004,7 +1004,7 @@
 		"description": [
 			"*Shards of broken manacles, links of chain, and iron flails are imbedded in this hideous, human-sized man's ruddy flesh. Rivulets of congealing blood run from its soaked cap down its mangled face and neck, soaking its tangled white beard; in its arms looms a rusty but clearly sharp scythe.*",
 			"",
-			"::mh[Grendler Red-Chains]{cr=\"11\"}",
+			"::mh[Grendler Red-Chains]{cr=11}",
 			"",
 			"{SOURCE Fey Revisited/44}  ",
 			"**XP** 12,800  ",
@@ -1049,7 +1049,7 @@
 		"description": [
 			"*This cloud of swirling energy flickers like lightning, with raw magical power playing across its form.*",
 			"",
-			"::mh[Arcanotheign]{cr=\"15\"}",
+			"::mh[Arcanotheign]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/298;Pathfinder #41: The Thousand Fangs Below/82}  ",
 			"**XP** 51,200  ",
@@ -1119,7 +1119,7 @@
 		"description": [
 			"*This comely man is clad in fine silken robes. His eyes smolder with infernal flames.*",
 			"",
-			"::mh[Basileus]{cr=\"15\"}",
+			"::mh[Basileus]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/278;Pathfinder #29: Mother of Flies/78}  ",
 			"**XP** 51,200  ",
@@ -1181,7 +1181,7 @@
 		"description": [
 			"*A long crimson cloak drapes over the form of this large faceless being, which floats just above the ground on footless legs as its menacing flail crackles with blue currents of electricity.*",
 			"",
-			"::mh[End's Voice]{cr=\"15\"}",
+			"::mh[End's Voice]{cr=15}",
 			"",
 			"{SOURCE Pathfinder #64: Beyond the Doomsday Door/84}  ",
 			"**XP** 51,200  ",
@@ -1260,7 +1260,7 @@
 		"description": [
 			"*This creature's body rises from the ground in an amorphous mass of grave dirt and eroded bone. Its upper half is humanoid-shaped and wields an enormous pick made from a giant's rib and skull.*",
 			"",
-			"::mh[Gravedragger]{cr=\"15\"}",
+			"::mh[Gravedragger]{cr=15}",
 			"",
 			"{SOURCE Pathfinder #89: Palace of Fallen Stars/86}  ",
 			"**XP** 51,200  ",
@@ -1342,7 +1342,7 @@
 		"description": [
 			"*This ancient stone giant towers over others of his kind and has a crown of crystalline growths sprouting from his head. He holds a warhammer made of meteoric stone pierced by natural deposits of glinting metallic ore.*",
 			"",
-			"::mh[Great Elder Iuu]{cr=\"15\"}",
+			"::mh[Great Elder Iuu]{cr=15}",
 			"",
 			"{SOURCE Pathfinder #93: Forge of the Giant God/86}  ",
 			"**XP** 51,200  ",
@@ -1434,7 +1434,7 @@
 		"description": [
 			"*This tall angel has a halo of spinning blades, and is clad is radiant golden armor and equally radiant shield.*",
 			"",
-			"::mh[Hand of the Inheritor]{cr=\"15\"}",
+			"::mh[Hand of the Inheritor]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/292;Pathfinder #26: The Sixfold Trial/86}  ",
 			"**XP** 51,200  ",
@@ -1494,7 +1494,7 @@
 		"description": [
 			"*This clockwork termite is the size of a rhinoceros and has an oversized head with a humanoid face on it. Multiple apertures along its body sprout tool-wielding limbs, and a human-sized hatch on its abdomen chitters and clicks like a menacing maw.*",
 			"",
-			"::mh[Latten Mechanism]{cr=\"15\"}",
+			"::mh[Latten Mechanism]{cr=15}",
 			"",
 			"{SOURCE Pathfinder #86: Lords of Rust/84}  ",
 			"**XP** 51,200  ",
@@ -1581,7 +1581,7 @@
 		"description": [
 			"*This skull is as large as an ogre and surrounded by buzzing flies. Its bat wings are too small to actually carry it, yet it moves through the air as easily as a bird. It is surrounded by the stink of rotting meat, spice, and perfume.*",
 			"",
-			"::mh[Mother's Maw]{cr=\"15\"}",
+			"::mh[Mother's Maw]{cr=15}",
 			"",
 			"{SOURCE Pathfinder #47: Ashes at Dawn/82}  ",
 			"**XP** 51,200  ",
@@ -1658,7 +1658,7 @@
 		"description": [
 			"*Jagged bolts of lightning crackle within this massive and vaguely humanoid storm cloud.*",
 			"",
-			"::mh[Personification of Fury]{cr=\"15\"}",
+			"::mh[Personification of Fury]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/290;Pathfinder #38: Racing to Ruin/88}  ",
 			"**XP** 51,200  ",
@@ -1732,7 +1732,7 @@
 		"description": [
 			"*Skulls adorn the armor of this winged woman. Her helm reveals nothing of her features but a pair of glowing eyes.*",
 			"",
-			"::mh[Steward of the Skein]{cr=\"15\"}",
+			"::mh[Steward of the Skein]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/302;Pathfinder #44: Trial of the Beast/90}  ",
 			"**XP** 51,200  ",
@@ -1797,7 +1797,7 @@
 		"description": [
 			"*This platinum-skinned, four-armed angelic being glows with the power of the sun. He bears two flaming scimitars and a bow.*",
 			"",
-			"::mh[Sunlord Thalachos]{cr=\"15\"}",
+			"::mh[Sunlord Thalachos]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/306;Pathfinder #20: House of the Beast/86}  ",
 			"**XP** 51,200  ",
@@ -1864,7 +1864,7 @@
 		"description": [
 			"*This immense reptilian beast towers over its surroundings, all teeth and horns and claws and thrashing spiked tail.*",
 			"",
-			"::mh[Tarrasque]{cr=\"25\"}",
+			"::mh[Tarrasque]{cr=25}",
 			"",
 			"{SOURCE Inner Sea Gods/304;Pathfinder RPG Bestiary/262}  ",
 			"**XP** 1,638,400  ",
@@ -1931,7 +1931,7 @@
 		"description": [
 			"*This defiant, angelic woman has two black wings and three white wings, and bears a crystalline halberd.*",
 			"",
-			"::mh[Thais]{cr=\"15\"}",
+			"::mh[Thais]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/282;Pathfinder #14: Children of the Void/86}  ",
 			"**XP** 51,200  ",
@@ -1999,7 +1999,7 @@
 		"description": [
 			"*Harsh flourishes decorate the armor of this ironclad giant, as though it were the war regalia of some merciless warlord.*",
 			"",
-			"::mh[The First Blade]{cr=\"15\"}",
+			"::mh[The First Blade]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/288;Pathfinder #35: War of the River Kings/82}  ",
 			"**XP** 51,200  ",
@@ -2070,7 +2070,7 @@
 		"description": [
 			"*Made of polished iron, this mighty golem resembles a keen-eyed dwarf. It carries a warhammer and a shield bearing Torag's symbol.*",
 			"",
-			"::mh[The Grand Defender]{cr=\"15\"}",
+			"::mh[The Grand Defender]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/310}  ",
 			"**XP** 51,200  ",
@@ -2136,7 +2136,7 @@
 		"description": [
 			"*This gigantic stag-like being blurs the line between plant and beast, its horns branching like the limbs of some ancient, leaf less tree.*",
 			"",
-			"::mh[The Grim White Stag]{cr=\"15\"}",
+			"::mh[The Grim White Stag]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/286;Pathfinder #32: Rivers Run Red/82}  ",
 			"**XP** 51,200  ",
@@ -2201,7 +2201,7 @@
 		"description": [
 			"*This gangly black wasp has delicate wings, articulate hands on its front legs, and a pair of jagged stingers the length of a human arm.*",
 			"",
-			"::mh[The Menotherian]{cr=\"15\"}",
+			"::mh[The Menotherian]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/280}  ",
 			"**XP** 51,200  ",
@@ -2270,7 +2270,7 @@
 		"description": [
 			"*This bald old human man has long white eyebrows and an even longer white beard. He carries a staff adorned with metal rings.*",
 			"",
-			"::mh[The Old Man]{cr=\"15\"}",
+			"::mh[The Old Man]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/294;Pathfinder #53: Tide of Honor/86}  ",
 			"**XP** 51,200  ",
@@ -2333,7 +2333,7 @@
 		"description": [
 			"*This heavenly warrior appears to be a work of art come to life. She grips a fearsome glaive that trails brilliant colors.*",
 			"",
-			"::mh[The Spirit of Adoration]{cr=\"15\"}",
+			"::mh[The Spirit of Adoration]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/308}  ",
 			"**XP** 51,200  ",
@@ -2402,7 +2402,7 @@
 		"description": [
 			"*This towering, scorpion-tailed man stalks with a soundless grace and murderous intent.*",
 			"",
-			"::mh[The Stabbing Beast]{cr=\"15\"}",
+			"::mh[The Stabbing Beast]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/300;Pathfinder #59: The Price of Infamy/90}  ",
 			"**XP** 51,200  ",
@@ -2468,7 +2468,7 @@
 		"description": [
 			"*This muscular figure has a skeletal ram's head and a cloud of flies spews from his mouth.*",
 			"",
-			"::mh[Apollyon]{cr=\"29\"}",
+			"::mh[Apollyon]{cr=29}",
 			"",
 			"{SOURCE Bestiary 6/160}  ",
 			"**XP** 6,553,600  ",
@@ -2547,7 +2547,7 @@
 		"description": [
 			"*This ancient figure is dressed in black, and its eyes are sunken pits that glint with malevolent cunning.*",
 			"",
-			"::mh[Charon]{cr=\"30\"}",
+			"::mh[Charon]{cr=30}",
 			"",
 			"{SOURCE Bestiary 6/162}  ",
 			"**XP** 9,830,400  ",
@@ -2633,7 +2633,7 @@
 		"description": [
 			"*This blond woman's pitch-black eyes weep tears of blood, and a massive pair of raven's wings spreads from her shoulders.*",
 			"",
-			"::mh[Szuriel]{cr=\"28\"}",
+			"::mh[Szuriel]{cr=28}",
 			"",
 			"{SOURCE Bestiary 6/164}  ",
 			"**XP** 4,915,200  ",
@@ -2711,7 +2711,7 @@
 		"description": [
 			"*This starving-thin man has a trio of jackal's heads with jagged, crystalline teeth. His oily black flesh ripples disturbingly.*",
 			"",
-			"::mh[Trelmarixian]{cr=\"27\"}",
+			"::mh[Trelmarixian]{cr=27}",
 			"",
 			"{SOURCE Bestiary 6/166}  ",
 			"**XP** 3,276,800  ",
@@ -2791,7 +2791,7 @@
 		"description": [
 			"*This lithe, shadowy creature is obviously feminine, yet the talons and horns leave no doubt as to her fiendish nature.*",
 			"",
-			"::mh[Ilzunae, the Gloom Widow]{cr=\"19\"}",
+			"::mh[Ilzunae, the Gloom Widow]{cr=19}",
 			"",
 			"{SOURCE Demons Revisited/32}  ",
 			"**XP** 204,800  ",
@@ -2866,7 +2866,7 @@
 		"description": [
 			"*Clad in mithral and furs and armed with a glowing sword made of ice, this towering, blue-skinned humanoid has a regal presence.*",
 			"",
-			"::mh[Jarl Gnargorak]{cr=\"25\" mr=\"8\"}",
+			"::mh[Jarl Gnargorak]{cr=25 mr=8}",
 			"",
 			"{SOURCE Mythic Realms/52}  ",
 			"**XP** 1,638,400  ",
@@ -2930,7 +2930,7 @@
 		"description": [
 			"*This two-headed monstrosity has vast wings and a long tail covered in a forest of blades.*",
 			"",
-			"::mh[Agyra]{cr=\"27\"}",
+			"::mh[Agyra]{cr=27}",
 			"",
 			"{SOURCE Bestiary 4/166}  ",
 			"**XP** 3,276,800  ",
@@ -3006,7 +3006,7 @@
 		"description": [
 			"*The armored plates of this immense, three-tailed scorpion are fiery red, and its stingers glow with molten heat.*",
 			"",
-			"::mh[Bezravnis]{cr=\"26\"}",
+			"::mh[Bezravnis]{cr=26}",
 			"",
 			"{SOURCE Bestiary 4/168}  ",
 			"**XP** 2,457,600  ",

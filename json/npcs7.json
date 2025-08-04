@@ -3,7 +3,7 @@
 		"name": "Crime Lord",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Crime Lord]{cr=\"18\"}",
+			"::mh[Crime Lord]{cr=18}",
 			"",
 			"{SOURCE NPC Codex/94}  ",
 			"**XP** 153,600  ",
@@ -56,7 +56,7 @@
 		"name": "Death Dealer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Death Dealer]{cr=\"18\"}",
+			"::mh[Death Dealer]{cr=18}",
 			"",
 			"{SOURCE NPC Codex/24}  ",
 			"**XP** 153,600  ",
@@ -103,7 +103,7 @@
 		"name": "Death Whisperer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Death Whisperer]{cr=\"18\"}",
+			"::mh[Death Whisperer]{cr=18}",
 			"",
 			"{SOURCE NPC Codex/158}  ",
 			"**XP** 153,600  ",
@@ -156,7 +156,7 @@
 		"name": "Fate-Bound Mage",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Fate-Bound Mage]{cr=\"18\"}",
+			"::mh[Fate-Bound Mage]{cr=18}",
 			"",
 			"{SOURCE NPC Codex/176}  ",
 			"**XP** 153,600  ",
@@ -216,7 +216,7 @@
 		"name": "Geb Blood Lord",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Geb Blood Lord]{cr=\"18\"}",
+			"::mh[Geb Blood Lord]{cr=18}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/23}  ",
 			"**XP** 153,600  ",
@@ -267,7 +267,7 @@
 		"name": "Mage Hunter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mage Hunter]{cr=\"18\"}",
+			"::mh[Mage Hunter]{cr=18}",
 			"",
 			"{SOURCE NPC Codex/142}  ",
 			"**XP** 153,600  ",
@@ -319,7 +319,7 @@
 		"name": "Master Spy",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Master Spy]{cr=\"18\"}",
+			"::mh[Master Spy]{cr=18}",
 			"",
 			"{SOURCE NPC Codex/42}  ",
 			"**XP** 153,600  ",
@@ -381,7 +381,7 @@
 		"name": "Mithral Master",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mithral Master]{cr=\"18\"}",
+			"::mh[Mithral Master]{cr=18}",
 			"",
 			"{SOURCE NPC Codex/126}  ",
 			"**XP** 153,600  ",
@@ -439,7 +439,7 @@
 		"name": "Priest of Oblivion",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Priest of Oblivion]{cr=\"18\"}",
+			"::mh[Priest of Oblivion]{cr=18}",
 			"",
 			"{SOURCE NPC Codex/60}  ",
 			"**XP** 153,600  ",
@@ -500,7 +500,7 @@
 		"name": "Puppet Master",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Puppet Master]{cr=\"18\"}",
+			"::mh[Puppet Master]{cr=18}",
 			"",
 			"{SOURCE NPC Codex/194}  ",
 			"**XP** 153,600  ",
@@ -564,7 +564,7 @@
 		"name": "Rage Flame",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Rage Flame]{cr=\"18\"}",
+			"::mh[Rage Flame]{cr=18}",
 			"",
 			"{SOURCE NPC Codex/78}  ",
 			"**XP** 153,600  ",
@@ -626,7 +626,7 @@
 		"name": "Sword Savant",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Sword Savant]{cr=\"18\"}",
+			"::mh[Sword Savant]{cr=18}",
 			"",
 			"{SOURCE NPC Codex/110}  ",
 			"**XP** 153,600  ",
@@ -680,7 +680,7 @@
 		"name": "Stage Magician",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Stage Magician]{cr=\"8\"}",
+			"::mh[Stage Magician]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/204}  ",
 			"**XP** 4,800  ",
@@ -731,7 +731,7 @@
 		"name": "Steadfast Defender",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Steadfast Defender]{cr=\"8\"}",
+			"::mh[Steadfast Defender]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/100}  ",
 			"**XP** 4,800  ",
@@ -786,7 +786,7 @@
 		"name": "Storm Prophet",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Storm Prophet]{cr=\"8\"}",
+			"::mh[Storm Prophet]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/212}  ",
 			"**XP** 4,800  ",
@@ -843,7 +843,7 @@
 		"name": "Swampwalker",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Swampwalker]{cr=\"8\"}",
+			"::mh[Swampwalker]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/132}  ",
 			"**XP** 4,800  ",
@@ -901,7 +901,7 @@
 		"name": "Temple (Priest)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Temple (Priest)]{cr=\"8\"}",
+			"::mh[Temple (Priest)]{cr=8}",
 			"",
 			"{SOURCE GameMastery Guide/305}  ",
 			"**XP** 4,800  ",
@@ -954,7 +954,7 @@
 		"name": "Traitor",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Traitor]{cr=\"8\"}",
+			"::mh[Traitor]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/259}  ",
 			"**XP** 4,800  ",
@@ -999,7 +999,7 @@
 		"name": "Tribal Champion",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Tribal Champion]{cr=\"8\"}",
+			"::mh[Tribal Champion]{cr=8}",
 			"",
 			"{SOURCE NPC Codex/216}  ",
 			"**XP** 4,800  ",
@@ -1053,7 +1053,7 @@
 		"name": "Villager (Mayor)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Villager (Mayor)]{cr=\"8\"}",
+			"::mh[Villager (Mayor)]{cr=8}",
 			"",
 			"{SOURCE GameMastery Guide/309}  ",
 			"**XP** 4,800  ",
@@ -1096,7 +1096,7 @@
 		"name": "Absalom Wave Rider",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Absalom Wave Rider]{cr=\"3\"}",
+			"::mh[Absalom Wave Rider]{cr=3}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/3}  ",
 			"**XP** 800  ",
@@ -1146,7 +1146,7 @@
 		"name": "Barmaid",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Barmaid]{cr=\"3\"}",
+			"::mh[Barmaid]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/257}  ",
 			"**XP** 800  ",
@@ -1190,7 +1190,7 @@
 		"description": [
 			"*This howling berserker has milky white eyes and an enormous axe wielded by muscular arms.*",
 			"",
-			"::mh[Berserker Cannibal]{cr=\"3\"}",
+			"::mh[Berserker Cannibal]{cr=3}",
 			"",
 			"{SOURCE Lands of the Linnorm Kings/54}  ",
 			"**XP** 800  ",
@@ -1243,7 +1243,7 @@
 		"name": "Bleachling Lunatic",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Bleachling Lunatic]{cr=\"3\"}",
+			"::mh[Bleachling Lunatic]{cr=3}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/12}  ",
 			"**XP** 800  ",
@@ -1298,7 +1298,7 @@
 		"name": "Border Guard",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Border Guard]{cr=\"3\"}",
+			"::mh[Border Guard]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/129}  ",
 			"**XP** 800  ",
@@ -1351,7 +1351,7 @@
 		"name": "Charlatan",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Charlatan]{cr=\"3\"}",
+			"::mh[Charlatan]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/145}  ",
 			"**XP** 800  ",
@@ -1404,7 +1404,7 @@
 		"name": "Chernasardo Sniper",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Chernasardo Sniper]{cr=\"3\"}",
+			"::mh[Chernasardo Sniper]{cr=3}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/15}  ",
 			"**XP** 800  ",
@@ -1449,7 +1449,7 @@
 		"name": "City Watch (Guard Officer)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[City Watch (Guard Officer)]{cr=\"3\"}",
+			"::mh[City Watch (Guard Officer)]{cr=3}",
 			"",
 			"{SOURCE GameMastery Guide/261}  ",
 			"**XP** 800  ",
@@ -1495,7 +1495,7 @@
 		"name": "Criminal (Slaver)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Criminal (Slaver)]{cr=\"3\"}",
+			"::mh[Criminal (Slaver)]{cr=3}",
 			"",
 			"{SOURCE GameMastery Guide/266}  ",
 			"**XP** 800  ",
@@ -1542,7 +1542,7 @@
 		"name": "Dog Rider",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Dog Rider]{cr=\"3\"}",
+			"::mh[Dog Rider]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/11}  ",
 			"**XP** 800  ",
@@ -1589,7 +1589,7 @@
 		"name": "Dungeon (Turnkey)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Dungeon (Turnkey)]{cr=\"3\"}",
+			"::mh[Dungeon (Turnkey)]{cr=3}",
 			"",
 			"{SOURCE GameMastery Guide/271}  ",
 			"**XP** 800  ",
@@ -1634,7 +1634,7 @@
 		"name": "Enforcer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Enforcer]{cr=\"3\"}",
+			"::mh[Enforcer]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/246}  ",
 			"**XP** 800  ",
@@ -1683,7 +1683,7 @@
 		"name": "Averaka Giant Slayer",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Averaka Giant Slayer]{cr=\"7\"}",
+			"::mh[Averaka Giant Slayer]{cr=7}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/10}  ",
 			"**XP** 3,200  ",
@@ -1733,7 +1733,7 @@
 		"name": "Axe Dancer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Axe Dancer]{cr=\"7\"}",
+			"::mh[Axe Dancer]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/99}  ",
 			"**XP** 3,200  ",
@@ -1778,7 +1778,7 @@
 		"name": "Cavalry Soldier",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Cavalry Soldier]{cr=\"7\"}",
+			"::mh[Cavalry Soldier]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/270}  ",
 			"**XP** 3,200  ",
@@ -1828,7 +1828,7 @@
 		"name": "Constable",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Constable]{cr=\"7\"}",
+			"::mh[Constable]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/259}  ",
 			"**XP** 3,200  ",
@@ -1872,7 +1872,7 @@
 		"name": "Cutthroat Lawyer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Cutthroat Lawyer]{cr=\"7\"}",
+			"::mh[Cutthroat Lawyer]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/264}  ",
 			"**XP** 3,200  ",
@@ -1920,7 +1920,7 @@
 		"name": "Daggermark Poisoner",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Daggermark Poisoner]{cr=\"7\"}",
+			"::mh[Daggermark Poisoner]{cr=7}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/17}  ",
 			"**XP** 3,200  ",
@@ -1979,7 +1979,7 @@
 		"name": "Desert Protector",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Desert Protector]{cr=\"7\"}",
+			"::mh[Desert Protector]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/115}  ",
 			"**XP** 3,200  ",
@@ -2034,7 +2034,7 @@
 		"name": "Fastidious Sharpshooter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Fastidious Sharpshooter]{cr=\"7\"}",
+			"::mh[Fastidious Sharpshooter]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/83}  ",
 			"**XP** 3,200  ",
@@ -2080,7 +2080,7 @@
 		"name": "Frontier (Guide)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Frontier (Guide)]{cr=\"7\"}",
+			"::mh[Frontier (Guide)]{cr=7}",
 			"",
 			"{SOURCE GameMastery Guide/277}  ",
 			"**XP** 3,200  ",
@@ -2123,7 +2123,7 @@
 		"name": "Glaive Rager",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Glaive Rager]{cr=\"7\"}",
+			"::mh[Glaive Rager]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/13}  ",
 			"**XP** 3,200  ",
@@ -2166,7 +2166,7 @@
 		"name": "Gray Gardener",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Gray Gardener]{cr=\"7\"}",
+			"::mh[Gray Gardener]{cr=7}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/26}  ",
 			"**XP** 3,200  ",
@@ -2223,7 +2223,7 @@
 		"name": "Gray Maiden",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Gray Maiden]{cr=\"7\"}",
+			"::mh[Gray Maiden]{cr=7}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/27}  ",
 			"**XP** 3,200  ",
@@ -2267,7 +2267,7 @@
 		"name": "Healer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Healer]{cr=\"7\"}",
+			"::mh[Healer]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/248}  ",
 			"**XP** 3,200  ",
@@ -2323,7 +2323,7 @@
 		"name": "Hellknight Signifer",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Hellknight Signifer]{cr=\"7\"}",
+			"::mh[Hellknight Signifer]{cr=7}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/32}  ",
 			"**XP** 3,200  ",
@@ -2378,7 +2378,7 @@
 		"name": "Knight",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Knight]{cr=\"7\"}",
+			"::mh[Knight]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/254}  ",
 			"**XP** 3,200  ",
@@ -2427,7 +2427,7 @@
 		"name": "Knight of Ozem",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Knight of Ozem]{cr=\"7\"}",
+			"::mh[Knight of Ozem]{cr=7}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/34}  ",
 			"**XP** 3,200  ",
@@ -2481,7 +2481,7 @@
 		"name": "Marauder (Viking)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Marauder (Viking)]{cr=\"7\"}",
+			"::mh[Marauder (Viking)]{cr=7}",
 			"",
 			"{SOURCE GameMastery Guide/281}  ",
 			"**XP** 3,200  ",
@@ -2527,7 +2527,7 @@
 		"name": "Mercenary (Sellsword)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Mercenary (Sellsword)]{cr=\"7\"}",
+			"::mh[Mercenary (Sellsword)]{cr=7}",
 			"",
 			"{SOURCE GameMastery Guide/283}  ",
 			"**XP** 3,200  ",
@@ -2573,7 +2573,7 @@
 		"name": "Noble (Knight)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Noble (Knight)]{cr=\"7\"}",
+			"::mh[Noble (Knight)]{cr=7}",
 			"",
 			"{SOURCE GameMastery Guide/289}  ",
 			"**XP** 3,200  ",
@@ -2620,7 +2620,7 @@
 		"name": "Orc Slayer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Orc Slayer]{cr=\"7\"}",
+			"::mh[Orc Slayer]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/131}  ",
 			"**XP** 3,200  ",
@@ -2672,7 +2672,7 @@
 		"description": [
 			"*This human adventurer wears a long, light-colored leather coat, a wide-brimmed hat, and a belt that keeps her tools, sheathed weapons, and vials within easy reach.*",
 			"",
-			"::mh[Osirionologist]{cr=\"7\"}",
+			"::mh[Osirionologist]{cr=7}",
 			"",
 			"{SOURCE Osirion, Legacy of the Pharaohs/59}  ",
 			"**XP** 3,200  ",
@@ -2727,7 +2727,7 @@
 		"description": [
 			"*A metal mask covers the face of this attentive guard.*",
 			"",
-			"::mh[Ossuary Agent]{cr=\"7\"}",
+			"::mh[Ossuary Agent]{cr=7}",
 			"",
 			"{SOURCE Tombs of Golarion/43}  ",
 			"**XP** 3,200  ",
@@ -2771,7 +2771,7 @@
 		"name": "Sea Captain",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Sea Captain]{cr=\"7\"}",
+			"::mh[Sea Captain]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/67}  ",
 			"**XP** 3,200  ",
@@ -2837,7 +2837,7 @@
 		"name": "Seductive Enchanter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Seductive Enchanter]{cr=\"7\"}",
+			"::mh[Seductive Enchanter]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/183}  ",
 			"**XP** 3,200  ",
@@ -2901,7 +2901,7 @@
 		"name": "Street Artist",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Street Artist]{cr=\"7\"}",
+			"::mh[Street Artist]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/31}  ",
 			"**XP** 3,200  ",
@@ -2963,7 +2963,7 @@
 		"name": "Acid Terror",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Acid Terror]{cr=\"12\"}",
+			"::mh[Acid Terror]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/213}  ",
 			"**XP** 19,200  ",
@@ -3026,7 +3026,7 @@
 		"name": "Arcanothief",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Arcanothief]{cr=\"12\"}",
+			"::mh[Arcanothief]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/205}  ",
 			"**XP** 19,200  ",
@@ -3088,7 +3088,7 @@
 		"name": "Azure Bolt Sorcerer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Azure Bolt Sorcerer]{cr=\"12\"}",
+			"::mh[Azure Bolt Sorcerer]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/170}  ",
 			"**XP** 19,200  ",
@@ -3152,7 +3152,7 @@
 		"name": "Brutal Warlord",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Brutal Warlord]{cr=\"12\"}",
+			"::mh[Brutal Warlord]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/88}  ",
 			"**XP** 19,200  ",
@@ -3205,7 +3205,7 @@
 		"name": "Champion of Magic",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Champion of Magic]{cr=\"12\"}",
+			"::mh[Champion of Magic]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/222}  ",
 			"**XP** 19,200  ",
@@ -3270,7 +3270,7 @@
 		"name": "Death Initiate",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Death Initiate]{cr=\"12\"}",
+			"::mh[Death Initiate]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/209}  ",
 			"**XP** 19,200  ",
@@ -3325,7 +3325,7 @@
 		"name": "Dragon Smiter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Dragon Smiter]{cr=\"12\"}",
+			"::mh[Dragon Smiter]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/120}  ",
 			"**XP** 19,200  ",
@@ -3386,7 +3386,7 @@
 		"name": "Feisty Hotspur",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Feisty Hotspur]{cr=\"12\"}",
+			"::mh[Feisty Hotspur]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/217}  ",
 			"**XP** 19,200  ",
@@ -3438,7 +3438,7 @@
 		"name": "Fey Friend",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Fey Friend]{cr=\"12\"}",
+			"::mh[Fey Friend]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/72}  ",
 			"**XP** 19,200  ",
@@ -3502,7 +3502,7 @@
 		"name": "Fiendslayer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Fiendslayer]{cr=\"12\"}",
+			"::mh[Fiendslayer]{cr=12}",
 			"",
 			"{SOURCE NPC Codex/136}  ",
 			"**XP** 19,200  ",

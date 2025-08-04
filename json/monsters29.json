@@ -70,7 +70,7 @@
 		"description": [
 			"*Wrapped in tatters of dark musty robes, this humanoid figure weaves malevolent magic.*",
 			"",
-			"::mh[Dark Caller]{cr=\"5\"}",
+			"::mh[Dark Caller]{cr=5}",
 			"",
 			"{SOURCE Bestiary 4/42}  ",
 			"**XP** 1,600  ",
@@ -136,7 +136,7 @@
 		"description": [
 			"*This gaunt humanoid's body is entirely cased in black plate armor. Its open-faced helm reveals its pale skin and shallow, fleshy hollows where its eyes should be.*",
 			"",
-			"::mh[Dark Champion]{cr=\"5\"}",
+			"::mh[Dark Champion]{cr=5}",
 			"",
 			"{SOURCE Cradle of Night/62}  ",
 			"**XP** 1,600  ",
@@ -195,7 +195,7 @@
 		"description": [
 			"*Filthy, reeking black rags wrap this small humanoid from head to toe, leaving only its hands and pale white nose visible.*",
 			"",
-			"::mh[Dark Creeper]{cr=\"2\"}",
+			"::mh[Dark Creeper]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/53}  ",
 			"**XP** 600  ",
@@ -260,7 +260,7 @@
 		"description": [
 			"*Dancing in a wicked celebration, this slight humanoid is wrapped head to toe in dirty scraps of dark cloth.*",
 			"",
-			"::mh[Dark Dancer]{cr=\"1\"}",
+			"::mh[Dark Dancer]{cr=1}",
 			"",
 			"{SOURCE Bestiary 4/43}  ",
 			"**XP** 400  ",
@@ -319,7 +319,7 @@
 		"description": [
 			"*This gaunt, hunched humanoid's unblinking eyes stare out from a pale face wrapped in dark cloth.*",
 			"",
-			"::mh[Dark Empath]{cr=\"2\"}",
+			"::mh[Dark Empath]{cr=2}",
 			"",
 			"{SOURCE Occult Bestiary/18}  ",
 			"**XP** 600  ",
@@ -382,7 +382,7 @@
 		"description": [
 			"*This small humanoid is clothed in tattered rags from head to foot. Only its sinister eyes and pale hands are visible.*",
 			"",
-			"::mh[Dark Slayer]{cr=\"3\"}",
+			"::mh[Dark Slayer]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/75}  ",
 			"**XP** 800  ",
@@ -447,7 +447,7 @@
 		"description": [
 			"*This tall humanoid's pale brow and black, soulless eyes are all that can be seen above a black scarf wrapped around its face.*",
 			"",
-			"::mh[Dark Stalker]{cr=\"4\"}",
+			"::mh[Dark Stalker]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/54}  ",
 			"**XP** 1,200  ",
@@ -512,7 +512,7 @@
 		"description": [
 			"*This obese humanoid has a wide mouth, bat-like wings, and pale fluid seeping from rolls of black, greasy skin.*",
 			"",
-			"::mh[Gristly Demodand]{cr=\"17\"}",
+			"::mh[Gristly Demodand]{cr=17}",
 			"",
 			"{SOURCE Bestiary 5/72}  ",
 			"**XP** 102,400  ",
@@ -575,7 +575,7 @@
 		"description": [
 			"*This toad-faced humanoid is bloated and swollen, with folds of obsidian skin hanging down beneath two immense bat wings.*",
 			"",
-			"::mh[Shaggy Demodand]{cr=\"18\"}",
+			"::mh[Shaggy Demodand]{cr=18}",
 			"",
 			"{SOURCE Bestiary 3/69}  ",
 			"**XP** 153,600  ",
@@ -632,7 +632,7 @@
 		"description": [
 			"*This muscular, frog-headed humanoid has tattered flesh hanging from its bat-like wings and is covered in a viscous slime.*",
 			"",
-			"::mh[Slimy Demodand]{cr=\"16\"}",
+			"::mh[Slimy Demodand]{cr=16}",
 			"",
 			"{SOURCE Bestiary 3/70}  ",
 			"**XP** 76,800  ",
@@ -696,7 +696,7 @@
 		"description": [
 			"*This titanic mass of flesh is covered in razor-sharp scales and has bony wings, four taloned arms, and a toothy, toad-like head.*",
 			"",
-			"::mh[Squamous Demodand]{cr=\"20\"}",
+			"::mh[Squamous Demodand]{cr=20}",
 			"",
 			"{SOURCE Book of the Damned/244}  ",
 			"**XP** 307,200  ",
@@ -767,7 +767,7 @@
 		"description": [
 			"*This lanky, winged humanoid is covered in layers of long, ropy skin growths.*",
 			"",
-			"::mh[Stringy Demodand]{cr=\"15\"}",
+			"::mh[Stringy Demodand]{cr=15}",
 			"",
 			"{SOURCE Bestiary 5/73;Pathfinder #77: Herald of the Ivory Labyrinth/84}  ",
 			"**XP** 51,200  ",
@@ -830,7 +830,7 @@
 		"description": [
 			"*This lithe, toothy creature's jet-black skin looks like living tar, and ooze drips from the claws that cap its long arms.*",
 			"",
-			"::mh[Tarry Demodand]{cr=\"13\"}",
+			"::mh[Tarry Demodand]{cr=13}",
 			"",
 			"{SOURCE Bestiary 3/71}  ",
 			"**XP** 25,600  ",
@@ -893,7 +893,7 @@
 		"description": [
 			"*This deformed, horned, hunchbacked humanoid has a forked, rat-like tail and two thumbs on each taloned hand.*",
 			"",
-			"::mh[Abrikandilu]{cr=\"3\"}",
+			"::mh[Abrikandilu]{cr=3}",
 			"",
 			"{SOURCE Bestiary 5/74;The Worldwound/42}  ",
 			"**XP** 800  ",
@@ -958,7 +958,7 @@
 		"description": [
 			"*This burly, primitive-looking creature has an ape-like upper body, demonic horns, cloven hooves, and skin the color of a snow-buried corpse.*",
 			"",
-			"::mh[Andrazku]{cr=\"5\"}",
+			"::mh[Andrazku]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #69: Maiden, Mother, Crone/84}  ",
 			"**XP** 1,600  ",
@@ -1043,7 +1043,7 @@
 		"description": [
 			"*This emaciated figure looks like a horned human skeleton smothered within a bone-tight hide of slimy leather.*",
 			"",
-			"::mh[Babau]{cr=\"6\"}",
+			"::mh[Babau]{cr=6}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/57}  ",
 			"**XP** 2,400  ",
@@ -1104,7 +1104,7 @@
 		"description": [
 			"*This winged fiend's horned head and fanged visage present the perfection of the demonic form, fire spurting from its flesh.*",
 			"",
-			"::mh[Balor]{cr=\"20\"}",
+			"::mh[Balor]{cr=20}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/58}  ",
 			"**XP** 307,200  ",
@@ -1194,7 +1194,7 @@
 		"description": [
 			"*This muscular, red-eyed, goat-headed demon wields a burning sword. Fire licks up from its flaming hooves.*",
 			"",
-			"::mh[Brimorak]{cr=\"5\"}",
+			"::mh[Brimorak]{cr=5}",
 			"",
 			"{SOURCE Bestiary 6/83;Book of the Damned - Volume 2: Lords of Chaos/56}  ",
 			"**XP** 1,600  ",
@@ -1261,7 +1261,7 @@
 		"description": [
 			"*This red-skinned, demonic humanoid has a forked tongue, and a pair of black horns sprout from its brow.*",
 			"",
-			"::mh[Cambion]{cr=\"2\"}",
+			"::mh[Cambion]{cr=2}",
 			"",
 			"{SOURCE Bestiary 5/75;Pathfinder #76: The Midnight Isles/84}  ",
 			"**XP** 600  ",
@@ -1329,7 +1329,7 @@
 		"description": [
 			"*This figure would be the picture of elegance and refinement were it not for its grotesque fly head and shivering insectile wings.*",
 			"",
-			"::mh[Coloxus]{cr=\"12\"}",
+			"::mh[Coloxus]{cr=12}",
 			"",
 			"{SOURCE Bestiary 3/72}  ",
 			"**XP** 19,200  ",
@@ -1394,7 +1394,7 @@
 		"description": [
 			"*The size of a horse, this demonic locust has a scorpion's stinger and an almost-human face. Its front legs end in clawed hands.*",
 			"",
-			"::mh[Derakni]{cr=\"10\"}",
+			"::mh[Derakni]{cr=10}",
 			"",
 			"{SOURCE The Worldwound/43}  ",
 			"**XP** 9,600  ",
@@ -1457,7 +1457,7 @@
 		"description": [
 			"*This creature's bloated frame shudders with each heaving step, yet despite its shape, the thing moves with surprising quickness.*",
 			"",
-			"::mh[Dretch]{cr=\"2\"}",
+			"::mh[Dretch]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/60}  ",
 			"**XP** 600  ",
@@ -1512,7 +1512,7 @@
 		"description": [
 			"*This horned, winged, wolf-headed demon has bone-white flesh onto which have been riveted plates of spiky armor.*",
 			"",
-			"::mh[Gallu]{cr=\"19\"}",
+			"::mh[Gallu]{cr=19}",
 			"",
 			"{SOURCE The Worldwound/44}  ",
 			"**XP** 204,800  ",
@@ -1583,7 +1583,7 @@
 		"description": [
 			"*This corpulent, four-armed fiend is covered in yellow-orange dragon scales, and draconic wings sprout from its back.*",
 			"",
-			"::mh[Ghalzarokh]{cr=\"15\"}",
+			"::mh[Ghalzarokh]{cr=15}",
 			"",
 			"{SOURCE Book of the Damned/246}  ",
 			"**XP** 51,200  ",
@@ -1641,7 +1641,7 @@
 		"description": [
 			"*This flying, bulbous, tumor-riddled mass has numerous arms, no legs, and a leering, three-eyed face.*",
 			"",
-			"::mh[Gibrileth]{cr=\"11\"}",
+			"::mh[Gibrileth]{cr=11}",
 			"",
 			"{SOURCE The Worldwound/46}  ",
 			"**XP** 12,800  ",
@@ -1706,7 +1706,7 @@
 		"description": [
 			"*Four arms grace the torso of this towering monstrosity. The monster's eyes shine with a mix of intelligence and cruelty.*",
 			"",
-			"::mh[Glabrezu]{cr=\"13\"}",
+			"::mh[Glabrezu]{cr=13}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/61}  ",
 			"**XP** 25,600  ",
@@ -1762,7 +1762,7 @@
 		"description": [
 			"*Skin the color of thunderheads and wings made for soaring through the most violent winds mark this lean, cyclopic being as a master of terrible storms. The sound of shrieking wind emanates from its mouth full of needle-sharp teeth.*",
 			"",
-			"::mh[Hala]{cr=\"4\"}",
+			"::mh[Hala]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #49: The Brinewall Legacy/84}  ",
 			"**XP** 1,200  ",
@@ -1844,7 +1844,7 @@
 		"description": [
 			"*This fiend's armored flesh is scaly and moist. Its large, toothy mouth gapes below a pair of hungry, reptilian eyes.*",
 			"",
-			"::mh[Hezrou]{cr=\"11\"}",
+			"::mh[Hezrou]{cr=11}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/62}  ",
 			"**XP** 12,800  ",
@@ -1907,7 +1907,7 @@
 		"description": [
 			"*This darkly handsome humanoid's bat-like wings, curving horns, and bestial legs betray his demonic origin.*",
 			"",
-			"::mh[Incubus]{cr=\"6\"}",
+			"::mh[Incubus]{cr=6}",
 			"",
 			"{SOURCE Bestiary 3/73}  ",
 			"**XP** 2,400  ",
@@ -1968,7 +1968,7 @@
 		"description": [
 			"*This muscular, violet demon walks upon elephantine feet. Large, razor-sharp horns cover its body.*",
 			"",
-			"::mh[Kalavakus]{cr=\"10\"}",
+			"::mh[Kalavakus]{cr=10}",
 			"",
 			"{SOURCE Bestiary 2/78}  ",
 			"**XP** 9,600  ",
@@ -2028,7 +2028,7 @@
 		"description": [
 			"*Four clawed arms sprout from this fiend's chest like the limbs of a buried insect struggling to crawl free. Overlapping iridescent plates of chitin cascade down the monster's back, shrouding four membranous dragonfly wings.*",
 			"",
-			"::mh[Katpaskir]{cr=\"18\"}",
+			"::mh[Katpaskir]{cr=18}",
 			"",
 			"{SOURCE Pathfinder #78: City of Locusts/86}  ",
 			"**XP** 153,600  ",
@@ -2107,7 +2107,7 @@
 		"description": [
 			"*This creature combines the features of a scorpion and a horse-slavering humanoid faces peer from between its two pincers.*",
 			"",
-			"::mh[Kithangian]{cr=\"9\"}",
+			"::mh[Kithangian]{cr=9}",
 			"",
 			"{SOURCE The Worldwound/47}  ",
 			"**XP** 6,400  ",
@@ -2170,7 +2170,7 @@
 		"name": "Larva (Demon)",
 		"sources": [ "Pathfinder #76: The Midnight Isles" ],
 		"description": [
-			"::mh[Larva]{cr=\"1\"}",
+			"::mh[Larva]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #76: The Midnight Isles/69}  ",
 			"**XP** 400  ",
@@ -2217,7 +2217,7 @@
 		"description": [
 			"*While this seductive woman has goat horns, goat hooves, and a serpentine tail, her eyeless face is her most disturbing feature.*",
 			"",
-			"::mh[Lilitu]{cr=\"17\"}",
+			"::mh[Lilitu]{cr=17}",
 			"",
 			"{SOURCE Bestiary 6/84;The Worldwound/48}  ",
 			"**XP** 102,400  ",
@@ -2302,7 +2302,7 @@
 		"description": [
 			"*This snake-bodied fiend has a six-armed woman's torso, pointed ears, and glittering, otherworldly eyes.*",
 			"",
-			"::mh[Marilith]{cr=\"17\"}",
+			"::mh[Marilith]{cr=17}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/63}  ",
 			"**XP** 102,400  ",
@@ -2367,7 +2367,7 @@
 		"description": [
 			"*This lanky fiend's mouth is filled with sharp fangs, while great bat-like wings stretch from its scaly hide.*",
 			"",
-			"::mh[Nabasu]{cr=\"8\"}",
+			"::mh[Nabasu]{cr=8}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/64}  ",
 			"**XP** 4,800  ",
@@ -2425,7 +2425,7 @@
 		"description": [
 			"*A towering, corpulent beast, this fiend has the hideous head of a boar and arms ending in fatty, four-fingered hands.*",
 			"",
-			"::mh[Nalfeshnee]{cr=\"14\"}",
+			"::mh[Nalfeshnee]{cr=14}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/65}  ",
 			"**XP** 38,400  ",
@@ -2488,7 +2488,7 @@
 		"description": [
 			"*This rancid-smelling mound of animated ooze has about its shifting countenance the hideous shape of a half-melted man.*",
 			"",
-			"::mh[Omox]{cr=\"12\"}",
+			"::mh[Omox]{cr=12}",
 			"",
 			"{SOURCE Bestiary 2/79;Pathfinder #16: Endless Night/82}  ",
 			"**XP** 19,200  ",
@@ -2555,7 +2555,7 @@
 		"description": [
 			"*This skeletally thin woman has a moth-like face, flies upon dragonfly wings, and is wrapped in shadows.*",
 			"",
-			"::mh[Oolioddroo]{cr=\"13\"}",
+			"::mh[Oolioddroo]{cr=13}",
 			"",
 			"{SOURCE Bestiary 6/86;The Worldwound/50}  ",
 			"**XP** 25,600  ",
@@ -2630,7 +2630,7 @@
 		"description": [
 			"*The eight spider eyes of this pale, towering humanoid glisten hungrily, and its mouth contains dozens of sharp teeth. It carries a barbed spear with a long, clinking chain attached to its end.*",
 			"",
-			"::mh[Painajai]{cr=\"14\"}",
+			"::mh[Painajai]{cr=14}",
 			"",
 			"{SOURCE Occult Bestiary/19}  ",
 			"**XP** 38,400  ",
@@ -2695,7 +2695,7 @@
 		"description": [
 			"*Ram horns curl back from the twisted head of this tiny winged demon, and its body is thin and wiry.*",
 			"",
-			"::mh[Quasit]{cr=\"2\"}",
+			"::mh[Quasit]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/66}  ",
 			"**XP** 600  ",
@@ -2758,7 +2758,7 @@
 		"description": [
 			"*This goat-headed humanoid is covered in a mangy gray hide that only partly covers its gaunt but muscled frame.*",
 			"",
-			"::mh[Schir]{cr=\"4\"}",
+			"::mh[Schir]{cr=4}",
 			"",
 			"{SOURCE Bestiary 3/74}  ",
 			"**XP** 1,200  ",
@@ -2825,7 +2825,7 @@
 		"description": [
 			"*This woman's flesh is pale and clammy, as if her body had been drained of blood from the fanged slashes on her four arms.*",
 			"",
-			"::mh[Seraptis]{cr=\"15\"}",
+			"::mh[Seraptis]{cr=15}",
 			"",
 			"{SOURCE Bestiary 5/76;Book of the Damned - Volume 2: Lords of Chaos/58}  ",
 			"**XP** 51,200  ",
@@ -2889,7 +2889,7 @@
 		"description": [
 			"*This winged abomination is a horrid mix of demonic and angelic features, as if two bodies were carelessly fused into one. Its fanged, inhuman face is frozen in permanent contempt, while a beautiful visage with an expression of horror bulges from the back of its skull.*",
 			"",
-			"::mh[Shachath]{cr=\"11\"}",
+			"::mh[Shachath]{cr=11}",
 			"",
 			"{SOURCE Pathfinder #75: Demon's Heresy/84}  ",
 			"**XP** 12,800  ",
@@ -2964,7 +2964,7 @@
 		"description": [
 			"*Only this shadowy bat-winged demon's teeth and claws have any sense of physicality to them - the rest is lost in darkness.*",
 			"",
-			"::mh[Shadow Demon]{cr=\"7\"}",
+			"::mh[Shadow Demon]{cr=7}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/67}  ",
 			"**XP** 3,200  ",
@@ -3031,7 +3031,7 @@
 		"description": [
 			"*This enormous, bestial demon combines the worst aspects of a bear, a mantis, a wolf, and a reptilian humanoid.*",
 			"",
-			"::mh[Shemhazian]{cr=\"16\"}",
+			"::mh[Shemhazian]{cr=16}",
 			"",
 			"{SOURCE Bestiary 2/80;Pathfinder #5: Sins of the Saviors/86}  ",
 			"**XP** 76,800  ",
@@ -3093,7 +3093,7 @@
 		"description": [
 			"*Tiny horns, bat-like wings, and a sinuous tail betray the demonic nature of this alluring woman.*",
 			"",
-			"::mh[Succubus]{cr=\"7\"}",
+			"::mh[Succubus]{cr=7}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/68}  ",
 			"**XP** 3,200  ",
@@ -3152,7 +3152,7 @@
 		"description": [
 			"*This creepy ash-gray goblin-like creature has empty eye sockets and scraggly, stained teeth.*",
 			"",
-			"::mh[Swaithe]{cr=\"4\"}",
+			"::mh[Swaithe]{cr=4}",
 			"",
 			"{SOURCE Inner Sea Gods/297}  ",
 			"**XP** 1,200  ",
@@ -3222,7 +3222,7 @@
 		"description": [
 			"*Dead white scars and raw red flesh crisscross this creature's scorched and sallow skin as though it has been flogged and branded a thousand times.*",
 			"",
-			"::mh[Thoxel Demon]{cr=\"5\"}",
+			"::mh[Thoxel Demon]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #74: Sword of Valor/86}  ",
 			"**XP** 1,600  ",
@@ -3300,7 +3300,7 @@
 		"description": [
 			"*This towering monstrosity is clad in cracked boulders, jagged shards of rock, spars of crooked metal, and shredded steel. Four immense arms end in rocky fists, and bony wings protrude from its back.*",
 			"",
-			"::mh[Ulkreth]{cr=\"15\"}",
+			"::mh[Ulkreth]{cr=15}",
 			"",
 			"{SOURCE Pathfinder #73: The Worldwound Incursion/82}  ",
 			"**XP** 51,200  ",
@@ -3383,7 +3383,7 @@
 		"description": [
 			"*This reptilian demon has a quadrupedal dinosaur's lower body, a vaguely humanoid upper torso, and a draconic saurian head.*",
 			"",
-			"::mh[Vavakia]{cr=\"18\"}",
+			"::mh[Vavakia]{cr=18}",
 			"",
 			"{SOURCE Bestiary 6/88;Book of the Damned - Volume 2: Lords of Chaos/60}  ",
 			"**XP** 153,600  ",
@@ -3459,7 +3459,7 @@
 		"description": [
 			"*A hideous, pale, worm-like head pushes violently up and out of a corpulent man's body.*",
 			"",
-			"::mh[Vermlek]{cr=\"3\"}",
+			"::mh[Vermlek]{cr=3}",
 			"",
 			"{SOURCE Bestiary 6/90;Book of the Damned - Volume 2: Lords of Chaos/54}  ",
 			"**XP** 800  ",
@@ -3522,7 +3522,7 @@
 		"description": [
 			"*This fiend seems carved from weathered ivory, and runes and symbols of power cover its pale flesh. Its eyes glow an eerie yellow, and horns curl from its eerie, mouthless head.*",
 			"",
-			"::mh[Vilsteth]{cr=\"16\"}",
+			"::mh[Vilsteth]{cr=16}",
 			"",
 			"{SOURCE Pathfinder #77: Herald of the Ivory Labyrinth/86}  ",
 			"**XP** 76,800  ",
@@ -3598,7 +3598,7 @@
 		"description": [
 			"*A cloud of spores and a trail of feathers surrounds this twisted cross between a man and a gigantic vulture.*",
 			"",
-			"::mh[Vrock]{cr=\"9\"}",
+			"::mh[Vrock]{cr=9}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/69}  ",
 			"**XP** 6,400  ",
@@ -3660,7 +3660,7 @@
 		"description": [
 			"*This black-skinned, bat-winged demon has four arms; a long, thin tail; and a leering, fanged face with dead, white eyes.*",
 			"",
-			"::mh[Vrolikai]{cr=\"19\"}",
+			"::mh[Vrolikai]{cr=19}",
 			"",
 			"{SOURCE Bestiary 2/81}  ",
 			"**XP** 204,800  ",
@@ -3727,7 +3727,7 @@
 		"description": [
 			"*Patches of fur adorn the sickly flesh of this gangly but muscular hyena-headed humanoid.*",
 			"",
-			"::mh[Yaenit]{cr=\"6\"}",
+			"::mh[Yaenit]{cr=6}",
 			"",
 			"{SOURCE Bestiary 6/91;Broken Chains/29}  ",
 			"**XP** 2,400  ",

@@ -5,7 +5,7 @@
 		"description": [
 			"*This dragon has a long neck and terrible claws. The beast shrieks and babbles, thrashing its tail and wings in a violent manner.*",
 			"",
-			"::mh[Jabberwock]{cr=\"23\"}",
+			"::mh[Jabberwock]{cr=23}",
 			"",
 			"{SOURCE Bestiary 2/168}  ",
 			"**XP** 819,200  ",
@@ -134,7 +134,7 @@
 		"description": [
 			"*This armored humanoid has a jackal's head, bulging muscles, and a gaze that makes the world drift away.*",
 			"",
-			"::mh[Jackalwere]{cr=\"2\"}",
+			"::mh[Jackalwere]{cr=2}",
 			"",
 			"{SOURCE Bestiary 3/154}  ",
 			"**XP** 600  ",
@@ -192,7 +192,7 @@
 		"description": [
 			"*A carved pumpkin sits atop a writhing mass of thick ropey vines. Sinister flames dance within its leering, crudely carved face.*",
 			"",
-			"::mh[Jack-o'-Lantern]{cr=\"1\"}",
+			"::mh[Jack-o'-Lantern]{cr=1}",
 			"",
 			"{SOURCE Bestiary 4/160}  ",
 			"**XP** 400  ",
@@ -306,7 +306,7 @@
 		"description": [
 			"*This long-tentacled jellyfish has a wide bell with a vaguely skull-shaped pattern on it.*",
 			"",
-			"::mh[Death's Head Jellyfish]{cr=\"1\"}",
+			"::mh[Death's Head Jellyfish]{cr=1}",
 			"",
 			"{SOURCE Bestiary 3/155}  ",
 			"**XP** 400  ",
@@ -356,7 +356,7 @@
 		"description": [
 			"*The bell of this enormous amber jellyfish is as large as a carriage. A sinister bloom of tentacles dangles and writhes below.*",
 			"",
-			"::mh[Giant Jellyfish]{cr=\"7\"}",
+			"::mh[Giant Jellyfish]{cr=7}",
 			"",
 			"{SOURCE Bestiary 2/170}  ",
 			"**XP** 3,200  ",
@@ -414,7 +414,7 @@
 		"description": [
 			"*All but invisible in the water, this foul swarm of fist-sized jellyfish wriggles and writhes, a virtual wall of stinging tentacles.*",
 			"",
-			"::mh[Jellyfish Swarm]{cr=\"6\"}",
+			"::mh[Jellyfish Swarm]{cr=6}",
 			"",
 			"{SOURCE Bestiary 2/170}  ",
 			"**XP** 2,400  ",
@@ -463,7 +463,7 @@
 		"description": [
 			"*This tremendous, translucent jellyfish glows with blue internal light, and the water around its bell vibrates with an electrical charge.*",
 			"",
-			"::mh[Sapphire Jellyfish]{cr=\"11\"}",
+			"::mh[Sapphire Jellyfish]{cr=11}",
 			"",
 			"{SOURCE Bestiary 3/155}  ",
 			"**XP** 12,800  ",
@@ -519,7 +519,7 @@
 		"description": [
 			"*A low hum surrounds this huge, gnarled tree. The rotten fruits that hang from its sickly branches look vaguely like human heads.*",
 			"",
-			"::mh[Jinmenju]{cr=\"11\"}",
+			"::mh[Jinmenju]{cr=11}",
 			"",
 			"{SOURCE Bestiary 4/161;Pathfinder #54: The Empty Throne/86}  ",
 			"**XP** 12,800  ",
@@ -579,7 +579,7 @@
 		"description": [
 			"*Eight spindly spider legs, flocked with coarse black hairs, stretch from the back of this otherwise beautiful black-haired woman.*",
 			"",
-			"::mh[Jorogumo]{cr=\"12\"}",
+			"::mh[Jorogumo]{cr=12}",
 			"",
 			"{SOURCE Bestiary 3/156}  ",
 			"**XP** 19,200  ",
@@ -639,7 +639,7 @@
 		"description": [
 			"*This slug-like humanoid has neither arms nor legs and is covered in spiked, rusted chains. Its lolling tongue drips with thick saliva.*",
 			"",
-			"::mh[Joyful Thing]{cr=\"6\"}",
+			"::mh[Joyful Thing]{cr=6}",
 			"",
 			"{SOURCE Nidal, Land of Shadows/57}  ",
 			"**XP** 2,400  ",
@@ -700,7 +700,7 @@
 		"description": [
 			"*This enormous bird has a lizard-like tail and bright purple feathers on its back and wings; the rest of its body is bare and scaly.*",
 			"",
-			"::mh[Jubjub Bird]{cr=\"15\"}",
+			"::mh[Jubjub Bird]{cr=15}",
 			"",
 			"{SOURCE Bestiary 3/157}  ",
 			"**XP** 51,200  ",
@@ -762,7 +762,7 @@
 		"description": [
 			"*This massive spiked creature has smoking black pits for eyes, an enormous maw, and a tail that appears to be an armored cobra.*",
 			"",
-			"::mh[Juggerloathe]{cr=\"16\"}",
+			"::mh[Juggerloathe]{cr=16}",
 			"",
 			"{SOURCE Belkzen, Hold of the Orc Hordes/62}  ",
 			"**XP** 76,800  ",
@@ -816,7 +816,7 @@
 		"description": [
 			"*This oppressive construct rumbles forth on deadly rollers, crushing everything in its path.*",
 			"",
-			"::mh[Juggernaut]{cr=\"11\"}",
+			"::mh[Juggernaut]{cr=11}",
 			"",
 			"{SOURCE Bestiary 4/162}  ",
 			"**XP** 12,800  ",
@@ -953,7 +953,7 @@
 		"description": [
 			"*This phoenix-like humanoid is surrounded by a halo of radiant energy. Its spear is tipped with a carved crystal blade.*",
 			"",
-			"::mh[Jyoti]{cr=\"9\"}",
+			"::mh[Jyoti]{cr=9}",
 			"",
 			"{SOURCE Bestiary 2/171}  ",
 			"**XP** 6,400  ",
@@ -1015,7 +1015,7 @@
 		"description": [
 			"*This grotesque, crimson worm-like creature has a circular mouth full of fangs. A pair of segmented tentacles sporting razor-edged ridges protrudes from the sides of its mouth.*",
 			"",
-			"::mh[Kaicharek]{cr=\"4\"}",
+			"::mh[Kaicharek]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #139: The Dead Road/84}  ",
 			"**XP** 1,200  ",
@@ -1095,7 +1095,7 @@
 		"description": [
 			"*Within a towering structure of bone and rotting flesh lurk hundreds of flittering fiends.*",
 			"",
-			"::mh[Kakuen-Taka]{cr=\"14\"}",
+			"::mh[Kakuen-Taka]{cr=14}",
 			"",
 			"{SOURCE Inner Sea Bestiary/20}  ",
 			"**XP** 38,400  ",
@@ -1165,7 +1165,7 @@
 		"description": [
 			"*This large leopard has six colorful snakes, hissing and ready to strike, sprouting from its shoulders.*",
 			"",
-			"::mh[Kamadan]{cr=\"4\"}",
+			"::mh[Kamadan]{cr=4}",
 			"",
 			"{SOURCE Bestiary 3/158}  ",
 			"**XP** 1,200  ",
@@ -1226,7 +1226,7 @@
 		"description": [
 			"*This weasel-like creature has sickles in place of feet. It moves incredibly swiftly, swirling in the air astride a vortex of dust.*",
 			"",
-			"::mh[Kamaitachie]{cr=\"13\"}",
+			"::mh[Kamaitachie]{cr=13}",
 			"",
 			"{SOURCE Bestiary 6/176}  ",
 			"**XP** 25,600  ",
@@ -1285,7 +1285,7 @@
 		"description": [
 			"*This ancient, weathered statue of a venerable monk with a shaven head possesses an air of both reverence and patience.*",
 			"",
-			"::mh[Dosojin]{cr=\"7\"}",
+			"::mh[Dosojin]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #52: Forest of Spirits/82}  ",
 			"**XP** 3,200  ",
@@ -1361,7 +1361,7 @@
 		"description": [
 			"*This spectral woman holds a silver urn and floats in midair with an unearthly grace and demanding presence.*",
 			"",
-			"::mh[Dunagh]{cr=\"4\"}",
+			"::mh[Dunagh]{cr=4}",
 			"",
 			"{SOURCE Daughters of Fury/54}  ",
 			"**XP** 1,200  ",
@@ -1424,7 +1424,7 @@
 		"description": [
 			"*This diminutive humanoid looks like a truly ancient but proud old warrior. A tiny tree branch juts from the top of his head.*",
 			"",
-			"::mh[Fukujin]{cr=\"3\"}",
+			"::mh[Fukujin]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #52: Forest of Spirits/84}  ",
 			"**XP** 800  ",
@@ -1503,7 +1503,7 @@
 		"description": [
 			"*This enormous amalgamation of stone and plant matter takes the shape of an old man leaning on an equally huge staff.*",
 			"",
-			"::mh[Jinushigami]{cr=\"20\"}",
+			"::mh[Jinushigami]{cr=20}",
 			"",
 			"{SOURCE Bestiary 3/160}  ",
 			"**XP** 307,200  ",
@@ -1585,7 +1585,7 @@
 		"description": [
 			"*This enormous humanoid possesses vibrant green skin and equally loud hair, and is surrounded by a ring of huge drums and storm clouds.*",
 			"",
-			"::mh[Kaminari]{cr=\"17\"}",
+			"::mh[Kaminari]{cr=17}",
 			"",
 			"{SOURCE Pathfinder #52: Forest of Spirits/86}  ",
 			"**XP** 102,400  ",
@@ -1662,7 +1662,7 @@
 		"description": [
 			"*This little green humanoid figure stands only three feet tall. Its head is faceless save for two hollow pits for eyes.*",
 			"",
-			"::mh[Kodama]{cr=\"5\"}",
+			"::mh[Kodama]{cr=5}",
 			"",
 			"{SOURCE Bestiary 3/162}  ",
 			"**XP** 1,600  ",
@@ -1724,7 +1724,7 @@
 		"description": [
 			"*This tiny, crudely carved statue of a robed man has glowing runes running across its surface.*",
 			"",
-			"::mh[Shikigami]{cr=\"2\"}",
+			"::mh[Shikigami]{cr=2}",
 			"",
 			"{SOURCE Bestiary 3/163}  ",
 			"**XP** 600  ",
@@ -1790,7 +1790,7 @@
 		"description": [
 			"*This massive, serpentine carp explodes forth from the water, its rainbow-colored scales gleaming in the sunlight and glossy eyes bright with good-natured intelligence.*",
 			"",
-			"::mh[Suijin]{cr=\"14\"}",
+			"::mh[Suijin]{cr=14}",
 			"",
 			"{SOURCE Pathfinder #52: Forest of Spirits/88}  ",
 			"**XP** 38,400  ",
@@ -1865,7 +1865,7 @@
 		"description": [
 			"*This strangely beautiful old woman is composed completely of blossoms, bark, and antler-like branches.*",
 			"",
-			"::mh[Toshigami]{cr=\"15\"}",
+			"::mh[Toshigami]{cr=15}",
 			"",
 			"{SOURCE Bestiary 3/164}  ",
 			"**XP** 51,200  ",
@@ -1924,7 +1924,7 @@
 		"description": [
 			"*Within this elaborate suit of armor can be seen the partial form of a determined warrior.*",
 			"",
-			"::mh[Zuishin]{cr=\"10\"}",
+			"::mh[Zuishin]{cr=10}",
 			"",
 			"{SOURCE Bestiary 3/165}  ",
 			"**XP** 9,600  ",
@@ -1992,7 +1992,7 @@
 		"description": [
 			"*This small, three-eyed creature has ragged, red-streaked wings and a menacingly barbed tail.*",
 			"",
-			"::mh[Lamhigyn]{cr=\"3\"}",
+			"::mh[Lamhigyn]{cr=3}",
 			"",
 			"{SOURCE Bestiary 5/154;Pathfinder #76: The Midnight Isles/88}  ",
 			"**XP** 800  ",
@@ -2050,7 +2050,7 @@
 		"description": [
 			"*This creature's upper torso is that of a comely woman with cat's eyes and sharp fangs, while her lower body is that of a lion.*",
 			"",
-			"::mh[Lamia]{cr=\"6\"}",
+			"::mh[Lamia]{cr=6}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/186}  ",
 			"**XP** 2,400  ",
@@ -2115,7 +2115,7 @@
 		"description": [
 			"*This creature looks like a beautiful human woman from the waist up, but below is the body and tail of an immense snake.*",
 			"",
-			"::mh[Lamia Matriarch]{cr=\"8\"}",
+			"::mh[Lamia Matriarch]{cr=8}",
 			"",
 			"{SOURCE Bestiary 2/175;Pathfinder #2: The Skinsaw Murders/92}  ",
 			"**XP** 4,800  ",
@@ -2179,7 +2179,7 @@
 		"description": [
 			"*A hideous mound of shuddering, pustule-encrusted flesh, this bloated creature's gaping maw is filled with terrible teeth.*",
 			"",
-			"::mh[Hungerer]{cr=\"15\"}",
+			"::mh[Hungerer]{cr=15}",
 			"",
 			"{SOURCE Rise of the Runelords Anniversary Edition/410;Pathfinder #6: Spires of Xin-Shalast/84}  ",
 			"**XP** 51,200  ",
@@ -2245,7 +2245,7 @@
 		"description": [
 			"*This vaguely humanoid creature has a vulture's head and wings for arms, and wields an enormous bow in its taloned feet.*",
 			"",
-			"::mh[Kuchrima]{cr=\"8\"}",
+			"::mh[Kuchrima]{cr=8}",
 			"",
 			"{SOURCE Rise of the Runelords Anniversary Edition/411;Pathfinder #6: Spires of Xin-Shalast/80}  ",
 			"**XP** 4,800  ",
@@ -2308,7 +2308,7 @@
 		"description": [
 			"*This majestic creature has the body of a lion, the wings of an eagle, and the face of a wise human man.*",
 			"",
-			"::mh[Lammasu]{cr=\"8\"}",
+			"::mh[Lammasu]{cr=8}",
 			"",
 			"{SOURCE Bestiary 3/175;Bonus Bestiary/13}  ",
 			"**XP** 4,800  ",
@@ -2372,7 +2372,7 @@
 		"description": [
 			"*This creature looks like a tiny, stooped elf with gray skin, cruel claws, and glossy purple moth wings. Its mirthless grin exposes sharp teeth, and a bloody string of humanoid eyeballs adorns its neck.*",
 			"",
-			"::mh[Lamp Blighter]{cr=\"6\"}",
+			"::mh[Lamp Blighter]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #128: Songbird, Scion, Saboteur/90}  ",
 			"**XP** 2,400  ",
@@ -2457,7 +2457,7 @@
 		"description": [
 			"*Tears stream from this beautiful but sullen creature's eyes, forming a puddle beneath her delicate feet.*",
 			"",
-			"::mh[Lampad]{cr=\"5\"}",
+			"::mh[Lampad]{cr=5}",
 			"",
 			"{SOURCE Bestiary 4/178}  ",
 			"**XP** 1,600  ",
@@ -2524,7 +2524,7 @@
 		"description": [
 			"*A stirring in the air and rustle through the room reveals a presence - a subtle aura both cautious and curious.*",
 			"",
-			"::mh[Lar]{cr=\"5\"}",
+			"::mh[Lar]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #27: What Lies in Dust/86}  ",
 			"**XP** 1,600  ",
@@ -2594,7 +2594,7 @@
 		"description": [
 			"*This pale, blond-haired humanoid possesses bright blue eyes, needle-like teeth, and the large, multicolored wings of a parrot.*",
 			"",
-			"::mh[Larabay]{cr=\"11\"}",
+			"::mh[Larabay]{cr=11}",
 			"",
 			"{SOURCE Isles of the Shackles/52}  ",
 			"**XP** 12,800  ",
@@ -2652,7 +2652,7 @@
 		"description": [
 			"*This creature is a terrifying amalgamation of chitinous scales, bloated flesh, unblinking eyes, and writhing tentacles.*",
 			"",
-			"::mh[Larva of the Outer Gods]{cr=\"15\"}",
+			"::mh[Larva of the Outer Gods]{cr=15}",
 			"",
 			"{SOURCE Pathfinder #114: Black Stars Beckon/88}  ",
 			"**XP** 51,200  ",
@@ -2791,7 +2791,7 @@
 		"description": [
 			"*This squat, clawed humanoid is hunched and pink-skinned, with an oversized head. Its face is that of a fanged and insane human baby, and its mouth opens far wider than it should.*",
 			"",
-			"::mh[Lava Child]{cr=\"3\"}",
+			"::mh[Lava Child]{cr=3}",
 			"",
 			"{SOURCE Misfit Monsters Redeemed/43}  ",
 			"**XP** 800  ",
@@ -2871,7 +2871,7 @@
 		"description": [
 			"*Spatters of magma sear everything that comes near this vaguely humanoid mass of endlessly melting and reforming rock.*",
 			"",
-			"::mh[Lava Lurker]{cr=\"9\"}",
+			"::mh[Lava Lurker]{cr=9}",
 			"",
 			"{SOURCE The Emerald Spire Superdungeon/155}  ",
 			"**XP** 6,400  ",
@@ -2930,7 +2930,7 @@
 		"description": [
 			"*This creature looks like a broad leaf with whiskers like a catfish and a dangerous stinger trailing behind it.*",
 			"",
-			"::mh[Leaf Ray]{cr=\"1\"}",
+			"::mh[Leaf Ray]{cr=1}",
 			"",
 			"{SOURCE Bestiary 4/179}  ",
 			"**XP** 400  ",
@@ -2990,7 +2990,7 @@
 		"description": [
 			"*A parasite ballooned to monstrous proportions undulates in the muck, its circular maw a spiral of teeth.*",
 			"",
-			"::mh[Giant Leech]{cr=\"2\"}",
+			"::mh[Giant Leech]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/187}  ",
 			"**XP** 600  ",
@@ -3045,7 +3045,7 @@
 		"description": [
 			"*A mass of wriggling black creatures each the size of a man's finger stirs the stagnant water before enveloping its victim.*",
 			"",
-			"::mh[Leech Swarm]{cr=\"4\"}",
+			"::mh[Leech Swarm]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/187}  ",
 			"**XP** 1,200  ",
@@ -3097,7 +3097,7 @@
 		"description": [
 			"*A prickly cactus's arms are covered in vicious spines.*",
 			"",
-			"::mh[Cactus Leshy]{cr=\"2\"}",
+			"::mh[Cactus Leshy]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #115: Trail of the Hunted/86}  ",
 			"**XP** 600  ",
@@ -3175,7 +3175,7 @@
 		"description": [
 			"*This cluster of flytraps has a vaguely humanoid shape. The beady eyes atop the largest flytrap glare menacingly.*",
 			"",
-			"::mh[Flytrap Leshy]{cr=\"4\"}",
+			"::mh[Flytrap Leshy]{cr=4}",
 			"",
 			"{SOURCE Bestiary 5/156}  ",
 			"**XP** 1,200  ",
@@ -3252,7 +3252,7 @@
 		"description": [
 			"*Mismatched eyes dot this plant creature's thick mushroom cap, while below works an overlarge maw set with pale fungal teeth.*",
 			"",
-			"::mh[Fungus Leshy]{cr=\"2\"}",
+			"::mh[Fungus Leshy]{cr=2}",
 			"",
 			"{SOURCE Bestiary 3/177;Pathfinder #34: Blood for Blood/86}  ",
 			"**XP** 600  ",
@@ -3327,7 +3327,7 @@
 		"description": [
 			"*This little plant man walks on legs like tangled vines and has a pumpkin carved with eyes and a mouth for a head.*",
 			"",
-			"::mh[Gourd Leshy]{cr=\"1\"}",
+			"::mh[Gourd Leshy]{cr=1}",
 			"",
 			"{SOURCE Bestiary 3/178}  ",
 			"**XP** 400  ",
@@ -3476,7 +3476,7 @@
 		"description": [
 			"*This miniature plant person has a body composed of lichens and a rain cape woven from leafy growths.*",
 			"",
-			"::mh[Lichen Leshy]{cr=\"3\"}",
+			"::mh[Lichen Leshy]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #116: Fangs of War/86}  ",
 			"**XP** 800  ",
@@ -3553,7 +3553,7 @@
 		"description": [
 			"*A plant whose body resembles a blooming lotus flower exudes an air of serenity.*",
 			"",
-			"::mh[Lotus Leshy]{cr=\"5\"}",
+			"::mh[Lotus Leshy]{cr=5}",
 			"",
 			"{SOURCE Bestiary 5/157}  ",
 			"**XP** 1,600  ",
@@ -3626,7 +3626,7 @@
 		"description": [
 			"*This vaguely humanoid plant creature has a body formed of soggy green seaweed and wears crude armor made from seashells.*",
 			"",
-			"::mh[Seaweed Leshy]{cr=\"3\"}",
+			"::mh[Seaweed Leshy]{cr=3}",
 			"",
 			"{SOURCE Bestiary 3/180}  ",
 			"**XP** 800  ",
@@ -3701,7 +3701,7 @@
 		"description": [
 			"*Verdant stalks entwine one another to create a humanoid shape with a giant snapdragon blossom for a head.*",
 			"",
-			"::mh[Snapdragon Leshy]{cr=\"4\"}",
+			"::mh[Snapdragon Leshy]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #116: Fangs of War/86}  ",
 			"**XP** 1,200  ",
@@ -3776,7 +3776,7 @@
 		"description": [
 			"*The petals of this small plant's large, flat, flowering head reflect light in unnatural ways.*",
 			"",
-			"::mh[Sunflower Leshy]{cr=\"1\"}",
+			"::mh[Sunflower Leshy]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #115: Trail of the Hunted/87}  ",
 			"**XP** 400  ",
@@ -3851,7 +3851,7 @@
 		"description": [
 			"*This tremendous leviathan resembles a vast squid, yet the markings on its body are strangely unsettling to look upon.*",
 			"",
-			"::mh[Kraken]{cr=\"18\"}",
+			"::mh[Kraken]{cr=18}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/184}  ",
 			"**XP** 153,600  ",
@@ -3914,7 +3914,7 @@
 		"description": [
 			"*This massive scarlet squid has dark blue stripes and wears various gold ornaments, its tentacles glistening with blue energy.*",
 			"",
-			"::mh[Qwoshokk]{cr=\"20\"}",
+			"::mh[Qwoshokk]{cr=20}",
 			"",
 			"{SOURCE Mythical Monsters Revisited/39}  ",
 			"**XP** 307,200  ",

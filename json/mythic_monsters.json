@@ -5,7 +5,7 @@
 		"description": [
 			"*A foul mist surrounds this huge, three-eyed, tentacled fish creature, and plates of hardened slime guard its body.*",
 			"",
-			"::mh[Mythic Aboleth]{cr=\"9\" mr=\"3\"}",
+			"::mh[Mythic Aboleth]{cr=9 mr=3}",
 			"",
 			"{SOURCE Mythic Adventures/178}  ",
 			"**XP** 6,400  ",
@@ -68,7 +68,7 @@
 		"description": [
 			"*This towering humanoid has a strange, stony head. Small, mechanical wings spread out from its back.*",
 			"",
-			"::mh[Mythic Anunnaki]{cr=\"18\" mr=\"7\"}",
+			"::mh[Mythic Anunnaki]{cr=18 mr=7}",
 			"",
 			"{SOURCE Bestiary 5/28}  ",
 			"**XP** 153,600  ",
@@ -147,7 +147,7 @@
 		"description": [
 			"*This muscular humanoid possesses a hawk's head and large, bird-like wings. It is dressed in robes crafted from opalescent scales.*",
 			"",
-			"::mh[Mythic Apkallu]{cr=\"23\" mr=\"9\"}",
+			"::mh[Mythic Apkallu]{cr=23 mr=9}",
 			"",
 			"{SOURCE Bestiary 5/32}  ",
 			"**XP** 819,200  ",
@@ -238,7 +238,7 @@
 		"description": [
 			"*An unnerving, buzzing drone emerges from a creature resembling a tortured human half transformed into a giant, winged scorpion.*",
 			"",
-			"::mh[Mythic Apocalypse Locust]{cr=\"6\" mr=\"3\"}",
+			"::mh[Mythic Apocalypse Locust]{cr=6 mr=3}",
 			"",
 			"{SOURCE Bestiary 4/12}  ",
 			"**XP** 2,400  ",
@@ -297,7 +297,7 @@
 		"description": [
 			"*This misshapen giant is covered in horns, tumorous tentacles, unsightly warts, and strange, staring eyes.*",
 			"",
-			"::mh[Mythic Argus]{cr=\"13\" mr=\"6\"}",
+			"::mh[Mythic Argus]{cr=13 mr=6}",
 			"",
 			"{SOURCE Bestiary 4/13}  ",
 			"**XP** 25,600  ",
@@ -367,7 +367,7 @@
 		"description": [
 			"*This towering humanoid creature is made almost entirely of gold and radiates a warm light.*",
 			"",
-			"::mh[Mythic Champion of the Gilded Host]{cr=\"18\" mr=\"7\"}",
+			"::mh[Mythic Champion of the Gilded Host]{cr=18 mr=7}",
 			"",
 			"{SOURCE Lost Treasures/23}  ",
 			"**XP** 153,600  ",
@@ -447,7 +447,7 @@
 		"description": [
 			"*This creature appears to be a cross between a pixie and a bat with charred flesh. Around its waist dangle tiny fairy skull trophies.*",
 			"",
-			"::mh[Mythic Chaneque]{cr=\"1\" mr=\"1\"}",
+			"::mh[Mythic Chaneque]{cr=1 mr=1}",
 			"",
 			"{SOURCE Bestiary 4/28}  ",
 			"**XP** 400  ",
@@ -510,7 +510,7 @@
 		"description": [
 			"*This beast is an unsettling combination of chicken and lizard, and its claws, beak, and wattles seem made of stone.*",
 			"",
-			"::mh[Mythic Cockatrice]{cr=\"4\" mr=\"1\"}",
+			"::mh[Mythic Cockatrice]{cr=4 mr=1}",
 			"",
 			"{SOURCE Mythic Adventures/180}  ",
 			"**XP** 1,200  ",
@@ -563,7 +563,7 @@
 		"description": [
 			"*This enormous monstrosity looks like a pile of fresh humanoid bodies shoved into a shambling humanoid shape.*",
 			"",
-			"::mh[Mythic Flesh Colossus]{cr=\"16\" mr=\"6\"}",
+			"::mh[Mythic Flesh Colossus]{cr=16 mr=6}",
 			"",
 			"{SOURCE Bestiary 4/35}  ",
 			"**XP** 76,800  ",
@@ -634,7 +634,7 @@
 		"description": [
 			"*A siege engineer's nightmare, this giant machine emits noxious fumes from its grinding engine.*",
 			"",
-			"::mh[Mythic Iron Colossus]{cr=\"21\" mr=\"8\"}",
+			"::mh[Mythic Iron Colossus]{cr=21 mr=8}",
 			"",
 			"{SOURCE Bestiary 4/36}  ",
 			"**XP** 409,600  ",
@@ -717,7 +717,7 @@
 		"description": [
 			"*This stone edifice resembles a lion with a regal human face, garbed in royal clothing.*",
 			"",
-			"::mh[Mythic Sphinx Colossus]{cr=\"14\" mr=\"4\"}",
+			"::mh[Mythic Sphinx Colossus]{cr=14 mr=4}",
 			"",
 			"{SOURCE Bestiary 5/58;Osirion, Legacy of the Pharaohs/56}  ",
 			"**XP** 38,400  ",
@@ -791,7 +791,7 @@
 		"description": [
 			"*This immense stone figure appears to be a keep that uprooted itself and went for a walk.*",
 			"",
-			"::mh[Mythic Stone Colossus]{cr=\"19\" mr=\"7\"}",
+			"::mh[Mythic Stone Colossus]{cr=19 mr=7}",
 			"",
 			"{SOURCE Bestiary 4/37}  ",
 			"**XP** 204,800  ",
@@ -871,7 +871,7 @@
 		"description": [
 			"*This gigantic construct looks like a walking mansion, its body and limbs composed of various rooms.*",
 			"",
-			"::mh[Mythic Wood Colossus]{cr=\"17\" mr=\"6\"}",
+			"::mh[Mythic Wood Colossus]{cr=17 mr=6}",
 			"",
 			"{SOURCE Bestiary 5/59}  ",
 			"**XP** 102,400  ",
@@ -942,7 +942,7 @@
 		"description": [
 			"*This enormous one-eyed humanoid has a horn protruding from its forehead and fists the size of tree trunks.*",
 			"",
-			"::mh[Mythic Great Cyclops]{cr=\"15\" mr=\"6\"}",
+			"::mh[Mythic Great Cyclops]{cr=15 mr=6}",
 			"",
 			"{SOURCE Mythic Adventures/181}  ",
 			"**XP** 51,200  ",
@@ -1002,7 +1002,7 @@
 		"description": [
 			"*This snake-bodied fiend has a six-armed woman's torso, pointed ears, and glittering, otherworldly eyes.*",
 			"",
-			"::mh[Mythic Marilith]{cr=\"21\" mr=\"8\"}",
+			"::mh[Mythic Marilith]{cr=21 mr=8}",
 			"",
 			"{SOURCE Mythic Adventures/182}  ",
 			"**XP** 409,600  ",
@@ -1064,7 +1064,7 @@
 		"description": [
 			"*A towering, corpulent beast, this fiend has the hideous head of a boar and arms ending in fatty, four-fingered hands.*",
 			"",
-			"::mh[Mythic Nalfeshnee]{cr=\"17\" mr=\"7\"}",
+			"::mh[Mythic Nalfeshnee]{cr=17 mr=7}",
 			"",
 			"{SOURCE Mythic Adventures/183}  ",
 			"**XP** 102,400  ",
@@ -1127,7 +1127,7 @@
 		"description": [
 			"*A cloud of spores and a trail of feathers surrounds this twisted cross between a man and a gigantic vulture.*",
 			"",
-			"::mh[Mythic Vrock]{cr=\"11\" mr=\"4\"}",
+			"::mh[Mythic Vrock]{cr=11 mr=4}",
 			"",
 			"{SOURCE Mythic Adventures/184}  ",
 			"**XP** 12,800  ",
@@ -1188,7 +1188,7 @@
 		"description": [
 			"*Each of this mechanical horror's four monstrous limbs ends in a terrible weapon.*",
 			"",
-			"::mh[Mythic Devastator]{cr=\"22\" mr=\"8\"}",
+			"::mh[Mythic Devastator]{cr=22 mr=8}",
 			"",
 			"{SOURCE Bestiary 5/77;Pathfinder #78: City of Locusts/90}  ",
 			"**XP** 614,400  ",
@@ -1250,7 +1250,7 @@
 		"description": [
 			"*Merging the most horrifying features of carrion-fed insect and withered cadaver, this bony devil moves in unsettling lurches.*",
 			"",
-			"::mh[Mythic Bone Devil]{cr=\"11\" mr=\"4\"}",
+			"::mh[Mythic Bone Devil]{cr=11 mr=4}",
 			"",
 			"{SOURCE Mythic Adventures/185}  ",
 			"**XP** 12,800  ",
@@ -1314,7 +1314,7 @@
 		"description": [
 			"*A pair of frozen, multifaceted eyes coldly judge all before this towering, insectile monstrosity.*",
 			"",
-			"::mh[Mythic Ice Devil]{cr=\"16\" mr=\"6\"}",
+			"::mh[Mythic Ice Devil]{cr=16 mr=6}",
 			"",
 			"{SOURCE Mythic Adventures/186}  ",
 			"**XP** 76,800  ",
@@ -1381,7 +1381,7 @@
 		"description": [
 			"*This sinuous and stinking dragon is covered in black scales, with massive horns curling up from its head.*",
 			"",
-			"::mh[Mythic Mature Adult Black Dragon]{cr=\"15\" mr=\"6\"}",
+			"::mh[Mythic Mature Adult Black Dragon]{cr=15 mr=6}",
 			"",
 			"{SOURCE Mythic Adventures/187}  ",
 			"**XP** 51,200  ",
@@ -1442,7 +1442,7 @@
 		"description": [
 			"*Miniature bolts of electricity and a cloud of swirling sand surround this dragon's hulking, blue-scaled body.*",
 			"",
-			"::mh[Mythic Mature Adult Blue Dragon]{cr=\"17\" mr=\"7\"}",
+			"::mh[Mythic Mature Adult Blue Dragon]{cr=17 mr=7}",
 			"",
 			"{SOURCE Mythic Adventures/188}  ",
 			"**XP** 102,400  ",
@@ -1502,7 +1502,7 @@
 		"description": [
 			"*Strange shapes dart about within the acrid fog surrounding this green-scaled dragon, and a large horn rises from its snout.*",
 			"",
-			"::mh[Mythic Very Old Green Dragon]{cr=\"20\" mr=\"8\"}",
+			"::mh[Mythic Very Old Green Dragon]{cr=20 mr=8}",
 			"",
 			"{SOURCE Mythic Adventures/189}  ",
 			"**XP** 307,200  ",
@@ -1563,7 +1563,7 @@
 		"description": [
 			"*A ruddy glow emanates from beneath this dragon's red, gem-encrusted scales, like lava visible between cracks of cooling stone.*",
 			"",
-			"::mh[Mythic Wyrm Red Dragon]{cr=\"25\" mr=\"10\"}",
+			"::mh[Mythic Wyrm Red Dragon]{cr=25 mr=10}",
 			"",
 			"{SOURCE Mythic Adventures/190}  ",
 			"**XP** 1,638,400  ",
@@ -1638,7 +1638,7 @@
 		"description": [
 			"*A ruddy glow emanates from beneath this dragon's red, gem-encrusted scales, like lava visible between cracks of cooling stone.*",
 			"",
-			"::mh[Mythic Young Red Dragon]{cr=\"12\" mr=\"5\"}",
+			"::mh[Mythic Young Red Dragon]{cr=12 mr=5}",
 			"",
 			"{SOURCE Mythic Adventures/190}  ",
 			"**XP** 19,200  ",
@@ -1701,7 +1701,7 @@
 		"description": [
 			"*This dragon's white, ice-encrusted scales glitter like diamonds as it effortlessly makes its way across the snow.*",
 			"",
-			"::mh[Mythic Juvenile White Dragon]{cr=\"9\" mr=\"3\"}",
+			"::mh[Mythic Juvenile White Dragon]{cr=9 mr=3}",
 			"",
 			"{SOURCE Mythic Adventures/192}  ",
 			"**XP** 6,400  ",
@@ -1755,7 +1755,7 @@
 		"description": [
 			"*This woman's upper body is shapely and beautiful, but her lower body is bloated, with pulsating tumors and writing tentacles.*",
 			"",
-			"::mh[Mythic Drakainia]{cr=\"25\" mr=\"10\"}",
+			"::mh[Mythic Drakainia]{cr=25 mr=10}",
 			"",
 			"{SOURCE Bestiary 4/76}  ",
 			"**XP** 1,638,400  ",
@@ -1848,7 +1848,7 @@
 		"description": [
 			"*This living tornado draws in all the air that surrounds it, hurling unrestrained objects as it moves.*",
 			"",
-			"::mh[Mythic Elder Air Elemental]{cr=\"14\" mr=\"5\"}",
+			"::mh[Mythic Elder Air Elemental]{cr=14 mr=5}",
 			"",
 			"{SOURCE Mythic Adventures/193}  ",
 			"**XP** 38,400  ",
@@ -1905,7 +1905,7 @@
 		"description": [
 			"*This humanoid mountain of stone and earth strides forward on legs like pillars, a vast grove covering its back.*",
 			"",
-			"::mh[Mythic Elder Earth Elemental]{cr=\"14\" mr=\"5\"}",
+			"::mh[Mythic Elder Earth Elemental]{cr=14 mr=5}",
 			"",
 			"{SOURCE Mythic Adventures/194}  ",
 			"**XP** 38,400  ",
@@ -1966,7 +1966,7 @@
 		"description": [
 			"*This blazing conflagration is vaguely humanoid in shape, its horned visage almost too bright to look upon.*",
 			"",
-			"::mh[Mythic Elder Fire Elemental]{cr=\"14\" mr=\"5\"}",
+			"::mh[Mythic Elder Fire Elemental]{cr=14 mr=5}",
 			"",
 			"{SOURCE Mythic Adventures/195}  ",
 			"**XP** 38,400  ",
@@ -2028,7 +2028,7 @@
 		"description": [
 			"*Thousands of gallons of water rise up to become a tentacled face, a bulbous body, and four long tentacular appendages.*",
 			"",
-			"::mh[Mythic Elder Water Elemental]{cr=\"14\" mr=\"5\"}",
+			"::mh[Mythic Elder Water Elemental]{cr=14 mr=5}",
 			"",
 			"{SOURCE Mythic Adventures/196}  ",
 			"**XP** 38,400  ",
@@ -2087,7 +2087,7 @@
 		"description": [
 			"*This one-eyed being is a strange mix of insects, fungi, and other living things shaped into a single winged entity.*",
 			"",
-			"::mh[Mythic Elohim]{cr=\"23\" mr=\"6\"}",
+			"::mh[Mythic Elohim]{cr=23 mr=6}",
 			"",
 			"{SOURCE Bestiary 4/86}  ",
 			"**XP** 819,200  ",
@@ -2147,7 +2147,7 @@
 		"description": [
 			"*Flies buzz around this bestial, two-headed giant, and maggots squirm in the folds of its skin.*",
 			"",
-			"::mh[Mythic Ettin]{cr=\"8\" mr=\"3\"}",
+			"::mh[Mythic Ettin]{cr=8 mr=3}",
 			"",
 			"{SOURCE Mythic Adventures/197}  ",
 			"**XP** 4,800  ",
@@ -2215,7 +2215,7 @@
 		"description": [
 			"*This living stone statue takes the shape of a horned and winged humanoid, and green acid drips from its mouth.*",
 			"",
-			"::mh[Mythic Gargoyle]{cr=\"5\" mr=\"2\"}",
+			"::mh[Mythic Gargoyle]{cr=5 mr=2}",
 			"",
 			"{SOURCE Mythic Adventures/198}  ",
 			"**XP** 1,600  ",
@@ -2273,7 +2273,7 @@
 		"description": [
 			"*This giant's hair, beard, and skin are made of lava, and its armor and weapon glow with a dull heat.*",
 			"",
-			"::mh[Mythic Fire Giant]{cr=\"12\" mr=\"5\"}",
+			"::mh[Mythic Fire Giant]{cr=12 mr=5}",
 			"",
 			"{SOURCE Mythic Adventures/199}  ",
 			"**XP** 19,200  ",
@@ -2332,7 +2332,7 @@
 		"description": [
 			"*Like barnacles made of rock, stone growths encrust the feet of this thick-bodied giant.*",
 			"",
-			"::mh[Mythic Hill Giant]{cr=\"9\" mr=\"3\"}",
+			"::mh[Mythic Hill Giant]{cr=9 mr=3}",
 			"",
 			"{SOURCE Mythic Adventures/200}  ",
 			"**XP** 6,400  ",
@@ -2390,7 +2390,7 @@
 		"description": [
 			"*A mien of strange, primal beauty surrounds this woman, magnified by the inhuman tone of her skin and her bestial legs.*",
 			"",
-			"::mh[Mythic Glaistig]{cr=\"21\" mr=\"10\"}",
+			"::mh[Mythic Glaistig]{cr=21 mr=10}",
 			"",
 			"{SOURCE Bestiary 5/124}  ",
 			"**XP** 409,600  ",
@@ -2468,7 +2468,7 @@
 		"description": [
 			"*Electricity constantly arcs between the bolts and rivets that hold this amalgamated creature's flesh together.*",
 			"",
-			"::mh[Mythic Flesh Golem]{cr=\"9\" mr=\"3\"}",
+			"::mh[Mythic Flesh Golem]{cr=9 mr=3}",
 			"",
 			"{SOURCE Mythic Adventures/201}  ",
 			"**XP** 6,400  ",
@@ -2528,7 +2528,7 @@
 		"description": [
 			"*Haggard and hunched, this blind and snaggletoothed crone guides herself by a gruesomely bloated eyeball she clutches in her claws.*",
 			"",
-			"::mh[Mythic Graeae]{cr=\"5\" mr=\"2\"}",
+			"::mh[Mythic Graeae]{cr=5 mr=2}",
 			"",
 			"{SOURCE Bestiary 4/134}  ",
 			"**XP** 1,600  ",
@@ -2597,7 +2597,7 @@
 		"description": [
 			"*An eerie green fire emerges from the obscenely large mouth of this strange humanoid combination of bat and wolf.*",
 			"",
-			"::mh[Mythic Greater Barghest]{cr=\"8\" mr=\"2\"}",
+			"::mh[Mythic Greater Barghest]{cr=8 mr=2}",
 			"",
 			"{SOURCE Mythic Adventures/179}  ",
 			"**XP** 4,800  ",
@@ -2661,7 +2661,7 @@
 		"description": [
 			"*This lurching hulk carries no weapons, but its eyes burn with menace, and its long claws are caked with blood.*",
 			"",
-			"::mh[Mythic Grendel]{cr=\"19\" mr=\"7\"}",
+			"::mh[Mythic Grendel]{cr=19 mr=7}",
 			"",
 			"{SOURCE Bestiary 4/145}  ",
 			"**XP** 204,800  ",
@@ -2716,7 +2716,7 @@
 		"description": [
 			"*This majestic beast combines the features of a sleek black eagle and the strong, lean musculature of a panther.*",
 			"",
-			"::mh[Mythic Griffon]{cr=\"5\" mr=\"2\"}",
+			"::mh[Mythic Griffon]{cr=5 mr=2}",
 			"",
 			"{SOURCE Mythic Adventures/202}  ",
 			"**XP** 1,600  ",
@@ -2772,7 +2772,7 @@
 		"description": [
 			"*This golden lion towers over the trees, its six eyes watching every shadow and its mane shining like the sun.*",
 			"",
-			"::mh[Mythic Grogrisant]{cr=\"16\" mr=\"6\"}",
+			"::mh[Mythic Grogrisant]{cr=16 mr=6}",
 			"",
 			"{SOURCE Taldor, the First Empire/59}  ",
 			"**XP** 76,800  ",

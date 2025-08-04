@@ -3,7 +3,7 @@
 		"name": "Adult Lunar Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::mh[Adult Lunar Dragon]{cr=\"13\"}",
+			"::mh[Adult Lunar Dragon]{cr=13}",
 			"",
 			"{SOURCE Bestiary 4/66}  ",
 			"**XP** 25,600  ",
@@ -59,7 +59,7 @@
 		"name": "Ancient Lunar Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::mh[Ancient Lunar Dragon]{cr=\"18\"}",
+			"::mh[Ancient Lunar Dragon]{cr=18}",
 			"",
 			"{SOURCE Bestiary 4/67}  ",
 			"**XP** 153,600  ",
@@ -122,7 +122,7 @@
 		"description": [
 			"*A shimmering halo surrounds this regal dragon's spine-crowned head, and its vast wings ripple like milky gossamer lit by the moon.*",
 			"",
-			"::mh[Young Lunar Dragon]{cr=\"9\"}",
+			"::mh[Young Lunar Dragon]{cr=9}",
 			"",
 			"{SOURCE Bestiary 4/66}  ",
 			"**XP** 6,400  ",
@@ -175,7 +175,7 @@
 		"name": "Adult Solar Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::mh[Adult Solar Dragon]{cr=\"13\"}",
+			"::mh[Adult Solar Dragon]{cr=13}",
 			"",
 			"{SOURCE Bestiary 4/68}  ",
 			"**XP** 25,600  ",
@@ -231,7 +231,7 @@
 		"name": "Ancient Solar Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::mh[Ancient Solar Dragon]{cr=\"18\"}",
+			"::mh[Ancient Solar Dragon]{cr=18}",
 			"",
 			"{SOURCE Bestiary 4/69}  ",
 			"**XP** 153,600  ",
@@ -293,7 +293,7 @@
 		"description": [
 			"*This regal dragon glows like the sun. Its burnished wings shimmer the color of flames, and a crown of horns decorates its head.*",
 			"",
-			"::mh[Young Solar Dragon]{cr=\"9\"}",
+			"::mh[Young Solar Dragon]{cr=9}",
 			"",
 			"{SOURCE Bestiary 4/68}  ",
 			"**XP** 6,400  ",
@@ -346,7 +346,7 @@
 		"name": "Adult Time Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::mh[Adult Time Dragon]{cr=\"15\"}",
+			"::mh[Adult Time Dragon]{cr=15}",
 			"",
 			"{SOURCE Bestiary 4/70}  ",
 			"**XP** 51,200  ",
@@ -403,7 +403,7 @@
 		"name": "Ancient Time Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::mh[Ancient Time Dragon]{cr=\"20\"}",
+			"::mh[Ancient Time Dragon]{cr=20}",
 			"",
 			"{SOURCE Bestiary 4/71}  ",
 			"**XP** 307,200  ",
@@ -466,7 +466,7 @@
 		"description": [
 			"*This dragon's cracked scales creak with frightening, patient power. Some of its horns are ancient and brittle, others new and pristine.*",
 			"",
-			"::mh[Young Time Dragon]{cr=\"11\"}",
+			"::mh[Young Time Dragon]{cr=11}",
 			"",
 			"{SOURCE Bestiary 4/70}  ",
 			"**XP** 12,800  ",
@@ -520,7 +520,7 @@
 		"name": "Adult Void Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::mh[Adult Void Dragon]{cr=\"13\"}",
+			"::mh[Adult Void Dragon]{cr=13}",
 			"",
 			"{SOURCE Bestiary 4/72}  ",
 			"**XP** 25,600  ",
@@ -576,7 +576,7 @@
 		"name": "Ancient Void Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::mh[Ancient Void Dragon]{cr=\"18\"}",
+			"::mh[Ancient Void Dragon]{cr=18}",
 			"",
 			"{SOURCE Bestiary 4/73}  ",
 			"**XP** 153,600  ",
@@ -639,7 +639,7 @@
 		"description": [
 			"*This dragon's ebony scales and horns are flecked with a substance that glows an eerie green. The folds of its wings reflect a starry sky.*",
 			"",
-			"::mh[Young Void Dragon]{cr=\"9\"}",
+			"::mh[Young Void Dragon]{cr=9}",
 			"",
 			"{SOURCE Bestiary 4/72}  ",
 			"**XP** 6,400  ",
@@ -692,7 +692,7 @@
 		"name": "Adult Vortex Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::mh[Adult Vortex Dragon]{cr=\"14\"}",
+			"::mh[Adult Vortex Dragon]{cr=14}",
 			"",
 			"{SOURCE Bestiary 4/74}  ",
 			"**XP** 38,400  ",
@@ -749,7 +749,7 @@
 		"name": "Ancient Vortex Dragon",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::mh[Ancient Vortex Dragon]{cr=\"19\"}",
+			"::mh[Ancient Vortex Dragon]{cr=19}",
 			"",
 			"{SOURCE Bestiary 4/75}  ",
 			"**XP** 204,800  ",
@@ -812,7 +812,7 @@
 		"description": [
 			"*This dragon twists and whips with near untraceable speed. Its horns, crests along its neck, and wings emit a glow like starlight.*",
 			"",
-			"::mh[Young Vortex Dragon]{cr=\"10\"}",
+			"::mh[Young Vortex Dragon]{cr=10}",
 			"",
 			"{SOURCE Bestiary 4/74}  ",
 			"**XP** 9,600  ",
@@ -870,7 +870,7 @@
 		"description": [
 			"*A pair of brightly colored butterfly wings sprouts from the back of this miniature dragon.*",
 			"",
-			"::mh[Faerie Dragon]{cr=\"2\"}",
+			"::mh[Faerie Dragon]{cr=2}",
 			"",
 			"{SOURCE Bestiary 3/91;Bonus Bestiary/9}  ",
 			"**XP** 600  ",
@@ -934,7 +934,7 @@
 		"description": [
 			"*The facets of this crystalline dragon's body reflect fascinating and sparkling patterns.*",
 			"",
-			"::mh[Prism Dragon]{cr=\"17\"}",
+			"::mh[Prism Dragon]{cr=17}",
 			"",
 			"{SOURCE Occult Bestiary/42}  ",
 			"**XP** 102,400  ",
@@ -1011,7 +1011,7 @@
 		"description": [
 			"*This dragon bears a forest of razor-sharp crystalline spines. Its wings are transparent and seem almost to be made of glass.*",
 			"",
-			"::mh[Spine Dragon]{cr=\"16\"}",
+			"::mh[Spine Dragon]{cr=16}",
 			"",
 			"{SOURCE Inner Sea World Guide/312}  ",
 			"**XP** 76,800  ",
@@ -1074,7 +1074,7 @@
 		"description": [
 			"*This small draconic creature seems better suited for the waves than wind, its wings sweeping along its body like massive fins. Light from the water refracts off its resilient-looking cerulean hide as it snaps crustacean-like claws.*",
 			"",
-			"::mh[Tidepool Dragon]{cr=\"3\"}",
+			"::mh[Tidepool Dragon]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #55: The Wormwood Mutiny/82}  ",
 			"**XP** 800  ",
@@ -1154,7 +1154,7 @@
 		"description": [
 			"*This mass of detritus, sea foam, and seaweed undulates and quivers as it moves. The mass has a humanoid shape roughly the size of a child.*",
 			"",
-			"::mh[Flotsam Terror]{cr=\"4\"}",
+			"::mh[Flotsam Terror]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #121: The Lost Outpost/86}  ",
 			"**XP** 1,200  ",
@@ -1235,7 +1235,7 @@
 		"description": [
 			"*This pale, jellyfish-like creature floats gently in the air, two long eyestalks extending from either side of its puckered mouth.*",
 			"",
-			"::mh[Flumph]{cr=\"1\"}",
+			"::mh[Flumph]{cr=1}",
 			"",
 			"{SOURCE Bestiary 3/119;Misfit Monsters Redeemed/39}  ",
 			"**XP** 400  ",
@@ -1287,7 +1287,7 @@
 		"description": [
 			"*These thick-skinned animals bear large ivory tusks flanking a long, prehensile snout.*",
 			"",
-			"::mh[Elephant]{cr=\"7\"}",
+			"::mh[Elephant]{cr=7}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/128}  ",
 			"**XP** 3,200  ",
@@ -1331,7 +1331,7 @@
 		"description": [
 			"*This creature is larger than a normal elephant, with enormous sweeping tusks and shaggy brown fur on its body.*",
 			"",
-			"::mh[Mastodon]{cr=\"9\"}",
+			"::mh[Mastodon]{cr=9}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/128}  ",
 			"**XP** 6,400  ",
@@ -1377,7 +1377,7 @@
 		"description": [
 			"*This decaying taxidermic bear is held together with thick stitches, metal armor plates, and a pungent chemical fluid.*",
 			"",
-			"::mh[Embalming Bear]{cr=\"7\"}",
+			"::mh[Embalming Bear]{cr=7}",
 			"",
 			"{SOURCE Tears at Bitter Manor/60}  ",
 			"**XP** 3,200  ",
@@ -1436,7 +1436,7 @@
 		"description": [
 			"*An eerie green glow shines through the seams of this mechanical creature's armor.*",
 			"",
-			"::mh[Emerald Automaton]{cr=\"4\"}",
+			"::mh[Emerald Automaton]{cr=4}",
 			"",
 			"{SOURCE The Emerald Spire Superdungeon/154}  ",
 			"**XP** 1,200  ",
@@ -1502,7 +1502,7 @@
 		"description": [
 			"*This viscous blob of brightly colored goo quivers and pulses in a curious manner.*",
 			"",
-			"::mh[Emotion Ooze]{cr=\"6\"}",
+			"::mh[Emotion Ooze]{cr=6}",
 			"",
 			"{SOURCE Bestiary 5/108}  ",
 			"**XP** 2,400  ",
@@ -1579,7 +1579,7 @@
 		"description": [
 			"*A wide rack of ivory-white antlers crowns the head of this majestic tawny stag.*",
 			"",
-			"::mh[Emperor Stag]{cr=\"3\"}",
+			"::mh[Emperor Stag]{cr=3}",
 			"",
 			"{SOURCE Taldor, the First Empire/61}  ",
 			"**XP** 800  ",
@@ -1630,7 +1630,7 @@
 		"description": [
 			"*This beautiful woman has red antennae, gossamer insectile wings, a wasp's legs, and a serpentine whip.*",
 			"",
-			"::mh[Empusa]{cr=\"13\"}",
+			"::mh[Empusa]{cr=13}",
 			"",
 			"{SOURCE Planar Adventures/232}  ",
 			"**XP** 25,600  ",
@@ -1692,7 +1692,7 @@
 		"description": [
 			"*This graceful creature combines the features of a human and a river dolphin.*",
 			"",
-			"::mh[Encantado]{cr=\"8\"}",
+			"::mh[Encantado]{cr=8}",
 			"",
 			"{SOURCE Bestiary 5/110}  ",
 			"**XP** 4,800  ",
@@ -1752,7 +1752,7 @@
 		"description": [
 			"*This large bird has gray-and-white feathers, a long beak, and a bulbous sac on its throat that glows with a pale, sapphire light.*",
 			"",
-			"::mh[Enchanter Heron]{cr=\"3\"}",
+			"::mh[Enchanter Heron]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #121: The Lost Outpost/82}  ",
 			"**XP** 800  ",
@@ -1801,7 +1801,7 @@
 		"description": [
 			"*This ghostly image of a sad-eyed young woman hovers suspended in the air. Her face never loses its mournful expression.*",
 			"",
-			"::mh[Ephemeral Echo]{cr=\"7\"}",
+			"::mh[Ephemeral Echo]{cr=7}",
 			"",
 			"{SOURCE Tears at Bitter Manor/61}  ",
 			"**XP** 3,200  ",
@@ -1859,7 +1859,7 @@
 		"description": [
 			"*Bird-like wings covered with autumnal leaves instead of feathers extend from the back of this regal, elf-like humanoid.*",
 			"",
-			"::mh[Erlking]{cr=\"18\"}",
+			"::mh[Erlking]{cr=18}",
 			"",
 			"{SOURCE Bestiary 4/94}  ",
 			"**XP** 153,600  ",
@@ -1919,7 +1919,7 @@
 		"description": [
 			"*This giant moth has a head like a doe skull and six short tentacles instead of legs. Its wings drizzle a cascade of shimmering dust.*",
 			"",
-			"::mh[Escorite]{cr=\"8\"}",
+			"::mh[Escorite]{cr=8}",
 			"",
 			"{SOURCE The First World, Realm of the Fey/61}  ",
 			"**XP** 4,800  ",
@@ -1981,7 +1981,7 @@
 		"description": [
 			"*As thick and tall as a towering palm tree, this mud-colored worm hisses through a fanged mouth. Atop its head, a small protuberance shines like a star.*",
 			"",
-			"::mh[Estuarine Worm (Ahket Form)]{cr=\"10\"}",
+			"::mh[Estuarine Worm (Ahket Form)]{cr=10}",
 			"",
 			"{SOURCE Pathfinder #82: Secrets of the Sphinx/86}  ",
 			"**XP** 9,600  ",
@@ -2050,7 +2050,7 @@
 		"name": "Estuarine Worm (Shemu Form)",
 		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
 		"description": [
-			"::mh[Estuarine Worm (Shemu Form)]{cr=\"10\"}",
+			"::mh[Estuarine Worm (Shemu Form)]{cr=10}",
 			"",
 			"{SOURCE Pathfinder #82: Secrets of the Sphinx/86}  ",
 			"**XP** 9,600  ",
@@ -2123,7 +2123,7 @@
 		"description": [
 			"*This leafy bush bears flowers of a variety of shapes and colors, one of which resembles a toothy mouth at the end of a long stalk.*",
 			"",
-			"::mh[Etheroot]{cr=\"8\"}",
+			"::mh[Etheroot]{cr=8}",
 			"",
 			"{SOURCE Planar Adventures/233}  ",
 			"**XP** 4,800  ",
@@ -2177,7 +2177,7 @@
 		"description": [
 			"*This vaguely humanoid-shaped roil of mist appears to be improbably solid.*",
 			"",
-			"::mh[Etiainen]{cr=\"1\"}",
+			"::mh[Etiainen]{cr=1}",
 			"",
 			"{SOURCE Bestiary 5/111}  ",
 			"**XP** 400  ",
@@ -2239,7 +2239,7 @@
 		"description": [
 			"*This hideous purple creature walks upright like a man, but its face is that of a spider, and its hands are sickle-shaped claws.*",
 			"",
-			"::mh[Ettercap]{cr=\"3\"}",
+			"::mh[Ettercap]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/129}  ",
 			"**XP** 800  ",
@@ -2300,7 +2300,7 @@
 		"description": [
 			"*This lumbering, filthy, two-headed giant wears tattered remnants of leather armor and clutches a large flail in each fist.*",
 			"",
-			"::mh[Ettin]{cr=\"6\"}",
+			"::mh[Ettin]{cr=6}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/130}  ",
 			"**XP** 2,400  ",
@@ -2362,7 +2362,7 @@
 		"description": [
 			"*This creature has the upper body of a woman, the lower body of a snake, and a mass of undulating cobras for hair.*",
 			"",
-			"::mh[Euryale]{cr=\"20\"}",
+			"::mh[Euryale]{cr=20}",
 			"",
 			"{SOURCE Bestiary 6/120}  ",
 			"**XP** 307,200  ",
@@ -2450,7 +2450,7 @@
 		"name": "Bluetip Eurypterid",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
-			"::mh[Bluetip Eurypterid]{cr=\"5\"}",
+			"::mh[Bluetip Eurypterid]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #37: Souls for Smuggler's Shiv/78}  ",
 			"**XP** 1,600  ",
@@ -2507,7 +2507,7 @@
 			"Bestiary 6"
 		],
 		"description": [
-			"::mh[Common Eurypterid]{cr=\"1\"}",
+			"::mh[Common Eurypterid]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #37: Souls for Smuggler's Shiv/78;Bestiary 6/122}  ",
 			"**XP** 400  ",
@@ -2619,7 +2619,7 @@
 			"Bestiary 6"
 		],
 		"description": [
-			"::mh[Spiny Eurypterid]{cr=\"9\"}",
+			"::mh[Spiny Eurypterid]{cr=9}",
 			"",
 			"{SOURCE Pathfinder #37: Souls for Smuggler's Shiv/78;Bestiary 6/122}  ",
 			"**XP** 6,400  ",
@@ -2675,7 +2675,7 @@
 		"name": "Spitting Eurypterid",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
-			"::mh[Spitting Eurypterid]{cr=\"12\"}",
+			"::mh[Spitting Eurypterid]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #37: Souls for Smuggler's Shiv/79}  ",
 			"**XP** 19,200  ",
@@ -2733,7 +2733,7 @@
 		"description": [
 			"*Gray and black shadows and mist coalesce into a humanoid figure, its face a distorted mask of rage and hatred.*",
 			"",
-			"::mh[Exiled Shade]{cr=\"6\"}",
+			"::mh[Exiled Shade]{cr=6}",
 			"",
 			"{SOURCE Bestiary 6/123}  ",
 			"**XP** 2,400  ",
@@ -2791,7 +2791,7 @@
 		"description": [
 			"*This goat-like creature has a thick, snowy-white woolen coat. Its eyes gleam with a metallic golden sheen. Its hooves have sharpened, serrated edges and are soaked in blood. A single strand of scarlet thread is tangled between its curled ram horns.*",
 			"",
-			"::mh[Ez-azael]{cr=\"12\"}",
+			"::mh[Ez-azael]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #107: Scourge of the Godclaw/84}  ",
 			"**XP** 19,200  ",
@@ -2871,7 +2871,7 @@
 		"description": [
 			"*The faint scent of pine sap accompanies this vaguely tree-shaped creature, which stands on two towering trunk-like legs. Its arms resemble the branches of a snow-laden conifer.*",
 			"",
-			"::mh[Frost Fir]{cr=\"1\"}",
+			"::mh[Frost Fir]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #67: The Snows of Summer/84}  ",
 			"**XP** 400  ",
@@ -2942,7 +2942,7 @@
 		"description": [
 			"*This immense white worm has a single circular eye in the center of its head. Wisps of icy fog waft up from between its mandibles.*",
 			"",
-			"::mh[Frost Worm]{cr=\"12\"}",
+			"::mh[Frost Worm]{cr=12}",
 			"",
 			"{SOURCE Bestiary 2/126}  ",
 			"**XP** 19,200  ",
@@ -3001,7 +3001,7 @@
 		"description": [
 			"*This minuscule, fleshy plant creature has mottled, green-and-black skin and tiny eyes that peer malevolently from beneath layers of dripping, fungal hair.*",
 			"",
-			"::mh[Fuldrex]{cr=\"11\"}",
+			"::mh[Fuldrex]{cr=11}",
 			"",
 			"{SOURCE Pathfinder #119: Prisoners of the Blight/84}  ",
 			"**XP** 12,800  ",
@@ -3082,7 +3082,7 @@
 		"description": [
 			"*This giant fanged cricket is caked in pungent fungal growths and topped with a mushroom-like cap.*",
 			"",
-			"::mh[Fungal Crawler]{cr=\"3\"}",
+			"::mh[Fungal Crawler]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/127;Pathfinder #13: Shadow in the Sky/82}  ",
 			"**XP** 800  ",
@@ -3143,7 +3143,7 @@
 		"description": [
 			"*This eerie creature has the upper body of a beautiful, pale green woman, but her lower body is a pulsating mound of fungus.*",
 			"",
-			"::mh[Fungus Queen]{cr=\"9\"}",
+			"::mh[Fungus Queen]{cr=9}",
 			"",
 			"{SOURCE Bestiary 6/130;Inner Sea Bestiary/12}  ",
 			"**XP** 6,400  ",
@@ -3216,7 +3216,7 @@
 		"description": [
 			"*Twisting vines and vibrant flowers grow from the back of this titanic, multicolored reptile. A sickly-sweet scent fills the swirling air around it.*",
 			"",
-			"::mh[Furcifer]{cr=\"13\"}",
+			"::mh[Furcifer]{cr=13}",
 			"",
 			"{SOURCE Pathfinder #142: Gardens of Gallowspire/90}  ",
 			"**XP** 25,600  ",

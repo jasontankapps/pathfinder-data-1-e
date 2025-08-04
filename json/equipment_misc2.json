@@ -1865,13 +1865,14 @@
 			"{SOURCE Aquatic Adventures/56}  ",
 			"**Price** 750 gp (combat-trained), 500 gp (common); **Weight** 1,300 lbs. (combat-trained), 1,000 lbs. (common)",
 			"",
-			"Though somewhat rarer than horses on the surface world, hippocampi are roughly as easy to train as horses, despite being magical beasts. Even combat-trained hippocampi rarely wear barding, and even then nothing heavier than leather, as it interferes with their swimming."
+			"Though somewhat rarer than horses on the surface world, {monster/hippocamp/i>us} are roughly as easy to train as horses, despite being magical beasts. Even combat-trained hippocampi rarely wear barding, and even then nothing heavier than leather, as it interferes with their swimming."
 		]
 	},
 	"hippocampus_common": {
 		"name": "Hippocampus (common)",
 		"copyof": "hippocampus_combat_trained"
 	},
+	"hippocampus": { "redirect": "hippocampus_common" },
 	"hippogriff_combat_trained": {
 		"name": "Hippogriff (combat trained)",
 		"sources": [ "Ultimate Equipment" ],
@@ -1881,7 +1882,7 @@
 			"**Price** 5,000 gp; **Weight** 500 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"Less intelligent and easier to train than griffons, hippogriffs make reliable winged mounts."
+			"Less intelligent and easier to train than {monster/griffon/s}, {monster/hippogriff/s} make reliable winged mounts."
 		]
 	},
 	"hippogriff_egg": {
@@ -1893,7 +1894,7 @@
 			"**Price** 200 gp; **Weight** 10 lbs.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"While it is easier to train a full-grown hippogriff than a griffon, the eggs of these creatures are still prized by breeders."
+			"While it is easier to train a full-grown {monster/hippogriff} than a griffon, the eggs of these creatures are still prized by breeders."
 		]
 	},
 	"hireling_trained_per_day": {

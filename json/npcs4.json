@@ -3,7 +3,7 @@
 		"name": "Angel Slayer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Angel Slayer]{cr=\"14\"}",
+			"::mh[Angel Slayer]{cr=14}",
 			"",
 			"{SOURCE NPC Codex/138}  ",
 			"**XP** 38,400  ",
@@ -59,7 +59,7 @@
 		"name": "Arclord of Nex",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Arclord of Nex]{cr=\"14\"}",
+			"::mh[Arclord of Nex]{cr=14}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/6}  ",
 			"**XP** 38,400  ",
@@ -131,7 +131,7 @@
 		"name": "Creeping Death",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Creeping Death]{cr=\"14\"}",
+			"::mh[Creeping Death]{cr=14}",
 			"",
 			"{SOURCE NPC Codex/74}  ",
 			"**XP** 38,400  ",
@@ -196,7 +196,7 @@
 		"name": "Cruel Conjurer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Cruel Conjurer]{cr=\"14\"}",
+			"::mh[Cruel Conjurer]{cr=14}",
 			"",
 			"{SOURCE NPC Codex/190}  ",
 			"**XP** 38,400  ",
@@ -259,7 +259,7 @@
 		"name": "Diabolical Charmer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Diabolical Charmer]{cr=\"14\"}",
+			"::mh[Diabolical Charmer]{cr=14}",
 			"",
 			"{SOURCE NPC Codex/172}  ",
 			"**XP** 38,400  ",
@@ -317,7 +317,7 @@
 		"name": "Fighting School (Master)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Fighting School (Master)]{cr=\"14\"}",
+			"::mh[Fighting School (Master)]{cr=14}",
 			"",
 			"{SOURCE GameMastery Guide/275}  ",
 			"**XP** 38,400  ",
@@ -359,7 +359,7 @@
 		"name": "Giant Hunter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Giant Hunter]{cr=\"14\"}",
+			"::mh[Giant Hunter]{cr=14}",
 			"",
 			"{SOURCE NPC Codex/122}  ",
 			"**XP** 38,400  ",
@@ -421,7 +421,7 @@
 		"name": "Improvised Hurler",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Improvised Hurler]{cr=\"14\"}",
+			"::mh[Improvised Hurler]{cr=14}",
 			"",
 			"{SOURCE NPC Codex/106}  ",
 			"**XP** 38,400  ",
@@ -475,7 +475,7 @@
 		"name": "Life Stealer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Life Stealer]{cr=\"14\"}",
+			"::mh[Life Stealer]{cr=14}",
 			"",
 			"{SOURCE NPC Codex/20}  ",
 			"**XP** 38,400  ",
@@ -530,7 +530,7 @@
 		"name": "Lion Tamer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Lion Tamer]{cr=\"14\"}",
+			"::mh[Lion Tamer]{cr=14}",
 			"",
 			"{SOURCE NPC Codex/38}  ",
 			"**XP** 38,400  ",
@@ -592,7 +592,7 @@
 		"name": "Mammoth Rider",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Mammoth Rider]{cr=\"14\"}",
+			"::mh[Mammoth Rider]{cr=14}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/36}  ",
 			"**XP** 38,400  ",
@@ -690,7 +690,7 @@
 		"name": "Master of Undeath",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Master of Undeath]{cr=\"14\"}",
+			"::mh[Master of Undeath]{cr=14}",
 			"",
 			"{SOURCE NPC Codex/56}  ",
 			"**XP** 38,400  ",
@@ -754,7 +754,7 @@
 		"name": "Pirate King",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Pirate King]{cr=\"14\"}",
+			"::mh[Pirate King]{cr=14}",
 			"",
 			"{SOURCE NPC Codex/90}  ",
 			"**XP** 38,400  ",
@@ -805,7 +805,7 @@
 		"name": "Royalty (King)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Royalty (King)]{cr=\"14\"}",
+			"::mh[Royalty (King)]{cr=14}",
 			"",
 			"{SOURCE GameMastery Guide/293}  ",
 			"**XP** 38,400  ",
@@ -848,7 +848,7 @@
 		"name": "Unseen Archer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Unseen Archer]{cr=\"14\"}",
+			"::mh[Unseen Archer]{cr=14}",
 			"",
 			"{SOURCE NPC Codex/154}  ",
 			"**XP** 38,400  ",
@@ -902,7 +902,7 @@
 		"name": "Deep Marshal",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Deep Marshal]{cr=\"15\"}",
+			"::mh[Deep Marshal]{cr=15}",
 			"",
 			"{SOURCE NPC Codex/191}  ",
 			"**XP** 51,200  ",
@@ -960,7 +960,7 @@
 		"name": "Drow Matron",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Drow Matron]{cr=\"15\"}",
+			"::mh[Drow Matron]{cr=15}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/19}  ",
 			"**XP** 51,200  ",
@@ -1021,7 +1021,7 @@
 		"name": "Dwarven Arbalester",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Dwarven Arbalester]{cr=\"15\"}",
+			"::mh[Dwarven Arbalester]{cr=15}",
 			"",
 			"{SOURCE NPC Codex/91}  ",
 			"**XP** 51,200  ",
@@ -1072,7 +1072,7 @@
 		"name": "Elemental Priest",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Elemental Priest]{cr=\"15\"}",
+			"::mh[Elemental Priest]{cr=15}",
 			"",
 			"{SOURCE NPC Codex/57}  ",
 			"**XP** 51,200  ",
@@ -1134,7 +1134,7 @@
 		"name": "Horse Monk",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Horse Monk]{cr=\"15\"}",
+			"::mh[Horse Monk]{cr=15}",
 			"",
 			"{SOURCE NPC Codex/107}  ",
 			"**XP** 51,200  ",
@@ -1188,7 +1188,7 @@
 		"name": "Mage Slayer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mage Slayer]{cr=\"15\"}",
+			"::mh[Mage Slayer]{cr=15}",
 			"",
 			"{SOURCE NPC Codex/155}  ",
 			"**XP** 51,200  ",
@@ -1245,7 +1245,7 @@
 		"name": "Mounted Paragon",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mounted Paragon]{cr=\"15\"}",
+			"::mh[Mounted Paragon]{cr=15}",
 			"",
 			"{SOURCE NPC Codex/123}  ",
 			"**XP** 51,200  ",
@@ -1307,7 +1307,7 @@
 		"name": "Natural Arcanist",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Natural Arcanist]{cr=\"15\"}",
+			"::mh[Natural Arcanist]{cr=15}",
 			"",
 			"{SOURCE NPC Codex/173}  ",
 			"**XP** 51,200  ",
@@ -1368,7 +1368,7 @@
 		"name": "Spellsword",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Spellsword]{cr=\"15\"}",
+			"::mh[Spellsword]{cr=15}",
 			"",
 			"{SOURCE NPC Codex/39}  ",
 			"**XP** 51,200  ",
@@ -1430,7 +1430,7 @@
 		"name": "Taiga Stalker",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Taiga Stalker]{cr=\"15\"}",
+			"::mh[Taiga Stalker]{cr=15}",
 			"",
 			"{SOURCE NPC Codex/75}  ",
 			"**XP** 51,200  ",
@@ -1491,7 +1491,7 @@
 		"name": "Undead Hunter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Undead Hunter]{cr=\"15\"}",
+			"::mh[Undead Hunter]{cr=15}",
 			"",
 			"{SOURCE NPC Codex/21}  ",
 			"**XP** 51,200  ",
@@ -1545,7 +1545,7 @@
 		"name": "Undead Slayer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Undead Slayer]{cr=\"15\"}",
+			"::mh[Undead Slayer]{cr=15}",
 			"",
 			"{SOURCE NPC Codex/139}  ",
 			"**XP** 51,200  ",
@@ -1601,7 +1601,7 @@
 		"name": "Axe Lord",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Axe Lord]{cr=\"16\"}",
+			"::mh[Axe Lord]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/124}  ",
 			"**XP** 76,800  ",
@@ -1660,7 +1660,7 @@
 		"name": "Black Ice",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Black Ice]{cr=\"16\"}",
+			"::mh[Black Ice]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/238}  ",
 			"**XP** 76,800  ",
@@ -1726,7 +1726,7 @@
 		"name": "Daredevil Hunter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Daredevil Hunter]{cr=\"16\"}",
+			"::mh[Daredevil Hunter]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/140}  ",
 			"**XP** 76,800  ",
@@ -1781,7 +1781,7 @@
 		"name": "Death Master",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Death Master]{cr=\"16\"}",
+			"::mh[Death Master]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/230}  ",
 			"**XP** 76,800  ",
@@ -1851,7 +1851,7 @@
 		"name": "Dragon Chieftain",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Dragon Chieftain]{cr=\"16\"}",
+			"::mh[Dragon Chieftain]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/214}  ",
 			"**XP** 76,800  ",
@@ -1904,7 +1904,7 @@
 		"name": "Elven Recluse",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Elven Recluse]{cr=\"16\"}",
+			"::mh[Elven Recluse]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/92}  ",
 			"**XP** 76,800  ",
@@ -1956,7 +1956,7 @@
 		"name": "Fiery Dragonkin",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Fiery Dragonkin]{cr=\"16\"}",
+			"::mh[Fiery Dragonkin]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/174}  ",
 			"**XP** 76,800  ",
@@ -2014,7 +2014,7 @@
 		"name": "Graceful Slayer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Graceful Slayer]{cr=\"16\"}",
+			"::mh[Graceful Slayer]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/22}  ",
 			"**XP** 76,800  ",
@@ -2068,7 +2068,7 @@
 		"name": "Hateful Scourge",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Hateful Scourge]{cr=\"16\"}",
+			"::mh[Hateful Scourge]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/76}  ",
 			"**XP** 76,800  ",
@@ -2135,7 +2135,7 @@
 		"name": "Herald of Armageddon",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Herald of Armageddon]{cr=\"16\"}",
+			"::mh[Herald of Armageddon]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/58}  ",
 			"**XP** 76,800  ",
@@ -2199,7 +2199,7 @@
 		"name": "Iron Duelist",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Iron Duelist]{cr=\"16\"}",
+			"::mh[Iron Duelist]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/218}  ",
 			"**XP** 76,800  ",
@@ -2252,7 +2252,7 @@
 		"name": "Mage Spy",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mage Spy]{cr=\"16\"}",
+			"::mh[Mage Spy]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/192}  ",
 			"**XP** 76,800  ",
@@ -2309,7 +2309,7 @@
 		"name": "Masked Lord",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Masked Lord]{cr=\"16\"}",
+			"::mh[Masked Lord]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/156}  ",
 			"**XP** 76,800  ",
@@ -2363,7 +2363,7 @@
 		"name": "Master Historian",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Master Historian]{cr=\"16\"}",
+			"::mh[Master Historian]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/226}  ",
 			"**XP** 76,800  ",
@@ -2421,7 +2421,7 @@
 		"name": "Master Storycrafter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Master Storycrafter]{cr=\"16\"}",
+			"::mh[Master Storycrafter]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/234}  ",
 			"**XP** 76,800  ",
@@ -2484,7 +2484,7 @@
 		"name": "Murderous Scythe",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Murderous Scythe]{cr=\"16\"}",
+			"::mh[Murderous Scythe]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/210}  ",
 			"**XP** 76,800  ",
@@ -2545,7 +2545,7 @@
 		"name": "Notorious Foil",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Notorious Foil]{cr=\"16\"}",
+			"::mh[Notorious Foil]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/40}  ",
 			"**XP** 76,800  ",
@@ -2609,7 +2609,7 @@
 		"name": "Spirit Avenger",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Spirit Avenger]{cr=\"16\"}",
+			"::mh[Spirit Avenger]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/223}  ",
 			"**XP** 76,800  ",
@@ -2667,7 +2667,7 @@
 		"name": "Undead Bane",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Undead Bane]{cr=\"16\"}",
+			"::mh[Undead Bane]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/202}  ",
 			"**XP** 76,800  ",
@@ -2729,7 +2729,7 @@
 		"name": "Vaultbreaker",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Vaultbreaker]{cr=\"16\"}",
+			"::mh[Vaultbreaker]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/206}  ",
 			"**XP** 76,800  ",
@@ -2789,7 +2789,7 @@
 		"name": "Warren Chief",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Warren Chief]{cr=\"16\"}",
+			"::mh[Warren Chief]{cr=16}",
 			"",
 			"{SOURCE NPC Codex/108}  ",
 			"**XP** 76,800  ",

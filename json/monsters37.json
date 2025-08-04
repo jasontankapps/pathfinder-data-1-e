@@ -5,7 +5,7 @@
 		"description": [
 			"*Sharp quills cover this bright yellow, six-legged animal, and its long, twitching snout probes the air around it.*",
 			"",
-			"::mh[Pilo]{cr=\"2\"}",
+			"::mh[Pilo]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #85: Fires of Creation/82}  ",
 			"**XP** 600  ",
@@ -231,7 +231,7 @@
 		"description": [
 			"*This gray, human-sized porcupine's round body is covered in sharp, striped quills.*",
 			"",
-			"::mh[Giant Porcupine]{cr=\"2\"}",
+			"::mh[Giant Porcupine]{cr=2}",
 			"",
 			"{SOURCE Bestiary 3/222}  ",
 			"**XP** 600  ",
@@ -280,7 +280,7 @@
 		"description": [
 			"*This enormous, finned reptile has a long mouth full of sharp teeth and moves through the water with incredible speed.*",
 			"",
-			"::mh[Kronosaurus]{cr=\"10\"}",
+			"::mh[Kronosaurus]{cr=10}",
 			"",
 			"{SOURCE Pathfinder #60: From Hell's Heart/88}  ",
 			"**XP** 9,600  ",
@@ -327,7 +327,7 @@
 		"description": [
 			"*This long-necked reptile swims through the water propelled by four paddle-like feet, whipping a long and slender tail behind it as it gnashes its sharp, needle-like teeth.*",
 			"",
-			"::mh[Nothosaur]{cr=\"5\"}",
+			"::mh[Nothosaur]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #60: From Hell's Heart/88}  ",
 			"**XP** 1,600  ",
@@ -378,7 +378,7 @@
 		"description": [
 			"*This elongated, whale-like creature moves through the water with an eel-like motion despite its wide, fluked tail. Razor-sharp teeth fill its almost reptilian mouth.*",
 			"",
-			"::mh[Zeuglodon]{cr=\"9\"}",
+			"::mh[Zeuglodon]{cr=9}",
 			"",
 			"{SOURCE Pathfinder #60: From Hell's Heart/89}  ",
 			"**XP** 6,400  ",
@@ -432,7 +432,7 @@
 		"description": [
 			"*Half-formed eyes, toothless mouths, gaping throats, and countless other malformed organs constantly form and dissolve over this monster's surface.*",
 			"",
-			"::mh[Proto-Shoggoth]{cr=\"11\"}",
+			"::mh[Proto-Shoggoth]{cr=11}",
 			"",
 			"{SOURCE Pathfinder #112: The Whisper Out of Time/90}  ",
 			"**XP** 12,800  ",
@@ -499,7 +499,7 @@
 		"description": [
 			"*Half-formed eyes, toothless mouths, gaping throats, and countless other malformed organs constantly form and dissolve over this monster's surface.*",
 			"",
-			"::mh[Proto-Shoggoth Synctium]{cr=\"14\"}",
+			"::mh[Proto-Shoggoth Synctium]{cr=14}",
 			"",
 			"{SOURCE Pathfinder #112: The Whisper Out of Time/90}  ",
 			"**XP** 38,400  ",
@@ -564,7 +564,7 @@
 		"description": [
 			"*This housecat-sized miniature dragon has fine scales, sharp horns, wicked little teeth, and a tail tipped with a barbed stinger.*",
 			"",
-			"::mh[Pseudodragon]{cr=\"1\"}",
+			"::mh[Pseudodragon]{cr=1}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/229}  ",
 			"**XP** 400  ",
@@ -617,7 +617,7 @@
 		"description": [
 			"*This small creature has the body of a housecat, the wings of a falcon, and the head of a monkey.*",
 			"",
-			"::mh[Pseudosphinx]{cr=\"2\"}",
+			"::mh[Pseudosphinx]{cr=2}",
 			"",
 			"{SOURCE Familiar Folio/29}  ",
 			"**XP** 600  ",
@@ -675,7 +675,7 @@
 		"description": [
 			"*The sinuous tail of this cat-sized winged, armless dragon is tipped with a scorpion-like stinger.*",
 			"",
-			"::mh[Pseudowyvern]{cr=\"2\"}",
+			"::mh[Pseudowyvern]{cr=2}",
 			"",
 			"{SOURCE Legacy of Dragons/27}  ",
 			"**XP** 600  ",
@@ -730,7 +730,7 @@
 		"description": [
 			"*This one-eyed, wolf-headed creature walks upright on two hoofed feet. It bares metal fangs while a thin, rat-like tail twitches behind it.*",
 			"",
-			"::mh[Psoglav]{cr=\"13\"}",
+			"::mh[Psoglav]{cr=13}",
 			"",
 			"{SOURCE Bestiary 6/215}  ",
 			"**XP** 25,600  ",
@@ -790,7 +790,7 @@
 		"description": [
 			"*A spiral pattern adorns the hood of this cobra-like serpent. Its gaze betrays a keen intellect.*",
 			"",
-			"::mh[Psyche Serpent]{cr=\"2\"}",
+			"::mh[Psyche Serpent]{cr=2}",
 			"",
 			"{SOURCE Occult Bestiary/44}  ",
 			"**XP** 600  ",
@@ -849,7 +849,7 @@
 		"description": [
 			"*This incorporeal field shimmers with a constant flux of colors and shapes that coalesce into distorted, ephemeral images and reflections.*",
 			"",
-			"::mh[Psychemental]{cr=\"8\"}",
+			"::mh[Psychemental]{cr=8}",
 			"",
 			"{SOURCE Bestiary 5/197}  ",
 			"**XP** 4,800  ",
@@ -905,7 +905,7 @@
 		"description": [
 			"*A mass of shell-like fungus grows so thick it obscures the mass of plant matter beneath.*",
 			"",
-			"::mh[Psychepore]{cr=\"7\"}",
+			"::mh[Psychepore]{cr=7}",
 			"",
 			"{SOURCE Bestiary 5/198}  ",
 			"**XP** 3,200  ",
@@ -970,7 +970,7 @@
 		"description": [
 			"*This horrific, ghostly skull's brain pulses within its cranium, the whorls and folds plainly visible through bone.*",
 			"",
-			"::mh[Psychic Stalker]{cr=\"7\"}",
+			"::mh[Psychic Stalker]{cr=7}",
 			"",
 			"{SOURCE Bestiary 6/216;Occult Bestiary/45}  ",
 			"**XP** 3,200  ",
@@ -1025,7 +1025,7 @@
 		"description": [
 			"*This enormous, spider-like creature has three clawed tails and eight legs connected by leathery webs of flesh.*",
 			"",
-			"::mh[Augnagar]{cr=\"14\"}",
+			"::mh[Augnagar]{cr=14}",
 			"",
 			"{SOURCE Bestiary 2/219}  ",
 			"**XP** 38,400  ",
@@ -1086,7 +1086,7 @@
 		"description": [
 			"*This monstrous fiend resembles a titan beetle with a sagging, elephantine hide stretched over its spiny carapace.*",
 			"",
-			"::mh[Behimiron]{cr=\"13\"}",
+			"::mh[Behimiron]{cr=13}",
 			"",
 			"{SOURCE Bestiary 6/224}  ",
 			"**XP** 25,600  ",
@@ -1153,7 +1153,7 @@
 		"description": [
 			"*Spiked clubs extend from each end of this six-legged fiend. A spiky growth sticks up from its back, and a mouth yawns in its belly.*",
 			"",
-			"::mh[Cataboligne]{cr=\"16\"}",
+			"::mh[Cataboligne]{cr=16}",
 			"",
 			"{SOURCE Bestiary 6/225}  ",
 			"**XP** 76,800  ",
@@ -1220,7 +1220,7 @@
 		"description": [
 			"*This slippery, writhing mass of tentacles and stalked mouths has one huge hideous eye and a fanged maw for a belly.*",
 			"",
-			"::mh[Chernobue]{cr=\"12\"}",
+			"::mh[Chernobue]{cr=12}",
 			"",
 			"{SOURCE Bestiary 2/220}  ",
 			"**XP** 19,200  ",
@@ -1286,7 +1286,7 @@
 		"description": [
 			"*This six-legged horror has a spider's face and a fibrous stalk growing out of its back - a stalk ending in a snapping mouth.*",
 			"",
-			"::mh[Cythnigot]{cr=\"2\"}",
+			"::mh[Cythnigot]{cr=2}",
 			"",
 			"{SOURCE Bestiary 2/221}  ",
 			"**XP** 600  ",
@@ -1349,7 +1349,7 @@
 		"description": [
 			"*A fleshy pseudopod tipped with a jawless mouth and ringed by dozens of eyes emerges from a spiny shell along with several hooked legs.*",
 			"",
-			"::mh[Deinochos]{cr=\"5\"}",
+			"::mh[Deinochos]{cr=5}",
 			"",
 			"{SOURCE Book of the Damned/251}  ",
 			"**XP** 1,600  ",
@@ -1417,7 +1417,7 @@
 		"description": [
 			"*This human-sized, crab-like creature scuttles on six stumpy legs, and each of its four arms sports a different method of inflicting pain.*",
 			"",
-			"::mh[Gongorinan]{cr=\"11\"}",
+			"::mh[Gongorinan]{cr=11}",
 			"",
 			"{SOURCE Bestiary 6/226;Pathfinder #64: Beyond the Doomsday Door/90}  ",
 			"**XP** 12,800  ",
@@ -1500,7 +1500,7 @@
 		"description": [
 			"*Numerous writhing, coiling tails support this serpent-headed beast. Its three eyes glow a sickly yellow.*",
 			"",
-			"::mh[Gorgoros]{cr=\"9\"}",
+			"::mh[Gorgoros]{cr=9}",
 			"",
 			"{SOURCE Bestiary 6/228}  ",
 			"**XP** 6,400  ",
@@ -1565,7 +1565,7 @@
 		"description": [
 			"*This eel-like monstrosity has a gaping, fanged mouth from which lolls a long, red tongue split into three tendrils, two of which wield weapons.*",
 			"",
-			"::mh[Hydraggon]{cr=\"3\"}",
+			"::mh[Hydraggon]{cr=3}",
 			"",
 			"{SOURCE Bestiary 6/229}  ",
 			"**XP** 800  ",
@@ -1628,7 +1628,7 @@
 		"description": [
 			"*This immense creature has four bat-like wings and a spherical body. Red eyes peer from all sides, and two huge claws dangle below.*",
 			"",
-			"::mh[Iathavos]{cr=\"20\"}",
+			"::mh[Iathavos]{cr=20}",
 			"",
 			"{SOURCE Bestiary 2/222}  ",
 			"**XP** 307,200  ",
@@ -1705,7 +1705,7 @@
 		"description": [
 			"*This appears to be a mass of floating intestines tangled around a fanged mouth - the tips of its coils also end in toothy maws.*",
 			"",
-			"::mh[Nyogoth]{cr=\"10\"}",
+			"::mh[Nyogoth]{cr=10}",
 			"",
 			"{SOURCE Bestiary 2/224}  ",
 			"**XP** 9,600  ",
@@ -1768,7 +1768,7 @@
 		"description": [
 			"*This pale creature has four suckered arms that end in pincers. A gnashing maw gapes in its head between two staring eyes.*",
 			"",
-			"::mh[Shoggti]{cr=\"7\"}",
+			"::mh[Shoggti]{cr=7}",
 			"",
 			"{SOURCE Bestiary 2/225}  ",
 			"**XP** 3,200  ",
@@ -1832,7 +1832,7 @@
 		"description": [
 			"*This obscene mass looks like a melted blob crossed with a spider, ceaselessly lashing out with its hairy, wriggling legs.*",
 			"",
-			"::mh[Thognorok]{cr=\"4\"}",
+			"::mh[Thognorok]{cr=4}",
 			"",
 			"{SOURCE Inner Sea Gods/305}  ",
 			"**XP** 1,200  ",
@@ -1896,7 +1896,7 @@
 		"description": [
 			"*This monster has ten spidery legs, a head writhing with dripping tentacles above a clutch of red eyes, and three whipping stingers.*",
 			"",
-			"::mh[Thulgant]{cr=\"18\"}",
+			"::mh[Thulgant]{cr=18}",
 			"",
 			"{SOURCE Bestiary 2/226}  ",
 			"**XP** 153,600  ",
@@ -1964,7 +1964,7 @@
 		"description": [
 			"*Wriggling tendrils surround this creature's single eye where a face should be, and sucker-tipped tentacles stretch from its shoulders.*",
 			"",
-			"::mh[Utukku]{cr=\"8\"}",
+			"::mh[Utukku]{cr=8}",
 			"",
 			"{SOURCE Bestiary 6/230}  ",
 			"**XP** 4,800  ",
@@ -2028,7 +2028,7 @@
 		"description": [
 			"*This blood-red tumorous mass has a shifting cluster of waving tentacles sprouting from its amorphous form, its body pulsating with a horrid vitality.*",
 			"",
-			"::mh[Vexenion]{cr=\"6\"}",
+			"::mh[Vexenion]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #134: It Came from Hollow Mountain/86}  ",
 			"**XP** 2,400  ",
@@ -2168,7 +2168,7 @@
 		"description": [
 			"*This gigantic two-headed vulture has greasy, night-black wings and sharp talons.*",
 			"",
-			"::mh[Rukh]{cr=\"10\"}",
+			"::mh[Rukh]{cr=10}",
 			"",
 			"{SOURCE Bestiary 4/228;Pathfinder #21: The Jackal's Price/84}  ",
 			"**XP** 9,600  ",
@@ -2215,7 +2215,7 @@
 			"Pathfinder #21: The Jackal's Price"
 		],
 		"description": [
-			"::mh[Juvenile Rukh]{cr=\"3\"}",
+			"::mh[Juvenile Rukh]{cr=3}",
 			"",
 			"{SOURCE Bestiary 4/228;Pathfinder #21: The Jackal's Price/84}  ",
 			"**XP** 800  ",
@@ -2262,7 +2262,7 @@
 		"description": [
 			"*A carved rune detaches itself from the wall and floats silently in midair, glowing with arcane energy.*",
 			"",
-			"::mh[Rune Guardian]{cr=\"1\"}",
+			"::mh[Rune Guardian]{cr=1}",
 			"",
 			"{SOURCE The Godsmouth Heresy/29}  ",
 			"**XP** 400  ",
@@ -2333,7 +2333,7 @@
 		"description": [
 			"*This beguiling female figure is partly obscured by long flowing hair that dances and flows around her as if she were underwater.*",
 			"",
-			"::mh[Rusalka]{cr=\"12\"}",
+			"::mh[Rusalka]{cr=12}",
 			"",
 			"{SOURCE Bestiary 3/232}  ",
 			"**XP** 19,200  ",
@@ -2393,7 +2393,7 @@
 		"description": [
 			"*This insectile monster has four legs, a strange propeller-shaped protrusion at the end of its tail, and two long, feathery antennae.*",
 			"",
-			"::mh[Rust Monster]{cr=\"3\"}",
+			"::mh[Rust Monster]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/238}  ",
 			"**XP** 800  ",
@@ -2445,7 +2445,7 @@
 		"description": [
 			"*Miscellaneous bits of rusted machinery are fused to the body of this shambling corpse.*",
 			"",
-			"::mh[Rust-Risen]{cr=\"2\"}",
+			"::mh[Rust-Risen]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #86: Lords of Rust/90}  ",
 			"**XP** 600  ",
@@ -2542,7 +2542,7 @@
 		"description": [
 			"*This bat-like humanoid has a lean, muscular body covered with fur and two large, leathery wings.*",
 			"",
-			"::mh[Sabosan]{cr=\"5\"}",
+			"::mh[Sabosan]{cr=5}",
 			"",
 			"{SOURCE Bestiary 3/233;Pathfinder #40: Vaults of Madness/86}  ",
 			"**XP** 1,600  ",
@@ -2660,7 +2660,7 @@
 		"description": [
 			"*This humanoid plant creature has the prickly hide of a cactus, and smaller cactuses seemingly sprout from its flesh.*",
 			"",
-			"::mh[Saguaroi]{cr=\"5\"}",
+			"::mh[Saguaroi]{cr=5}",
 			"",
 			"{SOURCE Bestiary 4/229}  ",
 			"**XP** 1,600  ",
@@ -2718,7 +2718,7 @@
 		"description": [
 			"*This creature's stout canine torso tops a slimy mass resembling an earthworm. Disgusting veins dangle from its face.*",
 			"",
-			"::mh[Esipil]{cr=\"2\"}",
+			"::mh[Esipil]{cr=2}",
 			"",
 			"{SOURCE Bestiary 5/213}  ",
 			"**XP** 600  ",
@@ -2783,7 +2783,7 @@
 		"description": [
 			"*This monstrosity looks like a massive cockroach made from putrid hair. A humanoid face leers in place of an insectile head.*",
 			"",
-			"::mh[Ichkoh]{cr=\"7\"}",
+			"::mh[Ichkoh]{cr=7}",
 			"",
 			"{SOURCE Bestiary 6/243}  ",
 			"**XP** 3,200  ",
@@ -2845,7 +2845,7 @@
 		"description": [
 			"*Three monstrous, misshapen skulls top a twisted trunk balanced on three leg-like splinters of flesh and bone.*",
 			"",
-			"::mh[Kimenhul]{cr=\"20\"}",
+			"::mh[Kimenhul]{cr=20}",
 			"",
 			"{SOURCE Bestiary 5/214}  ",
 			"**XP** 307,200  ",
@@ -2924,7 +2924,7 @@
 		"description": [
 			"*This monstrous wild boar is infested with wriggling worms and accompanied by a buzzing cloud of flies.*",
 			"",
-			"::mh[Nucol]{cr=\"4\"}",
+			"::mh[Nucol]{cr=4}",
 			"",
 			"{SOURCE Book of the Damned/253}  ",
 			"**XP** 1,200  ",
@@ -2988,7 +2988,7 @@
 		"description": [
 			"*Thorny vines with tiny red flowers grow from this emaciated woman and flow like a train behind her.*",
 			"",
-			"::mh[Pakalchi]{cr=\"9\"}",
+			"::mh[Pakalchi]{cr=9}",
 			"",
 			"{SOURCE Bestiary 5/216}  ",
 			"**XP** 6,400  ",
@@ -3057,7 +3057,7 @@
 		"description": [
 			"*Terrible jaws ringed with clawed arms open atop this towering mass of flesh. A probing tongue flops from another orifice.*",
 			"",
-			"::mh[Qolok]{cr=\"16\"}",
+			"::mh[Qolok]{cr=16}",
 			"",
 			"{SOURCE Bestiary 5/217}  ",
 			"**XP** 76,800  ",
@@ -3120,7 +3120,7 @@
 		"description": [
 			"*Buzzing wings hold this gaunt creature just above the ground. A grasshopper serves as the creature's head.*",
 			"",
-			"::mh[Wihsaak]{cr=\"6\"}",
+			"::mh[Wihsaak]{cr=6}",
 			"",
 			"{SOURCE Bestiary 5/218}  ",
 			"**XP** 2,400  ",
@@ -3182,7 +3182,7 @@
 		"description": [
 			"*A rat's head sprouts from the front of a crab-like body, and two tentacular tails ending in hands erupt from the towering bulk.*",
 			"",
-			"::mh[Ximtal]{cr=\"17\"}",
+			"::mh[Ximtal]{cr=17}",
 			"",
 			"{SOURCE Bestiary 6/244}  ",
 			"**XP** 102,400  ",
@@ -3270,7 +3270,7 @@
 		"description": [
 			"*This monster is vaguely humanoid, but stands on three legs. A foul liquid drips from the needle-like tips of its long, hooked arms.*",
 			"",
-			"::mh[Zohanil]{cr=\"10\"}",
+			"::mh[Zohanil]{cr=10}",
 			"",
 			"{SOURCE Bestiary 6/246}  ",
 			"**XP** 9,600  ",
@@ -3333,7 +3333,7 @@
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
 			"",
-			"::mh[Sahuagin]{cr=\"2\"}",
+			"::mh[Sahuagin]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/239}  ",
 			"**XP** 600  ",
@@ -3409,7 +3409,7 @@
 		"description": [
 			"*This burly humanoid has sharp scales and fins like some predatory fish. As if its maw full of serrated teeth were not intimidating enough, the monstrosity clenches deadly claws at the ends of four powerful arms.*",
 			"",
-			"::mh[Four-Armed Mutant]{cr=\"3\"}",
+			"::mh[Four-Armed Mutant]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #56: Raiders of the Fever Sea/84}  ",
 			"**XP** 800  ",
@@ -3481,7 +3481,7 @@
 		"description": [
 			"*A predatory gleam glints in the eyes of this stern-looking aquatic elf.*",
 			"",
-			"::mh[Malenti]{cr=\"2\"}",
+			"::mh[Malenti]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #56: Raiders of the Fever Sea/84}  ",
 			"**XP** 600  ",
@@ -3553,7 +3553,7 @@
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
 			"",
-			"::mh[Sahuagin Baron]{cr=\"9\"}",
+			"::mh[Sahuagin Baron]{cr=9}",
 			"",
 			"{SOURCE Monster Codex/194}  ",
 			"**XP** 6,400  ",
@@ -3607,7 +3607,7 @@
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
 			"",
-			"::mh[Sahuagin Brute]{cr=\"3\"}",
+			"::mh[Sahuagin Brute]{cr=3}",
 			"",
 			"{SOURCE Monster Codex/191}  ",
 			"**XP** 800  ",
@@ -3655,7 +3655,7 @@
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
 			"",
-			"::mh[Sahuagin Champion]{cr=\"10\"}",
+			"::mh[Sahuagin Champion]{cr=10}",
 			"",
 			"{SOURCE Monster Codex/191}  ",
 			"**XP** 9,600  ",
@@ -3708,7 +3708,7 @@
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
 			"",
-			"::mh[Sahuagin Deep Racer]{cr=\"4\"}",
+			"::mh[Sahuagin Deep Racer]{cr=4}",
 			"",
 			"{SOURCE Monster Codex/192}  ",
 			"**XP** 1,200  ",
@@ -3760,7 +3760,7 @@
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
 			"",
-			"::mh[Sahuagin High Priestess]{cr=\"9\"}",
+			"::mh[Sahuagin High Priestess]{cr=9}",
 			"",
 			"{SOURCE Monster Codex/193}  ",
 			"**XP** 6,400  ",
@@ -3817,7 +3817,7 @@
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
 			"",
-			"::mh[Sahuagin Infiltrator]{cr=\"7\"}",
+			"::mh[Sahuagin Infiltrator]{cr=7}",
 			"",
 			"{SOURCE Monster Codex/190}  ",
 			"**XP** 3,200  ",
@@ -3870,7 +3870,7 @@
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
 			"",
-			"::mh[Sahuagin Lieutenant]{cr=\"5\"}",
+			"::mh[Sahuagin Lieutenant]{cr=5}",
 			"",
 			"{SOURCE Monster Codex/194}  ",
 			"**XP** 1,600  ",
@@ -3917,7 +3917,7 @@
 		"name": "Sahuagin Prince",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Sahuagin Prince]{cr=\"13\"}",
+			"::mh[Sahuagin Prince]{cr=13}",
 			"",
 			"{SOURCE Monster Codex/195}  ",
 			"**XP** 25,600  ",
@@ -3993,7 +3993,7 @@
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
 			"",
-			"::mh[Sahuagin Scout]{cr=\"3\"}",
+			"::mh[Sahuagin Scout]{cr=3}",
 			"",
 			"{SOURCE Monster Codex/190}  ",
 			"**XP** 800  ",
@@ -4046,7 +4046,7 @@
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
 			"",
-			"::mh[Sahuagin Shark Sentry]{cr=\"6\"}",
+			"::mh[Sahuagin Shark Sentry]{cr=6}",
 			"",
 			"{SOURCE Monster Codex/192}  ",
 			"**XP** 2,400  ",
@@ -4101,7 +4101,7 @@
 		"description": [
 			"*This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.*",
 			"",
-			"::mh[Sahuagin Underpriestess]{cr=\"5\"}",
+			"::mh[Sahuagin Underpriestess]{cr=5}",
 			"",
 			"{SOURCE Monster Codex/193}  ",
 			"**XP** 1,600  ",
@@ -4157,7 +4157,7 @@
 		"description": [
 			"*This snake-bodied humanoid hisses with anger. Spines of crackling flame dance along the creature's blackened, fiery-red scales.*",
 			"",
-			"::mh[Salamander]{cr=\"6\"}",
+			"::mh[Salamander]{cr=6}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/240}  ",
 			"**XP** 2,400  ",
@@ -4214,7 +4214,7 @@
 		"description": [
 			"*A whirling cloud of fine desert sand piles up upon itself, forming into the shape of a humanoid figure.*",
 			"",
-			"::mh[Sandman]{cr=\"3\"}",
+			"::mh[Sandman]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/236}  ",
 			"**XP** 800  ",
@@ -4275,7 +4275,7 @@
 		"description": [
 			"*Dressed in tattered finery and an animal for a cloak, this small, gaunt humanoid has unnaturally long fingers and nails.*",
 			"",
-			"::mh[Sangoi]{cr=\"7\"}",
+			"::mh[Sangoi]{cr=7}",
 			"",
 			"{SOURCE Bestiary 5/219;Pathfinder #69: Maiden, Mother, Crone/88}  ",
 			"**XP** 3,200  ",
@@ -4343,7 +4343,7 @@
 		"description": [
 			"*This glittering ooze suddenly flexes and bulges as portions of it begin to crystallize.*",
 			"",
-			"::mh[Sapphire Ooze]{cr=\"2\"}",
+			"::mh[Sapphire Ooze]{cr=2}",
 			"",
 			"{SOURCE Planar Adventures/244}  ",
 			"**XP** 600  ",

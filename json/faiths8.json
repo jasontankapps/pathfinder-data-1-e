@@ -1146,7 +1146,7 @@
 		"name": "Surpa",
 		"sources": [ "Book of the Damned" ],
 		"description": [
-			"::fh[Surpa]{sub=\"Avenger\"}",
+			"::fh[Surpa]{sub=Avenger}",
 			"",
 			"{SOURCE Book of the Damned/130}  ",
 			"**Pathfinder Wiki** [Surpa](https://www.pathfinderwiki.com/wiki/Surpa) *(link opens in outside browser)*",
@@ -1916,7 +1916,7 @@
 			"Book of the Damned"
 		],
 		"description": [
-			"::fh[Thuskchoon]{sub=\"Everglutton\"}",
+			"::fh[Thuskchoon]{sub=Everglutton}",
 			"",
 			"{SOURCE Inner Sea Gods/328}  ",
 			"**Pathfinder Wiki** [Thuskchoon](https://www.pathfinderwiki.com/wiki/Thuskchoon) *(link opens in outside browser)*  ",
@@ -2035,7 +2035,7 @@
 			"Chronicle of the Righteous"
 		],
 		"description": [
-			"::fh[Tolc]{sub=\"Snow-Strider\"}",
+			"::fh[Tolc]{sub=Snow-Strider}",
 			"",
 			"{SOURCE Inner Sea Gods/324}  ",
 			"**Pathfinder Wiki** [Tolc](https://www.pathfinderwiki.com/wiki/Tolc) *(link opens in outside browser)*",

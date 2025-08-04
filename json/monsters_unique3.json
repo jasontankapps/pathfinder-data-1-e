@@ -5,7 +5,7 @@
 		"description": [
 			"*This titanic golden statue of a great knight moves of its own accord and hefts a mighty warhammer.*",
 			"",
-			"::mh[Lawgiver]{cr=\"15\"}",
+			"::mh[Lawgiver]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/276}  ",
 			"**XP** 51,200  ",
@@ -59,7 +59,7 @@
 		"description": [
 			"*This devilish humanoid has five horns growing out of his forehead that resemble a crown. He stands on stout cloven hooves.*",
 			"",
-			"::mh[Lorthact]{cr=\"25\"}",
+			"::mh[Lorthact]{cr=25}",
 			"",
 			"{SOURCE Inner Sea Bestiary/26}  ",
 			"**XP** 1,638,400  ",
@@ -135,7 +135,7 @@
 		"description": [
 			"*Standing amid a roiling fog, this nude, humanoid woman's pale, wet skin glistens. Her long, dark hair moves about her head as though she were submerged underwater, and rapier in her hand crackles with arcane energy.*",
 			"",
-			"::mh[Malsandra]{cr=\"16\"}",
+			"::mh[Malsandra]{cr=16}",
 			"",
 			"{SOURCE Fey Revisited/50}  ",
 			"**XP** 76,800  ",
@@ -188,7 +188,7 @@
 		"description": [
 			"*This enormous, ebon-skinned giant is covered in glowing red runes and exotic plate armor.*",
 			"",
-			"::mh[Malziarax, Rune Giant Overlord]{cr=\"21\"}",
+			"::mh[Malziarax, Rune Giant Overlord]{cr=21}",
 			"",
 			"{SOURCE Giants Revisited/44}  ",
 			"**XP** 409,600  ",
@@ -238,7 +238,7 @@
 		"description": [
 			"*This leering, single-horned demon seems emaciated even clad in black dragonhide armor. A viscous layer of crimson slime glistens on its flesh, dripping over its armor in red rivulets.*",
 			"",
-			"::mh[Mangvhune, the Temple Hill Slasher]{cr=\"16\"}",
+			"::mh[Mangvhune, the Temple Hill Slasher]{cr=16}",
 			"",
 			"{SOURCE Demons Revisited/8}  ",
 			"**XP** 76,800  ",
@@ -291,7 +291,7 @@
 		"description": [
 			"*Attired in various hides and with pauldrons made from the tusks of a mammoth, this towering, one-eyed humanoid wields an equally massive flat club.*",
 			"",
-			"::mh[Mardahamman, Cyclops Tyrant]{cr=\"15\"}",
+			"::mh[Mardahamman, Cyclops Tyrant]{cr=15}",
 			"",
 			"{SOURCE Giants Revisited/14}  ",
 			"**XP** 51,200  ",
@@ -339,7 +339,7 @@
 		"description": [
 			"*This monstrous, snaked-haired creature has the upper body of a bronze-skinned woman and the lower body of an enormous serpent.*",
 			"",
-			"::mh[Eygreas]{cr=\"13\"}",
+			"::mh[Eygreas]{cr=13}",
 			"",
 			"{SOURCE Mythical Monsters Revisited/44}  ",
 			"**XP** 25,600  ",
@@ -394,7 +394,7 @@
 		"description": [
 			"*This strange, four-armed fiend appears to be constructed completely out of stone. Dried blood stains its body.*",
 			"",
-			"::mh[Moxix]{cr=\"20\"}",
+			"::mh[Moxix]{cr=20}",
 			"",
 			"{SOURCE Inner Sea Bestiary/32}  ",
 			"**XP** 307,200  ",
@@ -464,7 +464,7 @@
 		"description": [
 			"*Twin talons attached to grotesque back-appendages drip blood from this hideously emaciated, jackal-legged albino demon.*",
 			"",
-			"::mh[Nightripper]{cr=\"24\"}",
+			"::mh[Nightripper]{cr=24}",
 			"",
 			"{SOURCE Inner Sea Bestiary/34}  ",
 			"**XP** 1,228,800  ",
@@ -543,7 +543,7 @@
 		"description": [
 			"*This moth-like creature has a long, three-pronged tail akin to peacock feathers. Sparkling dust drifts from its gigantic wings.*",
 			"",
-			"::mh[Night Monarch]{cr=\"15\"}",
+			"::mh[Night Monarch]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/284}  ",
 			"**XP** 51,200  ",
@@ -602,7 +602,7 @@
 		"description": [
 			"*This gray-haired man with a short, wiry beard wears a nondescript robe festooned with satchels and decorations.*",
 			"",
-			"::mh[Old-Mage Jatembe]{cr=\"24\" mr=\"6\"}",
+			"::mh[Old-Mage Jatembe]{cr=24 mr=6}",
 			"",
 			"{SOURCE Mythic Realms/56}  ",
 			"**XP** 1,228,800  ",
@@ -678,7 +678,7 @@
 		"description": [
 			"*This bloated, pinniped-like mammal is covered in salty grime, and its sturdy, blunt tusks promise an agonizing death.*",
 			"",
-			"::mh[Old Wulunga]{cr=\"6\"}",
+			"::mh[Old Wulunga]{cr=6}",
 			"",
 			"{SOURCE Mystery Monsters Revisited/9}  ",
 			"**XP** 2,400  ",
@@ -731,7 +731,7 @@
 		"description": [
 			"*The elephantine creature is titanic in scale. Curving tusks frame its flexing, muscular trunk and its canyon of a mouth.*",
 			"",
-			"::mh[Oliphaunt of Jandelay]{cr=\"30\"}",
+			"::mh[Oliphaunt of Jandelay]{cr=30}",
 			"",
 			"{SOURCE Mythic Realms/58}  ",
 			"**XP** 9,830,400  ",
@@ -806,7 +806,7 @@
 		"description": [
 			"*This creature has the bulbous eyes of a fish, and his mottled green skin glistens with slime where it isn't bedecked in gaudy jewelry.*",
 			"",
-			"::mh[Oozlosh, Marsh Giant High Priest]{cr=\"14\"}",
+			"::mh[Oozlosh, Marsh Giant High Priest]{cr=14}",
 			"",
 			"{SOURCE Giants Revisited/38}  ",
 			"**XP** 38,400  ",
@@ -868,7 +868,7 @@
 		"description": [
 			"*This blue-skinned giant is outfitted in elegant jewelry and white robes, and wields a lightning-infused spear.*",
 			"",
-			"::mh[Orania, Cloud Giant Oligarch]{cr=\"18\"}",
+			"::mh[Orania, Cloud Giant Oligarch]{cr=18}",
 			"",
 			"{SOURCE Giants Revisited/8}  ",
 			"**XP** 153,600  ",
@@ -926,7 +926,7 @@
 		"description": [
 			"*This stocky giant has a flaming mane and facial hair, his massive armor and fiery glaive indicating his prowess as a warrior.*",
 			"",
-			"::mh[Orynox Marchelin, Fire Giant King]{cr=\"19\"}",
+			"::mh[Orynox Marchelin, Fire Giant King]{cr=19}",
 			"",
 			"{SOURCE Giants Revisited/21}  ",
 			"**XP** 204,800  ",
@@ -971,7 +971,7 @@
 		"description": [
 			"*A wicked scar runs the length of this blue-eyed, apish humanoid's face, and he wields a dislodged tree trunk as a club.*",
 			"",
-			"::mh[Paakis-Si]{cr=\"5\"}",
+			"::mh[Paakis-Si]{cr=5}",
 			"",
 			"{SOURCE Mystery Monsters Revisited/45}  ",
 			"**XP** 1,600  ",
@@ -1023,7 +1023,7 @@
 		"description": [
 			"*Black spines run down the length of this lanky, reptilian creature's back, and short wings protrude from its hunched shoulders.*",
 			"",
-			"::mh[Papa Chupar]{cr=\"7\"}",
+			"::mh[Papa Chupar]{cr=7}",
 			"",
 			"{SOURCE Mystery Monsters Revisited/14}  ",
 			"**XP** 3,200  ",
@@ -1070,7 +1070,7 @@
 		"description": [
 			"*A series of metal rings rotates around a giant prismatic sphere.*",
 			"",
-			"::mh[Prismatic Orrery]{cr=\"13\"}",
+			"::mh[Prismatic Orrery]{cr=13}",
 			"",
 			"{SOURCE Tombs of Golarion/53}  ",
 			"**XP** 25,600  ",
@@ -1130,7 +1130,7 @@
 		"description": [
 			"*This giant ebon bird is streaked in lines of fiery embers and red lightning, clouds of black smoke billowing behind it.*",
 			"",
-			"::mh[Pyralisia, the Rain of Embers]{cr=\"18\"}",
+			"::mh[Pyralisia, the Rain of Embers]{cr=18}",
 			"",
 			"{SOURCE Mythical Monsters Revisited/50}  ",
 			"**XP** 153,600  ",
@@ -1187,7 +1187,7 @@
 		"description": [
 			"*Animate, rusting chains simultaneously bind and lash out from this gigantic, skinless, wolf-like monstrosity.*",
 			"",
-			"::mh[The Prince in Chains]{cr=\"15\"}",
+			"::mh[The Prince in Chains]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Gods/315}  ",
 			"**XP** 51,200  ",
@@ -1253,7 +1253,7 @@
 		"description": [
 			"*Feathered arms emerge from the shoulders of this hunched raven, clutching a key of bone.*",
 			"",
-			"::mh[Barzahk]{cr=\"28\"}",
+			"::mh[Barzahk]{cr=28}",
 			"",
 			"{SOURCE Pathfinder #143: Borne by the Sun's Grace/90}  ",
 			"**XP** 4,915,200  ",
@@ -1321,7 +1321,7 @@
 		"description": [
 			"*This furry hominid's orange eyes blaze not with fury but with wisdom, and the white hair around its face is streaked with gray.*",
 			"",
-			"::mh[Qaishan Yeti]{cr=\"7\"}",
+			"::mh[Qaishan Yeti]{cr=7}",
 			"",
 			"{SOURCE Mystery Monsters Revisited/63}  ",
 			"**XP** 3,200  ",
@@ -1375,7 +1375,7 @@
 		"description": [
 			"*This towering, steaming mass of slithering entrails drags ropes of mouthed intestines below his five spidery legs.*",
 			"",
-			"::mh[Chavazvug]{cr=\"22\"}",
+			"::mh[Chavazvug]{cr=22}",
 			"",
 			"{SOURCE Bestiary 6/232}  ",
 			"**XP** 614,400  ",
@@ -1458,7 +1458,7 @@
 		"description": [
 			"*A cloud of smoke the size of a human condenses, forming a clot of tentacles and eyes surrounding a fanged mouth.*",
 			"",
-			"::mh[Isph-Aun-Vuln]{cr=\"25\"}",
+			"::mh[Isph-Aun-Vuln]{cr=25}",
 			"",
 			"{SOURCE Bestiary 6/234}  ",
 			"**XP** 1,638,400  ",
@@ -1539,7 +1539,7 @@
 		"description": [
 			"*The sides of this tentacled monstrosity-part jellyfish, part mushroom forest-swell with opaque, pulsing blisters.*",
 			"",
-			"::mh[Oaur-Ooung]{cr=\"23\"}",
+			"::mh[Oaur-Ooung]{cr=23}",
 			"",
 			"{SOURCE Bestiary 6/236}  ",
 			"**XP** 819,200  ",
@@ -1628,7 +1628,7 @@
 		"description": [
 			"*This slug-like creature leaves a swath of tar wherever he goes, and his upper body opens into a gaping, sludge-dripping mouth.*",
 			"",
-			"::mh[Thuskchoon]{cr=\"21\"}",
+			"::mh[Thuskchoon]{cr=21}",
 			"",
 			"{SOURCE Bestiary 6/238}  ",
 			"**XP** 409,600  ",
@@ -1712,7 +1712,7 @@
 		"description": [
 			"*Writhing, hook-covered tentacles unfurl from this behemoth's body, at the center of which gapes a maw with a red eye in its throat.*",
 			"",
-			"::mh[Yamasoth]{cr=\"24\"}",
+			"::mh[Yamasoth]{cr=24}",
 			"",
 			"{SOURCE Pathfinder #64: Beyond the Doomsday Door/66}  ",
 			"**XP** 1,228,800  ",
@@ -1789,7 +1789,7 @@
 		"description": [
 			"*This brain-like creature has two clawed legs emerging from its fore and rear and a serpentine proboscis clutching a dagger.*",
 			"",
-			"::mh[Quetzutrhul]{cr=\"11\"}",
+			"::mh[Quetzutrhul]{cr=11}",
 			"",
 			"{SOURCE Darklands Revisited/27}  ",
 			"**XP** 12,800  ",
@@ -1847,7 +1847,7 @@
 		"description": [
 			"*This sagely stone giant wears loose furs and a long cloak, and wields a large stone club covered with crystals.*",
 			"",
-			"::mh[Rahstalshan, Stone Giant Elder]{cr=\"14\"}",
+			"::mh[Rahstalshan, Stone Giant Elder]{cr=14}",
 			"",
 			"{SOURCE Giants Revisited/50}  ",
 			"**XP** 38,400  ",
@@ -1906,7 +1906,7 @@
 		"description": [
 			"*This spined dragon has black scales that pulse with green light. Her tattered wings show a starscape that whirls in mad patterns.*",
 			"",
-			"::mh[Raskineya, the Dark Comet]{cr=\"16\" mr=\"6\"}",
+			"::mh[Raskineya, the Dark Comet]{cr=16 mr=6}",
 			"",
 			"{SOURCE Mythic Realms/60}  ",
 			"**XP** 76,800  ",
@@ -1978,7 +1978,7 @@
 		"description": [
 			"*This mangy horse-like beast walks perversely upright. Wings, a dragon's tail, and a fanged mouth complete its vile appearance.*",
 			"",
-			"::mh[Sandpoint Devil]{cr=\"8\"}",
+			"::mh[Sandpoint Devil]{cr=8}",
 			"",
 			"{SOURCE Inner Sea World Guide/311;Mystery Monsters Revisited/39}  ",
 			"**XP** 4,800  ",
@@ -2037,7 +2037,7 @@
 		"description": [
 			"*This purple-haired giant has dark bronze skin and piercing eyes; she wields an electrified trident and a coral-encrusted shield.*",
 			"",
-			"::mh[Scyld Hranni, Storm Giant Matriarch]{cr=\"20\"}",
+			"::mh[Scyld Hranni, Storm Giant Matriarch]{cr=20}",
 			"",
 			"{SOURCE Giants Revisited/56}  ",
 			"**XP** 307,200  ",
@@ -2097,7 +2097,7 @@
 		"description": [
 			"*This crimson-haired demonic woman has wings of fire. She carries a slender bow made of flames.*",
 			"",
-			"::mh[Shamira]{cr=\"25\"}",
+			"::mh[Shamira]{cr=25}",
 			"",
 			"{SOURCE Pathfinder #76: The Midnight Isles/74}  ",
 			"**XP** 1,638,400  ",
@@ -2172,7 +2172,7 @@
 		"description": [
 			"*This four-armed nightmare stands with an elegance that seems out of place, given its demonic visage. Huge black wings fan behind its back, and flickering black blades burn in its hands.*",
 			"",
-			"::mh[Shaorhaz, Glutton of the Green]{cr=\"23\"}",
+			"::mh[Shaorhaz, Glutton of the Green]{cr=23}",
 			"",
 			"{SOURCE Demons Revisited/44}  ",
 			"**XP** 819,200  ",
@@ -2233,7 +2233,7 @@
 		"description": [
 			"*This massive beast possesses a mouth of rasping teeth and tentacles with biting mouths. In the center of its maw rests a glowing evil eye.*",
 			"",
-			"::mh[Chemnosit (The Monarch Worm)]{cr=\"23\"}",
+			"::mh[Chemnosit (The Monarch Worm)]{cr=23}",
 			"",
 			"{SOURCE Inner Sea Bestiary/47}  ",
 			"**XP** 819,200  ",
@@ -2293,7 +2293,7 @@
 		"name": "Festering Ulunat (The Unholy First) (Spawn of Rovagug)",
 		"sources": [ "Pathfinder #84: Pyramid of the Sky Pharaoh" ],
 		"description": [
-			"::mh[Festering Ulunat (The Unholy First)]{cr=\"24\"}",
+			"::mh[Festering Ulunat (The Unholy First)]{cr=24}",
 			"",
 			"{SOURCE Pathfinder #84: Pyramid of the Sky Pharaoh/64}  ",
 			"**XP** 1,228,800  ",
@@ -2367,7 +2367,7 @@
 		"description": [
 			"*This immense creature's warty body is shaped like a many-pointed star, and from it sprout nearly a dozen different wings.*",
 			"",
-			"::mh[Volnagur (The End-Singer)]{cr=\"22\"}",
+			"::mh[Volnagur (The End-Singer)]{cr=22}",
 			"",
 			"{SOURCE Inner Sea Bestiary/48}  ",
 			"**XP** 614,400  ",
@@ -2430,7 +2430,7 @@
 		"description": [
 			"*This gloriously plumed anthropomorphic eagle has feathers tipped with shimmering gold, and claws with sharp black talons.*",
 			"",
-			"::mh[Talmandor]{cr=\"23\"}",
+			"::mh[Talmandor]{cr=23}",
 			"",
 			"{SOURCE Andoran, Birthplace of Freedom/62}  ",
 			"**XP** 819,200  ",
@@ -2509,7 +2509,7 @@
 		"description": [
 			"*This towering, gray-skinned giant holds a massive spear, its crimson haft sporting a head of barbed and blackened stone.*",
 			"",
-			"::mh[Tanaq Mammoth-Eater, Taiga Giant Shaman]{cr=\"17\"}",
+			"::mh[Tanaq Mammoth-Eater, Taiga Giant Shaman]{cr=17}",
 			"",
 			"{SOURCE Giants Revisited/62}  ",
 			"**XP** 102,400  ",
@@ -2563,7 +2563,7 @@
 		"description": [
 			"*This immense, eyeless worm is covered in a midnight blue hide. Four barbed tongues wriggle out from its open, lily-shaped maw.*",
 			"",
-			"::mh[Thath-Malal, the Eyeless Prince]{cr=\"13\"}",
+			"::mh[Thath-Malal, the Eyeless Prince]{cr=13}",
 			"",
 			"{SOURCE Darklands Revisited/45}  ",
 			"**XP** 25,600  ",
@@ -2610,7 +2610,7 @@
 		"description": [
 			"*This owlbear seems lean and especially mean, and moves with a spookily silent grace.*",
 			"",
-			"::mh[The First Owlbear]{cr=\"10\" mr=\"4\"}",
+			"::mh[The First Owlbear]{cr=10 mr=4}",
 			"",
 			"{SOURCE Mythic Adventures/213}  ",
 			"**XP** 9,600  ",
@@ -2657,7 +2657,7 @@
 		"description": [
 			"*This arching, reptilian creature has an elongated neck and short fins. Its jagged teeth hint at its primordial nature, and the abundant plant growth covering its body suggests both fertility and rot.*",
 			"",
-			"::mh[The Mistress of the Fen]{cr=\"12\"}",
+			"::mh[The Mistress of the Fen]{cr=12}",
 			"",
 			"{SOURCE Mystery Monsters Revisited/56}  ",
 			"**XP** 19,200  ",
@@ -2716,7 +2716,7 @@
 		"description": [
 			"*This colossal serpent's skin is like that of decayed, bruised corpses. Cancers rupture from its flesh, and a terrible sickening flow of black blood oozes from each break and sores.*",
 			"",
-			"::mh[The Mourning One]{cr=\"19\"}",
+			"::mh[The Mourning One]{cr=19}",
 			"",
 			"{SOURCE Mystery Monsters Revisited/50}  ",
 			"**XP** 204,800  ",
@@ -2768,7 +2768,7 @@
 		"description": [
 			"*This blue-skinned elf has milk-white eyes, a glowing punching dagger, and a shield embossed with a demonic face.*",
 			"",
-			"::mh[The Surface Caller]{cr=\"7\"}",
+			"::mh[The Surface Caller]{cr=7}",
 			"",
 			"{SOURCE Darklands Revisited/9}  ",
 			"**XP** 3,200  ",
@@ -2821,7 +2821,7 @@
 		"description": [
 			"*Clad in ancient leather and bronze and a great horned helm, this withered gray figure is surrounded by a palpable aura of death.*",
 			"",
-			"::mh[The Whispering Tyrant]{cr=\"26\" mr=\"10\"}",
+			"::mh[The Whispering Tyrant]{cr=26 mr=10}",
 			"",
 			"{SOURCE Mythic Realms/62}  ",
 			"**XP** 2,457,600  ",
@@ -2893,7 +2893,7 @@
 		"description": [
 			"*This gray-skinned dwarf wears iron plates over a set of purple and magenta robes and carries a warhammer.*",
 			"",
-			"::mh[The Would-Be Queen, Almara Kazaar]{cr=\"10\"}",
+			"::mh[The Would-Be Queen, Almara Kazaar]{cr=10}",
 			"",
 			"{SOURCE Darklands Revisited/15}  ",
 			"**XP** 9,600  ",

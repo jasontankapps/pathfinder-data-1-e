@@ -5,7 +5,7 @@
 		"description": [
 			"*This strange, beautiful woman has flesh that seems made of wood and vibrant hair that resembles leaves and blossoms.*",
 			"",
-			"::mh[Dryad]{cr=\"3\"}",
+			"::mh[Dryad]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/116}  ",
 			"**XP** 800  ",
@@ -69,7 +69,7 @@
 		"description": [
 			"*This pale blue humanoid has bulging white eyes, wild hair, four-fingered hands, and a large hooked club.*",
 			"",
-			"::mh[Derro]{cr=\"3\"}",
+			"::mh[Derro]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/70}  ",
 			"**XP** 800  ",
@@ -134,7 +134,7 @@
 		"description": [
 			"*Wily and well groomed, this diminutive blue-tinged man exudes detached patience. A wicked-looking crossbow and blood-stained manacles enhance his aura of quiet menace.*",
 			"",
-			"::mh[Derro Bodysnatcher]{cr=\"10\"}",
+			"::mh[Derro Bodysnatcher]{cr=10}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/26}  ",
 			"**XP** 9,600  ",
@@ -190,7 +190,7 @@
 		"description": [
 			"*This pallid woman's clothing is adorned with leather straps, wicked barbs, and surgical tools. Her eyes twinkle with madness.*",
 			"",
-			"::mh[Derro Brainwasher]{cr=\"5\"}",
+			"::mh[Derro Brainwasher]{cr=5}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/24}  ",
 			"**XP** 1,600  ",
@@ -250,7 +250,7 @@
 		"description": [
 			"*This pale blue humanoid has bright white eyes and wild, white hair adorned with a spiked, gem-encrusted coronet.*",
 			"",
-			"::mh[Derro Magister]{cr=\"5\"}",
+			"::mh[Derro Magister]{cr=5}",
 			"",
 			"{SOURCE Bestiary 6/92;Occult Bestiary/20}  ",
 			"**XP** 1,600  ",
@@ -312,7 +312,7 @@
 		"description": [
 			"*This furtive gray-skinned woman wears a tattered cloak and a spiky circlet. The barbed hook of her weapon glistens with poison.*",
 			"",
-			"::mh[Urban Stalker]{cr=\"7\"}",
+			"::mh[Urban Stalker]{cr=7}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/25}  ",
 			"**XP** 3,200  ",
@@ -366,7 +366,7 @@
 		"description": [
 			"*A scorpion's claw and twisted goat legs, all stitched into place with ragged black thread, replace three of this wild-haired man's limbs.*",
 			"",
-			"::mh[White-Eyed Torturer]{cr=\"12\"}",
+			"::mh[White-Eyed Torturer]{cr=12}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/27}  ",
 			"**XP** 19,200  ",
@@ -423,7 +423,7 @@
 		"description": [
 			"*Black and yellow stripes cover this winged insect's bulbous abdomen, which ends in a dagger-sized stinger.*",
 			"",
-			"::mh[Giant Ground Wasp]{cr=\"4\"}",
+			"::mh[Giant Ground Wasp]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #81: Shifting Sands/83}  ",
 			"**XP** 1,200  ",
@@ -473,7 +473,7 @@
 		"description": [
 			"*What at first appears to be a spindly, dead tree suddenly crawls from its camouflage, its wiry antenna twitching in the air.*",
 			"",
-			"::mh[Giant Walking Stick]{cr=\"5\"}",
+			"::mh[Giant Walking Stick]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #81: Shifting Sands/83}  ",
 			"**XP** 1,600  ",
@@ -524,7 +524,7 @@
 		"description": [
 			"*Three spears of obsidian energy skewer this cadaverous figure.*",
 			"",
-			"::mh[Despoiler]{cr=\"7\"}",
+			"::mh[Despoiler]{cr=7}",
 			"",
 			"{SOURCE Seers of the Drowned City/56}  ",
 			"**XP** 3,200  ",
@@ -576,7 +576,7 @@
 		"description": [
 			"*The hunched, reptilian beast lopes on two clawed feet, its eyeless head dominated by a huge circular maw filled with jagged teeth.*",
 			"",
-			"::mh[Destrachan]{cr=\"8\"}",
+			"::mh[Destrachan]{cr=8}",
 			"",
 			"{SOURCE Bestiary 2/83}  ",
 			"**XP** 4,800  ",
@@ -633,7 +633,7 @@
 		"description": [
 			"*This towering baboon has fiery orange fur, with two tufts of hair curling up like horns on its head.*",
 			"",
-			"::mh[Devil Monkey]{cr=\"6\"}",
+			"::mh[Devil Monkey]{cr=6}",
 			"",
 			"{SOURCE Bestiary 6/93}  ",
 			"**XP** 2,400  ",
@@ -684,7 +684,7 @@
 		"description": [
 			"*This robed figure appears human except for snake-like eyes, a pair of devilish horns, and the occasional dart of a forked tongue.*",
 			"",
-			"::mh[Accomplice Devil (Hesperian)]{cr=\"4\"}",
+			"::mh[Accomplice Devil (Hesperian)]{cr=4}",
 			"",
 			"{SOURCE Inner Sea Gods/279}  ",
 			"**XP** 1,200  ",
@@ -751,7 +751,7 @@
 		"description": [
 			"*This childlike blasphemy conjoins the features of a plump human infant and a gigantic, gore-fattened fly.*",
 			"",
-			"::mh[Accuser Devil (Zebub)]{cr=\"3\"}",
+			"::mh[Accuser Devil (Zebub)]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/84}  ",
 			"**XP** 800  ",
@@ -817,7 +817,7 @@
 		"description": [
 			"*The rending, thunderous clangor of rushing claws heralds the charge of this fire-eyed ruin, a terror of flame-seared hide and saber-like spines shaped in a monstrously muscled centauric form. The true terrible ferocity of the thing lies hidden, restrained beneath armor and wings of crumbling stone carved with icons as ancient as they are undeniable and profane.*",
 			"",
-			"::mh[Advodaza]{cr=\"18\"}",
+			"::mh[Advodaza]{cr=18}",
 			"",
 			"{SOURCE Pathfinder #30: The Twice-Damned Prince/80}  ",
 			"**XP** 153,600  ",
@@ -891,7 +891,7 @@
 		"description": [
 			"*A grim metal mask floats above ceremonial armor that shifts and writhes, and long blades form fingers on gauntleted hands.*",
 			"",
-			"::mh[Apostate Devil (Deimavigga)]{cr=\"17\"}",
+			"::mh[Apostate Devil (Deimavigga)]{cr=17}",
 			"",
 			"{SOURCE Bestiary 5/78;Book of the Damned - Volume 1: Princes of Darkness/54}  ",
 			"**XP** 102,400  ",
@@ -969,7 +969,7 @@
 		"description": [
 			"*From the tip of its lashing tail to the serrated features of its fang-filled visage, this fiery-eyed sentinel bristles with barbs.*",
 			"",
-			"::mh[Barbed Devil (Hamatula)]{cr=\"11\"}",
+			"::mh[Barbed Devil (Hamatula)]{cr=11}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/72}  ",
 			"**XP** 12,800  ",
@@ -1034,7 +1034,7 @@
 		"description": [
 			"*This seething devil deftly wields a vicious, saw-toothed glaive, while below its toothy maw writhes a hideous, twitching beard.*",
 			"",
-			"::mh[Bearded Devil (Barbazu)]{cr=\"5\"}",
+			"::mh[Bearded Devil (Barbazu)]{cr=5}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/73}  ",
 			"**XP** 1,600  ",
@@ -1103,7 +1103,7 @@
 		"description": [
 			"*This amphisbaenic monstrosity has the body of a slug with a leech's mouth at one end and a knot of three human heads at the other.*",
 			"",
-			"::mh[Belier Devil (Bdellavritra)]{cr=\"16\"}",
+			"::mh[Belier Devil (Bdellavritra)]{cr=16}",
 			"",
 			"{SOURCE Bestiary 2/85;Pathfinder #12: Crown of Fangs/84}  ",
 			"**XP** 76,800  ",
@@ -1164,7 +1164,7 @@
 		"description": [
 			"*Merging the most horrifying features of carrion-fed insect and withered cadaver, this bony devil moves in unsettling lurches.*",
 			"",
-			"::mh[Bone Devil (Osyluth)]{cr=\"9\"}",
+			"::mh[Bone Devil (Osyluth)]{cr=9}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/74}  ",
 			"**XP** 6,400  ",
@@ -1228,7 +1228,7 @@
 		"description": [
 			"*The curves of a shapely maiden define the outline of a mysterious figure wrapped in mist and strips of ancient robes. From beneath the rune-embroidered tatters stretch four, corpse-pale arms, each bearing either a blade or some mysterious arcane device. Hidden within the cowl of its hood shimmer the faintest outlines of a veiled face and a pair of eyes flickering with barely restrained energy.*",
 			"",
-			"::mh[Cabal Devil (Uniila)]{cr=\"10\"}",
+			"::mh[Cabal Devil (Uniila)]{cr=10}",
 			"",
 			"{SOURCE Pathfinder #28: The Infernal Syndrome/86}  ",
 			"**XP** 9,600  ",
@@ -1312,7 +1312,7 @@
 		"description": [
 			"*Quivering with heat and barely restrained might, this monstrous, pig-faced titan looms taller than a city wall. Girded in fiendishly etched armor too small for its incredible corpulence, rolls of densely muscled hide spill forth in a flamered avalanche. Gnashing its many-tusked teeth and clutching a wicked military fork, the terrible giant rumbles as if preparing to roar or scream.*",
 			"",
-			"::mh[Chortov]{cr=\"9\"}",
+			"::mh[Chortov]{cr=9}",
 			"",
 			"{SOURCE Pathfinder #27: What Lies in Dust/80}  ",
 			"**XP** 6,400  ",
@@ -1380,7 +1380,7 @@
 		"description": [
 			"*With rust-colored skin and a jutting crown of ridge-like horns, this muscular devil is draped in lengthy contracts.*",
 			"",
-			"::mh[Contract Devil (Phistophilus)]{cr=\"10\"}",
+			"::mh[Contract Devil (Phistophilus)]{cr=10}",
 			"",
 			"{SOURCE Bestiary 3/76;Pathfinder #12: Crown of Fangs/86}  ",
 			"**XP** 9,600  ",
@@ -1465,7 +1465,7 @@
 		"description": [
 			"*This short fiend has mottled pink skin, clawed fingers, and green eyes. It drags a tattered scroll behind its feminine frame.*",
 			"",
-			"::mh[Curse Devil (Phiam)]{cr=\"5\"}",
+			"::mh[Curse Devil (Phiam)]{cr=5}",
 			"",
 			"{SOURCE Daughters of Fury/53}  ",
 			"**XP** 1,600  ",
@@ -1535,7 +1535,7 @@
 		"description": [
 			"*This serpentine creature has fin-like wings, ram horns, four eyes, and arms that end in masses of tentacles.*",
 			"",
-			"::mh[Drowning Devil (Sarglagon)]{cr=\"8\"}",
+			"::mh[Drowning Devil (Sarglagon)]{cr=8}",
 			"",
 			"{SOURCE Bestiary 4/52;Pathfinder #60: From Hell's Heart/80}  ",
 			"**XP** 4,800  ",
@@ -1600,7 +1600,7 @@
 		"description": [
 			"*Some calamity has befallen this angelic warrior. Wings stained black shear the air as her merciless eyes search for a target.*",
 			"",
-			"::mh[Erinyes]{cr=\"8\"}",
+			"::mh[Erinyes]{cr=8}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/75}  ",
 			"**XP** 4,800  ",
@@ -1662,7 +1662,7 @@
 		"description": [
 			"*Corded muscles ripple under this massive devil's red skin as her black wings beat overhead and her black eyes smolder like coals.*",
 			"",
-			"::mh[Executioner Devil (Munagola)]{cr=\"11\"}",
+			"::mh[Executioner Devil (Munagola)]{cr=11}",
 			"",
 			"{SOURCE Book of the Damned/247}  ",
 			"**XP** 12,800  ",
@@ -1719,7 +1719,7 @@
 		"description": [
 			"*This creature resembles a man crafted entirely of gold. Some of its features seem warped, as if the creature had been melted and then reformed.*",
 			"",
-			"::mh[Gambling Devil (Magadaz)]{cr=\"4\"}",
+			"::mh[Gambling Devil (Magadaz)]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #97: In Hell's Bright Shadow/84}  ",
 			"**XP** 1,200  ",
@@ -1801,7 +1801,7 @@
 		"description": [
 			"*Twin tentacles stretch from the crown of this feminine fiend's head, while her lower body blooms in a gown of writhing tendrils.*",
 			"",
-			"::mh[Handmaiden Devil (Gylou)]{cr=\"14\"}",
+			"::mh[Handmaiden Devil (Gylou)]{cr=14}",
 			"",
 			"{SOURCE Bestiary 2/86}  ",
 			"**XP** 38,400  ",
@@ -1869,7 +1869,7 @@
 		"description": [
 			"*Seemingly fused with a monstrous iron throne, this impossibly corpulent being floats several feet off the ground.*",
 			"",
-			"::mh[Heresy Devil (Ayngavhaul)]{cr=\"12\"}",
+			"::mh[Heresy Devil (Ayngavhaul)]{cr=12}",
 			"",
 			"{SOURCE Bestiary 5/80;Book of the Damned - Volume 1: Princes of Darkness/56}  ",
 			"**XP** 19,200  ",
@@ -1936,7 +1936,7 @@
 		"description": [
 			"*Bristling with terrible spines and a crown of deadly horns, this leering winged terror wields a whirling barbed chain.*",
 			"",
-			"::mh[Horned Devil (Cornugon)]{cr=\"16\"}",
+			"::mh[Horned Devil (Cornugon)]{cr=16}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/76}  ",
 			"**XP** 76,800  ",
@@ -2002,7 +2002,7 @@
 		"description": [
 			"*Twisted horns rise from the skinless head of this winged creature, and noxious fumes leak from between its yellowed fangs.*",
 			"",
-			"::mh[Host Devil, Greater (Magaav)]{cr=\"6\"}",
+			"::mh[Host Devil, Greater (Magaav)]{cr=6}",
 			"",
 			"{SOURCE Bestiary 4/53;Book of the Damned - Volume 1: Princes of Darkness/58}  ",
 			"**XP** 2,400  ",
@@ -2068,7 +2068,7 @@
 		"description": [
 			"*This tangle of scaly avian limbs furiously beats its double pair of vulture-like wings, keeping its fiendish, horned skull-head aloft. As fetid breath rises from its repulsive, fly-covered visage, clawed arms work together to slash the air with a vicious-looking spear.*",
 			"",
-			"::mh[Host Devil, Lesser (Gaav)]{cr=\"3\"}",
+			"::mh[Host Devil, Lesser (Gaav)]{cr=3}",
 			"",
 			"{SOURCE Book of the Damned - Volume 1: Princes of Darkness/58}  ",
 			"**XP** 800  ",
@@ -2136,7 +2136,7 @@
 		"description": [
 			"*A pair of frozen, multifaceted eyes coldly judge all before this towering, insectile monstrosity.*",
 			"",
-			"::mh[Ice Devil (Gelugon)]{cr=\"13\"}",
+			"::mh[Ice Devil (Gelugon)]{cr=13}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/77}  ",
 			"**XP** 25,600  ",
@@ -2199,7 +2199,7 @@
 		"description": [
 			"*Ash and embers encrust the smoldering humanoid frame of this imperious, dragon-winged devil.*",
 			"",
-			"::mh[Immolation Devil (Puragaus)]{cr=\"19\"}",
+			"::mh[Immolation Devil (Puragaus)]{cr=19}",
 			"",
 			"{SOURCE Bestiary 2/87}  ",
 			"**XP** 204,800  ",
@@ -2261,7 +2261,7 @@
 		"description": [
 			"*Fiendish wings and a whipping scorpion-like tail lash behind this diminutive, red-skinned nuisance.*",
 			"",
-			"::mh[Imp]{cr=\"2\"}",
+			"::mh[Imp]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/78}  ",
 			"**XP** 600  ",
@@ -2325,7 +2325,7 @@
 		"description": [
 			"*A roiling wave of flesh gushes forward. Amid the fatty surge wriggle half-formed limbs and a dripping tumorous face.*",
 			"",
-			"::mh[Lemure]{cr=\"1\"}",
+			"::mh[Lemure]{cr=1}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/79}  ",
 			"**XP** 400  ",
@@ -2371,7 +2371,7 @@
 		"description": [
 			"*This ghoulish figure wears a tattered robe and stares with milky-white eyes, a proboscis-like tongue snaking out over its distended jaw.*",
 			"",
-			"::mh[Mnemor]{cr=\"5\"}",
+			"::mh[Mnemor]{cr=5}",
 			"",
 			"{SOURCE Occult Bestiary/21}  ",
 			"**XP** 1,600  ",
@@ -2436,7 +2436,7 @@
 		"description": [
 			"*This ancient monstrosity has the torso of a massively muscled giant.*",
 			"",
-			"::mh[Nemesis Devil (Advodaza)]{cr=\"18\"}",
+			"::mh[Nemesis Devil (Advodaza)]{cr=18}",
 			"",
 			"{SOURCE Bestiary 4/54}  ",
 			"**XP** 153,600  ",
@@ -2514,7 +2514,7 @@
 		"name": "Nupperibo (Devil)",
 		"sources": [ "Pathfinder #61: Shards of Sin" ],
 		"description": [
-			"::mh[Nupperibo]{cr=\"1\"}",
+			"::mh[Nupperibo]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #61: Shards of Sin/44}  ",
 			"**XP** 400  ",
@@ -2562,7 +2562,7 @@
 		"description": [
 			"*A pair of gigantic, flame-seared wings and eyes smoldering like embers give this towering devil a truly horrific appearance.*",
 			"",
-			"::mh[Pit Fiend]{cr=\"20\"}",
+			"::mh[Pit Fiend]{cr=20}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/80}  ",
 			"**XP** 307,200  ",
@@ -2637,7 +2637,7 @@
 		"name": "Greater Possession Devil (Gidim)",
 		"sources": [ "Pathfinder #29: Mother of Flies" ],
 		"description": [
-			"::mh[Possession Devil, Greater (Gidim)]{cr=\"15\"}",
+			"::mh[Possession Devil, Greater (Gidim)]{cr=15}",
 			"",
 			"{SOURCE Pathfinder #29: Mother of Flies/83}  ",
 			"**XP** 51,200  ",
@@ -2712,7 +2712,7 @@
 		"description": [
 			"*An impression of unmistakable malice pervades the area, the vague yet undeniable sensation of looming malevolence and faint foul breath.*",
 			"",
-			"::mh[Possession Devil, Lesser (Gidim)]{cr=\"6\"}",
+			"::mh[Possession Devil, Lesser (Gidim)]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #29: Mother of Flies/82}  ",
 			"**XP** 2,400  ",
@@ -2788,7 +2788,7 @@
 		"description": [
 			"*This creature has curling ram's horns, metallic flesh that bears coiling ribbons of rust, and wings covered with rusty metallic feathers, each resembling a weathered dagger.*",
 			"",
-			"::mh[Rust Devil (Ferrugon)]{cr=\"12\"}",
+			"::mh[Rust Devil (Ferrugon)]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #101: The Kintargo Contract/82}  ",
 			"**XP** 19,200  ",
@@ -2884,7 +2884,7 @@
 		"description": [
 			"*On lean limbs the color of spilt blood creeps a being of sinister grace. Eyes like embers and a sneer full of needle-thin teeth gleam from an unmistakably fiendish visage. A pair of crimson wings sprout from the back of the hairless humanoid form, fluttering silently like an assassin's cloak, while in one hand it clutches the twisted, dagger-like horn of some infernal terror.*",
 			"",
-			"::mh[Salikotal]{cr=\"7\"}",
+			"::mh[Salikotal]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #26: The Sixfold Trial/82}  ",
 			"**XP** 3,200  ",
@@ -2961,7 +2961,7 @@
 		"description": [
 			"*This fiend is a horrendous amalgamation of snapping claws and writhing tendrils with a disgusting fanged mouth running vertically across its torso.*",
 			"",
-			"::mh[Sire Devil (Patraavex)]{cr=\"7\"}",
+			"::mh[Sire Devil (Patraavex)]{cr=7}",
 			"",
 			"{SOURCE Cheliax, the Infernal Empire/59}  ",
 			"**XP** 3,200  ",
@@ -3025,7 +3025,7 @@
 		"description": [
 			"*The light of a flaming pitchfork illuminates a creepily malformed little man, his red skin scarred and raw like the victim of horrific burns. Although barely taller than a child, his features mock those of a terrible old man with an oversized head, knife-like nose, and crazed round eyes flickering with wild flames.*",
 			"",
-			"::mh[Tinder Devil (Ukobach)]{cr=\"4\"}",
+			"::mh[Tinder Devil (Ukobach)]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #25: The Bastards of Erebus/86}  ",
 			"**XP** 1,200  ",
@@ -3102,7 +3102,7 @@
 		"description": [
 			"*Armored like an infernal knight upon some monstrous steed, this fiend of iron and nails scuttles upon six bladed, beetle-like legs.*",
 			"",
-			"::mh[Warmonger Devil (Levaloch)]{cr=\"7\"}",
+			"::mh[Warmonger Devil (Levaloch)]{cr=7}",
 			"",
 			"{SOURCE Bestiary 5/81;Book of the Damned - Volume 1: Princes of Darkness/60}  ",
 			"**XP** 3,200  ",
@@ -3173,7 +3173,7 @@
 		"description": [
 			"*This purple, seven-armed octopoid monstrosity is the size of a horse, with hook-lined tentacles and cold, blue eyes.*",
 			"",
-			"::mh[Devilfish]{cr=\"4\"}",
+			"::mh[Devilfish]{cr=4}",
 			"",
 			"{SOURCE Bestiary 2/88;Pathfinder #7: Edge of Anarchy/80}  ",
 			"**XP** 1,200  ",
@@ -3237,7 +3237,7 @@
 		"description": [
 			"*This dry, hovering corpse's chest is a prison of jagged ribs, within which is trapped a small tormented ghostly form.*",
 			"",
-			"::mh[Devourer]{cr=\"11\"}",
+			"::mh[Devourer]{cr=11}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/82}  ",
 			"**XP** 12,800  ",
@@ -3368,7 +3368,7 @@
 		"description": [
 			"*This muscular, cougar-like cat has fearsome teeth and a thick tail ending in a spiked ball.*",
 			"",
-			"::mh[Digmaul]{cr=\"3\"}",
+			"::mh[Digmaul]{cr=3}",
 			"",
 			"{SOURCE Bestiary 5/82}  ",
 			"**XP** 800  ",
@@ -3425,7 +3425,7 @@
 		"description": [
 			"*This rugose figure rears up to a man's height, its large hands bearing far too many twitching fingers.*",
 			"",
-			"::mh[Dimensional Shambler]{cr=\"8\"}",
+			"::mh[Dimensional Shambler]{cr=8}",
 			"",
 			"{SOURCE Pathfinder #46: Wake of the Watcher/80}  ",
 			"**XP** 4,800  ",
@@ -3485,7 +3485,7 @@
 		"description": [
 			"*This barnacle-encrusted walking corpse looks like a zombie, but is dripping with water and gives off a nauseating stench.*",
 			"",
-			"::mh[Draugr]{cr=\"2\"}",
+			"::mh[Draugr]{cr=2}",
 			"",
 			"{SOURCE Bestiary 2/110}  ",
 			"**XP** 600  ",
@@ -3541,7 +3541,7 @@
 		"description": [
 			"*Dressed in graveyard rags, this pitiful creature cries out like a sick child. An oversized, bestial head perches atop its spindly, child-sized body, and its eyes are nothing but sunken pools of shadow with no trace of life in them. A cloying mist wreathes its frail form, accompanied by the stench of death and disease.*",
 			"",
-			"::mh[Drekavac]{cr=\"3\"}",
+			"::mh[Drekavac]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #31: Stolen Land/78}  ",
 			"**XP** 800  ",
@@ -3610,7 +3610,7 @@
 		"description": [
 			"*Hundreds of twisted, distorted faces roil in a miserable cloud, screaming of their unquiet deaths.*",
 			"",
-			"::mh[Drocha Swarm]{cr=\"7\"}",
+			"::mh[Drocha Swarm]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #75: Demon's Heresy/88}  ",
 			"**XP** 3,200  ",
@@ -3679,7 +3679,7 @@
 		"description": [
 			"*An inordinate number of sinewy limbs, each terminating in clawed feet, protrude from the sides of this slithering creature. Its face is disturbingly demonic.*",
 			"",
-			"::mh[Drochtac]{cr=\"1\"}",
+			"::mh[Drochtac]{cr=1}",
 			"",
 			"{SOURCE Gallows of Madness/59}  ",
 			"**XP** 400  ",

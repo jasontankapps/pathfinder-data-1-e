@@ -1535,7 +1535,7 @@
 		"name": "Hudima",
 		"sources": [ "Book of the Damned" ],
 		"description": [
-			"::fh[Hudima]{sub=\"Kinslayer\"}",
+			"::fh[Hudima]{sub=Kinslayer}",
 			"",
 			"{SOURCE Book of the Damned/130}  ",
 			"**Pathfinder Wiki** [Hudima](https://www.pathfinderwiki.com/wiki/Hudima) *(link opens in outside browser)*",
@@ -1844,7 +1844,7 @@
 			"Chronicle of the Righteous"
 		],
 		"description": [
-			"::fh[Immonhiel]{sub=\"Balm-Bringer\"}",
+			"::fh[Immonhiel]{sub=Balm-Bringer}",
 			"",
 			"{SOURCE Inner Sea Gods/322}  ",
 			"**Pathfinder Wiki** [Immonhiel](https://www.pathfinderwiki.com/wiki/Immonhiel) *(link opens in outside browser)*",
@@ -2877,7 +2877,7 @@
 			"Chronicle of the Righteous"
 		],
 		"description": [
-			"::fh[Jalaijatali]{sub=\"Rillsong\"}",
+			"::fh[Jalaijatali]{sub=Rillsong}",
 			"",
 			"{SOURCE Inner Sea Gods/322}  ",
 			"**Pathfinder Wiki** [Jalaijatali](https://www.pathfinderwiki.com/wiki/Jalaijatali) *(link opens in outside browser)*",

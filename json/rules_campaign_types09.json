@@ -2460,7 +2460,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/210}",
 			"",
-			"::ph[Akashic Record]{sub=\"The Reading Room\" desc=\"Said to be a repository of all knowledge that has been or shall be, the Akashic Record's lore and secrets could be an invaluable resource, were they not so difficult to reach.\" cat=\"demiplane\"}",
+			"::ph[Akashic Record]{sub=\"The Reading Room\" desc=\"Said to be a repository of all knowledge that has been or shall be, the Akashic Record's lore and secrets could be an invaluable resource, were they not so difficult to reach.\" cat=demiplane}",
 			"",
 			"::sh[Traits]",
 			"",
@@ -2519,7 +2519,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/211}",
 			"",
-			"::ph[Cynosure]{sub=\"The Guiding Star\" desc=\"Cynosure is the realm of Desna, goddess of stars and travelers, and lies beyond - and within - a star on the Material Plane.\" cat=\"demiplane\"}",
+			"::ph[Cynosure]{sub=\"The Guiding Star\" desc=\"Cynosure is the realm of Desna, goddess of stars and travelers, and lies beyond - and within - a star on the Material Plane.\" cat=demiplane}",
 			"",
 			"::sh[Traits]",
 			"",
@@ -2582,7 +2582,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/210}",
 			"",
-			"::ph[Dead Vault]{sub=\"The Cage\" desc=\"Deep within the heart of Golarion lies the Dead Vault, a demiplane crafted for but one purpose: to imprison a god.\" cat=\"demiplane\"}",
+			"::ph[Dead Vault]{sub=\"The Cage\" desc=\"Deep within the heart of Golarion lies the Dead Vault, a demiplane crafted for but one purpose: to imprison a god.\" cat=demiplane}",
 			"",
 			"::sh[Traits]",
 			"",
@@ -2758,7 +2758,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/210}",
 			"",
-			"::ph[Hao Jin Tapestry]{sub=\"The Woven Museum\" desc=\"As much a museum as anything else, this world within a magical tapestry was created by the Ruby Phoenix Hao Jin to serve as a menagerie and repository of her favorite sites and cultures from the Material Plane.\" cat=\"demiplane\"}",
+			"::ph[Hao Jin Tapestry]{sub=\"The Woven Museum\" desc=\"As much a museum as anything else, this world within a magical tapestry was created by the Ruby Phoenix Hao Jin to serve as a menagerie and repository of her favorite sites and cultures from the Material Plane.\" cat=demiplane}",
 			"",
 			"::sh[Traits]",
 			"",
@@ -2811,7 +2811,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/210}",
 			"",
-			"::ph[Harrowed Realm]{sub=\"Conspirator's Cage, Domain of Storykin\" desc=\"A demiplane crafted in the images found upon the traditional Varisian deck of Harrow cards, the Harrowed Realm is ruled today by its treacherous prisoners.\" cat=\"demiplane\"}",
+			"::ph[Harrowed Realm]{sub=\"Conspirator's Cage, Domain of Storykin\" desc=\"A demiplane crafted in the images found upon the traditional Varisian deck of Harrow cards, the Harrowed Realm is ruled today by its treacherous prisoners.\" cat=demiplane}",
 			"",
 			"::sh[Traits]",
 			"",
@@ -2864,7 +2864,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/210}",
 			"",
-			"::ph[Jandelay]{sub=\"The Apocalypse Archive\" desc=\"When worlds die, a fragment is claimed and preserved in mysterious Jandelay.\" cat=\"demiplane\"}",
+			"::ph[Jandelay]{sub=\"The Apocalypse Archive\" desc=\"When worlds die, a fragment is claimed and preserved in mysterious Jandelay.\" cat=demiplane}",
 			"",
 			"::sh[Traits]",
 			"",
@@ -2921,7 +2921,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/210}",
 			"",
-			"::ph[Leng]{sub=\"The Nightmare Realm, Plateau of Leng, The Terror Beyond Dreams\" desc=\"The dreaded Plateau of Leng lurks at the edge of all nightmares, a realm inhabited by eldritch horrors and ruled by their ancient gods.\" cat=\"demiplane\"}",
+			"::ph[Leng]{sub=\"The Nightmare Realm, Plateau of Leng, The Terror Beyond Dreams\" desc=\"The dreaded Plateau of Leng lurks at the edge of all nightmares, a realm inhabited by eldritch horrors and ruled by their ancient gods.\" cat=demiplane}",
 			"",
 			"::sh[Traits]",
 			"",
@@ -2980,7 +2980,7 @@
 		"description": [
 			"{SOURCE Planar Adventures/210}",
 			"",
-			"::ph[Xibalba]{sub=\"Land of Dread\" desc=\"Drifting in the depths of the Ethereal Plane is the fearful domain of the sahkils.\" cat=\"demiplane\"}",
+			"::ph[Xibalba]{sub=\"Land of Dread\" desc=\"Drifting in the depths of the Ethereal Plane is the fearful domain of the sahkils.\" cat=demiplane}",
 			"",
 			"::sh[Traits]",
 			"",

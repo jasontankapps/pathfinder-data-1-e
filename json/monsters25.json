@@ -3,7 +3,7 @@
 		"name": "Warden Jack Swarm",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
 		"description": [
-			"::mh[Warden Jack Swarm]{cr=\"4\"}",
+			"::mh[Warden Jack Swarm]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #121: The Lost Outpost/44}  ",
 			"**XP** 1,200  ",
@@ -58,7 +58,7 @@
 		"description": [
 			"*This massive wood-and-metal giant wields a scythe, a wicked spiked wrecking ball, an immense pick, and a huge crossbow.*",
 			"",
-			"::mh[Warmonger]{cr=\"19\"}",
+			"::mh[Warmonger]{cr=19}",
 			"",
 			"{SOURCE Bestiary 6/274}  ",
 			"**XP** 204,800  ",
@@ -114,7 +114,7 @@
 		"description": [
 			"*This wasp-like creature seems to be partially made of metal. Its wings create an iridescent glow as it buzzes through the air.*",
 			"",
-			"::mh[Warmonger Wasp]{cr=\"7\"}",
+			"::mh[Warmonger Wasp]{cr=7}",
 			"",
 			"{SOURCE Bestiary 5/274;The Worldwound/61}  ",
 			"**XP** 3,200  ",
@@ -176,7 +176,7 @@
 		"description": [
 			"*This insane, twisted, humanoid-shaped tangle of limbs and gnashing teeth thrashes and howls, all too eager to wreak havoc.*",
 			"",
-			"::mh[Warped One]{cr=\"8\"}",
+			"::mh[Warped One]{cr=8}",
 			"",
 			"{SOURCE The Worldwound/62}  ",
 			"**XP** 4,800  ",
@@ -273,7 +273,7 @@
 		"description": [
 			"*This watery puddle reflects a distorted image of its surroundings, as though it were a window to another reality.*",
 			"",
-			"::mh[Warpglass Ooze]{cr=\"2\"}",
+			"::mh[Warpglass Ooze]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #133: Secrets of Roderic's Cove/88}  ",
 			"**XP** 600  ",
@@ -349,7 +349,7 @@
 		"description": [
 			"*An enormous, animate mass of armed and armored corpses undulates forth, like a siege tower of steel-girded flesh.*",
 			"",
-			"::mh[Warsworn]{cr=\"16\"}",
+			"::mh[Warsworn]{cr=16}",
 			"",
 			"{SOURCE Bestiary 4/272;Pathfinder #35: War of the River Kings/88}  ",
 			"**XP** 76,800  ",
@@ -410,7 +410,7 @@
 		"description": [
 			"*This horse-sized wasp is covered in yellow and black vertical stripes - its stinger is the size of a sword and drips with venom.*",
 			"",
-			"::mh[Giant Wasp]{cr=\"3\"}",
+			"::mh[Giant Wasp]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/275}  ",
 			"**XP** 800  ",
@@ -461,7 +461,7 @@
 		"description": [
 			"*Thousands of yellow and black wasps form a thick cloud that swirls with savage bites and venomous stings.*",
 			"",
-			"::mh[Ground Wasp Swarm]{cr=\"2\"}",
+			"::mh[Ground Wasp Swarm]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #79: The Half-Dead City/88}  ",
 			"**XP** 600  ",
@@ -513,7 +513,7 @@
 		"description": [
 			"*A low, ominous buzz announces the arrival of a mass of many thousands of angry, stinging wasps.*",
 			"",
-			"::mh[Wasp Swarm]{cr=\"3\"}",
+			"::mh[Wasp Swarm]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/275}  ",
 			"**XP** 800  ",
@@ -565,7 +565,7 @@
 		"description": [
 			"*This enormous black insectile creature moves with an almost nauseating grace as it watches with its single red eye.*",
 			"",
-			"::mh[Watcher]{cr=\"22\"}",
+			"::mh[Watcher]{cr=22}",
 			"",
 			"{SOURCE Planar Adventures/246}  ",
 			"**XP** 614,400  ",
@@ -640,7 +640,7 @@
 		"description": [
 			"*This vicious monster has webbed wings, a mouth full of sharp teeth, and a long tail ending a black stinger.*",
 			"",
-			"::mh[Water Leaper]{cr=\"2\"}",
+			"::mh[Water Leaper]{cr=2}",
 			"",
 			"{SOURCE Bestiary 5/275}  ",
 			"**XP** 600  ",
@@ -699,7 +699,7 @@
 		"description": [
 			"*A reptilian head on a serpentine neck slowly surfaces. Shadows beneath the water hint at a body of considerable size.*",
 			"",
-			"::mh[Water Orm]{cr=\"10\"}",
+			"::mh[Water Orm]{cr=10}",
 			"",
 			"{SOURCE Bestiary 2/280}  ",
 			"**XP** 9,600  ",
@@ -754,7 +754,7 @@
 		"description": [
 			"*Countless thousands of long-legged water bugs glide soundlessly over the surface of the water, skimming over it in a wave of twitching bodies.*",
 			"",
-			"::mh[Water Strider Swarm]{cr=\"1\"}",
+			"::mh[Water Strider Swarm]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #49: The Brinewall Legacy/82}  ",
 			"**XP** 400  ",
@@ -804,7 +804,7 @@
 		"description": [
 			"*This bug has long, fuzzy legs that support it on the water's surface as if the creature stands on solid ground.*",
 			"",
-			"::mh[Giant Water Strider]{cr=\"1\"}",
+			"::mh[Giant Water Strider]{cr=1}",
 			"",
 			"{SOURCE Bestiary 4/273}  ",
 			"**XP** 400  ",
@@ -905,7 +905,7 @@
 		"description": [
 			"*This eight-legged lizard has a round, lamprey-like mouth full of teeth, and its scales slowly change color to match its surroundings.*",
 			"",
-			"::mh[Water Wraith]{cr=\"2\"}",
+			"::mh[Water Wraith]{cr=2}",
 			"",
 			"{SOURCE Inner Sea Bestiary/59}  ",
 			"**XP** 600  ",
@@ -1029,7 +1029,7 @@
 		"description": [
 			"*This bear-sized predator is long and low-slung. Its soft fur and intelligent expression contrast with its glistening fangs.*",
 			"",
-			"::mh[Dire Weasel]{cr=\"3\"}",
+			"::mh[Dire Weasel]{cr=3}",
 			"",
 			"{SOURCE Bestiary 4/275}  ",
 			"**XP** 800  ",
@@ -1083,7 +1083,7 @@
 		"description": [
 			"*The predatory nature of this wolf-sized creature is revealed by its long teeth, sleekly muscular body, and belligerent hiss.*",
 			"",
-			"::mh[Giant Weasel]{cr=\"1\"}",
+			"::mh[Giant Weasel]{cr=1}",
 			"",
 			"{SOURCE Bestiary 4/275;Pathfinder #67: The Snows of Summer/82}  ",
 			"**XP** 400  ",
@@ -1131,7 +1131,7 @@
 		"description": [
 			"*The bloated white segments of a maggot's body erupt in a torso of mixed feminine and insectile features. Pale humanoid skin and carapace meld together beneath a face with segmented eyes and mandibles chittering a song of discordant alien clicks and hisses, as overlong carapace claws weave cords of thick webbing between them.*",
 			"",
-			"::mh[Weaverworm]{cr=\"8\"}",
+			"::mh[Weaverworm]{cr=8}",
 			"",
 			"{SOURCE Pathfinder #45: Broken Moon/86}  ",
 			"**XP** 4,800  ",
@@ -1186,7 +1186,7 @@
 		"description": [
 			"*This strange, vibrant plant slowly but dangerously whips about its trio of tendrils with spiked heads.*",
 			"",
-			"::mh[Weedwhip]{cr=\"2\"}",
+			"::mh[Weedwhip]{cr=2}",
 			"",
 			"{SOURCE Bestiary 4/276}  ",
 			"**XP** 600  ",
@@ -1254,7 +1254,7 @@
 		"description": [
 			"*This hideous shape has the head of a feral elk with jagged teeth and sharp antlers. Its humanoid legs end in blackened, burnt stumps.*",
 			"",
-			"::mh[Wendigo]{cr=\"17\"}",
+			"::mh[Wendigo]{cr=17}",
 			"",
 			"{SOURCE Bestiary 2/281;Pathfinder #6: Spires of Xin-Shalast/88}  ",
 			"**XP** 102,400  ",
@@ -1317,7 +1317,7 @@
 		"description": [
 			"*This immense whale moves slowly through the water with a grace that seems incongruous, given its immense size.*",
 			"",
-			"::mh[Whale]{cr=\"10\"}",
+			"::mh[Whale]{cr=10}",
 			"",
 			"{SOURCE Bestiary 2/282}  ",
 			"**XP** 9,600  ",
@@ -1366,7 +1366,7 @@
 		"description": [
 			"*This immense whale has an enormous, box-shaped head over a massive, toothy maw. Its rough white hide is laced with scars.*",
 			"",
-			"::mh[Great White Whale]{cr=\"14\"}",
+			"::mh[Great White Whale]{cr=14}",
 			"",
 			"{SOURCE Bestiary 2/282}  ",
 			"**XP** 38,400  ",
@@ -1417,7 +1417,7 @@
 		"description": [
 			"*This enormous, translucent blob trails a mass of six immense tentacles and a central forest of tendrils below its body.*",
 			"",
-			"::mh[Whaler Jellyfish]{cr=\"17\"}",
+			"::mh[Whaler Jellyfish]{cr=17}",
 			"",
 			"{SOURCE Bestiary 6/169}  ",
 			"**XP** 102,400  ",
@@ -1467,7 +1467,7 @@
 		"description": [
 			"*This creature glides on undulating folds of leathery skin. Its spinning, circular mouth is lined with rows of razor-sharp teeth.*",
 			"",
-			"::mh[Whirlmaw]{cr=\"8\"}",
+			"::mh[Whirlmaw]{cr=8}",
 			"",
 			"{SOURCE Inner Sea Bestiary/60}  ",
 			"**XP** 4,800  ",
@@ -1526,7 +1526,7 @@
 		"description": [
 			"*This luminous shape stands twice the height of a human. A pale light shines where its face should be.*",
 			"",
-			"::mh[Whisperer]{cr=\"20\"}",
+			"::mh[Whisperer]{cr=20}",
 			"",
 			"{SOURCE Bestiary 6/276}  ",
 			"**XP** 307,200  ",
@@ -1608,7 +1608,7 @@
 		"description": [
 			"*This translucent, jellyfish-like creature has a shimmering purple and blue bell-like body that sports a nest of sting-tipped tendrils.*",
 			"",
-			"::mh[Whyrlish]{cr=\"15\"}",
+			"::mh[Whyrlish]{cr=15}",
 			"",
 			"{SOURCE Planar Adventures/248}  ",
 			"**XP** 51,200  ",
@@ -1665,7 +1665,7 @@
 		"description": [
 			"*This humanoid-shaped colossus is a towering fury of burning wicker and wood.*",
 			"",
-			"::mh[Wickerman]{cr=\"13\"}",
+			"::mh[Wickerman]{cr=13}",
 			"",
 			"{SOURCE Bestiary 4/277}  ",
 			"**XP** 25,600  ",
@@ -1732,7 +1732,7 @@
 		"description": [
 			"*The flesh of this walking corpse is rotting and putrid, its body skeletal in places and its eye sockets glowing with red light.*",
 			"",
-			"::mh[Wight]{cr=\"3\"}",
+			"::mh[Wight]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/276}  ",
 			"**XP** 800  ",
@@ -1811,7 +1811,7 @@
 		"description": [
 			"*This thick-bodied, white-furred bugbear wears bearskins and carries an axe made of ice and bone.*",
 			"",
-			"::mh[Wikkawak]{cr=\"4\"}",
+			"::mh[Wikkawak]{cr=4}",
 			"",
 			"{SOURCE Bestiary 4/278}  ",
 			"**XP** 1,200  ",
@@ -1871,7 +1871,7 @@
 		"description": [
 			"*This lithe, androgynous humanoid has pointed ears, glowing green eyes, and six fingers on each slender hand.*",
 			"",
-			"::mh[Wild Hunt Archer]{cr=\"13\"}",
+			"::mh[Wild Hunt Archer]{cr=13}",
 			"",
 			"{SOURCE Bestiary 6/279}  ",
 			"**XP** 25,600  ",
@@ -1934,7 +1934,7 @@
 		"description": [
 			"*This powerful steed stands upon wispy puffs of air, its grassy mane and tail swishing majestically in the wind.*",
 			"",
-			"::mh[Wild Hunt Horse]{cr=\"11\"}",
+			"::mh[Wild Hunt Horse]{cr=11}",
 			"",
 			"{SOURCE Bestiary 6/280}  ",
 			"**XP** 12,800  ",
@@ -1998,7 +1998,7 @@
 		"description": [
 			"*Green smoke billows from the bared teeth and flared nostrils of this muscular, sharp-eared hound.*",
 			"",
-			"::mh[Wild Hunt Hound]{cr=\"10\"}",
+			"::mh[Wild Hunt Hound]{cr=10}",
 			"",
 			"{SOURCE Bestiary 6/281}  ",
 			"**XP** 9,600  ",
@@ -2063,7 +2063,7 @@
 		"description": [
 			"*This limber and regal humanoid has an elk's antlers, long pointed ears, flowing white hair, and luminescent green eyes.*",
 			"",
-			"::mh[Wild Hunt Monarch]{cr=\"19\"}",
+			"::mh[Wild Hunt Monarch]{cr=19}",
 			"",
 			"{SOURCE Bestiary 6/282}  ",
 			"**XP** 204,800  ",
@@ -2147,7 +2147,7 @@
 		"description": [
 			"*This lithe humanoid has pointed ears, glowing green eyes, and a ram's horns.*",
 			"",
-			"::mh[Wild Hunt Scout]{cr=\"15\"}",
+			"::mh[Wild Hunt Scout]{cr=15}",
 			"",
 			"{SOURCE Bestiary 6/284}  ",
 			"**XP** 51,200  ",
@@ -2209,7 +2209,7 @@
 		"description": [
 			"*This faintly glowing ball of light bobs gently in the air, the nebulous image of what might be a skull visible somewhere in its depths.*",
 			"",
-			"::mh[Will-o'-Wisp]{cr=\"6\"}",
+			"::mh[Will-o'-Wisp]{cr=6}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/277}  ",
 			"**XP** 2,400  ",
@@ -2268,7 +2268,7 @@
 		"description": [
 			"*Human-sized and of a deathly blue color, this long-taloned skeletal creature is partially encased in jagged sheets of ice.*",
 			"",
-			"::mh[Winterwight]{cr=\"17\"}",
+			"::mh[Winterwight]{cr=17}",
 			"",
 			"{SOURCE Bestiary 2/283}  ",
 			"**XP** 102,400  ",
@@ -2330,7 +2330,7 @@
 		"description": [
 			"*This spider-like monstrosity watches quietly, skittering about on six needle-sharp legs.*",
 			"",
-			"::mh[Wisagatcak]{cr=\"14\"}",
+			"::mh[Wisagatcak]{cr=14}",
 			"",
 			"{SOURCE Planar Adventures/249}  ",
 			"**XP** 38,400  ",
@@ -2393,7 +2393,7 @@
 		"description": [
 			"*With a raucous cry and a flurry of feathered wings, this jet-black bird takes to the air, an unnatural gleam in its otherworldly eyes.*",
 			"",
-			"::mh[Witchcrow]{cr=\"1\"}",
+			"::mh[Witchcrow]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #67: The Snows of Summer/88;Bestiary 5/277}  ",
 			"**XP** 400  ",
@@ -2456,7 +2456,7 @@
 		"name": "Greater Witchcrow",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
 		"description": [
-			"::mh[Greater Witchcrow]{cr=\"3\"}",
+			"::mh[Greater Witchcrow]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #67: The Snows of Summer/88}  ",
 			"**XP** 800  ",
@@ -2535,7 +2535,7 @@
 		"description": [
 			"*Bathed in sickly green flames, this insubstantial specter of a beautiful young woman floats just off the ground.*",
 			"",
-			"::mh[Witchfire]{cr=\"9\"}",
+			"::mh[Witchfire]{cr=9}",
 			"",
 			"{SOURCE Bestiary 2/284;Pathfinder #5: Sins of the Saviors/84}  ",
 			"**XP** 6,400  ",
@@ -2597,7 +2597,7 @@
 		"description": [
 			"*This gray-skinned humanoid wears fine red robes. The being has four arms, each ending in a three-fingered hand.*",
 			"",
-			"::mh[Witchwyrd]{cr=\"6\"}",
+			"::mh[Witchwyrd]{cr=6}",
 			"",
 			"{SOURCE Bestiary 2/285;Pathfinder #14: Children of the Void/88}  ",
 			"**XP** 2,400  ",
@@ -2722,7 +2722,7 @@
 		"description": [
 			"*This powerful canine watches its prey with piercing yellow eyes, darting its tongue across sharp white teeth.*",
 			"",
-			"::mh[Wolf]{cr=\"1\"}",
+			"::mh[Wolf]{cr=1}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/278}  ",
 			"**XP** 400  ",
@@ -2765,7 +2765,7 @@
 		"description": [
 			"*This immense black wolf is the size of a horse, its fangs as large and sharp as knives.*",
 			"",
-			"::mh[Dire Wolf]{cr=\"3\"}",
+			"::mh[Dire Wolf]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/278}  ",
 			"**XP** 800  ",
@@ -2810,7 +2810,7 @@
 		"description": [
 			"*A chilling chorus of howls echoes through the air as a massive, white-furred wolf emerges.*",
 			"",
-			"::mh[Timber Wolf]{cr=\"2\"}",
+			"::mh[Timber Wolf]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #67: The Snows of Summer/83}  ",
 			"**XP** 600  ",
@@ -2863,7 +2863,7 @@
 		"description": [
 			"*A small forest animal sits motionless atop a worn stump - and then the stump's face peels open into a maw of sharp teeth.*",
 			"",
-			"::mh[Wolf-in-Sheep's-Clothing]{cr=\"8\"}",
+			"::mh[Wolf-in-Sheep's-Clothing]{cr=8}",
 			"",
 			"{SOURCE Bestiary 3/285;Misfit Monsters Redeemed/63}  ",
 			"**XP** 4,800  ",
@@ -2922,7 +2922,7 @@
 		"description": [
 			"*This shaggy, multi-legged creature has a flattened face with wide nostrils and four eyes. Ivory tusks jut downward, flanking its mouth.*",
 			"",
-			"::mh[Wolliped]{cr=\"3\"}",
+			"::mh[Wolliped]{cr=3}",
 			"",
 			"{SOURCE Bestiary 5/279}  ",
 			"**XP** 800  ",
@@ -2984,7 +2984,7 @@
 		"description": [
 			"*This shaggy, multi-legged creature has a flattened face with wide nostrils and four eyes. Ivory tusks jut downward from its mouth.*",
 			"",
-			"::mh[Wolliped (Combat Trained)]{cr=\"3\"}",
+			"::mh[Wolliped (Combat Trained)]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #70: The Frozen Stars/90}  ",
 			"**XP** 800  ",
@@ -3059,7 +3059,7 @@
 		"name": "Wolliped (Domesticated or Wild)",
 		"sources": [ "Pathfinder #70: The Frozen Stars" ],
 		"description": [
-			"::mh[Wolliped (Domesticated or Wild)]{cr=\"3\"}",
+			"::mh[Wolliped (Domesticated or Wild)]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #70: The Frozen Stars/90}  ",
 			"**XP** 800  ",
@@ -3137,7 +3137,7 @@
 		"description": [
 			"*This creature appears to be a large hare with long fangs, feathered wings, and a set of antlers.*",
 			"",
-			"::mh[Wolpertinger]{cr=\"1\"}",
+			"::mh[Wolpertinger]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #61: Shards of Sin/87}  ",
 			"**XP** 400  ",
@@ -3199,7 +3199,7 @@
 		"description": [
 			"*This stocky, muscular mammal is the size of a badger, its snarling lips revealing a mouth full of yellow teeth.*",
 			"",
-			"::mh[Wolverine]{cr=\"2\"}",
+			"::mh[Wolverine]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/279}  ",
 			"**XP** 600  ",
@@ -3248,7 +3248,7 @@
 		"description": [
 			"*This terrible wolverine is as large as a bear, its jaws and claws oversized and brutal, its eyes dark and filled with rage.*",
 			"",
-			"::mh[Dire Wolverine]{cr=\"4\"}",
+			"::mh[Dire Wolverine]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/279}  ",
 			"**XP** 1,200  ",
@@ -3298,7 +3298,7 @@
 		"description": [
 			"*This unusually large wolf has an evil, almost intelligent light shining in its deep red eyes.*",
 			"",
-			"::mh[Worg]{cr=\"2\"}",
+			"::mh[Worg]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/280}  ",
 			"**XP** 600  ",
@@ -3343,7 +3343,7 @@
 		"description": [
 			"*This bear-sized wolf has white fur and a rime of frost around its muzzle. Its eyes are pale blue, almost white in color.*",
 			"",
-			"::mh[Winter Wolf]{cr=\"5\"}",
+			"::mh[Winter Wolf]{cr=5}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/280}  ",
 			"**XP** 1,600  ",
@@ -3393,7 +3393,7 @@
 		"description": [
 			"*Hordes of swarming locusts coalesce to make up the form of a humanoid woman carrying a scythe, a demonic symbol emblazoned on her chest.*",
 			"",
-			"::mh[Locust Variant]{cr=\"8\"}",
+			"::mh[Locust Variant]{cr=8}",
 			"",
 			"{SOURCE Pathfinder #75: Demon's Heresy/74}  ",
 			"**XP** 4,800  ",
@@ -3454,7 +3454,7 @@
 		"description": [
 			"*This massive, eyeless draconic creature is covered in purplehued scales and sharp, spiky protrusions.*",
 			"",
-			"::mh[Woundwyrm]{cr=\"15\"}",
+			"::mh[Woundwyrm]{cr=15}",
 			"",
 			"{SOURCE Inner Sea Bestiary/61}  ",
 			"**XP** 51,200  ",
@@ -3509,7 +3509,7 @@
 		"description": [
 			"*This immense, worm-like creature piles its coils upon itself, exposing four scythe-shaped claws and a massive fanged mouth.*",
 			"",
-			"::mh[Wrackworm]{cr=\"20\"}",
+			"::mh[Wrackworm]{cr=20}",
 			"",
 			"{SOURCE Planar Adventures/250}  ",
 			"**XP** 307,200  ",
@@ -3585,7 +3585,7 @@
 		"description": [
 			"*This ghostly creature is little more than a dark shape with two flickering pinpoints of light where its eyes should be.*",
 			"",
-			"::mh[Wraith]{cr=\"5\"}",
+			"::mh[Wraith]{cr=5}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/281}  ",
 			"**XP** 1,600  ",
@@ -3652,7 +3652,7 @@
 		"description": [
 			"*This desiccated strix has glowing, green eyes and long, jagged claws. A pair of burning, ghostly wings sprouts from its hunched back.*",
 			"",
-			"::mh[Wraithwing]{cr=\"4\"}",
+			"::mh[Wraithwing]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #101: The Kintargo Contract/88}  ",
 			"**XP** 1,200  ",
@@ -3735,7 +3735,7 @@
 		"description": [
 			"*This ghostly, emaciated figure's mouth hangs agape in an endless howl, and its abnormally long arms almost touch the ground.*",
 			"",
-			"::mh[Wretchghost]{cr=\"5\"}",
+			"::mh[Wretchghost]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #98: Turn of the Torrent/90}  ",
 			"**XP** 1,600  ",
@@ -3822,7 +3822,7 @@
 		"description": [
 			"*This ghostly, skeletal creature appears to once have been a dragon, but it is now something far less noble.*",
 			"",
-			"::mh[Wyrmwraith]{cr=\"17\"}",
+			"::mh[Wyrmwraith]{cr=17}",
 			"",
 			"{SOURCE Bestiary 5/280}  ",
 			"**XP** 102,400  ",

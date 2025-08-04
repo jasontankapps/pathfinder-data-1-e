@@ -5,7 +5,7 @@
 		"description": [
 			"*This sphere of elemental matter emits a strange hum that resonates with elemental power.*",
 			"",
-			"::mh[Aether Wysp]{cr=\"2\"}",
+			"::mh[Aether Wysp]{cr=2}",
 			"",
 			"{SOURCE Bestiary 5/282}  ",
 			"**XP** 600  ",
@@ -60,7 +60,7 @@
 		"description": [
 			"*This sphere of elemental matter emits a strange hum that resonates with elemental power.*",
 			"",
-			"::mh[Air Wysp]{cr=\"2\"}",
+			"::mh[Air Wysp]{cr=2}",
 			"",
 			"{SOURCE Bestiary 5/282}  ",
 			"**XP** 600  ",
@@ -111,7 +111,7 @@
 		"description": [
 			"*This sphere of elemental matter emits a strange hum that resonates with elemental power.*",
 			"",
-			"::mh[Earth Wysp]{cr=\"2\"}",
+			"::mh[Earth Wysp]{cr=2}",
 			"",
 			"{SOURCE Bestiary 5/282}  ",
 			"**XP** 600  ",
@@ -162,7 +162,7 @@
 		"description": [
 			"*This sphere of elemental matter emits a strange hum that resonates with elemental power.*",
 			"",
-			"::mh[Fire Wysp]{cr=\"2\"}",
+			"::mh[Fire Wysp]{cr=2}",
 			"",
 			"{SOURCE Bestiary 5/283}  ",
 			"**XP** 600  ",
@@ -215,7 +215,7 @@
 		"description": [
 			"*This sphere of elemental matter emits a strange hum that resonates with elemental power.*",
 			"",
-			"::mh[Water Wysp]{cr=\"2\"}",
+			"::mh[Water Wysp]{cr=2}",
 			"",
 			"{SOURCE Bestiary 5/283}  ",
 			"**XP** 600  ",
@@ -336,7 +336,7 @@
 		"description": [
 			"*A dark blue dragon, its wings immense and its tail tipped with a hooked stinger, lands on two taloned feet and roars a challenge.*",
 			"",
-			"::mh[Wyvern]{cr=\"6\"}",
+			"::mh[Wyvern]{cr=6}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/282}  ",
 			"**XP** 2,400  ",
@@ -394,7 +394,7 @@
 		"description": [
 			"*This towering, three-tailed, six-eyed beast seems like three rune-backed serpents partially melded together into one body.*",
 			"",
-			"::mh[Xacarba]{cr=\"15\"}",
+			"::mh[Xacarba]{cr=15}",
 			"",
 			"{SOURCE Bestiary 2/288;Pathfinder #18: Descent into Midnight/88}  ",
 			"**XP** 51,200  ",
@@ -456,7 +456,7 @@
 		"description": [
 			"*This elephant-sized equine creature has bright red skin, fangs, six eyes, and armored plates on its head, neck, and back.*",
 			"",
-			"::mh[Xanthos]{cr=\"14\"}",
+			"::mh[Xanthos]{cr=14}",
 			"",
 			"{SOURCE Bestiary 4/282}  ",
 			"**XP** 38,400  ",
@@ -514,7 +514,7 @@
 		"description": [
 			"*What appears to be this creature's cloak unfurls into bug wings, and its apparently human face is merely patterns on its head.*",
 			"",
-			"::mh[Xenopterid]{cr=\"7\"}",
+			"::mh[Xenopterid]{cr=7}",
 			"",
 			"{SOURCE Bestiary 4/283}  ",
 			"**XP** 3,200  ",
@@ -569,7 +569,7 @@
 		"description": [
 			"*This snarling blue-white monkey flies through the air on a pair of bird-like wings.*",
 			"",
-			"::mh[Xiao]{cr=\"2\"}",
+			"::mh[Xiao]{cr=2}",
 			"",
 			"{SOURCE Bestiary 5/284}  ",
 			"**XP** 600  ",
@@ -626,7 +626,7 @@
 		"description": [
 			"*This flame-red humanoid appears to be a strange mix of insect and reptile, with four arms and twitching, fanged mandibles.*",
 			"",
-			"::mh[Xill]{cr=\"6\"}",
+			"::mh[Xill]{cr=6}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/283}  ",
 			"**XP** 2,400  ",
@@ -681,7 +681,7 @@
 		"description": [
 			"*This flame-red, four-armed creature has large mandibles and numerous horn-like projections spike from its head.*",
 			"",
-			"::mh[Xill Matriarch]{cr=\"9\"}",
+			"::mh[Xill Matriarch]{cr=9}",
 			"",
 			"{SOURCE Occult Bestiary/60}  ",
 			"**XP** 6,400  ",
@@ -739,7 +739,7 @@
 		"description": [
 			"*This towering, spindly, four-armed entity appears to be made of stone and crystal, yet it moves with a fluid grace.*",
 			"",
-			"::mh[Vault Keeper]{cr=\"14\"}",
+			"::mh[Vault Keeper]{cr=14}",
 			"",
 			"{SOURCE Planar Adventures/252;The Emerald Spire Superdungeon/158}  ",
 			"**XP** 38,400  ",
@@ -800,7 +800,7 @@
 		"description": [
 			"*This serpentine mix of flying fish and great seabird rolls and twists like waves in an ocean storm.*",
 			"",
-			"::mh[Xocothian]{cr=\"4\"}",
+			"::mh[Xocothian]{cr=4}",
 			"",
 			"{SOURCE Inner Sea Gods/291}  ",
 			"**XP** 1,200  ",
@@ -864,7 +864,7 @@
 		"description": [
 			"*This squat beast is as wide as it is tall. Strangely symmetrical, it has three arms, three legs, three eyes, and one huge mouth.*",
 			"",
-			"::mh[Xorn]{cr=\"6\"}",
+			"::mh[Xorn]{cr=6}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/284}  ",
 			"**XP** 2,400  ",
@@ -970,7 +970,7 @@
 		"description": [
 			"*A rigid crest runs from the head of this bipedal lizard to the tip of its long tail, and oil glistens on its scales.*",
 			"",
-			"::mh[Xulgath]{cr=\"4\"}",
+			"::mh[Xulgath]{cr=4}",
 			"",
 			"{SOURCE Occult Bestiary/61}  ",
 			"**XP** 1,200  ",
@@ -1026,7 +1026,7 @@
 		"description": [
 			"*This insectile biped has a tapir-like snout and is unmistakably alien in appearance, despite its vaguely humanoid shape.*",
 			"",
-			"::mh[Yaddithian]{cr=\"8\"}",
+			"::mh[Yaddithian]{cr=8}",
 			"",
 			"{SOURCE Bestiary 6/285}  ",
 			"**XP** 4,800  ",
@@ -1087,7 +1087,7 @@
 		"description": [
 			"*A writhing forest of tendrils extends from one end of this chitincovered creature's body, while from the other lashes a pincer-tipped tail. Six transparent blisters adorn its back, each containing a brain floating in thick green fluid.*",
 			"",
-			"::mh[Yah-Thelgaad]{cr=\"14\"}",
+			"::mh[Yah-Thelgaad]{cr=14}",
 			"",
 			"{SOURCE Pathfinder #88: Valley of the Brain Collectors/90}  ",
 			"**XP** 38,400  ",
@@ -1175,7 +1175,7 @@
 		"description": [
 			"*This six-eyed horror is vaguely shaped like a dead tree, but one with claws and tentacles and spidery legs.*",
 			"",
-			"::mh[Yangethe]{cr=\"9\"}",
+			"::mh[Yangethe]{cr=9}",
 			"",
 			"{SOURCE Bestiary 5/285;The Dragon's Demand/63}  ",
 			"**XP** 6,400  ",
@@ -1234,7 +1234,7 @@
 		"description": [
 			"*This creature is a mix of different animals fused together, with a bear's torso and head, clawed ape legs, and a furred tentacle arm.*",
 			"",
-			"::mh[Yaoguai]{cr=\"7\"}",
+			"::mh[Yaoguai]{cr=7}",
 			"",
 			"{SOURCE Bestiary 4/284}  ",
 			"**XP** 3,200  ",
@@ -1297,7 +1297,7 @@
 		"description": [
 			"*Coiling around several human skeletons, this wet green plant's sickly flowers smoke with a nasty yellow vapor.*",
 			"",
-			"::mh[Yellow Musk Creeper]{cr=\"2\"}",
+			"::mh[Yellow Musk Creeper]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/285}  ",
 			"**XP** 600  ",
@@ -1372,7 +1372,7 @@
 		"description": [
 			"*This emaciated, hairless canine has a strange air of menace and cruelty about it.*",
 			"",
-			"::mh[Yeth Hound]{cr=\"3\"}",
+			"::mh[Yeth Hound]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/286}  ",
 			"**XP** 800  ",
@@ -1431,7 +1431,7 @@
 		"description": [
 			"*This creature stands like a man, yet is half again the height of most men and covered with a coat of thick white fur.*",
 			"",
-			"::mh[Yeti]{cr=\"4\"}",
+			"::mh[Yeti]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/287}  ",
 			"**XP** 1,200  ",
@@ -1488,7 +1488,7 @@
 		"description": [
 			"*This beautiful dove is as bright as the sun and the size of an eagle, surrounded by an aura of blazing white flames.*",
 			"",
-			"::mh[Yhohm]{cr=\"4\"}",
+			"::mh[Yhohm]{cr=4}",
 			"",
 			"{SOURCE Inner Sea Gods/307}  ",
 			"**XP** 1,200  ",
@@ -1551,7 +1551,7 @@
 		"description": [
 			"*This bizarre creature has a conical body topped with four tentacles tipped with pincers, tubes, and a tentacled, spherical head.*",
 			"",
-			"::mh[Yithian]{cr=\"9\"}",
+			"::mh[Yithian]{cr=9}",
 			"",
 			"{SOURCE Bestiary 3/286}  ",
 			"**XP** 6,400  ",
@@ -1612,7 +1612,7 @@
 		"description": [
 			"*This creature's conical body bears four rubbery appendages: two end in strong pincers, another ends in a cluster of four trumpet-like organs, and yet another is attached to a round head with three eyes that glow with ancient, forbidden power.*",
 			"",
-			"::mh[Yithian Elder]{cr=\"13\"}",
+			"::mh[Yithian Elder]{cr=13}",
 			"",
 			"{SOURCE Occult Bestiary/62}  ",
 			"**XP** 25,600  ",
@@ -1692,7 +1692,7 @@
 		"description": [
 			"*As tall as a tree, this dark gray bird stands on long legs. Its curved neck supports a sleek head with a slim but wicked beak.*",
 			"",
-			"::mh[Yolubilis Heron]{cr=\"6\"}",
+			"::mh[Yolubilis Heron]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #97: In Hell's Bright Shadow/83}  ",
 			"**XP** 2,400  ",
@@ -1743,7 +1743,7 @@
 		"description": [
 			"*This ugly creature's porcine head features multiple horns and tusks. Its muscular body ripples with raw power.*",
 			"",
-			"::mh[Ypotryll]{cr=\"15\"}",
+			"::mh[Ypotryll]{cr=15}",
 			"",
 			"{SOURCE Bestiary 4/285}  ",
 			"**XP** 51,200  ",
@@ -1801,7 +1801,7 @@
 		"description": [
 			"*This flying reptile has large, leathery wings and a vibrantly colored crest on its horned, narrow-snouted head.*",
 			"",
-			"::mh[Yrthak]{cr=\"9\"}",
+			"::mh[Yrthak]{cr=9}",
 			"",
 			"{SOURCE Bestiary 2/290}  ",
 			"**XP** 6,400  ",
@@ -1859,7 +1859,7 @@
 		"description": [
 			"*This beautiful but sad-looking woman wears an ornate robe and is surrounded by a whirling mass of snow.*",
 			"",
-			"::mh[Yuki-Onna]{cr=\"8\"}",
+			"::mh[Yuki-Onna]{cr=8}",
 			"",
 			"{SOURCE Bestiary 3/287}  ",
 			"**XP** 4,800  ",
@@ -1923,7 +1923,7 @@
 		"description": [
 			"*Long black hair obscures the face of this pale woman. With each motion, her body twitches and jerks.*",
 			"",
-			"::mh[Yurei]{cr=\"12\"}",
+			"::mh[Yurei]{cr=12}",
 			"",
 			"{SOURCE Bestiary 6/286}  ",
 			"**XP** 19,200  ",
@@ -1983,7 +1983,7 @@
 		"description": [
 			"*This four-legged animal with a long-horned, bovine head looks like a cross between a horse and a long-haired yak.*",
 			"",
-			"::mh[Yzobu]{cr=\"1\"}",
+			"::mh[Yzobu]{cr=1}",
 			"",
 			"{SOURCE Monster Codex/124}  ",
 			"**XP** 400  ",
@@ -2040,7 +2040,7 @@
 		"description": [
 			"*This stunningly beautiful and athletic woman has skin of various shades of gray. She wears a pearlescent breastplate and wields a shimmering longspear.*",
 			"",
-			"::mh[Zana]{cr=\"14\"}",
+			"::mh[Zana]{cr=14}",
 			"",
 			"{SOURCE Pathfinder #107: Scourge of the Godclaw/90}  ",
 			"**XP** 38,400  ",
@@ -2132,7 +2132,7 @@
 		"description": [
 			"*This titanic earthen creature is humanoid-shaped with a hunched, pugnacious posture. The enormous hump of its back bears a ring of standing stones that crackle faintly with energy.*",
 			"",
-			"::mh[Zarxorin]{cr=\"19\"}",
+			"::mh[Zarxorin]{cr=19}",
 			"",
 			"{SOURCE Pathfinder #120: Vault of the Onyx Citadel/90}  ",
 			"**XP** 204,800  ",
@@ -2211,7 +2211,7 @@
 		"description": [
 			"*This spectral human is draped in multicolored vestments that trail off into mist, and has open black pits for eyes and an expression of sorrow and horror.*",
 			"",
-			"::mh[Zealot Wraith]{cr=\"7\"}",
+			"::mh[Zealot Wraith]{cr=7}",
 			"",
 			"{SOURCE Cheliax, the Infernal Empire/63}  ",
 			"**XP** 3,200  ",
@@ -2267,7 +2267,7 @@
 		"description": [
 			"*This ferocious ursine brute has blade-like metallic teeth and appears to be covered in overlapping iron plates.*",
 			"",
-			"::mh[Zentragt]{cr=\"4\"}",
+			"::mh[Zentragt]{cr=4}",
 			"",
 			"{SOURCE Inner Sea Gods/289}  ",
 			"**XP** 1,200  ",
@@ -2331,7 +2331,7 @@
 		"description": [
 			"*This blue-furred horse with a cloud-like mane and tail has gray, human-like eyes that show obvious intelligence.*",
 			"",
-			"::mh[Zephyr]{cr=\"12\"}",
+			"::mh[Zephyr]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #101: The Kintargo Contract/90}  ",
 			"**XP** 19,200  ",
@@ -2543,7 +2543,7 @@
 		"description": [
 			"*At first glance, this creature resembles a dragon, but its body is entirely made of plants and soil, and it exhales clouds of dirt.*",
 			"",
-			"::mh[Zomok]{cr=\"16\"}",
+			"::mh[Zomok]{cr=16}",
 			"",
 			"{SOURCE Bestiary 4/287;Pathfinder #36: Sound of a Thousand Screams/88}  ",
 			"**XP** 76,800  ",
@@ -2605,7 +2605,7 @@
 		"description": [
 			"*This skittish amalgam of beast parts has luminous eyes, a rat's tail, simian appendages, and tendrils extending from a mole-like nose*",
 			"",
-			"::mh[Zoog]{cr=\"1\"}",
+			"::mh[Zoog]{cr=1}",
 			"",
 			"{SOURCE Bestiary 3/288}  ",
 			"**XP** 400  ",
@@ -2664,7 +2664,7 @@
 		"description": [
 			"*This withered old corpse has a feral glint in her eyes and clasps a rusty axe in her yellow-nailed hands.*",
 			"",
-			"::mh[Zuvembie]{cr=\"4\"}",
+			"::mh[Zuvembie]{cr=4}",
 			"",
 			"{SOURCE Bestiary 3/289}  ",
 			"**XP** 1,200  ",
@@ -2766,7 +2766,7 @@
 		"description": [
 			"*This burly dog is fitted with a small saddle. A low, menacing growl rumbles up from its chest.*",
 			"",
-			"::mh[Riding Dog]{cr=\"1\"}",
+			"::mh[Riding Dog]{cr=1}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/87}  ",
 			"**XP** 400  ",
@@ -2857,7 +2857,7 @@
 		"description": [
 			"*This sleek black whale has a distinctive white patch near each eye and a mouth filled with sharp teeth.*",
 			"",
-			"::mh[Orca]{cr=\"5\"}",
+			"::mh[Orca]{cr=5}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/88}  ",
 			"**XP** 1,600  ",
@@ -2944,7 +2944,7 @@
 		"description": [
 			"*The half-formed shape a snarling dog rises out of this pile of grayish foam.*",
 			"",
-			"::mh[Doppeldrek]{cr=\"5\"}",
+			"::mh[Doppeldrek]{cr=5}",
 			"",
 			"{SOURCE Bestiary 5/85}  ",
 			"**XP** 1,600  ",
@@ -2993,7 +2993,7 @@
 		"description": [
 			"*This grayish humanoid creature seems almost unfinished, with a narrow head, gaunt limbs, and a sinister, noseless face.*",
 			"",
-			"::mh[Doppelganger]{cr=\"3\"}",
+			"::mh[Doppelganger]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/89}  ",
 			"**XP** 800  ",
@@ -3052,7 +3052,7 @@
 		"description": [
 			"*Two pairs of stretched and veiny leather wings adorn the back of this shrouded reptilian nightmare.*",
 			"",
-			"::mh[Dorvae]{cr=\"11\"}",
+			"::mh[Dorvae]{cr=11}",
 			"",
 			"{SOURCE Bestiary 4/62}  ",
 			"**XP** 12,800  ",
@@ -3110,7 +3110,7 @@
 		"description": [
 			"*This small creature looks like a lumpy head with crab legs and a giant mouth filled with stone teeth.*",
 			"",
-			"::mh[Dossenus]{cr=\"1\"}",
+			"::mh[Dossenus]{cr=1}",
 			"",
 			"{SOURCE Bestiary 4/63}  ",
 			"**XP** 400  ",
@@ -3178,7 +3178,7 @@
 		"description": [
 			"*This floating, ghostly humanoid's face is a blend of human and beast. Canine shapes twine around the creature's legs.*",
 			"",
-			"::mh[Duppy]{cr=\"7\"}",
+			"::mh[Duppy]{cr=7}",
 			"",
 			"{SOURCE Bestiary 5/100;Isles of the Shackles/48}  ",
 			"**XP** 3,200  ",
@@ -3305,7 +3305,7 @@
 		"description": [
 			"*A tremendous starfish-like creature emerges from the sand, its five long arms surrounding a circular toothy maw.*",
 			"",
-			"::mh[Dust Digger]{cr=\"4\"}",
+			"::mh[Dust Digger]{cr=4}",
 			"",
 			"{SOURCE Bestiary 2/112}  ",
 			"**XP** 1,200  ",

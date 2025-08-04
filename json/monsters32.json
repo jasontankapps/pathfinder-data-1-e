@@ -5,7 +5,7 @@
 		"description": [
 			"*This pale, spindly creature has a vaguely humanoid shape, but with arms unnaturally long for its torso. Strands of long white hair sprout from its bulbous head, and its eyes are pools of liquid darkness.*",
 			"",
-			"::mh[Drexin]{cr=\"2\"}",
+			"::mh[Drexin]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #109: In Search of Sanity/84}  ",
 			"**XP** 600  ",
@@ -84,7 +84,7 @@
 		"description": [
 			"*The pockets of this urchin are stuffed with worthless objects.*",
 			"",
-			"::mh[Erinat]{cr=\"2\"}",
+			"::mh[Erinat]{cr=2}",
 			"",
 			"{SOURCE Andoran, Birthplace of Freedom/56}  ",
 			"**XP** 600  ",
@@ -147,7 +147,7 @@
 		"description": [
 			"*This waterlogged gremlin has lobster claws for hands and an almost canine face with webbed ears.*",
 			"",
-			"::mh[Fuath]{cr=\"1\"}",
+			"::mh[Fuath]{cr=1}",
 			"",
 			"{SOURCE Bestiary 3/142}  ",
 			"**XP** 400  ",
@@ -422,7 +422,7 @@
 		"description": [
 			"*Grimacing like a maniac, this lean little bat-eared horror displays a mouth full of needle-like teeth and glowing, orange eyes.*",
 			"",
-			"::mh[Jinkin]{cr=\"1\"}",
+			"::mh[Jinkin]{cr=1}",
 			"",
 			"{SOURCE Bestiary 2/142;Pathfinder #19: Howl of the Carrion King/82}  ",
 			"**XP** 400  ",
@@ -488,7 +488,7 @@
 		"description": [
 			"*Dressed in red robes like those of a monk, this little monster displays a sharp-toothed smile and flips a gold coin in its hand.*",
 			"",
-			"::mh[Monaciello]{cr=\"1\"}",
+			"::mh[Monaciello]{cr=1}",
 			"",
 			"{SOURCE Bestiary 4/144}  ",
 			"**XP** 400  ",
@@ -552,7 +552,7 @@
 		"description": [
 			"*This hideous, hunchbacked creature has three glowing blue eyes. Oily hair grows from its head and back, covering it like a cloak.*",
 			"",
-			"::mh[Nuglub]{cr=\"2\"}",
+			"::mh[Nuglub]{cr=2}",
 			"",
 			"{SOURCE Bestiary 2/143}  ",
 			"**XP** 600  ",
@@ -750,7 +750,7 @@
 		"description": [
 			"*With a head like an angry crustacean, this fierce little insectoid creature clacks and rattles with a tiny but solid-looking hammer.*",
 			"",
-			"::mh[Vexgit]{cr=\"1\"}",
+			"::mh[Vexgit]{cr=1}",
 			"",
 			"{SOURCE Bestiary 2/145;Pathfinder #19: Howl of the Carrion King/84}  ",
 			"**XP** 400  ",
@@ -814,7 +814,7 @@
 		"description": [
 			"*This horrid mass of eyes, mouths, and formless flesh stares in all directions, its countless maws yammering ceaselessly.*",
 			"",
-			"::mh[Gibbering Mouther]{cr=\"5\"}",
+			"::mh[Gibbering Mouther]{cr=5}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/153}  ",
 			"**XP** 1,600  ",
@@ -874,7 +874,7 @@
 		"description": [
 			"*Thick folds of skin protect this massive sea mammal like fleshy armor. Tusks as tall as humans jut from its whiskered face.*",
 			"",
-			"::mh[Emperor Walrus]{cr=\"8\"}",
+			"::mh[Emperor Walrus]{cr=8}",
 			"",
 			"{SOURCE Bestiary 4/271}  ",
 			"**XP** 4,800  ",
@@ -922,7 +922,7 @@
 		"description": [
 			"*Two long tusks jut from the mouth of this bulky, bewhiskered creature. It walks clumsily on flippers instead of feet.*",
 			"",
-			"::mh[Walrus (B4)]{cr=\"3\"}",
+			"::mh[Walrus (B4)]{cr=3}",
 			"",
 			"{SOURCE Bestiary 4/271}  ",
 			"**XP** 800  ",
@@ -961,17 +961,20 @@
 			"",
 			"A typical male walrus weighs 1 to 2 tons and measures 10 feet in length, with females about a third lighter and about 9 feet long. Both sexes have tusks up to 3 feet long, and stiff whiskers used to feel out the hiding places of shellfish. A walrus lives up to 40 years.",
 			"",
-			"Owing to their fearsome tusks, prodigious strength, and willingness to fight as a herd, only the most aggressive or hungry polar predators risk attacking an adult walrus. People hunt walruses for meat and for their tusks, valued for their worth as ivory and as impressive trophies in their own right."
+			"Owing to their fearsome tusks, prodigious strength, and willingness to fight as a herd, only the most aggressive or hungry polar predators risk attacking an adult walrus. People hunt walruses for meat and for their tusks, valued for their worth as ivory and as impressive trophies in their own right.",
+			"",
+			">*Also see: {monster/Walrus (A[nimal ]A/rchive version)}*"
 		]
 	},
 	"walrus_b4": { "redirect": "walrus_walrus_b4" },
+	"walrus": { "redirect": "walrus_walrus_b4" },
 	"walrus_walrus_aa": {
 		"name": "Walrus (AA)",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"*This bulky, thick-skinned, flippered creature has on its face two enormous tusks and what looks like a coarse mustache.*",
 			"",
-			"::mh[Walrus (AA)]{cr=\"4\"}",
+			"::mh[Walrus (AA)]{cr=4}",
 			"",
 			"{SOURCE Animal Archive/29}  ",
 			"**XP** 1,200  ",
@@ -1010,7 +1013,9 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Young walruses start out with gray hides, but their flesh becomes almost pinkish when they reach old age (20-30 years for most walruses). Their hide is up to 4 inches thick, with another 6 inches of blubber hidden underneath that, accounting for their incredible toughness - and for their usefulness to arctic cultures as a source of meat and fuel."
+			"Young walruses start out with gray hides, but their flesh becomes almost pinkish when they reach old age (20-30 years for most walruses). Their hide is up to 4 inches thick, with another 6 inches of blubber hidden underneath that, accounting for their incredible toughness - and for their usefulness to arctic cultures as a source of meat and fuel.",
+			"",
+			">*Also see: {monster/Walrus (B[estiary ]4/ version)}*"
 		]
 	},
 	"walrus_aa": { "redirect": "walrus_walrus_aa" },
@@ -1020,7 +1025,7 @@
 		"description": [
 			"*This crimson-footed, nine-legged monstrosity has an egg-shaped body covered in dirty white fur. Its eyeless face, pig-like snout, and toothy maw make for a disturbing visage.*",
 			"",
-			"::mh[Wamp]{cr=\"6\"}",
+			"::mh[Wamp]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #111: Dreams of the Yellow King/90}  ",
 			"**XP** 2,400  ",
@@ -1096,7 +1101,7 @@
 		"description": [
 			"*Towering above a typical human, this misshapen giant's pale flesh is covered in purulent sores and bulbous tumors.*",
 			"",
-			"::mh[Ash Giant]{cr=\"11\"}",
+			"::mh[Ash Giant]{cr=11}",
 			"",
 			"{SOURCE Bestiary 3/126}  ",
 			"**XP** 12,800  ",
@@ -1160,7 +1165,7 @@
 		"description": [
 			"*Bestial tusks jut from the jaw of this hunched-over giant. It is clad in armor patched together from the bones of past victims.*",
 			"",
-			"::mh[Cave Giant]{cr=\"6\"}",
+			"::mh[Cave Giant]{cr=6}",
 			"",
 			"{SOURCE Bestiary 3/127}  ",
 			"**XP** 2,400  ",
@@ -1221,7 +1226,7 @@
 		"description": [
 			"*This giant has a majestic presence and stoic bearing. His rocky, red-brown skin is shot through with streaks of shimmering color.*",
 			"",
-			"::mh[Cliff Giant]{cr=\"9\"}",
+			"::mh[Cliff Giant]{cr=9}",
 			"",
 			"{SOURCE Bestiary 4/126}  ",
 			"**XP** 6,400  ",
@@ -1285,7 +1290,7 @@
 		"description": [
 			"*This towering giant has finely chiseled features. Her skin is pale and smooth, and her long wispy hair flutters as if in a breeze.*",
 			"",
-			"::mh[Cloud Giant]{cr=\"11\"}",
+			"::mh[Cloud Giant]{cr=11}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/147}  ",
 			"**XP** 12,800  ",
@@ -1346,7 +1351,7 @@
 		"description": [
 			"*Loose robes conceal the sand-etched features of this lanky giant. In each hand he grips a scimitar nearly the length of a human.*",
 			"",
-			"::mh[Desert Giant]{cr=\"9\"}",
+			"::mh[Desert Giant]{cr=9}",
 			"",
 			"{SOURCE Bestiary 3/128}  ",
 			"**XP** 6,400  ",
@@ -1406,7 +1411,7 @@
 		"description": [
 			"*Symbolic representations of the occultation of heavenly bodies decorate the dark gray skin of this massive giant.*",
 			"",
-			"::mh[Eclipse Giant]{cr=\"19\"}",
+			"::mh[Eclipse Giant]{cr=19}",
 			"",
 			"{SOURCE Bestiary 5/121}  ",
 			"**XP** 204,800  ",
@@ -1472,7 +1477,7 @@
 		"description": [
 			"*This hunched giant exudes power and a crude, stupid anger, its filthy fur clothing bespeaking a brutish and backwoods lifestyle.*",
 			"",
-			"::mh[Hill Giant]{cr=\"7\"}",
+			"::mh[Hill Giant]{cr=7}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/150}  ",
 			"**XP** 3,200  ",
@@ -1527,7 +1532,7 @@
 		"description": [
 			"*This towering, plant-encrusted woman wields a massive bow, and her dark skin is decorated with numerous intricate tattoos.*",
 			"",
-			"::mh[Jungle Giant]{cr=\"10\"}",
+			"::mh[Jungle Giant]{cr=10}",
 			"",
 			"{SOURCE Bestiary 3/129}  ",
 			"**XP** 9,600  ",
@@ -1589,7 +1594,7 @@
 		"description": [
 			"*Cold, black eyes stare out from the fish-like face of this hideous green-skinned, web-fingered, and obese giant.*",
 			"",
-			"::mh[Marsh Giant]{cr=\"8\"}",
+			"::mh[Marsh Giant]{cr=8}",
 			"",
 			"{SOURCE Bestiary 2/129;Pathfinder #5: Sins of the Saviors/82}  ",
 			"**XP** 4,800  ",
@@ -1647,7 +1652,7 @@
 		"description": [
 			"*This giant's gray skin sparkles as if with reflected light and is pocked with what look like impact craters on its rock-like surface.*",
 			"",
-			"::mh[Moon Giant]{cr=\"15\"}",
+			"::mh[Moon Giant]{cr=15}",
 			"",
 			"{SOURCE Bestiary 5/122}  ",
 			"**XP** 51,200  ",
@@ -1717,7 +1722,7 @@
 		"description": [
 			"*This giant wears bloodstained leather clothes, including a ragged leather mask. His flesh, where visible, is gray and warty.*",
 			"",
-			"::mh[Mountain Giant]{cr=\"18\"}",
+			"::mh[Mountain Giant]{cr=18}",
 			"",
 			"{SOURCE Bestiary 6/133}  ",
 			"**XP** 153,600  ",
@@ -1779,7 +1784,7 @@
 		"description": [
 			"*This blue-skinned giant's clothing and beard whip about like sails caught in a storm.*",
 			"",
-			"::mh[Ocean Giant]{cr=\"14\"}",
+			"::mh[Ocean Giant]{cr=14}",
 			"",
 			"{SOURCE Bestiary 4/127}  ",
 			"**XP** 38,400  ",
@@ -1843,7 +1848,7 @@
 		"description": [
 			"*This oversized humanoid is dressed in tattered rags that don't quite cover its diseased body.*",
 			"",
-			"::mh[Plague Giant]{cr=\"14\"}",
+			"::mh[Plague Giant]{cr=14}",
 			"",
 			"{SOURCE Bestiary 6/134}  ",
 			"**XP** 38,400  ",
@@ -1906,7 +1911,7 @@
 		"description": [
 			"*This slender giant dresses in simple clothes and has swirling patterns on her green skin.*",
 			"",
-			"::mh[River Giant]{cr=\"6\"}",
+			"::mh[River Giant]{cr=6}",
 			"",
 			"{SOURCE Bestiary 4/128}  ",
 			"**XP** 2,400  ",
@@ -1967,7 +1972,7 @@
 		"description": [
 			"*This giant's skin is black and pitted, like roughly cast iron, and etched with glowing red runes.*",
 			"",
-			"::mh[Rune Giant]{cr=\"17\"}",
+			"::mh[Rune Giant]{cr=17}",
 			"",
 			"{SOURCE Bestiary 2/130;Pathfinder #6: Spires of Xin-Shalast/86}  ",
 			"**XP** 102,400  ",
@@ -2034,7 +2039,7 @@
 		"description": [
 			"*This giant's skin is dead black, and it wears a gold-inlaid breastplate, a headdress, and armbands decorated with skulls.*",
 			"",
-			"::mh[Shadow Giant]{cr=\"13\"}",
+			"::mh[Shadow Giant]{cr=13}",
 			"",
 			"{SOURCE Inner Sea Bestiary/15;Bestiary 6/135}  ",
 			"**XP** 25,600  ",
@@ -2092,7 +2097,7 @@
 		"description": [
 			"*Soot, ash, and coal dust streak this giant's rust-colored skin. Her eyes hold a look of both determination and detachment.*",
 			"",
-			"::mh[Slag Giant]{cr=\"7\"}",
+			"::mh[Slag Giant]{cr=7}",
 			"",
 			"{SOURCE Bestiary 4/129}  ",
 			"**XP** 3,200  ",
@@ -2150,7 +2155,7 @@
 		"description": [
 			"*This giant has chiseled, muscular features and a flat, forward-sloping head, looking almost as if it were carved of stone.*",
 			"",
-			"::mh[Stone Giant]{cr=\"8\"}",
+			"::mh[Stone Giant]{cr=8}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/151}  ",
 			"**XP** 4,800  ",
@@ -2211,7 +2216,7 @@
 		"description": [
 			"*This giant is a towering, muscular human of heroic proportions, with bronze skin, dark hair, and sparkling green eyes.*",
 			"",
-			"::mh[Storm Giant]{cr=\"13\"}",
+			"::mh[Storm Giant]{cr=13}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/152}  ",
 			"**XP** 25,600  ",
@@ -2274,7 +2279,7 @@
 		"description": [
 			"*This giant has the arms and armor of an ancient warrior. Her golden skin and flame-colored hair amplify the light around her.*",
 			"",
-			"::mh[Sun Giant]{cr=\"16\"}",
+			"::mh[Sun Giant]{cr=16}",
 			"",
 			"{SOURCE Bestiary 5/123}  ",
 			"**XP** 76,800  ",
@@ -2341,7 +2346,7 @@
 		"description": [
 			"*This muscular giant has dark gray skin and fiery red hair. Its lower jaw bears sharp fangs, and it wields a huge, primitive spear.*",
 			"",
-			"::mh[Taiga Giant]{cr=\"12\"}",
+			"::mh[Taiga Giant]{cr=12}",
 			"",
 			"{SOURCE Bestiary 2/131;Pathfinder #4: Fortress of the Stone Giants/84}  ",
 			"**XP** 19,200  ",
@@ -2404,7 +2409,7 @@
 		"description": [
 			"*This towering, lean figure is hairless and has smooth, milky white skin. A scythe gleams in her hands.*",
 			"",
-			"::mh[Tomb Giant]{cr=\"12\"}",
+			"::mh[Tomb Giant]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #94: Ice Tomb of the Giant Queen/84;Bestiary 6/136}  ",
 			"**XP** 19,200  ",
@@ -2485,7 +2490,7 @@
 		"description": [
 			"*This saurian giant's body is covered in pale aquamarine scales, and a dark, rigid crest runs from its head to the tip of its thick tail. Its blue eyes give off a soft glow.*",
 			"",
-			"::mh[Vault Giant]{cr=\"17\"}",
+			"::mh[Vault Giant]{cr=17}",
 			"",
 			"{SOURCE Pathfinder #120: Vault of the Onyx Citadel/84}  ",
 			"**XP** 102,400  ",
@@ -2561,7 +2566,7 @@
 		"description": [
 			"*Standing tall and graceful, this sharp-eared giant's skin is pale. Its large brow gives it a somewhat primitive visage.*",
 			"",
-			"::mh[Wood Giant]{cr=\"6\"}",
+			"::mh[Wood Giant]{cr=6}",
 			"",
 			"{SOURCE Bestiary 2/132}  ",
 			"**XP** 2,400  ",
@@ -2619,7 +2624,7 @@
 		"description": [
 			"*This creature stands nearly twice as tall as a human, although its lower torso trails away into a vortex of mist and wind.*",
 			"",
-			"::mh[Djinni]{cr=\"5\"}",
+			"::mh[Djinni]{cr=5}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/139}  ",
 			"**XP** 1,600  ",
@@ -2683,7 +2688,7 @@
 		"description": [
 			"*This muscular giant has crimson skin, smoldering eyes, and small black horns. Smoke rises in curls from its flesh.*",
 			"",
-			"::mh[Efreeti]{cr=\"8\"}",
+			"::mh[Efreeti]{cr=8}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/140}  ",
 			"**XP** 4,800  ",
@@ -2751,7 +2756,7 @@
 		"description": [
 			"*This regal figure looks like a tall, well-proportioned human, save that its eyes sparkle with strange light.*",
 			"",
-			"::mh[Janni]{cr=\"4\"}",
+			"::mh[Janni]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/141}  ",
 			"**XP** 1,200  ",
@@ -2820,7 +2825,7 @@
 		"description": [
 			"*This being resembles a powerful giant with hairless blue-green skin, deep blue eyes, flamboyant eyebrows, and pearlescent teeth.*",
 			"",
-			"::mh[Marid]{cr=\"9\"}",
+			"::mh[Marid]{cr=9}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/142}  ",
 			"**XP** 6,400  ",
@@ -2893,7 +2898,7 @@
 		"description": [
 			"*This being resembles a towering human with skin of polished stone and glittering agate eyes.*",
 			"",
-			"::mh[Shaitan]{cr=\"7\"}",
+			"::mh[Shaitan]{cr=7}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/143;Pathfinder #18: Descent into Midnight/86}  ",
 			"**XP** 3,200  ",
@@ -2961,7 +2966,7 @@
 		"description": [
 			"*This magnificent creature seems to be a horse, but the sparkle in its eyes reveals its supernatural origins.*",
 			"",
-			"::mh[Genie-Touched Horse]{cr=\"6\"}",
+			"::mh[Genie-Touched Horse]{cr=6}",
 			"",
 			"{SOURCE Qadira, Jewel of the East/60}  ",
 			"**XP** 2,400  ",
@@ -3071,7 +3076,7 @@
 		"description": [
 			"*Seemingly carved from a dark gray stone, this sinister crouching humanoid resembles a horned, winged demon.*",
 			"",
-			"::mh[Gargoyle]{cr=\"4\"}",
+			"::mh[Gargoyle]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/137}  ",
 			"**XP** 1,200  ",
@@ -3126,7 +3131,7 @@
 		"description": [
 			"*The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour innocent passersby. Then it moves - to do just that.*",
 			"",
-			"::mh[Four-Armed Gargoyle]{cr=\"9\"}",
+			"::mh[Four-Armed Gargoyle]{cr=9}",
 			"",
 			"{SOURCE Pathfinder #48: Shadows of Gallowspire/84}  ",
 			"**XP** 6,400  ",
@@ -3179,7 +3184,7 @@
 		"description": [
 			"*The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour innocent passersby. Then it moves - to do just that.*",
 			"",
-			"::mh[Gargoyle Abductor]{cr=\"10\"}",
+			"::mh[Gargoyle Abductor]{cr=10}",
 			"",
 			"{SOURCE Pathfinder #48: Shadows of Gallowspire/84}  ",
 			"**XP** 9,600  ",
@@ -3233,7 +3238,7 @@
 		"description": [
 			"*The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour innocent passersby. Then it moves - to do just that.*",
 			"",
-			"::mh[Gargoyle Guardian]{cr=\"8\"}",
+			"::mh[Gargoyle Guardian]{cr=8}",
 			"",
 			"{SOURCE Pathfinder #48: Shadows of Gallowspire/84}  ",
 			"**XP** 4,800  ",
@@ -3298,7 +3303,7 @@
 		"description": [
 			"*The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour innocent passersby. Then it moves - to do just that.*",
 			"",
-			"::mh[Kapoacinth Hunter]{cr=\"7\"}",
+			"::mh[Kapoacinth Hunter]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #48: Shadows of Gallowspire/84}  ",
 			"**XP** 3,200  ",
@@ -3350,7 +3355,7 @@
 		"description": [
 			"*This long, lean fish has a muscular body and a head with long jaws filled with sharp teeth.*",
 			"",
-			"::mh[Gar]{cr=\"1\"}",
+			"::mh[Gar]{cr=1}",
 			"",
 			"{SOURCE Bestiary 2/128}  ",
 			"**XP** 400  ",
@@ -3392,7 +3397,7 @@
 		"description": [
 			"*This fish is enormous - a sleek predator with bony scales and a long set of toothy jaws.*",
 			"",
-			"::mh[Giant Gar]{cr=\"6\"}",
+			"::mh[Giant Gar]{cr=6}",
 			"",
 			"{SOURCE Bestiary 2/128}  ",
 			"**XP** 2,400  ",
@@ -3578,7 +3583,7 @@
 		"description": [
 			"*This vaguely humanoid creature is about the size of a cat but looks more like a toothy, winged devil.*",
 			"",
-			"::mh[Homunculus]{cr=\"1\"}",
+			"::mh[Homunculus]{cr=1}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/176}  ",
 			"**XP** 400  ",
@@ -3642,7 +3647,7 @@
 		"description": [
 			"*This creature resembles a mummified humanoid swathed in filthy, sallow rags. Its stooped posture and ragged coverings make its height hard to judge. Its arms appear abnormally long, or perhaps dislocated and hanging freely. A hood of the same jaundiced fabric obscures its face.*",
 			"",
-			"::mh[Hooded Harbinger]{cr=\"12\"}",
+			"::mh[Hooded Harbinger]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #112: The Whisper Out of Time/88}  ",
 			"**XP** 19,200  ",
@@ -3715,7 +3720,7 @@
 		"description": [
 			"*This enormous, horrifically bloated fly has a proboscis shaped like a serrated hook. Its many-faceted eyes smolder like hot coals.*",
 			"",
-			"::mh[Giant Hook Fly]{cr=\"2\"}",
+			"::mh[Giant Hook Fly]{cr=2}",
 			"",
 			"{SOURCE Gallows of Madness/60}  ",
 			"**XP** 600  ",
@@ -3781,7 +3786,7 @@
 		"description": [
 			"*The tiny, buzzing insects that make up this cloud have distinctive bloated bodies and sharp, if miniscule, proboscises.*",
 			"",
-			"::mh[Hook Fly Swarm]{cr=\"1\"}",
+			"::mh[Hook Fly Swarm]{cr=1}",
 			"",
 			"{SOURCE Gallows of Madness/60}  ",
 			"**XP** 400  ",
@@ -3847,7 +3852,7 @@
 		"description": [
 			"*This long, orange, segmented worm's colorful head unfolds like a horrific flower to reveal five large, black, hook-like teeth.*",
 			"",
-			"::mh[Hookfang Worm]{cr=\"7\"}",
+			"::mh[Hookfang Worm]{cr=7}",
 			"",
 			"{SOURCE Bestiary 6/249}  ",
 			"**XP** 3,200  ",
@@ -3898,7 +3903,7 @@
 		"description": [
 			"*Depression and ennui accompany a barely perceptible sensation of something cold and smooth brushing against the skin.*",
 			"",
-			"::mh[Horla]{cr=\"8\"}",
+			"::mh[Horla]{cr=8}",
 			"",
 			"{SOURCE Bestiary 6/158}  ",
 			"**XP** 4,800  ",
@@ -3958,7 +3963,7 @@
 		"description": [
 			"*This proud horse thunders across the grassy plain with fluid grace, wind tugging at its loose-fitting barding.*",
 			"",
-			"::mh[Horse]{cr=\"1\"}",
+			"::mh[Horse]{cr=1}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/177}  ",
 			"**XP** 400  ",
@@ -4066,7 +4071,7 @@
 		"description": [
 			"*This massive horror looks like a shark protected by a crab carapace, with a tail, flanks, and pectoral fins covered in cruel hooks.*",
 			"",
-			"::mh[Isonade]{cr=\"15\"}",
+			"::mh[Isonade]{cr=15}",
 			"",
 			"{SOURCE Bestiary 5/147}  ",
 			"**XP** 51,200  ",
@@ -4122,7 +4127,7 @@
 		"description": [
 			"*A cyclopean face stretches grotesquely across the hub of a tall, knobby wheel of bone.*",
 			"",
-			"::mh[Ixion Worm]{cr=\"13\"}",
+			"::mh[Ixion Worm]{cr=13}",
 			"",
 			"{SOURCE Pathfinder #106: For Queen and Empire/90}  ",
 			"**XP** 25,600  ",

@@ -3,7 +3,7 @@
 		"name": "Arcane Experimenter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Arcane Experimenter]{cr=\"13\"}",
+			"::mh[Arcane Experimenter]{cr=13}",
 			"",
 			"{SOURCE NPC Codex/19}  ",
 			"**XP** 25,600  ",
@@ -60,7 +60,7 @@
 		"name": "Arcane Pretender",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Arcane Pretender]{cr=\"13\"}",
+			"::mh[Arcane Pretender]{cr=13}",
 			"",
 			"{SOURCE NPC Codex/89}  ",
 			"**XP** 25,600  ",
@@ -114,7 +114,7 @@
 		"name": "Aspis Consortium Commander",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Aspis Consortium Commander]{cr=\"13\"}",
+			"::mh[Aspis Consortium Commander]{cr=13}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/8}  ",
 			"**XP** 25,600  ",
@@ -163,7 +163,7 @@
 		"name": "Chain Mauler",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Chain Mauler]{cr=\"13\"}",
+			"::mh[Chain Mauler]{cr=13}",
 			"",
 			"{SOURCE NPC Codex/153}  ",
 			"**XP** 25,600  ",
@@ -214,7 +214,7 @@
 		"name": "Desert Stalker",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Desert Stalker]{cr=\"13\"}",
+			"::mh[Desert Stalker]{cr=13}",
 			"",
 			"{SOURCE NPC Codex/137}  ",
 			"**XP** 25,600  ",
@@ -274,7 +274,7 @@
 		"name": "Fury of Flame",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Fury of Flame]{cr=\"13\"}",
+			"::mh[Fury of Flame]{cr=13}",
 			"",
 			"{SOURCE NPC Codex/73}  ",
 			"**XP** 25,600  ",
@@ -343,7 +343,7 @@
 		"name": "Ice Mage",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Ice Mage]{cr=\"13\"}",
+			"::mh[Ice Mage]{cr=13}",
 			"",
 			"{SOURCE NPC Codex/171}  ",
 			"**XP** 25,600  ",
@@ -406,7 +406,7 @@
 		"name": "Little Fist",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Little Fist]{cr=\"13\"}",
+			"::mh[Little Fist]{cr=13}",
 			"",
 			"{SOURCE NPC Codex/105}  ",
 			"**XP** 25,600  ",
@@ -460,7 +460,7 @@
 		"name": "Mage Sniper",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mage Sniper]{cr=\"13\"}",
+			"::mh[Mage Sniper]{cr=13}",
 			"",
 			"{SOURCE NPC Codex/189}  ",
 			"**XP** 25,600  ",
@@ -528,7 +528,7 @@
 		"name": "Numerian Ascetic",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Numerian Ascetic]{cr=\"13\"}",
+			"::mh[Numerian Ascetic]{cr=13}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/40}  ",
 			"**XP** 25,600  ",
@@ -579,7 +579,7 @@
 		"name": "Pathfinder Venture-Captain",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Pathfinder Venture-Captain]{cr=\"13\"}",
+			"::mh[Pathfinder Venture-Captain]{cr=13}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/43}  ",
 			"**XP** 25,600  ",
@@ -632,7 +632,7 @@
 		"name": "Red Mantis Assassin",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Red Mantis Assassin]{cr=\"13\"}",
+			"::mh[Red Mantis Assassin]{cr=13}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/47}  ",
 			"**XP** 25,600  ",
@@ -679,7 +679,7 @@
 		"name": "Rider of the Steppe",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Rider of the Steppe]{cr=\"13\"}",
+			"::mh[Rider of the Steppe]{cr=13}",
 			"",
 			"{SOURCE NPC Codex/121}  ",
 			"**XP** 25,600  ",
@@ -739,7 +739,7 @@
 		"name": "Sacred Guardian",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Sacred Guardian]{cr=\"13\"}",
+			"::mh[Sacred Guardian]{cr=13}",
 			"",
 			"{SOURCE NPC Codex/55}  ",
 			"**XP** 25,600  ",
@@ -808,7 +808,7 @@
 		"name": "Tunnel Drummer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Tunnel Drummer]{cr=\"13\"}",
+			"::mh[Tunnel Drummer]{cr=13}",
 			"",
 			"{SOURCE NPC Codex/37}  ",
 			"**XP** 25,600  ",
@@ -872,7 +872,7 @@
 		"name": "Ageless Master",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Ageless Master]{cr=\"19\"}",
+			"::mh[Ageless Master]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/111}  ",
 			"**XP** 204,800  ",
@@ -923,7 +923,7 @@
 		"name": "Arisen Sorcerer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Arisen Sorcerer]{cr=\"19\"}",
+			"::mh[Arisen Sorcerer]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/177}  ",
 			"**XP** 204,800  ",
@@ -980,7 +980,7 @@
 		"name": "Battle Skald",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Battle Skald]{cr=\"19\"}",
+			"::mh[Battle Skald]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/235}  ",
 			"**XP** 204,800  ",
@@ -1038,7 +1038,7 @@
 		"name": "Blade Lord",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Blade Lord]{cr=\"19\"}",
+			"::mh[Blade Lord]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/159}  ",
 			"**XP** 204,800  ",
@@ -1089,7 +1089,7 @@
 		"name": "Chaos Arrow",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Chaos Arrow]{cr=\"19\"}",
+			"::mh[Chaos Arrow]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/203}  ",
 			"**XP** 204,800  ",
@@ -1156,7 +1156,7 @@
 		"name": "Darkstar",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Darkstar]{cr=\"19\"}",
+			"::mh[Darkstar]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/239}  ",
 			"**XP** 204,800  ",
@@ -1213,7 +1213,7 @@
 		"name": "Demon Hunter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Demon Hunter]{cr=\"19\"}",
+			"::mh[Demon Hunter]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/127}  ",
 			"**XP** 204,800  ",
@@ -1268,7 +1268,7 @@
 		"name": "Demonologist",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Demonologist]{cr=\"19\"}",
+			"::mh[Demonologist]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/227}  ",
 			"**XP** 204,800  ",
@@ -1326,7 +1326,7 @@
 		"name": "Doomsayer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Doomsayer]{cr=\"19\"}",
+			"::mh[Doomsayer]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/43}  ",
 			"**XP** 204,800  ",
@@ -1385,7 +1385,7 @@
 		"name": "Earthfather",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Earthfather]{cr=\"19\"}",
+			"::mh[Earthfather]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/79}  ",
 			"**XP** 204,800  ",
@@ -1447,7 +1447,7 @@
 		"name": "Fatal Axe",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Fatal Axe]{cr=\"19\"}",
+			"::mh[Fatal Axe]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/211}  ",
 			"**XP** 204,800  ",
@@ -1501,7 +1501,7 @@
 		"name": "Fire Diabolist",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Fire Diabolist]{cr=\"19\"}",
+			"::mh[Fire Diabolist]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/61}  ",
 			"**XP** 204,800  ",
@@ -1565,7 +1565,7 @@
 		"name": "God Stealer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[God Stealer]{cr=\"19\"}",
+			"::mh[God Stealer]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/207}  ",
 			"**XP** 204,800  ",
@@ -1630,7 +1630,7 @@
 		"name": "Holy Battle Mage",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Holy Battle Mage]{cr=\"19\"}",
+			"::mh[Holy Battle Mage]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/231}  ",
 			"**XP** 204,800  ",
@@ -1701,7 +1701,7 @@
 		"name": "Ice Maiden",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Ice Maiden]{cr=\"19\"}",
+			"::mh[Ice Maiden]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/215}  ",
 			"**XP** 204,800  ",
@@ -1768,7 +1768,7 @@
 		"name": "Infernal Champion",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Infernal Champion]{cr=\"19\"}",
+			"::mh[Infernal Champion]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/95}  ",
 			"**XP** 204,800  ",
@@ -1811,7 +1811,7 @@
 		"name": "Master Duelist",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Master Duelist]{cr=\"19\"}",
+			"::mh[Master Duelist]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/219}  ",
 			"**XP** 204,800  ",
@@ -1867,7 +1867,7 @@
 		"name": "Master Universalist",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Master Universalist]{cr=\"19\"}",
+			"::mh[Master Universalist]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/195}  ",
 			"**XP** 204,800  ",
@@ -1924,7 +1924,7 @@
 		"name": "Mithral Wizard",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mithral Wizard]{cr=\"19\"}",
+			"::mh[Mithral Wizard]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/221}  ",
 			"**XP** 204,800  ",
@@ -1985,7 +1985,7 @@
 		"name": "Scarred Wanderer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Scarred Wanderer]{cr=\"19\"}",
+			"::mh[Scarred Wanderer]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/25}  ",
 			"**XP** 204,800  ",
@@ -2038,7 +2038,7 @@
 		"name": "Supreme Hunter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Supreme Hunter]{cr=\"19\"}",
+			"::mh[Supreme Hunter]{cr=19}",
 			"",
 			"{SOURCE NPC Codex/143}  ",
 			"**XP** 204,800  ",

@@ -8,7 +8,7 @@
 		"description": [
 			"*This green-skinned fey has webbed hands and feet. Its hair is the color of seaweed, and is decorated with shells.*",
 			"",
-			"::mh[Nixie]{cr=\"1\"}",
+			"::mh[Nixie]{cr=1}",
 			"",
 			"{SOURCE Bestiary 3/201;Bonus Bestiary/15}  ",
 			"**XP** 400  ",
@@ -75,7 +75,7 @@
 		"description": [
 			"*This gaunt, clawed faerie creature wears simple, homespun clothing and a malicious grin. Its oversized ears stick out from the sides of its head, and it wears its long earlobes like a scarf.*",
 			"",
-			"::mh[Nochlean]{cr=\"3\"}",
+			"::mh[Nochlean]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #133: Secrets of Roderic's Cove/84}  ",
 			"**XP** 800  ",
@@ -154,7 +154,7 @@
 		"description": [
 			"*This towering, stern woman wears her long blonde hair in braids. She carries a reel of golden thread and a pair of shears.*",
 			"",
-			"::mh[Norn]{cr=\"18\"}",
+			"::mh[Norn]{cr=18}",
 			"",
 			"{SOURCE Bestiary 3/202}  ",
 			"**XP** 153,600  ",
@@ -222,7 +222,7 @@
 		"description": [
 			"*This skinless creature resembles a horse and its humanoid rider, fused into a single hideous being of rage and sickness.*",
 			"",
-			"::mh[Nuckelavee]{cr=\"9\"}",
+			"::mh[Nuckelavee]{cr=9}",
 			"",
 			"{SOURCE Bestiary 3/203;Pathfinder #34: Blood for Blood/88}  ",
 			"**XP** 6,400  ",
@@ -282,7 +282,7 @@
 		"description": [
 			"*Materializing out of a noxious black cloud, this beast has the head of a fanged monkey and the body of a tiger with a viper as a tail.*",
 			"",
-			"::mh[Nue]{cr=\"10\"}",
+			"::mh[Nue]{cr=10}",
 			"",
 			"{SOURCE Bestiary 3/204}  ",
 			"**XP** 9,600  ",
@@ -345,7 +345,7 @@
 		"description": [
 			"*This eerie creature resembles a human with oddly segmented limbs, waxen skin, and doll-like eyes.*",
 			"",
-			"::mh[Nukkefeen]{cr=\"1\"}",
+			"::mh[Nukkefeen]{cr=1}",
 			"",
 			"{SOURCE Gallows of Madness/63}  ",
 			"**XP** 400  ",
@@ -404,7 +404,7 @@
 		"description": [
 			"*This thick ribbon of fungus somewhat resembles a caterpillar. Its folds pulse with an eerie, golden incandescence.*",
 			"",
-			"::mh[Nulmind]{cr=\"11\"}",
+			"::mh[Nulmind]{cr=11}",
 			"",
 			"{SOURCE Bestiary 5/184}  ",
 			"**XP** 12,800  ",
@@ -469,7 +469,7 @@
 		"description": [
 			"*This cruel-looking serpent is about the size of a housecat, with two forearms and dangerous-looking fangs.*",
 			"",
-			"::mh[Nycar]{cr=\"2\"}",
+			"::mh[Nycar]{cr=2}",
 			"",
 			"{SOURCE Bestiary 4/207}  ",
 			"**XP** 600  ",
@@ -528,7 +528,7 @@
 		"description": [
 			"*A delicate figure rises from the water, her long ears tapering to points above her head, her beauty painful in its perfection.*",
 			"",
-			"::mh[Nymph]{cr=\"7\"}",
+			"::mh[Nymph]{cr=7}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/217}  ",
 			"**XP** 3,200  ",
@@ -597,7 +597,7 @@
 		"description": [
 			"*This spectral creature looks like a scarred and shriveled ruin of an ancient tribal elder, with skin caked with dirt and moss, and long white hair tangled with sticks. Sharp teeth fill its cackling mouth, and its eyes are tiny but bright and piercing. Jungle vines weave through its ghostly body, which appears stuffed with decaying leaves and other plant matter.*",
 			"",
-			"::mh[Obambo]{cr=\"13\"}",
+			"::mh[Obambo]{cr=13}",
 			"",
 			"{SOURCE Pathfinder #40: Vaults of Madness/82}  ",
 			"**XP** 25,600  ",
@@ -661,7 +661,7 @@
 		"description": [
 			"*A single sinister eye glares from the heart of this roiling cloud of darkness as tentacles of smoke coil and writhe beneath it.*",
 			"",
-			"::mh[Oblivion]{cr=\"20\"}",
+			"::mh[Oblivion]{cr=20}",
 			"",
 			"{SOURCE Bestiary 6/202}  ",
 			"**XP** 307,200  ",
@@ -740,7 +740,7 @@
 		"description": [
 			"*Bundles of viscera hang from the hundreds of levitating eyes in this mass. Jagged teeth protrude from each eyelid, forming makeshift fanged maws.*",
 			"",
-			"::mh[Occulari]{cr=\"7\"}",
+			"::mh[Occulari]{cr=7}",
 			"",
 			"{SOURCE Down the Blighted Path/57}  ",
 			"**XP** 3,200  ",
@@ -798,7 +798,7 @@
 		"description": [
 			"*This beautiful woman is clad only in sea foam and her long, white hair, which cascades over her body.*",
 			"",
-			"::mh[Oceanid]{cr=\"7\"}",
+			"::mh[Oceanid]{cr=7}",
 			"",
 			"{SOURCE Bestiary 4/208}  ",
 			"**XP** 3,200  ",
@@ -865,7 +865,7 @@
 		"description": [
 			"*This yellow-orange amoeboid creature slithers across the ground, pseudopods grasping ahead of its slow approach.*",
 			"",
-			"::mh[Ochre Jelly]{cr=\"5\"}",
+			"::mh[Ochre Jelly]{cr=5}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/218}  ",
 			"**XP** 1,600  ",
@@ -923,7 +923,7 @@
 		"description": [
 			"*Eight tentacles, each adorned with rows of countless suckers, unfurl from the barrel-shaped body of this large-eyed creature.*",
 			"",
-			"::mh[Octopus]{cr=\"1\"}",
+			"::mh[Octopus]{cr=1}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/219}  ",
 			"**XP** 400  ",
@@ -976,7 +976,7 @@
 		"description": [
 			"*A storm of tentacles, each twenty feet in length, flails with deadly precision from the leathery body of this gigantic octopus.*",
 			"",
-			"::mh[Giant Octopus]{cr=\"8\"}",
+			"::mh[Giant Octopus]{cr=8}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/219}  ",
 			"**XP** 4,800  ",
@@ -1031,7 +1031,7 @@
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
 			"",
-			"::mh[Ogre]{cr=\"3\"}",
+			"::mh[Ogre]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/220}  ",
 			"**XP** 800  ",
@@ -1137,7 +1137,7 @@
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
 			"",
-			"::mh[Ogre Boss]{cr=\"7\"}",
+			"::mh[Ogre Boss]{cr=7}",
 			"",
 			"{SOURCE Monster Codex/155}  ",
 			"**XP** 3,200  ",
@@ -1189,7 +1189,7 @@
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
 			"",
-			"::mh[Ogre Brute]{cr=\"6\"}",
+			"::mh[Ogre Brute]{cr=6}",
 			"",
 			"{SOURCE Monster Codex/155}  ",
 			"**XP** 2,400  ",
@@ -1240,7 +1240,7 @@
 		"name": "Ogre Destroyer",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Ogre Destroyer]{cr=\"10\"}",
+			"::mh[Ogre Destroyer]{cr=10}",
 			"",
 			"{SOURCE Monster Codex/158}  ",
 			"**XP** 9,600  ",
@@ -1313,7 +1313,7 @@
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
 			"",
-			"::mh[Ogre Glutton]{cr=\"11\"}",
+			"::mh[Ogre Glutton]{cr=11}",
 			"",
 			"{SOURCE Monster Codex/156}  ",
 			"**XP** 12,800  ",
@@ -1363,7 +1363,7 @@
 		"name": "Ogre Hunter",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Ogre Hunter]{cr=\"9\"}",
+			"::mh[Ogre Hunter]{cr=9}",
 			"",
 			"{SOURCE Monster Codex/157}  ",
 			"**XP** 6,400  ",
@@ -1440,7 +1440,7 @@
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
 			"",
-			"::mh[Ogre King]{cr=\"13\"}",
+			"::mh[Ogre King]{cr=13}",
 			"",
 			"{SOURCE Monster Codex/159}  ",
 			"**XP** 25,600  ",
@@ -1502,7 +1502,7 @@
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
 			"",
-			"::mh[Ogre Mancatcher]{cr=\"8\"}",
+			"::mh[Ogre Mancatcher]{cr=8}",
 			"",
 			"{SOURCE Monster Codex/156}  ",
 			"**XP** 4,800  ",
@@ -1551,7 +1551,7 @@
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
 			"",
-			"::mh[Ogre Priest]{cr=\"4\"}",
+			"::mh[Ogre Priest]{cr=4}",
 			"",
 			"{SOURCE Monster Codex/154}  ",
 			"**XP** 1,200  ",
@@ -1606,7 +1606,7 @@
 		"description": [
 			"*This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth.*",
 			"",
-			"::mh[Ogre Stalker]{cr=\"4\"}",
+			"::mh[Ogre Stalker]{cr=4}",
 			"",
 			"{SOURCE Monster Codex/154}  ",
 			"**XP** 1,200  ",
@@ -1655,7 +1655,7 @@
 		"description": [
 			"*This brutish, one-eyed giant carries a large, well-made axe and wears a simple tunic. He has a head of shaggy hair, and the lower half of his face is obscured by a bristly, dark beard.*",
 			"",
-			"::mh[Ohancanu]{cr=\"5\"}",
+			"::mh[Ohancanu]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #116: Fangs of War/88}  ",
 			"**XP** 1,600  ",
@@ -1738,7 +1738,7 @@
 		"description": [
 			"*This whale-like creature floats ponderously, arcs of brilliant energy filling its mouth and rolling down its body.*",
 			"",
-			"::mh[Oma]{cr=\"16\"}",
+			"::mh[Oma]{cr=16}",
 			"",
 			"{SOURCE Bestiary 4/209;Distant Worlds/62}  ",
 			"**XP** 76,800  ",
@@ -1794,7 +1794,7 @@
 		"description": [
 			"*This vague, humanoid figure seems to be the source of a bank of unnaturally colored fog.*",
 			"",
-			"::mh[Oneirogen]{cr=\"2\"}",
+			"::mh[Oneirogen]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #109: In Search of Sanity/88}  ",
 			"**XP** 600  ",
@@ -1876,7 +1876,7 @@
 		"description": [
 			"*This large humanoid creature has two heads, one brutish-looking, the other with three eyes and gems and tattoos decorating its forehead.*",
 			"",
-			"::mh[Atamahuta]{cr=\"11\"}",
+			"::mh[Atamahuta]{cr=11}",
 			"",
 			"{SOURCE Pathfinder #51: The Hungry Storm/86}  ",
 			"**XP** 12,800  ",
@@ -1952,7 +1952,7 @@
 		"description": [
 			"*Jagged cracks and pebbled growths mar the surface of this three-eyed giant's rocky skin, making it appear to have burst forth from rugged stone.*",
 			"",
-			"::mh[Earth Yai]{cr=\"13\"}",
+			"::mh[Earth Yai]{cr=13}",
 			"",
 			"{SOURCE Pathfinder #53: Tide of Honor/88}  ",
 			"**XP** 25,600  ",
@@ -2036,7 +2036,7 @@
 		"description": [
 			"*This fanged, three-eyed giant rages in its finely crafted armor, its skin as red as a smoldering ember.*",
 			"",
-			"::mh[Fire Yai]{cr=\"15\"}",
+			"::mh[Fire Yai]{cr=15}",
 			"",
 			"{SOURCE Bestiary 3/206}  ",
 			"**XP** 51,200  ",
@@ -2103,7 +2103,7 @@
 		"description": [
 			"*This blue-skinned giant has three eyes, fangs, and claws. Its hair seems to be formed of delicate strands of ice.*",
 			"",
-			"::mh[Ice Yai]{cr=\"14\"}",
+			"::mh[Ice Yai]{cr=14}",
 			"",
 			"{SOURCE Bestiary 3/207}  ",
 			"**XP** 38,400  ",
@@ -2168,7 +2168,7 @@
 		"description": [
 			"*This hunchbacked, fiery-skinned humanoid possesses black eyes beneath the bony ridges of its brow, wears elaborate heavy armor, and wields an ornate metal club.*",
 			"",
-			"::mh[Ja Noi]{cr=\"5\"}",
+			"::mh[Ja Noi]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #52: Forest of Spirits/90}  ",
 			"**XP** 1,600  ",
@@ -2243,7 +2243,7 @@
 		"description": [
 			"*This humanoid has the lower body of a giant seahorse and a round, colorful face dominated by wide, staring eyes and hideous fangs.*",
 			"",
-			"::mh[Kigyo]{cr=\"6\"}",
+			"::mh[Kigyo]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #124: City in the Deep/90}  ",
 			"**XP** 2,400  ",
@@ -2319,7 +2319,7 @@
 		"description": [
 			"*This golden-skinned fiend has horns, fangs, and bulging eyes. It grips a spiked club in its four-fingered claws.*",
 			"",
-			"::mh[Kuwa]{cr=\"4\"}",
+			"::mh[Kuwa]{cr=4}",
 			"",
 			"{SOURCE Bestiary 3/208}  ",
 			"**XP** 1,200  ",
@@ -2375,7 +2375,7 @@
 		"description": [
 			"*This scaly-skinned humanoid has long venomous fangs, claws, and unblinking reptilian eyes.*",
 			"",
-			"::mh[Najikai]{cr=\"8\"}",
+			"::mh[Najikai]{cr=8}",
 			"",
 			"{SOURCE Book of the Damned/250}  ",
 			"**XP** 4,800  ",
@@ -2439,7 +2439,7 @@
 		"description": [
 			"*This fox-headed humanoid has a sleek, feminine form that moves with seductive grace. As she steps into a defensive posture, a mass of bushy tails flicks at the air above her back and she reveals teeth flecked with blood.*",
 			"",
-			"::mh[Nogitsune]{cr=\"7\"}",
+			"::mh[Nogitsune]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #50: Night of Frozen Shadows/86}  ",
 			"**XP** 3,200  ",
@@ -2517,7 +2517,7 @@
 		"description": [
 			"*Clad in beautiful armor, this exotically garbed giant roars, its tusks glistening and its eyes afire with murderous intent.*",
 			"",
-			"::mh[Ogre Mage]{cr=\"8\"}",
+			"::mh[Ogre Mage]{cr=8}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/221}  ",
 			"**XP** 4,800  ",
@@ -2571,7 +2571,7 @@
 		"description": [
 			"*This evil-looking animated mask shows the face of a horned fiend, its eyes popping and its leering smile full of fangs.*",
 			"",
-			"::mh[Spirit Oni]{cr=\"2\"}",
+			"::mh[Spirit Oni]{cr=2}",
 			"",
 			"{SOURCE Bestiary 3/209}  ",
 			"**XP** 600  ",
@@ -2637,7 +2637,7 @@
 		"description": [
 			"*This towering, three-eyed horned giant carries himself with the self-assurance of an undefeated champion of countless wars.*",
 			"",
-			"::mh[Void Yai]{cr=\"20\"}",
+			"::mh[Void Yai]{cr=20}",
 			"",
 			"{SOURCE Bestiary 3/210}  ",
 			"**XP** 307,200  ",
@@ -2717,7 +2717,7 @@
 		"description": [
 			"*This towering woman has blue skin, small fangs, and a third eye glaring from her forehead. Her robes are soaking wet.*",
 			"",
-			"::mh[Water Yai]{cr=\"18\"}",
+			"::mh[Water Yai]{cr=18}",
 			"",
 			"{SOURCE Bestiary 3/212}  ",
 			"**XP** 153,600  ",
@@ -2779,7 +2779,7 @@
 		"description": [
 			"*A third eye rests on the forehead of this ornately robed giantess, her figure half-shrouded in the darkness of a starry night that swirls continuously about her.*",
 			"",
-			"::mh[Wind Yai]{cr=\"16\"}",
+			"::mh[Wind Yai]{cr=16}",
 			"",
 			"{SOURCE Pathfinder #54: The Empty Throne/88}  ",
 			"**XP** 76,800  ",
@@ -2855,7 +2855,7 @@
 		"description": [
 			"*This humanoid creature has a fearsome mien, with a cruel red face, glaring yellow eyes, a prodigious nose, and large raven-like wings.*",
 			"",
-			"::mh[Yamabushi Tengu]{cr=\"5\"}",
+			"::mh[Yamabushi Tengu]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #49: The Brinewall Legacy/88}  ",
 			"**XP** 1,600  ",
@@ -2931,7 +2931,7 @@
 		"description": [
 			"*This oval body and enormous wings of this creature are made of roiling flame, and it has a vaguely humanoid face.*",
 			"",
-			"::mh[Onkushu]{cr=\"13\"}",
+			"::mh[Onkushu]{cr=13}",
 			"",
 			"{SOURCE Planes of Power/61}  ",
 			"**XP** 25,600  ",
@@ -2990,7 +2990,7 @@
 		"description": [
 			"*This oversized piranha bursts from the water, spreading broad fins as it takes to the air to sate its hunger.*",
 			"",
-			"::mh[Onwu Azu]{cr=\"1\"}",
+			"::mh[Onwu Azu]{cr=1}",
 			"",
 			"{SOURCE Plunder and Peril/63}  ",
 			"**XP** 400  ",
@@ -3050,7 +3050,7 @@
 		"description": [
 			"*This human-like creature is clad in gaudy clothing, and each of its spindly limbs terminates in a strange wheel-appendage.*",
 			"",
-			"::mh[Onyvolan]{cr=\"3\"}",
+			"::mh[Onyvolan]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #127: Crownfall/86}  ",
 			"**XP** 800  ",
@@ -3125,7 +3125,7 @@
 		"description": [
 			"*This gigantic creature's stony body is laced with veins of deep red and black minerals that pulse with dark energy. Its face is a mask of rage with glowing red eyes and a pit of pitch blackness for a mouth.*",
 			"",
-			"::mh[Onyx Scourge]{cr=\"16\"}",
+			"::mh[Onyx Scourge]{cr=16}",
 			"",
 			"{SOURCE Pathfinder #120: Vault of the Onyx Citadel/86}  ",
 			"**XP** 76,800  ",
@@ -3318,7 +3318,7 @@
 		"description": [
 			"*This massive quadruped has a thick, wrinkled hide, curving horns, and shaggy hair that frames its leonine face.*",
 			"",
-			"::mh[Gorthek]{cr=\"7\"}",
+			"::mh[Gorthek]{cr=7}",
 			"",
 			"{SOURCE Monster Codex/172}  ",
 			"**XP** 3,200  ",
@@ -3372,7 +3372,7 @@
 		"name": "Gorthek Rider (Orc)",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Gorthek Rider]{cr=\"6\"}",
+			"::mh[Gorthek Rider]{cr=6}",
 			"",
 			"{SOURCE Monster Codex/169}  ",
 			"**XP** 2,400  ",
@@ -3419,7 +3419,7 @@
 		"name": "Orc Chieftain",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Orc Chieftain]{cr=\"9\"}",
+			"::mh[Orc Chieftain]{cr=9}",
 			"",
 			"{SOURCE Monster Codex/170}  ",
 			"**XP** 6,400  ",
@@ -3466,7 +3466,7 @@
 		"name": "Orc Lieutenant",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Orc Lieutenant]{cr=\"4\"}",
+			"::mh[Orc Lieutenant]{cr=4}",
 			"",
 			"{SOURCE Monster Codex/166}  ",
 			"**XP** 1,200  ",
@@ -3513,7 +3513,7 @@
 		"name": "Orc Mystic",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Orc Mystic]{cr=\"2\"}",
+			"::mh[Orc Mystic]{cr=2}",
 			"",
 			"{SOURCE Monster Codex/167}  ",
 			"**XP** 600  ",
@@ -3576,7 +3576,7 @@
 		"name": "Orc Scout",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Orc Scout]{cr=\"5\"}",
+			"::mh[Orc Scout]{cr=5}",
 			"",
 			"{SOURCE Monster Codex/169}  ",
 			"**XP** 1,600  ",
@@ -3625,7 +3625,7 @@
 		"name": "Orc Sergeant",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Orc Sergeant]{cr=\"2\"}",
+			"::mh[Orc Sergeant]{cr=2}",
 			"",
 			"{SOURCE Monster Codex/166}  ",
 			"**XP** 600  ",
@@ -3676,7 +3676,7 @@
 		"name": "Orc Thug",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Orc Thug]{cr=\"3\"}",
+			"::mh[Orc Thug]{cr=3}",
 			"",
 			"{SOURCE Monster Codex/168}  ",
 			"**XP** 800  ",
@@ -3723,7 +3723,7 @@
 		"name": "Orc War Drummer",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Orc War Drummer]{cr=\"3\"}",
+			"::mh[Orc War Drummer]{cr=3}",
 			"",
 			"{SOURCE Monster Codex/168}  ",
 			"**XP** 800  ",
@@ -3770,7 +3770,7 @@
 		"name": "Orc Warlord",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Orc Warlord]{cr=\"6\"}",
+			"::mh[Orc Warlord]{cr=6}",
 			"",
 			"{SOURCE Monster Codex/170}  ",
 			"**XP** 2,400  ",
@@ -3821,7 +3821,7 @@
 		"name": "Orc Witch Doctor",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Orc Witch Doctor]{cr=\"8\"}",
+			"::mh[Orc Witch Doctor]{cr=8}",
 			"",
 			"{SOURCE Monster Codex/171}  ",
 			"**XP** 4,800  ",
@@ -3888,7 +3888,7 @@
 		"description": [
 			"*Barely contained in thick glass, this deformed humanoid creature wriggles in its jar.*",
 			"",
-			"::mh[Pickled Punk]{cr=\"1\"}",
+			"::mh[Pickled Punk]{cr=1}",
 			"",
 			"{SOURCE Bestiary 4/214}  ",
 			"**XP** 400  ",

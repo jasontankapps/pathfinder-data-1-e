@@ -3,7 +3,7 @@
 		"name": "Adult Black Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Adult Black Dragon]{cr=\"11\"}",
+			"::mh[Adult Black Dragon]{cr=11}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/92}  ",
 			"**XP** 12,800  ",
@@ -57,7 +57,7 @@
 		"name": "Ancient Black Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Ancient Black Dragon]{cr=\"16\"}",
+			"::mh[Ancient Black Dragon]{cr=16}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/93}  ",
 			"**XP** 76,800  ",
@@ -117,7 +117,7 @@
 		"description": [
 			"*Hissing green acid drips from the fanged maw of this black-scaled, horned dragon.*",
 			"",
-			"::mh[Young Black Dragon]{cr=\"7\"}",
+			"::mh[Young Black Dragon]{cr=7}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/92}  ",
 			"**XP** 3,200  ",
@@ -164,7 +164,7 @@
 		"name": "Adult Blue Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Adult Blue Dragon]{cr=\"13\"}",
+			"::mh[Adult Blue Dragon]{cr=13}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/94}  ",
 			"**XP** 25,600  ",
@@ -248,7 +248,7 @@
 		"name": "Ancient Blue Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Ancient Blue Dragon]{cr=\"18\"}",
+			"::mh[Ancient Blue Dragon]{cr=18}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/95}  ",
 			"**XP** 153,600  ",
@@ -309,7 +309,7 @@
 		"description": [
 			"*With scales the color of the desert sky, this large, serpentine dragon moves with an unsettling grace.*",
 			"",
-			"::mh[Young Blue Dragon]{cr=\"9\"}",
+			"::mh[Young Blue Dragon]{cr=9}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/94}  ",
 			"**XP** 6,400  ",
@@ -359,7 +359,7 @@
 		"name": "Adult Brass Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Adult Brass Dragon]{cr=\"11\"}",
+			"::mh[Adult Brass Dragon]{cr=11}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/102}  ",
 			"**XP** 12,800  ",
@@ -415,7 +415,7 @@
 		"name": "Ancient Brass Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Ancient Brass Dragon]{cr=\"16\"}",
+			"::mh[Ancient Brass Dragon]{cr=16}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/103}  ",
 			"**XP** 76,800  ",
@@ -477,7 +477,7 @@
 		"description": [
 			"*A crest of horns sweeps back from the head of this dragon, leading to a long neck and serpentine brass body.*",
 			"",
-			"::mh[Young Brass Dragon]{cr=\"7\"}",
+			"::mh[Young Brass Dragon]{cr=7}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/102}  ",
 			"**XP** 3,200  ",
@@ -531,7 +531,7 @@
 		"name": "Adult Bronze Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Adult Bronze Dragon]{cr=\"13\"}",
+			"::mh[Adult Bronze Dragon]{cr=13}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/104}  ",
 			"**XP** 25,600  ",
@@ -587,7 +587,7 @@
 		"name": "Ancient Bronze Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Ancient Bronze Dragon]{cr=\"18\"}",
+			"::mh[Ancient Bronze Dragon]{cr=18}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/105}  ",
 			"**XP** 153,600  ",
@@ -649,7 +649,7 @@
 		"description": [
 			"*This sleek dragon is covered in dull metallic scales that range in color from shining bronze to mottled blue.*",
 			"",
-			"::mh[Young Bronze Dragon]{cr=\"9\"}",
+			"::mh[Young Bronze Dragon]{cr=9}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/104}  ",
 			"**XP** 6,400  ",
@@ -701,7 +701,7 @@
 		"name": "Adult Copper Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Adult Copper Dragon]{cr=\"12\"}",
+			"::mh[Adult Copper Dragon]{cr=12}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/106}  ",
 			"**XP** 19,200  ",
@@ -757,7 +757,7 @@
 		"name": "Ancient Copper Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Ancient Copper Dragon]{cr=\"17\"}",
+			"::mh[Ancient Copper Dragon]{cr=17}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/107}  ",
 			"**XP** 102,400  ",
@@ -819,7 +819,7 @@
 		"description": [
 			"*Bright, shining copper scales run from the horn-crowned head to the ridged tail of this long-winged dragon.*",
 			"",
-			"::mh[Young Copper Dragon]{cr=\"8\"}",
+			"::mh[Young Copper Dragon]{cr=8}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/106}  ",
 			"**XP** 4,800  ",
@@ -871,7 +871,7 @@
 		"name": "Adult Gold Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Adult Gold Dragon]{cr=\"15\"}",
+			"::mh[Adult Gold Dragon]{cr=15}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/108}  ",
 			"**XP** 51,200  ",
@@ -928,7 +928,7 @@
 		"name": "Ancient Gold Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Ancient Gold Dragon]{cr=\"20\"}",
+			"::mh[Ancient Gold Dragon]{cr=20}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/109}  ",
 			"**XP** 307,200  ",
@@ -991,7 +991,7 @@
 		"description": [
 			"*Golden scales cover the body of this majestic dragon, and a regal crest of horns arches backward above wise and piercing eyes.*",
 			"",
-			"::mh[Young Gold Dragon]{cr=\"11\"}",
+			"::mh[Young Gold Dragon]{cr=11}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/108}  ",
 			"**XP** 12,800  ",
@@ -1044,7 +1044,7 @@
 		"name": "Adult Green Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Adult Green Dragon]{cr=\"12\"}",
+			"::mh[Adult Green Dragon]{cr=12}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/96}  ",
 			"**XP** 19,200  ",
@@ -1099,7 +1099,7 @@
 		"name": "Ancient Green Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Ancient Green Dragon]{cr=\"17\"}",
+			"::mh[Ancient Green Dragon]{cr=17}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/97}  ",
 			"**XP** 102,400  ",
@@ -1160,7 +1160,7 @@
 		"description": [
 			"*Scales the color of emeralds armor this ferocious dragon. A single sharp horn protrudes from the end of its toothy snout.*",
 			"",
-			"::mh[Young Green Dragon]{cr=\"8\"}",
+			"::mh[Young Green Dragon]{cr=8}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/96}  ",
 			"**XP** 4,800  ",
@@ -1212,7 +1212,7 @@
 		"description": [
 			"*Gangrenous wounds mar this dragon's twisted body.*",
 			"",
-			"::mh[Adult Apocalypse Dragon]{cr=\"16\"}",
+			"::mh[Adult Apocalypse Dragon]{cr=16}",
 			"",
 			"{SOURCE Pathfinder #137: The City Outside of Time/88}  ",
 			"**XP** 76,800  ",
@@ -1262,7 +1262,7 @@
 		"description": [
 			"*Gangrenous wounds mar this dragon's twisted body.*",
 			"",
-			"::mh[Ancient Apocalypse Dragon]{cr=\"21\"}",
+			"::mh[Ancient Apocalypse Dragon]{cr=21}",
 			"",
 			"{SOURCE Pathfinder #137: The City Outside of Time/89}  ",
 			"**XP** 409,600  ",
@@ -1316,7 +1316,7 @@
 		"description": [
 			"*Gangrenous wounds mar this dragon's twisted body.*",
 			"",
-			"::mh[Young Apocalypse Dragon]{cr=\"12\"}",
+			"::mh[Young Apocalypse Dragon]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #137: The City Outside of Time/88}  ",
 			"**XP** 19,200  ",
@@ -1362,7 +1362,7 @@
 		"description": [
 			"*This serene dragon's feathered form emits a comforting warmth.*",
 			"",
-			"::mh[Adult Bliss Dragon]{cr=\"16\"}",
+			"::mh[Adult Bliss Dragon]{cr=16}",
 			"",
 			"{SOURCE Pathfinder #137: The City Outside of Time/90}  ",
 			"**XP** 76,800  ",
@@ -1412,7 +1412,7 @@
 		"description": [
 			"*This serene dragon's feathered form emits a comforting warmth.*",
 			"",
-			"::mh[Ancient Bliss Dragon]{cr=\"21\"}",
+			"::mh[Ancient Bliss Dragon]{cr=21}",
 			"",
 			"{SOURCE Pathfinder #137: The City Outside of Time/91}  ",
 			"**XP** 409,600  ",
@@ -1466,7 +1466,7 @@
 		"description": [
 			"*This serene dragon's feathered form emits a comforting warmth.*",
 			"",
-			"::mh[Young Bliss Dragon]{cr=\"12\"}",
+			"::mh[Young Bliss Dragon]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #137: The City Outside of Time/90}  ",
 			"**XP** 19,200  ",
@@ -1513,7 +1513,7 @@
 		"description": [
 			"*This dragon's scales are the color of weathered bone, and its hide stretches tautly and painfully over its emaciated form.*",
 			"",
-			"::mh[Adult Crypt Dragon]{cr=\"16\"}",
+			"::mh[Adult Crypt Dragon]{cr=16}",
 			"",
 			"{SOURCE Bestiary 6/98}  ",
 			"**XP** 76,800  ",
@@ -1569,7 +1569,7 @@
 		"description": [
 			"*This dragon's scales are the color of weathered bone, and its hide stretches tautly and painfully over its emaciated form.*",
 			"",
-			"::mh[Ancient Crypt Dragon]{cr=\"21\"}",
+			"::mh[Ancient Crypt Dragon]{cr=21}",
 			"",
 			"{SOURCE Bestiary 6/99}  ",
 			"**XP** 409,600  ",
@@ -1629,7 +1629,7 @@
 		"description": [
 			"*This dragon's scales are the color of weathered bone, and its hide stretches tautly and painfully over its emaciated form.*",
 			"",
-			"::mh[Young Crypt Dragon]{cr=\"12\"}",
+			"::mh[Young Crypt Dragon]{cr=12}",
 			"",
 			"{SOURCE Bestiary 6/98}  ",
 			"**XP** 19,200  ",
@@ -1680,7 +1680,7 @@
 		"name": "Adult Edict Dragon",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
-			"::mh[Adult Edict Dragon]{cr=\"16\"}",
+			"::mh[Adult Edict Dragon]{cr=16}",
 			"",
 			"{SOURCE Pathfinder #131: The Reaper's Right Hand/88}  ",
 			"**XP** 76,800  ",
@@ -1734,7 +1734,7 @@
 		"name": "Ancient Edict Dragon",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
-			"::mh[Ancient Edict Dragon]{cr=\"21\"}",
+			"::mh[Ancient Edict Dragon]{cr=21}",
 			"",
 			"{SOURCE Pathfinder #131: The Reaper's Right Hand/89}  ",
 			"**XP** 409,600  ",
@@ -1792,7 +1792,7 @@
 		"name": "Young Edict Dragon",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
-			"::mh[Young Edict Dragon]{cr=\"12\"}",
+			"::mh[Young Edict Dragon]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #131: The Reaper's Right Hand/88}  ",
 			"**XP** 19,200  ",
@@ -1844,7 +1844,7 @@
 		"description": [
 			"*This dragon's scales and insectile wings dance with color, while its whip-like tail waves as if stirred by an unseen breeze.*",
 			"",
-			"::mh[Adult Havoc Dragon]{cr=\"16\"}",
+			"::mh[Adult Havoc Dragon]{cr=16}",
 			"",
 			"{SOURCE Bestiary 6/100}  ",
 			"**XP** 76,800  ",
@@ -1900,7 +1900,7 @@
 		"description": [
 			"*This dragon's scales and insectile wings dance with color, while its whip-like tail waves as if stirred by an unseen breeze.*",
 			"",
-			"::mh[Ancient Havoc Dragon]{cr=\"21\"}",
+			"::mh[Ancient Havoc Dragon]{cr=21}",
 			"",
 			"{SOURCE Bestiary 6/101}  ",
 			"**XP** 409,600  ",
@@ -1960,7 +1960,7 @@
 		"description": [
 			"*This dragon's scales and insectile wings dance with color, while its whip-like tail waves as if stirred by an unseen breeze.*",
 			"",
-			"::mh[Young Havoc Dragon]{cr=\"12\"}",
+			"::mh[Young Havoc Dragon]{cr=12}",
 			"",
 			"{SOURCE Bestiary 6/100}  ",
 			"**XP** 19,200  ",
@@ -2013,7 +2013,7 @@
 		"description": [
 			"*Cruel horns frame this dragon's head. Its body glows faintly with malicious heat.*",
 			"",
-			"::mh[Adult Infernal Dragon]{cr=\"16\"}",
+			"::mh[Adult Infernal Dragon]{cr=16}",
 			"",
 			"{SOURCE Bestiary 6/102}  ",
 			"**XP** 76,800  ",
@@ -2069,7 +2069,7 @@
 		"description": [
 			"*Cruel horns frame this dragon's head. Its body glows faintly with malicious heat.*",
 			"",
-			"::mh[Ancient Infernal Dragon]{cr=\"21\"}",
+			"::mh[Ancient Infernal Dragon]{cr=21}",
 			"",
 			"{SOURCE Bestiary 6/103}  ",
 			"**XP** 409,600  ",
@@ -2131,7 +2131,7 @@
 		"description": [
 			"*Cruel horns frame this dragon's head. Its body glows faintly with malicious heat.*",
 			"",
-			"::mh[Young Infernal Dragon]{cr=\"12\"}",
+			"::mh[Young Infernal Dragon]{cr=12}",
 			"",
 			"{SOURCE Bestiary 6/102}  ",
 			"**XP** 19,200  ",
@@ -2183,7 +2183,7 @@
 		"description": [
 			"*This sleek dragon carries itself with regal dignity. Its eyes glow with heavenly light.*",
 			"",
-			"::mh[Adult Paradise Dragon]{cr=\"16\"}",
+			"::mh[Adult Paradise Dragon]{cr=16}",
 			"",
 			"{SOURCE Bestiary 6/104}  ",
 			"**XP** 76,800  ",
@@ -2239,7 +2239,7 @@
 		"description": [
 			"*This sleek dragon carries itself with regal dignity. Its eyes glow with heavenly light.*",
 			"",
-			"::mh[Ancient Paradise Dragon]{cr=\"21\"}",
+			"::mh[Ancient Paradise Dragon]{cr=21}",
 			"",
 			"{SOURCE Bestiary 6/105}  ",
 			"**XP** 409,600  ",
@@ -2299,7 +2299,7 @@
 		"description": [
 			"*This sleek dragon carries itself with regal dignity. Its eyes glow with heavenly light.*",
 			"",
-			"::mh[Young Paradise Dragon]{cr=\"12\"}",
+			"::mh[Young Paradise Dragon]{cr=12}",
 			"",
 			"{SOURCE Bestiary 6/104}  ",
 			"**XP** 19,200  ",
@@ -2352,7 +2352,7 @@
 		"description": [
 			"*This dark-scaled dragon has massive claws, and foul-smelling acid drips from its saber teeth.*",
 			"",
-			"::mh[Adult Rift Dragon]{cr=\"16\"}",
+			"::mh[Adult Rift Dragon]{cr=16}",
 			"",
 			"{SOURCE Bestiary 6/106}  ",
 			"**XP** 76,800  ",
@@ -2408,7 +2408,7 @@
 		"description": [
 			"*This dark-scaled dragon has massive claws, and foul-smelling acid drips from its saber teeth.*",
 			"",
-			"::mh[Ancient Rift Dragon]{cr=\"21\"}",
+			"::mh[Ancient Rift Dragon]{cr=21}",
 			"",
 			"{SOURCE Bestiary 6/107}  ",
 			"**XP** 409,600  ",
@@ -2468,7 +2468,7 @@
 		"description": [
 			"*This dark-scaled dragon has massive claws, and foul-smelling acid drips from its saber teeth.*",
 			"",
-			"::mh[Young Rift Dragon]{cr=\"12\"}",
+			"::mh[Young Rift Dragon]{cr=12}",
 			"",
 			"{SOURCE Bestiary 6/106}  ",
 			"**XP** 19,200  ",
@@ -2520,7 +2520,7 @@
 		"description": [
 			"*This dragon seems to be made of parts from different creatures.*",
 			"",
-			"::mh[Adult Tumult Dragon]{cr=\"16\"}",
+			"::mh[Adult Tumult Dragon]{cr=16}",
 			"",
 			"{SOURCE Pathfinder #138: Rise of New Thassilon/90}  ",
 			"**XP** 76,800  ",
@@ -2570,7 +2570,7 @@
 		"description": [
 			"*This dragon seems to be made of parts from different creatures.*",
 			"",
-			"::mh[Ancient Tumult Dragon]{cr=\"21\"}",
+			"::mh[Ancient Tumult Dragon]{cr=21}",
 			"",
 			"{SOURCE Pathfinder #138: Rise of New Thassilon/91}  ",
 			"**XP** 409,600  ",
@@ -2624,7 +2624,7 @@
 		"description": [
 			"*This dragon seems to be made of parts from different creatures.*",
 			"",
-			"::mh[Young Tumult Dragon]{cr=\"12\"}",
+			"::mh[Young Tumult Dragon]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #138: Rise of New Thassilon/90}  ",
 			"**XP** 19,200  ",
@@ -2668,7 +2668,7 @@
 		"name": "Adult Brine Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::mh[Adult Brine Dragon]{cr=\"11\"}",
+			"::mh[Adult Brine Dragon]{cr=11}",
 			"",
 			"{SOURCE Bestiary 2/94}  ",
 			"**XP** 12,800  ",
@@ -2724,7 +2724,7 @@
 		"name": "Ancient Brine Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::mh[Ancient Brine Dragon]{cr=\"16\"}",
+			"::mh[Ancient Brine Dragon]{cr=16}",
 			"",
 			"{SOURCE Bestiary 2/95}  ",
 			"**XP** 76,800  ",
@@ -2787,7 +2787,7 @@
 		"description": [
 			"*A blue-green neck frill sweeps back from the head of this dragon, leading to a body of shiny scales and fin-like crests.*",
 			"",
-			"::mh[Young Brine Dragon]{cr=\"7\"}",
+			"::mh[Young Brine Dragon]{cr=7}",
 			"",
 			"{SOURCE Bestiary 2/94}  ",
 			"**XP** 3,200  ",
@@ -2839,7 +2839,7 @@
 		"name": "Adult Cloud Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::mh[Adult Cloud Dragon]{cr=\"13\"}",
+			"::mh[Adult Cloud Dragon]{cr=13}",
 			"",
 			"{SOURCE Bestiary 2/96}  ",
 			"**XP** 25,600  ",
@@ -2894,7 +2894,7 @@
 		"name": "Ancient Cloud Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::mh[Ancient Cloud Dragon]{cr=\"18\"}",
+			"::mh[Ancient Cloud Dragon]{cr=18}",
 			"",
 			"{SOURCE Bestiary 2/97}  ",
 			"**XP** 153,600  ",
@@ -2956,7 +2956,7 @@
 		"description": [
 			"*The blue-white scales of this four-horned dragon exude wisps of fog. The dragon's snout is short but filled with sharp teeth.*",
 			"",
-			"::mh[Young Cloud Dragon]{cr=\"9\"}",
+			"::mh[Young Cloud Dragon]{cr=9}",
 			"",
 			"{SOURCE Bestiary 2/96}  ",
 			"**XP** 6,400  ",
@@ -3004,7 +3004,7 @@
 		"name": "Adult Crystal Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::mh[Adult Crystal Dragon]{cr=\"10\"}",
+			"::mh[Adult Crystal Dragon]{cr=10}",
 			"",
 			"{SOURCE Bestiary 2/98}  ",
 			"**XP** 9,600  ",
@@ -3060,7 +3060,7 @@
 		"name": "Ancient Crystal Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::mh[Ancient Crystal Dragon]{cr=\"15\"}",
+			"::mh[Ancient Crystal Dragon]{cr=15}",
 			"",
 			"{SOURCE Bestiary 2/99}  ",
 			"**XP** 51,200  ",
@@ -3122,7 +3122,7 @@
 		"description": [
 			"*This brilliantly colored dragon has scales, teeth, and claws made of multicolored crystal, and its wings are sheets of flexible glass.*",
 			"",
-			"::mh[Young Crystal Dragon]{cr=\"6\"}",
+			"::mh[Young Crystal Dragon]{cr=6}",
 			"",
 			"{SOURCE Bestiary 2/98}  ",
 			"**XP** 2,400  ",
@@ -3174,7 +3174,7 @@
 		"name": "Adult Magma Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::mh[Adult Magma Dragon]{cr=\"12\"}",
+			"::mh[Adult Magma Dragon]{cr=12}",
 			"",
 			"{SOURCE Bestiary 2/100}  ",
 			"**XP** 19,200  ",
@@ -3231,7 +3231,7 @@
 		"name": "Ancient Magma Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::mh[Ancient Magma Dragon]{cr=\"17\"}",
+			"::mh[Ancient Magma Dragon]{cr=17}",
 			"",
 			"{SOURCE Bestiary 2/101}  ",
 			"**XP** 102,400  ",
@@ -3296,7 +3296,7 @@
 		"description": [
 			"*Between this dragon's jet-black scales run glowing rivulets of lava, and veins aglow with heat shine in the membranes of its wings.*",
 			"",
-			"::mh[Young Magma Dragon]{cr=\"8\"}",
+			"::mh[Young Magma Dragon]{cr=8}",
 			"",
 			"{SOURCE Bestiary 2/100}  ",
 			"**XP** 4,800  ",
@@ -3349,7 +3349,7 @@
 		"name": "Adult Umbral Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::mh[Adult Umbral Dragon]{cr=\"14\"}",
+			"::mh[Adult Umbral Dragon]{cr=14}",
 			"",
 			"{SOURCE Bestiary 2/102}  ",
 			"**XP** 38,400  ",
@@ -3405,7 +3405,7 @@
 		"name": "Ancient Umbral Dragon",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::mh[Ancient Umbral Dragon]{cr=\"19\"}",
+			"::mh[Ancient Umbral Dragon]{cr=19}",
 			"",
 			"{SOURCE Bestiary 2/103}  ",
 			"**XP** 204,800  ",
@@ -3468,7 +3468,7 @@
 		"description": [
 			"*This sleek, dark dragon moves with a disturbing, serpentine grace, its eyes glowing as if lit from within by crimson embers.*",
 			"",
-			"::mh[Young Umbral Dragon]{cr=\"10\"}",
+			"::mh[Young Umbral Dragon]{cr=10}",
 			"",
 			"{SOURCE Bestiary 2/102}  ",
 			"**XP** 9,600  ",
@@ -3521,7 +3521,7 @@
 		"name": "Adult Red Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Adult Red Dragon]{cr=\"14\"}",
+			"::mh[Adult Red Dragon]{cr=14}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/98}  ",
 			"**XP** 38,400  ",
@@ -3577,7 +3577,7 @@
 		"name": "Ancient Red Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Ancient Red Dragon]{cr=\"19\"}",
+			"::mh[Ancient Red Dragon]{cr=19}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/99}  ",
 			"**XP** 204,800  ",
@@ -3638,7 +3638,7 @@
 		"description": [
 			"*A crown of cruel horns surrounds the head of this mighty dragon. Thick scales the color of molten rock cover its long body.*",
 			"",
-			"::mh[Young Red Dragon]{cr=\"10\"}",
+			"::mh[Young Red Dragon]{cr=10}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/98}  ",
 			"**XP** 9,600  ",
@@ -3691,7 +3691,7 @@
 		"name": "Adult Silver Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Adult Silver Dragon]{cr=\"14\"}",
+			"::mh[Adult Silver Dragon]{cr=14}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/110}  ",
 			"**XP** 38,400  ",
@@ -3748,7 +3748,7 @@
 		"name": "Ancient Silver Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Ancient Silver Dragon]{cr=\"19\"}",
+			"::mh[Ancient Silver Dragon]{cr=19}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/111}  ",
 			"**XP** 204,800  ",
@@ -3811,7 +3811,7 @@
 		"description": [
 			"*The scales of this tall, elegant dragon shine like polished silver, and its tail has a feathered appearance.*",
 			"",
-			"::mh[Young Silver Dragon]{cr=\"10\"}",
+			"::mh[Young Silver Dragon]{cr=10}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/110}  ",
 			"**XP** 9,600  ",
@@ -3865,7 +3865,7 @@
 		"name": "Adult White Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Adult White Dragon]{cr=\"10\"}",
+			"::mh[Adult White Dragon]{cr=10}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/100}  ",
 			"**XP** 9,600  ",
@@ -3920,7 +3920,7 @@
 		"name": "Ancient White Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::mh[Ancient White Dragon]{cr=\"15\"}",
+			"::mh[Ancient White Dragon]{cr=15}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/101}  ",
 			"**XP** 51,200  ",
@@ -3980,7 +3980,7 @@
 		"description": [
 			"*This dragon's scales are a frosty white. Its head is crowned with slender horns, with a thin membrane stretched between them.*",
 			"",
-			"::mh[Young White Dragon]{cr=\"6\"}",
+			"::mh[Young White Dragon]{cr=6}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/100}  ",
 			"**XP** 2,400  ",

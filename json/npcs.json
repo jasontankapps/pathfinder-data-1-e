@@ -1583,7 +1583,7 @@
 		"name": "Bullying Brawler",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Bullying Brawler]{cr=\"1\"}",
+			"::mh[Bullying Brawler]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/96}  ",
 			"**XP** 400  ",
@@ -1629,7 +1629,7 @@
 		"name": "City Watch (Guard)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[City Watch (Guard)]{cr=\"1\"}",
+			"::mh[City Watch (Guard)]{cr=1}",
 			"",
 			"{SOURCE GameMastery Guide/260}  ",
 			"**XP** 400  ",
@@ -1672,7 +1672,7 @@
 		"name": "Criminal (Street Thug)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Criminal (Street Thug)]{cr=\"1\"}",
+			"::mh[Criminal (Street Thug)]{cr=1}",
 			"",
 			"{SOURCE GameMastery Guide/265}  ",
 			"**XP** 400  ",
@@ -1717,7 +1717,7 @@
 		"name": "Daring Bravo",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Daring Bravo]{cr=\"1\"}",
+			"::mh[Daring Bravo]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/80}  ",
 			"**XP** 400  ",
@@ -1765,7 +1765,7 @@
 		"name": "Dwarven Rager",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Dwarven Rager]{cr=\"1\"}",
+			"::mh[Dwarven Rager]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/10}  ",
 			"**XP** 400  ",
@@ -1811,7 +1811,7 @@
 		"name": "Entertainer (Storyteller)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Entertainer (Storyteller)]{cr=\"1\"}",
+			"::mh[Entertainer (Storyteller)]{cr=1}",
 			"",
 			"{SOURCE GameMastery Guide/272}  ",
 			"**XP** 400  ",
@@ -1858,7 +1858,7 @@
 		"name": "Fighting School (Initiate)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Fighting School (Initiate)]{cr=\"1\"}",
+			"::mh[Fighting School (Initiate)]{cr=1}",
 			"",
 			"{SOURCE GameMastery Guide/274}  ",
 			"**XP** 400  ",
@@ -1905,7 +1905,7 @@
 		"name": "First Guard of Absalom",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[First Guard of Absalom]{cr=\"1\"}",
+			"::mh[First Guard of Absalom]{cr=1}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/22}  ",
 			"**XP** 400  ",
@@ -1950,7 +1950,7 @@
 		"name": "Gem Sorcerer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Gem Sorcerer]{cr=\"1\"}",
+			"::mh[Gem Sorcerer]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/160}  ",
 			"**XP** 400  ",
@@ -2001,7 +2001,7 @@
 		"name": "Guard",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Guard]{cr=\"1\"}",
+			"::mh[Guard]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/267}  ",
 			"**XP** 400  ",
@@ -2046,7 +2046,7 @@
 		"name": "Honorable Outcast",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Honorable Outcast]{cr=\"1\"}",
+			"::mh[Honorable Outcast]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/112}  ",
 			"**XP** 400  ",
@@ -2093,7 +2093,7 @@
 		"name": "Initiate",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Initiate]{cr=\"1\"}",
+			"::mh[Initiate]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/245}  ",
 			"**XP** 400  ",
@@ -2141,7 +2141,7 @@
 		"name": "Mercenary (Caravan Guard)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Mercenary (Caravan Guard)]{cr=\"1\"}",
+			"::mh[Mercenary (Caravan Guard)]{cr=1}",
 			"",
 			"{SOURCE GameMastery Guide/282}  ",
 			"**XP** 400  ",
@@ -2185,7 +2185,7 @@
 		"name": "Merchant (Shopkeep)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Merchant (Shopkeep)]{cr=\"1\"}",
+			"::mh[Merchant (Shopkeep)]{cr=1}",
 			"",
 			"{SOURCE GameMastery Guide/284}  ",
 			"**XP** 400  ",
@@ -2230,7 +2230,7 @@
 		"name": "Miner",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Miner]{cr=\"1\"}",
+			"::mh[Miner]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/256}  ",
 			"**XP** 400  ",
@@ -2273,7 +2273,7 @@
 		"name": "Road (Vagabond)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Road (Vagabond)]{cr=\"1\"}",
+			"::mh[Road (Vagabond)]{cr=1}",
 			"",
 			"{SOURCE GameMastery Guide/291}  ",
 			"**XP** 400  ",
@@ -2318,7 +2318,7 @@
 		"name": "Sail Master",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Sail Master]{cr=\"1\"}",
+			"::mh[Sail Master]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/62}  ",
 			"**XP** 400  ",
@@ -2371,7 +2371,7 @@
 		"description": [
 			"*This thuggish Varisian wears black garb and tattered rags that conceal his myriad small blades and reveal runic tattoos.*",
 			"",
-			"::mh[Sczarni Thug]{cr=\"1\"}",
+			"::mh[Sczarni Thug]{cr=1}",
 			"",
 			"{SOURCE Magnimar, City of Monuments/57}  ",
 			"**XP** 400  ",
@@ -2425,7 +2425,7 @@
 		"name": "Seasoned Trapper",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Seasoned Trapper]{cr=\"1\"}",
+			"::mh[Seasoned Trapper]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/261}  ",
 			"**XP** 400  ",
@@ -2469,7 +2469,7 @@
 		"name": "Seer (Doomsayer)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Seer (Doomsayer)]{cr=\"1\"}",
+			"::mh[Seer (Doomsayer)]{cr=1}",
 			"",
 			"{SOURCE GameMastery Guide/298}  ",
 			"**XP** 400  ",
@@ -2516,7 +2516,7 @@
 		"name": "Skulking Brute",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Skulking Brute]{cr=\"1\"}",
+			"::mh[Skulking Brute]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/144}  ",
 			"**XP** 400  ",
@@ -2569,7 +2569,7 @@
 		"name": "Squire",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Squire]{cr=\"1\"}",
+			"::mh[Squire]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/251}  ",
 			"**XP** 400  ",
@@ -2613,7 +2613,7 @@
 		"name": "Street (Beggar)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Street (Beggar)]{cr=\"1\"}",
+			"::mh[Street (Beggar)]{cr=1}",
 			"",
 			"{SOURCE GameMastery Guide/300}  ",
 			"**XP** 400  ",
@@ -2658,7 +2658,7 @@
 		"name": "Street (Prostitute)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Street (Prostitute)]{cr=\"1\"}",
+			"::mh[Street (Prostitute)]{cr=1}",
 			"",
 			"{SOURCE GameMastery Guide/301}  ",
 			"**XP** 400  ",
@@ -2703,7 +2703,7 @@
 		"name": "Street Magician",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Street Magician]{cr=\"1\"}",
+			"::mh[Street Magician]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/178}  ",
 			"**XP** 400  ",
@@ -2756,7 +2756,7 @@
 		"name": "Street Performer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Street Performer]{cr=\"1\"}",
+			"::mh[Street Performer]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/26}  ",
 			"**XP** 400  ",
@@ -2807,7 +2807,7 @@
 		"name": "Tavern (Drunkard)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Tavern (Drunkard)]{cr=\"1\"}",
+			"::mh[Tavern (Drunkard)]{cr=1}",
 			"",
 			"{SOURCE GameMastery Guide/303}  ",
 			"**XP** 400  ",
@@ -2850,7 +2850,7 @@
 		"name": "Town Watcher",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Town Watcher]{cr=\"1\"}",
+			"::mh[Town Watcher]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/128}  ",
 			"**XP** 400  ",
@@ -2902,7 +2902,7 @@
 		"name": "Tribe (Cannibal)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Tribe (Cannibal)]{cr=\"1\"}",
+			"::mh[Tribe (Cannibal)]{cr=1}",
 			"",
 			"{SOURCE GameMastery Guide/306}  ",
 			"**XP** 400  ",
@@ -2952,7 +2952,7 @@
 		"name": "War Priest",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[War Priest]{cr=\"1\"}",
+			"::mh[War Priest]{cr=1}",
 			"",
 			"{SOURCE NPC Codex/44}  ",
 			"**XP** 400  ",
@@ -3006,7 +3006,7 @@
 		"name": "Accomplished Angler",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Accomplished Angler]{cr=\"2\"}",
+			"::mh[Accomplished Angler]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/256}  ",
 			"**XP** 600  ",
@@ -3048,7 +3048,7 @@
 		"name": "Axe Warrior",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Axe Warrior]{cr=\"2\"}",
+			"::mh[Axe Warrior]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/11}  ",
 			"**XP** 600  ",
@@ -3102,7 +3102,7 @@
 		"name": "Battle Mage",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Battle Mage]{cr=\"2\"}",
+			"::mh[Battle Mage]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/179}  ",
 			"**XP** 600  ",
@@ -3153,7 +3153,7 @@
 		"name": "Criminal (Burglar)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Criminal (Burglar)]{cr=\"2\"}",
+			"::mh[Criminal (Burglar)]{cr=2}",
 			"",
 			"{SOURCE GameMastery Guide/265}  ",
 			"**XP** 600  ",
@@ -3199,7 +3199,7 @@
 		"name": "Doom Prophet",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Doom Prophet]{cr=\"2\"}",
+			"::mh[Doom Prophet]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/245}  ",
 			"**XP** 600  ",
@@ -3249,7 +3249,7 @@
 		"name": "Duergar Slaver",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Duergar Slaver]{cr=\"2\"}",
+			"::mh[Duergar Slaver]{cr=2}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/20}  ",
 			"**XP** 600  ",
@@ -3297,7 +3297,7 @@
 		"name": "Dungeon (Prisoner)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Dungeon (Prisoner)]{cr=\"2\"}",
+			"::mh[Dungeon (Prisoner)]{cr=2}",
 			"",
 			"{SOURCE GameMastery Guide/270}  ",
 			"**XP** 600  ",
@@ -3340,7 +3340,7 @@
 		"description": [
 			"*Golden eagles shine proudly on the steel armor of this blue-uniformed soldier.*",
 			"",
-			"::mh[Eagle Knight]{cr=\"2\"}",
+			"::mh[Eagle Knight]{cr=2}",
 			"",
 			"{SOURCE Andoran, Birthplace of Freedom/54}  ",
 			"**XP** 600  ",
@@ -3389,7 +3389,7 @@
 		"name": "Haughty Avenger",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Haughty Avenger]{cr=\"2\"}",
+			"::mh[Haughty Avenger]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/113}  ",
 			"**XP** 600  ",
@@ -3444,7 +3444,7 @@
 		"name": "Heir Apparent",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Heir Apparent]{cr=\"2\"}",
+			"::mh[Heir Apparent]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/251}  ",
 			"**XP** 600  ",
@@ -3488,7 +3488,7 @@
 		"name": "Hellknight Armiger",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Hellknight Armiger]{cr=\"2\"}",
+			"::mh[Hellknight Armiger]{cr=2}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/31}  ",
 			"**XP** 600  ",
@@ -3533,7 +3533,7 @@
 		"name": "Heretic (Cultist)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Heretic (Cultist)]{cr=\"2\"}",
+			"::mh[Heretic (Cultist)]{cr=2}",
 			"",
 			"{SOURCE GameMastery Guide/278}  ",
 			"**XP** 600  ",
@@ -3588,7 +3588,7 @@
 		"description": [
 			"*Black feathers cover this crow-headed swashbuckler, his hands and legs ending in powerful talons. He wields a long, curved sword and wears brightly colored studded leather armor.*",
 			"",
-			"::mh[Jinx Eater]{cr=\"2\"}",
+			"::mh[Jinx Eater]{cr=2}",
 			"",
 			"{SOURCE Isles of the Shackles/50}  ",
 			"**XP** 600  ",
@@ -3638,7 +3638,7 @@
 		"name": "Journeyman Carpenter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Journeyman Carpenter]{cr=\"2\"}",
+			"::mh[Journeyman Carpenter]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/261}  ",
 			"**XP** 600  ",
@@ -3684,7 +3684,7 @@
 		"name": "Kitharodian Academy Performer",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Kitharodian Academy Performer]{cr=\"2\"}",
+			"::mh[Kitharodian Academy Performer]{cr=2}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/33}  ",
 			"**XP** 600  ",
@@ -3733,7 +3733,7 @@
 		"name": "Local Celebrity",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Local Celebrity]{cr=\"2\"}",
+			"::mh[Local Celebrity]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/27}  ",
 			"**XP** 600  ",
@@ -3786,7 +3786,7 @@
 		"description": [
 			"*Every step this fashionable Varisian takes seems like part of a dance, her dozens of strange baubles tinkling with her every movement.*",
 			"",
-			"::mh[Mystery Cultist]{cr=\"2\"}",
+			"::mh[Mystery Cultist]{cr=2}",
 			"",
 			"{SOURCE Magnimar, City of Monuments/55}  ",
 			"**XP** 600  ",
@@ -3843,7 +3843,7 @@
 		"name": "Noble (Noble Scion)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Noble (Noble Scion)]{cr=\"2\"}",
+			"::mh[Noble (Noble Scion)]{cr=2}",
 			"",
 			"{SOURCE GameMastery Guide/288}  ",
 			"**XP** 600  ",
@@ -3888,7 +3888,7 @@
 		"description": [
 			"*This shady-looking sailor has a knowing glint in his eyes, which shift from side to side as he evaluates his surroundings.*",
 			"",
-			"::mh[Pirate (Smuggler)]{cr=\"2\"}",
+			"::mh[Pirate (Smuggler)]{cr=2}",
 			"",
 			"{SOURCE Isles of the Shackles/57}  ",
 			"**XP** 600  ",
@@ -3932,7 +3932,7 @@
 		"name": "Poacher",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Poacher]{cr=\"2\"}",
+			"::mh[Poacher]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/129}  ",
 			"**XP** 600  ",
@@ -3981,7 +3981,7 @@
 		"name": "Road (Wanderer)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Road (Wanderer)]{cr=\"2\"}",
+			"::mh[Road (Wanderer)]{cr=2}",
 			"",
 			"{SOURCE GameMastery Guide/290}  ",
 			"**XP** 600  ",
@@ -4030,7 +4030,7 @@
 		"name": "Scholar Priest",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Scholar Priest]{cr=\"2\"}",
+			"::mh[Scholar Priest]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/45}  ",
 			"**XP** 600  ",
@@ -4083,7 +4083,7 @@
 		"name": "Sczarni Thief",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Sczarni Thief]{cr=\"2\"}",
+			"::mh[Sczarni Thief]{cr=2}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/49}  ",
 			"**XP** 600  ",
@@ -4132,7 +4132,7 @@
 		"description": [
 			"*This well-dressed noble carries herself with poise, and her eyes seem to catalog everything she observes.*",
 			"",
-			"::mh[Shifty Noble]{cr=\"2\"}",
+			"::mh[Shifty Noble]{cr=2}",
 			"",
 			"{SOURCE Magnimar, City of Monuments/58}  ",
 			"**XP** 600  ",
@@ -4183,7 +4183,7 @@
 		"description": [
 			"*This shaven-headed brute wields a massive spiked hammer and bears scars from dozens of battles.*",
 			"",
-			"::mh[Shoanti Gladiator]{cr=\"2\"}",
+			"::mh[Shoanti Gladiator]{cr=2}",
 			"",
 			"{SOURCE Magnimar, City of Monuments/59}  ",
 			"**XP** 600  ",
@@ -4234,7 +4234,7 @@
 		"name": "Skilled Sniper",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Skilled Sniper]{cr=\"2\"}",
+			"::mh[Skilled Sniper]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/145}  ",
 			"**XP** 600  ",
@@ -4288,7 +4288,7 @@
 		"name": "Skinsaw Cultist",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Skinsaw Cultist]{cr=\"2\"}",
+			"::mh[Skinsaw Cultist]{cr=2}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/54}  ",
 			"**XP** 600  ",
@@ -4342,7 +4342,7 @@
 		"name": "Sylvan Protector",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Sylvan Protector]{cr=\"2\"}",
+			"::mh[Sylvan Protector]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/63}  ",
 			"**XP** 600  ",
@@ -4392,7 +4392,7 @@
 		"name": "Traitorous Brigand",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Traitorous Brigand]{cr=\"2\"}",
+			"::mh[Traitorous Brigand]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/81}  ",
 			"**XP** 600  ",
@@ -4440,7 +4440,7 @@
 		"name": "Veteran Buccaneer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Veteran Buccaneer]{cr=\"2\"}",
+			"::mh[Veteran Buccaneer]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/267}  ",
 			"**XP** 600  ",
@@ -4484,7 +4484,7 @@
 		"name": "Vigilant Bodyguard",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Vigilant Bodyguard]{cr=\"2\"}",
+			"::mh[Vigilant Bodyguard]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/97}  ",
 			"**XP** 600  ",
@@ -4530,7 +4530,7 @@
 		"name": "Whiteclaw Sorcerer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Whiteclaw Sorcerer]{cr=\"2\"}",
+			"::mh[Whiteclaw Sorcerer]{cr=2}",
 			"",
 			"{SOURCE NPC Codex/161}  ",
 			"**XP** 600  ",

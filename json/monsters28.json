@@ -5,7 +5,7 @@
 		"description": [
 			"*This creature has the sun-bronzed upper body of a seasoned warrior and the lower body of a sleek warhorse.*",
 			"",
-			"::mh[Centaur]{cr=\"3\"}",
+			"::mh[Centaur]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/42}  ",
 			"**XP** 800  ",
@@ -57,7 +57,7 @@
 		"description": [
 			"*An imposing wall of steel, corded muscle, and blood-stained banners, this centaur wields a lance and shield with the majesty and prowess of any human knight.*",
 			"",
-			"::mh[Centaur Charger]{cr=\"14\"}",
+			"::mh[Centaur Charger]{cr=14}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/9}  ",
 			"**XP** 38,400  ",
@@ -111,7 +111,7 @@
 		"description": [
 			"*Swirling markings cover the armor and flanks of this imposing centaur. A bow and sword, both heavy enough to suit her powerful frame, hang from her body.*",
 			"",
-			"::mh[Centaur Forager]{cr=\"6\"}",
+			"::mh[Centaur Forager]{cr=6}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/7}  ",
 			"**XP** 2,400  ",
@@ -165,7 +165,7 @@
 		"description": [
 			"*This handsome young man has hair of dappled black and white on his head and body alike, and he carries a variety of wands and talismans in addition to his weapons.*",
 			"",
-			"::mh[Centaur Greenspeaker]{cr=\"4\"}",
+			"::mh[Centaur Greenspeaker]{cr=4}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/6}  ",
 			"**XP** 1,200  ",
@@ -221,7 +221,7 @@
 		"description": [
 			"*Lean and graying but still blessed with a young man's face, this aging centaur bristles with scrolls and wands. Winding, swirling tattoos climb across his body and face.*",
 			"",
-			"::mh[Centaur Outcast]{cr=\"7\"}",
+			"::mh[Centaur Outcast]{cr=7}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/8}  ",
 			"**XP** 3,200  ",
@@ -276,7 +276,7 @@
 		"description": [
 			"*This bony horror has two skulls on either end of its long, fleshless body. Dozens of twitching, claw-tipped legs carry its centipede-like form.*",
 			"",
-			"::mh[Centianima]{cr=\"4\"}",
+			"::mh[Centianima]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #103: The Hellfire Compact/84}  ",
 			"**XP** 1,200  ",
@@ -371,7 +371,7 @@
 		"description": [
 			"*A writhing mass of legs and poisonous pincers swarms across the ground in a deadly, undulating wave.*",
 			"",
-			"::mh[Centipede Swarm]{cr=\"4\"}",
+			"::mh[Centipede Swarm]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/43}  ",
 			"**XP** 1,200  ",
@@ -495,7 +495,7 @@
 		"description": [
 			"*An elephantine centipede scurries about, its double tail lashing angrily behind it.*",
 			"",
-			"::mh[Giant Whiptail Centipede]{cr=\"3\"}",
+			"::mh[Giant Whiptail Centipede]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/53}  ",
 			"**XP** 800  ",
@@ -547,7 +547,7 @@
 		"description": [
 			"*A writhing, seemingly endless segmented monstrosity crawls forth, its great mandibles clacking as it spies prey.*",
 			"",
-			"::mh[Titan Centipede]{cr=\"9\"}",
+			"::mh[Titan Centipede]{cr=9}",
 			"",
 			"{SOURCE Bestiary 2/53}  ",
 			"**XP** 6,400  ",
@@ -601,7 +601,7 @@
 		"description": [
 			"*Holding its own severed head in its hands, this tall marble statue looms stern and forbidding over its domain.*",
 			"",
-			"::mh[Cephalophore]{cr=\"8\"}",
+			"::mh[Cephalophore]{cr=8}",
 			"",
 			"{SOURCE Bestiary 4/27;Pathfinder #64: Beyond the Doomsday Door/82}  ",
 			"**XP** 4,800  ",
@@ -670,7 +670,7 @@
 		"description": [
 			"*This flabby, fish-like humanoid has the wide mouth, bulging eyes, and dangling, luminescent flesh lure of a deep-sea predator.*",
 			"",
-			"::mh[Ceratioidi]{cr=\"3\"}",
+			"::mh[Ceratioidi]{cr=3}",
 			"",
 			"{SOURCE Bestiary 3/50;Pathfinder #32: Rivers Run Red/80}  ",
 			"**XP** 800  ",
@@ -730,7 +730,7 @@
 		"description": [
 			"*Every strip of this three-headed hound's hide has been peeled away, leaving wet sinew and bulging tendons exposed.*",
 			"",
-			"::mh[Cerberi]{cr=\"6\"}",
+			"::mh[Cerberi]{cr=6}",
 			"",
 			"{SOURCE Bestiary 3/51;Pathfinder #28: The Infernal Syndrome/84}  ",
 			"**XP** 2,400  ",
@@ -788,7 +788,7 @@
 		"description": [
 			"*This slimy-skinned, three-headed sea beast has writhing tentacles and is surrounded by a black, poisonous cloud that flickers like fire.*",
 			"",
-			"::mh[Cerberus Worm]{cr=\"14\"}",
+			"::mh[Cerberus Worm]{cr=14}",
 			"",
 			"{SOURCE Cheliax, the Infernal Empire/58}  ",
 			"**XP** 38,400  ",
@@ -844,7 +844,7 @@
 		"description": [
 			"*This floating, purple brain has occult sigils glowing on its surface and tentacles made of ectoplasm.*",
 			"",
-			"::mh[Cerebric Cyst]{cr=\"7\"}",
+			"::mh[Cerebric Cyst]{cr=7}",
 			"",
 			"{SOURCE Occult Bestiary/13}  ",
 			"**XP** 3,200  ",
@@ -908,7 +908,7 @@
 		"description": [
 			"*A swollen, brain-like bulb encrusted with fungal shelves squats atop several ropy legs. A wide mouth bisects the bulb's crown.*",
 			"",
-			"::mh[Cerebric Fungus]{cr=\"3\"}",
+			"::mh[Cerebric Fungus]{cr=3}",
 			"",
 			"{SOURCE Bestiary 3/52}  ",
 			"**XP** 800  ",
@@ -972,7 +972,7 @@
 		"description": [
 			"*This pint-sized creature resembles a tiny blue elephant no larger than a house cat. Its feet, tail, and ears are clawed and spiked.*",
 			"",
-			"::mh[Ceru]{cr=\"2\"}",
+			"::mh[Ceru]{cr=2}",
 			"",
 			"{SOURCE Inner Sea Bestiary/9}  ",
 			"**XP** 600  ",
@@ -1029,7 +1029,7 @@
 		"name": "Cervine Protector",
 		"sources": [ "Heaven Unleashed" ],
 		"description": [
-			"::mh[Cervine Protector]{cr=\"6\"}",
+			"::mh[Cervine Protector]{cr=6}",
 			"",
 			"{SOURCE Heaven Unleashed/44}  ",
 			"**XP** 2,400  ",
@@ -1087,7 +1087,7 @@
 		"description": [
 			"*This sleek and graceful doe possesses long, metallic antlers and a shiny, golden pelt.*",
 			"",
-			"::mh[Cerynitis]{cr=\"7\"}",
+			"::mh[Cerynitis]{cr=7}",
 			"",
 			"{SOURCE Bestiary 5/53}  ",
 			"**XP** 3,200  ",
@@ -1149,7 +1149,7 @@
 		"description": [
 			"*This massive aquatic mammal has bluish-gray coloration, a wide fluke tail, and a wide mouth filled with layers of baleen.*",
 			"",
-			"::mh[Blue Whale]{cr=\"12\"}",
+			"::mh[Blue Whale]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #59: The Price of Infamy/86;Bestiary 5/276}  ",
 			"**XP** 19,200  ",
@@ -1203,7 +1203,7 @@
 		"description": [
 			"*Similar to other whales in many ways, this giant aquatic beast is notable for its enormous teeth, menacingly strong jaws, and blood-red skin.*",
 			"",
-			"::mh[Crimson Whale]{cr=\"8\"}",
+			"::mh[Crimson Whale]{cr=8}",
 			"",
 			"{SOURCE Pathfinder #59: The Price of Infamy/87}  ",
 			"**XP** 4,800  ",
@@ -1258,7 +1258,7 @@
 		"description": [
 			"*This small whale lacks a dorsal fin and has pale, mottled skin, but its most notable feature is the single tusk protruding from its nose, easily as long as a human.*",
 			"",
-			"::mh[Narwhal]{cr=\"3\"}",
+			"::mh[Narwhal]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #59: The Price of Infamy/87;Bestiary 5/276}  ",
 			"**XP** 800  ",
@@ -1310,7 +1310,7 @@
 		"description": [
 			"*This enormous scaled serpent has the head of a shark, powerful claws, and a maw wide enough to swallow a small ship.*",
 			"",
-			"::mh[Cetus]{cr=\"13\"}",
+			"::mh[Cetus]{cr=13}",
 			"",
 			"{SOURCE Bestiary 5/54}  ",
 			"**XP** 25,600  ",
@@ -1379,7 +1379,7 @@
 		"description": [
 			"*This humanoid figure's body fades into mist below the hips, while its upper, ghostly torso is bound in lengths of writhing chains.*",
 			"",
-			"::mh[Chained Spirit]{cr=\"14\"}",
+			"::mh[Chained Spirit]{cr=14}",
 			"",
 			"{SOURCE Curse of the Crimson Throne/468;Pathfinder #11: Skeletons of Scarwall/78}  ",
 			"**XP** 38,400  ",
@@ -1450,7 +1450,7 @@
 		"description": [
 			"*This dwarf-like being of earth and metal has coppery hair and an open-faced helmet bearing two stylized boar tusks.*",
 			"",
-			"::mh[Chalkost]{cr=\"4\"}",
+			"::mh[Chalkost]{cr=4}",
 			"",
 			"{SOURCE Inner Sea Gods/311}  ",
 			"**XP** 1,200  ",
@@ -1583,7 +1583,7 @@
 		"description": [
 			"*This thing is a horrid mass of barbed tentacles, glaring eyes, and gnashing teeth, twisting upon itself and reshaping into new forms.*",
 			"",
-			"::mh[Chaos Beast]{cr=\"7\"}",
+			"::mh[Chaos Beast]{cr=7}",
 			"",
 			"{SOURCE Bestiary 2/54}  ",
 			"**XP** 3,200  ",
@@ -1636,7 +1636,7 @@
 		"description": [
 			"*This limber, shrieking creature has the visage of an enraged monkey, but it walks upright like a man.*",
 			"",
-			"::mh[Charau-ka]{cr=\"2\"}",
+			"::mh[Charau-ka]{cr=2}",
 			"",
 			"{SOURCE Inner Sea World Guide/308}  ",
 			"**XP** 600  ",
@@ -1693,7 +1693,7 @@
 		"description": [
 			"*A noxious fluid drips from the vicious arrows of this feral ape-like humanoid.*",
 			"",
-			"::mh[Deadfall Tracker]{cr=\"5\"}",
+			"::mh[Deadfall Tracker]{cr=5}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/12}  ",
 			"**XP** 1,600  ",
@@ -1744,7 +1744,7 @@
 		"description": [
 			"*Clad in bloodstains, ivory fetishes, and animal hides, this ape-like priest's regalia speaks to the horrible powers it serves.*",
 			"",
-			"::mh[Devotee of the Ravener King]{cr=\"7\"}",
+			"::mh[Devotee of the Ravener King]{cr=7}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/14}  ",
 			"**XP** 3,200  ",
@@ -1808,7 +1808,7 @@
 		"description": [
 			"*This hideous avian creature has the body of an emaciated rooster, the wings of a bat, and a long, scaly tail.*",
 			"",
-			"::mh[Cockatrice]{cr=\"3\"}",
+			"::mh[Cockatrice]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/48}  ",
 			"**XP** 800  ",
@@ -1858,7 +1858,7 @@
 		"description": [
 			"*Like a pestilent black tide, a ravenous horde of thousands of tiny, clacking cockroaches washes over everything in its path.*",
 			"",
-			"::mh[Cockroach Swarm]{cr=\"2\"}",
+			"::mh[Cockroach Swarm]{cr=2}",
 			"",
 			"{SOURCE Bestiary 2/58}  ",
 			"**XP** 600  ",
@@ -1961,7 +1961,7 @@
 		"description": [
 			"*This coffin-shaped anemone features a ridged, dark brown trunk topped with waving yellow tendrils surrounding a soft, pale blue center.*",
 			"",
-			"::mh[Coffin Anemone]{cr=\"1\"}",
+			"::mh[Coffin Anemone]{cr=1}",
 			"",
 			"{SOURCE Bestiary 6/248}  ",
 			"**XP** 400  ",
@@ -2014,7 +2014,7 @@
 		"description": [
 			"*Jagged, twisting antlers of dark blue ice crown the helm of this ice-armored humanoid figure.*",
 			"",
-			"::mh[Cold Rider]{cr=\"8\"}",
+			"::mh[Cold Rider]{cr=8}",
 			"",
 			"{SOURCE Bestiary 3/59;Carnival of Tears/29}  ",
 			"**XP** 4,800  ",
@@ -2076,7 +2076,7 @@
 		"description": [
 			"*An eerie radiance, a glow unlike anything else, fills the area, bringing with it a stifling sense of latent malignancy.*",
 			"",
-			"::mh[Colour Out of Space]{cr=\"10\"}",
+			"::mh[Colour Out of Space]{cr=10}",
 			"",
 			"{SOURCE Bestiary 4/38;Pathfinder #46: Wake of the Watcher/76}  ",
 			"**XP** 9,600  ",
@@ -2155,7 +2155,7 @@
 		"description": [
 			"*This creature's vestments are charred black and fused together, and its flesh is a raging inferno surrounded by greasy black smoke.*",
 			"",
-			"::mh[Combusted]{cr=\"3\"}",
+			"::mh[Combusted]{cr=3}",
 			"",
 			"{SOURCE Bestiary 6/63;Occult Bestiary/16}  ",
 			"**XP** 800  ",
@@ -2219,7 +2219,7 @@
 		"description": [
 			"*The only real feature of this flaring of electrical energy is a vaguely humanoid face that flickers and plays within its shifting mass.*",
 			"",
-			"::mh[Comozant Wyrd]{cr=\"4\"}",
+			"::mh[Comozant Wyrd]{cr=4}",
 			"",
 			"{SOURCE Bestiary 4/40;Pathfinder #57: Tempest Rising/82}  ",
 			"**XP** 1,200  ",
@@ -2275,7 +2275,7 @@
 		"description": [
 			"*This immense worm resembles a gigantic maggot with pale flesh. Its mouth is peeled back to reveal four long, hook-like jaws.*",
 			"",
-			"::mh[Conqueror Worm]{cr=\"21\"}",
+			"::mh[Conqueror Worm]{cr=21}",
 			"",
 			"{SOURCE Bestiary 6/64}  ",
 			"**XP** 409,600  ",
@@ -2357,7 +2357,7 @@
 		"description": [
 			"*This floating creature is mostly pulsating brain-sac, with an atrophied manikin body hanging under it.*",
 			"",
-			"::mh[Contemplative]{cr=\"2\"}",
+			"::mh[Contemplative]{cr=2}",
 			"",
 			"{SOURCE Bestiary 4/41;Distant Worlds/60}  ",
 			"**XP** 600  ",
@@ -2409,7 +2409,7 @@
 		"description": [
 			"*Resembling an enlarged brain with an atrophied humanoid body attached, this floating creature pulses with energy.*",
 			"",
-			"::mh[Enlightened Contemplative]{cr=\"5\"}",
+			"::mh[Enlightened Contemplative]{cr=5}",
 			"",
 			"{SOURCE Occult Bestiary/17}  ",
 			"**XP** 1,600  ",
@@ -2472,7 +2472,7 @@
 		"description": [
 			"*The twisted, leafless branches of this dead tree still bear bright red fruit, each one shriveled and covered in splotches of black rot.*",
 			"",
-			"::mh[Copsewight]{cr=\"11\"}",
+			"::mh[Copsewight]{cr=11}",
 			"",
 			"{SOURCE Pathfinder #119: Prisoners of the Blight/80}  ",
 			"**XP** 12,800  ",
@@ -2561,7 +2561,7 @@
 		"description": [
 			"*This enormous scorpion-like creature has legs like jagged bark and a moss-colored body. It barbed tail drips foul-smelling venom and its wide mouth has multiple hinged jaws.*",
 			"",
-			"::mh[Corbayrant]{cr=\"16\"}",
+			"::mh[Corbayrant]{cr=16}",
 			"",
 			"{SOURCE Pathfinder #132: The Six-Legend Soul/84}  ",
 			"**XP** 76,800  ",
@@ -2641,7 +2641,7 @@
 		"description": [
 			"*Interlocking plates of chitin cover this massive, six-legged beast's face like a jagged mask.*",
 			"",
-			"::mh[Cordulegaster]{cr=\"6\"}",
+			"::mh[Cordulegaster]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #98: Turn of the Torrent/82}  ",
 			"**XP** 2,400  ",
@@ -2721,7 +2721,7 @@
 		"description": [
 			"*The insectile eyes of this chitin-covered daemonic monstrosity display a malign intelligence.*",
 			"",
-			"::mh[Elder Cordulegaster]{cr=\"7\"}",
+			"::mh[Elder Cordulegaster]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #98: Turn of the Torrent/83}  ",
 			"**XP** 3,200  ",
@@ -2792,7 +2792,7 @@
 		"description": [
 			"*Planted in soil fertilized with corpses, this giant, blood-red flower is surrounded by prickly vines.*",
 			"",
-			"::mh[Corpse Lotus]{cr=\"13\"}",
+			"::mh[Corpse Lotus]{cr=13}",
 			"",
 			"{SOURCE Bestiary 5/60;Pathfinder #78: City of Locusts/84}  ",
 			"**XP** 25,600  ",
@@ -2853,7 +2853,7 @@
 		"description": [
 			"*A crown of softly glowing crystals caps the head of this hauntingly beautiful, midnight-black figure.*",
 			"",
-			"::mh[Coryphae]{cr=\"6\"}",
+			"::mh[Coryphae]{cr=6}",
 			"",
 			"{SOURCE Down the Blighted Path/52}  ",
 			"**XP** 2,400  ",
@@ -2913,7 +2913,7 @@
 		"description": [
 			"*This great serpent has multicolored wings and eyes that glimmer with intense awareness.*",
 			"",
-			"::mh[Couatl]{cr=\"10\"}",
+			"::mh[Couatl]{cr=10}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/49}  ",
 			"**XP** 9,600  ",
@@ -2981,7 +2981,7 @@
 		"description": [
 			"*This winged serpent is covered with bright blue-and-green feathers that are reminiscent of ocean waters.*",
 			"",
-			"::mh[Auwaz Couatl]{cr=\"6\"}",
+			"::mh[Auwaz Couatl]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #140: Eulogy for Roslar's Coffer/82}  ",
 			"**XP** 2,400  ",
@@ -3059,7 +3059,7 @@
 		"description": [
 			"*The feathers of this winged serpent are hues of verdant green, save for the crimson feathers on its head and crest. Its wings let forth thin clouds of golden pollen and showers of dew.*",
 			"",
-			"::mh[Chicome]{cr=\"16\"}",
+			"::mh[Chicome]{cr=16}",
 			"",
 			"{SOURCE Pathfinder #143: Borne by the Sun's Grace/82}  ",
 			"**XP** 76,800  ",
@@ -3150,7 +3150,7 @@
 		"description": [
 			"*This brilliantly colored couatl radiates a palpable air of peace and wisdom.*",
 			"",
-			"::mh[Lord Sun-Warrior]{cr=\"15\"}",
+			"::mh[Lord Sun-Warrior]{cr=15}",
 			"",
 			"{SOURCE Mythical Monsters Revisited/14}  ",
 			"**XP** 51,200  ",
@@ -3212,7 +3212,7 @@
 		"description": [
 			"*Dark scales marked with shining spots resembling stars cover this winged serpent. Faint red stripes span the length of its body.*",
 			"",
-			"::mh[Mix Couatl]{cr=\"8\"}",
+			"::mh[Mix Couatl]{cr=8}",
 			"",
 			"{SOURCE Pathfinder #140: Eulogy for Roslar's Coffer/84}  ",
 			"**XP** 4,800  ",
@@ -3302,7 +3302,7 @@
 		"description": [
 			"*This massive flying serpent's iridescent scales glimmer like opals, and white-hot flames dance along the feathers of its burning wings.*",
 			"",
-			"::mh[Tletli]{cr=\"14\"}",
+			"::mh[Tletli]{cr=14}",
 			"",
 			"{SOURCE Pathfinder #143: Borne by the Sun's Grace/84}  ",
 			"**XP** 38,400  ",
@@ -3387,7 +3387,7 @@
 		"description": [
 			"*Wreathed in flame, this winged serpent sports brightly colored feathers sparking with electricity.*",
 			"",
-			"::mh[Xiuh Couatl]{cr=\"12\"}",
+			"::mh[Xiuh Couatl]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #106: For Queen and Empire/86}  ",
 			"**XP** 19,200  ",
@@ -3475,7 +3475,7 @@
 		"description": [
 			"*A writhing mass of clacking shells and snapping pincers rushes from the surf, their spider-like legs twitching across the sand.*",
 			"",
-			"::mh[Crab Swarm]{cr=\"4\"}",
+			"::mh[Crab Swarm]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/50}  ",
 			"**XP** 1,200  ",
@@ -3520,7 +3520,7 @@
 		"description": [
 			"*This lumbering hard-shelled crab stands as tall as a dwarf, its massive pincers waving menacingly.*",
 			"",
-			"::mh[Giant Crab]{cr=\"2\"}",
+			"::mh[Giant Crab]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/50}  ",
 			"**XP** 600  ",
@@ -3581,7 +3581,7 @@
 		"description": [
 			"*This spiny, long-legged crab towers over its surroundings. Its quick and powerful claws thrash wildly, eager for prey.*",
 			"",
-			"::mh[Shark-Eating Crab]{cr=\"7\"}",
+			"::mh[Shark-Eating Crab]{cr=7}",
 			"",
 			"{SOURCE Bestiary 3/60}  ",
 			"**XP** 3,200  ",
@@ -3634,7 +3634,7 @@
 		"description": [
 			"*Claws the size of rowboats dominate the form of this massive crab. Barnacles and sea grass cling to the creature's thick shell.*",
 			"",
-			"::mh[Shipwrecker Crab]{cr=\"13\"}",
+			"::mh[Shipwrecker Crab]{cr=13}",
 			"",
 			"{SOURCE Bestiary 3/60}  ",
 			"**XP** 25,600  ",
@@ -3689,7 +3689,7 @@
 		"description": [
 			"*This mass of floating skulls lingers in the air with a haunting presence. A constant clattering emanates from the dreadful mass.*",
 			"",
-			"::mh[Crackling Skull Swarm]{cr=\"10\"}",
+			"::mh[Crackling Skull Swarm]{cr=10}",
 			"",
 			"{SOURCE Pathfinder #141: Last Watch/90}  ",
 			"**XP** 9,600  ",
@@ -3792,7 +3792,7 @@
 		"description": [
 			"*A giant rotting hand rocks unsteadily, propped upon thick, stubby fingers. Its pale, necrotic flesh pulses and crawls with sickly boils.*",
 			"",
-			"::mh[Giant Crawling Hand]{cr=\"5\"}",
+			"::mh[Giant Crawling Hand]{cr=5}",
 			"",
 			"{SOURCE Bestiary 2/59}  ",
 			"**XP** 1,600  ",
@@ -3846,7 +3846,7 @@
 		"description": [
 			"*This bright-red jellyfish dangles a long, central tentacle surrounded by a multitude of shorter red tendrils.*",
 			"",
-			"::mh[Crimson Jellyfish]{cr=\"4\"}",
+			"::mh[Crimson Jellyfish]{cr=4}",
 			"",
 			"{SOURCE Bestiary 6/169}  ",
 			"**XP** 1,200  ",
@@ -3897,7 +3897,7 @@
 		"description": [
 			"*This reptile lunges out of the placid water with shocking speed. Its jaw gapes open in a roar, its powerful tail lashing behind.*",
 			"",
-			"::mh[Crocodile]{cr=\"2\"}",
+			"::mh[Crocodile]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/51}  ",
 			"**XP** 600  ",
@@ -3952,7 +3952,7 @@
 		"description": [
 			"*This reptilian behemoth, a crocodile of monstrous proportions, is large enough to swallow a horse in one tremendous bite.*",
 			"",
-			"::mh[Dire Crocodile]{cr=\"9\"}",
+			"::mh[Dire Crocodile]{cr=9}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/51}  ",
 			"**XP** 6,400  ",
@@ -3999,7 +3999,7 @@
 		"description": [
 			"*This enormous black crocodile gapes hungrily with a maw big enough to swallow two armored warriors whole.*",
 			"",
-			"::mh[Hetkoshu]{cr=\"12\"}",
+			"::mh[Hetkoshu]{cr=12}",
 			"",
 			"{SOURCE Osirion, Legacy of the Pharaohs/54}  ",
 			"**XP** 19,200  ",
@@ -4055,7 +4055,7 @@
 		"description": [
 			"*This immense reptile, an alligator of overwhelming size, emerges from the water with rapidly snapping jaws that grind menacingly between each bite.*",
 			"",
-			"::mh[Deinosuchus]{cr=\"8\"}",
+			"::mh[Deinosuchus]{cr=8}",
 			"",
 			"{SOURCE Pathfinder #58: Island of Empty Eyes/84}  ",
 			"**XP** 4,800  ",
@@ -4111,7 +4111,7 @@
 		"description": [
 			"*This fish-like reptile has a thin, streamlined snout filled with needle-like teeth and a long, flat tail that it uses to propel itself through the water.*",
 			"",
-			"::mh[Marine Crocodile]{cr=\"3\"}",
+			"::mh[Marine Crocodile]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #58: Island of Empty Eyes/85}  ",
 			"**XP** 800  ",
@@ -4166,7 +4166,7 @@
 		"description": [
 			"*This crocodile is nearly half again as large as a normal crocodile, and seems to smile with its long, toothed mouth as it lunges forward.*",
 			"",
-			"::mh[Saltwater Crocodile]{cr=\"5\"}",
+			"::mh[Saltwater Crocodile]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #58: Island of Empty Eyes/85}  ",
 			"**XP** 1,600  ",

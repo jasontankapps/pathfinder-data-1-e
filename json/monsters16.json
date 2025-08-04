@@ -8,7 +8,7 @@
 		"description": [
 			"*This tangle of rotten, seemingly lifeless roots twitches slightly, moving the damp, bloody ground beneath it.*",
 			"",
-			"::mh[Leechroot]{cr=\"4\"}",
+			"::mh[Leechroot]{cr=4}",
 			"",
 			"{SOURCE Bestiary 5/155;Tears at Bitter Manor/62}  ",
 			"**XP** 1,200  ",
@@ -69,7 +69,7 @@
 		"description": [
 			"*This unnatural beast's clawed hands dangle in front of its hind paws. Its bat-winged form blends humanoid features with canine.*",
 			"",
-			"::mh[Leng Hound]{cr=\"10\"}",
+			"::mh[Leng Hound]{cr=10}",
 			"",
 			"{SOURCE Bestiary 6/180}  ",
 			"**XP** 9,600  ",
@@ -134,7 +134,7 @@
 		"description": [
 			"*This immense purple spider has a legspan of nearly forty feet and a hideously bloated body, yet still moves with fluid grace.*",
 			"",
-			"::mh[Leng Spider]{cr=\"14\"}",
+			"::mh[Leng Spider]{cr=14}",
 			"",
 			"{SOURCE Bestiary 2/176}  ",
 			"**XP** 38,400  ",
@@ -194,7 +194,7 @@
 		"description": [
 			"*This small humanoid has pointed ears, green eyes, and a wicked grin. He carries a bottle in one hand and a club in the other.*",
 			"",
-			"::mh[Leprechaun]{cr=\"2\"}",
+			"::mh[Leprechaun]{cr=2}",
 			"",
 			"{SOURCE Bestiary 2/177}  ",
 			"**XP** 600  ",
@@ -253,7 +253,7 @@
 		"description": [
 			"*This freakish beast has the head of a badger, the hooves of a stag, and a wide mouth with sharp ridges of bone instead of teeth.*",
 			"",
-			"::mh[Leucrotta]{cr=\"5\"}",
+			"::mh[Leucrotta]{cr=5}",
 			"",
 			"{SOURCE Bestiary 2/178;Pathfinder #17: A Memory of Darkness/82}  ",
 			"**XP** 1,600  ",
@@ -316,7 +316,7 @@
 		"description": [
 			"*This impossibly enormous, whale-like monstrosity glares with a hundred red eyes, its cavernous maw lined with rows of sharp teeth.*",
 			"",
-			"::mh[Leviathan]{cr=\"30\"}",
+			"::mh[Leviathan]{cr=30}",
 			"",
 			"{SOURCE Planar Adventures/240}  ",
 			"**XP** 9,830,400  ",
@@ -395,7 +395,7 @@
 		"description": [
 			"*This amorphous creature resembles a golden-hued jellyfish that floats through the air, fleshy tentacles dangling down in a line.*",
 			"",
-			"::mh[Liavaran Dreamer]{cr=\"8\"}",
+			"::mh[Liavaran Dreamer]{cr=8}",
 			"",
 			"{SOURCE Occult Bestiary/31}  ",
 			"**XP** 4,800  ",
@@ -510,7 +510,7 @@
 		"description": [
 			"*Glittering jewels encrust this leering skull as it floats up into the air on a swirling vortex of dust and shimmering magic.*",
 			"",
-			"::mh[Demilich]{cr=\"14\"}",
+			"::mh[Demilich]{cr=14}",
 			"",
 			"{SOURCE Bestiary 3/66}  ",
 			"**XP** 38,400  ",
@@ -597,7 +597,7 @@
 		"description": [
 			"*This horribly withered creature moves in jerks and twitches as if constantly wracked with pain. Waves of shadow undulate through the creature's body, emerging like appendages from just beneath its dry, stretched skin.*",
 			"",
-			"::mh[Forsaken Lich]{cr=\"12\"}",
+			"::mh[Forsaken Lich]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #48: Shadows of Gallowspire/82}  ",
 			"**XP** 19,200  ",
@@ -657,7 +657,7 @@
 		"description": [
 			"*This creature resembles an elven courtier in miniature, dressed in the latest fashion and moth-like wings on its back.*",
 			"",
-			"::mh[Liminal Sprite]{cr=\"2\"}",
+			"::mh[Liminal Sprite]{cr=2}",
 			"",
 			"{SOURCE Bestiary 5/158}  ",
 			"**XP** 600  ",
@@ -719,7 +719,7 @@
 		"description": [
 			"*This great cat's muscles flex visibly under its skin as it bares its fangs and shakes its thick mane of hair.*",
 			"",
-			"::mh[Lion]{cr=\"3\"}",
+			"::mh[Lion]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/193}  ",
 			"**XP** 800  ",
@@ -767,7 +767,7 @@
 		"description": [
 			"*This immense spotted lion stands as tall as a man at the shoulder, its fur matted with the blood of its victims.*",
 			"",
-			"::mh[Dire Lion (Spotted Lion)]{cr=\"5\"}",
+			"::mh[Dire Lion (Spotted Lion)]{cr=5}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/193}  ",
 			"**XP** 1,600  ",
@@ -814,7 +814,7 @@
 		"description": [
 			"*This hulking merfolk has rotting skin, dull black eyes, and four thick tentacles ending in toothy maws protruding from its back.*",
 			"",
-			"::mh[Litanu]{cr=\"11\"}",
+			"::mh[Litanu]{cr=11}",
 			"",
 			"{SOURCE Pathfinder #125: Tower of the Drowned Dead/84}  ",
 			"**XP** 12,800  ",
@@ -890,7 +890,7 @@
 		"description": [
 			"*The painted ochre lines of this stylized bison seem to shift and flow, giving the primitive drawing an eerie sense of life and otherworldly majesty.*",
 			"",
-			"::mh[Living Cave Painting]{cr=\"4\"}",
+			"::mh[Living Cave Painting]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #93: Forge of the Giant God/88}  ",
 			"**XP** 1,200  ",
@@ -967,7 +967,7 @@
 		"description": [
 			"*The air here is eerily still, and the normal sound of the wind is replaced by a barely audible hum.*",
 			"",
-			"::mh[Living Doldrums]{cr=\"12\"}",
+			"::mh[Living Doldrums]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #123: The Flooded Cathedral/88}  ",
 			"**XP** 19,200  ",
@@ -1047,7 +1047,7 @@
 		"description": [
 			"*Carved from gray stone, this enormous figure is shaped like the head of some primordial giant.*",
 			"",
-			"::mh[Living Effigy]{cr=\"8\"}",
+			"::mh[Living Effigy]{cr=8}",
 			"",
 			"{SOURCE Pathfinder #94: Ice Tomb of the Giant Queen/88}  ",
 			"**XP** 4,800  ",
@@ -1139,7 +1139,7 @@
 		"description": [
 			"*A glimmering vision shimmers on the horizon, the very air coalescing into an oasis that may or may not exist.*",
 			"",
-			"::mh[Living Mirage]{cr=\"9\"}",
+			"::mh[Living Mirage]{cr=9}",
 			"",
 			"{SOURCE Bestiary 5/159;Osirion, Legacy of the Pharaohs/58}  ",
 			"**XP** 6,400  ",
@@ -1199,7 +1199,7 @@
 		"description": [
 			"*A pulsating glyph animates into a quickly flowing script that changes form as it rewrites itself, before finally assembling into an arcane symbol that flares with untold magical power.*",
 			"",
-			"::mh[Living Rune]{cr=\"13\"}",
+			"::mh[Living Rune]{cr=13}",
 			"",
 			"{SOURCE Pathfinder #66: The Dead Heart of Xin/88}  ",
 			"**XP** 25,600  ",
@@ -1287,7 +1287,7 @@
 		"description": [
 			"*This hulking humanoid figure of packed red sand is no taller than an average human, but it is brawny and exceptionally broad.*",
 			"",
-			"::mh[Living Sandstorm (Humanoid)]{cr=\"11\"}",
+			"::mh[Living Sandstorm (Humanoid)]{cr=11}",
 			"",
 			"{SOURCE Pathfinder #83: The Slave Trenches of Hakotep/86}  ",
 			"**XP** 12,800  ",
@@ -1352,7 +1352,7 @@
 		"name": "Living Sandstorm (Sandstorm)",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
-			"::mh[Living Sandstorm (Sandstorm)]{cr=\"11\"}",
+			"::mh[Living Sandstorm (Sandstorm)]{cr=11}",
 			"",
 			"{SOURCE Pathfinder #83: The Slave Trenches of Hakotep/86}  ",
 			"**XP** 12,800  ",
@@ -1427,7 +1427,7 @@
 		"description": [
 			"*This lumbering topiary has the rough shape of an elephant, complete with brambly limbs and tusks.*",
 			"",
-			"::mh[Living Topiary]{cr=\"4\"}",
+			"::mh[Living Topiary]{cr=4}",
 			"",
 			"{SOURCE Bestiary 4/181;Pathfinder #47: Ashes at Dawn/80}  ",
 			"**XP** 1,200  ",
@@ -1492,7 +1492,7 @@
 		"description": [
 			"*This gruesome wall is made stacked corpses mortared together into an unyielding mass of grasping limbs, topped with a dragon skull.*",
 			"",
-			"::mh[Living Wall]{cr=\"4\"}",
+			"::mh[Living Wall]{cr=4}",
 			"",
 			"{SOURCE Bestiary 4/182}  ",
 			"**XP** 1,200  ",
@@ -1555,7 +1555,7 @@
 		"description": [
 			"*Nearly invisible in its surroundings, this scaly lizard's eyes dart about independently of each other.*",
 			"",
-			"::mh[Giant Chameleon]{cr=\"3\"}",
+			"::mh[Giant Chameleon]{cr=3}",
 			"",
 			"{SOURCE Bestiary 3/186}  ",
 			"**XP** 800  ",
@@ -1604,7 +1604,7 @@
 		"description": [
 			"*With large bulging eyes to spot prey from afar, this oversized, smooth-scaled lizard has splayed, padded feet and a toothy maw.*",
 			"",
-			"::mh[Giant Gecko]{cr=\"1\"}",
+			"::mh[Giant Gecko]{cr=1}",
 			"",
 			"{SOURCE Bestiary 3/186}  ",
 			"**XP** 400  ",
@@ -1649,7 +1649,7 @@
 		"description": [
 			"*This bright-eyed lizard is larger than a horse. As it hisses in anger, a brightly colored frill extends around its neck.*",
 			"",
-			"::mh[Giant Frilled Lizard]{cr=\"5\"}",
+			"::mh[Giant Frilled Lizard]{cr=5}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/194}  ",
 			"**XP** 1,600  ",
@@ -1699,7 +1699,7 @@
 		"description": [
 			"*This immense lizard moves with a slow but relentless gait. Its feet end in large talons, and ropes of drool hang from its toothy maw.*",
 			"",
-			"::mh[Monitor Lizard]{cr=\"2\"}",
+			"::mh[Monitor Lizard]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/194}  ",
 			"**XP** 600  ",
@@ -1747,7 +1747,7 @@
 		"description": [
 			"*This reptilian humanoid has green scales, a short and toothy snout, and a thick alligator-like tail.*",
 			"",
-			"::mh[Lizardfolk]{cr=\"1\"}",
+			"::mh[Lizardfolk]{cr=1}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/195}  ",
 			"**XP** 400  ",
@@ -1802,7 +1802,7 @@
 		"description": [
 			"*This muscular lizardfolk towers above others of its kind, a primeval behemoth painted with elaborate designs.*",
 			"",
-			"::mh[Lizard Scion]{cr=\"5\"}",
+			"::mh[Lizard Scion]{cr=5}",
 			"",
 			"{SOURCE Monster Codex/148}  ",
 			"**XP** 1,600  ",
@@ -1860,7 +1860,7 @@
 		"name": "Lizardfolk Berserker",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Lizardfolk Berserker]{cr=\"5\"}",
+			"::mh[Lizardfolk Berserker]{cr=5}",
 			"",
 			"{SOURCE Monster Codex/142}  ",
 			"**XP** 1,600  ",
@@ -1911,7 +1911,7 @@
 		"name": "Lizardfolk Champion",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Lizardfolk Champion]{cr=\"10\"}",
+			"::mh[Lizardfolk Champion]{cr=10}",
 			"",
 			"{SOURCE Monster Codex/145}  ",
 			"**XP** 9,600  ",
@@ -1983,7 +1983,7 @@
 		"name": "Lizardfolk Clutch Mother",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Lizardfolk Clutch Mother]{cr=\"13\"}",
+			"::mh[Lizardfolk Clutch Mother]{cr=13}",
 			"",
 			"{SOURCE Monster Codex/147}  ",
 			"**XP** 25,600  ",
@@ -2046,7 +2046,7 @@
 		"name": "Lizardfolk Rattler",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Lizardfolk Rattler]{cr=\"5\"}",
+			"::mh[Lizardfolk Rattler]{cr=5}",
 			"",
 			"{SOURCE Monster Codex/144}  ",
 			"**XP** 1,600  ",
@@ -2095,7 +2095,7 @@
 		"name": "Lizardfolk Sorcerer",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Lizardfolk Sorcerer]{cr=\"12\"}",
+			"::mh[Lizardfolk Sorcerer]{cr=12}",
 			"",
 			"{SOURCE Monster Codex/146}  ",
 			"**XP** 19,200  ",
@@ -2154,7 +2154,7 @@
 		"name": "Lizardfolk Stalker",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Lizardfolk Stalker]{cr=\"3\"}",
+			"::mh[Lizardfolk Stalker]{cr=3}",
 			"",
 			"{SOURCE Monster Codex/143}  ",
 			"**XP** 800  ",
@@ -2203,7 +2203,7 @@
 		"name": "Lizardfolk Swamp Lurker",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Lizardfolk Swamp Lurker]{cr=\"8\"}",
+			"::mh[Lizardfolk Swamp Lurker]{cr=8}",
 			"",
 			"{SOURCE Monster Codex/143}  ",
 			"**XP** 4,800  ",
@@ -2248,7 +2248,7 @@
 		"name": "Lizardfolk Vanguard",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Lizardfolk Vanguard]{cr=\"2\"}",
+			"::mh[Lizardfolk Vanguard]{cr=2}",
 			"",
 			"{SOURCE Monster Codex/142}  ",
 			"**XP** 600  ",
@@ -2347,7 +2347,7 @@
 		"description": [
 			"*Weeping and wearing a damp funeral dress, this ghostly woman carries an air of menace and overwhelming despair about her.*",
 			"",
-			"::mh[Llorona]{cr=\"11\"}",
+			"::mh[Llorona]{cr=11}",
 			"",
 			"{SOURCE Bestiary 6/181}  ",
 			"**XP** 12,800  ",
@@ -2453,7 +2453,7 @@
 		"description": [
 			"*The mandibles of this enormous grasshopper churn and grind as it quests for food.*",
 			"",
-			"::mh[Giant Locust]{cr=\"3\"}",
+			"::mh[Giant Locust]{cr=3}",
 			"",
 			"{SOURCE Bestiary 4/183}  ",
 			"**XP** 800  ",
@@ -2510,7 +2510,7 @@
 		"description": [
 			"*Thousands upon thousands of locusts dance and drone in a dark and ravenous cloud.*",
 			"",
-			"::mh[Locust Swarm]{cr=\"2\"}",
+			"::mh[Locust Swarm]{cr=2}",
 			"",
 			"{SOURCE Bestiary 4/183}  ",
 			"**XP** 600  ",
@@ -2561,7 +2561,7 @@
 		"description": [
 			"*Buzzing with an ear-shattering drone, this cloud is full of particularly vicious-looking locusts.*",
 			"",
-			"::mh[Plague Locust Swarm]{cr=\"8\"}",
+			"::mh[Plague Locust Swarm]{cr=8}",
 			"",
 			"{SOURCE Pathfinder #79: The Half-Dead City/88}  ",
 			"**XP** 4,800  ",
@@ -2620,7 +2620,7 @@
 		"description": [
 			"*This strange creature appears to be a gigantic human head carved from stone, with thick tentacles sprouting from its scalp.*",
 			"",
-			"::mh[Lorelei]{cr=\"12\"}",
+			"::mh[Lorelei]{cr=12}",
 			"",
 			"{SOURCE Bestiary 4/184;Pathfinder #60: From Hell's Heart/86}  ",
 			"**XP** 19,200  ",
@@ -2682,7 +2682,7 @@
 		"description": [
 			"*This majestic tree of strange, twisted bark has countless pale fruits and an intensely pleasant scent.*",
 			"",
-			"::mh[Lotus Tree]{cr=\"20\"}",
+			"::mh[Lotus Tree]{cr=20}",
 			"",
 			"{SOURCE Bestiary 5/160}  ",
 			"**XP** 307,200  ",
@@ -2741,7 +2741,7 @@
 		"description": [
 			"*Eight legs of shattered bone emerge from this sickly, pulsating heart, holding it aloft like a spider. Blood oozes from the glistening organ.*",
 			"",
-			"::mh[Lovelorn]{cr=\"4\"}",
+			"::mh[Lovelorn]{cr=4}",
 			"",
 			"{SOURCE Bestiary 6/182}  ",
 			"**XP** 1,200  ",
@@ -2807,7 +2807,7 @@
 		"description": [
 			"*A long, spiny fin runs down the length of the dolphin-like body of this eel-headed predator.*",
 			"",
-			"::mh[Lukwata]{cr=\"11\"}",
+			"::mh[Lukwata]{cr=11}",
 			"",
 			"{SOURCE Bestiary 3/187;Pathfinder #41: The Thousand Fangs Below/86}  ",
 			"**XP** 12,800  ",
@@ -2867,7 +2867,7 @@
 		"description": [
 			"*This monstrous crab-like creature hovers in midair, its three clawed tentacles snapping aggressively.*",
 			"",
-			"::mh[Lunarma]{cr=\"6\"}",
+			"::mh[Lunarma]{cr=6}",
 			"",
 			"{SOURCE Bestiary 4/185}  ",
 			"**XP** 2,400  ",
@@ -2933,7 +2933,7 @@
 		"description": [
 			"*This large-eyed humanoid looks like a glowing, emaciated elven child save for its small, transparent wings.*",
 			"",
-			"::mh[Lurker in Light]{cr=\"5\"}",
+			"::mh[Lurker in Light]{cr=5}",
 			"",
 			"{SOURCE Bestiary 2/180;The Great Beyond - A Guide to the Multiverse/58}  ",
 			"**XP** 1,600  ",
@@ -3001,7 +3001,7 @@
 			"Misfit Monsters Redeemed"
 		],
 		"description": [
-			"::mh[Executioner's Hood]{cr=\"2\"}",
+			"::mh[Executioner's Hood]{cr=2}",
 			"",
 			"{SOURCE Bestiary 4/186;Misfit Monsters Redeemed/50}  ",
 			"**XP** 600  ",
@@ -3061,7 +3061,7 @@
 			"Misfit Monsters Redeemed"
 		],
 		"description": [
-			"::mh[Lurker Above]{cr=\"7\"}",
+			"::mh[Lurker Above]{cr=7}",
 			"",
 			"{SOURCE Bestiary 4/187;Misfit Monsters Redeemed/50}  ",
 			"**XP** 3,200  ",
@@ -3119,7 +3119,7 @@
 			"Misfit Monsters Redeemed"
 		],
 		"description": [
-			"::mh[Trapper]{cr=\"8\"}",
+			"::mh[Trapper]{cr=8}",
 			"",
 			"{SOURCE Bestiary 4/187;Misfit Monsters Redeemed/50}  ",
 			"**XP** 4,800  ",
@@ -3176,7 +3176,7 @@
 		"description": [
 			"*This beast has three shark-like heads on short, scaly necks, while its lower body appears to be that of an octopus.*",
 			"",
-			"::mh[Lusca]{cr=\"17\"}",
+			"::mh[Lusca]{cr=17}",
 			"",
 			"{SOURCE Bestiary 5/161;Isles of the Shackles/53}  ",
 			"**XP** 102,400  ",
@@ -3236,7 +3236,7 @@
 		"description": [
 			"*This wolf-like creature's body is composed of thick vines, fine vegetation that almost resembles fur, and enormous thorns. Its eyes shine with a green glow, and prickly vines cover the immense, antler-like growths on its head.*",
 			"",
-			"::mh[Lythirium]{cr=\"11\"}",
+			"::mh[Lythirium]{cr=11}",
 			"",
 			"{SOURCE Pathfinder #105: The Inferno Gate/86}  ",
 			"**XP** 12,800  ",
@@ -3319,7 +3319,7 @@
 		"description": [
 			"*This wild-looking woman is covered in spattered blood. Her wicked smile reveals sharp teeth and her eyes suggest insanity.*",
 			"",
-			"::mh[Maenad]{cr=\"8\"}",
+			"::mh[Maenad]{cr=8}",
 			"",
 			"{SOURCE Bestiary 4/191}  ",
 			"**XP** 4,800  ",
@@ -3381,7 +3381,7 @@
 		"description": [
 			"*Broad hawk wings support this creature with the torso of a bronze-skinned human and the lower body of a tawny, bipedal lion.*",
 			"",
-			"::mh[Maftet]{cr=\"6\"}",
+			"::mh[Maftet]{cr=6}",
 			"",
 			"{SOURCE Bestiary 3/188;Pathfinder #15: The Armageddon Echo/88}  ",
 			"**XP** 2,400  ",
@@ -3444,7 +3444,7 @@
 		"description": [
 			"*This seething mass of bubbling molten rock churns and moves of its own hungry accord.*",
 			"",
-			"::mh[Magma Ooze]{cr=\"7\"}",
+			"::mh[Magma Ooze]{cr=7}",
 			"",
 			"{SOURCE Bestiary 2/184}  ",
 			"**XP** 3,200  ",
@@ -3510,7 +3510,7 @@
 		"description": [
 			"*Built of fire and magma, this short humanoid radiates intense heat that causes the air around it to shimmer.*",
 			"",
-			"::mh[Magmin]{cr=\"3\"}",
+			"::mh[Magmin]{cr=3}",
 			"",
 			"{SOURCE Bestiary 3/189}  ",
 			"**XP** 800  ",
@@ -3572,7 +3572,7 @@
 		"description": [
 			"*This massive creature combines the trunk, tusks, and size of an elephant with the powerful jaws, scaly hide, and tail of a crocodile.*",
 			"",
-			"::mh[Makara Vahana]{cr=\"9\"}",
+			"::mh[Makara Vahana]{cr=9}",
 			"",
 			"{SOURCE Bestiary 5/262}  ",
 			"**XP** 6,400  ",
@@ -3619,7 +3619,7 @@
 		"description": [
 			"*A beast leapt forth from the flames of Hell, this gigantic, three-headed hound howls a sound like the cacophony of a raging wildfire. Large enough to heft a horse in its monstrous maws, this terror bears no flesh, its body merely a thing of exposed bone and charred musculature. From its three fanged mouths leap tongues of flame, and crimson saliva leaks from the terror's skeletal jaws.*",
 			"",
-			"::mh[Malbolgian Cerberi]{cr=\"12\"}",
+			"::mh[Malbolgian Cerberi]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #28: The Infernal Syndrome/84}  ",
 			"**XP** 19,200  ",
@@ -3668,7 +3668,7 @@
 		"description": [
 			"*The tail of this shimmering, salamander-like creature is composed entirely of water.*",
 			"",
-			"::mh[Mamiwa]{cr=\"2\"}",
+			"::mh[Mamiwa]{cr=2}",
 			"",
 			"{SOURCE Ire of the Storm/63}  ",
 			"**XP** 600  ",
@@ -3729,7 +3729,7 @@
 		"description": [
 			"*This disembodied female torso flaps through the air on bat-like wings, her fanged face a hateful mask.*",
 			"",
-			"::mh[Manananggal]{cr=\"7\"}",
+			"::mh[Manananggal]{cr=7}",
 			"",
 			"{SOURCE Bestiary 3/190}  ",
 			"**XP** 3,200  ",
@@ -3789,7 +3789,7 @@
 		"description": [
 			"*This elderly figure looks out with heavy-lidded eyes, and seems lost in its own serenity.*",
 			"",
-			"::mh[Maharishi Manu]{cr=\"16\"}",
+			"::mh[Maharishi Manu]{cr=16}",
 			"",
 			"{SOURCE Bestiary 5/164}  ",
 			"**XP** 76,800  ",
@@ -3852,7 +3852,7 @@
 		"description": [
 			"*A toned, regal human radiates a shifting aura of many colors and murmuring voices that seem strangely familiar.*",
 			"",
-			"::mh[Manu]{cr=\"12\"}",
+			"::mh[Manu]{cr=12}",
 			"",
 			"{SOURCE Bestiary 5/163}  ",
 			"**XP** 19,200  ",
@@ -3913,7 +3913,7 @@
 		"description": [
 			"*This regal, apparently human figure has glowing purple eyes and the grace and fluidity of water given form.*",
 			"",
-			"::mh[Rishi Manu]{cr=\"14\"}",
+			"::mh[Rishi Manu]{cr=14}",
 			"",
 			"{SOURCE Bestiary 5/165}  ",
 			"**XP** 38,400  ",
@@ -3975,7 +3975,7 @@
 		"description": [
 			"*Cerulean light surrounds this towering four-armed figure in a vibrant corona.*",
 			"",
-			"::mh[Twilight Pitri (Barhisad)]{cr=\"18\"}",
+			"::mh[Twilight Pitri (Barhisad)]{cr=18}",
 			"",
 			"{SOURCE Bestiary 5/168}  ",
 			"**XP** 153,600  ",
@@ -4058,7 +4058,7 @@
 		"description": [
 			"*This terrifying monstrosity towers taller than the mightiest jungle trees, its forelimbs raised in a meditative, deadly stance.*",
 			"",
-			"::mh[Deadly Mantis]{cr=\"11\"}",
+			"::mh[Deadly Mantis]{cr=11}",
 			"",
 			"{SOURCE Inner Sea Bestiary/30}  ",
 			"**XP** 12,800  ",
@@ -4110,7 +4110,7 @@
 		"description": [
 			"*This towering insect walks on its back four legs. Its head is triangular and its front legs sport razor-sharp edges and claws.*",
 			"",
-			"::mh[Giant Mantis]{cr=\"3\"}",
+			"::mh[Giant Mantis]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/200}  ",
 			"**XP** 800  ",

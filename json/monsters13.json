@@ -5,7 +5,7 @@
 		"description": [
 			"*This vile predator has a hide as thick and tough as leather. Wicked ebony quills run from its head, tail, and back.*",
 			"",
-			"::mh[Howler]{cr=\"3\"}",
+			"::mh[Howler]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/159}  ",
 			"**XP** 800  ",
@@ -68,7 +68,7 @@
 		"description": [
 			"*Rotting vestments hang across the withered flesh of this walking corpse, and its mouth hangs open in a silent scream.*",
 			"",
-			"::mh[Huecuva]{cr=\"2\"}",
+			"::mh[Huecuva]{cr=2}",
 			"",
 			"{SOURCE Bestiary 3/150;Bonus Bestiary/12}  ",
 			"**XP** 600  ",
@@ -125,7 +125,7 @@
 		"description": [
 			"*This pallid, slimy, worm-like creature is the size of a human, its mouth a sickening tangle of tentacles and hooked jaws.*",
 			"",
-			"::mh[Grick]{cr=\"3\"}",
+			"::mh[Grick]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/146}  ",
 			"**XP** 800  ",
@@ -177,7 +177,7 @@
 		"description": [
 			"*Thorn-tipped tendrils and flowering filaments sprout from this tiny, squirming grub-like plant.*",
 			"",
-			"::mh[Griefgall]{cr=\"6\"}",
+			"::mh[Griefgall]{cr=6}",
 			"",
 			"{SOURCE Bestiary 5/133}  ",
 			"**XP** 2,400  ",
@@ -239,7 +239,7 @@
 		"description": [
 			"*This majestic beast has the body of a lion, the head and forelegs of a great eagle, and a massive pair of feathered wings.*",
 			"",
-			"::mh[Griffon]{cr=\"4\"}",
+			"::mh[Griffon]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/168}  ",
 			"**XP** 1,200  ",
@@ -292,7 +292,7 @@
 		"description": [
 			"*Perched on the prickly legs of a cricket, this tiny creature has gossamer wings and the upper body of an elven woman.*",
 			"",
-			"::mh[Grig]{cr=\"1\"}",
+			"::mh[Grig]{cr=1}",
 			"",
 			"{SOURCE Bestiary 2/147}  ",
 			"**XP** 400  ",
@@ -354,7 +354,7 @@
 		"description": [
 			"*This maggot-like creature has a long tail covered with frightening hooked suckers.*",
 			"",
-			"::mh[Grimslake]{cr=\"6\"}",
+			"::mh[Grimslake]{cr=6}",
 			"",
 			"{SOURCE Bestiary 5/136;The Worldwound/55}  ",
 			"**XP** 2,400  ",
@@ -473,7 +473,7 @@
 		"description": [
 			"*This silent bat-like humanoid has a long, rat-like tail and four narrow eyes.*",
 			"",
-			"::mh[Grioth]{cr=\"1\"}",
+			"::mh[Grioth]{cr=1}",
 			"",
 			"{SOURCE Bestiary 5/137;The Dragon's Demand/62}  ",
 			"**XP** 400  ",
@@ -600,7 +600,7 @@
 		"description": [
 			"*This massive lion's fur and skin shimmer with a golden sheen.*",
 			"",
-			"::mh[Grisantian Lion]{cr=\"14\"}",
+			"::mh[Grisantian Lion]{cr=14}",
 			"",
 			"{SOURCE Pathfinder #132: The Six-Legend Soul/86}  ",
 			"**XP** 38,400  ",
@@ -675,7 +675,7 @@
 		"description": [
 			"*Several water-dripping tentacles sprout from this four-eyed fish's belly, while long fins protrude from its back.*",
 			"",
-			"::mh[Grodair]{cr=\"5\"}",
+			"::mh[Grodair]{cr=5}",
 			"",
 			"{SOURCE Bestiary 3/143;Pathfinder #36: Sound of a Thousand Screams/84}  ",
 			"**XP** 1,600  ",
@@ -736,7 +736,7 @@
 		"description": [
 			"*This enormous beast has the combined features of an elephant and a serpent. Its tremendous maw sports six frightening tusks.*",
 			"",
-			"::mh[Grootslang]{cr=\"16\"}",
+			"::mh[Grootslang]{cr=16}",
 			"",
 			"{SOURCE Bestiary 3/144;Pathfinder #42: Sanctum of the Serpent God/84}  ",
 			"**XP** 76,800  ",
@@ -795,7 +795,7 @@
 		"description": [
 			"*This hawk-sized avian looks much like a six-legged stork. Its feathers are unkempt and greasy, and its beak is razor-sharp.*",
 			"",
-			"::mh[Gryph]{cr=\"1\"}",
+			"::mh[Gryph]{cr=1}",
 			"",
 			"{SOURCE Bestiary 2/150}  ",
 			"**XP** 400  ",
@@ -848,7 +848,7 @@
 		"description": [
 			"*This strange doll is clad in traditional Irriseni peasant clothing, and its eyes glisten with a disturbing curiosity.*",
 			"",
-			"::mh[Guardian Doll]{cr=\"3\"}",
+			"::mh[Guardian Doll]{cr=3}",
 			"",
 			"{SOURCE Irrisen - Land of Eternal Winter/58}  ",
 			"**XP** 800  ",
@@ -917,7 +917,7 @@
 		"description": [
 			"*This innocuous-looking scroll flits about with serpentine grace, baring its razor-sharp edges.*",
 			"",
-			"::mh[Guardian Scroll]{cr=\"3\"}",
+			"::mh[Guardian Scroll]{cr=3}",
 			"",
 			"{SOURCE Bestiary 5/138;Pathfinder #79: The Half-Dead City/82}  ",
 			"**XP** 800  ",
@@ -978,7 +978,7 @@
 		"description": [
 			"*A skeletal carcass pulls itself from the ground, its body formed as much from earth and soil as from bones and rotting flesh.*",
 			"",
-			"::mh[Guecubu]{cr=\"8\"}",
+			"::mh[Guecubu]{cr=8}",
 			"",
 			"{SOURCE Bestiary 3/145}  ",
 			"**XP** 4,800  ",
@@ -1041,7 +1041,7 @@
 		"description": [
 			"*This towering menace has a horrible, vertically aligned mouth and arms that split at the elbows into twin clawed hands.*",
 			"",
-			"::mh[Gug]{cr=\"10\"}",
+			"::mh[Gug]{cr=10}",
 			"",
 			"{SOURCE Bestiary 2/151;Pathfinder #11: Skeletons of Scarwall/82}  ",
 			"**XP** 9,600  ",
@@ -1106,7 +1106,7 @@
 		"description": [
 			"*This lurching mass of slime and gunpowder leaves a trail of shiny black residue in its wake, and shudders with concussive energy.*",
 			"",
-			"::mh[Gunpowder Ooze]{cr=\"14\"}",
+			"::mh[Gunpowder Ooze]{cr=14}",
 			"",
 			"{SOURCE Bestiary 5/139;Wardens of the Reborn Forge/63}  ",
 			"**XP** 38,400  ",
@@ -1164,7 +1164,7 @@
 		"description": [
 			"*Within a halo of brilliant, glowing orbs are the distinctive features of a compact feline with tufted ears, a short tail, and keen, piercing eyes.*",
 			"",
-			"::mh[Hallowed Lynx]{cr=\"17\"}",
+			"::mh[Hallowed Lynx]{cr=17}",
 			"",
 			"{SOURCE Pathfinder #138: Rise of New Thassilon/88}  ",
 			"**XP** 102,400  ",
@@ -1241,7 +1241,7 @@
 		"description": [
 			"*This regal woman exhibits the grace and pride of the forest's most ancient trees.*",
 			"",
-			"::mh[Hamadryad]{cr=\"15\"}",
+			"::mh[Hamadryad]{cr=15}",
 			"",
 			"{SOURCE Bestiary 4/148}  ",
 			"**XP** 51,200  ",
@@ -1302,7 +1302,7 @@
 		"description": [
 			"*This sinister tree looms above a field strewn with bones. Numerous leafy vines, their tips looped into nooses, hang from its branches.*",
 			"",
-			"::mh[Hangman Tree]{cr=\"7\"}",
+			"::mh[Hangman Tree]{cr=7}",
 			"",
 			"{SOURCE Bestiary 2/152}  ",
 			"**XP** 3,200  ",
@@ -1357,7 +1357,7 @@
 		"description": [
 			"*This muscular warrior is carefully sculpted from clay and has a large scarab beetle in place of its head.*",
 			"",
-			"::mh[Hanshepsu]{cr=\"10\"}",
+			"::mh[Hanshepsu]{cr=10}",
 			"",
 			"{SOURCE Pathfinder #83: The Slave Trenches of Hakotep/84}  ",
 			"**XP** 9,600  ",
@@ -1447,7 +1447,7 @@
 		"description": [
 			"*This deathly pale beauty's skin is blemished with bruises and cuts, yet a smile shows behind her flowing tangle of hair.*",
 			"",
-			"::mh[Harionago]{cr=\"11\"}",
+			"::mh[Harionago]{cr=11}",
 			"",
 			"{SOURCE Bestiary 4/149}  ",
 			"**XP** 12,800  ",
@@ -1504,7 +1504,7 @@
 		"description": [
 			"*Save for the tattered wings and taloned feet, this creature resembles a feral woman with a wild look about her.*",
 			"",
-			"::mh[Harpy]{cr=\"4\"}",
+			"::mh[Harpy]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/172}  ",
 			"**XP** 1,200  ",
@@ -1556,7 +1556,7 @@
 		"name": "Havero Tentacle",
 		"sources": [ "Curse of the Crimson Throne" ],
 		"description": [
-			"::mh[Havero Tentacle]{cr=\"6\"}",
+			"::mh[Havero Tentacle]{cr=6}",
 			"",
 			"{SOURCE Curse of the Crimson Throne/473}  ",
 			"**XP** 2,400  ",
@@ -1595,7 +1595,7 @@
 		"description": [
 			"*Dozens of antlers crown this slender biped's masked head. Its wicked claws clutch a bloodstained sack.*",
 			"",
-			"::mh[Heart Thief]{cr=\"9\"}",
+			"::mh[Heart Thief]{cr=9}",
 			"",
 			"{SOURCE Seers of the Drowned City/57}  ",
 			"**XP** 6,400  ",
@@ -1656,7 +1656,7 @@
 		"description": [
 			"*Fungus drips from this grotesque tree's ridged bark as its branches wave like boneless arms.*",
 			"",
-			"::mh[Heartrot Tree]{cr=\"13\"}",
+			"::mh[Heartrot Tree]{cr=13}",
 			"",
 			"{SOURCE Pathfinder #119: Prisoners of the Blight/86}  ",
 			"**XP** 25,600  ",
@@ -1734,7 +1734,7 @@
 		"description": [
 			"*The carapace of this large crab resembles a scowling face, its eyes seething with an ancient fury.*",
 			"",
-			"::mh[Heikegani]{cr=\"4\"}",
+			"::mh[Heikegani]{cr=4}",
 			"",
 			"{SOURCE Bestiary 5/141}  ",
 			"**XP** 1,200  ",
@@ -1788,7 +1788,7 @@
 		"description": [
 			"*This creature resembles a thin, lanky wolf with reddish-brown fur, white claws, and burning, fiery red eyes.*",
 			"",
-			"::mh[Hell Hound]{cr=\"3\"}",
+			"::mh[Hell Hound]{cr=3}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/173}  ",
 			"**XP** 800  ",
@@ -1836,7 +1836,7 @@
 		"description": [
 			"*This creature resembles a powerfully built wolf the size of a large draft horse, with ebony fur and burning, fiery red eyes.*",
 			"",
-			"::mh[Nessian Warhound]{cr=\"9\"}",
+			"::mh[Nessian Warhound]{cr=9}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/173}  ",
 			"**XP** 6,400  ",
@@ -1887,7 +1887,7 @@
 		"description": [
 			"*This eerie beast appears to be the animated skeleton of a huge fanged cat, its bones glowing with fire and seething with smoke.*",
 			"",
-			"::mh[Hellcat]{cr=\"7\"}",
+			"::mh[Hellcat]{cr=7}",
 			"",
 			"{SOURCE Bestiary 2/153}  ",
 			"**XP** 3,200  ",
@@ -1945,7 +1945,7 @@
 		"description": [
 			"*The acrid smell of brimstone wafts from this small creature, which has mottled red skin and a wicked grin on its foul, warped face.*",
 			"",
-			"::mh[Hellfire Ignis]{cr=\"3\"}",
+			"::mh[Hellfire Ignis]{cr=3}",
 			"",
 			"{SOURCE Cheliax, the Infernal Empire/62}  ",
 			"**XP** 800  ",
@@ -2005,7 +2005,7 @@
 		"description": [
 			"*This hideous, buzzing cloud of insects is comprised of black and yellow wasps with hungry red eyes.*",
 			"",
-			"::mh[Hellwasp Swarm]{cr=\"8\"}",
+			"::mh[Hellwasp Swarm]{cr=8}",
 			"",
 			"{SOURCE Bestiary 3/146}  ",
 			"**XP** 4,800  ",
@@ -2119,7 +2119,7 @@
 		"description": [
 			"*This large, horned bull has a dirty black hide and an aggressive temper. Its horns are wide and sharp.*",
 			"",
-			"::mh[Aurochs]{cr=\"2\"}",
+			"::mh[Aurochs]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/174}  ",
 			"**XP** 600  ",
@@ -2174,7 +2174,7 @@
 		"description": [
 			"Per {source/Pathfinder #51: The Hungry Storm/ pg. 67}, oxen use {monster/Aurochs} stats, with the *docile* special quality of a {monster/horse}, but modifying their gore attack.",
 			"",
-			"::mh[Aurochs]{cr=\"2\"}",
+			"::mh[Aurochs]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/174}  ",
 			"**XP** 600  ",
@@ -2229,7 +2229,7 @@
 		"description": [
 			"*This creature has small, upward-pointing horns, a shaggy coat of fur, and a large hump on its shoulders.*",
 			"",
-			"::mh[Bison]{cr=\"4\"}",
+			"::mh[Bison]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/174}  ",
 			"**XP** 1,200  ",
@@ -2284,7 +2284,7 @@
 		"description": [
 			"*These shaggy-haired relatives to cows are more at home in mountainous terrain where they are frequently used as pack animals and to pull plows.*",
 			"",
-			"::mh[Yak]{cr=\"4\"}",
+			"::mh[Yak]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/174}  ",
 			"**XP** 1,200  ",
@@ -2330,7 +2330,7 @@
 		"description": [
 			"*This somewhat irritated-looking, one-humped camel has been outfitted with a bridle and saddle.*",
 			"",
-			"::mh[Camel]{cr=\"1\"}",
+			"::mh[Camel]{cr=1}",
 			"",
 			"{SOURCE Bestiary 2/154}  ",
 			"**XP** 400  ",
@@ -2382,7 +2382,7 @@
 		"description": [
 			"*This majestic beast stands the height of a man at its shoulders, a many-tipped rack of proud antlers crowning its head.*",
 			"",
-			"::mh[Elk]{cr=\"1\"}",
+			"::mh[Elk]{cr=1}",
 			"",
 			"{SOURCE Bestiary 3/147;Pathfinder #31: Stolen Land/80}  ",
 			"**XP** 400  ",
@@ -2431,7 +2431,7 @@
 		"description": [
 			"*This animal, covered in a spotted pattern, has a disproportionately long neck that allows it to tower over other animals.*",
 			"",
-			"::mh[Giraffe]{cr=\"3\"}",
+			"::mh[Giraffe]{cr=3}",
 			"",
 			"{SOURCE Bestiary 4/150}  ",
 			"**XP** 800  ",
@@ -2483,7 +2483,7 @@
 		"description": [
 			"*A formidable pair of heavy horns curls from the forehead of this sturdy, brown-and-white-furred ram.*",
 			"",
-			"::mh[Ram]{cr=\"1\"}",
+			"::mh[Ram]{cr=1}",
 			"",
 			"{SOURCE Bestiary 2/154}  ",
 			"**XP** 400  ",
@@ -2531,7 +2531,7 @@
 		"description": [
 			"*This majestic beast stands the height of a man at its shoulders, a many-tipped rack of proud antlers crowning its head.*",
 			"",
-			"::mh[River Elk]{cr=\"2\"}",
+			"::mh[River Elk]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #31: Stolen Land/80}  ",
 			"**XP** 600  ",
@@ -2587,7 +2587,7 @@
 		"description": [
 			"*Majestic and graceful, this powerful animal has branching antlers atop it head.*",
 			"",
-			"::mh[Stag]{cr=\"1\"}",
+			"::mh[Stag]{cr=1}",
 			"",
 			"{SOURCE Bestiary 4/150}  ",
 			"**XP** 400  ",
@@ -2639,7 +2639,7 @@
 		"description": [
 			"*A palpable sense of despair clings to the rotting frame of this decaying man. Tears of blood run from his eye sockets, yet his expression is one of unquenched rage.*",
 			"",
-			"::mh[Herecite of Asmodeus]{cr=\"9\"}",
+			"::mh[Herecite of Asmodeus]{cr=9}",
 			"",
 			"{SOURCE Pathfinder #100: A Song of Silver/116;Bestiary 6/154}  ",
 			"**XP** 6,400  ",
@@ -2718,7 +2718,7 @@
 		"description": [
 			"*Seemingly one with the forest, this tall man is dressed in the browns and greens of a woodsman and sports a pair of stag's antlers upon his brow.*",
 			"",
-			"::mh[Herne]{cr=\"6\"}",
+			"::mh[Herne]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #73: The Worldwound Incursion/86}  ",
 			"**XP** 2,400  ",
@@ -2805,7 +2805,7 @@
 		"description": [
 			"*This creature has the foreparts of a horse and the hindquarters of a fish. Its forelegs end in splayed fins rather than hooves.*",
 			"",
-			"::mh[Hippocampus]{cr=\"1\"}",
+			"::mh[Hippocampus]{cr=1}",
 			"",
 			"{SOURCE Bestiary 2/155}  ",
 			"**XP** 400  ",
@@ -2857,7 +2857,7 @@
 		"description": [
 			"*This large, brown, horse-like creature has a hawk's wings, talons, and hooked beak.*",
 			"",
-			"::mh[Hippogriff]{cr=\"2\"}",
+			"::mh[Hippogriff]{cr=2}",
 			"",
 			"{SOURCE Bestiary 2/156}  ",
 			"**XP** 600  ",
@@ -2911,7 +2911,7 @@
 		"description": [
 			"*This fleshy behemoth wallows forward on four stumpy legs. Its jaws spread wide in a roar of challenge, exposing massive, tusk-like teeth.*",
 			"",
-			"::mh[Hippopotamus]{cr=\"5\"}",
+			"::mh[Hippopotamus]{cr=5}",
 			"",
 			"{SOURCE Heart of the Jungle/60;Bestiary 2/157}  ",
 			"**XP** 1,600  ",
@@ -2966,7 +2966,7 @@
 		"description": [
 			"*This immense behemoth of a hippo is larger than an elephant. Its teeth are like scimitars, and it moves with an indomitable gait.*",
 			"",
-			"::mh[Behemoth Hippopotamus]{cr=\"10\"}",
+			"::mh[Behemoth Hippopotamus]{cr=10}",
 			"",
 			"{SOURCE Bestiary 2/157}  ",
 			"**XP** 9,600  ",
@@ -3014,7 +3014,7 @@
 		"description": [
 			"*Silvery armor in the shape of a powerful ram barely contains the brilliant radiance shining from within it, and curling, steel horns emerge from its helm.*",
 			"",
-			"::mh[Hiracapath]{cr=\"7\"}",
+			"::mh[Hiracapath]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #104: Wrath of Thrune/88}  ",
 			"**XP** 3,200  ",
@@ -3090,7 +3090,7 @@
 		"description": [
 			"*This churning cloud of beetles buzzes with a steady discharge of sizzling arcs of electricity leaping from insect to insect. The patterns on their wings resemble humanoid eyes.*",
 			"",
-			"::mh[Hive Mind Beetle Swarm]{cr=\"13\"}",
+			"::mh[Hive Mind Beetle Swarm]{cr=13}",
 			"",
 			"{SOURCE Occult Bestiary/29}  ",
 			"**XP** 25,600  ",
@@ -3153,7 +3153,7 @@
 		"description": [
 			"*This hulking, four-legged beast has thick, chitinous plates covering its body. Steaming acid drips from its snapping maw.*",
 			"",
-			"::mh[Hive Brute]{cr=\"8\"}",
+			"::mh[Hive Brute]{cr=8}",
 			"",
 			"{SOURCE Nidal, Land of Shadows/56}  ",
 			"**XP** 4,800  ",
@@ -3209,7 +3209,7 @@
 		"description": [
 			"*This mass of writhing, maggot-like creatures secretes a caustic odor*",
 			"",
-			"::mh[Hive Larva Swarm]{cr=\"5\"}",
+			"::mh[Hive Larva Swarm]{cr=5}",
 			"",
 			"{SOURCE Horror Adventures/236}  ",
 			"**XP** 1,600  ",
@@ -3266,7 +3266,7 @@
 		"description": [
 			"*Black, chitinous armor covers this enormous insectile creature. Caustic saliva drips from its mandibles.*",
 			"",
-			"::mh[Hive Queen]{cr=\"10\"}",
+			"::mh[Hive Queen]{cr=10}",
 			"",
 			"{SOURCE Horror Adventures/236}  ",
 			"**XP** 9,600  ",
@@ -3324,7 +3324,7 @@
 		"description": [
 			"*This creature is humanoid in shape, but covered with chitinous plating. Its head is elongated, and it has a long, bladed tail.*",
 			"",
-			"::mh[Hive Warrior]{cr=\"5\"}",
+			"::mh[Hive Warrior]{cr=5}",
 			"",
 			"{SOURCE Horror Adventures/237}  ",
 			"**XP** 1,600  ",
@@ -3379,7 +3379,7 @@
 		"description": [
 			"*A swarm of rats groups around a barrel, every pair of red eyes staring intently at one rat in the center of the mass.*",
 			"",
-			"::mh[Hivemind Rat Swarm]{cr=\"8\"}",
+			"::mh[Hivemind Rat Swarm]{cr=8}",
 			"",
 			"{SOURCE Bestiary 6/156}  ",
 			"**XP** 4,800  ",
@@ -3439,7 +3439,7 @@
 		"description": [
 			"*A greasy sheen coats the scarred, rippling hide of this dog-shaped beast. Beady eyes, wide ears, and jagged teeth lend rodent-like qualities to the imposing war beast.*",
 			"",
-			"::mh[Hobbe Hound]{cr=\"2\"}",
+			"::mh[Hobbe Hound]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #119: Prisoners of the Blight/88}  ",
 			"**XP** 600  ",
@@ -3566,7 +3566,7 @@
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
 			"",
-			"::mh[Hobgoblin Battle Priest]{cr=\"8\"}",
+			"::mh[Hobgoblin Battle Priest]{cr=8}",
 			"",
 			"{SOURCE Monster Codex/121}  ",
 			"**XP** 4,800  ",
@@ -3630,7 +3630,7 @@
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
 			"",
-			"::mh[Hobgoblin Battlefield Zealot]{cr=\"2\"}",
+			"::mh[Hobgoblin Battlefield Zealot]{cr=2}",
 			"",
 			"{SOURCE Monster Codex/118}  ",
 			"**XP** 600  ",
@@ -3684,7 +3684,7 @@
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
 			"",
-			"::mh[Hobgoblin Bombardier]{cr=\"7\"}",
+			"::mh[Hobgoblin Bombardier]{cr=7}",
 			"",
 			"{SOURCE Monster Codex/120}  ",
 			"**XP** 3,200  ",
@@ -3741,7 +3741,7 @@
 		"name": "Hobgoblin Commander",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Hobgoblin Commander]{cr=\"12\"}",
+			"::mh[Hobgoblin Commander]{cr=12}",
 			"",
 			"{SOURCE Monster Codex/123}  ",
 			"**XP** 19,200  ",
@@ -3816,7 +3816,7 @@
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
 			"",
-			"::mh[Hobgoblin Forerunner]{cr=\"6\"}",
+			"::mh[Hobgoblin Forerunner]{cr=6}",
 			"",
 			"{SOURCE Monster Codex/119}  ",
 			"**XP** 2,400  ",
@@ -3864,7 +3864,7 @@
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
 			"",
-			"::mh[Hobgoblin Lieutenant]{cr=\"4\"}",
+			"::mh[Hobgoblin Lieutenant]{cr=4}",
 			"",
 			"{SOURCE Monster Codex/119}  ",
 			"**XP** 1,200  ",
@@ -3913,7 +3913,7 @@
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
 			"",
-			"::mh[Hobgoblin Paragon]{cr=\"10\"}",
+			"::mh[Hobgoblin Paragon]{cr=10}",
 			"",
 			"{SOURCE Monster Codex/122}  ",
 			"**XP** 9,600  ",
@@ -3967,7 +3967,7 @@
 		"description": [
 			"*Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes.*",
 			"",
-			"::mh[Hobgoblin Sergeant]{cr=\"2\"}",
+			"::mh[Hobgoblin Sergeant]{cr=2}",
 			"",
 			"{SOURCE Monster Codex/118}  ",
 			"**XP** 600  ",
@@ -4017,7 +4017,7 @@
 		"description": [
 			"*Spikes cover the body of this vaguely reptilian creature. Its fearsome face features dagger-sharp teeth and glowing red eyes.*",
 			"",
-			"::mh[Hodag]{cr=\"6\"}",
+			"::mh[Hodag]{cr=6}",
 			"",
 			"{SOURCE Bestiary 3/148;Pathfinder #32: Rivers Run Red/84}  ",
 			"**XP** 2,400  ",
@@ -4074,7 +4074,7 @@
 		"description": [
 			"*The faint chemical smell lingering on this creature's skin hints that it is not simply a normal person. Small, almost imperceptible flaws suggest that the creature's skin is somehow stretched over an invisible frame.*",
 			"",
-			"::mh[Hollow One]{cr=\"10\"}",
+			"::mh[Hollow One]{cr=10}",
 			"",
 			"{SOURCE Pathfinder #112: The Whisper Out of Time/86}  ",
 			"**XP** 9,600  ",
@@ -4163,7 +4163,7 @@
 		"description": [
 			"*An unseen breeze stirs the desiccated scales of this immense snakeskin, causing the shedding's frayed, dried edges to flutter with a semblance of life. Pinpoints of unholy green light flare behind the intact eye lenses as the head starts to rise. The same glow behind those long-dead eyes illuminates a gaping mouth and bony fangs. Then a terrifying, painful hiss assaults your mind as the serpent slithers forward with a silent, unearthly grace.*",
 			"",
-			"::mh[Hollow Serpent]{cr=\"16\"}",
+			"::mh[Hollow Serpent]{cr=16}",
 			"",
 			"{SOURCE Pathfinder #42: Sanctum of the Serpent God/86;Bestiary 3/149}  ",
 			"**XP** 76,800  ",
@@ -4227,7 +4227,7 @@
 		"name": "Lesser Hollow Serpent",
 		"sources": [ "Pathfinder #42: Sanctum of the Serpent God" ],
 		"description": [
-			"::mh[Lesser Hollow Serpent]{cr=\"6\"}",
+			"::mh[Lesser Hollow Serpent]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #42: Sanctum of the Serpent God/86}  ",
 			"**XP** 2,400  ",

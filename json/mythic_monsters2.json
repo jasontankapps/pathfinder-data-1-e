@@ -5,7 +5,7 @@
 		"description": [
 			"*This immense dragon coils its long, serpentine body beneath spreading wings, its eyes glittering like burnished gold.*",
 			"",
-			"::mh[Mythic Guardian Dragon]{cr=\"24\" mr=\"10\"}",
+			"::mh[Mythic Guardian Dragon]{cr=24 mr=10}",
 			"",
 			"{SOURCE Bestiary 4/146}  ",
 			"**XP** 1,228,800  ",
@@ -85,7 +85,7 @@
 		"description": [
 			"*This brawny hound is wreathed in flames, and its footsteps leave burning prints that sputter and smoke.*",
 			"",
-			"::mh[Mythic Hell Hound]{cr=\"4\" mr=\"1\"}",
+			"::mh[Mythic Hell Hound]{cr=4 mr=1}",
 			"",
 			"{SOURCE Mythic Adventures/203}  ",
 			"**XP** 1,200  ",
@@ -135,7 +135,7 @@
 		"description": [
 			"*This brawny hound is wreathed in flames, and its footsteps leave burning prints that sputter and smoke.*",
 			"",
-			"::mh[Mythic Nessian Warhound]{cr=\"11\" mr=\"4\"}",
+			"::mh[Mythic Nessian Warhound]{cr=11 mr=4}",
 			"",
 			"{SOURCE Mythic Adventures/203}  ",
 			"**XP** 12,800  ",
@@ -185,7 +185,7 @@
 		"description": [
 			"*Skeleton, Human Skeleton The pile of bones suddenly stirs, rising up to take on a human shape. Its long, bony fingers reach out to claw at the living.*",
 			"",
-			"::mh[Mythic Human Skeleton]{cr=\"1\" mr=\"1\"}",
+			"::mh[Mythic Human Skeleton]{cr=1 mr=1}",
 			"",
 			"{SOURCE Mythic Adventures/197}  ",
 			"**XP** 400  ",
@@ -233,7 +233,7 @@
 		"description": [
 			"*This seven-headed serpent has serrated fangs, and moves with incredible speed despite its massive bulk.*",
 			"",
-			"::mh[Mythic Hydra]{cr=\"9\" mr=\"3\"}",
+			"::mh[Mythic Hydra]{cr=9 mr=3}",
 			"",
 			"{SOURCE Mythic Adventures/204}  ",
 			"**XP** 6,400  ",
@@ -287,7 +287,7 @@
 		"description": [
 			"*A split in the trunk of this strange tree reveals a swirling magical portal to an unknown destination.*",
 			"",
-			"::mh[Mythic Irminsul]{cr=\"17\" mr=\"7\"}",
+			"::mh[Mythic Irminsul]{cr=17 mr=7}",
 			"",
 			"{SOURCE Bestiary 4/158}  ",
 			"**XP** 102,400  ",
@@ -344,7 +344,7 @@
 		"description": [
 			"*Resplendent lilac and white scales adorn this gigantic serpent. A number of sharp, short horns crown its head.*",
 			"",
-			"::mh[Mythic Julunggali]{cr=\"21\" mr=\"8\"}",
+			"::mh[Mythic Julunggali]{cr=21 mr=8}",
 			"",
 			"{SOURCE Bestiary 4/164}  ",
 			"**XP** 409,600  ",
@@ -409,7 +409,7 @@
 		"description": [
 			"*This creature has the head and upper body of a beautiful woman, the lower body of a lion, and long, serpentine tail.*",
 			"",
-			"::mh[Mythic Lamia]{cr=\"7\" mr=\"3\"}",
+			"::mh[Mythic Lamia]{cr=7 mr=3}",
 			"",
 			"{SOURCE Mythic Adventures/205}  ",
 			"**XP** 3,200  ",
@@ -478,7 +478,7 @@
 		"description": [
 			"*This serene woman has pointed ears and flowing crimson hair, and wears an elegant dress and a crown of twigs.*",
 			"",
-			"::mh[Mythic Leanan Sidhe]{cr=\"9\" mr=\"3\"}",
+			"::mh[Mythic Leanan Sidhe]{cr=9 mr=3}",
 			"",
 			"{SOURCE Bestiary 4/180}  ",
 			"**XP** 6,400  ",
@@ -540,7 +540,7 @@
 		"description": [
 			"*This armored undead human wields a heavy mace and wears the trappings of a devil-worshiper.*",
 			"",
-			"::mh[Mythic Lich]{cr=\"17\" mr=\"7\"}",
+			"::mh[Mythic Lich]{cr=17 mr=7}",
 			"",
 			"{SOURCE Mythic Adventures/206}  ",
 			"**XP** 102,400  ",
@@ -645,7 +645,7 @@
 		"description": [
 			"*This massive, red-skinned creature surges with roiling waves of brilliant fire.*",
 			"",
-			"::mh[Mythic Solar Pitri (Agnishvatta)]{cr=\"22\" mr=\"8\"}",
+			"::mh[Mythic Solar Pitri (Agnishvatta)]{cr=22 mr=8}",
 			"",
 			"{SOURCE Bestiary 5/166}  ",
 			"**XP** 614,400  ",
@@ -725,7 +725,7 @@
 		"description": [
 			"*This fearsome creature has the body of a lion, the wings of a dragon, the face of a snarling man, and a tail of dripping spikes.*",
 			"",
-			"::mh[Mythic Manticore]{cr=\"6\" mr=\"2\"}",
+			"::mh[Mythic Manticore]{cr=6 mr=2}",
 			"",
 			"{SOURCE Mythic Adventures/208}  ",
 			"**XP** 2,400  ",
@@ -782,7 +782,7 @@
 		"description": [
 			"*This unnatural woman has scaled skin, white bird wings, and long snake-hair that hangs past her feet.*",
 			"",
-			"::mh[Mythic Medusa]{cr=\"9\" mr=\"3\"}",
+			"::mh[Mythic Medusa]{cr=9 mr=3}",
 			"",
 			"{SOURCE Mythic Adventures/209}  ",
 			"**XP** 6,400  ",
@@ -843,7 +843,7 @@
 		"description": [
 			"*With eyes blazing red and magical runes glowing on its horns, this mighty beast has the body of a man and the head of a bull.*",
 			"",
-			"::mh[Mythic Minotaur]{cr=\"6\" mr=\"2\"}",
+			"::mh[Mythic Minotaur]{cr=6 mr=2}",
 			"",
 			"{SOURCE Mythic Adventures/210}  ",
 			"**XP** 2,400  ",
@@ -898,7 +898,7 @@
 		"description": [
 			"*This regal mummy reeks of preservative spices and wears the clothing and jewelry of a wealthy pharaoh.*",
 			"",
-			"::mh[Mythic Mummy]{cr=\"7\" mr=\"3\"}",
+			"::mh[Mythic Mummy]{cr=7 mr=3}",
 			"",
 			"{SOURCE Mythic Adventures/211}  ",
 			"**XP** 3,200  ",
@@ -956,7 +956,7 @@
 		"description": [
 			"*This towering beetle-like horror has thick carapace segments and massive mandibles that leak sizzling acid.*",
 			"",
-			"::mh[Mythic Myrmecoleon]{cr=\"10\" mr=\"3\"}",
+			"::mh[Mythic Myrmecoleon]{cr=10 mr=3}",
 			"",
 			"{SOURCE Bestiary 4/198}  ",
 			"**XP** 9,600  ",
@@ -1014,7 +1014,7 @@
 		"description": [
 			"*This immense, muscular giant wears heavy scale mail and wields a club adorned with a giant claw.*",
 			"",
-			"::mh[Mythic Ogre]{cr=\"4\" mr=\"1\"}",
+			"::mh[Mythic Ogre]{cr=4 mr=1}",
 			"",
 			"{SOURCE Mythic Adventures/212}  ",
 			"**XP** 1,200  ",
@@ -1071,7 +1071,7 @@
 		"description": [
 			"*This enormous russet serpent has the head and forequarters of a ruddy bull with bronze horns and hooves.*",
 			"",
-			"::mh[Mythic Ophiotaurus]{cr=\"17\" mr=\"7\"}",
+			"::mh[Mythic Ophiotaurus]{cr=17 mr=7}",
 			"",
 			"{SOURCE Bestiary 5/185}  ",
 			"**XP** 102,400  ",
@@ -1135,7 +1135,7 @@
 		"description": [
 			"*This beast has the general size and shape of a great bear, yet the head and feathers of an owl.*",
 			"",
-			"::mh[Mythic Owlbear]{cr=\"5\" mr=\"2\"}",
+			"::mh[Mythic Owlbear]{cr=5 mr=2}",
 			"",
 			"{SOURCE Mythic Adventures/213}  ",
 			"**XP** 1,600  ",
@@ -1186,7 +1186,7 @@
 		"description": [
 			"*This flaming bird burns as brightly as the sun.*",
 			"",
-			"::mh[Mythic Phoenix]{cr=\"18\" mr=\"7\"}",
+			"::mh[Mythic Phoenix]{cr=18 mr=7}",
 			"",
 			"{SOURCE Mythic Adventures/214}  ",
 			"**XP** 153,600  ",
@@ -1249,7 +1249,7 @@
 		"description": [
 			"*Sent down by vengeful deities to punish communities that have offended them, plague swarms scour crops, terrorize populations, and lay waste to civilized lands. Normal means of dealing with vermin and pestilence don't drive them off, for these vicious and intelligent mythic swarms carry the destructive blessings of their gods, and breed at an exceptional rate until their spawn consume entire cities. They are single-minded in their devotion to carrying out the furious will of their deities.*",
 			"",
-			"::mh[Mythic Bat Plague Swarm]{cr=\"17\" mr=\"8\"}",
+			"::mh[Mythic Bat Plague Swarm]{cr=17 mr=8}",
 			"",
 			"{SOURCE Bestiary 5/193}  ",
 			"**XP** 102,400  ",
@@ -1302,7 +1302,7 @@
 		"description": [
 			"*Sent down by vengeful deities to punish communities that have offended them, plague swarms scour crops, terrorize populations, and lay waste to civilized lands. Normal means of dealing with vermin and pestilence don't drive them off, for these vicious and intelligent mythic swarms carry the destructive blessings of their gods, and breed at an exceptional rate until their spawn consume entire cities. They are single-minded in their devotion to carrying out the furious will of their deities.*",
 			"",
-			"::mh[Mythic Locust Plague Swarm]{cr=\"15\" mr=\"8\"}",
+			"::mh[Mythic Locust Plague Swarm]{cr=15 mr=8}",
 			"",
 			"{SOURCE Bestiary 5/192}  ",
 			"**XP** 51,200  ",
@@ -1357,7 +1357,7 @@
 		"description": [
 			"*Sent down by vengeful deities to punish communities that have offended them, plague swarms scour crops, terrorize populations, and lay waste to civilized lands. Normal means of dealing with vermin and pestilence don't drive them off, for these vicious and intelligent mythic swarms carry the destructive blessings of their gods, and breed at an exceptional rate until their spawn consume entire cities. They are single-minded in their devotion to carrying out the furious will of their deities.*",
 			"",
-			"::mh[Mythic Rat Plague Swarm]{cr=\"11\" mr=\"8\"}",
+			"::mh[Mythic Rat Plague Swarm]{cr=11 mr=8}",
 			"",
 			"{SOURCE Bestiary 5/192}  ",
 			"**XP** 12,800  ",
@@ -1416,7 +1416,7 @@
 		"description": [
 			"*This creature resembles an enormous, four-armed humanoid made of water. Its two faces move about its head independently.*",
 			"",
-			"::mh[Mythic Portunus]{cr=\"16\" mr=\"6\"}",
+			"::mh[Mythic Portunus]{cr=16 mr=6}",
 			"",
 			"{SOURCE Pathfinder #125: Tower of the Drowned Dead/90}  ",
 			"**XP** 76,800  ",
@@ -1499,7 +1499,7 @@
 		"description": [
 			"*Fine jewelry and clothing accentuate this tiger-headed figure's striped fur and formidable fangs.*",
 			"",
-			"::mh[Mythic Rakshasa]{cr=\"12\" mr=\"5\"}",
+			"::mh[Mythic Rakshasa]{cr=12 mr=5}",
 			"",
 			"{SOURCE Mythic Adventures/215}  ",
 			"**XP** 19,200  ",
@@ -1560,7 +1560,7 @@
 		"name": "Shen",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::mh[Mythic Shen]{cr=\"24\" mr=\"9\"}",
+			"::mh[Mythic Shen]{cr=24 mr=9}",
 			"",
 			"{SOURCE Bestiary 5/230}  ",
 			"**XP** 1,228,800  ",
@@ -1653,7 +1653,7 @@
 		"description": [
 			"*This woman has the upper body of a human queen, the lower body of a lion, a snake-headed tail, and great eagle wings.*",
 			"",
-			"::mh[Mythic Sphinx]{cr=\"10\" mr=\"4\"}",
+			"::mh[Mythic Sphinx]{cr=10 mr=4}",
 			"",
 			"{SOURCE Mythic Adventures/217}  ",
 			"**XP** 9,600  ",
@@ -1711,7 +1711,7 @@
 		"description": [
 			"*This god-like giant wears armor made of thick plates of blackened iron and wields a great bladed mace.*",
 			"",
-			"::mh[Mythic Danava]{cr=\"24\" mr=\"9\"}",
+			"::mh[Mythic Danava]{cr=24 mr=9}",
 			"",
 			"{SOURCE Bestiary 5/246}  ",
 			"**XP** 1,228,800  ",
@@ -1791,7 +1791,7 @@
 		"description": [
 			"*This god-like giant wears armor made of thick plates of blackened iron and wields a great bladed mace.*",
 			"",
-			"::mh[Mythic Fomorian Titan]{cr=\"22\" mr=\"8\"}",
+			"::mh[Mythic Fomorian Titan]{cr=22 mr=8}",
 			"",
 			"{SOURCE Bestiary 4/261}  ",
 			"**XP** 614,400  ",
@@ -1852,7 +1852,7 @@
 		"description": [
 			"*Standing upright and powerful, this mighty tree-person channels nature's fury into green energy in its gnarled hands.*",
 			"",
-			"::mh[Mythic Treant]{cr=\"10\" mr=\"4\"}",
+			"::mh[Mythic Treant]{cr=10 mr=4}",
 			"",
 			"{SOURCE Mythic Adventures/218}  ",
 			"**XP** 9,600  ",
@@ -1917,7 +1917,7 @@
 		"description": [
 			"*This giant humanoid has massive tusks, warty green hide sprouting bone spikes, and forearms thicker than its meaty legs.*",
 			"",
-			"::mh[Mythic Troll]{cr=\"6\" mr=\"2\"}",
+			"::mh[Mythic Troll]{cr=6 mr=2}",
 			"",
 			"{SOURCE Mythic Adventures/219}  ",
 			"**XP** 2,400  ",
@@ -1989,7 +1989,7 @@
 		"description": [
 			"*This amber-colored ooze contains the preserved larva of a giant insect, almost like a monstrous brain.*",
 			"",
-			"::mh[Mythic Tyrant Jelly]{cr=\"9\" mr=\"3\"}",
+			"::mh[Mythic Tyrant Jelly]{cr=9 mr=3}",
 			"",
 			"{SOURCE Bestiary 4/266}  ",
 			"**XP** 6,400  ",
@@ -2052,7 +2052,7 @@
 		"description": [
 			"*This armored humanoid has skin resembling white bone, carved with images of weapons and dragons.*",
 			"",
-			"::mh[Mythic Udaeus]{cr=\"4\" mr=\"1\"}",
+			"::mh[Mythic Udaeus]{cr=4 mr=1}",
 			"",
 			"{SOURCE Bestiary 4/267}  ",
 			"**XP** 1,200  ",
@@ -2114,7 +2114,7 @@
 		"description": [
 			"*This aristocratic figure could easily pass for human if not for the grave-pale skin, red eyes, and long fangs.*",
 			"",
-			"::mh[Mythic Vampire]{cr=\"10\" mr=\"4\"}",
+			"::mh[Mythic Vampire]{cr=10 mr=4}",
 			"",
 			"{SOURCE Mythic Adventures/220}  ",
 			"**XP** 9,600  ",
@@ -2211,7 +2211,7 @@
 		"description": [
 			"*This giant wolf's fur is so white it's almost blinding to behold.*",
 			"",
-			"::mh[Mythic Winter Wolf]{cr=\"6\" mr=\"2\"}",
+			"::mh[Mythic Winter Wolf]{cr=6 mr=2}",
 			"",
 			"{SOURCE Mythic Adventures/222}  ",
 			"**XP** 2,400  ",
@@ -2258,7 +2258,7 @@
 		"description": [
 			"*A terrifying darkness surrounds this giant wolf.*",
 			"",
-			"::mh[Mythic Worg]{cr=\"3\" mr=\"1\"}",
+			"::mh[Mythic Worg]{cr=3 mr=1}",
 			"",
 			"{SOURCE Mythic Adventures/222}  ",
 			"**XP** 800  ",
@@ -2307,7 +2307,7 @@
 		"description": [
 			"*This serpentine dragon has huge wings, two taloned legs, and a tail stinger, and its blue scales are mottled with other colors.*",
 			"",
-			"::mh[Mythic Wyvern]{cr=\"8\" mr=\"3\"}",
+			"::mh[Mythic Wyvern]{cr=8 mr=3}",
 			"",
 			"{SOURCE Mythic Adventures/223}  ",
 			"**XP** 4,800  ",
@@ -2368,7 +2368,7 @@
 		"description": [
 			"*This towering, spindly, four-armed entity appears to be made of stone and crystal, yet it moves with a fluid grace.*",
 			"",
-			"::mh[Mythic Vault Builder]{cr=\"20\" mr=\"8\"}",
+			"::mh[Mythic Vault Builder]{cr=20 mr=8}",
 			"",
 			"{SOURCE Planar Adventures/252;The Emerald Spire Superdungeon/159}  ",
 			"**XP** 307,200  ",

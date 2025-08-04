@@ -3,7 +3,7 @@
 		"name": "Adult Astral Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::mh[Adult Astral Dragon]{cr=\"13\"}",
+			"::mh[Adult Astral Dragon]{cr=13}",
 			"",
 			"{SOURCE Bestiary 5/88}  ",
 			"**XP** 25,600  ",
@@ -59,7 +59,7 @@
 		"name": "Ancient Astral Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::mh[Ancient Astral Dragon]{cr=\"18\"}",
+			"::mh[Ancient Astral Dragon]{cr=18}",
 			"",
 			"{SOURCE Bestiary 5/89}  ",
 			"**XP** 153,600  ",
@@ -121,7 +121,7 @@
 		"description": [
 			"*This majestic dragon seems to shimmer as if surrounded by thousands of eddies of astral thought.*",
 			"",
-			"::mh[Young Astral Dragon]{cr=\"9\"}",
+			"::mh[Young Astral Dragon]{cr=9}",
 			"",
 			"{SOURCE Bestiary 5/88}  ",
 			"**XP** 6,400  ",
@@ -174,7 +174,7 @@
 		"name": "Adult Dream Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::mh[Adult Dream Dragon]{cr=\"14\"}",
+			"::mh[Adult Dream Dragon]{cr=14}",
 			"",
 			"{SOURCE Bestiary 5/90}  ",
 			"**XP** 38,400  ",
@@ -230,7 +230,7 @@
 		"name": "Ancient Dream Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::mh[Ancient Dream Dragon]{cr=\"19\"}",
+			"::mh[Ancient Dream Dragon]{cr=19}",
 			"",
 			"{SOURCE Bestiary 5/91}  ",
 			"**XP** 204,800  ",
@@ -292,7 +292,7 @@
 		"description": [
 			"*Clouds trail from the edges of this graceful, nearly fanciful creature in hypnotizing patterns.*",
 			"",
-			"::mh[Young Dream Dragon]{cr=\"10\"}",
+			"::mh[Young Dream Dragon]{cr=10}",
 			"",
 			"{SOURCE Bestiary 5/90}  ",
 			"**XP** 9,600  ",
@@ -344,7 +344,7 @@
 		"name": "Adult Etheric Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::mh[Adult Etheric Dragon]{cr=\"11\"}",
+			"::mh[Adult Etheric Dragon]{cr=11}",
 			"",
 			"{SOURCE Bestiary 5/92}  ",
 			"**XP** 12,800  ",
@@ -399,7 +399,7 @@
 		"name": "Ancient Etheric Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::mh[Ancient Etheric Dragon]{cr=\"16\"}",
+			"::mh[Ancient Etheric Dragon]{cr=16}",
 			"",
 			"{SOURCE Bestiary 5/93}  ",
 			"**XP** 76,800  ",
@@ -460,7 +460,7 @@
 		"description": [
 			"*This silent dragon seems to gather shadows and gloom around its tattered-appearing wings.*",
 			"",
-			"::mh[Young Etheric Dragon]{cr=\"7\"}",
+			"::mh[Young Etheric Dragon]{cr=7}",
 			"",
 			"{SOURCE Bestiary 5/92}  ",
 			"**XP** 3,200  ",
@@ -508,7 +508,7 @@
 		"name": "Adult Nightmare Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::mh[Adult Nightmare Dragon]{cr=\"10\"}",
+			"::mh[Adult Nightmare Dragon]{cr=10}",
 			"",
 			"{SOURCE Bestiary 5/94}  ",
 			"**XP** 9,600  ",
@@ -563,7 +563,7 @@
 		"name": "Ancient Nightmare Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::mh[Ancient Nightmare Dragon]{cr=\"15\"}",
+			"::mh[Ancient Nightmare Dragon]{cr=15}",
 			"",
 			"{SOURCE Bestiary 5/95}  ",
 			"**XP** 51,200  ",
@@ -624,7 +624,7 @@
 		"description": [
 			"*This ebony dragon with red frills appears terribly contorted and trails shadows.*",
 			"",
-			"::mh[Young Nightmare Dragon]{cr=\"6\"}",
+			"::mh[Young Nightmare Dragon]{cr=6}",
 			"",
 			"{SOURCE Bestiary 5/94}  ",
 			"**XP** 2,400  ",
@@ -671,7 +671,7 @@
 		"name": "Adult Occult Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::mh[Adult Occult Dragon]{cr=\"10\"}",
+			"::mh[Adult Occult Dragon]{cr=10}",
 			"",
 			"{SOURCE Bestiary 5/96}  ",
 			"**XP** 9,600  ",
@@ -727,7 +727,7 @@
 		"name": "Ancient Occult Dragon",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::mh[Ancient Occult Dragon]{cr=\"15\"}",
+			"::mh[Ancient Occult Dragon]{cr=15}",
 			"",
 			"{SOURCE Bestiary 5/97}  ",
 			"**XP** 51,200  ",
@@ -789,7 +789,7 @@
 		"description": [
 			"*Its parchment-colored scales rustling like dry leaves, this dragon seems unusually attentive, as if always on the lookout.*",
 			"",
-			"::mh[Young Occult Dragon]{cr=\"6\"}",
+			"::mh[Young Occult Dragon]{cr=6}",
 			"",
 			"{SOURCE Bestiary 5/96}  ",
 			"**XP** 2,400  ",
@@ -842,7 +842,7 @@
 		"name": "Adult Forest Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::mh[Adult Forest Dragon]{cr=\"14\"}",
+			"::mh[Adult Forest Dragon]{cr=14}",
 			"",
 			"{SOURCE Bestiary 3/94}  ",
 			"**XP** 38,400  ",
@@ -898,7 +898,7 @@
 		"name": "Ancient Forest Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::mh[Ancient Forest Dragon]{cr=\"19\"}",
+			"::mh[Ancient Forest Dragon]{cr=19}",
 			"",
 			"{SOURCE Bestiary 3/95}  ",
 			"**XP** 204,800  ",
@@ -960,7 +960,7 @@
 		"description": [
 			"*This massive serpentine and wingless creature has jade scales and antlers, and sounds like grinding stones as it stalks forth.*",
 			"",
-			"::mh[Young Forest Dragon]{cr=\"10\"}",
+			"::mh[Young Forest Dragon]{cr=10}",
 			"",
 			"{SOURCE Bestiary 3/94}  ",
 			"**XP** 9,600  ",
@@ -1013,7 +1013,7 @@
 		"name": "Adult Sea Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::mh[Adult Sea Dragon]{cr=\"12\"}",
+			"::mh[Adult Sea Dragon]{cr=12}",
 			"",
 			"{SOURCE Bestiary 3/96}  ",
 			"**XP** 19,200  ",
@@ -1069,7 +1069,7 @@
 		"name": "Ancient Sea Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::mh[Ancient Sea Dragon]{cr=\"17\"}",
+			"::mh[Ancient Sea Dragon]{cr=17}",
 			"",
 			"{SOURCE Bestiary 3/97}  ",
 			"**XP** 102,400  ",
@@ -1131,7 +1131,7 @@
 		"description": [
 			"*The long, undulating body of this serpentine dragon rolls and bends with scales the color of the ocean's waves.*",
 			"",
-			"::mh[Young Sea Dragon]{cr=\"8\"}",
+			"::mh[Young Sea Dragon]{cr=8}",
 			"",
 			"{SOURCE Bestiary 3/96}  ",
 			"**XP** 4,800  ",
@@ -1184,7 +1184,7 @@
 		"name": "Adult Sky Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::mh[Adult Sky Dragon]{cr=\"13\"}",
+			"::mh[Adult Sky Dragon]{cr=13}",
 			"",
 			"{SOURCE Bestiary 3/98}  ",
 			"**XP** 25,600  ",
@@ -1240,7 +1240,7 @@
 		"name": "Ancient Sky Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::mh[Ancient Sky Dragon]{cr=\"18\"}",
+			"::mh[Ancient Sky Dragon]{cr=18}",
 			"",
 			"{SOURCE Bestiary 3/99}  ",
 			"**XP** 153,600  ",
@@ -1301,7 +1301,7 @@
 		"description": [
 			"*Although wingless, this dragon twists gracefully though the sky, its scales reflecting the shifting hues of the heavens.*",
 			"",
-			"::mh[Young Sky Dragon]{cr=\"9\"}",
+			"::mh[Young Sky Dragon]{cr=9}",
 			"",
 			"{SOURCE Bestiary 3/98}  ",
 			"**XP** 6,400  ",
@@ -1354,7 +1354,7 @@
 		"name": "Adult Sovereign Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::mh[Adult Sovereign Dragon]{cr=\"15\"}",
+			"::mh[Adult Sovereign Dragon]{cr=15}",
 			"",
 			"{SOURCE Bestiary 3/100}  ",
 			"**XP** 51,200  ",
@@ -1410,7 +1410,7 @@
 		"name": "Ancient Sovereign Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::mh[Ancient Sovereign Dragon]{cr=\"20\"}",
+			"::mh[Ancient Sovereign Dragon]{cr=20}",
 			"",
 			"{SOURCE Bestiary 3/101}  ",
 			"**XP** 307,200  ",
@@ -1472,7 +1472,7 @@
 		"description": [
 			"*This magnificent dragon is covered in splendid gold scales, and horns jut from its head like a crown.*",
 			"",
-			"::mh[Young Sovereign Dragon]{cr=\"11\"}",
+			"::mh[Young Sovereign Dragon]{cr=11}",
 			"",
 			"{SOURCE Bestiary 3/100}  ",
 			"**XP** 12,800  ",
@@ -1525,7 +1525,7 @@
 		"name": "Adult Underworld Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::mh[Adult Underworld Dragon]{cr=\"11\"}",
+			"::mh[Adult Underworld Dragon]{cr=11}",
 			"",
 			"{SOURCE Bestiary 3/102}  ",
 			"**XP** 12,800  ",
@@ -1581,7 +1581,7 @@
 		"name": "Ancient Underworld Dragon",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::mh[Ancient Underworld Dragon]{cr=\"16\"}",
+			"::mh[Ancient Underworld Dragon]{cr=16}",
 			"",
 			"{SOURCE Bestiary 3/103}  ",
 			"**XP** 76,800  ",
@@ -1643,7 +1643,7 @@
 		"description": [
 			"*This serpentine dragon has skin the color of deep volcanic rock, enormous claws, and jagged, stone-like horns and scales.*",
 			"",
-			"::mh[Young Underworld Dragon]{cr=\"7\"}",
+			"::mh[Young Underworld Dragon]{cr=7}",
 			"",
 			"{SOURCE Bestiary 3/102}  ",
 			"**XP** 3,200  ",
@@ -1699,7 +1699,7 @@
 		"description": [
 			"*The glossy alabaster coat of this noble horse ripples with muscles, while its hooves shimmer with pale blue energy.*",
 			"",
-			"::mh[Dragon Horse]{cr=\"9\"}",
+			"::mh[Dragon Horse]{cr=9}",
 			"",
 			"{SOURCE Bestiary 2/104}  ",
 			"**XP** 6,400  ",
@@ -1761,7 +1761,7 @@
 		"description": [
 			"*This long-tailed aquatic beast resembles a massive snapping turtle with draconic features.*",
 			"",
-			"::mh[Dragon Turtle]{cr=\"9\"}",
+			"::mh[Dragon Turtle]{cr=9}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/112}  ",
 			"**XP** 6,400  ",
@@ -1822,7 +1822,7 @@
 		"description": [
 			"*This sleek, gold-scaled draconic creature looks both regal and intelligent. A leather harness holds a saddle between its wings.*",
 			"",
-			"::mh[Dragonkin]{cr=\"9\"}",
+			"::mh[Dragonkin]{cr=9}",
 			"",
 			"{SOURCE Bestiary 5/98;Distant Worlds/61}  ",
 			"**XP** 6,400  ",
@@ -1880,7 +1880,7 @@
 		"description": [
 			"*This creature has the features of a lion but the wings and scales of a brass dragon, and a wild mane matching its scales.*",
 			"",
-			"::mh[Dragonne]{cr=\"7\"}",
+			"::mh[Dragonne]{cr=7}",
 			"",
 			"{SOURCE Bestiary 3/104;Bonus Bestiary/10}  ",
 			"**XP** 3,200  ",
@@ -1937,7 +1937,7 @@
 		"description": [
 			"*This sleek dragon has scales mottled in desert colors, lacks forelimbs, and sports massive wings on its lissome back.*",
 			"",
-			"::mh[Desert Drake]{cr=\"8\"}",
+			"::mh[Desert Drake]{cr=8}",
 			"",
 			"{SOURCE Bestiary 3/105}  ",
 			"**XP** 4,800  ",
@@ -2000,7 +2000,7 @@
 		"description": [
 			"*Bony plates cover the upper body of this dragon. Its lower frame has a glassy sheen, and bone wings protrude from its back.*",
 			"",
-			"::mh[Ether Drake]{cr=\"10\"}",
+			"::mh[Ether Drake]{cr=10}",
 			"",
 			"{SOURCE Bestiary 5/99}  ",
 			"**XP** 9,600  ",
@@ -2066,7 +2066,7 @@
 		"description": [
 			"*This ferocious creature looks like a red-and-yellow scaled dragon, but with only two legs.*",
 			"",
-			"::mh[Flame Drake]{cr=\"5\"}",
+			"::mh[Flame Drake]{cr=5}",
 			"",
 			"{SOURCE Bestiary 2/106;Conquest of Bloodsworn Vale/30}  ",
 			"**XP** 1,600  ",
@@ -2130,7 +2130,7 @@
 		"description": [
 			"*This green-scaled dragon has two powerful legs and a pair of long, leathery wings. A long spike adorns its thrashing tail.*",
 			"",
-			"::mh[Forest Drake]{cr=\"4\"}",
+			"::mh[Forest Drake]{cr=4}",
 			"",
 			"{SOURCE Bestiary 2/107;Pathfinder #15: The Armageddon Echo/86}  ",
 			"**XP** 1,200  ",
@@ -2195,7 +2195,7 @@
 		"description": [
 			"*This two-legged dragon has dull blue scales tinged with bright blue ice. A freezing mist issues from between its powerful jaws.*",
 			"",
-			"::mh[Frost Drake]{cr=\"7\"}",
+			"::mh[Frost Drake]{cr=7}",
 			"",
 			"{SOURCE Bestiary 2/108}  ",
 			"**XP** 3,200  ",
@@ -2259,7 +2259,7 @@
 		"description": [
 			"*The skin of this rugged dragon is mottled in hues of blue and green. Its elongated tail hides a menacing stinger.*",
 			"",
-			"::mh[Jungle Drake]{cr=\"6\"}",
+			"::mh[Jungle Drake]{cr=6}",
 			"",
 			"{SOURCE Bestiary 5/100}  ",
 			"**XP** 2,400  ",
@@ -2324,7 +2324,7 @@
 		"description": [
 			"*This muscular two-legged dragon is covered with scales of thick volcanic stone.*",
 			"",
-			"::mh[Lava Drake]{cr=\"9\"}",
+			"::mh[Lava Drake]{cr=9}",
 			"",
 			"{SOURCE Bestiary 4/78}  ",
 			"**XP** 6,400  ",
@@ -2386,7 +2386,7 @@
 		"description": [
 			"*This lanky dragon's dappled grayish scales and sprawling wings shift and fade in color, blending in with the mist.*",
 			"",
-			"::mh[Mist Drake]{cr=\"5\"}",
+			"::mh[Mist Drake]{cr=5}",
 			"",
 			"{SOURCE Bestiary 4/79}  ",
 			"**XP** 1,600  ",
@@ -2451,7 +2451,7 @@
 		"description": [
 			"*Horns jut from this muscular dragon's beaked head, and spikes cover the dragon's hide even in places on its winged arms.*",
 			"",
-			"::mh[Rift Drake]{cr=\"9\"}",
+			"::mh[Rift Drake]{cr=9}",
 			"",
 			"{SOURCE Bestiary 3/106}  ",
 			"**XP** 6,400  ",
@@ -2514,7 +2514,7 @@
 		"description": [
 			"*With graceful wings and wide fins, this sleek dragon looks equally well equipped to glide through sea and sky.*",
 			"",
-			"::mh[River Drake]{cr=\"3\"}",
+			"::mh[River Drake]{cr=3}",
 			"",
 			"{SOURCE Bestiary 3/107}  ",
 			"**XP** 800  ",
@@ -2578,7 +2578,7 @@
 		"description": [
 			"*Not quite sea serpent or dragon, this vicious beast is covered with shiny blue-green scales. Its arms serve as both wings and flippers.*",
 			"",
-			"::mh[Sea Drake]{cr=\"6\"}",
+			"::mh[Sea Drake]{cr=6}",
 			"",
 			"{SOURCE Bestiary 2/109}  ",
 			"**XP** 2,400  ",
@@ -2641,7 +2641,7 @@
 		"description": [
 			"*This tiny black dragon-like creature has charcoal-colored scales and shadowy wings.*",
 			"",
-			"::mh[Shadow Drake]{cr=\"2\"}",
+			"::mh[Shadow Drake]{cr=2}",
 			"",
 			"{SOURCE Bestiary 4/80}  ",
 			"**XP** 600  ",
@@ -2705,7 +2705,7 @@
 		"description": [
 			"*This reptilian creature's gaunt body, legs, and bat-like face are covered in long spines. Two wings stretch out from its torso.*",
 			"",
-			"::mh[Spire Drake]{cr=\"7\"}",
+			"::mh[Spire Drake]{cr=7}",
 			"",
 			"{SOURCE Bestiary 4/81}  ",
 			"**XP** 3,200  ",
@@ -2770,7 +2770,7 @@
 		"description": [
 			"*The dry rasping of spidery legs brings this hideous monstrosity into view - a nightmarish, centaurian fusion of drow and spider.*",
 			"",
-			"::mh[Drider]{cr=\"7\"}",
+			"::mh[Drider]{cr=7}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/113}  ",
 			"**XP** 3,200  ",
@@ -2843,7 +2843,7 @@
 		"description": [
 			"*Even hunched and creeping upon all fours, this reptilian behemoth towers over its prey, its protruding teeth snapping wildly.*",
 			"",
-			"::mh[Ghonhatine]{cr=\"10\"}",
+			"::mh[Ghonhatine]{cr=10}",
 			"",
 			"{SOURCE Bestiary 4/102;Pathfinder #16: Endless Night/84}  ",
 			"**XP** 9,600  ",
@@ -2904,7 +2904,7 @@
 		"description": [
 			"*Pale and glistening with moisture, this slug-like creature stares vacantly as a droning moan escapes its slobbering lips.*",
 			"",
-			"::mh[Grothlut]{cr=\"3\"}",
+			"::mh[Grothlut]{cr=3}",
 			"",
 			"{SOURCE Bestiary 4/103}  ",
 			"**XP** 800  ",
@@ -2963,7 +2963,7 @@
 		"description": [
 			"*This small, plant-like creature is a bulging mass of vise-like muscle with sunken eyes that constantly drip viscous, black tears.*",
 			"",
-			"::mh[Halsora]{cr=\"7\"}",
+			"::mh[Halsora]{cr=7}",
 			"",
 			"{SOURCE Bestiary 4/104}  ",
 			"**XP** 3,200  ",
@@ -3022,7 +3022,7 @@
 		"description": [
 			"*A mad-eyed mess of deformed limbs, misplaced features, and bone shards pulls itself along amid a cacophony of slapping flesh.*",
 			"",
-			"::mh[Irnakurse]{cr=\"9\"}",
+			"::mh[Irnakurse]{cr=9}",
 			"",
 			"{SOURCE Bestiary 4/105;Pathfinder #16: Endless Night/86}  ",
 			"**XP** 6,400  ",
@@ -3080,7 +3080,7 @@
 		"description": [
 			"*A cruel face and orc features dominate this creature's upper half, while its lower quarters bear the sinewy shape of a centipede.*",
 			"",
-			"::mh[Oronci]{cr=\"5\"}",
+			"::mh[Oronci]{cr=5}",
 			"",
 			"{SOURCE Inner Sea Bestiary/36}  ",
 			"**XP** 1,600  ",
@@ -3146,7 +3146,7 @@
 		"description": [
 			"*This nauseating, tapered tower of flesh, eyes, and tendrils writhes midair, surrounded by a strange vortex of sucking wind.*",
 			"",
-			"::mh[Flying Polyp]{cr=\"14\"}",
+			"::mh[Flying Polyp]{cr=14}",
 			"",
 			"{SOURCE Bestiary 4/106;Pathfinder #65: Into the Nightmare Rift/86}  ",
 			"**XP** 38,400  ",
@@ -3219,7 +3219,7 @@
 		"description": [
 			"*A massive, fire-filled maw splits the belly of this lumbering iron-skinned fiend, whose short arms end in razor-sharp claws.*",
 			"",
-			"::mh[Forgefiend (Scanderig)]{cr=\"10\"}",
+			"::mh[Forgefiend (Scanderig)]{cr=10}",
 			"",
 			"{SOURCE Rise of the Runelords Anniversary Edition/409;Pathfinder #4: Fortress of the Stone Giants/86}  ",
 			"**XP** 9,600  ",
@@ -3282,7 +3282,7 @@
 		"description": [
 			"*This humanoid creature has the legs of a bald goat, a completely hairless body, and a horned head with a sinister expression.*",
 			"",
-			"::mh[Forlarren]{cr=\"2\"}",
+			"::mh[Forlarren]{cr=2}",
 			"",
 			"{SOURCE Bestiary 2/125}  ",
 			"**XP** 600  ",
@@ -3343,7 +3343,7 @@
 		"description": [
 			"*This horse-sized insect has a brilliant red carapace, and its monstrous face reflects great intelligence and confidence.*",
 			"",
-			"::mh[Formian Myrmarch]{cr=\"10\"}",
+			"::mh[Formian Myrmarch]{cr=10}",
 			"",
 			"{SOURCE Bestiary 4/109}  ",
 			"**XP** 9,600  ",
@@ -3412,7 +3412,7 @@
 		"description": [
 			"*This large and majestic creature is nearly immobile, her massive abdomen swollen with her impending brood.*",
 			"",
-			"::mh[Formian Queen]{cr=\"17\"}",
+			"::mh[Formian Queen]{cr=17}",
 			"",
 			"{SOURCE Bestiary 4/110}  ",
 			"**XP** 102,400  ",
@@ -3472,7 +3472,7 @@
 		"description": [
 			"*This centaur-like creature is equipped with an ant's mandibles and antennae.*",
 			"",
-			"::mh[Formian Taskmaster]{cr=\"7\"}",
+			"::mh[Formian Taskmaster]{cr=7}",
 			"",
 			"{SOURCE Bestiary 4/111}  ",
 			"**XP** 3,200  ",
@@ -3543,7 +3543,7 @@
 		"description": [
 			"*Armored from head to toe in gleaming black-and-red chitin, this insectile warrior's tail ends in a wickedly barbed stinger.*",
 			"",
-			"::mh[Formian Warrior]{cr=\"3\"}",
+			"::mh[Formian Warrior]{cr=3}",
 			"",
 			"{SOURCE Bestiary 4/112}  ",
 			"**XP** 800  ",
@@ -3669,7 +3669,7 @@
 		"description": [
 			"*This shuddering blot of living tar is surrounded by a mass of writhing tendrils, and its maw opens into a dark gullet.*",
 			"",
-			"::mh[Formless Spawn]{cr=\"10\"}",
+			"::mh[Formless Spawn]{cr=10}",
 			"",
 			"{SOURCE Pathfinder #111: Dreams of the Yellow King/82}  ",
 			"**XP** 9,600  ",
@@ -3745,7 +3745,7 @@
 		"description": [
 			"*An eerie green glow emanates from this decayed soldier's bony eye sockets. It wears a rotted uniform and carries a massive crossbow.*",
 			"",
-			"::mh[Forsaken Arbalester]{cr=\"3\"}",
+			"::mh[Forsaken Arbalester]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #102: Breaking the Bones of Hell/86}  ",
 			"**XP** 800  ",
@@ -3796,7 +3796,7 @@
 		"description": [
 			"*This undead soldier carries a heavy-looking pickaxe in one hand and a short sword in the other.*",
 			"",
-			"::mh[Forsaken Defender]{cr=\"4\"}",
+			"::mh[Forsaken Defender]{cr=4}",
 			"",
 			"{SOURCE Pathfinder #102: Breaking the Bones of Hell/87}  ",
 			"**XP** 1,200  ",
@@ -3848,7 +3848,7 @@
 		"description": [
 			"*This withered corpse carries a sharpened spear and has a small shield strapped to its emaciated arm.*",
 			"",
-			"::mh[Forsaken Foot Soldier]{cr=\"2\"}",
+			"::mh[Forsaken Foot Soldier]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #102: Breaking the Bones of Hell/87}  ",
 			"**XP** 600  ",
@@ -3899,7 +3899,7 @@
 		"description": [
 			"*This striking, blue-eyed man with luminous skin and flowing white hair holds an ethereal harp.*",
 			"",
-			"::mh[Fossegrim]{cr=\"4\"}",
+			"::mh[Fossegrim]{cr=4}",
 			"",
 			"{SOURCE Bestiary 4/114}  ",
 			"**XP** 1,200  ",
@@ -3958,7 +3958,7 @@
 		"description": [
 			"*This transparent blue formation of ice is as forbidding as the serpent it resembles.*",
 			"",
-			"::mh[Freezing Flow]{cr=\"4\"}",
+			"::mh[Freezing Flow]{cr=4}",
 			"",
 			"{SOURCE Bestiary 4/115}  ",
 			"**XP** 1,200  ",
@@ -4018,7 +4018,7 @@
 		"description": [
 			"*The mist forms a roughly humanoid shape. Its features are indistinct, except for its clawed hands and hairy, fanged face.*",
 			"",
-			"::mh[Frightful Haunter]{cr=\"8\"}",
+			"::mh[Frightful Haunter]{cr=8}",
 			"",
 			"{SOURCE Monster Codex/28}  ",
 			"**XP** 4,800  ",
@@ -4078,7 +4078,7 @@
 		"description": [
 			"*This elephantine amphibian has a grotesquely long tongue and beady eyes.*",
 			"",
-			"::mh[Frog Father]{cr=\"5\"}",
+			"::mh[Frog Father]{cr=5}",
 			"",
 			"{SOURCE Bestiary 5/117}  ",
 			"**XP** 1,600  ",
@@ -4127,7 +4127,7 @@
 		"description": [
 			"*This creature looks like a normal frog, with moist, mottled, blackish-green skin, but grown to truly monstrous size.*",
 			"",
-			"::mh[Giant Frog]{cr=\"1\"}",
+			"::mh[Giant Frog]{cr=1}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/135}  ",
 			"**XP** 400  ",
@@ -4177,7 +4177,7 @@
 		"description": [
 			"*This massive, mottled amphibian glistens with slime, and its tongue drips with saliva.*",
 			"",
-			"::mh[Goliath Frog]{cr=\"3\"}",
+			"::mh[Goliath Frog]{cr=3}",
 			"",
 			"{SOURCE Bestiary 5/117}  ",
 			"**XP** 800  ",
@@ -4272,13 +4272,14 @@
 	},
 	"frog_poison": { "redirect": "frog_poison_frog" },
 	"poison_frog": { "redirect": "frog_poison_frog" },
+	"poisonous_frog": { "redirect": "frog_poison_frog" },
 	"froghemoth": {
 		"name": "Froghemoth",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"*This immense, three-eyed frog-like creature rears up on powerful hind legs. In place of arms, four huge tentacles thrash and writhe.*",
 			"",
-			"::mh[Froghemoth]{cr=\"13\"}",
+			"::mh[Froghemoth]{cr=13}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/136}  ",
 			"**XP** 25,600  ",

@@ -3,7 +3,7 @@
 		"name": "Falconer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Falconer]{cr=\"3\"}",
+			"::mh[Falconer]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/252}  ",
 			"**XP** 800  ",
@@ -45,7 +45,7 @@
 		"name": "Frontier (Trapper)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Frontier (Trapper)]{cr=\"3\"}",
+			"::mh[Frontier (Trapper)]{cr=3}",
 			"",
 			"{SOURCE GameMastery Guide/276}  ",
 			"**XP** 800  ",
@@ -90,7 +90,7 @@
 		"name": "Harbinger Disciple",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Harbinger Disciple]{cr=\"3\"}",
+			"::mh[Harbinger Disciple]{cr=3}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/28}  ",
 			"**XP** 800  ",
@@ -136,7 +136,7 @@
 		"name": "Investigator Wizard",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Investigator Wizard]{cr=\"3\"}",
+			"::mh[Investigator Wizard]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/179}  ",
 			"**XP** 800  ",
@@ -188,7 +188,7 @@
 		"name": "Lastwall Border Scout",
 		"sources": [ "Castles of the Inner Sea" ],
 		"description": [
-			"::mh[Lastwall Border Scout]{cr=\"3\"}",
+			"::mh[Lastwall Border Scout]{cr=3}",
 			"",
 			"{SOURCE Castles of the Inner Sea/10}  ",
 			"**XP** 800  ",
@@ -237,7 +237,7 @@
 		"description": [
 			"*This beefy human brawler has the bearing of a thug.*",
 			"",
-			"::mh[Lumber Consortium Enforcer]{cr=\"3\"}",
+			"::mh[Lumber Consortium Enforcer]{cr=3}",
 			"",
 			"{SOURCE Andoran, Birthplace of Freedom/57}  ",
 			"**XP** 800  ",
@@ -286,7 +286,7 @@
 		"name": "Murderous Halfling",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Murderous Halfling]{cr=\"3\"}",
+			"::mh[Murderous Halfling]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/81}  ",
 			"**XP** 800  ",
@@ -336,7 +336,7 @@
 		"description": [
 			"*Armed with a rapier and wearing leather armor, this half-elf possesses an amiable demeanor and a lute at her side.*",
 			"",
-			"::mh[Pirate Officer]{cr=\"3\"}",
+			"::mh[Pirate Officer]{cr=3}",
 			"",
 			"{SOURCE Isles of the Shackles/56}  ",
 			"**XP** 800  ",
@@ -385,7 +385,7 @@
 		"name": "Red Mantis Initiate",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Red Mantis Initiate]{cr=\"3\"}",
+			"::mh[Red Mantis Initiate]{cr=3}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/48}  ",
 			"**XP** 800  ",
@@ -433,7 +433,7 @@
 		"description": [
 			"*This holy woman wears a large pendant of a winged, two-headed cobra around her neck and wields a mace of similar make.*",
 			"",
-			"::mh[River Cleric]{cr=\"3\"}",
+			"::mh[River Cleric]{cr=3}",
 			"",
 			"{SOURCE Osirion, Legacy of the Pharaohs/62}  ",
 			"**XP** 800  ",
@@ -490,7 +490,7 @@
 		"name": "Road (Pilgrim)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Road (Pilgrim)]{cr=\"3\"}",
+			"::mh[Road (Pilgrim)]{cr=3}",
 			"",
 			"{SOURCE GameMastery Guide/291}  ",
 			"**XP** 800  ",
@@ -535,7 +535,7 @@
 		"name": "Sapper",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Sapper]{cr=\"3\"}",
+			"::mh[Sapper]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/262}  ",
 			"**XP** 800  ",
@@ -577,7 +577,7 @@
 		"name": "Savage Plant Sage",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Savage Plant Sage]{cr=\"3\"}",
+			"::mh[Savage Plant Sage]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/63}  ",
 			"**XP** 800  ",
@@ -629,7 +629,7 @@
 		"name": "Shoreline Cleric",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Shoreline Cleric]{cr=\"3\"}",
+			"::mh[Shoreline Cleric]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/45}  ",
 			"**XP** 800  ",
@@ -681,7 +681,7 @@
 		"name": "Skirmishing Crusader",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Skirmishing Crusader]{cr=\"3\"}",
+			"::mh[Skirmishing Crusader]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/113}  ",
 			"**XP** 800  ",
@@ -732,7 +732,7 @@
 		"name": "Spry Ambusher",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Spry Ambusher]{cr=\"3\"}",
+			"::mh[Spry Ambusher]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/97}  ",
 			"**XP** 800  ",
@@ -781,7 +781,7 @@
 		"name": "Street (Dealer)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Street (Dealer)]{cr=\"3\"}",
+			"::mh[Street (Dealer)]{cr=3}",
 			"",
 			"{SOURCE GameMastery Guide/301}  ",
 			"**XP** 800  ",
@@ -827,7 +827,7 @@
 		"name": "Tainted Sorcerer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Tainted Sorcerer]{cr=\"3\"}",
+			"::mh[Tainted Sorcerer]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/161}  ",
 			"**XP** 800  ",
@@ -880,7 +880,7 @@
 		"name": "Taunting Comedian",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Taunting Comedian]{cr=\"3\"}",
+			"::mh[Taunting Comedian]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/27}  ",
 			"**XP** 800  ",
@@ -932,7 +932,7 @@
 		"name": "Tavern (Barkeep)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Tavern (Barkeep)]{cr=\"3\"}",
+			"::mh[Tavern (Barkeep)]{cr=3}",
 			"",
 			"{SOURCE GameMastery Guide/303}  ",
 			"**XP** 800  ",
@@ -977,7 +977,7 @@
 		"name": "Tavern Champion",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Tavern Champion]{cr=\"3\"}",
+			"::mh[Tavern Champion]{cr=3}",
 			"",
 			"{SOURCE NPC Codex/268}  ",
 			"**XP** 800  ",
@@ -1024,7 +1024,7 @@
 		"description": [
 			"*This woman's once-fine garments are tattered and stained with unnatural fluids, but her protective gear is carefully maintained.*",
 			"",
-			"::mh[Technic League Hireling]{cr=\"3\"}",
+			"::mh[Technic League Hireling]{cr=3}",
 			"",
 			"{SOURCE Numeria, Land of Fallen Stars/61}  ",
 			"**XP** 800  ",
@@ -1080,7 +1080,7 @@
 		"description": [
 			"*Richly attired in noble's garbs, this savvy man boasts a colorful cloak, a bulging coin purse, and a fine rapier at his side.*",
 			"",
-			"::mh[Aspis Agent]{cr=\"4\"}",
+			"::mh[Aspis Agent]{cr=4}",
 			"",
 			"{SOURCE Magnimar, City of Monuments/53}  ",
 			"**XP** 1,200  ",
@@ -1136,7 +1136,7 @@
 		"description": [
 			"*Clad in black silk and a chain shirt, this bold woman has a strong stance and wields a masterfully crafted rapier; the tricorne hat atop her head depicts a skull and crossbones.*",
 			"",
-			"::mh[Besmaran Priest]{cr=\"4\"}",
+			"::mh[Besmaran Priest]{cr=4}",
 			"",
 			"{SOURCE Isles of the Shackles/43}  ",
 			"**XP** 1,200  ",
@@ -1190,7 +1190,7 @@
 		"name": "Bramble Sorcerer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Bramble Sorcerer]{cr=\"4\"}",
+			"::mh[Bramble Sorcerer]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/162}  ",
 			"**XP** 1,200  ",
@@ -1250,7 +1250,7 @@
 		"name": "Cautious Archer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Cautious Archer]{cr=\"4\"}",
+			"::mh[Cautious Archer]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/82}  ",
 			"**XP** 1,200  ",
@@ -1301,7 +1301,7 @@
 		"name": "Cavern Defender",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Cavern Defender]{cr=\"4\"}",
+			"::mh[Cavern Defender]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/64}  ",
 			"**XP** 1,200  ",
@@ -1366,7 +1366,7 @@
 		"description": [
 			"*Confident and careful, this guard captain has a determined gait and wields a crossbow in addition to her fine blades.*",
 			"",
-			"::mh[City Watch Captain (Magnimar)]{cr=\"4\"}",
+			"::mh[City Watch Captain (Magnimar)]{cr=4}",
 			"",
 			"{SOURCE Magnimar, City of Monuments/54}  ",
 			"**XP** 1,200  ",
@@ -1415,7 +1415,7 @@
 		"description": [
 			"*This woman wears colorful clothing of fine cut and cloth, and carries a satchel of documents.*",
 			"",
-			"::mh[Corrupt Politician]{cr=\"4\"}",
+			"::mh[Corrupt Politician]{cr=4}",
 			"",
 			"{SOURCE Andoran, Birthplace of Freedom/53}  ",
 			"**XP** 1,200  ",
@@ -1471,7 +1471,7 @@
 		"name": "Court Poet",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Court Poet]{cr=\"4\"}",
+			"::mh[Court Poet]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/28}  ",
 			"**XP** 1,200  ",
@@ -1533,7 +1533,7 @@
 		"name": "Cruel Devotee",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Cruel Devotee]{cr=\"4\"}",
+			"::mh[Cruel Devotee]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/98}  ",
 			"**XP** 1,200  ",
@@ -1578,7 +1578,7 @@
 		"name": "Devil's Perch Rebel",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Devil's Perch Rebel]{cr=\"4\"}",
+			"::mh[Devil's Perch Rebel]{cr=4}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/18}  ",
 			"**XP** 1,200  ",
@@ -1626,7 +1626,7 @@
 		"name": "Expert Blacksmith",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Expert Blacksmith]{cr=\"4\"}",
+			"::mh[Expert Blacksmith]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/262}  ",
 			"**XP** 1,200  ",
@@ -1670,7 +1670,7 @@
 		"name": "Fighting School (Battle Monk)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Fighting School (Battle Monk)]{cr=\"4\"}",
+			"::mh[Fighting School (Battle Monk)]{cr=4}",
 			"",
 			"{SOURCE GameMastery Guide/275}  ",
 			"**XP** 1,200  ",
@@ -1716,7 +1716,7 @@
 		"name": "God Caller",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[God Caller]{cr=\"4\"}",
+			"::mh[God Caller]{cr=4}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/24}  ",
 			"**XP** 1,200  ",
@@ -1798,7 +1798,7 @@
 		"name": "Grizzled Mercenary",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Grizzled Mercenary]{cr=\"4\"}",
+			"::mh[Grizzled Mercenary]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/268}  ",
 			"**XP** 1,200  ",
@@ -1843,7 +1843,7 @@
 		"name": "Guild Initiate",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Guild Initiate]{cr=\"4\"}",
+			"::mh[Guild Initiate]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/146}  ",
 			"**XP** 1,200  ",
@@ -1896,7 +1896,7 @@
 		"name": "Guru",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Guru]{cr=\"4\"}",
+			"::mh[Guru]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/246}  ",
 			"**XP** 1,200  ",
@@ -1944,7 +1944,7 @@
 		"name": "Hammer of Justice",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Hammer of Justice]{cr=\"4\"}",
+			"::mh[Hammer of Justice]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/114}  ",
 			"**XP** 1,200  ",
@@ -1994,7 +1994,7 @@
 		"name": "Jungle Wizard",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Jungle Wizard]{cr=\"4\"}",
+			"::mh[Jungle Wizard]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/180}  ",
 			"**XP** 1,200  ",
@@ -2058,7 +2058,7 @@
 		"description": [
 			"*This proud Ulfen captain stands alert on the deck of her dragonprowed longship, bow at the ready.*",
 			"",
-			"::mh[Longboat Captain]{cr=\"4\"}",
+			"::mh[Longboat Captain]{cr=4}",
 			"",
 			"{SOURCE Lands of the Linnorm Kings/60}  ",
 			"**XP** 1,200  ",
@@ -2112,7 +2112,7 @@
 		"name": "Mounted Archer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mounted Archer]{cr=\"4\"}",
+			"::mh[Mounted Archer]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/130}  ",
 			"**XP** 1,200  ",
@@ -2166,7 +2166,7 @@
 		"name": "Noble Crusader",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Noble Crusader]{cr=\"4\"}",
+			"::mh[Noble Crusader]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/46}  ",
 			"**XP** 1,200  ",
@@ -2230,7 +2230,7 @@
 		"name": "Officer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Officer]{cr=\"4\"}",
+			"::mh[Officer]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/252}  ",
 			"**XP** 1,200  ",
@@ -2274,7 +2274,7 @@
 		"name": "Scholar (Hedge Wizard)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Scholar (Hedge Wizard)]{cr=\"4\"}",
+			"::mh[Scholar (Hedge Wizard)]{cr=4}",
 			"",
 			"{SOURCE GameMastery Guide/296}  ",
 			"**XP** 1,200  ",
@@ -2323,7 +2323,7 @@
 		"name": "Seer (Medium)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Seer (Medium)]{cr=\"4\"}",
+			"::mh[Seer (Medium)]{cr=4}",
 			"",
 			"{SOURCE GameMastery Guide/299}  ",
 			"**XP** 1,200  ",
@@ -2375,7 +2375,7 @@
 		"name": "Shoanti Burn Rider",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Shoanti Burn Rider]{cr=\"4\"}",
+			"::mh[Shoanti Burn Rider]{cr=4}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/51}  ",
 			"**XP** 1,200  ",
@@ -2430,7 +2430,7 @@
 		"name": "Shopkeeper",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Shopkeeper]{cr=\"4\"}",
+			"::mh[Shopkeeper]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/257}  ",
 			"**XP** 1,200  ",
@@ -2473,7 +2473,7 @@
 		"name": "Sodden Scavenger",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Sodden Scavenger]{cr=\"4\"}",
+			"::mh[Sodden Scavenger]{cr=4}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/56}  ",
 			"**XP** 1,200  ",
@@ -2518,7 +2518,7 @@
 		"name": "Usij Cabalist",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Usij Cabalist]{cr=\"4\"}",
+			"::mh[Usij Cabalist]{cr=4}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/59}  ",
 			"**XP** 1,200  ",
@@ -2573,7 +2573,7 @@
 		"description": [
 			"*Dents and nicks fail to dull the shine of this knight's armor. A sword and starburst decorate her shield.*",
 			"",
-			"::mh[Wayward Crusader]{cr=\"4\"}",
+			"::mh[Wayward Crusader]{cr=4}",
 			"",
 			"{SOURCE Numeria, Land of Fallen Stars/62}  ",
 			"**XP** 1,200  ",
@@ -2653,7 +2653,7 @@
 		"name": "Wild Lancer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Wild Lancer]{cr=\"4\"}",
+			"::mh[Wild Lancer]{cr=4}",
 			"",
 			"{SOURCE NPC Codex/12}  ",
 			"**XP** 1,200  ",
@@ -2702,7 +2702,7 @@
 		"description": [
 			"*This woman's face shows a stern expression. Frost clings to her skin and clothes, though she doesn't appear to notice.*",
 			"",
-			"::mh[Winter Witch Baroness]{cr=\"4\"}",
+			"::mh[Winter Witch Baroness]{cr=4}",
 			"",
 			"{SOURCE Irrisen - Land of Eternal Winter/62}  ",
 			"**XP** 1,200  ",
@@ -2761,7 +2761,7 @@
 		"name": "Thrune Agent",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Thrune Agent]{cr=\"7\"}",
+			"::mh[Thrune Agent]{cr=7}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/57}  ",
 			"**XP** 3,200  ",
@@ -2806,7 +2806,7 @@
 		"name": "Trapsmith",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Trapsmith]{cr=\"7\"}",
+			"::mh[Trapsmith]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/147}  ",
 			"**XP** 3,200  ",
@@ -2851,7 +2851,7 @@
 		"name": "Trickster Mage",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Trickster Mage]{cr=\"7\"}",
+			"::mh[Trickster Mage]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/165}  ",
 			"**XP** 3,200  ",
@@ -2914,7 +2914,7 @@
 		"name": "Wrath Priest",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Wrath Priest]{cr=\"7\"}",
+			"::mh[Wrath Priest]{cr=7}",
 			"",
 			"{SOURCE NPC Codex/49}  ",
 			"**XP** 3,200  ",

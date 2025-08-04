@@ -3,7 +3,7 @@
 		"name": "Adventurer (Battle Mage)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Adventurer (Battle Mage)]{cr=\"5\"}",
+			"::mh[Adventurer (Battle Mage)]{cr=5}",
 			"",
 			"{SOURCE GameMastery Guide/256}  ",
 			"**XP** 1,600  ",
@@ -50,7 +50,7 @@
 		"name": "Adventurer (Monster Hunter)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Adventurer (Monster Hunter)]{cr=\"5\"}",
+			"::mh[Adventurer (Monster Hunter)]{cr=5}",
 			"",
 			"{SOURCE GameMastery Guide/257}  ",
 			"**XP** 1,600  ",
@@ -95,7 +95,7 @@
 		"name": "Adventurer (Tomb Raider)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Adventurer (Tomb Raider)]{cr=\"5\"}",
+			"::mh[Adventurer (Tomb Raider)]{cr=5}",
 			"",
 			"{SOURCE GameMastery Guide/257}  ",
 			"**XP** 1,600  ",
@@ -139,7 +139,7 @@
 		"name": "Adventuring Blacksmith",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Adventuring Blacksmith]{cr=\"5\"}",
+			"::mh[Adventuring Blacksmith]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/82}  ",
 			"**XP** 1,600  ",
@@ -188,7 +188,7 @@
 		"name": "Aldori Swordlord",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Aldori Swordlord]{cr=\"5\"}",
+			"::mh[Aldori Swordlord]{cr=5}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/4}  ",
 			"**XP** 1,600  ",
@@ -241,7 +241,7 @@
 		"description": [
 			"*Intricate tribal tattoos cover the skin of this greataxe-wielding Kellid warrior.*",
 			"",
-			"::mh[Android Impostor]{cr=\"5\"}",
+			"::mh[Android Impostor]{cr=5}",
 			"",
 			"{SOURCE Numeria, Land of Fallen Stars/46}  ",
 			"**XP** 1,600  ",
@@ -299,7 +299,7 @@
 		"description": [
 			"*This tall, silent man wears a magnificent cloak of raven's feathers and a well-maintained suit of dark leather armor.*",
 			"",
-			"::mh[Blackraven Scout]{cr=\"5\"}",
+			"::mh[Blackraven Scout]{cr=5}",
 			"",
 			"{SOURCE Lands of the Linnorm Kings/55}  ",
 			"**XP** 1,600  ",
@@ -350,7 +350,7 @@
 		"name": "Carousing Champion",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Carousing Champion]{cr=\"5\"}",
+			"::mh[Carousing Champion]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/47}  ",
 			"**XP** 1,600  ",
@@ -412,7 +412,7 @@
 		"name": "Cave Stalker",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Cave Stalker]{cr=\"5\"}",
+			"::mh[Cave Stalker]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/146}  ",
 			"**XP** 1,600  ",
@@ -466,7 +466,7 @@
 		"name": "Chelish Opera Singer",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Chelish Opera Singer]{cr=\"5\"}",
+			"::mh[Chelish Opera Singer]{cr=5}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/14}  ",
 			"**XP** 1,600  ",
@@ -514,7 +514,7 @@
 		"name": "Coliseum (Gladiator)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Coliseum (Gladiator)]{cr=\"5\"}",
+			"::mh[Coliseum (Gladiator)]{cr=5}",
 			"",
 			"{SOURCE GameMastery Guide/262}  ",
 			"**XP** 1,600  ",
@@ -560,7 +560,7 @@
 		"name": "Con Artist",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Con Artist]{cr=\"5\"}",
+			"::mh[Con Artist]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/29}  ",
 			"**XP** 1,600  ",
@@ -623,7 +623,7 @@
 		"name": "Dungeon (Torturer)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Dungeon (Torturer)]{cr=\"5\"}",
+			"::mh[Dungeon (Torturer)]{cr=5}",
 			"",
 			"{SOURCE GameMastery Guide/271}  ",
 			"**XP** 1,600  ",
@@ -666,7 +666,7 @@
 		"name": "Entertainer (Minstrel)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Entertainer (Minstrel)]{cr=\"5\"}",
+			"::mh[Entertainer (Minstrel)]{cr=5}",
 			"",
 			"{SOURCE GameMastery Guide/273}  ",
 			"**XP** 1,600  ",
@@ -713,7 +713,7 @@
 		"name": "Evasive Slip",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Evasive Slip]{cr=\"5\"}",
+			"::mh[Evasive Slip]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/65}  ",
 			"**XP** 1,600  ",
@@ -777,7 +777,7 @@
 		"name": "Expert Bodyguard",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Expert Bodyguard]{cr=\"5\"}",
+			"::mh[Expert Bodyguard]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/269}  ",
 			"**XP** 1,600  ",
@@ -821,7 +821,7 @@
 		"name": "Forest Guardian",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Forest Guardian]{cr=\"5\"}",
+			"::mh[Forest Guardian]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/12}  ",
 			"**XP** 1,600  ",
@@ -867,7 +867,7 @@
 		"name": "Hermit",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Hermit]{cr=\"5\"}",
+			"::mh[Hermit]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/247}  ",
 			"**XP** 1,600  ",
@@ -916,7 +916,7 @@
 		"name": "Holy Archer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Holy Archer]{cr=\"5\"}",
+			"::mh[Holy Archer]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/114}  ",
 			"**XP** 1,600  ",
@@ -966,7 +966,7 @@
 		"name": "Marauder (Raider)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Marauder (Raider)]{cr=\"5\"}",
+			"::mh[Marauder (Raider)]{cr=5}",
 			"",
 			"{SOURCE GameMastery Guide/280}  ",
 			"**XP** 1,600  ",
@@ -1016,7 +1016,7 @@
 		"name": "Mayor",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mayor]{cr=\"5\"}",
+			"::mh[Mayor]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/253}  ",
 			"**XP** 1,600  ",
@@ -1060,7 +1060,7 @@
 		"name": "Merchant (Traveling Merchant)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Merchant (Traveling Merchant)]{cr=\"5\"}",
+			"::mh[Merchant (Traveling Merchant)]{cr=5}",
 			"",
 			"{SOURCE GameMastery Guide/285}  ",
 			"**XP** 1,600  ",
@@ -1103,7 +1103,7 @@
 		"name": "Military (Cavalry)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Military (Cavalry)]{cr=\"5\"}",
+			"::mh[Military (Cavalry)]{cr=5}",
 			"",
 			"{SOURCE GameMastery Guide/287}  ",
 			"**XP** 1,600  ",
@@ -1151,7 +1151,7 @@
 		"description": [
 			"*This lithe half-elven woman wields a hand crossbow and is bedecked in dark leather that blends in with the shadows.*",
 			"",
-			"::mh[Night Scale Assassin]{cr=\"5\"}",
+			"::mh[Night Scale Assassin]{cr=5}",
 			"",
 			"{SOURCE Magnimar, City of Monuments/56}  ",
 			"**XP** 1,600  ",
@@ -1199,7 +1199,7 @@
 		"name": "Nimble Shuriken Thrower",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Nimble Shuriken Thrower]{cr=\"5\"}",
+			"::mh[Nimble Shuriken Thrower]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/98}  ",
 			"**XP** 1,600  ",
@@ -1246,7 +1246,7 @@
 		"description": [
 			"*This confident-looking bearded man is dressed in rich and flamboyant clothing, an ornate, sheathed rapier at his side.*",
 			"",
-			"::mh[Pirate Captain]{cr=\"5\"}",
+			"::mh[Pirate Captain]{cr=5}",
 			"",
 			"{SOURCE Isles of the Shackles/56}  ",
 			"**XP** 1,600  ",
@@ -1296,7 +1296,7 @@
 		"description": [
 			"*This warrior's armor resembles the carapace of a mighty beetle. She wields a khopesh in one hand and a large shield in the other.*",
 			"",
-			"::mh[Risen Guard]{cr=\"5\"}",
+			"::mh[Risen Guard]{cr=5}",
 			"",
 			"{SOURCE Osirion, Legacy of the Pharaohs/61}  ",
 			"**XP** 1,600  ",
@@ -1348,7 +1348,7 @@
 		"name": "Ruffian",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Ruffian]{cr=\"5\"}",
+			"::mh[Ruffian]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/258}  ",
 			"**XP** 1,600  ",
@@ -1392,7 +1392,7 @@
 		"name": "Seer (Fortune Teller)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Seer (Fortune Teller)]{cr=\"5\"}",
+			"::mh[Seer (Fortune Teller)]{cr=5}",
 			"",
 			"{SOURCE GameMastery Guide/299}  ",
 			"**XP** 1,600  ",
@@ -1440,7 +1440,7 @@
 		"description": [
 			"*Clad in multicolored silks, this fierce-looking woman seems ready to unleash devastating sorcery upon enemy vessels and water-dwelling monsters alike.*",
 			"",
-			"::mh[Shackled Sorcerer]{cr=\"5\"}",
+			"::mh[Shackled Sorcerer]{cr=5}",
 			"",
 			"{SOURCE Isles of the Shackles/60}  ",
 			"**XP** 1,600  ",
@@ -1494,7 +1494,7 @@
 		"name": "Silent Enforcer",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Silent Enforcer]{cr=\"5\"}",
+			"::mh[Silent Enforcer]{cr=5}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/52}  ",
 			"**XP** 1,600  ",
@@ -1538,7 +1538,7 @@
 		"name": "Storm Sorcerer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Storm Sorcerer]{cr=\"5\"}",
+			"::mh[Storm Sorcerer]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/163}  ",
 			"**XP** 1,600  ",
@@ -1600,7 +1600,7 @@
 		"name": "Successful Merchant",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Successful Merchant]{cr=\"5\"}",
+			"::mh[Successful Merchant]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/263}  ",
 			"**XP** 1,600  ",
@@ -1644,7 +1644,7 @@
 		"name": "Tribal Seer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Tribal Seer]{cr=\"5\"}",
+			"::mh[Tribal Seer]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/181}  ",
 			"**XP** 1,600  ",
@@ -1706,7 +1706,7 @@
 		"name": "Tribe (Shaman)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Tribe (Shaman)]{cr=\"5\"}",
+			"::mh[Tribe (Shaman)]{cr=5}",
 			"",
 			"{SOURCE GameMastery Guide/307}  ",
 			"**XP** 1,600  ",
@@ -1753,7 +1753,7 @@
 		"name": "Tunnel Rat",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Tunnel Rat]{cr=\"5\"}",
+			"::mh[Tunnel Rat]{cr=5}",
 			"",
 			"{SOURCE NPC Codex/130}  ",
 			"**XP** 1,600  ",
@@ -1802,7 +1802,7 @@
 		"name": "Aloof Archer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Aloof Archer]{cr=\"6\"}",
+			"::mh[Aloof Archer]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/269}  ",
 			"**XP** 2,400  ",
@@ -1846,7 +1846,7 @@
 		"name": "Bloodfire Sorcerer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Bloodfire Sorcerer]{cr=\"6\"}",
+			"::mh[Bloodfire Sorcerer]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/164}  ",
 			"**XP** 2,400  ",
@@ -1908,7 +1908,7 @@
 		"name": "Blue Warder",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Blue Warder]{cr=\"6\"}",
+			"::mh[Blue Warder]{cr=6}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/13}  ",
 			"**XP** 2,400  ",
@@ -1958,7 +1958,7 @@
 		"name": "Brigand (Highwayman)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Brigand (Highwayman)]{cr=\"6\"}",
+			"::mh[Brigand (Highwayman)]{cr=6}",
 			"",
 			"{SOURCE GameMastery Guide/259}  ",
 			"**XP** 2,400  ",
@@ -2004,7 +2004,7 @@
 		"description": [
 			"*Crude designs painted in what can only be dried blood cake the face and the hide clothing of this rugged-looking human, whose grinning mouth is filled with sharp, filed teeth.*",
 			"",
-			"::mh[Cannibal Zealot]{cr=\"6\"}",
+			"::mh[Cannibal Zealot]{cr=6}",
 			"",
 			"{SOURCE Tombs of Golarion/61}  ",
 			"**XP** 2,400  ",
@@ -2055,7 +2055,7 @@
 		"name": "City Watch (Watch Captain)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[City Watch (Watch Captain)]{cr=\"6\"}",
+			"::mh[City Watch (Watch Captain)]{cr=6}",
 			"",
 			"{SOURCE GameMastery Guide/261}  ",
 			"**XP** 2,400  ",
@@ -2101,7 +2101,7 @@
 		"name": "Coliseum (Beast Master)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Coliseum (Beast Master)]{cr=\"6\"}",
+			"::mh[Coliseum (Beast Master)]{cr=6}",
 			"",
 			"{SOURCE GameMastery Guide/263}  ",
 			"**XP** 2,400  ",
@@ -2148,7 +2148,7 @@
 		"name": "Crusader (Holy Warrior)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Crusader (Holy Warrior)]{cr=\"6\"}",
+			"::mh[Crusader (Holy Warrior)]{cr=6}",
 			"",
 			"{SOURCE GameMastery Guide/269}  ",
 			"**XP** 2,400  ",
@@ -2196,7 +2196,7 @@
 		"name": "Diplomat",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Diplomat]{cr=\"6\"}",
+			"::mh[Diplomat]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/253}  ",
 			"**XP** 2,400  ",
@@ -2241,7 +2241,7 @@
 		"name": "Dog Rider Knight",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Dog Rider Knight]{cr=\"6\"}",
+			"::mh[Dog Rider Knight]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/115}  ",
 			"**XP** 2,400  ",
@@ -2290,7 +2290,7 @@
 		"name": "Freelance Thief",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Freelance Thief]{cr=\"6\"}",
+			"::mh[Freelance Thief]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/147}  ",
 			"**XP** 2,400  ",
@@ -2343,7 +2343,7 @@
 		"name": "Frontier (Hermit)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Frontier (Hermit)]{cr=\"6\"}",
+			"::mh[Frontier (Hermit)]{cr=6}",
 			"",
 			"{SOURCE GameMastery Guide/277}  ",
 			"**XP** 2,400  ",
@@ -2390,7 +2390,7 @@
 		"name": "Gambler",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Gambler]{cr=\"6\"}",
+			"::mh[Gambler]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/30}  ",
 			"**XP** 2,400  ",
@@ -2452,7 +2452,7 @@
 		"name": "Harrying Brute",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Harrying Brute]{cr=\"6\"}",
+			"::mh[Harrying Brute]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/99}  ",
 			"**XP** 2,400  ",
@@ -2495,7 +2495,7 @@
 		"name": "Heretic",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Heretic]{cr=\"6\"}",
+			"::mh[Heretic]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/247}  ",
 			"**XP** 2,400  ",
@@ -2544,7 +2544,7 @@
 		"name": "Heretic (Conjurist)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Heretic (Conjurist)]{cr=\"6\"}",
+			"::mh[Heretic (Conjurist)]{cr=6}",
 			"",
 			"{SOURCE GameMastery Guide/279}  ",
 			"**XP** 2,400  ",
@@ -2593,7 +2593,7 @@
 		"name": "Island Defender",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Island Defender]{cr=\"6\"}",
+			"::mh[Island Defender]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/66}  ",
 			"**XP** 2,400  ",
@@ -2655,7 +2655,7 @@
 		"name": "Molthuni Commander",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Molthuni Commander]{cr=\"6\"}",
+			"::mh[Molthuni Commander]{cr=6}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/38}  ",
 			"**XP** 2,400  ",
@@ -2725,7 +2725,7 @@
 		"name": "Mountaineer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mountaineer]{cr=\"6\"}",
+			"::mh[Mountaineer]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/131}  ",
 			"**XP** 2,400  ",
@@ -2773,7 +2773,7 @@
 		"description": [
 			"*Bottles and flasks hang from the belt and tattered leather armor or this ragged, wild-eyed human.*",
 			"",
-			"::mh[Numerian Fluid Scavenger]{cr=\"6\"}",
+			"::mh[Numerian Fluid Scavenger]{cr=6}",
 			"",
 			"{SOURCE Numeria, Land of Fallen Stars/54}  ",
 			"**XP** 2,400  ",
@@ -2829,7 +2829,7 @@
 		"description": [
 			"*This hard-eyed stranger holds a strange weapon in his hand that resembles a pistol but glows with a pale blue light.*",
 			"",
-			"::mh[Numerian Gunslinger]{cr=\"6\"}",
+			"::mh[Numerian Gunslinger]{cr=6}",
 			"",
 			"{SOURCE Numeria, Land of Fallen Stars/55}  ",
 			"**XP** 2,400  ",
@@ -2883,7 +2883,7 @@
 		"name": "Pure Legionnaire",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Pure Legionnaire]{cr=\"6\"}",
+			"::mh[Pure Legionnaire]{cr=6}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/45}  ",
 			"**XP** 2,400  ",
@@ -2927,7 +2927,7 @@
 		"name": "Royalty (Princess)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Royalty (Princess)]{cr=\"6\"}",
+			"::mh[Royalty (Princess)]{cr=6}",
 			"",
 			"{SOURCE GameMastery Guide/292}  ",
 			"**XP** 2,400  ",
@@ -2970,7 +2970,7 @@
 		"name": "Scholar (Archaeologist)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Scholar (Archaeologist)]{cr=\"6\"}",
+			"::mh[Scholar (Archaeologist)]{cr=6}",
 			"",
 			"{SOURCE GameMastery Guide/297}  ",
 			"**XP** 2,400  ",
@@ -3013,7 +3013,7 @@
 		"name": "Signifer of the Nail",
 		"sources": [ "Castles of the Inner Sea" ],
 		"description": [
-			"::mh[Signifer of the Nail]{cr=\"6\"}",
+			"::mh[Signifer of the Nail]{cr=6}",
 			"",
 			"{SOURCE Castles of the Inner Sea/29}  ",
 			"**XP** 2,400  ",
@@ -3068,7 +3068,7 @@
 		"name": "Spell Hunter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Spell Hunter]{cr=\"6\"}",
+			"::mh[Spell Hunter]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/83}  ",
 			"**XP** 2,400  ",
@@ -3115,7 +3115,7 @@
 		"name": "Sundering Axe",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Sundering Axe]{cr=\"6\"}",
+			"::mh[Sundering Axe]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/13}  ",
 			"**XP** 2,400  ",
@@ -3161,7 +3161,7 @@
 		"name": "Thunder Wizard",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Thunder Wizard]{cr=\"6\"}",
+			"::mh[Thunder Wizard]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/182}  ",
 			"**XP** 2,400  ",
@@ -3225,7 +3225,7 @@
 		"name": "Usaro Rebel",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Usaro Rebel]{cr=\"6\"}",
+			"::mh[Usaro Rebel]{cr=6}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/58}  ",
 			"**XP** 2,400  ",
@@ -3275,7 +3275,7 @@
 		"name": "Village Elder",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Village Elder]{cr=\"6\"}",
+			"::mh[Village Elder]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/258}  ",
 			"**XP** 2,400  ",
@@ -3320,7 +3320,7 @@
 		"name": "Vivisectionist Cleric",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Vivisectionist Cleric]{cr=\"6\"}",
+			"::mh[Vivisectionist Cleric]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/48}  ",
 			"**XP** 2,400  ",
@@ -3384,7 +3384,7 @@
 		"name": "Wise Sage",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Wise Sage]{cr=\"6\"}",
+			"::mh[Wise Sage]{cr=6}",
 			"",
 			"{SOURCE NPC Codex/263}  ",
 			"**XP** 2,400  ",

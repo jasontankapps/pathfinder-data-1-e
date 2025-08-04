@@ -3,7 +3,7 @@
 		"name": "Blackscale Sorcerer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Blackscale Sorcerer]{cr=\"9\"}",
+			"::mh[Blackscale Sorcerer]{cr=9}",
 			"",
 			"{SOURCE NPC Codex/167}  ",
 			"**XP** 6,400  ",
@@ -65,7 +65,7 @@
 		"name": "Cannibalistic Hunter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Cannibalistic Hunter]{cr=\"9\"}",
+			"::mh[Cannibalistic Hunter]{cr=9}",
 			"",
 			"{SOURCE NPC Codex/15}  ",
 			"**XP** 6,400  ",
@@ -119,7 +119,7 @@
 		"name": "Cautious Hunter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Cautious Hunter]{cr=\"9\"}",
+			"::mh[Cautious Hunter]{cr=9}",
 			"",
 			"{SOURCE NPC Codex/101}  ",
 			"**XP** 6,400  ",
@@ -174,7 +174,7 @@
 		"name": "Coliseum (Champion)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Coliseum (Champion)]{cr=\"9\"}",
+			"::mh[Coliseum (Champion)]{cr=9}",
 			"",
 			"{SOURCE GameMastery Guide/263}  ",
 			"**XP** 6,400  ",
@@ -220,7 +220,7 @@
 		"name": "Dancing Dervish",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Dancing Dervish]{cr=\"9\"}",
+			"::mh[Dancing Dervish]{cr=9}",
 			"",
 			"{SOURCE NPC Codex/149}  ",
 			"**XP** 6,400  ",
@@ -274,7 +274,7 @@
 		"name": "Griffon Rider",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Griffon Rider]{cr=\"9\"}",
+			"::mh[Griffon Rider]{cr=9}",
 			"",
 			"{SOURCE NPC Codex/85}  ",
 			"**XP** 6,400  ",
@@ -332,7 +332,7 @@
 		"name": "Harrower",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Harrower]{cr=\"9\"}",
+			"::mh[Harrower]{cr=9}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/29}  ",
 			"**XP** 6,400  ",
@@ -384,7 +384,7 @@
 		"name": "Merchant (Merchant Prince)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Merchant (Merchant Prince)]{cr=\"9\"}",
+			"::mh[Merchant (Merchant Prince)]{cr=9}",
 			"",
 			"{SOURCE GameMastery Guide/285}  ",
 			"**XP** 6,400  ",
@@ -426,7 +426,7 @@
 		"name": "Mother of Beasts",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mother of Beasts]{cr=\"9\"}",
+			"::mh[Mother of Beasts]{cr=9}",
 			"",
 			"{SOURCE NPC Codex/51}  ",
 			"**XP** 6,400  ",
@@ -491,7 +491,7 @@
 		"name": "Old Ones Cultist",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Old Ones Cultist]{cr=\"9\"}",
+			"::mh[Old Ones Cultist]{cr=9}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/41}  ",
 			"**XP** 6,400  ",
@@ -544,7 +544,7 @@
 		"name": "Pathfinder Chronicler",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Pathfinder Chronicler]{cr=\"9\"}",
+			"::mh[Pathfinder Chronicler]{cr=9}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/42}  ",
 			"**XP** 6,400  ",
@@ -591,7 +591,7 @@
 		"name": "Pious Guard",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Pious Guard]{cr=\"9\"}",
+			"::mh[Pious Guard]{cr=9}",
 			"",
 			"{SOURCE NPC Codex/117}  ",
 			"**XP** 6,400  ",
@@ -651,7 +651,7 @@
 		"name": "Pirate Queen",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Pirate Queen]{cr=\"9\"}",
+			"::mh[Pirate Queen]{cr=9}",
 			"",
 			"{SOURCE NPC Codex/133}  ",
 			"**XP** 6,400  ",
@@ -709,7 +709,7 @@
 		"name": "Prankster Illusionist",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Prankster Illusionist]{cr=\"9\"}",
+			"::mh[Prankster Illusionist]{cr=9}",
 			"",
 			"{SOURCE NPC Codex/185}  ",
 			"**XP** 6,400  ",
@@ -777,7 +777,7 @@
 		"name": "Razmiran Priest",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Razmiran Priest]{cr=\"9\"}",
+			"::mh[Razmiran Priest]{cr=9}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/46}  ",
 			"**XP** 6,400  ",
@@ -827,7 +827,7 @@
 		"name": "Seance Medium",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Seance Medium]{cr=\"9\"}",
+			"::mh[Seance Medium]{cr=9}",
 			"",
 			"{SOURCE NPC Codex/33}  ",
 			"**XP** 6,400  ",
@@ -889,7 +889,7 @@
 		"name": "Sleepless Detective",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Sleepless Detective]{cr=\"9\"}",
+			"::mh[Sleepless Detective]{cr=9}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/55}  ",
 			"**XP** 6,400  ",
@@ -943,7 +943,7 @@
 		"name": "Technic League Captain",
 		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
-			"::mh[Technic League Captain]{cr=\"9\"}",
+			"::mh[Technic League Captain]{cr=9}",
 			"",
 			"{SOURCE Pathfinder #89: Palace of Fallen Stars/33}  ",
 			"**XP** 6,400  ",
@@ -992,7 +992,7 @@
 		"name": "Water Merchant",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Water Merchant]{cr=\"9\"}",
+			"::mh[Water Merchant]{cr=9}",
 			"",
 			"{SOURCE NPC Codex/69}  ",
 			"**XP** 6,400  ",
@@ -1057,7 +1057,7 @@
 		"description": [
 			"*The blistering cold doesn't seem to touch this raven-haired woman's skin. She holds a spear tipped with jagged ice.*",
 			"",
-			"::mh[Winter Witch Cold Sister]{cr=\"9\"}",
+			"::mh[Winter Witch Cold Sister]{cr=9}",
 			"",
 			"{SOURCE Irrisen - Land of Eternal Winter/62}  ",
 			"**XP** 6,400  ",
@@ -1128,7 +1128,7 @@
 		"name": "Aspis Consortium Spy",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Aspis Consortium Spy]{cr=\"10\"}",
+			"::mh[Aspis Consortium Spy]{cr=10}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/9}  ",
 			"**XP** 9,600  ",
@@ -1177,7 +1177,7 @@
 		"name": "Belkzen Warchief",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Belkzen Warchief]{cr=\"10\"}",
+			"::mh[Belkzen Warchief]{cr=10}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/11}  ",
 			"**XP** 9,600  ",
@@ -1225,7 +1225,7 @@
 		"name": "Chameleon",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Chameleon]{cr=\"10\"}",
+			"::mh[Chameleon]{cr=10}",
 			"",
 			"{SOURCE NPC Codex/34}  ",
 			"**XP** 9,600  ",
@@ -1286,7 +1286,7 @@
 		"name": "Contract Killer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Contract Killer]{cr=\"10\"}",
+			"::mh[Contract Killer]{cr=10}",
 			"",
 			"{SOURCE NPC Codex/150}  ",
 			"**XP** 9,600  ",
@@ -1340,7 +1340,7 @@
 		"name": "Criminal (Guild Master)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Criminal (Guild Master)]{cr=\"10\"}",
+			"::mh[Criminal (Guild Master)]{cr=10}",
 			"",
 			"{SOURCE GameMastery Guide/267}  ",
 			"**XP** 9,600  ",
@@ -1384,7 +1384,7 @@
 		"name": "Double Axe Fury",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Double Axe Fury]{cr=\"10\"}",
+			"::mh[Double Axe Fury]{cr=10}",
 			"",
 			"{SOURCE NPC Codex/16}  ",
 			"**XP** 9,600  ",
@@ -1439,7 +1439,7 @@
 		"description": [
 			"*This bulky, gray-skinned dwarf is armored like a fortress.*",
 			"",
-			"::mh[Duergar Ironclad]{cr=\"10\"}",
+			"::mh[Duergar Ironclad]{cr=10}",
 			"",
 			"{SOURCE Tombs of Golarion/32}  ",
 			"**XP** 9,600  ",
@@ -1483,7 +1483,7 @@
 		"name": "Elven Honorblade",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Elven Honorblade]{cr=\"10\"}",
+			"::mh[Elven Honorblade]{cr=10}",
 			"",
 			"{SOURCE NPC Codex/118}  ",
 			"**XP** 9,600  ",
@@ -1545,7 +1545,7 @@
 		"name": "Entertainer (Celebrity Bard)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Entertainer (Celebrity Bard)]{cr=\"10\"}",
+			"::mh[Entertainer (Celebrity Bard)]{cr=10}",
 			"",
 			"{SOURCE GameMastery Guide/273}  ",
 			"**XP** 9,600  ",
@@ -1592,7 +1592,7 @@
 		"name": "Fire Cleric",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Fire Cleric]{cr=\"10\"}",
+			"::mh[Fire Cleric]{cr=10}",
 			"",
 			"{SOURCE NPC Codex/52}  ",
 			"**XP** 9,600  ",
@@ -1655,7 +1655,7 @@
 		"name": "Giant-Killer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Giant-Killer]{cr=\"10\"}",
+			"::mh[Giant-Killer]{cr=10}",
 			"",
 			"{SOURCE NPC Codex/134}  ",
 			"**XP** 9,600  ",
@@ -1714,7 +1714,7 @@
 		"name": "Hellknight",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Hellknight]{cr=\"10\"}",
+			"::mh[Hellknight]{cr=10}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/30}  ",
 			"**XP** 9,600  ",
@@ -1776,7 +1776,7 @@
 		"name": "Lucky Mage",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Lucky Mage]{cr=\"10\"}",
+			"::mh[Lucky Mage]{cr=10}",
 			"",
 			"{SOURCE NPC Codex/168}  ",
 			"**XP** 9,600  ",
@@ -1841,7 +1841,7 @@
 		"name": "Magaambya Arcanist",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Magaambya Arcanist]{cr=\"10\"}",
+			"::mh[Magaambya Arcanist]{cr=10}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/35}  ",
 			"**XP** 9,600  ",
@@ -1895,7 +1895,7 @@
 		"name": "Military (General)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Military (General)]{cr=\"10\"}",
+			"::mh[Military (General)]{cr=10}",
 			"",
 			"{SOURCE GameMastery Guide/287}  ",
 			"**XP** 9,600  ",
@@ -1937,7 +1937,7 @@
 		"name": "Mistress of High Places",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Mistress of High Places]{cr=\"10\"}",
+			"::mh[Mistress of High Places]{cr=10}",
 			"",
 			"{SOURCE NPC Codex/70}  ",
 			"**XP** 9,600  ",
@@ -2004,7 +2004,7 @@
 		"name": "Poisononous Performer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Poisononous Performer]{cr=\"10\"}",
+			"::mh[Poisononous Performer]{cr=10}",
 			"",
 			"{SOURCE NPC Codex/102}  ",
 			"**XP** 9,600  ",
@@ -2058,7 +2058,7 @@
 		"name": "Royalty (Queen)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Royalty (Queen)]{cr=\"10\"}",
+			"::mh[Royalty (Queen)]{cr=10}",
 			"",
 			"{SOURCE GameMastery Guide/293}  ",
 			"**XP** 9,600  ",
@@ -2101,7 +2101,7 @@
 		"name": "Scheming Fencer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Scheming Fencer]{cr=\"10\"}",
+			"::mh[Scheming Fencer]{cr=10}",
 			"",
 			"{SOURCE NPC Codex/86}  ",
 			"**XP** 9,600  ",
@@ -2152,7 +2152,7 @@
 		"name": "Sister of the Golden Erinyes",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Sister of the Golden Erinyes]{cr=\"10\"}",
+			"::mh[Sister of the Golden Erinyes]{cr=10}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/53}  ",
 			"**XP** 9,600  ",
@@ -2195,7 +2195,7 @@
 		"name": "Tribe (Chieftain)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Tribe (Chieftain)]{cr=\"10\"}",
+			"::mh[Tribe (Chieftain)]{cr=10}",
 			"",
 			"{SOURCE GameMastery Guide/307}  ",
 			"**XP** 9,600  ",
@@ -2240,7 +2240,7 @@
 		"name": "Undead Creator",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Undead Creator]{cr=\"10\"}",
+			"::mh[Undead Creator]{cr=10}",
 			"",
 			"{SOURCE NPC Codex/186}  ",
 			"**XP** 9,600  ",
@@ -2305,7 +2305,7 @@
 		"name": "Uskwood Druid",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Uskwood Druid]{cr=\"10\"}",
+			"::mh[Uskwood Druid]{cr=10}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/60}  ",
 			"**XP** 9,600  ",
@@ -2396,7 +2396,7 @@
 		"name": "Anaphexia Agent",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Anaphexia Agent]{cr=\"11\"}",
+			"::mh[Anaphexia Agent]{cr=11}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/5}  ",
 			"**XP** 12,800  ",
@@ -2441,7 +2441,7 @@
 		"name": "Bounty Hunter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Bounty Hunter]{cr=\"11\"}",
+			"::mh[Bounty Hunter]{cr=11}",
 			"",
 			"{SOURCE NPC Codex/135}  ",
 			"**XP** 12,800  ",
@@ -2499,7 +2499,7 @@
 		"name": "Brigand (Bandit Lord)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Brigand (Bandit Lord)]{cr=\"11\"}",
+			"::mh[Brigand (Bandit Lord)]{cr=11}",
 			"",
 			"{SOURCE GameMastery Guide/259}  ",
 			"**XP** 12,800  ",
@@ -2541,7 +2541,7 @@
 		"name": "Castaway",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Castaway]{cr=\"11\"}",
+			"::mh[Castaway]{cr=11}",
 			"",
 			"{SOURCE NPC Codex/71}  ",
 			"**XP** 12,800  ",
@@ -2608,7 +2608,7 @@
 		"name": "Courtesan",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Courtesan]{cr=\"11\"}",
+			"::mh[Courtesan]{cr=11}",
 			"",
 			"{SOURCE NPC Codex/35}  ",
 			"**XP** 12,800  ",
@@ -2670,7 +2670,7 @@
 		"name": "Crusader (Saint)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Crusader (Saint)]{cr=\"11\"}",
+			"::mh[Crusader (Saint)]{cr=11}",
 			"",
 			"{SOURCE GameMastery Guide/269}  ",
 			"**XP** 12,800  ",
@@ -2719,7 +2719,7 @@
 		"name": "Dilettante",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Dilettante]{cr=\"11\"}",
+			"::mh[Dilettante]{cr=11}",
 			"",
 			"{SOURCE NPC Codex/151}  ",
 			"**XP** 12,800  ",
@@ -2777,7 +2777,7 @@
 		"name": "Fey Enchantress",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Fey Enchantress]{cr=\"11\"}",
+			"::mh[Fey Enchantress]{cr=11}",
 			"",
 			"{SOURCE NPC Codex/169}  ",
 			"**XP** 12,800  ",
@@ -2839,7 +2839,7 @@
 		"name": "Fierani Demon Hunter",
 		"sources": [ "Inner Sea NPC Codex" ],
 		"description": [
-			"::mh[Fierani Demon Hunter]{cr=\"11\"}",
+			"::mh[Fierani Demon Hunter]{cr=11}",
 			"",
 			"{SOURCE Inner Sea NPC Codex/21}  ",
 			"**XP** 12,800  ",
@@ -2888,7 +2888,7 @@
 		"name": "Forge Rider",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Forge Rider]{cr=\"11\"}",
+			"::mh[Forge Rider]{cr=11}",
 			"",
 			"{SOURCE NPC Codex/119}  ",
 			"**XP** 12,800  ",
@@ -2945,7 +2945,7 @@
 		"name": "Giant Slayer",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Giant Slayer]{cr=\"11\"}",
+			"::mh[Giant Slayer]{cr=11}",
 			"",
 			"{SOURCE NPC Codex/17}  ",
 			"**XP** 12,800  ",
@@ -2999,7 +2999,7 @@
 		"name": "Heretic (Cult Leader)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Heretic (Cult Leader)]{cr=\"11\"}",
+			"::mh[Heretic (Cult Leader)]{cr=11}",
 			"",
 			"{SOURCE GameMastery Guide/279}  ",
 			"**XP** 12,800  ",
@@ -3049,7 +3049,7 @@
 		"name": "Marauder (Pirate Captain)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Marauder (Pirate Captain)]{cr=\"11\"}",
+			"::mh[Marauder (Pirate Captain)]{cr=11}",
 			"",
 			"{SOURCE GameMastery Guide/281}  ",
 			"**XP** 12,800  ",
@@ -3092,7 +3092,7 @@
 		"name": "Mercenary (Bounty Hunter)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Mercenary (Bounty Hunter)]{cr=\"11\"}",
+			"::mh[Mercenary (Bounty Hunter)]{cr=11}",
 			"",
 			"{SOURCE GameMastery Guide/283}  ",
 			"**XP** 12,800  ",
@@ -3138,7 +3138,7 @@
 		"name": "Sailor (Captain)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Sailor (Captain)]{cr=\"11\"}",
+			"::mh[Sailor (Captain)]{cr=11}",
 			"",
 			"{SOURCE GameMastery Guide/295}  ",
 			"**XP** 12,800  ",
@@ -3180,7 +3180,7 @@
 		"name": "Scholar (Sage)",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"::mh[Scholar (Sage)]{cr=\"11\"}",
+			"::mh[Scholar (Sage)]{cr=11}",
 			"",
 			"{SOURCE GameMastery Guide/297}  ",
 			"**XP** 12,800  ",
@@ -3227,7 +3227,7 @@
 		"name": "Shieldbreaker",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Shieldbreaker]{cr=\"11\"}",
+			"::mh[Shieldbreaker]{cr=11}",
 			"",
 			"{SOURCE NPC Codex/87}  ",
 			"**XP** 12,800  ",
@@ -3283,7 +3283,7 @@
 		"name": "Swift Brawler",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Swift Brawler]{cr=\"11\"}",
+			"::mh[Swift Brawler]{cr=11}",
 			"",
 			"{SOURCE NPC Codex/103}  ",
 			"**XP** 12,800  ",
@@ -3339,7 +3339,7 @@
 		"name": "Toothy Transmuter",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Toothy Transmuter]{cr=\"11\"}",
+			"::mh[Toothy Transmuter]{cr=11}",
 			"",
 			"{SOURCE NPC Codex/187}  ",
 			"**XP** 12,800  ",
@@ -3400,7 +3400,7 @@
 		"name": "Trickster Priest",
 		"sources": [ "NPC Codex" ],
 		"description": [
-			"::mh[Trickster Priest]{cr=\"11\"}",
+			"::mh[Trickster Priest]{cr=11}",
 			"",
 			"{SOURCE NPC Codex/53}  ",
 			"**XP** 12,800  ",

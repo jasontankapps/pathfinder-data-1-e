@@ -5,7 +5,7 @@
 		"description": [
 			"*Silver-white hair the color of a lightning strike whips about this poised elf-like archer, his eyes swirling with vibrant colors.*",
 			"",
-			"::mh[Bralani]{cr=\"6\"}",
+			"::mh[Bralani]{cr=6}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/24}  ",
 			"**XP** 2,400  ",
@@ -66,7 +66,7 @@
 		"description": [
 			"*This beautiful woman has flesh made of lava. She soars through the sky on a trail of fire.*",
 			"",
-			"::mh[Brijidine]{cr=\"17\"}",
+			"::mh[Brijidine]{cr=17}",
 			"",
 			"{SOURCE Bestiary 2/37}  ",
 			"**XP** 102,400  ",
@@ -135,7 +135,7 @@
 		"description": [
 			"*This incredibly handsome man's pointed ears and otherworldly grace betray an inhuman beauty.*",
 			"",
-			"::mh[Gancanagh]{cr=\"4\"}",
+			"::mh[Gancanagh]{cr=4}",
 			"",
 			"{SOURCE Bestiary 5/38}  ",
 			"**XP** 1,200  ",
@@ -199,7 +199,7 @@
 		"description": [
 			"*This elegantly armored sentinel stands alert, her eyes radiating divine light and her noble blade crackling with power.*",
 			"",
-			"::mh[Ghaele]{cr=\"13\"}",
+			"::mh[Ghaele]{cr=13}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/25}  ",
 			"**XP** 25,600  ",
@@ -274,7 +274,7 @@
 		"description": [
 			"*This creature has the body of a seductive, winged elven woman from the waist up and that of a snake from the waist down.*",
 			"",
-			"::mh[Lillend]{cr=\"7\"}",
+			"::mh[Lillend]{cr=7}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/26}  ",
 			"**XP** 3,200  ",
@@ -342,7 +342,7 @@
 		"description": [
 			"*This tiny woman has a lithe form with delicate butterfly wings. She is surrounded by sparkling lights and gentle rainbow arcs.*",
 			"",
-			"::mh[Lyrakien]{cr=\"2\"}",
+			"::mh[Lyrakien]{cr=2}",
 			"",
 			"{SOURCE Bestiary 2/38;Pathfinder #2: The Skinsaw Murders/86}  ",
 			"**XP** 600  ",
@@ -405,7 +405,7 @@
 		"description": [
 			"*Clear, flowing water forms the arms and the lower half of this angelic, elf-like being.*",
 			"",
-			"::mh[Nualidu]{cr=\"5\"}",
+			"::mh[Nualidu]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #105: The Inferno Gate/82}  ",
 			"**XP** 1,600  ",
@@ -489,7 +489,7 @@
 		"description": [
 			"*Translucent wings protrude from this statuesque figure's back. Patches of pale scales glisten on its skin.*",
 			"",
-			"::mh[Prydanu]{cr=\"16\"}",
+			"::mh[Prydanu]{cr=16}",
 			"",
 			"{SOURCE Pathfinder #126: Beyond the Veiled Past/84}  ",
 			"**XP** 76,800  ",
@@ -577,7 +577,7 @@
 		"description": [
 			"*This bronze-skinned humanoid is muscular yet lithe, garbed in colorful clothing emblazoned with glowing runes.*",
 			"",
-			"::mh[Raelis]{cr=\"10\"}",
+			"::mh[Raelis]{cr=10}",
 			"",
 			"{SOURCE Bestiary 5/39;Pathfinder #66: The Dead Heart of Xin/84}  ",
 			"**XP** 9,600  ",
@@ -646,7 +646,7 @@
 		"description": [
 			"*This fey-looking humanoid is colored in shades of gray. Its wings are decorated with colored motes resembling a starry night sky.*",
 			"",
-			"::mh[Thyrlien]{cr=\"4\"}",
+			"::mh[Thyrlien]{cr=4}",
 			"",
 			"{SOURCE Inner Sea Gods/285}  ",
 			"**XP** 1,200  ",
@@ -710,7 +710,7 @@
 		"description": [
 			"*This dark-skinned woman has diaphanous wings, four large eyes - one pair under the other - and a tangle of night-blue hair.*",
 			"",
-			"::mh[Uinuja]{cr=\"15\"}",
+			"::mh[Uinuja]{cr=15}",
 			"",
 			"{SOURCE Bestiary 6/33;Occult Bestiary/9}  ",
 			"**XP** 51,200  ",
@@ -777,7 +777,7 @@
 		"description": [
 			"*The ground shudders and the seabirds take to wing with piercing cries of alarm. What once appeared to be a small, rocky island reveals itself to be a creature of titanic proportions as an enormous tail lifts ominously from the water. With a thunderous crash, it slams down, sending the island plunging beneath the waves.*",
 			"",
-			"::mh[Aspidochelone]{cr=\"17\"}",
+			"::mh[Aspidochelone]{cr=17}",
 			"",
 			"{SOURCE Pathfinder #27: What Lies in Dust/78}  ",
 			"**XP** 102,400  ",
@@ -840,7 +840,7 @@
 		"description": [
 			"*Muscular tentacles ending in stalagmite-like stingers extend from this pale brown slime.*",
 			"",
-			"::mh[Cave Blight]{cr=\"19\"}",
+			"::mh[Cave Blight]{cr=19}",
 			"",
 			"{SOURCE Bestiary 6/39}  ",
 			"**XP** 204,800  ",
@@ -901,7 +901,7 @@
 		"description": [
 			"*A roiling mass of orange-brown sludge studded with gleaming red eyes brandishes its lashing tentacles.*",
 			"",
-			"::mh[Desert Blight]{cr=\"13\"}",
+			"::mh[Desert Blight]{cr=13}",
 			"",
 			"{SOURCE Bestiary 6/40}  ",
 			"**XP** 25,600  ",
@@ -962,7 +962,7 @@
 		"description": [
 			"*This mass of dark green protoplasm hangs thick and wet from the branches, and its long tentacles are tipped with thorny claws.*",
 			"",
-			"::mh[Forest Blight]{cr=\"18\"}",
+			"::mh[Forest Blight]{cr=18}",
 			"",
 			"{SOURCE Bestiary 6/41}  ",
 			"**XP** 153,600  ",
@@ -1023,7 +1023,7 @@
 		"description": [
 			"*This black mass of glistening, tar-like slime bubbles and oozes, its two long tentacles each tipped with a stony club.*",
 			"",
-			"::mh[Mountain Blight]{cr=\"14\"}",
+			"::mh[Mountain Blight]{cr=14}",
 			"",
 			"{SOURCE Bestiary 6/42}  ",
 			"**XP** 38,400  ",
@@ -1086,7 +1086,7 @@
 		"description": [
 			"*What appears to be a grotesque mass of sewage betrays its true nature with dozens of red eyes and two long, slimy, claw-tipped tentacles.*",
 			"",
-			"::mh[Sewer Blight]{cr=\"15\"}",
+			"::mh[Sewer Blight]{cr=15}",
 			"",
 			"{SOURCE Bestiary 6/43}  ",
 			"**XP** 51,200  ",
@@ -1150,7 +1150,7 @@
 		"description": [
 			"*A cloud of mosquitoes churns around this quivering blob, its body studded with red eyes and its five tentacles tipped with stingers.*",
 			"",
-			"::mh[Swamp Blight]{cr=\"17\"}",
+			"::mh[Swamp Blight]{cr=17}",
 			"",
 			"{SOURCE Bestiary 6/44}  ",
 			"**XP** 102,400  ",
@@ -1214,7 +1214,7 @@
 		"description": [
 			"*This churning mound of snow-like material has several large red eyes and four tentacles tipped with icy stingers.*",
 			"",
-			"::mh[Tundra Blight]{cr=\"16\"}",
+			"::mh[Tundra Blight]{cr=16}",
 			"",
 			"{SOURCE Bestiary 6/45}  ",
 			"**XP** 76,800  ",
@@ -1280,7 +1280,7 @@
 		"description": [
 			"*This human-sized, mosquito-like creature has a long, flexible proboscis that ends in a murderous stinger.*",
 			"",
-			"::mh[Blightspawn]{cr=\"5\"}",
+			"::mh[Blightspawn]{cr=5}",
 			"",
 			"{SOURCE Bestiary 5/43}  ",
 			"**XP** 1,600  ",
@@ -1339,7 +1339,7 @@
 		"description": [
 			"*This human-sized, mosquito-like creature has a long, flexible proboscis that ends in a murderous stinger.*",
 			"",
-			"::mh[Blightspawn of Ghlaunder]{cr=\"5\"}",
+			"::mh[Blightspawn of Ghlaunder]{cr=5}",
 			"",
 			"{SOURCE Feast of Ravenmoor/29}  ",
 			"**XP** 1,600  ",
@@ -1390,7 +1390,7 @@
 		"description": [
 			"*The size of a short, stocky humanoid with webbed feet and claws, this frog-like creature has glowing white eyes.*",
 			"",
-			"::mh[Blindheim]{cr=\"2\"}",
+			"::mh[Blindheim]{cr=2}",
 			"",
 			"{SOURCE Bestiary 2/46}  ",
 			"**XP** 600  ",
@@ -1442,7 +1442,7 @@
 		"description": [
 			"*This sleek canine has a coarse, tawny coat, pointed ears, and pale eyes. A faint blue nimbus seems to dance upon its fur.*",
 			"",
-			"::mh[Blink Dog]{cr=\"2\"}",
+			"::mh[Blink Dog]{cr=2}",
 			"",
 			"{SOURCE Bestiary 2/47}  ",
 			"**XP** 600  ",
@@ -1496,7 +1496,7 @@
 		"description": [
 			"*Clothed in verdant lichen and flowers of broom, meadowsweet, and oak, this shapely maiden has skin of velvety moss and living grass for hair. An eldritch serenity graces her countenance as she approaches, her outstretched, root-like hands brushing the tips of the tallest grass - the wind itself whispers around her feet as patches of clover, heather, and milkweed mark her every step.*",
 			"",
-			"::mh[Blodeuwedd]{cr=\"6\"}",
+			"::mh[Blodeuwedd]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #33: The Varnhold Vanishing/80}  ",
 			"**XP** 2,400  ",
@@ -1574,7 +1574,7 @@
 		"description": [
 			"*An oily substance in the water surrounds this seething red mass of worm-like lumps of algae.*",
 			"",
-			"::mh[Blood Algae Swarm]{cr=\"8\"}",
+			"::mh[Blood Algae Swarm]{cr=8}",
 			"",
 			"{SOURCE Pathfinder #130: City in the Lion's Eye/86}  ",
 			"**XP** 4,800  ",
@@ -1632,7 +1632,7 @@
 		"description": [
 			"*A tremendous bramble of intertwined bushes rises from a sizable pile of bones heaped at its roots, and its thorny flowers drip blood.*",
 			"",
-			"::mh[Blood Bramble]{cr=\"10\"}",
+			"::mh[Blood Bramble]{cr=10}",
 			"",
 			"{SOURCE Bestiary 6/48}  ",
 			"**XP** 9,600  ",
@@ -1692,7 +1692,7 @@
 		"description": [
 			"*Hundreds of long but thin blood-red petals form a spherical shape atop the central stem of this plant monster. A pair of stout vine-like appendages sprout from either side of its central mass.*",
 			"",
-			"::mh[Blood Lily]{cr=\"10\"}",
+			"::mh[Blood Lily]{cr=10}",
 			"",
 			"{SOURCE Pathfinder #124: City in the Deep/84}  ",
 			"**XP** 9,600  ",
@@ -1761,7 +1761,7 @@
 		"description": [
 			"*Razor-sharp leaves dripping in blood span the length of this cornstalk, while a snake-like root digs into the soft ground.*",
 			"",
-			"::mh[Blood Maize]{cr=\"2\"}",
+			"::mh[Blood Maize]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #121: The Lost Outpost/84}  ",
 			"**XP** 600  ",
@@ -1830,7 +1830,7 @@
 		"description": [
 			"*This hideous monstrosity looks like an enormous curled maggot, varicolored like deeply bruised flesh. Three flailing tentacles adorn each side of the thing's huge, pulsating mouth, and five more arch from its hindquarters.*",
 			"",
-			"::mh[Blood Queen]{cr=\"23\"}",
+			"::mh[Blood Queen]{cr=23}",
 			"",
 			"{SOURCE Isles of the Shackles/44}  ",
 			"**XP** 819,200  ",
@@ -1901,7 +1901,7 @@
 		"description": [
 			"*This dried-out clump of thorny brush has torn free of its roots and seems to move not with the wind, but of its own volition.*",
 			"",
-			"::mh[Bloodbrush]{cr=\"2\"}",
+			"::mh[Bloodbrush]{cr=2}",
 			"",
 			"{SOURCE Numeria, Land of Fallen Stars/47}  ",
 			"**XP** 600  ",
@@ -1958,7 +1958,7 @@
 		"description": [
 			"*A high-pitched whine issues forth from the haze of this surging crimson cloud. Within, thousands of tiny forms whir in agitation, each a tiny insect with a needle-like proboscis.*",
 			"",
-			"::mh[Bloodhaze Mosquito Swarm]{cr=\"6\"}",
+			"::mh[Bloodhaze Mosquito Swarm]{cr=6}",
 			"",
 			"{SOURCE Pathfinder #38: Racing to Ruin/84}  ",
 			"**XP** 2,400  ",
@@ -2021,7 +2021,7 @@
 		"description": [
 			"*Withered, fleshy leaves the color of dried blood lie like armored plates across the top of this imposing creature's bulbous form. Thick, serpentine strands run the length of its rigid, fibrous skin.*",
 			"",
-			"::mh[Bloodplate Burster]{cr=\"9\"}",
+			"::mh[Bloodplate Burster]{cr=9}",
 			"",
 			"{SOURCE Pathfinder #129: The Twilight Child/84}  ",
 			"**XP** 6,400  ",
@@ -2100,7 +2100,7 @@
 		"description": [
 			"*This blood-drenched humanoid skeleton stares with hate-filled eyes as its bones drip with streams of fresh gore.*",
 			"",
-			"::mh[Bloody Bones]{cr=\"10\"}",
+			"::mh[Bloody Bones]{cr=10}",
 			"",
 			"{SOURCE Bestiary 6/49}  ",
 			"**XP** 9,600  ",
@@ -2161,7 +2161,7 @@
 		"description": [
 			"*This ill-tempered beast's tiny, bloodshot eyes glare angrily above a mouth filled with sharp tusks.*",
 			"",
-			"::mh[Boar]{cr=\"2\"}",
+			"::mh[Boar]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/36}  ",
 			"**XP** 600  ",
@@ -2208,7 +2208,7 @@
 		"description": [
 			"*The vicious spines surrounding this boar's head are almost as unnerving as the wild look in its eyes.*",
 			"",
-			"::mh[Bristle Boar]{cr=\"3\"}",
+			"::mh[Bristle Boar]{cr=3}",
 			"",
 			"{SOURCE Belkzen, Hold of the Orc Hordes/56}  ",
 			"**XP** 800  ",
@@ -2265,7 +2265,7 @@
 		"description": [
 			"*The back of this horse-sized boar rises in a steep slope. Its tiny red eyes are crusted with filth and its bristly flank crawls with flies.*",
 			"",
-			"::mh[Dire Boar (Daeodon)]{cr=\"4\"}",
+			"::mh[Dire Boar (Daeodon)]{cr=4}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/36}  ",
 			"**XP** 1,200  ",
@@ -2315,7 +2315,7 @@
 		"description": [
 			"*The flesh of this emaciated creature appears charred or dried, and its empty eye sockets seep trails of smoke.*",
 			"",
-			"::mh[Bodak]{cr=\"8\"}",
+			"::mh[Bodak]{cr=8}",
 			"",
 			"{SOURCE Bestiary 2/48}  ",
 			"**XP** 4,800  ",
@@ -2386,7 +2386,7 @@
 		"description": [
 			"*This immense plant has jaws inside its central flower and vines that thresh the air. Its ovular seedpods throb like beating hearts.*",
 			"",
-			"::mh[Bodythief]{cr=\"14\"}",
+			"::mh[Bodythief]{cr=14}",
 			"",
 			"{SOURCE Bestiary 4/20}  ",
 			"**XP** 38,400  ",
@@ -2451,7 +2451,7 @@
 		"description": [
 			"*A narrow, beetle-like creature glides across the water's dark surface on four brown, spindly legs. It stands just over five feet tall, holding its head and thorax upright while clutching an intricately carved hunting spear in two clawed forelimbs. Powerful mandibles click in rhythm with the reed-thin antennae waving upon its head as if testing the air for the scent of prey.*",
 			"",
-			"::mh[Bog Strider]{cr=\"2\"}",
+			"::mh[Bog Strider]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #34: Blood for Blood/82}  ",
 			"**XP** 600  ",
@@ -2520,7 +2520,7 @@
 		"description": [
 			"*Dressed in a long dark coat and a tall hat, this lanky, fanged humanoid exudes an almost palpable aura of horror.*",
 			"",
-			"::mh[Bogeyman]{cr=\"10\"}",
+			"::mh[Bogeyman]{cr=10}",
 			"",
 			"{SOURCE Bestiary 3/42}  ",
 			"**XP** 9,600  ",
@@ -2586,7 +2586,7 @@
 		"description": [
 			"*Bulbous eyes glare atop this creature's decidedly toad-like head. A multitude of warts and bumps decorate its greenish skin.*",
 			"",
-			"::mh[Boggard]{cr=\"2\"}",
+			"::mh[Boggard]{cr=2}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/37;Pathfinder #2: The Skinsaw Murders/84}  ",
 			"**XP** 600  ",
@@ -2641,7 +2641,7 @@
 		"name": "Boggard Abyssal Warrior",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Boggard Abyssal Warrior]{cr=\"8\"}",
+			"::mh[Boggard Abyssal Warrior]{cr=8}",
 			"",
 			"{SOURCE Monster Codex/11}  ",
 			"**XP** 4,800  ",
@@ -2693,7 +2693,7 @@
 		"name": "Boggard Brute",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Boggard Brute]{cr=\"3\"}",
+			"::mh[Boggard Brute]{cr=3}",
 			"",
 			"{SOURCE Monster Codex/10}  ",
 			"**XP** 800  ",
@@ -2742,7 +2742,7 @@
 		"name": "Boggard Champion",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Boggard Champion]{cr=\"7\"}",
+			"::mh[Boggard Champion]{cr=7}",
 			"",
 			"{SOURCE Monster Codex/10}  ",
 			"**XP** 3,200  ",
@@ -2792,7 +2792,7 @@
 		"name": "Boggard Farcroaker",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Boggard Farcroaker]{cr=\"3\"}",
+			"::mh[Boggard Farcroaker]{cr=3}",
 			"",
 			"{SOURCE Monster Codex/11}  ",
 			"**XP** 800  ",
@@ -2840,7 +2840,7 @@
 		"name": "Boggard Hunter",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Boggard Hunter]{cr=\"5\"}",
+			"::mh[Boggard Hunter]{cr=5}",
 			"",
 			"{SOURCE Monster Codex/14}  ",
 			"**XP** 1,600  ",
@@ -2885,7 +2885,7 @@
 		"name": "Boggard Priest-King",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Boggard Priest-King]{cr=\"11\"}",
+			"::mh[Boggard Priest-King]{cr=11}",
 			"",
 			"{SOURCE Monster Codex/15}  ",
 			"**XP** 12,800  ",
@@ -2948,7 +2948,7 @@
 		"name": "Boggard Prophet",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Boggard Prophet]{cr=\"5\"}",
+			"::mh[Boggard Prophet]{cr=5}",
 			"",
 			"{SOURCE Monster Codex/13}  ",
 			"**XP** 1,600  ",
@@ -2999,7 +2999,7 @@
 		"name": "Boggard Savage",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Boggard Savage]{cr=\"4\"}",
+			"::mh[Boggard Savage]{cr=4}",
 			"",
 			"{SOURCE Monster Codex/12}  ",
 			"**XP** 1,200  ",
@@ -3049,7 +3049,7 @@
 		"name": "Boggard Scarred One",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Boggard Scarred One]{cr=\"6\"}",
+			"::mh[Boggard Scarred One]{cr=6}",
 			"",
 			"{SOURCE Monster Codex/12}  ",
 			"**XP** 2,400  ",
@@ -3099,7 +3099,7 @@
 		"name": "Boggard Stalker",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Boggard Stalker]{cr=\"9\"}",
+			"::mh[Boggard Stalker]{cr=9}",
 			"",
 			"{SOURCE Monster Codex/14}  ",
 			"**XP** 6,400  ",
@@ -3146,7 +3146,7 @@
 		"name": "Boggard Swampseer",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::mh[Boggard Swampseer]{cr=\"4\"}",
+			"::mh[Boggard Swampseer]{cr=4}",
 			"",
 			"{SOURCE Monster Codex/13}  ",
 			"**XP** 1,200  ",
@@ -3202,7 +3202,7 @@
 		"description": [
 			"*This gangly, long-armed creature has a face like a calf's, but with large, forward-facing eyes and a mane of lank hair.*",
 			"",
-			"::mh[Boggart]{cr=\"4\"}",
+			"::mh[Boggart]{cr=4}",
 			"",
 			"{SOURCE Bestiary 6/50;Occult Bestiary/11}  ",
 			"**XP** 1,200  ",
@@ -3260,7 +3260,7 @@
 		"description": [
 			"*This immense bovine has horns reminiscent of a stag, with dagger-like points spreading more than fifteen feet across.*",
 			"",
-			"::mh[Bull of Zagresh]{cr=\"7\"}",
+			"::mh[Bull of Zagresh]{cr=7}",
 			"",
 			"{SOURCE Belkzen, Hold of the Orc Hordes/63}  ",
 			"**XP** 3,200  ",
@@ -3305,7 +3305,7 @@
 		"description": [
 			"*This massive cat-like creature has the lithe grace of a feline despite a shell-like armor of segmented plates.*",
 			"",
-			"::mh[Warcat of Rull]{cr=\"13\"}",
+			"::mh[Warcat of Rull]{cr=13}",
 			"",
 			"{SOURCE Belkzen, Hold of the Orc Hordes/63}  ",
 			"**XP** 25,600  ",
@@ -3350,7 +3350,7 @@
 		"description": [
 			"*This small, goat-like man has curved horns, hoofed feet, and a rat-like tail.*",
 			"",
-			"::mh[Boggle]{cr=\"8\"}",
+			"::mh[Boggle]{cr=8}",
 			"",
 			"{SOURCE Bestiary 6/51}  ",
 			"**XP** 4,800  ",
@@ -3410,7 +3410,7 @@
 		"description": [
 			"*This nightmare shambles along the ground on eight muscular tentacles that leave behind a clear viscous residue stinking of putrefaction. Its amphibian skin is moist, green-black, and covered in warts and protuberances. On its back, dozens of fist-sized pustules shift and pulsate with nauseating vitality, like sentient oily bubbles threatening to burst.*",
 			"",
-			"::mh[Bogwid]{cr=\"5\"}",
+			"::mh[Bogwid]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #62: Curse of the Lady's Light/84}  ",
 			"**XP** 1,600  ",
@@ -3487,7 +3487,7 @@
 		"description": [
 			"*This sallow-green beast appears to be an oversized tadpole that never fully matured, with two large, bulbous eyes bulging from either side of its head, and a gaping mouth revealing jagged fangs.*",
 			"",
-			"::mh[Bogwiggle]{cr=\"1\"}",
+			"::mh[Bogwiggle]{cr=1}",
 			"",
 			"{SOURCE Monster Codex/16;Pathfinder #62: Curse of the Lady's Light/86}  ",
 			"**XP** 400  ",
@@ -3542,7 +3542,7 @@
 		"description": [
 			"*Like some taut pustule ready to burst, this mobile wound scuttles on a bristle of slick hairs.*",
 			"",
-			"::mh[Boilborn]{cr=\"1\"}",
+			"::mh[Boilborn]{cr=1}",
 			"",
 			"{SOURCE Bestiary 4/22}  ",
 			"**XP** 400  ",
@@ -3604,7 +3604,7 @@
 		"description": [
 			"*This immense serpent is covered in dull red fur; the four vestigial legs sprouting from its sides don't quite touch the ground.*",
 			"",
-			"::mh[Bolla]{cr=\"14\"}",
+			"::mh[Bolla]{cr=14}",
 			"",
 			"{SOURCE Pathfinder #136: Temple of the Peacock Spirit/88}  ",
 			"**XP** 38,400  ",
@@ -3689,7 +3689,7 @@
 		"description": [
 			"*This skeletal creature wears rotting robes, and carries a sword in its talon-like hands. An evil blue light dances in its empty eye sockets.*",
 			"",
-			"::mh[Bone Priest]{cr=\"4\"}",
+			"::mh[Bone Priest]{cr=4}",
 			"",
 			"{SOURCE The Emerald Spire Superdungeon/152}  ",
 			"**XP** 1,200  ",
@@ -3753,7 +3753,7 @@
 		"description": [
 			"*Muscle holds together the large bones that form the hull of this ship. Rotting sails hang from masts crafted from gigantic spines.*",
 			"",
-			"::mh[Bone Ship]{cr=\"18\"}",
+			"::mh[Bone Ship]{cr=18}",
 			"",
 			"{SOURCE Bestiary 5/44}  ",
 			"**XP** 153,600  ",
@@ -3824,7 +3824,7 @@
 		"description": [
 			"*Ligaments of stringy black fungus connect the bones of this filthy skeleton. In numerous places, the fungus has formed thorny growths.*",
 			"",
-			"::mh[Bonethorn]{cr=\"12\"}",
+			"::mh[Bonethorn]{cr=12}",
 			"",
 			"{SOURCE Bestiary 6/52}  ",
 			"**XP** 19,200  ",
@@ -3880,7 +3880,7 @@
 		"description": [
 			"*This weeping willow tree has a pale and mottled trunk that is contorted into twisted and torturous forms, and long branches made of bones and fibrous fronds.*",
 			"",
-			"::mh[Bonewrought Willow]{cr=\"3\"}",
+			"::mh[Bonewrought Willow]{cr=3}",
 			"",
 			"{SOURCE Pathfinder #139: The Dead Road/82}  ",
 			"**XP** 800  ",
@@ -3958,7 +3958,7 @@
 		"description": [
 			"*This metallic sculpture of an idealized humanoid figure sparkles with divine luster.*",
 			"",
-			"::mh[Celedon]{cr=\"1\"}",
+			"::mh[Celedon]{cr=1}",
 			"",
 			"{SOURCE Bestiary 5/52}  ",
 			"**XP** 400  ",

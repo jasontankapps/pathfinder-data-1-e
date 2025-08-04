@@ -8,7 +8,7 @@
 		"description": [
 			"*A cold, hateful light burns in the eye sockets of this corpse-like creature, whose withered skin is stretched over its icy bones.*",
 			"",
-			"::mh[Crone Queen]{cr=\"15\"}",
+			"::mh[Crone Queen]{cr=15}",
 			"",
 			"{SOURCE Bestiary 5/61;Pathfinder #72: The Witch Queen's Revenge/84}  ",
 			"**XP** 51,200  ",
@@ -70,7 +70,7 @@
 		"description": [
 			"*The twisted, tormented frame of this ghostly spirit is reflected in the utter anguish that shines within its glaring eyes.*",
 			"",
-			"::mh[Cruciarus]{cr=\"12\"}",
+			"::mh[Cruciarus]{cr=12}",
 			"",
 			"{SOURCE Pathfinder #102: Breaking the Bones of Hell/84}  ",
 			"**XP** 19,200  ",
@@ -139,7 +139,7 @@
 		"description": [
 			"*A lone petal hangs over the opening of this bulbous, pitcher-shaped flower, which is flanked by a pair of serpentine vines.*",
 			"",
-			"::mh[Crypt Flower]{cr=\"7\"}",
+			"::mh[Crypt Flower]{cr=7}",
 			"",
 			"{SOURCE Bestiary 6/67}  ",
 			"**XP** 3,200  ",
@@ -202,7 +202,7 @@
 		"description": [
 			"*Shreds of leathery flesh cling to this skeletal figure's body, while twin motes of fiery light glow deep in its eye sockets.*",
 			"",
-			"::mh[Crypt Thing]{cr=\"5\"}",
+			"::mh[Crypt Thing]{cr=5}",
 			"",
 			"{SOURCE Bestiary 2/60}  ",
 			"**XP** 1,600  ",
@@ -260,7 +260,7 @@
 		"description": [
 			"*This elegantly sculpted marble statue depicts a winged woman dressed in flowing robes, but with a raven's skull for a head.*",
 			"",
-			"::mh[Cryptguard]{cr=\"9\"}",
+			"::mh[Cryptguard]{cr=9}",
 			"",
 			"{SOURCE Bestiary 6/68}  ",
 			"**XP** 6,400  ",
@@ -324,7 +324,7 @@
 		"description": [
 			"*An animated cluster of translucent crystals shaped disturbingly like a gemstone scorpion scuttles into an aggressive stance.*",
 			"",
-			"::mh[Crysmal]{cr=\"3\"}",
+			"::mh[Crysmal]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/61}  ",
 			"**XP** 800  ",
@@ -382,7 +382,7 @@
 		"description": [
 			"*The pink, fleshy underside of this flat, aquatic creature features a large circular maw of fangs.*",
 			"",
-			"::mh[Cuero]{cr=\"5\"}",
+			"::mh[Cuero]{cr=5}",
 			"",
 			"{SOURCE Bestiary 5/62}  ",
 			"**XP** 1,600  ",
@@ -442,7 +442,7 @@
 		"description": [
 			"*This desiccated figure wears linen wrappings and tarnished jewelry. Its humanoid body is topped with a withered crocodile head.*",
 			"",
-			"::mh[Cursed King]{cr=\"10\"}",
+			"::mh[Cursed King]{cr=10}",
 			"",
 			"{SOURCE Bestiary 5/63}  ",
 			"**XP** 9,600  ",
@@ -500,7 +500,7 @@
 		"description": [
 			"*This spider-like creature seems to be made entirely out of weapons and splintered planks, its legs ending in curved blades.*",
 			"",
-			"::mh[Cutlass Spider]{cr=\"6\"}",
+			"::mh[Cutlass Spider]{cr=6}",
 			"",
 			"{SOURCE Bestiary 6/69;Pathfinder #15: The Armageddon Echo/84}  ",
 			"**XP** 2,400  ",
@@ -562,7 +562,7 @@
 		"description": [
 			"*A single huge eye stares from the forehead of this nine-foot-tall giant. Below this sole orb, an even larger mouth gapes like a cave.*",
 			"",
-			"::mh[Cyclops]{cr=\"5\"}",
+			"::mh[Cyclops]{cr=5}",
 			"",
 			"{SOURCE Pathfinder RPG Bestiary/52}  ",
 			"**XP** 1,600  ",
@@ -619,7 +619,7 @@
 		"description": [
 			"*This enormous woman's eye darts constantly, never settling or focusing. Scrolls dangle from the belt that encircles her chiton.*",
 			"",
-			"::mh[Cyclops Grand-Eye]{cr=\"10\"}",
+			"::mh[Cyclops Grand-Eye]{cr=10}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/20}  ",
 			"**XP** 9,600  ",
@@ -673,7 +673,7 @@
 		"description": [
 			"*Ancient tomes and ornate robes lend this towering one-eyed figure an intellectual air, balanced by his toned muscles and a lingering stench of blood.*",
 			"",
-			"::mh[Cyclops Lorekeeper]{cr=\"13\"}",
+			"::mh[Cyclops Lorekeeper]{cr=13}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/21}  ",
 			"**XP** 25,600  ",
@@ -731,7 +731,7 @@
 		"description": [
 			"*This cyclops warrior clad in leathers and a flowing hood looms over the terrain. A heavy axe stained with gore serves as a warning for opponents who dare draw closer.*",
 			"",
-			"::mh[Cyclops Manhunter]{cr=\"7\"}",
+			"::mh[Cyclops Manhunter]{cr=7}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/18}  ",
 			"**XP** 3,200  ",
@@ -784,7 +784,7 @@
 		"description": [
 			"*Massive even by cyclops standards, this imposing warrior wears the skulls of his victims and wields a terrible club.*",
 			"",
-			"::mh[Cyclops Smasher]{cr=\"9\"}",
+			"::mh[Cyclops Smasher]{cr=9}",
 			"",
 			"{SOURCE Inner Sea Monster Codex/19}  ",
 			"**XP** 6,400  ",
@@ -842,7 +842,7 @@
 		"description": [
 			"*This misshapen but incredibly muscular humanoid has a single huge bloodshot eye set under a short, jagged horn on its brow.*",
 			"",
-			"::mh[Great Cyclops]{cr=\"12\"}",
+			"::mh[Great Cyclops]{cr=12}",
 			"",
 			"{SOURCE Bestiary 3/61;Pathfinder #33: The Varnhold Vanishing/84}  ",
 			"**XP** 19,200  ",
@@ -899,7 +899,7 @@
 		"description": [
 			"*This tall giant has no head; instead, its one-eyed face rests in the center of its broad chest.*",
 			"",
-			"::mh[Kabandha]{cr=\"9\"}",
+			"::mh[Kabandha]{cr=9}",
 			"",
 			"{SOURCE Bestiary 5/64}  ",
 			"**XP** 6,400  ",
@@ -962,7 +962,7 @@
 		"description": [
 			"*Clothed in loose robes and wearing jewelry, this one-eyed giant appears to hold a high station.*",
 			"",
-			"::mh[Oracular Cyclops]{cr=\"7\"}",
+			"::mh[Oracular Cyclops]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #58: Island of Empty Eyes/73}  ",
 			"**XP** 3,200  ",
@@ -1019,7 +1019,7 @@
 		"description": [
 			"*Towering nearly 40 feet tall, this monster bellows a horrid war cry as blood vessels bloom crimson in his single, rage-filled eye.*",
 			"",
-			"::mh[Savage Great Cyclops]{cr=\"18\"}",
+			"::mh[Savage Great Cyclops]{cr=18}",
 			"",
 			"{SOURCE Pathfinder #58: Island of Empty Eyes/72}  ",
 			"**XP** 153,600  ",
@@ -1077,7 +1077,7 @@
 		"description": [
 			"*This moth-winged woman has a delicate appearance, though her features are somewhat masked by a haze of shimmering dust.*",
 			"",
-			"::mh[Cynosoma]{cr=\"12\"}",
+			"::mh[Cynosoma]{cr=12}",
 			"",
 			"{SOURCE Planar Adventures/229}  ",
 			"**XP** 19,200  ",
@@ -1138,7 +1138,7 @@
 		"description": [
 			"*The eyes of this large gull glow eerily blue. Gray feathers cover much of its robust body, and its long, black-tipped wings are marked with enigmatic symbols. The bird's yellow bill is heavy and hooked, and its webbed feet bear sharp talons.*",
 			"",
-			"::mh[Cyphergull]{cr=\"2\"}",
+			"::mh[Cyphergull]{cr=2}",
 			"",
 			"{SOURCE Pathfinder #133: Secrets of Roderic's Cove/82}  ",
 			"**XP** 600  ",
@@ -1217,7 +1217,7 @@
 		"name": "Cytillesh Zombie",
 		"sources": [ "No Response from Deepmar" ],
 		"description": [
-			"::mh[Cytillesh Zombie]{cr=\"1\"}",
+			"::mh[Cytillesh Zombie]{cr=1}",
 			"",
 			"{SOURCE No Response from Deepmar/21}  ",
 			"**XP** 400  ",
@@ -1268,7 +1268,7 @@
 		"description": [
 			"*This segmented creature has a chitinous body covered in patches of glowing, purple fungus. Syrupy venom drips from its mandibles.*",
 			"",
-			"::mh[Cytillipede]{cr=\"6\"}",
+			"::mh[Cytillipede]{cr=6}",
 			"",
 			"{SOURCE Bestiary 5/65;No Response from Deepmar/29}  ",
 			"**XP** 2,400  ",
@@ -1327,7 +1327,7 @@
 		"description": [
 			"*This four-armed creature looks like a cross between a human and a black and ochre termite. Its body and arms display glowing runes.*",
 			"",
-			"::mh[D'ziriak]{cr=\"3\"}",
+			"::mh[D'ziriak]{cr=3}",
 			"",
 			"{SOURCE Bestiary 2/113}  ",
 			"**XP** 800  ",
@@ -1385,7 +1385,7 @@
 		"description": [
 			"*This wicked creature has the claws and mandibles of an enormous insect, and its lower body is made entirely of swarming locusts.*",
 			"",
-			"::mh[Acrididaemon]{cr=\"14\"}",
+			"::mh[Acrididaemon]{cr=14}",
 			"",
 			"{SOURCE Feast of Dust/61}  ",
 			"**XP** 38,400  ",
@@ -1453,7 +1453,7 @@
 		"description": [
 			"*Vaguely humanoid in shape, this gaunt fiend has the face of a hideous fish and a body of lanky limbs and writhing tendrils.*",
 			"",
-			"::mh[Astradaemon]{cr=\"16\"}",
+			"::mh[Astradaemon]{cr=16}",
 			"",
 			"{SOURCE Bestiary 2/63;The Great Beyond - A Guide to the Multiverse/54}  ",
 			"**XP** 76,800  ",
@@ -1514,7 +1514,7 @@
 		"description": [
 			"*Flowing black robes hang all around this four-armed, weasel-faced humanoid. Feathers that resemble quills emerge from each knuckle of its clawed upper hands.*",
 			"",
-			"::mh[Bibliodaemon]{cr=\"8\"}",
+			"::mh[Bibliodaemon]{cr=8}",
 			"",
 			"{SOURCE Druma, Profit and Prophecy/57}  ",
 			"**XP** 4,800  ",
@@ -1573,7 +1573,7 @@
 		"description": [
 			"*An ever-gnashing maw, filled with row after row of mismatched teeth, dominates this frightful creature's orb-like body.*",
 			"",
-			"::mh[Cacodaemon]{cr=\"2\"}",
+			"::mh[Cacodaemon]{cr=2}",
 			"",
 			"{SOURCE Bestiary 2/64}  ",
 			"**XP** 600  ",
@@ -1636,7 +1636,7 @@
 		"description": [
 			"*This brown, shaggy-furred beast stands on slate grey hooves. Its head resembles that of a maniacal horned ape.*",
 			"",
-			"::mh[Ceustodaemon]{cr=\"6\"}",
+			"::mh[Ceustodaemon]{cr=6}",
 			"",
 			"{SOURCE Bestiary 2/65}  ",
 			"**XP** 2,400  ",
@@ -1703,7 +1703,7 @@
 		"description": [
 			"*Its body seemingly made of iron, this shapely feminine form has wrists pierced by chains that end in curved blades.*",
 			"",
-			"::mh[Crucidaemon]{cr=\"15\"}",
+			"::mh[Crucidaemon]{cr=15}",
 			"",
 			"{SOURCE Bestiary 3/62}  ",
 			"**XP** 51,200  ",
@@ -1765,7 +1765,7 @@
 		"description": [
 			"*A deadly and vicious bouquet of insectile claws sprouts from this horrid, three-legged, multi-eyed beast.*",
 			"",
-			"::mh[Derghodaemon]{cr=\"12\"}",
+			"::mh[Derghodaemon]{cr=12}",
 			"",
 			"{SOURCE Bestiary 2/66}  ",
 			"**XP** 19,200  ",
@@ -1832,7 +1832,7 @@
 		"description": [
 			"*This blue-skinned woman has ram's horns, a third eye in her forehead, and a long, scaled tail that ends in a hissing viper's head.*",
 			"",
-			"::mh[Erodaemon]{cr=\"11\"}",
+			"::mh[Erodaemon]{cr=11}",
 			"",
 			"{SOURCE Bestiary 6/70;Book of the Damned - Volume 3: Horsemen of the Apocalypse/46}  ",
 			"**XP** 12,800  ",
@@ -1893,7 +1893,7 @@
 		"description": [
 			"*Jagged bits of metal, armor, and sharp pieces of wire embed the flesh of this towering fiend.*",
 			"",
-			"::mh[Genthodaemon]{cr=\"5\"}",
+			"::mh[Genthodaemon]{cr=5}",
 			"",
 			"{SOURCE Pathfinder #71: Rasputin Must Die!/86}  ",
 			"**XP** 1,600  ",
@@ -1978,7 +1978,7 @@
 		"description": [
 			"*The skin on this frog-like fiend is clammy and its eyes look dead and milky; its wide face is split by a fanged maw.*",
 			"",
-			"::mh[Hydrodaemon]{cr=\"8\"}",
+			"::mh[Hydrodaemon]{cr=8}",
 			"",
 			"{SOURCE Bestiary 2/67}  ",
 			"**XP** 4,800  ",
@@ -2045,7 +2045,7 @@
 		"description": [
 			"*The face of this gray-skinned humanoid stretches in a manic grin, even though it weeps steaming tears. Frost crusts its flesh.*",
 			"",
-			"::mh[Lacridaemon]{cr=\"3\"}",
+			"::mh[Lacridaemon]{cr=3}",
 			"",
 			"{SOURCE Bestiary 6/71;Book of the Damned - Volume 3: Horsemen of the Apocalypse/48}  ",
 			"**XP** 800  ",
@@ -2110,7 +2110,7 @@
 		"description": [
 			"*This grotesque and malevolent creature appears to be a crushed ball of broken humanoid body parts spraying blood.*",
 			"",
-			"::mh[Lapsudaemon]{cr=\"14\"}",
+			"::mh[Lapsudaemon]{cr=14}",
 			"",
 			"{SOURCE Pathfinder #106: For Queen and Empire/88}  ",
 			"**XP** 38,400  ",
@@ -2197,7 +2197,7 @@
 		"description": [
 			"*This human-shaped beast has a horse's skull for a head. It walks on cracked hooves and bears the rotting wings of a carrion bird.*",
 			"",
-			"::mh[Leukodaemon]{cr=\"9\"}",
+			"::mh[Leukodaemon]{cr=9}",
 			"",
 			"{SOURCE Bestiary 2/68;Pathfinder #8: Seven Days to the Grave/80}  ",
 			"**XP** 6,400  ",
@@ -2265,7 +2265,7 @@
 		"description": [
 			"*This foul creature looks like an emaciated humanoid with the head of a jackal.*",
 			"",
-			"::mh[Meladaemon]{cr=\"11\"}",
+			"::mh[Meladaemon]{cr=11}",
 			"",
 			"{SOURCE Bestiary 2/69;Beyond the Vault of Souls/30}  ",
 			"**XP** 12,800  ",
@@ -2329,7 +2329,7 @@
 		"description": [
 			"*This four-armed fiend has blue-green skin covered in white scars. Its two upper arms end in long, barbed whips of calloused flesh.*",
 			"",
-			"::mh[Nixudaemon]{cr=\"7\"}",
+			"::mh[Nixudaemon]{cr=7}",
 			"",
 			"{SOURCE Pathfinder #96: Shadow of the Storm Tyrant/88}  ",
 			"**XP** 3,200  ",
@@ -2412,7 +2412,7 @@
 		"description": [
 			"*This massive fiend has eagle wings, a tusked canine face, and a muscular frame. It wields an immense, cruel-looking halberd.*",
 			"",
-			"::mh[Obcisidaemon]{cr=\"19\"}",
+			"::mh[Obcisidaemon]{cr=19}",
 			"",
 			"{SOURCE Bestiary 6/72;Book of the Damned - Volume 3: Horsemen of the Apocalypse/50}  ",
 			"**XP** 204,800  ",
@@ -2492,7 +2492,7 @@
 		"description": [
 			"*Crowned with a wicked array of twisted horns, this wide-mouthed, spherical behemoth stands on four stout legs.*",
 			"",
-			"::mh[Olethrodaemon]{cr=\"20\"}",
+			"::mh[Olethrodaemon]{cr=20}",
 			"",
 			"{SOURCE Bestiary 2/70}  ",
 			"**XP** 307,200  ",
@@ -2577,7 +2577,7 @@
 		"description": [
 			"*This serpentine monstrosity has the long snout of a crocodile, ram's horns, and mantis claws projecting from its sinuous body.*",
 			"",
-			"::mh[Phasmadaemon]{cr=\"17\"}",
+			"::mh[Phasmadaemon]{cr=17}",
 			"",
 			"{SOURCE Bestiary 6/74;Book of the Damned - Volume 3: Horsemen of the Apocalypse/52}  ",
 			"**XP** 102,400  ",
@@ -2639,7 +2639,7 @@
 		"description": [
 			"*This hideous cross between a lobster, an octopus, and a human threatens enemies with powerful claws and writhing tentacles.*",
 			"",
-			"::mh[Piscodaemon]{cr=\"10\"}",
+			"::mh[Piscodaemon]{cr=10}",
 			"",
 			"{SOURCE Bestiary 2/72}  ",
 			"**XP** 9,600  ",
@@ -2703,7 +2703,7 @@
 		"description": [
 			"*Dozens of weapons pierce this massive monster's body. Red eyes glow with wickedness in its vulture-like head.*",
 			"",
-			"::mh[Purrodaemon]{cr=\"18\"}",
+			"::mh[Purrodaemon]{cr=18}",
 			"",
 			"{SOURCE Bestiary 2/73}  ",
 			"**XP** 153,600  ",
@@ -2765,7 +2765,7 @@
 		"description": [
 			"*This human-sized, serpent-headed spider seems to be made of clotted blood, its dragonfly-like wings dripping crimson streamers.*",
 			"",
-			"::mh[Sangudaemon]{cr=\"9\"}",
+			"::mh[Sangudaemon]{cr=9}",
 			"",
 			"{SOURCE Bestiary 6/75;Book of the Damned - Volume 3: Horsemen of the Apocalypse/54}  ",
 			"**XP** 6,400  ",
@@ -2829,7 +2829,7 @@
 		"description": [
 			"*A long-beaked, crested head on a twisted neck rises from a formless, glowing mass of a body. Now and then, a grasping claw extends forth.*",
 			"",
-			"::mh[Sepsidaemon]{cr=\"7\"}",
+			"::mh[Sepsidaemon]{cr=7}",
 			"",
 			"{SOURCE Book of the Damned/243}  ",
 			"**XP** 3,200  ",
@@ -2892,7 +2892,7 @@
 		"description": [
 			"*This tall, three-legged, vulture-headed fiend has a grotesquely long, suckered tongue and gangly arms that end in claws.*",
 			"",
-			"::mh[Suspiridaemon]{cr=\"7\"}",
+			"::mh[Suspiridaemon]{cr=7}",
 			"",
 			"{SOURCE Bestiary 6/76;Book of the Damned - Volume 3: Horsemen of the Apocalypse/56}  ",
 			"**XP** 3,200  ",
@@ -2962,7 +2962,7 @@
 		"description": [
 			"*This humanoid creature's limbs - four arms and four legs - bend in awkward configurations. It wields a scythe in its largest arms.*",
 			"",
-			"::mh[Temerdaemon]{cr=\"14\"}",
+			"::mh[Temerdaemon]{cr=14}",
 			"",
 			"{SOURCE Bestiary 6/77;Book of the Damned - Volume 3: Horsemen of the Apocalypse/58}  ",
 			"**XP** 38,400  ",
@@ -3027,7 +3027,7 @@
 		"description": [
 			"*Rattling with each stride, this looming, horned, skeletal figure clutches a wicked staff. A seething glow burns in its eye sockets.*",
 			"",
-			"::mh[Thanadaemon]{cr=\"13\"}",
+			"::mh[Thanadaemon]{cr=13}",
 			"",
 			"{SOURCE Bestiary 2/74}  ",
 			"**XP** 25,600  ",
@@ -3091,7 +3091,7 @@
 		"description": [
 			"*Tentacles protrude from the robes of this floating hooded figure in place of arms and legs. Its face is a disturbing, toothless maw.*",
 			"",
-			"::mh[Venedaemon]{cr=\"5\"}",
+			"::mh[Venedaemon]{cr=5}",
 			"",
 			"{SOURCE Bestiary 6/78;Book of the Damned - Volume 3: Horsemen of the Apocalypse/60}  ",
 			"**XP** 1,600  ",
@@ -3159,7 +3159,7 @@
 		"description": [
 			"*A bloody, tooth-filled mouth that looks almost like a horrific gash gasps in the neck of this pale, childlike horror.*",
 			"",
-			"::mh[Vulnudaemon]{cr=\"4\"}",
+			"::mh[Vulnudaemon]{cr=4}",
 			"",
 			"{SOURCE Bestiary 3/63}  ",
 			"**XP** 1,200  ",
@@ -3222,7 +3222,7 @@
 		"description": [
 			"*This winged horror has the upper body of a feral, bloody-mouthed female orc warrior and the lower body of a giant wolf.*",
 			"",
-			"::mh[Dahzagan]{cr=\"6\"}",
+			"::mh[Dahzagan]{cr=6}",
 			"",
 			"{SOURCE Belkzen, Hold of the Orc Hordes/59}  ",
 			"**XP** 2,400  ",
@@ -3285,7 +3285,7 @@
 		"description": [
 			"*This winged, humanoid ascetic's face is bright red and boasts a prodigiously long nose.*",
 			"",
-			"::mh[Daitengu]{cr=\"10\"}",
+			"::mh[Daitengu]{cr=10}",
 			"",
 			"{SOURCE Bestiary 6/79}  ",
 			"**XP** 9,600  ",
@@ -3344,7 +3344,7 @@
 		"description": [
 			"*This squat, grunting creature stinks of musk and earth. Leathery plates and black horns protect its woolly underside.*",
 			"",
-			"::mh[Dallo]{cr=\"1\"}",
+			"::mh[Dallo]{cr=1}",
 			"",
 			"{SOURCE Pathfinder #118: Siege of Stone/82}  ",
 			"**XP** 400  ",
@@ -3398,7 +3398,7 @@
 		"description": [
 			"*Dozens of ghostly figures swirl and cavort, floating through the air as they follow the steps of an ancient, rhythmic dance, seemingly keeping time with the ebb and flow of life itself. Amid this eerie crowd of dancing specters looms a dark-cloaked figure wielding a scythe.*",
 			"",
-			"::mh[Danse Macabre]{cr=\"14\"}",
+			"::mh[Danse Macabre]{cr=14}",
 			"",
 			"{SOURCE Curse of the Crimson Throne/470;Pathfinder #11: Skeletons of Scarwall/80}  ",
 			"**XP** 38,400  ",
@@ -3466,7 +3466,7 @@
 		"description": [
 			"*This bright-eyed, doll-sized woman wears jewels and silks. She has pointed ears, four-fingered hands, and a mischievous grin.*",
 			"",
-			"::mh[Danthienne]{cr=\"5\"}",
+			"::mh[Danthienne]{cr=5}",
 			"",
 			"{SOURCE Bestiary 6/80}  ",
 			"**XP** 1,600  ",
@@ -3524,7 +3524,7 @@
 		"description": [
 			"*This strange creature can only be described as a light pink, hairless monkey with the head of a fish and large, fin-like wings.*",
 			"",
-			"::mh[Coral Capuchin]{cr=\"1\"}",
+			"::mh[Coral Capuchin]{cr=1}",
 			"",
 			"{SOURCE Bestiary 6/66;Pathfinder #58: Island of Empty Eyes/82}  ",
 			"**XP** 400  ",
@@ -3588,7 +3588,7 @@
 		"description": [
 			"*Shrouded in tattered leather robes, this strange humanoid looks more alien and horrific the more one studies its twitching visage.*",
 			"",
-			"::mh[Denizen of Leng]{cr=\"8\"}",
+			"::mh[Denizen of Leng]{cr=8}",
 			"",
 			"{SOURCE Bestiary 2/82;Pathfinder #6: Spires of Xin-Shalast/78}  ",
 			"**XP** 4,800  ",
@@ -3653,7 +3653,7 @@
 		"description": [
 			"*Powerful black wings beat from the back of this large ape, which carries a wickedly curved sword in its simian hands.*",
 			"",
-			"::mh[Derhii]{cr=\"5\"}",
+			"::mh[Derhii]{cr=5}",
 			"",
 			"{SOURCE Bestiary 3/75;Lost Cities of Golarion/23;Crucible of Chaos/28}  ",
 			"**XP** 1,600  ",
@@ -3714,7 +3714,7 @@
 		"description": [
 			"*Clad in ragged black robes and tarnished armor, this grim, headless rider is surrounded by an aura of menace.*",
 			"",
-			"::mh[Dullahan]{cr=\"7\"}",
+			"::mh[Dullahan]{cr=7}",
 			"",
 			"{SOURCE Bestiary 2/111}  ",
 			"**XP** 3,200  ",
@@ -3770,7 +3770,7 @@
 		"description": [
 			"*This enormous spider-like creature has a tremendous pair of jagged fangs as menacing as its oversized claws.*",
 			"",
-			"::mh[Duneshaker]{cr=\"18\"}",
+			"::mh[Duneshaker]{cr=18}",
 			"",
 			"{SOURCE Bestiary 6/256}  ",
 			"**XP** 153,600  ",
@@ -3823,7 +3823,7 @@
 		"description": [
 			"*This half-bodied monstrosity with a toothy mouth and stringy hair hops about on its single leg with unusual grace.*",
 			"",
-			"::mh[Fachen]{cr=\"5\"}",
+			"::mh[Fachen]{cr=5}",
 			"",
 			"{SOURCE Bestiary 4/95;Pathfinder #63: The Asylum Stone/88}  ",
 			"**XP** 1,600  ",
@@ -3880,7 +3880,7 @@
 		"description": [
 			"*This regal fox's coat shifts subtly between silver, red, and dull brown as it walks.*",
 			"",
-			"::mh[Fading Fox]{cr=\"2\"}",
+			"::mh[Fading Fox]{cr=2}",
 			"",
 			"{SOURCE Taldor, the First Empire/60}  ",
 			"**XP** 600  ",
@@ -3930,7 +3930,7 @@
 		"description": [
 			"*This enormous fungus looks like a cage, and a strange glow emanates from within.*",
 			"",
-			"::mh[Zygomind]{cr=\"18\"}",
+			"::mh[Zygomind]{cr=18}",
 			"",
 			"{SOURCE Bestiary 5/286}  ",
 			"**XP** 153,600  ",

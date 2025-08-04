@@ -3613,7 +3613,7 @@
 			"**Price** 150 gp; **Weight** 1,500 lbs  ",
 			"**Category** Mounts/Pets",
 			"",
-			"Due to their incredible endurance, these Large animals are the preferred mounts of desert-dwelling people. They tend to be ill-tempered beasts."
+			"Due to their incredible endurance, these Large animals are the preferred mounts of desert-dwelling people. {monster/Camel/s} tend to be ill-tempered beasts."
 		]
 	},
 	"camouflage_blanket": {
