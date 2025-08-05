@@ -37,11 +37,16 @@ const sourcesTest = () => {
 		delete data.not_found;
 		Object.entries(data).forEach((pair) => {
 			const [item, entry] = pair;
-			const {sources: s, compilationSources, compileFrom, copyof, alternateOf, redirect, description = []} = entry;
-			if(compileFrom) {
+			const {sources: s, compileFrom, copyof, alternateOf, redirect, description = []} = entry;
+			if(redirect || copyof || alternateOf) {
+				// These properties indicate we don't need to check sources or descriptions here.
+				return;
+			} else if(compileFrom) {
 				const { targets = [] } = compileFrom;
 				targets.forEach(bit => {
 					if(Array.isArray(bit)) {
+						// Add raw text from the compileFrom property to
+						//   the description so we can check for links.
 						description.push(...bit);
 					}
 				});
@@ -55,12 +60,6 @@ const sourcesTest = () => {
 				return;
 			}
 			const sources = s ? s.map(x => convertTextToLink(x)) : [];
-			if(!s && !compilationSources && !copyof && !alternateOf && !redirect) {
-				//msg.push(`Missing ${item}.sources or .compilationSources`);
-				return;
-			} else if (compilationSources) {
-				// comp sources are auto-added to the text in post, no need to check
-			}
 			const found = checkForSourceLinks(description);
 			const fSet = new Set(found);
 			const sSet = new Set(sources);
