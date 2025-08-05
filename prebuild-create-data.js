@@ -285,6 +285,11 @@ const specialContainerBlocks = {
 				return (
 					`<aside>${removeCurlyBrackets(marked2.parse(text))}</aside>`
 				);
+			case "compress":
+				marked2 = makeNewMarkedInstance();
+				return (
+					`<div className="compressed">${removeCurlyBrackets(marked2.parse(text))}</div>`
+				);
 		}
 		return false;
 	}

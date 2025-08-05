@@ -629,7 +629,7 @@ const basic_data_groups = {
 		num: 29,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rules_campaign_types30": {
+	"rules_campaign_types10": {
 		data: rule30,
 		datatype: "rule",
 		searchgroup: 12, // rule
