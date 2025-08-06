@@ -163,7 +163,7 @@
 			"",
 			"Black blood wells from the walls of a singular vault deep in Orv, a region known quite aptly as the Land of Black Blood. This noxious fluid repulses and freezes all natural life, although certain creatures like aberrations, undead, and {arc-oracle/black-blooded oracle/s} possess an uncanny immunity to its effects. Any other creature that comes into contact with black blood takes 1d6 points of cold damage - 10d6 points of cold damage per round if fully immersed.",
 			"",
-			"Although black blood isn't itself inherently evil, a pint of black blood can be used as {eq-weapon/unholy water}. A spellcaster who consumes a dose of black blood casts all necromantic spells at +1 caster level for the next 10 minutes, but takes 3d6 points of cold damage and 1 point of Constitution damage by drinking the stuff. Normally, a dose of black blood becomes inert an hour after being harvested from the source in the Land of Black Blood, losing all mystical properties. {spell/Gentle repose} can preserve up to 1 gallon of black blood's magical properties for increased lengths of time, but no other method of stabilizing the stuff has yet been developed. The blood of a black-blooded oracle is diluted and does not have the properties of full-strength black blood."
+			"Although black blood isn't itself inherently evil, a pint of black blood can be used as {eq-weapon/unholy water}. A spellcaster who consumes a dose of black blood casts all necromantic spells at +1 caster level for the next 10 minutes, but takes 3d6 points of cold damage and 1 point of {rule/Constitution damage} by drinking the stuff. Normally, a dose of black blood becomes inert an hour after being harvested from the source in the Land of Black Blood, losing all mystical properties. {spell/Gentle repose} can preserve up to 1 gallon of black blood's magical properties for increased lengths of time, but no other method of stabilizing the stuff has yet been developed. The blood of a black-blooded oracle is diluted and does not have the properties of full-strength black blood."
 		]
 	},
 	"celestial": {
@@ -564,7 +564,7 @@
 			"",
 			"**Viper's Touch (Su):** At 12th level, you grow two sets of venomous claws resembling the teeth of a serpent. These claws are primary {umr/natural attacks} that deal 1d8 points of damage (1d6 if you are Small). The claws also gain the following poison ability:",
 			"",
-			">*Viper's Venom:* Claw-injury; *save* Fort DC 10 + half the bloodrager's level + the bloodrager's Constitution modifier; *frequency* 1/round for 4 rounds; *effect* 1d3 Str damage; *cure* 1 save.",
+			">*Viper's Venom:* Claw-injury; *save* Fort DC 10 + half the bloodrager's level + the bloodrager's Constitution modifier; *frequency* 1/round for 4 rounds; *effect* 1d3 {rule/Str damage}; *cure* 1 save.",
 			"",
 			"**Stone Resistance (Su):** At 16th level, you gain acid resistance 10 and are immune to disease, poison, and the sickened and staggered conditions. You also cannot be flanked.",
 			"",
@@ -597,7 +597,7 @@
 			"",
 			"**Poison Fangs (Su):** At 12th level, you gain the {umr/poison} special attack, tied to your bite attack. Your poison is as follows:",
 			"",
-			">Bite-injury; *save* Fort DC = 10 + 1/2 your bloodrager level + your Constitution modifier; *frequency* 1/round for 6 rounds; *effect* 1d2 Con damage; *cure* 1 save.",
+			">Bite-injury; *save* Fort DC = 10 + 1/2 your bloodrager level + your Constitution modifier; *frequency* 1/round for 6 rounds; *effect* 1d2 {rule/Con damage}; *cure* 1 save.",
 			"",
 			"**Naga Form (Sp):** At 16th level, when entering a bloodrage, you can assume the form of a naga (as per {spell/naga shape III}).",
 			"",
@@ -694,7 +694,7 @@
 			"",
 			"**Shadow Door (Su):** At 16th level, you can take any part of your movement through shadows, teleporting to another location within 60 feet. This ability functions as {spell/dimension door}, except you can't use shadow door in brightly lit areas. You can teleport in this manner a total of 10 feet per class level each day.",
 			"",
-			"**Shadow Warrior (Su):** At 20th level, you become shadow and fury personified. You see perfectly in natural and magical darkness. Whenever you deal hit point damage with a spell or attack, you also deal 2 points of Strength damage to each creature that took damage."
+			"**Shadow Warrior (Su):** At 20th level, you become shadow and fury personified. You see perfectly in natural and magical darkness. Whenever you deal hit point damage with a spell or attack, you also deal 2 points of {rule/Strength damage} to each creature that took damage."
 		]
 	},
 	"shapechanger": {

@@ -635,7 +635,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"category": "Other Bomb Discoveries",
 		"description": [
-			"The alchemist's bombs do more than sear flesh - they sear the mind. A creature that takes a direct hit from a madness bomb takes damage from the bomb plus 1d4 points of Wisdom damage. Reduce the amount of normal damage dealt by the bomb by 2d6 (so a bomb that would normally deal 6d6+4 points of damage deals 4d6+4 points of damage instead). The amount of Wisdom damage dealt by a madness bomb is reduced by 1 for each madness bomb that hit the target in the past 24 hours, to a minimum of 1 point of Wisdom damage. An alchemist must be at least 12th level before selecting this discovery."
+			"The alchemist's bombs do more than sear flesh - they sear the mind. A creature that takes a direct hit from a madness bomb takes damage from the bomb plus 1d4 points of {rule/Wisdom damage}. Reduce the amount of normal damage dealt by the bomb by 2d6 (so a bomb that would normally deal 6d6+4 points of damage deals 4d6+4 points of damage instead). The amount of Wisdom damage dealt by a madness bomb is reduced by 1 for each madness bomb that hit the target in the past 24 hours, to a minimum of 1 point of Wisdom damage. An alchemist must be at least 12th level before selecting this discovery."
 		]
 	},
 	"inspired_bomb": {
@@ -927,7 +927,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"category": "Mutagen Discoveries",
 		"description": [
-			"When the alchemist creates a mutagen, he can infuse it with an extra bit of his own magical power. This inflicts 2 points of Intelligence damage to the alchemist and costs 1,000 gp in rare reagents, but the mutagen created persists on its own and is not rendered inert if the alchemist creates another mutagen. This allows an alchemist to create different types of mutagens and keep them handy for emergencies. This does not allow an alchemist to gain the effects of multiple mutagens - only the most recently imbibed mutagen has any effect."
+			"When the alchemist creates a mutagen, he can infuse it with an extra bit of his own magical power. This inflicts 2 points of {rule/Intelligence damage} to the alchemist and costs 1,000 gp in rare reagents, but the mutagen created persists on its own and is not rendered inert if the alchemist creates another mutagen. This allows an alchemist to create different types of mutagens and keep them handy for emergencies. This does not allow an alchemist to gain the effects of multiple mutagens - only the most recently imbibed mutagen has any effect."
 		]
 	},
 	"inspiring_cognatogen": {
@@ -1013,7 +1013,7 @@
 		"compilationSources": [ [ "Advanced Race Guide" ] ],
 		"category": "Poison Discoveries",
 		"description": [
-			"({race/Grippli} only) When using his toxic skin ability, the alchemist can choose to excrete a Constitution poison instead of a Dexterity poison. This poison works the same as the normal grippli toxic skin poison except that a failed save deals 1 point of Constitution damage. The alchemist must be at least 8th level and must have the toxic skin racial trait before selecting this discovery."
+			"({race/Grippli} only) When using his toxic skin ability, the alchemist can choose to excrete a Constitution poison instead of a Dexterity poison. This poison works the same as the normal grippli toxic skin poison except that a failed save deals 1 point of {rule/Constitution damage}. The alchemist must be at least 8th level and must have the toxic skin racial trait before selecting this discovery."
 		]
 	},
 	"designer_poison": {
@@ -1199,7 +1199,7 @@
 		"compilationSources": [ [ "Pathfinder #123: The Flooded Cathedral" ] ],
 		"category": "Other Discoveries",
 		"description": [
-			"An alchemist with this discovery grows a set of gills that allow him to breathe water in addition to breathing air. When on land, the alchemist risks his gills drying out and must bathe his gills with 1/2 gallon of water every 24 hours he is out of the water or take 1 point of Constitution damage every hour thereafter. An alchemist must be at least 4th level before selecting this discovery."
+			"An alchemist with this discovery grows a set of gills that allow him to breathe water in addition to breathing air. When on land, the alchemist risks his gills drying out and must bathe his gills with 1/2 gallon of water every 24 hours he is out of the water or take 1 point of {rule/Constitution damage} every hour thereafter. An alchemist must be at least 4th level before selecting this discovery."
 		]
 	},
 	"lingering_spirit": {

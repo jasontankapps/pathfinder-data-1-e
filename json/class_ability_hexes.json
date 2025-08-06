@@ -41,7 +41,7 @@
 		"description": [
 			"The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it's used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level &times; 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following {rule/curse>s}:",
 			"",
-			">**Blight Hex**-*type* curse; *save* Will negates; *frequency* 1/day; *effect* 1 Con damage.",
+			">**Blight Hex**-*type* curse; *save* Will negates; *frequency* 1/day; *effect* 1 {rule/Con damage}.",
 			"",
 			"Both types of curse can be removed with a {spell/remove curse} or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends."
 		]
@@ -672,7 +672,7 @@
 		"category": "majorhex",
 		"topLink": [ "Major Hexes", "ability/major_hexes" ],
 		"description": [
-			"The target is rimed with a shell of frost needles that slowly work their way into its flesh (Fortitude negates). The target turns pale and blue, and takes 1 point of Constitution damage per minute until it dies, saves (once per minute), or is cured. {spell/Break enchantment}, {spell/dispel magic}, {spell/remove curse}, and similar spells end the effect. If the target saves, it is immune to this hex for 1 day. This is a cold effect."
+			"The target is rimed with a shell of frost needles that slowly work their way into its flesh (Fortitude negates). The target turns pale and blue, and takes 1 point of {rule/Constitution damage} per minute until it dies, saves (once per minute), or is cured. {spell/Break enchantment}, {spell/dispel magic}, {spell/remove curse}, and similar spells end the effect. If the target saves, it is immune to this hex for 1 day. This is a cold effect."
 		]
 	},
 	"ice_tomb": {
@@ -692,7 +692,7 @@
 		"category": "majorhex",
 		"topLink": [ "Major Hexes", "ability/major_hexes" ],
 		"description": [
-			"The target's wounds become infected (Fortitude negates). The target takes 1 point of Constitution damage per day. After the first day, the target may save once per day to cure the infection. This is a disease effect."
+			"The target's wounds become infected (Fortitude negates). The target takes 1 point of {rule/Constitution damage} per day. After the first day, the target may save once per day to cure the infection. This is a disease effect."
 		]
 	},
 	"major_ameliorating": {

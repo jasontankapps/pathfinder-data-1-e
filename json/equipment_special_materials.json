@@ -141,7 +141,7 @@
 			"",
 			"| Radiation Level | Fort DC | Initial Effect | Secondary Effect |",
 			"| --- | --- | --- | --- |",
-			"| Low | 13 | 1 Con drain | 1 Cha damage/day |",
+			"| Low | 13 | 1 {rule/Con drain} | 1 Cha damage/day |",
 			"| Medium | 17 | 1d4 Con drain | 1d4 Cha damage/day |",
 			"| High | 22 | 2d4 Con drain | 1d6 Cha damage/day |",
 			"| Severe | 30 | 4d6 Con drain | 2d6 Cha damage/day |",

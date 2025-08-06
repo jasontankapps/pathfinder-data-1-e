@@ -30,7 +30,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Primary Sneak Attack Tricks",
 		"description": [
-			"A ninja with this trick can strike at an opponent's vital pressure points, causing weakness and intense pain. Whenever the ninja deals sneak attack damage, she also deals 1 point of Strength or Dexterity damage, decided by the ninja. Unlike normal ability damage, this damage can be healed by a DC 15 Heal check. Each successful check heals 1 point of damage caused by this trick. A ninja with this trick receives a +10 insight bonus on this Heal check."
+			"A ninja with this trick can strike at an opponent's vital pressure points, causing weakness and intense pain. Whenever the ninja deals sneak attack damage, she also deals 1 point of {rule/Strength or |Dexterity damage}, decided by the ninja. Unlike normal ability damage, this damage can be healed by a DC 15 Heal check. Each successful check heals 1 point of damage caused by this trick. A ninja with this trick receives a +10 insight bonus on this Heal check."
 		]
 	},
 	"slow_reactions": {
@@ -157,7 +157,7 @@
 		"compilationSources": [ [ "Martial Arts Handbook" ] ],
 		"category": "Ki Tricks",
 		"description": [
-			"A ninja with this trick knows how to make poisons from innocuous herbs or minerals. Creating ki venom is a full-round action that costs 1 ki point. The poison lasts for 24 hours before becoming inert. The poison deals either Strength or Dexterity damage, chosen when the venom is created. The ninja can spend additional ki as part of the process of creating the ki venom to improve the venom in one or more of the following ways: spend 1 ki point to increase the damage die to a d6, spend 1 ki point to change the ability damage dealt to Intelligence, Wisdom, or Charisma damage, or spend 1 ki point to increase the number of saves required to cure the poison by 1.",
+			"A ninja with this trick knows how to make poisons from innocuous herbs or minerals. Creating ki venom is a full-round action that costs 1 ki point. The poison lasts for 24 hours before becoming inert. The poison deals either {rule/Strength or |Dexterity damage}, chosen when the venom is created. The ninja can spend additional ki as part of the process of creating the ki venom to improve the venom in one or more of the following ways: spend 1 ki point to increase the damage die to a d6, spend 1 ki point to change the ability damage dealt to Intelligence, Wisdom, or Charisma damage, or spend 1 ki point to increase the number of saves required to cure the poison by 1.",
 			"",
 			">**Ki Venom:** *Type* poison, injury; *Save* Fortitude DC = 10 + 1/2 the ninja's level + her Charisma modifier  ",
 			">*Frequency* 1/round for rounds equal to the ninja's Charisma modifier.  ",
@@ -418,7 +418,7 @@
 		"compilationSources": [ [ "Martial Arts Handbook" ] ],
 		"category": "Master Improved Tricks",
 		"description": [
-			"A ninja with this trick can further improve her ki venom. The ninja can spend 2 ki points to increase the damage die to a d8 or spend 2 ki points to change the ability damage dealt to Constitution damage. The ninja must have the {ninjatrick/ki venom} ninja trick before selecting this trick."
+			"A ninja with this trick can further improve her ki venom. The ninja can spend 2 ki points to increase the damage die to a d8 or spend 2 ki points to change the ability damage dealt to {rule/Constitution damage}. The ninja must have the {ninjatrick/ki venom} ninja trick before selecting this trick."
 		],
 		"topLink": [ "Master Ninja Tricks", "ability/master_tricks" ]
 	},

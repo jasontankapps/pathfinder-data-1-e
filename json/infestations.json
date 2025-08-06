@@ -16,7 +16,7 @@
 			"{SOURCE GameMastery Guide/244}  ",
 			"**Type** infestation; **Save** Fortitude DC 15  ",
 			"**Onset** 4d6 hours; **Frequency** 1/hour  ",
-			"**Effect** 1d6 Con damage",
+			"**Effect** 1d6 {rule/Con damage}",
 			"",
 			"Ear seekers are tiny, pale-colored worms that dwell in rotting wood or other organic detritus. They can be noticed with a DC 15 Perception check. Otherwise, a living creature poking about their lair inadvertently transfers one or more ear seekers to its body. The seekers then search out a warm location on the creature, especially favoring the ear canal. Once there, they lay 2d8 eggs before dying. The eggs hatch 4d6 hours later and the larvae devour the surrounding flesh. Upon the death of their host, the new ear seekers crawl out and seek a new host. {spell/Remove disease} kills any ear seekers or unhatched eggs in or on a host. Some ear seekers favor living in intact wood, often hiding in dungeon doors. The small pinholes left by this variety are particularly hard to spot (Perception DC 20)."
 		]
@@ -45,7 +45,7 @@
 			"{SOURCE GameMastery Guide/244}  ",
 			"**Type** infestation; **Save** Fortitude DC 17  ",
 			"**Onset** immediate; **Frequency** 1/round  ",
-			"**Effect** 1d2 Con damage per grub",
+			"**Effect** 1d2 {rule/Con damage} per grub",
 			"",
 			"Rot grubs are nauseating parasites that feed on flesh and nest in corpses. Generally, a handful of the grubs infest a single corpse at a time, and a DC 15 Perception check is enough to notice and avoid the grubs. Otherwise, 1d6 grubs swiftly burst from the carcass to burrow into the creature, which can attempt a DC 15 Reflex save to avoid the grubs (but only if the creature is aware of the grubs' presence). Any amount of damage reduction is enough to provide immunity to infestation.",
 			"",
@@ -78,7 +78,7 @@
 			"{SOURCE Numeria, Land of Fallen Stars/25}  ",
 			"**Type** infestation, nanite, injury; **Fortitude Save* DC 16  ",
 			"**Onset** 1 day; **Frequency** 1/day  ",
-			"**Effect** 1d2 Intelligence and 1d2 Wisdom damage; see below  ",
+			"**Effect** 1d2 Intelligence and 1d2 {rule/Wisdom damage}; see below  ",
 			"**Cure** 3 consecutive saves",
 			"",
 			"These parasitic worms live in cerebrospinal fluid. Their microscopic eggs can be carried on the wind or coated on a weapon, and enter the body though exposed nerves, such as those in injured skin. Once in the body, the worms travel along the nervous system to the brain and spine, causing an escalating progression of debilitating neurological symptoms.",

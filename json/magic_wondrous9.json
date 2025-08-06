@@ -2335,7 +2335,7 @@
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 3 lbs.",
 			"",
-			"A luxurious crimson silk hammock embroidered with gold thread and gold fringed tassels, a hospitality's hammock is a beauty to behold, but no self-respecting seaman would ever be caught using it. Aside from the hammock's considerable looks, a single night's rest in it eliminates any sign of seasickness. Additionally, a hospitality's hammock is so comfortable that those who sleep in it for a full 8 hours regain hit points as if they had an entire day of bed rest. Climbing into or out of the hammock is a full-round action. A successful DC 5 Dexterity check reduces this to a move action.",
+			"A luxurious crimson silk hammock embroidered with gold thread and gold fringed tassels, a hospitality's hammock is a beauty to behold, but no self-respecting seaman would ever be caught using it. Aside from the hammock's considerable looks, a single night's rest in it eliminates any sign of seasickness. Additionally, a hospitality's hammock is so comfortable that those who sleep in it for a full 8 hours regain hit points as if they had an entire day of {rule/bed rest}. Climbing into or out of the hammock is a full-round action. A successful DC 5 Dexterity check reduces this to a move action.",
 			"",
 			"The captain of the Man's Promise was particularly susceptible to seasickness, and commissioned this item to make his long voyages away from home more comfortable. Although he would never admit it to those under his command, Mr. Plugg was pleasantly surprised to find the hospitality's hammock in his cabin when he took command of the Man's Promise, and has slept in it every night since.",
 			"",

@@ -157,7 +157,7 @@
 			"{SOURCE PRPG Core Rulebook/557}  ",
 			"**Type** curse; **Save** Fortitude DC 16  ",
 			"**Onset** 1 minute  ",
-			"**Effect** 1d6 Con damage and 1d6 Cha damage  ",
+			"**Effect** 1d6 {rule/Con damage} and 1d6 Cha damage  ",
 			"**Frequency** 1/day  ",
 			"**Cure** mummy rot can only be cured by successfully casting both {spell/remove curse} and {spell/remove disease} within 1 minute of each other."
 		]
@@ -245,7 +245,7 @@
 			"",
 			"{SOURCE Horror Adventures/140}  ",
 			"**Type** curse; **Save** Will DC 15  ",
-			"**Effect** The target is haunted by horrible phantasmal visions that distract him at critical moments. He takes a -4 penalty on {rule/concentration} checks and on saving throws against effects that would impose any of the following conditions on him: confused, dazed, nauseated, shaken, sickened, or stunned. Once per day, when alone or confronted by something novel and strange, he must succeed at a Will save or take 1d3 points of Wisdom damage (or 1d6 points of sanity damage if using the {rule/sanity/ system}).  ",
+			"**Effect** The target is haunted by horrible phantasmal visions that distract him at critical moments. He takes a -4 penalty on {rule/concentration} checks and on saving throws against effects that would impose any of the following conditions on him: confused, dazed, nauseated, shaken, sickened, or stunned. Once per day, when alone or confronted by something novel and strange, he must succeed at a Will save or take 1d3 points of {rule/Wisdom damage} (or 1d6 points of sanity damage if using the {rule/sanity/ system}).  ",
 			"**Cure** The tormenting visions curse can be removed only by {spell/remove curse} followed by {spell/banishment}, each cast within 1 minute of each another."
 		]
 	},

@@ -1590,7 +1590,7 @@
 		"category": "Advanced Primary Sneak Attack Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
-			"A rogue with this ability can sneak attack opponents with such precision that her blows weaken and hamper them. An opponent damaged by one of her sneak attacks also takes 2 points of Strength damage."
+			"A rogue with this ability can sneak attack opponents with such precision that her blows weaken and hamper them. An opponent damaged by one of her sneak attacks also takes 2 points of {rule/Strength damage}."
 		],
 		"addenda": [ "sneakattack" ]
 	},
@@ -1680,7 +1680,7 @@
 		"category": "Advanced Primary Sneak Attack Talents",
 		"topLink": [ "Advanced Rogue Talents", "ability/advanced_rogue_talents" ],
 		"description": [
-			"Whenever the rogue damages a creature with one of her sneak attacks, she also deals 2 points of Dexterity damage to that creature as its body petrifies."
+			"Whenever the rogue damages a creature with one of her sneak attacks, she also deals 2 points of {rule/Dexterity damage} to that creature as its body petrifies."
 		],
 		"addenda": [ "sneakattack" ]
 	},

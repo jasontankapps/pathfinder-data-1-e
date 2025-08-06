@@ -37,7 +37,7 @@
 		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
 		"description": [
-			"**Effect:** This trap strikes the target with a small shard of {eq-material/blightburn}, dealing 2d6 points of fire damage, 1d3 points of Constitution damage, and 1d3 points of Charisma damage. A successful Fortitude save negates the ability damage and halves the fire damage. The ranger must supply a sliver of blightburn, a dangerous task in itself, though storing the blightburn in a lead vial makes the task less risky."
+			"**Effect:** This trap strikes the target with a small shard of {eq-material/blightburn}, dealing 2d6 points of fire damage, 1d3 points of {rule/Constitution damage}, and 1d3 points of Charisma damage. A successful Fortitude save negates the ability damage and halves the fire damage. The ranger must supply a sliver of blightburn, a dangerous task in itself, though storing the blightburn in a lead vial makes the task less risky."
 		]
 	},
 	"blighted_mark_trap": {
@@ -143,7 +143,7 @@
 		"nameSuffix": "(Ex or Su)",
 		"compilationSources": [ [ "People of the Wastes" ] ],
 		"description": [
-			"**Effect:** A ranger can add this only to a {rangertrap/snare trap}. The snare is made of diseased materials, which contain an aggressive blight that saps the energy and bodily health from the target creature. When initially caught in the snare, the trapped creature must succeed at a Fortitude saving throw or immediately take 2 points of Constitution damage. Each subsequent hour, the creature must succeed at a Fortitude saving throw or take 2 points of Constitution damage. This effect lasts for 12 hours or until the creature makes two successful saving throws in a row, whichever comes first. This is a poison effect."
+			"**Effect:** A ranger can add this only to a {rangertrap/snare trap}. The snare is made of diseased materials, which contain an aggressive blight that saps the energy and bodily health from the target creature. When initially caught in the snare, the trapped creature must succeed at a Fortitude saving throw or immediately take 2 points of {rule/Constitution damage}. Each subsequent hour, the creature must succeed at a Fortitude saving throw or take 2 points of Constitution damage. This effect lasts for 12 hours or until the creature makes two successful saving throws in a row, whichever comes first. This is a poison effect."
 		]
 	},
 	"lazurite_trap": {
@@ -201,7 +201,7 @@
 		"nameSuffix": "(Ex or Su)",
 		"compilationSources": [ [ "Ultimate Magic" ] ],
 		"description": [
-			"**Effect:** The trap poisons the creature that triggers it. If it is a supernatural trap, the poison deals 1d2 Con damage per round for 6 rounds. If it is an extraordinary trap, the ranger must provide 1 dose of contact, inhaled, or injury poison when setting the trap, and the trap uses that poison's effects and DC."
+			"**Effect:** The trap poisons the creature that triggers it. If it is a supernatural trap, the poison deals 1d2 {rule/Con damage} per round for 6 rounds. If it is an extraordinary trap, the ranger must provide 1 dose of contact, inhaled, or injury poison when setting the trap, and the trap uses that poison's effects and DC."
 		]
 	},
 	"quicksand_trap": {

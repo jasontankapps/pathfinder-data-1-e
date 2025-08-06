@@ -1011,7 +1011,7 @@
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Slot** none; **Price** +4,500 gp; **Weight** -",
 			"",
-			"A suit of restful armor permits the wearer to reduce the amount of uninterrupted sleep or rest she needs from 8 hours to 2 hours, and the wearer does not become {misc/fatigued} by sleeping in this armor. She recovers hit points and ability damage and endures diseases, poisons, or other afflictions as if she had slept through the night in a comfortable bed, awakening refreshed. Additional rest time in this armor does not confer extra healing (as would be gained with complete bed rest), nor can the wearer benefit from the armor's effect more than once per day.",
+			"A suit of restful armor permits the wearer to reduce the amount of uninterrupted sleep or rest she needs from 8 hours to 2 hours, and the wearer does not become {misc/fatigued} by sleeping in this armor. She {rule/recover[s] hit points} and ability damage and endures diseases, poisons, or other afflictions as if she had slept through the night in a comfortable bed, awakening refreshed. Additional rest time in this armor does not confer extra healing (as would be gained with complete bed rest), nor can the wearer benefit from the armor's effect more than once per day.",
 			"",
 			"### Construction",
 			"",

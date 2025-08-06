@@ -872,7 +872,7 @@
 			"",
 			"In addition, a pack mule can move at his normal speed while carrying a medium load. At 7th level, a pack mule can move at his normal speed while carrying a heavy load. This ability replaces armor training 1 through 4.",
 			"",
-			"**Healthy as a Mule (Ex):** At 19th level, whenever the pack mule takes Constitution, Dexterity, or Strength damage, he reduces the amount of ability damage taken by 2, to a minimum of 0. This ability replaces armor mastery."
+			"**Healthy as a Mule (Ex):** At 19th level, whenever the pack mule takes {rule/Constitution, Dexterity, or |Strength damage}, he reduces the amount of ability damage taken by 2, to a minimum of 0. This ability replaces armor mastery."
 		]
 	},
 	"phalanx_soldier": {

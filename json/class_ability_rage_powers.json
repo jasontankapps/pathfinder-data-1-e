@@ -116,7 +116,7 @@
 		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Demon Hunter's Handbook" ] ],
 		"description": [
-			"While raging, the barbarian may attempt to punch through an opponent's flesh and rip out one of its vital organs. In order to do so, the barbarian must confirm a critical hit against an opponent with a natural attack or unarmed strike. The barbarian deals damage as normal for a critical hit and the opponent must succeed at a Fortitude save (DC = 10 + 1/2 the barbarian's class level + the barbarian's Strength modifier) or take 1d4 points of Constitution damage as one of its vital organs is ripped free from its body. This power can only be used once per rage. A barbarian must be at least 12th level to select this rage power."
+			"While raging, the barbarian may attempt to punch through an opponent's flesh and rip out one of its vital organs. In order to do so, the barbarian must confirm a critical hit against an opponent with a natural attack or unarmed strike. The barbarian deals damage as normal for a critical hit and the opponent must succeed at a Fortitude save (DC = 10 + 1/2 the barbarian's class level + the barbarian's Strength modifier) or take 1d4 points of {rule/Constitution damage} as one of its vital organs is ripped free from its body. This power can only be used once per rage. A barbarian must be at least 12th level to select this rage power."
 		]
 	},
 	"feast_of_blood": {
@@ -210,7 +210,7 @@
 		"name": "Disemboweling Tusks",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
 		"description": [
-			"While raging, when you confirm a critical hit with your gore attack, you deal 1d4 points of Constitution damage in addition to the normal damage for the gore attack. You must be at least 10th level to select this rage power."
+			"While raging, when you confirm a critical hit with your gore attack, you deal 1d4 points of {rule/Constitution damage} in addition to the normal damage for the gore attack. You must be at least 10th level to select this rage power."
 		]
 	},
 	"dissipating_rage": {
@@ -507,7 +507,7 @@
 		"description": [
 			"Once per hour, the barbarian can spit venom at an adjacent enemy as a standard action. She must make a touch attack to successfully spit on a foe in this way, but she can also apply this poison as a swift action when she hits with a bite attack. The DC of the save against this poison is equal to 10 + half the barbarian's level + the barbarian's Constitution modifier.",
 			"",
-			">**Hissing Rage Poison (Su)** Bite-contact or injury; *save* Fort; *frequency* 1/round for 6 rounds; *effect* 1d2 Str damage; *cure* 2 consecutive saves."
+			">**Hissing Rage Poison (Su)** Bite-contact or injury; *save* Fort; *frequency* 1/round for 6 rounds; *effect* 1d2 {rule/Str damage}; *cure* 2 consecutive saves."
 		]
 	},
 	"lesser_hurling": {
@@ -627,7 +627,7 @@
 		"description": [
 			"The character channels the power of a {monster/cairn linnorm}. The character's melee attacks deal an additional 1 point of negative energy damage. If the character is knocked unconscious or killed by an attack or spell, the attacker suffers the *curse of decay* (Will negates). A character must be at least 8th level to select this rage power.",
 			"",
-			">**Curse of Decay:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target takes 1 point of Con damage per day and ages at a rate of 1 year per day (eventually incurring all of the penalties of old age but none of the bonuses)."
+			">**Curse of Decay:** *save* Will DC 10 + 1/2 character's level + character's Charisma bonus; *effect* target takes 1 point of {rule/Con damage} per day and {rule/age/s} at a rate of 1 year per day (eventually incurring all of the penalties of old age but none of the bonuses)."
 		]
 	},
 	"linnorm_death_curse_cairn": { "redirect": "cairn_linnorm_death_curse" },
@@ -1791,7 +1791,7 @@
 		"level": 2,
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"description": [
-			"While raging, the barbarian increases her bite damage die type with the {ragepower/animal fury} rage power [by one die type](umr/natural_attacks) and decreases the penalty on attack rolls with that bite to -2. Once per rage, a bite that hits can deliver an injury toxin that has a frequency of once per round for 4 rounds, deals 1d3 points of Constitution damage, and has a cure of one save. The saving throw has a Fortitude save DC of 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier. A barbarian must have the {ragepower/hive totem} and {ragepower/hive totem resilience} rage powers and be at least 8th level before selecting this rage power."
+			"While raging, the barbarian increases her bite damage die type with the {ragepower/animal fury} rage power [by one die type](umr/natural_attacks) and decreases the penalty on attack rolls with that bite to -2. Once per rage, a bite that hits can deliver an injury toxin that has a frequency of once per round for 4 rounds, deals 1d3 points of {rule/Constitution damage}, and has a cure of one save. The saving throw has a Fortitude save DC of 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier. A barbarian must have the {ragepower/hive totem} and {ragepower/hive totem resilience} rage powers and be at least 8th level before selecting this rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},

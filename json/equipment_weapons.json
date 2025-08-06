@@ -3363,6 +3363,7 @@
 		],
 		"topLink": [ "Light Weapons", "main/equipment_weapons_light" ]
 	},
+	"hand_axe": { "redirect": "handaxe" },
 	"iron_brush": {
 		"name": "Iron brush",
 		"sources": [

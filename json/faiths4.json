@@ -1019,7 +1019,7 @@
 			">{SOURCE Chronicle of the Righteous/14}",
 			">",
 			">1. **Bountiful Spirit (Sp)** {spell/goodberry} 3/day, {spell/tree shape} 2/day, or {spell/plant growth} 1/day",
-			">2. **Touch of Wine (Su)** Once per day, you can make a touch attack to cause a creature to become intoxicated. If your attack is successful, the target takes 1d6 points of Dexterity, Wisdom, and Charisma damage. The damage is halved with a successful Fortitude save (DC 10 + 1/2 your HD + your Wis modifier).",
+			">2. **Touch of Wine (Su)** Once per day, you can make a touch attack to cause a creature to become intoxicated. If your attack is successful, the target takes 1d6 points of {rule/Dexterity, Wisdom, and |Charisma damage}. The damage is halved with a successful Fortitude save (DC 10 + 1/2 your HD + your Wis modifier).",
 			">3. **Divine Gardener (Sp)** You can cast {spell/control plants} three times per day. This ability is the equivalent of an 8th-level spell.",
 			"",
 			"::h2[Follower Options]{jl}",

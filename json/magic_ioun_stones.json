@@ -1563,7 +1563,7 @@
 			"### Flawed Ioun Stone",
 			"",
 			"**Price** 16,000 gp  ",
-			"This stone functions as a normal silver spindle ioun stone, but it deals 1d3 Charisma {rule/ab_<damage} to you each time you use the spell-like ability.",
+			"This stone functions as a normal silver spindle ioun stone, but it deals 1d3 {rule/Charisma damage} to you each time you use the spell-like ability.",
 			"",
 			"### Cracked Ioun Stone",
 			"",

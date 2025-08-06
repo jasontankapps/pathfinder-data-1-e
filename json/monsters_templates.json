@@ -2394,7 +2394,7 @@
 			"",
 			"**Fungal Metabolism (Ex):** Fungal creatures breathe, but they do not eat or sleep in the typical manner.",
 			"",
-			"**Rejuvenation (Ex):** A fungal creature gains all the sustenance it requires from contact with moist natural earth, but it must rejuvenate itself as often and for as long as humans need sleep. As long as it is in contact with moist natural earth, a resting fungal creature regains hit points as though it were undergoing complete bed rest and long term care (4 hit points per Hit Die for each day of rest). The fungal creature can engage in light activity during rejuvenation, but any strenuous activity (like fighting, running, or casting a spell) prevents it from regaining hit points for that day. Complete bed rest doesn't increase the amount of healing a fungal creature gains from rejuvenation.",
+			"**Rejuvenation (Ex):** A fungal creature gains all the sustenance it requires from contact with moist natural earth, but it must rejuvenate itself as often and for as long as humans need sleep. As long as it is in contact with moist natural earth, a resting fungal creature regains hit points as though it were undergoing complete {rule/bed rest} and long term care (4 hit points per Hit Die for each day of rest). The fungal creature can engage in light activity during rejuvenation, but any strenuous activity (like fighting, running, or casting a spell) prevents it from regaining hit points for that day. Complete bed rest doesn't increase the amount of healing a fungal creature gains from rejuvenation.",
 			"",
 			"**Abilities:** Str +4, Dex -2 (minimum 1), Con +4.  ",
 			"**Languages:** If a fungal creature is able to speak, it gains the ability to speak Sylvan in addition to any other languages the base creature knows."
@@ -2452,7 +2452,7 @@
 			"",
 			"**Special Attacks:** A ghost retains all the special attacks of the base creature, but any relying on physical contact do not function. In addition, a ghost gains one ghost special attack from the list below for every 3 points of CR (minimum 1 - the first ability chosen must always be corrupting touch). The save DC against a ghost's special attack is equal to 10 + 1/2 ghost's HD + ghost's Charisma modifier unless otherwise noted. Additional ghost abilities beyond these can be designed at the GM's discretion.",
 			"",
-			">**Corrupting Gaze (Su):** The ghost is disfigured through age or violence, and has a {umr/gaze} attack with a range of 30 feet that causes 2d10 damage and 1d4 Charisma {rule/ab_<damage} (Fortitude save negates Charisma damage but not physical damage).",
+			">**Corrupting Gaze (Su):** The ghost is disfigured through age or violence, and has a {umr/gaze} attack with a range of 30 feet that causes 2d10 damage and 1d4 {rule/Charisma damage} (Fortitude save negates Charisma damage but not physical damage).",
 			">",
 			">**Corrupting Touch (Su):** All ghosts gain this incorporeal touch attack. By passing part of its incorporeal body through a foe's body as a standard action, the ghost inflicts a number of d6s equal to its CR in damage. This damage is not negative energy - it manifests in the form of physical wounds and aches from supernatural aging. Creatures immune to magical aging are immune to this damage, but otherwise the damage bypasses all forms of damage reduction. A Fortitude save halves the damage inflicted.",
 			">",

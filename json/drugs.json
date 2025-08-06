@@ -18,7 +18,7 @@
 			"**Price** 5 gp  ",
 			"**Effect** 8 hours; user ignores the effects of the {misc/fatigued} condition  ",
 			"**Effect** after 8 hours; the user becomes {misc/exhausted}, and he becomes fatigued only after 8 hours of rest (instead of 1)  ",
-			"**Damage** 1 Wis damage",
+			"**Damage** 1 {rule/Wis damage}",
 			"",
 			"This particularly strong coffee is popular throughout the Padishah Empire of Kelesh, though it also has aficionados in Absalom, Oppara, and beyond. A morning cup is a good cure for lack of rest, but many find that it becomes a habit."
 		]
@@ -33,7 +33,7 @@
 			"**Type** inhaled or ingested; **Addiction** minor, Fortitude DC 12  ",
 			"**Price** 10 gp  ",
 			"**Effect** 1 hour; +2 alchemical bonus on saves against mind-affecting effects, {misc/fatigue}  ",
-			"**Damage** 1 Wis damage"
+			"**Damage** 1 {rule/Wis damage}"
 		]
 	},
 	"magesight": {
@@ -47,7 +47,7 @@
 			"**Price** 15 gp  ",
 			"**Effect** 1d4&times;10 minutes; the user gains the benefits of a constant {spell/detect magic} effect, but she treats illumination in the area as {rule/dim light}; areas of dim light and darkness are treated as darkness  ",
 			"**Effect** 1 hour; the user gains the {misc/dazzled} condition  ",
-			"**Damage** 1d2 Wis damage",
+			"**Damage** 1d2 {rule/Wis damage}",
 			"",
 			"Dilettantes pursue the visions from magesight simply for the wonder of the experience, while back-alley shopkeeps in Absalom, Katapesh, Katheer, and other major trade cities rely on it to provide a valuable ability they have no other way to obtain."
 		]
@@ -62,7 +62,7 @@
 			"**Type** ingested; **Addiction** minor, Fortitude DC 14  ",
 			"**Price** 15 gp  ",
 			"**Effect** 3 hours; +1d6 alchemical bonus on a single Knowledge (any one), Perception, or Sense Motive check once per minute for the duration of the effect Onset 30 minutes  ",
-			"**Damage** 1d4 Cha damage",
+			"**Damage** 1d4 {rule/Cha damage}",
 			"",
 			"These small mushrooms, grown in dark forests, have red caps dotted with white spots. Able to induce strong hallucinogenic states, they have long been used by shamans and other spiritual leaders to enter trances to seek flashes of insight."
 		]
@@ -78,7 +78,7 @@
 			"**Price** 15 gp  ",
 			"**Effect** 1 hour; +1d2 alchemical bonus to Strength, -2 penalty on saves against illusions and mind-affecting effects  ",
 			"**Effect** after 1 hour; 1d2 hours of {misc/fatigue}  ",
-			"**Damage** 1d2 Con and 1d2 Wis damage"
+			"**Damage** 1d2 Con and 1d2 {rule/Wis damage}"
 		]
 	},
 	"vigilance": {
@@ -92,7 +92,7 @@
 			"**Price** 15 gp  ",
 			"**Effect** 1d3 hours; +10 alchemical bonus on Perception checks  ",
 			"**Effect** 4 hours; user is denied his Dexterity bonus to AC  ",
-			"**Damage** 1d4 Con damage",
+			"**Damage** 1d4 {rule/Con damage}",
 			"",
 			"Scholars and students are often willing to accept the clumsiness and slow reactions in exchange for the benefits gained in research and study from this bitter white powder."
 		]
@@ -108,7 +108,7 @@
 			"**Price** 20 gp  ",
 			"**Effect** 1 hour; +1 caster level  ",
 			"**Effect** 1d4 hours; user must make a caster check to cast spells, DC 15 + spell level  ",
-			"**Damage** 1d2 Con damage"
+			"**Damage** 1d2 {rule/Con damage}"
 		]
 	},
 	"gossamer_veil": {
@@ -122,7 +122,7 @@
 			"**Price** 20 gp  ",
 			"**Effect** 1 day; +4 alchemical bonus on saving throws against disease effects  ",
 			"**Effect** after 1 day; -4 penalty on saving throws against disease effects for 7 days  ",
-			"**Damage** 1d4 Wis damage",
+			"**Damage** 1d4 {rule/Wis damage}",
 			"",
 			"Cultists of {faith/Ghlaunder} and similar manipulators wander the streets of impoverished neighborhoods, administering this \"vaccine\" to prevent diseases common in squalid conditions, often with an admonition that it remains effective only as long as the recipient maintains faith in the priest's deity."
 		]
@@ -137,7 +137,7 @@
 			"**Type** ingested; **Addiction** minor, Fortitude DC 13  ",
 			"**Price** 20 gp  ",
 			"**Effect** 3 hours; -3 on Will saves, +3 on Perception checks  ",
-			"**Damage** 1d2 Str damage",
+			"**Damage** 1d2 {rule/Str damage}",
 			"",
 			"Dropped into the eyes, this clear liquid awakens the senses but makes the user mentally pliant and open to suggestion. This drug is often used during interrogations or by slavers who seek to force compliance via enchantment effects or similar methods of mind-control."
 		]
@@ -152,7 +152,7 @@
 			"**Type** ingested; **Addiction** minor, Fortitude DC 14  ",
 			"**Price** 25 gp  ",
 			"**Effect** 2 hours; +2 on Knowledge (arcana, planes, or religion) and Spellcraft checks, victim is distracted for the purposes of {skill/Perception} checks  ",
-			"**Damage** 1d2 Wis damage",
+			"**Damage** 1d2 {rule/Wis damage}",
 			"",
 			"Refined from the thorns of {monster/bloodbrush}, this extract numbs the senses and evokes vivid hallucinations, heightened awareness, and altered thought processes. Although repeated doses can be toxic, bloodbrush extract is not widely used as a poison but rather as a recreational drug."
 		]
@@ -167,7 +167,7 @@
 			"**Type** inhaled, ingested, or injury; **Addiction** major, Fortitude DC 20  ",
 			"**Price** 25 gp  ",
 			"**Effect** 1 hour; +1d8 temporary hit points, +2 alchemical bonus on Fortitude saves, {misc/fatigue}  ",
-			"**Damage** 1d4 Con and 1d4 Wis damage"
+			"**Damage** 1d4 Con and 1d4 {rule/Wis damage}"
 		]
 	},
 	"tears_of_razmir": {
@@ -180,7 +180,7 @@
 			"**Type** ingested; **Addiction** major, Fortitude DC 18  ",
 			"**Price** 25 gp  ",
 			"**Effects** 1 hour; +1 alchemical bonus to Constitution, -2 penalty on Wisdom-based skill checks  ",
-			"**Damage** 1d2 Con damage",
+			"**Damage** 1d2 {rule/Con damage}",
 			"",
 			"Razmir's faithful utilize a number of tools to help them control the populace, but few are more insidious than the tears of Razmir. This alchemical concoction contains mild narcotics and hallucinogens that bolster the user's energy and resistance to pain. It is also highly addictive. Although the clergy gives away tears of Razmir to non-users, it eventually demands payment - as much as 10 gp per dose from wealthy addicts."
 		]
@@ -195,7 +195,7 @@
 			"**Type** ingested or inhaled; **Addiction** major, Fortitude DC 24  ",
 			"**Price** 45 gp  ",
 			"**Effect** 3 hours; +1d4 alchemical bonus to Dexterity, -1d4 penalty to Wisdom  ",
-			"**Damage** 1d6 Con damage"
+			"**Damage** 1d6 {rule/Con damage}"
 		]
 	},
 	"stings_savor": {
@@ -209,7 +209,7 @@
 			"**Price** 45 gp  ",
 			"**Effect** user immediately heals 1d8+2 points of nonlethal damage  ",
 			"**Effect** 1d4 hours; an opponent who attempts a Bluff check to fool the user or a Diplomacy check to change the user's attitude can roll twice and take the better result  ",
-			"**Damage** 1d2 Wis damage",
+			"**Damage** 1d2 {rule/Wis damage}",
 			"",
 			"The \"sting\" administered to willing recipients at some {faith/Calistria/n} temples helps nervous visitors relax. Black-market alchemists have reverse-engineered the drug to meet demand from less savory individuals who appreciate the pliability it elicits in users."
 		]
@@ -225,7 +225,7 @@
 			"**Price** 50 gp  ",
 			"**Effect** 1d4 rounds; {spell/rage} as per the spell  ",
 			"**Effect** 1 hour; cold resistance 5  ",
-			"**Damage** 1d2 Con damage"
+			"**Damage** 1d2 {rule/Con damage}"
 		]
 	},
 	"serpents_kiss": {
@@ -239,7 +239,7 @@
 			"**Price** 50 gp  ",
 			"**Effect** 1 hour; +2 alchemical bonus on Bluff, Diplomacy, and Intimidate checks  ",
 			"**Effect** after 1 hour; the user gains the {misc/fatigued} condition for 1d4 hours  ",
-			"**Damage** 1d4 Dex damage",
+			"**Damage** 1d4 {rule/Dex damage}",
 			"",
 			"Relied upon by politicians and shy noble scions, this emerald syrup boosts the user's confidence, allowing her to navigate social situations with aplomb, though the tremor it imparts to her hands can cause an unseemly clatter of cutlery or stemware."
 		]
@@ -254,7 +254,7 @@
 			"**Type** injury; **Addiction** minor, Fortitude DC 18  ",
 			"**Price** 50 gp  ",
 			"**Effect** 1 hour; +1 alchemical bonus to initiative. If addicted, the user also gains a +1d4 alchemical bonus to Strength for as long as he is addicted  ",
-			"**Damage** 1d2 Con damage"
+			"**Damage** 1d2 {rule/Con damage}"
 		]
 	},
 	"ruk_tar": {
@@ -268,7 +268,7 @@
 			"**Price** 55 gp  ",
 			"**Effect** 1 hour; +2 alchemical bonus to Strength and immunity to pain effects  ",
 			"**Effect** after 1 hour; the user gains the {misc/exhausted} condition  ",
-			"**Damage** 1d4 Int damage",
+			"**Damage** 1d4 {rule/Int damage}",
 			"",
 			"Common among desperate adventurers, gladiatorial combatants, and orc tribes, ruk tar is often applied after the first blood of a fight is spilled, using the wound as an opportunity to enhance the user's abilities to ensure victory."
 		]
@@ -282,8 +282,8 @@
 			"{SOURCE Rival Guide/53}  ",
 			"**Type** ingested; **Addiction** moderate, Fortitude DC 18  ",
 			"**Price** 60 gp  ",
-			"**Effect** 1 hour; +1d4 Cha and +1 Dex  ",
-			"**Damage** 1d2 Int damage",
+			"**Effect** 1 hour; +1d4 Cha and +1 Dex damage  ",
+			"**Damage** 1d2 {rule/Int damage}",
 			"",
 			"These amber-colored lozenges instill within the user a slightly increased agility and enhance both physical beauty and speech. So named for the fact that prostitutes often abuse the drug, harlot sweets are gaining popularity among certain circles in the aristocracy as well."
 		]
@@ -299,7 +299,7 @@
 			"**Price** 75 gp  ",
 			"**Effect** 4 hours; +1d4 alchemical bonus on Knowledge, Linguistics, and Spellcraft checks  ",
 			"**Effect** after 4 hours; for 24 hours, the user takes a -4 penalty on {skill/Sense Motive} checks and assumes everything heard is a lie, but she can attempt a DC 20 Sense Motive check to determine if someone is telling the truth  ",
-			"**Damage** 1d4 Wis damage",
+			"**Damage** 1d4 {rule/Wis damage}",
 			"",
 			"The mind-opening properties of this translucent dust enable the user to process information and draw connections rapidly, though the accompanying paranoia can make it difficult to act effectively on the knowledge thus gleaned."
 		]
@@ -314,7 +314,7 @@
 			"**Type** ingested; **Addiction** major, Fortitude DC 20  ",
 			"**Price** 100 gp  ",
 			"**Effect** 1 day; +10 alchemical bonus on Disguise checks to appear as an efreeti, -1 penalty on all saves  ",
-			"**Damage** 1d2 Wis damage",
+			"**Damage** 1d2 {rule/Wis damage}",
 			"",
 			"This elixir turns its imbiber fiery red, making it easier to pass as an {monster/efreeti}. Unscrupulous efreet can sell {eq-misc/fireskin elixir} to guests who have been barred from citizen-only districts and must rely on disguises. Fireskin is highly addictive. Many once-savvy merchants have fallen into destitution as they scrambled to maintain efreet favor and secure a steady supply of the drug."
 		]
@@ -358,7 +358,7 @@
 			"{SOURCE Rival Guide/53}  ",
 			"**Type** ingested; **Addiction** moderate, Fortitude DC 20  ",
 			"**Price** 150 gp  ",
-			"**Effect** 30 minutes; +1d4 Str and +1d3 Dex, then slowed (as per the spell {spell/slow}) for 3 hours  ",
+			"**Effect** 30 minutes; +1d4 Str and +1d3 {rule/Dex damage}, then slowed (as per the spell {spell/slow}) for 3 hours  ",
 			"**Damage** 1d4 Con",
 			"",
 			"Blood sap is distilled from the crimson sap exuded by a pale green vine native to swamplands in the Mwangi Expanse. Users of this deep red syrup justify the negative effects of the drug with their increased agility and strength. Blood sap addicts often display vividly red lips and teeth."
@@ -374,7 +374,7 @@
 			"**Type** ingested or injury; **Addiction** moderate, Fortitude DC 14  ",
 			"**Price** 150 gp  ",
 			"**Effects** 1 hour; +2 alchemical bonus on saving throws against spells and effects with the curse or disease descriptor, fatigue  ",
-			"**Damage** 1d2 Wis damage",
+			"**Damage** 1d2 {rule/Wis damage}",
 			"",
 			"A laboratory-created version of the expensive and infamous Osirian drug {drug/mumia}, {eq-misc/synthetic mumia} is a mixture of honey, embalming fluids, and various animal organs. The murky liquid comes enclosed in small packets made of intestine. Mumia and synthetic mumia may be taken interchangeably to stave off the effects of addiction to either substance, and is thus used by some mumia junkies hoping to quit their addiction."
 		]
@@ -389,7 +389,7 @@
 			"**Type** ingested; **Addiction** moderate, Fortitude DC 20  ",
 			"**Price** 200 gp  ",
 			"**Effect** 1d6 hours; the user gains sonic resistance 5, but must roll twice and take the worse result for Perception checks based on sound and increases her arcane spell failure chance by 5%  ",
-			"**Damage** 1d4 Wis damage",
+			"**Damage** 1d4 {rule/Wis damage}",
 			"",
 			"This slate-gray powder is often mixed into alcohol and consumed by those working in the noisy testing ranges at Alkenstar's Gunworks. Its similarity in appearance to gunpowder has led to more than a few fatal mishaps."
 		]
@@ -404,7 +404,7 @@
 			"**Type** ingested or inhaled; **Addiction** severe, Fortitude DC 15  ",
 			"**Price** 300 gp  ",
 			"**Effect** 1 hour; gains darkvision with a range of 60 feet, the ability to see invisible creatures (as {spell/see invisibility}), and vulnerability to sonic damage  ",
-			"**Damage** 1d2 Constitution damage and 1 Wisdom drain",
+			"**Damage** 1d2 {rule/Constitution damage} and 1 Wisdom drain",
 			"",
 			"A resilient, iridescent mold that blooms with a peridot-colored encrustation before releasing invisible spores, starspore grows on {eq-material/adamantine} and other {eq-material/skymetal/s} as well as their alloys. It requires trace toxins found in the rains and water of Numeria to grow. Ingesting or inhaling starspore opens the mind, enhances the senses, and bestows a feeling of invulnerability upon the user, but these sensations come at a price."
 		]
@@ -418,8 +418,8 @@
 			"{SOURCE GameMastery Guide/237}  ",
 			"**Type** ingested; **Addiction** moderate, Fortitude DC 16  ",
 			"**Price** 500 gp  ",
-			"**Effect** 1 hour; +1d4 Cha  ",
-			"**Damage** 1d4 Con damage"
+			"**Effect** 1 hour; +1d4 Cha damage  ",
+			"**Damage** 1d4 {rule/Con damage}"
 		]
 	},
 	"mumia": {
@@ -432,7 +432,7 @@
 			"**Type** inhaled, ingested, or injury; **Addiction** major, Fortitude DC 18  ",
 			"**Price** 500 gp  ",
 			"**Effect** 1 hour; +1d8 temporary hit points, +2 alchemical bonus on saving throws made against spells and effects with the curse or disease descriptor, {misc/fatigue}. If the user is addicted for more than a week straight, she has a cumulative +5% chance of transforming into a {monster/ghoul} every week she remains addicted.  ",
-			"**Damage** 1d2 Wis damage",
+			"**Damage** 1d2 {rule/Wis damage}",
 			"",
 			"Perhaps the strangest of the valuables removed from the dusty tombs of Osirion is the flesh of the dead itself. During the years of satrapy-dominated Osirion and later under the rule of Keleshite sultans, a highly prized royal physician of Osirian descent by the name of Merenfren used a previously unknown black, tar-like substance as an ingredient in numerous salves, potions, and pills she concocted to treat ailments and revitalize her wealthy clientele.",
 			"",
@@ -452,9 +452,9 @@
 			"{SOURCE Numeria, Land of Fallen Stars/28}  ",
 			"**Type** ingested; **Addiction** minor, Fortitude DC 20  ",
 			"**Price** 500 gp  ",
-			"**Effect** 1d4 hours; +1d4 Wis, roll on the *Numerian Fluids Side Effects* table  ",
+			"**Effect** 1d4 hours; +1d4 {rule/Wis damage}, roll on the *Numerian Fluids Side Effects* table  ",
 			"**Effect** after the initial 1d4 hours; -5 penalty to Perception and Sense Motive checks, -2 penalty on saving throws against mind-affecting effects for 2d4 hours  ",
-			"**Damage** 1d2 Con",
+			"**Damage** 1d2 {rule/Con damage}",
 			"",
 			"Over the centuries, strange fluids have seeped from the wreckage of Silver Mount and other crash sites. Engine fluid, coolant, hydraulic fluids, and stranger substances have mixed together, the chemicals further transformed by the strange radiations of the ship's drives. Fluids can be found in pools or springs, or collected as they drip from larger pieces of wreckage. Odd behavior in animal life or an abundance of mutations can indicate a nearby source of alien fluids. While many such fluids are no more magical or marvelous than crude oil - and often highly poisonous to humanoids - others have strange and sometimes desirable effects on biological life.",
 			"",
@@ -479,7 +479,7 @@
 			"| 05-07 | The drinker ages 2d10 years. |",
 			"| 08-10 | The drinker takes 2d6 points of damage to all ability scores (roll once for damage, apply it to each). If any score reaches 0, death results. If the imbiber survives, roll again for an additional side effect, rerolling a result of 15 or lower. |",
 			"| 11-15 | The drinker takes 2d4 points of drain to a random ability score. |",
-			"| 16-20 | The drinker takes 1d4 points of Intelligence damage and loses the ability to speak or write (but not to listen and read) for 1d4 days. Moderate addiction. |",
+			"| 16-20 | The drinker takes 1d4 points of {rule/Intelligence damage} and loses the ability to speak or write (but not to listen and read) for 1d4 days. Moderate addiction. |",
 			"| 21-30 | The drinker contracts a random form of [insanity](rule/madness) for 1d4 days. |",
 			"| 31-35 | The fluids impart 1d4 negative levels to the drinker (Fortitude DC 20 to remove). |",
 			"| 36-40 | The drinker is rendered {misc/unconscious} until the effects of the dose wear off. Mild addiction. |",
@@ -525,7 +525,7 @@
 			"**Type** injury or ingested; **Addiction** major, Fortitude DC 18  ",
 			"**Price** 500 gp  ",
 			"**Effect** variable; 50% chance to sleep for 1d4 hours or gain immunity to fear for 1d4 minutes  ",
-			"**Damage** 1d2 Con damage"
+			"**Damage** 1d2 {rule/Con damage}"
 		]
 	},
 	"wyrm_pesh": {
@@ -554,7 +554,7 @@
 			"**Type** inhaled; **Addiction** major, Fortitude DC 24  ",
 			"**Price** 600 gp  ",
 			"**Effect** 24 hours; the user gains the benefits of the {feat/Psychic Sensitivity} feat but takes a -4 penalty on Will saves and automatically fails Will saves against possession attempts  ",
-			"**Damage** 1d4 Con damage and 1d4 Wis damage",
+			"**Damage** 1d4 {rule/Con damage} and 1d4 Wis damage",
 			"",
 			"Legends tell of esoterum dens in Tian Xia and Vudra where dream chasers open their minds to the spirit world, gaining deep insights and abilities beyond mortal ken. Such tales usually continue to describe the destructive rampages that follow when malevolent spirits take advantage of an opened mind and possess the unfortunate individual."
 		]
@@ -568,7 +568,7 @@
 			"{SOURCE Potions and Poisons/27}  ",
 			"**Type** injury; **Addiction** major, Fortitude DC 18  ",
 			"**Price** 1,500 gp  ",
-			"**Effect** 12 hours; the user gains the ability to activate scrolls as if she had succeeded at a {skill/Use Magic Device} check to activate a given scroll. Each time the user activates a scroll this way, she takes 1d4 points of Charisma damage and an amount of nonlethal damage equal to the scroll's caster level. Charisma damage taken this way is counted as ability damage caused by the drug for the purpose of calculating the DC of saving throws to resist addiction to the drug. Neither the Charisma damage nor the nonlethal damage can be healed until the user takes a full 8 hours of rest.  ",
+			"**Effect** 12 hours; the user gains the ability to activate scrolls as if she had succeeded at a {skill/Use Magic Device} check to activate a given scroll. Each time the user activates a scroll this way, she takes 1d4 points of {rule/Charisma damage} and an amount of nonlethal damage equal to the scroll's caster level. Charisma damage taken this way is counted as ability damage caused by the drug for the purpose of calculating the DC of saving throws to resist addiction to the drug. Neither the Charisma damage nor the nonlethal damage can be healed until the user takes a full 8 hours of rest.  ",
 			"**Damage** see Effects",
 			"",
 			"In higher circles of Avistani nobility, some petty nobles pretend to be mighty wizards. Typically created in and smuggled north from Sargava, old-mage offers a temporary taste of eldritch power at an exorbitant cost - both financial and physical."
@@ -584,7 +584,7 @@
 			"**Type** contact; **Addiction** major, Fortitude DC 20  ",
 			"**Price** 2,000 gp  ",
 			"**Effect** An affected creature that succeeds at an additional DC 20 Will saving throw has its consciousness transported into the {rule/mindscape>s} called the Adyton, where it can linger for as long as it likes and return as a full-round action whenever it so pleases. Those that fail this secondary saving throw sleep fitfully for 2d4 hours and wake remembering snippets of surreal dreams.  ",
-			"**Damage** 1d4 Str damage",
+			"**Damage** 1d4 {rule/Str damage}",
 			"",
 			"The drug adyton is central to {faith/Mahathallah/'s} worship and the spreading of her mysteries. It can be purchased only from worshipers of Mahathallah, and typically only by servants of the goddess."
 		]

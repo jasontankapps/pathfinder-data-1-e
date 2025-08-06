@@ -925,7 +925,7 @@
 			"",
 			"A body pierced with quieting needles can be brought back to life as normal via {spell/raise dead}, but upon being restored to life, the victim immediately begins suffering from the fact that his major organs are perforated by hidden needles. This grisly fate can even strike someone brought back to life via {spell/resurrection} or {spell/true resurrection} if the body itself was intact and the needles were thus hidden. (Casting *resurrection* or *true resurrection* with only a fragment of the body or no body, forcing the spell to rebuild the body as appropriate, is a surefire way to avoid having the victim come back to life with the needles still inside him.)",
 			"",
-			"A creature brought back to life with quieting needles inside him is immediately struck with pain and must make a DC 25 Fortitude save each round to avoid being {misc/nauseated} from the pain and suffering 1d6 points of Constitution damage. A successful Fortitude save negates the nauseated condition and reduces the Constitution damage to 1.",
+			"A creature brought back to life with quieting needles inside him is immediately struck with pain and must make a DC 25 Fortitude save each round to avoid being {misc/nauseated} from the pain and suffering 1d6 points of {rule/Constitution damage}. A successful Fortitude save negates the nauseated condition and reduces the Constitution damage to 1.",
 			"",
 			"Removing quieting needles from a dead body takes 1d6+6 rounds (and a DC 20 Heal check if the process is to leave the body in a condition where raise dead is still viable). Removing quieting needles from a freshly restored living body causes 2d6 points of damage per round the procedure continues, with a successful DC 25 Heal check reducing damage caused that round to 2.",
 			"",
@@ -2174,7 +2174,7 @@
 			"**Price** 90 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"The ground carcasses of goldbelly stinkbugs - insects native to the Mindspin Mountains - give this paint its characteristic yellow hue. When applied as a full-round action, this fine paste makes your head glow as though with an unearthly halo. You gain a +2 alchemical bonus to your caster level for any spells you cast that target one or more of your allies. The quicksilver in shaman's paint is harmful to living creatures. If you wear shaman's paint for more than 1 minute per day, you take 1 point of Wisdom damage, plus 1 point of Wisdom damage for every minute you wear the paint that day after the first.",
+			"The ground carcasses of goldbelly stinkbugs - insects native to the Mindspin Mountains - give this paint its characteristic yellow hue. When applied as a full-round action, this fine paste makes your head glow as though with an unearthly halo. You gain a +2 alchemical bonus to your caster level for any spells you cast that target one or more of your allies. The quicksilver in shaman's paint is harmful to living creatures. If you wear shaman's paint for more than 1 minute per day, you take 1 point of {rule/Wisdom damage}, plus 1 point of Wisdom damage for every minute you wear the paint that day after the first.",
 			"",
 			"**{rule/Spontaneous Alchemy} Recipe** (30 {eq-reagent/quicksilver} + 25 {eq-reagent/saltpeter})/earth; **Craft DC** 20  ",
 			"**Time** 10 minutes; **Tools** -; **Type** alchemical tool"
@@ -2349,7 +2349,7 @@
 			"**Price** 401 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Shrapnel caltrops shatter into fragments that embed themselves into a creature's body when stepped on. Shrapnel caltrops work just like normal {eq-misc/caltrops}, except they are considered {rule/masterwork weapons} (+1 bonus on attack rolls). Creatures damaged by a shrapnel caltrop must succeed at a DC 15 Reflex save or take 1d2 points of Dexterity damage in addition to the caltrop's usual damage. The movement penalty inflicted by a shrapnel caltrop cannot be removed until all Dexterity damage dealt by the caltrop is healed, even if the creature receives magical healing or is treated with a successful Heal check. Shrapnel caltrops are destroyed after making one attack rolls. Shrapnel caltrops can't have the {eq-misc/hollow>_caltrops} special feature or the {eq-misc/serrated>_caltrops} special feature."
+			"Shrapnel caltrops shatter into fragments that embed themselves into a creature's body when stepped on. Shrapnel caltrops work just like normal {eq-misc/caltrops}, except they are considered {rule/masterwork weapons} (+1 bonus on attack rolls). Creatures damaged by a shrapnel caltrop must succeed at a DC 15 Reflex save or take 1d2 points of {rule/Dexterity damage} in addition to the caltrop's usual damage. The movement penalty inflicted by a shrapnel caltrop cannot be removed until all Dexterity damage dealt by the caltrop is healed, even if the creature receives magical healing or is treated with a successful Heal check. Shrapnel caltrops are destroyed after making one attack rolls. Shrapnel caltrops can't have the {eq-misc/hollow>_caltrops} special feature or the {eq-misc/serrated>_caltrops} special feature."
 		]
 	},
 	"shrieking_paste": {
@@ -4888,7 +4888,7 @@
 			"**Price** 1 gp; **Weight** 2 lbs.  ",
 			"**Category** Black Market",
 			"",
-			"These crushed and shredded leaves range in color from peppery red to black; users can either smoke or chew them. Tobacco users experience a certain level of calm and are more easily able to shrug off hunger pangs. Tobacco is addictive (Fort DC 10 to resist), and long-term users suffer Constitution damage."
+			"These crushed and shredded leaves range in color from peppery red to black; users can either smoke or chew them. Tobacco users experience a certain level of calm and are more easily able to shrug off hunger pangs. Tobacco is addictive (Fort DC 10 to resist), and long-term users suffer {rule/Constitution damage}."
 		]
 	},
 	"tome_of_epics": {
@@ -4976,7 +4976,7 @@
 			"**Price** 200 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"When inhaled, this finely ground, alchemically treated {eq-misc/tobacco} greatly enhances your senses, especially your sense of smell. It grants the scent ability and a +2 alchemical bonus on Perception checks for 1 hour. However, once the effect wears off your body is wracked with terrible pain as your joints begin to stiffen and seize, dealing 1d2 points of Dexterity damage to you.",
+			"When inhaled, this finely ground, alchemically treated {eq-misc/tobacco} greatly enhances your senses, especially your sense of smell. It grants the scent ability and a +2 alchemical bonus on Perception checks for 1 hour. However, once the effect wears off your body is wracked with terrible pain as your joints begin to stiffen and seize, dealing 1d2 points of {rule/Dexterity damage} to you.",
 			"",
 			"**Construction:** Craft (Alchemy) DC 30"
 		]
