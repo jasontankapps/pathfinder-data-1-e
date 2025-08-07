@@ -79,6 +79,7 @@ const DisciplinePage = lazy(() => import("./pages/DisciplinePage"));
 const DomainPage = lazy(() => import("./pages/DomainPage"));
 const DrugPage = lazy(() => import("./pages/DrugPage"));
 const DruidDomainPage = lazy(() => import("./pages/DruidDomainPage"));
+const EmotionalFocusPage = lazy(() => import("./pages/EmotionalFocusPage"));
 const EquipmentAlchemicalReagentPage = lazy(() => import("./pages/EquipmentAlchemicalReagentPage"));
 const EquipmentArmorEnhancementsPage = lazy(() => import("./pages/EquipmentArmorEnhancementPage"));
 const EquipmentArmorPage = lazy(() => import("./pages/EquipmentArmorPage"));
@@ -246,6 +247,11 @@ const App: FC = () => {
 						<Route path="/druiddomain/:id">
 							<Suspense fallback={<Loading text="Gathering domains..." />}>
 								<DruidDomainPage />
+							</Suspense>
+						</Route>
+						<Route path="/emotionalfocus/:id">
+							<Suspense fallback={<Loading text="Identifying emotions..." />}>
+								<EmotionalFocusPage />
 							</Suspense>
 						</Route>
 						<Route path="/eq-armor/:id">
