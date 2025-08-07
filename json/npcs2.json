@@ -699,7 +699,7 @@
 			"**Skills** Acrobatics +10, Bluff +18, Diplomacy +18, Knowledge (nobility) +9, Linguistics +5, Perception +8, Perform (oratory) +13, Perform (sing) +13, Perform (string) +18, Sense Motive +13, Sleight of Hand +11, Spellcraft +10, Stealth +10  ",
 			"**Languages** Common, Dwarven, Elven  ",
 			"**SQ** bardic knowledge +3, lore master 1/day, versatile performance (oratory, string)  ",
-			"**Combat Gear** scrolls of {spell/cure light wounds} (2), {spell/disguise self} (2), {spell/remove fear} (2), {spell/pyrotechnics}; **Other Gear** masterwork {eq-armor/chain shirt}, masterwork {eq-armor/buckler}, +1 {eq-weapon/light crossbow} with 10 bolts, masterwork {eq-weapon/rapier}, masterwork [harp](eq-misc/musical_instrument_mwk)  ",
+			"**Combat Gear** scrolls of {spell/cure light wounds} (2), {spell/disguise self} (2), {spell/remove fear} (2), {spell/pyrotechnics}; **Other Gear** masterwork {eq-armor/chain shirt}, masterwork {eq-armor/buckler}, +1 {eq-weapon/light crossbow} with 10 bolts, masterwork {eq-weapon/rapier}, {eq-misc/masterwork harp}  ",
 			"**Boon** A minstrel can write and publish a song or story lauding the PCs and their accomplishments, granting them a +2 circumstance bonus on Diplomacy checks for 1 week.",
 			"",
 			"::sh[Description]",

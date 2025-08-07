@@ -527,6 +527,7 @@
 			"**Shield of the Liege (Ex):** At 15th level, an order of the lion cavalier can protect those around him. Allies that are adjacent to the cavalier receive a +2 shield bonus to their AC. In addition, as an immediate action, the cavalier can redirect an attack made at a creature adjacent to himself, as long as the creature making the attack is within the cavalier's reach. This ability must be declared before the attack roll is made. The attack is made against the cavalier's AC and defenses, even if the creature could not normally reach or attack the cavalier. The cavalier loses any cover or concealment bonuses when subject to the redirected attack."
 		]
 	},
+	"lion": { "redirect": "order_of_the_lion" },
 	"order_of_the_monument": {
 		"name": "Order of the Monument",
 		"sources": [ "Disciple's Doctrine" ],

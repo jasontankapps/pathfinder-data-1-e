@@ -1769,7 +1769,14 @@
 		"copyof": "musical_instrument_common"
 	},
 	"masterwork_musical_instrument": { "redirect": "musical_instrument_masterwork" },
-	"musical_instrument_mwk": { "redirect": "musical_instrument_masterwork" },
+	"mwk_musical_instrument": { "redirect": "musical_instrument_masterwork" },
+	"masterwork_harp": { "redirect": "musical_instrument_masterwork" },
+	"masterwork_flute": { "redirect": "musical_instrument_masterwork" },
+	"masterwork_panpipes": { "redirect": "musical_instrument_masterwork" },
+	"masterwork_drums": { "redirect": "musical_instrument_masterwork" },
+	"masterwork_war_rattle": { "redirect": "musical_instrument_masterwork" },
+	"masterwork_tambourine": { "redirect": "musical_instrument_masterwork" },
+	"masterwork_lute": { "redirect": "musical_instrument_masterwork" },
 	"musk_kit": {
 		"name": "Musk kit",
 		"sources": [ "Advanced Class Guide" ],
