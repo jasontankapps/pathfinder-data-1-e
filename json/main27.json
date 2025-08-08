@@ -2948,5 +2948,6 @@
 				"initialColumn": 1
 			}
 		]
-	}
+	},
+	"magic_staff": { "redirect": "magic_staves" }
 }

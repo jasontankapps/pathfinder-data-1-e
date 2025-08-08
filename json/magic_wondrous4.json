@@ -132,7 +132,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/ghost sound}, creator must have 4 ranks in {skill/Craft} (clockwork); **Cost** 550 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/ghost sound}, creator must have 4 ranks in {skill/Craft/ (clockwork)}; **Cost** 550 gp"
 		]
 	},
 	"elixir_of_concordance": {
@@ -261,7 +261,7 @@
 			"**Aura** faint conjuration; **CL** 2nd  ",
 			"**Slot** none; **Price** 1,150 gp; **Weight** 3 lbs.",
 			"",
-			"If the possessor learns the proper tune, he can use these pipes to attract 1d3 {monster/rat swarm/s} if any rats are within 400 feet. For each 50-foot distance the rats have to travel, there is a 1-round delay. The piper must continue playing until the rats appear, and when they do so, the piper must make a DC 10 {skill/Perform} (wind instruments) check. Success means that they obey the piper's telepathic commands so long as he continues to play. Failure indicates that they turn on the piper. If for any reason the piper ceases playing, the rats leave immediately. The Perform DC increases by +5 for each time the rats have been successfully called in a 24-hour period.",
+			"If the possessor learns the proper tune, he can use these pipes to attract 1d3 {monster/rat swarm/s} if any rats are within 400 feet. For each 50-foot distance the rats have to travel, there is a 1-round delay. The piper must continue playing until the rats appear, and when they do so, the piper must make a DC 10 {skill/Perform/ (wind instruments)} check. Success means that they obey the piper's telepathic commands so long as he continues to play. Failure indicates that they turn on the piper. If for any reason the piper ceases playing, the rats leave immediately. The Perform DC increases by +5 for each time the rats have been successfully called in a 24-hour period.",
 			"",
 			"If the rats are under the control of another creature, add the HD of the controller to the Perform check DC. Once control is assumed, another check is required each round to maintain it if the other creature is actively seeking to reassert its control.",
 			"",
@@ -433,7 +433,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/shield other}, {spell/status}, creator must have at least 4 ranks in {skill/Craft} (alchemy); **Cost** 600 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/shield other}, {spell/status}, creator must have at least 4 ranks in {skill/Craft/ (alchemy)}; **Cost** 600 gp"
 		]
 	},
 	"briar_bomb": {
@@ -1543,7 +1543,7 @@
 			"**Aura** faint illusion; **CL** 2nd  ",
 			"**Slot** none; **Price** 1,800 gp; **Weight** 3 lbs.",
 			"",
-			"When played by a character who has the {skill/Perform} (wind instruments) skill, these shiny metallic pan pipes create a variety of sounds that can imitate creatures, environmental sounds, or most other sounds. The figment sounds are the equivalent of *ghost sound.*",
+			"When played by a character who has the {skill/Perform/ (wind instruments)} skill, these shiny metallic pan pipes create a variety of sounds that can imitate creatures, environmental sounds, or most other sounds. The figment sounds are the equivalent of *ghost sound.*",
 			"",
 			"### Construction",
 			"",
@@ -2042,7 +2042,7 @@
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 2,000 gp (Normal), 4,500 gp (Greater); **Weight** 1 lb.",
 			"",
-			"This small crude-looking drum is attached to a strap long enough to loop around the wearer's neck. A successful DC 12 {skill/Perform} (percussion) check activates the drum, which enhances any nearby natural or magical fire as long as the bearer spends a move action each round to continue playing. All fires (including fire spells and effects) within 30 feet of the bearer deal an additional 1 point of fire damage (or 2 points for the greater version).",
+			"This small crude-looking drum is attached to a strap long enough to loop around the wearer's neck. A successful DC 12 {skill/Perform/ (percussion)} check activates the drum, which enhances any nearby natural or magical fire as long as the bearer spends a move action each round to continue playing. All fires (including fire spells and effects) within 30 feet of the bearer deal an additional 1 point of fire damage (or 2 points for the greater version).",
 			"",
 			"All unattended flammable alchemical objects such as {eq-misc/tindertwig/s}, flasks of {eq-misc/oil} or {eq-weapon/alchemist's fire}, and {eq-weapon/fireworks} within this range have a 10% chance of spontaneously igniting or exploding (as appropriate to the item) when the drum activates. This chance increases by 5% each round and is checked at the start of the performer's turn as long as the playing continues.",
 			"",
@@ -3608,7 +3608,7 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 3,000 gp; **Weight** 5 lbs.",
 			"",
-			"A cauldron of brewing looks like a fine cooking pot with four stout legs. The cauldron is capable of heating any liquid placed in it to a precise temperature (anywhere from just above room temperature to hot enough to boil salt water) and maintaining it indefinitely while still remaining only slightly warm to the touch on the outside. A cauldron of brewing provides a +5 competence bonus on {skill/Craft} (alchemy) skill checks.",
+			"A cauldron of brewing looks like a fine cooking pot with four stout legs. The cauldron is capable of heating any liquid placed in it to a precise temperature (anywhere from just above room temperature to hot enough to boil salt water) and maintaining it indefinitely while still remaining only slightly warm to the touch on the outside. A cauldron of brewing provides a +5 competence bonus on {skill/Craft/ (alchemy)} skill checks.",
 			"",
 			"### Construction",
 			"",
@@ -3894,7 +3894,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/fabricate}, creator must have 2 ranks in the {skill/Craft} (carpentry) skill; **Cost** 1,500 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/fabricate}, creator must have 2 ranks in the {skill/Craft/ (carpentry)} skill; **Cost** 1,500 gp"
 		]
 	},
 	"saliharion": {
@@ -4089,7 +4089,7 @@
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 3,200 gp; **Weight** -;",
 			"",
-			"These aged charts of thick, yellowed parchment display rough representations of the Shackles' major islands and the sea lanes between them. The detailed markings on these charts grant a +2 circumstance bonus on {skill/Profession} (sailor) or {skill/Survival} checks to navigate within the Shackles.",
+			"These aged charts of thick, yellowed parchment display rough representations of the Shackles' major islands and the sea lanes between them. The detailed markings on these charts grant a +2 circumstance bonus on {skill/Profession/ (sailor)} or {skill/Survival} checks to navigate within the Shackles.",
 			"",
 			"In addition, a multitude of wrinkles, stains, and blemishes mar the charts' surfaces. Anyone meticulously studying the charts notices that these markings shift over time. The creases, smudges, and blotches on the map represent real weather conditions (such as clouds, rain, and wind) in the region, allowing an informed observer to determine the current weather patterns over the islands of the Shackles. The charts grant a +4 competence bonus on Survival checks made to predict future weather conditions and a +2 competence bonus on Survival checks to gain a bonus on Fortitude saves against severe weather.",
 			"",

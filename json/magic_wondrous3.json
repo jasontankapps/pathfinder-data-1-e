@@ -1138,7 +1138,7 @@
 			"",
 			"The following wondrous item is generally available only to members of the indicated race or ethnicity.",
 			"",
-			"This light, brightly-colored scarf makes the wearer seem larger than life. He gains a +5 competence bonus on {skill/Intimidate} and {skill/Perform} (dance) checks.",
+			"This light, brightly-colored scarf makes the wearer seem larger than life. He gains a +5 competence bonus on {skill/Intimidate} and {skill/Perform/ (dance)} checks.",
 			"",
 			"If the wearer rightfully owns a kapenia and wears it at the same time as the scarf, he can glimpse memories of the history traced by the Varisian people in their kapenias and folktales. He gains a +5 competence bonus on {skill/Knowledge (history)} checks and can attempt any Knowledge (history) check untrained.",
 			"",
@@ -2285,7 +2285,7 @@
 			"**Aura** moderate abjuration; **CL** 10th  ",
 			"**Slot** neck; **Price** 24,000 gp; **Weight** 5 lbs.",
 			"",
-			"This giant-sized silver brooch, like that used to fasten a cloak or cape, is fashioned in the shape of a cloud inscribed inside a circle. The wearer of a cloud engineer badge can cast *life bubble* and *reduce person* once per day. In addition, the wearer gains a +2 competence bonus on {skill/Craft} (alchemy) and {skill/Knowledge (engineering)} checks. A cloud engineer badge occupies the neck slot on Large or Huge creatures, but a Medium creature can wear the badge as a pectoral in the chest slot.",
+			"This giant-sized silver brooch, like that used to fasten a cloak or cape, is fashioned in the shape of a cloud inscribed inside a circle. The wearer of a cloud engineer badge can cast *life bubble* and *reduce person* once per day. In addition, the wearer gains a +2 competence bonus on {skill/Craft/ (alchemy)} and {skill/Knowledge (engineering)} checks. A cloud engineer badge occupies the neck slot on Large or Huge creatures, but a Medium creature can wear the badge as a pectoral in the chest slot.",
 			"",
 			"### Construction",
 			"",
@@ -2636,7 +2636,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {skill/Craft} (leather) 4 ranks, {spell/alter self}, {spell/hold person}, {spell/transformation}, coven hex; **Cost** 23,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {skill/Craft/ (leather)} 4 ranks, {spell/alter self}, {spell/hold person}, {spell/transformation}, coven hex; **Cost** 23,000 gp"
 		]
 	},
 	"iron_road": {
@@ -3240,7 +3240,7 @@
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** none; **Price** 150 gp; **Weight** 1 lb.",
 			"",
-			"This magical alcoholic beverage was invented by brewers of Brastlewark engaged in a contest to produce the most inventive heady ale. It is most often drunk willingly, though some bartenders throughout the Inner Sea region serve it to unsuspecting patrons as an expensive but ultimately harmless prank. The drinker finds any joke unbearably funny for 1 minute. Any {skill/Perform} (comedy) check with a result of at least 10 + the drinker's Will save modifier attempted within 30 feet causes the drinker to collapse in gales of laughter, unable to take any action but attempt suppress the laughter as a full-round action (Will DC 15). If the drinker succeeds at the save, that laughing fit ends, but this success offers no protection against future jokes.",
+			"This magical alcoholic beverage was invented by brewers of Brastlewark engaged in a contest to produce the most inventive heady ale. It is most often drunk willingly, though some bartenders throughout the Inner Sea region serve it to unsuspecting patrons as an expensive but ultimately harmless prank. The drinker finds any joke unbearably funny for 1 minute. Any {skill/Perform/ (comedy)} check with a result of at least 10 + the drinker's Will save modifier attempted within 30 feet causes the drinker to collapse in gales of laughter, unable to take any action but attempt suppress the laughter as a full-round action (Will DC 15). If the drinker succeeds at the save, that laughing fit ends, but this success offers no protection against future jokes.",
 			"",
 			"### Construction",
 			"",
@@ -3389,7 +3389,7 @@
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 200 gp; **Weight** 2 lbs.",
 			"",
-			"This two-spouted funnel is used to safely mix two alchemical splash weapons into a single flask. Using the vial requires 10 minutes and a DC 25 {skill/Craft} (alchemy) check; a {race/half-elf} has a +5 bonus on this check. Failing the check means both splash weapon are destroyed. Success means the two materials are safely mixed into one vial that is the same volume as a normal splash weapon vial; when {rule/throw[n as a] splash weapon}, the mixture has the effects of both component substances and creatures are affected as if hit by both. The mixture becomes inert after 24 hours. Only liquids may be mixed with the funnel. The bearer can use it to mix an alchemical splash weapon with either {eq-weapon/holy water/ or unholy water}, but the Craft (alchemy) DC increases to 30; half-elves still get the +5 bonus on this check. The funnel does not work on potions, elixirs, extracts, or other materials. Mixing a substance with a similar or identical substance (such as {eq-weapon/alchemist's fire} with alchemist's fire) has no effect. A mixture cannot be combined with another mixture.",
+			"This two-spouted funnel is used to safely mix two alchemical splash weapons into a single flask. Using the vial requires 10 minutes and a DC 25 {skill/Craft/ (alchemy)} check; a {race/half-elf} has a +5 bonus on this check. Failing the check means both splash weapon are destroyed. Success means the two materials are safely mixed into one vial that is the same volume as a normal splash weapon vial; when {rule/throw[n as a] splash weapon}, the mixture has the effects of both component substances and creatures are affected as if hit by both. The mixture becomes inert after 24 hours. Only liquids may be mixed with the funnel. The bearer can use it to mix an alchemical splash weapon with either {eq-weapon/holy water/ or unholy water}, but the Craft (alchemy) DC increases to 30; half-elves still get the +5 bonus on this check. The funnel does not work on potions, elixirs, extracts, or other materials. Mixing a substance with a similar or identical substance (such as {eq-weapon/alchemist's fire} with alchemist's fire) has no effect. A mixture cannot be combined with another mixture.",
 			"",
 			"### Construction",
 			"",

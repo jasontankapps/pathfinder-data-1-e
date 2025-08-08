@@ -3890,9 +3890,12 @@
 		"name": "Waffle iron (mithral)",
 		"copyof": "waffle_iron_common"
 	},
-	"wagon_heavy": {
-		"name": "Wagon (heavy)",
-		"sources": [ "Ultimate Equipment" ],
+	"wagon": {
+		"name": "Wagon",
+		"sources": [
+			"Ultimate Equipment",
+			"PRPG Core Rulebook"
+		],
 		"description": [
 			"## Wagon",
 			"{SOURCE Ultimate Equipment/87}  ",
@@ -3905,26 +3908,32 @@
 			"",
 			"**Medium Wagon:** Wagons of this type are typically employed for heavy duty work, often in agricultural, mining, or construction settings. A medium wagon can carry up to 2,000 pounds of cargo and requires four Medium or two Large creatures to pull it.",
 			"",
-			"**Heavy Wagon:** Wagons of this type are large, four-wheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures."
+			"**Heavy Wagon:** Wagons of this type are large, four-wheeled vehicles primarily used in caravans to transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo, and is pulled by either eight Medium creatures or four Large creatures.",
+			"",
+			"{SOURCE PRPG Core Rulebook/159, 163}  ",
+			"**Wagon:** A four-wheeled, open vehicle for transporting heavy loads. Two horses (or other beasts of burden) must draw it. A wagon comes with the harness needed to pull it. **Price** 35 gp; **Weight** 400 lbs."
 		]
 	},
 	"wagon_heavy_travel_per_mile": {
 		"name": "Wagon (heavy) (travel, per mile)",
-		"copyof": "wagon_heavy"
+		"copyof": "wagon"
 	},
 	"wagon_light_or_medium_travel_per_mile": {
 		"name": "Wagon (light or medium) (travel, per mile)",
-		"copyof": "wagon_heavy"
+		"copyof": "wagon"
 	},
 	"wagon_light": {
 		"name": "Wagon (light)",
-		"copyof": "wagon_heavy"
+		"copyof": "wagon"
 	},
 	"wagon_medium": {
 		"name": "Wagon (medium)",
-		"copyof": "wagon_heavy"
+		"copyof": "wagon"
 	},
-	"wagon": { "redirect": "wagon_heavy" },
+	"wagon_heavy": {
+		"name": "Wagon (heavy)",
+		"copyof": "wagon"
+	},
 	"heavy_wagon": { "redirect": "wagon_heavy" },
 	"light_wagon": { "redirect": "wagon_light" },
 	"medium_wagon": { "redirect": "wagon_medium" },

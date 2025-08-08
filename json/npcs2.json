@@ -3345,7 +3345,7 @@
 			"**Cleric Spells Prepared** (CL 7th; concentration +10)  ",
 			"*4th*-{spell/poison} (DC 18), {spell/shadow conjuration}[^D] (DC 17)  ",
 			"*3rd*-{spell/bestow curse} (DC 17), {spell/contagion} (DC 17), {spell/deeper darkness}[^D], {spell/dispel magic}  ",
-			"*2nd*-*blindness//deafness[^D] (blindness only, DC 16), {spell/darkness}, {spell/desecrate}, {spell/eagle's splendor}, {spell/silence} (DC 15)  ",
+			"*2nd*-*blindness/deafness[^D] (blindness only, DC 16), {spell/darkness}, {spell/desecrate}, {spell/eagle's splendor}, {spell/silence} (DC 15)  ",
 			"*1st*-{spell/cause fear}[^D] (2, DC 15), {spell/deathwatch}, {spell/doom} (DC 15), {spell/magic weapon}, {spell/shield of faith}  ",
 			"*0 (at will)*-{spell/bleed} (DC 14), {spell/detect magic}, {spell/light}, {spell/resistance}  ",
 			"**Domains** {domain/Darkness}, {domain/Death}",

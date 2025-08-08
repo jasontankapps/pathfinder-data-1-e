@@ -1876,7 +1876,7 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** head; **Price** 2,600 gp; **Weight** 1 lb.",
 			"",
-			"This black leather tricorne hat is weather-beaten and salt-stained. It grants its wearer a +2 competence bonus on {skill/Profession} (sailor) and {skill/Swim} checks.",
+			"This black leather tricorne hat is weather-beaten and salt-stained. It grants its wearer a +2 competence bonus on {skill/Profession/ (sailor)} and {skill/Swim} checks.",
 			"",
 			"If {faith/Besmara} is the wearer's patron, once per day the wearer can speak a command word to transform the hat into a small ship's boat such as a [cutter, jolly boat, or longboat](rule/aqt_4). The boat is 20 feet long, has two pairs of oars and a single mast with a square sail, and can carry up to 12 passengers and crew. Upon command, or after 8 hours, the boat returns to its hat form, dumping out any occupants.",
 			"",
@@ -4605,7 +4605,7 @@
 			"",
 			"A band of golden skulls encircles this golden crown, and smaller skulls top its points. Forged for the first Hurricane King, Turpin Irons, when he sailed out of the Eye of Abendego more than 100 years ago to claim rulership over the Shackles, the Hurricane Crown has been passed down (or taken by force) from one Hurricane King to the next ever since. On command, the Hurricane Crown changes its shape and appearance to assume the form of a normal piece of headwear (such as a hat or scarf). The crown retains all its properties (including weight) when so disguised. Only a *true seeing* spell or similar magic reveals the true nature of the crown when disguised.",
 			"",
-			"The wearer of the Hurricane Crown gains a +5 competence bonus on {skill/Profession} (sailor) checks and {skill/Survival} checks made to determine direction or predict the weather at sea, and he can see normally through fog, mist, smoke, and precipitation or weather effects, whether natural or magical. Once per day, the wearer can cast *control winds;* if the wearer is standing on a ship, the ship and any creatures aboard it are unaffected by the controlled winds unless the wearer wishes to affect them, even if the ship's area is larger than the spell's unaffected area. In addition, once per day, the wearer of the Hurricane Crown can surround himself in either a shroud of elemental water or supernatural winds, as the *seamantle* or *winds of vengeance* spells.",
+			"The wearer of the Hurricane Crown gains a +5 competence bonus on {skill/Profession/ (sailor)} checks and {skill/Survival} checks made to determine direction or predict the weather at sea, and he can see normally through fog, mist, smoke, and precipitation or weather effects, whether natural or magical. Once per day, the wearer can cast *control winds;* if the wearer is standing on a ship, the ship and any creatures aboard it are unaffected by the controlled winds unless the wearer wishes to affect them, even if the ship's area is larger than the spell's unaffected area. In addition, once per day, the wearer of the Hurricane Crown can surround himself in either a shroud of elemental water or supernatural winds, as the *seamantle* or *winds of vengeance* spells.",
 			"",
 			"Lastly, the wearer of the Hurricane Crown can create a single-use *phase door* in the rock of Lucrehold to access the sea caves and Hidden Harbor beneath the island. If the crown's wearer is standing on a ship, the *phase door* is large enough to accommodate the ship and any creatures on it. The *phase door* remains invisible and inaccessible to all other creatures and ships, and otherwise functions as a normal *phase door.* This ability can be used at will.",
 			"",
@@ -4630,13 +4630,14 @@
 			"",
 			"If the crown is worn while the wearer is wielding both an *orb* and *scepter of heaven,* the crown's caster level increases to 15th, effects the wearer creates with the good descriptor gain an additional +1 caster level increase, and her sacred bonus to AC and saves increases to +2. In addition, as a full-round action, the wearer can create an aura of sanctity for as long as she concentrates. This aura provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws against attacks made or effects created by evil creatures, as well as the benefits of a *magic circle against evil* and a {spell/lesser globe of invulnerability}.",
 			"",
-			"A crown of heaven bestows one negative level on any evil creature bearing it, which cannot be removed or overcome while carrying the crown. If the same creature carries an orb or scepter of heaven, it gains one additional negative level per object. An evil creature intentionally donning a crown of heaven gains an additional negative level and is affected as bestow curse (DC 17) immediately and every 24 hours that the crown is worn. A neutral character can attempt a DC 17 Fortitude save to avoid gaining these negative levels.",
+			"A crown of heaven bestows one {rule/negative level} on any evil creature bearing it, which cannot be removed or overcome while carrying the crown. If the same creature carries an orb or scepter of heaven, it gains one additional negative level per object. An evil creature intentionally donning a crown of heaven gains an additional negative level and is affected as bestow curse (DC 17) immediately and every 24 hours that the crown is worn. A neutral character can attempt a DC 17 Fortitude save to avoid gaining these negative levels.",
 			"",
 			"### Construction",
 			"",
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/aura of doom}, {spell/detect evil}, {spell/dispel evil}, {spell/magic circle against evil}, {spell/tongues}; **Cost** 75,000 gp"
 		]
 	},
+	"crown_of_golden_heaven": { "redirect": "crown_of_heaven" },
 	"centering_jewel": {
 		"name": "Centering Jewel",
 		"sources": [ "Psychic Anthology" ],

@@ -1220,7 +1220,7 @@
 			"{SOURCE Skull and Shackles Player's Guide/10}  ",
 			"Every vehicle has a means of propulsion. Boats and ships are propelled by currents, muscle, wind, or all three forces. The method of propulsion typically affects the speed and maneuverability of a ship, but more importantly, determines the required skill needed to control the ship. Controlling a ship takes common sense, awareness, intuition, and often some amount of skill in the ship's means of propulsion. In the case of wind or current propulsion, it is about using the current and tools like sails, oars, or a rudder to move the ship. In the case of muscle propulsion, it is about guiding creatures to move the ship. The following are the general methods of ship propulsion, along with the skills typically needed to pilot ships propelled by the specified means.",
 			"",
-			"@HL[Current:] All boats and ships can use water currents for propulsion, but ships that only rely on currents for propulsion are somewhat limited. These vehicles can only move in the direction and at the speed of a current unless they also employ some other means of propulsion or manipulation, and thus often have an additional form of propulsion, such as muscle in the case of a rowboat, or wind in the case of a sailing ship. A current-propelled ship requires a {skill/Profession} (sailor) check for the sailing check.",
+			"@HL[Current:] All boats and ships can use water currents for propulsion, but ships that only rely on currents for propulsion are somewhat limited. These vehicles can only move in the direction and at the speed of a current unless they also employ some other means of propulsion or manipulation, and thus often have an additional form of propulsion, such as muscle in the case of a rowboat, or wind in the case of a sailing ship. A current-propelled ship requires a {skill/Profession/ (sailor)} check for the sailing check.",
 			"",
 			"A current-propelled ship's maximum speed depends on the speed of the current (often as high as 120 feet). The acceleration of a current-propelled ship is 30 feet.",
 			"",
@@ -1661,7 +1661,7 @@
 		"sources": [ "Skull and Shackles Player's Guide" ],
 		"description": [
 			"{SOURCE Skull and Shackles Player's Guide/16}  ",
-			"The fastest and easiest way to repair a ship is with spells. {spell/Mending} is not powerful enough to meaningfully affect an object as large as a ship, but {spell/make whole} affects a ship as if it were a construct, repairing 1d6 points of damage per level. In addition, more mundane methods can also be used to repair ships. Because of their specialized construction, ships (as well as oars and sails) usually require the {skill/Craft} (ships) skill to repair. Depending on the nature of the damage, skills such as Craft (carpentry) or Craft (sails), or even various {skill/Profession} skills, can be used to repair ships with the GM's approval. In general, a day's worth of work by a single person using the appropriate skill to repair a ship requires 10 gp of raw materials and a DC 10 skill check, and repairs 10 points of damage on a success, or 5 hit points on a failure. {spell/Fabricate} can also be used to create the raw material needed for repairs. New {eq-misc/oar/s} can be purchased for 2 gp each."
+			"The fastest and easiest way to repair a ship is with spells. {spell/Mending} is not powerful enough to meaningfully affect an object as large as a ship, but {spell/make whole} affects a ship as if it were a construct, repairing 1d6 points of damage per level. In addition, more mundane methods can also be used to repair ships. Because of their specialized construction, ships (as well as oars and sails) usually require the {skill/Craft/ (ships)} skill to repair. Depending on the nature of the damage, skills such as Craft (carpentry) or Craft (sails), or even various {skill/Profession} skills, can be used to repair ships with the GM's approval. In general, a day's worth of work by a single person using the appropriate skill to repair a ship requires 10 gp of raw materials and a DC 10 skill check, and repairs 10 points of damage on a success, or 5 hit points on a failure. {spell/Fabricate} can also be used to create the raw material needed for repairs. New {eq-misc/oar/s} can be purchased for 2 gp each."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -2401,7 +2401,7 @@
 		"sources": [ "Skull and Shackles Player's Guide" ],
 		"description": [
 			"{SOURCE Skull and Shackles Player's Guide/26-28}  ",
-			"Not all ships are created equally. Players looking for a ship that is faster, tougher, or more agile might consider adding modifications to their vessels. Each of the following ship improvements must be planned, built, or installed (as appropriate) by someone with the {skill/Craft} (ships) skill or other skill or feat, as described in the Requirements line. In order to alter a ship with one of the following modifications, the shipwright must make a skill check, with the final DC dependent upon the overall complexity of the desired modification. A failed check means that this particular ship-builder is unable to install that feature, though 1/2 of the cost of the feature is nonetheless expended on wasted parts. Another shipwright must be consulted to complete the work, but the DC for his check is increased by 2 if any previous modifications were made by another shipwright (different builders have different techniques).",
+			"Not all ships are created equally. Players looking for a ship that is faster, tougher, or more agile might consider adding modifications to their vessels. Each of the following ship improvements must be planned, built, or installed (as appropriate) by someone with the {skill/Craft/ (ships)} skill or other skill or feat, as described in the Requirements line. In order to alter a ship with one of the following modifications, the shipwright must make a skill check, with the final DC dependent upon the overall complexity of the desired modification. A failed check means that this particular ship-builder is unable to install that feature, though 1/2 of the cost of the feature is nonetheless expended on wasted parts. Another shipwright must be consulted to complete the work, but the DC for his check is increased by 2 if any previous modifications were made by another shipwright (different builders have different techniques).",
 			"",
 			"The following ship improvements can be added to a ship.",
 			"",
@@ -2724,7 +2724,7 @@
 			"",
 			"@HL[Step 1 - Fleet Name, Home Port, and Flagship:] The name the PCs choose for their fleet and the names of their home port and the fleet's flagship have no effect on the fleet's statistics - these are purely flavor elements.",
 			"",
-			"@HL[Step 2 - Select an Admiral:] A fleet can have only one admiral. Whether this is a PC or an NPC ally is in large part irrelevant, but you should explain to the PCs that a fleet admiral should have a high Charisma score and possess many ranks in {skill/Profession} (sailor). Note that non-admiral PCs can still bolster a fleet by granting flagship boons (see Step 4). Record the admiral's name and his or her Profession (sailor) bonus on the sheet.",
+			"@HL[Step 2 - Select an Admiral:] A fleet can have only one admiral. Whether this is a PC or an NPC ally is in large part irrelevant, but you should explain to the PCs that a fleet admiral should have a high Charisma score and possess many ranks in {skill/Profession/ (sailor)}. Note that non-admiral PCs can still bolster a fleet by granting flagship boons (see Step 4). Record the admiral's name and his or her Profession (sailor) bonus on the sheet.",
 			"",
 			"@HL[Step 3 - Determine Maximum Squadrons:] A single fleet can consist of a maximum number of squadrons equal to the party's {rule/Infamy score} divided by 10 (rounded down) - this initial value is increased or decreased by the admiral's Charisma modifier. For NPC fleets, this maximum is 3 + the admiral's Charisma modifier.",
 			"",
@@ -2767,7 +2767,7 @@
 			">3 Hits per Ship: {rule/ss_<Junk}, {rule/ss_<longship}, {rule/ss_<sailing ship}  ",
 			">4 Hits per Ship: {rule/ss_<Galley}, {rule/ss_<warship}",
 			"",
-			"@HL[Step 3 - Select Commodore:] List the name of the squadron's commodore, along with her Charisma modifier and {skill/Profession} (sailor) skill modifier. An admiral can never serve as a commodore. If a commodore is also a significant character (either a PC or a significant named NPC), that squadron gains a +2 bonus on all attack rolls, damage rolls, and morale checks. (As a general rule, most NPC fleets should have 2-4 significant named NPCs serving as commodores.)",
+			"@HL[Step 3 - Select Commodore:] List the name of the squadron's commodore, along with her Charisma modifier and {skill/Profession/ (sailor)} skill modifier. An admiral can never serve as a commodore. If a commodore is also a significant character (either a PC or a significant named NPC), that squadron gains a +2 bonus on all attack rolls, damage rolls, and morale checks. (As a general rule, most NPC fleets should have 2-4 significant named NPCs serving as commodores.)",
 			"",
 			"@HL[Step 4 - Determine Hits:] A squadron's hits equals the number of ships in the squadron multiplied by the number of hits each ship contributes. For example, a squadron of five rafts would have only 5 hits (since a raft is only a 1-hit ship), whereas a squadron of five warships would have 20 hits (since a warship is a 4-hit ship). This number is temporarily reduced by disabled ships and permanently reduced by sunken ships.",
 			"",
@@ -2845,7 +2845,7 @@
 			"",
 			"@HL[Swift Repairs:]{jl} At the end of a battle phase, roll 1d6. You may remove this amount of damage from any combination of non-sunken ships from any single squadron. **Requirement:** Significant character capable of casting at least one 4th-level spell.",
 			"",
-			"@HL[Swift to Battle:]{jl} The admiral gains a +4 bonus on all {skill/Profession} (sailor) checks made to determine initiative. **Requirement:** None. **Special:** This boon may be taken multiple times - its effects stack.",
+			"@HL[Swift to Battle:]{jl} The admiral gains a +4 bonus on all {skill/Profession/ (sailor)} checks made to determine initiative. **Requirement:** None. **Special:** This boon may be taken multiple times - its effects stack.",
 			"",
 			"@HL[Vengeance:]{jl} The first time one of the fleet's ships sinks in a battle phase, all allied squadrons become overwhelmed with a need for vengeance and gain a +2 bonus on attack rolls and morale checks for the rest of that battle phase. **Requirement:** None."
 		],
@@ -2893,7 +2893,7 @@
 		"sources": [ "Pathfinder #59: The Price of Infamy" ],
 		"description": [
 			"{SOURCE Pathfinder #59: The Price of Infamy/67}  ",
-			"At the start of a battle phase, each fleet's admiral makes a {skill/Profession} (sailor) check to determine initiative. The admiral whose result is higher gains the upper hand in that battle phase, which grants all of his squadrons a +1 bonus on attack rolls. This Profession (sailor) check is made at the start of each battle phase.",
+			"At the start of a battle phase, each fleet's admiral makes a {skill/Profession/ (sailor)} check to determine initiative. The admiral whose result is higher gains the upper hand in that battle phase, which grants all of his squadrons a +1 bonus on attack rolls. This Profession (sailor) check is made at the start of each battle phase.",
 			"",
 			"Each fleet then takes turns making attacks with their squadrons. The winner of the initiative roll gets to make the first attack, using any one of his squadrons. The other fleet then makes its first attack, using any one of its squadrons. Attacks with squadrons go back and forth during the battle phase until all squadrons able to attack have done so - a single squadron can only attack once per battle phase. If one fleet has more squadrons than the other, the additional squadrons attack at the end of the battle phase after the other fleet has used up all of its attacks for that round.",
 			"",
@@ -2929,7 +2929,7 @@
 			"{SOURCE Pathfinder #59: The Price of Infamy/68}  ",
 			"A rout phase occurs after each battle phase. At this point, each surviving squadron must succeed at a DC 10 morale check by rolling 1d20 and adding its morale check modifier. Failure indicates that the squadron takes 1d4 points of damage to its morale score. A squadron whose morale score is reduced to 0 immediately mutinies and is removed from play.",
 			"",
-			"@HL[Fleeing a Battle:] At the end of a rout phase, an admiral can attempt to flee the battle entirely. When he does so, the other fleet immediately gets one free attack using any one of its squadrons and can target any one of the fleeing fleet's squadrons. The fleeing admiral makes a {skill/Profession} (sailor) check at a -4 penalty, opposed by the other admiral's Profession (sailor) check. If the fleeing admiral's check result is higher, his fleet escapes; otherwise, every squadron in the fleeing admiral's fleet takes 1 point of morale damage and the battle continues into a new round."
+			"@HL[Fleeing a Battle:] At the end of a rout phase, an admiral can attempt to flee the battle entirely. When he does so, the other fleet immediately gets one free attack using any one of its squadrons and can target any one of the fleeing fleet's squadrons. The fleeing admiral makes a {skill/Profession/ (sailor)} check at a -4 penalty, opposed by the other admiral's Profession (sailor) check. If the fleeing admiral's check result is higher, his fleet escapes; otherwise, every squadron in the fleeing admiral's fleet takes 1 point of morale damage and the battle continues into a new round."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
