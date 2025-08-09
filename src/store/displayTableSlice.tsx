@@ -1,11 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 
-export interface HiddenObject {
+interface HiddenDataObject {
 	hiddencols: number[]
 	hiddenrows: number[]
 }
-export interface TableObject extends HiddenObject {
+export interface TableObject extends HiddenDataObject {
 	sortcol?: number | undefined
 	alpha: boolean
 }
@@ -27,7 +27,7 @@ export const tableSlice = createSlice({
 	initialState,
 	// The `reducers` field lets us define reducers and generate associated actions
 	reducers: {
-		setTableFilter: (state, action: PayloadAction<{ id: string, data: HiddenObject }>) => {
+		setTableFilter: (state, action: PayloadAction<{ id: string, data: HiddenDataObject }>) => {
 			const { id, data } = action.payload;
 			const newState = {...state};
 			const newObject: TableObject = state[id] ? {...state[id], ...data} : {alpha: true, ...data};
