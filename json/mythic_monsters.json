@@ -441,6 +441,7 @@
 		]
 	},
 	"champion_of_the_gilded_host": { "redirect": "champion_of_the_gilded_host_mythic" },
+	"golden_colossus": { "redirect": "champion_of_the_gilded_host_mythic" },
 	"chaneque_mythic": {
 		"name": "Chaneque",
 		"sources": [ "Bestiary 4" ],

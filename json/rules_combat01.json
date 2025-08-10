@@ -659,6 +659,7 @@
 		]
 	},
 	"natural_weapon": { "redirect": "natural_attacks" },
+	"natural_attack": { "redirect": "natural_attacks" },
 	"multiple_attacks_and_fighting_defensively": {
 		"name": "Multiple Attacks and Fighting Defensively",
 		"subtitle": "Standard Action",

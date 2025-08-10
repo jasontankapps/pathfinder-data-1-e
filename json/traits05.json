@@ -2142,7 +2142,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Bekyar or Shoanti",
 			"",
-			"The spirit voices of your ancestors sing to you of the world around you. Once per day, you can act in the surprise round even if you aren't aware of your attackers; you can use this action only to start a bardic song or raging song, and you're still considered flat-footed until you act in the first normal round of combat."
+			"The spirit voices of your ancestors sing to you of the world around you. Once per day, you can act in the surprise round even if you aren't aware of your attackers; you can use this action only to start a {ability/bardic /song>performance} or {ability/raging song}, and you're still considered {rule/flat-footed} until you act in the first normal round of combat."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},

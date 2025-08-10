@@ -2454,7 +2454,7 @@
 			"{SOURCE Advanced Class Guide/151}",
 			"",
 			"Your performance strikes fear in the hearts of foes.  ",
-			"**Prerequisites:** Ability to start a performance (or raging song) as a move action, {ability/bardic performance} or raging song class feature.  ",
+			"**Prerequisites:** Ability to start a performance (or raging song) as a move action, {ability/bardic performance} or {ability/raging song} class feature.  ",
 			"**Benefit:** When you start a performance (or a raging song) as a move or swift action, you can use a standard action to demoralize a foe, attempting a Perform check appropriate to your performance in place of the Intimidate check. Your performance must be one with an audible component.",
 			"",
 			"If you can start a performance as a swift action and you have the {feat/Dazzling Display} feat, you can gain the benefit of Dazzling Display by succeeding at a Perform check in place of an Intimidate check."
@@ -2533,7 +2533,7 @@
 			"{SOURCE Legacy of the First World/23}",
 			"",
 			"With no other allies to enjoy your performance, you improvise to make it more inspiring for yourself.  ",
-			"**Prerequisites:** Perform (any) 3 ranks, {ability/bardic performance} or raging song class feature.  ",
+			"**Prerequisites:** Perform (any) 3 ranks, {ability/bardic performance} or {ability/raging song} class feature.  ",
 			"**Benefit:** Whenever you are the only creature affected by a bardic performance or raging song that normally affects all allies within a range, any bonuses granted by your bardic performance or raging song are calculated as though your class level were 4 higher. This feat does not allow you to activate a bardic performance or raging song if your actual class level is not high enough to use that performance."
 		]
 	},
