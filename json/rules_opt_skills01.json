@@ -2775,7 +2775,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/62}",
 			"",
-			"By performing a speech, song, play, or other artistic work, you can impress an audience. If you're in a prosperous city, you gain money for spending a day at this task. The amount depends on the result of your Performance check.",
+			"By performing a speech, song, play, or other artistic work, you can impress an audience. If you're in a prosperous city, you gain money for spending a day at this task. The amount depends on the result of your Perform check.",
 			"",
 			"| Performance Quality | Performance DC | Money Earned |",
 			"| --- | --- | --- |",
@@ -2789,7 +2789,7 @@
 			"",
 			"@HL[Try Again:] Yes, though the DC increases by 2 for each previous routine performance the same audience has witnessed you make.",
 			"",
-			"@HL[Masterwork Instrument:] A masterwork instrument grants a +2 bonus on Performance checks to impress an audience."
+			"@HL[Masterwork Instrument:] A masterwork instrument grants a +2 bonus on Perform checks to impress an audience."
 		],
 		"parent_topics": [
 			"optional_skill_changes",

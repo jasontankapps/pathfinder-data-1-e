@@ -63,6 +63,7 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
+	"dazzle": { "redirect": "dazzled" },
 	"deafened": {
 		"name": "Deafened",
 		"sources": [ "PRPG Core Rulebook" ],
