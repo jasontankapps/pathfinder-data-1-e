@@ -273,7 +273,7 @@
 		]
 	},
 	"ut_3": {
-		"name": "Arena, Castle/Estate, Menagerie/Museum",
+		"name": "Encounters: Arena, Castle/Estate, Menagerie/Museum",
 		"subtitle": "Urban Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -382,7 +382,7 @@
 		]
 	},
 	"ut_4": {
-		"name": "Rooftop and Sewer",
+		"name": "Encounters: Rooftop and Sewer",
 		"subtitle": "Urban Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -462,7 +462,7 @@
 		]
 	},
 	"ut_5": {
-		"name": "Slum, Tavern, and Thieves' Guild",
+		"name": "Encounters: Slum, Tavern, and Thieves' Guild",
 		"subtitle": "Urban Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -1813,7 +1813,7 @@
 		]
 	},
 	"wt_3": {
-		"name": "Beach/Coast, Eldritch Forest",
+		"name": "Encounters: Beach/Coast, Eldritch Forest",
 		"subtitle": "Wilderness Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -1894,7 +1894,7 @@
 		]
 	},
 	"wt_4": {
-		"name": "Oasis, Polar",
+		"name": "Encounters: Oasis, Polar",
 		"subtitle": "Wilderness Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -1975,7 +1975,7 @@
 		]
 	},
 	"wt_5": {
-		"name": "Sky, Temperate Plains",
+		"name": "Encounters: Sky, Temperate Plains",
 		"subtitle": "Wilderness Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -2056,7 +2056,7 @@
 		]
 	},
 	"wt_6": {
-		"name": "Volcano, Wasteland",
+		"name": "Encounters: Volcano, Wasteland",
 		"subtitle": "Wilderness Toolbox, Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [

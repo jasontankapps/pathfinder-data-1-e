@@ -2794,6 +2794,7 @@
 	},
 	"dedicated_purpose": { "redirect": "special_purpose_items" },
 	"purpose": { "redirect": "special_purpose_items" },
+	"special_purpose": { "redirect": "special_purpose_items" },
 	"dedicated_powers": {
 		"name": "Dedicated Powers",
 		"subtitle": "Intelligent Magic Items",

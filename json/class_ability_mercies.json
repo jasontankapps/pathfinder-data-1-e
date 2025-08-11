@@ -115,7 +115,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook", 62 ] ],
 		"category": "9",
 		"description": [
-			"The target is no longer exhausted. The paladin must have the {mercy/fatigue} mercy before selecting this mercy."
+			"The target is no longer exhausted. The paladin must have the {mercy/fatigued} mercy before selecting this mercy."
 		]
 	},
 	"frightened": {

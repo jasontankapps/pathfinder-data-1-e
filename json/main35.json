@@ -974,5 +974,41 @@
 	"cure_spells": { "redirect": "spell_groupings" },
 	"inflict_spells": { "redirect": "spell_groupings" },
 	"symbol_spells": { "redirect": "spell_groupings" },
-	"detect_spells": { "redirect": "spell_groupings" }
+	"detect_spells": { "redirect": "spell_groupings" },
+	"encounter_tables": {
+		"name": "Random Encounter Tables",
+		"description": [
+			":::item",
+			"",
+			"The following is a list of all the random encounter tables found in this app.",
+			"",
+			"### Urban Locations",
+			"",
+			"- [Arena, Castle/Estate, and Menagerie/Museum](rule/ut_3)",
+			"- [Rooftops and Sewers](rule/ut_4)",
+			"- [Slums, Taverns, and Thieves' Guilds](rule/ut_5)",
+			"",
+			"### Terrains",
+			"",
+			"- [Beach/Coast terrain and Eldritch Forests](rule/wt_3)",
+			"- [Oases and Polar terrain](rule/wt_4)",
+			"- [Sky and Temperate Plains terrains](rule/wt_5)",
+			"- [Volano and Wasteland terrains](rule/wt_6)",
+			"",
+			"### Special Locations",
+			"",
+			"- [Dragon's Lair, Goblin Den, and Graveyard/Necropolis](rule/dt_4)",
+			"- [Lost Jungle City, Planar Stronghold, and Underwater Ruins](rule/dt_5)",
+			"- [Unholy Temple and Wizard's Laboratory](rule/dt_6)",
+			"",
+			"The Planes",
+			"",
+			"- [Astral Plane, Etheral Plane, and Shadow Plane](rule/pt_2)",
+			"- [Chaos-, Law-, Good-, Evil-, and Neutral-Aligned Planes](rule/pt_3)",
+			"- [Elemental Planes (Air, Earth, Fire, Water)](rule/pt_4)",
+			"",
+			":::"
+		],
+		"searchgroup": "rule"
+	}
 }

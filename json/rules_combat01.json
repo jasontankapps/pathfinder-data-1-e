@@ -2710,6 +2710,7 @@
 			"two_weapon_fighting"
 		]
 	},
+	"off_hand": { "redirect": "two_weapon_fighting" },
 	"delay": {
 		"name": "Delay",
 		"subtitle": "Combat",
