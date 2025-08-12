@@ -2579,20 +2579,27 @@
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Crown of Blasting (Minor)",
+			"## Crown of Blasting",
 			"",
 			"{SOURCE Ultimate Equipment/241;PRPG Core Rulebook/507}  ",
-			"**Aura** moderate evocation; **CL** 6th  ",
-			"**Slot** head; **Price** 6,480 gp; **Weight** 1 lb.",
+			"**Aura** moderate (minor) or strong (major) evocation; **CL** 6th (minor), 17th (major)  ",
+			"**Slot** head; **Price** 6,480 gp (minor), 23,760 gp (major); **Weight** 1 lb.",
 			"",
-			"On command, this simple golden crown projects a blast of *searing light* (3d8 points of damage) once per day.",
+			"@HL[Minor:] On command, this simple golden crown projects a blast of *searing light* (3d8 points of damage) once per day.",
+			"",
+			"@HL[Major]: On command, this elaborate golden crown projects a blast of *searing light* (5d8 maximized for 40 points of damage) once per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/searing light}; **Cost** 3,240 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Maximize Spell} (major only), {spell/searing light}; **Cost** 3,240 gp (minor), 11,880 gp (major)"
 		]
 	},
 	"minor_crown_of_blasting": { "redirect": "crown_of_blasting_minor" },
+	"crown_of_blasting_major": {
+		"name": "Crown of Blasting (Major)",
+		"copyof": "crown_of_blasting_minor"
+	},
+	"major_crown_of_blasting": { "redirect": "crown_of_blasting_major" },
 	"aspect_mask": {
 		"name": "Aspect Mask",
 		"sources": [ "Advanced Class Guide" ],
@@ -3697,27 +3704,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/miasmatic form}; **Cost** 11,500 gp"
 		]
 	},
-	"crown_of_blasting_major": {
-		"name": "Crown of Blasting (Major)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Crown of Blasting (Major)",
-			"",
-			"{SOURCE Ultimate Equipment/241;PRPG Core Rulebook/507}  ",
-			"**Aura** strong evocation; **CL** 17th  ",
-			"**Slot** head; **Price** 23,760 gp; **Weight** 1 lb.",
-			"",
-			"On command, this elaborate golden crown projects a blast of *searing light* (5d8 maximized for 40 points of damage) once per day.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Maximize Spell}, {spell/searing light}; **Cost** 11,880 gp"
-		]
-	},
-	"major_crown_of_blasting": { "redirect": "crown_of_blasting_major" },
 	"crystal_helm": {
 		"name": "Crystal Helm",
 		"sources": [ "Blood of the Sea" ],

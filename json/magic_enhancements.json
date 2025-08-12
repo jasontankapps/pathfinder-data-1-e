@@ -187,7 +187,7 @@
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** none; **Price** +1 bonus; **Weight** -",
 			"",
-			"Armor with this enhancement is specially designed for the holy warriors of {faith/Iomedae}. As a swift action, a {class/paladin} or good {class/warpriest} wearing this armor can expend one use of the {ability/lay on hands} or fervor ability to activate the armor's protective aura for 1 minute. This protective aura grants the wearer a +2 sacred bonus to AC. This bonus increases to +3 against evil dragons, evil outsiders, and undead.",
+			"Armor with this enhancement is specially designed for the holy warriors of {faith/Iomedae}. As a swift action, a {class/paladin} or good {class/warpriest} wearing this armor can expend one use of the {ability/lay on hands} or {class/fervor} ability to activate the armor's protective aura for 1 minute. This protective aura grants the wearer a +2 sacred bonus to AC. This bonus increases to +3 against evil dragons, evil outsiders, and undead.",
 			"",
 			"### Construction",
 			"",

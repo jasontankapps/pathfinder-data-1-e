@@ -2175,6 +2175,7 @@
 			"two_weapon_fighting"
 		]
 	},
+	"charging": { "redirect": "charge" },
 	"combat_maneuvers": {
 		"name": "Combat Maneuvers",
 		"tags": "CMB CMD combat maneuver bonus combat maneuver defense",

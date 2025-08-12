@@ -1347,20 +1347,27 @@
 		"name": "Stone Cloak (Minor)",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
-			"## Stone Cloak (Minor)",
+			"## Stone Cloak",
 			"",
-			"{SOURCE Ultimate Equipment/269}  ",
-			"**Aura** faint abjuration; **CL** 5th  ",
-			"**Slot** shoulders; **Price** 10,000 gp; **Weight** 1 lb.",
+			"{SOURCE Ultimate Equipment/268-9}  ",
+			"**Aura** faint (minor) or moderate (major) abjuration; **CL** 5th (minor), 8th (major)  ",
+			"**Slot** shoulders; **Price** 10,000 gp (minor), 20,000 gp (major); **Weight** 1 lb.",
 			"",
-			"This mottled gray cloak looks like granite or some other light gray stone. The wearer can pull a minor stone cloak tight around herself and freeze in place as a move action, which causes the cloak to harden like the stone it resembles. When she does this, the wearer can take no actions other than free actions and is denied her Dexterity bonus to AC but gains DR 5/adamantine. She also gains a +5 circumstance bonus to {skill/Stealth} checks while protected in this manner. This effect can be dismissed as a free action.",
+			"@HL[Minor:] This mottled gray cloak looks like granite or some other light gray stone. The wearer can pull a minor stone cloak tight around herself and freeze in place as a move action, which causes the cloak to harden like the stone it resembles. When she does this, the wearer can take no actions other than free actions and is denied her Dexterity bonus to AC but gains DR 5/adamantine. She also gains a +5 circumstance bonus to {skill/Stealth} checks while protected in this manner. This effect can be dismissed as a free action.",
+			"",
+			"@HL[Major:] This cloak is identical to the *minor stone cloak,* save that it provides DR 10/adamantine when activated.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/stone shape}; **Cost** 5,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {spell/stone shape} (minor) or {spell/stoneskin} (major); **Cost** 5,000 gp (minor), 10,000 gp (major)"
 		]
 	},
 	"minor_stone_cloak": { "redirect": "stone_cloak_minor" },
+	"stone_cloak_major": {
+		"name": "Stone Cloak (Major)",
+		"copyof": "stone_cloak_minor"
+	},
+	"major_stone_cloak": { "redirect": "stone_cloak_major" },
 	"caparison_of_resistance_2_bonus": {
 		"name": "Caparison of Resistance (+2 bonus)",
 		"copyof": "caparison_of_resistance"
@@ -1978,24 +1985,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/blade barrier}; **Cost** 10,000 gp; **Cost** 10,000 gp"
 		]
 	},
-	"stone_cloak_major": {
-		"name": "Stone Cloak (Major)",
-		"sources": [ "Ultimate Equipment" ],
-		"description": [
-			"## Stone Cloak (Major)",
-			"",
-			"{SOURCE Ultimate Equipment/268}  ",
-			"**Aura** moderate abjuration; **CL** 8th  ",
-			"**Slot** shoulders; **Price** 20,000 gp; **Weight** 1 lb.",
-			"",
-			"This cloak is identical to the {magic-wondrous/minor stone cloak}, save that it provides DR 10/adamantine when activated.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/stoneskin}; **Cost** 10,000 gp"
-		]
-	},
-	"major_stone_cloak": { "redirect": "stone_cloak_major" },
 	"reapers_wisdom": {
 		"name": "Reaper's Wisdom",
 		"sources": [ "Potions and Poisons" ],
@@ -2098,20 +2087,27 @@
 			"PRPG Core Rulebook"
 		],
 		"description": [
-			"## Cloak of Displacement (Minor)",
+			"## Cloak of Displacement",
 			"",
-			"{SOURCE Ultimate Equipment/262;PRPG Core Rulebook/507}  ",
-			"**Aura** faint illusion; **CL** 3rd  ",
-			"**Slot** shoulders; **Price** 24,000 gp; **Weight** 1 lb.",
+			"{SOURCE Ultimate Equipment/262;PRPG Core Rulebook/506-7}  ",
+			"**Aura** faint (minor) or moderate (major) illusion; **CL** 3rd (minor), 7th (major)  ",
+			"**Slot** shoulders; **Price** 24,000 gp (minor), 50,000 gp (major); **Weight** 1 lb.",
 			"",
-			"This item appears to be a normal cloak, with a pattern very similar to a {magic-wondrous/major cloak of displacement} nocturnal designs, but when worn its magical properties distort and warp light waves. This displacement works similar to the *blur* spell, granting a 20% miss chance on attacks against the wearer. It functions continually.",
+			"@HL[Minor:] This item appears to be a normal cloak, with a pattern very similar to a {magic-wondrous/major cloak of displacement} nocturnal designs, but when worn its magical properties distort and warp light waves. This displacement works similar to the *blur* spell, granting a 20% miss chance on attacks against the wearer. It functions continually.",
+			"",
+			"@HL[Major:] Embroidered with images of falling stars and pale moons, this item appears to be a normal cloak, but on command its magical properties distort and warp light waves. This displacement works just like the *displacement* spell and lasts for a total of 15 rounds per day, which the wearer can divide up as she sees fit.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/blur}; **Cost** 12,000 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell} (major only), {spell/blur} (minor only), {spell/displacement} (major only) ; **Cost** 12,000 gp (minor), 25,000 gp (major)"
 		]
 	},
 	"minor_cloak_of_displacement": { "redirect": "cloak_of_displacement_minor" },
+	"cloak_of_displacement_major": {
+		"name": "Cloak of Displacement (Major)",
+		"copyof": "cloak_of_displacement_minor"
+	},
+	"major_cloak_of_displacement": { "redirect": "cloak_of_displacement_major" },
 	"caparison_of_resistance_3_bonus": {
 		"name": "Caparison of Resistance (+3 bonus)",
 		"copyof": "caparison_of_resistance"
@@ -2338,27 +2334,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/death ward}; **Cost** 24,000 gp"
 		]
 	},
-	"cloak_of_displacement_major": {
-		"name": "Cloak of Displacement (Major)",
-		"sources": [
-			"Ultimate Equipment",
-			"PRPG Core Rulebook"
-		],
-		"description": [
-			"## Cloak of Displacement (Major)",
-			"",
-			"{SOURCE Ultimate Equipment/262;PRPG Core Rulebook/506}  ",
-			"**Aura** moderate illusion; **CL** 7th  ",
-			"**Slot** shoulders; **Price** 50,000 gp; **Weight** 1 lb.",
-			"",
-			"Embroidered with images of falling stars and pale moons, this item appears to be a normal cloak, but on command its magical properties distort and warp light waves. This displacement works just like the *displacement* spell and lasts for a total of 15 rounds per day, which the wearer can divide up as she sees fit.",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Extend Spell}, {spell/displacement}; **Cost** 25,000 gp"
-		]
-	},
-	"major_cloak_of_displacement": { "redirect": "cloak_of_displacement_major" },
 	"wings_of_flying": {
 		"name": "Wings of Flying",
 		"sources": [

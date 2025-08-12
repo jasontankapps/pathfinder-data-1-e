@@ -2200,7 +2200,7 @@
 			"",
 			"Whether as predator or prey, you have learned to move like the arctic wind when survival is at stake.  ",
 			"**Prerequisites:** Acrobatics 5 ranks.  ",
-			"**Benefit:** While {rule/charg/ing>e}, {rule/run/ning}, or {rule/withdraw/ing}, you gain a +10 foot enhancement bonus to your base speed. This bonus also applies to your speed when calculating {rule/overland movement} in any plains terrain. You lose the benefits of this feat while you are wearing heavy armor or carrying a heavy load."
+			"**Benefit:** While {rule/charging}, {rule/run/ning}, or {rule/withdraw/ing}, you gain a +10 foot enhancement bonus to your base speed. This bonus also applies to your speed when calculating {rule/overland movement} in any plains terrain. You lose the benefits of this feat while you are wearing heavy armor or carrying a heavy load."
 		]
 	},
 	"tunnel_rat": {
@@ -2767,7 +2767,7 @@
 			"",
 			"You can exploit the weaknesses in your opponents' defenses, like a flame seeking fuel to consume.  ",
 			"**Prerequisites:** Int 13; Wis 13; {feat/Combat Expertise}; {feat/Perfect Style}; {feat/Stunning Fist}; {feat/Unblinking Flame Feint}; base attack bonus +13 or monk level 13th.  ",
-			"**Benefit:** When using Perfect Style, the save DC of your stunning fist attack increases by 2 against {rule/flat-footed} targets. When you spend 1 ki point to gain the benefits of {feat/Improved Feint} for 1 round, you can attempt a {rule/feint} as part of your movement when {rule/charg/ing>e}.",
+			"**Benefit:** When using Perfect Style, the save DC of your stunning fist attack increases by 2 against {rule/flat-footed} targets. When you spend 1 ki point to gain the benefits of {feat/Improved Feint} for 1 round, you can attempt a {rule/feint} as part of your movement when {rule/charging}.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Weapon Master's Handbook/25}",

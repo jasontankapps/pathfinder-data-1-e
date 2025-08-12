@@ -981,6 +981,7 @@
 			"**Strangled Shade:** A strangled shade was asphyxiated by a murderer, and when it invades a victim's lungs, hand-shaped bruises arise on the victim's throat. Each round a strangled shade occupies a host, the victim takes 1d4 points of bludgeoning damage, and after the strangled shade is expelled from the lungs, the victim can't speak until an hour passes or receiving any amount of magical healing (whichever comes first)."
 		]
 	},
+	"drowned_shade": { "redirect": "choking_shade" },
 	"chon_chon": {
 		"name": "Chon Chon",
 		"sources": [ "Pathfinder #53: Tide of Honor" ],

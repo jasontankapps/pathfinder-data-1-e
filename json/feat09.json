@@ -2956,7 +2956,7 @@
 			"{SOURCE Distant Realms/33}",
 			"",
 			"You have developed a deep rapport with your comrades that allows you to swiftly convey divine grace.  ",
-			"**Prerequisites:** Fervor or {ability/lay on hands} class feature.  ",
+			"**Prerequisites:** {class/Fervor} or {ability/lay on hands} class feature.  ",
 			"**Benefit:** You can use your lay on hands or the healing granted by fervor on allies with this feat as a swift action."
 		]
 	},

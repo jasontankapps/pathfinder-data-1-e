@@ -1317,6 +1317,7 @@
 			}
 		]
 	},
+	"fervor": { "redirect": "warpriest" },
 	"witch": {
 		"name": "Witch",
 		"sources": [
