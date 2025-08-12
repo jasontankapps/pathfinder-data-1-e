@@ -2803,6 +2803,7 @@
 		]
 	},
 	"dire_wolf": { "redirect": "wolf_dire_wolf" },
+	"dire_wolves": { "redirect": "wolf_dire_wolf" },
 	"wolf_dire": { "redirect": "wolf_dire_wolf" },
 	"wolf_timber_wolf": {
 		"name": "Timber Wolf",
@@ -3047,11 +3048,11 @@
 			"",
 			"### Regional Variants",
 			"",
-			"The statistics on the facing page represent the most common breed of wolliped native to the Drakelands, the Allied Territories, and the Skyfire Mandate. In addition to these, a multitude of other breeds exist throughout Triaxus.",
+			"The statistics above represent the most common breed of wolliped native to the Drakelands, the Allied Territories, and the Skyfire Mandate. In addition to these, a multitude of other breeds exist throughout Triaxus.",
 			"",
-			"Alurals: Triaxians of the Unbound Tribes breed the best wollipeds for battle, with their steeds recognized worldwide as being the strongest and most aggressive. Alurals are also the only known breed of wolliped that is carnivorous. Tribes here collect wolliped milk, fermenting it into a potent alcoholic beverage used for rituals, feasts, and holy days. Alurals have the advanced simple template.",
+			"@HL[Alurals:] Triaxians of the Unbound Tribes breed the best wollipeds for battle, with their steeds recognized worldwide as being the strongest and most aggressive. Alurals are also the only known breed of wolliped that is carnivorous. Tribes here collect wolliped milk, fermenting it into a potent alcoholic beverage used for rituals, feasts, and holy days. Alurals have the advanced simple template.",
 			"",
-			"Ningese Wollipeds: The remote nation of Ning breeds the smallest wollipeds on Triaxus. Ningese wollipeds are quick and nimble, using these traits to elude the hordes of monsters threatening the civilized regions of the nation. Wollipeds here are primarily used for fleece and food. In the summer, Ningese wollipeds grow to Medium size and their speed increases by 10 feet. Ningese wollipeds born in the harsh winter are Small and have 2 fewer Hit Dice; their Strength and Constitution decreases by 2, and their Dexterity increases by 2."
+			"@HL[Ningese Wollipeds:] The remote nation of Ning breeds the smallest wollipeds on Triaxus. Ningese wollipeds are quick and nimble, using these traits to elude the hordes of monsters threatening the civilized regions of the nation. Wollipeds here are primarily used for fleece and food. In the summer, Ningese wollipeds grow to Medium size and their speed increases by 10 feet. Ningese wollipeds born in the harsh winter are Small and have 2 fewer Hit Dice; their Strength and Constitution decreases by 2, and their Dexterity increases by 2."
 		]
 	},
 	"wolliped_combat_trained": { "redirect": "wolliped_wolliped_combat_trained" },
@@ -3123,11 +3124,11 @@
 			"",
 			"### Regional Variants",
 			"",
-			"The statistics on the facing page represent the most common breed of wolliped native to the Drakelands, the Allied Territories, and the Skyfire Mandate. In addition to these, a multitude of other breeds exist throughout Triaxus.",
+			"The statistics above represent the most common breed of wolliped native to the Drakelands, the Allied Territories, and the Skyfire Mandate. In addition to these, a multitude of other breeds exist throughout Triaxus.",
 			"",
-			"Alurals: Triaxians of the Unbound Tribes breed the best wollipeds for battle, with their steeds recognized worldwide as being the strongest and most aggressive. Alurals are also the only known breed of wolliped that is carnivorous. Tribes here collect wolliped milk, fermenting it into a potent alcoholic beverage used for rituals, feasts, and holy days. Alurals have the advanced simple template.",
+			"@HL[Alurals:] Triaxians of the Unbound Tribes breed the best wollipeds for battle, with their steeds recognized worldwide as being the strongest and most aggressive. Alurals are also the only known breed of wolliped that is carnivorous. Tribes here collect wolliped milk, fermenting it into a potent alcoholic beverage used for rituals, feasts, and holy days. Alurals have the advanced simple template.",
 			"",
-			"Ningese Wollipeds: The remote nation of Ning breeds the smallest wollipeds on Triaxus. Ningese wollipeds are quick and nimble, using these traits to elude the hordes of monsters threatening the civilized regions of the nation. Wollipeds here are primarily used for fleece and food. In the summer, Ningese wollipeds grow to Medium size and their speed increases by 10 feet. Ningese wollipeds born in the harsh winter are Small and have 2 fewer Hit Dice; their Strength and Constitution decreases by 2, and their Dexterity increases by 2."
+			"@HL[Ningese Wollipeds:] The remote nation of Ning breeds the smallest wollipeds on Triaxus. Ningese wollipeds are quick and nimble, using these traits to elude the hordes of monsters threatening the civilized regions of the nation. Wollipeds here are primarily used for fleece and food. In the summer, Ningese wollipeds grow to Medium size and their speed increases by 10 feet. Ningese wollipeds born in the harsh winter are Small and have 2 fewer Hit Dice; their Strength and Constitution decreases by 2, and their Dexterity increases by 2."
 		]
 	},
 	"wolliped_domesticated_or_wild": { "redirect": "wolliped_wolliped_domesticated_or_wild" },
@@ -3387,6 +3388,7 @@
 		]
 	},
 	"winter_wolf": { "redirect": "worg_winter_wolf" },
+	"winter_wolves": { "redirect": "worg_winter_wolf" },
 	"worm_that_walks_locust_variant": {
 		"name": "Worm That Walks, Locust Variant",
 		"sources": [ "Pathfinder #75: Demon's Heresy" ],

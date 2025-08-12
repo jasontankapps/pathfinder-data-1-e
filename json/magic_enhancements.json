@@ -651,7 +651,7 @@
 			"**Aura** varies; **CL** 5th  ",
 			"**Slot** none; **Price** (+3,750 gp), Improved (+15,000 gp), Greater (+33,750 gp); **Weight** -",
 			"",
-			"This sleek and mobile armor is magically streamlined to assist in swimming rather than making swimming more difficult, granting the wearer a +5 competence bonus on Swim checks for aquadynamic armor, a +10 competence bonus on Swim checks for improved aquadynamic armor, and a +15 competence bonus on Swim checks for greater aquadynamic armor.",
+			"This sleek and mobile armor is magically streamlined to assist in swimming rather than making swimming more difficult, granting the wearer a +5 competence bonus on {skill/Swim} checks for aquadynamic armor, a +10 competence bonus on Swim checks for improved aquadynamic armor, and a +15 competence bonus on Swim checks for greater aquadynamic armor.",
 			"",
 			"### Construction",
 			"",

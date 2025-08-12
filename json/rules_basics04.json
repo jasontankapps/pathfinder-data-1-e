@@ -2307,6 +2307,7 @@
 			"selling_a_spellbook"
 		]
 	},
+	"adding_spells": { "redirect": "adding_spells_to_a_wizards_spellbook" },
 	"writing_a_new_spell_into_a_spellbook": {
 		"name": "Writing a New Spell into a Spellbook",
 		"sources": [ "PRPG Core Rulebook" ],
