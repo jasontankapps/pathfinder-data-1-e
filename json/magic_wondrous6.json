@@ -3289,23 +3289,6 @@
 			"**Requirements** {feat/Craft Wondrous Item}, {spell/daylight}, {spell/detect evil}, creator must worship {faith/Sarenrae}; **Cost** 20,000 gp"
 		]
 	},
-	"discriminating_cube": {
-		"name": "Discriminating Cube",
-		"sources": [ "Classic Treasures Revisited" ],
-		"description": [
-			"## Discriminating Cube",
-			"",
-			"{SOURCE Classic Treasures Revisited/13}  ",
-			"**Aura** moderate evocation; **CL** 10th  ",
-			"**Slot** none; **Price** 40,000 gp; **Weight** 1/2 lb.",
-			"",
-			"This cube of force only creates one type of screen, which excludes living matter. Each of the five active faces sets the screen to exclude a different type of living matter (using the same categories as the {magic-enh/bane} weapon special ability).",
-			"",
-			"### Construction",
-			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/summon monster I}, {spell/wall of force}; **Cost** 20,000 gp"
-		]
-	},
 	"doorknobs_of_peregrination": {
 		"name": "Doorknobs of Peregrination",
 		"sources": [ "Villain Codex" ],

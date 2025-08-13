@@ -499,6 +499,7 @@
 			"**Effect** spell effect ({spell/summon monster VI}, summons 1d3 Large elementals or 1 Huge elemental)"
 		]
 	},
+	"summon_monster_trap": { "redirect": "summon_monster_vi_trap" },
 	"camouflaged_spiked_pit_trap": {
 		"name": "Camouflaged Spiked Pit Trap",
 		"sources": [ "PRPG Core Rulebook" ],

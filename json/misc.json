@@ -88,6 +88,7 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
+	"fascinate": { "redirect": "fascinated" },
 	"helpless": {
 		"name": "Helpless",
 		"tags": "coup de grace",

@@ -4188,6 +4188,7 @@
 		"name": "Sureseal bladder (potion)",
 		"copyof": "sureseal_bladder_mundane"
 	},
+	"potion_sureseal_bladder": { "redirect": "sureseal_bladder_potion" },
 	"surge_syrup": {
 		"name": "Surge syrup",
 		"sources": [ "Alchemy Manual" ],

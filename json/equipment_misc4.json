@@ -4809,6 +4809,7 @@
 		"name": "Zip-line hook (normal)",
 		"copyof": "zip_line_hook_masterwork"
 	},
+	"zip_line_hook": { "redirect": "zip_line_hook_normal" },
 	"zombie_slayers_kit": {
 		"name": "Zombie slayer's kit",
 		"sources": [ "Undead Slayer's Handbook" ],

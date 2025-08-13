@@ -3588,6 +3588,7 @@
 	"ability_drain": { "redirect": "ability_damage_drain" },
 	"ability_damage": { "redirect": "ability_damage_drain" },
 	"ab_damage": { "redirect": "ability_damage_drain" },
+	"ab_drain": { "redirect": "ability_damage_drain" },
 	"constitution_damage": { "redirect": "ability_damage_drain" },
 	"strength_damage": { "redirect": "ability_damage_drain" },
 	"dexterity_damage": { "redirect": "ability_damage_drain" },
