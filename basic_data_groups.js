@@ -209,16 +209,17 @@ import magicartifact2 from './json/magic_artifact2.json' with {type: 'json'};
 import magicartifact3 from './json/magic_artifact3.json' with {type: 'json'};
 import magicweapon1 from './json/magic_weapon.json' with {type: 'json'};
 import magicweapon2 from './json/magic_weapon2.json' with {type: 'json'};
-import magicwondrous1 from './json/magic_wondrous.json' with {type: 'json'};
-import magicwondrous2 from './json/magic_wondrous2.json' with {type: 'json'};
-import magicwondrous3 from './json/magic_wondrous3.json' with {type: 'json'};
-import magicwondrous4 from './json/magic_wondrous4.json' with {type: 'json'};
-import magicwondrous5 from './json/magic_wondrous5.json' with {type: 'json'};
-import magicwondrous6 from './json/magic_wondrous6.json' with {type: 'json'};
-import magicwondrous7 from './json/magic_wondrous7.json' with {type: 'json'};
-import magicwondrous8 from './json/magic_wondrous8.json' with {type: 'json'};
-import magicwondrous9 from './json/magic_wondrous9.json' with {type: 'json'};
-import magicwondrous10 from './json/magic_wondrous10.json' with {type: 'json'};
+import magicwondrous1 from './json/magic_wondrous_belt_body_chest.json' with {type: 'json'};
+import magicwondrous2 from './json/magic_wondrous_eyes_feet_hands.json' with {type: 'json'};
+import magicwondrous3 from './json/magic_wondrous_head_headband.json' with {type: 'json'};
+import magicwondrous4 from './json/magic_wondrous_neck.json' with {type: 'json'};
+import magicwondrous5 from './json/magic_wondrous_shoulders_wrists.json' with {type: 'json'};
+import magicwondrous6 from './json/magic_wondrous_slotless01.json' with {type: 'json'};
+import magicwondrous7 from './json/magic_wondrous_slotless02.json' with {type: 'json'};
+import magicwondrous8 from './json/magic_wondrous_slotless03.json' with {type: 'json'};
+import magicwondrous9 from './json/magic_wondrous_slotless04.json' with {type: 'json'};
+import magicwondrous10 from './json/magic_wondrous_slotless05.json' with {type: 'json'};
+import magicwondrous11 from './json/magic_wondrous_slotless06.json' with {type: 'json'};
 import main1 from './json/main.json' with {type: 'json'};
 import main2 from './json/main02.json' with {type: 'json'};
 import main3 from './json/main03.json' with {type: 'json'};
@@ -2256,7 +2257,7 @@ const basic_data_groups = {
 		num: 2,
 		type: "Magic Weapon"
 	},
-	"magic_wondrous": {
+	"magic_wondrous_belt_body_chest": {
 		data: magicwondrous1,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
@@ -2264,7 +2265,7 @@ const basic_data_groups = {
 		num: 1,
 		type: "Wondrous Item"
 	},
-	"magic_wondrous2": {
+	"magic_wondrous_eyes_feet_hands": {
 		data: magicwondrous2,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
@@ -2272,7 +2273,7 @@ const basic_data_groups = {
 		num: 2,
 		type: "Wondrous Item"
 	},
-	"magic_wondrous3": {
+	"magic_wondrous_head_headband": {
 		data: magicwondrous3,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
@@ -2280,7 +2281,7 @@ const basic_data_groups = {
 		num: 3,
 		type: "Wondrous Item"
 	},
-	"magic_wondrous4": {
+	"magic_wondrous_neck": {
 		data: magicwondrous4,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
@@ -2288,7 +2289,7 @@ const basic_data_groups = {
 		num: 4,
 		type: "Wondrous Item"
 	},
-	"magic_wondrous5": {
+	"magic_wondrous_shoulders_wrists": {
 		data: magicwondrous5,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
@@ -2296,7 +2297,7 @@ const basic_data_groups = {
 		num: 5,
 		type: "Wondrous Item"
 	},
-	"magic_wondrous6": {
+	"magic_wondrous_slotless01": {
 		data: magicwondrous6,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
@@ -2304,7 +2305,7 @@ const basic_data_groups = {
 		num: 6,
 		type: "Wondrous Item"
 	},
-	"magic_wondrous7": {
+	"magic_wondrous_slotless02": {
 		data: magicwondrous7,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
@@ -2312,7 +2313,7 @@ const basic_data_groups = {
 		num: 7,
 		type: "Wondrous Item"
 	},
-	"magic_wondrous8": {
+	"magic_wondrous_slotless03": {
 		data: magicwondrous8,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
@@ -2320,7 +2321,7 @@ const basic_data_groups = {
 		num: 8,
 		type: "Wondrous Item"
 	},
-	"magic_wondrous9": {
+	"magic_wondrous_slotless04": {
 		data: magicwondrous9,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
@@ -2328,12 +2329,20 @@ const basic_data_groups = {
 		num: 9,
 		type: "Wondrous Item"
 	},
-	"magic_wondrous10": {
+	"magic_wondrous_slotless05": {
 		data: magicwondrous10,
 		searchgroup: 5, // magic
 		link: "magic-wondrous",
 		exportablelink: "magicwondrous",
 		num: 10,
+		type: "Wondrous Item"
+	},
+	"magic_wondrous_slotless06": {
+		data: magicwondrous11,
+		searchgroup: 5, // magic
+		link: "magic-wondrous",
+		exportablelink: "magicwondrous",
+		num: 11,
 		type: "Wondrous Item"
 	},
 	"spells": {
