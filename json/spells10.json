@@ -225,12 +225,15 @@
 	},
 	"swallow_your_fear": {
 		"name": "Swallow Your Fear",
-		"sources": [ "Pathfinder #35: War of the River Kings" ],
+		"sources": [
+			"Pathfinder #35: War of the River Kings",
+			"Inner Sea Gods"
+		],
 		"description": [
 			"## Swallow Your Fear",
 			"",
 			"{SOURCE Pathfinder #35: War of the River Kings/73}  ",
-			"**School** {spelldef/enchantment}; **Level** bard 1, cleric 1, oracle 1, skald 1, warpriest 1 (Gorum)  ",
+			"**School** {spelldef/enchantment}; **Level** bard 1, cleric 1, oracle 1, skald 1, warpriest 1 (Gorum)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -238,7 +241,9 @@
 			"**Duration** 10 minutes; see text  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"You make the affected subjects ready for battle despite their fear. If a target is suffering from a {rule/fear /effect>conditions} of any kind, he gains a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a -2 penalty to AC. If the subject is frightened, he remains in place and gains the {rule/awareness<confused| condition>s} for the remainder of the fear effect, except he treats all results of \"attack self\" as \"do nothing\" and treats \"attack nearest creature\" as \"act normally.\" If the subject is panicked, he remains in place and gains the confused condition for the duration of the fear effect."
+			"You make the affected subjects ready for battle despite their fear. If a target is suffering from a {rule/fear /effect>conditions} of any kind, he gains a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a -2 penalty to AC. If the subject is frightened, he remains in place and gains the {rule/awareness<confused| condition>s} for the remainder of the fear effect, except he treats all results of \"attack self\" as \"do nothing\" and treats \"attack nearest creature\" as \"act normally.\" If the subject is panicked, he remains in place and gains the confused condition for the duration of the fear effect.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"swarm_of_fangs": {
@@ -887,12 +892,15 @@
 	},
 	"sympathetic_wounds": {
 		"name": "Sympathetic Wounds",
-		"sources": [ "Gods and Magic" ],
+		"sources": [
+			"Gods and Magic",
+			"Inner Sea Gods"
+		],
 		"description": [
 			"## Sympathetic Wounds",
 			"",
 			"{SOURCE Gods and Magic/43}  ",
-			"**School** {spelldef/abjuration} [{spelldef/evil}]; **Level** cleric 2, druid 2, hunter 2, oracle 2, warpriest 2 (Zon-Kuthon)  ",
+			"**School** {spelldef/abjuration} [{spelldef/evil}]; **Level** cleric 2, druid 2, hunter 2, oracle 2, warpriest 2 (Zon-Kuthon)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, M (250 gp of powdered amber)  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -900,7 +908,9 @@
 			"**Duration** Will negates  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell functions like {spell/shield other}, except some of your wounds transfer to the targeted creature rather than some of their wounds transferring to you. For example, you could link yourself to a nearby chained slave so that when you are wounded, some of the damage is transferred to the slave. You must have at least as many hit dice as the target, otherwise the spell fails. A creature can only be under the effects of one instance of this spell at a time."
+			"This spell functions like {spell/shield other}, except some of your wounds transfer to the targeted creature rather than some of their wounds transferring to you. For example, you could link yourself to a nearby chained slave so that when you are wounded, some of the damage is transferred to the slave. You must have at least as many hit dice as the target, otherwise the spell fails. A creature can only be under the effects of one instance of this spell at a time.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"sympathy": {
@@ -1083,12 +1093,15 @@
 	},
 	"tactical_formation": {
 		"name": "Tactical Formation",
-		"sources": [ "Dwarves of Golarion" ],
+		"sources": [
+			"Dwarves of Golarion",
+			"Inner Sea Gods"
+		],
 		"description": [
 			"## Tactical Formation",
 			"",
 			"{SOURCE Dwarves of Golarion/23}  ",
-			"**School** {spelldef/abjuration}; **Level** cleric 3, hunter 4, oracle 3, paladin 3, ranger 4, warpriest 3 (Torag)  ",
+			"**School** {spelldef/abjuration}; **Level** cleric 3, hunter 4, oracle 3, paladin 3, ranger 4, warpriest 3 (Torag)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -1096,7 +1109,9 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"This spell increases the effectiveness of a group's formation in battle. When cast, all creatures under the effect of the spell must be adjacent to one another, forming an unbroken chain of squares (which may include creatures sharing the same square). This chain does not need to be a straight line. Each target in the chain receives a +2 deflection bonus to AC as long as the targets stay adjacent to at least one other creature affected by the spell; moving more than 5 feet from another target ends the spell with respect to that creature only. For example, a cleric could cast it on himself and four dwarves blocking a 20-foot-wide corridor; the cleric can move freely from the left side of the formation to the right side (whether in front of or behind the other targets) and not break the spell as long as he stays within 5 feet of at least one of them."
+			"This spell increases the effectiveness of a group's formation in battle. When cast, all creatures under the effect of the spell must be adjacent to one another, forming an unbroken chain of squares (which may include creatures sharing the same square). This chain does not need to be a straight line. Each target in the chain receives a +2 deflection bonus to AC as long as the targets stay adjacent to at least one other creature affected by the spell; moving more than 5 feet from another target ends the spell with respect to that creature only. For example, a cleric could cast it on himself and four dwarves blocking a 20-foot-wide corridor; the cleric can move freely from the left side of the formation to the right side (whether in front of or behind the other targets) and not break the spell as long as he stays within 5 feet of at least one of them.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"tactical_insight": {
@@ -1253,14 +1268,16 @@
 			"## Tap Inner Beauty",
 			"",
 			"{SOURCE Inner Sea Gods/243;Faiths of Purity/29}  ",
-			"**School** {spelldef/divination}; **Level** bard 1, cleric 1, oracle 1, skald 1, warpriest 1, witch 1 (Shelyn)  ",
+			"**School** {spelldef/divination}; **Level** bard 1, cleric 1, oracle 1, skald 1, warpriest 1, witch 1 (Shelyn)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, M (a tiny mirror)  ",
 			"**Range** personal  ",
 			"**Target** you  ",
 			"**Duration** 1 minute/level",
 			"",
-			"This spell allows you to tap into the natural beauty of your soul and let it shine from your eyes and your speech. While the spell is active, you gain a +2 insight bonus on all Charisma ability checks and Charisma-based skill checks."
+			"This spell allows you to tap into the natural beauty of your soul and let it shine from your eyes and your speech. While the spell is active, you gain a +2 insight bonus on all Charisma ability checks and Charisma-based skill checks.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"tar_ball": {
@@ -2903,7 +2920,7 @@
 			"## Touch of Bloodletting",
 			"",
 			"{SOURCE Inner Sea Gods/243;Faiths of Corruption/29}  ",
-			"**School** {spelldef/necromancy}; **Level** antipaladin 2, arcanist 2, bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, shaman 2, sorcerer 2, warpriest 1, witch 2, wizard 2 (Zon-Kuthon)  ",
+			"**School** {spelldef/necromancy}; **Level** antipaladin 2, arcanist 2, bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, shaman 2, sorcerer 2, warpriest 1, witch 2, wizard 2 (Zon-Kuthon)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** touch  ",
@@ -2911,7 +2928,9 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"This spell causes any existing wounds that the target possesses to bleed profusely. If the creature's current total hit points are less than its maximum, this spell causes the creature to take 1 point of bleed damage each round and become exhausted for the duration of the spell. A successful DC 15 Heal check or any spell that cures hit point damage negates the effects of this spell."
+			"This spell causes any existing wounds that the target possesses to bleed profusely. If the creature's current total hit points are less than its maximum, this spell causes the creature to take 1 point of bleed damage each round and become exhausted for the duration of the spell. A successful DC 15 Heal check or any spell that cures hit point damage negates the effects of this spell.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"touch_of_combustion": {
@@ -3298,7 +3317,7 @@
 			"## Tracking Mark",
 			"",
 			"{SOURCE Inner Sea Gods/243;Pathfinder #32: Rivers Run Red/71}  ",
-			"**School** {spelldef/evocation}; **Level** bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, paladin 1, ranger 1, warpriest 1 (Erastil)  ",
+			"**School** {spelldef/evocation}; **Level** bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, paladin 1, ranger 1, warpriest 1 (Erastil)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** S, DF  ",
 			"**Range** long (400 ft. + 40 ft./level)  ",
@@ -3306,7 +3325,9 @@
 			"**Duration** 10 minutes/level (D)  ",
 			"**Saving Throw** Will negates; **Spell Resistance** yes",
 			"",
-			"You gain a supernatural ability to detect tracks and other clues left behind by the target. You treat the DCs of all Survival checks made to track the target as if they were 5 lower than normal, and you gain a +5 bonus on Perception checks made to notice the target if it is using Stealth or recognize it if it is using Disguise."
+			"You gain a supernatural ability to detect tracks and other clues left behind by the target. You treat the DCs of all Survival checks made to track the target as if they were 5 lower than normal, and you gain a +5 bonus on Perception checks made to notice the target if it is using Stealth or recognize it if it is using Disguise.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"trade_items": {
@@ -3338,12 +3359,15 @@
 	},
 	"trail_of_the_rose": {
 		"name": "Trail of the Rose",
-		"sources": [ "Faiths of Purity" ],
+		"sources": [
+			"Faiths of Purity",
+			"Inner Sea Gods"
+		],
 		"description": [
 			"## Trail of the Rose",
 			"",
 			"{SOURCE Faiths of Purity/29}  ",
-			"**School** {spelldef/illusion} ({spelldef/phantasm}); **Level** bard 2, cleric 2, oracle 2, skald 2, warpriest 2 (Shelyn)  ",
+			"**School** {spelldef/illusion} ({spelldef/phantasm}); **Level** bard 2, cleric 2, oracle 2, skald 2, warpriest 2 (Shelyn)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** touch  ",
@@ -3351,7 +3375,9 @@
 			"**Duration** 1 hour/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell creates an illusory trail in the form of a misty and visible scent coming from the rose used as this spell's material component. When you cast this spell, the scent of the rose leaves a faint pink-tinged illusion that ripples and flows in the area. Only you and up to six creatures you designate upon casting the spell can see the illusion. To designate a creature, you must know it well. It is not enough simply to have met that creature once or heard of the creature. When you move, this illusory scent leaves a trail, though there are no telltale signs of which direction you moved if creatures designated by this spell find a middle section of the trail. This is typically used to create backtracking method for the caster's handpicked allies, useful for navigating in and out of mazes or labyrinthine cave complexes without leaving behind an obvious trail."
+			"This spell creates an illusory trail in the form of a misty and visible scent coming from the rose used as this spell's material component. When you cast this spell, the scent of the rose leaves a faint pink-tinged illusion that ripples and flows in the area. Only you and up to six creatures you designate upon casting the spell can see the illusion. To designate a creature, you must know it well. It is not enough simply to have met that creature once or heard of the creature. When you move, this illusory scent leaves a trail, though there are no telltale signs of which direction you moved if creatures designated by this spell find a middle section of the trail. This is typically used to create backtracking method for the caster's handpicked allies, useful for navigating in and out of mazes or labyrinthine cave complexes without leaving behind an obvious trail.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"transfer_familiar": {
@@ -3741,13 +3767,14 @@
 		"name": "Traveling Dream",
 		"sources": [
 			"Gods and Magic",
-			"Pathfinder #2: The Skinsaw Murders"
+			"Pathfinder #2: The Skinsaw Murders",
+			"Inner Sea Gods"
 		],
 		"description": [
 			"## Traveling Dream",
 			"",
 			"{SOURCE Gods and Magic/13;Pathfinder #2: The Skinsaw Murders/72}  ",
-			"**School** {spelldef/divination} ({spelldef/scrying}); **Level** cleric 4, druid 4, hunter 4, oracle 4, warpriest 4 (Desna)  ",
+			"**School** {spelldef/divination} ({spelldef/scrying}); **Level** cleric 4, druid 4, hunter 4, oracle 4, warpriest 4 (Desna)[^G]  ",
 			"**Casting Time** 10 minutes  ",
 			"**Components** V, DF  ",
 			"**Range** unlimited  ",
@@ -3755,7 +3782,9 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like arcane eye, except as noted above. Upon casting this spell, you fall asleep for its duration, creating an invisible magic sensor (called a dreamscryer) that is the exact size and shape of your body, is recognizable as you, and cannot pass through spaces that your body cannot enter. Unlike the invisible sensor created by arcane eye, children of any race (no older than the human equivalent of 10) and animals can see your dreamscryer. Sleeping creatures can sense its presence and might incorporate your image into their dreams. Force effects and abjuration spells that ward out creatures (such as {spell/magic circle against evil}) are effective barriers against a dreamscryer (regardless of your creature type, alignment, or other specifics). If you dismiss the spell or the dreamscryer is dispelled or destroyed, you awaken."
+			"This spell functions like arcane eye, except as noted above. Upon casting this spell, you fall asleep for its duration, creating an invisible magic sensor (called a dreamscryer) that is the exact size and shape of your body, is recognizable as you, and cannot pass through spaces that your body cannot enter. Unlike the invisible sensor created by arcane eye, children of any race (no older than the human equivalent of 10) and animals can see your dreamscryer. Sleeping creatures can sense its presence and might incorporate your image into their dreams. Force effects and abjuration spells that ward out creatures (such as {spell/magic circle against evil}) are effective barriers against a dreamscryer (regardless of your creature type, alignment, or other specifics). If you dismiss the spell or the dreamscryer is dispelled or destroyed, you awaken.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"treasure_stitching": {

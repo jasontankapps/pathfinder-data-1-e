@@ -206,12 +206,15 @@
 	},
 	"ironbloom_sprouts": {
 		"name": "Ironbloom Sprouts",
-		"sources": [ "Pathfinder #62: Curse of the Lady's Light" ],
+		"sources": [
+			"Pathfinder #62: Curse of the Lady's Light",
+			"Inner Sea Gods"
+		],
 		"description": [
 			"## Ironbloom Sprouts",
 			"",
 			"{SOURCE Pathfinder #62: Curse of the Lady's Light/75}  ",
-			"**School** {spelldef/transmutation}; **Level** cleric 1, druid 1, hunter 1, oracle 1, warpriest 1 (Torag)  ",
+			"**School** {spelldef/transmutation}; **Level** cleric 1, druid 1, hunter 1, oracle 1, warpriest 1 (Torag)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF, M (1 gp worth of powdered iron)  ",
 			"**Range** touch  ",
@@ -219,7 +222,9 @@
 			"**Duration** 1 day/level  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"This spell functions like goodberry, except as noted above and that it transforms 2d4 mushrooms into magical ironbloom mushrooms rather than transforming common berries into magical berries. Alternatively, you may create twice as many mushrooms, but each only has the nourishment ability of a goodberry and not the healing properties."
+			"This spell functions like goodberry, except as noted above and that it transforms 2d4 mushrooms into magical ironbloom mushrooms rather than transforming common berries into magical berries. Alternatively, you may create twice as many mushrooms, but each only has the nourishment ability of a goodberry and not the healing properties.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"ironskin": {
@@ -1760,7 +1765,7 @@
 			"## Light Prison",
 			"",
 			"{SOURCE Inner Sea Gods/236}  ",
-			"**School** {spelldef/evocation} [{spelldef/light}]; **Level** arcanist 2, bard 2, cleric 2, inquisitor 2, magus 2, oracle 2, skald 2, sorcerer 2, warpriest 2, wizard 2 (Iomedae)  ",
+			"**School** {spelldef/evocation} [{spelldef/light}]; **Level** arcanist 2, bard 2, cleric 2, inquisitor 2, magus 2, oracle 2, skald 2, sorcerer 2, warpriest 2, wizard 2 (Iomedae)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -1768,7 +1773,9 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** Reflex negates; **Spell Resistance** yes",
 			"",
-			"Rays of light burst forth from your outstretched hand, encircling each target's space with a cage of light. If a target fails its Reflex save, it becomes enclosed in the light prison. A creature enclosed in a light prison can attack, cast spells, and otherwise act normally as long as it stays within the light prison. However, if a creature passes through the walls of a light prison enclosing it, it takes 1d6 points of damage and is blinded for 1 round. Creatures do not receive saves to negate these effects. Once a creature passes through the walls of a light prison surrounding it, the effect ends for that creature."
+			"Rays of light burst forth from your outstretched hand, encircling each target's space with a cage of light. If a target fails its Reflex save, it becomes enclosed in the light prison. A creature enclosed in a light prison can attack, cast spells, and otherwise act normally as long as it stays within the light prison. However, if a creature passes through the walls of a light prison enclosing it, it takes 1d6 points of damage and is blinded for 1 round. Creatures do not receive saves to negate these effects. Once a creature passes through the walls of a light prison surrounding it, the effect ends for that creature.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"lighten_object": {
@@ -1781,7 +1788,7 @@
 			"## Lighten Object",
 			"",
 			"{SOURCE Inner Sea Gods/236;Faiths of Balance/28}  ",
-			"**School** {spelldef/transmutation}; **Level** arcanist 1, bard 1, cleric 1, magus 1, oracle 1, red mantis assassin 1, skald 1, sorcerer 1, summoner 1, unchained summoner 1, warpriest 1, wizard 1 (Gorum)  ",
+			"**School** {spelldef/transmutation}; **Level** arcanist 1, bard 1, cleric 1, magus 1, oracle 1, red mantis assassin 1, skald 1, sorcerer 1, summoner 1, unchained summoner 1, warpriest 1, wizard 1 (Gorum)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, M (goose down)  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -1794,7 +1801,7 @@
 			"### Mass Lighten Object",
 			"",
 			"{SOURCE Inner Sea Gods/236}  ",
-			"**School** {spelldef/transmutation}; **Level** arcanist 5, cleric 5, magus 5, oracle 5, sorcerer 5, summoner 5, unchained summoner 5, warpriest 5, wizard 5 (Gorum)  ",
+			"**School** {spelldef/transmutation}; **Level** arcanist 5, cleric 5, magus 5, oracle 5, sorcerer 5, summoner 5, unchained summoner 5, warpriest 5, wizard 5 (Gorum)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, M (goose down)  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -1802,7 +1809,9 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** Will negates (object); **Spell Resistance** yes (object)",
 			"",
-			"This spell functions like lighten object, except that it affects a number of objects equal to half your caster level."
+			"This spell functions like lighten object, except that it affects a number of objects equal to half your caster level.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"lighten_object_mass": {
@@ -2775,7 +2784,7 @@
 			"## Lose the Trail",
 			"",
 			"{SOURCE Inner Sea Gods/236;Faiths of Corruption/28}  ",
-			"**School** {spelldef/illusion} ({spelldef/glamer}); **Level** antipaladin 2, arcanist 1, hunter 1, ranger 1, red mantis assassin 1, sorcerer 1, wizard 1 (Norgorber)  ",
+			"**School** {spelldef/illusion} ({spelldef/glamer}); **Level** antipaladin 2, arcanist 1, hunter 1, ranger 1, red mantis assassin 1, sorcerer 1, wizard 1 (Norgorber)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -2783,7 +2792,9 @@
 			"**Duration** 1 hour/level (D)  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"The target or targets of this spell can obscure their tracks when fleeing from a pursuer. This increases the DC of any Survival checks made to track the spell's targets by 2 per level of the caster."
+			"The target or targets of this spell can obscure their tracks when fleeing from a pursuer. This increases the DC of any Survival checks made to track the spell's targets by 2 per level of the caster.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"lost_legacy": {
@@ -2982,7 +2993,7 @@
 			"## Maddening Oubliette",
 			"",
 			"{SOURCE Inner Sea Gods/237}  ",
-			"**School** {spelldef/conjuration} ({spelldef/teleportation}); **Level** arcanist 7, cleric 7, oracle 7, sorcerer 7, witch 7, wizard 7 (Zon-Kuthon)  ",
+			"**School** {spelldef/conjuration} ({spelldef/teleportation}); **Level** arcanist 7, cleric 7, oracle 7, sorcerer 7, witch 7, wizard 7 (Zon-Kuthon)[^G]  ",
 			"**Casting Time** 1 round  ",
 			"**Components** V, S, M (the powdered bones of a creature that died in prison)  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -2990,7 +3001,9 @@
 			"**Duration** special; see text  ",
 			"**Saving Throw** Will negates, see text; **Spell Resistance** yes",
 			"",
-			"The target is transported to a dark and dank prison in some unspecified horrific demiplane, where tentacles writhe around, clawed fingers grab at the creature (though they deal no damage), and harsh, whispering voices speak blasphemies and maddening secrets. At the end of each round within this terrifying oubliette, the target can attempt a Will saving throw in order to escape the prison. The saving throw has a penalty equal to the number of rounds the target has spent in the oubliette (minimum -1 and maximum -5). If the target succeeds at its saving throw, it returns to its former space. If that space is occupied or otherwise unavailable, the target is shunted to the nearest available space. When the target returns from the oubliette, it is confused for a number of rounds equal to the number of rounds of imprisonment (minimum 1), unless it was confined in the oubliette for 10 or more rounds, in which case the target is affected as if it were subject to an insanity spell instead."
+			"The target is transported to a dark and dank prison in some unspecified horrific demiplane, where tentacles writhe around, clawed fingers grab at the creature (though they deal no damage), and harsh, whispering voices speak blasphemies and maddening secrets. At the end of each round within this terrifying oubliette, the target can attempt a Will saving throw in order to escape the prison. The saving throw has a penalty equal to the number of rounds the target has spent in the oubliette (minimum -1 and maximum -5). If the target succeeds at its saving throw, it returns to its former space. If that space is occupied or otherwise unavailable, the target is shunted to the nearest available space. When the target returns from the oubliette, it is confused for a number of rounds equal to the number of rounds of imprisonment (minimum 1), unless it was confined in the oubliette for 10 or more rounds, in which case the target is affected as if it were subject to an insanity spell instead.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"mage_armor": {

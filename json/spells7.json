@@ -929,7 +929,7 @@
 			"## Night of Blades",
 			"",
 			"{SOURCE Inner Sea Gods/237;Faiths of Corruption/29}  ",
-			"**School** {spelldef/evocation}; **Level** antipaladin 4, arcanist 3, hunter 4, inquisitor 3, ranger 4, sorcerer 3, summoner 3, unchained summoner 3, wizard 3 (Norgorber)  ",
+			"**School** {spelldef/evocation}; **Level** antipaladin 4, arcanist 3, hunter 4, inquisitor 3, ranger 4, sorcerer 3, summoner 3, unchained summoner 3, wizard 3 (Norgorber)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -937,7 +937,9 @@
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** Reflex half; **Spell Resistance** yes",
 			"",
-			"Useful primarily to those who skulk in the darkness, this spell is a temporary trap for the unwary. You create an immobile wall of tiny black blades that whirl and tear into creatures like a cyclone. Anyone who enters this space takes 1d4 points of damage per caster level (maximum 10d4), though a successful Reflex save halves the damage. The spell cannot be cast so that it appears in a space already occupied by Small or larger creatures."
+			"Useful primarily to those who skulk in the darkness, this spell is a temporary trap for the unwary. You create an immobile wall of tiny black blades that whirl and tear into creatures like a cyclone. Anyone who enters this space takes 1d4 points of damage per caster level (maximum 10d4), though a successful Reflex save halves the damage. The spell cannot be cast so that it appears in a space already occupied by Small or larger creatures.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"night_terrors": {
@@ -3372,7 +3374,7 @@
 			"## Pick Your Poison",
 			"",
 			"{SOURCE Inner Sea Gods/238;Gods and Magic/11}  ",
-			"**School** {spelldef/conjuration} ({spelldef/healing}) [{spelldef/mind-affecting}]; **Level** bard 1, cleric 1, inquisitor 1, oracle 1, skald 1, warpriest 1, witch 1 (Cayden Cailean)  ",
+			"**School** {spelldef/conjuration} ({spelldef/healing}) [{spelldef/mind-affecting}]; **Level** bard 1, cleric 1, inquisitor 1, oracle 1, skald 1, warpriest 1, witch 1 (Cayden Cailean)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** touch  ",
@@ -3380,7 +3382,9 @@
 			"**Duration** 10 minute/level  ",
 			"**Saving Throw** Fortitude negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"This spell temporarily converts even the deadliest poison affecting a creature into an intoxicating alcohol. If the subject is affected by a poison effect while under the effects of this spell, instead of the poison's normal effect, she feels intoxicated as if she'd just had a very strong drink and takes a -2 penalty on attacks, saves, and checks for the duration of the spell. When the spell's duration expires, the penalty ends and the poison's normal effects apply. Pick your poison does not affect any poison effects that occurred before the spell was cast."
+			"This spell temporarily converts even the deadliest poison affecting a creature into an intoxicating alcohol. If the subject is affected by a poison effect while under the effects of this spell, instead of the poison's normal effect, she feels intoxicated as if she'd just had a very strong drink and takes a -2 penalty on attacks, saves, and checks for the duration of the spell. When the spell's duration expires, the penalty ends and the poison's normal effects apply. Pick your poison does not affect any poison effects that occurred before the spell was cast.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"pied_piping": {
@@ -3568,7 +3572,7 @@
 			"## Plague Bearer",
 			"",
 			"{SOURCE Inner Sea Gods/238}  ",
-			"**School** {spelldef/necromancy} [{spelldef/disease}, {spelldef/evil}]; **Level** alchemist 6, antipaladin 4, arcanist 7, cleric 6, druid 6, hunter 6, inquisitor 6, investigator 6, oracle 6, sorcerer 7, warpriest 6, witch 6, wizard 7 (Urgathoa)  ",
+			"**School** {spelldef/necromancy} [{spelldef/disease}, {spelldef/evil}]; **Level** alchemist 6, antipaladin 4, arcanist 7, cleric 6, druid 6, hunter 6, inquisitor 6, investigator 6, oracle 6, sorcerer 7, warpriest 6, witch 6, wizard 7 (Urgathoa)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** touch  ",
@@ -3578,7 +3582,9 @@
 			"",
 			"You make the target an asymptomatic carrier for a host of virulent diseases. Creatures that end their turn adjacent to the target must succeed at a Fortitude save or be affected as if by the spell contagion. The target itself does not become diseased, and suffers no ill effects from this spell. Once plague bearer ends, the target is no longer contagious, though any creature it infected remains diseased.",
 			"",
-			"**Note:** The original source printed this as a 6th-level antipaladin spell, but that class only has spellcasting up to 4th level, hence why it's listed as 4th-level here."
+			"**Note:** The original source printed this as a 6th-level antipaladin spell, but that class only has spellcasting up to 4th level, hence why it's listed as 4th-level here.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"plague_carrier": {
@@ -4232,7 +4238,7 @@
 			"## Poisoned Egg",
 			"",
 			"{SOURCE Inner Sea Gods/238;Gods and Magic/29}  ",
-			"**School** {spelldef/transmutation} [{spelldef/poison}]; **Level** arcanist 1, bard 1, cleric 1, inquisitor 1, magus 1, oracle 1, red mantis assassin 1, shaman 1, skald 1, sorcerer 1, warpriest 1, witch 1, wizard 1 (Norgorber)  ",
+			"**School** {spelldef/transmutation} [{spelldef/poison}]; **Level** arcanist 1, bard 1, cleric 1, inquisitor 1, magus 1, oracle 1, red mantis assassin 1, shaman 1, skald 1, sorcerer 1, warpriest 1, witch 1, wizard 1 (Norgorber)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** touch  ",
@@ -4240,7 +4246,9 @@
 			"**Duration** 1 minute/level  ",
 			"**Saving Throw** none (object); **Spell Resistance** no (object)",
 			"",
-			"You transform the contents of a normal egg into a single dose of small centipede poison (injury; *save* DC 11; *frequency* 1/round for 4 rounds; *effect* 1 Dex; *cure* 1 save). The poison reverts to a normal egg at the end of the spell's duration (the reverted egg substance is harmless unless the poisoned creature is vulnerable to eggs). The egg may be raw or cooked but must be whole and not empty when you cast the spell. When applying the poisoned egg's contents to a weapon, the wielder has no chance of poisoning herself, as though she had the poison use class feature."
+			"You transform the contents of a normal egg into a single dose of small centipede poison (injury; *save* DC 11; *frequency* 1/round for 4 rounds; *effect* 1 Dex; *cure* 1 save). The poison reverts to a normal egg at the end of the spell's duration (the reverted egg substance is harmless unless the poisoned creature is vulnerable to eggs). The egg may be raw or cooked but must be whole and not empty when you cast the spell. When applying the poisoned egg's contents to a weapon, the wielder has no chance of poisoning herself, as though she had the poison use class feature.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"poisonous_balm": {

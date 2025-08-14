@@ -417,7 +417,7 @@
 			"## Gozreh's Trident",
 			"",
 			"{SOURCE Inner Sea Gods/235;Gods and Magic/19}  ",
-			"**School** {spelldef/evocation} [{spelldef/electricity}]; **Level** bloodrager 2, cleric 2, druid 2, hunter 2, oracle 2, warpriest 2, witch 2 (Gozreh)  ",
+			"**School** {spelldef/evocation} [{spelldef/electricity}]; **Level** bloodrager 2, cleric 2, druid 2, hunter 2, oracle 2, warpriest 2, witch 2 (Gozreh)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** 0 ft.  ",
@@ -425,7 +425,9 @@
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** yes",
 			"",
-			"A 4-foot-long, blazing, forked bolt of electricity springs forth from your hand. You wield this spear-like bolt as if it were a trident (you are considered proficient with the bolt). Attacks with Gozreh's trident are melee touch attacks. The bolt deals 1d8 points of electricity damage + 1 point per 2 caster levels (maximum +10). Since the bolt is immaterial, your Strength modifier does not apply to the damage. The bolt can ignite combustible materials such as parchment, straw, dry sticks, and cloth."
+			"A 4-foot-long, blazing, forked bolt of electricity springs forth from your hand. You wield this spear-like bolt as if it were a trident (you are considered proficient with the bolt). Attacks with Gozreh's trident are melee touch attacks. The bolt deals 1d8 points of electricity damage + 1 point per 2 caster levels (maximum +10). Since the bolt is immaterial, your Strength modifier does not apply to the damage. The bolt can ignite combustible materials such as parchment, straw, dry sticks, and cloth.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"grace": {
@@ -1134,7 +1136,7 @@
 			"## Hairline Fractures",
 			"",
 			"{SOURCE Inner Sea Gods/235;Faiths of Purity/28}  ",
-			"**School** {spelldef/transmutation} [{spelldef/earth}]; **Level** cleric 1, druid 1, hunter 1, oracle 1, shaman 1, warpriest 1, witch 1 (Torag)  ",
+			"**School** {spelldef/transmutation} [{spelldef/earth}]; **Level** cleric 1, druid 1, hunter 1, oracle 1, shaman 1, warpriest 1, witch 1 (Torag)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, M (a broken twig)  ",
 			"**Range** touch  ",
@@ -1142,7 +1144,9 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Fortitude negates (object); **Spell Resistance** yes (object)",
 			"",
-			"With a single touch, you create temporary hairline fractures in a piece of stone or a creature with the earth subtype. If you cast this spell on a section of stone, you reduce its hardness to 5 and its hit points to 10/inch of thickness. If you cast this spell on a creature with the earth subtype, that creature takes a -2 penalty to AC for the spell's duration. Make whole reverses this spell's effect."
+			"With a single touch, you create temporary hairline fractures in a piece of stone or a creature with the earth subtype. If you cast this spell on a section of stone, you reduce its hardness to 5 and its hit points to 10/inch of thickness. If you cast this spell on a creature with the earth subtype, that creature takes a -2 penalty to AC for the spell's duration. Make whole reverses this spell's effect.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"half_blood_extraction": {
@@ -1323,7 +1327,7 @@
 			"## Hammer of Mending",
 			"",
 			"{SOURCE Inner Sea Gods/235}  ",
-			"**School** {spelldef/transmutation}; **Level** arcanist 5, cleric 6, oracle 6, sorcerer 5, summoner 5, unchained summoner 5, warpriest 6, wizard 5 (Torag)  ",
+			"**School** {spelldef/transmutation}; **Level** arcanist 5, cleric 6, oracle 6, sorcerer 5, summoner 5, unchained summoner 5, warpriest 6, wizard 5 (Torag)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, F (a small mithral hammer worth 300 gp), DF  ",
 			"**Area** 30-ft.-radius burst centered on you  ",
@@ -1332,7 +1336,9 @@
 			"",
 			"Upon striking a piece of solid ground with the spell's focus or a holy symbol, you let out a wave of energy that repairs items within its burst. All objects or constructs within the burst are repaired of 1d6 points of damage per level. When this spell affects constructs, the spell bypasses any immunity to magic as if the spell did not allow spell resistance.",
 			"",
-			"Hammer of mending can fix destroyed magic items (items with 0 hit points or fewer), and restores the magic properties of the item if your caster level is at least twice that of the item. Items with charges (such as wands) and single-use items (such as potions and scrolls) cannot be repaired in this way."
+			"Hammer of mending can fix destroyed magic items (items with 0 hit points or fewer), and restores the magic properties of the item if your caster level is at least twice that of the item. Items with charges (such as wands) and single-use items (such as potions and scrolls) cannot be repaired in this way.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"handy_grapnel": {
@@ -1713,7 +1719,7 @@
 			"## Haze of Dreams",
 			"",
 			"{SOURCE Inner Sea Gods/235;Faiths of Purity/28}  ",
-			"**School** {spelldef/enchantment} ({spelldef/charm}) [{spelldef/emotion}, {spelldef/mind-affecting}]; **Level** bard 1, cleric 1, inquisitor 1, oracle 1, paladin 1, shaman 1, skald 1, warpriest 1, witch 1 (Desna)  ",
+			"**School** {spelldef/enchantment} ({spelldef/charm}) [{spelldef/emotion}, {spelldef/mind-affecting}]; **Level** bard 1, cleric 1, inquisitor 1, oracle 1, paladin 1, shaman 1, skald 1, warpriest 1, witch 1 (Desna)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, M (pinch of sand)  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -1723,7 +1729,9 @@
 			"",
 			"You fill an enemy's head with waking dreams, a reminder of the pleasures, delights, and terrors to be found in the dream world. While in this strange dream state, the target moves at half its normal speed (round down to the next 5-foot increment), which affects the creature's jumping distance as normal for decreased speed.",
 			"",
-			"Multiple haze of dreams effects do not stack, nor does this spell's effect stack with slow."
+			"Multiple haze of dreams effects do not stack, nor does this spell's effect stack with slow.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"heal": {
@@ -3532,7 +3540,7 @@
 			"## Hunter's Blessing",
 			"",
 			"{SOURCE Inner Sea Gods/235}  ",
-			"**School** {spelldef/transmutation}; **Level** cleric 5, druid 5, hunter 5, inquisitor 5, oracle 5, shaman 5, warpriest 5 (Erastil)  ",
+			"**School** {spelldef/transmutation}; **Level** cleric 5, druid 5, hunter 5, inquisitor 5, oracle 5, shaman 5, warpriest 5 (Erastil)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -3540,7 +3548,9 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"When casting this spell, you designate a type or type and subtype of creature (using the {class/ranger}'s {ability/favored enemy} categories) and a type of terrain (using the list of ranger's {ability/favored terrain} categories). Targets of the spell gain a +2 sacred bonus on Bluff, Perception, Sense Motive, and Survival checks attempted against creatures of the selected type, and a +2 sacred bonus on attack rolls and damage rolls made against creatures of that type. Furthermore, they gain a +2 sacred bonus on initiative checks, Perception, Stealth, and Survival checks while they are in the type of terrain you designate. Lastly, when tracking the designated creature type in the chosen terrain, the targets can follow the tracks of such creatures untrained, even if the DC for the task is 11 or higher."
+			"When casting this spell, you designate a type or type and subtype of creature (using the {class/ranger}'s {ability/favored enemy} categories) and a type of terrain (using the list of ranger's {ability/favored terrain} categories). Targets of the spell gain a +2 sacred bonus on Bluff, Perception, Sense Motive, and Survival checks attempted against creatures of the selected type, and a +2 sacred bonus on attack rolls and damage rolls made against creatures of that type. Furthermore, they gain a +2 sacred bonus on initiative checks, Perception, Stealth, and Survival checks while they are in the type of terrain you designate. Lastly, when tracking the designated creature type in the chosen terrain, the targets can follow the tracks of such creatures untrained, even if the DC for the task is 11 or higher.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"hunters_eye": {
@@ -3857,7 +3867,7 @@
 			"## Ice Armor",
 			"",
 			"{SOURCE Inner Sea Gods/236;Pathfinder #38: Racing to Ruin/71}  ",
-			"**School** {spelldef/transmutation} [{spelldef/cold}, {spelldef/water}]; **Level** bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, warpriest 1 (Gozreh)  ",
+			"**School** {spelldef/transmutation} [{spelldef/cold}, {spelldef/water}]; **Level** bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, warpriest 1 (Gozreh)[^G]  ",
 			"**Casting Time** 1 minute  ",
 			"**Components** V, S, F (5 gallons of water)  ",
 			"**Range** 0 ft.; see text  ",
@@ -3865,7 +3875,9 @@
 			"**Duration** 1 hour/level or until destroyed  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"You create a suit of armor made of ice. While cold to the touch, it does not harm the wearer, especially if worn over normal clothing (though it can hasten the effects of exposure in cold environments). It offers the same protection as a breastplate, except it has hardness 0 and 30 hit points. If the intended wearer is immersed in water when you cast this spell, you may form the armor around the wearer (who may be you); otherwise the wearer must don the armor normally. Attacks against the wearer that create heat or fire degrade the armor, reducing its armor bonus by 1 for every 5 points of fire damage the wearer takes; when the armor's bonus to AC reaches 0, the armor is destroyed and the spell ends. Because the ice is slightly buoyant, the wearer gains a +2 circumstance bonus on Swim checks, except when swimming downward. Druids can wear ice armor without penalty."
+			"You create a suit of armor made of ice. While cold to the touch, it does not harm the wearer, especially if worn over normal clothing (though it can hasten the effects of exposure in cold environments). It offers the same protection as a breastplate, except it has hardness 0 and 30 hit points. If the intended wearer is immersed in water when you cast this spell, you may form the armor around the wearer (who may be you); otherwise the wearer must don the armor normally. Attacks against the wearer that create heat or fire degrade the armor, reducing its armor bonus by 1 for every 5 points of fire damage the wearer takes; when the armor's bonus to AC reaches 0, the armor is destroyed and the spell ends. Because the ice is slightly buoyant, the wearer gains a +2 circumstance bonus on Swim checks, except when swimming downward. Druids can wear ice armor without penalty.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"ice_body": {

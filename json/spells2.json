@@ -134,7 +134,7 @@
 			"## Blessing of the Watch",
 			"",
 			"{SOURCE Inner Sea Gods/230;Pathfinder #8: Seven Days to the Grave/71;Gods and Magic/5}  ",
-			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1 (Abadar)  ",
+			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1 (Abadar)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** 50 ft.  ",
@@ -142,7 +142,9 @@
 			"**Duration** 1 hour/level  ",
 			"**Saving Throw** none; **Spell Resistance** yes (harmless)",
 			"",
-			"This spell functions like bless, except as noted. It works only in the caster's home city, and in areas under the jurisdiction of the city watch. For example, if the watch patrols a shantytown outside the city walls but not the ruined subterranean tunnels that lie beneath the city, the spell works in the former area but not the latter."
+			"This spell functions like bless, except as noted. It works only in the caster's home city, and in areas under the jurisdiction of the city watch. For example, if the watch patrols a shantytown outside the city walls but not the ruined subterranean tunnels that lie beneath the city, the spell works in the former area but not the latter.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"blight": {
@@ -1511,7 +1513,7 @@
 			"## Brittle Portal",
 			"",
 			"{SOURCE Inner Sea Gods/230;Faiths of Corruption/29}  ",
-			"**School** {spelldef/transmutation}; **Level** antipaladin 2, arcanist 2, cleric 2, druid 2, hunter 2, inquisitor 2, oracle 2, red mantis assassin 2, sorcerer 2, warpriest 2, witch 2, wizard 2 (Rovagug)  ",
+			"**School** {spelldef/transmutation}; **Level** antipaladin 2, arcanist 2, cleric 2, druid 2, hunter 2, inquisitor 2, oracle 2, red mantis assassin 2, sorcerer 2, warpriest 2, witch 2, wizard 2 (Rovagug)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -1519,7 +1521,9 @@
 			"**Duration** 1 round/level  ",
 			"**Saving Throw** Will negates (object); **Spell Resistance** yes (object)",
 			"",
-			"This spell weakens the bonds of existence, and reduces the hardness of any nonmagical surface within its area of effect by 2 per caster level. The spell is centered on a flat surface chosen by the caster, and the hardness reduction effect persists for the duration of the spell."
+			"This spell weakens the bonds of existence, and reduces the hardness of any nonmagical surface within its area of effect by 2 per caster level. The spell is centered on a flat surface chosen by the caster, and the hardness reduction effect persists for the duration of the spell.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"brow_gasher": {
@@ -1918,7 +1922,7 @@
 			"## Burst of Glory",
 			"",
 			"{SOURCE Inner Sea Gods/230;Gods and Magic/21}  ",
-			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** cleric 5, inquisitor 4, oracle 5, paladin 4, warpriest 5 (Iomedae)  ",
+			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** cleric 5, inquisitor 4, oracle 5, paladin 4, warpriest 5 (Iomedae)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** 10 ft.  ",
@@ -1926,7 +1930,9 @@
 			"**Duration** 1 round/level (D; see text)  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"Allies in the area of this spell at the time of casting gain a +1 sacred bonus on attack rolls and saves against fear effects, plus 1 temporary hit point per caster level (maximum 20). You shine with a white or golden radiance equal to a torch for the spell's duration, though you can dismiss the glow effect as a free action."
+			"Allies in the area of this spell at the time of casting gain a +1 sacred bonus on attack rolls and saves against fear effects, plus 1 temporary hit point per caster level (maximum 20). You shine with a white or golden radiance equal to a torch for the spell's duration, though you can dismiss the glow effect as a free action.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"burst_of_insight": {
@@ -3388,7 +3394,7 @@
 			"## Channel the Gift",
 			"",
 			"{SOURCE Inner Sea Gods/230;Gods and Magic/27}  ",
-			"**School** {spelldef/evocation}; **Level** arcanist 3, bard 3, cleric 3, druid 3, hunter 3, oracle 3, ranger 3, skald 3, sorcerer 3, warpriest 3, witch 3, wizard 3 (Nethys)  ",
+			"**School** {spelldef/evocation}; **Level** arcanist 3, bard 3, cleric 3, druid 3, hunter 3, oracle 3, ranger 3, skald 3, sorcerer 3, warpriest 3, witch 3, wizard 3 (Nethys)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** touch  ",
@@ -3398,7 +3404,9 @@
 			"",
 			"You channel your magical power to fuel the target's spellcasting. The next spell the target casts of 3rd level or lower does not expend a spell slot; in effect, you are using your spell slot to power the target's spell. The target must start casting this spell before your next turn, and the spell cannot have a casting time longer than 1 full round. Your alignment, prohibited wizard school, and other restrictions on your own spellcasting do not affect the target, nor do you suffer any backlash from the target's choice of spell.",
 			"",
-			"If you target yourself with this spell, you may spontaneously cast any prepared spell of 3rd level or lower without expending its spell slot on your next turn (this aspect of the spell has no effect if you are a spontaneous caster). The spell that's cast after channel the gift cannot have a casting time longer than 1 full round."
+			"If you target yourself with this spell, you may spontaneously cast any prepared spell of 3rd level or lower without expending its spell slot on your next turn (this aspect of the spell has no effect if you are a spontaneous caster). The spell that's cast after channel the gift cannot have a casting time longer than 1 full round.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"channel_vigor": {
@@ -3411,7 +3419,7 @@
 			"## Channel Vigor",
 			"",
 			"{SOURCE Inner Sea Gods/231;Gods and Magic/23}  ",
-			"**School** {spelldef/transmutation}; **Level** alchemist 3, bloodrager 3, cleric 3, inquisitor 3, investigator 3, magus 3, oracle 3, warpriest 3 (Irori)  ",
+			"**School** {spelldef/transmutation}; **Level** alchemist 3, bloodrager 3, cleric 3, inquisitor 3, investigator 3, magus 3, oracle 3, warpriest 3 (Irori)[^G]  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** personal  ",
@@ -3426,7 +3434,9 @@
 			"",
 			"*Spirit:* You gain a +6 competence bonus on Will saving throws and Bluff and Intimidate checks.",
 			"",
-			"*Torso:* You gain a +6 competence bonus on Fortitude saving throws and {rule/concentration} checks."
+			"*Torso:* You gain a +6 competence bonus on Fortitude saving throws and {rule/concentration} checks.",
+			"",
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
 		]
 	},
 	"chaos_hammer": {
