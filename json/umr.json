@@ -719,6 +719,7 @@
 			"**Location:** Weaknesses."
 		]
 	},
+	"vulnerability": { "redirect": "vulnerabilities" },
 	"strangle": {
 		"name": "Strangle",
 		"sources": [ "Bestiary 5" ],
@@ -1839,6 +1840,7 @@
 			"**Location:** Defensive Abilities."
 		]
 	},
+	"immune": { "redirect": "immunity" },
 	"poison": {
 		"name": "Poison",
 		"sources": [ "Bestiary 5" ],
