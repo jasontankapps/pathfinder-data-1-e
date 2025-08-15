@@ -49,7 +49,7 @@
 			"## Subtype: Agathion",
 			"{SOURCE Bestiary 5;Bestiary 2;Bestiary 4}",
 			"",
-			"{family/Agathion/s} are beast-aspect outsiders native to {rule/Nirvana>_gg}. They have the following traits.",
+			"{family/Agathion/s} are beast-aspect outsiders native to {rule/Nirvana}. They have the following traits.",
 			"",
 			"- Low-light vision",
 			"- +4 racial bonus on saving throws against poison.",
@@ -75,7 +75,7 @@
 			"## Subtype: Air",
 			"{SOURCE Bestiary 6;Pathfinder RPG Bestiary;Bestiary 2;Bestiary 3;Bestiary 4;Bestiary 5}",
 			"",
-			"This subtype is usually used for outsiders that have a connection to the Elemental {rule/Plane of Air>_gg}. Air creatures always have fly speeds and usually have perfect maneuverability. Air creatures treat {skill/Fly} as a class skill."
+			"This subtype is usually used for outsiders that have a connection to the Elemental {rule/Plane of Air}. Air creatures always have fly speeds and usually have perfect maneuverability. Air creatures treat {skill/Fly} as a class skill."
 		]
 	},
 	"android": {
@@ -140,7 +140,7 @@
 			"## Subtype: Archon",
 			"{SOURCE Bestiary 5;Pathfinder RPG Bestiary;Bestiary 2;Bestiary 3}",
 			"",
-			"{family/Archon/s} are a race of celestials, or good outsiders, native to lawful good-aligned Outer Planes, such as {rule/Heaven>_gg}. An archon has the following traits (unless otherwise noted in a creature's entry).",
+			"{family/Archon/s} are a race of celestials, or good outsiders, native to lawful good-aligned Outer Planes, such as {rule/Heaven}. An archon has the following traits (unless otherwise noted in a creature's entry).",
 			"",
 			"- Darkvision 60 feet and low-light vision.",
 			"- {umr/Immunity} to electricity and petrification.",
@@ -211,7 +211,7 @@
 			"## Subtype: Azata",
 			"{SOURCE Bestiary 6;Pathfinder RPG Bestiary;Bestiary 2;Bestiary 4;Bestiary 5}",
 			"",
-			"{family/Azata/s} are a race of celestials, or good outsiders, native to chaotic good-aligned Outer Planes, such as {rule/Elysium>_gg}. An azata has the following traits (unless otherwise noted in a creature's entry).",
+			"{family/Azata/s} are a race of celestials, or good outsiders, native to chaotic good-aligned Outer Planes, such as {rule/Elysium}. An azata has the following traits (unless otherwise noted in a creature's entry).",
 			"",
 			"- Darkvision 60 feet and low-light vision.",
 			"- {umr/Immunity} to electricity and petrification.",
@@ -406,7 +406,7 @@
 			"## Subtype: Demodand",
 			"{SOURCE Bestiary 5;Bestiary 3}",
 			"",
-			"{family/Demodand/s} are chaotic evil outsiders who stalk {rule/the Abyss>_gg}. Unless otherwise noted in the creature's entry, a demodand has the following traits.",
+			"{family/Demodand/s} are chaotic evil outsiders who stalk {rule/the Abyss}. Unless otherwise noted in the creature's entry, a demodand has the following traits.",
 			"",
 			"- {umr/Immunity} to acid and poison.",
 			"- {umr/Resistance} to fire 10 and cold 10.",
@@ -431,7 +431,7 @@
 			"## Subtype: Demon",
 			"{SOURCE Bestiary 6;Pathfinder RPG Bestiary;Bestiary 2;Bestiary 3;Bestiary 4;Bestiary 5}",
 			"",
-			"{family/Demon/s} are chaotic evil outsiders that call {rule/the Abyss>_gg} their home. Demons have a particular suite of traits (unless otherwise noted in a creature's entry), as summarized here.",
+			"{family/Demon/s} are chaotic evil outsiders that call {rule/the Abyss} their home. Demons have a particular suite of traits (unless otherwise noted in a creature's entry), as summarized here.",
 			"",
 			"- {umr/Immunity} to electricity and poison.",
 			"- {umr/Resistance} to acid 10, cold 10, and fire 10.",
@@ -465,7 +465,7 @@
 			"## Subtype: Devil",
 			"{SOURCE Bestiary 6;Pathfinder RPG Bestiary;Bestiary 2;Bestiary 3;Bestiary 4;Bestiary 5}",
 			"",
-			"{family/Devil/s} are lawful evil outsiders that hail from the plane of {rule/Hell>_gg}. Devils have a particular suite of traits (unless otherwise noted in a creature's entry).",
+			"{family/Devil/s} are lawful evil outsiders that hail from the plane of {rule/Hell}. Devils have a particular suite of traits (unless otherwise noted in a creature's entry).",
 			"",
 			"- {umr/Immunity} to fire and poison.",
 			"- {umr/Resistance} to acid 10 and cold 10.",
@@ -517,7 +517,7 @@
 			"## Subtype: Earth",
 			"{SOURCE Bestiary 6;Pathfinder RPG Bestiary;Bestiary 2;Bestiary 3;Bestiary 4;Bestiary 5}",
 			"",
-			"This subtype is usually used for outsiders with a connection to the Elemental {rule/Plane of Earth>_gg}. Earth creatures usually have burrow speeds, and most earth creatures can burrow through solid rock. Earth creatures with a burrow speed have {umr/tremorsense}."
+			"This subtype is usually used for outsiders with a connection to the Elemental {rule/Plane of Earth}. Earth creatures usually have burrow speeds, and most earth creatures can burrow through solid rock. Earth creatures with a burrow speed have {umr/tremorsense}."
 		]
 	},
 	"elemental": {
@@ -928,7 +928,7 @@
 			"## Subtype: Manasaputra",
 			"{SOURCE Bestiary 5}",
 			"",
-			"{family/Manasaputra/s} are lawful good spirits ascending to a new stage of existence on the {rule/Positive Energy Plane>_gg}. They have the following traits.",
+			"{family/Manasaputra/s} are lawful good spirits ascending to a new stage of existence on the {rule/Positive Energy Plane}. They have the following traits.",
 			"",
 			"- Darkvision 60 ft.",
 			"- {umr/Immunity} to calling magic, disease, and poison.",
@@ -1140,7 +1140,7 @@
 			"## Subtype: Qlippoth",
 			"{SOURCE Bestiary 6;Bestiary 2}",
 			"",
-			"{family/Qlippoth} are chaotic evil {type/outsider/s} from the deepest reaches of {rule/the Abyss>_gg}. They have the following traits unless otherwise noted in a creature's entry.",
+			"{family/Qlippoth} are chaotic evil {type/outsider/s} from the deepest reaches of {rule/the Abyss}. They have the following traits unless otherwise noted in a creature's entry.",
 			"",
 			"- {umr/Immunity} to cold, mind-affecting effects, and poison.",
 			"- {umr/Resistance} to acid 10, electricity 10, and fire 10.",
@@ -1228,7 +1228,7 @@
 			"## Subtype: Sahkil",
 			"{SOURCE Bestiary 6;Bestiary 5}",
 			"",
-			"{family/Sahkil/s} are neutral evil {type/outsider/s} native to the {rule/Ethereal Plane>_gg}. They have the following traits (unless otherwise noted in a creature's entry).",
+			"{family/Sahkil/s} are neutral evil {type/outsider/s} native to the {rule/Ethereal Plane}. They have the following traits (unless otherwise noted in a creature's entry).",
 			"",
 			"- Darkvision 60 feet and low-light vision.",
 			"- {umr/Immunity} to death effects, disease, fear effects, and poison.",
@@ -1403,7 +1403,7 @@
 			"## Subtype: Water",
 			"{SOURCE Bestiary 6;Pathfinder RPG Bestiary;Bestiary 2;Bestiary 3;Bestiary 4;Bestiary 5}",
 			"",
-			"This subtype is usually used for outsiders with a connection to the Elemental {rule/Plane of Water>_gg}. Creatures with the water subtype always have swim speeds and can move in water without making Swim checks. A water creature can breathe underwater and can usually breathe air as well. Water creatures treat the {skill/Swim} skill as a class skill."
+			"This subtype is usually used for outsiders with a connection to the Elemental {rule/Plane of Water}. Creatures with the water subtype always have swim speeds and can move in water without making Swim checks. A water creature can breathe underwater and can usually breathe air as well. Water creatures treat the {skill/Swim} skill as a class skill."
 		]
 	},
 	"wayang": {
