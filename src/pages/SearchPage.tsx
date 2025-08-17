@@ -316,6 +316,7 @@ const SearchPage: FC = () => {
 		searchBar && searchBar.getInputElement().then(input => {
 			input.value = "";
 			() => setSearchText("");
+			searchBar.setFocus();
 			//dispatch(setSearchQuery(""));
 		});
 	}, [setSearchText, dispatch, searchBar]);

@@ -1852,7 +1852,7 @@
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
 			"",
-			"Though the Great Old One Xhamen-Dor lies half-dormant where its bloated body crashed millennia ago, virtually nothing can prevent it from seeking new hosts to infect. The most common means by which one might contract this infestation is through nightmares that brush against Xhamen-Dor's influence in the Dimension of Dreams, after which the Inmost Blot can track victims and infest their thoughts, slowly and painfully driving them mad. Less common is direct exposure to one of the Great Old One's vine-choked thralls: the seeded.",
+			"Though the Great Old One {faith/Xhamen-Dor} lies half-dormant where its bloated body crashed millennia ago, virtually nothing can prevent it from seeking new hosts to infect. The most common means by which one might contract this infestation is through nightmares that brush against Xhamen-Dor's influence in the Dimension of Dreams, after which the Inmost Blot can track victims and infest their thoughts, slowly and painfully driving them mad. Less common is direct exposure to one of the Great Old One's vine-choked thralls: the seeded.",
 			"",
 			"Xhamen-Dor feeds upon a victim's force of personality, and as a result, only a select few who meet its inscrutable criteria are even able to contract the seedborne consumption disease that turns one into a seeded. Those infected first become sickly and withdrawn. Weeks later, the germinating evil within begins sending fibrous feelers throughout the victim's body. When the host finally slips into a catatonic coma, these fibers quickly digest the organs and portions of the flesh before animating the corpse from within like a puppet. Most victims maintain painful recollections of their former lives, yet they are driven to hear and obey the commands of Xhamen-Dor and find new victims to spread their plague.",
 			"",
@@ -1874,9 +1874,9 @@
 			"",
 			"**Weaknesses:** A seeded creature has the following weakness.",
 			"",
-			"**Transformed:** Although seeded creatures are undead, their bodies pulse with alien plant life. For the purposes of effects targeting creatures by type (such as a ranger's {ability/favored enemy} and {magic-enh/bane} weapons), seeded creatures count as both undead and plants.",
-			"",
-			"Seeded creatures are not immune to charms, compulsions, and mind-affecting effects from psychic sources, such as psychic spells or a creature's psychic magic ability. However, such effects have a chance to harm the source due to seeded creatures' insidious mind special attack (see below).",
+			">**Transformed:** Although seeded creatures are undead, their bodies pulse with alien plant life. For the purposes of effects targeting creatures by type (such as a ranger's {ability/favored enemy} and {magic-enh/bane} weapons), seeded creatures count as both undead and plants.",
+			">",
+			">Seeded creatures are not immune to charms, compulsions, and mind-affecting effects from psychic sources, such as psychic spells or a creature's psychic magic ability. However, such effects have a chance to harm the source due to seeded creatures' *insidious mind* special attack (see below).",
 			"",
 			"**Speed:** A seeded creature retains all movement types and gains a climb speed equal to its base speed.",
 			"",
@@ -1901,14 +1901,17 @@
 	},
 	"shadow": {
 		"name": "Shadow",
-		"sources": [ "Bestiary 4" ],
+		"sources": [
+			"Bestiary 4",
+			"Advanced Race Guide"
+		],
 		"description": [
 			"## Shadow (CR +1)",
 			"",
-			"{SOURCE Bestiary 4}  ",
+			"{SOURCE Bestiary 4/238;Advanced Race Guide/110}  ",
 			"**Acquired/Inherited Template** Inherited  ",
 			"**Simple Template** No  ",
-			"**Usable with Summons** No",
+			"**Usable with Summons** Yes[^1]",
 			"",
 			"\"Shadow creature\" is an inherited template that can be added to any living creature, referred to hereafter as the base creature. A shadow creature retains all the base creature's statistics and abilities except as noted here.",
 			"",
@@ -1926,7 +1929,9 @@
 			"",
 			"**Shadow Blend (Su):** In any illumination other than bright light, a shadow creature blends into the shadows, giving it concealment (20% miss chance). A shadow creature can suspend or resume this ability as a free action.",
 			"",
-			"**Spell Resistance (Ex):** A shadow creature gains spell resistance equal to the base creature's CR + 6."
+			"**Spell Resistance (Ex):** A shadow creature gains spell resistance equal to the base creature's CR + 6.",
+			"",
+			"[^1]: *Bestiary 4* makes no mention of whether or not the template can apply to summons, but *Advanced Race Guide* introduces the {arc-summoner/shadow caller} summoner archetype that applies the template to summoned creatures."
 		]
 	},
 	"shadow_animal": {
@@ -2003,25 +2008,7 @@
 			"**Languages:** Shadow animals gain Common and Infernal, but if the base creature is unable to speak, it can only understand these languages."
 		]
 	},
-	"shadow_creature": {
-		"name": "Shadow Creature",
-		"sources": [ "Advanced Race Guide" ],
-		"description": [
-			"## Shadow Creature (CR +1)",
-			"",
-			"{SOURCE Advanced Race Guide}  ",
-			"**Acquired/Inherited Template** Inherited  ",
-			"**Simple Template** No  ",
-			"**Usable with Summons** Yes",
-			"",
-			"Creatures with the shadow creature template dwell on the Shadow Plane, only rarely venturing onto other, brighter planes, and can be summoned by shadow callers. A shadow creature's CR increases by +1. A shadow creature's quick and rebuild rules are the same.",
-			"",
-			"**Rebuild Rules:** **Senses** gains darkvision 60 ft. and low-light vision; **Defensive Abilities** gains energy resistance and DR as noted on the table below; **SR** gains SR equal to new CR + 6; **Special Abilities** *Shadow Blend (Su)* In any condition of illumination other than bright light, a shadow creature blends into the shadows, giving it concealment (20% miss chance). A shadow creature can suspend or resume this ability as a free action.",
-			"",
-			"| Hit Dice | Resist Cold and Electricity |",
-			"| --- | --- |"
-		]
-	},
+	"shadow_creature": { "redirect": "shadow" },
 	"shadow_lord": {
 		"name": "Shadow Lord",
 		"sources": [ "Bestiary 4" ],
@@ -2033,12 +2020,12 @@
 			"**Simple Template** No  ",
 			"**Usable with Summons** No",
 			"",
-			"\"Shadow lord\" is an acquired template that can be added to any {template/shadow creature} with 5 or more Hit Dice (referred to hereafter as the base creature). Most shadow lords were originally humanoids. A shadow lord retains all the base creature's statistics and abilities (including those granted by the shadow creature template) except as noted here.",
+			"\"Shadow lord\" is an acquired template that can be added to any {template/shadow} creature with 5 or more Hit Dice (referred to hereafter as the base creature). Most shadow lords were originally humanoids. A shadow lord retains all the base creature's statistics and abilities (including those granted by the shadow creature template) except as noted here.",
 			"",
 			"**Challenge Rating:** Same as the base creature +2.  ",
 			"**Alignment:** Any evil.  ",
 			"**Senses:** A shadow lord gains the {umr/see in darkness} ability.  ",
-			"**Armor Class:** Same as the base creature (see also the incorporeal step ability).  ",
+			"**Armor Class:** Same as the base creature (see also the *incorporeal step* ability).  ",
 			"**Defensive Abilities:** A shadow lord gains the following defensive abilities.",
 			"",
 			">*Energy Resistance and Damage Reduction (Su):* A shadow lord gains damage reduction and resistance to cold and electricity based on its Hit Dice, as noted on the table below. This replaces the energy resistance and damage reduction granted by the shadow creature template.",
@@ -2048,24 +2035,25 @@
 			">| 5-10 | 15 | 10/magic |",
 			">| 11-15 | 20 | 15/magic |",
 			">| 16+ | 30 | 20/magic |",
+			">",
+			">**Incorporeal Step (Su):** When a shadow lord moves, it gains the incorporeal subtype and quality, including a deflection bonus to AC equal to its Charisma bonus. It loses the incorporeal subtype and special ability when it stops moving.",
 			"",
-			"**Incorporeal Step (Su):** When a shadow lord moves, it gains the incorporeal subtype and quality, including a deflection bonus to AC equal to its Charisma bonus. It loses the incorporeal subtype and special ability when it stops moving.",
+			"**Attacks:** A shadow lord gains a melee touch attack that deals 1d6 points of damage (Fortitude negates). The save DC is equal to 10 + 1/2 the shadow lord's Hit Dice + the shadow lord's Charisma modifier. On a critical hit, the shadow lord's touch attack also deals 1 point of Constitution damage (also negated by the saving throw).",
 			"",
-			"**Attacks:** A shadow lord gains a melee touch attack that deals 1d6 points of damage (Fortitude negates). The save DC is equal to 10 + 1/2 the shadow lord's Hit Dice + the shadow lord's Charisma modifier. On a critical hit, the shadow lord's touch attack also deals 1 point of Constitution damage (also negated by the saving throw).  ",
 			"**Special Attacks:** A shadow lord gains the following special attacks. Their saving throw DCs for these attacks are equal to 10 + 1/2 the shadow lord's Hit Dice + the shadow lord's Charisma modifier, unless otherwise noted.",
 			"",
-			"**Cloying Gloom Blast (Su):** Three times per day, the shadow lord can unleash a 30-foot cone of cloying gloom. On a failed Fortitude saving throw, creatures in the cone are affected by a slow spell (caster level equal to the shadow lord's Hit Dice) and are blinded for the duration of the slow effect.",
+			">**Cloying Gloom Blast (Su):** Three times per day, the shadow lord can unleash a 30-foot cone of cloying gloom. On a failed Fortitude saving throw, creatures in the cone are affected by a slow spell (caster level equal to the shadow lord's Hit Dice) and are blinded for the duration of the slow effect.",
 			"",
-			"**Spell-Like Abilities:** A shadow lord gains the following spell-like abilities, with a caster level equal to its Hit Dice: at will-ray of sickening; 3/day-shadow conjuration, shadow step; 1/day-greater shadow conjuration (if the shadow lord has 11 or more Hit Dice), shadow walk.",
+			"**Spell-Like Abilities:** A shadow lord gains the following spell-like abilities, with a caster level equal to its Hit Dice: at will-{spell/ray of sickening}; 3/day-{spell/shadow conjuration}, {spell/shadow step}; 1/day-{spell/greater shadow conjuration} (if the shadow lord has 11 or more Hit Dice), {spell/shadow walk}.",
 			"",
-			"A creature created with shadow conjuration or greater shadow conjuration that would normally have a celestial or fiendish template (such as a bear) instead gains the shadow creature template.",
+			"A creature created with *shadow conjuration* or *greater shadow conjuration* that would normally have a celestial or fiendish template (such as a bear) instead gains the {template/shadow} creature template.",
 			"",
 			"**Special Qualities:** A shadow lord gains the following special quality.",
 			"",
-			"**Planar Thinning (Su):** Once per day as a full-round action, a shadow lord can thin the barriers between the Material Plane and Shadow Plane, making it considerably easier for creatures to cross between the two. This functions like the planar travel aspect of the gate spell (caster level equal to the shadow lord's Hit Dice). This planar thinning is immediately dispelled if in an area of normal or bright light.",
+			">**Planar Thinning (Su):** Once per day as a full-round action, a shadow lord can thin the barriers between the Material Plane and Shadow Plane, making it considerably easier for creatures to cross between the two. This functions like the planar travel aspect of the {spell/gate} spell (caster level equal to the shadow lord's Hit Dice). This planar thinning is immediately dispelled if in an area of normal or bright light.",
 			"",
 			"**Ability Scores:** Dex +4, Cha +4.  ",
-			"**Skills:** A shadow lord gains a +8 racial bonus on all Stealth checks."
+			"**Skills:** A shadow lord gains a +8 racial bonus on all {skill/Stealth} checks."
 		]
 	},
 	"shadowbound_creature": {
