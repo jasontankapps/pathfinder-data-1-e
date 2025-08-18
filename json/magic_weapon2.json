@@ -2138,7 +2138,7 @@
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** none; **Price** 39,305 gp; **Weight** 3 lbs.",
 			"",
-			"This +1 {magic-enh/unholy} {eq-weapon/scorpion whip} is fashioned from skin flayed from a {monster/barbed devil/'s} back. It grants its wielder a +5 competence bonus on {skill/Intimidate} checks. A {misc/shaken} creature struck by the hellscourge must succeed at a DC 17 Will save or become {misc/frightened} for 1 round. A frightened or {misc/panicked} creature struck must instead save or {misc/cower>ing} for 1d4 rounds. Both of these are mind-affecting fear effects.",
+			"This +1 {magic-enh/unholy} {eq-weapon/scorpion whip} is fashioned from skin flayed from a {monster/barbed devil/'s} back. It grants its wielder a +5 competence bonus on {skill/Intimidate} checks. A {misc/shaken} creature struck by the hellscourge must succeed at a DC 17 Will save or become {misc/frightened} for 1 round. A frightened or {misc/panicked} creature struck must instead save or {misc/cower} for 1d4 rounds. Both of these are mind-affecting fear effects.",
 			"",
 			"If wielded by a person who wears {magic-armor/hamatula hide} armor, the hellscourge functions as a +1 {magic-enh/flaming} unholy {eq-weapon/whip}. Such a wielder can lash the whip once per day to hurl flames as a *scorching ray* (creating two rays); doing so extinguishes the whip's flames until the next day.",
 			"",

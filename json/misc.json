@@ -224,6 +224,7 @@
 		"type": "Rule",
 		"topLink": [ "Fear Conditions", "rule/fear_conditions" ]
 	},
+	"cower": { "redirect": "cowering" },
 	"frightened": {
 		"name": "Frightened",
 		"sources": [ "PRPG Core Rulebook" ],
