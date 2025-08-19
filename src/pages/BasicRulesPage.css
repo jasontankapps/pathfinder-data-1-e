@@ -69,7 +69,7 @@ div.prevNext div.next {
 }
 div.prevNext a:link,
 div.prevNext a:visited,
-div.prevNext a:hover  {
+div.prevNext a:hover {
 	color: var(--ion-color-secondary);
 	text-decoration: none;
 }

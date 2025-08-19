@@ -129,6 +129,7 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
+	"stun": { "redirect": "stunned" },
 	"unconscious": {
 		"name": "Unconscious",
 		"sources": [ "PRPG Core Rulebook" ],

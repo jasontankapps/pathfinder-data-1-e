@@ -408,7 +408,7 @@ div.main.basicContent h6 a {
 	/*
 		This is making a weird fading issue on page load... sometimes.
 		I don't think jumplists (the thing that needs transitions) ever
-		  point to these headers, so it's safe to remove them here.
+			point to these headers, so it's safe to remove them here.
 	*/
 	transition: none;
 }

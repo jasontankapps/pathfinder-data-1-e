@@ -917,7 +917,7 @@
 					[ "{eq-weapon/heavy pick}", [ 1, "martial" ], 8, [ 2.5, "1d4" ], [ 3.5, "1d6" ], [ 4, "&times;4" ], null, [ 999, "&mdash;" ], 6, "P" ],
 					[ "{eq-weapon/light flail}", [ 1, "martial" ], 8, [ 3.5, "1d6" ], [ 4.5, "1d8" ], [ 99, "&mdash;" ], "disarm, trip", [ 999, "&mdash;" ], 5, "B" ],
 					[ "{eq-weapon/longsword}", [ 1, "martial" ], 15, [ 3.5, "1d6" ], [ 4.5, "1d8" ], [ 2.1, "19-20" ], null, [ 999, "&mdash;" ], 4, "S" ],
-					[ "{eq-weapon/cold iron masterwork longsword}", [ 1, "martial" ], 330, [ 3.5, "1d6" ], [ 4.5, "1d8" ],  [ 2.1, "19-20" ], null, [ 999, "&mdash;" ], 4, "S" ],
+					[ "{eq-weapon/cold iron masterwork longsword}", [ 1, "martial" ], 330, [ 3.5, "1d6" ], [ 4.5, "1d8" ], [ 2.1, "19-20" ], null, [ 999, "&mdash;" ], 4, "S" ],
 					[ "{eq-weapon/manople}", [ 1, "martial" ], 17, [ 3.5, "1d6" ], [ 4.5, "1d8" ], [ 99, "&mdash;" ], "blocking, disarm", [ 999, "&mdash;" ], 4, "P or S" ],
 					[ "{eq-weapon/nine-ring broadsword}", [ 1, "martial" ], 15, [ 3.5, "1d6" ], [ 4.5, "1d8" ], [ 3, "&times;3" ], "monk", [ 999, "&mdash;" ], 4, "S" ],
 					[ "{eq-weapon/rapier}", [ 1, "martial" ], 20, [ 2.5, "1d4" ], [ 3.5, "1d6" ], [ 2.2, "18-20" ], null, [ 999, "&mdash;" ], 2, "P" ],
