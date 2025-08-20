@@ -159,7 +159,7 @@ const $Basics = [
 ];
 
 const $Whats = [
-	"\"Main\" files",
+	"main",
 	"PC classes",
 	"spells",
 	"spell definitions",

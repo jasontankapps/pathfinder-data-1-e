@@ -104,7 +104,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		const sortedRowsWithBothOriginalIndices = data
 				// add index to each row [ ROW, index ]
 			.map((row, j) => [row.map((cell, k) => [cell, k]), j] as SortableRow)
-				// sort everything
+				// sort everything (non-destructive due to this being a mapped instance)
 			.sort(sortOnColumn(sortingColumn, sortDirection));
 		const sortedAndFilteredRowsWithHeaderIndices = sortedRowsWithBothOriginalIndices
 				// hide hidden rows
