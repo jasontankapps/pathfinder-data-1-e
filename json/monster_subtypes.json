@@ -1201,7 +1201,7 @@
 			"## Subtype: Robot",
 			"{SOURCE Bestiary 5;Inner Sea Bestiary}",
 			"",
-			"Robots are intelligent {type/construct/s} created by advanced scientific means. They have the following traits, unless otherwise noted.",
+			"\"Robot\" is a special subtype that can be applied to any {type/construct} without changing its CR. Robots share some features with {subtype/clockwork} constructs, and as with clockworks, you can simply remove the robot subtype and its traits to transform it into a typical construct animated by magic. A construct cannot possess both the robot and the clockwork subtypes. All robots gain the following traits, unless noted otherwise.",
 			"",
 			"- @HL[Difficult to Create (Ex):] Robots are crafted via complex methods hidden and well guarded. A robot does not have a construction entry.",
 			"- @HL[Intelligent:] Robots are intelligent, and thus have skills and feats as appropriate for their Hit Dice. Unless otherwise indicated for a specific robot, all robots have Intelligence scores of 10. The following are class skills for robots: {skill/Climb}, {skill/Disable Device}, {skill/Fly}, {skill/Knowledge} (all), {skill/Linguistics}, {skill/Perception}, and {skill/Sense Motive}.",
@@ -1295,15 +1295,22 @@
 	},
 	"spawn_of_rovagug": {
 		"name": "Spawn of Rovagug",
-		"sources": [ "Inner Sea Gods" ],
+		"sources": [
+			"Inner Sea Gods",
+			"Inner Sea Bestiary"
+		],
 		"description": [
 			"## Subtype: Spawn of Rovagug",
-			"{SOURCE Inner Sea Gods}",
+			"{SOURCE Inner Sea Gods;Inner Sea Bestiary}",
 			"",
 			"All Spawn of Rovagug are Colossal {type/magical beast/s} that possess the following traits.",
 			"",
+			"- @HL[Damage Reduction (Ex):] Spawn of Rovagug have DR 15/epic.",
+			"- @HL[Frightful Presence (Su):] Spawn of Rovagug radiate an [aura of terror](umr/frightful_presence) in a 300-foot radius.",
 			"- @HL[Hibernation (Ex):] Spawn of Rovagug can sleep for years, decades, or even centuries and do not need to eat or breathe during these periods of dormancy. If a spawn of Rovagug is forced into an environment where it cannot breathe and would suffocate, it goes into hibernation until conditions are right for it to reawaken. While in hibernation, a spawn of Rovagug's damage reduction improves to 50/epic and it gains {umr/immunity} to any spell or spell-like ability that allows spell resistance as well as all divination effects.",
+			"- @HL[Immunities (Ex):] All spawn of Rovagug are immune to ability damage, bleed, disease, energy drain, mind-affecting effects, paralysis, permanent wounds, petrification, poison, and polymorph. In addition, each spawn of Rovagug possesses immunity to two of the following energy types: acid, cold, electricity, fire, or sonic.",
 			"- @HL[Regeneration (Ex):] All spawn of Rovagug possess {umr/regeneration}, and no form of attack can suppress this regeneration; they regenerate even if {spell/disintegrate/d} or slain by a death effect. If a spawn of Rovagug fails a save against an effect that would kill it instantly, it rises from death 3 rounds later with 1 hit point if no further damage is dealt to its remains. It can be *banished* or otherwise transported as a means to save a region, but a method to kill Spawn of Rovagug has yet to be discovered.",
+			"- @HL[Spell Resistance (Su):] A spawn of Rovagug possesses spell resistance equal to 11 + its CR.",
 			"- @HL[Unstoppable Force (Ex):] A spawn of Rovagug can always {rule/charge}, even if its movement is impeded or its path is blocked by another creature. It receives a +20 racial bonus on combat maneuver checks to {rule/overrun} and Strength checks to break or destroy objects, and can make one such check as a free action as part of a charge. In addition, the natural weapons of a spawn of Rovagug ignore all forms of damage reduction and hardness."
 		]
 	},

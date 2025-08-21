@@ -1918,7 +1918,7 @@
 			"",
 			"The statistics presented here for the Tarrasque differ slightly from those in the Bestiary-this version more accurately represents the Tarrasque as the mightiest of Rovagug's spawn.",
 			"",
-			"**Family:** {family/Herald}"
+			"**Family:** {family/Herald}, {family/Spawn of Rovagug}"
 		]
 	},
 	"tarrasque": { "redirect": "herald_tarrasque" },
