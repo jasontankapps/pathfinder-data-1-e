@@ -43,6 +43,11 @@ blockquote.hanging p {
 	text-indent: -1.5rem;
 }
 
+/*
+	The 'columnar' class attempts to split
+	giant lists into veritcal columns.
+*/
+
 div.columnar {
 	margin-inline: auto;
 	margin-block: 1em;
@@ -68,10 +73,6 @@ div.columnar ol {
 	div.columnar:not(.max2):not(.max3) {
 		columns: 4
 	}
-}
-
-.capitalize {
-	text-transform: capitalize;
 }
 
 span.innerlink {

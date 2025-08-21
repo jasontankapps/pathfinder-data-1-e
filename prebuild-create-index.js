@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import fs from 'fs';
+import capitalize from 'capitalize';
 import basic_data_groups from './basic_data_groups.js';
 
 const SEARCHGROUPS = [
@@ -136,7 +137,14 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 			return;
 		}
 		// Save for search index, used directly by Fuse.js
-		const indexable = { name: named || "BLANK" };
+		const indexable = {
+			name: capitalize.words(
+				named,
+				{
+					skipWord: /^(a|the|an|and|or|but|in|on|of|it)$/,
+					preserve: true
+				}
+			) || "BLANK" };
 		subtitle && (indexable.subtitle = subtitle);
 		tags && (indexable.tags = tags);
 		if(!disambiguation) {
