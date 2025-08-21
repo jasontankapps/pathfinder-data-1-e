@@ -1,7 +1,6 @@
 {
 	"dungeons_gg": {
 		"name": "Dungeons",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/174}",
@@ -39,7 +38,6 @@
 	},
 	"the_dungeon_concept": {
 		"name": "The Dungeon Concept",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/174}",
@@ -67,7 +65,6 @@
 	},
 	"drawing_a_dungeon_map": {
 		"name": "Drawing a Dungeon Map",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/174}",
@@ -99,7 +96,7 @@
 	},
 	"sketching_the_map": {
 		"name": "Sketching the Map",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/174}",
@@ -143,7 +140,7 @@
 	},
 	"inking_the_map": {
 		"name": "Inking the Map",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/175}",
@@ -173,7 +170,7 @@
 	},
 	"tagging_the_map": {
 		"name": "Tagging the Map",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/176}",
@@ -201,7 +198,7 @@
 	},
 	"adding_details_to_the_map": {
 		"name": "Adding Details to the Map",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/176}",
@@ -229,7 +226,6 @@
 	},
 	"dungeon_ecology": {
 		"name": "Dungeon Ecology",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/176}",
@@ -263,7 +259,7 @@
 	},
 	"encounter_archetypes": {
 		"name": "Encounter Archetypes",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/176}",
@@ -309,7 +305,7 @@
 	},
 	"resting_in_the_dungeon": {
 		"name": "Resting in the Dungeon",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/177}",
@@ -341,7 +337,6 @@
 	},
 	"dungeon_toolbox": {
 		"name": "Dungeon Toolbox",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/178}",
@@ -377,7 +372,7 @@
 	},
 	"dt_1": {
 		"name": "Dungeon Locations, Types and Entrances",
-		"subtitle": "Dungeon Toolbox, Gamemastery",
+		"subtitle": "Dungeon Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/178}",
@@ -557,7 +552,7 @@
 	},
 	"dt_2": {
 		"name": "Dungeon Rooms",
-		"subtitle": "Dungeon Toolbox, Gamemastery",
+		"subtitle": "Dungeon Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/179}",
@@ -745,7 +740,7 @@
 	},
 	"dt_3": {
 		"name": "100 Pieces of Minor and Major Dungeon Dressing",
-		"subtitle": "Dungeon Toolbox, Gamemastery",
+		"subtitle": "Dungeon Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/181}",
@@ -873,7 +868,7 @@
 	},
 	"dt_4": {
 		"name": "Encounters: Dragon's Lair, Goblin Den, Graveyard/Necropolis",
-		"subtitle": "Dungeon Toolbox, Gamemastery",
+		"subtitle": "Dungeon Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/182}",
@@ -983,7 +978,7 @@
 	},
 	"dt_5": {
 		"name": "Encounters: Lost Jungle City, Planar Stronghold, Underwater Ruin",
-		"subtitle": "Dungeon Toolbox, Gamemastery",
+		"subtitle": "Dungeon Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/182}",
@@ -1092,7 +1087,7 @@
 	},
 	"dt_6": {
 		"name": "Encounters: Unholy Temple, Wizard's Laboratory",
-		"subtitle": "Dungeon Toolbox, Gamemastery",
+		"subtitle": "Dungeon Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/183}",
@@ -1173,7 +1168,6 @@
 	},
 	"planar": {
 		"name": "Planar",
-		"subtitle": "Gamemastery",
 		"tags": "the planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -1206,7 +1200,6 @@
 	},
 	"what_is_a_plane": {
 		"name": "What is a Plane?",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/184}",
@@ -1238,7 +1231,7 @@
 	},
 	"planar_traits": {
 		"name": "Planar Traits",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/184}",
@@ -1274,7 +1267,7 @@
 	},
 	"physical_traits": {
 		"name": "Physical Traits",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/184}",
@@ -1303,7 +1296,7 @@
 	},
 	"gravity_traits": {
 		"name": "Gravity Traits",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/184}",
@@ -1372,7 +1365,7 @@
 	},
 	"time_traits": {
 		"name": "Time Traits",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/185}",
@@ -1412,7 +1405,7 @@
 	},
 	"morphic_traits": {
 		"name": "Morphic Traits",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/186}",
@@ -1448,7 +1441,7 @@
 	},
 	"elemental_and_energy_traits": {
 		"name": "Elemental and Energy Traits",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/186}",
@@ -1491,7 +1484,7 @@
 	},
 	"alignment_traits": {
 		"name": "Alignment Traits",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/187}",
@@ -1528,7 +1521,7 @@
 	},
 	"magic_traits": {
 		"name": "Magic Traits",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/187}",
@@ -1583,7 +1576,7 @@
 	},
 	"the_great_beyond": {
 		"name": "The Great Beyond",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/188}",
@@ -1628,7 +1621,7 @@
 	},
 	"material_plane": {
 		"name": "Material Plane",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/188}",
@@ -1675,7 +1668,7 @@
 	},
 	"shadow_plane": {
 		"name": "Shadow Plane",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/188}",
@@ -1723,7 +1716,7 @@
 	"plane_of_shadow": { "redirect": "shadow_plane" },
 	"negative_energy_plane": {
 		"name": "Negative Energy Plane",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/188}",
@@ -1770,7 +1763,7 @@
 	},
 	"positive_energy_plane": {
 		"name": "Positive Energy Plane",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/188}",
@@ -1817,7 +1810,7 @@
 	},
 	"plane_of_air": {
 		"name": "Plane of Air",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/189}",
@@ -1864,7 +1857,7 @@
 	},
 	"plane_of_earth": {
 		"name": "Plane of Earth",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/190}",
@@ -1910,7 +1903,7 @@
 	},
 	"plane_of_fire": {
 		"name": "Plane of Fire",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/190}",
@@ -1956,7 +1949,7 @@
 	},
 	"plane_of_water": {
 		"name": "Plane of Water",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/190}",
@@ -2005,7 +1998,7 @@
 	},
 	"ethereal_plane": {
 		"name": "Ethereal Plane",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/191}",
@@ -2054,7 +2047,7 @@
 	},
 	"astral_plane": {
 		"name": "Astral Plane",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/191}",
@@ -2101,7 +2094,7 @@
 	},
 	"abaddon": {
 		"name": "Abaddon (Neutral Evil)",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/191}",
@@ -2148,7 +2141,7 @@
 	},
 	"the_abyss": {
 		"name": "The Abyss (Chaotic Evil)",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/191}",
@@ -2195,7 +2188,7 @@
 	},
 	"elysium": {
 		"name": "Elysium (Chaotic Good)",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/191}",
@@ -2242,7 +2235,7 @@
 	},
 	"heaven": {
 		"name": "Heaven (Lawful Good)",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/192}",
@@ -2289,7 +2282,7 @@
 	},
 	"hell": {
 		"name": "Hell (Lawful Evil)",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/192}",
@@ -2336,7 +2329,7 @@
 	},
 	"limbo": {
 		"name": "Limbo (Chaotic Neutral)",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/192}",
@@ -2385,7 +2378,7 @@
 	"maelstrom": { "redirect": "limbo" },
 	"nirvana": {
 		"name": "Nirvana (Neutral Good)",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/193}",
@@ -2432,7 +2425,7 @@
 	},
 	"purgatory": {
 		"name": "Purgatory (Neutral)",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/193}",
@@ -2480,7 +2473,7 @@
 	"the_boneyard": { "redirect": "purgatory" },
 	"utopia": {
 		"name": "Utopia (Lawful Neutral)",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/193}",
@@ -2529,7 +2522,7 @@
 	"axis": { "redirect": "utopia" },
 	"planar_toolbox": {
 		"name": "Planar Toolbox",
-		"subtitle": "The Planes, Gamemastery",
+		"subtitle": "The Planes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/194}",
@@ -2557,7 +2550,7 @@
 	},
 	"pt_1": {
 		"name": "Random Planes, Demiplanes, and Portal Descriptions",
-		"subtitle": "Planar Toolbox, Gamemastery",
+		"subtitle": "Planar Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/194}",
@@ -2683,7 +2676,7 @@
 	},
 	"pt_2": {
 		"name": "Encounters: Astral, Etheral, and Shadow Planes",
-		"subtitle": "Planar Toolbox, Gamemastery",
+		"subtitle": "Planar Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/195}",
@@ -2791,7 +2784,7 @@
 	},
 	"pt_3": {
 		"name": "Encounters: Aligned Planes",
-		"subtitle": "Planar Toolbox, Gamemastery",
+		"subtitle": "Planar Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/195}",
@@ -2957,7 +2950,7 @@
 	},
 	"pt_4": {
 		"name": "Encounters: Elemental Planes",
-		"subtitle": "Planar Toolbox, Gamemastery",
+		"subtitle": "Planar Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/197}",
@@ -3094,7 +3087,6 @@
 	},
 	"taverns": {
 		"name": "Taverns",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/198}",
@@ -3131,7 +3123,7 @@
 	},
 	"services": {
 		"name": "Services",
-		"subtitle": "Taverns, Gamemastery",
+		"subtitle": "Taverns",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/198}",
@@ -3158,7 +3150,7 @@
 	},
 	"drinks": {
 		"name": "Drinks",
-		"subtitle": "Taverns, Gamemastery",
+		"subtitle": "Taverns",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/198}",
@@ -3183,7 +3175,7 @@
 	},
 	"food": {
 		"name": "Food",
-		"subtitle": "Taverns, Gamemastery",
+		"subtitle": "Taverns",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/198}",
@@ -3208,7 +3200,7 @@
 	},
 	"entertainment": {
 		"name": "Entertainment",
-		"subtitle": "Taverns, Gamemastery",
+		"subtitle": "Taverns",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/198}",
@@ -3235,7 +3227,7 @@
 	},
 	"bedding": {
 		"name": "Bedding and Other Amenities",
-		"subtitle": "Taverns, Gamemastery",
+		"subtitle": "Taverns",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/199}",
@@ -3264,7 +3256,7 @@
 	},
 	"staff_and_patrons": {
 		"name": "Staff and Patrons",
-		"subtitle": "Taverns, Gamemastery",
+		"subtitle": "Taverns",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/199}",
@@ -3297,7 +3289,6 @@
 	},
 	"tavern_toolbox": {
 		"name": "Tavern Toolbox",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/200}",
@@ -3533,7 +3524,6 @@
 	},
 	"urban": {
 		"name": "Urban",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/202}",
@@ -3567,7 +3557,7 @@
 	"the_shape_of_civilization": {
 		"name": "The Shape of Civilization",
 		"tags": "settlement population ranges",
-		"subtitle": "Urban, Gamemastery",
+		"subtitle": "Urban",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/202}",
@@ -3619,7 +3609,7 @@
 	},
 	"streets_and_traffic": {
 		"name": "Streets and Traffic",
-		"subtitle": "Urban, Gamemastery",
+		"subtitle": "Urban",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/202}",
@@ -3656,7 +3646,7 @@
 	},
 	"settlements_in_play": {
 		"name": "Settlements in Play",
-		"subtitle": "Urban, Gamemastery",
+		"subtitle": "Urban",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/203}",
@@ -3691,7 +3681,7 @@
 	},
 	"the_settlement_stat_block": {
 		"name": "The Settlement Stat Block",
-		"subtitle": "Urban, Gamemastery",
+		"subtitle": "Urban",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/204}",
@@ -3768,7 +3758,7 @@
 	},
 	"settlement_modifiers": {
 		"name": "Settlement Modifiers",
-		"subtitle": "Urban, Gamemastery",
+		"subtitle": "Urban",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/205}",
@@ -3805,7 +3795,7 @@
 	},
 	"settlement_alignment": {
 		"name": "Settlement Alignment",
-		"subtitle": "Urban, Gamemastery",
+		"subtitle": "Urban",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/206}",
@@ -3830,7 +3820,7 @@
 	},
 	"settlement_government": {
 		"name": "Settlement Government",
-		"subtitle": "Urban, Gamemastery",
+		"subtitle": "Urban",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/206}",
@@ -3865,7 +3855,7 @@
 	},
 	"settlement_qualities": {
 		"name": "Settlement Qualities",
-		"subtitle": "Urban, Gamemastery",
+		"subtitle": "Urban",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/207}",
@@ -3916,7 +3906,7 @@
 	},
 	"settlement_disadvantages": {
 		"name": "Settlement Disadvantages",
-		"subtitle": "Urban, Gamemastery",
+		"subtitle": "Urban",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/207}",
@@ -3951,7 +3941,7 @@
 	},
 	"sample_settlements": {
 		"name": "Sample Settlements",
-		"subtitle": "Urban, Gamemastery",
+		"subtitle": "Urban",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/208}",
@@ -3984,7 +3974,7 @@
 	},
 	"settlements_1": {
 		"name": "Capital City",
-		"subtitle": "Sample Settlements, Gamemastery",
+		"subtitle": "Sample Settlements",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/208}",
@@ -4030,7 +4020,7 @@
 	},
 	"settlements_2": {
 		"name": "City of Thieves",
-		"subtitle": "Sample Settlements, Gamemastery",
+		"subtitle": "Sample Settlements",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/208}",
@@ -4076,7 +4066,7 @@
 	},
 	"settlements_3": {
 		"name": "City-State of Intrigue",
-		"subtitle": "Sample Settlements, Gamemastery",
+		"subtitle": "Sample Settlements",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/208}",
@@ -4122,7 +4112,7 @@
 	},
 	"settlements_4": {
 		"name": "Creepy Backwoods Hamlet",
-		"subtitle": "Sample Settlements, Gamemastery",
+		"subtitle": "Sample Settlements",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/208}",
@@ -4168,7 +4158,7 @@
 	},
 	"settlements_5": {
 		"name": "Dwarven Trade Town",
-		"subtitle": "Sample Settlements, Gamemastery",
+		"subtitle": "Sample Settlements",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/208}",
@@ -4214,7 +4204,7 @@
 	},
 	"settlements_6": {
 		"name": "Elven Town",
-		"subtitle": "Sample Settlements, Gamemastery",
+		"subtitle": "Sample Settlements",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/208}",
@@ -4261,7 +4251,7 @@
 	},
 	"settlements_7": {
 		"name": "Failing Fishing Village",
-		"subtitle": "Sample Settlements, Gamemastery",
+		"subtitle": "Sample Settlements",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/208}",
@@ -4307,7 +4297,7 @@
 	},
 	"settlements_8": {
 		"name": "Sleepy Crosswoods Thorp",
-		"subtitle": "Sample Settlements, Gamemastery",
+		"subtitle": "Sample Settlements",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/208}",

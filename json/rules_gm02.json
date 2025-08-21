@@ -1,7 +1,6 @@
 {
 	"tools_for_game_masters": {
 		"name": "Tools for Game Masters",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/52}",
@@ -227,7 +226,6 @@
 	},
 	"player_characters": {
 		"name": "Player Characters",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/58}",
@@ -260,7 +258,6 @@
 	},
 	"starting_characters": {
 		"name": "Starting Characters",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/58}",
@@ -290,7 +287,6 @@
 	},
 	"the_face_of_the_enemy": {
 		"name": "The Face of the Enemy",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/58}",
@@ -319,7 +315,6 @@
 	},
 	"before_the_game": {
 		"name": "Before the Game",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/58}",
@@ -344,7 +339,6 @@
 	},
 	"group_composition": {
 		"name": "Group Composition",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/58}",
@@ -373,7 +367,6 @@
 	},
 	"character_creation_gg": {
 		"name": "Character Creation",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/59}",
@@ -400,7 +393,6 @@
 	},
 	"character_backgrounds": {
 		"name": "Character Backgrounds",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/59}",
@@ -429,7 +421,6 @@
 	},
 	"during_the_game_gg": {
 		"name": "During the Game",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/59}",
@@ -459,7 +450,6 @@
 	},
 	"fair_gameplay": {
 		"name": "Fair Gameplay",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/59}",
@@ -485,7 +475,6 @@
 	},
 	"player_knowledge": {
 		"name": "Player Knowledge",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/60}",
@@ -515,7 +504,6 @@
 	},
 	"plot_development": {
 		"name": "Plot Development",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/61}",
@@ -545,7 +533,6 @@
 	},
 	"after_the_game": {
 		"name": "After the Game",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/62}",
@@ -575,7 +562,6 @@
 	},
 	"keeping_current": {
 		"name": "Keeping Current",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/62}",
@@ -599,7 +585,6 @@
 	},
 	"feedback": {
 		"name": "Feedback",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/62}",
@@ -623,7 +608,6 @@
 	},
 	"creativity_between_sessions": {
 		"name": "Creativity Between Sessions",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/62}",
@@ -649,7 +633,6 @@
 	},
 	"new_players": {
 		"name": "New Players",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/63}",
@@ -682,7 +665,6 @@
 	},
 	"the_life_of_a_party": {
 		"name": "The Life of a Party",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/64}",
@@ -711,7 +693,6 @@
 	},
 	"gathering_a_group": {
 		"name": "Gathering A Group",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/64}",
@@ -741,7 +722,6 @@
 	},
 	"shared_past": {
 		"name": "Shared Past",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/64}",
@@ -768,7 +748,6 @@
 	},
 	"shared_goal": {
 		"name": "Shared Goal",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/64}",
@@ -791,7 +770,6 @@
 	},
 	"in_media_res": {
 		"name": "In Media Res",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/64}",
@@ -816,7 +794,6 @@
 	},
 	"flash_forward": {
 		"name": "Flash Forward",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/65}",
@@ -839,7 +816,6 @@
 	},
 	"party_composition": {
 		"name": "Party Composition",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/65}",
@@ -868,7 +844,6 @@
 	},
 	"splitting_the_party": {
 		"name": "Splitting the Party",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/65}",
@@ -908,7 +883,6 @@
 	},
 	"adjusting_for_limitations": {
 		"name": "Adjusting for Limitations",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/66}",
@@ -938,7 +912,6 @@
 	},
 	"secondary_characters": {
 		"name": "Secondary Characters",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/66}",
@@ -960,7 +933,6 @@
 	},
 	"handling_treasure": {
 		"name": "Handling Treasure",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/66}",
@@ -990,7 +962,6 @@
 	},
 	"death_of_a_hero": {
 		"name": "Death of a Hero",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/67}",
@@ -1018,7 +989,6 @@
 	},
 	"when_to_resurrect": {
 		"name": "When to Resurrect",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/67}",
@@ -1041,7 +1011,6 @@
 	},
 	"back_from_the_grave": {
 		"name": "Back from the Grave",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/67}",
@@ -1066,7 +1035,6 @@
 	},
 	"alignment_gg": {
 		"name": "Alignment",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/68}",
@@ -1100,7 +1068,7 @@
 	},
 	"predestination": {
 		"name": "Predestination",
-		"subtitle": "Gamemastery, Alignment",
+		"subtitle": "Alignment",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/68}",
@@ -1123,7 +1091,7 @@
 	},
 	"free_will": {
 		"name": "Free Will",
-		"subtitle": "Gamemastery, Alignment",
+		"subtitle": "Alignment",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/68}",
@@ -1146,7 +1114,7 @@
 	},
 	"defining_deeds": {
 		"name": "Defining Deeds",
-		"subtitle": "Gamemastery, Alignment",
+		"subtitle": "Alignment",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/68}",
@@ -1169,7 +1137,6 @@
 	},
 	"changing_alignment": {
 		"name": "Changing Alignment",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/69}",
@@ -1198,7 +1165,6 @@
 	},
 	"evil_characters": {
 		"name": "Evil Characters",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/69}",
@@ -1224,7 +1190,6 @@
 	},
 	"player_interactions": {
 		"name": "Player Interactions",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/70}",
@@ -1279,7 +1244,7 @@
 	},
 	"antagonist": {
 		"name": "Antagonist",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/71}",
@@ -1319,7 +1284,7 @@
 	},
 	"continuity_expert": {
 		"name": "Continuity Expert",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/71}",
@@ -1357,7 +1322,7 @@
 	},
 	"diva": {
 		"name": "Diva",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/72}",
@@ -1399,7 +1364,7 @@
 	},
 	"entrepreneur": {
 		"name": "Entrepreneur",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/72}",
@@ -1437,7 +1402,7 @@
 	},
 	"flake": {
 		"name": "Flake",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/73}",
@@ -1481,7 +1446,7 @@
 	},
 	"glass_jaw": {
 		"name": "Glass Jaw",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/73}",
@@ -1521,7 +1486,7 @@
 	},
 	"loner": {
 		"name": "Loner",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/74}",
@@ -1561,7 +1526,7 @@
 	},
 	"lump": {
 		"name": "Lump",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/74}",
@@ -1601,7 +1566,7 @@
 	},
 	"one_trick_pony": {
 		"name": "One-Trick Pony",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/75}",
@@ -1639,7 +1604,7 @@
 	},
 	"multitask_master": {
 		"name": "Multitask Master",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/75}",
@@ -1679,7 +1644,7 @@
 	},
 	"power_gamer": {
 		"name": "Power Gamer",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/76}",
@@ -1717,7 +1682,7 @@
 	},
 	"rules_lawyer": {
 		"name": "Rules Lawyer",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/76}",
@@ -1759,7 +1724,7 @@
 	},
 	"tagalong": {
 		"name": "Tagalong",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/77}",
@@ -1797,7 +1762,7 @@
 	},
 	"thespian": {
 		"name": "Thespian",
-		"subtitle": "Gamemastery, Player Types",
+		"subtitle": "Player Types",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/77}",
@@ -1835,7 +1800,6 @@
 	},
 	"non_player_characters": {
 		"name": "Non-Player Characters",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/80}",
@@ -1868,7 +1832,7 @@
 	},
 	"cast_of_characters": {
 		"name": "Cast of Characters",
-		"subtitle": "NPCs, Gamemastery",
+		"subtitle": "NPCs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/80}",
@@ -1902,7 +1866,6 @@
 	},
 	"designing_npcs": {
 		"name": "Designing NPCs",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/80}",
@@ -1929,7 +1892,6 @@
 	},
 	"npc_roles": {
 		"name": "NPC Roles",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/80}",
@@ -1957,7 +1919,7 @@
 	},
 	"the_villain": {
 		"name": "The Villain",
-		"subtitle": "NPC Roles, Gamemastery",
+		"subtitle": "NPC Roles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/80}",
@@ -1987,7 +1949,7 @@
 	},
 	"the_donor": {
 		"name": "The Donor",
-		"subtitle": "NPC Roles, Gamemastery",
+		"subtitle": "NPC Roles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/81}",
@@ -2014,7 +1976,7 @@
 	},
 	"the_helper": {
 		"name": "The Helper",
-		"subtitle": "NPC Roles, Gamemastery",
+		"subtitle": "NPC Roles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/82}",
@@ -2043,7 +2005,7 @@
 	},
 	"the_patron": {
 		"name": "The Patron",
-		"subtitle": "NPC Roles, Gamemastery",
+		"subtitle": "NPC Roles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/82}",
@@ -2072,7 +2034,7 @@
 	},
 	"the_victim": {
 		"name": "The Victim",
-		"subtitle": "NPC Roles, Gamemastery",
+		"subtitle": "NPC Roles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/82}",
@@ -2100,7 +2062,6 @@
 	},
 	"npc_basics": {
 		"name": "NPC Basics",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/82}",
@@ -2129,7 +2090,6 @@
 	},
 	"making_npcs_unique": {
 		"name": "Making NPCs Unique",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/84}",
@@ -2172,7 +2132,6 @@
 	},
 	"naming_npcs": {
 		"name": "Naming NPCs",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/84}",
@@ -2202,7 +2161,7 @@
 	},
 	"stereotypes": {
 		"name": "Stereotypes",
-		"subtitle": "NPCs, Gamemastery",
+		"subtitle": "NPCs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/85}",
@@ -2224,7 +2183,6 @@
 	},
 	"monstrous_npcs": {
 		"name": "Monstrous NPCs",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/85}",
@@ -2248,7 +2206,6 @@
 	},
 	"avoiding_npc_overwork": {
 		"name": "Avoiding NPC Overwork",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/85}",
@@ -2278,7 +2235,6 @@
 	},
 	"life_of_an_npc": {
 		"name": "Life of an NPC",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/86}",
@@ -2308,7 +2264,7 @@
 	},
 	"building_connections": {
 		"name": "Building Connections",
-		"subtitle": "NPCs, Gamemastery",
+		"subtitle": "NPCs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/86}",
@@ -2339,7 +2295,7 @@
 	},
 	"dead_ends": {
 		"name": "Dead Ends",
-		"subtitle": "NPCs, Gamemastery",
+		"subtitle": "NPCs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/86}",
@@ -2370,7 +2326,7 @@
 	},
 	"whos_in_control": {
 		"name": "Who's in Control?",
-		"subtitle": "NPCs, Gamemastery",
+		"subtitle": "NPCs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/87}",
@@ -2393,7 +2349,7 @@
 	},
 	"beyond_expectations": {
 		"name": "Beyond Expectations",
-		"subtitle": "NPCs, Gamemastery",
+		"subtitle": "NPCs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/87}",
@@ -2416,7 +2372,6 @@
 	},
 	"npc_traps": {
 		"name": "NPC Traps",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/87}",
@@ -2445,7 +2400,6 @@
 	},
 	"npc_boons": {
 		"name": "NPC Boons",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/88}",
@@ -2489,7 +2443,7 @@
 	},
 	"adept": {
 		"name": "Adept",
-		"subtitle": "NPCs, Gamemastery",
+		"subtitle": "NPCs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/89}",
@@ -2524,7 +2478,7 @@
 	},
 	"aristocrat": {
 		"name": "Aristocrat",
-		"subtitle": "NPCs, Gamemastery",
+		"subtitle": "NPCs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/89}",
@@ -2559,7 +2513,7 @@
 	},
 	"commoner": {
 		"name": "Commoner",
-		"subtitle": "NPCs, Gamemastery",
+		"subtitle": "NPCs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/89}",
@@ -2594,7 +2548,7 @@
 	},
 	"expert": {
 		"name": "Expert",
-		"subtitle": "NPCs, Gamemastery",
+		"subtitle": "NPCs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/89}",
@@ -2629,7 +2583,7 @@
 	},
 	"warrior": {
 		"name": "Warrior",
-		"subtitle": "NPCs, Gamemastery",
+		"subtitle": "NPCs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/89}",
@@ -2664,7 +2618,6 @@
 	},
 	"villains": {
 		"name": "Villains",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/90}",
@@ -2694,7 +2647,7 @@
 	},
 	"villainous_archetypes": {
 		"name": "Villainous Archetypes",
-		"subtitle": "Villains, Gamemastery",
+		"subtitle": "Villains",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/90}",
@@ -2722,7 +2675,7 @@
 	},
 	"crime_lord": {
 		"name": "Crime Lord",
-		"subtitle": "Villains, Gamemastery",
+		"subtitle": "Villains",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/90}",
@@ -2752,7 +2705,7 @@
 	},
 	"evil_overlord": {
 		"name": "Evil Overlord",
-		"subtitle": "Villains, Gamemastery",
+		"subtitle": "Villains",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/90}",
@@ -2782,7 +2735,7 @@
 	},
 	"evil_priest": {
 		"name": "Evil Priest",
-		"subtitle": "Villains, Gamemastery",
+		"subtitle": "Villains",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/91}",
@@ -2812,7 +2765,7 @@
 	},
 	"mad_wizard": {
 		"name": "Mad Wizard",
-		"subtitle": "Villains, Gamemastery",
+		"subtitle": "Villains",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/91}",
@@ -2842,7 +2795,7 @@
 	},
 	"scheming_noble": {
 		"name": "Scheming Noble",
-		"subtitle": "Villains, Gamemastery",
+		"subtitle": "Villains",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/92}",
@@ -2872,7 +2825,7 @@
 	},
 	"advanced_villainy": {
 		"name": "Advanced Villainy",
-		"subtitle": "Villains, Gamemastery",
+		"subtitle": "Villains",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/92}",
@@ -2905,7 +2858,7 @@
 	},
 	"playing_villains": {
 		"name": "Playing Villains",
-		"subtitle": "Villains, Gamemastery",
+		"subtitle": "Villains",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/93}",
@@ -2933,7 +2886,7 @@
 	},
 	"hands_on_management": {
 		"name": "Hands-On Management",
-		"subtitle": "Villains, Gamemastery",
+		"subtitle": "Villains",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/93}",
@@ -2957,7 +2910,7 @@
 	},
 	"secret_villains": {
 		"name": "Secret Villains",
-		"subtitle": "Villains, Gamemastery",
+		"subtitle": "Villains",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/93}",
@@ -2981,7 +2934,7 @@
 	},
 	"the_disembodied_voice": {
 		"name": "The Disembodied Voice",
-		"subtitle": "Villains, Gamemastery",
+		"subtitle": "Villains",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/93}",
@@ -3005,7 +2958,7 @@
 	},
 	"a_bolt_hole": {
 		"name": "A Bolt-Hole",
-		"subtitle": "Villains, Gamemastery",
+		"subtitle": "Villains",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/93}",
@@ -3029,7 +2982,6 @@
 	},
 	"the_villains_escape_kit": {
 		"name": "The Villain's Escape Kit",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/93}",
@@ -3065,7 +3017,6 @@
 	},
 	"npc_creators_toolbox": {
 		"name": "NPC Creator's Toolbox",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/94}",
@@ -3094,7 +3045,7 @@
 	},
 	"npc_toolbox_1": {
 		"name": "Backgrounds and Goals",
-		"subtitle": "NPC Toolbox, Gamemastery",
+		"subtitle": "NPC Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/94}",
@@ -3215,7 +3166,7 @@
 	},
 	"npc_toolbox_2": {
 		"name": "Physical and Personality Characteristics",
-		"subtitle": "NPC Toolbox, Gamemastery",
+		"subtitle": "NPC Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/94}",
@@ -3445,7 +3396,7 @@
 	},
 	"npc_toolbox_3": {
 		"name": "Occupations and Secrets",
-		"subtitle": "NPC Toolbox, Gamemastery",
+		"subtitle": "NPC Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/95}",
@@ -3571,7 +3522,7 @@
 	},
 	"npc_toolbox_4": {
 		"name": "Rewards and Random Name Generator",
-		"subtitle": "NPC Toolbox, Gamemastery",
+		"subtitle": "NPC Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/95}",

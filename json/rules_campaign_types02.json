@@ -1,7 +1,6 @@
 {
 	"horror_rules": {
 		"name": "Horror Rules",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/8}",
@@ -58,7 +57,6 @@
 	},
 	"horror_characters": {
 		"name": "Horror Characters",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/8}",
@@ -85,7 +83,6 @@
 	},
 	"playing_a_horror_hero": {
 		"name": "Playing a Horror Hero",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/8}",
@@ -109,7 +106,6 @@
 	},
 	"participating_in_horror_adventures": {
 		"name": "Participating in Horror Adventures",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/8}",
@@ -135,7 +131,6 @@
 	},
 	"building_horror_characters": {
 		"name": "Building Horror Characters",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/8}",
@@ -161,7 +156,7 @@
 	},
 	"plan_to_be_frightened": {
 		"name": "Plan to Be Frightened",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"tags": "fear",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -204,7 +199,7 @@
 	},
 	"roleplaying_fear": {
 		"name": "Roleplaying Fear",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/9}",
@@ -228,7 +223,7 @@
 	},
 	"conspiring_with_the_gm": {
 		"name": "Conspiring with the GM",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/9}",
@@ -252,7 +247,6 @@
 	},
 	"aspects_of_horror_heroes": {
 		"name": "Aspects of Horror Heroes",
-		"subtitle": "Specific Campaigns",
 		"tags": "fear",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -293,7 +287,7 @@
 	},
 	"fear_ha": {
 		"name": "Fear",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"tags": "levels of fear",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -334,7 +328,7 @@
 	},
 	"lesser_fear_and_greater_fear": {
 		"name": "Lesser Fear and Greater Fear",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"tags": "spooked, shaken, scared, frightened, panicked, terrified, horrified",
 		"sources": [ "Horror Adventures" ],
 		"description": [
@@ -383,7 +377,7 @@
 	},
 	"fear_duration": {
 		"name": "Fear Duration",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/10}",
@@ -406,7 +400,7 @@
 	},
 	"adding_fear": {
 		"name": "Adding Fear",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/11}",
@@ -427,7 +421,7 @@
 	},
 	"fear_immunity": {
 		"name": "Fear Immunity",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/11}",
@@ -448,7 +442,7 @@
 	},
 	"sanity": {
 		"name": "Sanity",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/12}",
@@ -483,7 +477,7 @@
 	},
 	"sanity_score_edge_and_thresholds": {
 		"name": "Sanity Score, Edge, and Thresholds",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/12}",
@@ -513,7 +507,7 @@
 	},
 	"effects_of_sanity_damage": {
 		"name": "Effects of Sanity Damage",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/12}",
@@ -553,7 +547,7 @@
 	},
 	"reducing_sanity_damage": {
 		"name": "Reducing Sanity Damage",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/13}",
@@ -579,7 +573,7 @@
 	},
 	"corruption": {
 		"name": "Corruption",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/14}",
@@ -616,7 +610,7 @@
 	},
 	"corruption_glossary": {
 		"name": "Corruption Glossary",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/14}",
@@ -652,7 +646,7 @@
 	},
 	"contracting_a_corruption": {
 		"name": "Contracting a Corruption",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/14}",
@@ -676,7 +670,7 @@
 	},
 	"manifestations": {
 		"name": "Manifestations",
-		"subtitle": "Corruptions, Horror, Specific Campaigns",
+		"subtitle": "Corruptions, Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/14}",
@@ -701,7 +695,7 @@
 	},
 	"corruption_variants": {
 		"name": "Corruption Variants",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/14}",
@@ -722,7 +716,7 @@
 	},
 	"manifestation_level": {
 		"name": "Manifestation Level",
-		"subtitle": "Corruptions, Horror, Specific Campaigns",
+		"subtitle": "Corruptions, Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/15}",
@@ -748,7 +742,7 @@
 	},
 	"the_corruptions_progress": {
 		"name": "The Corruption's Progress",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/15}",
@@ -770,7 +764,7 @@
 	},
 	"curses_ha": {
 		"name": "Curses",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/138}",
@@ -806,7 +800,7 @@
 	},
 	"curses_in_your_game": {
 		"name": "Curses in your Game",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/138}",
@@ -829,7 +823,7 @@
 	},
 	"curse_spells": {
 		"name": "Curse Spells",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/138}",
@@ -865,7 +859,7 @@
 	},
 	"creating_new_curses": {
 		"name": "Creating New Curses",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/140}",
@@ -901,7 +895,7 @@
 	},
 	"types_of_curses": {
 		"name": "Types of Curses",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/140}",
@@ -930,7 +924,7 @@
 	},
 	"breaking_the_curse": {
 		"name": "Breaking the Curse",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/141}",
@@ -953,7 +947,7 @@
 	},
 	"alternative_means_of_relief": {
 		"name": "Alternative Means of Relief",
-		"subtitle": "Curses, Horror, Specific Campaigns",
+		"subtitle": "Curses, Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/141}",
@@ -980,7 +974,7 @@
 	},
 	"cursed_items_ha": {
 		"name": "Cursed Items",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/142}",
@@ -1004,7 +998,7 @@
 	},
 	"crafting_cursed_items": {
 		"name": "Crafting Cursed Items",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/142}",
@@ -1033,7 +1027,7 @@
 	},
 	"cursed_land": {
 		"name": "Cursed Land",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/143}",
@@ -1058,7 +1052,7 @@
 	},
 	"curse_templates": {
 		"name": "Curse Templates",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/143}",
@@ -1106,7 +1100,7 @@
 	},
 	"horrific_diseases": {
 		"name": "Horrific Diseases",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/146}",
@@ -1138,7 +1132,7 @@
 	},
 	"disease_templates": {
 		"name": "Disease Templates",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/146}",
@@ -1227,7 +1221,7 @@
 	},
 	"new_diseases": {
 		"name": "New Diseases",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/148}",
@@ -1350,7 +1344,7 @@
 	},
 	"horror_environments": {
 		"name": "Horror Environments",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/152}",
@@ -1425,7 +1419,7 @@
 	},
 	"horror_hazards": {
 		"name": "Horror Hazards",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/154}",
@@ -2494,7 +2488,7 @@
 	},
 	"domains_of_evil": {
 		"name": "Domains of Evil",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/159}",
@@ -2525,7 +2519,7 @@
 	},
 	"domain_geography": {
 		"name": "Domain Geography",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/160}",
@@ -2557,7 +2551,7 @@
 	},
 	"cursed_domains": {
 		"name": "Cursed Domains",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/161}",
@@ -2583,7 +2577,7 @@
 	},
 	"nightmare_dreamscapes": {
 		"name": "Nightmare Dreamscapes",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/162}",
@@ -2610,7 +2604,7 @@
 	},
 	"naturally_occurring_nightmares": {
 		"name": "Naturally Occurring Nightmares",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/162}",
@@ -2653,7 +2647,7 @@
 	},
 	"supernatural_nightmares": {
 		"name": "Supernatural Nightmares",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/163}",
@@ -2677,7 +2671,7 @@
 	},
 	"goal_of_a_nightmare": {
 		"name": "Goal of a Nightmare",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/163}",
@@ -2711,7 +2705,7 @@
 	},
 	"nightmare_features": {
 		"name": "Nightmare Features",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/163}",

@@ -16,7 +16,6 @@
 	},
 	"dynamic_magic_item_creation": {
 		"name": "Dynamic Magic Item Creation",
-		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/180}",
@@ -53,7 +52,6 @@
 	},
 	"dynamic_magic_item_overview": {
 		"name": "Dynamic Magic Item Overview",
-		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/180}",
@@ -82,7 +80,7 @@
 	},
 	"challenges_pu": {
 		"name": "Challenges",
-		"subtitle": "Dynamic Magic Item Creation, Optional",
+		"subtitle": "Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/180}",
@@ -113,7 +111,7 @@
 	},
 	"attempting_challenges": {
 		"name": "Attempting Challenges",
-		"subtitle": "Dynamic Magic Item Creation, Optional",
+		"subtitle": "Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/180}",
@@ -143,7 +141,7 @@
 	},
 	"challenge_format": {
 		"name": "Challenge Format",
-		"subtitle": "Dynamic Magic Item Creation, Optional",
+		"subtitle": "Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/180}",
@@ -166,7 +164,7 @@
 	},
 	"paying_for_the_item": {
 		"name": "Paying for the Item",
-		"subtitle": "Dynamic Magic Item Creation, Optional",
+		"subtitle": "Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/181}",
@@ -199,7 +197,7 @@
 	},
 	"creation_time": {
 		"name": "Creation Time",
-		"subtitle": "Dynamic Magic Item Creation, Optional",
+		"subtitle": "Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/181}",
@@ -228,7 +226,7 @@
 	},
 	"adjustments": {
 		"name": "Adjustments",
-		"subtitle": "Dynamic Magic Item Creation, Optional",
+		"subtitle": "Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/181}",
@@ -263,7 +261,7 @@
 	},
 	"base_challenges": {
 		"name": "Base Challenges",
-		"subtitle": "Dynamic Magic Item Creation, Optional",
+		"subtitle": "Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/181}",
@@ -330,7 +328,7 @@
 	},
 	"random_challenges": {
 		"name": "Random Challenges",
-		"subtitle": "Dynamic Magic Item Creation, Optional",
+		"subtitle": "Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/182}",
@@ -409,7 +407,7 @@
 	},
 	"rc_aberrant_mutation": {
 		"name": "Aberrant Mutation",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/182}  ",
@@ -464,7 +462,7 @@
 	},
 	"rc_challenging_construction": {
 		"name": "Challenging Construction",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/182}  ",
@@ -519,7 +517,7 @@
 	},
 	"rc_contradictory_instructions": {
 		"name": "Contradictory Instructions",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/182}  ",
@@ -574,7 +572,7 @@
 	},
 	"rc_cryptic_cross_reference": {
 		"name": "Cryptic Cross-Reference",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/182}  ",
@@ -629,7 +627,7 @@
 	},
 	"rc_distracting_visitor": {
 		"name": "Distracting Visitor",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/182}  ",
@@ -684,7 +682,7 @@
 	},
 	"rc_emotion_requirement": {
 		"name": "Emotion Requirement",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/182}  ",
@@ -739,7 +737,7 @@
 	},
 	"rc_energy_overload": {
 		"name": "Energy Overload",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/183}  ",
@@ -794,7 +792,7 @@
 	},
 	"rc_enticing_offer": {
 		"name": "Enticing Offer",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/183}  ",
@@ -849,7 +847,7 @@
 	},
 	"rc_fragile_components": {
 		"name": "Fragile Components",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/182}  ",
@@ -904,7 +902,7 @@
 	},
 	"rc_historic_stumbling_block": {
 		"name": "Historic Stumbling Block",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/184}  ",
@@ -959,7 +957,7 @@
 	},
 	"rc_illegal_ingredients": {
 		"name": "Illegal Ingredients",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/184}  ",
@@ -1014,7 +1012,7 @@
 	},
 	"rc_infested_ingredients": {
 		"name": "Infested Ingredients",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/184}  ",
@@ -1069,7 +1067,7 @@
 	},
 	"rc_ingredients_develop_quasi_sentience": {
 		"name": "Ingredients Develop Quasi-Sentience",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/184}  ",
@@ -1124,7 +1122,7 @@
 	},
 	"rc_intrusive_spirit": {
 		"name": "Intrusive Spirit",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/184}  ",
@@ -1179,7 +1177,7 @@
 	},
 	"rc_ley_line_convergence": {
 		"name": "Ley Line Convergence",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/184}  ",
@@ -1234,7 +1232,7 @@
 	},
 	"rc_magical_resonance": {
 		"name": "Magical Resonance",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/184}  ",
@@ -1289,7 +1287,7 @@
 	},
 	"rc_planar_peculiarity": {
 		"name": "Planar Peculiarity",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/184}  ",
@@ -1344,7 +1342,7 @@
 	},
 	"rc_rare_reference": {
 		"name": "Rare Reference",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/185}  ",
@@ -1399,7 +1397,7 @@
 	},
 	"rc_reagent_shortage": {
 		"name": "Reagent Shortage",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/185}  ",
@@ -1454,7 +1452,7 @@
 	},
 	"rc_regal_requisite": {
 		"name": "Regal Requisite",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/185}  ",
@@ -1509,7 +1507,7 @@
 	},
 	"rc_sesquipedalian_elucidation": {
 		"name": "Sesquipedalian Elucidation",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/185}  ",
@@ -1564,7 +1562,7 @@
 	},
 	"rc_structural_flaw": {
 		"name": "Structural Flaw",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/185}  ",
@@ -1619,7 +1617,7 @@
 	},
 	"rc_sudden_inspiration": {
 		"name": "Sudden Inspiration",
-		"subtitle": "Random Challenge, Dynamic Magic Item Creation, Optional",
+		"subtitle": "Random Challenge, Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/185}  ",
@@ -1674,7 +1672,7 @@
 	},
 	"class_specific_challenges": {
 		"name": "Class-Specific Challenges",
-		"subtitle": "Dynamic Magic Item Creation, Optional",
+		"subtitle": "Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/185}",
@@ -1872,7 +1870,7 @@
 	},
 	"perks": {
 		"name": "Perks",
-		"subtitle": "Dynamic Magic Item Creation, Optional",
+		"subtitle": "Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/187}",
@@ -1989,7 +1987,7 @@
 	},
 	"quirks": {
 		"name": "Quirks",
-		"subtitle": "Dynamic Magic Item Creation, Optional",
+		"subtitle": "Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/189}",
@@ -2105,7 +2103,7 @@
 	},
 	"flaws": {
 		"name": "Flaws",
-		"subtitle": "Dynamic Magic Item Creation, Optional",
+		"subtitle": "Dynamic Magic Item Creation",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/190}",
@@ -2222,7 +2220,6 @@
 	},
 	"esoteric_material_components": {
 		"name": "Esoteric Material Components",
-		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/150}",
@@ -2283,7 +2280,6 @@
 	},
 	"buying_esoteric_components": {
 		"name": "Buying Esoteric Components",
-		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/150}",
@@ -2311,7 +2307,6 @@
 	},
 	"implementing_esoteric_components": {
 		"name": "Implementing Esoteric Components",
-		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/151}",
@@ -2338,7 +2333,7 @@
 	},
 	"optional_components": {
 		"name": "Optional Components",
-		"subtitle": "Esoteric, Optional Magic Changes",
+		"subtitle": "Esoteric",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/151}",
@@ -2360,7 +2355,7 @@
 	},
 	"mandatory_components": {
 		"name": "Mandatory Components",
-		"subtitle": "Esoteric, Optional Magic Changes",
+		"subtitle": "Esoteric",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/151}",
@@ -2388,7 +2383,7 @@
 	},
 	"with_limited_magic": {
 		"name": "With Limited Magic",
-		"subtitle": "Esoteric Components, Optional Magic Changes",
+		"subtitle": "Esoteric Components",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/152}",
@@ -2414,7 +2409,7 @@
 	},
 	"scrounging": {
 		"name": "Scrounging",
-		"subtitle": "Esoteric Components, Optional Magic Changes",
+		"subtitle": "Esoteric Components",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/152}",
@@ -2438,7 +2433,6 @@
 	},
 	"esoteric_components": {
 		"name": "Esoteric Components",
-		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/152}",
@@ -2522,7 +2516,7 @@
 	},
 	"crafting_magic_items": {
 		"name": "Crafting Magic Items",
-		"subtitle": "Esoteric Components, Optional Magic Changes",
+		"subtitle": "Esoteric Components",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/154}",
@@ -2544,7 +2538,7 @@
 	},
 	"feats_ucp": {
 		"name": "Esoteric Feats",
-		"subtitle": "Esoteric Components, Optional Magic Changes",
+		"subtitle": "Esoteric Components",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/154}",
@@ -2680,7 +2674,6 @@
 	},
 	"simplified_spellcasting": {
 		"name": "Simplified Spellcasting",
-		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/144}",
@@ -2708,7 +2701,6 @@
 	},
 	"simplified_spellcasting_rules": {
 		"name": "Simplified Spellcasting Rules",
-		"subtitle": "Optional Magic Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/144}",
@@ -2786,7 +2778,7 @@
 	},
 	"other_spellcasters": {
 		"name": "Other Spellcasters",
-		"subtitle": "Simplified Spellcasting, Optional Magic Changes",
+		"subtitle": "Simplified Spellcasting",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/145}",
@@ -2808,7 +2800,7 @@
 	},
 	"metamagic": {
 		"name": "Metamagic",
-		"subtitle": "Simplified Spellcasting, Optional Magic Changes",
+		"subtitle": "Simplified Spellcasting",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/145}",
@@ -2830,7 +2822,7 @@
 	},
 	"pearls_of_power": {
 		"name": "Pearls of Power",
-		"subtitle": "Simplified Spellcasting, Optional Magic Changes",
+		"subtitle": "Simplified Spellcasting",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/145}",

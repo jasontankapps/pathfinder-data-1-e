@@ -1,7 +1,6 @@
 {
 	"treasure_generator": {
 		"name": "Treasure Generator",
-		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/360}",
@@ -48,7 +47,7 @@
 	},
 	"step_1_determine_treasure_budget": {
 		"name": "Step 1: Determine Treasure Budget",
-		"subtitle": "Treasure Generator, Advanced GM Topics",
+		"subtitle": "Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/360}",
@@ -115,7 +114,7 @@
 	},
 	"step_2_determine_treasure_type": {
 		"name": "Step 2: Determine Treasure Type",
-		"subtitle": "Treasure Generator, Advanced GM Topics",
+		"subtitle": "Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/360}",
@@ -176,7 +175,6 @@
 	},
 	"step_3_generate_treasure": {
 		"name": "Step 3: Generate Treasure",
-		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/362}",
@@ -204,7 +202,7 @@
 	},
 	"treasure_types": {
 		"name": "Treasure Types",
-		"subtitle": "Treasure Generator, Advanced GM Topics",
+		"subtitle": "Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/362}",
@@ -257,7 +255,7 @@
 	},
 	"type_a": {
 		"name": "Type A: Coins",
-		"subtitle": "Treasure Generator, Advanced GM Topics",
+		"subtitle": "Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/362}",
@@ -300,7 +298,7 @@
 	},
 	"type_b": {
 		"name": "Type B: Coins and Gems",
-		"subtitle": "Treasure Generator, Advanced GM Topics",
+		"subtitle": "Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/363}",
@@ -606,7 +604,7 @@
 	},
 	"type_c": {
 		"name": "Type C: Art Objects",
-		"subtitle": "Treasure Generator, Advanced GM Topics",
+		"subtitle": "Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/363}",
@@ -830,7 +828,7 @@
 	},
 	"type_d": {
 		"name": "Type D: Coins and Small Objects",
-		"subtitle": "Treasure Generator, Advanced GM Topics",
+		"subtitle": "Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/364}",
@@ -3459,7 +3457,7 @@
 	},
 	"type_e": {
 		"name": "Type E: Armor and Weapons",
-		"subtitle": "Treasure Generator, Advanced GM Topics",
+		"subtitle": "Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/365}",
@@ -4538,7 +4536,7 @@
 	},
 	"type_f": {
 		"name": "Type F: Combatant Gear",
-		"subtitle": "Treasure Generator, Advanced GM Topics",
+		"subtitle": "Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/365}",
@@ -6201,7 +6199,7 @@
 	},
 	"type_g": {
 		"name": "Type G: Spellcaster Gear",
-		"subtitle": "Treasure Generator, Advanced GM Topics",
+		"subtitle": "Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/366}",
@@ -6510,7 +6508,7 @@
 	},
 	"type_h": {
 		"name": "Type H: Lair Treasure",
-		"subtitle": "Treasure Generator, Advanced GM Topics",
+		"subtitle": "Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/367}",
@@ -6567,7 +6565,7 @@
 	},
 	"type_i": {
 		"name": "Type I: Treasure Hoard",
-		"subtitle": "Treasure Generator, Advanced GM Topics",
+		"subtitle": "Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"{SOURCE Ultimate Equipment/368}",

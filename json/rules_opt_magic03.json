@@ -1,7 +1,6 @@
 {
 	"words_of_power": {
 		"name": "Words of Power",
-		"subtitle": "Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/160}",
@@ -33,7 +32,7 @@
 	},
 	"optional": {
 		"name": "Optional",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/163}",
@@ -59,7 +58,7 @@
 	},
 	"becoming_a_wordcaster": {
 		"name": "Becoming a Wordcaster",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/162}",
@@ -91,7 +90,6 @@
 	},
 	"learning_words_of_power": {
 		"name": "Learning Words of Power",
-		"subtitle": "Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/162}",
@@ -126,7 +124,7 @@
 	},
 	"class_specific_rules": {
 		"name": "Class-Specific Rules",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/162}",
@@ -163,7 +161,6 @@
 	},
 	"arranging_words_of_power": {
 		"name": "Arranging Words of Power",
-		"subtitle": "Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/163}",
@@ -215,7 +212,7 @@
 	},
 	"casting_wordspells": {
 		"name": "Casting Wordspells",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/164}",
@@ -260,7 +257,7 @@
 	},
 	"magic_item_creation_um": {
 		"name": "Magic Item Creation",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/165}",
@@ -287,7 +284,7 @@
 	},
 	"examples": {
 		"name": "Examples",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/165}",
@@ -316,7 +313,7 @@
 	},
 	"target_words": {
 		"name": "Target Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/165}",
@@ -408,7 +405,7 @@
 	},
 	"effect_word_descriptions": {
 		"name": "Effect Word Descriptions",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/167}",
@@ -487,7 +484,7 @@
 	},
 	"acid_words": {
 		"name": "Acid Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/167}",
@@ -573,7 +570,7 @@
 	},
 	"alignment_words": {
 		"name": "Alignment Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/168}",
@@ -652,7 +649,7 @@
 	},
 	"animal_words": {
 		"name": "Animal Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/168}",
@@ -731,7 +728,7 @@
 	},
 	"armor_words": {
 		"name": "Armor Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/169}",
@@ -821,7 +818,7 @@
 	},
 	"binding_words": {
 		"name": "Binding Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/170}",
@@ -909,7 +906,7 @@
 	},
 	"body_words": {
 		"name": "Body Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/170}",
@@ -1008,7 +1005,7 @@
 	},
 	"change_words": {
 		"name": "Change Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/171}",
@@ -1099,7 +1096,7 @@
 	},
 	"cold_words": {
 		"name": "Cold Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/171}",
@@ -1184,7 +1181,7 @@
 	},
 	"command_words": {
 		"name": "Command Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/172}",
@@ -1284,7 +1281,7 @@
 	},
 	"concealing_words": {
 		"name": "Concealing Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/173}",
@@ -1369,7 +1366,7 @@
 	},
 	"death_words": {
 		"name": "Death Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/173}",
@@ -1459,7 +1456,7 @@
 	},
 	"destruction_words": {
 		"name": "Destruction Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/174}",
@@ -1538,7 +1535,7 @@
 	},
 	"detection_words": {
 		"name": "Detection Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/174}",
@@ -1632,7 +1629,7 @@
 	},
 	"dispelling_words": {
 		"name": "Dispelling Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/175}",
@@ -1722,7 +1719,7 @@
 	},
 	"divination_words": {
 		"name": "Divination Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/176}",
@@ -1803,7 +1800,7 @@
 	},
 	"electricity_words": {
 		"name": "Electricity Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/176}",
@@ -1894,7 +1891,7 @@
 	},
 	"fear_words": {
 		"name": "Fear Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/177}",
@@ -1972,7 +1969,7 @@
 	},
 	"fire_words": {
 		"name": "Fire Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/177}",
@@ -2075,7 +2072,7 @@
 	},
 	"flight_words": {
 		"name": "Flight Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/177}",
@@ -2154,7 +2151,7 @@
 	},
 	"force_words": {
 		"name": "Force Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/178}",
@@ -2223,7 +2220,7 @@
 	},
 	"gravity_words": {
 		"name": "Gravity Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/179}",
@@ -2304,7 +2301,7 @@
 	},
 	"healing_words": {
 		"name": "Healing Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/179}",
@@ -2411,7 +2408,7 @@
 	},
 	"illusion_words": {
 		"name": "Illusion Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/180}",
@@ -2481,7 +2478,7 @@
 	},
 	"illumination_words": {
 		"name": "Illumination Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/180}",
@@ -2560,7 +2557,7 @@
 	},
 	"language_words": {
 		"name": "Language Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/180}",
@@ -2643,7 +2640,7 @@
 	},
 	"life_words": {
 		"name": "Life Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/181}",
@@ -2728,7 +2725,7 @@
 	},
 	"pain_words": {
 		"name": "Pain Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/181}",
@@ -2804,7 +2801,7 @@
 	},
 	"power_words": {
 		"name": "Power Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/182}",
@@ -2895,7 +2892,7 @@
 	},
 	"sonic_words": {
 		"name": "Sonic Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/182}",
@@ -2972,7 +2969,7 @@
 	},
 	"summoning_words": {
 		"name": "Summoning Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/182}",
@@ -3111,7 +3108,7 @@
 	},
 	"teleportation_words": {
 		"name": "Teleportation Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/184}",
@@ -3197,7 +3194,7 @@
 	},
 	"time_words": {
 		"name": "Time Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/185}",
@@ -3318,7 +3315,7 @@
 	},
 	"wall_words": {
 		"name": "Wall Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/186}",
@@ -3415,7 +3412,7 @@
 	},
 	"weather_words": {
 		"name": "Weather Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/186}",
@@ -3509,7 +3506,7 @@
 	},
 	"wounding_words": {
 		"name": "Wounding Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/187}",
@@ -3616,7 +3613,7 @@
 	},
 	"meta_words": {
 		"name": "Meta Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/188}",
@@ -3684,7 +3681,7 @@
 	},
 	"class_word_lists": {
 		"name": "Class Word Lists",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/189}",
@@ -3721,7 +3718,7 @@
 	},
 	"alchemist_words": {
 		"name": "Alchemist Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/189}",
@@ -3759,7 +3756,7 @@
 	},
 	"bard_words": {
 		"name": "Bard Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/189}",
@@ -3799,7 +3796,7 @@
 	},
 	"cleric_oracle_words": {
 		"name": "Cleric/Oracle Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/189}",
@@ -3845,7 +3842,7 @@
 	},
 	"druid_words": {
 		"name": "Druid Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/190}",
@@ -3891,7 +3888,7 @@
 	},
 	"inquisitor_words": {
 		"name": "Inquisitor Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/190}",
@@ -3931,7 +3928,7 @@
 	},
 	"magus_words": {
 		"name": "Magus Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/191}",
@@ -3971,7 +3968,7 @@
 	},
 	"paladin_words": {
 		"name": "Paladin Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/191}",
@@ -4005,7 +4002,7 @@
 	},
 	"ranger_words": {
 		"name": "Ranger Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/191}",
@@ -4039,7 +4036,7 @@
 	},
 	"sorcerer_wizard_words": {
 		"name": "Sorcerer/Wizard Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/191}",
@@ -4085,7 +4082,7 @@
 	},
 	"summoner_words": {
 		"name": "Summoner Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/192}",
@@ -4125,7 +4122,7 @@
 	},
 	"witch_words": {
 		"name": "Witch Words",
-		"subtitle": "Words of Power, Optional Magic Changes",
+		"subtitle": "Words of Power",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/193}",
@@ -4171,7 +4168,6 @@
 	},
 	"words_of_power_in_the_worlds": {
 		"name": "Words of Power in the Worlds",
-		"subtitle": "Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/164}",
@@ -4195,7 +4191,6 @@
 	},
 	"introducing_words_of_power": {
 		"name": "Introducing Words of Power",
-		"subtitle": "Optional Magic Changes",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/193}",

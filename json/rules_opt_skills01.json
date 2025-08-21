@@ -15,7 +15,6 @@
 	},
 	"alternate_crafting_rules": {
 		"name": "Alternate Crafting Rules",
-		"subtitle": "Optional Skill Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/72}",
@@ -80,7 +79,7 @@
 	},
 	"item_crafting_difficulties": {
 		"name": "Item Crafting Difficulties",
-		"subtitle": "Craft, Optional Skill Changes",
+		"subtitle": "Craft",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/73}",
@@ -181,7 +180,7 @@
 	},
 	"supervising_helpers": {
 		"name": "Supervising Helpers",
-		"subtitle": "Craft, Optional Skill Changes",
+		"subtitle": "Craft",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/75}",
@@ -215,7 +214,7 @@
 	},
 	"workshop": {
 		"name": "Workshop",
-		"subtitle": "Craft, Optional Skill Changes",
+		"subtitle": "Craft",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/75}",
@@ -237,7 +236,7 @@
 	},
 	"special_raw_materials": {
 		"name": "Special Raw Materials",
-		"subtitle": "Craft, Optional Skill Changes",
+		"subtitle": "Craft",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/75}",
@@ -304,7 +303,6 @@
 	},
 	"alternate_profession_rules": {
 		"name": "Alternate Profession Rules",
-		"subtitle": "Optional Skill Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/77}",
@@ -339,7 +337,7 @@
 	},
 	"setting_up_shop": {
 		"name": "Setting Up Shop",
-		"subtitle": "Profession, Optional Skill Changes",
+		"subtitle": "Profession",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/77}",
@@ -386,7 +384,7 @@
 	},
 	"running_the_business": {
 		"name": "Running the Business",
-		"subtitle": "Profession, Optional Skill Changes",
+		"subtitle": "Profession",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/78}",
@@ -408,7 +406,7 @@
 	},
 	"determining_profits": {
 		"name": "Determining Profits",
-		"subtitle": "Profession, Optional Skill Changes",
+		"subtitle": "Profession",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/79}",
@@ -430,7 +428,7 @@
 	},
 	"typical_business_setups": {
 		"name": "Typical Business Setups",
-		"subtitle": "Profession, Optional Skill Changes",
+		"subtitle": "Profession",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/79}",
@@ -510,7 +508,6 @@
 	},
 	"background_skills": {
 		"name": "Background Skills",
-		"subtitle": "Optional Skill Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/46}",
@@ -549,7 +546,7 @@
 	},
 	"skill_changes": {
 		"name": "Skill Changes",
-		"subtitle": "Background Skills, Optional Skill Changes",
+		"subtitle": "Background Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/46}",
@@ -602,7 +599,7 @@
 	},
 	"gaining_adventuring_skills": {
 		"name": "Gaining Adventuring Skills",
-		"subtitle": "Background Skills, Optional Skill Changes",
+		"subtitle": "Background Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/47}",
@@ -626,7 +623,7 @@
 	},
 	"gaining_background_skills": {
 		"name": "Gaining Background Skills",
-		"subtitle": "Background Skills, Optional Skill Changes",
+		"subtitle": "Background Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/47}",
@@ -651,7 +648,7 @@
 	},
 	"class_skills": {
 		"name": "Class Skills",
-		"subtitle": "Background Skills, Optional Skill Changes",
+		"subtitle": "Background Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/48}",
@@ -671,7 +668,7 @@
 	},
 	"monsters_and_npcs": {
 		"name": "Monsters and NPCs",
-		"subtitle": "Background Skills, Optional Skill Changes",
+		"subtitle": "Background Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/48}",
@@ -695,7 +692,7 @@
 	},
 	"new_skills": {
 		"name": "New Skills",
-		"subtitle": "Background Skills, Optional Skill Changes",
+		"subtitle": "Background Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/48}",
@@ -721,7 +718,7 @@
 	},
 	"artistry_int": {
 		"name": "Artistry",
-		"subtitle": "Background Skills, Optional Skill Changes",
+		"subtitle": "Background Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/48}",
@@ -780,7 +777,7 @@
 	},
 	"lore_int": {
 		"name": "Lore",
-		"subtitle": "Background Skills, Optional Skill Changes",
+		"subtitle": "Background Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/50}",
@@ -834,7 +831,7 @@
 	},
 	"expanded_skill_uses": {
 		"name": "Expanded Skill Uses",
-		"subtitle": "Background Skills, Optional Skill Changes",
+		"subtitle": "Background Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/51}",
@@ -861,7 +858,7 @@
 	},
 	"expanded_craft": {
 		"name": "Expanded Craft",
-		"subtitle": "Background Skills, Optional Skill Changes",
+		"subtitle": "Background Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/51}",
@@ -1002,7 +999,7 @@
 	},
 	"expanded_perform": {
 		"name": "Expanded Perform",
-		"subtitle": "Background Skills, Optional Skill Changes",
+		"subtitle": "Background Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/52}",
@@ -1029,7 +1026,7 @@
 	},
 	"expanded_profession": {
 		"name": "Expanded Profession",
-		"subtitle": "Background Skills, Optional Skill Changes",
+		"subtitle": "Background Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/53}",
@@ -1111,7 +1108,6 @@
 	},
 	"consolidated_skills": {
 		"name": "Consolidated Skills",
-		"subtitle": "Optional Skill Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/54}",
@@ -1215,7 +1211,7 @@
 	},
 	"skill_descriptions_pu": {
 		"name": "Skill Descriptions",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/54}",
@@ -1288,7 +1284,7 @@
 	},
 	"acrobatics_dex": {
 		"name": "Acrobatics",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/54}",
@@ -1354,7 +1350,7 @@
 	},
 	"balance": {
 		"name": "Balance",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/55}",
@@ -1388,7 +1384,7 @@
 	},
 	"escape_from_restraints": {
 		"name": "Escape from Restraints",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/55}",
@@ -1425,7 +1421,7 @@
 	},
 	"execute_flying_maneuvers": {
 		"name": "Execute Flying Maneuvers",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/56}",
@@ -1451,7 +1447,7 @@
 	},
 	"ride_mounts": {
 		"name": "Ride Mounts",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/56}",
@@ -1477,7 +1473,7 @@
 	},
 	"soften_falls": {
 		"name": "Soften Falls",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/56}",
@@ -1503,7 +1499,7 @@
 	},
 	"squeeze": {
 		"name": "Squeeze",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/56}",
@@ -1531,7 +1527,7 @@
 	},
 	"tumble": {
 		"name": "Tumble",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/56}",
@@ -1566,7 +1562,7 @@
 	},
 	"athletics_str": {
 		"name": "Athletics",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/56}",
@@ -1613,7 +1609,7 @@
 	},
 	"catch": {
 		"name": "Catch",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/56}",
@@ -1638,7 +1634,7 @@
 	},
 	"climb": {
 		"name": "Climb",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/56}",
@@ -1691,7 +1687,7 @@
 	},
 	"jump": {
 		"name": "Jump",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/57}",
@@ -1726,7 +1722,7 @@
 	},
 	"swim": {
 		"name": "Swim",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/57}",
@@ -1763,7 +1759,7 @@
 	},
 	"finesse_dex": {
 		"name": "Finesse",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/58}",
@@ -1811,7 +1807,7 @@
 	},
 	"conceal_objects_on_your_body": {
 		"name": "Conceal Objects on Your Body",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/58}",
@@ -1845,7 +1841,7 @@
 	},
 	"disarm_traps_or_devices": {
 		"name": "Disarm Traps or Devices",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/58}",
@@ -1880,7 +1876,7 @@
 	},
 	"open_locks": {
 		"name": "Open Locks",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/58}",
@@ -1914,7 +1910,7 @@
 	},
 	"palm_objects": {
 		"name": "Palm Objects",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/58}",
@@ -1940,7 +1936,7 @@
 	},
 	"pilfer_objects_from_creatures": {
 		"name": "Pilfer Objects from Creatures",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/58}",
@@ -1966,7 +1962,7 @@
 	},
 	"influence_cha": {
 		"name": "Influence",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/58}",
@@ -2018,7 +2014,7 @@
 	},
 	"change_others_attitudes": {
 		"name": "Change Others' Attitudes",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/58}",
@@ -2058,7 +2054,7 @@
 	},
 	"create_diversions": {
 		"name": "Create Diversions",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/59}",
@@ -2088,7 +2084,7 @@
 	},
 	"demoralize": {
 		"name": "Demoralize",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/59}",
@@ -2120,7 +2116,7 @@
 	},
 	"feint_in_combat": {
 		"name": "Feint in Combat",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/59}",
@@ -2150,7 +2146,7 @@
 	},
 	"gather_information_pu": {
 		"name": "Gather Information",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/60}",
@@ -2185,7 +2181,7 @@
 	},
 	"intimidate": {
 		"name": "Intimidate",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/60}",
@@ -2217,7 +2213,7 @@
 	},
 	"lie": {
 		"name": "Lie",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/60}",
@@ -2257,7 +2253,7 @@
 	},
 	"make_requests": {
 		"name": "Make Requests",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/60}",
@@ -2299,7 +2295,7 @@
 	},
 	"pass_secret_messages": {
 		"name": "Pass Secret Messages",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/60}",
@@ -2334,7 +2330,7 @@
 	},
 	"nature_int": {
 		"name": "Nature",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/60}",
@@ -2380,7 +2376,7 @@
 	},
 	"handle_animals": {
 		"name": "Handle Animals",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/61}",
@@ -2404,7 +2400,7 @@
 	},
 	"indentify_monsters": {
 		"name": "Indentify Monsters",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/61}",
@@ -2424,7 +2420,7 @@
 	},
 	"recall_knowledge_nature": {
 		"name": "Recall Knowledge (Nature)",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/61}",
@@ -2456,7 +2452,7 @@
 	},
 	"perception_wis": {
 		"name": "Perception",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/61}",
@@ -2505,7 +2501,7 @@
 	},
 	"discern_secret_messages": {
 		"name": "Discern Secret Messages",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/61}",
@@ -2532,7 +2528,7 @@
 	},
 	"get_hunches": {
 		"name": "Get Hunches",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/61}",
@@ -2557,7 +2553,7 @@
 	},
 	"notice_creatures_and_details": {
 		"name": "Notice Creatures and Details",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/61}",
@@ -2617,7 +2613,7 @@
 	},
 	"search_locations": {
 		"name": "Search Locations",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/62}",
@@ -2650,7 +2646,7 @@
 	},
 	"sense_enchantments": {
 		"name": "Sense Enchantments",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/62}",
@@ -2675,7 +2671,7 @@
 	},
 	"sense_motive": {
 		"name": "Sense Motive",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/62}",
@@ -2702,7 +2698,7 @@
 	},
 	"performance_cha": {
 		"name": "Performance",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/62}",
@@ -2747,7 +2743,7 @@
 	},
 	"disguise_yourself": {
 		"name": "Disguise Yourself",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/62}",
@@ -2770,7 +2766,7 @@
 	},
 	"impress_audiences": {
 		"name": "Impress Audiences",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/62}",
@@ -2803,7 +2799,7 @@
 	},
 	"religion_int": {
 		"name": "Religion",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/63}",
@@ -2848,7 +2844,7 @@
 	},
 	"identify_monsters_religion": {
 		"name": "Identify Monsters (Religion)",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/63}",
@@ -2867,7 +2863,7 @@
 	},
 	"recall_knowledge_religion": {
 		"name": "Recall Knowledge (Religion)",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/63}",
@@ -2895,7 +2891,7 @@
 	},
 	"society_int": {
 		"name": "Society",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/63}",
@@ -2943,7 +2939,7 @@
 	},
 	"create_or_detect_forgeries": {
 		"name": "Create or Detect Forgeries",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/63}",
@@ -2971,7 +2967,7 @@
 	},
 	"decipher_writing": {
 		"name": "Decipher Writing",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/63}",
@@ -3003,7 +2999,7 @@
 	},
 	"identify_monsters_society": {
 		"name": "Identify Monsters (Society)",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/63}",
@@ -3025,7 +3021,7 @@
 	},
 	"learn_language": {
 		"name": "Learn Language",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/63}",
@@ -3049,7 +3045,7 @@
 	},
 	"recall_knowledge_society": {
 		"name": "Recall Knowledge (Society)",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/63}",
@@ -3082,7 +3078,7 @@
 	},
 	"spellcraft_int": {
 		"name": "Spellcraft",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/64}",
@@ -3133,7 +3129,7 @@
 	},
 	"activate_magic_items": {
 		"name": "Activate Magic Items",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/64}",
@@ -3160,7 +3156,7 @@
 	},
 	"craft_magic_items_pu": {
 		"name": "Craft Magic Items",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/64}",
@@ -3185,7 +3181,7 @@
 	},
 	"identify_magic": {
 		"name": "Identify Magic",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/64}",
@@ -3223,7 +3219,7 @@
 	},
 	"identify_monsters_spellcraft": {
 		"name": "Identify Monsters (Spellcraft)",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/65}",
@@ -3246,7 +3242,7 @@
 	},
 	"learn_or_borrow_spells": {
 		"name": "Learn or Borrow Spells",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/65}",
@@ -3278,7 +3274,7 @@
 	},
 	"recall_knowledge_spellcraft": {
 		"name": "Recall Knowledge (Spellcraft)",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/65}",
@@ -3306,7 +3302,7 @@
 	},
 	"stealth_dex": {
 		"name": "Stealth",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/65}",
@@ -3348,7 +3344,7 @@
 	},
 	"avoid_being_noticed": {
 		"name": "Avoid Being Noticed",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/65}",
@@ -3366,7 +3362,7 @@
 	},
 	"survival_wis": {
 		"name": "Survival",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/65}",
@@ -3413,7 +3409,7 @@
 	},
 	"determine_true_north": {
 		"name": "Determine True North",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/65}",
@@ -3436,7 +3432,7 @@
 	},
 	"follow_tracks": {
 		"name": "Follow Tracks",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/65}",
@@ -3516,7 +3512,7 @@
 	},
 	"survive_in_the_wild": {
 		"name": "Survive in the Wild",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/66}",
@@ -3555,7 +3551,7 @@
 	},
 	"tend_wounds_and_ailments": {
 		"name": "Tend Wounds and Ailments",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/66}",
@@ -3580,7 +3576,7 @@
 	},
 	"racial_bonuses": {
 		"name": "Racial Bonuses",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/67}",
@@ -3627,7 +3623,7 @@
 	},
 	"class_skills_2": {
 		"name": "Class Skills",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/67}",
@@ -3721,7 +3717,7 @@
 	},
 	"converting_existing_characters": {
 		"name": "Converting Existing Characters",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/67}",
@@ -3737,7 +3733,7 @@
 	},
 	"altering_skill_bonuses": {
 		"name": "Altering Skill Bonuses",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/67}",
@@ -3777,7 +3773,7 @@
 	},
 	"bonuses_for_function": {
 		"name": "Bonuses for Function",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/67}",
@@ -3797,7 +3793,7 @@
 	},
 	"prerequisites": {
 		"name": "Prerequisites",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/67}",
@@ -3817,7 +3813,7 @@
 	},
 	"monster_skill_bonuses": {
 		"name": "Monster Skill Bonuses",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/68}",
@@ -3839,7 +3835,7 @@
 	},
 	"altering_feats": {
 		"name": "Altering Feats",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/68}",
@@ -3884,7 +3880,7 @@
 	},
 	"altering_traits": {
 		"name": "Altering Traits",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/68}",
@@ -3919,7 +3915,7 @@
 	},
 	"special_class_rules": {
 		"name": "Special Class Rules",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/68}",
@@ -3999,7 +3995,7 @@
 	},
 	"miscellaneous_abilities": {
 		"name": "Miscellaneous Abilities",
-		"subtitle": "Consolidated Skills, Optional Skill Changes",
+		"subtitle": "Consolidated Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/69}",
@@ -4019,7 +4015,6 @@
 	},
 	"grouped_skills": {
 		"name": "Grouped Skills",
-		"subtitle": "Optional Skill Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/70}",
@@ -4060,7 +4055,7 @@
 	},
 	"skill_group_rules": {
 		"name": "Skill Group Rules",
-		"subtitle": "Grouped Skills, Optional Skill Changes",
+		"subtitle": "Grouped Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/70}",
@@ -4126,7 +4121,7 @@
 	},
 	"calculating_skill_bonuses": {
 		"name": "Calculating Skill Bonuses",
-		"subtitle": "Grouped Skills, Optional Skill Changes",
+		"subtitle": "Grouped Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/70}",
@@ -4148,7 +4143,7 @@
 	},
 	"multiclassing_pu": {
 		"name": "Multiclassing",
-		"subtitle": "Grouped Skills, Optional Skill Changes",
+		"subtitle": "Grouped Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/71}",
@@ -4168,7 +4163,7 @@
 	},
 	"linguistics": {
 		"name": "Linguistics",
-		"subtitle": "Grouped Skills, Optional Skill Changes",
+		"subtitle": "Grouped Skills",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/71}",
@@ -4188,7 +4183,6 @@
 	},
 	"skill_unlocks": {
 		"name": "Skill Unlocks",
-		"subtitle": "Optional Skill Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/82}",

@@ -1,7 +1,6 @@
 {
 	"occult_rules": {
 		"name": "Occult Rules",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/194}",
@@ -47,7 +46,6 @@
 	},
 	"occult_skill_unlocks": {
 		"name": "Occult Skill Unlocks",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/194}",
@@ -2296,7 +2294,6 @@
 	},
 	"running_an_occult_game": {
 		"name": "Running an Occult Game",
-		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/218}",
@@ -2330,7 +2327,6 @@
 	},
 	"incorporating_the_occult": {
 		"name": "Incorporating the Occult",
-		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/218}",
@@ -2355,7 +2351,6 @@
 	},
 	"occult_elements": {
 		"name": "Occult Elements",
-		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/218}",
@@ -2386,7 +2381,7 @@
 	},
 	"mysteries_within_mysteries": {
 		"name": "Mysteries within Mysteries",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/218}",
@@ -2424,7 +2419,7 @@
 	},
 	"unseen_realms": {
 		"name": "Unseen Realms",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/219}",
@@ -2452,7 +2447,7 @@
 	},
 	"the_power_and_price_of_knowledge": {
 		"name": "The Power and Price of Knowledge",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/219}",
@@ -2480,7 +2475,7 @@
 	},
 	"strange_rules_and_peculiar_patterns": {
 		"name": "Strange Rules and Peculiar Patterns",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/220}",
@@ -2506,7 +2501,7 @@
 	},
 	"fates_worse_than_death": {
 		"name": "Fates Worse Than Death",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/220}",
@@ -2532,7 +2527,7 @@
 	},
 	"esoteric_atmosphere": {
 		"name": "Esoteric Atmosphere",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/220}",
@@ -2556,7 +2551,6 @@
 	},
 	"occult_themes": {
 		"name": "Occult Themes",
-		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/220}",
@@ -2586,7 +2580,6 @@
 	},
 	"the_occult_underworld": {
 		"name": "The Occult Underworld",
-		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/220}",
@@ -2615,7 +2608,7 @@
 	},
 	"spiritual_warfare": {
 		"name": "Spiritual Warfare",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/221}",
@@ -2638,7 +2631,7 @@
 	},
 	"into_the_great_beyond": {
 		"name": "Into the Great Beyond",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/221}",
@@ -2667,7 +2660,7 @@
 	},
 	"fear_and_reverence_of_the_unknown": {
 		"name": "Fear and Reverence of the Unknown",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/221}",
@@ -2694,7 +2687,7 @@
 	},
 	"ultimate_occult": {
 		"name": "Ultimate Occult",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/222}",
@@ -2719,7 +2712,6 @@
 	},
 	"occult_adventure_seeds": {
 		"name": "Occult Adventure Seeds",
-		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/222}",
@@ -2752,7 +2744,7 @@
 	},
 	"a_brace_of_imps": {
 		"name": "A Brace of Imps",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/223}",
@@ -2784,7 +2776,7 @@
 	},
 	"feast_of_souls": {
 		"name": "Feast of Souls",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/223}",
@@ -2816,7 +2808,7 @@
 	},
 	"golems_revenge": {
 		"name": "Golem's Revenge",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/223}",
@@ -2848,7 +2840,7 @@
 	},
 	"lost_souls": {
 		"name": "Lost Souls",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/224}",
@@ -2880,7 +2872,7 @@
 	},
 	"the_menhir": {
 		"name": "The Menhir",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/224}",
@@ -2912,7 +2904,7 @@
 	},
 	"mind_trap": {
 		"name": "Mind Trap",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/224}",
@@ -2944,7 +2936,7 @@
 	},
 	"the_order": {
 		"name": "The Order",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/225}",
@@ -2976,7 +2968,7 @@
 	},
 	"portrait_of_evil": {
 		"name": "Portrait of Evil",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/225}",
@@ -3008,7 +3000,6 @@
 	},
 	"occult_locations": {
 		"name": "Occult Locations",
-		"subtitle": "Gamemastery",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/226}",
@@ -3046,7 +3037,7 @@
 	},
 	"loci_spirits": {
 		"name": "Loci Spirits",
-		"subtitle": "Occult Rules, Gamemastery",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/226}",
@@ -3077,7 +3068,7 @@
 	},
 	"loci_spirit_rules": {
 		"name": "Loci Spirit Rules",
-		"subtitle": "Occult Rules, Gamemastery",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/226}",
@@ -3132,7 +3123,7 @@
 	},
 	"corrupting_a_loci_spirit": {
 		"name": "Corrupting a Loci Spirit",
-		"subtitle": "Occult Rules, Gamemastery",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/227}",
@@ -3181,7 +3172,7 @@
 	},
 	"elements_of_a_loci_spirit": {
 		"name": "Elements of a Loci Spirit",
-		"subtitle": "Occult Rules, Gamemastery",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/227}",
@@ -3230,7 +3221,7 @@
 	},
 	"creating_a_loci_spirit": {
 		"name": "Creating a Loci Spirit",
-		"subtitle": "Occult Rules, Gamemastery",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/228}",
@@ -3302,7 +3293,7 @@
 	},
 	"ley_lines": {
 		"name": "Ley Lines",
-		"subtitle": "Occult Rules, Gamemastery",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/232}",
@@ -3333,7 +3324,7 @@
 	},
 	"qualities_of_ley_lines": {
 		"name": "Qualities of Ley Lines",
-		"subtitle": "Occult Rules, Gamemastery",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/232}",
@@ -3368,7 +3359,7 @@
 	},
 	"finding_ley_lines": {
 		"name": "Finding Ley Lines",
-		"subtitle": "Occult Rules, Gamemastery",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/232}",
@@ -3403,7 +3394,7 @@
 	},
 	"using_ley_lines": {
 		"name": "Using Ley Lines",
-		"subtitle": "Occult Rules, Gamemastery",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/233}",
@@ -3438,7 +3429,7 @@
 	},
 	"mindscapes": {
 		"name": "Mindscapes",
-		"subtitle": "Occult Rules, Gamemastery",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/234}",
@@ -3479,7 +3470,7 @@
 	},
 	"binary_mindscapes": {
 		"name": "Binary Mindscapes",
-		"subtitle": "Occult Rules, Gamemastery",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/235}",
@@ -3511,7 +3502,7 @@
 	},
 	"creation_and_control": {
 		"name": "Creation and Control",
-		"subtitle": "Mindscapes, Gamemastery",
+		"subtitle": "Mindscapes",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/235}",
@@ -3531,7 +3522,7 @@
 	},
 	"immersive_mindscapes": {
 		"name": "Immersive Mindscapes",
-		"subtitle": "Occult Rules, Gamemastery",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/235}",
@@ -3564,7 +3555,7 @@
 	},
 	"mindscape_traits": {
 		"name": "Mindscape Traits",
-		"subtitle": "Occult Rules, Gamemastery",
+		"subtitle": "Occult Rules",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/235}",
@@ -3606,7 +3597,7 @@
 	},
 	"transparency": {
 		"name": "Transparency",
-		"subtitle": "Mindscapes, Gamemastery",
+		"subtitle": "Mindscapes",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/236}",
@@ -3638,7 +3629,7 @@
 	},
 	"shape_and_size_traits_oa": {
 		"name": "Shape and Size Traits",
-		"subtitle": "Mindscapes, Gamemastery",
+		"subtitle": "Mindscapes",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/236}",
@@ -3670,7 +3661,7 @@
 	},
 	"feedback_oa": {
 		"name": "Feedback",
-		"subtitle": "Mindscapes, Gamemastery",
+		"subtitle": "Mindscapes",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/236}",
@@ -3700,7 +3691,7 @@
 	},
 	"gravity_traits_oa": {
 		"name": "Gravity Traits",
-		"subtitle": "Mindscapes, Gamemastery",
+		"subtitle": "Mindscapes",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/237}",
@@ -3736,7 +3727,7 @@
 	},
 	"time_traits_oa": {
 		"name": "Time Traits",
-		"subtitle": "Mindscapes, Gamemastery",
+		"subtitle": "Mindscapes",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/237}",
@@ -3768,7 +3759,7 @@
 	},
 	"alignment_traits_oa": {
 		"name": "Alignment Traits",
-		"subtitle": "Mindscapes, Gamemastery",
+		"subtitle": "Mindscapes",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/237}",
@@ -3798,7 +3789,7 @@
 	},
 	"magic_traits_oa": {
 		"name": "Magic Traits",
-		"subtitle": "Mindscapes, Gamemastery",
+		"subtitle": "Mindscapes",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/237}",
@@ -3830,7 +3821,7 @@
 	},
 	"esoteric_planes": {
 		"name": "Esoteric Planes",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/238}",
@@ -3878,7 +3869,7 @@
 	},
 	"positive_energy_plane_oa": {
 		"name": "Positive Energy Plane",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/239}",
@@ -3911,7 +3902,7 @@
 	},
 	"negative_energy_plane_oa": {
 		"name": "Negative Energy Plane",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/240}",
@@ -3946,7 +3937,7 @@
 	},
 	"material_plane_oa": {
 		"name": "Material Plane",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/240}",
@@ -3975,7 +3966,7 @@
 	},
 	"ethereal_plane_oa": {
 		"name": "Ethereal Plane",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/240}",
@@ -4014,7 +4005,7 @@
 	},
 	"dimension_of_dreams_oa": {
 		"name": "Dimension of Dreams",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"tags": "dreamscapes",
 		"sources": [ "Occult Adventures" ],
 		"description": [
@@ -4064,7 +4055,7 @@
 	},
 	"astral_plane_oa": {
 		"name": "Astral Plane",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/243}",
@@ -4101,7 +4092,7 @@
 	},
 	"akashic_record_oa": {
 		"name": "Akashic Record",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/244}",
@@ -4144,7 +4135,7 @@
 	},
 	"the_boneyard_oa": {
 		"name": "The Boneyard",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/245}",
@@ -4186,7 +4177,7 @@
 	},
 	"outer_sphere": {
 		"name": "Outer Sphere",
-		"subtitle": "Occult, Gamemastery",
+		"subtitle": "Occult",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/245}",

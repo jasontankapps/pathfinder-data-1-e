@@ -1,7 +1,6 @@
 {
 	"kingdoms_and_war": {
 		"name": "Kingdoms and War",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/198}",
@@ -32,7 +31,6 @@
 	},
 	"kingdom_building": {
 		"name": "Kingdom Building",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/198}",
@@ -74,7 +72,6 @@
 	},
 	"kingdom_building_overview": {
 		"name": "Kingdom Building Overview",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/198}",
@@ -119,7 +116,6 @@
 	},
 	"kingdom_terminology": {
 		"name": "Kingdom Terminology",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/198}",
@@ -189,7 +185,6 @@
 	},
 	"kingdom_building_quick_reference": {
 		"name": "Kingdom Building Quick Reference",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/199}",
@@ -233,7 +228,6 @@
 	},
 	"founding_a_kingdom": {
 		"name": "Founding a Kingdom",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/200}",
@@ -277,7 +271,7 @@
 	},
 	"leadership_roles": {
 		"name": "Leadership Roles",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/200}",
@@ -353,7 +347,7 @@
 	},
 	"ruler": {
 		"name": "Ruler",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/201}",
@@ -395,7 +389,7 @@
 	},
 	"consort": {
 		"name": "Consort",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/201}",
@@ -433,7 +427,7 @@
 	},
 	"councilor": {
 		"name": "Councilor",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/201}",
@@ -469,7 +463,7 @@
 	},
 	"general": {
 		"name": "General",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/202}",
@@ -505,7 +499,7 @@
 	},
 	"grand_diplomat": {
 		"name": "Grand Diplomat",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/202}",
@@ -541,7 +535,7 @@
 	},
 	"heir": {
 		"name": "Heir",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/202}",
@@ -579,7 +573,7 @@
 	},
 	"high_priest": {
 		"name": "High Priest",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/202}",
@@ -615,7 +609,7 @@
 	},
 	"magister": {
 		"name": "Magister",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/202}",
@@ -651,7 +645,7 @@
 	},
 	"marshal": {
 		"name": "Marshal",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/203}",
@@ -687,7 +681,7 @@
 	},
 	"royal_enforcer": {
 		"name": "Royal Enforcer",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/203}",
@@ -723,7 +717,7 @@
 	},
 	"spymaster": {
 		"name": "Spymaster",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/203}",
@@ -759,7 +753,7 @@
 	},
 	"treasurer": {
 		"name": "Treasurer",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/203}",
@@ -795,7 +789,7 @@
 	},
 	"viceroy": {
 		"name": "Viceroy",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/203}",
@@ -831,7 +825,7 @@
 	},
 	"warden": {
 		"name": "Warden",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/204}",
@@ -867,7 +861,7 @@
 	},
 	"who_rolls_the_kingdom_check": {
 		"name": "Who Rolls the Kingdom Check?",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/202}",
@@ -931,7 +925,7 @@
 	},
 	"build_points": {
 		"name": "Build Points",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/204}",
@@ -975,7 +969,7 @@
 	},
 	"wealthy_sponsor": {
 		"name": "Wealthy Sponsor",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/205}",
@@ -1011,7 +1005,7 @@
 	},
 	"starting_from_scratch": {
 		"name": "Starting from Scratch",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/205}",
@@ -1044,7 +1038,6 @@
 	},
 	"kingdom_turn_sequence": {
 		"name": "Kingdom Turn Sequence",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/205}",
@@ -1096,7 +1089,7 @@
 	},
 	"kingdom_upkeep_phase": {
 		"name": "Kingdom Upkeep Phase",
-		"subtitle": "Kingdom Turns, Specific Campaigns",
+		"subtitle": "Kingdom Turns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/206}",
@@ -1134,7 +1127,7 @@
 	},
 	"kingdom_edict_phase": {
 		"name": "Kingdom Edict Phase",
-		"subtitle": "Kingdom Turns, Specific Campaigns",
+		"subtitle": "Kingdom Turns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/206}",
@@ -1178,7 +1171,7 @@
 	},
 	"kingdom_income_phase": {
 		"name": "Kingdom Income Phase",
-		"subtitle": "Kingdom Turns, Specific Campaigns",
+		"subtitle": "Kingdom Turns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/207}",
@@ -1216,7 +1209,7 @@
 	},
 	"kingdom_event_phase": {
 		"name": "Kingdom Event Phase",
-		"subtitle": "Kingdom Turns, Specific Campaigns",
+		"subtitle": "Kingdom Turns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/208}",
@@ -1244,7 +1237,7 @@
 	},
 	"edicts": {
 		"name": "Edicts",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/208}",
@@ -1286,7 +1279,7 @@
 	},
 	"holiday_edicts": {
 		"name": "Holiday Edicts",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/208}",
@@ -1322,7 +1315,7 @@
 	},
 	"improvement_edicts": {
 		"name": "Improvement Edicts",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/208}",
@@ -1358,7 +1351,7 @@
 	},
 	"promotion_edicts": {
 		"name": "Promotion Edicts",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/209}",
@@ -1390,7 +1383,7 @@
 	},
 	"taxation_edicts": {
 		"name": "Taxation Edicts",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/209}",
@@ -1422,7 +1415,7 @@
 	},
 	"losing_hexes": {
 		"name": "Losing Hexes",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/209}",
@@ -1465,7 +1458,7 @@
 	},
 	"capital_city": {
 		"name": "Capital City",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/207}",
@@ -1482,7 +1475,7 @@
 	},
 	"terrain_improvements": {
 		"name": "Terrain Improvements",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -1565,7 +1558,7 @@
 	},
 	"aqueduct": {
 		"name": "Aqueduct",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -1602,7 +1595,7 @@
 	},
 	"bridge": {
 		"name": "Bridge",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -1635,7 +1628,7 @@
 	},
 	"canal": {
 		"name": "Canal",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -1672,7 +1665,7 @@
 	},
 	"farm": {
 		"name": "Farm",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -1709,7 +1702,7 @@
 	},
 	"fishery": {
 		"name": "Fishery",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -1746,7 +1739,7 @@
 	},
 	"fort": {
 		"name": "Fort",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -1783,7 +1776,7 @@
 	},
 	"highway": {
 		"name": "Highway",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/210}",
@@ -1820,7 +1813,7 @@
 	},
 	"mine": {
 		"name": "Mine",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -1857,7 +1850,7 @@
 	},
 	"quarry": {
 		"name": "Quarry",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -1894,7 +1887,7 @@
 	},
 	"road": {
 		"name": "Road",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -1931,7 +1924,7 @@
 	},
 	"sawmill": {
 		"name": "Sawmill",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -1968,7 +1961,7 @@
 	},
 	"watchtower": {
 		"name": "Watchtower",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -2005,7 +1998,7 @@
 	},
 	"special_terrain": {
 		"name": "Special Terrain",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -2052,7 +2045,7 @@
 	},
 	"settlements_and_districts": {
 		"name": "Settlements and Districts",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/211}",
@@ -2113,7 +2106,7 @@
 	},
 	"founding_a_settlement": {
 		"name": "Founding a Settlement",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/212}",
@@ -2164,7 +2157,7 @@
 	},
 	"magic_items_in_settlements": {
 		"name": "Magic Items in Settlements",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/213}",
@@ -2193,7 +2186,7 @@
 	},
 	"claiming_water_and_islands": {
 		"name": "Claiming Water and Islands",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/213}",
@@ -2227,7 +2220,6 @@
 	},
 	"buildings_in_the_kingdom": {
 		"name": "Buildings in the Kingdom",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/213}",
@@ -2268,7 +2260,7 @@
 	},
 	"building_descriptions": {
 		"name": "Building Descriptions",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/214}",
@@ -2322,7 +2314,7 @@
 	},
 	"kbuildings1": {
 		"name": "Buildings: Academy through Bureau",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"tags": "Academy, Alchemist, Arena, Bank, Bardic College, Barracks, Black Market, Brewery, Bridge, Bureau",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -2431,7 +2423,7 @@
 	},
 	"kbuildings2": {
 		"name": "Buildings: Caster's Tower through Foundry",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"tags": "Caster's Tower, Castle, Cathedral, Cistern, City Wall, Dance Hall, Dump, Everflowing Spring, Exotic Artisan",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -2527,7 +2519,7 @@
 	},
 	"kbuildings3": {
 		"name": "Buildings: Foreign Quarter through Inn",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"tags": "Foreign Quarter, Foundry, Garrison, Granery, Graveyard, Guildhall, Herbalist, Hospital, House, Inn",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -2634,7 +2626,7 @@
 	},
 	"kbuildings4": {
 		"name": "Buildings: Jail through Military Academy",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"tags": "Jail, Library, Luxury Store, Magic Shop, Magical Academy, Magical Streetlamps, Mansion, Market, Menagerie, Military Academy",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -2748,7 +2740,7 @@
 	},
 	"kbuildings5": {
 		"name": "Buildings: Mill through Palace",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"tags": "Mill, Mint, Moat, Monastery, Monument, Museum, Noble Villa, Observatory, Orphanage, Palace",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -2848,7 +2840,7 @@
 	},
 	"kbuildings6": {
 		"name": "Buildings: Park through Tannery",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"tags": "Park, Paved Streets, Pier, Sewer System, Shop, Shrine, Smithy, Stable, Stockyard, Tannery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -2955,7 +2947,7 @@
 	},
 	"kbuildings7": {
 		"name": "Buildings: Tavern through Waterway",
-		"subtitle": "Kingdoms, Specific Campaigns",
+		"subtitle": "Kingdoms",
 		"tags": "Tavern, Temple, Tenement, Theater, Town Hall, Trade Shop, University, Watchtower, Waterfront, Waterway",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [

@@ -20,7 +20,6 @@
 	},
 	"aquatic_adventures_aa": {
 		"name": "Aquatic Adventures",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"{SOURCE Aquatic Adventures}  ",
@@ -50,7 +49,6 @@
 	},
 	"swimming_and_aquatic_adventures": {
 		"name": "Swimming and Aquatic Adventures",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"{SOURCE Aquatic Adventures}  ",
@@ -80,7 +78,7 @@
 	},
 	"buoyancy": {
 		"name": "Buoyancy",
-		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"{SOURCE Aquatic Adventures}  ",
@@ -114,7 +112,7 @@
 	},
 	"thinking_in_three_dimensions": {
 		"name": "Thinking in Three Dimensions",
-		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"{SOURCE Aquatic Adventures}  ",
@@ -141,7 +139,7 @@
 	"fighting_underwater": {
 		"name": "Fighting Underwater",
 		"tags": "underwater combat",
-		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"{SOURCE Aquatic Adventures}  ",
@@ -278,7 +276,7 @@
 	},
 	"underwater_hazards_and_features": {
 		"name": "Underwater Hazards and Features",
-		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"{SOURCE Aquatic Adventures}  ",
@@ -302,7 +300,7 @@
 	},
 	"drowning_aa": {
 		"name": "Drowning",
-		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"{SOURCE Aquatic Adventures}  ",
@@ -326,7 +324,7 @@
 	},
 	"oceanic_zones": {
 		"name": "Oceanic Zones",
-		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"{SOURCE Aquatic Adventures}  ",
@@ -364,7 +362,7 @@
 	},
 	"currents_and_running_water": {
 		"name": "Currents and Running Water",
-		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"{SOURCE Aquatic Adventures}  ",
@@ -386,7 +384,7 @@
 	},
 	"whirlpools": {
 		"name": "Whirlpools",
-		"subtitle": "Aquatic Adventures, Specific Campaigns",
+		"subtitle": "Aquatic Adventures",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"{SOURCE Aquatic Adventures}  ",
@@ -408,7 +406,6 @@
 	},
 	"caravans": {
 		"name": "Caravans",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Jade Regent Player's Guide" ],
 		"description": [
 			"This set of rules was developed for the *Jade Regent* campaign, but there's no reason you can't adapt them for any other caravan-themed adventure.",
@@ -445,7 +442,6 @@
 	},
 	"caravan_statistics": {
 		"name": "Caravan Statistics",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Jade Regent Player's Guide" ],
 		"description": [
 			"{SOURCE Jade Regent Player's Guide/16}  ",
@@ -506,7 +502,6 @@
 	},
 	"caravan_construction": {
 		"name": "Caravan Construction",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Jade Regent Player's Guide" ],
 		"description": [
 			"{SOURCE Jade Regent Player's Guide/18}  ",
@@ -540,7 +535,6 @@
 	},
 	"caravan_wagons": {
 		"name": "Caravan Wagons",
-		"subtitle": "Specific Campaigns",
 		"sources": [
 			"Jade Regent Player's Guide",
 			"Pathfinder #51: The Hungry Storm",
@@ -652,7 +646,6 @@
 	},
 	"caravan_travelers": {
 		"name": "Caravan Travelers",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Jade Regent Player's Guide" ],
 		"description": [
 			"{SOURCE Jade Regent Player's Guide/19}  ",
@@ -703,7 +696,6 @@
 	},
 	"caravan_equipment": {
 		"name": "Caravan Equipment",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Jade Regent Player's Guide" ],
 		"description": [
 			"{SOURCE Jade Regent Player's Guide/21}  ",
@@ -766,7 +758,6 @@
 	},
 	"caravan_feats": {
 		"name": "Caravan Feats",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Jade Regent Player's Guide" ],
 		"description": [
 			"{SOURCE Jade Regent Player's Guide/22}  ",
@@ -929,7 +920,6 @@
 	},
 	"caravan_encounters": {
 		"name": "Caravan Encounters",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Jade Regent Player's Guide" ],
 		"description": [
 			"{SOURCE Jade Regent Player's Guide/24}  ",
@@ -1056,7 +1046,6 @@
 	},
 	"caravan_combat": {
 		"name": "Caravan Combat",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Jade Regent Player's Guide" ],
 		"description": [
 			"{SOURCE Jade Regent Player's Guide/26}  ",
@@ -1151,7 +1140,6 @@
 	},
 	"caravan_events": {
 		"name": "Caravan Events",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Pathfinder #49: The Brinewall Legacy" ],
 		"description": [
 			"Each of the six volumes of the Jade Regent Adventure Path contain caravan events the PCs can randomly encounter. The subtopics here contain some of them.",
@@ -1461,7 +1449,6 @@
 	},
 	"intrigue_systems": {
 		"name": "Intrigue Systems",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/98}",
@@ -1505,7 +1492,6 @@
 	},
 	"intrigue_elements": {
 		"name": "Intrigue Elements",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/98}",
@@ -1532,7 +1518,7 @@
 	},
 	"relationships_and_loyalty": {
 		"name": "Relationships and Loyalty",
-		"subtitle": "Intrigue, Specific Campaigns",
+		"subtitle": "Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/98}",
@@ -1566,7 +1552,7 @@
 	},
 	"measure_and_countermeasure": {
 		"name": "Measure and Countermeasure",
-		"subtitle": "Intrigue, Specific Campaigns",
+		"subtitle": "Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/99}",
@@ -1592,7 +1578,7 @@
 	},
 	"the_importance_of_appearances": {
 		"name": "The Importance of Appearances",
-		"subtitle": "Intrigue, Specific Campaigns",
+		"subtitle": "Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/99}",
@@ -1614,7 +1600,7 @@
 	},
 	"bargains_and_compromise": {
 		"name": "Bargains and Compromise",
-		"subtitle": "Intrigue, Specific Campaigns",
+		"subtitle": "Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/100}",
@@ -1636,7 +1622,7 @@
 	},
 	"the_power_of_secrets": {
 		"name": "The Power of Secrets",
-		"subtitle": "Intrigue, Specific Campaigns",
+		"subtitle": "Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/100}",
@@ -1658,7 +1644,6 @@
 	},
 	"intrigue_themes": {
 		"name": "Intrigue Themes",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/100}",
@@ -1683,7 +1668,7 @@
 	},
 	"a_game_of_nobles": {
 		"name": "A Game of Nobles",
-		"subtitle": "Intrigue, Specific Campaigns",
+		"subtitle": "Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/100}",
@@ -1705,7 +1690,7 @@
 	},
 	"the_criminal_underworld": {
 		"name": "The Criminal Underworld",
-		"subtitle": "Intrigue, Specific Campaigns",
+		"subtitle": "Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/100}",
@@ -1731,7 +1716,7 @@
 	},
 	"war_of_propaganda": {
 		"name": "War of Propaganda",
-		"subtitle": "Intrigue, Specific Campaigns",
+		"subtitle": "Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/101}",
@@ -1753,7 +1738,7 @@
 	},
 	"law_and_order": {
 		"name": "Law and Order",
-		"subtitle": "Intrigue, Specific Campaigns",
+		"subtitle": "Intrigue",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/101}",
@@ -1779,7 +1764,6 @@
 	},
 	"ultimate_intrigue": {
 		"name": "Ultimate Intrigue",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/101}",

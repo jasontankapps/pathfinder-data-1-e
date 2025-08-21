@@ -1,7 +1,6 @@
 {
 	"urban_toolbox": {
 		"name": "Urban Toolbox",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/210}",
@@ -31,7 +30,7 @@
 	},
 	"ut_1": {
 		"name": "Unique City Decorations and Shops",
-		"subtitle": "Urban Toolbox, Gamemastery",
+		"subtitle": "Urban Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/210}",
@@ -147,7 +146,7 @@
 	},
 	"ut_2": {
 		"name": "100 City Locations",
-		"subtitle": "Urban Toolbox, Gamemastery",
+		"subtitle": "Urban Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/211}",
@@ -274,7 +273,7 @@
 	},
 	"ut_3": {
 		"name": "Encounters: Arena, Castle/Estate, Menagerie/Museum",
-		"subtitle": "Urban Toolbox, Gamemastery",
+		"subtitle": "Urban Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/212}",
@@ -383,7 +382,7 @@
 	},
 	"ut_4": {
 		"name": "Encounters: Rooftop and Sewer",
-		"subtitle": "Urban Toolbox, Gamemastery",
+		"subtitle": "Urban Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/212}",
@@ -463,7 +462,7 @@
 	},
 	"ut_5": {
 		"name": "Encounters: Slum, Tavern, and Thieves' Guild",
-		"subtitle": "Urban Toolbox, Gamemastery",
+		"subtitle": "Urban Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/213}",
@@ -572,7 +571,6 @@
 	},
 	"water": {
 		"name": "Water",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/214}",
@@ -605,7 +603,7 @@
 	"aquatic_adventures": {
 		"name": "Aquatic Adventures",
 		"tags": "Adapting to Aquatic Adventures",
-		"subtitle": "Water, Gamemastery",
+		"subtitle": "Water",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/214}",
@@ -635,7 +633,7 @@
 	},
 	"nautical_adventures": {
 		"name": "Nautical Adventures",
-		"subtitle": "Water, Gamemastery",
+		"subtitle": "Water",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/214}",
@@ -658,7 +656,7 @@
 	"fast_play_ship_combat": {
 		"name": "Fast-Play Ship Combat",
 		"tags": "sinking",
-		"subtitle": "Water, Gamemastery",
+		"subtitle": "Water",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/214}",
@@ -695,7 +693,7 @@
 	},
 	"ship_statistics": {
 		"name": "Ship Statistics",
-		"subtitle": "Water, Gamemastery",
+		"subtitle": "Water",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/215}",
@@ -743,7 +741,6 @@
 	},
 	"water_toolbox": {
 		"name": "Water Toolbox",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/216}",
@@ -771,7 +768,7 @@
 	},
 	"aqt_1": {
 		"name": "Islands and Flotsam",
-		"subtitle": "Water Toolbox, Gamemastery",
+		"subtitle": "Water Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/216}",
@@ -877,7 +874,7 @@
 	},
 	"aqt_2": {
 		"name": "Ghost Ships and Shipwrecks",
-		"subtitle": "Water Toolbox, Gamemastery",
+		"subtitle": "Water Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/217}",
@@ -953,7 +950,7 @@
 	},
 	"aqt_3": {
 		"name": "Sailors and Boatmen",
-		"subtitle": "Water Toolbox, Gamemastery",
+		"subtitle": "Water Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/218}",
@@ -1027,7 +1024,7 @@
 	},
 	"aqt_4": {
 		"name": "Boats and Captains",
-		"subtitle": "Water Toolbox, Gamemastery",
+		"subtitle": "Water Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/219}",
@@ -1158,7 +1155,6 @@
 	},
 	"wilderness_gg": {
 		"name": "Wilderness",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/220}",
@@ -1190,7 +1186,7 @@
 	},
 	"climate_and_weather": {
 		"name": "Climate and Weather",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Wilderness",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/220}",
@@ -1218,7 +1214,7 @@
 	},
 	"climate": {
 		"name": "Climate",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Wilderness",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/220}",
@@ -1247,7 +1243,7 @@
 	},
 	"weather_gg": {
 		"name": "Weather",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Wilderness",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/220}",
@@ -1274,7 +1270,7 @@
 	},
 	"environment_gg": {
 		"name": "Environment",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Wilderness",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/221}",
@@ -1305,7 +1301,7 @@
 	},
 	"deserts": {
 		"name": "Deserts",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Wilderness",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/222}",
@@ -1333,7 +1329,7 @@
 	},
 	"forests_jungles": {
 		"name": "Forests/Jungles",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Wilderness",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/222}",
@@ -1361,7 +1357,7 @@
 	},
 	"hills": {
 		"name": "Hills",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Wilderness",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/222}",
@@ -1389,7 +1385,7 @@
 	},
 	"marshes_swamps_and_bogs": {
 		"name": "Marshes, Swamps, and Bogs",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Wilderness",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/222}",
@@ -1417,7 +1413,7 @@
 	},
 	"mountains": {
 		"name": "Mountains",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Wilderness",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/222}",
@@ -1445,7 +1441,7 @@
 	},
 	"plains": {
 		"name": "Plains",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Wilderness",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/223}",
@@ -1473,7 +1469,7 @@
 	},
 	"underground": {
 		"name": "Underground",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Wilderness",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/223}",
@@ -1501,7 +1497,7 @@
 	},
 	"encounters_on_a_journey": {
 		"name": "Encounters on a Journey",
-		"subtitle": "Wilderness, Gamemastery",
+		"subtitle": "Wilderness",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/223}",
@@ -1529,7 +1525,6 @@
 	},
 	"wilderness_toolbox": {
 		"name": "Wilderness Toolbox",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/224}",
@@ -1559,7 +1554,7 @@
 	},
 	"wt_1": {
 		"name": "Things Found on the Roadside, Types of Weather",
-		"subtitle": "Wilderness Toolbox, Gamemastery",
+		"subtitle": "Wilderness Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/224}",
@@ -1681,7 +1676,7 @@
 	},
 	"wt_2": {
 		"name": "Scenic Spots, Terrain Types",
-		"subtitle": "Wilderness Toolbox, Gamemastery",
+		"subtitle": "Wilderness Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/225}",
@@ -1814,7 +1809,7 @@
 	},
 	"wt_3": {
 		"name": "Encounters: Beach/Coast, Eldritch Forest",
-		"subtitle": "Wilderness Toolbox, Gamemastery",
+		"subtitle": "Wilderness Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/226}",
@@ -1895,7 +1890,7 @@
 	},
 	"wt_4": {
 		"name": "Encounters: Oasis, Polar",
-		"subtitle": "Wilderness Toolbox, Gamemastery",
+		"subtitle": "Wilderness Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/226}",
@@ -1976,7 +1971,7 @@
 	},
 	"wt_5": {
 		"name": "Encounters: Sky, Temperate Plains",
-		"subtitle": "Wilderness Toolbox, Gamemastery",
+		"subtitle": "Wilderness Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/227}",
@@ -2057,7 +2052,7 @@
 	},
 	"wt_6": {
 		"name": "Encounters: Volcano, Wasteland",
-		"subtitle": "Wilderness Toolbox, Gamemastery",
+		"subtitle": "Wilderness Toolbox",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/227}",
@@ -2138,7 +2133,6 @@
 	},
 	"advanced_topics": {
 		"name": "Advanced Topics",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/230}",
@@ -2176,7 +2170,6 @@
 	},
 	"customizing_your_game": {
 		"name": "Customizing Your Game",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/230}",
@@ -2210,7 +2203,6 @@
 	},
 	"when_to_design": {
 		"name": "When to Design?",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/230}",
@@ -2238,7 +2230,6 @@
 	},
 	"when_to_disguise": {
 		"name": "When to Disguise?",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/231}",
@@ -2260,7 +2251,6 @@
 	},
 	"chases": {
 		"name": "Chases",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/232}",
@@ -2293,7 +2283,6 @@
 	},
 	"building_a_chase": {
 		"name": "Building a Chase",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/232}",
@@ -2326,7 +2315,6 @@
 	},
 	"chase_obstacles": {
 		"name": "Chase Obstacles",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/232}",
@@ -2351,7 +2339,6 @@
 	},
 	"running_a_chase": {
 		"name": "Running a Chase",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/232}",
@@ -2384,7 +2371,6 @@
 	},
 	"disasters": {
 		"name": "Disasters",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/234}",
@@ -2420,7 +2406,7 @@
 	"volcanoes": {
 		"name": "Volcanoes",
 		"tags": "lava poisonous gases lava bombs pyroclastic flows",
-		"subtitle": "Disasters, Gamemastery",
+		"subtitle": "Disasters",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/234}",
@@ -2457,7 +2443,7 @@
 	},
 	"tsunamis": {
 		"name": "Tsunamis",
-		"subtitle": "Disasters, Gamemastery",
+		"subtitle": "Disasters",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/234}",
@@ -2484,7 +2470,7 @@
 	},
 	"undead_uprising": {
 		"name": "Undead Uprising",
-		"subtitle": "Disasters, Gamemastery",
+		"subtitle": "Disasters",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/235}",
@@ -2529,7 +2515,6 @@
 	},
 	"drugs_and_addiction": {
 		"name": "Drugs and Addiction",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/236}",
@@ -2565,7 +2550,6 @@
 	},
 	"drugs": {
 		"name": "Drugs",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/236}",
@@ -2593,7 +2577,7 @@
 	},
 	"addiction": {
 		"name": "Addiction",
-		"subtitle": "Drugs, Gamemastery",
+		"subtitle": "Drugs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/236}",
@@ -2637,7 +2621,7 @@
 	},
 	"curing_addiction": {
 		"name": "Curing Addiction",
-		"subtitle": "Drugs, Gamemastery",
+		"subtitle": "Drugs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/236}",
@@ -2660,7 +2644,6 @@
 	"drunkenness": {
 		"name": "Drunkenness",
 		"tags": "hangovers, drinking games",
-		"subtitle": "Gamemastery",
 		"sources": [
 			"GameMastery Guide",
 			"Inner Sea Taverns"
@@ -2712,7 +2695,6 @@
 	},
 	"fortune_telling": {
 		"name": "Fortune-Telling",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/238}",
@@ -2750,7 +2732,6 @@
 	},
 	"basic_fortune_telling_methods": {
 		"name": "Basic Fortune-Telling Methods",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/238}",
@@ -2782,7 +2763,6 @@
 	},
 	"fortune_telling_props": {
 		"name": "Fortune-Telling Props",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/238}",
@@ -2812,7 +2792,6 @@
 	},
 	"fortune_telling_as_theater": {
 		"name": "Fortune-Telling as Theater",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/239}",
@@ -2838,7 +2817,6 @@
 	},
 	"mundane_and_magical_fortune_telling": {
 		"name": "Mundane and Magical Fortune-Telling",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/239}",
@@ -2862,7 +2840,6 @@
 	},
 	"gambling_and_games_of_chance": {
 		"name": "Gambling and Games of Chance",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/240}",
@@ -2900,7 +2877,7 @@
 	},
 	"creating_the_right_atmosphere": {
 		"name": "Creating the Right Atmosphere",
-		"subtitle": "Gambling, Gamemastery",
+		"subtitle": "Gambling",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/240}",
@@ -2930,7 +2907,6 @@
 	},
 	"types_of_gambling_games": {
 		"name": "Types of Gambling Games",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/240}",
@@ -2966,7 +2942,6 @@
 	},
 	"gambling_and_skill_checks": {
 		"name": "Gambling and Skill Checks",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/240}",
@@ -2994,7 +2969,7 @@
 	},
 	"games_of_chance": {
 		"name": "Games of Chance",
-		"subtitle": "Gambling, Gamemastery",
+		"subtitle": "Gambling",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/241}",
@@ -3020,7 +2995,7 @@
 	},
 	"designing_a_gambling_game": {
 		"name": "Designing a Gambling Game",
-		"subtitle": "Gambling, Gamemastery",
+		"subtitle": "Gambling",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/241}",
@@ -3054,7 +3029,6 @@
 	},
 	"sample_game_twenty_bones": {
 		"name": "Sample Game: Twenty Bones",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/241}",
@@ -3088,7 +3062,6 @@
 	},
 	"haunts": {
 		"name": "Haunts",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/242}",
@@ -3127,7 +3100,6 @@
 	},
 	"haunt_rules": {
 		"name": "Haunt Rules",
-		"subtitle": "Gamemastery",
 		"sources": [
 			"GameMastery Guide",
 			"Occult Adventures"
@@ -3176,7 +3148,6 @@
 	"haunt_templates": {
 		"name": "Haunt Templates",
 		"tags": "item-bound haunt possessing haunt chained haunts elusive haunt tenacious haunt unyielding haunt variant haunts",
-		"subtitle": "Gamemastery",
 		"sources": [
 			"Horror Adventures",
 			"Occult Adventures"
@@ -3236,7 +3207,7 @@
 	},
 	"seances_and_spirit_communication": {
 		"name": "Seances and Spirit Communication",
-		"subtitle": "Haunts, Gamemastery",
+		"subtitle": "Haunts",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"{SOURCE Occult Adventures/230}",
@@ -3263,7 +3234,6 @@
 	},
 	"elements_of_a_haunt": {
 		"name": "Elements of a Haunt",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/243}",
@@ -3310,7 +3280,6 @@
 	},
 	"creating_a_haunt": {
 		"name": "Creating a Haunt",
-		"subtitle": "Gamemastery",
 		"sources": [
 			"GameMastery Guide",
 			"Horror Adventures",
@@ -3396,7 +3365,7 @@
 	},
 	"echoes_of_the_first_world": {
 		"name": "Echoes of the First World",
-		"subtitle": "Haunts, Gamemastery",
+		"subtitle": "Haunts",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/132}",
@@ -3425,7 +3394,6 @@
 	},
 	"botanical_haunts": {
 		"name": "Botanical Haunts",
-		"subtitle": "Gamemastery",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"description": [
 			"{SOURCE Pathfinder #144: Midwives to Death/65}",
@@ -3454,7 +3422,6 @@
 	},
 	"hazards": {
 		"name": "Hazards",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/244}",
@@ -3567,7 +3534,6 @@
 	},
 	"sample_hazards": {
 		"name": "Sample Hazards",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/244}",
@@ -3649,7 +3615,6 @@
 	},
 	"hazards_and_disasters": {
 		"name": "Wilderness Hazards and Disasters",
-		"subtitle": "Gamemastery",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/146}",
@@ -4091,7 +4056,6 @@
 	},
 	"mysteries_and_investigations": {
 		"name": "Mysteries and Investigations",
-		"subtitle": "Gamemastery",
 		"tags": "Mystery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
@@ -4127,7 +4091,6 @@
 	},
 	"the_fantasy_mystery": {
 		"name": "The Fantasy Mystery",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/246}",
@@ -4156,7 +4119,6 @@
 	},
 	"running_a_mystery": {
 		"name": "Running a Mystery",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/246}",
@@ -4189,7 +4151,6 @@
 	},
 	"magical_investigations": {
 		"name": "Magical Investigations",
-		"subtitle": "Gamemastery",
 		"tags": "Mystery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [

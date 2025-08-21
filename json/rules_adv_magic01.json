@@ -15,7 +15,6 @@
 	},
 	"binding_outsiders": {
 		"name": "Binding Outsiders",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/101}",
@@ -838,7 +837,6 @@
 	},
 	"building_and_modifying_constructs": {
 		"name": "Building and Modifying Constructs",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/111}",
@@ -864,7 +862,7 @@
 	},
 	"animated_objects": {
 		"name": "Animated Objects",
-		"subtitle": "Constructs, Advanced Magic Topics",
+		"subtitle": "Constructs",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/111}",
@@ -887,7 +885,7 @@
 	},
 	"new_animated_object_abilities": {
 		"name": "New Animated Object Abilities",
-		"subtitle": "Constructs, Advanced Magic Topics",
+		"subtitle": "Constructs",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/111}",
@@ -922,7 +920,6 @@
 	},
 	"building_new_constructs": {
 		"name": "Building New Constructs",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/111}",
@@ -946,7 +943,6 @@
 	},
 	"pricing_a_new_construct": {
 		"name": "Pricing a New Construct",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/112}",
@@ -972,7 +968,6 @@
 	},
 	"repairing_constructs": {
 		"name": "Repairing Constructs",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/113}",
@@ -997,7 +992,6 @@
 	},
 	"construct_modifications": {
 		"name": "Construct Modifications",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/113}",
@@ -1070,7 +1064,6 @@
 	},
 	"designing_spells": {
 		"name": "Designing Spells",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/128}",
@@ -1792,7 +1785,6 @@
 	},
 	"magic_item_creation_ucp": {
 		"name": "Magic Item Creation",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/170}",
@@ -1823,7 +1815,7 @@
 	},
 	"pricing_new_items": {
 		"name": "Pricing New Items",
-		"subtitle": "Magic Item Creation, Advanced Magic Topics",
+		"subtitle": "Magic Item Creation",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/170}",
@@ -1853,7 +1845,7 @@
 	},
 	"cooperative_crafting": {
 		"name": "Cooperative Crafting",
-		"subtitle": "Magic Item Creation, Advanced Magic Topics",
+		"subtitle": "Magic Item Creation",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/170}",
@@ -1879,7 +1871,7 @@
 	},
 	"upgrading_items": {
 		"name": "Upgrading Items",
-		"subtitle": "Magic Item Creation, Advanced Magic Topics",
+		"subtitle": "Magic Item Creation",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/170}",
@@ -1915,7 +1907,7 @@
 	},
 	"recharging_charged_items": {
 		"name": "Recharging Charged Items",
-		"subtitle": "Magic Item Creation, Advanced Magic Topics",
+		"subtitle": "Magic Item Creation",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/171}",
@@ -1941,7 +1933,7 @@
 	},
 	"altering_existing_items": {
 		"name": "Altering Existing Items",
-		"subtitle": "Magic Item Creation, Advanced Magic Topics",
+		"subtitle": "Magic Item Creation",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/172}",
@@ -1977,7 +1969,7 @@
 	},
 	"adjusting_character_wealth_by_level": {
 		"name": "Adjusting Character Wealth by Level",
-		"subtitle": "Magic Item Creation, Advanced Magic Topics",
+		"subtitle": "Magic Item Creation",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/173}",
@@ -2007,7 +1999,7 @@
 	},
 	"creating_items_for_profit": {
 		"name": "Creating Items for Profit",
-		"subtitle": "Magic Item Creation, Advanced Magic Topics",
+		"subtitle": "Magic Item Creation",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/173}",
@@ -2041,7 +2033,7 @@
 	},
 	"talismanic_components": {
 		"name": "Talismanic Components",
-		"subtitle": "Magic Item Creation, Advanced Magic Topics",
+		"subtitle": "Magic Item Creation",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/173}",
@@ -2073,7 +2065,7 @@
 	},
 	"using_components": {
 		"name": "Using Components",
-		"subtitle": "Talismanic Components, Advanced Magic Topics",
+		"subtitle": "Talismanic Components",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/174}",
@@ -2098,7 +2090,7 @@
 	},
 	"requiring_components": {
 		"name": "Requiring Components",
-		"subtitle": "Talismanic Components, Advanced Magic Topics",
+		"subtitle": "Talismanic Components",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/174}",
@@ -2119,7 +2111,7 @@
 	},
 	"components_as_treasure": {
 		"name": "Components as Commodities and Treasure",
-		"subtitle": "Talismanic Components, Advanced Magic Topics",
+		"subtitle": "Talismanic Components",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/174}",
@@ -2146,7 +2138,7 @@
 	},
 	"example_components": {
 		"name": "Example Components",
-		"subtitle": "Talismanic Components, Advanced Magic Topics",
+		"subtitle": "Talismanic Components",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/174}",
@@ -2215,7 +2207,6 @@
 	},
 	"magic_item_familiars_companions": {
 		"name": "Magic Items for Familiars and Animal Companions",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/176}",
@@ -2323,7 +2314,6 @@
 	"magic_items_for_familiars_and_animal_companions": { "redirect": "magic_item_familiars_companions" },
 	"spellblights": {
 		"name": "Spellblights",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/94}",
@@ -2350,7 +2340,6 @@
 	},
 	"gaining_spellblights": {
 		"name": "Gaining Spellblights",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/94}",
@@ -2374,7 +2363,6 @@
 	},
 	"optional_ways_to_acquire_spellblights": {
 		"name": "Optional Ways to Acquire Spellblights",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/94}",
@@ -2406,7 +2394,6 @@
 	},
 	"removing_spellblights": {
 		"name": "Removing Spellblights",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/94}",
@@ -2456,7 +2443,6 @@
 	},
 	"description_of_spellblights": {
 		"name": "Description of Spellblights",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/95}",
@@ -2481,7 +2467,6 @@
 	},
 	"minor_spellblights": {
 		"name": "Minor Spellblights",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/95}",
@@ -2541,7 +2526,6 @@
 	},
 	"major_spellblights": {
 		"name": "Major Spellblights",
-		"subtitle": "Advanced Magic Topics",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/96}",
@@ -2601,7 +2585,7 @@
 	},
 	"benefits_of_harmful_conditions": {
 		"name": "Benefits of Harmful Conditions",
-		"subtitle": "Spellblights, Advanced Magic Topics",
+		"subtitle": "Spellblights",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"{SOURCE Ultimate Magic/98}",

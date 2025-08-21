@@ -1,7 +1,6 @@
 {
 	"influence": {
 		"name": "Influence",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/102}",
@@ -35,7 +34,6 @@
 	},
 	"individual_influence": {
 		"name": "Individual Influence",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/102}",
@@ -100,7 +98,7 @@
 	},
 	"discovery_check": {
 		"name": "Discovery Check",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/102}",
@@ -132,7 +130,6 @@
 	},
 	"influence_check": {
 		"name": "Influence Check",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/102}",
@@ -170,7 +167,7 @@
 	},
 	"before_a_social_event": {
 		"name": "Before a Social Event",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/103}",
@@ -198,7 +195,7 @@
 	},
 	"active_opponents": {
 		"name": "Active Opponents",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/103}",
@@ -226,7 +223,6 @@
 	},
 	"influence_and_magic": {
 		"name": "Influence and Magic",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/103}",
@@ -260,7 +256,7 @@
 	},
 	"secret_identities_and_hidden_allegiences": {
 		"name": "Secret Identities and Hidden Allegiences",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/104}",
@@ -290,7 +286,7 @@
 	},
 	"divided_parties": {
 		"name": "Divided Parties",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/104}",
@@ -318,7 +314,6 @@
 	},
 	"benefits_of_influence": {
 		"name": "Benefits of Influence",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/105}",
@@ -358,7 +353,6 @@
 	},
 	"countering_influence": {
 		"name": "Countering Influence",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/106}",
@@ -390,7 +384,7 @@
 	},
 	"neglect": {
 		"name": "Neglect",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/106}",
@@ -418,7 +412,7 @@
 	},
 	"social_stat_block": {
 		"name": "Social Stat Block",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/107}",
@@ -488,7 +482,6 @@
 	},
 	"using_the_individual_influence_system": {
 		"name": "Using the Individual Influence System",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/108}",
@@ -513,7 +506,7 @@
 	},
 	"setting_the_scene": {
 		"name": "Setting the Scene",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/108}",
@@ -534,7 +527,7 @@
 	},
 	"what_happened": {
 		"name": "What Happened",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/108}",
@@ -555,7 +548,6 @@
 	},
 	"the_value_of_influence": {
 		"name": "The Value of Influence",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/108}",
@@ -576,7 +568,7 @@
 	},
 	"dramatis_personae": {
 		"name": "Dramatis Personae",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/108}",
@@ -659,7 +651,6 @@
 	},
 	"organizational_influence": {
 		"name": "Organizational Influence",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/109}",
@@ -692,7 +683,6 @@
 	},
 	"influence_points_and_ranks": {
 		"name": "Influence Points and Ranks",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/109}",
@@ -751,7 +741,7 @@
 	},
 	"positive_ranks": {
 		"name": "Positive Ranks",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/109}",
@@ -790,7 +780,7 @@
 	},
 	"negative_ranks": {
 		"name": "Negative Ranks",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/110}",
@@ -827,7 +817,6 @@
 	},
 	"gaining_influence_points": {
 		"name": "Gaining Influence Points",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/110}",
@@ -856,7 +845,6 @@
 	},
 	"losing_influence_points": {
 		"name": "Losing Influence Points",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/110}",
@@ -887,7 +875,7 @@
 	},
 	"organization_interactions": {
 		"name": "Organization Interactions",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/111}",
@@ -920,7 +908,7 @@
 	},
 	"prominence": {
 		"name": "Prominence",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/111}",
@@ -949,7 +937,7 @@
 	},
 	"favors": {
 		"name": "Favors",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/112}",
@@ -1017,7 +1005,7 @@
 	},
 	"clandestine_operations": {
 		"name": "Clandestine Operations",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/112}",
@@ -1050,7 +1038,7 @@
 	},
 	"organization_stat_block": {
 		"name": "Organization Stat Block",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/113}",
@@ -1103,7 +1091,7 @@
 	},
 	"common_benefits": {
 		"name": "Common Benefits",
-		"subtitle": "Organizations, Influence, Optional Subsystems",
+		"subtitle": "Organizations, Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/114}",
@@ -1142,7 +1130,7 @@
 	},
 	"sample_organizations": {
 		"name": "Sample Organizations",
-		"subtitle": "Influence, Optional Subsystems",
+		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/114}",
@@ -1419,7 +1407,6 @@
 	},
 	"investment": {
 		"name": "Investment",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/164}",
@@ -1456,7 +1443,6 @@
 	},
 	"investment_mechanics": {
 		"name": "Investment Mechanics",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/164}",
@@ -1512,7 +1498,6 @@
 	},
 	"example_investments_and_problems": {
 		"name": "Example Investments and Problems",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/165}",
@@ -1556,7 +1541,6 @@
 	},
 	"primal_magic": {
 		"name": "Primal Magic",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"{SOURCE Inner Sea Magic/12}  ",
@@ -1628,7 +1612,6 @@
 	},
 	"relationships": {
 		"name": "Relationships",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/176}",
@@ -1669,7 +1652,6 @@
 	},
 	"relationship_levels": {
 		"name": "Relationship Levels",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/176}",
@@ -1708,7 +1690,6 @@
 	},
 	"growing_relationships": {
 		"name": "Growing Relationships",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/177}",
@@ -1742,7 +1723,6 @@
 	},
 	"reversing_relationships": {
 		"name": "Reversing Relationships",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/177}",
@@ -1764,7 +1744,6 @@
 	},
 	"example_relationships": {
 		"name": "Example Relationships",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/177}",
@@ -1790,7 +1769,7 @@
 	},
 	"parent": {
 		"name": "Parent",
-		"subtitle": "Relationships, Optional Subsystems",
+		"subtitle": "Relationships",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/177}",
@@ -1821,7 +1800,7 @@
 	},
 	"sibiling": {
 		"name": "Sibiling",
-		"subtitle": "Relationships, Optional Subsystems",
+		"subtitle": "Relationships",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/178}",
@@ -1854,7 +1833,7 @@
 	},
 	"childhood_rival": {
 		"name": "Childhood Rival",
-		"subtitle": "Relationships, Optional Subsystems",
+		"subtitle": "Relationships",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/178}",
@@ -1889,7 +1868,7 @@
 	},
 	"spouse": {
 		"name": "Spouse",
-		"subtitle": "Relationships, Optional Subsystems",
+		"subtitle": "Relationships",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/179}",
@@ -1920,7 +1899,6 @@
 	},
 	"reputation_and_fame": {
 		"name": "Reputation and Fame",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/180}",
@@ -1962,7 +1940,6 @@
 	},
 	"fame": {
 		"name": "Fame",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/181}",
@@ -2046,7 +2023,7 @@
 	},
 	"sphere_of_influence": {
 		"name": "Sphere of Influence",
-		"subtitle": "Fame, Optional Subsystems",
+		"subtitle": "Fame",
 		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -2087,7 +2064,7 @@
 	},
 	"prestige_points": {
 		"name": "Prestige Points",
-		"subtitle": "Fame, Optional Subsystems",
+		"subtitle": "Fame",
 		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -2125,7 +2102,7 @@
 	},
 	"fame_1": {
 		"name": "Fame 1",
-		"subtitle": "Reputation and Fame, Optional Subsystems",
+		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/182}",
@@ -2154,7 +2131,7 @@
 	},
 	"fame_10": {
 		"name": "Fame 10",
-		"subtitle": "Reputation and Fame, Optional Subsystems",
+		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/182}",
@@ -2185,7 +2162,7 @@
 	},
 	"fame_20": {
 		"name": "Fame 20",
-		"subtitle": "Reputation and Fame, Optional Subsystems",
+		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/183}",
@@ -2228,7 +2205,7 @@
 	},
 	"fame_30": {
 		"name": "Fame 30",
-		"subtitle": "Reputation and Fame, Optional Subsystems",
+		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/183}",
@@ -2263,7 +2240,7 @@
 	},
 	"fame_40": {
 		"name": "Fame 40",
-		"subtitle": "Reputation and Fame, Optional Subsystems",
+		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/184}",
@@ -2292,7 +2269,7 @@
 	},
 	"fame_55": {
 		"name": "Fame 55+",
-		"subtitle": "Reputation and Fame, Optional Subsystems",
+		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/184}",
@@ -2319,7 +2296,7 @@
 	},
 	"shared_fame": {
 		"name": "Shared Fame",
-		"subtitle": "Reputation and Fame, Optional Subsystems",
+		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/185}",
@@ -2340,7 +2317,7 @@
 	},
 	"alter_egos_aliases_and_secret_identities": {
 		"name": "Alter Egos, Aliases, and Secret Identities",
-		"subtitle": "Fame, Optional Subsystems",
+		"subtitle": "Fame",
 		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -2366,7 +2343,6 @@
 	},
 	"research": {
 		"name": "Research",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/148}",
@@ -2404,7 +2380,7 @@
 	},
 	"using_a_library": {
 		"name": "Using a Library",
-		"subtitle": "Research, Optional Subsystems",
+		"subtitle": "Research",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/148}",
@@ -2434,7 +2410,6 @@
 	},
 	"research_by_expertise": {
 		"name": "Research by Expertise",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/148}",
@@ -2456,7 +2431,7 @@
 	},
 	"designing_a_library": {
 		"name": "Designing a Library",
-		"subtitle": "Research, Optional Subsystems",
+		"subtitle": "Research",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/149}",
@@ -2517,7 +2492,7 @@
 	},
 	"additional_elements": {
 		"name": "Additional Elements",
-		"subtitle": "Research, Optional Subsystems",
+		"subtitle": "Research",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/151}",
@@ -2552,7 +2527,7 @@
 	"sample_libraries": {
 		"name": "Sample Libraries",
 		"tags": "library stat block",
-		"subtitle": "Research, Optional Subsystems",
+		"subtitle": "Research",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/152}",
@@ -2687,7 +2662,6 @@
 	},
 	"spell_alterations": {
 		"name": "Spellcasting Alterations",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/146}",
@@ -2721,7 +2695,7 @@
 	},
 	"limited_magic": {
 		"name": "Limited Magic",
-		"subtitle": "Spellcasting Alterations, Optional Subsystems",
+		"subtitle": "Spellcasting Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/146}",
@@ -2775,7 +2749,7 @@
 	},
 	"wild_magic": {
 		"name": "Wild Magic",
-		"subtitle": "Spellcasting Alterations, Optional Subsystems",
+		"subtitle": "Spellcasting Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/147}",
@@ -2848,7 +2822,7 @@
 	},
 	"implementing_wild_magic": {
 		"name": "Implementing Wild Magic",
-		"subtitle": "Spellcasting Alterations, Optional Subsystems",
+		"subtitle": "Spellcasting Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/147}",
@@ -2872,7 +2846,7 @@
 	},
 	"active_spellcasting": {
 		"name": "Active Spellcasting",
-		"subtitle": "Spellcasting Alterations, Optional Subsystems",
+		"subtitle": "Spellcasting Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/148}",
@@ -2897,7 +2871,7 @@
 	},
 	"overclocked_spells": {
 		"name": "Overclocked Spells",
-		"subtitle": "Active Spellcasting, Alterations, Optional Subsystems",
+		"subtitle": "Active Spellcasting, Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/148}",
@@ -2924,7 +2898,7 @@
 	},
 	"spell_attack_rolls": {
 		"name": "Spell Attack Rolls",
-		"subtitle": "Active Spellcasting, Alterations, Optional Subsystems",
+		"subtitle": "Active Spellcasting, Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/148}",
@@ -2951,7 +2925,7 @@
 	},
 	"spell_critical_hits": {
 		"name": "Spell Critical Hits",
-		"subtitle": "Active Spellcasting, Alterations, Optional Subsystems",
+		"subtitle": "Active Spellcasting, Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/149}",
@@ -2978,7 +2952,7 @@
 	},
 	"spell_fumbles": {
 		"name": "Spell Fumbles",
-		"subtitle": "Active Spellcasting, Alterations, Optional Subsystems",
+		"subtitle": "Active Spellcasting, Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/149}",
@@ -3020,7 +2994,6 @@
 	},
 	"stamina_and_combat_tricks": {
 		"name": "Stamina and Combat Tricks",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/112}",
@@ -3062,7 +3035,6 @@
 	},
 	"combat_stamina": {
 		"name": "Combat Stamina",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/112}",
@@ -3083,7 +3055,6 @@
 	},
 	"the_hunger": {
 		"name": "Undead Hunger",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"{SOURCE Blood of the Night/22}  ",
@@ -3121,7 +3092,7 @@
 	},
 	"creatures_and_their_hunger": {
 		"name": "Creatures and Their Hunger",
-		"subtitle": "Undead Hunger, Optional Subsystems",
+		"subtitle": "Undead Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"{SOURCE Blood of the Night/22}  ",
@@ -3146,7 +3117,7 @@
 	},
 	"hunger_rules": {
 		"name": "Hunger Rules",
-		"subtitle": "Undead Hunger, Optional Subsystems",
+		"subtitle": "Undead Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"{SOURCE Blood of the Night/22}  ",
@@ -3171,7 +3142,7 @@
 	},
 	"withdrawal_effects": {
 		"name": "Withdrawl Effects",
-		"subtitle": "Undead Hunger, Optional Subsystems",
+		"subtitle": "Undead Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"{SOURCE Blood of the Night/22}  ",
@@ -3207,7 +3178,7 @@
 	},
 	"feeding_bonuses": {
 		"name": "Feeding Bonuses",
-		"subtitle": "Undead Hunger, Optional Subsystems",
+		"subtitle": "Undead Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
 			"{SOURCE Blood of the Night/23}  ",

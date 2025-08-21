@@ -1,7 +1,7 @@
 {
 	"random_wands": {
 		"name": "Random Wands",
-		"subtitle": "Random Item Generator, Gamemastery",
+		"subtitle": "Random Item Generator",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/134}",
@@ -415,7 +415,6 @@
 	},
 	"research_and_designing_spells": {
 		"name": "Research and Designing Spells",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/114}",
@@ -451,7 +450,7 @@
 	},
 	"good_spells_and_bad_spells": {
 		"name": "Good Spells and Bad Spells",
-		"subtitle": "Creating Spells, Gamemastery",
+		"subtitle": "Creating Spells",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/114}",
@@ -480,7 +479,7 @@
 	},
 	"creating_a_spell": {
 		"name": "Creating a Spell",
-		"subtitle": "Creating Spells, Gamemastery",
+		"subtitle": "Creating Spells",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/114}",
@@ -516,7 +515,7 @@
 	},
 	"spell_components": {
 		"name": "Spell Components",
-		"subtitle": "Creating Spells, Gamemastery",
+		"subtitle": "Creating Spells",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/115}",
@@ -541,7 +540,7 @@
 	},
 	"components_for_new_spells": {
 		"name": "Components for New Spells",
-		"subtitle": "Creating Spells, Gamemastery",
+		"subtitle": "Creating Spells",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/115}",
@@ -570,7 +569,7 @@
 	},
 	"enhanced_components": {
 		"name": "Enhanced Components",
-		"subtitle": "Creating Spells, Gamemastery",
+		"subtitle": "Creating Spells",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/115}",
@@ -602,7 +601,6 @@
 	},
 	"wishes": {
 		"name": "Wishes",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/116}",
@@ -638,7 +636,6 @@
 	},
 	"making_magic_items": {
 		"name": "Making Magic Items",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/116}",
@@ -668,7 +665,7 @@
 	},
 	"ad_hoc_pricing": {
 		"name": "Ad-Hoc Pricing",
-		"subtitle": "Magic Items, Gamemastery",
+		"subtitle": "Magic Items",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/117}",
@@ -689,7 +686,7 @@
 	},
 	"keeping_the_balance": {
 		"name": "Keeping the Balance",
-		"subtitle": "Magic Items, Gamemastery",
+		"subtitle": "Magic Items",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/117}",
@@ -716,7 +713,6 @@
 	},
 	"creating_a_world": {
 		"name": "Creating a World",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/140}",
@@ -752,7 +748,6 @@
 	},
 	"world_building": {
 		"name": "World Building",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/140}",
@@ -783,7 +778,7 @@
 	},
 	"defining_a_setting": {
 		"name": "Defining a Setting",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/140}",
@@ -808,7 +803,7 @@
 	},
 	"tools_of_the_trade": {
 		"name": "Tools of the Trade",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/140}",
@@ -833,7 +828,7 @@
 	},
 	"building_a_city": {
 		"name": "Building a City",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/140}",
@@ -864,7 +859,7 @@
 	},
 	"detailing_your_world": {
 		"name": "Detailing Your World",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/142}",
@@ -897,7 +892,7 @@
 	},
 	"the_heroic_details": {
 		"name": "The Heroic Details",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/142}",
@@ -964,7 +959,7 @@
 	},
 	"the_mundane_details": {
 		"name": "The Mundane Details",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/143}",
@@ -1029,7 +1024,7 @@
 	},
 	"the_scholarly_details": {
 		"name": "The Scholarly Details",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/144}",
@@ -1092,7 +1087,7 @@
 	},
 	"geography": {
 		"name": "Geography",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/146}",
@@ -1129,7 +1124,7 @@
 	},
 	"creating_a_world_map": {
 		"name": "Creating a World Map",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/146}",
@@ -1152,7 +1147,7 @@
 	},
 	"starting_size": {
 		"name": "Starting Size",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/146}",
@@ -1173,7 +1168,7 @@
 	},
 	"terrain_hierarchy": {
 		"name": "Terrain Hierarchy",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/146}",
@@ -1211,7 +1206,7 @@
 	},
 	"coastlines": {
 		"name": "Coastlines",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/147}",
@@ -1236,7 +1231,7 @@
 	},
 	"elevations": {
 		"name": "Elevations",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/147}",
@@ -1263,7 +1258,7 @@
 	},
 	"rivers": {
 		"name": "Rivers",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/147}",
@@ -1288,7 +1283,7 @@
 	},
 	"vegetation": {
 		"name": "Vegetation",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/147}",
@@ -1313,7 +1308,7 @@
 	},
 	"tags": {
 		"name": "Tags",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/147}",
@@ -1338,7 +1333,7 @@
 	},
 	"breaking_the_rules": {
 		"name": "Breaking the Rules",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/147}",
@@ -1363,7 +1358,7 @@
 	},
 	"cultural_considerations": {
 		"name": "Cultural Considerations",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/148}",
@@ -1406,7 +1401,7 @@
 	},
 	"core_elements_of_the_people": {
 		"name": "Core Elements of the People",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/148}",
@@ -1438,7 +1433,7 @@
 	},
 	"government_and_law": {
 		"name": "Government and Law",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/148}",
@@ -1477,7 +1472,7 @@
 	},
 	"economics": {
 		"name": "Economics",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/149}",
@@ -1505,7 +1500,7 @@
 	},
 	"societies": {
 		"name": "Societies",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/149}",
@@ -1534,7 +1529,7 @@
 	},
 	"the_primitive_society": {
 		"name": "The Primitive Society",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/150}",
@@ -1580,7 +1575,7 @@
 	},
 	"defining_primitive_culture": {
 		"name": "Defining Primitive Culture",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/150}",
@@ -1610,7 +1605,7 @@
 	},
 	"leadership_and_control": {
 		"name": "Leadership and Control",
-		"subtitle": "Primitive Society, World Building, Gamemastery",
+		"subtitle": "Primitive Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/150}",
@@ -1634,7 +1629,7 @@
 	},
 	"religion_taboos_rituals_and_superstitions": {
 		"name": "Religion, Taboos, Rituals, and Superstitions",
-		"subtitle": "Primitive Society, World Building, Gamemastery",
+		"subtitle": "Primitive Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/151}",
@@ -1664,7 +1659,7 @@
 	},
 	"questions_about_your_primitive_society": {
 		"name": "Questions about Your Primitive Society",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/151}",
@@ -1711,7 +1706,7 @@
 	},
 	"the_feudal_society": {
 		"name": "The Feudal Society",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/152}",
@@ -1755,7 +1750,7 @@
 	},
 	"ruling_a_feudal_society": {
 		"name": "Ruling a Feudal Society",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/152}",
@@ -1781,7 +1776,7 @@
 	},
 	"the_feudal_hierarchy": {
 		"name": "The Feudal Hierarchy",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/153}",
@@ -1819,7 +1814,7 @@
 	},
 	"religions_role": {
 		"name": "Religion's Role",
-		"subtitle": "Feudal Society, World Building, Gamemastery",
+		"subtitle": "Feudal Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/153}",
@@ -1845,7 +1840,7 @@
 	},
 	"questions_about_your_feudal_society": {
 		"name": "Questions about Your Feudal Society",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/153}",
@@ -1888,7 +1883,7 @@
 	},
 	"the_rural_agrarian_society": {
 		"name": "The Rural/Agrarian Society",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/154}",
@@ -1931,7 +1926,7 @@
 	},
 	"life_in_an_agrarian_society": {
 		"name": "Life in an Agrarian Society",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/154}",
@@ -1962,7 +1957,7 @@
 	},
 	"the_religion_of_farmers": {
 		"name": "The Religion of Farmers",
-		"subtitle": "Rural/Agrarian Society, World Building, Gamemastery",
+		"subtitle": "Rural/Agrarian Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/155}",
@@ -1989,7 +1984,7 @@
 	},
 	"social_structure_and_economy": {
 		"name": "Social Structure and Economy",
-		"subtitle": "Rural/Agrarian Society, World Building, Gamemastery",
+		"subtitle": "Rural/Agrarian Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/155}",
@@ -2016,7 +2011,7 @@
 	},
 	"challenges": {
 		"name": "Challenges",
-		"subtitle": "Rural/Agrarian Society, World Building, Gamemastery",
+		"subtitle": "Rural/Agrarian Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/155}",
@@ -2041,7 +2036,7 @@
 	},
 	"questions_about_your_rural_agrarian_society": {
 		"name": "Questions about Your Rural/Agrarian Society",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/155}",
@@ -2086,7 +2081,7 @@
 	},
 	"the_cosmopolitan_society": {
 		"name": "The Cosmopolitan Society",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/156}",
@@ -2119,7 +2114,7 @@
 	},
 	"city_requirements": {
 		"name": "City Requirements",
-		"subtitle": "Cosmopolitan Society, World Building, Gamemastery",
+		"subtitle": "Cosmopolitan Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/156}",
@@ -2148,7 +2143,7 @@
 	},
 	"urban_planning": {
 		"name": "Urban Planning",
-		"subtitle": "Cosmopolitan Society, World Building, Gamemastery",
+		"subtitle": "Cosmopolitan Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/156}",
@@ -2181,7 +2176,7 @@
 	},
 	"questions_about_your_city": {
 		"name": "Questions about Your City",
-		"subtitle": "Cosmopolitan Society, World Building, Gamemastery",
+		"subtitle": "Cosmopolitan Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/157}",
@@ -2236,7 +2231,7 @@
 	"other_societies": {
 		"name": "Other Societies",
 		"tags": "bureaucracy caste system decadent society magocracy matriarchy monstrous society theocracy",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/158}",
@@ -2299,7 +2294,7 @@
 	},
 	"technology": {
 		"name": "Technology",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/160}",
@@ -2331,7 +2326,7 @@
 	},
 	"contentious_technology": {
 		"name": "Contentious Technology",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/160}",
@@ -2367,7 +2362,7 @@
 	},
 	"multiple_levels_of_technology": {
 		"name": "Multiple Levels of Technology",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/161}",
@@ -2391,7 +2386,7 @@
 	},
 	"magic_and_technology": {
 		"name": "Magic and Technology",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/161}",
@@ -2415,7 +2410,7 @@
 	},
 	"anachronisms": {
 		"name": "Anachronisms",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/161}",
@@ -2441,7 +2436,7 @@
 	},
 	"time": {
 		"name": "Time",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/162}",
@@ -2475,7 +2470,7 @@
 	},
 	"the_role_of_time": {
 		"name": "The Role of Time",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/162}",
@@ -2501,7 +2496,7 @@
 	},
 	"time_in_your_game": {
 		"name": "Time in Your Game",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/162}",
@@ -2533,7 +2528,7 @@
 	},
 	"celebrating_time": {
 		"name": "Celebrating Time",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/162}",
@@ -2563,7 +2558,7 @@
 	},
 	"crafting_time": {
 		"name": "Crafting Time",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/162}",
@@ -2591,7 +2586,7 @@
 	},
 	"traps_and_opportunities": {
 		"name": "Traps and Opportunities",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/163}",
@@ -2621,7 +2616,7 @@
 	},
 	"the_age_of_the_world": {
 		"name": "The Age of the World",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/163}",
@@ -2649,7 +2644,7 @@
 	},
 	"youthful_worlds": {
 		"name": "Youthful Worlds",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/163}",
@@ -2670,7 +2665,7 @@
 	},
 	"ancient_worlds": {
 		"name": "Ancient Worlds",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/163}",
@@ -2691,7 +2686,7 @@
 	},
 	"the_cosmos": {
 		"name": "The Cosmos",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/164}",
@@ -2723,7 +2718,7 @@
 	},
 	"creating_your_planet": {
 		"name": "Creating Your Planet",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/164}",
@@ -2757,7 +2752,7 @@
 	},
 	"other_worlds": {
 		"name": "Other Worlds",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/164}",
@@ -2795,7 +2790,7 @@
 	},
 	"space_travel": {
 		"name": "Space Travel",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/165}",
@@ -2823,7 +2818,7 @@
 	},
 	"extraterrestrials": {
 		"name": "Extraterrestrials",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/165}",
@@ -2847,7 +2842,7 @@
 	},
 	"the_planes_gg": {
 		"name": "The Planes",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/166}",
@@ -2879,7 +2874,7 @@
 	},
 	"the_purpose_of_planes": {
 		"name": "The Purpose of Planes",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/166}",
@@ -2901,7 +2896,7 @@
 	},
 	"planar_models": {
 		"name": "Planar Models",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/166}",
@@ -2950,7 +2945,7 @@
 	},
 	"location_and_travel": {
 		"name": "Location and Travel",
-		"subtitle": "The Planes, World Building, Gamemastery",
+		"subtitle": "The Planes, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/167}",
@@ -2976,7 +2971,7 @@
 	},
 	"other_considerations": {
 		"name": "Other Considerations",
-		"subtitle": "The Planes, World Building, Gamemastery",
+		"subtitle": "The Planes, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/167}",
@@ -2998,7 +2993,7 @@
 	},
 	"parallel_worlds": {
 		"name": "Parallel Worlds",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/168}",
@@ -3031,7 +3026,7 @@
 	},
 	"creating_a_parallel_world": {
 		"name": "Creating a Parallel World",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/168}",
@@ -3058,7 +3053,7 @@
 	},
 	"sample_parallel_worlds": {
 		"name": "Sample Parallel Worlds",
-		"subtitle": "World Building, Gamemastery",
+		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/168}",
@@ -3093,7 +3088,7 @@
 	},
 	"going_home": {
 		"name": "Going Home",
-		"subtitle": "Parallel Worlds, World Building, Gamemastery",
+		"subtitle": "Parallel Worlds, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/169}",
@@ -3116,7 +3111,6 @@
 	},
 	"adventures": {
 		"name": "Adventures",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/172}",
@@ -3150,7 +3144,6 @@
 	},
 	"elements_of_adventure": {
 		"name": "Elements of Adventure",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/172}",
@@ -3180,7 +3173,6 @@
 	},
 	"what_makes_a_great_adventure": {
 		"name": "What Makes a Great Adventure",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/172}",
@@ -3208,7 +3200,6 @@
 	},
 	"choosing_your_adventure": {
 		"name": "Choosing Your Adventure",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/172}",

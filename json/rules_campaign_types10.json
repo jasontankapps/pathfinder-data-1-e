@@ -1,7 +1,7 @@
 {
 	"the_first_world": {
 		"name": "The First World",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/128}",
@@ -43,7 +43,7 @@
 	},
 	"history_of_the_first_world": {
 		"name": "History of the First World",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/128}",
@@ -130,7 +130,7 @@
 	},
 	"getting_to_the_first_world": {
 		"name": "Getting to the First World",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/130}",
@@ -150,7 +150,7 @@
 	},
 	"hazards_of_the_first_world": {
 		"name": "Hazards of the First World",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/130}",
@@ -267,7 +267,6 @@
 	},
 	"technological_equipment": {
 		"name": "Technological Adventures",
-		"subtitle": "Specific Campaigns",
 		"tags": "Technology",
 		"sources": [ "Technology Guide" ],
 		"description": [
@@ -350,7 +349,6 @@
 	},
 	"timeworn_technology": {
 		"name": "Timeworn Technology",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/55}  ",
@@ -390,7 +388,7 @@
 	},
 	"tech_weapons": {
 		"name": "Tech Weapons",
-		"subtitle": "Technology, Specific Campaigns",
+		"subtitle": "Technology",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/20}  ",
@@ -452,7 +450,7 @@
 	},
 	"tech_armor": {
 		"name": "Tech Armor",
-		"subtitle": "Technology, Specific Campaigns",
+		"subtitle": "Technology",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/29}  ",
@@ -504,7 +502,7 @@
 	},
 	"cybertech": {
 		"name": "Cybertech",
-		"subtitle": "Technology, Specific Campaigns",
+		"subtitle": "Technology",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/35}  ",
@@ -560,7 +558,7 @@
 	},
 	"pharmaceuticals": {
 		"name": "Pharmaceuticals",
-		"subtitle": "Technology, Specific Campaigns",
+		"subtitle": "Technology",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/33}  ",
@@ -616,7 +614,7 @@
 	},
 	"tech_artifacts": {
 		"name": "Tech Artifacts",
-		"subtitle": "Technology, Specific Campaigns",
+		"subtitle": "Technology",
 		"tags": "Power Generators",
 		"sources": [ "Technology Guide" ],
 		"description": [
@@ -659,7 +657,7 @@
 	},
 	"tech_misc": {
 		"name": "Miscellaneous Gear",
-		"subtitle": "Technology, Specific Campaigns",
+		"subtitle": "Technology",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/39}  ",
@@ -703,7 +701,7 @@
 	},
 	"crafting_high_tech_items": {
 		"name": "Crafting High-Tech Items",
-		"subtitle": "Technology, Specific Campaigns",
+		"subtitle": "Technology",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/16}  ",
@@ -803,7 +801,7 @@
 	},
 	"pricing_and_creating_new_technological_items": {
 		"name": "Pricing and Creating New Technological Items",
-		"subtitle": "Technology, Specific Campaigns",
+		"subtitle": "Technology",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/17}  ",
@@ -822,7 +820,7 @@
 	},
 	"radiation": {
 		"name": "Radiation",
-		"subtitle": "Technology, Specific Campaigns",
+		"subtitle": "Technology",
 		"tags": "radiation poisoning",
 		"sources": [ "Technology Guide" ],
 		"description": [
@@ -864,7 +862,6 @@
 	},
 	"traps_and_technology": {
 		"name": "Traps and Technology",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/56}  ",
@@ -916,7 +913,7 @@
 	},
 	"artificial_intelligence": {
 		"name": "Artificial Intelligence",
-		"subtitle": "Technology, Specific Campaigns",
+		"subtitle": "Technology",
 		"tags": "AI",
 		"sources": [ "Technology Guide" ],
 		"subtopics": [ "creating_an_ai" ],
@@ -948,7 +945,7 @@
 	},
 	"creating_an_ai": {
 		"name": "Creating an AI",
-		"subtitle": "Technology, Specific Campaigns",
+		"subtitle": "Technology",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"{SOURCE Technology Guide/58}  ",
@@ -983,7 +980,6 @@
 	},
 	"seafaring_and_piracy_rules": {
 		"name": "Seafaring and Piracy Rules",
-		"subtitle": "Specific Campaigns",
 		"description": [
 			"The *Skull &amp; Shackles* Adventure Path introduced new rules for seafaring adventures, along with the pirate staples of plunder and infamy."
 		],
@@ -2505,7 +2501,6 @@
 	},
 	"mass_naval_combat": {
 		"name": "Mass Naval Combat",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Pathfinder #59: The Price of Infamy" ],
 		"description": [
 			"{SOURCE Pathfinder #59: The Price of Infamy/63}  ",
@@ -2977,7 +2972,7 @@
 	},
 	"plunder_and_infamy": {
 		"name": "Plunder and Infamy",
-		"subtitle": "Piracy, Specific Campaigns",
+		"subtitle": "Piracy",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
 		"description": [
 			"{SOURCE Pathfinder #55: The Wormwood Mutiny/61}  ",
@@ -3032,7 +3027,7 @@
 	},
 	"plunder": {
 		"name": "Plunder",
-		"subtitle": "Piracy, Specific Campaigns",
+		"subtitle": "Piracy",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
 		"description": [
 			"{SOURCE Pathfinder #55: The Wormwood Mutiny/61}  ",
@@ -3055,7 +3050,7 @@
 	},
 	"winning_plunder": {
 		"name": "Winning Plunder",
-		"subtitle": "Piracy, Specific Campaigns",
+		"subtitle": "Piracy",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
 		"description": [
 			"{SOURCE Pathfinder #55: The Wormwood Mutiny/61}  ",
@@ -3076,7 +3071,7 @@
 	},
 	"value_of_plunder": {
 		"name": "Value of Plunder",
-		"subtitle": "Piracy, Specific Campaigns",
+		"subtitle": "Piracy",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
 		"description": [
 			"{SOURCE Pathfinder #55: The Wormwood Mutiny/61}  ",
@@ -3120,7 +3115,7 @@
 	},
 	"infamy_and_disrepute": {
 		"name": "Infamy and Disrepute",
-		"subtitle": "Piracy, Specific Campaigns",
+		"subtitle": "Piracy",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
 		"description": [
 			"{SOURCE Pathfinder #55: The Wormwood Mutiny/62}  ",
@@ -3148,7 +3143,7 @@
 	},
 	"infamy_and_disrepute_scores": {
 		"name": "Infamy and Disrepute Scores",
-		"subtitle": "Piracy, Specific Campaigns",
+		"subtitle": "Piracy",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
 		"description": [
 			"{SOURCE Pathfinder #55: The Wormwood Mutiny/63}  ",
@@ -3175,7 +3170,7 @@
 	"infamy_score": { "redirect": "infamy_and_disrepute_scores" },
 	"winning_infamy_and_disrepute": {
 		"name": "Winning Infamy and Disrepute",
-		"subtitle": "Piracy, Specific Campaigns",
+		"subtitle": "Piracy",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
 		"description": [
 			"{SOURCE Pathfinder #55: The Wormwood Mutiny/63}  ",
@@ -3203,7 +3198,7 @@
 	},
 	"infamy_and_disrepute_per_port": {
 		"name": "Infamy and Disrepute Per Port",
-		"subtitle": "Piracy, Specific Campaigns",
+		"subtitle": "Piracy",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
 		"description": [
 			"{SOURCE Pathfinder #55: The Wormwood Mutiny/63}  ",

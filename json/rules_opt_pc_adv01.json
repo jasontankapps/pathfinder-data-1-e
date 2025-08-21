@@ -14,7 +14,6 @@
 	},
 	"automatic_bonus_progression": {
 		"name": "Automatic Bonus Progression",
-		"subtitle": "Optional PC Advancement Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/156}",
@@ -339,7 +338,6 @@
 	},
 	"innate_item_bonuses": {
 		"name": "Innate Item Bonuses",
-		"subtitle": "Optional PC Advancement Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/158}",
@@ -374,7 +372,7 @@
 	},
 	"wondrous_items_pu": {
 		"name": "Wondrous Items",
-		"subtitle": "Innate Item Bonuses, Optional",
+		"subtitle": "Innate Item Bonuses",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/158}",
@@ -449,7 +447,7 @@
 	},
 	"rings_pu": {
 		"name": "Rings",
-		"subtitle": "Innate Item Bonuses, Optional",
+		"subtitle": "Innate Item Bonuses",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/159}",
@@ -483,7 +481,7 @@
 	},
 	"arms_and_armor": {
 		"name": "Arms and Armor",
-		"subtitle": "Innate Item Bonuses, Optional",
+		"subtitle": "Innate Item Bonuses",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/159}",
@@ -504,7 +502,6 @@
 	},
 	"fractional_base_bonuses": {
 		"name": "Multiclass Fractional Base Bonuses",
-		"subtitle": "Optional PC Advancement Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/40}",
@@ -625,7 +622,6 @@
 	},
 	"staggered_advancement": {
 		"name": "Staggered Advancement",
-		"subtitle": "Optional PC Advancement Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/42}",
@@ -745,7 +741,6 @@
 	},
 	"variant_multiclassing": {
 		"name": "Variant Multiclassing",
-		"subtitle": "Optional PC Advancement Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/88}",
@@ -792,7 +787,7 @@
 	},
 	"core_classes": {
 		"name": "Core Classes",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/88}",
@@ -823,7 +818,7 @@
 	},
 	"barbarian": {
 		"name": "Barbarian",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/88}",
@@ -861,7 +856,7 @@
 	},
 	"bard": {
 		"name": "Bard",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/88}",
@@ -899,7 +894,7 @@
 	},
 	"cleric": {
 		"name": "Cleric",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/88}",
@@ -939,7 +934,7 @@
 	},
 	"druid": {
 		"name": "Druid",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/88}",
@@ -979,7 +974,7 @@
 	},
 	"fighter": {
 		"name": "Fighter",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/89}",
@@ -1017,7 +1012,7 @@
 	},
 	"monk": {
 		"name": "Monk",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/89}",
@@ -1057,7 +1052,7 @@
 	},
 	"paladin": {
 		"name": "Paladin",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/89}",
@@ -1097,7 +1092,7 @@
 	},
 	"ranger": {
 		"name": "Ranger",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/89}",
@@ -1135,7 +1130,7 @@
 	},
 	"rogue": {
 		"name": "Rogue",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/89}",
@@ -1173,7 +1168,7 @@
 	},
 	"sorcerer": {
 		"name": "Sorcerer",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/89}",
@@ -1213,7 +1208,7 @@
 	},
 	"wizard": {
 		"name": "Wizard",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1253,7 +1248,7 @@
 	},
 	"base_classes_pu": {
 		"name": "Base Classes",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1281,7 +1276,7 @@
 	},
 	"alchemist": {
 		"name": "Alchemist",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1316,7 +1311,7 @@
 	},
 	"cavalier": {
 		"name": "Cavalier",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1353,7 +1348,7 @@
 	},
 	"gunslinger": {
 		"name": "Gunslinger",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1388,7 +1383,7 @@
 	},
 	"inquisitor": {
 		"name": "Inquisitor",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1425,7 +1420,7 @@
 	},
 	"magus": {
 		"name": "Magus",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/90}",
@@ -1460,7 +1455,7 @@
 	},
 	"oracle": {
 		"name": "Oracle",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/91}",
@@ -1519,7 +1514,7 @@
 	},
 	"summoner": {
 		"name": "Summoner",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/91}",
@@ -1554,7 +1549,7 @@
 	},
 	"witch": {
 		"name": "Witch",
-		"subtitle": "Variant Multiclassing, Optional",
+		"subtitle": "Variant Multiclassing",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/91}",

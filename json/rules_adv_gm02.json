@@ -1,7 +1,6 @@
 {
 	"pursuit": {
 		"name": "Pursuit",
-		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/142}",
@@ -74,7 +73,6 @@
 	},
 	"building_a_pursuit": {
 		"name": "Building a Pursuit",
-		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/142}",
@@ -103,7 +101,6 @@
 	},
 	"direct_pursuits": {
 		"name": "Direct Pursuits",
-		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/142}",
@@ -147,7 +144,6 @@
 	},
 	"running_a_pursuit": {
 		"name": "Running a Pursuit",
-		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/143}",
@@ -173,7 +169,6 @@
 	},
 	"direct_pursuits_and_tracking": {
 		"name": "Direct Pursuits and Tracking",
-		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/143}",
@@ -322,7 +317,6 @@
 	},
 	"pursuit_advantages": {
 		"name": "Pursuit Advantages",
-		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/145}",
@@ -388,7 +382,6 @@
 	},
 	"pursuit_tactics": {
 		"name": "Pursuit Tactics",
-		"subtitle": "Advanced GM Topics",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/146}",
@@ -415,7 +408,7 @@
 	},
 	"individual_tactics": {
 		"name": "Individual Tactics",
-		"subtitle": "Pursuit, Advanced GM Topics",
+		"subtitle": "Pursuit",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/146}",
@@ -442,7 +435,7 @@
 	},
 	"group_tactics": {
 		"name": "Group Tactics",
-		"subtitle": "Pursuit, Advanced GM Topics",
+		"subtitle": "Pursuit",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/147}",
@@ -473,7 +466,7 @@
 	},
 	"damage_fatigue_and_exhaustion": {
 		"name": "Damage, Fatigue, and Exhaustion",
-		"subtitle": "Pursuit, Advanced GM Topics",
+		"subtitle": "Pursuit",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"{SOURCE Ultimate Intrigue/147}",
@@ -506,7 +499,6 @@
 	},
 	"simple_monster_creation": {
 		"name": "Simple Monster Creation",
-		"subtitle": "Advanced GM Topics",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/194}",

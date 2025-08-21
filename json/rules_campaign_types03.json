@@ -1,7 +1,7 @@
 {
 	"fleshwarping": {
 		"name": "Fleshwarping",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/164}",
@@ -36,7 +36,7 @@
 	},
 	"true_fleshwarping": {
 		"name": "True Fleshwarping",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/164}",
@@ -92,7 +92,7 @@
 	},
 	"fleshcrafting": {
 		"name": "Fleshcrafting",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/165}",
@@ -132,7 +132,7 @@
 	},
 	"fleshwarp_mutations": {
 		"name": "Fleshwarp Mutations",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/170}",
@@ -212,7 +212,7 @@
 	},
 	"madness": {
 		"name": "Madness",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/182}",
@@ -273,7 +273,7 @@
 	},
 	"reading_a_madness_stat_block": {
 		"name": "Reading a Madness Stat Block",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/182}",
@@ -301,7 +301,7 @@
 	},
 	"curing_madness": {
 		"name": "Curing Madness",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/182}",
@@ -323,7 +323,7 @@
 	},
 	"horrific_madnesses": {
 		"name": "Horrific Madnesses",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/185}",
@@ -343,7 +343,6 @@
 	},
 	"running_horror_adventures": {
 		"name": "Running Horror Adventures",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/190}",
@@ -387,7 +386,6 @@
 	},
 	"horror_versus_heroism": {
 		"name": "Horror Versus Heroism",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/190}",
@@ -414,7 +412,6 @@
 	},
 	"horror_games_and_consent": {
 		"name": "Horror Games and Consent",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/190}",
@@ -445,7 +442,7 @@
 	},
 	"for_game_masters": {
 		"name": "For Game Masters",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/191}",
@@ -471,7 +468,7 @@
 	},
 	"for_players": {
 		"name": "For Players",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/191}",
@@ -499,7 +496,6 @@
 	},
 	"horror_subgenres": {
 		"name": "Horror Subgenres",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/191}",
@@ -543,7 +539,6 @@
 	},
 	"body_horror": {
 		"name": "Body Horror",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/192}",
@@ -580,7 +575,6 @@
 	},
 	"cosmic_horror": {
 		"name": "Cosmic Horror",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/192}",
@@ -615,7 +609,7 @@
 	},
 	"dark_fantasy": {
 		"name": "Dark Fantasy",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/194}",
@@ -648,7 +642,7 @@
 	},
 	"ghost_story": {
 		"name": "Ghost Story",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/194}",
@@ -685,7 +679,6 @@
 	},
 	"gothic_horror": {
 		"name": "Gothic Horror",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/195}",
@@ -720,7 +713,6 @@
 	},
 	"psychological_horror": {
 		"name": "Psychological Horror",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/196}",
@@ -755,7 +747,6 @@
 	},
 	"slasher_horror": {
 		"name": "Slasher Horror",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/197}",
@@ -796,7 +787,6 @@
 	},
 	"creating_horror_adventures": {
 		"name": "Creating Horror Adventures",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/198}",
@@ -830,7 +820,7 @@
 	},
 	"know_the_medium": {
 		"name": "Know the Medium",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/198}",
@@ -853,7 +843,7 @@
 	},
 	"choose_the_terror": {
 		"name": "Choose the Terror",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/198}",
@@ -876,7 +866,7 @@
 	},
 	"spread_the_terror": {
 		"name": "Spread the Terror",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/198}",
@@ -901,7 +891,7 @@
 	},
 	"fear_from_the_unexpected": {
 		"name": "Fear from the Unexpected",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/199}",
@@ -932,7 +922,7 @@
 	},
 	"horrible_success_terrible_rewards": {
 		"name": "Horrible Success, Terrible Rewards",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/199}",
@@ -961,7 +951,6 @@
 	},
 	"horror_storytelling": {
 		"name": "Horror Storytelling",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/200}",
@@ -1017,7 +1006,7 @@
 	},
 	"how_to_scare_heroes": {
 		"name": "How to Scare Heroes",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/201}",
@@ -1048,7 +1037,7 @@
 	},
 	"how_to_scare_players": {
 		"name": "How to Scare Players",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/201}",
@@ -1073,7 +1062,7 @@
 	},
 	"secrets_and_suspicion": {
 		"name": "Secrets and Suspicion",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/201}",
@@ -1106,7 +1095,7 @@
 	},
 	"dice_and_other_deceits": {
 		"name": "Dice and Other Deceits",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/202}",
@@ -1137,7 +1126,7 @@
 	},
 	"stress_and_uncertainty": {
 		"name": "Stress and Uncertainty",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/202}",
@@ -1174,7 +1163,7 @@
 	},
 	"death_and_bargaining": {
 		"name": "Death and Bargaining",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/203}",
@@ -1207,7 +1196,6 @@
 	},
 	"encouraging_horror_roleplaying": {
 		"name": "Encouraging Horror Roleplaying",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/203}",
@@ -1236,7 +1224,7 @@
 	},
 	"going_too_far": {
 		"name": "Going Too Far",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/204}",
@@ -1269,7 +1257,7 @@
 	},
 	"creating_atmosphere": {
 		"name": "Creating Atmosphere",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/204}",
@@ -1300,7 +1288,7 @@
 	},
 	"game_space": {
 		"name": "Game Space",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/204}",
@@ -1322,7 +1310,7 @@
 	},
 	"lighting_ha": {
 		"name": "Lighting",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/204}",
@@ -1344,7 +1332,7 @@
 	},
 	"music_ha": {
 		"name": "Music",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/204}",
@@ -1378,7 +1366,7 @@
 	},
 	"house_ruling_distractions": {
 		"name": "House-Ruling Distractions",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/205}",
@@ -1404,7 +1392,7 @@
 	},
 	"rules_improvisation": {
 		"name": "Rules Improvisation",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/206}",
@@ -1449,7 +1437,7 @@
 	},
 	"buried_alive": {
 		"name": "Buried Alive",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/206}",
@@ -1481,7 +1469,7 @@
 	},
 	"burned_at_the_stake": {
 		"name": "Burned at the Stake",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/207}",
@@ -1511,7 +1499,7 @@
 	},
 	"burning_buildings_and_crumbling_structures": {
 		"name": "Burning Buildings and Crumbling Structures",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/207}",
@@ -1555,7 +1543,7 @@
 	},
 	"guillotine": {
 		"name": "Guillotine",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/208}",
@@ -1585,7 +1573,7 @@
 	},
 	"hanging": {
 		"name": "Hanging",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/209}",
@@ -1617,7 +1605,7 @@
 	},
 	"thematic_creepiness": {
 		"name": "Thematic Creepiness",
-		"subtitle": "Horror, Specific Campaigns",
+		"subtitle": "Horror",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"{SOURCE Horror Adventures/209}",

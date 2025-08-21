@@ -25,7 +25,6 @@
 	},
 	"affiliations": {
 		"name": "Affiliations",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"{SOURCE Adventurer's Guide/5}",
@@ -1080,7 +1079,6 @@
 	"storm_kindlers": { "redirect": "aff_storms" },
 	"bargaining": {
 		"name": "Bargaining",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/138}",
@@ -1117,7 +1115,6 @@
 	},
 	"bargaining_rules": {
 		"name": "Bargaining Rules",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/138}",
@@ -1143,7 +1140,6 @@
 	},
 	"steps_of_bargaining": {
 		"name": "The 5 Steps of Bargaining",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/138}",
@@ -1200,7 +1196,6 @@
 	},
 	"examples_of_bargaining": {
 		"name": "Examples of Bargaining",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/139}",
@@ -1221,7 +1216,6 @@
 	},
 	"other_elements_of_bargaining": {
 		"name": "Other Elements of Bargaining",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/139}",
@@ -1253,7 +1247,6 @@
 	},
 	"contacts": {
 		"name": "Contacts",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/148}",
@@ -1296,7 +1289,7 @@
 	},
 	"trust": {
 		"name": "Trust",
-		"subtitle": "Contacts, Optional Subsystems",
+		"subtitle": "Contacts",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/148}",
@@ -1332,7 +1325,7 @@
 	},
 	"risk": {
 		"name": "Risk",
-		"subtitle": "Contacts, Optional Subsystems",
+		"subtitle": "Contacts",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/148}",
@@ -1376,7 +1369,7 @@
 	},
 	"negotiation_checks": {
 		"name": "Negotiation Checks",
-		"subtitle": "Contacts, Optional Subsystems",
+		"subtitle": "Contacts",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/150}",
@@ -1418,7 +1411,6 @@
 	},
 	"gaining_cultivating_and_losing_contacts": {
 		"name": "Gaining, Cultivating, and Losing Contacts",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/151}",
@@ -1458,7 +1450,6 @@
 	},
 	"types_of_contacts": {
 		"name": "Types of Contacts",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/151}",
@@ -1530,7 +1521,7 @@
 	},
 	"contingency_services": {
 		"name": "Contingency Services",
-		"subtitle": "Contacts, Optional Subsystems",
+		"subtitle": "Contacts",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"{SOURCE Cohorts and Companions/28}",
@@ -1599,7 +1590,6 @@
 	},
 	"factions": {
 		"name": "Factions",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"{SOURCE Faction Guide/2}",
@@ -1646,7 +1636,6 @@
 	},
 	"faction_basics": {
 		"name": "Faction Basics",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"{SOURCE Faction Guide/3}",
@@ -2711,7 +2700,6 @@
 	"whispering_way": { "redirect": "f_gravepath" },
 	"faction_costs": {
 		"name": "Standard Faction Costs",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"{SOURCE Faction Guide/54}",
@@ -2822,7 +2810,6 @@
 	},
 	"hero_points": {
 		"name": "Hero Points",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"{SOURCE Advanced Player's Guide/322}",
@@ -2859,7 +2846,6 @@
 	},
 	"awarding_hero_points": {
 		"name": "Awarding Hero Points",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"{SOURCE Advanced Player's Guide/322}",
@@ -2893,7 +2879,6 @@
 	},
 	"using_hero_points": {
 		"name": "Using Hero Points",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"{SOURCE Advanced Player's Guide/323}",
@@ -2929,7 +2914,6 @@
 	},
 	"hero_points_for_gms": {
 		"name": "Hero Points for GMs",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"{SOURCE Advanced Player's Guide/324}",
@@ -2973,7 +2957,6 @@
 	},
 	"honor": {
 		"name": "Honor",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/160}",
@@ -3016,7 +2999,6 @@
 	},
 	"honor_points": {
 		"name": "Honor Points",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/160}",
@@ -3040,7 +3022,6 @@
 	},
 	"gaining_and_losing_honor": {
 		"name": "Gaining and Losing Honor",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/161}",
@@ -3096,7 +3077,7 @@
 	},
 	"chivalric_code": {
 		"name": "Chivalric Code",
-		"subtitle": "Honor, Optional Subsystems",
+		"subtitle": "Honor",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/162}",
@@ -3141,7 +3122,7 @@
 	},
 	"criminal_code": {
 		"name": "Criminal Code",
-		"subtitle": "Honor, Optional Subsystems",
+		"subtitle": "Honor",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/162}",
@@ -3188,7 +3169,7 @@
 	},
 	"political_code": {
 		"name": "Political Code",
-		"subtitle": "Honor, Optional Subsystems",
+		"subtitle": "Honor",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/162}",
@@ -3240,7 +3221,7 @@
 	},
 	"samurai_code": {
 		"name": "Samurai Code",
-		"subtitle": "Honor, Optional Subsystems",
+		"subtitle": "Honor",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/163}",
@@ -3286,7 +3267,7 @@
 	},
 	"tribal_code": {
 		"name": "Tribal Code",
-		"subtitle": "Honor, Optional Subsystems",
+		"subtitle": "Honor",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/163}",
@@ -3332,7 +3313,6 @@
 	},
 	"spending_honor": {
 		"name": "Spending Honor",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/161}",
@@ -3367,7 +3347,6 @@
 	},
 	"consequences_of_losing_honor": {
 		"name": "Consequences of Losing Honor",
-		"subtitle": "Optional Subsystems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/161}",

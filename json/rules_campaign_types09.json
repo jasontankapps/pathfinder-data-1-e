@@ -1,7 +1,6 @@
 {
 	"planar_adventures": {
 		"name": "Planar Adventures",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/8}",
@@ -42,7 +41,6 @@
 	},
 	"planar_terrains": {
 		"name": "Planar Terrains",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/9}",
@@ -67,7 +65,6 @@
 	},
 	"planar_races": {
 		"name": "Planar Races",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/9}",
@@ -821,7 +818,7 @@
 	},
 	"the_planes_pa": {
 		"name": "The Planes",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/92}",
@@ -907,7 +904,7 @@
 	},
 	"ethereal_plane_pa": {
 		"name": "Ethereal Plane",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/94}",
@@ -988,7 +985,7 @@
 	},
 	"first_world_pa": {
 		"name": "First World",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/100}",
@@ -1103,7 +1100,7 @@
 	},
 	"shadow_plane_pa": {
 		"name": "Shadow Plane",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/106}",
@@ -1184,7 +1181,7 @@
 	},
 	"negative_energy_plane_pa": {
 		"name": "Negative Energy Plane",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/112}",
@@ -1257,7 +1254,7 @@
 	},
 	"positive_energy_plane_pa": {
 		"name": "Positive Energy Plane",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/118}",
@@ -1330,7 +1327,7 @@
 	},
 	"plane_of_air_pa": {
 		"name": "Plane of Air",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/124}",
@@ -1397,7 +1394,7 @@
 	},
 	"plane_of_earth_pa": {
 		"name": "Plane of Earth",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/130}",
@@ -1466,7 +1463,7 @@
 	},
 	"plane_of_fire_pa": {
 		"name": "Plane of Fire",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/136}",
@@ -1533,7 +1530,7 @@
 	},
 	"plane_of_water_pa": {
 		"name": "Plane of Water",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/142}",
@@ -1604,7 +1601,7 @@
 	},
 	"astral_plane_pa": {
 		"name": "Astral Plane",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/148}",
@@ -1677,7 +1674,7 @@
 	},
 	"heaven_pa": {
 		"name": "Heaven_pa",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/154}",
@@ -1769,7 +1766,7 @@
 	},
 	"nirvana_pa": {
 		"name": "Nirvana_pa",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/160}",
@@ -1836,7 +1833,7 @@
 	},
 	"elysium_pa": {
 		"name": "Elysium_pa",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/166}",
@@ -1901,7 +1898,7 @@
 	},
 	"axis_pa": {
 		"name": "Axis_pa",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/172}",
@@ -1968,7 +1965,7 @@
 	},
 	"the_boneyard_pa": {
 		"name": "The Boneyard",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/178}",
@@ -2033,7 +2030,7 @@
 	},
 	"maelstrom_pa": {
 		"name": "Maelstrom_pa",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/184}",
@@ -2108,7 +2105,7 @@
 	},
 	"hell_pa": {
 		"name": "Hell_pa",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/190}",
@@ -2202,7 +2199,7 @@
 	},
 	"abaddon_pa": {
 		"name": "Abaddon_pa",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"tags": "the river styx",
 		"sources": [ "Planar Adventures" ],
 		"description": [
@@ -2276,7 +2273,7 @@
 	},
 	"the_abyss_pa": {
 		"name": "The Abyss",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/202}",
@@ -2343,7 +2340,7 @@
 	},
 	"demiplanes_and_dimensions": {
 		"name": "Demiplanes and Dimensions",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/208}",
@@ -2403,7 +2400,7 @@
 	},
 	"eleven_minor_demiplanes": {
 		"name": "Eleven Minor Demiplanes",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/209}",
@@ -2456,7 +2453,7 @@
 	},
 	"akashic_record": {
 		"name": "Akashic Record",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/210}",
@@ -2515,7 +2512,7 @@
 	},
 	"cynosure": {
 		"name": "Cynosure",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/211}",
@@ -2578,7 +2575,7 @@
 	},
 	"dead_vault": {
 		"name": "Dead Vault",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/210}",
@@ -2637,7 +2634,7 @@
 	},
 	"dimension_of_dreams": {
 		"name": "Dimension of Dreams / Dreamlands",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/210}",
@@ -2697,7 +2694,7 @@
 	"dreamlands": { "redirect": "dimension_of_dreams" },
 	"dimension_of_time": {
 		"name": "Dimension of Time",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/210}",
@@ -2754,7 +2751,7 @@
 	},
 	"hao_jin_tapestry": {
 		"name": "Hao Jin Tapestry",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/210}",
@@ -2807,7 +2804,7 @@
 	},
 	"harrowed_realm": {
 		"name": "Harrowed Realm",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/210}",
@@ -2860,7 +2857,7 @@
 	},
 	"jandelay": {
 		"name": "Jandelay",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/210}",
@@ -2917,7 +2914,7 @@
 	},
 	"leng": {
 		"name": "Leng",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/210}",
@@ -2976,7 +2973,7 @@
 	},
 	"xibalba": {
 		"name": "Xibalba",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/210}",
@@ -3031,7 +3028,6 @@
 	},
 	"building_a_planar_campaign": {
 		"name": "Building a Planar Campaign",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/82}",
@@ -3060,7 +3056,6 @@
 	},
 	"why_the_planes": {
 		"name": "Why the Planes?",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/82}",
@@ -3183,7 +3178,6 @@
 	},
 	"presenting_the_planes": {
 		"name": "Presenting the Planes",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/83}",
@@ -3209,7 +3203,7 @@
 	},
 	"not_just_another_dungeon": {
 		"name": "Not Just Another Dungeon",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/83}",
@@ -3234,7 +3228,7 @@
 	},
 	"normal_is_abnormal": {
 		"name": "Normal Is Abnormal",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/84}",
@@ -3259,7 +3253,6 @@
 	},
 	"traveling_the_planes": {
 		"name": "Traveling the Planes",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/84}",
@@ -3300,7 +3293,6 @@
 	},
 	"planar_tuning_forks": {
 		"name": "Planar Tuning Forks",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/85}",
@@ -3344,7 +3336,7 @@
 	},
 	"untuned_fork": {
 		"name": "Untuned Fork",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/85}",
@@ -3369,7 +3361,7 @@
 	},
 	"common_tuning_fork": {
 		"name": "Common Tuning Fork",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/85}",
@@ -3392,7 +3384,7 @@
 	},
 	"uncommon_tuning_fork": {
 		"name": "Uncommon Tuning Fork",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/85}",
@@ -3417,7 +3409,7 @@
 	},
 	"rare_tuning_fork": {
 		"name": "Rare Tuning Fork",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/86}",
@@ -3442,7 +3434,7 @@
 	},
 	"unique_tuning_fork": {
 		"name": "Unique Tuning Fork",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/86}",
@@ -3467,7 +3459,7 @@
 	},
 	"alternate_cosmologies": {
 		"name": "Alternate Cosmologies",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/86}",
@@ -3496,7 +3488,7 @@
 	},
 	"alignment_free_cosmology": {
 		"name": "Alignment-Free Cosmology",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/86}",
@@ -3526,7 +3518,7 @@
 	},
 	"alternate_realities_and_parallel_worlds": {
 		"name": "Alternate Realities and Parallel Worlds",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/87}",
@@ -3554,7 +3546,7 @@
 	},
 	"dualistic_cosmology": {
 		"name": "Dualistic Cosmology",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/87}",
@@ -3582,7 +3574,7 @@
 	},
 	"extraterrestrial_planes": {
 		"name": "Extraterrestrial Planes",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/88}",
@@ -3612,7 +3604,7 @@
 	},
 	"mundane_cosmology": {
 		"name": "Mundane Cosmology",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/88}",
@@ -3640,7 +3632,7 @@
 	},
 	"world_tree": {
 		"name": "World Tree",
-		"subtitle": "Planar Adventures, Specific Campaigns",
+		"subtitle": "Planar Adventures",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"{SOURCE Planar Adventures/89}",
@@ -3668,7 +3660,6 @@
 	},
 	"planar_travel": {
 		"name": "Planar Travel",
-		"subtitle": "Specific Campaigns",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"description": [
 			"{SOURCE Plane-Hopper's Handbook/4}",

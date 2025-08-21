@@ -22,7 +22,6 @@
 	},
 	"basics_from_the_core_rulebook": {
 		"name": "Basics from the Core Rulebook",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/396}",
@@ -69,7 +68,6 @@
 	},
 	"starting_a_campaign": {
 		"name": "Starting a Campaign",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/396}",
@@ -99,7 +97,6 @@
 	},
 	"published_adventures": {
 		"name": "Published Adventures",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/396}",
@@ -125,7 +122,6 @@
 	},
 	"building_an_adventure": {
 		"name": "Building an Adventure",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/396}",
@@ -158,7 +154,6 @@
 	},
 	"stat_blocks": {
 		"name": "Stat Blocks",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/397}",
@@ -180,7 +175,6 @@
 	},
 	"designing_encounters": {
 		"name": "Designing Encounters",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/397}",
@@ -285,7 +279,6 @@
 	},
 	"awarding_experience": {
 		"name": "Awarding Experience",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/399}",
@@ -310,7 +303,6 @@
 	},
 	"placing_treasure": {
 		"name": "Placing Treasure",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/399}",
@@ -391,7 +383,6 @@
 	},
 	"building_a_treasure_hoard": {
 		"name": "Building a Treasure Hoard",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/400}",
@@ -450,7 +441,6 @@
 	},
 	"preparing_for_the_game": {
 		"name": "Preparing for the Game",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/401}",
@@ -480,7 +470,6 @@
 	},
 	"during_the_game": {
 		"name": "During the Game",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/402}",
@@ -538,7 +527,6 @@
 	},
 	"campaign_tips": {
 		"name": "Campaign Tips",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/404}",
@@ -576,7 +564,6 @@
 	},
 	"cost_of_living": {
 		"name": "Cost of Living",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/405}",
@@ -605,7 +592,6 @@
 	},
 	"monstrous_characters": {
 		"name": "Monstrous Characters",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/405}",
@@ -630,7 +616,6 @@
 	},
 	"ending_the_campaign": {
 		"name": "Ending the Campaign",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/406}",
@@ -661,7 +646,6 @@
 	},
 	"beyond_20th_level": {
 		"name": "Beyond 20th Level",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/406}",
@@ -693,7 +677,6 @@
 	},
 	"creating_npcs": {
 		"name": "Creating NPCs",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/448}",
@@ -1123,7 +1106,6 @@
 	},
 	"getting_started": {
 		"name": "Getting Started",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/8}",
@@ -1170,7 +1152,6 @@
 	},
 	"a_game_masters_glossary": {
 		"name": "A Game Master's Glossary",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/9}",
@@ -1205,7 +1186,6 @@
 	},
 	"tone_and_maturity": {
 		"name": "Tone and Maturity",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/10}",
@@ -1235,7 +1215,6 @@
 	},
 	"style_of_play": {
 		"name": "Style of Play",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/10}",
@@ -1258,7 +1237,6 @@
 	},
 	"tone_and_setting": {
 		"name": "Tone and Setting",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/10}",
@@ -1281,7 +1259,6 @@
 	},
 	"group_styles": {
 		"name": "Group Styles",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/10}",
@@ -1304,7 +1281,6 @@
 	},
 	"retaining_interest": {
 		"name": "Retaining Interest",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/10}",
@@ -1329,7 +1305,6 @@
 	},
 	"sensitive_topics": {
 		"name": "Sensitive Topics",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/11}",
@@ -1364,7 +1339,6 @@
 	},
 	"the_gm_as_host": {
 		"name": "The GM as Host",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/12}",
@@ -1401,7 +1375,6 @@
 	},
 	"number_of_players": {
 		"name": "Number of Players",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/12}",
@@ -1427,7 +1400,6 @@
 	},
 	"small_groups": {
 		"name": "Small Groups",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/12}",
@@ -1455,7 +1427,6 @@
 	},
 	"large_groups": {
 		"name": "Large Groups",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/12}",
@@ -1481,7 +1452,6 @@
 	},
 	"finding_players": {
 		"name": "Finding Players",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/12}",
@@ -1517,7 +1487,6 @@
 	},
 	"where_to_play": {
 		"name": "Where to Play",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/13}",
@@ -1550,7 +1519,6 @@
 	},
 	"the_building": {
 		"name": "The Building",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/13}",
@@ -1582,7 +1550,6 @@
 	},
 	"the_room": {
 		"name": "The Room",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/13}",
@@ -1608,7 +1575,6 @@
 	},
 	"when_to_play": {
 		"name": "When to Play",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/13}",
@@ -1640,7 +1606,6 @@
 	},
 	"rules_of_the_house": {
 		"name": "Rules of the House",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/14}",
@@ -1672,7 +1637,6 @@
 	},
 	"player_absence": {
 		"name": "Player Absence",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/14}",
@@ -1705,7 +1669,6 @@
 	},
 	"calling_off_a_session": {
 		"name": "Calling off a Session",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/14}",
@@ -1734,7 +1697,6 @@
 	},
 	"food_at_the_game_table": {
 		"name": "Food at the Game Table",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/14}",
@@ -1763,7 +1725,6 @@
 	},
 	"children_and_pets": {
 		"name": "Children and Pets",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/14}",
@@ -1790,7 +1751,6 @@
 	},
 	"other_activities_at_the_game_table": {
 		"name": "Other Activities at the Game Table",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/15}",
@@ -1819,7 +1779,6 @@
 	},
 	"out_of_character_talking": {
 		"name": "Out-of-Character Talking",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/15}",
@@ -1846,7 +1805,6 @@
 	},
 	"interplayer_conflict": {
 		"name": "Interplayer Conflict",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/15}",
@@ -1873,7 +1831,6 @@
 	},
 	"preparing_to_run_a_game": {
 		"name": "Preparing to Run a Game",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/16}",
@@ -1907,7 +1864,6 @@
 	},
 	"things_to_have_at_the_table": {
 		"name": "Things to Have at the Table",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/16}",
@@ -1942,7 +1898,6 @@
 	},
 	"seven_essentials_for_good_preparation": {
 		"name": "Seven Essentials for Good Preparation",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/16}",
@@ -2193,7 +2148,6 @@
 	},
 	"published_or_homegrown": {
 		"name": "Published or Homegrown",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/17}",
@@ -2218,7 +2172,6 @@
 	},
 	"sharing_the_load": {
 		"name": "Sharing the Load",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/18}",
@@ -2243,7 +2196,6 @@
 	},
 	"one_shot_games": {
 		"name": "One-Shot Games",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/18}",
@@ -2274,7 +2226,6 @@
 	},
 	"campaigns": {
 		"name": "Campaigns",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/18}",
@@ -2312,7 +2263,6 @@
 	},
 	"essentials_of_good_campaigns": {
 		"name": "Essentials of Good Campaigns",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/19}",
@@ -2338,7 +2288,7 @@
 	},
 	"setting_and_scope": {
 		"name": "Setting and Scope",
-		"subtitle": "Campaigns, Gamemastery",
+		"subtitle": "Campaigns",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/19}",
@@ -2364,7 +2314,7 @@
 	},
 	"story": {
 		"name": "Story",
-		"subtitle": "Campaigns, Gamemastery",
+		"subtitle": "Campaigns",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/19}",
@@ -2390,7 +2340,7 @@
 	},
 	"movers_and_shakers": {
 		"name": "Movers and Shakers",
-		"subtitle": "Campaigns, Gamemastery",
+		"subtitle": "Campaigns",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/19}",
@@ -2414,7 +2364,6 @@
 	},
 	"campaign_endings": {
 		"name": "Campaign Endings",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/19}",
@@ -2442,7 +2391,6 @@
 	},
 	"winging_it": {
 		"name": "Winging It",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/19}",
@@ -2473,7 +2421,6 @@
 	},
 	"creating_a_campaign_guide": {
 		"name": "Creating a Campaign Guide",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/20}",
@@ -2663,7 +2610,6 @@
 	},
 	"running_a_game": {
 		"name": "Running a Game",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/24}",
@@ -2698,7 +2644,6 @@
 	},
 	"gming_style_choices": {
 		"name": "GMing Style Choices",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/24}",
@@ -2731,7 +2676,6 @@
 	},
 	"pregame_preparation": {
 		"name": "Pre-Game Preparation",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/24}",
@@ -2768,7 +2712,6 @@
 	},
 	"running_the_game": {
 		"name": "Running the Game",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/25}",
@@ -2809,7 +2752,6 @@
 	},
 	"post_game": {
 		"name": "Post Game",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/26}",
@@ -2836,7 +2778,6 @@
 	},
 	"the_art_of_gming": {
 		"name": "The Art of GMing",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/28}",
@@ -2870,7 +2811,6 @@
 	},
 	"making_it_happen": {
 		"name": "Making it Happen",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/28}",
@@ -2902,7 +2842,6 @@
 	},
 	"forcing_things": {
 		"name": "Forcing Things",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/28}",
@@ -2926,7 +2865,6 @@
 	},
 	"follow_the_pcs_lead": {
 		"name": "Follow the PCs' Lead",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/28}",
@@ -2952,7 +2890,6 @@
 	},
 	"the_illusion_of_free_choice": {
 		"name": "The Illusion of Free Choice",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/28}",
@@ -2980,7 +2917,6 @@
 	},
 	"gm_as_actor": {
 		"name": "GM as Actor",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/29}",
@@ -3007,7 +2943,7 @@
 	},
 	"volume_and_style": {
 		"name": "Volume and Style",
-		"subtitle": "GM as Actor, Gamemastery",
+		"subtitle": "GM as Actor",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/29}",
@@ -3046,7 +2982,7 @@
 	},
 	"giving_direction": {
 		"name": "Giving Direction",
-		"subtitle": "GM as Actor, Gamemastery",
+		"subtitle": "GM as Actor",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/30}",
@@ -3069,7 +3005,6 @@
 	},
 	"presentation": {
 		"name": "Presentation",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/30}",
@@ -3098,7 +3033,6 @@
 	},
 	"handouts_and_props": {
 		"name": "Handouts and Props",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/30}",
@@ -3134,7 +3068,6 @@
 	},
 	"music": {
 		"name": "Music",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/31}",
@@ -3159,7 +3092,6 @@
 	},
 	"lighting": {
 		"name": "Lighting",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/31}",
@@ -3182,7 +3114,6 @@
 	},
 	"attention_and_distractions": {
 		"name": "Attention and Distractions",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/31}",
@@ -3205,7 +3136,6 @@
 	},
 	"narrative_techniques": {
 		"name": "Narrative Techniques",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/31}",
@@ -3238,7 +3168,7 @@
 	},
 	"description": {
 		"name": "Description",
-		"subtitle": "Narrative Techniques, Gamemastery",
+		"subtitle": "Narrative Techniques",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/31}",
@@ -3271,7 +3201,7 @@
 	},
 	"spotlight": {
 		"name": "Spotlight",
-		"subtitle": "Narrative Techniques, Gamemastery",
+		"subtitle": "Narrative Techniques",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/32}",
@@ -3302,7 +3232,7 @@
 	},
 	"backstory": {
 		"name": "Backstory",
-		"subtitle": "Narrative Techniques, Gamemastery",
+		"subtitle": "Narrative Techniques",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/32}",
@@ -3334,7 +3264,7 @@
 	},
 	"cliffhangers": {
 		"name": "Cliffhangers",
-		"subtitle": "Narrative Techniques, Gamemastery",
+		"subtitle": "Narrative Techniques",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/32}",
@@ -3370,7 +3300,7 @@
 	},
 	"cut_scenes": {
 		"name": "Cut Scenes",
-		"subtitle": "Narrative Techniques, Gamemastery",
+		"subtitle": "Narrative Techniques",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/32}",
@@ -3399,7 +3329,7 @@
 	},
 	"flashbacks": {
 		"name": "Flashbacks",
-		"subtitle": "Narrative Techniques, Gamemastery",
+		"subtitle": "Narrative Techniques",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/32}",
@@ -3428,7 +3358,7 @@
 	},
 	"foreshadowing": {
 		"name": "Foreshadowing",
-		"subtitle": "Narrative Techniques, Gamemastery",
+		"subtitle": "Narrative Techniques",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/33}",
@@ -3468,7 +3398,7 @@
 	},
 	"secrets": {
 		"name": "Secrets",
-		"subtitle": "Narrative Techniques, Gamemastery",
+		"subtitle": "Narrative Techniques",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/33}",
@@ -3497,7 +3427,6 @@
 	},
 	"cheatings": {
 		"name": "Cheatings",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/33}",
@@ -3524,7 +3453,6 @@
 	},
 	"the_science_of_gming": {
 		"name": "The Science of GMing",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/34}",
@@ -3558,7 +3486,6 @@
 	},
 	"dice_mechanics_and_more": {
 		"name": "Dice Mechanics and More",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/34}",
@@ -3606,7 +3533,6 @@
 	},
 	"art": {
 		"name": "Art",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/34}",
@@ -3632,7 +3558,6 @@
 	},
 	"grid": {
 		"name": "Combat Grid",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/34}",
@@ -3658,7 +3583,6 @@
 	},
 	"face_cards": {
 		"name": "Face Cards",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/35}",
@@ -3686,7 +3610,6 @@
 	},
 	"miniatures": {
 		"name": "Miniatures",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/35}",
@@ -3714,7 +3637,6 @@
 	},
 	"initiative_tracker": {
 		"name": "Initiative Tracker",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/35}",
@@ -3742,7 +3664,6 @@
 	},
 	"item_cards": {
 		"name": "Item Cards",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/35}",
@@ -3768,7 +3689,6 @@
 	},
 	"without_accessories": {
 		"name": "Without Accessories",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/36}",
@@ -3794,7 +3714,6 @@
 	},
 	"creating_adventures": {
 		"name": "Creating Adventures",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/36}",
@@ -3841,7 +3760,6 @@
 	},
 	"running_smooth_combats": {
 		"name": "Running Smooth Combats",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/39}",
@@ -3878,7 +3796,6 @@
 	},
 	"building_encounters": {
 		"name": "Building Encounters",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/40}",
@@ -3910,7 +3827,6 @@
 	},
 	"play_to_the_pcs_strengths": {
 		"name": "Play to the PCs' Strengths",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/40}",
@@ -3938,7 +3854,6 @@
 	},
 	"high__and_low_cr_encounters": {
 		"name": "High- and Low-CR Encounters",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/41}",
@@ -3970,7 +3885,6 @@
 	},
 	"solo_monsters_vs_groups_of_monsters": {
 		"name": "Solo Monsters vs. Groups of Monsters",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/41}",
@@ -3996,7 +3910,6 @@
 	},
 	"winning_monster_combos": {
 		"name": "Winning Monster Combos",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/42}",
@@ -4022,7 +3935,6 @@
 	},
 	"dont_stymie_the_pcs": {
 		"name": "Don't Stymie the PCs",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/42}",
@@ -4052,7 +3964,6 @@
 	},
 	"unusual_campaigns": {
 		"name": "Unusual Campaigns",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/43}",
@@ -4084,7 +3995,7 @@
 	},
 	"no_healers": {
 		"name": "No Healers",
-		"subtitle": "Unusual Campaign, Gamemastery",
+		"subtitle": "Unusual Campaign",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/43}",
@@ -4108,7 +4019,7 @@
 	},
 	"no_spellcasters": {
 		"name": "No Spellcasters",
-		"subtitle": "Unusual Campaign, Gamemastery",
+		"subtitle": "Unusual Campaign",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/43}",
@@ -4132,7 +4043,7 @@
 	},
 	"all_spellcasters": {
 		"name": "All Spellcasters",
-		"subtitle": "Unusual Campaign, Gamemastery",
+		"subtitle": "Unusual Campaign",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/43}",
@@ -4156,7 +4067,7 @@
 	},
 	"small_party": {
 		"name": "Small Party",
-		"subtitle": "Unusual Campaign, Gamemastery",
+		"subtitle": "Unusual Campaign",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/43}",
@@ -4180,7 +4091,7 @@
 	},
 	"large_party": {
 		"name": "Large Party",
-		"subtitle": "Unusual Campaign, Gamemastery",
+		"subtitle": "Unusual Campaign",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/43}",
@@ -4208,7 +4119,6 @@
 	},
 	"variant_play_experiences": {
 		"name": "Variant Play Experiences",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/44}",
@@ -4238,7 +4148,6 @@
 	},
 	"solo_campaigns": {
 		"name": "Solo Campaigns",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/44}",
@@ -4270,7 +4179,6 @@
 	},
 	"convention_play": {
 		"name": "Convention Play",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/44}",
@@ -4292,7 +4200,6 @@
 	},
 	"online_games": {
 		"name": "Online Games",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/45}",
@@ -4318,7 +4225,6 @@
 	},
 	"fixing_a_broken_game": {
 		"name": "Fixing a 'Broken' Game",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/45}",
@@ -4351,7 +4257,6 @@
 	},
 	"gm_considerations": {
 		"name": "GM Considerations",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/46}",
@@ -4385,7 +4290,6 @@
 	},
 	"game_changers": {
 		"name": "Game Changers",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/46}",
@@ -4474,7 +4378,6 @@
 	},
 	"emergency_game_prep": {
 		"name": "Emergency Game Prep",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/48}",
@@ -4512,7 +4415,6 @@
 	"tpks": {
 		"name": "TPKs",
 		"tags": "total party kills death",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/49}",
@@ -4557,7 +4459,6 @@
 	},
 	"overpowered_pcs": {
 		"name": "Overpowered PCs",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/50}",
@@ -4598,7 +4499,6 @@
 	},
 	"personalizing_published_adventures": {
 		"name": "Personalizing Published Adventures",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/51}",
@@ -4627,7 +4527,6 @@
 	},
 	"converting_content_from_35_or_other_systems": {
 		"name": "Converting Content from 3.5 or Other Systems",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/51}",
@@ -4662,7 +4561,6 @@
 	},
 	"words_every_game_master_should_known": {
 		"name": "Words Every Game Master Should Known",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/55}",

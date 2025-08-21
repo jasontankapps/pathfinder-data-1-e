@@ -1,7 +1,6 @@
 {
 	"puzzles_and_riddles": {
 		"name": "Puzzles and Riddles",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/248}",
@@ -36,7 +35,7 @@
 	},
 	"the_setup": {
 		"name": "The Setup",
-		"subtitle": "Puzzles and Riddles, Gamemastery",
+		"subtitle": "Puzzles and Riddles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/248}",
@@ -65,7 +64,7 @@
 	},
 	"the_mechanism": {
 		"name": "The Mechanism",
-		"subtitle": "Puzzles and Riddles, Gamemastery",
+		"subtitle": "Puzzles and Riddles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/248}",
@@ -98,7 +97,7 @@
 	},
 	"the_clues": {
 		"name": "The Clues",
-		"subtitle": "Puzzles and Riddles, Gamemastery",
+		"subtitle": "Puzzles and Riddles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/249}",
@@ -125,7 +124,7 @@
 	},
 	"the_answer": {
 		"name": "The Answer",
-		"subtitle": "Puzzles and Riddles, Gamemastery",
+		"subtitle": "Puzzles and Riddles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/249}",
@@ -150,7 +149,7 @@
 	},
 	"sample_puzzles": {
 		"name": "Sample Puzzles",
-		"subtitle": "Puzzles and Riddles, Gamemastery",
+		"subtitle": "Puzzles and Riddles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/249}",
@@ -188,7 +187,6 @@
 	"sanity_and_madness": {
 		"name": "Sanity and Madness",
 		"tags": "curing insanity, types of insanity",
-		"subtitle": "Gamemastery",
 		"sources": [
 			"GameMastery Guide",
 			"Horror Adventures"
@@ -241,7 +239,6 @@
 	"npc_gallery": {
 		"name": "NPC Gallery",
 		"tags": "npc boons non-player characters",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/254}",
@@ -287,7 +284,6 @@
 	},
 	"list_of_npcs": {
 		"name": "A List of NPCs",
-		"subtitle": "Gamemastery",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
 			"{SOURCE GameMastery Guide/255}",
@@ -1365,7 +1361,6 @@
 	},
 	"race_builder": {
 		"name": "Race Builder",
-		"subtitle": "Gamemastery",
 		"tags": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -1399,7 +1394,6 @@
 	},
 	"creating_a_new_race": {
 		"name": "Creating a New Race",
-		"subtitle": "Gamemastery",
 		"tags": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
@@ -1446,7 +1440,7 @@
 	},
 	"step_1_concept_arg": {
 		"name": "Step 1: Concept",
-		"subtitle": "Race Creation, Gamemastery",
+		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"{SOURCE Advanced Race Guide/214}",
@@ -1477,7 +1471,7 @@
 	},
 	"step_2_racial_qualities": {
 		"name": "Step 2: Racial Qualities",
-		"subtitle": "Race Creation, Gamemastery",
+		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"{SOURCE Advanced Race Guide/215}",
@@ -1504,7 +1498,7 @@
 	},
 	"type_quality": {
 		"name": "Type Quality",
-		"subtitle": "Race Creation, Gamemastery",
+		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"{SOURCE Advanced Race Guide/215}",
@@ -1537,7 +1531,7 @@
 	},
 	"low_rp_types": {
 		"name": "Low-RP Types",
-		"subtitle": "Race Creation, Gamemastery",
+		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"{SOURCE Advanced Race Guide/217}",
@@ -1592,7 +1586,7 @@
 	},
 	"mid_rp_types": {
 		"name": "Mid-RP Types",
-		"subtitle": "Race Creation, Gamemastery",
+		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"{SOURCE Advanced Race Guide/216}",
@@ -1652,7 +1646,7 @@
 	},
 	"high_rp_types": {
 		"name": "High-RP Types",
-		"subtitle": "Race Creation, Gamemastery",
+		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"{SOURCE Advanced Race Guide/217}",
@@ -1725,7 +1719,7 @@
 	},
 	"size_quality": {
 		"name": "Size Quality",
-		"subtitle": "Race Creation, Gamemastery",
+		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"{SOURCE Advanced Race Guide/218}",
@@ -1755,7 +1749,7 @@
 	},
 	"base_speed_quality": {
 		"name": "Base Speed Quality",
-		"subtitle": "Race Creation, Gamemastery",
+		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"{SOURCE Advanced Race Guide/218}",
@@ -1781,7 +1775,7 @@
 	},
 	"ability_score_quality": {
 		"name": "Ability Score Quality",
-		"subtitle": "Race Creation, Gamemastery",
+		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"{SOURCE Advanced Race Guide/219}",
@@ -1827,7 +1821,7 @@
 	},
 	"language_quality": {
 		"name": "Language Quality",
-		"subtitle": "Race Creation, Gamemastery",
+		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"{SOURCE Advanced Race Guide/219}",
@@ -1857,7 +1851,7 @@
 	},
 	"step_3_racial_traits": {
 		"name": "Step 3: Racial Traits",
-		"subtitle": "Race Creation, Gamemastery",
+		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"{SOURCE Advanced Race Guide/220}",

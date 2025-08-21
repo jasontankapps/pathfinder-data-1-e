@@ -1244,7 +1244,6 @@
 	},
 	"removing_iterative_attacks": {
 		"name": "Removing Iterative Attacks",
-		"subtitle": "Optional Combat Rules",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/110}",
@@ -1466,7 +1465,6 @@
 	},
 	"revised_action_economy": {
 		"name": "Revised Action Economy",
-		"subtitle": "Optional Combat Rules",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/102}",
@@ -1498,7 +1496,6 @@
 	},
 	"revised_action_economy_overview": {
 		"name": "Revised Action Economy Overview",
-		"subtitle": "Optional Combat Rules",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/102}",
@@ -1542,7 +1539,7 @@
 	},
 	"action_types_and_subtypes": {
 		"name": "Action Types and Subtypes",
-		"subtitle": "Revised Action Economy, Optional",
+		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/102}",
@@ -1592,7 +1589,7 @@
 	},
 	"simple_actions": {
 		"name": "Simple Actions",
-		"subtitle": "Revised Action Economy, Optional",
+		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/103}",
@@ -1680,7 +1677,7 @@
 	},
 	"advanced_actions": {
 		"name": "Advanced Actions",
-		"subtitle": "Revised Action Economy, Optional",
+		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/105}",
@@ -1788,7 +1785,7 @@
 	},
 	"free_actions_pu": {
 		"name": "Free Actions",
-		"subtitle": "Revised Action Economy, Optional",
+		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/109}",
@@ -1838,7 +1835,7 @@
 	},
 	"reactions": {
 		"name": "Reactions",
-		"subtitle": "Revised Action Economy, Optional",
+		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/109}",
@@ -1870,7 +1867,7 @@
 	},
 	"converting_other_actions": {
 		"name": "Converting Other Actions",
-		"subtitle": "Revised Action Economy, Optional",
+		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/107}",
@@ -1906,7 +1903,7 @@
 	},
 	"final_considerations": {
 		"name": "Final Considerations",
-		"subtitle": "Revised Action Economy, Optional",
+		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/109}",
@@ -1934,7 +1931,6 @@
 	},
 	"wound_thresholds": {
 		"name": "Wound Thresholds",
-		"subtitle": "Optional Combat Rules",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/136}",
@@ -1961,7 +1957,7 @@
 	},
 	"setup": {
 		"name": "Setup",
-		"subtitle": "Wound Thresholds, Optional Combat Rules",
+		"subtitle": "Wound Thresholds",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/136}",
@@ -1984,7 +1980,7 @@
 	},
 	"thresholds_and_conditions": {
 		"name": "Thresholds and Conditions",
-		"subtitle": "Wound Thresholds, Optional Combat Rules",
+		"subtitle": "Wound Thresholds",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/136}",
@@ -2033,7 +2029,7 @@
 	},
 	"monster_wound_thresholds": {
 		"name": "Monster Wound Thresholds",
-		"subtitle": "Wound Thresholds, Optional Combat Rules",
+		"subtitle": "Wound Thresholds",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/137}",
@@ -2054,7 +2050,7 @@
 	},
 	"wounds_threshold_feats": {
 		"name": "Wounds Threshold Feats",
-		"subtitle": "Wound Thresholds, Optional Combat Rules",
+		"subtitle": "Wound Thresholds",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/137}",
@@ -2095,7 +2091,7 @@
 	},
 	"gritty_mode": {
 		"name": "Gritty Mode",
-		"subtitle": "Wound Thresholds, Optional Combat Rules",
+		"subtitle": "Wound Thresholds",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/137}",
@@ -2116,7 +2112,6 @@
 	},
 	"wounds_and_vigor": {
 		"name": "Wounds and Vigor",
-		"subtitle": "Optional Combat Rules",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/206}",
@@ -2145,7 +2140,6 @@
 	},
 	"determining_wound_points_and_vigor_points": {
 		"name": "Determining Wound Points and Vigor Points",
-		"subtitle": "Optional Combat Rules",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/206}",
@@ -2170,7 +2164,7 @@
 	},
 	"wound_points": {
 		"name": "Wound Points",
-		"subtitle": "Wounds and Vigor, Optional Combat Rules",
+		"subtitle": "Wounds and Vigor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/206}",
@@ -2195,7 +2189,7 @@
 	},
 	"vigor_points": {
 		"name": "Vigor Points",
-		"subtitle": "Wounds and Vigor, Optional Combat Rules",
+		"subtitle": "Wounds and Vigor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/206}",
@@ -2218,7 +2212,6 @@
 	},
 	"regaining_wound_points_and_vigor_points": {
 		"name": "Regaining Wound Points and Vigor Points",
-		"subtitle": "Optional Combat Rules",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/206}",
@@ -2247,7 +2240,7 @@
 	},
 	"attacks_that_deal_wound_point_damage": {
 		"name": "Attacks that Deal Wound Point Damage",
-		"subtitle": "Wounds and Vigor, Optional Combat Rules",
+		"subtitle": "Wounds and Vigor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/207}",
@@ -2272,7 +2265,7 @@
 	},
 	"other_considerations_uc": {
 		"name": "Other Considerations",
-		"subtitle": "Wounds and Vigor, Optional Combat Rules",
+		"subtitle": "Wounds and Vigor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/207}",
@@ -2299,7 +2292,6 @@
 	},
 	"wounds_and_vigor_variant_feats": {
 		"name": "Wounds and Vigor Variant Feats",
-		"subtitle": "Optional Combat Rules",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/207}",

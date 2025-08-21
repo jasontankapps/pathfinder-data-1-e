@@ -1,7 +1,6 @@
 {
 	"dungeons": {
 		"name": "Dungeons",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/410}",
@@ -30,7 +29,6 @@
 	},
 	"types_of_dungeons": {
 		"name": "Types of Dungeons",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/410}",
@@ -64,7 +62,6 @@
 	},
 	"dungeon_terrain": {
 		"name": "Dungeon Terrain",
-		"subtitle": "Gamemastery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/410}",
@@ -91,7 +88,7 @@
 	},
 	"walls": {
 		"name": "Walls",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/410}",
@@ -153,7 +150,7 @@
 	},
 	"floors": {
 		"name": "Floors",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/411}",
@@ -205,7 +202,7 @@
 	},
 	"doors": {
 		"name": "Doors",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons",
 		"tags": "breaking doors, magic doors, secret doors, portcullises, stuck doors,",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -294,7 +291,7 @@
 	},
 	"walls_doors_and_detect_spells": {
 		"name": "Walls, Doors, and Detect Spells",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/415}",
@@ -318,7 +315,7 @@
 	},
 	"stairs": {
 		"name": "Stairs",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/415}",
@@ -342,7 +339,7 @@
 	},
 	"cave_ins_and_collapses": {
 		"name": "Cave-Ins and Collapses",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/415}",
@@ -377,7 +374,7 @@
 	"slimes_molds_and_fungi": {
 		"name": "Slimes, Molds, and Fungi",
 		"tags": "brown mold green slime shrieker yellow mold russet mold phosphorescent fungus",
-		"subtitle": "Dungeons, Gamemastery",
+		"subtitle": "Dungeons",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Pathfinder RPG Bestiary",

@@ -12,7 +12,6 @@
 	},
 	"alignment_pu": {
 		"name": "Alignment as a Storytelling Mechanic",
-		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/95}",
@@ -54,7 +53,6 @@
 	},
 	"moral_challengers_and_dilemmas": {
 		"name": "Moral Challengers and Dilemmas",
-		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/95}",
@@ -85,7 +83,6 @@
 	},
 	"timing_and_focus": {
 		"name": "Timing and Focus",
-		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/97}",
@@ -110,7 +107,6 @@
 	},
 	"shifts_and_affirmations": {
 		"name": "Shifts and Affirmations",
-		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/97}",
@@ -145,7 +141,6 @@
 	},
 	"going_cosmic": {
 		"name": "Going Cosmic",
-		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/98}",
@@ -168,7 +163,6 @@
 	},
 	"alignment_feats": {
 		"name": "Alignment Feats",
-		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/98}",
@@ -191,7 +185,6 @@
 	},
 	"changing_alignment_ucp": {
 		"name": "Changing Alignment",
-		"subtitle": "Mastering Campaigns, Gamemastery",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/136}",
@@ -236,7 +229,6 @@
 	},
 	"removing_alignment": {
 		"name": "Removing Alignment",
-		"subtitle": "Optional Alignment Changes",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/100}",
@@ -259,7 +251,7 @@
 	},
 	"loyalties": {
 		"name": "Loyalties",
-		"subtitle": "Removing Alignment, Optional Changes",
+		"subtitle": "Removing Alignment",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/100}",
@@ -280,7 +272,7 @@
 	},
 	"classes_pu": {
 		"name": "Classes",
-		"subtitle": "Removing Alignment, Optional Changes",
+		"subtitle": "Removing Alignment",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/100}",
@@ -311,7 +303,7 @@
 	},
 	"creatures_spells_and_effects": {
 		"name": "Creatures, Spells, and Effects",
-		"subtitle": "Removing Alignment, Optional Changes",
+		"subtitle": "Removing Alignment",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"{SOURCE Pathfinder Unchained/100}",

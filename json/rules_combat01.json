@@ -78,7 +78,6 @@
 	},
 	"initiative": {
 		"name": "Initiative",
-		"subtitle": "Combat",
 		"tags": "flat-footed",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -104,7 +103,6 @@
 	},
 	"surprise": {
 		"name": "Surprise Round",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/178}",
@@ -162,7 +160,6 @@
 	},
 	"attack_roll": {
 		"name": "Attack Roll and Attack Bonus",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/178}",
@@ -195,7 +192,6 @@
 	},
 	"armor_class": {
 		"name": "Armor Class",
-		"subtitle": "Combat",
 		"tags": "dexterity bonus enhancement bonus deflection bonus natural armor bonus dodge bonus size modifier incorporeal touch attacks",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -257,7 +253,6 @@
 	},
 	"damage": {
 		"name": "Damage",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/179}",
@@ -296,7 +291,6 @@
 	},
 	"hit_points": {
 		"name": "Hit Points",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/179}",
@@ -319,7 +313,6 @@
 	},
 	"attacks_of_opportunity": {
 		"name": "Attacks of Opportunity",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/180}",
@@ -380,7 +373,6 @@
 	},
 	"speed": {
 		"name": "Speed",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/180}",
@@ -407,7 +399,6 @@
 	},
 	"saving_throws": {
 		"name": "Saving Throws",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/180}",
@@ -1282,7 +1273,6 @@
 	},
 	"miscellaneous_actions": {
 		"name": "Miscellaneous Actions",
-		"subtitle": "Combat",
 		"tags": "delay take 5-foot step perform combat maneuver use feat use skill",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -1348,7 +1338,6 @@
 	},
 	"injury_and_death": {
 		"name": "Injury and Death",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/189}",
@@ -1382,7 +1371,6 @@
 	"loss_of_hit_points": {
 		"name": "Loss of Hit Points",
 		"tags": "Death from Massive Damage",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/189}",
@@ -1416,7 +1404,6 @@
 	},
 	"disabled_0_hit_points": {
 		"name": "Disabled (0 Hit Points)",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/189}",
@@ -1446,7 +1433,6 @@
 	},
 	"dying_negative_hit_points": {
 		"name": "Dying (Negative Hit Points)",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/189}",
@@ -1474,7 +1460,6 @@
 	},
 	"dead": {
 		"name": "Dead",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/190}",
@@ -1500,7 +1485,6 @@
 	},
 	"stable_characters_and_recovery": {
 		"name": "Stable Characters and Recovery",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/190}",
@@ -1536,7 +1520,6 @@
 	},
 	"healing": {
 		"name": "Healing",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/191}",
@@ -1574,7 +1557,6 @@
 	"recover_hit_points": { "redirect": "healing" },
 	"temporary_hit_points": {
 		"name": "Temporary Hit Points",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/191}",
@@ -1602,7 +1584,6 @@
 	},
 	"nonlethal_damage": {
 		"name": "Nonlethal Damage",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/191}",
@@ -1640,7 +1621,6 @@
 	},
 	"movement_position_and_distance": {
 		"name": "Movement, Position, and Distance",
-		"subtitle": "Combat",
 		"tags": "tactical movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -1690,7 +1670,7 @@
 	},
 	"measuring_distance": {
 		"name": "Measuring Distance",
-		"subtitle": "Movement, Combat",
+		"subtitle": "Movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/192}",
@@ -1716,7 +1696,6 @@
 	},
 	"moving_through_a_square": {
 		"name": "Moving Through a Square",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/193}",
@@ -1754,7 +1733,7 @@
 	},
 	"terrain_and_obstacles": {
 		"name": "Difficult Terrain and Obstacles",
-		"subtitle": "Movement, Combat",
+		"subtitle": "Movement",
 		"tags": "Squeezing",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -1796,7 +1775,6 @@
 	"difficult_terrain": { "redirect": "terrain_and_obstacles" },
 	"special_movement_rules": {
 		"name": "Special Movement Rules",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/194}",
@@ -1942,7 +1920,6 @@
 	},
 	"cover": {
 		"name": "Cover",
-		"subtitle": "Combat",
 		"tags": "soft cover partial cover total cover improved cover",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -1983,7 +1960,6 @@
 	},
 	"concealment": {
 		"name": "Concealment",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/196}",
@@ -2019,7 +1995,6 @@
 	},
 	"flanking": {
 		"name": "Flanking",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/197}",
@@ -2048,7 +2023,6 @@
 	"flanked": { "redirect": "flanking" },
 	"helpless_defenders": {
 		"name": "Helpless Defenders",
-		"subtitle": "Combat",
 		"tags": "coup de grace",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
@@ -2079,7 +2053,6 @@
 	},
 	"special_attacks": {
 		"name": "Special Attacks",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/197}",
@@ -2111,7 +2084,6 @@
 	},
 	"aid_another_2": {
 		"name": "Aid Another",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/197}",
@@ -2138,7 +2110,6 @@
 	},
 	"charge": {
 		"name": "Charge",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/198}",
@@ -2620,7 +2591,6 @@
 	},
 	"throw_splash_weapon": {
 		"name": "Throw Splash Weapon",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/202}",
@@ -2651,7 +2621,6 @@
 	"splash_weapon": { "redirect": "throw_splash_weapon" },
 	"greater_splash_weapon": {
 		"name": "Greater Splash Weapon",
-		"subtitle": "Combat",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/72}",
@@ -2675,7 +2644,6 @@
 	},
 	"two_weapon_fighting": {
 		"name": "Two-Weapon Fighting",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/202}",
@@ -2714,7 +2682,6 @@
 	"off_hand": { "redirect": "two_weapon_fighting" },
 	"delay": {
 		"name": "Delay",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/203}",
@@ -2740,7 +2707,6 @@
 	},
 	"ready": {
 		"name": "Ready",
-		"subtitle": "Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/203}",

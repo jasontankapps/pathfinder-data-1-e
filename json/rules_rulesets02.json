@@ -46,7 +46,6 @@
 	},
 	"salvaging": {
 		"name": "Salvaging",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"{SOURCE Ultimate Wilderness/134}",
@@ -118,7 +117,6 @@
 	},
 	"siege_engine_rules": {
 		"name": "Siege Engine Rules",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/158}",
@@ -176,7 +174,6 @@
 	},
 	"siege_engine_qualities": {
 		"name": "Siege Engine Qualities",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/159}",
@@ -252,7 +249,7 @@
 	},
 	"structure_hardness_and_hit_points": {
 		"name": "Structure Hardness and Hit Points",
-		"subtitle": "Siege Engines, Specific Rulesets",
+		"subtitle": "Siege Engines",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/166}",
@@ -278,7 +275,7 @@
 	},
 	"buildings_uc": {
 		"name": "Buildings",
-		"subtitle": "Siege Engines, Specific Rulesets",
+		"subtitle": "Siege Engines",
 		"tags": "hardness",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
@@ -312,7 +309,7 @@
 	},
 	"gates": {
 		"name": "Gates",
-		"subtitle": "Siege Engines, Specific Rulesets",
+		"subtitle": "Siege Engines",
 		"tags": "hardness",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
@@ -348,7 +345,7 @@
 	},
 	"walls_uc": {
 		"name": "Walls",
-		"subtitle": "Siege Engines, Specific Rulesets",
+		"subtitle": "Siege Engines",
 		"tags": "hardness",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
@@ -382,7 +379,6 @@
 	},
 	"spontaneous_alchemy": {
 		"name": "Spontaneous Alchemy",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"{SOURCE Alchemy Manual/4}",
@@ -550,7 +546,6 @@
 	},
 	"vehicles": {
 		"name": "Vehicles",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/170}",
@@ -590,7 +585,6 @@
 	},
 	"vehicle_basics": {
 		"name": "Vehicle Basics",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/170}",
@@ -622,7 +616,6 @@
 	"vehicle_rules": { "redirect": "vehicle_basics" },
 	"full_vehicle_rules": {
 		"name": "Full Vehicle Rules",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/170}",
@@ -749,7 +742,6 @@
 	},
 	"vehicle_size_and_space": {
 		"name": "Vehicle Size and Space",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/172}",
@@ -788,7 +780,6 @@
 	},
 	"vehicle_facing_and_movement": {
 		"name": "Vehicle Facing and Movement",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/172}",
@@ -820,7 +811,6 @@
 	},
 	"driving_vehicles": {
 		"name": "Driving Vehicles",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/173}",
@@ -900,7 +890,6 @@
 	},
 	"vehicles_in_combat": {
 		"name": "Vehicles in Combat",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/174}",
@@ -1331,7 +1320,6 @@
 	},
 	"vehicle_statistics": {
 		"name": "Vehicle Statistics",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/180}",
@@ -1389,7 +1377,6 @@
 	},
 	"land_vehicles": {
 		"name": "Land Vehicles",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/181}",
@@ -1927,7 +1914,6 @@
 	},
 	"water_vehicles": {
 		"name": "Water Vehicles",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/184}",
@@ -2256,7 +2242,6 @@
 	},
 	"air_vehicles": {
 		"name": "Air Vehicles",
-		"subtitle": "Specific Rulesets",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"{SOURCE Ultimate Combat/186}",

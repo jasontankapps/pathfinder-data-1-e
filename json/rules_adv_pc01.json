@@ -15,7 +15,6 @@
 	},
 	"charters": {
 		"name": "Charters",
-		"subtitle": "Player Guidance",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"{SOURCE Cohorts and Companions/22}",
@@ -54,7 +53,6 @@
 	},
 	"companions": {
 		"name": "Companions, Cohorts, etc.",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/140}",
@@ -81,7 +79,6 @@
 	},
 	"controlling_companions": {
 		"name": "Controlling Companions",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/140}",
@@ -107,7 +104,7 @@
 	},
 	"aspects_of_control": {
 		"name": "Aspects of Control",
-		"subtitle": "Companions, Player Guidance",
+		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/140}",
@@ -140,7 +137,7 @@
 	},
 	"issues_of_control": {
 		"name": "Issues of Control",
-		"subtitle": "Companions, Player Guidance",
+		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/141}",
@@ -169,7 +166,6 @@
 	},
 	"advancing_companions": {
 		"name": "Advancing Companions",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/142}",
@@ -219,7 +215,7 @@
 	},
 	"intelligent_animals": {
 		"name": "Intelligent Animals",
-		"subtitle": "Companions, Player Guidance",
+		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/143}",
@@ -247,7 +243,6 @@
 	},
 	"remembering_companions": {
 		"name": "Remembering Companions and Followers",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/143}",
@@ -289,7 +284,6 @@
 	},
 	"companion_plot_hooks": {
 		"name": "Companion Plot Hooks",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/144}",
@@ -318,7 +312,7 @@
 	},
 	"animal_companion": {
 		"name": "Animal Companion",
-		"subtitle": "Companions, Player Guidance",
+		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/144}",
@@ -342,7 +336,7 @@
 	},
 	"cohort": {
 		"name": "Cohort",
-		"subtitle": "Companions, Player Guidance",
+		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/145}",
@@ -364,7 +358,7 @@
 	},
 	"eidolon": {
 		"name": "Eidolon",
-		"subtitle": "Companions, Player Guidance",
+		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/145}",
@@ -388,7 +382,7 @@
 	},
 	"familiar": {
 		"name": "Familiar",
-		"subtitle": "Companions, Player Guidance",
+		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/146}",
@@ -412,7 +406,7 @@
 	},
 	"follower": {
 		"name": "Follower",
-		"subtitle": "Companions, Player Guidance",
+		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/146}",
@@ -442,7 +436,6 @@
 	},
 	"reviving_and_replacing_companions": {
 		"name": "Reviving and Replacing Companions",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/147}",
@@ -468,7 +461,6 @@
 	},
 	"reviving_a_dead_companion": {
 		"name": "Reviving a Dead Companion",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/147}",
@@ -491,7 +483,7 @@
 	},
 	"finding_a_replacement": {
 		"name": "Finding a Replacement",
-		"subtitle": "Companions, Player Guidance",
+		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/147}",
@@ -512,7 +504,6 @@
 	},
 	"lineage": {
 		"name": "Family and Lineage",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/166}",
@@ -542,7 +533,6 @@
 	},
 	"developing_your_family": {
 		"name": "Developing Your Family",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/166}",
@@ -575,7 +565,6 @@
 	},
 	"complicated_and_dysfunctional_families": {
 		"name": "Complicated and Dysfunctional Families",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/166}",
@@ -604,7 +593,6 @@
 	},
 	"family_values": {
 		"name": "Family Values",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/167}",
@@ -631,7 +619,6 @@
 	},
 	"including_families_in_the_game": {
 		"name": "Including Families in the Game",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/167}",
@@ -658,7 +645,7 @@
 	},
 	"support_and_obligation": {
 		"name": "Support and Obligation",
-		"subtitle": "Family, Player Guidance",
+		"subtitle": "Family",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/168}",
@@ -689,7 +676,7 @@
 	},
 	"inheritance": {
 		"name": "Inheritance",
-		"subtitle": "Family, Player Guidance",
+		"subtitle": "Family",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/168}",
@@ -720,7 +707,6 @@
 	},
 	"family_members_as_foes": {
 		"name": "Family Members as Foes",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/168}",
@@ -751,7 +737,6 @@
 	},
 	"death_in_the_family": {
 		"name": "Death in the Family",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/169}",
@@ -776,7 +761,7 @@
 	},
 	"famous_lineages": {
 		"name": "Famous Lineages",
-		"subtitle": "Family, Player Guidance",
+		"subtitle": "Family",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/169}",
@@ -805,7 +790,6 @@
 	},
 	"retirement": {
 		"name": "Retirement",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/186}",
@@ -836,7 +820,7 @@
 	},
 	"the_simple_life": {
 		"name": "The Simple Life",
-		"subtitle": "Retirement, Player Guidance",
+		"subtitle": "Retirement",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/186}",
@@ -858,7 +842,7 @@
 	},
 	"relationship_to_the_pcs": {
 		"name": "Relationship to the PCs",
-		"subtitle": "Retirement, Player Guidance",
+		"subtitle": "Retirement",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/186}",
@@ -880,7 +864,7 @@
 	},
 	"taking_a_different_path": {
 		"name": "Taking a Different Path",
-		"subtitle": "Retirement, Player Guidance",
+		"subtitle": "Retirement",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/186}",
@@ -906,7 +890,7 @@
 	},
 	"betrayal": {
 		"name": "Betrayal",
-		"subtitle": "Retirement, Player Guidance",
+		"subtitle": "Retirement",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/187}",
@@ -930,7 +914,6 @@
 	},
 	"retraining": {
 		"name": "Retraining",
-		"subtitle": "Player Guidance",
 		"tags": "changing your character features",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
@@ -974,7 +957,6 @@
 	},
 	"ability_score_increase": {
 		"name": "Retraining Ability Score Increases",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/188}",
@@ -1000,7 +982,6 @@
 	},
 	"archetype": {
 		"name": "Retraining Archetypes",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/189}",
@@ -1036,7 +1017,6 @@
 	},
 	"class_feature": {
 		"name": "Retraining Class Features",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/189}",
@@ -1145,7 +1125,6 @@
 	},
 	"class_level": {
 		"name": "Retraining Class Levels",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/190}",
@@ -1223,7 +1202,6 @@
 	},
 	"feat": {
 		"name": "Retraining Feats",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/191}",
@@ -1251,7 +1229,6 @@
 	},
 	"hit_points_ucp": {
 		"name": "Retraining Hit Points",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/191}",
@@ -1281,7 +1258,6 @@
 	},
 	"new_language": {
 		"name": "Retraining a New Language",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/191}",
@@ -1309,7 +1285,6 @@
 	},
 	"racial_trait": {
 		"name": "Retraining Racial Traits",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/191}",
@@ -1335,7 +1310,6 @@
 	},
 	"skill_ranks": {
 		"name": "Retraining Skill Ranks",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/191}",
@@ -1363,7 +1337,6 @@
 	},
 	"spells_known": {
 		"name": "Retraining Spells Known",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/191}",
@@ -1391,7 +1364,6 @@
 	},
 	"young_characters": {
 		"name": "Young Characters",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/194}",
@@ -1415,7 +1387,6 @@
 	},
 	"creating_young_characters": {
 		"name": "Creating Young Characters",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/194}",
@@ -1457,7 +1428,6 @@
 	},
 	"leaving_youth_behind": {
 		"name": "Leaving Youth Behind",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/194}",
@@ -1482,7 +1452,6 @@
 	},
 	"considerations_of_youth": {
 		"name": "Considerations of Youth",
-		"subtitle": "Player Guidance",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
 			"{SOURCE Ultimate Campaign/195}",
