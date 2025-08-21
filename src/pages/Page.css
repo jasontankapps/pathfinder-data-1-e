@@ -180,8 +180,31 @@ li {
 li + li {
 	margin-block-start: 0.5rem;
 }
-section.footnotes li {
+section[data-footnotes] ol {
+	padding-inline: 40px; /* Matches base style */
+}
+section[data-footnotes] ol li::before {
+	display: inline-block;
+	padding: 0;
+	padding-inline-end: 0.25rem;
+	min-width: 40px; /* Matches base style */
+	box-sizing: border-box;
+	text-align: end;
+	content: counter(index, numeric) '.';
+	counter-increment:index;
+
+}
+section[data-footnotes] ol li:first-child {
+	counter-reset:index;
+}
+section[data-footnotes] ol li {
+	list-style: none;
 	font-size: 0.875rem;
+	margin: 0;
+	text-indent: -40px;
+}
+section[data-footnotes] ol li p {
+	display: contents;
 }
 
 strong.hl {
@@ -770,7 +793,8 @@ section[data-footnotes] li[id] {
 }
 *[data-hash-target] a,
 ion-item-divider[id] a,
-ion-item-divider[id] ion-label {
+ion-item-divider[id] ion-label,
+section[data-footnotes] li[id]::before {
 	transition: color 0.5s ease-in 1.5s;
 }
 a.backToPreviousLink,
@@ -786,6 +810,10 @@ ion-item-divider[id].highlight {
 		background-color 0.25s ease-out 0s,
 		color 0.25s ease-out 0s
 		!important;
+}
+section[data-footnotes] li[id].highlight::before {
+	color: var(--ion-color-success) !important;
+	transition: color 0.25s ease-out 0s !important;
 }
 *.highlight a,
 ion-item-divider[id].highlight a,
