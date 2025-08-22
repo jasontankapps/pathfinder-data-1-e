@@ -270,9 +270,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 
 	const [doAlert] = useIonAlert();
 	const [toast, closeToast] = useIonToast();
-	const toggleAllHeaders = () => {
-		const which = !columnStates[0];
-		setColumnStates(columnStates.map(() => which));
+	const toggleAllHeaders = (bool: boolean) => {
+		setColumnStates(columnStates.map(() => bool));
 		setModified(true);
 	};
 	const toggleAllRows = (bool: boolean) => {
@@ -412,9 +411,8 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 				<IonList lines="full">
 					<IonItem>
 						<IonLabel>Toggle all headers</IonLabel>
-						<IonButton slot="end" color="tertiary" onClick={toggleAllHeaders}>
-							<IonIcon slot="icon-only" icon={repeat} />
-						</IonButton>
+						<IonButton slot="end" color="success" onClick={() => toggleAllHeaders(true)}>On</IonButton>
+						<IonButton slot="end" color="danger" onClick={() => toggleAllHeaders(false)}>Off</IonButton>
 					</IonItem>
 					<IonItemDivider>Table Headers</IonItemDivider>
 					{headers.map((oh, i) => (
