@@ -2487,6 +2487,23 @@
 	},
 	"snake_venomous": { "redirect": "snake_venomous_snake" },
 	"venomous_snake": { "redirect": "snake_venomous_snake" },
+	"snake": {
+		"name": "Snake",
+		"description": [
+			"## Snake)",
+			"",
+			"Snake can refer to any of the following:",
+			"",
+			"- {monster/Snake Swarm}",
+			"- {monster/Venomous Snake Swarm}",
+			"- {monster/Asp}",
+			"- {monster/Constrictor Snake}",
+			"- {monster/Emperor Cobra}",
+			"- {monster/Giant Anaconda}",
+			"- {monster/Venomous Snake}"
+		],
+		"disambiguation": true
+	},
 	"snallygaster": {
 		"name": "Snallygaster",
 		"sources": [

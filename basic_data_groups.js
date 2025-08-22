@@ -3094,14 +3094,14 @@ const basic_data_groups = {
 		num: 46,
 		type: "Unique Monster"
 	},
-	"mythic_monsters1": {
+	"monsters_mythic1": {
 		data: monsterm1,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 47,
 		type: "Mythic Monster"
 	},
-	"mythic_monsters2": {
+	"monsters_mythic2": {
 		data: monsterm2,
 		searchgroup: 11, // monster
 		link: "monster",
@@ -3115,35 +3115,35 @@ const basic_data_groups = {
 		num: 0,
 		type: "Creature Subtype"
 	},
-	"monsters_families1": {
+	"monster_families1": {
 		data: family1,
 		searchgroup: 11, // monster
 		link: "family",
 		num: 1,
 		type: "Monster Family"
 	},
-	"monsters_families2": {
+	"monster_families2": {
 		data: family2,
 		searchgroup: 11, // monster
 		link: "family",
 		num: 2,
 		type: "Monster Family"
 	},
-	"monsters_templates": {
+	"monster_templates": {
 		data: template1,
 		searchgroup: 11, // monster
 		link: "template",
 		num: 1,
 		type: "Creature Template"
 	},
-	"monsters_templates2": {
+	"monster_templates2": {
 		data: template2,
 		searchgroup: 11, // monster
 		link: "template",
 		num: 2,
 		type: "Creature Template"
 	},
-	"monsters_templates3": {
+	"monster_templates3": {
 		data: template3,
 		searchgroup: 11, // monster
 		link: "template",
