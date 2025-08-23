@@ -814,6 +814,7 @@
 					[ "{monster/Piranha Swarm}", 3, "animal", "aquatic, swarm", [ 2, "tiny" ], [ 4, "N" ], "This swarm of silver-scaled fish thrashes feverishly, the dozens of swiftly moving creatures within seeming restless and bloodthirsty." ],
 					[ "{monster/Psychopomp, Algea}", 11, "outsider", "extraplanar, psychopomp, swarm", [ 1, "diminutive" ], [ 4, "N" ], "This shrill swarm of whippoorwills flies in a spiral, their airborne antics infused with streamers of pale blue mist." ],
 					[ "{monster/Rat, Rat Swarm}", 2, "animal", "swarm", [ 2, "tiny" ], [ 4, "N" ], "A squirming, roiling mass of squeaking rats draws closer, teeth flashing and claws scratching everything in its path." ],
+					[ "{monster/Rat, Shadow Rat Swarm}", 4, "undead", "swarm", [ 2, "tiny" ], [ 5, "NE" ], "A squirming and squeaky mass of rats with rotting flesh, torn and matted fur, and reddish blazing eyes moves toward you. Their semi-translucent skin shows discolored bones and muscle."],
 					[ "{monster/Raven Swarm}", 3, "animal", "swarm", [ 2, "tiny" ], [ 4, "N" ], "The pitch-black birds that make up this torrent of claws and feathers glare ominously from hundreds of beady eyes." ],
 					[ "{monster/Robot, Observer Swarm}", 10, "construct", "robot, swarm", [ 2, "tiny" ], [ 4, "N" ], null ],
 					[ "{monster/Rot Grub, Rot Grub Swarm}", 7, "vermin", "swarm", [ 0, "fine" ], [ 4, "N" ], "This nauseating carpet of wriggling white grubs undulates outward in a pallid wave of hunger." ],
