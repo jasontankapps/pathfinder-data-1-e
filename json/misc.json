@@ -520,6 +520,8 @@
 		"description": [
 			"{SOURCE Ultimate Combat/130}",
 			"",
+			"Some weapons have special features in addition to those noted in their descriptions.",
+			"",
 			"@HL[Distracting:] You gain a +2 bonus on Bluff skill checks to {rule/feint} in combat while wielding this weapon."
 		],
 		"searchgroup": "rule",

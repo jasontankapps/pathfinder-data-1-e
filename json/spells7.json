@@ -2664,9 +2664,9 @@
 			"| @ripple[spell/Secret sign] | 10th | 5,000 gp |",
 			"| @ripple[spell/Soul vault] | 11th | 7,500 gp |",
 			"| @ripple[spell/Telepathic bond/ (bonds 2 creatures only)] | 13th | 12,500 gp |",
-			"| @ripple[spell/Toxic blood] | 11 | 7,500 gp |",
-			"| @ripple[spell/Unhallowed blows] | 9th | 2,500 gp |",
-			"| @ripple[spell/Unhallowed blows, greater] | 11th | 7,500 gp |",
+			"| @ripple[spell/Toxic blood] | 11th | 7,500 gp |",
+			"| @ripple[spell/Unhallowed blows] | 9th | 2,500 gp[^U] |",
+			"| @ripple[spell/Unhallowed blows, greater] | 11th | 7,500 gp[^U] |",
 			"",
 			"Additionally, the following spells can be cast upon objects or areas only and rendered permanent.",
 			"",
@@ -2747,7 +2747,8 @@
 			"[^D]: No level was provided for the *create demiplane* spells, but their costs line up with other spells that require 15th (lesser), 16th (normal), and 17th-level (greater) casters; also note that the text of *quintessence mastery* says its *permanency* requirements should copy *create demiplane.*",
 			"[^E]: Permanency is mentioned in the *light* spell's description, but no costs or requirements are provided. If you wish to include this as a possibility, consider using *dancing lights* (or even {spell/continual flame}) as a benchmark.",
 			"[^F]: No level was given for *teleport trap,* and the cost given is multiplied by the number of *teleport traps* that lead to the same destination. Consider using *teleporation circle* as a benchmark.",
-			"[^L]: No level was given for *lost passage* and *lost locale.* The former's cost is roughly consistent with a 12th-level caster, but the latter is more than twice the cost of *yellow sign,* the next-costliest spell."
+			"[^L]: No level was given for *lost passage* and *lost locale.* The former's cost is roughly consistent with a 12th-level caster, but the latter is more than twice the cost of *yellow sign,* the next-costliest spell.",
+			"[^U]: The cost must be paid in diamond dust."
 		]
 	},
 	"permanent_image": {
