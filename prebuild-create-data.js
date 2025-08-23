@@ -267,9 +267,9 @@ const specialContainerBlocks = {
 				$.flags.link = true;
 				marked2 = makeNewMarkedInstance();
 				return `<div className="archetype">`
-					+ `<p><Link to="/arc-${c}/${link}">${removeCurlyBrackets(marked2.parse(title))}</Link></p>`
-					+ `<p><strong>Modifes or Replaces:</strong> ${removeCurlyBrackets(marked2.parse(repl))}</p>`
-					+ `<p>${removeCurlyBrackets(marked2.parse(desc))}</p>`
+					+ `<p><Link to="/arc-${c}/${link}">${removeCurlyBrackets(marked2.parseInline(title), true)}</Link></p>`
+					+ `<p><strong>Modifes or Replaces:</strong> ${removeCurlyBrackets(marked2.parseInline(repl), true)}</p>`
+					+ `<p>${removeCurlyBrackets(marked2.parseInline(desc), true)}</p>`
 					+ `</div>\n`;
 			case "item":
 				$.flags.item = true;
@@ -568,18 +568,30 @@ const postprocess = (tables) => {
 };
 
 // Remove curly brackets
-const removeCurlyBrackets = (input) => {
+const removeCurlyBrackets = (input, inlineText) => {
+	const replacer = (input) => input.replace(/\{/g, "&#123;").replace(/\}/g, "&#125;");
 	return input.split(/\n/).map(line => {
 		let test = line;
 		let m;
 		let final = "";
+		if(inlineText) {
+			if(m = test.match(/^(.+)(<.*)?$/)) {
+				const [, content, next] = m;
+				final = replacer(content);
+				test = next || "";
+			}
+		}
 		while(test && (m = test.match(/(^<.*?(?<!=)>(?![a-z_0-9]+\}))([^<]*)(.*$)/))) {
 			const [, tag, content, etc] = m;
-			final = final + tag + content.replace(/\{/g, "&#123;").replace(/\}/g, "&#125;");
+			final = final + tag + replacer(content);
 			test = etc;
 		}
 		if(test) {
-			logError(`Incomplete tag? <${line}>\n>> ${test}`);
+			if(inlineText) {
+				final = final + replacer(test);
+			} else {
+				logError(`Incomplete tag? <${line}>\n>> ${test}`);
+			}
 		}
 		return final;
 	}).join("\n");
