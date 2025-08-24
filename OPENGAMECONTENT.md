@@ -564,7 +564,9 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 **Pathfinder Campaign Setting: Druma, Profit and Prophecy** &copy; 2019, Paizo Inc.; Authors: John Compton and Thurston Hillman.  
 **Pathfinder Player Companion: Chronicle of Legends** &copy; 2019, Paizo Inc.; Authors: Calder CaDavid, Vanessa Hoskins, Mike Kimmel, Isabelle Lee, Matt Morris, Mikhail Rekun, and Michael Sayre.  
 **Pathfinder Player Companion: Heroes of Golarion** &copy; 2019, Paizo Inc.; Authors: Saif Ansari, Alexander Augunas, Mara Lynn Butler, Michelle Jones, Avi Kool, and Alex Riggs.  
-**Pathfinder Player Companion: Wilderness Origins** &copy; 2019, Paizo Inc.; Authors: Kim Frandsen, Sasha Hall, Violet Hargrave, Andrew Mullen, Jessica Redekop, Mikhail Rekun, Sean K. Reynolds, and Rodney Sloan.
+**Pathfinder Player Companion: Wilderness Origins** &copy; 2019, Paizo Inc.; Authors: Kim Frandsen, Sasha Hall, Violet Hargrave, Andrew Mullen, Jessica Redekop, Mikhail Rekun, Sean K. Reynolds, and Rodney Sloan.  
+**Pathfinder Campaign Setting: Lands of Conflict** &copy; 2017, Paizo Inc.; Authors: Lissa Guillet and Amber E. Scott.  
+**Pathfinder Society Scenario #3-10: The Immortal Conundrum** &copy; 2011, Paizo Publishing, LLC; Author: Larry Wilhelm.
 
 ## Product Identity
 
