@@ -141,7 +141,7 @@ const alternateBlocks = {
 		if(n === "gh") {
 			// General Header
 			return `${maybeClear}<p className="statblockHeader">${text}</p>\n`;
-		} else if(n === "mh") {
+		} else if (n === "mh") {
 			// Monster Header
 			const {cr, mr} = attrs;
 			if(cr || mr) {
@@ -152,6 +152,20 @@ const alternateBlocks = {
 		} else if (n === "sh") {
 			// Subheader
 			return `${maybeClear}<p className="statblockSubHeader">${text}</p>\n`;
+		} else if (n === "th") {
+			// Template Header
+			const {cr, sc, acquired, inherited, simple, summonable, maybesummon} = attrs;
+			const head = `${maybeClear}<p className="statblockHeaderFull">`
+				+ `<span>${text}</span><span>CR ${cr}</span></p>\n`;
+			const marked2 = makeNewMarkedInstance();
+			const sourcing = marked2.parseInline(parseSOURCE(sc, true));
+			const typing = acquired && inherited ? "Both" : acquired ? "Acquired" : "Inherited";
+			const simp = simple ? "Yes" : "No";
+			const summons = summonable ? "Yes" : (maybesummon ? "See Text" : "No");
+			return `${head}<p>${sourcing}<br/>`
+				+`<strong>Acquired/Inherited Template</strong> ${typing}<br/>`
+				+`<strong>Simple Template</strong> ${simp}<br/>`
+				+`<strong>Usable with Summons</strong> ${summons}</p>\n`;
 		} else if (n === "fh") {
 			// Faith Header
 			const {sub} = attrs;
@@ -432,21 +446,23 @@ const renderer = () => {
 const preprocess = () => {
 	return (text) => {
 		let output = [];
-		// Changes {SOURCE Source Title/1;Source Title} using makeSourceLink() above
-		text.split(/\n/).forEach(line => {
-			let m = false;
-			let newline = "";
-			let tester = line;
-			while(m = tester.match(/^(.*)(?:\{|&#123;)SOURCE ([^}]+?)(?:\}|&#125;)(.*)$/)) {
-				const sources = m[2].split(/;/).map(source => makeSourceLink(source));
-				newline = newline + `${m[1]}**Sources** ${sources.join(", ")}`;
-				tester = m[3];
-			}
-			output.push(`${newline}${tester}`);
-		});
+		text.split(/\n/).forEach(line => output.push(parseSOURCE(line)));
 		return output.join("\n");
 	}
 };
+const parseSOURCE = (input, plain = false) => {
+	// Changes {SOURCE Source Title/1;Source Title} using makeSourceLink() above
+	let m = false;
+	let newline = "";
+	let tester = plain ? `{SOURCE ${input}}` : input;
+	while(m = tester.match(/^(.*)(?:\{|&#123;)SOURCE ([^}]+?)(?:\}|&#125;)(.*)$/)) {
+		const sources = m[2].split(/;/).map(source => makeSourceLink(source));
+		newline = newline + `${m[1]}**Sources** ${sources.join(", ")}`;
+		tester = m[3];
+	}
+	return newline + tester;
+};
+
 // Postprocessor object for Marked, updating `$.flags` to note the outside Tags being used
 const postprocess = (tables) => {
 	let counter = 0;

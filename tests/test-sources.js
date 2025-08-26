@@ -5,8 +5,10 @@ const checkForSourceLinks = (desc) => {
 	const found = [];
 	const single = /^.*?(?:\]\(source[/]([a-z_0-9]+)\)|\{source[/]([^\}]+)\})(.*$)/;
 	const multi = /^>*\{SOURCE ([^\}]+)\}(?:  )?$/;
+	// Template headers store source information
+	const th = /^::th\[[^\]]+\]\{[^\}]*\bsc="([^"}]+)"[^}]+\}?$/;
 	desc.forEach(line => {
-		let m = line.match(multi);
+		let m = line.match(multi) || line.match(th);
 		if(m) {
 			const sources = m[1].split(";");
 			while(sources.length) {
