@@ -28,7 +28,7 @@ const getItem = <T extends { not_found: JsonDataProps }>(id: keyof T | undefined
 
 export default getItem;
 
-export const getGuaranteedItem = <T extends unknown>(id: keyof T, json: T): JsonDataProps => {
+export const getGuaranteedItem = <T,>(id: keyof T, json: T): JsonDataProps => {
 	let data = json[id] as MaybeCopyOf<keyof T>;
 	// Errors shouldn't happen, but mistakes occur...
 	let error = !data;

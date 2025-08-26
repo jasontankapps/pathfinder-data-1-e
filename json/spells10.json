@@ -68,12 +68,14 @@
 			"## Suppressing Stone",
 			"",
 			"{SOURCE Inner Sea Races/223}  ",
-			"**School** {spelldef/evocation}; **Level** arcanist 4, sorcerer 4, wizard 4 (Azlanti)  ",
+			"**School** {spelldef/evocation}; **Level** arcanist 4, sorcerer 4, wizard 4  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, F (one ioun stone worth at least 1,000 gp)  ",
 			"**Range** personal  ",
 			"**Target** you  ",
 			"**Duration** 10 minutes/level or until discharged (D)",
+			"",
+			">*The following spell is available to the indicated race or ethnicity: Azlanti*",
 			"",
 			"You infuse arcane power into the focus ioun stone, which must be currently floating around your head. If the ioun stone ever ceases floating around you, the spell ends immediately, and the spell fails if the ioun stone in question is cracked, burned, flawed, or otherwise of lesser value (such as a dull gray ioun stone). While the spell is active, you gain a +1 resistance bonus on saving throws against mind-affecting effects for every 4 caster levels (maximum +5 at caster level 20). Whenever you fail a saving throw against a mind-affecting spell or effect, you can burn out the focus, transforming it irrevocably into a dull gray ioun stone and ending this spell, but suppressing the mind-affecting effect for 1 round per 2,500 gp of value of the focus (minimum 1 round). Rounds during which the effect is suppressed still count against its duration, and the effect can still be dispelled or disrupted during this time."
 		]
@@ -302,13 +304,15 @@
 			"## Sweat Poison",
 			"",
 			"{SOURCE Blood of the Beast/11}  ",
-			"**School** {spelldef/necromancy} [{spelldef/poison}]; **Level** alchemist 2, druid 3, hunter 2, inquisitor 3, investigator 2, ranger 2 (Grippli)  ",
+			"**School** {spelldef/necromancy} [{spelldef/poison}]; **Level** alchemist 2, druid 3, hunter 2, inquisitor 3, investigator 2, ranger 2  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** personal  ",
 			"**Target** you  ",
 			"**Duration** 1 minute/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
+			"",
+			">*Drawing on aspects of their amphibious animal counterparts, the following spell is more common among {race/grippli} spellcasters than among those of other races.*",
 			"",
 			"Glands along your neck, back, or wrists swell and exude a viscous injury poison (*save* Fort DC 14; *frequency* 1/round for 4 rounds; *effect* 1d2 Str; *cure* 1 save). You are not immune to this poison, and unless you have the poison use class feature or a similar ability, you are at risk of poisoning yourself. You can apply this poison to a weapon as a move action, and each dose you apply reduces the remaining duration of this spell by 1 minute. If doing so would reduce the remaining duration to 0 minutes or less, the spell ends, and any applied poisons retain their potency only until the end of your turn. When you apply the poison, you can choose to reduce the spell's remaining duration by 2 or more additional minutes (maximum = your caster level) in order to enhance that dose of poison. For every 2 minutes of duration expended, the poison's save DC increases by 1, the number of rounds it lasts increases by 1/2 (round down), and the number of saves required to cure it increases by 1/4 (round down). If you have the toxic skin alternate racial trait, you can expend one daily use as a free action to enhance this spell's poison's damage to 1d3 Strength and its starting save DC to 15."
 		]
@@ -1093,15 +1097,12 @@
 	},
 	"tactical_formation": {
 		"name": "Tactical Formation",
-		"sources": [
-			"Dwarves of Golarion",
-			"Inner Sea Gods"
-		],
+		"sources": [ "Dwarves of Golarion" ],
 		"description": [
 			"## Tactical Formation",
 			"",
 			"{SOURCE Dwarves of Golarion/23}  ",
-			"**School** {spelldef/abjuration}; **Level** cleric 3, hunter 4, oracle 3, paladin 3, ranger 4, warpriest 3 (Torag)[^G]  ",
+			"**School** {spelldef/abjuration}; **Level** cleric 3, hunter 4, oracle 3, paladin 3, ranger 4, warpriest 3  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -1109,9 +1110,9 @@
 			"**Duration** 10 minutes/level  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
 			"",
-			"This spell increases the effectiveness of a group's formation in battle. When cast, all creatures under the effect of the spell must be adjacent to one another, forming an unbroken chain of squares (which may include creatures sharing the same square). This chain does not need to be a straight line. Each target in the chain receives a +2 deflection bonus to AC as long as the targets stay adjacent to at least one other creature affected by the spell; moving more than 5 feet from another target ends the spell with respect to that creature only. For example, a cleric could cast it on himself and four dwarves blocking a 20-foot-wide corridor; the cleric can move freely from the left side of the formation to the right side (whether in front of or behind the other targets) and not break the spell as long as he stays within 5 feet of at least one of them.",
+			">*In order to prepare this spell, the caster must spend an hour performing a ritual in which he beseeches {faith/Torag} (or a member of his family) for the aid of Torag. For 24 hours after the ritual, the caster may prepare spells of the requested deity. The caster may only attune himself to one additional deity at a time.*",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"This spell increases the effectiveness of a group's formation in battle. When cast, all creatures under the effect of the spell must be adjacent to one another, forming an unbroken chain of squares (which may include creatures sharing the same square). This chain does not need to be a straight line. Each target in the chain receives a +2 deflection bonus to AC as long as the targets stay adjacent to at least one other creature affected by the spell; moving more than 5 feet from another target ends the spell with respect to that creature only. For example, a cleric could cast it on himself and four dwarves blocking a 20-foot-wide corridor; the cleric can move freely from the left side of the formation to the right side (whether in front of or behind the other targets) and not break the spell as long as he stays within 5 feet of at least one of them."
 		]
 	},
 	"tactical_insight": {
@@ -2115,13 +2116,15 @@
 			"## Theft Ward",
 			"",
 			"{SOURCE Advanced Race Guide/167}  ",
-			"**School** {spelldef/abjuration}; **Level** arcanist 1, cleric 1, inquisitor 1, mesmerist 1, oracle 1, sorcerer 1, warpriest 1, witch 1, wizard 1 (tengu)  ",
+			"**School** {spelldef/abjuration}; **Level** arcanist 1, cleric 1, inquisitor 1, mesmerist 1, oracle 1, sorcerer 1, warpriest 1, witch 1, wizard 1  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** touch  ",
 			"**Target** one object  ",
 			"**Duration** 1 day  ",
 			"**Saving Throw** Will negates (harmless, object); **Spell Resistance** yes (harmless, object)",
+			"",
+			">*{race/Tengu/s} have access to the following spell.*",
 			"",
 			"You ward a single object in your possession against theft. You gain a +10 bonus on Perception checks to notice someone trying to take the object from you.",
 			"",
@@ -2747,13 +2750,15 @@
 			"## Toilsome Chant",
 			"",
 			"{SOURCE Advanced Race Guide/19}  ",
-			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** bard 1, skald 1 (dwarf)  ",
+			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** bard 1, skald 1  ",
 			"**Casting Time** see text  ",
 			"**Components** V, S  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
 			"**Target** one living creature  ",
 			"**Duration** see text  ",
 			"**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)",
+			"",
+			">*{race/Dwar/ven>f} spellcasters are renowned for shaping the ground beneath them, molding metal, and using magic to aid their craft. This spell one of several samples of such magics.*",
 			"",
 			"You can cast this spell as part of the action to begin an inspire competence bardic performance. The benefit of inspire competence persists for as long as is necessary to complete the target's next skill check using the chosen skill (up to a maximum of 1 hour per caster level), even if you cease your bardic performance."
 		]
@@ -2940,13 +2945,15 @@
 			"## Touch of Combustion",
 			"",
 			"{SOURCE Advanced Race Guide/131}  ",
-			"**School** {spelldef/evocation} [{spelldef/fire}]; **Level** arcanist 1, bloodrager 1, druid 1, hunter 1, inquisitor 1, magus 1, psychic 1, sorcerer 1, witch 1, wizard 1 (ifrit)  ",
+			"**School** {spelldef/evocation} [{spelldef/fire}]; **Level** arcanist 1, bloodrager 1, druid 1, hunter 1, inquisitor 1, magus 1, psychic 1, sorcerer 1, witch 1, wizard 1  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** touch  ",
 			"**Target** creature or object touched  ",
 			"**Duration** instantaneous  ",
 			"**Saving Throw** Reflex negates, see text; **Spell Resistance** yes",
+			"",
+			">*{race/Ifrit/s} have access to the following spell.*",
 			"",
 			"Your successful melee touch attack causes the target to ignite in a violent burst of flame, dealing 1d6 points of fire damage. If it fails its saving throw, the target also catches on fire. If the target catches fire, on the first round thereafter, creatures adjacent to it (including you) must each succeed at a Reflex save or take 1d4 points of fire damage."
 		]
@@ -4071,12 +4078,14 @@
 			"## Truespeak",
 			"",
 			"{SOURCE Advanced Race Guide/89}  ",
-			"**School** {spelldef/divination}; **Level** arcanist 5, bard 4, cleric 6, mesmerist 4, oracle 6, psychic 5, skald 4, sorcerer 5, warpriest 6, witch 5, wizard 5 (aasimar)  ",
+			"**School** {spelldef/divination}; **Level** arcanist 5, bard 4, cleric 6, mesmerist 4, oracle 6, psychic 5, skald 4, sorcerer 5, warpriest 6, witch 5, wizard 5  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V  ",
 			"**Range** personal  ",
 			"**Target** you  ",
 			"**Duration** 1 minute/level",
+			"",
+			">*{race/Aasimar/s} have access to the following spell.*",
 			"",
 			"You can communicate with any creature that is not mindless. As long as you can be heard, your speech is understandable to all creatures, each of which hears you as though you were conversing in its language or other natural mode of communication, and you hear their responses as though in your own native language. You may ask questions and receive answers, though this spell does not make creatures more friendly or cooperative than normal, and non-sentient creatures may give limited responses. While using truespeak, your language-dependent effects can affect any creature that is not mindless."
 		]
