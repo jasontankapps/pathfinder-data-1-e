@@ -2130,6 +2130,16 @@
 	"host_devil_lesser": { "redirect": "devil_host_devil_lesser_gaav" },
 	"devil_host_lesser": { "redirect": "devil_host_devil_lesser_gaav" },
 	"lesser_host_devil": { "redirect": "devil_host_devil_lesser_gaav" },
+	"host_devil": {
+		"name": "Host Devil",
+		"description": [
+			"There are two types of host devils:",
+			"",
+			"- {monster/Host Devil, Lesser (Gaav)}",
+			"- {monster/Host Devil, Greater (Magaav)}"
+		],
+		"disambiguation": true
+	},
 	"devil_ice_devil_gelugon": {
 		"name": "Ice Devil (Gelugon)",
 		"sources": [ "Pathfinder RPG Bestiary" ],

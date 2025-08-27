@@ -155,7 +155,7 @@ const alternateBlocks = {
 		} else if (n === "th") {
 			// Template Header
 			const {cr, sc, acquired, inherited, simple, summonable, maybesummon} = attrs;
-			const head = `${maybeClear}<p className="statblockHeaderFull">`
+			const head = `<div style={{clear:"both"}}></div><p className="statblockHeaderFull">`
 				+ `<span>${text}</span><span>CR ${cr}</span></p>\n`;
 			const marked2 = makeNewMarkedInstance();
 			const sourcing = marked2.parseInline(parseSOURCE(sc, true));
