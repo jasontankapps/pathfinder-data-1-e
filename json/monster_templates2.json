@@ -118,7 +118,7 @@
 		"name": "Mongrel Giant",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"::th[Mongrel Giant]{cr=+1 sc=\"Bestiary 6\" inherited}",
+			"::th[Mongrel Giant]{cr=+1 sc=\"Bestiary 6/192\" inherited}",
 			"",
 			"While most giants have the physical features of the type of giant of their immediate ancestors, occasionally a giant gives birth to a child who has physical traits associated with one of the other types of giants. Hill giants are the one type of giant whose traits don't arise in other giants.",
 			"",
@@ -189,7 +189,7 @@
 		"name": "Monk",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Monk]{cr=\"+2 or +3\" sc=\"Monster Codex\" acquired simple}",
+			"::th[Monk]{cr=\"+2 or +3\" sc=\"Monster Codex/247\" acquired simple}",
 			"",
 			"A monk creature gains extra attacks with unarmed strikes or natural attacks, an increase in damage with those attacks, and defensive abilities. A monk creature's CR increases by 3 if the creature has 10 or more HD. A monk creature must be lawful.",
 			"",
@@ -234,7 +234,7 @@
 			"Pathfinder #81: Shifting Sands"
 		],
 		"description": [
-			"::th[Mummified Creature]{cr=\"+1 or +2\" sc=\"Bestiary 4\" acquired}",
+			"::th[Mummified Creature]{cr=\"+1 or +2\" sc=\"Bestiary 4/197\" acquired}",
 			"",
 			"Many ancient cultures mummify their dead, preserving the bodies of the deceased through lengthy and complex funerary and embalming processes. While the vast majority of these corpses are mummified simply to preserve the bodies in the tombs where they are interred, some are mummified with the help of magic to live on after death as mummified creatures. A mummified creature appears much as other mummies do - a dusty corpse, desiccated and withered, swathed in a funeral shroud of linen wrappings adorned with hieroglyphs - but a spark of malign intelligence gleams in its unliving eyes.",
 			"",
@@ -345,7 +345,7 @@
 		"name": "Mummy Lord",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::th[Mummy Lord]{cr=+2 sc=\"Bestiary 5\" acquired}",
+			"::th[Mummy Lord]{cr=+2 sc=\"Bestiary 5/176\" acquired}",
 			"",
 			"Many cultures practice the sacred art of mummification, though the sinister magical techniques used to imbue corpses with undead vitality are far less widespread. In certain ancient lands, such blasphemous techniques have been refined through centuries of ceremony and countless deaths, giving rise to mummies of terrible power. On rare occasions, if the deceased was of great rank and exceeding malevolence, he might undergo such elaborate rituals, rising from his tomb as a fearful {monster/mummy lord}. Similarly, a ruler known for his malice or who died in a moment of great rage might spontaneously arise as such a vengeful despot. Regardless of the exact circumstances of his resurrection, a mummy lord retains the abilities he had in life, becoming a creature consumed by the desire to restore his rule and dominate both the living and dead.",
 			"",
@@ -394,7 +394,7 @@
 		"name": "Mutant",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::th[Mutant]{cr=+1 sc=\"Bestiary 5\" acquired}",
+			"::th[Mutant]{cr=+1 sc=\"Bestiary 5/180\" acquired}",
 			"",
 			"When long-term exposure to radiation or bizarre magical fields doesn't result in a creature's death, it might mutate the creature into a twisted version of itself. Some of these mutations can be advantageous, while others are unquestionably a hindrance. Mutants often band together into roving bands of loosely affiliated marauders, traveling the land in search of food, shelter, or whatever else motivates their fractured minds.",
 			"",
@@ -485,7 +485,7 @@
 		"name": "Mutant Goblin",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Mutant Goblin]{cr=+1 sc=\"Monster Codex\" acquired}",
+			"::th[Mutant Goblin]{cr=+1 sc=\"Monster Codex/112\" acquired}",
 			"",
 			"No description provided.",
 			"",
@@ -608,7 +608,7 @@
 		"name": "Nightmare Creature",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::th[Nightmare Creature]{cr=+1 sc=\"Bestiary 4\" acquired inherited}",
+			"::th[Nightmare Creature]{cr=+1 sc=\"Bestiary 4/204\" acquired inherited}",
 			"",
 			"Nightmare creatures have an unnatural link to the most terrifying parts of the Dimension of Dreams, allowing them to turn others' dreams into nightmares and sow fear even in the waking world. Corrupted by their power, they become evil and use their abilities to torment their enemies and abuse creatures weaker than themselves. Eventually this dream connection corrupts the creature's appearance into a bizarre caricature of its original form.",
 			"",
@@ -667,7 +667,7 @@
 		"name": "Nosferatu",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::th[Nosferatu]{cr=+2 sc=\"Bestiary 4\" acquired}",
+			"::th[Nosferatu]{cr=+2 sc=\"Bestiary 4/267\" acquired}",
 			"",
 			"Nosferatu are savage undead who may be the progenitors of the common, more refined vampires. The curse of the nosferatu lacks the elegance and romance of its modern form, harkening to a forgotten age of verminous hunger and eerie powers. Granted immortal life but not immortal youth, nosferatu are withered, embittered creatures unable to create others of their kind, as they somehow lost that ability long ago.",
 			"",
@@ -841,7 +841,7 @@
 		"name": "Paladin",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Paladin]{cr=\"+2 or +3\" sc=\"Monster Codex\" acquired simple}",
+			"::th[Paladin]{cr=\"+2 or +3\" sc=\"Monster Codex/248\" acquired simple}",
 			"",
 			"Paladin creatures can battle evil using smite evil and heal using lay on hands, and they possesses some defensive abilities as well. A paladin creature's CR increases by 3 if the creature has 10 or more HD. A paladin creature must be lawful good.",
 			"",
@@ -881,7 +881,7 @@
 		"name": "Penanggalen",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::th[Penanggalen]{cr=+1 sc=\"Bestiary 3\" acquired}",
+			"::th[Penanggalen]{cr=+1 sc=\"Bestiary 3/216\" acquired}",
 			"",
 			"The hideous penanggalen is one of the most horrific vampiric monstrosities. By day, a penanggalen appears to be a normal humanoid, but at night or when provoked, the creature's head rips free from the rest of her body, coils of viscera and entrails dangling from her throat as she launches into the air, seeking blood to sate her unholy thirst.",
 			"",
@@ -938,7 +938,7 @@
 		"name": "Petitioner",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::th[Petitioner]{cr=1 sc=\"Bestiary 2\" acquired}",
+			"::th[Petitioner]{cr=1 sc=\"Bestiary 2/208\" acquired}",
 			"",
 			"Petitioners are the souls of mortals brought to the Outer Planes after death in order to experience their ultimate punishment, reward, or fate. A petitioner retains fragments of its memories from life, and its appearance depends not only upon the shape it held in life but also upon the nature of the Outer Plane to which it has come. The stat block detailed above presents a typical petitioner formed from the soul of an average human - it does not include any of the plane-specific abilities or features a petitioner gains, and should be modified as appropriate depending on the plane to which the petitioner is assigned.",
 			"",
@@ -1001,7 +1001,7 @@
 		"name": "Pickin Ogre",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Pickin Ogre]{cr=+0 sc=\"Monster Codex\" inherited simple}",
+			"::th[Pickin Ogre]{cr=+0 sc=\"Monster Codex/152\" inherited simple}",
 			"",
 			"Ogres with the thicken template have huge, oversized heads and razor-sharp teeth.",
 			"",
@@ -1014,7 +1014,7 @@
 		"name": "Plagued Beast",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::th[Plagued Beast]{cr=+1 sc=\"Bestiary 5\" acquired}",
+			"::th[Plagued Beast]{cr=+1 sc=\"Bestiary 5/194\" acquired}",
 			"",
 			"When animals are stricken with demon plague, they may arise as undead and further spread the disease. Some demons and cultists are fond of using plagued horses as mounts.",
 			"",
@@ -1045,7 +1045,7 @@
 		"name": "Pod-Spawned",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::th[Pod-Spawned]{cr=\"+0, -1, or -2\" sc=\"Bestiary 4\" acquired}",
+			"::th[Pod-Spawned]{cr=\"+0, -1, or -2\" sc=\"Bestiary 4/20\" acquired}",
 			"",
 			"A creature with the pod-spawned template is a duplicate created by the bodythief. It resembles the original and has all its memories, but can't exhibit sincere emotion.",
 			"",
@@ -1078,7 +1078,7 @@
 		"name": "Possessed Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Possessed Creature]{cr=+1 sc=\"Horror Adventures\" acquired simple}",
+			"::th[Possessed Creature]{cr=+1 sc=\"Horror Adventures/250\" acquired simple}",
 			"",
 			"While there are rules in *Pathfinder RPG Occult Adventures* for when a creature is possessed and totally controlled by a specific spell, sometimes a creature is possessed by a vague entity (hereafter called a spirit) that acts as a second personality within the creature's mind, sharing control and providing the creature some symbiotic benefits.",
 			"",
@@ -1091,7 +1091,7 @@
 		"name": "Prana Ghost",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
-			"::th[Prana Ghost]{cr=+1 sc=\"Occult Bestiary\" acquired}",
+			"::th[Prana Ghost]{cr=+1 sc=\"Occult Bestiary/41\" acquired}",
 			"",
 			"The typical ghost is a nightmarish creature of dark emotion, with an undying thirst for justice or vengeance. These ghosts are often warped by deep emotional turmoil, madness, or contact with the dark radiations of the Negative Energy Plane - sometimes all three. But such twisted, tormented creatures are not the only spirits that cling to traces of their former lives on the Material Plane. There is another kind of ghost, just as dedicated, but more rational and often more subtle.",
 			"",
@@ -1146,7 +1146,7 @@
 		"name": "Primordial",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"::th[Primordial]{cr=\"+0 or +1\" sc=\"Monster Summoner's Handbook\" acquired simple maybesummon}",
+			"::th[Primordial]{cr=\"+0 or +1\" sc=\"Monster Summoner's Handbook/19\" acquired simple maybesummon}",
 			"",
 			"Applying this template to a summoned creature requires the feat {feat/Versatile Summon Monster} or {feat/Versatile Summon Nature's Ally}",
 			"",
@@ -1165,7 +1165,7 @@
 		"name": "Promethean Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Promethean Creature]{cr=+1 sc=\"Horror Adventures\" acquired simple}",
+			"::th[Promethean Creature]{cr=+1 sc=\"Horror Adventures/250\" acquired simple}",
 			"",
 			"A promethean creature has had some of its body replaced by golem parts.",
 			"",
@@ -1189,7 +1189,7 @@
 		"name": "Psychic Lich",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
-			"::th[Psychic Lich]{cr=+2 sc=\"Occult Bestiary\" acquired}",
+			"::th[Psychic Lich]{cr=+2 sc=\"Occult Bestiary/32\" acquired}",
 			"",
 			"While some liches prefer to spend undeath's eternity in seclusion, a psychic lich sustains its life force by embracing its personal accomplishments to create a powerful astral echo of itself. Even more megalomaniacal than most liches, psychic liches resemble ordinary liches for the most part, but their every moment is attended by ghostly images of past cruelties, a constantly rotating illusory display of the evil deeds that brought them their power. Most psychic liches are humans, or come from other races renowned for their psychic abilities.",
 			"",
@@ -1244,7 +1244,7 @@
 		"name": "Psychic Vampire",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
-			"::th[Psychic Vampire]{cr=+2 sc=\"Occult Bestiary\" acquired}",
+			"::th[Psychic Vampire]{cr=+2 sc=\"Occult Bestiary/58\" acquired}",
 			"",
 			"Much like their more bestial cousins, psychic vampires are undead abominations driven by a terrible hunger. However, unlike vampires and nosferatu, who feed on blood, psychic vampires hunger for the occult energy that fuels the spells of psychic spellcasters. Some scholars confuse psychic vampires with the rare vetala breed of vampires or call them \"vetalaranas,\" as they steal a more refined form of spiritual energy. For their part, psychic vampires consider vetalas a dying bloodline, and as their own influence increases, they strike against their corpse-possessing kin with impunity.",
 			"",
@@ -1308,7 +1308,7 @@
 		"name": "Psychoplasmic",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
-			"::th[Psychoplasmic]{cr=+1 sc=\"Occult Bestiary\" acquired}",
+			"::th[Psychoplasmic]{cr=+1 sc=\"Occult Bestiary/47\" acquired}",
 			"",
 			"While nearly all spirits experience the Astral Plane at some point in their cosmic journeys, it is still one of the least understood planes in the multiverse. Some say it is merely a dream of the gods, while others contend it is the realm of thought itself. Though it is a seemingly endless realm of celestial desert, creatures still roam and hunt on its infinite expanse.",
 			"",
@@ -1407,7 +1407,7 @@
 		"name": "Ranger",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Ranger]{cr=\"+1 or +2\" sc=\"Monster Codex\" acquired simple}",
+			"::th[Ranger]{cr=\"+1 or +2\" sc=\"Monster Codex/248\" acquired simple}",
 			"",
 			"A ranger creature gains a {ability/favored enemy}. It also gains a basic combat style, tracking, and some defensive abilities. A ranger creature's CR increases by 2 if the creature has 10 or more HD.",
 			"",
@@ -1423,7 +1423,7 @@
 			"Undead Revisited"
 		],
 		"description": [
-			"::th[Ravener]{cr=+2 sc=\"Bestiary 2\" acquired}",
+			"::th[Ravener]{cr=+2 sc=\"Bestiary 2/230\" acquired}",
 			"",
 			"Most evil dragons spend their lifetimes coveting and amassing wealth, but when the end draws near, some come to realize that all the wealth in the world cannot forestall death. Faced with this truth, most dragons vent their frustration on the countryside, ravaging the world before their passing. Yet some seek a greater solution to the problem and decide instead to linger on, hoarding life as they once hoarded gold. These foul wyrms attract the attention of dark powers, and through the blackest of necromantic rituals are transformed into undead dragons known as raveners.",
 			"",
@@ -1485,7 +1485,7 @@
 		"name": "Recycled Construct",
 		"sources": [ "Construct Handbook" ],
 		"description": [
-			"::th[Recycled Construct]{cr=-1 sc=\"Construct Handbook\" acquired}",
+			"::th[Recycled Construct]{cr=-1 sc=\"Construct Handbook/52\" acquired}",
 			"",
 			"A skilled artificer can revitalize a ruined construct by jury-rigging the pieces left intact. The patchwork nature of a recycled construct renders it fragile and leaves key circuitry exposed. reducing its bonus hit points by 5.",
 			"",
@@ -1538,7 +1538,7 @@
 		"name": "Resolute",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::th[Resolute]{cr=\"+0 or +1\" sc=\"Bestiary 2\" acquired simple summonable}",
+			"::th[Resolute]{cr=\"+0 or +1\" sc=\"Bestiary 2/293\" acquired simple summonable}",
 			"",
 			"Creatures with the resolute template live in planes where law is paramount. They can be summoned using spells such as {spell/summon monster} and {spell/planar ally}. A resolute creature's CR increases by +1 only if the base creature has 5 or more HD. A resolute creature's quick and rebuild rules are the same.",
 			"",
@@ -1557,7 +1557,7 @@
 		"name": "Rogue",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Rogue]{cr=\"+1 or +2\" sc=\"Monster Codex\" acquired simple}",
+			"::th[Rogue]{cr=\"+1 or +2\" sc=\"Monster Codex/248\" acquired simple}",
 			"",
 			"A rogue creature gains sneak attack. It also gains defensive abilities and rogue talents if it has 10 or more Hit Dice. A rogue creature's CR increases by 2 if the creature has 10 or more HD.",
 			"",
@@ -1570,7 +1570,7 @@
 		"name": "Runeplated Construct",
 		"sources": [ "Construct Handbook" ],
 		"description": [
-			"::th[Runeplated Construct]{cr=+1 sc=\"Construct Handbook\" acquired inherited}",
+			"::th[Runeplated Construct]{cr=+1 sc=\"Construct Handbook/58\" acquired inherited}",
 			"",
 			"Wizards in ancient Thassilon each specialized in one of seven schools of magic, a practice that carried over to their production of magical constructs.",
 			"",
@@ -1806,7 +1806,7 @@
 		"name": "Seeded",
 		"sources": [ "Pathfinder #113: What Grows Within" ],
 		"description": [
-			"::th[Seeded]{cr=+1 sc=\"Pathfinder #113: What Grows Within\" inherited}",
+			"::th[Seeded]{cr=+1 sc=\"Pathfinder #113: What Grows Within/90\" inherited}",
 			"",
 			"Though the Great Old One {faith/Xhamen-Dor} lies half-dormant where its bloated body crashed millennia ago, virtually nothing can prevent it from seeking new hosts to infect. The most common means by which one might contract this infestation is through nightmares that brush against Xhamen-Dor's influence in the Dimension of Dreams, after which the Inmost Blot can track victims and infest their thoughts, slowly and painfully driving them mad. Less common is direct exposure to one of the Great Old One's vine-choked thralls: the seeded.",
 			"",
@@ -1963,7 +1963,7 @@
 		"name": "Shadow Lord",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::th[Shadow Lord]{cr=+2 sc=\"Bestiary 4\" acquired}",
+			"::th[Shadow Lord]{cr=+2 sc=\"Bestiary 4/238\" acquired}",
 			"",
 			"\"Shadow lord\" is an acquired template that can be added to any {template/shadow} creature with 5 or more Hit Dice (referred to hereafter as the base creature). Most shadow lords were originally humanoids. A shadow lord retains all the base creature's statistics and abilities (including those granted by the shadow creature template) except as noted here.",
 			"",
@@ -2010,7 +2010,7 @@
 		"name": "Shadowbound Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Shadowbound Creature]{cr=+1 sc=\"Horror Adventures\" acquired simple}",
+			"::th[Shadowbound Creature]{cr=+1 sc=\"Horror Adventures/250\" acquired simple}",
 			"",
 			"A shadowbound creature has lost its color and capacity for joy and pleasure.",
 			"",
@@ -2052,7 +2052,7 @@
 		"name": "Shaggra Ogre",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Shaggra Ogre]{cr=+1 sc=\"Monster Codex\" inherited simple}",
+			"::th[Shaggra Ogre]{cr=+1 sc=\"Monster Codex/152\" inherited simple}",
 			"",
 			"Ogres with the shaggra template are covered in long, matted fur, and have stunted legs and massive oversized arms, similar to apes. They move on all fours and smash enemies with their giant fists.",
 			"",
@@ -2065,7 +2065,7 @@
 		"name": "Siabrae",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"::th[Siabrae]{cr=+2 sc=\"Bestiary 6\" acquired}",
+			"::th[Siabrae]{cr=+2 sc=\"Bestiary 6/251\" acquired}",
 			"",
 			"When druids are faced with threats to the natural world, they are steadfast and, at times, relentless in their defense of the land. Even in the face of overwhelming odds - an incursion of demons from the Abyss, a creeping plague of necromantic corruption, an unstoppable blight of magical radiation, or a similar supernatural threat to the natural world - some sects of druids refuse to give up or abandon their duties. In these tragic cases, the desperate druids adopt the blasphemous tactic of accepting the corruption into themselves and becoming powerful undead guardians. They fight on not only against the original source of the corruption, but against all living creatures, for these druids become siabraes, and are filled with bitterness and hatred for all others - particularly other druids, whom they regard as cowards. Siabraes do not form spontaneously; they arise only as the result of the horrific {spell/Welcome the Blighted Soul} ritual.",
 			"",
@@ -2151,7 +2151,7 @@
 			"Classic Horrors Revisited"
 		],
 		"description": [
-			"::th[Skeletal Champion]{cr=+1 sc=\"Pathfinder RPG Bestiary\" acquired}",
+			"::th[Skeletal Champion]{cr=+1 sc=\"Pathfinder RPG Bestiary/252\" acquired}",
 			"",
 			"Some {template/skeleton/s} retain their intelligence and cunning, making them formidable warriors. These undead are far more powerful than their mindless kin, and many gain class levels.",
 			"",
@@ -2217,7 +2217,7 @@
 			"Classic Horrors Revisited"
 		],
 		"description": [
-			"::th[Skeleton]{cr=Varies sc=\"Pathfinder RPG Bestiary\" acquired}",
+			"::th[Skeleton]{cr=Varies sc=\"Pathfinder RPG Bestiary/250\" acquired}",
 			"",
 			"Skeletons are the animated bones of the dead, brought to unlife through foul magic. While most skeletons are mindless automatons, they still possess an evil cunning imparted to them by their animating force - a cunning that allows them to wield weapons and wear armor.",
 			"",
@@ -2347,7 +2347,7 @@
 		"name": "Sorcerer",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Sorcerer]{cr=\"+1, +2 or +3\" sc=\"Monster Codex\" acquired simple}",
+			"::th[Sorcerer]{cr=\"+1, +2 or +3\" sc=\"Monster Codex/248\" acquired simple}",
 			"",
 			"Sorcerer creatures can use a variety of powerful spells and abilities to devastate their foes. Select a sorcerer creature's bloodline when the template is added. A sorcerer creature's CR increases by 2 if the creature has 8 or more HD, and it increases by 3 if the creature has 14 or more HD.",
 			"",
@@ -2374,7 +2374,7 @@
 		"name": "Soulbound Construct",
 		"sources": [ "Construct Handbook" ],
 		"description": [
-			"::th[Soulbound Construct]{cr=\"+1 or +2\" sc=\"Construct Handbook\" acquired}",
+			"::th[Soulbound Construct]{cr=\"+1 or +2\" sc=\"Construct Handbook/60\" acquired}",
 			"",
 			"A soulbound construct is a once-living creature that has had its soul bound to a construct host that serves as its new body.",
 			"",
@@ -2437,7 +2437,7 @@
 		"name": "Spore Zombie",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"::th[Spore Zombie]{cr=+1 sc=\"Bestiary 6\" acquired}",
+			"::th[Spore Zombie]{cr=+1 sc=\"Bestiary 6/287\" acquired}",
 			"",
 			"There are certain evil fungal creatures (such as {monster/fungus queen/s}, but also rare fungal growths or extraplanar blights upon the wild) that can infest vermin with spores that have been infused with sinister power and negative energy. These foul spores grow quickly in the body of a dead vermin, eventually bursting from its head to form disturbing, antler-like growths. At the same time, the spores animate the vermin as an intelligent undead creature.",
 			"",
@@ -2478,7 +2478,7 @@
 		"name": "Steam-Powered Construct",
 		"sources": [ "Construct Handbook" ],
 		"description": [
-			"::th[Steam-Powered Construct]{cr=+2 sc=\"Construct Handbook\" inherited}",
+			"::th[Steam-Powered Construct]{cr=+2 sc=\"Construct Handbook/62\" inherited}",
 			"",
 			"Though some scholars may argue about who exactly created the first steam-powered clockwork, the secret of their manufacture is now out. Savvy engineers have started to create faster and more powerful clockwork contraptions in the form of marvels blending arcane heat sources with large boilers to create pressured steam that powers the complex constructs.",
 			"",

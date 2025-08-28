@@ -3,7 +3,7 @@
 		"name": "Half-Celestial",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::th[Half-Celestial]{cr=\"+1 to +3\" sc=\"Pathfinder RPG Bestiary\" acquired inherited summonable}",
+			"::th[Half-Celestial]{cr=\"+1 to +3\" sc=\"Pathfinder RPG Bestiary/169\" acquired inherited summonable}",
 			"",
 			"\"Half-celestial\" is an inherited or acquired template that can be added to any living, corporeal creature with an Intelligence score of 4 or more. A half-celestial creature retains the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -47,7 +47,7 @@
 		"name": "Half-Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::th[Half-Dragon]{cr=+2 sc=\"Pathfinder RPG Bestiary\" acquired inherited summonable}",
+			"::th[Half-Dragon]{cr=+2 sc=\"Pathfinder RPG Bestiary/170\" acquired inherited summonable}",
 			"",
 			"\"Half-dragon\" is an inherited or acquired template that can be added to any living, corporeal creature (referred to hereafter as the base creature). A half-dragon retains all the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -86,7 +86,7 @@
 			"Demons Revisited"
 		],
 		"description": [
-			"::th[Half-Fiend]{cr=\"+1 to +3\" sc=\"Pathfinder RPG Bestiary\" acquired inherited summonable}",
+			"::th[Half-Fiend]{cr=\"+1 to +3\" sc=\"Pathfinder RPG Bestiary/171\" acquired inherited summonable}",
 			"",
 			"\"Half-fiend\" is an inherited or acquired template that can be added to a living, corporeal creature with an Int score of 4 or more. A half-fiend uses all the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -332,7 +332,7 @@
 		"name": "Haunted Construct",
 		"sources": [ "Construct Handbook" ],
 		"description": [
-			"::th[Haunted Construct]{cr=+1 sc=\"Construct Handbook\" acquired}",
+			"::th[Haunted Construct]{cr=+1 sc=\"Construct Handbook/48\" acquired}",
 			"",
 			"On the border between Xa Hoi and Nagajor, near the caldera of Mount Kumijinja, a cave system leads deep into the Darklands. The locals call it the Clicking Caverns, for scouts report seeing strange clockwork warriors creeping out of the caves at night in search of living creatures. Deep beneath those caves is the clockwork necropolis of Pan Majang, a constantly transforming edifice that houses the sadistic, flesh-eating spirits of a forgotten race. These spirits now possess and haunt the constructs they once used as slaves.",
 			"",
@@ -377,7 +377,7 @@
 		"name": "Haunted One",
 		"sources": [ "Rival Guide" ],
 		"description": [
-			"::th[Haunted One]{cr=+1 sc=\"Rival Guide\" acquired}",
+			"::th[Haunted One]{cr=+1 sc=\"Rival Guide/29\" acquired}",
 			"",
 			"Haunted ones are mortals who share their bodies with strange intelligences of supernatural origin. While technically undead, these disembodied intellects exist only as thought - they cannot directly interact with the world until they find a host willing to share both body and mind.",
 			"",
@@ -422,7 +422,7 @@
 		"name": "Hell Engine",
 		"sources": [ "Construct Handbook" ],
 		"description": [
-			"::th[Hell Engine]{cr=+1 sc=\"Construct Handbook\" acquired}",
+			"::th[Hell Engine]{cr=+1 sc=\"Construct Handbook/51\" acquired}",
 			"",
 			"A hell engine is a construct fueled by an infernal contract, bypassing the complex magic and craftsmanship needed to animate a golem or similar engine of destruction. Artificers who lack the skill or magical aptitude to {feat/Craft Construct}s on their own may be tempted to use the power of Hell to make up for their shortcomings, surrendering their souls for the chance to see their masterpieces brought to horrifying life.",
 			"",
@@ -476,7 +476,7 @@
 		"name": "Hellbound Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Hellbound Creature]{cr=+1 sc=\"Horror Adventures\" acquired simple}",
+			"::th[Hellbound Creature]{cr=+1 sc=\"Horror Adventures/248\" acquired simple}",
 			"",
 			"Hellbound creatures have consigned their souls to Hell in exchange for infernal power. A hellbound creature's Hit Dice determine what type of devil it can summon with its summon spell-like ability and the summon ability's spell level. It can instead choose to summon 1d3 devils of the next weaker category, or 1d4+1 devils of two categories weaker.",
 			"",
@@ -500,7 +500,7 @@
 		"name": "Hive Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Hive Creature]{cr=+1 sc=\"Horror Adventures\" acquired simple}",
+			"::th[Hive Creature]{cr=+1 sc=\"Horror Adventures/249\" acquired simple}",
 			"",
 			"While a creature infested by a hive corruption usually becomes a warrior, mutations can create hive creatures that retain the capabilities of the original creatures.",
 			"",
@@ -513,7 +513,7 @@
 		"name": "Hivemind Swarm",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"::th[Hivemind Swarm]{cr=Varies sc=\"Bestiary 6\" acquired}",
+			"::th[Hivemind Swarm]{cr=Varies sc=\"Bestiary 6/156\" acquired}",
 			"",
 			"A hivemind consists of a swarm of smaller creatures whose individual minds have supernaturally bonded into one to become a single, collective intelligence. Hiveminds often occur in swarms that have existed for generations and that have dwelled in areas of potent magical influence, particularly areas of strong psychic magic. Over time, the swarm learns to work together in more intelligent ways to achieve its goals, and it eventually evolves a cohesive mind. Of course, this evolution can be hastened by direct intervention of potent magic (typically something on the level of a {spell/miracle} or {spell/wish}), or as an unintended side effect of esoteric rituals, the use or destruction of artifacts, or the deaths of powerful minds.",
 			"",
@@ -619,7 +619,7 @@
 		"name": "Implacable Stalker",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Implacable Stalker]{cr=+2 sc=\"Horror Adventures\" acquired}",
+			"::th[Implacable Stalker]{cr=+2 sc=\"Horror Adventures/238\" acquired}",
 			"",
 			"Implacable stalkers embody murderous predation. They not only revel in hunting down and killing their victims in gory, brutal fashion, but they draw supernatural strength and power from their victims' fear and terror. They look similar to other creatures of their kind, but are often covered in gruesome scars and exude an aura of menace.",
 			"",
@@ -666,7 +666,7 @@
 		"name": "Jiang-Shi",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::th[Jiang-Shi]{cr=+2 sc=\"Bestiary 3\" acquired}",
+			"::th[Jiang-Shi]{cr=+2 sc=\"Bestiary 3/278\" acquired}",
 			"",
 			"Jiang-shis (often known as \"hopping {template/vampire/s}\") are undead humanoid creatures that feed on the exhaled life energy of the living. A jiang-shi's appearance is based on the state of the creature's corpse at the time of its reanimation. Regardless of the state of decay, most jiang-shis wear clothing or armor that is at least one generation out of style. Additionally, each has a short parchment prayer scroll affixed to its brow by stitches; originally intended to protect the body from restless spirits, this scroll grants a jiang-shi immunity to magical effects unleashed by items like scrolls and wands.",
 			"",
@@ -718,7 +718,7 @@
 			"Pathfinder #71: Rasputin Must Die!"
 		],
 		"description": [
-			"::th[JuJu Zombie]{cr=+1 sc=\"Bestiary 2\" acquired}",
+			"::th[JuJu Zombie]{cr=+1 sc=\"Bestiary 2/291\" acquired}",
 			"",
 			"A juju zombie is an animated corpse of a creature, created to serve as an undead minion, that retains the skills and abilities it possessed in life.",
 			"",
@@ -798,7 +798,7 @@
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"::th[Lich]{cr=+2 sc=\"Pathfinder RPG Bestiary\" acquired summonable}",
+			"::th[Lich]{cr=+2 sc=\"Pathfinder RPG Bestiary/188\" acquired summonable}",
 			"",
 			"\"Lich\" is an acquired template that can be added to any living creature (referred to hereafter as the base creature), provided it can create the required phylactery. A lich retains all the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -857,7 +857,7 @@
 		"name": "Lich Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Lich Creature]{cr=+1 sc=\"Horror Adventures\" acquired simple}",
+			"::th[Lich Creature]{cr=+1 sc=\"Horror Adventures/249\" acquired simple}",
 			"",
 			"While it might not have followed the traditional path to lichdom, which requires a strong aptitude for magic, a lich creature's connection to an object allows it to survive as an undead indefinitely, returning each time its foes destroy it unless they can destroy the lich creature's phylactery.",
 			"",
@@ -873,7 +873,7 @@
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"::th[Lycanthrope]{cr=+1 sc=\"Pathfinder RPG Bestiary\" acquired inherited}",
+			"::th[Lycanthrope]{cr=+1 sc=\"Pathfinder RPG Bestiary/196\" acquired inherited}",
 			"",
 			"Lycanthropes are humanoids with the ability to turn into animals and animal-humanoid hybrid shapes. Natural lycanthropes are born with this ability and have perfect control over their shapechanging. Afflicted lycanthropes contract this ability like a curse or disease from another lycanthrope; they sometimes change form involuntarily.",
 			"",
@@ -1030,7 +1030,7 @@
 		"name": "Lycanthropic Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Lycanthropic Creature]{cr=+1 sc=\"Horror Adventures\" acquired simple}",
+			"::th[Lycanthropic Creature]{cr=+1 sc=\"Horror Adventures/249\" acquired simple}",
 			"",
 			"Lycanthropic creatures can act as simpler variants of any sort of lycanthrope in hybrid form, but the default is for a werewolf-like creature, so if the base lycanthrope has different features, adjust the creature accordingly (for instance, a wereshark can swim). This simple template reflects the creature's hybrid form. The creature can't take full animal form, and when it's in its ordinary form, remove this template with the exceptions of change shape, low-light vision, and scent. Lycanthropic creatures don't have to be humanoids, and at your discretion, a lycanthropic creature can afflict creatures of its own type with lycanthropy, in addition to humanoids.",
 			"",
@@ -1043,7 +1043,7 @@
 		"name": "Taxidermic Creature",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::th[Taxidermic Creature]{cr=Varies sc=\"Bestiary 5\" acquired}",
+			"::th[Taxidermic Creature]{cr=Varies sc=\"Bestiary 5/240\" acquired}",
 			"",
 			"Taxidermic creatures are the work of obsessed individuals seeking to use their alchemical or occult talents to preserve and reanimate lifeless beings. The abilities of taxidermic creatures often pale in comparison to those of their living counterparts, as they are bereft of intelligence or an animate life force to guide them. Instead, taxidermic creatures possess a rudimentary form of instinct, though they are still able to follow basic instructions from their creators.",
 			"",
@@ -1145,7 +1145,7 @@
 		"name": "Thicken Ogre",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Thicken Ogre]{cr=+0 sc=\"Monster Codex\" inherited simple}",
+			"::th[Thicken Ogre]{cr=+0 sc=\"Monster Codex/152\" inherited simple}",
 			"",
 			"These tall, bone-thin ogres have thick, bark-like skin and spiked growths all over their bodies, and their hands end in sharp, thorn-like claws.",
 			"",
@@ -1158,7 +1158,7 @@
 		"name": "Trompe l'Oeil",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Trompe l'Oeil]{cr=+1 sc=\"Horror Adventures\" inherited}",
+			"::th[Trompe l'Oeil]{cr=+1 sc=\"Horror Adventures/242\" inherited}",
 			"",
 			"Trompe l'oeil creatures are life-sized portraits animated by powerful magic or occult phenomena. Able to move and talk, these constructs can also step out of their frames to become three-dimensional beings. Born from artistic masterpieces, trompe l'oeils can easily pass for their original models, though close examination reveals that they are not flesh and blood, but only layers of paint. Trompe l'oeils can be created to act as guardians and spies, or on occasion, a painting will animate spontaneously. Rarely, a portrait is so lifelike, a nascent spirit is able to inhabit it. Believing itself to be as good as or better than the original, such a trompe l'oeil seeks to eliminate and replace the painting's subject.",
 			"",
@@ -1203,7 +1203,7 @@
 		"name": "Tsukumogami",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::th[Tsukumogami]{cr=+2 sc=\"Bestiary 5\" acquired}",
+			"::th[Tsukumogami]{cr=+2 sc=\"Bestiary 5/253\" acquired}",
 			"",
 			"When an object reaches the 100-year anniversary of its crafting, sometimes it forms an amalgam with a {subtype/kami}, creating a creature known as a tsukumogami. Tsukumogami run the gamut in personality, outlook, and function. Objects that are well kept and cared for often form curious and helpful tsukumogami. Most commonly, tsukumogami are mischievous and frightening but not actually malign. Tsukumogami formed from objects that have been abandoned, neglected, or misused are dangerous both to the humans around and to themselves, as their uncontrolled rage might eventually transform them into {subtype/oni}.",
 			"",
@@ -1242,7 +1242,7 @@
 		"name": "Tulpa",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::th[Tulpa]{cr=+2 sc=\"Bestiary 5\" inherited}",
+			"::th[Tulpa]{cr=+2 sc=\"Bestiary 5/254\" inherited}",
 			"",
 			"Tulpas are constructed of ideas and imagination. Beings of pure thought (some theorize that they are made of the same mysterious substance as the Astral Plane), tulpas are made physical by a powerful mind that is either psychically attuned or has some amount of latent psychic power.",
 			"",
@@ -1283,7 +1283,7 @@
 		"name": "Unknown",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Unknown]{cr=+2 sc=\"Horror Adventures\" acquired}",
+			"::th[Unknown]{cr=+2 sc=\"Horror Adventures/244\" acquired}",
 			"",
 			"The unknown are terrifying fey creatures that feed off the mental energies of other creatures. Scholars studying the behavior and organization of the unknown speculate they may have originally been fey creatures that somehow reached the Dimension of Dreams and became trapped there, remade by other minds likewise lost in ephemeral dreamscapes. The unknown propagate more of their own kind by eroding humanoids' psyches until the victims transform into new unknown. Unknown typically choose to victimize those who are already relatively helpless, especially children, but when they transform an accomplished adventurer into one of their own, the result can be truly terrifying.",
 			"",
@@ -1334,7 +1334,7 @@
 		"name": "Vahana",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::th[Vahana]{cr=+2 sc=\"Bestiary 5\" acquired}",
+			"::th[Vahana]{cr=+2 sc=\"Bestiary 5/262\" acquired}",
 			"",
 			"Vahanas are steeds of legend, created by the gods. Deities gift vahanas to faithful servants to help them accomplish great deeds or as rewards for the same. Makaras, elephants with crocodile features, are one of the common types of vahana.",
 			"",
@@ -1369,7 +1369,7 @@
 			"Monster Codex"
 		],
 		"description": [
-			"::th[Vampire]{cr=+2 sc=\"Pathfinder RPG Bestiary\" acquired}",
+			"::th[Vampire]{cr=+2 sc=\"Pathfinder RPG Bestiary/270\" acquired}",
 			"",
 			"### Creating a Vampire",
 			"",
@@ -1505,7 +1505,7 @@
 		"name": "Vampire Spawn",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Vampire Spawn]{cr=+1 sc=\"Monster Codex\" acquired}",
+			"::th[Vampire Spawn]{cr=+1 sc=\"Monster Codex/244\" acquired}",
 			"",
 			"The following template can be used to create unique vampire spawn with class levels.",
 			"",
@@ -1548,7 +1548,7 @@
 		"name": "Vampiric Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Vampiric Creature]{cr=+1 sc=\"Horror Adventures\" acquired simple}",
+			"::th[Vampiric Creature]{cr=+1 sc=\"Horror Adventures/250\" acquired simple}",
 			"",
 			"Vampiric creatures have been transformed into vampires, and they don't have to be humanoids. At your discretion, a vampiric creature might have the create spawn ability and could create spawn of its own creature type in addition to humanoid spawn. Non-humanoid vampiric creatures likely have unusual \"coffins\" that befit their nature.",
 			"",
@@ -1612,7 +1612,7 @@
 		"name": "Waxwork",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Waxwork]{cr=Varies sc=\"Horror Adventures\" inherited}",
+			"::th[Waxwork]{cr=Varies sc=\"Horror Adventures/246\" inherited}",
 			"",
 			"The practice of making sculptures from wax dates back to the earliest humanoid civilizations. Only the medium of wax can so closely duplicate the transparency of skin. Often, creators use powerful magic to house an animating spirit within the wax model. A created waxwork creature obeys the commands of its creator. Rarely, a wax sculpture animates of it own accord - the result of nearby magic suffusing the wax or a lost spirit in search of a corporeal form. Such waxwork creatures are uncontrolled.",
 			"",
@@ -1758,7 +1758,7 @@
 		"name": "Winter-Touched Fey",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
 		"description": [
-			"::th[Winter-Touched Fey]{cr=+0 sc=\"Pathfinder #67: The Snows of Summer\" acquired simple summonable}",
+			"::th[Winter-Touched Fey]{cr=+0 sc=\"Pathfinder #67: The Snows of Summer/72\" acquired simple summonable}",
 			"",
 			"Chief among the allies of Baba Yaga and the White Witches of Irrisen are the winter-touched, a special breed of fey immune to the harsh weather and low temperatures of the frozen north. Willingly pledging themselves to a wholly evil life, these creatures undergo a complex ritual called the Winter Rite, in which they accept a sliver of ice into their hearts that infuses their bodies with the same supernatural winter perpetuated by the White Witches of Irrisen. The resulting transformation gives the fey's skin a sickly bluish cast marked with spidery white veins like hoarfrost on glass. These evil fey can channel the power of winter into their attacks, slowing their victims with numbing cold. The winter-touched universally delight in spreading the influence of the White Witches, carrying out the wills of the witches who performed their Winter Rites. The winter-touched display a chilling loyalty that borders on fanaticism - a devotion all but guaranteed given the White Witches' ability to fatally pierce the hearts of those who fail them with the same slivers of ice the fey so willingly accepted.",
 			"",
@@ -1773,7 +1773,7 @@
 		"name": "Wizard",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Wizard]{cr=\"+1 +2 or +3\" sc=\"Monster Codex\" acquired simple}",
+			"::th[Wizard]{cr=\"+1 +2 or +3\" sc=\"Monster Codex/249\" acquired simple}",
 			"",
 			"A wizard creature is skilled in the ways of arcane magic, and its spellcasting ability is unmatched. Beyond casting damaging spells, a wizard creature can call upon mighty forces to serve the will of the creature and its allies. Select a wizard creature's arcane school when the template is added. A wizard creature's CR increases by 2 if the creature has 7 or more HD, and it increases by 3 if the creature has 13 or more HD.",
 			"",
@@ -1800,7 +1800,7 @@
 		"name": "Worm that Walks",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::th[Worm that Walks]{cr=+2 sc=\"Bestiary 2\" acquired}",
+			"::th[Worm that Walks]{cr=+2 sc=\"Bestiary 2/286\" acquired}",
 			"",
 			"When a powerful spellcaster with a strong personality, a lust for life, and a remorselessly evil soul dies and is buried in a graveyard infused with eldritch magic, a strange phenomenon sometimes occurs. The flesh of the decaying body fats and instructs the very worms that gnaw, and these graveworms quicken not only on corruption but upon the spellcaster's memories and magical power. The spellcaster's very soul is consumed in this vile process, only to be split apart to inhabit each of the individual chewing worms in so many fragments. The result is a hideous hive mind of slithering life known as a worm that walks - a mass of worms that clings to the vague shape of the body that granted it this new existence, and can wield the powers and magic the spellcaster had in life. A worm that walks retains memories of its life as a spellcaster before its death, but is not undead - it is a hideous new form of undulant life.",
 			"",
@@ -1861,7 +1861,7 @@
 		"name": "Young",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::th[Young]{cr=-1 sc=\"Pathfinder RPG Bestiary\" acquired simple}",
+			"::th[Young]{cr=-1 sc=\"Pathfinder RPG Bestiary/295\" acquired simple}",
 			"",
 			"Creatures with the young template are immature specimens of the base creature. You can also use this simple template to easily create a smaller variant of a monster. This template cannot be applied to creatures that increase in power through aging or feeding (such as dragons or barghests) or creatures that are Fine-sized.",
 			"",
@@ -1878,7 +1878,7 @@
 			"Classic Horrors Revisited"
 		],
 		"description": [
-			"::th[Zombie]{cr=Varies sc=\"Pathfinder RPG Bestiary\" acquired}",
+			"::th[Zombie]{cr=Varies sc=\"Pathfinder RPG Bestiary/288\" acquired}",
 			"",
 			"Zombies are the animated corpses of dead creatures, forced into foul unlife via necromantic magic like animate dead. While the most commonly encountered zombies are slow and tough, others possess a variety of traits, allowing them to spread disease or move with increased speed.",
 			"",
@@ -2042,7 +2042,7 @@
 		"name": "Zombie Lord",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::th[Zombie Lord]{cr=+1 sc=\"Bestiary 4\" acquired}",
+			"::th[Zombie Lord]{cr=+1 sc=\"Bestiary 4/286\" acquired}",
 			"",
 			"Zombie lords are the fleshy counterparts of skeletal champions-intelligent, cunning, and envious of creatures whose bodies aren't rotting away. Despite their decaying flesh, they are not slow like common zombies, and can easily pursue fleeing prey. Zombie lords are more powerful than common zombies and retain their class levels.",
 			"",
