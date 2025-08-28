@@ -2523,7 +2523,7 @@
 					[ "{template/Eruphyte}", [1, "+1"], [1, "X"], [2, ""], [2, ""], [2, ""] ],
 					[ "{template/Exoskeleton}", [99, "Varies"], [1, "X"], [2, ""], [2, ""], [2, ""] ],
 					[ "{template/Failed Prophet}", [2, "+2"], [1, "X"], [2, ""], [2, ""], [2, ""] ],
-					[ "{template/Fey Animal}", [1, "+1"], [1, "X"], [1, "X"], [2, ""], [1, "X"] ],
+					[ "{template/Fey Animal}", [1, "+1"], [1, "X"], [1, "X"], [2, ""], [2, ""] ],
 					[ "{template/Fey Creature}", [1.2, "+1 or +2"], [1, "X"], [1, "X"], [2, ""], [2, ""] ],
 					[ "{template/Fey-Touched Creature}", [0.1, "+0 or +1"], [2, ""], [1, "X"], [1, "X"], [ 1.1, "X\\*" ] ],
 					[ "{template/Fiend-Infused}", [2, "+2"], [2, ""], [1, "X"], [2, ""], [2, ""] ],

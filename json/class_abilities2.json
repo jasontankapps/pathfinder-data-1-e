@@ -1592,5 +1592,6 @@
 			}
 		],
 		"topLink": [ "Kineticist", "class/kineticist" ]
-	}
+	},
+	"infusions": { "redirect": "infusion_wild_talents" }
 }

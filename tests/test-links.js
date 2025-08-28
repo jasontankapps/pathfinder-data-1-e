@@ -235,7 +235,7 @@ const $All = [
 	["magic-wondrous", magicwondrous], ["monster", monster], ["template", template],
 	["rule", rule], ["spell", spell], ["npc", npc], ["pclass", pclass],
 	["race", race], ["trait", trait], ["class", classes], ["family", family],
-	["talent", talent],	["slayertalent", slayertalent],	["invtalent", invtalent],
+	["talent", talent], ["slayertalent", slayertalent], ["invtalent", invtalent],
 	["soctalent", soctalent], ["vigtalent", vigtalent],
 	["trick", trick], ["ninjatrick", ninjatrick], ["hex", hex], ["shamanhex", shamanhex],
 	["discovery", discovery], ["arcanedisc", arcanedisc],

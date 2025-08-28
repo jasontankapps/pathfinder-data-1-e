@@ -56,7 +56,7 @@ const migrations = {
 			}
 		}
 	},
-/*	11: (state: any) => {
+	/*11: (state: any) => {
 		const {displayTable, ...unchangedState} = state;
 		// Reset tables that have been modified since the last update
 		const modifiedTables: string[] = [

@@ -3,7 +3,7 @@
 		"name": "Mana Wastes Mutant",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
-			"::th[Mana Wastes Mutant]{cr=+1 sc=\"Inner Sea Bestiary\" acquired}",
+			"::th[Mana Wastes Mutant]{cr=+1 sc=\"Inner Sea Bestiary/28\" acquired}",
 			"",
 			"The magic-warping effects of the Mana Wastes often extend to the very life force of creatures who wander the trackless deserts. The dangerous radiations of magic gone afoul infuse the bodies and essences of these wanderers. Those who spend too much time in the Spellscar Desert or the wasteland's other treacherous environs occasionally fall prey to the deadly energies that persist in these regions, and their bodies gradually decay more and more until they are so far removed from their original forms that they can be described only as mutants. These twisted and degenerate creatures roam in packs throughout the Mana Wastes.",
 			"",
@@ -61,7 +61,7 @@
 		"name": "Man-Eating Animal",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"description": [
-			"::th[Man-Eating Animal]{cr=\"+1, +2, or +3\" sc=\"Pathfinder #74: Sword of Valor\" acquired inherited}",
+			"::th[Man-Eating Animal]{cr=\"+1, +2, or +3\" sc=\"Pathfinder #74: Sword of Valor/89\" acquired inherited}",
 			"",
 			"Scholars will explain that though many animals fight to defend their territory and their young, only a few apex predators hunt humanoids for food. Yet any villager across the Inner Sea region can recount tales about man-eating beasts that once lurked in the local wilderness (and might still). Any sort of animal can become a man-eater, from known predators to seemingly harmless herbivores. Though the creatures and locations may change, certain elements remain the same in tales of man-eating animals. Having tasted human flesh, these animals can't be sated by any other type of food. Man-eaters have terrible bites, and hunters' arrows bounce off their hides. Man-eaters are unusually bold, no longer frightened by human presence like their kin. Yet they are also canny, employing tactics no mere animal could conceive. Man-eaters appear able to understand human speech, and some of the more fanciful stories even claim the animals can speak.",
 			"",
@@ -69,7 +69,7 @@
 			"",
 			"### Ecology",
 			"",
-			"Most tales of man-eating animals are sparked by rabid or starving (but otherwise normal) animals, but true man-eaters do exist. Such abominations are the result of a fiendish spirit fusing with that of a mundane animal. Though not wholly fiendish in nature, the beast gains limited sentience, increased resilience, and unnatural appetites. Despite popular belief, eating humanoid flesh isn't enough to turn an animal into a maneater. The creature must be exposed to chaotic and evil influences, whether from a planar gate, demonic altar, or transformative elixir (such as the blood of Baphomet). Man-eating animals can also result from botched summonings and incomplete exorcisms. A fiendish spark set loose might inhabit an animal's form so that the foul spirit can continue to spread suffering.",
+			"Most tales of man-eating animals are sparked by rabid or starving (but otherwise normal) animals, but true man-eaters do exist. Such abominations are the result of a fiendish spirit fusing with that of a mundane animal. Though not wholly fiendish in nature, the beast gains limited sentience, increased resilience, and unnatural appetites. Despite popular belief, eating humanoid flesh isn't enough to turn an animal into a maneater. The creature must be exposed to chaotic and evil influences, whether from a planar gate, demonic altar, or transformative elixir (such as the {magic-wondrous/blood of Baphomet}). Man-eating animals can also result from botched summonings and incomplete exorcisms. A fiendish spark set loose might inhabit an animal's form so that the foul spirit can continue to spread suffering.",
 			"",
 			"Man-eating animals are no longer part of the natural ecology. They hunt almost ceaselessly, preferring intelligent prey above all else. They rarely die of natural causes, almost always meeting their ends in bloody conflict. These creatures can and do mate with members of their original species. In cases of multiple births, only one of the litter inherits this corruption, and it soon devours its siblings.",
 			"",
@@ -202,7 +202,7 @@
 		"name": "Mummified Animal",
 		"sources": [ "Pathfinder #81: Shifting Sands" ],
 		"description": [
-			"::th[Mummified Animal]{cr=+1 sc=\"Pathfinder #81: Shifting Sands\" acquired}",
+			"::th[Mummified Animal]{cr=+1 sc=\"Pathfinder #81: Shifting Sands/84\" acquired}",
 			"",
 			"When explorers find tombs housing the mummified remains of important and powerful beings, they often find those mummies accompanied by animals-ones that the interred found significant or that represented their ideals in life. Some of these mummified animals were created and placed in the tombs as guardians. Below are common examples of mummified animals, as well as the mummified animal template.",
 			"",
@@ -516,7 +516,7 @@
 		"name": "Mythic Skeleton",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
-			"::th[Mythic Skeleton]{cr=Varies sc=\"Mythic Adventures\" acquired}",
+			"::th[Mythic Skeleton]{cr=Varies sc=\"Mythic Adventures/216\" acquired}",
 			"",
 			"\"Mythic skeleton\" is an acquired template that can be added to any creature with the {template/skeleton} template (referred to hereafter as the base skeleton).",
 			"",
@@ -854,7 +854,7 @@
 		"name": "Pallid Vector",
 		"sources": [ "Villain Codex" ],
 		"description": [
-			"::th[Pallid Vector]{cr=+2 sc=\"Villain Codex\" acquired}",
+			"::th[Pallid Vector]{cr=+2 sc=\"Villain Codex/68\" acquired}",
 			"",
 			"Followers of Urgathoa revere all sicknesses as worldly expressions of her divine will, but none more so than the pallid gift, which opens its victims' fevered minds to the glory of the [Pallid Princess](faith/urgathoa). Creatures that die while afflicted with the disease rise as undead, but some creatures form a symbiotic bond with it and become pallid vectors.",
 			"",
@@ -1065,7 +1065,7 @@
 			"",
 			"@HL[Special Abilities:] The pod-spawned creature gains the mimic ability.",
 			"",
-			">*Mimic (Ex)* A pod-spawned creature retains all the knowledge of its original. It can impersonate the original perfectly except for its lack of emotion. This emotionlessness can be detected with a successful DC 20 Sense Motive check. A creature familiar with the original gains a +5 circumstance bonus on this check. If the podspawned creature feigns sincere emotion, the Sense Motive check is opposed by its Bluff check instead. Podspawned creatures resemble the original down to hair and blood. Noticing small physical imperfections requires a successful Perception check with a DC determined by the spawning bodythief's Disguise check, made when the pod hatches.",
+			">**Mimic (Ex)** A pod-spawned creature retains all the knowledge of its original. It can impersonate the original perfectly except for its lack of emotion. This emotionlessness can be detected with a successful DC 20 Sense Motive check. A creature familiar with the original gains a +5 circumstance bonus on this check. If the podspawned creature feigns sincere emotion, the Sense Motive check is opposed by its Bluff check instead. Podspawned creatures resemble the original down to hair and blood. Noticing small physical imperfections requires a successful Perception check with a DC determined by the spawning bodythief's Disguise check, made when the pod hatches.",
 			"",
 			"@HL[Ability Scores:] Cha -4.",
 			"",
@@ -1148,7 +1148,7 @@
 		"description": [
 			"::th[Primordial]{cr=\"+0 or +1\" sc=\"Monster Summoner's Handbook/19\" acquired simple maybesummon}",
 			"",
-			"Applying this template to a summoned creature requires the feat {feat/Versatile Summon Monster} or {feat/Versatile Summon Nature's Ally}",
+			"Applying this template to a summoned creature requires the feat {feat/Versatile Summon Monster} or {feat/Versatile Summon Nature's Ally}.",
 			"",
 			"Primordial creatures are magical precursors or echoes of creatures from the Material Plane. A primordial creature's CR increases by 1 only if the base creature has 5 or more HD.",
 			"",
@@ -1178,11 +1178,13 @@
 		"name": "Prophecy-Addled Creature",
 		"sources": [ "Pathfinder #125: Tower of the Drowned Dead" ],
 		"description": [
-			"::th[Prophecy-Addled Creature]{cr=+1 sc=\"Pathfinder #125: Tower of the Drowned Dead\" acquired simple}",
+			"::th[Prophecy-Addled Creature]{cr=+1 sc=\"Pathfinder #125: Tower of the Drowned Dead/50\" acquired simple}",
 			"",
 			"Prophecy-addled creatures receive powerful oracular insights, but they cannot easily distinguish between these flashes of mystical insight and reality. A prophecy-addled creature's quick and rebuild rules are the same.",
 			"",
-			"@HL[Rebuild Rules:] **AC** increase insight bonus by +2; Saves +2 insight bonus on Fortitude and Reflex saves, -4 penalty on saves against confusion effects; **Special Qualities** If the creature has flash of brutality, flash of insight, or another special quality that allows it to reroll a d20 roll a certain number of times each day, it can use that ability two additional times each day. If not, the creature gains the following special quality. **Prophetic Insight (Su):** Three times per day as an immediate action, the prophecy-addled creature can reroll any one d20 roll that it has just made before the results of the roll are revealed. It must take the result of the reroll, even if it's worse than the original rol"
+			"@HL[Rebuild Rules:] **AC** increase insight bonus by +2; Saves +2 insight bonus on Fortitude and Reflex saves, -4 penalty on saves against confusion effects; **Special Qualities** If the creature has flash of brutality, flash of insight, or another special quality that allows it to reroll a d20 roll a certain number of times each day, it can use that ability two additional times each day. If not, the creature gains the following special quality.",
+			"",
+			">**Prophetic Insight (Su):** Three times per day as an immediate action, the prophecy-addled creature can reroll any one d20 roll that it has just made before the results of the roll are revealed. It must take the result of the reroll, even if it's worse than the original rol"
 		]
 	},
 	"psychic_lich": {
@@ -1365,7 +1367,7 @@
 		"name": "Radiant Creature",
 		"sources": [ "Planar Adventures" ],
 		"description": [
-			"::th[Radiant Creature]{cr=+1 sc=\"Planar Adventures\" acquired inherited simple}",
+			"::th[Radiant Creature]{cr=+1 sc=\"Planar Adventures/123\" acquired inherited simple}",
 			"",
 			"Radiant creatures are mortal creatures who have been destroyed by the overwhelming fury of the Positive Energy Plane's energies. Normally, the souls of such creatures are expelled into the River of Souls and travel to the Boneyard for judgment, but occasionally they are instantaneously reincarnated as radiant creatures-glowing incarnations of their previous forms infused with positive energy.",
 			"",
@@ -1380,7 +1382,7 @@
 		"name": "Rampant",
 		"sources": [ "Pathfinder #142: Gardens of Gallowspire" ],
 		"description": [
-			"::th[Rampant]{cr=+1 sc=\"Pathfinder #142: Gardens of Gallowspire\" acquired}",
+			"::th[Rampant]{cr=+1 sc=\"Pathfinder #142: Gardens of Gallowspire/67\" acquired}",
 			"",
 			"The Positive Energy Plane is a font of growth, life, and souls, and metaphysical currents bear these resources through the hearts of stars and onto the Material Plane. Especially potent bursts of positive energy or partially developed souls can wind their way through the Material Plane to quicken plant life in particular. Only hardy plant creatures can foster this extraplanar force and be transformed into fonts of unchecked growth. Such rampant creatures rapidly change their local environments, turning mundane plants into tangled masses of competing foliage that slowly develop into new creatures all their own.",
 			"",
@@ -1580,15 +1582,15 @@
 			"",
 			"@HL[Defensive Abilities:] A runeplated construct retains all the defenses of the base creature and gains the following defensive ability.",
 			"",
-			">*Opposition School Resistance (Su):* A runeplated construct gains a +2 bonus on saving throws against spells and spell-like abilities from the schools of magic to which its school is opposed (see Runeplated Construct Traits below).",
+			">**Opposition School Resistance (Su):** A runeplated construct gains a +2 bonus on saving throws against spells and spell-like abilities from the schools of magic to which its school is opposed (see Runeplated Construct Traits below).",
 			"",
 			"@HL[Special Attacks:] A runeplated construct retains all the special attacks of the base creature and gains the following special attack.",
 			"",
-			">*Infused Attack (Su):* By drawing upon the magical energy of the school that created it, a runeplated construct can add additional effects or damage to its melee attacks (see Runeplated Construct Traits below). The save DC against these abilities is 10 + half the construct's CR + the construct's Strength modifier.",
+			">**Infused Attack (Su):** By drawing upon the magical energy of the school that created it, a runeplated construct can add additional effects or damage to its melee attacks (see Runeplated Construct Traits below). The save DC against these abilities is 10 + half the construct's CR + the construct's Strength modifier.",
 			"",
 			"@HL[Special Qualities:] A runeplated construct retains all the special qualities and abilities of the base creature and gains the following special quality.",
 			"",
-			">*Runeplated (Su):* A runeplated construct cannot cast spells or use spell-like abilities, even those granted to the base creature, from schools opposed to the one in which it is runeplated. If the base creature has spells or spell-like abilities from the school in which it is runeplated, its gains one additional use of each such ability during the normal frequency period (3/day becomes 4/day, for example).",
+			">**Runeplated (Su):** A runeplated construct cannot cast spells or use spell-like abilities, even those granted to the base creature, from schools opposed to the one in which it is runeplated. If the base creature has spells or spell-like abilities from the school in which it is runeplated, its gains one additional use of each such ability during the normal frequency period (3/day becomes 4/day, for example).",
 			"",
 			"### Runeplated Construct Traits",
 			"",
@@ -1641,7 +1643,7 @@
 		"name": "Runeslave",
 		"sources": [ "Rise of the Runelords Anniversary Edition" ],
 		"description": [
-			"::th[Runeslave]{cr=+1 sc=\"Rise of the Runelords Anniversary Edition\" acquired}",
+			"::th[Runeslave]{cr=+1 sc=\"Rise of the Runelords Anniversary Edition/412\" acquired}",
 			"",
 			"The ageless monuments and awesome cities of Thassilon rose upon the backs of countless slaves, but none bore the sin-poisoned civilization's burden more than the giants. Able to perform the work of dozens of human slaves, Thassilon's titanic servants-hill giants, stone giants, taiga giants, and others-crafted marvels nigh unparalleled in any era before or since, and shaped the face of what is now modern Varisia. Yet as viciously as the runelords worked their slaves and for all they demanded, the giant-crafted marvels were not enough. And thus, working the corrupt rune magic that was theirs alone, the runelords manufactured a damning curse and laid it over their most tireless and effective workers, and in so doing created a new breed of servant: the runeslave.",
 			"",
@@ -1692,9 +1694,9 @@
 	},
 	"runewarped_creature": {
 		"name": "Runewarped Creature",
-		"sources": [ "Return of the Runelords Players Guide" ],
+		"sources": [ "Pathfinder #133: Secrets of Roderic's Cove" ],
 		"description": [
-			"::th[Runewarped Creature]{cr=+1 sc=\"Return of the Runelords Players Guide\" acquired}",
+			"::th[Runewarped Creature]{cr=+1 sc=\"Pathfinder #133: Secrets of Roderic's Cove/87\" acquired}",
 			"",
 			"Before Alaznist created the first {monster/sinspawn} through the use of her runewell, she experimented with several techniques to create sin-twisted servants. One foundation of the complex magical technique used to create sinspawn was known as runewarping. Through the use of runewarping, Alaznist and other powerful mages created horribly twisted creatures from their slaves and prisoners. These creators valued ability over aesthetics, so runewarped creatures were transformed by powerful magic into horrid mockeries of their previous forms. Runewarped creatures seek out sources of magic to consume, trying in vain to complete their transformation. Although a runewarped creature is recognizable as the creature it once was, the creature bears altered or additional limb joints, elongated fingers, and a massive jaw capable of delivering a powerful bite.",
 			"",
@@ -1735,7 +1737,7 @@
 		"name": "Sea-Sworn",
 		"sources": [ "Treasure of Chimera Cove" ],
 		"description": [
-			"::th[Sea-Sworn]{cr=+1 sc=\"Treasure of Chimera Cove\" acquired summonable}",
+			"::th[Sea-Sworn]{cr=+1 sc=\"Treasure of Chimera Cove/31\" acquired summonable}",
 			"",
 			"This creature stares with cold, black eyes, its bluish-green skin slick with moisture and stinking of brine and the muck of the tidal flats. Its hands and feet are webbed, and its facial features are blunted by the smooth, frog-like skin that covers them. It makes no sound as it marches out of the shallows, water and seaweed streaming from its unkempt hair and barnacle-encrusted armor. It merely approaches with cold menace, sword raised and sharp beneath a crusting of salt.",
 			"",
@@ -1846,7 +1848,7 @@
 			">",
 			">**Insidious Mind (Su):** When a seeded one succeeds at a saving throw against a psychic charm, a compulsion, or another mind-affecting spell or spell-like ability that would otherwise affect it, its dreams infect the spellcaster's mind, exposing him to seedborne consumption.",
 			">",
-			">>*Seedborne Consumption (Su):* natural or touch attack; *save* Fort DC = 10 + 1/2 the seeded one's HD + the seeded one's Charisma modifier; *onset* 1 month; *frequency* 1/month; *effect* 1d2 Charisma damage (this damage cannot be healed while the creature is infected); *cure* 3 consecutive saves.",
+			">>**Seedborne Consumption (Su):** natural or touch attack; *save* Fort DC = 10 + 1/2 the seeded one's HD + the seeded one's Charisma modifier; *onset* 1 month; *frequency* 1/month; *effect* 1d2 Charisma damage (this damage cannot be healed while the creature is infected); *cure* 3 consecutive saves.",
 			">>",
 			">>When a creature's Charisma is reduced to 0, instead of becoming unconscious it falls into a feverish mental state where its mind is scattered and inattentive. The creature can still move and perform actions, but it can concentrate on only a single action, and for only a few moments. It takes a -4 penalty on saving throws; Intelligence-, Wisdom-, and Charisma-based checks; and skill checks. Within 24 hours of a creature's Charisma score reaching 0, it dies and rises as a seeded creature.",
 			"",
@@ -1893,7 +1895,7 @@
 		"name": "Shadow Animal",
 		"sources": [ "Nidal, Land of Shadows" ],
 		"description": [
-			"::th[Shadow Animal]{cr=\"+1 or +2\" sc=\"Nidal, Land of Shadows\" acquired inherited}",
+			"::th[Shadow Animal]{cr=\"+1 or +2\" sc=\"Nidal, Land of Shadows/60\" acquired inherited}",
 			"",
 			"Dread energies from the Plane of Shadow have leaked into the countryside of Nidal for thousands of years, pooling in shadowed groves and along darkened hillsides. Although normal animals shun these shadow-haunted regions, hunger or adversity sometimes compels a creature to enter them. Some animals who do so are wholly transformed by these energies, becoming shadow animals.",
 			"",
@@ -1977,7 +1979,7 @@
 			"",
 			"@HL[Defensive Abilities:] A shadow lord gains the following defensive abilities.",
 			"",
-			">*Energy Resistance and Damage Reduction (Su):* A shadow lord gains damage reduction and resistance to cold and electricity based on its Hit Dice, as noted on the table below. This replaces the energy resistance and damage reduction granted by the shadow creature template.",
+			">**Energy Resistance and Damage Reduction (Su):** A shadow lord gains damage reduction and resistance to cold and electricity based on its Hit Dice, as noted on the table below. This replaces the energy resistance and damage reduction granted by the shadow creature template.",
 			">",
 			">| Hit Dice | Resist Cold and Electricity | DR |",
 			">| --- | --- | --- |",
@@ -2023,7 +2025,7 @@
 		"name": "Shadowfire Creature",
 		"sources": [ "The Emerald Spire Superdungeon" ],
 		"description": [
-			"::th[Shadowfire Creature]{cr=+1 sc=\"The Emerald Spire Superdungeon\" inherited}",
+			"::th[Shadowfire Creature]{cr=+1 sc=\"The Emerald Spire Superdungeon/157\" inherited}",
 			"",
 			"Created through rituals that suffused elemental fire with the dark corruption of shadow, shadowfire creatures were spawned from an evil cult. Cruelly transformed from their true forms by their ancient creators, they flicker between existence and nothingness, reality and oblivion, feeding on pain and flame and the screams of those who dare stand against them.",
 			"",
@@ -2108,7 +2110,7 @@
 		"name": "Silverblood Lycanthrope",
 		"sources": [ "Andoran, Birthplace of Freedom" ],
 		"description": [
-			"::th[Silverblood Lycanthrope]{cr=+2 sc=\"Andoran, Birthplace of Freedom\" acquired}",
+			"::th[Silverblood Lycanthrope]{cr=+2 sc=\"Andoran, Birthplace of Freedom/61\" acquired}",
 			"",
 			"Silverblood werewolves are a rare type of lycanthrope found almost exclusively in the Arthfell Forest. They are the survivors of an experimental process conceived by jeweler-turned-werewolf Garrick Argentum, and developed by his allies in the Shadow Pack, a group of werewolf druids in the forest. The Shadow Pack conducted an eldritch ritual involving successive exposures to pure silver under the light of the full moon in an attempt to desensitize the werewolves to the deadly touch of silver (in theory, this process could also produce other types of silverblood lycanthropes). The experiment was a success, and the werewolves lost their vulnerability. Swollen with pride at their new ability, the Shadow Pack joined forces with the hobgoblins of the wood and attacked the town of Olfden. Turned back after a savage battle known as the Night of Silver Blood, the werewolves sought to regroup and prepare a new assault, but on the night of the next new moon they discovered a fatal flaw in their blasphemous rite. Tied now more than ever to the lunar cycle, most of the silverblood werewolves wasted away and died when the moon darkened. Even those few that survived are greatly weakened when each new moon comes, though the surge of power when the moon waxes full still earns them great respect, and many have found positions of leadership among the werewolves of the wood.",
 			"",
@@ -2390,7 +2392,7 @@
 			"",
 			"@HL[Weakness:] A soulbound construct retains all the weaknesses of the host construct and gains the following additional weakness.",
 			"",
-			">*Susceptible to Mind-Affecting Effects (Ex):* A soulbound construct is not immune to mind-affecting effects.",
+			">**Susceptible to Mind-Affecting Effects (Ex):** A soulbound construct is not immune to mind-affecting effects.",
 			"",
 			"@HL[Special Attacks:] A soulbound construct gains the following special attack.",
 			"",
@@ -2526,7 +2528,7 @@
 		"name": "Sunbaked Zombie",
 		"sources": [ "Pathfinder #80: Empty Graves" ],
 		"description": [
-			"::th[Sunbaked Zombie]{cr=Varies sc=\"Pathfinder #80: Empty Graves\" acquired}",
+			"::th[Sunbaked Zombie]{cr=Varies sc=\"Pathfinder #80: Empty Graves/88\" acquired}",
 			"",
 			"Sun-baked zombies most often rise near pyramids and other burial sites in hot deserts, where latent necromantic energy lingers from countless arcane rituals and restless spirits. As such, sunbaked zombies are primarily found among the dunes of Osirion and the other nations that make up northern Garund. Typically animated in isolation, sunbaked zombies rarely form hordes like normal zombies, but when entire caravans fall to thirst and the desert sun, all of its members might rise as these terrible undead.",
 			"",

@@ -60,14 +60,11 @@
 	},
 	"demon_blood": {
 		"name": "Demon Blood",
-		"sources": [
-			"Pathfinder #74: Sword of Valor",
-			"Book of the Damned - Volume 2: Lords of Chaos"
-		],
+		"sources": [ "Book of the Damned - Volume 2: Lords of Chaos" ],
 		"description": [
 			"## Demon Blood",
 			"",
-			"{SOURCE Book of the Damned - Volume 2: Lords of Chaos/44;Pathfinder #74: Sword of Valor}  ",
+			"{SOURCE Book of the Damned - Volume 2: Lords of Chaos/44}  ",
 			"**Aura** faint evocation [evil]; **CL** 5th  ",
 			"**Slot** none; **Price** 800 gp; **Weight** 1 lbs.",
 			"",
