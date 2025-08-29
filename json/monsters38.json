@@ -890,11 +890,11 @@
 			"",
 			"The shark presented here is a 10-foot-long, 300-pound blue shark. Smaller sharks exist, although these are not dangerous. The same cannot be said of larger sharks, such as the following (you can create stats for these sharks by applying the indicated simple templates).",
 			"",
-			"Hammerhead Shark (CR 3): This shark has a distinctive hammer-shaped head. It is an advanced shark.",
+			"**Hammerhead Shark (CR 3):** This shark has a distinctive hammer-shaped head. It is an {template/advanced} shark.",
 			"",
-			"Tiger Shark (CR 3): Larger than the average shark, the ravenous tiger shark is a giant shark.",
+			"**Tiger Shark (CR 3):** Larger than the average shark, the ravenous tiger shark is a {template/giant} shark.",
 			"",
-			"Great White Shark (CR 4): One of the most notorious maneaters of the sea, the truly immense great white shark is an advanced giant shark."
+			"**Great White Shark (CR 4):** One of the most notorious man-eaters of the sea, the truly immense great white shark is an advanced giant shark."
 		]
 	},
 	"shark_angustiden": {

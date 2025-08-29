@@ -1053,6 +1053,7 @@
 	"slam_attack": { "redirect": "natural_attacks" },
 	"primary_attack": { "redirect": "natural_attacks" },
 	"claw_attack": { "redirect": "natural_attacks" },
+	"bite_attack": { "redirect": "natural_attacks" },
 	"spell_like_abilities": {
 		"name": "Spell-Like Abilities",
 		"sources": [ "Bestiary 5" ],
@@ -1833,6 +1834,7 @@
 			"**Location:** Defensive Abilities."
 		]
 	},
+	"resist": { "redirect": "resistance" },
 	"immunity": {
 		"name": "Immunity",
 		"sources": [ "Bestiary 5" ],
