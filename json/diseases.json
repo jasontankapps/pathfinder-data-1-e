@@ -530,6 +530,7 @@
 			"Of the afflictions wreaked upon Sarkoris by the Worldwound and Deskari's host, the demonplague is perhaps the most insidious. This vile sickness spreads through water, affecting plant and animal life alike. In higher creatures, the demonplague causes madness and then death, but in animals and other unintelligent beasts, it continues beyond death, animating them as undead horrors called {template/plagued beast/s}. The plague also twists and corrupts plant life - many hazardous plants are the results of normal plants becoming corrupted by the demonplague."
 		]
 	},
+	"demon_plague": { "redirect": "demonplague" },
 	"malaria_jungle_fever": {
 		"name": "Malaria (Jungle Fever)",
 		"sources": [ "Heart of the Jungle" ],

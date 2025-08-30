@@ -1157,11 +1157,11 @@
 		"description": [
 			"::th[Thicken Ogre]{cr=+0 sc=\"Monster Codex/152\" inherited simple}",
 			"",
-			"These tall, bone-thin ogres have thick, bark-like skin and spiked growths all over their bodies, and their hands end in sharp, thorn-like claws.",
+			"Ogres with the thicken template have huge, oversized heads and razor-sharp teeth.",
 			"",
-			"@HL[Quick Rules:] +2 on AC, -1 hp/HD, and -1 on Fortitude saves and Constitution checks; gains 2 claw attacks (1d6); +4 racial bonus on Stealth checks in forests.",
+			"@HL[Quick Rules:] -1 to AC, ranged attack rolls, initiative, and Dexterity-based skills; gains a {umr/bite attack} (1d8).",
 			"",
-			"@HL[Rebuild Rules:] **Ability Scores** -2 Constitution, +2 natural armor bonus; **Attacks** gains 2 claw attacks (1d6); **Special** +4 racial bonus on Stealth checks in forests."
+			"@HL[Rebuild Rules:] **Ability Scores** -2 Dexterity; **Attacks** gains a bite attack (1d8)."
 		]
 	},
 	"trompe_loeil": {

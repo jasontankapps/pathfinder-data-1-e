@@ -376,6 +376,7 @@
 	"one_size_category_larger": { "redirect": "damage_die_adjustments" },
 	"two_size_categories_larger": { "redirect": "damage_die_adjustments" },
 	"two_sizes_larger": { "redirect": "damage_die_adjustments" },
+	"one_size_larger": { "redirect": "damage_die_adjustments" },
 	"one_size_smaller": { "redirect": "damage_die_adjustments" },
 	"one_size_category_smaller": { "redirect": "damage_die_adjustments" },
 	"one_size_category": { "redirect": "damage_die_adjustments" },
