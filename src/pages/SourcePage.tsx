@@ -1,5 +1,6 @@
 import { useParams } from 'wouter';
 import sources from '../json/sources.json';
+import sourceRefMap from './subpages/_data__sources';
 import BasicPage from './BasicPage';
 import './Page.css';
 
@@ -25,6 +26,8 @@ type Data = typeof sources;
 
 type Params = { id?: keyof Data };
 
+type SourceMap = keyof typeof sourceRefMap;
+
 const SourcePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
@@ -42,6 +45,9 @@ const SourcePage: React.FC = () => {
 				<>
 					<p><strong>Please note:</strong> This link leads to an external site.</p>
 					<blockquote><em>{title}</em><br /><a href={url}>{url}</a></blockquote>
+					<hr/>
+					<p className="diminishNextHeader"><strong className="hl">Entries That Reference This Source:</strong></p>
+					{unknown ? <></> : (sourceRefMap[id as SourceMap] || <></>)}
 				</>
 			)}
 		</BasicPage>

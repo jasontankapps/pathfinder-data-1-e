@@ -404,7 +404,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 1,
-		type: "Basic Rules"
+		type: "Rules (Basic)"
 	},
 	"rules_basics02": {
 		data: rule2,
@@ -412,7 +412,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 2,
-		type: "Basic Rules"
+		type: "Rules (Basic)"
 	},
 	"rules_basics03": {
 		data: rule3,
@@ -420,7 +420,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 3,
-		type: "Basic Rules"
+		type: "Rules (Basic)"
 	},
 	"rules_basics04": {
 		data: rule4,
@@ -428,7 +428,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 4,
-		type: "Basic Rules"
+		type: "Rules (Basic)"
 	},
 	"rules_combat01": {
 		data: rule5,
@@ -436,7 +436,7 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 5,
-		type: "Combat Rules"
+		type: "Rules (Combat)"
 	},
 	"rules_gm01": {
 		data: rule6,

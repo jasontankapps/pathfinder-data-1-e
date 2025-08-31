@@ -50,6 +50,8 @@ const $dataIndex = [];
 const $allIncludingCopies = [];
 // Raw info containing redirects
 const $redirects = {};
+// Index of pages that reference sources
+const $sources = {};
 
 const recordType = (type) => {
 	if(!$typesFound[type]) {
@@ -85,6 +87,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		const {
 			name: n,
 			title,
+			sources,
 			copyof,
 			redirect,
 			subtitle,
@@ -151,11 +154,20 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 			$fuseIndex.push(indexable);
 			// Save for extra data to be used by the search page
 			const searchgroup = (sg2 && (SEARCHGROUPS.indexOf(sg2) + 1)) || sg;
-			$dataIndex.push({
+			const obj = {
 				t: $typesFound[typeOverride || type],
 				p: $prefixesFound[link],
 				l: prop,
 				s: searchgroup
+			};
+			$dataIndex.push(obj);
+			sources && sources.forEach(source => {
+				const s = source.toLowerCase().replace(/[-_ ]/g, "_").replace(/[^0-9_a-z]/g, "");
+				if(!$sources[s]) {
+					$sources[s] = [];
+				}
+				const {t,p} = obj;
+				$sources[s].push([t,p,prop,named]);
 			});
 		}
 		// Save for other functions to find a page name quickly
@@ -174,6 +186,46 @@ Object.entries($groupingData).forEach(([prop, value]) => {
 	}
 });
 
+const $allSourcesMap = [
+	`import {lazy} from 'react';\nconst output = {`
+];
+Object.entries($sources).forEach(([prop, value]) => {
+	const transformedProp = prop.toLowerCase().replace(/[-_ ]/g, "_").replace(/[^0-9_a-z]/g, "");
+	const baseurl = `__source_${transformedProp}`;
+	const url = `./src/pages/subpages/${baseurl}.tsx`;
+	$allSourcesMap.push(`${transformedProp}: lazy(() => import("./${baseurl}")),`);
+	const data = {};
+	const types = [];
+	const output = [];
+	value.forEach(page => {
+		const [typeNumber, prefixNumber, prop, title] = page;
+		const type = $allTypes[typeNumber];
+		const link = `${$allPrefixes[prefixNumber]}/${prop}`;
+		if(data[type]) {
+			data[type].push([title, link]);
+		} else {
+			types.push(type);
+			data[type] = [[title, link]];
+		}
+	});
+	types.sort().forEach(t => {
+		output.push(`<h3>${t}</h3><ul>`);
+		data[t].sort((a, b) => a[0].localeCompare(b[0])).forEach(pair => {
+			const [title, link] = pair;
+			output.push(`<li><Link to="/${link}">${title}</Link></li>`);
+		});
+		output.push(`</ul>`);
+	});
+	const file = `import Link from '../../components/Link';\nconst jsx = () => <>${output.join("")}</>;\nexport default jsx;`;
+	if(get(url).trim() === file) {
+		console.log(`UNCHANGED ${url}`);
+	} else {
+		fs.writeFileSync(url, file);
+		console.log(`Saved ${url}`);
+	}
+});
+$allSourcesMap.push(`};\nexport default output;`)
+
 const $allLinks = {};
 $allIncludingCopies.forEach(([link, title]) => ($allLinks[link] = title || "BLANK"));
 
@@ -186,7 +238,8 @@ const $data_pairs = [
 	})],
 	['./src/json/_data__fuse-index.json', JSON.stringify($fuseIndex)],
 	['./src/json/_data__all_links.json', JSON.stringify($allLinks)],
-	['./src/json/_data__redirects.json', JSON.stringify($redirects).trim()]
+	['./src/json/_data__redirects.json', JSON.stringify($redirects).trim()],
+	['./src/pages/subpages/_data__sources.tsx', $allSourcesMap.join("")]
 ];
 
 $data_pairs.forEach(pair => {

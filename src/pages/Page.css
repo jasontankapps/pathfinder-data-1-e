@@ -126,7 +126,8 @@ div.headerLike:first-child,
 .jumpList + h4,
 .jumpList + h5,
 .jumpList + h6,
-.jumpList + div.headerLike {
+.jumpList + div.headerLike,
+p.diminishNextHeader + h3 {
 	border-block-start-width: 0;
 }
 div.headerLike {
