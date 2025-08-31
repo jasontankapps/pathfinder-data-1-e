@@ -37,7 +37,7 @@ const toggle = (item: string, all: string[]): string[] => {
 	}
 	return [...all, item];
 };
-const clip = (toaster: UseIonToastResult, ref: RefObject<HTMLIonTextareaElement>) => {
+const clip = (toaster: UseIonToastResult, ref: RefObject<HTMLIonTextareaElement|null>) => {
 	const [toast, closeToast] = toaster;
 	if(ref && ref.current && ref.current.value) {
 		Clipboard.write({string: ref.current.value}).then(
@@ -67,7 +67,7 @@ type Pair = [string, BG];
 
 const maybeLaunchImportModal = (
 	setter: Dispatch<Pair[]>,
-	ref: RefObject<HTMLIonTextareaElement>,
+	ref: RefObject<HTMLIonTextareaElement|null>,
 	toaster: UseIonToastResult
 ): void => {
 	let message = "No data to import.";
@@ -272,8 +272,8 @@ const BookmarksImportExportPage: FC = () => {
 	const { db, order } = useAppSelector(state => state.bookmarks);
 	const [selected, setSelected] = useState<string[]>([]);
 	const [importing, setImporting] = useState<Pair[]>([]);
-	const exportRef = useRef<HTMLIonTextareaElement>(null);
-	const importRef = useRef<HTMLIonTextareaElement>(null);
+	const exportRef = useRef<HTMLIonTextareaElement|null>(null);
+	const importRef = useRef<HTMLIonTextareaElement|null>(null);
 	const toaster = useIonToast();
 	const alert = useIonAlert();
 	const exportable = order
