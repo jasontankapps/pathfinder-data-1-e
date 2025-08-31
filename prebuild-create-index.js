@@ -212,11 +212,11 @@ Object.entries($sources).forEach(([prop, value]) => {
 		output.push(`<h3>${t}</h3><ul>`);
 		data[t].sort((a, b) => a[0].localeCompare(b[0])).forEach(pair => {
 			const [title, link] = pair;
-			output.push(`<li><Link to="/${link}">${title}</Link></li>`);
+			output.push(`<li><Link key="/${link}" to="/${link}">${title}</Link></li>`);
 		});
 		output.push(`</ul>`);
 	});
-	const file = `import Link from '../../components/Link';\nconst jsx = () => <>${output.join("")}</>;\nexport default jsx;`;
+	const file = `import Link from '../../components/Link';\nconst References = () => <>${output.join("")}</>;\nexport default <References />;`;
 	if(get(url).trim() === file) {
 		console.log(`UNCHANGED ${url}`);
 	} else {
