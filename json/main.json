@@ -2585,7 +2585,7 @@
 					[ "{template/Petitioner}", [1.01, "CR is 1"], [1, "X"], [2, ""], [2, ""], [2, ""] ],
 					[ "{template/Pickin Ogre}", [0, "+0"], [2, ""], [1, "X"], [1, "X"], [2, ""] ],
 					[ "{template/Plagued Beast}", [1, "+1"], [1, "X"], [2, ""], [2, ""], [2, ""] ],
-					[ "{template/Pod-Spawned}", [-0.5, "-2 to +0"], [1, "X"], [2, ""], [2, ""], [2, ""] ],
+					[ "{template/Pod-Spawned}", [-1.9, "-2 to +0"], [1, "X"], [2, ""], [2, ""], [2, ""] ],
 					[ "{template/Possessed Creature}", [1, "+1"], [1, "X"], [2, ""], [1, "X"], [2, ""] ],
 					[ "{template/Prana Ghost}", [1, "+1"], [1, "X"], [2, ""], [2, ""], [2, ""] ],
 					[ "{template/Primordial}", [0.1, "+0 or +1"], [1, "X"], [2, ""], [1, "X"], [1.2, "X\\*\\*"] ],

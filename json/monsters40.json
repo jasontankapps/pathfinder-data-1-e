@@ -284,6 +284,7 @@
 			"Approximately 1 in 20 vegepymies are chieftains. A vegepygmy chieftain is an advanced vegepygmy (often one with class levels) that carries an infestation of russet mold spores in its flesh. A vegepygmy chieftain infects any creature it hits with its natural weapons with russet mold spores (see {rule/Slimes, Molds, and Fungi})."
 		]
 	},
+	"vegepygmies": { "redirect": "vegepygmy" },
 	"vegepygmy_thorny": {
 		"name": "Thorny Vegepygmy",
 		"sources": [ "Darklands Revisited" ],
