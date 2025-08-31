@@ -33,12 +33,15 @@ process.argv.forEach(bit => {
 			$.skipColors = true;
 			$.skipFeatTree = true;
 		}
+		let m;
 		if(bit === "CSS") {
 			// restore colors
 			$.skipColors = false;
 		} else if(bit === "TREE") {
 			// restore feat tree
 			$.skipFeatTree = false;
+		} else if (m = bit.match(/^regex=(.+)$/)) {
+			$.limit.push(new RegExp(m[1]));
 		} else {
 			$.limit.push(bit);
 		}
@@ -111,7 +114,7 @@ $.skipColors || (() => {
 })();
 
 // Handle implicit jumplists
-const jl = (text, id, possibleText) => {
+const addToJumpList = (text, id, possibleText) => {
 	const jl = $.flags.implicitJumplist || [];
 	let newText = text;
 	if(typeof possibleText === "string") {
@@ -130,7 +133,7 @@ const jl = (text, id, possibleText) => {
 	$.flags.implicitJumplist = [...jl, [newText, id] ];
 };
 
-const alternateBlocks = {
+const blockDirectives = {
 	level: "block",
 	marker: "::",
 	renderer: (token) => {
@@ -223,7 +226,7 @@ const alternateBlocks = {
 		} else if ("h2h3h4h5h6".indexOf(n) >= 0) {
 			if(attrs.jl) {
 				const id = $.prefix + (attrs.id || text.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
-				jl(text, id, attrs.jl);
+				addToJumpList(text, id, attrs.jl);
 				if(attrs.extra) {
 					return `${maybeClear}<${n} id="${id}" data-hash-target>${text} ${attrs.extra}</${n}>\n`;
 				}
@@ -252,7 +255,7 @@ const alternateBlocks = {
 			}
 			if(attrs.jl) {
 				const id = $.prefix + (attrs.id || linktext.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
-				jl(linktext, id, attrs.jl);
+				addToJumpList(linktext, id, attrs.jl);
 				return `${maybeClear}<${t} id="${id}" data-hash-target>${inner}</${t}>\n`;
 			}
 			return `${maybeClear}<${t}>${inner}</${t}>`;
@@ -260,12 +263,11 @@ const alternateBlocks = {
 		return false;
 	}
 };
-
-const getAlternateBlocks = () => {
-	return alternateBlocks;
+const getBlockDirectives = () => {
+	return blockDirectives;
 }
 
-const specialContainerBlocks = {
+const containerDirectives = {
 	level: "container",
 	marker: ":::",
 	renderer: (token) => {
@@ -308,18 +310,17 @@ const specialContainerBlocks = {
 		return false;
 	}
 };
-
-const getSpecialContainerBlocks = () => {
-	return specialContainerBlocks;
+const getContainerDirectives = () => {
+	return containerDirectives;
 };
-const getDuplicateSpecialContainerBlocks = () => {
+const getDuplicateContainerDirectives = () => {
 	return {
-		...specialContainerBlocks,
+		...containerDirectives,
 		marker: ";;;"
 	};
 };
 
-const inlineTags = {
+const inlineDirectives = {
 	level: "inline",
 	marker: "@",
 	renderer: (token) => {
@@ -335,7 +336,7 @@ const inlineTags = {
 						.toLowerCase()
 						.replace(/[^-a-z0-9]/g, "")
 				);
-				jl(text, id, attrs.jl);
+				addToJumpList(text, id, attrs.jl);
 				return id;
 			}
 		};
@@ -388,13 +389,12 @@ const inlineTags = {
 		const marked2 = makeNewMarkedInstance();
 		const id = $.prefix + (attrs.id || text.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, ""));
 		// implicit jumplist
-		attrs.jl && jl(text, id, attrs.jl);
+		attrs.jl && addToJumpList(text, id, attrs.jl);
 		return `<${tag} id="${id}" data-hash-target>${marked2.parseInline(text)}</${tag}>`;
 	}
 };
-
-const getInlineTags = () => {
-	return inlineTags;
+const getInlineDirectives = () => {
+	return inlineDirectives;
 };
 
 // Converts {some/Link: Text/s} into [Link: Texts](some/link_text)
@@ -422,6 +422,7 @@ const makeSourceLink = (sourceInfo) => {
 	const link = source.toLowerCase().replace(/[- ]/g, "_").replace(/[^-a-z_0-9]/g, "");
 	return `[${sourceText}](source/${link})`;
 };
+
 // Renderer object for Marked
 const renderer = () => {
 	return {
@@ -618,10 +619,10 @@ const makeNewMarkedInstance = (initialUse = { gfm: true }, ...midArguments) => {
 	marked.use(initialUse);
 	marked.use(createDirectives([
 		...presetDirectiveConfigs,
-		getAlternateBlocks(),
-		getSpecialContainerBlocks(),
-		getDuplicateSpecialContainerBlocks(),
-		getInlineTags()
+		getBlockDirectives(),
+		getContainerDirectives(),
+		getDuplicateContainerDirectives(),
+		getInlineDirectives()
 	]));
 	midArguments.forEach(option => marked.use(option));
 	marked.use(gfmHeadingId({prefix: $.prefix}));
@@ -656,6 +657,7 @@ const convertDescription = (temporaryFlags, desc, prefix, tables, openTag = "", 
 	return [`<${openTag}>${removeCurlyBrackets(parsed)}</${closeTag}>`, flags];
 };
 
+// Convert compilation templates into descriptions
 const parseTemplate = (template, title, suffix, sourceText, desc, split = true) => {
 	// !-DESC-! becomes the entry description
 	// !-TITLE-! becomes the entry title
@@ -986,19 +988,32 @@ const getParsing = () => {
 	// Ignoring sources, they are a special case
 	delete groups["sources"];
 	if(!$.limit) {
-		const number_of_groups = Object.keys(groups).length;
-		return [groups, number_of_groups];
+		return [groups, Object.keys(groups).length];
 	}
 	const newGroups = {};
+	const rx = [];
+	let count = 0;
 	$.limit.forEach(prop => {
-		if(groups[prop]) {
+		if(typeof prop !== "string") {
+			rx.push(prop);
+		} else if(groups[prop]) {
 			newGroups[prop] = groups[prop];
+			count++;
 		} else {
-			console.log(`CANNOT FIND: ["${prop}"]`);
-			$.errorCount++;
+			logError(`CANNOT FIND: ["${prop}"]`);
 		}
 	});
-	return [newGroups, Object.keys(newGroups).length];
+	if(rx.length > 0) {
+		Object.keys(groups).forEach(prop => {
+			if(newGroups[prop]) { return; /* SKIP! */ }
+			if(rx.some(regex => prop.match(regex))) {
+				count++;
+				newGroups[prop] = groups[prop];
+				console.log("Matched " + prop);
+			}
+		});
+	}
+	return [newGroups, count];
 };
 const [all_usable_groups, number_of_groups] = getParsing();
 

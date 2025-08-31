@@ -12,7 +12,8 @@
 		},
 		{
 			"fileMatch": [
-				"/src/json/*.json"
+				"/src/json/*.json",
+				"!/src/json/_*.json"
 			],
 			"url": "./schemaSources.json"
 		}
