@@ -24,7 +24,7 @@
 			"",
 			"- 1st-{spell/comprehend languages}[^S], {spell/detect secret doors}[^S], {spell/detect undead}[^S], {spell/identify}[^S], {spell/protection from evil}, {spell/protection from law}, {spell/summon monster I}, {spell/true strike}[^S]",
 			"",
-			"[^S]: A spell from the caster's specialty school."
+			"[^S]: A spell from the spellbook creator's specialty school."
 		]
 	},
 	"arctic_call": {
@@ -54,7 +54,7 @@
 			"",
 			"**Rime Bite (Su)** You infuse your spell with a biting cold that few can withstand. Spend this boon as a free action when you cast a spell with the cold descriptor. Any damage from that spell ignores all resistance to cold, but does not ignore immunity to cold.",
 			"",
-			"[^S]: A spell from the caster's specialty school.  ",
+			"[^S]: A spell from the spellbook creator's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
 		]
 	},
@@ -105,7 +105,7 @@
 			"",
 			"**Harmful Surge (Su)** You can maximize a spell, but doing so damages you. Spend this boon effect as a free action when you cast a wizard evocation spell. When you do, you can treat that spell as if it were cast with the {feat/Maximize Spell} metamagic feat, but you take 1d4 points of damage &times; the level of the spell that you are maximizing. The damage you take cannot be reduced in any way.",
 			"",
-			"[^S]: A spell from the caster's specialty school."
+			"[^S]: A spell from the spellbook creator's specialty school."
 		]
 	},
 	"book_of_the_grave": {
@@ -134,7 +134,7 @@
 			"",
 			"**Breath of the Grave (Su)** As a swift action, spend this boon's effect to breathe a 15-foot cone of rotting stench. Creatures within the cone must succeed at a Fortitude saving throw (DC 10 + your highest caster level in a class that prepares spells) or be {misc/sickened} for 1 round. This spends the boon. After this boon has been spent, you take a -4 penalty on Diplomacy and Stealth checks until you prepare spells again.",
 			"",
-			"[^S]: A spell from the caster's specialty school."
+			"[^S]: A spell from the spellbook creator's specialty school."
 		]
 	},
 	"calamaes_fragment": {
@@ -249,7 +249,7 @@
 			"",
 			"- 1st-{spell/burning hands}, {spell/detect undead}, {spell/expeditious retreat}, {spell/magic missile}, {spell/protection from evil}[^S], {spell/ray of enfeeblement}, {spell/shield}[^S]",
 			"",
-			"[^S]: A spell from the caster's specialty school."
+			"[^S]: A spell from the spellbook creator's specialty school."
 		]
 	},
 	"erages_journeymans_manual": {
@@ -322,7 +322,7 @@
 			"- 2nd-{spell/arcane lock}, {spell/blindness>_deafness}[^S], {spell/darkness}, {spell/false life}[^S], {spell/obscure object}, {spell/resist energy}, {spell/scare}[^S], {spell/summon swarm}",
 			"- 1st-{spell/cause fear}[^S], {spell/chill touch}[^S], {spell/floating disk}, {spell/hypnotism}, {spell/obscuring mist}, {spell/ray of enfeeblement}[^S], {spell/restore corpse}[^S], {spell/sculpt corpse}[^S], {spell/shield}, {spell/sleep}",
 			"",
-			"[^S]: A spell from the caster's specialty school."
+			"[^S]: A spell from the spellbook creator's specialty school."
 		]
 	},
 	"grimoire_of_glittering_eyes": {
@@ -352,7 +352,7 @@
 			"",
 			"**Glittering Eyes (Su)** When casting an illusion spell, you gain expanded sight. Spend this boon's effect as a free action when you cast an illusion spell. You gain darkvision 60 feet and a +4 bonus on saving throws to disbelieve illusions, with both benefits lasting for 1 minute.",
 			"",
-			"[^S]: A spell from the caster's specialty school.  ",
+			"[^S]: A spell from the spellbook creator's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
 		]
 	},
@@ -385,7 +385,7 @@
 			"",
 			"**Guardian Trick (Su)** With a quick phrase of power, you attempt to foil an attack. Spend this boon's effect as an immediate action when an undead or outsider hits you with an attack. The attacking creature must reroll the attack, taking the second roll even if it is lower.",
 			"",
-			"[^S]: A spell from the caster's specialty school."
+			"[^S]: A spell from the spellbook creator's specialty school."
 		]
 	},
 	"insights_of_far_seeing_taernis": {
@@ -417,7 +417,7 @@
 			"",
 			"**Sturdy Summoning (Su)** A creature you summon gains augmented defenses for a short time. Spend this boon effect as a free action when you cast a conjuration (summoning) wizard spell. The creature you summon with that spell gains a number of temporary hit points equal to your caster level, and as long as the summoned creature has at least 1 of these hit points, it gains a +2 circumstance bonus on saving throws.",
 			"",
-			"[^S]: A spell from the caster's specialty school.  ",
+			"[^S]: A spell from the spellbook creator's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
 		]
 	},
@@ -471,7 +471,7 @@
 			"",
 			"**Eyes of Rul Thaven (Su)** You use a trick perfected by Rul Thaven to ferret out invisible creatures. Spend this boon's effect as a swift action. You gain the effects of *see invisibility* for 1 round.",
 			"",
-			"[^S]: A spell from the caster's specialty school.  ",
+			"[^S]: A spell from the spellbook creator's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
 		]
 	},
@@ -558,7 +558,7 @@
 			"",
 			"**Revivifying Contingency (Su)** You do not spend this boon with an action. When you are affected by this boon, the first time you are reduced to 0 or fewer hit points, you immediately regain 2d6 hit points. If this is enough for you to reach 0 hit points or higher, you do not fall unconscious.",
 			"",
-			"[^S]: A spell from the caster's specialty school.  ",
+			"[^S]: A spell from the spellbook creator's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
 		]
 	},
@@ -618,7 +618,7 @@
 			"",
 			"**Improved Eyes of Rul Thaven (Su)** This improved boon allows you to see invisible creatures. You can activate the boon's effect as a swift action to gain the effects of *see invisibility* for up to 10 rounds. The rounds need not be consecutive, but you must spend a swift action each time you activate the boon's effect. The boon's effect is only spent when all 10 rounds of *see invisibility* are used up, or the next time you prepare wizard spells.",
 			"",
-			"[^S]: A spell from the caster's specialty school.  ",
+			"[^S]: A spell from the spellbook creator's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
 		]
 	},
@@ -654,7 +654,7 @@
 			"",
 			"**Curse of Names (Su)** When you are finished preparing your spells with this book, write the proper name of a single creature among the list of names in this book. As a swift action, when you are within 30 feet of the named creature, you can call out its name to bestow the *curse of names* on it. This spends the boon's effect. The target creature takes a -2 penalty on all attack rolls, and a -4 penalty on all attack rolls against you, for 1 minute. When you activate this curse, the name is crossed out in the back of the book. That creature cannot be the target of a *curse of names* originating from you ever again. The penalties of two instances of *curse of names* on the same creature do not stack.",
 			"",
-			"[^S]: A spell from the caster's specialty school.  ",
+			"[^S]: A spell from the spellbook creator's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
 		]
 	},
@@ -687,7 +687,7 @@
 			"",
 			"**Shadow Knowledge (Su)** The knowledge in this book clings to your consciousness like the Shadow Plane itself. Unlike other boons, you do not spend this one. Until you prepare spells again, you are considered trained in all Knowledge skills as long as the check pertains to the geography and denizens of the Shadow Plane. If you are already trained in the appropriate Knowledge skill, you gain a +2 circumstance bonus on these checks instead.",
 			"",
-			"[^S]: A spell from the caster's specialty school.  ",
+			"[^S]: A spell from the spellbook creator's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
 		]
 	},
@@ -739,7 +739,7 @@
 			"",
 			"**Travel Sage (Su)** There is nothing like a magic book to enhance the memory. Unlike other boons, you do not spend this one. Until you prepare spells again, you are considered trained in {skill/Knowledge (geography)}. If you are already trained in Knowledge (geography), you gain a +2 circumstance bonus on those checks instead.",
 			"",
-			"[^S]: A spell from the caster's specialty school.  ",
+			"[^S]: A spell from the spellbook creator's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
 		]
 	},
@@ -1003,7 +1003,7 @@
 			"",
 			"**Defensive Transmutation (Su)** When taking another shape, you can increase your defenses. Spend this boon's effect as a free action when you cast a transmutation spell with a range of personal. As long as you are affected by that spell, you gain a +2 natural armor bonus for the duration of the spell.",
 			"",
-			"[^S]: A spell from the caster's specialty school.  ",
+			"[^S]: A spell from the spellbook creator's specialty school.  ",
 			"[^OP]: A spell from the spellbook creator's opposition school."
 		]
 	},
@@ -1026,7 +1026,7 @@
 			"- 2nd-{spell/glide}[^S], {spell/knock}[^S], {spell/levitate}[^S], {spell/rope trick}[^S]",
 			"- 1st-{spell/ant haul}[^S], {spell/enlarge person}[^S], {spell/erase}[^S], {spell/expeditious retreat}[^S], {spell/gravity bow}[^S], {spell/hold portal}, {spell/jump}[^S], {spell/magic weapon}[^S], {spell/shield}",
 			"",
-			"[^S]: A spell from the caster's specialty school."
+			"[^S]: A spell from the spellbook creator's specialty school."
 		]
 	},
 	"unnamed_journal": {

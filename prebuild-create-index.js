@@ -52,6 +52,41 @@ const $allIncludingCopies = [];
 const $redirects = {};
 // Index of pages that reference sources
 const $sources = {};
+// Whether we announce every unchanged file
+let $verbose = false;
+// Count changed files
+let $changed = 0;
+// Count unchanged files
+let $unchanged = 0;
+
+
+// Parse command-line arguments
+process.argv.forEach(bit => {
+	if(!bit.match(/^[A-Z]:[\\/]/)) {
+		// Ignore file stuff
+		if(bit.indexOf("verbose") === 0 || bit.indexOf("--verbose") === 0) {
+			// old verbose output
+			$verbose = "verbose";
+		} else if(bit.indexOf("quiet") === 0 || bit.indexOf("--quiet") === 0) {
+			// restore feat tree
+			$verbose = "quiet";
+		}
+	}
+});
+
+const announce = (message, priority = 0) => {
+	if($verbose) {
+		if($verbose === "quiet") {
+			if(priority < 100) {
+				return;
+			}
+		}
+	} else if (priority < 1) {
+		return;
+	}
+	console.log(message);
+};
+
 
 const recordType = (type) => {
 	if(!$typesFound[type]) {
@@ -99,25 +134,25 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 		} = value;
 		typeOverride && recordType(typeOverride);
 		if(copyof && !data[copyof]) {
-			console.log(`>>>ERROR>>> ${file}.${prop}.copyof = [${copyof}], not found in same file`);
+			announce(`>>>ERROR>>> ${file}.${prop}.copyof = [${copyof}], not found in same file`, 100);
 			return;
 		} else if (redirect) {
 			if(!data[redirect]) {
-				console.log(`>>>ERROR>>> ${file}.${prop}.redirect = [${redirect}], not found in same file`);
+				announce(`>>>ERROR>>> ${file}.${prop}.redirect = [${redirect}], not found in same file`, 100);
 			} else {
 				$redirects[`${link}/${prop}`] = `${link}/${redirect}`;
 			}
 			// Either way, we can now ignore this entry.
 			return;
 		} else if (alternateOf && !data[alternateOf]) {
-			console.log(`>>>ERROR>>> ${file}.${prop}.alternateOf = [${alternateOf}], not found in same file`);
+			announce(`>>>ERROR>>> ${file}.${prop}.alternateOf = [${alternateOf}], not found in same file`, 100);
 			return;
 		}
 		if(prop === "not_found") {
 			// Skip, no need to put this in group data or search index
 			return;
 		} else if (num && $groupingData[link][prop]) {
-			console.log(`>>>ERROR>>> Duplicate [${prop}] in ${link} <${file}>`);
+			announce(`>>>ERROR>>> Duplicate [${prop}] in ${link} <${file}>`, 100);
 		}
 		if (num) {
 			// This is a part of a multi-file group.
@@ -133,7 +168,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 				cc = data[cc.copyof];
 			}
 			if(!cc) {
-				console.log(`>>>ERROR>>> ${file}.${prop}.copyof = [${copyof}], which does not lead to a stable entry`);
+				announce(`>>>ERROR>>> ${file}.${prop}.copyof = [${copyof}], which does not lead to a stable entry`, 100);
 			} else {
 				$allIncludingCopies.push([`${link}/${prop}`, cc.name || "BLANK"]);
 			}
@@ -179,10 +214,12 @@ Object.entries($groupingData).forEach(([prop, value]) => {
 	const url = `./src/json/_data_${prop}.json`;
 	const file = JSON.stringify(value);
 	if(get(url).trim() === file) {
-		console.log(`UNCHANGED ${url}`);
+		announce(`UNCHANGED ${url}`);
+		$unchanged++;
 	} else {
 		fs.writeFileSync(url, file);
-		console.log(`Saved ${url}`);
+		announce(`Saved ${url}`, 1);
+		$changed++;
 	}
 });
 
@@ -218,10 +255,12 @@ Object.entries($sources).forEach(([prop, value]) => {
 	});
 	const file = `import Link from '../../components/Link';\nconst References = () => <>${output.join("")}</>;\nexport default <References />;`;
 	if(get(url).trim() === file) {
-		console.log(`UNCHANGED ${url}`);
+		announce(`UNCHANGED ${url}`);
+		$unchanged++;
 	} else {
 		fs.writeFileSync(url, file);
-		console.log(`Saved ${url}`);
+		announce(`Saved ${url}`, 1);
+		$changed++;
 	}
 });
 $allSourcesMap.push(`};\nexport default output;`)
@@ -245,9 +284,13 @@ const $data_pairs = [
 $data_pairs.forEach(pair => {
 	const [filename, data] = pair;
 	if(get(filename).trim() === data) {
-		console.log(`UNCHANGED ${filename}`);
+		announce(`UNCHANGED ${filename}`);
+		$unchanged++;
 	} else {
 		fs.writeFileSync(filename, data);
-		console.log(`Saved ${filename}`);
+		announce(`Saved ${filename}`, 1);
+		$changed++;
 	}
 });
+
+announce(`\n\n>> Saved [${$changed}] files (out of ${$unchanged + $changed}).`, 500);
