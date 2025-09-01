@@ -500,7 +500,7 @@
 		"name": "Boreal Creature",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
 		"description": [
-			"::th[Boreal Creature]{cr=+1 sc=\"Pathfinder #67: The Snows of Summer/72\" inherited summonable}",
+			"::th[Boreal Creature]{cr=+1 sc=\"Pathfinder #67: The Snows of Summer/72\" inherited}",
 			"",
 			"In realms where the icy hand of winter seldom (or never) releases its frigid grasp, some particularly hardy creatures have evolved to better survive in these harsh environments, becoming stronger and much more dangerous. These boreal creatures mostly resemble members of their kind that dwell in more temperate climates, but their fur and skin are much paler, and it is not uncommon for parts of these creatures to be cloaked in frost.",
 			"",
@@ -785,7 +785,7 @@
 		"name": "Cytillesh Zombie",
 		"sources": [ "No Response from Deepmar" ],
 		"description": [
-			"::th[Cytillesh Zombie]{cr=+1 sc=\"No Response from Deepmar/21\" acquired summonable}",
+			"::th[Cytillesh Zombie]{cr=+1 sc=\"No Response from Deepmar/21\" acquired}",
 			"",
 			"The cytillesh zombies presented here use a hybrid monster template that is easy to duplicate. The base creature gains the {template/fast |zombie/ template}. It also gains +4 {umr/channel resistance} and Cytillesh Symbiosis (see the {monster/Cytillesh Zombie} stat block). The cytillesh zombie template increases a zombie's challenge rating by 1. In the context of this adventure, this template can only be added to a creature suffering the effects of exposure to cytillesh fungus that imbibes concentrated cytillesh with {eq-material/caphorite} and {eq-material/lazurite} granules."
 		]
@@ -2334,7 +2334,7 @@
 			"Classic Horrors Revisited"
 		],
 		"description": [
-			"::th[Ghost]{cr=+2 sc=\"Pathfinder RPG Bestiary/144\" acquired summonable}",
+			"::th[Ghost]{cr=+2 sc=\"Pathfinder RPG Bestiary/144\" acquired}",
 			"",
 			"\"Ghost\" is an acquired template that can be added to any living creature that has a Charisma score of at least 6. A ghost retains all the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -2446,7 +2446,7 @@
 		"name": "Gnarled Creature",
 		"sources": [ "The Witchwar Legacy" ],
 		"description": [
-			"::th[Gnarled Creature]{cr=+1 sc=\"The Witchwar Legacy/28\" acquired simple summonable}",
+			"::th[Gnarled Creature]{cr=+1 sc=\"The Witchwar Legacy/28\" acquired simple}",
 			"",
 			"Creatures who have been \"blessed\" with the demon lord {monster/Kostchtchie/'s} attention may acquire this template, which leaves them hunched and knotted with corded muscles and awkwardly formed limbs. Though slower and clumsier than their fellows, gnarled creatures are much stronger and hardier and have thick, horny skin. \"Gnarled\" is an acquired template that can be applied to any creature of the animal, dragon, fey, humanoid, magical beast, monstrous humanoid, outsider, undead, or vermin type.",
 			"",

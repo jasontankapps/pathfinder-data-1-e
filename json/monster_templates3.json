@@ -3,7 +3,7 @@
 		"name": "Half-Celestial",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::th[Half-Celestial]{cr=\"+1 to +3\" sc=\"Pathfinder RPG Bestiary/169\" acquired inherited summonable}",
+			"::th[Half-Celestial]{cr=\"+1 to +3\" sc=\"Pathfinder RPG Bestiary/169\" acquired inherited}",
 			"",
 			"\"Half-celestial\" is an inherited or acquired template that can be added to any living, corporeal creature with an Intelligence score of 4 or more. A half-celestial creature retains the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -47,7 +47,7 @@
 		"name": "Half-Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::th[Half-Dragon]{cr=+2 sc=\"Pathfinder RPG Bestiary/170\" acquired inherited summonable}",
+			"::th[Half-Dragon]{cr=+2 sc=\"Pathfinder RPG Bestiary/170\" acquired inherited}",
 			"",
 			"\"Half-dragon\" is an inherited or acquired template that can be added to any living, corporeal creature (referred to hereafter as the base creature). A half-dragon retains all the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -86,7 +86,7 @@
 			"Demons Revisited"
 		],
 		"description": [
-			"::th[Half-Fiend]{cr=\"+1 to +3\" sc=\"Pathfinder RPG Bestiary/171\" acquired inherited summonable}",
+			"::th[Half-Fiend]{cr=\"+1 to +3\" sc=\"Pathfinder RPG Bestiary/171\" acquired inherited}",
 			"",
 			"\"Half-fiend\" is an inherited or acquired template that can be added to a living, corporeal creature with an Int score of 4 or more. A half-fiend uses all the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -285,7 +285,7 @@
 		"name": "Half-Janni",
 		"sources": [ "Qadira, Gateway to the East" ],
 		"description": [
-			"::th[Half-Janni]{cr=+2 sc=\"Qadira, Gateway to the East/27\" acquired summonable}",
+			"::th[Half-Janni]{cr=+2 sc=\"Qadira, Gateway to the East/27\" acquired}",
 			"",
 			"Jann are the kind of genie closest to humans in interests and temperament, and are drawn to mingle with mortals. Sometimes these associations result in the birth of half-janni children. Beautiful and exotic, the elemental power that resides in these half-jann mixes with the unique potential of the human parent, sometimes rivaling or even exceeding that of their genie parent.",
 			"",
@@ -572,7 +572,7 @@
 		"name": "Id Mutant",
 		"sources": [ "Doom Comes to Dustpawn" ],
 		"description": [
-			"::th[Id Mutant]{cr=+1 sc=\"Doom Comes to Dustpawn/29\" acquired summonable}",
+			"::th[Id Mutant]{cr=+1 sc=\"Doom Comes to Dustpawn/29\" acquired}",
 			"",
 			"Scholars of the mind have many names for the part of the psyche that controls unconscious and animalistic urges-be it the primal brain, instinct, or simply the id. Some scholars believe that, were this underlying mind to seize control, a normally mild-mannered person would revert to a savage, bestial state; some even theorize that when a barbarian enters a rage, he is in fact tapping into the id to empower his wrath. But what would happen if powerful magic were to act upon the id and make it transform not only a person's mind, but his physical being as well? One such method by which this can occur is via the {curse/curse of bestial dreams}, an affliction that arises when the wishcraft of a vespergaunt interacts with powerful magical crystals infused with mortal dreams and memories - an affliction that, in time, transforms its victims into a deformed and bestial creature known as an id mutant.",
 			"",
@@ -808,7 +808,7 @@
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"::th[Lich]{cr=+2 sc=\"Pathfinder RPG Bestiary/188\" acquired summonable}",
+			"::th[Lich]{cr=+2 sc=\"Pathfinder RPG Bestiary/188\" acquired}",
 			"",
 			"\"Lich\" is an acquired template that can be added to any living creature (referred to hereafter as the base creature), provided it can create the required phylactery. A lich retains all the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -1144,7 +1144,7 @@
 		"name": "Terror Creature",
 		"sources": [ "City of Golden Death" ],
 		"description": [
-			"::th[Terror Creature]{cr=+0 sc=\"City of Golden Death/29\" acquired simple summonable}",
+			"::th[Terror Creature]{cr=+0 sc=\"City of Golden Death/29\" acquired simple}",
 			"",
 			"Creatures with the terror template are warped by prolonged contact with the Negative Energy Plane. They are terrifying to behold and have developed special resistances and attacks. A terror creature's quick and rebuild rules are the same.",
 			"",
@@ -1731,7 +1731,7 @@
 		"name": "Winter Fey",
 		"sources": [ "Pathfinder #68: The Shackled Hut" ],
 		"description": [
-			"::th[Winter Fey]{cr=+1 sc=\"Pathfinder #68: The Shackled Hut/91\" inherited summonable}",
+			"::th[Winter Fey]{cr=+1 sc=\"Pathfinder #68: The Shackled Hut/91\" inherited}",
 			"",
 			"\"Winter fey\" is an inherited template that can be added to any fey creature without the fire subtype, referred to hereafter as the base creature. A winter fey uses all the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -1768,7 +1768,7 @@
 		"name": "Winter-Touched Fey",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
 		"description": [
-			"::th[Winter-Touched Fey]{cr=+0 sc=\"Pathfinder #67: The Snows of Summer/72\" acquired simple summonable}",
+			"::th[Winter-Touched Fey]{cr=+0 sc=\"Pathfinder #67: The Snows of Summer/72\" acquired simple}",
 			"",
 			"Chief among the allies of Baba Yaga and the White Witches of Irrisen are the winter-touched, a special breed of fey immune to the harsh weather and low temperatures of the frozen north. Willingly pledging themselves to a wholly evil life, these creatures undergo a complex ritual called the Winter Rite, in which they accept a sliver of ice into their hearts that infuses their bodies with the same supernatural winter perpetuated by the White Witches of Irrisen. The resulting transformation gives the fey's skin a sickly bluish cast marked with spidery white veins like hoarfrost on glass. These evil fey can channel the power of winter into their attacks, slowing their victims with numbing cold. The winter-touched universally delight in spreading the influence of the White Witches, carrying out the wills of the witches who performed their Winter Rites. The winter-touched display a chilling loyalty that borders on fanaticism - a devotion all but guaranteed given the White Witches' ability to fatally pierce the hearts of those who fail them with the same slivers of ice the fey so willingly accepted.",
 			"",
