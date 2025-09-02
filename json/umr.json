@@ -1055,6 +1055,7 @@
 	"primary_attack": { "redirect": "natural_attacks" },
 	"claw_attack": { "redirect": "natural_attacks" },
 	"bite_attack": { "redirect": "natural_attacks" },
+	"tail_slap_attack": { "redirect": "natural_attacks" },
 	"spell_like_abilities": {
 		"name": "Spell-Like Abilities",
 		"sources": [ "Bestiary 5" ],

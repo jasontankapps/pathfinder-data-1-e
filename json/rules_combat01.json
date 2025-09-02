@@ -3524,7 +3524,9 @@
 			"",
 			"@HL[Charisma:] Damage to your Charisma score causes you to take penalties on Charisma-based skill checks. This penalty also applies to any spell DCs based off Charisma and the DC to resist your channeled energy.",
 			"",
-			"@HL[Ability Drain:] Ability drain actually reduces the relevant ability score. Modify all skills and statistics related to that ability. This might cause you to lose skill points, hit points, and other bonuses. Ability drain can be healed through the use of spells such as {spell/restoration}."
+			"### Ability Drain",
+			"",
+			"Ability drain actually reduces the relevant ability score. Modify all skills and statistics related to that ability. This might cause you to lose skill points, hit points, and other bonuses. Ability drain can be healed through the use of spells such as {spell/restoration}."
 		],
 		"parent_topics": [
 			"combat",
@@ -4358,7 +4360,7 @@
 			"",
 			"This extraordinary ability lets a creature detect approaching enemies, sniff out hidden foes, and track by sense of smell.",
 			"",
-			"A creature with the scent ability can detect opponents by sense of smell, generally within 30 feet. If the opponent is upwind, the range is 60 feet. If it is downwind, the range is 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at three times these ranges.",
+			"A creature with the {umr/scent} ability can detect opponents by sense of smell, generally within 30 feet. If the opponent is upwind, the range is 60 feet. If it is downwind, the range is 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at three times these ranges.",
 			"",
 			"The creature detects another creature's presence but not its specific location. Noting the direction of the scent is a move action. If the creature moves within 5 feet (1 square) of the scent's source, the creature can pinpoint the area that the source occupies, even if it cannot be seen.",
 			"",
