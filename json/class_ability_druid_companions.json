@@ -55,7 +55,7 @@
 			">**AC** +1 natural armor  ",
 			">**Attack** bite (1d8 plus grab)  ",
 			">**Ability Scores** Str 13, Dex 15, Con 12, Int 1, Wis 12, Cha 2  ",
-			">**Special Qualities** aquatic, {umr/grab} (Medium), low-light vision, lure (sheds light as per a candle), {umr/scent}",
+			">**Special Qualities** aquatic, {umr/grab} (Medium), low-light vision, lure (sheds light as per a {eq-misc/candle}), {umr/scent}",
 			"",
 			"*There are no rules for the lure ability specifically tied to the anglerfish, but a \"Lure\" ability exists for {monster/ceratioidi} and {monster/sea linnorm/s} that is very anglerfish-themed.*",
 			"",
@@ -155,7 +155,7 @@
 			">**Ability Scores** Str +8, Dex -2, Con +4"
 		]
 	},
-	"archaeopyeryx": {
+	"archaeopteryx": {
 		"name": "Archaeopteryx",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
@@ -675,7 +675,7 @@
 			"",
 			"### 4th-Level Advancement",
 			"",
-			">**Attack** Str +2, Con +2"
+			">**Ability Scores** Str +2, Con +2"
 		]
 	},
 	"camel": {
@@ -5963,6 +5963,7 @@
 		]
 	},
 	"giant_whiptail_centipede": { "redirect": "whiptail_centipede_giant" },
+	"centipede_giant_whiptail": { "redirect": "whiptail_centipede_giant" },
 	"whisperfall_vulture": {
 		"name": "Whisperfall Vulture",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
