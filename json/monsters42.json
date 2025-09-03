@@ -1427,7 +1427,7 @@
 			"",
 			"**CL** 8th; **Price** 18,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/minor creation}, creator must be caster level 8th; Skill Craft (taxidermy) DC 18; **Cost** 10,300 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/minor creation}, creator must be caster level 8th; **Skill** Craft (taxidermy) DC 18; **Cost** 10,300 gp"
 		]
 	},
 	"emerald_automaton": {
@@ -1491,7 +1491,7 @@
 			"",
 			"**CL** 6th; **Price** 12,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/lesser geas}, {spell/shocking grasp}, creator must be caster level 6th; Skill Craft (armor) DC 20; **Cost** 6,500 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/lesser geas}, {spell/shocking grasp}, creator must be caster level 6th; **Skill** Craft (armor) DC 20; **Cost** 6,500 gp",
 			"",
 			"[^B]: Bonus feat."
 		]

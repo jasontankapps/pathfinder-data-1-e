@@ -905,7 +905,7 @@
 			"",
 			"**CL** 8th; **Price** 6,600 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/magic jar}, {spell/minor creation}, {spell/sleet storm}, soul of a living creature who dies or is slain during the creation process, creator must be caster level 8th; Skill Craft (sculpture) DC 16; **Cost** 3,600 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/magic jar}, {spell/minor creation}, {spell/sleet storm}, soul of a living creature who dies or is slain during the creation process, creator must be caster level 8th; **Skill** Craft (sculpture) DC 16; **Cost** 3,600 gp"
 		]
 	},
 	"guardian_scroll": {
@@ -969,7 +969,7 @@
 			"",
 			"**CL** 8th; **Price** 5,000 gp (7,500 gp)",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/bull's strength}, {spell/false life}, {spell/fly}, {spell/lesser geas}, {spell/magic weapon}, {spell/make whole}; paper made from an intelligent plant creature that dies or is slain during the paper-making process, or a more costly alchemically treated paper; creator must have 5 ranks in Linguistics; Skill Craft (calligraphy) DC 15; **Cost** 2,500 gp (3,750 gp)"
+			"**Requirements** {feat/Craft Construct}, {spell/bull's strength}, {spell/false life}, {spell/fly}, {spell/lesser geas}, {spell/magic weapon}, {spell/make whole}; paper made from an intelligent plant creature that dies or is slain during the paper-making process, or a more costly alchemically treated paper; creator must have 5 ranks in Linguistics; **Skill** Craft (calligraphy) DC 15; **Cost** 2,500 gp (3,750 gp)"
 		]
 	},
 	"guecubu": {
@@ -1438,7 +1438,7 @@
 			"",
 			"**CL** 13th; **Price** 46,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/beast shape III}, {spell/limited wish}, creator must be caster level 13th; Skill Craft (sculptures); **Cost** 24,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/beast shape III}, {spell/limited wish}, creator must be caster level 13th; **Skill** Craft (sculptures); **Cost** 24,000 gp"
 		]
 	},
 	"harionago": {

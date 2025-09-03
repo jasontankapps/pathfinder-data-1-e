@@ -1178,9 +1178,7 @@
 			"| 3 | The unstable mutagen does not grant a natural armor bonus. |",
 			"| 4 | The natural armor bonus granted by the mutagen increases by 2. |",
 			"| 5 | The penalty that the mutagen applies to the corresponding mental ability score increases by 2. |",
-			"| 6 | The unstable mutagen does not apply a penalty to the corresponding mental ability score. |",
-			"",
-			""
+			"| 6 | The unstable mutagen does not apply a penalty to the corresponding mental ability score. |"
 		],
 		"category": "Magic",
 		"topLink": [ "Magic Traits", "main/traits_magic" ]
@@ -1824,9 +1822,7 @@
 			"- **Jilia Bainilus (female human; Wisdom):** Kintargo's previous lord-mayor was well known for her cutting insights into the political world. Few have fought harder to maintain Kintargo's independence.",
 			"- **Octavio Sabinus (male human; Strength):** The Lictor of the {rule/Hellknight>s} Order of the Torrent might seem an odd choice for admiration, but Octavio's physical stature certainly lent him all the support he needed to command a room.",
 			"- **Shensen (female half-elf; Charisma):** Shensen's performances as an outspoken force against the diabolism of House Thrune have won her nearly as many admirers as have her memorable performances on stage in the Kintargo Opera House.",
-			"- **Strea Vestori (female tiefling; Dexterity):** Strea is often regarded as the face of the slums known as the Devil's Nursery. As Kintargo's most outspoken and public tiefling citizen and leader of the Cloven Hoof Society, she has nearly as many admirers as she has political enemies in Cheliax.",
-			"",
-			""
+			"- **Strea Vestori (female tiefling; Dexterity):** Strea is often regarded as the face of the slums known as the Devil's Nursery. As Kintargo's most outspoken and public tiefling citizen and leader of the Cloven Hoof Society, she has nearly as many admirers as she has political enemies in Cheliax."
 		],
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2260,9 +2256,7 @@
 			"",
 			"- Ameiko: Tien, Varisian",
 			"- Koya or Sandru: Varisian",
-			"- Shalelu: Elven, Goblin",
-			"",
-			""
+			"- Shalelu: Elven, Goblin"
 		],
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -2394,9 +2388,7 @@
 			"- **Lodovka:** Your family has made a living off the coasts of the Lake of Mists and Veils since before Brevoy existed. You gain a +1 trait bonus on Swim checks, and Swim is always treated as a class skill for you. Your family motto is \"The Waters, Our Fields.\"",
 			"- **Medvyed:** Your family has long a deep respect for the wilderness and is superstitious about the creatures that dwell therein. You gain a +2 trait bonus on all Diplomacy checks made to deal with fey creatures and a +1 trait bonus on Will saves made against their spells and supernatural abilities. Your family motto is \"Endurance Overcomes All.\"",
 			"- **Orlovsky:** Your family has a reputation for avoiding conflicts. You gain a +1 trait bonus on your CMD. In addition, choose Acrobatics, Diplomacy, or Stealth-you gain a +1 trait bonus on this skill. Your family motto is \"High Above.\"",
-			"- **Surtova:** Your family is well known for their political agility and scheming natures. You deal +2 damage when attacking a flat-footed opponent while wielding a light or one-handed weapon. Your family motto is \"Ours is the Right.\"",
-			"",
-			""
+			"- **Surtova:** Your family is well known for their political agility and scheming natures. You deal +2 damage when attacking a flat-footed opponent while wielding a light or one-handed weapon. Your family motto is \"Ours is the Right.\""
 		],
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	},
@@ -3460,9 +3452,7 @@
 			"",
 			"- Choose a specific type of armor. When wearing armor of that type, you treat its armor check penalty as if it were -1 lower.",
 			"- When fighting with two weapons, the penalty imposed on your primary weapon is reduced by 1.",
-			"- You gain a +2 trait bonus on Intimidate checks to demoralize opponents.",
-			"",
-			""
+			"- You gain a +2 trait bonus on Intimidate checks to demoralize opponents."
 		],
 		"topLink": [ "Campaign Traits", "main/traits_campaign" ]
 	}

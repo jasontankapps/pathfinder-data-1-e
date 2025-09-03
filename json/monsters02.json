@@ -466,7 +466,7 @@
 			"",
 			"**CL** 12th; **Price** 200,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/resurrection}, {spell/telekinesis}; Skill Craft (blacksmithing), Knowledge (engineering), and Heal DC 25; **Cost** 100,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/resurrection}, {spell/telekinesis}; **Skill** Craft (blacksmithing), Knowledge (engineering), and Heal DC 25; **Cost** 100,000 gp"
 		]
 	},
 	"anisydaemon": {
@@ -2782,7 +2782,7 @@
 			"",
 			"**CL** 13th; **Price** 87,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/make whole}, {spell/move earth}, creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 20; **Cost** 47,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/make whole}, {spell/move earth}, creator must be caster level 13th; **Skill** Craft (armor) or Craft (weapons) DC 20; **Cost** 47,500 gp"
 		]
 	},
 	"argent_warden": {
@@ -2844,7 +2844,7 @@
 			"",
 			"**CL** 11th; **Price** 25,650 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/protection from evil}, creator must be caster level 11th, must be constructed in Heaven; Skill Craft (armor) DC 15; **Cost** 13,650 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/protection from evil}, creator must be caster level 11th, must be constructed in Heaven; **Skill** Craft (armor) DC 15; **Cost** 13,650 gp"
 		]
 	},
 	"ascomoid": {

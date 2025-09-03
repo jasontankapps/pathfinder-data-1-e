@@ -120,7 +120,7 @@
 			"Although the secret to the creation of aluums is closely guarded by the Pactmasters, near approximations have appeared elsewhere, indicating that some have either reverse-engineered the process or have stolen those secrets from Katapesh. During the creation process, the souls of a dozen slaves are siphoned from their bodies as they die. Fragments of these souls are placed within the inert body of the aluum, giving it its animating force.",
 			"",
 			"**CL** 13th; **Price** 80,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/hold monster}, {spell/limited wish}, {spell/magic jar}, creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 18; **Cost** 40,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/hold monster}, {spell/limited wish}, {spell/magic jar}, creator must be caster level 13th; **Skill** Craft (armor) or Craft (weapons) DC 18; **Cost** 40,000 gp"
 		]
 	},
 	"amarok": {
@@ -2308,7 +2308,7 @@
 			"#### Angelic Guardian",
 			"",
 			"**CL** 9th; **Price** 22,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/mage armor}, {spell/scorching ray}, creator must be caster level 10th; Skill Craft (sculpture) or Knowledge (engineering) DC 15; **Cost** 12,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/mage armor}, {spell/scorching ray}, creator must be caster level 10th; **Skill** Craft (sculpture) or Knowledge (engineering) DC 15; **Cost** 12,000 gp"
 		]
 	},
 	"ataxian": {

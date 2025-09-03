@@ -785,7 +785,7 @@
 			"",
 			"**CL** 6th; **Price** 15,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/command}, {spell/fear}, {spell/geas//quest}, {spell/hypnotic pattern}, creator must be caster level 6th; Skill Craft (carpentry), Craft (sculptures), or Profession (farmer) DC 12; **Cost** 8,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/command}, {spell/fear}, {spell/geas//quest}, {spell/hypnotic pattern}, creator must be caster level 6th; **Skill** Craft (carpentry), Craft (sculptures), or Profession (farmer) DC 12; **Cost** 8,000 gp"
 		]
 	},
 	"scarlet_walker": {
@@ -1727,7 +1727,7 @@
 			"",
 			"**CL** 13th; **Price** 61,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/hypnotism}, {spell/limited wish}, creator must be caster level 13th; Skill Craft (glass) DC 20; **Cost** 31,250 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/hypnotism}, {spell/limited wish}, creator must be caster level 13th; **Skill** Craft (glass) DC 20; **Cost** 31,250 gp"
 		]
 	},
 	"sea_bonze": {
@@ -2936,7 +2936,7 @@
 			"",
 			"**CL** 10th; **Price** 33,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/cat's grace}, {spell/confusion}, {spell/geas//quest}, {spell/jump}, {spell/minor creation}; Skill Craft (sculptures) DC 18; **Cost** 18,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/cat's grace}, {spell/confusion}, {spell/geas//quest}, {spell/jump}, {spell/minor creation}; **Skill** Craft (sculptures) DC 18; **Cost** 18,000 gp"
 		]
 	},
 	"seps": {

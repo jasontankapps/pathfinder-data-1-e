@@ -242,7 +242,7 @@
 			"",
 			"**CL** 9th; **Price** 14,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/fly}, {spell/geas//quest}, {spell/parchment swarm}, *shield other,* creator must be caster level 9th; Skill Craft (calligraphy) or Craft (tattoo) DC 20; **Cost** 7,500 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/fly}, {spell/geas//quest}, {spell/parchment swarm}, *shield other,* creator must be caster level 9th; **Skill** Craft (calligraphy) or Craft (tattoo) DC 20; **Cost** 7,500 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -1056,7 +1056,7 @@
 			"",
 			"**CL** 9th; **Price** 19,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/cat's grace}, {spell/geas//quest}, {spell/keen edge}, creator must be caster level 9th; Skill Craft (pottery) or Craft (sculptures) DC 14; **Cost** 10,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/cat's grace}, {spell/geas//quest}, {spell/keen edge}, creator must be caster level 9th; **Skill** Craft (pottery) or Craft (sculptures) DC 14; **Cost** 10,000 gp"
 		]
 	},
 	"tetrolimulus": {
@@ -1201,7 +1201,7 @@
 			"#### Bronze Sentinel",
 			"",
 			"**CL** 10th; **Price** 21,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/alarm}, *detect magic,* {spell/geas//quest}, {spell/limited wish}, {spell/scorching ray}, creator must be caster level 10th; Skill Craft (sculpture) DC 18; **Cost** 11,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/alarm}, *detect magic,* {spell/geas//quest}, {spell/limited wish}, {spell/scorching ray}, creator must be caster level 10th; **Skill** Craft (sculpture) DC 18; **Cost** 11,000 gp"
 		]
 	},
 	"bronze_sentinel": { "redirect": "thassilonian_sentinel_bronze_sentinel" },
@@ -1271,7 +1271,7 @@
 			"",
 			"**CL** 14th; **Price** 28,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/alarm}, {spell/cone of cold}, *detect magic,* {spell/geas//quest}, {spell/limited wish}; Skill Craft (sculpture) DC 22; **Cost** 14,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/alarm}, {spell/cone of cold}, *detect magic,* {spell/geas//quest}, {spell/limited wish}; **Skill** Craft (sculpture) DC 22; **Cost** 14,000 gp"
 		]
 	},
 	"iron_sentinel": { "redirect": "thassilonian_sentinel_iron_sentinel" },
@@ -1342,7 +1342,7 @@
 			"",
 			"**CL** 16th; **Price** 36,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/alarm}, *detect magic,* {spell/geas//quest}, {spell/limited wish}, {spell/poison}, {spell/shout}; Skill Craft (sculpture) DC 26; **Cost** 18,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/alarm}, *detect magic,* {spell/geas//quest}, {spell/limited wish}, {spell/poison}, {spell/shout}; **Skill** Craft (sculpture) DC 26; **Cost** 18,000 gp"
 		]
 	},
 	"ivory_sentinel": { "redirect": "thassilonian_sentinel_ivory_sentinel" },
@@ -1410,7 +1410,7 @@
 			"#### Marble Sentinel",
 			"",
 			"**CL** 12th; **Price** 24,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/alarm}, *detect magic,* {spell/geas//quest}, {spell/limited wish}, {spell/stone shape}, creator must be caster level 12th; Skill Craft (sculpture) DC 20; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/alarm}, *detect magic,* {spell/geas//quest}, {spell/limited wish}, {spell/stone shape}, creator must be caster level 12th; **Skill** Craft (sculpture) DC 20; **Cost** 12,500 gp"
 		]
 	},
 	"marble_sentinel": { "redirect": "thassilonian_sentinel_marble_sentinel" },
@@ -2206,7 +2206,7 @@
 			"",
 			"**CL** 12th; **Price** 48,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/acid fog}, {spell/limited wish}, {spell/stone shape}, creator must be at least caster level 11th; Skill Craft (sculptures) or Craft (stonemasonry) DC 18; **Cost** 24,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/acid fog}, {spell/limited wish}, {spell/stone shape}, creator must be at least caster level 11th; **Skill** Craft (sculptures) or Craft (stonemasonry) DC 18; **Cost** 24,000 gp"
 		]
 	},
 	"titan_elysian": {
@@ -3079,7 +3079,7 @@
 			"",
 			"**CL** 12th; **Price** 45,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/bull's strength}, {spell/endure elements}, creator must be CL 12th; Skill Craft (sculptures) DC 20; **Cost** 23,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/bull's strength}, {spell/endure elements}, creator must be CL 12th; **Skill** Craft (sculptures) DC 20; **Cost** 23,500 gp"
 		]
 	},
 	"torble": {
@@ -3747,12 +3747,12 @@
 			"#### Tribal Totem",
 			"",
 			"**CL** 8th; **Price** 19,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/disguise self}, {spell/locate creature}, {spell/magic mouth}, *shield other,* creator must be caster level 11th; Skill Craft (carpentry) and Craft (sculpture) DC 20; **Cost** 10,000 gp.",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/disguise self}, {spell/locate creature}, {spell/magic mouth}, *shield other,* creator must be caster level 11th; **Skill** Craft (carpentry) and Craft (sculpture) DC 20; **Cost** 10,000 gp.",
 			"",
 			"#### Greater Tribal Totem",
 			"",
 			"**CL** 9th; **Price** 22,000 gp  ",
-			"**Requirements** Craft Construct, animate objects, arcane eye, disguise self, locate creature, magic mouth, shield other, creator must be caster level 13th; Skill Craft (carpentry) and Craft (sculpture) DC 20; **Cost** 12,000 gp."
+			"**Requirements** Craft Construct, animate objects, arcane eye, disguise self, locate creature, magic mouth, shield other, creator must be caster level 13th; **Skill** Craft (carpentry) and Craft (sculpture) DC 20; **Cost** 12,000 gp."
 		]
 	},
 	"triton": {

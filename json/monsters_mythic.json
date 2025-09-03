@@ -702,7 +702,7 @@
 			"",
 			"**CL** 17th; **Price** 500,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, mythic tier or rank 8, {spell/antimagic field}, {spell/cloudkill}, {spell/meteor swarm}, {spell/rusting grasp}, {spell/wall of iron}, {spell/wish}; Skill Craft (blacksmithing) DC 30; **Cost** 300,000 gp"
+			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, mythic tier or rank 8, {spell/antimagic field}, {spell/cloudkill}, {spell/meteor swarm}, {spell/rusting grasp}, {spell/wall of iron}, {spell/wish}; **Skill** Craft (blacksmithing) DC 30; **Cost** 300,000 gp"
 		]
 	},
 	"colossus_iron_colossus": { "redirect": "colossus_iron_colossus_mythic" },
@@ -857,7 +857,7 @@
 			"",
 			"**CL** 15th; **Price** 300,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, mythic rank or tier 8, {spell/antimagic field}, {spell/mage's magnificent mansion}, {spell/make whole}, *wall of stone,* {spell/wish}; Skill Craft (stonemasonry) DC 30; **Cost** 170,000 gp",
+			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, mythic rank or tier 8, {spell/antimagic field}, {spell/mage's magnificent mansion}, {spell/make whole}, *wall of stone,* {spell/wish}; **Skill** Craft (stonemasonry) DC 30; **Cost** 170,000 gp",
 			"",
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
@@ -928,7 +928,7 @@
 			"",
 			"**CL** 14th; **Price** 300,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, 7th mythic rank or tier, {spell/antimagic field}, {spell/mage's magnificent mansion}, {spell/ironwood}, {spell/limited wish} or {spell/miracle}; Skill Craft (woodworking) DC 30; **Cost** 190,000 gp",
+			"**Requirements** {feat/Craft Construct}, {feat/Mythic Crafter}, 7th mythic rank or tier, {spell/antimagic field}, {spell/mage's magnificent mansion}, {spell/ironwood}, {spell/limited wish} or {spell/miracle}; **Skill** Craft (woodworking) DC 30; **Cost** 190,000 gp",
 			"",
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]

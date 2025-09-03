@@ -59,7 +59,7 @@
 			"",
 			"**CL** 20th; **Price** 600,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/crushing hand}, {spell/geas//quest}, {spell/heal}, {spell/stoneskin}, {spell/wish}, creator must be caster level 20th; Skill Craft (sculpture) DC 35; **Cost** 350,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/crushing hand}, {spell/geas//quest}, {spell/heal}, {spell/stoneskin}, {spell/wish}, creator must be caster level 20th; **Skill** Craft (sculpture) DC 35; **Cost** 350,000 gp"
 		]
 	},
 	"golem_adamantine": { "redirect": "golem_adamantine_golem" },
@@ -125,7 +125,7 @@
 			"",
 			"**CL** 10th; **Price** 33,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/gentle repose}, {spell/major creation}, {spell/resist energy}, {spell/telekinesis}, creator must be caster level 10th; Skill Craft (alchemy) DC 20; **Cost** 18,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/gentle repose}, {spell/major creation}, {spell/resist energy}, {spell/telekinesis}, creator must be caster level 10th; **Skill** Craft (alchemy) DC 20; **Cost** 18,000 gp"
 		]
 	},
 	"golem_alchemical": { "redirect": "golem_alchemical_golem" },
@@ -196,7 +196,7 @@
 			"#### Behemoth Golem",
 			"",
 			"**CL** 18th; **Price** 305,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, *earthquake,* {spell/geas//quest}, {spell/mage's magnificent mansion}, {spell/wish}, creator must be at least caster level 18th; Skill Craft (stonemasonry) and Knowledge (history) DC 26; **Cost** 165,000 gp"
+			"**Requirements** {feat/Craft Construct}, *earthquake,* {spell/geas//quest}, {spell/mage's magnificent mansion}, {spell/wish}, creator must be at least caster level 18th; **Skill** Craft (stonemasonry) and Knowledge (history) DC 26; **Cost** 165,000 gp"
 		]
 	},
 	"golem_behemoth": { "redirect": "golem_behemoth_golem" },
@@ -265,7 +265,7 @@
 			"",
 			"**CL** 7th; **Price** 22,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate dead}, {spell/bleed}, {spell/cure critical wounds}, {spell/geas//quest}, creator must be caster level 12th; Skill Craft (alchemy) DC 17; **Cost** 11,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate dead}, {spell/bleed}, {spell/cure critical wounds}, {spell/geas//quest}, creator must be caster level 12th; **Skill** Craft (alchemy) DC 17; **Cost** 11,500 gp"
 		]
 	},
 	"golem_blood": { "redirect": "golem_blood_golem" },
@@ -331,7 +331,7 @@
 			"",
 			"**CL** 9th; **Price** 41,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/telekinesis}, and either {spell/animate dead} or {spell/animate objects}, creator must be at least caster level 9th; Skill Craft (sculpture) or Heal DC 15; **Cost** 21,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/telekinesis}, and either {spell/animate dead} or {spell/animate objects}, creator must be at least caster level 9th; **Skill** Craft (sculpture) or Heal DC 15; **Cost** 21,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -407,7 +407,7 @@
 			"",
 			"**CL** 17th; **Price** 180,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/incendiary cloud}, {spell/limited wish}, *see invisibility,* creator must be caster level 17th; Skill Craft (armor) or Craft (blacksmithing) DC 22; **Cost** 100,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/incendiary cloud}, {spell/limited wish}, *see invisibility,* creator must be caster level 17th; **Skill** Craft (armor) or Craft (blacksmithing) DC 22; **Cost** 100,000 gp"
 		]
 	},
 	"golem_brass": { "redirect": "golem_brass_golem" },
@@ -480,7 +480,7 @@
 			"",
 			"**CL** 17th; **Price** 200,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/plane shift} or {spell/secret chest}, creator must be caster level 17th; Skill Craft (siege engine) and Knowledge (engineering) DC 25; **Cost** 105,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/plane shift} or {spell/secret chest}, creator must be caster level 17th; **Skill** Craft (siege engine) and Knowledge (engineering) DC 25; **Cost** 105,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -555,7 +555,7 @@
 			"",
 			"**CL** 7th; **Price** 10,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate dead}, {spell/contagion}, {spell/false life}, {spell/gentle repose}, {spell/lesser geas}, creator must be caster level 7th; Skill Craft (leather) or Heal DC 13; **Cost** 5,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate dead}, {spell/contagion}, {spell/false life}, {spell/gentle repose}, {spell/lesser geas}, creator must be caster level 7th; **Skill** Craft (leather) or Heal DC 13; **Cost** 5,500 gp"
 		]
 	},
 	"golem_carrion": { "redirect": "golem_carrion_golem" },
@@ -624,7 +624,7 @@
 			"A clay golem's body must be sculpted from a single block of clay weighing at least 1,000 pounds, treated with rare oils and powders worth 1,500 gp.",
 			"",
 			"**CL** 11th; **Price** 41,500 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/bless}, {spell/commune}, {spell/prayer}, {spell/resurrection}, creator must be caster level 11th; Skill Craft (sculptures) or Craft (pottery) DC 16; **Cost** 21,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/bless}, {spell/commune}, {spell/prayer}, {spell/resurrection}, creator must be caster level 11th; **Skill** Craft (sculptures) or Craft (pottery) DC 16; **Cost** 21,500 gp"
 		]
 	},
 	"golem_clay": { "redirect": "golem_clay_golem" },
@@ -692,7 +692,7 @@
 			"",
 			"**CL** 15th; **Price** 120,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/blade barrier}, {spell/geas//quest}, *grease,* {spell/telekinesis}, creator must be caster level 15th; Skill Craft (clocks) or Craft (locks) DC 20; **Cost** 65,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/blade barrier}, {spell/geas//quest}, *grease,* {spell/telekinesis}, creator must be caster level 15th; **Skill** Craft (clocks) or Craft (locks) DC 20; **Cost** 65,000 gp"
 		]
 	},
 	"golem_clockwork": { "redirect": "golem_clockwork_golem" },
@@ -763,7 +763,7 @@
 			"",
 			"**CL** 11th; **Price** 57,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/keen edge}, {spell/limited wish}, {spell/water breathing}, creator must be caster level 11th; Skill Craft (sculpture) DC 15; **Cost** 30,500 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/keen edge}, {spell/limited wish}, {spell/water breathing}, creator must be caster level 11th; **Skill** Craft (sculpture) DC 15; **Cost** 30,500 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -834,7 +834,7 @@
 			"",
 			"**CL** 15th; **Price** 127,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, *possession,* {spell/thoughtsense}, creator must be caster level 15th; Skill Craft (glass) or Craft (jewelry) DC 22; **Cost** 67,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, *possession,* {spell/thoughtsense}, creator must be caster level 15th; **Skill** Craft (glass) or Craft (jewelry) DC 22; **Cost** 67,000 gp"
 		]
 	},
 	"golem_crystal": { "redirect": "golem_crystal_golem" },
@@ -927,7 +927,7 @@
 			"",
 			"**CL** 16th; **Price** 209,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/create greater undead}, {spell/form of the dragon I}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 16th; Skill Craft (leather) or Heal DC 21; **Cost** 109,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/create greater undead}, {spell/form of the dragon I}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 16th; **Skill** Craft (leather) or Heal DC 21; **Cost** 109,000 gp"
 		]
 	},
 	"golem_dragonhide": { "redirect": "golem_dragonhide_golem" },
@@ -1074,7 +1074,7 @@
 			"The pieces of a flesh golem must come from normal humanoid corpses that have not decayed significantly. Assembly requires a minimum of six different bodies - one for each limb, the torso (including head), and the brain. In some cases, more bodies may be necessary. Special unguents and bindings worth 500 gp are also required. Note that creating a flesh golem requires casting a spell with the evil descriptor.",
 			"",
 			"**CL** 8th; **Price** 20,500 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate dead}, {spell/bull's strength}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 8th; Skill Craft (leather) or Heal DC 13; **Cost** 10,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate dead}, {spell/bull's strength}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 8th; **Skill** Craft (leather) or Heal DC 13; **Cost** 10,500 gp"
 		]
 	},
 	"golem_flesh": { "redirect": "golem_flesh_golem" },
@@ -1140,7 +1140,7 @@
 			"",
 			"**CL** 15th; **Price** 125,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/flesh to stone}, {spell/geas//quest}, {spell/limited wish}, {spell/stone shape}, creator must be at least caster level 15th; Skill Craft (sculpture) or Heal DC 20; **Cost** 65,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/flesh to stone}, {spell/geas//quest}, {spell/limited wish}, {spell/stone shape}, creator must be at least caster level 15th; **Skill** Craft (sculpture) or Heal DC 20; **Cost** 65,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -1214,7 +1214,7 @@
 			"",
 			"**CL** 10th; **Price** 33,000 gp (glass); 39,400 (stained glass)",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/flame strike}, {spell/geas//quest}, {spell/spell turning}, creator must be caster level 10th; Skill Craft (sculptures) DC 17; **Cost** 17,000 gp (glass golem); 20,200 gp (stained glass golem)"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/flame strike}, {spell/geas//quest}, {spell/spell turning}, creator must be caster level 10th; **Skill** Craft (sculptures) DC 17; **Cost** 17,000 gp (glass golem); 20,200 gp (stained glass golem)"
 		]
 	},
 	"golem_glass": { "redirect": "golem_glass_golem" },
@@ -1291,7 +1291,7 @@
 			"",
 			"**CL** 18th; **Price** 220,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/polymorph any object}, and {spell/prismatic spray}, creator must be at least caster level 18th; Skill Craft (armor) DC 25; **Cost** 122,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/polymorph any object}, and {spell/prismatic spray}, creator must be at least caster level 18th; **Skill** Craft (armor) DC 25; **Cost** 122,500 gp"
 		]
 	},
 	"golem_gold": { "redirect": "golem_gold_golem" },
@@ -1358,7 +1358,7 @@
 			"An ice golem's body must be constructed from a single block of ice weighing at least 1,000 pounds. The ice is treated with magical powders and unguents worth at least 500 gp.",
 			"",
 			"**CL** 12th; **Price** 18,500 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/chill touch}, {spell/cone of cold}, {spell/geas//quest}, {spell/ice storm}, {spell/resist energy} (cold), creator must be caster level 12th; Skill Craft (sculptures) DC 17; **Cost** 9,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/chill touch}, {spell/cone of cold}, {spell/geas//quest}, {spell/ice storm}, {spell/resist energy} (cold), creator must be caster level 12th; **Skill** Craft (sculptures) DC 17; **Cost** 9,500 gp"
 		]
 	},
 	"golem_ice": { "redirect": "golem_ice_golem" },
@@ -1445,7 +1445,7 @@
 			"",
 			"**CL** 16th; **Price** 300,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, *air walk,* {spell/enervation}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 195,000 gp"
+			"**Requirements** {feat/Craft Construct}, *air walk,* {spell/enervation}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 16th; **Skill** Craft (armor) or Craft (weapons) DC 26; **Cost** 195,000 gp"
 		]
 	},
 	"golem_inubrix": { "redirect": "golem_inubrix_golem" },
@@ -1530,7 +1530,7 @@
 			"",
 			"**CL** 18th; **Price** 220,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {feat/Craft Wondrous Item}, {spell/geas//quest}, {spell/wish}, creator must be at least caster level 18th; Skill Craft (armor) DC 24, Craft (jewelry) DC 29; **Cost** 145,000 gp"
+			"**Requirements** {feat/Craft Construct}, {feat/Craft Wondrous Item}, {spell/geas//quest}, {spell/wish}, creator must be at least caster level 18th; **Skill** Craft (armor) DC 24, Craft (jewelry) DC 29; **Cost** 145,000 gp"
 		]
 	},
 	"golem_ioun": { "redirect": "golem_ioun_golem" },
@@ -1602,7 +1602,7 @@
 			"An iron golem's body is sculpted from 5,000 pounds of iron, smelted with rare tinctures costing at least 10,000 gp.",
 			"",
 			"**CL** 16th; **Price** 150,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/cloudkill}, {spell/geas//quest}, {spell/limited wish}, {spell/polymorph any object}, creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 21; **Cost** 80,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/cloudkill}, {spell/geas//quest}, {spell/limited wish}, {spell/polymorph any object}, creator must be caster level 16th; **Skill** Craft (armor) or Craft (weapons) DC 21; **Cost** 80,000 gp"
 		]
 	},
 	"golem_iron": { "redirect": "golem_iron_golem" },
@@ -1672,7 +1672,7 @@
 			"",
 			"**CL** 7th; **Price** 10,200 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/minor creation}, *rusting grasp,* creator must be caster level 7th; Skill Craft (sculpture); **Cost** 5,200 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/minor creation}, *rusting grasp,* creator must be caster level 7th; **Skill** Craft (sculpture); **Cost** 5,200 gp"
 		]
 	},
 	"golem_junk": { "redirect": "golem_junk_golem" },
@@ -1743,7 +1743,7 @@
 			"",
 			"**CL** 13th; **Price** 57,500 lbs.",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/cloudkill}, {spell/geas//quest}, {spell/limited wish}, {spell/sequester}, creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 18; **Cost** 32,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/cloudkill}, {spell/geas//quest}, {spell/limited wish}, {spell/sequester}, creator must be caster level 13th; **Skill** Craft (armor) or Craft (weapons) DC 18; **Cost** 32,500 gp"
 		]
 	},
 	"golem_lead": { "redirect": "golem_lead_golem" },
@@ -1828,7 +1828,7 @@
 			"",
 			"**CL** 13th; **Price** 90,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/reverse gravity}, {spell/telekinesis}, creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 18; **Cost** 47,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/reverse gravity}, {spell/telekinesis}, creator must be caster level 13th; **Skill** Craft (armor) or Craft (weapons) DC 18; **Cost** 47,500 gp"
 		]
 	},
 	"golem_magnetitie": { "redirect": "golem_magnetitie_golem" },
@@ -1895,7 +1895,7 @@
 			"A marrowstone golem's body is chiseled from a single block of marrowstone weighing at least 2,500 pounds. Marrowstone can only be found in the necropolis of Nemret Noktoria in the Darklands realm of Sekamina. Preparing the stone requires the use of exotic unguents that cost 2,500 gp.",
 			"",
 			"**CL** 11th; **Price** 42,500 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/antilife shell}, {spell/create undead}, creator must be caster level 11th; Skill Craft (sculpture) or Craft (stonemasonry) DC 21; **Cost** 22,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/antilife shell}, {spell/create undead}, creator must be caster level 11th; **Skill** Craft (sculpture) or Craft (stonemasonry) DC 21; **Cost** 22,500 gp"
 		]
 	},
 	"golem_marrowstone": { "redirect": "golem_marrowstone_golem" },
@@ -1975,7 +1975,7 @@
 			"A mask golem's body is made from hundreds of iron masks, as well as a few that are plated in silver and trimmed with gold, worth a total of 2,000 gp. In addition, the crafter must place a sapphire worth 500 gp into the golem's forehead to complete its creation.",
 			"",
 			"**CL** 9th; **Price** 22,500 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/dominate person}, *see invisibility,* {spell/telekinesis}, creator must be caster level 9th; Skill Craft (sculptures) DC 16; **Cost** 12,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/dominate person}, *see invisibility,* {spell/telekinesis}, creator must be caster level 9th; **Skill** Craft (sculptures) DC 16; **Cost** 12,500 gp"
 		]
 	},
 	"golem_mask": { "redirect": "golem_mask_golem" },
@@ -2043,7 +2043,7 @@
 			"",
 			"**CL** 18th; **Price** 250,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, *haste,* {spell/polymorph any object}, {spell/wish}, creator must be caster level 18th; Skill Craft (sculpture) DC 25; **Cost** 150,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, *haste,* {spell/polymorph any object}, {spell/wish}, creator must be caster level 18th; **Skill** Craft (sculpture) DC 25; **Cost** 150,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -2120,7 +2120,7 @@
 			"A noqual golem's body is sculpted from 30,000 pounds of iron alloyed with 1,000 pounds of noqual at the staggering cost of 53,000 gp.",
 			"",
 			"**CL** 18th; **Price** 253,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/greater dispel magic}, {spell/polymorph any object}, {spell/wish}, creator must be caster level 18th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 153,000 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/greater dispel magic}, {spell/polymorph any object}, {spell/wish}, creator must be caster level 18th; **Skill** Craft (armor) or Craft (weapons) DC 26; **Cost** 153,000 gp",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -2192,7 +2192,7 @@
 			"",
 			"**CL** 15th; **Price** 130,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, and {spell/volcanic storm}, creator must be at least caster level 15th; Skill Craft (glass or sculpture) DC 24; **Cost** 69,250 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, and {spell/volcanic storm}, creator must be at least caster level 15th; **Skill** Craft (glass or sculpture) DC 24; **Cost** 69,250 gp"
 		]
 	},
 	"golem_obsidian": { "redirect": "golem_obsidian_golem" },
@@ -2272,7 +2272,7 @@
 			"",
 			"**CL** 11th; **Price** 48,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/bless}, {spell/commune}, {spell/prayer}, {spell/resurrection}, {spell/searing light}, *true seeing,* creator must be caster level 11th; Skill Craft (pottery) or Craft (sculpture) DC 16; **Cost** 28,500 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/bless}, {spell/commune}, {spell/prayer}, {spell/resurrection}, {spell/searing light}, *true seeing,* creator must be caster level 11th; **Skill** Craft (pottery) or Craft (sculpture) DC 16; **Cost** 28,500 gp",
 			"",
 			"### Variant Panthereons",
 			"",
@@ -2442,7 +2442,7 @@
 			"",
 			"**CL** 20th; **Price** 750,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/energy drain}, {spell/geas//quest}, {spell/trap the soul}, and {spell/wish}, creator must be at least caster level 20th; Skill Craft (glass) DC 40 and Knowledge (planes) DC 30; **Cost** 450,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/energy drain}, {spell/geas//quest}, {spell/trap the soul}, and {spell/wish}, creator must be at least caster level 20th; **Skill** Craft (glass) DC 40 and Knowledge (planes) DC 30; **Cost** 450,000 gp"
 		]
 	},
 	"golem_quintessence": { "redirect": "golem_quintessence_golem" },
@@ -2509,7 +2509,7 @@
 			"",
 			"**CL** 14th; **Price** 72,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/make whole}, {spell/shatter}, creator must be caster level 13th; Skill Craft (mechanical) DC 20; **Cost** 36,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/make whole}, {spell/shatter}, creator must be caster level 13th; **Skill** Craft (mechanical) DC 20; **Cost** 36,000 gp"
 		]
 	},
 	"golem_robot": { "redirect": "golem_robot_golem" },
@@ -2596,7 +2596,7 @@
 			"",
 			"**CL** 12th; **Price** 53,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/move earth}, creator must be caster level 12th; Skill Craft (stonemasonry) DC 20; **Cost** 28,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/move earth}, creator must be caster level 12th; **Skill** Craft (stonemasonry) DC 20; **Cost** 28,500 gp"
 		]
 	},
 	"golem_sand": { "redirect": "golem_sand_golem" },
@@ -2679,7 +2679,7 @@
 			"The construction of a wax golem requires a block of solid wax the size of whatever individual it is to be molded after, typically weighing over 1,000 pounds. The wax is treated with dyes and magical unguents worth at least 500 gp. The simplest wax golems require the creator to make a Craft (sculptures) check, with wax golems resembling specific races or individuals requiring higher DCs. While wax golems that look like living creatures possess greater versatility, they also have the potential of gaining a strange sort of sentience.",
 			"",
 			"**CL** 9th; **Price** 14,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/limited wish}, {spell/silent image}, creator must be caster level 9th; Skill Craft (sculptures) DC 18 (DC 25 if the creator wants the golem to look like a member of a particular race; DC 30 if the creator wants the golem to look like a specific individual); **Cost** 7,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/limited wish}, {spell/silent image}, creator must be caster level 9th; **Skill** Craft (sculptures) DC 18 (DC 25 if the creator wants the golem to look like a member of a particular race; DC 30 if the creator wants the golem to look like a specific individual); **Cost** 7,000 gp"
 		]
 	},
 	"golem_sentient_wax": { "redirect": "golem_sentient_wax_golem" },
@@ -2761,7 +2761,7 @@
 			"",
 			"**Shadow Golem**  ",
 			"**CL** 14th; **Price** 180,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/greater shadow conjuration}, {spell/limited wish}, {spell/polymorph any object}, creator must be caster level 18th; Skill Craft (sculpture) or Craft (stonemasonry) DC 24; **Cost** 100,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/greater shadow conjuration}, {spell/limited wish}, {spell/polymorph any object}, creator must be caster level 18th; **Skill** Craft (sculpture) or Craft (stonemasonry) DC 24; **Cost** 100,000 gp"
 		]
 	},
 	"golem_shadow": { "redirect": "golem_shadow_golem" },
@@ -2826,7 +2826,7 @@
 			"A stone golem's body is chiseled from a single block of hard stone, such as granite, weighing at least 3,000 pounds. The stone must be of exceptional quality, and costs 5,000 gp.",
 			"",
 			"**CL** 14th; **Price** 105,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/antimagic field}, {spell/geas//quest}, {spell/limited wish}, {spell/symbol of stunning}, creator must be caster level 14th; Skill Craft (sculpture) or Craft (stonemasonry) DC 19; **Cost** 55,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/antimagic field}, {spell/geas//quest}, {spell/limited wish}, {spell/symbol of stunning}, creator must be caster level 14th; **Skill** Craft (sculpture) or Craft (stonemasonry) DC 19; **Cost** 55,000 gp"
 		]
 	},
 	"golem_stone": { "redirect": "golem_stone_golem" },
@@ -2895,7 +2895,7 @@
 			"",
 			"**CL** 18th; **Price** 240,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/contagion}, {spell/geas//quest}, {spell/horrid wilting}, {spell/poison}, and {spell/wish}, creator must be at least caster level 18th; Skill Craft (glass or sculpture) DC 26; **Cost** 142,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/contagion}, {spell/geas//quest}, {spell/horrid wilting}, {spell/poison}, and {spell/wish}, creator must be at least caster level 18th; **Skill** Craft (glass or sculpture) DC 26; **Cost** 142,500 gp"
 		]
 	},
 	"golem_viridium": { "redirect": "golem_viridium_golem" },
@@ -2964,7 +2964,7 @@
 			"",
 			"**CL** 9th; **Price** 14,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/limited wish}, {spell/silent image}, creator must be caster level 9th; Skill Craft (sculptures) DC 18 (DC 25 if the creator wants the golem to look like a member of a particular race; DC 30 if the creator wants the golem to look like a specific individual); **Cost** 7,000 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/limited wish}, {spell/silent image}, creator must be caster level 9th; **Skill** Craft (sculptures) DC 18 (DC 25 if the creator wants the golem to look like a member of a particular race; DC 30 if the creator wants the golem to look like a specific individual); **Cost** 7,000 gp"
 		]
 	},
 	"golem_wax": { "redirect": "golem_wax_golem" },
@@ -3028,7 +3028,7 @@
 			"The pieces of a wood golem are assembled from blocks of fine wood and sprinkled with rare powders and crushed herbs worth at least 300 gp.",
 			"",
 			"**CL** 7th; **Price** 19,300 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/alarm}, {spell/animate objects}, {spell/cat's grace}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 12th; Skill Craft (carpentry) DC 17; **Cost** 8,800 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/alarm}, {spell/animate objects}, {spell/cat's grace}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 12th; **Skill** Craft (carpentry) DC 17; **Cost** 8,800 gp"
 		]
 	},
 	"golem_wood": { "redirect": "golem_wood_golem" },
@@ -4105,7 +4105,7 @@
 			"An iron cobra's body is built from 100 pounds of magically treated materials (typically iron).",
 			"",
 			"**CL** 7th; **Price** 4,000 gp (iron); 20,000 gp (adamantine), 8,00 gp (cold iron), 5,000 (darkwood), or 10,000 gp (mithral)  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/discern location}, {spell/geas//quest}; Skill Craft (armor), Craft (blacksmithing), Craft (carpentry [for darkwood cobras only]), or Craft (weapons) DC 15; **Cost** 2,000 gp (iron); 10,000 gp (adamantine); 4,000 gp (cold iron), 2,500 gp (darkwood); 5,000 gp (mithral)"
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/discern location}, {spell/geas//quest}; **Skill** Craft (armor), Craft (blacksmithing), Craft (carpentry [for darkwood cobras only]), or Craft (weapons) DC 15; **Cost** 2,000 gp (iron); 10,000 gp (adamantine); 4,000 gp (cold iron), 2,500 gp (darkwood); 5,000 gp (mithral)"
 		]
 	},
 	"iron_rhinoceros": {
@@ -4182,7 +4182,7 @@
 			"",
 			"**CL** 15th; **Price** 117,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/resist energy}, {spell/summon nature's ally V}, creator must be caster level 15th; Skill Craft (armor) or Craft (weapons) DC 25; **Cost** 61,250 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/resist energy}, {spell/summon nature's ally V}, creator must be caster level 15th; **Skill** Craft (armor) or Craft (weapons) DC 25; **Cost** 61,250 gp"
 		]
 	},
 	"irradiated_dead": {

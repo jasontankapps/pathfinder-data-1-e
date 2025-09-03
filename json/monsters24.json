@@ -1799,7 +1799,7 @@
 			"",
 			"**CL** 8th; **Price** 21,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/keen edge}, {spell/locate creature}, creator must be caster level 8th, creation must be done in complete secrecy; Skill Craft (scrimshaw) DC 20; **Cost** 10,875 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/keen edge}, {spell/locate creature}, creator must be caster level 8th, creation must be done in complete secrecy; **Skill** Craft (scrimshaw) DC 20; **Cost** 10,875 gp"
 		]
 	},
 	"turtle": {
@@ -3354,7 +3354,7 @@
 			"",
 			"**CL** 10th; **Price** 35,200 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/keen edge}, {spell/limited wish}, {spell/planar binding}; Skill Craft (sculptures) DC 19; **Cost** 17,700 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/keen edge}, {spell/limited wish}, {spell/planar binding}; **Skill** Craft (sculptures) DC 19; **Cost** 17,700 gp"
 		]
 	},
 	"urdefhan": {

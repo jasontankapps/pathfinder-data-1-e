@@ -3069,7 +3069,7 @@
 			"",
 			"**CL** 7th; **Price** 4,300 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/magic jar}, {spell/minor creation}, soul of a living creature who dies or is slain during the creation process; Skill Craft (sculptures); **Cost** 2,300 gp."
+			"**Requirements** {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/magic jar}, {spell/minor creation}, soul of a living creature who dies or is slain during the creation process; **Skill** Craft (sculptures); **Cost** 2,300 gp."
 		]
 	},
 	"soulbound_mannequin": {
@@ -3144,7 +3144,7 @@
 			"",
 			"**CL** 7th; **Price** 16,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, *disguise self,* {spell/false life}, {spell/lesser geas}, {spell/magic jar}, {spell/minor creation}, soul of a living creature who dies or is slain during the creation process; Skill Craft (sculptures); **Cost** 8,500 gp"
+			"**Requirements** {feat/Craft Construct}, *disguise self,* {spell/false life}, {spell/lesser geas}, {spell/magic jar}, {spell/minor creation}, soul of a living creature who dies or is slain during the creation process; **Skill** Craft (sculptures); **Cost** 8,500 gp"
 		]
 	},
 	"soulbound_shell": {
@@ -3216,7 +3216,7 @@
 			"",
 			"**CL** 12th; **Price** 115,000 gp",
 			"",
-			"**Requirements** Craft Construct, *false life,* {spell/magic jar}, *make whole,* {spell/mnemonic enhancer}, {spell/stoneskin}; Skill Craft (sculpture); **Cost** 60,000 gp"
+			"**Requirements** Craft Construct, *false life,* {spell/magic jar}, *make whole,* {spell/mnemonic enhancer}, {spell/stoneskin}; **Skill** Craft (sculpture); **Cost** 60,000 gp"
 		]
 	},
 	"soulpierced": {

@@ -3806,9 +3806,7 @@
 			"| 90-92 | Your eyes have swollen to mere slits. You take a -2 penalty on sight-based Perception checks. |",
 			"| 93-96 | You develop a shaggy pelt about your neck and shoulders that makes you overheat quickly. You take a -4 penalty on checks and saves to resist environmental heat effects. |",
 			"| 97-98 | You grow a tail that you can't easily conceal and that thrashes violently at inconvenient moments. You take a -2 penalty on Disguise and Stealth checks. |",
-			"| 99-100 | You grow vestigial gills. While they grant you no ability to breathe in water, they make it harder for you to catch your breath. When you are fatigued, it takes 12 hours of complete rest to recover. When you are exhausted, it takes 2 hours of complete rest to become fatigued. |",
-			"",
-			""
+			"| 99-100 | You grow vestigial gills. While they grant you no ability to breathe in water, they make it harder for you to catch your breath. When you are fatigued, it takes 12 hours of complete rest to recover. When you are exhausted, it takes 2 hours of complete rest to become fatigued. |"
 		],
 		"category": "Drawback",
 		"topLink": [ "Drawback Traits", "main/traits_drawback" ]

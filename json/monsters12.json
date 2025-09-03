@@ -2957,7 +2957,7 @@
 			"The framework of a golden guardian is built from 1,200 pounds of steel rods and pins and then covered in 100 pounds of gold plating. Its insides are filled with 200 pounds of molten gold before the entire construct is sealed. Once assembled, the gold plating is sprinkled with rare powders and herbs worth at least 300 gp. A golden guardian uses 15,000 gp of raw gold in its construction.",
 			"",
 			"**CL** 12th; **Price** 33,300 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/blur}, {spell/fabricate}, {spell/fire shield}, {spell/geas//quest}, {spell/wall of fire}, creator must be caster level 12th; Skill Craft (goldsmith) DC 17; **Cost** 24,300 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/blur}, {spell/fabricate}, {spell/fire shield}, {spell/geas//quest}, {spell/wall of fire}, creator must be caster level 12th; **Skill** Craft (goldsmith) DC 17; **Cost** 24,300 gp"
 		]
 	},
 	"goldpebble": {
@@ -3539,7 +3539,7 @@
 			"",
 			"**CL** 7th; **Price** 18,500 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/greater magic weapon}, *haste,* {spell/imbue with spell ability}, {spell/make whole}, {spell/stone shape}, creator must be caster level 7th; Skill Craft (sculpture) or Craft (pottery) DC 15; **Cost** 9,500 gp"
+			"**Requirements** {feat/Craft Construct}, {spell/greater magic weapon}, *haste,* {spell/imbue with spell ability}, {spell/make whole}, {spell/stone shape}, creator must be caster level 7th; **Skill** Craft (sculpture) or Craft (pottery) DC 15; **Cost** 9,500 gp"
 		]
 	},
 	"gravesludge": {
@@ -3651,7 +3651,7 @@
 			"",
 			"**CL** 13th; **Price** 75,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}; {spell/animate objects}, {spell/repulsion}, {spell/reverse gravity}, {spell/telekinesis}, creator must be caster level 13th; Skill Craft (sculptures) DC 16; **Cost** 45,000 gp"
+			"**Requirements** {feat/Craft Construct}; {spell/animate objects}, {spell/repulsion}, {spell/reverse gravity}, {spell/telekinesis}, creator must be caster level 13th; **Skill** Craft (sculptures) DC 16; **Cost** 45,000 gp"
 		]
 	},
 	"gray": {
