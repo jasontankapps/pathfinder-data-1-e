@@ -273,51 +273,58 @@ const containerDirectives = {
 	renderer: (token) => {
 		const {text = "", attrs = {}, meta} = token;
 		const n = meta.name;
-		let marked2; // don't make an instance unless we really need it
 		switch(n) {
-			case "archetype":
+			case "archetype": {
 				const { c = "" } = attrs;
 				const trimmed = text.trim();
 				const [ title = "", repl = "", desc = "" ] = trimmed.split(/\n+/);
 				const link = convertTextToLink(title);
 				$.flags.link = true;
-				marked2 = makeNewMarkedInstance();
+				const marked2 = makeNewMarkedInstance();
 				return `<div className="archetype">`
 					+ `<p><Link to="/arc-${c}/${link}">${removeCurlyBrackets(marked2.parseInline(title), true)}</Link></p>`
 					+ `<p><strong>Modifes or Replaces:</strong> ${removeCurlyBrackets(marked2.parseInline(repl), true)}</p>`
 					+ `<p>${removeCurlyBrackets(marked2.parseInline(desc), true)}</p>`
 					+ `</div>\n`;
-			case "item":
+			}
+			case "item": {
 				$.flags.item = true;
 				$.flags.label = true;
-				marked2 = makeNewMarkedInstance();
+				const marked2 = makeNewMarkedInstance();
 				return (
 					`<IonItem className="mainItem basic"><IonLabel>${
 						removeCurlyBrackets(marked2.parse(text))
 					}</IonLabel></IonItem>`
 				);
-			case "aside":
-				marked2 = makeNewMarkedInstance();
+			}
+			case "aside": {
+				const marked2 = makeNewMarkedInstance();
 				return (
 					`<aside>${removeCurlyBrackets(marked2.parse(text))}</aside>`
 				);
-			case "compress":
-				marked2 = makeNewMarkedInstance();
+			}
+			case "compress": {
+				const marked2 = makeNewMarkedInstance();
 				return (
 					`<div className="compressed">${removeCurlyBrackets(marked2.parse(text))}</div>`
 				);
+			}
+			case "div": {
+				const { className = "" } = attrs;
+				const marked2 = makeNewMarkedInstance();
+				return (
+					`<div className="${className}">${removeCurlyBrackets(marked2.parse(text))}</div>`
+				);
+			}
 		}
 		return false;
 	}
 };
-const getContainerDirectives = () => {
-	return containerDirectives;
-};
-const getDuplicateContainerDirectives = () => {
-	return {
+const getContainerDirectives = (marker) => {
+	return marker ? {
 		...containerDirectives,
-		marker: ";;;"
-	};
+		marker
+	} : containerDirectives;
 };
 
 const inlineDirectives = {
@@ -621,7 +628,7 @@ const makeNewMarkedInstance = (initialUse = { gfm: true }, ...midArguments) => {
 		...presetDirectiveConfigs,
 		getBlockDirectives(),
 		getContainerDirectives(),
-		getDuplicateContainerDirectives(),
+		getContainerDirectives(";;;"),
 		getInlineDirectives()
 	]));
 	midArguments.forEach(option => marked.use(option));

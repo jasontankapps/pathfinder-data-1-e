@@ -2012,7 +2012,7 @@
 			"All sahir-afiyun spells require 1 dose of pesh as a material component, either replacing the existing material component, or as part of the material component if the existing component costs more.",
 			"",
 			"| Spell | Level | School | Description |",
-			"| :--- | :---: | :---: | :--- |",
+			"| --- | --- | --- | --- |",
 			"| @ripple[spell/Alleviate Addiction] | 1 | conjuration (healing) | Ignore the effects of addictions. |",
 			"| @ripple[spell/Confusion, Lesser] | 1 | enchantment (compulsion) [mind-affecting] | One creature is confused for 1 round. |",
 			"| @ripple[spell/Night Blindness] | 1 | necromancy [curse] | Impair target's vision as if it were darker. |",
@@ -2088,7 +2088,8 @@
 			">The target is unable to breathe and is treated as if she is holding her breath (see the {rule/rules for |suffocation}). Strong stimulants, effects that increase the target's Constitution, or physical trauma (such as taking 10 or more points of damage from a single attack) negate the spell immediately. Creatures that do not need to breathe are immune to this spell. The target is considered to have taken a dose of {drug/pesh} for the purpose of addiction and withdrawal effects. Canny sahir use this spell to subtly kill enemies, as the spell mimics a pesh overdose.",
 			"",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, add one or more sahir-afiyun spells to your spell list."
-		]
+		],
+		"className": "simple firstColumnStart lastColumnStart"
 	},
 	"sand_strike": {
 		"name": "Sand Strike",

@@ -526,7 +526,7 @@
 			"If you fail a Craft (alchemy) check to perform spontaneous alchemy by 4 or less, you simply fail to produce a result and can try again using the same reagents. However, if you fail by 5 or more, a @HL[mishap] occurs. Roll on the table below to determine the effects of a mishap.",
 			"",
 			"| d6 | Mishap |",
-			"| :---: | :--- |",
+			"| --- | --- |",
 			"| 1 | One random reagent is ruined; other reagents can be reused. |",
 			"| 2 | All reagents are ruined. |",
 			"| 3 | All reagents are ruined and the mixture explodes, dealing 2d6 points of damage (half fire, half acid) to you. A successful DC 15 Reflex save halves the damage. |",
@@ -542,7 +542,8 @@
 			"reading_recipes",
 			"reagents_and_processes",
 			"crafting_tools_feats_and_mishaps"
-		]
+		],
+		"className": "lastColumnStart"
 	},
 	"vehicles": {
 		"name": "Vehicles",

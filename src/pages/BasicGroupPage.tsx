@@ -17,18 +17,20 @@ interface BasicGroupPageProps extends GroupProps {
 }
 
 export const BasicGroupPage: React.FC<BasicGroupPageProps> =
-	({id, info, prefix, topLink, maybeTopLink, className, possiblyUnknown}) => {
+	({id, info, prefix, topLink, maybeTopLink, className: cN1, possiblyUnknown}) => {
 
 	type Data = typeof info;
 
 	type Name = keyof Data;
 
-	const { hasJL, title, jsx, sources, topLink: tL, noFinder, notBookmarkable } =
+	const { hasJL, title, jsx, sources, topLink: tL, noFinder, notBookmarkable, className: cN2 } =
 		possiblyUnknown ? getItem((id as Name), info as BasicPlusUnknown) : getGuaranteedItem((id as Name), info);
 
 	const pageId = `/${prefix}/${id}`;
 
 	const tl = topLink || tL || maybeTopLink || undefined;
+
+	const className = (cN1 && cN2) ? cN1 + " " + cN2 : (cN1 || cN2);
 
 	return (
 		<BasicPage

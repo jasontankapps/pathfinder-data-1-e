@@ -11,6 +11,7 @@ export interface JsonDataProps {
 	noFinder?: boolean
 	addenda?: string[]
 	notBookmarkable?: boolean
+	className?: string
 }
 
 interface MaybeCopyOf<T> extends Partial<JsonDataProps> {

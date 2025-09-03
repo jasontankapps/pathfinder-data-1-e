@@ -254,7 +254,7 @@
 			"### Table 6-5: Tiny and Large Weapon Damage",
 			"",
 			"| Tiny Weapon Damage | Small Weapon Damage | Medium Weapon Damage | Large Weapon Damage |",
-			"| :---: | :---: | :---: | :---: |",
+			"| --- | --- | --- | --- |",
 			"| - | 1 | 1d2 | 1d3 |",
 			"| 1 | 1d2 | 1d3 | 1d4 |",
 			"| 1d2 | 1d3 | 1d4 | 1d6 |",
@@ -1137,7 +1137,7 @@
 			"### Table 15-2: Random Magic Item Generation",
 			"",
 			"| Minor | Medium | Major | Item |",
-			"| :---: | :---: | :---: | --- |",
+			"| --- | --- | --- | --- |",
 			"| 01-04 | 01-10 | 01-10 | Armor and shields |",
 			"| 05-09 | 11-20 | 11-20 | Weapons |",
 			"| 10-44 | 21-30 | 21-25 | Potions |",
@@ -3218,7 +3218,7 @@
 			"{SOURCE Ultimate Equipment/343}",
 			"",
 			"| d% | Specific Cursed Item |",
-			"| :---: | :--- |",
+			"| --- | --- |",
 			"| 01-02 | @ripple[magic-weapon/-2 \\|cursed sword] |",
 			"| 03-04 | @ripple[magic-wondrous/Amulet of inescapable location] |",
 			"| 05-06 | @ripple[magic-armor/Armor of arrow attraction] |",
@@ -3277,7 +3277,8 @@
 			"magic_items",
 			"cursed_items"
 		],
-		"siblings": [ "common_cursed_item_effects" ]
+		"siblings": [ "common_cursed_item_effects" ],
+		"className": "lastColumnStart"
 	},
 	"artifacts": {
 		"name": "Artifacts",

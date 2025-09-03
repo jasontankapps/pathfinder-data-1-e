@@ -45,7 +45,7 @@ const AfflictionPage: React.FC = () => {
 
 	const pageId = `/${type}/${id}`;
 
-	const { hasJL, title, jsx, sources, topLink, notBookmarkable } = getByType(id, type);
+	const { hasJL, title, jsx, sources, topLink, notBookmarkable, className } = getByType(id, type);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -54,6 +54,7 @@ const AfflictionPage: React.FC = () => {
 		pageId={pageId}
 		topLink={topLink || basicAfflictionsPage}
 		notBookmarkable={notBookmarkable}
+		className={className}
 	>{jsx}</BasicPage>;
 };
 

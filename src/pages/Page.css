@@ -549,6 +549,13 @@ table tr td {
 	/* This is so linked cells will ripple */
 	position: relative;
 }
+.lastColumnStart table tr td:last-child,
+.firstColumnStart table tr td:first-child {
+	text-align: start;
+}
+.firstColumnEnd table tr td:first-child {
+	text-align: end;
+}
 table tr th:last-child,
 table tr td:last-child {
 	border-width: var(--half-width) 0;
