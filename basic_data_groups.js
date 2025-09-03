@@ -303,9 +303,10 @@ import monsteru3 from './json/monsters_unique3.json' with {type: 'json'};
 import monsteru4 from './json/monsters_unique4.json' with {type: 'json'};
 import monsterm1 from './json/monsters_mythic.json' with {type: 'json'};
 import monsterm2 from './json/monsters_mythic2.json' with {type: 'json'};
-import template1 from './json/monster_templates.json' with {type: 'json'};
-import template2 from './json/monster_templates2.json' with {type: 'json'};
-import template3 from './json/monster_templates3.json' with {type: 'json'};
+import template1 from './json/monster_template1.json' with {type: 'json'};
+import template2 from './json/monster_template2.json' with {type: 'json'};
+import template3 from './json/monster_template3.json' with {type: 'json'};
+import template4 from './json/monster_template4.json' with {type: 'json'};
 import npc1 from './json/npcs.json' with {type: 'json'};
 import npc2 from './json/npcs2.json' with {type: 'json'};
 import npc3 from './json/npcs3.json' with {type: 'json'};
@@ -3148,6 +3149,13 @@ const basic_data_groups = {
 		searchgroup: 11, // monster
 		link: "template",
 		num: 3,
+		type: "Creature Template"
+	},
+	"monster_templates4": {
+		data: template4,
+		searchgroup: 11, // monster
+		link: "template",
+		num: 4,
 		type: "Creature Template"
 	},
 	"monster_types": {
