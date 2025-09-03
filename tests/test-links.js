@@ -259,9 +259,35 @@ $All.forEach(([link, object]) => {
 //    $KnownProps.race.rat = undefined
 
 const checkForMalformedLinks = (line) => {
-	// \t"[^"]*(?<!\])\{(?![-a-z_]+/[^}]+\})(?!SOURCE|table[0-9]+|className|c=|jumplist)
-	if(line.match(/(?<!\])\{(?![-a-z_]+[/][^}]+\})(?!SOURCE|table[0-9]+|className|c=|jumplist)/)) {
-		return `Malformed link:\n\t\t => "${line}"`;
+	let m;
+	// 1: isn't a block directive like ::directive[text]{attrs}
+	// 2: isn't a container directive like :::div{attrs}
+	// 3: isn't a container directive like :::blockquote{attrs}
+	// 4: isn't a container directive like :::archetype{attrs}
+	// 5: what follows isn't a {valid/link}
+	// 6: what follows isn't a SOURCE tag, jumplist marker, or table reference
+	//                   1           2         3                   4                    5                 6
+	if(m = line.match(/(?<!\])(?<!:::div)(?<!:::blockquote)(?<!:::archetype)\{(?![-a-z_]+[/][^}]+\})(?!SOURCE|table[0-9]+|jumplist).{0,10}/)) {
+		return `Malformed {link}: ${m[0]}\n\t\t => "${line}"`;
+	}
+	// 1: has the markdown link format ](
+	//      AND
+	// 2:   immediately ends like ]()
+	// 3:   or is followed by an invalid link prefix like ](Some.thing/
+	// 4:   or has a valid link prefix but immediately ends like ](prefix/) or ](prefix)
+	//                  1    2    3           4
+	else if(m = line.match(/\]\((\)|[^-a-z_]+[/]|[-a-z_]+[/]?\))/)) {
+		return `Malformed [link]: ${m[0]}\n\t\t => "${line}"`;
+	}
+	// 1: Checks for extraneous }s at the end of a valid link
+	// 2: Checks for extraneous {s at the start of a valid link
+	//                        1                        2
+	else if(m = line.match(/\{+[-a-z_]+[/][^}]+\}{2,}|\{{2,}[-a-z_]+[/][^}]+\}+/)) {
+		return `Possibly malformed link: ${m[0]}\n\t\t => "${line}"`
+	}
+	// Checks for [{turducken/links}](turducken/links)
+	else if(m = line.match(/\[\{[-a-z_]+[/][^}]+\}\]\([-a-z_]+[/][a-z_0-9]+\)/)) {
+		return `Double-encoded link: ${m[0]}\n\t\t => "${line}"`
 	}
 };
 

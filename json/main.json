@@ -3474,7 +3474,7 @@
 			"",
 			"- A @HL[standard action] allows you to do something, most commonly one attack roll, one spell with a casting time of 1 standard action, drinking one potion, or using most special abilities. You can take one standard action per round. You may also use a standard action to take a move action, explained next. {rule/Here are common |standard actions.}",
 			"- A @HL[move action] allows you to move up to your speed or perform an action that takes a similar amount of time, such as drawing a weapon, opening a door, dismounting a steed, loading a light or hand crossbow, getting something out of a pack. {rule/Here are common |move actions.}",
-			"    - If you don't actually move during a round, you can take a free {rule/take_<5-foot step}}.",
+			"    - If you don't actually move during a round, you can take a free {rule/take_<5-foot step}.",
 			"- @HL[Full-round actions] include making more than one attack, charging an enemy, loading a heavy or repeating crossbow, and running. [Here are more.](rule/full_round_actions)",
 			"- A @HL[swift action] consumes a very small amount of time. You can perform one swift action per turn.",
 			"    - An @HL[immediate action] is the same as swift action, but you can do it during someone else's turn. Using an immediate action before your turn \"uses up\" your swift action for the coming turn.",
