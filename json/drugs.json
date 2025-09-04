@@ -588,5 +588,37 @@
 			"",
 			"The drug adyton is central to {faith/Mahathallah/'s} worship and the spreading of her mysteries. It can be purchased only from worshipers of Mahathallah, and typically only by servants of the goddess."
 		]
+	},
+	"felwil": {
+		"name": "Felwil",
+		"sources": [ "Bastards of Golarion" ],
+		"description": [
+			"## Felwil",
+			"",
+			"{SOURCE Bastards of Golarion/21}  ",
+			"**Type** inhaled; **Addiction** minor, Fortitude DC 13  ",
+			"**Price** 20 gp  ",
+			"**Effect** 1 hour; +1d2 alchemical bonus to Charisma, -2 penalty on saves against illusions  ",
+			"**Effect** after 1 hour; 75% chance to become {misc/sickened} for 1d4 hours  ",
+			"**Damage** 1d2 {rule/Wis damage}",
+			"",
+			"The gnome prima donnas of Wispil in Taldor are thought to be the inventors of this mild, dizzying powder, but its use has spread throughout much of southern Avistan. Once taken, this sparkling, honeydew-colored inhalant gives the user a euphoric sensation that can quickly become overwhelming and even sickening. While the long-term effects are relatively minor, few except the hardy care to risk stomaching this toxin."
+		]
+	},
+	"silvertongue": {
+		"name": "Silvertongue",
+		"sources": [ "Bastards of Golarion" ],
+		"description": [
+			"## Silvertongue",
+			"",
+			"{SOURCE Bastards of Golarion/21}  ",
+			"**Type** injested; **Addiction** moderate, Fortitude DC 16  ",
+			"**Price** 75 gp  ",
+			"**Effect** 1 hour; +1d2 alchemical bonus to Charisma  ",
+			"**Effect** 1d4 hours; +2 alchemical bonus on saves against mind-affecting effects  ",
+			"**Damage** 1d4 {rule/Con damage}",
+			"",
+			"The potent performance enhancer known as silvertongue is a sweet alchemical elixir with a metallic aftertaste. A single dose loosens the lips and sharpens the wit. More than one begins to mark the user, and frequent use causes the imbiber's gums and tongue to take on a silvery sheen that advertises her habit."
+		]
 	}
 }
