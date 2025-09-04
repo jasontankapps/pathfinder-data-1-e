@@ -41,6 +41,7 @@ interface RangeFilter extends BaseFilter {
 	range: [number, number]
 	equals?: never
 	has?: never
+	regex?: never
 	word?: never
 }
 interface EqualsFilter extends BaseFilter {
@@ -48,11 +49,13 @@ interface EqualsFilter extends BaseFilter {
 	equals: (string | number)[]
 	range?: never
 	has?: never
+	regex?: never
 	word?: never
 }
 interface HasFilter extends BaseFilter {
 	// array of strings that may partially match
 	has: string[]
+	regex?: boolean
 	word?: boolean
 	range?: never
 	equals?: never

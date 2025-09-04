@@ -213,8 +213,13 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 						toggles.push([]);
 						options.push(labels ? labels[i] : h)
 					});
-					if(f.word) {
-						const hasRx = has.map(h => new RegExp(`\\b${h}\\b`));
+					if (f.word || f.regex) {
+						// Word overrides regex
+						const hasRx =
+							f.word ?
+								has.map(h => new RegExp(`\\b${h}\\b`))
+							:
+								has.map(h => new RegExp(h));
 						rows.forEach((row, i) => {
 							const test = String(getValue(row[0][col][0]));
 							hasRx.forEach((looking, j) => {

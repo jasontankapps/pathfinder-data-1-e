@@ -64,12 +64,15 @@ const checkForBadTables = (tables, objectDescription) => {
 							if(!f || typeof f !== "object") {
 								return true;
 							}
-							const { col, range, equals, has, word, labels } = f;
+							const { col, range, equals, has, word, regex, labels } = f;
 							if (col === undefined || typeof col !== "number" || parseInt(col) !== col || col < 0 || col >= columns.length) {
 								found = `Missing or invalid "col" prop in ${tableDesc}.filter[${fi}]`;
 								return true;
 							} else if (word !== undefined && (!has || range || equals || (word !== false && word !== true))) {
 								found = `Bad "word" prop in ${tableDesc}.filter[${fi}]`;
+								return true;
+							} else if (regex !== undefined && (!has || range || equals || (regex !== false && regex !== true))) {
+								found = `Bad "regex" prop in ${tableDesc}.filter[${fi}]`;
 								return true;
 							} else if (range) {
 								if (!Array.isArray(range)
@@ -96,7 +99,7 @@ const checkForBadTables = (tables, objectDescription) => {
 								found = `Bad "has" prop in ${tableDesc}.filter[${fi}]`;
 								return true;
 							} else if (has) {
-								checkHas.push([fi, col, ...has]);
+								checkHas.push([fi, col, regex, ...has]);
 							} else {
 								// Does not have range or equals or has??
 								found = `Missing a "range", "equals", or "has" prop in ${tableDesc}.filter[${fi}]`;
@@ -166,18 +169,30 @@ const checkForBadTables = (tables, objectDescription) => {
 							return true;
 						})
 						|| checkHas.some(has => {
-							const [fi, col, ...etc] = has;
+							const [fi, col, regex, ...etc] = has;
 							const targets = data.map(d => Array.isArray(d[col]) ? d[col][0] : d[col]);
 							const missing = [];
 							etc.forEach(e => {
-								if(targets.every(t => String(t).indexOf(e) === -1)) {
+								if(targets.every(t => {
+									if(!regex) {
+										return String(t).indexOf(e) === -1;
+									}
+									let m;
+									try {
+										m = new RegExp(e);
+									} catch(err) {
+										found = `${tableDesc}.filter[${fi}] (${id}) contains bad regex [${e}]`;
+										return true;
+									}
+									return !String(t).match(m);
+								})) {
 									missing.push(e);
 								}
 							});
 							if(missing.length === 0) {
 								return false;
 							}
-							found = `${tableDesc}.filter[${fi}] (${id}) doesn't match any of [${missing.join(", ")}] in column ${col}`;
+							found = found || `${tableDesc}.filter[${fi}] (${id}) doesn't match any of [${missing.join(", ")}] in column ${col}`;
 							return true;
 						})
 					)
