@@ -4180,6 +4180,7 @@
 	},
 	"manacles_mwk": { "redirect": "manacles_masterwork" },
 	"masterwork_manacles": { "redirect": "manacles_masterwork" },
+	"mwk_manacles": { "redirect": "manacles_masterwork" },
 	"manacles_mithral": {
 		"name": "Manacles (mithral)",
 		"copyof": "manacles_common"
