@@ -112,6 +112,7 @@
 							"properties": {
 								"name": { "type": "string" },
 								"nameSuffix": { "type": "string" },
+								"tags": { "type": "string" },
 								"category": { "type": "string" },
 								"compilationSources": {
 									"type": "array",
