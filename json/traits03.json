@@ -1249,20 +1249,6 @@
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
-	"asmodean_demon_hunter": {
-		"name": "Asmodean Demon Hunter",
-		"compilationSources": [
-			[ "Ultimate Campaign" ],
-			[ "Cheliax, Empire of Devils" ]
-		],
-		"description": [
-			"**Type:** Religion  ",
-			"**Religion:** {faith/Asmodeus}",
-			"",
-			"Raised in the church of Asmodeus (whether or not you are currently a follower), you've focused your indoctrinated fervor primarily on the elimination of demons. You gain a +3 trait bonus on Knowledge (planes) checks about demons and a +2 trait bonus on Will saves against mind-affecting spells and effects from demons."
-		],
-		"topLink": [ "Religion Traits", "main/traits_religion" ]
-	},
 	"avowed_inspiration": {
 		"name": "Avowed Inspiration",
 		"compilationSources": [ [ "Divine Anthology" ] ],
@@ -1684,7 +1670,11 @@
 	},
 	"demon_hunter": {
 		"name": "Demon Hunter",
-		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"compilationSources": [
+			[ "Advanced Player's Guide" ],
+			[ "Cheliax, Empire of Devils" ],
+			[ "Ultimate Campaign" ]
+		],
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Asmodeus}",
@@ -1830,25 +1820,20 @@
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
-	"elven_pantheist": {
-		"name": "Elven Pantheist",
-		"compilationSources": [ [ "Faiths of Purity" ] ],
-		"description": [
-			"**Type:** Religion  ",
-			"**Religion:** Elven Deities",
-			"",
-			"Your knowledge of the elven gods has given you a broad perspective, thus granting you a +1 trait bonus on all Knowledge (religion) skill checks, and Knowledge (religion) is always a class skill for you."
-		],
-		"topLink": [ "Religion Traits", "main/traits_religion" ]
-	},
 	"elven_polytheist": {
 		"name": "Elven Polytheist",
-		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"tags": "Elven Pantheist",
+		"compilationSources": [
+			[ "Faiths of Purity" ],
+			[ "Inner Sea Gods" ]
+		],
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Elven Deities",
 			"",
-			"Your knowledge of the diverse elven gods has given you a broad perspective. You gain a +1 trait bonus on Knowledge (religion) skill checks, and Knowledge (religion) is a class skill for you."
+			"Your knowledge of the elven gods has given you a broad perspective, thus granting you a +1 trait bonus on all Knowledge (religion) skill checks, and Knowledge (religion) is always a class skill for you.",
+			"",
+			">*This trait was published as \"Elven Pantheist\" in the* Faiths and Purity *sourcebook.*"
 		],
 		"topLink": [ "Religion Traits", "main/traits_religion" ]
 	},
