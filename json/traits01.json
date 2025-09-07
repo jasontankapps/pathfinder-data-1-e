@@ -842,7 +842,7 @@
 			"",
 			"As a child, you learned the power of a simple expression of faith in another when you gave a hero the inspiration to fight on in the face of terrible odds and save you from danger. As a standard action, you can speak words of encouragement to grant a +1 morale bonus to an ally within 30 feet who can see and hear you. The ally can use this bonus on any d20 roll of her choice before the start of your next turn. You cannot use this trait to grant a bonus to yourself or to an ally who has already benefited from this trait within the last 24 hours.",
 			"",
-			"Suggested Characters: {rule/Eagle Knights}, Iomedaeans, Mendevian crusaders."
+			"Suggested Characters: {rule/Eagle Knights}, {faith/Iomedae/ans}, Mendevian crusaders."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -1782,7 +1782,7 @@
 			"",
 			"You spent much of your youth helping the clergy of your chosen faith perform their duties, and learned from them respect for authority. As long as you are acting in the service of a liege or leader you recognize as legitimate, you gain a +2 trait bonus on saving throws against fear and compulsion effects.",
 			"",
-			"Suggested Characters: Abadarans, {rule/Hellknights}, Hermeans."
+			"Suggested Characters: {faith/Abadar/ans}, {rule/Hellknights}, Hermeans."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1997,7 +1997,7 @@
 			"",
 			"Raised in the company of skilled healers, you were always encouraged to devote your time and energy to the welfare of others. Whenever you take 20 on a Heal check to treat deadly wounds, you restore an additional 1d4 hit points to those you aid.",
 			"",
-			"Suggested Characters: Battle clerics, Iomedaeans, Kellids."
+			"Suggested Characters: Battle clerics, {faith/Iomedae/ans}, Kellids."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2314,7 +2314,7 @@
 			"",
 			"A religious mentor instilled in you a sense of uncompromising integrity. You often speak your mind in defiance of any fear or hatred it might earn you, a habit that inspires others to trust you. You gain a +1 trait bonus on Diplomacy checks. This bonus increases to +2 when the Diplomacy check is made to influence those who are already friendly or helpful toward you.",
 			"",
-			"Suggested Characters: Diabolists, paladins, Sarenrae worshipers."
+			"Suggested Characters: {pclass/Diabolist/s}, paladins, {faith/Sarenrae} worshipers."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2377,7 +2377,7 @@
 			"",
 			"Your hope for a brighter future blessed by the gods, combined with your powerful personality, allows you to force your way free of spells that cloud the mind. You can use your Charisma modifier in place of your Wisdom modifier when attempting Will saving throws against charm and compulsion effects.",
 			"",
-			"Suggested Characters: Gnomes, Keleshites, Shelyn worshipers."
+			"Suggested Characters: {race/Gnome/s}, Keleshites, {faith/Shelyn} worshipers."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2503,7 +2503,7 @@
 			"",
 			"You were initiated into a mystery cult in your youth, and learned secrets that turned your understanding of your faith and the world on its head. This experience has given you a knack for lateral thinking. Once per day, you may reroll any Knowledge skill check. You must decide to use this ability after the first roll is made but before the results are revealed. You must take the second result, even if it is worse.",
 			"",
-			"Suggested Characters: Mystery cultists, Nethys worshipers, Norgorber worshipers."
+			"Suggested Characters: {pclass/Mystery cultist/s}, {faith/Nethys} worshipers, {faith/Norgorber} worshipers."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2595,7 +2595,7 @@
 			"",
 			"As a child, you struggled to suppress a sharp temper, but the care and patient respect of a trusted community leader rubbed off on you. As you grew older, you developed a remarkable ability to keep calm and collected when performing a task you are familiar with. Choose one Craft or Profession skill. Whenever you take 10 with that skill, determine the result as if you had rolled a 12 instead of a 10.",
 			"",
-			"Suggested Characters: Asmodeans, Drumans, Irorans."
+			"Suggested Characters: {faith/Asmode/ans>us}, Drumans, {faith/Iror/ans>i}."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2865,7 +2865,7 @@
 			"",
 			"Blessed by a priest of a deity of magic at birth, you demonstrated a remarkable knack for guessing the nature of spells without the schooling of your instructors. You gain a +1 trait bonus on Spellcraft checks, and Spellcraft becomes a class skill for you.",
 			"",
-			"Suggested Characters: Gebbites, Nethys worshipers, Nexians."
+			"Suggested Characters: Gebbites, {faith/Nethys} worshipers, Nexians."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]

@@ -1270,6 +1270,7 @@
 	"chance_savior": {
 		"name": "Chance Savior",
 		"compilationSources": [ [ "Carrion Crown Player's Guide" ] ],
+		"category": "Carrion Crown",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Carrion Crown",
@@ -1283,6 +1284,7 @@
 	"inspired_by_greatness": {
 		"name": "Inspired by Greatness",
 		"compilationSources": [ [ "Carrion Crown Player's Guide" ] ],
+		"category": "Carrion Crown",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Carrion Crown",
@@ -1296,6 +1298,7 @@
 	"making_good_on_promises": {
 		"name": "Making Good on Promises",
 		"compilationSources": [ [ "Carrion Crown Player's Guide" ] ],
+		"category": "Carrion Crown",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Carrion Crown",
@@ -1309,6 +1312,7 @@
 	"on_the_payroll": {
 		"name": "On the Payroll",
 		"compilationSources": [ [ "Carrion Crown Player's Guide" ] ],
+		"category": "Carrion Crown",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Carrion Crown",
@@ -1322,6 +1326,7 @@
 	"subject_of_study": {
 		"name": "Subject of Study",
 		"compilationSources": [ [ "Carrion Crown Player's Guide" ] ],
+		"category": "Carrion Crown",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Carrion Crown",
@@ -1335,6 +1340,7 @@
 	"teachers_pet": {
 		"name": "Teacher's Pet",
 		"compilationSources": [ [ "Carrion Crown Player's Guide" ] ],
+		"category": "Carrion Crown",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Carrion Crown",
@@ -1348,6 +1354,7 @@
 	"child_of_infamy": {
 		"name": "Child of Infamy",
 		"compilationSources": [ [ "Council of Thieves Player's Guide" ] ],
+		"category": "Council of Thieves",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Council of Thieves",
@@ -1359,6 +1366,7 @@
 	"conspiracy_hunter": {
 		"name": "Conspiracy Hunter",
 		"compilationSources": [ [ "Council of Thieves Player's Guide" ] ],
+		"category": "Council of Thieves",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Council of Thieves",
@@ -1370,6 +1378,7 @@
 	"diabolist_raised": {
 		"name": "Diabolist Raised",
 		"compilationSources": [ [ "Council of Thieves Player's Guide" ] ],
+		"category": "Council of Thieves",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Council of Thieves",
@@ -1381,6 +1390,7 @@
 	"infernal_bastard": {
 		"name": "Infernal Bastard",
 		"compilationSources": [ [ "Council of Thieves Player's Guide" ] ],
+		"category": "Council of Thieves",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Council of Thieves",
@@ -1392,6 +1402,7 @@
 	"shadow_child": {
 		"name": "Shadow Child",
 		"compilationSources": [ [ "Council of Thieves Player's Guide" ] ],
+		"category": "Council of Thieves",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Council of Thieves",
@@ -1403,6 +1414,7 @@
 	"the_pathfinders_exile": {
 		"name": "The Pathfinder's Exile",
 		"compilationSources": [ [ "Council of Thieves Player's Guide" ] ],
+		"category": "Council of Thieves",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Council of Thieves",
@@ -1414,6 +1426,7 @@
 	"westcrown_firebrand": {
 		"name": "Westcrown Firebrand",
 		"compilationSources": [ [ "Council of Thieves Player's Guide" ] ],
+		"category": "Council of Thieves",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Council of Thieves",
@@ -1425,6 +1438,7 @@
 	"betrayed_cotct": {
 		"name": "Betrayed (CotCT)",
 		"compilationSources": [ [ "Curse of the Crimson Throne" ] ],
+		"category": "Curse of the Crimson Throne",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Curse of the Crimson Throne",
@@ -1442,6 +1456,7 @@
 	"dockside_avenger": {
 		"name": "Dockside Avenger",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Curse of the Crimson Throne",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Curse of the Crimson Throne",
@@ -1456,6 +1471,7 @@
 			[ "Curse of the Crimson Throne" ],
 			[ "Curse of the Crimson Throne Player's Guide" ]
 		],
+		"category": "Curse of the Crimson Throne",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Curse of the Crimson Throne",
@@ -1476,6 +1492,7 @@
 			[ "Curse of the Crimson Throne" ],
 			[ "Curse of the Crimson Throne Player's Guide" ]
 		],
+		"category": "Curse of the Crimson Throne",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Curse of the Crimson Throne",
@@ -1496,6 +1513,7 @@
 			[ "Curse of the Crimson Throne" ],
 			[ "Curse of the Crimson Throne Player's Guide" ]
 		],
+		"category": "Curse of the Crimson Throne",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Curse of the Crimson Throne",
@@ -1516,6 +1534,7 @@
 			[ "Curse of the Crimson Throne" ],
 			[ "Curse of the Crimson Throne Player's Guide" ]
 		],
+		"category": "Curse of the Crimson Throne",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Curse of the Crimson Throne",
@@ -1536,6 +1555,7 @@
 			[ "Curse of the Crimson Throne" ],
 			[ "Curse of the Crimson Throne Player's Guide" ]
 		],
+		"category": "Curse of the Crimson Throne",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Curse of the Crimson Throne",
@@ -1553,6 +1573,7 @@
 	"varisian_immunity": {
 		"name": "Varisian Immunity",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Curse of the Crimson Throne",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Curse of the Crimson Throne",
@@ -1567,6 +1588,7 @@
 			[ "Giantslayer Player's Guide" ],
 			[ "Giant Hunter's Handbook" ]
 		],
+		"category": "Giantslayer",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Giantslayer",
@@ -1581,6 +1603,7 @@
 			[ "Giantslayer Player's Guide" ],
 			[ "Giant Hunter's Handbook" ]
 		],
+		"category": "Giantslayer",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Giantslayer",
@@ -1595,6 +1618,7 @@
 			[ "Giantslayer Player's Guide" ],
 			[ "Giant Hunter's Handbook" ]
 		],
+		"category": "Giantslayer",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Giantslayer",
@@ -1609,6 +1633,7 @@
 			[ "Giantslayer Player's Guide" ],
 			[ "Giant Hunter's Handbook" ]
 		],
+		"category": "Giantslayer",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Giantslayer",
@@ -1623,6 +1648,7 @@
 			[ "Giantslayer Player's Guide" ],
 			[ "Giant Hunter's Handbook" ]
 		],
+		"category": "Giantslayer",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Giantslayer",
@@ -1637,6 +1663,7 @@
 			[ "Giantslayer Player's Guide" ],
 			[ "Giant Hunter's Handbook" ]
 		],
+		"category": "Giantslayer",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Giantslayer",
@@ -1651,6 +1678,7 @@
 			[ "Giantslayer Player's Guide" ],
 			[ "Giant Hunter's Handbook" ]
 		],
+		"category": "Giantslayer",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Giantslayer",
@@ -1665,6 +1693,7 @@
 			[ "Giantslayer Player's Guide" ],
 			[ "Giant Hunter's Handbook" ]
 		],
+		"category": "Giantslayer",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Giantslayer",
@@ -1679,6 +1708,7 @@
 			[ "Giantslayer Player's Guide" ],
 			[ "Giant Hunter's Handbook" ]
 		],
+		"category": "Giantslayer",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Giantslayer",
@@ -1693,6 +1723,7 @@
 			[ "Giantslayer Player's Guide" ],
 			[ "Giant Hunter's Handbook" ]
 		],
+		"category": "Giantslayer",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Giantslayer",
@@ -1704,6 +1735,7 @@
 	"child_of_kintargo": {
 		"name": "Child of Kintargo",
 		"compilationSources": [ [ "Hell's Rebels Player's Guide" ] ],
+		"category": "Hell's Rebels",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
@@ -1717,6 +1749,7 @@
 	"diva_in_training": {
 		"name": "Diva in Training",
 		"compilationSources": [ [ "Hell's Rebels Player's Guide" ] ],
+		"category": "Hell's Rebels",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
@@ -1730,6 +1763,7 @@
 	"ex_asmodean": {
 		"name": "Ex-Asmodean",
 		"compilationSources": [ [ "Hell's Rebels Player's Guide" ] ],
+		"category": "Hell's Rebels",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
@@ -1743,6 +1777,7 @@
 	"fed_up_citizen": {
 		"name": "Fed-Up Citizen",
 		"compilationSources": [ [ "Hell's Rebels Player's Guide" ] ],
+		"category": "Hell's Rebels",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
@@ -1758,6 +1793,7 @@
 	"gifted_satirist": {
 		"name": "Gifted Satirist",
 		"compilationSources": [ [ "Hell's Rebels Player's Guide" ] ],
+		"category": "Hell's Rebels",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
@@ -1771,6 +1807,7 @@
 	"historian_of_the_rebellion": {
 		"name": "Historian of the Rebellion",
 		"compilationSources": [ [ "Hell's Rebels Player's Guide" ] ],
+		"category": "Hell's Rebels",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
@@ -1784,6 +1821,7 @@
 	"natural_born_leader_hr": {
 		"name": "Natural Born Leader (HR)",
 		"compilationSources": [ [ "Hell's Rebels Player's Guide" ] ],
+		"category": "Hell's Rebels",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
@@ -1797,6 +1835,7 @@
 	"pattern_seeker": {
 		"name": "Pattern Seeker",
 		"compilationSources": [ [ "Hell's Rebels Player's Guide" ] ],
+		"category": "Hell's Rebels",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
@@ -1810,6 +1849,7 @@
 	"star_struck": {
 		"name": "Star Struck",
 		"compilationSources": [ [ "Hell's Rebels Player's Guide" ] ],
+		"category": "Hell's Rebels",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
@@ -1829,6 +1869,7 @@
 	"urban_sleuth": {
 		"name": "Urban Sleuth",
 		"compilationSources": [ [ "Hell's Rebels Player's Guide" ] ],
+		"category": "Hell's Rebels",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Rebels",
@@ -1847,6 +1888,7 @@
 	"amoral_mercenary": {
 		"name": "Amoral Mercenary",
 		"compilationSources": [ [ "Hell's Vengeance Player's Guide" ] ],
+		"category": "Hell's Vengeance",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
@@ -1860,6 +1902,7 @@
 	"apprentice_devilbinder": {
 		"name": "Apprentice Devilbinder",
 		"compilationSources": [ [ "Hell's Vengeance Player's Guide" ] ],
+		"category": "Hell's Vengeance",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
@@ -1873,6 +1916,7 @@
 	"asmodean_acolyte": {
 		"name": "Asmodean Acolyte",
 		"compilationSources": [ [ "Hell's Vengeance Player's Guide" ] ],
+		"category": "Hell's Vengeance",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
@@ -1884,6 +1928,7 @@
 	"chelish_noble": {
 		"name": "Chelish Noble",
 		"compilationSources": [ [ "Hell's Vengeance Player's Guide" ] ],
+		"category": "Hell's Vengeance",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
@@ -1899,6 +1944,7 @@
 	"erratic_malefactor": {
 		"name": "Erratic Malefactor",
 		"compilationSources": [ [ "Hell's Vengeance Player's Guide" ] ],
+		"category": "Hell's Vengeance",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
@@ -1912,6 +1958,7 @@
 	"ex_iomedaean": {
 		"name": "Ex-Iomedaean",
 		"compilationSources": [ [ "Hell's Vengeance Player's Guide" ] ],
+		"category": "Hell's Vengeance",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
@@ -1925,6 +1972,7 @@
 	"good_slip": {
 		"name": "Good Slip",
 		"compilationSources": [ [ "Hell's Vengeance Player's Guide" ] ],
+		"category": "Hell's Vengeance  ",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance  ",
@@ -1939,6 +1987,7 @@
 	"hellknight_aspirant": {
 		"name": "Hellknight Aspirant",
 		"compilationSources": [ [ "Hell's Vengeance Player's Guide" ] ],
+		"category": "Hell's Vengeance",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
@@ -1961,6 +2010,7 @@
 	"local_tough": {
 		"name": "Local Tough",
 		"compilationSources": [ [ "Hell's Vengeance Player's Guide" ] ],
+		"category": "Hell's Vengeance",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
@@ -1972,6 +2022,7 @@
 	"scion_of_the_nine_circles": {
 		"name": "Scion of the Nine Circles",
 		"compilationSources": [ [ "Hell's Vengeance Player's Guide" ] ],
+		"category": "Hell's Vengeance",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
@@ -1985,6 +2036,7 @@
 	"thrune_informant": {
 		"name": "Thrune Informant",
 		"compilationSources": [ [ "Hell's Vengeance Player's Guide" ] ],
+		"category": "Hell's Vengeance",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance",
@@ -1996,6 +2048,7 @@
 	"thrune_loyal_agent": {
 		"name": "Thrune Loyal Agent",
 		"compilationSources": [ [ "Pathfinder #104: Wrath of Thrune" ] ],
+		"category": "Hell's Vengeance  ",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance  ",
@@ -2013,6 +2066,7 @@
 			[ "Iron Gods Player's Guide" ],
 			[ "People of the River" ]
 		],
+		"category": "Iron Gods",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Iron Gods",
@@ -2027,6 +2081,7 @@
 			[ "Iron Gods Player's Guide" ],
 			[ "People of the River" ]
 		],
+		"category": "Iron Gods",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Iron Gods",
@@ -2041,6 +2096,7 @@
 			[ "Iron Gods Player's Guide" ],
 			[ "People of the River" ]
 		],
+		"category": "Iron Gods",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Iron Gods",
@@ -2055,6 +2111,7 @@
 			[ "Iron Gods Player's Guide" ],
 			[ "People of the River" ]
 		],
+		"category": "Iron Gods",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Iron Gods",
@@ -2069,6 +2126,7 @@
 			[ "Iron Gods Player's Guide" ],
 			[ "People of the River" ]
 		],
+		"category": "Iron Gods",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Iron Gods",
@@ -2083,6 +2141,7 @@
 			[ "Iron Gods Player's Guide" ],
 			[ "People of the River" ]
 		],
+		"category": "Iron Gods",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Iron Gods",
@@ -2094,6 +2153,7 @@
 	"animal_whisperer": {
 		"name": "Animal Whisperer",
 		"compilationSources": [ [ "Ironfang Invasion Player's Guide" ] ],
+		"category": "Ironfang Invasion",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ironfang Invasion",
@@ -2105,6 +2165,7 @@
 	"blight_burned": {
 		"name": "Blight-Burned",
 		"compilationSources": [ [ "Ironfang Invasion Player's Guide" ] ],
+		"category": "Ironfang Invasion",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ironfang Invasion",
@@ -2116,6 +2177,7 @@
 	"chernasardo_hopeful": {
 		"name": "Chernasardo Hopeful",
 		"compilationSources": [ [ "Ironfang Invasion Player's Guide" ] ],
+		"category": "Ironfang Invasion",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ironfang Invasion",
@@ -2127,6 +2189,7 @@
 	"foxclaw_scout": {
 		"name": "Foxclaw Scout",
 		"compilationSources": [ [ "Ironfang Invasion Player's Guide" ] ],
+		"category": "Ironfang Invasion",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ironfang Invasion",
@@ -2138,6 +2201,7 @@
 	"frontier_healer": {
 		"name": "Frontier Healer",
 		"compilationSources": [ [ "Ironfang Invasion Player's Guide" ] ],
+		"category": "Ironfang Invasion",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ironfang Invasion",
@@ -2149,6 +2213,7 @@
 	"ironfang_survivor": {
 		"name": "Ironfang Survivor",
 		"compilationSources": [ [ "Ironfang Invasion Player's Guide" ] ],
+		"category": "Ironfang Invasion",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ironfang Invasion",
@@ -2160,6 +2225,7 @@
 	"kraggodan_castaway": {
 		"name": "Kraggodan Castaway",
 		"compilationSources": [ [ "Ironfang Invasion Player's Guide" ] ],
+		"category": "Ironfang Invasion  ",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ironfang Invasion  ",
@@ -2172,6 +2238,7 @@
 	"unbreakable_survivor": {
 		"name": "Unbreakable Survivor",
 		"compilationSources": [ [ "Ironfang Invasion Player's Guide" ] ],
+		"category": "Ironfang Invasion",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ironfang Invasion",
@@ -2183,6 +2250,7 @@
 	"world_weary": {
 		"name": "World-Weary",
 		"compilationSources": [ [ "Ironfang Invasion Player's Guide" ] ],
+		"category": "Ironfang Invasion",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ironfang Invasion",
@@ -2194,6 +2262,7 @@
 	"best_customer": {
 		"name": "Best Customer",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Jade Regent",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
@@ -2207,6 +2276,7 @@
 	"best_friend": {
 		"name": "Best Friend",
 		"compilationSources": [ [ "Jade Regent Player's Guide" ] ],
+		"category": "Jade Regent",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
@@ -2220,6 +2290,7 @@
 	"caravan_guard": {
 		"name": "Caravan Guard",
 		"compilationSources": [ [ "Jade Regent Player's Guide" ] ],
+		"category": "Jade Regent",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
@@ -2233,6 +2304,7 @@
 	"childhood_crush": {
 		"name": "Childhood Crush",
 		"compilationSources": [ [ "Jade Regent Player's Guide" ] ],
+		"category": "Jade Regent",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
@@ -2246,6 +2318,7 @@
 	"foreign_tongued": {
 		"name": "Foreign-Tongued",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Jade Regent",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
@@ -2263,6 +2336,7 @@
 	"foster_child": {
 		"name": "Foster Child",
 		"compilationSources": [ [ "Jade Regent Player's Guide" ] ],
+		"category": "Jade Regent",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
@@ -2276,6 +2350,7 @@
 	"friend_of_the_family": {
 		"name": "Friend of the Family",
 		"compilationSources": [ [ "Jade Regent Player's Guide" ] ],
+		"category": "Jade Regent",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
@@ -2289,6 +2364,7 @@
 	"hero_worship": {
 		"name": "Hero Worship",
 		"compilationSources": [ [ "Jade Regent Player's Guide" ] ],
+		"category": "Jade Regent",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
@@ -2302,6 +2378,7 @@
 	"rescued": {
 		"name": "Rescued",
 		"compilationSources": [ [ "Jade Regent Player's Guide" ] ],
+		"category": "Jade Regent",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
@@ -2315,6 +2392,7 @@
 	"student_survivalist": {
 		"name": "Student Survivalist",
 		"compilationSources": [ [ "Jade Regent Player's Guide" ] ],
+		"category": "Jade Regent",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
@@ -2328,6 +2406,7 @@
 	"younger_sibling": {
 		"name": "Younger Sibling",
 		"compilationSources": [ [ "Jade Regent Player's Guide" ] ],
+		"category": "Jade Regent",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Jade Regent",
@@ -2343,6 +2422,7 @@
 	"bastard_km": {
 		"name": "Bastard (KM)",
 		"compilationSources": [ [ "Kingmaker Player's Guide" ] ],
+		"category": "Kingmaker  ",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Kingmaker  ",
@@ -2355,6 +2435,7 @@
 	"brigand": {
 		"name": "Brigand",
 		"compilationSources": [ [ "Kingmaker Player's Guide" ] ],
+		"category": "Kingmaker",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Kingmaker",
@@ -2366,6 +2447,7 @@
 	"issian": {
 		"name": "Issian",
 		"compilationSources": [ [ "Kingmaker Player's Guide" ] ],
+		"category": "Kingmaker",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Kingmaker",
@@ -2377,6 +2459,7 @@
 	"noble_born": {
 		"name": "Noble Born",
 		"compilationSources": [ [ "Kingmaker Player's Guide" ] ],
+		"category": "Kingmaker",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Kingmaker",
@@ -2395,6 +2478,7 @@
 	"pioneer": {
 		"name": "Pioneer",
 		"compilationSources": [ [ "Kingmaker Player's Guide" ] ],
+		"category": "Kingmaker",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Kingmaker",
@@ -2406,6 +2490,7 @@
 	"rostlander": {
 		"name": "Rostlander",
 		"compilationSources": [ [ "Kingmaker Player's Guide" ] ],
+		"category": "Kingmaker",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Kingmaker",
@@ -2417,6 +2502,7 @@
 	"sword_scion": {
 		"name": "Sword Scion",
 		"compilationSources": [ [ "Kingmaker Player's Guide" ] ],
+		"category": "Kingmaker",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Kingmaker",
@@ -2428,6 +2514,7 @@
 	"earning_your_freedom": {
 		"name": "Earning your Freedom",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Legacy of Fire",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Legacy of Fire",
@@ -2439,6 +2526,7 @@
 	"finding_haleen": {
 		"name": "Finding Haleen",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Legacy of Fire",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Legacy of Fire",
@@ -2450,6 +2538,7 @@
 	"gnoll_killer": {
 		"name": "Gnoll Killer",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Legacy of Fire",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Legacy of Fire",
@@ -2461,6 +2550,7 @@
 	"missionary": {
 		"name": "Missionary",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Legacy of Fire",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Legacy of Fire",
@@ -2472,6 +2562,7 @@
 	"reclaiming_your_roots": {
 		"name": "Reclaiming your Roots",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Legacy of Fire",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Legacy of Fire",
@@ -2483,6 +2574,7 @@
 	"seeking_adventure": {
 		"name": "Seeking Adventure",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Legacy of Fire",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Legacy of Fire",
@@ -2497,6 +2589,7 @@
 			[ "Mummy's Mask Player's Guide" ],
 			[ "People of the Sands" ]
 		],
+		"category": "Mummy's Mask",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Mummy's Mask",
@@ -2511,6 +2604,7 @@
 			[ "Mummy's Mask Player's Guide" ],
 			[ "People of the Sands" ]
 		],
+		"category": "Mummy's Mask",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Mummy's Mask",
@@ -2525,6 +2619,7 @@
 			[ "Mummy's Mask Player's Guide" ],
 			[ "People of the Sands" ]
 		],
+		"category": "Mummy's Mask",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Mummy's Mask",
@@ -2539,6 +2634,7 @@
 			[ "Mummy's Mask Player's Guide" ],
 			[ "People of the Sands" ]
 		],
+		"category": "Mummy's Mask",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Mummy's Mask",
@@ -2553,6 +2649,7 @@
 			[ "Mummy's Mask Player's Guide" ],
 			[ "People of the Sands" ]
 		],
+		"category": "Mummy's Mask",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Mummy's Mask",
@@ -2567,6 +2664,7 @@
 			[ "Mummy's Mask Player's Guide" ],
 			[ "People of the Sands" ]
 		],
+		"category": "Mummy's Mask",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Mummy's Mask",
@@ -2581,6 +2679,7 @@
 			[ "Mummy's Mask Player's Guide" ],
 			[ "People of the Sands" ]
 		],
+		"category": "Mummy's Mask",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Mummy's Mask",
@@ -2595,6 +2694,7 @@
 			[ "Mummy's Mask Player's Guide" ],
 			[ "People of the Sands" ]
 		],
+		"category": "Mummy's Mask",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Mummy's Mask",
@@ -2609,6 +2709,7 @@
 			[ "Mummy's Mask Player's Guide" ],
 			[ "People of the Sands" ]
 		],
+		"category": "Mummy's Mask",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Mummy's Mask",
@@ -2623,6 +2724,7 @@
 			[ "Mummy's Mask Player's Guide" ],
 			[ "People of the Sands" ]
 		],
+		"category": "Mummy's Mask",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Mummy's Mask",
@@ -2637,6 +2739,7 @@
 			[ "Reign of Winter Player's Guide" ],
 			[ "People of the North" ]
 		],
+		"category": "Reign of Winter",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Reign of Winter",
@@ -2651,6 +2754,7 @@
 			[ "Reign of Winter Player's Guide" ],
 			[ "People of the North" ]
 		],
+		"category": "Reign of Winter",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Reign of Winter",
@@ -2665,6 +2769,7 @@
 			[ "Reign of Winter Player's Guide" ],
 			[ "People of the North" ]
 		],
+		"category": "Reign of Winter",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Reign of Winter",
@@ -2679,6 +2784,7 @@
 			[ "Reign of Winter Player's Guide" ],
 			[ "People of the North" ]
 		],
+		"category": "Reign of Winter",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Reign of Winter",
@@ -2693,6 +2799,7 @@
 			[ "Reign of Winter Player's Guide" ],
 			[ "People of the North" ]
 		],
+		"category": "Reign of Winter",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Reign of Winter",
@@ -2707,6 +2814,7 @@
 			[ "Reign of Winter Player's Guide" ],
 			[ "People of the North" ]
 		],
+		"category": "Reign of Winter",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Reign of Winter",
@@ -2721,6 +2829,7 @@
 			[ "Reign of Winter Player's Guide" ],
 			[ "People of the North" ]
 		],
+		"category": "Reign of Winter",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Reign of Winter",
@@ -2732,6 +2841,7 @@
 	"accidental_clone": {
 		"name": "Accidental Clone",
 		"compilationSources": [ [ "Return of the Runelords Players Guide" ] ],
+		"category": "Return of the Runelords  ",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Return of the Runelords  ",
@@ -2752,6 +2862,7 @@
 	"audrahnis_ally": {
 		"name": "Audrahni's Ally",
 		"compilationSources": [ [ "Return of the Runelords Players Guide" ] ],
+		"category": "Return of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Return of the Runelords",
@@ -2771,6 +2882,7 @@
 	"close_allies": {
 		"name": "Close Allies",
 		"compilationSources": [ [ "Return of the Runelords Players Guide" ] ],
+		"category": "Return of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Return of the Runelords",
@@ -2790,6 +2902,7 @@
 	"intrigued_by_thassilon": {
 		"name": "Intrigued by Thassilon",
 		"compilationSources": [ [ "Return of the Runelords Players Guide" ] ],
+		"category": "Return of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Return of the Runelords",
@@ -2805,6 +2918,7 @@
 	"scion_of_legend": {
 		"name": "Scion of Legend",
 		"compilationSources": [ [ "Return of the Runelords Players Guide" ] ],
+		"category": "Return of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Return of the Runelords",
@@ -2820,6 +2934,7 @@
 	"spirit_touched": {
 		"name": "Spirit Touched",
 		"compilationSources": [ [ "Return of the Runelords Players Guide" ] ],
+		"category": "Return of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Return of the Runelords",
@@ -2835,6 +2950,7 @@
 	"time_lost": {
 		"name": "Time Lost",
 		"compilationSources": [ [ "Return of the Runelords Players Guide" ] ],
+		"category": "Return of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Return of the Runelords",
@@ -2848,6 +2964,7 @@
 	"eager_performer": {
 		"name": "Eager Performer",
 		"compilationSources": [ [ "Rise of the Runelords Anniversary Edition Player's Guide" ] ],
+		"category": "Rise of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
@@ -2859,6 +2976,7 @@
 	"family_ties_rotrl": {
 		"name": "Family Ties (RotRL)",
 		"compilationSources": [ [ "Rise of the Runelords Anniversary Edition Player's Guide" ] ],
+		"category": "Rise of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
@@ -2870,6 +2988,7 @@
 	"friends_and_enemies": {
 		"name": "Friends and Enemies",
 		"compilationSources": [ [ "Rise of the Runelords Anniversary Edition Player's Guide" ] ],
+		"category": "Rise of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
@@ -2881,6 +3000,7 @@
 	"giant_slayer": {
 		"name": "Giant Slayer",
 		"compilationSources": [ [ "Rise of the Runelords Anniversary Edition Player's Guide" ] ],
+		"category": "Rise of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
@@ -2892,6 +3012,7 @@
 	"goblin_watcher": {
 		"name": "Goblin Watcher",
 		"compilationSources": [ [ "Rise of the Runelords Anniversary Edition Player's Guide" ] ],
+		"category": "Rise of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
@@ -2903,6 +3024,7 @@
 	"hagfish_hopeful": {
 		"name": "Hagfish Hopeful",
 		"compilationSources": [ [ "Rise of the Runelords Anniversary Edition Player's Guide" ] ],
+		"category": "Rise of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
@@ -2914,6 +3036,7 @@
 	"merchant_family": {
 		"name": "Merchant Family",
 		"compilationSources": [ [ "Rise of the Runelords Anniversary Edition Player's Guide" ] ],
+		"category": "Rise of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
@@ -2925,6 +3048,7 @@
 	"monster_hunter": {
 		"name": "Monster Hunter",
 		"compilationSources": [ [ "Rise of the Runelords Anniversary Edition Player's Guide" ] ],
+		"category": "Rise of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
@@ -2936,6 +3060,7 @@
 	"sandpoint_faithful": {
 		"name": "Sandpoint Faithful",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Rise of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
@@ -2947,6 +3072,7 @@
 	"scholar_of_the_ancients": {
 		"name": "Scholar of the Ancients",
 		"compilationSources": [ [ "Rise of the Runelords Anniversary Edition Player's Guide" ] ],
+		"category": "Rise of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
@@ -2958,6 +3084,7 @@
 	"student_of_faith": {
 		"name": "Student of Faith",
 		"compilationSources": [ [ "Rise of the Runelords Anniversary Edition Player's Guide" ] ],
+		"category": "Rise of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
@@ -2969,6 +3096,7 @@
 	"thrill_seeker_rotr": {
 		"name": "Thrill Seeker (RotR)",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Rise of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Rise of the Runelords",
@@ -2980,6 +3108,7 @@
 	"athletic": {
 		"name": "Athletic",
 		"compilationSources": [ [ "Ruins of Azlant Player's Guide" ] ],
+		"category": "Ruins of Azlant",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
@@ -2993,6 +3122,7 @@
 	"azlanti_scholar_roapg": {
 		"name": "Azlanti Scholar (RoAPG)",
 		"compilationSources": [ [ "Ruins of Azlant Player's Guide" ] ],
+		"category": "Ruins of Azlant",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
@@ -3006,6 +3136,7 @@
 	"eagle_knight_recruit": {
 		"name": "Eagle Knight Recruit",
 		"compilationSources": [ [ "Ruins of Azlant Player's Guide" ] ],
+		"category": "Ruins of Azlant",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
@@ -3019,6 +3150,7 @@
 	"employee": {
 		"name": "Employee",
 		"compilationSources": [ [ "Ruins of Azlant Player's Guide" ] ],
+		"category": "Ruins of Azlant",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
@@ -3032,6 +3164,7 @@
 	"expert_explorer": {
 		"name": "Expert Explorer",
 		"compilationSources": [ [ "Ruins of Azlant Player's Guide" ] ],
+		"category": "Ruins of Azlant",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
@@ -3045,6 +3178,7 @@
 	"following_in_the_footsteps": {
 		"name": "Following in the Footsteps",
 		"compilationSources": [ [ "Ruins of Azlant Player's Guide" ] ],
+		"category": "Ruins of Azlant",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
@@ -3058,6 +3192,7 @@
 	"healthy": {
 		"name": "Healthy",
 		"compilationSources": [ [ "Ruins of Azlant Player's Guide" ] ],
+		"category": "Ruins of Azlant",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
@@ -3071,6 +3206,7 @@
 	"pathfinder_recruit": {
 		"name": "Pathfinder Recruit",
 		"compilationSources": [ [ "Ruins of Azlant Player's Guide" ] ],
+		"category": "Ruins of Azlant",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
@@ -3082,6 +3218,7 @@
 	"resourceful": {
 		"name": "Resourceful",
 		"compilationSources": [ [ "Ruins of Azlant Player's Guide" ] ],
+		"category": "Ruins of Azlant",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
@@ -3095,6 +3232,7 @@
 	"seasoned_hunter": {
 		"name": "Seasoned Hunter",
 		"compilationSources": [ [ "Ruins of Azlant Player's Guide" ] ],
+		"category": "Ruins of Azlant",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
@@ -3108,6 +3246,7 @@
 	"set_mind": {
 		"name": "Set Mind",
 		"compilationSources": [ [ "Ruins of Azlant Player's Guide" ] ],
+		"category": "Ruins of Azlant",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
@@ -3121,6 +3260,7 @@
 	"skillful": {
 		"name": "Skillful",
 		"compilationSources": [ [ "Ruins of Azlant Player's Guide" ] ],
+		"category": "Ruins of Azlant",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ruins of Azlant",
@@ -3134,6 +3274,7 @@
 	"daring_doomsayer": {
 		"name": "Daring Doomsayer",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Second Darkness",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Second Darkness",
@@ -3145,6 +3286,7 @@
 	"fixer_of_odds": {
 		"name": "Fixer of Odds",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Second Darkness",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Second Darkness",
@@ -3156,6 +3298,7 @@
 	"fools_for_friends": {
 		"name": "Fools for Friends",
 		"compilationSources": [ [ "Second Darkness Player's Guide" ] ],
+		"category": "Second Darkness",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Second Darkness",
@@ -3167,6 +3310,7 @@
 	"into_enemy_territory": {
 		"name": "Into Enemy Territory",
 		"compilationSources": [ [ "Second Darkness Player's Guide" ] ],
+		"category": "Second Darkness",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Second Darkness",
@@ -3178,6 +3322,7 @@
 	"looking_for_work": {
 		"name": "Looking for Work",
 		"compilationSources": [ [ "Second Darkness Player's Guide" ] ],
+		"category": "Second Darkness",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Second Darkness",
@@ -3189,6 +3334,7 @@
 	"optimistic_gambler": {
 		"name": "Optimistic Gambler",
 		"compilationSources": [ [ "Second Darkness Player's Guide" ] ],
+		"category": "Second Darkness",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Second Darkness",
@@ -3200,6 +3346,7 @@
 	"portentous_perception": {
 		"name": "Portentous Perception",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Second Darkness",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Second Darkness",
@@ -3211,6 +3358,7 @@
 	"researching_the_blot": {
 		"name": "Researching the Blot",
 		"compilationSources": [ [ "Second Darkness Player's Guide" ] ],
+		"category": "Second Darkness",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Second Darkness",
@@ -3222,6 +3370,7 @@
 	"scouting_for_fiends": {
 		"name": "Scouting for Fiends",
 		"compilationSources": [ [ "Second Darkness Player's Guide" ] ],
+		"category": "Second Darkness",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Second Darkness",
@@ -3233,6 +3382,7 @@
 	"boarded_in_cheliax": {
 		"name": "Boarded in Cheliax",
 		"compilationSources": [ [ "Serpent's Skull Player's Guide" ] ],
+		"category": "Serpent's Skull",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Serpent's Skull",
@@ -3244,6 +3394,7 @@
 	"boarded_in_mediogalti": {
 		"name": "Boarded in Mediogalti",
 		"compilationSources": [ [ "Serpent's Skull Player's Guide" ] ],
+		"category": "Serpent's Skull",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Serpent's Skull",
@@ -3255,6 +3406,7 @@
 	"boarded_in_mwangi_expanse": {
 		"name": "Boarded in Mwangi Expanse",
 		"compilationSources": [ [ "Serpent's Skull Player's Guide" ] ],
+		"category": "Serpent's Skull",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Serpent's Skull",
@@ -3266,6 +3418,7 @@
 	"boarded_in_varisia": {
 		"name": "Boarded in Varisia",
 		"compilationSources": [ [ "Serpent's Skull Player's Guide" ] ],
+		"category": "Serpent's Skull",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Serpent's Skull",
@@ -3277,6 +3430,7 @@
 	"boarded_in_the_shackles": {
 		"name": "Boarded in the Shackles",
 		"compilationSources": [ [ "Serpent's Skull Player's Guide" ] ],
+		"category": "Serpent's Skull",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Serpent's Skull",
@@ -3288,6 +3442,7 @@
 	"colonial": {
 		"name": "Colonial",
 		"compilationSources": [ [ "Serpent's Skull Player's Guide" ] ],
+		"category": "Serpent's Skull",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Serpent's Skull",
@@ -3301,6 +3456,7 @@
 	"get_the_cargo_through": {
 		"name": "Get the Cargo Through",
 		"compilationSources": [ [ "Serpent's Skull Player's Guide" ] ],
+		"category": "Serpent's Skull",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Serpent's Skull",
@@ -3314,6 +3470,7 @@
 	"jenivere_crew": {
 		"name": "Jenivere Crew",
 		"compilationSources": [ [ "Serpent's Skull Player's Guide" ] ],
+		"category": "Serpent's Skull",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Serpent's Skull",
@@ -3327,6 +3484,7 @@
 	"mwangi_scholar": {
 		"name": "Mwangi Scholar",
 		"compilationSources": [ [ "Serpent's Skull Player's Guide" ] ],
+		"category": "Serpent's Skull",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Serpent's Skull",
@@ -3340,6 +3498,7 @@
 	"stowaway": {
 		"name": "Stowaway",
 		"compilationSources": [ [ "Serpent's Skull Player's Guide" ] ],
+		"category": "Serpent's Skull",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Serpent's Skull",
@@ -3356,6 +3515,7 @@
 			[ "Varisia, Birthplace of Legends" ],
 			[ "Shattered Star Player's Guide" ]
 		],
+		"category": "Shattered Star",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Shattered Star",
@@ -3370,6 +3530,7 @@
 			[ "Varisia, Birthplace of Legends" ],
 			[ "Shattered Star Player's Guide" ]
 		],
+		"category": "Shattered Star",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Shattered Star",
@@ -3384,6 +3545,7 @@
 			[ "Varisia, Birthplace of Legends" ],
 			[ "Shattered Star Player's Guide" ]
 		],
+		"category": "Shattered Star",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Shattered Star",
@@ -3398,6 +3560,7 @@
 			[ "Varisia, Birthplace of Legends" ],
 			[ "Shattered Star Player's Guide" ]
 		],
+		"category": "Shattered Star",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Shattered Star",
@@ -3412,6 +3575,7 @@
 			[ "Varisia, Birthplace of Legends" ],
 			[ "Shattered Star Player's Guide" ]
 		],
+		"category": "Shattered Star",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Shattered Star",
@@ -3430,6 +3594,7 @@
 			[ "Varisia, Birthplace of Legends" ],
 			[ "Shattered Star Player's Guide" ]
 		],
+		"category": "Shattered Star",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Shattered Star",
@@ -3444,6 +3609,7 @@
 			[ "Varisia, Birthplace of Legends" ],
 			[ "Shattered Star Player's Guide" ]
 		],
+		"category": "Shattered Star",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Shattered Star",

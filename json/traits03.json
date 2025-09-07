@@ -2,6 +2,7 @@
 	"ancient_explorer": {
 		"name": "Ancient Explorer",
 		"compilationSources": [ [ "Skull and Shackles Player's Guide" ] ],
+		"category": "Skull and Shackles",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Skull and Shackles",
@@ -15,6 +16,7 @@
 	"barroom_talespinner": {
 		"name": "Barroom Talespinner",
 		"compilationSources": [ [ "Skull and Shackles Player's Guide" ] ],
+		"category": "Skull and Shackles",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Skull and Shackles",
@@ -28,6 +30,7 @@
 	"besmaras_blessing": {
 		"name": "Besmara's Blessing",
 		"compilationSources": [ [ "Skull and Shackles Player's Guide" ] ],
+		"category": "Skull and Shackles",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Skull and Shackles",
@@ -41,6 +44,7 @@
 	"buccaneers_blood": {
 		"name": "Buccaneer's Blood",
 		"compilationSources": [ [ "Skull and Shackles Player's Guide" ] ],
+		"category": "Skull and Shackles",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Skull and Shackles",
@@ -54,6 +58,7 @@
 	"dockside_brawler": {
 		"name": "Dockside Brawler",
 		"compilationSources": [ [ "Skull and Shackles Player's Guide" ] ],
+		"category": "Skull and Shackles",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Skull and Shackles",
@@ -67,6 +72,7 @@
 	"eye_for_plunder": {
 		"name": "Eye for Plunder",
 		"compilationSources": [ [ "Skull and Shackles Player's Guide" ] ],
+		"category": "Skull and Shackles",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Skull and Shackles",
@@ -80,6 +86,7 @@
 	"ilizmagorti_native": {
 		"name": "Ilizmagorti Native",
 		"compilationSources": [ [ "Skull and Shackles Player's Guide" ] ],
+		"category": "Skull and Shackles",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Skull and Shackles",
@@ -93,6 +100,7 @@
 	"peg_leg": {
 		"name": "Peg Leg",
 		"compilationSources": [ [ "Skull and Shackles Player's Guide" ] ],
+		"category": "Skull and Shackles",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Skull and Shackles",
@@ -106,6 +114,7 @@
 	"ships_surgeon": {
 		"name": "Ship's Surgeon",
 		"compilationSources": [ [ "Skull and Shackles Player's Guide" ] ],
+		"category": "Skull and Shackles",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Skull and Shackles",
@@ -119,6 +128,7 @@
 	"touched_by_the_sea": {
 		"name": "Touched by the Sea",
 		"compilationSources": [ [ "Skull and Shackles Player's Guide" ] ],
+		"category": "Skull and Shackles",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Skull and Shackles",
@@ -132,6 +142,7 @@
 	"driven_by_guilt": {
 		"name": "Driven By Guilt",
 		"compilationSources": [ [ "Strange Aeons Player's Guide" ] ],
+		"category": "Strange Aeons",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Strange Aeons",
@@ -145,6 +156,7 @@
 	"enduring_stoicism": {
 		"name": "Enduring Stoicism",
 		"compilationSources": [ [ "Strange Aeons Player's Guide" ] ],
+		"category": "Strange Aeons",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Strange Aeons",
@@ -158,6 +170,7 @@
 	"foe_of_the_strange": {
 		"name": "Foe of the Strange",
 		"compilationSources": [ [ "Strange Aeons Player's Guide" ] ],
+		"category": "Strange Aeons",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Strange Aeons",
@@ -171,6 +184,7 @@
 	"formerly_mind_swapped": {
 		"name": "Formerly Mind-Swapped",
 		"compilationSources": [ [ "Strange Aeons Player's Guide" ] ],
+		"category": "Strange Aeons",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Strange Aeons",
@@ -184,6 +198,7 @@
 	"methodical_mind": {
 		"name": "Methodical Mind",
 		"compilationSources": [ [ "Strange Aeons Player's Guide" ] ],
+		"category": "Strange Aeons",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Strange Aeons",
@@ -197,6 +212,7 @@
 	"pugnacious": {
 		"name": "Pugnacious",
 		"compilationSources": [ [ "Strange Aeons Player's Guide" ] ],
+		"category": "Strange Aeons",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Strange Aeons",
@@ -210,6 +226,7 @@
 	"ritualistic": {
 		"name": "Ritualistic",
 		"compilationSources": [ [ "Strange Aeons Player's Guide" ] ],
+		"category": "Strange Aeons",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Strange Aeons",
@@ -223,6 +240,7 @@
 	"sensitive_mind": {
 		"name": "Sensitive Mind",
 		"compilationSources": [ [ "Strange Aeons Player's Guide" ] ],
+		"category": "Strange Aeons",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Strange Aeons",
@@ -236,6 +254,7 @@
 	"true_devotion": {
 		"name": "True Devotion",
 		"compilationSources": [ [ "Strange Aeons Player's Guide" ] ],
+		"category": "Strange Aeons",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Strange Aeons",
@@ -249,6 +268,7 @@
 	"twitchy": {
 		"name": "Twitchy",
 		"compilationSources": [ [ "Strange Aeons Player's Guide" ] ],
+		"category": "Strange Aeons",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Strange Aeons",
@@ -262,6 +282,7 @@
 	"the_artisan": {
 		"name": "The Artisan",
 		"compilationSources": [ [ "Tyrant's Grasp Player's Guide" ] ],
+		"category": "Tyrant's Grasp",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Tyrant's Grasp",
@@ -273,6 +294,7 @@
 	"the_lawbringer": {
 		"name": "The Lawbringer",
 		"compilationSources": [ [ "Tyrant's Grasp Player's Guide" ] ],
+		"category": "Tyrant's Grasp",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Tyrant's Grasp",
@@ -284,6 +306,7 @@
 	"the_optimist": {
 		"name": "The Optimist",
 		"compilationSources": [ [ "Tyrant's Grasp Player's Guide" ] ],
+		"category": "Tyrant's Grasp",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Tyrant's Grasp",
@@ -295,6 +318,7 @@
 	"the_outsider": {
 		"name": "The Outsider",
 		"compilationSources": [ [ "Tyrant's Grasp Player's Guide" ] ],
+		"category": "Tyrant's Grasp",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Tyrant's Grasp",
@@ -306,6 +330,7 @@
 	"the_pessimist": {
 		"name": "The Pessimist",
 		"compilationSources": [ [ "Tyrant's Grasp Player's Guide" ] ],
+		"category": "Tyrant's Grasp",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Tyrant's Grasp",
@@ -317,6 +342,7 @@
 	"the_reclaimer": {
 		"name": "The Reclaimer",
 		"compilationSources": [ [ "Tyrant's Grasp Player's Guide" ] ],
+		"category": "Tyrant's Grasp",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Tyrant's Grasp",
@@ -328,6 +354,7 @@
 	"the_snoop": {
 		"name": "The Snoop",
 		"compilationSources": [ [ "Tyrant's Grasp Player's Guide" ] ],
+		"category": "Tyrant's Grasp",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Tyrant's Grasp",
@@ -339,6 +366,7 @@
 	"the_word": {
 		"name": "The Word",
 		"compilationSources": [ [ "Tyrant's Grasp Player's Guide" ] ],
+		"category": "Tyrant's Grasp",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Tyrant's Grasp",
@@ -350,6 +378,7 @@
 	"athletic_champion": {
 		"name": "Athletic Champion",
 		"compilationSources": [ [ "War for the Crown Player's Guide" ] ],
+		"category": "War for the Crown",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** War for the Crown",
@@ -361,6 +390,7 @@
 	"child_of_oppara": {
 		"name": "Child of Oppara",
 		"compilationSources": [ [ "War for the Crown Player's Guide" ] ],
+		"category": "War for the Crown",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** War for the Crown",
@@ -376,6 +406,7 @@
 	"disgraced_noble": {
 		"name": "Disgraced Noble",
 		"compilationSources": [ [ "War for the Crown Player's Guide" ] ],
+		"category": "War for the Crown",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** War for the Crown",
@@ -387,6 +418,7 @@
 	"rising_star": {
 		"name": "Rising Star",
 		"compilationSources": [ [ "War for the Crown Player's Guide" ] ],
+		"category": "War for the Crown",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** War for the Crown",
@@ -398,6 +430,7 @@
 	"senatorial_hopeful": {
 		"name": "Senatorial Hopeful",
 		"compilationSources": [ [ "War for the Crown Player's Guide" ] ],
+		"category": "War for the Crown",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** War for the Crown",
@@ -409,6 +442,7 @@
 	"taldan_patriot": {
 		"name": "Taldan Patriot",
 		"compilationSources": [ [ "War for the Crown Player's Guide" ] ],
+		"category": "War for the Crown",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** War for the Crown",
@@ -420,6 +454,7 @@
 	"young_reformer": {
 		"name": "Young Reformer",
 		"compilationSources": [ [ "War for the Crown Player's Guide" ] ],
+		"category": "War for the Crown",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** War for the Crown",
@@ -434,6 +469,7 @@
 			[ "Wrath of the Righteous Player's Guide" ],
 			[ "Demon Hunter's Handbook" ]
 		],
+		"category": "Wrath of the Righteous",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Wrath of the Righteous",
@@ -452,6 +488,7 @@
 			[ "Wrath of the Righteous Player's Guide" ],
 			[ "Demon Hunter's Handbook" ]
 		],
+		"category": "Wrath of the Righteous",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Wrath of the Righteous",
@@ -470,6 +507,7 @@
 			[ "Wrath of the Righteous Player's Guide" ],
 			[ "Demon Hunter's Handbook" ]
 		],
+		"category": "Wrath of the Righteous",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Wrath of the Righteous",
@@ -488,6 +526,7 @@
 			[ "Wrath of the Righteous Player's Guide" ],
 			[ "Demon Hunter's Handbook" ]
 		],
+		"category": "Wrath of the Righteous",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Wrath of the Righteous",
@@ -506,6 +545,7 @@
 			[ "Wrath of the Righteous Player's Guide" ],
 			[ "Demon Hunter's Handbook" ]
 		],
+		"category": "Wrath of the Righteous",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Wrath of the Righteous",
@@ -524,6 +564,7 @@
 			[ "Wrath of the Righteous Player's Guide" ],
 			[ "Demon Hunter's Handbook" ]
 		],
+		"category": "Wrath of the Righteous",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Wrath of the Righteous",
@@ -538,6 +579,7 @@
 	},
 	"black_sheep": {
 		"name": "Black Sheep",
+		"category": "Generic Campaign",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"description": [
 			"**Type:** Campaign",
@@ -552,6 +594,7 @@
 	"favored_son_or_daughter": {
 		"name": "Favored Son or Daughter",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"category": "Generic Campaign",
 		"description": [
 			"**Type:** Campaign",
 			"",
@@ -566,6 +609,7 @@
 	"outlander": {
 		"name": "Outlander",
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
+		"category": "Generic Campaign",
 		"description": [
 			"**Type:** Campaign",
 			"",

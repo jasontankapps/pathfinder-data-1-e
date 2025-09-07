@@ -2,6 +2,7 @@
 	"aballonian_resilience": {
 		"name": "Aballonian Resilience",
 		"compilationSources": [ [ "People of the Stars" ] ],
+		"category": "Aballon",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Aballon",
@@ -13,6 +14,7 @@
 	"abendego_pilot": {
 		"name": "Abendego Pilot",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "Eye of Abendego",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Eye of Abendego  ",
@@ -25,6 +27,7 @@
 	"abendego_spellpiercer": {
 		"name": "Abendego Spellpiercer",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "The Sodden Lands",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Sodden Lands",
@@ -36,6 +39,7 @@
 	"aberration_hunter": {
 		"name": "Aberration Hunter",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Shenmen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Shenmen",
@@ -47,6 +51,7 @@
 	"abolitionist_hunter": {
 		"name": "Abolitionist Hunter",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Okeno",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Okeno",
@@ -58,6 +63,7 @@
 	"absalom_hotspur": {
 		"name": "Absalom Hotspur",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Absalom",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Absalom",
@@ -69,6 +75,7 @@
 	"abyssal_eavesdropper": {
 		"name": "Abyssal Eavesdropper",
 		"compilationSources": [ [ "Demon Hunter's Handbook" ] ],
+		"category": "Sarkoris, The Worldwound",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Sarkoris or The Worldwound",
@@ -80,6 +87,7 @@
 	"accustomed_to_trickery": {
 		"name": "Accustomed to Trickery",
 		"compilationSources": [ [ "Legacy of the First World" ] ],
+		"category": "Darkmoon Wood",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Darkmoon Wood",
@@ -91,6 +99,7 @@
 	"acolyte_of_razmir": {
 		"name": "Acolyte of Razmir",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Razmiran",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Razmiran",
@@ -102,6 +111,7 @@
 	"acupuncturist": {
 		"name": "Acupuncturist",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Chu Ye",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Chu Ye",
@@ -113,6 +123,7 @@
 	"agent_of_the_sultana": {
 		"name": "Agent of the Sultana",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "Elemental Planes",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Plane of Earth",
@@ -124,6 +135,7 @@
 	"airship_captain": {
 		"name": "Airship Captain",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "Elemental Planes",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Plane of Air",
@@ -135,6 +147,7 @@
 	"akitonian_ferocity": {
 		"name": "Akitonian Ferocity",
 		"compilationSources": [ [ "People of the Stars" ] ],
+		"category": "Akiton",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Akiton",
@@ -146,6 +159,7 @@
 	"alabaster_odalisque": {
 		"name": "Alabaster Odalisque",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "Jalmeray",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Jalmeray  ",
@@ -158,6 +172,7 @@
 	"alchemical_fence": {
 		"name": "Alchemical Fence",
 		"compilationSources": [ [ "Potions and Poisons" ] ],
+		"category": "Katapesh",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Katapesh",
@@ -172,6 +187,7 @@
 			[ "People of the Sands" ],
 			[ "Qadira, Gateway to the East" ]
 		],
+		"category": "Thuvia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Thuvia",
@@ -183,6 +199,7 @@
 	"alien_origins": {
 		"name": "Alien Origins",
 		"compilationSources": [ [ "Dungeoneer's Handbook" ] ],
+		"category": "Silver Mount",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Silver Mount",
@@ -196,6 +213,7 @@
 	"alkenstar_defender": {
 		"name": "Alkenstar Defender",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Mana Wastes",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mana Wastes",
@@ -207,8 +225,10 @@
 	"alkenstar_engineer": {
 		"name": "Alkenstar Engineer",
 		"compilationSources": [ [ "People of the Wastes" ] ],
+		"category": "Mana Wastes",
 		"description": [
-			"**Type:** Regional",
+			"**Type:** Regional  ",
+			"**Region:** Mana Wastes",
 			"",
 			"Your extensive experience with firearms allows you to get the most out of those unique weapons. When you're wielding a broken early firearm, the amount your misfire value increases by is reduced by 1."
 		],
@@ -217,6 +237,7 @@
 	"altruistic_diplomat": {
 		"name": "Altruistic Diplomat",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Hwanggot",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Hwanggot",
@@ -228,6 +249,7 @@
 	"analytical": {
 		"name": "Analytical",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "Ustalav",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Ustalav",
@@ -239,6 +261,7 @@
 	"ancestral_weapon": {
 		"name": "Ancestral Weapon",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Numeria",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Numeria",
@@ -250,6 +273,7 @@
 	"andoren_freedom_fighter": {
 		"name": "Andoren Freedom Fighter",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Andoran",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Andoran",
@@ -261,6 +285,7 @@
 	"animal_spirit_vitality": {
 		"name": "Animal-Spirit Vitality",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Kyonin",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kyonin",
@@ -272,6 +297,7 @@
 	"antiquities_smuggler": {
 		"name": "Antiquities Smuggler",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Osirion",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osirion",
@@ -283,6 +309,7 @@
 	"anuli_engineer": {
 		"name": "Anuli Engineer",
 		"compilationSources": [ [ "Distant Shores" ] ],
+		"category": "Anuli",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Anuli",
@@ -294,6 +321,7 @@
 	"aquatic_survivalist": {
 		"name": "Aquatic Survivalist",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "Elemental Planes",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Plane of Water",
@@ -305,6 +333,7 @@
 	"armun_kelisk_scholar": {
 		"name": "Armun Kelisk Scholar",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "Elemental Planes",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Plane of Air",
@@ -316,6 +345,7 @@
 	"artifact_hunter_isp": {
 		"name": "Artifact Hunter (ISP)",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Mwangi Expanse",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mwangi Expanse",
@@ -327,6 +357,7 @@
 	"ash_bane": {
 		"name": "Ash Bane",
 		"compilationSources": [ [ "People of the Wastes" ] ],
+		"category": "wasteland",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** wasteland",
@@ -338,6 +369,7 @@
 	"aspiring_hellknight": {
 		"name": "Aspiring Hellknight",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Cheliax",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Cheliax",
@@ -349,6 +381,7 @@
 	"awakened_from_stasis": {
 		"name": "Awakened from Stasis",
 		"compilationSources": [ [ "People of the Stars" ] ],
+		"category": "Apostae",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Apostae",
@@ -360,6 +393,7 @@
 	"azlanti_scholar_hftf": {
 		"name": "Azlanti Scholar (HFtF)",
 		"compilationSources": [ [ "Heroes from the Fringe" ] ],
+		"category": "Ironbound Archipelago",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Ironbound Archipelago  ",
@@ -372,6 +406,7 @@
 	"balanced_education": {
 		"name": "Balanced Education",
 		"compilationSources": [ [ "Distant Shores" ] ],
+		"category": "Anuli",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Anuli",
@@ -383,6 +418,7 @@
 	"bandit": {
 		"name": "Bandit",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "River Kingdoms",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** River Kingdoms",
@@ -394,6 +430,7 @@
 	"beachcomber": {
 		"name": "Beachcomber",
 		"compilationSources": [ [ "Wilderness Origins" ] ],
+		"category": "coastal, river",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** coastal or river",
@@ -405,6 +442,7 @@
 	"belem_pirate": {
 		"name": "Belem Pirate",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Minata",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Minata",
@@ -416,6 +454,7 @@
 	"bellflower_tiller": {
 		"name": "Bellflower Tiller",
 		"compilationSources": [ [ "Faction Guide" ] ],
+		"category": "Cheliax",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Cheliax",
@@ -427,6 +466,7 @@
 	"bellis_axe_master": {
 		"name": "Bellis Axe Master",
 		"compilationSources": [ [ "Andoran, Spirit of Liberty" ] ],
+		"category": "Bellis",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Bellis",
@@ -438,6 +478,7 @@
 	"bellis_honey_harvester": {
 		"name": "Bellis Honey Harvester",
 		"compilationSources": [ [ "Andoran, Spirit of Liberty" ] ],
+		"category": "Bellis",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Bellis",
@@ -449,6 +490,7 @@
 	"bellis_log_roller": {
 		"name": "Bellis Log Roller",
 		"compilationSources": [ [ "Andoran, Spirit of Liberty" ] ],
+		"category": "Bellis",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Bellis",
@@ -460,6 +502,7 @@
 	"betrayed_ex_noble": {
 		"name": "Betrayed Ex-Noble",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "City of Brass",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** City of Brass",
@@ -471,6 +514,7 @@
 	"big_game_hunter": {
 		"name": "Big Game Hunter",
 		"compilationSources": [ [ "People of the North" ] ],
+		"category": "Realm of the Mammoth Lords",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Realm of the Mammoth Lords",
@@ -482,6 +526,7 @@
 	"black_eagle_recruit": {
 		"name": "Black Eagle Recruit",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Lambreth",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lambreth",
@@ -493,6 +538,7 @@
 	"blackthorn_rancher": {
 		"name": "Blackthorn Rancher",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Lambreth",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lambreth",
@@ -504,6 +550,7 @@
 	"blessed_of_the_norns": {
 		"name": "Blessed of the Norns",
 		"compilationSources": [ [ "Blood of the Coven" ] ],
+		"category": "Lands of the Linnorm Kings",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lands of the Linnorm Kings",
@@ -515,6 +562,7 @@
 	"blighted_physiology": {
 		"name": "Blighted Physiology",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Numeria",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Numeria",
@@ -526,6 +574,7 @@
 	"blood_potion_brewer": {
 		"name": "Blood Potion Brewer",
 		"compilationSources": [ [ "Potions and Poisons" ] ],
+		"category": "Belkzen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Belkzen",
@@ -537,6 +586,7 @@
 	"blooded": {
 		"name": "Blooded",
 		"compilationSources": [ [ "Dwarves of Golarion" ] ],
+		"category": "Mindspin Mountains",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mindspin Mountains",
@@ -548,6 +598,7 @@
 	"border_guard": {
 		"name": "Border Guard",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Kwanlai",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kwanlai",
@@ -559,6 +610,7 @@
 	"born_under_the_green_star": {
 		"name": "Born under the Green Star",
 		"compilationSources": [ [ "People of the Stars" ] ],
+		"category": "Castrovel",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Castrovel",
@@ -570,6 +622,7 @@
 	"bounty_hunter": {
 		"name": "Bounty Hunter",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Isger",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Isger",
@@ -581,6 +634,7 @@
 	"brave_words": {
 		"name": "Brave Words",
 		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"category": "Ninshaburian",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Ninshaburian",
@@ -592,6 +646,7 @@
 	"brevoy_bandit": {
 		"name": "Brevoy Bandit",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Mivon",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mivon",
@@ -603,6 +658,7 @@
 	"briar_bandit": {
 		"name": "Briar Bandit",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
+		"category": "forest",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** forest",
@@ -614,6 +670,7 @@
 	"call_of_the_longships": {
 		"name": "Call of the Longships",
 		"compilationSources": [ [ "People of the North" ] ],
+		"category": "Lands of the Linnorm Kings",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lands of the Linnorm Kings",
@@ -625,6 +682,7 @@
 	"candidate_for_perfection": {
 		"name": "Candidate for Perfection",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Jalmeray",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Jalmeray",
@@ -636,6 +694,7 @@
 	"caravan_nomad": {
 		"name": "Caravan Nomad",
 		"compilationSources": [ [ "Blood of the Beast" ] ],
+		"category": "Varisia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Varisia  ",
@@ -648,6 +707,7 @@
 	"carpenden_lobber": {
 		"name": "Carpenden Lobber",
 		"compilationSources": [ [ "Andoran, Spirit of Liberty" ] ],
+		"category": "Carpenden",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Carpenden",
@@ -659,6 +719,7 @@
 	"carpenden_roof_runner": {
 		"name": "Carpenden Roof Runner",
 		"compilationSources": [ [ "Andoran, Spirit of Liberty" ] ],
+		"category": "Carpenden",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Carpenden",
@@ -670,6 +731,7 @@
 	"cavern_survivor": {
 		"name": "Cavern Survivor",
 		"compilationSources": [ [ "Heroes of the Darklands" ] ],
+		"category": "Nar-Voth",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nar-Voth",
@@ -681,6 +743,7 @@
 	"centaur_vengeance": {
 		"name": "Centaur Vengeance",
 		"compilationSources": [ [ "Dragonslayer's Handbook" ] ],
+		"category": "Iobaria",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Iobaria",
@@ -692,6 +755,7 @@
 	"chainbreaker": {
 		"name": "Chainbreaker",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Andoran",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Andoran",
@@ -703,6 +767,7 @@
 	"channel_the_earth": {
 		"name": "Channel the Earth",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "Elemental Planes",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Plane of Earth",
@@ -714,6 +779,7 @@
 	"charau_ka_slayer": {
 		"name": "Charau-Ka Slayer",
 		"compilationSources": [ [ "Demon Hunter's Handbook" ] ],
+		"category": "Mwangi Expanse",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mwangi Expanse",
@@ -725,6 +791,7 @@
 	"charmed_innocent": {
 		"name": "Charmed Innocent",
 		"compilationSources": [ [ "Heroes of the Streets" ] ],
+		"category": "urban",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** urban",
@@ -736,6 +803,7 @@
 	"cheap_to_feed": {
 		"name": "Cheap to Feed",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Osirion, Varisia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osirion or Varisia  ",
@@ -748,6 +816,7 @@
 	"chelish_guerrilla": {
 		"name": "Chelish Guerrilla",
 		"compilationSources": [ [ "Monster Summoner's Handbook" ] ],
+		"category": "Cheliax",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Cheliax",
@@ -759,6 +828,7 @@
 	"child_of_mumia": {
 		"name": "Child of Mumia",
 		"compilationSources": [ [ "People of the Sands" ] ],
+		"category": "Osirion",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osirion",
@@ -770,6 +840,7 @@
 	"child_of_wati": {
 		"name": "Child of Wati",
 		"compilationSources": [ [ "Undead Slayer's Handbook" ] ],
+		"category": "Osirion",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osirion",
@@ -781,6 +852,7 @@
 	"child_of_the_crusades_isp": {
 		"name": "Child of the Crusades (ISP)",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Mendev",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mendev",
@@ -792,6 +864,7 @@
 	"chillblight_emissary": {
 		"name": "Chillblight Emissary",
 		"compilationSources": [ [ "People of the North" ] ],
+		"category": "Irrisen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Irrisen",
@@ -803,6 +876,7 @@
 	"chilled_by_brutality": {
 		"name": "Chilled by Brutality",
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
+		"category": "tundra",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** tundra",
@@ -821,6 +895,7 @@
 			[ "Inner Sea Primer" ],
 			[ "Taldor, Echoes of Glory" ]
 		],
+		"category": "Taldor",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Taldor",
@@ -832,6 +907,7 @@
 	"chosen_child": {
 		"name": "Chosen Child",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Po Li",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Po Li",
@@ -843,6 +919,7 @@
 	"citizen_of_eleder": {
 		"name": "Citizen of Eleder",
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
+		"category": "Eleder",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Eleder",
@@ -854,6 +931,7 @@
 	"citizen_of_kalabuto": {
 		"name": "Citizen of Kalabuto",
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
+		"category": "Kalabuto",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kalabuto",
@@ -865,6 +943,7 @@
 	"clan_artisan": {
 		"name": "Clan Artisan",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Xa Hoi",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Xa Hoi",
@@ -876,6 +955,7 @@
 	"cliff_jumper": {
 		"name": "Cliff Jumper",
 		"compilationSources": [ [ "Cheliax, Empire of Devils" ] ],
+		"category": "Cliffs of Fury",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Cliffs of Fury",
@@ -887,6 +967,7 @@
 	"cliff_strider": {
 		"name": "Cliff Strider",
 		"compilationSources": [ [ "Heroes from the Fringe" ] ],
+		"category": "Arcadia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Arcadia",
@@ -898,6 +979,7 @@
 	"cliff_master": {
 		"name": "Cliff-Master",
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
+		"category": "Varisia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Varisia  ",
@@ -910,6 +992,7 @@
 	"cloistered_upbringing": {
 		"name": "Cloistered Upbringing",
 		"compilationSources": [ [ "Heroes of the Streets" ] ],
+		"category": "urban",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** urban",
@@ -921,6 +1004,7 @@
 	"clumsy_slave": {
 		"name": "Clumsy Slave",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Cheliax, Katapesh",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Cheliax or Katapesh  ",
@@ -933,6 +1017,7 @@
 	"coin_hoarder": {
 		"name": "Coin Hoarder",
 		"compilationSources": [ [ "Dwarves of Golarion" ] ],
+		"category": "Mindspin Mountains",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mindspin Mountains",
@@ -944,6 +1029,7 @@
 	"coincunning": {
 		"name": "Coincunning",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Janderhoff",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Janderhoff",
@@ -955,8 +1041,10 @@
 	"cold_heart": {
 		"name": "Cold Heart",
 		"compilationSources": [ [ "Knights of the Inner Sea" ] ],
+		"category": "Cheliax",
 		"description": [
-			"**Type:** Regional",
+			"**Type:** Regional  ",
+			"**Region:** Cheliax",
 			"",
 			"You gain a +2 trait bonus on saving throws against spells and effects with the emotion descriptor."
 		],
@@ -965,6 +1053,7 @@
 	"commercial_savvy": {
 		"name": "Commercial Savvy",
 		"compilationSources": [ [ "Champions of Balance" ] ],
+		"category": "Katapesh",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Katapesh",
@@ -976,6 +1065,7 @@
 	"community_minded": {
 		"name": "Community-Minded",
 		"compilationSources": [ [ "People of the Sands" ] ],
+		"category": "Rahadoum",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Rahadoum",
@@ -987,8 +1077,10 @@
 	"confidante_to_the_oppressed": {
 		"name": "Confidante to the Oppressed",
 		"compilationSources": [ [ "Knights of the Inner Sea" ] ],
+		"category": "Andoran",
 		"description": [
-			"**Type:** Regional",
+			"**Type:** Regional  ",
+			"**Region:** Andoran",
 			"",
 			"Others recognize that you are filled with the Andoren spirit of liberty and equality. You gain a +2 trait bonus on Diplomacy checks to improve the attitude of oppressed, enslaved, or imprisoned subjects, and unless they have reason to distrust you, their starting attitude toward you is at least indifferent, if not better."
 		],
@@ -997,6 +1089,7 @@
 	"conscientious_miner": {
 		"name": "Conscientious Miner",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Jinin",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Jinin",
@@ -1008,6 +1101,7 @@
 	"corpse_dodger": {
 		"name": "Corpse Dodger",
 		"compilationSources": [ [ "Undead Slayer's Handbook" ] ],
+		"category": "Ustalav",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Ustalav",
@@ -1022,6 +1116,7 @@
 			[ "Dragon Empires Primer" ],
 			[ "Inner Sea Primer" ]
 		],
+		"category": "Goka",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Goka",
@@ -1033,6 +1128,7 @@
 	"cruel_master": {
 		"name": "Cruel Master",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Okeno",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Okeno",
@@ -1044,6 +1140,7 @@
 	"crusader_road_acolyte": {
 		"name": "Crusader Road Acolyte",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Thornkeep, Echo Wood",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Thornkeep or Echo Wood",
@@ -1055,6 +1152,7 @@
 	"crusader_tactician": {
 		"name": "Crusader Tactician",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Lastwall",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lastwall",
@@ -1066,6 +1164,7 @@
 	"cultist_lineage": {
 		"name": "Cultist Lineage",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "Mediogalti Island",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mediogalti Island",
@@ -1077,6 +1176,7 @@
 	"cultivated": {
 		"name": "Cultivated",
 		"compilationSources": [ [ "Heroes of the Streets" ] ],
+		"category": "urban",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** urban",
@@ -1088,6 +1188,7 @@
 	"cunning_liar": {
 		"name": "Cunning Liar",
 		"compilationSources": [ [ "Heroes of the Streets" ] ],
+		"category": "urban",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** urban",
@@ -1099,6 +1200,7 @@
 	"curse_queller": {
 		"name": "Curse Queller",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Osirion",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osirion",
@@ -1110,6 +1212,7 @@
 	"cynic": {
 		"name": "Cynic",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Mendev",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mendev",
@@ -1121,6 +1224,7 @@
 	"cypher_resistance": {
 		"name": "Cypher Resistance",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Riddleport",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Riddleport",
@@ -1132,6 +1236,7 @@
 	"cyphermage_backer": {
 		"name": "Cyphermage Backer",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Riddleport",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Riddleport",
@@ -1143,6 +1248,7 @@
 	"darkblight_survivor": {
 		"name": "Darkblight Survivor",
 		"compilationSources": [ [ "People of the Wastes" ] ],
+		"category": "Nirmathas",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nirmathas",
@@ -1154,6 +1260,7 @@
 	"darklands_delver": {
 		"name": "Darklands Delver",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Darklands beneath Tian Xia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Darklands beneath Tian Xia",
@@ -1165,6 +1272,7 @@
 	"debt_to_a_witch": {
 		"name": "Debt to a Witch",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Irrisen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Irrisen",
@@ -1176,9 +1284,10 @@
 	"demon_eradicator": {
 		"name": "Demon Eradicator",
 		"compilationSources": [ [ "Knights of the Inner Sea" ] ],
+		"category": "Mendev",
 		"description": [
 			"**Type:** Regional  ",
-			"**Requirements:** Mendev Crusaders",
+			"**Region:** Mendev",
 			"",
 			"Anytime an outsider with the demon subtype must make a Will save against one of your spells, increase the DC of that save by +1."
 		],
@@ -1187,6 +1296,7 @@
 	"demon_proof_mind": {
 		"name": "Demon-Proof Mind",
 		"compilationSources": [ [ "Demon Hunter's Handbook" ] ],
+		"category": "Sarkoris, The Worldwound",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Sarkoris or The Worldwound",
@@ -1198,6 +1308,7 @@
 	"demonbane_summoner": {
 		"name": "Demonbane Summoner",
 		"compilationSources": [ [ "Monster Summoner's Handbook" ] ],
+		"category": "The Worldwound",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Worldwound",
@@ -1213,6 +1324,7 @@
 			[ "Advanced Player's Guide" ],
 			[ "Legacy of Fire Player's Guide" ]
 		],
+		"category": "desert",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** desert",
@@ -1224,6 +1336,7 @@
 	"desert_nomad": {
 		"name": "Desert Nomad",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Thuvia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Thuvia",
@@ -1235,6 +1348,7 @@
 	"destined_for_greatness": {
 		"name": "Destined for Greatness",
 		"compilationSources": [ [ "Dungeoneer's Handbook" ] ],
+		"category": "Absalom",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Absalom",
@@ -1248,6 +1362,7 @@
 	"devilfish_diver": {
 		"name": "Devilfish Diver",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Mediogalti",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mediogalti",
@@ -1259,6 +1374,7 @@
 	"devotee_of_kalistrade": {
 		"name": "Devotee of Kalistrade",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Druma",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Druma",
@@ -1270,6 +1386,7 @@
 	"diligence": {
 		"name": "Diligence",
 		"compilationSources": [ [ "Heroes of the Streets" ] ],
+		"category": "urban",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** urban",
@@ -1281,6 +1398,7 @@
 	"dinosaur_whisperer": {
 		"name": "Dinosaur Whisperer",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Mediogalti",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mediogalti",
@@ -1292,6 +1410,7 @@
 	"discerning_beliefs": {
 		"name": "Discerning Beliefs",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Zi Ha",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Zi Ha",
@@ -1303,6 +1422,7 @@
 	"div_hunter": {
 		"name": "Div Hunter",
 		"compilationSources": [ [ "Monster Summoner's Handbook" ] ],
+		"category": "Thuvia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Thuvia",
@@ -1314,6 +1434,7 @@
 	"divine_deceiver": {
 		"name": "Divine Deceiver",
 		"compilationSources": [ [ "Champions of Corruption" ] ],
+		"category": "Razmiran",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Razmiran",
@@ -1328,6 +1449,7 @@
 			[ "Inner Sea Primer" ],
 			[ "Orcs of Golarion" ]
 		],
+		"category": "Belkzen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Belkzen",
@@ -1339,6 +1461,7 @@
 	"draconic_vigil": {
 		"name": "Draconic Vigil",
 		"compilationSources": [ [ "Dragonslayer's Handbook" ] ],
+		"category": "Lastwall",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lastwall",
@@ -1350,6 +1473,7 @@
 	"dreadful_forethought": {
 		"name": "Dreadful Forethought",
 		"compilationSources": [ [ "Demon Hunter's Handbook" ] ],
+		"category": "Ustalav",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Ustalav",
@@ -1361,6 +1485,7 @@
 	"dtang_ma_bloodline": {
 		"name": "Dtang Ma Bloodline",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Dtang Ma",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Dtang Ma",
@@ -1372,6 +1497,7 @@
 	"dump_salvager": {
 		"name": "Dump Salvager",
 		"compilationSources": [ [ "Cheliax, Empire of Devils" ] ],
+		"category": "Westcrown",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Westcrown",
@@ -1383,6 +1509,7 @@
 	"dungeon_dweller": {
 		"name": "Dungeon Dweller",
 		"compilationSources": [ [ "Dungeoneer's Handbook" ] ],
+		"category": "underground",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** underground",
@@ -1396,6 +1523,7 @@
 	"dusk_dancer": {
 		"name": "Dusk Dancer",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Nidal",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nidal  ",
@@ -1408,6 +1536,7 @@
 	"duskwalker_agent": {
 		"name": "Duskwalker Agent",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Katapesh",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Katapesh",
@@ -1419,6 +1548,7 @@
 	"eager_combatant": {
 		"name": "Eager Combatant",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Riddleport",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Riddleport",
@@ -1430,6 +1560,7 @@
 	"educated_druggist": {
 		"name": "Educated Druggist",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Osibu, Thuvia, Tian Xia, Ustalav",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osibu, Thuvia, Tian Xia, or Ustalav",
@@ -1441,6 +1572,7 @@
 	"egorian_school_apprentice": {
 		"name": "Egorian School Apprentice",
 		"compilationSources": [ [ "Cheliax, Empire of Devils" ] ],
+		"category": "Egorian",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Egorian",
@@ -1452,6 +1584,7 @@
 	"elemental_endowment": {
 		"name": "Elemental Endowment",
 		"compilationSources": [ [ "Champions of Balance" ] ],
+		"category": "Osirion",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osirion",
@@ -1463,6 +1596,7 @@
 	"elemental_pupil": {
 		"name": "Elemental Pupil",
 		"compilationSources": [ [ "Qadira, Gateway to the East" ] ],
+		"category": "Qadira",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Qadira",
@@ -1474,6 +1608,7 @@
 	"elemental_ties": {
 		"name": "Elemental Ties",
 		"compilationSources": [ [ "Monster Summoner's Handbook" ] ],
+		"category": "Osirion",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osirion",
@@ -1485,6 +1620,7 @@
 	"elven_bitterness": {
 		"name": "Elven Bitterness",
 		"compilationSources": [ [ "Demon Hunter's Handbook" ] ],
+		"category": "Kyonin",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kyonin",
@@ -1496,6 +1632,7 @@
 	"emberkin_imposter": {
 		"name": "Emberkin Imposter",
 		"compilationSources": [ [ "Qadira, Jewel of the East" ] ],
+		"category": "Qadira",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Qadira",
@@ -1507,6 +1644,7 @@
 	"emissary": {
 		"name": "Emissary",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Kaer Maga",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kaer Maga",
@@ -1518,6 +1656,7 @@
 	"empathic_diplomat": {
 		"name": "Empathic Diplomat",
 		"compilationSources": [ [ "Qadira, Jewel of the East" ] ],
+		"category": "Qadira, Osirion",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Qadira or Osirion",
@@ -1529,6 +1668,7 @@
 	"empyreal_cultist": {
 		"name": "Empyreal Cultist",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Magnimar",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Magnimar",
@@ -1540,6 +1680,7 @@
 	"enchanted_by_giants": {
 		"name": "Enchanted by Giants",
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
+		"category": "forest, jungle, taiga",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** forest, jungle, or taiga",
@@ -1553,6 +1694,7 @@
 	"enemy_of_the_undead": {
 		"name": "Enemy of the Undead",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Geb",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Geb",
@@ -1564,6 +1706,7 @@
 	"eoxian_experiment": {
 		"name": "Eoxian Experiment",
 		"compilationSources": [ [ "People of the Stars" ] ],
+		"category": "Eox",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Eox",
@@ -1575,6 +1718,7 @@
 	"equality_for_all": {
 		"name": "Equality for All",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Andoran",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Andoran  ",
@@ -1587,6 +1731,7 @@
 	"erutaki_sky_reader": {
 		"name": "Erutaki Sky Reader",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "Crown of the World",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Crown of the World",
@@ -1598,6 +1743,7 @@
 	"evident_supporter": {
 		"name": "Evident Supporter",
 		"compilationSources": [ [ "Champions of Balance" ] ],
+		"category": "Galt",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Galt",
@@ -1609,6 +1755,7 @@
 	"exhibition_fighter": {
 		"name": "Exhibition Fighter",
 		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"category": "Lung Wa",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lung Wa",
@@ -1620,6 +1767,7 @@
 	"exiled_scholar": {
 		"name": "Exiled Scholar",
 		"compilationSources": [ [ "Undead Slayer's Handbook" ] ],
+		"category": "Nex",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nex",
@@ -1631,6 +1779,7 @@
 	"expert_smuggler": {
 		"name": "Expert Smuggler",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
+		"category": "Erages",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Erages",
@@ -1642,6 +1791,7 @@
 	"expert_swimmer": {
 		"name": "Expert Swimmer",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "River Kingdoms",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** River Kingdoms",
@@ -1653,8 +1803,10 @@
 	"eye_of_the_falcon": {
 		"name": "Eye of the Falcon",
 		"compilationSources": [ [ "Knights of the Inner Sea" ] ],
+		"category": "Andoran",
 		"description": [
-			"**Type:** Regional",
+			"**Type:** Regional  ",
+			"**Region:** Andoran",
 			"",
 			"You have a way of seeing right to the heart of things. You gain a +1 trait bonus on saving throws against illusion (phantasm) spells and a +1 trait bonus on Sense Motive checks to know when you are being lied to, so long as you are face to face with the speaker in question."
 		],
@@ -1663,6 +1815,7 @@
 	"fangwood_diplomat": {
 		"name": "Fangwood Diplomat",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Nirmathas",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nirmathas",
@@ -1674,6 +1827,7 @@
 	"fangwood_insurgent": {
 		"name": "Fangwood Insurgent",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "Nirmathas",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nirmathas",
@@ -1685,6 +1839,7 @@
 	"fey_hex": {
 		"name": "Fey Hex",
 		"compilationSources": [ [ "Legacy of the First World" ] ],
+		"category": "Irrisen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Irrisen",
@@ -1696,6 +1851,7 @@
 	"fey_mediator": {
 		"name": "Fey Mediator",
 		"compilationSources": [ [ "Legacy of the First World" ] ],
+		"category": "Grungir Forest",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Grungir Forest",
@@ -1707,6 +1863,7 @@
 	"fey_wise": {
 		"name": "Fey-Wise",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Sevenarches",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Sevenarches",
@@ -1718,6 +1875,7 @@
 	"fiery_dominance": {
 		"name": "Fiery Dominance",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "Elemental Planes",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Plane of Fire",
@@ -1729,6 +1887,7 @@
 	"fight_for_liberty": {
 		"name": "Fight for Liberty",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Andoran",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Andoran",
@@ -1740,6 +1899,7 @@
 	"flotsam": {
 		"name": "Flotsam",
 		"compilationSources": [ [ "Dragonslayer's Handbook" ] ],
+		"category": "The Shackles",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Shackles",
@@ -1751,6 +1911,7 @@
 	"footsteps_of_aganhei": {
 		"name": "Footsteps of Aganhei",
 		"compilationSources": [ [ "Merchant's Manifest" ] ],
+		"category": "Crown of the World",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Crown of the World",
@@ -1762,6 +1923,7 @@
 	"forbidden_knowledge": {
 		"name": "Forbidden Knowledge",
 		"compilationSources": [ [ "Undead Slayer's Handbook" ] ],
+		"category": "Geb",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Geb",
@@ -1773,6 +1935,7 @@
 	"fortune_found": {
 		"name": "Fortune Found",
 		"compilationSources": [ [ "Blood of the Beast" ] ],
+		"category": "Katapesh",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Katapesh  ",
@@ -1785,6 +1948,7 @@
 	"free_agent": {
 		"name": "Free Agent",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "River Kingdoms",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** River Kingdoms",
@@ -1796,6 +1960,7 @@
 	"free_people": {
 		"name": "Free People",
 		"compilationSources": [ [ "Heroes from the Fringe" ] ],
+		"category": "Realm of the Mammoth Lords",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Realm of the Mammoth Lords  ",
@@ -1808,6 +1973,7 @@
 	"freed_slave_andoran": {
 		"name": "Freed Slave (Andoran)",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Andoran",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Andoran",
@@ -1819,6 +1985,7 @@
 	"freed_slave_katapesh": {
 		"name": "Freed Slave (Katapesh)",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Katapesh",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Katapesh",
@@ -1830,6 +1997,7 @@
 	"freedom_fighter_andoran": {
 		"name": "Freedom Fighter (Andoran)",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Andoran",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Andoran",
@@ -1841,6 +2009,7 @@
 	"freedom_fighter_shokuro": {
 		"name": "Freedom Fighter (Shokuro)",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Shokuro",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Shokuro",
@@ -1852,6 +2021,7 @@
 	"friend_of_the_dead": {
 		"name": "Friend of the Dead",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Geb",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Geb",
@@ -1863,6 +2033,7 @@
 	"friend_of_the_fey": {
 		"name": "Friend of the Fey",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Lands of the Linnorm Kings",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lands of the Linnorm Kings",
@@ -1874,6 +2045,7 @@
 	"frontier_forged": {
 		"name": "Frontier-Forged",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
+		"category": "frontier",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** frontier",
@@ -1885,6 +2057,7 @@
 	"frostborn": {
 		"name": "Frostborn",
 		"compilationSources": [ [ "Dwarves of Golarion" ] ],
+		"category": "Lands of the Linnorm Kings",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lands of the Linnorm Kings",
@@ -1896,6 +2069,7 @@
 	"fruit_merchant": {
 		"name": "Fruit Merchant",
 		"compilationSources": [ [ "Wilderness Origins" ] ],
+		"category": "jungle",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** jungle",
@@ -1907,9 +2081,10 @@
 	"gallant_imposter": {
 		"name": "Gallant Imposter",
 		"compilationSources": [ [ "Knights of the Inner Sea" ] ],
+		"category": "Mendev",
 		"description": [
 			"**Type:** Regional  ",
-			"**Requirements:** Mendev Crusaders",
+			"**Region:** Mendev",
 			"",
 			"You gain a +1 trait bonus on Knowledge (nobility) and Knowledge (religion) checks. In addition, you gain a +2 trait bonus on both Disguise and Bluff checks while attempting to impersonate a knight."
 		],
@@ -1921,6 +2096,7 @@
 			[ "Inner Sea Primer" ],
 			[ "Qadira, Gateway to the East" ]
 		],
+		"category": "Qadira",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Qadira",
@@ -1932,6 +2108,7 @@
 	"ghost_survivor": {
 		"name": "Ghost Survivor",
 		"compilationSources": [ [ "Undead Slayer's Handbook" ] ],
+		"category": "Ustalav",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Ustalav",
@@ -1943,6 +2120,7 @@
 	"ghoulish_affinity": {
 		"name": "Ghoulish Affinity",
 		"compilationSources": [ [ "Undead Slayer's Handbook" ] ],
+		"category": "Darklands",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Darklands",
@@ -1954,6 +2132,7 @@
 	"giant_ambivalence": {
 		"name": "Giant Ambivalence",
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
+		"category": "temperate highlands",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** temperate highlands",
@@ -1969,6 +2148,7 @@
 	"giant_dodger": {
 		"name": "Giant Dodger",
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
+		"category": "desert",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** desert",
@@ -1984,6 +2164,7 @@
 	"giant_investigator": {
 		"name": "Giant Investigator",
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
+		"category": "coastal",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** coastal",
@@ -1999,6 +2180,7 @@
 	"giant_harried": {
 		"name": "Giant-Harried",
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
+		"category": "wasteland",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** wasteland",
@@ -2014,6 +2196,7 @@
 	"glory_of_old": {
 		"name": "Glory of Old",
 		"compilationSources": [ [ "Dwarves of Golarion" ] ],
+		"category": "Five Kings Mountains",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Five Kings Mountains",
@@ -2025,6 +2208,7 @@
 	"goblin_pirate": {
 		"name": "Goblin Pirate",
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
+		"category": "The Shackles",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Shackles  ",
@@ -2037,6 +2221,7 @@
 	"godless_resolve": {
 		"name": "Godless Resolve",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Bachuan, Rahadoum, Touvette",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Bachuan, Rahadoum or Touvette",
@@ -2048,6 +2233,7 @@
 	"gold_goblin_regular": {
 		"name": "Gold Goblin Regular",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Riddleport",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Riddleport",
@@ -2059,6 +2245,7 @@
 	"good_folk": {
 		"name": "Good Folk",
 		"compilationSources": [ [ "Heroes of the Streets" ] ],
+		"category": "urban",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** urban",
@@ -2070,6 +2257,7 @@
 	"gravelwalker": {
 		"name": "Gravelwalker",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
+		"category": "Darklands",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Darklands",
@@ -2081,6 +2269,7 @@
 	"greenskin_stalker": {
 		"name": "Greenskin Stalker",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "Isger, River Kingdoms, Varisia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Isger, River Kingdoms, or Varisia",
@@ -2092,6 +2281,7 @@
 	"grit_goggles": {
 		"name": "Grit Goggles",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
+		"category": "Darklands",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Darklands",
@@ -2103,6 +2293,7 @@
 	"guerilla": {
 		"name": "Guerilla",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Dtang Ma",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Dtang Ma",
@@ -2114,6 +2305,7 @@
 	"guerrilla_mender": {
 		"name": "Guerrilla Mender",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Nirmathas",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nirmathas",
@@ -2125,6 +2317,7 @@
 	"heart_of_clay": {
 		"name": "Heart of Clay",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Lingshen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lingshen",
@@ -2136,6 +2329,7 @@
 	"heavenly_touch": {
 		"name": "Heavenly Touch",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Tianjing",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Tianjing",
@@ -2147,6 +2341,7 @@
 	"heir_of_chu_ye": {
 		"name": "Heir of Chu Ye",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Tian Xia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Tian Xia",
@@ -2158,6 +2353,7 @@
 	"hermean_paragon": {
 		"name": "Hermean Paragon",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "The Steaming Sea",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Steaming Sea",
@@ -2172,6 +2368,7 @@
 			[ "Ultimate Campaign" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "hills, mountains",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** hills or mountains",
@@ -2183,6 +2380,7 @@
 	"holy_tattoo": {
 		"name": "Holy Tattoo",
 		"compilationSources": [ [ "Undead Slayer's Handbook" ] ],
+		"category": "Varisia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Varisia",
@@ -2194,6 +2392,7 @@
 	"home_port": {
 		"name": "Home Port",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "The Shackles",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Shackles",
@@ -2205,6 +2404,7 @@
 	"honeyed_tongue": {
 		"name": "Honeyed Tongue",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Amanandar",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Amanandar",
@@ -2216,6 +2416,7 @@
 	"hongal_bloodrider": {
 		"name": "Hongal Bloodrider",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Hongal",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Hongal",
@@ -2227,6 +2428,7 @@
 	"huldras_luck": {
 		"name": "Huldra's Luck",
 		"compilationSources": [ [ "People of the North" ] ],
+		"category": "Lands of the Linnorm Kings",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lands of the Linnorm Kings",
@@ -2238,6 +2440,7 @@
 	"humble_beginnings": {
 		"name": "Humble Beginnings",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Varisia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Varisia",
@@ -2249,6 +2452,7 @@
 	"hurricane_savvy": {
 		"name": "Hurricane Savvy",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "The Shackles",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Shackles",
@@ -2260,6 +2464,7 @@
 	"hwan_artist": {
 		"name": "Hwan Artist",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Hwanggot",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Hwanggot",
@@ -2274,6 +2479,7 @@
 			[ "Inner Sea Primer" ],
 			[ "Elves of Golarion" ]
 		],
+		"category": "Kyonin",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kyonin",
@@ -2285,6 +2491,7 @@
 	"imperial_soldier": {
 		"name": "Imperial Soldier",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Molthune",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Molthune",
@@ -2296,6 +2503,7 @@
 	"indentured_blacksmith": {
 		"name": "Indentured Blacksmith",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Kaoling",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kaoling",
@@ -2307,6 +2515,7 @@
 	"inspiring_speaker": {
 		"name": "Inspiring Speaker",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Galt",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Galt",
@@ -2318,6 +2527,7 @@
 	"instigator_of_rebellion": {
 		"name": "Instigator of Rebellion",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Minkai",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Minkai",
@@ -2329,6 +2539,7 @@
 	"intrepid_delver": {
 		"name": "Intrepid Delver",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Jinin",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Jinin",
@@ -2340,6 +2551,7 @@
 	"iobarian_survivor": {
 		"name": "Iobarian Survivor",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Iobaria",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Iobaria",
@@ -2351,6 +2563,7 @@
 	"iron_lungs": {
 		"name": "Iron Lungs",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
+		"category": "Darklands",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Darklands",
@@ -2362,8 +2575,10 @@
 	"iron_mind": {
 		"name": "Iron Mind",
 		"compilationSources": [ [ "Knights of the Inner Sea" ] ],
+		"category": "Cheliax",
 		"description": [
-			"**Type:** Regional",
+			"**Type:** Regional  ",
+			"**Region:** Cheliax",
 			"",
 			"You gain a +2 trait bonus on saving throws against spells and effects that would reduce your Intelligence score or cause you to forget something."
 		],
@@ -2372,6 +2587,7 @@
 	"isger_fixer": {
 		"name": "Isger Fixer",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Isger",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Isger  ",
@@ -2384,6 +2600,7 @@
 	"isgeri_orphan": {
 		"name": "Isgeri Orphan",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Isger",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Isger",
@@ -2395,6 +2612,7 @@
 	"issian_noble": {
 		"name": "Issian Noble",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Brevoy",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Brevoy",
@@ -2406,6 +2624,7 @@
 	"jadwiga_medicine": {
 		"name": "Jadwiga Medicine",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Irrisen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Irrisen",
@@ -2417,6 +2636,7 @@
 	"jungle_diplomat": {
 		"name": "Jungle Diplomat",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Valashmai Jungle",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Valashmai Jungle",
@@ -2428,6 +2648,7 @@
 	"jungle_guide": {
 		"name": "Jungle Guide",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Sargava",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Sargava",
@@ -2439,6 +2660,7 @@
 	"jungle_native": {
 		"name": "Jungle Native",
 		"compilationSources": [ [ "Blood of the Beast" ] ],
+		"category": "Mwangi Expanse",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mwangi Expanse  ",
@@ -2451,6 +2673,7 @@
 	"jungle_resilience": {
 		"name": "Jungle Resilience",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Nagajor",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nagajor",
@@ -2462,6 +2685,7 @@
 	"jungle_walker": {
 		"name": "Jungle Walker",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Mwangi Expanse",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mwangi Expanse",
@@ -2473,6 +2697,7 @@
 	"justiciar": {
 		"name": "Justiciar",
 		"compilationSources": [ [ "Champions of Balance" ] ],
+		"category": "Rahadoum",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Rahadoum",
@@ -2484,6 +2709,7 @@
 	"kami_talker": {
 		"name": "Kami Talker",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Forest of Spirits",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Forest of Spirits",
@@ -2495,6 +2721,7 @@
 	"keeper_of_the_veil": {
 		"name": "Keeper of the Veil",
 		"compilationSources": [ [ "Qadira, Gateway to the East" ] ],
+		"category": "Qadira",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Qadira",
@@ -2506,6 +2733,7 @@
 	"keleshite_trader": {
 		"name": "Keleshite Trader",
 		"compilationSources": [ [ "Qadira, Jewel of the East" ] ],
+		"category": "Kelesh, Qadira",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kelesh or Qadira",
@@ -2517,6 +2745,7 @@
 	"kobolds_neighbor": {
 		"name": "Kobold's Neighbor",
 		"compilationSources": [ [ "Andoran, Spirit of Liberty" ] ],
+		"category": "Andoran",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Andoran",
@@ -2528,6 +2757,7 @@
 	"kwanlai_believer": {
 		"name": "Kwanlai Believer",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Kwanlai",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kwanlai",
@@ -2539,6 +2769,7 @@
 	"kyonin_gatekeeper": {
 		"name": "Kyonin Gatekeeper",
 		"compilationSources": [ [ "Elves of Golarion" ] ],
+		"category": "Kyonin",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kyonin  ",
@@ -2551,9 +2782,10 @@
 	"lair_snake": {
 		"name": "Lair Snake",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
+		"category": "dragon's lair",
 		"description": [
 			"**Type:** Regional  ",
-			"**Requirements:** Grew up with a dragon",
+			"**Region:** dragon's lair",
 			"",
 			"You spent your formative years bowing and scraping in the presence of a dragon, witnessing the glory of the vast hoard... and squirreling away a few bits of coin for yourself. You gain a +1 trait bonus on Appraise checks, and your starting wealth increases by 200 gp."
 		],
@@ -2562,6 +2794,7 @@
 	"lamasaran_performer": {
 		"name": "Lamasaran Performer",
 		"compilationSources": [ [ "People of the Sands" ] ],
+		"category": "Thuvia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Thuvia",
@@ -2573,6 +2806,7 @@
 	"lastwall_cavalry_rider": {
 		"name": "Lastwall Cavalry Rider",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Lastwall",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lastwall",
@@ -2584,6 +2818,7 @@
 	"left_behind": {
 		"name": "Left Behind",
 		"compilationSources": [ [ "Elves of Golarion" ] ],
+		"category": "Mwangi Expanse, Varisia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mwangi Expanse or Varisia  ",
@@ -2596,6 +2831,7 @@
 	"legalistic_liberation": {
 		"name": "Legalistic Liberation",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Molthune, Osirion",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Molthune or Osirion  ",
@@ -2608,6 +2844,7 @@
 	"lepidstadt_scar": {
 		"name": "Lepidstadt Scar",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "Ustalav",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Ustalav",
@@ -2619,6 +2856,7 @@
 	"lichblood": {
 		"name": "Lichblood",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "Belkzen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Belkzen",
@@ -2633,6 +2871,7 @@
 			[ "Inner Sea Primer" ],
 			[ "Orcs of Golarion" ]
 		],
+		"category": "Belkzen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Belkzen",
@@ -2644,6 +2883,7 @@
 	"lingshens_finest": {
 		"name": "Lingshen's Finest",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Lingshen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lingshen",
@@ -2655,6 +2895,7 @@
 	"lions_audacity": {
 		"name": "Lion's Audacity",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "Taldor",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Taldor",
@@ -2666,6 +2907,7 @@
 	"liquid_healing": {
 		"name": "Liquid Healing",
 		"compilationSources": [ [ "Potions and Poisons" ] ],
+		"category": "Rahadoum",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Rahadoum",
@@ -2677,6 +2919,7 @@
 	"local_know_it_all": {
 		"name": "Local Know-It-All",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Varisia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Varisia",
@@ -2691,6 +2934,7 @@
 			[ "Ultimate Campaign" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "forest",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** forest",
@@ -2702,6 +2946,7 @@
 	"lost_origins": {
 		"name": "Lost Origins",
 		"compilationSources": [ [ "Heroes of the Streets" ] ],
+		"category": "urban",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** urban",
@@ -2713,9 +2958,10 @@
 	"lost_role_model": {
 		"name": "Lost Role Model",
 		"compilationSources": [ [ "Dungeoneer's Handbook" ] ],
+		"category": "settlement near a famous dungeon",
 		"description": [
 			"**Type:** Regional  ",
-			"**Requirements:** Settlement near a famous dungeon",
+			"**Region:** settlement near a famous dungeon",
 			"",
 			"As a youth, you marveled at the crusaders, spelunkers, and lore seekers who came through your town on their way to the nearby dungeon, tomb, or ruins. One such intrepid role model in particular was of great import to you. On the last day you ever saw your hero, the adventurer gave you a unique dungeon guide worth no more than 750 gp and with an accuracy modifier of no greater than +2.",
 			"",
@@ -2729,6 +2975,7 @@
 			[ "Inner Sea Primer" ],
 			[ "Orcs of Golarion" ]
 		],
+		"category": "Realm of the Mammoth Lords",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Realm of the Mammoth Lords",
@@ -2740,6 +2987,7 @@
 	"mana_wastes_medic": {
 		"name": "Mana Wastes Medic",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Mana Wastes",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mana Wastes",
@@ -2751,6 +2999,7 @@
 	"mana_wastes_survivalist": {
 		"name": "Mana Wastes Survivalist",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Mana Wastes",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mana Wastes",
@@ -2762,6 +3011,7 @@
 	"master_of_peaks": {
 		"name": "Master of Peaks",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Wall of Heaven",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Wall of Heaven",
@@ -2773,6 +3023,7 @@
 	"mechanical_expertise": {
 		"name": "Mechanical Expertise",
 		"compilationSources": [ [ "Heroes from the Fringe" ] ],
+		"category": "Alkenstar",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Alkenstar",
@@ -2784,6 +3035,7 @@
 	"merabian_mentorship": {
 		"name": "Merabian Mentorship",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "Thuvia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Thuvia  ",
@@ -2796,6 +3048,7 @@
 	"merchant_of_katheer": {
 		"name": "Merchant of Katheer",
 		"compilationSources": [ [ "Qadira, Gateway to the East" ] ],
+		"category": "Qadira",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Qadira",
@@ -2810,6 +3063,7 @@
 			[ "Inner Sea Primer" ],
 			[ "Legacy of Fire Player's Guide" ]
 		],
+		"category": "Katapesh",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Katapesh",
@@ -2821,6 +3075,7 @@
 	"militia": {
 		"name": "Militia",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Amanandar",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Amanandar",
@@ -2836,8 +3091,10 @@
 			[ "Advanced Player's Guide" ],
 			[ "Taldor, Echoes of Glory" ]
 		],
+		"category": "Taldor, any town or village",
 		"description": [
-			"**Type:** Regional",
+			"**Type:** Regional  ",
+			"**Region:** Taldor or any town or village",
 			"",
 			"Your first job was serving in a civilian militia in your hometown. The skills you learned through daily drilling and protecting your fellow townsfolk gave you special insight into military life. Select one of the following skills: Profession (soldier), Ride, or Survival. You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you."
 		],
@@ -2846,6 +3103,7 @@
 	"minkai_advocate": {
 		"name": "Minkai Advocate",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Minkai",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Minkai",
@@ -2857,6 +3115,7 @@
 	"mivoni_duelist": {
 		"name": "Mivoni Duelist",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Mivon",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mivon",
@@ -2868,6 +3127,7 @@
 	"mizu_ki_hikari_rebel": {
 		"name": "Mizu Ki Hikari Rebel",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Chu Ye",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Chu Ye",
@@ -2879,6 +3139,7 @@
 	"monkey_goblin": {
 		"name": "Monkey Goblin",
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
+		"category": "Mediogalti",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mediogalti  ",
@@ -2894,6 +3155,7 @@
 			[ "Inner Sea Primer" ],
 			[ "Elves of Golarion" ]
 		],
+		"category": "The Steaming Sea",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Steaming Sea",
@@ -2905,6 +3167,7 @@
 	"mountain_guide": {
 		"name": "Mountain Guide",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Five Kings Mountains",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Five Kings Mountains",
@@ -2916,6 +3179,7 @@
 	"mutabi_qi_explorer": {
 		"name": "Mutabi-qi Explorer",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Shanguang",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Shanguang",
@@ -2927,6 +3191,7 @@
 	"mwangi_herbal_tradition": {
 		"name": "Mwangi Herbal Tradition",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Mwangi Expanse",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mwangi Expanse",
@@ -2938,6 +3203,7 @@
 	"mwangi_linguist": {
 		"name": "Mwangi Linguist",
 		"compilationSources": [ [ "Heroes from the Fringe" ] ],
+		"category": "Mwangi Expanse",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mwangi Expanse",
@@ -2949,6 +3215,7 @@
 	"naga_emissary": {
 		"name": "Naga Emissary",
 		"compilationSources": [ [ "Blood of the Beast" ] ],
+		"category": "Jalmeray",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Jalmeray  ",
@@ -2961,6 +3228,7 @@
 	"narrow_escape": {
 		"name": "Narrow Escape",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "The Shackles",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Shackles",
@@ -2972,6 +3240,7 @@
 	"narrows_survivor": {
 		"name": "Narrows Survivor",
 		"compilationSources": [ [ "Taldor, Echoes of Glory" ] ],
+		"category": "Taldor",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Taldor",
@@ -2983,6 +3252,7 @@
 	"naturalist": {
 		"name": "Naturalist",
 		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"category": "Yamasa",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Yamasa",
@@ -2994,6 +3264,7 @@
 	"near_death_experience": {
 		"name": "Near-Death Experience",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Belkzen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Belkzen",
@@ -3005,6 +3276,7 @@
 	"necrotoxin_resistance": {
 		"name": "Necrotoxin Resistance",
 		"compilationSources": [ [ "Potions and Poisons" ] ],
+		"category": "Geb",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Geb",
@@ -3016,6 +3288,7 @@
 	"nexian_corpse_hunter": {
 		"name": "Nexian Corpse Hunter",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "Nex",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nex",
@@ -3027,6 +3300,7 @@
 	"nidalese_shadowcaster": {
 		"name": "Nidalese Shadowcaster",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Nidal",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nidal",
@@ -3038,6 +3312,7 @@
 	"nightstall_urchin": {
 		"name": "Nightstall Urchin",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Katapesh",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Katapesh",
@@ -3049,6 +3324,7 @@
 	"nightstalls_escapee": {
 		"name": "Nightstalls Escapee",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "Katapesh",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Katapesh  ",
@@ -3061,6 +3337,7 @@
 	"nirmathi_militia": {
 		"name": "Nirmathi Militia",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Nirmathas",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nirmathas",
@@ -3072,6 +3349,7 @@
 	"noble_in_exile": {
 		"name": "Noble-in-Exile",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Gralton",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Gralton",
@@ -3083,6 +3361,7 @@
 	"numerologist": {
 		"name": "Numerologist",
 		"compilationSources": [ [ "People of the Sands" ] ],
+		"category": "Osirion",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osirion",
@@ -3094,6 +3373,7 @@
 	"oagan_diver": {
 		"name": "Oagan Diver",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "The Sodden Lands",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Sodden Lands",
@@ -3105,6 +3385,7 @@
 	"obsequious_morsel": {
 		"name": "Obsequious Morsel",
 		"compilationSources": [ [ "Champions of Corruption" ] ],
+		"category": "Geb",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Geb",
@@ -3116,6 +3397,7 @@
 	"observant_archer": {
 		"name": "Observant Archer",
 		"compilationSources": [ [ "Heroes from the Fringe" ] ],
+		"category": "aquatic",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** aquatic",
@@ -3127,6 +3409,7 @@
 	"oenopion_alchemist": {
 		"name": "Oenopion Alchemist",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Nex",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nex",
@@ -3138,6 +3421,7 @@
 	"offspring_of_the_ascension": {
 		"name": "Offspring of the Ascension",
 		"compilationSources": [ [ "People of the Stars" ] ],
+		"category": "Osirion",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osirion",
@@ -3149,6 +3433,7 @@
 	"open_minded_explorer": {
 		"name": "Open-Minded Explorer",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
+		"category": "Averaka",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Averaka",
@@ -3160,6 +3445,7 @@
 	"orc_impaler": {
 		"name": "Orc Impaler",
 		"compilationSources": [ [ "Knights of the Inner Sea" ] ],
+		"category": "Lastwall",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lastwall  ",
@@ -3172,6 +3458,7 @@
 	"oregent_desperation": {
 		"name": "Oregent Desperation",
 		"compilationSources": [ [ "Andoran, Spirit of Liberty" ] ],
+		"category": "Oregent",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Oregent",
@@ -3183,6 +3470,7 @@
 	"oregent_timing": {
 		"name": "Oregent Timing",
 		"compilationSources": [ [ "Andoran, Spirit of Liberty" ] ],
+		"category": "Oregent",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Oregent",
@@ -3194,6 +3482,7 @@
 	"oregent_vandal": {
 		"name": "Oregent Vandal",
 		"compilationSources": [ [ "Andoran, Spirit of Liberty" ] ],
+		"category": "Oregent",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Oregent",
@@ -3205,6 +3494,7 @@
 	"osirionologist": {
 		"name": "Osirionologist",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Osirion",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osirion",
@@ -3216,6 +3506,7 @@
 	"outsea_native": {
 		"name": "Outsea Native",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "River Kingdoms",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** River Kingdoms  ",
@@ -3228,6 +3519,7 @@
 	"palm_potion": {
 		"name": "Palm Potion",
 		"compilationSources": [ [ "Potions and Poisons" ] ],
+		"category": "Razmiran",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Razmiran",
@@ -3239,6 +3531,7 @@
 	"paraheen_weaponsmith": {
 		"name": "Paraheen Weaponsmith",
 		"compilationSources": [ [ "Qadira, Jewel of the East" ] ],
+		"category": "Qadira",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Qadira",
@@ -3250,6 +3543,7 @@
 	"passionate_believer": {
 		"name": "Passionate Believer",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Po Li",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Po Li",
@@ -3261,6 +3555,7 @@
 	"patrons_boon": {
 		"name": "Patron's Boon",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Rahadoum",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Rahadoum",
@@ -3272,6 +3567,7 @@
 	"pearl_diver_xidao": {
 		"name": "Pearl Diver (Xidao)",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Xidao",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Xidao",
@@ -3286,6 +3582,7 @@
 			[ "Inner Sea Primer" ],
 			[ "Dwarves of Golarion" ]
 		],
+		"category": "Five Kings Mountains",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Five Kings Mountains",
@@ -3300,6 +3597,7 @@
 			[ "Inner Sea Primer" ],
 			[ "Legacy of Fire Player's Guide" ]
 		],
+		"category": "Katapesh",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Katapesh",
@@ -3311,6 +3609,7 @@
 	"pesh_dealer": {
 		"name": "Pesh Dealer",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Katapesh",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Katapesh",
@@ -3322,6 +3621,7 @@
 	"pirate_duelist": {
 		"name": "Pirate Duelist",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Mediogalti",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mediogalti",
@@ -3333,6 +3633,7 @@
 	"pitaxian_improvisation": {
 		"name": "Pitaxian Improvisation",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Pitax",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Pitax",
@@ -3344,6 +3645,7 @@
 	"plainsman": {
 		"name": "Plainsman",
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
+		"category": "M'neri Plains",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** M'neri Plains",
@@ -3355,6 +3657,7 @@
 	"planar_negotiator_dhh": {
 		"name": "Planar Negotiator (DHH)",
 		"compilationSources": [ [ "Demon Hunter's Handbook" ] ],
+		"category": "The Abyss",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Abyss",
@@ -3366,6 +3669,7 @@
 	"poison_connoisseur": {
 		"name": "Poison Connoisseur",
 		"compilationSources": [ [ "Potions and Poisons" ] ],
+		"category": "Taldor",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Taldor",
@@ -3377,6 +3681,7 @@
 	"poisoned_blade_resistance": {
 		"name": "Poisoned Blade Resistance",
 		"compilationSources": [ [ "Potions and Poisons" ] ],
+		"category": "River Kingdoms",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** River Kingdoms",
@@ -3388,6 +3693,7 @@
 	"pomp_and_pageantry": {
 		"name": "Pomp and Pageantry",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Taldor",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Taldor  ",
@@ -3400,6 +3706,7 @@
 	"precocious_spellcaster": {
 		"name": "Precocious Spellcaster",
 		"compilationSources": [ [ "Taldor, Echoes of Glory" ] ],
+		"category": "Taldor",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Taldor",
@@ -3411,6 +3718,7 @@
 	"prestigious_healer": {
 		"name": "Prestigious Healer",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Cheliax",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Cheliax",
@@ -3422,6 +3730,7 @@
 	"pretend_pirate": {
 		"name": "Pretend Pirate",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Andoran",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Andoran",
@@ -3433,6 +3742,7 @@
 	"prismati_player": {
 		"name": "Prismati Player",
 		"compilationSources": [ [ "Andoran, Spirit of Liberty" ] ],
+		"category": "Andoran",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Andoran",
@@ -3444,6 +3754,7 @@
 	"privileged_slave": {
 		"name": "Privileged Slave",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Kaoling",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kaoling",
@@ -3455,6 +3766,7 @@
 	"prophet_of_burrows": {
 		"name": "Prophet of Burrows",
 		"compilationSources": [ [ "Blood of the Beast" ] ],
+		"category": "Druma",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Druma  ",
@@ -3467,6 +3779,7 @@
 	"purchased_loyalty": {
 		"name": "Purchased Loyalty",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Druma",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Druma",
@@ -3478,6 +3791,7 @@
 	"pure_legion_recruit": {
 		"name": "Pure Legion Recruit",
 		"compilationSources": [ [ "People of the Sands" ] ],
+		"category": "Rahadoum",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Rahadoum",
@@ -3489,6 +3803,7 @@
 	"quain_martial_artist": {
 		"name": "Quain Martial Artist",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Quain",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Quain",
@@ -3500,6 +3815,7 @@
 	"quantium_university_graduate": {
 		"name": "Quantium University Graduate",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Nex",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nex",
@@ -3511,6 +3827,7 @@
 	"rabble_rebel": {
 		"name": "Rabble Rebel",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Galt",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Galt  ",
@@ -3523,6 +3840,7 @@
 	"rahadoumi_cultist": {
 		"name": "Rahadoumi Cultist",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Rahadoum",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Rahadoum",
@@ -3534,6 +3852,7 @@
 	"rahadoumi_disbeliever": {
 		"name": "Rahadoumi Disbeliever",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Rahadoum",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Rahadoum",
@@ -3545,6 +3864,7 @@
 	"rebel_leader": {
 		"name": "Rebel Leader",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Shokuro",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Shokuro",
@@ -3556,6 +3876,7 @@
 	"regional_influence": {
 		"name": "Regional Influence",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Varisia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Varisia",
@@ -3571,6 +3892,7 @@
 	"regional_recluse": {
 		"name": "Regional Recluse",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Varisia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Varisia",
@@ -3588,6 +3910,7 @@
 	"resourceful_alchemy": {
 		"name": "Resourceful Alchemy",
 		"compilationSources": [ [ "Potions and Poisons" ] ],
+		"category": "Thuvia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Thuvia",
@@ -3599,6 +3922,7 @@
 	"resourceful_scavenger": {
 		"name": "Resourceful Scavenger",
 		"compilationSources": [ [ "Heroes from the Fringe" ] ],
+		"category": "Numeria",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Numeria",
@@ -3610,6 +3934,7 @@
 	"rice_runner": {
 		"name": "Rice Runner",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Wanshou",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Wanshou",
@@ -3624,6 +3949,7 @@
 			[ "Inner Sea Primer" ],
 			[ "Qadira, Gateway to the East" ]
 		],
+		"category": "Qadira",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Qadira  ",
@@ -3636,6 +3962,7 @@
 	"river_navigator": {
 		"name": "River Navigator",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "River Kingdoms",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** River Kingdoms",
@@ -3651,6 +3978,7 @@
 			[ "Advanced Player's Guide" ],
 			[ "Taldor, Echoes of Glory" ]
 		],
+		"category": "swamp, river",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** swamp or river",
@@ -3662,6 +3990,7 @@
 	"river_sniper": {
 		"name": "River Sniper",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "River Kingdoms",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** River Kingdoms",
@@ -3673,6 +4002,7 @@
 	"riverfolk": {
 		"name": "Riverfolk",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "River Kingdoms",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** River Kingdoms",
@@ -3684,6 +4014,7 @@
 	"roof_racer": {
 		"name": "Roof Racer",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Korvosa",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Korvosa",
@@ -3695,6 +4026,7 @@
 	"runaway_slave": {
 		"name": "Runaway Slave",
 		"compilationSources": [ [ "Demon Hunter's Handbook" ] ],
+		"category": "Osirion, Thuvia, Darklands-adjacent",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osirion, Thuvia, or Darklands-adjacent",
@@ -3706,6 +4038,7 @@
 	"sargavan_guard": {
 		"name": "Sargavan Guard",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Sargava",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Sargava",
@@ -3717,6 +4050,7 @@
 	"savage_breaker": {
 		"name": "Savage Breaker",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Korvosa",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Korvosa",
@@ -3731,6 +4065,7 @@
 			[ "Ultimate Campaign" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "plains",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** plains",
@@ -3742,6 +4077,7 @@
 	"savannah_child": {
 		"name": "Savannah Child",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Katapesh",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Katapesh",
@@ -3753,6 +4089,7 @@
 	"scion_of_goblinblood": {
 		"name": "Scion of Goblinblood",
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
+		"category": "Isger",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Isger  ",
@@ -3765,6 +4102,7 @@
 	"scion_of_the_shory": {
 		"name": "Scion of the Shory",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "Mwangi Expanse",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mwangi Expanse",
@@ -3776,6 +4114,7 @@
 	"scourge_of_the_seas": {
 		"name": "Scourge of the Seas",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "The Shackles",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Shackles",
@@ -3787,6 +4126,7 @@
 	"scrambling_servant": {
 		"name": "Scrambling Servant",
 		"compilationSources": [ [ "Giant Hunter's Handbook" ] ],
+		"category": "mountains",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** mountains",
@@ -3802,6 +4142,7 @@
 	"screaming_leap": {
 		"name": "Screaming Leap",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "Realm of the Mammoth Lords",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Realm of the Mammoth Lords",
@@ -3813,6 +4154,7 @@
 	"sea_souled": {
 		"name": "Sea-Souled",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
+		"category": "coastal, island",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** coastal or island",
@@ -3824,6 +4166,7 @@
 	"seasoned_climber": {
 		"name": "Seasoned Climber",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Wall of Heaven",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Wall of Heaven",
@@ -3835,6 +4178,7 @@
 	"secret_revolutionary": {
 		"name": "Secret Revolutionary",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Cheliax",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Cheliax",
@@ -3846,6 +4190,7 @@
 	"secret_of_the_impossible_kingdom": {
 		"name": "Secret of the Impossible Kingdom",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Jalmeray",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Jalmeray",
@@ -3857,6 +4202,7 @@
 	"servitor_of_spirits": {
 		"name": "Servitor of Spirits",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Tian Xia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Tian Xia",
@@ -3868,6 +4214,7 @@
 	"sevenarches_seeker": {
 		"name": "Sevenarches Seeker",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Sevenarches",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Sevenarches",
@@ -3879,6 +4226,7 @@
 	"shackles_seafarer": {
 		"name": "Shackles Seafarer",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "The Shackles",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Shackles",
@@ -3890,6 +4238,7 @@
 	"shadow_dealer": {
 		"name": "Shadow Dealer",
 		"compilationSources": [ [ "Blood of the Coven" ] ],
+		"category": "Ustalav",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Ustalav",
@@ -3901,6 +4250,7 @@
 	"shadow_dissident": {
 		"name": "Shadow Dissident",
 		"compilationSources": [ [ "Monster Summoner's Handbook" ] ],
+		"category": "Nidal",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nidal",
@@ -3912,6 +4262,7 @@
 	"shadow_shaman": {
 		"name": "Shadow Shaman",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "Nidal",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nidal",
@@ -3923,6 +4274,7 @@
 	"shadowsight": {
 		"name": "Shadowsight",
 		"compilationSources": [ [ "Champions of Corruption" ] ],
+		"category": "Nidal",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nidal",
@@ -3934,6 +4286,7 @@
 	"shaer": {
 		"name": "Shaer",
 		"compilationSources": [ [ "Heroes from the Fringe" ] ],
+		"category": "Qadira",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Qadira  ",
@@ -3946,6 +4299,7 @@
 	"sharp_eyes": {
 		"name": "Sharp Eyes",
 		"compilationSources": [ [ "Wilderness Origins" ] ],
+		"category": "tundra",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** tundra",
@@ -3957,6 +4311,7 @@
 	"shenmen_prospector": {
 		"name": "Shenmen Prospector",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Shenmen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Shenmen",
@@ -3968,6 +4323,7 @@
 	"ship_aptitude": {
 		"name": "Ship Aptitude",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "The Shackles",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Shackles",
@@ -3979,6 +4335,7 @@
 	"shipboard_caster": {
 		"name": "Shipboard Caster",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Riddleport",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Riddleport",
@@ -3990,6 +4347,7 @@
 	"shoanti_tribesman": {
 		"name": "Shoanti Tribesman",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Varisia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Varisia",
@@ -4001,6 +4359,7 @@
 	"signaler": {
 		"name": "Signaler",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Molthune",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Molthune",
@@ -4012,6 +4371,7 @@
 	"silent_watcher": {
 		"name": "Silent Watcher",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Galt",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Galt",
@@ -4023,6 +4383,7 @@
 	"silvertongued_eunuch": {
 		"name": "Silvertongued Eunuch",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Quain",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Quain",
@@ -4034,6 +4395,7 @@
 	"skilled_surgeon": {
 		"name": "Skilled Surgeon",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Qadira, Ustalav",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Qadira or Ustalav",
@@ -4045,6 +4407,7 @@
 	"sky_spirit_worshipper": {
 		"name": "Sky Spirit Worshipper",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Mutabi-qi",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mutabi-qi",
@@ -4056,6 +4419,7 @@
 	"skymetal_affinity": {
 		"name": "Skymetal Affinity",
 		"compilationSources": [ [ "People of the Stars" ] ],
+		"category": "Numeria",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Numeria",
@@ -4067,6 +4431,7 @@
 	"slave_taker": {
 		"name": "Slave Taker",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Okeno",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Okeno",
@@ -4078,6 +4443,7 @@
 	"slayer_of_the_deep": {
 		"name": "Slayer of the Deep",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Darklands beneath Tian Xia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Darklands beneath Tian Xia",
@@ -4089,6 +4455,7 @@
 	"snake_bleeder": {
 		"name": "Snake Bleeder",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Nagajor",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nagajor",
@@ -4100,6 +4467,7 @@
 	"snake_handler": {
 		"name": "Snake Handler",
 		"compilationSources": [ [ "Heroes from the Fringe" ] ],
+		"category": "Osirion",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osirion  ",
@@ -4112,6 +4480,7 @@
 	"snowstride": {
 		"name": "Snowstride",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
+		"category": "Darklands",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Darklands",
@@ -4123,6 +4492,7 @@
 	"social_slaver": {
 		"name": "Social Slaver",
 		"compilationSources": [ [ "Champions of Corruption" ] ],
+		"category": "Cheliax",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Cheliax",
@@ -4134,6 +4504,7 @@
 	"sodden_chld": {
 		"name": "Sodden Chld",
 		"compilationSources": [ [ "People of the Wastes" ] ],
+		"category": "The Sodden Lands",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Sodden Lands",
@@ -4145,6 +4516,7 @@
 	"soldier_of_the_faith": {
 		"name": "Soldier of the Faith",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Razmiran",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Razmiran",
@@ -4156,6 +4528,7 @@
 	"solidarity": {
 		"name": "Solidarity",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "City of Brass",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** City of Brass",
@@ -4167,6 +4540,7 @@
 	"sophisticated_citizen": {
 		"name": "Sophisticated Citizen",
 		"compilationSources": [ [ "Merchant's Manifest" ] ],
+		"category": "Absalom",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Absalom",
@@ -4178,6 +4552,7 @@
 	"sound_of_mind": {
 		"name": "Sound of Mind",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Zi Ha",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Zi Ha",
@@ -4189,6 +4564,7 @@
 	"spell_duel_prodigy": {
 		"name": "Spell Duel Prodigy",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
+		"category": "Erages",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Erages",
@@ -4200,6 +4576,7 @@
 	"spirit_animal": {
 		"name": "Spirit Animal",
 		"compilationSources": [ [ "People of the North" ] ],
+		"category": "Realm of the Mammoth Lords",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Realm of the Mammoth Lords",
@@ -4215,6 +4592,7 @@
 	"spiritual_forester": {
 		"name": "Spiritual Forester",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Forest of Spirits",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Forest of Spirits",
@@ -4226,6 +4604,7 @@
 	"star_reader": {
 		"name": "Star Reader",
 		"compilationSources": [ [ "Demon Hunter's Handbook" ] ],
+		"category": "The Sodden Lands",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Sodden Lands",
@@ -4237,6 +4616,7 @@
 	"stargazer_region": {
 		"name": "Stargazer (Region)",
 		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"category": "Lirgen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lirgen",
@@ -4248,6 +4628,7 @@
 	"storm_hunter": {
 		"name": "Storm Hunter",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Hongal",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Hongal",
@@ -4259,6 +4640,7 @@
 	"stormrunner": {
 		"name": "Stormrunner",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "The Shackles",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Shackles",
@@ -4270,6 +4652,7 @@
 	"stream_nomad": {
 		"name": "Stream Nomad",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
+		"category": "Darklands",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Darklands",
@@ -4281,6 +4664,7 @@
 	"street_wary": {
 		"name": "Street Wary",
 		"compilationSources": [ [ "Heroes of the Streets" ] ],
+		"category": "urban",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** urban",
@@ -4292,6 +4676,7 @@
 	"suck_in_your_gut": {
 		"name": "Suck in Your Gut",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
+		"category": "Darklands",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Darklands",
@@ -4303,6 +4688,7 @@
 	"sun_orchid_harvester": {
 		"name": "Sun Orchid Harvester",
 		"compilationSources": [ [ "Dragonslayer's Handbook" ] ],
+		"category": "Thuvia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Thuvia",
@@ -4314,6 +4700,7 @@
 	"sun_blasted": {
 		"name": "Sun-Blasted",
 		"compilationSources": [ [ "Orcs of Golarion" ] ],
+		"category": "desert",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** desert",
@@ -4325,6 +4712,7 @@
 	"superstitious_isp": {
 		"name": "Superstitious (ISP)",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Realm of the Mammoth Lords",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Realm of the Mammoth Lords",
@@ -4336,6 +4724,7 @@
 	"superstitious_ward": {
 		"name": "Superstitious Ward",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Ustalav",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Ustalav",
@@ -4347,6 +4736,7 @@
 	"surefooted_ascent": {
 		"name": "Surefooted Ascent",
 		"compilationSources": [ [ "Wilderness Origins" ] ],
+		"category": "hills, mountains",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** hills or mountains",
@@ -4358,6 +4748,7 @@
 	"surface_stranger": {
 		"name": "Surface Stranger",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
+		"category": "underground",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** underground",
@@ -4369,6 +4760,7 @@
 	"sustaining_performance": {
 		"name": "Sustaining Performance",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "The Shackles",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Shackles",
@@ -4380,6 +4772,7 @@
 	"swamp_rebel": {
 		"name": "Swamp Rebel",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Wanshou",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Wanshou",
@@ -4391,6 +4784,7 @@
 	"swamp_recluse": {
 		"name": "Swamp Recluse",
 		"compilationSources": [ [ "Wilderness Origins" ] ],
+		"category": "swamp",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** swamp",
@@ -4402,6 +4796,7 @@
 	"swamp_skulker": {
 		"name": "Swamp Skulker",
 		"compilationSources": [ [ "Blood of the Coven" ] ],
+		"category": "River Kingdoms",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** River Kingdoms",
@@ -4413,6 +4808,7 @@
 	"swamp_survivor": {
 		"name": "Swamp Survivor",
 		"compilationSources": [ [ "Dragonslayer's Handbook" ] ],
+		"category": "Ustalav",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Ustalav",
@@ -4424,6 +4820,7 @@
 	"swordlords_page": {
 		"name": "Swordlord's Page",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Brevoy",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Brevoy",
@@ -4435,6 +4832,7 @@
 	"szaezan_crags_miner": {
 		"name": "Szaezan Crags Miner",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Bachuan",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Bachuan",
@@ -4446,6 +4844,7 @@
 	"tanglebriar_guerrilla": {
 		"name": "Tanglebriar Guerrilla",
 		"compilationSources": [ [ "People of the Wastes" ] ],
+		"category": "Kyonin",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kyonin",
@@ -4457,6 +4856,7 @@
 	"technic_tinkerer": {
 		"name": "Technic Tinkerer",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Numeria",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Numeria",
@@ -4468,6 +4868,7 @@
 	"technological_brewmaster": {
 		"name": "Technological Brewmaster",
 		"compilationSources": [ [ "Potions and Poisons" ] ],
+		"category": "Numeria",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Numeria",
@@ -4479,6 +4880,7 @@
 	"the_vessel_between": {
 		"name": "The Vessel Between",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Daggermark",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Daggermark",
@@ -4490,6 +4892,7 @@
 	"thoughtful_wish_maker": {
 		"name": "Thoughtful Wish-Maker",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "Elemental Planes",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Plane of Fire",
@@ -4501,6 +4904,7 @@
 	"thuvian_merchant": {
 		"name": "Thuvian Merchant",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Thuvia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Thuvia",
@@ -4512,6 +4916,7 @@
 	"tianjing_temple_guard": {
 		"name": "Tianjing Temple Guard",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Tianjing",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Tianjing",
@@ -4523,6 +4928,7 @@
 	"tiger_brigadier": {
 		"name": "Tiger Brigadier",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Bachuan",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Bachuan",
@@ -4534,6 +4940,7 @@
 	"touched_by_the_sky": {
 		"name": "Touched by the Sky",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Numeria",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Numeria",
@@ -4545,6 +4952,7 @@
 	"town_gossip": {
 		"name": "Town Gossip",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Varisia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Varisia",
@@ -4556,6 +4964,7 @@
 	"trap_savvy": {
 		"name": "Trap Savvy",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
+		"category": "Darklands",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Darklands",
@@ -4567,6 +4976,7 @@
 	"treasure_mapper": {
 		"name": "Treasure Mapper",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Mediogalti",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mediogalti",
@@ -4581,6 +4991,7 @@
 			[ "Inner Sea Primer" ],
 			[ "Elves of Golarion" ]
 		],
+		"category": "Kyonin",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kyonin",
@@ -4592,6 +5003,7 @@
 	"trench_navigator": {
 		"name": "Trench Navigator",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Xidao",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Xidao",
@@ -4603,6 +5015,7 @@
 	"triaxian_tradition": {
 		"name": "Triaxian Tradition",
 		"compilationSources": [ [ "People of the Stars" ] ],
+		"category": "Triaxus",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Triaxus",
@@ -4614,6 +5027,7 @@
 	"true_name_caller": {
 		"name": "True Name Caller",
 		"compilationSources": [ [ "Demon Hunter's Handbook" ] ],
+		"category": "The Abyss",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Abyss",
@@ -4625,6 +5039,7 @@
 	"tundra_child": {
 		"name": "Tundra Child",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
+		"category": "tundra",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** tundra or other cold regions",
@@ -4636,6 +5051,7 @@
 	"unafraid": {
 		"name": "Unafraid",
 		"compilationSources": [ [ "Orcs of Golarion" ] ],
+		"category": "Ustalav",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Ustalav",
@@ -4647,6 +5063,7 @@
 	"underbridge_dweller": {
 		"name": "Underbridge Dweller",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Magnimar",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Magnimar",
@@ -4658,6 +5075,7 @@
 	"undermarket_smuggler": {
 		"name": "Undermarket Smuggler",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Goka",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Goka",
@@ -4669,6 +5087,7 @@
 	"unflinching_faith": {
 		"name": "Unflinching Faith",
 		"compilationSources": [ [ "Undead Slayer's Handbook" ] ],
+		"category": "Nidal",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nidal",
@@ -4680,6 +5099,7 @@
 	"unstuck": {
 		"name": "Unstuck",
 		"compilationSources": [ [ "Legacy of the First World" ] ],
+		"category": "Uringen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Uringen",
@@ -4691,6 +5111,7 @@
 	"uskwood_hunter": {
 		"name": "Uskwood Hunter",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Nidal",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Nidal",
@@ -4702,6 +5123,7 @@
 	"ustalavic_noble": {
 		"name": "Ustalavic Noble",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Ustalav",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Ustalav",
@@ -4713,6 +5135,7 @@
 	"uwaga_highlander": {
 		"name": "Uwaga Highlander",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Katapesh",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Katapesh",
@@ -4728,6 +5151,7 @@
 			[ "Taldor, Echoes of Glory" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "urban",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** urban",
@@ -4739,6 +5163,7 @@
 	"valashmai_veteran": {
 		"name": "Valashmai Veteran",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Valashmai Jungle",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Valashmai Jungle",
@@ -4750,6 +5175,7 @@
 	"valknar_alumnus": {
 		"name": "Valknar Alumnus",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Tymon",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Tymon",
@@ -4761,6 +5187,7 @@
 	"varisian_wanderer": {
 		"name": "Varisian Wanderer",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Varisia",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Varisia",
@@ -4772,6 +5199,7 @@
 	"venicaan_medic": {
 		"name": "Venicaan Medic",
 		"compilationSources": [ [ "Qadira, Gateway to the East" ] ],
+		"category": "Qadira",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Qadira",
@@ -4783,6 +5211,7 @@
 	"vialesk_historian": {
 		"name": "Vialesk Historian",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
+		"category": "Elemental Planes",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Plane of Water",
@@ -4794,6 +5223,7 @@
 	"viking_blood": {
 		"name": "Viking Blood",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Lands of the Linnorm Kings",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lands of the Linnorm Kings",
@@ -4805,6 +5235,7 @@
 	"voices_of_solid_things": {
 		"name": "Voices of Solid Things",
 		"compilationSources": [ [ "Legacy of the First World" ] ],
+		"category": "Witchmarket",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Witchmarket",
@@ -4816,6 +5247,7 @@
 	"void_child": {
 		"name": "Void Child",
 		"compilationSources": [ [ "People of the Stars" ] ],
+		"category": "Diaspora",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Diaspora",
@@ -4827,6 +5259,7 @@
 	"walking_ward": {
 		"name": "Walking Ward",
 		"compilationSources": [ [ "Qadira, Gateway to the East" ] ],
+		"category": "Qadira",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Qadira",
@@ -4838,6 +5271,7 @@
 	"wardbreaker": {
 		"name": "Wardbreaker",
 		"compilationSources": [ [ "Champions of Corruption" ] ],
+		"category": "The Worldwound",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** The Worldwound",
@@ -4849,6 +5283,7 @@
 	"warrior_poet": {
 		"name": "Warrior Poet",
 		"compilationSources": [ [ "Dwarves of Golarion" ] ],
+		"category": "Lands of the Linnorm Kings",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Lands of the Linnorm Kings",
@@ -4860,6 +5295,7 @@
 	"wary_potr": {
 		"name": "Wary (PotR)",
 		"compilationSources": [ [ "People of the River" ] ],
+		"category": "Daggermark",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Daggermark",
@@ -4874,8 +5310,10 @@
 			[ "Qadira, Jewel of the East" ],
 			[ "Qadira, Gateway to the East" ]
 		],
+		"category": "Qadira",
 		"description": [
 			"**Type:** Regional  ",
+			"**Region:** Qadira  ",
 			"**Requirements:** Characters from Qadira who have had family members, neighbors, or friends affected by Taldan aggression or who have fallen victim to this hatred themselves.",
 			"",
 			"You have spent your adult life waiting for Taldor to give you an excuse to fight. You gain a +1 trait bonus on initiative checks, and if you are able to act during the surprise round of an encounter, you can draw a weapon (but not a potion or magic item) as a free action during that round."
@@ -4885,6 +5323,7 @@
 	"water_brave": {
 		"name": "Water Brave",
 		"compilationSources": [ [ "Orcs of Golarion" ] ],
+		"category": "River Kingdoms",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** River Kingdoms",
@@ -4896,6 +5335,7 @@
 	"wayang_spellhunter": {
 		"name": "Wayang Spellhunter",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Minata",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Minata",
@@ -4910,6 +5350,7 @@
 			[ "Inner Sea Primer" ],
 			[ "Taldor, Echoes of Glory" ]
 		],
+		"category": "Taldor",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Taldor",
@@ -4921,6 +5362,7 @@
 	"weed_resistance": {
 		"name": "Weed Resistance",
 		"compilationSources": [ [ "Potions and Poisons" ] ],
+		"category": "Kyonin",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Kyonin",
@@ -4932,6 +5374,7 @@
 	"well_bred": {
 		"name": "Well Bred",
 		"compilationSources": [ [ "Dragonslayer's Handbook" ] ],
+		"category": "Hermea",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Hermea",
@@ -4943,6 +5386,7 @@
 	"wharf_rat": {
 		"name": "Wharf Rat",
 		"compilationSources": [ [ "Cheliax, Empire of Devils" ] ],
+		"category": "Ostenso",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Ostenso",
@@ -4954,6 +5398,7 @@
 	"whip_specialist": {
 		"name": "Whip Specialist",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Okeno",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Okeno",
@@ -4965,6 +5410,7 @@
 	"whisper_woods_hunter": {
 		"name": "Whisper Woods Hunter",
 		"compilationSources": [ [ "Cheliax, Empire of Devils" ] ],
+		"category": "Whisper Woods",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Whisper Woods",
@@ -4976,6 +5422,7 @@
 	"whitethrone_gourmand": {
 		"name": "Whitethrone Gourmand",
 		"compilationSources": [ [ "People of the North" ] ],
+		"category": "Irrisen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Irrisen",
@@ -4987,6 +5434,7 @@
 	"whole_hearted": {
 		"name": "Whole-Hearted",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
+		"category": "Averaka",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Averaka",
@@ -4998,6 +5446,7 @@
 	"wild_wanderer": {
 		"name": "Wild Wanderer",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
+		"category": "Mwangi Expanse",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Mwangi Expanse",
@@ -5009,6 +5458,7 @@
 	"windspeaker": {
 		"name": "Windspeaker",
 		"compilationSources": [ [ "Wilderness Origins" ] ],
+		"category": "desert",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** desert",
@@ -5020,6 +5470,7 @@
 	"winners_luck": {
 		"name": "Winner's Luck",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
+		"category": "Riddleport",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Riddleport",
@@ -5031,6 +5482,7 @@
 	"winter_warrior": {
 		"name": "Winter Warrior",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Irrisen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Irrisen",
@@ -5042,6 +5494,7 @@
 	"winters_soul": {
 		"name": "Winter's Soul",
 		"compilationSources": [ [ "Inner Sea Primer" ] ],
+		"category": "Irrisen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Irrisen",
@@ -5053,6 +5506,7 @@
 	"witch_tongued": {
 		"name": "Witch-Tongued",
 		"compilationSources": [ [ "Blood of the Coven" ] ],
+		"category": "Irrisen",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Irrisen",
@@ -5064,6 +5518,7 @@
 	"xa_hoi_soldier": {
 		"name": "Xa Hoi Soldier",
 		"compilationSources": [ [ "Dragon Empires Primer" ] ],
+		"category": "Xa Hoi",
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Xa Hoi",
