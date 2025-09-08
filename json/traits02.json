@@ -1972,7 +1972,7 @@
 	"good_slip": {
 		"name": "Good Slip",
 		"compilationSources": [ [ "Hell's Vengeance Player's Guide" ] ],
-		"category": "Hell's Vengeance  ",
+		"category": "Hell's Vengeance",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance  ",
@@ -2048,7 +2048,7 @@
 	"thrune_loyal_agent": {
 		"name": "Thrune Loyal Agent",
 		"compilationSources": [ [ "Pathfinder #104: Wrath of Thrune" ] ],
-		"category": "Hell's Vengeance  ",
+		"category": "Hell's Vengeance",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Hell's Vengeance  ",
@@ -2225,7 +2225,7 @@
 	"kraggodan_castaway": {
 		"name": "Kraggodan Castaway",
 		"compilationSources": [ [ "Ironfang Invasion Player's Guide" ] ],
-		"category": "Ironfang Invasion  ",
+		"category": "Ironfang Invasion",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Ironfang Invasion  ",
@@ -2422,7 +2422,7 @@
 	"bastard_km": {
 		"name": "Bastard (KM)",
 		"compilationSources": [ [ "Kingmaker Player's Guide" ] ],
-		"category": "Kingmaker  ",
+		"category": "Kingmaker",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Kingmaker  ",
@@ -2841,7 +2841,7 @@
 	"accidental_clone": {
 		"name": "Accidental Clone",
 		"compilationSources": [ [ "Return of the Runelords Players Guide" ] ],
-		"category": "Return of the Runelords  ",
+		"category": "Return of the Runelords",
 		"description": [
 			"**Type:** Campaign  ",
 			"**Campaign:** Return of the Runelords  ",

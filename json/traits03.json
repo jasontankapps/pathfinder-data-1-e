@@ -1132,6 +1132,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Iomedae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Iomedae}",
@@ -1143,6 +1144,7 @@
 	"accident_resistant": {
 		"name": "Accident Resistant",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Zyphus",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Zyphus}",
@@ -1154,8 +1156,10 @@
 	"adherent_of_ancient_osirion": {
 		"name": "Adherent of Ancient Osirion",
 		"compilationSources": [ [ "Blood of the Beast" ] ],
+		"category": "Bastet",
 		"description": [
 			"**Type:** Religion  ",
+			"**Religion:** Bastet  ",
 			"**Region:** Osirion  ",
 			"**Requirements:** Catfolk",
 			"",
@@ -1166,6 +1170,7 @@
 	"adventurous_imbiber": {
 		"name": "Adventurous Imbiber",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Cayden Cailean",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Cayden Cailean}",
@@ -1180,6 +1185,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Elemental Lords",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Elemental Lords",
@@ -1194,6 +1200,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Nivi Rhombodazzle",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Nivi Rhombodazzle}",
@@ -1205,6 +1212,7 @@
 	"alluring": {
 		"name": "Alluring",
 		"compilationSources": [ [ "Dwarves of Golarion" ] ],
+		"category": "Bolka",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Bolka}",
@@ -1216,6 +1224,7 @@
 	"always_threatening": {
 		"name": "Always Threatening",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Thamir Gixx",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Thamir Gixx}",
@@ -1227,6 +1236,7 @@
 	"ambassador": {
 		"name": "Ambassador",
 		"compilationSources": [ [ "Taldor, Echoes of Glory" ] ],
+		"category": "Sarenrae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sarenrae}",
@@ -1238,6 +1248,7 @@
 	"ancestors_blade": {
 		"name": "Ancestor's Blade",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Shizuru",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Shizuru}",
@@ -1249,6 +1260,7 @@
 	"andolettas_consolation": {
 		"name": "Andoletta's Consolation",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Andoletta",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Andoletta}",
@@ -1260,6 +1272,7 @@
 	"angradds_flame": {
 		"name": "Angradd's Flame",
 		"compilationSources": [ [ "People of the Wastes" ] ],
+		"category": "Angradd",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Angradd}",
@@ -1271,6 +1284,7 @@
 	"angradds_valor": {
 		"name": "Angradd's Valor",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Angradd",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Angradd}",
@@ -1285,6 +1299,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Nethys",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Nethys}",
@@ -1296,6 +1311,7 @@
 	"avowed_inspiration": {
 		"name": "Avowed Inspiration",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Ragathiel",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Ragathiel}",
@@ -1307,6 +1323,7 @@
 	"backstabber": {
 		"name": "Backstabber",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Thamir Gixx",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Thamir Gixx}  ",
@@ -1319,6 +1336,7 @@
 	"battlefield_caster": {
 		"name": "Battlefield Caster",
 		"compilationSources": [ [ "Dwarves of Golarion" ] ],
+		"category": "Angradd, Gorum, Torag, Trudd",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Angradd}, {faith/Gorum}, {faith/Torag}, or {faith/Trudd}",
@@ -1333,6 +1351,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Zon-Kuthon",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Zon-Kuthon}",
@@ -1344,6 +1363,7 @@
 	"besmaras_name": {
 		"name": "Besmara's Name",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Besmara",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Besmara}",
@@ -1355,6 +1375,7 @@
 	"besmaras_strength": {
 		"name": "Besmara's Strength",
 		"compilationSources": [ [ "People of the Wastes" ] ],
+		"category": "Besmara",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Besmara}",
@@ -1366,6 +1387,7 @@
 	"bestial_wrath": {
 		"name": "Bestial Wrath",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Rovagug",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Rovagug}",
@@ -1377,6 +1399,7 @@
 	"blade_of_mercy": {
 		"name": "Blade of Mercy",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Sarenrae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sarenrae}",
@@ -1388,6 +1411,7 @@
 	"blessed_orphan": {
 		"name": "Blessed Orphan",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Folgrit",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Folgrit}",
@@ -1399,6 +1423,7 @@
 	"blessing_of_the_feast": {
 		"name": "Blessing of the Feast",
 		"compilationSources": [ [ "Orcs of Golarion" ] ],
+		"category": "Zura",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Zura}",
@@ -1410,6 +1435,7 @@
 	"blind_zeal": {
 		"name": "Blind Zeal",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Vildeis",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Vildeis}",
@@ -1421,6 +1447,7 @@
 	"bloody_vengeance": {
 		"name": "Bloody Vengeance",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Vildeis",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Vildeis}",
@@ -1432,6 +1459,7 @@
 	"brighs_insight": {
 		"name": "Brigh's Insight",
 		"compilationSources": [ [ "People of the Wastes" ] ],
+		"category": "Brigh",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Brigh}",
@@ -1446,6 +1474,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Groetus",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Groetus}",
@@ -1461,6 +1490,7 @@
 			[ "Advanced Player's Guide" ],
 			[ "Elves of Golarion" ]
 		],
+		"category": "Calistria",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Calistria}",
@@ -1472,6 +1502,7 @@
 	"call_for_help": {
 		"name": "Call for Help",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Chaldira Zuzaristan",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Chaldira Zuzaristan}  ",
@@ -1487,6 +1518,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Irori",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Irori}",
@@ -1498,6 +1530,7 @@
 	"chaldiras_luck": {
 		"name": "Chaldira's Luck",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Chaldira",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Chaldira}",
@@ -1509,6 +1542,7 @@
 	"cheat_death": {
 		"name": "Cheat Death",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Besmara",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Besmara}",
@@ -1525,6 +1559,7 @@
 			[ "Ultimate Campaign" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "Gozreh",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Gozreh}",
@@ -1539,6 +1574,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Sarenrae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sarenrae}",
@@ -1550,6 +1586,7 @@
 	"cleansing_the_twisted": {
 		"name": "Cleansing the Twisted",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Sarenrae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sarenrae}",
@@ -1561,6 +1598,7 @@
 	"clockwork_surgeon": {
 		"name": "Clockwork Surgeon",
 		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"category": "Aesocar",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Aesocar}",
@@ -1575,6 +1613,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Asmodeus",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Asmodeus}",
@@ -1586,6 +1625,7 @@
 	"corpse_cannibal": {
 		"name": "Corpse Cannibal",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
+		"category": "Urgathoa",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Urgathoa}",
@@ -1600,6 +1640,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Pharasma",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Pharasma}",
@@ -1614,6 +1655,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Horsemen",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Horsemen",
@@ -1625,6 +1667,7 @@
 	"dawn_renewal": {
 		"name": "Dawn Renewal",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Sarenrae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sarenrae}  ",
@@ -1637,6 +1680,7 @@
 	"deadeye_bowman": {
 		"name": "Deadeye Bowman",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Erastil",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Erastil}",
@@ -1651,6 +1695,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Urgathoa",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Urgathoa}",
@@ -1665,6 +1710,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Besmara",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Besmara}",
@@ -1676,6 +1722,7 @@
 	"deep_wounding": {
 		"name": "Deep Wounding",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Achaekek",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Achaekek}",
@@ -1690,6 +1737,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Torag",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Torag}",
@@ -1704,6 +1752,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Lamashtu",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Lamashtu}",
@@ -1719,6 +1768,7 @@
 			[ "Cheliax, Empire of Devils" ],
 			[ "Ultimate Campaign" ]
 		],
+		"category": "Asmodeus",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Asmodeus}",
@@ -1733,6 +1783,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Demon Lords",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Demon Lords",
@@ -1744,6 +1795,7 @@
 	"demoralizing_presence": {
 		"name": "Demoralizing Presence",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Zon-Kuthon",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Zon-Kuthon}",
@@ -1755,6 +1807,7 @@
 	"denial_of_fate": {
 		"name": "Denial of Fate",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Urgathoa",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Urgathoa}",
@@ -1769,6 +1822,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Rovagug",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Rovagug}",
@@ -1780,6 +1834,7 @@
 	"devotee_of_a_dead_god": {
 		"name": "Devotee of a Dead God",
 		"compilationSources": [ [ "Taldor, Echoes of Glory" ] ],
+		"category": "Aroden",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Aroden}",
@@ -1791,6 +1846,7 @@
 	"diseased_heart": {
 		"name": "Diseased Heart",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Ghlaunder",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Ghlaunder}",
@@ -1806,6 +1862,7 @@
 			[ "Taldor, Echoes of Glory" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "Iomedae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Iomedae}",
@@ -1817,6 +1874,7 @@
 	"dragon_tracker": {
 		"name": "Dragon Tracker",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Dahak",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Dahak}",
@@ -1831,6 +1889,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Dahak",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Dahak}",
@@ -1845,6 +1904,7 @@
 			[ "Ultimate Campaign" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "Shelyn",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Shelyn}",
@@ -1856,6 +1916,7 @@
 	"elemental_resilience": {
 		"name": "Elemental Resilience",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Elemental Lords",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Elemental Lords",
@@ -1871,6 +1932,7 @@
 			[ "Faiths of Purity" ],
 			[ "Inner Sea Gods" ]
 		],
+		"category": "Elven Deities",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Elven Deities",
@@ -1887,6 +1949,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Naderi",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Naderi}",
@@ -1901,6 +1964,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Empyreal Lords",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Empyreal Lords",
@@ -1912,6 +1976,7 @@
 	"enchanting_conniver": {
 		"name": "Enchanting Conniver",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Calistria",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Calistria}",
@@ -1923,6 +1988,7 @@
 	"enemy_of_delusion": {
 		"name": "Enemy of Delusion",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Andoletta",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Andoletta}",
@@ -1934,6 +2000,7 @@
 	"envoy_of_healing": {
 		"name": "Envoy of Healing",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Sarenrae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sarenrae}",
@@ -1948,6 +2015,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Erastil",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Erastil}",
@@ -1959,6 +2027,7 @@
 	"eternal_understanding": {
 		"name": "Eternal Understanding",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Irori",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Irori}",
@@ -1970,6 +2039,7 @@
 	"expert_boarder": {
 		"name": "Expert Boarder",
 		"compilationSources": [ [ "Pirates of the Inner Sea" ] ],
+		"category": "Besmara",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Besmara}",
@@ -1981,6 +2051,7 @@
 	"extended_toil": {
 		"name": "Extended Toil",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Droskar",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Droskar}",
@@ -1992,6 +2063,7 @@
 	"eye_for_quality": {
 		"name": "Eye for Quality",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Abadar",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Abadar}",
@@ -2003,6 +2075,7 @@
 	"eye_of_arqueros": {
 		"name": "Eye of Arqueros",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Arqueros",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Arqueros}",
@@ -2017,6 +2090,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Torag",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Torag}",
@@ -2032,6 +2106,7 @@
 			[ "Advanced Player's Guide" ],
 			[ "Legacy of Fire Player's Guide" ]
 		],
+		"category": "Abadar",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Abadar}",
@@ -2046,6 +2121,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Green Faith",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Green Faith}",
@@ -2057,6 +2133,7 @@
 	"faithful_arodenite": {
 		"name": "Faithful Arodenite",
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
+		"category": "Aroden",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Aroden}",
@@ -2071,6 +2148,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Desna",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Desna}",
@@ -2085,6 +2163,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Zyphus",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Zyphus}",
@@ -2096,6 +2175,7 @@
 	"favored_prey": {
 		"name": "Favored Prey",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Ketephys",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Ketephys}",
@@ -2110,6 +2190,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Asmodeus",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Asmodeus}",
@@ -2125,6 +2206,7 @@
 			[ "Qadira, Gateway to the East" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "Sarenrae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sarenrae}",
@@ -2139,6 +2221,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Archdevils",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Archdevils",
@@ -2150,6 +2233,7 @@
 	"flounderer": {
 		"name": "Flounderer",
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
+		"category": "Zogmugot",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Zogmugot}  ",
@@ -2162,6 +2246,7 @@
 	"folgrits_bounty": {
 		"name": "Folgrit's Bounty",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Folgrit",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Folgrit}",
@@ -2173,6 +2258,7 @@
 	"folgrits_mercy": {
 		"name": "Folgrit's Mercy",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Folgrit",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Folgrit}",
@@ -2184,6 +2270,7 @@
 	"follower_of_the_stars": {
 		"name": "Follower of the Stars",
 		"compilationSources": [ [ "Wilderness Origins" ] ],
+		"category": "Desna",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Desna}",
@@ -2198,6 +2285,7 @@
 			[ "Ultimate Campaign" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "Cayden Cailean",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Cayden Cailean}",
@@ -2212,6 +2300,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Achaekek",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Achaekek}",
@@ -2223,6 +2312,7 @@
 	"fruits_of_your_labor": {
 		"name": "Fruits of Your Labor",
 		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"category": "Jaidi",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Jaidi}",
@@ -2234,6 +2324,7 @@
 	"furious_vengeance": {
 		"name": "Furious Vengeance",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Dranngvit",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Dranngvit}",
@@ -2245,6 +2336,7 @@
 	"fury": {
 		"name": "Fury",
 		"compilationSources": [ [ "Orcs of Golarion" ] ],
+		"category": "Rovagug",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Rovagug}",
@@ -2256,6 +2348,7 @@
 	"gemstone_collector": {
 		"name": "Gemstone Collector",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Yuelral",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Yuelral}",
@@ -2267,6 +2360,7 @@
 	"gifted_medium": {
 		"name": "Gifted Medium",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Magrim",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Magrim}",
@@ -2278,6 +2372,7 @@
 	"good_dreams": {
 		"name": "Good Dreams",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Desna",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Desna}  ",
@@ -2293,6 +2388,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Cayden Cailean",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Cayden Cailean}",
@@ -2304,6 +2400,7 @@
 	"gozrehs_sight": {
 		"name": "Gozreh's Sight",
 		"compilationSources": [ [ "People of the Wastes" ] ],
+		"category": "Gozreh",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Gozreh}",
@@ -2315,6 +2412,7 @@
 	"guardian_smite": {
 		"name": "Guardian Smite",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Trudd",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Trudd}",
@@ -2330,6 +2428,7 @@
 			[ "Dwarves of Golarion" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "Torag",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Torag}",
@@ -2344,6 +2443,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Rovagug",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Rovagug}",
@@ -2358,6 +2458,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Calistria",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Calistria}",
@@ -2372,6 +2473,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Abadar",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Abadar}",
@@ -2383,6 +2485,7 @@
 	"honeyed_words": {
 		"name": "Honeyed Words",
 		"compilationSources": [ [ "Dwarves of Golarion" ] ],
+		"category": "Grundinnar",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Grundinnar}",
@@ -2397,6 +2500,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Sarenrae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sarenrae}",
@@ -2408,6 +2512,7 @@
 	"inheritors_immunity": {
 		"name": "Inheritor's Immunity",
 		"compilationSources": [ [ "People of the Wastes" ] ],
+		"category": "Iomedae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Iomedae}",
@@ -2422,6 +2527,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Shelyn",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Shelyn}",
@@ -2436,6 +2542,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Urgathoa",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Urgathoa}",
@@ -2447,6 +2554,7 @@
 	"inspiring_leader": {
 		"name": "Inspiring Leader",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Apsu",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Apsu}",
@@ -2461,6 +2569,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Shelyn",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Shelyn}",
@@ -2475,6 +2584,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Gorum",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Gorum}",
@@ -2489,6 +2599,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Green Faith",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Green Faith}",
@@ -2503,6 +2614,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Zon-Kuthon",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Zon-Kuthon}",
@@ -2517,6 +2629,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Chaldira Zuzaristan",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Chaldira Zuzaristan}",
@@ -2528,6 +2641,7 @@
 	"liars_tongue": {
 		"name": "Liar's Tongue",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Asmodeus",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Asmodeus}",
@@ -2539,6 +2653,7 @@
 	"light_sleeper": {
 		"name": "Light Sleeper",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Hanspur",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Hanspur}",
@@ -2550,6 +2665,7 @@
 	"light_bringer": {
 		"name": "Light-Bringer",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Sarenrae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sarenrae}",
@@ -2561,6 +2677,7 @@
 	"living_bulwark": {
 		"name": "Living Bulwark",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Arqueros",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Arqueros}",
@@ -2572,6 +2689,7 @@
 	"loreseeker": {
 		"name": "Loreseeker",
 		"compilationSources": [ [ "Faiths of Corruption" ] ],
+		"category": "Lissala",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Lissala}",
@@ -2586,6 +2704,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Abadar",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Abadar}",
@@ -2597,6 +2716,7 @@
 	"loyal_bond": {
 		"name": "Loyal Bond",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Grundinnar",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Grundinnar}",
@@ -2612,6 +2732,7 @@
 			[ "Advanced Player's Guide" ],
 			[ "Legacy of Fire Player's Guide" ]
 		],
+		"category": "Nethys",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Nethys}",
@@ -2623,6 +2744,7 @@
 	"magics_might": {
 		"name": "Magic's Might",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Yuelral",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Yuelral}",
@@ -2634,6 +2756,7 @@
 	"mighty_protector": {
 		"name": "Mighty Protector",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Trudd",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Trudd}",
@@ -2645,6 +2768,7 @@
 	"mischievous_smile": {
 		"name": "Mischievous Smile",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Chaldira",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Chaldira}",
@@ -2656,6 +2780,7 @@
 	"mothers_rage": {
 		"name": "Mother's Rage",
 		"compilationSources": [ [ "Orcs of Golarion" ] ],
+		"category": "Lamashtu",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Lamashtu}",
@@ -2667,6 +2792,7 @@
 	"mothers_teeth": {
 		"name": "Mother's Teeth",
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
+		"category": "Lamashtu",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Lamashtu}  ",
@@ -2679,6 +2805,7 @@
 	"natural_magic": {
 		"name": "Natural Magic",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Yuelral",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Yuelral}",
@@ -2690,6 +2817,7 @@
 	"natural_philosopher": {
 		"name": "Natural Philosopher",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Gozreh",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Gozreh}",
@@ -2704,6 +2832,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Brigh",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Brigh}",
@@ -2715,6 +2844,7 @@
 	"oathkeepers_vow": {
 		"name": "Oathkeeper's Vow",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Kols",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Kols}",
@@ -2729,6 +2859,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Alseta",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Alseta}",
@@ -2740,6 +2871,7 @@
 	"opportune_slayer": {
 		"name": "Opportune Slayer",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Lamashtu",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Lamashtu}",
@@ -2754,6 +2886,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Calistria",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Calistria}",
@@ -2765,6 +2898,7 @@
 	"pain_is_pleasure": {
 		"name": "Pain Is Pleasure",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
+		"category": "Zon-Kuthon",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Zon-Kuthon}",
@@ -2780,6 +2914,7 @@
 			[ "Advanced Player's Guide" ],
 			[ "Cheliax, Empire of Devils" ]
 		],
+		"category": "Erastil",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Erastil}",
@@ -2791,6 +2926,7 @@
 	"planar_wayfarer": {
 		"name": "Planar Wayfarer",
 		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"category": "Onos",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Onos}",
@@ -2802,6 +2938,7 @@
 	"poisonous_slayer": {
 		"name": "Poisonous Slayer",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Norgorber",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Norgorber}",
@@ -2816,6 +2953,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Ghlaunder",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Ghlaunder}",
@@ -2830,6 +2968,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Norgorber",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Norgorber}",
@@ -2841,6 +2980,7 @@
 	"pristine_reputation": {
 		"name": "Pristine Reputation",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Shizuru",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Shizuru}",
@@ -2855,6 +2995,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Dwarven Deities",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Dwarven Deities",
@@ -2866,6 +3007,7 @@
 	"protective_faith": {
 		"name": "Protective Faith",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Torag",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Torag}",
@@ -2877,6 +3019,7 @@
 	"provider": {
 		"name": "Provider",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Erastil",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Erastil}  ",
@@ -2892,6 +3035,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Iomedae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Iomedae}",
@@ -2903,6 +3047,7 @@
 	"reckless_luck": {
 		"name": "Reckless Luck",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Chaldira Zuzaristan",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Chaldira Zuzaristan}",
@@ -2914,6 +3059,7 @@
 	"redeemed_by_ragathiel": {
 		"name": "Redeemed by Ragathiel",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Ragathiel",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Ragathiel}",
@@ -2925,6 +3071,7 @@
 	"regal_presence": {
 		"name": "Regal Presence",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Iomedae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Iomedae}",
@@ -2936,8 +3083,10 @@
 	"rejected_emperor": {
 		"name": "Rejected Emperor",
 		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"category": "The Eternal Emperor",
 		"description": [
-			"**Type:** Religion",
+			"**Type:** Religion  ",
+			"**Religion:** The Eternal Emperor",
 			"",
 			"When you were young, your parents presented you to the oracles of Po Li, claiming a divine sign showed you were the reincarnation of Lung Wa's Eternal Emperor. The oracles did not support the claim, but you are not untouched by celestial influence. You may use Knowledge (nobility) or Knowledge (religion) in place of Knowledge (planes) to identify outsiders, and nonevil outsiders you encounter begin with an attitude that is one step better than normal."
 		],
@@ -2946,6 +3095,7 @@
 	"relentless_duty": {
 		"name": "Relentless Duty",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Kols",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Kols}",
@@ -2957,6 +3107,7 @@
 	"resigned": {
 		"name": "Resigned",
 		"compilationSources": [ [ "Dwarves of Golarion" ] ],
+		"category": "Droskar",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Droskar}",
@@ -2968,6 +3119,7 @@
 	"resilient_martyr": {
 		"name": "Resilient Martyr",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Vildeis",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Vildeis}",
@@ -2979,6 +3131,7 @@
 	"restless_hunger": {
 		"name": "Restless Hunger",
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
+		"category": "Venkelvore",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Venkelvore}  ",
@@ -2994,6 +3147,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Hanspur",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Hanspur}",
@@ -3005,6 +3159,7 @@
 	"rousing_courage": {
 		"name": "Rousing Courage",
 		"compilationSources": [ [ "Divine Anthology" ] ],
+		"category": "Angradd",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Angradd}",
@@ -3016,6 +3171,7 @@
 	"sacred_avenger": {
 		"name": "Sacred Avenger",
 		"compilationSources": [ [ "Elves of Golarion" ] ],
+		"category": "Calistria",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Calistria}  ",
@@ -3028,6 +3184,7 @@
 	"sacred_orienteer": {
 		"name": "Sacred Orienteer",
 		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"category": "Elion",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Elion}",
@@ -3039,6 +3196,7 @@
 	"sacred_smasher": {
 		"name": "Sacred Smasher",
 		"compilationSources": [ [ "Orcs of Golarion" ] ],
+		"category": "Rovagug",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Rovagug}",
@@ -3053,6 +3211,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Apsu",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Apsu}",
@@ -3064,6 +3223,7 @@
 	"scarred_by_war": {
 		"name": "Scarred by War",
 		"compilationSources": [ [ "Healer's Handbook" ] ],
+		"category": "Dalenydra",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Dalenydra}",
@@ -3075,6 +3235,7 @@
 	"searing_beacon": {
 		"name": "Searing Beacon",
 		"compilationSources": [ [ "Knights of the Inner Sea" ] ],
+		"category": "Iomedae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Iomedae}  ",
@@ -3090,6 +3251,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Norgorber",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Norgorber}",
@@ -3104,6 +3266,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Irori",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Irori}",
@@ -3115,6 +3278,7 @@
 	"self_sacrifice": {
 		"name": "Self-Sacrifice",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Shelyn",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Shelyn}  ",
@@ -3127,6 +3291,7 @@
 	"sense_of_order": {
 		"name": "Sense of Order",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Abadar",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Abadar}  ",
@@ -3139,6 +3304,7 @@
 	"sensing_imperfection": {
 		"name": "Sensing Imperfection",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Irori",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Irori}  ",
@@ -3154,6 +3320,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Ydersius",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Ydersius}",
@@ -3165,6 +3332,7 @@
 	"shadow_whispers": {
 		"name": "Shadow Whispers",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
+		"category": "Norgorber",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Norgorber}",
@@ -3176,6 +3344,7 @@
 	"shaper_of_reality": {
 		"name": "Shaper of Reality",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Eldest",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Eldest",
@@ -3187,6 +3356,7 @@
 	"shared_ancestors": {
 		"name": "Shared Ancestors",
 		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"category": "Myr",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Myr}",
@@ -3198,6 +3368,7 @@
 	"shield_trained": {
 		"name": "Shield-Trained",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Gorum",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Gorum}",
@@ -3209,6 +3380,7 @@
 	"sovyrian_pantheist": {
 		"name": "Sovyrian Pantheist",
 		"compilationSources": [ [ "Elves of Golarion" ] ],
+		"category": "Elven Deities",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Elven Deities  ",
@@ -3224,6 +3396,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Pharasma",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Pharasma}",
@@ -3235,6 +3408,7 @@
 	"spirit_talker": {
 		"name": "Spirit Talker",
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
+		"category": "Mwangi shamanistic faith",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Mwangi shamanistic faith",
@@ -3246,6 +3420,7 @@
 	"split_second_defense": {
 		"name": "Split-Second Defense",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Milani",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Milani}",
@@ -3257,6 +3432,7 @@
 	"stabilizing_touch": {
 		"name": "Stabilizing Touch",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Pharasma",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Pharasma}",
@@ -3272,6 +3448,7 @@
 			[ "Elves of Golarion" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "Desna",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Desna}",
@@ -3283,6 +3460,7 @@
 	"starlit_hexer": {
 		"name": "Starlit Hexer",
 		"compilationSources": [ [ "People of the Stars" ] ],
+		"category": "Outer Gods",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Outer Gods",
@@ -3294,6 +3472,7 @@
 	"steady_strength": {
 		"name": "Steady Strength",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Trudd",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Trudd}",
@@ -3308,6 +3487,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Desna",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Desna}",
@@ -3319,6 +3499,7 @@
 	"strength_of_the_barghest": {
 		"name": "Strength of the Barghest",
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
+		"category": "Hadregash",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Hadregash}  ",
@@ -3331,6 +3512,7 @@
 	"strength_of_the_sun": {
 		"name": "Strength of the Sun",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Sarenrae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sarenrae}",
@@ -3342,6 +3524,7 @@
 	"strengths_fanfare": {
 		"name": "Strength's Fanfare",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Kurgess",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Kurgess}",
@@ -3353,6 +3536,7 @@
 	"strict_judgment": {
 		"name": "Strict Judgment",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Kols",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Kols}",
@@ -3367,6 +3551,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Sivanah",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sivanah}",
@@ -3381,6 +3566,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Gorum",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Gorum}",
@@ -3395,6 +3581,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Gozreh",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Gozreh}",
@@ -3409,6 +3596,7 @@
 			[ "Faiths of Purity" ],
 			[ "Inner Sea Gods" ]
 		],
+		"category": "Cayden Cailean",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Cayden Cailean}",
@@ -3420,6 +3608,7 @@
 	"structural_knowledge": {
 		"name": "Structural Knowledge",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Findeladlara",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Findeladlara}",
@@ -3434,6 +3623,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Milani",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Milani}",
@@ -3445,6 +3635,7 @@
 	"the_city_protects": {
 		"name": "The City Protects",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
+		"category": "Abadar",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Abadar}",
@@ -3459,6 +3650,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Kurgess",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Kurgess}",
@@ -3470,6 +3662,7 @@
 	"thirst_for_knowledge": {
 		"name": "Thirst for Knowledge",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Nethys",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Nethys}",
@@ -3481,6 +3674,7 @@
 	"thrill_seeker_isg": {
 		"name": "Thrill-Seeker (ISG)",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Desna",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Desna}",
@@ -3492,6 +3686,7 @@
 	"toilcrafter": {
 		"name": "Toilcrafter",
 		"compilationSources": [ [ "Dwarves of Golarion" ] ],
+		"category": "Droskar",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Droskar}",
@@ -3503,6 +3698,7 @@
 	"twisted_transformations": {
 		"name": "Twisted Transformations",
 		"compilationSources": [ [ "People of the Stars" ] ],
+		"category": "Great Old Ones",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Great Old Ones",
@@ -3517,6 +3713,7 @@
 			[ "Ultimate Campaign" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "Pharasma",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Pharasma}",
@@ -3528,6 +3725,7 @@
 	"under_siege": {
 		"name": "Under Siege",
 		"compilationSources": [ [ "Taldor, Echoes of Glory" ] ],
+		"category": "Sarenrae",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sarenrae}",
@@ -3542,6 +3740,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Balance" ]
 		],
+		"category": "Nethys",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Nethys}",
@@ -3556,6 +3755,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Lamashtu",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Lamashtu}",
@@ -3570,6 +3770,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Corruption" ]
 		],
+		"category": "Great Old Ones, Outer Gods",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Great Old One or Outer Gods",
@@ -3581,6 +3782,7 @@
 	"unswaying_love": {
 		"name": "Unswaying Love",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Shelyn",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Shelyn}",
@@ -3592,6 +3794,7 @@
 	"veils_upon_veils": {
 		"name": "Veils upon Veils",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Sivanah",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Sivanah}",
@@ -3603,6 +3806,7 @@
 	"venom_drenched": {
 		"name": "Venom-Drenched",
 		"compilationSources": [ [ "Halflings of Golarion" ] ],
+		"category": "Norgorber",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Norgorber}  ",
@@ -3618,6 +3822,7 @@
 			[ "Ultimate Campaign" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "Gorum",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Gorum}",
@@ -3629,6 +3834,7 @@
 	"vindictive_strike": {
 		"name": "Vindictive Strike",
 		"compilationSources": [ [ "Faiths of Corruption" ] ],
+		"category": "Gyronna",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Gyronna}",
@@ -3640,6 +3846,7 @@
 	"voice_of_monsters": {
 		"name": "Voice of Monsters",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
+		"category": "Lamashtu",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Lamashtu}",
@@ -3651,6 +3858,7 @@
 	"wasp_whisperer": {
 		"name": "Wasp Whisperer",
 		"compilationSources": [ [ "Elves of Golarion" ] ],
+		"category": "Calistria",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Calistria}  ",
@@ -3663,6 +3871,7 @@
 	"wedded_bliss": {
 		"name": "Wedded Bliss",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Bolka",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Bolka}",
@@ -3674,6 +3883,7 @@
 	"well_prepared": {
 		"name": "Well-Prepared",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Angradd",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Angradd}",
@@ -3689,6 +3899,7 @@
 			[ "Legacy of Fire Player's Guide" ],
 			[ "Advanced Player's Guide" ]
 		],
+		"category": "Irori",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Irori}",
@@ -3703,6 +3914,7 @@
 			[ "Inner Sea Gods" ],
 			[ "Faiths of Purity" ]
 		],
+		"category": "Erastil",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Erastil}",
@@ -3714,6 +3926,7 @@
 	"wolf_cub": {
 		"name": "Wolf Cub",
 		"compilationSources": [ [ "Goblins of Golarion" ] ],
+		"category": "Zarongel",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Zarongel}  ",
@@ -3726,6 +3939,7 @@
 	"worthless_pawn": {
 		"name": "Worthless Pawn",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Great Old Ones",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** Great Old Ones",
@@ -3737,6 +3951,7 @@
 	"wrecking_wrath": {
 		"name": "Wrecking Wrath",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
+		"category": "Rovagug",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Rovagug}",
@@ -3748,6 +3963,7 @@
 	"wronged": {
 		"name": "Wronged",
 		"compilationSources": [ [ "Inner Sea Gods" ] ],
+		"category": "Gyronna",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Gyronna}",
