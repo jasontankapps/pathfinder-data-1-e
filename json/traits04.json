@@ -1322,26 +1322,15 @@
 		"compilationSources": [
 			[ "Ultimate Campaign" ],
 			[ "Advanced Player's Guide" ],
-			[ "Legacy of Fire Player's Guide" ]
+			[ "Legacy of Fire Player's Guide" ],
+			[ "Inner Sea Primer" ]
 		],
-		"category": "desert",
+		"category": "Thuvia, desert",
 		"description": [
 			"**Type:** Regional  ",
-			"**Region:** desert",
+			"**Region:** Thuvia, desert",
 			"",
 			"You were born and raised in rocky deserts, and are accustomed to high temperatures. You gain a +4 trait bonus on saving throws made to resist the effects of being in hot conditions and a +1 trait bonus on saving throws against fire effects."
-		],
-		"topLink": [ "Regional Traits", "main/traits_regional" ]
-	},
-	"desert_nomad": {
-		"name": "Desert Nomad",
-		"compilationSources": [ [ "Inner Sea Primer" ] ],
-		"category": "Thuvia",
-		"description": [
-			"**Type:** Regional  ",
-			"**Region:** Thuvia",
-			"",
-			"You were born and raised in the burning sands of Thuvia's desert interior. You gain a +4 trait bonus on any saving throws made to resist the effects of being in hot conditions, and a +1 trait bonus on all saving throws against fire effects."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -2238,7 +2227,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Riddleport",
 			"",
-			"You're a frequent customer at the Gold Goblin Gambling Hall and enjoy some popularity within its walls. You gain a +1 trait bonus on Profession (gambler) checks and a +2 trait bonus on Diplomacy checks made to gather information when in Riddleport."
+			"You're a frequent customer at the Gold Goblin Gambling Hall and enjoy some popularity within its walls. You gain a +1 trait bonus on Profession (gambling) checks and a +2 trait bonus on Diplomacy checks made to gather information when in Riddleport."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
