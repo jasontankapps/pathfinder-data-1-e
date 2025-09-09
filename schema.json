@@ -159,18 +159,20 @@
 		{
 			"$comment": "This is exclusively for feat_tree_data.json",
 			"type": "array",
-			"items": [
-				{
-					"type": "object",
-					"properties": {
-						"prop": "string",
-						"primary": "boolean",
-						"leaves": [ { "$ref": "#subfeat" } ]
-					},
-					"required": [ "prop" ],
-					"unevaluatedProperties": false
-				}
-			],
+			"items": {
+				"type": "object",
+				"properties": {
+					"prop": { "type": "string" },
+					"primary": { "type": "boolean" },
+					"leaves": {
+						"type": "array",
+						"items": { "$ref": "#subfeat" },
+						"unevaluatedItems": false
+					}
+				},
+				"required": [ "prop" ],
+				"unevaluatedProperties": false
+			},
 			"unevaluatedItems": false
 		},
 		{
@@ -310,7 +312,7 @@
 					},
 					"nullValue": { "type": "string" },
 					"filter": {
-						"type":"array",
+						"type": "array",
 						"items": {
 							"type": "object",
 							"anyOf": [
@@ -335,7 +337,7 @@
 										"col": { "type": "number" },
 										"equals": {
 											"type": "array",
-											"items": { "type": ["string","number"] },
+											"items": { "type": [ "string", "number" ] },
 											"uniqueItems": true,
 											"unevaluatedItems": false
 										},
@@ -366,13 +368,12 @@
 							"type": "array",
 							"items": {
 								"anyOf": [
-									{ "enum": [null] },
-									{ "type": "number" },
-									{ "type": "string" },
+									{ "enum": [ null ] },
+									{ "type": [ "string", "number" ] },
 									{
 										"type": "array",
 										"prefixItems": [
-											{ "type": ["string", "number"] },
+											{ "type": [ "string", "number" ] },
 											{ "type": "string" }
 										],
 										"minItems": 2,
@@ -395,28 +396,22 @@
 		"subfeat": {
 			"$anchor": "subfeat",
 			"type": "object",
-			"anyOf": [
-				{
-					"properties": {
-						"prop": "string",
-						"primary": "boolean",
-						"coparents": { "$ref": "#uniqueArray" },
-						"leaves": [ { "$ref": "#subfeat" } ]
-					},
-					"required": [ "prop" ],
-					"unevaluatedProperties": false
-				},
-				{
-					"properties": {
-						"prop": "string",
-						"primary": "boolean",
-						"coparentsNoLink": { "$ref": "#uniqueArray" },
-						"leaves": [ { "$ref": "#subfeat" } ]
-					},
-					"required": [ "prop" ],
-					"unevaluatedProperties": false
+			"properties": {
+				"prop": { "type": "string" },
+				"primary": { "type": "boolean" },
+				"coparents": { "$ref": "#uniqueArray" },
+				"coparentsNoLink": { "type": "boolean" },
+				"leaves": {
+					"type": "array",
+					"items": { "$ref": "#subfeat" },
+					"unevaluatedItems": false
 				}
-			]
+			},
+			"dependentRequired": {
+				"coparentsNoLink": [ "coparents" ]
+			},
+			"required": [ "prop" ],
+			"unevaluatedProperties": false
 		},
 		"compileFrom": {
 			"$anchor": "compileFrom",
@@ -437,6 +432,16 @@
 											{
 												"type": "string",
 												"$comment": "Only items matching this category will be included."
+											},
+											{
+												"type": "object",
+												"properties": {
+													"regex": {
+														"type": "string",
+														"$comment": "Categories matching this will be included."
+													}
+												},
+												"unevaluatedProperties": false
 											},
 											{
 												"type": "object",
@@ -481,6 +486,14 @@
 										"minItems": 2,
 										"unevaluatedItems": false
 									},
+									"sort": {
+										"type": "array",
+										"items": {
+											"enum": [ "category", "match", "name" ]
+										},
+										"minItems": 1,
+										"unevaluatedItems": false
+									},
 									"post": {
 										"type": "string",
 										"$comment": "This attaches to the end of the final item."
@@ -502,7 +515,8 @@
 									},
 									"template": { "type": "string" }
 								},
-								"required": [ "join", "template", "limit" ]
+								"required": [ "join", "template", "limit" ],
+								"unevaluatedProperties": false
 							}
 						]
 					},
