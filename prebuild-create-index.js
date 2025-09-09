@@ -56,8 +56,10 @@ const $sources = {};
 let $verbose = false;
 // Count changed files
 let $changed = 0;
-// Count unchanged files
-let $unchanged = 0;
+// Count total files
+let $counter = 0;
+// Count unreported files
+let $unreported = 0;
 
 
 // Parse command-line arguments
@@ -78,12 +80,21 @@ const announce = (message, priority = 0) => {
 	if($verbose) {
 		if($verbose === "quiet") {
 			if(priority < 100) {
+				$unreported++;
+				if($unreported >= 25) {
+					announce(`...still working`, 200);
+				}
 				return;
 			}
 		}
 	} else if (priority < 1) {
+		$unreported++;
+		if($unreported >= 25) {
+			announce(`...still working`, 200);
+		}
 		return;
 	}
+	$unreported = 0;
 	console.log(message);
 };
 
@@ -215,11 +226,12 @@ Object.entries($groupingData).forEach(([prop, value]) => {
 	const file = JSON.stringify(value);
 	if(get(url).trim() === file) {
 		announce(`UNCHANGED ${url}`);
-		$unchanged++;
+		$counter++;
 	} else {
 		fs.writeFileSync(url, file);
 		announce(`Saved ${url}`, 1);
 		$changed++;
+		$counter++;
 	}
 });
 
@@ -256,11 +268,12 @@ Object.entries($sources).forEach(([prop, value]) => {
 	const file = `import Link from '../../components/Link';\nconst References = () => <>${output.join("")}</>;\nexport default <References />;`;
 	if(get(url).trim() === file) {
 		announce(`UNCHANGED ${url}`);
-		$unchanged++;
+		$counter++;
 	} else {
 		fs.writeFileSync(url, file);
 		announce(`Saved ${url}`, 1);
 		$changed++;
+		$counter++;
 	}
 });
 $allSourcesMap.push(`};\nexport default output;`)
@@ -285,12 +298,13 @@ $data_pairs.forEach(pair => {
 	const [filename, data] = pair;
 	if(get(filename).trim() === data) {
 		announce(`UNCHANGED ${filename}`);
-		$unchanged++;
+		$counter++;
 	} else {
 		fs.writeFileSync(filename, data);
 		announce(`Saved ${filename}`, 1);
 		$changed++;
+		$counter++;
 	}
 });
 
-announce(`\n\n>> Saved [${$changed}] files (out of ${$unchanged + $changed}).`, 500);
+announce(`\n\n>> Saved [${$changed}] files (out of ${$counter}).`, 500);

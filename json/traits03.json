@@ -1530,7 +1530,7 @@
 	"chaldiras_luck": {
 		"name": "Chaldira's Luck",
 		"compilationSources": [ [ "Divine Anthology" ] ],
-		"category": "Chaldira",
+		"category": "Chaldira Zuzaristan",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Chaldira}",
@@ -2768,7 +2768,7 @@
 	"mischievous_smile": {
 		"name": "Mischievous Smile",
 		"compilationSources": [ [ "Divine Anthology" ] ],
-		"category": "Chaldira",
+		"category": "Chaldira Zuzaristan",
 		"description": [
 			"**Type:** Religion  ",
 			"**Religion:** {faith/Chaldira}",

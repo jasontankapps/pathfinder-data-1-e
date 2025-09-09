@@ -1,0 +1,509 @@
+{
+	"traits_tian_xia": {
+		"title": "Regional Traits: Tian Xia",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bTian Xia\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				},
+				{
+					"limit": { "regex": "\\bTian Xia-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_north_central_avistan": {
+		"title": "Regional Traits: North Central Avistan",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bNCAvistan-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_casmaron": {
+		"title": "Regional Traits: Casmaron",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bCasmaron-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_north_west_avistan": {
+		"title": "Regional Traits: Northwestern Avistan",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bWestAvistan-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_north_east_avistan": {
+		"title": "Regional Traits: Northeastern Avistan",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bNEAvistan-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_south_east_avistan": {
+		"title": "Regional Traits: Southeastern Avistan",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bSEAvistan-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_south_west_avistan": {
+		"title": "Regional Traits: Southwestern Avistan",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bSWAvistan-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_darklands": {
+		"title": "Regional Traits: Darklands",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bDarklands\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				},
+				{
+					"limit": { "regex": "\\bDarklands-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_extraplanar": {
+		"title": "Regional Traits: Extraplanar",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bExtraplanar-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_eye_of_abendego": {
+		"title": "Regional Traits: Eye of Abendego",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bEye of Abendego\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				},
+				{
+					"limit": { "regex": "\\bEye of Abendego-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_generic": {
+		"title": "Regional Traits: Generic Terrains",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bGeneric-[^,]+\\b" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_northwest_garund": {
+		"title": "Regional Traits: Northwestern Garund",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bNWGarund-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_northeast_garund": {
+		"title": "Regional Traits: Northeastern Garund",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bNEGarund-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_planet": {
+		"title": "Regional Traits: Planets",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bPlanet-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_other": {
+		"title": "Regional Traits: Other",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bOther-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_lung_wa": {
+		"title": "Regional Traits: Former Lung Wa Empire",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bLung Wa\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				},
+				{
+					"limit": { "regex": "\\bLung Wa-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_mana_wastes": {
+		"title": "Regional Traits: Mana Wastes",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bMana Wastes\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				},
+				{
+					"limit": { "regex": "\\bMana Wastes-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_mwangi_expanse": {
+		"title": "Regional Traits: Mwangi Expanse",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bMwangi Expanse\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				},
+				{
+					"limit": { "regex": "\\bMwangi Expanse-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_river_kingdoms": {
+		"title": "Regional Traits: River Kingdoms",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bRiver Kingdoms\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				},
+				{
+					"limit": { "regex": "\\bRiver Kingdoms-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	}
+}

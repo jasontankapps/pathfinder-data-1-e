@@ -755,7 +755,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 		if(Array.isArray(info)) {
 			desc.push(...info);
 		} else {
-			const { limit, pre, join, post, modifyDescription = {}, template } = info;
+			const { limit, sort, pre, join, post, modifyDescription = {}, template } = info;
 			const [ender, ...mid] = join;
 			const beginner = mid.pop();
 			const { regex, replacement } = modifyDescription;
@@ -763,6 +763,11 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 			if(typeof limit === "string") {
 				Object.values(found).forEach(v => {
 					v.category === limit && !v.redirect && pool.push(v);
+				});
+			} else if(limit.regex) {
+				const rx = new RegExp(limit.regex);
+				Object.values(found).forEach(v => {
+					!v.redirect && v.category.match(rx) && pool.push(v);
 				});
 			} else if(limit.uncategorized) {
 				Object.values(found).forEach(v => {
@@ -778,6 +783,32 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 			if(!pool.length) {
 				desc.push("[ERROR: Limit not found]");
 				return;
+			}
+			if(sort) {
+				sort.toReversed().forEach(method => {
+					const sorter = (
+						method === "match"
+							? (
+								// match
+								(a, b) => {
+									const rx = new RegExp(limit.regex || "^.*");
+									const x = (a.category.match(rx) || [""])[0];
+									const y = (b.category.match(rx) || [""])[0];
+									return x.localeCompare(y);
+								}
+							)
+							: method === "name"
+								? (
+									// name
+									(a, b) => a.name.localeCompare(b.name)
+								)
+								: (
+									// category
+									(a, b) => a.category.localeCompare(b.category)
+								)
+					);
+					pool.sort(sorter);
+				});
 			}
 			const compilation = [];
 			const rx = regex && new RegExp(`^${regex}$`);
@@ -922,32 +953,23 @@ if(!$.skipFeatTree) {
 				return output.push(`<div><strong>ERROR</strong> trying to find "${prop}".</div>`);
 			}
 			const id = primary ? (anchor + prop) : undefined;
-			const hasCoparents = coparents || coparentsNolink;
 			output.push(
-				`<div className="leaf${(hasCoparents ? " hasCoparents" : "")}"${id ? ` id="${id}"` : ""}>`,
+				`<div className="leaf${(coparents ? " hasCoparents" : "")}"${id ? ` id="${id}"` : ""}>`,
 				`<div className="leafName">${ids.length === 0 ? "" : String.fromCharCode(10551) + " "}`,
 				`<Link to="/${link}">${title}</Link></div>`
 			);
 //			id && output.push(`<div id="${"dummy-" + id}"></div>`);
-			if(hasCoparents) {
+			if(coparents) {
 				output.push(
 					`<div className="coparents"><strong>Also requires:</strong> `,
-					(coparents || []).map(cp => {
+					coparents.map(cp => {
 						const title = getFeatName(cp);
 						if(!title) {
 							logError(`Couldn't find coparent "${cp}".`)
 							return `<strong>ERROR</strong> trying to find "${cp}".`
 						}
 						const id = ids.join("-") + `-${prop}-coparent-${cp}`;
-						return `<span className="coparent" id="${id}"><InnerLink mid to="${anchor + cp}">${title}</InnerLink></span>`;
-					}).join(", "),
-					(coparentsNolink || []).map(cp => {
-						const title = getFeatName(cp);
-						if(!title) {
-							logError(`Couldn't find coparent (nolink) "${cp}".`)
-							return `<strong>ERROR</strong> trying to find "${cp}".`
-						}
-						return `<span className="coparent">${title}</span>`;
+						return coparentsNolink ? `<span className="coparent">${title}</span>` : `<span className="coparent" id="${id}"><InnerLink mid to="${anchor + cp}">${title}</InnerLink></span>`;
 					}).join(", "),
 					"</div>"
 				);

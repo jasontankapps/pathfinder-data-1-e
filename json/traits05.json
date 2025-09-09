@@ -1010,7 +1010,7 @@
 	"sovyrian_intellectual": {
 		"name": "Sovyrian Intellectual",
 		"compilationSources": [ [ "People of the Stars" ] ],
-		"category": "Elf; Must be a 1st-level character",
+		"category": "Elf",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Elf; Must be a 1st-level character",
@@ -2010,7 +2010,7 @@
 	"freed_slave_fg": {
 		"name": "Freed Slave (FG)",
 		"compilationSources": [ [ "Faction Guide" ] ],
-		"category": "Halfling; Member of The {rule/Bellflower Network",
+		"category": "Halfling",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Halfling; Member of The {rule/Bellflower Network}",
