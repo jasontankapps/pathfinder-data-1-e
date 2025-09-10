@@ -42,6 +42,8 @@ const MainGroup33Page = lazy(() => import("./MainGroup33Page"));
 const MainGroup34Page = lazy(() => import("./MainGroup34Page"));
 const MainGroup35Page = lazy(() => import("./MainGroup35Page"));
 const MainGroup36Page = lazy(() => import("./MainGroup36Page"));
+const MainGroup37Page = lazy(() => import("./MainGroup37Page"));
+const MainGroup38Page = lazy(() => import("./MainGroup38Page"));
 
 const pages = [
 	({id}: {id: string}) => <MainGroup01Page id={id} />,
@@ -80,6 +82,8 @@ const pages = [
 	({id}: {id: string}) => <MainGroup34Page id={id} />,
 	({id}: {id: string}) => <MainGroup35Page id={id} />,
 	({id}: {id: string}) => <MainGroup36Page id={id} />,
+	({id}: {id: string}) => <MainGroup37Page id={id} />,
+	({id}: {id: string}) => <MainGroup38Page id={id} />,
 ]
 
 const MainPage: React.FC = () => {

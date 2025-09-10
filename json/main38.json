@@ -1,16 +1,39 @@
 {
-	"traits_tian_xia": {
-		"title": "Regional Traits: Tian Xia",
+	"traits_race_generic": {
+		"title": "Generic Race Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
 					""
 				],
 				{
-					"limit": { "regex": "\\bTian Xia\\b(?!-)" },
+					"limit": "Generic Race",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_dwarf": {
+		"title": "Dwarf Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bDwarf\\b(?!-)" },
 					"sort": [ "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -20,7 +43,7 @@
 					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				},
 				{
-					"limit": { "regex": "\\bTian Xia-[^,]+" },
+					"limit": { "regex": "\\bDwarf-[^,]+" },
 					"sort": [ "match", "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -32,156 +55,18 @@
 			]
 		}
 	},
-	"traits_north_central_avistan": {
-		"title": "Regional Traits: North Central Avistan",
+	"traits_race_elf": {
+		"title": "Elf Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
 					""
 				],
 				{
-					"limit": { "regex": "\\bNCAvistan-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_casmaron": {
-		"title": "Regional Traits: Casmaron",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bCasmaron-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_north_west_avistan": {
-		"title": "Regional Traits: Northwestern Avistan",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bWestAvistan-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_north_east_avistan": {
-		"title": "Regional Traits: Northeastern Avistan",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bNEAvistan-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_south_east_avistan": {
-		"title": "Regional Traits: Southeastern Avistan",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bSEAvistan-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_south_west_avistan": {
-		"title": "Regional Traits: Southwestern Avistan",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bSWAvistan-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_darklands": {
-		"title": "Regional Traits: Darklands",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bDarklands\\b(?!-)" },
+					"limit": { "regex": "\\bElf\\b(?!-)" },
 					"sort": [ "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -191,7 +76,7 @@
 					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				},
 				{
-					"limit": { "regex": "\\bDarklands-[^,]+" },
+					"limit": { "regex": "\\bElf-[^,]+" },
 					"sort": [ "match", "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -203,19 +88,19 @@
 			]
 		}
 	},
-	"traits_extraplanar": {
-		"title": "Regional Traits: Extraplanar",
+	"traits_race_gnome": {
+		"title": "Gnome Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
 					""
 				],
 				{
-					"limit": { "regex": "\\bExtraplanar-[^,]+" },
-					"sort": [ "match", "name" ],
+					"limit": "Gnome",
+					"sort": [ "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
 						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
@@ -226,18 +111,18 @@
 			]
 		}
 	},
-	"traits_eye_of_abendego": {
-		"title": "Regional Traits: Eye of Abendego",
+	"traits_race_half_elf": {
+		"title": "Half-elf Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
 					""
 				],
 				{
-					"limit": { "regex": "\\bEye of Abendego\\b(?!-)" },
+					"limit": { "regex": "\\bHalf-elf\\b(?!-)" },
 					"sort": [ "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -247,7 +132,7 @@
 					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				},
 				{
-					"limit": { "regex": "\\bEye of Abendego-[^,]+" },
+					"limit": { "regex": "\\bHalf-elf-[^,]+" },
 					"sort": [ "match", "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -259,133 +144,18 @@
 			]
 		}
 	},
-	"traits_generic": {
-		"title": "Regional Traits: Generic Terrains",
+	"traits_race_half_orc": {
+		"title": "Half-orc Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
 					""
 				],
 				{
-					"limit": { "regex": "\\bGeneric-[^,]+\\b" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_northwest_garund": {
-		"title": "Regional Traits: Northwestern Garund",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bNWGarund-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_northeast_garund": {
-		"title": "Regional Traits: Northeastern Garund",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bNEGarund-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_planet": {
-		"title": "Regional Traits: Planets",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bPlanet-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_other": {
-		"title": "Regional Traits: Other",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bOther-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_lung_wa": {
-		"title": "Regional Traits: Former Lung Wa Empire",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bLung Wa\\b(?!-)" },
+					"limit": { "regex": "\\bHalf-orc\\b(?!-)" },
 					"sort": [ "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -395,7 +165,7 @@
 					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				},
 				{
-					"limit": { "regex": "\\bLung Wa-[^,]+" },
+					"limit": { "regex": "\\bHalf-orc-[^,]+" },
 					"sort": [ "match", "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -407,18 +177,18 @@
 			]
 		}
 	},
-	"traits_mana_wastes": {
-		"title": "Regional Traits: Mana Wastes",
+	"traits_race_halfling": {
+		"title": "Halfling Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
 					""
 				],
 				{
-					"limit": { "regex": "\\bMana Wastes\\b(?!-)" },
+					"limit": { "regex": "\\bHalfling\\b(?!-| Deities)" },
 					"sort": [ "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -428,7 +198,7 @@
 					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				},
 				{
-					"limit": { "regex": "\\bMana Wastes-[^,]+" },
+					"limit": { "regex": "\\bHalfling-[^,]+" },
 					"sort": [ "match", "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -440,18 +210,352 @@
 			]
 		}
 	},
-	"traits_mwangi_expanse": {
-		"title": "Regional Traits: Mwangi Expanse",
+	"traits_race_human": {
+		"title": "Human Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					":::item",
+					"",
+					"Below are some generic traits for all humans. Traits for humans [of various ethnicities](#ethnic) can be found below.",
+					"",
+					":::",
 					""
 				],
 				{
-					"limit": { "regex": "\\bMwangi Expanse\\b(?!-)" },
+					"limit": { "regex": "\\bHuman\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				},
+				[
+					"",
+					"::mainheader[Human Ethnicities]{id=ethnic}",
+					"",
+					"::main[Chelaxian Traits]{to=main/traits_race_human_chelaxian endem=\"(7 traits)\"}",
+					"",
+					"::main[Garundi Traits]{to=main/traits_race_human_garundi endem=\"(7 traits)\"}",
+					"",
+					"::main[Keleshite Traits]{to=main/traits_race_human_keleshite endem=\"(8 traits)\"}",
+					"",
+					"::main[Kellid Traits]{to=main/traits_race_human_kellid endem=\"(9 traits)\"}",
+					"",
+					"::main[Mwangi Traits]{to=main/traits_race_human_mwangi endem=\"(8 traits)\"}",
+					"",
+					"::main[Shoanti Traits]{to=main/traits_race_human_shoanti endem=\"(8 traits)\"}",
+					"",
+					"::main[Taldan Traits]{to=main/traits_race_human_taldan endem=\"(6 traits)\"}",
+					"",
+					"::main[Tian Traits]{to=main/traits_race_human_tian endem=\"(4 traits)\"}",
+					"",
+					"::main[Ulfen Traits]{to=main/traits_race_human_ulfen endem=\"(6 traits)\"}",
+					"",
+					"::main[Varisian Traits]{to=main/traits_race_human_varisian endem=\"(6 traits)\"}",
+					"",
+					"::main[Vudrani Traits]{to=main/traits_race_human_vudrani endem=\"(5 traits)\"}",
+					"",
+					"::main[Other Ethnicity Traits]{to=main/traits_race_human_misc endem=\"(13 traits)\"}",
+					""
+				]
+			]
+		}
+	},
+	"traits_race_human_chelaxian": {
+		"title": "Human-Chelaxian Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bHuman-Chelaxian\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_human_garundi": {
+		"title": "Human-Garundi Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Human-Garundi",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_human_keleshite": {
+		"title": "Human-Keleshite Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Human-Keleshite",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_human_kellid": {
+		"title": "Human-Kellid Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Human-Kellid",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_human_mwangi": {
+		"title": "Human-Mwangi Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Human-Mwangi",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_human_shoanti": {
+		"title": "Human-Shoanti Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bHuman-Shoanti\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_human_taldan": {
+		"title": "Human-Taldan Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Human-Taldan",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_human_tian": {
+		"title": "Human-Tian Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Human-Tian",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_human_ulfen": {
+		"title": "Human-Ulfen Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Human-Ulfen",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_human_varisian": {
+		"title": "Human-Varisian Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Human-Varisian",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_human_vudrani": {
+		"title": "Human-Vudrani Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Human-Vudrani",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_human_misc": {
+		"title": "Human-Misc Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bHuman-Misc-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_aasimar": {
+		"title": "Aasimar Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bAasimar\\b(?!-)" },
 					"sort": [ "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -461,7 +565,7 @@
 					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				},
 				{
-					"limit": { "regex": "\\bMwangi Expanse-[^,]+" },
+					"limit": { "regex": "\\bAasimar-[^,]+" },
 					"sort": [ "match", "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -473,18 +577,87 @@
 			]
 		}
 	},
-	"traits_river_kingdoms": {
-		"title": "Regional Traits: River Kingdoms",
+	"traits_race_android": {
+		"title": "Android Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
 					""
 				],
 				{
-					"limit": { "regex": "\\bRiver Kingdoms\\b(?!-)" },
+					"limit": "Android",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_catfolk": {
+		"title": "Catfolk Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Catfolk",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_changeling": {
+		"title": "Changeling Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Changeling",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_dhampir": {
+		"title": "Dhampir Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bDhampir\\b(?!-)" },
 					"sort": [ "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -494,7 +667,7 @@
 					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				},
 				{
-					"limit": { "regex": "\\bRiver Kingdoms-[^,]+" },
+					"limit": { "regex": "\\bDhampir-[^,]+" },
 					"sort": [ "match", "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -506,18 +679,70 @@
 			]
 		}
 	},
-	"traits_religion_empyreal_lords": {
-		"title": "Religion Traits: Empyreal Lords",
+	"traits_race_drow": {
+		"title": "Drow Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
 					""
 				],
 				{
-					"limit": { "regex": "\\bEmpyreal Lords\\b(?!-)" },
+					"limit": "Drow",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_fetchling": {
+		"title": "Fetchling Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Fetchling",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_geniekin": {
+		"title": "Geniekin Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					"",
+					":::item",
+					"",
+					"\"Geniekin\" is a term than encompasses all of the races touched by the elemental planes: ifrits, oreads, suli, sylphs, and undines.",
+					"",
+					":::",
+					""
+				],
+				{
+					"limit": { "regex": "\\bGeniekin\\b(?!-)" },
 					"sort": [ "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -527,7 +752,7 @@
 					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				},
 				{
-					"limit": { "regex": "\\bEmpyreal Lords-[^,]+" },
+					"limit": { "regex": "\\bGeniekin-[^,]+" },
 					"sort": [ "match", "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -539,18 +764,87 @@
 			]
 		}
 	},
-	"traits_religion_dwarven": {
-		"title": "Religion Traits: Dwarven Deities",
+	"traits_race_goblin": {
+		"title": "Goblin Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
 					""
 				],
 				{
-					"limit": { "regex": "\\bDwarven Deities\\b(?!-)" },
+					"limit": "Goblin",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_kasatha": {
+		"title": "Kasatha Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Kasatha",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_kitsune": {
+		"title": "Kitsune Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Kitsune",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_kobold": {
+		"title": "Kobold Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bKobold\\b(?!-)" },
 					"sort": [ "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -560,7 +854,7 @@
 					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				},
 				{
-					"limit": { "regex": "\\bDwarven Deities-[^,]+" },
+					"limit": { "regex": "\\bKobold-[^,]+" },
 					"sort": [ "match", "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -572,18 +866,87 @@
 			]
 		}
 	},
-	"traits_religion_elven": {
-		"title": "Religion Traits: Elven Deities",
+	"traits_race_lashunta": {
+		"title": "Lashunta Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
 					""
 				],
 				{
-					"limit": { "regex": "\\bElven Deities\\b(?!-)" },
+					"limit": "Lashunta",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_orc": {
+		"title": "Orc Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bOrc\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_ratfolk": {
+		"title": "Ratfolk Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": "Ratfolk",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_skinwalker": {
+		"title": "Skinwalker Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bSkinwalker\\b(?!-)" },
 					"sort": [ "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -593,7 +956,7 @@
 					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				},
 				{
-					"limit": { "regex": "\\bElven Deities-[^,]+" },
+					"limit": { "regex": "\\bSkinwalker-[^,]+" },
 					"sort": [ "match", "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -605,18 +968,28 @@
 			]
 		}
 	},
-	"traits_religion_azlanti": {
-		"title": "Religion Traits: Azlanti Gods",
+	"traits_race_tiefling": {
+		"title": "Tiefling Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
 					""
 				],
 				{
-					"limit": { "regex": "\\bAzlanti-[^,]+" },
+					"limit": { "regex": "\\bTiefling\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				},
+				{
+					"limit": { "regex": "\\bTiefling-[^,]+" },
 					"sort": [ "match", "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -628,18 +1001,41 @@
 			]
 		}
 	},
-	"traits_religion_pantheons": {
-		"title": "Religion Traits: Other Groupings",
+	"traits_race_triaxian": {
+		"title": "Triaxian Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
 					""
 				],
 				{
-					"limit": { "regex": "\\bPantheons-[^,]+" },
+					"limit": "Triaxian",
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race_vampire": {
+		"title": "Vampire Traits",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bVampire-[^,]+" },
 					"sort": [ "match", "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {
@@ -651,248 +1047,18 @@
 			]
 		}
 	},
-	"traits_religion_halfling": {
-		"title": "Religion Traits: Halfling Deities",
+	"traits_race_other_races": {
+		"title": "Other Races Traits",
 		"searchgroup": "trait",
 		"compileFrom": {
 			"source": "trait",
 			"targets": [
 				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					"::main[Back to Race Traits]{to=main/traits_race rev}",
 					""
 				],
 				{
-					"limit": { "regex": "\\bHalfling Deities-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_religion_goblin": {
-		"title": "Religion Traits: Goblin Deities",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bGoblin Deities-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_religion_lg": {
-		"title": "Religion Traits: Lawful Good",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bLG-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_religion_ln": {
-		"title": "Religion Traits: Lawful Neutral",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bLN-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_religion_le": {
-		"title": "Religion Traits: Lawful Evil",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bLE-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_religion_ng": {
-		"title": "Religion Traits: Neutral Good",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bNG-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_religion_nn": {
-		"title": "Religion Traits: True Neutral",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bNN-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_religion_ne": {
-		"title": "Religion Traits: Neutral Evil",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bNE-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_religion_cg": {
-		"title": "Religion Traits: Chaotic Good",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bCG-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_religion_cn": {
-		"title": "Religion Traits: Chaotic Neutral",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bCN-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_religion_ce": {
-		"title": "Religion Traits: Chaotic Evil",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bCE-[^,]+" },
+					"limit": { "regex": "\\bOther Races-[^,]+" },
 					"sort": [ "match", "name" ],
 					"join": [ "", "", "" ],
 					"modifyDescription": {

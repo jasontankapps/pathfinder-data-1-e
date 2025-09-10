@@ -146,7 +146,7 @@
 	"celestial_tracker": {
 		"name": "Celestial Tracker",
 		"compilationSources": [ [ "Blood of Angels" ] ],
-		"category": "Aasimar; Angelkin",
+		"category": "Aasimar-Angelkin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar; Angelkin",
@@ -158,7 +158,7 @@
 	"planetars_visions": {
 		"name": "Planetar's Visions",
 		"compilationSources": [ [ "Blood of Angels" ] ],
-		"category": "Aasimar; Angelkin",
+		"category": "Aasimar-Angelkin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar; Angelkin",
@@ -170,7 +170,7 @@
 	"burnished_skin": {
 		"name": "Burnished Skin",
 		"compilationSources": [ [ "Blood of Angels" ] ],
-		"category": "Aasimar; Emberkin",
+		"category": "Aasimar-Emberkin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar; Emberkin",
@@ -182,7 +182,7 @@
 	"pyromancer": {
 		"name": "Pyromancer",
 		"compilationSources": [ [ "Blood of Angels" ] ],
-		"category": "Aasimar; Emberkin",
+		"category": "Aasimar-Emberkin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar; Emberkin",
@@ -194,7 +194,7 @@
 	"enlightened_warrior": {
 		"name": "Enlightened Warrior",
 		"compilationSources": [ [ "Blood of Angels" ] ],
-		"category": "Aasimar; Idyllkin",
+		"category": "Aasimar-Idyllkin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar; Idyllkin",
@@ -206,7 +206,7 @@
 	"speech_of_the_wilds": {
 		"name": "Speech of the Wilds",
 		"compilationSources": [ [ "Blood of Angels" ] ],
-		"category": "Aasimar; Idyllkin",
+		"category": "Aasimar-Idyllkin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar; Idyllkin",
@@ -218,7 +218,7 @@
 	"good_influence": {
 		"name": "Good Influence",
 		"compilationSources": [ [ "Blood of Angels" ] ],
-		"category": "Aasimar; Lawbringer",
+		"category": "Aasimar-Lawbringer",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar; Lawbringer",
@@ -230,7 +230,7 @@
 	"lantern_spirit": {
 		"name": "Lantern Spirit",
 		"compilationSources": [ [ "Blood of Angels" ] ],
-		"category": "Aasimar; Lawbringer",
+		"category": "Aasimar-Lawbringer",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar; Lawbringer",
@@ -242,7 +242,7 @@
 	"bralanis_step": {
 		"name": "Bralani's Step",
 		"compilationSources": [ [ "Blood of Angels" ] ],
-		"category": "Aasimar; Musetouched",
+		"category": "Aasimar-Musetouched",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar; Musetouched",
@@ -254,7 +254,7 @@
 	"lillends_harp": {
 		"name": "Lillend's Harp",
 		"compilationSources": [ [ "Blood of Angels" ] ],
-		"category": "Aasimar; Musetouched",
+		"category": "Aasimar-Musetouched",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar; Musetouched",
@@ -266,7 +266,7 @@
 	"snake_hater": {
 		"name": "Snake Hater",
 		"compilationSources": [ [ "Blood of Angels" ] ],
-		"category": "Aasimar; Plumekith",
+		"category": "Aasimar-Plumekith",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar; Plumekith",
@@ -278,7 +278,7 @@
 	"toxophilite": {
 		"name": "Toxophilite",
 		"compilationSources": [ [ "Blood of Angels" ] ],
-		"category": "Aasimar; Plumekith",
+		"category": "Aasimar-Plumekith",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar; Plumekith",
@@ -338,7 +338,7 @@
 	"deathtouched": {
 		"name": "Deathtouched",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
-		"category": "Any",
+		"category": "Generic Race",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Any",
@@ -350,7 +350,7 @@
 	"fiend_blood": {
 		"name": "Fiend Blood",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
-		"category": "Any",
+		"category": "Generic Race",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Any",
@@ -518,7 +518,7 @@
 	"half_forgotten_secrets": {
 		"name": "Half-Forgotten Secrets",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Dhampir; Ajibachana",
+		"category": "Dhampir-Ajibachana",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Dhampir; Ajibachana",
@@ -530,7 +530,7 @@
 	"unidentifiable_appeal": {
 		"name": "Unidentifiable Appeal",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Dhampir; Ajibachana",
+		"category": "Dhampir-Ajibachana",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Dhampir; Ajibachana",
@@ -542,7 +542,7 @@
 	"old_before_your_time": {
 		"name": "Old Before Your Time",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Dhampir; Ancient-born",
+		"category": "Dhampir-Ancient-born",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Dhampir; Ancient-born",
@@ -554,7 +554,7 @@
 	"thrall_spotter": {
 		"name": "Thrall Spotter",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Dhampir; Ancient-born",
+		"category": "Dhampir-Ancient-born",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Dhampir; Ancient-born",
@@ -566,7 +566,7 @@
 	"linguistic_genius": {
 		"name": "Linguistic Genius",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Dhampir; Ru-shi",
+		"category": "Dhampir-Ru-shi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Dhampir; Ru-shi",
@@ -578,7 +578,7 @@
 	"numerological_gift": {
 		"name": "Numerological Gift",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Dhampir; Ru-shi",
+		"category": "Dhampir-Ru-shi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Dhampir; Ru-shi",
@@ -590,7 +590,7 @@
 	"mind_trapper": {
 		"name": "Mind Trapper",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Dhampir; Svetocher",
+		"category": "Dhampir-Svetocher",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Dhampir; Svetocher",
@@ -602,7 +602,7 @@
 	"sensual_graces": {
 		"name": "Sensual Graces",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Dhampir; Svetocher",
+		"category": "Dhampir-Svetocher",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Dhampir; Svetocher",
@@ -662,7 +662,7 @@
 	"vermin_driver": {
 		"name": "Vermin Driver",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Duergar",
+		"category": "Other Races-Duergar",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Duergar",
@@ -886,7 +886,7 @@
 	"deathkeeper": {
 		"name": "Deathkeeper",
 		"compilationSources": [ [ "People of the Sands" ] ],
-		"category": "Dwarf; Pahmet",
+		"category": "Dwarf-Pahmet",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Dwarf; Pahmet",
@@ -898,7 +898,7 @@
 	"sphinxfriend": {
 		"name": "Sphinxfriend",
 		"compilationSources": [ [ "People of the Sands" ] ],
-		"category": "Dwarf; Pahmet",
+		"category": "Dwarf-Pahmet",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Dwarf; Pahmet",
@@ -1074,7 +1074,7 @@
 	"obscure_traditions": {
 		"name": "Obscure Traditions",
 		"compilationSources": [ [ "People of the North" ] ],
-		"category": "Elf; Snowcaster",
+		"category": "Elf-Snowcaster",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Elf; Snowcaster",
@@ -1086,7 +1086,7 @@
 	"snowblooded": {
 		"name": "Snowblooded",
 		"compilationSources": [ [ "People of the North" ] ],
-		"category": "Elf; Snowcaster",
+		"category": "Elf-Snowcaster",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Elf; Snowcaster",
@@ -1146,7 +1146,7 @@
 	"creative_reality": {
 		"name": "Creative Reality",
 		"compilationSources": [ [ "Distant Shores" ] ],
-		"category": "Ganzi",
+		"category": "Other Races-Ganzi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Ganzi",
@@ -1158,7 +1158,7 @@
 	"frustrating": {
 		"name": "Frustrating",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Gathlain",
+		"category": "Other Races-Gathlain",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Gathlain",
@@ -1194,7 +1194,7 @@
 	"honored_provider": {
 		"name": "Honored Provider",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Ghoran",
+		"category": "Other Races-Ghoran",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Ghoran",
@@ -1209,7 +1209,7 @@
 			[ "Bastards of Golarion" ],
 			[ "Humans of Golarion" ]
 		],
-		"category": "Gillman",
+		"category": "Other Races-Gillman",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Gillman",
@@ -1221,7 +1221,7 @@
 	"memory_mastery": {
 		"name": "Memory Mastery",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Gillman",
+		"category": "Other Races-Gillman",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Gillman",
@@ -1539,7 +1539,7 @@
 	"canopy_shooter": {
 		"name": "Canopy Shooter",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Grippli",
+		"category": "Other Races-Grippli",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Grippli",
@@ -1654,7 +1654,7 @@
 	"elven_serenity": {
 		"name": "Elven Serenity",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
-		"category": "Half-elf; elf-raised",
+		"category": "Half-elf-elf-raised",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Half-elf; elf-raised",
@@ -1666,7 +1666,7 @@
 	"trade_talk": {
 		"name": "Trade Talk",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
-		"category": "Half-elf; human-raised",
+		"category": "Half-elf-human-raised",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Half-elf; human-raised",
@@ -1974,7 +1974,7 @@
 	"iron_control": {
 		"name": "Iron Control",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
-		"category": "Half-orc; human-raised",
+		"category": "Half-orc-human-raised",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Half-orc; human-raised",
@@ -1986,7 +1986,7 @@
 	"finish_the_fight": {
 		"name": "Finish the Fight",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
-		"category": "Half-orc; orc-raised",
+		"category": "Half-orc-orc-raised",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Half-orc; orc-raised",
@@ -2162,7 +2162,7 @@
 	"adventurous_explorer": {
 		"name": "Adventurous Explorer",
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
-		"category": "Halfling; Song-o",
+		"category": "Halfling-Song-o",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Halfling; Song-o",
@@ -2174,7 +2174,7 @@
 	"inciter_hobgoblin": {
 		"name": "Inciter (Hobgoblin)",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Hobgoblin",
+		"category": "Other Races-Hobgoblin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Hobgoblin",
@@ -2238,7 +2238,7 @@
 	"trifler": {
 		"name": "Trifler",
 		"compilationSources": [ [ "Faction Guide" ] ],
-		"category": "Human; Varisian wanderers",
+		"category": "Human-Misc-Varisian wanderers",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Varisian wanderers",
@@ -2266,7 +2266,7 @@
 	"azlant_fanatic": {
 		"name": "Azlant Fanatic",
 		"compilationSources": [ [ "Taldor, Echoes of Glory" ] ],
-		"category": "Human; Azlanti",
+		"category": "Human-Misc-Azlanti",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Azlanti",
@@ -2278,7 +2278,7 @@
 	"azlanti_engineering": {
 		"name": "Azlanti Engineering",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Azlanti",
+		"category": "Human-Misc-Azlanti",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Azlanti",
@@ -2290,7 +2290,7 @@
 	"enduring_spellcraft": {
 		"name": "Enduring Spellcraft",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Azlanti",
+		"category": "Human-Misc-Azlanti",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Azlanti",
@@ -2302,7 +2302,7 @@
 	"nomadic": {
 		"name": "Nomadic",
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
-		"category": "Human; Bas-o",
+		"category": "Human-Misc-Bas-o",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Bas-o",
@@ -2314,7 +2314,7 @@
 	"bekyar_slave_maestro": {
 		"name": "Bekyar Slave Maestro",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
-		"category": "Human; Bekyar, Shoanti",
+		"category": "Human-Misc-Bekyar, Human-Shoanti",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Bekyar or Shoanti",
@@ -2326,7 +2326,7 @@
 	"shoanti_spirit_singer": {
 		"name": "Shoanti Spirit-singer",
 		"compilationSources": [ [ "Advanced Class Origins" ] ],
-		"category": "Human; Bekyar, Shoanti",
+		"category": "Human-Misc-Bekyar, Human-Shoanti",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Bekyar or Shoanti",
@@ -2338,7 +2338,7 @@
 	"glib_barrister": {
 		"name": "Glib Barrister",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Chelaxian",
+		"category": "Human-Chelaxian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Chelaxian",
@@ -2350,7 +2350,7 @@
 	"infernal_influence": {
 		"name": "Infernal Influence",
 		"compilationSources": [ [ "Cheliax, Empire of Devils" ] ],
-		"category": "Human; Chelaxian",
+		"category": "Human-Chelaxian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Chelaxian",
@@ -2362,7 +2362,7 @@
 	"ingratiating": {
 		"name": "Ingratiating",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Chelaxian",
+		"category": "Human-Chelaxian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Chelaxian",
@@ -2374,7 +2374,7 @@
 	"masterful_demeanor": {
 		"name": "Masterful Demeanor",
 		"compilationSources": [ [ "Cheliax, Empire of Devils" ] ],
-		"category": "Human; Chelaxian",
+		"category": "Human-Chelaxian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Chelaxian",
@@ -2386,7 +2386,7 @@
 	"obsessed_with_success": {
 		"name": "Obsessed with Success",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Chelaxian",
+		"category": "Human-Chelaxian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Chelaxian",
@@ -2398,7 +2398,7 @@
 	"operatic": {
 		"name": "Operatic",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Chelaxian",
+		"category": "Human-Chelaxian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Chelaxian",
@@ -2410,7 +2410,7 @@
 	"colonial_entitlement": {
 		"name": "Colonial Entitlement",
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
-		"category": "Human; Chelaxian, Sargavan",
+		"category": "Human-Chelaxian, Human-Misc-Sargavan",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Chelaxian or Sargavan",
@@ -2422,7 +2422,7 @@
 	"spirit_lodge_dreamer": {
 		"name": "Spirit Lodge Dreamer",
 		"compilationSources": [ [ "People of the North" ] ],
-		"category": "Human; Erutaki",
+		"category": "Human-Misc-Erutaki",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Erutaki",
@@ -2434,7 +2434,7 @@
 	"effortless_aid": {
 		"name": "Effortless Aid",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Garundi",
+		"category": "Human-Garundi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Garundi",
@@ -2446,7 +2446,7 @@
 	"ever_home": {
 		"name": "Ever Home",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Garundi",
+		"category": "Human-Garundi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Garundi",
@@ -2458,7 +2458,7 @@
 	"eyes_of_the_sun": {
 		"name": "Eyes of the Sun",
 		"compilationSources": [ [ "People of the Sands" ] ],
-		"category": "Human; Garundi",
+		"category": "Human-Garundi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Garundi",
@@ -2470,7 +2470,7 @@
 	"historian": {
 		"name": "Historian",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
-		"category": "Human; Garundi",
+		"category": "Human-Garundi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Garundi",
@@ -2482,7 +2482,7 @@
 	"relic_hunter": {
 		"name": "Relic Hunter",
 		"compilationSources": [ [ "People of the Sands" ] ],
-		"category": "Human; Garundi",
+		"category": "Human-Garundi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Garundi",
@@ -2494,7 +2494,7 @@
 	"tongue_of_many_towns": {
 		"name": "Tongue of Many Towns",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Garundi",
+		"category": "Human-Garundi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Garundi",
@@ -2506,7 +2506,7 @@
 	"zealous_garundi": {
 		"name": "Zealous (Garundi)",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Garundi",
+		"category": "Human-Garundi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Garundi",
@@ -2518,7 +2518,7 @@
 	"born_to_the_water": {
 		"name": "Born to the Water",
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
-		"category": "Human; Ijo",
+		"category": "Human-Misc-Ijo",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Ijo",
@@ -2530,7 +2530,7 @@
 	"jadwiga_scion": {
 		"name": "Jadwiga Scion",
 		"compilationSources": [ [ "People of the North" ] ],
-		"category": "Human; Jadwiga",
+		"category": "Human-Misc-Jadwiga",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Jadwiga",
@@ -2542,7 +2542,7 @@
 	"carefully_hidden": {
 		"name": "Carefully Hidden",
 		"compilationSources": [ [ "Taldor, Echoes of Glory" ] ],
-		"category": "Human; Keleshite",
+		"category": "Human-Keleshite",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Keleshite",
@@ -2554,7 +2554,7 @@
 	"commanding": {
 		"name": "Commanding",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Keleshite",
+		"category": "Human-Keleshite",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Keleshite",
@@ -2566,7 +2566,7 @@
 	"genie_blood": {
 		"name": "Genie Blood",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
-		"category": "Human; Keleshite",
+		"category": "Human-Keleshite",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Keleshite",
@@ -2578,7 +2578,7 @@
 	"horse_lord": {
 		"name": "Horse Lord",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Keleshite",
+		"category": "Human-Keleshite",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Keleshite",
@@ -2590,7 +2590,7 @@
 	"market_rat": {
 		"name": "Market Rat",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Keleshite",
+		"category": "Human-Keleshite",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Keleshite",
@@ -2602,7 +2602,7 @@
 	"pride_of_the_diamond_empire": {
 		"name": "Pride of the Diamond Empire",
 		"compilationSources": [ [ "People of the Sands" ] ],
-		"category": "Human; Keleshite",
+		"category": "Human-Keleshite",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Keleshite",
@@ -2614,7 +2614,7 @@
 	"tempestuous_combatant": {
 		"name": "Tempestuous Combatant",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Keleshite",
+		"category": "Human-Keleshite",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Keleshite",
@@ -2626,7 +2626,7 @@
 	"thoroughbred": {
 		"name": "Thoroughbred",
 		"compilationSources": [ [ "People of the Sands" ] ],
-		"category": "Human; Keleshite",
+		"category": "Human-Keleshite",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Keleshite",
@@ -2638,7 +2638,7 @@
 	"divine_the_mystery": {
 		"name": "Divine the Mystery",
 		"compilationSources": [ [ "People of the River" ] ],
-		"category": "Human; Kellid",
+		"category": "Human-Kellid",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Kellid",
@@ -2650,7 +2650,7 @@
 	"ice_walker": {
 		"name": "Ice Walker",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Kellid",
+		"category": "Human-Kellid",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Kellid",
@@ -2662,7 +2662,7 @@
 	"pragmatic_polytheist": {
 		"name": "Pragmatic Polytheist",
 		"compilationSources": [ [ "People of the River" ] ],
-		"category": "Human; Kellid",
+		"category": "Human-Kellid",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Kellid",
@@ -2674,7 +2674,7 @@
 	"storied_scars": {
 		"name": "Storied Scars",
 		"compilationSources": [ [ "People of the North" ] ],
-		"category": "Human; Kellid",
+		"category": "Human-Kellid",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Kellid",
@@ -2686,7 +2686,7 @@
 	"superstitious_kellid": {
 		"name": "Superstitious (Kellid)",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Kellid",
+		"category": "Human-Kellid",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Kellid",
@@ -2698,7 +2698,7 @@
 	"wary_of_danger": {
 		"name": "Wary of Danger",
 		"compilationSources": [ [ "People of the North" ] ],
-		"category": "Human; Kellid",
+		"category": "Human-Kellid",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Kellid",
@@ -2710,7 +2710,7 @@
 	"wasteland_hunter": {
 		"name": "Wasteland Hunter",
 		"compilationSources": [ [ "People of the River" ] ],
-		"category": "Human; Kellid",
+		"category": "Human-Kellid",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Kellid",
@@ -2722,7 +2722,7 @@
 	"weathered_patience": {
 		"name": "Weathered Patience",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Kellid",
+		"category": "Human-Kellid",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Kellid",
@@ -2734,7 +2734,7 @@
 	"witness_to_natures_cruelty": {
 		"name": "Witness to Nature's Cruelty",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Kellid",
+		"category": "Human-Kellid",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Kellid",
@@ -2746,7 +2746,7 @@
 	"assimilated_native": {
 		"name": "Assimilated Native",
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
-		"category": "Human; Mwangi",
+		"category": "Human-Mwangi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Mwangi",
@@ -2758,7 +2758,7 @@
 	"colonial_sympathizer": {
 		"name": "Colonial Sympathizer",
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
-		"category": "Human; Mwangi",
+		"category": "Human-Mwangi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Mwangi",
@@ -2770,7 +2770,7 @@
 	"magaambyan_arcana": {
 		"name": "Magaambyan Arcana",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Mwangi",
+		"category": "Human-Mwangi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Mwangi",
@@ -2782,7 +2782,7 @@
 	"proud_tribesman": {
 		"name": "Proud Tribesman",
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
-		"category": "Human; Mwangi",
+		"category": "Human-Mwangi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Mwangi",
@@ -2794,7 +2794,7 @@
 	"river_trader": {
 		"name": "River Trader",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Mwangi",
+		"category": "Human-Mwangi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Mwangi",
@@ -2806,7 +2806,7 @@
 	"spirits_in_the_stone": {
 		"name": "Spirits in the Stone",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
-		"category": "Human; Mwangi",
+		"category": "Human-Mwangi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Mwangi",
@@ -2818,7 +2818,7 @@
 	"student_of_nantambu": {
 		"name": "Student of Nantambu",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Mwangi",
+		"category": "Human-Mwangi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Mwangi",
@@ -2830,7 +2830,7 @@
 	"trailblazer": {
 		"name": "Trailblazer",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Mwangi",
+		"category": "Human-Mwangi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Mwangi",
@@ -2842,7 +2842,7 @@
 	"slaver": {
 		"name": "Slaver",
 		"compilationSources": [ [ "Sargava, the Lost Colony" ] ],
-		"category": "Human; Ombo",
+		"category": "Human-Misc-Ombo",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Ombo",
@@ -2854,7 +2854,7 @@
 	"auspicious_tattoo": {
 		"name": "Auspicious Tattoo",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Shoanti",
+		"category": "Human-Shoanti",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Shoanti",
@@ -2866,7 +2866,7 @@
 	"bred_for_war": {
 		"name": "Bred for War",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Shoanti",
+		"category": "Human-Shoanti",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Shoanti",
@@ -2878,7 +2878,7 @@
 	"favored_champion": {
 		"name": "Favored Champion",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Shoanti",
+		"category": "Human-Shoanti",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Shoanti",
@@ -2890,7 +2890,7 @@
 	"oral_historian": {
 		"name": "Oral Historian",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Shoanti",
+		"category": "Human-Shoanti",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Shoanti",
@@ -2902,7 +2902,7 @@
 	"shoanti_steed": {
 		"name": "Shoanti Steed",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
-		"category": "Human; Shoanti",
+		"category": "Human-Shoanti",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Shoanti",
@@ -2914,7 +2914,7 @@
 	"shoanti_tattoo": {
 		"name": "Shoanti Tattoo",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
-		"category": "Human; Shoanti",
+		"category": "Human-Shoanti",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Shoanti",
@@ -2926,7 +2926,7 @@
 	"artistic_dilettante": {
 		"name": "Artistic Dilettante",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Taldan",
+		"category": "Human-Taldan",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Taldan",
@@ -2938,7 +2938,7 @@
 	"aspiring_bard": {
 		"name": "Aspiring Bard",
 		"compilationSources": [ [ "Taldor, Echoes of Glory" ] ],
-		"category": "Human; Taldan",
+		"category": "Human-Taldan",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Taldan",
@@ -2950,7 +2950,7 @@
 	"blade_bravado": {
 		"name": "Blade Bravado",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Taldan",
+		"category": "Human-Taldan",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Taldan",
@@ -2962,7 +2962,7 @@
 	"destined_pioneer": {
 		"name": "Destined Pioneer",
 		"compilationSources": [ [ "People of the River" ] ],
-		"category": "Human; Taldan",
+		"category": "Human-Taldan",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Taldan",
@@ -2974,7 +2974,7 @@
 	"generous": {
 		"name": "Generous",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Taldan",
+		"category": "Human-Taldan",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Taldan",
@@ -2986,7 +2986,7 @@
 	"my_word_is_my_bond": {
 		"name": "My Word Is My Bond",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Taldan",
+		"category": "Human-Taldan",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Taldan",
@@ -2998,7 +2998,7 @@
 	"bureaucracy_navigator": {
 		"name": "Bureaucracy Navigator",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Tian",
+		"category": "Human-Tian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Tian",
@@ -3010,7 +3010,7 @@
 	"keeper_of_the_ancestral_scrolls": {
 		"name": "Keeper of the Ancestral Scrolls",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Tian",
+		"category": "Human-Tian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Tian",
@@ -3022,7 +3022,7 @@
 	"master_of_the_sudden_strike": {
 		"name": "Master of the Sudden Strike",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Tian",
+		"category": "Human-Tian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Tian",
@@ -3034,7 +3034,7 @@
 	"nearly_blinded": {
 		"name": "Nearly Blinded",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Tian",
+		"category": "Human-Tian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Tian",
@@ -3046,7 +3046,7 @@
 	"animalistic_affliction": {
 		"name": "Animalistic Affliction",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Ulfen",
+		"category": "Human-Ulfen",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Ulfen",
@@ -3058,7 +3058,7 @@
 	"glint_tongued": {
 		"name": "Glint-Tongued",
 		"compilationSources": [ [ "People of the North" ] ],
-		"category": "Human; Ulfen",
+		"category": "Human-Ulfen",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Ulfen",
@@ -3070,7 +3070,7 @@
 	"gruff_watcher": {
 		"name": "Gruff Watcher",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Ulfen",
+		"category": "Human-Ulfen",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Ulfen",
@@ -3082,7 +3082,7 @@
 	"honor_driven": {
 		"name": "Honor-Driven",
 		"compilationSources": [ [ "People of the North" ] ],
-		"category": "Human; Ulfen",
+		"category": "Human-Ulfen",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Ulfen",
@@ -3094,7 +3094,7 @@
 	"shield_bearer": {
 		"name": "Shield Bearer",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Ulfen",
+		"category": "Human-Ulfen",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Ulfen",
@@ -3106,7 +3106,7 @@
 	"weapon_training": {
 		"name": "Weapon Training",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Ulfen",
+		"category": "Human-Ulfen",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Ulfen",
@@ -3118,7 +3118,7 @@
 	"harrow_born": {
 		"name": "Harrow Born",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Varisian",
+		"category": "Human-Varisian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Varisian",
@@ -3130,7 +3130,7 @@
 	"harrow_chosen": {
 		"name": "Harrow Chosen",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
-		"category": "Human; Varisian",
+		"category": "Human-Varisian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Varisian",
@@ -3142,7 +3142,7 @@
 	"practiced_gambler": {
 		"name": "Practiced Gambler",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Varisian",
+		"category": "Human-Varisian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Varisian",
@@ -3154,7 +3154,7 @@
 	"stargazer_human": {
 		"name": "Stargazer (Human)",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Varisian",
+		"category": "Human-Varisian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Varisian",
@@ -3166,7 +3166,7 @@
 	"tattooed_focus": {
 		"name": "Tattooed Focus",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Varisian",
+		"category": "Human-Varisian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Varisian",
@@ -3178,7 +3178,7 @@
 	"varisian_tattoo": {
 		"name": "Varisian Tattoo",
 		"compilationSources": [ [ "Varisia, Birthplace of Legends" ] ],
-		"category": "Human; Varisian",
+		"category": "Human-Varisian",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Varisian",
@@ -3190,7 +3190,7 @@
 	"varki_landspeaker": {
 		"name": "Varki Landspeaker",
 		"compilationSources": [ [ "People of the North" ] ],
-		"category": "Human; Varki",
+		"category": "Human-Misc-Varki",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Varki",
@@ -3202,7 +3202,7 @@
 	"disciplined_body": {
 		"name": "Disciplined Body",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Vudrani",
+		"category": "Human-Vudrani",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Vudrani",
@@ -3214,7 +3214,7 @@
 	"latent_psion": {
 		"name": "Latent Psion",
 		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
-		"category": "Human; Vudrani",
+		"category": "Human-Vudrani",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Vudrani",
@@ -3226,7 +3226,7 @@
 	"open_palm_of_irori": {
 		"name": "Open Palm of Irori",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Vudrani",
+		"category": "Human-Vudrani",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Vudrani",
@@ -3238,7 +3238,7 @@
 	"sharp_wits": {
 		"name": "Sharp Wits",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Human; Vudrani",
+		"category": "Human-Vudrani",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Vudrani",
@@ -3250,7 +3250,7 @@
 	"voice_of_velvet": {
 		"name": "Voice of Velvet",
 		"compilationSources": [ [ "Humans of Golarion" ] ],
-		"category": "Human; Vudrani",
+		"category": "Human-Vudrani",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Human; Vudrani",
@@ -3262,7 +3262,7 @@
 	"expert_distractor": {
 		"name": "Expert Distractor",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
-		"category": "Ifrit",
+		"category": "Geniekin-Ifrit",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Ifrit",
@@ -3274,7 +3274,7 @@
 	"fiery_glare": {
 		"name": "Fiery Glare",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
-		"category": "Ifrit",
+		"category": "Geniekin-Ifrit",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Ifrit",
@@ -3286,7 +3286,7 @@
 	"hot_headed": {
 		"name": "Hot Headed",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Ifrit",
+		"category": "Geniekin-Ifrit",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Ifrit",
@@ -3298,7 +3298,7 @@
 	"snap_ignition": {
 		"name": "Snap Ignition",
 		"compilationSources": [ [ "People of the Sands" ] ],
-		"category": "Ifrit",
+		"category": "Geniekin-Ifrit",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Ifrit",
@@ -3310,7 +3310,7 @@
 	"unflappable_arrogance": {
 		"name": "Unflappable Arrogance",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
-		"category": "Ifrit",
+		"category": "Geniekin-Ifrit",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Ifrit",
@@ -3466,7 +3466,7 @@
 	"bog_scamp": {
 		"name": "Bog Scamp",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Black-scaled",
+		"category": "Kobold-Black-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Black-scaled",
@@ -3478,7 +3478,7 @@
 	"ooze_defense": {
 		"name": "Ooze Defense",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Black-scaled",
+		"category": "Kobold-Black-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Black-scaled",
@@ -3490,7 +3490,7 @@
 	"sneaky_swimmer": {
 		"name": "Sneaky Swimmer",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Black-scaled",
+		"category": "Kobold-Black-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Black-scaled",
@@ -3502,7 +3502,7 @@
 	"draconic_echo": {
 		"name": "Draconic Echo",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Blue-scaled",
+		"category": "Kobold-Blue-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Blue-scaled",
@@ -3514,7 +3514,7 @@
 	"elaborate_trapper": {
 		"name": "Elaborate Trapper",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Blue-scaled",
+		"category": "Kobold-Blue-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Blue-scaled",
@@ -3526,7 +3526,7 @@
 	"lightning_blessed": {
 		"name": "Lightning Blessed",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Blue-scaled",
+		"category": "Kobold-Blue-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Blue-scaled",
@@ -3538,7 +3538,7 @@
 	"liquid_tongued": {
 		"name": "Liquid-Tongued",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Blue-scaled",
+		"category": "Kobold-Blue-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Blue-scaled",
@@ -3550,7 +3550,7 @@
 	"alchemical_breath": {
 		"name": "Alchemical Breath",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Green-scaled",
+		"category": "Kobold-Green-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Green-scaled",
@@ -3562,7 +3562,7 @@
 	"kobold_herbalist": {
 		"name": "Kobold Herbalist",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Green-scaled",
+		"category": "Kobold-Green-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Green-scaled",
@@ -3574,7 +3574,7 @@
 	"slithering_stride": {
 		"name": "Slithering Stride",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Green-scaled",
+		"category": "Kobold-Green-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Green-scaled",
@@ -3586,7 +3586,7 @@
 	"fire_tongued": {
 		"name": "Fire-Tongued",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Red-scaled",
+		"category": "Kobold-Red-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Red-scaled",
@@ -3598,7 +3598,7 @@
 	"firebug_kobold": {
 		"name": "Firebug (Kobold)",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Red-scaled",
+		"category": "Kobold-Red-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Red-scaled",
@@ -3610,7 +3610,7 @@
 	"heat_fortitude": {
 		"name": "Heat Fortitude",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Red-scaled",
+		"category": "Kobold-Red-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Red-scaled",
@@ -3622,7 +3622,7 @@
 	"smoke_resistant": {
 		"name": "Smoke Resistant",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; Red-scaled",
+		"category": "Kobold-Red-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Red-scaled",
@@ -3634,7 +3634,7 @@
 	"cold_fortitude": {
 		"name": "Cold Fortitude",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; White-scaled",
+		"category": "Kobold-White-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; White-scaled",
@@ -3646,7 +3646,7 @@
 	"frost_spitter": {
 		"name": "Frost Spitter",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; White-scaled",
+		"category": "Kobold-White-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; White-scaled",
@@ -3658,7 +3658,7 @@
 	"icy_mementos": {
 		"name": "Icy Mementos",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; White-scaled",
+		"category": "Kobold-White-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; White-scaled",
@@ -3670,7 +3670,7 @@
 	"skaters_balance": {
 		"name": "Skater's Balance",
 		"compilationSources": [ [ "Kobolds of Golarion" ] ],
-		"category": "Kobold; White-scaled",
+		"category": "Kobold-White-scaled",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; White-scaled",
@@ -3718,7 +3718,7 @@
 	"guarded": {
 		"name": "Guarded",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Merfolk",
+		"category": "Other Races-Merfolk",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Merfolk",
@@ -3730,7 +3730,7 @@
 	"longlung": {
 		"name": "Longlung",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Monkey goblin",
+		"category": "Other Races-Monkey goblin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Monkey goblin",
@@ -3742,7 +3742,7 @@
 	"nagaji_nationalist": {
 		"name": "Nagaji Nationalist",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Nagaji",
+		"category": "Other Races-Nagaji",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Nagaji",
@@ -3778,7 +3778,7 @@
 	"earthsense": {
 		"name": "Earthsense",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
-		"category": "Oread",
+		"category": "Geniekin-Oread",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Oread",
@@ -3790,7 +3790,7 @@
 	"loner_of_the_rocks": {
 		"name": "Loner of the Rocks",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Oread",
+		"category": "Geniekin-Oread",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Oread",
@@ -3802,7 +3802,7 @@
 	"sandy_ambush": {
 		"name": "Sandy Ambush",
 		"compilationSources": [ [ "People of the Sands" ] ],
-		"category": "Oread",
+		"category": "Geniekin-Oread",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Oread",
@@ -3814,7 +3814,7 @@
 	"statuesque": {
 		"name": "Statuesque",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
-		"category": "Oread",
+		"category": "Geniekin-Oread",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Oread",
@@ -3826,7 +3826,7 @@
 	"stoic_dignity": {
 		"name": "Stoic Dignity",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
-		"category": "Oread",
+		"category": "Geniekin-Oread",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Oread",
@@ -3886,7 +3886,7 @@
 	"walls_of_half_truths": {
 		"name": "Walls of Half-Truths",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Samsaran",
+		"category": "Other Races-Samsaran",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Samsaran",
@@ -3946,7 +3946,7 @@
 	"fight_with_the_flock": {
 		"name": "Fight with the Flock",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Werebat-kin",
+		"category": "Skinwalker-Werebat-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Werebat-kin",
@@ -3958,7 +3958,7 @@
 	"precision_hearing": {
 		"name": "Precision Hearing",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Werebat-kin",
+		"category": "Skinwalker-Werebat-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Werebat-kin",
@@ -3970,7 +3970,7 @@
 	"durable_change": {
 		"name": "Durable Change",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Werebear-kin",
+		"category": "Skinwalker-Werebear-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Werebear-kin",
@@ -3982,7 +3982,7 @@
 	"reviving_rest": {
 		"name": "Reviving Rest",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Werebear-kin",
+		"category": "Skinwalker-Werebear-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Werebear-kin",
@@ -3994,7 +3994,7 @@
 	"boar_resilience": {
 		"name": "Boar Resilience",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Wereboar-kin",
+		"category": "Skinwalker-Wereboar-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Wereboar-kin",
@@ -4006,7 +4006,7 @@
 	"strength_of_body": {
 		"name": "Strength of Body",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Wereboar-kin",
+		"category": "Skinwalker-Wereboar-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Wereboar-kin",
@@ -4018,7 +4018,7 @@
 	"crocodile_swim": {
 		"name": "Crocodile Swim",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Werecrocodile-kin",
+		"category": "Skinwalker-Werecrocodile-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Werecrocodile-kin",
@@ -4030,7 +4030,7 @@
 	"terrifying_lunge": {
 		"name": "Terrifying Lunge",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Werecrocodile-kin",
+		"category": "Skinwalker-Werecrocodile-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Werecrocodile-kin",
@@ -4042,7 +4042,7 @@
 	"inured_to_disease": {
 		"name": "Inured to Disease",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Wererat-kin",
+		"category": "Skinwalker-Wererat-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Wererat-kin",
@@ -4054,7 +4054,7 @@
 	"rat_squeeze": {
 		"name": "Rat Squeeze",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Wererat-kin",
+		"category": "Skinwalker-Wererat-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Wererat-kin",
@@ -4066,7 +4066,7 @@
 	"sharkchild": {
 		"name": "Sharkchild",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Wereshark-kin",
+		"category": "Skinwalker-Wereshark-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Wereshark-kin",
@@ -4078,7 +4078,7 @@
 	"shoreline_skirmisher": {
 		"name": "Shoreline Skirmisher",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Wereshark-kin",
+		"category": "Skinwalker-Wereshark-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Wereshark-kin",
@@ -4090,7 +4090,7 @@
 	"feline_instinct": {
 		"name": "Feline Instinct",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Weretiger-kin",
+		"category": "Skinwalker-Weretiger-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Weretiger-kin",
@@ -4102,7 +4102,7 @@
 	"tigers_claw": {
 		"name": "Tiger's Claw",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Weretiger-kin",
+		"category": "Skinwalker-Weretiger-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Weretiger-kin",
@@ -4114,7 +4114,7 @@
 	"lycanthropic_bloodlust": {
 		"name": "Lycanthropic Bloodlust",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Werewolf-kin",
+		"category": "Skinwalker-Werewolf-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Werewolf-kin",
@@ -4126,7 +4126,7 @@
 	"shared_curse": {
 		"name": "Shared Curse",
 		"compilationSources": [ [ "Blood of the Moon" ] ],
-		"category": "Skinwalker; Werewolf-kin",
+		"category": "Skinwalker-Werewolf-kin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Werewolf-kin",
@@ -4138,7 +4138,7 @@
 	"aerial_harrier": {
 		"name": "Aerial Harrier",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Strix",
+		"category": "Other Races-Strix",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Strix",
@@ -4150,7 +4150,7 @@
 	"dowsing": {
 		"name": "Dowsing",
 		"compilationSources": [ [ "People of the Sands" ] ],
-		"category": "Suli",
+		"category": "Geniekin-Suli",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Suli",
@@ -4162,7 +4162,7 @@
 	"dualborn": {
 		"name": "Dualborn",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
-		"category": "Suli",
+		"category": "Geniekin-Suli",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Suli",
@@ -4174,7 +4174,7 @@
 	"elemental_caller": {
 		"name": "Elemental Caller",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Suli",
+		"category": "Geniekin-Suli",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Suli",
@@ -4186,7 +4186,7 @@
 	"instant_friendship": {
 		"name": "Instant Friendship",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
-		"category": "Suli",
+		"category": "Geniekin-Suli",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Suli",
@@ -4198,7 +4198,7 @@
 	"practiced_impression": {
 		"name": "Practiced Impression",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
-		"category": "Suli",
+		"category": "Geniekin-Suli",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Suli",
@@ -4210,7 +4210,7 @@
 	"secret_keeper_svirfneblin": {
 		"name": "Secret-Keeper (Svirfneblin)",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Svirfneblin",
+		"category": "Other Races-Svirfneblin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Svirfneblin",
@@ -4222,7 +4222,7 @@
 	"aerial_observer": {
 		"name": "Aerial Observer",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
-		"category": "Sylph",
+		"category": "Geniekin-Sylph",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Sylph",
@@ -4234,7 +4234,7 @@
 	"carrying_voice": {
 		"name": "Carrying Voice",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Sylph",
+		"category": "Geniekin-Sylph",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Sylph",
@@ -4246,7 +4246,7 @@
 	"following_breeze": {
 		"name": "Following Breeze",
 		"compilationSources": [ [ "People of the Sands" ] ],
-		"category": "Sylph",
+		"category": "Geniekin-Sylph",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Sylph",
@@ -4258,7 +4258,7 @@
 	"thunderborn": {
 		"name": "Thunderborn",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
-		"category": "Sylph",
+		"category": "Geniekin-Sylph",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Sylph",
@@ -4270,7 +4270,7 @@
 	"wind_carried_voices": {
 		"name": "Wind-Carried Voices",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
-		"category": "Sylph",
+		"category": "Geniekin-Sylph",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Sylph",
@@ -4282,7 +4282,7 @@
 	"winged_aloofness": {
 		"name": "Winged Aloofness",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Syrinx",
+		"category": "Other Races-Syrinx",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Syrinx",
@@ -4294,7 +4294,7 @@
 	"seafaring_slayer": {
 		"name": "Seafaring Slayer",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Tengu",
+		"category": "Other Races-Tengu",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tengu",
@@ -4582,7 +4582,7 @@
 	"bent_body": {
 		"name": "Bent Body",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Beastbrood",
+		"category": "Tiefling-Beastbrood",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Beastbrood",
@@ -4594,7 +4594,7 @@
 	"tough_skin": {
 		"name": "Tough Skin",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Beastbrood",
+		"category": "Tiefling-Beastbrood",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Beastbrood",
@@ -4606,7 +4606,7 @@
 	"arms_master": {
 		"name": "Arms Master",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Faultspawn",
+		"category": "Tiefling-Faultspawn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Faultspawn",
@@ -4618,7 +4618,7 @@
 	"prayer_breaker": {
 		"name": "Prayer Breaker",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Faultspawn",
+		"category": "Tiefling-Faultspawn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Faultspawn",
@@ -4630,7 +4630,7 @@
 	"god_scorn": {
 		"name": "God Scorn",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Foulspawn",
+		"category": "Tiefling-Foulspawn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Foulspawn",
@@ -4642,7 +4642,7 @@
 	"repulsive": {
 		"name": "Repulsive",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Foulspawn",
+		"category": "Tiefling-Foulspawn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Foulspawn",
@@ -4654,7 +4654,7 @@
 	"deaths_deputy": {
 		"name": "Death's Deputy",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Grimspawn",
+		"category": "Tiefling-Grimspawn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Grimspawn",
@@ -4666,7 +4666,7 @@
 	"soul_eater": {
 		"name": "Soul Eater",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Grimspawn",
+		"category": "Tiefling-Grimspawn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Grimspawn",
@@ -4678,7 +4678,7 @@
 	"blood_stalker": {
 		"name": "Blood Stalker",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Hellspawn",
+		"category": "Tiefling-Hellspawn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Hellspawn",
@@ -4690,7 +4690,7 @@
 	"unearth_secrets": {
 		"name": "Unearth Secrets",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Hellspawn",
+		"category": "Tiefling-Hellspawn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Hellspawn",
@@ -4702,7 +4702,7 @@
 	"big_boned": {
 		"name": "Big Boned",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Hungerseed",
+		"category": "Tiefling-Hungerseed",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Hungerseed",
@@ -4714,7 +4714,7 @@
 	"superior_clutch": {
 		"name": "Superior Clutch",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Hungerseed",
+		"category": "Tiefling-Hungerseed",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Hungerseed",
@@ -4726,7 +4726,7 @@
 	"deadly_rush": {
 		"name": "Deadly Rush",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Pitborn",
+		"category": "Tiefling-Pitborn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Pitborn",
@@ -4738,7 +4738,7 @@
 	"flair_for_destruction": {
 		"name": "Flair for Destruction",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Pitborn",
+		"category": "Tiefling-Pitborn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Pitborn",
@@ -4750,7 +4750,7 @@
 	"chain_master": {
 		"name": "Chain Master",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Shackleborn",
+		"category": "Tiefling-Shackleborn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Shackleborn",
@@ -4762,7 +4762,7 @@
 	"pain_artist": {
 		"name": "Pain Artist",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Shackleborn",
+		"category": "Tiefling-Shackleborn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Shackleborn",
@@ -4774,7 +4774,7 @@
 	"buried_anxiety": {
 		"name": "Buried Anxiety",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Spitespawn",
+		"category": "Tiefling-Spitespawn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Spitespawn",
@@ -4786,7 +4786,7 @@
 	"shift_the_blame": {
 		"name": "Shift the Blame",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; Spitespawn",
+		"category": "Tiefling-Spitespawn",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Spitespawn",
@@ -4798,7 +4798,7 @@
 	"repel_sin": {
 		"name": "Repel Sin",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; The Motherless",
+		"category": "Tiefling-The Motherless",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; The Motherless",
@@ -4810,7 +4810,7 @@
 	"vile_kiss": {
 		"name": "Vile Kiss",
 		"compilationSources": [ [ "Blood of Fiends" ] ],
-		"category": "Tiefling; The Motherless",
+		"category": "Tiefling-The Motherless",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; The Motherless",
@@ -4858,7 +4858,7 @@
 	"magic_survivor": {
 		"name": "Magic Survivor",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Trox",
+		"category": "Other Races-Trox",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Trox",
@@ -4870,7 +4870,7 @@
 	"marids_fury": {
 		"name": "Marid's Fury",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
-		"category": "Undine",
+		"category": "Geniekin-Undine",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Undine",
@@ -4882,7 +4882,7 @@
 	"slippery_step": {
 		"name": "Slippery Step",
 		"compilationSources": [ [ "People of the Sands" ] ],
-		"category": "Undine",
+		"category": "Geniekin-Undine",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Undine",
@@ -4894,7 +4894,7 @@
 	"undine_loyalty": {
 		"name": "Undine Loyalty",
 		"compilationSources": [ [ "Bastards of Golarion" ] ],
-		"category": "Undine",
+		"category": "Geniekin-Undine",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Undine",
@@ -4906,7 +4906,7 @@
 	"water_shaping": {
 		"name": "Water Shaping",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Undine",
+		"category": "Geniekin-Undine",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Undine",
@@ -4918,7 +4918,7 @@
 	"whiteout": {
 		"name": "Whiteout",
 		"compilationSources": [ [ "Blood of the Elements" ] ],
-		"category": "Undine",
+		"category": "Geniekin-Undine",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Undine",
@@ -4930,7 +4930,7 @@
 	"calculated_risk": {
 		"name": "Calculated Risk",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Vampire; Jiang-shi",
+		"category": "Vampire-Jiang-shi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Vampire; Jiang-shi",
@@ -4942,7 +4942,7 @@
 	"in_tune_with_language": {
 		"name": "In Tune with Language",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Vampire; Jiang-shi",
+		"category": "Vampire-Jiang-shi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Vampire; Jiang-shi",
@@ -4954,7 +4954,7 @@
 	"proud_progenitor": {
 		"name": "Proud Progenitor",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Vampire; Moroi",
+		"category": "Vampire-Moroi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Vampire; Moroi",
@@ -4966,7 +4966,7 @@
 	"weatherworn": {
 		"name": "Weatherworn",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Vampire; Moroi",
+		"category": "Vampire-Moroi",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Vampire; Moroi",
@@ -4978,7 +4978,7 @@
 	"rapid_drain": {
 		"name": "Rapid Drain",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Vampire; Nosferatu",
+		"category": "Vampire-Nosferatu",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Vampire; Nosferatu",
@@ -4990,7 +4990,7 @@
 	"telekinetic_dependence": {
 		"name": "Telekinetic Dependence",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Vampire; Nosferatu",
+		"category": "Vampire-Nosferatu",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Vampire; Nosferatu",
@@ -5002,7 +5002,7 @@
 	"self_aware": {
 		"name": "Self-Aware",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Vampire; Vetala",
+		"category": "Vampire-Vetala",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Vampire; Vetala",
@@ -5014,7 +5014,7 @@
 	"stubborn": {
 		"name": "Stubborn",
 		"compilationSources": [ [ "Blood of the Night" ] ],
-		"category": "Vampire; Vetala",
+		"category": "Vampire-Vetala",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Vampire; Vetala",
@@ -5026,7 +5026,7 @@
 	"trickster_vanara": {
 		"name": "Trickster (Vanara)",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Vanara",
+		"category": "Other Races-Vanara",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Vanara",
@@ -5038,7 +5038,7 @@
 	"augmented_spell_poisons": {
 		"name": "Augmented Spell Poisons",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Vishkanya",
+		"category": "Other Races-Vishkanya",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Vishkanya",
@@ -5050,7 +5050,7 @@
 	"water_lurker": {
 		"name": "Water Lurker",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Wayang",
+		"category": "Other Races-Wayang",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Wayang",
@@ -5062,7 +5062,7 @@
 	"resilient_construction": {
 		"name": "Resilient Construction",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Wyrwood",
+		"category": "Other Races-Wyrwood",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Wyrwood",
@@ -5074,7 +5074,7 @@
 	"fierce_flanker": {
 		"name": "Fierce Flanker",
 		"compilationSources": [ [ "Inner Sea Races" ] ],
-		"category": "Wyvaran",
+		"category": "Other Races-Wyvaran",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Wyvaran",
@@ -5086,7 +5086,7 @@
 	"blood_of_dragons": {
 		"name": "Blood of Dragons",
 		"compilationSources": [ [ "Ultimate Campaign" ] ],
-		"category": "Any",
+		"category": "Generic Race",
 		"description": [
 			"**Type:** Race",
 			"",
@@ -5097,7 +5097,7 @@
 	"draconic_lineage": {
 		"name": "Draconic Lineage",
 		"compilationSources": [ [ "Legacy of Dragons" ] ],
-		"category": "Any",
+		"category": "Generic Race",
 		"description": [
 			"**Type:** Race",
 			"",
