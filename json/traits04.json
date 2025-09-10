@@ -2848,7 +2848,8 @@
 		"category": "NCAvistan-Belkzen",
 		"description": [
 			"**Type:** Regional  ",
-			"**Region:** Belkzen",
+			"**Region:** Belkzen  ",
+			"**Requirements:** Orc, undead bloodrager bloodline",
 			"",
 			"You are among the fabled lichblood orcs, and so you command respect among the orcs of Belkzen. You gain a +2 trait bonus on Diplomacy and Intimidate checks made against orcs of Belkzen. You must have the undead bloodrager bloodline to select this trait."
 		],
