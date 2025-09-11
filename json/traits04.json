@@ -3640,7 +3640,7 @@
 			"**Type:** Regional  ",
 			"**Region:** M'neri Plains",
 			"",
-			"You live and work on the M-neri Plains. You gain a +1 trait bonus on all Knowledge (geography) and Survival checks regarding the M-neri Plains."
+			"You live and work on the M'neri Plains. You gain a +1 trait bonus on all Knowledge (geography) and Survival checks regarding the M'neri Plains."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -4053,24 +4053,13 @@
 		"name": "Savanna Child",
 		"compilationSources": [
 			[ "Ultimate Campaign" ],
-			[ "Advanced Player's Guide" ]
+			[ "Advanced Player's Guide" ],
+			[ "Legacy of Fire Player's Guide" ]
 		],
-		"category": "Generic-plains",
+		"category": "NEGarund-Katapesh, Generic-plains",
 		"description": [
 			"**Type:** Regional  ",
-			"**Region:** plains",
-			"",
-			"You were born and raised on the rolling plains or savannas. You spent much of your youth exploring these vast reaches and know many of the region's secrets. Pick one of the following skills: Handle Animal, Knowledge (nature), or Ride. You gain a +1 trait bonus on checks with that skill, and it is always a class skill for you."
-		],
-		"topLink": [ "Regional Traits", "main/traits_regional" ]
-	},
-	"savannah_child": {
-		"name": "Savannah Child",
-		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
-		"category": "NEGarund-Katapesh",
-		"description": [
-			"**Type:** Regional  ",
-			"**Region:** Katapesh",
+			"**Region:** Katapesh, plains",
 			"",
 			"You were born and raised in central Katapesh, among the rolling savannahs that dominate the nation's interior. You spent many of your youth exploring these vast reaches, and know much of the savannah's secrets. Pick one of the following skills: Handle Animal, Knowledge (nature), or Ride. You gain a +1 trait bonus on that skill, and it is always a class skill for you."
 		],
@@ -5130,7 +5119,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Katapesh",
 			"",
-			"You were born and raised in western Katapesh, in the rugged badlands and hills of the Uwaga Highlands. Even if you were born in a city like Solku, you often had to travel the dangerous trails with your family. Predators, gnolls, and worse haunt the Uwaga Highlands, and you've become something of an expert at evading them. You gain a +1 trait bonus on Hide and Move Silently checks. This trait bonus increases to +2 in hilly or rocky areas."
+			"You were born and raised in western Katapesh, in the rugged badlands and hills of the Uwaga Highlands. Even if you were born in a city like Solku, you often had to travel the dangerous trails with your family. Predators, gnolls, and worse haunt the Uwaga Highlands, and you've become something of an expert at evading them. You gain a +1 trait bonus on Stealth checks. This trait bonus increases to +2 in hilly or rocky areas."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
