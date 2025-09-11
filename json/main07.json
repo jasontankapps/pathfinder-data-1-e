@@ -1882,7 +1882,7 @@
 					[ "{spell/Path of Glory}", 2, "conjuration", "Create an expanding glow that heals allies within it of 1 hp of damage.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Path of Glory, Greater}", 4, "conjuration", "Create an expanding glow that heals allies within it of 5 hp of damage.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Path of the Winds}", 6, "evocation", "Call forth mighty winds to clear a path for you.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
-					[ "{spell/Pattern Recognition}", 1, "transmutation", "Gain an insight bonus on Search checks and Survival checks to follow tracks.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
+					[ "{spell/Pattern Recognition}", 1, "transmutation", "Gain an insight bonus on Perception checks and Survival checks to follow tracks.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Peace Bond}", 1, "abjuration", "Create a glowing rune of peace to protect targets from your own magic.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Peacebond}", 1, "abjuration", "Locks a weapon in place on the target's body.", [ 1, "" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Peacebond, Greater}", [ 4.711, "4, 5" ], "abjuration", "As peacebond, but on multiple weapons, even if they aren't sheathed.", [ 1, "" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

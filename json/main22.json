@@ -1547,7 +1547,7 @@
 					[ "{spell/Particulate Form}", [ 6.751, "5, 7" ], null, null, "Targets gain fast healing 1, immunity to bleed, crtitical hits, and precision damage" ],
 					[ "{spell/Pass without Trace}", 1, null, null, "One subject/level leaves no tracks." ],
 					[ "{spell/Passwall}", 5, null, null, "Creates passage through wood or stone wall." ],
-					[ "{spell/Pattern Recognition}", 1, null, null, "Gain an insight bonus on Search checks and Survival checks to follow tracks." ],
+					[ "{spell/Pattern Recognition}", 1, null, null, "Gain an insight bonus on Perception checks and Survival checks to follow tracks." ],
 					[ "{spell/Peasant Armaments}", 1, null, null, "Transform improvised weapons into actual weapons." ],
 					[ "{spell/Perceive Cues}", 2, null, null, "+5 Perception and Sense Motive 10 min./level." ],
 					[ "{spell/Persistent Vigor}", 4, null, null, "Gain fast healing 2, immunity to bleed, and faster recovery from diseases and poisons." ],

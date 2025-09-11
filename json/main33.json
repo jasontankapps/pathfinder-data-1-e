@@ -1551,7 +1551,7 @@
 					[ "{spell/Mirror Strike}", 1, "transmutation", null, null, "You may strike multiple opponents with a single attack.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Monkey Fish}", 1, "transmutation", null, null, "Gain a climb speed and a swim speed of 10 ft. for a time.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Negative Reaction}", 1, "illusion", "glamer", null, "Targeted creature may not positively influence anyone.", [ 1, "" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
-					[ "{spell/Pattern Recognition}", 1, "transmutation", null, null, "Gain an insight bonus on Search checks and Survival checks to follow tracks.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
+					[ "{spell/Pattern Recognition}", 1, "transmutation", null, null, "Gain an insight bonus on Perception checks and Survival checks to follow tracks.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Peasant Armaments}", 1, "transmutation", null, null, "Transform improvised weapons into actual weapons.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ] ],
 					[ "{spell/Poisoned Egg}", 1, "transmutation", null, "poison", "Transform a single egg into a dose of poison.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ] ],
 					[ "{spell/Polypurpose Panacea}", 1, "transmutation", null, null, "Gain a relaxing or entertaining effect.", [ 1, "" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

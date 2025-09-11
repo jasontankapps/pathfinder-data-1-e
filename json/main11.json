@@ -339,7 +339,7 @@
 					[ "{spell/Obscure Poison}", "abjuration", null, null, "Make it harder to detect a poison or venomous creature.", [ 1, "" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Obscuring Mist}", "conjuration", "creation", null, "Fog surrounds you.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Open and Shut}", "illusion", "glamer", null, "Obfuscate whether a door is open or closed.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ], [ 1, "" ] ],
-					[ "{spell/Pattern Recognition}", "transmutation", null, null, "Gain an insight bonus on Search checks and Survival checks to follow tracks.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
+					[ "{spell/Pattern Recognition}", "transmutation", null, null, "Gain an insight bonus on Perception checks and Survival checks to follow tracks.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Peace Bond}", "abjuration", null, null, "Create a glowing rune of peace to protect targets from your own magic.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 0, "M/DF" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Peacebond}", "abjuration", null, null, "Locks a weapon in place on the target's body.", [ 1, "" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Peasant Armaments}", "transmutation", null, null, "Transform improvised weapons into actual weapons.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
