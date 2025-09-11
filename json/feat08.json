@@ -1878,9 +1878,11 @@
 			"{SOURCE Osirion, Land of the Pharaohs/29}",
 			"",
 			"You are acutely attentive to the subtleties of traps and how they are hidden.  ",
-			"**Prerequisites:** Search 6 ranks, {ability/trap sense} +1.  ",
-			"**Benefit:** When you pass within 5 feet of a trap, you are entitled to an automatic Search check to notice the trap. This check is made at a -10 penalty, or -5 if you are moving at half speed and taking no actions other than moving.  ",
-			"**Normal:** You must take an action to actively search."
+			"**Prerequisites:** Perception 6 ranks,[^P] {ability/trap sense} +1.  ",
+			"**Benefit:** When you pass within 5 feet of a trap, you are entitled to an automatic Perception check to notice the trap. This check is made at a -10 penalty, or -5 if you are moving at half speed and taking no actions other than moving.  ",
+			"**Normal:** You must take an action to actively search.",
+			"",
+			"[^P]: This source was printed for 3.5; Pathfinder Society play reduced the skill rank prerequisites by 3. consult your GM if you wish to use the lower prerequisites."
 		]
 	},
 	"hellcat_pounce": {
