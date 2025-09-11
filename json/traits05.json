@@ -1003,7 +1003,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Elf",
 			"",
-			"You have been actively searching for signs of the Brightness since childhood. Choose a Knowledge skill; you gain a +1 trait bonus on Knowledge checks of that type and on Search checks."
+			"You have been actively searching for signs of the Brightness since childhood. Choose a Knowledge skill; you gain a +1 trait bonus on Knowledge checks of that type and on Perception checks."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1475,25 +1475,19 @@
 	},
 	"goblin_bravery": {
 		"name": "Goblin Bravery",
-		"compilationSources": [ [ "We Be Goblins!" ] ],
-		"category": "Goblin",
-		"description": [
-			"**Type:** Race  ",
-			"**Requirements:** Goblin",
-			"",
-			"You have a worrying propensity for overconfidence in combat. When facing an enemy that's larger than you, if you have no allies in any adjacent squares, your posturing, bravado, and cussing grant a +1 trait bonus on attack rolls with non-reach melee weapons."
+		"tags": "Goblin Foolhardiness",
+		"compilationSources": [
+			[ "We Be Goblins!" ],
+			[ "Goblins of Golarion" ]
 		],
-		"topLink": [ "Race Traits", "main/traits_race" ]
-	},
-	"goblin_foolhardiness": {
-		"name": "Goblin Foolhardiness",
-		"compilationSources": [ [ "Goblins of Golarion" ] ],
 		"category": "Goblin",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Goblin",
 			"",
-			"You have a tendency toward gross overconfidence in combat. When facing an enemy that's larger than you are, if you have no allies in any adjacent squares, your posturing, bravado, and cussing grant you a +1 trait bonus on attack rolls with non-reach melee weapons."
+			"You have a worrying propensity for overconfidence in combat. When facing an enemy that's larger than you, if you have no allies in any adjacent squares, your posturing, bravado, and cussing grant a +1 trait bonus on attack rolls with non-reach melee weapons.",
+			"",
+			">*This trait was printed as \"Goblin Foolhardiness\" in* Goblins of Golarion."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1520,7 +1514,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Goblin",
 			"",
-			"Providing an opponent can hear and understand you, the lyrics of your songs are so personally insulting that you gain a +2 trait bonus on all Perform (song) checks. Perform is always a class skill for you."
+			"Providing an opponent can hear and understand you, the lyrics of your songs are so personally insulting that you gain a +2 trait bonus on all Perform (sing) checks. Perform is always a class skill for you."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1560,30 +1554,21 @@
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
-	"ekujae_reflexes": {
-		"name": "Ekujae Reflexes",
-		"compilationSources": [ [ "Legacy of Fire Player's Guide" ] ],
-		"category": "Half-elf",
-		"description": [
-			"**Type:** Race  ",
-			"**Requirements:** Half-elf",
-			"",
-			"One of your parents was a member of the Ekujae tribe of the Mwangi Expanse, and you've inherited a portion of your elven parent's quick reflexes. You gain a +2 trait bonus on Initiative checks."
-		],
-		"topLink": [ "Race Traits", "main/traits_race" ]
-	},
 	"elven_reflexes": {
 		"name": "Elven Reflexes",
 		"compilationSources": [
 			[ "Ultimate Campaign" ],
-			[ "Advanced Player's Guide" ]
+			[ "Advanced Player's Guide" ],
+			[ "Legacy of Fire Player's Guide" ]
 		],
 		"category": "Half-elf",
 		"description": [
 			"**Type:** Race  ",
 			"**Requirements:** Half-elf",
 			"",
-			"One of your parents was a member of a wild elven tribe, and you've inherited a portion of your elven parent's quick reflexes. You gain a +2 trait bonus on initiative checks."
+			"One of your parents was a member of a wild elven tribe, and you've inherited a portion of your elven parent's quick reflexes. You gain a +2 trait bonus on initiative checks.",
+			"",
+			">*This was printed in* Legacy of Fire Player's Guide *as \"Ekujae Reflexes\" and specifies that \"one of your parents was a member of the Ekujae tribe of the Mwangi Expanse.\""
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
