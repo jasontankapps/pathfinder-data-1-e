@@ -986,7 +986,7 @@
 			"",
 			"**Tea Ceremony (Su):** By spending 10 minutes preparing an elaborate tea ceremony, a geisha may affect her allies with inspire courage, inspire competence, inspire greatness, or inspire heroics. The ceremony's effects last 10 minutes. The geisha must spend 4 rounds of bardic performance for each creature to be affected.",
 			"",
-			"**Geisha Knowledge:** A geisha adds half her class level (minimum 1) on Craft (calligraphy) checks, Diplomacy checks, Knowledge (nobility) checks, and one type of Perform check (act, dance, oratory, percussion, string instruments, or sing); she may make checks with these skills untrained. This replaces bardic knowledge.",
+			"**Geisha Knowledge:** A geisha adds half her class level (minimum 1) on Craft (calligraphy) checks, Diplomacy checks, Knowledge (nobility) checks, and one type of Perform check (act, dance, oratory, percussion, string, or sing); she may make checks with these skills untrained. This replaces bardic knowledge.",
 			"",
 			"**Scribe Scroll:** A geisha gains {feat/Scribe Scroll} as a bonus feat."
 		]
@@ -1142,7 +1142,7 @@
 			"",
 			"This ability modifies bardic performance.",
 			"",
-			"**Bardic Performance:** The luring piper gains the following types of bardic performances that can only be made when using Perform (wind instruments) and a when employing a wind instrument.",
+			"**Bardic Performance:** The luring piper gains the following types of bardic performances that can only be made when using Perform (wind) and a when employing a wind instrument.",
 			"",
 			">*Charming Melody (Su)* While using the fascinate bardic performance, the luring piper can play a song that compels animals and fey to follow him wherever he goes. Instead of sitting peacefully and merely observing the luring piper, creatures with the animal or fey type instead quietly and calmly walk toward the luring piper, stopping once they are adjacent to the luring piper and following him if he moves.",
 			">",
@@ -1156,7 +1156,7 @@
 			">",
 			">This performance replaces soothing performance.",
 			"",
-			"**Piper's Attention (Ex):** Starting at 2nd level, whenever a luring piper is actively using Perform (wind instruments) as part of a bardic performance, he gains a +4 bonus on saving throws against language-dependent, mind-affecting, and sonic effects. If this effect is caused by a fey creature, the luring piper can also roll the saving throw twice and take the better result.",
+			"**Piper's Attention (Ex):** Starting at 2nd level, whenever a luring piper is actively using Perform (wind) as part of a bardic performance, he gains a +4 bonus on saving throws against language-dependent, mind-affecting, and sonic effects. If this effect is caused by a fey creature, the luring piper can also roll the saving throw twice and take the better result.",
 			"",
 			"This ability replaces well-versed."
 		]
@@ -1739,7 +1739,7 @@
 			"",
 			"This ability alters spellcasting.",
 			"",
-			"**Stone Song (Su):** A stonesinger's bardic performance is a subsonic vibration that resonates from his body and travels through solid rock. This vibration is subtle enough to not be heard, though creatures with the {umr/tremorsense} universal monster ability can distinctly hear the stone song out to a range of 100 feet per bard level. All allies within 30 feet of the stonesinger benefit from stone song, perceiving the effect due to proximity. An allied creature with tremorsense benefits from stone song as long as it's within the extended range, provided that there is an unobstructed path of solid earth between the creature and stonesinger. Natural and manufactured stone does not inhibit stone song's range. A stonesinger must use Perform (song) or Perform (oratory) for this bardic performance.",
+			"**Stone Song (Su):** A stonesinger's bardic performance is a subsonic vibration that resonates from his body and travels through solid rock. This vibration is subtle enough to not be heard, though creatures with the {umr/tremorsense} universal monster ability can distinctly hear the stone song out to a range of 100 feet per bard level. All allies within 30 feet of the stonesinger benefit from stone song, perceiving the effect due to proximity. An allied creature with tremorsense benefits from stone song as long as it's within the extended range, provided that there is an unobstructed path of solid earth between the creature and stonesinger. Natural and manufactured stone does not inhibit stone song's range. A stonesinger must use Perform (sing) or Perform (oratory) for this bardic performance.",
 			"",
 			"This ability modifies bardic performance.",
 			"",

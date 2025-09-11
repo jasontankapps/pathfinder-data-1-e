@@ -2208,7 +2208,7 @@
 			"**Price** 5 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
-			"This whistle produces sound at a pitch that can only be heard by aberrations, animals, dragons, fey, and magical beasts. The sound can be detected easily (Perception DC 0) from a quarter-mile away. If the user makes a successful DC 15 Perform (wind instruments) check, all creatures within 30 feet that can hear the whistle must succeed at a DC 10 Fortitude save or be {misc/dazzled} for 1 round (the -1 penalty applies to hearing-based, rather than sight-based, Perception checks)."
+			"This whistle produces sound at a pitch that can only be heard by aberrations, animals, dragons, fey, and magical beasts. The sound can be detected easily (Perception DC 0) from a quarter-mile away. If the user makes a successful DC 15 Perform (wind) check, all creatures within 30 feet that can hear the whistle must succeed at a DC 10 Fortitude save or be {misc/dazzled} for 1 round (the -1 penalty applies to hearing-based, rather than sight-based, Perception checks)."
 		]
 	},
 	"beast_scent": {
@@ -4558,7 +4558,7 @@
 			"**Price** 5 gp; **Weight** 1/2 lb.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"In addition to being an instrument suitable for Perform (wind instruments) checks, this elaborately crafted whippoorwill-shaped clay ocarina also doubles the effective range of the secret whistled Nightsong language to a distance of 1,000 feet."
+			"In addition to being an instrument suitable for Perform (wind) checks, this elaborately crafted whippoorwill-shaped clay ocarina also doubles the effective range of the secret whistled Nightsong language to a distance of 1,000 feet."
 		]
 	},
 	"clay": {

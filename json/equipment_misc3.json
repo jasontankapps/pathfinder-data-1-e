@@ -728,7 +728,7 @@
 			"**Price** 2,000 gp; **Weight** 100 lbs.  ",
 			"**Category** Black Market",
 			"",
-			"This large mobile keyboard instrument resembles a strange chair with several brass tubes jutting from its back and small wheels on the feet for ease of transportation. A pump organ can seat a single Medium creature, which can operate the keyboard and pedals to create haunting melodies out of the brass pipework along the organ's back frame. All pump organs function as {eq-misc/masterwork musical instrument/s} for Perform (keyboard instruments) checks. With 10 minutes of work and a successful DC 15 Perform (keyboard instruments) check, a user can manipulate the pump organ's controls to create a 1-minute long performance that does not require an operator - the pump organ can be set to activate after a preset duration via a timer (up to 24 hours) or to begin when a remote trigger is activated. The trigger can be connected to the pump organ via a set of pulleys and twine normally stored in a compartment under the organ's seat cushion with a successful DC 15 Disable Device check. The remote trigger can be placed up to 60 feet from the pump organ."
+			"This large mobile keyboard instrument resembles a strange chair with several brass tubes jutting from its back and small wheels on the feet for ease of transportation. A pump organ can seat a single Medium creature, which can operate the keyboard and pedals to create haunting melodies out of the brass pipework along the organ's back frame. All pump organs function as {eq-misc/masterwork musical instrument/s} for Perform (keyboard) checks. With 10 minutes of work and a successful DC 15 Perform (keyboard) check, a user can manipulate the pump organ's controls to create a 1-minute long performance that does not require an operator - the pump organ can be set to activate after a preset duration via a timer (up to 24 hours) or to begin when a remote trigger is activated. The trigger can be connected to the pump organ via a set of pulleys and twine normally stored in a compartment under the organ's seat cushion with a successful DC 15 Disable Device check. The remote trigger can be placed up to 60 feet from the pump organ."
 		]
 	},
 	"pump_water_canister": {
@@ -1363,7 +1363,7 @@
 			"**Price** 15 gp; **Weight** 1 lb.  ",
 			"**Category** Tools",
 			"",
-			"This thin length of rope has many oddly shaped bits of hollow metal fixed along its length. As a standard action, a creature can swing a roar cord over its head to generate a variety of eerie noises. For the next round, any creature within 60 feet of the roar cord takes a -2 penalty on Perception checks that rely on sound and a -1 penalty on saving throws against fear effects. The roar cord can be used as a bardic instrument (string instrument) that grants the bard a +2 bonus on Perform checks when using the {performance/countersong} bardic performance."
+			"This thin length of rope has many oddly shaped bits of hollow metal fixed along its length. As a standard action, a creature can swing a roar cord over its head to generate a variety of eerie noises. For the next round, any creature within 60 feet of the roar cord takes a -2 penalty on Perception checks that rely on sound and a -1 penalty on saving throws against fear effects. The roar cord can be used as a bardic instrument (string) that grants the bard a +2 bonus on Perform checks when using the {performance/countersong} bardic performance."
 		]
 	},
 	"rockshard_canister": {
@@ -2379,7 +2379,7 @@
 			"**Price** 1 gp; **Weight** 2 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"Sounding a horn requires a DC 10 Perform (wind instruments) check and can convey concepts such as \"Attack!\", \"Help!\", \"Advance!\", \"Retreat!\", \"Fire!\", and \"Alarm!\" The report of a signal horn can be clearly heard (Perception DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn take a -1 penalty."
+			"Sounding a horn requires a DC 10 Perform (wind) check and can convey concepts such as \"Attack!\", \"Help!\", \"Advance!\", \"Retreat!\", \"Fire!\", and \"Alarm!\" The report of a signal horn can be clearly heard (Perception DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn take a -1 penalty."
 		]
 	},
 	"signal_kite_kit": {
