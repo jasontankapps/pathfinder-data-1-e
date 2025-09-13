@@ -1020,5 +1020,196 @@
 			":::"
 		],
 		"searchgroup": "trait"
+	},
+	"traits_religion_empyreal_lords": {
+		"title": "Religion Traits: Empyreal Lords",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bEmpyreal Lords\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				},
+				{
+					"limit": { "regex": "\\bEmpyreal Lords-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_dwarven": {
+		"title": "Religion Traits: Dwarven Deities",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bDwarven Deities\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				},
+				{
+					"limit": { "regex": "\\bDwarven Deities-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_elven": {
+		"title": "Religion Traits: Elven Deities",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bElven Deities\\b(?!-)" },
+					"sort": [ "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				},
+				{
+					"limit": { "regex": "\\bElven Deities-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_azlanti": {
+		"title": "Religion Traits: Azlanti Gods",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bAzlanti-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_pantheons": {
+		"title": "Religion Traits: Other Groupings",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bPantheons-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_halfling": {
+		"title": "Religion Traits: Halfling Deities",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bHalfling Deities-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_religion_goblin": {
+		"title": "Religion Traits: Goblin Deities",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Religion Traits]{to=main/traits_religion rev}",
+					""
+				],
+				{
+					"limit": { "regex": "\\bGoblin Deities-[^,]+" },
+					"sort": [ "match", "name" ],
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
 	}
 }
