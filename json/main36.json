@@ -328,52 +328,6 @@
 			]
 		}
 	},
-	"traits_planet": {
-		"title": "Regional Traits: Planets",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bPlanet-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
-	"traits_other": {
-		"title": "Regional Traits: Other",
-		"searchgroup": "trait",
-		"compileFrom": {
-			"source": "trait",
-			"targets": [
-				[
-					"::main[Back to Regional Traits]{to=main/traits_regional rev}",
-					""
-				],
-				{
-					"limit": { "regex": "\\bOther-[^,]+" },
-					"sort": [ "match", "name" ],
-					"join": [ "", "", "" ],
-					"modifyDescription": {
-						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
-						"replacement": "$1!-SOURCE-!  !-N-!$2"
-					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
-				}
-			]
-		}
-	},
 	"traits_lung_wa": {
 		"title": "Regional Traits: Former Lung Wa Empire",
 		"searchgroup": "trait",
