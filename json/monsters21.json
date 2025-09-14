@@ -4172,7 +4172,7 @@
 			"",
 			"{SOURCE Bestiary 4/238}  ",
 			"**XP** 25,600  ",
-			"CE Large {type/outsider} (augmented aberration)  ",
+			"CE Large {type/outsider} ({subtype/augmented} {type/aberration})  ",
 			"**Init** +5; **Senses** darkvision 60 ft., low-light vision; Perception +24",
 			"",
 			"::sh[Defense]",

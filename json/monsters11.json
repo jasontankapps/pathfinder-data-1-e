@@ -3185,7 +3185,7 @@
 			"",
 			"{SOURCE Bestiary 6/287}  ",
 			"**XP** 800  ",
-			"CE Medium {type/undead} (augmented vermin)  ",
+			"CE Medium {type/undead} ({subtype/augmented} {type/vermin})  ",
 			"**Init** +4; **Senses** darkvision 60 ft., {umr/scent}; Perception +12",
 			"",
 			"::sh[Defense]",

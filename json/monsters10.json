@@ -5020,7 +5020,7 @@
 			"",
 			"{SOURCE Lands of the Linnorm Kings/58}  ",
 			"**XP** 800  ",
-			"CN Medium {type/fey} (augmented animal)  ",
+			"CN Medium {type/fey} ({subtype/augmented} {type/animal})  ",
 			"**Init** +4; **Senses** darkvision 60 ft., low-light vision, {umr/scent}; Perception +8",
 			"",
 			"::sh[Defense]",

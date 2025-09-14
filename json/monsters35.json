@@ -2845,7 +2845,7 @@
 			"{SOURCE Inner Sea Monster Codex/43}  ",
 			"**XP** 4,800  ",
 			"Minotaur graveknight fighter 1  ",
-			"CE Large {type/undead} (augmented monstrous humanoid)  ",
+			"CE Large {type/undead} ({subtype/augmented} {type/monstrous humanoid})  ",
 			"**Init** +5; **Senses** darkvision 60 ft.; Perception +20  ",
 			"**Aura** sacrilegious aura (30 ft., DC 16)",
 			"",

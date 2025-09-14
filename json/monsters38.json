@@ -2583,7 +2583,7 @@
 			"{SOURCE Bestiary 6/250;The Worldwound/58}  ",
 			"**XP** 51,200  ",
 			"Female old human siabrae druid 14  ",
-			"NE Medium {type/undead} (augmented humanoid, earth)  ",
+			"NE Medium {type/undead} ({subtype/augmented} {type/humanoid}, earth)  ",
 			"**Init** +3; **Senses** darkvision 60 ft., {umr/tremorsense} 60 ft.; Perception +32",
 			"",
 			"::sh[Defense]",

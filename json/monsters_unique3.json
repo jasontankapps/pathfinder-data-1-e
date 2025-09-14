@@ -2826,7 +2826,7 @@
 			"{SOURCE Mythic Realms/62}  ",
 			"**XP** 2,457,600  ",
 			"Human mythic lich necromancer 20  ",
-			"NE Medium {type/undead} (augmented humanoid, human, mythic)  ",
+			"NE Medium {type/undead} ({subtype/augmented} {type/humanoid}, human, mythic)  ",
 			"**Init** +18; **Senses** darkvision 60 ft., {umr/see in darkness}, spell perception; Perception +33  ",
 			"**Aura** absolute terror (60-ft. radius, DC 39)",
 			"",

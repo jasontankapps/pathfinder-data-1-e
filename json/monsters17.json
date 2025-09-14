@@ -2697,7 +2697,7 @@
 			"{SOURCE Bestiary 5/176;Pathfinder #84: Pyramid of the Sky Pharaoh/84}  ",
 			"**XP** 9,600  ",
 			"Male human mummy lord cleric 9  ",
-			"LE Medium {type/undead} (augmented human)  ",
+			"LE Medium {type/undead} ({subtype/augmented} {type/humanoid})  ",
 			"**Init** +2; **Senses** darkvision 60 ft.; Perception +5  ",
 			"**Aura** great despair (30 ft., DC 19)",
 			"",

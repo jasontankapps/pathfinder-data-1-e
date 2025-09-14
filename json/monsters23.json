@@ -3563,7 +3563,7 @@
 			"{SOURCE Pathfinder #71: Rasputin Must Die!/91}  ",
 			"**XP** 2,400  ",
 			"Human fighter (trench fighter) 6  ",
-			"LE Medium {type/undead} (augmented humanoid, human)  ",
+			"LE Medium {type/undead} ({subtype/augmented} {type/humanoid}, human)  ",
 			"**Init** +8; **Senses** darkvision 60 ft.; Perception +7",
 			"",
 			"::sh[Defense]",
