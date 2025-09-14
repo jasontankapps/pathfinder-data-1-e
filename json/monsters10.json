@@ -4485,7 +4485,7 @@
 			"**Base Atk** +12; **CMB** +18; **CMD** 37  ",
 			"**Feats** {feat/Blind-Fight}, {feat/Dodge}, {feat/Flyby Attack}, {feat/Improved Initiative}, {feat/Lunge}, {feat/Skill Focus} (Stealth)  ",
 			"**Skills** Bluff +19, Fly +26, Intimidate +19, Knowledge (planes) +16, Perception +18, Sense Motive +18, Stealth +22  ",
-			"**Languages** Common (can't speak); telepathy 100 ft.  ",
+			"**Languages** Common (can't speak); {umr/telepathy} 100 ft.  ",
 			"**SQ** never far behind, prideful defense",
 			"",
 			"::sh[Ecology]",

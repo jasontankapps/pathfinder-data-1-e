@@ -2432,7 +2432,7 @@
 			"**Base Atk** +17; **CMB** +36 (+40 grapple); **CMD** 50 (can't be tripped)  ",
 			"**Feats** {feat/Cleave}, {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Deadly Finish}, {feat/Greater Disarm}, {feat/Improved Disarm}, {feat/Improved Initiative}, {feat/Power Attack}, {feat/Stand Still}  ",
 			"**Skills** Bluff +13, Knowledge (geography) +10, Knowledge (planes) +11, Perception +20, Sense Motive +13, Stealth -8, Swim +23  ",
-			"**Languages** Abyssal, Aquan, Common; telepathy 100 ft.",
+			"**Languages** Abyssal, Aquan, Common; {umr/telepathy} 100 ft.",
 			"",
 			"::sh[Special Abilities]",
 			"",
