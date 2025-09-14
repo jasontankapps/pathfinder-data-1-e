@@ -3184,7 +3184,7 @@
 			"**XP** 3,200  ",
 			"CE Medium undead (incorporeal)  ",
 			"**Init** +10; **Senses** darkvision 60 ft.; Perception +14  ",
-			"**Aura** unnatural aura (30 ft.)",
+			"**Aura** {umr/unnatural aura} (30 ft.)",
 			"",
 			"::sh[Defense]",
 			"",

@@ -3557,7 +3557,7 @@
 			"**XP** 800  ",
 			"NE Small undead  ",
 			"**Init** +1; **Senses** darkvision 60 ft.; Perception +8  ",
-			"**Aura** unnatural aura (30 ft.)",
+			"**Aura** {umr/unnatural aura} (30 ft.)",
 			"",
 			"::sh[Defense]",
 			"",

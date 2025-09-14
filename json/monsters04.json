@@ -2316,7 +2316,7 @@
 			"**XP** 6,400  ",
 			"CE Large undead (incorporeal)  ",
 			"**Init** +11; **Senses** darkvision 60 ft.; Perception +22  ",
-			"**Aura** unnatural aura (30 ft.)",
+			"**Aura** {umr/unnatural aura} (30 ft.)",
 			"",
 			"::sh[Defense]",
 			"",

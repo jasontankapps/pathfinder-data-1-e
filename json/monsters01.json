@@ -131,7 +131,7 @@
 			"**XP** 3,200  ",
 			"NE Medium aberration  ",
 			"**Init** +9; **Senses** {umr/all-around vision}, darkvision 120 ft., low-light vision, see invisibility; Perception +28  ",
-			"**Aura** unnatural aura (30 ft.)",
+			"**Aura** {umr/unnatural aura} (30 ft.)",
 			"",
 			"::sh[Defense]",
 			"",

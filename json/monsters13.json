@@ -1740,7 +1740,7 @@
 			"**XP** 1,200  ",
 			"NE Small aberration (aquatic)  ",
 			"**Init** +1; **Senses** darkvision 60 ft.; Perception +10  ",
-			"**Aura** unnatural aura (30 ft., DC 14)",
+			"**Aura** {umr/unnatural aura} (30 ft., DC 14)",
 			"",
 			"::sh[Defense]",
 			"",

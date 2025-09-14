@@ -3653,7 +3653,7 @@
 			"**XP** 19,200  ",
 			"CE Medium aberration  ",
 			"**Init** +8; **Senses** darkvision 60 ft., see invisibility; Perception +21  ",
-			"**Aura** profane reek (DC 21), unnatural aura (30 ft.)",
+			"**Aura** profane reek (DC 21), {umr/unnatural aura} (30 ft.)",
 			"",
 			"::sh[Defense]",
 			"",

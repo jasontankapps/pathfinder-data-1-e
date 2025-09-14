@@ -174,7 +174,7 @@
 			"**XP** 1,200  ",
 			"LE Medium undead  ",
 			"**Init** +5; **Senses** darkvision 60 ft.; Perception +12  ",
-			"**Aura** drowning (30 ft., DC 15), unnatural aura (30 ft.)",
+			"**Aura** drowning (30 ft., DC 15), {umr/unnatural aura} (30 ft.)",
 			"",
 			"::sh[Defense]",
 			"",

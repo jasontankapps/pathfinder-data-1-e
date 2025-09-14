@@ -1715,7 +1715,7 @@
 			"**XP** 800  ",
 			"NE Large undead  ",
 			"**Init** +6; **Senses** darkvision 60 ft., {umr/scent}; Perception +10  ",
-			"**Aura** unnatural aura",
+			"**Aura** {umr/unnatural aura}",
 			"",
 			"::sh[Defense]",
 			"",

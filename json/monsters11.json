@@ -74,7 +74,7 @@
 			"**XP** 2,400  ",
 			"CE Small undead (incorporeal)  ",
 			"**Init** +8; **Senses** darkvision 60 ft., lifesense; Perception +9  ",
-			"**Aura** unnatural aura (30 ft.)",
+			"**Aura** {umr/unnatural aura} (30 ft.)",
 			"",
 			"::sh[Defense]",
 			"",
