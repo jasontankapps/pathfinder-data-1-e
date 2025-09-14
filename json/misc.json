@@ -10,7 +10,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/565}  ",
-			"The creature cannot see. It takes a -2 penalty to Armor Class, loses its Dexterity bonus to AC (if any), and takes a -4 penalty on most Strength- and Dexterity-based skill checks and on opposed Perception skill checks. All checks and activities that rely on vision (such as reading and Perception checks based on sight) automatically fail. All opponents are considered to have total concealment (50% miss chance) against the blinded character. Blind creatures must make a DC 10 Acrobatics skill check to move faster than half speed. Creatures that fail this check fall prone. Characters who remain blinded for a long time grow accustomed to these drawbacks and can overcome some of them. Also see: {rule/Darkness}."
+			"The creature cannot see. It takes a -2 penalty to Armor Class, loses its Dexterity bonus to AC (if any), and takes a -4 penalty on most Strength- and Dexterity-based skill checks and on opposed Perception skill checks. All checks and activities that rely on vision (such as reading and Perception checks based on sight) automatically fail. All opponents are considered to have total {rule/concealment} (50% miss chance) against the blinded character. Blind creatures must make a DC 10 Acrobatics skill check to move faster than half speed. Creatures that fail this check fall prone. Characters who remain blinded for a long time grow accustomed to these drawbacks and can overcome some of them. Also see: {rule/Darkness}."
 		],
 		"searchgroup": "rule",
 		"type": "Rule",
@@ -95,7 +95,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/567}  ",
-			"A helpless character is {rule/paralyzed}, held, bound, sleeping, {misc/unconscious}, or otherwise completely at an opponent's mercy. A helpless target is treated as having a Dexterity of 0 (-5 modifier). Melee attacks against a helpless target get a +4 bonus (equivalent to attacking a {rule/prone} target). Ranged attacks get no special bonus against helpless targets. Rogues can sneak attack helpless targets.",
+			"A helpless character is {rule/paralyzed}, held, bound, sleeping, {misc/unconscious}, or otherwise completely at an opponent's mercy. A helpless target is treated as having a Dexterity of 0 (-5 modifier). Melee attacks against a helpless target get a +4 bonus (equivalent to attacking a {rule/prone} target). Ranged attacks get no special bonus against helpless targets. Rogues can {ability/sneak attack} helpless targets.",
 			"",
 			"As a full-round action, an enemy can use a melee weapon to deliver a *coup de grace* to a helpless foe. An enemy can also use a bow or crossbow, provided he is adjacent to the target. The attacker automatically hits and scores a critical hit. (A rogue also gets his sneak attack damage bonus against a helpless foe when delivering a coup de grace.) If the defender survives, he must make a Fortitude save (DC 10 + damage dealt) or die. Delivering a coup de grace provokes attacks of opportunity.",
 			"",
@@ -170,7 +170,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/566}  ",
-			"A dying creature is {misc/unconscious} and near death. Creatures that have negative hit points and have not stabilized are dying. A dying creature can take no actions. On the character's next turn, after being reduced to negative hit points (but not dead), and on all subsequent turns, the character must make a DC 10 Constitution check to become {misc/stable}. The character takes a penalty on this roll equal to his negative hit point total. A character that is stable does not need to make this check. A natural 20 on this check is an automatic success. If the character fails this check, he loses 1 hit point. If a dying creature has an amount of negative hit points equal to its Constitution score, it dies."
+			"A dying creature is {misc/unconscious} and near death. Creatures that have negative hit points and have not {misc/stabilize/d} are dying. A dying creature can take no actions. On the character's next turn, after being reduced to negative hit points (but not dead), and on all subsequent turns, the character must make a DC 10 Constitution check to become {misc/stable}. The character takes a penalty on this roll equal to his negative hit point total. A character that is stable does not need to make this check. A natural 20 on this check is an automatic success. If the character fails this check, he loses 1 hit point. If a dying creature has an amount of negative hit points equal to its Constitution score, it dies."
 		],
 		"searchgroup": "rule",
 		"type": "Rule",
@@ -244,7 +244,7 @@
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/568}  ",
-			"A panicked creature must drop anything it holds and flee at top speed from the source of its fear, as well as any other dangers it encounters, along a random path. It can't take any other actions. In addition, the creature takes a -2 penalty on all saving throws, skill checks, and ability checks. If cornered, a panicked creature {misc/cower/s>ing} and does not attack, typically using the total defense action in combat. A panicked creature can use special abilities, including spells, to flee; indeed, the creature must use such means if they are the only way to escape.",
+			"A panicked creature must drop anything it holds and flee at top speed from the source of its fear, as well as any other dangers it encounters, along a random path. It can't take any other actions. In addition, the creature takes a -2 penalty on all saving throws, skill checks, and ability checks. If cornered, a panicked creature {misc/cower/s} and does not attack, typically using the {misc/total defense} action in combat. A panicked creature can use special abilities, including spells, to flee; indeed, the creature must use such means if they are the only way to escape.",
 			"",
 			"Panicked is a more extreme state of fear than {misc/shaken} or {misc/frightened}."
 		],
@@ -413,7 +413,7 @@
 			"{SOURCE PRPG Core Rulebook/214}  ",
 			"Most spells that affect an area function as a burst, an emanation, or a spread. In each case, you select the spell's point of origin (this is always a grid intersection) and measure its effect from that point.",
 			"",
-			"A @HL[burst] spell affects whatever it catches in its area, including creatures that you can't see. It can't affect creatures with total cover from its point of origin (in other words, its effects don't extend around corners). The default shape for a burst effect is a sphere, but some burst spells are specifically described as cone-shaped. A burst's area defines how far from the point of origin the spell's effect extends.",
+			"A @HL[burst] spell affects whatever it catches in its area, including creatures that you can't see. It can't affect creatures with total {rule/cover} from its point of origin (in other words, its effects don't extend around corners). The default shape for a burst effect is a sphere, but some burst spells are specifically described as cone-shaped. A burst's area defines how far from the point of origin the spell's effect extends.",
 			"",
 			"An @HL[emanation] spell functions like a burst spell, except that the effect continues to radiate from the point of origin for the duration of the spell. Most emanations are cones or spheres.",
 			"",
@@ -583,7 +583,7 @@
 			"",
 			"Some weapons have special features in addition to those noted in their descriptions.",
 			"",
-			"@HL[Monk:] A monk weapon can be used by a monk to perform a flurry of blows."
+			"@HL[Monk:] A monk weapon can be used by a {class/monk} to perform a flurry of blows."
 		],
 		"searchgroup": "rule",
 		"type": "Rule",
@@ -801,7 +801,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/185}",
 			"",
-			"The @HL[total defense] action lets you defend yourself as a {rule/standard action>s}. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with fighting defensively or with the benefit of the {feat/Combat Expertise} feat. You can't make attacks of opportunity while using total defense."
+			"The @HL[total defense] action lets you defend yourself as a {rule/standard action>s}. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with {misc/fighting defensively} or with the benefit of the {feat/Combat Expertise} feat. You can't make attacks of opportunity while using total defense."
 		],
 		"searchgroup": "rule",
 		"type": "Rule",
@@ -859,7 +859,9 @@
 			"## Spell Completion",
 			"",
 			"{SOURCE PRPG Core Rulebook/458}  ",
-			"This is the activation method for {rule/scrolls}. A scroll is a spell that is mostly finished. The preparation is done for the caster, so no preparation time is needed beforehand as with normal spellcasting. All that's left to do is perform the finishing parts of the spellcasting (the final gestures, words, and so on). To use a spell completion item safely, a character must be of high enough level in the right class to cast the spell already. If he can't already cast the spell, there's a chance he'll make a mistake. Activating a spell completion item is a standard action (or the spell's casting time, whichever is longer) and provokes attacks of opportunity exactly as casting a spell does."
+			"This is the activation method for {rule/scrolls}. A scroll is a spell that is mostly finished. The preparation is done for the caster, so no preparation time is needed beforehand as with normal spellcasting. All that's left to do is perform the finishing parts of the spellcasting (the final gestures, words, and so on). To use a spell completion item safely, a character must be of high enough level in the right class to cast the spell already. If he can't already cast the spell, there's a chance he'll make a mistake.[^M] Activating a spell completion item is a standard action (or the spell's casting time, whichever is longer) and provokes attacks of opportunity exactly as casting a spell does.",
+			"",
+			"[^M]: This is explained in the scrolls section."
 		],
 		"searchgroup": "rule",
 		"type": "Rule",
