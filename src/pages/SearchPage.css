@@ -5,7 +5,7 @@ div.search div.searchResult {
 	border-width: 0 0 0.0625rem;
 	border-style: solid;
 	background: var(--ion-item-background);
-	height: 4.375rem;;
+	height: 4.375rem;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;

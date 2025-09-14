@@ -990,7 +990,7 @@ if(!$.skipFeatTree) {
 			+ featTreeData.map(ftd => `<section>${parseFeatTree([ftd])}</section>`).join("")
 			+ "</>;",
 		"export default jsx;"
-	].join("\n").trim();;
+	].join("\n").trim();
 
 	const testfile = get(`./src/pages/subpages/__feat_tree_page.tsx`).trim();
 

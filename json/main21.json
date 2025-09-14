@@ -72,7 +72,7 @@
 					[ "{spell/Conditional Favor}", [ 1.821, "1, 2" ], null, "Provide another spell whose effects reverse if the target breaks a restriction." ],
 					[ "{spell/Conjuration Foil}", [ 3.771, "3, 4" ], null, "Interfere with nearby teleportation effects." ],
 					[ "{spell/Corruption Resistance}", 2, "chaotic, evil, good, lawful", "Protects creature against damage from alignment-based attacks." ],
-					[ "{spell/Counterbalancing Aura}", 8, null, "Target gains +4 to AC and saves;; resist attacks and spells from neutral creatures" ],
+					[ "{spell/Counterbalancing Aura}", 8, null, "Target gains +4 to AC and saves; resist attacks and spells from neutral creatures" ],
 					[ "{spell/Covetous Aura}", 5, null, "Sap the powers of beneficial spells cast near to you." ],
 					[ "{spell/Crimson Confession}", 2, null, "Touching the marked object or area turns one's skin red." ],
 					[ "{spell/Curse of Magic Negation}", [ 4.181, "3, 4, 5" ], "curse", "Target gains the negated spellblight." ],

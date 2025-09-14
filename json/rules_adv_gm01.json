@@ -613,7 +613,7 @@
 			"### Small Centipede Poison",
 			"",
 			"**Type** poison, injury; **Save** Fortitude DC 11  ",
-			"**Track** Dexterity; **Frequency** 1/round for 4 rounds;  ",
+			"**Track** Dexterity; **Frequency** 1/round for 4 rounds  ",
 			"**Track** Requires two failed saves to progress to each state past sluggish  ",
 			"**Cure** 1 save",
 			"**Original Poison** {eq-poison/Small Centipede Poison}",

@@ -41,7 +41,7 @@ const scroller = (id:string, options: ScrollOptions = {}) => {
 	}
 	el.scrollIntoView({
 		behavior: "smooth",
-		block: "start",
+		block: "center",
 		inline: "nearest"
 	});
 };

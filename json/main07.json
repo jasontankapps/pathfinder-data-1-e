@@ -602,7 +602,7 @@
 					[ "{spell/Corrosive Touch}", 1, "conjuration", "Touch attack deals 1d4 acid/level.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Corruption Resistance}", 2, "abjuration", "Protects creature against damage from alignment-based attacks.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 0, "DF" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Cosmic Ray}", [ 5.751, "5, 6" ], "evocation", "Attack a creature with cosmic energy.", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
-					[ "{spell/Counterbalancing Aura}", 8, "abjuration", "Target gains +4 to AC and saves;; resist attacks and spells from neutral creatures", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ], [ 1, "" ] ],
+					[ "{spell/Counterbalancing Aura}", 8, "abjuration", "Target gains +4 to AC and saves; resist attacks and spells from neutral creatures", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 0, "F" ], [ 1, "" ] ],
 					[ "{spell/Countless Eyes}", 3, "transmutation", "Extra eyes give all-around vision.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Covetous Aura}", 5, "abjuration", "Sap the powers of beneficial spells cast near to you.", [ 0, "V" ], [ 0, "S" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],
 					[ "{spell/Covetous Urge}", 2, "enchantment", "Target is compelled to steal valuable objects", [ 0, "V" ], [ 0, "S" ], [ 0, "M" ], [ 1, "" ], [ 1, "" ], [ 1, "" ], [ 1, "" ] ],

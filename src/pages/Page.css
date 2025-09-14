@@ -81,7 +81,7 @@ span.innerlink {
 	cursor: pointer;
 }
 h1, h2, h3, h4, h5, h6, div.headerLike {
-	border-block-start-width: 0.3125rem;;
+	border-block-start-width: 0.3125rem;
 	border-block-end-width: 0.125rem;
 	border-inline-start-width: 0;
 	border-inline-end-width: 0;
@@ -485,7 +485,7 @@ div.listLike ion-item.itemLike::part(native) {
 	border-block-end-width: 0.1875rem;
 	border-block-end-color: var(--ion-color-step-50);
 	border-block-end-style: solid;
-	height: 3.125rem;;
+	height: 3.125rem;
 	box-sizing: border-box;
 	background: var(--ion-color-step-100);
 }
