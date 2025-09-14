@@ -910,8 +910,8 @@
 					},
 					{
 						"col": 4,
-						"equals": [2, 4, 5, 8],
-						"labels": ["LE", "N", "NE", "CE"]
+						"equals": [2, 4, 5],
+						"labels": ["LE", "N", "NE"]
 					}
 				],
 				"columns": [
@@ -1064,7 +1064,6 @@
 					[ "{monster/Water Strider, Giant Water Strider}", 1, null, [ 5, "large" ], [ 4, "N" ], "This bug has long, fuzzy legs that support it on the water's surface as if the creature stands on solid ground." ],
 					[ "{monster/Water Strider, Nymph Water Strider}", [ -4, "1/4" ], null, [ 3, "small" ], [ 4, "N" ], "These small, immature water insects are easily supported by the water's surface tension." ],
 					[ "{monster/Whaler Jellyfish}", 17, "aquatic", [ 8, "colossal" ], [ 4, "N" ], "This enormous, translucent blob trails a mass of six immense tentacles and a central forest of tendrils below its body." ],
-					[ "{monster/Worm That Walks, Locust Variant}", 8, "augmented human", [ 4, "medium" ], [ 8, "CE" ], "Hordes of swarming locusts coalesce to make up the form of a humanoid woman carrying a scythe, a demonic symbol emblazoned on her chest." ],
 					[ "{monster/Xenopterid}", 7, null, [ 4, "medium" ], [ 4, "N" ], "What appears to be this creature's cloak unfurls into bug wings, and its apparently human face is merely patterns on its head." ],
 					[ "{monster/Zhen Worm}", [ -2, "1/2" ], null, [ 4, "medium" ], [ 4, "N" ], "Barely thicker than hempen rope, this orange-banded worm stretches many feet in length." ]
 				],

@@ -1740,7 +1740,10 @@
 	},
 	"worm_that_walks": {
 		"name": "Worm that Walks",
-		"sources": [ "Bestiary 2" ],
+		"sources": [
+			"Bestiary 2",
+			"Pathfinder #75: Demon's Heresy"
+		],
 		"description": [
 			"::th[Worm that Walks]{cr=+2 sc=\"Bestiary 2/286\" acquired}",
 			"",
@@ -1796,7 +1799,20 @@
 			"",
 			"@HL[Skills:] Worms that walk gain a +8 racial bonus on {skill/Perception}, {skill/Sense Motive}, and {skill/Stealth} checks.",
 			"",
-			"@HL[Feats:] Worms that walk gain {feat/Diehard} as a bonus feat."
+			"@HL[Feats:] Worms that walk gain {feat/Diehard} as a bonus feat.",
+			"",
+			"::h3[Variant Worms That Walk]{jl}",
+			"",
+			"{SOURCE Pathfinder #75: Demon's Heresy/74}  ",
+			"Because of the odd and usually accidental circumstances through which worms that walk are born, the process of such birth is far from standardized. Thus, the worms themselves can take more shapes than simply the most common one. For purposes of clarity, all of the variants presented below are referred to as worms that walk, even if their main components are not actually worms. These variants are created using the same statistics presented above, and usually the only changes are cosmetic in nature (though see the *locust* variant, below).",
+			"",
+			"@HL[Army Ants:]{jl=strip} Common in Garund's deserts and lush, tropical jungles, army ants swarm over the land like a living carpet, devouring everything they come across. A worm that walks composed of army ants likewise consumes everything in its path - including the body of the spellcaster it once was. Disturbingly, these worms that walk spend little of their time in humanoid-shaped form, preferring to crawl as a biting swarm of legs and pincers. This form of worms that walk is mostly likely to be encountered in underground-dwelling; these horrific creatures are said to include one who calls the dangerous sands of Thuvia home.",
+			"",
+			"@HL[Cockroaches:]{jl=strip} Cockroaches can be found in great numbers anywhere civilization stains the landscape with its refuse. Worms that walk composed of cockroaches are more likely to be found in urban areas, especially in large cities where they can go unnoticed by most, usually arising when both corpses and magical effluent are deposited in sewers and garbage dumps. A worm that walks composed of cockroaches is a creature of stealth and guile. Frequently keeping to the shadows and sewers of the city, these worms that walk broker information and engage in blackmail, augmenting their unnatural talents with strong illusion and enchantment magic. Some say that a powerful enchantress worm that walks made of cockroaches runs a guild of thieves in Absalom, but no reliable sources can say they've met her.",
+			"",
+			"@HL[Locusts:]{jl=strip} Found in any area that sports - or once sported - verdant plant life, this worm that walks variant has plague-like nuances and can be particularly hard to kill. Made up of ravenous locusts, these worms that walk make meals of any creatures weaker than they, and are particularly attuned to their animalistic instincts. One of these particularly appalling worms that walk is said to threaten the agriculture-rich lands of Geb, and due to the influence of Deskari in the Worldwound, a few of these creatures have been spotted in the ruins of Sarkoris.",
+			"",
+			"@HL[Wasps:]{jl=strip} Typically found in warm, moist regions, these worms that walk are made from hundreds of thousands of buzzing, swarming wasps. Aggressive and cruel, these worms that walk favor poison and other debilitating substances, and commonly focus their arcane knowledge on creating potent toxins. Rumor has it that one of these horrific creatures rules over a tribe of hunters along one of the winding tributaries threading throughout the Mwangi Expanse."
 		]
 	},
 	"young": {
