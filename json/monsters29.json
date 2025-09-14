@@ -1305,7 +1305,7 @@
 			"",
 			"**Sinfrenzy (Su)** Every cambion carries an excessive capacity for one of the seven classical sins, determined at the moment of the cambion's birth and depending on the nature of his humanoid parent's greatest sin. Once per day for a number of rounds equal to his Hit Dice, a cambion can embrace his sin and enter a frenzied state as a free action. While a cambion is in this frenzy, his land speed increases by 10 feet and he gains a +1 bonus on Reflex saves and attack rolls. These bonuses do not stack with those granted by haste or similar effects, but if the cambion has at least 1 level in the class listed for his specific sin, the sinfrenzy grants an additional effect.",
 			"",
-			"- Envy (cleric): Cambion clerics covet the gods' power. When they are in a sinfrenzy, their channel energy effect increases by 1d6.",
+			"- Envy (cleric): Cambion clerics covet the gods' power. When they are in a sinfrenzy, their {ability/channel energy} effect increases by 1d6.",
 			"- Gluttony (alchemist): Cambion alchemists enjoy drinking extracts, potions, mutagens, and even poisons. When they are in a sinfrenzy, their bombs deal an additional die of damage.",
 			"- Greed (rogue): Cambion rogues are obsessed with gathering wealth and power. When they are in a sinfrenzy, cambion rogues deal an additional die of sneak attack damage.",
 			"- Lust (bard): Cambion bards seek to dominate and control others, turning them into slaves. When cambion bards are in a sinfrenzy, the bonuses granted by their inspire courage, inspire competence, inspire greatness, and inspire heroics abilities increase by 1. The save DCs of their bardic performances also increase by 1.",

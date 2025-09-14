@@ -3667,7 +3667,7 @@
 			"**Speed** 30 ft.  ",
 			"**Melee** 2 slams +20 (2d6+8/19-20 plus {umr/trip}) or melee touch +20 (bloodless touch)  ",
 			"**Space** 5 ft., **Reach** 10 ft.  ",
-			"**Special Attacks** channel negative energy 3/day (DC 21, command undead only), manifest Yellow Sign, prophetic utterance  ",
+			"**Special Attacks** {ability/channel negative energy} 3/day (DC 21, command undead only), manifest Yellow Sign, prophetic utterance  ",
 			"**Spell-Like Abilities** (CL 15th; concentration +18)  ",
 			"*Constant*-{spell/see invisibility}, {spell/tongues}  ",
 			"*At will*-{spell/detect good}, {spell/detect law}  ",

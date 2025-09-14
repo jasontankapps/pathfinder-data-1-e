@@ -3203,7 +3203,7 @@
 			"",
 			"**CL** 12th; **Price** 95,000 gp",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 12th and be able to channel energy; **Skill** Craft (clockwork) DC 22; **Cost** 52,500 gp",
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 12th and be able to {ability/channel energy}; **Skill** Craft (clockwork) DC 22; **Cost** 52,500 gp",
 			"",
 			"[^B]: Bonus feat."
 		]

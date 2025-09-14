@@ -2230,7 +2230,7 @@
 			"",
 			"**Speed** fly 60 ft. (average)  ",
 			"**Melee** incorporeal touch +11 touch (1d8 plus curse of sorrowful wasting)  ",
-			"**Special Attacks** channel negative energy (7d6, DC 18, 6/day, as 7th-level cleric), curse of sorrowful wasting (DC 18)",
+			"**Special Attacks** {ability/channel negative energy} (7d6, DC 18, 6/day, as 7th-level cleric), curse of sorrowful wasting (DC 18)",
 			"",
 			"::sh[Statistics]",
 			"",
