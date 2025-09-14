@@ -15,7 +15,6 @@ interface LinkProps extends ScrollOptions {
 const scroller = (id:string, options: ScrollOptions = {}) => {
 	const el = document.getElementById(id);
 	const {mid, noHighlight, showBacklink} = options;
-	let w = el;
 	if(!el) {
 		console.log(`ERROR: unable to find element with id [${id}]`);
 		return;
@@ -40,21 +39,24 @@ const scroller = (id:string, options: ScrollOptions = {}) => {
 		const el = document.getElementById(showBacklink);
 		el && el.classList.add("backToPreviousLink");
 	}
-	while(w && w.tagName.toUpperCase() !== "ION-CONTENT") {
-		w = w.parentElement;
-	}
-	w && (w as HTMLIonContentElement).scrollByPoint(
-		0, // x coordinate
-		(el ? el.getBoundingClientRect().top + window.scrollY - 80 : 0), // y coordinate
-		500 // ms
-	);
+	el.scrollIntoView({
+		behavior: "smooth",
+		block: "start",
+		inline: "nearest"
+	});
 };
 
 const InnerLink: React.FC<PropsWithChildren<LinkProps>> = (props) => {
 	const { to, mid, noHighlight, showBacklink, ...etc } = props;
-	const options: ScrollOptions = { mid, noHighlight, showBacklink };
-	const clickTo = useCallback(() => scroller(to, options), [to, mid, noHighlight]);
-	const enterTo = useCallback((e: KeyboardEvent<HTMLDivElement>) => e.key === "Enter" && scroller(to, options), [to, mid, noHighlight]);
+	const clickTo = useCallback(
+		() => scroller(to, { mid, noHighlight, showBacklink }),
+		[to, mid, noHighlight, showBacklink]
+	);
+	const enterTo = useCallback(
+		(e: KeyboardEvent<HTMLDivElement>) =>
+			e.key === "Enter" && scroller(to, { mid, noHighlight, showBacklink }),
+		[to, mid, noHighlight, showBacklink]
+	);
 	return (
 		<span className="innerlink" tabIndex={0} role="link" onClick={clickTo} onKeyDown={enterTo} {...etc} />
 	);
