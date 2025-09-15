@@ -1089,7 +1089,7 @@
 			"**Feats** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Endurance}, {feat/Great Fortitude}  ",
 			"**Skills** Disable Device +9, Fly +4, Heal +10, Knowledge (arcana) +12, Perception +13, Spellcraft +15, Survival +13, Swim +20, Use Magic Device +10  ",
 			"**Languages** Elder Thing  ",
-			"**SQ** amphibious, hibernation, limited starflight, {umr/no breath}",
+			"**SQ** {umr/amphibious}, hibernation, limited starflight, {umr/no breath}",
 			"",
 			"::sh[Ecology]",
 			"",
