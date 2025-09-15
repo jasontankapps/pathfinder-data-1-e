@@ -160,7 +160,7 @@
 			"**hp** 7 (1d6+4)  ",
 			"**Fort** +1, **Ref** +3, **Will** +3  ",
 			"**DR** 5/cold iron; **Resist** cold 10; **SR** 12  ",
-			"**Weaknesses** vulnerable to fire and sunlight",
+			"**Weaknesses** {umr/vulnerable} to fire and sunlight",
 			"",
 			"::sh[Offense]",
 			"",

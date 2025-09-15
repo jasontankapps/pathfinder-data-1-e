@@ -817,7 +817,7 @@
 			"**hp** 37 (5d8+15)  ",
 			"**Fort** +7, **Ref** +7, **Will** +2  ",
 			"**Immune** {umr/plant traits}; **Resist** acid 5, cold 5, electricity 10  ",
-			"**Weaknesses** vulnerable to supernatural darkness",
+			"**Weaknesses** {umr/vulnerable} to supernatural darkness",
 			"",
 			"::sh[Offense]",
 			"",
