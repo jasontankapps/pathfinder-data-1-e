@@ -947,7 +947,7 @@
 			"**Melee** bite +32 (2d8+13 plus {umr/grab}), 2 claws +32 (2d6+13/19-20), tail slap +27 (2d8+19/&times;3 plus pain)  ",
 			"**Ranged** 4 quills +26 (1d10+13/19-20)  ",
 			"**Space** 20 ft., **Reach** 15 ft. (20 ft. with tail slap)  ",
-			"**Special Attacks** bounding charge, brutal tail, gaze, lash out, pounce, {umr/rake} (4 claws, +32, 2d6+13/19-20), {umr/rend} (2 claws, 2d6+19)",
+			"**Special Attacks** bounding charge, brutal tail, gaze, lash out, {umr/pounce}, {umr/rake} (4 claws, +32, 2d6+13/19-20), {umr/rend} (2 claws, 2d6+19)",
 			"",
 			"::sh[Statistics]",
 			"",

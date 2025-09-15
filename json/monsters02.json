@@ -1787,7 +1787,7 @@
 			"**Speed** fly 30 ft. (good)  ",
 			"**Melee** slam +7 (1d8+2)  ",
 			"**Ranged** light ray +8 ranged touch (1d6)  ",
-			"**Special Attacks** favored enemy (any one +4)  ",
+			"**Special Attacks** {ability/favored enemy} (any one +4)  ",
 			"**Spell-Like Abilities** (CL 5th; concentration +8)  ",
 			"*Constant*-{spell/detect evil}, {spell/detect magic}, {spell/magic circle against evil}  ",
 			"*At will*-{spell/aid}, {spell/continual flame}, {spell/forbid action} (DC 14), {spell/greater teleport} (self plus 50 lbs. of objects only), {spell/mage hand}, {spell/message}  ",
