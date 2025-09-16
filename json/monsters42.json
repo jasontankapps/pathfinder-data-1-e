@@ -1649,7 +1649,7 @@
 			"**Speed** 30 ft., fly 60 ft. (good)  ",
 			"**Melee** lash +22/+17/+12 (1d6+5/&times;2 plus poison)  ",
 			"**Space** 5 ft., **Reach** 5 ft. (10 ft. with lash)  ",
-			"**Special Attacks** lash, sneak attack +3d6  ",
+			"**Special Attacks** lash, {ability/sneak attack} +3d6  ",
 			"**Spell-Like Abilities** (CL 13th; concentration +19)  ",
 			"*Constant*-{spell/tongues}  ",
 			"*At will*-{spell/invisibility}, {spell/major image} (DC 20), {spell/modify memory} (DC 20), {spell/suggestion} (DC 19)  ",

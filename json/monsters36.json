@@ -4173,7 +4173,7 @@
 			"**Speed** 30 ft., burrow 10 ft., climb 20 ft., swim 30 ft.  ",
 			"**Melee** bite +3 (1d3-2 plus bleed 1)  ",
 			"**Space** 2-1/2 ft., **Reach** 0 ft.  ",
-			"**Special Attacks** sneak attack +1d6  ",
+			"**Special Attacks** {ability/sneak attack} +1d6  ",
 			"**Spell-Like Abilities** (CL 6th; concentration +7)  ",
 			"*Constant*-{spell/detect magic}, {spell/read magic}, {spell/speak with animals} (rodents only), {spell/spider climb}, {spell/tongues}  ",
 			"*3/day*-{spell/cause fear} (DC 12), {spell/dimension door}, {spell/invisibility} (self only)  ",
