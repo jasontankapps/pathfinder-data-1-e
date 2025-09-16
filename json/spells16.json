@@ -799,7 +799,7 @@
 		"description": [
 			"## Summon Monster I",
 			"",
-			"{SOURCE PRPG Core Rulebook/350;Monster Summoner's Handbook}  ",
+			"{SOURCE PRPG Core Rulebook/350;Monster Summoner's Handbook/18}  ",
 			"**School** {spelldef/conjuration} ({spelldef/summoning}) [see text]; **Level** antipaladin 1, arcanist 1, bard 1, cleric 1, medium 1, oracle 1, psychic 1, skald 1, sorcerer 1, spiritualist 1, summoner 1, unchained summoner 1, warpriest 1, witch 1, wizard 1  ",
 			"**Casting Time** 1 round  ",
 			"**Components** V, S, F/DF (a tiny bag and a small candle)  ",
@@ -812,7 +812,7 @@
 			"",
 			"A summoned monster cannot summon or otherwise conjure another creature, nor can it use any teleportation or planar travel abilities. Creatures cannot be summoned into an environment that cannot support them. Creatures summoned using this spell cannot use spells or spell-like abilities that duplicate spells with expensive material components (such as wish).",
 			"",
-			"When you use a summoning spell to summon a creature with an alignment or elemental subtype, it is a spell of that type. Creatures on Table 10-1 marked with an asterisk (\\*) are summoned with a template that matches your alignment. If you are neutral, you may choose which template (if any) to apply to the creature. Those creatures always have an alignment that matches yours, regardless of their usual alignment. Summoning these creatures makes the summoning spell's type match your alignment.",
+			"When you use a summoning spell to summon a creature with an alignment or elemental subtype, it is a spell of that type. Creatures on Table 10-1 marked with an asterisk (\\*) are summoned with a template that matches your alignment.[^1] If you are neutral, you may choose which template (if any) to apply to the creature.[^2] Those creatures always have an alignment that matches yours, regardless of their usual alignment. Summoning these creatures makes the summoning spell's type match your alignment.",
 			"",
 			"| Alignment | Template |",
 			"| --- | --- |",
@@ -876,6 +876,7 @@
 			"| 4 | Mephit (any) | Elemental |",
 			"| 4 | Pteranodon (dinosaur)\\* | - |",
 			"| 4 | Rhinoceros\\* | - |",
+			"| 5 | Agrawgh | - |",
 			"| 5 | Ankylosaurus (dinosaur)\\* | - |",
 			"| 5 | Babau (demon) | Chaotic, Evil |",
 			"| 5 | Bearded devil | Evil, Lawful |",
@@ -1023,7 +1024,10 @@
 			"**Duration** 1 round/level (D)  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
-			"This spell functions like summon monster I, except that you can summon one creature from the 9th-level list, 1d3 creatures of the same kind from the 8th-level list, or 1d4+1 creatures of the same kind from a lower-level list."
+			"This spell functions like summon monster I, except that you can summon one creature from the 9th-level list, 1d3 creatures of the same kind from the 8th-level list, or 1d4+1 creatures of the same kind from a lower-level list.",
+			"",
+			"[^1]: By a strict rules-as-written interpretation, regular casters can only apply the celestial or fiendish templates, since this spell was written before the resolute and entropic templates existed. *Bestiary 2* introduced the resolute and entropic templates and said they could apply to summons, but left no specifics. *Monster Summoner's Handbook* added archetypes that could use the resolute and entropic templates. However, Paizo's official open-content website cites *MSH* and notes \"summon monster can be used to summon creatures with the entropic or resolute templates instead of the celestial or fiendish template\". In any event, only one template may be applied automatically to a summoned creature: lawful good casters could choose celestial or resolute, but not both. Consult your GM.",
+			"[^2]: The original text was written before the entropic and resolute templates were created (see footnote above), so the text generally refers to neutral on the good-evil axis only. However, a neutral good caster could theoretically pick either resolute or entropic instead of the default celestial. Consult your GM."
 		]
 	},
 	"summon_monster_1": {
