@@ -1801,7 +1801,7 @@
 			"",
 			"**Speed** 30 ft.  ",
 			"**Melee** bite +1 (1d3+1), 2 claws +1 (1d3+1)  ",
-			"**Special Attacks** hypnotic stare, mesmerist tricks (4/day, psychosomatic surge), painful stare  ",
+			"**Special Attacks** hypnotic stare, mesmerist tricks (4/day, {trick/psychosomatic surge}), painful stare  ",
 			"**Mesmerist Spells Known** (CL 1st; concentration +4)  ",
 			"*1st (2/day)*-{spell/hypnotism} (DC 14), {spell/innocence}  ",
 			"*0 (at will)*-{spell/daze} (DC 13), {spell/detect magic}, {spell/message}, {spell/prestidigitation}",
