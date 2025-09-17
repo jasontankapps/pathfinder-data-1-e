@@ -1,7 +1,8 @@
 import { useCallback, KeyboardEvent, PropsWithChildren } from 'react';
 
 interface ScrollOptions {
-	mid?: boolean
+	toCenter?: boolean
+	toTop?: boolean
 	noHighlight?: boolean
 	showBacklink?: string
 }
@@ -14,7 +15,7 @@ interface LinkProps extends ScrollOptions {
 
 const scroller = (id:string, options: ScrollOptions = {}) => {
 	const el = document.getElementById(id);
-	const {mid, noHighlight, showBacklink} = options;
+	const {toCenter, toTop, noHighlight, showBacklink} = options;
 	if(!el) {
 		console.log(`ERROR: unable to find element with id [${id}]`);
 		return;
@@ -22,7 +23,7 @@ const scroller = (id:string, options: ScrollOptions = {}) => {
 		el.classList.add("highlight");
 		setTimeout(() => el.classList.remove("highlight"), 500);
 	}
-	if(mid) {
+	if(toCenter) {
 		// Used by the Feats Tree page only
 		el.scrollIntoView({
 			behavior: "smooth",
@@ -39,23 +40,35 @@ const scroller = (id:string, options: ScrollOptions = {}) => {
 		const el = document.getElementById(showBacklink);
 		el && el.classList.add("backToPreviousLink");
 	}
+	let block: ScrollLogicalPosition = "start";
+	//toTop should only be used for hard-coded links
+	if(!toTop) {
+		let w = el.parentElement;
+		while(w && w.tagName.toUpperCase() !== "ION-CONTENT") {
+			if(w.classList.contains("tableWrap")) {
+				block = "center";
+				break;
+			}
+			w = w.parentElement;
+		}
+	}
 	el.scrollIntoView({
 		behavior: "smooth",
-		block: "center",
+		block,
 		inline: "nearest"
 	});
 };
 
 const InnerLink: React.FC<PropsWithChildren<LinkProps>> = (props) => {
-	const { to, mid, noHighlight, showBacklink, ...etc } = props;
+	const { to, toCenter, toTop, noHighlight, showBacklink, ...etc } = props;
 	const clickTo = useCallback(
-		() => scroller(to, { mid, noHighlight, showBacklink }),
-		[to, mid, noHighlight, showBacklink]
+		() => scroller(to, { toCenter, toTop, noHighlight, showBacklink }),
+		[to, toCenter, toTop, noHighlight, showBacklink]
 	);
 	const enterTo = useCallback(
 		(e: KeyboardEvent<HTMLDivElement>) =>
-			e.key === "Enter" && scroller(to, { mid, noHighlight, showBacklink }),
-		[to, mid, noHighlight, showBacklink]
+			e.key === "Enter" && scroller(to, { toCenter, toTop, noHighlight, showBacklink }),
+		[to, toCenter, toTop, noHighlight, showBacklink]
 	);
 	return (
 		<span className="innerlink" tabIndex={0} role="link" onClick={clickTo} onKeyDown={enterTo} {...etc} />

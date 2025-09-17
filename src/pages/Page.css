@@ -1,5 +1,10 @@
 /* Global stuff */
 
+ion-content{
+	scroll-margin-block-start: 80px;
+	scroll-margin-block-end: 80px;
+}
+
 ion-toast {
 	--width: max-content;
 	--max-width: 95vw;
@@ -494,6 +499,7 @@ div.tableWrap {
 	overflow-x: auto;
 	overflow-y: auto;
 	width: max-content;
+	scroll-margin-block-start: 80;
 	max-width: calc(100% - 2rem);
 	/*
 		56px page header, (3.5rem)
@@ -659,27 +665,6 @@ ion-picker.myPicker ion-picker-column {
 ion-picker.myPicker ion-picker-column [slot=prefix] {
 	font-size: 1.5rem;
 	max-width: 100%;
-}
-
-/* Hierarchy Modal */
-
-ion-list.hierarchyModal ion-item.linked {
-	--color: var(--ion-color-primary);
-}
-ion-list.hierarchyModal ion-item.indent1 ion-label {
-	padding-left: 1.25em;
-}
-ion-list.hierarchyModal ion-item.indent2 ion-label {
-	padding-left: 2.5em;
-}
-ion-list.hierarchyModal ion-item.indent3 ion-label {
-	padding-left: 3.75em;
-}
-ion-list.hierarchyModal ion-item.indent4 ion-label {
-	padding-left: 5em;
-}
-ion-list.hierarchyModal ion-item.indent5 ion-label {
-	padding-left: 6.25em;
 }
 
 /* Main: Non-basic pages */

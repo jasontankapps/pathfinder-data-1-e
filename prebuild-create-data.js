@@ -440,9 +440,8 @@ const renderer = () => {
 					return `<a href="${href}">${text}</a>`;
 				} else if (href.match(/^#/)) {
 					// Hash indicates internal link, updating `$.flags` to note the outside Tag being used
-//					console.log(id, href);
 					$.flags.innerlink = true;
-					return `<InnerLink to="${$.prefix}${href.slice(1)}">${text}</InnerLink>`;
+					return `<InnerLink toTop to="${$.prefix}${href.slice(1)}">${text}</InnerLink>`;
 				}
 				$.flags.link = true;
 				return `<Link to="/${href}">${text}</Link>`;
@@ -969,7 +968,7 @@ if(!$.skipFeatTree) {
 							return `<strong>ERROR</strong> trying to find "${cp}".`
 						}
 						const id = ids.join("-") + `-${prop}-coparent-${cp}`;
-						return coparentsNolink ? `<span className="coparent">${title}</span>` : `<span className="coparent" id="${id}"><InnerLink mid to="${anchor + cp}">${title}</InnerLink></span>`;
+						return coparentsNolink ? `<span className="coparent">${title}</span>` : `<span className="coparent" id="${id}"><InnerLink toCenter to="${anchor + cp}">${title}</InnerLink></span>`;
 					}).join(", "),
 					"</div>"
 				);
@@ -1216,7 +1215,8 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	groupFlags.innerlink && imports.push(`import InnerLink from '../../components/InnerLink';`);
 	groupFlags.scrollContainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
 	groupFlags.jumplist && imports.push(
-		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);if(el){el.classList.add(\"highlight\");setTimeout(()=>el.classList.remove(\"highlight\"),500)}let w=el&&el.parentElement;while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w=w.parentElement}const yCoordinate=el?el.getBoundingClientRect().top+window.scrollY:80;w&&(w as HTMLIonContentElement).scrollByPoint(0,yCoordinate-80,500)};"
+//		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);if(el){el.classList.add(\"highlight\");setTimeout(()=>el.classList.remove(\"highlight\"),500)}let w=el&&el.parentElement;while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w=w.parentElement}const yCoordinate=el?el.getBoundingClientRect().top+window.scrollY:80;w&&(w as HTMLIonContentElement).scrollByPoint(0,yCoordinate-80,500)};"
+		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);if(el){el.classList.add(\"highlight\");setTimeout(()=>el.classList.remove(\"highlight\"),500)}el&&el.scrollIntoView({behavior:\"smooth\",block:\"start\",inline:\"nearest\"})};"
 	);
 	// Add saved info;
 	const allprops = [];
