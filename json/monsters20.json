@@ -2141,7 +2141,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 30 ft., climb 30 ft., swim 20 ft.; gelatinous surge  ",
-			"**Melee** 2 slams +24 (4d6+16 plus 2d6 acid and grab)  ",
+			"**Melee** 2 slams +24 (4d6+16 plus 2d6 acid and {umr/grab})  ",
 			"**Ranged** 6 strands +15 touch (2d6 acid plus attach)  ",
 			"**Space** 20 ft., **Reach** 20 ft.  ",
 			"**Special Attacks** {umr/constrict} (4d6+16 plus 2d6 acid), {umr/pull} (strand, 20 feet)  ",

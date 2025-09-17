@@ -241,7 +241,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 20 ft., swim 20 ft.  ",
-			"**Melee** 3 slams +11 (1d6+4 plus burn and grab)  ",
+			"**Melee** 3 slams +11 (1d6+4 plus burn and {umr/grab})  ",
 			"**Space** 10 ft., **Reach** 5 ft.  ",
 			"**Special Attacks** {umr/burn} (1d6, DC 20), burning blindness, {umr/constrict} (1d6+4), {umr/swallow whole} (2d6 fire, AC 15, 9 hp), swarming pyrocules",
 			"",

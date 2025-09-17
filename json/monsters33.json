@@ -225,7 +225,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 10 ft.  ",
-			"**Melee** 2 slams +10 (2d6+2 plus bleed and grab)  ",
+			"**Melee** 2 slams +10 (2d6+2 plus bleed and {umr/grab})  ",
 			"**Special Attacks** {umr/bleed} (1d6), {umr/blood drain} (1d2 Con), {umr/constrict} (2d6+2 plus bleed)",
 			"",
 			"::sh[Statistics]",

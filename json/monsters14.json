@@ -2062,7 +2062,7 @@
 			"::sh[Offense]",
 			"",
 			"**Speed** 20 ft. (30 ft. in humanoid form), fly 60 ft. (good)  ",
-			"**Melee** bite +19 (1d6+4 plus 1d6 bleed and 1d6 electricity), 2 talons +19 (1d4+4 plus 1d6 electricity and grab), 2 hook +13 (1d4+2 plus 1d6 electricity)  ",
+			"**Melee** bite +19 (1d6+4 plus 1d6 bleed and 1d6 electricity), 2 talons +19 (1d4+4 plus 1d6 electricity and {umr/grab}), 2 hook +13 (1d4+2 plus 1d6 electricity)  ",
 			"**Special Attacks** {umr/bleed} (1d6), {umr/breath weapon} (60-ft. line, 8d6 electricity, Reflex DC 21 half, usable every 1d4 rounds), electrical discharge  ",
 			"**Spell-Like Abilities** (CL 14th; concentration +19)  ",
 			"*3/day*-{spell/call lightning}, {spell/charm person}, {spell/gust of wind}",
