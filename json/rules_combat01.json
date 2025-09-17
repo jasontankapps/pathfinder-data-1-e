@@ -3587,7 +3587,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/555}",
 			"",
-			"From curses to poisons to diseases, there are a number of afflictions that can affect a creature. While each of these afflictions has a different effect, they all function using the same basic system. All afflictions grant a saving throw when they are contracted. If successful, the creature does not suffer from the affliction and does not need to make any further rolls. If the saving throw is Table must deal with its effects.",
+			"From curses to poisons to diseases, there are a number of afflictions that can affect a creature. While each of these afflictions has a different effect, they all function using the same basic system. All afflictions grant a saving throw when they are contracted. If successful, the creature does not suffer from the affliction and does not need to make any further rolls. If the saving throw is  a failure, the creature falls victim to the affliction and must deal with its effects.",
 			"",
 			"Afflictions require a creature to make a saving throw after a period of time to avoid taking certain penalties. With most afflictions, if a number of saving throws are made consecutively, the affliction is removed and no further saves are necessary. Some afflictions, usually supernatural ones, cannot be cured through saving throws alone and require the aid of powerful magic to remove.",
 			"",

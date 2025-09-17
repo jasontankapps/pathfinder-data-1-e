@@ -18,8 +18,9 @@ type Id = keyof DataCurse & keyof DataDisease & keyof DataInfestation;
 type Params = { id?: Id };
 
 const topCurse: Hierarchy = ["Curses", "rule/curses"];
-const topDisease: Hierarchy = ["Curses", "rule/curses"];
-const topInfestation: Hierarchy = ["Curses", "rule/curses"];
+const topDisease: Hierarchy = ["Diseases", "rule/diseases"];
+const topInfestation: Hierarchy = ["Infestations", "rule/infestations"];
+const basicAfflictionsPage: Hierarchy = ["Afflictions", "rule/afflictions"];
 
 const getByType = (id: Id | undefined, type: Affliction) => {
 	switch(type) {
@@ -31,8 +32,6 @@ const getByType = (id: Id | undefined, type: Affliction) => {
 			return {...getItem<DataInfestation>(id, infestations), topLink: topInfestation};
 	}
 };
-
-const basicAfflictionsPage: Hierarchy = ["Afflictions", "rule/afflictions"];
 
 const AfflictionPage: React.FC = () => {
 
