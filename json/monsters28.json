@@ -1562,19 +1562,7 @@
 			"",
 			"### Changeling Characters",
 			"",
-			"Changelings are defined by their class levels: they don't have racial Hit Dice. All changelings have the following racial traits.",
-			"",
-			">**-2 Constitution, +2 Wisdom, +2 Charisma:** Changelings are frail, but are clever and comely.  ",
-			">**Hag Trait:** A changeling possesses one of the following traits, depending on the type of hag her mother is.",
-			">",
-			">>*Hulking Changeling (Annis Hag):* The changeling gains a +1 racial bonus on melee damage rolls.  ",
-			">>*Green Widow (Green Hag):* The changeling gains a +2 racial bonus on Bluff checks against creatures that are sexually attracted to her.  ",
-			">>*Sea Lungs (Sea Hag):* The changeling can {misc/hold her breath} for a number of rounds equal to 3 &times; her Constitution score before she risks drowning.",
-			">",
-			">**Claws:** A changeling's hands and fingernails tend to harden and become sharp, granting her two claw attacks, each of which deals 1d4 points of damage.  ",
-			"**Natural Armor:** Changelings have a +1 natural armor bonus.  ",
-			">**Darkvision:** Changelings can see in the dark up to 60 feet.  ",
-			">**Languages:** Changelings begin play speaking Common and the primary language of their host society. Changelings who have high Intelligence scores can choose from the following: Aklo, Draconic, Dwarven, Elven, Giant, Gnoll, Goblin, and Orc."
+			"{race/Changeling/s} are defined by their class levels: they don't have racial Hit Dice."
 		]
 	},
 	"chaos_beast": {
@@ -2692,7 +2680,7 @@
 			"",
 			"Strangely reminiscent of dragonfly nymphs, cordulegasters are monstrous creations that inhabit the waterways of the River Styx. Like hydrodaemons, cordulegasters can survive prolonged exposure to the Styx's tainted waters, where they lurk near the river's edge and lie in wait for prey to wander close. A cordulegaster's mouth comprises a prehensile, extendable lower jaw and a secondary inner set of mandibles. Its lower jaw folds under its head as the cordulegaster rests, cupping over the mandibles like a mask of interlocking, irregular teeth. When a cordulegaster attacks, its jaws separate and shoot forward to grasp its prey, pulling it closer so the mandibles can begin to shred and devour its unlucky victim's flesh.",
 			"",
-			"Jagged russet plates cover the cordulegaster's body, camouflaging the creature by mimicking natural rock formations found in Abadd0n's waterways. Serrated edges line its protective chitin and run down the creature's back, making it dangerous to grab or hold (and sparing it from larger predators). These serrated edges allow its lashing tail to open deep, jagged wounds with every blow. A typical cordulegaster can grow up to 12 feet long and 7 feet tall at the head, and can weigh as much as 2,000 pounds.",
+			"Jagged russet plates cover the cordulegaster's body, camouflaging the creature by mimicking natural rock formations found in Abaddon's waterways. Serrated edges line its protective chitin and run down the creature's back, making it dangerous to grab or hold (and sparing it from larger predators). These serrated edges allow its lashing tail to open deep, jagged wounds with every blow. A typical cordulegaster can grow up to 12 feet long and 7 feet tall at the head, and can weigh as much as 2,000 pounds.",
 			"",
 			"### Ecology",
 			"",
@@ -2774,11 +2762,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Strangely reminiscent of dragonfly nymphs, cordulegasters are monstrous creations that inhabit the waterways of the River Styx. Like hydrodaemons, cordulegasters can survive prolonged exposure to the Styx's tainted waters, where they lurk near the river's edge and lie in wait for prey to wander close. A cordulegaster's mouth comprises a prehensile, extendable lower jaw and a secondary inner set of mandibles. Its lower jaw folds under its head as the cordulegaster rests, cupping over the mandibles like a mask of interlocking, irregular teeth. When a cordulegaster attacks, its jaws separate and shoot forward to grasp its prey, pulling it closer so the mandibles can begin to shred and devour its unlucky victim's flesh.",
-			"",
-			"Jagged russet plates cover the cordulegaster's body, camouflaging the creature by mimicking natural rock formations found in Abadd0n's waterways. Serrated edges line its protective chitin and run down the creature's back, making it dangerous to grab or hold (and sparing it from larger predators). These serrated edges allow its lashing tail to open deep, jagged wounds with every blow. A typical cordulegaster can grow up to 12 feet long and 7 feet tall at the head, and can weigh as much as 2,000 pounds.",
-			"",
-			"Cordulegasters that dwell in the waters of the Styx long enough absorb memories from the river, and learn to consume entire souls. This grotesque insight transforms them into daemons: Elder Cordulegasters."
+			"{monster/Cordulegaster/s} that dwell in the waters of the Styx long enough absorb memories from the river, and learn to consume entire souls. This grotesque insight transforms them into daemons: Elder Cordulegasters."
 		]
 	},
 	"elder_cordulegaster": { "redirect": "cordulegaster_elder_cordulegaster" },
