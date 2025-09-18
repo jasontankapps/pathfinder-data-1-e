@@ -138,11 +138,11 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					freq, freqR, freqM, freqH, freqD,
 					eff, ineff, seceff,
 					cure, cure1, cure2, cure2c,
-					extra
+					extra, start
 				} = attrs;
 				const marked2 = makeNewMarkedInstance();
 				const output = [
-					`<div className="afflictionWrap">`,
+					`<div className="afflictionWrap${start ? " startAlign" : ""}">`,
 					"<table><tbody>"
 				];
 				if(text) {

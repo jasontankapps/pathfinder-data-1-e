@@ -629,6 +629,12 @@ div.afflictionWrap {
 	align-items: center;
 	justify-content: flex-end;
 }
+div.afflictionWrap.startAlign {
+	justify-content: flex-start;
+}
+div.afflictionWrap div.tableWrap {
+	display: contents;
+}
 div.afflictionWrap + div.afflictionWrap {
 	margin-block-start: 1em;
 }

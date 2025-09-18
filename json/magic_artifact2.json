@@ -90,7 +90,7 @@
 			"",
 			"Removing the Apollyon Ring or killing the wearer instantly cures all creatures afflicted by the Mark of the Prophet.",
 			"",
-			"::aff[Mark of the Prophet]{disease type=contact saveF=\"DC variable (see above)\" onset=\"1 day\" freq=\"1/day\" eff=\"1d4 %%rule/ability damage%%\" cure2c}",
+			"::aff[Mark of the Prophet]{disease type=contact saveF=\"variable (see above)\" onset=\"1 day\" freq=\"1/day\" eff=\"1d4 %%rule/ability damage%%\" cure2c}",
 			"",
 			"### Destruction",
 			"",

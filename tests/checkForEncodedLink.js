@@ -29,7 +29,7 @@ const checkForEncodedLink = (input, options = {}) => {
 	const { basic, bare } = options;
 	let m = input.match(
 		bare ? /^([-a-z_]+?)[/](.+)($)/          // [ full, protocol, matchedx ]
-		: /(^.*?)\{([-a-z_]*)[/]([^}]*)\}(.*$)/  // [ full, pre, protocol, matchedx, post ]
+		: /(^.*?)(?:\{|%%)([-a-z_]*)[/]([^}]*?)(?:\}|%%)(.*$)/  // [ full, pre, protocol, matchedx, post ]
 	);
 	const m2 = basic && input.match(/(^.*?)\[([^\]]+)\]\(([-a-z_]+)[/]([^)]+)\)(.*$)/); // [ pre, text, protocol, link, post ]
 	if(!m && !m2) {
