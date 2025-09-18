@@ -214,7 +214,7 @@
 			"",
 			"**Major Form ({spell/Vermin Shape II}):** Your shape changes to that of a {monster/giant wasp}. This ability uses the {spell/vermin shape>_1} spell, rather than {spell/beast shape>_1}, for the purposes of wild shape. While in this form, you gain a fly speed of 40 feet (clumsy), and swarms and vermin do not attack you unless magically commanded to do so. At 8th level, this fly speed increases to 60 feet (average), and you gain a sting attack usable a number of times per day equal to 3 + your Wisdom modifier, which applies the following poison.",
 			"",
-			">*Wasp Venom (Ex) Sting*-injury; *save* Fort DC = 10 + half your shifter level + your Constitution modifier; *frequency* 1/round for 4 rounds; *effect* 1d3 {rule/Dex damage}; *cure* 2 consecutive saves.",
+			"::aff[Wasp Venom]{type=Sting-injury save=\"Fort DC = 10 + half your shifter level + your Constitution modifier\" freqR=4 eff=\"1d3 %%rule/Dex damage%%\" cure2}",
 			"",
 			"At 15th level, your fly speed increases to 80 feet (good), and you can attempt to gain control of a mindless swarm as a full-round action. To gain control of the swarm, you must succeed at a Charisma check against a DC of 10 + the swarm's CR. You can direct the swarm to disperse, remain in a designated location, or attack an opponent. This control lasts for a number of rounds equal to half your shifter level.",
 			"",
@@ -380,7 +380,7 @@
 			"",
 			"**Major Form ({spell/Vermin Shape II}):** Your shape changes to that of a {monster/giant scorpion}. While in this form, you gain darkvision with a range of 60 feet, {umr/tremorsense} with a range of 10 feet, two primary claw attacks (1d6) with the {umr/grab} ability, and a secondary sting attack (1d6). At 8th level, the range of your tremorsense increases to 20 feet, and you gain a +4 racial bonus on Climb and Perception checks. At 15th level, when you make an attack of opportunity with your sting attack or maintain a grapple and deal damage with your sting attack, that attack also applies the following poison.",
 			"",
-			">*Poison (Ex):* Sting-injury; *save* Fort DC = 10 + half your shifter level + your Constitution modifier; *frequency* 1/round for 6 rounds; *effect* 1d3 {rule/Strength damage}; *cure* 2 consecutive saves.",
+			"::aff[Poison]{type=Sting-injury save=\"Fort DC = 10 + half your shifter level + your Constitution modifier\" freqR=6 eff=\"1d3 %%rule/Str damage%%\" cure2c}",
 			"",
 			"**Alternate Natural Attacks:** Pincers (B), sting (P)"
 		]
@@ -398,7 +398,7 @@
 			"",
 			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of an emperor cobra. While in this form, you gain a base speed of 30 feet, a climb speed of 30 feet, a swim speed of 30 feet, low-light vision, {umr/scent} (30 feet), a bite attack (2d6 damage), and the {feat/Combat Reflexes} feat. If you already have Combat Reflexes or your Dexterity score is not high enough to gain more attacks of opportunity from Combat Reflexes, you can instead make one additional attack of opportunity each round. At 8th level, you gain a +4 racial bonus on Acrobatics and Stealth checks. At 15th level, when you make an attack of opportunity with your bite attack, that attack also applies the following poison.",
 			"",
-			">*Poison (Ex):* Bite-injury; *save* Fort DC = 10 + half your shifter level + your Constitution modifier; *frequency* 1/round for 6 rounds; *effect* 1d3 {rule/Con damage}; *cure* 2 consecutive saves.",
+			"::aff[Poison]{type=Bite-injury save=\"Fort DC = 10 + half your shifter level + your Constitution modifier\" freqR=6 eff=\"1d3 %%rule/Con damage%%\" cure2c}",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S), tail slap (B)"
 		]

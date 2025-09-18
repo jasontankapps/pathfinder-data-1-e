@@ -107,16 +107,14 @@ export const convertTextToLink = (input) => {
 };
 
 export const convertSpecialTextToLink = (input) => {
-	let m, matched = input, linkpre, linkpost;
+	let m, matched = input;
 	// pre_<link
 	if(m = matched.match(/(^.*?)<(.*$)/)) {
 		matched = m[2];
-		linkpre = m[1];
 	}
 	// post>_link
 	if(m = matched.match(/(^.*)>(.*$)/)) {
 		matched = m[1];
-		linkpost = m[2];
 	}
 	// Double-slashes
 	while(m = matched.match(/(^.*?)[/]{2}(.*$)/)) {

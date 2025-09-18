@@ -2,13 +2,13 @@ import checkForEncodedLink from './tests/checkForEncodedLink.js';
 
 const getBlockDirectives = (globalVariable, marker = "::") => {
 	const $ = globalVariable;
+	const linkify = (input) => input.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, "");
 	return {
 		level: "block",
 		marker,
 		renderer: (token) => {
 			const {prefix, flags, addToJumpList, logError, makeNewMarkedInstance, parseSOURCE} = $;
 			const {text, attrs = {}, meta} = token;
-			const {id, ind, rev, to, end, endem, bottom} = attrs;
 			const n = meta.name || "";
 			const maybeClear = attrs.clear ? `<div style={{clear:"both"}}></div>` : "";
 			if(n === "gh") {
@@ -67,8 +67,9 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "mainheader") {
 				flags.divider = true;
 				flags.label = true;
-				return `${maybeClear}<IonItemDivider className="mainItem"${id ? ` id="${prefix}${id}"` : ""}><IonLabel>${text}</IonLabel></IonItemDivider>`;
+				return `${maybeClear}<IonItemDivider className="mainItem"${attrs.id ? ` id="${prefix}${attrs.id}"` : ""}><IonLabel>${text}</IonLabel></IonItemDivider>`;
 			} else if (n === "main") {
+				const {ind, rev, to, end, endem, bottom} = attrs;
 				flags.mainlink = true;
 				let cn;
 				let output = "<MainLink ";
@@ -95,7 +96,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return `${maybeClear}${output}info="${text}" />`;
 			} else if ("h2h3h4h5h6".indexOf(n) >= 0) {
 				if(attrs.jl) {
-					const id = prefix + (attrs.id || text.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
+					const id = prefix + (attrs.id || linkify(text));
 					addToJumpList(text, id, attrs.jl);
 					if(attrs.extra) {
 						return `${maybeClear}<${n} id="${id}" data-hash-target>${text} ${attrs.extra}</${n}>\n`;
@@ -124,11 +125,126 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					inner = `${inner} ${extra}`;
 				}
 				if(attrs.jl) {
-					const id = prefix + (attrs.id || linktext.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, ""));
+					const id = prefix + (attrs.id || linkify(linktext));
 					addToJumpList(linktext, id, attrs.jl);
 					return `${maybeClear}<${t} id="${id}" data-hash-target>${inner}</${t}>\n`;
 				}
 				return `${maybeClear}<${t}>${inner}</${t}>`;
+			} else if (n === "aff") {
+				// Affliction
+				const {
+					poison, curse, infest, disease,
+					type, save, saveF, onset,
+					freq, freqR, freqM, freqH, freqD,
+					eff, ineff, seceff,
+					cure, cure1, cure2, cure2c,
+					extra
+				} = attrs;
+				const marked2 = makeNewMarkedInstance();
+				const output = [
+					`<div className="afflictionWrap">`,
+					"<table><tbody>"
+				];
+				if(text) {
+					output.push(
+						`<tr><th colSpan={4} scope="col" className="title">${text}</th></tr>`
+					);
+				}
+				let supertype = poison ? "Poison" : curse ? "Curse" : infest ? "Infestation" : disease ? "Disease": "";
+				if(type && supertype) {
+					supertype = supertype + "; " + type;
+				} else if (type) {
+					supertype = type;
+				}
+				const id = prefix + linkify(text + "-" + supertype);
+				const saveDC = save || (
+					saveF ? `Fort ${saveF}` : `-`
+				);
+				let frequency = freq;
+				if(!freq) {
+					//freqR, freqM, freqH, freqD,
+					const unit = freqR ? "round" : (
+						freqM ? "minute" : (
+							freqH ? "hour": (
+								freqD ? "day" : ""
+							)
+						)
+					);
+					if(unit) {
+						frequency = `1/${unit} for ${freqR || freqM | freqH || freqD} ${unit}s`;
+					}
+				}
+				output.push(
+					"<tr>",
+					`<th id="${id}-type">Type</th>`,
+					`<td headers="${id}-type">${supertype}</td>`,
+					`<th id="${id}-save">Save DC</th>`,
+					`<td headers="${id}-save">${saveDC}</td>`,
+					"</tr><tr>",
+					`<th id="${id}-onset">Onset</th>`,
+					`<td headers="${id}-onset">${onset || "immediate"}</td>`,
+					`<th id="${id}-freq">Frequency</th>`,
+					`<td headers="${id}-freq">${frequency}</td>`,
+					"</tr><tr>"
+				);
+				const linker = (input) => {
+					let m;
+					let test = input;
+					let output = "";
+					while(m = test.match(/^(.*?)%%(.+?)%%(.*$)/)) {
+						const [, pre, link, post] = m;
+						output = output + `${pre}{${link}}`;
+						test = post;
+					}
+					test = output + test;
+					output = "";
+					while(m = checkForEncodedLink(test)) {
+						const [pre, fulllink, text, post] = m;
+						output = output + `${pre}[${text}](${fulllink})`;
+						test = post;
+					}
+					return output + test;
+				};
+				if(eff) {
+					output.push(
+						`<th scope="row">Effect</th>`,
+						`<td colSpan={3}>${marked2.parseInline(linker(eff))}</td>`
+					);
+				}
+				if(ineff && seceff) {
+					output.push(
+						`<th id="${id}-ineff">Initial Effect</th>`,
+						`<td headers="${id}-ineff">${marked2.parseInline(linker(ineff))}</td>`,
+						`<th id="${id}-seceff">Secondary Effect</th>`,
+						`<td headers="${id}-seceff">${marked2.parseInline(linker(seceff))}</td>`
+					);
+				}
+				const cureLine = cure ? marked2.parseInline(linker(cure)) : (
+					cure1 ? "1 save" : (
+						cure2 ? "2 saves" : (
+							cure2c ? "2 consecutive saves" : ""
+						)
+					)
+				);
+				if(cureLine) {
+					output.push(
+						`</tr><tr>`,
+						`<th scope="row">Cure</th>`,
+						`<td colSpan={3}>${cureLine}</td>`,
+						"</tr>"
+					);
+				} else {
+					output.push("</tr>");
+				}
+				if(extra) {
+					output.push(
+						`<tr><td colSpan={4}>${extra}</td></tr>`
+					);
+				}
+				output.push(
+					`</tbody></table></div>`
+				);
+				return output.join("");
 			}
 			return false;
 		}

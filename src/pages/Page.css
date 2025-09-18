@@ -621,6 +621,70 @@ table thead tr th.sortable div ion-icon.sortArrow {
 	color: var(--ion-color-secondary);
 }
 
+div.afflictionWrap {
+	width: 100%;
+	padding-inline: 2em;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-end;
+}
+div.afflictionWrap + div.afflictionWrap {
+	margin-block-start: 1em;
+}
+div.afflictionWrap table {
+	border-radius: 1.5em;
+}
+div.afflictionWrap table tr:first-of-type *:first-child {
+	border-start-start-radius: 1.5em;
+}
+div.afflictionWrap table tr:first-of-type *:last-child {
+	border-start-end-radius: 1.5em;
+}
+div.afflictionWrap table tr:last-of-type *:first-child {
+	border-end-start-radius: 1.5em;
+}
+div.afflictionWrap table tr:last-of-type *:last-child {
+	border-end-end-radius: 1.5em;
+}
+div.afflictionWrap table {
+	border-width: var(--full-width);
+}
+div.afflictionWrap table tbody tr td,
+div.afflictionWrap table tbody tr th {
+	border-width: var(--half-width);
+}
+div.afflictionWrap table tbody tr:first-of-type td,
+div.afflictionWrap table tbody tr:first-of-type th {
+	border-block-start-width: 0;
+}
+div.afflictionWrap table tbody tr:last-of-type td,
+div.afflictionWrap table tbody tr:last-of-type th {
+	border-block-end-width: 0;
+}
+div.afflictionWrap table tbody tr td:first-child,
+div.afflictionWrap table tbody tr th:first-child {
+	border-inline-start-width: 0;
+}
+div.afflictionWrap table tbody tr td:last-child,
+div.afflictionWrap table tbody tr th:last-child {
+	border-inline-end-width: 0;
+}
+div.afflictionWrap table tbody th {
+	background: var(--table-header-bg);
+}
+div.afflictionWrap table tbody th:not([colSpan]) {
+	text-align: end;
+}
+div.afflictionWrap table tbody tr td {
+	text-align: start;
+}
+div.afflictionWrap table tbody tr:last-child td:first-child {
+	text-align: end;
+	font-style: italic;
+}
+
+
 ion-modal ion-item.item ion-label.picker {
 	cursor: pointer;
 	display: flex;
