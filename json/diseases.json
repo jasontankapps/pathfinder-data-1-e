@@ -172,17 +172,23 @@
 	},
 	"sleeping_sickness": {
 		"name": "Sleeping Sickness",
-		"sources": [ "Heart of the Jungle" ],
+		"sources": [
+			"Heart of the Jungle",
+			"Pathfinder #38: Racing to Ruin"
+		],
 		"description": [
 			"## Sleeping Sickness",
 			"",
 			"{SOURCE Heart of the Jungle/8}  ",
-			"**Type** injury; **Fortitude Save** DC 14  ",
+			"**Type** injury (parasite); **Fortitude Save** DC 14  ",
 			"**Onset** 1d2 days; **Frequency** 1/day  ",
 			"**Effect** 1d4 {rule/Wis damage} and target is {misc/fatigued}  ",
 			"**Cure** 2 consecutive saves or arsenic (see text)",
 			"",
-			"The best cure for this disease is dosing the patient with the poison {eq-poison/arsenic} - if the patient survives, there's a cumulative 30% chance that the disease is immediately cured."
+			"{SOURCE Pathfinder #38: Racing to Ruin/84}  ",
+			"Endemic throughout the Sodden Lands and the Mwangi Expanse, the parasitic affliction known as \"sleeping sickness\" is spread when flying insects inject tiny parasites into their unsuspecting victim's bloodstream, thus inducing fever, headache, joint pain, swelling of glands in the back and neck, and most notably fatigue. The disease gradually infects the brain, causing confusion, reduced coordination, difficulty keeping track of time, and insomnia.",
+			"",
+			"While exceedingly dangerous, even when administered by a practiced healer, the best cure for this disease is dosing the patient with the poison {eq-poison/arsenic}. If the patient survives, there's a cumulative 30% chance per dose that the disease is immediately cured."
 		]
 	},
 	"slimy_doom": {
@@ -279,7 +285,6 @@
 			"**Effect** 1d2 {rule/Con damage}, 1d2 Cha drain  ",
 			"**Cure** 2 consecutive saves",
 			"",
-			"**Ongoing Save** Fort DC equal to the save DC of the failed saving throw  ",
 			"Anyone who lives with spellscar fever for a week straight without dying becomes immune to the disease and to mana fever (see Mana Wastes mutant), but also becomes a {template/Mana Wastes mutant} or a {template/mutant}, chosen by the GM. A Mana Waste mutant created in such a way can use the following *Spellscar Fever Deformities* table in place of a deformity from the *Mana Waste mutant* template, while a mutant resulting from spellscar fever can take one effect from the same table in place of one deformity and one mutation.",
 			"",
 			"### Spellscar Fever Deformities",

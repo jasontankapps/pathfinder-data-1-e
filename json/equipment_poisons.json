@@ -2457,5 +2457,22 @@
 			"**Effect** 1d3 {rule/Wis damage}  ",
 			"**Cure** 2 saves"
 		]
+	},
+	"copsewight_poison": {
+		"name": "Copsewight Poison",
+		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
+		"description": [
+			"## Copsewight Poison",
+			"",
+			"{SOURCE Pathfinder #119: Prisoners of the Blight/80}",
+			"",
+			"**Price** 500 gp; **Weight** &mdash;  ",
+			"**Type** contact; **Save** Fortitude DC 18  ",
+			"**Onset** immediate; **Frequency** 1/round for 2 rounds  ",
+			"**Effect** 1d2 {rule/Con damage}  ",
+			"**Cure** 1 save",
+			"",
+			"A skilled alchemist can collect and preserve the juices from a {monster/copsewight/'s} fruit, distilling them into a contact poison. The fruit from a single copsewight can produce up to 12 doses of poison."
+		]
 	}
 }

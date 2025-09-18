@@ -2506,7 +2506,7 @@
 			"",
 			"**Infectious Blight (Su)** A copsewight can infect surrounding trees with its evil, putting entire forests at risk of becoming nightmare groves full of deadly, vengeful trees. For each day a copsewight remains rooted in one spot, it has a 2% cumulative chance to infect all trees within 60 feet with its blight. Infected trees wither and die over the course of a week, and mature trees turn into new copsewights after the seventh day.",
 			"",
-			"**Poison (Ex)** Copsewight Poison: Fruit bomb-contact; *save* Fort DC 22; *frequency* 1/round for 2 rounds; *effect* 1d2 {rule/Con damage}; *cure* 1 save.",
+			"**Poison (Ex)** {eq-poison/Copsewight Poison}: Fruit bomb-contact; *save* Fort DC 22; *frequency* 1/round for 2 rounds; *effect* 1d2 {rule/Con damage}; *cure* 1 save.",
 			"",
 			"**Spiked Branches (Ex)** A copsewight's branches are studded with thorns and the sharp ends of broken, smaller branches, causing its slam attacks to deal both bludgeoning and piercing damage.",
 			"",
@@ -2540,7 +2540,7 @@
 			"",
 			"### Copsewight Poison",
 			"",
-			"**Price** 500 gp Type poison, contact; **Save** Fortitude DC 18 Onset immediate; **Frequency** 1/round for 2 rounds Effect 1d2 Con damage; **Cure** 1 save A skilled alchemist can collect and preserve the juices from a copsewight's fruit, distilling them into a contact poison. The fruit from a single copsewight can produce up to 12 doses of poison."
+			"A skilled alchemist can collect and preserve the juices from a copsewight's fruit, distilling them into a {eq-poison/copsewight<contact| poison}. The fruit from a single copsewight can produce up to 12 doses of poison, worth 500 gp each."
 		]
 	},
 	"corbayrant": {
