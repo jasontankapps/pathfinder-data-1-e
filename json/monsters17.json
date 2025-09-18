@@ -1514,11 +1514,13 @@
 			"",
 			"Morgod jelly causes vivid hallucinations and a sense of euphoria, and proves remarkably addictive to most humanoids. Morgodeas not only coat their stingers in this jelly, but also collect it in vials or wax-covered paper to sell to victims once they become addicted. For further details on drugs and addiction, [see here](rule/drugs_and_addiction).",
 			"",
-			"**Type** ingested or injury; **Addiction** special (see below), Fortitude DC 15 Price 10 gp Effects 1 hour; +1d2 Cha and all creatures are considered to have {rule/concealment} against the user Damage 1d2 Cha and 1d2 Wis",
+			"**Type** ingested or injury; **Addiction** special (see below), **Fortitude DC** 15 **Price** 10 gp **Effects** 1 hour; +1d2 Cha and all creatures are considered to have {rule/concealment} against the user **Damage** 1d2 Cha and 1d2 {rule/Wis damage}",
 			"",
 			"### Morgod Addiction",
 			"",
-			"**Type** disease, variable; **Save** Will DC 15 Onset 1 day; **Frequency** 1/day Effect -2 penalty to Wis and Cha, target cannot naturally heal ability damage caused by morgod jelly; **Cure** 3 consecutive saves"
+			"*Type* disease, variable; *Save* Will DC 15  ",
+			"*Onset* 1 day; *Frequency* 1/day  ",
+			"*Effect* -2 penalty to Wis and Cha, target cannot naturally heal ability damage caused by morgod jelly; *Cure* 3 consecutive saves"
 		]
 	},
 	"morlock": {
@@ -2086,7 +2088,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Disease (Ex)** Malaria: Bite-injury; *save* Fortitude DC 17; *onset* 1d3 days; *frequency* 1 day; *effect* 1d3 Con damage and 1d3 Wis Damage; *cure* 2 consecutive saves. The save DC is Constitution-based.",
+			"**Disease (Ex)** Malaria: Bite-injury; *save* Fortitude DC 17; *onset* 1d3 days; *frequency* 1 day; *effect* 1d3 {rule/Con damage} and 1d3 Wis Damage; *cure* 2 consecutive saves. The save DC is Constitution-based.",
 			"",
 			"::sh[Description]",
 			"",
@@ -3190,7 +3192,7 @@
 			"",
 			"**Create Undead (Su)** Up to three times per day, a nekomata can turn a dead body into an undead creature by licking it as a standard action. A skeleton rises as a skeletal champion, while a body with flesh animates as a juju zombie. Undead created in this way are free-willed.",
 			"",
-			"**Disease (Su)** Nekomata madness: Bite-injury; *save* Fort DC 17; *onset* 1d6 hours; *frequency* 1/day; *effect* 1 Con damage and 1d4 Wis damage; *cure* 2 consecutive saves.",
+			"**Disease (Su)** Nekomata madness: Bite-injury; *save* Fort DC 17; *onset* 1d6 hours; *frequency* 1/day; *effect* 1 {rule/Con damage} and 1d4 Wis damage; *cure* 2 consecutive saves.",
 			"",
 			"**Perfect Copy (Su)** When a nekomata uses change shape, it can assume the specific appearance of the last humanoid it damaged with its bite attack.",
 			"",

@@ -2597,14 +2597,14 @@
 			"### Moderate Addiction",
 			"",
 			"*Type* disease, variable; *Save* variable  ",
-			"*Onse*t 1 day; *Frequency* 1/day  ",
-			"*Effect* -2 penalty to Con and Str, target cannot naturally heal ability damage caused by the drug that caused this addiction; **Cure** 3 consecutive saves",
+			"*Onset* 1 day; *Frequency* 1/day  ",
+			"*Effect* -2 penalty to Con and Str, target cannot naturally heal ability damage caused by the drug that caused this addiction; *Cure* 3 consecutive saves",
 			"",
 			"### Severe Addiction",
 			"",
 			"*Type* disease, variable; *Save* variable  ",
 			"*Onset* 1 day; *Frequency* 1/day  ",
-			"*Effect* -2 penalty to Dex, Con, Str, and Wis; target cannot naturally heal ability damage caused by the drug that caused this addiction; **Cure** 3 consecutive saves"
+			"*Effect* -2 penalty to Dex, Con, Str, and Wis; target cannot naturally heal ability damage caused by the drug that caused this addiction; *Cure* 3 consecutive saves"
 		],
 		"parent_topics": [
 			"gamemastery",

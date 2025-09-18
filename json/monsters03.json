@@ -1546,7 +1546,7 @@
 			"| 5 | You've shrunk to 1/10th your normal size! Take no actions for 1 round and monsters won't see you. |",
 			"| 6 | You're melting! Grasp hold of yourself in an attempt to hold yourself together, and take no actions for 1 round. |",
 			"",
-			"**Spores (Ex)** Any creature struck by a basidirond's slam attack is coated with spores. The creature struck must make a DC 16 Fortitude save or these spores take root in his flesh, and particularly in his lungs. The save DC is Constitution-based. Basidirond Spores: Disease-inhaled; *save* Fort DC 16; *frequency* 1/round for 6 rounds; *effect* 1d2 Con damage; *cure* 1 save.",
+			"**Spores (Ex)** Any creature struck by a basidirond's slam attack is coated with spores. The creature struck must make a DC 16 Fortitude save or these spores take root in his flesh, and particularly in his lungs. The save DC is Constitution-based. Basidirond Spores: Disease-inhaled; *save* Fort DC 16; *frequency* 1/round for 6 rounds; *effect* 1d2 {rule/Con damage}; *cure* 1 save.",
 			"",
 			"**Cold Lethargy (Ex)** Although a basidirond is immune to cold damage, any cold effect it is exposed to slows it for 1d4 rounds. During this time, the basidirond cannot use its hallucination cloud or spores.",
 			"",

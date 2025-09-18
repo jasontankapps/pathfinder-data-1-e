@@ -1603,7 +1603,7 @@
 			"## Blood Drain (Ex)",
 			"",
 			"{SOURCE Bestiary 5/290}  ",
-			"The creature drains blood at the end of its turn if it grapples a foe, dealing Constitution damage.",
+			"The creature drains blood at the end of its turn if it grapples a foe, dealing {rule/Constitution damage}.",
 			"",
 			"**Format:** blood drain (1d2 Con)  ",
 			"**Location:** Special Attacks."

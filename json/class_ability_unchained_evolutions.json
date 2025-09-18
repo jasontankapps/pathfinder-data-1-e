@@ -417,7 +417,7 @@
 			"",
 			">*Eidolon Poison:* Injury; *save* Fort negates; *frequency* 1/round for 4 rounds; *effect* 1d4 {rule/Str damage}; *cure* 1 save.",
 			"",
-			"The save DC is equal to 10 + 1/2 the eidolon's Hit Dice + the eidolon's Constitution modifier. For 2 additional evolution points, this poison deals {rule/Constitution damage} instead. This poison can be used no more than once per round.",
+			"The save DC is equal to 10 + 1/2 the eidolon's Hit Dice + the eidolon's Constitution modifier. For 2 additional evolution points, this poison deals Constitution damage instead. This poison can be used no more than once per round.",
 			"",
 			"*Requirements:* Summoner level 7th; {eidolon/daemon}, {eidolon/demon}, {eidolon/devil}, {eidolon/elemental}, or {eidolon/protean} subtype; {unchevolution/bite} or {unchevolution/sting} evolution."
 		]

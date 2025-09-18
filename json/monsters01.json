@@ -3055,7 +3055,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Disease (Ex)** {disease/Filth fever}: Tongue-injury; *save* Fortitude DC 13; *onset* 1d3 days; *frequency* 1/day; *effect* 1d3 Dex damage and 1d3 Con damage; *cure* 2 consecutive saves. The save DC is Constitution-based.",
+			"**Disease (Ex)** {disease/Filth fever}: Tongue-injury; *save* Fortitude DC 13; *onset* 1d3 days; *frequency* 1/day; *effect* 1d3 {rule/Dex damage} and 1d3 Con damage; *cure* 2 consecutive saves. The save DC is Constitution-based.",
 			"",
 			"**Expert Climber (Ex)** An akaname can climb virtually any surface, no matter how slick or sheer. In effect, akaname are treated as constantly being under a natural version of the spell {spell/spider climb} with a climb speed of 30 feet.",
 			"",
