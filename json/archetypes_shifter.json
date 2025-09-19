@@ -541,7 +541,7 @@
 			">",
 			">**Flying:** The swarm shifter's claws change to venomous stingers that deliver poison on each attack.",
 			">",
-			">::aff{poison type=Claw-injury save=\"Fort DC = 10 + half the swarm shifter's level + her Constitution modifier\" freqR=6 eff=\"1d3 %%rule/Dex damage%%\" cure2c}",
+			">::aff{poison type=Claw-injury dcF dcLev=\"swarm shifter\" dcIt=her dcMod=Con freqR=6 effDex=\"1d3\" cure2c}",
 			">",
 			">**Undulating:** Whenever the swarm shifter is subject to a critical hit, she gains {umr/fast healing} equal to 1/3 her level for a number of rounds equal to 3 + her Wisdom modifier.",
 			"",

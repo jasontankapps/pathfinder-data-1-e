@@ -41,7 +41,7 @@
 		"description": [
 			"The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target. If it's used on a plot of land, the land begins to wither the following day, and over the next week all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch can affect an area with a radius equal to her class level &times; 10 feet. Blighting a creature is a standard action that requires a melee touch attack. If used on a creature of the animal or plant type, the creature gains the following {rule/curse>s}:",
 			"",
-			"::aff[Blight Hex]{curse save=\"Will negates\" freq=\"1/day\" eff=\"1 %%rule/Con damage%%\"}",
+			"::aff[Blight Hex]{curse save=\"Will negates\" freq=\"1/day\" effCon=\"1\"}",
 			"",
 			"Both types of curse can be removed with a {spell/remove curse} or similar magic, using the save DC as the DC to remove the curse. A witch can only have one blight in effect at a time. If another blight hex is made, the first immediately ends."
 		]
@@ -380,7 +380,7 @@
 		"description": [
 			"The witch empowers herself or an ally within 30 feet with poisonous nails. The affected creature gains a claw attack as a secondary attack that deals 1d3 points of damage (1d2 for Small creatures) and has the following poison ability:",
 			"",
-			"::aff[Witch Toxin]{type=Claw-injury saveF=\"10 + half the witch's level + the witch's Intelligence modifier\" freqR=6 eff=\"1d2 %%rule/Str damage%%\" cure1}",
+			"::aff[Witch Toxin]{type=Claw-injury dcF dcLev=witch dcIt=\"the witch's\" dcMod=Int freqR=6 effStr=\"1d2\" cure1}",
 			"",
 			"The creature gains this claw attack for a number of minutes equal to the witch's level. If the target already has a claw attack, that attack gains the poison ability listed above, but the DC is 1 higher. Once a creature has benefited from this hex, it cannot benefit from it again for 24 hours."
 		]

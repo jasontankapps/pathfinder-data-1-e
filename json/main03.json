@@ -1419,7 +1419,7 @@
 					[ "{trait/Planar Wayfarer}", "1/day meditate for 1hr for energy resistance 2 (acid, cold, elcty, fire, or sonic)", "Religion", null, null, null, "Onos", null, null, null ],
 					[ "{trait/Planetar's Visions}", "Crit vs evil outsider: ignore some of its DR", "Race", null, "Aasimar; Angelkin", null, null, null, null, null ],
 					[ "{trait/Planetary Traveler}", "+1 K(g), K(l), K(nt) regarding other planets", "Race", null, "Elf", null, null, null, null, null ],
-					[ "{trait/Poison Connoisseur}", "+2 vs injested poison; 1/day {spell/detect poison} as SLA", "Regional", null, null, "Taldor", null, null, null, null ],
+					[ "{trait/Poison Connoisseur}", "+2 vs ingested poison; 1/day {spell/detect poison} as SLA", "Regional", null, null, "Taldor", null, null, null, null ],
 					[ "{trait/Poisoned Blade Resistance}", "+2 Fortitude vs injury poison; immune to one such poison", "Regional", null, null, "River Kingdoms", null, null, null, null ],
 					[ "{trait/Poisonous Slayer}", "+1 att w/poisoned weapons", "Religion", null, null, null, "Norgorber", null, null, null ],
 					[ "{trait/Poisonous Upbringing}", "+2 saves vs poison", "Race", null, "Drow", null, null, null, null, null ],

@@ -2948,6 +2948,7 @@
 				],
 				"nullValue": "immediate",
 				"data": [
+					[ "{eq-poison/Abysium powder}", "ingested", "Fortitude DC 18", "10 minutes", "1/minute for 6 minutes", "1d4 Con damage plus nausea", 900 ],
 					[ "{eq-poison/Aconite root}", "ingested", "Fortitude DC 25", "1 minute", "1/round for 5 rounds", "1d3 Dex damage, 1 Con damage, nauseated 1 round", 1800 ],
 					[ "{eq-poison/Addlemind}", "ingested", "Fortitude DC 15", "1 minute", "1/minute for 10 minutes", "1d2 Wisdom damage, 5 penalty on all Knowledge and Perception checks", 75 ],
 					[ "{eq-poison/Alchemical isolation}", "injury", "Fortitude DC 13", null, "1/minute for 2 minutes", "deafened 10 minutes / blinded 10 minutes", 120 ],
@@ -2968,7 +2969,7 @@
 					[ "{eq-poison/Bloodpyre}", "contact", "Fortitude DC 14", null, "1/round for 6 rounds", "1 Cha, Int, Wis damage, 2d6 fire, see text", 1000 ],
 					[ "{eq-poison/Bloodroot}", "injury", "Fortitude DC 12", "1 round", "1/round for 4 rounds", "1 Con, 1 Wis, confusion 1 round", 100 ],
 					[ "{eq-poison/Bloodwine}", "ingested", "Fortitude DC 25", null, "1/minute for 6 minutes", "sickened for 1d4 hours / 1d3 Wis damage", 100 ],
-					[ "{eq-poison/Blue lily extract}", "contact or injested", "Fortitude DC 14 (18 if injested)", "1 minute", "1/hour for 6 hours", "1d4 Wisdom damage plus -4 penalty on Sense Motive checks and saving throws versus sleep effects for 1 hour", [ 99999, "N/A" ] ],
+					[ "{eq-poison/Blue lily extract}", "contact or ingested", "Fortitude DC 14 (18 if ingested)", "1 minute", "1/hour for 6 hours", "1d4 Wisdom damage plus -4 penalty on Sense Motive checks and saving throws versus sleep effects for 1 hour", [ 99999, "N/A" ] ],
 					[ "{eq-poison/Blue star}", "ingested", "Fortitude DC 15", "10 minutes", "1/minute for 6 minutes", "1d2 Con damage, -2 vs poison 1/week", 500 ],
 					[ "{eq-poison/Blue Whinnis}", "injury", "Fortitude DC 14", null, "1/round for 2 rounds", "1 Con damage, 1 Wis damage / unconscious 1d3 hours", 120 ],
 					[ "{eq-poison/Brain blot}", "inhaled", "Fortitude DC 13", "1 minute", "1/minute for 6 minutes", "-5 on concentration checks for 1 hour / 1 Int damage", 800 ],

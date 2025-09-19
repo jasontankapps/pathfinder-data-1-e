@@ -1278,7 +1278,7 @@
 			"- Grab and Constrict: The yaoguai's tentacle attack gains grab and constrict. The creature's constrict damage is equal to its slam damage plus its Strength bonus.",
 			"- Poison: One claw or tentacle attack is replaced with a sting attack (same damage as the replaced attack) plus poison.",
 			"",
-			"::aff{type=Sting-injury saveF=19 freqR=6 eff=\"1d2 %%rule/Str damage%%\" cure1 extra=\"The save DC is Constitution-based\"}",
+			"::aff{type=Sting-injury saveF=19 freqR=6 effStr=\"1d2\" cure1 extra=\"The save DC is Constitution-based\"}",
 			"",
 			"- Pounce and Rake: The yaoguai gains pounce and rake (2 claws +14, 1d8+7).",
 			"- Quills: A creature attacking the yaoguai with a melee weapon, an unarmed strike, or a natural weapon takes 1d8+7 points of piercing damage from the yaoguai's quills. Melee weapons with reach do not endanger their users in this way.",

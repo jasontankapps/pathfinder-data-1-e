@@ -19,9 +19,7 @@
 			"",
 			"Weapons and armor made from abysium glow with an intensity equal to that of a candle. Scholars have long debated where the glow and associated sickening effect come from, but most agree that the source of the power comes from the Abyss itself, due to the nature of the energy contained in abysium. Pure or properly refined abysium produces this energy in a way that can be harnessed by arcane engines and technologies to generate energy sources strong enough to power extensive magical creations like golems, traps, or magical items the size of buildings. Most secrets of harnessing this power have long been lost, but as the Shattered Star Adventure Path continues, the PCs will have many chances to learn more about this dangerous technology.",
 			"",
-			"Abysium can also be powdered and alchemically distilled with other rare catalysts and chemicals to form a much more potent toxin. It was in this form that the metal was most traditionally used in ancient Thassilon. A pound of Abysium is enough to make 1 dose of abysium powder.",
-			"",
-			"**Abysium Powder:** Poison-ingested; *save* Fortitude DC 18; *onset* 10 minutes; *frequency* 1/minute for 6 minutes; *effect* 1d4 {rule/Con damage} plus {misc/nausea}; *cure* 2 saves; *cost* 900 gp."
+			"Abysium can also be powdered and alchemically distilled with other rare catalysts and chemicals to form a much more potent toxin. It was in this form that the metal was most traditionally used in ancient Thassilon. A pound of Abysium is enough to make 1 dose of {eq-poison/abysium powder}."
 		]
 	},
 	"adamantine": {

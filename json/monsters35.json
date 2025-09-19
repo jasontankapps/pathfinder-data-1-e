@@ -4005,7 +4005,7 @@
 			"- Rending Claws (Ex, 2 CP): The necrocraft gains the rend ability, activating when both claws hit and dealing additional damage equal to the damage dice for one claw plus 1-1/2 times the necrocraft's Strength bonus.",
 			"- Rotting Flesh (Ex, 2 CP): Two of the necrocraft's bite or claw attacks are poisonous.",
 			"",
-			"::aff[Rotting Flesh]{poison type=\"Bite or claw-injury\" saveF=15 freqR=2 eff=\"1d3 %%rule/Con damage%%\" cure1}",
+			"::aff[Rotting Flesh]{poison type=\"Bite or claw-injury\" saveF=15 freqR=2 effCon=\"1d3\" cure1}",
 			"",
 			"- Stench (Ex, 2 CP): The necrocraft has the {umr/stench} ability (10-foot radius, Fort DC 15 negates, sickened for 1d6+4 minutes). This graft requires the body of at least one ghoul.",
 			"- Trample (Ex, 2 CP): The necrocraft gains the {umr/trample} universal monster ability as a special attack.",

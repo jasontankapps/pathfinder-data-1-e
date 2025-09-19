@@ -505,9 +505,9 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Ultimate Wilderness" ] ],
 		"description": [
-			"Once per hour, the barbarian can spit venom at an adjacent enemy as a standard action. She must make a touch attack to successfully spit on a foe in this way, but she can also apply this poison as a swift action when she hits with a bite attack. The DC of the save against this poison is equal to 10 + half the barbarian's level + the barbarian's Constitution modifier.",
+			"Once per hour, the barbarian can spit venom at an adjacent enemy as a standard action. She must make a touch attack to successfully spit on a foe in this way, but she can also apply this poison as a swift action when she hits with a bite attack.",
 			"",
-			">**Hissing Rage Poison (Su)** Bite-contact or injury; *save* Fort; *frequency* 1/round for 6 rounds; *effect* 1d2 {rule/Str damage}; *cure* 2 consecutive saves."
+			"::aff[Hissing Rage Poison]{type=\"Bite-contact or injury\" dcF dcLev=barbarian dcIt=her dcMod=Con effStr=\"1d2\" cure2c}"
 		]
 	},
 	"lesser_hurling": {

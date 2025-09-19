@@ -97,7 +97,7 @@
 			">**Ability Scores** Str +4, Dex -2, Con +2  ",
 			">**Special Attacks** {umr/poison}",
 			"",
-			"::aff{poison freqR=4 eff=\"1 %%rule/Str damage%%\" cure1}"
+			"::aff{poison dcF dcMod=Con dcHD=companion dcIt=its freqR=4 effStr=1 cure1}"
 		]
 	},
 	"giant_ant": { "redirect": "ant_giant" },
@@ -943,7 +943,7 @@
 			">**Special Qualities** darkvision 60 ft  ",
 			">**CMD** can't be tripped",
 			"",
-			"::aff{poison saveF=\"10 + 1/2 HD + Con modifier\" freqR=6 eff=\"1 %%rule/Dex damage%%\" save1}",
+			"::aff{poison dcF dcHD=companion dcIt=its dcMod=Con freqR=6 effDex=1 cure1}",
 			"",
 			"### 4th-Level Advancement",
 			"",
@@ -3246,7 +3246,7 @@
 			">**Attack** bite (1d8 plus grab and {umr/poison})  ",
 			">**Ability Scores** Str +4, Dex -2, Con +4",
 			"",
-			"::aff[Poison (based on monster entry)]{type=Bite-injury saveF=14 onset=\"1 minute\" freqH=6 eff=\"1d2 %%rule/Dex damage%%\" cure1}"
+			"::aff[Poison (based on monster entry)]{type=Bite-injury saveF=14 onset=\"1 minute\" freqH=6 effDex=\"1d2\" cure1}"
 		]
 	},
 	"monitor_lizard": { "redirect": "lizard_monitor_lizard" },
@@ -3430,7 +3430,7 @@
 			">**Special Attacks** {umr/poison}  ",
 			">**Special Qualities** low-light vision, {umr/scent}",
 			"",
-			"::aff{poison saveF=\"10 + 1/2 HD + Con modifier\" freqR=4 eff=\"1d2 %%rule/Dex damage%%\" save1}",
+			"::aff{poison dcF dcHD=companion dcIt=its dcMod=Con freqR=4 effDex=\"1d2\" cure1}",
 			"",
 			"### 7th-Level Advancement",
 			"",
@@ -3931,7 +3931,7 @@
 			">**Special Attacks** {umr/poison}  ",
 			">**Special Qualities** low-light vision, {umr/scent}",
 			"",
-			"::aff{poison saveF=\"10 + 1/2 HD + Con modifier\" freqR=3 eff=\"%%misc/sickened%% for 1d3 rounds\" cure1}",
+			"::aff{poison dcF dcHD=companion dcIt=its dcMod=Con freqR=3 eff=\"%%misc/sickened%% for 1d3 rounds\" cure1}",
 			"",
 			"### 4th-Level Advancement",
 			"",
@@ -3939,7 +3939,7 @@
 			">**Attack** 2 claws (1d4 plus poison)  ",
 			">**Special Attacks** poison",
 			"",
-			"::aff{poison saveF=\"10 + 1/2 HD + Con modifier\" freqR=3 eff=\"%%misc/sickened%% for 1d6 rounds\" cure1}"
+			"::aff{poison dcF dcHD=companion dcIt=its dcMod=Con freqR=3 eff=\"%%misc/sickened%% for 1d6 rounds\" cure1}"
 		]
 	},
 	"moose": {
@@ -4853,7 +4853,7 @@
 			">**Special Qualities** darkvision, {umr/tremorsense} 30 ft.  ",
 			">**CMD** +8 vs. trip",
 			"",
-			"::aff{poison saveF=\"10 + 1/2 HD + Con modifier\" freqR=6 eff=\"1 %%rule/Str damage%%\" save1}",
+			"::aff{poison dcF dcHD=companion dcIt=its dcMod=Con freqR=6 effStr=1 cure1}",
 			"",
 			"### 7th-Level Advancement",
 			"",
@@ -4864,7 +4864,7 @@
 			">**Special Attacks** poison  ",
 			">**Special Qualities** tremorsense 60 ft.",
 			"",
-			"::aff{poison saveF=\"10 + 1/2 HD + Con modifier\" freqR=6 eff=\"1d2 Str damage\" save1}"
+			"::aff{poison dcF dcHD=companion dcIt=its dcMod=Con freqR=6 eff=\"1d2 Str damage\" cure1}"
 		]
 	},
 	"giant_scorpion": { "redirect": "scorpion_giant" },
@@ -5168,7 +5168,7 @@
 			">**Special Attacks** {umr/poison}  ",
 			">**Special Qualities** low-light vision, {umr/scent}",
 			"",
-			"::aff{poison saveF=\"10 + 1/2 HD + Con modifier\" freqR=6 eff=\"1 %%rule/Con damage%%\" save1}",
+			"::aff{poison dcF dcHD=companion dcIt=its dcMod=Con freqR=6 effCon=1 cure1}",
 			"",
 			"### 4th-Level Advancement",
 			"",
@@ -5320,7 +5320,7 @@
 			">**Special Qualities** darkvision, {umr/tremorsense} 30 ft.  ",
 			">**CMD** +12 vs. trip",
 			"",
-			"::aff{poison saveF=\"10 + 1/2 HD + Con modifier\" freqR=4 eff=\"1 %%rule/Str damage%%\" save1}",
+			"::aff{poison dcF dcHD=companion dcIt=its dcMod=Con freqR=4 effStr=1 cure1}",
 			"",
 			"### 4th-Level Advancement",
 			"",
@@ -5910,7 +5910,7 @@
 			">**Special Qualities** darkvision  ",
 			">**CMD** +8 vs. trip",
 			"",
-			"::aff{poison saveF=\"10 + 1/2 HD + Con modifier\" freqR=6 eff=\"1 %%rule/Dex damage%%\" save1}",
+			"::aff{poison dcF dcHD=companion dcIt=its dcMod=Con freqR=6 effDex=1 cure1}",
 			"",
 			"### 7th-Level Advancement",
 			"",
@@ -6323,7 +6323,7 @@
 			">**Special Attacks** {umr/poison}  ",
 			">**Special Qualities** low-light vision",
 			"",
-			"::aff{poison saveF=\"10 + 1/2 HD + Con modifier\" freqR=6 eff=\"1 %%rule/Con damage%%\" save1}",
+			"::aff{poison dcF dcHD=companion dcIt=its dcMod=Con freqR=6 effCon=1 cure1}",
 			"",
 			"### 4th-Level Advancement",
 			"",

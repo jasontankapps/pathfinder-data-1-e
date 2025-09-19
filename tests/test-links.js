@@ -412,8 +412,8 @@ const testLinks = () => {
 					temp = m[2];
 				}
 				temp = line;
-				// Testing for {link/text}
-				while(m = checkForEncodedLink(temp)) {
+				// Testing for {link/text} and %%link/text%%
+				while(m = checkForEncodedLink(temp, {percent: true})) {
 					// [pre, `${protocol}/${property}`, text, post, protocol, property, `{${protocol}/${matchedx}}`]
 					const [ , potential, , post, protocol, property, fulltext ] = m;
 					if(protocol === "source") {

@@ -26,10 +26,11 @@
 // Below needs to be copied to src/components/convertLinks.tsx (with Typescript) when changed
 
 const checkForEncodedLink = (input, options = {}) => {
-	const { basic, bare } = options;
+	const { basic, bare, percent } = options;
 	let m = input.match(
 		bare ? /^([-a-z_]+?)[/](.+)($)/          // [ full, protocol, matchedx ]
-		: /(^.*?)(?:\{|%%)([-a-z_]*)[/]([^}]*?)(?:\}|%%)(.*$)/  // [ full, pre, protocol, matchedx, post ]
+		: percent ? /(^.*?)(?:\{|%%)([-a-z_]*)[/]([^}]*?)(?:\}|%%)(.*$)/  // [ full, pre, protocol, matchedx, post ]
+			: /(^.*?)\{([-a-z_]*)[/]([^}]*?)\}(.*$)/  // [ full, pre, protocol, matchedx, post ]
 	);
 	const m2 = basic && input.match(/(^.*?)\[([^\]]+)\]\(([-a-z_]+)[/]([^)]+)\)(.*$)/); // [ pre, text, protocol, link, post ]
 	if(!m && !m2) {

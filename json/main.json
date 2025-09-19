@@ -2776,7 +2776,7 @@
 					[ "{drug/Slaver's Drops}", [ 0, "minor" ], "ingested", 13, 20 ],
 					[ "{drug/Bloodbrush Extract}", [ 0, "minor" ], "ingested", 14, 25 ],
 					[ "{drug/Opium}", [ 2, "major" ], "inhaled, ingested, or injury", 20, 25 ],
-					[ "{drug/Tears of Razmir}", [ 2, "major" ], "injested", 18, 25 ],
+					[ "{drug/Tears of Razmir}", [ 2, "major" ], "ingested", 18, 25 ],
 					[ "{drug/Scour}", [ 2, "major" ], "ingested or inhaled", 24, 45 ],
 					[ "{drug/Sting's Savor}", [ 0, "minor" ], "injury", 15, 45 ],
 					[ "{drug/Dwarven Fire Ale}", [ 1, "moderate" ], "ingested", 20, 50 ],

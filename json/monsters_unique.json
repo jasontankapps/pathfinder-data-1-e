@@ -1815,7 +1815,7 @@
 			"",
 			"**Toxic Quill (Su)** Braismois's quill is a manifestation of his spirit and is treated as a +5 dagger that functions as a natural attack and deals 3d6 points of piercing damage on a hit. Braismois can throw the quill as a ranged attack against any creature within 120 feet. As a full-round action, he can instead make a ranged attack against all foes within 60 feet. Braismois can instantly re-form his toxic quill as a free action. For each attack Braismois makes with the quill, he can select one of the following poisons to apply to the attack. If the attack is a confirmed critical hit, the DC of the poison increases by 6 and can affect creatures with poison immunity. The save DCs are Constitution-based.",
 			"",
-			"::aff[Poison 1: Broken Oath]{type=injury saveF=32 freqM=10 eff=\"1d6 %%rule/Wis damage%% and controlled by Braismosis as per %%spell/dominate monster%% for the duration of the poison\" cure2c}",
+			"::aff[Poison 1: Broken Oath]{type=injury saveF=32 freqM=10 effWis=\"1d6\" effExtra=\"controlled by Braismosis as per %%spell/dominate monster%% for the duration of the poison\" cure2c}",
 			"",
 			"::aff[Poison 2: Promise of Power]{type=injury saveF=32 freq=\"2/round for 3 rounds\" eff=\"2d6 Str damage\" cure=\"2 consecutive saves or agree to telepathically transmitted contract with Braismois, which acts as a %%spell/geas%% and instantly heals the applied ability damage\"}",
 			"",
