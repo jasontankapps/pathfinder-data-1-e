@@ -3103,7 +3103,7 @@
 			"**AC** 23, touch 13, flat-footed 20 (+5 armor, +1 deflection, +2 Dex, +1 dodge, +5 natural, -1 size)  ",
 			"**hp** 133 (14 HD; 8d8+6d10+64)  ",
 			"**Fort** +8, **Ref** +13, **Will** +10  ",
-			"**Defensive Abilities** evasion, natural cunning, trap sense +2",
+			"**Defensive Abilities** {ability/evasion}, natural cunning, {ability/trap sense} +2",
 			"",
 			"::sh[Offense]",
 			"",

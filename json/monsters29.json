@@ -2230,7 +2230,7 @@
 			"**AC** 34, touch 24, flat-footed 28 (+4 deflection, +5 Dex, +1 dodge, +10 natural, +4 profane)  ",
 			"**hp** 263 (17d10+170)  ",
 			"**Fort** +19, **Ref** +23, **Will** +20  ",
-			"**Defensive Abilities** evasion, profane grace; **DR** 10/cold iron and good; **Immune** electricity, poison; **Resist** acid 10, cold 10, fire 10; **SR** 28",
+			"**Defensive Abilities** {ability/evasion}, profane grace; **DR** 10/cold iron and good; **Immune** electricity, poison; **Resist** acid 10, cold 10, fire 10; **SR** 28",
 			"",
 			"::sh[Offense]",
 			"",

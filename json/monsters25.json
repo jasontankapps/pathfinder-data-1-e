@@ -577,7 +577,7 @@
 			"**AC** 41, touch 26, flat-footed 32 (+8 Dex, +1 dodge, +11 Wis, +15 natural, -4 size)  ",
 			"**hp** 429 (26d10+286); {umr/regeneration} 15 (chaotic spells and effects)  ",
 			"**Fort** +19, **Ref** +23, **Will** +27  ",
-			"**Defensive Abilities** evasion, freedom of movement; **DR** 15/chaotic; **Immune** blindness, daze, divination effects, force effects, mind-affecting effects; **SR** 33",
+			"**Defensive Abilities** {ability/evasion}, freedom of movement; **DR** 15/chaotic; **Immune** blindness, daze, divination effects, force effects, mind-affecting effects; **SR** 33",
 			"",
 			"::sh[Offense]",
 			"",

@@ -3891,7 +3891,7 @@
 			"**AC** 24, touch 21, flat-footed 16 (+7 Dex, +1 dodge, +3 insight, +3 natural)  ",
 			"**hp** 114 (12d10+48); {umr/regeneration} 5 (good weapons, good spells)  ",
 			"**Fort** +12, **Ref** +11, **Will** +15  ",
-			"**Defensive Abilities** improved evasion; **DR** 10/good; **Immune** curse effects, disease, flanking, poison; **Resist** acid 10, electricity 10; **SR** 20",
+			"**Defensive Abilities** {ability/improved evasion}; **DR** 10/good; **Immune** curse effects, disease, flanking, poison; **Resist** acid 10, electricity 10; **SR** 20",
 			"",
 			"::sh[Offense]",
 			"",

@@ -2107,7 +2107,7 @@
 			"**AC** 27, touch 20, flat-footed 17 (+8 Dex, +2 dodge, +7 natural)  ",
 			"**hp** 119 (18d10+20); {umr/fast healing} 10  ",
 			"**Fort** +6, **Ref** +16, **Will** +6  ",
-			"**Defensive Abilities** evasion, rapid repair; **DR** 10/adamantine; **Immune** {umr/construct traits}  ",
+			"**Defensive Abilities** {ability/evasion}, rapid repair; **DR** 10/adamantine; **Immune** {umr/construct traits}  ",
 			"**Weaknesses** {umr/vulnerable} to electricity",
 			"",
 			"::sh[Offense]",

@@ -4128,7 +4128,7 @@
 			"**AC** 21, touch 15, flat-footed 16 (+4 Dex, +1 dodge, +6 natural)  ",
 			"**hp** 114 (12d10+48)  ",
 			"**Fort** +11, **Ref** +12, **Will** +6  ",
-			"**Defensive Abilities** improved evasion; **DR** 10/magic; **Immune** disease",
+			"**Defensive Abilities** {ability/improved evasion}; **DR** 10/magic; **Immune** disease",
 			"",
 			"::sh[Offense]",
 			"",

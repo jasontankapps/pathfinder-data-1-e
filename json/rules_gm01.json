@@ -1014,7 +1014,7 @@
 			"**AC** 18, touch 14, flat-footed 14 (+4 armor, +4 Dex)  ",
 			"**hp** 39 (4d10+2d8+6)  ",
 			"**Fort** +6, **Ref** +12, **Will** +2; +2 against enchantment  ",
-			"**Defensive Abilities** evasion; **Immune** sleep",
+			"**Defensive Abilities** {ability/evasion}; **Immune** sleep",
 			"",
 			"#### Offense",
 			"",

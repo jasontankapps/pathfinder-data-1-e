@@ -3927,7 +3927,7 @@
 			"**AC** 22, touch 20, flat-footed 17 (+2 armor, +1 deflection, +4 Dex, +1 dodge, +2 monk, +2 Wis)  ",
 			"**hp** 119 (11d8+66)  ",
 			"**Fort** +13, **Ref** +13, **Will** +11; +2 vs. enchantments  ",
-			"**Defensive Abilities** improved evasion; **Immune** disease, poison",
+			"**Defensive Abilities** {ability/improved evasion}; **Immune** disease, poison",
 			"",
 			"::sh[Offense]",
 			"",

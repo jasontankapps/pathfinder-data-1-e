@@ -2653,7 +2653,7 @@
 			"**AC** 27, touch 19, flat-footed 22 (+4 Dex, +1 dodge, +5 insight, +8 natural, -1 size)  ",
 			"**hp** 168 (16d10+80); {umr/fast healing} 10  ",
 			"**Fort** +10, **Ref** +16, **Will** +15  ",
-			"**Defensive Abilities** evasion, temporal sense; **Immune** disease, mind-affecting effects, pain effects, poison",
+			"**Defensive Abilities** {ability/evasion}, temporal sense; **Immune** disease, mind-affecting effects, pain effects, poison",
 			"",
 			"::sh[Offense]",
 			"",

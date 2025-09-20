@@ -3345,7 +3345,7 @@
 			"**AC** 15, touch 15, flat-footed 12 (+3 Dex, +2 size)  ",
 			"**hp** 4 (1d8)  ",
 			"**Fort** +2, **Ref** +7, **Will** +2  ",
-			"**Defensive Abilities** evasion",
+			"**Defensive Abilities** {ability/evasion}",
 			"",
 			"::sh[Offense]",
 			"",

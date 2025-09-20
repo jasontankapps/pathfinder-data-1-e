@@ -3229,7 +3229,7 @@
 			"**AC** 27, touch 13, flat-footed 22 (+5 Dex, +14 natural, -2 size)  ",
 			"**hp** 171 (18d10+72)  ",
 			"**Fort** +15, **Ref** +16, **Will** +12  ",
-			"**Defensive Abilities** {umr/all-around vision}, displacement, evasion, uncanny dodge; **Immune** illusions  ",
+			"**Defensive Abilities** {umr/all-around vision}, displacement, {ability/evasion}, {ability/uncanny dodge}; **Immune** illusions  ",
 			"**Weaknesses** {umr/vulnerability} to cold",
 			"",
 			"::sh[Offense]",
