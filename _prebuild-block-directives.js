@@ -120,7 +120,13 @@ const constructEffect = (attrs) => {
 	}
 	const last = output.pop();
 	if(output.length) {
-		return linker(output.join(", ") + (effOr ? "or " : "and ") + last);
+		return linker(output.join(", ") + (
+			output.length > 2 ? "," : ""
+		) + (
+			effOr ? (
+				effOr === "effOr" ? "or " : effOr
+			) : "and "
+		) + last);
 	}
 	return linker(last);
 };
@@ -282,7 +288,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"seceffStr", "seceffStrD", "seceffDex", "seceffDexD", "seceffCon", "seceffConD",
 					"seceffInt", "seceffIntD", "seceffWis", "seceffWisD", "seceffCha", "seceffChaD",
 					"seceffExtra", "seceffOr",
-					"cure","cure1","cure2","cure2c",
+					"cure","cure1","cure2","cure2c","cure3","cure3c",
 					"extra","start"
 				], logError);
 				// Affliction
@@ -291,7 +297,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					type, save, saveF, saveW, onset,
 					freq, freqR, freqM, freqH, freqD,
 					eff, ineff, seceff,
-					cure, cure1, cure2, cure2c,
+					cure, cure1, cure2, cure2c, cure3, cure3c,
 					extra, start
 				} = attrs;
 				const marked2 = makeNewMarkedInstance();
@@ -426,12 +432,16 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				const cureLine = cure ? marked2.parseInline(linker(cure)) : (
 					cure1 ? "1 save" : (
 						cure2 ? "2 saves" : (
-							cure2c ? "2 consecutive saves" : ""
+							cure2c ? "2 consecutive saves" : (
+								cure3 ? "3 saves" : (
+									cure3c ? "3 consecutive saves" : ""
+								)
+							)
 						)
 					)
 				);
 				if(cure) {
-					if(cure1 || cure2 || cure2c) {
+					if(cure1 || cure2 || cure2c || cure3 || cure3c) {
 						logError(`---> extra cure# prop`)
 					}
 				}

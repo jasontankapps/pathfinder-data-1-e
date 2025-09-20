@@ -425,7 +425,7 @@
 			"",
 			"The @HL[Benefit] column will give a brief description of the trait's benefits. It may use the following abbreviations:",
 			"",
-			";;;div{className=\"lastColumnStart\"}",
+			";;;div{className=lastColumnStart}",
 			"",
 			"| Abbrev. | Meaning |",
 			"| --- | --- |",

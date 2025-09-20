@@ -4864,7 +4864,7 @@
 			">**Special Attacks** poison  ",
 			">**Special Qualities** tremorsense 60 ft.",
 			"",
-			"::aff{poison dcF dcHD=companion dcIt=its dcMod=Con freqR=6 eff=\"1d2 Str damage\" cure1}"
+			"::aff{poison dcF dcHD=companion dcIt=its dcMod=Con freqR=6 effStr=\"1d2\" cure1}"
 		]
 	},
 	"giant_scorpion": { "redirect": "scorpion_giant" },

@@ -1266,7 +1266,7 @@
 			"",
 			">*Nanite Strike (Ex):* At 1st level as a free action, you can cause nanites to flow from your body and coat the striking end of any manufactured melee weapon you wield. When you hit with a melee attack using this weapon, some of the nanites infect the blood of the victim (see below). At 5th level, weapons you use with this ability are treated as magical for the purposes of overcoming DR, and the poison also deals 1 point of Constitution damage. At 7th level, the damage increases to 1d2 points of Constitution damage and 1d2 points of Strength damage. At 11th level, the cure becomes two successful saves. You can use this ability for a number of rounds per day equal to 3 + your Charisma modifier; these rounds need not be consecutive.",
 			">",
-			">::aff[Nanite Strike]{type=Poison-injury dcF dcLev=sorcerer dcYou dcMod=Con freqR=6 effStr=\"1\" cure1}",
+			">::aff[Nanite Strike]{type=Poison-injury dcF dcLev=sorcerer dcYou dcMod=Con freqR=6 effStr=1 cure1}",
 			">",
 			">*Nanite Surge (Ex):* At 3rd level, once per day as an immediate action, you can cause your nanites to surge, granting you a bonus equal to 3 + your sorcerer level on any one d20 roll; this ability must be activated before the roll is made. If you already possess the nanite surge ability from another source (such as from being an {race/android}), you can use your nanite surge an additional time per day. At 9th level, you can use this ability an additional time per day.",
 			">",

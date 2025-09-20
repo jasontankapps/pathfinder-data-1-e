@@ -47,7 +47,7 @@
 			"",
 			"**Poisoning:** In Edasseril, the domain of envy, the alchemists of Runelord Belimarius's vile and sprawling laboratories discovered a way to turn *arcane decay* into a toxin, allowing the disease to be delivered via poison. The poisoners never did find a way to cure the crippling madness caused by the poison - the toxin's high cost and the frustrating requirement of having to cure the giant's Wisdom drain before it could be put to work kept this poison from seeing greater use. Each dose of this poison costs 10,000 gp.",
 			"",
-			"::aff[Runeslave Poison]{type=ingested saveF=20 freqR=6 eff=\"%%misc/confusion%% for 1 round and 1d4 %%rule/Wisdom drain%% (if this results in the giant's Wisdom being drained to 0, the giant immediately transforms into a runeslave)\" cure=\"3 consecutive saves\"}",
+			"::aff[Runeslave Poison]{type=ingested saveF=20 freqR=6 eff=\"%%misc/confusion%% for 1 round and 1d4 %%rule/Wisdom drain%% (if this results in the giant's Wisdom being drained to 0, the giant immediately transforms into a runeslave)\" cure3c}",
 			"",
 			"**Runeslave Cauldron:** Brought forth from Gastash, the domain of gluttony, these {magic-artifact/runesla<massi|ve cauldron/s} were large enough to fit an adult stone giant and infused with necromantic energies. Any giant placed in a cauldron and then slain is immediately resurrected as a runeslave."
 		]
@@ -208,7 +208,7 @@
 			">",
 			">**Insidious Mind (Su):** When a seeded one succeeds at a saving throw against a psychic charm, a compulsion, or another mind-affecting spell or spell-like ability that would otherwise affect it, its dreams infect the spellcaster's mind, exposing him to seedborne consumption.",
 			">",
-			">::aff[Seedborne Consumption (Su)]{type=\"natural or touch attack\" dcF dcHD=\"the seeded one\" dcMod=Cha onset=\"1 month\" freq=\"1/month\" effCha=\"1d2\" effExtra=\"this damage cannot be healed while the creature is infected\" cure=\"3 consecutive saves\"}",
+			">::aff[Seedborne Consumption (Su)]{type=\"natural or touch attack\" dcF dcHD=\"the seeded one\" dcMod=Cha onset=\"1 month\" freq=\"1/month\" effCha=\"1d2\" effExtra=\"this damage cannot be healed while the creature is infected\" cure3c}",
 			">>",
 			">>When a creature's Charisma is reduced to 0, instead of becoming unconscious it falls into a feverish mental state where its mind is scattered and inattentive. The creature can still move and perform actions, but it can concentrate on only a single action, and for only a few moments. It takes a -4 penalty on saving throws; Intelligence-, Wisdom-, and Charisma-based checks; and skill checks. Within 24 hours of a creature's Charisma score reaching 0, it dies and rises as a seeded creature.",
 			"",
