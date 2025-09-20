@@ -1562,7 +1562,7 @@
 			"",
 			"**Environment** any  ",
 			"**Organization** solitary  ",
-			"**Treasure** gear ({eq-weapon/quarterstaff}, {eq-misc/spell component pouch}, other treasure)",
+			"**Treasure** {rule/NPC gear} ({eq-weapon/quarterstaff}, {eq-misc/spell component pouch}, other treasure)",
 			"",
 			"::sh[Description]",
 			"",

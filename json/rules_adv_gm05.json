@@ -117,6 +117,7 @@
 	"standard": { "redirect": "step_1_determine_treasure_budget" },
 	"double": { "redirect": "step_1_determine_treasure_budget" },
 	"triple": { "redirect": "step_1_determine_treasure_budget" },
+	"npc_gear": { "redirect": "step_1_determine_treasure_budget" },
 	"step_2_determine_treasure_type": {
 		"name": "Step 2: Determine Treasure Type",
 		"subtitle": "Treasure Generator",

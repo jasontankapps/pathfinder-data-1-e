@@ -1836,7 +1836,7 @@
 			"",
 			"**Environment** any  ",
 			"**Organization** solitary  ",
-			"**Treasure** NPC gear",
+			"**Treasure** {rule/NPC gear}",
 			"",
 			"::sh[Special Abilities]",
 			"",
