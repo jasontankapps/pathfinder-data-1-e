@@ -756,7 +756,7 @@
 			"**AC** 20, touch 20, flat-footed 14 (+5 Dex, +1 dodge, +4 size)  ",
 			"**hp** 82 (11d8+33)  ",
 			"**Fort** +8, **Ref** +10, **Will** +10  ",
-			"**Defensive Abilities** {subtype/swarm} traits; **Immune** weapon damage  ",
+			"**Defensive Abilities** swarm traits; **Immune** weapon damage  ",
 			"**Weaknesses** {umr/light blindness}",
 			"",
 			"::sh[Offense]",

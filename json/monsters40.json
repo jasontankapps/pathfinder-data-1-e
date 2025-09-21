@@ -1141,7 +1141,7 @@
 			"**AC** 19, touch 19, flat-footed 18 (+1 Dex, +8 size)  ",
 			"**hp** 51 (7d8+35)  ",
 			"**Fort** +9, **Ref** +3, **Will** +2  ",
-			"**Defensive Abilities** {subtype/swarm} traits; **Immune** {umr/plant traits}, weapon damage  ",
+			"**Defensive Abilities** swarm traits; **Immune** {umr/plant traits}, weapon damage  ",
 			"**Weaknesses** {umr/vulnerable} to fire",
 			"",
 			"::sh[Offense]",

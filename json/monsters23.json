@@ -963,7 +963,7 @@
 			"**AC** 20, touch 20, flat-footed 18 (+2 Dex, +8 size)  ",
 			"**hp** 75 (10d8+30)  ",
 			"**Fort** +10, **Ref** +5, **Will** +4  ",
-			"**Defensive Abilities** {subtype/swarm} traits; **Immune** disease, mind-affecting effects, visual effects, weapon damage; **Resist** acid 5  ",
+			"**Defensive Abilities** swarm traits; **Immune** disease, mind-affecting effects, visual effects, weapon damage; **Resist** acid 5  ",
 			"**Weaknesses** blind",
 			"",
 			"::sh[Offense]",

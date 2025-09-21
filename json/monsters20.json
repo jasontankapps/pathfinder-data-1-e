@@ -3072,7 +3072,7 @@
 			"**AC** 23, touch 17, flat-footed 18 (+4 Dex, +1 dodge, +6 natural, +2 size)  ",
 			"**hp** 117 (18d10+18)  ",
 			"**Fort** +6, **Ref** +12, **Will** +12  ",
-			"**Defensive Abilities** {umr/all-around vision}, hardness 10, {subtype/swarm} traits; **Immune** {umr/construct traits}  ",
+			"**Defensive Abilities** {umr/all-around vision}, hardness 10, swarm traits; **Immune** {umr/construct traits}  ",
 			"**Weaknesses** {umr/vulnerable} to electricity",
 			"",
 			"::sh[Offense]",
