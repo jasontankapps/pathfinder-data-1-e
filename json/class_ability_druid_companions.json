@@ -230,9 +230,11 @@
 			">**AC** +2 natural armor  ",
 			">**Attack** bite (1d4 plus poison), 2 claws (1d3)  ",
 			">**Ability Scores** Str 13, Dex 15, Con 13, Int -, Wis 10, Cha 2  ",
-			">**Special Attacks** {umr/poison} (frequency 1 round [4]; *effect* 1d2 Dex; *cure* 1 save; Con-based DC), poison stream (exposes all creatures in a 15-ft. line to poison, Reflex save negates; Dex-based DC; usable every 1d4 rounds as a standard action)  ",
+			">**Special Attacks** {umr/poison} (see below), poison stream (exposes all creatures in a 15-ft. line to poison, Reflex save negates; Dex-based DC; usable every 1d4 rounds as a standard action)  ",
 			">**Special Qualities** darkvision 60 ft.  ",
 			">**CMD** +8 vs. trip",
+			">",
+			">::aff{poison freqR=4 effDex=\"1d2\" cure1 dcF dcMod=Con dcHD=companion dcIt=its}",
 			"",
 			"### 4th-Level Advancement",
 			"",
@@ -240,7 +242,7 @@
 			">**AC** +1 natural armor  ",
 			">**Attack** bite (1d6 plus poison), 2 claws (1d4)  ",
 			">**Ability Scores** Str +4, Dex -2, Con +2  ",
-			">**Special Attacks** poison (frequency 1 round [4]; *effect* 1d2 Dex; *cure* 2 saves; Con-based DC)"
+			">**Special Attacks** poison (same as above, but cure becomes 2 saves)"
 		]
 	},
 	"giant_assassin_bug": { "redirect": "assassin_bug_giant" },
@@ -848,9 +850,11 @@
 			">**AC** +2 natural armor  ",
 			">**Attack** bite (1d6), bristles (secondary natural attack, 1d4 piercing plus poison)  ",
 			">**Ability Scores** Str 14, Dex 13, Con 13, Int -, Wis 11, Cha 2  ",
-			">**Special Attacks** bristles (a creature attacking the giant caterpillar with a natural attack or non-reach melee weapon must succeed at a Reflex save or take damage as if the caterpillar had struck the creature with its bristles attack; Dex-based DC with a +2 racial bonus), {umr/poison} (frequency 1 round [4]; *effect* 1d2 {rule/Str damage}; *cure* 1 save; Con-based DC)  ",
+			">**Special Attacks** bristles (a creature attacking the giant caterpillar with a natural attack or non-reach melee weapon must succeed at a Reflex save or take damage as if the caterpillar had struck the creature with its bristles attack; Dex-based DC with a +2 racial bonus), {umr/poison} (see below)  ",
 			">**Special Qualities** {umr/compression}, darkvision 60 ft.  ",
 			">**CMD** can't be tripped",
+			">",
+			">::aff{poison freqR=4 effStr=\"1d2\" cure1 dcF dcMod=Con dcHD=companion dcIt=its}",
 			"",
 			"### 4th-Level Advancement",
 			"",
@@ -1158,9 +1162,11 @@
 			">**AC** +1 natural armor  ",
 			">**Attack** slam (1d4 plus poison)  ",
 			">**Ability Scores** Str 12, Dex 15, Con 14, Int 1, Wis 12, Cha 9  ",
-			">**Special Attacks** {umr/poison} (frequency 1 round [4]; *effect* 1d2 {rule/Wis damage} and {misc/dazzled}; *cure* 1 save; Con-based)  ",
+			">**Special Attacks** {umr/poison} (see below)  ",
 			">**Special Qualities** darkvision 60 ft., defensive puff (1/minute as an immediate action when hit, the fungus can expose one adjacent creature to its poison)  ",
 			">**CMD** can't be tripped",
+			">",
+			">::aff{poison freqR=4 effWis=\"1d2\" effExtra=\"%%misc/dazzled%%\" cure1 dcF dcMod=Con dcHD=companion dcIt=its}",
 			"",
 			"### 4th-Level Advancement",
 			"",
@@ -1498,7 +1504,9 @@
 			"",
 			">**Attack** bite (1d6)  ",
 			">**Ability Scores** Str +2, Con +2  ",
-			">**Special Attacks** {umr/poison} (frequency 1 round (6); *effect* 1 {rule/Str damage}; *cure* 1 save, Con-based DC)"
+			">**Special Attacks** {umr/poison}",
+			">",
+			">::aff{poison freqR=6 effStr=1 cure1 dcF dcMod=Con dcHD=companion dcIt=its}"
 		]
 	},
 	"diplodocus": {
@@ -2276,9 +2284,11 @@
 			">**AC** +2 natural armor  ",
 			">**Attack** 2 claws (1d3), sting (1d3 plus poison)  ",
 			">**Ability Scores** Str 10, Dex 11, Con 12, Int -, Wis 13, Cha 2  ",
-			">**Special Attacks** {umr/poison} (frequency 1 round [4]; *effect* 1 {rule/Con damage}; *cure* 1 save; Con-based DC)  ",
+			">**Special Attacks** {umr/poison} (see below)  ",
 			">**Special Qualities** darkvision 60 ft.  ",
 			">**CMD** +8 vs. trip",
+			">",
+			">::aff{poison freqR=4 effCon=\"1\" cure=\"1 save\" dcF dcMod=Con dcHD=companion dcIt=its}",
 			"",
 			"### 7th-Level Advancement",
 			"",
@@ -2286,7 +2296,7 @@
 			">**AC** +3 natural armor  ",
 			">**Attack** 2 claws (1d4), sting (1d4 plus poison)  ",
 			">**Ability Scores** Str +8, Dex -2, Con +4  ",
-			">**Special Attacks** poison (frequency 1 round [6]; *effect* 1d2 Con damage; *cure* 1 save; Con-based DC)"
+			">**Special Attacks** poison (same as above, but frequency increases to 1/round for 6 rounds and damage increases to 1d2 Con)"
 		]
 	},
 	"faerie_mount": {
@@ -4531,9 +4541,11 @@
 			">**AC** +1 natural armor  ",
 			">**Attack** slam (1d4 plus poison)  ",
 			">**Ability Scores** Str 10, Dex 15, Con 13, Int 1, Wis 11, Cha 2  ",
-			">**Special Attacks** {umr/poison} (frequency 1 round [4]; *effect* 1 {rule/Dex damage} and sickened for 1 roun; *cure* 1 save; Con-based DC)  ",
+			">**Special Attacks** {umr/poison} (see below)  ",
 			">**Special Qualities** low-light vision  ",
 			">**CMD** can't be tripped",
+			">",
+			">::aff{poison freqR=4 effDex=1 effExtra=\"%%misc/sickened%% for 1 round\" cure1 dcF dcMod=Con dcHD=companion dcIt=its}",
 			"",
 			"### 4th-Level Advancement",
 			"",
@@ -4541,7 +4553,7 @@
 			">**AC** +2 natural armor  ",
 			">**Attack** slam (1d6 plus poison)  ",
 			">**Ability Scores** Str +4, Dex -2, Con +2  ",
-			">**Special Attacks** poison (frequency 1 round [4]; *effect* 1d2 Dex damage and sickened for 1 roun; *cure* 2 saves; Con-based DC)"
+			">**Special Attacks** poison (same as above, but cure now requires 2 saves)"
 		]
 	},
 	"raven_giant": {
@@ -4594,13 +4606,15 @@
 			">**AC** +2 natural armor  ",
 			">**Attack** bite (1d4 plus poison)  ",
 			">**Ability Scores** Str 10, Dex 15, Con 12, Int 1, Wis 13, Cha 2  ",
-			">**Special Attacks** {umr/poison} (frequency 1 round [6]; *effect* 1 {rule/Str damage}; *cure* 1 save; Con-based DC)  ",
+			">**Special Attacks** {umr/poison} (see below)  ",
 			">**Special Qualities** low-light vision, {umr/hold breath}, {umr/scent}",
+			">",
+			">::aff{poison freqR=6 effStr=\"1\" cure=\"1 save\" dcF dcMod=Con dcHD=companion dcIt=its}",
 			"",
 			"### 7th-Level Advancement",
 			"",
 			">**Ability Scores** Str +2, Dex +2  ",
-			">**Special Attacks** poison (frequency 1 round [6]; *effect* 1d2 Str damage; *cure* 2 saves; Con-based DC)"
+			">**Special Attacks** poison (same as above, but damage becomes 1d2 Str and cure is now 2 saves)"
 		]
 	},
 	"reindeer": {
@@ -5381,13 +5395,15 @@
 			">**AC** +2 natural armor  ",
 			">**Attack** bite (1d3)  ",
 			">**Ability Scores** Str 8, Dex 15, Con 11, Int 1, Wis 12, Cha 2  ",
-			">**Special Attacks** {umr/poison} (frequency 1 round [6]; *effect* blurred vision [20% miss chance] 1 round; *cure* 1 save; Con-based DC), spit (ranged touch attack, 10-foot range, poison, usable every 2d4 rounds)  ",
+			">**Special Attacks** {umr/poison} (see below), spit (ranged touch attack, 10-foot range, poison, usable every 2d4 rounds)  ",
 			">**Special Qualities** low-light vision, {umr/scent}",
+			">",
+			">::aff{poison freqR=6 eff=\"blurred vision (20% miss chance) 1 round\" cure1 dcF dcMod=Con dcHD=companion dcIt=its}",
 			"",
 			"### 7th-Level Advancement",
 			"",
 			">**Ability Scores** Dex +2, Con +2  ",
-			">**Special Attacks** poision (frequency 1 round [6]; *effect* {misc/blindness} 1 round; *cure* 1 save; Con-based DC)"
+			">**Special Attacks** poision (effect becomes {misc/blindness} 1 round)"
 		]
 	},
 	"squid": {
@@ -5970,9 +5986,11 @@
 			">**AC** +3 natural armor  ",
 			">**Attack** bite (1d6 plus poison)  ",
 			">**Ability Scores** Str 9, Dex 13, Con 13, Int -, Wis 10, Cha 2  ",
-			">**Special Attacks** {umr/poison} (frequency 1 round [4]; *effect* 1d2 {rule/Dex damage}; *cure* 1 save; Con-based DC)  ",
+			">**Special Attacks** {umr/poison} (see below)  ",
 			">**Special Qualities** darkvision 60 ft.  ",
 			">**CMD** can't be tripped",
+			">",
+			">::aff{poison freqR=4 effDex=\"1d2\" cure=\"1 save\" dcF dcMod=Con dcHD=companion dcIt=its}",
 			"",
 			"### 7th-Level Advancement",
 			"",

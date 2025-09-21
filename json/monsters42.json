@@ -1413,7 +1413,7 @@
 			"",
 			"**Poison (Ex)**",
 			"",
-			"::aff[Potent embalming fluid]{type=\"Claw-injury\" saveF=17 freqR=6 effDex=\"1d2\" effCon=\"1d2\" cure2c}",
+			"::aff[Potent embalming fluid]{type=Claw-injury saveF=17 freqR=6 effDex=\"1d2\" effCon=\"1d2\" cure2c}",
 			"",
 			"::sh[Description]",
 			"",

@@ -339,6 +339,17 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					logError("---> Invalid saveF or saveW")
 				}
 				//
+				// ADD TYPE, SAVE DC
+				//
+				output.push(
+					"<tr>",
+					`<th id="${id}-type">Type</th>`,
+					`<td headers="${id}-type">${supertype}</td>`,
+					`<th id="${id}-save">Save DC</th>`,
+					`<td headers="${id}-save">${saveDC}</td>`,
+					"</tr>"
+				);
+				//
 				// CONFIGURE FREQUENCY
 				//
 				let frequency = freq;
@@ -360,15 +371,10 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					}
 				}
 				//
-				// ADD TYPE, SAVE DC, ONSET, FREQUENCY
+				// ADD ONSET, FREQUENCY (if needed)
 				//
-				output.push(
-					"<tr>",
-					`<th id="${id}-type">Type</th>`,
-					`<td headers="${id}-type">${supertype}</td>`,
-					`<th id="${id}-save">Save DC</th>`,
-					`<td headers="${id}-save">${saveDC}</td>`,
-					"</tr><tr>",
+				output.push("<tr>");
+				frequency && output.push(
 					`<th id="${id}-onset">Onset</th>`,
 					`<td headers="${id}-onset">${onset || "immediate"}</td>`,
 					`<th id="${id}-freq">Frequency</th>`,

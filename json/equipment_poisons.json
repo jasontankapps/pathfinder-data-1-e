@@ -389,7 +389,7 @@
 			"",
 			"**Price** 90 gp; **Weight** &mdash;",
 			"",
-			"::aff{start type=ingested saveF=15 onset=\"1 minute\" eff=\"%%misc/unconscious/ness%% for 1d3 hours\" cure1}"
+			"::aff{start type=ingested saveF=15 onset=\"1 minute\" freq=\"&mdash\" eff=\"%%misc/unconscious/ness%% for 1d3 hours\" cure1}"
 		]
 	},
 	"small_centipede_poison": {
@@ -610,7 +610,7 @@
 			"",
 			"**Price** 125 gp; **Weight** &mdash;",
 			"",
-			"::aff{start type=contact saveF=10 onset=\"1 round\" eff=\"%%misc/sickened%%\" cure=\"2 consecutive saves or 1 minute spent washing the affected area\"}",
+			"::aff{start type=contact saveF=10 onset=\"1 round\" freq=\"No frequency was provided in the source\" eff=\"%%misc/sickened%%\" cure=\"2 consecutive saves or 1 minute spent washing the affected area\"}",
 			"",
 			"Extracted from the mashed leaves of the pernicious {eq-misc/goblinvine}, this irritant is favored by goblins and tricksters alike."
 		]
@@ -1050,7 +1050,7 @@
 			"",
 			"**Price** 400 gp; **Weight** &mdash;",
 			"",
-			"::aff{start type=ingested saveF=15 onset=\"1 round\" eff=\"%%misc/nauseated%% for 5 rounds\" cure1}",
+			"::aff{start type=ingested saveF=15 onset=\"1 round\" freq=\"No frequency was provided in the source\" eff=\"%%misc/nauseated%% for 5 rounds\" cure1}",
 			"",
 			"Invented as part of a series of dares between feuding {monster/goblin} camps, this noxious brew fermented from a slurry of swamp flora is a favored concoction of the Licktoad tribe. The potent intoxicant is popular among goblinoids (who are immune to its nauseating effect), but all other races that partake of this frothy drink are wracked with nausea."
 		]

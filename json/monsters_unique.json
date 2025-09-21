@@ -2707,7 +2707,7 @@
 			"",
 			"::aff{type=\"Bite or swallow-injury\" saveF=25 freqR=10 effStr=\"1d4\" effExtra=\"2d6 acid\" cure2c}",
 			"",
-			"::aff{type=\"snakebite-injury\" saveF=20 freqR=6 effCon=\"1d2\" cure2c}",
+			"::aff{type=snakebite-injury saveF=20 freqR=6 effCon=\"1d2\" cure2c}",
 			"",
 			"::sh[Description]",
 			"",
