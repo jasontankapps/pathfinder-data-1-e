@@ -641,13 +641,17 @@ div.afflictionWrap + div.afflictionWrap {
 div.afflictionWrap table {
 	border-radius: 1.5em;
 }
-div.afflictionWrap table tr:first-of-type *:first-child {
+div.afflictionWrap:not(.drug) table tr:first-of-type *:first-child {
 	border-start-start-radius: 1.5em;
+}
+div.afflictionWrap.drug table tr:first-of-type *:first-child {
+	border-start-start-radius: 1.5em;
+	border-end-start-radius: 1.5em;
 }
 div.afflictionWrap table tr:first-of-type *:last-child {
 	border-start-end-radius: 1.5em;
 }
-div.afflictionWrap table tr:last-of-type *:first-child {
+div.afflictionWrap:not(.drug) table tr:last-of-type *:first-child {
 	border-end-start-radius: 1.5em;
 }
 div.afflictionWrap table tr:last-of-type *:last-child {
