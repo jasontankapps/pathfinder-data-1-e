@@ -411,7 +411,7 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/133}",
 			">",
-			">When you hit a target with an attack of opportunity granted by this feat, you can spend 2 stamina points to {misc/daze>d} the target for 1 round. The target can attempt a Fortitude save with a DC equal to 10 + your base attack bonus to negate this effect."
+			">When you hit a target with an attack of opportunity granted by this feat, you can spend 2 stamina points to {misc/daze} the target for 1 round. The target can attempt a Fortitude save with a DC equal to 10 + your base attack bonus to negate this effect."
 		]
 	},
 	"teleportation_mastery": {
@@ -2379,7 +2379,7 @@
 			"",
 			"With thunderous simultaneous strikes, you can batter a mighty giant into submission.  ",
 			"**Prerequisites:** {race/Dwarf} or {race/gnome}; defensive training racial trait; {feat/Improved Two-Weapon Fighting} and {feat/Two-Weapon Fighting}, or flurry of blows class feature; {feat/Twin Thunders}; {feat/Twin Thunders Flurry}; {feat/Weapon Focus} with both wielded weapons; base attack bonus +9.  ",
-			"**Benefit:** Whenever you deal an opponent extra damage with the Twin Thunders feat, that opponent is {misc/shaken} for 1 round. You also force that opponent to succeed at a Fortitude saving throw (DC 10 + half your level + your Str modifier) or become {misc/staggered} for 1 round. If you use this feat to render staggered an opponent that is already staggered, you {misc/daze>d} that opponent instead. In a similar way, you can {misc/stun>ned} an opponent that is already dazed.",
+			"**Benefit:** Whenever you deal an opponent extra damage with the Twin Thunders feat, that opponent is {misc/shaken} for 1 round. You also force that opponent to succeed at a Fortitude saving throw (DC 10 + half your level + your Str modifier) or become {misc/staggered} for 1 round. If you use this feat to render staggered an opponent that is already staggered, you {misc/daze} that opponent instead. In a similar way, you can {misc/stun>ned} an opponent that is already dazed.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/134}",

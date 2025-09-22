@@ -773,7 +773,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Cerberus's Jaws (Su)** Curse-bite; *save* Fort DC 18; *effect* dimensional anchoring. A creature affected by this curse cannot utilize extradimensional travel such as teleport, as if it were under the effect of a dimensional anchor spell. The save DC is Constitution-based.",
+			"::aff[Cerberus's Jaws (Su)]{start curse type=bite saveF=18 eff=\"A creature affected by this curse cannot utilize extradimensional travel such as %%spell/teleport%%, as if it were under the effect of a %%spell/dimensional anchor%% spell.\" extra=\"The save DC is Con-based.\"}",
 			"",
 			"**Soul Scent (Su)** This ability functions as the scent ability, save that it also grants the cerberi a +4 racial bonus on Survival checks made to track undead. This ability even allows a cerberi to track the passage of an incorporeal creature.",
 			"",

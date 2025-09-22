@@ -2281,7 +2281,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Curse of Frozen Flesh (Su)** Slam-contact; *save* Will DC 24; *effect* Creature gains vulnerability to cold. Anytime the cursed creature fails a saving throw against a spell or effect with the cold descriptor, it is also slowed for 1d4 rounds.",
+			"::aff[Curse of Frozen Flesh (Su)]{start type=Slam-contact saveW=24 eff=\"Creature gains %%umr/vulnerability%% to cold. Anytime the cursed creature fails a saving throw against a spell or effect with the cold descriptor, it is also %%spell/slow/ed%% for 1d4 rounds.\"}",
 			"",
 			"**Lingering Curses (Su)** An indarugant is an accursed creature, and so has dominion over misfortune and curses. An indarugant can apply the effects of its curse of frozen flesh with its bestow curse spell-like ability (in place of bestow curse's normal effects). Additionally, the DC of any attempt to remove a curse inflicted by the indarugant increases by 5. If a caster level check to remove an indarugant's curse fails by 5 or more, the curse appears to be lifted and is temporarily suppressed until the next time the victim enters combat or is otherwise faced with a life-threatening situation (subject to the GM's discretion).",
 			"",

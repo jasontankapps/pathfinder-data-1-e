@@ -52,6 +52,8 @@
 		"type": "Rule",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
+	"dazes": { "redirect": "dazed" },
+	"daze": { "redirect": "dazed" },
 	"dazzled": {
 		"name": "Dazzled",
 		"sources": [ "PRPG Core Rulebook" ],
