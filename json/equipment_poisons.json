@@ -641,7 +641,7 @@
 			"",
 			"**Price** 150 gp; **Weight** &mdash;",
 			"",
-			"::aff{start type=ingested saveF=16 onset=\"4d6 hours\" freqH=8 eff=\"1d2 %%rule/Str damage%%. Additionally, as long as a creature is suffering from draughtcap fungus, its body is unable to process liquids, causing the creature to undergo the effects of [dehydration](rule/starvation_and_thirst) no matter how much it drinks and preventing the creature from benefitting from potions, extracts, and other such items. After the failed initial save, the creature counts as if it had gone without water for 1 day. Further, each failed ongoing save causes the creature to be treated as though it had gone an additional hour without consuming water.\" cure2c}",
+			"::aff{start type=ingested saveF=16 onset=\"4d6 hours\" freqH=8 eff=\"1d2 %%rule/Str damage%%. Additionally, as long as a creature is suffering from draughtcap fungus, its body is unable to process liquids, causing the creature to undergo the effects of %%rule/dehydration|>starvation_and_thirst%% no matter how much it drinks and preventing the creature from benefitting from potions, extracts, and other such items. After the failed initial save, the creature counts as if it had gone without water for 1 day. Further, each failed ongoing save causes the creature to be treated as though it had gone an additional hour without consuming water.\" cure2c}",
 			"",
 			"This yellow-brown mushroom is commonly found in deserts and other dry environments. Its spores absorb moisture at an incredible rate, wreaking havoc on the body of any creature foolish enough to consume it. Draughtcap fungus bears a close resemblance to a common edible mushroom, and a successful DC 20 Knowledge (nature) or Survival check is required to differentiate the two."
 		]
@@ -652,7 +652,7 @@
 		"description": [
 			"## Marvelous fear gas",
 			"",
-			"{SOURCE Inner Sea Intrigue/50}",
+			"{SOURCE Inner Sea Intrigue/51}",
 			"",
 			"**Price** 150 gp; **Weight** 1/2 lb.",
 			"",
@@ -760,7 +760,7 @@
 		"description": [
 			"## Chelish deathapple",
 			"",
-			"{SOURCE Inner Sea Intrigue/50}",
+			"{SOURCE Inner Sea Intrigue/51}",
 			"",
 			"**Price** 200 gp; **Weight** 1/2 lb.",
 			"",
@@ -1014,7 +1014,7 @@
 		"description": [
 			"## Blackfinder's silence",
 			"",
-			"{SOURCE Inner Sea Intrigue/50}",
+			"{SOURCE Inner Sea Intrigue/51}",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;",
 			"",
@@ -1180,7 +1180,7 @@
 		"description": [
 			"## Calistria's revenge",
 			"",
-			"{SOURCE Inner Sea Intrigue/50}",
+			"{SOURCE Inner Sea Intrigue/51}",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;",
 			"",
@@ -1426,7 +1426,7 @@
 		"description": [
 			"## Twilight illness",
 			"",
-			"{SOURCE Inner Sea Intrigue/50}",
+			"{SOURCE Inner Sea Intrigue/51}",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;",
 			"",
@@ -1441,11 +1441,11 @@
 		"description": [
 			"## Vessel between",
 			"",
-			"{SOURCE Inner Sea Intrigue/50}",
+			"{SOURCE Inner Sea Intrigue/51}",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;",
 			"",
-			"::aff{start type=ingested saveF=20 onset=\"%%misc/sickened%%\" freqM=4 effCon=\"1d2\" effWis=\"1d2\" cure2}",
+			"::aff{start type=ingested saveF=20 onset=\"sickened\" freqM=4 effCon=\"1d2\" effWis=\"1d2\" cure2}",
 			"",
 			"Daggermark assassins speak of this poison as if it were a companion helping them bear their victims along the road from life to death"
 		]
@@ -1749,7 +1749,7 @@
 		"description": [
 			"## Breath of the mantis god",
 			"",
-			"{SOURCE Adventurer's Guide/158;Inner Sea Intrigue/50}",
+			"{SOURCE Adventurer's Guide/158;Inner Sea Intrigue/51}",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;",
 			"",
@@ -1966,7 +1966,7 @@
 			"",
 			"**Price** 2,500 gp; **Weight** &mdash;",
 			"",
-			"::aff[type=\"Curse and poison; ingested or injury\" saveW=20 freqH=6 eff=\"1d2 %%rule/Int damage%% (cannot reduce a creature's Int or Cha below 1)\" cure3c extra=\"A creature currently suffering the *curse of bestial dreams* transforms into an %%template/id mutant%% once its Intelligence is reduced by 6 points or reaches a score of 1, whichever comes first.\"}",
+			"::aff{type=\"Curse and poison; ingested or injury\" saveW=20 freqH=6 eff=\"1d2 %%rule/Int damage%% (cannot reduce a creature's Int or Cha below 1)\" cure3c extra=\"A creature currently suffering the *curse of bestial dreams* transforms into an %%template/id mutant%% once its Intelligence is reduced by 6 points or reaches a score of 1, whichever comes first.\"}",
 			"",
 			"This supernatural toxin exists either in powdered form or, if mixed with an alchemically prepared solution of blood and magical reagents, as a sticky paste. The primary ingredient is a dream crystal whose stored dreams have been corrupted by otherworldly powers into nightmarish energies - a single crystal yields 1 dose of toxin. On Golarion, only the few dream crystals that remain in the crashed Lirgen's Glory can be used to create more of this toxin, but if the Emissary from Beyond establishes a domain in Dustpawn, it can create more dream crystals, given time. Dream crystal toxin introduced in significant quantities to a water supply dilutes the venom so that any who drink the water suffer a lesser version of its effects - see the {curse/curse of bestial dreams} for details. In any event, dream crystal toxin counts as both a poison and a curse for determining what can negate its effects. A creature must be immune to both poison and curses to be immune to dream crystal toxin."
 		]

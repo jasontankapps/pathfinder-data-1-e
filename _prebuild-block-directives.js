@@ -466,7 +466,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				//
 				if(extra) {
 					output.push(
-						`<tr><td colSpan={4}>${extra}</td></tr>`
+						`<tr><td colSpan={4}>${marked2.parseInline(linker(extra))}</td></tr>`
 					);
 				}
 				//

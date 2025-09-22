@@ -195,7 +195,7 @@
 			"",
 			"**Nightmare Curse (Ex)** An animate dream's touch puts horrifying visions in the target's mind.",
 			"",
-			"::aff[Nightmare Curse]{curse type=\"incorporeal touch\" saveW=21 freq=\"1/day\" effWisD=\"1d4\" effExtra=\"target is %%misc/fatigued%%\" cure=\"3 consecutive saves or %%dispel evil%%, %%dream%%, or %%remove curse%%\"}",
+			"::aff[Nightmare Curse]{curse type=\"incorporeal touch\" saveW=21 freq=\"1/day\" effWisD=\"1d4\" effExtra=\"target is %%misc/fatigued%%\" cure=\"3 consecutive saves or %%spell/dispel evil%%, %%spell/dream%%, or %%spell/remove curse%%\"}",
 			"",
 			"::sh[Description]",
 			"",

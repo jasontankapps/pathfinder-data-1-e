@@ -307,7 +307,7 @@
 			"",
 			"{SOURCE Pathfinder #51: The Hungry Storm/67}",
 			"",
-			"::aff{start type=injury saveF=16 onset=\"1 day\" freq=\"1/day\" effDex=\"1d4\" effExtra=\"any nonlethal damage incurred from being in a cold environment becomes lethal damage (though it can still cause [hypothermia](rule/cold_dangers))\" cure2c}"
+			"::aff{start type=injury saveF=16 onset=\"1 day\" freq=\"1/day\" effDex=\"1d4\" effExtra=\"any nonlethal damage incurred from being in a cold environment becomes lethal damage (though it can still cause %%rule/hypothermia|>cold_dangers%%)\" cure2c}"
 		]
 	},
 	"boot_soup": {
