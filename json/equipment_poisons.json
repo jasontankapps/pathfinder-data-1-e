@@ -1445,7 +1445,7 @@
 			"",
 			"**Price** 750 gp; **Weight** &mdash;",
 			"",
-			"::aff{start type=ingested saveF=20 onset=\"sickened\" freqM=4 effCon=\"1d2\" effWis=\"1d2\" cure2}",
+			"::aff{start type=ingested saveF=20 onset=sickened freqM=4 effCon=\"1d2\" effWis=\"1d2\" cure2}",
 			"",
 			"Daggermark assassins speak of this poison as if it were a companion helping them bear their victims along the road from life to death"
 		]

@@ -3809,7 +3809,7 @@
 			"",
 			"**Clockwork Repair (Ex)** The toy golem has fast healing 2 when in an area with a high concentration of clockwork parts, such as Mutalib's workshop or the area created by a similar golem's discorporate ability.",
 			"",
-			"**Disease (Ex)** Tetanus: Slam-injury; *save* Fort DC 13; *onset* 1d6 days; *frequency* 1/day; *effect* 1d4 {rule/Dex damage}. Each time a victim takes Dexterity damage from tetanus, there's a 50% chance its jaw muscles stiffen, preventing speech and the use of spells with verbal components for 24 hours; *cure* 2 consecutive saves. The save DC is Constitution-based.",
+			"**Disease (Ex)** {disease/Tetanus}, but DC is 13.",
 			"",
 			"::sh[Description]",
 			"",

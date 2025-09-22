@@ -1225,7 +1225,9 @@
 			"",
 			"Though the above statistics represent the most common breed of kamadan, two rarer but more dangerous variants are detailed in brief below.",
 			"",
-			"Dusk Kamadan (CR +1): A dusk kamadan has midnight black fur and snakes bearing black and red ring patterns on their bodies. A dusk kamadan has the advanced creature template, and its snakes have a poisonous bite: Snakes-injury; *save* Fort DC 17; *frequency* 1/round for 6 rounds; *effect* 1d2 Con; *cure* 2 consecutive saves.",
+			"Dusk Kamadan (CR +1): A dusk kamadan has midnight black fur and snakes bearing black and red ring patterns on their bodies. A dusk kamadan has the advanced creature template, and its snakes have a poisonous bite:",
+			"",
+			"::aff{type=Snakes-injury saveF=17 freqR=6 effCon=\"1d2\" cure2c}",
 			"",
 			"Polar Kamadan (CR +2): A polar kamadan has white fur with black spots like a snow leopard. Its snakes are furred as well. A polar kamadan has the advanced creature template and bat-like wings that grant it a fly speed of 60 ft. (average). The breath weapon of a polar kamadan is particularly cold - those who succumb to it also suffer 1d4 points of Dexterity damage from numbness."
 		]
@@ -2297,7 +2299,7 @@
 			"",
 			"**Catastrophic Shot (Ex)** Whenever a kuchrima makes only a single attack in a round with a bow, it increases the critical threat range of that shot to 18-20.",
 			"",
-			"**Disease (Ex)** Bite-Filth Fever; *save* Fort DC 19; *onset* 1d3 days; *frequency* 1/day; *effect* 1d3 {rule/Dex damage} and 1d3 Con damage; *cure* 2 consecutive saves.",
+			"**Disease (Ex)** {disease/Filth Fever}, DC 19.",
 			"",
 			"**Oversized Weapon (Ex)** A kuchrima can wield an oversized longbow in its talons while flying without incurring any penalty-this longbow can be one size category larger than normal (Large for most kuchrimas).",
 			"",

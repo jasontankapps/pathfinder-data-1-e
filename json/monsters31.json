@@ -2888,7 +2888,7 @@
 			"",
 			"**Feed (Su)** By spending a full-round action devouring the body of a dead or unconscious creature, a ghonhatine gains 1d8+9 temporary hit points and a +2 bonus on attack and damage rolls for 1 minute. The bonus to hit points is Constitution-based.",
 			"",
-			"**Filth Fever (Ex)** Disease-injury; *save* Fort DC 25; *onset* 1d3 days; *frequency* 1 day; *effect* 1d3 {rule/Dex damage} and 1d3 Con damage; *cure* 2 consecutive saves. The save DC is Constitution-based.",
+			"**Filth Fever (Ex)** As the [disease](disease/filth_fever), DC 25. The save DC is Constitution-based.",
 			"",
 			"**Powerful Stench (Ex)** An enraged ghonhatine secretes a tarry, musk-like chemical. Any living, non-ghonhatine creature within 10 feet must succeed at a DC 24 Fortitude save or be nauseated as long as it remains within the affected area and for 1d4 rounds afterward. A creature that saves is sickened as long as it remains in the area, and can't be affected again by the same ghonhatine's stench for 24 hours. This is a poison effect. The save DC is Constitution-based.",
 			"",

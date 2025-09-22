@@ -124,8 +124,8 @@ const constructEffect = (attrs) => {
 			output.length > 2 ? "," : ""
 		) + (
 			effOr ? (
-				effOr === "effOr" ? "or " : effOr
-			) : "and "
+				effOr === "effOr" ? " or " : effOr
+			) : " and "
 		) + last);
 	}
 	return linker(last);
