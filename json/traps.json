@@ -104,7 +104,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/420}",
 			"",
-			"::trap[Burning Hands Trap]{start cr=2 magic pdc=26 dddc=26 trigger=\"proximity (alarm)\" eff=\"spell effect (burning hands, 2d4 fire damage, DC 11 Reflex save for half damage); multiple targets (all targets in a 15-ft. cone)\"}"
+			"::trap[Burning Hands Trap]{start cr=2 magic pdc=26 dddc=26 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/burning hands%%, 2d4 fire damage, DC 11 Reflex save for half damage); multiple targets (all targets in a 15-ft. cone)\"}"
 		]
 	},
 	"clam_clamp": {
@@ -140,7 +140,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/420}",
 			"",
-			"::trap[Acid Arrow Trap]{start cr=3 magic pdc=27 dddc=27 trigger=\"proximity (alarm)\" eff=\"spell effect (acid arrow, Atk +2 ranged touch, 2d4 acid damage for 4 rounds)\"}"
+			"::trap[Acid Arrow Trap]{start cr=3 magic pdc=27 dddc=27 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/acid arrow%%, Atk +2 ranged touch, 2d4 acid damage for 4 rounds)\"}"
 		]
 	},
 	"camouflaged_pit_trap": {
@@ -222,7 +222,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/421}",
 			"",
-			"::trap[Fireball Trap]{start cr=5 magic pdc=28 dddc=28 trigger=\"proximity (alarm)\" eff=\"spell effect (fireball, 6d6 fire damage, DC 14 Reflex save for half damage); multiple targets (all targets in a 20-ft.-radius burst)\"}"
+			"::trap[Fireball Trap]{start cr=5 magic pdc=28 dddc=28 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/fireball%%, 6d6 fire damage, DC 14 Reflex save for half damage); multiple targets (all targets in a 20-ft.-radius burst)\"}"
 		]
 	},
 	"flame_strike_trap": {
@@ -231,7 +231,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/421}",
 			"",
-			"::trap[Flame Strike Trap]{start cr=6 magic pdc=30 dddc=30 trigger=\"proximity (alarm)\" eff=\"spell effect (flame strike, 8d6 fire damage, DC 17 Reflex save for half damage); multiple targets (all targets in a 10-ft.-radius cylinder)\"}"
+			"::trap[Flame Strike Trap]{start cr=6 magic pdc=30 dddc=30 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/flame strike%%, 8d6 fire damage, DC 17 Reflex save for half damage); multiple targets (all targets in a 10-ft.-radius cylinder)\"}"
 		]
 	},
 	"wyvern_arrow_trap": {
@@ -240,7 +240,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/421}",
 			"",
-			"::trap[Wyvern Arrow Trap]{start cr=6 mechanical pdc=20 dddc=20 trigger=location eff=\"Atk +15 ranged (1d6 plus wyvern poison/&times&3)\"}"
+			"::trap[Wyvern Arrow Trap]{start cr=6 mechanical pdc=20 dddc=20 trigger=location eff=\"Atk +15 ranged (1d6 plus %%eq-poison/wyvern poison%%/&times&3)\"}"
 		]
 	},
 	"faceless_statue_trap": {
@@ -249,7 +249,7 @@
 		"description": [
 			"{SOURCE Horror Adventures/162}",
 			"",
-			"::trap[Faceless Statue Trap]{start cr=7 magic pdc=31 dddc=31 trigger=\"proximity (15 feet)\" eff=\"The faceless statue trap targets a creature with a %%spell/flesh to stone%% effect (DC 19, single target), followed immediately by a %%spell/stone shape%% effect, which completely smooths the face of the target, making it appear to be faceless. If the creature is returned to flesh, this transformation persists, rendering the target permanently blind, deaf, mute, and unable to breathe. Unless the change is reversed via %%spell/regenerate%% or other magic capable of restoring the target's mouth or nose, or unless the target is able to survive without breathing, the creature begins to suffocate immediately. Using *stone shape* on the creature while it is still petrified can restore its face, preventing this, but only if the caster succeeds at a DC 25 Craft (sculpture) check. Otherwise, the spell creates a grotesque parody of a face, formed entirely of flesh and without function. Other variants of this trap exist that perform similarly grotesque alterations to a creature via *stone shape.*\"}"
+			"::trap[Faceless Statue Trap]{start cr=7 magic pdc=31 dddc=31 trigger=\"proximity (15 feet)\" eff=\"The faceless statue trap targets a creature with a %%spell/flesh to stone%% effect (DC 19, single target), followed immediately by a %%spell/stone shape%% effect, which completely smooths the face of the target, making it appear to be faceless. If the creature is returned to flesh, this transformation persists, rendering the target permanently blind, deaf, mute, and unable to breathe. Unless the change is reversed via %%spell/regenerate%% or other magic capable of restoring the target's mouth or nose, or unless the target is able to survive without breathing, the creature begins to %%rule/suffocate%% immediately. Using *stone shape* on the creature while it is still petrified can restore its face, preventing this, but only if the caster succeeds at a DC 25 Craft (sculpture) check. Otherwise, the spell creates a grotesque parody of a face, formed entirely of flesh and without function. Other variants of this trap exist that perform similarly grotesque alterations to a creature via *stone shape.*\"}"
 		]
 	},
 	"frost_fangs_trap": {
@@ -258,7 +258,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/421}",
 			"",
-			"::trap[Frost Fangs Trap]{start cr=7 mechanical pdc=25 dddc=20 trigger=location eff=\"**Duration** 3 rounds; jets of freezing water (3d6 cold damage, DC 20 Reflex save for half damage); multiple targets (all targets in a 40-ft.-square chamber)\"}"
+			"::trap[Frost Fangs Trap]{start cr=7 mechanical pdc=25 dddc=20 trigger=location eff=\"jets of freezing water (3d6 cold damage, DC 20 Reflex save for half damage); multiple targets (all targets in a 40-ft.-square chamber); **Duration:** 3 rounds\"}"
 		]
 	},
 	"sinking_coffin_trap": {
@@ -295,7 +295,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/421}",
 			"",
-			"::trap[Insanity Mist Trap]{start cr=8 mechanical pdc=25 dddc=20 trigger=location repair eff=\"poison gas (insanity mist); never miss; onset delay (1 round); multiple targets (all targets in a 10-ft.-by-10-ft. room)\"}"
+			"::trap[Insanity Mist Trap]{start cr=8 mechanical pdc=25 dddc=20 trigger=location repair eff=\"poison gas (%%eq-poison/insanity mist%%); never miss; onset delay (1 round); multiple targets (all targets in a 10-ft.-by-10-ft. room)\"}"
 		]
 	},
 	"hail_of_arrows_trap": {
@@ -313,7 +313,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/421}",
 			"",
-			"::trap[Shocking Floor Trap]{start cr=9 magic pdc=26 dddc=26 trigger=\"proximity (alarm); Duration 1d6 rounds\" eff=\"spell effect (shocking grasp, Atk +9 melee touch &#91&4d6 electricity damage&#93&); multiple targets (all targets in a 40-ft.-square room)\"}"
+			"::trap[Shocking Floor Trap]{start cr=9 magic pdc=26 dddc=26 trigger=\"proximity (alarm); \" eff=\"spell effect (%%spell/shocking grasp%%, Atk +9 melee touch &#91&4d6 electricity damage&#93&); multiple targets (all targets in a 40-ft.-square room); **Duration:** 1d6 rounds\"}"
 		]
 	},
 	"chamber_of_blades_trap": {
@@ -322,7 +322,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/421}",
 			"",
-			"::trap[Chamber of Blades Trap]{start cr=10 mechanical pdc=25 dddc=20 trigger=location repair eff=\"**Duration** 1d4 rounds; Atk +20 melee (3d8+3); multiple targets (all targets in a 20-ft.-square chamber)\"}"
+			"::trap[Chamber of Blades Trap]{start cr=10 mechanical pdc=25 dddc=20 trigger=location repair eff=\"Atk +20 melee (3d8+3); multiple targets (all targets in a 20-ft.-square chamber); **Duration:** 1d4 rounds\"}"
 		]
 	},
 	"energy_drain_trap": {
@@ -331,7 +331,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/421}",
 			"",
-			"::trap[Energy Drain Trap]{start cr=10 magic pdc=34 dddc=34 trigger=\"visual (true seeing)\" eff=\"spell effect (energy drain, Atk +10 ranged touch, 2d4 temporary negative levels, DC 23 Fortitude negates after 24 hours)\"}"
+			"::trap[Energy Drain Trap]{start cr=10 magic pdc=34 dddc=34 trigger=\"visual (true seeing)\" eff=\"spell effect (%%spell/energy drain%%, Atk +10 ranged touch, 2d4 temporary negative levels, DC 23 Fortitude negates after 24 hours)\"}"
 		]
 	},
 	"cone_of_cold_trap": {
@@ -340,7 +340,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/421}",
 			"",
-			"::trap[Cone of Cold Trap]{start cr=11 magic pdc=30 dddc=30 trigger=\"proximity (alarm)\" eff=\"spell effect (cone of cold, 15d6 cold damage, DC 17 Reflex save for half damage); multiple targets (all targets in a 60-ft. cone)\"}"
+			"::trap[Cone of Cold Trap]{start cr=11 magic pdc=30 dddc=30 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/cone of cold%%, 15d6 cold damage, DC 17 Reflex save for half damage); multiple targets (all targets in a 60-ft. cone)\"}"
 		]
 	},
 	"crushing_cage_tarp": {
@@ -367,7 +367,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/421}",
 			"",
-			"::trap[Maximized Fireball Trap]{start cr=13 magic pdc=31 dddc=31 trigger=\"proximity (alarm)\" eff=\"spell effect (fireball, 60 fire damage, DC 14 Reflex save for half damage); multiple targets (all targets in a 20-ft.-radius burst)\"}"
+			"::trap[Maximized Fireball Trap]{start cr=13 magic pdc=31 dddc=31 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/fireball%%, 60 fire damage, DC 14 Reflex save for half damage); multiple targets (all targets in a 20-ft.-radius burst)\"}"
 		]
 	},
 	"harm_trap": {
@@ -376,7 +376,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/422}",
 			"",
-			"::trap[Harm Trap]{start cr=14 magic pdc=31 dddc=31 trigger=touch eff=\"spell effect (harm, +6 melee touch, 130 damage, DC 19 Will save for half, cannot be reduced to less than 1 hit point)\"}"
+			"::trap[Harm Trap]{start cr=14 magic pdc=31 dddc=31 trigger=touch eff=\"spell effect (%%spell/harm%%, +6 melee touch, 130 damage, DC 19 Will save for half, cannot be reduced to less than 1 hit point)\"}"
 		]
 	},
 	"crushing_stone_trap": {
@@ -394,7 +394,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/422}",
 			"",
-			"::trap[Empowered Disintegrate Trap]{start cr=16 magic pdc=33 dddc=33 trigger=\"sight (true seeing)\" eff=\"spell effect (empowered disintegrate, +9 ranged touch, 30d6 damage plus 50%, DC 19 Fort save reduces the damage to 5d6 plus 50%)\"}"
+			"::trap[Empowered Disintegrate Trap]{start cr=16 magic pdc=33 dddc=33 trigger=\"sight (true seeing)\" eff=\"spell effect (%%feat/empowered%% %%spell/disintegrate%%, +9 ranged touch, 30d6 damage plus 50%, DC 19 Fort save reduces the damage to 5d6 plus 50%)\"}"
 		]
 	},
 	"lightning_bolt_gallery_trap": {
@@ -403,7 +403,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/422}",
 			"",
-			"::trap[Lightning Bolt Gallery Trap]{start cr=17 magic pdc=29 dddc=29 trigger=\"proximity (alarm); Duration 1d6 rounds\" eff=\"spell effect (heightened lightning bolt, 8d6 electricity damage, DC 16 Reflex save for half); multiple targets (all targets in a 60-ft.-square chamber)\"}"
+			"::trap[Lightning Bolt Gallery Trap]{start cr=17 magic pdc=29 dddc=29 trigger=\"proximity (alarm)\" eff=\"spell effect (%%feat/heightened%% %%spell/lightning bolt%%, 8d6 electricity damage, DC 16 Reflex save for half); multiple targets (all targets in a 60-ft.-square chamber); **Duration:** 1d6 rounds\"}"
 		]
 	},
 	"deadly_spear_trap": {
@@ -421,7 +421,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/422}",
 			"",
-			"::trap[Meteor Swarm Trap]{start cr=19 magic pdc=34 dddc=34 trigger=\"sight (true seeing)\" eff=\"spell effect (meteor swarm, 4 meteors at separate targets, +9 ranged touch, 2d6 plus 6d6 fire &#91&-4 save on a hit&#93&, DC 23 Reflex save for half fire damage, 18d6 fire damage from other meteors, DC 23 Reflex save for half damage); multiple targets (four targets, no two of which can be more than 40 ft. apart)\"}"
+			"::trap[Meteor Swarm Trap]{start cr=19 magic pdc=34 dddc=34 trigger=\"sight (true seeing)\" eff=\"spell effect (%%spell/meteor swarm%%, 4 meteors at separate targets, +9 ranged touch, 2d6 plus 6d6 fire &#91&-4 save on a hit&#93&, DC 23 Reflex save for half fire damage, 18d6 fire damage from other meteors, DC 23 Reflex save for half damage); multiple targets (four targets, no two of which can be more than 40 ft. apart)\"}"
 		]
 	},
 	"destruction_trap": {
@@ -430,7 +430,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/422}",
 			"",
-			"::trap[Destruction Trap]{start cr=20 magic pdc=34 dddc=34 trigger=\"proximity (alarm)\" eff=\"spell effect (heightened destruction, 190 damage, DC 23 Fortitude save reduces damage to 10d6)\"}"
+			"::trap[Destruction Trap]{start cr=20 magic pdc=34 dddc=34 trigger=\"proximity (alarm)\" eff=\"spell effect (%%feat/heightened%% %%spell/destruction%%, 190 damage, DC 23 Fortitude save reduces damage to 10d6)\"}"
 		]
 	}
 }

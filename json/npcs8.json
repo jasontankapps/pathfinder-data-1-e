@@ -2220,7 +2220,7 @@
 			">",
 			">::sh[Special Abilities]",
 			">",
-			">**Poison (Ex)** Bite-injury; *save* Fort DC 17; *frequency* 1/round for 4 rounds; *effect* 1 Str; *cure* 1 save."
+			">::aff[Poison (Ex)]{iconP type=Bite-injury saveF=17 freqR=4 effStr=1 cure1}"
 		]
 	},
 	"gladiator_champion": {

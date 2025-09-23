@@ -3896,7 +3896,7 @@
 			"",
 			"**Stone Curse (Su)** Any creature struck by a stygira's claws must make a DC 18 Will save or be affected by a curse that gradually drains it of color, stiffens its joints, and finally turns the victim to stone. This curse proves frighteningly unpredictable, forcing another save against its effects every 1d3 hours. Any creature that is drained to 0 Dexterity or fails three saves against the curse is permanently petrified. Even if a creature is petrified and then restored to flesh, it is still affected by the curse and is petrified again upon failing its next save against the curse. A stone curse can only be removed in one of two ways: by casting remove curse or by spending a full hour in unobstructed natural sunlight. Magical radiance like daylight does not affect a stone curse, and remove curse does not return a petrified creature to flesh. The save DC is Constitution-based.",
 			"",
-			">Stone curse: Claw-curse; *save* Will DC 18; *frequency* 1/1d3 hours; *effect* 1d6 {rule/Dex damage}, failing 3 saves results in petrification; *cure* casting remove curse or spending 1 hour in natural sunlight",
+			"::aff[Stone curse]{iconC type=Claw-curse saveW=18 freq=\"1/1d3 hours\" effDex=\"1d6\" effExtra=\"failing 3 saves results in petrification\" cure=\"casting %%spell/remove curse%% or spending 1 hour in natural sunlight\"}",
 			"",
 			"::sh[Description]",
 			"",

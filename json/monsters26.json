@@ -299,7 +299,7 @@
 			"",
 			"**Swallow Whole (Ex)** An ammut can swallow creatures size Large or smaller with this special ability, and can only swallow one creature at a time regardless of the creature's size. In addition, creatures swallowed by an ammut are subject to its wasting curse.",
 			"",
-			"**Wasting Curse (Su)** Swallow whole-contact; *save* Will DC 29; *frequency* 1 hour; *effect* 1d4 {rule/Cha drain}. A creature whose Charisma score is reduced to 0 by this wasting curse dies; its body is destroyed and it is subject to the ammut's devour soul ability as if it had died while within the ammut's gut. The save DC is Charisma-based.",
+			"::aff[Wasting Curse (Su)]{iconC type=\"Swallow whole-contact\" saveW=29 freq=\"1/hour\" effChaD=\"1d4\" extra=\"A creature whose Charisma score is reduced to 0 by this wasting curse dies; its body is destroyed and it is subject to the ammut's devour soul ability as if it had died while within the ammut's gut. The save DC is Charisma-based.\"}",
 			"",
 			"::sh[Description]",
 			"",

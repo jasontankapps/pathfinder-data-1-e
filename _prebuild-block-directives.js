@@ -756,7 +756,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				//
 				rows++;
 				output.push(
-					`<tr><td colSpan={4}>${marked2.parseInline(linker(eff))}</td></tr>`
+					`<tr><td colSpan={4}><strong>Effect:</strong> ${marked2.parseInline(linker(eff))}</td></tr>`
 				);
 				//
 				// ADD TRAP ICON

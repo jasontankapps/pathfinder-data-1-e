@@ -1723,7 +1723,7 @@
 			"",
 			"**Venom Glass Swarm:** Priestesses of Calistria don't hide the images of swarming insects in their gorgeous windows, and they equip their venom glass swarms with stings that deliver a potent poison. Venom glass swarms have the following ability instead of serrated wings.",
 			"",
-			"**Poison (Su):** Swarm-injury; *save* Fort DC 20; *frequency* 1/round for 6 rounds; *effect* 1d6 {rule/Str damage}; *cure* 2 consecutive saves.",
+			"::aff[Poison (Su)]{iconP type=Swarm-injury saveF=20 freqR=6 effStr=\"1d6\" cure2c}",
 			"",
 			"### Habitat",
 			"",
@@ -2174,7 +2174,7 @@
 			"",
 			"**Curse (Su)** Instead of poison, the spines of black spots bear what is for some a minor annoyance, but for sailors nearly a death sentence. The save DC is Charisma-based.",
 			"",
-			"Spines-injury; *save* Fort DC 13; *onset* 1 round; *frequency* constant; *effect* target takes a -10 penalty on Swim checks and cannot hold its breath. If forced underwater, the target must save each round or drown.",
+			"::aff{iconC type=Spines-injury saveF=13 onset=\"1 round\" freq=\"constant\" eff=\"target takes a -10 penalty on Swim checks and cannot hold its breath; if forced underwater, the target must save each round or drown\"}",
 			"",
 			"**Leaping Charge (Ex)** A black spot ignores rough terrain and gaps less than 10 feet wide when charging. Additionally, its charges do no provoke attacks of opportunity.",
 			"",
@@ -2236,7 +2236,7 @@
 			"",
 			"**Poison (Ex)** Glass urchin venom causes the senses to become clouded and creates vivid hallucinations and confusion in the victim's mind. The save DC is Constitution-based.",
 			"",
-			"Spines-contact or injury; *save* Fort DC 16; *frequency* 1/round for 6 rounds; *effect* 1d4 Wis and confused for 1 round; *cure* 2 consecutive saves.",
+			"::aff{iconP type=\"Spines-contact or injury\" saveF=16 freqR=6 effWis=\"1d4\" eff=\"%%misc/confused%% for 1 round\" cure2c}",
 			"",
 			"**Poison Spray (Ex)** As a standard action, once every 5 rounds, a spear urchin can spray poison from numerous smaller spines across its body. This poison fills a 20-foot-radius spread around the urchin; all creatures within this area are exposed to the urchin's venom and must make Fortitude saves as detailed above to resist Wisdom damage and confusion. This attack is even more effective underwater, as the poison spray creates a cloud that lingers in the area around the urchin for 5 rounds-creatures must save each round they begin a turn in the area of the poison cloud in addition to when the urchin creates the effect.",
 			"",
@@ -2258,7 +2258,7 @@
 			"",
 			"The giant sea urchins presented here are fantastic evolutions of their much more common, smaller, and less offensive kin. Yet even the smaller common urchins can pose a problem for unwary adventurers. Sea urchins live in vast colonies on tidal rocks, and moving across a field of urchins can be quite awkward and painful. Their thousands of spines are just as sharp as those possessed by their larger kin, and they function as caltrops to anyone that walks over them. Worse, these spines are venomous, and can poison those who take damage from them. Those who succumb to the poison suffer searing pain that can sicken them for several minutes. Though uncomfortable, fortunately this venom doesn't actually inflict either ability damage or ability drain.",
 			"",
-			"Sea Urchin Venom: Spines-injury; *save* Fort 11; *frequency* 1/minute for 6 minutes; *effect* victim is sickened for 1 minute; *cure* 1 save."
+			"::aff[Sea Urchin Venom]{iconP type=Spines-injury saveF=11 freqM=6 eff=\"%%misc/sickened%% for 1 minute\" cure1}"
 		]
 	},
 	"glass_urchin": { "redirect": "sea_urchin_giant_glass_urchin" },
@@ -2305,7 +2305,7 @@
 			"",
 			"**Poison (Ex)** Great diadem urchin venom is shockingly painful and feels acidic at the moment of contact - though the worst of the pain fades after a moment. The save DC is Constitution-based.",
 			"",
-			"Spines-injury; *save* Fort DC 18; *frequency* 1/round for 6 rounds; *effect* 1d2 Con and stunned for 1 round; *cure* 1 save.",
+			"::aff{iconP type=Spines-injury saveF=18 freqR=6 effCon=\"1d2\" effExtra=\"%%misc/stunned%% for 1 round\" cure1}",
 			"",
 			"**Spines (Ex)** A great diadem urchin's spines can swivel to face any approaching creature. Any creature that attacks a great diadem urchin with an unarmed strike or a natural attack, or any Large or smaller creature that attacks with a one-handed weapon or light weapon, is automatically attacked by the hunter urchin's spines as an immediate action. If the spines hit, they can poison the target as well.",
 			"",
@@ -2364,7 +2364,7 @@
 			"",
 			"**Poison (Ex)** Hunter urchin venom causes intense pain that staggers those who suffer its effects, but does not actually inflict ability damage. The save DC is Constitution-based.",
 			"",
-			"Spines-injury; *save* Fort DC 13; *frequency* 1/round for 6 rounds; *effect* staggered for 1 round; *cure* 1 save.",
+			"::aff{iconP type=Spines-injury saveF=13 freqR=6 eff=\"%%misc/staggered%% for 1 round\" cure1}",
 			"",
 			"**Spines (Ex)** A hunter urchin's spines can swivel to face any approaching creature. Any creature that attacks a hunter urchin with an unarmed strike or a natural attack, or any Medium or smaller creature that attacks with a one-handed weapon or light weapon, is automatically attacked by the hunter urchin's spines as an immediate action. If the spines hit, they can poison the target as well.",
 			"",
@@ -2384,7 +2384,7 @@
 			"",
 			"The giant sea urchins presented here are fantastic evolutions of their much more common, smaller, and less offensive kin. Yet even the smaller common urchins can pose a problem for unwary adventurers. Sea urchins live in vast colonies on tidal rocks, and moving across a field of urchins can be quite awkward and painful. Their thousands of spines are just as sharp as those possessed by their larger kin, and they function as caltrops to anyone that walks over them. Worse, these spines are venomous, and can poison those who take damage from them. Those who succumb to the poison suffer searing pain that can sicken them for several minutes. Though uncomfortable, fortunately this venom doesn't actually inflict either ability damage or ability drain.",
 			"",
-			"Sea Urchin Venom: Spines-injury; *save* Fort 11; *frequency* 1/minute for 6 minutes; *effect* victim is sickened for 1 minute; *cure* 1 save."
+			"::aff[Sea Urchin Venom]{iconP type=Spines-injury saveF=11 freqM=6 eff=\"%%misc/sickened%% for 1 minute\" cure1}"
 		]
 	},
 	"hunter_urchin": { "redirect": "sea_urchin_giant_hunter_urchin" },
@@ -2435,7 +2435,7 @@
 			"",
 			"**Poison (Ex)** The venom of ravenous urchin swarms stiffens muscles and locks joints into painful configurations. The save DC is Constitution-based.",
 			"",
-			"Swarm-injury; *save* Fort DC 12; *frequency* 1/round for 6 rounds; *effect* 1d2 Dex and reduce movement speed by 10 feet (to a minimum of 5 feet); *cure* 1 save.",
+			"::aff{iconP type=Swarm-injury saveF=12 freqR=6 effDex=\"1d2\" effExtra=\"reduce movement speed by 10 feet (to a minimum of 5 feet)\" cure1}",
 			"",
 			"**Underfoot (Ex)** Each time a creature moves through a space occupied by a ravenous urchin swarm or starts its movement in such a space, it runs the risk of a ravenous urchin moving underfoot. The creature must succeed at a DC 13 Reflex save or take 1 point of damage plus poison. Additionally, the affected creature's movement speed is reduced by half because its foot is wounded. This movement penalty lasts for 24 hours, until the creature is successfully treated with a DC 15 Heal check, or until it receives at least 1 point of magical healing. A charging or running creature must immediately stop if it steps on a ravenous urchin. Any creature moving at half its speed or slower can pick its way through a tidal pool of ravenous urchins (but not a ravenous urchin swarm) with no trouble. The save DC is Constitution-based.",
 			"",
@@ -2455,7 +2455,7 @@
 			"",
 			"The giant sea urchins presented here are fantastic evolutions of their much more common, smaller, and less offensive kin. Yet even the smaller common urchins can pose a problem for unwary adventurers. Sea urchins live in vast colonies on tidal rocks, and moving across a field of urchins can be quite awkward and painful. Their thousands of spines are just as sharp as those possessed by their larger kin, and they function as caltrops to anyone that walks over them. Worse, these spines are venomous, and can poison those who take damage from them. Those who succumb to the poison suffer searing pain that can sicken them for several minutes. Though uncomfortable, fortunately this venom doesn't actually inflict either ability damage or ability drain.",
 			"",
-			"Sea Urchin Venom: Spines-injury; *save* Fort 11; *frequency* 1/minute for 6 minutes; *effect* victim is sickened for 1 minute; *cure* 1 save.",
+			"::aff[Sea Urchin Venom]{iconP type=Spines-injury saveF=11 freqM=6 eff=\"%%misc/sickened%% for 1 minute\" cure1}",
 			"",
 			"[^B]: Bonus feat."
 		]
@@ -2509,7 +2509,7 @@
 			"",
 			"**Poison (Ex)** Spear urchin venom causes horrific pain that weakens the muscles and causes intense nausea. The save DC is Constitution-based.",
 			"",
-			"Spines-injury; *save* Fort DC 16; *frequency* 1/round for 6 rounds; *effect* 1d2 Str and nauseated for 1 round; *cure* 1 save.",
+			"::aff{iconP type=Spines-injury saveF=16 freqR=6 effStr=\"1d2\" effExtra=\"%%misc/nauseated%% for 1 round\" cure1}",
 			"",
 			"**Spines (Ex)** A spear urchin's spines can swivel and rotate to face any approaching creature that attacks it. Any creature that attacks a spear urchin with an unarmed strike or a natural attack, or any Large or smaller creature that attacks with a one-handed weapon or light weapon, is automatically attacked by the spear urchin's spines as an immediate action. If the spines hit, they can poison the target as well.",
 			"",
@@ -2531,7 +2531,7 @@
 			"",
 			"The giant sea urchins presented here are fantastic evolutions of their much more common, smaller, and less offensive kin. Yet even the smaller common urchins can pose a problem for unwary adventurers. Sea urchins live in vast colonies on tidal rocks, and moving across a field of urchins can be quite awkward and painful. Their thousands of spines are just as sharp as those possessed by their larger kin, and they function as caltrops to anyone that walks over them. Worse, these spines are venomous, and can poison those who take damage from them. Those who succumb to the poison suffer searing pain that can sicken them for several minutes. Though uncomfortable, fortunately this venom doesn't actually inflict either ability damage or ability drain.",
 			"",
-			"Sea Urchin Venom: Spines-injury; *save* Fort 11; *frequency* 1/minute for 6 minutes; *effect* victim is sickened for 1 minute; *cure* 1 save."
+			"::aff[Sea Urchin Venom]{iconP type=Spines-injury saveF=11 freqM=6 eff=\"%%misc/sickened%% for 1 minute\" cure1}"
 		]
 	},
 	"spear_urchin": { "redirect": "sea_urchin_giant_spear_urchin" },
@@ -3988,7 +3988,7 @@
 			"",
 			"**Disease (Su)** Shas transmit potent diseases with their bites. The most common form of disease carried by a sha drives its victims insane, reducing them to babbling fools or raving lunatics.",
 			"",
-			">**Touch of Madness:** Bite-injury; *save* Fort DC 15; *onset* 1d3 days; *frequency* 1/day; *effect* 1d4 {rule/Wis damage} and 1d4 Cha damage; *cure* 2 consecutive saves.",
+			"::aff[Touch of Madness]{iconD type=Bite-injury saveF=15 onset=\"1d3 days\" freq=\"1/day\" effWis=\"1d4\" effCha=\"1d4\" cure2c}",
 			"",
 			"**Sandstorm (Su)** Once per day as a full-round action, a sha can create a sandstorm. The sandstorm has a radius of 100 feet centered on the sha, and lasts for 1 minute per Hit Die the sha possesses (6 minutes for a typical sha).",
 			"",
@@ -4139,7 +4139,7 @@
 			"",
 			"**Plague Shadow (CR +1):** Plague shadows appear as Medium-sized shadows of animals associated with disease: typically rats or bats. Rather than simply draining a victim's Strength on a hit, plague shadows also inflict a dreaded curse known as shadow blight. Victims of this supernatural disease quickly weaken and die, at which point they spawn new plague shadows to further spread the contagion. A plague shadow has the Advanced creature simple template, but does not gain a natural armor bonus to its AC.",
 			"",
-			"**Shadow blight:** curse and disease; *save* Fortitude DC 16; *onset* 1 minute; *frequency* 1/day; *effect* 1d8 {rule/Strength damage}, upon death, the victim becomes a plague shadow; *cure* successfully casting both {spell/remove curse} and {spell/remove disease} within 1 minute of each other.",
+			"::aff[Shadow blight]{iconC type=\"curse and disease\" saveF=16 onset=\"1 minute\" freq=\"1/day\" effStr=\"1d8\" cure=\"Successfully casting both %%spell/remove curse%% and %%spell/remove disease%% within 1 minute of each other.\" extra=\"Upon death, the victim becomes a plague shadow\"}",
 			"",
 			"**Shadetouch Shadow (CR +0):** Shadetouch shadows are infused with partially real shadowstuff from the Shadow Plane. They treat the Shadow Plane as their home plane (and thus gain the \"extraplanar\" subtype on the Material Plane). A shadetouch shadow lacks the typical shadow's incorporeal touch-instead, it possesses two claw attacks that each deal 1d8 points of damage on a hit, in addition to the normal amount of Strength damage shadows inflict.",
 			"",

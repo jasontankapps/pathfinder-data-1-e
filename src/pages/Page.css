@@ -632,9 +632,15 @@ div.afflictionWrap {
 }
 div.afflictionWrap.startAlign {
 	justify-content: flex-start;
+	padding-inline-start: 1rem;
 }
 div.afflictionWrap div.tableWrap {
 	max-width: calc(100% - 1.75rem);
+	margin: 0 0 0 auto;
+}
+div.afflictionWrap.startAlign div.tableWrap {
+	max-width: calc(100% - 1.75rem);
+	margin: 0 auto 0 0;
 }
 div.afflictionWrap + div.afflictionWrap {
 	margin-block-start: 1em;
