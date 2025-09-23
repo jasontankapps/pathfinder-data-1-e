@@ -2590,15 +2590,15 @@
 			"",
 			"### Minor Addiction",
 			"",
-			"::aff{start disease type=variable save=Variable onset=\"1 day\" freq=\"1/day\" eff=\"-2 penalty to Con\" cure2c}",
+			"::aff{iconD start disease type=variable save=Variable onset=\"1 day\" freq=\"1/day\" eff=\"-2 penalty to Con\" cure2c}",
 			"",
 			"### Moderate Addiction",
 			"",
-			"::aff{start disease type=variable save=Variable onset=\"1 day\" freq=\"1/day\" eff=\"-2 penalty to Con and Str; target cannot naturally heal ability damage caused by the drug that caused this addiction\" cure3c}",
+			"::aff{iconD start disease type=variable save=Variable onset=\"1 day\" freq=\"1/day\" eff=\"-2 penalty to Con and Str; target cannot naturally heal ability damage caused by the drug that caused this addiction\" cure3c}",
 			"",
 			"### Severe Addiction",
 			"",
-			"::aff{start disease type=variable save=Variable onset=\"1 day\" freq=\"1/day\" eff=\"-2 penalty to Dex, Con, Str, and Wis; target cannot naturally heal ability damage caused by the drug that caused this addiction\" cure3c}"
+			"::aff{iconD start disease type=variable save=Variable onset=\"1 day\" freq=\"1/day\" eff=\"-2 penalty to Dex, Con, Str, and Wis; target cannot naturally heal ability damage caused by the drug that caused this addiction\" cure3c}"
 		],
 		"parent_topics": [
 			"gamemastery",

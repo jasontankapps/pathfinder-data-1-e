@@ -17,7 +17,7 @@
 			"**Format:** Curse Name (Su) Slam-contact; *save* Will DC 14; *frequency* 1/day; *effect* 1d4 Str drain  ",
 			"**Location:** Special Attacks and individual attacks.",
 			"",
-			"::aff[Curse Name (Su)]{type=Slam-contact saveW=14 freq=\"1/day\" effStrD=\"1d4\"}"
+			"::aff[Curse Name (Su)]{iconC type=Slam-contact saveW=14 freq=\"1/day\" effStrD=\"1d4\"}"
 		]
 	},
 	"hold_breath": {
@@ -1597,7 +1597,7 @@
 			"**Format:** Disease Name (Ex or Su) Bite-injury; *save* Fort DC 15, onset 1d3 days; *frequency* 1/day; *effect* 1 Con damage; *cure* 2 consecutive saves  ",
 			"**Location:** Special Attacks and individual attacks.",
 			"",
-			"::aff[Disease Name (Ex or Su)]{type=Bite-injury saveF=15 onset=\"1d3 days\" freq=\"1/day\" effCon=1 cure2c}"
+			"::aff[Disease Name (Ex or Su)]{iconD type=Bite-injury saveF=15 onset=\"1d3 days\" freq=\"1/day\" effCon=1 cure2c}"
 		]
 	},
 	"blood_drain": {
@@ -1867,7 +1867,7 @@
 			"**Format:** Poison Name (Ex) Sting-injury; *save* Fort DC 22; *frequency* 1/round for 6 rounds; *effect* 1d4 Con damage; *cure* 2 consecutive saves  ",
 			"**Location:** Special Attacks and individual attacks.",
 			"",
-			"::aff[Poison Name (Ex)]{type=Sting-injury saveF=22 freqR=6 effCon=\"1d4\" cure2c}"
+			"::aff[Poison Name (Ex)]{iconP type=Sting-injury saveF=22 freqR=6 effCon=\"1d4\" cure2c}"
 		]
 	},
 	"undersized_weapons": {

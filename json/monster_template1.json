@@ -1478,7 +1478,7 @@
 			">",
 			">**Caustic Mist:** A poisonous miasma emanates from the energized golem, afflicting those within range each round with a deadly toxin that rapidly destroys flesh, muscle, and organs alike.",
 			">",
-			">::aff[Miasma]{type=Aura-inhaled save=Fort freqR=6 effStr=1 effDex=1 effCon=1 cure2}",
+			">::aff[Miasma]{iconP type=Aura-inhaled save=Fort freqR=6 effStr=1 effDex=1 effCon=1 cure2}",
 			">",
 			">**Immolation:** The extreme heat surrounding the energized golem causes each creature and unattended object within range to catch fire unless it succeeds at a Reflex save. Each affected creature or item takes an additional amount of fire damage equal to the number of damage dice for the energized golem's elemental aura immediately and each round thereafter as long as it remains within the aura. A creature or object that has caught on fire but moves outside of the aura instead takes 1d6 points of fire damage each round and can attempt another Reflex save each round to extinguish the flames.",
 			">",

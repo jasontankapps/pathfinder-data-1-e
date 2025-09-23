@@ -459,7 +459,7 @@
 		"description": [
 			"An eidolon secretes toxic venom, gaining a poison attack. Pick one bite or sting attack. Whenever the selected attack hits, the target is poisoned.",
 			"",
-			"::aff[Eidolon poison]{type=\"Natural attack-injury\" dcF dcHD=eidolon dcIt=its dcMod=Con freqR=4 effStr=\"1d4\" cure1}",
+			"::aff[Eidolon poison]{iconP type=\"Natural attack-injury\" dcF dcHD=eidolon dcIt=its dcMod=Con freqR=4 effStr=\"1d4\" cure1}",
 			"",
 			"For 2 additional evolution points, this poison deals Constitution damage instead. This poison can be used no more than once per round.",
 			"",

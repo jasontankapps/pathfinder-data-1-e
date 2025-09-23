@@ -45,7 +45,6 @@ ion-menu ion-list ion-item.topSection {
 ion-menu ion-item {
 	--padding-start: 0.625rem;
 	--padding-end: 0.625rem;
-	border-radius: 0.25rem;
 }
 
 ion-menu ion-item.minor {

@@ -909,7 +909,7 @@
 			"",
 			">**Venomous Saliva (Su):** Just as certain serpents can spray poison from their fangs, as a swift action, you can spit a gout of life-stealing venom onto a weapon you are wielding. The poison lasts for 1 minute or until you make an attack with that weapon that injures a foe.",
 			">",
-			">::aff[Life-Stealing Venom]{poison type=injury dcF dcLev=class dcYou dcMod=Wis freqR=3 effCon=1 cure1}",
+			">::aff[Life-Stealing Venom]{iconP poison type=injury dcF dcLev=class dcYou dcMod=Wis freqR=3 effCon=1 cure1}",
 			">",
 			">You can use the venomous saliva ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",

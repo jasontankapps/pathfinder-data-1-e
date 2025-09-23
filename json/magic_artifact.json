@@ -2135,7 +2135,7 @@
 			"",
 			"The invasive nature of phylacteries of the failed has spawned the creation of several other pernicious magic items, such as the disease-spreading {magic-wondrous/death's head coffer}.",
 			"",
-			"::aff[Parasitic Soul]{type=\"Curse and disease\" saveW=30 freq=\"1/day\" effInt=\"1d6\" cure=\"a parasitic soul can only be cured by casting both a spell that prevents the target from being mentally controlled (like %%spell/protection from evil%%) and %%spell/remove curse%%\"}",
+			"::aff[Parasitic Soul]{iconC type=\"Curse and disease\" saveW=30 freq=\"1/day\" effInt=\"1d6\" cure=\"a parasitic soul can only be cured by casting both a spell that prevents the target from being mentally controlled (like %%spell/protection from evil%%) and %%spell/remove curse%%\"}",
 			"",
 			"### Destruction",
 			"",

@@ -445,7 +445,7 @@
 			"",
 			"These seeds have two effects. First, the poison is a powerful neurotoxin that paralyzes its victims.",
 			"",
-			"::aff[Bountiful Feast]{poison type=contact saveF=20 freqR=10 eff=\"%%rule/paralysis%% for 1 round\" cure2c}",
+			"::aff[Bountiful Feast]{iconP poison type=contact saveF=20 freqR=10 eff=\"%%rule/paralysis%% for 1 round\" cure2c}",
 			"",
 			"Second, the seeds quickly feed upon unmoving prey; on each round that an infested creature does not spend a move action to move at least 10 feet, it must succeed at a DC 18 Fortitude save or take 1d6 points of {rule/Constitution damage} as the seeds feed upon the nutrients in its body. This effect ends only if the haunt is destroyed or the seeds are removed from the creature's body (see below). If a creature dies from this Constitution damage, its body explodes into a 5-foot-radius area of fruiting plants that is added to the haunt's area (even if it is outside of the haunt's typical radius). For each point of Constitution damage the seeds deal, the haunt gains 3 {rule/temporary hit points}. These temporary hit points last for 1 hour.",
 			"",

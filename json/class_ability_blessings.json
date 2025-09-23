@@ -497,7 +497,7 @@
 			"",
 			"**Serpent Fang (major):** At 10th level, as a standard action you can manifest venomous fangs for 1 minute. These fangs grant a bite attack that deals 1d4 points of damage (for a Medium warpriest, 1d3 if Small). A successful bite also afflicts the opponent with a debilitating venom.",
 			"",
-			"::aff[Serpent Venom]{type=Bite-injury dcF dcYou dcLev=warpriest dcMod=Con freqR=4 effCon=\"1d2\" cure1}"
+			"::aff[Serpent Venom]{iconP type=Bite-injury dcF dcYou dcLev=warpriest dcMod=Con freqR=4 effCon=\"1d2\" cure1}"
 		]
 	},
 	"shadow": {

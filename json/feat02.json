@@ -311,7 +311,7 @@
 			">**Special Attacks** poison (see below)  ",
 			">**Special Qualities** acid resistance 10, darkvision 60 ft., low-light vision, {umr/tremorsense} 60 ft., electricity resistance 10",
 			">",
-			">::aff{type=injury dcF dcHD=companion dcIt=its dcMod=Con freqR=6 effCon=\"1d2\" cure2}",
+			">::aff{iconP type=injury dcF dcHD=companion dcIt=its dcMod=Con freqR=6 effCon=\"1d2\" cure2}",
 			"",
 			"**Mastery (11th level):**",
 			"",

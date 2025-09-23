@@ -519,7 +519,7 @@
 			"**Prerequisites:** {class/Mesmerist} level 11th, painful stare class feature.  ",
 			"**Benefit:** When you trigger your painful stare, the target immediately becomes envenomed by the following poison:",
 			"",
-			"::aff[Painful Stare]{type=injury dcF dcLev=mesmerist dcYou dcMod=Cha freqR=6 effDex=\"1d3\" cure2}",
+			"::aff[Painful Stare]{iconP type=injury dcF dcLev=mesmerist dcYou dcMod=Cha freqR=6 effDex=\"1d3\" cure2}",
 			"",
 			"Whether your target succeeds at or fails its save, you can't use Venomous Stare against that particular foe for 24 hours."
 		]

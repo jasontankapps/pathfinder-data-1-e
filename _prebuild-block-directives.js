@@ -21,7 +21,7 @@ const linker = (input) => {
 		output = output + `${pre}[${text}](${fulllink})`;
 		test = post;
 	}
-	return output + test;
+	return (output + test).replace(/&(times|#[0-9]+)&/, "&$1;");
 };
 const constructDC = ({ dcF, dcW, dcR, dcYou, dcIt, dcPoss, dcLev, dcHD, dcMod }) => {
 	if(!(dcF || dcW || dcR || dcLev || dcHD)) {
@@ -274,6 +274,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return `${maybeClear}<${t}>${inner}</${t}>`;
 			} else if (n === "aff") {
 				churn(n, attrs, [
+					"iconP", "iconI", "iconC", "iconD",
 					"clear","poison","curse","infest","disease",
 					"type","save","saveF","saveW","onset",
 					"dcF","dcW","dcR","dcYou","dcIt","dcPoss","dcLev","dcHD","dcMod",
@@ -293,6 +294,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], logError);
 				// Affliction
 				const {
+					iconP, iconI, iconC, iconD,
 					poison, curse, infest, disease,
 					type, save, saveF, saveW, onset,
 					freq, freqR, freqM, freqH, freqD,
@@ -304,6 +306,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				//
 				// START CODE
 				//
+				let rows = 2;
 				const output = [
 					`<div className="afflictionWrap${start ? " startAlign" : ""}">`,
 					"<table><tbody>"
@@ -312,8 +315,11 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				// ADD A TITLE LINE IF NEEDED
 				//
 				if(text) {
+					rows++;
 					output.push(
-						`<tr><th colSpan={4} scope="col" className="title">${text}</th></tr>`
+						"<tr>",
+						`<th colSpan={4} scope="col" className="title">${text}</th>`,
+						"</tr>"
 					);
 				}
 				//
@@ -326,10 +332,6 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					supertype = type;
 				}
 				//
-				// CREATE UNIQUE ID
-				//
-				const id = prefix + linkify(text + "-" + supertype);
-				//
 				// CONFIGURE SAVE DC
 				//
 				const saveDC = save || (
@@ -341,12 +343,14 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				//
 				// ADD TYPE, SAVE DC
 				//
+				rows += 2;
 				output.push(
 					"<tr>",
-					`<th id="${id}-type">Type</th>`,
-					`<td headers="${id}-type">${supertype}</td>`,
-					`<th id="${id}-save">Save DC</th>`,
-					`<td headers="${id}-save">${saveDC}</td>`,
+					`<th scope="row">Type</th>`,
+					`<td colSpan={3}>${supertype}</td>`,
+					"</tr><tr>",
+					`<th scope="row">Save DC</th>`,
+					`<td colSpan={3}>${saveDC}</td>`,
 					"</tr>"
 				);
 				//
@@ -374,13 +378,17 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				// ADD ONSET, FREQUENCY (if needed)
 				//
 				output.push("<tr>");
-				frequency && output.push(
-					`<th id="${id}-onset">Onset</th>`,
-					`<td headers="${id}-onset">${onset || "immediate"}</td>`,
-					`<th id="${id}-freq">Frequency</th>`,
-					`<td headers="${id}-freq">${frequency}</td>`,
-					"</tr><tr>"
-				);
+				if(frequency) {
+					rows += 2;
+					output.push(
+						`<th scope="row">Onset</th>`,
+						`<td colSpan={3}>${onset || "immediate"}</td>`,
+						"</tr><tr>",
+						`<th scope="row">Frequency</th>`,
+						`<td colSpan={3}>${frequency}</td>`,
+						"</tr><tr>"
+					);
+				}
 				//
 				// CONFIGURE EFFECTS
 				//
@@ -394,14 +402,17 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 						if(ineff || seceff) {
 							logError(`---> ineff/seceff used when eff present`)
 						}
+						rows++;
 					} else {
 						// INITIAL AND SECONDARY EFFECT TEXTS
 						output.push(
-							`<th id="${id}-ineff">Initial Effect</th>`,
-							`<td headers="${id}-ineff">${marked2.parseInline(linker(ineff))}</td>`,
-							`<th id="${id}-seceff">Secondary Effect</th>`,
-							`<td headers="${id}-seceff">${marked2.parseInline(linker(seceff))}</td>`
+							`<th scope="row">Initial Effect</th>`,
+							`<td colSpan={3}>${marked2.parseInline(linker(ineff))}</td>`,
+							"</tr><tr>",
+							`<th scope="row">Secondary Effect</th>`,
+							`<td colSpan={3}>${marked2.parseInline(linker(seceff))}</td>`
 						);
+						rows += 2;
 					}
 				} else {
 					if(ineff || seceff) {
@@ -413,6 +424,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					//
 					const ee = constructEffect(attrs);
 					if(ee) {
+						rows++;
 						output.push(
 							`<th scope="row">Effect</th>`,
 							`<td colSpan={3}>${marked2.parseInline(ee)}</td>`
@@ -423,11 +435,13 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 						const ii = i && constructEffect(i);
 						const ss = s && constructEffect(s);
 						if(ii && ss) {
+							rows += 2;
 							output.push(
-								`<th id="${id}-ineff">Initial Effect</th>`,
-								`<td headers="${id}-ineff">${marked2.parseInline(ii)}</td>`,
-								`<th id="${id}-seceff">Secondary Effect</th>`,
-								`<td headers="${id}-seceff">${marked2.parseInline(ss)}</td>`
+								`<th scope="row">Initial Effect</th>`,
+								`<td colSpan={3}>${marked2.parseInline(ii)}</td>`,
+								"</tr><tr>",
+								`<th scope="row">Secondary Effect</th>`,
+								`<td colSpan={3}>${marked2.parseInline(ss)}</td>`
 							);
 						}
 					}
@@ -452,6 +466,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					}
 				}
 				if(cureLine) {
+					rows++;
 					output.push(
 						`</tr><tr>`,
 						`<th scope="row">Cure</th>`,
@@ -465,9 +480,26 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				// ADD EXTRA INFO
 				//
 				if(extra) {
+					rows++;
 					output.push(
-						`<tr><td colSpan={4}>${marked2.parseInline(linker(extra))}</td></tr>`
+						`<tr><td colSpan={4} className=\"extra\">${marked2.parseInline(linker(extra))}</td></tr>`
 					);
+				}
+				//
+				// ADD ICON
+				//
+				const icon = iconP ? ["Poison", "poison-bottle"] : (
+					iconD ? ["Disease", "paramecia"] : (
+						iconC ? ["Curse", "death-note"] : (
+							iconI ? ["Infestation", "infested-mass"] : false
+						)
+					)
+				);
+				if(icon) {
+					flags.icon = true;
+					output.splice(3, 0, `<th scope="row" rowSpan={${rows}}><IonIcon aria-label="${icon[0]}" icon="/icons/${icon[1]}.svg" /></th>`);
+				} else {
+					logError(`---> missing icon property`);
 				}
 				//
 				// END CODE BLOCK	
@@ -497,7 +529,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				// START CODE
 				//
 				const output = [
-					`<div className="drug afflictionWrap${start ? " startAlign" : ""}">`,
+					`<div className="afflictionWrap${start ? " startAlign" : ""}">`,
 					"<table><tbody>"
 				];
 				//
@@ -612,13 +644,125 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				output.push(
 					"<tr>",
 					`<th scope="row"><Link to="/rule/ability_damage">Damage</Link></th>`,
-					`<td>${td}</td>`,
+					`<td colSpan={3}>${td}</td>`,
 					"</tr>"
 				);
 				//
-				// ADD DRUG TAG
+				// ADD DRUG ICON
 				//
-				output.splice(3, 0, `<th scope="row" rowspan={${rows}}>Drug</th>`)
+				flags.icon = true;
+				output.splice(3, 0, `<th scope="row" rowSpan={${rows}}><IonIcon aria-label="Drug" icon="/icons/syringe.svg" /></th>`)
+				//
+				// END CODE BLOCK	
+				//
+				output.push(
+					`</tbody></table></div>`
+				);
+				return output.join("");
+			} else if (n === "trap") {
+				churn(n, attrs, [
+					"cr", "magic", "mechanical", "terrain",
+					"pdc", "dddc", "trigger",
+					"manual", "automatic", "repair", "eff",
+					"start", "clear"
+				], logError);
+				// Affliction
+				const {
+					cr, magic, mechanical, terrain,
+					pdc, dddc, trigger,
+					manual, automatic, repair, eff,
+					start
+				} = attrs;
+				let rows = 0;
+				const marked2 = makeNewMarkedInstance();
+				//
+				// START CODE
+				//
+				const output = [
+					`<div className="afflictionWrap${start ? " startAlign" : ""}">`,
+					"<table><tbody>"
+				];
+				//
+				// CREATE UNIQUE ID
+				//
+				const id = prefix + linkify(text + "-trap");
+				//
+				// ADD A TITLE LINE IF NEEDED
+				//
+				if(text) {
+					rows++;
+					output.push(
+						"<tr>",
+						`<th colSpan={4} scope="col" className="title">${text}</th>`,
+						"</tr>"
+					);
+				}
+				//
+				// CONFIGURE TYPE AND CR
+				//
+				let type = magic || mechanical || "";
+				if(!type) {
+					logError("---> Missing trap type");
+				}
+				if(cr === undefined) {
+					logError("---> Missing trap CR");
+				}
+				rows++
+				output.push(
+					"<tr>",
+					`<th id="${id}-type">Type</th>`,
+					`<td headers="${id}-type">${type}</td>`,
+					`<th id="${id}-cr">CR</th>`,
+					`<td headers="${id}-cr">${cr}</td>`,
+					"</tr>"
+				);
+				//
+				// CREATE ASSOCIATED TERRAINS
+				//
+				if(terrain) {
+					rows++;
+					output.push(
+						`<tr><th scope="row">Terrain</th><td colSpan={3}>${terrain}</td></tr>`
+					);
+				}
+				//
+				// CREATE DCS
+				//
+				rows += 2;
+				output.push(
+					"<tr>",
+					`<th scope="row" colSpan={2}>Perception DC</th>`,
+					`<td colSpan={2}>${pdc}</td>`,
+					"</tr><tr>",
+					`<th scope="row" colSpan={2}>Disable Device DC</th>`,
+					`<td colSpan={2}>${dddc}</td>`,
+					"</tr>"
+				);
+				//
+				// CREATE TRIGGER AND RESET
+				//
+				const reset = automatic || manual || repair || "none";
+				rows++;
+				output.push(
+					"<tr>",
+					`<th id="${id}-trigger">Trigger</th>`,
+					`<td headers="${id}-trigger">${trigger}</td>`,
+					`<th id="${id}-reset">Reset</th>`,
+					`<td headers="${id}-reset">${reset}</td>`,
+					"</tr>"
+				);
+				//
+				// CONFIGURE EFFECTS
+				//
+				rows++;
+				output.push(
+					`<tr><td colSpan={4}>${marked2.parseInline(linker(eff))}</td></tr>`
+				);
+				//
+				// ADD TRAP ICON
+				//
+				flags.icon = true;
+				output.splice(3, 0, `<th scope="row" rowSpan={${rows}}><IonIcon aria-label="Trap" icon="/icons/wolf-trap.svg" /></th>`)
 				//
 				// END CODE BLOCK	
 				//

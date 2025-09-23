@@ -393,7 +393,7 @@
 			"- *Senses* (low-light vision and {umr/scent})",
 			"- *Natural bite attack* (1d4 damage [for a Medium creature](umr/natural_attack), plus poison).",
 			"",
-			"::aff[Poison]{type=Bite-injury dcF dcLev=\"serpent herald\" dcIt=his dcMod=Con freqR=6 effCon=1 cure1}",
+			"::aff[Poison]{iconP type=Bite-injury dcF dcLev=\"serpent herald\" dcIt=his dcMod=Con freqR=6 effCon=1 cure1}",
 			"",
 			"This is a polymorph effect; a creature under another polymorph effect, such as wild shape, does not gain the aspect. If the serpent herald grants one of these aspects to himself, he also gains the ability to {spell/speak with animals} (reptiles and creatures with the aquatic subtype only) for as long as he has the aspect. The serpent herald must have the *inspired rage* raging song to use this ability.",
 			"",

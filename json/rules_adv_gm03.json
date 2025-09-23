@@ -1130,7 +1130,7 @@
 			"",
 			"@HL[Poison:] The monster uses poison with its attacks, either through a natural weapon or by applying the poison to a particular manufactured weapon. The target of a successful attack with the chosen weapon must attempt a Fortitude save to resist the poison. The basic poison is:",
 			"",
-			"::aff[Basic Poison]{start type=injury onset=\"1 minute\" freqM=6 eff=\"1d2 points of damage to any one ability score (chosen when the monster gains this option)\" cure1}",
+			"::aff[Basic Poison]{iconP start type=injury onset=\"1 minute\" freqM=6 eff=\"1d2 points of damage to any one ability score (chosen when the monster gains this option)\" cure1}",
 			"",
 			"Choose two of the following additional advantages, plus one advantage for every 3 CR the monster possesses: decrease onset to -, change the frequency to 1/round for 6 rounds, increase the ability damage to 1d3 points of damage (this option can be chosen multiple times to increase the damage to 1d4, 1d6, and 1d8), damage an additional ability score (using the same damage die as the primary ability damage effect), increase the cure to 2 consecutive saves.",
 			"",
@@ -1187,7 +1187,7 @@
 			"",
 			"@HL[Disease:] One of the monster's attacks causes disease unless the target succeeds at a Fortitude save. The basic disease is:",
 			"",
-			"::aff[Basic Disease]{start onset=\"1d3 days\" freq=\"1/day\" eff=\"1 point of damage to any one ability score (chosen when the monster gains this option)\" cure2c}",
+			"::aff[Basic Disease]{iconD start onset=\"1d3 days\" freq=\"1/day\" eff=\"1 point of damage to any one ability score (chosen when the monster gains this option)\" cure2c}",
 			"",
 			"Choose two of the following additional advantages, plus one advantage for every 5 CR the monster has: decrease the onset to 1 day (can be chosen multiple times to reduce the onset to 1 hour, then to -), change the frequency to 1 hour, increase the effect to 1d3 points of damage (this option can be chosen multiple times to further increase the damage to 1d4, then to 1d6), damage an additional ability score (using the same amount of damage as the primary ability damage effect), or change the cure to -.",
 			"",
@@ -2116,7 +2116,7 @@
 			"",
 			"The GM is sure that he wants the medusa to have a petrifying gaze attack. Because the gaze option uses the same rules as the pre-existing [universal monster rule](umr/gaze), the GM writes down a gaze with a 30-foot range that turns targets to stone permanently. He uses the ability DC from the combatant array: 15. This ability uses up the medusa's one combat option, leaving her with one option from any category. The GM adds poison to the snake bite attack, and decides that the medusa can apply it to her arrows too. Choosing the poison option gives him the base statistics of the poison plus two advantages, plus an additional two advantages since the medusa is CR 7. He ends up with a poison that is:",
 			"",
-			"::aff{start type=injury freqM=6 effStr=\"1d3\" cure2c}",
+			"::aff{iconP start type=injury freqM=6 effStr=\"1d3\" cure2c}",
 			"",
 			"This is pretty close to the poison in the Bestiary, though with a lower DC, which is what the GM wants. Though an ability such as all-around vision could be replicated by giving the medusa unflankable as a bonus monster option, the GM decides against that to help compensate for the medusa's stronger attacks.",
 			"",
@@ -2154,7 +2154,7 @@
 			"**Dex** +6, **Con** +4, **Cha** +2; Intimidate +12, Stealth +12  ",
 			"**XP** 3,200; LE monstrous humanoid",
 			"",
-			"::aff{poison type=injury freqM=6 effStr=\"1d3\" cure2c}"
+			"::aff{iconP poison type=injury freqM=6 effStr=\"1d3\" cure2c}"
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -2668,7 +2668,7 @@
 			"**Utility Options** change shape (boar, giant spider, rat, or raven, beast shape I), summon allies (imp, 35%) Str -4, **Dex** +3, **Int** +1, **Cha** +2; Acrobatics +10, Bluff +10, Disguise +12, Fly +10, Knowledge (arcana) +7, Knowledge (planes) +7, Stealth +10; telepathy 100 ft.  ",
 			"**XP** 600; LE outsider (devil, evil, extraplanar, lawful)",
 			"",
-			"::aff{poison type=injury freqM=6 effDex=\"1d2\" cure1}"
+			"::aff{iconP poison type=injury freqM=6 effDex=\"1d2\" cure1}"
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -3391,9 +3391,9 @@
 			"**Str** +13, **Dex** +9, **Con** +13, **Int** +6, **Wis** +9, **Cha** +6; Bluff +28, Intimidate +35, Sense Motive +28; telepathy 100 ft.  ",
 			"**XP** 307,200; LE outsider (devil, evil, extraplanar, lawful)",
 			"",
-			"::aff[Disease]{onset=immediate freq=\"1/day\" effStr=\"1d4\" cure2c}",
+			"::aff[Disease]{iconD onset=immediate freq=\"1/day\" effStr=\"1d4\" cure2c}",
 			"",
-			"::aff[Poison]{type=injury freqM=10 effCon=\"1d6\" cure3c}"
+			"::aff[Poison]{iconP type=injury freqM=10 effCon=\"1d6\" cure3c}"
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
