@@ -278,6 +278,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"clear","poison","curse","infest","disease",
 					"type","save","saveF","saveW","onset",
 					"dcF","dcW","dcR","dcYou","dcIt","dcPoss","dcLev","dcHD","dcMod",
+					"track", "trackmod",
 					"freq","freqR","freqM","freqH","freqD",
 					"eff","ineff","seceff",
 					"effStr", "effStrD", "effDex", "effDexD", "effCon", "effConD",
@@ -290,17 +291,18 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"seceffInt", "seceffIntD", "seceffWis", "seceffWisD", "seceffCha", "seceffChaD",
 					"seceffExtra", "seceffOr",
 					"cure","cure1","cure2","cure2c","cure3","cure3c",
-					"extra","start"
+					"extra","start","nolink"
 				], logError);
 				// Affliction
 				const {
 					iconP, iconI, iconC, iconD,
 					poison, curse, infest, disease,
 					type, save, saveF, saveW, onset,
+					track, trackmod,
 					freq, freqR, freqM, freqH, freqD,
 					eff, ineff, seceff,
 					cure, cure1, cure2, cure2c, cure3, cure3c,
-					extra, start
+					extra, start, nolink
 				} = attrs;
 				const marked2 = makeNewMarkedInstance();
 				//
@@ -375,19 +377,52 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					}
 				}
 				//
-				// ADD ONSET, FREQUENCY (if needed)
+				// ADD ONSET, TRACK, FREQUENCY (if needed)
 				//
 				output.push("<tr>");
 				if(frequency) {
-					rows += 2;
-					output.push(
-						`<th scope="row">Onset</th>`,
-						`<td colSpan={3}>${onset || "immediate"}</td>`,
-						"</tr><tr>",
-						`<th scope="row">Frequency</th>`,
-						`<td colSpan={3}>${frequency}</td>`,
-						"</tr><tr>"
-					);
+					if(track && onset) {
+						rows += 2;
+						output.push(
+							`<th scope="row">Onset</th>`,
+							`<td colSpan={3}>${onset}</td>`,
+							"</tr><tr>",
+							`<th scope="row">Frequency</th>`,
+							`<td colSpan={3}>${frequency}</td>`,
+							"</tr><tr>",
+							`<th scope="row">Track</th>`,
+							`<td colSpan={3}>${marked2.parseInline(linker(track))}</td>`,
+							"</tr><tr>"
+						);
+					} else if (track) {
+						rows++;
+						output.push(
+							`<th scope="row">Frequency</th>`,
+							`<td colSpan={3}>${frequency}</td>`,
+							"</tr><tr>",
+							`<th scope="row">Track</th>`,
+							`<td colSpan={3}>${marked2.parseInline(linker(track))}</td>`,
+							"</tr><tr>"
+						);
+					} else {
+						rows += 2;
+						output.push(
+							`<th scope="row">Onset</th>`,
+							`<td colSpan={3}>${onset || "immediate"}</td>`,
+							"</tr><tr>",
+							`<th scope="row">Frequency</th>`,
+							`<td colSpan={3}>${frequency}</td>`,
+							"</tr><tr>"
+						);
+					}
+					if(trackmod) {
+						rows++;
+						output.push(
+							`<th scope="row">Track</th>`,
+							`<td colSpan={3}>${marked2.parseInline(linker(trackmod))}</td>`,
+							"</tr><tr>"
+						);
+					}
 				}
 				//
 				// CONFIGURE EFFECTS
