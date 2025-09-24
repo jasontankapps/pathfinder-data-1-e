@@ -1488,7 +1488,7 @@
 			"| 85-91 | @ripple[trait/The Follower] |",
 			"| 92-100 | Cusp [^C] |",
 			"",
-			"[^C]: You were born right on the dividing line between two consecutive signs, providing you with a choice of which sign to adopt. Reroll d%; then choose between the resulting sign, or either of the signs adjacent to it. "
+			"[^C]: You were born right on the dividing line between two consecutive signs, providing you with a choice of which sign to adopt. Reroll d%; then choose between the resulting sign, or either of the signs adjacent to it."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -1694,7 +1694,7 @@
 		"description": [
 			"{SOURCE Occult Mysteries/41}",
 			"",
-			"Cards in the suit of swords are tied to Strength. ",
+			"Cards in the suit of swords are tied to Strength.",
 			"",
 			"@HL[The Paladin (LG; 1 on 1d10)]",
 			"",
@@ -1764,7 +1764,7 @@
 		"description": [
 			"{SOURCE Occult Mysteries/41}",
 			"",
-			"Cards in the suit of keys are tied to Dexterity. ",
+			"Cards in the suit of keys are tied to Dexterity.",
 			"",
 			"@HL[The Dance (LG; 1 on 1d10)]",
 			"",
@@ -1834,7 +1834,7 @@
 		"description": [
 			"{SOURCE Occult Mysteries/41}",
 			"",
-			"Cards in the suit of shields are tied to Constitution. ",
+			"Cards in the suit of shields are tied to Constitution.",
 			"",
 			"@HL[The Trumpet (LG; 1 on 1d10)]",
 			"",
@@ -1904,7 +1904,7 @@
 		"description": [
 			"{SOURCE Occult Mysteries/42}",
 			"",
-			"Cards in the suit of Books are tied to Intelligence. ",
+			"Cards in the suit of Books are tied to Intelligence.",
 			"",
 			"@HL[The Hidden Truth (LG; 1 on 1d10)]",
 			"",
@@ -1974,7 +1974,7 @@
 		"description": [
 			"{SOURCE Occult Mysteries/42}",
 			"",
-			"Cards in the suit of stars are tied to Wisdom. ",
+			"Cards in the suit of stars are tied to Wisdom.",
 			"",
 			"@HL[The Winged Serpent (LG; 1 on 1d10)]",
 			"",

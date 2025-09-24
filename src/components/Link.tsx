@@ -1,4 +1,4 @@
-import { DetailedHTMLProps, HTMLAttributes, FC } from 'react';
+import { DetailedHTMLProps, HTMLAttributes, FC, ComponentProps, KeyboardEvent as KE } from 'react';
 import { IonRippleEffect } from '@ionic/react';
 import { Link as WouterLink, useLocation } from 'wouter';
 import { useAppDispatch } from '../store/hooks';
@@ -9,7 +9,7 @@ interface LinkProps extends DetailedHTMLProps<HTMLAttributes<HTMLAnchorElement>,
 	to: string
 }
 
-interface ThProps extends DetailedHTMLProps<HTMLAttributes<HTMLTableCellElement>, HTMLTableCellElement> {
+interface ThProps extends ComponentProps<"th"> {
 	to: string
 }
 
@@ -31,13 +31,13 @@ export const ThLink: FC<ThProps> = (props) => {
 		dispatch(goTo(link));
 		navigate(link);
 	};
-	const keydown = (e: React.KeyboardEvent<HTMLTableCellElement>) => e.key === "Enter" && invoke();
+	const keydown = (e: KE<HTMLTableCellElement>) => e.key === "Enter" && invoke();
 	const onclick= () => invoke();
 	const className = cn ? `${cn} ion-activateable thLink` : "ion-activateable thLink";
 	return (
 		<th className={className} tabIndex={0} role="link" onKeyDown={keydown} onClick={onclick} {...etc}>
 			{children}
-			<IonRippleEffect className="rippleColor" />
+			<IonRippleEffect />
 		</th>
 	);
 };
