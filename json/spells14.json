@@ -3469,8 +3469,7 @@
 			"",
 			"#### Haunt Statistics",
 			"",
-			"**Notice** Perception DC 25 (to see a target's shadow act incongruously with its physical motions)  ",
-			"**hp** 2 hp/level; **Trigger** proximity; **Reset** none"
+			"::haunt{notice=\"Perception DC 25 (to see a target's shadow act incongruously with its physical motions)\" hp=\"2 hp/level\" trigger=proximity reset=none}"
 		]
 	},
 	"misdirection": {

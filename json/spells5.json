@@ -782,8 +782,7 @@
 			"",
 			"#### Haunt Statistics",
 			"",
-			"**Notice** Perception DC 30 (to see a black dog darting toward the target out of the corner of the eye)  ",
-			"**hp** 4 hp/level; **Trigger** touch (object); **Reset** none"
+			"::haunt{notice=\"Perception DC 30 (to see a black dog darting toward the target out of the corner of the eye)\" hp=\"4 hp/level\" trigger=\"touch (object)\" reset=none}"
 		]
 	},
 	"groundswell": {
@@ -3358,8 +3357,7 @@
 			"",
 			"#### Haunt Statistics",
 			"",
-			"**Notice** Perception DC 25 (to hear a distant cry of fright, or see a horrified ghostly face appear over a victim's face)  ",
-			"**hp** 2 hp/level; **Trigger** proximity; **Reset** none"
+			"::haunt{notice=\"Perception DC 25 (to hear a distant cry of fright, or see a horrified ghostly face appear over a victim's face)\" hp=\"2 hp/level\" trigger=proximity reset=none}"
 		]
 	},
 	"hostile_juxtaposition": {

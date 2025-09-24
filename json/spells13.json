@@ -3070,8 +3070,7 @@
 			"",
 			"#### Haunt Statistics",
 			"",
-			"**Notice** Perception 25 (to feel a biting chill as if through the touch of a frozen hand)  ",
-			"**hp** 2 hp/level; **Trigger** proximity; **Reset** none"
+			"::haunt{notice=\"Perception 25 (to feel a biting chill as if through the touch of a frozen hand)\" hp=\"2 hp/level\" trigger=proximity reset=none}"
 		]
 	},
 	"frigid_touch": {

@@ -416,10 +416,13 @@ div.main.basicContent h6 a {
 }
 .hasStatblock p.statblockHeaderFull span:first-child {
 	letter-spacing: 0.05rem;
-	flex: 3 0 auto;
+	flex: 20 1 auto;
+	display: inline-block;
 }
 .hasStatblock p.statblockHeaderFull span:last-child {
-	flex: 0 1 auto;
+	flex: 1 0 auto;
+	text-align: end;
+	display: inline-block;
 }
 .hasStatblock p.statblockHeaderFull,
 .hasStatblock p.statblockSubHeader,

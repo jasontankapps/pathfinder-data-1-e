@@ -15,7 +15,7 @@ const HauntPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, haunts);
+	const { hasJL, title, jsx, sources, notBookmarkable, } = getItem<Data>(id, haunts);
 
 	return <BasicPage
 		hasJL={hasJL}
@@ -24,6 +24,7 @@ const HauntPage: React.FC = () => {
 		pageId={"/haunt/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}
+		className="simple hasStatblock"
 	>{jsx}</BasicPage>;
 };
 
