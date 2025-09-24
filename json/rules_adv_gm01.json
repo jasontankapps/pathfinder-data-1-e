@@ -496,7 +496,7 @@
 			"",
 			"### Leprosy",
 			"",
-			"::aff{start iconD nolink type=\"disease, contact, inhaled, or injury\" saveF=12 track=\"physical (special)\" freq=\"1/week\" eff=\"Healthy-Latent/Carrier-Sluggish-Stiffened; sluggish and stiffened are as Dexterity poison, stiffened is an end state\" cure2c}",
+			"::aff{start iconD nolink type=\"disease, contact, inhaled, or injury\" saveF=12 track=\"physical (special)\" freq=\"1/week\" eff=\"Healthy-Latent/Carrier-Sluggish-Stiffened; sluggish and stiffened are as %%rule/Dexterity poison>_track%%, stiffened is an end state\" cure2c}",
 			"",
 			"**Original Disease** {disease/Leprosy}",
 			"",

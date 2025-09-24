@@ -313,7 +313,7 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/421}",
 			"",
-			"::trap[Shocking Floor Trap]{start cr=9 magic pdc=26 dddc=26 trigger=\"proximity (alarm); \" eff=\"spell effect (%%spell/shocking grasp%%, Atk +9 melee touch &#91&4d6 electricity damage&#93&); multiple targets (all targets in a 40-ft.-square room); **Duration:** 1d6 rounds\"}"
+			"::trap[Shocking Floor Trap]{start cr=9 magic pdc=26 dddc=26 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/shocking grasp%%, Atk +9 melee touch &#91&4d6 electricity damage&#93&); multiple targets (all targets in a 40-ft.-square room); **Duration:** 1d6 rounds\"}"
 		]
 	},
 	"chamber_of_blades_trap": {

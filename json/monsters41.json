@@ -3108,7 +3108,7 @@
 			"",
 			"**Writhing Snakes (Ex)** When a dorvae succeeds at a grapple check against an opponent, the serpents of its body writhe around the grappled foe, biting wherever they can gain purchase. This deals 2d8 points of piercing damage, and the grappled foe is subject to the dorvae's supernatural poison.",
 			"",
-			"::aff[Dorvae Poison (Su)]{iconP type=\"Writhing snakes-injury \" saveF=20 freqR=12 eff=\"1d4 %%rule/Wis damage%% and on the first failed save the target is susceptible to the dorvae's %%spell/lesser geas%% no matter its Hit Dice for 24 hours\" cure3 extra=\"The save DC is Constitution-based.\"}",
+			"::aff[Dorvae Poison (Su)]{iconP type=\"Writhing snakes-injury\" saveF=20 freqR=12 eff=\"1d4 %%rule/Wis damage%% and on the first failed save the target is susceptible to the dorvae's %%spell/lesser geas%% no matter its Hit Dice for 24 hours\" cure3 extra=\"The save DC is Constitution-based.\"}",
 			"",
 			"::sh[Description]",
 			"",
