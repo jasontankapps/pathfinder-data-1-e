@@ -1,10 +1,15 @@
 import { DetailedHTMLProps, HTMLAttributes, FC } from 'react';
-import { Link as WouterLink } from 'wouter';
+import { IonRippleEffect } from '@ionic/react';
+import { Link as WouterLink, useLocation } from 'wouter';
 import { useAppDispatch } from '../store/hooks';
 import { goTo } from '../store/historySlice';
 import getLink from './getLink';
 
 interface LinkProps extends DetailedHTMLProps<HTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement> {
+	to: string
+}
+
+interface ThProps extends DetailedHTMLProps<HTMLAttributes<HTMLTableCellElement>, HTMLTableCellElement> {
 	to: string
 }
 
@@ -14,6 +19,26 @@ const Link: FC<LinkProps> = (props) => {
 	const link = `/${getLink(to.slice(1))}`;
 	return (
 		<WouterLink onClick={() => dispatch(goTo(link))} to={link} {...etc} />
+	);
+};
+
+export const ThLink: FC<ThProps> = (props) => {
+	const { to, className: cn, children, ...etc } = props;
+	const [, navigate] = useLocation();
+	const dispatch = useAppDispatch();
+	const link = `/${getLink(to.slice(1))}`;
+	const invoke = () => {
+		dispatch(goTo(link));
+		navigate(link);
+	};
+	const keydown = (e: React.KeyboardEvent<HTMLTableCellElement>) => e.key === "Enter" && invoke();
+	const onclick= () => invoke();
+	const className = cn ? `${cn} ion-activateable thLink` : "ion-activateable thLink";
+	return (
+		<th className={className} tabIndex={0} role="link" onKeyDown={keydown} onClick={onclick} {...etc}>
+			{children}
+			<IonRippleEffect className="rippleColor" />
+		</th>
 	);
 };
 

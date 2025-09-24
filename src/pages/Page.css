@@ -684,6 +684,12 @@ div.afflictionWrap table tbody td.extra {
 	text-align: end;
 	font-style: italic;
 }
+div.afflictionWrap table tbody tr th.thLink ion-icon {
+	color: var(--ion-color-secondary);
+}
+div.afflictionWrap table tbody tr th.thLink {
+	cursor: pointer;
+}
 
 
 ion-modal ion-item.item ion-label.picker {

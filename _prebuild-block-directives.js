@@ -523,16 +523,21 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				//
 				// ADD ICON
 				//
-				const icon = iconP ? ["Poison", "poison-bottle"] : (
-					iconD ? ["Disease", "paramecia"] : (
-						iconC ? ["Curse", "death-note"] : (
-							iconI ? ["Infestation", "infested-mass"] : false
+				const icon = iconP ? ["Poison", "poison-bottle", "/rule/poison"] : (
+					iconD ? ["Disease", "paramecia", "/rule/diseases"] : (
+						iconC ? ["Curse", "death-note", "/rule/curses"] : (
+							iconI ? ["Infestation", "infested-mass", "/rule/infestations"] : false
 						)
 					)
 				);
 				if(icon) {
 					flags.icon = true;
-					output.splice(3, 0, `<th scope="row" rowSpan={${rows}}><IonIcon aria-label="${icon[0]}" icon="/icons/${icon[1]}.svg" /></th>`);
+					if(nolink) {
+						output.splice(3, 0, `<th scope="row" rowSpan={${rows}}><IonIcon aria-label="${icon[0]}" icon="/icons/${icon[1]}.svg" /></th>`);
+					} else {
+						flags.thlink = true;
+						output.splice(3, 0, `<ThLink scope="row" rowSpan={${rows}} to="${icon[2]}"><IonIcon aria-label="${icon[0]}" icon="/icons/${icon[1]}.svg" /></ThLink>`);
+					}
 				} else {
 					logError(`---> missing icon property`);
 				}
@@ -686,7 +691,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				// ADD DRUG ICON
 				//
 				flags.icon = true;
-				output.splice(3, 0, `<th scope="row" rowSpan={${rows}}><IonIcon aria-label="Drug" icon="/icons/syringe.svg" /></th>`)
+				flags.thlink = true;
+				output.splice(3, 0, `<ThLink scope="row" rowSpan={${rows}} to="/rule/drugs"><IonIcon aria-label="Drug" icon="/icons/syringe.svg" /></ThLink>`)
 				//
 				// END CODE BLOCK	
 				//
@@ -797,7 +803,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				// ADD TRAP ICON
 				//
 				flags.icon = true;
-				output.splice(3, 0, `<th scope="row" rowSpan={${rows}}><IonIcon aria-label="Trap" icon="/icons/wolf-trap.svg" /></th>`)
+				flags.thlink = true;
+				output.splice(3, 0, `<ThLink scope="row" rowSpan={${rows}} to="/rule/elements_of_a_trap"><IonIcon aria-label="Trap" icon="/icons/wolf-trap.svg" /></ThLink>`)
 				//
 				// END CODE BLOCK	
 				//
@@ -889,7 +896,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				// ADD HAUNT ICON
 				//
 				flags.icon = true;
-				output.splice(3, 0, `<th scope="row" rowSpan={${rows}}><IonIcon aria-label="Haunt" icon="/icons/ghost.svg" /></th>`)
+				flags.thlink = true;
+				output.splice(3, 0, `<ThLink scope="row" rowSpan={${rows}} to="/rule/elements_of_a_haunt"><IonIcon aria-label="Haunt" icon="/icons/ghost.svg" /></ThLink>`)
 				//
 				// END CODE BLOCK	
 				//
