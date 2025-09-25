@@ -709,7 +709,15 @@
 			"",
 			"You're a master of using your shield for protection.  ",
 			"**Prerequisites:** Shield Focus.  ",
-			"**Benefit:** Add your shield bonus and your shield's enhancement bonus to your touch AC. As an immediate action, you can expend one use of mythic power to add your shield bonus and your shield's enhancement bonus on a Fortitude or Reflex save just before you roll it."
+			"**Benefit:** Add your shield bonus and your shield's enhancement bonus to your touch AC. As an immediate action, you can expend one use of mythic power to add your shield bonus and your shield's enhancement bonus on a Fortitude or Reflex save just before you roll it.",
+			"",
+			":::elephant",
+			"",
+			"You are skilled at deflecting blows with your shield.  ",
+			"**Prerequisites:** {feat/Shield Proficiency}, base attack bonus +1.  ",
+			"**Benefit:** Increase the AC bonus granted by any shield you are using by 1. This bonus increases to 5 against ranged attacks (not including spell effects, natural attacks, or massive ranged weapons).",
+			"",
+			":::"
 		]
 	},
 	"shield_gauntlet_style": {

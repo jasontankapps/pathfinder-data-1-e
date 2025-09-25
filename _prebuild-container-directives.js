@@ -58,6 +58,14 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 						`<div className="${className}">${removeCurlyBrackets(marked2.parse(text))}</div>`
 					);
 				}
+				case "elephant": {
+					const marked2 = makeNewMarkedInstance();
+					flags.thlink = true;
+					flags.icon = true;
+					return (
+						`<div className="sideNoteWrap elephant"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td>${removeCurlyBrackets(marked2.parse(text))}</td></tr></tbody></table></div>`
+					);
+				}
 			}
 			return false;
 		}

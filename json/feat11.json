@@ -1258,7 +1258,17 @@
 			"",
 			"You can speak and use some magic items when you use wild shape.  ",
 			"**Prerequisites:** Natural Spell.  ",
-			"**Benefit:** When you're using wild shape, you can use spell completion and spell trigger magic items that were on your person when you changed form. You don't need to physically manipulate the items when you use them while using wild shape. Furthermore, you can speak normally when using wild shape."
+			"**Benefit:** When you're using wild shape, you can use spell completion and spell trigger magic items that were on your person when you changed form. You don't need to physically manipulate the items when you use them while using wild shape. Furthermore, you can speak normally when using wild shape.",
+			"",
+			":::elephant",
+			"",
+			"You can cast spells even while transformed.  ",
+			"**Prerequisites:** Wis 13, {umr/change shape} or wild shape class feature.  ",
+			"**Benefit:** You can complete the verbal and somatic components of spells while using change shape or wild shape. You substitute various noises and gestures for the normal verbal and somatic components of a spell.",
+			"",
+			"You can also use any material components or focuses you possess, even if such items are melded within your current form. This feat does not permit the use of magic items while you are in a form that could not ordinarily use them, and you do not gain the ability to speak while using change shape or wild shape.",
+			"",
+			":::"
 		]
 	},
 	"nature_magic": {

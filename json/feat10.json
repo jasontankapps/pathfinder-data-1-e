@@ -2157,7 +2157,13 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/126}",
 			">",
-			">At the start of your turn, you can spend 5 stamina points to apply the feats to another weapon that is not of the same weapon group. You gain this benefit until the start of your next turn."
+			">At the start of your turn, you can spend 5 stamina points to apply the feats to another weapon that is not of the same weapon group. You gain this benefit until the start of your next turn.",
+			"",
+			":::elephant",
+			"",
+			"This feat does not exist. Combat feats like Weapon Focus now apply to weapon groups instead of a specific weapon by default.",
+			"",
+			":::"
 		]
 	},
 	"martial_versatility": {

@@ -1,13 +1,14 @@
 {
 	"optional_skill_changes": {
-		"name": "Optional Skill Changes",
+		"name": "Optional Skill/Feat Changes",
 		"subtopics": [
 			"alternate_crafting_rules",
 			"alternate_profession_rules",
 			"background_skills",
 			"consolidated_skills",
 			"grouped_skills",
-			"skill_unlocks"
+			"skill_unlocks",
+			"the_elephant_in_the_room"
 		],
 		"description": [
 			"These topics cover optional rules that change the way skills work."
@@ -74,7 +75,8 @@
 			"background_skills",
 			"consolidated_skills",
 			"grouped_skills",
-			"skill_unlocks"
+			"skill_unlocks",
+			"the_elephant_in_the_room"
 		]
 	},
 	"item_crafting_difficulties": {
@@ -326,7 +328,8 @@
 			"background_skills",
 			"consolidated_skills",
 			"grouped_skills",
-			"skill_unlocks"
+			"skill_unlocks",
+			"the_elephant_in_the_room"
 		],
 		"subtopics": [
 			"setting_up_shop",
@@ -541,7 +544,8 @@
 			"background_skills",
 			"consolidated_skills",
 			"grouped_skills",
-			"skill_unlocks"
+			"skill_unlocks",
+			"the_elephant_in_the_room"
 		]
 	},
 	"skill_changes": {
@@ -1206,7 +1210,8 @@
 			"background_skills",
 			"consolidated_skills",
 			"grouped_skills",
-			"skill_unlocks"
+			"skill_unlocks",
+			"the_elephant_in_the_room"
 		]
 	},
 	"skill_descriptions_pu": {
@@ -4050,7 +4055,8 @@
 			"background_skills",
 			"consolidated_skills",
 			"grouped_skills",
-			"skill_unlocks"
+			"skill_unlocks",
+			"the_elephant_in_the_room"
 		]
 	},
 	"skill_group_rules": {
@@ -4198,7 +4204,707 @@
 			"background_skills",
 			"consolidated_skills",
 			"grouped_skills",
-			"skill_unlocks"
+			"skill_unlocks",
+			"the_elephant_in_the_room"
+		]
+	},
+	"the_elephant_in_the_room": {
+		"name": "The Elephant in the Room",
+		"subtitle": "Feat Taxes in Pathfinder",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			":::div{className=italicsDefault}",
+			"",
+			">In September of 2012, my brother and I@FN[1] released a blog post discussing the issue of feat taxes in the *Pathfinder Roleplaying Game.* Although the post was intended to be a one-off thought experiment based on our experiences building characters for organized play, it gained an inexplicable amount of traction on Reddit, Facebook, and the official Paizo forums.",
+			">",
+			">In response to the interest expressed by the Pathfinder community, we decided to publish an updated version of our feat tree. This document, titled *The Elephant in the Room* after the original blog post, includes a reimagined version of the entire feat section found in the *Pathfinder Roleplaying Game Core Rulebook.*",
+			">",
+			">- Dozens of weak or situational feats have been reworked (such as Shield Focus) or merged together (such as Dodge and Mobility)",
+			">- Power Attack, Deadly Aim, and Combat Expertise are now combat options available to any character with at least +1 BAB",
+			">- 10 completely new feats have been created to improve dead-end feat lines: Vital Strike as part of a spring attack/charge with Savage Charge or gain evasion when wielding a shield with Iron Guard",
+			">- Master multiple combat maneuvers with a single feat - including the new Hamstring combat maneuver",
+			">- Enjoy a *Pathfinder Core Campaign* experience with best-of options curated from the *Advanced Players Guide* and *Pathfinder Unchained*",
+			">",
+			">More than anything, we hope that this document continues to spur interesting and lively discussion of the *Pathfinder Roleplaying Game,* just as the original blog post did.",
+			"",
+			":::",
+			"",
+			":::fakeFootnotes",
+			"",
+			"@FN[This is verbatim from the source, and is not meant to imply that the authors of this material have any connection to the authors of *Pf Data 1e*.]{from=1}",
+			"",
+			":::"
+		],
+		"parent_topics": [ "optional_skill_changes" ],
+		"siblings": [
+			"alternate_crafting_rules",
+			"alternate_profession_rules",
+			"background_skills",
+			"consolidated_skills",
+			"grouped_skills",
+			"skill_unlocks",
+			"the_elephant_in_the_room"
+		],
+		"subtopics": [
+			"elephant_overview",
+			"new_feats",
+			"combat_errata",
+			"class_errata",
+			"equipment_errata",
+			"bestiary_errata"
+		]
+	},
+	"elephant_overview": {
+		"name": "Overview",
+		"subtitle": "The Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+			"Rules for how feat prerequisites and feat types function remain unchanged from the Pathfinder RPG Core Rulebook.",
+			"",
+			"### Altered Feats",
+			"",
+			"| Altered Feat | Description |",
+			"| --- | --- |",
+			"| Agile Combatant | Formerly titled {feat/Agile Maneuvers}. Includes the hamstring combat maneuver and acknowledges the changes to Weapon Finesse. |",
+			"| {feat/Catch Off-Guard} | Combines the effects of Catch Off-Guard and Throw Anything. |",
+			"| {feat/Deflect Arrows} | Characters with Shield Focus may take this feat to deflect arrows with their shield. |",
+			"| {feat/Dodge} | Combines the effects of Dodge and Mobility. |",
+			"| {feat/Greater Shield Focus} | The AC bonus granted by Shield Focus now affects ranged touch attacks (including rays and similar magical effects). |",
+			"| {feat/Greater Two-Weapon Fighting} | Combines the effects of Improved Two-Weapon Fighting and Greater Two-Weapon Fighting. |",
+			"| {feat/Improvised Weapon Mastery} | Solely increases the damage dealt by improvised weapons, as Catch Off-Guard already removes all penalties to attack. |",
+			"| {feat/Natural Spell} | Now works with the wizard's change shape class feature. |",
+			"| {feat/Rapid Reload} | Slings and sling staves may now be reloaded as a free action. |",
+			"| {feat/Shield Focus} | Grants an additional +4 bonus to AC against ranged attacks. |",
+			"| {feat/Two-Weapon Fighting} | Verbiage changed to reflect the changes to Weapon Finesse. |",
+			"",
+			"### Removed Feats",
+			"",
+			"- {feat/Combat Expertise}",
+			"- {feat/Deadly Aim}",
+			"- {feat/Exotic Weapon Proficiency}",
+			"- {feat/Improved Bull Rush}",
+			"- {feat/Improved Disarm}",
+			"- {feat/Improved Feint}",
+			"- {feat/Improved Grapple}",
+			"- {feat/Improved Overrun}",
+			"- {feat/Improved Sunder}",
+			"- {feat/Improved Trip}",
+			"- {feat/Improved Two-Weapon Fighting}",
+			"- {feat/Improved Unarmed Strike}",
+			"- {feat/Martial Weapon Proficiency}",
+			"- {feat/Mobility}",
+			"- {feat/Power Attack}",
+			"- {feat/Scorpion Style}",
+			"- {feat/Stand Still}",
+			"- {feat/Throw Anything}",
+			"- {feat/Weapon Finesse}"
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room"
+		],
+		"siblings": [
+			"elephant_overview",
+			"new_feats",
+			"combat_errata",
+			"class_errata",
+			"equipment_errata",
+			"bestiary_errata"
+		]
+	},
+	"new_feats": {
+		"name": "New Feats",
+		"subtitle": "The Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			"| New Feat | Description |",
+			"| --- | --- |",
+			"| Deft Maneuvers | Combines the effects of Improved Disarm, Improved Trip, and Improved Feint. |",
+			"| Greater Hamstring | Victims of your hamstring combat maneuvers cannot move for the rest of their turn. |",
+			"| Iron Guard | Gain the benefit of a rogue's evasion class feature when using a shield. |",
+			"| Powerful Maneuvers | Combines the effects of Improved Bull Rush, Improved Overrun, and Improved Sunder. Enables the use of the hamstring combat maneuver without attacks of opportunity. |",
+			"| Powerful Stride | Once per day, take a 10-foot step in place of a 5-foot step. |",
+			"| Savage Charge | Use Vital Strike as part of a charge or Spring Attack. |",
+			"| Scorpion Stance | Replaces Scorpion Style. Allows the use of bull rush, hamstring, overrun, and trip combat maneuvers against larger foes. |",
+			"| Unarmed Combatant | Combines the effects of Improved Grapple and Improved Unarmed Strike. |",
+			"| Weapon Proficiency | Allows you to make attack rolls with a single fighter weapon group normally. |",
+			"| Whirling Cleave | Take a single 5-foot step during a Cleave or Great Cleave. |"
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room"
+		],
+		"siblings": [
+			"elephant_overview",
+			"new_feats",
+			"combat_errata",
+			"class_errata",
+			"equipment_errata",
+			"bestiary_errata"
+		],
+		"subtopics": [
+			"deft_maneuvers",
+			"greater_hamstring",
+			"iron_guard",
+			"powerful_maneuvers",
+			"powerful_stride",
+			"savage_charge",
+			"scorpion_stance",
+			"unarmed_combatant",
+			"weapon_proficiency",
+			"whirling_cleave"
+		]
+	},
+	"deft_maneuvers": {
+		"name": "Deft Maneuvers (Combat)",
+		"subtitle": "New Feats, Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			"You are skilled in a variety of dextrous combat maneuvers.  ",
+			"**Prerequisites:** Dex 13.  ",
+			"**Benefit:** You do not provoke an attack of opportunity when performing a {rule/trip} or {rule/disarm} combat maneuver. In addition, you receive a +2 bonus on checks with trip and disarm combat maneuvers, and you can make a {skill/Bluff} check to {rule/feint} in combat as a move action.",
+			"",
+			"You also receive a +2 bonus to your CMD whenever an opponent tries to trip or disarm you.  ",
+			"**Normal:** You provoke an attack of opportunity when performing a trip or disarm combat maneuver. Feinting in combat is a standard action."
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"new_feats"
+		],
+		"siblings": [
+			"deft_maneuvers",
+			"greater_hamstring",
+			"iron_guard",
+			"powerful_maneuvers",
+			"powerful_stride",
+			"savage_charge",
+			"scorpion_stance",
+			"unarmed_combatant",
+			"weapon_proficiency",
+			"whirling_cleave"
+		]
+	},
+	"greater_hamstring": {
+		"name": "Greater Hamstring (Combat)",
+		"subtitle": "New Feats, Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			"You can stop enemies in their tracks.  ",
+			"**Prerequisites:** {rule/Powerful Maneuvers}, base attack bonus +6, Str 13.  ",
+			"**Benefit:** You receive a +2 bonus on checks made to {rule/hamstring} a foe. This bonus stacks with the bonus granted by Powerful Maneuvers. When you successfully hamstring an opponent using an attack of opportunity, that opponent cannot move for the rest of his turn."
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"new_feats"
+		],
+		"siblings": [
+			"deft_maneuvers",
+			"greater_hamstring",
+			"iron_guard",
+			"powerful_maneuvers",
+			"powerful_stride",
+			"savage_charge",
+			"scorpion_stance",
+			"unarmed_combatant",
+			"weapon_proficiency",
+			"whirling_cleave"
+		]
+	},
+	"iron_guard": {
+		"name": "Iron Guard (Combat)",
+		"subtitle": "New Feats, Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			"You are skilled at shielding yourself from flames and magical effects.  ",
+			"**Prerequisites:** {feat/Shield Focus}, {feat/Shield Proficiency}, base attack bonus +6.  ",
+			"**Benefit:** You gain the benefits of the rogue's {ability/evasion} class ability as long as you have a {eq-armor/heavy shield} or {eq-armor/tower shield} in one hand. Unlike evasion, you do not need to be wearing light or medium armor to benefit from this effect."
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"new_feats"
+		],
+		"siblings": [
+			"deft_maneuvers",
+			"greater_hamstring",
+			"iron_guard",
+			"powerful_maneuvers",
+			"powerful_stride",
+			"savage_charge",
+			"scorpion_stance",
+			"unarmed_combatant",
+			"weapon_proficiency",
+			"whirling_cleave"
+		]
+	},
+	"powerful_maneuvers": {
+		"name": "Powerful Maneuvers (Combat)",
+		"subtitle": "New Feats, Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			"You are skilled in a variety of strength-focused combat maneuvers.  ",
+			"**Prerequisites:** Str 13, base attack bonus +1.  ",
+			"**Benefit:** You do not provoke an attack of opportunity when performing a {rule/bull rush}, {rule/hamstring}, {rule/overrun}, or {rule/sunder} combat maneuver. In addition, you receive a +2 bonus on checks with these combat maneuvers. You also receive a +2 bonus to your CMD whenever an opponent tries to bull rush, hamstring, or overrun you or sunder your gear.",
+			"",
+			"Targets of your overrun attempts may not choose to avoid you.  ",
+			"**Normal:** You provoke an attack of opportunity when performing a bull rush, hamstring, overrun, or sunder combat maneuver."
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"new_feats"
+		],
+		"siblings": [
+			"deft_maneuvers",
+			"greater_hamstring",
+			"iron_guard",
+			"powerful_maneuvers",
+			"powerful_stride",
+			"savage_charge",
+			"scorpion_stance",
+			"unarmed_combatant",
+			"weapon_proficiency",
+			"whirling_cleave"
+		]
+	},
+	"powerful_stride": {
+		"name": "Powerful Stride",
+		"subtitle": "New Feats, Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			"Your movements on the battlefield are swift and steady.  ",
+			"**Prerequisites:** Str 15, Dex 13, {feat/Nimble Moves}.  ",
+			"**Benefit:** Once per day, you can take a 10-foot step in place of a 5-foot step. This movement must be made in a straight line.  ",
+			"**Special:** If you have the {feat/Step Up} feat, you may still take a 5-foot step during your next turn after benefiting from its effects. In addition, any movement you make using Step Up does not subtract any distance from your movement during your next turn."
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"new_feats"
+		],
+		"siblings": [
+			"deft_maneuvers",
+			"greater_hamstring",
+			"iron_guard",
+			"powerful_maneuvers",
+			"powerful_stride",
+			"savage_charge",
+			"scorpion_stance",
+			"unarmed_combatant",
+			"weapon_proficiency",
+			"whirling_cleave"
+		]
+	},
+	"savage_charge": {
+		"name": "Savage Charge (Combat)",
+		"subtitle": "New Feats, Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			"You fearlessly dive into battle, bringing the full weight of your weapon down on your opponent.  ",
+			"**Prerequisites:** Str 15, {feat/Spring Attack}, {feat/Vital Strike}, base attack bonus +8.  ",
+			"**Benefit:** You can Vital Strike as part of a charge action or Spring Attack."
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"new_feats"
+		],
+		"siblings": [
+			"deft_maneuvers",
+			"greater_hamstring",
+			"iron_guard",
+			"powerful_maneuvers",
+			"powerful_stride",
+			"savage_charge",
+			"scorpion_stance",
+			"unarmed_combatant",
+			"weapon_proficiency",
+			"whirling_cleave"
+		]
+	},
+	"scorpion_stance": {
+		"name": "Scorpion Stance (Combat)",
+		"subtitle": "New Feats, Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			"You are skilled at incapacitating larger opponents.  ",
+			"**Prerequisites:** {rule/Unarmed Combatant}, {rule/Deft Maneuvers} or {rule/Powerful Maneuvers}.  ",
+			"**Benefit:** You can {rule/bull rush}, {rule/hamstring}, {rule/overrun}, or {rule/trip} an opponent who is up to two size categories larger than you. You are treated as one size category larger while {rule/grappl/ing>e}.  ",
+			"**Special:** By spending 1 point from his ki pool, a monk can bull rush, hamstring, overrun, or trip an opponent who is up to three size categories larger than him and is treated as two size categories larger while grappling. This effect lasts for a number of rounds equal to his Wisdom modifier.  ",
+			"**Normal:** You can only bull rush, hamstring, overrun, or trip an opponent who is no more than one size category larger than you."
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"new_feats"
+		],
+		"siblings": [
+			"deft_maneuvers",
+			"greater_hamstring",
+			"iron_guard",
+			"powerful_maneuvers",
+			"powerful_stride",
+			"savage_charge",
+			"scorpion_stance",
+			"unarmed_combatant",
+			"weapon_proficiency",
+			"whirling_cleave"
+		]
+	},
+	"unarmed_combatant": {
+		"name": "Unarmed Combatant (Combat)",
+		"subtitle": "New Feats, Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			"You are skilled at grappling and fighting while unarmed.  ",
+			"**Prerequisites:** Dex 13.  ",
+			"**Benefit:** You are considered to be armed even when unarmed - you do not provoke attacks of opportunity when you attack foes while unarmed. Your unarmed strikes now deal 1d6 damage if you are medium sized or 1d4 damage if you are small sized, and you can deal lethal or nonlethal damage, at your choice.",
+			"",
+			"You do not provoke an attack of opportunity when performing a {rule/grapple} combat maneuver. In addition, you receive a +2 bonus on checks made to grapple a foe. You also receive a +2 bonus to your CMD whenever an opponent tries to grapple you.  ",
+			"**Normal:** Without this feat, you are considered unarmed when attacking with an unarmed strike, and you can deal only nonlethal damage with such an attack. You provoke an attack of opportunity when performing a grapple combat maneuver."
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"new_feats"
+		],
+		"siblings": [
+			"deft_maneuvers",
+			"greater_hamstring",
+			"iron_guard",
+			"powerful_maneuvers",
+			"powerful_stride",
+			"savage_charge",
+			"scorpion_stance",
+			"unarmed_combatant",
+			"weapon_proficiency",
+			"whirling_cleave"
+		]
+	},
+	"weapon_proficiency": {
+		"name": "Weapon Proficiency (Combat)",
+		"subtitle": "New Feats, Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			"Choose one {ability/weapon group>s} listed under the fighter's Weapon Training class feature. You understand how to use all weapons from that group.  ",
+			"**Benefit:** You make attack rolls with weapons from the selected group normally (without the non-proficient penalty).  ",
+			"**Normal:** Normal: When using a weapon with which you are not proficient, you take a -4 penalty on attack rolls.  ",
+			"**Special:** You can gain Weapon Proficiency multiple times. Each time you take the feat, it applies to a new weapon group."
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"new_feats"
+		],
+		"siblings": [
+			"deft_maneuvers",
+			"greater_hamstring",
+			"iron_guard",
+			"powerful_maneuvers",
+			"powerful_stride",
+			"savage_charge",
+			"scorpion_stance",
+			"unarmed_combatant",
+			"weapon_proficiency",
+			"whirling_cleave"
+		]
+	},
+	"whirling_cleave": {
+		"name": "Whirling Cleave (Combat)",
+		"subtitle": "New Feats, Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			"You become a whirlwind of steel on the battlefield.  ",
+			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Great Cleave}, base attack bonus +6.  ",
+			"**Benefit:** You can take a single 5-foot step during a Cleave or Great Cleave, as long as it brings you within reach of another foe of which you are able to make an additional attack against. This 5-foot step is a free action and does not subtract from your normal movement for the round."
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"new_feats"
+		],
+		"siblings": [
+			"deft_maneuvers",
+			"greater_hamstring",
+			"iron_guard",
+			"powerful_maneuvers",
+			"powerful_stride",
+			"savage_charge",
+			"scorpion_stance",
+			"unarmed_combatant",
+			"weapon_proficiency",
+			"whirling_cleave"
+		]
+	},
+	"combat_errata": {
+		"name": "Combat Errata",
+		"subtitle": "The Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			"### New Combat Manuever: Hamstring",
+			"",
+			"A new combat maneuver called Hamstring has been added to replace the somewhat awkward {feat/Stand Still} and {feat/Scorpion Style} feats. These two feats shared the same purpose of slowing down enemy movement, but did not interact with other feats or combat options.",
+			"",
+			"@HL[Hamstring]: You can attempt to hamstring your opponent's movement in place of a melee attack. You can only hamstring an opponent who is no more than one size category larger than you. If you do not have the {rule/Powerful Maneuvers} feat, or a similar ability, initiating a hamstring provokes an attack of opportunity from the target of your maneuver.",
+			"",
+			"If your attack exceeds the target's CMD, the target is {rule/entangled} for 1 round. For every 5 by which your attack exceeds your opponent's CMD, the penalty lasts 1 additional round. Creatures that are immune to critical hits - such as elementals and oozes - cannot be hamstrung. Flying creatures can be hamstrung, but only if they use non-magical means for flight (such as wings).",
+			"",
+			"::h3[Risky Strike and Defensive Stance]{jl}",
+			"",
+			"In place of {feat/Power Attack}, {feat/Deadly Aim}, {misc/Fight Defensively}, and {feat/Combat Expertise}, players are granted two new combat options: Risky Strike and Defensive Stance. Both are usable by any character with a base attack bonus of at least +1, and neither option requires a feat to access.",
+			"",
+			"@HL[Risky Strike]  ",
+			"**Prerequisite:** Base attack bonus +1.  ",
+			"You can choose to take a -1 penalty on all attack rolls and combat maneuver checks to gain a +2 bonus on all damage rolls. This bonus to damage is increased by half (+50%) if you are making an attack with a two-handed weapon, a one-handed weapon using two hands, or a primary natural weapon that adds 1-1/2 times your Strength modifier on damage rolls. This bonus to damage is halved (-50%) if you are making an attack with an off-hand weapon or secondary natural weapon.",
+			"",
+			"When your base attack bonus reaches +4, and every 4 points thereafter, the penalty increases by -1 and the bonus to damage increases by +2.",
+			"",
+			"You must choose to use Risky Strike before making an attack roll, and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage.",
+			"",
+			"@HL[Defensive Stance]  ",
+			"**Prerequisite:** Base attack bonus +1.  ",
+			"You can choose to take a -1 penalty on melee attack rolls and combat maneuver checks to gain a +1 dodge bonus to your Armor Class. When your base attack bonus reaches +4, the penalty increases by -1 and the dodge bonus increases by +1.",
+			"",
+			"You must choose to use Defensive Stance before making an attack roll and its effects last until your next turn.",
+			"",
+			"::h3[Nonlethal Damage]{jl}",
+			"",
+			"Nonlethal damage rules have been very slightly tweaked: players no longer take a -4 penalty to attack rolls when inflicting nonlethal damage with a weapon that deals lethal damage, but instead lose the ability to confirm critical hits when doing so.",
+			"",
+			"@HL[Nonlethal Damage]  ",
+			"Nonlethal damage represents harm to a character that is not life-threatening. Unlike normal damage, nonlethal damage is healed quickly with rest.",
+			"",
+			"**Dealing Nonlethal Damage:** Certain attacks deal nonlethal damage. Other effects, such as heat or being exhausted, also deal nonlethal damage. When you take nonlethal damage, keep a running total of how much you've accumulated. Do not deduct the nonlethal damage number from your current hit points. It is not \"real\" damage. Instead, when your nonlethal damage equals your current hit points, you're staggered (see below), and when it exceeds your current hit points, you fall unconscious.",
+			"",
+			"**Nonlethal Damage with a Weapon that Deals Lethal Damage:** You can use a melee weapon that deals lethal damage to deal nonlethal damage instead, but you cannot confirm critical hits when doing so.",
+			"",
+			"**Lethal Damage with a Weapon that Deals Nonlethal Damage:** You can use a weapon that deals nonlethal damage, including an unarmed strike, to deal lethal damage instead, but you take a -4 penalty on your attack roll."
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room"
+		],
+		"siblings": [
+			"elephant_overview",
+			"new_feats",
+			"combat_errata",
+			"class_errata",
+			"equipment_errata",
+			"bestiary_errata"
+		]
+	},
+	"hamstring": { "redirect": "combat_errata" },
+	"class_errata": {
+		"name": "Class Errata",
+		"subtitle": "The Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			"Errata notes have been provided for all classes presented in the Pathfinder RPG Core Rulebook, save for the barbarian, monk, and rogue. It is suggested that players use the Pathfinder Unchained variations of these classes, which fall more in line with the revised feat tree."
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room"
+		],
+		"siblings": [
+			"elephant_overview",
+			"new_feats",
+			"combat_errata",
+			"class_errata",
+			"equipment_errata",
+			"bestiary_errata"
+		],
+		"subtopics": [
+			"teitr_druid",
+			"teitr_monk",
+			"teitr_ranger",
+			"teitr_rogue",
+			"teitr_sorcerer"
+		]
+	},
+	"teitr_druid": {
+		"name": "Druid",
+		"subtitle": "The Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			""
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"class_errata"
+		],
+		"siblings": [
+			"teitr_druid",
+			"teitr_monk",
+			"teitr_ranger",
+			"teitr_rogue",
+			"teitr_sorcerer"
+		]
+	},
+	"teitr_monk": {
+		"name": "Monk (Unchained)",
+		"subtitle": "The Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			""
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"class_errata"
+		],
+		"siblings": [
+			"teitr_druid",
+			"teitr_monk",
+			"teitr_ranger",
+			"teitr_rogue",
+			"teitr_sorcerer"
+		]
+	},
+	"teitr_ranger": {
+		"name": "Ranger",
+		"subtitle": "The Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			""
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"class_errata"
+		],
+		"siblings": [
+			"teitr_druid",
+			"teitr_monk",
+			"teitr_ranger",
+			"teitr_rogue",
+			"teitr_sorcerer"
+		]
+	},
+	"teitr_rogue": {
+		"name": "Rogue (Unchained)",
+		"subtitle": "The Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			""
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"class_errata"
+		],
+		"siblings": [
+			"teitr_druid",
+			"teitr_monk",
+			"teitr_ranger",
+			"teitr_rogue",
+			"teitr_sorcerer"
+		]
+	},
+	"teitr_sorcerer": {
+		"name": "Sorcerer",
+		"subtitle": "The Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			""
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room",
+			"class_errata"
+		],
+		"siblings": [
+			"teitr_druid",
+			"teitr_monk",
+			"teitr_ranger",
+			"teitr_rogue",
+			"teitr_sorcerer"
+		]
+	},
+	"equipment_errata": {
+		"name": "Equipment Errata",
+		"subtitle": "The Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			""
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room"
+		],
+		"siblings": [
+			"elephant_overview",
+			"new_feats",
+			"combat_errata",
+			"class_errata",
+			"equipment_errata",
+			"bestiary_errata"
+		]
+	},
+	"finesse": { "redirect": "equipment_errata" },
+	"bestiary_errata": {
+		"name": "Bestiary Errata",
+		"subtitle": "The Elephant in the Room",
+		"sources": [ "The Elephant in the Room: Feat Taxes in Pathfinder" ],
+		"description": [
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}",
+			"",
+			""
+		],
+		"parent_topics": [
+			"optional_skill_changes",
+			"the_elephant_in_the_room"
+		],
+		"siblings": [
+			"elephant_overview",
+			"new_feats",
+			"combat_errata",
+			"class_errata",
+			"equipment_errata",
+			"bestiary_errata"
 		]
 	}
 }

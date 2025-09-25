@@ -17,7 +17,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 		<blockquote>
 			<p>The icons for curses ("Death Note"), poisons ("Poison Bottle"), infestations ("Infested Mass"), diseases ("Paramecia"), drugs ("Syringe"), haunts ("Ghost"), and traps ("Wolf Trap") are also by Lorc.</p>
 		</blockquote>
-		<p>Menu icons "Skills", "Person", "Mighty Force", and "Sparkles" by <a href="https://delapouite.com/">Delapouite</a>.</p>
+		<p>Menu icons "Skills", "Person", "Mighty Force", and "Sparkles", and the "Elephant" icon are by <a href="https://delapouite.com/">Delapouite</a>. (CC BY 3.0)</p>
 		<p>Menu icon "Orb Wand" by <a href="https://wjbstories.blogspot.com/">Wildabeast</a></p>
 		<p>Menu icon "Read" by <a href="https://game-icons.net/">Skoll</a></p>
 		<p>Menu icon "Spiked Half" by <a href="https://opengameart.org/content/95-game-icons">sbed</a></p>

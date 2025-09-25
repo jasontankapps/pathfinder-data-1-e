@@ -1672,7 +1672,15 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/124}",
 			">",
-			">When making an improvised weapon attack, you can spend 2 stamina points to increase the damage of the attack by an additional step (to a maximum of 1d10, or 2d8 if the improvised weapon is two-handed)."
+			">When making an improvised weapon attack, you can spend 2 stamina points to increase the damage of the attack by an additional step (to a maximum of 1d10, or 2d8 if the improvised weapon is two-handed).",
+			"",
+			":::elephant",
+			"",
+			"You can turn nearly any object into a deadly weapon, from a razor-sharp chair leg to a sack of flour.  ",
+			"**Prerequisites:** {rule/Unarmed Combatant}, Catch Off-Guard, base attack bonus +6.  ",
+			"**Benefit:** Increase the amount of damage dealt by an improvised weapon by one step (for example, 1d4 becomes 1d6) to a maximum of 1d8 (2d6 if the improvised weapon is two-handed). The improvised weapon has a critical threat range of 19-20, with a critical multiplier of &times;2.",
+			"",
+			":::"
 		]
 	},
 	"in_harms_way": {

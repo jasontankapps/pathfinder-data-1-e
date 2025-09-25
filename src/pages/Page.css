@@ -657,12 +657,16 @@ div.sideNoteWrap table tbody tr td,
 div.sideNoteWrap table tbody tr th {
 	border-width: var(--half-width);
 }
-div.sideNoteWrap table tr:first-of-type th[rowSpan]:first-child {
+div.sideNoteWrap table tr:first-of-type th[rowSpan]:first-child,
+div.sideNoteWrap.elephant table tr th {
 	border-start-start-radius: 1.5em;
 	border-end-start-radius: 1.5em;
 }
 div.sideNoteWrap table tr:first-of-type th[rowSpan]:first-child ion-icon {
 	font-size: 1.5rem;
+}
+div.sideNoteWrap.elephant table tr th ion-icon {
+	font-size: 2rem;
 }
 div.sideNoteWrap table tr:first-of-type > *:last-child {
 	border-start-end-radius: 1.5em;

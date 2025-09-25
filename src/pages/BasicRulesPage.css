@@ -77,3 +77,15 @@ div.prevNext div div:first-child {
 	font-size: smaller;
 	white-space: nowrap;
 }
+
+/* italicsDefault */
+
+div.italicsDefault {
+	font-style: italic;
+}
+div.italicsDefault > h2:first-child,
+div.italicsDefault .innerlink,
+div.italicsDefault em,
+div.italicsDefault i {
+	font-style: normal;
+}

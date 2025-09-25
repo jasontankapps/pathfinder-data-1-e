@@ -450,7 +450,15 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/121}",
 			">",
-			">When an attack is made against you while you are using a shield, you can spend up to 4 stamina points. For that attack, your shield bonus increases by an amount equal to the number of stamina points you spent. This increase does not stack with any gained from the Shield Focus combat trick."
+			">When an attack is made against you while you are using a shield, you can spend up to 4 stamina points. For that attack, your shield bonus increases by an amount equal to the number of stamina points you spent. This increase does not stack with any gained from the Shield Focus combat trick.",
+			"",
+			":::elephant",
+			"",
+			"You are skilled at deflecting blows with your shield.  ",
+			"**Prerequisites:** Shield Focus, Shield Proficiency, base attack bonus +1, 8th-level fighter.  ",
+			"**Benefit:** Increase the AC bonus granted by any shield you are using by 1. This bonus stacks with the bonus granted by Shield Focus. Additionally, the AC bonus against ranged weapons granted by Shield Focus now affects ranged touch attacks (including rays and similar magical effects).",
+			"",
+			":::"
 		]
 	},
 	"greater_shield_specialization": {
@@ -699,7 +707,16 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/122}",
 			">",
-			">If you hit with the third attack granted by this feat and your base attack bonus is 16 or higher, you can spend 2 stamina points to make another attack with your off hand at a -15 penalty."
+			">If you hit with the third attack granted by this feat and your base attack bonus is 16 or higher, you can spend 2 stamina points to make another attack with your off hand at a -15 penalty.",
+			"",
+			":::elephant",
+			"",
+			"You are skilled at fighting with two weapons.  ",
+			"**Prerequisites:** Dex 15, Two-Weapon Fighting, base attack bonus +6.  ",
+			"**Benefit:** In addition to the standard single extra attack you get with an off-hand weapon, you get a second attack with it, albeit at a -5 penalty. When your base attack bonus reaches +11, you also gain a third attack with your off-hand weapon, albeit at a -10 penalty.  ",
+			"**Normal:** Without this feat, you can only get a single extra attack with an off-hand weapon.",
+			"",
+			":::"
 		]
 	},
 	"greater_uncivilized_tactics": {
