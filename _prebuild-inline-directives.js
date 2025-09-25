@@ -51,6 +51,18 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				const marked2 = makeNewMarkedInstance();
 				const id = maybeJL(attrs, text);
 				return `<strong className="hl"${id ? ` id="${id}" data-hash-target` : ""}>${marked2.parseInline(text)}</strong>`;
+			} else if (tag === "FN") {
+				const { from } = attrs;
+				flags.innerlink = true;
+				if(from) {
+					const marked2 = makeNewMarkedInstance();
+					const id = `${prefix}fake-fn-${from}`;
+					return `<li id="${id}-target"><p>${marked2.parseInline(text)} <InnerLink aria-label="Back to reference ${from}" id="backlink-${id}" data-hash-target to="${id}">↩</InnerLink></p></li>`;
+				}
+				else {
+					const id = `${prefix}fake-fn-${text}`;
+					return `<sup><InnerLink showBacklink="backlink-${id}" id="${id}" data-hash-target to="${id}-target">${text}</InnerLink></sup>`;
+				}
 			}
 			switch(tag) {
 				case "primary":

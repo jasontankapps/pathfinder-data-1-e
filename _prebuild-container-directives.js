@@ -33,6 +33,12 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 						}</IonLabel></IonItem>`
 					);
 				}
+				case "fakeFootnotes": {
+					const marked2 = makeNewMarkedInstance();
+					return (
+						`<section data-footnotes><h3 id="${$.prefix}label">Footnotes</h3><ol>${removeCurlyBrackets(marked2.parseInline(text))}</ol></section>`
+					);
+				}
 				case "aside": {
 					const marked2 = makeNewMarkedInstance();
 					return (
