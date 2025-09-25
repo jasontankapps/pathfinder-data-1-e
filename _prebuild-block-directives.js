@@ -310,7 +310,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				//
 				let rows = 2;
 				const output = [
-					`${maybeClear}<div className="afflictionWrap${start ? " startAlign" : ""}">`,
+					`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
 					"<table><tbody>"
 				];
 				//
@@ -569,7 +569,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				// START CODE
 				//
 				const output = [
-					`${maybeClear}<div className="afflictionWrap${start ? " startAlign" : ""}">`,
+					`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
 					"<table><tbody>"
 				];
 				//
@@ -720,7 +720,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				// START CODE
 				//
 				const output = [
-					`${maybeClear}<div className="afflictionWrap${start ? " startAlign" : ""}">`,
+					`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
 					"<table><tbody>"
 				];
 				//
@@ -828,7 +828,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				// START CODE
 				//
 				const output = [
-					`${maybeClear}<div className="afflictionWrap${start ? " startAlign" : ""}">`,
+					`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
 					"<table><tbody>"
 				];
 				//

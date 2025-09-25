@@ -626,68 +626,68 @@ table thead tr th.sortable div ion-icon.sortArrow {
 	color: var(--ion-color-secondary);
 }
 
-div.afflictionWrap {
+div.sideNoteWrap {
 	width: 100%;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
 	justify-content: flex-end;
 }
-div.afflictionWrap.startAlign {
+div.sideNoteWrap.startAlign {
 	justify-content: flex-start;
 	padding-inline-start: 1rem;
 }
-div.afflictionWrap div.tableWrap {
+div.sideNoteWrap div.tableWrap {
 	max-width: calc(100% - 1.75rem);
 	margin: 0 0 0 auto;
 }
-div.afflictionWrap.startAlign div.tableWrap {
+div.sideNoteWrap.startAlign div.tableWrap {
 	max-width: calc(100% - 1.75rem);
 	margin: 0 auto 0 0;
 }
-div.afflictionWrap + div.afflictionWrap {
+div.sideNoteWrap + div.sideNoteWrap {
 	margin-block-start: 1em;
 }
-div.afflictionWrap table {
+div.sideNoteWrap table {
 	border-width: var(--half-width);
 	border-radius: 1.5em;
 }
-div.afflictionWrap table tbody tr th:not([rowSpan]) {
+div.sideNoteWrap table tbody tr th:not([rowSpan]) {
 	color: var(--table-header-fg);
 	background: var(--table-header-bg);
 }
-div.afflictionWrap table tbody tr td,
-div.afflictionWrap table tbody tr th {
+div.sideNoteWrap table tbody tr td,
+div.sideNoteWrap table tbody tr th {
 	border-width: var(--half-width);
 }
-div.afflictionWrap table tr:first-of-type th[rowSpan]:first-child {
+div.sideNoteWrap table tr:first-of-type th[rowSpan]:first-child {
 	border-start-start-radius: 1.5em;
 	border-end-start-radius: 1.5em;
 }
-div.afflictionWrap table tr:first-of-type th[rowSpan]:first-child ion-icon {
+div.sideNoteWrap table tr:first-of-type th[rowSpan]:first-child ion-icon {
 	font-size: 1.5rem;
 }
-div.afflictionWrap table tr:first-of-type > *:last-child {
+div.sideNoteWrap table tr:first-of-type > *:last-child {
 	border-start-end-radius: 1.5em;
 }
-div.afflictionWrap table tr:last-of-type > *:last-child {
+div.sideNoteWrap table tr:last-of-type > *:last-child {
 	border-end-end-radius: 1.5em;
 }
-div.afflictionWrap table tbody th[scope=row],
-div.afflictionWrap table tbody th[id] {
+div.sideNoteWrap table tbody th[scope=row],
+div.sideNoteWrap table tbody th[id] {
 	text-align: end;
 }
-div.afflictionWrap table tbody tr td {
+div.sideNoteWrap table tbody tr td {
 	text-align: start;
 }
-div.afflictionWrap table tbody td.extra {
+div.sideNoteWrap table tbody td.extra {
 	text-align: end;
 	font-style: italic;
 }
-div.afflictionWrap table tbody tr th.thLink ion-icon {
+div.sideNoteWrap table tbody tr th.thLink ion-icon {
 	color: var(--ion-color-secondary);
 }
-div.afflictionWrap table tbody tr th.thLink {
+div.sideNoteWrap table tbody tr th.thLink {
 	cursor: pointer;
 }
 
