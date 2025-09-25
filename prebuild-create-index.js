@@ -236,13 +236,21 @@ Object.entries($groupingData).forEach(([prop, value]) => {
 });
 
 const $allSourcesMap = [
-	`import {lazy} from 'react';\nconst output = {`
+	`const output = {`
+];
+const $allSourcesElements = [
+	"import {lazy} from 'react';\n"
 ];
 Object.entries($sources).forEach(([prop, value]) => {
 	const transformedProp = prop.toLowerCase().replace(/[-_ ]/g, "_").replace(/[^0-9_a-z]/g, "");
+	const transformedElement =
+		"Source"
+		+ transformedProp.slice(0,1).toUpperCase()
+		+ transformedProp.slice(1).replace(/_([a-z])/g, (x, m) => (m || "").toUpperCase()).replace(/_/g, "");
 	const baseurl = `__source_${transformedProp}`;
 	const url = `./src/pages/subpages/${baseurl}.tsx`;
-	$allSourcesMap.push(`${transformedProp}: lazy(() => import("./${baseurl}")),`);
+	$allSourcesElements.push(`const ${transformedElement} = lazy(() => import("./${baseurl}"));\n`);
+	$allSourcesMap.push(`${transformedProp}: <${transformedElement} />,`);
 	const data = {};
 	const types = [];
 	const output = [];
@@ -265,7 +273,7 @@ Object.entries($sources).forEach(([prop, value]) => {
 		});
 		output.push(`</ul>`);
 	});
-	const file = `import Link from '../../components/Link';\nconst References = () => <>${output.join("")}</>;\nexport default <References />;`;
+	const file = `import Link from '../../components/Link';\nconst References: React.FC = () => <>${output.join("")}</>;\nexport default References;`;
 	if(get(url).trim() === file) {
 		announce(`UNCHANGED ${url}`);
 		$counter++;
@@ -291,7 +299,7 @@ const $data_pairs = [
 	['./src/json/_data__fuse-index.json', JSON.stringify($fuseIndex)],
 	['./src/json/_data__all_links.json', JSON.stringify($allLinks)],
 	['./src/json/_data__redirects.json', JSON.stringify($redirects).trim()],
-	['./src/pages/subpages/_data__sources.tsx', $allSourcesMap.join("")]
+	['./src/pages/subpages/_data__sources.tsx', $allSourcesElements.concat($allSourcesMap).join("")]
 ];
 
 $data_pairs.forEach(pair => {

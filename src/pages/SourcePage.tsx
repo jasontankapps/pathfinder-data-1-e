@@ -34,22 +34,28 @@ const SourcePage: React.FC = () => {
 
 	const { title, url, unknown } = getItem<Data>(id, sources);
 
-	return (
-		<BasicPage title={title} hideSources pageId={"/source/" + id}>
-			{unknown ? (
+	if(unknown) {
+		return (
+			<BasicPage title={title} hideSources pageId={"/source/" + id}>
 				<>
 					<h2>Unknown</h2>
 					<p>Unable to find the requested source.</p>
 				</>
-			) : (
-				<>
-					<p><strong>Please note:</strong> This link leads to an external site.</p>
-					<blockquote><em>{title}</em><br /><a href={url}>{url}</a></blockquote>
-					<hr/>
-					<p className="diminishNextHeader"><strong className="hl">Entries That Reference This Source:</strong></p>
-					{unknown ? <></> : (sourceRefMap[id as SourceMap] || <></>)}
-				</>
-			)}
+			</BasicPage>
+		);
+	}
+
+	const References = sourceRefMap[id as SourceMap] || <></>;
+
+	return (
+		<BasicPage title={title} hideSources pageId={"/source/" + id}>
+			<>
+				<p><strong>Please note:</strong> This link leads to an external site.</p>
+				<blockquote><em>{title}</em><br /><a href={url}>{url}</a></blockquote>
+				<hr/>
+				<p className="diminishNextHeader"><strong className="hl">Entries That Reference This Source:</strong></p>
+				{References}
+			</>
 		</BasicPage>
 	);
 };
