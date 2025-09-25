@@ -260,9 +260,6 @@ div.hierarchyInset {
 	margin-block-start: 0.5rem;
 	margin-block-end: 0;
 }
-div.hierarchyRulesInset span {
-	white-space: nowrap;
-}
 div.basicContent.hasInset > div:nth-child(2) h2 {
 	margin-top: 0;
 }

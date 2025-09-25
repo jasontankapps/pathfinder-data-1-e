@@ -317,7 +317,7 @@
 			"",
 			"::h3[Drake Starting Statistics]{jl}",
 			"",
-			"**Size** Tiny; **Alignment** any nongood; **Speed** 20 ft.; **Attack** bite (1d3), tail\\* (1d3); **Ability Scores** Str 8, Dex 17, Con 11, Int 4, Wis 10, Cha 7; **Languages** Draconic. \\*This is a secondary natural attack",
+			"**Size** Tiny; **Alignment** any nongood; **Speed** 20 ft.; **Attack** bite (1d3), tail[^S] (1d3); **Ability Scores** Str 8, Dex 17, Con 11, Int 4, Wis 10, Cha 7; **Languages** Draconic.",
 			"",
 			"::h3[Drake Powers]{jl}",
 			"",
@@ -361,7 +361,9 @@
 			"",
 			"**Swim:** The drake gains a 20-foot swim speed.",
 			"",
-			"**Swim, Improved:** The drake's swim speed improves to 60 feet. To select improved swim, a drake must have swim and the water subtype and its charge must be at least 7th level."
+			"**Swim, Improved:** The drake's swim speed improves to 60 feet. To select improved swim, a drake must have swim and the water subtype and its charge must be at least 7th level.",
+			"",
+			"[^S]: This is a secondary natural attack."
 		]
 	},
 	"eidolon": {
