@@ -1,12 +1,10 @@
 import { ReactElement } from "react";
-import { SourceProp } from "./SourcesModal";
 import { Hierarchy } from "../types";
 
 export interface JsonDataProps {
 	hasJL?: boolean,
 	title: string,
 	jsx: ReactElement,
-	sources: SourceProp[],
 	topLink?: Hierarchy
 	noFinder?: boolean
 	addenda?: string[]
@@ -44,7 +42,6 @@ export const getGuaranteedItem = <T,>(id: keyof T, json: T): JsonDataProps => {
 	if(error) {
 		data = {
 			title: "Error",
-			sources: [],
 			jsx: <><h2>Error</h2><p>Bad destination encountered: [{id as string}]</p></>,
 			noFinder: true
 		};

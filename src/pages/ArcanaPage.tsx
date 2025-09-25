@@ -15,12 +15,11 @@ const ArcanaPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id as keyof Data, arcana);
+	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, arcana);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={"/arcana/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}

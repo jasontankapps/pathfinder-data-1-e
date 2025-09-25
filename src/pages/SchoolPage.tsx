@@ -15,12 +15,11 @@ const SchoolPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, schools);
+	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, schools);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={"/arcaneschool/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}

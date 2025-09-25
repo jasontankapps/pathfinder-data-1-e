@@ -15,12 +15,11 @@ const CompanionPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id as keyof Data, companions);
+	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, companions);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={"/companion/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}

@@ -15,12 +15,11 @@ const EquipmentTechPharmaceuticalsPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, equipment);
+	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, equipment);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={"/tech-pharma/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}

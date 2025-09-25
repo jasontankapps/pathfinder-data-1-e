@@ -15,12 +15,11 @@ const MagicPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, magic);
+	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, magic);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={"/magic-ioun/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}

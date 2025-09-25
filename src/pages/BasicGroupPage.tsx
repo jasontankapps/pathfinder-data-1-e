@@ -23,7 +23,7 @@ export const BasicGroupPage: React.FC<BasicGroupPageProps> =
 
 	type Name = keyof Data;
 
-	const { hasJL, title, jsx, sources, topLink: tL, noFinder, notBookmarkable, className: cN2 } =
+	const { hasJL, title, jsx, topLink: tL, noFinder, notBookmarkable, className: cN2 } =
 		possiblyUnknown ? getItem((id as Name), info as BasicPlusUnknown) : getGuaranteedItem((id as Name), info);
 
 	const pageId = `/${prefix}/${id}`;
@@ -37,7 +37,6 @@ export const BasicGroupPage: React.FC<BasicGroupPageProps> =
 			hasJL={hasJL}
 			pageId={pageId}
 			title={title}
-			sources={sources}
 			topLink={tl}
 			noFinder={noFinder}
 			className={className}

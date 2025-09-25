@@ -7,7 +7,6 @@ const FeatsTreePage: React.FC = () => {
 	return (
 		<BasicPage
 			title="Feat Trees"
-			hideSources
 			pageId="feattreespage"
 			className="featsTreePage"
 		>

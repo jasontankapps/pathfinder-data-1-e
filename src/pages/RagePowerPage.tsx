@@ -14,12 +14,11 @@ type Params = { id?: keyof Data };
 const RagePowerPage: React.FC = () => {
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, topLink, notBookmarkable } = getItem<Data>(id, rage_powers);
+	const { hasJL, title, jsx, topLink, notBookmarkable } = getItem<Data>(id, rage_powers);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={`/ragepower/${id}`}
 		topLink={topLink || tL}
 		notBookmarkable={notBookmarkable}

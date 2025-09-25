@@ -14,13 +14,12 @@ const tL: Hierarchy = ["Weapons", "main/equipment_weapons"];
 
 const EquipmentWeaponGroup1Page: React.FC<EquipProps> = ({id}) => {
 
-	const { hasJL, title, jsx, sources, topLink, notBookmarkable } = getItem<Data>((id as keyof Data), equipment_weapons);
+	const { hasJL, title, jsx, topLink, notBookmarkable } = getItem<Data>((id as keyof Data), equipment_weapons);
 
 	return <BasicPage
 		hasJL={hasJL}
 		pageId={"/eq-weapon/" + id}
 		title={title}
-		sources={sources}
 		topLink={topLink || tL}
 		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;

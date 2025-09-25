@@ -15,12 +15,11 @@ const MysteryPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, mysteries);
+	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, mysteries);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={"/mystery/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}

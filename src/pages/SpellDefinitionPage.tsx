@@ -15,12 +15,11 @@ const SpellDefPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, defs);
+	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, defs);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={"/spelldef/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}

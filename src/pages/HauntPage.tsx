@@ -15,12 +15,11 @@ const HauntPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, notBookmarkable, } = getItem<Data>(id, haunts);
+	const { hasJL, title, jsx, notBookmarkable, } = getItem<Data>(id, haunts);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={"/haunt/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}

@@ -258,7 +258,6 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	return (
 		<BasicPage
 			title={title + " (Bookmarks)"}
-			hideSources
 			pageId={"/bookmarks/" + id}
 			notBookmarkable
 			className="bookmarks"

@@ -16,7 +16,6 @@ import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
 import { setPosition } from '../store/scrollSlice';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
-import SourcesModal, { SourceProp } from '../components/SourcesModal';
 import Link from '../components/Link';
 import { FinderContext } from '../components/contexts';
 import { DisplayItemProps } from '../types';
@@ -27,8 +26,6 @@ interface PageProps extends Partial<DisplayItemProps> {
 	title: string
 	topLink?: [string, string]
 	noFinder?: boolean
-	sources?: SourceProp[]
-	hideSources?: boolean
 	pageId: string
 	error?: boolean
 	notBookmarkable?: boolean
@@ -169,8 +166,6 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		children,
 		topLink,
 		noFinder,
-		sources = [],
-		hideSources,
 		pageId,
 		notBookmarkable,
 		className,
@@ -183,8 +178,6 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const { separateWordSearch, caseSensitive, wholeWords } = useAppSelector(state => state.search)
 	const { markerRef, marker } = useMarker<HTMLDivElement>();
 	const storedPos = useAppSelector(state => state.scroll[pageId] || 0);
-	// Create state for sources modal
-	const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
 	const [goToTopFlag, setGoToTopFlag] = useState(true);
 	// Create state for find-in-page system
 	const [searchBoxOpen, setSearchBoxOpen] = useState(false);
@@ -309,11 +302,6 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				extraButton={extraButton}
 			/>
 			<IonContent scrollEvents={true} className={hasJL && goToTopFlag ? "atTop" : ""} onIonScroll={onScroll} ref={refContentObject}>
-				{hideSources ?
-					<></>
-				:
-					<SourcesModal sources={sources} isOpen={isSourcesModalOpen} setIsOpen={setIsSourcesModalOpen} />
-				}
 				{hasJL ?
 					<IonFab slot="fixed" vertical="top" horizontal="end" className="goToTop">
 						<IonFabButton size="small" color="secondary" onClick={goToTop}>
@@ -379,7 +367,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 					{children}
 				</div>
 			</IonContent>
-			<PageFooter setIsSourcesModalOpen={hideSources ? undefined : setIsSourcesModalOpen} />
+			<PageFooter />
 		</FinderContext.Provider></IonPage></motion.div>}
 		</AnimatePresence>
 	);

@@ -304,7 +304,6 @@ const BookmarksImportExportPage: FC = () => {
 	return (
 		<BasicPage
 			title="Import/Export Bookmarks"
-			hideSources
 			pageId="importexport"
 			notBookmarkable
 			noFinder

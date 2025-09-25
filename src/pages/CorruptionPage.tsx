@@ -15,12 +15,11 @@ const CorruptionPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, corruptions);
+	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, corruptions);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={"/corruption/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}

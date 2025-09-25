@@ -144,7 +144,6 @@ const BookmarksPage: FC = () => {
 	return (
 		<BasicPage
 			title="Bookmarks"
-			hideSources
 			pageId="bookmarks"
 			notBookmarkable
 			noFinder

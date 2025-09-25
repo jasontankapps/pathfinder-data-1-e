@@ -14,13 +14,12 @@ const topLink: Hierarchy = ["Magical Enhancements", "main/magic_enhancements"];
 
 const MagicEnhancementGroup1Page: React.FC<MagicEnhancementProps> = ({id}) => {
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>((id as keyof Data), enhancements);
+	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>((id as keyof Data), enhancements);
 
 	return <BasicPage
 		hasJL={hasJL}
 		pageId={"/magic-enh/" + id}
 		title={title}
-		sources={sources}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}
 	>{jsx}</BasicPage>;

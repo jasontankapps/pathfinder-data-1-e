@@ -15,12 +15,11 @@ const DruidDomainPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, domains);
+	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, domains);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={"/druiddomain/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}

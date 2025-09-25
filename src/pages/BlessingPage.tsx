@@ -15,12 +15,11 @@ const BlessingPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id as keyof Data, blessings);
+	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, blessings);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={"/blessing/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}

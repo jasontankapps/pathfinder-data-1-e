@@ -62,14 +62,13 @@ const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, topLink, addenda, notBookmarkable } = getItem<Data>(id, data);
+	const { hasJL, title, jsx, topLink, addenda, notBookmarkable } = getItem<Data>(id, data);
 
 	const output = addenda ? getAddenda(addenda, jsx, id || "not_found") : jsx;
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={`/${prefix}/${id}`}
 		topLink={topLink || info[prefix]}
 		notBookmarkable={notBookmarkable}

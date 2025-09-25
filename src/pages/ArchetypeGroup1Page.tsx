@@ -6,7 +6,7 @@ import BasicPage from './BasicPage';
 import './Page.css';
 
 const archetypes = {
-	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
+	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
 	...monk,
 	...samurai
 };
@@ -25,7 +25,6 @@ const ArchetypeGroup1Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 		hasJL,
 		title,
 		jsx,
-		sources,
 		topLink = [classTitle, "class/" + parent],
 		notBookmarkable
 	} = getItem<Data>(id as keyof Data, arches);
@@ -33,7 +32,6 @@ const ArchetypeGroup1Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={pageId}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}

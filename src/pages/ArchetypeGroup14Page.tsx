@@ -7,7 +7,7 @@ import BasicPage from './BasicPage';
 import './Page.css';
 
 const archetypes = {
-	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown", sources: []},
+	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
 	...vigilante, // conflicts with barbarian
 	...familiar, // conflicts with cavalier, bard, inquisitor, investigator, ranger
 	...wizard // conflicts with cleric, bloodrager
@@ -22,12 +22,11 @@ const ArchetypeGroup14Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}
 
 	const pageId = `/arc-${parent}/${id}`;
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id as keyof Data, arches);
+	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, arches);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={pageId}
 		topLink={parent === "familiar" ? [ classTitle, "sidekick/familiar" ] : [classTitle, "class/" + parent]}
 		notBookmarkable={notBookmarkable}

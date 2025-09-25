@@ -1,5 +1,4 @@
 import { ReactElement } from "react";
-import { SourceProp } from "./components/SourcesModal";
 
 // RangeInSliceFormat<desired start, desired end + 1>
 // This will fail if (END - START) >= 1000
@@ -107,7 +106,6 @@ export interface JsonRulesProps<Name> {
 	parent_topics?: Name[]
 	subtopics?: Name[]
 	siblings?: Name[]
-	sources: SourceProp[]
 	className?: string
 }
 

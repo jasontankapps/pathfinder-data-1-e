@@ -456,7 +456,6 @@ const convertCompileableDescription = (
 	);
 
 	// Handle sources
-	const sources = [];
 	const dSource = [];
 	compilationSources.forEach(s => {
 		const [title, pg] = s;
@@ -465,7 +464,6 @@ const convertCompileableDescription = (
 		} else {
 			dSource.push(title);
 		}
-		sources.push(title);
 	});
 	const sourceText = dSource.length > 0 ? `{SOURCE ${dSource.join(";")}}` : "";
 
@@ -479,7 +477,7 @@ const convertCompileableDescription = (
 		delete flags[prop];
 	});
 	// Return the parsed output, plus flags, plus source list.
-	return [`<${openTag}>${removeCurlyBrackets(parsed)}</${closeTag}>`, flags, sources];
+	return [`<${openTag}>${removeCurlyBrackets(parsed)}</${closeTag}>`, flags];
 };
 
 // Convert markdown code into HTML, updating `$.flags` to note the outside Tags being used
@@ -612,7 +610,6 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 			desc.push(...final.split("!-N-!"));
 		}
 	});
-	const keep = [];
 	if(footnotes.count) {
 		const noted = {};
 		desc.push("");
@@ -623,16 +620,15 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 			} else {
 				desc.push(`${letter}: ${link}`);
 				noted[title] = true;
-				keep.push(title);
 			}
 		});
 	}
-	return [keep, ...convertDescription(temporaryFlags, desc, prefix, [], openTag, closeTag)];
+	return convertDescription(temporaryFlags, desc, prefix, [], openTag, closeTag);
 };
 
 const createItem = (info, prop) => {
-	const { title, description, sources, parent_topics, siblings, subtopics, topLink, noFinder, addenda, disambiguation, className } = info;
-	let output = `const _${prop} = {title: "${title}", sources: ${sources ? JSON.stringify(sources) : "[]"}`;
+	const { title, description, parent_topics, siblings, subtopics, topLink, noFinder, addenda, disambiguation, className } = info;
+	let output = `const _${prop} = {title: "${title}"`;
 	parent_topics && (output = output + `, parent_topics: ${JSON.stringify(parent_topics)}`);
 	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
 	subtopics && (output = output + `, subtopics: ${JSON.stringify(subtopics)}`);
@@ -646,10 +642,9 @@ const createItem = (info, prop) => {
 };
 
 const createCopyItem = (info, prop, copy) => {
-	const { title, sources, parent_topics, siblings, subtopics, topLink, noFinder, className } = info;
+	const { title, parent_topics, siblings, subtopics, topLink, noFinder, className } = info;
 	let output = `const _${prop} = {..._${copy}`;
 	title && (output = output + `, title: "${title}"`);
-	sources && (output = output + `, sources: ${JSON.stringify(sources)}`);
 	parent_topics && (output = output + `, parent_topics: ${JSON.stringify(parent_topics)}`);
 	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
 	subtopics && (output = output + `, subtopics: ${JSON.stringify(subtopics)}`);
@@ -813,7 +808,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 		// Get data
 		const {
 			name: n, title: t, description: d, copyof,
-			sources = [], tables, topLink, parent_topics,
+			tables, topLink, parent_topics,
 			subtopics, siblings, noFinder, className,
 			nameSuffix, compilationSources, redirect,
 			compileFrom, addenda, disambiguation
@@ -838,7 +833,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 				})
 			})
 		})
-		const info = { sources, className };
+		const info = { className };
 		let converted = [undefined, {}];
 		switch (datatype) {
 			case "main":
@@ -847,15 +842,6 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 				if (compileFrom && !copyof && !redirect) {
 					temporaryFlags.mainCompilation = true;
 					converted = compile(compileFrom, `${link}-${prop}-`, temporaryFlags, "IonList lines=\"full\"", "IonList");
-					const newSources = [...info.sources, ...converted.shift()];
-					let x = null;
-					info.sources = newSources.sort().filter(source => {
-						if(source === x) {
-							return false;
-						}
-						x = source;
-						return true;
-					});
 				} else if (!copyof && !redirect) {
 					converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList");
 				}
@@ -874,7 +860,6 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 						`${link}-${prop}-`,
 						compilationSources
 					);
-					info.sources = converted.pop();
 				}
 				break;
 			case "rule":
@@ -890,15 +875,6 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 						converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables);
 					} else if (compileFrom) {
 						converted = compile(compileFrom, `${link}-${prop}-`, temporaryFlags);
-						const newSources = [...info.sources, ...converted.shift()];
-						let x = null;
-						info.sources = newSources.sort().filter(source => {
-							if(source === x) {
-								return false;
-							}
-							x = source;
-							return true;
-						});
 					} else {
 						logError(`ERROR: ${link}/${prop} does not have a description or a compileFrom property.`);
 						converted = [ "ERROR: This entry has no description.", {} ];

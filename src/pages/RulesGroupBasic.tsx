@@ -26,7 +26,6 @@ const RulesGroupPage = ({id, rules}: RulesProps): any => {
 		parent_topics,
 		subtopics,
 		siblings,
-		sources = [],
 		className
 	} = (rules[id as Prop]) as JsonRulesProps<Name>;
 
@@ -35,7 +34,6 @@ const RulesGroupPage = ({id, rules}: RulesProps): any => {
 			hasJL={hasJL}
 			id={id as Name}
 			title={title}
-			sources={sources}
 			jsx={jsx}
 			parent_topics={parent_topics}
 			siblings={siblings}

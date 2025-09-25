@@ -1,6 +1,5 @@
 import { ReactElement } from 'react';
 import { useLocation, useParams } from 'wouter';
-import { SourceProp } from '../components/SourcesModal';
 import npcclasses from './subpages/__npcclass';
 import sidekicks from './subpages/__sidekick';
 import BasicPage from './BasicPage';
@@ -16,7 +15,6 @@ interface JsonDataPropsClass {
 	hasJL?: boolean
 	title: string,
 	jsx: ReactElement,
-	sources: SourceProp[],
 	notBookmarkable?: boolean
 }
 
@@ -34,7 +32,6 @@ const OtherClassPage: React.FC = () => {
 		hasJL,
 		title,
 		jsx,
-		sources,
 		notBookmarkable
 	} = (classes[solidId] as JsonDataPropsClass);
 
@@ -44,7 +41,6 @@ const OtherClassPage: React.FC = () => {
 		<BasicPage
 			hasJL={hasJL}
 			title={title}
-			sources={sources}
 			pageId={pageId}
 			notBookmarkable={notBookmarkable}
 		>{jsx}</BasicPage>

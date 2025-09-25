@@ -36,7 +36,7 @@ const SourcePage: React.FC = () => {
 
 	if(unknown) {
 		return (
-			<BasicPage title={title} hideSources pageId={"/source/" + id}>
+			<BasicPage title={title} pageId={"/source/" + id}>
 				<>
 					<h2>Unknown</h2>
 					<p>Unable to find the requested source.</p>
@@ -48,7 +48,7 @@ const SourcePage: React.FC = () => {
 	const References = sourceRefMap[id as SourceMap] || <></>;
 
 	return (
-		<BasicPage title={title} hideSources pageId={"/source/" + id}>
+		<BasicPage title={title} pageId={"/source/" + id}>
 			<>
 				<p><strong>Please note:</strong> This link leads to an external site.</p>
 				<blockquote><em>{title}</em><br /><a href={url}>{url}</a></blockquote>

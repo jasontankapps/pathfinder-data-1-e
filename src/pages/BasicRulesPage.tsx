@@ -1,6 +1,5 @@
 import { FC, ReactElement, useMemo } from 'react';
 import { IonRippleEffect } from '@ionic/react';
-import { SourceProp } from '../components/SourcesModal';
 import Link from '../components/Link';
 import getPageName from '../components/getPageName';
 import data from '../json/_data_rule.json';
@@ -16,7 +15,6 @@ type Name = keyof Data;
 interface BasicRulesProps {
 	hasJL?: boolean
 	title: string
-	sources: SourceProp[]
 	jsx: ReactElement
 	parent_topics?: Name[]
 	subtopics?: Name[]
@@ -46,7 +44,6 @@ const getName = (input: string) => {
 const BasicRulesPage: FC<BasicRulesProps> = ({
 	hasJL,
 	title,
-	sources,
 	jsx,
 	subtopics,
 	className: cn,
@@ -91,7 +88,7 @@ const BasicRulesPage: FC<BasicRulesProps> = ({
 	}, [parent_topics]);
 
 	return (
-		<BasicPage title={title} sources={sources} pageId={`/rule/${id}`} hasJL={hasJL} noFinder={noFinder}>
+		<BasicPage title={title} pageId={`/rule/${id}`} hasJL={hasJL} noFinder={noFinder}>
 			<HierarchyRulesInset extraHierarchy={h} />
 			<div className={cn}>
 				<h2>{title}</h2>

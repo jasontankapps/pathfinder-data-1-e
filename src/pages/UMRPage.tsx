@@ -15,12 +15,11 @@ const UMRPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, sources, notBookmarkable } = getItem<Data>(id, umr);
+	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, umr);
 
 	return <BasicPage
 		hasJL={hasJL}
 		title={title}
-		sources={sources}
 		pageId={"/umr/" + id}
 		topLink={topLink}
 		notBookmarkable={notBookmarkable}
