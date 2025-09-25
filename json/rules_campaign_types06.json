@@ -2430,7 +2430,7 @@
 			"",
 			"This ability can be applied only to weapons. An item must be a minor or major artifact to have this ability.",
 			"",
-			"@HL[Intelligent:] A legendary item with this ability becomes an [intelligent magic item](rule/intelligent_items). When this ability is first selected, the legendary item starts with base Intelligence, Wisdom, and Charisma scores of 10. The item gains speech as a supernatural ability. It can speak Common plus a number of additional languages based on its Intelligence score. The additional languages can be any that the bonded creature wants, except for secret languages (such as Druidic). The item gains senses with a range of 30 feet. Furthermore, this item always has the alignment of the bonded creature who first selected this ability.",
+			"@HL[Intelligent:] A legendary item with this ability becomes an [intelligent magic item](rule/intelligent_items). When this ability is first selected, the legendary item starts with base Intelligence, Wisdom, and Charisma scores of 10. The item gains speech as a supernatural ability. It can speak Common plus a number of additional {misc/languages} based on its Intelligence score. The additional languages can be any that the bonded creature wants, except for secret languages (such as Druidic). The item gains senses with a range of 30 feet. Furthermore, this item always has the alignment of the bonded creature who first selected this ability.",
 			"",
 			"An intelligent legendary item has an Ego score, just like a non-mythic intelligent item, but it can never become dominant in its relationship with its bonded creature as long as the bonded creature's alignment corresponds to the item's (using the normal rules for intelligent items).",
 			"",

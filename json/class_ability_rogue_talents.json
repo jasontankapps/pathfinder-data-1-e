@@ -1400,7 +1400,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide", 130 ] ],
 		"category": "Other Talents",
 		"description": [
-			"**Rogue Only:** A rogue with this talent who has at least one rank in {skill/Linguistics} gains four additional languages. A rogue with this talent who does not have any ranks in Linguistics gains two additional languages. If the rogue later gains ranks in Linguistics, she gains two additional languages, to a total of four additional languages above those granted by the Linguistics skill itself."
+			"**Rogue Only:** A rogue with this talent who has at least one rank in {skill/Linguistics} gains four additional {misc/languages}. A rogue with this talent who does not have any ranks in Linguistics gains two additional languages. If the rogue later gains ranks in Linguistics, she gains two additional languages, to a total of four additional languages above those granted by the Linguistics skill itself."
 		]
 	},
 	"hard_to_fool": {

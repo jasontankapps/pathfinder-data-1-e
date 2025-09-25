@@ -494,7 +494,7 @@
 			"",
 			"@HL[Skills:] The creature's skills are listed here. Racial modifiers to skills are indicated at the end of this entry.",
 			"",
-			"@HL[Languages:] The languages most commonly spoken by the creature are listed here. For unusual creatures, you can swap out the languages known for other choices as needed. A creature with a higher-than-normal Intelligence score receives the appropriate number of bonus languages.",
+			"@HL[Languages:] The {misc/languages} most commonly spoken by the creature are listed here. For unusual creatures, you can swap out the languages known for other choices as needed. A creature with a higher-than-normal Intelligence score receives the appropriate number of bonus languages.",
 			"",
 			"@HL[SQ:] Any special qualities possessed by the creature.",
 			"",
@@ -1405,7 +1405,7 @@
 		"description": [
 			"{SOURCE Advanced Race Guide/214}",
 			"",
-			"This race builder allows you to create a new race by buying racial qualities and racial traits with Race Points (RP). There are a number of differences between racial qualities and racial traits. The main difference is that racial qualities are mandatory (you must make a choice for each category of racial qualities provided in these rules), whereas racial traits are optional. There are six categories of racial qualities, including type, subtypes (if any), size, base speed, ability score modifiers, and languages. Racial traits present a number of interesting options for the race you are creating, from expanded modes of movement and bonuses on skill checks to even stranger powers, like a frightening croak attack or the ability to change shape. Racial traits are split up into a number of different categories, such as defense, offense, and magical traits.",
+			"This race builder allows you to create a new race by buying racial qualities and racial traits with Race Points (RP). There are a number of differences between racial qualities and racial traits. The main difference is that racial qualities are mandatory (you must make a choice for each category of racial qualities provided in these rules), whereas racial traits are optional. There are six categories of racial qualities, including type, subtypes (if any), size, base speed, ability score modifiers, and {misc/languages}. Racial traits present a number of interesting options for the race you are creating, from expanded modes of movement and bonuses on skill checks to even stranger powers, like a frightening croak attack or the ability to change shape. Racial traits are split up into a number of different categories, such as defense, offense, and magical traits.",
 			"",
 			"Before you buy racial qualities and traits, you must determine the power level of your race. The GM decides this based on the needs of her campaign. The power level of the race determines the number of RP you get to build the race, as well as the maximum number of racial traits you can choose from each racial trait category and what kinds of traits you can take from those categories.",
 			"",
@@ -1832,7 +1832,7 @@
 		"description": [
 			"{SOURCE Advanced Race Guide/219}",
 			"",
-			"The next step is to pick the race's language quality. This quality determines the starting languages and bonus languages for the race. There are three options. In cases where the language trait instructs you to choose a racial language, that language is either the race's racial language (if any; feel free to create a new language for the race if you wish), Draconic (if it is a humanoid with the reptilian subtype), or, if the race is of the outsider (native) type, one of the planar languages (Abyssal, Aquan, Auran, Celestial, Ignan, Infernal, or Terran) of the corresponding plane. (Creatures tied to Abaddon can take either Abyssal or Infernal as a racial language.) If your race is native to the Darklands, you can replace Common with Undercommon. See the {skill/Linguistics} skill entry for a list of languages.",
+			"The next step is to pick the race's language quality. This quality determines the starting {misc/languages} and bonus languages for the race. There are three options. In cases where the language trait instructs you to choose a racial language, that language is either the race's racial language (if any; feel free to create a new language for the race if you wish), Draconic (if it is a humanoid with the reptilian subtype), or, if the race is of the outsider (native) type, one of the planar languages (Abyssal, Aquan, Auran, Celestial, Ignan, Infernal, or Terran) of the corresponding plane. (Creatures tied to Abaddon can take either Abyssal or Infernal as a racial language.) If your race is native to the Darklands, you can replace Common with Undercommon. See the {skill/Linguistics} skill entry for a list of languages.",
 			"",
 			"Construct and undead races usually have the racial language of the race that created them.",
 			"",

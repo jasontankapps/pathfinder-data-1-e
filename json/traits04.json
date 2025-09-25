@@ -1181,7 +1181,7 @@
 			"**Type:** Regional  ",
 			"**Region:** urban",
 			"",
-			"You grew up speaking multiple languages. You learn one additional language. Additionally, when attempting a Diplomacy check to gather information using this language, you can do so in 1d6 &times; 10 minutes, rather than the normal 1d4 hours."
+			"You grew up speaking multiple {misc/languages}. You learn one additional language. Additionally, when attempting a Diplomacy check to gather information using this language, you can do so in 1d6 &times; 10 minutes, rather than the normal 1d4 hours."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},

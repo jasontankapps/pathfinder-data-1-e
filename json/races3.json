@@ -517,7 +517,7 @@
 			">**Seed (Ex):** As a full-round action, a ghoran can expel the seed from an orifice in its abdomen. If planted in fertile ground and left undisturbed for 2d6 days, the seed grows into a healthy duplicate of the original ghoran, save that the duplicate can reallocate all skill ranks upon sprouting. Once a ghoran expels this seed, it gains 1 negative level, and it dies as soon as the duplicate sprouts. This duplicate replaces the previous ghoran character.  ",
 			">**Light Dependent:** Ghorans take 1d4 points of Constitution damage each day they go without exposure to sunlight.  ",
 			">**Past-Life Knowledge (Ex):** Ghorans have memories encoded in their seeds. They treat all Knowledge skills as class skills.  ",
-			">**Languages:** Ghorans begin play speaking Common and Sylvan. Ghorans with high Intelligence scores can choose any languages they want (except secret languages such as Druidic).",
+			">**Languages:** Ghorans begin play speaking Common and Sylvan. Ghorans with high Intelligence scores can choose any {misc/languages} they want (except secret languages such as Druidic).",
 			"",
 			"::h3[Ghoran Alternate Racial Traits]{jl}",
 			"",
@@ -817,7 +817,7 @@
 			"Gnomes rarely lose hope and are always confident that even hopeless situations will work out. Gnomes with this racial trait receive a +2 racial bonus on saving throws against fear and despair effects. Once per day, after rolling a 1 on a d20, the gnome may reroll and use the second result. This racial trait replaces defensive training and hatred.",
 			"",
 			"**Gift of Tongues[^D] [^F]**  ",
-			"Gnomes love languages and learning about those they meet. Gnomes with this racial trait gain a +1 bonus on Bluff and Diplomacy checks, and they learn one additional language every time they put a rank in the Linguistics skill. This racial trait replaces defensive training and hatred.",
+			"Gnomes love {misc/languages} and learning about those they meet. Gnomes with this racial trait gain a +1 bonus on Bluff and Diplomacy checks, and they learn one additional language every time they put a rank in the Linguistics skill. This racial trait replaces defensive training and hatred.",
 			"",
 			"**Master Tinker[^D] [^F]**  ",
 			"Gnomes experiment with all manner of mechanical devices. Gnomes with this racial trait gain a +1 bonus on Disable Device and Knowledge (engineering) checks. They are treated as proficient with any weapon they have personally crafted. This racial trait replaces defensive training and hatred.",
@@ -1264,7 +1264,7 @@
 			">**Multi-Armed:** A green Martian has four arms. One hand is considered its primary hand; all others are considered off hands. It can use any of its hands for other purposes that require free hands.  ",
 			">**Weapon Familiarity:** Green Martians are proficient with longswords and spears.  ",
 			">**Skill Training:** Ride and Survival are always considered class skills for green Martians.  ",
-			">**Languages:** Green Martians begin play speaking Common. Green Martians with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic)."
+			">**Languages:** Green Martians begin play speaking Common. Green Martians with high Intelligence scores can choose any {misc/languages} they want (except secret languages, such as Druidic)."
 		]
 	},
 	"grindylow": {
@@ -1465,7 +1465,7 @@
 			">**Elven Immunities:** Half-elves are immune to magic sleep effects and get a +2 racial bonus on saving throws against enchantment spells and effects.  ",
 			">**Keen Senses:** Half-elves receive a +2 racial bonus on Perception checks.  ",
 			">**Multitalented:** Half-elves choose two favored classes at 1st level and gain 1 additional hit point or skill point whenever they take a level in either one of those classes.  ",
-			">**Languages:** Half-elves begin play speaking Common and Elven. Half-elves with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic).",
+			">**Languages:** Half-elves begin play speaking Common and Elven. Half-elves with high Intelligence scores can choose any {misc/languages} they want (except secret languages, such as Druidic).",
 			"",
 			"::h3[Subraces]{jl}",
 			"",
@@ -2167,7 +2167,7 @@
 			">**Natural Weapons (Ex):** When in its natural form, a reptoid has a bite attack and two claw attacks that deal 1d3 points of damage each.  ",
 			">**Change Shape (Su):** A reptoid can assume the appearance of a specific single Medium humanoid. The reptoid always takes this specific form when it uses this ability. The reptoid gains a +10 racial bonus on Disguise checks to appear as that type of humanoid. This ability otherwise functions as {spell/alter self}, except the reptoid does not adjust its ability scores. A reptoid can select a new humanoid form by spending 1 week preparing itself for the change, but can then no longer assume its previous humanoid form.  ",
 			">**Mental Potency (Ex):** A reptoid's mental effects can affect more powerful creatures or a greater number of creatures than normal. Both the Hit Die limit and the total number of Hit Dice affected by each enchantment or illusion spell it casts increase by 1. For enchantment and illusion spells it casts that target a number of creatures greater than one, the number of creatures affected also increases by one (so a spell that targets one creature per level would be affected, but a spell that targets only one creature would not be). This ability stacks with the {class/mesmerist/'s} ability of the same name.  ",
-			">**Languages:** All reptoids begin play speaking Common and Reptoid. Reptoids with high Intelligence scores can choose any languages they want (except for secret languages, such as Druidic)."
+			">**Languages:** All reptoids begin play speaking Common and Reptoid. Reptoids with high Intelligence scores can choose any {misc/languages} they want (except for secret languages, such as Druidic)."
 		]
 	},
 	"rougarou": {

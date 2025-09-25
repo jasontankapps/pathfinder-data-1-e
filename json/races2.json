@@ -624,7 +624,7 @@
 			"#### Replaces Keen Senses, Language",
 			"",
 			"**Polyglot[^A]**  ",
-			"Some halflings, especially those who spend a lot of time traveling, develop a talent for learning new languages. These halflings gain a +2 racial bonus on Linguistics checks, and it is always a class skill for them. Halflings with this racial trait also begin play with the ability to speak Common, Halfling, and any one other language of their choice (except for secret languages, such as Druidic) in addition to bonus languages due to high Intelligence. They still gain the normal list of halfling bonus languages. This racial trait replaces keen senses and alters the halfling language racial trait.",
+			"Some halflings, especially those who spend a lot of time traveling, develop a talent for learning new {misc/languages}. These halflings gain a +2 racial bonus on Linguistics checks, and it is always a class skill for them. Halflings with this racial trait also begin play with the ability to speak Common, Halfling, and any one other language of their choice (except for secret languages, such as Druidic) in addition to bonus languages due to high Intelligence. They still gain the normal list of halfling bonus languages. This racial trait replaces keen senses and alters the halfling language racial trait.",
 			"",
 			"#### Replaces Keen Senses, Sure-Footed",
 			"",
@@ -970,7 +970,7 @@
 			">**Normal Speed:** Humans have a base speed of 30 feet.  ",
 			">**Bonus Feat:** Humans select one extra feat at 1st level.  ",
 			">**Skilled:** Humans gain 1 additional skill rank at 1st level and 1 additional rank whenever they gain a level.  ",
-			">**Languages:** Humans begin play speaking Common and their ethnic language. Humans whose ethnic language is Common (or Taldane, in the case of Chelaxians or Taldans) do not receive an additional ethnic language. Humans with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic).",
+			">**Languages:** Humans begin play speaking Common and their ethnic language. Humans whose ethnic language is Common (or Taldane, in the case of Chelaxians or Taldans) do not receive an additional ethnic language. Humans with high Intelligence scores can choose any {misc/languages} they want (except secret languages, such as Druidic).",
 			"",
 			"::h3[Subraces]{jl}",
 			"",
@@ -1295,7 +1295,7 @@
 			">**Primitive Feat:** Primitive humans receive {feat/Endurance}, {feat/Fleet}, {feat/Great Fortitude}, {feat/Iron Will}, {feat/Lightning Reflexes}, or {feat/Toughness} as a bonus feat at 1st level.  ",
 			">**Savage Skills:** Primitive humans receive a +2 racial bonus on Climb, Survival, and Swim skill checks.  ",
 			">**Savage Surge:** Once per day, a primitive human can call upon a well of inner savagery. This grants a +2 bonus to any one Strength-based skill check, Strength check, or weapon damage roll. Using this ability is a free action, but it must be used before the check or attack roll is made.  ",
-			">**Languages:** Primitive humans begin play speaking Common. Those with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic)."
+			">**Languages:** Primitive humans begin play speaking Common. Those with high Intelligence scores can choose any {misc/languages} they want (except secret languages, such as Druidic)."
 		]
 	},
 	"ifrit": {
@@ -1509,7 +1509,7 @@
 			">**Agile:** Kitsune receive a +2 racial bonus on Acrobatics checks.  ",
 			">**Kitsune Magic:** Kitsune add 1 to the DCs of any saving throws to resist enchantment spells that they cast. Kitsune with a Charisma score of 11 or higher gain the following spell-like ability: 3/day-{spell/dancing lights}.  ",
 			">**Natural Weapons:** In her natural form, a kitsune has a bite attack that deals 1d4 points of damage.  ",
-			">**Languages:** Kitsune begin play speaking Common and Sylvan. Kitsune with high Intelligence scores can choose from the following languages: any human language, Aklo, Celestial, Elven, Gnome, and Tengu.",
+			">**Languages:** Kitsune begin play speaking Common and Sylvan. Kitsune with high Intelligence scores can choose from the following {misc/languages}: any human language, Aklo, Celestial, Elven, Gnome, and Tengu.",
 			"",
 			"::h3[Kitsune Alternate Racial Traits]{jl}",
 			"",
@@ -1786,7 +1786,7 @@
 			">**Lashunta Magic:** A lashunta possessing an Intelligence score of 11 or higher gains the following spell-like abilities: at will-{spell/daze}, {spell/mage hand}; 1/day-{spell/detect thoughts}. The caster level for these effects is equal to the lashunta's character level.  ",
 			">**Knowledgeable:** A lashunta gains a +2 racial bonus to any one Knowledge skill.  ",
 			">**Limited Telepathy:** A lashunta is able to mentally communicate with any creature within 30 feet with whom she shares a language. Otherwise this ability is identical to the telepathy ability.  ",
-			">**Languages:** Lashunta begin play speaking Lashunta and Elven. Lashunta with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic).",
+			">**Languages:** Lashunta begin play speaking Lashunta and Elven. Lashunta with high Intelligence scores can choose any {misc/languages} they want (except secret languages, such as Druidic).",
 			"",
 			"::h3[Lashunta Alternate Racial Traits]{jl}",
 			"",
@@ -2054,7 +2054,7 @@
 			">**Armored Scales:** Nagaji have a +1 natural armor bonus because of their scaly flesh.  ",
 			">**Resistant:** Nagaji receive a +2 racial saving throw bonus against mind-affecting effects and poison.  ",
 			">**Serpent's Sense:** Nagaji receive a +2 racial bonus on Handle Animal checks against reptiles, and a +2 racial bonus on Perception checks.  ",
-			">**Languages:** Nagaji begin play speaking Common and Nagaji. Nagaji with high Intelligence scores can choose from the following languages: any human tongue, Abyssal, Aklo, Celestial, Draconic, Giant, Infernal, and Sylvan.",
+			">**Languages:** Nagaji begin play speaking Common and Nagaji. Nagaji with high Intelligence scores can choose from the following {misc/languages}: any human tongue, Abyssal, Aklo, Celestial, Draconic, Giant, Infernal, and Sylvan.",
 			"",
 			"::h3[Nagaji Alternate Racial Traits]{jl}",
 			"",

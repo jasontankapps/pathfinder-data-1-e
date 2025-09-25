@@ -1632,7 +1632,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Half-elf, Half-orc, or Human",
 			"",
-			"Your parents come from two visibly different cultures that maintain distinct identities regardless of their physical proximity (such as Tians and Ulfen). The tug of conflicting expectations has strengthened your sense of individuality and given you a gift for languages. You receive a +2 trait bonus on Will saves against charm and compulsion effects, and you automatically know the racial or ethnic languages of both your parents."
+			"Your parents come from two visibly different cultures that maintain distinct identities regardless of their physical proximity (such as Tians and Ulfen). The tug of conflicting expectations has strengthened your sense of individuality and given you a gift for languages. You receive a +2 trait bonus on Will saves against charm and compulsion effects, and you automatically know the racial or ethnic {misc/languages} of both your parents."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},

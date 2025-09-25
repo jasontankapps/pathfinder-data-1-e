@@ -1112,7 +1112,7 @@
 			"",
 			"@HL[Feats:] An AI has a number of feats equal to half its CR (minimum 1). An AI must meet all prerequisites of its feats. AIs also gain {feat/Technologist} as a bonus feat.",
 			"",
-			"@HL[Languages:] AIs speak Androffan. An AI knows a number of additional languages equal to its {rule/Intelligence} modifier.",
+			"@HL[Languages:] AIs speak Androffan. An AI knows a number of additional {misc/languages} equal to its {rule/Intelligence} modifier.",
 			"",
 			"@HL[Special Abilities:] Use this section to cover any unusual abilities the AI possesses."
 		],

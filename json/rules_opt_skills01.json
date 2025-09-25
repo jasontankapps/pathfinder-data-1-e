@@ -3026,7 +3026,7 @@
 		"description": [
 			"{SOURCE Pathfinder Unchained/63}",
 			"",
-			"Each time you put a rank in Society, you learn to speak and read a new language. See the {skill/Linguistics/ core skill} for a list of common languages.",
+			"Each time you put a rank in Society, you learn to speak and read a new language. See {misc/languages} for a list of common languages.",
 			"",
 			"@HL[Action:] None. Unlike with other skill uses, you gain this benefit at all times."
 		],

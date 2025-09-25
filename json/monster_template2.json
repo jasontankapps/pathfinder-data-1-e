@@ -1330,7 +1330,7 @@
 			"",
 			"@HL[Skills:] A hivemind swarm loses all skill ranks that the base creature had but has skill ranks per racial Hit Die as defined by its creature type. A hivemind swarm's class skills are the same as those that its creature type had and also include all {skill/Knowledge} skills and {skill/Spellcraft}.",
 			"",
-			"@HL[Languages:] A hivemind creature gains {umr/telepathy} (100 ft.) and can speak a number of languages of its choice equal to 1 + its Intelligence modifier.",
+			"@HL[Languages:] A hivemind creature gains {umr/telepathy} (100 ft.) and can speak a number of {misc/languages} of its choice equal to 1 + its Intelligence modifier.",
 			"",
 			"@HL[Special Qualities:] A hivemind gains the following.",
 			"",
