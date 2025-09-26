@@ -523,20 +523,20 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				//
 				// ADD ICON
 				//
-				const icon = iconP ? ["Poison", "poison-bottle", "/rule/poison"] : (
-					iconD ? ["Disease", "paramecia", "/rule/diseases"] : (
-						iconC ? ["Curse", "death-note", "/rule/curses"] : (
-							iconI ? ["Infestation", "infested-mass", "/rule/infestations"] : false
+				const icon = iconP ? ["Poison", "poison-bottle.svg", "/rule/poison"] : (
+					iconD ? ["Disease", "paramecia.svg", "/rule/diseases"] : (
+						iconC ? ["Curse", "death-note.svg", "/rule/curses"] : (
+							iconI ? ["Infestation", "infested-mass.svg", "/rule/infestations"] : false
 						)
 					)
 				);
 				if(icon) {
 					flags.icon = true;
 					if(nolink) {
-						output.splice(3, 0, `<th scope="row" rowSpan={${rows}}><IonIcon aria-label="${icon[0]}" icon="/icons/${icon[1]}.svg" /></th>`);
+						output.splice(3, 0, `<th scope="row" rowSpan={${rows}}><IonIcon aria-label="${icon[0]}" icon="/icons/${icon[1]}" /></th>`);
 					} else {
 						flags.thlink = true;
-						output.splice(3, 0, `<ThLink scope="row" rowSpan={${rows}} to="${icon[2]}"><IonIcon aria-label="${icon[0]}" icon="/icons/${icon[1]}.svg" /></ThLink>`);
+						output.splice(3, 0, `<ThLink scope="row" rowSpan={${rows}} to="${icon[2]}"><IonIcon aria-label="${icon[0]}" icon="/icons/${icon[1]}" /></ThLink>`);
 					}
 				} else {
 					logError(`---> missing icon property`);
