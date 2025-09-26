@@ -52,7 +52,8 @@
 		"name": "Greater Disarm",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Greater Disarm (Combat)",
@@ -67,7 +68,17 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/120}",
 			">",
-			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. When you successfully disarm a foe, you can spend 5 stamina points to select where the weapon lands by choosing a square within 15 feet of the disarmed foe. If you choose a square in your space and have at least one hand free, you can grab the weapon as part of the disarm attempt."
+			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. When you successfully disarm a foe, you can spend 5 stamina points to select where the weapon lands by choosing a square within 15 feet of the disarmed foe. If you choose a square in your space and have at least one hand free, you can grab the weapon as part of the disarm attempt.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can knock weapons far from an enemy's grasp.  ",
+			"**Prerequisites:** {rule/Deft Maneuvers}, base attack bonus +6, Int 13.  ",
+			"**Benefit:** You receive a +2 bonus on checks made to {rule/disarm} a foe. This bonus stacks with the bonus granted by Deft Manauvers. Whenever you successfully disarm an opponent, the weapon lands 15 feet away from its previous wielder, in a random direction.  ",
+			"**Normal:** Disarmed weapons and gear land at the feet of the disarmed creature.",
+			"",
+			":::"
 		]
 	},
 	"greater_dispel_focus": {
@@ -149,7 +160,8 @@
 		"name": "Greater Feint",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Greater Feint (Combat)",
@@ -164,7 +176,17 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/121}",
 			">",
-			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. If you have at least 1 point in your stamina pool, you can feint as a swift action, but the feint causes the opponent to become {rule/flat-footed} only for your next attack rather than for all attacks until the beginning of your next turn."
+			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. If you have at least 1 point in your stamina pool, you can feint as a swift action, but the feint causes the opponent to become {rule/flat-footed} only for your next attack rather than for all attacks until the beginning of your next turn.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You are skilled at making foes overreact to your attacks.  ",
+			"**Prerequisites:** {rule/Deft Maneuvers}, base attack bonus +6, Int 13.  ",
+			"**Benefit:** Whenever you use {rule/feint} to cause an opponent to lose his Dexterity bonus, he loses that bonus until the beginning of your next turn, in addition to losing his Dexterity bonus against your next attack.  ",
+			"**Normal:** A creature you feint loses its Dexterity bonus against your next attack.",
+			"",
+			":::"
 		]
 	},
 	"greater_gathlain_magic": {
@@ -184,7 +206,8 @@
 		"name": "Greater Grapple",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Greater Grapple (Combat)",
@@ -199,7 +222,17 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/121}",
 			">",
-			">After you take a move action to successfully maintain a grapple, you can spend 5 stamina points before the end of your turn to maintain that grapple as a swift action. This allows you to make up to three grapple checks to maintain a grapple during a round, but you still can't maintain a grapple until the round after you initiate it."
+			">After you take a move action to successfully maintain a grapple, you can spend 5 stamina points before the end of your turn to maintain that grapple as a swift action. This allows you to make up to three grapple checks to maintain a grapple during a round, but you still can't maintain a grapple until the round after you initiate it.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Maintaining a grapple is second nature to you.  ",
+			"**Prerequisites:** {rule/Unarmed Combatant}, base attack bonus +6, Dex 13.  ",
+			"**Benefit:** You receive a +2 bonus on checks made to {misc/grapple} a foe. This bonus stacks with the bonus granted by Unarmed Combatant. Once you have grappled a creature, maintaining the grapple is a move action. This feat allows you to make two grapple checks each round (to move, harm, or pin your opponent), but you are not required to make two checks. You only need to succeed at one of these checks to maintain the grapple.  ",
+			"**Normal:** Maintaining a grapple is a standard action.",
+			"",
+			":::"
 		]
 	},
 	"greater_hunters_bond": {
@@ -278,7 +311,8 @@
 		"name": "Greater Overrun",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Greater Overrun (Combat)",
@@ -293,14 +327,25 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/121}",
 			">",
-			">If you succeed at a combat maneuver check to overrun an opponent, but do not exceed your opponent's CMD by 5 or more, you can spend 2 stamina points to knock the target prone anyway."
+			">If you succeed at a combat maneuver check to overrun an opponent, but do not exceed your opponent's CMD by 5 or more, you can spend 2 stamina points to knock the target prone anyway.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Enemies must dive to avoid your dangerous move.  ",
+			"**Prerequisites:** {rule/Powerful Maneuvers}, base attack bonus +6, Str 13.  ",
+			"**Benefit:** You receive a +2 bonus on checks made to overrun a foe. This bonus stacks with the bonus granted by Powerful Maneuvers. Whenever you {rule/overrun} opponents, they provoke attacks of opportunity if they are knocked {rule/prone} by your overrun.  ",
+			"**Normal:** Creatures knocked prone by your overrun do not provoke an attack of opportunity.",
+			"",
+			":::"
 		]
 	},
 	"greater_penetrating_strike": {
 		"name": "Greater Penetrating Strike",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Greater Penetrating Strike (Combat)",
@@ -314,7 +359,16 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/121}",
 			">",
-			">When you use a weapon with which you have Weapon Focus to damage a creature that has damage reduction, you can spend 5 stamina points to allow all your allies within 30 feet to ignore 10 points of that creature's damage reduction for 1 round. This amount is reduced to 5 points for damage reduction without a type (such as DR 10/-). This effect does not stack with Greater Penetrating Strike's normal effect, but it does allow you to apply the effect to all your other weapons for the duration."
+			">When you use a weapon with which you have Weapon Focus to damage a creature that has damage reduction, you can spend 5 stamina points to allow all your allies within 30 feet to ignore 10 points of that creature's damage reduction for 1 round. This amount is reduced to 5 points for damage reduction without a type (such as DR 10/-). This effect does not stack with Greater Penetrating Strike's normal effect, but it does allow you to apply the effect to all your other weapons for the duration.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Your attacks penetrate the defenses of most foes.  ",
+			"**Prerequisites:** {feat/Penetrating Strike}, {feat/Weapon Focus}, 16th-level fighter.  ",
+			"**Benefit:** Your attacks with weapons from the group in which you have Weapon Focus ignore up to 10 points of damage reduction. This amount is reduced to 5 points for damage reduction without a type (such as DR 10/-).",
+			"",
+			":::"
 		]
 	},
 	"greater_planar_infusion": {
@@ -436,7 +490,8 @@
 		"name": "Greater Shield Focus",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Greater Shield Focus (Combat)",
@@ -454,7 +509,8 @@
 			"",
 			":::elephant",
 			"",
-			"You are skilled at deflecting blows with your shield.  ",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You are skilled at deflecting blows with your shield.  ",
 			"**Prerequisites:** Shield Focus, Shield Proficiency, base attack bonus +1, 8th-level fighter.  ",
 			"**Benefit:** Increase the AC bonus granted by any shield you are using by 1. This bonus stacks with the bonus granted by Shield Focus. Additionally, the AC bonus against ranged weapons granted by Shield Focus now affects ranged touch attacks (including rays and similar magical effects).",
 			"",
@@ -636,7 +692,8 @@
 		"name": "Greater Sunder",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Greater Sunder (Combat)",
@@ -650,7 +707,16 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/121}",
 			">",
-			">When you succeed at a sunder combat maneuver check, you can spend a number of stamina points up to your Strength bonus to deal an amount of extra damage to the target equal to double the number of stamina points you spent. The damage type is the same as that of the weapon you used to attempt the maneuver."
+			">When you succeed at a sunder combat maneuver check, you can spend a number of stamina points up to your Strength bonus to deal an amount of extra damage to the target equal to double the number of stamina points you spent. The damage type is the same as that of the weapon you used to attempt the maneuver.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Your devastating strikes cleave through weapons and armor and into their wielders, damaging both item and wielder alike in a single terrific strike.  ",
+			"**Prerequisites:** {rule/Powerful Maneuvers}, base attack bonus +6, Str 13.  ",
+			"**Benefit:** You receive a +2 bonus on checks made to {rule/sunder} an item. This bonus stacks with the bonus granted by Powerful Maneuvers. Whenever you sunder to destroy a weapon, shield, or suit of armor, any excess damage is applied to the item's wielder. No damage is transferred if you decide to leave the item with 1 hit point.",
+			"",
+			":::"
 		]
 	},
 	"greater_tenacious_hunter": {
@@ -671,7 +737,8 @@
 		"name": "Greater Trip",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Greater Trip (Combat)",
@@ -686,14 +753,25 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/122}",
 			">",
-			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 2 stamina points after you successfully trip an opponent to deal 1d6 points of falling damage to the target."
+			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 2 stamina points after you successfully trip an opponent to deal 1d6 points of falling damage to the target.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can make free attacks on foes that you knock down.  ",
+			"**Prerequisites:** {rule/Deft Maneuvers}, base attack bonus +6, Int 13.  ",
+			"**Benefit:** You receive a +2 bonus on checks made to {rule/trip} a foe. This bonus stacks with the bonus granted by Deft Maneuvers. Whenever you successfully trip an opponent, that opponent provokes attacks of opportunity.  ",
+			"**Normal:** Creatures do not provoke attacks of opportunity from being tripped.",
+			"",
+			":::"
 		]
 	},
 	"greater_two_weapon_fighting": {
 		"name": "Greater Two-Weapon Fighting",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Greater Two-Weapon Fighting (Combat)",
@@ -711,7 +789,8 @@
 			"",
 			":::elephant",
 			"",
-			"You are skilled at fighting with two weapons.  ",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You are skilled at fighting with two weapons.  ",
 			"**Prerequisites:** Dex 15, Two-Weapon Fighting, base attack bonus +6.  ",
 			"**Benefit:** In addition to the standard single extra attack you get with an off-hand weapon, you get a second attack with it, albeit at a -5 penalty. When your base attack bonus reaches +11, you also gain a third attack with your off-hand weapon, albeit at a -10 penalty.  ",
 			"**Normal:** Without this feat, you can only get a single extra attack with an off-hand weapon.",
@@ -758,7 +837,8 @@
 		"name": "Greater Weapon Focus",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Greater Weapon Focus (Combat)",
@@ -773,7 +853,17 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/122}",
 			">",
-			">Once per round, you can spend 2 stamina points to gain your Greater Weapon Focus bonus on attack rolls with another weapon. This bonus lasts until the start of your next turn."
+			">Once per round, you can spend 2 stamina points to gain your Greater Weapon Focus bonus on attack rolls with another weapon. This bonus lasts until the start of your next turn.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Choose one {ability/weapon group>s} listed under the fighter's Weapon Training class feature for which you have already selected Weapon Focus. You are a master at your chosen weapon type.  ",
+			"**Prerequisites:** {feat/Weapon Focus} with the selected weapon group, base attack bonus +1, 8th-level fighter.  ",
+			"**Benefit:** You gain a +1 bonus on attack rolls you make using the selected weapon. This bonus stacks with other bonuses on attack rolls, including those from Weapon Focus.  ",
+			"**Special:** You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time you take the feat, it applies to a new weapon group.",
+			"",
+			":::"
 		]
 	},
 	"greater_weapon_of_the_chosen": {
@@ -814,7 +904,8 @@
 		"name": "Greater Weapon Specialization",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Greater Weapon Specialization (Combat)",
@@ -829,7 +920,17 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/122}",
 			">",
-			">Once per round, you can spend 2 stamina points to gain your Greater Weapon Specialization bonus on damage rolls with another weapon. This bonus lasts until the start of your next turn."
+			">Once per round, you can spend 2 stamina points to gain your Greater Weapon Specialization bonus on damage rolls with another weapon. This bonus lasts until the start of your next turn.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Choose one {ability/weapon group>s} listed under the fighter's Weapon Training class feature for which you possess the Weapon Specialization feat. Your attacks with these weapons are more devastating than normal.  ",
+			"**Prerequisites:** {feat/Greater Weapon Focus} with the selected weapon group, {feat/Weapon Specialization} with the selected weapon group, 12th-level fighter.  ",
+			"**Benefit:** You gain a +2 bonus on all damage rolls you make using any weapon from the selected group. This bonus to damage stacks with other damage roll bonuses, including any you gain from Weapon Specialization.  ",
+			"**Special:** You can gain Greater Weapon Specialization multiple times. Its effects do not stack. Each time you take the feat, it applies to a new weapon group.",
+			"",
+			":::"
 		]
 	},
 	"greater_whip_mastery": {
@@ -3028,7 +3129,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Bull Rush (Combat)",
@@ -3053,7 +3155,14 @@
 			"**Prerequisites:** Improved Bull Rush.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to bull rush, and to your CMD when an opponent bull rushes you. These bonuses stack with those granted by non-mythic Improved Bull Rush.",
 			"",
-			"Furthermore, you can make an attack of opportunity against any creature that attempts to bull rush you, unless it also has this feat."
+			"Furthermore, you can make an attack of opportunity against any creature that attempts to bull rush you, unless it also has this feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with the new {rule/Powerful Maneuvers} feat.",
+			"",
+			":::"
 		]
 	},
 	"improved_called_shot": {
@@ -3207,7 +3316,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Critical (Combat)",
@@ -3231,7 +3341,19 @@
 			"Your critical strikes with your chosen weapon are deadlier than most.  ",
 			"**Prerequisites:** Improved Critical, base attack bonus +8.  ",
 			"**Benefit:** Your critical multiplier with your chosen weapon is increased by 1 (to a maximum of &times;6).  ",
-			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Improved Critical feat."
+			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Improved Critical feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Choose one {ability/weapon group>s} listed under the fighter's Weapon Training class feature. Attacks made with your chosen weapons are quite deadly.  ",
+			"**Prerequisites:** Proficiency with at least one weapon from the selected weapon group, base attack bonus +8.  ",
+			"**Benefit:** When using any weapon from the selected group, your threat range is doubled.  ",
+			"**Special:** You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new weapon group.",
+			"",
+			"This effect doesn't stack with any other effect that expands the threat range of a weapon.",
+			"",
+			":::"
 		]
 	},
 	"improved_dark_sight": {

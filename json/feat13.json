@@ -190,7 +190,8 @@
 			"Ultimate Combat",
 			"Inner Sea World Guide",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Rapid Reload (Combat)",
@@ -222,7 +223,8 @@
 			"",
 			":::elephant",
 			"",
-			"Choose the crossbows or thrown {ability/weapon groups} listed under the fighter's Weapon Training class feature. You can reload such weapons quickly.  ",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Choose the crossbows or thrown {ability/weapon groups} listed under the fighter's Weapon Training class feature. You can reload such weapons quickly.  ",
 			"**Prerequisites:** Proficiency with at least one weapon from the selected weapon group.  ",
 			"**Benefit:** The time required for you to reload a weapon from the selected group is reduced to a free action (for a hand crossbow, light crossbow, {eq-weapon/sling}, or {eq-weapon/halfling sling staff}) or a move action (for a heavy crossbow). Reloading no longer provokes an attack of opportunity. For all these weapons but the heavy crossbow, you may fire that weapon as many times in a full-attack action as you could attack if you were using a bow.",
 			"",
@@ -254,7 +256,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Rapid Shot (Combat)",
@@ -276,7 +279,16 @@
 			"",
 			"You can fire many times each round with amazing precision.  ",
 			"**Prerequisites:** Rapid Shot.  ",
-			"**Benefit:** When using Rapid Shot, you can either ignore the feat's -2 penalty on attack rolls or make two additional attacks instead of one."
+			"**Benefit:** When using Rapid Shot, you can either ignore the feat's -2 penalty on attack rolls or make two additional attacks instead of one.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can make an additional ranged attack.  ",
+			"**Prerequisites:** Dex 13, {feat/Precise Shot}.  ",
+			"**Benefit:** When making a full-attack action with a ranged weapon, you can fire one additional time this round at your highest bonus. All of your attack rolls take a -2 penalty when using Rapid Shot.",
+			"",
+			":::"
 		]
 	},
 	"rat_catcher": {
@@ -2579,7 +2591,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Scorpion Style (Combat)",
@@ -2601,7 +2614,14 @@
 			"",
 			"Your unarmed strikes can induce a near-crippling lethargy in your enemies.  ",
 			"**Prerequisites:** Scorpion Style.  ",
-			"**Benefit:** Whenever you are using Scorpion Style, you add your tier to the number of rounds the target's base land speed is reduced. You can expend one use of mythic power when making your attack to slow your target, as the spell {spell/slow}, unless it succeeds at a Fortitude save (DC 10 + 1/2 your character level + your Wisdom modifier). The slowing effect supersedes the normal speed penalty of your Scorpion Strike, but lasts for an equal number of rounds."
+			"**Benefit:** Whenever you are using Scorpion Style, you add your tier to the number of rounds the target's base land speed is reduced. You can expend one use of mythic power when making your attack to slow your target, as the spell {spell/slow}, unless it succeeds at a Fortitude save (DC 10 + 1/2 your character level + your Wisdom modifier). The slowing effect supersedes the normal speed penalty of your Scorpion Strike, but lasts for an equal number of rounds.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with the new {rule/Scorpion Stance} feat.",
+			"",
+			":::"
 		]
 	},
 	"scouting_summons": {

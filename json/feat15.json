@@ -141,7 +141,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Spirited Charge (Combat)",
@@ -163,7 +164,16 @@
 			"",
 			"Your mounted charge knocks the wind and wits from those foolish enough to stand against you.  ",
 			"**Prerequisites:** Spirited Charge.  ",
-			"**Benefit:** When you hit an opponent with a mounted charge, that opponent must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Str modifier) or be {misc/staggered} for a number of rounds equal to your tier. If you use a lance with this attack, increase the saving throw DC by 2. As a free action before you make the attack, you can expend one use of mythic power to {misc/daze} your opponent on a failed saving throw instead of staggering it."
+			"**Benefit:** When you hit an opponent with a mounted charge, that opponent must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Str modifier) or be {misc/staggered} for a number of rounds equal to your tier. If you use a lance with this attack, increase the saving throw DC by 2. As a free action before you make the attack, you can expend one use of mythic power to {misc/daze} your opponent on a failed saving throw instead of staggering it.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Your mounted charge attacks deal a tremendous amount of damage.  ",
+			"**Prerequisites:** Ride 1 rank, {feat/Mounted Combat}, {feat/Ride-By Attack}.  ",
+			"**Benefit:** When mounted and using the {rule/charge} action, you deal double damage with a melee weapon (or triple damage with a lance).",
+			"",
+			":::"
 		]
 	},
 	"spirits_gift": {
@@ -391,7 +401,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Spring Attack (Combat)",
@@ -414,7 +425,17 @@
 			"",
 			"You move across the battlefield in a blur of whirling blades.  ",
 			"**Prerequisites:** Spring Attack, base attack bonus +6.  ",
-			"**Benefit:** When you use Spring Attack, you don't need to move at least 10 feet before making the first attack. If you expend one use of mythic power when you start a Spring Attack, the movement you make during the Spring Attack doesn't provoke attacks of opportunity."
+			"**Benefit:** When you use Spring Attack, you don't need to move at least 10 feet before making the first attack. If you expend one use of mythic power when you start a Spring Attack, the movement you make during the Spring Attack doesn't provoke attacks of opportunity.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can deftly move up to a foe, strike, and withdraw before he can react.  ",
+			"**Prerequisites:** Dex 13, {feat/Dodge}, base attack bonus +4.  ",
+			"**Benefit:** As a full-round action, you can move up to your speed and make a single melee attack without provoking any attacks of opportunity from the target of your attack. You can move both before and after the attack, but you must move at least 10 feet before the attack and the total distance that you move cannot be greater than your speed. You cannot use this ability to attack a foe that is adjacent to you at the start of your turn.  ",
+			"**Normal:** You cannot move before and after an attack.",
+			"",
+			":::"
 		]
 	},
 	"spring_heeled_reaping": {
@@ -662,7 +683,7 @@
 			"Your critical hits cause opponents to slow down.  ",
 			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +13.  ",
 			"**Benefit:** Whenever you score a critical hit, your opponent becomes {misc/staggered} for 1d4+1 rounds. A successful Fortitude save reduces the duration to 1 round. The DC of this Fortitude save is equal to 10 + your base attack bonus. The effects of this feat do not stack. Additional hits instead add to the duration.  ",
-			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess {feat/Critical Mastery}.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/132}",
@@ -736,7 +757,8 @@
 		"name": "Stand Still",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Stand Still (Combat)",
@@ -750,7 +772,14 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/132}",
 			">",
-			">When you succeed at a combat maneuver check to stop a creature's movement with this feat, you can spend 5 stamina points. If you do, on that creature's next turn, its movement speed is halved and it can't take a 5-foot step."
+			">When you succeed at a combat maneuver check to stop a creature's movement with this feat, you can spend 5 stamina points. If you do, on that creature's next turn, its movement speed is halved and it can't take a 5-foot step.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with the new {rule/Scorpion Stance} feat.",
+			"",
+			":::"
 		]
 	},
 	"standing_tall": {
@@ -1923,7 +1952,7 @@
 			"Your critical hits cause opponents to become stunned.  ",
 			"**Prerequisites:** {feat/Critical Focus}, {feat/Staggering Critical}, base attack bonus +17.  ",
 			"**Benefit:** Whenever you score a critical hit, your opponent becomes {misc/stunned} for 1d4 rounds. A successful Fortitude save reduces this to {misc/staggered} for 1d4 rounds. The DC of this Fortitude save is equal to 10 + your base attack bonus. The effects of this feat do not stack. Additional hits instead add to the duration.  ",
-			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess {feat/Critical Mastery}.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/133}",
@@ -1949,7 +1978,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Stunning Fist (Combat)",
@@ -1972,7 +2002,17 @@
 			"",
 			"With greater potency and frequency, your fists stun those who stand against you.  ",
 			"**Prerequisites:** Stunning Fist.  ",
-			"**Benefit:** The DC of your Stunning Fist increases by half your tier, and you can use Stunning Fist multiple times during the same round. As a free action, you can expend one use of your mythic power to use Stunning Fist without spending one of your daily uses of the feat."
+			"**Benefit:** The DC of your Stunning Fist increases by half your tier, and you can use Stunning Fist multiple times during the same round. As a free action, you can expend one use of your mythic power to use Stunning Fist without spending one of your daily uses of the feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You know just where to strike to temporarily stun a foe.  ",
+			"**Prerequisites:** Dex 13, Wis 13, {rule/Unarmed Combatant}, base attack bonus +8.  ",
+			"**Benefit:** You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). Stunning Fist forces a foe damaged by your unarmed attack to make a Fortitude saving throw (DC 10 + 1/2 your character level + your Wis modifier), in addition to dealing damage normally. A defender who fails this saving throw is {misc/stunned} for 1 round (until just before your next turn). A stunned character drops everything held, can't take actions, loses any Dexterity bonus to AC, and takes a -2 penalty to AC. You may attempt a stunning attack once per day for every four levels you have attained (but see Special), and no more than once per round. Constructs, oozes, plants, undead, incorporeal creatures, and creatures immune to critical hits cannot be stunned.  ",
+			"**Special:** A monk receives Stunning Fist as a bonus feat at 1st level, even if he does not meet the prerequisites. A monk may attempt a stunning attack a number of times per day equal to his monk level, plus one more time per day for every four levels he has in classes other than monk.",
+			"",
+			":::"
 		]
 	},
 	"stunning_fist_adept": {

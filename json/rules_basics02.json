@@ -200,7 +200,10 @@
 	"weapon_encumbrance": {
 		"name": "Weapon Encumbrance and Size",
 		"tags": "weapon size improvised weapons light weapon one-handed two-handed",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"{SOURCE PRPG Core Rulebook/141}",
 			"",
@@ -222,7 +225,20 @@
 			"",
 			"@HL[Improvised Weapons:] Sometimes objects not crafted to be weapons nonetheless see use in combat. Because such objects are not designed for this use, any creature that uses an improvised weapon in combat is considered to be nonproficient with it and takes a -4 penalty on attack rolls made with that object. To determine the size category and appropriate damage for an improvised weapon, compare its relative size and damage potential to the weapon list to find a reasonable match. An improvised weapon scores a threat on a natural roll of 20 and deals double damage on a critical hit. An improvised thrown weapon has a range increment of 10 feet.",
 			"",
-			">*Also see: {rule/Improvised Weapon Special Features}*"
+			">*Also see: {rule/Improvised Weapon Special Features}*",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"The Light weapon designation is renamed to Finesse.",
+			"",
+			"@HL[Finesse:] A finesse weapon is used in one hand. It is easier to use in one's off hand than a one-handed weapon is and can be used while grappling.",
+			"",
+			"A wielder may choose to use their Dexterity modifier instead of their Strength modifier on attack rolls with a finesse weapon. In either case, add the wielder's Strength modifier to damage rolls for melee attacks if it is used in the primary hand, or half the wielder's Strength bonus if it is used in the off hand. Using two hands to wield a finesse weapon gives no advantage on damage; the Strength bonus applies as though the weapon were held in the wielder's primary hand only.",
+			"",
+			"Unarmed strikes and natural attacks are always considered finesse weapons.",
+			"",
+			":::"
 		],
 		"parent_topics": [
 			"basics",

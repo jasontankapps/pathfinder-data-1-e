@@ -11,7 +11,8 @@
 		"name": "Aberrant",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Ultimate Magic"
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Aberrant",
@@ -24,6 +25,13 @@
 			"**Bonus Spells:** {spell/enlarge person} (3rd), {spell/see invisibility} (5th), {spell/tongues} (7th), {spell/black tentacles} (9th), {spell/feeblemind} (11th), {spell/veil} (13th), {spell/plane shift} (15th), {spell/mind blank} (17th), {spell/shapechange} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Combat Casting}, {feat/Improved Disarm}, {feat/Improved Grapple}, {feat/Improved Initiative}, {feat/Improved Unarmed Strike}, {feat/Iron Will}, {feat/Silent Spell}, {feat/Skill Focus} (Knowledge [dungeoneering])",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Combat Casting}, {feat/Greater Disarm}, {feat/Greater Grapple}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Silent Spell}, {feat/Skill Focus} (Knowledge [dungeoneering]), @hll[rule/Unarmed Combatant]",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell of the {spelldef/polymorph} subschool, increase the duration of the spell by 50% (minimum 1 round). This bonus does not stack with the increase granted by the {feat/Extend Spell} feat.",
 			"",
@@ -71,7 +79,8 @@
 		"name": "Abyssal",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Ultimate Magic"
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Abyssal",
@@ -84,6 +93,13 @@
 			"**Bonus Spells:** {spell/cause fear} (3rd), {spell/bull's strength} (5th), {spell/rage} (7th), {spell/stoneskin} (9th), {spell/dismissal} (11th), {spell/transformation} (13th), {spell/greater teleport} (15th), {spell/unholy aura} (17th), {spell/summon monster IX} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Augment Summoning}, {feat/Cleave}, {feat/Empower Spell}, {feat/Great Fortitude}, {feat/Improved Bull Rush}, {feat/Improved Sunder}, {feat/Power Attack}, {feat/Skill Focus} (Knowledge [planes])",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Augment Summoning}, {feat/Cleave}, {feat/Empower Spell}, {feat/Great Fortitude}, {feat/Greater Bull Rush}, {feat/Greater Sunder}, @hll[rule/Powerful Maneuvers], {feat/Skill Focus} (Knowledge [planes])",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell of the {spelldef/summoning} subschool, the creatures summoned gain DR/good equal to 1/2 your sorcerer level (minimum 1). This does not stack with any DR the creature might have.",
 			"",
@@ -146,7 +162,8 @@
 		"name": "Aquatic",
 		"sources": [
 			"Advanced Player's Guide",
-			"Ultimate Magic"
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Aquatic",
@@ -159,6 +176,13 @@
 			"**Bonus Spells:** {spell/hydraulic push} (3rd), {spell/slipstream} (5th), {spell/aqueous orb} (7th), {spell/geyser} (9th), {spell/control water} (11th), {spell/beast shape IV} (13th), {spell/summon monster VII} (15th), {spell/seamantle} (17th), {spell/world wave} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Athletic}, {feat/Brew Potion}, {feat/Defensive Combat Training}, {feat/Dodge}, {feat/Mobility}, {feat/Silent Spell}, {feat/Skill Focus} (Swim), {feat/Toughness}",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Athletic}, {feat/Brew Potion}, {feat/Defensive Combat Training}, {feat/Dodge}, {feat/Silent Spell}, {feat/Skill Focus} (Swim), {feat/Spring Attack}, {feat/Toughness}",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell of the water type, your effective caster level is increased by one, and summoned creatures with a swim speed or the aquatic or water type gain a +1 morale bonus on attack and damage rolls.",
 			"",
@@ -234,7 +258,10 @@
 	},
 	"astral": {
 		"name": "Astral",
-		"sources": [ "Distant Realms" ],
+		"sources": [
+			"Distant Realms",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Astral",
 			"",
@@ -246,6 +273,13 @@
 			"**Bonus Spells:** {spell/true strike} (3rd), {spell/false life} (5th), {spell/sands of time} (7th), {spell/wandering star motes} (9th), {spell/permanency} (11th), {spell/contingency} (13th), {spell/ethereal jaunt} (15th), {spell/create demiplane} (17th), {spell/time stop} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Combat Reflexes}, {feat/Dodge}, {feat/Forge Ring}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Quicken Spell}, {feat/Skill Focus} (Knowledge [planes]), {feat/Weapon Finesse}",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"@hll[feat/Agile Combatant], {feat/Combat Reflexes}, {feat/Dodge}, {feat/Forge Ring}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Quicken Spell}, {feat/Skill Focus} (Knowledge [planes])",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** When you cast a spell, you can choose to enhance the next spell you cast before the end of your next turn, increasing the enhanced spell's saving throw DC by 1. The level of the enhanced spell must be lower than that of the spell used to activate this ability.",
 			"",
@@ -266,7 +300,8 @@
 		"name": "Boreal",
 		"sources": [
 			"Advanced Player's Guide",
-			"Ultimate Magic"
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Boreal",
@@ -279,6 +314,13 @@
 			"**Bonus Spells:** {spell/enlarge person} (3rd), {spell/rage} (5th), {spell/elemental aura/ (cold only)} (7th), {spell/wall of ice} (9th), {spell/cone of cold} (11th), {spell/transformation} (13th), {spell/giant form I} (15th), {spell/polar ray} (17th), {spell/meteor swarm/ (dealing cold damage)} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Arcane Strike}, {feat/Diehard}, {feat/Empower Spell}, {feat/Endurance}, {feat/Exotic Weapon Proficiency}, {feat/Power Attack}, {feat/Skill Focus} (Intimidate), {feat/Toughness}",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Arcane Strike}, {feat/Diehard}, {feat/Empower Spell}, {feat/Endurance}, {feat/Exotic Weapon Proficiency}, @hll[rule/Powerful Maneuvers], {feat/Skill Focus} (Intimidate), {feat/Toughness}",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell with the cold descriptor, increase the spell's save DC by 1.",
 			"",
@@ -311,7 +353,8 @@
 		"name": "Celestial",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Ultimate Magic"
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Celestial",
@@ -324,6 +367,13 @@
 			"**Bonus Spells:** {spell/bless} (3rd), {spell/resist energy} (5th), {spell/magic circle against evil} (7th), {spell/remove curse} (9th), {spell/flame strike} (11th), {spell/greater dispel magic} (13th), {spell/banishment} (15th), {spell/sunburst} (17th), {spell/gate} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Dodge}, {feat/Extend Spell}, {feat/Iron Will}, {feat/Mobility}, {feat/Mounted Combat}, {feat/Ride-By Attack}, {feat/Skill Focus} (Knowledge [religion]), {feat/Weapon Finesse}",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"@hll[feat/Agile Combatant], {feat/Dodge}, {feat/Extend Spell}, {feat/Iron Will}, {feat/Mounted Combat}, {feat/Ride-By Attack}, {feat/Skill Focus} (Knowledge [religion]), {feat/Spring Attack}",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell of the {spelldef/summoning} subschool, the creatures summoned gain DR/evil equal to 1/2 your sorcerer level (minimum 1). This does not stack with any DR the creature might have.",
 			"",
@@ -474,7 +524,10 @@
 	},
 	"div": {
 		"name": "Div",
-		"sources": [ "People of the Sands" ],
+		"sources": [
+			"People of the Sands",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Div",
 			"",
@@ -486,6 +539,13 @@
 			"**Bonus Spells:** {spell/disguise self} (3rd), {spell/touch of idiocy} (5th), {spell/deeper darkness} (7th), {spell/bestow curse} (9th), {spell/insect plague} (11th), {spell/disintegrate} (13th), {spell/insanity} (15th), {spell/earthquake} (17th), {spell/wish} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Blind-Fight}, {feat/Deceitful}, {feat/Empower Spell}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Persuasive}, {feat/Power Attack}",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Blind-Fight}, {feat/Deceitful}, {feat/Empower Spell}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Persuasive}, @hll[rule/Powerful Maneuvers]",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you deal damage to more than one creature with a spell that affects an area, the save DCs of your spells increase by 1 for 1d4 rounds.",
 			"",
@@ -504,7 +564,10 @@
 	},
 	"djinni": {
 		"name": "Djinni",
-		"sources": [ "Ultimate Magic" ],
+		"sources": [
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Djinni",
 			"",
@@ -516,6 +579,13 @@
 			"**Bonus Spells:** {spell/shocking grasp} (3rd), {spell/invisibility} (5th), {spell/fly} (7th), {spell/minor creation} (9th), {spell/overland flight} (11th), {spell/chain lightning} (13th), {spell/plane shift} (15th), {spell/greater planar binding} (17th), {spell/wish} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Dodge}, {feat/Empower Spell}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Skill Focus} (Knowledge [planes]), {feat/Weapon Focus}",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Dodge}, {feat/Empower Spell}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, @hll[rule/Powerful Maneuvers], {feat/Skill Focus} (Knowledge [planes]), {feat/Weapon Focus}",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell that deals energy damage, you can change the type of damage to electricity. This also changes the spell's descriptors to match this energy type.",
 			"",
@@ -539,7 +609,8 @@
 		"sources": [
 			"PRPG Core Rulebook",
 			"Legacy of Dragons",
-			"Ultimate Magic"
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Draconic",
@@ -552,6 +623,13 @@
 			"**Bonus Spells:** {spell/mage armor} (3rd), {spell/resist energy} (5th), {spell/fly} (7th), {spell/fear} (9th), {spell/spell resistance} (11th), {spell/form of the dragon I} (13th), {spell/form of the dragon II} (15th), {spell/form of the dragon III} (17th), {spell/wish} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Blind-Fight}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Power Attack}, {feat/Quicken Spell}, {feat/Skill Focus} (Fly), Skill Focus (Knowledge [arcana]), {feat/Toughness}",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Blind-Fight}, {feat/Great Fortitude}, {feat/Improved Initiative}, @hll[rule/Powerful Maneuvers], {feat/Quicken Spell}, {feat/Skill Focus} (Fly), Skill Focus (Knowledge [arcana]), {feat/Toughness}",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell with an energy descriptor that matches your draconic bloodline's energy type, that spell deals +1 point of damage per die rolled.",
 			"",
@@ -662,7 +740,8 @@
 		"name": "Dreamspun",
 		"sources": [
 			"Advanced Player's Guide",
-			"Ultimate Magic"
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Dreamspun",
@@ -675,6 +754,13 @@
 			"**Bonus Spells:** {spell/sleep} (3rd), {spell/augury} (5th), {spell/deep slumber} (7th), {spell/divination} (9th), {spell/dream} (11th), {spell/shadow walk} (13th), {spell/vision} (15th), {spell/moment of prescience} (17th), {spell/astral projection} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Alertness}, {feat/Blind-Fight}, {feat/Combat Expertise}, {feat/Deceitful}, {feat/Heighten Spell}, {feat/Improved Feint}, {feat/Persuasive}, {feat/Skill Focus} (Sense Motive)",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Alertness}, {feat/Blind-Fight}, {feat/Deceitful}, @hll[rule/Deft Maneuvers], {feat/Greater Feint}, {feat/Heighten Spell}, {feat/Persuasive}, {feat/Skill Focus} (Sense Motive)",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you target a single creature with a spell, you gain an insight bonus equal to half the spell's level (minimum +1) for 1 round to your AC and saving throws against any spell or attack made by that creature.",
 			"",
@@ -737,7 +823,10 @@
 	},
 	"efreeti": {
 		"name": "Efreeti",
-		"sources": [ "Ultimate Magic" ],
+		"sources": [
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Efreeti",
 			"",
@@ -749,6 +838,13 @@
 			"**Bonus Spells:** {spell/enlarge person} (3rd), {spell/scorching ray} (5th), {spell/fireball} (7th), {spell/wall of fire} (9th), {spell/persistent image} (11th), {spell/planar binding} (13th), {spell/plane shift} (15th), {spell/giant form II} (17th), {spell/wish} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Dodge}, {feat/Empower Spell}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Skill Focus} (Knowledge [planes]), {feat/Weapon Finesse})",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"@hll[feat/Agile Combatant], {feat/Dodge}, {feat/Empower Spell}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, @hll[rule/Powerful Maneuvers], {feat/Skill Focus} (Knowledge [planes])",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell that deals energy damage, you can change the type of damage to fire. This also changes the spell's descriptors to match this energy type.",
 			"",
@@ -772,7 +868,8 @@
 		"sources": [
 			"PRPG Core Rulebook",
 			"Blood of the Elements",
-			"Ultimate Magic"
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Elemental",
@@ -787,6 +884,13 @@
 			"\\*These spells always deal a type of damage determined by your element. In addition, the subtype of these spells changes to match the energy type of your element.",
 			"",
 			"**Bonus Feats:** {feat/Dodge}, {feat/Empower Spell}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Skill Focus} (Knowledge [planes]), {feat/Weapon Finesse})",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"@hll[feat/Agile Combatant], {feat/Dodge}, {feat/Empower Spell}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, @hll[rule/Powerful Maneuvers], {feat/Skill Focus} (Knowledge [planes])",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell that deals energy damage, you can change the type of damage to match the type of your bloodline. This also changes the spell's type to match the type of your bloodline.",
 			"",
@@ -839,7 +943,8 @@
 		"sources": [
 			"PRPG Core Rulebook",
 			"People of the River",
-			"Ultimate Magic"
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Fey",
@@ -852,6 +957,13 @@
 			"**Bonus Spells:** {spell/entangle} (3rd), {spell/hideous laughter} (5th), {spell/deep slumber} (7th), {spell/poison} (9th), {spell/tree stride} (11th), {spell/mislead} (13th), {spell/phase door} (15th), {spell/irresistible dance} (17th), {spell/shapechange} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Dodge}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Mobility}, {feat/Point-Blank Shot}, {feat/Precise Shot}, {feat/Quicken Spell}, {feat/Skill Focus} (Knowledge [nature])",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Dodge}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Point-Blank Shot}, {feat/Precise Shot}, {feat/Quicken Spell}, {feat/Skill Focus} (Knowledge [nature]), {feat/Spring Attack}",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell of the {spelldef/compulsion} subschool, increase the spell's DC by +2.",
 			"",
@@ -896,7 +1008,10 @@
 	},
 	"ghoul": {
 		"name": "Ghoul",
-		"sources": [ "Monster Codex" ],
+		"sources": [
+			"Monster Codex",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Ghoul",
 			"",
@@ -908,6 +1023,13 @@
 			"**Bonus Spells:** {spell/ray of enfeeblement} (3rd), {spell/feast of ashes} (5th), {spell/vampiric touch} (7th), {spell/fear} (9th), {spell/hungry earth} (11th), {spell/move earth} (13th), {spell/control undead} (15th), {spell/unholy aura} (17th), {spell/wail of the banshee} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Arcane Strike}, {feat/Combat Casting}, {feat/Power Attack}, {feat/Skill Focus} (Knowledge [religion]), {feat/Spell Focus} (necromancy), {feat/Toughness}, {feat/Warren Digger}, {feat/Weapon Finesse}",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"@hll[feat/Agile Combatant], {feat/Arcane Strike}, {feat/Combat Casting}, @hll[rule/Powerful Maneuvers], {feat/Skill Focus} (Knowledge [religion]), {feat/Spell Focus} (necromancy), {feat/Toughness}, {feat/Warren Digger}",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell of the necromancy school that deals hit point damage, you are healed of 1 hit point per spell level.",
 			"",
@@ -1022,7 +1144,8 @@
 		"name": "Infernal",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Ultimate Magic"
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Infernal",
@@ -1035,6 +1158,13 @@
 			"**Bonus Spells:** {spell/protection from good} (3rd), {spell/scorching ray} (5th), {spell/suggestion} (7th), {spell/charm monster} (9th), {spell/dominate person} (11th), {spell/planar binding/ (devils and creatures with the fiendish template only)} (13th), {spell/greater teleport} (15th), {spell/power word stun} (17th), {spell/meteor swarm} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Blind-Fight}, {feat/Combat Expertise}, {feat/Deceitful}, {feat/Extend Spell}, {feat/Improved Disarm}, {feat/Iron Will}, {feat/Skill Focus} (Knowledge [planes]), {feat/Spell Penetration}",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Blind-Fight}, {feat/Deceitful}, @hll[rule/Deft Maneuvers], {feat/Extend Spell}, {feat/Greater Disarm}, {feat/Iron Will}, {feat/Skill Focus} (Knowledge [planes]), {feat/Spell Penetration}",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell of the {spelldef/charm} subschool, increase the spell's DC by +2.",
 			"",
@@ -1127,7 +1257,8 @@
 		"name": "Marid",
 		"sources": [
 			"Ultimate Magic",
-			"Blood of the Elements"
+			"Blood of the Elements",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Marid",
@@ -1140,6 +1271,13 @@
 			"**Bonus Spells:** {spell/obscuring mist} (3rd), {spell/see invisibility} (5th), {spell/gaseous form} (7th), {spell/wall of ice} (9th), {spell/persistent image} (11th), {spell/elemental body III} (13th), {spell/plane shift} (15th), {spell/polar ray} (17th), {spell/wish} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Dodge}, {feat/Empower Spell}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Skill Focus} (Knowledge [planes]), {feat/Weapon Finesse})",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"@hll[feat/Agile Combatant], {feat/Dodge}, {feat/Empower Spell}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, @hll[rule/Powerful Maneuvers], {feat/Skill Focus} (Knowledge [planes])",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell that deals energy damage, you can change the type of damage to cold. This also changes the spell's descriptors to match this energy type.",
 			"",
@@ -1247,7 +1385,10 @@
 	},
 	"nanite": {
 		"name": "Nanite",
-		"sources": [ "People of the River" ],
+		"sources": [
+			"People of the River",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Nanite",
 			"",
@@ -1259,6 +1400,13 @@
 			"**Bonus Spells:** {spell/disguise self} (3rd), {spell/defensive shock} (5th), {spell/gaseous form} (7th), {spell/miasmatic form} (9th), {spell/echolocation} (11th), {spell/fluid form} (13th), {spell/magnetic field} (15th), {spell/iron body} (17th), {spell/shapechange} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Blind-Fight}, {feat/Combat Expertise}, {feat/Dodge}, {feat/Eldritch Heritage}, {feat/Expanded Arcana}, {feat/Improved Disarm}, {feat/Lightning Reflexes}, {feat/Skill Focus} (Knowledge [engineering])",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Blind-Fight}, @hll[rule/Deft Maneuvers], {feat/Dodge}, {feat/Eldritch Heritage}, {feat/Expanded Arcana}, {feat/Greater Disarm}, {feat/Lightning Reflexes}, {feat/Skill Focus} (Knowledge [engineering])",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell from the transmutation school and target only yourself, increase the spell's duration by 50%. This does not stack with metamagic feats or abilities such as {feat/Extend Spell}.",
 			"",
@@ -1279,7 +1427,10 @@
 	},
 	"oni": {
 		"name": "Oni",
-		"sources": [ "Dragon Empires Primer" ],
+		"sources": [
+			"Dragon Empires Primer",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Oni",
 			"",
@@ -1291,6 +1442,13 @@
 			"**Bonus Spells:** {spell/ray of enfeeblement} (3rd), {spell/invisibility} (5th), {spell/fly} (7th), {spell/charm monster} (9th), {spell/cone of cold} (11th), {spell/greater dispel magic} (13th), {spell/waves of exhaustion} (15th), {spell/trap the soul} (17th), {spell/dominate monster} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Combat Expertise}, {feat/Combat Reflexes}, {feat/Enforcer}, {feat/Fast Healer}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Power Attack}, {feat/Skill Focus} (Intimidate), {feat/Exotic Weapon Proficiency} (katana)",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Combat Reflexes}, @hll[rule/Deft Maneuvers], {feat/Enforcer}, {feat/Fast Healer}, {feat/Improved Initiative}, {feat/Iron Will}, @hll[rule/Powerful Maneuvers], {feat/Skill Focus} (Intimidate), {feat/Exotic Weapon Proficiency} (katana)",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell of the {spelldef/charm} or {spelldef/compulsion} subschool, you gain a bonus on Bluff, Diplomacy, and Intimidate skill checks equal to the level of the spell for 1d4 rounds.",
 			"",
@@ -1309,7 +1467,10 @@
 	},
 	"orc": {
 		"name": "Orc",
-		"sources": [ "Orcs of Golarion" ],
+		"sources": [
+			"Orcs of Golarion",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Orc",
 			"",
@@ -1321,6 +1482,13 @@
 			"**Bonus Spells:** {spell/burning hands} (3rd), {spell/bull's strength} (5th), {spell/rage} (7th), {spell/wall of fire} (9th), {spell/cloudkill} (11th), {spell/transformation} (13th), {spell/delayed blast fireball} (15th), {spell/iron body} (17th), {spell/meteor swarm} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Diehard}, {feat/Endurance}, {feat/Great Fortitude}, {feat/Intimidating Prowess}, {feat/Improved Overrun}, {feat/Power Attack}, {feat/Toughness}, {feat/Widen Spell}",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Diehard}, {feat/Endurance}, {feat/Great Fortitude}, {feat/Greater Overrun}, {feat/Intimidating Prowess}, @hll[rule/Powerful Maneuvers], {feat/Toughness}, {feat/Widen Spell}",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** You gain the {subtype/orc} subtype, including darkvision 60 feet and {umr/light sensitivity}. If you already have darkvision, its range increases to 90 feet. Whenever you cast a spell that deals damage, that spell deals +1 point of damage per die rolled.",
 			"",
@@ -1369,7 +1537,10 @@
 	},
 	"phoenix": {
 		"name": "Phoenix",
-		"sources": [ "Heroes of Golarion" ],
+		"sources": [
+			"Heroes of Golarion",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Phoenix",
 			"",
@@ -1381,6 +1552,13 @@
 			"**Bonus Spells:** {spell/color spray} (3rd), {spell/see invisibility} (5th), {spell/magic circle against evil} (7th), {spell/wall of fire} (9th), {spell/break enchantment} (11th), {spell/path of the winds} (13th), {spell/firebrand} (15th), {spell/prismatic wall} (17th), {spell/fiery body} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Dodge}, {feat/Elemental Focus} (fire), {feat/Fast Healer}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Mobility}, {feat/Quicken Spell}, {feat/Skill Focus} (Knowledge [arcana])",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Dodge}, {feat/Elemental Focus} (fire), {feat/Fast Healer}, {feat/Improved Initiative}, {feat/Iron Will}, {feat/Quicken Spell}, {feat/Skill Focus} (Knowledge [arcana]), {feat/Spring Attack}",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** When casting any spell that deals fire damage, you can instead heal your targets. The spell deals no damage, and living creatures affected by the spell instead regain a number of hit points equal to half the fire damage the spell would normally deal.",
 			"",
@@ -1534,7 +1712,10 @@
 	},
 	"salamander": {
 		"name": "Salamander",
-		"sources": [ "Elemental Master's Handbook" ],
+		"sources": [
+			"Elemental Master's Handbook",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Salamander",
 			"",
@@ -1546,6 +1727,13 @@
 			"**Bonus Spells:** {spell/magic weapon} (3rd), {spell/molten orb} (5th), {spell/magic vestment} (7th), {spell/fire shield/ (warm shield)} (9th), {spell/fire snake} (11th), {spell/tar pool} (13th), {spell/firebrand} (15th), {spell/wall of lava} (17th), {spell/meteor swarm} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Cleave}, {feat/Craft Wondrous Item}, {feat/Iron Will}, {feat/Power Attack}, {feat/Prodigy}, {feat/Skill Focus} (Acrobatics), Skill Focus (Perception), {feat/Toughness}",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"{feat/Cleave}, {feat/Craft Wondrous Item}, {feat/Iron Will}, @hll[rule/Powerful Maneuvers], {feat/Prodigy}, {feat/Skill Focus} (Acrobatics), Skill Focus (Perception), {feat/Toughness}",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** The DCs of your sorcerer spells increase by 2 against creatures that are suffering ongoing fire damage.",
 			"",
@@ -1651,7 +1839,8 @@
 		"name": "Shadow",
 		"sources": [
 			"Advanced Player's Guide",
-			"Ultimate Magic"
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Shadow",
@@ -1664,6 +1853,13 @@
 			"**Bonus Spells:** {spell/ray of enfeeblement} (3rd), {spell/darkvision} (5th), {spell/deeper darkness} (7th), {spell/shadow conjuration} (9th), {spell/shadow evocation} (11th), {spell/shadow walk} (13th), {spell/power word blind} (15th), {spell/greater shadow evocation} (17th), {spell/shades} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Acrobatic}, {feat/Blind-Fight}, {feat/Dodge}, {feat/Quick Draw}, {feat/Silent Spell}, {feat/Skill Focus} (Stealth), {feat/Stealthy}, {feat/Weapon Finesse}",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"@hll[feat/Agile Combatant], {feat/Acrobatic}, {feat/Blind-Fight}, {feat/Dodge}, {feat/Quick Draw}, {feat/Silent Spell}, {feat/Skill Focus} (Stealth), {feat/Stealthy}",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell with the darkness descriptor or the shadow subschool, you gain a circumstance bonus on Stealth checks equal to the spell's level for 1d4 rounds.",
 			"",
@@ -1694,7 +1890,10 @@
 	},
 	"shaitan": {
 		"name": "Shaitan",
-		"sources": [ "Ultimate Magic" ],
+		"sources": [
+			"Ultimate Magic",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Shaitan",
 			"",
@@ -1706,6 +1905,13 @@
 			"**Bonus Spells:** {spell/true strike} (3rd), {spell/glitterdust} (5th), {spell/greater magic weapon} (7th), {spell/stoneskin} (9th), {spell/wall of stone} (11th), {spell/wall of iron} (13th), {spell/plane shift} (15th), {spell/iron body} (17th), {spell/wish} (19th).",
 			"",
 			"**Bonus Feats:** {feat/Dodge}, {feat/Empower Spell}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Skill Focus} (Knowledge [planes]), {feat/Weapon Finesse})",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"@hll[feat/Agile Combatant], {feat/Dodge}, {feat/Empower Spell}, {feat/Great Fortitude}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, @hll[rule/Powerful Maneuvers], {feat/Skill Focus} (Knowledge [planes])",
+			"",
+			":::",
 			"",
 			"**Bloodline Arcana:** Whenever you cast a spell that deals energy damage, you can change the type of damage to acid. This effect also changes the spell's descriptors to match this energy type.",
 			"",

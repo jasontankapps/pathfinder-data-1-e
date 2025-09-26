@@ -932,7 +932,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Dazzling Display (Combat)",
@@ -954,7 +955,16 @@
 			"",
 			"You can quickly deter others with your martial mastery.  ",
 			"**Prerequisites:** Dazzling Display.  ",
-			"**Benefit:** While wielding the weapon with which you have Weapon Focus, you can use Dazzling Display as a standard action with a -5 penalty on your Intimidate check, as a move action with a -10 penalty, or as a swift action with a -20 penalty. You can expend one use of mythic power when you make a Dazzling Display to make those affected by the display {misc/frightened} rather than shaken."
+			"**Benefit:** While wielding the weapon with which you have Weapon Focus, you can use Dazzling Display as a standard action with a -5 penalty on your Intimidate check, as a move action with a -10 penalty, or as a swift action with a -20 penalty. You can expend one use of mythic power when you make a Dazzling Display to make those affected by the display {misc/frightened} rather than shaken.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Your skill with your favored weapon can frighten enemies.  ",
+			"**Prerequisites:** {feat/Weapon Focus}.  ",
+			"**Benefit:** While wielding a weapon from the group in which you have Weapon Focus, you can perform a bewildering show of prowess as a full-round action. Make an {skill/Intimidate} check to demoralize all foes within 30 feet who can see your display.",
+			"",
+			":::"
 		]
 	},
 	"dead_inside": {
@@ -1018,7 +1028,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Deadly Aim (Combat)",
@@ -1040,7 +1051,14 @@
 			"",
 			"Your aim is truly devastating.  ",
 			"**Prerequisites:** Deadly Aim.  ",
-			"**Benefit:** When you use Deadly Aim, you gain a +3 bonus on ranged damage rolls instead of +2. When your base attack bonus reaches +4, and every +4 thereafter, the bonus on ranged damage rolls increases by +3 rather than +2."
+			"**Benefit:** When you use Deadly Aim, you gain a +3 bonus on ranged damage rolls instead of +2. When your base attack bonus reaches +4, and every +4 thereafter, the bonus on ranged damage rolls increases by +3 rather than +2.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with the [Risky Strike](rule/combat_errata) action.",
+			"",
+			":::"
 		]
 	},
 	"deadly_dealer": {
@@ -1132,7 +1150,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Deadly Stroke (Combat)",
@@ -1154,7 +1173,16 @@
 			"",
 			"You can kill with a single stroke.  ",
 			"**Prerequisites:** Deadly Stroke.  ",
-			"**Benefit:** When making a Deadly Stroke attack, you can expend one use of mythic power to instantly kill a non-mythic living creature. A Fortitude save (DC 10 + your base attack bonus + your tier) negates this effect, though the attack still deals double damage and Con bleed as Deadly Stroke. Constructs, oozes, and creatures immune to critical hits or {misc/precision[-based] damage} can't be killed with this feat."
+			"**Benefit:** When making a Deadly Stroke attack, you can expend one use of mythic power to instantly kill a non-mythic living creature. A Fortitude save (DC 10 + your base attack bonus + your tier) negates this effect, though the attack still deals double damage and Con bleed as Deadly Stroke. Constructs, oozes, and creatures immune to critical hits or {misc/precision[-based] damage} can't be killed with this feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"With a well-placed strike, you can bring a swift and painful end to most foes.  ",
+			"**Prerequisites:** {feat/Dazzling Display}, {feat/Greater Weapon Focus}, {feat/Shatter Defenses}, base attack bonus +11.  ",
+			"**Benefit:** As a standard action, make a single attack with the weapon from the group in which you have Greater Weapon Focus against a {misc/stunned} or {rule/flat-footed} opponent. If you hit, you deal double the normal damage and the target takes 1 point of Constitution {rule/bleed}. The additional damage and bleed is not multiplied on a critical hit.",
+			"",
+			":::"
 		]
 	},
 	"deadly_trap": {
@@ -1197,7 +1225,7 @@
 			"Your critical hits cause enemies to lose their hearing.  ",
 			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +13.  ",
 			"**Benefit:** Whenever you score a critical hit against an opponent, the victim is permanently {misc/deafened}. A successful Fortitude save reduces the deafness to 1 round. The DC of this Fortitude save is equal to 10 + your base attack bonus. This feat has no effect on deaf creatures. This deafness can be cured by {spell/heal}, {umr/regeneration}, {spell/remove deafness}, or a similar ability.  ",
-			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess {feat/Critical Mastery}.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/116}",
@@ -1674,7 +1702,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Deflect Arrows (Combat)",
@@ -1700,7 +1729,8 @@
 			"",
 			":::elephant",
 			"",
-			"You can knock arrows and other projectiles off course, preventing them from hitting you.  ",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can knock arrows and other projectiles off course, preventing them from hitting you.  ",
 			"**Prerequisites:** Dex 13, {rule/Unarmed Combatant} or {feat/Shield Focus}.  ",
 			"**Benefit:** Once per round when you would normally be hit with an attack from a ranged weapon, you may deflect it so that you take no damage from it. You must be aware of the attack and not flat-footed. Attempting to deflect a ranged attack doesn't count as an action. Unusually massive ranged weapons (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects can't be deflected.",
 			"",

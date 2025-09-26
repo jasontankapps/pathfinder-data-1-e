@@ -318,7 +318,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Dodge (Combat)",
@@ -344,7 +345,8 @@
 			"",
 			":::elephant",
 			"",
-			"Your training and reflexes allow you to react swiftly to avoid an opponents' attacks.  ",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Your training and reflexes allow you to react swiftly to avoid an opponents' attacks.  ",
 			"**Prerequisites:** Dex 13.  ",
 			"**Benefit:** You gain a +1 dodge bonus to your AC. This bonus increases to +5 against attacks of opportunity caused when you move out of or within a threatened tile. A condition that makes you lose your Dex bonus to AC also makes you lose the benefits of this feat.",
 			"",
@@ -2145,7 +2147,10 @@
 	},
 	"elemental_spell": {
 		"name": "Elemental Spell",
-		"sources": [ "Advanced Player's Guide" ],
+		"sources": [
+			"Advanced Player's Guide",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Elemental Spell (Metamagic)",
 			"",
@@ -2153,7 +2158,15 @@
 			"",
 			"You can manipulate the elemental nature of your spells.  ",
 			"**Benefit:** Choose one energy type: acid, cold, electricity, or fire. You may replace a spell's normal damage with that energy type or split the spell's damage, so that half is of that energy type and half is of its normal type. An elemental spell uses up a spell slot one level higher than the spell's actual level.  ",
-			"**Special:** You can gain this feat multiple times. Each time you must choose a different energy type."
+			"**Special:** You can gain this feat multiple times. Each time you must choose a different energy type.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can manipulate the elemental nature of your spells.  ",
+			"**Benefit:** Choose one energy type: acid, cold, electricity, or fire. You may replace a spell's normal damage with that energy type or split the spell's damage, so that half is of that energy type and half is of its normal type. An elemental spell uses up a spell slot one level higher than the spell's actual level.",
+			"",
+			":::"
 		]
 	},
 	"elemental_strike": {

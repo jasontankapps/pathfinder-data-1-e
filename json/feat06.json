@@ -826,7 +826,7 @@
 			"Your critical hits cause opponents to become exhausted.  ",
 			"**Prerequisites:** {feat/Critical Focus}, {feat/Tiring Critical}, base attack bonus +15.  ",
 			"**Benefit:** When you score a critical hit on a foe, your target immediately becomes {misc/exhausted}. This feat has no effect on exhausted creatures.  ",
-			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess the Critical Mastery feat.",
+			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess the {feat/Critical Mastery} feat.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/119}",
@@ -887,7 +887,10 @@
 	},
 	"exotic_weapon_proficiency": {
 		"name": "Exotic Weapon Proficiency",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Exotic Weapon Proficiency (Combat)",
 			"",
@@ -897,7 +900,14 @@
 			"**Prerequisites:** Base attack bonus +1.  ",
 			"**Benefit:** You make attack rolls with the weapon normally.  ",
 			"**Normal:** A character who uses a weapon with which he is not proficient takes a -4 penalty on attack rolls.  ",
-			"**Special:** You can gain Exotic Weapon Proficiency multiple times. Each time you take the feat, it applies to a new type of exotic weapon."
+			"**Special:** You can gain Exotic Weapon Proficiency multiple times. Each time you take the feat, it applies to a new type of exotic weapon.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with the new {rule/Weapon Proficiency} feat.",
+			"",
+			":::"
 		]
 	},
 	"expanded_arcana": {
@@ -2811,7 +2821,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Far Shot (Combat)",
@@ -2834,7 +2845,17 @@
 			"",
 			"You make long-ranged attacks with remarkable accuracy.  ",
 			"**Prerequisites:** Far Shot.  ",
-			"**Benefit:** As a swift action, you can expend one use of mythic power to ignore all range increment penalties for your ranged attacks until the end of your turn."
+			"**Benefit:** As a swift action, you can expend one use of mythic power to ignore all range increment penalties for your ranged attacks until the end of your turn.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You are more accurate at longer ranges.  ",
+			"**Prerequisites:** {feat/Precise Shot}.  ",
+			"**Benefit:** You only suffer a -1 penalty per full range increment between you and your target when using a ranged weapon.  ",
+			"**Normal:** You suffer a -2 penalty per full range increment between you and your target.",
+			"",
+			":::"
 		]
 	},
 	"far_roaming_familiar": {

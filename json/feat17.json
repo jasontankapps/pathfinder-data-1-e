@@ -1450,7 +1450,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Weapon Finesse (Combat)",
@@ -1483,7 +1484,14 @@
 			"",
 			"You're an expert with weapons that rely on your agility.  ",
 			"**Prerequisites:** Weapon Finesse.  ",
-			"**Benefit:** When using Weapon Finesse, you may also use your Dexterity modifier instead of your Strength modifier on your damage rolls. If you carry a shield, its armor check penalty doesn't apply to either the attack rolls or the damage rolls."
+			"**Benefit:** When using Weapon Finesse, you may also use your Dexterity modifier instead of your Strength modifier on your damage rolls. If you carry a shield, its armor check penalty doesn't apply to either the attack rolls or the damage rolls.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"The Weapon Finesse feat has been removed, and now any character may choose to use their dexterity bonus to hit with light melee weapons. As a consequence, the Light Melee Weapons designation has been renamed to {rule/Finesse} Melee Weapons. A new special weapon feature called [agile](rule/equipment_errata) has been added for melee weapons that are one-handed or two-handed but can still be finessed, such as the {eq-weapon/rapier}.",
+			"",
+			":::"
 		]
 	},
 	"weapon_focus": {
@@ -1491,7 +1499,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Weapon Focus (Combat)",
@@ -1515,7 +1524,17 @@
 			"You're a master of one type of weapon.  ",
 			"**Prerequisites:** Weapon Focus.  ",
 			"**Benefit:** Double the bonuses on your attack rolls from Weapon Focus and {feat/Greater Weapon Focus}. As a swift action, you can expend one use of mythic power to gain a bonus on attack rolls with your selected weapon equal to half your tier until the end of your turn.  ",
-			"**Special:** If you have taken non-mythic Weapon Focus multiple times, you must choose which of those feats this enhances. You can take this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Weapon Focus feat you have."
+			"**Special:** If you have taken non-mythic Weapon Focus multiple times, you must choose which of those feats this enhances. You can take this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Weapon Focus feat you have.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Choose one {ability/weapon group>s} listed under the fighter's Weapon Training class feature.",
+			"**Prerequisites:** Proficiency with at least one weapon from the selected weapon group, base attack bonus +1.  ",
+			"**Benefit:** You gain a +1 bonus on all attack rolls you make using any weapon from the selected group.  ",
+			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new weapon group.",
+			"",
+			":::"
 		]
 	},
 	"weapon_material_mastery": {
@@ -1588,7 +1607,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Weapon Specialization (Combat)",
@@ -1612,7 +1632,17 @@
 			"The damage you deal with your chosen weapon is truly awesome to behold.  ",
 			"**Prerequisites:** Weapon Specialization.  ",
 			"**Benefit:** When using your chosen weapon, you gain a bonus equal to half your tier on damage rolls. This stacks with the bonus from Weapon Specialization and {feat/Greater Weapon Specialization}.  ",
-			"**Special:** If you have taken non-mythic Weapon Specialization multiple times, you must choose which of those feats this enhances. You can take this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Weapon Specialization feat you have."
+			"**Special:** If you have taken non-mythic Weapon Specialization multiple times, you must choose which of those feats this enhances. You can take this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Weapon Specialization feat you have.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You are skilled at dealing damage with one type of weapon. Choose one {ability/weapon group>s} listed under the fighter's Weapon Training class feature for which you have already selected the Weapon Focus feat. You deal extra damage when using these weapons.  ",
+			"**Prerequisites:** {feat/Weapon Focus} with selected weapon group, fighter level 4th.  ",
+			"**Benefit:** You gain a +2 bonus on all damage rolls you make using the selected weapon.  ",
+			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new weapon group.",
+			"",
+			":::"
 		]
 	},
 	"weapon_style_mastery": {
@@ -1991,7 +2021,8 @@
 		"name": "Whirlwind Attack",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Whirlwind Attack (Combat)",
@@ -2007,7 +2038,18 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/135}",
 			">",
-			">When using this feat, you can spend stamina points to still take bonus or extra attacks granted by other feats, spells, or abilities. You must spend 5 stamina points per extra attack you take in this way. This combat trick allows you to make extra attacks to which you have access - it doesn't by itself grant extra attacks."
+			">When using this feat, you can spend stamina points to still take bonus or extra attacks granted by other feats, spells, or abilities. You must spend 5 stamina points per extra attack you take in this way. This combat trick allows you to make extra attacks to which you have access - it doesn't by itself grant extra attacks.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can strike out at every foe within reach.  ",
+			"**Prerequisites:** Dex 13, Int 13, {feat/Combat Expertise}, {feat/Dodge}, {feat/Spring Attack}, base attack bonus +4.  ",
+			"**Benefit:** When you use the full-attack action, you can give up your regular attacks and instead make one melee attack at your highest base attack bonus against each opponent within reach. You must make a separate attack roll against each opponent.",
+			"",
+			"When you use the Whirlwind Attack feat, you also forfeit any bonus or extra attacks granted by other feats, spells, or abilities.",
+			"",
+			":::"
 		]
 	},
 	"whispered_knowledge": {

@@ -18,7 +18,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"Advanced Player's Guide",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Dirty Trick (Combat)",
@@ -43,7 +44,14 @@
 			"**Prerequisites:** Improved Dirty Trick.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to attempt a dirty trick, and to your CMD when an opponent attempts to perform a dirty trick on you. These bonuses stack with those granted by Improved Dirty Trick.",
 			"",
-			"Furthermore, you can make an attack of opportunity against any creature that attempts a dirty trick maneuver against you, unless it also has this feat."
+			"Furthermore, you can make an attack of opportunity against any creature that attempts a dirty trick maneuver against you, unless it also has this feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat **may** be removed, replaced with the new {rule/Deft Maneuvers} feat.",
+			"",
+			":::"
 		]
 	},
 	"improved_disarm": {
@@ -51,7 +59,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Disarm (Combat)",
@@ -76,7 +85,14 @@
 			"**Prerequisites:** Improved Disarm.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to disarm, and to your CMD when an opponent tries to disarm you. These bonuses stack with those granted by Improved Disarm.",
 			"",
-			"Furthermore, you can make an attack of opportunity against any creature that attempts to disarm you, unless it also has this feat."
+			"Furthermore, you can make an attack of opportunity against any creature that attempts to disarm you, unless it also has this feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with the new {rule/Deft Maneuvers} feat.",
+			"",
+			":::"
 		]
 	},
 	"improved_disarm_partner": {
@@ -97,7 +113,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"Advanced Player's Guide",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Drag (Combat)",
@@ -122,7 +139,14 @@
 			"**Prerequisites:** Improved Drag.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to attempt a drag combat maneuver, and to your CMD when an opponent attempts a drag combat maneuver against you. These bonuses stack with those granted by Improved Drag.",
 			"",
-			"Furthermore, you can make an attack of opportunity against any creature that attempts a drag maneuver against you, unless it also has this feat."
+			"Furthermore, you can make an attack of opportunity against any creature that attempts a drag maneuver against you, unless it also has this feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat **may** be removed, replaced with the new {rule/Powerful Maneuvers} feat.",
+			"",
+			":::"
 		]
 	},
 	"improved_drow_nobility": {
@@ -222,7 +246,8 @@
 		"name": "Improved Feint",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Feint (Combat)",
@@ -237,7 +262,14 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/123}",
 			">",
-			">You can select this feat even if you don't meet the Ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 5 stamina points to feint as a move action."
+			">You can select this feat even if you don't meet the Ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 5 stamina points to feint as a move action.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with the new {rule/Deft Maneuvers} feat.",
+			"",
+			":::"
 		]
 	},
 	"improved_feint_partner": {
@@ -366,7 +398,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Grapple (Combat)",
@@ -391,7 +424,14 @@
 			"**Prerequisites:** Improved Grapple.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to grapple, and to your CMD when an opponent tries to grapple you. These bonuses stack with those granted by Improved Grapple.",
 			"",
-			"Furthermore, you can make an attack of opportunity against any creature that attempts to grapple you, unless it also has this feat."
+			"Furthermore, you can make an attack of opportunity against any creature that attempts to grapple you, unless it also has this feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with the new {rule/Unarmed Combatant} feat.",
+			"",
+			":::"
 		]
 	},
 	"improved_great_fortitude": {
@@ -738,7 +778,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Overrun (Combat)",
@@ -763,7 +804,14 @@
 			"**Prerequisites:** Improved Overrun.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to overrun, and to your CMD when an opponent tries to overrun you. These bonuses stack with those granted by Improved Overrun.",
 			"",
-			"Furthermore, you can make an attack of opportunity against any creature that attempts to overrun you, unless it also has this feat."
+			"Furthermore, you can make an attack of opportunity against any creature that attempts to overrun you, unless it also has this feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with the new {rule/Powerful Maneuvers} feat.",
+			"",
+			":::"
 		]
 	},
 	"improved_parry": {
@@ -932,7 +980,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"Advanced Player's Guide",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Reposition (Combat)",
@@ -957,7 +1006,14 @@
 			"**Prerequisites:** Improved Reposition.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to attempt a reposition combat maneuver, and to your CMD when an opponent attempts to perform a reposition combat maneuver against you. These bonuses stack with those granted by Improved Reposition.",
 			"",
-			"Furthermore, you can make an attack of opportunity against any creature that attempts to reposition you, unless it also has this feat."
+			"Furthermore, you can make an attack of opportunity against any creature that attempts to reposition you, unless it also has this feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat **may** be removed, replaced with the new {rule/Deft Maneuvers} feat.",
+			"",
+			":::"
 		]
 	},
 	"improved_roar": {
@@ -1172,7 +1228,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"Advanced Player's Guide",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Steal (Combat)",
@@ -1197,7 +1254,14 @@
 			"**Prerequisites:** Improved Steal.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to attempt a steal combat maneuver, and to your CMD when an opponent attempts a steal combat maneuver on you. These bonuses stack with those granted by Improved Steal.",
 			"",
-			"Furthermore, you can make an attack of opportunity against any creature that attempts a steal maneuver against, you unless it also has this feat."
+			"Furthermore, you can make an attack of opportunity against any creature that attempts a steal maneuver against, you unless it also has this feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat **may** be removed, replaced with the new {rule/Deft Maneuvers} feat.",
+			"",
+			":::"
 		]
 	},
 	"improved_stellar_wanderer": {
@@ -1268,7 +1332,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Sunder (Combat)",
@@ -1293,7 +1358,14 @@
 			"**Prerequisites:** Improved Sunder.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to sunder, and to your CMD when an opponent tries to sunder an object used by you. These bonuses stack with those granted by Improved Sunder.",
 			"",
-			"Furthermore, you can make an attack of opportunity against any creature that attempts to sunder an object used by you, unless it also has this feat."
+			"Furthermore, you can make an attack of opportunity against any creature that attempts to sunder an object used by you, unless it also has this feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with the new {rule/Powerful Maneuvers} feat.",
+			"",
+			":::"
 		]
 	},
 	"improved_surprise_follow_through": {
@@ -1371,7 +1443,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Trip (Combat)",
@@ -1396,7 +1469,14 @@
 			"**Prerequisites:** Improved Trip.  ",
 			"**Benefit:** You gain a bonus equal to half your tier on checks to trip, and to your CMD when an opponent tries to trip you. These bonuses stack with those granted by Improved Trip.",
 			"",
-			"Furthermore, you can make an attack of opportunity against any creature that attempts to trip you, unless it also has this feat."
+			"Furthermore, you can make an attack of opportunity against any creature that attempts to trip you, unless it also has this feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with the new {rule/Deft Maneuvers} feat.",
+			"",
+			":::"
 		]
 	},
 	"improved_two_weapon_feint": {
@@ -1424,7 +1504,8 @@
 		"name": "Improved Two-Weapon Fighting",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Two-Weapon Fighting (Combat)",
@@ -1439,7 +1520,14 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/124}",
 			">",
-			">When making an attack of opportunity, you can spend 5 stamina points to also make an attack of opportunity with your off-hand weapon. That second attack takes a -5 penalty."
+			">When making an attack of opportunity, you can spend 5 stamina points to also make an attack of opportunity with your off-hand weapon. That second attack takes a -5 penalty.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with a modified {feat/Greater Two-Weapon Fighting} feat.",
+			"",
+			":::"
 		]
 	},
 	"improved_umbral_scion": {
@@ -1460,7 +1548,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improved Unarmed Strike (Combat)",
@@ -1482,7 +1571,14 @@
 			"",
 			"Your unarmed strikes are more powerful than others.  ",
 			"**Prerequisites:** Improved Unarmed Strike.  ",
-			"**Benefit:** You can add half your tier to your damage with unarmed strikes. As a swift action, you can expend one use of mythic power to overcome the hardness of objects with your unarmed strikes. This effect last for a number of rounds equal to your tier. If an object's hardness is greater than 15, you don't ignore any of its hardness."
+			"**Benefit:** You can add half your tier to your damage with unarmed strikes. As a swift action, you can expend one use of mythic power to overcome the hardness of objects with your unarmed strikes. This effect last for a number of rounds equal to your tier. If an object's hardness is greater than 15, you don't ignore any of its hardness.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with the new {rule/Unarmed Combatant} feat.",
+			"",
+			":::"
 		]
 	},
 	"improved_uncivilized_tactics": {
@@ -1658,7 +1754,8 @@
 		"name": "Improvised Weapon Mastery",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Improvised Weapon Mastery (Combat)",
@@ -1676,7 +1773,8 @@
 			"",
 			":::elephant",
 			"",
-			"You can turn nearly any object into a deadly weapon, from a razor-sharp chair leg to a sack of flour.  ",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can turn nearly any object into a deadly weapon, from a razor-sharp chair leg to a sack of flour.  ",
 			"**Prerequisites:** {rule/Unarmed Combatant}, Catch Off-Guard, base attack bonus +6.  ",
 			"**Benefit:** Increase the amount of damage dealt by an improvised weapon by one step (for example, 1d4 becomes 1d6) to a maximum of 1d8 (2d6 if the improvised weapon is two-handed). The improvised weapon has a critical threat range of 19-20, with a critical multiplier of &times;2.",
 			"",

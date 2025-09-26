@@ -575,7 +575,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Shatter Defenses (Combat)",
@@ -597,7 +598,16 @@
 			"",
 			"Your dazzling attacks leave your opponents flummoxed and bewildered, unable to attack you or to defend themselves effectively.  ",
 			"**Prerequisites:** Shatter Defenses.  ",
-			"**Benefit:** An opponent you affect with Shatter Defenses is flat-footed to all attacks, not just yours."
+			"**Benefit:** An opponent you affect with Shatter Defenses is flat-footed to all attacks, not just yours.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Your skill with your chosen weapon group leaves opponents unable to defend themselves if you strike them when their defenses are already compromised.  ",
+			"**Prerequisites:** {feat/Dazzling Display}, base attack bonus +6.  ",
+			"**Benefit:** Any {misc/shaken}, {misc/frightened}, or {misc/panicked} opponent hit by you this round is {rule/flat-footed} to your attacks until the end of your next turn. This includes any additional attacks you make this round.",
+			"",
+			":::"
 		]
 	},
 	"shatter_mental_mask": {
@@ -687,7 +697,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Shield Focus (Combat)",
@@ -713,7 +724,8 @@
 			"",
 			":::elephant",
 			"",
-			"You are skilled at deflecting blows with your shield.  ",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You are skilled at deflecting blows with your shield.  ",
 			"**Prerequisites:** {feat/Shield Proficiency}, base attack bonus +1.  ",
 			"**Benefit:** Increase the AC bonus granted by any shield you are using by 1. This bonus increases to 5 against ranged attacks (not including spell effects, natural attacks, or massive ranged weapons).",
 			"",
@@ -737,7 +749,8 @@
 		"name": "Shield Master",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Shield Master (Combat)",
@@ -751,7 +764,16 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
 			">",
-			">Just before you roll a Fortitude or Reflex saving throw, you can spend 5 stamina points to add your shield's enhancement bonus as a bonus on the saving throw."
+			">Just before you roll a Fortitude or Reflex saving throw, you can spend 5 stamina points to add your shield's enhancement bonus as a bonus on the saving throw.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Your mastery of the shield allows you to fight with it without hindrance.  ",
+			"**Prerequisites:** {feat/Improved Shield Bash}, {feat/Shield Proficiency}, {feat/Shield Slam}, {feat/Two-Weapon Fighting}, base attack bonus +11.  ",
+			"**Benefit:** You do not suffer any penalties on attack rolls made with a shield while you are wielding another weapon. Add your shield's enhancement bonus to attacks and damage rolls made with the shield as if it was a weapon enhancement bonus.",
+			"",
+			":::"
 		]
 	},
 	"shield_material_expertise": {
@@ -826,7 +848,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Shield Slam (Combat)",
@@ -848,7 +871,16 @@
 			"",
 			"Your shield bash produces a powerful kick.  ",
 			"**Prerequisites:** Shield Slam.  ",
-			"**Benefit:** When using Shield Slam to bull rush, an opponent knocked prone because of an intervening wall or other surface also takes damage from the collision. The damage dealt is equal to 1d6 points per 2 tiers you possess. As an immediate action, you can expend one use of mythic power to add your tier to your combat maneuver checks when resolving a bull rush made due to Shield Slam."
+			"**Benefit:** When using Shield Slam to bull rush, an opponent knocked prone because of an intervening wall or other surface also takes damage from the collision. The damage dealt is equal to 1d6 points per 2 tiers you possess. As an immediate action, you can expend one use of mythic power to add your tier to your combat maneuver checks when resolving a bull rush made due to Shield Slam.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"In the right position, your shield can be used to send opponents flying.  ",
+			"**Prerequisites:** {feat/Improved Shield Bash}, {feat/Shield Proficiency}, {feat/Two-Weapon Fighting}, base attack bonus +6.  ",
+			"**Benefit:** Any opponents hit by your shield bash are also hit with a free {rule/bull rush} attack, substituting your attack roll for the combat maneuver check. This bull rush does not provoke an attack of opportunity. Opponents who cannot move back due to a wall or other surface are knocked {rule/prone} after moving the maximum possible distance. You may choose to move with your target if you are able to take a 5-foot step or to spend an action to move this turn.",
+			"",
+			":::"
 		]
 	},
 	"shield_snag": {
@@ -1160,7 +1192,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Shot on the Run (Combat)",
@@ -1183,7 +1216,17 @@
 			"",
 			"With ease, you can snap off two shots while dashing across the battlefield.  ",
 			"**Prerequisites:** Shot on the Run, base attack bonus +6.  ",
-			"**Benefit:** Whenever you use Shot on the Run, you can make two ranged attacks at your highest base attack bonus at any point during your movement, instead of just one."
+			"**Benefit:** Whenever you use Shot on the Run, you can make two ranged attacks at your highest base attack bonus at any point during your movement, instead of just one.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can move, fire a ranged weapon, and move again before your foes can react.  ",
+			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Precise Shot}, base attack bonus +4.  ",
+			"**Benefit:** As a full-round action, you can move up to your speed and make a single ranged attack at any point during your movement.  ",
+			"**Normal:** You cannot move before and after an attack with a ranged weapon.",
+			"",
+			":::"
 		]
 	},
 	"shrapnel_strike": {
@@ -1260,7 +1303,7 @@
 			"Your critical hits cause opponents to become sickened.  ",
 			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +11.  ",
 			"**Benefit:** Whenever you score a critical hit, your opponent becomes {misc/sickened} for 1 minute. The effects of this feat do not stack. Additional hits instead add to the effect's duration.  ",
-			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess {feat/Critical Mastery}.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/131}",
@@ -2499,7 +2542,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Snatch Arrows (Combat)",
@@ -2523,7 +2567,18 @@
 			"",
 			"You can use the weapons you pluck from the air to immediately make melee attacks.  ",
 			"**Prerequisites:** Snatch Arrows.  ",
-			"**Benefit:** When you use Snatch Arrows to catch a thrown weapon that can also be used as a melee weapon, you can make a melee attack with it as an immediate action against a foe within the weapon's melee reach. You can expend one use of mythic power to make this attack without spending an immediate action."
+			"**Benefit:** When you use Snatch Arrows to catch a thrown weapon that can also be used as a melee weapon, you can make a melee attack with it as an immediate action against a foe within the weapon's melee reach. You can expend one use of mythic power to make this attack without spending an immediate action.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Instead of knocking an arrow or ranged attack aside, you can catch it in mid-flight.  ",
+			"**Prerequisites:** Dex 15, {feat/Deflect Arrows}, {rule/Unarmed Combatant}.  ",
+			"**Benefit:** When using the Deflect Arrows feat you may choose to catch the weapon instead of just deflecting it. Thrown weapons can immediately be thrown back as an attack against the original attacker (even though it isn't your turn) or kept for later use.",
+			"",
+			"You must have at least one hand free (holding nothing) to use this feat.",
+			"",
+			":::"
 		]
 	},
 	"sneaking_critical": {

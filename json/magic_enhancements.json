@@ -2328,7 +2328,8 @@
 		"name": "Agile",
 		"sources": [
 			"Pathfinder #100: A Song of Silver",
-			"Pathfinder Society Field Guide"
+			"Pathfinder Society Field Guide",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Agile",
@@ -2341,7 +2342,16 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cat's grace}; **Price** -"
+			"**Requirements** {feat/Craft Magic Arms and Armor}, {spell/cat's grace}; **Price** -",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can apply your Dexterity modifier instead of your Strength modifier to attack rolls when wielding an agile weapon sized for you, even though it isn't a {rule/finesse} weapon.",
+			"",
+			"This is a weapon quality, rather than a magical enhancement.",
+			"",
+			":::"
 		]
 	},
 	"allying": {

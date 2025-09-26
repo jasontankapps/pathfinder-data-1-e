@@ -3974,7 +3974,8 @@
 		"name": "Rapier",
 		"sources": [
 			"Ultimate Equipment",
-			"PRPG Core Rulebook"
+			"PRPG Core Rulebook",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Rapier",
@@ -3985,7 +3986,16 @@
 			"**Cost** 20 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**{ability/Weapon Group>s}** Blades, Light"
+			"**{ability/Weapon Group>s}** Blades, Light",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"The rapier has the [*agile* weapon quality](rule/equipment_errata).",
+			"",
+			"You can apply your Dexterity modifier instead of your Strength modifier to attack rolls when wielding an agile weapon sized for you, even though it isn't a {rule/finesse} weapon.",
+			"",
+			":::"
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},

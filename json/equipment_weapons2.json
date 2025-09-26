@@ -1938,7 +1938,8 @@
 		"name": "Whip",
 		"sources": [
 			"Ultimate Equipment",
-			"PRPG Core Rulebook"
+			"PRPG Core Rulebook",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Whip",
@@ -1953,7 +1954,16 @@
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** {misc/disarm}, {misc/nonlethal}, {misc/reach}, {misc/trip}  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**{ability/Weapon Group>s}** Flails"
+			"**{ability/Weapon Group>s}** Flails",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"The whip has the [*agile* weapon quality](rule/equipment_errata).",
+			"",
+			"You can apply your Dexterity modifier instead of your Strength modifier to attack rolls when wielding an agile weapon sized for you, even though it isn't a {rule/finesse} weapon.",
+			"",
+			":::"
 		],
 		"topLink": [ "One-Handed Weapons", "main/equipment_weapons_one_handed" ]
 	},
@@ -2240,7 +2250,8 @@
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Campaign Setting",
-			"PRPG Core Rulebook"
+			"PRPG Core Rulebook",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Elven curve blade",
@@ -2253,7 +2264,16 @@
 			"**Cost** 80 gp **Weight** 7 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**{ability/Weapon Group>s}** Blades, Heavy"
+			"**{ability/Weapon Group>s}** Blades, Heavy",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"The Elven curved blade has the [*agile* weapon quality](rule/equipment_errata).",
+			"",
+			"You can apply your Dexterity modifier instead of your Strength modifier to attack rolls when wielding an agile weapon sized for you, even though it isn't a {rule/finesse} weapon.",
+			"",
+			":::"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
@@ -2677,7 +2697,8 @@
 		"name": "Spiked chain",
 		"sources": [
 			"Ultimate Equipment",
-			"PRPG Core Rulebook"
+			"PRPG Core Rulebook",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Spiked chain",
@@ -2688,7 +2709,16 @@
 			"**Cost** 25 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** {misc/disarm}, {misc/trip}  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**{ability/Weapon Group>s}** Flails"
+			"**{ability/Weapon Group>s}** Flails",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"The spiked chain has the [*agile* weapon quality](rule/equipment_errata).",
+			"",
+			"You can apply your Dexterity modifier instead of your Strength modifier to attack rolls when wielding an agile weapon sized for you, even though it isn't a {rule/finesse} weapon.",
+			"",
+			":::"
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},

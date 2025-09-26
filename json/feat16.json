@@ -870,7 +870,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Throw Anything (Combat)",
@@ -892,7 +893,14 @@
 			"",
 			"You're so skilled at throwing weapons that it hardly matters what you throw.  ",
 			"**Prerequisites:** Throw Anything.  ",
-			"**Benefit:** You gain a +2 bonus on attack rolls and damage rolls made using an improvised thrown weapon or splash weapon. This bonus stacks with the bonus from the non-mythic Throw Anything feat. If you miss with a thrown splash weapon, it always lands adjacent to its target regardless of how many range increments it was thrown."
+			"**Benefit:** You gain a +2 bonus on attack rolls and damage rolls made using an improvised thrown weapon or splash weapon. This bonus stacks with the bonus from the non-mythic Throw Anything feat. If you miss with a thrown splash weapon, it always lands adjacent to its target regardless of how many range increments it was thrown.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been merged into {feat/Catch-Off Guard} feat.",
+			"",
+			":::"
 		]
 	},
 	"throw_back_arrows": {
@@ -1075,7 +1083,7 @@
 			"Your critical hits cause opponents to become fatigued.  ",
 			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +13.  ",
 			"**Benefit:** Whenever you score a critical hit, your opponent becomes {misc/fatigued}. This feat has no additional effect on a fatigued or exhausted creature.  ",
-			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess {feat/Critical Mastery}.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/134}",
@@ -2477,7 +2485,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Two-Weapon Defense (Combat)",
@@ -2486,7 +2495,7 @@
 			"",
 			"You are skilled at defending yourself while dual-wielding.  ",
 			"**Prerequisites:** Dex 15, {feat/Two-Weapon Fighting}.  ",
-			"**Benefit:** When wielding a double weapon or two weapons (not including natural weapons or unarmed strikes), you gain a +1 shield bonus to your AC. When you are {misc/fighting defensively} or using the {misc/total defense} action, this shield bonus increases to +2.",
+			"**Benefit:** When wielding a {misc/double} weapon or two weapons (not including natural weapons or unarmed strikes), you gain a +1 shield bonus to your AC. When you are {misc/fighting defensively} or using the {misc/total defense} action, this shield bonus increases to +2.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/135}",
@@ -2499,7 +2508,16 @@
 			"",
 			"Your graceful flow between attack and defense makes you difficult to hit.  ",
 			"**Prerequisites:** Two-Weapon Defense.  ",
-			"**Benefit:** When using Two-Weapon Defense, you apply the highest enhancement bonus from your two weapons to the shield bonus granted by that feat."
+			"**Benefit:** When using Two-Weapon Defense, you apply the highest enhancement bonus from your two weapons to the shield bonus granted by that feat.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You are skilled at defending yourself while dual-wielding.  ",
+			"**Prerequisites:** Dex 15, {feat/Two-Weapon Fighting}.  ",
+			"**Benefit:** When wielding a double weapon or two weapons (not including natural weapons or unarmed strikes), you gain a +1 shield bonus to your AC. When you are using [defensive stance](rule/combat_errata) or using the {misc/total defense} action, this shield bonus increases to +2.",
+			"",
+			":::"
 		]
 	},
 	"two_weapon_drunkard": {
@@ -2545,7 +2563,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Two-Weapon Fighting (Combat)",
@@ -2572,7 +2591,8 @@
 			"",
 			":::elephant",
 			"",
-			"You can fight with a weapon wielded in each of your hands. You can make one extra attack each round with the secondary weapon.  ",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can fight with a weapon wielded in each of your hands. You can make one extra attack each round with the secondary weapon.  ",
 			"**Prerequisites:** Dex 15.  ",
 			"**Benefit:** Your penalties on attack rolls for fighting with two weapons are reduced. The penalty for your primary hand lessens by 2 and the one for your off hand lessens by 6. See table below.",
 			"",
@@ -2610,7 +2630,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Two-Weapon Rend (Combat)",
@@ -2632,7 +2653,16 @@
 			"",
 			"Your synchronized dual attacks are even more dangerous, and can leave lasting wounds.  ",
 			"**Prerequisites:** Two-Weapon Rend.  ",
-			"**Benefit:** The damage of your Two-Weapon Rend increases to 2d8 points plus twice your Strength modifier. You can expend one use of mythic power to gain a bonus on this damage equal to twice your tier."
+			"**Benefit:** The damage of your Two-Weapon Rend increases to 2d8 points plus twice your Strength modifier. You can expend one use of mythic power to gain a bonus on this damage equal to twice your tier.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Striking with both of your weapons simultaneously, you can use them to deliver devastating wounds.  ",
+			"**Prerequisites:** Dex 17, {feat/Double Slice}, {feat/Greater Two-Weapon Fighting}, {feat/Two-Weapon Fighting}, base attack bonus +11.  ",
+			"**Benefit:** If you hit an opponent with both your primary hand and your off-hand weapon, you deal an additional 1d10 points of damage plus 1-1/2 times your Strength modifier. You can only deal this additional damage once each round.",
+			"",
+			":::"
 		]
 	},
 	"tyrants_rebuke": {
@@ -3288,7 +3318,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Unseat (Combat)",
@@ -3310,7 +3341,16 @@
 			"",
 			"You knock your opponents down from their mounts with frightening concussive force.  ",
 			"**Prerequisites:** Unseat.  ",
-			"**Benefit:** When you successfully bull rush an opponent off his mount with Unseat, your opponent takes 1d6 points of falling damage per 2 tiers you possess. Items or abilities that reduce falling damage, such as a successful Acrobatics check, can reduce the damage dealt by the impact."
+			"**Benefit:** When you successfully bull rush an opponent off his mount with Unseat, your opponent takes 1d6 points of falling damage per 2 tiers you possess. Items or abilities that reduce falling damage, such as a successful Acrobatics check, can reduce the damage dealt by the impact.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You are skilled at unseating your mounted opponents.  ",
+			"**Prerequisites:** Str 13, Ride 1 rank, {feat/Mounted Combat}, {rule/Powerful Maneuvers}, base attack bonus +1.  ",
+			"**Benefit:** When charging an opponent while mounted and wielding a {eq-weapon/lance}, resolve the attack as normal. If it hits, you may immediately make a free {rule/bull rush} attempt in addition to the normal damage. If successful, the target is knocked off his horse and lands {rule/prone} in a space adjacent to his mount that is directly away from you.",
+			"",
+			":::"
 		]
 	},
 	"unseen_poison": {

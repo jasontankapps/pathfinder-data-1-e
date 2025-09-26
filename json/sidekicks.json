@@ -1,7 +1,10 @@
 {
 	"animal_companion": {
 		"name": "Animal Companion",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Animal Companion",
 			"",
@@ -124,6 +127,13 @@
 			"| @ripple[feat/Weapon Focus] | Proficiency with selected weapon, base attack bonus +1. | +1 bonus on attack rolls with one weapon |",
 			"",
 			"Animal companions with an Intelligence of 3 or higher can select any feat they are physically capable of using. GMs might expand this list to include feats from other sources.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Animal companions can select from the following feats: Acrobatic, Armor Proficiency (light, medium, and heavy), Athletic, Blind-Fight, Combat Reflexes, Diehard, Dodge, Endurance, Great Fortitude, Improved Initiative, Improved Natural Attack, Intimidating Prowess, Iron Will, Lightning Reflexes, {rule/Powerful Maneuvers}, Run, Skill Focus, Spring Attack, Stealthy, Toughness, and Weapon Focus. Animal companions with an Intelligence of 3 or higher can select any feat they are physically capable of using. GMs may expand this list to include feats from other sources.",
+			"",
+			":::",
 			"",
 			"::h3[Archetypes]{jl}",
 			"",

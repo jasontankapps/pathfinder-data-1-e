@@ -893,7 +893,7 @@
 			"Your critical hits cause opponents to bleed profusely.  ",
 			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +11.  ",
 			"**Benefit:** Whenever you score a critical hit with a slashing or piercing weapon, your opponent takes 2d6 points of {rule/bleed} damage each round on his turn, in addition to the damage dealt by the critical hit. Bleed damage can be stopped by a DC 15 Heal skill check or through any magical healing. The effects of this feat stack.  ",
-			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess {feat/Critical Mastery}.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/114}",
@@ -1165,7 +1165,7 @@
 			"Your critical hits blind your opponents.  ",
 			"**Prerequisites:** {feat/Critical Focus}, base attack bonus +15.  ",
 			"**Benefit:** Whenever you score a critical hit, your opponent is permanently {misc/blinded}. A successful Fortitude save reduces this to {misc/dazzled} for 1d4 rounds. The DC of this Fortitude save is equal to 10 + your base attack bonus. This feat has no effect on creatures that do not rely on eyes for sight or creatures with more than two eyes (although multiple critical hits might cause blindness, at the GM's discretion). Blindness can be cured by {spell/heal}, {umr/regeneration}, {spell/remove blindness}, or similar abilities.  ",
-			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.",
+			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess {feat/Critical Mastery}.",
 			"",
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/114}",
@@ -3086,7 +3086,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Catch Off-Guard (Combat)",
@@ -3112,7 +3113,8 @@
 			"",
 			":::elephant",
 			"",
-			"Foes are surprised by your skilled use of unorthodox and improvised weapons.  ",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Foes are surprised by your skilled use of unorthodox and improvised weapons.  ",
 			"**Prerequisites:** {rule/Unarmed Combatant}, Dex 13.",
 			"**Benefit:** You do not suffer any penalties for using an improvised melee weapon. Unarmed opponents are {rule/flat-footed} against any attacks you make with an improvised melee weapon. You receive a +1 circumstance bonus on attack rolls made with thrown splash weapons.  ",
 			"**Normal:** You take a -4 penalty on attack rolls made with an improvised weapon.",

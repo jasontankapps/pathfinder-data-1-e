@@ -1967,7 +1967,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Manyshot (Combat)",
@@ -1989,7 +1990,16 @@
 			"",
 			"You can fire a barrage of arrows at your target with very little effort.  ",
 			"**Prerequisites:** Manyshot.  ",
-			"**Benefit:** When making a full-attack action with a bow and using Manyshot, you fire two arrows with both your first and second attacks, instead of just your first attack."
+			"**Benefit:** When making a full-attack action with a bow and using Manyshot, you fire two arrows with both your first and second attacks, instead of just your first attack.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can fire multiple arrows at a single target.  ",
+			"**Prerequisites:** Dex 17, {feat/Precise Shot}, {feat/Rapid Shot}, base attack bonus +6.  ",
+			"**Benefit:** When making a full-attack action with a bow, crossbow, or sling, your first attack fires two projectiles. If the attack hits, both arrows, bolts, or bullets hit. Apply {misc/precision[-based] damage} (such as {ability/sneak attack}) and critical hit damage only once for this attack. Strength bonuses apply to each projectile, as do other damage bonuses, such as a ranger's {ability/favored enemy} bonus. Damage reduction and resistances apply separately to each arrow, bolt, or bullet.",
+			"",
+			":::"
 		]
 	},
 	"marcher_lord_of_the_cerulean_abyss": {
@@ -2143,7 +2153,8 @@
 		"name": "Martial Mastery",
 		"sources": [
 			"Advanced Race Guide",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Martial Mastery (Combat)",
@@ -2161,7 +2172,8 @@
 			"",
 			":::elephant",
 			"",
-			"This feat does not exist. Combat feats like Weapon Focus now apply to weapon groups instead of a specific weapon by default.",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat **may** be removed. Combat feats like Weapon Focus now apply to weapon groups instead of a specific weapon by default.",
 			"",
 			":::"
 		]
@@ -2190,7 +2202,10 @@
 	},
 	"martial_weapon_proficiency": {
 		"name": "Martial Weapon Proficiency",
-		"sources": [ "PRPG Core Rulebook" ],
+		"sources": [
+			"PRPG Core Rulebook",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Martial Weapon Proficiency (Combat)",
 			"",
@@ -2201,7 +2216,14 @@
 			"**Normal:** When using a weapon with which you are not proficient, you take a -4 penalty on attack rolls.  ",
 			"**Special:** Antipaladins, aristocrats, barbarians, bloodragers, cavaliers, fighters, gunslingers, hunters, magi, occultists, paladins, rangers, samurai, skalds, slayers, swashbucklers, vigilantes, warpriests, and warriors are proficient with all martial weapons. They need not select this feat.",
 			"",
-			"You can gain Martial Weapon Proficiency multiple times. Each time you take the feat, it applies to a new type of weapon."
+			"You can gain Martial Weapon Proficiency multiple times. Each time you take the feat, it applies to a new type of weapon.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been removed, replaced with the new {rule/Weapon Proficiency} feat.",
+			"",
+			":::"
 		]
 	},
 	"mascots_affection": {
@@ -2669,7 +2691,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Medusa's Wrath (Combat)",
@@ -2691,7 +2714,16 @@
 			"",
 			"Your barrage of unarmed attacks builds to a single, staggering strike.  ",
 			"**Prerequisites:** Medusa's Wrath.  ",
-			"**Benefit:** You may forgo the two additional unarmed strikes of Medusa's Wrath to instead make a single unarmed strike at your highest base attack bonus. If you successfully hit your opponent, it must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Wisdom modifier) or be {misc/staggered} for 1 round. You can expend one use of mythic power when you stagger a target with Medusa's Wrath to extend the duration of the staggered condition by a number of rounds equal to half your tier."
+			"**Benefit:** You may forgo the two additional unarmed strikes of Medusa's Wrath to instead make a single unarmed strike at your highest base attack bonus. If you successfully hit your opponent, it must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Wisdom modifier) or be {misc/staggered} for 1 round. You can expend one use of mythic power when you stagger a target with Medusa's Wrath to extend the duration of the staggered condition by a number of rounds equal to half your tier.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can take advantage of your opponent's confusion, delivering multiple blows.  ",
+			"**Prerequisites:** {rule/Unarmed Combatant}, {feat/Gorgon's Fist}, {rule/Scorpion Stance}, base attack bonus +11.  ",
+			"**Benefit:** Whenever you use the full-attack action and make at least one unarmed strike, you can make two additional unarmed strikes at your highest base attack bonus. These bonus attacks must be made against a {misc/dazed}, {rule/flat-footed}, {rule/paralyzed}, {misc/staggered}, {misc/stunned}, or {misc/unconscious} foe.",
+			"",
+			":::"
 		]
 	},
 	"menacing_bane": {

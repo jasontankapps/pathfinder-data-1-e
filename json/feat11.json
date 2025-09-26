@@ -30,7 +30,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Mobility (Combat)",
@@ -54,7 +55,14 @@
 			"",
 			"You have perfected your ability to weave through the battlefield, using your momentum to propel yourself far.  ",
 			"**Prerequisites:** Mobility.  ",
-			"**Benefit:** Whenever you use Mobility, you gain a +6 dodge bonus to AC instead of the normal +4. In addition, once per round when an attack of opportunity provoked by your movement misses you, you may move 5 feet as a free action. This movement doesn't count against your total overall movement for the round, but it does provoke attacks of opportunity."
+			"**Benefit:** Whenever you use Mobility, you gain a +6 dodge bonus to AC instead of the normal +4. In addition, once per round when an attack of opportunity provoked by your movement misses you, you may move 5 feet as a free action. This movement doesn't count against your total overall movement for the round, but it does provoke attacks of opportunity.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat has been merged into the {feat/Dodge} feat.",
+			"",
+			":::"
 		]
 	},
 	"mocking_dance": {
@@ -1239,7 +1247,8 @@
 		"name": "Natural Spell",
 		"sources": [
 			"Mythic Adventures",
-			"PRPG Core Rulebook"
+			"PRPG Core Rulebook",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Natural Spell",
@@ -1262,7 +1271,8 @@
 			"",
 			":::elephant",
 			"",
-			"You can cast spells even while transformed.  ",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can cast spells even while transformed.  ",
 			"**Prerequisites:** Wis 13, {umr/change shape} or wild shape class feature.  ",
 			"**Benefit:** You can complete the verbal and somatic components of spells while using change shape or wild shape. You substitute various noises and gestures for the normal verbal and somatic components of a spell.",
 			"",
@@ -3228,7 +3238,8 @@
 		"sources": [
 			"Advanced Player's Guide",
 			"Pathfinder Campaign Setting",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Parting Shot (Combat)",
@@ -3244,7 +3255,17 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/128}",
 			">",
-			">You can spend 2 stamina points to use this feat's benefit a second time during a single encounter. You can use this combat trick only once per encounter, so you still can't make more than two Parting Shot attacks total in one encounter."
+			">You can spend 2 stamina points to use this feat's benefit a second time during a single encounter. You can use this combat trick only once per encounter, so you still can't make more than two Parting Shot attacks total in one encounter.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You are an expert skirmisher, able to rain missiles upon your enemies whether advancing or retreating.  ",
+			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Shot on the Run}, base attack bonus +6.  ",
+			"**Benefit:** Once per encounter, when using the {rule/withdraw} action, you can make a single ranged attack at any point during your movement.  ",
+			"**Normal:** You cannot attack when using the withdraw action.",
+			"",
+			":::"
 		]
 	},
 	"partner": {

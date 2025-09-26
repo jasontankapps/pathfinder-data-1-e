@@ -516,7 +516,8 @@
 		"name": "Agile Maneuvers",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Agile Maneuvers (Combat)",
@@ -534,7 +535,8 @@
 			"",
 			":::elephant",
 			"",
-			"This feat is renamed **Agile Combatant**.",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This feat is renamed **Agile Combatant**.",
 			"",
 			"You've learned to use your quickness in place of brute force when performing combat maneuvers.  ",
 			"**Benefit:** You add your Dexterity bonus to your base attack bonus and size bonus when determining your {rule/Combat Maneuver[ Bonu]s} instead of your Strength bonus.  ",
@@ -546,6 +548,7 @@
 			":::"
 		]
 	},
+	"agile_combatant": { "redirect": "agile_maneuvers" },
 	"agile_tongue": {
 		"name": "Agile Tongue",
 		"sources": [ "Advanced Race Guide" ],
@@ -2697,7 +2700,7 @@
 			"",
 			"Your summoned creatures are more powerful and robust.  ",
 			"**Prerequisites** {feat/Spell Focus} (conjuration).  ",
-			"**Benefit:** Each creature you conjure with any summon spell gains a +4 enhancement bonus to Strength and Constitution for the duration of the spell that summoned it.",
+			"**Benefit:** Each creature you conjure with any *summon* spell gains a +4 enhancement bonus to Strength and Constitution for the duration of the spell that summoned it.",
 			"",
 			"### Mythic Augment Summoning",
 			"",
@@ -2705,7 +2708,7 @@
 			"",
 			"Your summoning spells bring not mere ordinary beasts, but instead mythic creatures.  ",
 			"**Prerequisites:** Augment Summoning.  ",
-			"**Benefit:** Any creature you summon using a summon spell is considered mythic for the purpose of interacting with other mythic creatures. It doesn't gain any mythic abilities or power, but is affected by mythic spells and abilities as if it were a 1st-tier mythic creature. Additionally, if the creature summoned has damage reduction, its damage reduction becomes DR/epic."
+			"**Benefit:** Any creature you summon using a *summon* spell is considered mythic for the purpose of interacting with other mythic creatures. It doesn't gain any mythic abilities or power, but is affected by mythic spells and abilities as if it were a 1st-tier mythic creature. Additionally, if the creature summoned has damage reduction, its damage reduction becomes DR/epic."
 		]
 	},
 	"aura_flare": {
@@ -2859,7 +2862,10 @@
 	},
 	"awesome_blow": {
 		"name": "Awesome Blow",
-		"sources": [ "Pathfinder RPG Bestiary" ],
+		"sources": [
+			"Pathfinder RPG Bestiary",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
+		],
 		"description": [
 			"## Awesome Blow (Combat, Monster)",
 			"",
@@ -2867,7 +2873,16 @@
 			"",
 			"This creature can send opponents flying.  ",
 			"**Prerequisites:** Str 25, {feat/Power Attack}, {feat/Improved Bull Rush}, size Large or larger.  ",
-			"**Benefit:** As a standard action, the creature may perform an awesome blow combat maneuver. If the creature's maneuver succeeds against a corporeal opponent smaller than itself, its opponent takes damage (typically slam damage plus Strength bonus) and is knocked flying 10 feet in a direction of the attacking creature's choice and falls {rule/prone}. The attacking creature can only push the opponent in a straight line, and the opponent can't move closer to the attacking creature than the square it started in. If an obstacle prevents the completion of the opponent's move, the opponent and the obstacle each take 1d6 points of damage, and the opponent is knocked prone in the space adjacent to the obstacle."
+			"**Benefit:** As a standard action, the creature may perform an awesome blow combat maneuver. If the creature's maneuver succeeds against a corporeal opponent smaller than itself, its opponent takes damage (typically slam damage plus Strength bonus) and is knocked flying 10 feet in a direction of the attacking creature's choice and falls {rule/prone}. The attacking creature can only push the opponent in a straight line, and the opponent can't move closer to the attacking creature than the square it started in. If an obstacle prevents the completion of the opponent's move, the opponent and the obstacle each take 1d6 points of damage, and the opponent is knocked prone in the space adjacent to the obstacle.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"This creature can send opponents flying.  ",
+			"**Prerequisites:** Str 25, {rule/Powerful Maneuvers}, size Large or larger.  ",
+			"**Benefit:** As a standard action, the creature may perform an awesome blow combat maneuver. If the creature's maneuver succeeds against a corporeal opponent smaller than itself, its opponent takes damage (typically slam damage plus Strength bonus) and is knocked flying 10 feet in a direction of the attacking creature's choice and falls prone. The attacking creature can only push the opponent in a straight line, and the opponent can't move closer to the attacking creature than the square it started in. If an obstacle prevents the completion of the opponent's move, the opponent and the obstacle each take 1d6 points of damage, and the opponent is knocked prone in the space adjacent to the obstacle.",
+			"",
+			":::"
 		]
 	},
 	"awesome_charge": {

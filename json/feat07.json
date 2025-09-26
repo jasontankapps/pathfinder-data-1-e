@@ -2937,7 +2937,8 @@
 		"sources": [
 			"Mythic Adventures",
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Gorgon's Fist (Combat)",
@@ -2959,7 +2960,16 @@
 			"",
 			"Your strikes debilitate and disorient your foes.  ",
 			"**Prerequisites:** Gorgon's Fist.  ",
-			"**Benefit:** When you hit a creature while using Gorgon's Fist, if the target fails its Fortitude saving throw, it is {misc/dazed} for 1 round instead of staggered. You can expend one use of mythic power when you hit with a Gorgon's Fist attack, but before the saving throw is attempted, to increase its DC by half your tier."
+			"**Benefit:** When you hit a creature while using Gorgon's Fist, if the target fails its Fortitude saving throw, it is {misc/dazed} for 1 round instead of staggered. You can expend one use of mythic power when you hit with a Gorgon's Fist attack, but before the saving throw is attempted, to increase its DC by half your tier.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"With one well-placed blow, you leave your target reeling.  ",
+			"**Prerequisites:** {rule/Unarmed Combatant}, {rule/Scorpion Stance}, base attack bonus +6.  ",
+			"**Benefit:** As a standard action, make a single unarmed melee attack against a foe who is either {rule/entangled} or {rule/prone}. If the attack hits, you deal damage normally and the target is {rule/flat-footed} until the end of your next turn unless it makes a Fortitude saving throw (DC 10 + 1/2 your character level + your Wis modifier).",
+			"",
+			":::"
 		]
 	},
 	"gory_finish": {
@@ -3277,7 +3287,8 @@
 		"name": "Great Cleave",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Great Cleave (Combat)",
@@ -3291,7 +3302,16 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/120}",
 			">",
-			">Once per round when you miss a foe with an attack gained from Cleave, you can spend 5 stamina points to make another Cleave attack anyway."
+			">Once per round when you miss a foe with an attack gained from Cleave, you can spend 5 stamina points to make another Cleave attack anyway.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"You can strike many adjacent foes with a single blow.  ",
+			"**Prerequisites:** Str 13, {feat/Cleave}, base attack bonus +4.  ",
+			"**Benefit:** As a standard action, you can make a single attack at your full base attack bonus against a foe within reach. If you hit, you deal damage normally and can make an additional attack (using your full base attack bonus) against a foe that is adjacent to the previous foe and also within reach. If you hit, you can continue to make attacks against foes adjacent to the previous foe, so long as they are within your reach. You cannot attack an individual foe more than once during this attack action. When you use this feat, you take a -2 penalty to your Armor Class until your next turn.",
+			"",
+			":::"
 		]
 	},
 	"great_expectations": {
@@ -3428,7 +3448,7 @@
 			"Your critical hit from a spell or spell-like ability afflicts the target with a major spellblight.  ",
 			"**Prerequisites:** {feat/Blighted Critical}, caster level 12th.  ",
 			"**Benefit:** Whenever you confirm a critical hit with a touch spell, ranged touch spell, or spell-like ability against an opponent, the victim gains a random major {rule/spellblight>s}.  ",
-			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery."
+			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess {feat/Critical Mastery}."
 		]
 	},
 	"greater_blind_fight": {
@@ -3473,7 +3493,8 @@
 		"name": "Greater Bull Rush",
 		"sources": [
 			"PRPG Core Rulebook",
-			"Pathfinder Unchained"
+			"Pathfinder Unchained",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Greater Bull Rush (Combat)",
@@ -3488,7 +3509,17 @@
 			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
 			">{SOURCE Pathfinder Unchained/120}",
 			">",
-			">When you bull rush an opponent, you can spend 5 stamina points to have the opponent's movement from the bull rush provoke an attack of opportunity from you as well."
+			">When you bull rush an opponent, you can spend 5 stamina points to have the opponent's movement from the bull rush provoke an attack of opportunity from you as well.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"Your bull rush attacks throw enemies off balance.  ",
+			"**Prerequisites:** {rule/Powerful Maneuvers}, base attack bonus +6, Str 13.  ",
+			"**Benefit:** You receive a +2 bonus on checks made to {rule/bull rush} a foe. This bonus stacks with the bonus granted by Powerful Maneuvers. Whenever you bull rush an opponent, his movement provokes attacks of opportunity from all of your allies (but not you).  ",
+			"**Normal:** Creatures moved by bull rush do not provoke attacks of opportunity.",
+			"",
+			":::elephant"
 		]
 	},
 	"greater_called_shot": {

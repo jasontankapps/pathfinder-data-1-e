@@ -13,7 +13,8 @@
 			"Ultimate Wilderness",
 			"Goblins of Golarion",
 			"Horror Adventures",
-			"Blood of the Beast"
+			"Blood of the Beast",
+			"The Elephant in the Room: Feat Taxes in Pathfinder"
 		],
 		"description": [
 			"## Ranger",
@@ -96,6 +97,13 @@
 			"@b[Combat Style Feat (Ex):]{jl=\"Combat Style\"} At 2nd level, a ranger must select a {ability/combat style>s} to pursue. The ranger's expertise manifests in the form of bonus feats at 2nd, 6th, 10th, 14th, and 18th level. He can choose feats from his selected combat style, even if he does not have the normal prerequisites.",
 			"",
 			"The benefits of the ranger's chosen style feats apply only when he wears light, medium, or no armor. He loses all benefits of his combat style feats when wearing heavy armor. Once a ranger selects a combat style, it cannot be changed.",
+			"",
+			":::elephant",
+			"",
+			"{SOURCE The Elephant in the Room: Feat Taxes in Pathfinder}  ",
+ 			"The ranger can pick archery or two-weapon combat as a combat style, [as described here](rule/teitr_ranger).",
+			"",
+			":::",
 			"",
 			"@b[Endurance:]{jl=\"Endurance and Favored Terrain\"} A ranger gains {feat/Endurance} as a bonus feat at 3rd level.",
 			"",
