@@ -44,18 +44,21 @@
 			"",
 			"Dodge bonuses stack with each other, unlike most types of bonuses.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">Your dodge bonus to AC from the Dodge feat combat trick is doubled against attacks of opportunity provoked by movement. If you don't have the Dodge feat, you can still use its combat trick.",
+			":::stamina",
 			"",
-			"### Mythic Mobility",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"Your dodge bonus to AC from the Dodge feat combat trick is doubled against attacks of opportunity provoked by movement. If you don't have the Dodge feat, you can still use its combat trick.",
 			"",
-			"{SOURCE Mythic Adventures/69}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Mobility\"}",
+			"",
+			"{SOURCE Mythic Adventures/69}  ",
 			"You have perfected your ability to weave through the battlefield, using your momentum to propel yourself far.  ",
 			"**Prerequisites:** Mobility.  ",
 			"**Benefit:** Whenever you use Mobility, you gain a +6 dodge bonus to AC instead of the normal +4. In addition, once per round when an attack of opportunity provoked by your movement misses you, you may move 5 feet as a free action. This movement doesn't count against your total overall movement for the round, but it does provoke attacks of opportunity.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -80,10 +83,12 @@
 			"**Prerequisites:** Acrobatics 4 ranks or Perform (dance) 4 ranks.  ",
 			"**Benefit:** When you spend a swift action to make a {rule/performance combat} check, before making that check you can either move 5 feet without provoking attacks of opportunity, or you can move your speed and provoke attacks of opportunity. You cannot end this move in a space where you threaten an enemy. If you do move at least 5 feet, you gain a +2 bonus on the performance combat check.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When using this feat, you can spend 5 stamina points to move up to half your speed (instead of only 5 feet) without provoking attacks of opportunity."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When using this feat, you can spend 5 stamina points to move up to half your speed (instead of only 5 feet) without provoking attacks of opportunity.",
+			"",
+			":::"
 		]
 	},
 	"modification_master": {
@@ -143,18 +148,21 @@
 			"**Prerequisites:** Still mind class feature, {feat/Improved Unarmed Strike}.  ",
 			"**Benefit:** Add half the levels you have in classes other than monk to your monk level to determine your effective monk level for your base unarmed strike damage. This feat does not make levels in classes other than monk count toward any other monk class features.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">At the start of your turn, you can spend 5 stamina points to use your full character level to determine your effective monk level for your unarmed strike damage. This increase lasts until the start of your next turn.",
+			":::stamina",
 			"",
-			"### Mythic Monastic Legacy",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"At the start of your turn, you can spend 5 stamina points to use your full character level to determine your effective monk level for your unarmed strike damage. This increase lasts until the start of your next turn.",
 			"",
-			"{SOURCE Mythic Adventures/69}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Monastic Legacy\"}",
+			"",
+			"{SOURCE Mythic Adventures/69}  ",
 			"Every new experience carries you another step further along your path to enlightenment.  ",
 			"**Prerequisites:** Monastic Legacy.  ",
-			"**Benefit:** Add half the levels you have in classes other than monk to your monk level to determine your effective monk level for your AC bonus. As a free action, you can expend one use of mythic power to add half your tier to your effective monk level to determine your base unarmed strike damage and AC bonus until the start of your next turn."
+			"**Benefit:** Add half the levels you have in classes other than monk to your monk level to determine your effective monk level for your AC bonus. As a free action, you can expend one use of mythic power to add half your tier to your effective monk level to determine your base unarmed strike damage and AC bonus until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"monitor_obedience": {
@@ -204,10 +212,12 @@
 			"**Benefit:** While using Monkey Style, you gain a Wisdom bonus on Climb checks. You can also can climb and crawl at half your speed; you can take a 5-foot step by jumping, crawling, or climbing; and you retain your Dexterity bonus to AC while climbing. Further, while using Monkey Style, when you use your unarmed strike to hit an opponent twice or more on your turn, you can spend a swift action to take a 5-foot step even if you have moved this round.  ",
 			"**Normal:** You climb at one-quarter your speed, and you lose your Dexterity bonus to AC while doing so. A 5-foot step is made using your normal movement modes, and you can take one only if you have not otherwise moved this round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">At the start of your turn, you can spend 5 stamina points to gain a climb speed equal to your land speed until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"At the start of your turn, you can spend 5 stamina points to gain a climb speed equal to your land speed until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"monkey_shine": {
@@ -226,10 +236,12 @@
 			"**Benefit:** While using Monkey Style, if you successfully deliver a Stunning Fist attempt, in addition to the normal effect of Stunning Fist, you can spend a free action to enter a square adjacent to you that is within your opponent's space. This movement does not provoke attacks of opportunity. While you are in your opponent's space, you gain a +4 dodge bonus to AC and a +4 bonus on melee attack rolls against that opponent. If otherwise unhindered, the opponent can move away from you, but if he does, he provokes an attack of opportunity from you even if his choice of movement does not normally do so.  ",
 			"**Normal:** You cannot enter an opponent's space.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">After you have used this feat to enter an opponent's space, if that opponent moves away from you, you can spend stamina points to move along with the opponent. You must spend 2 stamina points per 5 feet you move. The opponent's movement doesn't provoke attacks of opportunity from you if you move with the opponent, nor do you provoke attacks of opportunity when moving in this way."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"After you have used this feat to enter an opponent's space, if that opponent moves away from you, you can spend stamina points to move along with the opponent. You must spend 2 stamina points per 5 feet you move. The opponent's movement doesn't provoke attacks of opportunity from you if you move with the opponent, nor do you provoke attacks of opportunity when moving in this way.",
+			"",
+			":::"
 		]
 	},
 	"monkey_style": {
@@ -248,10 +260,12 @@
 			"**Benefit:** You add your Wisdom bonus on Acrobatics checks. While using this style, you take no penalty on melee attack rolls or to AC while {rule/prone}. Further, you can crawl and stand up from lying prone without provoking attacks of opportunity, and you can stand up as a swift action if you succeed at a DC 20 Acrobatics check.  ",
 			"**Normal:** You take a -4 penalty on attack rolls and AC against melee attacks while prone. Standing up is a standard action that provokes attacks of opportunity.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When using this style, you can spend 2 stamina points to stand up as a swift action without having to succeed at a DC 20 Acrobatics check."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When using this style, you can spend 2 stamina points to stand up as a swift action without having to succeed at a DC 20 Acrobatics check.",
+			"",
+			":::"
 		]
 	},
 	"monster_spotter": {
@@ -417,10 +431,12 @@
 			"**Prerequisites:** Int 13, {feat/Blind-Fight}, {feat/Combat Expertise}, Bluff 3 ranks, darkvision or low-light vision racial trait.  ",
 			"**Benefit:** While you have {rule/concealment} from an opponent, you gain a +2 bonus on attack and damage rolls against that opponent.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When you have total concealment from an opponent, you can spend 2 stamina points to increase your bonuses on attack and damage rolls from this feat to +4."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When you have total concealment from an opponent, you can spend 2 stamina points to increase your bonuses on attack and damage rolls from this feat to +4.",
+			"",
+			":::"
 		]
 	},
 	"moonlight_stalker_feint": {
@@ -439,10 +455,12 @@
 			"**Benefit:** Once per round, against an opponent from whom you have {rule/concealment}, you can spend a swift action to make a Bluff check to feint.  ",
 			"**Normal:** Feinting is a standard action.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When you attempt a Bluff check to feint against an opponent from whom you have concealment, you can spend up to 5 stamina points to gain a bonus on the Bluff check equal to double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When you attempt a Bluff check to feint against an opponent from whom you have concealment, you can spend up to 5 stamina points to gain a bonus on the Bluff check equal to double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"moonlight_stalker_master": {
@@ -460,10 +478,12 @@
 			"**Prerequisites:** Int 13, {feat/Blind-Fight} {feat/Combat Expertise}, {feat/Improved Feint}, {feat/Moonlight Stalker}, {feat/Moonlight Stalker Feint}, Bluff 9 ranks, darkvision or low-light vision racial trait.  ",
 			"**Benefit:** While you have {rule/concealment}, your opponents' miss chance against you increases by 10%. If an opponent misses you due to your concealment, you can spend an immediate action to move 5 feet, this movement does not provoke attacks of opportunity and does not count as a 5-foot step.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When an opponent makes an attack against you while you have concealment, you can spend 5 stamina points to increase that attack's miss chance by an additional 20%."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When an opponent makes an attack against you while you have concealment, you can spend 5 stamina points to increase that attack's miss chance by an additional 20%.",
+			"",
+			":::"
 		]
 	},
 	"moonlight_summons": {
@@ -605,18 +625,21 @@
 			"**Prerequisites:** Ride 1 rank, {feat/Mounted Combat}.  ",
 			"**Benefit:** The penalty you take when using a ranged weapon while mounted is halved: -2 instead of -4 if your mount is taking a double move, and -4 instead of -8 if your mount is running.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When making an attack using a ranged weapon while mounted, you can spend 1 or 2 stamina points to reduce the penalties on the attack roll by double the number of stamina points you spent.",
+			":::stamina",
 			"",
-			"### Mythic Mounted Archery",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When making an attack using a ranged weapon while mounted, you can spend 1 or 2 stamina points to reduce the penalties on the attack roll by double the number of stamina points you spent.",
 			"",
-			"{SOURCE Mythic Adventures/69}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Mounted Archery\"}",
+			"",
+			"{SOURCE Mythic Adventures/69}  ",
 			"Your skill as a rider allows you to take cover and shoot with amazing accuracy.  ",
 			"**Prerequisites:** Mounted Archery.  ",
-			"**Benefit:** When using the Ride skill to use your mount as {rule/cover}, you can still make a single ranged weapon attack as a standard action. While your mount is moving, you can expend one use of mythic power to negate the penalties for making ranged weapon attacks while mounted until the beginning of your next turn."
+			"**Benefit:** When using the Ride skill to use your mount as {rule/cover}, you can still make a single ranged weapon attack as a standard action. While your mount is moving, you can expend one use of mythic power to negate the penalties for making ranged weapon attacks while mounted until the beginning of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"mounted_blade": {
@@ -652,18 +675,21 @@
 			"**Prerequisites:** Ride 1 rank.  ",
 			"**Benefit:** Once per round when your mount is hit in combat, you may attempt a Ride check (as an immediate action) to negate the hit. The hit is negated if your Ride check result is greater than the opponent's attack roll.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">Once you have already used this feat, you can spend 5 stamina points to use it an additional time during the same round. You can use this trick as many times in a round as you like, as long as you spend 5 stamina points per use.",
+			":::stamina",
 			"",
-			"### Mythic Mounted Combat",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"Once you have already used this feat, you can spend 5 stamina points to use it an additional time during the same round. You can use this trick as many times in a round as you like, as long as you spend 5 stamina points per use.",
 			"",
-			"{SOURCE Mythic Adventures/70}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Mounted Combat\"}",
+			"",
+			"{SOURCE Mythic Adventures/70}  ",
 			"Your ability to maneuver a mount through the rigors of combat is nearly unparalleled.  ",
 			"**Prerequisites:** Mounted Combat.  ",
-			"**Benefit:** You can negate an additional number of hits against your mount per round equal to your tier. Once per round as an immediate action, you can expend one use of mythic power to substitute a Ride check for a single Reflex saving throw your mount must make."
+			"**Benefit:** You can negate an additional number of hits against your mount per round equal to your tier. Once per round as an immediate action, you can expend one use of mythic power to substitute a Ride check for a single Reflex saving throw your mount must make.",
+			"",
+			":::"
 		]
 	},
 	"mounted_onslaught": {
@@ -698,10 +724,12 @@
 			"**Prerequisites:** {feat/Mounted Combat}, {feat/Shield Focus}.  ",
 			"**Benefit:** You may add your base shield bonus (including the bonus from Shield Focus but not including enhancement bonuses) to your mount's AC. In addition, you may add this bonus when making a Ride check to negate a hit against your mount using the Mounted Combat feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">As long as you have at least 1 stamina point in your stamina pool, you can add your shield's enhancement bonus to your mount's Armor Class."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"As long as you have at least 1 stamina point in your stamina pool, you can add your shield's enhancement bonus to your mount's Armor Class.",
+			"",
+			":::"
 		]
 	},
 	"mounted_skirmisher": {
@@ -720,10 +748,12 @@
 			"**Benefit:** If your mount moves its speed or less, you can still take a full-attack action.  ",
 			"**Normal:** If your mount moves more than 5 feet, you can only take an attack action.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When your mount moves its speed or less, you can spend 5 stamina points to spur it on 10 additional feet. This is bonus movement, and you can still make a full attack when your mount takes this bonus movement."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When your mount moves its speed or less, you can spend 5 stamina points to spur it on 10 additional feet. This is bonus movement, and you can still make a full attack when your mount takes this bonus movement.",
+			"",
+			":::"
 		]
 	},
 	"mud_in_your_eye": {
@@ -836,10 +866,12 @@
 			"**Prerequisites:** {feat/Dodge}, Acrobatics 4 ranks.  ",
 			"**Benefit:** When you spend a swift action to make a {rule/performance combat} check after scoring a critical hit or performing a combat maneuver, and you are adjacent to the target of the critical hit or combat maneuver, you can move to any other space that is adjacent to the target without provoking attacks of opportunity. You must have a clear path to that space and the ability to reach it by spending a move action. If you end this move in any space other than the one where you started, you gain a +2 bonus on the performance combat check.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">You can spend 2 stamina points to use this feat after dealing maximum damage to or successfully feinting against a creature. You must still be adjacent to the creature."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"You can spend 2 stamina points to use this feat after dealing maximum damage to or successfully feinting against a creature. You must still be adjacent to the creature.",
+			"",
+			":::"
 		]
 	},
 	"murderous_sniper": {
@@ -1261,13 +1293,14 @@
 			"",
 			"You can also use any material components or focuses you possess, even if such items are melded within your current form. This feat does not permit the use of magic items while you are in a form that could not ordinarily use them, and you do not gain the ability to speak while using wild shape.",
 			"",
-			"### Mythic Natural Spell",
+			":::mythic{title=\"Mythic Natural Spell\"}",
 			"",
-			"{SOURCE Mythic Adventures/70}",
-			"",
+			"{SOURCE Mythic Adventures/70}  ",
 			"You can speak and use some magic items when you use wild shape.  ",
 			"**Prerequisites:** Natural Spell.  ",
 			"**Benefit:** When you're using wild shape, you can use spell completion and spell trigger magic items that were on your person when you changed form. You don't need to physically manipulate the items when you use them while using wild shape. Furthermore, you can speak normally when using wild shape.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -1360,10 +1393,12 @@
 			"**Prerequisites:** {feat/Bonebreaker}, {feat/Greater Grapple}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Jawbreaker}, {feat/Stunning Fist}, Heal 12 ranks.  ",
 			"**Benefit:** If you have an opponent your size or smaller {misc/helpless} or {rule/pinned}, after you initiate or maintain a {rule/grapple}, you can make a Stunning Fist attempt at a -5 penalty on the attack roll. If you succeed, you wrench that opponent's neck, dealing 2d6 Strength or Dexterity damage. If the targeted ability score is reduced to 0, any remaining damage is dealt to that opponent's Constitution score. A creature that is immune to critical hits or that has no discernible head and neck is immune to the effects of this feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When using this feat, you can spend 10 stamina points to deal 1d6 points of Constitution damage instead of 2d6 points of Strength or Dexterity damage."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When using this feat, you can spend 10 stamina points to deal 1d6 points of Constitution damage instead of 2d6 points of Strength or Dexterity damage.",
+			"",
+			":::"
 		]
 	},
 	"necromantic_affinity": {
@@ -1451,10 +1486,12 @@
 			"**Benefit:** You can treat a {eq-weapon/net} as a one-handed melee {misc/reach} weapon with a 10-foot reach. Further, you take no penalty on melee attack rolls for using an unfolded net, and you can use one full-round action or two move actions to fold a net.  ",
 			"**Normal:** A net is a ranged weapon that imposes a -4 penalty on ranged attack rolls if it is unfolded. Folding a net takes a proficient user 2 rounds.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">You can spend 2 stamina points to fold a net as a standard action."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"You can spend 2 stamina points to fold a net as a standard action.",
+			"",
+			":::"
 		]
 	},
 	"net_and_trident": {
@@ -1473,10 +1510,12 @@
 			"**Benefit:** You can treat a {eq-weapon/net} as a one-handed ranged weapon, allowing you to wield a light or one-handed melee weapon and still make ranged attacks with your net. When you use your light or one-handed melee weapon to attack an entangled opponent, you gain a +2 bonus on damage rolls and on attack rolls to confirm a critical hit.  ",
 			"**Normal:** A net is a two-handed ranged weapon.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When you use a light or one-handed melee weapon to attack an opponent entangled by your net, you can spend up to 5 stamina points when you hit the opponent to gain a bonus on the damage roll equal to double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When you use a light or one-handed melee weapon to attack an opponent entangled by your net, you can spend up to 5 stamina points when you hit the opponent to gain a bonus on the damage roll equal to double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"net_maneuvering": {
@@ -1494,10 +1533,12 @@
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (net), {feat/Net Adept}, base attack bonus +3.  ",
 			"**Benefit:** In melee, you can use a {eq-weapon/net} to {rule/trip} or {rule/disarm} opponents instead of entangling them. You gain a +2 bonus on disarm checks made to use a net in this way. Further, if you have an opponent entangled in your net, you can attempt to {rule/drag} or {rule/reposition} that opponent as long as he is within your net's reach or you control the trailing rope on your net.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">As long as you have at least 1 stamina point in your stamina pool, you can also use a net to drag or reposition an opponent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"As long as you have at least 1 stamina point in your stamina pool, you can also use a net to drag or reposition an opponent.",
+			"",
+			":::"
 		]
 	},
 	"net_trickery": {
@@ -1515,10 +1556,12 @@
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency} (net), {feat/Net Adept}, {feat/Net Maneuvering}, base attack bonus +6.  ",
 			"**Benefit:** In place of one of your melee attacks, you can use your {eq-weapon/net} to attempt a {rule/dirty trick} combat maneuver to {misc/blind} an opponent. If you have an opponent entangled in your net, you can attempt to {rule/trip} that opponent as long as he is within your net's reach or you control the trailing rope on your net. You also gain a +2 bonus on {rule/drag} and {rule/reposition} combat maneuver checks you make using your net.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">As long as you have at least 1 stamina point in your stamina pool, you can {misc/dazzle>d} or {misc/sicken} the opponent with a dirty trick combat maneuver instead of blinding it."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"As long as you have at least 1 stamina point in your stamina pool, you can {misc/dazzle>d} or {misc/sicken} the opponent with a dirty trick combat maneuver instead of blinding it.",
+			"",
+			":::"
 		]
 	},
 	"never_conquered_forever_feared": {
@@ -1608,10 +1651,12 @@
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, Intimidate 1 rank, ability to create magical darkness.  ",
 			"**Benefit:** While fighting within an area of magical darkness, you gain a +2 bonus on damage rolls with unarmed strikes, or a +4 bonus against opponents that are {misc/shaken}, {misc/frightened}, or {misc/panicked}. You also gain a +2 morale bonus on Acrobatics and Intimidate checks.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When fighting in an area of magical darkness, you can spend up to 5 stamina points to increase the bonus granted by this feat on one damage roll by double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When fighting in an area of magical darkness, you can spend up to 5 stamina points to increase the bonus granted by this feat on one damage roll by double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"nightmare_scars": {
@@ -1642,10 +1687,12 @@
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Nightmare Fist}, {feat/Nightmare Weaver}, {feat/Stunning Fist}, Heal 5 ranks, ability to cast {spell/faerie fire}.  ",
 			"**Benefit:** While a *faerie fire* you have cast (not one cast from a spell completion or spell trigger item) outlines an opponent, the DC for that opponent to resist your Stunning Fist attempts increases by +2. If you hit an opponent with a Stunning Fist attempt, and that opponent fails her saving throw, you can render the target {misc/shaken} for 1d2 rounds plus 1 round for every 5 by which the opponent failed her save.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When you hit an opponent with a Stunning Fist attack and that opponent fails its saving throw, you can spend 5 stamina points to make the opponent {misc/frightened} for 1d4 rounds instead of shaken."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When you hit an opponent with a Stunning Fist attack and that opponent fails its saving throw, you can spend 5 stamina points to make the opponent {misc/frightened} for 1d4 rounds instead of shaken.",
+			"",
+			":::"
 		]
 	},
 	"nightmare_weaver": {
@@ -1664,10 +1711,12 @@
 			"**Benefit:** By spending a full-round action to cast *darkness,* you can also make {skill/Intimidate} checks to demoralize all foes in the spell's initial area.  ",
 			"**Special:** This feat counts as {feat/Dazzling Display} for purposes of qualifying for {feat/Deadly Stroke} and {feat/Shatter Defenses}.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When you cast *darkness* as a standard action, you can spend 5 stamina points to also attempt Intimidate checks to demoralize all foes in the spell's initial area."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When you cast *darkness* as a standard action, you can spend 5 stamina points to also attempt Intimidate checks to demoralize all foes in the spell's initial area.",
+			"",
+			":::"
 		]
 	},
 	"nimble_moves": {
@@ -1685,13 +1734,14 @@
 			"**Prerequisites:** Dex 13.  ",
 			"**Benefit:** Whenever you move, you may move through 5 feet of {rule/difficult terrain} each round as if it were normal terrain. This feat allows you to take a 5-foot step into difficult terrain.",
 			"",
-			"### Mythic Nimble Moves",
+			":::mythic{title=\"Mythic Nimble Moves\"}",
 			"",
-			"{SOURCE Mythic Adventures/70}",
-			"",
+			"{SOURCE Mythic Adventures/70}  ",
 			"You dance across obstacles with ease, as though they weren't even there.  ",
 			"**Prerequisites:** Nimble Moves.  ",
-			"**Benefit:** For every 2 tiers you possess, you can move through up to 5 feet of difficult terrain each round as if it were normal terrain (minimum 5 feet). This effect stacks with those provided by Nimble Moves and {feat/Acrobatic Steps}."
+			"**Benefit:** For every 2 tiers you possess, you can move through up to 5 feet of difficult terrain each round as if it were normal terrain (minimum 5 feet). This effect stacks with those provided by Nimble Moves and {feat/Acrobatic Steps}.",
+			"",
+			":::"
 		]
 	},
 	"nimble_natural_summons": {
@@ -1725,10 +1775,12 @@
 			"**Prerequisites:** Dex 13, base attack bonus +1, {race/catfolk}, sprinter racial trait.  ",
 			"**Benefit:** You do not take a -2 penalty to AC when you use the {feat/Cleave} feat, {feat/Lunge} feat, or when you {rule/charge}.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When you use the Cleave or Lunge feats or when you charge, you can spend 5 stamina points to gain a +2 dodge bonus to AC. This bonus lasts until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When you use the Cleave or Lunge feats or when you charge, you can spend 5 stamina points to gain a +2 dodge bonus to AC. This bonus lasts until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"no_name": {
@@ -2263,10 +2315,12 @@
 			"Your ranged assault leaves your foe disoriented and vulnerable to your melee attack.  ",
 			"**Benefit:** Whenever you deal damage with a ranged attack, you gain a +4 circumstance bonus on the next melee attack roll you make against the opponent. This attack must occur before the end of your next turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">When you deal damage with a ranged attack, you can spend 2 stamina points to gain a +4 circumstance bonus on the next two melee attack rolls you make against that opponent until the end of your next turn, instead of on only the next melee attack."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"When you deal damage with a ranged attack, you can spend 2 stamina points to gain a +4 circumstance bonus on the next two melee attack rolls you make against that opponent until the end of your next turn, instead of on only the next melee attack.",
+			"",
+			":::"
 		]
 	},
 	"opportunistic_grappler": {
@@ -2335,10 +2389,12 @@
 			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Goblin Cleaver}, {feat/Power Attack}, {race/dwarf}.  ",
 			"**Benefit:** This feat functions as Goblin Cleaver, but your additional attacks can be made against creatures your size or smaller. In addition, any such attacks that you make against humanoids (orc) gain a +2 circumstance bonus on attack rolls.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/128}",
-			">",
-			">As long as you have at least 1 stamina point in your stamina pool, the bonus on Cleave attacks against humanoids with the orc subtype increases to +4."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/128}  ",
+			"As long as you have at least 1 stamina point in your stamina pool, the bonus on Cleave attacks against humanoids with the orc subtype increases to +4.",
+			"",
+			":::"
 		]
 	},
 	"orc_rampage": {
@@ -2398,10 +2454,12 @@
 			"",
 			"**Special:** You can gain this feat multiple times. Each time you take this feat, you must choose a different benefit. You may only apply one of these benefits per round (chosen as a free action at the start of your turn).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/128}",
-			">",
-			">When wielding a weapon with \"orc\" in its name that you are proficient with, you can spend 5 stamina points to gain one of the benefits for this feat that you don't already have for 1 minute."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/128}  ",
+			"When wielding a weapon with \"orc\" in its name that you are proficient with, you can spend 5 stamina points to gain one of the benefits for this feat that you don't already have for 1 minute.",
+			"",
+			":::"
 		]
 	},
 	"ordered_mind": {
@@ -2511,10 +2569,12 @@
 			"**Prerequisites:** Base attack bonus +5, {ability/favored enemy} class feature.  ",
 			"**Benefit:** When you spend a swift action to attempt a {rule/performance combat} check, you may add your favored enemy bonus to the check if you're fighting a favored enemy.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/25}",
-			">",
-			">You can spend 2 stamina points to select another type of favored enemy (and subtype if humanoid or outsider is chosen). For the purposes of Ostentatious Weakness, that type counts as having been chosen with the favored enemy class feature, with a bonus equal to your highest favored enemy bonus."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/25}  ",
+			"You can spend 2 stamina points to select another type of favored enemy (and subtype if humanoid or outsider is chosen). For the purposes of Ostentatious Weakness, that type counts as having been chosen with the favored enemy class feature, with a bonus equal to your highest favored enemy bonus.",
+			"",
+			":::"
 		]
 	},
 	"osyluth_guile": {
@@ -2617,10 +2677,12 @@
 			"**Prerequisites:** Base attack bonus +4.  ",
 			"**Benefit:** Whenever you and an ally who also has this feat are {rule/flanking} the same creature, your flanking bonus on attack rolls increases to +4. In addition, whenever you score a critical hit against the flanked creature, it provokes an attack of opportunity from your ally.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/128}",
-			">",
-			">When you threaten but fail to confirm a critical hit against a creature you are flanking, you can spend 5 stamina points. If you do, that creature provokes an attack of opportunity from each ally with this feat who is flanking the creature, even though you didn't confirm the critical hit. You still can't use this ability against targets immune to critical hits."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/128}  ",
+			"When you threaten but fail to confirm a critical hit against a creature you are flanking, you can spend 5 stamina points. If you do, that creature provokes an attack of opportunity from each ally with this feat who is flanking the creature, even though you didn't confirm the critical hit. You still can't use this ability against targets immune to critical hits.",
+			"",
+			":::"
 		]
 	},
 	"outslug_sprint": {
@@ -2852,10 +2914,12 @@
 			"**Benefit:** When you are adjacent to an ally with this feat, the first time you melee attack an opponent, you can spend an immediate action to take a 5-foot step, even if you have otherwise moved this round.  ",
 			"**Normal:** You can take a 5-foot step only if you have not otherwise moved in a round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/128}",
-			">",
-			">When you are adjacent to an ally that also has this feat, you can spend 2 stamina points to take a 5-foot step as a free action instead of an immediate action. You can still use this feat's ability only once per round."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/128}  ",
+			"When you are adjacent to an ally that also has this feat, you can spend 2 stamina points to take a 5-foot step as a free action instead of an immediate action. You can still use this feat's ability only once per round.",
+			"",
+			":::"
 		]
 	},
 	"pack_flanking": {
@@ -2998,10 +3062,12 @@
 			"You know how to make an enemy pay for lax defenses.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +4 circumstance bonus on attacks of opportunity against creatures that you both threaten. Enemies that provoke attacks of opportunity from your ally also provoke attacks of opportunity from you so long as you threaten them (even if the situation or an ability would normally deny you the attack of opportunity). This does not allow you to take more than one attack of opportunity against a creature for a given action.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/128}",
-			">",
-			">As long as an ally that also has this feat is within your melee reach, you can spend 2 stamina points to gain this feat's benefits until the end of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/128}  ",
+			"As long as an ally that also has this feat is within your melee reach, you can spend 2 stamina points to gain this feat's benefits until the end of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"pantheistic_blessing": {
@@ -3125,10 +3191,12 @@
 			"**Prerequisites:** Wis 15, {feat/Combat Reflexes}, {feat/Improved Unarmed Strike}, {feat/Panther Style}.  ",
 			"**Benefit:** While using Panther Style, you can spend a free action, instead of spending a swift action, to make a retaliatory unarmed strike. You can make a number of retaliatory unarmed strikes on your turn equal to your Wisdom modifier.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/128}",
-			">",
-			">When making a retaliatory strike, you can spend up to 5 stamina points to gain a bonus on the damage roll equal to double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/128}  ",
+			"When making a retaliatory strike, you can spend up to 5 stamina points to gain a bonus on the damage roll equal to double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"panther_parry": {
@@ -3146,10 +3214,12 @@
 			"**Prerequisites:** Wis 15, {feat/Combat Reflexes}, {feat/Improved Unarmed Strike}, {feat/Panther Claw}, {feat/Panther Style}.  ",
 			"**Benefit:** While using Panther Style, your retaliatory unarmed strikes are resolved before the triggering attacks. If your retaliatory unarmed strike deals damage to an opponent, that opponent takes a -2 penalty on attack and damage rolls with the triggering attack of opportunity.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/128}",
-			">",
-			">When your retaliatory strike damages an opponent, you can spend 5 stamina points to increase the penalty the target takes on attack and damage rolls to -4."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/128}  ",
+			"When your retaliatory strike damages an opponent, you can spend 5 stamina points to increase the penalty the target takes on attack and damage rolls to -4.",
+			"",
+			":::"
 		]
 	},
 	"panther_style": {
@@ -3167,10 +3237,12 @@
 			"**Prerequisites:** Wis 13, {feat/Combat Reflexes}, {feat/Improved Unarmed Strike}.  ",
 			"**Benefit:** While using this style, when an opponent makes an attack of opportunity against you for moving through a threatened square, you can spend a swift action to make a retaliatory unarmed strike attack against that opponent. Your attack is resolved after the triggering attack of opportunity.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/128}",
-			">",
-			">Whenever you provoke an attack of opportunity, you can spend 5 stamina points to make a retaliatory strike as a swift action."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/128}  ",
+			"Whenever you provoke an attack of opportunity, you can spend 5 stamina points to make a retaliatory strike as a swift action.",
+			"",
+			":::"
 		]
 	},
 	"pao_lung_self_improvement": {
@@ -3201,10 +3273,12 @@
 			"**Prerequisites:** Dex 13, Wis 13, {feat/Improved Unarmed Strike}, base attack bonus +14.  ",
 			"**Benefit:** You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). Paralyzing Strike forces a foe damaged by your unarmed attack to attempt a Fortitude saving throw (DC = 10 + 1/2 your character level + your Wisdom modifier), in addition to dealing damage normally. A defender who fails this saving throw is {rule/paralyzed} for 1 round, until just before your next turn. You can attempt to use Paralyzing Strike once per day for every 4 character levels you have, but no more than once per round. Constructs, incorporeal creatures, plants, undead, and creatures that are immune to critical hits cannot be affected by this ability.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/128}",
-			">",
-			">You can spend 5 stamina points to declare that you are using this feat after you've hit with an unarmed strike roll."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/128}  ",
+			"You can spend 5 stamina points to declare that you are using this feat after you've hit with an unarmed strike roll.",
+			"",
+			":::"
 		]
 	},
 	"parry_spell": {
@@ -3252,10 +3326,12 @@
 			"**Normal:** You cannot attack when using the withdraw action.  ",
 			"**Special:** Starting at 6th level, a ranger with the archery combat style may select Parting Shot as a combat style feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/128}",
-			">",
-			">You can spend 2 stamina points to use this feat's benefit a second time during a single encounter. You can use this combat trick only once per encounter, so you still can't make more than two Parting Shot attacks total in one encounter.",
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/128}  ",
+			"You can spend 2 stamina points to use this feat's benefit a second time during a single encounter. You can use this combat trick only once per encounter, so you still can't make more than two Parting Shot attacks total in one encounter.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -3323,10 +3399,12 @@
 			"**Benefit:** Whenever you make a successful Acrobatics check to move through an opponent's space, you can spend a swift action to make a Bluff check against that opponent to feint in combat.  ",
 			"**Special:** If you have the {feat/Underfoot} feat and the opponent is larger than you, you gain a +2 bonus on the Bluff check this feat allows.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/128}",
-			">",
-			">You can spend 5 stamina points to attempt a Bluff check as a free action instead of a swift action when using this feat."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/128}  ",
+			"You can spend 5 stamina points to attempt a Bluff check as a free action instead of a swift action when using this feat.",
+			"",
+			":::"
 		]
 	},
 	"pathfinder_society_ally": {

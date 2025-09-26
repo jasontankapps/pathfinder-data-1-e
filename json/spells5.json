@@ -372,13 +372,14 @@
 			"",
 			"Casting goodberry makes 2d4 freshly picked berries magical. You (as well as any other druid of 3rd or higher level) can immediately discern which berries are affected. Each transmuted berry provides nourishment as if it were a normal meal for a Medium creature. The berry also cures 1 point of damage when eaten, subject to a maximum of 8 points of such curing in any 24-hour period.",
 			"",
-			"### Mythic Goodberry",
+			":::mythic{title=\"Mythic Goodberry\"}",
 			"",
-			"{SOURCE Mythic Adventures/96}",
-			"",
+			"{SOURCE Mythic Adventures/96}  ",
 			"Each berry provides a full day's nourishment and counts as 1 hour of complete rest for the purpose of removing exhaustion, fatigue, or nonlethal damage.",
 			"",
-			"*Augmented (2nd):* You can cast the spell to affect only one berry, imbuing into that berry any harmless druid spell you have prepared. The spell remains stored in the berry for the duration of the goodberry spell or until the berry is consumed. A creature that eats the berry gains the benefits of that spell as if you had cast it upon her. The maximum level of the imbued spell is equal to half your tier, and you must expend one use of mythic power for each spell level of the imbued spell (in addition to the one use needed to cast mythic goodberry). Similar to imbue with spell ability, you can't prepare a spell in that spell's slot until the berry is consumed or the mythic goodberry spell ends."
+			"*Augmented (2nd):* You can cast the spell to affect only one berry, imbuing into that berry any harmless druid spell you have prepared. The spell remains stored in the berry for the duration of the goodberry spell or until the berry is consumed. A creature that eats the berry gains the benefits of that spell as if you had cast it upon her. The maximum level of the imbued spell is equal to half your tier, and you must expend one use of mythic power for each spell level of the imbued spell (in addition to the one use needed to cast mythic goodberry). Similar to imbue with spell ability, you can't prepare a spell in that spell's slot until the berry is consumed or the mythic goodberry spell ends.",
+			"",
+			":::"
 		]
 	},
 	"gorums_armor": {
@@ -402,11 +403,12 @@
 			"",
 			"The targeted suit of armor or shield sprouts thousands of tiny iron spikes like porcupine quills. These do not harm the armor's wearer (though donning or removing armor under the effects of this spell takes twice as long), but they act as armor spikes or shield spikes (as appropriate). Any creature attacking the wearer with natural weapons takes 1 point of piercing damage for each attack that hits. At 5th level, the spikes gain a +1 enhancement bonus on attack and damage rolls; this bonus increases to +2 at 10th level. At 15th level, the spikes also gain the anarchic weapon quality.",
 			"",
-			"### Mythic Gorum's Armor",
+			":::mythic{title=\"Mythic Gorum's Armor\"}",
 			"",
-			"{SOURCE Mythic Origins/12}",
+			"{SOURCE Mythic Origins/12}  ",
+			"The damage to attackers increases to 1d4 points of piercing damage and affects creatures that attack the wearer with a melee weapon, an unarmed strike, or a natural weapon. Melee weapons with reach do not endanger a creature in this way. If you're wearing the armor and are taking bleed damage, the spikes lengthen and grow wicked barbs-this increases their damage against foes that strike you to 1d6 + 1/2 your caster level (maximum +5), and the spikes deal 1 point of bleed damage to any foe damaged by them. When your bleeding stops, the spikes immediately return to their normal size and any bleed effects caused by the armor end.",
 			"",
-			"The damage to attackers increases to 1d4 points of piercing damage and affects creatures that attack the wearer with a melee weapon, an unarmed strike, or a natural weapon. Melee weapons with reach do not endanger a creature in this way. If you're wearing the armor and are taking bleed damage, the spikes lengthen and grow wicked barbs-this increases their damage against foes that strike you to 1d6 + 1/2 your caster level (maximum +5), and the spikes deal 1 point of bleed damage to any foe damaged by them. When your bleeding stops, the spikes immediately return to their normal size and any bleed effects caused by the armor end."
+			":::"
 		]
 	},
 	"gozrehs_trident": {
@@ -958,10 +960,9 @@
 			"",
 			"The whole warded area radiates strong magic of the abjuration school. A {spell/dispel magic} cast on a specific effect, if successful, removes only that effect. A successful mage's disjunction destroys the entire guards and wards effect.",
 			"",
-			"### Mythic Guards and Wards",
+			":::mythic{title=\"Mythic Guards and Wards\"}",
 			"",
-			"{SOURCE Mythic Adventures/97}",
-			"",
+			"{SOURCE Mythic Adventures/97}  ",
 			"You are alerted whenever any creature enters the warded area as if by a mental alarm spell as long as you're on the same plane as the warded area. At will, you can concentrate to observe the warded area as if using arcane eye. When you start concentrating, the sensor always appears at a point you designate when you cast the spell. You can place two of the five effects listed in the spell (dancing lights and so on) instead of one.",
 			"",
 			"*Augmented (3rd):* You can place the following effects anywhere within the warded area by expending one additional use of mythic power per effect.",
@@ -970,7 +971,9 @@
 			"7. {spell/Dispel magic} in one place. You select an area up to 5 feet square, and any creature that enters or passes through the area is targeted by the spell. *Saving Throw:* Will negates. *Spell Resistance:* yes.",
 			"8. {spell/Entangle} in four places, returning in 10 minutes if dispelled.",
 			"9. {spell/Explosive runes} in three places, returning in 10 minutes if activated or dispelled.",
-			"10. {spell/Slow} in three places, returning in 10 minutes if dispelled."
+			"10. {spell/Slow} in three places, returning in 10 minutes if dispelled.",
+			"",
+			":::"
 		]
 	},
 	"guidance": {
@@ -1432,13 +1435,14 @@
 			"",
 			"If used on an undead creature, harm acts like heal.",
 			"",
-			"### Mythic Harm",
+			":::mythic{title=\"Mythic Harm\"}",
 			"",
-			"{SOURCE Mythic Adventures/97}",
-			"",
+			"{SOURCE Mythic Adventures/97}  ",
 			"The damage dealt increases to 15 points of damage per caster level (maximum 225 points).",
 			"",
-			"*Augmented:* If you expend two uses of mythic power, the spell also acts as poison."
+			"*Augmented:* If you expend two uses of mythic power, the spell also acts as poison.",
+			"",
+			":::"
 		]
 	},
 	"harmless_form": {
@@ -1616,13 +1620,14 @@
 			"",
 			"All of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed. Multiple haste effects don't stack. Haste dispels and counters {spell/slow}.",
 			"",
-			"### Mythic Haste",
+			":::mythic{title=\"Mythic Haste\"}",
 			"",
-			"{SOURCE Mythic Adventures/97}",
-			"",
+			"{SOURCE Mythic Adventures/97}  ",
 			"Affected creatures gain an additional move action each round. The movement speed increase changes to 50 feet, to a maximum of three times the creature's normal speed for that movement type.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, the movement speed increase changes to 70 feet, with no limit based on the creature's normal speed. If an affected creature moves at least 30 feet on its turn, it can travel across liquid as if the liquid were solid. If the liquid deals damage on contact, the creature takes only half damage from moving across it."
+			"*Augmented (3rd):* If you expend two uses of mythic power, the movement speed increase changes to 70 feet, with no limit based on the creature's normal speed. If an affected creature moves at least 30 feet on its turn, it can travel across liquid as if the liquid were solid. If the liquid deals damage on contact, the creature takes only half damage from moving across it.",
+			"",
+			":::"
 		]
 	},
 	"hasten_judgement": {
@@ -1871,13 +1876,14 @@
 			"",
 			"With this spell you can steal the healing of the target creature. You must succeed at a melee touch attack to strike the target. If you do, until the effect ends, whenever your target is subject to a healing spell or a supernatural effect that heals hit points, the target only receives half the healing (rounded down) and you receive the other half (also rounded down). You must remain within 25 feet (plus 5 feet per two caster levels) of the target to gain this benefit. If you move outside that range, the spell is discharged. Once you steal 5 hit points per your caster level (maximum 50 hit points) of healing from this spell's effect, the spell is discharged.",
 			"",
-			"### Mythic Healing Thief",
+			":::mythic{title=\"Mythic Healing Thief\"}",
 			"",
-			"{SOURCE Mythic Adventures/97}",
-			"",
+			"{SOURCE Mythic Adventures/97}  ",
 			"Instead of stealing half the target's healing, you steal all of it. The amount of damage you steal before the spell is discharged increases to 10 points per caster level (maximum 100 points).",
 			"",
-			"*Augmented:* If you expend two uses of mythic power, the range of the spell changes to close (25 feet + 5 feet per 2 caster levels). If the target has fast healing or regeneration, you steal half of its fast healing or regeneration. Healing from these abilities count toward the maximum healing stolen before the spell is discharged."
+			"*Augmented:* If you expend two uses of mythic power, the range of the spell changes to close (25 feet + 5 feet per 2 caster levels). If the target has fast healing or regeneration, you steal half of its fast healing or regeneration. Healing from these abilities count toward the maximum healing stolen before the spell is discharged.",
+			"",
+			":::"
 		]
 	},
 	"healing_token": {
@@ -2007,11 +2013,12 @@
 			"",
 			"Heat metal counters and dispels {spell/chill metal}.",
 			"",
-			"### Mythic Heat Metal",
+			":::mythic{title=\"Mythic Heat Metal\"}",
 			"",
-			"{SOURCE Mythic Adventures/97}",
+			"{SOURCE Mythic Adventures/97}  ",
+			"The damage dealt increases to 1d8 points of fire damage on rounds 2 and 6 and to 2d8 points of fire damage per round on rounds 3 through 5. On any round in which a creature takes fire damage from this spell, that creature must succeed at a Reflex save or catch on fire.",
 			"",
-			"The damage dealt increases to 1d8 points of fire damage on rounds 2 and 6 and to 2d8 points of fire damage per round on rounds 3 through 5. On any round in which a creature takes fire damage from this spell, that creature must succeed at a Reflex save or catch on fire."
+			":::"
 		]
 	},
 	"heatstroke": {
@@ -2532,15 +2539,16 @@
 			"",
 			"You give the target a +4 resistance bonus on saving throws against witch hexes.",
 			"",
-			"### Mythic Hex Ward",
+			":::mythic{title=\"Mythic Hex Ward\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}",
-			"",
+			"{SOURCE Mythic Adventures/98}  ",
 			"The target gains immunity to one witch hex (but not a major hex or grand hex) of your choice.",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, instead of granting immunity to one witch hex, you can grant immunity to two hexes or one major hex.",
 			"",
-			"If you're at least 6th tier and expend three uses of mythic power, you instead grant immunity to three hexes, two major hexes, or one grand hex."
+			"If you're at least 6th tier and expend three uses of mythic power, you instead grant immunity to three hexes, two major hexes, or one grand hex.",
+			"",
+			":::"
 		]
 	},
 	"hibernate": {
@@ -2795,15 +2803,16 @@
 			"",
 			"A creature with an Intelligence score of 2 or lower is not affected. A creature whose type is different from the caster's receives a +4 bonus on its saving throw, because humor doesn't \"translate\" well.",
 			"",
-			"### Mythic Hideous Laughter",
+			":::mythic{title=\"Mythic Hideous Laughter\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}",
-			"",
+			"{SOURCE Mythic Adventures/98}  ",
 			"A creature of a type different than your own doesn't gain a bonus on its saving throws against this spell. The affected target laughs so hard it hurts, and takes 1d6 points of nonlethal damage each round it spends laughing.",
 			"",
 			"If the target fails its initial save, it must succeed at two follow-up saving throws (each a full-round action that doesn't provoke attacks of opportunity) to end the spell. Succeeding at only one save means the spell no longer deals damage, but the target is still unable to take actions.",
 			"",
-			"*Augmented:* If you expend two uses of mythic power, the target's laughter becomes contagious. When the target's allies are within 30 feet and can hear the laugh, they must successfully save against the spell or be sickened until the target stops laughing. The sickened effect ends if the ally moves more than 30 feet from the target or is unable to hear the target's laughter for an entire round."
+			"*Augmented:* If you expend two uses of mythic power, the target's laughter becomes contagious. When the target's allies are within 30 feet and can hear the laugh, they must successfully save against the spell or be sickened until the target stops laughing. The sickened effect ends if the ally moves more than 30 feet from the target or is unable to hear the target's laughter for an entire round.",
+			"",
+			":::"
 		]
 	},
 	"hobble": {
@@ -2977,11 +2986,12 @@
 			"",
 			"Add 5 to the normal DC for forcing open a portal affected by this spell.",
 			"",
-			"### Mythic Hold Portal",
+			":::mythic{title=\"Mythic Hold Portal\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}",
+			"{SOURCE Mythic Adventures/98}  ",
+			"The target portal can be as large as 30 square feet per caster level. A creature attempting to force open the portal must first succeed at a Will save against the spell's DC. This is a mind-affecting effect. Failure means the creature can't open the door while the spell is in effect.",
 			"",
-			"The target portal can be as large as 30 square feet per caster level. A creature attempting to force open the portal must first succeed at a Will save against the spell's DC. This is a mind-affecting effect. Failure means the creature can't open the door while the spell is in effect."
+			":::"
 		]
 	},
 	"hollow_blades": {
@@ -3149,11 +3159,12 @@
 			"",
 			"The spell deals only half damage to creatures who are neither good nor evil, and they are not blinded. Such a creature can reduce that damage by half (down to one-quarter of the roll) with a successful Will save.",
 			"",
-			"### Mythic Holy Smite",
+			":::mythic{title=\"Mythic Holy Smite\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}",
+			"{SOURCE Mythic Adventures/98}  ",
+			"The damage dealt to evil outsiders increases to 1d10 points of damage per caster level (maximum 10d10) and the damage dealt to other evil creatures increases to 1d12 points of damage per 2 caster levels (maximum 5d12). The duration that creatures in the area are blinded increases to 2 rounds. On a successful save, an evil creature is blinded for 1 round.",
 			"",
-			"The damage dealt to evil outsiders increases to 1d10 points of damage per caster level (maximum 10d10) and the damage dealt to other evil creatures increases to 1d12 points of damage per 2 caster levels (maximum 5d12). The duration that creatures in the area are blinded increases to 2 rounds. On a successful save, an evil creature is blinded for 1 round."
+			":::"
 		]
 	},
 	"holy_sword": {
@@ -3235,11 +3246,12 @@
 			"",
 			"Creatures whose HD exceed your caster level are unaffected by holy word.",
 			"",
-			"### Mythic Holy Word",
+			":::mythic{title=\"Mythic Holy Word\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}",
+			"{SOURCE Mythic Adventures/98}  ",
+			"When determining the spell's effect on non-mythic creatures, add your tier to your caster level. Nongood creatures that fail their saves also take a -4 penalty on attack rolls and saving throws, and their spell resistance decreases by 5 for as long as the spell's other effects last.",
 			"",
-			"When determining the spell's effect on non-mythic creatures, add your tier to your caster level. Nongood creatures that fail their saves also take a -4 penalty on attack rolls and saving throws, and their spell resistance decreases by 5 for as long as the spell's other effects last."
+			":::"
 		]
 	},
 	"honeyed_tongue": {
@@ -3717,11 +3729,12 @@
 			"",
 			"You call forth a quick blast of water that knocks over and soaks one creature or square. You can use this blast of water to make a bull rush against any one creature or object. Your CMB for this bull rush is equal to your caster level plus your Intelligence, Wisdom, or Charisma modifier, whichever is highest. This bull rush does not provoke an attack of opportunity. Hydraulic push extinguishes any normal fires on a creature, object, or in a single 5-foot square which it is targeted against. Magical fires are unaffected.",
 			"",
-			"### Mythic Hydraulic Push",
+			":::mythic{title=\"Mythic Hydraulic Push\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}",
+			"{SOURCE Mythic Adventures/98}  ",
+			"The water is boiling hot or freezing cold, dealing 1d6 points of fire or cold damage per 2 caster levels. Add your tier to your CMB for the spell.",
 			"",
-			"The water is boiling hot or freezing cold, dealing 1d6 points of fire or cold damage per 2 caster levels. Add your tier to your CMB for the spell."
+			":::"
 		]
 	},
 	"hydraulic_torrent": {
@@ -3748,13 +3761,14 @@
 			"",
 			"Hydraulic torrent extinguishes any normal fires it encounters along its path. Magical fires are unaffected.",
 			"",
-			"### Mythic Hydraulic Torrent",
+			":::mythic{title=\"Mythic Hydraulic Torrent\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}",
-			"",
+			"{SOURCE Mythic Adventures/98}  ",
 			"The water is boiling hot or freezing cold, dealing 1d6 points of fire or cold damage per 2 caster levels. Add your tier to your CMB for the spell and on the Strength check to destroy immovable targets.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, the spell can extinguish magical fires as if using a targeted {spell/dispel magic}. Freezing cold water hardens into ice on the ground, lasting as long as prevailing conditions allow. Boiling hot water turns into steam, creating an area of concealing mist (equivalent to obscuring mist) that fills the affected squares and all squares adjacent to the line of the spell."
+			"*Augmented (3rd):* If you expend two uses of mythic power, the spell can extinguish magical fires as if using a targeted {spell/dispel magic}. Freezing cold water hardens into ice on the ground, lasting as long as prevailing conditions allow. Boiling hot water turns into steam, creating an area of concealing mist (equivalent to obscuring mist) that fills the affected squares and all squares adjacent to the line of the spell.",
+			"",
+			":::"
 		]
 	},
 	"hydrophobia": {
@@ -4003,13 +4017,14 @@
 			"",
 			"Great magical hailstones pound down upon casting this spell, dealing 3d6 points of bludgeoning damage and 2d6 points of cold damage to every creature in the area. This damage only occurs once, when the spell is cast. For the remaining duration of the spell, heavy snow and sleet rains down in the area. Creatures inside this area take a -4 penalty on Perception skill checks and the entire area is treated as difficult terrain. At the end of the duration, the snow and hail disappear, leaving no after-effects (other than the damage dealt).",
 			"",
-			"### Mythic Ice Storm",
+			":::mythic{title=\"Mythic Ice Storm\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}",
-			"",
+			"{SOURCE Mythic Adventures/98}  ",
 			"The bludgeoning damage increases to 4d8 points of damage and the cold damage increases to 3d6 points of damage. The ground in the area is covered in ice and hailstones, acting as though a grease spell were cast on it. Dealing 5 or more points of fire damage to a square melts the ice and hail, negating the grease effect.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, one creature in the area is paralyzed (as if by hold person) and gains vulnerability to fire as long as it's paralyzed."
+			"*Augmented (6th):* If you expend two uses of mythic power, one creature in the area is paralyzed (as if by hold person) and gains vulnerability to fire as long as it's paralyzed.",
+			"",
+			":::"
 		]
 	},
 	"icicle_dagger": {

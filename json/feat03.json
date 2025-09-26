@@ -342,18 +342,21 @@
 			"**Prerequisites:** {ability/Channel energy} class feature.  ",
 			"**Benefit:** Before you make a melee attack roll, you can choose to spend one use of your channel energy ability as a swift action. If you channel positive energy and you hit an undead creature, that creature takes an amount of additional damage equal to the damage dealt by your channel positive energy ability. If you channel negative energy and you hit a living creature, that creature takes an amount of additional damage equal to the damage dealt by your channel negative energy ability. Your target can make a Will save, as normal, to halve this additional damage. If your attack misses, the channel energy ability is still expended with no effect.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When making an attack using this feat, you can spend a number of stamina points up to the number of dice in your channel energy. For each stamina point you spend in this way, add an additional 1d6 points of positive or negative energy damage to your Channel Smite attack. This damage is also halved if the target succeeds at its Will save against the Channel Smite attack.",
+			":::stamina",
 			"",
-			"### Mythic Channel Smite",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When making an attack using this feat, you can spend a number of stamina points up to the number of dice in your channel energy. For each stamina point you spend in this way, add an additional 1d6 points of positive or negative energy damage to your Channel Smite attack. This damage is also halved if the target succeeds at its Will save against the Channel Smite attack.",
 			"",
-			"{SOURCE Mythic Adventures/60}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Channel Smite\"}",
+			"",
+			"{SOURCE Mythic Adventures/60}  ",
 			"Your weapon a conduit of divine energy.  ",
 			"**Prerequisites:** Channel Smite.  ",
-			"**Benefit:** When using Channel Smite, you gain a bonus on your attack roll equal to the number of d6s granted by your channel energy class feature. This is either a sacred bonus (if channeling positive energy) or a profane bonus (if channeling negative energy). If your attack misses the target, you can expend one use of mythic power as a free action to release the channeled energy, producing the normal effects of your channel energy class feature centered on the creature you were attempting to smite."
+			"**Benefit:** When using Channel Smite, you gain a bonus on your attack roll equal to the number of d6s granted by your channel energy class feature. This is either a sacred bonus (if channeling positive energy) or a profane bonus (if channeling negative energy). If your attack misses the target, you can expend one use of mythic power as a free action to release the channeled energy, producing the normal effects of your channel energy class feature centered on the creature you were attempting to smite.",
+			"",
+			":::"
 		]
 	},
 	"channel_spirit": {
@@ -450,10 +453,12 @@
 			"**Prerequisites:** Ability to cast at least one {spelldef/force} spell, {ability/channel energy} class feature.  ",
 			"**Benefit:** A swift action, you can expend one use of channel energy to grant your weapon attacks a bonus on damage rolls equal to the number of dice of your channel energy. This extra damage is force damage. This lasts for your next three weapon attacks or until the end of combat, whichever comes first.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When you hit with an attack while using this feat, you can spend 5 stamina points to not have that attack count as one of the three attacks you can make with the force-imbued weapon."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When you hit with an attack while using this feat, you can spend 5 stamina points to not have that attack count as one of the three attacks you can make with the force-imbued weapon.",
+			"",
+			":::"
 		]
 	},
 	"channeling_scourge": {
@@ -518,10 +523,12 @@
 			"**Benefit:** You do not take a penalty to AC while charging undead creatures and evil outsiders.  ",
 			"**Normal:** When you charge, you take a -2 penalty to AC until the start of your next turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/24}",
-			">",
-			">When charging any creature with an evil alignment, you can spend 2 stamina points in order to ignore the -2 penalty to AC imposed by charging."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/24}  ",
+			"When charging any creature with an evil alignment, you can spend 2 stamina points in order to ignore the -2 penalty to AC imposed by charging.",
+			"",
+			":::"
 		]
 	},
 	"charge_through": {
@@ -541,18 +548,21 @@
 			"**Benefit:** When making a charge, you can attempt to {rule/overrun} one creature in the path of the charge as a free action. If you successfully overrun that creature, you can complete the charge. If the overrun is unsuccessful, the charge ends in the space directly in front of that creature.  ",
 			"**Normal:** You must have a clear path toward the target of your charge.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When you attempt and fail to overrun a creature in the path of your charge, you can spend 5 stamina points to finish your charge against that creature instead of losing your charge.",
+			":::stamina",
 			"",
-			"### Mythic Charge Through",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When you attempt and fail to overrun a creature in the path of your charge, you can spend 5 stamina points to finish your charge against that creature instead of losing your charge.",
 			"",
-			"{SOURCE Mythic Adventures/60}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Charge Through\"}",
+			"",
+			"{SOURCE Mythic Adventures/60}  ",
 			"You can plow through those who stand between you and the target of your charge.  ",
 			"**Prerequisites:** Charge Through.  ",
-			"**Benefit:** When charging, you can ignore allies in your path when determining whether or not you can charge your target. Furthermore, after you have attempted at least one overrun with Charge Through, you can expend one use of mythic power as a free action to attempt another overrun against a different opponent in the path of the same charge."
+			"**Benefit:** When charging, you can ignore allies in your path when determining whether or not you can charge your target. Furthermore, after you have attempted at least one overrun with Charge Through, you can expend one use of mythic power as a free action to attempt another overrun against a different opponent in the path of the same charge.",
+			"",
+			":::"
 		]
 	},
 	"charging_hurler": {
@@ -570,10 +580,12 @@
 			"**Prerequisites:** {feat/Point-Blank Shot}.  ",
 			"**Benefit:** You can use the charge rules to make a thrown weapon attack. All the parameters of a charge apply, except that you must only move closer to your opponent, and you must end your movement within 30 feet of that opponent. If you do, you can make a single thrown weapon attack against that opponent, gaining the +2 bonus on the attack roll and taking a -2 penalty to your AC until the start of your next turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When using this feat, you can spend 2 stamina points to end your movement within 50 feet of your target instead of 30 feet."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When using this feat, you can spend 2 stamina points to end your movement within 50 feet of your target instead of 30 feet.",
+			"",
+			":::"
 		]
 	},
 	"charging_stag_style": {
@@ -749,10 +761,12 @@
 			"**Prerequisites:** {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, base attack bonus +6 or monk level 5th.  ",
 			"**Benefit:** While you have an opponent up to one size category larger than you grappled, you can attempt a grapple combat maneuver with a -5 penalty on the check. If you succeed, you have pinned your opponent and hold the opponent in a chokehold. When you maintain the grapple, you also maintain the chokehold. A creature in a chokehold cannot breathe or speak, and thus cannot cast spells that have a verbal component. An opponent you have in a chokehold has to {misc/hold his breath} or begin {rule/suffocati/ng>on}. Any creature that does not breathe, is immune to bleed damage, or is immune to critical hits is immune to the effects of your chokehold. When the grapple is ended, so is the chokehold.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When you attempt a chokehold, you can spend 2 stamina points to reduce the penalty to -1."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When you attempt a chokehold, you can spend 2 stamina points to reduce the penalty to -1.",
+			"",
+			":::"
 		]
 	},
 	"choral_support": {
@@ -917,10 +931,12 @@
 			"**Benefit:** When you make a charge, you can make a full attack with your claws.  ",
 			"**Normal:** Charging is a special full-round action that limits you to a single attack.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When you charge, you can spend 5 stamina points to make a second attack with one of your claws."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When you charge, you can spend 5 stamina points to make a second attack with one of your claws.",
+			"",
+			":::"
 		]
 	},
 	"claw_wrench": {
@@ -970,18 +986,21 @@
 			"**Prerequisites:** Str 13, {feat/Power Attack}, base attack bonus +1.  ",
 			"**Benefit:** As a standard action, you can make a single attack at your full base attack bonus against a foe within reach. If you hit, you deal damage normally and can make an additional attack (using your full base attack bonus) against a foe that is adjacent to the first and also within reach. You can only make one additional attack per round with this feat. When you use this feat, you take a -2 penalty to your Armor Class until your next turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When using the Cleave or {feat/Great Cleave} feat, you can spend 4 stamina points to negate the -2 penalty to Armor Class until your next turn.",
+			":::stamina",
 			"",
-			"### Mythic Cleave",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When using the Cleave or {feat/Great Cleave} feat, you can spend 4 stamina points to negate the -2 penalty to Armor Class until your next turn.",
 			"",
-			"{SOURCE Mythic Adventures/61}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Cleave\"}",
+			"",
+			"{SOURCE Mythic Adventures/61}  ",
 			"You can cleave any foe within your reach.  ",
 			"**Prerequisites:** Cleave.  ",
 			"**Benefit:** Whenever you use Cleave or Great Cleave, one of your attacks can be made against a foe that is within your reach, but not adjacent to the foe you attacked. You can expend one use of mythic power when you use Cleave or Great Cleave to continue making attacks against foes within your reach, regardless of their position, as long as you continue to hit each foe. You can't use this ability to attack a foe more than once per round.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -1009,10 +1028,12 @@
 			"**Benefit:** When using Cleave or {feat/Great Cleave}, if your initial attack hits, you may take a single 5-foot step as a free action before making your additional attacks. If doing so places a creature within your threatened area, that creature becomes a legal target for your additional Cleave attack(s) as long as it meets all the other prerequisites.  ",
 			"**Normal:** You may only make additional attacks with Cleave against creatures you threaten when you make your initial attack.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When using this feat, once per round when you hit a creature with a follow-up Cleave attack, you can spend 5 stamina points to take a second 5-foot step as a free action. If doing so places a creature within your threatened area, that creature becomes a legal target for your additional Cleave attacks as long as it meets all the other prerequisites."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When using this feat, once per round when you hit a creature with a follow-up Cleave attack, you can spend 5 stamina points to take a second 5-foot step as a free action. If doing so places a creature within your threatened area, that creature becomes a legal target for your additional Cleave attacks as long as it meets all the other prerequisites.",
+			"",
+			":::"
 		]
 	},
 	"cleaving_finish": {
@@ -1030,10 +1051,12 @@
 			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Power Attack}.  ",
 			"**Benefit:** If you make a melee attack, and your target drops to 0 or fewer hit points as a result of your attack, you can make another melee attack using your highest base attack bonus against another opponent within reach. You can make only one extra attack per round with this feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">After making a Cleaving Finish attack, if you bring another target below 0 hit points in the same round, you can spend 5 stamina points to make another Cleaving Finish attack."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"After making a Cleaving Finish attack, if you bring another target below 0 hit points in the same round, you can spend 5 stamina points to make another Cleaving Finish attack.",
+			"",
+			":::"
 		]
 	},
 	"cleaving_sweep": {
@@ -1187,10 +1210,12 @@
 			"**Benefit:** Choose a type of thrown weapon. You do not provoke attacks of opportunity for making ranged attacks using the selected weapon. If you are an {class/alchemist}, and you select this feat and choose alchemist bombs, you do not provoke attacks of opportunity for the process of drawing components of, creating, and throwing a bomb.  ",
 			"**Normal:** Making a ranged attack provokes attacks of opportunity.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When throwing any thrown weapon, you can spend 2 stamina points. If you do, you do not provoke attacks of opportunity for that throw."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When throwing any thrown weapon, you can spend 2 stamina points. If you do, you do not provoke attacks of opportunity for that throw.",
+			"",
+			":::"
 		]
 	},
 	"cloud_gazer": {
@@ -1247,10 +1272,12 @@
 			"**Prerequisites:** {feat/Dented Helm}, base attack bonus +11, {race/dwarf}.  ",
 			"**Benefit:** When wearing a helmet, you add +1 to your AC against critical hit confirmation rolls; this benefit stacks with Dented Helm. When you use Dented Helm to deflect a critical hit, you may apply all damage from the critical hit to your helmet before applying any damage to yourself. If you take no damage, any additional effects, such as critical feats or poison, are negated.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When you are threatened with a critical hit, you can spend up to 5 stamina points. You gain an additional bonus to AC against the critical confirmation roll equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When you are threatened with a critical hit, you can spend up to 5 stamina points. You gain an additional bonus to AC against the critical confirmation roll equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"clustered_shots": {
@@ -1269,10 +1296,12 @@
 			"**Benefit:** When you use a full-attack action to make multiple ranged weapon attacks against the same opponent, total the damage from all hits before applying that opponent's damage reduction.  ",
 			"**Special:** If the massive damage optional rule is being used, that rule applies if the total damage you deal with this feat is equal to or exceeds half the opponent's full normal hit points (minimum 50 points of damage).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When using this feat, you can spend up to 2 stamina points for each attack that hit the same target. Increase the damage pooled by this feat by an amount equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When using this feat, you can spend up to 2 stamina points for each attack that hit the same target. Increase the damage pooled by this feat by an amount equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"coaxing_spell": {
@@ -1303,10 +1332,12 @@
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Gorgon's Fist}, {feat/Medusa's Wrath}, base attack bonus +16.  ",
 			"**Benefit:** As a full-round action, you can make a single unarmed strike against a dazed, flat-footed, paralyzed, staggered, stunned, or unconscious foe. If that attack is a critical hit, the target is {rule/petrified} unless it succeeds on a Fortitude saving throw with a DC of 10 + 1/2 your character level + your Wisdom modifier. This is a supernatural polymorph effect.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">You can spend 5 stamina points to make a Cockatrice Strike attack against a foe you are flanking."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"You can spend 5 stamina points to make a Cockatrice Strike attack against a foe you are flanking.",
+			"",
+			":::"
 		]
 	},
 	"cold_celerity": {
@@ -1421,18 +1452,21 @@
 			"**Prerequisites:** Int 13.  ",
 			"**Benefit:** You can choose to take a -1 penalty on melee attack rolls and combat maneuver checks to gain a +1 dodge bonus to your Armor Class. When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by -1 and the dodge bonus increases by +1. You can only choose to use this feat when you declare that you are making an attack or a full-attack action with a melee weapon. The effects of this feat last until your next turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. If you spend stamina points to raise an attack roll using the Combat Stamina feat's benefits, ignore an amount of your Combat Expertise penalty equal to the number of stamina points you spent.",
+			":::stamina",
 			"",
-			"### Mythic Combat Expertise",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. If you spend stamina points to raise an attack roll using the Combat Stamina feat's benefits, ignore an amount of your Combat Expertise penalty equal to the number of stamina points you spent.",
 			"",
-			"{SOURCE Mythic Adventures/61}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Combat Expertise\"}",
+			"",
+			"{SOURCE Mythic Adventures/61}  ",
 			"You can dart out of the way of attacks with skill and defiance.  ",
 			"**Prerequisites:** Combat Expertise.  ",
 			"**Benefit:** Whenever you use Combat Expertise, you gain an additional +2 dodge bonus to your Armor Class. You can expend one use of mythic power to negate the penalties on melee attack rolls and combat maneuver checks caused by using Combat Expertise for 1 minute.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -1483,10 +1517,12 @@
 			"**Prerequisites:** {feat/Combat Reflexes}, {feat/Mobility}, base attack bonus +5.  ",
 			"**Benefit:** As a full-round action, you may set up a combat patrol, increasing your threatened area by 5 feet for every 5 points of your base attack bonus. Until the beginning of your next turn, you may make attacks of opportunity against any opponent in this threatened area that provokes attacks of opportunity. You may move as part of these attacks, provided your total movement before your next turn does not exceed your speed. Any movement you make provokes attacks of opportunity as normal.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When moving before or after making an attack of opportunity while using Combat Patrol, you can spend 1 stamina point per 5 feet moved. When you do, that movement does not provoke attacks of opportunity."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When moving before or after making an attack of opportunity while using Combat Patrol, you can spend 1 stamina point per 5 feet moved. When you do, that movement does not provoke attacks of opportunity.",
+			"",
+			":::"
 		]
 	},
 	"combat_reflexes": {
@@ -1506,18 +1542,21 @@
 			"**Normal:** A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while flat-footed.  ",
 			"**Special:** The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When you miss with an attack of opportunity, you can spend 5 stamina points to make a second attack for the same provoking action. That second attack of opportunity takes a -5 penalty on the attack roll and costs one of your attacks of opportunity for the round.",
+			":::stamina",
 			"",
-			"### Mythic Combat Reflexes",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When you miss with an attack of opportunity, you can spend 5 stamina points to make a second attack for the same provoking action. That second attack of opportunity takes a -5 penalty on the attack roll and costs one of your attacks of opportunity for the round.",
 			"",
-			"{SOURCE Mythic Adventures/61}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Combat Reflexes\"}",
+			"",
+			"{SOURCE Mythic Adventures/61}  ",
 			"You strike viciously whenever your foe gives you an opening.  ",
 			"**Prerequisites:** Combat Reflexes.  ",
-			"**Benefit:** You can make any number of additional attacks of opportunity per round. As a swift action, you can expend one use of mythic power to, until the start of your next turn, make attacks of opportunity against foes you've already made attacks of opportunity against this round if they provoke attacks of opportunity from you by moving."
+			"**Benefit:** You can make any number of additional attacks of opportunity per round. As a swift action, you can expend one use of mythic power to, until the start of your next turn, make attacks of opportunity against foes you've already made attacks of opportunity against this round if they provoke attacks of opportunity from you by moving.",
+			"",
+			":::"
 		]
 	},
 	"combat_rhythm": {
@@ -1563,10 +1602,12 @@
 			"**Benefit:** You can switch your style as a free action. At the start of combat, pick one of your styles. You start the combat in that style, even in the surprise round.  ",
 			"**Normal:** It takes a swift action to begin or switch your styles.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When it is not your turn, you can spend 2 stamina points to take the free action to switch your style."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When it is not your turn, you can spend 2 stamina points to take the free action to switch your style.",
+			"",
+			":::"
 		]
 	},
 	"combat_vigor": {
@@ -1623,13 +1664,14 @@
 			"**Prerequisites:** {ability/Channel negative energy} class feature.  ",
 			"**Benefit:** As a standard action, you can use one of your uses of channel negative energy to enslave undead within 30 feet. Undead receive a Will save to negate the effect. The DC for this Will save is equal to 10 + 1/2 your cleric level + your Charisma modifier. Undead that fail their saves fall under your control, obeying your commands to the best of their ability, as if under the effects of control undead. Intelligent undead receive a new saving throw each day to resist your command. You can control any number of undead, so long as their total Hit Dice do not exceed your cleric level. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures). If an undead creature is under the control of another creature, you must make an opposed Charisma check whenever your orders conflict.",
 			"",
-			"### Mythic Command Undead",
+			":::mythic{title=\"Mythic Command Undead\"}",
 			"",
-			"{SOURCE Mythic Adventures/61}",
-			"",
+			"{SOURCE Mythic Adventures/61}  ",
 			"Your control of the undead is nearly absolute.  ",
 			"**Prerequisites:** Command Undead.  ",
-			"**Benefit:** When you command undead, the DC of the Will save increases by half your tier, and intelligent undead get no additional saves beyond their first to resist your commands. Any attempts by non-mythic creatures to control undead you command automatically fail, and you gain a +4 bonus on Charisma checks to prevent mythic creatures from stealing control of your undead."
+			"**Benefit:** When you command undead, the DC of the Will save increases by half your tier, and intelligent undead get no additional saves beyond their first to resist your commands. Any attempts by non-mythic creatures to control undead you command automatically fail, and you gain a +4 bonus on Charisma checks to prevent mythic creatures from stealing control of your undead.",
+			"",
+			":::"
 		]
 	},
 	"commander_of_goblinkind": {
@@ -2205,10 +2247,12 @@
 			"**Prerequisites:** You have at least two other {main/feats_<teamwork/ feats}, base attack bonus +10.  ",
 			"**Benefit:** When an ally with this feat charges a creature that is no further away from you than your speed, you can, as an immediate action, charge that creature. You must be able to follow all of the normal charge rules.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When an ally with this feat charges a creature, and that creature is farther than your speed but no farther than double your speed, you can spend 5 stamina points to charge that creature. You must still be able to follow all the rules for a charge."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When an ally with this feat charges a creature, and that creature is farther than your speed but no farther than double your speed, you can spend 5 stamina points to charge that creature. You must still be able to follow all the rules for a charge.",
+			"",
+			":::"
 		]
 	},
 	"coordinated_defense": {
@@ -2225,10 +2269,12 @@
 			"You are adept at working with allies to avoid being tripped, grappled, and subjected to other maneuvers.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +2 competence bonus to your Combat Maneuver Defense. This bonus increases to +4 if the creature attempting the maneuver is larger than both you and your ally.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/116}",
-			">",
-			">When you are targeted with a combat maneuver while you are adjacent to an ally who also has this feat, you can spend 1 or 2 stamina points. If you do, your bonus to Combat Maneuver Defense against that combat maneuver attempt increases by an amount equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/116}  ",
+			"When you are targeted with a combat maneuver while you are adjacent to an ally who also has this feat, you can spend 1 or 2 stamina points. If you do, your bonus to Combat Maneuver Defense against that combat maneuver attempt increases by an amount equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"coordinated_distraction": {
@@ -2257,10 +2303,12 @@
 			"You are skilled at working with your allies to perform dangerous combat maneuvers.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +2 competence bonus on all combat maneuver checks. This bonus increases to +4 when attempting to break free from a grapple.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/116}",
-			">",
-			">When you attempt a combat maneuver while adjacent to an ally who also has this feat, you can spend 1 stamina point to increase your bonus from this feat on that combat maneuver check by 2."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/116}  ",
+			"When you attempt a combat maneuver while adjacent to an ally who also has this feat, you can spend 1 stamina point to increase your bonus from this feat on that combat maneuver check by 2.",
+			"",
+			":::"
 		]
 	},
 	"coordinated_reposition": {
@@ -2291,10 +2339,12 @@
 			"**Prerequisites:** {feat/Point-Blank Shot}.  ",
 			"**Benefit:** If your ally with this feat is threatening an opponent and is not providing cover to that opponent against your ranged attacks, you gain a +1 bonus on ranged attacks against that opponent. If your ally with this feat is {rule/flanking} that opponent with another ally (even if that other ally doesn't have this feat), this bonus increases to +2.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/116}",
-			">",
-			">When making an attack roll, you can spend 2 stamina points to ignore any cover provided by an ally who also has this feat."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/116}  ",
+			"When making an attack roll, you can spend 2 stamina points to ignore any cover provided by an ally who also has this feat.",
+			"",
+			":::"
 		]
 	},
 	"cornugon_shield": {
@@ -2433,10 +2483,12 @@
 			"**Prerequisites:** {feat/Anticipate Dodge}, {feat/Dodge}, {feat/Mobility}; base attack bonus +9, brawler level 6th, or monk level 6th.  ",
 			"**Benefit:** Opponents with the Mobility feat do not gain the dodge bonus granted by that feat when they provoke attacks of opportunity by moving out of or within your threatened area.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/116}",
-			">",
-			">When an opponent with the Mobility feat moves out of or within your threatened area, you can spend 2 stamina points to gain a +4 bonus on your attack of opportunity."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/116}  ",
+			"When an opponent with the Mobility feat moves out of or within your threatened area, you can spend 2 stamina points to gain a +4 bonus on your attack of opportunity.",
+			"",
+			":::"
 		]
 	},
 	"countering_loophole": {
@@ -2481,10 +2533,12 @@
 			"**Prerequisites:** Dex 18, {feat/Combat Reflexes}, {feat/Improved Unarmed Strike}; base attack bonus +16 or brawler level 12th.  ",
 			"**Benefit:** Once per round, when you are fighting unarmed with both hands free and an opponent misses you with a melee attack, it provokes an attack of opportunity from you. You must use an unarmed strike for this attack of opportunity.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/116}",
-			">",
-			">You can spend 5 stamina points to use this feat a second time during the same round."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/116}  ",
+			"You can spend 5 stamina points to use this feat a second time during the same round.",
+			"",
+			":::"
 		]
 	},
 	"courage_in_a_bottle": {
@@ -2583,10 +2637,12 @@
 			"**Prerequisites:** {feat/Shield Focus}, base attack bonus +6.  ",
 			"**Benefit:** When you use the {misc/total defense} action while using a light, heavy, or tower shield, you can provide a cover bonus to AC against all attacks to an adjacent ally your size or smaller. This cover bonus is equal to your shield's shield bonus and lasts until the beginning of your next turn. Your shield does not provide a cover bonus to Reflex saves.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/116}",
-			">",
-			">When using the total defense action, you can spend 5 stamina points. If you do, your shield also provides a cover bonus on your ally's Reflex saves."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/116}  ",
+			"When using the total defense action, you can spend 5 stamina points. If you do, your shield also provides a cover bonus on your ally's Reflex saves.",
+			"",
+			":::"
 		]
 	},
 	"covering_fire_rtt": {
@@ -2630,10 +2686,12 @@
 			"**Prerequisites:** Dex 13, {feat/Shield Focus}, {feat/Shield Proficiency}.  ",
 			"**Benefit:** While using a shield of the type to which your Shield Focus feat applies, you gain a bonus on Reflex saves against area of effect attacks equal to your shield's base bonus to armor class plus any bonuses granted by feats or class abilities. This does not transfer any enhancement bonuses on a shield to Reflex saves.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/20}",
-			">",
-			">You can spend 3 stamina points to also gain the enhancement bonus of your shield on your Reflex save against one attack or hazard."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/20}  ",
+			"You can spend 3 stamina points to also gain the enhancement bonus of your shield on your Reflex save against one attack or hazard.",
+			"",
+			":::"
 		]
 	},
 	"cracking_the_shell": {
@@ -2908,10 +2966,12 @@
 			"**Prerequisites:** {feat/Crane Style}, {feat/Crane Wing}, {feat/Dodge}, {feat/Improved Unarmed Strike}, base attack bonus +8 or monk level 7th.  ",
 			"**Benefit:** You take only a -1 penalty on attack rolls for {misc/fighting defensively}. Whenever you deflect an opponent's attack using Crane Wing or lose the dodge bonus from Crane Wing because an attack missed you by 4 or less, you can make an attack of opportunity against the attacker after the attack misses.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/116}",
-			">",
-			">At the start of a turn when you are fighting defensively, you can spend 2 stamina points to take no penalty on your attack rolls from fighting defensively. This lasts until the start of your turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/116}  ",
+			"At the start of a turn when you are fighting defensively, you can spend 2 stamina points to take no penalty on your attack rolls from fighting defensively. This lasts until the start of your turn.",
+			"",
+			":::"
 		]
 	},
 	"crane_style": {
@@ -2929,10 +2989,12 @@
 			"**Prerequisites:** {feat/Dodge}, {feat/Improved Unarmed Strike}, base attack bonus +2 or monk level 1st.  ",
 			"**Benefit:** You take only a -2 penalty on attack rolls for {misc/fighting defensively}. While using this style and fighting defensively or using the {misc/total defense} action, you gain an additional +1 dodge bonus to your Armor Class.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/116}",
-			">",
-			">While using this style and fighting defensively or using the total defense action, when you are targeted with a melee attack, you can spend up to 3 stamina points and take an immediate action to increase your dodge bonus to AC against that attack by an amount equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/116}  ",
+			"While using this style and fighting defensively or using the total defense action, when you are targeted with a melee attack, you can spend up to 3 stamina points and take an immediate action to increase your dodge bonus to AC against that attack by an amount equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"crane_wing": {
@@ -2950,10 +3012,12 @@
 			"**Prerequisites:** {feat/Crane Style}, {feat/Dodge}, {feat/Improved Unarmed Strike}, base attack bonus +5 or monk level 5th.  ",
 			"**Benefit:** When {misc/fighting defensively} with at least one hand free, you gain a +4 dodge bonus to AC against melee attacks. If a melee attack misses you by 4 or less, you lose this dodge bonus until the beginning of your next turn. If you are using the {misc/total defense} action instead, you can deflect one melee attack that would normally hit you. An attack so deflected deals no damage and has no other effect (instead treat it as a miss). You do not expend an action when using this feat, but you must be aware of the attack and not flat-footed.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/116}",
-			">",
-			">When fighting defensively with at least one hand free, you can spend 5 stamina points to designate a second opponent for your Crane Wing feat. You also gain a +2 dodge bonus to AC against that opponent's attacks."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/116}  ",
+			"When fighting defensively with at least one hand free, you can spend 5 stamina points to designate a second opponent for your Crane Wing feat. You also gain a +2 dodge bonus to AC against that opponent's attacks.",
+			"",
+			":::"
 		]
 	},
 	"cranial_adjustment": {
@@ -3156,10 +3220,12 @@
 			"**Benefit:** Whenever you score a critical hit against an opponent, its speed is halved for 1 minute. A successful Fortitude save reduces this duration to 1d4 rounds. The DC of this save is equal to 10 + your base attack bonus. Against creatures with multiple types of movement, you must choose which movement type to affect. A flying creature hit by this attack must make a DC 10 Fly check to remain airborne, and has its maneuverability reduced by one step.  ",
 			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess {feat/Critical Mastery}.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/116}",
-			">",
-			">When you confirm a critical hit and attempt to cripple an opponent with this feat, you can spend up to 5 stamina points to increase the DC of this feat's saving throw by an amount equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/116}  ",
+			"When you confirm a critical hit and attempt to cripple an opponent with this feat, you can spend up to 5 stamina points to increase the DC of this feat's saving throw by an amount equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"crippling_thrust": {

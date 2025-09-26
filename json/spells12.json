@@ -83,13 +83,14 @@
 			"",
 			"Any polymorph effects on the target are automatically dispelled when a target fails to resist the effects of baleful polymorph, and as long as baleful polymorph remains in effect, the target cannot use other polymorph spells or effects to assume a new form. Incorporeal or gaseous creatures are immune to baleful polymorph, and a creature with the shapechanger subtype can revert to its natural form as a standard action.",
 			"",
-			"### Mythic Baleful Polymorph",
+			":::mythic{title=\"Mythic Baleful Polymorph\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}",
-			"",
+			"{SOURCE Mythic Adventures/84}  ",
 			"The saving throw changes to Fortitude (partial) and Will (partial). A creature that fails the Fortitude save automatically fails the Will save. A target with the shapechanger subtype that fails its save can't use its shapechanging to shift out of its new form. A creature that succeeds at the Fortitude save is partially transformed into the intended animal. For 1 minute per level, it takes on cosmetic features appropriate to that animal and becomes one size category closer to the animal's size.",
 			"",
-			"*Augmented (9th):* If you expend four uses of mythic power, the spell affects all other creatures with 8 Hit Dice or fewer in a 1-mile radius. Affected creatures transform into Small or smaller animals appropriate to the local environment. You can select a number of creatures up to your tier to not be affected."
+			"*Augmented (9th):* If you expend four uses of mythic power, the spell affects all other creatures with 8 Hit Dice or fewer in a 1-mile radius. Affected creatures transform into Small or smaller animals appropriate to the local environment. You can select a number of creatures up to your tier to not be affected.",
+			"",
+			":::"
 		]
 	},
 	"baleful_shadow_transmutation": {
@@ -173,11 +174,12 @@
 			"",
 			"Bane fills your enemies with fear and doubt. Each affected creature takes a -1 penalty on attack rolls and a -1 penalty on saving throws against fear effects. Bane counters and dispels {spell/bless}.",
 			"",
-			"### Mythic Bane",
+			":::mythic{title=\"Mythic Bane\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}",
+			"{SOURCE Mythic Adventures/85}  ",
+			"The -1 penalty applies on attack rolls, weapon damage rolls, and all saving throws. Each affected creature must roll its next attack roll or saving throw twice and take the lower result.",
 			"",
-			"The -1 penalty applies on attack rolls, weapon damage rolls, and all saving throws. Each affected creature must roll its next attack roll or saving throw twice and take the lower result."
+			":::"
 		]
 	},
 	"banish_seeming": {
@@ -339,13 +341,14 @@
 			"",
 			"The enhancement bonus provided by barkskin stacks with the target's natural armor bonus, but not with other enhancement bonuses to natural armor. A creature without natural armor has an effective natural armor bonus of +0.",
 			"",
-			"### Mythic Barkskin",
+			":::mythic{title=\"Mythic Barkskin\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}",
-			"",
+			"{SOURCE Mythic Adventures/85}  ",
 			"The target also gains DR/magic equal to the double the enhancement bonus the spell provides to the target's natural armor bonus.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, the spell grants DR/epic rather than DR/magic."
+			"*Augmented (6th):* If you expend two uses of mythic power, the spell grants DR/epic rather than DR/magic.",
+			"",
+			":::"
 		]
 	},
 	"barrow_haze": {
@@ -437,13 +440,14 @@
 			"",
 			"When you use this spell, you immediately take 4 points of Intelligence damage. You must make a DC 20 {rule/concentration} check to cast spells, and all other concentration checks to cast spells have a -5 penalty.",
 			"",
-			"### Mythic Battle Trance",
+			":::mythic{title=\"Mythic Battle Trance\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}",
-			"",
+			"{SOURCE Mythic Adventures/85}  ",
 			"The number of temporary hit points you gain increases to 2d6 + your caster level (maximum +10) + your tier. The morale bonus on saving throws against mind-affecting effects increases to +6.",
 			"",
-			"*Augmented (5th):* If you expend two uses of mythic power, you gain a +4 morale bonus to Strength, immunity to non-mythic mind-affecting effects, and DR 5/epic."
+			"*Augmented (5th):* If you expend two uses of mythic power, you gain a +4 morale bonus to Strength, immunity to non-mythic mind-affecting effects, and DR 5/epic.",
+			"",
+			":::"
 		]
 	},
 	"battlemind_link": {
@@ -474,11 +478,12 @@
 			"",
 			"You and the target lose these benefits if you cannot see each other or if you or the target is unconscious or helpless.",
 			"",
-			"### Mythic Battlemind Link",
+			":::mythic{title=\"Mythic Battlemind Link\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}",
+			"{SOURCE Mythic Adventures/85}  ",
+			"When you cast this spell, if your linked ally uses a mythic path ability against a creature, you can use the same path ability against that creature as if you had it yourself, and your linked ally can likewise use any path abilities you use against a creature (even if that ally isn't mythic). For example, if you're a champion attacking a frost giant using the precision path ability, your linked ally can use your precision ability when she attacks that frost giant. If a path ability requires expending uses of mythic power or any other cost, your linked ally must expend that cost for you to use the ability.",
 			"",
-			"When you cast this spell, if your linked ally uses a mythic path ability against a creature, you can use the same path ability against that creature as if you had it yourself, and your linked ally can likewise use any path abilities you use against a creature (even if that ally isn't mythic). For example, if you're a champion attacking a frost giant using the precision path ability, your linked ally can use your precision ability when she attacks that frost giant. If a path ability requires expending uses of mythic power or any other cost, your linked ally must expend that cost for you to use the ability."
+			":::"
 		]
 	},
 	"beacon_of_guilt": {
@@ -1430,11 +1435,12 @@
 			"",
 			"You mark the target with a black marking on its skin; the mark's exact appearance determined by you, but can be no larger than your hand. The black mark functions as a {spell/mark of justice}, and when the mark is activated, the target becomes shaken anytime it is on or in the water more than a 5 feet from shore. In addition, as long as the black mark is active, the target is affected as if subject to nature's exile, but all creatures with the aquatic or water subtype or with a swim speed are made hostile, even those not of the animal type, though non-aquatic animals are not.",
 			"",
-			"### Mythic Black Mark",
+			":::mythic{title=\"Mythic Black Mark\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}",
+			"{SOURCE Mythic Adventures/85}  ",
+			"Any time the cursed creature travels on or in the water more than 1 mile from shore, each day it (or the vessel it's on) is attacked by one or more aquatic or water monsters, as if summoned by {spell/summon nature's ally VII} (caster level 13th).",
 			"",
-			"Any time the cursed creature travels on or in the water more than 1 mile from shore, each day it (or the vessel it's on) is attacked by one or more aquatic or water monsters, as if summoned by {spell/summon nature's ally VII} (caster level 13th)."
+			":::"
 		]
 	},
 	"black_spot": {
@@ -1586,13 +1592,14 @@
 			"",
 			"A blade barrier provides cover (+4 bonus to AC, +2 bonus on Reflex saves) against attacks made through it.",
 			"",
-			"### Mythic Blade Barrier",
+			":::mythic{title=\"Mythic Blade Barrier\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}",
-			"",
+			"{SOURCE Mythic Adventures/85}  ",
 			"You may cast this spell as an immediate action. The barrier's damage increases to 1d8 per caster level (maximum 20d8).",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, you can spend a move action to move the barrier up to 10 feet in any direction. The shape (flat or ring) and orientation (vertical or horizontal) of the wall must remain the same. If you move the barrier through a creature's space, it can attempt a saving throw to avoid the wall, as if you had created it where the creature is."
+			"*Augmented (3rd):* If you expend two uses of mythic power, you can spend a move action to move the barrier up to 10 feet in any direction. The shape (flat or ring) and orientation (vertical or horizontal) of the wall must remain the same. If you move the barrier through a creature's space, it can attempt a saving throw to avoid the wall, as if you had created it where the creature is.",
+			"",
+			":::"
 		]
 	},
 	"blade_lash": {
@@ -1787,11 +1794,12 @@
 			"",
 			"Creatures whose Hit Dice exceed your caster level are unaffected by blasphemy.",
 			"",
-			"### Mythic Blasphemy",
+			":::mythic{title=\"Mythic Blasphemy\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}",
+			"{SOURCE Mythic Adventures/85}  ",
+			"When determining the spell's effect on non-mythic creatures, add your tier to your caster level. Nonevil creatures that fail the save take a -4 penalty on attack rolls and saving throws, and their spell resistance decreases by 5 for as long as the spell's other effects last.",
 			"",
-			"When determining the spell's effect on non-mythic creatures, add your tier to your caster level. Nonevil creatures that fail the save take a -4 penalty on attack rolls and saving throws, and their spell resistance decreases by 5 for as long as the spell's other effects last."
+			":::"
 		]
 	},
 	"blast_barrier": {
@@ -2034,11 +2042,12 @@
 			"",
 			"Bless counters and dispels {spell/bane}.",
 			"",
-			"### Mythic Bless",
+			":::mythic{title=\"Mythic Bless\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}",
+			"{SOURCE Mythic Adventures/85}  ",
+			"The +1 morale bonus applies on attack rolls, weapon damage rolls, and all saving throws. Once during the spell's duration, an affected creature can roll an attack roll or saving throw twice and take the higher result. The target must decide to use this ability before the first roll is attempted.",
 			"",
-			"The +1 morale bonus applies on attack rolls, weapon damage rolls, and all saving throws. Once during the spell's duration, an affected creature can roll an attack roll or saving throw twice and take the higher result. The target must decide to use this ability before the first roll is attempted."
+			":::"
 		]
 	},
 	"bless_army": {
@@ -2406,11 +2415,12 @@
 			"",
 			"The link between you and your animal companion becomes stronger. As long as you are within line of sight of your animal companion, you can telepathically communicate with it as if you two shared a language. Also, as long as you are within line of sight of the animal companion, you can push your animal companion a swift action instead of a move action, and you do not need to succeed at Handle Animal checks to handle your animal companion. Such checks automatically succeed.",
 			"",
-			"### Mythic Companion Mind Link",
+			":::mythic{title=\"Mythic Companion Mind Link\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}",
+			"{SOURCE Mythic Adventures/88}  ",
+			"Your animal companion understands complex instructions transmitted by the spell. It can perform any trick (even one it doesn't know) as well as any activity that could be understood by a creature with an Intelligence score of 8.",
 			"",
-			"Your animal companion understands complex instructions transmitted by the spell. It can perform any trick (even one it doesn't know) as well as any activity that could be understood by a creature with an Intelligence score of 8."
+			":::"
 		]
 	},
 	"companion_transportation": {
@@ -2607,13 +2617,14 @@
 			"",
 			"Cone of cold creates an area of extreme cold, originating at your hand and extending outward in a cone. It drains heat, dealing 1d6 points of cold damage per caster level (maximum 15d6).",
 			"",
-			"### Mythic Cone of Cold",
+			":::mythic{title=\"Mythic Cone of Cold\"}",
 			"",
-			"{SOURCE Mythic Adventures/89}",
-			"",
+			"{SOURCE Mythic Adventures/89}  ",
 			"The damage dealt increases to 1d10 points of cold damage per caster level (maximum 15d10). Any creature that fails its save is partially encased in ice, reducing its speed by half. Creatures with the cold or incorporeal subtype or immunity to being grappled are immune to this effect. The reduced movement lasts until the ice is destroyed. Destroying the ice requires a successful Strength or dispel check against the spell's DC, or dealing bludgeoning or fire damage equal to 1 point per caster level to the creature.",
 			"",
-			"*Augmented:* You can expend two uses of mythic power to transform the spell's cold into a barrage of giant hailstones, icicles, or shards. Half the spell's damage is your choice of bludgeoning, piercing, or slashing damage, and the other half is cold damage."
+			"*Augmented:* You can expend two uses of mythic power to transform the spell's cold into a barrage of giant hailstones, icicles, or shards. Half the spell's damage is your choice of bludgeoning, piercing, or slashing damage, and the other half is cold damage.",
+			"",
+			":::"
 		]
 	},
 	"confess": {
@@ -2737,13 +2748,14 @@
 			"",
 			"You summon a black pudding that immediately attacks creatures near it. You have no control over the creature, and it may attack you if there are no more obvious opponents. The black pudding is treated as a summoned creature and has the extraplanar subtype. The black pudding's split ability works normally, but all puddings derived from the summoned one disappear when the spell ends.",
 			"",
-			"### Mythic Conjure Black Pudding",
+			":::mythic{title=\"Mythic Conjure Black Pudding\"}",
 			"",
-			"{SOURCE Mythic Adventures/89}",
-			"",
+			"{SOURCE Mythic Adventures/89}  ",
 			"The black pudding has fast healing equal to your tier, as do any puddings that split off from it. The black puddings from this spell never attack you, though they're otherwise uncontrolled and might attack your allies if there are no other obvious opponents.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, the pudding gains the [savage mythic template](rule/mythic_simple_templates). Puddings that split off from the giant pudding don't gain the template."
+			"*Augmented (6th):* If you expend two uses of mythic power, the pudding gains the [savage mythic template](rule/mythic_simple_templates). Puddings that split off from the giant pudding don't gain the template.",
+			"",
+			":::"
 		]
 	},
 	"conjure_carriage": {
@@ -2809,11 +2821,12 @@
 			"",
 			"Consecrate counters and dispels {spell/desecrate}.",
 			"",
-			"### Mythic Consecrate",
+			":::mythic{title=\"Mythic Consecrate\"}",
 			"",
-			"{SOURCE Mythic Adventures/89}",
+			"{SOURCE Mythic Adventures/89}  ",
+			"Select one alignment component that you have (chaotic, good, or lawful). The spell's penalty on attack rolls, damage rolls, and saves also affects outsiders with the opposite alignment subtype as if they were undead.",
 			"",
-			"Select one alignment component that you have (chaotic, good, or lawful). The spell's penalty on attack rolls, damage rolls, and saves also affects outsiders with the opposite alignment subtype as if they were undead."
+			":::"
 		]
 	},
 	"constricting_coils": {

@@ -348,11 +348,12 @@
 			"",
 			"Alternatively, you can target shatter against a single solid nonmagical object, regardless of composition, weighing up to 10 pounds per caster level. Targeted against a crystalline creature (of any weight), shatter deals 1d6 points of sonic damage per caster level (maximum 10d6), with a Fortitude save for half damage.",
 			"",
-			"### Mythic Shatter",
+			":::mythic{title=\"Mythic Shatter\"}",
 			"",
-			"{SOURCE Mythic Adventures/107}",
+			"{SOURCE Mythic Adventures/107}  ",
+			"Add your tier to your caster level when determining the maximum object weight you can affect. When targeting a crystalline creature, the spell's damage increases to 1d8 points of sonic damage per caster level (maximum 10d8). You may damage a single magical object as if it were a crystalline creature. If the spell destroys an object or damages a crystalline creature, broken shards litter the spell area or creature's space and act as caltrops.",
 			"",
-			"Add your tier to your caster level when determining the maximum object weight you can affect. When targeting a crystalline creature, the spell's damage increases to 1d8 points of sonic damage per caster level (maximum 10d8). You may damage a single magical object as if it were a crystalline creature. If the spell destroys an object or damages a crystalline creature, broken shards litter the spell area or creature's space and act as caltrops."
+			":::"
 		]
 	},
 	"sheet_lightning": {
@@ -448,11 +449,12 @@
 			"",
 			"This spell creates a shimmering, magical field around the target that averts and deflects attacks. The spell grants the subject a +2 deflection bonus to AC, with an additional +1 to the bonus for every six levels you have (maximum +5 deflection bonus at 18th level).",
 			"",
-			"### Mythic Shield of Faith",
+			":::mythic{title=\"Mythic Shield of Faith\"}",
 			"",
-			"{SOURCE Mythic Adventures/108}",
+			"{SOURCE Mythic Adventures/108}  ",
+			"Add half your tier to the spell's deflection bonus.",
 			"",
-			"Add half your tier to the spell's deflection bonus."
+			":::"
 		]
 	},
 	"shield_of_fortification": {
@@ -846,15 +848,16 @@
 			"",
 			"Your successful melee touch attack deals 1d6 points of electricity damage per caster level (maximum 5d6). When delivering the jolt, you gain a +3 bonus on attack rolls if the opponent is wearing metal armor (or is carrying a metal weapon or is made of metal).",
 			"",
-			"### Mythic Shocking Grasp",
+			":::mythic{title=\"Mythic Shocking Grasp\"}",
 			"",
-			"{SOURCE Mythic Adventures/108}",
-			"",
+			"{SOURCE Mythic Adventures/108}  ",
 			"The spell's damage increases to 1d8 points of electricity damage per caster level (maximum 5d8). If the target is wearing metal armor or is made of metal, you may attempt a free grapple combat maneuver against the target.",
 			"",
 			"Alternatively, if the target is carrying a metal weapon, you may attempt a free disarm combat maneuver against that weapon. This free combat maneuver doesn't provoke attacks of opportunity.",
 			"",
-			"*Augmented:* If you expend two uses of mythic power and the free grapple or disarm combat maneuver is successful, the target is staggered until your next turn. This is an electricity effect."
+			"*Augmented:* If you expend two uses of mythic power and the free grapple or disarm combat maneuver is successful, the target is staggered until your next turn. This is an electricity effect.",
+			"",
+			":::"
 		]
 	},
 	"shocking_image": {
@@ -1154,11 +1157,12 @@
 			"",
 			"Upon the casting of this spell, complete silence prevails in the affected area. All sound is stopped: Conversation is impossible, spells with verbal components cannot be cast, and no noise whatsoever issues from, enters, or passes through the area. The spell can be cast on a point in space, but the effect is stationary unless cast on a mobile object. The spell can be centered on a creature, and the effect then radiates from the creature and moves as it moves. An unwilling creature can attempt a Will save to negate the spell and can use spell resistance, if any. Items in a creature's possession or magic items that emit sound receive the benefits of saves and spell resistance, but unattended objects and points in space do not. Creatures in an area of a silence spell are immune to sonic or language-based attacks, spells, and effects.",
 			"",
-			"### Mythic Silence",
+			":::mythic{title=\"Mythic Silence\"}",
 			"",
-			"{SOURCE Mythic Adventures/108}",
+			"{SOURCE Mythic Adventures/108}  ",
+			"This spell also applies to telepathy, cutting off any mental communication within the area. At the time of casting, you can choose to be immune to your own mythic silence effect and can designate up to one creature per tier to also gain this immunity. Creatures immune to the mythic silence are subject to sonic effects as normal.",
 			"",
-			"This spell also applies to telepathy, cutting off any mental communication within the area. At the time of casting, you can choose to be immune to your own mythic silence effect and can designate up to one creature per tier to also gain this immunity. Creatures immune to the mythic silence are subject to sonic effects as normal."
+			":::"
 		]
 	},
 	"silent_image": {
@@ -1181,13 +1185,14 @@
 			"",
 			"This spell creates the visual illusion of an object, creature, or force, as visualized by you. The illusion does not create sound, smell, texture, or temperature. You can move the image within the limits of the size of the effect.",
 			"",
-			"### Mythic Silent Image",
+			":::mythic{title=\"Mythic Silent Image\"}",
 			"",
-			"{SOURCE Mythic Adventures/108}",
-			"",
+			"{SOURCE Mythic Adventures/108}  ",
 			"The duration increases to concentration + 1 round per caster level, and the effect increases to a visual figment that can't extend beyond eight 10-foot cubes + 1 10-foot cube per caster level.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, the duration changes to concentration + 1 minute per caster level and the effect changes to a visual figment no larger than a 50-foot emanation. An augmented mythic silent image can't move."
+			"*Augmented (6th):* If you expend two uses of mythic power, the duration changes to concentration + 1 minute per caster level and the effect changes to a visual figment no larger than a 50-foot emanation. An augmented mythic silent image can't move.",
+			"",
+			":::"
 		]
 	},
 	"silent_table": {
@@ -1599,13 +1604,14 @@
 			"",
 			"A sleep spell causes a magical slumber to come upon 4 HD of creatures. Creatures with the fewest HD are affected first. Among creatures with equal HD, those who are closest to the spell's point of origin are affected first. HD that are not sufficient to affect a creature are wasted. Sleeping creatures are helpless. Slapping or wounding awakens an affected creature, but normal noise does not. Awakening a creature is a standard action (an application of the aid another action). Sleep does not target unconscious creatures, constructs, or undead creatures.",
 			"",
-			"### Mythic Sleep",
+			":::mythic{title=\"Mythic Sleep\"}",
 			"",
-			"{SOURCE Mythic Adventures/108}",
-			"",
+			"{SOURCE Mythic Adventures/108}  ",
 			"The spell affects up to 8 Hit Dice of creatures, and you can choose the order in which creatures are affected by the spell. Any effect that would automatically awaken a sleeping creature instead allows it to attempt a new Will saving throw to awaken.",
 			"",
-			"*Augmented (8th):* If you expend three uses of mythic power, you can target all living creatures other than you that have 8 Hit Dice or fewer in a 1-mile radius centered on you. Creatures that fail their saving throws fall asleep for a number of days equal to your tier. You can select a number of creatures up to your tier to not be affected by the spell."
+			"*Augmented (8th):* If you expend three uses of mythic power, you can target all living creatures other than you that have 8 Hit Dice or fewer in a 1-mile radius centered on you. Creatures that fail their saving throws fall asleep for a number of days equal to your tier. You can select a number of creatures up to your tier to not be affected by the spell.",
+			"",
+			":::"
 		]
 	},
 	"sleepwalk": {
@@ -1744,11 +1750,12 @@
 			"",
 			"Multiple slow effects don't stack. Slow counters and dispels {spell/haste}.",
 			"",
-			"### Mythic Slow",
+			":::mythic{title=\"Mythic Slow\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}",
+			"{SOURCE Mythic Adventures/109}  ",
+			"The penalty on attack rolls, on Reflex saves, and to AC increases to -2, and affected creatures move at one-fourth speed. Select one affected creature; this creature is denied its Dexterity bonus to AC.",
 			"",
-			"The penalty on attack rolls, on Reflex saves, and to AC increases to -2, and affected creatures move at one-fourth speed. Select one affected creature; this creature is denied its Dexterity bonus to AC."
+			":::"
 		]
 	},
 	"slowing_mud": {
@@ -1973,13 +1980,14 @@
 			"",
 			"Solid fog can be made permanent with a {spell/permanency} spell. A permanent solid fog dispersed by wind reforms in 10 minutes.",
 			"",
-			"### Mythic Solid Fog",
+			":::mythic{title=\"Mythic Solid Fog\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}",
-			"",
+			"{SOURCE Mythic Adventures/109}  ",
 			"The penalty on melee attack and damage rolls increases to -4. The cloud's radius and height both increase to 50 feet.",
 			"",
-			"*Augmented:* The augmented version of mythic solid fog has the same additional benefits as the augmented version of mythic fog cloud."
+			"*Augmented:* The augmented version of mythic solid fog has the same additional benefits as the augmented version of mythic fog cloud.",
+			"",
+			":::"
 		]
 	},
 	"solid_note": {
@@ -2291,13 +2299,14 @@
 			"",
 			"Favored by the necromancer Geb as a tool to turn his enemies' armies against themselves, this potent death spell deals 1d6 points of damage per caster level (maximum 20d6) to living creatures in the area of effect.",
 			"",
-			"### Mythic Soulreaver",
+			":::mythic{title=\"Mythic Soulreaver\"}",
 			"",
-			"{SOURCE Mythic Origins/15}",
-			"",
+			"{SOURCE Mythic Origins/15}  ",
 			"You can expend one use of mythic power to raise creatures killed by this effect as undead thralls. You can animate a number of Hit Dice worth of undead up to double your tier as if you had animated them with {spell/animate dead}. The undead created by this spell count toward the total number of Hit Dice worth of undead you can control.",
 			"",
-			"*Augmented (8th):* If you expend two uses of mythic power, you can raise slain foes as undead creatures chosen from the list of undead for create undead. By expending three uses of mythic power, you can select from the list for create greater undead. The total number of Hit Dice worth of undead created in this way can't exceed double your tier. Created undead are not automatically under your control. If you are capable of commanding undead, you may attempt to command the undead creatures as they form."
+			"*Augmented (8th):* If you expend two uses of mythic power, you can raise slain foes as undead creatures chosen from the list of undead for create undead. By expending three uses of mythic power, you can select from the list for create greater undead. The total number of Hit Dice worth of undead created in this way can't exceed double your tier. Created undead are not automatically under your control. If you are capable of commanding undead, you may attempt to command the undead creatures as they form.",
+			"",
+			":::"
 		]
 	},
 	"soulseeker": {
@@ -2419,13 +2428,14 @@
 			"",
 			"Any creature may attempt to control the called Spawn of Rovagug via spells like dominate monster or binding. However, if such an attempt fails, it draws the spawn's attention, and the monster immediately tries to destroy the creature that attempted to control it. Because the Spawn of Rovagug are all magical beasts native to the Material Plane, spells such as {spell/banishment} or {spell/dismissal} have no effect on the called spawn.",
 			"",
-			"### Mythic Spawn Calling",
+			":::mythic{title=\"Mythic Spawn Calling\"}",
 			"",
-			"{SOURCE Inner Sea Gods/242}",
-			"",
+			"{SOURCE Inner Sea Gods/242}  ",
 			"When casting this spell, you can specify a particular Spawn of Rovagug - including the Tarrasque, the Armageddon Engine; Chemnosit, the Monarch Worm; or Volnagur, the End-Singer - to call in place of the nameless behemoth spawned by the non-mythic version of this spell. In order to do so, you must expend one use of mythic power plus three additional uses of mythic power per point of Challenge Rating the specified spawn represents above CR 20. These must be expended on the final day of the weeklong ritual to cast the spell.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}",
+			"",
+			":::"
 		]
 	},
 	"spawn_ward": {
@@ -3232,11 +3242,12 @@
 			"",
 			"Magic traps such as spike stones are hard to detect. A rogue (only) can use the Perception skill to find spike stones. The DC is 25 + spell level, or DC 29 for spike stones. Spike stones is a magic trap that can't be disabled with the Disable Device skill.",
 			"",
-			"### Mythic Spike Stones",
+			":::mythic{title=\"Mythic Spike Stones\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}",
+			"{SOURCE Mythic Adventures/109}  ",
+			"The damage dealt increases to 2d6 points of piercing damage plus 1 point of bleed damage. Add your tier to the DC to detect the magical trap.",
 			"",
-			"The damage dealt increases to 2d6 points of piercing damage plus 1 point of bleed damage. Add your tier to the DC to detect the magical trap."
+			":::"
 		]
 	},
 	"spindrift_spritz": {
@@ -3480,11 +3491,12 @@
 			"",
 			"The weapon that you get is often a force replica of your deity's own personal weapon. A cleric without a deity gets a weapon based on his alignment. A neutral cleric without a deity can create a spiritual weapon of any alignment, provided he is acting at least generally in accord with that alignment at the time. The weapons associated with each alignment are as follows: chaos (battleaxe), evil (light flail), good (warhammer), law (longsword).",
 			"",
-			"### Mythic Spiritual Weapon",
+			":::mythic{title=\"Mythic Spiritual Weapon\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}",
+			"{SOURCE Mythic Adventures/109}  ",
+			"The weapon gains your choice of one of the following magic weapon special abilities: flaming, frost, keen, merciful, shock, or thundering. Before or after the weapon attempts all of its attacks for the round, you can redirect it to a different target as a swift action instead of a move action",
 			"",
-			"The weapon gains your choice of one of the following magic weapon special abilities: flaming, frost, keen, merciful, shock, or thundering. Before or after the weapon attempts all of its attacks for the round, you can redirect it to a different target as a swift action instead of a move action"
+			":::"
 		]
 	},
 	"spit_venom": {
@@ -4035,11 +4047,12 @@
 			"",
 			"Stinking cloud can be made permanent with a {spell/permanency} spell. A permanent stinking cloud dispersed by wind reforms in 10 minutes.",
 			"",
-			"### Mythic Stinking Cloud",
+			":::mythic{title=\"Mythic Stinking Cloud\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}",
+			"{SOURCE Mythic Adventures/109}  ",
+			"Creatures that succeed at their saves are sickened while they remain in the cloud and for 1d4+1 rounds after they leave. Creatures that fail their saves continue to be sickened for 1 hour after leaving the cloud.",
 			"",
-			"Creatures that succeed at their saves are sickened while they remain in the cloud and for 1d4+1 rounds after they leave. Creatures that fail their saves continue to be sickened for 1 hour after leaving the cloud."
+			":::"
 		]
 	},
 	"stoke_the_inner_fire": {
@@ -4162,11 +4175,12 @@
 			"",
 			"You can form an existing piece of stone into any shape that suits your purpose. While it's possible to make crude coffers, doors, and so forth with stone shape, fine detail isn't possible. There is a 30% chance that any shape including moving parts simply doesn't work.",
 			"",
-			"### Mythic Stone Shape",
+			":::mythic{title=\"Mythic Stone Shape\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}",
+			"{SOURCE Mythic Adventures/109}  ",
+			"The duration changes to 1 round/level and instantaneous (see text). Each round after the round you cast the spell, you can spend a standard action to shape up to 5 additional cubic feet of stone you touch. Shaped stone has an instantaneous duration (meaning it does not revert to its previous form when the spell ends).",
 			"",
-			"The duration changes to 1 round/level and instantaneous (see text). Each round after the round you cast the spell, you can spend a standard action to shape up to 5 additional cubic feet of stone you touch. Shaped stone has an instantaneous duration (meaning it does not revert to its previous form when the spell ends)."
+			":::"
 		]
 	},
 	"stone_shield": {
@@ -4378,13 +4392,14 @@
 			"",
 			"Ranged attacks within the area of the storm are impossible. Spells cast within the area are disrupted unless the caster succeeds on a {rule/concentration} check against a DC equal to the storm of vengeance's save DC + the level of the spell the caster is trying to cast.",
 			"",
-			"### Mythic Storm of Vengeance",
+			":::mythic{title=\"Mythic Storm of Vengeance\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}",
-			"",
+			"{SOURCE Mythic Adventures/109}  ",
 			"The acid damage dealt increases to 1d8 points of acid damage. The lightning damage dealt increases to 10d8 points of electricity damage. You can call down a bolt of lightning on the 2nd and 4th rounds (equivalent to those on the 3rd round). You can strike the same target with a bolt more than once during the casting of the spell, but not more than once per round.",
 			"",
-			"*Augmented (7th):* If you expend three uses of mythic power, the storm cloud's radius increases to 1,000 feet. Structures in the storm take 1d10 points of damage per round (this damage bypasses hardness). You can call down one additional bolt in the 2nd and 4th rounds, and three additional bolts in the 3rd round."
+			"*Augmented (7th):* If you expend three uses of mythic power, the storm cloud's radius increases to 1,000 feet. Structures in the storm take 1d10 points of damage per round (this damage bypasses hardness). You can call down one additional bolt in the 2nd and 4th rounds, and three additional bolts in the 3rd round.",
+			"",
+			":::"
 		]
 	},
 	"storm_sight": {

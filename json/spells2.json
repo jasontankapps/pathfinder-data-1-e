@@ -27,11 +27,12 @@
 			"",
 			"These effects are not cumulative with similar effects, such as those provided by haste or a speed weapon, nor do they actually grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round. Blessing of fervor does not stack with haste.",
 			"",
-			"### Mythic Blessing of Fervor",
+			":::mythic{title=\"Mythic Blessing of Fervor\"}",
 			"",
-			"{SOURCE Mythic Adventures/86}",
+			"{SOURCE Mythic Adventures/86}  ",
+			"Affected creatures can choose two of the spell's bonuses each round rather than one.",
 			"",
-			"Affected creatures can choose two of the spell's bonuses each round rather than one."
+			":::"
 		]
 	},
 	"blessing_of_liberty": {
@@ -209,13 +210,14 @@
 			"",
 			"You blast your enemies with blinding rays of sunlight. You may fire one ray, plus one additional ray for every four levels beyond 3rd (to a maximum of three rays at 11th level). Each ray requires a ranged touch attack to hit. If a ray hits, it explodes into powerful motes of light, and the target must save or be blinded for 1 round. If the target has light blindness, light sensitivity, or is otherwise vulnerable to bright light, it instead must save or be blinded for 1d4 rounds and take 1d4 points of damage per two caster levels (maximum 5d4). Any creature blinded by a ray sheds light as a sunrod for the duration of its blindness. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously.",
 			"",
-			"### Mythic Blinding Ray",
+			":::mythic{title=\"Mythic Blinding Ray\"}",
 			"",
-			"{SOURCE Mythic Adventures/86}",
-			"",
+			"{SOURCE Mythic Adventures/86}  ",
 			"On a successful saving throw, the target is dazzled for 1 round. On a failed saving throw, the target is instead blinded for 1d4 rounds.",
 			"",
-			"A target with light blindness, light sensitivity, or any other vulnerability to light is instead blinded for 1d4 rounds on a successful saving throw and permanently blinded on a failed saving throw."
+			"A target with light blindness, light sensitivity, or any other vulnerability to light is instead blinded for 1d4 rounds on a successful saving throw and permanently blinded on a failed saving throw.",
+			"",
+			":::"
 		]
 	},
 	"blindness_deafness": {
@@ -238,11 +240,12 @@
 			"",
 			"You call upon the powers of unlife to render the subject blinded or deafened, as you choose.",
 			"",
-			"### Mythic Blindness/Deafness",
+			":::mythic{title=\"Mythic Blindness/Deafness\"}",
 			"",
-			"{SOURCE Mythic Adventures/86}",
+			"{SOURCE Mythic Adventures/86}  ",
+			"You can cause the target to be both blinded and deafened at the same time. The target must attempt a saving throw against each effect separately.",
 			"",
-			"You can cause the target to be both blinded and deafened at the same time. The target must attempt a saving throw against each effect separately."
+			":::"
 		]
 	},
 	"blindness_or_deafness": { "redirect": "blindness_deafness" },
@@ -285,13 +288,14 @@
 			"",
 			"Force effects and abjurations affect you normally. Their effects extend onto the Ethereal Plane from the Material Plane, but not vice versa. An ethereal creature can't attack material creatures, and spells you cast while ethereal affect only other ethereal things. Certain material creatures or objects have attacks or effects that work on the Ethereal Plane. Treat other ethereal creatures and objects as material.",
 			"",
-			"### Mythic Blink",
+			":::mythic{title=\"Mythic Blink\"}",
 			"",
-			"{SOURCE Mythic Adventures/86}",
-			"",
+			"{SOURCE Mythic Adventures/86}  ",
 			"You may spend a move action to remain corporeal or incorporeal until the end of your turn (you automatically resume blinking at the end of your turn).",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, you can spend either a swift action or a move action to remain corporeal or incorporeal until the end of your turn."
+			"*Augmented (3rd):* If you expend two uses of mythic power, you can spend either a swift action or a move action to remain corporeal or incorporeal until the end of your turn.",
+			"",
+			":::"
 		]
 	},
 	"blistering_invective": {
@@ -314,13 +318,14 @@
 			"",
 			"You unleash an insulting tirade so vicious and spiteful that enemies who hear it are physically scorched by your fury. When you cast this spell, make an Intimidate check to demoralize each enemy within 30 feet of you. Enemies that are demoralized this way take 1d10 points of fire damage and must succeed at a Reflex save or catch fire. Spell resistance can negate the fire damage caused by this spell, but does not protect the creature from the demoralizing effect.",
 			"",
-			"### Mythic Blistering Invective",
+			":::mythic{title=\"Mythic Blistering Invective\"}",
 			"",
-			"{SOURCE Mythic Adventures/86}",
-			"",
+			"{SOURCE Mythic Adventures/86}  ",
 			"Enemies that are demoralized by your Intimidate check take 2d8 points of fire damage and catch fire (no saving throw). Any Reflex save attempted to extinguish the flames automatically fails as long as the creature remains demoralized by your Intimidate check.",
 			"",
-			"*Augmented (5th):* If you expend two uses of mythic power, the spell doesn't have the language-dependent descriptor and you don't take a penalty on your Intimidate check to demoralize creatures that are larger than you."
+			"*Augmented (5th):* If you expend two uses of mythic power, the spell doesn't have the language-dependent descriptor and you don't take a penalty on your Intimidate check to demoralize creatures that are larger than you.",
+			"",
+			":::"
 		]
 	},
 	"bloatbomb": {
@@ -441,11 +446,12 @@
 			"",
 			"Your unarmed strikes release blasts of energy in the form of bolts of fire or glowing red crows, which fly instantaneously to strike your target. You can make unarmed strike or flurry of blows attacks against the target as if it were in your threatened area; each successful attack deals damage as if you had hit it with your unarmed strike, except half the damage is fire and half is negative energy (this negative energy does not heal undead). For example, if you are a 14th-level monk, you can use a flurry of blows to attack five times, creating one energy crow for each successful attack against the target, and dealing 2d6 points of damage (plus appropriate unarmed strike modifiers) with each crow.",
 			"",
-			"### Mythic Blood Crow Strike",
+			":::mythic{title=\"Mythic Blood Crow Strike\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}",
+			"{SOURCE Mythic Adventures/87}  ",
+			"Unarmed strikes attempted with this spell are treated as if you had the {feat/Improved Critical} (unarmed strike) feat. Use your tier plus your monk level (if any) when determining your unarmed strike damage for this spell. Fire damage from this spell bypasses fire resistance.",
 			"",
-			"Unarmed strikes attempted with this spell are treated as if you had the {feat/Improved Critical} (unarmed strike) feat. Use your tier plus your monk level (if any) when determining your unarmed strike damage for this spell. Fire damage from this spell bypasses fire resistance."
+			":::"
 		]
 	},
 	"blood_in_the_water": {
@@ -924,13 +930,14 @@
 			"",
 			"If a target has the orc subtype, it doesn't take fire damage and instead gains a +2 morale bonus to Strength.",
 			"",
-			"### Mythic Boiling Blood",
+			":::mythic{title=\"Mythic Boiling Blood\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}",
-			"",
+			"{SOURCE Mythic Adventures/87}  ",
 			"A target that fails its save takes 1d3 points of fire damage per round. If a target has the orc subtype, it also gains fire resistance 5.",
 			"",
-			"*Augmented:* If you expend two uses of mythic power, you can affect allies as though they had the orc subtype."
+			"*Augmented:* If you expend two uses of mythic power, you can affect allies as though they had the orc subtype.",
+			"",
+			":::"
 		]
 	},
 	"bombers_eye": {
@@ -1120,11 +1127,12 @@
 			"",
 			"A creation of the archmage Nex, this spell allows you to reach ahead in time and draw alacrity from the future at the expense of your own health. For the duration of this spell, you gain an extra swift action you can use only during your turn. You can't use this swift action to take a second immediate action between turns, but you can use it to take a swift action the turn after you've taken an immediate action. Each time you take an extra swift action in this fashion you take 1 point of Constitution damage. If you're immune to ability damage, you take 5 points of hit point damage instead. When the spell ends, you are staggered for 1d4+1 rounds from the temporal backlash.",
 			"",
-			"### Mythic Borrowed Time",
+			":::mythic{title=\"Mythic Borrowed Time\"}",
 			"",
-			"{SOURCE Mythic Origins/14}",
+			"{SOURCE Mythic Origins/14}  ",
+			"If you expend one use of mythic power, instead of taking an extra swift action, you can take either an extra move or an extra swift action each round. You can use this extra swift action to take two immediate actions between your turns; this consumes your extra swift action in your next round. Each extra action you take still deals damage to you as described above.",
 			"",
-			"If you expend one use of mythic power, instead of taking an extra swift action, you can take either an extra move or an extra swift action each round. You can use this extra swift action to take two immediate actions between your turns; this consumes your extra swift action in your next round. Each extra action you take still deals damage to you as described above."
+			":::"
 		]
 	},
 	"bouncing_bomb_admixture": {
@@ -1389,13 +1397,14 @@
 			"",
 			"If the effect comes from a permanent magic item, break enchantment does not remove the curse from the item, but it does free the victim from the item's effects.",
 			"",
-			"### Mythic Break Enchantment",
+			":::mythic{title=\"Mythic Break Enchantment\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}",
-			"",
+			"{SOURCE Mythic Adventures/87}  ",
 			"Against non-mythic effects, the spell automatically succeeds without requiring a caster level check. Against mythic effects, add your tier to your caster level check. The maximum level of spell this spell can remove is 5 + half your tier.",
 			"",
-			"*Augmented (7th):* If you expend two uses of mythic power, you can apply a removed enchantment, transmutation, or curse to the creature that originally cast it. The creature must be a valid target of the spell and on the same plane as you, and it gets a saving throw at the effect's original DC."
+			"*Augmented (7th):* If you expend two uses of mythic power, you can apply a removed enchantment, transmutation, or curse to the creature that originally cast it. The creature must be a valid target of the spell and on the same plane as you, and it gets a saving throw at the effect's original DC.",
+			"",
+			":::"
 		]
 	},
 	"break_greater": {
@@ -1429,13 +1438,14 @@
 			"",
 			"Like {main/cure spells}, breath of life deals damage to undead creatures rather than curing them, and cannot bring them back to life.",
 			"",
-			"### Mythic Breath of Life",
+			":::mythic{title=\"Mythic Breath of Life\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}",
-			"",
+			"{SOURCE Mythic Adventures/87}  ",
 			"The spell heals 5d12 points of damage + 1 point per caster level (maximum +25). It can revive a creature that died of hp damage within the past 2 rounds. If the target was slain by a death effect that allows a saving throw, this spell allows the creature to attempt another save against that effect. If this save is successful, the creature is revived with -10 hp plus the amount healed by this spell.",
 			"",
-			"*Augmented (9th):* If you expend two uses of mythic power, you can target up to one creature per caster level within 30 feet of you. Alternatively, you can target one creature that has been dead for a number of rounds up to your caster level."
+			"*Augmented (9th):* If you expend two uses of mythic power, you can target up to one creature per caster level within 30 feet of you. Alternatively, you can target one creature that has been dead for a number of rounds up to your caster level.",
+			"",
+			":::"
 		]
 	},
 	"breeze": {
@@ -1788,13 +1798,14 @@
 			"",
 			"Note that this spell does not grant an actual gaze attack-foes and allies are not in danger of catching on fire simply by meeting your gaze.",
 			"",
-			"### Mythic Burning Gaze",
+			":::mythic{title=\"Mythic Burning Gaze\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}",
-			"",
+			"{SOURCE Mythic Adventures/87}  ",
 			"You may focus your burning gaze on a creature or object as a move action instead of as a standard action. The target takes 1d8 points of fire damage for failing its save and for each round it's on fire.",
 			"",
-			"*Augmented:* If you expend two uses of mythic power, once during the spell's duration you can, as a full-round action, direct your burning gaze at up to one creature per caster level."
+			"*Augmented:* If you expend two uses of mythic power, once during the spell's duration you can, as a full-round action, direct your burning gaze at up to one creature per caster level.",
+			"",
+			":::"
 		]
 	},
 	"burning_hands": {
@@ -1817,11 +1828,12 @@
 			"",
 			"A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes 1d4 points of fire damage per caster level (maximum 5d4). Flammable materials burn if the flames touch them. A character can extinguish burning items as a full-round action.",
 			"",
-			"### Mythic Burning Hands",
+			":::mythic{title=\"Mythic Burning Hands\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}",
+			"{SOURCE Mythic Adventures/87}  ",
+			"The range increases to 20 feet, and the damage dealt increases to 1d6 points of fire damage per caster level (maximum 5d6).",
 			"",
-			"The range increases to 20 feet, and the damage dealt increases to 1d6 points of fire damage per caster level (maximum 5d6)."
+			":::"
 		]
 	},
 	"burning_sands": {
@@ -1862,13 +1874,14 @@
 			"",
 			"The subject can burrow at a speed of 15 feet (or 10 feet if it wears medium or heavy armor, or if it carries a medium or heavy load) through sand, loose soil, or gravel, or at a speed of 5 feet through stone. Using burrow requires only as much concentration as walking, so the subject can attack or cast spells normally. The burrowing creature cannot charge or run. Loose material collapses behind the target 1 round after it leaves the area. This spell does not give the target the ability to breathe underground, so when passing through loose material, the creature must hold its breath and take only short trips, or else it may suffocate.",
 			"",
-			"### Mythic Burrow",
+			":::mythic{title=\"Mythic Burrow\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}",
-			"",
+			"{SOURCE Mythic Adventures/87}  ",
 			"The target can breathe underground while burrowing. If you're 3rd tier, the burrow speed increases to 20 feet through sand, soil, or gravel, and to 10 feet through stone. At 6th tier, these speeds increase to 30 feet and 15 feet respectively. At 9th tier, these speeds increase to 40 feet and 20 feet.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, the burrowing creature may leave behind an open tunnel with a diameter equal to half its space. When the spell's effect ends, this tunnel closes up immediately."
+			"*Augmented (3rd):* If you expend two uses of mythic power, the burrowing creature may leave behind an open tunnel with a diameter equal to half its space. When the spell's effect ends, this tunnel closes up immediately.",
+			"",
+			":::"
 		]
 	},
 	"burst_bonds": {
@@ -2243,13 +2256,14 @@
 			"",
 			"Domesticated animals or animals trained by someone else, including such creatures as familiars or animal companions, are unaffected by call animals.",
 			"",
-			"### Mythic Call Animal",
+			":::mythic{title=\"Mythic Call Animal\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}",
-			"",
+			"{SOURCE Mythic Adventures/87}  ",
 			"You can call up to one animal per 2 caster levels. Animals that answer your call have a starting attitude of friendly. Add your tier to Handle Animal checks attempted to influence these animals.",
 			"",
-			"You may use this spell to call magical beasts with Intelligence 1 or 2, but they can attempt Will saving throws (with a +4 bonus) to resist the spell."
+			"You may use this spell to call magical beasts with Intelligence 1 or 2, but they can attempt Will saving throws (with a +4 bonus) to resist the spell.",
+			"",
+			":::"
 		]
 	},
 	"call_construct": {
@@ -2586,13 +2600,14 @@
 			"",
 			"You summon a wasp swarm, which fills your space (up to 5 feet by 5 feet) but does not attack you. The dense cloud of vermin gives you partial {rule/concealment} against ranged attacks. Any creature that makes a successful melee attack against you takes 2d6 points of swarm damage and poison from the wasp swarm, but is not affected by the swarm's distraction ability. As a free action on your turn, you may have the swarm cling to you tightly, giving you a fly speed of 20 feet (poor maneuverability); when using the swarm to fly, it does not provide concealment or harm creatures that strike you. You can return the swarm to its protective shape as a free action on your turn.",
 			"",
-			"### Mythic Cape of Wasps",
+			":::mythic{title=\"Mythic Cape of Wasps\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}",
-			"",
+			"{SOURCE Mythic Adventures/87}  ",
 			"The wasp swarm fills a 15-foot-by-15-foot space centered on you (or on 1 of your squares, if your space is larger than 1 square). Creatures in the area of the swarm are affected by it normally (including the swarm's distraction ability). Add your tier to the swarm's distraction DC.",
 			"",
-			"When you use the swarm to fly, it fills only your space, your fly speed is 30 feet (average maneuverability), and the swarm still provides partial concealment against ranged attacks."
+			"When you use the swarm to fly, it fills only your space, your fly speed is 30 feet (average maneuverability), and the swarm still provides partial concealment against ranged attacks.",
+			"",
+			":::"
 		]
 	},
 	"carrion_compass": {
@@ -3214,11 +3229,12 @@
 			"",
 			"Each target can attempt a Reflex saving throw for half damage. The Reflex DC to halve the damage of the secondary bolts is 2 lower than the DC to halve the damage of the primary bolt. You choose secondary targets as you like, but they must all be within 30 feet of the primary target, and no target can be struck more than once. You can choose to affect fewer secondary targets than the maximum.",
 			"",
-			"### Mythic Chain Lightning",
+			":::mythic{title=\"Mythic Chain Lightning\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}",
+			"{SOURCE Mythic Adventures/87}  ",
+			"This spell deals 1d10 points of damage per caster level (maximum 20d10) and the save DC isn't reduced for secondary targets. Secondary targets have to be within 30 feet of any other target, not necessarily the primary target.",
 			"",
-			"This spell deals 1d10 points of damage per caster level (maximum 20d10) and the save DC isn't reduced for secondary targets. Secondary targets have to be within 30 feet of any other target, not necessarily the primary target."
+			":::"
 		]
 	},
 	"chain_of_perdition": {
@@ -3395,13 +3411,14 @@
 			"",
 			"You change a specially prepared quarterstaff into a Huge treant-like creature, about 24 feet tall. When you plant the end of the staff in the ground and speak a special command to conclude the casting of the spell, your staff turns into a creature that looks and fights just like a treant. The staff-treant defends you and obeys any spoken commands. However, it is by no means a true treant; it cannot converse with actual treants or control trees. If the staff-treant is reduced to 0 or fewer hit points, it crumbles to powder and the staff is destroyed. Otherwise, the staff returns to its normal form when the spell duration expires (or when the spell is dismissed), and it can be used as the focus for another casting of the spell. The staff-treant is always at full strength when created, despite any wounds it may have incurred the last time it appeared.",
 			"",
-			"### Mythic Changestaff",
+			":::mythic{title=\"Mythic Changestaff\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}",
-			"",
+			"{SOURCE Mythic Adventures/88}  ",
 			"The treant-like creature created with this spell is considered a mythic creature, and it gains DR 10/epic and slashing instead of gaining DR 10/slashing.",
 			"",
-			"*Augmented (7th):* If you expend two uses of mythic power, the creature gains the savage [mythic template](rule/mythic_simple_templates)."
+			"*Augmented (7th):* If you expend two uses of mythic power, the creature gains the savage [mythic template](rule/mythic_simple_templates).",
+			"",
+			":::"
 		]
 	},
 	"channel_the_gift": {
@@ -3483,11 +3500,12 @@
 			"",
 			"The spell deals only half damage against creatures who are neither lawful nor chaotic, and they are not slowed. Such a creature can reduce the damage by half again (down to one-quarter) with a successful Will save.",
 			"",
-			"### Mythic Chaos Hammer",
+			":::mythic{title=\"Mythic Chaos Hammer\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}",
+			"{SOURCE Mythic Adventures/88}  ",
+			"The damage dealt to lawful outsiders increases to 1d10 points of damage per caster level (maximum 10d10), and the damage dealt to other lawful creatures increases to 1d12 points of damage per 2 caster levels (maximum 5d12). The duration of slow increases to 2d6 rounds. Lawful creatures that succeed at their saves are slowed for 1 round.",
 			"",
-			"The damage dealt to lawful outsiders increases to 1d10 points of damage per caster level (maximum 10d10), and the damage dealt to other lawful creatures increases to 1d12 points of damage per 2 caster levels (maximum 5d12). The duration of slow increases to 2d6 rounds. Lawful creatures that succeed at their saves are slowed for 1 round."
+			":::"
 		]
 	},
 	"charge_object": {
@@ -3764,11 +3782,12 @@
 			"",
 			"Chill metal counters and dispels {spell/heat metal}.",
 			"",
-			"### Mythic Chill Metal",
+			":::mythic{title=\"Mythic Chill Metal\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}",
+			"{SOURCE Mythic Adventures/88}  ",
+			"The damage dealt increases to 1d8 points of cold damage on rounds 2 and 6, and to 2d8 points of cold damage on rounds 3 through 5. Each round a creature takes cold damage from this spell, it also takes 1 point of Dexterity damage (Fortitude negates).",
 			"",
-			"The damage dealt increases to 1d8 points of cold damage on rounds 2 and 6, and to 2d8 points of cold damage on rounds 3 through 5. Each round a creature takes cold damage from this spell, it also takes 1 point of Dexterity damage (Fortitude negates)."
+			":::"
 		]
 	},
 	"chill_touch": {
@@ -3811,11 +3830,12 @@
 			"",
 			"During your bardic performance, you can strike a chord whose notes transform into a shower of razor sharp, crystalline shards. The shards deal 2d6 points of piercing damage to all creatures caught in the area of effect.",
 			"",
-			"### Mythic Chord of Shards",
+			":::mythic{title=\"Mythic Chord of Shards\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}",
+			"{SOURCE Mythic Adventures/88}  ",
+			"The damage dealt increases to 2d8 points of piercing damage and bypasses all damage reduction. Any creature damaged by the shards takes 1d8 points of sonic damage.",
 			"",
-			"The damage dealt increases to 2d8 points of piercing damage and bypasses all damage reduction. Any creature damaged by the shards takes 1d8 points of sonic damage."
+			":::"
 		]
 	},
 	"circle_of_clarity": {
@@ -3856,13 +3876,14 @@
 			"",
 			"Circle of death snuffs out the life force of living creatures, killing them instantly. The spell slays 1d4 HD worth of living creatures per caster level (maximum 20d4). Creatures with the fewest HD are affected first; among creatures with equal HD, those who are closest to the burst's point of origin are affected first. No creature of 9 or more HD can be affected, and HD that are not sufficient to affect a creature are wasted.",
 			"",
-			"### Mythic Circle of Death",
+			":::mythic{title=\"Mythic Circle of Death\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}",
-			"",
+			"{SOURCE Mythic Adventures/88}  ",
 			"The number of Hit Dice worth of creatures killed by the spell increases to 1d6 per caster level (maximum 20d6). Add your tier to the maximum HD of creatures that can be affected by the spell. (For example, at 3rd tier, a creature with 12 HD cannot be affected.)",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, creatures that succeed at their saves against this spell take 1d6 points of damage per tier."
+			"*Augmented (6th):* If you expend two uses of mythic power, creatures that succeed at their saves against this spell take 1d6 points of damage per tier.",
+			"",
+			":::"
 		]
 	},
 	"claim_identity": {
@@ -4293,13 +4314,14 @@
 			"",
 			"Because the vapors are heavier than air, they sink to the lowest level of the land, even pouring down den or sinkhole openings. It cannot penetrate liquids, nor can it be cast underwater.",
 			"",
-			"### Mythic Cloudkill",
+			":::mythic{title=\"Mythic Cloudkill\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}",
-			"",
+			"{SOURCE Mythic Adventures/88}  ",
 			"As a move action, you can move the cloud 10 feet in any direction. Add your tier to the spell's level and Hit Dice categories to determine its effect on creatures. (For example, at 3rd tier a creature with 6 or fewer HD gets no save, one with 7-9 HD must save or die, and one with 10 or more HD must save or take 1d4 points of Con damage.)",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, the spell bypasses the poison immunity of living creatures."
+			"*Augmented (6th):* If you expend two uses of mythic power, the spell bypasses the poison immunity of living creatures.",
+			"",
+			":::"
 		]
 	},
 	"codespeak": {
@@ -4449,11 +4471,12 @@
 			"",
 			"Sightless creatures are not affected by color spray.",
 			"",
-			"### Mythic Color Spray",
+			":::mythic{title=\"Mythic Color Spray\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}",
+			"{SOURCE Mythic Adventures/88}  ",
+			"The range increases to 30 feet. Add half your tier to the spell's Hit Dice categories to determine its effects on creatures. (At 3rd tier a creature with 3 or fewer HD is unconscious, blinded, and stunned; one with 4 or 5 HD is blinded and stunned, and one with 6 or more HD is stunned.) Creatures that succeed at their saves are dazzled for 1 minute.",
 			"",
-			"The range increases to 30 feet. Add half your tier to the spell's Hit Dice categories to determine its effects on creatures. (At 3rd tier a creature with 3 or fewer HD is unconscious, blinded, and stunned; one with 4 or 5 HD is blinded and stunned, and one with 6 or more HD is stunned.) Creatures that succeed at their saves are dazzled for 1 minute."
+			":::"
 		]
 	}
 }

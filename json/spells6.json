@@ -337,17 +337,18 @@
 			"",
 			"The subject feels an undeniable urge to dance and begins doing so, complete with foot shuffling and tapping. The spell effect makes it impossible for the subject to do anything other than caper and prance in place. The effect imposes a -4 penalty to Armor Class and a -10 penalty on Reflex saves, and it negates any AC bonus granted by a shield the target holds. The dancing subject provokes attacks of opportunity each round on its turn. A successful Will save reduces the duration of this effect to 1 round.",
 			"",
-			"### Mythic Irresistible Dance",
+			":::mythic{title=\"Mythic Irresistible Dance\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}",
-			"",
+			"{SOURCE Mythic Adventures/99}  ",
 			"When casting the spell, you can choose to make the dance either an unending dance or a dance of death.",
 			"",
 			"A target affected by unending dance receives a new saving throw at the end of each round of dancing, even if its initial save was successful. If the save fails, the duration of the spell increases by 1 round.",
 			"",
 			"A target affected by the dance of death suffers excruciating pain that inflicts a -4 penalty on attack rolls, saving throws, and skill checks, and it takes 1d4 points of Constitution damage each round it spends dancing.",
 			"",
-			"With either form, you can direct the creature like a marionette as a move action, causing it to take a single move action at half its speed along the path you specify. You must have line of sight to the target and be within Medium range (100 feet + 10 feet per caster level) to command its movement. This movement provokes attacks of opportunity as normal, and doesn't count against the target's movement on its turn. You can't move a target that succeeded at its initial save against the spell."
+			"With either form, you can direct the creature like a marionette as a move action, causing it to take a single move action at half its speed along the path you specify. You must have line of sight to the target and be within Medium range (100 feet + 10 feet per caster level) to command its movement. This movement provokes attacks of opportunity as normal, and doesn't count against the target's movement on its turn. You can't move a target that succeeded at its initial save against the spell.",
+			"",
+			":::"
 		]
 	},
 	"irriseni_mirror_sight": {
@@ -514,11 +515,12 @@
 			"",
 			"You cause the target to perceive itself as being covered in creeping, crawling, stinging bugs. This causes the target to become jittery and unable to stay still, forcing it to constantly move and twitch. The target takes a -4 penalty on all Dexterity checks and Dexterity-based skill checks, and cannot take the delay, ready, or total defense actions.",
 			"",
-			"### Mythic Jitterbugs",
+			":::mythic{title=\"Mythic Jitterbugs\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}",
+			"{SOURCE Mythic Adventures/99}  ",
+			"Starting on the second round of the spell, the affected target must succeed at a Fortitude save on your turn or be nauseated for 1 round, as if distracted by an actual swarm.",
 			"",
-			"Starting on the second round of the spell, the affected target must succeed at a Fortitude save on your turn or be nauseated for 1 round, as if distracted by an actual swarm."
+			":::"
 		]
 	},
 	"jolt": {
@@ -1084,11 +1086,12 @@
 			"",
 			"You commune with the divine, reflecting on one type of creature you encountered in the last day. You may make a Knowledge check regarding that creature type with a +10 insight bonus.",
 			"",
-			"### Mythic Know the Enemy",
+			":::mythic{title=\"Mythic Know the Enemy\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}",
+			"{SOURCE Mythic Adventures/99}  ",
+			"The insight bonus increases to +15 plus your tier. If the check is successful, you gain a +5 insight bonus on your next attack roll or saving throw against a creature of that type, as long as the roll occurs within 24 hours of casting the spell.",
 			"",
-			"The insight bonus increases to +15 plus your tier. If the check is successful, you gain a +5 insight bonus on your next attack roll or saving throw against a creature of that type, as long as the roll occurs within 24 hours of casting the spell."
+			":::"
 		]
 	},
 	"kreightons_perusal": {
@@ -1474,15 +1477,16 @@
 			"",
 			"A levitating creature that attacks with a melee or ranged weapon finds itself increasingly unstable; the first attack has a -1 penalty on attack rolls, the second -2, and so on, to a maximum penalty of -5. A full round spent stabilizing allows the creature to begin again at -1.",
 			"",
-			"### Mythic Levitate",
+			":::mythic{title=\"Mythic Levitate\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}",
-			"",
+			"{SOURCE Mythic Adventures/99}  ",
 			"Instead of affecting one creature, you can affect a number of targets up to your caster level, but the total weight supported can be no more than 100 pounds per caster level. You can spend a move action to mentally direct all targets, but you must move all of them identically.",
 			"",
 			"*Augmented (8th):* If you expend 10 uses of mythic power, you permanently levitate a 5-foot cube of rock, which you can move 20 feet vertically or horizontally as a move action.",
 			"",
-			"If you have created multiple cubes and they are physically touching each other, you can direct them all as a single move action (as if they were one object), even if some of them are out of range. Each levitating cube can support approximately 1,000 pounds of weight, allowing you to use it as a portion of the foundation for a bridge, floating castle, or similar construction project."
+			"If you have created multiple cubes and they are physically touching each other, you can direct them all as a single move action (as if they were one object), even if some of them are out of range. Each levitating cube can support approximately 1,000 pounds of weight, allowing you to use it as a portion of the foundation for a bridge, floating castle, or similar construction project.",
+			"",
+			":::"
 		]
 	},
 	"liberating_command": {
@@ -1873,13 +1877,14 @@
 			"",
 			"You generate an arc of lightning between two targets. The lightning deals 1d6 points of electricity damage per caster level (maximum 15d6) to both targets and any creatures in a line connecting them. The spell fails if there is no line of effect between the targets. Lightning arc sets fire to combustibles and damages objects in its path. It can melt metals that have a low melting point, such as lead, gold, copper, silver, or bronze.",
 			"",
-			"### Mythic Lightning Arc",
+			":::mythic{title=\"Mythic Lightning Arc\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}",
-			"",
+			"{SOURCE Mythic Adventures/99}  ",
 			"The damage dealt increases to 1d8 points of electricity damage per caster level (maximum 15d8). A target that fails its save is blinded by the flash for 1 round and deafened by thunder for 1d4 rounds.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, the two targets can be up to 120 feet apart, the lightning can turn once up to 90 degrees to connect the targets, and the spell's electrical damage bypasses electricity resistance and electricity immunity."
+			"*Augmented (6th):* If you expend two uses of mythic power, the two targets can be up to 120 feet apart, the lightning can turn once up to 90 degrees to connect the targets, and the spell's electrical damage bypasses electricity resistance and electricity immunity.",
+			"",
+			":::"
 		]
 	},
 	"lightning_bolt": {
@@ -1904,13 +1909,14 @@
 			"",
 			"The lightning bolt sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell's range permits; otherwise, it stops at the barrier just as any other spell effect does.",
 			"",
-			"### Mythic Lightning Bolt",
+			":::mythic{title=\"Mythic Lightning Bolt\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}",
-			"",
+			"{SOURCE Mythic Adventures/100}  ",
 			"The damage dealt increases to 1d8 points of electricity damage per caster level (maximum 10d8). Any creature that fails its save is staggered for 1 round.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, you can bend the line of the spell once up to 90 degrees. Any creature that fails its save is stunned for 1 round."
+			"*Augmented (3rd):* If you expend two uses of mythic power, you can bend the line of the spell once up to 90 degrees. Any creature that fails its save is stunned for 1 round.",
+			"",
+			":::"
 		]
 	},
 	"lightning_conductor": {
@@ -2021,13 +2027,14 @@
 			"",
 			"A duplicated spell allows saving throws and spell resistance as normal, but the save DC is for a 7th-level spell. When a limited wish spell duplicates a spell with a material component that costs more than 1,000 gp, you must provide that component (in addition to the 1,500 gp diamond component for this spell).",
 			"",
-			"### Mythic Limited Wish",
+			":::mythic{title=\"Mythic Limited Wish\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}",
-			"",
+			"{SOURCE Mythic Adventures/100}  ",
 			"When using mythic limited wish to duplicate another spell, you can duplicate a mythic spell you know (if you're a spontaneous caster) or have prepared (if you're a caster who prepares spells). If you don't know or haven't prepared the mythic spell, you can expend a second use of mythic power duplicate the mythic version of the desired spell.",
 			"",
-			"*Augmented:* If you expend two uses of mythic power, you can cast a {feat/silent>_spell}, {feat/stilled} mythic limited wish, even if you're helpless or couldn't otherwise take actions (but not unconscious)."
+			"*Augmented:* If you expend two uses of mythic power, you can cast a {feat/silent>_spell}, {feat/stilled} mythic limited wish, even if you're helpless or couldn't otherwise take actions (but not unconscious).",
+			"",
+			":::"
 		]
 	},
 	"limp_lash": {
@@ -3048,11 +3055,12 @@
 			"",
 			"Unlike mundane armor, mage armor entails no armor check penalty, arcane spell failure chance, or speed reduction. Since mage armor is made of force, incorporeal creatures can't bypass it the way they do normal armor.",
 			"",
-			"### Mythic Mage Armor",
+			":::mythic{title=\"Mythic Mage Armor\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}",
+			"{SOURCE Mythic Adventures/100}  ",
+			"The armor bonus increases to +6. There is a 50% chance that any critical hit or sneak attack made against the target is negated and treated as a normal hit, as if the target were wearing moderate fortification armor.",
 			"",
-			"The armor bonus increases to +6. There is a 50% chance that any critical hit or sneak attack made against the target is negated and treated as a normal hit, as if the target were wearing moderate fortification armor."
+			":::"
 		]
 	},
 	"mage_hand": {
@@ -3137,11 +3145,12 @@
 			"",
 			"You can also use this spell to target a single item. The item gets a Will save at a -5 penalty to avoid being permanently destroyed. Even artifacts are subject to mage's disjunction, though there is only a 1% chance per caster level of actually affecting such powerful items. If successful, the artifact's power unravels, and it is destroyed (with no save). If an artifact is destroyed, you must make a DC 25 Will save or permanently lose all spellcasting abilities. These abilities cannot be recovered by mortal magic, not even miracle or wish. Destroying artifacts is a dangerous business, and it is 95% likely to attract the attention of some powerful being who has an interest in or connection with the device.",
 			"",
-			"### Mythic Mage's Disjunction",
+			":::mythic{title=\"Mythic Mage's Disjunction\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}",
+			"{SOURCE Mythic Adventures/100}  ",
+			"The duration increases to 10 minutes per caster level. The chance to destroy an antimagic field increases to 2% per caster level.",
 			"",
-			"The duration increases to 10 minutes per caster level. The chance to destroy an antimagic field increases to 2% per caster level."
+			":::"
 		]
 	},
 	"mages_faithful_hound": {
@@ -3581,13 +3590,14 @@
 			"",
 			"For every two caster levels beyond 1st, you gain an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th level or higher. If you shoot multiple missiles, you can have them strike a single creature or several creatures. A single missile can strike only one creature. You must designate targets before you check for spell resistance or roll damage.",
 			"",
-			"### Mythic Magic Missile",
+			":::mythic{title=\"Mythic Magic Missile\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}",
-			"",
+			"{SOURCE Mythic Adventures/100}  ",
 			"The damage dealt by each missile increases to 2d4+1. The missiles bypass the shield spell and similar effects that block the non-mythic version of this spell.",
 			"",
-			"*Augmented (4th):* If you expend two uses of mythic power, the spell creates double the normal number of missiles (affecting up to 10 creatures), its range increases to line of sight, and it bypasses the targets' spell resistance and spell immunity."
+			"*Augmented (4th):* If you expend two uses of mythic power, the spell creates double the normal number of missiles (affecting up to 10 creatures), its range increases to line of sight, and it bypasses the targets' spell resistance and spell immunity.",
+			"",
+			":::"
 		]
 	},
 	"magic_mouth": {
@@ -3690,13 +3700,14 @@
 			"",
 			"An outfit of regular clothing counts as armor that grants no AC bonus for the purpose of this spell.",
 			"",
-			"### Mythic Magic Vestment",
+			":::mythic{title=\"Mythic Magic Vestment\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}",
-			"",
+			"{SOURCE Mythic Adventures/100}  ",
 			"You can add one armor special ability to the target if it's armor or one shield special ability if it's a shield. The special ability must have a base price modifier no greater than a +1 enhancement bonus or 4,000 gp.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, you can add any number of special abilities with a total base price modifier no greater than a +2 enhancement bonus or 15,000 gp."
+			"*Augmented (3rd):* If you expend two uses of mythic power, you can add any number of special abilities with a total base price modifier no greater than a +2 enhancement bonus or 15,000 gp.",
+			"",
+			":::"
 		]
 	},
 	"magic_weapon": {

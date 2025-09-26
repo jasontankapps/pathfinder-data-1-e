@@ -9,6 +9,7 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 			const {flags, makeNewMarkedInstance, removeCurlyBrackets} = $;
 			const {text = "", attrs = {}, meta} = token;
 			const n = meta.name;
+			let link, label, icon;
 			switch(n) {
 				case "archetype": {
 					const { c = "" } = attrs;
@@ -59,11 +60,28 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 					);
 				}
 				case "elephant": {
+					link = "/rule/the_elephant_in_the_room";
+					icon = "elephant.svg";
+					label = "The Elephant in the Room";
+					// Pass-through
+				}
+				case "mythic": {
+					link = link || "/rule/mythic_rules";
+					icon = icon || "ancient-sword.svg";
+					label = label || "Mythic Rules";
+					// Pass-through
+				}
+				case "stamina": {
+					link = link || "/feat/combat_stamina";
+					icon = icon || "shield-bash.svg";
+					label = label || "Combat Tricks and Stamina";
+					const title = attrs.title ? `<th scope="col">${attrs.title}</th></tr><tr>` : "";
+					const rowspan = title ? ` rowSpan={2}` : "";
 					const marked2 = makeNewMarkedInstance();
 					flags.thlink = true;
 					flags.icon = true;
 					return (
-						`<div className="sideNoteWrap elephant"><table><tbody><tr><ThLink scope="row" to="/rule/the_elephant_in_the_room"><IonIcon aria-label="The Elephant in the Room" icon="/icons/elephant.svg" /></ThLink><td>${removeCurlyBrackets(marked2.parse(text))}</td></tr></tbody></table></div>`
+						`<div className="sideNoteWrap singular"><table><tbody><tr><ThLink scope="row" to="${link}"${rowspan}><IonIcon aria-label="${label}" icon="/icons/${icon}" /></ThLink>${title}<td>${removeCurlyBrackets(marked2.parse(text))}</td></tr></tbody></table></div>`
 					);
 				}
 			}

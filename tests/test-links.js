@@ -267,7 +267,7 @@ const checkForMalformedLinks = (line) => {
 	// 5: what follows isn't a {valid/link}
 	// 6: what follows isn't a SOURCE tag, jumplist marker, or table reference
 	//                   1           2         3                   4                    5                 6
-	if(m = line.match(/(?<!\])(?<!(?::::|;;;)div|::drug|::trap)(?<!:::blockquote)(?<!:::archetype)(?<!::aff)(?<!::haunt)\{(?![-a-z_]+[/][^}]+\})(?!SOURCE|table[0-9]+|jumplist).{0,10}/)) {
+	if(m = line.match(/(?<!\])(?<!(?::::|;;;)div|::drug|::trap)(?<!:::blockquote)(?<!:::archetype)(?<!::aff)(?<!::haunt)(?<!:::mythic)\{(?![-a-z_]+[/][^}]+\})(?!SOURCE|table[0-9]+|jumplist).{0,10}/)) {
 		return `Malformed {link}: ${m[0]}\n\t\t => "${line}"`;
 	}
 	// 1: has the markdown link format ](

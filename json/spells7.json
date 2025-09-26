@@ -282,11 +282,12 @@
 			"",
 			"This spell has no effect on earth creatures.",
 			"",
-			"### Mythic Move Earth",
+			":::mythic{title=\"Mythic Move Earth\"}",
 			"",
-			"{SOURCE Mythic Adventures/102}",
+			"{SOURCE Mythic Adventures/102}  ",
+			"This spell can move earth much more quickly, with each full round of casting allowing you to reshape a 25-foot-square area up to 10 feet deep. All creatures on or under the ground within that area are knocked prone and moved to the closest square outside the area being shaped. A successful Reflex save prevents a creature from being knocked prone, but it's still moved.",
 			"",
-			"This spell can move earth much more quickly, with each full round of casting allowing you to reshape a 25-foot-square area up to 10 feet deep. All creatures on or under the ground within that area are knocked prone and moved to the closest square outside the area being shaped. A successful Reflex save prevents a creature from being knocked prone, but it's still moved."
+			":::"
 		]
 	},
 	"mud_buddy": {
@@ -367,13 +368,14 @@
 			"",
 			"You give the target a mental urge to kill its nearest ally, which it obeys to the best of its ability. The target attacks its nearest ally on its next turn with a melee weapon or natural weapon. If necessary, it moves to or charges to the nearest ally in order to make this attack. If it is unable to reach its closest ally on its next turn, the target uses its turn to get as close as possible to the ally.",
 			"",
-			"### Mythic Murderous Command",
+			":::mythic{title=\"Mythic Murderous Command\"}",
 			"",
-			"{SOURCE Mythic Adventures/102}",
-			"",
+			"{SOURCE Mythic Adventures/102}  ",
 			"This spell lasts for a number of rounds equal to your tier. Each round after the first, the target can attempt a new saving throw at the beginning of its turn to break free of the spell.",
 			"",
-			"*Augmented:* If you expend two uses of mythic power, the target attacks its nearest ally with its most powerful spell, spell-like ability, or supernatural ability. If it has no such ability, it attacks the ally with a melee weapon or natural weapon as normal and gains a +4 morale bonus on the attack and damage rolls."
+			"*Augmented:* If you expend two uses of mythic power, the target attacks its nearest ally with its most powerful spell, spell-like ability, or supernatural ability. If it has no such ability, it attacks the ally with a melee weapon or natural weapon as normal and gains a +4 morale bonus on the attack and damage rolls.",
+			"",
+			":::"
 		]
 	},
 	"murderous_crow": {
@@ -1021,15 +1023,16 @@
 			"",
 			"Creatures who don't sleep (such as outsiders) or dream are immune to this spell.",
 			"",
-			"### Mythic Nightmare",
+			":::mythic{title=\"Mythic Nightmare\"}",
 			"",
-			"{SOURCE Mythic Adventures/102}",
-			"",
+			"{SOURCE Mythic Adventures/102}  ",
 			"The spell's damage increases to 4d6 points of damage, and the target is also shaken for 24 hours.",
 			"",
 			"*Augmented (6th):* You can deliver a mind-affecting spell through a mythic nightmare. The maximum level of the delivered spell is equal to half your tier, and you must expend one use of mythic power for each spell level of the imbued spell in addition to the one use needed to cast mythic nightmare. You choose whether the delivered spell affects the creature immediately or when it awakens. The delivered spell affects only the target, even if it normally affects multiple creatures or an area.",
 			"",
-			"[^N]: You must have some sort of connection to a creature of which you have no knowledge."
+			"[^N]: You must have some sort of connection to a creature of which you have no knowledge.",
+			"",
+			":::"
 		]
 	},
 	"nine_lives": {
@@ -1300,11 +1303,12 @@
 			"",
 			"Entreating your deity for aid, you make a temporary oath of peace, granting you superior defenses but means you can't attack for the duration of the oath. For as long as you are subject to this spell, you gain a +5 sacred bonus to AC and on saving throws, as well as DR 10/evil. If you make a direct or indirect attack or any show any hostility toward any creature, the spell immediately ends.",
 			"",
-			"### Mythic Oath of Peace",
+			":::mythic{title=\"Mythic Oath of Peace\"}",
 			"",
-			"{SOURCE Mythic Adventures/102}",
+			"{SOURCE Mythic Adventures/102}  ",
+			"You don't provoke attacks of opportunity when you attempt Heal checks, cast targeted spells with the harmless descriptor, or use positive energy effects to heal living creatures.",
 			"",
-			"You don't provoke attacks of opportunity when you attempt Heal checks, cast targeted spells with the harmless descriptor, or use positive energy effects to heal living creatures."
+			":::"
 		]
 	},
 	"object_possession_lesser": {
@@ -1467,15 +1471,16 @@
 			"",
 			"This spell does not function underwater.",
 			"",
-			"### Mythic Obscuring Mist",
+			":::mythic{title=\"Mythic Obscuring Mist\"}",
 			"",
-			"{SOURCE Mythic Adventures/102}",
-			"",
+			"{SOURCE Mythic Adventures/102}  ",
 			"The range increases to 50 feet, and the cloud's radius and height both increase to 50 feet.",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, the range increases to 500 feet. The cloud's radius increases to 500 feet, and its height increases to 100 feet. Winds can't dissipate the mist unless the area of the wind affects the entire area of this spell. Areas of mist burned away by fire spells become obscured again 1d4 rounds after the fire effect ends.",
 			"",
-			"If you're at least 6th tier and expend three uses of mythic power, the range increases to 1 mile, the cloud radius increases to 1 mile, and its height increases to 500 feet. The cloud is as resistant to wind and fire effects as the 3rd-tier version."
+			"If you're at least 6th tier and expend three uses of mythic power, the range increases to 1 mile, the cloud radius increases to 1 mile, and its height increases to 500 feet. The cloud is as resistant to wind and fire effects as the 3rd-tier version.",
+			"",
+			":::"
 		]
 	},
 	"obsidian_flow": {
@@ -1815,15 +1820,16 @@
 			"",
 			"An undead creature that passes through or ends its turn in the space occupied by the orb gains 2d4 &times; 5 temporary hit points for 1 hour.",
 			"",
-			"### Mythic Orb of the Void",
+			":::mythic{title=\"Mythic Orb of the Void\"}",
 			"",
-			"{SOURCE Mythic Adventures/103}",
-			"",
+			"{SOURCE Mythic Adventures/103}  ",
 			"A creature that fails its save against the orb gains 2 negative levels rather than 1. A successful Fortitude save reduces this to 1 negative level.",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, the orb doesn't automatically stop when in enters a space with a living creature, but the saving throw DC decreases by 2 for each creature after the first it affects each round.",
 			"",
-			"An individual creature can be affected by the orb of the void only once per round, even if the orb moves through its space more than once."
+			"An individual creature can be affected by the orb of the void only once per round, even if the orb moves through its space more than once.",
+			"",
+			":::"
 		]
 	},
 	"orchids_drop": {
@@ -1869,11 +1875,12 @@
 			"",
 			"The spell deals only half damage to creatures who are neither chaotic nor lawful, and they are not dazed. They can reduce the damage in half again (down to one-quarter of the roll) with a successful Will save.",
 			"",
-			"### Mythic Order's Wrath",
+			":::mythic{title=\"Mythic Order's Wrath\"}",
 			"",
-			"{SOURCE Mythic Adventures/103}",
+			"{SOURCE Mythic Adventures/103}  ",
+			"The damage dealt to chaotic outsiders increases to 1d10 points of damage per caster level (maximum 10d10) and the damage to other chaotic creatures increases to 1d12 points of damage per 2 caster levels (maximum 5d12). The duration that creatures in the area are dazed increases to 2 rounds. Chaotic creatures that succeed at their saves are dazed for 1 round.",
 			"",
-			"The damage dealt to chaotic outsiders increases to 1d10 points of damage per caster level (maximum 10d10) and the damage to other chaotic creatures increases to 1d12 points of damage per 2 caster levels (maximum 5d12). The duration that creatures in the area are dazed increases to 2 rounds. Chaotic creatures that succeed at their saves are dazed for 1 round."
+			":::"
 		]
 	},
 	"out_of_sight": {
@@ -2815,15 +2822,16 @@
 			"",
 			"You weaken the target's defenses against poison. The target gains a -4 penalty on saves against poison, and poisons affecting the target continue for another 2 frequency increments (for example, black adder venom lasts 8 rounds instead of 6, and arsenic lasts for 6 minutes instead of 4). Attempts to cure the poisoned target with skill or magic take a -4 penalty.",
 			"",
-			"### Mythic Pernicious Poison",
+			":::mythic{title=\"Mythic Pernicious Poison\"}",
 			"",
-			"{SOURCE Mythic Adventures/103}",
-			"",
+			"{SOURCE Mythic Adventures/103}  ",
 			"The number of successful saving throws needed to cure a poison increases by one. If the poison deals ability damage on a failed saving throw, that ability damage increases by 1.",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, the target's penalty on saves against poison increases to -8, and the penalty for attempting to cure the target with skill or magic increases to -8.",
 			"",
-			"If you expend three uses of mythic power, the poison bypasses the creature's poison immunity (this doesn't affect poison immunity from not having a Constitution score)."
+			"If you expend three uses of mythic power, the poison bypasses the creature's poison immunity (this doesn't affect poison immunity from not having a Constitution score).",
+			"",
+			":::"
 		]
 	},
 	"pernicious_pranksters": {
@@ -3028,13 +3036,14 @@
 			"",
 			"If the subject of a phantasmal killer attack succeeds in disbelieving and possesses telepathy or is wearing a {magic-wondrous/helm of telepathy}, the beast can be turned upon you. You must then disbelieve it or become subject to its deadly fear attack.",
 			"",
-			"### Mythic Phantasmal Killer",
+			":::mythic{title=\"Mythic Phantasmal Killer\"}",
 			"",
-			"{SOURCE Mythic Adventures/103}",
-			"",
+			"{SOURCE Mythic Adventures/103}  ",
 			"If the target fails its Will save but succeeds at its Fortitude save, the phantasmal killer persists in the target's mind, giving it the dazed condition until your next turn. On your next turn, the target must attempt another Fortitude save against the phantasm. Success means it takes 3d6 points of damage; failure means it dies from fear.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, the spell can affect a living target that is immune to fear, illusions, or mind-affecting effects."
+			"*Augmented (6th):* If you expend two uses of mythic power, the spell can affect a living target that is immune to fear, illusions, or mind-affecting effects.",
+			"",
+			":::"
 		]
 	},
 	"phantasmal_putrefaction": {
@@ -3531,11 +3540,12 @@
 			"",
 			"You conjure a pillar of positive energy in a single 5-foot square within range that radiates light as if it were a sunrod. Living creatures adjacent to the pillar can spend a standard action to touch the pillar and heal 2d8 points of damage + 1 point per caster level (maximum +20). Creatures can move into the square containing the pillar, but if an undead creature moves into the pillar it takes 1d6 points of damage per caster level (maximum 10d6). Undead creatures vulnerable to bright light take 1d8 points if damage per caster level (maximum 10d8). A creature cannot benefit or suffer more than once from a single casting of this spell.",
 			"",
-			"### Mythic Pillar of Life",
+			":::mythic{title=\"Mythic Pillar of Life\"}",
 			"",
-			"{SOURCE Mythic Adventures/103}",
+			"{SOURCE Mythic Adventures/103}  ",
+			"The damage healed increases to 3d8 points of damage + 1 point per caster level (maximum +20). The damage dealt to undead increases to 1d8 points of damage per caster level (maximum 10d8), or 2d6 points of damage per caster level for undead vulnerable to bright light (maximum 20d6). If a dead creature is brought into the pillar's square and that creature could be revived by breath of life, the pillar of life ends and the creature returns to life as per breath of life.",
 			"",
-			"The damage healed increases to 3d8 points of damage + 1 point per caster level (maximum +20). The damage dealt to undead increases to 1d8 points of damage per caster level (maximum 10d8), or 2d6 points of damage per caster level for undead vulnerable to bright light (maximum 20d6). If a dead creature is brought into the pillar's square and that creature could be revived by breath of life, the pillar of life ends and the creature returns to life as per breath of life."
+			":::"
 		]
 	},
 	"pillow_talk": {
@@ -4338,11 +4348,12 @@
 			"",
 			"A blue-white ray of freezing air and ice springs from your hand. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d6 points of cold damage per caster level (maximum 25d6) and 1d4 points of Dexterity drain.",
 			"",
-			"### Mythic Polar Ray",
+			":::mythic{title=\"Mythic Polar Ray\"}",
 			"",
-			"{SOURCE Mythic Adventures/103}",
+			"{SOURCE Mythic Adventures/103}  ",
+			"The damage dealt increases to 1d8 points of cold damage per caster level (maximum 25d8) and 1d6 points of Dexterity drain. If the target takes damage from this spell, it becomes partially encased in ice, reducing its speed by half. Creatures with the cold or incorporeal subtypes or immunity to being grappled are immune to this effect. The reduced movement lasts until the ice is destroyed. Destroying the ice requires a successful Strength or dispel check against the spell's DC or dealing 1 point of bludgeoning or fire damage per caster level to the target.",
 			"",
-			"The damage dealt increases to 1d8 points of cold damage per caster level (maximum 25d8) and 1d6 points of Dexterity drain. If the target takes damage from this spell, it becomes partially encased in ice, reducing its speed by half. Creatures with the cold or incorporeal subtypes or immunity to being grappled are immune to this effect. The reduced movement lasts until the ice is destroyed. Destroying the ice requires a successful Strength or dispel check against the spell's DC or dealing 1 point of bludgeoning or fire damage per caster level to the target."
+			":::"
 		]
 	},
 	"polymorph": {

@@ -561,13 +561,14 @@
 			"You can cast many spells without needing to utilize minor material components.  ",
 			"**Benefit:** You can cast any spell with a material component costing 1 gp or less without needing that component. The casting of the spell still provokes attacks of opportunity as normal. If the spell requires a material component that costs more than 1 gp, you must have the material component on hand to cast the spell, as normal.",
 			"",
-			"### Mythic Eschew Materials",
+			":::mythic{title=\"Mythic Eschew Materials\"}",
 			"",
-			"{SOURCE Mythic Adventures/65}",
-			"",
+			"{SOURCE Mythic Adventures/65}  ",
 			"You can cast even the most powerful spells without using material components.  ",
 			"**Prerequisites:** Eschew Materials.  ",
-			"**Benefit:** You can cast any spell with a material component costing 10 gp per tier or less without providing that component. If you expend one use of mythic power while casting a spell that requires a material component costing 50 gp per tier or less, you can cast it without providing that component. Expending two uses of mythic power instead allows you to cast a spell that requires a material component costing 100 gp per tier or less without providing that component."
+			"**Benefit:** You can cast any spell with a material component costing 10 gp per tier or less without providing that component. If you expend one use of mythic power while casting a spell that requires a material component costing 50 gp per tier or less, you can cast it without providing that component. Expending two uses of mythic power instead allows you to cast a spell that requires a material component costing 100 gp per tier or less without providing that component.",
+			"",
+			":::"
 		]
 	},
 	"esoteric_abjuration": {
@@ -828,10 +829,12 @@
 			"**Benefit:** When you score a critical hit on a foe, your target immediately becomes {misc/exhausted}. This feat has no effect on exhausted creatures.  ",
 			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess the {feat/Critical Mastery} feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When you threaten a critical hit against an exhausted target and choose to use Exhausting Critical, you can spend up to 5 stamina points. If you do, you gain a +2 bonus on the confirmation roll for each stamina point you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When you threaten a critical hit against an exhausted target and choose to use Exhausting Critical, you can spend up to 5 stamina points. If you do, you gain a +2 bonus on the confirmation roll for each stamina point you spent.",
+			"",
+			":::"
 		]
 	},
 	"exiles_path": {
@@ -1532,10 +1535,12 @@
 			"You can bolster a trained ally's defenses by interposing your own armored body.  ",
 			"**Benefit:** If you are wearing medium or heavy armor and are adjacent to an ally who also has this feat, as a free action, you may give your ally a circumstance bonus to her AC equal to half the armor bonus provided by your armor. This bonus lasts for 1 round. During this round, you gain no bonus to your AC from your armor.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/20}",
-			">",
-			">You can spend 5 stamina points either to use this feat without losing your own armor bonus to AC, or to use this feat to grant the bonus to an ally."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/20}  ",
+			"You can spend 5 stamina points either to use this feat without losing your own armor bonus to AC, or to use this feat to grant the bonus to an ally.",
+			"",
+			":::"
 		]
 	},
 	"extended_animal_focus": {
@@ -2459,10 +2464,12 @@
 			"**Prerequisites:** {feat/Seething Hatred}, {ability/sneak attack} +3d6, studied target class feature.  ",
 			"**Benefit:** When you succeed at a sneak attack against a creature you selected as the target of your Seething Hatred feat, you use d8s to roll sneak attack damage instead of d6s.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When you succeed at a sneak attack against a creature that is not the target of your Seething Hatred feat, you can spend 5 stamina points to treat the creature as if it were the target of your Seething Hatred for that attack."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When you succeed at a sneak attack against a creature that is not the target of your Seething Hatred feat, you can spend 5 stamina points to treat the creature as if it were the target of your Seething Hatred for that attack.",
+			"",
+			":::"
 		]
 	},
 	"eye_for_ingredients": {
@@ -2575,10 +2582,12 @@
 			"**Prerequisites:** {feat/Nature Magic} or the ability to cast druid or ranger spells; {feat/Vital Strike}, Knowledge (nature) 5 ranks.  ",
 			"**Benefit:** When you use Vital Strike (or {feat/Improved Vital Strike} or {feat/Greater Vital Strike}), the creature you hit with the attack must succeed at a Will save (DC = 10 + 1/2 your character level + your Wisdom modifier) or be illuminated as if by {spell/faerie fire} for 1 minute. You can use this benefit a number of times per day equal to your Wisdom modifier (minimum 1).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When using this feat, you can spend up to 5 stamina points to increase the DC of the effect by an amount equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When using this feat, you can spend up to 5 stamina points to increase the DC of the effect by an amount equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"falcons_cry": {
@@ -2626,10 +2635,12 @@
 			"**Prerequisites:** {feat/Aldori Dueling Disciple}, {feat/Duelist of the Roaring Falls}, {feat/Duelist of the Shrouded Lake}, {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword), base attack bonus +8.  ",
 			"**Benefit:** When attacking a creature denied its Dexterity bonus to AC because of your successful feint, you increase the threat range of your {eq-weapon/Aldori dueling sword} by 1 (typically to 18-20/&times;2), and gain a +2 bonus on attack rolls to confirm critical hits. After you make a {rule/dueling dodge} or succeed at a {rule/dueling parry} during a duel, you can make an attack of opportunity against the foe who attacked you if that foe is {misc/shaken}, {misc/frightened}, or {misc/panicked}. To gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/25}",
-			">",
-			">By spending 4 stamina points, you gain the ability to attempt a dueling dodge or a dueling parry against attacks made by a shaken, frightened, or panicked opponent, even if you aren't participating in a duel."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/25}  ",
+			"By spending 4 stamina points, you gain the ability to attempt a dueling dodge or a dueling parry against attacks made by a shaken, frightened, or panicked opponent, even if you aren't participating in a duel.",
+			"",
+			":::"
 		]
 	},
 	"false_casting": {
@@ -2676,10 +2687,12 @@
 			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Close Quarters Thrower} or {feat/Point-Blank Master}, {feat/Weapon Focus} with selected ranged weapon.  ",
 			"**Benefit:** Choose a ranged weapon or a thrown weapon. When you make a ranged attack using that weapon, you can choose to provoke an attack of opportunity from one or more opponents who threaten you. You gain a +4 dodge bonus against such attacks. An opponent that makes such an attack and misses you loses his Dexterity bonus to AC against you until the end of your turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When you use this feat, you can spend 5 stamina points to make an attack of opportunity against an opponent who misses you with the provoked attack (after it loses its Dexterity bonus to AC against you)."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When you use this feat, you can spend 5 stamina points to make an attack of opportunity against an opponent who misses you with the provoked attack (after it loses its Dexterity bonus to AC against you).",
+			"",
+			":::"
 		]
 	},
 	"false_trail": {
@@ -2834,18 +2847,21 @@
 			"**Benefit:** You only suffer a -1 penalty per full range increment between you and your target when using a ranged weapon.  ",
 			"**Normal:** You suffer a -2 penalty per full range increment between you and your target.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When making a single ranged attack as a standard action, you can spend 5 stamina points to ignore all range penalties on that attack.",
+			":::stamina",
 			"",
-			"### Mythic Far Shot",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When making a single ranged attack as a standard action, you can spend 5 stamina points to ignore all range penalties on that attack.",
 			"",
-			"{SOURCE Mythic Adventures/65}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Far Shot\"}",
+			"",
+			"{SOURCE Mythic Adventures/65}  ",
 			"You make long-ranged attacks with remarkable accuracy.  ",
 			"**Prerequisites:** Far Shot.  ",
 			"**Benefit:** As a swift action, you can expend one use of mythic power to ignore all range increment penalties for your ranged attacks until the end of your turn.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -2954,13 +2970,14 @@
 			"**Benefit:** Using wild empathy is a standard action for you.  ",
 			"**Normal:** Using wild empathy requires 1 minute.",
 			"",
-			"### Mythic Fast Empathy",
+			":::mythic{title=\"Mythic Fast Empathy\"}",
 			"",
-			"{SOURCE Mythic Adventures/65}",
-			"",
+			"{SOURCE Mythic Adventures/65}  ",
 			"You can soothe the emotions of wild beasts with nearly supernatural quickness.  ",
 			"**Prerequisites:** Fast Empathy.  ",
-			"**Benefit:** You can use wild empathy as a swift action."
+			"**Benefit:** You can use wild empathy as a swift action.",
+			"",
+			":::"
 		]
 	},
 	"fast_healer": {

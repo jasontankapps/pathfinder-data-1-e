@@ -126,10 +126,12 @@
 			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Mobility}.  ",
 			"**Benefit:** If you are {rule/trip/ped}, you can spend an immediate action to move 5 feet without provoking an attack of opportunity. This does not count as taking a 5-foot step. You fall {rule/prone} after this movement.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/125}",
-			">",
-			">When using this feat, you can spend 5 stamina points to stand up as part of your immediate action after you move. Standing up provokes attacks of opportunity."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/125}  ",
+			"When using this feat, you can spend 5 stamina points to stand up as part of your immediate action after you move. Standing up provokes attacks of opportunity.",
+			"",
+			":::"
 		]
 	},
 	"lantern_glare": {
@@ -422,10 +424,12 @@
 			"**Prerequisites:** {feat/Lightning Reflexes}, {ability/evasion} class feature.  ",
 			"**Benefit:** When you succeed at a Reflex save against a spell or effect that affects an area, as an immediate action you can attempt an Acrobatics check to jump out of the effect's area. You must move to the nearest space you can see outside of the affected area. The DC for this Acrobatics check is equal to the number of feet you must move to escape the area, and you can't travel farther than your normal movement. If you use this feat, you are {misc/staggered} on your next turn. This movement doesn't provoke attacks of opportunity from creatures in the area of the effect you are escaping.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/21}",
-			">",
-			">You can spend 5 stamina points to ignore the staggered condition normally imparted by this feat."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/21}  ",
+			"You can spend 5 stamina points to ignore the staggered condition normally imparted by this feat.",
+			"",
+			":::"
 		]
 	},
 	"leaping_shot": {
@@ -874,13 +878,14 @@
 			"You have faster reflexes than normal.  ",
 			"**Benefit:** You get a +2 bonus on all Reflex saving throws.",
 			"",
-			"### Mythic Lightning Reflexes",
+			":::mythic{title=\"Mythic Lightning Reflexes\"}",
 			"",
-			"{SOURCE Mythic Adventures/68}",
-			"",
+			"{SOURCE Mythic Adventures/68}  ",
 			"Your reflexes are superhuman.  ",
 			"**Prerequisites:** Lightning Reflexes.  ",
-			"**Benefit:** Whenever you roll a Reflex saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result."
+			"**Benefit:** Whenever you roll a Reflex saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result.",
+			"",
+			":::"
 		]
 	},
 	"lightning_stance": {
@@ -898,10 +903,12 @@
 			"**Prerequisites:** Dex 17, {feat/Dodge}, {feat/Wind Stance}, base attack bonus +11.  ",
 			"**Benefit:** If you take two actions to move or use a {rule/withdraw} action in a turn, you gain 50% {rule/concealment} for 1 round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/125}",
-			">",
-			">When you take a single move action and move no less than your speed, you can spend 5 stamina points to benefit from a 50% miss chance until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/125}  ",
+			"When you take a single move action and move no less than your speed, you can spend 5 stamina points to benefit from a 50% miss chance until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"lingering_breath": {
@@ -1216,10 +1223,12 @@
 			"Your allies help you avoid being surprised.  ",
 			"**Benefit:** Whenever you are adjacent to an ally who also has this feat, you may act in the surprise round as long as your ally would normally be able to act in the surprise round. If you would normally be denied the ability to act in the surprise round, your initiative is equal to your initiative roll or the roll of your ally -1, whichever is lower. If both you and your ally would be able to act in the surprise round without the aid of this feat, you may take both a standard and a move action (or a full-round action) during the surprise round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/125}",
-			">",
-			">As long as you have at least 1 stamina point in your stamina pool, you gain the benefit of this feat as long as you are within 10 feet of an ally who has this feat."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/125}  ",
+			"As long as you have at least 1 stamina point in your stamina pool, you gain the benefit of this feat as long as you are within 10 feet of an ally who has this feat.",
+			"",
+			":::"
 		]
 	},
 	"lost_in_the_crowd": {
@@ -1278,10 +1287,12 @@
 			"**Prerequisites:** Dex 13, Small size or smaller.  ",
 			"**Benefit:** You gain a +1 dodge bonus to AC against ranged attacks. In addition, you do not provide soft cover to creatures when ranged attacks pass through your square.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/125}",
-			">",
-			">When targeted by a ranged attack, you can spend a number of stamina points up to your Dexterity bonus. For each stamina point you spend in this way, your dodge bonus to AC against that attack increases by 1."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/125}  ",
+			"When targeted by a ranged attack, you can spend a number of stamina points up to your Dexterity bonus. For each stamina point you spend in this way, your dodge bonus to AC against that attack increases by 1.",
+			"",
+			":::"
 		]
 	},
 	"loyal_to_the_death": {
@@ -1353,13 +1364,14 @@
 			"**Prerequisites:** {race/Halfling}.  ",
 			"**Benefit:** Once per day, when one of your allies within 30 feet makes a saving throw, you may roll the same saving throw as if you were the one subject to the effect requiring it. You may use this ability after your ally has rolled, but before the GM declares if the roll was a success or failure. Your ally may choose to use your saving throw in place of his own.",
 			"",
-			"### Mythic Lucky Halfling",
+			":::mythic{title=\"Mythic Lucky Halfling\"}",
 			"",
-			"{SOURCE Mythic Adventures/68}",
-			"",
+			"{SOURCE Mythic Adventures/68}  ",
 			"You share your mythic luck with those around you.  ",
 			"**Prerequisites:** Lucky Halfling.  ",
-			"**Benefit:** When you use Lucky Halfling, add your tier as a bonus on the saving throw. You can expend one use of mythic power when an ally uses your save but still suffers an effect on a successful saving throw. If you do, that ally suffers no effect on the successful saving throw."
+			"**Benefit:** When you use Lucky Halfling, add your tier as a bonus on the saving throw. You can expend one use of mythic power when an ally uses your save but still suffers an effect on a successful saving throw. If you do, that ally suffers no effect on the successful saving throw.",
+			"",
+			":::"
 		]
 	},
 	"lucky_healer": {
@@ -1390,10 +1402,12 @@
 			"**Prerequisites:** Base attack bonus +5, adaptive luck racial trait, {race/halfling}.  ",
 			"**Benefit:** Spend a use of your adaptive luck racial trait to reroll the damage from a single weapon attack. You deal damage equal to the new damage roll, or the original roll, whichever is greater.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/125}",
-			">",
-			">You can spend 5 stamina points instead of a use of adaptable luck to reroll the damage from a single attack."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/125}  ",
+			"You can spend 5 stamina points instead of a use of adaptable luck to reroll the damage from a single attack.",
+			"",
+			":::"
 		]
 	},
 	"lucky_surge": {
@@ -1425,18 +1439,21 @@
 			"**Prerequisites:** Base attack bonus +6.  ",
 			"**Benefit:** You can increase the reach of your melee attacks by 5 feet until the end of your turn by taking a -2 penalty to your AC until your next turn. You must decide to use this ability before any attacks are made.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/125}",
-			">",
-			">When you use this feat, you can spend 2 stamina points to avoid taking the -2 penalty to AC for that use.",
+			":::stamina",
 			"",
-			"### Mythic Lunge",
+			"{SOURCE Pathfinder Unchained/125}  ",
+			"When you use this feat, you can spend 2 stamina points to avoid taking the -2 penalty to AC for that use.",
 			"",
-			"{SOURCE Mythic Adventures/69}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Lunge\"}",
+			"",
+			"{SOURCE Mythic Adventures/69}  ",
 			"Your reaching strikes aid your defenses against those you hit.  ",
 			"**Prerequisites:** Lunge.  ",
-			"**Benefit:** Whenever you use Lunge and hit a creature with the melee attack, you no longer take a -2 penalty to AC against that creature. You can expend one use of mythic power when you use Lunge to negate the -2 penalty to AC whether you hit or miss, and gain a +2 bonus on attacks of opportunity you make while Lunge is in effect."
+			"**Benefit:** Whenever you use Lunge and hit a creature with the melee attack, you no longer take a -2 penalty to AC against that creature. You can expend one use of mythic power when you use Lunge to negate the -2 penalty to AC whether you hit or miss, and gain a +2 bonus on attacks of opportunity you make while Lunge is in effect.",
+			"",
+			":::"
 		]
 	},
 	"lunging_spell_touch": {
@@ -1679,13 +1696,14 @@
 			"You are skilled at spellcasting and using magic items.  ",
 			"**Benefit:** You get a +2 bonus on all Spellcraft checks and Use Magic Device checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
 			"",
-			"### Mythic Magical Aptitude",
+			":::mythic{title=\"Mythic Magical Aptitude\"}",
 			"",
-			"{SOURCE Mythic Adventures/69}",
-			"",
+			"{SOURCE Mythic Adventures/69}  ",
 			"Your understanding of the principles and intricacies of magic goes far beyond your training.  ",
 			"**Prerequisites:** Magical Aptitude.  ",
-			"**Benefit:** The bonus on Spellcraft and Use Magic Device skill checks from Magical Aptitude increases by 2. In addition, you can expend one use of mythic power to treat a Spellcraft or Use Magic Device check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
+			"**Benefit:** The bonus on Spellcraft and Use Magic Device skill checks from Magical Aptitude increases by 2. In addition, you can expend one use of mythic power to treat a Spellcraft or Use Magic Device check as if you had rolled a natural 20. You must decide to use this ability before making the roll.",
+			"",
+			":::"
 		]
 	},
 	"magical_enigma": {
@@ -1912,10 +1930,12 @@
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Stunning Fist}, Heal 3 ranks.  ",
 			"**Benefit:** You gain one additional Stunning Fist attempt per day. While using this style, you gain a +2 bonus to the DC of effects you deliver with your Stunning Fist.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/125}",
-			">",
-			">While using this style, you can spend 5 stamina points to use Stunning Fist without expending a use of Stunning Fist for the day."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/125}  ",
+			"While using this style, you can spend 5 stamina points to use Stunning Fist without expending a use of Stunning Fist for the day.",
+			"",
+			":::"
 		]
 	},
 	"mantis_torment": {
@@ -1933,10 +1953,12 @@
 			"**Prerequisites:** Heal 9 ranks, {feat/Improved Unarmed Strike}, {feat/Mantis Style}, {feat/Mantis Wisdom}, {feat/Stunning Fist}.  ",
 			"**Benefit:** You gain one additional Stunning Fist attempt per day. While using Mantis Style, you make an unarmed attack that expends two daily attempts of your Stunning Fist. If you hit, your opponent must succeed at a saving throw against your Stunning Fist or become {misc/dazzled} and {misc/staggered} with crippling pain until the start of your next turn, and at that point the opponent becomes {misc/fatigued}.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/125}",
-			">",
-			">Instead of expending two uses of Stunning Fist to make the Mantis Torment unarmed strike, you can choose to spend either 5 stamina points or one use of Stunning Fist and 2 stamina points."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/125}  ",
+			"Instead of expending two uses of Stunning Fist to make the Mantis Torment unarmed strike, you can choose to spend either 5 stamina points or one use of Stunning Fist and 2 stamina points.",
+			"",
+			":::"
 		]
 	},
 	"mantis_wisdom": {
@@ -1956,10 +1978,12 @@
 			"",
 			"While using Mantis Style, you gain a +2 bonus on unarmed attack rolls with which you are using Stunning Fist attempts.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/126}",
-			">",
-			">You can spend 2 stamina points and take a standard action to remove any Stunning Fist effect you have applied to a creature without making a touch attack. You can use this ability no matter where the affected creature is located."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/126}  ",
+			"You can spend 2 stamina points and take a standard action to remove any Stunning Fist effect you have applied to a creature without making a touch attack. You can use this ability no matter where the affected creature is located.",
+			"",
+			":::"
 		]
 	},
 	"manyshot": {
@@ -1979,18 +2003,21 @@
 			"**Prerequisites:** Dex 17, {feat/Rapid Shot}, base attack bonus +6.  ",
 			"**Benefit:** When making a full-attack action with a bow, your first attack fires two arrows. If the attack hits, both arrows hit. Apply {misc/precision[-based] damage} (such as {ability/sneak attack}) and critical hit damage only once for this attack. Damage bonuses from using a composite bow with a high Strength bonus apply to each arrow, as do other damage bonuses, such as a ranger's {ability/favored enemy} bonus. Damage reduction and resistances apply separately to each arrow.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/126}",
-			">",
-			">When using this feat, you can spend 5 stamina points to fire two arrows with your final iterative attack during the full attack.",
+			":::stamina",
 			"",
-			"### Mythic Manyshot",
+			"{SOURCE Pathfinder Unchained/126}  ",
+			"When using this feat, you can spend 5 stamina points to fire two arrows with your final iterative attack during the full attack.",
 			"",
-			"{SOURCE Mythic Adventures/69}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Manyshot\"}",
+			"",
+			"{SOURCE Mythic Adventures/69}  ",
 			"You can fire a barrage of arrows at your target with very little effort.  ",
 			"**Prerequisites:** Manyshot.  ",
 			"**Benefit:** When making a full-attack action with a bow and using Manyshot, you fire two arrows with both your first and second attacks, instead of just your first attack.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -2030,10 +2057,12 @@
 			"**Prerequisites:** Con 15, Wis 17, {feat/Elemental Fist}, {feat/Marid Spirit}, {feat/Marid Style}, {feat/Improved Unarmed Strike}, base attack bonus +13 or monk level 11th.  ",
 			"**Benefit:** While using Marid Style, as a standard action, you can spend two Elemental Fist attempts to unleash a 30-foot line of frigid water. Creatures caught in the line take your unarmed strike damage plus the cold damage from your Elemental Fist attack and are entangled in ice as per the Marid Spirit feat. A successful Reflex save (DC 10 + 1/2 your character level + your Wis modifier) reduces the damage by half and prevents a target from becoming entangled.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/126}",
-			">",
-			">Instead of spending two uses of Elemental Fist to unleash a line of frigid water, you can spend one use of Elemental Fist and 2 stamina points."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/126}  ",
+			"Instead of spending two uses of Elemental Fist to unleash a line of frigid water, you can spend one use of Elemental Fist and 2 stamina points.",
+			"",
+			":::"
 		]
 	},
 	"marid_spirit": {
@@ -2051,10 +2080,12 @@
 			"**Prerequisites:** Con 15, Wis 15, {feat/Elemental Fist}, {feat/Marid Style}, {feat/Improved Unarmed Strike}, base attack bonus +11 or monk level 9th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using Marid Style, you gain cold resistance equal to your base attack bonus, or monk level plus base attack bonus gained from levels in classes other than monk, whichever is higher. While denied your Dexterity bonus to AC you are also denied this resistance. Creatures that take cold damage from your Elemental Fist attack must succeed at a Fortitude save (DC 10 + 1/2 your character level + your Wis modifier) or become {rule/entangled} in ice for 1d4 rounds. The ice has hit points equal to three times your base attack bonus or monk level, whichever is higher, and a break DC of 15 + your base attack bonus or monk level, whichever is higher. Destroying or breaking the ice ends the entangled condition.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/126}",
-			">",
-			">When a creature takes cold damage from your Elemental Fist attack, you can spend up to 5 stamina points to increase the DC of the saving throw to avoid becoming entangled by an amount equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/126}  ",
+			"When a creature takes cold damage from your Elemental Fist attack, you can spend up to 5 stamina points to increase the DC of the saving throw to avoid becoming entangled by an amount equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"marid_style": {
@@ -2072,10 +2103,12 @@
 			"**Prerequisites:** Con 13, Wis 15, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +9 or monk level 5th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using this style and Elemental Fist to deal cold damage, you gain a bonus on cold damage rolls equal to your Wisdom modifier, and your reach with your unarmed strike increases by 5 feet.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/126}",
-			">",
-			">When you make an Elemental Fist attack to deal cold damage, you can spend up to 5 stamina points to deal an amount of additional cold damage equal to double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/126}  ",
+			"When you make an Elemental Fist attack to deal cold damage, you can spend up to 5 stamina points to deal an amount of additional cold damage equal to double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"mark_of_the_devoted": {
@@ -2165,10 +2198,12 @@
 			"**Prerequisites:** {feat/Martial Versatility}, fighter level 16th, {race/human}.  ",
 			"**Benefit:** Each combat feat you have that applies to a specific weapon (e.g., {feat/Weapon Focus}) can be used with all weapons in the same {ability/weapon group>s}.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/126}",
-			">",
-			">At the start of your turn, you can spend 5 stamina points to apply the feats to another weapon that is not of the same weapon group. You gain this benefit until the start of your next turn.",
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/126}  ",
+			"At the start of your turn, you can spend 5 stamina points to apply the feats to another weapon that is not of the same weapon group. You gain this benefit until the start of your next turn.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -2194,10 +2229,12 @@
 			"**Benefit:** Choose one combat feat you know that applies to a specific weapon (e.g., {feat/Weapon Focus}). You can use that feat with any weapon within the same {ability/weapon group>s}.  ",
 			"**Special:** You may take this feat more than once. Each time it applies to a different feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/126}",
-			">",
-			">At the start of your turn, you can spend 2 stamina points to apply the selected feat to another weapon that is not of the same weapon group. You gain this benefit until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/126}  ",
+			"At the start of your turn, you can spend 2 stamina points to apply the selected feat to another weapon that is not of the same weapon group. You gain this benefit until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"martial_weapon_proficiency": {
@@ -2375,10 +2412,12 @@
 			"**Prerequisites:** {feat/Performing Combatant} or at least three performance feats, base attack bonus +6.  ",
 			"**Benefit:** You can make {rule/performance combat} checks as a free action. You are proficient in all weapons with the {misc/performance} special quality.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/126}",
-			">",
-			">When you attempt a performance combat check, you can spend up to 5 stamina points to gain a bonus on the check equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/126}  ",
+			"When you attempt a performance combat check, you can spend up to 5 stamina points to gain a bonus on the check equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"master_craftsman": {
@@ -2489,10 +2528,12 @@
 			"**Benefit:** If you are the crew lead on a {rule/siege engine>s}, your crew can use move actions to load a siege engine. When you spend actions to aim a siege engine, you and your crew can use move actions instead of full-round actions to aim the siege engine.  ",
 			"**Normal:** Full-round actions are required to load and aim siege engines.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/126}",
-			">",
-			">You can spend 5 stamina points to reduce the number of actions it takes to aim and load a siege engine by one for 1 round (minimum one action). You must be the crew lead of that siege engine."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/126}  ",
+			"You can spend 5 stamina points to reduce the number of actions it takes to aim and load a siege engine by one for 1 round (minimum one action). You must be the crew lead of that siege engine.",
+			"",
+			":::"
 		]
 	},
 	"master_sniper": {
@@ -2537,10 +2578,12 @@
 			"**Prerequisites:** {feat/Dazzling Display}, any two {main/feats_<performance/ feats}.  ",
 			"**Benefit:** Choose the effects of any two performance feats you have. When you make a {rule/performance combat} check, you gain the benefits of those two feats, but you only gain a +2 bonus on the performance combat check.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/126}",
-			">",
-			">When choosing the effects of any two performance feats you possess, you can spend 2 stamina points to gain the bonus from both feats on your performance combat check."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/126}  ",
+			"When choosing the effects of any two performance feats you possess, you can spend 2 stamina points to gain the bonus from both feats on your performance combat check.",
+			"",
+			":::"
 		]
 	},
 	"masterful_flourish": {
@@ -2655,10 +2698,12 @@
 			"**Prerequisites:** Base attack bonus +1, worshiper of {faith/Abadar}.  ",
 			"**Benefit:** When you hit an opponent with a melee or ranged weapon attack, you may choose to deal average damage (rounded down), as if you had rolled exactly the average amount on the damage die or dice. You add your damage bonuses and penalties as normal.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/25}",
-			">",
-			">You can spend 5 stamina points before making a melee or ranged attack with Measured Response to treat the attack roll's result as a 10."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/25}  ",
+			"You can spend 5 stamina points before making a melee or ranged attack with Measured Response to treat the attack roll's result as a 10.",
+			"",
+			":::"
 		]
 	},
 	"meditation_master": {
@@ -2703,18 +2748,21 @@
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Gorgon's Fist}, {feat/Scorpion Style}, base attack bonus +11.  ",
 			"**Benefit:** Whenever you use the full-attack action and make at least one unarmed strike, you can make two additional unarmed strikes at your highest base attack bonus. These bonus attacks must be made against a {misc/dazed}, {rule/flat-footed}, {rule/paralyzed}, {misc/staggered}, {misc/stunned}, or {misc/unconscious} foe.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/126}",
-			">",
-			">While using this feat, you can spend 10 stamina points to make the bonus attacks against a foe that you are {rule/flanking}, instead of only a dazed, flat-footed, paralyzed, staggered, stunned, or unconscious foe.",
+			":::stamina",
 			"",
-			"### Mythic Medusa's Wrath",
+			"{SOURCE Pathfinder Unchained/126}  ",
+			"While using this feat, you can spend 10 stamina points to make the bonus attacks against a foe that you are {rule/flanking}, instead of only a dazed, flat-footed, paralyzed, staggered, stunned, or unconscious foe.",
 			"",
-			"{SOURCE Mythic Adventures/69}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Medusa's Wrath\"}",
+			"",
+			"{SOURCE Mythic Adventures/69}  ",
 			"Your barrage of unarmed attacks builds to a single, staggering strike.  ",
 			"**Prerequisites:** Medusa's Wrath.  ",
 			"**Benefit:** You may forgo the two additional unarmed strikes of Medusa's Wrath to instead make a single unarmed strike at your highest base attack bonus. If you successfully hit your opponent, it must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Wisdom modifier) or be {misc/staggered} for 1 round. You can expend one use of mythic power when you stagger a target with Medusa's Wrath to extend the duration of the staggered condition by a number of rounds equal to half your tier.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -2832,10 +2880,12 @@
 			"**Prerequisites:** {feat/Dastardly Finish}, {ability/sneak attack} +5d6, studied target class feature.  ",
 			"**Benefit:** As a standard action that does not provoke attacks of opportunity, you can attempt a {misc/coup de grace} against a {misc/cowering}, {misc/helpless}, or {misc/stunned} opponent that you have designated as your studied target.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">You can spend 10 stamina points when you use this feat to increase your weapon's critical multiplier by 1 (&times;2 becomes &times;3, and &times;3 becomes &times;4) for your *coup de grace.*"
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"You can spend 10 stamina points when you use this feat to increase your weapon's critical multiplier by 1 (&times;2 becomes &times;3, and &times;3 becomes &times;4) for your *coup de grace.*",
+			"",
+			":::"
 		]
 	},
 	"merciless_magic": {
@@ -3111,10 +3161,12 @@
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, base attack bonus +4.  ",
 			"**Benefit:** If you are the only character threatening an opponent and that opponent uses a combat feat (including taking an action that benefits from a combat feat, or gaining any bonus to AC, attack rolls, damage rolls, or saving throws from a combat feat), you can take an immediate action to gain the benefit of that feat until the end of your next turn. You must meet all the feat's prerequisites. If a feat has a daily use limitation, as does {feat/Stunning Fist}, any uses of that feat while you're using Mirror Move count toward that feat's daily limit for you. You can use Mirror Move once per day for every 4 levels you have attained.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/21}",
-			">",
-			">You can spend up to 5 stamina points to extend the duration that you benefit from a mirrored feat by 1 round per stamina point spent."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/21}  ",
+			"You can spend up to 5 stamina points to extend the duration that you benefit from a mirrored feat by 1 round per stamina point spent.",
+			"",
+			":::"
 		]
 	},
 	"mischievous_tail": {
@@ -3185,18 +3237,21 @@
 			"**Prerequisites:** Dex 13, {feat/Shield Focus}.  ",
 			"**Benefit:** You must be using a light, heavy, or {eq-armor/tower shield} to use this feat. Once per round when you would normally be hit with an attack from a ranged weapon (not including spell effects, natural attacks, or massive ranged weapons), you may deflect it so that you take no damage, as if you had the {feat/Deflect Arrows} feat. You must be aware of the attack and not {rule/flat-footed}.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/127}",
-			">",
-			">As long as you have at least 1 stamina point in your stamina pool, you can use this feat with a {eq-armor/buckler}. You can spend 5 stamina points to deflect an arrow even while you're flat-footed. You must still be aware of the attack.",
+			":::stamina",
 			"",
-			"### Mythic Missile Shield",
+			"{SOURCE Pathfinder Unchained/127}  ",
+			"As long as you have at least 1 stamina point in your stamina pool, you can use this feat with a {eq-armor/buckler}. You can spend 5 stamina points to deflect an arrow even while you're flat-footed. You must still be aware of the attack.",
 			"",
-			"{SOURCE Mythic Adventures/69}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Missile Shield\"}",
+			"",
+			"{SOURCE Mythic Adventures/69}  ",
 			"Your remarkable awareness allows you to deflect multiple ranged attacks and even ray spells.  ",
 			"**Prerequisites:** Missile Shield.  ",
-			"**Benefit:** When using Missile Shield, you can deflect an additional number of ranged attacks per round equal to half your tier. You can expend one use of mythic power as an immediate action to deflect a single ray from a ray spell or effect targeting you."
+			"**Benefit:** When using Missile Shield, you can deflect an additional number of ranged attacks per round equal to half your tier. You can expend one use of mythic power as an immediate action to deflect a single ray from a ray spell or effect targeting you.",
+			"",
+			":::"
 		]
 	},
 	"mixed_scales": {

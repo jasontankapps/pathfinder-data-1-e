@@ -293,13 +293,14 @@
 			"| Mud | Bludgeoning and entrap\\* |",
 			"| Water | Bludgeoning and drench\\* |",
 			"",
-			"### Mythic Elemental Bombardment",
+			":::mythic{title=\"Mythic Elemental Bombardment\"}",
 			"",
-			"{SOURCE Mythic Origins/14}",
-			"",
+			"{SOURCE Mythic Origins/14}  ",
 			"If you expend one use of mythic power, you can summon a combination of differently sized elementals of up to two different types, as long as their total number does not exceed the original limit. For example, you could summon one Huge air elemental and two Large fire elementals, or one Large water elemental and six Medium earth elementals.",
 			"",
-			"*Augmented (9th):* If you expend three uses of mythic power, you summon twice as many elementals as normal, each with the advanced simple template."
+			"*Augmented (9th):* If you expend three uses of mythic power, you summon twice as many elementals as normal, each with the advanced simple template.",
+			"",
+			":::"
 		]
 	},
 	"elemental_mastery": {
@@ -691,13 +692,14 @@
 			"",
 			"The target creature can make a Fortitude saving throw each time you attempt to use it as a weapon. If it makes its saving throw it can act normally, but if it fails its save it loses all actions for the round and ends its turn prone in a square adjacent to the target of your attack. However, if the creature chooses to resist your efforts to move it, taking no other actions for the round, it gets a +4 circumstance bonus on its saving throw. The spell ends immediately if the target creature dies or is destroyed.",
 			"",
-			"### Mythic Enemy Hammer",
+			":::mythic{title=\"Mythic Enemy Hammer\"}",
 			"",
-			"{SOURCE Mythic Adventures/93}",
-			"",
+			"{SOURCE Mythic Adventures/93}  ",
 			"The target becomes entangled whether or not it succeeds at its saving throw. When using the target as a weapon, add half your tier to your attack roll, and add your tier to the damage roll.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, when you use the target to hit a creature, you can attempt a free bull rush combat maneuver against that creature. Your CMB for this maneuver is equal to your attack bonus for mythic enemy hammer, except you add your tier instead of half your tier."
+			"*Augmented (3rd):* If you expend two uses of mythic power, when you use the target to hit a creature, you can attempt a free bull rush combat maneuver against that creature. Your CMB for this maneuver is equal to your attack bonus for mythic enemy hammer, except you add your tier instead of half your tier.",
+			"",
+			":::"
 		]
 	},
 	"enemy_insight": {
@@ -852,13 +854,14 @@
 			"",
 			"An undead creature struck by the ray gains 1d4 &times; 5 temporary hit points for 1 hour.",
 			"",
-			"### Mythic Enervation",
+			":::mythic{title=\"Mythic Enervation\"}",
 			"",
-			"{SOURCE Mythic Adventures/93}",
-			"",
+			"{SOURCE Mythic Adventures/93}  ",
 			"The number of negative levels inflicted increases to 1d6, and the target is sickened for 24 hours. An undead creature struck by the ray gains 1d6 &times; 5 temporary hit points for a number of hours equal to your caster level.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, any creature attempting to remove the target's negative levels must succeed at a caster level check (DC 10 + your caster level + your tier)."
+			"*Augmented (3rd):* If you expend two uses of mythic power, any creature attempting to remove the target's negative levels must succeed at a caster level check (DC 10 + your caster level + your tier).",
+			"",
+			":::"
 		]
 	},
 	"enhance_water": {
@@ -1297,11 +1300,12 @@
 			"",
 			"A magical field appears around you, glowing with a chaotic blast of multicolored hues. This field deflects incoming arrows, rays, and other ranged attacks. Each ranged attack directed at you for which the attacker must make an attack roll has a 20% miss chance (similar to the effects of concealment). Other attacks that simply work at a distance are not affected.",
 			"",
-			"### Mythic Entropic Shield",
+			":::mythic{title=\"Mythic Entropic Shield\"}",
 			"",
-			"{SOURCE Mythic Adventures/93}",
+			"{SOURCE Mythic Adventures/93}  ",
+			"When a ranged attack misses because of this spell, there is a 50% chance that the attack is redirected back at the attacker rather than just being deflected harmlessly. The attack uses the same result as the attack roll the attacker made against you.",
 			"",
-			"When a ranged attack misses because of this spell, there is a 50% chance that the attack is redirected back at the attacker rather than just being deflected harmlessly. The attack uses the same result as the attack roll the attacker made against you."
+			":::"
 		]
 	},
 	"envious_urge": {
@@ -1784,11 +1788,12 @@
 			"",
 			"This spell increases your base land speed by 30 feet. This adjustment is treated as an enhancement bonus. There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with any effect that increases your speed, this spell affects your jumping distance (see the {skill/Acrobatics} skill).",
 			"",
-			"### Mythic Expeditious Retreat",
+			":::mythic{title=\"Mythic Expeditious Retreat\"}",
 			"",
-			"{SOURCE Mythic Adventures/93}",
+			"{SOURCE Mythic Adventures/93}  ",
+			"The speed bonus from the spell increases to 40 feet. Add your tier to Acrobatics checks to avoid attacks of opportunity from movement, and when your movement provokes an attack of opportunity, add your tier to your AC against that attack.",
 			"",
-			"The speed bonus from the spell increases to 40 feet. Add your tier to Acrobatics checks to avoid attacks of opportunity from movement, and when your movement provokes an attack of opportunity, add your tier to your AC against that attack."
+			":::"
 		]
 	},
 	"expel_blood": {
@@ -2126,13 +2131,14 @@
 			"",
 			"A pale glow surrounds and outlines the subjects. Outlined subjects shed light as candles. Creatures outlined by faerie fire take a -20 penalty on all Stealth checks. Outlined creatures do not benefit from the {rule/concealment} normally provided by {spell/darkness} (though a 2nd-level or higher magical darkness effect functions normally), {spell/blur}, {spell/displacement}, {spell/invisibility}, or similar effects. The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to light. The faerie fire can be blue, green, or violet, according to your choice at the time of casting. The faerie fire does not cause any harm to the objects or creatures thus outlined.",
 			"",
-			"### Mythic Faerie Fire",
+			":::mythic{title=\"Mythic Faerie Fire\"}",
 			"",
-			"{SOURCE Mythic Adventures/93}",
-			"",
+			"{SOURCE Mythic Adventures/93}  ",
 			"Outlined creatures are dazzled. The spell outlines figment illusions in the burst, revealing them as such. This effect applies only to figments with a caster level equal to or less than your tier.",
 			"",
-			"*Augmented (2nd):* If you expend two uses of mythic power, each creature in the burst must succeed at a Fortitude save or be blinded for 1 round."
+			"*Augmented (2nd):* If you expend two uses of mythic power, each creature in the burst must succeed at a Fortitude save or be blinded for 1 round.",
+			"",
+			":::"
 		]
 	},
 	"fair_is_foul": {
@@ -2545,11 +2551,12 @@
 			"",
 			"You curse the target with a hunger no food can assuage. On a failed saving throw, the target begins to starve. The effects of this spell cannot inflict more nonlethal damage than the target has hit points. No amount of eating can counter the effect and, further, even attempting to eat causes the target to become nauseated for 1 round unless they make a DC 12 Fortitude save. The target still experiences the other normal effects of anything consumed (such as poisons or potions). Feast of ashes can be removed with a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell, but effects suffered as a result of starvation must be healed by normal means.",
 			"",
-			"### Mythic Feast of Ashes",
+			":::mythic{title=\"Mythic Feast of Ashes\"}",
 			"",
-			"{SOURCE Mythic Adventures/93}",
+			"{SOURCE Mythic Adventures/93}  ",
+			"On a failed save, the target immediately takes 1d6 points of nonlethal damage per tier. Add your tier to the DC of any further Constitution checks the target attempts to resist the effects of starvation as part of this spell's effects. While the curse is in effect, the target gains no benefit from any spell, effect, or item that requires eating, such as the food from a {spell/heroes' feast} spell (though the food is still used up when the target eats it).",
 			"",
-			"On a failed save, the target immediately takes 1d6 points of nonlethal damage per tier. Add your tier to the DC of any further Constitution checks the target attempts to resist the effects of starvation as part of this spell's effects. While the curse is in effect, the target gains no benefit from any spell, effect, or item that requires eating, such as the food from a {spell/heroes' feast} spell (though the food is still used up when the target eats it)."
+			":::"
 		]
 	},
 	"feast_on_fear": {
@@ -2598,13 +2605,14 @@
 			"",
 			"Feather fall works only upon free-falling objects. It does not affect a sword blow or a charging or flying creature.",
 			"",
-			"### Mythic Feather Fall",
+			":::mythic{title=\"Mythic Feather Fall\"}",
 			"",
-			"{SOURCE Mythic Adventures/93}",
-			"",
+			"{SOURCE Mythic Adventures/93}  ",
 			"The spell affects one additional target per level. The targets don't have to be within 20 feet of each other.",
 			"",
-			"*Augmented (4th):* If you expend two uses of mythic power, the spell absorbs the targets' velocity and transforms it into a concussive blast. Targets fall at the normal rate (not slowed) but land safely. When a target lands, it creates a 10-foot-radius burst of force that deals 1d6 points of damage per caster level (maximum 5d6, Reflex half, DC equal to the DC of feather fall). The targets of this spell are unaffected by these concussive blasts."
+			"*Augmented (4th):* If you expend two uses of mythic power, the spell absorbs the targets' velocity and transforms it into a concussive blast. Targets fall at the normal rate (not slowed) but land safely. When a target lands, it creates a 10-foot-radius burst of force that deals 1d6 points of damage per caster level (maximum 5d6, Reflex half, DC equal to the DC of feather fall). The targets of this spell are unaffected by these concussive blasts.",
+			"",
+			":::"
 		]
 	},
 	"feather_step": {
@@ -3024,11 +3032,12 @@
 			"",
 			"This spell instantly delivers 10 points of damage per caster level. If the target's Fortitude saving throw succeeds, it instead takes 3d6 points of damage + 1 point per caster level. The subject might die from damage even if it succeeds on its saving throw.",
 			"",
-			"### Mythic Finger of Death",
+			":::mythic{title=\"Mythic Finger of Death\"}",
 			"",
-			"{SOURCE Mythic Adventures/94}",
+			"{SOURCE Mythic Adventures/94}  ",
+			"The damage dealt increases to 15 points of damage per caster level plus 1d8 points of Constitution damage. A creature that succeeds at its saving throw takes 3d8 points of damage + 1 point per caster level, takes 1d4 points of Constitution damage, and is staggered for 1 round.",
 			"",
-			"The damage dealt increases to 15 points of damage per caster level plus 1d8 points of Constitution damage. A creature that succeeds at its saving throw takes 3d8 points of damage + 1 point per caster level, takes 1d4 points of Constitution damage, and is staggered for 1 round."
+			":::"
 		]
 	},
 	"fins_to_feet": {
@@ -3150,11 +3159,12 @@
 			"",
 			"*Holly Berry Bombs:* You turn as many as eight holly berries into special bombs. The holly berries are usually placed by hand, since they are too light to make effective thrown weapons (they can be tossed only 5 feet). If you are within 200 feet and speak a word of command, each berry instantly bursts into flame, causing 1d8 points of fire damage + 1 point per caster level to every creature in a 5-foot-radius burst and igniting any combustible materials within 5 feet. A creature in the area that makes a successful Reflex saving throw takes only half damage.",
 			"",
-			"### Mythic Fire Seeds",
+			":::mythic{title=\"Mythic Fire Seeds\"}",
 			"",
-			"{SOURCE Mythic Adventures/94}",
+			"{SOURCE Mythic Adventures/94}  ",
+			"Each acorn's damage increases to 1d6 points of fire damage per caster level (maximum 20d6 for all acorns, no more than 10d6 for any particular acorn). Each holly berry's damage increases to 2d6 points of fire damage + 2 points per caster level. Any creature that fails its Reflex save against an acorn or holly berry catches on fire, taking 2d6 points of fire damage each round until the fire is extinguished. Attempts to extinguish this fire use the spell's save DC.",
 			"",
-			"Each acorn's damage increases to 1d6 points of fire damage per caster level (maximum 20d6 for all acorns, no more than 10d6 for any particular acorn). Each holly berry's damage increases to 2d6 points of fire damage + 2 points per caster level. Any creature that fails its Reflex save against an acorn or holly berry catches on fire, taking 2d6 points of fire damage each round until the fire is extinguished. Attempts to extinguish this fire use the spell's save DC."
+			":::"
 		]
 	},
 	"fire_shield": {
@@ -3184,11 +3194,12 @@
 			"",
 			"*Warm Shield:* The flames are warm to the touch. You take only half damage from cold-based attacks. If such an attack allows a Reflex save for half damage, you take no damage on a successful saving throw.",
 			"",
-			"### Mythic Fire Shield",
+			":::mythic{title=\"Mythic Fire Shield\"}",
 			"",
-			"{SOURCE Mythic Adventures/94}",
+			"{SOURCE Mythic Adventures/94}  ",
+			"The damage dealt to your attackers increases to 1d8 points of damage + 1 point per caster level (maximum +15). A chill shield gives you fire immunity. A warm shield gives you cold immunity.",
 			"",
-			"The damage dealt to your attackers increases to 1d8 points of damage + 1 point per caster level (maximum +15). A chill shield gives you fire immunity. A warm shield gives you cold immunity."
+			":::"
 		]
 	},
 	"fire_snake": {
@@ -3211,13 +3222,14 @@
 			"",
 			"You create a sinuous line of flames that you may shape as desired. The fire snake affects one 5-foot square per caster level, and each square must be adjacent to the previous square, starting with you. The fire snake may not extend beyond its maximum range. Creatures in the path of the fire snake take 1d6 points of fire damage per caster level (maximum 15d6).",
 			"",
-			"### Mythic Fire Snake",
+			":::mythic{title=\"Mythic Fire Snake\"}",
 			"",
-			"{SOURCE Mythic Adventures/94}",
-			"",
+			"{SOURCE Mythic Adventures/94}  ",
 			"The damage dealt increases to 1d10 points of damage per level (maximum 15d10). Any creature that fails its saving throw against the spell is grappled by a snake made of fire that lasts for 1 round per caster level. The snake can be dispelled, but not attacked. A grappled creature takes 1d10 points of fire damage on your turn each round. The snake's CMB is equal to your caster level plus your tier, and its CMD is equal to its CMB + 10.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, the maximum damage increases to 20d10, and any creature that fails its saving throw against the spell is pinned instead of grappled."
+			"*Augmented (6th):* If you expend two uses of mythic power, the maximum damage increases to 20d10, and any creature that fails its saving throw against the spell is pinned instead of grappled.",
+			"",
+			":::"
 		]
 	},
 	"fire_sneeze": {
@@ -3258,13 +3270,14 @@
 			"",
 			"When a fire storm spell is cast, the whole area is shot through with sheets of roaring flame. The raging flames do not harm natural vegetation, ground cover, or any plant creatures in the area that you wish to exclude from damage. Any other creature within the area takes 1d6 points of fire damage per caster level (maximum 20d6). Creatures that fail their Reflex save catch on fire, taking 4d6 points of fire damage each round until the flames are extinguished. Extinguishing the flames is a full-round action that requires a DC 20 Reflex save.",
 			"",
-			"### Mythic Fire Storm",
+			":::mythic{title=\"Mythic Fire Storm\"}",
 			"",
-			"{SOURCE Mythic Adventures/94}",
-			"",
+			"{SOURCE Mythic Adventures/94}  ",
 			"The damage dealt increases to 1d8 points of damage per caster level (maximum 20d8). Half of this damage is fire damage, and the other half is divine energy that bypasses fire resistance and fire immunity. You can exclude any number of animals from damage just as you can plant creatures.",
 			"",
-			"*Augmented (8th):* If you expend two uses of mythic power, choose one creature type (and subtype, if humanoid or outsider) to exclude from the effects of the spell. For each additional use of mythic power you expend when casting the spell, exclude another creature type. For example, if you expend two uses of mythic power and choose magical beasts, you can exclude from damage any number of magical beasts in the spell's area."
+			"*Augmented (8th):* If you expend two uses of mythic power, choose one creature type (and subtype, if humanoid or outsider) to exclude from the effects of the spell. For each additional use of mythic power you expend when casting the spell, exclude another creature type. For example, if you expend two uses of mythic power and choose magical beasts, you can exclude from damage any number of magical beasts in the spell's area.",
+			"",
+			":::"
 		]
 	},
 	"fire_trail": {
@@ -3472,13 +3485,14 @@
 			"",
 			"Firestream sets fire to combustibles and damages objects in the area. It can melt metals with low melting points, such as lead, gold, copper, silver, and bronze. If the damage caused to an interposing barrier shatters or breaks through it, the firestream may continue beyond the barrier if the area permits; otherwise it stops at the barrier just as any other spell effect does.",
 			"",
-			"### Mythic Firestream",
+			":::mythic{title=\"Mythic Firestream\"}",
 			"",
-			"{SOURCE Mythic Adventures/94}",
-			"",
+			"{SOURCE Mythic Adventures/94}  ",
 			"The damage dealt increases to 2d10 points of fire damage. Any creature that fails its saving throw also catches fire. The continuous line of fire pushes against all creatures, making them treat the spell's area as difficult terrain.",
 			"",
-			"*Augmented (4th):* If you expend two uses of mythic power, you create a second line of fire using your other hand. If you overlap the lines, creatures in the overlap must attempt two saving throws and take the lower result, but don't take damage from both lines. You may stop either line of fire as a free action on your turn, but once you stop maintaining a line, you must cast mythic firestream again to recreate it."
+			"*Augmented (4th):* If you expend two uses of mythic power, you create a second line of fire using your other hand. If you overlap the lines, creatures in the overlap must attempt two saving throws and take the lower result, but don't take damage from both lines. You may stop either line of fire as a free action on your turn, but once you stop maintaining a line, you must cast mythic firestream again to recreate it.",
+			"",
+			":::"
 		]
 	},
 	"firewalkers_meditation": {
@@ -3558,13 +3572,14 @@
 			"",
 			"A 3-foot-long, blazing beam of red-hot fire springs forth from your hand. You wield this blade-like beam as if it were a scimitar. Attacks with the flame blade are melee touch attacks. The blade deals 1d8 points of fire damage + 1 point per two caster levels (maximum +10). Since the blade is immaterial, your Strength modifier does not apply to the damage. A flame blade can ignite combustible materials such as parchment, straw, dry sticks, and cloth.",
 			"",
-			"### Mythic Flame Blade",
+			":::mythic{title=\"Mythic Flame Blade\"}",
 			"",
-			"{SOURCE Mythic Adventures/94}",
-			"",
+			"{SOURCE Mythic Adventures/94}  ",
 			"The blade's damage increases to 2d6 points of fire damage + 1 point per caster level (maximum +20). The blade threatens a critical hit on a natural 18-20 as if it were an actual scimitar.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, the blade threatens a critical hit on a natural 15-20, and bypasses hardness, fire resistance, and fire immunity."
+			"*Augmented (3rd):* If you expend two uses of mythic power, the blade threatens a critical hit on a natural 15-20, and bypasses hardness, fire resistance, and fire immunity.",
+			"",
+			":::"
 		]
 	},
 	"flame_strike": {
@@ -3587,11 +3602,12 @@
 			"",
 			"A flame strike evokes a vertical column of divine fire. The spell deals 1d6 points of damage per caster level (maximum 15d6). Half the damage is fire damage, but the other half results directly from divine power and is therefore not subject to being reduced by resistance to fire-based attacks.",
 			"",
-			"### Mythic Flame Strike",
+			":::mythic{title=\"Mythic Flame Strike\"}",
 			"",
-			"{SOURCE Mythic Adventures/94}",
+			"{SOURCE Mythic Adventures/94}  ",
+			"The damage dealt increases to 1d8 per caster level (maximum 15d8). The area increases to a 20-foot-radius, 40-foot-high cylinder. You may have the divine half of the damage affect only one specific creature type (as the bane weapon quality).",
 			"",
-			"The damage dealt increases to 1d8 per caster level (maximum 15d8). The area increases to a 20-foot-radius, 40-foot-high cylinder. You may have the divine half of the damage affect only one specific creature type (as the bane weapon quality)."
+			":::"
 		]
 	},
 	"flames_of_the_faithful": {
@@ -3614,11 +3630,12 @@
 			"",
 			"With a touch, you cause a glowing rune to appear on a single weapon, granting that weapon the flaming property (and allowing it to cause an extra 1d6 points of fire damage on a successful hit). If you are using the judgment class feature, your weapon gains the flaming burst property instead. The spell functions only for weapons that you wield. If the weapon leaves your hand for any reason, the spell effect ends. The effects of this spell do not stack with any existing flaming or flaming burst weapon property that the target weapon may already possess.",
 			"",
-			"### Mythic Flames of the Faithful",
+			":::mythic{title=\"Mythic Flames of the Faithful\"}",
 			"",
-			"{SOURCE Mythic Adventures/94}",
+			"{SOURCE Mythic Adventures/94}  ",
+			"The fire damage dealt by this spell bypasses fire resistance and fire immunity. On a successful critical hit, the target catches on fire.",
 			"",
-			"The fire damage dealt by this spell bypasses fire resistance and fire immunity. On a successful critical hit, the target catches on fire."
+			":::"
 		]
 	},
 	"flaming_aura": {
@@ -3940,13 +3957,14 @@
 			"",
 			"Only creatures made of flesh are affected by this spell.",
 			"",
-			"### Mythic Flesh to Stone",
+			":::mythic{title=\"Mythic Flesh to Stone\"}",
 			"",
-			"{SOURCE Mythic Adventures/94}",
-			"",
+			"{SOURCE Mythic Adventures/94}  ",
 			"A creature that succeeds at its saving throw is partially petrified, becoming slowed (as the {spell/slow} spell) for a number of rounds equal to your tier. The creature can end this effect early by spending a full-round action breaking away its own petrified flesh, dealing 5d10 points of damage to itself. Any effect that removes or reverses petrification negates this partial petrification and the slow effect. The spell can affect objects and undead, as long as the target is primarily made of flesh or bone, such as a corpse or zombie. The spell doesn't affect the target's gear. If cast on a creature with equipment, the creature transforms into stone but its gear doesn't.",
 			"",
-			"*Augmented (9th):* If you expend two uses of mythic power, any Large or smaller creature fully petrified by the spell immediately animates and follows your commands, as if you had cast animate objects."
+			"*Augmented (9th):* If you expend two uses of mythic power, any Large or smaller creature fully petrified by the spell immediately animates and follows your commands, as if you had cast animate objects.",
+			"",
+			":::"
 		]
 	},
 	"flesh_wall": {
@@ -4003,13 +4021,14 @@
 			"",
 			"Most undead are susceptible to fleshcurdle, but amorphous creatures and creatures without flesh are immune (such as elementals, oozes, plants, gaseous or incorporeal creatures, and skeletons).",
 			"",
-			"### Mythic Fleshcurdle",
+			":::mythic{title=\"Mythic Fleshcurdle\"}",
 			"",
-			"{SOURCE Mythic Origins/12}",
-			"",
+			"{SOURCE Mythic Origins/12}  ",
 			"You can choose two effects instead of one effect, or may choose to enhance one effect. If you enhance the attack effect, all of the creature's natural attacks are affected. If you enhance the defense effect, in addition to fleshcurdle's normal effect on natural armor bonus, any critical threats against the creature gain a +4 bonus on the confirmation roll. If you enhance the movement effect, all of the creature's movement speeds are halved.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, you can choose two enhanced effects to inflict upon the target."
+			"*Augmented (6th):* If you expend two uses of mythic power, you can choose two enhanced effects to inflict upon the target.",
+			"",
+			":::"
 		]
 	},
 	"fleshwarping_swarm": {
@@ -4155,17 +4174,18 @@
 			"",
 			"You create a slightly concave, circular plane of force that follows you about and carries loads for you. The disk is 3 feet in diameter and 1 inch deep at its center. It can hold 100 pounds of weight per caster level. If used to transport a liquid, its capacity is 2 gallons. The disk floats approximately 3 feet above the ground at all times and remains level. It floats along horizontally within spell range and will accompany you at a rate of no more than your normal speed each round. If not otherwise directed, it maintains a constant interval of 5 feet between itself and you. The disk winks out of existence when the spell duration expires. The disk also winks out if you move beyond its range or try to take the disk more than 3 feet away from the surface beneath it. When the disk winks out, whatever it was supporting falls to the surface beneath it.",
 			"",
-			"### Mythic Floating Disk",
+			":::mythic{title=\"Mythic Floating Disk\"}",
 			"",
-			"{SOURCE Mythic Adventures/95}",
-			"",
+			"{SOURCE Mythic Adventures/95}  ",
 			"The disk created by this spell lasts for 2 hours per caster level and can carry up to 200 pounds of weight per caster level.",
 			"",
 			"The disk accompanies you regardless of your speed, always catching up no matter how far you move. If you stand or sit on the disk, as a move action you can direct it to travel up to 30 feet in any direction.",
 			"",
 			"Any objects resting on the disk count as weightless parts of your gear for the purpose of teleportation effects (allowing these items to go with you when you teleport despite the weight limit of the teleportation spell).",
 			"",
-			"As a free action, you can transform the plane of force from a concave disk into a bucket-like shape that holds up to 4 gallons (or transform it from the bucket-like form back to its normal disk form)."
+			"As a free action, you can transform the plane of force from a concave disk into a bucket-like shape that holds up to 4 gallons (or transform it from the bucket-like form back to its normal disk form).",
+			"",
+			":::"
 		]
 	},
 	"fluid_form": {

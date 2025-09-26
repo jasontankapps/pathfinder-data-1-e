@@ -14,10 +14,12 @@
 			"**Prerequisites:** {feat/Improved Shield Bash}, {feat/Shield Master}, base attack bonus +11.  ",
 			"**Benefit:** Whenever you score a critical hit with a melee weapon, you can make a shield bash attack against the same target using the same bonus as a free action.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">When you fail to confirm a critical hit with a melee weapon attack, you can spend 5 stamina points to make a shield bash attack against the target anyway. You still can't make the attack if the target is immune to critical hits."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"When you fail to confirm a critical hit with a melee weapon attack, you can spend 5 stamina points to make a shield bash attack against the target anyway. You still can't make the attack if the target is immune to critical hits.",
+			"",
+			":::"
 		]
 	},
 	"basic_harmony": {
@@ -79,10 +81,12 @@
 			"",
 			"If an ally is under the effect of this feat and fails a saving throw against a fear effect, she can choose to end the battle cry's effect on her to reroll the failed save. The ally must take the result of the reroll, even if it's lower. Each ally can use this effect only once per use of this feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">You can spend 5 stamina points when an ally under your battle cry's effect decides to reroll a saving throw against a fear effect and end the feat's effect. When you do, that ally continues to be affected by the Battle Cry after she rerolls the saving throw."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"You can spend 5 stamina points when an ally under your battle cry's effect decides to reroll a saving throw against a fear effect and end the feat's effect. When you do, that ally continues to be affected by the Battle Cry after she rerolls the saving throw.",
+			"",
+			":::"
 		]
 	},
 	"battle_cry_dtt": {
@@ -427,10 +431,12 @@
 			"**Prerequisites:** Dex 13, Wis 13, {feat/Improved Unarmed Strike}, base attack bonus +8.  ",
 			"**Benefit:** Befuddling Strike forces a foe damaged by your unarmed attack to attempt a Fortitude saving throw (DC = 10 + 1/2 your character level + your Wisdom modifier), in addition to dealing damage normally. You must declare that you are using this feat before you make your attack roll - thus, a failed attack roll ruins the attempt. A defender who fails this saving throw is confused for 1d4 rounds. You can attempt to use Befuddling Strike once per day for every 4 character levels you have, but can use it no more than once per round. Constructs, incorporeal creatures, mindless creatures, plants, undead, and creatures that are immune to critical hits cannot be affected by this ability.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">You can spend 5 stamina points to declare that you are using Befuddling Strike after you've hit with an unarmed strike attack roll."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"You can spend 5 stamina points to declare that you are using Befuddling Strike after you've hit with an unarmed strike attack roll.",
+			"",
+			":::"
 		]
 	},
 	"beliers_bite": {
@@ -646,10 +652,12 @@
 			"**Normal:** The grapple combat maneuver is a standard action.  ",
 			"**Special:** A monk can gain Binding Throw as a bonus feat starting at 14th level.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">You can spend 1 stamina point to gain a +2 bonus on a grapple check made as a swift action with this feat."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"You can spend 1 stamina point to gain a +2 bonus on a grapple check made as a swift action with this feat.",
+			"",
+			":::"
 		]
 	},
 	"biological_lattice": {
@@ -734,10 +742,12 @@
 			"**Prerequisites:** {feat/Amateur Gunslinger} or the grit class feature, base attack bonus +4.  ",
 			"**Benefit:** When you spend a swift action to attempt a {rule/performance combat} check, you can sacrifice one cartridge or an amount of black powder required for a single shot to make either a loud sound or an impressive flash. If you choose to make your weapon's report louder, you gain a +4 bonus on all Intimidate checks you attempt for 1 round. If you choose to create an impressive flash, you gain a +4 bonus on any Perform checks you attempt for 1 round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/24}",
-			">",
-			">You can spend 2 stamina points when using Black Powder Spectacle in order to gain a +4 bonus on Intimidate checks and Perform checks for 1 round."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/24}  ",
+			"You can spend 2 stamina points when using Black Powder Spectacle in order to gain a +4 bonus on Intimidate checks and Perform checks for 1 round.",
+			"",
+			":::"
 		]
 	},
 	"blackfire_summoning": {
@@ -844,10 +854,12 @@
 			"**Prerequisites:** {feat/Inner Flame}, {feat/Scorching Weapons}, character level 13th, {race/ifrit}.  ",
 			"**Benefit:** When you use Scorching Weapons, on your turn as a free action, you may create an aura of heat that lasts for 1 round. This aura deals 1d6 points of fire damage to any creature that begins its turn adjacent to you.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">When you create an aura of heat with this feat, you can spend 5 stamina points to increase the fire damage dealt to any creature that begins its turn in the aura to 2d6 points of fire damage."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"When you create an aura of heat with this feat, you can spend 5 stamina points to increase the fire damage dealt to any creature that begins its turn in the aura to 2d6 points of fire damage.",
+			"",
+			":::"
 		]
 	},
 	"blazing_aura_pa": {
@@ -895,20 +907,23 @@
 			"**Benefit:** Whenever you score a critical hit with a slashing or piercing weapon, your opponent takes 2d6 points of {rule/bleed} damage each round on his turn, in addition to the damage dealt by the critical hit. Bleed damage can be stopped by a DC 15 Heal skill check or through any magical healing. The effects of this feat stack.  ",
 			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess {feat/Critical Mastery}.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">When you deal bleed damage with this feat, you can spend up to 3 stamina points to increase the amount of bleed damage dealt by double the number of stamina points you spent.",
+			":::stamina",
 			"",
-			"### Mythic Bleeding Critical",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"When you deal bleed damage with this feat, you can spend up to 3 stamina points to increase the amount of bleed damage dealt by double the number of stamina points you spent.",
 			"",
-			"{SOURCE Mythic Adventures/60}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Bleeding Critical\"}",
+			"",
+			"{SOURCE Mythic Adventures/60}  ",
 			"Your deadliest blows unleash rivers of blood.  ",
 			"**Prerequisites:** Bleeding Critical, Mythic Critical Focus.  ",
 			"**Benefit:** The bleed damage dealt with Bleeding Critical increases by your tier. Stopping this bleed damage requires a Heal check with a DC equal to 15 + 1/2 your tier. Any magical healing ends the bleed damage normally.",
 			"",
-			"You can expend one use of mythic power to deal 1 Con bleed, in addition to the hit point bleed damage you deal with this feat. This effect increases by 1 for each additional use of mythic power you expend."
+			"You can expend one use of mythic power to deal 1 Con bleed, in addition to the hit point bleed damage you deal with this feat. This effect increases by 1 for each additional use of mythic power you expend.",
+			"",
+			":::"
 		]
 	},
 	"bleeding_stare": {
@@ -1137,18 +1152,21 @@
 			"**Normal:** Regular attack roll modifiers for invisible attackers trying to hit you apply, and you lose your Dexterity bonus to AC. The speed reduction for darkness and poor visibility also applies.  ",
 			"**Special:** The Blind-Fight feat is of no use against a character who is the subject of a {spell/blink} spell.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">Once per round, when you hit a creature that benefits from concealment, you can spend 2 stamina points to ignore the miss chance from that creature's concealment until the end of your next turn.",
+			":::stamina",
 			"",
-			"### Mythic Blind-Fight",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"Once per round, when you hit a creature that benefits from concealment, you can spend 2 stamina points to ignore the miss chance from that creature's concealment until the end of your next turn.",
 			"",
-			"{SOURCE Mythic Adventures/60}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Blind-Fight\"}",
+			"",
+			"{SOURCE Mythic Adventures/60}  ",
 			"No creature can avoid your preternatural senses.  ",
 			"**Prerequisites:** Blind-Fight.  ",
-			"**Benefit:** As a swift action, you can expend one use of mythic power to ignore all miss chances due to concealment or total concealment for a number of rounds equal to your tier."
+			"**Benefit:** As a swift action, you can expend one use of mythic power to ignore all miss chances due to concealment or total concealment for a number of rounds equal to your tier.",
+			"",
+			":::"
 		]
 	},
 	"blinding_critical": {
@@ -1167,10 +1185,12 @@
 			"**Benefit:** Whenever you score a critical hit, your opponent is permanently {misc/blinded}. A successful Fortitude save reduces this to {misc/dazzled} for 1d4 rounds. The DC of this Fortitude save is equal to 10 + your base attack bonus. This feat has no effect on creatures that do not rely on eyes for sight or creatures with more than two eyes (although multiple critical hits might cause blindness, at the GM's discretion). Blindness can be cured by {spell/heal}, {umr/regeneration}, {spell/remove blindness}, or similar abilities.  ",
 			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess {feat/Critical Mastery}.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">When you confirm a critical hit and attempt to blind an opponent with this feat, you can spend up to 5 stamina points to increase the DC of this feat's saving throw by an amount equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"When you confirm a critical hit and attempt to blind an opponent with this feat, you can spend up to 5 stamina points to increase the DC of this feat's saving throw by an amount equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"blinding_flash": {
@@ -1254,10 +1274,12 @@
 			"**Prerequisites:** {feat/Combat Expertise}, {feat/Improved Feint}, {race/ifrit}.  ",
 			"**Benefit:** You gain a +2 bonus on feint checks made while wielding a weapon that deals fire damage. Anytime you successfully feint a creature while using such a weapon, you may deal its fire damage to the enemy.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">When you attempt a feint while you're wielding a weapon that deals fire damage, you can spend up to 5 stamina points to gain a bonus on the Bluff check equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"When you attempt a feint while you're wielding a weapon that deals fire damage, you can spend up to 5 stamina points to gain a bonus on the Bluff check equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"bloatmage_initiate": {
@@ -1328,10 +1350,12 @@
 			"**Benefit:** Increase the damage of your beak attack to 1d6. Furthermore, when you confirm a critical hit with your beak attack, you also deal 1 point of {rule/bleed} damage.  ",
 			"**Special:** The bleed effect from this feat stacks with that of the {feat/Bleeding Critical} feat and similar effects, adding 1 point to your bleed damage.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">You can spend 1 stamina point when you confirm a critical hit with your beak to increase the bleed damage to 1d4 points of bleed damage."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"You can spend 1 stamina point when you confirm a critical hit with your beak to increase the bleed damage to 1d4 points of bleed damage.",
+			"",
+			":::"
 		]
 	},
 	"blood_drinker": {
@@ -1532,10 +1556,12 @@
 			"**Prerequisites:** {feat/Arcane Strike}, ability to cast arcane spells, bloodrage class feature.  ",
 			"**Benefit:** While you are bloodraging, you don't need to spend a swift action to use your Arcane Strike - it is always in effect. When you use this ability with {feat/Vital Strike}, {feat/Improved Vital Strike}, or {feat/Greater Vital Strike}, the bonus on damage rolls for Arcane Strike is multiplied by the number of times (two, three, or four) you roll damage dice for one of those feats.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">When you imbue your weapon with Arcane Strike, you can spend 5 stamina points to increase its damage by 1 for the duration of the Arcane Strike effect."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"When you imbue your weapon with Arcane Strike, you can spend 5 stamina points to increase its damage by 1 for the duration of the Arcane Strike effect.",
+			"",
+			":::"
 		]
 	},
 	"bloodletting": {
@@ -1554,10 +1580,12 @@
 			"**Prerequisites:** Worshiper of {faith/Zon-Kuthon}.  ",
 			"**Benefit:** Whenever you threaten a critical hit with a piercing or slashing weapon (regardless of whether you confirm the critical hit or not), you deal 1 point of {rule/bleed} damage to the targeted creature.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/24}",
-			">",
-			">When you confirm a critical hit with a piercing or slashing weapon, you can spend up to 2 stamina points to increase the bleed damage dealt by Bloodletting by 1 per stamina point spent."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/24}  ",
+			"When you confirm a critical hit with a piercing or slashing weapon, you can spend up to 2 stamina points to increase the bleed damage dealt by Bloodletting by 1 per stamina point spent.",
+			"",
+			":::"
 		]
 	},
 	"bloodmarked_flight": {
@@ -1601,10 +1629,12 @@
 			"**Prerequisites:** Str 13, {feat/Power Attack}, base attack bonus +6.  ",
 			"**Benefit:** You can choose to take a -5 penalty on all melee attack rolls and combat maneuver checks to inflict 1d4 points of {rule/bleed} damage with your weapon melee attacks, in addition to the normal damage dealt by the weapon. A creature continues to take bleed damage every round at the start of its turn. Bleed damage can be stopped by a DC 15 Heal check or through any magical healing. Bleed damage from this feat does not stack with itself. You must choose to use this feat before making the attack roll, and its effects last until your next turn (although the bleeding lasts until healed, as normal).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">Each round you use this feat, you can spend up to 5 stamina points. If you do, until the end of your next turn, you reduce the penalty on all your attack rolls by an amount equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"Each round you use this feat, you can spend up to 5 stamina points. If you do, until the end of your next turn, you reduce the penalty on all your attack rolls by an amount equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"bloody_mess": {
@@ -1635,10 +1665,12 @@
 			"**Prerequisites:** Dex 15, {feat/Exotic Weapon Proficiency} (sawtooth sabre), {feat/Two-Weapon Fighting}, worshiper of {faith/Achaekek}.  ",
 			"**Benefit:** If you hit an opponent with both your primary weapon and your off-hand weapon as part of the same attack action, and both of those weapons are {eq-weapon/sawtooth sabre/s}, you deal 1 point of {rule/bleed} damage in addition to the normal damage dealt by these attacks.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/24}",
-			">",
-			">You can spend 2 stamina points when dealing bleed damage with the Bloody Sabres feat to increase the amount of bleed damage your opponent takes by 1."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/24}  ",
+			"You can spend 2 stamina points when dealing bleed damage with the Bloody Sabres feat to increase the amount of bleed damage your opponent takes by 1.",
+			"",
+			":::"
 		]
 	},
 	"bloody_vengeance": {
@@ -1686,10 +1718,12 @@
 			"**Normal:** You take a -4 penalty on attack rolls when using a lethal weapon to deal nonlethal damage. You cannot use a lethal weapon to deal nonlethal damage in a sneak attack.  ",
 			"**Special:** A rogue with this feat can use a lethal bludgeoning weapon to deal nonlethal damage with a sneak attack.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">When you make an attack with a lethal bludgeoning weapon to deal nonlethal damage, you can spend 2 stamina points to treat the weapon's damage as if the weapon were one size category larger. This does not stack with any other effects that treat the weapon's damage as if the weapon were a larger size."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"When you make an attack with a lethal bludgeoning weapon to deal nonlethal damage, you can spend 2 stamina points to treat the weapon's damage as if the weapon were one size category larger. This does not stack with any other effects that treat the weapon's damage as if the weapon were a larger size.",
+			"",
+			":::"
 		]
 	},
 	"blundering_defense": {
@@ -1707,10 +1741,12 @@
 			"**Prerequisites:** {feat/Cautious Fighter}, {race/halfling}.  ",
 			"**Benefit:** Whenever you {misc/fight defensively} or use the {misc/total defense} action, allies gain a luck bonus to AC and CMD equal to 1/2 the dodge bonus you gain from the action you are taking. Allies only gain this bonus while they are adjacent to you.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">You can spend 5 stamina points to cause allies within 10 feet who are also in your melee reach to gain the benefits of this feat."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"You can spend 5 stamina points to cause allies within 10 feet who are also in your melee reach to gain the benefits of this feat.",
+			"",
+			":::"
 		]
 	},
 	"blunt_blade": {
@@ -1756,10 +1792,12 @@
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Boar Style}, Intimidate 6 ranks.  ",
 			"**Benefit:** You add piercing damage to the damage types you can deal with your unarmed strikes. Further, you gain a +2 bonus on Intimidate checks to demoralize opponents. While using Boar Style, whenever you tear an opponent's flesh, you can spend a free action to make an Intimidate check to demoralize that opponent.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">If your foe is demoralized before you tear its flesh with Boar Style, you can spend 5 stamina points to sicken it for 1 round."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"If your foe is demoralized before you tear its flesh with Boar Style, you can spend 5 stamina points to sicken it for 1 round.",
+			"",
+			":::"
 		]
 	},
 	"boar_shred": {
@@ -1777,10 +1815,12 @@
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Boar Ferocity}, {feat/Boar Style}, Intimidate 9 ranks.  ",
 			"**Benefit:** You can make an Intimidate check to demoralize an opponent as a move action. While using Boar Style, whenever you tear an opponent's flesh, once per round at the start of that opponent's turn he takes 1d6 bleed damage. The bleed damage dealt while using Boar Style persist even if you later switch to a different style.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">You can spend 2 stamina points to demoralize an opponent as a swift action."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"You can spend 2 stamina points to demoralize an opponent as a swift action.",
+			"",
+			":::"
 		]
 	},
 	"boar_style": {
@@ -1798,10 +1838,12 @@
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, Intimidate 3 ranks.  ",
 			"**Benefit:** You can deal bludgeoning damage or slashing damage with your unarmed strikes - changing damage type is a free action. While using this style, once per round when you hit a single foe with two or more unarmed strikes, you can tear flesh. When you do, you deal 2d6 extra points of damage with the attack.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">While using this style, you can spend 3 stamina points when you hit a target with only one unarmed strike during a round to tear flesh and deal 2d6 points of damage with the attack. You can still only tear flesh once per round."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"While using this style, you can spend 3 stamina points when you hit a target with only one unarmed strike during a round to tear flesh and deal 2d6 points of damage with the attack. You can still only tear flesh once per round.",
+			"",
+			":::"
 		]
 	},
 	"body_control": {
@@ -1845,10 +1887,12 @@
 			"**Prerequisites:** Dex 13, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, base attack bonus +6.  ",
 			"**Benefit:** As an immediate action while you are grappling an adjacent creature, you can make a grapple combat maneuver check against that creature to gain {rule/cover} against a single attack. If you are successful and the attack misses you, that attack targets the creature you used as cover, using the same attack roll. You cannot use this feat against a creature grappling you, and the cover you gain ends after the attack you gained cover against is resolved.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">You can spend 5 stamina points to use this feat against a creature grappling you."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"You can spend 5 stamina points to use this feat against a creature grappling you.",
+			"",
+			":::"
 		]
 	},
 	"bodyguard": {
@@ -1867,10 +1911,12 @@
 			"**Benefit:** When an adjacent ally is attacked, you may use an attack of opportunity to attempt the {rule/aid another>_2} action to improve your ally's AC. You may not use the aid another action to improve your ally's attack roll with this attack.  ",
 			"**Normal:** Aid another is a standard action.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">When you use an attack of opportunity to use an aid another action to improve an adjacent ally's Armor Class, you can spend 1 or 2 stamina points. Increase the bonus to the ally's AC by an amount equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"When you use an attack of opportunity to use an aid another action to improve an adjacent ally's Armor Class, you can spend 1 or 2 stamina points. Increase the bonus to the ally's AC by an amount equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"bolster_jinx": {
@@ -1939,10 +1985,12 @@
 			"**Prerequisites:** Dex 13, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, {feat/Jawbreaker}, {feat/Stunning Fist}, Heal 9 ranks.  ",
 			"**Benefit:** When you make a successful Stunning Fist attempt against an opponent that is grappled, helpless, or stunned, you can forgo any other Stunning Fist effect to deal 1d6 {rule/Strength or |Dexterity damage} to that opponent.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">When you make a successful Stunning Fist attempt against a creature that is dazed or staggered, you can spend 5 stamina points to forgo any other Stunning Fist effects and deal 1d6 points of Strength or Dexterity damage to that opponent instead."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"When you make a successful Stunning Fist attempt against a creature that is dazed or staggered, you can spend 5 stamina points to forgo any other Stunning Fist effects and deal 1d6 points of Strength or Dexterity damage to that opponent instead.",
+			"",
+			":::"
 		]
 	},
 	"bookish_rogue": {
@@ -2226,10 +2274,12 @@
 			"**Prerequisites:** Dex 15, Int 13, {feat/Combat Expertise}, {feat/Improved Disarm}.  ",
 			"**Benefit:** While wielding two weapons, whenever you successfully use one weapon to {rule/disarm} an opponent, you can spend a swift action to attack the opponent you attempted to disarm using your other weapon.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">You can spend 5 stamina points to attack the opponent you disarmed with a free action instead of a swift action."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"You can spend 5 stamina points to attack the opponent you disarmed with a free action instead of a swift action.",
+			"",
+			":::"
 		]
 	},
 	"breaker_of_barriers": {
@@ -2371,10 +2421,12 @@
 			"**Prerequisites:** Bluff 5 ranks.  ",
 			"**Benefit:** Whenever you make a melee attack and hit your opponent, you can use a free action to grant that opponent a +2 bonus on attack and damage rolls against you until the end of your next turn or until your opponent attacks you, whichever happens first. If that opponent attacks you with this bonus, it provokes attacks of opportunity from your allies who have this feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">When an opponent with the +2 bonus on attack rolls granted by this feat attacks you, you can spend 5 stamina points to have that attack provoke an attack of opportunity from you also."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"When an opponent with the +2 bonus on attack rolls granted by this feat attacks you, you can spend 5 stamina points to have that attack provoke an attack of opportunity from you also.",
+			"",
+			":::"
 		]
 	},
 	"brood_defender": {
@@ -2528,10 +2580,12 @@
 			"**Normal:** You must perform a bull rush combat maneuver to bull rush an opponent.  ",
 			"**Special:** You can only apply the effects of one of the following feats to a given critical hit: Bull Rush Strike, {feat/Disarming Strike}, {feat/Repositioning Strike}, {feat/Sundering Strike}, or {feat/Tripping Strike}. You may choose to use this feat after you make your confirmation roll.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to attempt to bull rush the target anyway. If you do, reroll the confirmation roll to determine if the bull rush attempt exceeds the opponent's CMD. This reroll is only for the bull rush combat maneuver; it can't cause the critical hit to be confirmed. You still can't make the attempt if the target is immune to critical hits."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to attempt to bull rush the target anyway. If you do, reroll the confirmation roll to determine if the bull rush attempt exceeds the opponent's CMD. This reroll is only for the bull rush combat maneuver; it can't cause the critical hit to be confirmed. You still can't make the attempt if the target is immune to critical hits.",
+			"",
+			":::"
 		]
 	},
 	"bull_catcher_style": {
@@ -2603,10 +2657,12 @@
 			"**Prerequisites:** {feat/Point-Blank Shot}, {feat/Precise Shot}, base attack bonus +5.  ",
 			"**Benefit:** You can spend a move action to steady your shot. When you do, you gain a +4 bonus on your next ranged attack roll before the end of your turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/24}",
-			">",
-			">You can spend 5 stamina points to use Bullseye Shot as a swift action."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/24}  ",
+			"You can spend 5 stamina points to use Bullseye Shot as a swift action.",
+			"",
+			":::"
 		]
 	},
 	"bully_breed": {
@@ -2640,10 +2696,12 @@
 			"**Benefit:** As a standard action, you may make a melee attack with a -2 penalty on the attack roll. If the attack damages your opponent, you may make an Intimidate check to demoralize that opponent as a free action.  ",
 			"**Normal:** Intimidating an opponent is a standard action.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">You can spend 2 stamina points to gain the effects of this feat on a single attack made as part of a full attack."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"You can spend 2 stamina points to gain the effects of this feat on a single attack made as part of a full attack.",
+			"",
+			":::"
 		]
 	},
 	"burn_it_down": {
@@ -2767,10 +2825,12 @@
 			"**Prerequisites:** {feat/Combat Expertise}, worshiper of {faith/Desna}.  ",
 			"**Benefit:** When you confirm a critical hit against a creature, you can choose to forgo the effect of the critical hit and grant a critical hit to the next ally who hits that creature with a melee attack before the start of your next turn. Your attack only deals normal damage, and the next ally to hit the target automatically confirms the attack as a critical hit.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/24}",
-			">",
-			">When you confirm a critical hit, you can spend 10 stamina points to use Butterfly's Sting without forgoing your own critical hit."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/24}  ",
+			"When you confirm a critical hit, you can spend 10 stamina points to use Butterfly's Sting without forgoing your own critical hit.",
+			"",
+			":::"
 		]
 	},
 	"calculating_mind": {
@@ -2871,10 +2931,12 @@
 			"**Prerequisites:** {feat/Siege Engineer}, Knowledge (engineering) or Profession (siege engineer) 7 ranks, proficiency with at least one firearm siege engine.  ",
 			"**Benefit:** You gain a +2 competence bonus on any Craft (siege engine) checks made to repair a firearm siege engine. In addition, if you are the crew leader for a firearm siege engine with the broken condition, that siege engine's misfire range is increased by only 2 instead of by 4, and the broken siege engine must misfire twice before it explodes.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/24}",
-			">",
-			">While acting as the leader of a firearm siege engine crew, you can spend 5 stamina points as an immediate action when the siege engine rolls a misfire to negate the misfire."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/24}  ",
+			"While acting as the leader of a firearm siege engine crew, you can spend 5 stamina points as an immediate action when the siege engine rolls a misfire to negate the misfire.",
+			"",
+			":::"
 		]
 	},
 	"canny_tumble": {
@@ -2892,10 +2954,12 @@
 			"**Prerequisites:** {feat/Dodge}, {feat/Mobility}, Acrobatics 5 ranks.  ",
 			"**Benefit:** When you use Acrobatics to move through an opponent's threatened area or space without provoking an attack of opportunity from that opponent, you gain a +2 circumstance bonus on your next melee attack roll against that opponent and that opponent is denied its Dexterity bonus to AC, as long as you make that attack before the start of your next turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">Just before you make an attack roll with the +2 circumstance bonus granted by this feat, you can spend up to 5 stamina points. When you do, if your attack hits, you gain a bonus on the damage roll equal to double the number of stamina points spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"Just before you make an attack roll with the +2 circumstance bonus granted by this feat, you can spend up to 5 stamina points. When you do, if your attack hits, you gain a bonus on the damage roll equal to double the number of stamina points spent.",
+			"",
+			":::"
 		]
 	},
 	"careful_flyer": {
@@ -3008,10 +3072,12 @@
 			"**Prerequisites:** {feat/Amateur Gunslinger} or grit class feature, {feat/Point-Blank Shot}, {feat/Precise Shot}, base attack bonus +4.  ",
 			"**Benefit:** If you ready a ranged attack with a firearm to attack a spellcaster when he begins casting a spell and successfully hit your opponent, you can expend 1 grit point to increase the target's {rule/concentration} check DC for being injured while casting by 5.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/24}",
-			">",
-			">When using Casterbane Shot, you can spend up to 5 stamina points to increase the DC of the concentration check imposed by the feat by an amount equal to the number of stamina points spent."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/24}  ",
+			"When using Casterbane Shot, you can spend up to 5 stamina points to increase the DC of the concentration check imposed by the feat by an amount equal to the number of stamina points spent.",
+			"",
+			":::"
 		]
 	},
 	"casters_champion": {
@@ -3098,18 +3164,21 @@
 			"**Benefit:** You do not suffer any penalties for using an improvised melee weapon. Unarmed opponents are {rule/flat-footed} against any attacks you make with an improvised melee weapon.  ",
 			"**Normal:** You take a -4 penalty on attack rolls made with an improvised weapon.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When making an attack with an improvised weapon against an armed opponent, you can spend 5 stamina points. If you do, the target is considered flat-footed during that attack. An opponent who recognizes you and has seen you use Catch Off-Guard in this way is immune to this effect.",
+			":::stamina",
 			"",
-			"### Mythic Catch Off-Guard",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When making an attack with an improvised weapon against an armed opponent, you can spend 5 stamina points. If you do, the target is considered flat-footed during that attack. An opponent who recognizes you and has seen you use Catch Off-Guard in this way is immune to this effect.",
 			"",
-			"{SOURCE Mythic Adventures/60}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Catch Off-Guard\"}",
+			"",
+			"{SOURCE Mythic Adventures/60}  ",
 			"In your hands, anything is a deadly weapon.  ",
 			"**Prerequisites:** Catch Off-Guard.  ",
 			"**Benefit:** The damage dealt when you use improvised weapons increases by your tier. You also gain a bonus to CMD equal to your tier when an opponent attempts to {rule/sunder} or {rule/disarm} an improvised weapon you're wielding.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -3187,10 +3256,12 @@
 			"**Prerequisites:** {race/Halfling}.  ",
 			"**Benefit:** When {misc/fighting defensively} or using {misc/total defense}, your dodge bonus to AC increases by 2.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">When not fighting defensively or using total defense, you can spend 5 stamina points to increase your dodge bonus by 2. This increase lasts until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"When not fighting defensively or using total defense, you can spend 5 stamina points to increase your dodge bonus by 2. This increase lasts until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"cavalry_formation": {
@@ -3208,10 +3279,12 @@
 			"**Prerequisites:** {feat/Mounted Combat}.  ",
 			"**Benefit:** You and your mount can overlap the space of mounts whose riders have this feat, although no more than two creatures can share any one square. Further, you can charge through a space containing an allied mount if that mount's rider has this feat, although the space from which you make your charge attack must comply with this feat's other benefit or be unoccupied.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/115}",
-			">",
-			">At the start of your turn, you can spend 2 stamina points to gain the ability to overlap with allied riders who do not have this feat. This ability lasts until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/115}  ",
+			"At the start of your turn, you can spend 2 stamina points to gain the ability to overlap with allied riders who do not have this feat. This ability lasts until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"cecaelia_focus_tattoo": {

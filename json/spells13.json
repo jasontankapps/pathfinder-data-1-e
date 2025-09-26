@@ -81,17 +81,18 @@
 			"",
 			"Only the first creature or object struck can be affected; that is, the ray affects only one target per casting.",
 			"",
-			"### Mythic Disintegrate",
+			":::mythic{title=\"Mythic Disintegrate\"}",
 			"",
-			"{SOURCE Mythic Adventures/91}",
-			"",
+			"{SOURCE Mythic Adventures/91}  ",
 			"The damage dealt increases to 3d6 points of damage per caster level (maximum 60d6) plus 1d4 points of Constitution damage.",
 			"",
 			"A creature that succeeds at its saving throw takes 5d8 points of damage plus 1 point of Constitution damage. A creature whose Constitution score is reduced to 0 by this spell is entirely disintegrated.",
 			"",
 			"*Augmented (7th):* If you expend two uses of mythic power, you fire two rays.",
 			"",
-			"Alternatively, you may fire only one ray, but if the target is a non-mythic creature and it fails its saving throw, it's automatically disintegrated regardless of its current hp."
+			"Alternatively, you may fire only one ray, but if the target is a non-mythic creature and it fails its saving throw, it's automatically disintegrated regardless of its current hp.",
+			"",
+			":::"
 		]
 	},
 	"dismissal": {
@@ -588,11 +589,12 @@
 			"",
 			"Calling upon the strength and wisdom of a deity, you gain a +1 luck bonus on attack and weapon damage rolls for every three caster levels you have (at least +1, maximum +3). The bonus doesn't apply to spell damage.",
 			"",
-			"### Mythic Divine Favor",
+			":::mythic{title=\"Mythic Divine Favor\"}",
 			"",
-			"{SOURCE Mythic Adventures/92}",
+			"{SOURCE Mythic Adventures/92}  ",
+			"You also gain the luck bonus on saving throws and skill checks. Alternatively, you can cast this spell on another willing creature, changing the range to touch and target to living creature touched.",
 			"",
-			"You also gain the luck bonus on saving throws and skill checks. Alternatively, you can cast this spell on another willing creature, changing the range to touch and target to living creature touched."
+			":::"
 		]
 	},
 	"divine_power": {
@@ -631,11 +633,12 @@
 			"",
 			"Select one creature within 60 feet that you have damaged. If that creature has a burrow, climb, fly, or swim speed, you gain that form of movement for the duration of the spell at the same speed and maneuverability as the selected creature. If this gives you the burrow or swim speed, you can breathe while burrowing or swimming. If the creature moves 1,000 feet or more from you, the spell ends. If the creature has more than one of these types of movement, you select one from the types available to the creature.",
 			"",
-			"### Mythic Divine Pursuit",
+			":::mythic{title=\"Mythic Divine Pursuit\"}",
 			"",
-			"{SOURCE Mythic Adventures/92}",
+			"{SOURCE Mythic Adventures/92}  ",
+			"The speed of the movement form provided by the spell increases by 30 feet. This adjustment is treated as an enhancement bonus. You gain a bonus on Perception and Survival skill checks attempted against the selected creature. This is a sacred bonus if you're good or a profane bonus if you're evil; if you're neutral, choose either the sacred or profane bonus.",
 			"",
-			"The speed of the movement form provided by the spell increases by 30 feet. This adjustment is treated as an enhancement bonus. You gain a bonus on Perception and Survival skill checks attempted against the selected creature. This is a sacred bonus if you're good or a profane bonus if you're evil; if you're neutral, choose either the sacred or profane bonus."
+			":::"
 		]
 	},
 	"divine_transfer": {
@@ -761,11 +764,12 @@
 			"",
 			"{spell/Protection from evil} or a similar spell can prevent you from exercising control or using the telepathic link while the subject is so warded, but such an effect does not automatically dispel it.",
 			"",
-			"### Mythic Dominate Person",
+			":::mythic{title=\"Mythic Dominate Person\"}",
 			"",
-			"{SOURCE Mythic Adventures/92}",
+			"{SOURCE Mythic Adventures/92}  ",
+			"The Sense Motive DC to notice your target is dominated increases by double your tier. You can give orders to the target even if it's protected by non-mythic effects that block magical control, such as protection from evil. If the target is protected by a mythic effect, you can attempt to overcome this defense with a caster level check (DC 15 plus the caster level of the effect); add your tier to your roll and the opposing caster's tier to the DC. If the target succeeds at its Will save to break your control, as an immediate action you can expend one use of mythic power to force it to reroll the save and use the lower result.",
 			"",
-			"The Sense Motive DC to notice your target is dominated increases by double your tier. You can give orders to the target even if it's protected by non-mythic effects that block magical control, such as protection from evil. If the target is protected by a mythic effect, you can attempt to overcome this defense with a caster level check (DC 15 plus the caster level of the effect); add your tier to your roll and the opposing caster's tier to the DC. If the target succeeds at its Will save to break your control, as an immediate action you can expend one use of mythic power to force it to reroll the save and use the lower result."
+			":::"
 		]
 	},
 	"domination_link": {
@@ -915,13 +919,14 @@
 			"",
 			"Draconic reservoir does not stack with protection from energy. Draconic reservoir overlaps (and does not stack with) resist energy. If a character is warded by draconic reservoir and resist energy, draconic reservoir absorbs damage until it reaches its maximum limit.",
 			"",
-			"### Mythic Draconic Reservoir",
+			":::mythic{title=\"Mythic Draconic Reservoir\"}",
 			"",
-			"{SOURCE Mythic Adventures/92}",
-			"",
+			"{SOURCE Mythic Adventures/92}  ",
 			"The amount of energy damage the spell absorbs increases to 10 points per caster level (maximum 100 points). The energy damage from the weapons improves as if using a corrosive burst, flaming burst, icy burst, or shocking burst weapon.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, spending a swift action applies the energy damage to any number of creatures the target hits this round, not just the first."
+			"*Augmented (3rd):* If you expend two uses of mythic power, spending a swift action applies the energy damage to any number of creatures the target hits this round, not just the first.",
+			"",
+			":::"
 		]
 	},
 	"draconic_suppression": {
@@ -993,11 +998,12 @@
 			">",
 			">*Copper dragon:* 60-foot line of acid.",
 			"",
-			"### Mythic Dragon's Breath",
+			":::mythic{title=\"Mythic Dragon's Breath\"}",
 			"",
-			"{SOURCE Mythic Adventures/92}",
+			"{SOURCE Mythic Adventures/92}  ",
+			"The spell's duration changes to 1 minute/level or until discharged. You can use the breath weapon up to three times during this duration. On the round you cast the spell, using the breath weapon is a free action; later uses require a standard action. You must wait 1d4 rounds between each use of the breath weapon. All uses for a particular casting have the same range, area, and energy type. You can have only one dragon's breath spell in effect at a time; casting a new one ends the previous one.",
 			"",
-			"The spell's duration changes to 1 minute/level or until discharged. You can use the breath weapon up to three times during this duration. On the round you cast the spell, using the breath weapon is a free action; later uses require a standard action. You must wait 1d4 rounds between each use of the breath weapon. All uses for a particular casting have the same range, area, and energy type. You can have only one dragon's breath spell in effect at a time; casting a new one ends the previous one."
+			":::"
 		]
 	},
 	"dragonvoice": {
@@ -1125,11 +1131,12 @@
 			"",
 			"The messenger is unaware of its own surroundings or of the activities around it while in the trance. It is defenseless both physically and mentally (always failing any saving throw) while in the trance.",
 			"",
-			"### Mythic Dream",
+			":::mythic{title=\"Mythic Dream\"}",
 			"",
-			"{SOURCE Mythic Adventures/92}",
+			"{SOURCE Mythic Adventures/92}  ",
+			"You or the messenger may gain information from the dreamer you contact by asking questions as if using {spell/speak with dead} to speak with a corpse. An unwilling dreamer can attempt to resist this probing with a Will save (as *speak with dead,* using the DC dream would have if it allowed a saving throw). Answers to these questions are still generally brief and cryptic.",
 			"",
-			"You or the messenger may gain information from the dreamer you contact by asking questions as if using {spell/speak with dead} to speak with a corpse. An unwilling dreamer can attempt to resist this probing with a Will save (as *speak with dead,* using the DC dream would have if it allowed a saving throw). Answers to these questions are still generally brief and cryptic."
+			":::"
 		]
 	},
 	"dream_council": {
@@ -1478,13 +1485,14 @@
 			"",
 			"A shower of iridescent black particles clings to and extinguishes torches, lanterns, sunrods, and similar mundane light sources and dispels any spell of 2nd level or lower with the light descriptor (as {spell/dispel magic}). Creatures in the area must make a Fortitude save or become fatigued.",
 			"",
-			"### Mythic Dust of Twilight",
+			":::mythic{title=\"Mythic Dust of Twilight\"}",
 			"",
-			"{SOURCE Mythic Adventures/92}",
-			"",
+			"{SOURCE Mythic Adventures/92}  ",
 			"A creature that fails its Fortitude save against the spell must also succeed at a Will save at the same DC or fall asleep (as the {spell/sleep} spell). Creatures that succeed at their saves are merely drowsy (as the {spell/lullaby} spell).",
 			"",
-			"*Augmented:* If you expend two uses of mythic power, add half your tier to the level of light spells mythic dust of twilight dispels."
+			"*Augmented:* If you expend two uses of mythic power, add half your tier to the level of light spells mythic dust of twilight dispels.",
+			"",
+			":::"
 		]
 	},
 	"dust_ward": {
@@ -1697,13 +1705,14 @@
 			"",
 			"You unleash a powerful scream, inaudible to all but a single target. The target is dazed for 1 round and takes 1d6 points of sonic damage per two caster levels (maximum 5d6). A successful save negates the daze effect and halves the damage.",
 			"",
-			"### Mythic Ear-Piercing Scream",
+			":::mythic{title=\"Mythic Ear-Piercing Scream\"}",
 			"",
-			"{SOURCE Mythic Adventures/92}",
-			"",
+			"{SOURCE Mythic Adventures/92}  ",
 			"The damage dealt increases to 1d8 points of sonic damage per 2 caster levels (maximum 5d8) and the duration that creatures in the area are dazed is a number of rounds equal to your tier.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, the spell affects a 30-foot cone rather than a single target."
+			"*Augmented (3rd):* If you expend two uses of mythic power, the spell affects a 30-foot cone rather than a single target.",
+			"",
+			":::"
 		]
 	},
 	"ears_of_the_city": {
@@ -1816,13 +1825,14 @@
 			"",
 			"*Pinned Beneath Rubble:* Any creature pinned beneath rubble takes 1d6 points of nonlethal damage per minute while pinned. If a pinned character falls unconscious, he or she must make a DC 15 Constitution check or take 1d6 points of lethal damage each minute thereafter until freed or dead.",
 			"",
-			"### Mythic Earthquake",
+			":::mythic{title=\"Mythic Earthquake\"}",
 			"",
-			"{SOURCE Mythic Adventures/92}",
-			"",
+			"{SOURCE Mythic Adventures/92}  ",
 			"Increase the damage dealt to structures by 10 points of damage per tier. Increase the damage dealt by cave-ins and landslides to 10d8 points of damage. Increase the damage dealt to those pinned beneath rubble to 1d10 points per minute. Add your tier to the DC of concentration checks and Constitution checks attempted as a consequence of this spell.",
 			"",
-			"*Augmented (8th):* If you expend two uses of mythic power, the spell lasts for an additional round and the spread's radius increases by 20 feet. Each round this spell is in effect, on your turn you may expend one use of mythic power to continue its duration for 1 round and increase its radius by another 20 feet."
+			"*Augmented (8th):* If you expend two uses of mythic power, the spell lasts for an additional round and the spread's radius increases by 20 feet. Each round this spell is in effect, on your turn you may expend one use of mythic power to continue its duration for 1 round and increase its radius by another 20 feet.",
+			"",
+			":::"
 		]
 	},
 	"echeans_excellent_enclosure": {
@@ -2309,13 +2319,14 @@
 			"",
 			"This spell charges your hand with telekinetic force. Your successful melee touch attack deals 1d4 points of force damage per level (maximum 10d4) and causes the target to be pushed away from you in a straight line up to 5 feet per two caster levels. For every size category of the target above Medium, reduce the distance pushed by 5 feet (-5 feet for Large, -10 feet for Huge, -15 for Gargantuan, and -20 feet for Colossal) to a minimum of 0 feet. A successful Fortitude save negates the movement but not the damage.",
 			"",
-			"### Mythic Force Punch",
+			":::mythic{title=\"Mythic Force Punch\"}",
 			"",
-			"{SOURCE Mythic Adventures/96}",
-			"",
+			"{SOURCE Mythic Adventures/96}  ",
 			"The damage dealt increases to 1d6 points of force damage per caster level (maximum 10d6). If moving the target would push it into another creature's space and it has at least 10 feet of distance remaining, you can attempt to overrun the other creature, adding your tier on the combat maneuver check. For each creature you overrun with the target, reduce the distance the target moves by 5 feet. If moving the target would push it into a solid obstacle (such as a wall or tree), the target takes damage as if it had fallen the distance pushed.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, you can cast this spell as a ranged touch attack with a range of close (25 feet + 5 feet per 2 caster levels), and the target is treated as two size categories smaller for the purpose of determining the total distance pushed."
+			"*Augmented (3rd):* If you expend two uses of mythic power, you can cast this spell as a ranged touch attack with a range of close (25 feet + 5 feet per 2 caster levels), and the target is treated as two size categories smaller for the purpose of determining the total distance pushed.",
+			"",
+			":::"
 		]
 	},
 	"force_sword": {
@@ -2476,11 +2487,12 @@
 			"",
 			"When another creature is the subject of the spell, you receive warnings about that creature. You must communicate what you learn to the other creature for the warning to be useful, and the creature can be caught unprepared in the absence of such a warning. Shouting a warning, yanking a person back, and even telepathically communicating (via an appropriate spell) can all be accomplished before some danger befalls the subject, provided you act on the warning without delay. The subject, however, does not gain the insight bonus to AC and Reflex saves.",
 			"",
-			"### Mythic Foresight",
+			":::mythic{title=\"Mythic Foresight\"}",
 			"",
-			"{SOURCE Mythic Adventures/96}",
+			"{SOURCE Mythic Adventures/96}  ",
+			"The spell's insight bonus increases to +3. If you cast the spell on another creature, you and the target are simultaneously warned by the spell, and the target gains the spell's insight bonuses.",
 			"",
-			"The spell's insight bonus increases to +3. If you cast the spell on another creature, you and the target are simultaneously warned by the spell, and the target gains the spell's insight bonuses."
+			":::"
 		]
 	},
 	"forest_friend": {
@@ -3443,13 +3455,14 @@
 			"",
 			"A gaseous creature can't run, but it can fly at a speed of 10 feet and automatically succeeds on all Fly skill checks. It can pass through small holes or narrow openings, even mere cracks, with all it was wearing or holding in its hands, as long as the spell persists. The creature is subject to the effects of wind, and it can't enter water or other liquid. It also can't manipulate objects or activate items, even those carried along with its gaseous form. Continuously active items remain active, though in some cases their effects may be moot.",
 			"",
-			"### Mythic Gaseous Form",
+			":::mythic{title=\"Mythic Gaseous Form\"}",
 			"",
-			"{SOURCE Mythic Adventures/96}",
-			"",
+			"{SOURCE Mythic Adventures/96}  ",
 			"The damage reduction changes to DR 10/epic and magic, and the fly speed increases to 30 feet. The target can expand itself as a free action, filling an area equal to double its normal space and height (a Medium creature fills a 10-foot-by-10-foot space to a height of about 10 feet) and blocking vision as obscuring mist. Returning from expanded to normal size is also a free action.",
 			"",
-			"*Augmented:* If you expend two uses of mythic power, the target can shift into or out of gaseous form as a move action."
+			"*Augmented:* If you expend two uses of mythic power, the target can shift into or out of gaseous form as a move action.",
+			"",
+			":::"
 		]
 	},
 	"gate": {
@@ -3619,10 +3632,9 @@
 			"",
 			"*Shaitan:* Your flesh gains the coloration of stone and your hair appears to be sculpted from fine crystals. You gain a burrow speed of 60 feet and resist acid 10.",
 			"",
-			"### Mythic Geniekind",
+			":::mythic{title=\"Mythic Geniekind\"}",
 			"",
-			"{SOURCE Mythic Origins/12}",
-			"",
+			"{SOURCE Mythic Origins/12}  ",
 			"The energy resistance granted by your genie form increases to 20. You gain a +2 enhancement bonus to Strength and Dexterity. In addition, once while you are transformed you can use one spell-like ability based on your genie form (using your caster level), as detailed below.",
 			"",
 			"*Djinni:* {spell/create food and water}, {spell/gaseous form}, or {spell/major creation} (created vegetable matter is permanent)",
@@ -3635,7 +3647,9 @@
 			"",
 			"Such spell-like abilities end either when their duration has expired or when the duration of mythic geniekind has expired, whichever comes first.",
 			"",
-			"*Augmented (7th):* If you expend three uses of mythic power, the energy resistance granted by your genie form becomes energy immunity. While you are transformed, you can change into a different type of genie as a full-round action. You can become each type of genie only once per casting, and you can use one listed spell-like ability in each of your different genie forms. The duration of the spell-like abilities ends when the spell's duration ends or when you change to a different genie form, whichever comes first."
+			"*Augmented (7th):* If you expend three uses of mythic power, the energy resistance granted by your genie form becomes energy immunity. While you are transformed, you can change into a different type of genie as a full-round action. You can become each type of genie only once per casting, and you can use one listed spell-like ability in each of your different genie forms. The duration of the spell-like abilities ends when the spell's duration ends or when you change to a different genie form, whichever comes first.",
+			"",
+			":::"
 		]
 	},
 	"genius_avaricious": {
@@ -4014,15 +4028,16 @@
 			"| 18th-19th | 8 | 4 | 5 |",
 			"| 20th or higher | 12 | 6 | 8 |",
 			"",
-			"### Mythic Giant Vermin",
+			":::mythic{title=\"Mythic Giant Vermin\"}",
 			"",
-			"{SOURCE Mythic Adventures/96}",
-			"",
+			"{SOURCE Mythic Adventures/96}  ",
 			"The vermin you transform with this spell gain DR 5/magic and either the advanced creature template or the giant creature template.",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, any vermin you transform also gains either the agile or savage [mythic template](rule/mythic_simple_templates) while the spell lasts.",
 			"",
-			"If you're at least 9th tier and expend three uses of mythic power, the duration changes to instantaneous, meaning the vermin retain their giant size. After a number of days equal to your tier, you lose control over the vermin unless you have some other way of controlling them, and they lose the agile or savage mythic template but retain the advanced or giant creature template."
+			"If you're at least 9th tier and expend three uses of mythic power, the duration changes to instantaneous, meaning the vermin retain their giant size. After a number of days equal to your tier, you lose control over the vermin unless you have some other way of controlling them, and they lose the agile or savage mythic template but retain the advanced or giant creature template.",
+			"",
+			":::"
 		]
 	}
 }

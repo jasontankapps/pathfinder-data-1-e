@@ -161,10 +161,12 @@
 			"**Prerequisites:** Dex 13, {feat/Greater Grapple}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, base attack bonus +9 or monk level 9th.  ",
 			"**Benefit:** Whenever you use Greater Grapple to successfully maintain a {rule/grapple} as a move action, you can then spend a swift action to make a grapple combat maneuver check at a -5 penalty.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">You can spend 2 stamina points to gain a +2 bonus on a grapple check made as a swift action with this feat."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"You can spend 2 stamina points to gain a +2 bonus on a grapple check made as a swift action with this feat.",
+			"",
+			":::"
 		]
 	},
 	"rapid_recovery": {
@@ -208,18 +210,21 @@
 			"",
 			"**Special:** You can gain Rapid Reload multiple times. Each time you take the feat, it applies to a new type of crossbow or a new type of firearm.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When reloading a crossbow or firearm, you can spend 5 stamina points to reduce the reload time by one step; a standard action becomes a move action, a move action becomes a swift action, and a swift action becomes a free action. The weapon you are reloading doesn't need to be the one you chose when you took this feat. If the weapon already has a reload time of one free action, when you make a full attack with the weapon, you can spend 2 stamina points to gain a +1 bonus on all damage rolls with the weapon during that full attack.",
+			":::stamina",
 			"",
-			"### Mythic Rapid Reload",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When reloading a crossbow or firearm, you can spend 5 stamina points to reduce the reload time by one step; a standard action becomes a move action, a move action becomes a swift action, and a swift action becomes a free action. The weapon you are reloading doesn't need to be the one you chose when you took this feat. If the weapon already has a reload time of one free action, when you make a full attack with the weapon, you can spend 2 stamina points to gain a +1 bonus on all damage rolls with the weapon during that full attack.",
 			"",
-			"{SOURCE Mythic Adventures/72}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Rapid Reload\"}",
+			"",
+			"{SOURCE Mythic Adventures/72}  ",
 			"You can reload any type of weapon with astounding speed.  ",
 			"**Prerequisites:** Rapid Reload.  ",
 			"**Benefit:** You gain the benefits of Rapid Reload with all crossbows and firearms, not just the one you originally chose when you gained that feat. As a swift action, you can expend one use of mythic power to gain the ability to reload crossbows and firearms without provoking attacks of opportunity for 1 minute.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -268,18 +273,21 @@
 			"**Prerequisites:** {feat/Point-Blank Shot}.  ",
 			"**Benefit:** When making a full-attack action with a ranged weapon, you can fire one additional time this round at your highest bonus. All of your attack rolls take a -2 penalty when using Rapid Shot.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When using this feat, you can spend a number of stamina points up to the number of shots taken using this feat. If you do, you decrease the penalty of a single Rapid Shot ranged attack by 2 for each stamina point you spent.",
+			":::stamina",
 			"",
-			"### Mythic Rapid Shot",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When using this feat, you can spend a number of stamina points up to the number of shots taken using this feat. If you do, you decrease the penalty of a single Rapid Shot ranged attack by 2 for each stamina point you spent.",
 			"",
-			"{SOURCE Mythic Adventures/72}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Rapid Shot\"}",
+			"",
+			"{SOURCE Mythic Adventures/72}  ",
 			"You can fire many times each round with amazing precision.  ",
 			"**Prerequisites:** Rapid Shot.  ",
 			"**Benefit:** When using Rapid Shot, you can either ignore the feat's -2 penalty on attack rolls or make two additional attacks instead of one.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -332,10 +340,12 @@
 			"**Prerequisites:** Dex 15, {feat/Missile Shield}, {feat/Spellbreaker}.  ",
 			"**Benefit:** You must be using a {eq-armor/light>_shield}, {eq-armor/heavy>_shield}, or {eq-armor/tower shield} to use this feat. Once per round when you would normally be hit with a ranged touch attack (including rays and similar magical effects), you may deflect it so that you take no damage from it. Your shield suffers the full effects of the spell or effect, if applicable.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">You can spend 2 stamina points to gain the effect of this feat while preventing the spell or effect from affecting your shield."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"You can spend 2 stamina points to gain the effect of this feat while preventing the spell or effect from affecting your shield.",
+			"",
+			":::"
 		]
 	},
 	"razortusk": {
@@ -367,10 +377,12 @@
 			"**Benefit:** You gain a +2 dodge bonus to Armor Class against attacks of opportunity from opponents that are not adjacent to you.  ",
 			"**Special:** This feat counts as {feat/Dodge} for the purposes of qualifying for the {feat/Mobility} and {feat/Spring Attack} feats.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/21}",
-			">",
-			">You can spend 5 stamina points to grant the benefit of this feat to any adjacent allies for 1 round."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/21}  ",
+			"You can spend 5 stamina points to grant the benefit of this feat to any adjacent allies for 1 round.",
+			"",
+			":::"
 		]
 	},
 	"reach_spell": {
@@ -566,10 +578,12 @@
 			"**Prerequisites:** [Leaping lance class feature]{arc-fighter/dragoon}, Acrobatics 5 ranks, Ride 11 ranks.  ",
 			"**Benefit:** When you succeed at the Acrobatics check to jump as part of your leaping lance class feature, you can remount your steed as a swift action.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When attempting an Acrobatics check to jump as part of your leaping lance class feature, you can spend up to 5 stamina points to gain a bonus on that check equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When attempting an Acrobatics check to jump as part of your leaping lance class feature, you can spend up to 5 stamina points to gain a bonus on that check equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"rebuffing_reduction": {
@@ -588,10 +602,12 @@
 			"**Benefit:** Whenever an opponent that is adjacent to you fails to penetrate your DR with a melee attack, you can spend an immediate action to attempt a {rule/bull rush} combat maneuver against that opponent. If you succeed, you cannot move with the opponent.  ",
 			"**Normal:** A bull rush combat maneuver is a standard action.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When you succeed at a bull rush combat maneuver check with this feat, you can spend 2 stamina points to move up to 5 feet with the target."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When you succeed at a bull rush combat maneuver check with this feat, you can spend 2 stamina points to move up to 5 feet with the target.",
+			"",
+			":::"
 		]
 	},
 	"recalcitrant": {
@@ -751,10 +767,12 @@
 			"**Prerequisites:** Dex 15, Int 15, {feat/Dodge}.  ",
 			"**Benefit:** Once per turn, when an opponent only you threaten fails an attack against you, you can redirect the attack to target another foe. The new target must be adjacent to you and within reach of the opponent that missed you. Attempt a combat maneuver check; if the result exceeds both the Combat Maneuver Defense of the opponent who missed you and the Armor Class of the new target, the attack strikes and deals its normal damage.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/21}",
-			">",
-			">You can spend up to 5 stamina points to grant yourself a bonus on the combat maneuver check equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/21}  ",
+			"You can spend up to 5 stamina points to grant yourself a bonus on the combat maneuver check equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"redirected_shot": {
@@ -772,10 +790,12 @@
 			"**Prerequisites:** {feat/Amateur Gunslinger} or the grit class feature, {feat/Deadly Aim}, {feat/Precise Shot}.  ",
 			"**Benefit:** As long as you have at least 1 grit point, after an ally has made a ranged attack roll but before the results of the roll have been revealed, you can fire a loaded firearm at the volley as it moves toward its target, redirecting its path. Make an attack roll using your highest attack bonus, and use your result in place of your ally's original attack roll. On a successful hit, your ally's attack deals damage as normal. You may perform this action a number of times per round up to your Wisdom bonus (minimum 1).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/25}",
-			">",
-			">By spending 4 stamina points, you can use this feat an additional time per round."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/25}  ",
+			"By spending 4 stamina points, you can use this feat an additional time per round.",
+			"",
+			":::"
 		]
 	},
 	"redistributed_might": {
@@ -986,10 +1006,12 @@
 			"**Prerequisites:** Str 13, two claw natural weapon attacks, base attack bonus +6.  ",
 			"**Benefit:** If you hit a creature with two claw attacks in the same turn, the second claw attack deals an additional 1d6 points of damage. This damage is {misc/precision damage} and is not multiplied on a critical hit. You can use this feat once per round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When you make two claw attacks but hit with only one, you can spend 5 stamina points to deal the precision damage granted by this feat anyway."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When you make two claw attacks but hit with only one, you can spend 5 stamina points to deal the precision damage granted by this feat anyway.",
+			"",
+			":::"
 		]
 	},
 	"rending_fury": {
@@ -1007,10 +1029,12 @@
 			"**Prerequisites:** Base attack bonus +6, {umr/rend} special attack.  ",
 			"**Benefit:** You deal rend damage if you hit with half the normal natural attacks your rend requires. For example, a {family/troll} that has this feat can rend when it hits with one claw attack, while a {monster/girallon} that has this feat must hit one target with two claw attacks to rend. You can only make this rend attack once per round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When you make a rend attack, you can spend up to 5 stamina points to deal an amount of additional damage equal to double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When you make a rend attack, you can spend up to 5 stamina points to deal an amount of additional damage equal to double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"rending_swarm": {
@@ -1074,10 +1098,12 @@
 			"**Normal:** You must perform a reposition combat maneuver to reposition an opponent.  ",
 			"**Special:** You can only apply the effects of one of the following feats to a given critical hit: {feat/Bull Rush Strike}, {feat/Disarming Strike}, Repositioning Strike, {feat/Sundering Strike}, or {feat/Tripping Strike}. You may choose to use this feat after you make your confirmation roll.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to attempt to reposition the target anyway. If you do, reroll the confirmation roll and use it to determine if the reposition attempt exceeds the opponent's CMD. This reroll is used only for the reposition combat maneuver; it can't cause the critical hit to be confirmed. You still can't make the attempt if the target is immune to critical hits."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to attempt to reposition the target anyway. If you do, reroll the confirmation roll and use it to determine if the reposition attempt exceeds the opponent's CMD. This reroll is used only for the reposition combat maneuver; it can't cause the critical hit to be confirmed. You still can't make the attempt if the target is immune to critical hits.",
+			"",
+			":::"
 		]
 	},
 	"resilient_armor": {
@@ -1254,10 +1280,12 @@
 			"**Benefit:** When you gain this feat, choose one revelation that you can use to affect no more than one opponent. If you make a successful unarmed strike against an opponent, in addition to dealing your unarmed strike damage, you can use a swift action to deliver the effects of the chosen revelation to that opponent. Doing so provokes no attacks of opportunity.  ",
 			"**Special:** You can take this feat multiple times. Each time you take it, you apply it to a different qualifying revelation.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">After hitting with an unarmed strike, you can spend 2 stamina points to apply the effects of your chosen revelation as a free action instead of a swift action. If the chosen revelation has unlimited daily uses, this combat trick costs 5 stamina points instead."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"After hitting with an unarmed strike, you can spend 2 stamina points to apply the effects of your chosen revelation as a free action instead of a swift action. If the chosen revelation has unlimited daily uses, this combat trick costs 5 stamina points instead.",
+			"",
+			":::"
 		]
 	},
 	"revered_guidance": {
@@ -1301,10 +1329,12 @@
 			"**Prerequisites:** {feat/Toughness}, base attack bonus +1, {race/orc}.  ",
 			"**Benefit:** As a move action, you can leave a gap in your defenses for one adjacent opponent to use. If the opponent attacks you on its next turn, it gains a +4 bonus on its attack roll. Whether or not the opponent successfully hits, you may attack it as an immediate action with a single melee attack, gaining a +2 bonus on your attack roll.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">You can spend 2 stamina points to make the attack granted by this feat as a free action rather than an immediate action. You can still make the attack only once per use of this feat."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"You can spend 2 stamina points to make the attack granted by this feat as a free action rather than an immediate action. You can still make the attack only once per use of this feat.",
+			"",
+			":::"
 		]
 	},
 	"reviving_channel": {
@@ -1391,15 +1421,16 @@
 			"",
 			"Alternatively, you can use this feat to retry a single failed Diplomacy check against a creature. You take a -4 penalty on your Bluff check when using Rhetorical Flourish in this way. If you succeed, rather than gaining this feat's normal bonus, you can retry your last Diplomacy check against the creature if that check was made in the past minute.",
 			"",
-			"### Mythic Rhetorical Flourish",
+			":::mythic{title=\"Mythic Rhetorical Flourish\"}",
 			"",
-			"{SOURCE Mythic Adventures/72}",
-			"",
+			"{SOURCE Mythic Adventures/72}  ",
 			"You're supremely skilled at using verbal misdirection and  ",
 			"**Prerequisites:** Rhetorical Flourish.  ",
 			"**Benefit:** When you successfully use Rhetorical Flourish against a non-mythic creature, the bonus on your Diplomacy check increases by your tier. If the target is a mythic creature, you instead increase the bonus by half your tier.",
 			"",
-			"You can expend one use of mythic power to reroll a single failed Bluff check. You must take the new result even if it is lower."
+			"You can expend one use of mythic power to reroll a single failed Bluff check. You must take the new result even if it is lower.",
+			"",
+			":::"
 		]
 	},
 	"rhino_charge": {
@@ -1472,18 +1503,21 @@
 			"**Prerequisites:** Ride 1 rank, {feat/Mounted Combat}.  ",
 			"**Benefit:** When you are mounted and use the {rule/charge} action, you may move and attack as if with a standard charge and then move again (continuing the straight line of the charge). Your total movement for the round can't exceed double your mounted speed. You and your mount do not provoke an attack of opportunity from the opponent that you attack.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">After making a mounted charge attack using this feat, you can spend 5 stamina points to change the direction of your movement instead of continuing to move in a straight line.",
+			":::stamina",
 			"",
-			"### Mythic Ride-By Attack",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"After making a mounted charge attack using this feat, you can spend 5 stamina points to change the direction of your movement instead of continuing to move in a straight line.",
 			"",
-			"{SOURCE Mythic Adventures/72}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Ride-By Attack\"}",
+			"",
+			"{SOURCE Mythic Adventures/72}  ",
 			"You can make multiple attacks as you ride past your enemies.  ",
 			"**Prerequisites:** Ride-By Attack].  ",
-			"**Benefit:** When you successfully strike an opponent as part of a Ride-By Attack, you can continue to make attacks against successive targets. You can make one additional attack per 3 tiers you possess, but you can't make more attacks than you could if you were making a full attack. Successive attacks use the lower bonus for multiple attacks, as when making a full attack. You must move at least 10 feet between each attack."
+			"**Benefit:** When you successfully strike an opponent as part of a Ride-By Attack, you can continue to make attacks against successive targets. You can make one additional attack per 3 tiers you possess, but you can't make more attacks than you could if you were making a full attack. Successive attacks use the lower bonus for multiple attacks, as when making a full attack. You must move at least 10 feet between each attack.",
+			"",
+			":::"
 		]
 	},
 	"righteous_healing": {
@@ -1542,10 +1576,12 @@
 			"**Prerequisites:** {feat/Improved Drag}, {feat/Improved Trip}, worshiper of {faith/Gozreh}.  ",
 			"**Benefit:** Whenever you succeed at a {rule/trip} combat maneuver, you can automatically attempt a {rule/drag} combat maneuver against your tripped target as a swift action.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/25}",
-			">",
-			">By spending 4 stamina points, you can attempt a drag combat maneuver check against any opponent that you successfully trip using Riptide Attack as a free action instead of a swift action."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/25}  ",
+			"By spending 4 stamina points, you can attempt a drag combat maneuver check against any opponent that you successfully trip using Riptide Attack as a free action instead of a swift action.",
+			"",
+			":::"
 		]
 	},
 	"risky_striker": {
@@ -1563,10 +1599,12 @@
 			"**Prerequisites:** Base attack bonus +1, {race/halfling}.  ",
 			"**Benefit:** You can choose to take a -1 penalty to AC to gain a +2 bonus on melee damage rolls against creatures two or more size categories larger than you. When your base attack bonus reaches +4 and every 4 levels thereafter, the penalty increases by -1 and the damage bonus increases by 2. The bonus damage is multiplied in the case of a critical hit. You can only choose to use this feat when you declare that you are making an attack action or a full-attack action with a melee weapon. The effects last until your next turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When using this feat, you can spend 5 stamina points to gain the bonus on damage rolls against creatures one or more size categories larger than you. This benefit ends when you stop using this feat or after 1 minute, whichever comes first."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When using this feat, you can spend 5 stamina points to gain the bonus on damage rolls against creatures one or more size categories larger than you. This benefit ends when you stop using this feat or after 1 minute, whichever comes first.",
+			"",
+			":::"
 		]
 	},
 	"ritual_hex": {
@@ -1676,10 +1714,12 @@
 			"**Prerequisites:** {feat/Arcane Strike}, ability to cast arcane spells.  ",
 			"**Benefit:** If you have a weapon that is augmented by your Arcane Strike feat, when you damage a creature with an attack made with that weapon, that creature takes a -2 penalty on saving throws against spells and spell-like abilities. This effect lasts for 1 round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When you use this feat, you can spend up to 3 stamina points to increase the duration of the effect by 1 round for each stamina point spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When you use this feat, you can spend up to 3 stamina points to increase the duration of the effect by 1 round for each stamina point spent.",
+			"",
+			":::"
 		]
 	},
 	"robots_bane": {
@@ -1781,15 +1821,16 @@
 			"**Benefit:** When running, you move five times your normal speed (if wearing medium, light, or no armor and carrying no more than a medium load) or four times your speed (if wearing heavy armor or carrying a heavy load). If you make a jump after a running start (see the {skill/Acrobatics} skill description), you gain a +4 bonus on your Acrobatics check. While running, you retain your Dexterity bonus to your Armor Class.  ",
 			"**Normal:** You move four times your speed while running (if wearing medium, light, or no armor and carrying no more than a medium load) or three times your speed (if wearing heavy armor or carrying a heavy load), and you lose your Dexterity bonus to AC.",
 			"",
-			"### Mythic Run",
+			":::mythic{title=\"Mythic Run\"}",
 			"",
-			"{SOURCE Mythic Adventures/72}",
-			"",
+			"{SOURCE Mythic Adventures/72}  ",
 			"You run with preternatural speed and endurance.  ",
 			"**Prerequisites:** Run.  ",
 			"**Benefit:** When running, you move seven times your normal speed if wearing medium, light, or no armor and carrying no more than a medium load, or six times your speed if wearing heavy armor or carrying a heavy load. When making a jump after a running start, you gain an additional bonus equal to your tier + 4 on your Acrobatics check.",
 			"",
-			"You can run normally for a number of rounds equal to your Constitution score plus your tier, but after that you must succeed at Constitution checks to continue running."
+			"You can run normally for a number of rounds equal to your Constitution score plus your tier, but after that you must succeed at Constitution checks to continue running.",
+			"",
+			":::"
 		]
 	},
 	"runic_charge": {
@@ -2184,10 +2225,12 @@
 			"**Prerequisites:** {ability/Sneak attack} +1d6.  ",
 			"**Benefit:** Whenever you use a bludgeoning weapon to deal nonlethal sneak attack damage, you gain a bonus on your damage roll equal to the number of sneak attack damage dice you rolled.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When you use this feat, you can spend a number of stamina points equal to the number of sneak attack dice you roll to increase the amount of nonlethal damage dealt by double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When you use this feat, you can spend a number of stamina points equal to the number of sneak attack dice you roll to increase the amount of nonlethal damage dealt by double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"sap_master": {
@@ -2205,10 +2248,12 @@
 			"**Prerequisites:** {ability/Sneak attack} +3d6, {feat/Sap Adept}.  ",
 			"**Benefit:** Whenever you use a bludgeoning weapon to deal nonlethal sneak attack damage to a {rule/flat-footed} opponent, roll your sneak attack dice twice, totaling the results as your nonlethal sneak attack damage for that attack.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">You can spend 10 stamina points to use this feat on one attack against an opponent you are flanking, instead of one that is flat-footed."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"You can spend 10 stamina points to use this feat on one attack against an opponent you are flanking, instead of one that is flat-footed.",
+			"",
+			":::"
 		]
 	},
 	"savage_critical": {
@@ -2239,10 +2284,12 @@
 			"**Prerequisites:** {feat/Dazzling Display}.  ",
 			"**Benefit:** When you spend a swift action to make a {rule/performance combat} check, you gain a +2 bonus on your performance combat check and gain a +1d6 bonus on damage rolls until the end of your next turn. This extra damage is not {misc/precision damage}.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When using this feat, you can spend 2 stamina points to gain a +2d6 bonus on damage rolls (instead of +1d6)."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When using this feat, you can spend 2 stamina points to gain a +2d6 bonus on damage rolls (instead of +1d6).",
+			"",
+			":::"
 		]
 	},
 	"savage_leap": {
@@ -2286,10 +2333,12 @@
 			"**Prerequisites:** {feat/Intimidating Prowess}, rage class feature.  ",
 			"**Benefit:** When attempting a {rule/performance combat} check while raging, you may, as a free action, expend a number of your daily rounds of rage up to half your {class/barbarian} level to create a display of savagery. You gain a bonus on the performance combat check equal to half the number of rounds expended, rounded down. If you expend all your remaining rounds of rage in this manner, thus ending your rage, you gain an additional +2 bonus on the check.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/25}",
-			">",
-			">You can spend stamina points instead of rounds of rage when using Savage Surge."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/25}  ",
+			"You can spend stamina points instead of rounds of rage when using Savage Surge.",
+			"",
+			":::"
 		]
 	},
 	"saving_shield": {
@@ -2308,18 +2357,21 @@
 			"**Prerequisites:** {feat/Shield Proficiency}.  ",
 			"**Benefit:** Whenever an adjacent ally is the target of an attack, you can, as an immediate action, grant that adjacent ally a +2 shield bonus to AC. You must be wielding a {eq-armor/light shield}, {eq-armor/heavy shield}, or {eq-armor/tower shield} to use this feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When you use this feat, you can spend 2 stamina points to increase the shield bonus granted to your ally by an amount equal to the enhancement bonus of the shield you are using.",
+			":::stamina",
 			"",
-			"### Mythic Saving Shield",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When you use this feat, you can spend 2 stamina points to increase the shield bonus granted to your ally by an amount equal to the enhancement bonus of the shield you are using.",
 			"",
-			"{SOURCE Mythic Adventures/72}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Saving Shield\"}",
+			"",
+			"{SOURCE Mythic Adventures/72}  ",
 			"Shielding a comrade from harm gives you a chance to strike back.  ",
 			"**Prerequisites:** Saving Shield.  ",
-			"**Benefit:** The shield bonus you grant an ally with Saving Shield increases to +3. If you use Saving Shield to successfully negate an attack against an adjacent ally, you can immediately make an attack of opportunity against the attacker so long as it is within your melee reach."
+			"**Benefit:** The shield bonus you grant an ally with Saving Shield increases to +3. If you use Saving Shield to successfully negate an attack against an adjacent ally, you can immediately make an attack of opportunity against the attacker so long as it is within your melee reach.",
+			"",
+			":::"
 		]
 	},
 	"saviors_arrow": {
@@ -2515,10 +2567,12 @@
 			"**Benefit:** When you gain this feat, choose one {ability/arcane school>s} power that you can use to affect no more than one opponent. If you make a successful unarmed strike against an opponent, in addition to dealing your unarmed strike damage, you can use a swift action to deliver the effects of the chosen school power to that opponent. Doing so provokes no attacks of opportunity.  ",
 			"**Special:** You can take this feat multiple times. Each time you take it, you apply it to a different qualifying arcane school power.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">After hitting with an unarmed strike, you can spend 2 stamina points to apply the effects of your chosen arcane school power as a free action instead of a swift action."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"After hitting with an unarmed strike, you can spend 2 stamina points to apply the effects of your chosen arcane school power as a free action instead of a swift action.",
+			"",
+			":::"
 		]
 	},
 	"schooled_resolve": {
@@ -2580,10 +2634,12 @@
 			"**Prerequisites:** {race/Ifrit}.  ",
 			"**Benefit:** You gain a +2 bonus on saving throws against fire attacks and spells with the fire descriptor or light descriptor. As a swift action, you can make up to two held manufactured metallic weapons become red-hot for 1 round, dealing 1 additional point of fire damage with a successful hit. This does not stack with other effects that add fire damage to weapons, such as the {magic-enh/flaming} weapon special ability.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When you use this feat to make one or more metallic weapons red hot for 1 round, you can spend 2 stamina points to increase the additional fire damage to 2 points, and have that damage stack with other effects that add fire damage to a weapon (such as the *flaming* weapon special ability)."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When you use this feat to make one or more metallic weapons red hot for 1 round, you can spend 2 stamina points to increase the additional fire damage to 2 points, and have that damage stack with other effects that add fire damage to a weapon (such as the *flaming* weapon special ability).",
+			"",
+			":::"
 		]
 	},
 	"scorpion_style": {
@@ -2603,18 +2659,21 @@
 			"**Prerequisites:** {feat/Improved Unarmed Strike}.  ",
 			"**Benefit:** To use this feat, you must make a single unarmed attack as a standard action. If this unarmed attack hits, you deal damage normally, and the target's base land speed is reduced to 5 feet for a number of rounds equal to your Wisdom modifier unless it makes a Fortitude saving throw (DC 10 + 1/2 your character level + your Wis modifier).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When you hit with an unarmed attack using this feat and the target successfully saves against the effect, you can spend 2 stamina points to reduce the target's movement speed by half for 1 round.",
+			":::stamina",
 			"",
-			"### Mythic Scorpion Style",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When you hit with an unarmed attack using this feat and the target successfully saves against the effect, you can spend 2 stamina points to reduce the target's movement speed by half for 1 round.",
 			"",
-			"{SOURCE Mythic Adventures/72}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Scorpion Style\"}",
+			"",
+			"{SOURCE Mythic Adventures/72}  ",
 			"Your unarmed strikes can induce a near-crippling lethargy in your enemies.  ",
 			"**Prerequisites:** Scorpion Style.  ",
 			"**Benefit:** Whenever you are using Scorpion Style, you add your tier to the number of rounds the target's base land speed is reduced. You can expend one use of mythic power when making your attack to slow your target, as the spell {spell/slow}, unless it succeeds at a Fortitude save (DC 10 + 1/2 your character level + your Wisdom modifier). The slowing effect supersedes the normal speed penalty of your Scorpion Strike, but lasts for an equal number of rounds.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -2732,10 +2791,12 @@
 			"**Prerequisites:** {feat/Combat Expertise}, merfolk.  ",
 			"**Benefit:** When you make a successful melee attack against a swimming target, as a free action you can attempt to knock the target off balance. Treat this as a {rule/trip} combat maneuver. If you succeed, the target is considered {rule/off-balance>_and_prone_underwater} until it recovers its balance, usually by making a Swim check on its turn. This feat has no effect on creatures with a swim speed, those using magic such as freedom of movement, and creatures that can't be tripped.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/130}",
-			">",
-			">When you successfully knock a target off balance while using this feat, you can spend up to 5 stamina points to apply a penalty on the target's Swim checks to recover its balance from the effect equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/130}  ",
+			"When you successfully knock a target off balance while using this feat, you can spend up to 5 stamina points to apply a penalty on the target's Swim checks to recover its balance from the effect equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"sea_legs": {
@@ -2792,10 +2853,12 @@
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, base attack bonus +6.  ",
 			"**Benefit:** When making a full attack, if you miss on your first attack, you can forgo making any other attacks for the rest of your turn to reroll that attack at your highest base attack bonus.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. After you use Second Chance, you can spend 5 stamina points to still make an attack at your second-highest attack bonus after rerolling your first attack."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. After you use Second Chance, you can spend 5 stamina points to still make an attack at your second-highest attack bonus after rerolling your first attack.",
+			"",
+			":::"
 		]
 	},
 	"second_wind": {
@@ -2893,10 +2956,12 @@
 			"**Benefit:** When you are hit by a confirmed critical hit or a {ability/sneak attack}, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally.  ",
 			"**Special:** This chance stacks with the {magic-enh/light fortification} and {magic-enh/moderate fortification} armor special abilities.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/21}",
-			">",
-			">If you fail to negate a critical hit against you, you can spend 5 stamina points to cause the attack to deal half damage."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/21}  ",
+			"If you fail to negate a critical hit against you, you can spend 5 stamina points to cause the attack to deal half damage.",
+			"",
+			":::"
 		]
 	},
 	"seductive_channel": {
@@ -2992,10 +3057,12 @@
 			"**Prerequisites:** Studied target class feature.  ",
 			"**Benefit:** Select a creature type from the Ranger {ability/Favored Enemies} table. When you designate a creature of this type as your studied target and hit it with a melee or ranged weapon attack, your favored target bonus on damage rolls against it is doubled.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">You can spend 5 stamina points to change your favored enemy type to any other favored enemy on the Ranger Favored Enemies table. This change lasts until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"You can spend 5 stamina points to change your favored enemy type to any other favored enemy on the Ranger Favored Enemies table. This change lasts until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"seize_advantage": {
@@ -3013,10 +3080,12 @@
 			"**Prerequisites:** {swashdeed/Opportune parry and riposte} deed.  ",
 			"**Benefit:** When your foe is using {feat/Power Attack} and you successfully use the *opportune parry and riposte* deed to parry its attack and then respond with a riposte, you add your foe's current bonus on damage rolls from Power Attack to your own damage roll, but you do not take the penalty to hit from your foe's Power Attack.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">When you make a riposte using this feat, you can spend up to 5 stamina points to increase the damage of the riposte by double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"When you make a riposte using this feat, you can spend up to 5 stamina points to increase the damage of the riposte by double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"seize_the_moment": {
@@ -3034,10 +3103,12 @@
 			"**Prerequisites:** {feat/Combat Reflexes}, {feat/Improved Critical}.  ",
 			"**Benefit:** When an ally who also has this feat confirms a critical hit against an opponent that you also threaten, you can make an attack of opportunity against that opponent.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">When an ally with this feat threatens a critical hit but fails to confirm it, you can spend 5 stamina points to make your attack of opportunity anyway."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"When an ally with this feat threatens a critical hit but fails to confirm it, you can spend 5 stamina points to make your attack of opportunity anyway.",
+			"",
+			":::"
 		]
 	},
 	"selective_channeling": {
@@ -3056,13 +3127,14 @@
 			"**Benefit:** When you channel energy, you can choose a number of targets in the area up to your Charisma modifier. These targets are not affected by your channeled energy.  ",
 			"**Normal:** All targets in a 30-foot {misc/burst} are affected when you channel energy. You can only choose whether or not you are affected.",
 			"",
-			"### Mythic Selective Channeling",
+			":::mythic{title=\"Mythic Selective Channeling\"}",
 			"",
-			"{SOURCE Mythic Adventures/72}",
-			"",
+			"{SOURCE Mythic Adventures/72}  ",
 			"When you exclude creatures from your channel, you empower those you do affect.  ",
 			"**Prerequisites:** Selective Channeling.  ",
-			"**Benefit:** When you channel energy, the damage you heal or deal increases by a number of points equal to twice the number of targets you excluded from your channeled energy. You can expend one use of mythic power to increase the number of targets you exclude from your channeled energy by half your tier."
+			"**Benefit:** When you channel energy, the damage you heal or deal increases by a number of points equal to twice the number of targets you excluded from your channeled energy. You can expend one use of mythic power to increase the number of targets you exclude from your channeled energy by half your tier.",
+			"",
+			":::"
 		]
 	},
 	"selective_spell": {
@@ -3123,13 +3195,14 @@
 			"You know how to get along in the wild and how to effectively treat wounds.  ",
 			"**Benefit:** You get a +2 bonus on all Heal checks and Survival checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
 			"",
-			"### Mythic Self-Sufficient",
+			":::mythic{title=\"Mythic Self-Sufficient\"}",
 			"",
-			"{SOURCE Mythic Adventures/72}",
-			"",
+			"{SOURCE Mythic Adventures/72}  ",
 			"Independence comes naturally to you, and you have mastered taking care of yourself.  ",
 			"**Prerequisites:** Self-Sufficient.  ",
-			"**Benefit:** The bonus on Heal and Survival skill checks from Self-Sufficient increases by 2. In addition, you can expend one use of mythic power to treat a Heal or Survival check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
+			"**Benefit:** The bonus on Heal and Survival skill checks from Self-Sufficient increases by 2. In addition, you can expend one use of mythic power to treat a Heal or Survival check as if you had rolled a natural 20. You must decide to use this ability before making the roll.",
+			"",
+			":::"
 		]
 	},
 	"sense_allies": {

@@ -84,10 +84,12 @@
 			"**Prerequisites:** {feat/Shield Focus}, base attack bonus +6 or fighter level 4th, Sense Motive 1 rank.  ",
 			"**Benefit:** You add your shield's bonus to AC to the DC of feint attempts against you.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/20}",
-			">",
-			">You can spend 5 stamina points to force a foe to attempt two Bluff checks when trying to feint against you in combat, and use the lower of the two results."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/20}  ",
+			"You can spend 5 stamina points to force a foe to attempt two Bluff checks when trying to feint against you in combat, and use the lower of the two results.",
+			"",
+			":::"
 		]
 	},
 	"feint_partner": {
@@ -105,10 +107,12 @@
 			"**Prerequisites:** Bluff 1 rank.  ",
 			"**Benefit:** Whenever an ally who also has this feat successfully feints an opponent, that opponent also loses his Dexterity bonus to AC against the next attack you make against him before the end of the feinting ally's next turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When feinting an opponent, you can spend 5 stamina points to have that opponent lose its Dexterity bonus to AC against the next attack made by any of your allies. If the next ally to attack that opponent also has this feat, that ally's attacks do not count as the next attack for the purpose of this combat trick, allowing another ally to gain this benefit."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When feinting an opponent, you can spend 5 stamina points to have that opponent lose its Dexterity bonus to AC against the next attack made by any of your allies. If the next ally to attack that opponent also has this feat, that ally's attacks do not count as the next attack for the purpose of this combat trick, allowing another ally to gain this benefit.",
+			"",
+			":::"
 		]
 	},
 	"feinting_flurry": {
@@ -152,10 +156,12 @@
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Trip}.  ",
 			"**Benefit:** When you break an opponent's grapple with a combat maneuver check or Escape Artist check, you can spend a swift action to make a trip attempt against that opponent.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 5 stamina points to make the trip attempt from this feat as a free action instead of a swift action."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 5 stamina points to make the trip attempt from this feat as a free action instead of a swift action.",
+			"",
+			":::"
 		]
 	},
 	"felling_smash": {
@@ -173,10 +179,12 @@
 			"**Prerequisites:** Int 13, Str 13, {feat/Combat Expertise}, {feat/Improved Trip}, {feat/Power Attack}, base attack bonus +6.  ",
 			"**Benefit:** If you use the attack action to make a single melee attack at your highest base attack bonus while using Power Attack and you hit an opponent, you can spend a swift action to attempt a trip combat maneuver against that opponent.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 5 stamina points to make the trip attempt from this feat as a free action instead of a swift action."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. You can spend 5 stamina points to make the trip attempt from this feat as a free action instead of a swift action.",
+			"",
+			":::"
 		]
 	},
 	"fencing_grace": {
@@ -213,10 +221,12 @@
 			"**Benefit:** Choose one of your natural weapons. While using the selected natural weapon, you can apply the effects of feats that have Improved Unarmed Strike as a prerequisite.  ",
 			"**Special:** If you are a monk, you can use the selected natural weapon with your flurry of blows class feature.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">At the start of your turn, you can spend any number of stamina points. Until the beginning of your next turn, for every 2 stamina points you spent this way, you can apply the effects of Feral Combat Training to a single natural weapon attack made with a natural weapon other than the weapon chosen with this feat."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"At the start of your turn, you can spend any number of stamina points. Until the beginning of your next turn, for every 2 stamina points you spent this way, you can apply the effects of Feral Combat Training to a single natural weapon attack made with a natural weapon other than the weapon chosen with this feat.",
+			"",
+			":::"
 		]
 	},
 	"feral_grace": {
@@ -359,10 +369,12 @@
 			"For example, if you are raging, have a raging Constitution score of 18, are currently at 2 hit points, and take 20 hit points of damage from a hit (which is enough to bring you to -18 hit points, thereby killing you), you may spend 1 round of rage to reduce the damage by 1 hit point (leaving you perilously close to death at -17 hit points); if you spend 17 rounds of rage, you reduce the damage to 1 (the minimum), leaving you with 1 hit point.  ",
 			"**Note:** If this damage still makes you fall unconscious, your rage ends just like it normally would, lowering your Constitution to its normal value and reducing your hit point total as normal. Therefore, it is possible to use this feat to prevent yourself from instantly dying, yet you still die because your negative hit points exceed your normal Constitution score - take your normal Constitution into account when deciding how many rounds of rage to spend with this feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When using this feat, you can spend 2 stamina points in place of 1 round of rage to gain the same effects."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When using this feat, you can spend 2 stamina points in place of 1 round of rage to gain the same effects.",
+			"",
+			":::"
 		]
 	},
 	"fetid_breath": {
@@ -736,10 +748,12 @@
 			"**Benefit:** You gain the constrict and {umr/grab} special attacks. Your constrict attack deals damage equal to your unarmed strike or primary natural weapon melee attack. Further, you can grab and constrict opponents up to your size.  ",
 			"**Normal:** You can grab and constrict creatures one size smaller than you.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">You can spend 2 stamina points to grab a creature one size category larger than you."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"You can spend 2 stamina points to grab a creature one size category larger than you.",
+			"",
+			":::"
 		]
 	},
 	"final_embrace_horror": {
@@ -757,10 +771,12 @@
 			"**Prerequisites:** Str 15, Int 3; {family/naga}, {monster/serpentfolk}, or creature that has the {umr/constrict} special attack; {feat/Final Embrace}; base attack bonus +6.  ",
 			"**Benefit:** A creature that takes damage from your constrict attack is also {misc/shaken} until the start of your next turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When a creature is damaged by your constrict ability, you can spend 5 stamina points to sicken that creature until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When a creature is damaged by your constrict ability, you can spend 5 stamina points to sicken that creature until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"final_embrace_master": {
@@ -778,10 +794,12 @@
 			"**Prerequisites:** Str 17, Int 3; {family/naga}, {monster/serpentfolk}, or creature that has the {umr/constrict} special attack; {feat/Final Embrace}; {feat/Final Embrace Horror}; base attack bonus +9.  ",
 			"**Benefit:** Double the number of damage dice for your constrict special attack.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">Each time you constrict, you can spend 5 stamina points to triple the damage dice of your constrict ability instead of doubling them."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"Each time you constrict, you can spend 5 stamina points to triple the damage dice of your constrict ability instead of doubling them.",
+			"",
+			":::"
 		]
 	},
 	"find_the_flaw": {
@@ -858,10 +876,12 @@
 			"**Prerequisites:** {race/Goblin}.  ",
 			"**Benefit:** You can wield a {eq-misc/torch} as a weapon without taking the nonproficient penalty and gain a +1 bonus on attack rolls with melee weapons that deal fire damage.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When you hit with a torch attack, you can spend 1 stamina point. If you do, the fire damage dealt with that attack increases to 1d6 points of fire damage."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When you hit with a torch attack, you can spend 1 stamina point. If you do, the fire damage dealt with that attack increases to 1d6 points of fire damage.",
+			"",
+			":::"
 		]
 	},
 	"fire_music": {
@@ -883,15 +903,16 @@
 			"",
 			"When you use this feat, the affected spell gains the fire descriptor.",
 			"",
-			"### Mythic Fire Music",
+			":::mythic{title=\"Mythic Fire Music\"}",
 			"",
-			"{SOURCE Mythic Adventures/65}",
-			"",
+			"{SOURCE Mythic Adventures/65}  ",
 			"You masterfully weave the ancient melodies of fire into your spells.  ",
 			"**Prerequisites:** Fire Music.  ",
 			"**Benefit:** When you use Fire Music to change any of the damage dealt by a bard spell to fire damage, that damage ignores fire resistance up to your tier.",
 			"",
-			"If you cast *summon monster* as a bard spell and choose to give the summoned creature a fiery appearance, increase its fire resistance by 5 (adding to the resistance already granted by Fire Music) and add 1d4 points of fire damage to all of its natural attacks instead of the +1 fire damage normally granted by Fire Music. Creatures with the fire subtype also gain these benefits."
+			"If you cast *summon monster* as a bard spell and choose to give the summoned creature a fiery appearance, increase its fire resistance by 5 (adding to the resistance already granted by Fire Music) and add 1d4 points of fire damage to all of its natural attacks instead of the +1 fire damage normally granted by Fire Music. Creatures with the fire subtype also gain these benefits.",
+			"",
+			":::"
 		]
 	},
 	"fire_tamer": {
@@ -963,10 +984,12 @@
 			"**Prerequisites:** Cha 15.  ",
 			"**Benefit:** As long as you hold your clan, house, or party's flag, members of that allegiance within 30 feet who can see the flag (including yourself) gain a +1 morale bonus on attack rolls, weapon damage rolls, and saving throws against fear and charm effects. You must hold the flag in one hand in order to grant this bonus. If the standard is taken by the enemy or destroyed, this bonus becomes a penalty, affecting all creatures that the bonus previously affected for 1 hour (or until you reclaim the lost flag).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/25}",
-			">",
-			">Whenever you can see your flag but aren't holding it, you can spend 1 stamina point to gain the benefits of Flagbearer for 1 minute as if you were holding it."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/25}  ",
+			"Whenever you can see your flag but aren't holding it, you can spend 1 stamina point to gain the benefits of Flagbearer for 1 minute as if you were holding it.",
+			"",
+			":::"
 		]
 	},
 	"flagellant": {
@@ -1036,10 +1059,12 @@
 			"Fighting multiple foes is easy for you.  ",
 			"**Benefit:** Whenever you hit an adjacent opponent with a melee attack, until the start of your next turn, that opponent does not gain any {rule/flanking} bonus on attack rolls while it is flanking you and cannot deal {ability/sneak attack} damage to you. It can still provide a flank for its allies.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When using this feat, you can spend 5 stamina points. If you do, your target cannot flank with its allies against you until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When using this feat, you can spend 5 stamina points. If you do, your target cannot flank with its allies against you until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"flaring_spell": {
@@ -1082,14 +1107,15 @@
 			"**Benefit:** While you are wearing light or no armor, your base speed increases by 5 feet. You lose the benefits of this feat if you carry a medium or heavy load.  ",
 			"**Special:** You can take this feat multiple times. The effects stack.",
 			"",
-			"### Mythic Fleet",
+			":::mythic{title=\"Mythic Fleet\"}",
 			"",
-			"{SOURCE Mythic Adventures/65}",
-			"",
+			"{SOURCE Mythic Adventures/65}  ",
 			"You're fantastically light on your feet.  ",
 			"**Prerequisites:** Fleet.  ",
 			"**Benefit:** Your base land speed increases by 5 feet, regardless of what armor you wear or whether you're encumbered. This bonus stacks with the bonus gained from Fleet.  ",
-			"**Special:** You can take this feat multiple times, but no more than the number of times you've taken non-mythic Fleet. The effects stack."
+			"**Special:** You can take this feat multiple times, but no more than the number of times you've taken non-mythic Fleet. The effects stack.",
+			"",
+			":::"
 		]
 	},
 	"fleeting_spell": {
@@ -1364,10 +1390,12 @@
 			"Familiarity with the military traditions of your homeland inspires uncommon valor in you.  ",
 			"**Benefit:** You gain a +2 bonus on all saving throws against fear effects. Whenever a fear effect targets you and fails to affect you (either because of a successful saving throw or because of immunity to fear), you gain a +2 morale bonus on attack rolls, weapon damage rolls, and CMB checks against the creature that attempted to use the fear affect on you for 1 round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/25}",
-			">",
-			">You can spend 2 stamina points in order to gain the benefit of Focused Discipline for 1 round as if you had been targeted by a fear effect that failed to affect you."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/25}  ",
+			"You can spend 2 stamina points in order to gain the benefit of Focused Discipline for 1 round as if you had been targeted by a fear effect that failed to affect you.",
+			"",
+			":::"
 		]
 	},
 	"focused_dragon_expertise": {
@@ -1518,10 +1546,12 @@
 			"**Benefit:** As a standard action, you may make an attack with a bow or crossbow and add your Intelligence modifier on the damage roll. You must be within 30 feet of your target to deal this extra damage. Creatures immune to critical hits and sneak attacks are immune to this extra damage.  ",
 			"**Special:** Starting at 2nd level, a ranger with the archery {ability/combat style>s} may select Focused Shot as a combat style feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">You can spend 2 stamina points to make a Focused Shot attack against a target anywhere within your weapon's first range increment."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"You can spend 2 stamina points to make a Focused Shot attack against a target anywhere within your weapon's first range increment.",
+			"",
+			":::"
 		]
 	},
 	"focused_spell": {
@@ -1673,10 +1703,12 @@
 			"**Benefit:** When using the Step Up feat to follow an adjacent foe, you may move up to 10 feet. You may still take a 5-foot step during your next turn, and any movement you make using this feat does not subtract any distance from your movement during your next turn.  ",
 			"**Normal:** You can only take a 5-foot step to follow an opponent using Step Up.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">When you use this feat to move, you can spend 2 stamina points to increase your movement to 15 feet."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"When you use this feat to move, you can spend 2 stamina points to increase your movement to 15 feet.",
+			"",
+			":::"
 		]
 	},
 	"follow_up_strike": {
@@ -1867,10 +1899,12 @@
 			"**Prerequisites:** Proficient with armor or shield.  ",
 			"**Benefit:** If an opponent scores a critical hit against you, you can turn the critical hit into a normal hit. If you do, either your armor or your shield gains the {misc/broken} condition (your choice).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">When you use this feat to negate a critical hit, you can spend 5 stamina points to give your armor or shield a 50% chance to avoid gaining the broken condition."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"When you use this feat to negate a critical hit, you can spend 5 stamina points to give your armor or shield a 50% chance to avoid gaining the broken condition.",
+			"",
+			":::"
 		]
 	},
 	"fortitude_of_giants": {
@@ -2224,18 +2258,21 @@
 			"**Prerequisites:** Str 13, {feat/Power Attack}, base attack bonus +1.  ",
 			"**Benefit:** When you are wielding a two-handed weapon or a one-handed weapon with two hands, and using the Power Attack feat, you do not suffer Power Attack's penalty on melee attack rolls on the first attack you make each turn. You still suffer the penalty on any additional attacks, including attacks of opportunity.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">When using the Power Attack feat and wielding a two-handed melee weapon or a one-handed melee weapon with two hands, you can spend 5 stamina points. If you do, each successful attack you make against a target reduces your Power Attack penalty against that target by 1 (to a minimum of 0) until the beginning of your next turn.",
+			":::stamina",
 			"",
-			"### Mythic Furious Focus",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"When using the Power Attack feat and wielding a two-handed melee weapon or a one-handed melee weapon with two hands, you can spend 5 stamina points. If you do, each successful attack you make against a target reduces your Power Attack penalty against that target by 1 (to a minimum of 0) until the beginning of your next turn.",
 			"",
-			"{SOURCE Mythic Adventures/65}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Furious Focus\"}",
+			"",
+			"{SOURCE Mythic Adventures/65}  ",
 			"Your attacks create a rhythmic barrage that doesn't sacrifice precision for force.  ",
 			"**Prerequisites:** Furious Focus.  ",
-			"**Benefit:** When you are using Furious Focus, you don't take Power Attack's penalty on attack rolls that are made as attacks of opportunity. As a free action, you can expend one use of mythic power to negate Power Attack's penalty on all melee attacks you make for 1 round while using this feat."
+			"**Benefit:** When you are using Furious Focus, you don't take Power Attack's penalty on attack rolls that are made as attacks of opportunity. As a free action, you can expend one use of mythic power to negate Power Attack's penalty on all melee attacks you make for 1 round while using this feat.",
+			"",
+			":::"
 		]
 	},
 	"furious_spell": {
@@ -2318,10 +2355,12 @@
 			"**Benefit:** You are considered to be {rule/flanking} an opponent if at least two of your allies are threatening that opponent, regardless of your actual positioning.  ",
 			"**Normal:** You must be positioned opposite an ally to flank an opponent.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. If you spend 5 stamina points, you can gain the feat's benefits when you and one other ally are threatening an opponent (instead of two other allies)."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool. If you spend 5 stamina points, you can gain the feat's benefits when you and one other ally are threatening an opponent (instead of two other allies).",
+			"",
+			":::"
 		]
 	},
 	"garens_discipline": {
@@ -2483,10 +2522,12 @@
 			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Goblin Cleaver}, {feat/Orc Hewer}, {feat/Power Attack}, {feat/Strike Back}, base attack bonus +11, {race/dwarf}.  ",
 			"**Benefit:** This functions as Goblin Cleaver, but your additional attacks can be made against creatures one size category larger than you or smaller. In addition, any such attacks made against humanoids (giant) gain a +2 circumstance bonus on attack rolls.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">As long as you have at least 1 stamina point in your stamina pool, the bonus on Cleave attacks made against humanoids with the giant subtype increases to +4."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"As long as you have at least 1 stamina point in your stamina pool, the bonus on Cleave attacks made against humanoids with the giant subtype increases to +4.",
+			"",
+			":::"
 		]
 	},
 	"giant_steps": {
@@ -2679,10 +2720,12 @@
 			"**Prerequisites:** {feat/Blind-Fight}, {race/fetchling}.  ",
 			"**Benefit:** When you are within an area of {rule/dim light} or darkness, you gain a +1 bonus on attack rolls against enemies that are also within dim light or darkness.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">As long as you have at least 1 stamina point in your stamina pool, you gain the bonus for this feat when you are in dim light or darkness, even if the creature you are attacking is not."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"As long as you have at least 1 stamina point in your stamina pool, you gain the bonus for this feat when you are in dim light or darkness, even if the creature you are attacking is not.",
+			"",
+			":::"
 		]
 	},
 	"gloomstorm": {
@@ -2771,15 +2814,16 @@
 			"**Prerequisites:** Cha 13, {race/gnome}, gnome magic racial trait.  ",
 			"**Benefit:** In addition to your normal gnome spell-like abilities, you also gain the following spell-like abilities: 1/day-{spell/mage hand} and {spell/prestidigitation}.",
 			"",
-			"### Mythic Gnome Trickster",
+			":::mythic{title=\"Mythic Gnome Trickster\"}",
 			"",
-			"{SOURCE Mythic Adventures/65}",
-			"",
+			"{SOURCE Mythic Adventures/65}  ",
 			"Thanks to your mythic power, the magic in your blood has grown more potent and diverse.  ",
 			"**Prerequisites:** Gnome Trickster.  ",
 			"**Benefit:** You gain the following spell-like abilities: 1/day-{spell/blur} and {spell/vanish}.",
 			"",
-			"You can use your gnome spell-like abilities an additional number of times per day equal to half your tier. You can spend these additional uses to use any of your gnome spell-like abilities you wish. Your caster level for your gnome spell-like abilities becomes your character level plus your tier."
+			"You can use your gnome spell-like abilities an additional number of times per day equal to half your tier. You can spend these additional uses to use any of your gnome spell-like abilities you wish. Your caster level for your gnome spell-like abilities becomes your character level plus your tier.",
+			"",
+			":::"
 		]
 	},
 	"gnome_weapon_focus": {
@@ -2797,10 +2841,12 @@
 			"**Prerequisites:** Base attack bonus +1, {race/gnome}, proficient with all martial weapons.  ",
 			"**Benefit:** You gain a +1 bonus on attack rolls with gnome weapons (weapons with \"gnome\" in the title).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">When you make a successful attack with a gnome weapon against an opponent that is at least one size category larger than you, you can spend up to 5 stamina points. If you do, you gain a bonus on the damage roll equal to double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"When you make a successful attack with a gnome weapon against an opponent that is at least one size category larger than you, you can spend up to 5 stamina points. If you do, you gain a bonus on the damage roll equal to double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"go_unnoticed": {
@@ -2831,10 +2877,12 @@
 			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Power Attack}, {race/dwarf}.  ",
 			"**Benefit:** When using Cleave or {feat/Great Cleave}, if your initial attack hits, you may take your additional attacks against any creature smaller than you that you threaten; your targets need not be adjacent to one another. Additional attacks you make against humanoids (goblinoid) gain a +2 circumstance bonus on attack rolls.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">As long as you have at least 1 stamina point in your stamina pool, the bonus on Cleave attacks made against goblinoids increases to +4."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"As long as you have at least 1 stamina point in your stamina pool, the bonus on Cleave attacks made against goblinoids increases to +4.",
+			"",
+			":::"
 		]
 	},
 	"goblin_gunslinger": {
@@ -2853,10 +2901,12 @@
 			"**Benefit:** You can wield Medium firearms without taking the penalty for an {misc/inappropriately sized weapon}.  ",
 			"**Normal:** You take a -2 penalty when using an inappropriately sized weapon.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">When wielding a firearm that deals fire damage, when you threaten but fail to confirm a critical hit, you can spend 5 stamina points to regain 1 grit point. You still can't gain a grit point if the target is immune to critical hits."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"When wielding a firearm that deals fire damage, when you threaten but fail to confirm a critical hit, you can spend 5 stamina points to regain 1 grit point. You still can't gain a grit point if the target is immune to critical hits.",
+			"",
+			":::"
 		]
 	},
 	"godless_healing": {
@@ -2949,18 +2999,21 @@
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, {feat/Scorpion Style}, base attack bonus +6.  ",
 			"**Benefit:** As a standard action, make a single unarmed melee attack against a foe whose speed is reduced (such as from Scorpion Style). If the attack hits, you deal damage normally and the target is {misc/staggered} until the end of your next turn unless it makes a Fortitude saving throw (DC 10 + 1/2 your character level + your Wis modifier). This feat has no effect on targets that are staggered.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">You can spend 5 stamina points to make a Gorgon's Fist attack as one of the individual attacks made during a full attack.",
+			":::stamina",
 			"",
-			"### Mythic Gorgon's Fist",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"You can spend 5 stamina points to make a Gorgon's Fist attack as one of the individual attacks made during a full attack.",
 			"",
-			"{SOURCE Mythic Adventures/66}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Gorgon's Fist\"}",
+			"",
+			"{SOURCE Mythic Adventures/66}  ",
 			"Your strikes debilitate and disorient your foes.  ",
 			"**Prerequisites:** Gorgon's Fist.  ",
 			"**Benefit:** When you hit a creature while using Gorgon's Fist, if the target fails its Fortitude saving throw, it is {misc/dazed} for 1 round instead of staggered. You can expend one use of mythic power when you hit with a Gorgon's Fist attack, but before the saving throw is attempted, to increase its DC by half your tier.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -2987,10 +3040,12 @@
 			"**Prerequisites:** {feat/Dazzling Display}, {feat/Weapon Focus}.  ",
 			"**Benefit:** When you use the attack action, you can use a weapon with which you have Weapon Focus to make a single attack at your highest base attack bonus. If you reduce your target to negative hit points, you can spend a swift action to make an {skill/Intimidate} check to demoralize all foes within 30 feet who could see your attack.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">You can spend 5 stamina points when confirming a critical on a Gory Finish attack to attempt an Intimidate check to demoralize all foes within 30 feet of you who can see your attack."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"You can spend 5 stamina points when confirming a critical on a Gory Finish attack to attempt an Intimidate check to demoralize all foes within 30 feet of you who can see your attack.",
+			"",
+			":::"
 		]
 	},
 	"got_your_back": {
@@ -3009,10 +3064,12 @@
 			"**Benefit:** If you successfully use the {rule/aid another>_2} action to give an ally who also has this feat a +2 bonus to AC against an opponent's next attack, the ally is also not considered {rule/flanked} or {rule/flat-footed} against that opponent until the beginning of your next turn.  ",
 			"**Normal:** You can use aid another to grant an ally a +2 bonus to AC against the next attack from an adjacent foe.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/20}",
-			">",
-			">If you spend 3 stamina points when you use this feat, your ally benefits from the AC bonus until the beginning of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/20}  ",
+			"If you spend 3 stamina points when you use this feat, your ally benefits from the AC bonus until the beginning of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"grab_and_go": {
@@ -3043,10 +3100,12 @@
 			"**Prerequisites:** {feat/Grabbing Style}, {feat/Improved Grapple}; base attack bonus +8, brawler level 4th, or monk level 4th.  ",
 			"**Benefit:** When you are using Grabbing Style, if you use the move grapple action, you can move both yourself and a single target that you're grappling your full speed instead of half your speed. After you have done so, you can use a move action to move yourself and the target of your grapple half your speed without needing to attempt an additional combat maneuver check. You cannot use this feat if you are grappling two targets.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">After using the move grapple action and moving your full speed, you can spend 5 stamina points to move your full speed again (instead of half your speed) without the need to attempt another grapple check."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"After using the move grapple action and moving your full speed, you can spend 5 stamina points to move your full speed again (instead of half your speed) without the need to attempt another grapple check.",
+			"",
+			":::"
 		]
 	},
 	"grabbing_master": {
@@ -3064,10 +3123,12 @@
 			"**Prerequisites:** {feat/Grabbing Drag}, {feat/Grabbing Style}, {feat/Improved Grapple}; base attack bonus +12, brawler level 8th, or monk level 8th.  ",
 			"**Benefit:** When you are grabbing two opponents while using Grabbing Style, you can use your grapple to move or damage one or both opponents you are grappling, instead of just one.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">When you are grappling only one opponent while using Grabbing Style, you can spend 5 stamina points to continue to threaten the area within your reach with your free hand until the beginning of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"When you are grappling only one opponent while using Grabbing Style, you can spend 5 stamina points to continue to threaten the area within your reach with your free hand until the beginning of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"grabbing_style": {
@@ -3086,10 +3147,12 @@
 			"**Benefit:** When you use this style, you do not take a -4 penalty on combat maneuver checks to {rule/grapple} a foe with only one hand. Additionally, you do not lose your Dexterity bonus to AC while pinning an opponent.  ",
 			"**Normal:** Without two hands free, you take a -4 penalty on the combat maneuver roll to grapple a foe. While pinning a foe, you lose your Dexterity bonus to AC.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">When you make a grapple attempt with two hands while using this style, you can spend 1 stamina point to gain a +2 bonus on the grapple combat maneuver check."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"When you make a grapple attempt with two hands while using this style, you can spend 1 stamina point to gain a +2 bonus on the grapple combat maneuver check.",
+			"",
+			":::"
 		]
 	},
 	"graceful_athlete": {
@@ -3202,10 +3265,12 @@
 			"",
 			"You can use this benefit a number of times per day equal to your Wisdom modifier (minimum 1). You can choose to use this ability as a free action after you hit the enemy with the attack. This is a supernatural ability.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">When using this feat, you can spend up to 5 stamina points to increase the DC of the effect by an amount equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"When using this feat, you can spend up to 5 stamina points to increase the DC of the effect by an amount equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"grasping_tail": {
@@ -3299,10 +3364,12 @@
 			"**Prerequisites:** Str 13, {feat/Cleave}, {feat/Power Attack}, base attack bonus +4.  ",
 			"**Benefit:** As a standard action, you can make a single attack at your full base attack bonus against a foe within reach. If you hit, you deal damage normally and can make an additional attack (using your full base attack bonus) against a foe that is adjacent to the previous foe and also within reach. If you hit, you can continue to make attacks against foes adjacent to the previous foe, so long as they are within your reach. You cannot attack an individual foe more than once during this attack action. When you use this feat, you take a -2 penalty to your Armor Class until your next turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">Once per round when you miss a foe with an attack gained from Cleave, you can spend 5 stamina points to make another Cleave attack anyway.",
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"Once per round when you miss a foe with an attack gained from Cleave, you can spend 5 stamina points to make another Cleave attack anyway.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -3341,13 +3408,14 @@
 			"You are resistant to poisons, diseases, and other maladies.  ",
 			"**Benefit:** You get a +2 bonus on all Fortitude saving throws.",
 			"",
-			"### Mythic Great Fortitude",
+			":::mythic{title=\"Mythic Great Fortitude\"}",
 			"",
-			"{SOURCE Mythic Adventures/66}",
-			"",
+			"{SOURCE Mythic Adventures/66}  ",
 			"Your fortitude is unmatched.  ",
 			"**Prerequisites:** Great Fortitude.  ",
-			"**Benefit:** Whenever you roll a Fortitude saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result."
+			"**Benefit:** Whenever you roll a Fortitude saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result.",
+			"",
+			":::"
 		]
 	},
 	"great_hatred": {
@@ -3365,10 +3433,12 @@
 			"**Prerequisites:** {race/Gnome}, hatred racial trait.  ",
 			"**Benefit:** You gain an additional +1 bonus on melee and thrown weapon attacks against targets of your hatred racial trait.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">When you hit an opponent of a subtype subject to your hatred racial trait, you can spend up to 5 stamina points to deal an amount of extra damage equal to double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"When you hit an opponent of a subtype subject to your hatred racial trait, you can spend up to 5 stamina points to deal an amount of extra damage equal to double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"great_rend": {
@@ -3470,10 +3540,12 @@
 			"",
 			"**Special:** The Greater Blind-Fight feat is of no use against a character who is the subject of a {spell/blink} spell.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">When you attack a creature subject to the *blink* spell, you can spend 5 stamina points. If you do, your Greater Blind-Fight feat works against that creature until the beginning of your next turn, either treating the *blink* miss chance as 20% and allowing a reroll or ignoring the *blink* miss chance if you have a way to see or strike ethereal creatures."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"When you attack a creature subject to the *blink* spell, you can spend 5 stamina points. If you do, your Greater Blind-Fight feat works against that creature until the beginning of your next turn, either treating the *blink* miss chance as 20% and allowing a reroll or ignoring the *blink* miss chance if you have a way to see or strike ethereal creatures.",
+			"",
+			":::"
 		]
 	},
 	"greater_blood_frenzy": {
@@ -3506,10 +3578,12 @@
 			"**Benefit:** You receive a +2 bonus on checks made to {rule/bull rush} a foe. This bonus stacks with the bonus granted by Improved Bull Rush. Whenever you bull rush an opponent, his movement provokes attacks of opportunity from all of your allies (but not you).  ",
 			"**Normal:** Creatures moved by bull rush do not provoke attacks of opportunity.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/120}",
-			">",
-			">When you bull rush an opponent, you can spend 5 stamina points to have the opponent's movement from the bull rush provoke an attack of opportunity from you as well.",
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/120}  ",
+			"When you bull rush an opponent, you can spend 5 stamina points to have the opponent's movement from the bull rush provoke an attack of opportunity from you as well.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",

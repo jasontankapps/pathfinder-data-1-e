@@ -40,10 +40,12 @@
 			"**Prerequisites:** Base attack bonus +1.  ",
 			"**Benefit:** You can deal {misc/precision damage}, such as {ability/sneak attack} damage, against targets with {rule/concealment} (but not total concealment).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">You can spend 5 stamina points when you hit a creature with total concealment to deal precision damage to that creature."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"You can spend 5 stamina points when you hit a creature with total concealment to deal precision damage to that creature.",
+			"",
+			":::"
 		]
 	},
 	"shadow_walker": {
@@ -131,10 +133,12 @@
 			"**Prerequisites:** Con 15, Wis 17, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, {feat/Shaitan Skin}, {feat/Shaitan Style}, base attack bonus +13 or monk level 11th.  ",
 			"**Benefit:** While using the Shaitan Style feat, as a standard action, you can spend two Elemental Fist attempts to unleash a 20-foot column of acid that has a 5-foot radius and erupts from a point of origin within 30 feet of you. Creatures caught in the column take your unarmed strike damage plus the acid damage from your Elemental Fist and are {misc/staggered} for 1 round. A successful Reflex save (DC 10 + 1/2 your character level + your Wis modifier) reduces the damage by half and prevents a target from being staggered.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">Instead of spending two uses of Elemental Fist to unleash a column of acid, you can spend one use of Elemental Fist and 2 stamina points."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"Instead of spending two uses of Elemental Fist to unleash a column of acid, you can spend one use of Elemental Fist and 2 stamina points.",
+			"",
+			":::"
 		]
 	},
 	"shaitan_skin": {
@@ -152,10 +156,12 @@
 			"**Prerequisites:** Con 15, Wis 15, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, {feat/Shaitan Style}, base attack bonus +11 or monk level 9th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using the Shaitan Style feat, you gain acid resistance equal to your base attack bonus, or your monk level plus BAB gained from levels in classes other than monk, whichever is higher. While denied your Dexterity bonus to AC you are also denied this resistance. Creatures that take acid damage from your Elemental Fist attack must succeed at a Reflex save (DC 10 + 1/2 your character level + your Wis modifier) or be {misc/staggered} for 1 round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">When you make an Elemental Fist attack, you can spend up to 5 stamina points to increase the DC of the saving throw to avoid being staggered by an amount equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"When you make an Elemental Fist attack, you can spend up to 5 stamina points to increase the DC of the saving throw to avoid being staggered by an amount equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"shaitan_style": {
@@ -173,10 +179,12 @@
 			"**Prerequisites:** Con 13, Wis 15, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +9 or monk level 5th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using the Shaitan Style and Elemental Fist feats to deal acid damage, you gain a bonus on acid damage rolls equal to your Wisdom bonus. Further, if your Elemental Fist melee attack misses while you are using it to deal acid damage, you still deal 1d6 points of acid damage to your target.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">When you make an Elemental Fist attack to deal acid damage, you can spend up to 5 stamina points. When you do, you deal an amount of additional acid damage equal to double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"When you make an Elemental Fist attack to deal acid damage, you can spend up to 5 stamina points. When you do, you deal an amount of additional acid damage equal to double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"shake_it_off": {
@@ -538,10 +546,12 @@
 			"**Prerequisites:** {race/Ratfolk}.  ",
 			"**Benefit:** You gain two claw attacks. These are primary natural attacks that deal 1d4 points of damage.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">You can spend 2 stamina points to increase the damage die of your claw attacks to 1d6 until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"You can spend 2 stamina points to increase the damage die of your claw attacks to 1d6 until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"sharptooth": {
@@ -587,18 +597,21 @@
 			"**Prerequisites:** {feat/Weapon Focus}, {feat/Dazzling Display}, base attack bonus +6, proficiency with weapon.  ",
 			"**Benefit:** Any {misc/shaken}, {misc/frightened}, or {misc/panicked} opponent hit by you this round is {rule/flat-footed} to your attacks until the end of your next turn. This includes any additional attacks you make this round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">When you hit an opponent that has been made flat-footed to your attacks by this feat, you can spend 5 stamina points to make that opponent flat-footed to the attacks of one ally who is within 30 feet of that creature until the start of your next turn.",
+			":::stamina",
 			"",
-			"### Mythic Shatter Defenses",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"When you hit an opponent that has been made flat-footed to your attacks by this feat, you can spend 5 stamina points to make that opponent flat-footed to the attacks of one ally who is within 30 feet of that creature until the start of your next turn.",
 			"",
-			"{SOURCE Mythic Adventures/72}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Shatter Defenses\"}",
+			"",
+			"{SOURCE Mythic Adventures/72}  ",
 			"Your dazzling attacks leave your opponents flummoxed and bewildered, unable to attack you or to defend themselves effectively.  ",
 			"**Prerequisites:** Shatter Defenses.  ",
 			"**Benefit:** An opponent you affect with Shatter Defenses is flat-footed to all attacks, not just yours.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -655,10 +668,12 @@
 			"**Prerequisites:** {feat/Disruptive}, {feat/Spellbreaker}, {race/dwarf}, 10th-level fighter.  ",
 			"**Benefit:** As a standard action, you can attempt to {rule/sunder} an ongoing spell effect as if you had the {ragepower/spell sunder} rage power. You may use this feat once per day, plus one additional time per day for every 5 points by which your base attack bonus exceeds +10.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">When you have depleted all uses of this feat for a day, you can spend 5 stamina points to use this feat one additional time that day."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"When you have depleted all uses of this feat for a day, you can spend 5 stamina points to use this feat one additional time that day.",
+			"",
+			":::"
 		]
 	},
 	"sheltering_stubborness": {
@@ -686,10 +701,12 @@
 			"**Prerequisites:** {feat/Shield Focus}; base attack bonus +3 or fighter level 1st; proficiency with light shields, heavy shields, or tower shields.  ",
 			"**Benefit:** You can use a two-handed weapon sized appropriately for you from the polearm or spears {ability/weapon group>s} while also using a {eq-armor/light>_shield}, {eq-armor/heavy>_shield}, or {eq-armor/tower shield} with which you are proficient. The shield's armor check penalty (if any) applies to attacks made with the weapon.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/21}",
-			">",
-			">You can spend 1 stamina point to negate the penalty on attacks for using this feat for a single round."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/21}  ",
+			"You can spend 1 stamina point to negate the penalty on attacks for using this feat for a single round.",
+			"",
+			":::"
 		]
 	},
 	"shield_focus": {
@@ -709,18 +726,21 @@
 			"**Prerequisites:** {feat/Shield Proficiency}, base attack bonus +1.  ",
 			"**Benefit:** Increase the AC bonus granted by any shield you are using by 1.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">When an attack is made against you while you are using a shield, you can spend up to 2 stamina points. If you do, the shield's bonus to AC against that attack increases by an amount equal to the number of stamina points you spent.",
+			":::stamina",
 			"",
-			"### Mythic Shield Focus",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"When an attack is made against you while you are using a shield, you can spend up to 2 stamina points. If you do, the shield's bonus to AC against that attack increases by an amount equal to the number of stamina points you spent.",
 			"",
-			"{SOURCE Mythic Adventures/73}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Shield Focus\"}",
+			"",
+			"{SOURCE Mythic Adventures/73}  ",
 			"You're a master of using your shield for protection.  ",
 			"**Prerequisites:** Shield Focus.  ",
 			"**Benefit:** Add your shield bonus and your shield's enhancement bonus to your touch AC. As an immediate action, you can expend one use of mythic power to add your shield bonus and your shield's enhancement bonus on a Fortitude or Reflex save just before you roll it.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -761,10 +781,12 @@
 			"**Prerequisites:** {feat/Improved Shield Bash}, {feat/Shield Proficiency}, {feat/Shield Slam}, base attack bonus +11.  ",
 			"**Benefit:** You do not suffer any penalties on attack rolls made with a shield while you are wielding another weapon. Add your shield's enhancement bonus to attacks and damage rolls made with the shield as if it was a weapon enhancement bonus.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">Just before you roll a Fortitude or Reflex saving throw, you can spend 5 stamina points to add your shield's enhancement bonus as a bonus on the saving throw.",
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"Just before you roll a Fortitude or Reflex saving throw, you can spend 5 stamina points to add your shield's enhancement bonus as a bonus on the saving throw.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -823,10 +845,12 @@
 			"**Prerequisites:** Str 13, {feat/Power Attack}, base attack bonus +1.  ",
 			"**Benefit:** When you take a full-attack action while wielding a two-handed weapon, you can choose to reduce the damage by 1/2 to gain a +4 shield bonus to AC and CMD until the beginning of your next turn. The reduction in damage applies until the beginning of your next turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">When using this feat, you can spend 2 stamina points to reduce your damage dealt by half only until the end of your turn, but you gain the +2 shield bonus to AC only from the end of your turn until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"When using this feat, you can spend 2 stamina points to reduce your damage dealt by half only until the end of your turn, but you gain the +2 shield bonus to AC only from the end of your turn until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"shield_proficiency": {
@@ -860,18 +884,21 @@
 			"**Prerequisites:** {feat/Improved Shield Bash}, {feat/Shield Proficiency}, base attack bonus +6.  ",
 			"**Benefit:** Any opponents hit by your shield bash are also hit with a free {rule/bull rush} attack, substituting your attack roll for the combat maneuver check. This bull rush does not provoke an attack of opportunity. Opponents who cannot move back due to a wall or other surface are knocked {rule/prone} after moving the maximum possible distance. You may choose to move with your target if you are able to take a 5-foot step or to spend an action to move this turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">Instead of attempting a free bull rush when using the Shield Slam feat, you can spend 2 stamina points to attempt a {rule/disarm}, {rule/reposition}, {rule/trip}, or {rule/sunder} combat maneuver. This combat maneuver attempt does not provoke an attack of opportunity from the target.",
+			":::stamina",
 			"",
-			"### Mythic Shield Slam",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"Instead of attempting a free bull rush when using the Shield Slam feat, you can spend 2 stamina points to attempt a {rule/disarm}, {rule/reposition}, {rule/trip}, or {rule/sunder} combat maneuver. This combat maneuver attempt does not provoke an attack of opportunity from the target.",
 			"",
-			"{SOURCE Mythic Adventures/73}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Shield Slam\"}",
+			"",
+			"{SOURCE Mythic Adventures/73}  ",
 			"Your shield bash produces a powerful kick.  ",
 			"**Prerequisites:** Shield Slam.  ",
 			"**Benefit:** When using Shield Slam to bull rush, an opponent knocked prone because of an intervening wall or other surface also takes damage from the collision. The damage dealt is equal to 1d6 points per 2 tiers you possess. As an immediate action, you can expend one use of mythic power to add your tier to your combat maneuver checks when resolving a bull rush made due to Shield Slam.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -900,10 +927,12 @@
 			"",
 			"When using a shield, you gain a +4 bonus on Strength checks to avoid being blown away by a strong wind and on Climb checks to catch yourself on a wall or slope when falling.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/21}",
-			">",
-			">You can spend 5 stamina points to use this feat in the same round as a bull rush combat maneuver performed with the Shield Slam feat."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/21}  ",
+			"You can spend 5 stamina points to use this feat in the same round as a bull rush combat maneuver performed with the Shield Slam feat.",
+			"",
+			":::"
 		]
 	},
 	"shield_specialization": {
@@ -922,10 +951,12 @@
 			"**Benefit:** Choose one type of shield (buckler, light, heavy, or tower shield). With the selected shield, you gain a +2 bonus to your Armor Class against critical hit confirmation rolls. In addition, you may add your base shield bonus (including the bonus from Shield Focus but not including enhancement bonuses) to your CMD.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of shield.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">When you are the target of a combat maneuver, you can spend 2 stamina points to add your shield's enhancement bonus to your CMD for that combat maneuver."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"When you are the target of a combat maneuver, you can spend 2 stamina points to add your shield's enhancement bonus to your CMD for that combat maneuver.",
+			"",
+			":::"
 		]
 	},
 	"shield_wall": {
@@ -943,10 +974,12 @@
 			"**Prerequisites:** {feat/Shield Proficiency}.  ",
 			"**Benefit:** Whenever you are wielding a shield and are adjacent to an ally wielding a shield who also has this feat, the AC bonus from your shield increases, depending on the shield wielded by your ally. If your ally is wielding a buckler or a light shield, your shield bonus increases by +1. If your ally is wielding a heavy shield or a tower shield, your shield bonus increases by +2. You keep these bonuses even if your ally loses his shield bonus due to making a shield bash attack. If an adjacent ally with this feat uses a tower shield to grant total cover, you also benefit if an attack targeting you passes through the edge of the shield.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">You can spend 2 stamina points to increase the bonus you grant to your ally with this feat by 1 until the end of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"You can spend 2 stamina points to increase the bonus you grant to your ally with this feat by 1 until the end of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"shielded_caster": {
@@ -1205,18 +1238,21 @@
 			"**Benefit:** As a full-round action, you can move up to your speed and make a single ranged attack at any point during your movement.  ",
 			"**Normal:** You cannot move before and after an attack with a ranged weapon.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">You can spend 5 stamina points to use this feat as a standard action instead of a full-round action.",
+			":::stamina",
 			"",
-			"### Mythic Shot on the Run",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"You can spend 5 stamina points to use this feat as a standard action instead of a full-round action.",
 			"",
-			"{SOURCE Mythic Adventures/73}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Shot on the Run\"}",
+			"",
+			"{SOURCE Mythic Adventures/73}  ",
 			"With ease, you can snap off two shots while dashing across the battlefield.  ",
 			"**Prerequisites:** Shot on the Run, base attack bonus +6.  ",
 			"**Benefit:** Whenever you use Shot on the Run, you can make two ranged attacks at your highest base attack bonus at any point during your movement, instead of just one.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -1257,10 +1293,12 @@
 			"**Prerequisites:** {feat/Alertness}, {feat/Combat Reflexes}.  ",
 			"**Benefit:** Opponents do not gain a +2 bonus on attack rolls for {rule/flanking} you, although they can still {ability/sneak attack} you. You also gain a +3 bonus on Sense Motive checks made to resist a foe's Bluff checks to {rule/feint} in combat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/25}",
-			">",
-			">When an opponent attempts a feint against you, you can spend up to 5 stamina points to increase the DC of the skill check made to feint by 1 per point of stamina spent."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/25}  ",
+			"When an opponent attempts a feint against you, you can spend up to 5 stamina points to increase the DC of the skill check made to feint by 1 per point of stamina spent.",
+			"",
+			":::"
 		]
 	},
 	"shrouded_in_mystery": {
@@ -1305,10 +1343,12 @@
 			"**Benefit:** Whenever you score a critical hit, your opponent becomes {misc/sickened} for 1 minute. The effects of this feat do not stack. Additional hits instead add to the effect's duration.  ",
 			"**Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess {feat/Critical Mastery}.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">When you threaten a critical hit using this feat, before rolling the confirmation roll, you can spend 5 stamina points. If you do and the critical hit is confirmed, the foe is {misc/nauseated} for 1d4+1 rounds unless it succeeds at a Fortitude save with a DC equal to 10 + your base attack bonus, which reduces the effect to the normal sickened condition."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"When you threaten a critical hit using this feat, before rolling the confirmation roll, you can spend 5 stamina points. If you do and the critical hit is confirmed, the foe is {misc/nauseated} for 1d4+1 rounds unless it succeeds at a Fortitude save with a DC equal to 10 + your base attack bonus, which reduces the effect to the normal sickened condition.",
+			"",
+			":::"
 		]
 	},
 	"sickening_spell": {
@@ -1374,10 +1414,12 @@
 			"**Prerequisites:** Dex 13, {feat/Dodge}, {feat/Mobility}.  ",
 			"**Benefit:** Whenever an opponent misses you with a melee attack, you may move 5 feet as an immediate action so long as you remain within that opponent's threatened area. This movement does not provoke attacks of opportunity. If you take this step, you cannot take a 5-foot step during your next turn. If you take an action to move during your next turn, subtract 5 feet from your total movement.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">When this feat lets you move, you can spend 2 stamina points to move 10 feet instead of 5. You must still remain in your opponent's threatened area. You still lose your 5-foot step or 5 feet of movement - the movement lost doesn't increase to 10 feet."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"When this feat lets you move, you can spend 2 stamina points to move 10 feet instead of 5. You must still remain in your opponent's threatened area. You still lose your 5-foot step or 5 feet of movement - the movement lost doesn't increase to 10 feet.",
+			"",
+			":::"
 		]
 	},
 	"siege_commander": {
@@ -1395,10 +1437,12 @@
 			"**Prerequisites:** Craft (siege weapon) 5 ranks, Knowledge (engineering) 5 ranks or Profession (siege engineer) 1 rank.  ",
 			"**Benefit:** When you lead a {rule/siege engine>_rules} assembly crew, you grant all of its members a +4 competence bonus on checks to assemble or move the weapon. You also halve the time required to assemble a siege engine.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">As long as you have at least 1 stamina point in your stamina pool, when you lead a siege engine assembly crew, even those among the crew who are not trained in Craft (siege engine) can take 10 on the check to assemble the siege engine."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"As long as you have at least 1 stamina point in your stamina pool, when you lead a siege engine assembly crew, even those among the crew who are not trained in Craft (siege engine) can take 10 on the check to assemble the siege engine.",
+			"",
+			":::"
 		]
 	},
 	"siege_engineer": {
@@ -1417,10 +1461,12 @@
 			"**Benefit:** You are considered to be proficient with all siege weapons. Also, when you are crew lead for a {rule/siege engine>s_uc}, you do not generate mishaps on the roll of a natural 1.  ",
 			"**Normal:** Each siege engine is an exotic weapon.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">As long as you have at least 1 stamina point in your stamina pool, you gain a +1 bonus on attack rolls with all siege weapons."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"As long as you have at least 1 stamina point in your stamina pool, you gain a +1 bonus on attack rolls with all siege weapons.",
+			"",
+			":::"
 		]
 	},
 	"siege_gunner": {
@@ -1439,10 +1485,12 @@
 			"**Benefit:** You take no size penalty for aiming a direct-fire {rule/siege /weapon>engine_rules} larger than yourself. If you operate an indirect-fire siege weapon and miss, you misdirect fire by 1 square per range increment.  ",
 			"**Normal:** Direct-fire weapons impose a -2 attack roll penalty per size category by which the weapon is larger than the creature aiming it. An indirect-fire weapon that misses misdirects fire by 1d4 squares per range increment.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">As long as you have at least 1 stamina point in your stamina pool, you gain a +1 bonus on attack rolls with all siege weapons you are proficient with."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"As long as you have at least 1 stamina point in your stamina pool, you gain a +1 bonus on attack rolls with all siege weapons you are proficient with.",
+			"",
+			":::"
 		]
 	},
 	"signature_deed": {
@@ -1540,10 +1588,12 @@
 			"**Prerequisites:** Stealth 12 ranks; *assassinate* [advanced slayer talent](slayertalent/assassinate) or [ninja master trick](ninjatrick/assassinate).  ",
 			"**Benefit:** When you kill a creature during a surprise round, you can attempt a Stealth check, opposed by the Perception checks of potential observers, to prevent them from noticing your action and subsequently identifying you as the assailant.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">When you use this feat, you can spend a number of stamina points up to your Dexterity bonus and gain a bonus on the Stealth check equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"When you use this feat, you can spend a number of stamina points up to your Dexterity bonus and gain a bonus on the Stealth check equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"silent_performer": {
@@ -1818,14 +1868,15 @@
 			"**Benefit:** You get a +3 bonus on all checks involving the chosen skill. If you have 10 or more ranks in that skill, this bonus increases to +6.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new skill.",
 			"",
-			"### Mythic Skill Focus",
+			":::mythic{title=\"Mythic Skill Focus\"}",
 			"",
-			"{SOURCE Mythic Adventures/73}",
-			"",
+			"{SOURCE Mythic Adventures/73}  ",
 			"You mastery with this skill is unmatched, even in difficult situations.  ",
 			"**Prerequisites:** Skill Focus.  ",
 			"**Benefit:** You can always take 10 or 20 on checks with your choice of skill for Skill Focus, even when you are rushed or threatened.  ",
-			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Skill Focus feat."
+			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Skill Focus feat.",
+			"",
+			":::"
 		]
 	},
 	"skilled_driver": {
@@ -1921,10 +1972,12 @@
 			"**Prerequisites:** Dex 13, {feat/Weapon Finesse}, {feat/Weapon Focus} with chosen weapon.  ",
 			"**Benefit:** Choose one kind of light or one-handed slashing weapon (such as the {eq-weapon/longsword}). When wielding your chosen weapon one-handed, you can treat it as a one-handed piercing melee weapon for all feats and class abilities that require such a weapon (such as a {class/swashbuckler/'s} or a {pclass/duelist/'s} precise strike) and you can add your Dexterity modifier instead of your Strength modifier to that weapon's damage. The weapon must be one appropriate for your size. You do not gain this benefit while fighting with two weapons or using flurry of blows, or any time another hand is otherwise occupied.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/131}",
-			">",
-			">You can spend 2 stamina points to select another light or one-handed slashing weapon. That weapon counts as a chosen weapon for Slashing Grace until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/131}  ",
+			"You can spend 2 stamina points to select another light or one-handed slashing weapon. That weapon counts as a chosen weapon for Slashing Grace until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"slayers_feint": {
@@ -1942,10 +1995,12 @@
 			"**Prerequisites:** Dex 15, {feat/Acrobatic} or slayer level 1st, {feat/Combat Expertise}, Acrobatics 1 rank.  ",
 			"**Benefit:** You can use Acrobatics instead of Bluff to {rule/feint} in combat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">When attempting a feint using Acrobatics, you can spend a number of stamina points up to your Dexterity bonus. If you do, you gain a bonus on that feint attempt equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"When attempting a feint using Acrobatics, you can spend a number of stamina points up to your Dexterity bonus. If you do, you gain a bonus on that feint attempt equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"slayers_knack": {
@@ -2062,10 +2117,12 @@
 			"**Benefit:** You can make melee attacks using your loaded {eq-weapon/sling}, using that weapon's normal statistics but treating it as a {eq-weapon/flail}. Using a sling in this way does not expend mundane ammunition, but magical or masterwork ammunition loses its special properties after a single hit.  ",
 			"**Special:** Any feats you have that apply when you use a flail also apply when you use a loaded sling as a melee weapon.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">You can spend 2 stamina points to increase the damage dealt by the melee attacks you make with a loaded sling as if your sling were {misc/one size category larger} than its actual size. For example, a Small sling would deal 1d4 points of damage, while a Medium one would deal 1d6. This benefit lasts until the start of your next turn, and doesn't stack with other effects that treat the sling as a larger size category unless they increase the sling's actual size."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"You can spend 2 stamina points to increase the damage dealt by the melee attacks you make with a loaded sling as if your sling were {misc/one size category larger} than its actual size. For example, a Small sling would deal 1d4 points of damage, while a Medium one would deal 1d6. This benefit lasts until the start of your next turn, and doesn't stack with other effects that treat the sling as a larger size category unless they increase the sling's actual size.",
+			"",
+			":::"
 		]
 	},
 	"slipslinger_bombardment": {
@@ -2204,10 +2261,12 @@
 			"**Benefit:** When you attack an inanimate, unattended object, you ignore the first 5 points of its hardness. You also receive a +5 bonus on Strength checks made to knock down or break open doors.  ",
 			"**Special:** The benefits of this feat do not apply to {rule/sunder} attempts or attacks against constructs, only attacks on inanimate, unattended objects.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">When attempting a sunder combat maneuver or making an attack against a construct that has a hardness, you can spend 5 stamina points to ignore the first 10 points of the target's hardness."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"When attempting a sunder combat maneuver or making an attack against a construct that has a hardness, you can spend 5 stamina points to ignore the first 10 points of the target's hardness.",
+			"",
+			":::"
 		]
 	},
 	"smash_from_the_air": {
@@ -2347,10 +2406,12 @@
 			"**Prerequisites:** {feat/Combat Reflexes}, {feat/Improved Unarmed Strike}, {feat/Snake Sidewind}, {feat/Snake Style}, Acrobatics 6 ranks, Sense Motive 9 ranks.  ",
 			"**Benefit:** While using the Snake Style feat, when an opponent's attack misses you, you can make an unarmed strike against that opponent as an attack of opportunity. If this attack of opportunity hits, you can spend an immediate action to make another unarmed strike against the same opponent.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">When you miss with an attack of opportunity you made due to Snake Fang, you can spend 5 stamina points to reroll the attack roll. You can use this combat trick only once per attack of opportunity."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"When you miss with an attack of opportunity you made due to Snake Fang, you can spend 5 stamina points to reroll the attack roll. You can use this combat trick only once per attack of opportunity.",
+			"",
+			":::"
 		]
 	},
 	"snake_sidewind": {
@@ -2369,10 +2430,12 @@
 			"**Benefit:** You gain a +4 bonus to CMD against {rule/trip} combat maneuvers and on Acrobatics checks and saving throws to avoid being knocked {rule/prone}. While using the Snake Style feat, whenever you score a critical threat with your unarmed strike, you can make a Sense Motive check in place of the attack roll to confirm the critical hit. Whenever you score a critical hit with your unarmed strike, you can spend an immediate action to take a 5-foot step even if you have otherwise moved this round.  ",
 			"**Normal:** You can take a 5-foot step only if you have not otherwise moved this round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">When you threaten a critical hit with your unarmed strike while using Snake Style and choose to attempt a Sense Motive check in place of the confirmation roll, you can spend up to 5 stamina points to gain a bonus on the Sense Motive check equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"When you threaten a critical hit with your unarmed strike while using Snake Style and choose to attempt a Sense Motive check in place of the confirmation roll, you can spend up to 5 stamina points to gain a bonus on the Sense Motive check equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"snake_style": {
@@ -2391,10 +2454,12 @@
 			"**Benefit:** You gain a +2 bonus on Sense Motive checks, and you can deal piercing damage with your unarmed strikes. While using the Snake Style feat, when an opponent targets you with a melee or ranged attack, you can spend an immediate action to make a Sense Motive check. You can use the result as your AC or touch AC against that attack. You must be aware of the attack and not flat-footed.  ",
 			"**Normal:** An unarmed strike deals bludgeoning damage.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">When targeted by a melee or ranged attack, you can spend 5 stamina points to attempt the Sense Motive check by using one of your attacks of opportunity for the round instead of taking an immediate action."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"When targeted by a melee or ranged attack, you can spend 5 stamina points to attempt the Sense Motive check by using one of your attacks of opportunity for the round instead of taking an immediate action.",
+			"",
+			":::"
 		]
 	},
 	"snap_shot": {
@@ -2413,10 +2478,12 @@
 			"**Benefit:** While wielding a ranged weapon with which you have Weapon Focus, you threaten squares within 5 feet of you. You can make attacks of opportunity with that ranged weapon. You do not provoke attacks of opportunity when making a ranged attack as an attack of opportunity.  ",
 			"**Normal:** While wielding a ranged weapon, you threaten no squares and can make no attacks of opportunity with that weapon.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">At the end of your turn, you can spend 2 stamina points to increase the range at which you threaten squares with ranged weapons to 10 feet until you take an attack of opportunity against an opponent in the expanded threat range or the beginning of your next turn, whichever comes first."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"At the end of your turn, you can spend 2 stamina points to increase the range at which you threaten squares with ranged weapons to 10 feet until you take an attack of opportunity against an opponent in the expanded threat range or the beginning of your next turn, whichever comes first.",
+			"",
+			":::"
 		]
 	},
 	"snapping_flank": {
@@ -2460,10 +2527,12 @@
 			"**Prerequisites:** {feat/Snapping Turtle Style}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, base attack bonus +3 or monk level 3rd.  ",
 			"**Benefit:** While you are using the Snapping Turtle Style feat, the shield bonus the style grants to your AC applies to your CMD and touch AC. Whenever an opponent misses you with a melee attack while you are using the Snapping Turtle Style feat, you can use an immediate action to attempt a {rule/grapple} combat maneuver against that opponent, but with a -2 penalty.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">When you attempt a grapple combat maneuver as an immediate action as a result of this feat, you can spend 2 stamina points to negate the -2 penalty on that combat maneuver check."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"When you attempt a grapple combat maneuver as an immediate action as a result of this feat, you can spend 2 stamina points to negate the -2 penalty on that combat maneuver check.",
+			"",
+			":::"
 		]
 	},
 	"snapping_turtle_shell": {
@@ -2481,10 +2550,12 @@
 			"**Prerequisites:** {feat/Snapping Turtle Clutch}, {feat/Snapping Turtle Style}, {feat/Improved Grapple}, {feat/Improved Unarmed Strike}, base attack bonus +5 or monk level 5th.  ",
 			"**Benefit:** While you are using the Snapping Turtle Style feat, the shield bonus the style grants to your AC increases to +2, and your enemies take a -4 penalty on critical confirmation rolls against you.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">While using Snapping Turtle Style, you can spend up to 5 stamina points to cause an enemy to take an additional penalty on one critical confirmation roll against you equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"While using Snapping Turtle Style, you can spend up to 5 stamina points to cause an enemy to take an additional penalty on one critical confirmation roll against you equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"snapping_turtle_style": {
@@ -2502,10 +2573,12 @@
 			"**Prerequisites:** {feat/Improved Unarmed Strike}, base attack bonus +1 or monk level 1st.  ",
 			"**Benefit:** While using the Snapping Turtle Style feat with at least one hand free, you gain a +1 shield bonus to AC.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">When using this style, as long as you have at least 1 stamina point in your stamina pool, your shield bonus to AC increases by 1."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"When using this style, as long as you have at least 1 stamina point in your stamina pool, your shield bonus to AC increases by 1.",
+			"",
+			":::"
 		]
 	},
 	"snatch": {
@@ -2556,18 +2629,21 @@
 			"",
 			"You must have at least one hand free (holding nothing) to use this feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">When you snatch a thrown weapon, as long as you have at least 1 stamina point in your stamina pool, you can make a thrown ranged attack with it against any target, not just the original attacker.",
+			":::stamina",
 			"",
-			"### Mythic Snatch Arrows",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"When you snatch a thrown weapon, as long as you have at least 1 stamina point in your stamina pool, you can make a thrown ranged attack with it against any target, not just the original attacker.",
 			"",
-			"{SOURCE Mythic Adventures/74}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Snatch Arrows\"}",
+			"",
+			"{SOURCE Mythic Adventures/74}  ",
 			"You can use the weapons you pluck from the air to immediately make melee attacks.  ",
 			"**Prerequisites:** Snatch Arrows.  ",
 			"**Benefit:** When you use Snatch Arrows to catch a thrown weapon that can also be used as a melee weapon, you can make a melee attack with it as an immediate action against a foe within the weapon's melee reach. You can expend one use of mythic power to make this attack without spending an immediate action.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -2675,13 +2751,14 @@
 			"**Prerequisites:** Cha 13, {race/half-elf}.  ",
 			"**Benefit:** As a move action, you grant all friendly creatures within 30 feet who can see or hear you (including yourself) a +2 bonus on Diplomacy checks for a number of rounds equal to your Charisma modifier (minimum 1 round).",
 			"",
-			"### Mythic Sociable",
+			":::mythic{title=\"Mythic Sociable\"}",
 			"",
-			"{SOURCE Mythic Adventures/74}",
-			"",
+			"{SOURCE Mythic Adventures/74}  ",
 			"Your easy nature flows from you without effort, putting others at ease.  ",
 			"**Prerequisites:** Sociable.  ",
-			"**Benefit:** You grant and benefit from the +2 bonus on Diplomacy checks from Sociable constantly without having to spend a move action. You can spend a move action to increase the bonus to +4 for a number of rounds equal to your tier."
+			"**Benefit:** You grant and benefit from the +2 bonus on Diplomacy checks from Sociable constantly without having to spend a move action. You can spend a move action to increase the bonus to +4 for a number of rounds equal to your tier.",
+			"",
+			":::"
 		]
 	},
 	"social_bravery": {
@@ -2794,10 +2871,12 @@
 			"**Benefit:** When you gain this feat, you choose one {ability/sorcerer_<bloodline>s} power that you can use to affect a single opponent. If you make a successful unarmed strike against an opponent, in addition to dealing your unarmed strike damage, you can spend a swift action to deliver the effects of the chosen bloodline power to that opponent. Doing so provokes no attacks of opportunity.  ",
 			"**Special:** You can take this feat multiple times. Each time you take it, you apply it to a different qualifying bloodline power.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">After hitting with an unarmed strike, you can spend 2 stamina points to apply the effects of your chosen bloodline power as a free action instead of a swift action."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"After hitting with an unarmed strike, you can spend 2 stamina points to apply the effects of your chosen bloodline power as a free action instead of a swift action.",
+			"",
+			":::"
 		]
 	},
 	"soulblade": {
@@ -2911,10 +2990,12 @@
 			"**Prerequisites:** {feat/Weapon Focus} (any two-handed reach weapon), Perform (dance) 4 ranks.  ",
 			"**Benefit:** Each time you hit a creature with a two-handed reach weapon that you have Weapon Focus in, the creature is {misc/dazzled} for 1 round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/25}",
-			">",
-			">When you inflict the dazzled condition on an opponent using the Spear Dancer feat, you can spend up to 5 stamina points to increase the duration of the effect by 1 round per stamina point spent."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/25}  ",
+			"When you inflict the dazzled condition on an opponent using the Spear Dancer feat, you can spend up to 5 stamina points to increase the duration of the effect by 1 round per stamina point spent.",
+			"",
+			":::"
 		]
 	},
 	"spear_dancing_reach": {
@@ -2985,10 +3066,12 @@
 			"**Prerequisites:** Dex 15, {feat/Dodge}, Acrobatics 7 ranks.  ",
 			"**Benefit:** When you must attempt a {rule/performance combat} check because you used the {rule/withdraw} action, you can attempt an Acrobatics check against your opponent's CMD before the performance combat check. Success allows you to withdraw without taking the standard -5 penalty on your check. In addition, for every 5 points by which your Acrobatics check result exceeds your opponent's CMD, you gain a +1 bonus on all Perform checks you make for the remainder of the round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/25}",
-			">",
-			">When you use Spectacular Exit to withdraw without taking the -5 penalty on performance combat checks and you spend 5 stamina points, you don't need to succeed at an Acrobatics check in order to avoid the penalty."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/25}  ",
+			"When you use Spectacular Exit to withdraw without taking the -5 penalty on performance combat checks and you spend 5 stamina points, you don't need to succeed at an Acrobatics check in order to avoid the penalty.",
+			"",
+			":::"
 		]
 	},
 	"spectrum_sight": {
@@ -3116,14 +3199,15 @@
 			"**Benefit:** Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new school of magic.",
 			"",
-			"### Mythic Spell Focus",
+			":::mythic{title=\"Mythic Spell Focus\"}",
 			"",
-			"{SOURCE Mythic Adventures/74}",
-			"",
+			"{SOURCE Mythic Adventures/74}  ",
 			"Your magical specialties are particularly effective.  ",
 			"**Prerequisites:** Spell Focus.  ",
 			"**Benefit:** Choose a school of magic you already have Spell Focus in. The bonus to save DCs provided by Spell Focus and {feat/Greater Spell Focus} for that school increases by 1. You can expend one use of mythic power as part of casting a spell from your chosen school to force any of the spell's targets to roll their saving throws twice, taking the lower result.  ",
-			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Spell Focus feat."
+			"**Special:** You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Spell Focus feat.",
+			"",
+			":::"
 		]
 	},
 	"spell_hex": {
@@ -3157,13 +3241,14 @@
 			"**Benefit:** Each time you take this feat, choose a number of spells that you already know equal to your Intelligence modifier. From that point on, you can prepare these spells without referring to a spellbook.  ",
 			"**Normal:** Without this feat, you must use a spellbook to prepare all your spells, except {spell/read magic}.",
 			"",
-			"### Mythic Spell Mastery",
+			":::mythic{title=\"Mythic Spell Mastery\"}",
 			"",
-			"{SOURCE Mythic Adventures/74}",
-			"",
+			"{SOURCE Mythic Adventures/74}  ",
 			"You're so familiar with certain spells you can prepare them with the greatest of ease.  ",
 			"**Prerequisites:** Spell Mastery.  ",
-			"**Benefit:** You can prepare spells you have selected with Spell Mastery as a full-round action. You must spend the appropriate amount of time preparing other spells you have not mastered. As a full-round action, you can expend one use of mythic power to prepare all your spells that you have selected with Spell Mastery."
+			"**Benefit:** You can prepare spells you have selected with Spell Mastery as a full-round action. You must spend the appropriate amount of time preparing other spells you have not mastered. As a full-round action, you can expend one use of mythic power to prepare all your spells that you have selected with Spell Mastery.",
+			"",
+			":::"
 		]
 	},
 	"spell_penetration": {
@@ -3180,13 +3265,14 @@
 			"Your spells break through spell resistance more easily than most.  ",
 			"**Benefit:** You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creature's spell resistance.",
 			"",
-			"### Mythic Spell Penetration",
+			":::mythic{title=\"Mythic Spell Penetration\"}",
 			"",
-			"{SOURCE Mythic Adventures/74}",
-			"",
+			"{SOURCE Mythic Adventures/74}  ",
 			"Your mythic power breaches your enemies' defenses.  ",
 			"**Prerequisites:** Spell Penetration.  ",
-			"**Benefit:** Add half your tier to caster level checks to overcome spell resistance. If you have {feat/Greater Spell Penetration}, add your full tier instead."
+			"**Benefit:** Add half your tier to caster level checks to overcome spell resistance. If you have {feat/Greater Spell Penetration}, add your full tier instead.",
+			"",
+			":::"
 		]
 	},
 	"spell_perfection": {
@@ -3292,20 +3378,23 @@
 			"**Benefit:** Enemies in your threatened area that fail their checks to cast spells defensively provoke attacks of opportunity from you.  ",
 			"**Normal:** Enemies that fail to cast spells defensively do not provoke attacks of opportunity.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">When you hit a caster with an attack of opportunity it provoked by failing to [cast defensively](rule/concentration), you can spend 5 stamina points to {misc/daze} the caster until the end of its next turn. If the caster succeeds at a Fortitude save with a DC equal to 10 + your base attack bonus, it is {misc/staggered} instead.",
+			":::stamina",
 			"",
-			"### Mythic Spellbreaker",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"When you hit a caster with an attack of opportunity it provoked by failing to [cast defensively](rule/concentration), you can spend 5 stamina points to {misc/daze} the caster until the end of its next turn. If the caster succeeds at a Fortitude save with a DC equal to 10 + your base attack bonus, it is {misc/staggered} instead.",
 			"",
-			"{SOURCE Mythic Adventures/74}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Spellbreaker\"}",
+			"",
+			"{SOURCE Mythic Adventures/74}  ",
 			"You're a spellcaster's worst nightmare.  ",
 			"**Prerequisites:** Spellbreaker.  ",
 			"**Benefit:** Any non-mythic creature you threaten provokes an attack of opportunity from you whenever it uses a spell or spell-like ability, even when casting defensively or casting a quickened spell.",
 			"",
-			"If a non-mythic creature within 30 feet of you uses a spell or spell-like ability, you can expend one use of mythic power to make a ranged attack against that creature as an attack of opportunity (even if the creature wouldn't normally provoke attacks of opportunity). You must have a ranged weapon in hand or have a free hand and the non-mythic {feat/Quick Draw} feat to use this ability. You can use this ability against a mythic creature by expending two uses of mythic power."
+			"If a non-mythic creature within 30 feet of you uses a spell or spell-like ability, you can expend one use of mythic power to make a ranged attack against that creature as an attack of opportunity (even if the creature wouldn't normally provoke attacks of opportunity). You must have a ranged weapon in hand or have a free hand and the non-mythic {feat/Quick Draw} feat to use this ability. You can use this ability against a mythic creature by expending two uses of mythic power.",
+			"",
+			":::"
 		]
 	},
 	"spellcut": {
@@ -3414,10 +3503,12 @@
 			"**Prerequisites:** Proficient with {eq-armorenh/armor spikes}.  ",
 			"**Benefit:** When you succeed at a {rule/bull rush} or {rule/overrun} combat maneuver, you may automatically make an attack roll with your armor spikes against the target of the maneuver as a swift action, using your highest attack bonus.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/25}",
-			">",
-			">You can spend 4 stamina points after succeeding at a bull rush or overrun combat maneuver check to use Spiked Destroyer against that target as a free action."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/25}  ",
+			"You can spend 4 stamina points after succeeding at a bull rush or overrun combat maneuver check to use Spiked Destroyer against that target as a free action.",
+			"",
+			":::"
 		]
 	},
 	"spinning_throw": {
@@ -3439,10 +3530,12 @@
 			"",
 			"**Special:** Per the Ki Throw feat, a monk can use ki to affect creatures larger than himself with this feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/132}",
-			">",
-			">If you succeed at the bull rush check, you can spend 2 stamina points to push the opponent 5 additional feet, or 4 stamina points to push the target 10 additional feet."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/132}  ",
+			"If you succeed at the bull rush check, you can spend 2 stamina points to push the opponent 5 additional feet, or 4 stamina points to push the target 10 additional feet.",
+			"",
+			":::"
 		]
 	},
 	"spirit_ally": {

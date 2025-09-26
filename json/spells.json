@@ -88,11 +88,12 @@
 			"",
 			"Invisible layers of solid force surround and protect the target, granting that target a +2 armor bonus to AC. Additionally, the first 5 points of lethal damage the target takes from each attack are converted into nonlethal damage. Against attacks that already deal nonlethal damage, the target gains DR 5/-. Once this spell has converted 5 points of damage to nonlethal damage per caster level (maximum 50 points), the spell is discharged.",
 			"",
-			"### Mythic Ablative Barrier",
+			":::mythic{title=\"Mythic Ablative Barrier\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}",
+			"{SOURCE Mythic Adventures/84}  ",
+			"Add half your tier to the spell's armor bonus. Add half your tier to the amount of lethal damage from each attack that is converted to nonlethal damage and to the DR against nonlethal damage. Add half your tier to your caster level when determining how much damage the spell converts before it's discharged.",
 			"",
-			"Add half your tier to the spell's armor bonus. Add half your tier to the amount of lethal damage from each attack that is converted to nonlethal damage and to the DR against nonlethal damage. Add half your tier to your caster level when determining how much damage the spell converts before it's discharged."
+			":::"
 		]
 	},
 	"ablative_sphere": {
@@ -2052,11 +2053,12 @@
 			"",
 			"Animate objects can be made permanent with a {spell/permanency} spell.",
 			"",
-			"### Mythic Animate Objects",
+			":::mythic{title=\"Mythic Animate Objects\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}",
+			"{SOURCE Mythic Adventures/84}  ",
+			"Animated objects you create with this spell get the maximum number of hit points per level, gain a +4 bonus to their Strength ability scores, and have 1-1/2 times the normal number of construction points.",
 			"",
-			"Animated objects you create with this spell get the maximum number of hit points per level, gain a +4 bonus to their Strength ability scores, and have 1-1/2 times the normal number of construction points."
+			":::"
 		]
 	},
 	"animate_plants": {
@@ -2085,11 +2087,12 @@
 			"",
 			"*Entangle:* Alternatively, you may imbue all plants within range with a degree of mobility, which allows them to entwine around creatures in the area. This usage of the spell duplicates the effect of an entangle spell. Spell resistance does not keep creatures from being entangled. This effect lasts 1 hour per caster level.",
 			"",
-			"### Mythic Animate Plants",
+			":::mythic{title=\"Mythic Animate Plants\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}",
+			"{SOURCE Mythic Adventures/84}  ",
+			"Animated plants you create with this spell get the maximum number of hit points per level, gain a +4 bonus to their Strength ability scores, and have 1-1/2 times the normal number of construction points.",
 			"",
-			"Animated plants you create with this spell get the maximum number of hit points per level, gain a +4 bonus to their Strength ability scores, and have 1-1/2 times the normal number of construction points."
+			":::"
 		]
 	},
 	"animate_rope": {
@@ -2250,11 +2253,12 @@
 			"",
 			"A creature affected by anticipate peril gains a preternatural sense of danger. The first time during this spell's duration that the target has to make an initiative check, the creature adds an insight bonus on that initiative check equal to the spell's caster level (maximum +5). Once this bonus applies, the effects of the spell end.",
 			"",
-			"### Mythic Anticipate Peril",
+			":::mythic{title=\"Mythic Anticipate Peril\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}",
+			"{SOURCE Mythic Adventures/84}  ",
+			"Add your tier to the spell's initiative bonus and the maximum initiative bonus the spell can grant.",
 			"",
-			"Add your tier to the spell's initiative bonus and the maximum initiative bonus the spell can grant."
+			":::"
 		]
 	},
 	"anticipate_thoughts": {
@@ -2899,13 +2903,14 @@
 			"",
 			"This spell animates a tree's branch and directs it against your foes. At caster level 10th or lower, you can target a Huge tree. At caster level 11th-15th, you can target a Gargantuan tree, and at caster level 16th or higher you can target a Colossal tree. The animated branch makes slam attacks with a Strength score equal to 10 + your caster level. The branch strikes once per round with an attack bonus equal to your caster level + the branch's Strength modifier, adjusted by the appropriate size modifier (-2 for Huge, -4 for Gargantuan, -8 for Colossal). A Huge tree's slam deals 2d6 points of damage, a Gargantuan tree's slam deals 3d6 points of damage, and a Colossal tree's slam deals 4d6 points of damage; the tree adds 1-1/2 times its Strength modifier to this damage. A Huge tree has reach 15 feet, a Gargantuan has reach 20 feet, and a Colossal has reach 30 feet. The tree attacks the creature you designate when you cast the spell, and is unable to move. You can direct the tree against a new target as a move action. The tree does not gain a bonus for flanking, nor can it help another combatant flank. It cannot attack a foe you cannot see.",
 			"",
-			"### Mythic Arboreal Hammer",
+			":::mythic{title=\"Mythic Arboreal Hammer\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}",
-			"",
+			"{SOURCE Mythic Adventures/84}  ",
 			"You animate two branches instead of one, allowing the tree to attack twice per round. Add your tier to your caster level when determining the tree's Strength score. A creature struck by both slam attacks in the same round must succeed at a Fortitude save against the spell's DC or be staggered for 1 round.",
 			"",
-			"*Augmented (7th):* If you expend two uses of mythic power, the tree attempts three slam attacks per round and its slams bypass all damage reduction. A creature struck by all three slam attacks in the same round is stunned for 1 round and staggered for 1d4 rounds after the stun ends. A successful Fortitude save negates the stun and reduces the duration of being staggered by half."
+			"*Augmented (7th):* If you expend two uses of mythic power, the tree attempts three slam attacks per round and its slams bypass all damage reduction. A creature struck by all three slam attacks in the same round is stunned for 1 round and staggered for 1d4 rounds after the stun ends. A successful Fortitude save negates the stun and reduces the duration of being staggered by half.",
+			"",
+			":::"
 		]
 	},
 	"arcana_theft": {
@@ -2952,11 +2957,12 @@
 			"",
 			"The cannon has AC 10, hardness 10, and 80 hit points. If the cannon is subject to a spell or effect that requires a save, it uses your saving throw modifiers. The cannon never provokes attacks of opportunity. If the cannon is destroyed, so is your focus.",
 			"",
-			"### Mythic Arcane Cannon",
+			":::mythic{title=\"Mythic Arcane Cannon\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}",
+			"{SOURCE Mythic Adventures/84}  ",
+			"The cannon deals 6d10 points of damage on a successful hit. Add your tier to the cannon's hardness and your tier &times; 5 to its hit points. Its conductive property can channel any spell with a range of touch (you have to expend only one spell for this, not two). You may cast a spell with an energy descriptor on the cannon. If you do, for a number of rounds equal to the spell's level, half the cannon's damage is untyped damage and the other half is energy damage of the spell's type. Casting a spell with a different energy descriptor onto the cannon replaces its current energy type with that of the new spell.",
 			"",
-			"The cannon deals 6d10 points of damage on a successful hit. Add your tier to the cannon's hardness and your tier &times; 5 to its hit points. Its conductive property can channel any spell with a range of touch (you have to expend only one spell for this, not two). You may cast a spell with an energy descriptor on the cannon. If you do, for a number of rounds equal to the spell's level, half the cannon's damage is untyped damage and the other half is energy damage of the spell's type. Casting a spell with a different energy descriptor onto the cannon replaces its current energy type with that of the new spell."
+			":::"
 		]
 	},
 	"arcane_concordance": {
@@ -3268,11 +3274,12 @@
 			"",
 			"Aroden's spellbane can even negate an antimagic field, another Aroden's spellbane, or any spell that specifies immunity to antimagic field (such as wall of force, prismatic sphere, and prismatic wall). Multiple spellbane effects can overlap. Their effects stack, preventing the functioning of every spell targeted by any of the multiple spellbane emanations. Spell effects created by artifacts or deities cannot be suppressed by Aroden's spellbane.",
 			"",
-			"### Mythic Aroden's Spellbane",
+			":::mythic{title=\"Mythic Aroden's Spellbane\"}",
 			"",
-			"{SOURCE Mythic Origins/12}",
+			"{SOURCE Mythic Origins/12}  ",
+			"Add half your tier to the number of spells you can select to not function in the area. As a full-round action, you can expend one use of mythic power to change one of the spells blocked by this effect. You can do this as often as you wish during the spell's duration.",
 			"",
-			"Add half your tier to the number of spells you can select to not function in the area. As a full-round action, you can expend one use of mythic power to change one of the spells blocked by this effect. You can do this as often as you wish during the spell's duration."
+			":::"
 		]
 	},
 	"arodens_spellsword": {
@@ -3368,11 +3375,12 @@
 			"",
 			"The targets retain their mythic tier only while they're within 100 feet of the spell's focus component. A target that goes outside this range loses its mythic tier, but instantly regains it if it moves into range again. If the focus component is destroyed while the spell is in effect, the spell immediately ends and all targets gain 1d4 permanent negative levels.",
 			"",
-			"### Mythic Ascension",
+			":::mythic{title=\"Mythic Ascension\"}",
 			"",
-			"{SOURCE Mythic Adventures/113}",
+			"{SOURCE Mythic Adventures/113}  ",
+			"If you expend one use of mythic power when casting this spell, the duration increases to 1 day per level, and you can use yourself as the focus for this spell instead of a lesser artifact. If you're the focus, the targets retain their mythic tier only while they're within 100 feet of you, and if you die, the spell immediately ends and all targets gain 1d4 permanent negative levels.",
 			"",
-			"If you expend one use of mythic power when casting this spell, the duration increases to 1 day per level, and you can use yourself as the focus for this spell instead of a lesser artifact. If you're the focus, the targets retain their mythic tier only while they're within 100 feet of you, and if you die, the spell immediately ends and all targets gain 1d4 permanent negative levels."
+			":::"
 		]
 	},
 	"ash_storm": {

@@ -185,13 +185,14 @@
 			"**Benefit:** When you target a creature with a hex that cannot target the same creature more than once per day, and that creature succeeds at its saving throw against the hex's effect, you can target the creature with the same hex a second time before the end of your next turn. If the second attempt fails, you can make no further attempts to target that creature with the same hex for 1 day.  ",
 			"**Normal:** You can only target a creature with these hexes once per day.",
 			"",
-			"### Mythic Accursed Hex",
+			":::mythic{title=\"Mythic Accursed Hex\"}",
 			"",
-			"{SOURCE Mythic Adventures/54}",
-			"",
+			"{SOURCE Mythic Adventures/54}  ",
 			"Your hexes flare with persistent potency.  ",
 			"**Prerequisites:** Accursed Hex.  ",
-			"**Benefit:** When you use Accursed Hex to target a creature with one of your hexes a second time, that creature must roll its saving throw twice and take the lower result."
+			"**Benefit:** When you use Accursed Hex to target a creature with one of your hexes a second time, that creature must roll its saving throw twice and take the lower result.",
+			"",
+			":::"
 		]
 	},
 	"ace_disarm": {
@@ -234,13 +235,14 @@
 			"You are skilled at leaping, jumping, and flying.  ",
 			"**Benefit:** You get a +2 bonus on all Acrobatics and Fly skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
 			"",
-			"### Mythic Acrobatic",
+			":::mythic{title=\"Mythic Acrobatic\"}",
 			"",
-			"{SOURCE Mythic Adventures/54}",
-			"",
+			"{SOURCE Mythic Adventures/54}  ",
 			"Your grace and fluidity are beyond compare.  ",
 			"**Prerequisites:** Acrobatic.  ",
-			"**Benefit:** The bonus on Acrobatics and Fly skill checks from Acrobatic increases by 2. In addition, you can expend one use of mythic power to treat an Acrobatics or Fly check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
+			"**Benefit:** The bonus on Acrobatics and Fly skill checks from Acrobatic increases by 2. In addition, you can expend one use of mythic power to treat an Acrobatics or Fly check as if you had rolled a natural 20. You must decide to use this ability before making the roll.",
+			"",
+			":::"
 		]
 	},
 	"acrobatic_spellcaster": {
@@ -327,10 +329,12 @@
 			"**Benefit:** As a swift action, you can apply one dose of contact or injury poison to two body parts that you use for unarmed strikes. You must still protect yourself against exposure to contact poisons you apply in this way.  ",
 			"**Normal:** Applying poison to a weapon or single piece of ammunition is a standard action.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/113}",
-			">",
-			">You can spend 2 stamina points to apply poison to a manufactured weapon as a swift action."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/113}  ",
+			"You can spend 2 stamina points to apply poison to a manufactured weapon as a swift action.",
+			"",
+			":::"
 		]
 	},
 	"additional_affiliations": {
@@ -528,10 +532,12 @@
 			"**Benefit:** You add your Dexterity bonus to your base attack bonus and size bonus when determining your {rule/Combat Maneuver[ Bonu]s} instead of your Strength bonus.  ",
 			"**Normal:** You add your Strength bonus to your base attack bonus and size bonus when determining your Combat Maneuver Bonus.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/113}",
-			">",
-			">You can spend a number of stamina points equal to your Dexterity bonus while attempting combat maneuver checks. For every 2 stamina points that you spend in this way, you are considered to be one size category larger than your actual size when determining whether you can affect a target creature with your combat maneuver and when calculating your size bonus for that check.",
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/113}  ",
+			"You can spend a number of stamina points equal to your Dexterity bonus while attempting combat maneuver checks. For every 2 stamina points that you spend in this way, you are considered to be one size category larger than your actual size when determining whether you can affect a target creature with your combat maneuver and when calculating your size bonus for that check.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -672,10 +678,12 @@
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency} ({eq-weapon/Aldori dueling sword}), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword).  ",
 			"**Benefit:** You gain a +2 morale bonus on Intimidate checks to demoralize opponents, and the DC of any attempt to demoralize you increases by 2. When you're participating in a duel, these bonuses increase to +4.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/24}",
-			">",
-			">During any combat that is not a duel, you can spend 1 stamina point at the start of your turn to treat the combat as a duel until the start of your next turn for the purpose of gaining the benefits of the Aldori Dueling Discipline feat."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/24}  ",
+			"During any combat that is not a duel, you can spend 1 stamina point at the start of your turn to treat the combat as a duel until the start of your next turn for the purpose of gaining the benefits of the Aldori Dueling Discipline feat.",
+			"",
+			":::"
 		]
 	},
 	"aldori_dueling_mastery": {
@@ -695,10 +703,12 @@
 			"**Prerequisites:** {feat/Exotic Weapon Proficiency} ({eq-weapon/Aldori dueling sword}), {feat/Quick Draw}, {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword).  ",
 			"**Benefit:** You gain a +2 bonus on initiative checks as long as you start combat with an Aldori dueling sword in your hand. As long as you wield only a single Aldori dueling sword in one hand (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons), you gain a +2 shield bonus to your AC. If you wield the sword in two hands, this bonus drops to a +1 shield bonus to AC. Although the dueling sword deals slashing damage, you treat it as if it were also a piercing weapon when determining the effects of weapons used by a duelist or swashbuckler.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/24}",
-			">",
-			">You can spend up to 6 stamina points at the start of your turn to increase the shield bonus that you gain from the Aldori Dueling Mastery feat by 1 per 2 stamina points spent until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/24}  ",
+			"You can spend up to 6 stamina points at the start of your turn to increase the shield bonus that you gain from the Aldori Dueling Mastery feat by 1 per 2 stamina points spent until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"aldori_style": {
@@ -754,13 +764,14 @@
 			"You often notice things that others might miss.  ",
 			"**Benefit:** You get a +2 bonus on Perception and Sense Motive skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
 			"",
-			"### Mythic Alertness",
+			":::mythic{title=\"Mythic Alertness\"}",
 			"",
-			"{SOURCE Mythic Adventures/54}",
-			"",
+			"{SOURCE Mythic Adventures/54}  ",
 			"Your powers of perception surpass everyone's, whether used to observe your surroundings or the intentions of others.  ",
 			"**Prerequisites:** Alertness.  ",
-			"**Benefit:** The bonus on Perception and Sense Motive skill checks from Alertness increases by 2. In addition, you can expend one use of mythic power to treat a Perception or Sense Motive check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
+			"**Benefit:** The bonus on Perception and Sense Motive skill checks from Alertness increases by 2. In addition, you can expend one use of mythic power to treat a Perception or Sense Motive check as if you had rolled a natural 20. You must decide to use this ability before making the roll.",
+			"",
+			":::"
 		]
 	},
 	"alien_mindpaths": {
@@ -839,13 +850,14 @@
 			"**Benefit:** Instead of its normal effect, you can choose to have your ability to channel energy heal or harm outsiders of the chosen alignment subtype. You must make this choice each time you channel energy. If you choose to heal or harm creatures of the chosen alignment subtype, your channel energy has no effect on other creatures. The amount of damage healed or dealt and the DC to halve the damage is otherwise unchanged.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new alignment subtype. Whenever you channel energy, you must choose which type to effect.",
 			"",
-			"### Mythic Alignment Channel",
+			":::mythic{title=\"Mythic Alignment Channel\"}",
 			"",
-			"{SOURCE Mythic Adventures/54}",
-			"",
+			"{SOURCE Mythic Adventures/54}  ",
 			"The power of your faith harms all creatures that follow the alignment you abhor.  ",
 			"**Prerequisites:** Alignment Channel.  ",
-			"**Benefit:** Your channeled energy affects any creatures with the alignment chosen when you took Alignment Channel (not just outsiders, and not just those with the alignment subtype), but grants only half healing or deals only half damage to these targets. Alternatively, you can expend two uses of mythic power when using Alignment Channel to affect all targets of the chosen alignment as if they had that alignment subtype."
+			"**Benefit:** Your channeled energy affects any creatures with the alignment chosen when you took Alignment Channel (not just outsiders, and not just those with the alignment subtype), but grants only half healing or deals only half damage to these targets. Alternatively, you can expend two uses of mythic power when using Alignment Channel to affect all targets of the chosen alignment as if they had that alignment subtype.",
+			"",
+			":::"
 		]
 	},
 	"all_consuming_swing": {
@@ -959,10 +971,12 @@
 			"**Benefit:** You gain a small amount of grit and the ability to perform a single 1st-level deeds from the {ability/gunslinger deed>s} class feature. At the start of the day, you gain 1 grit point, though throughout the day you can gain grit points up to a maximum of your Wisdom modifier (minimum 1). You can regain grit using the rules for the {class/gunslinger/'s} grit class feature. You can spend this grit to perform the 1st-level deed you chose upon taking this feat, and any other deed you have gained through feats or magic items.  ",
 			"**Special:** If you gain levels in a class that grants the grit class feature, you can immediately trade this feat for the {feat/Extra Grit} feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/113}",
-			">",
-			">Choose a second 1st-level gunslinger deed. You can spend grit to use this deed, or you can spend 5 stamina points to use either of your deeds in place of grit. If you gain levels in a class that grants the grit class feature, you retain the ability to spend 5 stamina points in place of grit when using any of your 1st-level deeds, and this becomes a combat trick of the Extra Grit feat (even though that feat is not a combat feat)."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/113}  ",
+			"Choose a second 1st-level gunslinger deed. You can spend grit to use this deed, or you can spend 5 stamina points to use either of your deeds in place of grit. If you gain levels in a class that grants the grit class feature, you retain the ability to spend 5 stamina points in place of grit when using any of your 1st-level deeds, and this becomes a combat trick of the Extra Grit feat (even though that feat is not a combat feat).",
+			"",
+			":::"
 		]
 	},
 	"amateur_investigator": {
@@ -998,10 +1012,12 @@
 			"",
 			"**Special:** If you gain levels in a class that has the panache class feature, you can immediately trade this feat for the {feat/Extra Panache} feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/113}",
-			">",
-			">Choose a second 1st-level swashbuckler deed. You can spend panache to use this deed, or you can spend 5 stamina points to use either of your deeds in place of panache. If you gain levels in a class that grants the panache class feature, you retain the ability to spend 5 stamina points in place of panache when using any of your 1st-level deeds, and this becomes a combat trick of the Extra Panache feat (even though that feat is not a combat feat)."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/113}  ",
+			"Choose a second 1st-level swashbuckler deed. You can spend panache to use this deed, or you can spend 5 stamina points to use either of your deeds in place of panache. If you gain levels in a class that grants the panache class feature, you retain the ability to spend 5 stamina points in place of panache when using any of your 1st-level deeds, and this becomes a combat trick of the Extra Panache feat (even though that feat is not a combat feat).",
+			"",
+			":::"
 		]
 	},
 	"ambuscading_spell": {
@@ -1033,10 +1049,12 @@
 			"**Benefit:** If you are unable to act in the surprise round because you failed a Perception check, you can still act on your initiative count in the surprise round, but only to take the {misc/total defense} action.  ",
 			"**Normal:** If you are unable to act in the surprise round because you failed a Perception check, you can't take any actions during the surprise round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/20}",
-			">",
-			">You can spend 3 stamina points to grant the benefit of this feat to an adjacent ally."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/20}  ",
+			"You can spend 3 stamina points to grant the benefit of this feat to an adjacent ally.",
+			"",
+			":::"
 		]
 	},
 	"ambush_sense": {
@@ -1371,13 +1389,14 @@
 			"You are skilled at working with animals and mounts.  ",
 			"**Benefit:** You get a +2 bonus on all Handle Animal and Ride skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
 			"",
-			"### Mythic Animal Affinity",
+			":::mythic{title=\"Mythic Animal Affinity\"}",
 			"",
-			"{SOURCE Mythic Adventures/55}",
-			"",
+			"{SOURCE Mythic Adventures/55}  ",
 			"You have a greater affinity with wild animals, and can speak with them.  ",
 			"**Prerequisites:** Animal Affinity.  ",
-			"**Benefit:** The bonus on Handle Animal and Ride skill checks from Animal Affinity increases by 2. In addition, you can expend one use of mythic power to {spell/speak with animals} as the spell. Your caster level for this effect is equal to twice your tier."
+			"**Benefit:** The bonus on Handle Animal and Ride skill checks from Animal Affinity increases by 2. In addition, you can expend one use of mythic power to {spell/speak with animals} as the spell. Your caster level for this effect is equal to twice your tier.",
+			"",
+			":::"
 		]
 	},
 	"animal_ally": {
@@ -1491,10 +1510,12 @@
 			"**Prerequisites:** {feat/Dodge}, {feat/Mobility}; base attack bonus +7, brawler level 4th, or monk level 4th.  ",
 			"**Benefit:** You automatically know whether a creature you can see has a dodge bonus to its AC. You gain up to a +2 bonus on attack rolls against a target that has a dodge bonus. This bonus cannot exceed the dodge bonus of the creature you attack.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/113}",
-			">",
-			">You can spend 1 stamina point to increase the maximum bonus from Anticipate Dodge by 2 (this is still limited by the creature's dodge bonus, however)."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/113}  ",
+			"You can spend 1 stamina point to increase the maximum bonus from Anticipate Dodge by 2 (this is still limited by the creature's dodge bonus, however).",
+			"",
+			":::"
 		]
 	},
 	"aphotic_explorer": {
@@ -1682,10 +1703,12 @@
 			"**Prerequisites:** {feat/Point-Blank Shot}, proficient with {eq-weapon/sling} or {eq-weapon/halfling sling staff}.  ",
 			"**Benefit:** When using a sling or sling staff, you reduce your penalty on ranged attack rolls due to range by 2. Point-Blank Shot's damage bonus applies within the first normal range increment of your sling (50 feet) or sling staff (80 feet).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/113}",
-			">",
-			">You can spend 1 stamina point when making a sling or sling staff attack to gain the benefits of Point-Blank Shot within the first two range increments of the sling or staff."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/113}  ",
+			"You can spend 1 stamina point when making a sling or sling staff attack to gain the benefits of Point-Blank Shot within the first two range increments of the sling or staff.",
+			"",
+			":::"
 		]
 	},
 	"arcane_armor_mastery": {
@@ -1703,10 +1726,12 @@
 			"**Prerequisites:** {feat/Arcane Armor Training}, {feat/Medium Armor Proficiency}, caster level 7th.  ",
 			"**Benefit:** As a swift action, reduce the arcane spell failure chance due to the armor you are wearing by 20% for any spells you cast this round. This bonus replaces, and does not stack with, the bonus granted by Arcane Armor Training.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/113}",
-			">",
-			">When casting a spell while wearing armor, you can spend 1 stamina point to activate Arcane Armor Mastery as a free action, or spend a number of stamina points equal to the spell's level (minimum 1) to ignore your armor's arcane spell failure chance entirely for that casting."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/113}  ",
+			"When casting a spell while wearing armor, you can spend 1 stamina point to activate Arcane Armor Mastery as a free action, or spend a number of stamina points equal to the spell's level (minimum 1) to ignore your armor's arcane spell failure chance entirely for that casting.",
+			"",
+			":::"
 		]
 	},
 	"arcane_armor_training": {
@@ -1725,18 +1750,21 @@
 			"**Prerequisites:** {feat/Light Armor Proficiency}, caster level 3rd.  ",
 			"**Benefit:** As a swift action, reduce the arcane spell failure chance due to the armor you are wearing by 10% for any spells you cast this round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">When casting a spell while wearing armor, you can spend 1 stamina point to activate Arcane Armor Training as a free action.",
+			":::stamina",
 			"",
-			"### Mythic Arcane Armor Training",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"When casting a spell while wearing armor, you can spend 1 stamina point to activate Arcane Armor Training as a free action.",
 			"",
-			"{SOURCE Mythic Adventures/55}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Arcane Armor Training\"}",
+			"",
+			"{SOURCE Mythic Adventures/55}  ",
 			"You've adapted your spellcasting to overcome limitations of wearing armor.  ",
 			"**Prerequisites:** Arcane Armor Training.  ",
-			"**Benefit:** You don't have to spend a swift action to gain the reduction to arcane spell failure chance from Arcane Armor Training. Furthermore, if you're wearing light armor, reduce your arcane spell failure chance by 20%."
+			"**Benefit:** You don't have to spend a swift action to gain the reduction to arcane spell failure chance from Arcane Armor Training. Furthermore, if you're wearing light armor, reduce your arcane spell failure chance by 20%.",
+			"",
+			":::"
 		]
 	},
 	"arcane_blast": {
@@ -1754,15 +1782,16 @@
 			"**Prerequisites:** Arcane spellcaster, caster level 10th.  ",
 			"**Benefit:** As a standard action, you can sacrifice a prepared spell or unused spell slot of 1st level or higher and transform it into a ray, targeting any foe within 30 feet as a ranged touch attack. This attack deals 2d6 points of damage plus an additional 1d6 points of damage for every level of the spell or spell slot you sacrificed. 0-level spells may not be sacrificed in this manner.",
 			"",
-			"### Mythic Arcane Blast",
+			":::mythic{title=\"Mythic Arcane Blast\"}",
 			"",
-			"{SOURCE Mythic Adventures/55}",
-			"",
+			"{SOURCE Mythic Adventures/55}  ",
 			"You can manipulate raw eldritch energies to do more than just deal damage.  ",
 			"**Prerequisites:** Arcane Blast.  ",
 			"**Benefit:** When you use Arcane Blast, you may halve the damage dice to also perform your choice of either a {rule/trip} or {rule/bull rush} combat maneuver against the target of the blast. You can't move with an opponent you bull rush with this feat. You gain a bonus on your combat maneuver check for this attempt equal to half the spell level of the spell you sacrificed when using Arcane Blast, and you can substitute your Intelligence or Charisma modifier in place of your Strength modifier when determining your combat maneuver bonus.",
 			"",
-			"In addition, you can expend one use of mythic power to change the damage dice of your Arcane Blast to d8s instead of d6s."
+			"In addition, you can expend one use of mythic power to change the damage dice of your Arcane Blast to d8s instead of d6s.",
+			"",
+			":::"
 		]
 	},
 	"arcane_insight": {
@@ -1822,13 +1851,14 @@
 			"**Prerequisites:** Arcane spellcaster, caster level 10th.  ",
 			"**Benefit:** As an immediate action, you can sacrifice a prepared spell or unused spell slot of 1st level or higher and gain a deflection bonus to AC equal to the level of the spell or spell slot you sacrificed for 1 round. 0-level spells may not be sacrificed in this manner.",
 			"",
-			"### Mythic Arcane Shield",
+			":::mythic{title=\"Mythic Arcane Shield\"}",
 			"",
-			"{SOURCE Mythic Adventures/55}",
-			"",
+			"{SOURCE Mythic Adventures/55}  ",
 			"You sculpt spells into a powerful, enduring arcane barriers.  ",
 			"**Prerequisites:** Arcane Shield.  ",
-			"**Benefit:** You add half your tier to the deflection bonus granted to your AC when you use your Arcane Shield. You can expend one use of mythic power when using this feat to extend the duration to a number of rounds equal to your tier."
+			"**Benefit:** You add half your tier to the deflection bonus granted to your AC when you use your Arcane Shield. You can expend one use of mythic power when using this feat to extend the duration to a number of rounds equal to your tier.",
+			"",
+			":::"
 		]
 	},
 	"arcane_strike": {
@@ -1847,18 +1877,21 @@
 			"**Prerequisites:** Ability to cast arcane spells.  ",
 			"**Benefit:** As a swift action, you can imbue your weapons with a fraction of your power. For 1 round, your weapons deal +1 damage and are treated as magic for the purpose of overcoming damage reduction. For every five caster levels you possess, this bonus increases by +1, to a maximum of +5 at 20th level.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">You can spend any number of stamina points to increase the duration of this feat's effects by 1 round for each stamina point spent.",
+			":::stamina",
 			"",
-			"### Mythic Arcane Strike",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"You can spend any number of stamina points to increase the duration of this feat's effects by 1 round for each stamina point spent.",
 			"",
-			"{SOURCE Mythic Adventures/55}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Arcane Strike\"}",
+			"",
+			"{SOURCE Mythic Adventures/55}  ",
 			"Using your amazing arcane talents, you can deliver devastating blows infused with magical energy.  ",
 			"**Prerequisites:** Arcane Strike.  ",
-			"**Benefit:** Whenever you use Arcane Strike to enhance your weapons, the effect lasts for 1 minute instead of 1 round. If you expend one use of mythic power when using Arcane Strike, you can also add any one {main/magic /weapon special ability>enhancements} with a base price modifier of +1 to your weapons. This base price modifier increases to +2 at 4th tier, +3 at 7th tier, and +4 at 10th tier."
+			"**Benefit:** Whenever you use Arcane Strike to enhance your weapons, the effect lasts for 1 minute instead of 1 round. If you expend one use of mythic power when using Arcane Strike, you can also add any one {main/magic /weapon special ability>enhancements} with a base price modifier of +1 to your weapons. This base price modifier increases to +2 at 4th tier, +3 at 7th tier, and +4 at 10th tier.",
+			"",
+			":::"
 		]
 	},
 	"arcane_talent": {
@@ -2098,10 +2131,12 @@
 			"**Benefit:** Select one type of armor, such as {eq-armor/chain shirt} or {eq-armor/splint mail}. The AC bonus granted by the selected armor increases by 1.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of armor. The Armor Focus feat counts as the armor training class feature for the purpose of armor mastery feat prerequisites and determines what types of armor you can use with armor mastery feats.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/20}",
-			">",
-			">You can spend 2 stamina points to increase the additional armor bonus granted by this feat to +2 for 1 round."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/20}  ",
+			"You can spend 2 stamina points to increase the additional armor bonus granted by this feat to +2 for 1 round.",
+			"",
+			":::"
 		]
 	},
 	"armor_material_expertise": {
@@ -2136,10 +2171,12 @@
 			"",
 			"@HL[Noqual:] The armor's resistance bonus on saves increases to +4 for 1 round.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/20}",
-			">",
-			">You can spend 5 stamina points to use an ability for a material, even though your armor isn't made of it. This still counts against your daily limit of armor material abilities."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/20}  ",
+			"You can spend 5 stamina points to use an ability for a material, even though your armor isn't made of it. This still counts against your daily limit of armor material abilities.",
+			"",
+			":::"
 		]
 	},
 	"armor_material_mastery": {
@@ -2154,10 +2191,12 @@
 			"**Prerequisites:** {feat/Armor Material Expertise}, base attack bonus +11 or fighter level 8th, armor training class feature.  ",
 			"**Benefit:** You can use the ability granted by Armor Material Expertise two additional times per day.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/20}",
-			">",
-			">You can spend 5 stamina points to use an armor material ability without it counting against your daily limit."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/20}  ",
+			"You can spend 5 stamina points to use an armor material ability without it counting against your daily limit.",
+			"",
+			":::"
 		]
 	},
 	"armor_of_the_pit": {
@@ -2272,10 +2311,12 @@
 			"",
 			"**Steel-Plated Smasher** ({feat/Power Attack}): You gain a bonus equal to 1/4 of your armor's armor check penalty (not including any reduction to the armor check penalty from class features or feats) on Strength checks to break doors and objects with less hardness than your armor. When your base attack bonus reaches +8, this bonus increases to 1/2 your armor's armor check penalty. When your base attack bonus reaches +16, this bonus increases to equal your armor's full armor check penalty.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/20}",
-			">",
-			">You can spend 5 stamina points to use an armor trick while wearing armor with which you are not proficient, or without meeting the trick's additional prerequisites."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/20}  ",
+			"You can spend 5 stamina points to use an armor trick while wearing armor with which you are not proficient, or without meeting the trick's additional prerequisites.",
+			"",
+			":::"
 		]
 	},
 	"armored_athlete": {
@@ -2294,10 +2335,12 @@
 			"**Benefit:** Choose one Dexterity- or Strength-based skill in which you possess at least 3 ranks. When you attempt a check for the chosen skill, your armor check penalty on that check for wearing light or medium armor is reduced by 3 (to a minimum of 0). If you have 10 or more ranks in the skill, the penalty is instead reduced by 6 (to a minimum of 0). If you have armor training 2 and are proficient with heavy armor, this benefit also applies to armor check penalties for wearing heavy armor.  ",
 			"**Special:** You can gain this feat multiple times. Each time you take the feat, it applies to a new skill.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/20}",
-			">",
-			">You can spend 3 stamina points to take 10 on a Dexterity- or Strength-based skill that is associated with this feat even when doing so would not normally allowed because of the strenuous circumstances."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/20}  ",
+			"You can spend 3 stamina points to take 10 on a Dexterity- or Strength-based skill that is associated with this feat even when doing so would not normally allowed because of the strenuous circumstances.",
+			"",
+			":::"
 		]
 	},
 	"armored_rider": {
@@ -2330,10 +2373,12 @@
 			"**Benefit:** If you are the only character threatening an opponent, you gain a +1 dodge bonus to AC against that opponent.  ",
 			"**Special:** The Artful Dodge feat acts as the {feat/Dodge} feat for the purpose of satisfying prerequisites that require Dodge. You can use Intelligence, rather than Dexterity, for feats with a minimum Dexterity prerequisite.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Armor Master's Handbook/20}",
-			">",
-			">You can spend 5 stamina points to gain a +1 dodge bonus for each opponent that you threaten that no other ally threatens."
+			":::stamina",
+			"",
+			"{SOURCE Armor Master's Handbook/20}  ",
+			"You can spend 5 stamina points to gain a +1 dodge bonus for each opponent that you threaten that no other ally threatens.",
+			"",
+			":::"
 		]
 	},
 	"artifact_hunter": {
@@ -2477,10 +2522,9 @@
 			"",
 			"**Special:** A character that has contracted {corruption/lycanthropy} can take this feat without having to meet the prerequisites. A {class/ranger} who selects the natural weapon combat style can take this feat without having to meet the prerequisites (even if he does not select Aspect of the Beast as a bonus feat).",
 			"",
-			"### Mythic Aspect of the Beast",
+			":::mythic{title=\"Mythic Aspect of the Beast\"}",
 			"",
-			"{SOURCE Mythic Adventures/55}",
-			"",
+			"{SOURCE Mythic Adventures/55}  ",
 			"Your blood burns with savage fury, giving you bestial powers and abilities.  ",
 			"**Prerequisites:** Aspect of the Beast.  ",
 			"**Benefit:** Your bestial nature manifests itself in one of the following ways. You choose the manifestation when you choose the feat, and you can't change it.",
@@ -2491,7 +2535,9 @@
 			">",
 			">@HL[Mythic Leap (Ex):] You can make a running jump without needing to run 10 feet beforehand. In addition, you gain a +5 bonus on your Acrobatics checks to determine the success of that jump and the distance covered. If you already have the predator's leap manifestation of Aspect of the Beast, the bonus on your Acrobatics checks increases to +10.",
 			">",
-			">@HL[Mythic Instinct (Ex):] You gain a +2 bonus on initiative checks and a +2 bonus on Survival checks. These bonuses stack with those gained from the wild instinct manifestation of Aspect of the Beast."
+			">@HL[Mythic Instinct (Ex):] You gain a +2 bonus on initiative checks and a +2 bonus on Survival checks. These bonuses stack with those gained from the wild instinct manifestation of Aspect of the Beast.",
+			"",
+			":::"
 		]
 	},
 	"aspiring_noble": {
@@ -2645,13 +2691,14 @@
 			"You possess inherent physical prowess.  ",
 			"**Benefit:** You get a +2 bonus on Climb and Swim skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.",
 			"",
-			"### Mythic Athletic",
+			":::mythic{title=\"Mythic Athletic\"}",
 			"",
-			"{SOURCE Mythic Adventures/60}",
-			"",
+			"{SOURCE Mythic Adventures/60}  ",
 			"You excel far beyond others at acts of physical prowess.  ",
 			"**Prerequisites:** Athletic.  ",
-			"**Benefit:** The bonus on Climb and Swim skill checks from Athletic increases by 2. In addition, you can expend one use of mythic power to treat a Climb or Swim check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
+			"**Benefit:** The bonus on Climb and Swim skill checks from Athletic increases by 2. In addition, you can expend one use of mythic power to treat a Climb or Swim check as if you had rolled a natural 20. You must decide to use this ability before making the roll.",
+			"",
+			":::"
 		]
 	},
 	"attuned_to_the_wild": {
@@ -2702,13 +2749,14 @@
 			"**Prerequisites** {feat/Spell Focus} (conjuration).  ",
 			"**Benefit:** Each creature you conjure with any *summon* spell gains a +4 enhancement bonus to Strength and Constitution for the duration of the spell that summoned it.",
 			"",
-			"### Mythic Augment Summoning",
+			":::mythic{title=\"Mythic Augment Summoning\"}",
 			"",
-			"{SOURCE Mythic Adventures/60}",
-			"",
+			"{SOURCE Mythic Adventures/60}  ",
 			"Your summoning spells bring not mere ordinary beasts, but instead mythic creatures.  ",
 			"**Prerequisites:** Augment Summoning.  ",
-			"**Benefit:** Any creature you summon using a *summon* spell is considered mythic for the purpose of interacting with other mythic creatures. It doesn't gain any mythic abilities or power, but is affected by mythic spells and abilities as if it were a 1st-tier mythic creature. Additionally, if the creature summoned has damage reduction, its damage reduction becomes DR/epic."
+			"**Benefit:** Any creature you summon using a *summon* spell is considered mythic for the purpose of interacting with other mythic creatures. It doesn't gain any mythic abilities or power, but is affected by mythic spells and abilities as if it were a 1st-tier mythic creature. Additionally, if the creature summoned has damage reduction, its damage reduction becomes DR/epic.",
+			"",
+			":::"
 		]
 	},
 	"aura_flare": {
@@ -2854,10 +2902,12 @@
 			"",
 			"In addition, when you spend a swift action to attempt a performance combat check that was triggered by a successful bull rush or sunder combat maneuver check, you gain a +2 bonus on the performance combat check. For every 5 points by which your attack exceeded your opponent's CMD, this bonus increases by 2.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/24}",
-			">",
-			">After successfully performing a bull rush or sunder combat maneuver, you can spend up to 5 stamina points to increase the bonus on performance combat checks that you gain from Awe-Inspiring Smash by 1 per stamina point spent."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/24}  ",
+			"After successfully performing a bull rush or sunder combat maneuver, you can spend up to 5 stamina points to increase the bonus on performance combat checks that you gain from Awe-Inspiring Smash by 1 per stamina point spent.",
+			"",
+			":::"
 		]
 	},
 	"awesome_blow": {
@@ -3162,10 +3212,12 @@
 			"**Benefit:** Once per day as a move action, you can gain the benefit of a {main/feats_<combat/ feat} that you do not possess for 1 minute. You must otherwise meet the feat's requirements.  ",
 			"**Special:** If you have the martial flexibility class feature, this feat instead grants you one additional use per day of that ability.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/114}",
-			">",
-			">You can spend 5 stamina points to use this feat as a swift action instead of a move action. If you have the martial flexibility class feature, you can spend 5 stamina points to use that class feature as a swift action instead of a move action, or as a free action instead of a swift action."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/114}  ",
+			"You can spend 5 stamina points to use this feat as a swift action instead of a move action. If you have the martial flexibility class feature, you can spend 5 stamina points to use that class feature as a swift action instead of a move action, or as a free action instead of a swift action.",
+			"",
+			":::"
 		]
 	}
 }

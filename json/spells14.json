@@ -57,13 +57,14 @@
 			"",
 			"A target who can speak and has at least one free hand and who is aware of the spell and its effects (such as from a Spellcraft check to identify the spell as it is cast) can negate one reroll by spending a move action to utter a brief prayer or good luck charm to appease the spirits of ill fortune.",
 			"",
-			"### Mythic Ill Omen",
+			":::mythic{title=\"Mythic Ill Omen\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}",
-			"",
+			"{SOURCE Mythic Adventures/98}  ",
 			"For the target's unlucky d20 rolls, it must roll three times and take the lowest result. Spending a move action to utter a prayer or good luck charm allows the target to roll twice instead of three times.",
 			"",
-			"*Augmented (4th):* If you expend two uses of mythic power, you afflict the target with especially foul luck. Any natural 20 it rolls counts as a natural 1 instead."
+			"*Augmented (4th):* If you expend two uses of mythic power, you afflict the target with especially foul luck. Any natural 20 it rolls counts as a natural 1 instead.",
+			"",
+			":::"
 		]
 	},
 	"illusion_of_calm": {
@@ -356,13 +357,14 @@
 			"",
 			"You grant a touched Large or smaller object the ability to fly at a speed of 40 feet with average maneuverability. It can ascend at half speed and descend at double speed. The targeted object flies as you direct it, using your Fly skill for any difficult maneuvers. You must be within close range (25 ft. + 5 ft./2 levels) of the object to direct it, and moving it requires a move action. If not directed, the object hovers in place (no Fly check required). The maximum weight of the object and anything carried by it is 500 pounds per caster level (maximum 10,000 pounds).",
 			"",
-			"### Mythic Imbue with Flight",
+			":::mythic{title=\"Mythic Imbue with Flight\"}",
 			"",
-			"{SOURCE Mythic Origins/15}",
-			"",
+			"{SOURCE Mythic Origins/15}  ",
 			"If you expend one use of mythic power, you double the maximum weight of the object you can imbue with flight. You can expend additional uses of mythic power to increase the maximum size of the object you can imbue with flight. Imbuing a Huge object requires two uses of mythic power, imbuing a Gargantuan object requires four uses, and imbuing a Colossal object requires eight uses. These costs include the expenditure to cast a mythic spell, and count toward doubling the weight limit of the spell.",
 			"",
-			"Two or more casters can cast this spell in concert to share the mythic power cost. Each caster must expend an additional use of mythic power to cooperate; this does not count toward the other costs or effects of the spell. The group chooses which caster has control of the flight. As a full-round action, the controlling caster can cede control to another caster involved in the original casting of the spell."
+			"Two or more casters can cast this spell in concert to share the mythic power cost. Each caster must expend an additional use of mythic power to cooperate; this does not count toward the other costs or effects of the spell. The group chooses which caster has control of the flight. As a full-round action, the controlling caster can cede control to another caster involved in the original casting of the spell.",
+			"",
+			":::"
 		]
 	},
 	"imbue_with_spell_ability": {
@@ -2166,11 +2168,12 @@
 			"",
 			"On escaping or leaving the maze, the subject reappears where it had been when the maze spell was cast. If this location is filled with a solid object, the subject appears in the nearest open space. Spells and abilities that move a creature within a plane, such as teleport and dimension door, do not help a creature escape a maze spell, although a plane shift spell allows it to exit to whatever plane is designated in that spell. Minotaurs are not affected by this spell.",
 			"",
-			"### Mythic Maze",
+			":::mythic{title=\"Mythic Maze\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}",
+			"{SOURCE Mythic Adventures/100}  ",
+			"A spectral minotaur hunts the target trapped in the maze. Every round the creature fails to escape from the maze, it takes 2d8 + your tier points of piercing and slashing damage from this phantom opponent.",
 			"",
-			"A spectral minotaur hunts the target trapped in the maze. Every round the creature fails to escape from the maze, it takes 2d8 + your tier points of piercing and slashing damage from this phantom opponent."
+			":::"
 		]
 	},
 	"maze_of_madness_and_suffering": {
@@ -2291,15 +2294,16 @@
 			"",
 			"You cause the target to forget what happened from the casting of the spell back to the beginning of its last turn. This may allow a retry on a Diplomacy, Intimidate, or opposed skill check, though only with respect to the target, not other creatures that may be present.",
 			"",
-			"### Mythic Memory Lapse",
+			":::mythic{title=\"Mythic Memory Lapse\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}",
-			"",
+			"{SOURCE Mythic Adventures/100}  ",
 			"The target forgets an additional round, back to the beginning of the turn before its last turn.",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, you can spend 1 round implanting a false memory in the affected target. This false memory is limited to events that could have occurred during the time it just forgot, as if using {spell/modify memory} but limited to that short period of time. For example, you couldn't implant the memory of a lengthy conversation, as that couldn't happen in the forgotten length of time.",
 			"",
-			"The target can attempt a Will saving throw (DC equal to the mythic memory lapse DC plus your tier) to resist this implanted memory. Success means no memory is implanted, but the target still forgets the allotted time."
+			"The target can attempt a Will saving throw (DC equal to the mythic memory lapse DC plus your tier) to resist this implanted memory. Success means no memory is implanted, but the target still forgets the allotted time.",
+			"",
+			":::"
 		]
 	},
 	"memory_of_function": {
@@ -2569,13 +2573,14 @@
 			"",
 			"Once a sphere reaches its destination, it explodes in a 40-foot-radius spread, dealing 6d6 points of fire damage to each creature in the area. If a creature is within the area of more than one sphere, it must save separately against each. Despite stemming from separate spheres, all of the fire damage is added together after the saves have been made, and fire resistance is applied only once.",
 			"",
-			"### Mythic Meteor Swarm",
+			":::mythic{title=\"Mythic Meteor Swarm\"}",
 			"",
-			"{SOURCE Mythic Adventures/101}",
-			"",
+			"{SOURCE Mythic Adventures/101}  ",
 			"The meteors created by this spell deal bludgeoning damage in a line extending from you to the target destination where it explodes. Creatures in the path of a meteor take 2d10 points of bludgeoning damage and must succeed at a Fortitude save or be knocked prone. The damage from the exploding meteors increases to 6d10 points of fire damage. Creatures that fail their Reflex saves against the fire damage are also knocked prone and deafened for 1d4 rounds.",
 			"",
-			"*Augmented (10th):* If you expend two uses of mythic power, creatures in the path of a meteor also take 4d10 points of fire damage and the damage from the exploding meteors increases to 10d10 points of fire damage; this fire damage bypasses fire resistance and fire immunity."
+			"*Augmented (10th):* If you expend two uses of mythic power, creatures in the path of a meteor also take 4d10 points of fire damage and the damage from the exploding meteors increases to 10d10 points of fire damage; this fire damage bypasses fire resistance and fire immunity.",
+			"",
+			":::"
 		]
 	},
 	"meticulous_match": {
@@ -2688,11 +2693,12 @@
 			"",
 			"At 4th level, a {arc-monk/qinggong monk} may select this spell as a ki power costing 1 ki point to activate (if the monk has 0 ki points after activating this ki power, the rock does not count as a ki strike).",
 			"",
-			"### Mythic Mighty Fist of the Earth",
+			":::mythic{title=\"Mythic Mighty Fist of the Earth\"}",
 			"",
-			"{SOURCE Mythic Adventures/101}",
+			"{SOURCE Mythic Adventures/101}  ",
+			"Add your tier to the rock's attack roll and damage roll. Increase the critical multiplier of the attack by 1 (maximum &times;4).",
 			"",
-			"Add your tier to the rock's attack roll and damage roll. Increase the critical multiplier of the attack by 1 (maximum &times;4)."
+			":::"
 		]
 	},
 	"mighty_strength": {
@@ -3372,11 +3378,12 @@
 			"",
 			"An attacker must be able to see the figments to be fooled. If you are invisible or the attacker is blind, the spell has no effect (although the normal miss chances still apply).",
 			"",
-			"### Mythic Mirror Image",
+			":::mythic{title=\"Mythic Mirror Image\"}",
 			"",
-			"{SOURCE Mythic Adventures/101}",
+			"{SOURCE Mythic Adventures/101}  ",
+			"The maximum number of images generated by this spell increases to 12. Destroying an image creates a flash of light. Any creature that destroys an image must succeed at a Will save or be dazzled for 1 round.",
 			"",
-			"The maximum number of images generated by this spell increases to 12. Destroying an image creates a flash of light. Any creature that destroys an image must succeed at a Will save or be dazzled for 1 round."
+			":::"
 		]
 	},
 	"mirror_mantis": {
@@ -3530,15 +3537,16 @@
 			"",
 			"The illusory double lasts as long as you concentrate upon it, plus 3 additional rounds. After you cease concentration, the illusory double continues to carry out the same activity until the duration expires. The greater invisibility lasts for 1 round per level, regardless of concentration.",
 			"",
-			"### Mythic Mislead",
+			":::mythic{title=\"Mythic Mislead\"}",
 			"",
-			"{SOURCE Mythic Adventures/101}",
-			"",
+			"{SOURCE Mythic Adventures/101}  ",
 			"You create one illusory double per 5 caster levels, each of which appears in your square or in an unoccupied square adjacent to yours. When you cast the spell, you can give each of these doubles a simple programmed task as a telepathic command, such a \"walk south,\" \"beg for mercy,\" or \"walk south,\"",
 			"",
 			"You can change or modify a single illusory double's programmed task by spending a swift, move, or standard action; this requires concentration.",
 			"",
-			"*Augmented (4th):* If you expend two uses of mythic power, this spell also grants you the benefits of augmented mythic invisibility instead of greater invisibility."
+			"*Augmented (4th):* If you expend two uses of mythic power, this spell also grants you the benefits of augmented mythic invisibility instead of greater invisibility.",
+			"",
+			":::"
 		]
 	},
 	"mnemonic_enhancer": {
@@ -3611,13 +3619,14 @@
 			"",
 			"A modified memory does not necessarily affect the subject's actions, particularly if it contradicts the creature's natural inclinations. An illogical modified memory is dismissed by the creature as a bad dream, too much wine, or another similar excuse.",
 			"",
-			"### Mythic Modify Memory",
+			":::mythic{title=\"Mythic Modify Memory\"}",
 			"",
-			"{SOURCE Mythic Adventures/102}",
-			"",
+			"{SOURCE Mythic Adventures/102}  ",
 			"You can modify an additional 5 minutes of the subject's memory per tier. You may affect multiple memories with one casting of the spell, as long as the total number of minutes doesn't exceed this limit. Each affected memory counts as a minimum of 5 minutes. For example, you could implant a memory of having a brief meeting with the mayor before lunch and another brief meeting just after dinner, even though the two events would have been hours apart.",
 			"",
-			"*Augmented (8th):* If you expend four uses of mythic power, instead of altering the target's memories, you alter all other creatures' memories of the target (only the target gets a saving throw against the spell). All creatures on the same plane as the target forget his name, their relationship to him, and everything he has done; he is essentially a stranger to them. Any important acts by the target are attributed to someone else. Everyone's memories of history are rewritten to incorporate this change. The target's memories are unaffected. You can exclude a number of other creatures up to your tier from the effects of this spell (so they remember the truth), including yourself if you wish. Written records are unchanged unless you expend an additional six uses of mythic power when you cast the spell, and written records on other planes remain unchanged regardless."
+			"*Augmented (8th):* If you expend four uses of mythic power, instead of altering the target's memories, you alter all other creatures' memories of the target (only the target gets a saving throw against the spell). All creatures on the same plane as the target forget his name, their relationship to him, and everything he has done; he is essentially a stranger to them. Any important acts by the target are attributed to someone else. Everyone's memories of history are rewritten to incorporate this change. The target's memories are unaffected. You can exclude a number of other creatures up to your tier from the effects of this spell (so they remember the truth), including yourself if you wish. Written records are unchanged unless you expend an additional six uses of mythic power when you cast the spell, and written records on other planes remain unchanged regardless.",
+			"",
+			":::"
 		]
 	},
 	"molten_orb": {
@@ -3899,15 +3908,16 @@
 			"| 51 to 100 | 1d4+1 minutes |",
 			"| 101 to 200 | 1d4+1 rounds |",
 			"",
-			"### Mythic Power Word Blind",
+			":::mythic{title=\"Mythic Power Word Blind\"}",
 			"",
-			"{SOURCE Mythic Adventures/103}",
-			"",
+			"{SOURCE Mythic Adventures/103}  ",
 			"Treat the target's current hit point total as though it were lowered by 5 times your tier. For example, a 3rd-tier archmage casting mythic power word blind would affect a creature with 60 hp as though it had 45 hp, and the spell would permanently blind the target.",
 			"",
 			"You can target a creature with more hit points than this spell could normally affect, causing it to treat all opponents as though they had concealment (20% miss chance) for 1d4 rounds.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, the magic of the word lingers around the target. Until the beginning of your next turn, if the target's hit points are reduced enough to put it in a lower category for the spell's effects, the spell affects the creature according to its new hit point total. For example, a creature in the 101 to 200 hp category reduced to 80 hp immediately becomes blinded for 1d4+1 minutes instead of 1d4+1 rounds. The spell's effects don't diminish if the target regains hit points."
+			"*Augmented (3rd):* If you expend two uses of mythic power, the magic of the word lingers around the target. Until the beginning of your next turn, if the target's hit points are reduced enough to put it in a lower category for the spell's effects, the spell affects the creature according to its new hit point total. For example, a creature in the 101 to 200 hp category reduced to 80 hp immediately becomes blinded for 1d4+1 minutes instead of 1d4+1 rounds. The spell's effects don't diminish if the target regains hit points.",
+			"",
+			":::"
 		]
 	},
 	"power_word_kill": {
@@ -3930,15 +3940,16 @@
 			"",
 			"You utter a single word of power that instantly kills one creature of your choice, whether the creature can hear the word or not. Any creature that currently has 101 or more hit points is unaffected by power word kill.",
 			"",
-			"### Mythic Power Word Kill",
+			":::mythic{title=\"Mythic Power Word Kill\"}",
 			"",
-			"{SOURCE Mythic Adventures/103}",
-			"",
+			"{SOURCE Mythic Adventures/103}  ",
 			"Treat the target's current hit point total as though it were lowered by 5 times your tier. For example, a 3rd-tier archmage casting mythic power word kill would instantly kill a creature with 85 hit points or fewer.",
 			"",
 			"You can target a creature with more hit points than this spell could normally affect, causing it to become exhausted.",
 			"",
-			"*Augmented (6th):* If you expend four uses of mythic power, the magic of the word lingers around the target. Until the beginning of your next turn, if the target's hit point total drops to the point that this spell would have killed it upon casting, it's instantly slain."
+			"*Augmented (6th):* If you expend four uses of mythic power, the magic of the word lingers around the target. Until the beginning of your next turn, if the target's hit point total drops to the point that this spell would have killed it upon casting, it's instantly slain.",
+			"",
+			":::"
 		]
 	},
 	"power_word_stun": {
@@ -3967,15 +3978,16 @@
 			"| 51 to 100 | 2d4 rounds |",
 			"| 101 to 150 | 1d4 rounds |",
 			"",
-			"### Mythic Power Word Stun",
+			":::mythic{title=\"Mythic Power Word Stun\"}",
 			"",
-			"{SOURCE Mythic Adventures/104}",
-			"",
+			"{SOURCE Mythic Adventures/104}  ",
 			"Treat the target's current hit point total as though it were lowered by 5 times your tier. For example, a 3rd-tier archmage casting this spell would affect a creature with 60 hp as though it had 45 hp, and the spell would last an additional 2d4 rounds.",
 			"",
 			"You can target a creature with more hit points than this spell could normally affect, causing it to become dazed for 1 round.",
 			"",
-			"*Augmented (6th):* If you expend three uses of mythic power, the magic of the word lingers around the target. Until the beginning of your next turn, if the target's hit points are reduced enough to put it in a lower category for the spell's effects, the spell affects the creature according to its new hit point total. For example, a creature in the 101 to 150 hp category reduced to 80 hp is immediately stunned for an additional 1d4 rounds. The spell's effects don't diminish if the target regains hit points."
+			"*Augmented (6th):* If you expend three uses of mythic power, the magic of the word lingers around the target. Until the beginning of your next turn, if the target's hit points are reduced enough to put it in a lower category for the spell's effects, the spell affects the creature according to its new hit point total. For example, a creature in the 101 to 150 hp category reduced to 80 hp is immediately stunned for an additional 1d4 rounds. The spell's effects don't diminish if the target regains hit points.",
+			"",
+			":::"
 		]
 	},
 	"pox_of_rumors": {
@@ -4018,11 +4030,12 @@
 			"",
 			"You inflict a painful, itching rash on the target creature. The target is sickened and takes a -4 penalty to Dexterity (this penalty cannot lower Dexterity below 0). The target can spend a move action scratching furiously at the rash to remove the sickened condition (but not the Dexterity penalty) until the start of its next turn.",
 			"",
-			"### Mythic Pox Pustules",
+			":::mythic{title=\"Mythic Pox Pustules\"}",
 			"",
-			"{SOURCE Mythic Adventures/104}",
+			"{SOURCE Mythic Adventures/104}  ",
+			"The Dexterity penalty increases to -6. The target takes 1 point of bleed damage each round. If the target spends a move action scratching, increase its bleed damage each round by 1. If the bleeding is stopped, scratching causes it to start again at 1 point of bleed per round.",
 			"",
-			"The Dexterity penalty increases to -6. The target takes 1 point of bleed damage each round. If the target spends a move action scratching, increase its bleed damage each round by 1. If the bleeding is stopped, scratching causes it to start again at 1 point of bleed per round."
+			":::"
 		]
 	},
 	"prayer": {
@@ -4045,11 +4058,12 @@
 			"",
 			"You bring special favor upon yourself and your allies while bringing disfavor to your enemies. You and each of your allies gain a +1 luck bonus on attack rolls, weapon damage rolls, saves, and skill checks, while each of your foes takes a -1 penalty on such rolls.",
 			"",
-			"### Mythic Prayer",
+			":::mythic{title=\"Mythic Prayer\"}",
 			"",
-			"{SOURCE Mythic Adventures/104}",
+			"{SOURCE Mythic Adventures/104}  ",
+			"The spell's luck bonus increases to +2, and the penalty for enemies changes to -2. When you cast the spell, your affected allies heal an amount of hit point damage equal to double your tier, and affected enemies take an amount of damage equal to double your tier.",
 			"",
-			"The spell's luck bonus increases to +2, and the penalty for enemies changes to -2. When you cast the spell, your affected allies heal an amount of hit point damage equal to double your tier, and affected enemies take an amount of damage equal to double your tier."
+			":::"
 		]
 	},
 	"prediction_of_failure": {
@@ -4235,11 +4249,12 @@
 			"",
 			"Prismatic sphere can be made permanent with a {spell/permanency} spell.",
 			"",
-			"### Mythic Prismatic Sphere",
+			":::mythic{title=\"Mythic Prismatic Sphere\"}",
 			"",
-			"{SOURCE Mythic Adventures/104}",
+			"{SOURCE Mythic Adventures/104}  ",
+			"When you cast the spell, you simultaneously create a prismatic spray that originates from one point on the sphere and radiates directly away from you. The save DC of this prismatic spray is the same as that of your mythic prismatic sphere.",
 			"",
-			"When you cast the spell, you simultaneously create a prismatic spray that originates from one point on the sphere and radiates directly away from you. The save DC of this prismatic spray is the same as that of your mythic prismatic sphere."
+			":::"
 		]
 	},
 	"prismatic_spray": {
@@ -4273,13 +4288,14 @@
 			"| 7 | Violet | Sent to another plane (Will negates) |",
 			"| 8 | Struck by two rays | Roll twice more, ignoring any \"8\" results |",
 			"",
-			"### Mythic Prismatic Spray",
+			":::mythic{title=\"Mythic Prismatic Spray\"}",
 			"",
-			"{SOURCE Mythic Adventures/104}",
-			"",
+			"{SOURCE Mythic Adventures/104}  ",
 			"The spell automatically blinds creatures with up to 12 Hit Dice instead of 8 Hit Dice. Attempt one {rule/bull rush} combat maneuver and apply its results to each creature in the area. Your CMB for this bull rush is equal to your caster level plus your Intelligence, Wisdom, or Charisma modifier, whichever is highest. This bull rush doesn't provoke an attack of opportunity.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, the area changes from a cone into a line. Creatures in the line are struck by two beams (or three, if the creature rolls an 8 on the table). The spell bypasses energy resistance and immunity."
+			"*Augmented (6th):* If you expend two uses of mythic power, the area changes from a cone into a line. Creatures in the line are struck by two beams (or three, if the creature rolls an 8 on the table). The spell bypasses energy resistance and immunity.",
+			"",
+			":::"
 		]
 	},
 	"prismatic_wall": {

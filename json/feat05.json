@@ -215,13 +215,14 @@
 			"**Prerequisites:** Divine spellcaster, caster level 10th.  ",
 			"**Benefit:** As an immediate action, when an enemy within 30 feet hits an ally with an attack, you can sacrifice a prepared divine spell or (if you are a spontaneous caster) an unused spell slot and make the enemy reroll the attack roll. The second attack roll takes a penalty equal to the level of the spell you sacrifice. You must sacrifice a spell of 1st-level or higher to use this ability. Whether or not the second attack is successful, you cannot use this effect on the same creature again for 1 day.",
 			"",
-			"### Mythic Divine Interference",
+			":::mythic{title=\"Mythic Divine Interference\"}",
 			"",
-			"{SOURCE Mythic Adventures/63}",
-			"",
+			"{SOURCE Mythic Adventures/63}  ",
 			"Your divine power thwarts enemies of your faith.  ",
 			"**Prerequisites:** Divine Interference.  ",
-			"**Benefit:** When you use Divine Interference, the penalty on your opponent's attack roll is equal to twice the level of the spell sacrificed. You can expend one use of mythic power when you sacrifice the spell to increase the penalty to triple the level of the spell sacrificed."
+			"**Benefit:** When you use Divine Interference, the penalty on your opponent's attack roll is equal to twice the level of the spell sacrificed. You can expend one use of mythic power when you sacrifice the spell to increase the penalty to triple the level of the spell sacrificed.",
+			"",
+			":::"
 		]
 	},
 	"divine_protection": {
@@ -265,10 +266,12 @@
 			"**Prerequisites:** Con 15, Wis 17, {feat/Djinni Style}, {feat/Djinni Spirit}, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +13 or monk level 11th.  ",
 			"**Benefit:** While using Djinni Style, as a standard action you can spend two Elemental Fist attempts to surround yourself with a whirlwind of electrified air. Creatures adjacent to you take your unarmed strike damage plus the electricity damage from your Elemental Fist and are deafened for 1d4 rounds. A successful Fortitude save (DC 10 + 1/2 your character level + your Wis modifier) reduces the damage by half and prevents a target from being deafened.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">Instead of spending two uses of Elemental Fist to surround yourself in a whirlwind of electrified air, you can spend one use of Elemental Fist and 2 stamina points."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"Instead of spending two uses of Elemental Fist to surround yourself in a whirlwind of electrified air, you can spend one use of Elemental Fist and 2 stamina points.",
+			"",
+			":::"
 		]
 	},
 	"djinni_spirit": {
@@ -286,10 +289,12 @@
 			"**Prerequisites:** Con 15, Wis 15, {feat/Djinni Style}, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +11 or monk level 9th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using Djinni Style, you gain electricity resistance equal to your base attack bonus or monk level, whichever is higher. While denied your Dexterity bonus to AC you are also denied this resistance. Creatures that take electricity damage from your Elemental Fist attack must succeed at a Fortitude save (DC 10 + 1/2 your character level + your Wis modifier) or be {misc/deafened} for 1d4 rounds. Those who take damage from your Djinni Spin are deafened, even on a successful saving throw.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">When you make an Elemental Fist attack, you can spend up to 5 stamina points to increase the DC of the saving throw of the deafening effect by an amount equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"When you make an Elemental Fist attack, you can spend up to 5 stamina points to increase the DC of the saving throw of the deafening effect by an amount equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"djinni_style": {
@@ -307,10 +312,12 @@
 			"**Prerequisites:** Con 13, Wis 15, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +9 or monk level 5th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. While you are in this style you must use Elemental Fist to deal electricity damage and you gain a bonus on electricity damage rolls equal to your Wisdom bonus. Further, while you are using this style and have remaining Elemental Fist attempts, you also gain a +2 dodge bonus to Armor Class against attacks of opportunity. A condition that makes you lose your Dexterity bonus to AC also makes you lose this dodge bonus.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">When you make an Elemental Fist attack to deal electricity damage, you can spend up to 5 stamina points. If you do, you deal an amount of additional electricity damage equal to double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"When you make an Elemental Fist attack to deal electricity damage, you can spend up to 5 stamina points. If you do, you deal an amount of additional electricity damage equal to double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"dodge": {
@@ -330,18 +337,21 @@
 			"**Prerequisites:** Dex 13.  ",
 			"**Benefit:** You gain a +1 dodge bonus to your AC. A condition that makes you lose your Dex bonus to AC also makes you lose the benefits of this feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">When you move your speed or farther, you can spend a number of stamina points up to double your Dexterity bonus. If you do, until the start of your next turn, you gain an increase to the dodge bonus granted by the Dodge feat equal to half the number of stamina points you spent.",
+			":::stamina",
 			"",
-			"### Mythic Dodge",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"When you move your speed or farther, you can spend a number of stamina points up to double your Dexterity bonus. If you do, until the start of your next turn, you gain an increase to the dodge bonus granted by the Dodge feat equal to half the number of stamina points you spent.",
 			"",
-			"{SOURCE Mythic Adventures/63}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Dodge\"}",
+			"",
+			"{SOURCE Mythic Adventures/63}  ",
 			"When focused, you become nearly impossible to strike.  ",
 			"**Prerequisites:** Dodge.  ",
 			"**Benefit:** The bonus to AC from Dodge increases by 1. As an immediate action, you can expend one use of mythic power to grant yourself an additional +10 dodge bonus to AC against one attack.",
+			"",
+			":::",
 			"",
 			":::elephant",
 			"",
@@ -438,10 +448,12 @@
 			"**Benefit:** When you gain this feat, choose one domain-granted power that you can use to affect no more than one opponent. If you make a successful unarmed strike against an opponent, in addition to dealing your unarmed strike damage, you can use a swift action to deliver the effects of the chosen granted power to that opponent. Doing so provokes no attacks of opportunity.  ",
 			"**Special:** You can take this feat multiple times. Each time you take it, you apply it to a different qualifying domain power.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">You can spend 2 stamina points to apply the effects of your chosen domain power as a free action instead of a swift action."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"You can spend 2 stamina points to apply the effects of your chosen domain power as a free action instead of a swift action.",
+			"",
+			":::"
 		]
 	},
 	"domino_crash": {
@@ -504,10 +516,12 @@
 			"**Benefit:** Add your Strength bonus to damage rolls made with your off-hand weapon.  ",
 			"**Normal:** You normally add only half of your Strength modifier to damage rolls made with a weapon wielded in your off-hand.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">When you hit an opponent with both a primary-hand attack and an off-hand attack while using Two-Weapon Fighting, you can spend a number of stamina points up to half your Strength bonus. If you do, add a bonus on the damage roll of the second of the two attacks equal to the number of stamina points you spent. You can use this combat trick only once per round."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"When you hit an opponent with both a primary-hand attack and an off-hand attack while using Two-Weapon Fighting, you can spend a number of stamina points up to half your Strength bonus. If you do, add a bonus on the damage roll of the second of the two attacks equal to the number of stamina points you spent. You can use this combat trick only once per round.",
+			"",
+			":::"
 		]
 	},
 	"draconian_law": {
@@ -727,10 +741,12 @@
 			"**Prerequisites:** Int 13, {feat/Combat Expertise}, {feat/Improved Trip}.  ",
 			"**Benefit:** Whenever an opponent successfully trips you, you can attempt to {rule/trip} that opponent as an immediate action.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. If your retributive trip combat maneuver from Drag Down succeeds by 10 or more, you can spend 5 stamina points to stand up from prone without provoking an attack of opportunity as part of the same immediate action as the trip attempt."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina pool. If your retributive trip combat maneuver from Drag Down succeeds by 10 or more, you can spend 5 stamina points to stand up from prone without provoking an attack of opportunity as part of the same immediate action as the trip attempt.",
+			"",
+			":::"
 		]
 	},
 	"dragon_ferocity": {
@@ -749,10 +765,12 @@
 			"**Benefit:** While using Dragon Style, increase your Strength bonus on unarmed strike damage rolls by an additional one-half your Strength bonus, to a total of double your Strength bonus on the first attack and 1-1/2 times your Strength bonus on the other attacks. When you score a critical hit or a successful Stunning Fist attempt against an opponent while using this style, that opponent is also shaken for a number of rounds equal to 1d4 + your Strength bonus.  ",
 			"**Special:** Taking this feat allows you to qualify for the {feat/Elemental Fist} feat even if you do not meet that feat's prerequisites. If you do not meet that feat's prerequisites, you must choose one of the damage types that feat offers, and you can use only that damage type with your Elemental Fist attacks until you meet the feat's normal prerequisites. A monk with this feat can use Elemental Fist as if he were a monk of the four winds.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">When you use this feat to make a foe shaken with a critical hit or a successful Stunning Fist attempt, you can spend 5 stamina points to also sicken that foe for 1d4 rounds."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"When you use this feat to make a foe shaken with a critical hit or a successful Stunning Fist attempt, you can spend 5 stamina points to also sicken that foe for 1d4 rounds.",
+			"",
+			":::"
 		]
 	},
 	"dragon_gold_crown": {
@@ -784,10 +802,12 @@
 			"**Benefit:** You gain one additional Stunning Fist attempt per day. While using Dragon Style, as a standard action you can expend two Stunning Fist attempts to unleash a concussive roar in a 15-foot cone. Creatures caught in the cone take your unarmed strike damage and become {misc/shaken} for 1d4 rounds. A successful Will save (DC 10 + 1/2 your character level + your Wis modifier) reduces the damage by half and prevents a target from being shaken.  ",
 			"**Special:** If you have the {feat/Elemental Fist} feat, you can expend a daily use of that feat to deal your Elemental Fist damage to those caught in the cone. This damage is not halved even on a save.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">Instead of spending two uses of Stunning Fist to unleash a concussive roar, you can spend one use of Stunning Fist and 5 stamina points to do so."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"Instead of spending two uses of Stunning Fist to unleash a concussive roar, you can spend one use of Stunning Fist and 5 stamina points to do so.",
+			"",
+			":::"
 		]
 	},
 	"dragon_shot": {
@@ -819,10 +839,12 @@
 			"**Benefit:** While using this style, you gain a +2 bonus on saving throws against sleep effects, paralysis effects, and stunning effects. You ignore {rule/difficult terrain} when you {rule/charge}, {rule/run}, or {rule/withdraw}. You can also charge through squares that contain allies. Further, you can add 1-1/2 times your Strength bonus on the damage roll for your first unarmed strike on a given round.  ",
 			"**Normal:** You cannot charge or run through difficult terrain, and you cannot charge through a square that contains an ally. With an unarmed strike, you usually add your Strength bonus on damage rolls.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">On your second and all subsequent unarmed strike attacks made in a round, you can spend 3 stamina points before making each attack to add 1-1/2 times your Strength modifier to that attack's damage roll."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"On your second and all subsequent unarmed strike attacks made in a round, you can spend 3 stamina points before making each attack to add 1-1/2 times your Strength modifier to that attack's damage roll.",
+			"",
+			":::"
 		]
 	},
 	"dragonbane_aura": {
@@ -968,10 +990,12 @@
 			"**Prerequisites:** Dex 13, Wis 13, {feat/Improved Unarmed Strike}, base attack bonus +8.  ",
 			"**Benefit:** You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). Draining Strike forces a foe that was damaged by your unarmed attack to attempt a Fortitude saving throw (DC = 10 + 1/2 your character level + your Wisdom modifier), in addition to dealing damage normally. A defender who fails this saving throw is {misc/fatigued} for 1 minute or until the foe is subject to any spell or effect that heals hit point damage. If you have a base attack bonus of +14 or higher, the target is {misc/exhausted} for the same duration instead. You can attempt to use Draining Strike once per day for every 4 character levels you have, but you can use it no more than once per round. Constructs, incorporeal creatures, plants, undead, and creatures that are immune to critical hits cannot be affected by this ability.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">You can spend 5 stamina points to declare that you are using Draining Strike after you've hit with an unarmed strike attack."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"You can spend 5 stamina points to declare that you are using Draining Strike after you've hit with an unarmed strike attack.",
+			"",
+			":::"
 		]
 	},
 	"dramatic_display": {
@@ -989,10 +1013,12 @@
 			"**Prerequisites:** {feat/Dazzling Display}.  ",
 			"**Benefit:** When you spend a swift action to make a {rule/performance c/heck>ombat}, you exude an aura of awe-inspiring skill. You gain a +2 bonus on your performance check, and gain a +2 bonus on all attack rolls and combat maneuver checks until the end of your next turn.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">When using this feat, you can spend 5 stamina points to also gain a +2 dodge bonus to AC until the end of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"When using this feat, you can spend 5 stamina points to also gain a +2 dodge bonus to AC until the end of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"dramatic_slam": {
@@ -1024,18 +1050,21 @@
 			"**Prerequisites:** Str 15, {feat/Power Attack}, {feat/Furious Focus}, base attack bonus +11.  ",
 			"**Benefit:** Whenever you reduce an enemy to 0 or fewer hit points, you can make an {skill/Intimidate} check to demoralize all enemies within 30 feet as a free action. Enemies that cannot see both you and the enemy you reduced to 0 or fewer hit points are unaffected.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">When you reduce an enemy to 0 or fewer hit points, you can spend up to 6 stamina points to increase the radius of this feat's effect by 5 feet for each stamina point you spent (to a maximum of 60 feet).",
+			":::stamina",
 			"",
-			"### Mythic Dreadful Carnage",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"When you reduce an enemy to 0 or fewer hit points, you can spend up to 6 stamina points to increase the radius of this feat's effect by 5 feet for each stamina point you spent (to a maximum of 60 feet).",
 			"",
-			"{SOURCE Mythic Adventures/63}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Dreadful Carnage\"}",
+			"",
+			"{SOURCE Mythic Adventures/63}  ",
 			"Your kills are truly frightening to behold.  ",
 			"**Prerequisites:** Dreadful Carnage.  ",
-			"**Benefit:** When you use Dreadful Carnage, you affect non-mythic enemies within 60 feet in addition to all enemies within 30 feet. You can expend one use of mythic power before making the Intimidate check to cause enemies demoralized by Dreadful Carnage to become {misc/frightened} instead of shaken, for the same duration as the normal shaken effect. While frightened by this ability, an enemy takes a penalty equal to your tier on attack rolls, saving throws, skill checks, and ability checks."
+			"**Benefit:** When you use Dreadful Carnage, you affect non-mythic enemies within 60 feet in addition to all enemies within 30 feet. You can expend one use of mythic power before making the Intimidate check to cause enemies demoralized by Dreadful Carnage to become {misc/frightened} instead of shaken, for the same duration as the normal shaken effect. While frightened by this ability, an enemy takes a penalty equal to your tier on attack rolls, saving throws, skill checks, and ability checks.",
+			"",
+			":::"
 		]
 	},
 	"dreamed_secrets": {
@@ -1291,10 +1320,12 @@
 			"**Prerequisites:** {feat/Aldori Dueling Disciple}, {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword), base attack bonus +5.  ",
 			"**Benefit:** When you use an {eq-weapon/Aldori dueling sword} to deal damage to a {misc/shaken}, {misc/frightened}, or {misc/panicked} foe, you can add your Dexterity bonus to damage rolls instead of your Strength bonus. If you can already add your Dexterity bonus to damage rolls, you instead gain a +1 competence bonus on damage rolls made with an Aldori dueling sword. When you attempt a {rule/dueling parry} during a duel, the penalty on your attack roll to parry is reduced from -5 to -3. To gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/24}",
-			">",
-			">When you hit a foe with a melee attack made using an Aldori dueling sword, you can spend 4 stamina points to treat that foe as being shaken for the purpose of gaining a bonus from Duelist of the Roaring Falls until the start of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/24}  ",
+			"When you hit a foe with a melee attack made using an Aldori dueling sword, you can spend 4 stamina points to treat that foe as being shaken for the purpose of gaining a bonus from Duelist of the Roaring Falls until the start of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"duelist_of_the_shrouded_lake": {
@@ -1313,10 +1344,12 @@
 			"**Prerequisites:** {feat/Aldori Dueling Disciple}, {feat/Exotic Weapon Proficiency} (Aldori dueling sword), {feat/Weapon Finesse}, {feat/Weapon Focus} (Aldori dueling sword), base attack bonus +5.  ",
 			"**Benefit:** When attempting to {rule/bull rush} or {rule/reposition} a foe, you gain a +1 insight bonus on the combat maneuver check and a +4 dodge bonus to your AC against attacks of opportunity you provoke. You also gain a +1 insight bonus to your CMD against bull rush and reposition attempts. When you attempt a {rule/dueling dodge} during a duel, your bonus to AC increases to +6. To gain these benefits, you must be wielding only an {eq-weapon/Aldori dueling sword} (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Weapon Master's Handbook/24}",
-			">",
-			">By spending 5 stamina points when you attempt a combat maneuver check with an Aldori dueling sword, you gain a +4 bonus to your AC against attacks made by that target until the beginning of your next turn."
+			":::stamina",
+			"",
+			"{SOURCE Weapon Master's Handbook/24}  ",
+			"By spending 5 stamina points when you attempt a combat maneuver check with an Aldori dueling sword, you gain a +4 bonus to your AC against attacks made by that target until the beginning of your next turn.",
+			"",
+			":::"
 		]
 	},
 	"dwarf_blooded": {
@@ -1428,13 +1461,14 @@
 			"**Prerequisites:** Wis 13, keen senses racial trait.  ",
 			"**Benefit:** You ignore up to -5 in penalties due to distance on visual Perception checks, allowing you to see accurately at much greater distances than most.",
 			"",
-			"### Mythic Eagle Eyes",
+			":::mythic{title=\"Mythic Eagle Eyes\"}",
 			"",
-			"{SOURCE Mythic Adventures/64}",
-			"",
+			"{SOURCE Mythic Adventures/64}  ",
 			"You eyesight rivals that of the most far-seeing raptors.  ",
 			"**Prerequisites:** Eagle Eyes.  ",
-			"**Benefit:** You ignore up to -10 in penalties due to distance on visual Perception checks, instead of the normal -5. As a swift action, you can expend one use of mythic power to ignore all penalties due to distance on visual Perception checks for 1 round."
+			"**Benefit:** You ignore up to -10 in penalties due to distance on visual Perception checks, instead of the normal -5. As a swift action, you can expend one use of mythic power to ignore all penalties due to distance on visual Perception checks for 1 round.",
+			"",
+			":::"
 		]
 	},
 	"eagle_knight_candidate": {
@@ -1501,10 +1535,12 @@
 			"**Benefit:** You can trip a creature of the giant subtype no matter its size. While you are using Earth Child Style, when a {rule/prone} creature of the giant subtype stands up and provokes an attack of opportunity from you, if you make an unarmed strike, you can declare you are making a Stunning Fist attempt after the attack hits. You gain a +4 bonus to the DC of any Stunning Fist effect you deliver in this way.  ",
 			"**Normal:** You can only trip opponents who are one size category larger than you.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">You can spend 5 stamina points to use Stunning Fist without expending a normal use of Stunning Fist when a creature with the giant subtype provokes an attack of opportunity by standing up."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"You can spend 5 stamina points to use Stunning Fist without expending a normal use of Stunning Fist when a creature with the giant subtype provokes an attack of opportunity by standing up.",
+			"",
+			":::"
 		]
 	},
 	"earth_child_style": {
@@ -1522,10 +1558,12 @@
 			"**Prerequisites:** Wis 13, {race/dwarf} or {race/gnome}, defensive training racial trait, {feat/Improved Unarmed Strike}, Acrobatics 3 ranks.  ",
 			"**Benefit:** While using this style, your defensive training dodge bonus to AC increases to +6. Further, against creatures of the giant subtype, you can add your Wisdom bonus on your unarmed strike damage rolls.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/118}",
-			">",
-			">When you make a successful unarmed strike attack against a creature that has the giant subtype, you can spend up to 5 stamina points to gain a bonus on the damage roll equal to double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/118}  ",
+			"When you make a successful unarmed strike attack against a creature that has the giant subtype, you can spend up to 5 stamina points to gain a bonus on the damage roll equal to double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"earth_child_topple": {
@@ -1544,10 +1582,12 @@
 			"**Benefit:** You can {rule/trip} a creature of the giant subtype of up to Huge size. While using Earth Child Style, you add your Wisdom bonus on combat maneuver checks made to trip a creature of the giant subtype, as well as on attack rolls to confirm a critical hit against such a creature.  ",
 			"**Normal:** You can trip only those opponents that are one size category larger than you.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When you trip a creature with the giant subtype, you can spend 3 stamina points to cause the creature to also take 2d6 points of falling damage."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When you trip a creature with the giant subtype, you can spend 3 stamina points to cause the creature to also take 2d6 points of falling damage.",
+			"",
+			":::"
 		]
 	},
 	"earth_magic": {
@@ -1754,10 +1794,12 @@
 			"**Prerequisites:** Con 15, Wis 15, {feat/Efreeti Style}, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +11 or monk level 9th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using Efreeti Style, you gain fire resistance equal to your base attack bonus or your monk level plus any base attack bonus gained from levels in classes other than monk, whichever is higher. While denied your Dexterity bonus to AC you are also denied this resistance. Creatures that take fire damage from your Elemental Fist attack must succeed at a Reflex save (DC 10 + 1/2 your character level + your Wis modifier) or catch on fire.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When making an Elemental Fist attack, you can spend up to 5 stamina points to increase the DC of the saving throw to avoid catching on fire by an amount equal to the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When making an Elemental Fist attack, you can spend up to 5 stamina points to increase the DC of the saving throw to avoid catching on fire by an amount equal to the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"efreeti_style": {
@@ -1775,10 +1817,12 @@
 			"**Prerequisites:** Con 13, Wis 15, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +9 or monk level 5th.  ",
 			"**Benefit:** You gain one additional Elemental Fist attempt per day. While using this style and Elemental Fist to deal fire damage, you gain a bonus on fire damage rolls equal to your Wisdom bonus. Further, if your Elemental Fist melee attack misses while you are using it to deal fire damage, you still deal 1d6 points of fire damage to your target.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When you make an Elemental Fist attack to deal fire damage, you can spend up to 5 stamina points. When you do, you deal an amount of additional fire damage equal to double the number of stamina points you spent."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When you make an Elemental Fist attack to deal fire damage, you can spend up to 5 stamina points. When you do, you deal an amount of additional fire damage equal to double the number of stamina points you spent.",
+			"",
+			":::"
 		]
 	},
 	"efreeti_touch": {
@@ -1796,10 +1840,12 @@
 			"**Prerequisites:** Con 15, Wis 17, {feat/Efreeti Style}, {feat/Efreeti Stance}, {feat/Elemental Fist}, {feat/Improved Unarmed Strike}, base attack bonus +13 or monk level 11th.  ",
 			"**Benefit:** While using Efreeti Style, as a standard action, you can spend two Elemental Fist attempts to unleash a 15-foot cone-shaped burst of flame. Creatures caught in the cone take your unarmed strike damage plus the fire damage from your Elemental Fist and catch on fire. A successful Reflex save (DC 10 + 1/2 your character level + your Wis modifier) reduces the damage by half and prevents a target from catching on fire.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">Instead of spending two uses of Elemental Fist to unleash a cone of flame, you can spend one use of Elemental Fist and 2 stamina points."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"Instead of spending two uses of Elemental Fist to unleash a cone of flame, you can spend one use of Elemental Fist and 2 stamina points.",
+			"",
+			":::"
 		]
 	},
 	"eidolon_mount": {
@@ -1857,10 +1903,12 @@
 			"**Prerequisites:** Str 15, natural weapons, base attack bonus +6.  ",
 			"**Benefit:** You natural weapons are considered both magic and silver for purpose of overcoming damage reduction.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">As long as you have 1 stamina point in your stamina pool, your claws are also considered to be cold iron weapons for the purpose of overcoming damage reduction."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"As long as you have 1 stamina point in your stamina pool, your claws are also considered to be cold iron weapons for the purpose of overcoming damage reduction.",
+			"",
+			":::"
 		]
 	},
 	"eldritch_heritage": {
@@ -1878,13 +1926,14 @@
 			"**Prerequisites:** Cha 13, {feat/Skill Focus} with the class skill of bloodline selected for this feat (see below), character level 3rd.  ",
 			"**Benefit:** Select one {ability/sorcerer bloodline>s}. You must have Skill Focus in the class skill that bloodline grants to a sorcerer at 1st level (for example, Heal for the {sorcbloodline/celestial} bloodline). This bloodline cannot be a bloodline you already have. You gain the first-level bloodline power for the selected bloodline. For purposes of using that power, treat your sorcerer level as equal to your character level - 2, even if you have levels in sorcerer. You do not gain any of the other bloodline abilities.",
 			"",
-			"### Mythic Eldritch Heritage",
+			":::mythic{title=\"Mythic Eldritch Heritage\"}",
 			"",
-			"{SOURCE Mythic Adventures/64}",
-			"",
+			"{SOURCE Mythic Adventures/64}  ",
 			"The blood of your sorcerous ancestor mingles with your mythic power to great effect.  ",
 			"**Prerequisites:** Eldritch Heritage.  ",
-			"**Benefit:** You gain sorcerer bloodline powers of the bloodline tied to Eldritch Heritage as if your sorcerer level were your character level - 2. For that bloodline's 1st-level bloodline power, use your full character level to determine its effect; for all other bloodline powers, treat your sorcerer level as your character level - 2."
+			"**Benefit:** You gain sorcerer bloodline powers of the bloodline tied to Eldritch Heritage as if your sorcerer level were your character level - 2. For that bloodline's 1st-level bloodline power, use your full character level to determine its effect; for all other bloodline powers, treat your sorcerer level as your character level - 2.",
+			"",
+			":::"
 		]
 	},
 	"eldritch_researcher": {
@@ -1971,13 +2020,14 @@
 			"**Benefit:** Instead of its normal effect, you can choose to have your ability to channel energy heal or harm outsiders of your chosen elemental subtype. You must make this choice each time you channel energy. If you choose to heal or harm creatures of your elemental subtype, your channel energy has no affect on other creatures. The amount of damage healed or dealt and the DC to halve the damage is otherwise unchanged.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new elemental subtype.",
 			"",
-			"### Mythic Elemental Channel",
+			":::mythic{title=\"Mythic Elemental Channel\"}",
 			"",
-			"{SOURCE Mythic Adventures/64}",
-			"",
+			"{SOURCE Mythic Adventures/64}  ",
 			"Your power over elemental beings is nearly absolute.  ",
 			"**Prerequisites:** Elemental Channel.  ",
-			"**Benefit:** Your Elemental Channel can affect any elemental subtype, not just the one you chose when you took Elemental Channel. Each time you use Elemental Channel, you must pick one elemental subtype before using the feat. You can expend one use of mythic power when you use Elemental Channel to choose a second elemental subtype to affect."
+			"**Benefit:** Your Elemental Channel can affect any elemental subtype, not just the one you chose when you took Elemental Channel. Each time you use Elemental Channel, you must pick one elemental subtype before using the feat. You can expend one use of mythic power when you use Elemental Channel to choose a second elemental subtype to affect.",
+			"",
+			":::"
 		]
 	},
 	"elemental_claws": {
@@ -2054,18 +2104,21 @@
 			"**Benefit:** When you use {feat/Elemental Strike} pick one of the following energy types: acid, cold, electricity, or fire. On a successful hit, the attack deals damage normally plus 1d6 points of damage of the chosen type. You must declare that you are using this feat before you make your attack roll (thus a failed attack roll ruins the attempt). You may attempt an elemental fist attack once per day for every four levels you have attained (see Special), and no more than once per round.  ",
 			"**Special:** A monk of the four winds receives Elemental Fist as a bonus feat at 1st level, even if he does not meet the prerequisites. A monk may attempt an Elemental Fist attack a number of times per day equal to his monk level, plus one more time per day for every four levels he has in classes other than monk.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">You can spend 5 stamina points to declare the use of Elemental Fist after making a successful attack roll.",
+			":::stamina",
 			"",
-			"### Mythic Elemental Fist",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"You can spend 5 stamina points to declare the use of Elemental Fist after making a successful attack roll.",
 			"",
-			"{SOURCE Mythic Adventures/64}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Elemental Fist\"}",
+			"",
+			"{SOURCE Mythic Adventures/64}  ",
 			"Your ability to channel elemental power through your unarmed attacks is ferociously potent.  ",
 			"**Prerequisites:** Elemental Fist.  ",
-			"**Benefit:** The extra energy damage dealt by Elemental Fist increases to 1d8 points, and you gain additional uses of Elemental Fist per day equal to your tier. You can expend one use of mythic power as an immediate action to add the extra damage from your Elemental Fist to all of the unarmed strikes you make until the beginning of your next turn. This counts as only one use of Elemental Fist, regardless of the number of attacks that you make in this fashion."
+			"**Benefit:** The extra energy damage dealt by Elemental Fist increases to 1d8 points, and you gain additional uses of Elemental Fist per day equal to your tier. You can expend one use of mythic power as an immediate action to add the extra damage from your Elemental Fist to all of the unarmed strikes you make until the beginning of your next turn. This counts as only one use of Elemental Fist, regardless of the number of attacks that you make in this fashion.",
+			"",
+			":::"
 		]
 	},
 	"elemental_focus": {
@@ -2083,13 +2136,14 @@
 			"**Benefit:** Choose one energy type (acid, cold, electricity, or fire). Add +1 to the Difficulty Class for all saving throws against spells that deal damage of the energy type you select.  ",
 			"**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take this feat, it applies to a new energy type.",
 			"",
-			"### Mythic Elemental Focus",
+			":::mythic{title=\"Mythic Elemental Focus\"}",
 			"",
-			"{SOURCE Mythic Adventures/64}",
-			"",
+			"{SOURCE Mythic Adventures/64}  ",
 			"Your elemental spells are potent and effective.  ",
 			"**Prerequisites:** Elemental Focus.  ",
-			"**Benefit:** Choose an energy type in which you already have Elemental Focus. The increase to save DC provided by Elemental Focus and Greater Elemental Focus for spells of the selected energy type is 1 higher. When casting a spell with this energy type's descriptor, you can expend one use of mythic power as part of the casting to force the spell's targets to roll their saving throws twice, taking the lower result."
+			"**Benefit:** Choose an energy type in which you already have Elemental Focus. The increase to save DC provided by Elemental Focus and Greater Elemental Focus for spells of the selected energy type is 1 higher. When casting a spell with this energy type's descriptor, you can expend one use of mythic power as part of the casting to force the spell's targets to roll their saving throws twice, taking the lower result.",
+			"",
+			":::"
 		]
 	},
 	"elemental_jaunt": {
@@ -2270,18 +2324,21 @@
 			"**Prerequisites:** {race/Elf}.  ",
 			"**Benefit:** If you miss due to {rule/concealment} when making a ranged attack with a {eq-weapon/longbow} or {eq-weapon/shortbow} (including composite bows), you can reroll your miss chance roll one time to see if you actually hit.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">If you miss an attack with a longbow or shortbow due to concealment, you can spend 5 stamina points to automatically succeed at the miss chance reroll from this feat.",
+			":::stamina",
 			"",
-			"### Mythic Elven Accuracy",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"If you miss an attack with a longbow or shortbow due to concealment, you can spend 5 stamina points to automatically succeed at the miss chance reroll from this feat.",
 			"",
-			"{SOURCE Mythic Adventures/64}",
+			":::",
 			"",
+			":::mythic{title=\"Mythic Elven Accuracy\"}",
+			"",
+			"{SOURCE Mythic Adventures/64}  ",
 			"Your elven eyesight cuts though concealment.  ",
 			"**Prerequisites:** Elven Accuracy.  ",
-			"**Benefit:** When you make an attack with a longbow or short bow (including composite bows), you can ignore concealment, but not total concealment. You still suffer a miss chance for total concealment, but if you miss due to total concealment, you may reroll your miss chance as per Elven Accuracy."
+			"**Benefit:** When you make an attack with a longbow or short bow (including composite bows), you can ignore concealment, but not total concealment. You still suffer a miss chance for total concealment, but if you miss due to total concealment, you may reroll your miss chance as per Elven Accuracy.",
+			"",
+			":::"
 		]
 	},
 	"elven_battle_focus": {
@@ -2338,10 +2395,12 @@
 			"**Prerequisites:** Base attack bonus +1, {race/elf}.  ",
 			"**Benefit:** You have received special training with traditional elven weapons ({eq-weapon/longbow/s}, {eq-weapon/composite longbow/s}, {eq-weapon/longsword/s}, {eq-weapon/rapier/s}, {eq-weapon/shortbow/s}, {eq-weapon/composite shortbow/s}, and any weapon with the word \"elven\" in its name). You receive a +2 bonus to your CMD against {rule/disarm} and {rule/sunder} maneuvers directed at one of these weapons you are wielding. In addition, if you are wielding one of these melee weapons, you may make an additional attack of opportunity each round (this bonus stacks with {feat/Combat Reflexes}).",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When you are wielding a traditional elven weapon as defined in the feat, you can spend 5 stamina points to make one additional attack of opportunity with that weapon. This stacks with additional attacks of opportunity granted by this feat, Combat Reflexes, and similar abilities."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When you are wielding a traditional elven weapon as defined in the feat, you can spend 5 stamina points to make one additional attack of opportunity with that weapon. This stacks with additional attacks of opportunity granted by this feat, Combat Reflexes, and similar abilities.",
+			"",
+			":::"
 		]
 	},
 	"elven_spirit": {
@@ -2618,15 +2677,16 @@
 			"",
 			"**Normal:** A character without this feat who sleeps in medium or heavier armor is {misc/fatigued} the next day.",
 			"",
-			"### Mythic Endurance",
+			":::mythic{title=\"Mythic Endurance\"}",
 			"",
-			"{SOURCE Mythic Adventures/65}",
-			"",
+			"{SOURCE Mythic Adventures/65}  ",
 			"Your endurance is truly beyond the pale.  ",
 			"**Prerequisites:** Endurance.  ",
 			"**Benefit:** The bonus on checks and saves from Endurance increases by half your tier. You take half the damage when you fail a check to avoid nonlethal damage from a forced march, starvation and thirst, hot or cold environments, or slow suffocation.",
 			"",
-			"You can sleep in heavy armor without becoming fatigued."
+			"You can sleep in heavy armor without becoming fatigued.",
+			"",
+			":::"
 		]
 	},
 	"endure_pain_zon_kuthons_kiss": {
@@ -2729,10 +2789,12 @@
 			"**Prerequisites:** {feat/Point-Blank Shot}, {feat/Precise Shot}, one other {main/feats_<teamwork/ feat}.  ",
 			"**Benefit:** You receive a +2 bonus on ranged attacks made against a foe flanked by 1 or more allies with this feat.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">Before making a ranged attack roll, you can spend 1 stamina point to gain the benefits of this feat against a target that is flanked by two or more allies, even if those allies don't have this feat."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"Before making a ranged attack roll, you can spend 1 stamina point to gain the benefits of this feat against a target that is flanked by two or more allies, even if those allies don't have this feat.",
+			"",
+			":::"
 		]
 	},
 	"enforcer": {
@@ -2751,10 +2813,12 @@
 			"**Prerequisites:** Intimidate 1 rank.  ",
 			"**Benefit:** Whenever you deal nonlethal damage with a melee weapon, you can make an Intimidate check to demoralize your target as a free action. If you are successful, the target is {misc/shaken} for a number of rounds equal to the damage dealt. If your attack was a critical hit, your target is frightened for 1 round with a successful Intimidate check, as well as being shaken for a number of rounds equal to the damage dealt.",
 			"",
-			">**Combat Trick** (from the {feat/Combat Stamina} feat)  ",
-			">{SOURCE Pathfinder Unchained/119}",
-			">",
-			">When you score a critical hit with a weapon dealing nonlethal damage, you can spend 5 stamina points to frighten the target for 1d4 rounds instead of 1 round."
+			":::stamina",
+			"",
+			"{SOURCE Pathfinder Unchained/119}  ",
+			"When you score a critical hit with a weapon dealing nonlethal damage, you can spend 5 stamina points to frighten the target for 1d4 rounds instead of 1 round.",
+			"",
+			":::"
 		]
 	},
 	"engulf_horror": {
