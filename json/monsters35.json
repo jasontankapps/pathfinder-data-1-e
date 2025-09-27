@@ -695,7 +695,7 @@
 			"**AC** 36, touch 10, flat-footed 28 (+8 Dex, +26 natural, -8 size)  ",
 			"**hp** 385 (22d12+242); {umr/regeneration} 15 (cold iron)  ",
 			"**Fort** +24, **Ref** +23, **Will** +20  ",
-			"**Defensive Abilities** freedom of movement; **DR** 20/cold iron; **Immune** acid, curse effects, flanking mind-affecting effects, paralysis, poison, sleep; **SR** 31",
+			"**Defensive Abilities** freedom of movement; **DR** 20/cold iron; **Immune** acid, curse effects, {rule/flanking} mind-affecting effects, paralysis, poison, sleep; **SR** 31",
 			"",
 			"::sh[Offense]",
 			"",

@@ -3948,7 +3948,7 @@
 			"**XP** 1,600  ",
 			"LE Medium {type/outsider} ({subtype/asura}, {subtype/evil}, {subtype/extraplanar}, {subtype/lawful})  ",
 			"**Init** +3; **Senses** darkvision 60 ft.; Perception +18  ",
-			"**Aura** elusive (30 ft.), mental static (30 ft., DC 18)",
+			"**Aura** elusive (30 ft.), {umr/mental static} (30 ft., DC 18)",
 			"",
 			"::sh[Defense]",
 			"",

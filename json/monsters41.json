@@ -882,7 +882,7 @@
 			"**AC** 21, touch 10, flat-footed 21 (+11 natural)  ",
 			"**hp** 66 (7d10+28)  ",
 			"**Fort** +8, **Ref** +2, **Will** +5  ",
-			"**DR** 5/bludgeoning; **Immune** cold, fire, flanking; **Resist** electricity 10",
+			"**DR** 5/bludgeoning; **Immune** cold, fire, {rule/flanking}; **Resist** electricity 10",
 			"",
 			"::sh[Offense]",
 			"",

@@ -11,7 +11,7 @@
 			"**XP** 600  ",
 			"CE Small {type/fey}  ",
 			"**Init** +8; **Senses** darkvision 120 ft., low-light vision; Perception +12  ",
-			"**Aura** mental static (DC 13)",
+			"**Aura** {umr/mental static} (DC 13)",
 			"",
 			"::sh[Defense]",
 			"",

@@ -1678,6 +1678,7 @@
 			"**Location:** Aura."
 		]
 	},
+	"mental_static": { "redirect": "mental_static_aura" },
 	"ability_damage_and_drain": {
 		"name": "Ability Damage and Drain",
 		"sources": [ "Bestiary 5" ],

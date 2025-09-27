@@ -2640,7 +2640,7 @@
 			"**XP** 38,400  ",
 			"CE Large {type/outsider} ({subtype/chaotic}, {subtype/demon}, {subtype/evil}, {subtype/extraplanar})  ",
 			"**Init** +7; **Senses** darkvision 60 ft., true seeing; Perception +21  ",
-			"**Aura** mental static (DC 21)",
+			"**Aura** {umr/mental static} (DC 21)",
 			"",
 			"::sh[Defense]",
 			"",

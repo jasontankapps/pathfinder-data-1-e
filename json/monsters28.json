@@ -860,7 +860,7 @@
 			"**XP** 3,200  ",
 			"NE Tiny {type/ooze}  ",
 			"**Init** +6; Senses thoughtsense 30 ft., Perception +16  ",
-			"**Aura** brain static (30 ft.), mental static (30 ft., DC 19)",
+			"**Aura** brain static (30 ft.), {umr/mental static} (30 ft., DC 19)",
 			"",
 			"::sh[Defense]",
 			"",

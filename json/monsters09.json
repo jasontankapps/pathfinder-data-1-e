@@ -733,7 +733,7 @@
 			"**XP** 9,600  ",
 			"N Large {type/aberration}  ",
 			"**Init** +7; **Senses** darkvision 60 ft., lifesense; Perception +21  ",
-			"**Aura** mental static (30 ft., DC 22)",
+			"**Aura** {umr/mental static} (30 ft., DC 22)",
 			"",
 			"::sh[Defense]",
 			"",
