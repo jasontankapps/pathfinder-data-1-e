@@ -1583,7 +1583,15 @@
 			"You stop at nothing to drive your attack home.  ",
 			"**Prerequisites:** Base attack bonus +1.  ",
 			"**Benefit:** You gain a {rule/combat_<stamina/ pool}. After you make an attack roll with a manufactured weapon, unarmed strike, or natural weapon attack with which you are proficient, but before the results are revealed, you can spend up to 5 stamina points. If you do, you gain a competence bonus on the attack roll equal to the number of stamina points you spent. If you miss with the attack, the stamina points you spent are still lost.  ",
-			"**Special:** Since you have a stamina pool, you can spend your stamina points to use any combat tricks associated with combat feats you possess."
+			"**Special:** Since you have a stamina pool, you can spend your stamina points to use any combat tricks associated with combat feats you possess.",
+			"",
+			":::stamina",
+			"",
+			"Combat tricks are listed under their associated feats in a format similar to this.",
+			"",
+			":::",
+			"",
+			"There are 547 feats with associated combat tricks. They are [listed here](main/feats_with_combat_tricks)."
 		]
 	},
 	"combat_style_master": {

@@ -689,6 +689,9 @@ div.sideNoteWrap table tbody td.extra {
 div.sideNoteWrap table tbody tr th.thLink ion-icon {
 	color: var(--ion-color-secondary);
 }
+div.sideNoteWrap.optional table tbody tr th.thLink ion-icon {
+	color: var(--ion-color-tertiary);
+}
 div.sideNoteWrap table tbody tr th.thLink {
 	cursor: pointer;
 }
