@@ -4094,7 +4094,7 @@
 			"**Speed** swim 100 ft.  ",
 			"**Melee** bite +29 (2d8+12 plus {umr/grab}), 2 fins +28 (2d8+12 plus grab), tail slap +23 (2d8+6 plus grab)  ",
 			"**Space** 20 ft., **Reach** 20 ft. (30 ft. with tail slap)  ",
-			"**Special Attacks** capsize, {umr/fast swallow}, hooked appendages, {umr/swallow whole} (3d6 bludgeoning damage, AC 20, 23 hp)",
+			"**Special Attacks** {umr/capsize}, {umr/fast swallow}, hooked appendages, {umr/swallow whole} (3d6 bludgeoning damage, AC 20, 23 hp)",
 			"",
 			"::sh[Statistics]",
 			"",

@@ -1767,7 +1767,7 @@
 			"**Speed** fly 200 ft. (average)  ",
 			"**Melee** bite +33 (4d6+21 plus 2d6 electricity and {umr/grab}), tail slap +28 (4d6+10)  ",
 			"**Space** 30 ft., **Reach** 30 ft.  ",
-			"**Special Attacks** capsize, {umr/swallow whole} (6d6 acid damage, AC 25, 29hp)",
+			"**Special Attacks** {umr/capsize}, {umr/swallow whole} (6d6 acid damage, AC 25, 29hp)",
 			"",
 			"::sh[Statistics]",
 			"",

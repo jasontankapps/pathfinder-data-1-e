@@ -1179,7 +1179,7 @@
 			"**Speed** swim 40 ft.  ",
 			"**Melee** tail slap +21 (8d6+24 plus stun)  ",
 			"**Space** 30 ft., **Reach** 30 ft.  ",
-			"**Special Attacks** capsize, {umr/swallow whole} (4d6+16 damage, AC 22, 18 hp)",
+			"**Special Attacks** {umr/capsize}, {umr/swallow whole} (4d6+16 damage, AC 22, 18 hp)",
 			"",
 			"::sh[Statistics]",
 			"",

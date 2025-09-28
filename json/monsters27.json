@@ -797,7 +797,7 @@
 			"**Speed** 0 ft., swim 120 ft.  ",
 			"**Melee** bite +25 (4d6+11 plus {umr/grab}), tail slap +20 (4d6+5)  ",
 			"**Space** 150 ft., **Reach** 20 ft.  ",
-			"**Special Attacks** capsize, {umr/swallow whole} (4d6 acid damage, AC 24, 29 hp), watery grave",
+			"**Special Attacks** {umr/capsize}, {umr/swallow whole} (4d6 acid damage, AC 24, 29 hp), watery grave",
 			"",
 			"::sh[Statistics]",
 			"",

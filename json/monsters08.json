@@ -3552,7 +3552,7 @@
 			"**Speed** 10 ft., swim 50 ft.; surge 400 ft.  ",
 			"**Melee** bite +33 (6d10+14/19-20 plus {umr/grab}), tail slap +33 (6d8+14/19-20 plus grab)  ",
 			"**Space** 20 ft., **Reach** 20 ft.  ",
-			"**Special Attacks** capsize, {umr/constrict} (6d8+21), powerful tail, {umr/swallow whole} (10d6+21 bludgeoning damage, AC 21, 33 hp)",
+			"**Special Attacks** {umr/capsize}, {umr/constrict} (6d8+21), powerful tail, {umr/swallow whole} (10d6+21 bludgeoning damage, AC 21, 33 hp)",
 			"",
 			"::sh[Statistics]",
 			"",

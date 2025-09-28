@@ -2584,7 +2584,7 @@
 			"**Speed** 10 ft., swim 120 ft.  ",
 			"**Melee** bite +27 (3d6+13 plus poison), slam +27 (2d8+13/19-20 plus poison), tentacles +25 (2d6+6 plus {umr/grab} and poison)  ",
 			"**Space** 20 ft., **Reach** 20 ft.  ",
-			"**Special Attacks** capsize, self-evisceration, spiny slam, {umr/swallow whole} (6d6+19 bludgeoning damage, AC 18, 20 hp), tentacle grip",
+			"**Special Attacks** {umr/capsize}, self-evisceration, spiny slam, {umr/swallow whole} (6d6+19 bludgeoning damage, AC 18, 20 hp), tentacle grip",
 			"",
 			"::sh[Statistics]",
 			"",

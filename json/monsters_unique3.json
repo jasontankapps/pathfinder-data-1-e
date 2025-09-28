@@ -2747,7 +2747,7 @@
 			"**Speed** 20 ft., swim 60 ft.  ",
 			"**Melee** bite +38 (6d6+17/19-20 plus 1d6 cold and {umr/grab}), tail slap +33 (4d6+8 plus 1d6 cold and grab)  ",
 			"**Space** 30 ft., **Reach** 20 ft.  ",
-			"**Special Attacks** {umr/breath weapon} (30-ft. cone, 6d6 cold damage, Reflex DC 31 for half, usable every 1d4 rounds), capsize, {umr/constrict} (3d6+18), {umr/swallow whole} (4d8+18 bludgeoning damage, AC 21, 38 hp)",
+			"**Special Attacks** {umr/breath weapon} (30-ft. cone, 6d6 cold damage, Reflex DC 31 for half, usable every 1d4 rounds), {umr/capsize}, {umr/constrict} (3d6+18), {umr/swallow whole} (4d8+18 bludgeoning damage, AC 21, 38 hp)",
 			"",
 			"::sh[Statistics]",
 			"",
