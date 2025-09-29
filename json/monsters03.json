@@ -2014,7 +2014,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Dire polar bears, kin to {monster/cave bear/s}, are larger and more aggressive than cave bears and normal {monster/polar bears} alike. These short-tempered animals tend to avoid settled regions, but sometimes venture dangerously close to them while hunting, potentially resulting in bloody massacres."
+			"Dire polar bears, kin to {monster/cave bear/s}, are larger and more aggressive than cave bears and normal {monster/polar bear/s} alike. These short-tempered animals tend to avoid settled regions, but sometimes venture dangerously close to them while hunting, potentially resulting in bloody massacres."
 		]
 	},
 	"dire_polar_bear": { "redirect": "bear_dire_polar_bear" },

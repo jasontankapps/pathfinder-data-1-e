@@ -1,5 +1,5 @@
 {
-	"dragon_black_adult_black_dragon": {
+	"dragon_chromatic_black_adult_black_dragon": {
 		"name": "Adult Black Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -52,8 +52,9 @@
 			"**Family:** {family/Black Dragon}"
 		]
 	},
-	"adult_black_dragon": { "redirect": "dragon_black_adult_black_dragon" },
-	"dragon_black_ancient_black_dragon": {
+	"dragon_black_adult_black_dragon": { "redirect": "dragon_chromatic_black_adult_black_dragon" },
+	"adult_black_dragon": { "redirect": "dragon_chromatic_black_adult_black_dragon" },
+	"dragon_chromatic_black_ancient_black_dragon": {
 		"name": "Ancient Black Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -110,8 +111,9 @@
 			"**Family:** {family/Black Dragon}"
 		]
 	},
-	"ancient_black_dragon": { "redirect": "dragon_black_ancient_black_dragon" },
-	"dragon_black_young_black_dragon": {
+	"dragon_black_ancient_black_dragon": { "redirect": "dragon_chromatic_black_ancient_black_dragon" },
+	"ancient_black_dragon": { "redirect": "dragon_chromatic_black_ancient_black_dragon" },
+	"dragon_chromatic_black_young_black_dragon": {
 		"name": "Young Black Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -159,8 +161,9 @@
 			"**Family:** {family/Black Dragon}"
 		]
 	},
-	"young_black_dragon": { "redirect": "dragon_black_young_black_dragon" },
-	"dragon_blue_adult_blue_dragon": {
+	"dragon_black_young_black_dragon": { "redirect": "dragon_chromatic_black_young_black_dragon" },
+	"young_black_dragon": { "redirect": "dragon_chromatic_black_young_black_dragon" },
+	"dragon_chromatic_blue_adult_blue_dragon": {
 		"name": "Adult Blue Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -243,8 +246,9 @@
 			"**Family:** {family/Blue Dragon}"
 		]
 	},
-	"adult_blue_dragon": { "redirect": "dragon_blue_adult_blue_dragon" },
-	"dragon_blue_ancient_blue_dragon": {
+	"dragon_blue_adult_blue_dragon": { "redirect": "dragon_chromatic_blue_adult_blue_dragon" },
+	"adult_blue_dragon": { "redirect": "dragon_chromatic_blue_adult_blue_dragon" },
+	"dragon_chromatic_blue_ancient_blue_dragon": {
 		"name": "Ancient Blue Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -302,8 +306,9 @@
 			"**Family:** {family/Blue Dragon}"
 		]
 	},
-	"ancient_blue_dragon": { "redirect": "dragon_blue_ancient_blue_dragon" },
-	"dragon_blue_young_blue_dragon": {
+	"dragon_blue_ancient_blue_dragon": { "redirect": "dragon_chromatic_blue_ancient_blue_dragon" },
+	"ancient_blue_dragon": { "redirect": "dragon_chromatic_blue_ancient_blue_dragon" },
+	"dragon_chromatic_blue_young_blue_dragon": {
 		"name": "Young Blue Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -354,8 +359,9 @@
 			"**Family:** {family/Blue Dragon}"
 		]
 	},
-	"young_blue_dragon": { "redirect": "dragon_blue_young_blue_dragon" },
-	"dragon_brass_adult_brass_dragon": {
+	"dragon_blue_young_blue_dragon": { "redirect": "dragon_chromatic_blue_young_blue_dragon" },
+	"young_blue_dragon": { "redirect": "dragon_chromatic_blue_young_blue_dragon" },
+	"dragon_metallic_brass_adult_brass_dragon": {
 		"name": "Adult Brass Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -410,8 +416,9 @@
 			"**Family:** {family/Brass Dragon}"
 		]
 	},
-	"adult_brass_dragon": { "redirect": "dragon_brass_adult_brass_dragon" },
-	"dragon_brass_ancient_brass_dragon": {
+	"dragon_brass_adult_brass_dragon": { "redirect": "dragon_metallic_brass_adult_brass_dragon" },
+	"adult_brass_dragon": { "redirect": "dragon_metallic_brass_adult_brass_dragon" },
+	"dragon_metallic_brass_ancient_brass_dragon": {
 		"name": "Ancient Brass Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -470,8 +477,9 @@
 			"**Family:** {family/Brass Dragon}"
 		]
 	},
-	"ancient_brass_dragon": { "redirect": "dragon_brass_ancient_brass_dragon" },
-	"dragon_brass_young_brass_dragon": {
+	"dragon_brass_ancient_brass_dragon": { "redirect": "dragon_metallic_brass_ancient_brass_dragon" },
+	"ancient_brass_dragon": { "redirect": "dragon_metallic_brass_ancient_brass_dragon" },
+	"dragon_metallic_brass_young_brass_dragon": {
 		"name": "Young Brass Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -526,8 +534,9 @@
 			"**Family:** {family/Brass Dragon}"
 		]
 	},
-	"young_brass_dragon": { "redirect": "dragon_brass_young_brass_dragon" },
-	"dragon_bronze_adult_bronze_dragon": {
+	"dragon_brass_young_brass_dragon": { "redirect": "dragon_metallic_brass_young_brass_dragon" },
+	"young_brass_dragon": { "redirect": "dragon_metallic_brass_young_brass_dragon" },
+	"dragon_metallic_bronze_adult_bronze_dragon": {
 		"name": "Adult Bronze Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -582,8 +591,9 @@
 			"**Family:** {family/Bronze Dragon}"
 		]
 	},
-	"adult_bronze_dragon": { "redirect": "dragon_bronze_adult_bronze_dragon" },
-	"dragon_bronze_ancient_bronze_dragon": {
+	"dragon_bronze_adult_bronze_dragon": { "redirect": "dragon_metallic_bronze_adult_bronze_dragon" },
+	"adult_bronze_dragon": { "redirect": "dragon_metallic_bronze_adult_bronze_dragon" },
+	"dragon_metallic_bronze_ancient_bronze_dragon": {
 		"name": "Ancient Bronze Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -642,8 +652,9 @@
 			"**Family:** {family/Bronze Dragon}"
 		]
 	},
-	"ancient_bronze_dragon": { "redirect": "dragon_bronze_ancient_bronze_dragon" },
-	"dragon_bronze_young_bronze_dragon": {
+	"dragon_bronze_ancient_bronze_dragon": { "redirect": "dragon_metallic_bronze_ancient_bronze_dragon" },
+	"ancient_bronze_dragon": { "redirect": "dragon_metallic_bronze_ancient_bronze_dragon" },
+	"dragon_metallic_bronze_young_bronze_dragon": {
 		"name": "Young Bronze Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -696,8 +707,9 @@
 			"**Family:** {family/Bronze Dragon}"
 		]
 	},
-	"young_bronze_dragon": { "redirect": "dragon_bronze_young_bronze_dragon" },
-	"dragon_copper_adult_copper_dragon": {
+	"dragon_bronze_young_bronze_dragon": { "redirect": "dragon_metallic_bronze_young_bronze_dragon" },
+	"young_bronze_dragon": { "redirect": "dragon_metallic_bronze_young_bronze_dragon" },
+	"dragon_metallic_copper_adult_copper_dragon": {
 		"name": "Adult Copper Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -752,8 +764,9 @@
 			"**Family:** {family/Copper Dragon}"
 		]
 	},
-	"adult_copper_dragon": { "redirect": "dragon_copper_adult_copper_dragon" },
-	"dragon_copper_ancient_copper_dragon": {
+	"dragon_copper_adult_copper_dragon": { "redirect": "dragon_metallic_copper_adult_copper_dragon" },
+	"adult_copper_dragon": { "redirect": "dragon_metallic_copper_adult_copper_dragon" },
+	"dragon_metallic_copper_ancient_copper_dragon": {
 		"name": "Ancient Copper Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -812,8 +825,9 @@
 			"**Family:** {family/Copper Dragon}"
 		]
 	},
-	"ancient_copper_dragon": { "redirect": "dragon_copper_ancient_copper_dragon" },
-	"dragon_copper_young_copper_dragon": {
+	"dragon_copper_ancient_copper_dragon": { "redirect": "dragon_metallic_copper_ancient_copper_dragon" },
+	"ancient_copper_dragon": { "redirect": "dragon_metallic_copper_ancient_copper_dragon" },
+	"dragon_metallic_copper_young_copper_dragon": {
 		"name": "Young Copper Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -866,8 +880,9 @@
 			"**Family:** {family/Copper Dragon}"
 		]
 	},
-	"young_copper_dragon": { "redirect": "dragon_copper_young_copper_dragon" },
-	"dragon_gold_adult_gold_dragon": {
+	"dragon_copper_young_copper_dragon": { "redirect": "dragon_metallic_copper_young_copper_dragon" },
+	"young_copper_dragon": { "redirect": "dragon_metallic_copper_young_copper_dragon" },
+	"dragon_metallic_gold_adult_gold_dragon": {
 		"name": "Adult Gold Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -923,8 +938,9 @@
 			"**Family:** {family/Gold Dragon}"
 		]
 	},
-	"adult_gold_dragon": { "redirect": "dragon_gold_adult_gold_dragon" },
-	"dragon_gold_ancient_gold_dragon": {
+	"dragon_gold_adult_gold_dragon": { "redirect": "dragon_metallic_gold_adult_gold_dragon" },
+	"adult_gold_dragon": { "redirect": "dragon_metallic_gold_adult_gold_dragon" },
+	"dragon_metallic_gold_ancient_gold_dragon": {
 		"name": "Ancient Gold Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -984,8 +1000,9 @@
 			"**Family:** {family/Gold Dragon}"
 		]
 	},
-	"ancient_gold_dragon": { "redirect": "dragon_gold_ancient_gold_dragon" },
-	"dragon_gold_young_gold_dragon": {
+	"dragon_gold_ancient_gold_dragon": { "redirect": "dragon_metallic_gold_ancient_gold_dragon" },
+	"ancient_gold_dragon": { "redirect": "dragon_metallic_gold_ancient_gold_dragon" },
+	"dragon_metallic_gold_young_gold_dragon": {
 		"name": "Young Gold Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1039,8 +1056,9 @@
 			"**Family:** {family/Gold Dragon}"
 		]
 	},
-	"young_gold_dragon": { "redirect": "dragon_gold_young_gold_dragon" },
-	"dragon_green_adult_green_dragon": {
+	"dragon_gold_young_gold_dragon": { "redirect": "dragon_metallic_gold_young_gold_dragon" },
+	"young_gold_dragon": { "redirect": "dragon_metallic_gold_young_gold_dragon" },
+	"dragon_chromatic_green_adult_green_dragon": {
 		"name": "Adult Green Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1094,8 +1112,9 @@
 			"**Family:** {family/Green Dragon}"
 		]
 	},
-	"adult_green_dragon": { "redirect": "dragon_green_adult_green_dragon" },
-	"dragon_green_ancient_green_dragon": {
+	"dragon_green_adult_green_dragon": { "redirect": "dragon_chromatic_green_adult_green_dragon" },
+	"adult_green_dragon": { "redirect": "dragon_chromatic_green_adult_green_dragon" },
+	"dragon_chromatic_green_ancient_green_dragon": {
 		"name": "Ancient Green Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1153,8 +1172,9 @@
 			"**Family:** {family/Green Dragon}"
 		]
 	},
-	"ancient_green_dragon": { "redirect": "dragon_green_ancient_green_dragon" },
-	"dragon_green_young_green_dragon": {
+	"dragon_green_ancient_green_dragon": { "redirect": "dragon_chromatic_green_ancient_green_dragon" },
+	"ancient_green_dragon": { "redirect": "dragon_chromatic_green_ancient_green_dragon" },
+	"dragon_chromatic_green_young_green_dragon": {
 		"name": "Young Green Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -1205,7 +1225,8 @@
 			"**Family:** {family/Green Dragon}"
 		]
 	},
-	"young_green_dragon": { "redirect": "dragon_green_young_green_dragon" },
+	"dragon_green_young_green_dragon": { "redirect": "dragon_chromatic_green_young_green_dragon" },
+	"young_green_dragon": { "redirect": "dragon_chromatic_green_young_green_dragon" },
 	"dragon_planar_apocalypse_adult_apocalypse_dragon": {
 		"name": "Adult Apocalypse Dragon",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
@@ -3517,7 +3538,7 @@
 		]
 	},
 	"young_umbral_dragon": { "redirect": "dragon_primal_umbral_young_umbral_dragon" },
-	"dragon_red_adult_red_dragon": {
+	"dragon_chromatic_red_adult_red_dragon": {
 		"name": "Adult Red Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3572,8 +3593,9 @@
 			"**Family:** {family/Red Dragon}"
 		]
 	},
-	"adult_red_dragon": { "redirect": "dragon_red_adult_red_dragon" },
-	"dragon_red_ancient_red_dragon": {
+	"dragon_red_adult_red_dragon": { "redirect": "dragon_chromatic_red_adult_red_dragon" },
+	"adult_red_dragon": { "redirect": "dragon_chromatic_red_adult_red_dragon" },
+	"dragon_chromatic_red_ancient_red_dragon": {
 		"name": "Ancient Red Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3631,8 +3653,9 @@
 			"**Family:** {family/Red Dragon}"
 		]
 	},
-	"ancient_red_dragon": { "redirect": "dragon_red_ancient_red_dragon" },
-	"dragon_red_young_red_dragon": {
+	"dragon_red_ancient_red_dragon": { "redirect": "dragon_chromatic_red_ancient_red_dragon" },
+	"ancient_red_dragon": { "redirect": "dragon_chromatic_red_ancient_red_dragon" },
+	"dragon_chromatic_red_young_red_dragon": {
 		"name": "Young Red Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3686,8 +3709,9 @@
 			"**Family:** {family/Red Dragon}"
 		]
 	},
-	"young_red_dragon": { "redirect": "dragon_red_young_red_dragon" },
-	"dragon_silver_adult_silver_dragon": {
+	"dragon_red_young_red_dragon": { "redirect": "dragon_chromatic_red_young_red_dragon" },
+	"young_red_dragon": { "redirect": "dragon_chromatic_red_young_red_dragon" },
+	"dragon_metallic_silver_adult_silver_dragon": {
 		"name": "Adult Silver Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3743,8 +3767,9 @@
 			"**Family:** {family/Silver Dragon}"
 		]
 	},
-	"adult_silver_dragon": { "redirect": "dragon_silver_adult_silver_dragon" },
-	"dragon_silver_ancient_silver_dragon": {
+	"dragon_silver_adult_silver_dragon": { "redirect": "dragon_metallic_silver_adult_silver_dragon" },
+	"adult_silver_dragon": { "redirect": "dragon_metallic_silver_adult_silver_dragon" },
+	"dragon_metallic_silver_ancient_silver_dragon": {
 		"name": "Ancient Silver Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3804,8 +3829,9 @@
 			"**Family:** {family/Silver Dragon}"
 		]
 	},
-	"ancient_silver_dragon": { "redirect": "dragon_silver_ancient_silver_dragon" },
-	"dragon_silver_young_silver_dragon": {
+	"dragon_silver_ancient_silver_dragon": { "redirect": "dragon_metallic_silver_ancient_silver_dragon" },
+	"ancient_silver_dragon": { "redirect": "dragon_metallic_silver_ancient_silver_dragon" },
+	"dragon_metallic_silver_young_silver_dragon": {
 		"name": "Young Silver Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3860,8 +3886,9 @@
 			"**Family:** {family/Silver Dragon}"
 		]
 	},
-	"young_silver_dragon": { "redirect": "dragon_silver_young_silver_dragon" },
-	"dragon_white_adult_white_dragon": {
+	"dragon_silver_young_silver_dragon": { "redirect": "dragon_metallic_silver_young_silver_dragon" },
+	"young_silver_dragon": { "redirect": "dragon_metallic_silver_young_silver_dragon" },
+	"dragon_chromatic_white_adult_white_dragon": {
 		"name": "Adult White Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3915,8 +3942,9 @@
 			"**Family:** {family/White Dragon}"
 		]
 	},
-	"adult_white_dragon": { "redirect": "dragon_white_adult_white_dragon" },
-	"dragon_white_ancient_white_dragon": {
+	"dragon_white_adult_white_dragon": { "redirect": "dragon_chromatic_white_adult_white_dragon" },
+	"adult_white_dragon": { "redirect": "dragon_chromatic_white_adult_white_dragon" },
+	"dragon_chromatic_white_ancient_white_dragon": {
 		"name": "Ancient White Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -3973,8 +4001,9 @@
 			"**Family:** {family/White Dragon}"
 		]
 	},
-	"ancient_white_dragon": { "redirect": "dragon_white_ancient_white_dragon" },
-	"dragon_white_young_white_dragon": {
+	"dragon_white_ancient_white_dragon": { "redirect": "dragon_chromatic_white_ancient_white_dragon" },
+	"ancient_white_dragon": { "redirect": "dragon_chromatic_white_ancient_white_dragon" },
+	"dragon_chromatic_white_young_white_dragon": {
 		"name": "Young White Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
@@ -4024,5 +4053,6 @@
 			"**Family:** {family/White Dragon}"
 		]
 	},
-	"young_white_dragon": { "redirect": "dragon_white_young_white_dragon" }
+	"dragon_white_young_white_dragon": { "redirect": "dragon_chromatic_white_young_white_dragon" },
+	"young_white_dragon": { "redirect": "dragon_chromatic_white_young_white_dragon" }
 }

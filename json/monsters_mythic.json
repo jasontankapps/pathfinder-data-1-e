@@ -1378,7 +1378,7 @@
 	},
 	"devil_ice_devil": { "redirect": "devil_ice_devil_mythic" },
 	"ice_devil_mythic": { "redirect": "devil_ice_devil_mythic" },
-	"dragon_black_mature_adult_black_dragon_mythic": {
+	"dragon_chromatic_black_mature_adult_black_dragon_mythic": {
 		"name": "Mature Adult Black Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1437,9 +1437,10 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"dragon_black_mature_adult_black_dragon": { "redirect": "dragon_black_mature_adult_black_dragon_mythic" },
-	"mature_adult_black_dragon_mythic": { "redirect": "dragon_black_mature_adult_black_dragon_mythic" },
-	"dragon_blue_mature_adult_blue_dragon_mythic": {
+	"dragon_black_mature_adult_black_dragon_mythic": { "redirect": "dragon_chromatic_black_mature_adult_black_dragon_mythic" },
+	"dragon_black_mature_adult_black_dragon": { "redirect": "dragon_chromatic_black_mature_adult_black_dragon_mythic" },
+	"mature_adult_black_dragon_mythic": { "redirect": "dragon_chromatic_black_mature_adult_black_dragon_mythic" },
+	"dragon_chromatic_blue_mature_adult_blue_dragon_mythic": {
 		"name": "Mature Adult Blue Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1497,9 +1498,10 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"dragon_blue_mature_adult_blue_dragon": { "redirect": "dragon_blue_mature_adult_blue_dragon_mythic" },
-	"mature_adult_blue_dragon_mythic": { "redirect": "dragon_blue_mature_adult_blue_dragon_mythic" },
-	"dragon_green_very_old_green_dragon_mythic": {
+	"dragon_blue_mature_adult_blue_dragon_mythic": { "redirect": "dragon_chromatic_blue_mature_adult_blue_dragon_mythic" },
+	"dragon_blue_mature_adult_blue_dragon": { "redirect": "dragon_chromatic_blue_mature_adult_blue_dragon_mythic" },
+	"mature_adult_blue_dragon_mythic": { "redirect": "dragon_chromatic_blue_mature_adult_blue_dragon_mythic" },
+	"dragon_chromatic_green_very_old_green_dragon_mythic": {
 		"name": "Very Old Green Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1558,9 +1560,10 @@
 			"**Family:** {family/Green Dragon}"
 		]
 	},
-	"dragon_green_very_old_green_dragon": { "redirect": "dragon_green_very_old_green_dragon_mythic" },
-	"very_old_green_dragon_mythic": { "redirect": "dragon_green_very_old_green_dragon_mythic" },
-	"dragon_red_wyrm_red_dragon_mythic": {
+	"dragon_green_very_old_green_dragon_mythic": { "redirect": "dragon_chromatic_green_very_old_green_dragon_mythic" },
+	"dragon_green_very_old_green_dragon": { "redirect": "dragon_chromatic_green_very_old_green_dragon_mythic" },
+	"very_old_green_dragon_mythic": { "redirect": "dragon_chromatic_green_very_old_green_dragon_mythic" },
+	"dragon_chromatic_red_wyrm_red_dragon_mythic": {
 		"name": "Wyrm Red Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1632,10 +1635,11 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"dragon_red_wyrm_red_dragon": { "redirect": "dragon_red_wyrm_red_dragon_mythic" },
-	"wyrm_red_dragon_mythic": { "redirect": "dragon_red_wyrm_red_dragon_mythic" },
-	"wyrm_red_dragon": { "redirect": "dragon_red_wyrm_red_dragon_mythic" },
-	"dragon_red_young_red_dragon_mythic": {
+	"dragon_red_wyrm_red_dragon_mythic": { "redirect": "dragon_chromatic_red_wyrm_red_dragon_mythic" },
+	"dragon_red_wyrm_red_dragon": { "redirect": "dragon_chromatic_red_wyrm_red_dragon_mythic" },
+	"wyrm_red_dragon_mythic": { "redirect": "dragon_chromatic_red_wyrm_red_dragon_mythic" },
+	"wyrm_red_dragon": { "redirect": "dragon_chromatic_red_wyrm_red_dragon_mythic" },
+	"dragon_chromatic_red_young_red_dragon_mythic": {
 		"name": "Young Red Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1697,8 +1701,9 @@
 			"[^I]: This creature may expend one mythic power to treat its initiative roll as a natural 20, per Mythic Improved Initiative."
 		]
 	},
-	"young_red_dragon_mythic": { "redirect": "dragon_red_young_red_dragon_mythic" },
-	"dragon_white_juvenile_white_dragon_mythic": {
+	"dragon_red_young_red_dragon_mythic": { "redirect": "dragon_chromatic_red_young_red_dragon_mythic" },
+	"young_red_dragon_mythic": { "redirect": "dragon_chromatic_red_young_red_dragon_mythic" },
+	"dragon_chromatic_white_juvenile_white_dragon_mythic": {
 		"name": "Juvenile White Dragon",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
@@ -1750,8 +1755,9 @@
 			"**Family:** {family/White Dragon}"
 		]
 	},
-	"dragon_white_juvenile_white_dragon": { "redirect": "dragon_white_juvenile_white_dragon_mythic" },
-	"juvenile_white_dragon_mythic": { "redirect": "dragon_white_juvenile_white_dragon_mythic" },
+	"dragon_white_juvenile_white_dragon_mythic": { "redirect": "dragon_chromatic_white_juvenile_white_dragon_mythic" },
+	"dragon_white_juvenile_white_dragon": { "redirect": "dragon_chromatic_white_juvenile_white_dragon_mythic" },
+	"juvenile_white_dragon_mythic": { "redirect": "dragon_chromatic_white_juvenile_white_dragon_mythic" },
 	"drakainia": {
 		"name": "Drakainia",
 		"sources": [ "Bestiary 4" ],
