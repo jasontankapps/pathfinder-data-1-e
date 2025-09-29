@@ -623,9 +623,9 @@
 			"",
 			"A verdurous ooze typically weighs 300 pounds and can easily spread to fill a 5-foot-square area. While moving, such crawling muck rises only a few inches tall, though its structure might grow and boil up to a height of 2 or 3 feet if let undisturbed for a matter of days. Spontaneously grown structures collapse and melt back into the ooze's body as soon as it begins moving again.",
 			"",
-			"### {monster/Greater Verdurous Ooze}",
+			"::sh[Greater Verdurous Ooze]",
 			"",
-			"Greater verdurous oozes are formed when several green oozes merge together as part of their reproductive process. They are similar in form but much larger, and while still green, exhibit white and red lines that resemble veins running through them. They are even more voracious and dangerous than standard green oozes, as they eat and eat to gain enough mass to reproduce. A greater verdurous ooze typically weighs 2,400 pounds and can easily spread to fill a 10-foot-square area."
+			"{monster/Greater verdurous ooze/s} are formed when several green oozes merge together as part of their reproductive process. They are similar in form but much larger, and while still green, exhibit white and red lines that resemble veins running through them. They are even more voracious and dangerous than standard green oozes, as they eat and eat to gain enough mass to reproduce. A greater verdurous ooze typically weighs 2,400 pounds and can easily spread to fill a 10-foot-square area."
 		]
 	},
 	"verdurous_ooze_greater_verduous_ooze": {
@@ -678,7 +678,7 @@
 			"",
 			"A verdurous ooze typically weighs 300 pounds and can easily spread to fill a 5-foot-square area. While moving, such crawling muck rises only a few inches tall, though its structure might grow and boil up to a height of 2 or 3 feet if let undisturbed for a matter of days. Spontaneously grown structures collapse and melt back into the ooze's body as soon as it begins moving again.",
 			"",
-			"### Greater Verdurous Ooze",
+			"::sh[Greater Verdurous Ooze]",
 			"",
 			"Greater verdurous oozes are formed when several green oozes merge together as part of their reproductive process. They are similar in form but much larger, and while still green, exhibit white and red lines that resemble veins running through them. They are even more voracious and dangerous than standard green oozes, as they eat and eat to gain enough mass to reproduce. A greater verdurous ooze typically weighs 2,400 pounds and can easily spread to fill a 10-foot-square area."
 		]
@@ -1004,7 +1004,7 @@
 			"",
 			"Vilkacis typically look like more savage versions of the werewolves they were in life, appearing in their hybrid forms with exaggerated fangs and claws.",
 			"",
-			"### Creating",
+			"::sh[Creating]",
 			"",
 			"While many vilkacis spontaneously arise under the light of the full moon from the remains of the most savage werewolves, some foul spellcasters seek out the corpses of such bestial murderers, attempting to enslave their spirits and harness their capacity for brutality to fulfill the spellcasters' dark whims. To do this, a spellcaster must prepare a canopic stone, a talisman that typically takes the form of a ceramic totem or amulet bound in silver. Upon creating this object, the bearer can summon a vilkacis once per day. The stone grants no control over the vilkacis, but the creature will not attack or attempt to possess the stone's bearer. Upon being summoned, the vilkacis turns its attention to the nearest creature other than the summoner, attempting to possess the creature's body and go on a murderous rampage. Using a canopic stone to summon a vilkacis is considered an evil act.",
 			"",
@@ -1314,7 +1314,7 @@
 			"",
 			"Although legends abound that the merest touch from a vishkanya can slay a mortal humanoid, these tales are patently false. A vishkanya's skin is no more poisonous than that of any human, but it is true that their blood, spit, and other bodily fluids can be dangerous. Vishkanyas are skilled in using their own spittle or even their blood to envenom their weapons, and those who fight them should be wary of exposure to the vishkanya's poison. A vishkanya is 6 feet tall and weighs 130 pounds.",
 			"",
-			"### Vishkanya Characters",
+			"::sh[Vishkanya Characters]",
 			"",
 			"Vishkanyas are defined by their class levels - they do not possess racial Hit Dice. Vishkanyas have the following racial traits.",
 			"",
@@ -1443,7 +1443,7 @@
 			"",
 			"Since the rediscovery of voidsticks, those interested in necromancy and the creation of new undead have sent emissaries to the Shackles eager to buy them. These enterprising necromancers experiment with the devices and unleash voidstick zombies into Avistan and Garund to fulfill their murderous intent.",
 			"",
-			"### Voidsticks",
+			"::sh[Voidsticks]",
 			"",
 			"In remote parts of the world, it is not always practical for the faithful to visit holy places with any regularity. In particular, the weak, the sick, and the dying may be in no position to trek across plains or risk dangerous water crossings to see their spiritual leaders. In response to this, the godstick was born - a crafted rod that serves as a portable shrine, carried by shamans and witchdoctors and pushed into the ground to focus devotion at any location. Ingenuity is not just the way of the benign, however, and just as often it is the way of evil. Before long, shamans who worshiped more hateful deities corrupted this notion; they created the {magic-wondrous/voidstick/s} and drove them into bodies, living or dead, charging those bodies with the power of the endless void and creating rattling, hungry abominations."
 		]
@@ -1578,7 +1578,7 @@
 			"",
 			"Vorvoraks exert power over the water around them, allowing them to raise or lower its level, produce mist, and, most impressively, eject large quantities of water mixed with their own poisonous bile. Vorvoraks also seem to demonstrate mastery of multiple manifestations of magic - such as altering matter, summoning creatures, and creating explosions of energy - but these abilities are mere illusions, containing the barest shadow of reality. Vorvoraks use their magic to attract prey, conceal their lairs, and deter trespassers in their territory. Though these shadowy illusions have a chance of damaging opponents in combat, they more often serve as distractions that allow vorvoraks to position themselves for full attacks.",
 			"",
-			"### Habitat",
+			"::sh[Habitat]",
 			"",
 			"Vorvoraks are solitary hunters, most active at dawn and dusk. Though generally associated with Taldor's disused canal system, a few make their lairs in natural gullies. A natural or burrowed niche provides the beasts a place to sleep and store treasure. Often the entrances to vorvoraks' lairs are partially submerged; otherwise, a vorvorak hides the entrance with an illusion when it leaves to hunt. Vorvoraks feed mostly on creatures that live in or near canals, as well as the occasional domestic animal that wanders into their range. Its few sentient victims tend to be unlucky lost travelers who attempt to follow the old canals back to civilization.",
 			"",
@@ -2086,7 +2086,7 @@
 			"",
 			"Similar to the undead monstrosities known as {monster/immured}, walcofindes are pitiful undead creatures that manifest when a living being is sealed within a structure and perishes there. These unquiet dead often rise after having been intentionally walled into a structure. This process is what many have attributed its name to, with some treatises on undead referring to them as \"wall-coffined.\" While both walcofindes and immured form from humanoids who were either sealed within a wall or victims of a collapse, their divergent abilities have led scholars of the undead to posit why the differences manifested as they have. Immured have the ability to displace life-giving oxygen, suggesting they perished through suffocation while trapped. Walcofindes, instead, ultimately succumbed to death by starvation while trapped. These latter transformed undead resemble the decayed appearance of zombies, albeit with vicious bony claws - the result of desperate escape attempts prior to the starvation that ultimately sealed their demise. It is rare for other creatures to ever see a walcofinde's true appearance, as these undead most often harry the living by possessing nearby walls.",
 			"",
-			"### Ecology",
+			"::sh[Ecology]",
 			"",
 			"Most adventurers stumble upon a walcofinde as it manifests from nearby walls, using its structural possession ability to move beyond its sealed chamber and unleash its rage against creatures traversing halls or caverns it possesses. In this manifested form, the walcofinde takes on the texture of the structure it possesses, appearing with the shape it had in life but made from stone, wood, or whatever substance makes up the wall from which it emerges.",
 			"",
@@ -2094,7 +2094,7 @@
 			"",
 			"Those startled by the sudden appearance of a walcofinde often believe the undead has the same structural makeup as the wall it emerges from, but the walcofinde receives only minor protection from the nearby terrain, and its manifested form is almost as vulnerable as its true body. In fact, defeating a walcofinde's manifested form also destroys the undead. Because of this, a walcofinde often retreats from combat, rather than risk destruction. The fact that a walcofinde exhibits supernaturally expedited healing while within sealed chambers likewise encourages a hit-and-run style of punishing intruders.",
 			"",
-			"### Habitat",
+			"::sh[Habitat]",
 			"",
 			"For a walcofinde to rise, a living creature must die while trapped in a walled-in chamber. Sometimes this can be as mundane as a group of miners trapped in a collapse. In some cultures, immurement is a sign of favor, and rising as a walcofinde is considered a gift from the heavens that enables the creature to continue defending a site in death. Most often, though, this grisly event occurs during a construction project where secrecy is paramount and workers involved with important portions of the construction are intentionally trapped within the edifice. The often-flawed logic behind this method of murder is to prevent the bodies from ever being exhumed and interrogated.",
 			"",

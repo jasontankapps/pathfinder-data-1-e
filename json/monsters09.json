@@ -63,7 +63,7 @@
 			"",
 			"The average adult dweomercat is about 4 feet tall and 7 feet long, weighing over 250 pounds, while their cubs are approximately 1 foot tall and weigh no more than 15 pounds.",
 			"",
-			"### Dweomercat Cubs as Familiars",
+			"::sh[Dweomercat Cubs as Familiars]",
 			"",
 			"Attracted to flashy displays of magic and the strange powers inherent in a bond between a magic-user and her familiar, a dweomercat cub that's wandered from the First World might find its taste for magic and adventure satisfied in the service of a particularly whimsical or ostentatious arcane spellcaster. A spellcaster with the {feat/Improved Familiar} feat can acquire a chaotic neutral dweomercat cub at 7th level or higher. Should the spellcaster settle into a life of research and predictability for a span of months, the dweomercat cub familiar might take to wandering off and, eventually, might not return-deliberately severing the master-familiar bond and freeing the spellcaster to summon a new familiar."
 		]
@@ -121,7 +121,7 @@
 			"",
 			"The average adult dweomercat is about 4 feet tall and 7 feet long, weighing over 250 pounds, while their cubs are approximately 1 foot tall and weigh no more than 15 pounds.",
 			"",
-			"### Dweomercat Cubs as Familiars",
+			"::sh[Dweomercat Cubs as Familiars]",
 			"",
 			"Attracted to flashy displays of magic and the strange powers inherent in a bond between a magic-user and her familiar, a dweomercat cub that's wandered from the First World might find its taste for magic and adventure satisfied in the service of a particularly whimsical or ostentatious arcane spellcaster. A spellcaster with the {feat/Improved Familiar} feat can acquire a chaotic neutral dweomercat cub at 7th level or higher. Should the spellcaster settle into a life of research and predictability for a span of months, the dweomercat cub familiar might take to wandering off and, eventually, might not return-deliberately severing the master-familiar bond and freeing the spellcaster to summon a new familiar."
 		]
@@ -446,11 +446,11 @@
 			"",
 			"The exact height and weight of an ebon acolytus varies, largely depending on the shape of its body and the quality of the stone used in its creation, though most rise to around 14 feet tall and weigh around 2,500 pounds. Some carry Large sacrificial weapons other than daggers, but these prove rare and vary between faiths.",
 			"",
-			"### Construction",
+			"::sh[Construction]",
 			"",
 			"An ebon acolytus is chiseled from a single block of dark stone, often black granite or marble, jade, or some other lustrous material, and weighing at least 4,000 pounds. The stone must be of exceptional quality and costs at least 6,000 gp.",
 			"",
-			"#### Ebon Acolytus",
+			"### Ebon Acolytus",
 			"",
 			"**CL** 11th; **Price** 24,000 gp  ",
 			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/desecrate}, {spell/trap the soul}, creator must be caster level 11th; **Skill** Craft (sculpting) or Craft (stonemasonry) DC 16; **Cost** 12,000 gp"
@@ -799,7 +799,7 @@
 			"",
 			"An egregore is 12 feet across, though the bands of light that extend out from it cause it to fluctuate between an effective size of 13 feet to 15 feet. It weighs only 300 pounds despite its vast size. The brains that make up the egregore's body aren't constructed like human brains, and are far less dense; they seem to take the form of brains only because of the conceptual link they represent. Likewise, the egregore's staring eye and bands of light are more metaphorical than physical.",
 			"",
-			"### Egregore Master",
+			"::sh[Egregore Master]",
 			"",
 			"When a larger cult creates an egregore, it is often considerably more dangerous than standard egregores. Use the following guidelines when creating an egregore master. An egregore master is created by combining the will of a powerful cult leader and his followers. While the minimum number of cultists required for the creation of a normal egregore is 13, the more members willing to surrender to the cult mind and the stronger their belief in the ideals of the leader, the more powerful the resultant being.",
 			"",
@@ -875,7 +875,7 @@
 			"",
 			"An unfettered eidolon begins with 1 Hit Die, a +2 natural armor bonus, and the evasion ability. As an unfettered eidolon's Hit Dice increase (see Evolution Points, below), it gains additional bonuses and abilities. At 2 Hit Dice, and every 3 HD thereafter, an unfettered eidolon's base armor bonus increases by +2. This bonus may be split between an armor bonus and a natural armor bonus. Also at 2 Hit Dice, and every 3 HD thereafter, an unfettered eidolon adds +1 to both its Strength and Dexterity scores. At 5 Hit Dice, and every 4 HD thereafter, an unfettered eidolon adds +1 to any one of its ability scores. At 7 Hit Dice, an unfettered eidolon gains Multiattack as a bonus feat.",
 			"",
-			"### Evolution Points",
+			"::sh[Evolution Points]",
 			"",
 			"Unfettered eidolons have a number of evolution points (EP) you can use to purchase abilities and defenses in addition to those presented above. An unfettered eidolon starts with 8 EP, regardless of its base form. For each additional EP spent beyond 8, an unfettered eidolon's Hit Dice increase by 1. An unfettered eidolon's CR increases with its Hit Dice using the \"outsider\" line. Many of these abilities are [universal monster rules](main/umr).",
 			"",
@@ -925,7 +925,7 @@
 			"",
 			"**Weapon Training (Ex, 2 or 4 EP):** Gains Simple Weapon Proficiency as a bonus feat. For 2 additional EP, it gains proficiency with all martial weapons as well.",
 			"",
-			"### Small Eidolons",
+			"::sh[Small Eidolons]",
 			"",
 			"The standard eidolon starts as Medium-sized, but Small eidolons are also possible. Compared to a Medium eidolon, a Small eidolon gains +2 to its Dexterity, -4 to its Strength, and -2 to its Constitution. It also gains a +1 size bonus to its AC and on attack rolls, a -1 size penalty on its CMB and to its CMD score, and a +4 size bonus on Stealth skill checks. If it can fly, it gains a +2 size bonus on Fly skill checks. Reduce the damage of all of its attacks by one step."
 		]
