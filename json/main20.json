@@ -48,7 +48,7 @@
 					[ "{monster/Amoeba, Giant}", 1, "aquatic", [ 3, "small" ], [ 4, "N" ], "This blob of protoplasm is somewhat transparent, allowing the bones of undigested meals and a dark nucleus to be seen within." ],
 					[ "{monster/Animate Hair}", [ -2, "1/2" ], null, [ 2, "tiny" ], [ 5, "NE" ], "What looks like a pile of shorn hair twitches almost imperceptibly, as if the locks were moving in an non-existent wind." ],
 					[ "{monster/Apallie}", 2, null, [ 3, "small" ], [ 4, "N" ], "This small, green ooze shifts form constantly, often taking on a two-legged, vaguely humanoid appearance." ],
-					[ "{monster/Benaioh, Benaioh (Ooze Form)}", 7, null, [ 5, "large" ], [ 4, "N" ], null ],
+					[ "{monster/Benaioh (Ooze Form)}", 7, null, [ 5, "large" ], [ 4, "N" ], null ],
 					[ "{monster/Black Pudding}", 7, null, [ 6, "huge" ], [ 4, "N" ], "This black, amorphous blob piles up on itself, a quivering mound of midnight sludge that glistens darkly before surging forward." ],
 					[ "{monster/Blight, Cave}", 19, "blight", [ 4, "medium" ], [ 8, "CE" ], "Muscular tentacles ending in stalagmite-like stingers extend from this pale brown slime." ],
 					[ "{monster/Blight, Desert}", 13, "blight", [ 4, "medium" ], [ 5, "NE" ], "A roiling mass of orange-brown sludge studded with gleaming red eyes brandishes its lashing tentacles." ],

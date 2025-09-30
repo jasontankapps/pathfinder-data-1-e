@@ -596,7 +596,7 @@
 					[ "{monster/Automaton, Master}", 20, "automaton, extraplanar", [ 6, "huge" ], [ 1, "LN" ], "This construct is covered with elaborate markings. Its arms end in tremendous hooks, and the core in its head glows with light." ],
 					[ "{monster/Automaton, Sharpshooter}", 15, "automaton, extraplanar", [ 4, "medium" ], [ 1, "LN" ], "This construct resembles a humanoid with a large crossbow built into its arm. It floats with no apparent mechanism." ],
 					[ "{monster/Automaton, Stalker}", 5, "automaton, extraplanar", [ 4, "medium" ], [ 1, "LN" ], "This construct resembles a large cat. Its body coloring and the glowing core in the center of its head constantly shift in color." ],
-					[ "{monster/Benaioh, Benaioh (Clay Vessel)}", 7, null, [ 5, "large" ], [ 4, "N" ], "This towering humanoid figure appears to be sculpted from clay. Fine cracks thread through the creature's body, leaking a steady stream of putrescent slime." ],
+					[ "{monster/Benaioh (Clay Vessel)}", 7, null, [ 5, "large" ], [ 4, "N" ], "This towering humanoid figure appears to be sculpted from clay. Fine cracks thread through the creature's body, leaking a steady stream of putrescent slime." ],
 					[ "{monster/Caryatid Column}", 3, null, [ 4, "medium" ], [ 4, "N" ], "With its feet planted firmly together, this marble statue of a female warrior holding a stone sword rises up to support the ceiling." ],
 					[ "{monster/Celedon}", 1, null, [ 4, "medium" ], [ 4, "N" ], "This metallic sculpture of an idealized humanoid figure sparkles with divine luster." ],
 					[ "{monster/Cephalophore}", 8, null, [ 5, "large" ], [ 4, "N" ], "Holding its own severed head in its hands, this tall marble statue looms stern and forbidding over its domain." ],
