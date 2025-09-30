@@ -345,30 +345,32 @@ import rule16 from './json/rules_adv_gm02.json' with {type: 'json'};
 import rule17 from './json/rules_adv_gm03.json' with {type: 'json'};
 import rule18 from './json/rules_adv_gm04.json' with {type: 'json'};
 import rule19 from './json/rules_adv_gm05.json' with {type: 'json'};
-import rule20 from './json/rules_adv_magic01.json' with {type: 'json'};
-import rule21 from './json/rules_campaign_types01.json' with {type: 'json'};
-import rule22 from './json/rules_campaign_types02.json' with {type: 'json'};
-import rule23 from './json/rules_campaign_types03.json' with {type: 'json'};
-import rule24 from './json/rules_campaign_types04.json' with {type: 'json'};
-import rule25 from './json/rules_campaign_types05.json' with {type: 'json'};
-import rule26 from './json/rules_campaign_types06.json' with {type: 'json'};
-import rule27 from './json/rules_campaign_types07.json' with {type: 'json'};
-import rule28 from './json/rules_campaign_types08.json' with {type: 'json'};
-import rule29 from './json/rules_campaign_types09.json' with {type: 'json'};
-import rule30 from './json/rules_campaign_types10.json' with {type: 'json'};
-import rule31 from './json/rules_rulesets01.json' with {type: 'json'};
-import rule32 from './json/rules_rulesets02.json' with {type: 'json'};
-import rule33 from './json/rules_subsystems01.json' with {type: 'json'};
-import rule34 from './json/rules_subsystems02.json' with {type: 'json'};
-import rule35 from './json/rules_subsystems03.json' with {type: 'json'};
-import rule36 from './json/rules_subsystems04.json' with {type: 'json'};
-import rule37 from './json/rules_opt_skills01.json' with {type: 'json'};
-import rule38 from './json/rules_opt_alignment01.json' with {type: 'json'};
-import rule39 from './json/rules_opt_combat01.json' with {type: 'json'};
-import rule40 from './json/rules_opt_pc_adv01.json' with {type: 'json'};
-import rule41 from './json/rules_opt_magic01.json' with {type: 'json'};
-import rule42 from './json/rules_opt_magic02.json' with {type: 'json'};
-import rule43 from './json/rules_opt_magic03.json' with {type: 'json'};
+import rule20 from './json/rules_adv_gm06.json' with {type: 'json'};
+import rule21 from './json/rules_adv_gm07.json' with {type: 'json'};
+import rule22 from './json/rules_adv_magic01.json' with {type: 'json'};
+import rule23 from './json/rules_campaign_types01.json' with {type: 'json'};
+import rule24 from './json/rules_campaign_types02.json' with {type: 'json'};
+import rule25 from './json/rules_campaign_types03.json' with {type: 'json'};
+import rule26 from './json/rules_campaign_types04.json' with {type: 'json'};
+import rule27 from './json/rules_campaign_types05.json' with {type: 'json'};
+import rule28 from './json/rules_campaign_types06.json' with {type: 'json'};
+import rule29 from './json/rules_campaign_types07.json' with {type: 'json'};
+import rule30 from './json/rules_campaign_types08.json' with {type: 'json'};
+import rule31 from './json/rules_campaign_types09.json' with {type: 'json'};
+import rule32 from './json/rules_campaign_types10.json' with {type: 'json'};
+import rule33 from './json/rules_rulesets01.json' with {type: 'json'};
+import rule34 from './json/rules_rulesets02.json' with {type: 'json'};
+import rule35 from './json/rules_subsystems01.json' with {type: 'json'};
+import rule36 from './json/rules_subsystems02.json' with {type: 'json'};
+import rule37 from './json/rules_subsystems03.json' with {type: 'json'};
+import rule38 from './json/rules_subsystems04.json' with {type: 'json'};
+import rule39 from './json/rules_opt_skills01.json' with {type: 'json'};
+import rule40 from './json/rules_opt_alignment01.json' with {type: 'json'};
+import rule41 from './json/rules_opt_combat01.json' with {type: 'json'};
+import rule42 from './json/rules_opt_pc_adv01.json' with {type: 'json'};
+import rule43 from './json/rules_opt_magic01.json' with {type: 'json'};
+import rule44 from './json/rules_opt_magic02.json' with {type: 'json'};
+import rule45 from './json/rules_opt_magic03.json' with {type: 'json'};
 import spell1 from './json/spells.json' with {type: 'json'};
 import spell2 from './json/spells2.json' with {type: 'json'};
 import spell3 from './json/spells3.json' with {type: 'json'};
@@ -554,31 +556,31 @@ const basic_data_groups = {
 		num: 19,
 		type: "Rules (Adv. GM Topics)"
 	},
-	"rules_adv_magic01": {
+	"rules_adv_gm06": {
 		data: rule20,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 20,
-		type: "Rules (Adv. Magic Topics)"
+		type: "Rules (Adv. GM Topics)"
 	},
-	"rules_campaign_types01": {
+	"rules_adv_gm07": {
 		data: rule21,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 21,
-		type: "Rules (Specific Campaigns)"
+		type: "Rules (Adv. GM Topics)"
 	},
-	"rules_campaign_types02": {
+	"rules_adv_magic01": {
 		data: rule22,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 22,
-		type: "Rules (Specific Campaigns)"
+		type: "Rules (Adv. Magic Topics)"
 	},
-	"rules_campaign_types03": {
+	"rules_campaign_types01": {
 		data: rule23,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -586,7 +588,7 @@ const basic_data_groups = {
 		num: 23,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rules_campaign_types04": {
+	"rules_campaign_types02": {
 		data: rule24,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -594,7 +596,7 @@ const basic_data_groups = {
 		num: 24,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rules_campaign_types05": {
+	"rules_campaign_types03": {
 		data: rule25,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -602,7 +604,7 @@ const basic_data_groups = {
 		num: 25,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rules_campaign_types06": {
+	"rules_campaign_types04": {
 		data: rule26,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -610,7 +612,7 @@ const basic_data_groups = {
 		num: 26,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rules_campaign_types07": {
+	"rules_campaign_types05": {
 		data: rule27,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -618,7 +620,7 @@ const basic_data_groups = {
 		num: 27,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rules_campaign_types08": {
+	"rules_campaign_types06": {
 		data: rule28,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -626,7 +628,7 @@ const basic_data_groups = {
 		num: 28,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rules_campaign_types09": {
+	"rules_campaign_types07": {
 		data: rule29,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -634,7 +636,7 @@ const basic_data_groups = {
 		num: 29,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rules_campaign_types10": {
+	"rules_campaign_types08": {
 		data: rule30,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -642,39 +644,39 @@ const basic_data_groups = {
 		num: 30,
 		type: "Rules (Specific Campaigns)"
 	},
-	"rules_rulesets01": {
+	"rules_campaign_types09": {
 		data: rule31,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 31,
-		type: "Rules (Specific Rulesets)"
+		type: "Rules (Specific Campaigns)"
 	},
-	"rules_rulesets02": {
+	"rules_campaign_types10": {
 		data: rule32,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 32,
-		type: "Rules (Specific Rulesets)"
+		type: "Rules (Specific Campaigns)"
 	},
-	"rules_subsystems01": {
+	"rules_rulesets01": {
 		data: rule33,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 33,
-		type: "Rules (Opt. Subsystems)"
+		type: "Rules (Specific Rulesets)"
 	},
-	"rules_subsystems02": {
+	"rules_rulesets02": {
 		data: rule34,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 34,
-		type: "Rules (Opt. Subsystems)"
+		type: "Rules (Specific Rulesets)"
 	},
-	"rules_subsystems03": {
+	"rules_subsystems01": {
 		data: rule35,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -682,7 +684,7 @@ const basic_data_groups = {
 		num: 35,
 		type: "Rules (Opt. Subsystems)"
 	},
-	"rules_subsystems04": {
+	"rules_subsystems02": {
 		data: rule36,
 		datatype: "rule",
 		searchgroup: 12, // rule
@@ -690,60 +692,76 @@ const basic_data_groups = {
 		num: 36,
 		type: "Rules (Opt. Subsystems)"
 	},
-	"rules_opt_skills01": {
+	"rules_subsystems03": {
 		data: rule37,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 37,
-		type: "Rules (Opt. Skill Changes)"
+		type: "Rules (Opt. Subsystems)"
 	},
-	"rules_opt_alignment01": {
+	"rules_subsystems04": {
 		data: rule38,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 38,
-		type: "Rules (Opt. Alignment Changes)"
+		type: "Rules (Opt. Subsystems)"
 	},
-	"rules_opt_combat01": {
+	"rules_opt_skills01": {
 		data: rule39,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 39,
-		type: "Rules (Opt. Combat Changes)"
+		type: "Rules (Opt. Skill Changes)"
 	},
-	"rules_opt_pc_adv01": {
+	"rules_opt_alignment01": {
 		data: rule40,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 40,
-		type: "Rules (Opt. PC Adv. Changes)"
+		type: "Rules (Opt. Alignment Changes)"
 	},
-	"rules_opt_magic01": {
+	"rules_opt_combat01": {
 		data: rule41,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 41,
-		type: "Rules (Opt. Magic Changes)"
+		type: "Rules (Opt. Combat Changes)"
 	},
-	"rules_opt_magic02": {
+	"rules_opt_pc_adv01": {
 		data: rule42,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 42,
-		type: "Rules (Opt. Magic Changes)"
+		type: "Rules (Opt. PC Adv. Changes)"
 	},
-	"rules_opt_magic03": {
+	"rules_opt_magic01": {
 		data: rule43,
 		datatype: "rule",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 43,
+		type: "Rules (Opt. Magic Changes)"
+	},
+	"rules_opt_magic02": {
+		data: rule44,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 44,
+		type: "Rules (Opt. Magic Changes)"
+	},
+	"rules_opt_magic03": {
+		data: rule45,
+		datatype: "rule",
+		searchgroup: 12, // rule
+		link: "rule",
+		num: 45,
 		type: "Rules (Opt. Magic Changes)"
 	},
 	"misc": {
