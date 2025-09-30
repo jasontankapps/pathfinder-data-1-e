@@ -2131,7 +2131,7 @@
 			"**Base Atk** +22; **CMB** +31 (+35 grapple); **CMD** 53 (can't be tripped)  ",
 			"**Feats** {feat/Combat Casting}, {feat/Combat Reflexes}, {feat/Dodge}, Great FortitudeM, {feat/Greater Vital Strike}, {feat/Improved Great Fortitude}, {feat/Mythic |Improved Initiative}, {feat/Improved Iron Will}, {feat/Improved Vital Strike}, {feat/Mythic |Iron Will}, {feat/Vital Strike}  ",
 			"**Skills** Bluff +32, Heal +31, Intimidate +29, Knowledge (arcana, dungeoneering, geography, nature, planes) +32, Perception +34, Sense Motive +34, Spellcraft +29, Stealth +23, Swim +15, Use Magic Device +29  ",
-			"**Languages** speak with animals, {umr/telepathy} 100 ft.  ",
+			"**Languages** *speak with animals,* {umr/telepathy} 100 ft.  ",
 			"**SQ** compression, create life, natural spellcasting, no breath, plantbringer",
 			"",
 			"::sh[Ecology]",

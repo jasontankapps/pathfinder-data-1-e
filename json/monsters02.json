@@ -35,7 +35,7 @@
 			"**Base Atk** +2; **CMB** +1; **CMD** 15  ",
 			"**Feats** {feat/Alertness}, {feat/Dodge}, {feat/Weapon Finesse}  ",
 			"**Skills** Diplomacy +12, Fly +13, Perception +12, Perform (sing) +12, Sense Motive +12, Stealth +15, Swim +8  ",
-			"**Languages** Common, Sylvan; speak with animals  ",
+			"**Languages** Common, Sylvan; *speak with animals*  ",
 			"**SQ** speak with water",
 			"",
 			"::sh[Ecology]",
@@ -471,7 +471,7 @@
 			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/resurrection}, {spell/telekinesis}; **Skill** Craft (blacksmithing), Knowledge (engineering), and Heal DC 25; **Cost** 100,000 gp"
 		]
 	},
-	"anisydaemon": {
+	"daemon_anisydaemon": {
 		"name": "Anisydaemon",
 		"sources": [ "Pathfinder #142: Gardens of Gallowspire" ],
 		"description": [
@@ -512,7 +512,7 @@
 			"**Base Atk** +15; **CMB** +25; **CMD** 39  ",
 			"**Feats** {feat/Combat Reflexes}, {feat/Improved Initiative}, {feat/Intimidating Prowess}, {feat/Iron Will}, {feat/Lightning Reflexes}, {feat/Power Attack}, {feat/Stealthy}, {feat/Skill Focus} (Stealth)  ",
 			"**Skills** Acrobatics +22, Bluff +23, Intimidate +32, Knowledge (planes) +21, Knowledge (religion) +21, Perception +21, Sense Motive +21, Spellcraft +21, Stealth +32  ",
-			"**Languages** Abyssal, Common, Draconic, Infernal; {umr/telepathy} 100 ft., tongues  ",
+			"**Languages** Abyssal, Common, Draconic, Infernal; {umr/telepathy} 100 ft., *tongues*  ",
 			"**SQ** {umr/compression}, hide in plain sight",
 			"",
 			"::sh[Ecology]",
@@ -550,6 +550,7 @@
 			"Anisydaemons can be found working in the interests of any of the Horsemen. For the Horseman of War, they often help drive up levels of anxiety and paranoia between different groups, eventually culminating in each group believing that their best hope for survival is to eliminate the others. For the Horseman of Famine, anisydaemons often target the wealthy in times of scarcity and press upon their worries of starvation, leading them to hoard what little food is available and allowing countless poor to starve. The Horseman of Pestilence uses these daemons during outbreaks of sickness to convince the healthy their only hope of survival is to eliminate the sick, as such violence often ends up helping sickness spread anyway. Under the Horseman of Death, these fiends whisper of the horrible fates that await mortals after death and watch as the subsequent worry leads mortals to commit heinous acts to lengthen their life spans, ironically leading their souls closer to Abaddon in the process."
 		]
 	},
+	"anisydaemon": { "redirect": "daemon_anisydaemon" },
 	"ankheg": {
 		"name": "Ankheg",
 		"sources": [ "Pathfinder RPG Bestiary" ],
@@ -3534,7 +3535,7 @@
 			"**Base Atk** +22; **CMB** +37 (+41 grapple); **CMD** 64  ",
 			"**Feats** {feat/Awesome Blow}, {feat/Cleave}, {feat/Combat Reflexes}[^B], {feat/Critical Focus}, {feat/Deflect Arrows}[^B], {feat/Dodge}[^B], {feat/Great Cleave}, {feat/Improved Bull Rush}, {feat/Improved Initiative}, {feat/Lightning Reflexes}, {feat/Mobility}[^B], {feat/Power Attack}, {feat/Quicken Spell-Like Ability} (baleful polymorph, blade barrier, death knell), {feat/Snatch Arrows}[^B], {feat/Spring Attack}  ",
 			"**Skills** Acrobatics +31 (+39 when jumping), Bluff +33, Climb +21, Diplomacy +30, Escape Artist +14, Fly +35, Intimidate +33, Knowledge (arcana) +27, Knowledge (history) +13, Knowledge (planes) +30, Knowledge (religion) +27, Perception +34, Perform (dance) +33, Sense Motive +30, Spellcraft +27, Stealth +23, Swim +21, Use Magic Device +30; **Racial Modifiers** +6 Escape Artist, +4 Perception  ",
-			"**Languages** Common, Infernal; tongues, {umr/telepathy} 100 ft.",
+			"**Languages** Common, Infernal; *tongues,* {umr/telepathy} 100 ft.",
 			"",
 			"::sh[Ecology]",
 			"",
