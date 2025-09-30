@@ -3154,28 +3154,28 @@ const basic_data_groups = {
 		num: 2,
 		type: "Monster Family"
 	},
-	"monster_templates": {
+	"monster_template": {
 		data: template1,
 		searchgroup: 11, // monster
 		link: "template",
 		num: 1,
 		type: "Creature Template"
 	},
-	"monster_templates2": {
+	"monster_template2": {
 		data: template2,
 		searchgroup: 11, // monster
 		link: "template",
 		num: 2,
 		type: "Creature Template"
 	},
-	"monster_templates3": {
+	"monster_template3": {
 		data: template3,
 		searchgroup: 11, // monster
 		link: "template",
 		num: 3,
 		type: "Creature Template"
 	},
-	"monster_templates4": {
+	"monster_template4": {
 		data: template4,
 		searchgroup: 11, // monster
 		link: "template",
