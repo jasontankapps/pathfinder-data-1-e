@@ -676,7 +676,7 @@ div.sideNoteWrap table tr:last-of-type > *:last-child {
 	border-end-end-radius: 1.5em;
 }
 div.sideNoteWrap table tbody th[scope=row],
-div.sideNoteWrap table tbody th[id] {
+div.sideNoteWrap:not(.singular) table tbody th[id] {
 	text-align: end;
 }
 div.sideNoteWrap table tbody tr td {

@@ -1,15 +1,18 @@
 import { convertTextToLink } from './tests/checkForEncodedLink.js';
 
+const linkify = (input) => input.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, "");
+
 const getContainerDirectives = (globalVariable, marker = ":::") => {
 	const $ = globalVariable;
-		return {
+	return {
 		level: "container",
 		marker,
 		renderer: (token) => {
-			const {flags, makeNewMarkedInstance, removeCurlyBrackets} = $;
+			const {prefix, flags, makeNewMarkedInstance, removeCurlyBrackets, addToJumpList} = $;
 			const {text = "", attrs = {}, meta} = token;
+			const {jl} = attrs;
 			const n = meta.name;
-			let link, label, icon, title;
+			let link, label, icon, title, id;
 			switch(n) {
 				case "archetype": {
 					const { c = "" } = attrs;
@@ -63,7 +66,9 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 					link = "/feat/combat_stamina";
 					icon = "shield-bash.svg";
 					label = "Combat Tricks and Stamina";
-					title = `<th scope="col">Combat Trick</th></tr><tr>`;
+					id = prefix + "combat_trick";
+					jl && addToJumpList("Combat Trick", id, jl);
+					title = `<th scope="col"${id ? ` id="${id}" data-hash-target` : ""}>Combat Trick</th></tr><tr>`;
 					// Pass-through
 				}
 				case "elephant": {
@@ -76,7 +81,16 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 					link = link || "/rule/mythic_feats";
 					icon = icon || "ancient-sword.svg";
 					label = label || "Mythic Rules";
-					title = title || (attrs.title ? `<th scope="col">${attrs.title}</th></tr><tr>` : "");
+					if(!title) {
+						const t = attrs.title;
+						if(t) {
+							if(jl) {
+								id = prefix + linkify(t);
+								addToJumpList(t, id, jl);
+							}
+							title = `<th scope="col"${id ? ` id="${id}" data-hash-target` : ""}>${t}</th></tr><tr>`;
+						}
+					}
 					const rowspan = title ? ` rowSpan={2}` : "";
 					const marked2 = makeNewMarkedInstance();
 					flags.thlink = true;

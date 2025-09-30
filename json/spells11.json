@@ -1488,7 +1488,7 @@
 			"",
 			"*Medium vermin:* If you take the form of a Medium vermin, you gain a +2 size bonus to your Strength and a +3 natural armor bonus.",
 			"",
-			"::h3[Mythic Vermin Shape I]{jl}",
+			":::mythic{jl title=\"Mythic Vermin Shape I\"}",
 			"",
 			"{SOURCE Mythic Origins/13}",
 			"",
@@ -1497,6 +1497,8 @@
 			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, the ability score penalties decrease by 2 (minimum penalty of 0), and the resistance bonus on saving throws against mind-affecting effects increases by 2. Choose one natural attack type the vermin form has, such as bite or claws. The critical multiplier for this attack type increases by 1 (maximum &times;4).",
 			"",
 			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, you can act as if you had the {feat/Natural Spell} feat for 1 round a number of times equal to your tier. For example, if you are 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic vermin shape.",
+			"",
+			":::",
 			"",
 			"::h3[Vermin Shape II]{jl}",
 			"",
@@ -1514,7 +1516,7 @@
 			"",
 			"*Large vermin:* If you take the form of a Large vermin, you gain a +4 size bonus to your Strength, a -2 penalty to your Dexterity, and a +5 natural armor bonus.",
 			"",
-			"::h3[Mythic Vermin Shape II]{jl}",
+			":::mythic{jl title=\"Mythic Vermin Shape II\"}",
 			"",
 			"{SOURCE Mythic Origins/13}",
 			"",
@@ -1522,7 +1524,9 @@
 			"",
 			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, the ability score penalties decrease by 2 (minimum penalty of 0), and the resistance bonus on saving throws against mind-affecting effects increases by 2. Choose one natural attack type the vermin form has, such as bite or claws. The critical multiplier for this attack type increases by 1 (maximum &times;4).",
 			"",
-			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, you can act as if you had the {feat/Natural Spell} feat for 1 round a number of times equal to your tier. For example, if you are 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic vermin shape."
+			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, you can act as if you had the {feat/Natural Spell} feat for 1 round a number of times equal to your tier. For example, if you are 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic vermin shape.",
+			"",
+			":::"
 		]
 	},
 	"vermin_shape_i": { "redirect": "vermin_shape_1" },
