@@ -3480,7 +3480,7 @@
 			"**Sorcerer Spells Known** (CL 1st; concentration +4)  ",
 			"*1st (4/day)*-{spell/color spray} (DC 14), {spell/magic missile}  ",
 			"*0 (at will)*-{spell/dancing lights}, {spell/daze} (DC 15), {spell/ghost sound} (DC 13), {spell/ray of frost}  ",
-			"**Bloodline** fey",
+			"**Bloodline** {sorcbloodline/fey}",
 			"",
 			"::sh[Statistics]",
 			"",

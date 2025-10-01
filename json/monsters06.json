@@ -656,7 +656,7 @@
 			"**Feats** {feat/Alertness}, {feat/Brew Potion}, {feat/Combat Casting}, {feat/Extra Revelation}, {feat/Iron Will}, {feat/Power Attack}, {feat/Scribe Scroll}, {feat/Skill Focus} (Knowledge [history]), {feat/Toughness}  ",
 			"**Skills** Diplomacy +10, Heal +7, Knowledge (arcana) +13, Knowledge (geography) +9, Knowledge (history) +21, Knowledge (local) +11, Knowledge (nature) +10, Knowledge (nobility) +10, Knowledge (planes) +11, Knowledge (religion) +11, Linguistics +9, Perception +16, Perform (oratory) +5, Profession (soothsayer) +13, Sense Motive +19, Spellcraft +15, Survival +7; **Racial Modifiers** +8 Perception  ",
 			"**Languages** Aklo, Celestial, Common, Cyclops, Draconic, Dwarven, Giant, Orc, Terran  ",
-			"**SQ** flash of insight, oracle's curse (hunger), revelations (assume fate [3/day], brutal trance [8 rounds], doomsaying [3/day], wisdom of the ancestors [commune, 1/day])  ",
+			"**SQ** flash of insight, oracle's curse ({oraclecurse/hunger}), revelations (assume fate [3/day], brutal trance [8 rounds], doomsaying [3/day], wisdom of the ancestors [commune, 1/day])  ",
 			"**Combat Gear** potions of {spell/cure moderate wounds} (2), potion of {spell/invisibility} (2), potion of {spell/protection from chaos}, scrolls of {spell/dispel magic} (2), scroll of {spell/locate object}, scrolls of {spell/remove curse} (2), scrolls of {spell/tongues} (2), wand of {spell/cure light wounds} (15 charges), wand of {spell/inflict serious wounds} (8 charges), wand of {spell/lesser restoration} (9 charges), {eq-weapon/holy water} (2); **Other Gear** +2 {eq-armor/hide armor}, +1 {eq-weapon/quarterstaff}, {eq-weapon/heavy crossbow} with 20 bolts, {magic-wondrous/headband of alluring charisma +2}, {eq-misc/antitoxin} (2)",
 			"",
 			"::sh[Ecology]",

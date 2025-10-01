@@ -1423,7 +1423,7 @@
 			"",
 			"Mindspin Mountains: A sump steward known as Lichenback leads a choir in eastern Varisia. Dwarven traders occasionally pass through Lichenback's large colony in the Mindspin Mountains. Lichenback lets travelers pass if they give up a token, which the sump steward adds to an impressive collection of mementos in a collapsed tower choked with fungus.",
 			"",
-			"Fangwood: Fluge Darkwood leads an exceptionally large choir in the Fangwood Forest, near the strange blight that pervades the forest's heart. It's unknown if Fluge's choir has been corrupted by Arlantia, or if they simply find the blight more hospitable for rampant fungal growth. Rumors persist that the sump stewards' songs echoing through the Fangwood are paeans to the horrid god Cyth-V-sug."
+			"Fangwood: Fluge Darkwood leads an exceptionally large choir in the Fangwood Forest, near the strange blight that pervades the forest's heart. It's unknown if Fluge's choir has been corrupted by Arlantia, or if they simply find the blight more hospitable for rampant fungal growth. Rumors persist that the sump stewards' songs echoing through the Fangwood are paeans to the horrid god Cyth-V'sug."
 		]
 	},
 	"sun_falcon": {
@@ -1942,7 +1942,7 @@
 			"*2nd (4/day)*-{spell/acid arrow}  ",
 			"*1st (7/day)*-{spell/cause fear} (DC 15), {spell/corrosive touch}, {spell/ray of enfeeblement} (DC 15), {spell/summon monster I}  ",
 			"*0 (at will)*-{spell/acid splash}, {spell/daze} (DC 13), {spell/detect magic}, {spell/ghost sound} (DC 13), {spell/mage hand}, {spell/mending}  ",
-			"**Bloodline** Abyssal",
+			"**Bloodline** {sorcbloodline/Abyssal}",
 			"",
 			"::sh[Statistics]",
 			"",

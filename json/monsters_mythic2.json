@@ -547,7 +547,7 @@
 			"",
 			"{SOURCE Mythic Adventures/206}  ",
 			"**XP** 102,400  ",
-			"Human {template/lich} {class/cleric} of `Asmodeus` 13  ",
+			"Human {template/lich} {class/cleric} of {faith/Asmodeus} 13  ",
 			"LE Medium {type/undead} ({subtype/augmented} {type/humanoid}, {subtype/human}, {subtype/mythic})  ",
 			"**Init** +13[^I]; **Senses** darkvision 60 ft., spell perception; Perception +29  ",
 			"**Aura** fear (60 ft., DC 28)",

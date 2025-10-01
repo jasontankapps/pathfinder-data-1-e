@@ -2969,7 +2969,7 @@
 			"*2nd (4/day)*-{spell/summon monster II}  ",
 			"*1st (7/day)*-{spell/burning hands} (DC 13), {spell/cause fear} (DC 13), {spell/mage armor}, {spell/summon monster I}  ",
 			"*0 (at will)*-{spell/acid splash}, {spell/detect magic}, {spell/detect poison}, {spell/ghost sound} (DC 12), {spell/message}, {spell/resistance}  ",
-			"**Bloodline** abyssal",
+			"**Bloodline** {sorcbloodline/abyssal}",
 			"",
 			"::sh[Statistics]",
 			"",

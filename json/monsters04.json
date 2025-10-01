@@ -1140,7 +1140,7 @@
 			"*2nd (7/day)*-{spell/alter self}, {spell/invisibility}, {spell/levitate}, {spell/scorching ray}, {spell/see invisibility}, {spell/touch of idiocy}  ",
 			"*1st (7/day)*-{spell/burning hands} (DC 14), {spell/color spray} (DC 14), {spell/enlarge person} (DC 14), {spell/magic missile}, {spell/ray of enfeeblement} (DC 14), {spell/shield}  ",
 			"*0 (at will)*-{spell/acid splash}, {spell/daze} (DC 13), {spell/detect magic}, {spell/detect poison}, {spell/ghost sound} (DC 13), {spell/mage hand}, {spell/read magic}, {spell/resistance}, {spell/touch of fatigue} (DC 13)  ",
-			"**Bloodline** elemental (fire)",
+			"**Bloodline** {sorcbloodline/elemental} (fire)",
 			"",
 			"::sh[Tactics]",
 			"",

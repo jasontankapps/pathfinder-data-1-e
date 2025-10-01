@@ -1646,7 +1646,7 @@
 			"**Sorcerer Spells Known** (CL 1st; concentration +4)  ",
 			"*1st (4/day)*-burning hands (DC 15), {spell/mage armor}  ",
 			"*0 (at will)*-{spell/acid splash}, {spell/detect magic}, {spell/flare} (DC 14), {spell/prestidigitation}  ",
-			"**Bloodline** elemental (fire)",
+			"**Bloodline** {sorcbloodline/elemental} (fire)",
 			"",
 			"::sh[Statistics]",
 			"",
