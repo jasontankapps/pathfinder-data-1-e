@@ -295,7 +295,7 @@
 			"**Inquisitor Spells Known** (CL 1st; concentration +3)  ",
 			"*1st (2/day)*-{spell/cause fear} (DC 15), {spell/shield of faith}  ",
 			"*0 (at will)*-{spell/acid splash}, {spell/daze} (DC 14), {spell/disrupt undead}, {spell/guidance}  ",
-			"**Domain** Air",
+			"**Domain** {domain/Air}",
 			"",
 			"::sh[Statistics]",
 			"",

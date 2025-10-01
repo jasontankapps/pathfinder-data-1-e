@@ -1389,7 +1389,7 @@
 			"**Speed** 40 ft., swim 30 ft.  ",
 			"**Melee** +2 wounding halberd +29/+24/+19/+14 (2d8+18/19-20/&times;3), bite +22 (4d4+5)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
-			"**Special Attacks** nausea, rage (25 rounds/day), rage powers (moment of clarity, quick reflexes, strength surge +7)  ",
+			"**Special Attacks** nausea, rage (25 rounds/day), rage powers ({ragepower/moment of clarity}, {ragepower/quick reflexes}, {ragepower/strength surge} +7)  ",
 			"**Spell-Like Abilities** (CL 13th; concentration +19)  ",
 			"*At will*-{spell/chaos hammer} (DC 20), {spell/greater teleport} (self plus 50 lbs. of objects only), {spell/unholy blight} (DC 20)  ",
 			"*3/day*-{spell/gaseous form}  ",

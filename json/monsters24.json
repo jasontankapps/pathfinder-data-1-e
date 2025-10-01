@@ -4119,7 +4119,7 @@
 			"",
 			"**Speed** 40 ft.  ",
 			"**Melee** +1 greataxe +20/+15 (1d12+16/&times;3), bite +14 (1d4+5 plus energy drain), slam +15 (1d4+5 plus energy drain)  ",
-			"**Special Attacks** blood drain, children of the night, create spawn, dominate (DC 20), {umr/energy drain} (2 levels, DC 20), rage (24 rounds/day), rage powers (animal fury, bleeding blow, no escape, powerful blow +3)",
+			"**Special Attacks** blood drain, children of the night, create spawn, dominate (DC 20), {umr/energy drain} (2 levels, DC 20), rage (24 rounds/day), rage powers ({ragepower/animal fury}, {ragepower/bleeding blow}, {ragepower/no escape}, {ragepower/powerful blow} +3)",
 			"",
 			"::sh[Tactics]",
 			"",

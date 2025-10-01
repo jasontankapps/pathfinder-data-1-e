@@ -4302,7 +4302,7 @@
 			"*2nd*-{spell/barkskin}, {spell/cat's grace}, {spell/cure moderate wounds}[^D], {spell/flaming sphere} (DC 18), {spell/lesser restoration}, {spell/soften earth and stone}, {spell/tree shape}  ",
 			"*1st*-{spell/ant haul}, {spell/cure light wounds}[^D], {spell/endure elements}, {spell/faerie fire}, {spell/goodberry}, {spell/longstrider}, {spell/obscuring mist}  ",
 			"*0*-{spell/create water}, {spell/detect magic}, {spell/purify food and drink}, {spell/stabilize}  ",
-			"**Domain** Healing",
+			"**Domain** {domain/Healing}",
 			"",
 			"::sh[Statistics]",
 			"",

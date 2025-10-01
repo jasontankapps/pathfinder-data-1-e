@@ -2623,7 +2623,7 @@
 			"*2nd*-{spell/flaming sphere} (2, DC 19), {spell/fog cloud}, {spell/heat metal} (DC 19), extended {spell/longstrider}, {spell/soften earth and stone}[^D], {spell/tree shape}  ",
 			"*1st*-entangle (2, DC 18), {spell/faerie fire}, {spell/magic stone}[^D], {spell/obscuring mist}, {spell/produce flame} (2)  ",
 			"*0 (at will)*-{spell/detect magic}, {spell/flare} (DC 17), {spell/guidance}, {spell/light}  ",
-			"**Domain** Earth",
+			"**Domain** {domain/Earth}",
 			"",
 			"::sh[Statistics]",
 			"",
