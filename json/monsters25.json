@@ -1817,6 +1817,8 @@
 			"A creature whose negative levels equal its Hit Dice perishes and rises as a wight. If the wight whose treasure it stole still exists, it becomes a wight spawn bound to that wight. If not, it becomes a free-willed wight. Removing these negative levels does not end the curse, but {spell/remove curse} or {spell/break enchantment} does, with a caster level check against a DC equal to the wight's energy drain save DC. A wight's treasure does not confer negative levels while in the area of a {spell/hallow} spel"
 		]
 	},
+	"brute_wight": { "redirect": "wight" },
+	"cairn_wight": { "redirect": "wight" },
 	"wikkawak": {
 		"name": "Wikkawak",
 		"sources": [ "Bestiary 4" ],
@@ -1921,7 +1923,7 @@
 			"::sh[Ecology]",
 			"",
 			"**Environment** any land  ",
-			"**Organization** solitary, squad (2-6), ride (1-4 wild hunt archers mounted on wild hunt horses), or wild hunt  ",
+			"**Organization** solitary, squad (2-6), ride (1-4 wild hunt archers mounted on {monster/wild hunt horse/s}), or wild hunt  ",
 			"**Treasure** {rule/standard} (mwk {eq-weapon/composite longbow}, other treasure)",
 			"",
 			"::sh[Special Abilities]",
@@ -3601,6 +3603,7 @@
 			"**White Wraith (+1 CR):** Created by fiends from the distilled and corrupted souls of holy crusading knights who succumbed to temptation and died as sinners and blasphemers, white wraiths are composed of blinding white light rather than darkness. These tortured souls deal 2d6 points of cold damage and 1d8 Dexterity drain with their incorporeal touch. Furthermore, white wraiths do not suffer from powerlessness in sunlight, as do their lesser cousins, and in fact exude an aura of light that causes all creatures within 20 feet to become dazzled as long as they remain within this area of bright illumination. Creatures slain by white wraiths rise as normal wraith spawn in 1d4 rounds."
 		]
 	},
+	"dread_wraith": { "redirect": "wraith" },
 	"wraithwing": {
 		"name": "Wraithwing",
 		"sources": [ "Pathfinder #101: The Kintargo Contract" ],
@@ -3817,7 +3820,7 @@
 			"::sh[Ecology]",
 			"",
 			"**Environment** any  ",
-			"**Organization** solitary or cadre (1 plus 2-4 dread wraiths)  ",
+			"**Organization** solitary or cadre (1 plus 2-4 {monster/dread wraith/s})  ",
 			"**Treasure** {rule/double}",
 			"",
 			"::sh[Special Abilities]",

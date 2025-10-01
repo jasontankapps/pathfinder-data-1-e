@@ -1058,7 +1058,7 @@
 			"::sh[Ecology]",
 			"",
 			"**Environment** any  ",
-			"**Organization** solitary, pair, or witchlight (3-10 plus 4-6 will-o'-wisps or lurkers in light)  ",
+			"**Organization** solitary, pair, or witchlight (3-10 plus 4-6 will-o'-wisps or {monster/lurker[s] in light})  ",
 			"**Treasure** {rule/standard}",
 			"",
 			"::sh[Special Abilities]",
@@ -2067,6 +2067,7 @@
 		]
 	},
 	"bear": { "redirect": "bear_grizzly_bear" },
+	"brown_bear": { "redirect": "bear_grizzly_bear" },
 	"grizzly": { "redirect": "bear_grizzly_bear" },
 	"grizzly_bear": { "redirect": "bear_grizzly_bear" },
 	"bear_grizzly": { "redirect": "bear_grizzly_bear" },
