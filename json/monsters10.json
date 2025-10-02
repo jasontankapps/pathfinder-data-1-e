@@ -5907,7 +5907,7 @@
 			"{SOURCE Pathfinder #126: Beyond the Veiled Past/86}  ",
 			"**XP** 102,400  ",
 			"NE Medium {type/undead} ({subtype/incorporeal})  ",
-			"**Init** +13; **Senses** darkvision 60 ft., lifesense; Perception +37  ",
+			"**Init** +13; **Senses** darkvision 60 ft., {umr/lifesense}; Perception +37  ",
 			"**Aura** slow aura (30 ft.)",
 			"",
 			"::sh[Defense]",
