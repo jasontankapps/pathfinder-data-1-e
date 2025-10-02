@@ -15,7 +15,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 		<p>App Icon is based on "Gift of Knowledge" by <a href="https://lorcblog.blogspot.com/">Lorc</a>.</p>
 		<p>Menu icons "Battle Gear, "Croc Jaws", "Bolt Eyes", and "Robe" also by Lorc.</p>
 		<blockquote>
-			<p>The icons for curses ("Death Note"), poisons ("Poison Bottle"), infestations ("Infested Mass"), diseases ("Paramecia"), drugs ("Syringe"), haunts ("Ghost"), and traps ("Wolf Trap") are also by Lorc.</p>
+			<p>The icons for curses ("Death Note"), poisons ("Poison Bottle"), infestations ("Infested Mass"), diseases ("Paramecia"), afflictions ("Tumor"), drugs ("Syringe"), haunts ("Ghost"), and traps ("Wolf Trap") are also by Lorc.</p>
 		</blockquote>
 		<p>Menu icons "Skills", "Person", "Mighty Force", and "Sparkles", and the icons for mythic feats/spells ("Ancient Sword"), Combat Stamina tricks ("Shield Bash") and "Elephant" are by <a href="https://delapouite.com/">Delapouite</a>. (CC BY 3.0)</p>
 		<p>Menu icon "Orb Wand" by <a href="https://wjbstories.blogspot.com/">Wildabeast</a></p>

@@ -273,8 +273,9 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				}
 				return `${maybeClear}<${t}>${inner}</${t}>`;
 			} else if (n === "aff") {
+				// Affliction
 				churn(n, attrs, [
-					"iconP", "iconI", "iconC", "iconD",
+					"iconP", "iconI", "iconC", "iconD", "iconA",
 					"clear","poison","curse","infest","disease",
 					"type","save","saveF","saveW","onset",
 					"dcF","dcW","dcR","dcYou","dcIt","dcPoss","dcLev","dcHD","dcMod",
@@ -293,9 +294,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"cure","cure1","cure2","cure2c","cure3","cure3c",
 					"extra","start","nolink"
 				], logError);
-				// Affliction
 				const {
-					iconP, iconI, iconC, iconD,
+					iconP, iconI, iconC, iconD, iconA,
 					poison, curse, infest, disease,
 					type, save, saveF, saveW, onset,
 					track, trackmod,
@@ -327,7 +327,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				//
 				// CONFIGURE TYPE BOX
 				//
-				let supertype = poison ? "Poison" : curse ? "Curse" : infest ? "Infestation" : disease ? "Disease" : "";
+				let supertype = poison ? "Poison" : curse ? "Curse" : infest ? "Infestation" : disease ? "Disease" : "Affliction";
 				if(type && supertype) {
 					supertype = supertype + "; " + type;
 				} else if (type) {
@@ -526,7 +526,9 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				const icon = iconP ? ["Poison", "poison-bottle.svg", "/rule/poison"] : (
 					iconD ? ["Disease", "paramecia.svg", "/rule/diseases"] : (
 						iconC ? ["Curse", "death-note.svg", "/rule/curses"] : (
-							iconI ? ["Infestation", "infested-mass.svg", "/rule/infestations"] : false
+							iconI ? ["Infestation", "infested-mass.svg", "/rule/infestations"] : (
+								iconA ? ["Affliction", "tumor.svg", "/rule/afflictions"] : false
+							)
 						)
 					)
 				);
@@ -549,6 +551,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				);
 				return output.join("");
 			} else if (n === "drug") {
+				// Drug
 				churn(n, attrs, [
 					"clear","type",
 					"addict","minor","moderate","severe","dc",
@@ -556,7 +559,6 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"dmg","dmgStr","dmgDex","dmgCon","dmgInt","dmgWis","dmgCha",
 					"start"
 				], logError);
-				// Affliction
 				const {
 					type, addict, minor, moderate, severe, dc,
 					price, eff1, eff2,
@@ -701,13 +703,13 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				);
 				return output.join("");
 			} else if (n === "trap") {
+				// Trap
 				churn(n, attrs, [
 					"cr", "magic", "mechanical", "terrain",
 					"pdc", "dddc", "trigger",
 					"manual", "automatic", "repair", "eff",
 					"start", "clear"
 				], logError);
-				// Affliction
 				const {
 					cr, magic, mechanical, terrain,
 					pdc, dddc, trigger,
@@ -813,11 +815,11 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				);
 				return output.join("");
 			} else if (n === "haunt") {
+				// Haunt
 				churn(n, attrs, [
 					"notice", "hp", "weak", "trigger", "reset",
 					"start", "clear"
 				], logError);
-				// Affliction
 				const {
 					notice, hp, weak, trigger, reset,
 					start
