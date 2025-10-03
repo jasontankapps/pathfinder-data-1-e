@@ -1591,6 +1591,12 @@
 			"",
 			":::",
 			"",
+			":::blockquote{className=showIfNoStamina}",
+			"",
+			"*Combat tricks are listed under their associated feats, but you have toggled Combat Tricks off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
+			"",
 			"There are 547 feats with associated combat tricks. They are [listed here](main/feats_with_combat_tricks)."
 		]
 	},

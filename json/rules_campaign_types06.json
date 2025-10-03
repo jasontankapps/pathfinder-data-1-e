@@ -5,7 +5,13 @@
 		"description": [
 			"{SOURCE Mythic Adventures/4}",
 			"",
-			"Legend speaks of the coming of great heroes. As the darkness gathers and the forces of the underworld rise to swallow the land of the living, a few brave souls will hear the call to greatness. Their deeds will become the stories of our time, and their victories will be celebrated for centuries to come. Even now, they walk among us, unaware of the destiny that awaits them. The moment is almost here. Their hour is at hand."
+			"Legend speaks of the coming of great heroes. As the darkness gathers and the forces of the underworld rise to swallow the land of the living, a few brave souls will hear the call to greatness. Their deeds will become the stories of our time, and their victories will be celebrated for centuries to come. Even now, they walk among us, unaware of the destiny that awaits them. The moment is almost here. Their hour is at hand.",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::"
 		],
 		"parent_topics": [ "gm_specific_campaigns" ],
 		"subtopics": [
@@ -818,7 +824,13 @@
 			"",
 			"@HL[Mythic Feats] Only characters with mythic tiers or creatures with mythic ranks can take these feats. If a creature becomes non-mythic, it no longer gains the benefit of these feats, but it doesn't lose them permanently. If the creature becomes mythic again, it regains the use of all the mythic feats it once had. Many mythic feats enhance non-mythic feats with the same name. When a creature has a mythic version of a feat, it is noted its stat block.",
 			"",
-			"See [here](main/feats_mythic) for the list of mythic feats."
+			"See [here](main/feats_mythic) for the list of mythic feats.",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::"
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",
@@ -840,7 +852,13 @@
 		"description": [
 			"{SOURCE Mythic Adventures/78}",
 			"",
-			"Mythic spells draw upon the caster's mythic power to create more powerful magical effects - {spell/mythic |fireball} sets affected creatures on fire, {spell/mythic |mage armor} can negate critical hits, and so on. These spells aren't separate spells you gain as a spell known from your spellcasting class, but rather mythically charged versions of spells you already know.",
+			"Mythic spells draw upon the caster's mythic power to create more powerful magical effects - {spell/mythic |fireball} sets affected creatures on fire, {spell/mythic |mage armor} can negate critical hits, and so on. These spells aren't separate spells you gain as a spell known from your spellcasting class, but rather mythically charged versions of spells you already know. All mythic spells [can be found here](main/spells_mythic), sorted by class.",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"@HL[Learning Mythic Spells:] To learn a mythic spell, you must either select the mythic spellcasting {rule/universal path abilities/ lists} or the {feat/Mythic Spell Lore} feat. In doing so, you unlock the secret of using your mythic power to amplify non-mythic spells you choose.",
 			"",

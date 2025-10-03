@@ -5,6 +5,7 @@ import { EdgeToEdge } from '@capawesome/capacitor-android-edge-to-edge-support';
 import { StatusBar, Style } from '@capacitor/status-bar';
 
 import Menu from './components/Menu';
+import { useAppSelector } from './store/hooks';
 
 import ErrorPage from './pages/ErrorPage';
 
@@ -59,6 +60,7 @@ const TraitPage = lazy(() => import("./pages/TraitPage"));
 
 // Special Pages
 
+const SettingsPage = lazy(() => import("./Settings"));
 const FeatTreePage = lazy(() => import("./pages/FeatTreePage"));
 const BookmarksPage = lazy(() => import("./pages/Bookmarks"));
 const BookmarkPage = lazy(() => import("./pages/BookmarkPage"));
@@ -135,6 +137,13 @@ const UMRPage = lazy(() => import("./pages/UMRPage"));
 
 const App: FC = () => {
 	const [hasSet, setHasSet] = useState(false);
+	const { noStamina, noMythic, noElephant } = useAppSelector(state => state.settings);
+
+	const classes = [];
+	noStamina && classes.push("noStamina");
+	noMythic && classes.push("noMythic");
+	noElephant && classes.push("noElephant");
+	const className = classes.join(" ");
 
 	if (!hasSet) {
 		EdgeToEdge.setBackgroundColor({ color: '#000000' });
@@ -146,9 +155,10 @@ const App: FC = () => {
 		<IonApp>
 			<IonSplitPane contentId="main">
 				<Menu />
-				<IonContent id="main">
+				<IonContent id="main" className={className}>
 					<Switch>
 						<Route path="/about"><AboutOnlyPage /></Route>
+						<Route path="/settings"><SettingsPage /></Route>
 						<Route path="/main/:mainpage">
 							<Suspense fallback={<Loading />}>
 								<MainPage />

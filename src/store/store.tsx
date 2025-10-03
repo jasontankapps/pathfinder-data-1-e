@@ -19,6 +19,7 @@ import historyReducer, {initialState as history} from './historySlice';
 import searchReducer, {initialState as search} from './searchSlice';
 import displayTableReducer, {initialState as displayTable, DisplayTableState} from './displayTableSlice';
 import bookmarksReducer, {BookmarkDB, BookmarkGroup, initialState as bookmarks, Catalog} from './bookmarksSlice';
+import settingsReducer, {initialState as settings} from './settingsSlice';
 
 //
 //
@@ -29,7 +30,8 @@ const initialAppState = {
 	history,
 	search,
 	displayTable,
-	bookmarks
+	bookmarks,
+	settings
 };
 // ----- END
 //
@@ -311,6 +313,14 @@ const migrations = {
 				catalog
 			}
 		};
+	},
+	17: (state: any) => {
+		const {...incomingState} = state;
+		// Add new settings slice
+		return {
+			...incomingState,
+			settings: {...settings}
+		};
 	}
 };
 
@@ -320,19 +330,20 @@ const reducerConfig = {
 	history: historyReducer,
 	search: searchReducer,
 	displayTable: displayTableReducer,
-	bookmarks: bookmarksReducer
+	bookmarks: bookmarksReducer,
+	settings: settingsReducer
 };
 const stateReconciler = (incomingState: any, originalState: any, reducedState: any, config: any) => {
 	return autoMergeLevel1(incomingState, originalState, reducedState, config);
 };
 const persistConfig: PersistConfig<typeof initialAppState> = {
 	key: 'root-pf-data',
-	version: 16,
+	version: 17,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),
 	// Only persist bookmarks and display tables
-	whitelist: ['bookmarks', 'displayTable']
+	whitelist: ['bookmarks', 'displayTable', 'settings']
 };
 const reducer = combineReducers(reducerConfig);
 const persistedReducer = persistReducer(persistConfig, reducer);

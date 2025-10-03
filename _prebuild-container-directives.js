@@ -89,6 +89,8 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 								addToJumpList(t, id, jl);
 							}
 							title = `<th scope="col"${id ? ` id="${id}" data-hash-target` : ""}>${t}</th></tr><tr>`;
+						} else {
+							title = "";
 						}
 					}
 					const rowspan = title ? ` rowSpan={2}` : "";
@@ -96,7 +98,7 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 					flags.thlink = true;
 					flags.icon = true;
 					return (
-						`<div className="sideNoteWrap singular optional"><table><tbody><tr><ThLink scope="row" to="${link}"${rowspan}><IonIcon aria-label="${label}" icon="/icons/${icon}" /></ThLink>${title}<td>${removeCurlyBrackets(marked2.parse(text))}</td></tr></tbody></table></div>`
+						`<div className="sideNoteWrap singular optional ${n}"><table><tbody><tr><ThLink scope="row" to="${link}"${rowspan}><IonIcon aria-label="${label}" icon="/icons/${icon}" /></ThLink>${title}<td>${removeCurlyBrackets(marked2.parse(text))}</td></tr></tbody></table></div>`
 					);
 				}
 			}

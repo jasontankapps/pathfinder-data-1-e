@@ -696,6 +696,33 @@ div.sideNoteWrap table tbody tr th.thLink {
 	cursor: pointer;
 }
 
+ion-content.noStamina div.sideNoteWrap.stamina,
+ion-content.noMythic div.sideNoteWrap.mythic,
+ion-content.noElephant div.sideNoteWrap.elephant,
+blockquote.showIfNoStamina,
+blockquote.showIfNoMythic,
+blockquote.showIfNoElephant {
+	display: none;
+}
+ion-content.noStamina div.sideNoteWrap.stamina + div.sideNoteWrap,
+ion-content.noMythic div.sideNoteWrap.mythic + div.sideNoteWrap,
+ion-content.noElephant div.sideNoteWrap.elephant + div.sideNoteWrap {
+	margin-block-start: 0;
+}
+ion-content#main.noMythic:not(.noStamina):not(.noElephant) div.sideNoteWrap.stamina + div.sideNoteWrap.mythic + div.sideNoteWrap.elephant {
+	/*
+		In feats, the order is ALWAYS [stamina -> mythic -> elephant],
+		therefore the margin must be preserved if a hidden mythic
+		exists between the stamina and elephant entries.
+	*/
+	margin-block-start: 1em;
+}
+ion-content#main.noStamina blockquote.showIfNoStamina,
+ion-content#main.noMythic blockquote.showIfNoMythic,
+ion-content#main.noElephant blockquote.showIfNoElephant {
+	display: block;
+}
+
 
 ion-modal ion-item.item ion-label.picker {
 	cursor: pointer;

@@ -10,7 +10,7 @@ import {
 	IonRippleEffect
 } from '@ionic/react';
 import { Dispatch } from '@reduxjs/toolkit';
-import { alertCircle, bookmark, bookmarks, shieldCheckmark } from 'ionicons/icons';
+import { alertCircle, bookmark, bookmarks, settings, shieldCheckmark } from 'ionicons/icons';
 import { useLocation } from 'wouter';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { BookmarkGroup } from '../store/bookmarksSlice';
@@ -148,6 +148,12 @@ const appPages: AppPage[] = [
 		url: "/about",
 		icon: alertCircle,
 		equals: "/"
+	},
+	{
+		title: "Settings",
+		url: "/settings",
+		icon: settings,
+		equals: "/settings"
 	}
 ];
 

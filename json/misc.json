@@ -816,7 +816,13 @@
 		"description": [
 			"{SOURCE PRPG Core Rulebook/184}",
 			"",
-			"You can choose to @HL[fight defensively] as a {rule/standard action>s} or when taking a {rule/full-attack} action. If you do so, you take a -4 penalty on all attacks in a round to gain a +2 dodge bonus to AC until the start of your next turn."
+			"You can choose to @HL[fight defensively] as a {rule/standard action>s} or when taking a {rule/full-attack} action. If you do so, you take a -4 penalty on all attacks in a round to gain a +2 dodge bonus to AC until the start of your next turn.",
+			"",
+			":::elephant",
+			"",
+			"This option may be replaced with the [Defensive Stance](rule/combat_errata) action.",
+			"",
+			":::"
 		],
 		"searchgroup": "rule",
 		"type": "Rule",

@@ -3050,7 +3050,13 @@
 			"",
 			"@HL[Fighter Bonus Feats Only:] If you want to significantly strengthen fighters compared to all other classes and keep this system as a special fighter-only perk, you can restrict the Combat Stamina feat to fighters and limit the feats a character can use with his stamina pool to those gained with the fighter's bonus feats. A multiclass fighter can't use stamina with bonus feats he gained from any other class, even if that class can take fighter-only feats as bonus feats (like the {class/warpriest} and the {class/swashbuckler}). In this version, if a character really wants the stamina ability of a few key feats, he will need to diversify his martial training by taking a level in fighter.",
 			"",
-			"@HL[Free for Everyone:] If your goal is to immediately boost all martial characters and the whole group is ready to handle the stamina and combat tricks system, you can grant Combat Stamina as an additional bonus feat for all martial characters, or even for all characters."
+			"@HL[Free for Everyone:] If your goal is to immediately boost all martial characters and the whole group is ready to handle the stamina and combat tricks system, you can grant Combat Stamina as an additional bonus feat for all martial characters, or even for all characters.",
+			"",
+			":::blockquote{className=showIfNoStamina}",
+			"",
+			"*Combat tricks are listed under their associated feats, but you have toggled Combat Tricks off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::"
 		],
 		"parent_topics": [ "optional_subsystems" ],
 		"subtopics": [ "combat_stamina" ],

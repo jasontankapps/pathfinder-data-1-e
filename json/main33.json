@@ -37,7 +37,7 @@
 			"",
 			"::main[Paladin]{to=main/spells_mythic_paladin}",
 			"",
-			"::main[Ranger]{to=main/spells_mythic_rangers}",
+			"::main[Ranger]{to=main/spells_mythic_ranger}",
 			"",
 			"::main[Shaman]{to=main/spells_mythic_shaman}",
 			"",
@@ -57,11 +57,17 @@
 			"",
 			"::mhr",
 			"",
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -215,11 +221,17 @@
 		"title": "Mythic Arcanist, Sorcerer and Wizard Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -325,9 +337,17 @@
 		"title": "Mythic Alchemist Extracts",
 		"searchgroup": "spell",
 		"description": [
-			"::main[Alchemist Extracts]{to=Mythic}",
+			";;;item",
 			"",
-			"{table0}"
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
+			"",
+			"{table0}",
+			"",
+			";;;"
 		],
 		"tables": [
 			{
@@ -370,12 +390,20 @@
 		]
 	},
 	"spells_mythic_investigator": {
-		"title": "Mythic Investigator Extracs",
+		"title": "Mythic Investigator Extracts",
 		"searchgroup": "spell",
 		"description": [
-			"::main[Investigator Extracs]{to=Mythic}",
+			";;;item",
 			"",
-			"{table0}"
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
+			"",
+			"{table0}",
+			"",
+			";;;"
 		],
 		"tables": [
 			{
@@ -421,11 +449,17 @@
 		"title": "Mythic Summoner Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -459,11 +493,17 @@
 		"title": "Mythic Unchained Summoner Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -498,11 +538,17 @@
 		"title": "Mythic Bard and Skald Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -545,11 +591,17 @@
 		"title": "Mythic Magus Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -606,11 +658,17 @@
 		"title": "Mythic Witch Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -676,11 +734,17 @@
 		"title": "Mythic Bloodrager Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -733,11 +797,17 @@
 		"title": "Mythic Cleric and Oracle Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -798,11 +868,17 @@
 		"title": "Mythic Druid Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -849,15 +925,21 @@
 			}
 		]
 	},
-	"spells_mythic_rangers": {
+	"spells_mythic_ranger": {
 		"title": "Mythic Ranger Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -888,11 +970,17 @@
 		"title": "Mythic Hunter Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -937,11 +1025,17 @@
 		"title": "Mythic Inquisitor Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -986,11 +1080,17 @@
 		"title": "Mythic Warpriest Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -1043,11 +1143,17 @@
 		"title": "Mythic Paladin Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -1078,11 +1184,17 @@
 		"title": "Mythic Antipaladin Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -1115,11 +1227,17 @@
 		"title": "Mythic Shaman Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -1170,11 +1288,17 @@
 		"title": "Mythic Medium Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -1217,11 +1341,17 @@
 		"title": "Mythic Mesmerist Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -1270,11 +1400,17 @@
 		"title": "Mythic Occultist Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -1337,11 +1473,17 @@
 		"title": "Mythic Psychic Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
@@ -1415,11 +1557,17 @@
 		"title": "Mythic Spiritualist Spells",
 		"searchgroup": "spell",
 		"description": [
-			":::item",
+			";;;item",
+			"",
+			":::blockquote{className=showIfNoMythic}",
+			"",
+			"*You have toggled Mythic feats and spells off on the [settings page](settings). You will need to toggle it back on in order to see them.*",
+			"",
+			":::",
 			"",
 			"{table0}",
 			"",
-			":::"
+			";;;"
 		],
 		"tables": [
 			{
