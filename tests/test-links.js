@@ -272,11 +272,12 @@ const checkForMalformedLinks = (line) => {
 	}
 	// 1: has the markdown link format ](
 	//      AND
-	// 2:   immediately ends like ]()
-	// 3:   or is followed by an invalid link prefix like ](Some.thing/
-	// 4:   or has a valid link prefix but immediately ends like ](prefix/) or ](prefix)
-	//                  1    2    3           4
-	else if(m = line.match(/\]\((\)|[^-a-z_]+[/]|[-a-z_]+[/]?\))/)) {
+	// 2:   is NOT (settings), which is a valid link
+	// 3:   immediately ends like ]()
+	// 4:   or is followed by an invalid link prefix like ](Some.thing/
+	// 5:   or has a valid link prefix but immediately ends like ](prefix/) or ](prefix)
+	//                        1      2         3      4            5
+	else if(m = line.match(/\]\((?!settings\))(\)|[^-a-z_]+[/]|[-a-z_]+[/]?\))/)) {
 		return `Malformed [link]: ${m[0]}\n\t\t => "${line}"`;
 	}
 	// 1: Checks for extraneous }s at the end of a valid link
