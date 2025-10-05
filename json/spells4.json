@@ -65,7 +65,7 @@
 			"",
 			"{SOURCE Ultimate Magic/218}  ",
 			"**School** {spelldef/necromancy} [{spelldef/curse}, {spelldef/disease}, {spelldef/evil}]; **Level** arcanist 3, inquisitor 3, psychic 3, sorcerer 3, witch 3, wizard 3  ",
-			"**Casting Time** 1 standard  ",
+			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
 			"**Target** one creature  ",
@@ -1219,7 +1219,7 @@
 			"**Components** V, S, M (offerings worh 2,500 gp plus payment), DF  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
 			"**Effect** up to three called fey, totaling no more than 18 Hit Dice, no two of which can appear more than 30 ft. apart  ",
-			"**Duration** instananeous  ",
+			"**Duration** instantaneous  ",
 			"**Saving Throw** none; **Spell Resistance** no",
 			"",
 			"This spell functions as lesser entice fey, except the spell's whimsical calling can produce a single fey of 18 Hit Dice or less, or up to three fey of the same kind whose Hit Dice total no more than 18."

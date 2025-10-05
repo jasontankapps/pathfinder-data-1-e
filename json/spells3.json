@@ -1233,7 +1233,7 @@
 			"**Range** touch  ",
 			"**Target** living creature touched  ",
 			"**Duration** 1 min./level  ",
-			"**Saving Throw** Will negates (harmless); **Spell Resistance** (yes) harmless",
+			"**Saving Throw** Will negates (harmless); **Spell Resistance** Yes (harmless)",
 			"",
 			"This spell functions like death ward, except as noted above and it only protects against these attacks from daemons."
 		]
@@ -2200,7 +2200,7 @@
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
 			"**Target** one creature/4 levels  ",
 			"**Duration** 1 round/3 levels  ",
-			"**Saving Throw** Will parital (see text); **Spell Resistance** yes",
+			"**Saving Throw** Will partial (see text); **Spell Resistance** yes",
 			"",
 			"This spell functions as per debilitating pain, except you can target one creature for every 4 caster levels you have."
 		]
@@ -3351,7 +3351,7 @@
 			"**School** {spelldef/divination}; **Level** bard 2, cleric 2, inquisitor 2, oracle 2, skald 2, warpriest 2, witch 2  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, F/DF (a seed)  ",
-			"**Range** N/A  ",
+			"**Range** *The original source did not include a range line*  ",
 			"**Targets** one creature per level, no two of which can be more than 30 ft. apart  ",
 			"**Duration** concentration, up to 1 min./level (D)  ",
 			"**Saving Throw** Will negates, see text; **Spell Resistance** no",
