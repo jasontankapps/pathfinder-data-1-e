@@ -7,13 +7,15 @@ const checkForSourceLinks = (desc) => {
 	const multi = /^>*\{SOURCE ([^\}]+)\}(?:  )?$/;
 	// Template headers store source information
 	const th = /^::th\[[^\]]+\]\{[^\}]*\bsc="([^"}]+)"[^}]+\}?$/;
+	// Spell statblocks store source information
+	const sp = /^::spell\{[^\}]*\bsource="([^"}]+)"[^}]+\}?$/;
 	desc.forEach(line => {
 		if(line === "::spelldeitynote") {
 			// Spell deity notes have a source link to Inner Sea Gods baked in.
 			found.push("inner_sea_gods");
 			return;
 		}
-		let m = line.match(multi) || line.match(th);
+		let m = line.match(multi) || line.match(th) || line.match(sp);
 		if(m) {
 			const sources = m[1].split(";");
 			while(sources.length) {

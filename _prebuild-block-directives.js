@@ -1,4 +1,5 @@
 import checkForEncodedLink from './tests/checkForEncodedLink.js';
+import makeSpellBlock from './_prebuild-block-directives--spell.js'
 
 const churn = (n, attrs, list, logError) => {
 	const found = [];
@@ -907,6 +908,37 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					`</tbody></table></div>`
 				);
 				return output.join("");
+			} else if (n === "spell") {
+				// Spell
+				churn(n, attrs, [
+					"clear", "source",
+					"school", "enchantment", "compulsion", "mindAffecting", "abjuration", "force",
+					"conjuration", "creation", "acid", "air", "calling", "chaotic", "charm", "cold",
+					"curse", "darkness", "death", "disease", "divination", "draconic", "earth",
+					"electricity", "emotion", "evil", "evocation", "fear", "figment", "fire",
+					"glamer", "good", "haunted", "healing", "illusion", "languageDependent",
+					"lawful", "light", "meditative", "necromancy", "pain", "pattern", "phantasm",
+					"poison", "polymorph", "ruse", "scrying", "shadowDesc", "shadowSub", "sonic",
+					"summoning", "teleportation", "transmutation", "universal", "water",
+					"adp", "alc", "ant", "arc", "bld", "brd", "clr", "drd",
+					"hnt", "inq", "inv", "mag", "med", "mes", "occ", "orc",
+					"pal", "psy", "rgr", "rma", "sha", "skd", "sor", "spr",
+					"sum", "usm", "war", "wit", "wiz", "faith",
+					"ct", "ctFRA", "ctIm", "ctSw", "ctSt", "ctH", "ctM", "ctR",
+					"cV", "cS", "cDF", "cMp", "cF", "cFDF", "cFDFp", "cFp",
+					"cM", "cMDF", "cMDFp", "cSpecial", "cText",
+					"r", "rTouch", "rPers", "rClose", "rFt", "rLong", "rMed", "rText",
+					"target", "area", "areaOrTarget", "effect", "targetOrArea", "targetOrTargets", "targets",
+					"dur", "durML", "durH", "durD", "durC", "durCon", "durDL",
+					"durHL", "durI", "durM", "durP", "durR", "durRL",
+					"save", "saveNo", "fort", "fortHalf", "fortPartial",
+					"refl", "reflHalf", "reflPartial", "will", "willDisbelief",
+					"willHalf", "willPartial", "svHarmless", "svObject",
+					"sr", "srY", "srN", "srHarmless", "srObject",
+					"harmless", "object"
+				], logError);
+				const marked2 = makeNewMarkedInstance();
+				return makeSpellBlock(marked2, parseSOURCE, linker, maybeClear, attrs, logError);
 			} else if(n === "spelldeitynote") {
 				const marked2 = makeNewMarkedInstance();
 				return (
