@@ -994,7 +994,7 @@
 			"## Unwelcome Halo",
 			"",
 			"{SOURCE Inner Sea Gods/244}  ",
-			"**School** {spelldef/evocation} [{spelldef/light}]; **Level** arcanist 1, cleric 1, oracle 1, paladin 1, sorcerer 1, warpriest 1, wizard 1 (Sarenrae)[^G]  ",
+			"**School** {spelldef/evocation} [{spelldef/light}]; **Level** arcanist 1, cleric 1, oracle 1, paladin 1, sorcerer 1, warpriest 1, wizard 1 (Sarenrae)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** medium (100 ft. + 10 ft./level)  ",
@@ -1006,7 +1006,7 @@
 			"",
 			"If unwelcome halo is brought into an area of magical darkness (or vice versa), the effects of both spells are temporarily negated, so that the otherwise prevailing light conditions exist within the overlapping fields of effect.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"unwilling_shield": {
@@ -1354,7 +1354,7 @@
 			"## Vengeful Stinger",
 			"",
 			"{SOURCE Inner Sea Gods/245}  ",
-			"**School** {spelldef/transmutation} ({spelldef/polymorph}) [{spelldef/poison}]; **Level** arcanist 5, cleric 6, oracle 6, shaman 5, sorcerer 5, summoner 5, unchained summoner 5, warpriest 6, witch 5, wizard 5 (Calistria)[^G]  ",
+			"**School** {spelldef/transmutation} ({spelldef/polymorph}) [{spelldef/poison}]; **Level** arcanist 5, cleric 6, oracle 6, shaman 5, sorcerer 5, summoner 5, unchained summoner 5, warpriest 6, witch 5, wizard 5 (Calistria)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, M (a living wasp), DF  ",
 			"**Range** personal  ",
@@ -1364,7 +1364,7 @@
 			"",
 			"You grow a long, wasp-like tail complete with stinger that can strike those who dare attack you. While you are under the effects of this spell, when a creature adjacent to you hits you with a melee attack, you can make an attack of opportunity with your stinging tail, even if your opponent's attack would not otherwise provoke an attack of opportunity. You must otherwise be eligible to make an attack of opportunity to use this ability. The attack is made with your full attack bonus, and with a +2 sacred bonus on the attack roll. The stinging tail is considered a light weapon with a critical range of 19-20/&times;2. On a successful hit, the target takes 1d8 points of damage plus an amount of damage equal your Strength modifier and must succeed at a Fortitude save or it takes 1d4 points of Dexterity damage. This poison damage is also modified on a confirmed critical hit.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"venomous_bite": {
@@ -3279,7 +3279,7 @@
 			"## Weapons Against Evil",
 			"",
 			"{SOURCE Inner Sea Gods/245;Faiths of Purity/29}  ",
-			"**School** {spelldef/transmutation}; **Level** cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1 (Iomedae)[^G]  ",
+			"**School** {spelldef/transmutation}; **Level** cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1 (Iomedae)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, DF  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -3289,7 +3289,7 @@
 			"",
 			"Each weapon this spell affects each shines with pale light that dimly illuminates a 5-foot square. These weapons also ignore the DR of evil creatures that have DR 5 or lower, as long as the damage reduction is not DR/epic.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"weaponwand": {

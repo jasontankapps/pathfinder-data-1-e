@@ -18,7 +18,7 @@
 			"## Abadar's Truthtelling",
 			"",
 			"{SOURCE Inner Sea Gods/228;Pathfinder #8: Seven Days to the Grave/71;Gods and Magic/5}  ",
-			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1 (Abadar)[^G]  ",
+			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** cleric 1, inquisitor 1, oracle 1, paladin 1, warpriest 1 (Abadar)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** touch  ",
@@ -28,7 +28,7 @@
 			"",
 			"This spell functions identically to the spell zone of truth, except as noted above. The target momentarily takes on the semblance of a being of perfect order, like an archon or inevitable, so that all who can see the target know it is affected by the spell. This divine guise flickers over the target for only an instant and does not allow it to pass as a member of a different race.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"abeyance": {
@@ -312,7 +312,7 @@
 			"## Abstemiousness",
 			"",
 			"{SOURCE Inner Sea Gods/228;Faiths of Balance/29}  ",
-			"**School** {spelldef/transmutation}; **Level** bard 1, cleric 1, druid 1, hunter 1, oracle 1, skald 1, warpriest 1, witch 1 (Irori)[^G]  ",
+			"**School** {spelldef/transmutation}; **Level** bard 1, cleric 1, druid 1, hunter 1, oracle 1, skald 1, warpriest 1, witch 1 (Irori)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V  ",
 			"**Range** touch  ",
@@ -322,7 +322,7 @@
 			"",
 			"Sometimes Irori smiles on his worshipers, granting them a reprieve from physical hunger. This spell magically enhances a handful of simple food, imbuing it with enough nutrition to satisfy a Medium or smaller creature for a full day. The spell does not create food, and thus will not alone prevent someone from starving, but it can extend even limited reserves for lengthy periods.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"absurdity": {
@@ -3477,7 +3477,7 @@
 			"## Aspect of the Nightingale",
 			"",
 			"{SOURCE Inner Sea Gods/228;Pathfinder #50: Night of Frozen Shadows/75}  ",
-			"**School** {spelldef/transmutation} ({spelldef/polymorph}); **Level** bard 1, cleric 1, druid 1, hunter 1, inquisitor 1, oracle 1, paladin 1, ranger 1, shaman 1, skald 1, warpriest 1 (Shelyn)[^G]  ",
+			"**School** {spelldef/transmutation} ({spelldef/polymorph}); **Level** bard 1, cleric 1, druid 1, hunter 1, inquisitor 1, oracle 1, paladin 1, ranger 1, shaman 1, skald 1, warpriest 1 (Shelyn)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** personal  ",
@@ -3486,7 +3486,7 @@
 			"",
 			"You take on an aspect of a nightingale. Your voice becomes clear and pleasant. You gain a +2 competence bonus on Perform (sing) checks and a +2 competence bonus on Diplomacy checks. Once per minute, if you are subject to a charm effect that allows a saving throw, you may roll twice and take the more favorable result.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"aspect_of_the_stag": {

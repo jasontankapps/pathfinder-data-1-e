@@ -56,7 +56,7 @@ const makeNewMarkedInstance = (initialUse = { gfm: true }, ...midArguments) => {
 };
 
 const parseSOURCE = (input, plain = false) => {
-	// Changes {SOURCE Source Title/1;Source Title} using makeSourceLink() above
+	// Changes {SOURCE Source Title/1;Source Title} using makeSourceLink() below
 	let m = false;
 	let newline = "";
 	let tester = plain ? `{SOURCE ${input}}` : input;

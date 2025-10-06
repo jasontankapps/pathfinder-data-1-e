@@ -568,7 +568,7 @@
 			"## Read Weather",
 			"",
 			"{SOURCE Inner Sea Gods/238;Faiths of Balance/28}  ",
-			"**School** {spelldef/divination}; **Level** bard 1, cleric 1, druid 1, hunter 1, oracle 1, ranger 1, shaman 1, skald 1, warpriest 1, witch 1 (Gozreh)[^G]  ",
+			"**School** {spelldef/divination}; **Level** bard 1, cleric 1, druid 1, hunter 1, oracle 1, ranger 1, shaman 1, skald 1, warpriest 1, witch 1 (Gozreh)  ",
 			"**Casting Time** 1 minute  ",
 			"**Components** V, S, F (a set of marked sticks or bones worth at least 25 gp)  ",
 			"**Range** personal  ",
@@ -577,7 +577,7 @@
 			"",
 			"This spell allows you to forecast the weather at your location for the next 48 hours, providing you with advance warning of storms, tornadoes, and so on. This forecast reveals only the weather that would arise naturally, and does not take into account any magical occurrences that might change the weather.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"realm_retribution": {
@@ -1727,7 +1727,7 @@
 			"## Replenish Ki",
 			"",
 			"{SOURCE Inner Sea Gods/238;Pathfinder #53: Tide of Honor/73}  ",
-			"**School** {spelldef/conjuration} ({spelldef/healing}); **Level** cleric 4, oracle 4, warpriest 4 (Irori)[^G]  ",
+			"**School** {spelldef/conjuration} ({spelldef/healing}); **Level** cleric 4, oracle 4, warpriest 4 (Irori)  ",
 			"**Casting Time** 1 minute  ",
 			"**Components** V, S, DF  ",
 			"**Range** touch  ",
@@ -1737,7 +1737,7 @@
 			"",
 			"You attune the target's internal store of supernatural energy to the cosmos, replenishing its ki pool. If you are the target, you regain 2 ki points. If another creature is the target, it regains 1 ki point. This does not allow the target to exceed its ki pool's maximum. This spell has no effect if the target does not have a ki pool.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"repress_memory": {
@@ -3218,7 +3218,7 @@
 			"## Rovagug's Fury",
 			"",
 			"{SOURCE Inner Sea Gods/239;Pathfinder #23: The Impossible Eye/66;Gods and Magic/33}  ",
-			"**School** {spelldef/transmutation}; **Level** adept 2, arcanist 2, bloodrager 2, cleric 2, inquisitor 2, oracle 2, red mantis assassin 2, sorcerer 2, warpriest 2, witch 2, wizard 2 (Rovagug)[^G]  ",
+			"**School** {spelldef/transmutation}; **Level** adept 2, arcanist 2, bloodrager 2, cleric 2, inquisitor 2, oracle 2, red mantis assassin 2, sorcerer 2, warpriest 2, witch 2, wizard 2 (Rovagug)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** 30 ft.  ",
@@ -3228,7 +3228,7 @@
 			"",
 			"You create a minor earthquake that can trip creatures. Attempt a single combat maneuver check and apply the result against the CMD of every creature in the area. If your roll equals or exceeds a creature's CMD, that creature is knocked prone. This trip attack does not provoke an attack of opportunity (though you do provoke one for casting the spell), nor are you knocked prone if you fail the check by 10 or more. Unlike with a regular trip attack, you can trip any creature touching the ground, regardless of size. {feat/Improved Trip} does not affect this spell in any way. Though the earthquake is small and focused on the ground, if the area is particularly unstable, the spell might cause items to topple, stones to shake loose from the walls or ceiling, and so on at the GM's discretion.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"rubberskin": {
@@ -3653,7 +3653,7 @@
 			"## Sadomasochism",
 			"",
 			"{SOURCE Inner Sea Gods/239}  ",
-			"**School** {spelldef/necromancy} [{spelldef/pain}]; **Level** antipaladin 3, arcanist 4, bloodrager 4, cleric 3, inquisitor 3, magus 4, oracle 3, sorcerer 4, warpriest 3, witch 4, wizard 4 (Zon-Kuthon)[^G]  ",
+			"**School** {spelldef/necromancy} [{spelldef/pain}]; **Level** antipaladin 3, arcanist 4, bloodrager 4, cleric 3, inquisitor 3, magus 4, oracle 3, sorcerer 4, warpriest 3, witch 4, wizard 4 (Zon-Kuthon)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** personal  ",
@@ -3663,7 +3663,7 @@
 			"",
 			"While subject to this spell, any time you are dealt damage, your attacker must roll damage for the attack twice and take the higher roll, but the attacker must also succeed at a Will saving throw or become demoralized for 1 round. Each time you deal damage to a creature demoralized by this spell, you roll damage twice and take the higher result.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"salvage": {

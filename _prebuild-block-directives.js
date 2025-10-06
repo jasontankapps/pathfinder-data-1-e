@@ -907,6 +907,11 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					`</tbody></table></div>`
 				);
 				return output.join("");
+			} else if(n === "spelldeitynote") {
+				const marked2 = makeNewMarkedInstance();
+				return (
+					`<aside>${marked2.parse("Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- [Inner Sea Gods pg. 228](source/inner_sea_gods)")}</aside>`
+				);
 			}
 			return false;
 		}

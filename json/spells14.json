@@ -1076,7 +1076,7 @@
 			"## Inheritor's Smite",
 			"",
 			"{SOURCE Inner Sea Gods/236;Pathfinder #26: The Sixfold Trial/71}  ",
-			"**School** {spelldef/transmutation}; **Level** cleric 2, inquisitor 2, oracle 2, paladin 2, warpriest 2 (Iomedae)[^G]  ",
+			"**School** {spelldef/transmutation}; **Level** cleric 2, inquisitor 2, oracle 2, paladin 2, warpriest 2 (Iomedae)  ",
 			"**Casting Time** 1 swift action  ",
 			"**Components** V, S, DF  ",
 			"**Range** personal  ",
@@ -1085,7 +1085,7 @@
 			"",
 			"You channel the power of righteousness into your weapon arm, allowing you to strike with great force. Your next melee attack (if made before the end of your next turn) gains a +5 sacred bonus on the attack roll. If the attack hits, you may immediately attempt a bull rush combat maneuver (with a +5 sacred bonus on your combat maneuver check) against the target without provoking an attack of opportunity; if your combat maneuver check exceeds the defender's CMD by more than 5, you do not need to move with the target to push it back more than 5 feet.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"inhibiting_patterns": {
@@ -3719,7 +3719,7 @@
 			"## Monstrous Extremities",
 			"",
 			"{SOURCE Inner Sea Gods/237;Faiths of Corruption/28}  ",
-			"**School** {spelldef/transmutation} ({spelldef/polymorph}); **Level** arcanist 3, bloodrager 3, cleric 3, oracle 3, red mantis assassin 3, sorcerer 3, warpriest 3, witch 4, wizard 3 (Lamashtu)[^G]  ",
+			"**School** {spelldef/transmutation} ({spelldef/polymorph}); **Level** arcanist 3, bloodrager 3, cleric 3, oracle 3, red mantis assassin 3, sorcerer 3, warpriest 3, witch 4, wizard 3 (Lamashtu)  ",
 			"**Casting Time** 1 minute  ",
 			"**Components** V, S  ",
 			"**Range** touch  ",
@@ -3729,7 +3729,7 @@
 			"",
 			"You change one of the extremities of the creature touched-arms or legs only-into another shape of approximately the same size and mass. You can choose a tentacle, a hoof, or a wing. The subject must take approximately 10 minutes to familiarize itself with the function and movement of the new extremity to use it properly. These new forms do not allow the subject to fly, run faster, or swim better; however, they do act as natural weapons of the appropriate type, and the subject can use them to make secondary attacks while making attacks with weapons as a full-attack action. The secondary attacks are made using the creature's base attack bonus -5 and adding only 1/2 the creature's Strength bonus on damage rolls. The subject cannot hold a weapon or use any item that would ordinarily fit into the slot of the changed extremity. The subject can receive the benefits of this spell multiple times.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"polypurpose_panacea": {

@@ -884,7 +884,7 @@
 			"## Enhance Water",
 			"",
 			"{SOURCE Inner Sea Gods/233;Faiths of Purity/28}  ",
-			"**School** {spelldef/transmutation}; **Level** bard 1, cleric 1, oracle 1, paladin 1, skald 1, warpriest 1 (Cayden Cailean)[^G]  ",
+			"**School** {spelldef/transmutation}; **Level** bard 1, cleric 1, oracle 1, paladin 1, skald 1, warpriest 1 (Cayden Cailean)  ",
 			"**Casting Time** 1 round  ",
 			"**Components** V, S  ",
 			"**Range** touch  ",
@@ -896,7 +896,7 @@
 			"",
 			"This spell does not work on unholy water, potions, or other liquids with magical power.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"enhanced_diplomacy": {
@@ -2110,7 +2110,7 @@
 			"## Face of the Devourer",
 			"",
 			"{SOURCE Inner Sea Gods/233;Pathfinder #23: The Impossible Eye/65}  ",
-			"**School** {spelldef/transmutation} ({spelldef/polymorph}); **Level** adept 1, antipaladin 1, arcanist 1, bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, red mantis assassin 1, sorcerer 1, warpriest 1, wizard 1 (Rovagug)[^G]  ",
+			"**School** {spelldef/transmutation} ({spelldef/polymorph}); **Level** adept 1, antipaladin 1, arcanist 1, bloodrager 1, cleric 1, druid 1, hunter 1, oracle 1, red mantis assassin 1, sorcerer 1, warpriest 1, wizard 1 (Rovagug)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** touch  ",
@@ -2122,7 +2122,7 @@
 			"",
 			"If the target does not normally have a bite attack, it gains a bite attack as a natural weapon for the duration of the spell. This bite attack deals 1d6 points of damage if the target is Medium, 1d4 points of damage if the target is Small, or 1d8 points of damage if the creature is Large. The target may use this bite as a primary attack or a secondary attack.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"faerie_fire": {
@@ -2183,7 +2183,7 @@
 			"## Fairness",
 			"",
 			"{SOURCE Inner Sea Gods/233;Faiths of Balance/28}  ",
-			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** cleric 1, inquisitor 2, oracle 1, paladin 2, warpriest 1 (Abadar)[^G]  ",
+			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** cleric 1, inquisitor 2, oracle 1, paladin 2, warpriest 1 (Abadar)  ",
 			"**Casting Time** 1 round  ",
 			"**Components** V, S, DF  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -2193,7 +2193,7 @@
 			"",
 			"Humanoid creatures affected by this spell must trade fairly with others to the best of their knowledge. If they know the fair value (or even an estimated fair value) of a good or service, they cannot participate in a trade if it would benefit one side unfairly, and must attempt to stop such trades from occurring, preventing them from cheating another while under the influence of this spell. The symbol of Abadar appears above the heads of those affected by this spell, making those affected and unaffected by the spell immediately apparent.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"fairy_ring_retreat": {
@@ -2228,7 +2228,7 @@
 			"## Fallback Strategy",
 			"",
 			"{SOURCE Inner Sea Gods/233;Gods and Magic/39}  ",
-			"**School** {spelldef/abjuration}; **Level** cleric 1, inquisitor 1, magus 1, oracle 1, paladin 1, warpriest 1 (Torag)[^G]  ",
+			"**School** {spelldef/abjuration}; **Level** cleric 1, inquisitor 1, magus 1, oracle 1, paladin 1, warpriest 1 (Torag)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** personal  ",
@@ -2237,7 +2237,7 @@
 			"",
 			"While this spell is active, you may reroll one attack roll, combat maneuver check, or skill check before the result of the roll or check is known. You must take the result of the reroll, even if it's worse than the original roll. Once the reroll is used, the spell ends. You can have no more than one fallback strategy active on you at the same time.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"false_age": {
@@ -2267,7 +2267,7 @@
 			"## False Alibi",
 			"",
 			"{SOURCE Inner Sea Gods/234;Pathfinder #59: The Price of Infamy/75}  ",
-			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** bard 3, cleric 3, inquisitor 3, oracle 3, skald 3, warpriest 3 (Norgorber)[^G]  ",
+			"**School** {spelldef/enchantment} ({spelldef/compulsion}) [{spelldef/mind-affecting}]; **Level** bard 3, cleric 3, inquisitor 3, oracle 3, skald 3, warpriest 3 (Norgorber)  ",
 			"**Casting Time** 1 round  ",
 			"**Components** V, S, M (emerald dust worth 100 gp)  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -2277,7 +2277,7 @@
 			"",
 			"This spell functions similarly to {spell/modify memory}, except you can modify the target's memory only in a specific way. In response to a triggering condition you determine, up to the last 5 minutes of the target's memory are eliminated and replaced with a memory of your choosing (or no memory at all). For example, you could cast this on an assassin, set it to trigger when he completes his kill, and replace his memory of the murder with the memory of him discovering the body and picking up the murder weapon. You can cast this spell multiple times on the same target, even with the same trigger, affecting different memories. A single casting of false alibi affects a creature only until the specified condition has been triggered; once a condition has been triggered and the target's memory altered, that condition no longer triggers this spell unless the victim is subject to another casting of false alibi that specifies the same trigger.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"false_belief": {
@@ -3409,7 +3409,7 @@
 			"## Firebelly",
 			"",
 			"{SOURCE Inner Sea Gods/234;Pathfinder #62: Curse of the Lady's Light/75}  ",
-			"**School** {spelldef/abjuration}; **Level** alchemist 1, bloodrager 1, cleric 1, druid 1, hunter 1, investigator 1, oracle 1, paladin 1, warpriest 1 (Torag)[^G]  ",
+			"**School** {spelldef/abjuration}; **Level** alchemist 1, bloodrager 1, cleric 1, druid 1, hunter 1, investigator 1, oracle 1, paladin 1, warpriest 1 (Torag)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** personal  ",
@@ -3419,7 +3419,7 @@
 			"",
 			"A magical fire warms your belly, granting fire resistance 5 and making your gut hot to the touch (but not enough to damage you or anything else). As a standard action, you can breathe a 15-foot cone of flame that deals 1d4 points of fire damage (Reflex half, SR applies). Each time you use this breath weapon, reduce the remaining duration of the spell by 1 minute.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"firebrand": {

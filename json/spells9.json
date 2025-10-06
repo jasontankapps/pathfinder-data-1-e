@@ -251,7 +251,7 @@
 			"## Shared Sacrifice",
 			"",
 			"{SOURCE Inner Sea Gods/240;Faiths of Corruption/28}  ",
-			"**School** {spelldef/necromancy} [{spelldef/evil}]; **Level** antipaladin 3, cleric 2, oracle 2, shaman 2, summoner 3, unchained summoner 3, warpriest 2, witch 2 (Asmodeus)[^G]  ",
+			"**School** {spelldef/necromancy} [{spelldef/evil}]; **Level** antipaladin 3, cleric 2, oracle 2, shaman 2, summoner 3, unchained summoner 3, warpriest 2, witch 2 (Asmodeus)  ",
 			"**Casting Time** 1 round  ",
 			"**Components** V, S  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -263,7 +263,7 @@
 			"",
 			"If you and the target of the spell move out of range of each other, the spell immediately ends.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"shared_suffering": {
@@ -550,7 +550,7 @@
 			"## Shield of the Dawnflower",
 			"",
 			"{SOURCE Inner Sea World Guide/296;Gods and Magic/35}  ",
-			"**School** {spelldef/evocation} [{spelldef/fire}, {spelldef/good}, {spelldef/light}]; **Level** bard 4, cleric 4, hunter 4, magus 4, oracle 4, paladin 4, ranger 4, skald 4, warpriest 4 (Sarenrae)[^G]  ",
+			"**School** {spelldef/evocation} [{spelldef/fire}, {spelldef/good}, {spelldef/light}]; **Level** bard 4, cleric 4, hunter 4, magus 4, oracle 4, paladin 4, ranger 4, skald 4, warpriest 4 (Sarenrae)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** personal  ",
@@ -573,7 +573,7 @@
 			"::h3[Greater Shield of the Dawnflower]{jl}",
 			"",
 			"{SOURCE Inner Sea Gods/240}  ",
-			"**School** {spelldef/evocation} [{spelldef/fire}, {spelldef/good}, {spelldef/light}]; **Level** bard 6, cleric 6, magus 6, oracle 6, skald 6, warpriest 6 (Sarenrae)[^G]  ",
+			"**School** {spelldef/evocation} [{spelldef/fire}, {spelldef/good}, {spelldef/light}]; **Level** bard 6, cleric 6, magus 6, oracle 6, skald 6, warpriest 6 (Sarenrae)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** personal  ",
@@ -582,7 +582,7 @@
 			"",
 			"You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals normal damage, but also takes 1d6 points of damage + 1 point per caster level. Half of this damage is fire damage and half is holy damage (as the spell {spell/flame strike}). An undead creature or a creature particularly vulnerable to light that hits you instead takes 2d6 points of damage +1 point per caster level. Creatures with reach weapons are not subject to this damage if they attack you. The shield provides illumination equivalent to a {spell/daylight} spell. You can have only one instance of this spell in effect at a time. It does not stack with similar damaging aura spells such as fire shield or shield of the Dawnflower.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"shield_of_the_dawnflower_greater": {
@@ -1091,7 +1091,7 @@
 			"## Sign of the Dawnflower",
 			"",
 			"{SOURCE Taldor, Echoes of Glory/25}  ",
-			"**School** {spelldef/transmutation}; **Level** cleric 0, druid 0, hunter 0, oracle 0, paladin 1, ranger 1, warpriest 0 (Sarenrae)[^G]  ",
+			"**School** {spelldef/transmutation}; **Level** cleric 0, druid 0, hunter 0, oracle 0, paladin 1, ranger 1, warpriest 0 (Sarenrae)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** S, F (your holy symbol, or a depiction of either Sarenrae's holy symbol or the goddess herself)  ",
 			"**Range** medium (100 ft. + 10 ft./level)  ",
@@ -1101,7 +1101,7 @@
 			"",
 			"As message, except the only information you can transmit is that you are a worshiper of Sarenrae. Once notified, the target can reply that he understands your sign. The spell transmits meaning, not sound, and transcends language barriers.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"sign_of_wrath": {
@@ -1517,7 +1517,7 @@
 			"## Sky Swim",
 			"",
 			"{SOURCE Inner Sea Gods/241;Faiths of Balance/28}  ",
-			"**School** {spelldef/transmutation} [{spelldef/air}]; **Level** bloodrager 3, cleric 3, druid 3, hunter 3, oracle 3, shaman 3, warpriest 3, witch 3 (Gozreh)[^G]  ",
+			"**School** {spelldef/transmutation} [{spelldef/air}]; **Level** bloodrager 3, cleric 3, druid 3, hunter 3, oracle 3, shaman 3, warpriest 3, witch 3 (Gozreh)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** touch  ",
@@ -1527,7 +1527,7 @@
 			"",
 			"This spell grants the target the ability to swim through the air. If the target has a swim speed, it can move through the air at that speed. Otherwise, it must succeed at Swim checks to move as normal. Still air is treated as calm water, light or moderate wind is treated as rough water, strong or severe wind is treated as stormy water, and the target cannot swim through stronger winds. This spell does not grant the ability to breathe air to creatures that normally can't.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"skyshroud": {
@@ -1794,7 +1794,7 @@
 			"## Smite Abomination",
 			"",
 			"{SOURCE Inner Sea Gods/241;Pathfinder #44: Trial of the Beast/69}  ",
-			"**School** {spelldef/evocation}; **Level** cleric 5, inquisitor 4, oracle 5, warpriest 5 (Pharasma)[^G]  ",
+			"**School** {spelldef/evocation}; **Level** cleric 5, inquisitor 4, oracle 5, warpriest 5 (Pharasma)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** personal  ",
@@ -1803,7 +1803,7 @@
 			"",
 			"Drawing upon positive energy, you emulate some of a paladin's power to smite undead. Choose one undead creature as your target. Your melee attacks against that target gain a bonus equal to your Charisma or Wisdom modifier, whichever is higher, on your attack rolls, and a bonus equal to your caster level on damage rolls. Your melee attacks also bypass the target's damage reduction. These bonuses do not stack with the bonuses from a paladin's smite.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"smug_narcissism": {
@@ -2418,7 +2418,7 @@
 			"## Spawn Calling",
 			"",
 			"{SOURCE Inner Sea Gods/241}  ",
-			"**School** {spelldef/conjuration} ({spelldef/calling}) [{spelldef/chaotic}, {spelldef/evil}]; **Level** arcanist 9, cleric 9, oracle 9, sorcerer 9, witch 9, wizard 9 (Rovagug)[^G]  ",
+			"**School** {spelldef/conjuration} ({spelldef/calling}) [{spelldef/chaotic}, {spelldef/evil}]; **Level** arcanist 9, cleric 9, oracle 9, sorcerer 9, witch 9, wizard 9 (Rovagug)  ",
 			"**Casting Time** 1 week  ",
 			"**Components** V, S, M/DF (bull's blood, tallow, one or more humanoid victims totaling at least 15 Hit Dice)  ",
 			"**Range** medium (100 ft. + 10 ft./level)  ",
@@ -2441,7 +2441,7 @@
 			"",
 			":::",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"spawn_ward": {
@@ -2747,7 +2747,7 @@
 			"## Spell Gauge",
 			"",
 			"{SOURCE Inner Sea Gods/242;Faiths of Balance/29}  ",
-			"**School** {spelldef/divination} [{spelldef/mind-affecting}]; **Level** arcanist 2, bard 2, cleric 2, inquisitor 2, oracle 2, skald 2, sorcerer 2, warpriest 2, witch 2, wizard 2 (Nethys)[^G]  ",
+			"**School** {spelldef/divination} [{spelldef/mind-affecting}]; **Level** arcanist 2, bard 2, cleric 2, inquisitor 2, oracle 2, skald 2, sorcerer 2, warpriest 2, witch 2, wizard 2 (Nethys)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, F (a silver piece)  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -2757,7 +2757,7 @@
 			"",
 			"You immediately discover some of the spells that the target knows or has prepared. The number of spells revealed to you is equal to your caster level. The target's lowest-level spells are revealed first - ignoring 0-level spells - in a random order. Once all of the target's 1st-level spells are revealed, the spell begins revealing 2nd-level spells, then 3rd-level spells. This spell does not reveal spells of 4th level or higher, nor does it reveal spell-like abilities or other special abilities. If cast on a creature that is not a spellcaster, that has only 0-level spells or spells of 4th level or higher prepared, that has expended all of its spells, or that has not prepared any spells that day, the spell has no effect.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"spell_immunity": {
@@ -2862,7 +2862,7 @@
 			"## Spell Scourge",
 			"",
 			"{SOURCE Inner Sea Gods/243}  ",
-			"**School** {spelldef/abjuration}; **Level** arcanist 7, cleric 7, oracle 7, sorcerer 7, witch 7, wizard 7 (Nethys)[^G]  ",
+			"**School** {spelldef/abjuration}; **Level** arcanist 7, cleric 7, oracle 7, sorcerer 7, witch 7, wizard 7 (Nethys)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** close (25 ft. + 5 ft./2 levels)  ",
@@ -2872,7 +2872,7 @@
 			"",
 			"A whip of cracking magical might appears in your hand, allowing you lash spells from the mind of enemy spellcasters. With a lash of bluish-purple energy, you strip many protective spells and effects from a single creature. If the target of this spell is currently under the effects of any harmless spells or effects, it must succeed at a Will save or all of those spells and effects end, stripping the target of the benefit of those spells. If the target is not currently under the effect of least one harmless spell, the target is instead confused for 1d4 rounds.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"spell_turning": {

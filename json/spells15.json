@@ -534,7 +534,7 @@
 			"{SOURCE Ultimate Magic/233}  ",
 			"**School** {spelldef/evocation} [{spelldef/darkness}]; **Level** arcanist 2, cleric 2, occultist 2, oracle 2, psychic 2, sorcerer 2, spiritualist 2, warpriest 2, witch 2, wizard 2  ",
 			"**Casting Time** 1 standard action  ",
-			"**Components** V, S",
+			"**Components** V, S  ",
 			"**Range** touch  ",
 			"**Target** creature touched  ",
 			"**Duration** 10 minutes/level  ",
@@ -1598,7 +1598,7 @@
 			"## Secret Speech",
 			"",
 			"{SOURCE Inner Sea Gods/240;Pathfinder #17: A Memory of Darkness/62}  ",
-			"**School** {spelldef/divination}; **Level** arcanist 2, bard 1, cleric 2, inquisitor 1, oracle 2, shaman 2, skald 1, sorcerer 2, warpriest 2, wizard 2 (Calistria)[^G]  ",
+			"**School** {spelldef/divination}; **Level** arcanist 2, bard 1, cleric 2, inquisitor 1, oracle 2, shaman 2, skald 1, sorcerer 2, warpriest 2, wizard 2 (Calistria)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S  ",
 			"**Range** touch  ",
@@ -1610,7 +1610,7 @@
 			"",
 			"For example, at a fancy noble's wedding, a jealous former suitor casts this spell on himself before making a speech. Everyone hears his glowing words of praise, but only his allies hear his secret message instructing them to attack the groom.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"secure_shelter": {
@@ -1647,7 +1647,7 @@
 			"## Seducer's Eyes",
 			"",
 			"{SOURCE Inner Sea Gods/240;Faiths of Balance/28}  ",
-			"**School** {spelldef/enchantment} ({spelldef/charm}) [{spelldef/mind-affecting}]; **Level** arcanist 2, bard 2, skald 2, sorcerer 2, witch 2, wizard 2 (Calistria)[^G]  ",
+			"**School** {spelldef/enchantment} ({spelldef/charm}) [{spelldef/mind-affecting}]; **Level** arcanist 2, bard 2, skald 2, sorcerer 2, witch 2, wizard 2 (Calistria)  ",
 			"**Casting Time** 1 standard action  ",
 			"**Components** V, S, DF  ",
 			"**Range** personal  ",
@@ -1656,7 +1656,7 @@
 			"",
 			"You gain a bonus on Charisma-based skill checks equal to 1 + 1 for every 4 caster levels you possess (to a maximum of +5), but only when interacting with those who might conceivably find you sexually attractive. You do not gain this bonus against those you or your allies are attacking or threatening.",
 			"",
-			"[^G]: Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- {source/Inner Sea Gods/ pg. 228}"
+			"::spelldeitynote"
 		]
 	},
 	"see_alignment": {

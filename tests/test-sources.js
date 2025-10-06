@@ -8,6 +8,11 @@ const checkForSourceLinks = (desc) => {
 	// Template headers store source information
 	const th = /^::th\[[^\]]+\]\{[^\}]*\bsc="([^"}]+)"[^}]+\}?$/;
 	desc.forEach(line => {
+		if(line === "::spelldeitynote") {
+			// Spell deity notes have a source link to Inner Sea Gods baked in.
+			found.push("inner_sea_gods");
+			return;
+		}
 		let m = line.match(multi) || line.match(th);
 		if(m) {
 			const sources = m[1].split(";");
