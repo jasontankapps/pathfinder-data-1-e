@@ -4179,7 +4179,7 @@
 			"",
 			"**Speed** 30 ft.  ",
 			"**Melee** slam +7 (1d4+4 plus energy drain)  ",
-			"**Special Attacks** bardic performance 24 rounds/day (countersong, distraction, fascinate [DC 18], inspire competence +2, inspire courage +2), blood drain, children of the night, create spawn, dominate (DC 18), {umr/energy drain} (2 levels, DC 18)  ",
+			"**Special Attacks** bardic performance 24 rounds/day ({performance/countersong}, {performance/distraction}, {performance/fascinate} [DC 18], {performance/inspire competence} +2, {performance/inspire courage} +2), blood drain, children of the night, create spawn, dominate (DC 18), {umr/energy drain} (2 levels, DC 18)  ",
 			"**Bard Spells Known** (CL 5th; concentration +11)  ",
 			"*2nd (4/day)*-{spell/darkness}, {spell/enthrall} (DC 20), {spell/share memory} (DC 18)  ",
 			"*1st (6/day)*-{spell/charm person} (DC 19), {spell/ear-piercing scream}, {spell/lesser confusion} (DC 19), {spell/memory lapse} (DC 19)  ",

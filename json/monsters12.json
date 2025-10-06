@@ -495,7 +495,7 @@
 			"**Speed** 30 ft., swim 30 ft.  ",
 			"**Melee** mwk quarterstaff +8/+3 (1d6)  ",
 			"**Ranged** mwk light crossbow +11 (1d8/19-20)  ",
-			"**Special Attacks** bardic performance 31 rounds/day (move action; dirge of doom [DC 18], distraction, fascinate [DC 18], inspire courage +2, inspire greatness, sea shanty, still water, whistle the wind)  ",
+			"**Special Attacks** bardic performance 31 rounds/day (move action; {performance/dirge of doom} [DC 18], {performance/distraction}, {performance/fascinate} [DC 18], {performance/inspire courage} +2, {performance/inspire greatness}, sea shanty, still water, whistle the wind)  ",
 			"**Bard Spells Known** (CL 10th; concentration +13)  ",
 			"*4th (1/day)*-{spell/legend lore}, {spell/shadow conjuration} (DC 17)  ",
 			"*3rd (4/day)*-{spell/charm monster} (DC 16), {spell/elemental speech}, {spell/seek thoughts} (DC 16), {spell/summon monster III}  ",

@@ -1319,7 +1319,7 @@
 			"**Speed** 0 ft., fly 60 ft. (average)  ",
 			"**Melee** mwk spear +5 (1d6/&times;3)  ",
 			"**Ranged** mwk sling +7 (1d4)  ",
-			"**Special Attacks** bardic performance 16 rounds/day (countersong, distraction, fascinate [DC 15], inspire competence +2, inspire courage +2, suggestion [DC 15]), hatred  ",
+			"**Special Attacks** bardic performance 16 rounds/day ({performance/countersong}, {performance/distraction}, {performance/fascinate} [DC 15], {performance/inspire competence} +2, {performance/inspire courage} +2, {performance/suggestion} [DC 15]), hatred  ",
 			"**Bard Spells Known** (CL 6th; concentration +8)  ",
 			"*2nd (4/day)*-{spell/eagle's splendor}, {spell/minor image} (DC 14), {spell/mirror image}, {spell/summon monster II}  ",
 			"*1st (5/day)*-{spell/charm person} (DC 13), {spell/cure light wounds}, {spell/disguise self}, {spell/summon monster I}  ",

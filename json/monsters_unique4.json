@@ -132,7 +132,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Bardic Performance (Su)** Ashava has the bardic performance ability of a 20th-level {class/bard}, granting her access to the distraction, fascinate, inspire courage, inspire competence, suggestion, inspire greatness, soothing performance, inspire heroics, mass suggestion, and deadly performance aspects of bardic performance. Ashava's fascinate and inspire heroics bardic performances can affect any number of creatures that can see and hear her. There is no limit to the number of rounds Ashava can use her bardic performances each day.",
+			"**Bardic Performance (Su)** Ashava has the bardic performance ability of a 20th-level {class/bard}, granting her access to the {performance/distraction}, {performance/fascinate}, {performance/inspire courage}, {performance/inspire competence}, {performance/suggestion}, {performance/inspire greatness}, {performance/soothing performance}, {performance/inspire heroics}, {performance/mass suggestion}, and {performance/deadly performance} aspects of bardic performance. Ashava's fascinate and inspire heroics bardic performances can affect any number of creatures that can see and hear her. There is no limit to the number of rounds Ashava can use her bardic performances each day.",
 			"",
 			"**Hypnotize Undead (Su)** Ashava can affect undead creatures with her fascinate bardic performance, despite their immunity to enchantment or mind-affecting effects, and she can command any number of undead creatures fascinated in this way as a standard action, per {spell/command undead} (Will DC 41 negates). The save DC is Charisma-based.",
 			"",

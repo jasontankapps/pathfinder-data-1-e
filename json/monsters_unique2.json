@@ -2362,7 +2362,7 @@
 			"**Melee** +2 dancing glaive +22/+17/+12/+7 (2d8+8/&times;3)  ",
 			"**Ranged** stunning ray +19 (1d8 plus stun)  ",
 			"**Space** 10 ft., **Reach** 10 ft.  ",
-			"**Special Attacks** bardic magic, bardic performance 40 rounds/day (swift action; countersong, distraction, fascinate, inspire courage +4)  ",
+			"**Special Attacks** bardic magic, bardic performance 40 rounds/day (swift action; {performance/countersong}, {performance/distraction}, {performance/fascinate}, {performance/inspire courage} +4)  ",
 			"**Spell-Like Abilities** (CL 16th; concentration +22)  ",
 			"*At will*-{spell/calm emotions} (DC 18), {spell/good hope}, {spell/cure moderate wounds}, {spell/teleport} (self plus 50 lbs. only)",
 			"",

@@ -3905,7 +3905,7 @@
 			"**Speed** 30 ft., swim 30 ft.  ",
 			"**Melee** dagger -2 (1d4-2/19-20)  ",
 			"**Ranged** dagger +3 (1d4-2/19-20)  ",
-			"**Special Attacks** bardic performance 7 rounds/day (countersong, distraction, fascinate [DC 13], inspire courage +1)  ",
+			"**Special Attacks** bardic performance 7 rounds/day ({performance/countersong}, {performance/distraction}, {performance/fascinate} [DC 13], {performance/inspire courage} +1)  ",
 			"**Bard Spells Known** (CL 1st; concentration +4)  ",
 			"*1st (2/day)*-{spell/charm person} (DC 14), {spell/cure light wounds}  ",
 			"*0 (at will)*-{spell/detect magic}, {spell/light}, {spell/message}, {spell/prestidigitation} (DC 13)",

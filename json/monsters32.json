@@ -3541,7 +3541,7 @@
 			"",
 			"**Speed** 30 ft.  ",
 			"**Melee** dagger +0 (1d4/19-20)  ",
-			"**Special Attacks** bardic performance 7 rounds/day (countersong, distraction, fascinate [DC 13], inspire courage +1), ganzi oddity (quibble)  ",
+			"**Special Attacks** bardic performance 7 rounds/day ({performance/countersong}, {performance/distraction}, {performance/fascinate} [DC 13], {performance/inspire courage} +1), ganzi oddity (quibble)  ",
 			"**Bard Spells Known** (CL 1st; concentration +4)  ",
 			"*1st (2/day)*-{spell/cure light wounds}, {spell/grease} (DC 14)  ",
 			"*0 (at will)*-{spell/daze} (DC 13), {spell/ghost sound} (DC 13), {spell/mage hand}, {spell/prestidigitation}",

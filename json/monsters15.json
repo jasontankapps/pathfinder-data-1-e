@@ -2116,7 +2116,7 @@
 			"**Speed** 30 ft.  ",
 			"**Melee** +1 short sword +7/+2 (1d4/19-20)  ",
 			"**Ranged** +1 shortbow +13/+8 (1d4+1/&times;3)  ",
-			"**Special Attacks** bardic performance 20 rounds/day (move action; countersong, frightful song [DC 16], distraction, inspire competence +3, inspire courage +2, suggestion [DC 16], yapping song [DC 16])  ",
+			"**Special Attacks** bardic performance 20 rounds/day (move action; {performance/countersong}, frightful song [DC 16], {performance/distraction}, {performance/inspire competence} +3, {performance/inspire courage} +2, {performance/suggestion} [DC 16], yapping song [DC 16])  ",
 			"**Bard Spells Known** (CL 8th; concentration +10)  ",
 			"*3rd (2/day)*-{spell/confusion} (DC 15), {spell/deep slumber} (DC 15), {spell/haste}  ",
 			"*2nd (5/day)*-{spell/blur}, {spell/heroism}, {spell/hold person} (DC 14), {spell/mirror image}  ",

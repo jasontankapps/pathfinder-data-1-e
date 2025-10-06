@@ -1067,7 +1067,7 @@
 			"",
 			"**Speed** 30 ft., fly 50 ft. (average)  ",
 			"**Melee** +5 speed wounding rapier +31/+31/+26/+21/+16 (1d6+10/18-20), +5 wounding unholy whip +31/+26/+21 (1d3+10)  ",
-			"**Special Attacks** bardic performance 56 rounds/day (swift action, countersong, deadly performance, dirge of doom, distraction, fascinate, frightening tune, inspire competence +6, inspire courage +4, inspire greatness, inspire heroics, mass suggestion, soothing performance, suggestion), energy drain, profane gift  ",
+			"**Special Attacks** bardic performance 56 rounds/day (swift action, {performance/countersong}, {performance/deadly performance}, {performance/dirge of doom}, {performance/distraction}, {performance/fascinate}, {performance/frightening tune}, {performance/inspire competence} +6, {performance/inspire courage} +4, {performance/inspire greatness}, {performance/inspire heroics}, {performance/mass suggestion}, {performance/soothing performance}, {performance/suggestion}), energy drain, profane gift  ",
 			"**Spell-Like Abilities** (CL 12th; concentration +26)  ",
 			"*Constant*-{spell/detect good}, {spell/tongues}  ",
 			"*At will*-{spell/charm monster} (DC 28), {spell/detect thoughts} (DC 26), {spell/ethereal jaunt} (self plus 50 lbs. of objects only), {spell/greater teleport} (self plus 50 lbs. of objects only), {spell/suggestion} (DC 27)  ",
