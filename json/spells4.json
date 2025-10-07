@@ -1852,7 +1852,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/281\" enchantment compulsion mindAffecting arc=5 med=4 mes=5 psy=5 sor=5 spr=5 wit=5 wiz=5 ctSt cV cS cMp=\"a handful of clay, crystal, or glass spheres\" rMed target=\"one creature\" durI save=\"Will negates; see text\" srY}",
 			"",
-			"**Target** creature's Intelligence and Charisma scores each drop to 1. The affected creature is unable to use Intelligence- or Charisma-based skills, cast spells, understand language, or communicate coherently. Still, it knows who its friends are and can follow them and even protect them. The subject remains in this state until a {spell/heal}, {spell/limited wish}, {spell/miracle}, or {spell/wish} spell is used to cancel the effect of the feeblemind. A creature that can cast arcane spells, such as a sorcerer or a wizard, takes a -4 penalty on its saving throw."
+			"Target creature's Intelligence and Charisma scores each drop to 1. The affected creature is unable to use Intelligence- or Charisma-based skills, cast spells, understand language, or communicate coherently. Still, it knows who its friends are and can follow them and even protect them. The subject remains in this state until a {spell/heal}, {spell/limited wish}, {spell/miracle}, or {spell/wish} spell is used to cancel the effect of the feeblemind. A creature that can cast arcane spells, such as a sorcerer or a wizard, takes a -4 penalty on its saving throw."
 		]
 	},
 	"ferment": {

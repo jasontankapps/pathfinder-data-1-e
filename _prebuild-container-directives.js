@@ -85,7 +85,7 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 					flags.thlink = true;
 					flags.icon = true;
 					return (
-						`<div className="sideNoteWrap singular optional ${n}"><table><tbody><tr><ThLink scope="row" to="${link}"${rowspan}><IonIcon aria-label="${label}" icon="/icons/${icon}" /></ThLink>${title}<td>${removeCurlyBrackets(marked2.parse(text))}</td></tr></tbody></table></div>`
+						`<div className="sideNoteWrap singular optional ${n}"><table className="noWrap"><tbody><tr><ThLink scope="row" to="${link}"${rowspan}><IonIcon aria-label="${label}" icon="/icons/${icon}" /></ThLink>${title}<td>${removeCurlyBrackets(marked2.parse(text))}</td></tr></tbody></table></div>`
 					);
 				}
 			}

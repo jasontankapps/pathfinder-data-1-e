@@ -254,7 +254,7 @@
 		"description": [
 			"## Irresistible Dance",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/303\" enchantment compulsion mindAffecting arc=8 brd=6 mes=6 psy=8 sha=8 skd=6 sor=8 wit=8 wiz=8 ctSt cV rTouch target=\"living creature touched\" dur=\"1d4+1 rounds\" willPartial srY}",
+			"::spell{source=\"PRPG Core Rulebook/303\" enchantment compulsion mindAffecting arc=8 brd=6 mes=6 psy=8 sha=8 skd=6 sor=8 wit=8 wiz=8 ctSt cV rTouch target=\"living creature touched\" durR=\"1d4+1\" willPartial srY}",
 			"",
 			"The subject feels an undeniable urge to dance and begins doing so, complete with foot shuffling and tapping. The spell effect makes it impossible for the subject to do anything other than caper and prance in place. The effect imposes a -4 penalty to Armor Class and a -10 penalty on Reflex saves, and it negates any AC bonus granted by a shield the target holds. The dancing subject provokes attacks of opportunity each round on its turn. A successful Will save reduces the duration of this effect to 1 round.",
 			"",
@@ -858,13 +858,7 @@
 			"",
 			"### Mass Last Azlanti's Defending Sword",
 			"",
-			"{SOURCE Arcane Anthology/9}  ",
-			"**School** {spelldef/evocation} [{spelldef/force}]; **Level** arcanist 9, sorcerer 9, wizard 9  ",
-			"**Casting Time** 1 standard action  ",
-			"**Components** V, S, F (a miniature platinum sword worth 250 gp)  ",
-			"**Range** close (25 ft. + 5 ft./2 levels)  ",
-			"**Duration** 1 round/level (D)  ",
-			"**Saving Throw** none; **Spell Resistance** yes",
+			"::spell{source=\"Arcane Anthology/9\" evocation force arc=9 sor=9 wiz=9 ctSt cV cS cFp=\"a miniature platinum sword worth 250 gp\" rClose durRL=1 durD saveNo srY}",
 			"",
 			"This spell functions as Last Azlanti's defending sword, except you can create one sword per 5 caster levels, each of which must defend a different creature within range."
 		]

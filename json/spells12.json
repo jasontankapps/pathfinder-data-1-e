@@ -1356,13 +1356,7 @@
 			"",
 			"### Die for Your Master",
 			"",
-			"**School** {spelldef/enchantment} ({spelldef/compulsion}); **Level** antipaladin 4, arcanist 5, druid 5, hunter 5, ranger 5, sorcerer 5, witch 5, wizard 5  ",
-			"**Casting Time** 1 immediate action  ",
-			"**Components** V, S  ",
-			"**Range** touch  ",
-			"**Target** your animal companion, familiar, or fiendish servant  ",
-			"**Duration** instantaneous  ",
-			"**Saving Throw** none; **Spell Resistance** no",
+			"::spell{enchantment compulsion ant=4 arc=4 drd=5 hnt=5 rgr=5 sor=5 wit=5 wiz=5 ctIm cV cS rTouch target=\"your animal companion, familiar, or fiendish servant\" durI saveNo srN}",
 			"",
 			"This spell functions as Bleed for Your Master, but it allows your companion or familiar to intercept any attack that targets you, including those that do not require attack rolls (e.g. {spell/chain lightning}, {spell/hold monster}, and {spell/magic missile}). Your companion or familiar cannot intercept effects that do not affect creatures of its type (e.g. {spell/dominate person})."
 		]

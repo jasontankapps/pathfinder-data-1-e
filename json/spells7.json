@@ -1555,7 +1555,7 @@
 		"description": [
 			"## Passing Fancy",
 			"",
-			"::spell{source=\"Spymaster's Handbook/29\" enchantment compulsion mindAffecting arc=2 brd=2 mes=2 psy=2 skd=2 sor=2 wit=2 wiz=2 ctSt cV cS rClose target=\"one living creature\" dur=\"4d4 rounds\" durD will srY}",
+			"::spell{source=\"Spymaster's Handbook/29\" enchantment compulsion mindAffecting arc=2 brd=2 mes=2 psy=2 skd=2 sor=2 wit=2 wiz=2 ctSt cV cS rClose target=\"one living creature\" durR=\"4d4\" durD will srY}",
 			"",
 			"Taldor's infamous Lion Blades imported this spell from the ninja clans of Minkai, and both groups use it to great effect when maneuvering among the shallow upper classes. When you cast the spell, you dictate one specific topic or recent event and instill a magical obsession with that subject within the target. An affected creature becomes fascinated by the topic, and becomes completely focused on discussing the event with anyone nearby, possibly wandering off or distracting unaffected creatures. Passing fancy has no effect on a creature with an Intelligence of 2 or less.",
 			"",
@@ -1563,7 +1563,7 @@
 			"",
 			"### Mass Passing Fancy",
 			"",
-			"::spell{source=\"Spymaster's Handbook/29\" enchantment compulsion mindAffecting brd=4 mes=4 psy=5 skd=4 sor=5 wit=5 wiz=5 ctSt cV cS rClose target=\"one living creature/level, no two of which can be more thatn 30 ft. apart\" dur=\"4d4 rounds\" durD}",
+			"::spell{source=\"Spymaster's Handbook/29\" enchantment compulsion mindAffecting brd=4 mes=4 psy=5 skd=4 sor=5 wit=5 wiz=5 ctSt cV cS rClose target=\"one living creature/level, no two of which can be more thatn 30 ft. apart\" durR=\"4d4\" durD}",
 			"",
 			"This spell functions as per passing fancy except as noted above."
 		]

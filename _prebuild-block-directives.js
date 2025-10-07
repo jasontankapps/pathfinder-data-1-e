@@ -312,7 +312,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				let rows = 2;
 				const output = [
 					`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
-					"<table><tbody>"
+					`<table className="noWrap"><tbody>`
 				];
 				//
 				// ADD A TITLE LINE IF NEEDED
@@ -573,7 +573,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				//
 				const output = [
 					`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
-					"<table><tbody>"
+					`<table className="noWrap"><tbody>`
 				];
 				//
 				// ADD A TITLE LINE IF NEEDED
@@ -724,7 +724,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				//
 				const output = [
 					`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
-					"<table><tbody>"
+					`<table className="noWrap"><tbody>`
 				];
 				//
 				// CREATE UNIQUE ID
@@ -832,7 +832,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				//
 				const output = [
 					`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
-					"<table><tbody>"
+					`<table className="noWrap"><tbody>`
 				];
 				//
 				// CREATE UNIQUE ID

@@ -1168,7 +1168,7 @@
 		"description": [
 			"## Early Judgment",
 			"",
-			"::spell{source=\"Inner Sea Gods/233;Faiths of Balance/29\" divination clr=2 inq=2 orc=2 war=2 wit=1 faith=Pharasma ctSt cV cS cDF rClose target=\"one humanoid creature\" dur=\"1d4 rounds\" will srY}",
+			"::spell{source=\"Inner Sea Gods/233;Faiths of Balance/29\" divination clr=2 inq=2 orc=2 war=2 wit=1 faith=Pharasma ctSt cV cS cDF rClose target=\"one humanoid creature\" durR=\"1d4\" will srY}",
 			"",
 			"You show one creature the effect of its life so far and what it might expect when it passes under Pharasma's impartial gaze at the end of its life. Depending on the creature's alignment and its adherence to its ethos, you can provide it a brief glimpse of the reward or punishment that waits for it when it dies by showing it a mental image of its destined plane in the Great Beyond. If the target is good-aligned, it is fascinated for 1d4 rounds on a failed save. If the target is neutral-aligned, it is confused for 1d4 rounds on a failed save. If the target is evil-aligned, it is shaken for 1d4 rounds on a failed save.",
 			"",
@@ -2257,7 +2257,7 @@
 		"description": [
 			"## Fumbletongue",
 			"",
-			"::spell{source=\"Ultimate Magic/221\" enchantment compulsion mindAffecting brd=1 mes=1 psy=1 skd=1 wit=1 ctSt cV cS rClose target=\"one creature\" dur=\"1d4 rounds\" will srY}",
+			"::spell{source=\"Ultimate Magic/221\" enchantment compulsion mindAffecting brd=1 mes=1 psy=1 skd=1 wit=1 ctSt cV cS rClose target=\"one creature\" durR=\"1d4\" will srY}",
 			"",
 			"This enchantment causes a creature to be unable to speak intelligibly. Any effort the target makes to talk, in any language, comes out as a useless mix of unconnected words and noises. Even magic words are affected to some extent; the target has a 20% spell failure chance for any spell it attempts to cast with verbal components, and a 20% chance to incorrectly use a command word to activate a magic item. This spell has no effect on telepathic communication, or the vocalizations of creatures that lack a spoken language."
 		]
@@ -2425,13 +2425,7 @@
 			"",
 			"### Fey Gate",
 			"",
-			"{SOURCE Ultimate Wilderness/230;The First World, Realm of the Fey/12}  ",
-			"**School** {spelldef/conjuration} ({spelldef/creation}); **Level** arcanist 8, bard 6, cleric 8, druid 8, oracle 8, skald 6, sorcerer 8, summoner 6, unchained summoner 6, witch 8, wizard 8  ",
-			"**Casting Time** 1 standard action  ",
-			"**Components** V, S  ",
-			"**Range** close (25 ft. + 5 ft./2 levels)  ",
-			"**Duration** 1 round/level; see text  ",
-			"**Saving Throw** none; **Spell Resistance** no",
+			"::spell{source=\"Ultimate Wilderness/230;The First World, Realm of the Fey/12\" conjuration creation arc=8 brd=6 clr=8 drd=8 orc=8 skd=6 sor=8 sum=6 usm=6 wit=8 wiz=8 ctSt cV cS rClose dur=\"1 round/level; see text\" saveNo srN}",
 			"",
 			"This spell functions as the planar travel function of gate, except it can be used to travel only between points on the Material Plane and the First World, and it comes with additional dangers.",
 			"",
@@ -2742,7 +2736,7 @@
 		"description": [
 			"## Ghoul Touch",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/289\" necromancy poison arc=2 bld=2 sor=2 spr=2 wiz=2 ctSt cV cS cMp=\"cloth from a ghoul or earth from a ghoul's lair\" rTouch target=\"living humanoid touched\" dur=\"1d6+2 rounds\" fort srY}",
+			"::spell{source=\"PRPG Core Rulebook/289\" necromancy poison arc=2 bld=2 sor=2 spr=2 wiz=2 ctSt cV cS cMp=\"cloth from a ghoul or earth from a ghoul's lair\" rTouch target=\"living humanoid touched\" durR=\"1d6+2\" fort srY}",
 			"",
 			"Imbuing you with negative energy, this spell allows you to paralyze a single living humanoid for the duration of the spell with a successful melee touch attack.",
 			"",

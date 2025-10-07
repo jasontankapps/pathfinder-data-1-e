@@ -51,7 +51,7 @@ const makeNewMarkedInstance = (initialUse = { gfm: true }, ...midArguments) => {
 	]));
 	midArguments.forEach(option => marked.use(option));
 	marked.use(gfmHeadingId({prefix: $.prefix}));
-	marked.use(renderer());
+	marked.use(renderer(marked));
 	return marked;
 };
 
@@ -227,7 +227,7 @@ const makeSourceLink = (sourceInfo) => {
 };
 
 // Renderer object for Marked
-const renderer = () => {
+const renderer = (instance) => {
 	return {
 		renderer: {
 			// Changes <a> to <Link> and <InnerLink> as needed, updating `$.flags` to note the outside Tags being used
@@ -241,6 +241,21 @@ const renderer = () => {
 				}
 				$.flags.link = true;
 				return `<Link to="/${href}">${text}</Link>`;
+			},
+			list: (token) => {
+				const ordered = token.ordered;
+				const start = token.start;
+
+				let body = '';
+				for (let j = 0; j < token.items.length; j++) {
+					const item = token.items[j];
+					const parsed = instance.parse(item.text);
+					body += "<li>" + parsed.replace(/<[/]?p>|\n/g, "") + "</li>\n";
+				}
+
+				const type = ordered ? 'ol' : 'ul';
+				const startAttr = (ordered && start !== 1) ? (' start={' + start + '}') : '';
+				return '<' + type + startAttr + '>\n' + body + '</' + type + '>\n';
 			}
 		}
 	};
@@ -325,7 +340,7 @@ const postprocess = (tables) => {
 		text = output + text;
 		output = "";
 		//<table>
-		//Add "tableWrap" <div> around <table> so it can be contained to one pageview and scroll horizontally
+		//Add "tableWrap" <div> around plain <table>s so they can be contained to one pageview and scroll horizontally
 		while(m = text.match(/^(.*?)(<table>.+?<[/]table>)(.*)$/)) {
 			const [, pre, table, post] = m;
 			output = output + `${pre}<ScrollContainer id="${`${$.prefix}-table-${counter++}`}">${table}</ScrollContainer>`;

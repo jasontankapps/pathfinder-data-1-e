@@ -1,5 +1,3 @@
-import checkForEncodedLink from './tests/checkForEncodedLink.js';
-
 const makeSpellBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, logError) => {
 	const {
 		source, school,
@@ -141,7 +139,7 @@ const makeSpellBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, logErro
 	if(usm !== undefined) { levels.push("unchained summoner " + usm); }
 	if(war !== undefined) { levels.push("warpriest " + war); }
 	if(wit !== undefined) { levels.push("witch " + wit); }
-	if(wiz !== undefined) { levels.push("wiz " + wiz); }
+	if(wiz !== undefined) { levels.push("wizard " + wiz); }
 	if(levels.length === 0) {
 		logError(`Missing spellcasting levels`);
 	}
@@ -222,7 +220,7 @@ const makeSpellBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, logErro
 		let range = "";
 		if(rTouch) { range = "touch"; }
 		if(rPers) { range = "personal"; }
-		if(rClose) { range = "close (25 ft. +5 ft. 2/levels)"; }
+		if(rClose) { range = "close (25 ft. + 5 ft./2 levels)"; }
 		if(rFt !== undefined) { range = `${rFt} ft.`; }
 		if(rLong) { range = "long (400 ft. + 40 ft./level)"; }
 		if(rMed) { range = "medium (100 ft. + 10 ft./level)"; }
@@ -268,10 +266,10 @@ const makeSpellBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, logErro
 		if(durI) { dur = `instantaneous`; c++; }
 		if(durP) { dur = `permanent`; c++; }
 		if(durCon) { dur = doParse(`concentration (${durCon})`); c++; }
-		if(durRL) { dur = `${durRL} round${durR === 1 ? "" : "s"}/level`; c++; }
-		if(durML) { dur = `${durML} minute${durM === 1 ? "" : "s"}/level`; c++; }
-		if(durHL) { dur = `${durHL} hour${durH === 1 ? "" : "s"}/level`; c++; }
-		if(durDL) { dur = `${durDL} day${durD === 1 ? "" : "s"}/level`; c++; }
+		if(durRL) { dur = `${durRL} round${durRL === 1 ? "" : "s"}/level`; c++; }
+		if(durML) { dur = `${durML} minute${durML === 1 ? "" : "s"}/level`; c++; }
+		if(durHL) { dur = `${durHL} hour${durHL === 1 ? "" : "s"}/level`; c++; }
+		if(durDL) { dur = `${durDL} day${durDL === 1 ? "" : "s"}/level`; c++; }
 		if(c !== 1) {
 			logError(`Found ${c} duration notations instead of 1`);
 		}
@@ -287,7 +285,7 @@ const makeSpellBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, logErro
 	if(save) {
 		saving = doParse(save);
 	} else if (saveNo) {
-		saving = "no";
+		saving = "none";
 	} else if (fort) {
 		saving = "Fortitude negates";
 	} else if (fortHalf) {
