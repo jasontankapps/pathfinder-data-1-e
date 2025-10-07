@@ -14,19 +14,6 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 			const n = meta.name;
 			let link, label, icon, title, id;
 			switch(n) {
-				case "archetype": {
-					const { c = "" } = attrs;
-					const trimmed = text.trim();
-					const [ title = "", repl = "", desc = "" ] = trimmed.split(/\n+/);
-					const link = convertTextToLink(title);
-					flags.link = true;
-					const marked2 = makeNewMarkedInstance();
-					return `<div className="archetype">`
-						+ `<p><Link to="/arc-${c}/${link}">${removeCurlyBrackets(marked2.parseInline(title), true)}</Link></p>`
-						+ `<p><strong>Modifes or Replaces:</strong> ${removeCurlyBrackets(marked2.parseInline(repl), true)}</p>`
-						+ `<p>${removeCurlyBrackets(marked2.parseInline(desc), true)}</p>`
-						+ `</div>\n`;
-				}
 				case "item": {
 					flags.item = true;
 					flags.label = true;

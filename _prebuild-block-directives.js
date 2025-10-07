@@ -1,4 +1,4 @@
-import checkForEncodedLink from './tests/checkForEncodedLink.js';
+import checkForEncodedLink, { convertTextToLink } from './tests/checkForEncodedLink.js';
 import makeSpellBlock from './_prebuild-block-directives--spell.js'
 
 const churn = (n, attrs, list, logError) => {
@@ -22,7 +22,7 @@ const linker = (input) => {
 		output = output + `${pre}[${text}](${fulllink})`;
 		test = post;
 	}
-	return (output + test).replace(/&(times|#[0-9]+)&/, "&$1;");
+	return (output + test).replace(/&(times|quot|mdash|#[0-9]+)&/g, "&$1;");
 };
 const constructDC = ({ dcF, dcW, dcR, dcYou, dcIt, dcPoss, dcLev, dcHD, dcMod }) => {
 	if(!(dcF || dcW || dcR || dcLev || dcHD)) {
@@ -139,7 +139,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 		level: "block",
 		marker,
 		renderer: (token) => {
-			const {prefix, flags, addToJumpList, logError, makeNewMarkedInstance, parseSOURCE} = $;
+			const {prefix, flags, addToJumpList, logError, makeNewMarkedInstance, removeCurlyBrackets, parseSOURCE} = $;
 			const {text, attrs = {}, meta} = token;
 			const n = meta.name || "";
 			const maybeClear = attrs.clear ? `<div style={{clear:"both"}}></div>` : "";
@@ -939,10 +939,26 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeSpellBlock(marked2, parseSOURCE, linker, maybeClear, attrs, logError);
-			} else if(n === "spelldeitynote") {
+			} else if (n === "spelldeitynote") {
 				const marked2 = makeNewMarkedInstance();
 				return (
 					`<aside>${marked2.parse("Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- [Inner Sea Gods pg. 228](source/inner_sea_gods)")}</aside>`
+				);
+			} else if (n === "archetype") {
+				// Archetype
+				churn(n, attrs, ["clear", "c", "r", "e"], logError);
+				const {c, r, e} = attrs;
+				flags.link = true;
+				const link = convertTextToLink(text);
+				const marked2 = makeNewMarkedInstance();
+				if(!r) { logError("Missing r in " + text) }
+				if(!e) { logError("Missing e in "+ text) }
+				return (
+					`<div className="archetype">`
+					+ `<p><Link to="/arc-${c}/${link}">${text}</Link></p>`
+					+ `<p><strong>Modifies or Replaces:</strong> ${removeCurlyBrackets(marked2.parseInline(r), true)}</p>`
+					+ `<p>${removeCurlyBrackets(marked2.parseInline(linker(e)), true)}</p>`
+					+ `</div>\n`
 				);
 			}
 			return false;

@@ -389,7 +389,7 @@
 			"",
 			"**Price** 90 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=15 onset=\"1 minute\" freq=\"&mdash\" eff=\"%%misc/unconscious/ness%% for 1d3 hours\" cure1}"
+			"::aff{iconP start type=ingested saveF=15 onset=\"1 minute\" freq=\"-\" eff=\"%%misc/unconscious/ness%% for 1d3 hours\" cure1}"
 		]
 	},
 	"small_centipede_poison": {
