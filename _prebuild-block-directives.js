@@ -1,5 +1,6 @@
 import checkForEncodedLink, { convertTextToLink } from './tests/checkForEncodedLink.js';
 import makeSpellBlock from './_prebuild-block-directives--spell.js'
+import makeMonsterInfoBlock from './_prebuild-block-directives--minfo.js';
 
 const churn = (n, attrs, list, logError) => {
 	const found = [];
@@ -944,6 +945,19 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return (
 					`<aside>${marked2.parse("Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- [Inner Sea Gods pg. 228](source/inner_sea_gods)")}</aside>`
 				);
+			} else if (n === "minfo") {
+				churn(n, attrs, [
+					"source", "xp", "al", "lg", "ln", "le", "ng", "n", "ne", "cg", "cn", "ce",
+					"fine", "diminutive", "tiny", "small", "medium", "large", "huge", "gargantuan", "colossal",
+					"aberration", "animal", "construct", "dragon", "fey", "humanoid", "magicalBeast",
+						"monstrousHumanoid", "ooze", "outsider", "plant", "undead", "vermin",
+					"subs", "subtypes", "init",
+					"sen", "senSpell", "dv", "llv", "keenScent", "scent", "thoughtsense", "greensight", "lifesense",
+						"xray", "aav", "mistsight", "sid", "blindsight", "blindsense", "tremorsense", "pcp",
+					"aura"
+				], logError);
+				const marked2 = makeNewMarkedInstance();
+				return makeMonsterInfoBlock(marked2, parseSOURCE, linker, maybeClear, attrs, text, logError, setty);
 			} else if (n === "archetype") {
 				// Archetype
 				churn(n, attrs, ["clear", "c", "r", "e"], logError);

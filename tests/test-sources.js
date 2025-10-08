@@ -6,8 +6,8 @@ const checkForSourceLinks = (desc) => {
 	const single = /^.*?(?:\]\(source[/]([a-z_0-9]+)\)|\{source[/]([^\}]+)\})(.*$)/;
 	const multi = /^>*\{SOURCE ([^\}]+)\}(?:  )?$/;
 	// Template headers, spell statblocks, and monster info blocks store source information
-	const th = /^::th\[[^\]]+\]\{[^\}]*\bsource="([^"}]+)"[^}]+\}?$/;
-	const sp = /^::spell\{[^\}]*\bsource="([^"}]+)"[^}]+\}?$/;
+	const th = /^::(?:th|minfo)\[[^\]]+\]\{[^\}]*\bsource="([^"}]+)"[^}]+\}?$/;
+	const sp = /^::(?:spell|minfo)\{[^\}]*\bsource="([^"}]+)"[^}]+\}?$/;
 	desc.forEach(line => {
 		if(line === "::spelldeitynote") {
 			// Spell deity notes have a source link to Inner Sea Gods baked in.
