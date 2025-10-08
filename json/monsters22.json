@@ -1138,8 +1138,7 @@
 			"",
 			"A skinstitch's body is made from leather and cloth costing at least 500 gp.",
 			"",
-			"**CL** 8th; **Price** 6,500 gp",
-			"",
+			"**CL** 8th; **Price** 6,500 gp  ",
 			"**Requirements** {feat/Craft Construct}, creator must be caster level 10 Skill Craft (leather); **Cost** 3,500 gp"
 		]
 	},
@@ -1425,8 +1424,7 @@
 			"",
 			"A skull ripper is made from the carcasses of dead vermin and skulls, either harvested by the creator or purchased from shady adventurers for roughly 500 gp in total.",
 			"",
-			"**CL** 13th; **Price** 30,500 gp",
-			"",
+			"**CL** 13th; **Price** 30,500 gp  ",
 			"**Requirements** {feat/Craft Construct}, {spell/animate dead}, {spell/fear}, {spell/geas//quest}, {spell/keen edge}, {spell/limited wish}; Skill Heal or Knowledge (engineering) DC 15; **Cost** 15,500 gp"
 		]
 	},
@@ -3081,8 +3079,7 @@
 			"",
 			"A soulbound doll's body is made from wood, stone, or porcelain, with one exquisite item worth at least 300 gp to serve as the soul focus. Creation requires a soul fragment from a deceased creature that must die at some point during the creation of the doll - as a result, most soulbound dolls are created by evil spellcasters. Other spellcasters can create soulbound dolls, but if the donor soul is unwilling, they may have alignment repercussions. An unwilling soul can resist the procedure with a DC 20 Will save. Stripping a soul fragment from the dead does not prevent the rest of the soul from continuing on to the afterlife, nor does it prevent the body from later being resurrected or raised from the dead.",
 			"",
-			"**CL** 7th; **Price** 4,300 gp",
-			"",
+			"**CL** 7th; **Price** 4,300 gp  ",
 			"**Requirements** {feat/Craft Construct}, {spell/false life}, {spell/lesser geas}, {spell/magic jar}, {spell/minor creation}, soul of a living creature who dies or is slain during the creation process; **Skill** Craft (sculptures); **Cost** 2,300 gp."
 		]
 	},
@@ -3156,8 +3153,7 @@
 			"",
 			"A soulbound mannequin is made from wood or porcelain, with one expertly carved mask worth at least 500 gp to serve as the soul focus. Creation requires a soul fragment from a creature who dies at some point during the creation of the mannequin (this doesn't prevent the rest of the soul from continuing on to the afterlife or prevent the body from later being revived). An unwilling soul can resist the procedure with a successful DC 20 Will save.",
 			"",
-			"**CL** 7th; **Price** 16,500 gp",
-			"",
+			"**CL** 7th; **Price** 16,500 gp  ",
 			"**Requirements** {feat/Craft Construct}, *disguise self,* {spell/false life}, {spell/lesser geas}, {spell/magic jar}, {spell/minor creation}, soul of a living creature who dies or is slain during the creation process; **Skill** Craft (sculptures); **Cost** 8,500 gp"
 		]
 	},
@@ -3228,8 +3224,7 @@
 			"",
 			"A soulbound shell is constructed from marble, a 5,000 gp gem for the soul focus, and the soul of a willing spellcaster of at least 12th level who dies at the culmination of the creation process and animates the stone shell.",
 			"",
-			"**CL** 12th; **Price** 115,000 gp",
-			"",
+			"**CL** 12th; **Price** 115,000 gp  ",
 			"**Requirements** Craft Construct, *false life,* {spell/magic jar}, *make whole,* {spell/mnemonic enhancer}, {spell/stoneskin}; **Skill** Craft (sculpture); **Cost** 60,000 gp"
 		]
 	},

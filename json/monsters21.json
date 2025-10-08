@@ -785,8 +785,7 @@
 			"",
 			"Scarecrows are constructed of a variety of materials, but usually include a frame of wood bound by rope or twine, covered in cloth or ragged garments, then stuffed with grass or straw. Some have simple heads made from bags stuffed with straw, with two holes cut for eyes, while others have more elaborate pumpkin or gourd heads carved with grotesque faces. Once the basic body has been constructed, unguents and special powders worth 500 gp are also required.",
 			"",
-			"**CL** 6th; **Price** 15,500 gp",
-			"",
+			"**CL** 6th; **Price** 15,500 gp  ",
 			"**Requirements** {feat/Craft Construct}, {spell/command}, {spell/fear}, {spell/geas//quest}, {spell/hypnotic pattern}, creator must be caster level 6th; **Skill** Craft (carpentry), Craft (sculptures), or Profession (farmer) DC 12; **Cost** 8,000 gp"
 		]
 	},
@@ -1741,8 +1740,7 @@
 			"",
 			"A scythe glass swarm is built from 2,500 pounds of glass, which is infused with exotic materials that costs 1,000 gp in total during the melting process.",
 			"",
-			"**CL** 13th; **Price** 61,500 gp",
-			"",
+			"**CL** 13th; **Price** 61,500 gp  ",
 			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/hypnotism}, {spell/limited wish}, creator must be caster level 13th; **Skill** Craft (glass) DC 20; **Cost** 31,250 gp"
 		]
 	},
@@ -2956,8 +2954,7 @@
 			"",
 			"A sentinel hut must be made of the wood from a tree grown in Irrisen's eternal winter (an extraordinarily rare commodity) and thatch for the roof. Both wood and thatch must be treated with magical ointments and powders worth 1,000 gp.",
 			"",
-			"**CL** 10th; **Price** 33,000 gp",
-			"",
+			"**CL** 10th; **Price** 33,000 gp  ",
 			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/cat's grace}, {spell/confusion}, {spell/geas//quest}, {spell/jump}, {spell/minor creation}; **Skill** Craft (sculptures) DC 18; **Cost** 18,000 gp"
 		]
 	},
@@ -3798,16 +3795,14 @@
 			"",
 			"The process begins with the recently deceased body of an evil desert giant. The body must undergo a painstaking embalming process. This preparation keeps the body from rotting and hardens its flesh, making it as tough as stone. During this time, a headpiece made from 1,500 pounds of bronze, brass, or iron must be cast using special, cursed elixirs in the process. The head of the preserved giant must be severed cleanly at the shoulders and the headpiece then bolted on. At this point, two gems (each worth at least 2,000 gp) of the appropriate type are fitted into the headpiece's eye sockets before the construct is animated with an elemental spirit.",
 			"",
-			"**CL** 17th; **Price** 184,000 gp",
-			"",
+			"**CL** 17th; **Price** 184,000 gp  ",
 			"**Requirements** {feat/Craft Construct}, {spell/blasphemy}, {spell/geas/quest}, {spell/miracle}; Skill Heal DC 20 and Craft (armor) or Craft (blacksmithing) DC 22; **Cost** 90,000 gp.",
 			"",
-			"::sh[Elevated Set Guardian]",
+			"### Elevated Set Guardian",
 			"",
 			"The process of creating an elevated Set guardian is nearly identical to creating a regular Set guardian except for the cost of the required materials. The gemstones fitted into the construct's eye sockets each must be worth at least 5,000 gp.",
 			"",
-			"**CL** 18th; **Price** 210,000 gp",
-			"",
+			"**CL** 18th; **Price** 210,000 gp  ",
 			"**Requirements** Craft Construct, blasphemy, geas/quest, miracle; Skill Heal DC 26 and Craft (armor) or Craft (blacksmithing) DC 28; **Cost** 110,000 gp."
 		]
 	},

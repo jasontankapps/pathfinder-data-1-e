@@ -96,8 +96,7 @@
 			"",
 			"Small poppets require quality pieces of wood or wicker worth 100 gp.",
 			"",
-			"**CL** 3rd; **Price** 900 gp",
-			"",
+			"**CL** 3rd; **Price** 900 gp  ",
 			"**Requirements** {feat/Craft Construct} or {feat/Craft Poppet}, {spell/make whole}, {spell/mending}; **Skill** Craft (carpentry) DC 18; **Cost** 500 gp"
 		]
 	},
@@ -146,8 +145,7 @@
 			"",
 			"Poppets are among the simplest of constructs. The creator must start with quality pieces of wood and wicker worth 10 gp.",
 			"",
-			"**CL** 1st; **Price** 310 gp",
-			"",
+			"**CL** 1st; **Price** 310 gp  ",
 			"**Requirements** {feat/Craft Construct} or {feat/Craft Poppet}, {spell/make whole}, {spell/mending}; **Skill** Craft (carpentry) DC 15; **Cost** 160 gp",
 			"",
 			"::sh[Augmentations]",
