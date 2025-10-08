@@ -1,10 +1,10 @@
-const makeMonsterInfoBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, text, logError, setty) => {
+const makeMonsterInfoBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, text, logError) => {
 	const {
 		source, xp, al, lg, ln, le, ng, n, ne, cg, cn, ce,
 		fine, diminutive, tiny, small, medium, large, huge, gargantuan, colossal,
 		aberration, animal, construct, dragon, fey, humanoid, magicalBeast,
 			monstrousHumanoid, ooze, outsider, plant, undead, vermin,
-		subs, subtypes, init, mythInit,
+		subs, subtypes, init,
 		sen, senSpell, dv, llv, keenScent, scent, thoughtsense, greensight, lifesense,
 			xray, aav, mistsight, sid, blindsight, blindsense, tremorsense, pcp,
 		aura
@@ -26,7 +26,7 @@ const makeMonsterInfoBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, t
 	// RACE/CLASS LINE
 	//
 	if(text) {
-		output.push(marked2.parseInline(linker(text)));
+		output.push(doParse(text));
 	}
 	//
 	// ALIGNMENT/SIZE/TYPE LINE
@@ -94,7 +94,7 @@ const makeMonsterInfoBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, t
 			).join(", ")
 			+ ")";
 	}
-	output.push(marked2.parseInline(linker(line)));
+	output.push(doParse(line));
 	//
 	// INITIATIVE/SENSES LINE
 	//
@@ -143,9 +143,12 @@ const makeMonsterInfoBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, t
 	if(pcp !== undefined) {
 		line = line + `; Perception ${pcp}`;
 	}
-	line && output.push(marked2.parseInline(linker(line)));
+	line && output.push(doParse(line));
+	//
+	// AURA LINE
+	//
 	if(aura) {
-		output.push(marked2.parseInline(linker(`**Aura** ${aura}`)));
+		output.push(doParse(`**Aura** ${aura}`));
 	}
 	return `${maybeClear}<p>${output.join("<br>")}</p>`;
 };

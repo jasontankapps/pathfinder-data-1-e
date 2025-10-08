@@ -1,6 +1,7 @@
 import checkForEncodedLink, { convertTextToLink } from './tests/checkForEncodedLink.js';
 import makeSpellBlock from './_prebuild-block-directives--spell.js'
 import makeMonsterInfoBlock from './_prebuild-block-directives--minfo.js';
+import makeMonsterDefenseBlock from './_prebuild-block-directives--mdefense.js';
 
 const churn = (n, attrs, list, logError) => {
 	const found = [];
@@ -947,7 +948,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				);
 			} else if (n === "minfo") {
 				churn(n, attrs, [
-					"source", "xp", "al", "lg", "ln", "le", "ng", "n", "ne", "cg", "cn", "ce",
+					"clear", "source", "xp", "al", "lg", "ln", "le", "ng", "n", "ne", "cg", "cn", "ce",
 					"fine", "diminutive", "tiny", "small", "medium", "large", "huge", "gargantuan", "colossal",
 					"aberration", "animal", "construct", "dragon", "fey", "humanoid", "magicalBeast",
 						"monstrousHumanoid", "ooze", "outsider", "plant", "undead", "vermin",
@@ -957,7 +958,17 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"aura"
 				], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterInfoBlock(marked2, parseSOURCE, linker, maybeClear, attrs, text, logError, setty);
+				return makeMonsterInfoBlock(marked2, parseSOURCE, linker, maybeClear, attrs, text, logError);
+			} else if (n === "mdefense") {
+				churn(n, attrs, [
+					"clear", "ac", "mod",
+					"hp", "fh", "regen",
+					"fort", "ref", "will",
+					"def", "dr", "immune", "resist", "sr",
+					"weak"
+				], logError);
+				const marked2 = makeNewMarkedInstance();
+				return makeMonsterDefenseBlock(marked2, linker, maybeClear, attrs, logError);
 			} else if (n === "archetype") {
 				// Archetype
 				churn(n, attrs, ["clear", "c", "r", "e"], logError);
