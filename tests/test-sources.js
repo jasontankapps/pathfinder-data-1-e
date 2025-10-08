@@ -5,9 +5,8 @@ const checkForSourceLinks = (desc) => {
 	const found = [];
 	const single = /^.*?(?:\]\(source[/]([a-z_0-9]+)\)|\{source[/]([^\}]+)\})(.*$)/;
 	const multi = /^>*\{SOURCE ([^\}]+)\}(?:  )?$/;
-	// Template headers store source information
-	const th = /^::th\[[^\]]+\]\{[^\}]*\bsc="([^"}]+)"[^}]+\}?$/;
-	// Spell statblocks store source information
+	// Template headers, spell statblocks, and monster info blocks store source information
+	const th = /^::th\[[^\]]+\]\{[^\}]*\bsource="([^"}]+)"[^}]+\}?$/;
 	const sp = /^::spell\{[^\}]*\bsource="([^"}]+)"[^}]+\}?$/;
 	desc.forEach(line => {
 		if(line === "::spelldeitynote") {

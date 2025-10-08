@@ -3,7 +3,7 @@
 		"name": "Runeslave",
 		"sources": [ "Rise of the Runelords Anniversary Edition" ],
 		"description": [
-			"::th[Runeslave]{cr=+1 sc=\"Rise of the Runelords Anniversary Edition/412\" acquired}",
+			"::th[Runeslave]{cr=+1 source=\"Rise of the Runelords Anniversary Edition/412\" acquired}",
 			"",
 			"The ageless monuments and awesome cities of Thassilon rose upon the backs of countless slaves, but none bore the sin-poisoned civilization's burden more than the giants. Able to perform the work of dozens of human slaves, Thassilon's titanic servants - {monster/hill giant/s}, {monster/stone giant/s}, {monster/taiga giant/s}, and others - crafted marvels nigh unparalleled in any era before or since, and shaped the face of what is now modern Varisia. Yet as viciously as the runelords worked their slaves and for all they demanded, the giant-crafted marvels were not enough. And thus, working the corrupt rune magic that was theirs alone, the runelords manufactured a damning curse and laid it over their most tireless and effective workers, and in so doing created a new breed of servant: the runeslave.",
 			"",
@@ -56,7 +56,7 @@
 		"name": "Runewarped Creature",
 		"sources": [ "Pathfinder #133: Secrets of Roderic's Cove" ],
 		"description": [
-			"::th[Runewarped Creature]{cr=+1 sc=\"Pathfinder #133: Secrets of Roderic's Cove/87\" acquired}",
+			"::th[Runewarped Creature]{cr=+1 source=\"Pathfinder #133: Secrets of Roderic's Cove/87\" acquired}",
 			"",
 			"Before Alaznist created the first {monster/sinspawn} through the use of her runewell, she experimented with several techniques to create sin-twisted servants. One foundation of the complex magical technique used to create sinspawn was known as runewarping. Through the use of runewarping, Alaznist and other powerful mages created horribly twisted creatures from their slaves and prisoners. These creators valued ability over aesthetics, so runewarped creatures were transformed by powerful magic into horrid mockeries of their previous forms. Runewarped creatures seek out sources of magic to consume, trying in vain to complete their transformation. Although a runewarped creature is recognizable as the creature it once was, the creature bears altered or additional limb joints, elongated fingers, and a massive jaw capable of delivering a powerful bite.",
 			"",
@@ -97,7 +97,7 @@
 		"name": "Sea-Sworn",
 		"sources": [ "Treasure of Chimera Cove" ],
 		"description": [
-			"::th[Sea-Sworn]{cr=+1 sc=\"Treasure of Chimera Cove/31\" acquired}",
+			"::th[Sea-Sworn]{cr=+1 source=\"Treasure of Chimera Cove/31\" acquired}",
 			"",
 			"This creature stares with cold, black eyes, its bluish-green skin slick with moisture and stinking of brine and the muck of the tidal flats. Its hands and feet are webbed, and its facial features are blunted by the smooth, frog-like skin that covers them. It makes no sound as it marches out of the shallows, water and seaweed streaming from its unkempt hair and barnacle-encrusted armor. It merely approaches with cold menace, sword raised and sharp beneath a crusting of salt.",
 			"",
@@ -168,7 +168,7 @@
 		"name": "Seeded",
 		"sources": [ "Pathfinder #113: What Grows Within" ],
 		"description": [
-			"::th[Seeded]{cr=+1 sc=\"Pathfinder #113: What Grows Within/90\" inherited}",
+			"::th[Seeded]{cr=+1 source=\"Pathfinder #113: What Grows Within/90\" inherited}",
 			"",
 			"Though the Great Old One {monster/Xhamen-Dor} lies half-dormant where its bloated body crashed millennia ago, virtually nothing can prevent it from seeking new hosts to infect. The most common means by which one might contract this infestation is through nightmares that brush against Xhamen-Dor's influence in the Dimension of Dreams, after which the Inmost Blot can track victims and infest their thoughts, slowly and painfully driving them mad. Less common is direct exposure to one of the Great Old One's vine-choked thralls: the seeded.",
 			"",
@@ -224,7 +224,7 @@
 			"Advanced Race Guide"
 		],
 		"description": [
-			"::th[Shadow]{cr=+1 sc=\"Bestiary 4/238;Advanced Race Guide/110\" inherited}",
+			"::th[Shadow]{cr=+1 source=\"Bestiary 4/238;Advanced Race Guide/110\" inherited}",
 			"",
 			"\"Shadow creature\" is an inherited template that can be added to any living creature, referred to hereafter as the base creature. A shadow creature retains all the base creature's statistics and abilities except as noted here.",
 			"",
@@ -253,7 +253,7 @@
 		"name": "Shadow Animal",
 		"sources": [ "Nidal, Land of Shadows" ],
 		"description": [
-			"::th[Shadow Animal]{cr=\"+1 or +2\" sc=\"Nidal, Land of Shadows/60\" acquired inherited}",
+			"::th[Shadow Animal]{cr=\"+1 or +2\" source=\"Nidal, Land of Shadows/60\" acquired inherited}",
 			"",
 			"Dread energies from the {rule/Plane of Shadow} have leaked into the countryside of Nidal for thousands of years, pooling in shadowed groves and along darkened hillsides. Although normal animals shun these shadow-haunted regions, hunger or adversity sometimes compels a creature to enter them. Some animals who do so are wholly transformed by these energies, becoming shadow animals.",
 			"",
@@ -323,7 +323,7 @@
 		"name": "Shadow Lord",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::th[Shadow Lord]{cr=+2 sc=\"Bestiary 4/238\" acquired}",
+			"::th[Shadow Lord]{cr=+2 source=\"Bestiary 4/238\" acquired}",
 			"",
 			"\"Shadow lord\" is an acquired template that can be added to any {template/shadow} creature with 5 or more Hit Dice (referred to hereafter as the base creature). Most shadow lords were originally humanoids. A shadow lord retains all the base creature's statistics and abilities (including those granted by the shadow creature template) except as noted here.",
 			"",
@@ -370,7 +370,7 @@
 		"name": "Shadowbound Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Shadowbound Creature]{cr=+1 sc=\"Horror Adventures/250\" acquired simple}",
+			"::th[Shadowbound Creature]{cr=+1 source=\"Horror Adventures/250\" acquired simple}",
 			"",
 			"A shadowbound creature has lost its color and capacity for joy and pleasure.",
 			"",
@@ -383,7 +383,7 @@
 		"name": "Shadowfire Creature",
 		"sources": [ "The Emerald Spire Superdungeon" ],
 		"description": [
-			"::th[Shadowfire Creature]{cr=+1 sc=\"The Emerald Spire Superdungeon/157\" inherited}",
+			"::th[Shadowfire Creature]{cr=+1 source=\"The Emerald Spire Superdungeon/157\" inherited}",
 			"",
 			"Created through rituals that suffused elemental fire with the dark corruption of shadow, shadowfire creatures were spawned from an evil cult. Cruelly transformed from their true forms by their ancient creators, they flicker between existence and nothingness, reality and oblivion, feeding on pain and flame and the screams of those who dare stand against them.",
 			"",
@@ -412,7 +412,7 @@
 		"name": "Shaggra Ogre",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Shaggra Ogre]{cr=+1 sc=\"Monster Codex/152\" inherited simple}",
+			"::th[Shaggra Ogre]{cr=+1 source=\"Monster Codex/152\" inherited simple}",
 			"",
 			"{monster/Ogre/s} with the shaggra template are covered in long, matted fur, and have stunted legs and massive oversized arms, similar to apes. They move on all fours and smash enemies with their giant fists.",
 			"",
@@ -425,7 +425,7 @@
 		"name": "Siabrae",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"::th[Siabrae]{cr=+2 sc=\"Bestiary 6/251\" acquired}",
+			"::th[Siabrae]{cr=+2 source=\"Bestiary 6/251\" acquired}",
 			"",
 			"When {class/druid/s} are faced with threats to the natural world, they are steadfast and, at times, relentless in their defense of the land. Even in the face of overwhelming odds - an incursion of demons from {rule/the Abyss}, a creeping plague of necromantic corruption, an unstoppable blight of magical radiation, or a similar supernatural threat to the natural world - some sects of druids refuse to give up or abandon their duties. In these tragic cases, the desperate druids adopt the blasphemous tactic of accepting the corruption into themselves and becoming powerful undead guardians. They fight on not only against the original source of the corruption, but against all living creatures, for these druids become siabraes, and are filled with bitterness and hatred for all others - particularly other druids, whom they regard as cowards. Siabraes do not form spontaneously; they arise only as the result of the horrific {spell/Welcome the Blighted Soul} ritual.",
 			"",
@@ -468,7 +468,7 @@
 		"name": "Silverblood Lycanthrope",
 		"sources": [ "Andoran, Birthplace of Freedom" ],
 		"description": [
-			"::th[Silverblood Lycanthrope]{cr=+2 sc=\"Andoran, Birthplace of Freedom/61\" acquired}",
+			"::th[Silverblood Lycanthrope]{cr=+2 source=\"Andoran, Birthplace of Freedom/61\" acquired}",
 			"",
 			"Silverblood werewolves are a rare type of lycanthrope found almost exclusively in the Arthfell Forest. They are the survivors of an experimental process conceived by jeweler-turned-werewolf Garrick Argentum, and developed by his allies in the Shadow Pack, a group of werewolf druids in the forest. The Shadow Pack conducted an eldritch ritual involving successive exposures to pure silver under the light of the full moon in an attempt to desensitize the werewolves to the deadly touch of silver (in theory, this process could also produce other types of silverblood lycanthropes). The experiment was a success, and the werewolves lost their vulnerability. Swollen with pride at their new ability, the Shadow Pack joined forces with the {monster/hobgoblin/s} of the wood and attacked the town of Olfden. Turned back after a savage battle known as the Night of Silver Blood, the werewolves sought to regroup and prepare a new assault, but on the night of the next new moon they discovered a fatal flaw in their blasphemous rite. Tied now more than ever to the lunar cycle, most of the silverblood werewolves wasted away and died when the moon darkened. Even those few that survived are greatly weakened when each new moon comes, though the surge of power when the moon waxes full still earns them great respect, and many have found positions of leadership among the werewolves of the wood.",
 			"",
@@ -510,7 +510,7 @@
 			"Classic Horrors Revisited"
 		],
 		"description": [
-			"::th[Skeletal Champion]{cr=Varies sc=\"Pathfinder RPG Bestiary/252\" acquired}",
+			"::th[Skeletal Champion]{cr=Varies source=\"Pathfinder RPG Bestiary/252\" acquired}",
 			"",
 			"Some {template/skeleton/s} retain their intelligence and cunning, making them formidable warriors. These undead are far more powerful than their mindless kin, and many gain class levels.",
 			"",
@@ -579,7 +579,7 @@
 			"Classic Horrors Revisited"
 		],
 		"description": [
-			"::th[Skeleton]{cr=Varies sc=\"Pathfinder RPG Bestiary/250\" acquired}",
+			"::th[Skeleton]{cr=Varies source=\"Pathfinder RPG Bestiary/250\" acquired}",
 			"",
 			"Skeletons are the animated bones of the dead, brought to unlife through foul magic. While most skeletons are mindless automatons, they still possess an evil cunning imparted to them by their animating force - a cunning that allows them to wield weapons and wear armor.",
 			"",
@@ -709,7 +709,7 @@
 		"name": "Sorcerer",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Sorcerer]{cr=\"+1, +2 or +3\" sc=\"Monster Codex/248\" acquired simple}",
+			"::th[Sorcerer]{cr=\"+1, +2 or +3\" source=\"Monster Codex/248\" acquired simple}",
 			"",
 			"{class/Sorcerer} creatures can use a variety of powerful spells and abilities to devastate their foes. Select a sorcerer creature's {ability/sorcerer_<bloodline>s} when the template is added. A sorcerer creature's CR increases by 2 if the creature has 8 or more HD, and it increases by 3 if the creature has 14 or more HD.",
 			"",
@@ -736,7 +736,7 @@
 		"name": "Soulbound Construct",
 		"sources": [ "Construct Handbook" ],
 		"description": [
-			"::th[Soulbound Construct]{cr=\"+1 or +2\" sc=\"Construct Handbook/60\" acquired}",
+			"::th[Soulbound Construct]{cr=\"+1 or +2\" source=\"Construct Handbook/60\" acquired}",
 			"",
 			"A soulbound construct is a once-living creature that has had its soul bound to a construct host that serves as its new body.",
 			"",
@@ -799,7 +799,7 @@
 		"name": "Spore Zombie",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"::th[Spore Zombie]{cr=+1 sc=\"Bestiary 6/287\" acquired}",
+			"::th[Spore Zombie]{cr=+1 source=\"Bestiary 6/287\" acquired}",
 			"",
 			"There are certain evil fungal creatures (such as {monster/fungus queen/s}, but also rare fungal growths or extraplanar blights upon the wild) that can infest vermin with spores that have been infused with sinister power and negative energy. These foul spores grow quickly in the body of a dead vermin, eventually bursting from its head to form disturbing, antler-like growths. At the same time, the spores animate the vermin as an intelligent undead creature.",
 			"",
@@ -840,7 +840,7 @@
 		"name": "Steam-Powered Construct",
 		"sources": [ "Construct Handbook" ],
 		"description": [
-			"::th[Steam-Powered Construct]{cr=+2 sc=\"Construct Handbook/62\" inherited}",
+			"::th[Steam-Powered Construct]{cr=+2 source=\"Construct Handbook/62\" inherited}",
 			"",
 			"Though some scholars may argue about who exactly created the first steam-powered clockwork, the secret of their manufacture is now out. Savvy engineers have started to create faster and more powerful clockwork contraptions in the form of marvels blending arcane heat sources with large boilers to create pressured steam that powers the complex constructs.",
 			"",
@@ -888,7 +888,7 @@
 		"name": "Sunbaked Zombie",
 		"sources": [ "Pathfinder #80: Empty Graves" ],
 		"description": [
-			"::th[Sunbaked Zombie]{cr=Varies sc=\"Pathfinder #80: Empty Graves/88\" acquired}",
+			"::th[Sunbaked Zombie]{cr=Varies source=\"Pathfinder #80: Empty Graves/88\" acquired}",
 			"",
 			"Sun-baked zombies most often rise near pyramids and other burial sites in hot deserts, where latent necromantic energy lingers from countless arcane rituals and restless spirits. As such, sunbaked zombies are primarily found among the dunes of Osirion and the other nations that make up northern Garund. Typically animated in isolation, sunbaked zombies rarely form hordes like normal zombies, but when entire caravans fall to thirst and the desert sun, all of its members might rise as these terrible undead.",
 			"",
@@ -968,7 +968,7 @@
 		"name": "Taxidermic Creature",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::th[Taxidermic Creature]{cr=Varies sc=\"Bestiary 5/240\" acquired}",
+			"::th[Taxidermic Creature]{cr=Varies source=\"Bestiary 5/240\" acquired}",
 			"",
 			"Taxidermic creatures are the work of obsessed individuals seeking to use their alchemical or occult talents to preserve and reanimate lifeless beings. The abilities of taxidermic creatures often pale in comparison to those of their living counterparts, as they are bereft of intelligence or an animate life force to guide them. Instead, taxidermic creatures possess a rudimentary form of instinct, though they are still able to follow basic instructions from their creators.",
 			"",
@@ -1059,7 +1059,7 @@
 		"name": "Terror Creature",
 		"sources": [ "City of Golden Death" ],
 		"description": [
-			"::th[Terror Creature]{cr=+0 sc=\"City of Golden Death/29\" acquired simple}",
+			"::th[Terror Creature]{cr=+0 source=\"City of Golden Death/29\" acquired simple}",
 			"",
 			"Creatures with the terror template are warped by prolonged contact with the {rule/Negative Energy Plane}. They are terrifying to behold and have developed special resistances and attacks. A terror creature's quick and rebuild rules are the same.",
 			"",
@@ -1070,7 +1070,7 @@
 		"name": "Thicken Ogre",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Thicken Ogre]{cr=+0 sc=\"Monster Codex/152\" inherited simple}",
+			"::th[Thicken Ogre]{cr=+0 source=\"Monster Codex/152\" inherited simple}",
 			"",
 			"{monster/Ogre/s} with the thicken template have huge, oversized heads and razor-sharp teeth.",
 			"",
@@ -1083,7 +1083,7 @@
 		"name": "Trompe l'Oeil",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Trompe l'Oeil]{cr=+1 sc=\"Horror Adventures/242\" inherited}",
+			"::th[Trompe l'Oeil]{cr=+1 source=\"Horror Adventures/242\" inherited}",
 			"",
 			"Trompe l'oeil creatures are life-sized portraits animated by powerful magic or occult phenomena. Able to move and talk, these constructs can also step out of their frames to become three-dimensional beings. Born from artistic masterpieces, trompe l'oeils can easily pass for their original models, though close examination reveals that they are not flesh and blood, but only layers of paint. Trompe l'oeils can be created to act as guardians and spies, or on occasion, a painting will animate spontaneously. Rarely, a portrait is so lifelike, a nascent spirit is able to inhabit it. Believing itself to be as good as or better than the original, such a trompe l'oeil seeks to eliminate and replace the painting's subject.",
 			"",
@@ -1146,7 +1146,7 @@
 		"name": "Tsukumogami",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::th[Tsukumogami]{cr=+2 sc=\"Bestiary 5/253\" acquired}",
+			"::th[Tsukumogami]{cr=+2 source=\"Bestiary 5/253\" acquired}",
 			"",
 			"When an object reaches the 100-year anniversary of its crafting, sometimes it forms an amalgam with a {subtype/kami}, creating a creature known as a tsukumogami. Tsukumogami run the gamut in personality, outlook, and function. Objects that are well kept and cared for often form curious and helpful tsukumogami. Most commonly, tsukumogami are mischievous and frightening but not actually malign. Tsukumogami formed from objects that have been abandoned, neglected, or misused are dangerous both to the humans around and to themselves, as their uncontrolled rage might eventually transform them into {subtype/oni}.",
 			"",
@@ -1185,7 +1185,7 @@
 		"name": "Tulpa",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::th[Tulpa]{cr=+2 sc=\"Bestiary 5/254\" inherited}",
+			"::th[Tulpa]{cr=+2 source=\"Bestiary 5/254\" inherited}",
 			"",
 			"Tulpas are constructed of ideas and imagination. Beings of pure thought (some theorize that they are made of the same mysterious substance as the Astral Plane), tulpas are made physical by a powerful mind that is either psychically attuned or has some amount of latent psychic power.",
 			"",
@@ -1226,7 +1226,7 @@
 		"name": "Unknown",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Unknown]{cr=+2 sc=\"Horror Adventures/244\" acquired}",
+			"::th[Unknown]{cr=+2 source=\"Horror Adventures/244\" acquired}",
 			"",
 			"The unknown are terrifying fey creatures that feed off the mental energies of other creatures. Scholars studying the behavior and organization of the unknown speculate they may have originally been fey creatures that somehow reached the {rule/Dimension of Dreams} and became trapped there, remade by other minds likewise lost in ephemeral dreamscapes. The unknown propagate more of their own kind by eroding humanoids' psyches until the victims transform into new unknown. Unknown typically choose to victimize those who are already relatively helpless, especially children, but when they transform an accomplished adventurer into one of their own, the result can be truly terrifying.",
 			"",
@@ -1277,7 +1277,7 @@
 		"name": "Vahana",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::th[Vahana]{cr=+2 sc=\"Bestiary 5/262\" acquired}",
+			"::th[Vahana]{cr=+2 source=\"Bestiary 5/262\" acquired}",
 			"",
 			"Vahanas are steeds of legend, created by the gods. Deities gift vahanas to faithful servants to help them accomplish great deeds or as rewards for the same. Makaras, elephants with crocodile features, are one of the common types of vahana.",
 			"",
@@ -1312,7 +1312,7 @@
 			"Monster Codex"
 		],
 		"description": [
-			"::th[Vampire]{cr=+2 sc=\"Pathfinder RPG Bestiary/270\" acquired}",
+			"::th[Vampire]{cr=+2 source=\"Pathfinder RPG Bestiary/270\" acquired}",
 			"",
 			"### Creating a Vampire",
 			"",
@@ -1413,7 +1413,7 @@
 		"name": "Vampire Minion, Addle-Minded",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Addle Minded]{cr=+0 sc=\"Monster Codex/236\" acquired simple}",
+			"::th[Addle Minded]{cr=+0 source=\"Monster Codex/236\" acquired simple}",
 			"",
 			"{template/Vampire/s} can change mortals that they frequently come into contact with. This and {template/Repeatedly Drained} are indicative of such phenomena, and are available to creatures associated with or victims of vampires.",
 			"",
@@ -1429,7 +1429,7 @@
 		"name": "Vampire Minion, Repeatedly Drained",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Repeatedly Drained]{cr=-1 sc=\"Monster Codex/236\" acquired simple}",
+			"::th[Repeatedly Drained]{cr=-1 source=\"Monster Codex/236\" acquired simple}",
 			"",
 			"{template/Vampire/s} can change mortals that they frequently come into contact with. This and {template/Addle-Minded} are indicative of such phenomena, and are available to creatures associated with or victims of vampires.",
 			"",
@@ -1447,7 +1447,7 @@
 		"name": "Vampire Spawn",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Vampire Spawn]{cr=+1 sc=\"Monster Codex/244\" acquired}",
+			"::th[Vampire Spawn]{cr=+1 source=\"Monster Codex/244\" acquired}",
 			"",
 			"The following template can be used to create unique vampire spawn with class levels.",
 			"",
@@ -1490,7 +1490,7 @@
 		"name": "Vampiric Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Vampiric Creature]{cr=+1 sc=\"Horror Adventures/250\" acquired simple}",
+			"::th[Vampiric Creature]{cr=+1 source=\"Horror Adventures/250\" acquired simple}",
 			"",
 			"Vampiric creatures have been transformed into vampires, and they don't have to be humanoids. At your discretion, a vampiric creature might have the create spawn ability and could create spawn of its own creature type in addition to humanoid spawn. Non-humanoid vampiric creatures likely have unusual \"coffins\" that befit their nature.",
 			"",
@@ -1503,7 +1503,7 @@
 		"name": "Vetala",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
-			"::th[Vetala]{cr=+2 sc=\"Inner Sea Bestiary/54\" acquired}",
+			"::th[Vetala]{cr=+2 source=\"Inner Sea Bestiary/54\" acquired}",
 			"",
 			"While most of the Inner Sea's {template/vampire/s} lust for living blood, the mysterious vetalas hunger for a more intangible force: the energy that infuses mortal minds. Referred to as consciousness or psyche by some, the academics of Vudra - from where most vetalas hail - call this fundamental vital force prana. Regardless of their desire's name, vetalas prey upon those who show creative promise, possess potent force of will, or seem destined for greatness, draining the most brilliant sources of mortal light to fuel their own unnatural embers. Their dark mastery of life force allows vetalas to possess corpses or even overwhelm the minds of living creatures. With these stolen masks and the resources of abducted lives, they work their foul wills.",
 			"",
@@ -1554,7 +1554,7 @@
 		"name": "Waxwork",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Waxwork]{cr=Varies sc=\"Horror Adventures/246\" inherited}",
+			"::th[Waxwork]{cr=Varies source=\"Horror Adventures/246\" inherited}",
 			"",
 			"The practice of making sculptures from wax dates back to the earliest humanoid civilizations. Only the medium of wax can so closely duplicate the transparency of skin. Often, creators use powerful magic to house an animating spirit within the wax model. A created waxwork creature obeys the commands of its creator. Rarely, a wax sculpture animates of it own accord - the result of nearby magic suffusing the wax or a lost spirit in search of a corporeal form. Such waxwork creatures are uncontrolled.",
 			"",
@@ -1663,7 +1663,7 @@
 		"name": "Winter Fey",
 		"sources": [ "Pathfinder #68: The Shackled Hut" ],
 		"description": [
-			"::th[Winter Fey]{cr=+1 sc=\"Pathfinder #68: The Shackled Hut/91\" inherited}",
+			"::th[Winter Fey]{cr=+1 source=\"Pathfinder #68: The Shackled Hut/91\" inherited}",
 			"",
 			"\"Winter fey\" is an inherited template that can be added to any {type/fey} creature without the fire subtype, referred to hereafter as the base creature. A winter fey uses all the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -1700,7 +1700,7 @@
 		"name": "Winter-Touched Fey",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
 		"description": [
-			"::th[Winter-Touched Fey]{cr=+0 sc=\"Pathfinder #67: The Snows of Summer/72\" acquired simple}",
+			"::th[Winter-Touched Fey]{cr=+0 source=\"Pathfinder #67: The Snows of Summer/72\" acquired simple}",
 			"",
 			"Chief among the allies of {monster/Baba Yaga} and the White Witches of Irrisen are the winter-touched, a special breed of fey immune to the harsh weather and low temperatures of the frozen north. Willingly pledging themselves to a wholly evil life, these creatures undergo a complex ritual called the Winter Rite, in which they accept a sliver of ice into their hearts that infuses their bodies with the same supernatural winter perpetuated by the White Witches of Irrisen. The resulting transformation gives the fey's skin a sickly bluish cast marked with spidery white veins like hoarfrost on glass. These evil fey can channel the power of winter into their attacks, slowing their victims with numbing cold. The winter-touched universally delight in spreading the influence of the White Witches, carrying out the wills of the witches who performed their Winter Rites. The winter-touched display a chilling loyalty that borders on fanaticism - a devotion all but guaranteed given the White Witches' ability to fatally pierce the hearts of those who fail them with the same slivers of ice the fey so willingly accepted.",
 			"",
@@ -1715,7 +1715,7 @@
 		"name": "Wizard",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Wizard]{cr=\"+1 +2 or +3\" sc=\"Monster Codex/249\" acquired simple}",
+			"::th[Wizard]{cr=\"+1 +2 or +3\" source=\"Monster Codex/249\" acquired simple}",
 			"",
 			"A wizard creature is skilled in the ways of arcane magic, and its spellcasting ability is unmatched. Beyond casting damaging spells, a wizard creature can call upon mighty forces to serve the will of the creature and its allies. Select a {class/wizard} creature's {ability/arcane school>s} when the template is added. A wizard creature's CR increases by 2 if the creature has 7 or more HD, and it increases by 3 if the creature has 13 or more HD.",
 			"",
@@ -1745,7 +1745,7 @@
 			"Pathfinder #75: Demon's Heresy"
 		],
 		"description": [
-			"::th[Worm that Walks]{cr=+2 sc=\"Bestiary 2/286\" acquired}",
+			"::th[Worm that Walks]{cr=+2 source=\"Bestiary 2/286\" acquired}",
 			"",
 			"When a powerful spellcaster with a strong personality, a lust for life, and a remorselessly evil soul dies and is buried in a graveyard infused with eldritch magic, a strange phenomenon sometimes occurs. The flesh of the decaying body fats and instructs the very worms that gnaw, and these graveworms quicken not only on corruption but upon the spellcaster's memories and magical power. The spellcaster's very soul is consumed in this vile process, only to be split apart to inhabit each of the individual chewing worms in so many fragments. The result is a hideous hive mind of slithering life known as a worm that walks - a mass of worms that clings to the vague shape of the body that granted it this new existence, and can wield the powers and magic the spellcaster had in life. A worm that walks retains memories of its life as a spellcaster before its death, but is not undead - it is a hideous new form of undulant life.",
 			"",
@@ -1819,7 +1819,7 @@
 		"name": "Young",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::th[Young]{cr=-1 sc=\"Pathfinder RPG Bestiary/295\" acquired simple}",
+			"::th[Young]{cr=-1 source=\"Pathfinder RPG Bestiary/295\" acquired simple}",
 			"",
 			"Creatures with the young template are immature specimens of the base creature. You can also use this simple template to easily create a smaller variant of a monster. This template cannot be applied to creatures that increase in power through aging or feeding (such as {family/dragon/s} or {monster/barghest/s}) or creatures that are Fine-sized.",
 			"",
@@ -1836,7 +1836,7 @@
 			"Classic Horrors Revisited"
 		],
 		"description": [
-			"::th[Zombie]{cr=Varies sc=\"Pathfinder RPG Bestiary/288\" acquired}",
+			"::th[Zombie]{cr=Varies source=\"Pathfinder RPG Bestiary/288\" acquired}",
 			"",
 			"Zombies are the animated corpses of dead creatures, forced into foul unlife via necromantic magic like {spell/animate dead}. While the most commonly encountered zombies are slow and tough, others possess a variety of traits, allowing them to spread disease or move with increased speed.",
 			"",
@@ -2000,7 +2000,7 @@
 		"name": "Zombie Lord",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::th[Zombie Lord]{cr=+1 sc=\"Bestiary 4/286\" acquired}",
+			"::th[Zombie Lord]{cr=+1 source=\"Bestiary 4/286\" acquired}",
 			"",
 			"Zombie lords are the fleshy counterparts of skeletal champions: intelligent, cunning, and envious of creatures whose bodies aren't rotting away. Despite their decaying flesh, they are not slow like common zombies, and can easily pursue fleeing prey. Zombie lords are more powerful than common zombies and retain their class levels.",
 			"",

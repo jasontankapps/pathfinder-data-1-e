@@ -3,7 +3,7 @@
 		"name": "Fiend-Infused",
 		"sources": [ "Cheliax, the Infernal Empire" ],
 		"description": [
-			"::th[Fiend-Infused]{cr=+2 sc=\"Cheliax, the Infernal Empire/61\" inherited}",
+			"::th[Fiend-Infused]{cr=+2 source=\"Cheliax, the Infernal Empire/61\" inherited}",
 			"",
 			"Although most golems are animated by the spirits of elementals, certain reckless or daring golem crafters instead bind evil outsiders such as {family/daemon/s}, {family/demon/s}, and {family/devil/s} to power golems. This fiend does not inhabit or control the {family/golem} in the usual manner of fiendish possession; instead, the outsider is subjugated within the golem to act as a mere engine. Although a fiend-infused golem has more self-awareness and cunning than a typical golem, it possesses only a brute, primitive intellect, lacking the animating fiend's personality beyond a base desire to destroy goodness. The fiend's rage at being imprisoned in such a manner manifests as ever-burning hellfire, which the fiend-infused golem uses as a weapon against its foes.",
 			"",
@@ -46,7 +46,7 @@
 		"name": "Fiendish",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::th[Fiendish]{cr=\"+0 or +1\" sc=\"Pathfinder RPG Bestiary/294\" acquired simple summonable}",
+			"::th[Fiendish]{cr=\"+0 or +1\" source=\"Pathfinder RPG Bestiary/294\" acquired simple summonable}",
 			"",
 			"Creatures with the fiendish template live in the Lower Planes, such as {rule/the Abyss} and {rule/Hell}, but can be summoned using spells such as {spell/summon monster} and {spell/planar ally}. A fiendish creature's CR increases by +1 only if the base creature has 5 or more HD. A fiendish creature's quick and rebuild rules are the same.",
 			"",
@@ -65,7 +65,7 @@
 		"name": "Fiery",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"::th[Fiery]{cr=\"+0 or +1\" sc=\"Monster Summoner's Handbook/19\" acquired simple maybesummon}",
+			"::th[Fiery]{cr=\"+0 or +1\" source=\"Monster Summoner's Handbook/19\" acquired simple maybesummon}",
 			"",
 			"Applying this template to a summoned creature requires the feat {feat/Versatile Summon Monster} or {feat/Versatile Summon Nature's Ally}.",
 			"",
@@ -84,7 +84,7 @@
 		"name": "Fighter",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Fighter]{cr=\"+1 or +2\" sc=\"Monster Codex/247\" acquired simple}",
+			"::th[Fighter]{cr=\"+1 or +2\" source=\"Monster Codex/247\" acquired simple}",
 			"",
 			"A {class/fighter} creature gains bonus {main/feats_<combat/ feats}, and both armor and weapon training. A fighter creature's CR increases by 2 if the creature has 10 or more HD.",
 			"",
@@ -97,7 +97,7 @@
 		"name": "First World Creature",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
-			"::th[First World Creature]{cr=\"+0 or +1\" sc=\"The First World, Realm of the Fey/57\" inherited simple summonable}",
+			"::th[First World Creature]{cr=\"+0 or +1\" source=\"The First World, Realm of the Fey/57\" inherited simple summonable}",
 			"",
 			"Creatures with the First World template live on the First World, and can be summoned using spells such as {spell/summon monster}, {spell/summon nature's ally}, and {spell/planar ally}. A First World creature's CR increases by 1 only if the base creature has 5 or more HIt Dice. A First World creature's quick and rebuild rules are the same.",
 			"",
@@ -116,7 +116,7 @@
 		"name": "Fleshwarped Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Fleshwarped Creature]{cr=+1 sc=\"Horror Adventures/250\" acquired simple}",
+			"::th[Fleshwarped Creature]{cr=+1 source=\"Horror Adventures/250\" acquired simple}",
 			"",
 			"These creatures are twisted by {rule/fleshwarping}, grants horrific abilities by perverting creatures' original forms. This template can be applied only to corporeal living creatures.",
 			"",
@@ -129,7 +129,7 @@
 		"name": "Floodslain",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
-			"::th[Floodslain]{cr=+1 sc=\"Belkzen, Hold of the Orc Hordes/61\" acquired}",
+			"::th[Floodslain]{cr=+1 source=\"Belkzen, Hold of the Orc Hordes/61\" acquired}",
 			"",
 			"Collectively known as \"the after-storm\" by Belkzen natives, floodslain are victims of flash floods that have risen as undead. They're creatures of panic and despair, driven by anger, fear, and a yearning to drag others into the waters. Long after the floodwaters recede, floodslain continue spreading the miserable death that claimed them.",
 			"",
@@ -178,7 +178,7 @@
 		"name": "Foo Creature",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::th[Foo Creature]{cr=+1 sc=\"Bestiary 3/120\" inherited}",
+			"::th[Foo Creature]{cr=+1 source=\"Bestiary 3/120\" inherited}",
 			"",
 			"Foo creatures are benevolent guardian spirits that hail originally from the Outer Plane of {rule/Nirvana}, where they spend their days cavorting in the idyllic wilds or aiding that realm's inhabitants, particularly the {family/agathion/s}, in their work. Yet while they come from Nirvana, foo creatures are often encountered on the Material Plane as well, for they are favorite conjurations of many cultures and religions.",
 			"",
@@ -242,7 +242,7 @@
 		"name": "Frostfallen Creature",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"description": [
-			"::th[Frostfallen Creature]{cr=+1 sc=\"Pathfinder #51: The Hungry Storm/84\" acquired}",
+			"::th[Frostfallen Creature]{cr=+1 source=\"Pathfinder #51: The Hungry Storm/84\" acquired}",
 			"",
 			"Frostfallen creatures are mindless undead infused with icy cold and animated by a hatred for all living things. Their bodies radiate a devastating chill that cloaks them in patches of ice that act as armor. Frostfallen creatures appear otherwise as they did at the time of their reanimation, except for a cold gleam in the eyes.",
 			"",
@@ -308,7 +308,7 @@
 		"name": "Fungal Creature",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::th[Fungal Creature]{cr=+1 sc=\"Bestiary 4/116\" inherited}",
+			"::th[Fungal Creature]{cr=+1 source=\"Bestiary 4/116\" inherited}",
 			"",
 			"A fungal creature is an animate plant with the appearance of a living creature. It grows from spores implanted in the dead body of a host creature, and takes on the host creature's basic form and many of that creature's abilities. It retains none of the memories of the creature it grew from, yet it instinctively knows how to use the abilities it inherited from its host. How exactly this is possible is a question that continues to befuddle scholars. The leading theory is that the spores' precise modeling of their host succeeds in capturing some of the creature's physiology - essentially copying its mind - but that for some reason the departure of the creature's spirit or soul upon death prevents the spores from copying the memories as well.",
 			"",
@@ -365,7 +365,7 @@
 		"name": "Fungoid",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"::th[Fungoid]{cr=+1 sc=\"Bestiary 6/131\" acquired simple}",
+			"::th[Fungoid]{cr=+1 source=\"Bestiary 6/131\" acquired simple}",
 			"",
 			"Creatures with the fungoid simple template appear as they did in life, save that their flesh is pallid and moist and mushrooms and mold cake their bodies. This template can be applied to any living, non-plant creature. A fungoid creature's quick and rebuild rules are the same.",
 			"",
@@ -378,7 +378,7 @@
 		"name": "Gallowdead",
 		"sources": [ "Dungeons of Golarion" ],
 		"description": [
-			"::th[Gallowdead]{cr=Varies sc=\"Dungeons of Golarion/21\" acquired}",
+			"::th[Gallowdead]{cr=Varies source=\"Dungeons of Golarion/21\" acquired}",
 			"",
 			"Although nearly every variety of undead can be found within Gallowspire, a number of unique creatures, such as the gallowdead, can be found here as well. These undead are made from the corpses of those left to hang and rot on the tower's outer walls. Their proximity to {monster/the Whispering Tyrant} and his incomprehensible power grants foul unlife and eldritch power. Similar in appearance to ordinary {template/skeleton/s}, gallowdead are marked by the large hook that pierces the chest of each, attached to a long chain that drags behind. These undead creatures can be found wandering both outside the dungeon and within, totally subservient to the Whispering Tyrant's foul will.",
 			"",
@@ -419,7 +419,7 @@
 			"Classic Horrors Revisited"
 		],
 		"description": [
-			"::th[Ghost]{cr=+2 sc=\"Pathfinder RPG Bestiary/144\" acquired}",
+			"::th[Ghost]{cr=+2 source=\"Pathfinder RPG Bestiary/144\" acquired}",
 			"",
 			"\"Ghost\" is an acquired template that can be added to any living creature that has a Charisma score of at least 6. A ghost retains all the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -483,7 +483,7 @@
 		"name": "Ghoulish Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Ghoulish Creature]{cr=+1 sc=\"Horror Adventures/248\" acquired simple}",
+			"::th[Ghoulish Creature]{cr=+1 source=\"Horror Adventures/248\" acquired simple}",
 			"",
 			"Ghoulish creatures have succumbed to {disease/ghoul fever} and transformed into cannibalistic undead versions of their previous selves.",
 			"",
@@ -496,7 +496,7 @@
 		"name": "Giant",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::th[Giant]{cr=+1 sc=\"Pathfinder RPG Bestiary/295\" acquired simple}",
+			"::th[Giant]{cr=+1 source=\"Pathfinder RPG Bestiary/295\" acquired simple}",
 			"",
 			"Creatures with the giant template are larger and stronger than their normal-sized kin. This template cannot be applied to creatures that are Colossal.",
 			"",
@@ -509,7 +509,7 @@
 		"name": "Giantkin Ogre",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Giantkin Ogre]{cr=+1 sc=\"Monster Codex/152\" inherited simple}",
+			"::th[Giantkin Ogre]{cr=+1 source=\"Monster Codex/152\" inherited simple}",
 			"",
 			"{monster/Ogre/s} sometimes interbreed with other giants. The result of such crossbreeding is a giantkin ogre, which gains some abilities from its non-ogre parents. In areas where ogre clans live near large populations of giants, interbreeding can be so common that entire ogre clans consist solely of giantkin.",
 			"",
@@ -531,7 +531,7 @@
 		"name": "Gnarled Creature",
 		"sources": [ "The Witchwar Legacy" ],
 		"description": [
-			"::th[Gnarled Creature]{cr=+1 sc=\"The Witchwar Legacy/28\" acquired simple}",
+			"::th[Gnarled Creature]{cr=+1 source=\"The Witchwar Legacy/28\" acquired simple}",
 			"",
 			"Creatures who have been \"blessed\" with the demon lord {monster/Kostchtchie/'s} attention may acquire this template, which leaves them hunched and knotted with corded muscles and awkwardly formed limbs. Though slower and clumsier than their fellows, gnarled creatures are much stronger and hardier and have thick, horny skin. \"Gnarled\" is an acquired template that can be applied to any creature of the animal, dragon, fey, humanoid, magical beast, monstrous humanoid, outsider, undead, or vermin type.",
 			"",
@@ -544,7 +544,7 @@
 		"name": "Granule Construct Host",
 		"sources": [ "Seven Swords of Sin" ],
 		"description": [
-			"::th[Granule Construct Host]{cr=+0 sc=\"Seven Swords of Sin/31\" acquired}",
+			"::th[Granule Construct Host]{cr=+0 source=\"Seven Swords of Sin/31\" acquired}",
 			"",
 			"Granule construct swarms are the product of powerful artificers pushing the boundaries of their craft. Alone, each individual is a barely sentient construct so tiny as to be practically invisible, a speck of dust that moves under its own power. Brought together by the thousands into a swarm, however, the complex linking of simple systems creates an emergent consciousness of human-like intelligence, although alien enough to make communication nearly impossible. Granule construct swarms exist solely to infest larger living organisms and reproduce in the relative safety and comfort provided by their bodies. Capable of repairing and replicating out of the raw elements around them, granule constructs within a host are almost unstoppable through physical means, burrowing their way into flesh and sending signals through the bloodstream. Once safely ensconced, granule construct swarms modify their hosts to maximize survival potential, a trait that leads certain people to intentionally cultivate granule construct swarms inside themselves, despite the resulting deformities. Energy damage to a host damages the granule construct swarm equally, but normal weapon damage does not. Granule constructs can vacate dead or dying creatures whenever they so choose, emerging as a standard {subtype/swarm}.",
 			"",
@@ -598,7 +598,7 @@
 			"Undead Revisited"
 		],
 		"description": [
-			"::th[Graveknight]{cr=+2 sc=\"Bestiary 3/138\" acquired}",
+			"::th[Graveknight]{cr=+2 source=\"Bestiary 3/138\" acquired}",
 			"",
 			"Undying tyrants and eternal champions of the undead, graveknights arise from the corpses of the most nefarious warlords and disgraced heroes - villains too merciless to submit to the shackles of death. They bear the same weapons and regalia they did in life, though warped or empowered by their profane resurrection. The legions they once held also flock to them in death, ready to serve their wicked ambitions once more. A graveknight's essence is fundamentally tied to its armor, the bloodstained trappings of its battle lust. This armor becomes an icon of its perverse natures, transforming into a monstrous second skin over the husk of desiccated flesh and scarred bone locked within.",
 			"",
@@ -670,7 +670,7 @@
 		"name": "Guardian Spirit",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"::th[Guardian Spirit]{cr=Varies sc=\"Monster Summoner's Handbook/26\" acquired}",
+			"::th[Guardian Spirit]{cr=Varies source=\"Monster Summoner's Handbook/26\" acquired}",
 			"",
 			"A guardian spirit is bound to the fate of a mortal being (called its \"ward\"). This bond may be formed by any number of beings or events carrying the weight of destiny, such as deities, {rule/the Eldest}, {monster/norn/s}, and mythic creatures and magic. A spirit can bind itself willingly if it believes that doing so is likely to further its agenda, give it more power, or allow it access to the world of mortals. Mortals can generally invoke a guardian spirit only with {spelldef/summoning} and {spelldef/calling} spells.",
 			"",
@@ -723,7 +723,7 @@
 		"name": "Half-Celestial",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::th[Half-Celestial]{cr=\"+1 to +3\" sc=\"Pathfinder RPG Bestiary/169\" acquired inherited}",
+			"::th[Half-Celestial]{cr=\"+1 to +3\" source=\"Pathfinder RPG Bestiary/169\" acquired inherited}",
 			"",
 			"Most half-celestials are born of a mortal who loved a good outsider, but powerful holy magic can also create one.",
 			"",
@@ -769,7 +769,7 @@
 		"name": "Half-Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::th[Half-Dragon]{cr=+2 sc=\"Pathfinder RPG Bestiary/170\" acquired inherited}",
+			"::th[Half-Dragon]{cr=+2 source=\"Pathfinder RPG Bestiary/170\" acquired inherited}",
 			"",
 			"Half-dragons are only rarely the result of dragons mating with other creatures - most are the result of strange magical experiments. In most cases, a successful creation breeds true with others of its kind, as with the dreaded dracolisk ({monster/basilisk} with the {template/half-dragon/ template} [black dragon]).",
 			"",
@@ -810,7 +810,7 @@
 			"Demons Revisited"
 		],
 		"description": [
-			"::th[Half-Fiend]{cr=\"+1 to +3\" sc=\"Pathfinder RPG Bestiary/171\" acquired inherited}",
+			"::th[Half-Fiend]{cr=\"+1 to +3\" source=\"Pathfinder RPG Bestiary/171\" acquired inherited}",
 			"",
 			"Half-fiends are creatures heavily tainted with demonic, infernal, or other evil power.",
 			"",
@@ -1011,7 +1011,7 @@
 		"name": "Half-Janni",
 		"sources": [ "Qadira, Gateway to the East" ],
 		"description": [
-			"::th[Half-Janni]{cr=+2 sc=\"Qadira, Gateway to the East/27\" acquired}",
+			"::th[Half-Janni]{cr=+2 source=\"Qadira, Gateway to the East/27\" acquired}",
 			"",
 			"Jann are the kind of genie closest to humans in interests and temperament, and are drawn to mingle with mortals. Sometimes these associations result in the birth of half-janni children. Beautiful and exotic, the elemental power that resides in these half-jann mixes with the unique potential of the human parent, sometimes rivaling or even exceeding that of their genie parent.",
 			"",
@@ -1068,7 +1068,7 @@
 		"name": "Half-Ogre",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
-			"::th[Half-Ogre]{cr=\"+0 or -1\" sc=\"Inner Sea Monster Codex/47\" inherited}",
+			"::th[Half-Ogre]{cr=\"+0 or -1\" source=\"Inner Sea Monster Codex/47\" inherited}",
 			"",
 			"While most ogrekin are the result of an ogre mating with a Medium humanoid, some ogres breed with other giants, especially {monster/ash giant/s}, {monster/hill giant/s}, {monster/marsh giant/s}, and {monster/troll/s}. Offspring of such a union are referred to as half-ogres, and are generally outcasts from both societies. Such ogrekin are typically weaker than their pure-blooded giant kin, inheriting more of the ogre parent's defects than the giant parent's advantages, and still suffer from beneficial and disadvantageous deformities, the result of the inherent corruption in the ogre parent's limited gene pool.",
 			"",
@@ -1093,7 +1093,7 @@
 		"name": "Haunted Construct",
 		"sources": [ "Construct Handbook" ],
 		"description": [
-			"::th[Haunted Construct]{cr=+1 sc=\"Construct Handbook/48\" acquired}",
+			"::th[Haunted Construct]{cr=+1 source=\"Construct Handbook/48\" acquired}",
 			"",
 			"On the border between Xa Hoi and Nagajor, near the caldera of Mount Kumijinja, a cave system leads deep into the Darklands. The locals call it the Clicking Caverns, for scouts report seeing strange clockwork warriors creeping out of the caves at night in search of living creatures. Deep beneath those caves is the clockwork necropolis of Pan Majang, a constantly transforming edifice that houses the sadistic, flesh-eating spirits of a forgotten race. These spirits now possess and haunt the constructs they once used as slaves.",
 			"",
@@ -1138,7 +1138,7 @@
 		"name": "Haunted One",
 		"sources": [ "Rival Guide" ],
 		"description": [
-			"::th[Haunted One]{cr=+1 sc=\"Rival Guide/29\" acquired}",
+			"::th[Haunted One]{cr=+1 source=\"Rival Guide/29\" acquired}",
 			"",
 			"Haunted ones are mortals who share their bodies with strange intelligences of supernatural origin. While technically undead, these disembodied intellects exist only as thought - they cannot directly interact with the world until they find a host willing to share both body and mind.",
 			"",
@@ -1183,7 +1183,7 @@
 		"name": "Hell Engine",
 		"sources": [ "Construct Handbook" ],
 		"description": [
-			"::th[Hell Engine]{cr=+1 sc=\"Construct Handbook/51\" acquired}",
+			"::th[Hell Engine]{cr=+1 source=\"Construct Handbook/51\" acquired}",
 			"",
 			"A hell engine is a construct fueled by an infernal contract, bypassing the complex magic and craftsmanship needed to animate a golem or similar engine of destruction. Artificers who lack the skill or magical aptitude to {feat/Craft Construct/s} on their own may be tempted to use the power of Hell to make up for their shortcomings, surrendering their souls for the chance to see their masterpieces brought to horrifying life.",
 			"",
@@ -1240,7 +1240,7 @@
 			"Bestiary 4"
 		],
 		"description": [
-			"::th[Hellbound Creature]{cr=+1 sc=\"Horror Adventures/248\" acquired simple}",
+			"::th[Hellbound Creature]{cr=+1 source=\"Horror Adventures/248\" acquired simple}",
 			"",
 			">*This template is a simple version of the {template/devilbound} template.*",
 			"",
@@ -1277,7 +1277,7 @@
 		"name": "Hive Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Hive Creature]{cr=+1 sc=\"Horror Adventures/249\" acquired simple}",
+			"::th[Hive Creature]{cr=+1 source=\"Horror Adventures/249\" acquired simple}",
 			"",
 			"While a creature infested by a {corruption/hive/ corruption} usually becomes a warrior, mutations can create hive creatures that retain the capabilities of the original creatures.",
 			"",
@@ -1292,7 +1292,7 @@
 		"name": "Hivemind Swarm",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"::th[Hivemind Swarm]{cr=Varies sc=\"Bestiary 6/156\" acquired}",
+			"::th[Hivemind Swarm]{cr=Varies source=\"Bestiary 6/156\" acquired}",
 			"",
 			"A hivemind consists of a swarm of smaller creatures whose individual minds have supernaturally bonded into one to become a single, collective intelligence. Hiveminds often occur in swarms that have existed for generations and that have dwelled in areas of potent magical influence, particularly areas of strong psychic magic. Over time, the swarm learns to work together in more intelligent ways to achieve its goals, and it eventually evolves a cohesive mind. Of course, this evolution can be hastened by direct intervention of potent magic (typically something on the level of a {spell/miracle} or {spell/wish}), or as an unintended side effect of esoteric rituals, the use or destruction of artifacts, or the deaths of powerful minds.",
 			"",
@@ -1341,7 +1341,7 @@
 		"name": "Id Mutant",
 		"sources": [ "Doom Comes to Dustpawn" ],
 		"description": [
-			"::th[Id Mutant]{cr=+1 sc=\"Doom Comes to Dustpawn/29\" acquired}",
+			"::th[Id Mutant]{cr=+1 source=\"Doom Comes to Dustpawn/29\" acquired}",
 			"",
 			"Scholars of the mind have many names for the part of the psyche that controls unconscious and animalistic urges - be it the primal brain, instinct, or simply the id. Some scholars believe that, were this underlying mind to seize control, a normally mild-mannered person would revert to a savage, bestial state; some even theorize that when a {class/barbarian} enters a rage, he is in fact tapping into the id to empower his wrath. But what would happen if powerful magic were to act upon the id and make it transform not only a person's mind, but his physical being as well? One such method by which this can occur is via the {curse/curse of bestial dreams}, an affliction that arises when the wishcraft of a {monster/vespergaunt} interacts with powerful magical crystals infused with mortal dreams and memories - an affliction that, in time, transforms its victims into a deformed and bestial creature known as an id mutant.",
 			"",
@@ -1398,7 +1398,7 @@
 		"name": "Implacable Stalker",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Implacable Stalker]{cr=+2 sc=\"Horror Adventures/238\" acquired}",
+			"::th[Implacable Stalker]{cr=+2 source=\"Horror Adventures/238\" acquired}",
 			"",
 			"Implacable stalkers embody murderous predation. They not only revel in hunting down and killing their victims in gory, brutal fashion, but they draw supernatural strength and power from their victims' fear and terror. They look similar to other creatures of their kind, but are often covered in gruesome scars and exude an aura of menace.",
 			"",
@@ -1445,7 +1445,7 @@
 		"name": "Jiang-Shi",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::th[Jiang-Shi]{cr=+2 sc=\"Bestiary 3/278\" acquired}",
+			"::th[Jiang-Shi]{cr=+2 source=\"Bestiary 3/278\" acquired}",
 			"",
 			"Jiang-shis (often known as \"hopping {template/vampire/s}\") are undead humanoid creatures that feed on the exhaled life energy of the living. A jiang-shi's appearance is based on the state of the creature's corpse at the time of its reanimation. Regardless of the state of decay, most jiang-shis wear clothing or armor that is at least one generation out of style. Additionally, each has a short parchment prayer scroll affixed to its brow by stitches; originally intended to protect the body from restless spirits, this scroll grants a jiang-shi immunity to magical effects unleashed by items like scrolls and wands.",
 			"",
@@ -1497,7 +1497,7 @@
 			"Pathfinder #71: Rasputin Must Die!"
 		],
 		"description": [
-			"::th[JuJu Zombie]{cr=+1 sc=\"Bestiary 2/291\" acquired}",
+			"::th[JuJu Zombie]{cr=+1 source=\"Bestiary 2/291\" acquired}",
 			"",
 			"A juju zombie is an animated corpse of a creature, created to serve as an undead minion, that retains the skills and abilities it possessed in life.",
 			"",
@@ -1537,7 +1537,7 @@
 		"name": "Kanabo",
 		"sources": [ "Distant Shores" ],
 		"description": [
-			"::th[Kanabo]{cr=\"+0 or +1\" sc=\"Distant Shores/32\" inherited}",
+			"::th[Kanabo]{cr=\"+0 or +1\" source=\"Distant Shores/32\" inherited}",
 			"",
 			"Within Kaoling, those {family/oni} that take the form of {monster/hobgoblin/s} - known as ja noi - are treated as honored champions. While ja noi have an overwhelming need to engage in regular battle and command troops, and can be dangerous if too much time passes between fights, this drive is easily met by Kaoling's regular military operations, and most hobgoblin soldiers are only too willing to fight at a ja noi's command. While other oni are respected for their size and strength, they are generally treated as valued allies rather than members of Kaoling society. Ja noi, by contrast, are embraced as revered cousins, and closely integrated into Kaoling communities.",
 			"",
@@ -1576,7 +1576,7 @@
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"::th[Lich]{cr=+2 sc=\"Pathfinder RPG Bestiary/188\" acquired}",
+			"::th[Lich]{cr=+2 source=\"Pathfinder RPG Bestiary/188\" acquired}",
 			"",
 			"\"Lich\" is an acquired template that can be added to any living creature (referred to hereafter as the base creature), provided it can create the required phylactery. A lich retains all the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -1635,7 +1635,7 @@
 		"name": "Lich Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Lich Creature]{cr=+1 sc=\"Horror Adventures/249\" acquired simple}",
+			"::th[Lich Creature]{cr=+1 source=\"Horror Adventures/249\" acquired simple}",
 			"",
 			"While it might not have followed the traditional path to lichdom, which requires a strong aptitude for magic, a lich creature's connection to an object allows it to survive as an undead indefinitely, returning each time its foes destroy it unless they can destroy the lich creature's phylactery.",
 			"",

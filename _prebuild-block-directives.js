@@ -162,12 +162,12 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return `${maybeClear}<p className="statblockSubHeader">${text}</p>\n`;
 			} else if (n === "th") {
 				// Template Header
-				churn(n, attrs, ["clear", "cr", "sc", "acquired", "inherited", "simple", "summonable", "maybesummon"], logError);
-				const {cr, sc, acquired, inherited, simple, summonable, maybesummon} = attrs;
+				churn(n, attrs, ["clear", "cr", "source", "acquired", "inherited", "simple", "summonable", "maybesummon"], logError);
+				const {cr, source, acquired, inherited, simple, summonable, maybesummon} = attrs;
 				const head = `<div style={{clear:"both"}}></div><p className="statblockHeaderFull">`
 					+ `<span>${text}</span><span>CR ${cr}</span></p>\n`;
 				const marked2 = makeNewMarkedInstance();
-				const sourcing = marked2.parseInline(parseSOURCE(sc, true));
+				const sourcing = marked2.parseInline(parseSOURCE(source, true));
 				const typing = acquired && inherited ? "Both" : acquired ? "Acquired" : "Inherited";
 				const simp = simple ? "Yes" : "No";
 				const summons = summonable ? "Yes" : (maybesummon ? "See Text" : "No");

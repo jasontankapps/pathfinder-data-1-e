@@ -11,7 +11,7 @@
 		"name": "Accursed",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Accursed]{cr=+1 sc=\"Horror Adventures/248\" acquired simple}",
+			"::th[Accursed]{cr=+1 source=\"Horror Adventures/248\" acquired simple}",
 			"",
 			"An accursed creature suffers under a powerful curse and can spread a spiteful curse of its own to others. Choose a thematic curse that you can convey to the players, but don't change the creature's statistics. You can use the sample curses as inspiration.",
 			"",
@@ -24,7 +24,7 @@
 		"name": "Advanced",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::th[Advanced]{cr=+1 sc=\"Pathfinder RPG Bestiary/294\" acquired simple}",
+			"::th[Advanced]{cr=+1 source=\"Pathfinder RPG Bestiary/294\" acquired simple}",
 			"",
 			"Creatures with the advanced template are fiercer and more powerful than their ordinary cousins.",
 			"",
@@ -37,7 +37,7 @@
 		"name": "Aerial",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"::th[Aerial]{cr=\"+0 or +1\" sc=\"Monster Summoner's Handbook/18\" acquired simple maybesummon}",
+			"::th[Aerial]{cr=\"+0 or +1\" source=\"Monster Summoner's Handbook/18\" acquired simple maybesummon}",
 			"",
 			"Applying this template to a summoned creature requires the feat {feat/Versatile Summon Monster} or {feat/Versatile Summon Nature's Ally}.",
 			"",
@@ -56,7 +56,7 @@
 		"name": "Aggregate",
 		"sources": [ "Technology Guide" ],
 		"description": [
-			"::th[Aggregate]{cr=+1 sc=\"Technology Guide/59\" acquired}",
+			"::th[Aggregate]{cr=+1 source=\"Technology Guide/59\" acquired}",
 			"",
 			"\"Aggregate\" is an acquired template that can be added to any {subtype/robot} (referred to hereafter as the base robot), that gains some of the characteristics of an AI installed in it (referred to hereafter as the base AI). The base robot must have the storage capacity to house the base AI (subject to the GM's discretion). An aggregate retains all the base robot's statistics and special abilities except as noted here. The base AI is not damaged by the destruction of the aggregate, unless the AI is wholly contained within the aggregate's processors (in which case the destruction of the aggregate also destroys the base AI).",
 			"",
@@ -89,7 +89,7 @@
 		"name": "Alchemically Invisible",
 		"sources": [ "Rival Guide" ],
 		"description": [
-			"::th[Alchemically Invisible]{cr=+2 sc=\"Rival Guide/47\" acquired simple}",
+			"::th[Alchemically Invisible]{cr=+2 source=\"Rival Guide/47\" acquired simple}",
 			"",
 			"A creature that is alchemically invisible also suffers from bouts of madness as a result of its condition.",
 			"",
@@ -100,7 +100,7 @@
 		"name": "Alebrije",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"description": [
-			"::th[Alebrije]{cr=+2 sc=\"Pathfinder #144: Midwives to Death/71\" acquired}",
+			"::th[Alebrije]{cr=+2 source=\"Pathfinder #144: Midwives to Death/71\" acquired}",
 			"",
 			"Alebrijes travel through dreams, visiting creatures as they sleep in hopes of answering questions, jogging memories, or providing inspiration. Alebrijes can take the shape of any animal or magical beast found throughout the Material Plane, though they have unique colorations and patterns all over their bodies, and some grow wings. These colorations typically include bright, vibrant hues and decorative patterns like spirals and stripes.",
 			"",
@@ -139,7 +139,7 @@
 		"name": "Alter Ego",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"::th[Alter Ego]{cr=+0 sc=\"Bestiary 6/9\" acquired}",
+			"::th[Alter Ego]{cr=+0 source=\"Bestiary 6/9\" acquired}",
 			"",
 			"An alter ego arises when a sliver of a creature's personality breaks free and coalesces into an independent being. An alter ego is almost always formed by accident rather than by design, and usually comes into being during a moment of trauma, disorientation, or sudden incapacitation. In many cases, the progenitor isn't aware that the alter ego was created, particularly if the new creature hides or flees rather than confronting its progenitor immediately.",
 			"",
@@ -192,7 +192,7 @@
 		"name": "Animal Lord",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::th[Animal Lord]{cr=+2 sc=\"Bestiary 3/14\" inherited}",
+			"::th[Animal Lord]{cr=+2 source=\"Bestiary 3/14\" inherited}",
 			"",
 			"When the gods of nature or powerful spirits desire a champion to defend the animal world, they invest a token of their power in a chosen vessel - be it animal or humanoid. Traditionally, only one animal lord for a specific animal species is active on a world at any one time, although sometimes, when an extant animal lord strays from its charge or otherwise fails, the force that created it might create a replacement to send against the fallen animal lord to challenge it in a combat to the death, with the victor claiming the right to rule or a chance at redemption.",
 			"",
@@ -275,7 +275,7 @@
 		"name": "Animus Shade",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"::th[Animus Shade]{cr=+2 sc=\"Bestiary 6/11\" acquired}",
+			"::th[Animus Shade]{cr=+2 source=\"Bestiary 6/11\" acquired}",
 			"",
 			"The typical intelligent mind exists as a war of aspects - primitive survival urges and base wants opposing intellectual reason and high-minded goals. Some of these aspects dominate the mind, defining a creature's personality, while others are shackled away. Sometimes psychic injuries can loosen these shackles, revealing aspects a creature would normally control and suppress. When a creature dies from a psychic injury, its conscious mind may shear away, leaving only those subconscious aspects - the creature's animus - behind. Called animus shades, these spectral undead are gripped with feral rage and lash out at the living. Individuals who engage in psychic combat are particularly prone to succumbing to this form of undeath, and their shades sometimes seek out their former opponents, not content until their one-time adversaries are slain.",
 			"",
@@ -328,7 +328,7 @@
 		"name": "Apostle Kyton",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Apostle Kyton]{cr=+2 sc=\"Horror Adventures/240\" acquired}",
+			"::th[Apostle Kyton]{cr=+2 source=\"Horror Adventures/240\" acquired}",
 			"",
 			"Not all victims of a {family/kyton/'s} torturous transformations perish from their captors' exacting ministrations. Some creatures are transfigured into hybrids of their past selves and the dark malevolence of the kytons. These apostle kytons vary from being degenerate and submissive entities wholly subservient to the will of the kytons that massacred their sense of self, to utterly abominable creatures that take glee in their transformation, rising into leadership positions within kyton hierarchy. Creatures that lose themselves completely to the {corruption/shadowbound/ corruption} also sometimes become apostle kytons, as their souls are twisted to match the kytons' amoral sensibilities. Those who willingly become apostle kytons tend to share a similar niche with {monster/ostiarius/ kytons}, and the two sorts of kytons often collude together in cabals. Other apostles assist {monster/interlocutor/s} in their ministrations or even serve the mighty {monster/eremite/s} directly as seekers of \"perfect parts.\"",
 			"",
@@ -379,7 +379,7 @@
 		"name": "Aqueous",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"::th[Aqueous]{cr=\"+0 or +1\" sc=\"Monster Summoner's Handbook/19\" acquired simple maybesummon}",
+			"::th[Aqueous]{cr=\"+0 or +1\" source=\"Monster Summoner's Handbook/19\" acquired simple maybesummon}",
 			"",
 			"Applying this template to a summoned creature requires the feat {feat/Versatile Summon Monster} or {feat/Versatile Summon Nature's Ally}.",
 			"",
@@ -398,7 +398,7 @@
 		"name": "Barbarian",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Barbarian]{cr=\"+2 or +3\" sc=\"Monster Codex/246\" acquired simple}",
+			"::th[Barbarian]{cr=\"+2 or +3\" source=\"Monster Codex/246\" acquired simple}",
 			"",
 			"A {class/barbarian} creature can fly into a rage, granting it numerous bonuses in combat. It also gains additional hit points and a few valuable defensive abilities. A barbarian creature's CR increases by 3 if the creature has 10 or more HD. A barbarian creature must be chaotic.",
 			"",
@@ -411,7 +411,7 @@
 		"name": "Bard",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Bard]{cr=\"+1 or +2\" sc=\"Monster Codex/246\" acquired simple}",
+			"::th[Bard]{cr=\"+1 or +2\" source=\"Monster Codex/246\" acquired simple}",
 			"",
 			"Capable of inspiring its companions to accomplish great things, a {class/bard} creature is most effective when surrounded by allies. It also gains some limited spellcasting. A bard creature's CR increases by 2 if the creature has 10 or more HD.",
 			"",
@@ -434,7 +434,7 @@
 		"name": "Bestial Creature",
 		"sources": [ "Lost Treasures" ],
 		"description": [
-			"::th[Bestial Creature]{cr=+0 sc=\"Lost Treasures/17\" acquired simple}",
+			"::th[Bestial Creature]{cr=+0 source=\"Lost Treasures/17\" acquired simple}",
 			"",
 			"Bestial is an acquired simple template that can be applied to any {type/humanoid} that doesn't possess the {ability/wild empathy} class feature. Humanoids afflicted with this template gain traits of a random wild animal from the waist up, appearing much like a {template/lycanthrope} in hybrid form. Common animal forms include those of bears, boars, rats, weasels, and wolves.",
 			"",
@@ -447,7 +447,7 @@
 		"name": "Blighted Fey",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"::th[Blighted Fey]{cr=+2 sc=\"Bestiary 6/46\" acquired}",
+			"::th[Blighted Fey]{cr=+2 source=\"Bestiary 6/46\" acquired}",
 			"",
 			"In certain wilderness regions, strange corruptions of nature fester and grow where the boundaries between this world and {rule/the Abyss} grow thin. Dangerous and evil fungal creatures rise to power in these blighted reaches, such as sinister {monster/fungus queen/s} or legions of undead {template/spore zombie/s}, but when {type/fey} creatures become infused with this corruption and are themselves blighted, the resulting monstrosities are particularly vile.",
 			"",
@@ -500,7 +500,7 @@
 		"name": "Boreal Creature",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
 		"description": [
-			"::th[Boreal Creature]{cr=+1 sc=\"Pathfinder #67: The Snows of Summer/72\" inherited}",
+			"::th[Boreal Creature]{cr=+1 source=\"Pathfinder #67: The Snows of Summer/72\" inherited}",
 			"",
 			"In realms where the icy hand of winter seldom (or never) releases its frigid grasp, some particularly hardy creatures have evolved to better survive in these harsh environments, becoming stronger and much more dangerous. These boreal creatures mostly resemble members of their kind that dwell in more temperate climates, but their fur and skin are much paler, and it is not uncommon for parts of these creatures to be cloaked in frost.",
 			"",
@@ -529,7 +529,7 @@
 		"name": "Broken Soul",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::th[Broken Soul]{cr=+2 sc=\"Bestiary 4/24\" acquired}",
+			"::th[Broken Soul]{cr=+2 source=\"Bestiary 4/24\" acquired}",
 			"",
 			"A broken soul is torment and pain made manifest. Tortured to the extremes of both physical and mental endurance, and then taken beyond those barriers, a broken soul gains extraordinary reserves of fortitude and resilience as well as the ability to inflict a measure of its own terrible suffering on others.",
 			"",
@@ -570,7 +570,7 @@
 		"name": "Calcified",
 		"sources": [ "Plunder and Peril" ],
 		"description": [
-			"::th[Calcified]{cr=+1 sc=\"Plunder and Peril/61\" acquired simple}",
+			"::th[Calcified]{cr=+1 source=\"Plunder and Peril/61\" acquired simple}",
 			"",
 			"A creature with the calcified template is preserved by the toxic fluids pumped into its body by an {monster/incutilis lord}. Though the creature's identity is lost and its life soon fades, the incutilis lord retains use of the creature's feats, physical skills, extraordinary abilities, spell-like abilities, and supernatural abilities. This template can be applied to any living corporeal creature.",
 			"",
@@ -581,7 +581,7 @@
 		"name": "Celestial",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"::th[Celestial]{cr=\"+0 or +1\" sc=\"Pathfinder RPG Bestiary/294\" acquired simple summonable}",
+			"::th[Celestial]{cr=\"+0 or +1\" source=\"Pathfinder RPG Bestiary/294\" acquired simple summonable}",
 			"",
 			"Celestial creatures dwell in the higher planes, but can be summoned using spells such as {spell/summon monster} and {spell/planar ally}. A celestial creature's CR increases by +1 only if the base creature has 5 or more HD. A celestial creature's quick and rebuild rules are the same.",
 			"",
@@ -600,7 +600,7 @@
 		"name": "Child of Yog-Sothoth",
 		"sources": [ "Pathfinder #113: What Grows Within" ],
 		"description": [
-			"::th[Child of Yog-Sothoth]{cr=+1 sc=\"Pathfinder #113: What Grows Within/82\" inherited}",
+			"::th[Child of Yog-Sothoth]{cr=+1 source=\"Pathfinder #113: What Grows Within/82\" inherited}",
 			"",
 			"Creatures born of mortal flesh infused with the essence of the outer god {faith/Yog-Sothoth}, these deviant children are often tasked with preparing the world for further incursions from other dimensions or agents of the Elder Mythos. Traditionally, the process of creating a child of Yog-Sothoth involves a blasphemous ritual that uses a mortal creature (typically a human) as an incubator. For the purpose of this ritual, gender is irrelevant. Giving birth to a child of Yog-Sothoth is always fatal. In most cases, the ritual results in the birth of twins - one a child of Yog-Sothoth, which can pass for a time as a member of the race of the creature in which it incubated, and one that cannot. Those twins that inherit a monstrous appearance take more after the Outer God itself in form, and are known as the {monster/spawn of Yog-Sothoth}.",
 			"",
@@ -651,7 +651,7 @@
 		"name": "Chthonic",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"::th[Chthonic]{cr=\"+0 or +1\" sc=\"Monster Summoner's Handbook/19\" acquired simple maybesummon}",
+			"::th[Chthonic]{cr=\"+0 or +1\" source=\"Monster Summoner's Handbook/19\" acquired simple maybesummon}",
 			"",
 			"Applying this template to a summoned creature requires the feat {feat/Versatile Summon Monster} or {feat/Versatile Summon Nature's Ally}.",
 			"",
@@ -670,7 +670,7 @@
 		"name": "Cleric",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Cleric]{cr=\"+1, +2, or +3\" sc=\"Monster Codex/246\" acquired simple}",
+			"::th[Cleric]{cr=\"+1, +2, or +3\" source=\"Monster Codex/246\" acquired simple}",
 			"",
 			"As a conduit of divine power, a {class/cleric} creature is often viewed with great respect by its community. A cleric creature's CR increases by 2 if the creature has 7 or more HD, and it increases by 3 if the creature has 13 or more HD. A cleric creature must worship a deity (which must be determined when the template is added) and its alignment must be within one step of that deity's.",
 			"",
@@ -700,7 +700,7 @@
 			"Bestiary 4"
 		],
 		"description": [
-			"::th[Colour-Blighted]{cr=+0 sc=\"Bestiary 4/39;Pathfinder #46: Wake of the Watcher/77\" acquired simple}",
+			"::th[Colour-Blighted]{cr=+0 source=\"Bestiary 4/39;Pathfinder #46: Wake of the Watcher/77\" acquired simple}",
 			"",
 			"A creature with the colour-blighted simple template appears hideously deformed and glows with the same unnamable color as the creature that blighted it. A colour-blighted creature's quick and rebuild rules are the same.",
 			"",
@@ -711,7 +711,7 @@
 		"name": "Commando Construct",
 		"sources": [ "Construct Handbook" ],
 		"description": [
-			"::th[Commando Construct]{cr=\"+1 or +2\" sc=\"Construct Handbook/36\" acquired}",
+			"::th[Commando Construct]{cr=\"+1 or +2\" source=\"Construct Handbook/36\" acquired}",
 			"",
 			"Commando constructs are elite fighting machines that often operate alone or in small squads. Although they are skilled combatants, these {type/construct/s} can handle a variety of clandestine activities, including assassination, infiltration, kidnapping, and sabotage. They are most often found wandering the plains of Numeria, or under the service of a local warlord.",
 			"",
@@ -766,7 +766,7 @@
 		"name": "Counterpoised",
 		"sources": [ "Champions of Balance" ],
 		"description": [
-			"::th[Counterpoised]{cr=\"+0 to +1\" sc=\"Champions of Balance/33\" acquired simple maybesummon}",
+			"::th[Counterpoised]{cr=\"+0 to +1\" source=\"Champions of Balance/33\" acquired simple maybesummon}",
 			"",
 			"Applying this template to a summoned creature requires the feat {feat/Summon Neutral Monster}.",
 			"",
@@ -785,7 +785,7 @@
 		"name": "Cursed Lord",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Cursed Lord]{cr=+2 sc=\"Horror Adventures/235\" acquired inherited}",
+			"::th[Cursed Lord]{cr=+2 source=\"Horror Adventures/235\" acquired inherited}",
 			"",
 			"Cursed lords gain dominion over their lands through evil deeds that result in powerful curses that trap them within their realms. They have all the abilities of {template/dread lord/s}, with the following additions and adjustments.",
 			"",
@@ -806,7 +806,7 @@
 		"name": "Cytillesh Zombie",
 		"sources": [ "No Response from Deepmar" ],
 		"description": [
-			"::th[Cytillesh Zombie]{cr=+1 sc=\"No Response from Deepmar/21\" acquired}",
+			"::th[Cytillesh Zombie]{cr=+1 source=\"No Response from Deepmar/21\" acquired}",
 			"",
 			"The cytillesh zombies presented here use a hybrid monster template that is easy to duplicate. The base creature gains the {template/fast |zombie/ template}. It also gains +4 {umr/channel resistance} and Cytillesh Symbiosis (see the {monster/Cytillesh Zombie} stat block). The cytillesh zombie template increases a zombie's challenge rating by 1. In the context of this adventure, this template can only be added to a creature suffering the effects of exposure to cytillesh fungus that imbibes concentrated cytillesh with {eq-material/caphorite} and {eq-material/lazurite} granules."
 		]
@@ -815,7 +815,7 @@
 		"name": "Dark",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"::th[Dark]{cr=\"+0 or +1\" sc=\"Monster Summoner's Handbook/19\" acquired simple maybesummon}",
+			"::th[Dark]{cr=\"+0 or +1\" source=\"Monster Summoner's Handbook/19\" acquired simple maybesummon}",
 			"",
 			"Applying this template to a summoned creature requires the feat {feat/Versatile Summon Monster}.",
 			"",
@@ -834,7 +834,7 @@
 		"name": "Deep Creature",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Deep Creature]{cr=+1 sc=\"Horror Adventures/248\" acquired simple}",
+			"::th[Deep Creature]{cr=+1 source=\"Horror Adventures/248\" acquired simple}",
 			"",
 			"Deep creatures have been twisted by the {monster/deep one/s}, whether through interbreeding or foul rituals.",
 			"",
@@ -847,7 +847,7 @@
 		"name": "Degenerate",
 		"sources": [ "Bestiary 5" ],
 		"description": [
-			"::th[Degenerate]{cr=-1 sc=\"Bestiary 5/288\" acquired simple}",
+			"::th[Degenerate]{cr=-1 source=\"Bestiary 5/288\" acquired simple}",
 			"",
 			"Degenerate creatures are weaker than their ordinary cousins.",
 			"",
@@ -860,7 +860,7 @@
 		"name": "Demonic Vermin",
 		"sources": [ "The Worldwound" ],
 		"description": [
-			"::th[Demonic Vermin]{cr=+1 sc=\"The Worldwound/53\" acquired inherited}",
+			"::th[Demonic Vermin]{cr=+1 source=\"The Worldwound/53\" acquired inherited}",
 			"",
 			"{faith/Deskari/'s} influence upon the Worldwound's verminous life cannot be ignored for long by visitors to this tainted land. While some giant vermin have resisted Deskari's influence, most have succumbed to it. Such creatures are almost always encountered along the Worldwound's periphery. As one travels deeper into the blighted land, the immense insects, spiders, and other vermin encountered in the canyons and rivers take on an increasingly unsettling intelligence and demonic features. In many ways, these demonic vermin are no longer true denizens of the Material Plane - they are, after a fact, what happens when the chaos and evil of the Abyss infuse a mindless creature. They are the unholy spawn of vermin - and mortal sins.",
 			"",
@@ -917,7 +917,7 @@
 		"name": "Devilbound",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::th[Devilbound]{cr=+1 sc=\"Bestiary 4/56\" acquired}",
+			"::th[Devilbound]{cr=+1 source=\"Bestiary 4/56\" acquired}",
 			"",
 			"A devilbound creature has made a bargain with a {family/devil}, promising a service and its soul in exchange for infernal power. The specific service depends on the devil's type and motivations, but always furthers the interests of Hell.",
 			"",
@@ -1008,7 +1008,7 @@
 		"name": "Divine Guardian",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::th[Divine Guardian]{cr=+1 sc=\"Bestiary 4/60\" acquired}",
+			"::th[Divine Guardian]{cr=+1 source=\"Bestiary 4/60\" acquired}",
 			"",
 			"A divine guardian is a creature chosen by the gods to guard a sacred site of the faith. Blessed with eternal life (or damned, some might say), a divine guardian spends untold centuries in the service of its deity, tirelessly and deathlessly defending its charge from any who would seek to desecrate it.",
 			"",
@@ -1073,7 +1073,7 @@
 		"name": "Dread Lord",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"::th[Dread Lord]{cr=+1 sc=\"Horror Adventures/234\" acquired inherited}",
+			"::th[Dread Lord]{cr=+1 source=\"Horror Adventures/234\" acquired inherited}",
 			"",
 			"Dread lords are intrinsically tied to the territories they inhabit, either through ancestry or by claiming them in costly battle. Ambitious and cunning in their pursuit of land and glory, once dread lords attain their goals of conquest, they transition into tragic figures. They might find themselves hollow once their dreams are fulfilled, having nothing else to strive for, or could becoming heartless toward their charges, seeing them as ungrateful for all the lord sacrificed.",
 			"",
@@ -1122,7 +1122,7 @@
 		"name": "Dream Eater",
 		"sources": [ "Dungeons of Golarion" ],
 		"description": [
-			"::th[Dream Eater]{cr=+2 sc=\"Dungeons of Golarion/42\" acquired}",
+			"::th[Dream Eater]{cr=+2 source=\"Dungeons of Golarion/42\" acquired}",
 			"",
 			"An endless variety of beings exist within and below the Pyramid of Kamaria. Among the most unique denizens of the pyramid, however, are the dream eaters. Created by the {magic-artifact/Gem of Dreams}, these one-time humans have been warped by nightmares into deformed creatures. The {faith/Rovagug} cultists themselves have built a strange mythology for themselves around this practice - they believe the Gem of Dreams to be a gift sent them by their god. According to their myths, once the Rough Beast emerges from the Dead Vault and destroys Golarion, the corpse world left behind would be populated only by those Rovagug has chosen for survival. It is through this magical gem's capacity to transform dreamers into monsters that they believe they are being so selected.",
 			"",
@@ -1153,7 +1153,7 @@
 		"name": "Dreamspawn",
 		"sources": [ "The House on Hook Street" ],
 		"description": [
-			"::th[Dreamspawn]{cr=+1 sc=\"The House on Hook Street/62\" acquired}",
+			"::th[Dreamspawn]{cr=+1 source=\"The House on Hook Street/62\" acquired}",
 			"",
 			"Dreamspawn creatures are created when the lucid bodies of dreamers are killed in certain correupted areas of the {rule/Dimension of Dreams}, their nightmarish final moments resulting in true death in the waking world. On some rare occasions, the creature or creatures responsible for the death of the dreamer are intrinsically bound to that dreamer's death throes, their etheric forms dragged along with the victim's fleeing soul and stranded somewhere between the sleeping and waking worlds. These creatures soon emerge on the Material Plane, bursting forth from their victim's corpse as nightmarish spectres of the dream-thing they once were.",
 			"",
@@ -1196,7 +1196,7 @@
 		"name": "Druid",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"::th[Druid]{cr=\"+1, +2, or +3\" sc=\"Monster Codex/247\" acquired simple}",
+			"::th[Druid]{cr=\"+1, +2, or +3\" source=\"Monster Codex/247\" acquired simple}",
 			"",
 			"Drawn to the raw might and power of nature, a {class/druid} creature gains the ability to change shape and cast druid spells. A druid creature's CR increases by 2 if the creature has 7 or more HD, and it increases by 3 if the creature has 13 or more HD.",
 			"",
@@ -1225,7 +1225,7 @@
 		"name": "Echohusk",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
-			"::th[Echohusk]{cr=Varies sc=\"Occult Bestiary/24\" acquired}",
+			"::th[Echohusk]{cr=Varies source=\"Occult Bestiary/24\" acquired}",
 			"",
 			"Echohusks are the walking corpses of creatures slain by powerful psychic attacks and animated by the mental energies that caused their deaths. The mind and soul of an echohusk are erased from its being, leaving nothing but the psychic echo of the creature that scoured its mind.",
 			"",
@@ -1312,7 +1312,7 @@
 		"name": "Ectoplasmic",
 		"sources": [ "Bestiary 4" ],
 		"description": [
-			"::th[Ectoplasmic]{cr=+1 sc=\"Bestiary 4/83\" acquired}",
+			"::th[Ectoplasmic]{cr=+1 source=\"Bestiary 4/83\" acquired}",
 			"",
 			"Drawn from energies of the {rule/Ethereal Plane}, ectoplasm is a vile substance resembling thick tangles of slimy linen or dripping goo. It shapes itself into the form of an {type/undead} creature, creating a host for a soul unfortunate enough to be confined within it. The existence of an ectoplasmic being is a cruel one, and few souls willingly choose this painful form of undeath.",
 			"",
@@ -1381,7 +1381,7 @@
 		"name": "Elemental-Infused Creature",
 		"sources": [ "Planes of Power" ],
 		"description": [
-			"::th[Elemental-Infused Creature]{cr=\"+1 or +2\" sc=\"Planes of Power/56\" acquired inherited}",
+			"::th[Elemental-Infused Creature]{cr=\"+1 or +2\" source=\"Planes of Power/56\" acquired inherited}",
 			"",
 			"Sometimes unpredictable elemental events cause planar energies to infuse mundane creatures with otherworldly power, transforming them into element-infused creatures.",
 			"",
@@ -1464,7 +1464,7 @@
 		"name": "Energized",
 		"sources": [ "Construct Handbook" ],
 		"description": [
-			"::th[Energized]{cr=+2 sc=\"Construct Handbook/38\" acquired}",
+			"::th[Energized]{cr=+2 source=\"Construct Handbook/38\" acquired}",
 			"",
 			"Most golems are animated by an elemental spirit bound within a constructed body, but some creators build their golems with a greater purpose in mind. An energized golem is infused with the raw elemental energy of the elemental spirit used to animate it, granting it increased strength and agility and a host of supernatural powers.",
 			"",
@@ -1516,7 +1516,7 @@
 		"name": "Enlightened Construct",
 		"sources": [ "Construct Handbook" ],
 		"description": [
-			"::th[Enlightened Construct]{cr=\"+1, +2, or +3\" sc=\"Construct Handbook/40\" acquired}",
+			"::th[Enlightened Construct]{cr=\"+1, +2, or +3\" source=\"Construct Handbook/40\" acquired}",
 			"",
 			"Infused with powerful psychic energy, enlightened constructs have access to strange and deadly mental powers. Highly intelligent and secretive, these constructs typically serve as henchmen to powerful psychics or sorcerous cabals.",
 			"",
@@ -1585,7 +1585,7 @@
 		"name": "Entothrope",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"::th[Entothrope]{cr=\"+1 (see text)\" sc=\"Bestiary 6/116\" acquired inherited}",
+			"::th[Entothrope]{cr=\"+1 (see text)\" source=\"Bestiary 6/116\" acquired inherited}",
 			"",
 			"Entothropes are {type/humanoid/s} with the ability to turn into large insects and insect-humanoid hybrids.",
 			"",
@@ -1644,7 +1644,7 @@
 		"name": "Entropic",
 		"sources": [ "Bestiary 2" ],
 		"description": [
-			"::th[Entropic]{cr=\"+0 or +1\" sc=\"Bestiary 2/292\" acquired simple summonable}",
+			"::th[Entropic]{cr=\"+0 or +1\" source=\"Bestiary 2/292\" acquired simple summonable}",
 			"",
 			"Creatures with the entropic template live in planes where chaos is paramount. They can be summoned using spells such as {spell/summon monster} and {spell/planar ally}. An entropic creature's CR increases by +1 only if the base creature has 5 or more HD. An entropic creature's quick and rebuild rules are the same.",
 			"",
@@ -1663,7 +1663,7 @@
 		"name": "Eruphyte",
 		"sources": [ "Pathfinder #142: Gardens of Gallowspire" ],
 		"description": [
-			"::th[Eruphyte]{cr=+1 sc=\"Pathfinder #142: Gardens of Gallowspire/66\" acquired}",
+			"::th[Eruphyte]{cr=+1 source=\"Pathfinder #142: Gardens of Gallowspire/66\" acquired}",
 			"",
 			"The {rule/Astral Plane}, the realm of thought and higher consciousness, hosts two vulnerable sources of information: astral bodies connected to spellcasters' physical forms by invisible silver cords, and souls bound for the Boneyard. When either vessel is disrupted or destroyed, there is a small chance that the victim's fragmented intellect will pass along a fraying silver cord or through a weakened planar barrier. Mixed with the Astral Plane's raw cognitive force, this tumultuous information vents into the Material Plane. For esoteric reasons not fully understood by scholars, sentient plants make ideal vessels for these proto-intellects, where they either instill a rudimentary mind in a formerly thoughtless plant or bolster existing mental capabilities. These eruphyte creatures become conduits for raw thought and vast stores of knowledge.",
 			"",
@@ -1690,7 +1690,7 @@
 		"name": "Exoskeleton",
 		"sources": [ "Bestiary 6" ],
 		"description": [
-			"::th[Exoskeleton]{cr=Varies sc=\"Bestiary 6/124\" acquired}",
+			"::th[Exoskeleton]{cr=Varies source=\"Bestiary 6/124\" acquired}",
 			"",
 			"Found skittering through forgotten tombs, crawling through deep forests, and filling damp caverns, exoskeletons are animated carapaces of arthropods and other {type/vermin}. Most exoskeletons are the intentional creations of necromancers, but some of these undead monstrosities arise spontaneously from places awash with negative energy or are created by malfunctioning artifacts. Sometimes, the simple act of feeding on freshly destroyed undead creatures is enough to transform an insect into an exoskeleton upon its eventual death. Though exoskeletons are just as mindless as they were when they were living, they have become infused with an evil instinct in their new unlife that drives them to relentlessly attack all living creatures on sight, exploding in a burst of dusty remains when destroyed.",
 			"",
@@ -1773,7 +1773,7 @@
 		"name": "Failed Prophet",
 		"sources": [ "Druma, Profit and Prophecy" ],
 		"description": [
-			"::th[Failed Prophet]{cr=+2 sc=\"Druma, Profit and Prophecy/60\" acquired}",
+			"::th[Failed Prophet]{cr=+2 source=\"Druma, Profit and Prophecy/60\" acquired}",
 			"",
 			"When a Kalistocrat performs the final rites to create her idealized afterlife, the likelihood of success depends on how stringently she adhered to Kalistrade's teachings and how much wealth she sacrificed to serve as an occult anchor for her will. It's not always apparent which prophets succeed, and mere weeks after death, the mindscapes of those prophets who failed begin to collapse. For most, their souls become untethered and join the River of Souls, but others cling tenaciously to their failed dream, and their consciousness escapes into and animates their gold-veined bodies.",
 			"",
@@ -1820,7 +1820,7 @@
 		"name": "Fey Animal",
 		"sources": [ "Lands of the Linnorm Kings" ],
 		"description": [
-			"::th[Fey Animal]{cr=+1 sc=\"Lands of the Linnorm Kings/58\" acquired inherited}",
+			"::th[Fey Animal]{cr=+1 source=\"Lands of the Linnorm Kings/58\" acquired inherited}",
 			"",
 			"\"Fey animal\" is an inherited or acquired template that can be added to a living, corporeal animal (referred to hereafter as the base creature). A fey animal uses all the base creature's statistics and special abilities except as noted here.",
 			"",
@@ -1862,7 +1862,7 @@
 		"name": "Fey Creature",
 		"sources": [ "Bestiary 3" ],
 		"description": [
-			"::th[Fey Creature]{cr=\"+1 or +2\" sc=\"Bestiary 3/116\" acquired inherited}",
+			"::th[Fey Creature]{cr=\"+1 or +2\" source=\"Bestiary 3/116\" acquired inherited}",
 			"",
 			"Fey creatures resemble the mundane creatures they derive from, but with brighter colors, delicate features, and elegant wings such as those of a {monster/pixie} or {monster/sprite}. Despite their fragile-seeming appearance, fey creatures are every bit as hardy as their non-fey relations, though they sacrifice raw might for grace and the ability to fly. They live long lives, barring death by misadventure, and rarely show outward signs of age.",
 			"",
@@ -1934,7 +1934,7 @@
 		"name": "Fey-Touched Creature",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
-			"::th[Fey-Touched Creature]{cr=\"+0 or +1\" sc=\"Heroes from the Fringe/17\" inherited simple maybesummon}",
+			"::th[Fey-Touched Creature]{cr=\"+0 or +1\" source=\"Heroes from the Fringe/17\" inherited simple maybesummon}",
 			"",
 			"Fey-touched creatures are descended from inhabitants of the First World and often possess striking features compared to their normal counterparts, such as bright coloration or a cunning visage. The fey-touched creature's First World ancestor needn't be a fey specifically, and even magical beasts, First World {race/gnome/s}, and other non-fey inhabitants of the fecund, magical plane can produce fey-touched heirs generations after their initial dalliance with residents of other planes. Some fey-touched creatures thus claim to be descended from the legendary Tane and even the god-like Eldest, though these claims are likely unfounded - such claims themselves intentional or accidental manifestations of the creature's hereditary First World influence.",
 			"",
