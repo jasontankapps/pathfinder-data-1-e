@@ -620,7 +620,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/183\" school=\"%%spelldef/abjuration%% &#91&see text&#93&\" clr=4 orc=4 pal=4 war=4 ctSt cV cS cMp=\"parchment with a holy text written on it\" rClose target=\"one ally\" durML=1 will svHarmless srN}",
 			"",
-			"The target gains the benefit of {spell/shield of faith} and your choice of {spell/protection from chaos/, evil, good, or law}. As a move action, the target can transfer this spell to a touched ally, who becomes the new target of the spell.",
+			"The target gains the benefit of {spell/shield of faith} and your choice of {spell/protection from chaos, evil, good,[ or] law}. As a move action, the target can transfer this spell to a touched ally, who becomes the new target of the spell.",
 			"",
 			"The alignment descriptor of this spell matches the alignment descriptor of the protection spell you chose when casting it. For example, granting the target protection from evil gives this spell the good descriptor."
 		]

@@ -291,6 +291,10 @@
 			"This spell functions like *communal protection from evil,* except it behaves like *protection from law* and you divide the duration in 1-minute intervals among the creatures touched."
 		]
 	},
+	"protection_from_chaos_evil_good_law": {
+		"name": "Protection from Chaos/Evil/Good/Law",
+		"copyof": "protection_from_evil"
+	},
 	"protection_from_evil_communal": {
 		"name": "Communal Protection from Evil",
 		"copyof": "protection_from_evil"
