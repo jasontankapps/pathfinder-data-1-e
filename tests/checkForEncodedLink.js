@@ -143,7 +143,7 @@ export const convertSpecialTextToLink = (input) => {
 		temp = post;
 	}
 	linkmatched = linkmatched + temp;
-	return linkmatched.toLowerCase().replace(/[-_ /]/g, "_").replace(/[^0-9_a-z]/g, "");
+	return convertTextToLink(linkmatched);
 };
 
 export default checkForEncodedLink;

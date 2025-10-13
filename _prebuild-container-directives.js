@@ -1,7 +1,5 @@
 import { convertTextToLink } from './tests/checkForEncodedLink.js';
 
-const linkify = (input) => input.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, "");
-
 const getContainerDirectives = (globalVariable, marker = ":::") => {
 	const $ = globalVariable;
 	return {
@@ -72,7 +70,7 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 						const t = attrs.title;
 						if(t) {
 							if(jl) {
-								id = prefix + linkify(t);
+								id = prefix + convertTextToLink(t);
 								addToJumpList(t, id, jl);
 							}
 							title = `<th scope="col"${id ? ` id="${id}" data-hash-target` : ""}>${t}</th></tr><tr>`;

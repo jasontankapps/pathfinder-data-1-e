@@ -2702,7 +2702,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/174\" divination alc=3 arc=3 clr=3 inq=4 inv=3 mes=3 orc=3 psy=3 sha=3 sor=3 spr=3 war=3 wit=3 wiz=3 ctSt cV cS rPers target=you durML=1 durD}",
 			"",
-			"This spell makes your eyes glow and allows you to see alignment auras within 120 feet of you. The effect is similar to that of a {spell/detect chaos}/evil/good/law spell, but aura sight does not require concentration, and it discerns an aura's location and power more quickly.",
+			"This spell makes your eyes glow and allows you to see alignment auras within 120 feet of you. The effect is similar to that of a {spell/detect chaos//evil//good//law} spell, but aura sight does not require concentration, and it discerns an aura's location and power more quickly.",
 			"",
 			"You know the location and power of all chaotic, evil, good, and lawful auras within your sight. An aura's power depends on a creature's Hit Dice or an item's caster level, as noted in the description of the detect evil spell. If an item or a creature bearing an aura is in line of sight, you can attempt a Knowledge (religion) check to determine the aura's strength (one check per aura; DC 15 + spell level, or 15 + 1/2 caster level for a non-spell effect).",
 			"",

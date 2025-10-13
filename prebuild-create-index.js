@@ -2,6 +2,7 @@
 import fs from 'fs';
 import capitalize from 'capitalize';
 import basic_data_groups from './basic_data_groups.js';
+import { convertTextToLink } from './tests/checkForEncodedLink.js';
 
 const SEARCHGROUPS = [
 	"class", // 1
@@ -208,7 +209,7 @@ Object.entries(basic_data_groups).forEach(([file, groupobject]) => {
 			};
 			$dataIndex.push(obj);
 			sources && sources.forEach(source => {
-				const s = source.toLowerCase().replace(/[-_ ]/g, "_").replace(/[^0-9_a-z]/g, "");
+				const s = convertTextToLink(source);
 				if(!$sources[s]) {
 					$sources[s] = [];
 				}
@@ -242,7 +243,7 @@ const $allSourcesElements = [
 	"import {lazy} from 'react';\n"
 ];
 Object.entries($sources).forEach(([prop, value]) => {
-	const transformedProp = prop.toLowerCase().replace(/[-_ ]/g, "_").replace(/[^0-9_a-z]/g, "");
+	const transformedProp = convertTextToLink(prop);
 	const transformedElement =
 		"Source"
 		+ transformedProp.slice(0,1).toUpperCase()

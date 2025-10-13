@@ -2,6 +2,7 @@ import checkForEncodedLink, { convertTextToLink } from './tests/checkForEncodedL
 import makeSpellBlock from './_prebuild-block-directives--spell.js'
 import makeMonsterInfoBlock from './_prebuild-block-directives--minfo.js';
 import makeMonsterDefenseBlock from './_prebuild-block-directives--mdefense.js';
+import { makeMonsterFootnoteBlock, makeMonsterOffenseBlock, makeMonsterSpellBlock } from './_prebuild-block-directives--moffense.js';
 
 const churn = (n, attrs, list, logError) => {
 	const found = [];
@@ -969,6 +970,42 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterDefenseBlock(marked2, linker, maybeClear, attrs, logError);
+			} else if (n === "moffense") {
+				churn(n, attrs, [
+					"clear", "sp", "spP", "br", "brP", "cl", "clP", "sw", "swP",
+					"fl", "flP", "clumsy", "poor", "average", "good", "perfect",
+					"jet", "spOther", "spExtra",
+					"melee",
+					"ranged",
+					"space", "reach", "reachP",
+					"specAtt", "bDrain", "bleed", "brWeap", "burn", "capsize",
+					"chEn", "chNEn", "chPEn", "constrict", "distraction",
+					"eDrain", "engulf", "entrap", "favEn", "grab", "heat",
+					"mMagic", "mPower", "paralysis", "powCh", "pull", "push",
+					"rake", "rend", "rockTh", "sneak", "swallow", "trample",
+					"web", "whirlwind",
+					"attach", "bloodRage", "fSwallow", "ferocity", "gaze",
+					"pounce", "smother", "strangle",
+					"next"
+				], logError);
+				const marked2 = makeNewMarkedInstance();
+				return makeMonsterOffenseBlock(marked2, linker, maybeClear, attrs, logError);
+			} else if (n === "mspell") {
+				churn(n, attrs, [
+					"clear", "cl", "con",
+					"sla", "atWill", "constant", "day", "hour", "week", "month", "year", "other",
+					"l0", "l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8", "l9",
+					"prep", "ex", "know",
+					"psy", "psyMag", "pe", "peP",
+					"title", "data", "newLine",
+					"next"
+				], logError);
+				const marked2 = makeNewMarkedInstance();
+				return makeMonsterSpellBlock(marked2, linker, maybeClear, attrs, logError);
+			} else if (n === "mfn") {
+				churn(n, attrs, ["clear"], logError);
+				const marked2 = makeNewMarkedInstance();
+				return makeMonsterFootnoteBlock(marked2, linker, text);
 			} else if (n === "archetype") {
 				// Archetype
 				churn(n, attrs, ["clear", "c", "r", "e"], logError);

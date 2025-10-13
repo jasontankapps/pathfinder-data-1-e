@@ -2247,7 +2247,7 @@
 			"",
 			"::moffense{sp=30 melee=\"battleaxe +4 (1d8+1/&times&3), claw -1 (1d4) or 2 claws +4 (1d4+1)\" next}",
 			"",
-			"::mspell{sla cl=4 con=+6 atWill=darkness day=\"3~ghoul touch~scare|DC 14~~1~animate dead~ray of exhaustion~!%%umr/summon%% (level 3; 1d3 bat or bird swarms [use the same stats]; 1d2 constrictor snakes; 1d3 venomous snakes; or 1d4 wolves)\"}",
+			"::mspell{sla cl=4 con=+6 atWill=darkness day=\"3~ghoul touch~scare|DC 14~~1~animate dead~ray of exhaustion~!%%umr/summon%% (level 3; 1d3 bat or bird swarms &#91&use the same stats&#93&; 1d2 constrictor snakes; 1d3 venomous snakes; or 1d4 wolves)\"}",
 			"",
 			"::sh[Statistics]",
 			"",

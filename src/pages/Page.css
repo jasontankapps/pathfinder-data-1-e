@@ -48,6 +48,14 @@ blockquote.hanging p {
 	text-indent: -1.5rem;
 }
 
+p.no-top-margin,
+blockquote.no-top-margin {
+	margin-block-start: 0 !important;
+}
+p.no-bottom-margin {
+	margin-block-end: 0 !important;
+}
+
 /*
 	The 'columnar' class attempts to split
 	giant lists into veritcal columns.

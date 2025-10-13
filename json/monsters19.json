@@ -1630,7 +1630,7 @@
 			"",
 			"::moffense{sp=30 melee=\"2 slams +6 (1d8)\" specAtt=\"compel condemned~kiss of death\" next}",
 			"",
-			"::mspell{sla cl=6 con=+10 atWill=\"dancing lights~death watch~greater teleport|self plus 50 lbs. of objects only~invisibility|self only~speak with dead\" day=\"3~major image|DC 20\"}",
+			"::mspell{sla cl=6 con=+10 atWill=\"dancing lights~deathwatch~greater teleport|self plus 50 lbs. of objects only~invisibility|self only~speak with dead\" day=\"3~major image|DC 20\"}",
 			"",
 			"::sh[Statistics]",
 			"",

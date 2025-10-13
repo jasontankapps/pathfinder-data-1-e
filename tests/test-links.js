@@ -1,262 +1,10 @@
-import { basic_data_by_link } from '../basic_data_groups.js';
 import checkForEncodedLink, { convertTextToLink } from './checkForEncodedLink.js';
 import featTreeData from '../json/feat_tree_data.json' with {type: 'json'};
+import { $All as a, $KnownProps } from '../get-all-links.js';
 
-const {
-	source: allsources,
-	archetypealchemist,
-	archetypeantipaladin,
-	archetypearcanist,
-	archetypebarbarian,
-	archetypebard,
-	archetypebloodrager,
-	archetypebrawler,
-	archetypecavalier,
-	archetypecleric,
-	archetypecompanion,
-	archetypedruid,
-	archetypefamiliar,
-	archetypefighter,
-	archetypegunslinger,
-	archetypehunter,
-	archetypeinquisitor,
-	archetypeinvestigator,
-	archetypekineticist,
-	archetypemagus,
-	archetypemedium,
-	archetypemesmerist,
-	archetypemonk,
-	archetypeninja,
-	archetypeoccultist,
-	archetypeoracle,
-	archetypepaladin,
-	archetypepsychic,
-	archetyperanger,
-	archetyperogue,
-	archetypesamurai,
-	archetypeshaman,
-	archetypeshifter,
-	archetypeskald,
-	archetypeslayer,
-	archetypesorcerer,
-	archetypespiritualist,
-	archetypesummoner,
-	archetypeunchained_summoner,
-	archetypeswashbuckler,
-	archetypevigilante,
-	archetypewarpriest,
-	archetypewitch,
-	archetypewizard,
-	arcaneschool,
-	aspect,
-	masterpiece,
-	performance,
-	blessing,
-	blrgbloodline,
-	oraclecurse,
-	discipline,
-	domain,
-	companion,
-	druiddomain,
-	emotionalfocus,
-	exploit,
-	hkorder,
-	implement,
-	inquisition,
-	kinetic,
-	arcana,
-	mystery,
-	oath,
-	order,
-	ragepower,
-	shamanspirit,
-	sorcbloodline,
-	spirit,
-	constructmod,
-	corruption,
-	curse,
-	disease,
-	drug,
-	eqreagent,
-	eqarmor,
-	eqarmorenh,
-	eqpoison,
-	eqsiegeengine,
-	eqmaterial,
-	eqspellbook,
-	techarmor,
-	techartifact,
-	techcyber,
-	techmisc,
-	techpharma,
-	techweapon,
-	eqweapon,
-	eqweaponenh,
-	haunt,
-	infestation,
-	madness,
-	magicaltar,
-	magicarmor,
-	magicimplant,
-	magictalisman,
-	magicaug,
-	magicenh,
-	magicfavor,
-	magicfleshcraft,
-	magicgraft,
-	magicpoison,
-	magicioun,
-	magicfetish,
-	magiclegacy,
-	magicnecrograft,
-	magicnecrotoxin,
-	magicplant,
-	magicrelic,
-	magicring,
-	magicrod,
-	magicset,
-	magicpiercing,
-	magicstaff,
-	magictattoo,
-	magicthrone,
-	misc,
-	subtype,
-	type: mtype,
-	npcclass,
-	sidekick,
-	skill,
-	spelldef,
-	trap,
-	umr,
-	ability,
-	class: classes,
-	eqmisc,
-	faith,
-	feat,
-	magicartifact,
-	magicweapon,
-	magicwondrous,
-	main,
-	monster,
-	template,
-	npc,
-	pclass,
-	race,
-	rule,
-	spell,
-	trait,
-	family,
-	talent,
-	slayertalent,
-	invtalent,
-	soctalent,
-	vigtalent,
-	trick,
-	stare,
-	ninjatrick,
-	hex,
-	shamanhex,
-	discovery,
-	arcanedisc,
-	phrenicamp,
-	mercy,
-	deed,
-	swashdeed,
-	hkdiscipline,
-	kipower,
-	stylestrike,
-	evolution,
-	unchevolution,
-	eidolon,
-	patron,
-	rangertrap
-} = basic_data_by_link;
+const [ sources, ...$All ] = a;
 
-const $All = [
-	["main", main],
-	["arc-alchemist", archetypealchemist], ["arc-antipaladin", archetypeantipaladin],
-	["arc-arcanist", archetypearcanist], ["arc-barbarian", archetypebarbarian],
-	["arc-bard", archetypebard], ["arc-bloodrager", archetypebloodrager],
-	["arc-brawler", archetypebrawler], ["arc-cavalier", archetypecavalier],
-	["arc-cleric", archetypecleric], ["arc-companion", archetypecompanion],
-	["arc-druid", archetypedruid], ["arc-familiar", archetypefamiliar],
-	["arc-fighter", archetypefighter], ["arc-gunslinger", archetypegunslinger],
-	["arc-hunter", archetypehunter], ["arc-inquisitor", archetypeinquisitor],
-	["arc-investigator", archetypeinvestigator], ["arc-kineticist", archetypekineticist],
-	["arc-magus", archetypemagus], ["arc-medium", archetypemedium],
-	["arc-mesmerist", archetypemesmerist], ["arc-monk", archetypemonk],
-	["arc-ninja", archetypeninja],
-	["arc-occultist", archetypeoccultist], ["arc-oracle", archetypeoracle],
-	["arc-paladin", archetypepaladin], ["arc-psychic", archetypepsychic],
-	["arc-ranger", archetyperanger], ["arc-rogue", archetyperogue],
-	["arc-samurai", archetypesamurai], ["arc-shaman", archetypeshaman],
-	["arc-shifter", archetypeshifter], ["arc-skald", archetypeskald],
-	["arc-slayer", archetypeslayer], ["arc-sorcerer", archetypesorcerer],
-	["arc-spiritualist", archetypespiritualist], ["arc-summoner", archetypesummoner],
-	["arc-unchained_summoner", archetypeunchained_summoner],
-	["arc-swashbuckler", archetypeswashbuckler], ["arc-vigilante", archetypevigilante],
-	["arc-warpriest", archetypewarpriest], ["arc-witch", archetypewitch],
-	["arc-wizard", archetypewizard], ["arcaneschool", arcaneschool], ["aspect", aspect],
-	["masterpiece", masterpiece], ["performance", performance], ["blessing", blessing],
-	["blrgbloodline", blrgbloodline], ["oraclecurse", oraclecurse],
-	["discipline", discipline], ["domain", domain], ["companion", companion],
-	["druiddomain", druiddomain], ["emotionalfocus", emotionalfocus],
-	["exploit", exploit], ["hkorder", hkorder],
-	["implement", implement], ["inquisition", inquisition], ["kinetic", kinetic],
-	["arcana", arcana], ["mystery", mystery],
-	["oath", oath], ["order", order], ["ragepower", ragepower], ["shamanspirit", shamanspirit],
-	["sorcbloodline", sorcbloodline], ["spirit", spirit],
-	["constructmod", constructmod], ["corruption", corruption],
-	["curse", curse], ["disease", disease], ["drug", drug],
-	["eq-reagent", eqreagent], ["eq-armor", eqarmor], ["eq-armorenh", eqarmorenh],
-	["eq-poison", eqpoison], ["eq-siegeengine", eqsiegeengine],
-	["eq-material", eqmaterial], ["eq-spellbook", eqspellbook],
-	["tech-armor", techarmor], ["tech-artifact", techartifact], ["tech-cyber", techcyber],
-	["tech-misc", techmisc], ["tech-pharma", techpharma],
-	["tech-weapon", techweapon], ["eq-weapon", eqweapon],
-	["eq-weaponenh", eqweaponenh], ["haunt", haunt],
-	["infestation", infestation], ["madness", madness], ["magic-altar", magicaltar],
-	["magic-armor", magicarmor], ["magic-implant", magicimplant],
-	["magic-talisman", magictalisman], ["magic-aug", magicaug], ["magic-enh", magicenh],
-	["magic-favor", magicfavor], ["magic-fleshcraft", magicfleshcraft],
-	["magic-graft", magicgraft], ["magic-poison", magicpoison], ["magic-ioun", magicioun],
-	["magic-fetish", magicfetish], ["magic-legacy", magiclegacy],
-	["magic-necrograft", magicnecrograft], ["magic-necrotoxin", magicnecrotoxin],
-	["magic-plant", magicplant], ["magic-relic", magicrelic],
-	["magic-ring", magicring], ["magic-rod", magicrod], ["magic-set", magicset],
-	["magic-piercing", magicpiercing], ["magic-staff", magicstaff],
-	["magic-tattoo", magictattoo], ["magic-throne", magicthrone],
-	["misc", misc], ["subtype", subtype], ["type", mtype],
-	["npcclass", npcclass], ["sidekick", sidekick],
-	["skill", skill], ["spelldef", spelldef], ["trap", trap],
-	["umr", umr], ["ability", ability],
-	["eq-misc", eqmisc], ["faith", faith], ["feat", feat],
-	["magic-artifact", magicartifact], ["magic-weapon", magicweapon],
-	["magic-wondrous", magicwondrous], ["monster", monster], ["template", template],
-	["rule", rule], ["spell", spell], ["npc", npc], ["pclass", pclass],
-	["race", race], ["trait", trait], ["class", classes], ["family", family],
-	["talent", talent], ["slayertalent", slayertalent], ["invtalent", invtalent],
-	["soctalent", soctalent], ["vigtalent", vigtalent],
-	["trick", trick], ["ninjatrick", ninjatrick], ["hex", hex], ["shamanhex", shamanhex],
-	["discovery", discovery], ["arcanedisc", arcanedisc],
-	["stare", stare], ["phrenicamp", phrenicamp], ["mercy", mercy],
-	["deed", deed], ["swashdeed", swashdeed], ["hkdiscipline", hkdiscipline],
-	["kipower", kipower], ["stylestrike", stylestrike],
-	["evolution", evolution], ["unchevolution", unchevolution],
-	["eidolon", eidolon], ["patron", patron], ["rangertrap", rangertrap]
-];
-
-const $KnownProps = {};
-
-$All.forEach(([link, object]) => {
-	// Create master list of links
-	$KnownProps[link] = {};
-	Object.keys(object).forEach(key => ($KnownProps[link][key] = true));
-});
-
-// Ex:
-//    $KnownProps.race.ratfolk = true
-//    $KnownProps.race.rat = undefined
+const [ , source ] = sources;
 
 const checkForMalformedLinks = (line) => {
 	let m;
@@ -314,17 +62,17 @@ const testLinks = () => {
 		// `invalid links in ${link} files:`
 		const invalid = [];
 		Object.keys(object).forEach(prop => {
-			const {sources, tables, description, topLink} = object[prop];
+			const {sources: s, tables, description, topLink} = object[prop];
 			// Test sources property
-			if(sources !== undefined) {
-				if(!sources || !Array.isArray(sources)) {
+			if(s !== undefined) {
+				if(!s || !Array.isArray(s)) {
 					msg.push(`\tINVALID ${prop}.sources`);
 				} else {
-					sources.every(s => {
+					s.every(s => {
 						if(typeof s !== "string") {
 							msg.push(`\tINVALID entry in ${prop}.sources`);
 							return false;
-						} else if (!allsources[convertTextToLink(s)]) {
+						} else if (!source[convertTextToLink(s)]) {
 							msg.push(`\tINVALID source "${s}" in ${prop}.sources`);
 						}
 						return true;
@@ -356,7 +104,7 @@ const testLinks = () => {
 						const [, protocol, text] = m;
 						const link = convertTextToLink(text);
 						if(protocol === "source") {
-							if(!allsources[link]) {
+							if(!source[link]) {
 								invalid.push(protocol + "/" + text);
 							}
 						} else if (protocol.match(/^http/)) {
@@ -375,7 +123,7 @@ const testLinks = () => {
 							const xx = bit.match(/([^/]+)([/][-, 0-9]+)?$/);
 							if(!xx) {
 								msg.push(`\t{SOURCE} error [${bit}]`);
-							} else if (!allsources[convertTextToLink(xx[1])]) {
+							} else if (!source[convertTextToLink(xx[1])]) {
 								invalid.push("{SOURCE " + xx[1] + "}");
 							}
 						});
@@ -386,7 +134,7 @@ const testLinks = () => {
 				// Testing ::main[text]{to=some/where}
 				while(m = temp.match(/::main\[.+?\]\{.*?\bto=([-a-z_]+)[/]([a-z_0-9]+).*?\}(.*$)/)) {
 					if(m[1] === "source") {
-						if(!allsources[m[2]]) {
+						if(!source[m[2]]) {
 							invalid.push(m[1] + "/" + m[2]);
 						}
 					} else if(!$KnownProps[m[1]] || !$KnownProps[m[1]][m[2]]) {
@@ -403,7 +151,7 @@ const testLinks = () => {
 					} else {
 						let [, link, , , protocol, property] = q;
 						if(protocol === "source") {
-							if(!allsources[property]) {
+							if(!source[property]) {
 								invalid.push(`@${m[1]}[${link}]`);
 							}
 						} else if(!$KnownProps[protocol] || !$KnownProps[protocol][property]) {
@@ -418,7 +166,7 @@ const testLinks = () => {
 					// [pre, `${protocol}/${property}`, text, post, protocol, property, `{${protocol}/${matchedx}}`]
 					const [ , potential, , post, protocol, property, fulltext ] = m;
 					if(protocol === "source") {
-						if(!allsources[property]) {
+						if(!source[property]) {
 							invalid.push(fulltext === `{${potential}}` ? fulltext : `${fulltext} => ${potential}`);
 						}
 					} else if (!$KnownProps[protocol] || !$KnownProps[protocol][property]) {

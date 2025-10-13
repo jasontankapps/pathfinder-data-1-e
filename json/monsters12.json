@@ -1708,7 +1708,7 @@
 			"",
 			"::sh[Offense]",
 			"",
-			"::moffense{sp=40 melee=\"4 claws +20 (1d6+7), gore +20 (1d8+7/19-20/&times&3)\" space=10 reach=10 powCh=\"gore, 2d8+14/19-20/&times;3\" specAtt=blizzard}",
+			"::moffense{sp=40 melee=\"4 claws +20 (1d6+7), gore +20 (1d8+7/19-20/&times&3)\" space=10 reach=10 powCh=\"gore, 2d8+14/19-20/&times&3\" specAtt=blizzard}",
 			"",
 			"::sh[Statistics]",
 			"",

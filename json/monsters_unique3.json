@@ -1756,7 +1756,7 @@
 			"",
 			"::mspell{sla cl=19 con=+28 constant=\"true seeing\" atWill=\"deeper darkness~enervation~greater teleport|self plus 50 lbs. of objects only~telekinesis|DC 24\" day=\"3~!quickened *enervation*~regenerate~silence|DC 21~vampiric touch~~1~mass hold monster|DC 28~!%%umr/summon%% (level 6; 1 marilith 50% or 1d4 glabrezus 75%)~symbol of death|DC 27\" next}",
 			"",
-			"::mspell{sla=Inquisitor cl=9 con=+18 atWill=\"!*detect alignment*\" other=\"9 rounds/day:discern lies\" next}",
+			"::mspell{sla=Inquisitor cl=9 con=+18 atWill=\"!*detect alignment*\" other=\"9 rounds/day~discern lies\" next}",
 			"",
 			"::mspell{know=Inquisitor cl=9 con=+18 l3=\"5/day~cure serious wounds~dimensional anchor~seek thoughts|DC 22~speak with dead|DC 22\" l2=\"6/day~barkskin~death knell|DC 21~detect thoughts|DC 21~spiritual weapon\" l1=\"8/day~command|DC 20~cure light wounds~divine favor~protection from good~shield of faith\" l0=\"at will~acid splash~brand|DC 19~bleed|DC 19~detect magic~disrupt undead~read magic\" next}",
 			"",

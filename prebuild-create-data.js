@@ -5,7 +5,7 @@ import markedFootnote from 'marked-footnote';
 import { gfmHeadingId } from "marked-gfm-heading-id";
 import { createDirectives, presetDirectiveConfigs } from 'marked-directive';
 import basic_data_groups, { basic_data_by_link, templates_by_link } from './basic_data_groups.js';
-import checkForEncodedLink from './tests/checkForEncodedLink.js';
+import checkForEncodedLink, { convertTextToLink } from './tests/checkForEncodedLink.js';
 import featTreeData from './json/feat_tree_data.json' with {type: 'json'};
 import featInfo from './src/json/_data__all_links.json' with {type: 'json'};
 import colorJSON from './json/colors.json' with {type: 'json'};
@@ -222,7 +222,7 @@ const makeSourceLink = (sourceInfo) => {
 	const m = sourceInfo.match(/(.+?)[/]([-, 0-9]+)/);
 	const source = m ? m[1] : sourceInfo;
 	const sourceText = m ? `${source} pg. ${m[2]}` : source;
-	const link = source.toLowerCase().replace(/[- ]/g, "_").replace(/[^-a-z_0-9]/g, "");
+	const link = convertTextToLink(source);
 	return `[${sourceText}](source/${link})`;
 };
 

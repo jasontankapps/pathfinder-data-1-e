@@ -2145,6 +2145,10 @@
 			"[^E]: Excludes undead and outsiders, which have their own entries on the table."
 		]
 	},
+	"detect_chaos_evil_good_law": {
+		"name": "Detect Chaos/Evil/Good/Law",
+		"copyof": "detect_evil"
+	},
 	"detect_chaos": {
 		"name": "Detect Chaos",
 		"copyof": "detect_evil"

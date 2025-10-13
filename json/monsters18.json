@@ -3177,7 +3177,7 @@
 			"",
 			"::mspell{prep=Witch cl=9 con=+10 l5=\"cloudkill|DC 16\" l4=\"enervation~shout|DC 15\" l3=\"fly~lightning bolt|DC 14~pain strike|DC 14~screech|DC 14\" l2=\"blindness/deafness|DC 13~blood blaze~false life~sentry skull~touch of idiocy\" l1=\"burning hands|DC 12~chill touch|DC 12~enlarge person|DC 12~mage armor~ray of enfeeblement|DC 12\" l0=\"arcane mark~detect magic~read magic~spark\" next}",
 			"",
-			"::mspell{title=Patron data=\"%%patron/vengeance%%}",
+			"::mspell{title=Patron data=\"%%patron/vengeance%%\"}",
 			"",
 			"::sh[Tactics]",
 			"",

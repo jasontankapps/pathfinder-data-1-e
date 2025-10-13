@@ -80,7 +80,7 @@
 			"",
 			"::mspell{know cl=1 con=+4 l1=\"2/day~disguise self~shocking grasp\" l0=\"at will~ghost sound|DC 13~telekinetic projectile\" next}",
 			"",
-			"::mspell{title=Implements data=\"*Evocation* (rod, 2 points)-*Resonant* intense focus (+1); *Focus* energy ray (1d6), radiance (1 min.)|*Illusion* (ring, 2 points)-*Resonant* distortion (10%); *Focus* minor figment (1 round)\"}",
+			"::mspell{title=Implements newLine data=\"*Evocation* (rod, 2 points)-*Resonant* intense focus (+1); *Focus* energy ray (1d6), radiance (1 min.)~*Illusion* (ring, 2 points)-*Resonant* distortion (10%); *Focus* minor figment (1 round)\"}",
 			"",
 			"::sh[Statistics]",
 			"",

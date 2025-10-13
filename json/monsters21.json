@@ -314,7 +314,7 @@
 			"",
 			"::moffense{sp=40 melee=\"greataxe +21/+16/+11 (2d6+12/19-20 plus 1d6 cold), headbutt +15 (1d6+4 plus stun)\" space=10 reach=10 specAtt=\"snowstorm (2d6 cold plus 2d6 slashing damage, DC 24)~stun (1 round, DC 24)\" next}",
 			"",
-			"::mspell{sla cl=13 con=+13 day=\"3~wall of ice|DC 14~~1~summon nature's ally VI|polar bear [dire bear] only\"}",
+			"::mspell{sla cl=13 con=+13 day=\"3~wall of ice|DC 14~~1~summon nature's ally VI|polar bear &#91&dire bear&#93& only\"}",
 			"",
 			"::sh[Statistics]",
 			"",
