@@ -85,7 +85,7 @@ export const makeMonsterStatisticsBlock = (marked2, linker, maybeClear, attrs, l
 	if(faith) {
 		output.push(doParse(`**Faith Link** [${faith}](faith/${linkify(faith)})`));
 	}
-	return `${maybeClear}<p${next ? ' className="no-bottom-margin"' : ""}>${output.join("<br>")}</p>`;
+	return `${maybeClear}<p className="statblockSubHeader">Statistics</p>\n<p${next ? ' className="no-bottom-margin"' : ""}>${output.join("<br>")}</p>`;
 };
 
 export default makeMonsterStatisticsBlock;

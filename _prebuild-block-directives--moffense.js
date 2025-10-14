@@ -225,7 +225,7 @@ export const makeMonsterOffenseBlock = (marked2, linker, maybeClear, attrs, logE
 	}
 	spAtt.sort((a,b) => a[0].localeCompare(b[0]));
 	output.push(doParse(`**Special Attacks** ${spAtt.map(sa => sa[1]).join(", ")}`));
-	return `${maybeClear}<p${next ? ' className="no-bottom-margin"' : ""}>${output.join("<br>")}</p>`;
+	return `${maybeClear}<p className="statblockSubHeader">Offense</p>\n<p${next ? ' className="no-bottom-margin"' : ""}>${output.join("<br>")}</p>`;
 };
 
 export const makeMonsterSpellBlock = (marked2, linker, maybeClear, attrs, logError) => {

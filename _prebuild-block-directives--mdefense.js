@@ -78,7 +78,7 @@ const makeMonsterDefenseBlock = (marked2, linker, maybeClear, attrs, logError) =
 	if(weak) {
 		output.push(doParse(`**Weaknesses** ${weak}`));
 	}
-	return `${maybeClear}<p>${output.join("<br>")}</p>`;
+	return `${maybeClear}<p className="statblockSubHeader">Defense</p>\n<p>${output.join("<br>")}</p>`;
 };
 
 export default makeMonsterDefenseBlock;
