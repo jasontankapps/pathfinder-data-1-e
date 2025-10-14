@@ -86,7 +86,7 @@ const checkForEncodedLink = (input, options = {}) => {
 	let temp = matched;
 	let linkmatched = "";
 	matched = "";
-	while(m = temp.match(/^(.*?)(?:\[(.*?)\]|«(.*?)»)(.*)$/)) {
+	while(m = temp.match(/^(.*?)(?:(?:\[|&#91[&;])(.*?)(?:\]|&#93[&;])|«(.*?)»)(.*)$/)) {
 		const [, pre, extraText, extraLink, post] = m;
 		matched = matched + pre + (extraText || "");
 		linkmatched = linkmatched + pre + (extraLink || "");
@@ -137,13 +137,52 @@ export const convertSpecialTextToLink = (input) => {
 	let temp = matched;
 	let linkmatched = "";
 	matched = "";
-	while(m = temp.match(/^(.*?)(?:\[(.*?)\]|«(.*?)»)(.*)$/)) {
+	while(m = temp.match(/^(.*?)(?:(?:\[|&#91[&;])(.*?)(?:\]|&#93[&;])|«(.*?)»)(.*)$/)) {
 		const [, pre, , extraLink, post] = m;
 		linkmatched = linkmatched + pre + (extraLink || "");
 		temp = post;
 	}
 	linkmatched = linkmatched + temp;
 	return convertTextToLink(linkmatched);
+};
+
+export const getCleanText = (input) => {
+	let m, matched = input;
+	// pre_<link
+	if(m = matched.match(/(^.*?)<(.*$)/)) {
+		matched = m[2];
+	}
+	// post>_link
+	if(m = matched.match(/(^.*)>(.*$)/)) {
+		matched = m[1];
+	}
+	// Double-slashes
+	while(m = matched.match(/(^.*?)[/]{2}(.*$)/)) {
+		matched = `${m[1]}=SLASH=${m[2]}`;
+	}
+	// Slashes in [brackets]
+	while(m = matched.match(/(^.*?\[[^\[\]]*)[/]([^\[\]]*\].*$)/)) {
+		matched = `${m[1]}=SLASH=${m[2]}`;
+	}
+	// pre|text
+	if(m = matched.match(/(^.*?)\|(.*$)/)) {
+		matched = m[1] + m[2];
+	}
+	// post/text
+	if(m = matched.match(/(^.*?)[/](.*$)/)) {
+		matched = m[1] + m[2];
+	}
+	// enclosed [extra]«link_and» text
+	let temp = matched;
+	let textmatched = "";
+	matched = "";
+	while(m = temp.match(/^(.*?)(?:(?:\[|&#91[&;])(.*?)(?:\]|&#93[&;])|«(.*?)»)(.*)$/)) {
+		const [, pre, bracketed, , post] = m;
+		textmatched = textmatched + pre + (bracketed || "");
+		temp = post;
+	}
+	textmatched = textmatched + temp;
+	return textmatched.replace(/=SLASH=/g, "/");
 };
 
 export default checkForEncodedLink;

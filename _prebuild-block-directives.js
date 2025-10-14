@@ -3,6 +3,7 @@ import makeSpellBlock from './_prebuild-block-directives--spell.js'
 import makeMonsterInfoBlock from './_prebuild-block-directives--minfo.js';
 import makeMonsterDefenseBlock from './_prebuild-block-directives--mdefense.js';
 import { makeMonsterFootnoteBlock, makeMonsterOffenseBlock, makeMonsterSpellBlock } from './_prebuild-block-directives--moffense.js';
+import makeMonsterStatisticsBlock from './_prebuild-block-directives--mstats.js';
 
 const churn = (n, attrs, list, logError) => {
 	const found = [];
@@ -1006,6 +1007,16 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				churn(n, attrs, ["clear"], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterFootnoteBlock(marked2, linker, text);
+			} else if (n === "mstats") {
+				churn(n, attrs, [
+					"clear", "str", "dex", "con", "int", "wis", "cha",
+					"bab", "cmb", "cmd",
+					"feats", "skills", "racial", "lang", "sq",
+					"combat", "othergear", "gear",
+					"faith", "next"
+				], logError);
+				const marked2 = makeNewMarkedInstance();
+				return makeMonsterStatisticsBlock(marked2, linker, maybeClear, attrs, logError);
 			} else if (n === "archetype") {
 				// Archetype
 				churn(n, attrs, ["clear", "c", "r", "e"], logError);
