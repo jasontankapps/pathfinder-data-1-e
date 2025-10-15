@@ -1284,7 +1284,9 @@
 			"",
 			"::moffense{sp=60 melee=\"gore +1 (1d4)\"}",
 			"",
-			"::mstats{str=10 dex=17 con=14 int=2 wis=13 cha=7 bab=+0 cmb=-1 cmd=\"12 (16 vs. trip)\" feats=\"Lightning Reflexes~Run#B\" skills=\"Perception +5\"}",
+			"::mstats{str=10 dex=17 con=14 int=2 wis=13 cha=7 bab=+0 cmb=-1 cmd=\"12 (16 vs. trip)\" feats=\"Lightning Reflexes~Run#B\" skills=\"Perception +5\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate or warm plains\" org=\"solitary, pair, or herd (3-50)\" treasure=none}",
 			"",
@@ -1298,9 +1300,7 @@
 			"",
 			"Of course, not all antelopes are Small. You can generate statistics for larger antelope species, such as elands or kudus, by advancing the antelope presented above by 2 Hit Dice and increasing its size category to Medium. All antelopes of this size are CR 1 creatures.",
 			"",
-			"**Family:** {family/Herd Animal}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Herd Animal}"
 		]
 	},
 	"antelope": { "redirect": "herd_animal_antelope" },
@@ -1477,7 +1477,9 @@
 			"",
 			"::moffense{sp=50 melee=\"gore +3 (1d6+2), 2 hooves -2 (1d3+1)\"}",
 			"",
-			"::mstats{str=14 dex=17 con=16 int=2 wis=15 cha=7 bab=+1 cmb=+3 cmd=\"16 (20 vs. trip)\" feats=\"Lightning Reflexes~Run#B\" skills=\"Perception +7\"}",
+			"::mstats{str=14 dex=17 con=16 int=2 wis=15 cha=7 bab=+1 cmb=+3 cmd=\"16 (20 vs. trip)\" feats=\"Lightning Reflexes~Run#B\" skills=\"Perception +7\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"cold or temperate plains\" org=\"solitary, pair, or herd (3-50)\" treasure=none}",
 			"",
@@ -1487,9 +1489,7 @@
 			"",
 			"Numerous species of elk exist. Some larger species can stand up to 6 feet tall at the shoulder and can be used as mounts by Medium humanoids; these elk have 3 Hit Dice and are Large. One particularly unusual species of elk, the river elk, is an excellent swimmer - these elk gain a swim speed of 30 feet. All elk of this size are CR 2 creatures.",
 			"",
-			"**Family:** {family/Herd Animal}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Herd Animal}"
 		]
 	},
 	"elk": { "redirect": "herd_animal_elk" },
@@ -1567,7 +1567,9 @@
 			"",
 			"::moffense{sp=50 sw=30 melee=\"gore +4 (1d8+3) or 2 hooves -1 (1d6+1)\" space=10 reach=5}",
 			"",
-			"::mstats{str=17 dex=15 con=18 int=2 wis=15 cha=6 bab=+2 cmb=+6 cmd=\"18 (22 vs. trip)\" feats=\"Endurance~Lightning Reflexes~Run#B\" skills=\"Perception +8~Swim +11\"}",
+			"::mstats{str=17 dex=15 con=18 int=2 wis=15 cha=6 bab=+2 cmb=+6 cmd=\"18 (22 vs. trip)\" feats=\"Endurance~Lightning Reflexes~Run#B\" skills=\"Perception +8~Swim +11\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"cold or temperate plains\" org=\"solitary, pair, or herd (3-50)\" treasure=none}",
 			"",
@@ -1583,9 +1585,7 @@
 			"",
 			"Similar in form to the elk but far superior in size is the megaloceros. The average male is a towering, dangerous creature with antlers that can alone weigh nearly 100 pounds. Unlike elk, megaloceros antlers are decidedly enormous and sometimes wider than their bodies are long. This leads to common misconceptions and exaggerations about the creature's monstrous size. Conveniently for those pursued, megaloceros males have difficultly navigating thickly forested areas, making them natives of plains and the woods' edge.",
 			"",
-			"**Family:** {family/Herd Animal}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Herd Animal}"
 		]
 	},
 	"river_elk": { "redirect": "herd_animal_river_elk" },
@@ -1603,7 +1603,9 @@
 			"",
 			"::moffense{sp=50 melee=\"gore +2 (1d6+1), 2 hooves -3 (1d4)\"}",
 			"",
-			"::mstats{str=13 dex=17 con=16 int=2 wis=15 cha=8 bab=+1 cmb=+2 cmd=\"15 (19 vs. trip)\" feats=\"Run#B~Skill Focus=Acrobatics\" skills=\"Acrobatics +10~Perception +6\"}",
+			"::mstats{str=13 dex=17 con=16 int=2 wis=15 cha=8 bab=+1 cmb=+2 cmd=\"15 (19 vs. trip)\" feats=\"Run#B~Skill Focus=Acrobatics\" skills=\"Acrobatics +10~Perception +6\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any land\" org=\"solitary, pair, or herd (3-20)\" treasure=none}",
 			"",
@@ -1613,9 +1615,7 @@
 			"",
 			"The stat block shown above represents a male deer (a stag). Unlike caribou and other similar animals, female deer only rarely grow antlers, thus they lack gore attacks. Stags are approximately 6 feet long from nose to tail and weigh up to 350 pounds.",
 			"",
-			"**Family:** {family/Herd Animal}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Herd Animal}"
 		]
 	},
 	"stag": { "redirect": "herd_animal_stag" },

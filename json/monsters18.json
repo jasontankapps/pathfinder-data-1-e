@@ -116,7 +116,9 @@
 			"",
 			"::mspell{sla cl=18 con=+28 constant=\"death ward~foresight~greater arcane sight~mind blank~tongues~true seeing\" atWill=\"bestow curse|DC 23~divination~greater dispel magic~geas/quest~vision~wind walk|self only\" day=\"1~maze~moment of prescience~!quickened %%spell/phantasmal killer%% (DC 24)~power word kill~time stop~weird|DC 29\"}",
 			"",
-			"::mstats{str=25 dex=14 con=30 int=21 wis=24 cha=31 bab=+10 cmb=+18 cmd=40 feats=\"Combat Expertise~Combat Reflexes~Diehard#B~Great Fortitude~Improved Great Fortitude~Improved Initiative~Improved Iron Will~Improved Lightning Reflexes~Iron Will~Lightning Reflexes~Quicken Spell-Like Ability=phantasmal killer\" skills=\"Bluff +23~Craft (cloth) +18~Heal +11~Intimidate +30~Knowledge (all) +18~Perception +30~Perform (oratory) +18~Sense Motive +30~Use Magic Device +23\" lang=\"Common, Giant, Sylvan; *tongues*\" sq=\"%%umr/change shape%% (humanoid; %%spell/alter self%% or %%spell/giant form II%%)\"}",
+			"::mstats{str=25 dex=14 con=30 int=21 wis=24 cha=31 bab=+10 cmb=+18 cmd=40 feats=\"Combat Expertise~Combat Reflexes~Diehard#B~Great Fortitude~Improved Great Fortitude~Improved Initiative~Improved Iron Will~Improved Lightning Reflexes~Iron Will~Lightning Reflexes~Quicken Spell-Like Ability=phantasmal killer\" skills=\"Bluff +23~Craft (cloth) +18~Heal +11~Intimidate +30~Knowledge (all) +18~Perception +30~Perform (oratory) +18~Sense Motive +30~Use Magic Device +23\" lang=\"Common, Giant, Sylvan; *tongues*\" sq=\"%%umr/change shape%% (humanoid; %%spell/alter self%% or %%spell/giant form II%%)\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"cold mountains\" org=\"solitary, pair, or trio\" treasure=\"double=+3 %%eq-armor/hide armor%%, %%eq-misc/shears%%, golden thread worth 500 gp, other treasure\"}",
 			"",
@@ -134,9 +136,7 @@
 			"",
 			"Ancient beyond imagining, the norns are a race of powerful women who hold in their hands the physical manifestation of fate and destiny in the form of golden thread. They watch over all life, intervening with reluctance when called upon or with a vengeance when the strands of fate are twisted and abused by lesser beings. Worshiped as gods by some, the norns do little to discourage this veneration.",
 			"",
-			"A norn stands 14 feet tall and weighs 800 pounds.",
-			"",
-			"[^B]: Bonus feat."
+			"A norn stands 14 feet tall and weighs 800 pounds."
 		]
 	},
 	"nuckelavee": {
@@ -390,7 +390,9 @@
 			"",
 			"::mspell{sla cl=14 con=+21 atWill=\"entangle|DC 18~enthrall|DC 19~goodberry~mage hand~obscuring mist\" day=\"3~command plants|DC 21~giant vermin~hallucinatory terrain|DC 21~helping hand~move earth~rainbow pattern|DC 21~soften earth and stone|DC 19~spike growth|DC 20~tree stride~~1~animate plants~creeping doom|DC 24~find the path~legend lore~mage's magnificent mansion~reincarnate\"}",
 			"",
-			"::mstats{str=\"-\" dex=23 con=\"-\" int=19 wis=18 cha=25 bab=+10 cmb=+16 cmd=\"33 (can't be tripped)\" feats=\"Alertness~Flyby Attack~Improved Initiative#B~Iron Will~Lunge~Skill Focus=Perform &#91&oratory&#93&~Step Up~Toughness\" skills=\"Appraise +21~Bluff +24~Craft (alchemy) +10~Diplomacy +15~Fly +18~Knowledge (dungeoneering) +10~Knowledge (geography) +15~Knowledge (history) +15~Knowledge (local) +15~Knowledge (nature) +15~Knowledge (religion) +10~Perception +21~Perform (oratory) +30~Sense Motive +24\" lang=\"Common, Polyglot, Sylvan; *speak with animals,* speak with vermin\" sq=\"unnatural aura\"}",
+			"::mstats{str=\"-\" dex=23 con=\"-\" int=19 wis=18 cha=25 bab=+10 cmb=+16 cmd=\"33 (can't be tripped)\" feats=\"Alertness~Flyby Attack~Improved Initiative#B~Iron Will~Lunge~Skill Focus=Perform &#91&oratory&#93&~Step Up~Toughness\" skills=\"Appraise +21~Bluff +24~Craft (alchemy) +10~Diplomacy +15~Fly +18~Knowledge (dungeoneering) +10~Knowledge (geography) +15~Knowledge (history) +15~Knowledge (local) +15~Knowledge (nature) +15~Knowledge (religion) +10~Perception +21~Perform (oratory) +30~Sense Motive +24\" lang=\"Common, Polyglot, Sylvan; *speak with animals,* speak with vermin\" sq=\"unnatural aura\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm forests\" org=\"solitary or tribe (1 plus 1-2 %%monster/giant flytrap/s%% or 1-3 %%monster/shambling mound/s%%)\" treasure=standard}",
 			"",
@@ -408,9 +410,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"When a person wise in the lore of the jungle dies and is not buried or given a funeral, the jungle itself may embrace her spirit, creating an obambo (\"forsaken one\"). The embittered spirit seeps into the ground, the roots of plants, and the crawling things beneath, becoming one with the jungle itself. An obambo is cunning, spiteful, and treacherous, but it remembers its old role of teacher and storyteller, a duty and an obligation it both loves and loathes. While dealing with an obambo is dangerous, they are known to assist those in need, if supplicants can meet the obambo's price.",
-			"",
-			"[^B]: Bonus feat."
+			"When a person wise in the lore of the jungle dies and is not buried or given a funeral, the jungle itself may embrace her spirit, creating an obambo (\"forsaken one\"). The embittered spirit seeps into the ground, the roots of plants, and the crawling things beneath, becoming one with the jungle itself. An obambo is cunning, spiteful, and treacherous, but it remembers its old role of teacher and storyteller, a duty and an obligation it both loves and loathes. While dealing with an obambo is dangerous, they are known to assist those in need, if supplicants can meet the obambo's price."
 		]
 	},
 	"oblivion": {
@@ -587,7 +587,9 @@
 			"",
 			"::moffense{sp=20 sw=30 jet=200 melee=\"bite +5 (1d3+1 plus poison), tentacles +3 (%%umr/grab%%)\"}",
 			"",
-			"::mstats{str=12 dex=17 con=14 int=2 wis=13 cha=3 bab=+1 cmb=\"+1 (+5 grapple)\" cmd=\"14 (can't be tripped)\" feats=\"Multiattack#B~Weapon Finesse\" skills=\"Escape Artist +13~Stealth +20~Swim +9\" racial=\"+8 Stealth, +10 Escape Artist\"}",
+			"::mstats{str=12 dex=17 con=14 int=2 wis=13 cha=3 bab=+1 cmb=\"+1 (+5 grapple)\" cmd=\"14 (can't be tripped)\" feats=\"Multiattack#B~Weapon Finesse\" skills=\"Escape Artist +13~Stealth +20~Swim +9\" racial=\"+8 Stealth, +10 Escape Artist\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate or cold ocean\" org=solitary treasure=none}",
 			"",
@@ -603,9 +605,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"The octopus is a cunning animal capable of using complex tactics to get food.",
-			"",
-			"[^B]: Bonus feat."
+			"The octopus is a cunning animal capable of using complex tactics to get food."
 		]
 	},
 	"octopus_giant_octopus": {
@@ -622,7 +622,9 @@
 			"",
 			"::moffense{sp=20 sw=30 jet=200 melee=\"bite +13 (1d8+5 plus poison), 8 tentacles +11 (1d4+2 plus %%umr/grab%%)\" space=10 reach=10 reachP=\"20 ft. with tentacle\"}",
 			"",
-			"::mstats{str=20 dex=15 con=17 int=2 wis=12 cha=3 bab=+9 cmb=\"+15 (+19 grapple)\" cmd=\"27 (can't be tripped)\" feats=\"Combat Reflexes~Improved Initiative~Iron Will~Lightning Reflexes~Multiattack#B~Skill Focus=Stealth~Stealthy\" skills=\"Escape Artist +18~Perception +8~Stealth +18~Swim +13\" racial=\"+10 Escape Artist, +8 Stealth\"}",
+			"::mstats{str=20 dex=15 con=17 int=2 wis=12 cha=3 bab=+9 cmb=\"+15 (+19 grapple)\" cmd=\"27 (can't be tripped)\" feats=\"Combat Reflexes~Improved Initiative~Iron Will~Lightning Reflexes~Multiattack#B~Skill Focus=Stealth~Stealthy\" skills=\"Escape Artist +18~Perception +8~Stealth +18~Swim +13\" racial=\"+10 Escape Artist, +8 Stealth\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any ocean\" org=solitary treasure=incidental}",
 			"",
@@ -634,9 +636,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"The giant octopus is a true monster capable of catching and eating sharks, humans, or anything else it can grab with its tentacles.",
-			"",
-			"[^B]: Bonus feat."
+			"The giant octopus is a true monster capable of catching and eating sharks, humans, or anything else it can grab with its tentacles."
 		]
 	},
 	"octopus_giant": { "redirect": "octopus_giant_octopus" },

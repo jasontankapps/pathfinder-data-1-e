@@ -171,7 +171,9 @@
 			"",
 			"::mspell{sla cl=14 con=+23 constant=\"detect evil~detect good~detect chaos~true seeing\" day=\"3~!quickened %%spell/ear-piercing scream%% (DC 20)~~1~dominate monster\"}",
 			"",
-			"::mstats{str=36 dex=22 con=29 int=11 wis=24 cha=29 bab=+20 cmb=\"+35 (+37 bull rush)\" cmd=\"51 (53 vs. bull rush, 55 vs. trip)\" feats=\"Blind-Fight~Critical Focus~Improved Bull Rush~Improved Critical=bite~Improved Initiative~Lightning Reflexes~Lunge~Power Attack~Quicken Spell-Like Ability#B=ear-piercing scream~Staggering Critical\" skills=\"Climb +24~Intimidate +30~Knowledge (planes) +20~Knowledge (religion) +20~Perception +30~Sense Motive +30~Stealth +21\" lang=\"Celestial, Infernal; %%umr/telepathy%% 100 ft.\"}",
+			"::mstats{str=36 dex=22 con=29 int=11 wis=24 cha=29 bab=+20 cmb=\"+35 (+37 bull rush)\" cmd=\"51 (53 vs. bull rush, 55 vs. trip)\" feats=\"Blind-Fight~Critical Focus~Improved Bull Rush~Improved Critical=bite~Improved Initiative~Lightning Reflexes~Lunge~Power Attack~Quicken Spell-Like Ability#B=ear-piercing scream~Staggering Critical\" skills=\"Climb +24~Intimidate +30~Knowledge (planes) +20~Knowledge (religion) +20~Perception +30~Sense Motive +30~Stealth +21\" lang=\"Celestial, Infernal; %%umr/telepathy%% 100 ft.\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (Osirion)\" org=solitary treasure=none}",
 			"",
@@ -207,9 +209,7 @@
 			"",
 			"The origin of the ammuts is shrouded in mystery, though it's thought that they descended from a single creature of their kind that was more powerful than all existing ammuts combined. This mythical ammut is sometimes referred to in Ancient Osiriani scrolls where it has the position of judging the souls of the dead - a role already assumed by Pharasma. Because of this conflict, scholars argue about the creatures' true origin.",
 			"",
-			"Though it is generally agreed that ammuts migrated to Golarion from another plane long ago, many scholars disagree on the exact planar origin. Some scholars claim that ammuts are perhaps descended from a race of devils, while others claim the lineage stems from the divs. The most logical association of a fiendish origin is rooted in daemonkind. That ammuts are connected with souls and have the ability to utterly consume them certainly lends to this hypothesis.",
-			"",
-			"[^B]: Bonus feat."
+			"Though it is generally agreed that ammuts migrated to Golarion from another plane long ago, many scholars disagree on the exact planar origin. Some scholars claim that ammuts are perhaps descended from a race of devils, while others claim the lineage stems from the divs. The most logical association of a fiendish origin is rooted in daemonkind. That ammuts are connected with souls and have the ability to utterly consume them certainly lends to this hypothesis."
 		]
 	},
 	"amoeba_amoeba_swarm": {
@@ -1535,7 +1535,9 @@
 			"",
 			"::mspell{sla cl=6 con=+10 constant=\"speak with animals\" atWill=\"dancing lights~reduce person|DC 15\" day=\"3~invisibility|self only~~1~shrink item\"}",
 			"",
-			"::mstats{str=6 dex=17 con=13 int=11 wis=14 cha=18 bab=+1 cmb=+0 cmd=8 feats=\"Improved Initiative#B~Weapon Finesse\" skills=\"Acrobatics +8 (+4 when jumping)~Bluff +9~Escape Artist +7~Fly +18~Perception +7~Sense Motive +6~Stealth +20\" lang=\"Common, Sylvan; *speak with animals*\"}",
+			"::mstats{str=6 dex=17 con=13 int=11 wis=14 cha=18 bab=+1 cmb=+0 cmd=8 feats=\"Improved Initiative#B~Weapon Finesse\" skills=\"Acrobatics +8 (+4 when jumping)~Bluff +9~Escape Artist +7~Fly +18~Perception +7~Sense Motive +6~Stealth +20\" lang=\"Common, Sylvan; *speak with animals*\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any temperate\" org=\"solitary, pair, gang (3-6), or band (7-14)\" treasure=\"standard=%%eq-weapon/rapier%%, other treasure\"}",
 			"",
@@ -1547,9 +1549,7 @@
 			"",
 			"These nimble creatures adore swordplay and practice with their blades endlessly. Atomies often travel their lands seeking adventure tinged with mischief. Sensitive to bullying and oppression, atomies revel in turning the tables on a cruel mayor or tormenting dishonorable mercenary bands. Atomies, enamored with tales of epic duels and the defeat of great evils, sometimes follow adventuring parties and eavesdrop on their nightly tales by the campfire. If a warrior in the group tends to boast of his swordplay, an atomie rarely resists the urge to humble him by sabotaging his equipment or invisibly reducing him and challenging him to a duel.",
 			"",
-			"Atomies get along well with grigs, and it is not uncommon to see the two types of creatures banding together for defense or companionship. Some sages claim the two creatures share a past link, pointing out their similar insectile wings. Anyone questioning an atomie or grig about this theory is greeted with bouts of shrill tiny laughter. An atomie stands just under a foot tall and weighs 2 pounds.",
-			"",
-			"[^B]: Bonus feat."
+			"Atomies get along well with grigs, and it is not uncommon to see the two types of creatures banding together for defense or companionship. Some sages claim the two creatures share a past link, pointing out their similar insectile wings. Anyone questioning an atomie or grig about this theory is greeted with bouts of shrill tiny laughter. An atomie stands just under a foot tall and weighs 2 pounds."
 		]
 	},
 	"attic_whisperer": {

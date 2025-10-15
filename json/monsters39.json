@@ -307,7 +307,9 @@
 			"",
 			"::moffense{sp=40 cl=40 melee=\"bite +4 (1d3-3 plus poison)\" space=\"2-1/2\" reach=5 specAtt=poison}",
 			"",
-			"::mstats{str=5 dex=15 con=10 int=\"-\" wis=10 cha=2 bab=+0 cmb=+0 cmd=7 feats=\"Lunge#B~Weapon Finesse#B\" skills=\"Climb +5\" sq=\"%%umr/compression%%, water skating\"}",
+			"::mstats{str=5 dex=15 con=10 int=\"-\" wis=10 cha=2 bab=+0 cmb=+0 cmd=7 feats=\"Lunge#B~Weapon Finesse#B\" skills=\"Climb +5\" sq=\"%%umr/compression%%, water skating\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, pair, or colony (3-12)\" treasure=incidental}",
 			"",
@@ -323,9 +325,7 @@
 			"",
 			"Already a tiny creature, the drain spider has the ability to compress its legs and body even further, allowing it to lurk in pipes, niches, and (its favorite hideout) sink or tub drains with ease. The sewers below Korvosa are infested with drain spiders in certain places. In the wild, drain spiders prefer to hunt in swamps or along river banks, but they have adapted readily to urban life in Korvosa and now infest numerous nooks and crannies in the city's lower-class quarters, particularly along the waterfronts.",
 			"",
-			"A variant of the drain spider, known as the shingle spider, exists in Korvosa as well. Shingle spiders dwell in the upper reaches of the city, particularly enjoying the chimneys and gutters of abandoned buildings as a place to make their nests. Shingle spiders retain the drain spider's water skating ability, although they rarely have the opportunity to use it.",
-			"",
-			"[^B]: Bonus feat."
+			"A variant of the drain spider, known as the shingle spider, exists in Korvosa as well. Shingle spiders dwell in the upper reaches of the city, particularly enjoying the chimneys and gutters of abandoned buildings as a place to make their nests. Shingle spiders retain the drain spider's water skating ability, although they rarely have the opportunity to use it."
 		]
 	},
 	"spider_drain": { "redirect": "spider_drain_spider" },
@@ -618,7 +618,9 @@
 			"",
 			"::moffense{sp=30 cl=30 melee=\"bite +7 (1d3-4 plus poison)\" space=\"2-1/2\" reach=0 specAtt=poison}",
 			"",
-			"::mstats{str=3 dex=21 con=10 int=\"-\" wis=10 cha=2 bab=+0 cmb=+3 cmd=\"9 (21 vs. trip)\" feats=\"Weapon Finesse#B\" skills=\"Acrobatics +13~Climb +21~Perception +4~Stealth +17\" racial=\"+8 Acrobatics, +8 Climb, +4 Perception, +4 Stealth\"}",
+			"::mstats{str=3 dex=21 con=10 int=\"-\" wis=10 cha=2 bab=+0 cmb=+3 cmd=\"9 (21 vs. trip)\" feats=\"Weapon Finesse#B\" skills=\"Acrobatics +13~Climb +21~Perception +4~Stealth +17\" racial=\"+8 Acrobatics, +8 Climb, +4 Perception, +4 Stealth\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, pair, or colony (3-8)\" treasure=none}",
 			"",
@@ -632,9 +634,7 @@
 			"",
 			"Scarlet spiders are small arachnids with bright red bodies and black legs. Because they are hunting spiders, scarlet spiders don't have a web attack.",
 			"",
-			"**Family:** {family/Familiar}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"spider_scarlet": { "redirect": "spider_scarlet_spider" },
@@ -1303,7 +1303,9 @@
 			"",
 			"::moffense{sp=20 cl=30 melee=\"bite +5 (1d4+1), 2 claws +5 (1d3+1), sting +5 (1d3+1 plus poison)\" space=5 reach=5 reachP=\"10 ft. with sting\" specAtt=\"poison~swarming\"}",
 			"",
-			"::mstats{str=12 dex=18 con=17 int=4 wis=9 cha=7 bab=+3 cmb=\"+3 (+6 grapple)\" cmd=\"17 (20 vs. grapple)\" feats=\"Improved Grapple#B~Iron Will~Weapon Finesse\" skills=\"Acrobatics +5 (+13 when jumping)~Climb +10~Perception +4\" racial=\"+8 Acrobatics when jumping\" sq=cradling}",
+			"::mstats{str=12 dex=18 con=17 int=4 wis=9 cha=7 bab=+3 cmb=\"+3 (+6 grapple)\" cmd=\"17 (20 vs. grapple)\" feats=\"Improved Grapple#B~Iron Will~Weapon Finesse\" skills=\"Acrobatics +5 (+13 when jumping)~Climb +10~Perception +4\" racial=\"+8 Acrobatics when jumping\" sq=cradling next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate or warm forests\" org=\"pair, gang (3-4), or troop (5-12)\" treasure=standard}",
 			"",
@@ -1337,9 +1339,7 @@
 			"",
 			"Despite their barest semblance of intellect, canopy trolls show unusual curiosity, and love to pull things apart - animals and humanoids included - to see what may be inside. They find mechanisms and musical instruments especially fascinating, and an entire troop may take to fighting with each other over a newly discovered harp or horn. They also like to adorn themselves with finery, though any treasures they gather rarely last long as the creatures swing through the branches and pile into their filthy nests. Generally, only magical treasures and small pieces of jewelry retain any value after more than a day in the hands of a canopy troll. This same curiosity makes the creatures especially vulnerable to so-called monkey traps, as once they take hold of a valuable, they rarely willingly let go; clever hunters can snare the monsters simply by dropping shiny coins into a hole just large enough to slide a troll hand into - and too small to pull a coin-filled fist back through. They speak a pidgin of Giant, composed largely of insults and vulgarities, as well as a number of words for food.",
 			"",
-			"Canopy trolls are simpleminded even compared to average trolls, living more like animals than humanoids in ape-like troops. A troop selects the largest tree in its territory as a nest site, building rough nests of leaves and grasses and dangling ugly dolls tied from animal bones into the branches. Canopy trolls have little concern for one another, flocking together simply because their preferred hunting tactic - piling onto a single creature until the poor beast can barely move or breathe under the weight - requires large numbers. They hash out a rough pecking order through constant bullying, and after large meals the troop generally falls to infighting to more formally determine the leader for the next few days. Affection and compassion are alien concepts, with each member of the group constantly sniffing out weaknesses to exploit in its neighbors. Troops sometimes gather around an outsider - usually a larger troll but occasionally another large predator - deferring to that individual as temporary leader until they grow restless, hungry, or bored, whereupon they turn their provisional leader into a meal.",
-			"",
-			"[^B]: Bonus feat."
+			"Canopy trolls are simpleminded even compared to average trolls, living more like animals than humanoids in ape-like troops. A troop selects the largest tree in its territory as a nest site, building rough nests of leaves and grasses and dangling ugly dolls tied from animal bones into the branches. Canopy trolls have little concern for one another, flocking together simply because their preferred hunting tactic - piling onto a single creature until the poor beast can barely move or breathe under the weight - requires large numbers. They hash out a rough pecking order through constant bullying, and after large meals the troop generally falls to infighting to more formally determine the leader for the next few days. Affection and compassion are alien concepts, with each member of the group constantly sniffing out weaknesses to exploit in its neighbors. Troops sometimes gather around an outsider - usually a larger troll but occasionally another large predator - deferring to that individual as temporary leader until they grow restless, hungry, or bored, whereupon they turn their provisional leader into a meal."
 		]
 	},
 	"canopy_troll": { "redirect": "troll_canopy_troll" },

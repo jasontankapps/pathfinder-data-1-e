@@ -607,7 +607,9 @@
 			"",
 			"::mspell{sla cl=10 con=+10 constant=\"deathwatch~freedom of movement\" atWill=rage day=\"3~divine power~~1~heroes' feast\"}",
 			"",
-			"::mstats{str=19 dex=16 con=19 int=10 wis=14 cha=11 bab=+13 cmb=+17 cmd=30 feats=\"Combat Reflexes~Improved Initiative~Improved Iron Will#B~Iron Will~Power Attack~Stand Still~Step Up~Strike Back\" skills=\"Intimidate +16~Knowledge (engineering) +16~Knowledge (planes) +16~Perception +18~Ride +16~Survival +18\" lang=\"Celestial, Common\" sq=\"battle-trained, thirst for battle\"}",
+			"::mstats{str=19 dex=16 con=19 int=10 wis=14 cha=11 bab=+13 cmb=+17 cmd=30 feats=\"Combat Reflexes~Improved Initiative~Improved Iron Will#B~Iron Will~Power Attack~Stand Still~Step Up~Strike Back\" skills=\"Intimidate +16~Knowledge (engineering) +16~Knowledge (planes) +16~Perception +18~Ride +16~Survival +18\" lang=\"Celestial, Common\" sq=\"battle-trained, thirst for battle\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, squad (3-6), or warband (7-16)\" treasure=\"triple=+2 %%eq-armor/scale mail%%, +2 %%eq-armor/heavy wooden shield%%, +2 %%eq-weapon/battleaxe%%, masterwork %%eq-weapon/throwing axe%%\"}",
 			"",
@@ -625,9 +627,7 @@
 			"",
 			"Like valkyries, einherjar can serve a variety of deities, not just gods of war, conflict, and valor, but also those of love, beauty, life, and others not thought of as combative. Einherjar pride themselves on prowess in battle, and forever seek to prove themselves by challenging worthy foes.",
 			"",
-			"Einherjar can be either male or female, and normally appear as muscled, battle-hardened humans, dwarves, or elves. A typical einherji stands 7 feet tall and weighs around 300 pounds.",
-			"",
-			"[^B]: Bonus feat."
+			"Einherjar can be either male or female, and normally appear as muscled, battle-hardened humans, dwarves, or elves. A typical einherji stands 7 feet tall and weighs around 300 pounds."
 		]
 	},
 	"ekekeh": {
@@ -760,15 +760,15 @@
 			"",
 			"::moffense{fl=60 good melee=\"2 slams +20 (2d8+6)\" ranged=\"telekinetic throw +25 (10d6+7/19-20)\" space=15 reach=15 specAtt=\"telekinetic maneuver~telekinetic throw (DC 19)\"}",
 			"",
-			"::mstats{str=22 dex=33 con=24 int=10 wis=11 cha=11 bab=+16 cmb=+24 cmd=51 feats=\"Combat Reflexes~Deadly Aim~Improved Critical=telekinetic throw~Improved Initiative#B~Improved Iron Will~Improved Precise Shot~Iron Will~Point-Blank Shot~Precise Shot\" skills=\"Acrobatics +30~Escape Artist +30~Fly +30~Knowledge (planes) +19~Perception +19~Stealth +22\" sq=\"telekinetic invisibility\" lang=\"Aquan, Auran, Ignan, Terran\"}",
+			"::mstats{str=22 dex=33 con=24 int=10 wis=11 cha=11 bab=+16 cmb=+24 cmd=51 feats=\"Combat Reflexes~Deadly Aim~Improved Critical=telekinetic throw~Improved Initiative#B~Improved Iron Will~Improved Precise Shot~Iron Will~Point-Blank Shot~Precise Shot\" skills=\"Acrobatics +30~Escape Artist +30~Fly +30~Knowledge (planes) +19~Perception +19~Stealth +22\" sq=\"telekinetic invisibility\" lang=\"Aquan, Auran, Ignan, Terran\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Ethereal Plane%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
 			"::sh[Description]",
 			"",
-			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
-			"",
-			"[^B]: Bonus feat."
+			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
 		]
 	},
 	"elder_aether_elemental": { "redirect": "elemental_aether_elder_aether_elemental" },
@@ -784,15 +784,15 @@
 			"",
 			"::moffense{fl=60 good melee=\"2 slams +16 (2d8+5)\" ranged=\"telekinetic throw +21 (8d6+7/19-20)\" space=15 reach=15 specAtt=\"telekinetic maneuver~telekinetic throw (DC 18)\"}",
 			"",
-			"::mstats{str=20 dex=31 con=22 int=8 wis=11 cha=11 bab=+13 cmb=+20 cmd=46 feats=\"Deadly Aim~Improved Critical=telekinetic throw~Improved Initiative#B~Improved Iron Will~Improved Precise Shot~Iron Will~Point-Blank Shot~Precise Shot\" skills=\"Acrobatics +26~Fly +26~Knowledge (planes) +15~Perception +16~Stealth +18\" sq=\"telekinetic invisibility\" lang=\"Aquan, Auran, Ignan, Terran\"}",
+			"::mstats{str=20 dex=31 con=22 int=8 wis=11 cha=11 bab=+13 cmb=+20 cmd=46 feats=\"Deadly Aim~Improved Critical=telekinetic throw~Improved Initiative#B~Improved Iron Will~Improved Precise Shot~Iron Will~Point-Blank Shot~Precise Shot\" skills=\"Acrobatics +26~Fly +26~Knowledge (planes) +15~Perception +16~Stealth +18\" sq=\"telekinetic invisibility\" lang=\"Aquan, Auran, Ignan, Terran\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Ethereal Plane%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
 			"::sh[Description]",
 			"",
-			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
-			"",
-			"[^B]: Bonus feat."
+			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
 		]
 	},
 	"greater_aether_elemental": { "redirect": "elemental_aether_greater_aether_elemental" },
@@ -808,15 +808,15 @@
 			"",
 			"::moffense{fl=60 good melee=\"2 slams +12 (2d6+4)\" ranged=\"telekinetic throw +17 (6d6+7/19-20)\" space=15 reach=15 specAtt=\"telekinetic maneuver~telekinetic throw (DC 17)\"}",
 			"",
-			"::mstats{str=18 dex=29 con=20 int=6 wis=11 cha=11 bab=+10 cmb=+16 cmd=40 feats=\"Improved Critical=telekinetic throw~Improved Initiative#B~Improved Iron Will~Iron Will~Point-Blank Shot~Precise Shot\" skills=\"Acrobatics +22~Fly +22~Perception +13~Stealth +14\" sq=\"telekinetic invisibility\" lang=\"Aquan, Auran, Ignan, Terran\"}",
+			"::mstats{str=18 dex=29 con=20 int=6 wis=11 cha=11 bab=+10 cmb=+16 cmd=40 feats=\"Improved Critical=telekinetic throw~Improved Initiative#B~Improved Iron Will~Iron Will~Point-Blank Shot~Precise Shot\" skills=\"Acrobatics +22~Fly +22~Perception +13~Stealth +14\" sq=\"telekinetic invisibility\" lang=\"Aquan, Auran, Ignan, Terran\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Ethereal Plane%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
 			"::sh[Description]",
 			"",
-			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
-			"",
-			"[^B]: Bonus feat."
+			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
 		]
 	},
 	"huge_aether_elemental": { "redirect": "elemental_aether_huge_aether_elemental" },
@@ -832,15 +832,15 @@
 			"",
 			"::moffense{fl=60 good melee=\"2 slams +10 (1d8+3)\" ranged=\"telekinetic throw +14 (4d6+6)\" space=10 reach=10 specAtt=\"telekinetic maneuver~telekinetic throw (DC 16)\"}",
 			"",
-			"::mstats{str=16 dex=25 con=18 int=6 wis=11 cha=11 bab=+8 cmb=+12 cmd=33 feats=\"Improved Initiative#B~Improved Iron Will~Iron Will~Point-Blank Shot~Precise Shot\" skills=\"Acrobatics +18~Fly +20~Perception +11~Stealth +14\" sq=\"telekinetic invisibility\" lang=\"Aquan, Auran, Ignan, Terran\"}",
+			"::mstats{str=16 dex=25 con=18 int=6 wis=11 cha=11 bab=+8 cmb=+12 cmd=33 feats=\"Improved Initiative#B~Improved Iron Will~Iron Will~Point-Blank Shot~Precise Shot\" skills=\"Acrobatics +18~Fly +20~Perception +11~Stealth +14\" sq=\"telekinetic invisibility\" lang=\"Aquan, Auran, Ignan, Terran\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Ethereal Plane%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
 			"::sh[Description]",
 			"",
-			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
-			"",
-			"[^B]: Bonus feat."
+			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
 		]
 	},
 	"large_aether_elemental": { "redirect": "elemental_aether_large_aether_elemental" },
@@ -856,15 +856,15 @@
 			"",
 			"::moffense{fl=60 good melee=\"slam +6 (1d6+3)\" ranged=\"telekinetic throw +8 (2d6+2)\" specAtt=\"telekinetic maneuver~telekinetic throw (DC 16)\"}",
 			"",
-			"::mstats{str=14 dex=19 con=16 int=4 wis=11 cha=11 bab=+4 cmb=+6 cmd=23 feats=\"Improved Initiative#B~Iron Will~Point-Blank Shot\" skills=\"Acrobatics +9~Fly +13~Perception +7~Stealth +11\" sq=\"telekinetic invisibility\" lang=\"Aquan, Auran, Ignan, Terran\"}",
+			"::mstats{str=14 dex=19 con=16 int=4 wis=11 cha=11 bab=+4 cmb=+6 cmd=23 feats=\"Improved Initiative#B~Iron Will~Point-Blank Shot\" skills=\"Acrobatics +9~Fly +13~Perception +7~Stealth +11\" sq=\"telekinetic invisibility\" lang=\"Aquan, Auran, Ignan, Terran\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Ethereal Plane%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
 			"::sh[Description]",
 			"",
-			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
-			"",
-			"[^B]: Bonus feat."
+			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
 		]
 	},
 	"medium_aether_elemental": { "redirect": "elemental_aether_medium_aether_elemental" },
@@ -882,15 +882,15 @@
 			"",
 			"::moffense{fl=60 good melee=\"slam +4 (1d4+1)\" ranged=\"telekinetic throw +5 (1d8+2)\" specAtt=\"telekinetic maneuver~telekinetic throw (DC 12)\"}",
 			"",
-			"::mstats{str=12 dex=15 con=12 int=4 wis=11 cha=11 bab=+2 cmb=+2 cmd=15 feats=\"Improved Initiative#B~Point-Blank Shot\" skills=\"Acrobatics +6~Fly +12~Perception +5~Stealth +11\" sq=\"telekinetic invisibility\" lang=\"Aquan, Auran, Ignan, Terran\"}",
+			"::mstats{str=12 dex=15 con=12 int=4 wis=11 cha=11 bab=+2 cmb=+2 cmd=15 feats=\"Improved Initiative#B~Point-Blank Shot\" skills=\"Acrobatics +6~Fly +12~Perception +5~Stealth +11\" sq=\"telekinetic invisibility\" lang=\"Aquan, Auran, Ignan, Terran\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Ethereal Plane%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
 			"::sh[Description]",
 			"",
-			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
-			"",
-			"[^B]: Bonus feat."
+			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes."
 		]
 	},
 	"small_aether_elemental": { "redirect": "elemental_aether_small_aether_elemental" },
@@ -906,7 +906,9 @@
 			"",
 			"::moffense{fl=100 perfect melee=\"2 slams +25 (2d8+9)\" space=15 reach=15 whirlwind=\"DC 27\"}",
 			"",
-			"::mstats{str=28 dex=33 con=18 int=10 wis=11 cha=11 bab=+16 cmb=+27 cmd=49 feats=\"Blind-Fight~Cleave~Combat Reflexes~Dodge~Flyby Attack~Improved Initiative#B~Iron Will~Mobility~Power Attack~Weapon Finesse#B\" skills=\"Acrobatics +30~Escape Artist +30~Fly +34~Knowledge (planes) +19~Perception +19~Stealth +22\"}",
+			"::mstats{str=28 dex=33 con=18 int=10 wis=11 cha=11 bab=+16 cmb=+27 cmd=49 feats=\"Blind-Fight~Cleave~Combat Reflexes~Dodge~Flyby Attack~Improved Initiative#B~Iron Will~Mobility~Power Attack~Weapon Finesse#B\" skills=\"Acrobatics +30~Escape Artist +30~Fly +34~Knowledge (planes) +19~Perception +19~Stealth +22\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"%%rule/Plane of Air%%\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -914,9 +916,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Air Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Air Elemental}"
 		]
 	},
 	"elder_air_elemental": { "redirect": "elemental_air_elder_air_elemental" },
@@ -932,7 +932,9 @@
 			"",
 			"::moffense{fl=100 perfect melee=\"2 slams +21 (2d8+7)\" space=15 reach=15 whirlwind=\"DC 23\"}",
 			"",
-			"::mstats{str=24 dex=31 con=18 int=8 wis=11 cha=11 bab=+13 cmb=+22 cmd=43 feats=\"Blind-Fight~Combat Reflexes~Dodge~Flyby Attack~Improved Initiative#B~Iron Will~Mobility~Power Attack~Weapon Finesse#B\" skills=\"Acrobatics +25~Escape Artist +23~Fly +27~Knowledge (planes) +12~Perception +16~Stealth +15\"}",
+			"::mstats{str=24 dex=31 con=18 int=8 wis=11 cha=11 bab=+13 cmb=+22 cmd=43 feats=\"Blind-Fight~Combat Reflexes~Dodge~Flyby Attack~Improved Initiative#B~Iron Will~Mobility~Power Attack~Weapon Finesse#B\" skills=\"Acrobatics +25~Escape Artist +23~Fly +27~Knowledge (planes) +12~Perception +16~Stealth +15\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"%%rule/Plane of Air%%\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -940,9 +942,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Air Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Air Elemental}"
 		]
 	},
 	"greater_air_elemental": { "redirect": "elemental_air_greater_air_elemental" },
@@ -958,7 +958,9 @@
 			"",
 			"::moffense{fl=100 perfect melee=\"2 slams +17 (2d6+6)\" space=15 reach=15 whirlwind=\"DC 21\"}",
 			"",
-			"::mstats{str=22 dex=29 con=18 int=6 wis=11 cha=11 bab=+10 cmb=+18 cmd=38 feats=\"Combat Reflexes~Dodge~Flyby Attack~Improved Initiative#B~Iron Will~Mobility~Weapon Finesse#B\" skills=\"Acrobatics +18~Escape Artist +18~Fly +23~Knowledge (planes) +7~Perception +13~Stealth +9\"}",
+			"::mstats{str=22 dex=29 con=18 int=6 wis=11 cha=11 bab=+10 cmb=+18 cmd=38 feats=\"Combat Reflexes~Dodge~Flyby Attack~Improved Initiative#B~Iron Will~Mobility~Weapon Finesse#B\" skills=\"Acrobatics +18~Escape Artist +18~Fly +23~Knowledge (planes) +7~Perception +13~Stealth +9\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"%%rule/Plane of Air%%\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -966,9 +968,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Air Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Air Elemental}"
 		]
 	},
 	"huge_air_elemental": { "redirect": "elemental_air_huge_air_elemental" },
@@ -984,7 +984,9 @@
 			"",
 			"::moffense{fl=100 perfect melee=\"2 slams +14 (1d8+4)\" space=10 reach=10 whirlwind=\"DC 18\"}",
 			"",
-			"::mstats{str=18 dex=25 con=16 int=6 wis=11 cha=11 bab=+8 cmb=+13 cmd=31 feats=\"Combat Reflexes~Dodge~Flyby Attack~Improved Initiative#B~Mobility~Weapon Finesse#B\" skills=\"Acrobatics +15~Escape Artist +15~Fly +21~Knowledge (planes) +5~Perception +11~Stealth +11\"}",
+			"::mstats{str=18 dex=25 con=16 int=6 wis=11 cha=11 bab=+8 cmb=+13 cmd=31 feats=\"Combat Reflexes~Dodge~Flyby Attack~Improved Initiative#B~Mobility~Weapon Finesse#B\" skills=\"Acrobatics +15~Escape Artist +15~Fly +21~Knowledge (planes) +5~Perception +11~Stealth +11\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"%%rule/Plane of Air%%\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -992,9 +994,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Air Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Air Elemental}"
 		]
 	},
 	"large_air_elemental": { "redirect": "elemental_air_large_air_elemental" },
@@ -1010,7 +1010,9 @@
 			"",
 			"::moffense{fl=100 perfect melee=\"slam +9 (1d6+3)\" whirlwind=\"DC 14\"}",
 			"",
-			"::mstats{str=14 dex=21 con=14 int=4 wis=11 cha=11 bab=+4 cmb=+6 cmd=22 feats=\"Dodge~Flyby Attack~Improved Initiative#B~Weapon Finesse#B\" skills=\"Acrobatics +11~Escape Artist +9~Fly +17~Knowledge (planes) +1~Perception +7~Stealth +10\"}",
+			"::mstats{str=14 dex=21 con=14 int=4 wis=11 cha=11 bab=+4 cmb=+6 cmd=22 feats=\"Dodge~Flyby Attack~Improved Initiative#B~Weapon Finesse#B\" skills=\"Acrobatics +11~Escape Artist +9~Fly +17~Knowledge (planes) +1~Perception +7~Stealth +10\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"%%rule/Plane of Air%%\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1018,9 +1020,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Air Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Air Elemental}"
 		]
 	},
 	"medium_air_elemental": { "redirect": "elemental_air_medium_air_elemental" },
@@ -1038,7 +1038,9 @@
 			"",
 			"::moffense{fl=100 perfect melee=\"slam +6 (1d4+1)\" whirlwind=\"DC 12\"}",
 			"",
-			"::mstats{str=12 dex=17 con=12 int=4 wis=11 cha=11 bab=+2 cmb=+2 cmd=15 feats=\"Flyby Attack~Improved Initiative#B~Weapon Finesse#B\" skills=\"Acrobatics +7~Escape Artist +7~Fly +17~Knowledge (planes) +1~Perception +4~Stealth +11\"}",
+			"::mstats{str=12 dex=17 con=12 int=4 wis=11 cha=11 bab=+2 cmb=+2 cmd=15 feats=\"Flyby Attack~Improved Initiative#B~Weapon Finesse#B\" skills=\"Acrobatics +7~Escape Artist +7~Fly +17~Knowledge (planes) +1~Perception +4~Stealth +11\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"%%rule/Plane of Air%%\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1046,9 +1048,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Air Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Air Elemental}"
 		]
 	},
 	"small_air_elemental": { "redirect": "elemental_air_small_air_elemental" },
@@ -1064,7 +1064,9 @@
 			"",
 			"::moffense{sp=20 br=20 spExtra=\"earth glide\" melee=\"2 slams +26 (2d10+12/19-20)\" space=15 reach=15 specAtt=\"earth mastery\"}",
 			"",
-			"::mstats{str=34 dex=8 con=21 int=10 wis=11 cha=11 bab=+16 cmb=+30 cmd=39 feats=\"Awesome Blow~Cleave~Greater Bull Rush~Greater Overrun~Improved Bull Rush#B~Improved Critical=slam~Improved Overrun~Improved Sunder~Power Attack\" skills=\"Appraise +19~Climb +31~Knowledge (dungeoneering) +19~Knowledge (planes) +19~Perception +19~Stealth +10\"}",
+			"::mstats{str=34 dex=8 con=21 int=10 wis=11 cha=11 bab=+16 cmb=+30 cmd=39 feats=\"Awesome Blow~Cleave~Greater Bull Rush~Greater Overrun~Improved Bull Rush#B~Improved Critical=slam~Improved Overrun~Improved Sunder~Power Attack\" skills=\"Appraise +19~Climb +31~Knowledge (dungeoneering) +19~Knowledge (planes) +19~Perception +19~Stealth +10\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Earth%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1072,9 +1074,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Earth Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Earth Elemental}"
 		]
 	},
 	"elder_earth_elemental": { "redirect": "elemental_earth_elder_earth_elemental" },
@@ -1090,7 +1090,9 @@
 			"",
 			"::moffense{sp=20 br=20 spExtra=\"earth glide\" melee=\"2 slams +21 (2d10+10)\" space=15 reach=15 specAtt=\"earth mastery\"}",
 			"",
-			"::mstats{str=30 dex=8 con=21 int=8 wis=11 cha=11 bab=+13 cmb=+25 cmd=34 feats=\"Awesome Blow~Cleave~Greater Bull Rush~Greater Overrun~Improved Bull Rush#B~Improved Overrun~Improved Sunder~Power Attack\" skills=\"Appraise +10~Climb +25~Knowledge (dungeoneering) +10~Knowledge (planes) +13~Perception +16~Stealth +7\"}",
+			"::mstats{str=30 dex=8 con=21 int=8 wis=11 cha=11 bab=+13 cmb=+25 cmd=34 feats=\"Awesome Blow~Cleave~Greater Bull Rush~Greater Overrun~Improved Bull Rush#B~Improved Overrun~Improved Sunder~Power Attack\" skills=\"Appraise +10~Climb +25~Knowledge (dungeoneering) +10~Knowledge (planes) +13~Perception +16~Stealth +7\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Earth%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1098,9 +1100,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Earth Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Earth Elemental}"
 		]
 	},
 	"greater_earth_elemental": { "redirect": "elemental_earth_greater_earth_elemental" },
@@ -1116,7 +1116,9 @@
 			"",
 			"::moffense{sp=20 br=20 spExtra=\"earth glide\" melee=\"2 slams +17 (2d8+9)\" space=15 reach=15 specAtt=\"earth mastery\"}",
 			"",
-			"::mstats{str=28 dex=8 con=19 int=6 wis=11 cha=11 bab=+10 cmb=+21 cmd=30 feats=\"Awesome Blow~Cleave~Greater Bull Rush~Improved Bull Rush#B~Improved Overrun~Power Attack\" skills=\"Appraise +6~Climb +18~Knowledge (dungeoneering) +4~Knowledge (planes) +7~Perception +13~Stealth +4\"}",
+			"::mstats{str=28 dex=8 con=19 int=6 wis=11 cha=11 bab=+10 cmb=+21 cmd=30 feats=\"Awesome Blow~Cleave~Greater Bull Rush~Improved Bull Rush#B~Improved Overrun~Power Attack\" skills=\"Appraise +6~Climb +18~Knowledge (dungeoneering) +4~Knowledge (planes) +7~Perception +13~Stealth +4\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Earth%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1124,9 +1126,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Earth Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Earth Elemental}"
 		]
 	},
 	"huge_earth_elemental": { "redirect": "elemental_earth_huge_earth_elemental" },
@@ -1142,7 +1142,9 @@
 			"",
 			"::moffense{sp=20 br=20 spExtra=\"earth glide\" melee=\"2 slams +14 (2d6+7)\" space=10 reach=10 specAtt=\"earth mastery\"}",
 			"",
-			"::mstats{str=24 dex=8 con=17 int=6 wis=11 cha=11 bab=+8 cmb=+16 cmd=25 feats=\"Cleave~Greater Bull Rush~Improved Bull Rush#B~Improved Overrun~Power Attack\" skills=\"Appraise +6~Climb +15~Knowledge (dungeoneering) +3~Knowledge (planes) +6~Perception +11~Stealth +5\"}",
+			"::mstats{str=24 dex=8 con=17 int=6 wis=11 cha=11 bab=+8 cmb=+16 cmd=25 feats=\"Cleave~Greater Bull Rush~Improved Bull Rush#B~Improved Overrun~Power Attack\" skills=\"Appraise +6~Climb +15~Knowledge (dungeoneering) +3~Knowledge (planes) +6~Perception +11~Stealth +5\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Earth%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1150,9 +1152,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Earth Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Earth Elemental}"
 		]
 	},
 	"large_earth_elemental": { "redirect": "elemental_earth_large_earth_elemental" },
@@ -1168,7 +1168,9 @@
 			"",
 			"::moffense{sp=20 br=20 spExtra=\"earth glide\" melee=\"slam +9 (1d8+7)\" specAtt=\"earth mastery\"}",
 			"",
-			"::mstats{str=20 dex=8 con=17 int=4 wis=11 cha=11 bab=+4 cmb=+9 cmd=18 feats=\"Cleave~Improved Bull Rush#B~Power Attack\" skills=\"Appraise +1~Climb +10~Knowledge (dungeoneering) +2~Knowledge (planes) +2~Perception +7~Stealth +3\"}",
+			"::mstats{str=20 dex=8 con=17 int=4 wis=11 cha=11 bab=+4 cmb=+9 cmd=18 feats=\"Cleave~Improved Bull Rush#B~Power Attack\" skills=\"Appraise +1~Climb +10~Knowledge (dungeoneering) +2~Knowledge (planes) +2~Perception +7~Stealth +3\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Earth%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1176,9 +1178,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Earth Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Earth Elemental}"
 		]
 	},
 	"medium_earth_elemental": { "redirect": "elemental_earth_medium_earth_elemental" },
@@ -1196,7 +1196,9 @@
 			"",
 			"::moffense{sp=20 br=20 spExtra=\"earth glide\" melee=\"slam +6 (1d6+4)\" specAtt=\"earth mastery\"}",
 			"",
-			"::mstats{str=16 dex=8 con=13 int=4 wis=11 cha=11 bab=+2 cmb=+4 cmd=13 feats=\"Improved Bull Rush#B~Power Attack\" skills=\"Appraise +1~Climb +7~Knowledge (dungeoneering) +1~Knowledge (planes) +1~Perception +4~Stealth +7\"}",
+			"::mstats{str=16 dex=8 con=13 int=4 wis=11 cha=11 bab=+2 cmb=+4 cmd=13 feats=\"Improved Bull Rush#B~Power Attack\" skills=\"Appraise +1~Climb +7~Knowledge (dungeoneering) +1~Knowledge (planes) +1~Perception +4~Stealth +7\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Earth%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1204,9 +1206,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Earth Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Earth Elemental}"
 		]
 	},
 	"small_earth_elemental": { "redirect": "elemental_earth_small_earth_elemental" },
@@ -1222,7 +1222,9 @@
 			"",
 			"::moffense{sp=60 melee=\"2 slams +23 (2d8+8 plus burn)\" space=15 reach=15 burn=\"2d10, DC 22\"}",
 			"",
-			"::mstats{str=26 dex=29 con=18 int=10 wis=11 cha=11 bab=+16 cmb=+26 cmd=46 feats=\"Blind-Fight~Combat Reflexes~Dodge~Improved Initiative#B~Iron Will~Lightning Stance~Mobility~Spring Attack~Weapon Finesse#B~Wind Stance\" skills=\"Acrobatics +28~Climb +27~Escape Artist +28~Intimidate +19~Knowledge (planes) +19~Perception +19\"}",
+			"::mstats{str=26 dex=29 con=18 int=10 wis=11 cha=11 bab=+16 cmb=+26 cmd=46 feats=\"Blind-Fight~Combat Reflexes~Dodge~Improved Initiative#B~Iron Will~Lightning Stance~Mobility~Spring Attack~Weapon Finesse#B~Wind Stance\" skills=\"Acrobatics +28~Climb +27~Escape Artist +28~Intimidate +19~Knowledge (planes) +19~Perception +19\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Fire%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1230,9 +1232,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Fire Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Fire Elemental}"
 		]
 	},
 	"elder_fire_elemental": { "redirect": "elemental_fire_elder_fire_elemental" },
@@ -1248,7 +1248,9 @@
 			"",
 			"::moffense{sp=60 melee=\"2 slams +19 (2d8+7 plus burn)\" space=15 reach=15 burn=\"2d8, DC 20\"}",
 			"",
-			"::mstats{str=24 dex=27 con=18 int=8 wis=11 cha=11 bab=+13 cmb=+22 cmd=41 feats=\"Blind-Fight~Combat Reflexes~Dodge~Improved Initiative#B~Iron Will~Mobility~Spring Attack~Weapon Finesse#B~Wind Stance\" skills=\"Acrobatics +23~Climb +20~Escape Artist +21~Intimidate +15~Knowledge (planes) +10~Perception +16\"}",
+			"::mstats{str=24 dex=27 con=18 int=8 wis=11 cha=11 bab=+13 cmb=+22 cmd=41 feats=\"Blind-Fight~Combat Reflexes~Dodge~Improved Initiative#B~Iron Will~Mobility~Spring Attack~Weapon Finesse#B~Wind Stance\" skills=\"Acrobatics +23~Climb +20~Escape Artist +21~Intimidate +15~Knowledge (planes) +10~Perception +16\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Fire%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1256,9 +1258,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Fire Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Fire Elemental}"
 		]
 	},
 	"greater_fire_elemental": { "redirect": "elemental_fire_greater_fire_elemental" },
@@ -1274,7 +1274,9 @@
 			"",
 			"::moffense{sp=60 melee=\"2 slams +15 (2d6+4 plus burn)\" space=15 reach=15 burn=\"2d6, DC 18\"}",
 			"",
-			"::mstats{str=18 dex=25 con=16 int=6 wis=11 cha=11 bab=+10 cmb=+16 cmd=34 feats=\"Combat Reflexes~Dodge~Improved Initiative#B~Iron Will~Mobility~Spring Attack~Weapon Finesse#B\" skills=\"Acrobatics +16~Climb +13~Escape Artist +16~Intimidate +9~Knowledge (planes) +7~Perception +13\"}",
+			"::mstats{str=18 dex=25 con=16 int=6 wis=11 cha=11 bab=+10 cmb=+16 cmd=34 feats=\"Combat Reflexes~Dodge~Improved Initiative#B~Iron Will~Mobility~Spring Attack~Weapon Finesse#B\" skills=\"Acrobatics +16~Climb +13~Escape Artist +16~Intimidate +9~Knowledge (planes) +7~Perception +13\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Fire%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1282,9 +1284,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Fire Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Fire Elemental}"
 		]
 	},
 	"huge_fire_elemental": { "redirect": "elemental_fire_huge_fire_elemental" },
@@ -1300,7 +1300,9 @@
 			"",
 			"::moffense{sp=50 melee=\"2 slams +12 (1d8+2 plus burn)\" space=10 reach=10 burn=\"1d8, DC 16\"}",
 			"",
-			"::mstats{str=14 dex=21 con=14 int=6 wis=11 cha=11 bab=+8 cmb=+11 cmd=27 feats=\"Dodge~Improved Initiative#B~Iron Will~Mobility~Spring Attack~Weapon Finesse#B\" skills=\"Acrobatics +14~Climb +9~Escape Artist +12~Intimidate +9~Knowledge (planes) +5~Perception +11\"}",
+			"::mstats{str=14 dex=21 con=14 int=6 wis=11 cha=11 bab=+8 cmb=+11 cmd=27 feats=\"Dodge~Improved Initiative#B~Iron Will~Mobility~Spring Attack~Weapon Finesse#B\" skills=\"Acrobatics +14~Climb +9~Escape Artist +12~Intimidate +9~Knowledge (planes) +5~Perception +11\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Fire%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1308,9 +1310,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Fire Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Fire Elemental}"
 		]
 	},
 	"large_fire_elemental": { "redirect": "elemental_fire_large_fire_elemental" },
@@ -1326,7 +1326,9 @@
 			"",
 			"::moffense{sp=50 melee=\"slam +7 (1d6+1 plus burn)\" burn=\"1d6, DC 14\"}",
 			"",
-			"::mstats{str=12 dex=17 con=14 int=4 wis=11 cha=11 bab=+4 cmb=+5 cmd=19 feats=\"Dodge~Improved Initiative#B~Mobility~Weapon Finesse#B\" skills=\"Acrobatics +8~Climb +5~Escape Artist +8~Intimidate +5~Knowledge (planes) +1~Perception +7\"}",
+			"::mstats{str=12 dex=17 con=14 int=4 wis=11 cha=11 bab=+4 cmb=+5 cmd=19 feats=\"Dodge~Improved Initiative#B~Mobility~Weapon Finesse#B\" skills=\"Acrobatics +8~Climb +5~Escape Artist +8~Intimidate +5~Knowledge (planes) +1~Perception +7\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Fire%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1334,9 +1336,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Fire Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Fire Elemental}"
 		]
 	},
 	"medium_fire_elemental": { "redirect": "elemental_fire_medium_fire_elemental" },
@@ -1354,7 +1354,9 @@
 			"",
 			"::moffense{sp=50 melee=\"slam +4 (1d4 plus burn)\" burn=\"1d4, DC 11\"}",
 			"",
-			"::mstats{str=10 dex=13 con=10 int=4 wis=11 cha=11 bab=+2 cmb=+1 cmd=13 feats=\"Dodge~Improved Initiative#B~Weapon Finesse#B\" skills=\"Acrobatics +5~Climb +4~Escape Artist +5~Intimidate +4~Knowledge (planes) +1~Perception +4\"}",
+			"::mstats{str=10 dex=13 con=10 int=4 wis=11 cha=11 bab=+2 cmb=+1 cmd=13 feats=\"Dodge~Improved Initiative#B~Weapon Finesse#B\" skills=\"Acrobatics +5~Climb +4~Escape Artist +5~Intimidate +4~Knowledge (planes) +1~Perception +4\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Fire%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1362,9 +1364,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Fire Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Fire Elemental}"
 		]
 	},
 	"small_fire_elemental": { "redirect": "elemental_fire_small_fire_elemental" },
@@ -1532,7 +1532,9 @@
 			"",
 			"::moffense{fl=100 perfect melee=\"2 slams +24 (2d8+8 plus 2d8 electricity)\" space=15 reach=15 specAtt=\"metal mastery~spark leap\"}",
 			"",
-			"::mstats{str=26 dex=31 con=16 int=10 wis=11 cha=11 bab=+16 cmb=+26 cmd=47 feats=\"Blind-Fight~Combat Reflexes~Dodge~Flyby Attack~Improved Initiative~Iron Will~Mobility~Power Attack~Weapon Finesse#B\" skills=\"Acrobatics +29~Escape Artist +29~Fly +14~Intimidate +19~Knowledge (planes) +19~Perception +19~Stealth +21\"}",
+			"::mstats{str=26 dex=31 con=16 int=10 wis=11 cha=11 bab=+16 cmb=+26 cmd=47 feats=\"Blind-Fight~Combat Reflexes~Dodge~Flyby Attack~Improved Initiative~Iron Will~Mobility~Power Attack~Weapon Finesse#B\" skills=\"Acrobatics +29~Escape Artist +29~Fly +14~Intimidate +19~Knowledge (planes) +19~Perception +19~Stealth +21\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Air%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1540,9 +1542,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Lightning Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Lightning Elemental}"
 		]
 	},
 	"elder_lightning_elemental": { "redirect": "elemental_lightning_elder_lightning_elemental" },
@@ -1558,7 +1558,9 @@
 			"",
 			"::moffense{fl=100 perfect melee=\"2 slams +20 (2d8+6 plus 2d6 electricity)\" space=15 reach=15 specAtt=\"metal mastery~spark leap\"}",
 			"",
-			"::mstats{str=22 dex=29 con=16 int=8 wis=11 cha=11 bab=+13 cmb=+21 cmd=41 feats=\"Blind-Fight~Dodge~Flyby Attack~Improved Initiative~Iron Will~Mobility~Power Attack~Weapon Finesse#B\" skills=\"Acrobatics +25~Escape Artist +25~Fly +13~Intimidate +16~Knowledge (planes) +15~Perception +16\"}",
+			"::mstats{str=22 dex=29 con=16 int=8 wis=11 cha=11 bab=+13 cmb=+21 cmd=41 feats=\"Blind-Fight~Dodge~Flyby Attack~Improved Initiative~Iron Will~Mobility~Power Attack~Weapon Finesse#B\" skills=\"Acrobatics +25~Escape Artist +25~Fly +13~Intimidate +16~Knowledge (planes) +15~Perception +16\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Air%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1566,9 +1568,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Lightning Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Lightning Elemental}"
 		]
 	},
 	"greater_lightning_elemental": { "redirect": "elemental_lightning_greater_lightning_elemental" },
@@ -1584,7 +1584,9 @@
 			"",
 			"::moffense{fl=100 perfect melee=\"2 slams +16 (2d6+5 plus 1d8 electricity)\" space=15 reach=15 specAtt=\"metal mastery~spark leap\"}",
 			"",
-			"::mstats{str=20 dex=27 con=16 int=6 wis=11 cha=11 bab=+10 cmb=+17 cmd=36 feats=\"Dodge~Flyby Attack~Improved Initiative~Iron Will~Mobility~Weapon Finesse#B\" skills=\"Acrobatics +21~Escape Artist +21~Fly +12~Knowledge (planes) +11~Perception +13\"}",
+			"::mstats{str=20 dex=27 con=16 int=6 wis=11 cha=11 bab=+10 cmb=+17 cmd=36 feats=\"Dodge~Flyby Attack~Improved Initiative~Iron Will~Mobility~Weapon Finesse#B\" skills=\"Acrobatics +21~Escape Artist +21~Fly +12~Knowledge (planes) +11~Perception +13\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Air%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1592,9 +1594,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Lightning Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Lightning Elemental}"
 		]
 	},
 	"huge_lightning_elemental": { "redirect": "elemental_lightning_huge_lightning_elemental" },
@@ -1610,7 +1610,9 @@
 			"",
 			"::moffense{fl=100 perfect melee=\"2 slams +13 (1d8+3 plus 1d6 electricity)\" space=10 reach=10 specAtt=\"metal mastery~spark leap\"}",
 			"",
-			"::mstats{str=16 dex=23 con=14 int=6 wis=11 cha=11 bab=+8 cmb=+12 cmd=29 feats=\"Dodge~Flyby Attack~Improved Initiative~Mobility~Weapon Finesse#B\" skills=\"Acrobatics +17~Escape Artist +17~Fly +12~Knowledge (planes) +9~Perception +11\"}",
+			"::mstats{str=16 dex=23 con=14 int=6 wis=11 cha=11 bab=+8 cmb=+12 cmd=29 feats=\"Dodge~Flyby Attack~Improved Initiative~Mobility~Weapon Finesse#B\" skills=\"Acrobatics +17~Escape Artist +17~Fly +12~Knowledge (planes) +9~Perception +11\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Air%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1618,9 +1620,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Lightning Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Lightning Elemental}"
 		]
 	},
 	"large_lightning_elemental": { "redirect": "elemental_lightning_large_lightning_elemental" },
@@ -1636,7 +1636,9 @@
 			"",
 			"::moffense{fl=100 perfect melee=\"slam +8 (1d6+3 plus 1d4 electricity)\" specAtt=\"metal mastery~spark leap\"}",
 			"",
-			"::mstats{str=14 dex=19 con=12 int=4 wis=11 cha=11 bab=+4 cmb=+6 cmd=21 feats=\"Dodge~Improved Initiative~Weapon Finesse#B\" skills=\"Acrobatics +11~Escape Artist +9~Fly +12~Knowledge (planes) +2~Perception +7\"}",
+			"::mstats{str=14 dex=19 con=12 int=4 wis=11 cha=11 bab=+4 cmb=+6 cmd=21 feats=\"Dodge~Improved Initiative~Weapon Finesse#B\" skills=\"Acrobatics +11~Escape Artist +9~Fly +12~Knowledge (planes) +2~Perception +7\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Air%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1644,9 +1646,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Lightning Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Lightning Elemental}"
 		]
 	},
 	"medium_lightning_elemental": { "redirect": "elemental_lightning_medium_lightning_elemental" },
@@ -1664,7 +1664,9 @@
 			"",
 			"::moffense{fl=100 perfect melee=\"slam +5 (1d4 plus 1d3 electricity)\" specAtt=\"metal mastery~spark leap\"}",
 			"",
-			"::mstats{str=10 dex=15 con=10 int=4 wis=11 cha=11 bab=+2 cmb=+1 cmd=13 feats=\"Improved Initiative~Weapon Finesse#B\" skills=\"Acrobatics +7~Escape Artist +6~Fly +12~Knowledge (planes) +1~Perception +5\"}",
+			"::mstats{str=10 dex=15 con=10 int=4 wis=11 cha=11 bab=+2 cmb=+1 cmd=13 feats=\"Improved Initiative~Weapon Finesse#B\" skills=\"Acrobatics +7~Escape Artist +6~Fly +12~Knowledge (planes) +1~Perception +5\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Air%%)\" org=\"solitary, pair, or gang (3-8)\" treasure=none}",
 			"",
@@ -1672,9 +1674,7 @@
 			"",
 			"*No description provided.*",
 			"",
-			"**Family:** {family/Lightning Elemental}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Lightning Elemental}"
 		]
 	},
 	"small_lightning_elemental": { "redirect": "elemental_lightning_small_lightning_elemental" },
@@ -2133,7 +2133,9 @@
 			"",
 			"::moffense{sp=40 cl=15 melee=\"bite +4 (1d3-2 plus 1d2 Strength damage and disease)\" space=\"2-1/2\" reach=0}",
 			"",
-			"::mstats{str=6 dex=15 con=\"-\" int=2 wis=12 cha=13 bab=+0 cmb=+0 cmd=\"8 (12 vs. trip)\" feats=\"Skill Focus=Perception~Weapon Finesse#B\" skills=\"Climb +10~Perception +8~Stealth +14\" racial=\"+4 Stealth; uses Dex to modify Climb\"}",
+			"::mstats{str=6 dex=15 con=\"-\" int=2 wis=12 cha=13 bab=+0 cmb=+0 cmd=\"8 (12 vs. trip)\" feats=\"Skill Focus=Perception~Weapon Finesse#B\" skills=\"Climb +10~Perception +8~Stealth +14\" racial=\"+4 Stealth; uses Dex to modify Climb\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=underground org=\"pack (6-11) or swarm (12-20)\" treasure=none}",
 			"",
@@ -2151,9 +2153,7 @@
 			"",
 			"Shadow rats are undead rats that can assume an incorporeal form. Other than their semi-translucent form (which they maintain regardless of their incorporeality or not), they resemble their earthly counterparts in all respects.",
 			"",
-			"Shadow rats attack relentlessly with their bite attack. Unlike normal shadows, shadow rats do not create spawn.",
-			"",
-			"[^B]: Bonus feat."
+			"Shadow rats attack relentlessly with their bite attack. Unlike normal shadows, shadow rats do not create spawn."
 		]
 	},
 	"rat_shadow": { "redirect": "shadow_rat" },
@@ -2174,7 +2174,9 @@
 			"",
 			"::moffense{sp=40 cl=20 melee=\"bite +5 (1d4 plus 1d3 Strength damage and disease)\"}",
 			"",
-			"::mstats{str=10 dex=17 con=\"-\" int=2 wis=12 cha=13 bab=+1 cmb=+0 cmd=\"13 (17 vs. trip)\" feats=\"Skill Focus=Perception~Weapon Finesse#B\" skills=\"Climb +11~Perception +8~Stealth +15\" racial=\"+4 Stealth; uses Dex to modify Climb\"}",
+			"::mstats{str=10 dex=17 con=\"-\" int=2 wis=12 cha=13 bab=+1 cmb=+0 cmd=\"13 (17 vs. trip)\" feats=\"Skill Focus=Perception~Weapon Finesse#B\" skills=\"Climb +11~Perception +8~Stealth +15\" racial=\"+4 Stealth; uses Dex to modify Climb\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=underground org=\"solitary or pack (6-11)\" treasure=none}",
 			"",
@@ -2190,9 +2192,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Dire shadow rats are larger versions of the shadow rat and have the same special abilities.",
-			"",
-			"[^B]: Bonus feat."
+			"Dire shadow rats are larger versions of the shadow rat and have the same special abilities."
 		]
 	},
 	"rat_dire_shadow": { "redirect": "dire_shadow_rat" },

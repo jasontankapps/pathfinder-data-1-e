@@ -121,7 +121,9 @@
 			"",
 			"::moffense{sp=30 fl=10 average melee=\"2 ink blades +6 (1d6+2)\"}",
 			"",
-			"::mstats{str=14 dex=17 con=\"-\" int=\"-\" wis=12 cha=13 bab=+4 cmb=+6 cmd=19 feats=\"Improved Initiative#B\" sq=bodyguard}",
+			"::mstats{str=14 dex=17 con=\"-\" int=\"-\" wis=12 cha=13 bab=+4 cmb=+6 cmd=19 feats=\"Improved Initiative#B\" sq=bodyguard next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=solitary treasure=none}",
 			"",
@@ -148,9 +150,7 @@
 			"A tattoo guardian must be inked by a skilled artist, with rare inks worth 500 gp derived from one of several esoteric formulae.",
 			"",
 			"**CL** 9th; **Price** 14,500 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/fly}, {spell/geas//quest}, {spell/parchment swarm}, *shield other,* creator must be caster level 9th; **Skill** Craft (calligraphy) or Craft (tattoo) DC 20; **Cost** 7,500 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/fly}, {spell/geas//quest}, {spell/parchment swarm}, *shield other,* creator must be caster level 9th; **Skill** Craft (calligraphy) or Craft (tattoo) DC 20; **Cost** 7,500 gp"
 		]
 	},
 	"tatzlwyrm": {
@@ -2406,7 +2406,9 @@
 			"",
 			"::moffense{sp=40 melee=\"bite +7 (1d6+5 plus %%umr/trip%%), 2 claws +7 (1d4+5)\" space=10 reach=10}",
 			"",
-			"::mstats{str=20 dex=13 con=14 int=5 wis=10 cha=5 bab=+3 cmb=+9 cmd=\"20 (24 vs. trip)\" feats=\"Combat Reflexes~Iron Will~Night Stalker~Skill Focus#B=Stealth\" skills=\"Climb +9~Perception +6~Stealth +1 (+5 in dim light or darkness)\" racial=\"+4 Stealth in dim light or darkness\" lang=Giant sq=\"ogre blood\"}",
+			"::mstats{str=20 dex=13 con=14 int=5 wis=10 cha=5 bab=+3 cmb=+9 cmd=\"20 (24 vs. trip)\" feats=\"Combat Reflexes~Iron Will~Night Stalker~Skill Focus#B=Stealth\" skills=\"Climb +9~Perception +6~Stealth +1 (+5 in dim light or darkness)\" racial=\"+4 Stealth in dim light or darkness\" lang=Giant sq=\"ogre blood\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"cold hills and mountains\" org=\"solitary, pair, or gang (3-4)\" treasure=incidental}",
 			"",
@@ -2416,9 +2418,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"These dim-witted creatures are a mongrel cross between a troll and an ogre, combining the worst features of each. They usually act like animals and move on all fours, but can rear up on their hind legs to attack with their sharp claws and vicious bites. Some ogres keep them as pets, treating them as exceptionally stupid but hilarious kinfolk. Trolls usually kill troggles on sight, and have been known to band together to wipe out entire ogre clans that possess troggles.",
-			"",
-			"[^B]: Bonus feat."
+			"These dim-witted creatures are a mongrel cross between a troll and an ogre, combining the worst features of each. They usually act like animals and move on all fours, but can rear up on their hind legs to attack with their sharp claws and vicious bites. Some ogres keep them as pets, treating them as exceptionally stupid but hilarious kinfolk. Trolls usually kill troggles on sight, and have been known to band together to wipe out entire ogre clans that possess troggles."
 		]
 	},
 	"troggle_troggle_raider": {

@@ -582,7 +582,9 @@
 			"",
 			"::moffense{sp=20 cl=20 melee=\"bite +1 (1d4-2), ribbon +3 touch (%%umr/grab%%)\" space=\"2-1/2\" reach=0 reachP=\"10 ft. with ribbon\" specAtt=\"overwhelm~ribbon\"}",
 			"",
-			"::mstats{str=6 dex=15 con=9 int=11 wis=10 cha=14 bab=+1 cmb=\"+1 (+3 grapple, +11 when maintaining grapple with ribbon)\" cmd=\"9 (11 vs. grapple, 17 vs. trip)\" feats=\"Improved Grapple#B~Improved Initiative\" skills=\"Climb +10~Knowledge (arcana) +4~Knowledge (history) +4~Knowledge (planes) +4~Perception +4~Sense Motive +4\" lang=\"truespeech (can't speak)\" sq=transcription}",
+			"::mstats{str=6 dex=15 con=9 int=11 wis=10 cha=14 bab=+1 cmb=\"+1 (+3 grapple, +11 when maintaining grapple with ribbon)\" cmd=\"9 (11 vs. grapple, 17 vs. trip)\" feats=\"Improved Grapple#B~Improved Initiative\" skills=\"Climb +10~Knowledge (arcana) +4~Knowledge (history) +4~Knowledge (planes) +4~Perception +4~Sense Motive +4\" lang=\"truespeech (can't speak)\" sq=transcription next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Axis%%)\" org=\"solitary, pair, or curation (3-12)\" treasure=none}",
 			"",
@@ -616,9 +618,7 @@
 			"",
 			"Most inhabitants of Axis are powerful enough to pay gishvits little more heed than a creature from the Material Plane would associate with most common vermin. Despite the creatures' lowly status, several factions on the lawful plane employ gishvits as negotiation tools or unintentional spies. In these roles, the little gishvits excel, as they are able to extract knowledge from negotiators and put it to paper or collect valuable and accurate information from stationed guards. Still, many creatures on Axis have far more reliable means of extracting information, so they instead relegate gishvits to a pitiable status as planar vermin. It is not uncommon for an eager gishvit to pester a creature enjoying a meal inside one of Axis's many restaurants to spend time with it in hopes of adding lore to its pages, or for a patron of the plane's many archives to find herself accosted by a whipping bookmark tongue when she picks it up by accident while the creature was resting on a shelf.",
 			"",
-			"On both Axis and the Material Plane, a satiated gishvit quickly enters a state of gradual torpor, followed by a period of hibernation. Such gishvits often seek to rest in large archives or repositories, hiding among hundreds or thousands of similar-looking mundane books. They then wait for centuries at a time, content to rest with the knowledge they have digested. After several centuries, a gishvit willingly discards its digested knowledge. It is then instinctually compelled to repeat the process of acquiring and digesting new information. Sadly for the gishvit, it often finds itself trapped in a now-long forgotten archive, unable to escape. In these unfortunate circumstances, the next creatures to enter the gishvit's sealed-off home are immediately assaulted by the knowledge-ravenous creatures.",
-			"",
-			"[^B]: Bonus feat."
+			"On both Axis and the Material Plane, a satiated gishvit quickly enters a state of gradual torpor, followed by a period of hibernation. Such gishvits often seek to rest in large archives or repositories, hiding among hundreds or thousands of similar-looking mundane books. They then wait for centuries at a time, content to rest with the knowledge they have digested. After several centuries, a gishvit willingly discards its digested knowledge. It is then instinctually compelled to repeat the process of acquiring and digesting new information. Sadly for the gishvit, it often finds itself trapped in a now-long forgotten archive, unable to escape. In these unfortunate circumstances, the next creatures to enter the gishvit's sealed-off home are immediately assaulted by the knowledge-ravenous creatures."
 		]
 	},
 	"gliding_turtle": {
@@ -1321,7 +1321,9 @@
 			"",
 			"::moffense{sp=30 br=5 sw=20 melee=\"bite +4 (1d4+3)\" specAtt=\"goblin breath\"}",
 			"",
-			"::mstats{str=14 dex=15 con=14 int=9 wis=12 cha=13 bab=+1 cmb=+2 cmd=\"14 (can't be tripped)\" feats=\"Lunge#B~Skill Focus=Bluff\" skills=\"Bluff +6~Intimidate +5~Knowledge (local) +3~Perception +5~Stealth +10\" lang=\"Common, Goblin\" sq=\"snake empathy +7\"}",
+			"::mstats{str=14 dex=15 con=14 int=9 wis=12 cha=13 bab=+1 cmb=+2 cmd=\"14 (can't be tripped)\" feats=\"Lunge#B~Skill Focus=Bluff\" skills=\"Bluff +6~Intimidate +5~Knowledge (local) +3~Perception +5~Stealth +10\" lang=\"Common, Goblin\" sq=\"snake empathy +7\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any underground or swamps\" org=\"solitary, pair, or nest (3-12 plus 1-6 %%monster/venomous snake/s%%)\" treasure=standard}",
 			"",
@@ -1341,9 +1343,7 @@
 			"",
 			"Although goblin snakes are not as smart as goblins, their terrifying shape allows them to take positions of inflated prominence within goblin society. Fearful goblins typically defer to the beasts, which well suits the goblin snakes' innate arrogance and sense of superiority. Goblin snakes affiliated with goblin tribes usually treat their goblin associates as servants at best and slaves at worst.",
 			"",
-			"Goblin snakes share goblins' fear of horses (who could easily step on and crush an unwary goblin snake) and love of fire (though their lack of arms gives them little opportunity to indulge in arson), but they are not as superstitious as goblins. Goblin snakes eagerly embrace magic if given the opportunity, and it is not uncommon for a goblin snake with adept, cleric, oracle, or sorcerer class levels to serve as a goblin tribe's shaman or high priest.",
-			"",
-			"[^B]: Bonus feat."
+			"Goblin snakes share goblins' fear of horses (who could easily step on and crush an unwary goblin snake) and love of fire (though their lack of arms gives them little opportunity to indulge in arson), but they are not as superstitious as goblins. Goblin snakes eagerly embrace magic if given the opportunity, and it is not uncommon for a goblin snake with adept, cleric, oracle, or sorcerer class levels to serve as a goblin tribe's shaman or high priest."
 		]
 	},
 	"goblin_goblin_chief": {

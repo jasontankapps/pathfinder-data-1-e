@@ -611,7 +611,9 @@
 			"",
 			"::moffense{sp=20 sw=20 melee=\"12 bites +14 (1d8+4 plus poison)\" space=20 reach=15 brWeap=\"15-ft. cone, cloudkill, Fort DC 21 partial, usable every 1d4 rounds\" pounce}",
 			"",
-			"::mstats{str=19 dex=14 con=20 int=2 wis=13 cha=11 bab=+12 cmb=+18 cmd=\"30 (34 vs. trip)\" feats=\"Combat Reflexes~Great Fortitude~Improved Initiative~Improved Natural Attack=bite~Iron Will~Lightning Reflexes~Toughness#B~Snatch#B\" skills=\"Perception +12~Swim +21\" racial=\"+2 Perception\" sq=\"bloodspray, hydra traits, regenerate head\"}",
+			"::mstats{str=19 dex=14 con=20 int=2 wis=13 cha=11 bab=+12 cmb=+18 cmd=\"30 (34 vs. trip)\" feats=\"Combat Reflexes~Great Fortitude~Improved Initiative~Improved Natural Attack=bite~Iron Will~Lightning Reflexes~Toughness#B~Snatch#B\" skills=\"Perception +12~Swim +21\" racial=\"+2 Perception\" sq=\"bloodspray, hydra traits, regenerate head\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -629,9 +631,7 @@
 			"",
 			"West of Kokutang in the Sodden Lands, there lies the remains of a once-proud and now-nameless village, destroyed when the massive Eye of Abendego consumed the gulf and buried the young nation of Yamasa and its secrets more than 100 years ago. Within the flooded ruins of this small settlement, the miasma hydra known to local Koboto tribespeople as Dhirgiska scavenges the wreckage and makes its lair in the vast caverns carved out of the marshy earth beneath the village. Attacking any who dare to near the destroyed village, the hydra has made it impossible for the people of Kokutang to fully explore the ruins and discover what importance the site once held for their people, if any. It is unknown what drives Dhirgiska to protect its lair so fervently, and some think that the beast was left by the deceased people of the village in order to protect their secrets and treasures. Whatever the case, it is well known that those who dare face the ruins and the beast that dwells within rarely come back alive.",
 			"",
-			"Though it is generally known that any foreigners who try to interact with the people of Kokutang will be met with ravenous hostility, it is thought that should some brave adventurer bring the heart of the treacherous Dhirgiska to them, she would be praised as a hero in their eyes.",
-			"",
-			"[^B]: Bonus feat."
+			"Though it is generally known that any foreigners who try to interact with the people of Kokutang will be met with ravenous hostility, it is thought that should some brave adventurer bring the heart of the treacherous Dhirgiska to them, she would be praised as a hero in their eyes."
 		]
 	},
 	"dhirgiska": { "redirect": "hydra_dhirgiska" },
@@ -1191,7 +1191,9 @@
 			"",
 			"::moffense{sp=30 melee=\"slam +6 (1d4+4)\" specAtt=\"breach~seize\"}",
 			"",
-			"::mstats{str=16 dex=11 con=\"-\" int=5 wis=13 cha=14 bab=+3 cmb=\"+6 (+8 drag)\" cmd=\"16 (18 vs. drag)\" feats=\"Improved Drag#B~Improved Initiative~Power Attack\" skills=\"Perception +6~Stealth +5\" lang=\"Common (can't speak)\"}",
+			"::mstats{str=16 dex=11 con=\"-\" int=5 wis=13 cha=14 bab=+3 cmb=\"+6 (+8 drag)\" cmd=\"16 (18 vs. drag)\" feats=\"Improved Drag#B~Improved Initiative~Power Attack\" skills=\"Perception +6~Stealth +5\" lang=\"Common (can't speak)\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any urban\" org=\"solitary or gang (2-5)\" treasure=standard}",
 			"",
@@ -1211,9 +1213,7 @@
 			"",
 			"While an accidental live burial can trigger the birth of an immured, most of these unfortunates are brought about by purposeful malevolence, such as being walled in as a form of torture or execution in life. In cultures obsessed with undeath or the afterlife, living servants are sometimes honored by being entombed with their masters, which can create immured.",
 			"",
-			"An immured is 6 feet tall and weighs 100 pounds.",
-			"",
-			"[^B]: Bonus feat."
+			"An immured is 6 feet tall and weighs 100 pounds."
 		]
 	},
 	"impaler_shrike": {
@@ -1525,7 +1525,9 @@
 			"",
 			"::mspell{sla cl=2 con=+4 constant=\"detect chaos\" day=\"3~command|DC 13~make whole~protection from chaos\" week=\"commune|CL 12th; 6 questions\"}",
 			"",
-			"::mstats{str=11 dex=16 con=14 int=11 wis=11 cha=14 bab=+2 cmb=+3 cmd=13 feats=\"Flyby Attack~Weapon Finesse#B\" skills=\"Diplomacy +7~Fly +12~Knowledge (planes) +5~Perception +5~Sense Motive +5~Stealth +16\" lang=\"truespeech\" sq=\"locate inevitable\"}",
+			"::mstats{str=11 dex=16 con=14 int=11 wis=11 cha=14 bab=+2 cmb=+3 cmd=13 feats=\"Flyby Attack~Weapon Finesse#B\" skills=\"Diplomacy +7~Fly +12~Knowledge (planes) +5~Perception +5~Sense Motive +5~Stealth +16\" lang=\"truespeech\" sq=\"locate inevitable\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, pair, or flock (3-14)\" treasure=none}",
 			"",
@@ -1547,9 +1549,7 @@
 			"",
 			"An arbiter inevitable can serve a spellcaster as a familiar. Such a spellcaster must be lawful neutral, must be at least caster level 7th, and must have the {feat/Improved Familiar} feat. Arbiter inevitables measure 1 foot in diameter but are surprisingly heavy, weighing 60 pounds. Their ability to fly on metal wings is as much a supernatural ability as a physical one.",
 			"",
-			"**Family:** {family/Inevitable}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Inevitable}"
 		]
 	},
 	"arbiter": { "redirect": "inevitable_arbiter" },

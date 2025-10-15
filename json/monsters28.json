@@ -42,7 +42,9 @@
 			"",
 			"::moffense{sp=90 melee=\"+2 lance +22/+17/+12 (1d8+9/&times&3), 2 hooves +15 (2d6+2/19-20) or mwk longsword +20/+15/+10 (1d8+5/19-20), 2 hooves +15 (2d6+2/19-20)\" ranged=\"spear +17/+12/+7 (1d8+5/&times&3)\" space=10 reach=5 specAtt=\"banner +3/+2~challenge (+11, +3, 4/day)~ride down~thundering hooves\"}",
 			"",
-			"::mstats{str=20 dex=16 con=22 int=9 wis=16 cha=12 bab=+15 cmb=+21 cmd=\"35 (39 vs. trip)\" feats=\"Acrobatic Steps~Cavalry Formation~Dazzling Display#B~Lookout~Nimble Moves~Power Attack~Quick Draw~Ride-By Attack~Spirited Charge~Weapon Focus=lance~!Weapon Focus (hooves)\" skills=\"Acrobatics +13 (+25 when jumping)~Bluff +10~Intimidate +13~Knowledge (nature) +3~Perception +10~Sense Motive +11~Survival +11\" lang=\"Common, Elven, Sylvan\" sq=\"courser, greater tactician (3/day, 8 rounds, swift action), natural mount, order of the cockatrice (braggart, steal glory), %%umr/undersized weapons%%\" combat=\"potion of %%spell/cure serious wounds%%, potion of %%spell/heroism%%, potion of %%spell/spider climb%%\" othergear=\"+2 %%eq-material/mithral%% %%eq-armor/breastplate%%, +2 %%eq-armor/heavy steel shield%%, +2 %%eq-weapon/lance%%, mwk %%eq-weapon/longsword%%, %%eq-weapon/spear/s%% (4), %%magic-wondrous/amulet of natural armor +1%%, %%magic-wondrous/belt of mighty constitution +2%%, %%magic-wondrous/cloak of resistance +1%%, %%magic-wondrous/horseshoes of speed%%, %%magic-ring/ring of protection +1%%, %%eq-misc/banner/s%% (3)\"}",
+			"::mstats{str=20 dex=16 con=22 int=9 wis=16 cha=12 bab=+15 cmb=+21 cmd=\"35 (39 vs. trip)\" feats=\"Acrobatic Steps~Cavalry Formation~Dazzling Display#B~Lookout~Nimble Moves~Power Attack~Quick Draw~Ride-By Attack~Spirited Charge~Weapon Focus=lance~!Weapon Focus (hooves)\" skills=\"Acrobatics +13 (+25 when jumping)~Bluff +10~Intimidate +13~Knowledge (nature) +3~Perception +10~Sense Motive +11~Survival +11\" lang=\"Common, Elven, Sylvan\" sq=\"courser, greater tactician (3/day, 8 rounds, swift action), natural mount, order of the cockatrice (braggart, steal glory), %%umr/undersized weapons%%\" combat=\"potion of %%spell/cure serious wounds%%, potion of %%spell/heroism%%, potion of %%spell/spider climb%%\" othergear=\"+2 %%eq-material/mithral%% %%eq-armor/breastplate%%, +2 %%eq-armor/heavy steel shield%%, +2 %%eq-weapon/lance%%, mwk %%eq-weapon/longsword%%, %%eq-weapon/spear/s%% (4), %%magic-wondrous/amulet of natural armor +1%%, %%magic-wondrous/belt of mighty constitution +2%%, %%magic-wondrous/cloak of resistance +1%%, %%magic-wondrous/horseshoes of speed%%, %%magic-ring/ring of protection +1%%, %%eq-misc/banner/s%% (3)\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate forests and plains\"}",
 			"",
@@ -52,9 +54,7 @@
 			"",
 			"The relative rarity of steel tools among centaurs - with most tribes reluctant to settle down long enough to mine, smelt, or forge metal goods - speaks to the prestige afforded to chargers. Theirs is a lifestyle almost entirely dependant on the settled races they so often clash against. Many chargers depend on elven communities to outfit them, in exchange for using their martial skills to protect a settlement, hunt a menacing beast, or serve short terms as escorts or - most humiliatingly - mounts. Rarer but more terrifying are chargers outfitted by dwarves, who hone their combat skills in dwarven surface wars against orcs and giants.",
 			"",
-			"These warriors also serve their tribes as advisors. While they lack the skills to effectively lead in peacetime, they may assume control temporarily and without question when outside threats press into centaur lands.",
-			"",
-			"[^B]: Bonus feat."
+			"These warriors also serve their tribes as advisors. While they lack the skills to effectively lead in peacetime, they may assume control temporarily and without question when outside threats press into centaur lands."
 		]
 	},
 	"centaur_charger": { "redirect": "centaur_centaur_charger" },
@@ -233,7 +233,9 @@
 			"",
 			"::moffense{sp=30 cl=30 melee=\"swarm (2d6 plus poison)\" space=10 reach=0 distraction=\"DC 13\" specAtt=poison}",
 			"",
-			"::mstats{str=1 dex=19 con=8 int=\"-\" wis=10 cha=2 bab=+6 cmb=\"-\" cmd=\"-\" feats=\"Weapon Finesse#B\" skills=\"Climb +12~Perception +4\" racial=\"+4 Perception\"}",
+			"::mstats{str=1 dex=19 con=8 int=\"-\" wis=10 cha=2 bab=+6 cmb=\"-\" cmd=\"-\" feats=\"Weapon Finesse#B\" skills=\"Climb +12~Perception +4\" racial=\"+4 Perception\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate or warm forest or underground\" org=\"solitary, pair, or tangle (3-6 swarms)\" treasure=none}",
 			"",
@@ -256,9 +258,7 @@
 			"| Hissing centipede | 1 | Large | 2d8 |",
 			"| Giant whiptail centipede | 2 | Huge | 4d8 |",
 			"| Great forest centipede | 6 | Gargantuan | 7d8 |",
-			"| Titan centipede | 9 | Colossal | 10d8 |",
-			"",
-			"[^B]: Bonus feat."
+			"| Titan centipede | 9 | Colossal | 10d8 |"
 		]
 	},
 	"centipede_swarm": { "redirect": "centipede_centipede_swarm" },
@@ -1014,7 +1014,9 @@
 			"",
 			"::moffense{sp=30 cl=30 melee=\"club +5 (1d4+3), bite +0 (1d3+1)\" ranged=\"rock +5 (1d4+2/19-20)\" specAtt=\"shrieking frenzy~thrown-weapon mastery\"}",
 			"",
-			"::mstats{str=15 dex=13 con=14 int=8 wis=12 cha=11 bab=+2 cmb=+3 cmd=14 feats=\"Point-Blank Shot~Precise Shot~Throw Anything#B\" skills=\"Climb +14~Fly +0~Perception +2~Stealth +10\" racial=\"+4 Stealth\" lang=\"Abyssal, Polyglot\"}",
+			"::mstats{str=15 dex=13 con=14 int=8 wis=12 cha=11 bab=+2 cmb=+3 cmd=14 feats=\"Point-Blank Shot~Precise Shot~Throw Anything#B\" skills=\"Climb +14~Fly +0~Perception +2~Stealth +10\" racial=\"+4 Stealth\" lang=\"Abyssal, Polyglot\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm forests\" org=\"solitary, pair, patrol (3-8), or tribe (9-20 plus 1-3 %%monster/dire ape/s%%, 1-3 fighter sub-chieftains of 2nd level, 1 cleric of %%faith/Angazhan%% of 3rd-5th level, and 1 chieftain of any class of 4th-8th level)\" treasure=standard}",
 			"",
@@ -1030,9 +1032,7 @@
 			"",
 			"Today, the charau-ka are one of the most fecund and widespread races of creatures in the Mwangi Expanse. Not all of them serve the Gorilla King or worship Angazhan; some have become feral monsters little more organized than apes, while others may have turned to the worship of other demon lords or even the snake-god Ydersius.",
 			"",
-			"Charau-ka generally dwell in small tribes of a few dozen members. They often keep dangerous jungle creatures as pets or guardians, trusting to their druids or animal handlers to keep the deadly beasts under control. A typical charau-ka village extends from the jungle floor up into the canopy above, and usually includes several treehouse-style structures connected by vines or rope bridges.",
-			"",
-			"[^B]: Bonus feat."
+			"Charau-ka generally dwell in small tribes of a few dozen members. They often keep dangerous jungle creatures as pets or guardians, trusting to their druids or animal handlers to keep the deadly beasts under control. A typical charau-ka village extends from the jungle floor up into the canopy above, and usually includes several treehouse-style structures connected by vines or rope bridges."
 		]
 	},
 	"charau_ka_deadfall_tracker": {
@@ -1085,7 +1085,9 @@
 			"",
 			"::mfn[D~Domain spell]",
 			"",
-			"::mstats{str=13 dex=15 con=16 int=8 wis=16 cha=16 bab=+5 cmb=+5 cmd=18 feats=\"Combat Casting~Improved Natural Armor~Point-Blank Shot~Selective Channeling~Throw Anything#B\" skills=\"Climb +11~Knowledge (religion) +4~Perception +4~Spellcraft +6~Stealth +8\" racial=\"+4 Stealth\" lang=\"Abyssal, Polyglot\" combat=\"scroll of %%spell/cure moderate wounds%%, scrolls of %%spell/invisibility%% (2)\" othergear=\"+1 %%eq-armor/hide armor%%, +1 %%eq-weapon/spear%%, %%magic-ring/ring of protection +1%%, ivory %%eq-misc/holy symbol>_wooden%% worth 30 gp, mwk %%eq-misc/manacles>_mwk%%\"}",
+			"::mstats{str=13 dex=15 con=16 int=8 wis=16 cha=16 bab=+5 cmb=+5 cmd=18 feats=\"Combat Casting~Improved Natural Armor~Point-Blank Shot~Selective Channeling~Throw Anything#B\" skills=\"Climb +11~Knowledge (religion) +4~Perception +4~Spellcraft +6~Stealth +8\" racial=\"+4 Stealth\" lang=\"Abyssal, Polyglot\" combat=\"scroll of %%spell/cure moderate wounds%%, scrolls of %%spell/invisibility%% (2)\" othergear=\"+1 %%eq-armor/hide armor%%, +1 %%eq-weapon/spear%%, %%magic-ring/ring of protection +1%%, ivory %%eq-misc/holy symbol>_wooden%% worth 30 gp, mwk %%eq-misc/manacles>_mwk%%\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm forests\"}",
 			"",
@@ -1097,9 +1099,7 @@
 			"",
 			"Ostracized devotees of the Ravener King wander the jungles and spread the gifts of the Angazhan to re-establish their worth. They may encourage growth in the wilderness, blight the croplands around Mwangi villages, and carefully husband wild monsters, forcing the wild world into bloody competition with human settlements. Such wild hermits exchange a cleric of Angazhan's normal spells for ones to help them contain, augment, and direct the natural world, using stone shape and glyph of warding to fashion animal traps, sanctuary to move unharmed among wild beasts, and bear's endurance and bull's strength to augment their vile creations before launching them into combat.",
 			"",
-			"Every devotee of the Ravener King journeys through the Mwangi Expanse at least once every few months in search of victims transformed into trees by tobongos. Using rituals revealed by the Gorilla King, devotees bathe these new plants with ape blood, transforming them into corrupted fetishes capable of draining the life force from others. Angazhan is said to occasionally look upon the realm and reward the most productive creators of these chaotic totems of decay with his fiendish blessing. The charau-ka's already fiercely territorial nature rises to unbridled levels when tribes compete to gain their god's favor.",
-			"",
-			"[^B]: Bonus feat."
+			"Every devotee of the Ravener King journeys through the Mwangi Expanse at least once every few months in search of victims transformed into trees by tobongos. Using rituals revealed by the Gorilla King, devotees bathe these new plants with ape blood, transforming them into corrupted fetishes capable of draining the life force from others. Angazhan is said to occasionally look upon the realm and reward the most productive creators of these chaotic totems of decay with his fiendish blessing. The charau-ka's already fiercely territorial nature rises to unbridled levels when tribes compete to gain their god's favor."
 		]
 	},
 	"devotee_of_the_ravener_king": { "redirect": "charau_ka_devotee_of_the_ravener_king" },
@@ -1813,7 +1813,9 @@
 			"",
 			"::mspell{know cl=9 l4=\"4/day~charm monster|DC 17~freedom of movement\" l3=\"7/day~gaseous form~magic circle against evil~summon monster III\" l2=\"7/day~cure moderate wounds~eagle's splendor~scorching ray~silence|DC 15\" l1=\"7/day~endure elements~mage armor~obscuring mist~protection from chaos~true strike\" l0=\"at will~daze~disrupt undead~light~ray of frost~read magic~resistance~stabilize\"}",
 			"",
-			"::mstats{str=20 dex=16 con=20 int=17 wis=19 cha=17 bab=+12 cmb=\"+18 (+22 grapple)\" cmd=\"32 (can't be tripped)\" feats=\"Alertness~Dodge~Empower Spell~Eschew Materials#B~Improved Initiative~Iron Will~Lightning Reflexes\" skills=\"Acrobatics +18~Bluff +9~Diplomacy +18~Fly +20~Knowledge (arcana) +9~Knowledge (religion) +12~Perception +23~Sense Motive +15~Spellcraft +15~Survival +16~Use Magic Device +18\" lang=\"Celestial, Common, Draconic; %%umr/telepathy%% 100 ft.\"}",
+			"::mstats{str=20 dex=16 con=20 int=17 wis=19 cha=17 bab=+12 cmb=\"+18 (+22 grapple)\" cmd=\"32 (can't be tripped)\" feats=\"Alertness~Dodge~Empower Spell~Eschew Materials#B~Improved Initiative~Iron Will~Lightning Reflexes\" skills=\"Acrobatics +18~Bluff +9~Diplomacy +18~Fly +20~Knowledge (arcana) +9~Knowledge (religion) +12~Perception +23~Sense Motive +15~Spellcraft +15~Survival +16~Use Magic Device +18\" lang=\"Celestial, Common, Draconic; %%umr/telepathy%% 100 ft.\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm forests\" org=\"solitary, pair, or flight (3-6)\" treasure=standard}",
 			"",
@@ -1833,9 +1835,7 @@
 			"",
 			"As they would rather spend their time promoting their agenda than hunting, couatls appreciate offers of food, particularly small boars and large game fowl.",
 			"",
-			"A couatl sometimes shows its favor to an adventurer or party that has done it a service by gifting the group with 1d4 of its brightly colored feathers. Such a freely given feather, if used as an additional material component, allows a spellcaster to cast {spell/planar ally} to conjure that specific couatl without expending the typical payment of gold or other valuables - provided the the couatl approves of the service asked for by the spellcaster.",
-			"",
-			"[^B]: Bonus feat."
+			"A couatl sometimes shows its favor to an adventurer or party that has done it a service by gifting the group with 1d4 of its brightly colored feathers. Such a freely given feather, if used as an additional material component, allows a spellcaster to cast {spell/planar ally} to conjure that specific couatl without expending the typical payment of gold or other valuables - provided the the couatl approves of the service asked for by the spellcaster."
 		]
 	},
 	"couatl_auwaz_couatl": {
@@ -1854,7 +1854,9 @@
 			"",
 			"::mspell{sla cl=8 con=+11 constant=\"detect chaos~detect evil~detect good~detect law~know direction\" atWill=\"create water~detect thoughts|DC 15~invisibility~plane shift|self plus 50 lbs. of objects only\" day=\"3~hydraulic push|DC 14~obscuring mist~touch of the sea~water breathing~~1~call lightning|DC 16~gust of wind|DC 15~hydraulic torrent|DC 16\"}",
 			"",
-			"::mstats{str=16 dex=18 con=17 int=15 wis=15 cha=16 bab=+8 cmb=\"+11 (+15 grapple)\" cmd=\"25 (can't be tripped)\" feats=\"Alertness~Eschew Materials#B~Hover~Improved Initiative~Weapon Finesse\" skills=\"Bluff +14~Diplomacy +14~Fly +19~Knowledge (geography) +13~Knowledge (local) +13~Perception +15~Sense Motive +15~Survival +13\" lang=\"Celestial, Common, Draconic; %%umr/telepathy%% 100 ft.\" sq=\"gift of the sea\"}",
+			"::mstats{str=16 dex=18 con=17 int=15 wis=15 cha=16 bab=+8 cmb=\"+11 (+15 grapple)\" cmd=\"25 (can't be tripped)\" feats=\"Alertness~Eschew Materials#B~Hover~Improved Initiative~Weapon Finesse\" skills=\"Bluff +14~Diplomacy +14~Fly +19~Knowledge (geography) +13~Knowledge (local) +13~Perception +15~Sense Motive +15~Survival +13\" lang=\"Celestial, Common, Draconic; %%umr/telepathy%% 100 ft.\" sq=\"gift of the sea\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=solitary treasure=standard}",
 			"",
@@ -1886,9 +1888,7 @@
 			"",
 			"As they are generally good-natured and curious, many auwaz couatls take time to speak with any travelers they find, often flying above ships and conversing with those on board. These conversations usually involve current events, as auwaz couatls prefer to keep updated so as to not send travelers to dangerous locales, but they can also include artistic and philosophical discussions. Some auwaz couatls are quite fond of humorous stories and like to spend hours telling such tales, especially if there are children among the travelers. The sight of an auwaz couatl above a ship serves as a signal to others that the ship is protected, so many ships fly kites in the shape of auwaz couatls in hopes of giving marauders pause.",
 			"",
-			"Auwaz couatls are particularly fond of children, as they find kinship in their innocence. They are more than happy to comfort distressed children and guide them home. In particularly dire situations, or ones where a child may be too far from home to safely travel, an auwaz couatl will carry the child on its back and fly it to safety. An auwaz couatl typically has a different approach with children who have run away from home; the auwaz couatl takes time to speak with the child and learn her reasons for running away. In some cases, the child seeks to escape a troubled life and the auwaz couatl helps guide the child to a new home. In other cases, the auwaz couatl convinces the child to return home but encourages her to cultivate the wanderlust in her heart. Such children tend to grow into adventurers and travel the world years later.",
-			"",
-			"[^B]: Bonus feat."
+			"Auwaz couatls are particularly fond of children, as they find kinship in their innocence. They are more than happy to comfort distressed children and guide them home. In particularly dire situations, or ones where a child may be too far from home to safely travel, an auwaz couatl will carry the child on its back and fly it to safety. An auwaz couatl typically has a different approach with children who have run away from home; the auwaz couatl takes time to speak with the child and learn her reasons for running away. In some cases, the child seeks to escape a troubled life and the auwaz couatl helps guide the child to a new home. In other cases, the auwaz couatl convinces the child to return home but encourages her to cultivate the wanderlust in her heart. Such children tend to grow into adventurers and travel the world years later."
 		]
 	},
 	"auwaz_couatl": { "redirect": "couatl_auwaz_couatl" },
@@ -1911,7 +1911,9 @@
 			"",
 			"::mspell{prep cl=18 con=+27 l9=\"antipathy|DC 28~regenerate~summon nature's ally IX\" l8=\"control plants|DC 27~mass cure serious wounds~repel metal or stone~whirlwind|DC 27\" l7=\"animate plants~control weather~heal~transmute metal to wood\" l6=\"greater dispel magic~liveoak~move earth~transport via plants~wall of stone\" l5=\"animal growth|DC 24~awaken|DC 24~commune with nature~control winds|DC 24~hallow~wall of thorns\" l4=\"antiplant shell~command plants|DC 23~control water~dispel magic~freedom of movement~repel vermin\" l3=\"daylight~dominate animal|DC 22~neutralize poison~quench|DC 22~remove disease~speak with plants\" l2=\"animal messenger~gust of wind|DC 21~lesser restoration~soften earth and stone~warp wood|DC 21~wood shape|DC 21\" l1=\"calm animals|DC 20~charm animal|DC 20~detect animals or plants~entangle|DC 20~faerie fire~obscuring mist~speak with animals\" l0=\"create water~detect magic~know direction~purify food and drink|DC 19\"}",
 			"",
-			"::mstats{str=30 dex=20 con=25 int=18 wis=29 cha=27 bab=+20 cmb=\"+32 (+36 grapple)\" cmd=\"48 (can't be tripped)\" feats=\"Alertness~Dodge~Empower Spell~Eschew Materials#B~Hover~Improved Initiative~Lightning Reflexes~Natural Spell~Spell Penetration~Widen Spell~Wingover\" skills=\"Bluff +31~Fly +20~Intimidate +31~Knowledge (geography) +27~Knowledge (nature) +27~Perception +36~Sense Motive +36~Spellcraft +24~Stealth +20~Survival +32\" lang=\"Celestial, Common, Draconic, Druidic; %%umr/telepathy%% 100 ft.\" sq=\"natural form, %%ability/wild empathy%% +32\"}",
+			"::mstats{str=30 dex=20 con=25 int=18 wis=29 cha=27 bab=+20 cmb=\"+32 (+36 grapple)\" cmd=\"48 (can't be tripped)\" feats=\"Alertness~Dodge~Empower Spell~Eschew Materials#B~Hover~Improved Initiative~Lightning Reflexes~Natural Spell~Spell Penetration~Widen Spell~Wingover\" skills=\"Bluff +31~Fly +20~Intimidate +31~Knowledge (geography) +27~Knowledge (nature) +27~Perception +36~Sense Motive +36~Spellcraft +24~Stealth +20~Survival +32\" lang=\"Celestial, Common, Draconic, Druidic; %%umr/telepathy%% 100 ft.\" sq=\"natural form, %%ability/wild empathy%% +32\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm badlands or ruins\" org=solitary treasure=standard}",
 			"",
@@ -1943,9 +1945,7 @@
 			"",
 			"Chicomes are strictly solitary creatures who dwell in the lands that need their help. While they are purifying a particular region, chicomes periodically take flight to survey the area and determine whether their presence is still justified. The couatls also scout for worthy guardians in the vicinity to take over stewardship - typically a powerful awakened animal, but sometimes a nemophilist in a nearby settlement. These individuals typically become druids who learn their abilities from the chicome, though anyone the couatl deems worthy may serve as a steward of such lands, regardless of the individual's magical prowess. Those who have received a chicome's blessing are sometimes referred to as Children of the Chicome. If ever one such steward is slain while protecting her pocket of wilderness, her host chicome will return its child to life using its powers of reincarnation. The steward is typically reborn as the animal it most identified with in life.",
 			"",
-			"Though they may serve a range of lawful and good deities, chicomes are typically agents of those gods with an aspect of nature or life, such as {faith/Erastil} or Cihua Couatl, or empyreal lords like {faith/Cernunnos} or {faith/Valani}. Some chicomes may even serve neutral-aligned deities such as {faith/Gozreh} or {faith/Feronia}. Chicomes never serve deities, no matter how noble, whose portfolio includes the destruction of nature or the spread of civilization, such as {faith/Torag}. Many chicomes serve no deities at all and are dedicated only to the primordial forces of nature.",
-			"",
-			"[^B]: Bonus feat."
+			"Though they may serve a range of lawful and good deities, chicomes are typically agents of those gods with an aspect of nature or life, such as {faith/Erastil} or Cihua Couatl, or empyreal lords like {faith/Cernunnos} or {faith/Valani}. Some chicomes may even serve neutral-aligned deities such as {faith/Gozreh} or {faith/Feronia}. Chicomes never serve deities, no matter how noble, whose portfolio includes the destruction of nature or the spread of civilization, such as {faith/Torag}. Many chicomes serve no deities at all and are dedicated only to the primordial forces of nature."
 		]
 	},
 	"chicome": { "redirect": "couatl_chicome" },
@@ -2004,7 +2004,9 @@
 			"",
 			"::mspell{prep=Druid cl=7 con=+10 l4=\"flame strike|DC 18~summon nature's ally IV\" l3=\"cure moderate wounds~protection from energy~speak with plants\" l2=\"bear's endurance~flaming sphere|DC 15~lesser restoration~resist energy\" l1=\"endure elements~faerie fire|DC 14~pass without trace~produce flame~speak with animals\" l0=\"flare|DC 13~guidance~stabilize~virtue\"}",
 			"",
-			"::mstats{str=18 dex=19 con=18 int=15 wis=17 cha=15 bab=+10 cmb=\"+15 (+19 grapple)\" cmd=\"29 (can't be tripped)\" feats=\"Alertness~Eschew Materials#B~Hover~Improved Initiative~Iron Will~Weapon Focus=bite\" skills=\"Diplomacy +16~Fly +19~Knowledge (geography) +15~Knowledge (nature) +15~Perception +20~Sense Motive +20~Stealth +0 (+20 in the night sky)\" lang=\"Celestial, Common, Draconic; %%umr/telepathy%% 100 ft.\" sq=\"gift of knowledge, star child\"}",
+			"::mstats{str=18 dex=19 con=18 int=15 wis=17 cha=15 bab=+10 cmb=\"+15 (+19 grapple)\" cmd=\"29 (can't be tripped)\" feats=\"Alertness~Eschew Materials#B~Hover~Improved Initiative~Iron Will~Weapon Focus=bite\" skills=\"Diplomacy +16~Fly +19~Knowledge (geography) +15~Knowledge (nature) +15~Perception +20~Sense Motive +20~Stealth +0 (+20 in the night sky)\" lang=\"Celestial, Common, Draconic; %%umr/telepathy%% 100 ft.\" sq=\"gift of knowledge, star child\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, pair, or flight (3-4)\" treasure=standard}",
 			"",
@@ -2042,9 +2044,7 @@
 			"",
 			"Although they are altruistic as a whole, mix couatls are known for having fun with their duties, often sharing less relevant or risky knowledge to shake up the growth of a settlement. Many tales tell of mix couatls teaching small children about magic or places that then cause trouble for a settlement. In the end, most settlements find that these challenges teach great lessons and use this valuable knowledge to improve their settlements in unexpected ways.",
 			"",
-			"Mix couatls commonly return to the sites of settlements they have helped nurture over the span of multiple generations - each new generation hears tales of beautiful flying serpents made of stars and considers it a great blessing to see this creature once more. Only on rare occasions does a mix couatl abandon a settlement. This usually happens when the mix couatl recognizes that its attempts to improve the settlement may actually be harmful, whether due to a potential loss of important traditions or when the possibility of growth could expose the settlement to great dangers from the outside world.",
-			"",
-			"[^B]: Bonus feat."
+			"Mix couatls commonly return to the sites of settlements they have helped nurture over the span of multiple generations - each new generation hears tales of beautiful flying serpents made of stars and considers it a great blessing to see this creature once more. Only on rare occasions does a mix couatl abandon a settlement. This usually happens when the mix couatl recognizes that its attempts to improve the settlement may actually be harmful, whether due to a potential loss of important traditions or when the possibility of growth could expose the settlement to great dangers from the outside world."
 		]
 	},
 	"mix_couatl": { "redirect": "couatl_mix_couatl" },
@@ -2518,7 +2518,9 @@
 			"",
 			"::moffense{sp=30 sw=40 melee=\"bite +18 (2d6+13 plus %%umr/grab%%), tail slap +12 (2d8+6)\" space=20 reach=20 constrict=\"2d6+13\" specAtt=\"snap bite\"}",
 			"",
-			"::mstats{str=36 dex=12 con=21 int=1 wis=15 cha=2 bab=+8 cmb=\"+25 (+29 grapple)\" cmd=\"36 (40 vs. trip)\" feats=\"Awesome Blow#B=tail slap only~Improved Initiative~Iron Will~Lightning Reflexes~Skill Focus=Perception, Stealth~Weapon Focus=bite\" skills=\"Perception +14~Stealth +0 (+12 in water)~Swim +21\" racial=\"+12 Stealth in water\" sq=\"%%umr/hold breath%%\"}",
+			"::mstats{str=36 dex=12 con=21 int=1 wis=15 cha=2 bab=+8 cmb=\"+25 (+29 grapple)\" cmd=\"36 (40 vs. trip)\" feats=\"Awesome Blow#B=tail slap only~Improved Initiative~Iron Will~Lightning Reflexes~Skill Focus=Perception, Stealth~Weapon Focus=bite\" skills=\"Perception +14~Stealth +0 (+12 in water)~Swim +21\" racial=\"+12 Stealth in water\" sq=\"%%umr/hold breath%%\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any water\" org=\"solitary, pair, or float (3-6)\" treasure=none}",
 			"",
@@ -2532,9 +2534,7 @@
 			"",
 			"The largest of all known crocodilians, the 35- to 50-foot-long, 6-ton deinosuchus is a massive beast. This crocodilian possesses a shorter, rounder snout than the typical crocodile, and thus resembles a giant alligator. A patient hunter, the deinosuchus is all but invisible beneath the surface of the water. Only its nostrils breach the water's surface, allowing the rest of its formidable mass to remain out of sight from even highly perceptive prey.",
 			"",
-			"In combat, the deinosuchus grinds its prey between its powerful jaws, knocking back other foes with its formidable tail while it snaps bones and tears the flesh of its captured meal.",
-			"",
-			"[^B]: Bonus feat."
+			"In combat, the deinosuchus grinds its prey between its powerful jaws, knocking back other foes with its formidable tail while it snaps bones and tears the flesh of its captured meal."
 		]
 	},
 	"deinosuchus": { "redirect": "crocodilians_deinosuchus" },

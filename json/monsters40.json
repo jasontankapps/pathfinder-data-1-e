@@ -319,7 +319,9 @@
 			"",
 			"::moffense{sp=40 cl=40 fl=60 poor melee=\"bite +3 (2d6+3 plus poison)\" space=10 reach=5 specAtt=poison}",
 			"",
-			"::mstats{str=15 dex=13 con=22 int=\"-\" wis=13 cha=2 bab=+2 cmb=+5 cmd=\"16 (24 vs. trip)\" feats=\"Diehard#B~Endurance#B\" skills=\"Climb +10~Fly -5~Perception +5~Stealth +1\" racial=\"+4 Perception, +4 Stealth\" sq=\"%%umr/hold breath%%\"}",
+			"::mstats{str=15 dex=13 con=22 int=\"-\" wis=13 cha=2 bab=+2 cmb=+5 cmd=\"16 (24 vs. trip)\" feats=\"Diehard#B~Endurance#B\" skills=\"Climb +10~Fly -5~Perception +5~Stealth +1\" racial=\"+4 Perception, +4 Stealth\" sq=\"%%umr/hold breath%%\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any land\" org=\"solitary, pair, or intrusion (3-12)\" treasure=none}",
 			"",
@@ -333,9 +335,7 @@
 			"",
 			"Like their smaller and more mundane cousins, venomroaches lurk along the fringes of humanoid civilization, skittering through the dark corners of the world. Dangerous denizens of sewers and alleyways, venomroaches have a pair of traits that set them apart from most of their kin. As their name would suggest, these vermin generate a potent toxin that withers tissue and poisons the blood. Unlike their smaller cousins, venomroaches also have enlarged mouthparts that give them a potent bite attack.",
 			"",
-			"Venomroaches are 8 feet long and weigh 120 pounds.",
-			"",
-			"[^B]: Bonus feat."
+			"Venomroaches are 8 feet long and weigh 120 pounds."
 		]
 	},
 	"verdurous_ooze": {

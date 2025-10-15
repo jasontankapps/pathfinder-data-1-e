@@ -759,7 +759,9 @@
 			"",
 			"::moffense{sp=10 melee=\"3 tentacles +5 (1d4 plus poison)\" space=5 reach=15 specAtt=poison}",
 			"",
-			"::mstats{str=10 dex=17 con=12 int=\"-\" wis=13 cha=5 bab=+2 cmb=+2 cmd=\"15 (27 vs. trip)\" feats=\"Improved Initiative#B~Weapon Finesse#B\" sq=camouflage}",
+			"::mstats{str=10 dex=17 con=12 int=\"-\" wis=13 cha=5 bab=+2 cmb=+2 cmd=\"15 (27 vs. trip)\" feats=\"Improved Initiative#B~Weapon Finesse#B\" sq=camouflage next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate or warm forests\" org=\"solitary, pair, or patch (3-6)\" treasure=incidental}",
 			"",
@@ -783,9 +785,7 @@
 			"",
 			"A mature plant consists of a torso-sized bulb with small, ambulatory roots and three large, lashing vines, each as long as a whip, with blade-like thorns that secrete an irritating toxin. When the weedwhip is blooming, the bulb is crowned with a large flower and its scent is especially strong, often attracting pollinating flies.",
 			"",
-			"In rocky areas lacking suitable soil, a weedwhip can root itself in a corpse, leading some adventurers to think it prefers feeding on dead bodies or plants seeds in its kills, but it does so only in extreme circumstances.",
-			"",
-			"[^B]: Bonus feat."
+			"In rocky areas lacking suitable soil, a weedwhip can root itself in a corpse, leading some adventurers to think it prefers feeding on dead bodies or plants seeds in its kills, but it does so only in extreme circumstances."
 		]
 	},
 	"wendigo": {
@@ -1501,7 +1501,9 @@
 			"",
 			"::mspell{sla cl=3 con=\"+4; save DCs are Intelligence-based\" constant=\"detect magic~speak with animals|birds only\" day=\"3~perceive cues~vanish~ventriloquism|DC 12~~1~ill omen~mirror image\"}",
 			"",
-			"::mstats{str=8 dex=15 con=8 int=13 wis=12 cha=11 bab=+3 cmb=\"+3 (+5 steal)\" cmd=\"12 (14 vs. steal)\" feats=\"Combat Expertise~Flyby Attack#B~Improved Steal\" skills=\"Fly +15~Knowledge (arcana) +2~Perception +6~Sleight of Hand +11~Spellcraft +3~Stealth +14\" racial=\"+8 Sleight of Hand\" lang=\"Aklo, Common; *speak with animals* (birds only)\"}",
+			"::mstats{str=8 dex=15 con=8 int=13 wis=12 cha=11 bab=+3 cmb=\"+3 (+5 steal)\" cmd=\"12 (14 vs. steal)\" feats=\"Combat Expertise~Flyby Attack#B~Improved Steal\" skills=\"Fly +15~Knowledge (arcana) +2~Perception +6~Sleight of Hand +11~Spellcraft +3~Stealth +14\" racial=\"+8 Sleight of Hand\" lang=\"Aklo, Common; *speak with animals* (birds only)\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"cold and temperate forests and plains\" org=\"solitary, pair, covey (3-12), or murder (13-30)\" treasure=standard}",
 			"",
@@ -1521,9 +1523,7 @@
 			"",
 			"Witchcrows have an affinity for colder climes, and often masquerade as normal crows living in the fields and forests near the civilized settlements of other creatures. They particularly seek out magical societies where they can gain greater access to arcane items. On Golarion, this makes witchcrows most prevalent in Irrisen, where they've developed a terrible reputation-enough so that the witches of Irrisen (and the people they rule) both fear and revile the birds, marking them for destruction whenever they find them.",
 			"",
-			"In witchcrow society, greater witchcrows always establish dominance over their lesser kin, rising to lead large congregations of the malicious birds and shepherding them from one habitat to another. Witchcrows always mutually support one another even as they compete for the same resources, following a strict social hierarchy that aggrandizes the most successful thieves among them. Leaders of any given covey collect and dispense the spoils of their activities, assigning arcane treasures to the strongest of their kind during mating season. Those witchcrows that contribute little to the group's success often find themselves with empty nests during these gatherings - or cast out of the flock entirely.",
-			"",
-			"[^B]: Bonus feat."
+			"In witchcrow society, greater witchcrows always establish dominance over their lesser kin, rising to lead large congregations of the malicious birds and shepherding them from one habitat to another. Witchcrows always mutually support one another even as they compete for the same resources, following a strict social hierarchy that aggrandizes the most successful thieves among them. Leaders of any given covey collect and dispense the spoils of their activities, assigning arcane treasures to the strongest of their kind during mating season. Those witchcrows that contribute little to the group's success often find themselves with empty nests during these gatherings - or cast out of the flock entirely."
 		]
 	},
 	"witchcrow_greater_witchcrow": {
@@ -1540,7 +1540,9 @@
 			"",
 			"::mspell{sla cl=5 con=\"+8; save DCs are Intelligence-based\" constant=\"detect magic~speak with animals|birds only\" day=\"3~perceive cues~vanish~ventriloquism|DC 14~~1~ill omen~mirror image\"}",
 			"",
-			"::mstats{str=12 dex=17 con=12 int=17 wis=16 cha=13 bab=+5 cmb=\"+5 (+7 steal)\" cmd=\"19 (21 vs. steal)\" feats=\"Combat Expertise~Dodge~Flyby Attack#B~Improved Steal\" skills=\"Bluff +5~Fly +15~Knowledge (arcana) +6~Perception +9~Sense Motive +6~Sleight of Hand +12~Spellcraft +6~Stealth +15\" racial=\"+8 Sleight of Hand\" lang=\"Abyssal, Aklo, Auran, Common; *speak with animals* (birds only)\" sq=apportation}",
+			"::mstats{str=12 dex=17 con=12 int=17 wis=16 cha=13 bab=+5 cmb=\"+5 (+7 steal)\" cmd=\"19 (21 vs. steal)\" feats=\"Combat Expertise~Dodge~Flyby Attack#B~Improved Steal\" skills=\"Bluff +5~Fly +15~Knowledge (arcana) +6~Perception +9~Sense Motive +6~Sleight of Hand +12~Spellcraft +6~Stealth +15\" racial=\"+8 Sleight of Hand\" lang=\"Abyssal, Aklo, Auran, Common; *speak with animals* (birds only)\" sq=apportation next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"cold and temperate forests and plains\" org=\"solitary, pair, covey (3-12), or murder (13-30)\" treasure=standard}",
 			"",
@@ -1568,9 +1570,7 @@
 			"",
 			"Witchcrows have an affinity for colder climes, and often masquerade as normal crows living in the fields and forests near the civilized settlements of other creatures. They particularly seek out magical societies where they can gain greater access to arcane items. On Golarion, this makes witchcrows most prevalent in Irrisen, where they've developed a terrible reputation-enough so that the witches of Irrisen (and the people they rule) both fear and revile the birds, marking them for destruction whenever they find them.",
 			"",
-			"In witchcrow society, greater witchcrows always establish dominance over their lesser kin, rising to lead large congregations of the malicious birds and shepherding them from one habitat to another. Witchcrows always mutually support one another even as they compete for the same resources, following a strict social hierarchy that aggrandizes the most successful thieves among them. Leaders of any given covey collect and dispense the spoils of their activities, assigning arcane treasures to the strongest of their kind during mating season. Those witchcrows that contribute little to the group's success often find themselves with empty nests during these gatherings - or cast out of the flock entirely.",
-			"",
-			"[^B]: Bonus feat."
+			"In witchcrow society, greater witchcrows always establish dominance over their lesser kin, rising to lead large congregations of the malicious birds and shepherding them from one habitat to another. Witchcrows always mutually support one another even as they compete for the same resources, following a strict social hierarchy that aggrandizes the most successful thieves among them. Leaders of any given covey collect and dispense the spoils of their activities, assigning arcane treasures to the strongest of their kind during mating season. Those witchcrows that contribute little to the group's success often find themselves with empty nests during these gatherings - or cast out of the flock entirely."
 		]
 	},
 	"witchcrow_greater": { "redirect": "witchcrow_greater_witchcrow" },
@@ -1632,7 +1632,9 @@
 			"",
 			"::mspell{sla cl=8 con=+13 constant=\"detect magic~floating disk~mage armor~resist energy|one at a time~unseen servant\" day=\"3~dispel magic~displacement~suggestion|DC 18~~1~dimension door~resilient sphere|DC 19\"}",
 			"",
-			"::mstats{str=16 dex=15 con=17 int=18 wis=13 cha=20 bab=+8 cmb=\"+11 (+15 grapple)\" cmd=23 feats=\"Deflect Arrows#B~Great Fortitude~Improved Initiative~Iron Will~Persuasive\" skills=\"Appraise +12~Bluff +13~Diplomacy +11~Intimidate +18~Knowledge (arcana) +12~Knowledge (geography) +12~Knowledge (planes) +12~Perception +8~Sense Motive +5~Use Magic Device +9\" lang=\"Common, Draconic, one or more planar %%misc/languages%%; *tongues*\"}",
+			"::mstats{str=16 dex=15 con=17 int=18 wis=13 cha=20 bab=+8 cmb=\"+11 (+15 grapple)\" cmd=23 feats=\"Deflect Arrows#B~Great Fortitude~Improved Initiative~Iron Will~Persuasive\" skills=\"Appraise +12~Bluff +13~Diplomacy +11~Intimidate +18~Knowledge (arcana) +12~Knowledge (geography) +12~Knowledge (planes) +12~Perception +8~Sense Motive +5~Use Magic Device +9\" lang=\"Common, Draconic, one or more planar %%misc/languages%%; *tongues*\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any land\" org=\"solitary, entourage (1 witchwyrd and 2-5 humanoid guards), or enclave (2-5 witchwyrds and 11-20 humanoid guards)\" treasure=double}",
 			"",
@@ -1644,9 +1646,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Alien merchants that travel between planets and planes, witchwyrds stand 7 feet tall, weigh 300 pounds, and are covered in hairless blue-gray skin. Witchwyrds new to a market or eager to avoid identification during an important business deal fold their second sets of flexible arms behind their backs and dress in robes, the better to pass as a less-infamous humanoid race. Witchwyrds tend to prefer the driest, warmest regions of the areas they visit-perhaps an indicator of their mysterious home world.",
-			"",
-			"[^B]: Bonus feat."
+			"Alien merchants that travel between planets and planes, witchwyrds stand 7 feet tall, weigh 300 pounds, and are covered in hairless blue-gray skin. Witchwyrds new to a market or eager to avoid identification during an important business deal fold their second sets of flexible arms behind their backs and dress in robes, the better to pass as a less-infamous humanoid race. Witchwyrds tend to prefer the driest, warmest regions of the areas they visit-perhaps an indicator of their mysterious home world."
 		]
 	},
 	"wizards_shackle": {
@@ -1790,7 +1790,9 @@
 			"",
 			"::moffense{sp=5 br=5 cl=5 melee=\"bite +12 (1d6+3), 8 tentacles +11 (1d4+1 plus %%umr/grab%% and pull)\" space=5 reach=5 reachP=\"15 ft. with tentacle\" constrict=\"tentacle 1d4+3\" pull=\"tentacle, 5 ft.\" specAtt=implant}",
 			"",
-			"::mstats{str=17 dex=10 con=17 int=6 wis=14 cha=7 bab=+9 cmb=\"+12 (+18 grapple)\" cmd=\"22 (can't be tripped)\" feats=\"Great Fortitude~Greater Grapple#B~Improved Initiative~Improved Lightning Reflexes~Lightning Reflexes~Multiattack~Skill Focus=Perception~Weapon Focus=tentacle\" skills=\"Climb +15~Disguise -1 (+11 as tree stump)~Knowledge (nature) +4~Perception +14~Sense Motive +8~Stealth +9\" racial=\"+12 Disguise as tree stump\" sq=\"corpse lure\"}",
+			"::mstats{str=17 dex=10 con=17 int=6 wis=14 cha=7 bab=+9 cmb=\"+12 (+18 grapple)\" cmd=\"22 (can't be tripped)\" feats=\"Great Fortitude~Greater Grapple#B~Improved Initiative~Improved Lightning Reflexes~Lightning Reflexes~Multiattack~Skill Focus=Perception~Weapon Focus=tentacle\" skills=\"Climb +15~Disguise -1 (+11 as tree stump)~Knowledge (nature) +4~Perception +14~Sense Motive +8~Stealth +9\" racial=\"+12 Disguise as tree stump\" sq=\"corpse lure\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any forest\" org=solitary treasure=incidental}",
 			"",
@@ -1808,9 +1810,7 @@
 			"",
 			"Though intelligent, these monsters see little need for the company of others. Their method of reproduction is as hideous as their tactic of using corpses as lures, for they implant their parasitic eggs in living hosts, giving their spawn a fresh meal to eat upon hatching.",
 			"",
-			"A wolf-in-sheep's-clothing is usually about 4 to 5 feet across and weighs 200 pounds.",
-			"",
-			"[^B]: Bonus feat."
+			"A wolf-in-sheep's-clothing is usually about 4 to 5 feet across and weighs 200 pounds."
 		]
 	},
 	"wolliped": {
@@ -1827,7 +1827,9 @@
 			"",
 			"::moffense{sp=50 melee=\"gore +1 (1d8+2)\" ranged=\"spit +4 touch\" space=10 reach=5}",
 			"",
-			"::mstats{str=18 dex=14 con=17 int=2 wis=11 cha=3 bab=+3 cmb=+8 cmd=\"20 (32 vs. trip)\" feats=\"Endurance#B~Run~Skill Focus=Perception\" skills=\"Climb +8~Perception +9\"}",
+			"::mstats{str=18 dex=14 con=17 int=2 wis=11 cha=3 bab=+3 cmb=+8 cmd=\"20 (32 vs. trip)\" feats=\"Endurance#B~Run~Skill Focus=Perception\" skills=\"Climb +8~Perception +9\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate hills\" org=\"solitary, pair, or herd (3-12)\" treasure=none}",
 			"",
@@ -1849,9 +1851,7 @@
 			"",
 			"Wolliped fleece is a versatile textile, as wolliped fibers wick water away, and still provide adequate warmth even when soaked. The variations in their coat colors and textures provide weavers with a wide array of design options.",
 			"",
-			"Wollipeds are known to use spitting as a form of communication, as well as a method of defense. Most wollipeds only spit at one another, typically in the course of their tusk-clashing shows of dominance, but when threatened, they can launch a nauseating wad of partially digested food at their attackers to sicken and distract them.",
-			"",
-			"[^B]: Bonus feat."
+			"Wollipeds are known to use spitting as a form of communication, as well as a method of defense. Most wollipeds only spit at one another, typically in the course of their tusk-clashing shows of dominance, but when threatened, they can launch a nauseating wad of partially digested food at their attackers to sicken and distract them."
 		]
 	},
 	"wolliped_wolliped_combat_trained": {

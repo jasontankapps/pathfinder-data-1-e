@@ -2181,7 +2181,9 @@
 			"",
 			"::moffense{sp=40 spP=\"30 ft. in armor\" melee=\"+1 longsword +18/+13/+8 (2d6+11/17-20) or 2 slams +17 (1d6+7)\" ranged=\"mwk spear +13/+8/+3 (2d6+7/&times&3)\" space=10 reach=10 specAtt=\"crushing blow~mortal challenge\"}",
 			"",
-			"::mstats{str=25 dex=15 con=18 int=14 wis=16 cha=17 bab=+11 cmb=\"+19 (+23 sunder)\" cmd=\"31 (33 vs. sunder)\" feats=\"Endurance#B~Great Fortitude#B~Greater Sunder~Improved Critical=longsword~Improved Sunder~Lightning Reflexes~Power Attack~Quick Draw\" skills=\"Bluff +12~Climb +13~Diplomacy +17~Intimidate +17~Knowledge (geography, planes) +11~Perception +17~Sense Motive +17~Stealth +9~Survival +12\" lang=Celestial}",
+			"::mstats{str=25 dex=15 con=18 int=14 wis=16 cha=17 bab=+11 cmb=\"+19 (+23 sunder)\" cmd=\"31 (33 vs. sunder)\" feats=\"Endurance#B~Great Fortitude#B~Greater Sunder~Improved Critical=longsword~Improved Sunder~Lightning Reflexes~Power Attack~Quick Draw\" skills=\"Bluff +12~Climb +13~Diplomacy +17~Intimidate +17~Knowledge (geography, planes) +11~Perception +17~Sense Motive +17~Stealth +9~Survival +12\" lang=Celestial next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm hills\" org=\"solitary, pair, or tribe (3-8)\" treasure=\"double=masterwork %%eq-armor/breastplate%%, +1 %%eq-weapon/longsword%%, 4 masterwork %%eq-weapon/spear/s%%, other treasure\"}",
 			"",
@@ -2197,9 +2199,7 @@
 			"",
 			"The nephilim are the offspring of demigods who bred with humans. This joining resulted in a race of giant-sized beings possessed of a shard of divine power and the mortal consciousness of humans. A nephilim stands 11 feet tall and weighs 1,100 pounds. Its divine heritage grants it a lifespan of almost 600 years.",
 			"",
-			"Nephilim are a nomadic, secretive race. This isolationism has only heightened the wild tales surrounding them, making it even harder for other races to trust them. While the ancient animosity humans once had against them has been largely forgotten, zealots occasionally try to mount pogroms and crusades to wipe the nephilim out forever. The nephilim have proven strikingly resistant to these efforts.",
-			"",
-			"[^B]: Bonus feat."
+			"Nephilim are a nomadic, secretive race. This isolationism has only heightened the wild tales surrounding them, making it even harder for other races to trust them. While the ancient animosity humans once had against them has been largely forgotten, zealots occasionally try to mount pogroms and crusades to wipe the nephilim out forever. The nephilim have proven strikingly resistant to these efforts."
 		]
 	},
 	"nephlei": {
@@ -2251,7 +2251,9 @@
 			"",
 			"::mspell{sla cl=12 con=+17 atWill=\"control water~suggestion|DC 18; only against creatures that are currently fascinated by her beguiling aura\" day=\"1~summon monster VI|water elementals only\"}",
 			"",
-			"::mstats{str=11 dex=29 con=24 int=14 wis=22 cha=21 bab=+6 cmb=+15 cmd=37 feats=\"Ability Focus=beguiling aura~Agile Maneuvers~Defensive Combat Training~Dodge~Mobility#B~Weapon Finesse\" skills=\"Bluff +20~Escape Artist +24~Knowledge (nature) +17~Perception +21~Perform (sing) +20~Sense Motive +21~Stealth +24~Swim +23\" lang=\"Aquan, Common, Sylvan\" sq=\"%%umr/change shape%% (medium water elemental; %%spell/elemental body II%%), unearthly grace\"}",
+			"::mstats{str=11 dex=29 con=24 int=14 wis=22 cha=21 bab=+6 cmb=+15 cmd=37 feats=\"Ability Focus=beguiling aura~Agile Maneuvers~Defensive Combat Training~Dodge~Mobility#B~Weapon Finesse\" skills=\"Bluff +20~Escape Artist +24~Knowledge (nature) +17~Perception +21~Perform (sing) +20~Sense Motive +21~Stealth +24~Swim +23\" lang=\"Aquan, Common, Sylvan\" sq=\"%%umr/change shape%% (medium water elemental; %%spell/elemental body II%%), unearthly grace\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any aquatic\" org=\"solitary or troupe (1 nereid plus 1 %%monster/giant squid%%, 1 %%monster/giant octopus%%, 1 %%monster/giant moray eel%%, or an %%monster/orca%%)\" treasure=standard}",
 			"",
@@ -2273,9 +2275,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Nereids are capricious and often dangerous aquatic fey that appear as strikingly beautiful women, often seen bathing unclothed in the water. Many sailors have met their doom following a nereid, for though a nereid's beauty is otherworldly, her watery kiss is death. Others seek out nereids, for if one can secure control over the creature's shawl, the cloth can be used to force the nereid's compliance. A nereid forced to obey in this manner immediately attempts to slay her master as soon as she can secure her shawl's safety.",
-			"",
-			"[^B]: Bonus feat."
+			"Nereids are capricious and often dangerous aquatic fey that appear as strikingly beautiful women, often seen bathing unclothed in the water. Many sailors have met their doom following a nereid, for though a nereid's beauty is otherworldly, her watery kiss is death. Others seek out nereids, for if one can secure control over the creature's shawl, the cloth can be used to force the nereid's compliance. A nereid forced to obey in this manner immediately attempts to slay her master as soon as she can secure her shawl's safety."
 		]
 	},
 	"neshmaal": {

@@ -71,7 +71,9 @@
 			"",
 			"::mspell{sla cl=3 con=+5 atWill=\"alter self|Small humanoid child only~ghost sound|DC 12\" day=\"1~lesser confusion|DC 13~murderous command|DC 13~rage\"}",
 			"",
-			"::mstats{str=14 dex=16 con=15 int=8 wis=9 cha=14 bab=+1 cmb=+2 cmd=14 feats=\"Power Attack~Skill Focus=Stealth~Toughness#B~Weapon Finesse#B\" skills=\"Acrobatics +9~Bluff +8~Perception +5~Sleight of Hand +13~Stealth +20\" racial=\"+4 Sleight of Hand\" lang=\"Aklo, Common, Undercommon\"}",
+			"::mstats{str=14 dex=16 con=15 int=8 wis=9 cha=14 bab=+1 cmb=+2 cmd=14 feats=\"Power Attack~Skill Focus=Stealth~Toughness#B~Weapon Finesse#B\" skills=\"Acrobatics +9~Bluff +8~Perception +5~Sleight of Hand +13~Stealth +20\" racial=\"+4 Sleight of Hand\" lang=\"Aklo, Common, Undercommon\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any underground or urban\" org=\"solitary, pair, or mob (3-8)\" treasure=\"standard=%%eq-weapon/spiked chain%%, other treasure\"}",
 			"",
@@ -87,9 +89,7 @@
 			"",
 			"Erinat gremlins are obsessed with conflict and discord. They love nothing more than starting fights - the more inane and pointless the struggle, the better. Erinat gremlins typically use alter self to take the appearance of unfed, unwashed humanoid children as appropriate to their surroundings, allowing the gremlins to move freely through settlements (and accuse anyone who attempts to stop their malicious conduct of trying to kidnap them). Erinats don't care who wins the fights they start; they simply wish to be entertained by the largest brawls they can arrange. The mischievous gremlins delight in creating chaos, and are prone to making outrageous claims in the hope of sparking riots, aided by forcing bystanders to attack each other with random, often ridiculous objects.",
 			"",
-			"**Family:** {family/Gremlin}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Gremlin}"
 		]
 	},
 	"erinat": { "redirect": "gremlin_erinat" },
@@ -109,7 +109,9 @@
 			"",
 			"::mspell{sla cl=1 con=+0 atWill=\"create water~prestidigitation\" day=\"1~sleep|DC 10\"}",
 			"",
-			"::mstats{str=7 dex=13 con=12 int=10 wis=13 cha=8 bab=+0 cmb=-1 cmd=7 feats=\"Improved Initiative~Toughness#B~Weapon Finesse#B\" skills=\"Climb +9~Escape Artist +5~Handle Animal +4~Perception +5~Stealth +13~Swim +13~Use Magic Device +3\" racial=\"+4 Handle Animal\" lang=Aquan sq=\"%%umr/amphibious%%\"}",
+			"::mstats{str=7 dex=13 con=12 int=10 wis=13 cha=8 bab=+0 cmb=-1 cmd=7 feats=\"Improved Initiative~Toughness#B~Weapon Finesse#B\" skills=\"Climb +9~Escape Artist +5~Handle Animal +4~Perception +5~Stealth +13~Swim +13~Use Magic Device +3\" racial=\"+4 Handle Animal\" lang=Aquan sq=\"%%umr/amphibious%%\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any water\" org=\"solitary, pair, mob (3-12), or school (13-20 with 1-3 druids of 1st-3rd level, 1 druid leader of 4th-6th level, and 2-5 %%monster/reefclaw/s%%)\" treasure=\"standard=6 %%eq-weapon/dart/s%%, other treasure\"}",
 			"",
@@ -127,9 +129,7 @@
 			"",
 			"Fuaths don't share a common language with other types of gremlins, though they can pantomime to each other fairly effectively. They have a surprising rapport with other sea creatures, even foul-tempered beasts like reefclaws. Small groups of fuaths lair in sea caves or rocky crevices. Larger groups frequently lay claim to whole sections of ruined ships. Their lairs usually include several trained guard animals. Fuaths prefer the taste of \"land-meat\" to anything from the sea, and often raid shore and ships to slake their hunger. They adore sea hags to the point of worship.",
 			"",
-			"**Family:** {family/Gremlin}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Gremlin}"
 		]
 	},
 	"fuath": { "redirect": "gremlin_fuath" },
@@ -152,7 +152,9 @@
 			"",
 			"::mspell{sla cl=1 con=-1 atWill=prestidigitation day=\"3~grease|DC 9~mage hand~open/close\"}",
 			"",
-			"::mstats{str=3 dex=13 con=12 int=10 wis=11 cha=6 bab=+0 cmb=-1 cmd=5 feats=\"Skill Focus=Stealth~Weapon Finesse#B\" skills=\"Climb +13~Fly +1~Perception +4~Sleight of Hand +5~Stealth +16~Swim +5\" lang=Undercommon sq=\"gremlin lice\"}",
+			"::mstats{str=3 dex=13 con=12 int=10 wis=11 cha=6 bab=+0 cmb=-1 cmd=5 feats=\"Skill Focus=Stealth~Weapon Finesse#B\" skills=\"Climb +13~Fly +1~Perception +4~Sleight of Hand +5~Stealth +16~Swim +5\" lang=Undercommon sq=\"gremlin lice\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any urban\" org=\"solitary, pair, mob (3-8), or infestation (9-16 plus 2-6 trained %%monster/dire rat/s%% and 1-4 %%monster/spider swarm/s%%)\" treasure=standard}",
 			"",
@@ -170,9 +172,7 @@
 			"",
 			"Voracious omnivores, grimples feast off garbage. They frequently target inns, restaurants, and other places where they can scavenge a steady supply of food.",
 			"",
-			"**Family:** {family/Gremlin}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Gremlin}"
 		]
 	},
 	"grimple": { "redirect": "gremlin_grimple" },
@@ -326,7 +326,9 @@
 			"",
 			"::mspell{sla cl=3 con=+4 atWill=\"prestidigitation~putrefy food and drink|DC 11~ghost sound|DC 12~silent image|DC 12\" day=\"1~glitterdust\"}",
 			"",
-			"::mstats{str=6 dex=15 con=14 int=11 wis=12 cha=13 bab=+1 cmb=-2 cmd=10 feats=\"Skill Focus=Stealth~Toughness#B~Weapon Finesse#B\" skills=\"Bluff +6~Disable Device +8~Escape Artist +7~Perception +6~Sense Motive +6~Stealth +18 (+14 when moving)\" racial=\"+4 Disable Device, +4 Stealth (+0 when moving)\" lang=Aklo sq=\"%%umr/compression%%, magic bag\"}",
+			"::mstats{str=6 dex=15 con=14 int=11 wis=12 cha=13 bab=+1 cmb=-2 cmd=10 feats=\"Skill Focus=Stealth~Toughness#B~Weapon Finesse#B\" skills=\"Bluff +6~Disable Device +8~Escape Artist +7~Perception +6~Sense Motive +6~Stealth +18 (+14 when moving)\" racial=\"+4 Disable Device, +4 Stealth (+0 when moving)\" lang=Aklo sq=\"%%umr/compression%%, magic bag\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any urban\" org=\"solitary, pair, congregation (3-12), or infestation (13-20 plus 1-3 sorcerers of 1st-3rd level, 1 rogue leader of 2nd-4th level, 2-14 trained %%monster/dire rat/s%%, 2-5 trained %%monster/venomous snake/s%%, and 1-3 %%monster/rat swarm/s%%)\" treasure=\"double=always gold coins\"}",
 			"",
@@ -344,9 +346,7 @@
 			"",
 			"A monaciello stands 2-1/2 feet tall and weighs approximately 20 pounds.",
 			"",
-			"**Family:** {family/Gremlin}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Gremlin}"
 		]
 	},
 	"monaciello": { "redirect": "gremlin_monaciello" },
@@ -366,7 +366,9 @@
 			"",
 			"::mspell{sla cl=3 con=+4 atWill=prestidigitation hour=\"heat metal|DC 13~shocking grasp~snare\"}",
 			"",
-			"::mstats{str=13 dex=18 con=15 int=8 wis=9 cha=12 bab=+1 cmb=\"+1 (+5 grapple and trip)\" cmd=15 feats=\"Step Up~Toughness#B~Weapon Focus=claw\" skills=\"Acrobatics +10~Climb +9~Craft (traps) +9~Intimidate +8~Perception +9~Stealth +14\" racial=\"+4 Craft (traps), +4 Intimidate, +4 Perception\" lang=Undercommon sq=kneecapper}",
+			"::mstats{str=13 dex=18 con=15 int=8 wis=9 cha=12 bab=+1 cmb=\"+1 (+5 grapple and trip)\" cmd=15 feats=\"Step Up~Toughness#B~Weapon Focus=claw\" skills=\"Acrobatics +10~Climb +9~Craft (traps) +9~Intimidate +8~Perception +9~Stealth +14\" racial=\"+4 Craft (traps), +4 Intimidate, +4 Perception\" lang=Undercommon sq=kneecapper next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any underground or urban\" org=\"solitary, pair, or mob (3-6)\" treasure=standard}",
 			"",
@@ -386,9 +388,7 @@
 			"",
 			"Nuglubs typically stand 2-1/2 feet tall and weigh approximately 25 pounds.",
 			"",
-			"**Family:** {family/Gremlin}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Gremlin}"
 		]
 	},
 	"nuglub": { "redirect": "gremlin_nuglub" },
@@ -451,7 +451,9 @@
 			"",
 			"::mspell{sla cl=1 con=-1 atWill=\"prestidigitation~speak with animals\" day=\"1~shatter|DC 10\"}",
 			"",
-			"::mstats{str=3 dex=13 con=11 int=10 wis=14 cha=6 bab=+0 cmb=-1 cmd=5 feats=\"Improved Initiative~Toughness#B~Weapon Finesse#B\" skills=\"Bluff +2~Craft (traps) +4~Disable Device +2~Perception +6 (+2 Listening)~Ride +2~Stealth +17\" racial=\"+4 Stealth, -4 Perception when listening\" lang=\"Gnoll, Undercommon\"}",
+			"::mstats{str=3 dex=13 con=11 int=10 wis=14 cha=6 bab=+0 cmb=-1 cmd=5 feats=\"Improved Initiative~Toughness#B~Weapon Finesse#B\" skills=\"Bluff +2~Craft (traps) +4~Disable Device +2~Perception +6 (+2 Listening)~Ride +2~Stealth +17\" racial=\"+4 Stealth, -4 Perception when listening\" lang=\"Gnoll, Undercommon\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm hills\" org=\"solitary, pair, mob (3-12), or infestation (13-20 with 1-3 druids of 1st-3rd level, 1 fighter leader of 2nd-4th level, 2-8 trained %%monster/stirge/s%%, and 2-5 trained %%monster/baboon/s%%)\" treasure=\"standard=%%eq-weapon/dagger%%, %%eq-weapon/shortbow%% with 20 arrows, other treasure\"}",
 			"",
@@ -467,9 +469,7 @@
 			"",
 			"At some point in the distant past, pugwampis became enamored of gnolls, seeing in the beast-men a kindred form and thus aspiring to the height and deadly prowess of the savage warriors, whom they honor as gods. Gnolls, for their part, hate pugwampis even more than other creatures, mostly because of the gremlins' weakness and sickening fawning, though they sometimes keep the gremlins around just to torment them.",
 			"",
-			"**Family:** {family/Gremlin}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Gremlin}"
 		]
 	},
 	"pugwampi": { "redirect": "gremlin_pugwampi" },
@@ -492,7 +492,9 @@
 			"",
 			"::mspell{sla cl=1 con=+1 atWill=prestidigitation hour=\"rusting grasp~snare\"}",
 			"",
-			"::mstats{str=6 dex=13 con=14 int=12 wis=13 cha=11 bab=+0 cmb=-1 cmd=7 feats=\"Skill Focus=Disable Device~Toughness#B~Weapon Finesse#B\" skills=\"Appraise +2~Climb +13~Craft (traps) +5~Disable Device +9~Knowledge (engineering) +2~Perception +5~Stealth +13 (+17 in metal or stony areas, +9 when moving)\" racial=\"+4 Disable Device, +4 Stealth in metal or stony areas, -4 Stealth when moving\" lang=Undercommon}",
+			"::mstats{str=6 dex=13 con=14 int=12 wis=13 cha=11 bab=+0 cmb=-1 cmd=7 feats=\"Skill Focus=Disable Device~Toughness#B~Weapon Finesse#B\" skills=\"Appraise +2~Climb +13~Craft (traps) +5~Disable Device +9~Knowledge (engineering) +2~Perception +5~Stealth +13 (+17 in metal or stony areas, +9 when moving)\" racial=\"+4 Disable Device, +4 Stealth in metal or stony areas, -4 Stealth when moving\" lang=Undercommon next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any underground or urban\" org=\"solitary, pair, mob (3-12), or infestation (13-20 with 1-3 sorcerers of 1st-3rd level, 1 rogue leader of 2nd-4th level, 2-14 trained %%monster/dire rat/s%%, 2-5 trained %%monster/venomous snake/s%%, and 1-3 %%monster/rat swarm/s%%)\" treasure=\"standard=%%eq-weapon/warhammer%%, other treasure\"}",
 			"",
@@ -510,9 +512,7 @@
 			"",
 			"Vexgits stand 1-1/2 feet tall and weigh approximately 16 pounds.",
 			"",
-			"**Family:** {family/Gremlin}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Gremlin}"
 		]
 	},
 	"vexgit": { "redirect": "gremlin_vexgit" },
@@ -1122,7 +1122,9 @@
 			"",
 			"::mspell{sla cl=14 con=+18 constant=\"freedom of movement\" day=\"3~aqueous orb|DC 17~control winds|DC 19~shout|DC 18~summon nature's ally VII|swimming creatures only~water breathing~~1~vortex|DC 20\"}",
 			"",
-			"::mstats{str=40 dex=11 con=25 int=12 wis=15 cha=18 bab=+14 cmb=\"+31 (+33 bull rush)\" cmd=\"41 (43 vs. bull rush)\" feats=\"Augment Summoning#B=with conch~Combat Reflexes~Critical Focus~Improved Bull Rush~Improved Initiative~Iron Will~Lightning Reflexes~Martial Weapon Proficiency=trident~Power Attack~Vital Strike~Weapon Focus=trident\" skills=\"Intimidate +17~Knowledge (nature) +11~Perception +24~Perform (wind) +13~Survival +14~Swim +24\" lang=\"Aquan, Common, Giant\" sq=\"%%umr/amphibious%%\"}",
+			"::mstats{str=40 dex=11 con=25 int=12 wis=15 cha=18 bab=+14 cmb=\"+31 (+33 bull rush)\" cmd=\"41 (43 vs. bull rush)\" feats=\"Augment Summoning#B=with conch~Combat Reflexes~Critical Focus~Improved Bull Rush~Improved Initiative~Iron Will~Lightning Reflexes~Martial Weapon Proficiency=trident~Power Attack~Vital Strike~Weapon Focus=trident\" skills=\"Intimidate +17~Knowledge (nature) +11~Perception +24~Perform (wind) +13~Survival +14~Swim +24\" lang=\"Aquan, Common, Giant\" sq=\"%%umr/amphibious%%\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any oceans\" org=\"solitary, gang (2-5), family (2-5 plus 35% noncombatants and 1 druid or sorcerer of 4th-7th level)\" treasure=\"standard=mwk %%eq-weapon/trident%%, other treasure\"}",
 			"",
@@ -1136,9 +1138,7 @@
 			"",
 			"Many ocean giants view themselves as guardians of the sea, its creatures, and those who travel the waves, safeguarding their charges from remarkable coral towers. Others, however, claim domains measuring thousands of leagues, enslaving the beasts and aquatic races within and shattering any ship that dares trespass near their citadels of urchins and bones.",
 			"",
-			"Adult ocean giants stand approximately 22 feet tall and weigh about 15,000 pounds. Most live to be about 500 years old.",
-			"",
-			"[^B]: Bonus feat."
+			"Adult ocean giants stand approximately 22 feet tall and weigh about 15,000 pounds. Most live to be about 500 years old."
 		]
 	},
 	"giant_ocean": { "redirect": "giant_ocean_giant" },
@@ -1450,7 +1450,9 @@
 			"",
 			"::moffense{sp=30 spP=\"40 ft. without armor\" melee=\"spear +19/+14/+9 (3d6+15/&times&3) or 2 slams +19 (1d8+10)\" ranged=\"rock +12 (2d6+15) or spear +11 (3d6+10/&times&3)\" space=15 reach=15 rockTh=\"140 ft.\"}",
 			"",
-			"::mstats{str=31 dex=14 con=22 int=12 wis=17 cha=15 bab=+11 cmb=+23 cmd=39 feats=\"Alertness~Cleave~Endurance~Iron Will~Lightning Reflexes~Power Attack~Self-Sufficient~Shot on the Run#B~Vital Strike\" skills=\"Climb +15~Knowledge (religion) +11~Perception +13~Stealth +6 (+12 in undergrowth)~Survival +20\" racial=\"+6 Stealth in undergrowth\" lang=\"Common, Giant\" sq=\"spirit summoning\"}",
+			"::mstats{str=31 dex=14 con=22 int=12 wis=17 cha=15 bab=+11 cmb=+23 cmd=39 feats=\"Alertness~Cleave~Endurance~Iron Will~Lightning Reflexes~Power Attack~Self-Sufficient~Shot on the Run#B~Vital Strike\" skills=\"Climb +15~Knowledge (religion) +11~Perception +13~Stealth +6 (+12 in undergrowth)~Survival +20\" racial=\"+6 Stealth in undergrowth\" lang=\"Common, Giant\" sq=\"spirit summoning\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"cold mountains or forests\" org=\"solitary, warband (2-7), or tribe (20-50 plus 30% noncombatants, 1 druid or oracle of 3rd-5th level, 2-4 barbarian or ranger hunters of 3rd-5th level, 1 chieftain barbarian or fighter of 4th-7th level, 2-6 %%monster/dire bear/s%%, 2-6 %%monster/dire tiger/s%%, and 8-12 %%monster/stone giant/s%%)\" treasure=\"standard=%%eq-armor/hide armor%%, %%eq-weapon/spear%%, other treasure\"}",
 			"",
@@ -1464,9 +1466,7 @@
 			"",
 			"Taiga giants are also deeply spiritual, worshiping their ancestors. Every tribe member learns to call forth ancestor spirits at a young age. Taiga giants are ashamed of being the ancestors of rune giants as, like most giants, they both hate and fear rune giants as slavers and monsters.",
 			"",
-			"A typical taiga giant stands 20 feet in height and weighs 10,000 pounds. Skin tones vary from dark to pale gray, with hair color ranging from dark brown to red.",
-			"",
-			"[^B]: Bonus feat."
+			"A typical taiga giant stands 20 feet in height and weighs 10,000 pounds. Skin tones vary from dark to pale gray, with hair color ranging from dark brown to red."
 		]
 	},
 	"giant_taiga": { "redirect": "giant_taiga_giant" },
@@ -1627,7 +1627,9 @@
 			"",
 			"::mspell{sla cl=9 atWill=\"invisibility|self only~plane shift|willing targets to elemental planes, Astral Plane, or Material Plane only\" day=\"1~create food and water~!create wine (as %%spell/create water%% but wine instead)~gaseous form|for up to 1 hour~major creation|created vegetable matter is permanent~persistent image|DC 17~wind walk\"}",
 			"",
-			"::mstats{str=18 dex=19 con=14 int=14 wis=15 cha=15 bab=+7 cmb=+12 cmd=27 feats=\"Combat Casting~Combat Reflexes~Dodge~Improved Initiative#B~Wind Stance\" skills=\"Appraise +12~Craft (any one) +12~Fly +20~Knowledge (planes) +12~Perception +12~Sense Motive +12~Spellcraft +12~Stealth +10\" lang=\"Aquan, Auran, Common, Ignan, Terran; %%umr/telepathy%% 100 ft.\"}",
+			"::mstats{str=18 dex=19 con=14 int=14 wis=15 cha=15 bab=+7 cmb=+12 cmd=27 feats=\"Combat Casting~Combat Reflexes~Dodge~Improved Initiative#B~Wind Stance\" skills=\"Appraise +12~Craft (any one) +12~Fly +20~Knowledge (planes) +12~Perception +12~Sense Motive +12~Spellcraft +12~Stealth +10\" lang=\"Aquan, Auran, Common, Ignan, Terran; %%umr/telepathy%% 100 ft.\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Air%%)\" org=\"solitary, pair, company (3-6), or band (7-10)\" treasure=\"standard=masterwork %%eq-weapon/scimitar%%, other gear\"}",
 			"",
@@ -1645,9 +1647,7 @@
 			"",
 			"A small percentage of djinn are noble. @HL[Noble djinn,] often called **viziers**, have 10 Hit Dice, Strength 23, and Charisma 17, and can grant three {spell/wish/es} to any being (non-genies only) who captures them. Djinn nobles are CR 8.",
 			"",
-			"**Family:** {family/Genie}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Genie}"
 		]
 	},
 	"djinni": { "redirect": "genie_djinni" },
@@ -1667,7 +1667,9 @@
 			"",
 			"::mspell{sla cl=11 constant=\"detect magic\" atWill=\"plane shift|willing targets to elemental planes, Astral Plane, or Material Plane only~produce flame~pyrotechnics|DC 14~scorching ray\" day=\"3~invisibility~!quickened *scorching ray*~wall of fire|DC 16~~1~!grant up to 3 wishes (to non-genies only)~gaseous form~permanent image|DC 18\"}",
 			"",
-			"::mstats{str=23 dex=17 con=18 int=12 wis=14 cha=15 bab=+10 cmb=+17 cmd=31 feats=\"Combat Casting~Combat Reflexes~Deceitful~Dodge~Improved Initiative#B~Quicken Spell-Like Ability=scorching ray\" skills=\"Bluff +19~Craft (any one) +14~Disguise +10~Fly +13~Intimidate +15~Perception +15~Sense Motive +15~Spellcraft +14~Stealth +8\" lang=\"Auran, Aquan, Common, Ignan, Terran; %%umr/telepathy%% 100 ft.\" sq=\"%%umr/change shape%% (humanoid or giant; %%spell/alter self%% or %%spell/giant form I%%)\"}",
+			"::mstats{str=23 dex=17 con=18 int=12 wis=14 cha=15 bab=+10 cmb=+17 cmd=31 feats=\"Combat Casting~Combat Reflexes~Deceitful~Dodge~Improved Initiative#B~Quicken Spell-Like Ability=scorching ray\" skills=\"Bluff +19~Craft (any one) +14~Disguise +10~Fly +13~Intimidate +15~Perception +15~Sense Motive +15~Spellcraft +14~Stealth +8\" lang=\"Auran, Aquan, Common, Ignan, Terran; %%umr/telepathy%% 100 ft.\" sq=\"%%umr/change shape%% (humanoid or giant; %%spell/alter self%% or %%spell/giant form I%%)\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Fire%%)\" org=\"solitary, pair, company (3-6), or band (7-12)\" treasure=\"standard=mwk %%eq-weapon/falchion%%, other gear\"}",
 			"",
@@ -1685,9 +1687,7 @@
 			"",
 			"A small percentage of efreet are noble. Noble efreet, often called maliks, have 13 Hit Dice and gain the following spell-like abilities: 3/day-{spell/fireball}, {spell/heat metal}; 1/day-{spell/greater invisibility}, pyroclastic storm (as {spell/ice storm}, with fire instead of cold damage). A noble efreeti's caster level for its spell-like abilities is 15th. Noble efreet are CR 10.",
 			"",
-			"**Family:** {family/Genie}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Genie}"
 		]
 	},
 	"efreeti": { "redirect": "genie_efreeti" },
@@ -1708,7 +1708,9 @@
 			"",
 			"::mspell{sla cl=8 day=\"3~invisibility|self only~plane shift|willing targets to elemental planes, Astral Plane, or Material Plane only~speak with animals~~1~create food and water~ethereal jaunt|for 1 hour\"}",
 			"",
-			"::mstats{str=16 dex=15 con=12 int=14 wis=15 cha=13 bab=+6 cmb=+9 cmd=22 feats=\"Combat Reflexes~Dodge~Improved Initiative#B~Mobility\" skills=\"Appraise +11~Craft (any one - usually weaponsmith) +11~Fly +14~Perception +11~Ride +6~Sense Motive +11~Spellcraft +11~Stealth +6\" lang=\"Common, one elemental language (Aquan, Auran, Ignan, or Terran), one planar language (Abyssal, Celestial, or Infernal); %%umr/telepathy%% 100 ft.\" sq=\"elemental endurance\"}",
+			"::mstats{str=16 dex=15 con=12 int=14 wis=15 cha=13 bab=+6 cmb=+9 cmd=22 feats=\"Combat Reflexes~Dodge~Improved Initiative#B~Mobility\" skills=\"Appraise +11~Craft (any one - usually weaponsmith) +11~Fly +14~Perception +11~Ride +6~Sense Motive +11~Spellcraft +11~Stealth +6\" lang=\"Common, one elemental language (Aquan, Auran, Ignan, or Terran), one planar language (Abyssal, Celestial, or Infernal); %%umr/telepathy%% 100 ft.\" sq=\"elemental endurance\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm deserts\" org=\"solitary, pair, company (3-6), or band (7-12)\" treasure=\"standard=%%eq-armor/chainmail%%, %%eq-weapon/composite longbow%% &#91&+3 Str&#93&, %%eq-weapon/scimitar%%, other gear\"}",
 			"",
@@ -1730,9 +1732,7 @@
 			"",
 			"A small percentage of jann are noble. Noble jann, often called sheikhs or amirs, have 9 Hit Dice, Strength 19, and Intelligence 18, and gain the following spell-like abilities: 3/day-augury, detect magic, and divination. A noble janni's caster level for its spell-like abilities is 12th. Noble jann are CR 7.",
 			"",
-			"**Family:** {family/Genie}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Genie}"
 		]
 	},
 	"janni": { "redirect": "genie_janni" },
@@ -1752,7 +1752,9 @@
 			"",
 			"::mspell{sla cl=12 constant=\"detect evil~detect good~detect magic~water walk\" atWill=\"create water~invisibility~plane shift|willing targets to elemental planes, Astral Plane, or Material Plane only~purify food and drink|liquids only~quench\" day=\"5~control water~gaseous form~obscuring mist~water breathing~~3~see invisibility~~1~persistent image|DC 18\" year=\"!grant 1 wish (to non-genies only)\"}",
 			"",
-			"::mstats{str=23 dex=19 con=18 int=14 wis=15 cha=16 bab=+12 cmb=+19 cmd=34 feats=\"Combat Casting~Combat Reflexes~Dodge~Great Fortitude~Improved Initiative#B~Improved Natural Attack~Power Attack\" skills=\"Craft (any one) +17~Diplomacy +18~Knowledge (planes) +17~Perception +17~Sense Motive +17~Spellcraft +17~Stealth +15~Swim +29\" lang=\"Aquan, Auran, Common, Ignan, Terran; %%umr/telepathy%% 100 ft.\" sq=\"%%umr/change shape%% (water elemental, humanoid or giant; %%spell/alter self%%, %%spell/elemental body III%%, or %%spell/giant form I%%)\"}",
+			"::mstats{str=23 dex=19 con=18 int=14 wis=15 cha=16 bab=+12 cmb=+19 cmd=34 feats=\"Combat Casting~Combat Reflexes~Dodge~Great Fortitude~Improved Initiative#B~Improved Natural Attack~Power Attack\" skills=\"Craft (any one) +17~Diplomacy +18~Knowledge (planes) +17~Perception +17~Sense Motive +17~Spellcraft +17~Stealth +15~Swim +29\" lang=\"Aquan, Auran, Common, Ignan, Terran; %%umr/telepathy%% 100 ft.\" sq=\"%%umr/change shape%% (water elemental, humanoid or giant; %%spell/alter self%%, %%spell/elemental body III%%, or %%spell/giant form I%%)\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Water%%)\" org=\"solitary, pair, company (3-6), or band (7-12)\" treasure=\"standard=masterwork %%eq-weapon/trident%%, other gear\"}",
 			"",
@@ -1772,9 +1774,7 @@
 			"",
 			"A small percentage of marids can lay claim to nobility. Noble marids, often called shahzadas, have 14 Hit Dice and gain the following spell-like abilities: 3/day-cone of cold, ice storm; 1/day-elemental swarm (water elementals only), permanent image. A noble marid's caster level for its spell-like abilities is 20th. Noble marids are CR 11.",
 			"",
-			"**Family:** {family/Genie}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Genie}"
 		]
 	},
 	"marid": { "redirect": "genie_marid" },
@@ -1797,7 +1797,9 @@
 			"",
 			"::mspell{sla cl=9 atWill=\"meld into stone~plane shift|willing targets to elemental planes, Astral Plane, or Material Plane only~soften earth and stone~stone shape~veil|self only\" day=\"3~!quickened %%spell/glitterdust%% (DC 14)~stoneskin~rusting grasp~stone tell~wall of stone~~1~transmute mud to rock~transmute rock to mud\"}",
 			"",
-			"::mstats{str=20 dex=13 con=19 int=14 wis=14 cha=15 bab=+9 cmb=+15 cmd=26 feats=\"Combat Casting~Greater Bull Rush~Improved Bull Rush~Improved Initiative#B~Power Attack~Quicken Spell-Like Ability=glitterdust\" skills=\"Appraise +14~Bluff +14~Climb +25~Craft (gemcutting) +14~Knowledge (engineering) +14~Perception +14~Sense Motive +14~Spellcraft +14\" lang=\"Aquan, Auran, Common, Ignan, Terran; %%umr/telepathy%% 100 ft.\" sq=\"stone glide\"}",
+			"::mstats{str=20 dex=13 con=19 int=14 wis=14 cha=15 bab=+9 cmb=+15 cmd=26 feats=\"Combat Casting~Greater Bull Rush~Improved Bull Rush~Improved Initiative#B~Power Attack~Quicken Spell-Like Ability=glitterdust\" skills=\"Appraise +14~Bluff +14~Climb +25~Craft (gemcutting) +14~Knowledge (engineering) +14~Perception +14~Sense Motive +14~Spellcraft +14\" lang=\"Aquan, Auran, Common, Ignan, Terran; %%umr/telepathy%% 100 ft.\" sq=\"stone glide\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Plane of Earth%%)\" org=\"solitary, pair, company (3-6), or band (7-12)\" treasure=\"standard=masterwork %%eq-weapon/scimitar%%, other treasure\"}",
 			"",
@@ -1817,9 +1819,7 @@
 			"",
 			"Some shaitans are noble. Often called pashas, they have 18 Hit Dice and gain the spell-like ability earthquake, usable once per day, as well as the ability to grant up to three wishes per day (non-genies only). A noble shaitan's caster level for its spell-like abilities is 18th. Noble shaitans are CR 13.",
 			"",
-			"**Family:** {family/Genie}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Genie}"
 		]
 	},
 	"shaitan": { "redirect": "genie_shaitan" },
@@ -2270,7 +2270,9 @@
 			"",
 			"::mspell{sla cl=15 con=+18 constant=\"see invisibility~tongues\" atWill=\"detect good~detect law\" day=\"3~confusion|DC 17~mass hold person|DC 20~plane shift~silence|DC 15~teleport|self plus 50 lbs. of objects only~~1~freedom of movement\"}",
 			"",
-			"::mstats{str=26 dex=18 con=21 int=16 wis=13 cha=17 bab=+12 cmb=+20 cmd=34 feats=\"Bleeding Critical~Combat Casting~Combat Reflexes~Command Undead#B~Critical Focus~Great Fortitude~Improved Critical=slam~Improved Initiative~Iron Will~Lightning Reflexes\" skills=\"Acrobatics +24~Climb +28~Escape Artist +24~Intimidate +31~Knowledge (religion) +27~Perception +21~Stealth +24\" racial=\"+4 Knowledge (religion), +8 Intimidate\" lang=\"Aklo, Common; %%umr/telepathy%% 100 ft., *tongues*\" sq=\"terrible visage\"}",
+			"::mstats{str=26 dex=18 con=21 int=16 wis=13 cha=17 bab=+12 cmb=+20 cmd=34 feats=\"Bleeding Critical~Combat Casting~Combat Reflexes~Command Undead#B~Critical Focus~Great Fortitude~Improved Critical=slam~Improved Initiative~Iron Will~Lightning Reflexes\" skills=\"Acrobatics +24~Climb +28~Escape Artist +24~Intimidate +31~Knowledge (religion) +27~Perception +21~Stealth +24\" racial=\"+4 Knowledge (religion), +8 Intimidate\" lang=\"Aklo, Common; %%umr/telepathy%% 100 ft., *tongues*\" sq=\"terrible visage\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=solitary treasure=none}",
 			"",
@@ -2294,9 +2296,7 @@
 			"",
 			"Serving as messengers for {faith/Hastur}, hooded harbingers receive the communications they deliver directly from the Great Old One via mental transmission. Upon receiving the message, the hooded harbinger twitches and shakes as if it were having a seizure. During this time they are particularly dangerous, because if they are attacked or distracted in any way, they fly into a furious rage and the offender risks attracting the attention of the King in Yellow.",
 			"",
-			"No one has seen a hooded harbinger's face and lived to describe it. If its hood is pulled back, the creature's head is seen to be completely swathed in the same filthy rags that cover its body. If it is helpless, the rags can be unraveled, but each layer only gives way to dozens of layers of the tattered yellow cloth. Eventually, a face is revealed, but it appears to be the face of the unraveler. If she is lucky, her memories are immediately wiped clean. If she is less fortunate or less able to forget, she is driven insane.",
-			"",
-			"[^B]: Bonus feat."
+			"No one has seen a hooded harbinger's face and lived to describe it. If its hood is pulled back, the creature's head is seen to be completely swathed in the same filthy rags that cover its body. If it is helpless, the rags can be unraveled, but each layer only gives way to dozens of layers of the tattered yellow cloth. Eventually, a face is revealed, but it appears to be the face of the unraveler. If she is lucky, her memories are immediately wiped clean. If she is less fortunate or less able to forget, she is driven insane."
 		]
 	},
 	"hook_fly_giant_hook_fly": {
@@ -2469,7 +2469,9 @@
 			"",
 			"::moffense{sp=50 melee=\"2 hooves -2 (1d4+1)\" space=10 reach=5}",
 			"",
-			"::mstats{str=16 dex=14 con=17 int=2 wis=13 cha=7 bab=+1 cmb=+5 cmd=\"17 (21 vs. trip)\" feats=\"Endurance~Run#B\" skills=\"Perception +6\" sq=docile}",
+			"::mstats{str=16 dex=14 con=17 int=2 wis=13 cha=7 bab=+1 cmb=+5 cmd=\"17 (21 vs. trip)\" feats=\"Endurance~Run#B\" skills=\"Perception +6\" sq=docile next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate plains\" org=\"solitary, pair, or herd (3-30)\" treasure=none}",
 			"",
@@ -2485,9 +2487,7 @@
 			"",
 			">@HL[Heavy Horse:] A heavy horse gains the {template/advanced} simple template. In addition, it also gains a bite attack that inflicts 1d4 damage, and its hoof damage increases to 1d6. As with a light horse, a heavy horse can be specifically trained for combat with the Handle Animal skill.",
 			"",
-			"{monster/Pon/ies>y} are smaller breeds of horses better suited to halflings, gnomes, and dwarves, but they also make fond pets for humans as well. They stand 3 to 4 feet tall and weigh about 600 pounds.",
-			"",
-			"[^B]: Bonus feat."
+			"{monster/Pon/ies>y} are smaller breeds of horses better suited to halflings, gnomes, and dwarves, but they also make fond pets for humans as well. They stand 3 to 4 feet tall and weigh about 600 pounds."
 		]
 	},
 	"heavy_horse": { "redirect": "horse" },
@@ -2506,7 +2506,9 @@
 			"",
 			"::moffense{sp=40 melee=\"2 hooves -3 (1d3)\"}",
 			"",
-			"::mstats{str=13 dex=13 con=14 int=2 wis=11 cha=4 bab=+1 cmb=+2 cmd=\"13 (17 vs. trip)\" feats=\"Endurance~Run#B\" skills=\"Perception +5\" sq=\"docile (see %%monster/horse%%)\"}",
+			"::mstats{str=13 dex=13 con=14 int=2 wis=11 cha=4 bab=+1 cmb=+2 cmd=\"13 (17 vs. trip)\" feats=\"Endurance~Run#B\" skills=\"Perception +5\" sq=\"docile (see %%monster/horse%%)\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate plains\" org=\"solitary, pair, or herd (3-30)\" treasure=none}",
 			"",
@@ -2516,9 +2518,7 @@
 			"",
 			"A light load for a pony is up to 100 pounds, a medium load is 101-200 pounds, and a heavy load is 201-300 pounds. A pony can drag 1,500 pounds.",
 			"",
-			"The statistics presented above are for a typical pony. Tougher ponies with the {template/advanced} simple template exist, but are relatively uncommon and, unlike horses, these creatures are not generally called \"heavy ponies.\" Like horses, ponies can be trained for combat with the {skill/Handle Animal} skill, and such mounts often serve halflings, gnomes, and other small races as steeds in combat.",
-			"",
-			"[^B]: Bonus feat."
+			"The statistics presented above are for a typical pony. Tougher ponies with the {template/advanced} simple template exist, but are relatively uncommon and, unlike horses, these creatures are not generally called \"heavy ponies.\" Like horses, ponies can be trained for combat with the {skill/Handle Animal} skill, and such mounts often serve halflings, gnomes, and other small races as steeds in combat."
 		]
 	},
 	"pony": { "redirect": "horse_pony" },

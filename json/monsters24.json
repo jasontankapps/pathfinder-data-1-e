@@ -197,7 +197,9 @@
 			"",
 			"::moffense{sp=40 melee=\"bite +1 (1d4), 2 claws +1 (1d3)\"}",
 			"",
-			"::mstats{str=11 dex=15 con=16 int=2 wis=15 cha=6 bab=+0 cmb=-1 cmd=\"11 (15 vs. trip)\" feats=\"Skill Focus=Stealth~Overwhelm#B\" skills=\"Stealth +5~Survival +3 (+7 to find food or water)\" racial=\"+4 Survival to find food or water\" sq=\"problem solver\"}",
+			"::mstats{str=11 dex=15 con=16 int=2 wis=15 cha=6 bab=+0 cmb=-1 cmd=\"11 (15 vs. trip)\" feats=\"Skill Focus=Stealth~Overwhelm#B\" skills=\"Stealth +5~Survival +3 (+7 to find food or water)\" racial=\"+4 Survival to find food or water\" sq=\"problem solver\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate and warm plains\" org=\"solitary, pair, or pack (5-12)\" treasure=none}",
 			"",
@@ -209,9 +211,7 @@
 			"",
 			"While the wolves and big cats of Nirmathas draw much of the common folk's fear and ire, the region's clever jackals inflict far more damage on farms and herds. Able to digest almost anything, these small predators scavenge and steal with unparalleled skill, bypassing gates, seals, traps, and even doors with ease to plunder chickens, goats, and produce. Utterly fearless, starving packs even prey on far larger and more dangerous creatures - including wolves and humanoids. In harsh winters, packs subsist on grubs and roots, and even eat their own. Switchback jackals grow up to 30 pounds and 2 to 3 feet long.",
 			"",
-			"Switchback jackals mostly make their homes in the plains that cover Nirmathas and Molthune, though they can survive easily in the rocky foothills of the Mindspin Mountains and on the marshy coastline of Lake Encarthan. They breed in late spring, after 3 weeks of howling hauntingly beautiful mating songs each evening. Pups lose their mottled black-and-white coats after 6 months, growing into their dusty adult coats. During this time, packs are especially aggressive and territorial.",
-			"",
-			"[^B]: Bonus feat."
+			"Switchback jackals mostly make their homes in the plains that cover Nirmathas and Molthune, though they can survive easily in the rocky foothills of the Mindspin Mountains and on the marshy coastline of Lake Encarthan. They breed in late spring, after 3 weeks of howling hauntingly beautiful mating songs each evening. Pups lose their mottled black-and-white coats after 6 months, growing into their dusty adult coats. During this time, packs are especially aggressive and territorial."
 		]
 	},
 	"sylph": {
@@ -2400,15 +2400,15 @@
 			"",
 			"**During Combat** The enlightened vampire uses flurry of blows and ki strike to gain extra attacks, and uses steal ki and life funnel to replenish his ki and hit points. He uses Punishing Kick to knock his most dangerous opponent prone, then grapples it and drains its blood.",
 			"",
-			"::mstats{str=22 dex=20 con=\"-\" int=14 wis=18 cha=16 bab=+8 cmb=\"+17 (+21 grapple)\" cmd=\"39 (41 vs. grapple)\" feats=\"Alertness#B~Combat Expertise~Dodge#B~Gorgon's Fist~Greater Grapple~Improved Critical=unarmed strike~Improved Grapple~Improved Initiative#B~Improved Unarmed Strike~Ki Stand~Lightning Reflexes#B~Mobility~Power Attack~Punishing Kick~Scorpion Style~Step Up~Toughness#B~Weapon Focus=unarmed strike\" skills=\"Acrobatics +19 (+42 when jumping)~Climb +20~Intimidate +17~Knowledge (history) +16~Perception +30~Sense Motive +30~Stealth +27\" racial=\"+8 Bluff, +8 Perception, +8 Sense Motive, +8 Stealth\" lang=\"Celestial, Common, Elven\" sq=\"%%umr/change shape%% (dire bat or wolf; %%spell/beast shape II%%), fast movement, gaseous form, high jump, ki pool (9 points, cold iron/lawful/magic), life funnel, maneuver training, shadowless, slow fall 50 ft., spider climb\" combat=\"potion of %%spell/displacement%%, potion of %%spell/haste%%\" othergear=\"%%magic-wondrous/amulet of natural armor +1%%, %%magic-wondrous/belt of physical might +2%% (Str, Dex), %%magic-wondrous/bracers of armor +1%%, %%magic-wondrous/headband of alluring charisma +2%%, %%magic-ring/ring of protection +1%%, 500 gp\"}",
+			"::mstats{str=22 dex=20 con=\"-\" int=14 wis=18 cha=16 bab=+8 cmb=\"+17 (+21 grapple)\" cmd=\"39 (41 vs. grapple)\" feats=\"Alertness#B~Combat Expertise~Dodge#B~Gorgon's Fist~Greater Grapple~Improved Critical=unarmed strike~Improved Grapple~Improved Initiative#B~Improved Unarmed Strike~Ki Stand~Lightning Reflexes#B~Mobility~Power Attack~Punishing Kick~Scorpion Style~Step Up~Toughness#B~Weapon Focus=unarmed strike\" skills=\"Acrobatics +19 (+42 when jumping)~Climb +20~Intimidate +17~Knowledge (history) +16~Perception +30~Sense Motive +30~Stealth +27\" racial=\"+8 Bluff, +8 Perception, +8 Sense Motive, +8 Stealth\" lang=\"Celestial, Common, Elven\" sq=\"%%umr/change shape%% (dire bat or wolf; %%spell/beast shape II%%), fast movement, gaseous form, high jump, ki pool (9 points, cold iron/lawful/magic), life funnel, maneuver training, shadowless, slow fall 50 ft., spider climb\" combat=\"potion of %%spell/displacement%%, potion of %%spell/haste%%\" othergear=\"%%magic-wondrous/amulet of natural armor +1%%, %%magic-wondrous/belt of physical might +2%% (Str, Dex), %%magic-wondrous/bracers of armor +1%%, %%magic-wondrous/headband of alluring charisma +2%%, %%magic-ring/ring of protection +1%%, 500 gp\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any}",
 			"",
 			"::sh[Description]",
 			"",
-			"An enlightened vampire spends his nights in meditation. He tries to live an ascetic's life, in search of purity and wholeness, even if his very nature requires him to harm others on a regular basis. Because of this, he lives in a state of suffering, seeking to atone for his nature while exploring the mysteries of enlightenment. This outlook on unlife doesn't stop him from killing his enemies. Whenever someone harms his spawn or one of his herd, an enlightened vampire responds with deliberate and decisive action.",
-			"",
-			"[^B]: Bonus feat."
+			"An enlightened vampire spends his nights in meditation. He tries to live an ascetic's life, in search of purity and wholeness, even if his very nature requires him to harm others on a regular basis. Because of this, he lives in a state of suffering, seeking to atone for his nature while exploring the mysteries of enlightenment. This outlook on unlife doesn't stop him from killing his enemies. Whenever someone harms his spawn or one of his herd, an enlightened vampire responds with deliberate and decisive action."
 		]
 	},
 	"enlightened_vampire": { "redirect": "vampire_enlightened_vampire" },
@@ -2460,7 +2460,9 @@
 			"**During Combat** The vampire savage rages and makes full attacks against his opponents, grappling an opponent and draining blood if he has an opportunity to do so.  ",
 			"**Base Statistics** When he's not raging, the savage's statistics are AC 23, touch 16, flat-footed 18; hp 118; Fort +11, Will +6; Melee +1 greataxe +18/+13 (1d12+13/&times;3), slam +13 (1d4+4 plus energy drain), bite +12 (1d4+4 plus energy drain); Str 26, Cha 18; CMB +17 (+21 bull rush); CMD 33 (33 vs. bull rush).",
 			"",
-			"::mstats{str=30 dex=18 con=\"-\" int=10 wis=14 cha=22 bab=+9 cmb=\"+19 (+23 bull rush)\" cmd=\"33 (35 vs. bull rush)\" feats=\"Alertness#B~Cleave~Dodge#B~Greater Bull Rush~Improved Bull Rush~Improved Initiative#B~Lightning Reflexes#B~Power Attack~Toughness#B~Weapon Focus=slam\" skills=\"Acrobatics +16 (+20 when jumping)~Intimidate +20~Knowledge (nature) +12~Perception +24~Sense Motive +12\" racial=\"+8 Bluff, +8 Perception, +8 Sense Motive, +8 Stealth\" lang=\"Common, Orc\" sq=\"%%umr/change shape%% (dire bat or wolf; %%spell/beast shape II%%), fast movement, gaseous form, orc blood, shadowless, spider climb\" combat=\"potion of %%spell/blur%%, potion of %%spell/haste%%, potion of %%spell/resist energy%% (fire)\" othergear=\"+1 %%eq-weapon/greataxe%%, %%magic-wondrous/amulet of natural armor +1%%, %%magic-wondrous/belt of giant strength +2%%, %%magic-wondrous/cloak of resistance +1%%, %%magic-ring/ring of protection +1%%, 80 gp\"}",
+			"::mstats{str=30 dex=18 con=\"-\" int=10 wis=14 cha=22 bab=+9 cmb=\"+19 (+23 bull rush)\" cmd=\"33 (35 vs. bull rush)\" feats=\"Alertness#B~Cleave~Dodge#B~Greater Bull Rush~Improved Bull Rush~Improved Initiative#B~Lightning Reflexes#B~Power Attack~Toughness#B~Weapon Focus=slam\" skills=\"Acrobatics +16 (+20 when jumping)~Intimidate +20~Knowledge (nature) +12~Perception +24~Sense Motive +12\" racial=\"+8 Bluff, +8 Perception, +8 Sense Motive, +8 Stealth\" lang=\"Common, Orc\" sq=\"%%umr/change shape%% (dire bat or wolf; %%spell/beast shape II%%), fast movement, gaseous form, orc blood, shadowless, spider climb\" combat=\"potion of %%spell/blur%%, potion of %%spell/haste%%, potion of %%spell/resist energy%% (fire)\" othergear=\"+1 %%eq-weapon/greataxe%%, %%magic-wondrous/amulet of natural armor +1%%, %%magic-wondrous/belt of giant strength +2%%, %%magic-wondrous/cloak of resistance +1%%, %%magic-ring/ring of protection +1%%, 80 gp\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any}",
 			"",
@@ -2472,9 +2474,7 @@
 			"",
 			"With razor-sharp fangs and the ability to drain the life out of his opponents, a vampire savage is a frightening sight to behold. This vampire tears his victims apart even as he bleeds them dry-savoring every scream he causes, enjoys the last heartbeat of each victim, and laughs at adventurers who dare to try stopping his murderous rampage. Because the vampire savage mangles the bodies of his victims so badly, many believe that his killings are the work of a wild animal. The carnage he leaves in his wake stands as an easy trail for a hunter to follow, but those would-be vampire slayers who get too close are not usually seen again.",
 			"",
-			"This sort of vampire often takes control of a violent tribe of orcs, gnolls, and similar creatures, driving them into a frenzy and demanding blood sacrifices from them to appease his appetite.",
-			"",
-			"[^B]: Bonus feat."
+			"This sort of vampire often takes control of a violent tribe of orcs, gnolls, and similar creatures, driving them into a frenzy and demanding blood sacrifices from them to appease his appetite."
 		]
 	},
 	"vampire_savage": { "redirect": "vampire_vampire_savage" },
@@ -2496,7 +2496,9 @@
 			"",
 			"**During Combat** The vampire seducer uses her dominate ability to make others defend her, calls for assistance using her children of the night ability, and attacks with her slams. She uses her necklace of fireballs when she can target multiple opponents.",
 			"",
-			"::mstats{str=18 dex=18 con=\"-\" int=15 wis=12 cha=22 bab=+3 cmb=+7 cmd=22 feats=\"Alertness#B~Combat Casting~Dodge#B~Extra Performance~Greater Spell Focus=enchantment~Improved Initiative#B~Lightning Reflexes#B~Spell Focus=enchantment~Toughness#B\" skills=\"Bluff +22~Diplomacy +14~Intimidate +14~Knowledge (local) +12~Knowledge (nobility) +12~Perception +19~Perform (act) +14~Perform (dance) +14~Sense Motive +19~Stealth +19\" racial=\"+8 Bluff, +8 Perception, +8 Sense Motive, +8 Stealth\" lang=\"Common, Dwarven, Elven\" sq=\"bardic knowledge +2, %%umr/change shape%% (dire bat or wolf; %%spell/beast shape II%%), gaseous form, lore master 1/day, shadowless, spider climb, versatile performance (dance)\" combat=\"%%magic-wondrous/feather token (whip)%%, %%magic-wondrous/necklace of fireballs%% (type I), potion of %%spell/inflict moderate wounds%%, potion of %%spell/invisibility%%, scroll of %%spell/haste%%, wand of %%spell/disguise self%% (15 charges), %%eq-misc/smokestick/s%% (2), %%eq-weapon/thunderstone/s%% (2)\" othergear=\"mwk %%eq-armor/chain shirt%%, %%magic-wondrous/animated portrait%%, 450 gp\"}",
+			"::mstats{str=18 dex=18 con=\"-\" int=15 wis=12 cha=22 bab=+3 cmb=+7 cmd=22 feats=\"Alertness#B~Combat Casting~Dodge#B~Extra Performance~Greater Spell Focus=enchantment~Improved Initiative#B~Lightning Reflexes#B~Spell Focus=enchantment~Toughness#B\" skills=\"Bluff +22~Diplomacy +14~Intimidate +14~Knowledge (local) +12~Knowledge (nobility) +12~Perception +19~Perform (act) +14~Perform (dance) +14~Sense Motive +19~Stealth +19\" racial=\"+8 Bluff, +8 Perception, +8 Sense Motive, +8 Stealth\" lang=\"Common, Dwarven, Elven\" sq=\"bardic knowledge +2, %%umr/change shape%% (dire bat or wolf; %%spell/beast shape II%%), gaseous form, lore master 1/day, shadowless, spider climb, versatile performance (dance)\" combat=\"%%magic-wondrous/feather token (whip)%%, %%magic-wondrous/necklace of fireballs%% (type I), potion of %%spell/inflict moderate wounds%%, potion of %%spell/invisibility%%, scroll of %%spell/haste%%, wand of %%spell/disguise self%% (15 charges), %%eq-misc/smokestick/s%% (2), %%eq-weapon/thunderstone/s%% (2)\" othergear=\"mwk %%eq-armor/chain shirt%%, %%magic-wondrous/animated portrait%%, 450 gp\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any}",
 			"",
@@ -2506,9 +2508,7 @@
 			"",
 			"Through a blend of natural charm, physical beauty, and supernatural persuasion, the vampire seducer selects her prey from among her admirers and critics, takes her victim back to her home, and convinces them to let her bite them willingly-all part of her game. The vampire might dispose of her victims before they are too obviously afflicted by her unnatural appetites by forcing them to duel rivals for her affection or arranging for mysterious accidents and suicides (usually easily explained as the result of broken hearts).",
 			"",
-			"If the seducer's true nature is ever discovered, she has no qualms about abandoning the paramours she has acquired and relocating to a new city to begin her plots anew. Some seducers do this many times over the course of their long unlives, if only to stave off the eternal boredom that inevitably afflicts them all.",
-			"",
-			"[^B]: Bonus feat."
+			"If the seducer's true nature is ever discovered, she has no qualms about abandoning the paramours she has acquired and relocating to a new city to begin her plots anew. Some seducers do this many times over the course of their long unlives, if only to stave off the eternal boredom that inevitably afflicts them all."
 		]
 	},
 	"vampire_seducer": { "redirect": "vampire_vampire_seducer" },
@@ -2529,7 +2529,9 @@
 			"**Before Combat** The warrior vampire uses her oil of keen edge on her katana and applies a dose of her racial poison to it.  ",
 			"**During Combat** The warrior vampire uses her scabbard of vigor to grant her katana a +3 enhancement bonus for 3 rounds. Once that expires, or if her katana attacks are ineffective, she resorts to natural attacks, grappling, and her drain chi ability.",
 			"",
-			"::mstats{str=20 dex=20 con=\"-\" int=10 wis=15 cha=18 bab=+7 cmb=+12 cmd=28 feats=\"Alertness#B~Cleave~Combat Reflexes~Dodge#B~Exotic Weapon Proficiency=katana~Improved Initiative~Mobility#B~Power Attack~Quick Draw~Skill Focus#B=Acrobatics~Spring Attack#B~Weapon Focus=katana~Weapon Specialization=katana\" skills=\"Acrobatics +12~Craft (calligraphy) +4~Craft (paintings) +4~Escape Artist +3~Knowledge (local) +2~Knowledge (nobility) +2~Perception +21~Sense Motive +4~Stealth +12\" racial=\"+8 Acrobatics, +8 Perception, +10 Stealth\" lang=\"Common, Vishkanya\" sq=\"armor training 2, %%ability/poison use%%, toxic (4/day)\" combat=\"oil of %%spell/keen edge%%, potion of %%spell/bull's strength%%, potion of %%spell/fly%%, potion of %%spell/haste%%, potion of %%spell/inflict moderate wounds%%, potion of %%spell/invisibility%%\" othergear=\"%%eq-armor/o-yoroi%%, mwk %%eq-weapon/katana%%, %%eq-weapon/shuriken%% (20), %%magic-wondrous/brooch of shielding%% (50 points), %%magic-wondrous/scabbard of vigor%%, 46 gp\"}",
+			"::mstats{str=20 dex=20 con=\"-\" int=10 wis=15 cha=18 bab=+7 cmb=+12 cmd=28 feats=\"Alertness#B~Cleave~Combat Reflexes~Dodge#B~Exotic Weapon Proficiency=katana~Improved Initiative~Mobility#B~Power Attack~Quick Draw~Skill Focus#B=Acrobatics~Spring Attack#B~Weapon Focus=katana~Weapon Specialization=katana\" skills=\"Acrobatics +12~Craft (calligraphy) +4~Craft (paintings) +4~Escape Artist +3~Knowledge (local) +2~Knowledge (nobility) +2~Perception +21~Sense Motive +4~Stealth +12\" racial=\"+8 Acrobatics, +8 Perception, +10 Stealth\" lang=\"Common, Vishkanya\" sq=\"armor training 2, %%ability/poison use%%, toxic (4/day)\" combat=\"oil of %%spell/keen edge%%, potion of %%spell/bull's strength%%, potion of %%spell/fly%%, potion of %%spell/haste%%, potion of %%spell/inflict moderate wounds%%, potion of %%spell/invisibility%%\" othergear=\"%%eq-armor/o-yoroi%%, mwk %%eq-weapon/katana%%, %%eq-weapon/shuriken%% (20), %%magic-wondrous/brooch of shielding%% (50 points), %%magic-wondrous/scabbard of vigor%%, 46 gp\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any}",
 			"",
@@ -2547,9 +2549,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"When this vishkanya was alive, she pursued the path of the samurai, but wasn't allowed to join their honorable ranks. Her restless spirit remained trapped in her flesh after death, and eventually she animated her own rotting body and sought out those who had wronged her.",
-			"",
-			"[^B]: Bonus feat."
+			"When this vishkanya was alive, she pursued the path of the samurai, but wasn't allowed to join their honorable ranks. Her restless spirit remained trapped in her flesh after death, and eventually she animated her own rotting body and sought out those who had wronged her."
 		]
 	},
 	"vampire_warrior": { "redirect": "vampire_vampire_warrior" },

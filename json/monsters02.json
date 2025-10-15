@@ -568,7 +568,9 @@
 			"",
 			"::moffense{sp=50 cl=20 melee=\"bite +3 (1d6+2 plus %%umr/grab%%), sting +3 (1d4+2 plus poison)\"}",
 			"",
-			"::mstats{str=14 dex=10 con=17 int=\"-\" wis=13 cha=11 bab=+1 cmb=\"+3 (+7 grapple)\" cmd=\"13 (21 vs. trip)\" feats=\"Toughness#B\" skills=\"Climb +10~Perception +5~Survival +5\" racial=\"+4 Perception, +4 Survival\"}",
+			"::mstats{str=14 dex=10 con=17 int=\"-\" wis=13 cha=11 bab=+1 cmb=\"+3 (+7 grapple)\" cmd=\"13 (21 vs. trip)\" feats=\"Toughness#B\" skills=\"Climb +10~Perception +5~Survival +5\" racial=\"+4 Perception, +4 Survival\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, pair, gang (3-6), or hive (7-18 plus 10-100 workers, 2-8 drones, and 1 queen)\" treasure=none}",
 			"",
@@ -586,9 +588,7 @@
 			"",
 			"**Drone (+1 CR)** Drones have the {template/advanced} simple template and a fly speed of 30 feet (average).",
 			"",
-			"**Queen (+2 CR)** The queen of a nest is an immense, bloated creature. She gains the advanced and the {template/giant} simple templates, but drops her speed to 10 feet and loses her climb speed entirely.",
-			"",
-			"[^B]: Bonus feat."
+			"**Queen (+2 CR)** The queen of a nest is an immense, bloated creature. She gains the advanced and the {template/giant} simple templates, but drops her speed to 10 feet and loses her climb speed entirely."
 		]
 	},
 	"giant_ant": { "redirect": "ant_giant_ant" },
@@ -1423,7 +1423,9 @@
 			"",
 			"::mspell{sla cl=8 con=+11 constant=\"detect evil~magic circle against evil\" atWill=\"aid~continual flame~greater teleport|self plus 50 lbs. of objects only~message\" day=\"3~align weapon~mirror image~versatile weapon\"}",
 			"",
-			"::mstats{str=16 dex=12 con=19 int=10 wis=15 cha=17 bab=+8 cmb=+11 cmd=22 feats=\"Improved Bull Rush~Improved Critical#B=greatsword~Power Attack~Vital Strike~Weapon Focus=greatsword~Whirlwind Attack#B\" skills=\"Diplomacy +14~Fly +12~Intimidate +14~Knowledge (religion) +11~Perception +13~Sense Motive +9~Survival +9\" lang=\"Celestial, Draconic, Infernal; truespeech\" sq=\"second skin\"}",
+			"::mstats{str=16 dex=12 con=19 int=10 wis=15 cha=17 bab=+8 cmb=+11 cmd=22 feats=\"Improved Bull Rush~Improved Critical#B=greatsword~Power Attack~Vital Strike~Weapon Focus=greatsword~Whirlwind Attack#B\" skills=\"Diplomacy +14~Fly +12~Intimidate +14~Knowledge (religion) +11~Perception +13~Sense Motive +9~Survival +9\" lang=\"Celestial, Draconic, Infernal; truespeech\" sq=\"second skin\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Heaven%%)\" org=\"solitary, pair, or squad (3-12)\" treasure=\"standard=masterwork %%eq-armor/full plate%%, other treasure\"}",
 			"",
@@ -1441,9 +1443,7 @@
 			"",
 			"Despite their warlike mien, legion archons prefer errands of peace and mercy. Their masters dispatch unarmed legion archons as celestial envoys, though still clad in their heavenly armor. In this fashion, they spread the word and love of Heaven to widely scattered realms.",
 			"",
-			"**Family:** {family/Archon}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Archon}"
 		]
 	},
 	"legion_archon": { "redirect": "archon_legion_archon" },
@@ -1783,7 +1783,9 @@
 			"",
 			"::moffense{sp=40 melee=\"slam +8 (2d8+6)\" space=10 reach=5 trample=\"2d8+6, DC 17\" specAtt=\"poison~spores\"}",
 			"",
-			"::mstats{str=18 dex=13 con=17 int=\"-\" wis=11 cha=1 bab=+5 cmb=+10 cmd=\"21 (can't be tripped)\" feats=\"Improved Overrun#B\"}",
+			"::mstats{str=18 dex=13 con=17 int=\"-\" wis=11 cha=1 bab=+5 cmb=+10 cmd=\"21 (can't be tripped)\" feats=\"Improved Overrun#B\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=underground org=\"solitary or cluster (2-8)\" treasure=none}",
 			"",
@@ -1803,9 +1805,7 @@
 			"",
 			"Although they are typically solitary creatures, ascomoids dwelling in areas of ample moisture with generous sources of food - or frequent unwitting passersby - sometimes form deadly clusters. Such colonies of these giant fungi often lurk in large caverns among other pallid vegetation. Given ascomoids' ability to detect vibrations, the slightest quake or potential footfall sets them rolling, turning their cavernous lairs into churning meat grinders. Bounding about violently, groups of ascomoids sometimes take hours to settle back down, unable to distinguish between the movements of prey and the tumbling of their own kind. In some cases, ascomoids have been known to lair at the top of steep rises, crushing climbers as they roll in terrible fungal avalanches.",
 			"",
-			"Those crushed by an ascomoid or who fall victim to an ascomoid's spores face a revolting end, their bodies becoming hosts to quick-growing colonies of rampant fungi. Immature ascomoid mold sprouts quickly, typically appearing within 24 hours. After 48 hours, such victims become so overgrown with this furry, brown-green mold that they can no longer be restored to life by {spell/raise dead}, as their bodies are too vitally pervaded and thoroughly consumed by the swiftly spreading mold. Within a month, a new ascomoid emerges from the foul mess.",
-			"",
-			"[^B]: Bonus feat."
+			"Those crushed by an ascomoid or who fall victim to an ascomoid's spores face a revolting end, their bodies becoming hosts to quick-growing colonies of rampant fungi. Immature ascomoid mold sprouts quickly, typically appearing within 24 hours. After 48 hours, such victims become so overgrown with this furry, brown-green mold that they can no longer be restored to life by {spell/raise dead}, as their bodies are too vitally pervaded and thoroughly consumed by the swiftly spreading mold. Within a month, a new ascomoid emerges from the foul mess."
 		]
 	},
 	"ashen_forgemaster": {
@@ -2189,7 +2189,9 @@
 			"",
 			"::mspell{sla cl=20 con=+30 constant=\"dimensional lock|enemies only~freedom of movement~tongues~true seeing\" atWill=\"death knell|DC 22~greater dispel magic~greater scrying~greater teleport|self plus 50 lbs. of objects only\" day=\"3~!quickened %%spell/baleful polymorph%% (DC 25)~!quickened %%spell/blade barrier%% (DC 26)~blasphemy|DC 27~!quickened *death knell* (DC 22)~deeper darkness~demand|DC 28~~1~power word stun~!%%umr/summon%% (level 9; any 1 CR 19 or lower %%family/asura%% 100%)~time stop\"}",
 			"",
-			"::mstats{str=36 dex=26 con=34 int=25 wis=25 cha=31 bab=+22 cmb=\"+37 (+41 grapple)\" cmd=64 feats=\"Awesome Blow~Cleave~Combat Reflexes#B~Critical Focus~Deflect Arrows#B~Dodge#B~Great Cleave~Improved Bull Rush~Improved Initiative~Lightning Reflexes~Mobility#B~Power Attack~Quicken Spell-Like Ability=baleful polymorph, blade barrier, death knell~Snatch Arrows#B~Spring Attack\" skills=\"Acrobatics +31 (+39 when jumping)~Bluff +33~Climb +21~Diplomacy +30~Escape Artist +14~Fly +35~Intimidate +33~Knowledge (arcana) +27~Knowledge (history) +13~Knowledge (planes) +30~Knowledge (religion) +27~Perception +34~Perform (dance) +33~Sense Motive +30~Spellcraft +27~Stealth +23~Swim +21~Use Magic Device +30\" racial=\"+6 Escape Artist, +4 Perception\" lang=\"Common, Infernal; *tongues,* %%umr/telepathy%% 100 ft.\"}",
+			"::mstats{str=36 dex=26 con=34 int=25 wis=25 cha=31 bab=+22 cmb=\"+37 (+41 grapple)\" cmd=64 feats=\"Awesome Blow~Cleave~Combat Reflexes#B~Critical Focus~Deflect Arrows#B~Dodge#B~Great Cleave~Improved Bull Rush~Improved Initiative~Lightning Reflexes~Mobility#B~Power Attack~Quicken Spell-Like Ability=baleful polymorph, blade barrier, death knell~Snatch Arrows#B~Spring Attack\" skills=\"Acrobatics +31 (+39 when jumping)~Bluff +33~Climb +21~Diplomacy +30~Escape Artist +14~Fly +35~Intimidate +33~Knowledge (arcana) +27~Knowledge (history) +13~Knowledge (planes) +30~Knowledge (religion) +27~Perception +34~Perform (dance) +33~Sense Motive +30~Spellcraft +27~Stealth +23~Swim +21~Use Magic Device +30\" racial=\"+6 Escape Artist, +4 Perception\" lang=\"Common, Infernal; *tongues,* %%umr/telepathy%% 100 ft.\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Hell%%)\" org=\"solitary or pair\" treasure=double}",
 			"",
@@ -2223,9 +2225,7 @@
 			"",
 			">**Create Asura (Su):** As a full-round action, an asurendra can turn a creature that it has eaten within the last 24 hours into a {monster/tripurasura} that it then excretes into existence. Such tripurasuras remain loyal to the asurendra that created them as long as they remain tripurasuras. If an asurendra has enough tripurasuras at hand, it can consume them as well and transform them into more powerful asuras using this ability. An asurendra can transform any tripurasuras it has eaten within the last 24 hours into a number of Hit Dice worth of other asuras equal to the number of tripurasuras it has consumed. An asurendra can create as many tripurasuras as it wishes with this ability, but can only create more powerful asuras by combining multiple tripurasuras once per day. An asurendra cannot create another asurendra with this ability. A newly formed asura considers the asurendra to be its master. Not all of a creature's soul is consumed when it is used to create a tripurasura - beings swallowed and used to create asuras in this manner are dead, but can be restored to life as normal.",
 			"",
-			"**Family:** {family/Asura}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Asura}"
 		]
 	},
 	"asurendra": { "redirect": "asura_asurendra" },
@@ -2301,7 +2301,9 @@
 			"",
 			"::mspell{sla cl=14 con=+17 constant=\"see invisibility\" atWill=\"augury~flame arrow\" day=\"3~arcane sight~divination~~1~!%%umr/summon%% (level 5; 1d3 %%monster/adhukait/s%% 50% or 1 %%monster/upasunda%% 30%)~true seeing~vision\"}",
 			"",
-			"::mstats{str=17 dex=24 con=21 int=14 wis=19 cha=16 bab=+14 cmb=+17 cmd=34 feats=\"Deadly Aim~Deflect Arrows#B~Improved Precise Shot~Improved Two-Weapon Fighting~Point-Blank Shot~Precise Shot~Rapid Shot~Snatch Arrows#B~Two-Weapon Fighting\" skills=\"Acrobatics +24 (+28 when jumping)~Bluff +20~Climb +21~Escape Artist +23~Knowledge (planes) +12~Perception +25~Profession (soothsayer) +21~Sense Motive +21~Spellcraft +9~Stealth +24\" racial=\"+6 Escape Artist, +4 Perception\" lang=\"Common, Infernal; %%umr/telepathy%% 100 ft.\" sq=\"hateful prophecy, infernal arrows, selective nondetection\"}",
+			"::mstats{str=17 dex=24 con=21 int=14 wis=19 cha=16 bab=+14 cmb=+17 cmd=34 feats=\"Deadly Aim~Deflect Arrows#B~Improved Precise Shot~Improved Two-Weapon Fighting~Point-Blank Shot~Precise Shot~Rapid Shot~Snatch Arrows#B~Two-Weapon Fighting\" skills=\"Acrobatics +24 (+28 when jumping)~Bluff +20~Climb +21~Escape Artist +23~Knowledge (planes) +12~Perception +25~Profession (soothsayer) +21~Sense Motive +21~Spellcraft +9~Stealth +24\" racial=\"+6 Escape Artist, +4 Perception\" lang=\"Common, Infernal; %%umr/telepathy%% 100 ft.\" sq=\"hateful prophecy, infernal arrows, selective nondetection\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Hell%%)\" org=\"solitary, pair, or foreboding (3-5)\" treasure=\"standard=2 +1 %%eq-weapon/composite shortbow/s%% &#91&+3 Str&#93&, 2 mwk %%eq-weapon/handaxe/s%%, other treasure\"}",
 			"",
@@ -2333,9 +2335,7 @@
 			"",
 			"Japalisuras know that their fearsome miens tend to distress visitors, yet the asuras lack any supernatural means of disguising themselves. Instead, many japalisuras favor hiding out of sight and dealing with visitors from behind screens or within darkened alcoves. In these circumstances, the asura rarely emerges unless doing so would convince a reticent visitor to cooperate or if necessary to destroy someone who poses a threat to the asura's ongoing operations. Rarely, a japalisura operates openly, relying on either its reputation or its monstrous allure to attract disciples. Such is the case for Holkomion of Iblydos, who claims to have rediscovered the sacred art of mythspeaking. At least one warrior claims to have attained mythic power as a result of Holkomion's guidance, yet most find that the japalisura's prophecies in fact direct petitioners to assassinate hero-gods.",
 			"",
-			"More often, a japalisura maintains a small cult to communicate its oracular guidance. A japalisura accepts only the most devout followers into such coteries. With such humanoid puppets, the asura can dispense divinations telepathically without having to show itself. These cults take myriad forms but typically operate outside of large population centers to avoid too much scrutiny. The japalisura Zalmiac poses as the Varisian harrower Madame Vhelanosz, virtually never leaving the wagon from which she interprets her cards. Her pernicious prophecies have incited scores of murders - especially against {faith/Desna/ns} and Pharasmins, whom she goads into killing each other - and her loyal cohort of ex-Sczarni assistants ensure nobody asks too many of the wrong questions.",
-			"",
-			"[^B]: Bonus feat."
+			"More often, a japalisura maintains a small cult to communicate its oracular guidance. A japalisura accepts only the most devout followers into such coteries. With such humanoid puppets, the asura can dispense divinations telepathically without having to show itself. These cults take myriad forms but typically operate outside of large population centers to avoid too much scrutiny. The japalisura Zalmiac poses as the Varisian harrower Madame Vhelanosz, virtually never leaving the wagon from which she interprets her cards. Her pernicious prophecies have incited scores of murders - especially against {faith/Desna/ns} and Pharasmins, whom she goads into killing each other - and her loyal cohort of ex-Sczarni assistants ensure nobody asks too many of the wrong questions."
 		]
 	},
 	"japalisura": { "redirect": "asura_japalisura" },
@@ -2431,7 +2431,9 @@
 			"",
 			"::mspell{sla cl=9 con=+13 atWill=\"disguise self~greater teleport|self plus 50 lbs. of objects only~feather fall~see invisibility~spider climb\" day=\"3~deeper darkness~levitate~rainbow pattern|DC 18~~1~haste~hold monster|DC 19~!%%umr/summon%% (level 4; 2 %%monster/adhukait/s%% 45% or 1 upasunda 20%)\"}",
 			"",
-			"::mstats{str=22 dex=24 con=19 int=15 wis=24 cha=19 bab=+12 cmb=\"+18 (+20 grapple)\" cmd=\"39 (41 vs. grapple)\" feats=\"Cleave~Combat Reflexes#B~Deflect Arrows#B~Dodge~Great Cleave~Improved Grapple#B~Mobility~Power Attack~Spring Attack\" skills=\"Acrobatics +19 (+27 when jumping)~Bluff +16~Diplomacy +13~Escape Artist +25~Intimidate +16~Knowledge (arcana) +8~Knowledge (planes) +14~Perception +23~Perform (dance) +16~Sense Motive +19~Stealth +19\" racial=\"+8 Acrobatics when jumping, +6 Escape Artist, +4 Perception\" lang=\"Common, Infernal; %%umr/telepathy%% 100 ft.\"}",
+			"::mstats{str=22 dex=24 con=19 int=15 wis=24 cha=19 bab=+12 cmb=\"+18 (+20 grapple)\" cmd=\"39 (41 vs. grapple)\" feats=\"Cleave~Combat Reflexes#B~Deflect Arrows#B~Dodge~Great Cleave~Improved Grapple#B~Mobility~Power Attack~Spring Attack\" skills=\"Acrobatics +19 (+27 when jumping)~Bluff +16~Diplomacy +13~Escape Artist +25~Intimidate +16~Knowledge (arcana) +8~Knowledge (planes) +14~Perception +23~Perform (dance) +16~Sense Motive +19~Stealth +19\" racial=\"+8 Acrobatics when jumping, +6 Escape Artist, +4 Perception\" lang=\"Common, Infernal; %%umr/telepathy%% 100 ft.\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Hell%%)\" org=\"solitary, pair, or squad (3-6)\" treasure=\"standard=weapons listed above plus other treasure\"}",
 			"",
@@ -2449,9 +2451,7 @@
 			"",
 			"An upasunda is 7 feet tall and weighs 240 pounds.",
 			"",
-			"**Family:** {family/Asura}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Asura}"
 		]
 	},
 	"upasunda": { "redirect": "asura_upasunda" },

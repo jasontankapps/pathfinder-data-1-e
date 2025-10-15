@@ -15,7 +15,9 @@
 			"",
 			"::mspell{know=Bard cl=6 con=+9 l2=\"4/day~cure moderate wounds~detect thoughts|DC 15~invisibility~suggestion|DC 15\" l1=\"5/day~charm person|DC 14~disguise self|DC 14~expeditious retreat~hideous laughter|DC 14\" l0=\"at will~detect magic~ghost sound|DC 13~lullaby|DC 13~mage hand~prestidigitation|DC 13~read magic\"}",
 			"",
-			"::mstats{str=15 dex=15 con=12 int=12 wis=14 cha=16 bab=+6 cmb=+7 cmd=19 feats=\"Extra Performance~Point-Blank Shot~Skill Focus=Perform &#91&oratory&#93&~!Skill Focus (Perform &#91&act&#93&)~Spellsong~Throw Anything#B\" skills=\"Acrobatics +11~Appraise +5~Climb +14~Intimidate +8~Knowledge (geography) +8~Knowledge (history) +8~Knowledge (local) +8~Linguistics +6~Perception +10~Perform (act) +17~Perform (dance) +10~Perform (oratory) +17~Sleight of Hand +7~Spellcraft +8~Stealth +13~Use Magic Device +7\" racial=\"+4 Stealth\" lang=\"Abyssal, Common, Kelish, Polyglot, Vanaran\" sq=\"bardic knowledge +3, lore master 1/day, versatile performance (oratory, act)\" combat=\"potion of %%spell/mirror image%%, wand of %%spell/alter self%% (21 charges), %%eq-poison/oil of taggit%% (2 doses)\" othergear=\"+1 %%eq-armor/studded leather%%, mwk %%eq-armor/heavy wooden shield%%, +1 %%eq-weapon/whip%%, %%magic-wondrous/amulet of natural armor +1%%, %%eq-misc/disguise kit%%\"}",
+			"::mstats{str=15 dex=15 con=12 int=12 wis=14 cha=16 bab=+6 cmb=+7 cmd=19 feats=\"Extra Performance~Point-Blank Shot~Skill Focus=Perform &#91&oratory&#93&~!Skill Focus (Perform &#91&act&#93&)~Spellsong~Throw Anything#B\" skills=\"Acrobatics +11~Appraise +5~Climb +14~Intimidate +8~Knowledge (geography) +8~Knowledge (history) +8~Knowledge (local) +8~Linguistics +6~Perception +10~Perform (act) +17~Perform (dance) +10~Perform (oratory) +17~Sleight of Hand +7~Spellcraft +8~Stealth +13~Use Magic Device +7\" racial=\"+4 Stealth\" lang=\"Abyssal, Common, Kelish, Polyglot, Vanaran\" sq=\"bardic knowledge +3, lore master 1/day, versatile performance (oratory, act)\" combat=\"potion of %%spell/mirror image%%, wand of %%spell/alter self%% (21 charges), %%eq-poison/oil of taggit%% (2 doses)\" othergear=\"+1 %%eq-armor/studded leather%%, mwk %%eq-armor/heavy wooden shield%%, +1 %%eq-weapon/whip%%, %%magic-wondrous/amulet of natural armor +1%%, %%eq-misc/disguise kit%%\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm forests\"}",
 			"",
@@ -23,9 +25,7 @@
 			"",
 			"Devious and aggressive, charau-ka range farther across the Inner Sea than anyone truly expects. Their jungle tricksters - masters of stealth, deception, and disguise - roam freely, if sparsely, in the shadows of the world, or boldly stride through cities cloaked in makeup or glamers. Across Garund they often pose as common apes, but they sometimes travel abroad in the guise of exotic pets of obedient human slaves or use illusions to pose as halflings or human children. Between Jalmeray and Vudra, resourceful apes pose as playful {race/vanara/s} as well.",
 			"",
-			"Some tricksters act as the eyes and ears of Usaro, but many serve as thieves - gathering magic and wealth to sate Ruthazek - or as saboteurs undermining enemies of the state or arranging bloody massacres for {faith/Angazhan/'s} glory. They pose as guides or playful apes to lead adventurers and travelers into the jungles' many hazards.",
-			"",
-			"[^B]: Bonus feat."
+			"Some tricksters act as the eyes and ears of Usaro, but many serve as thieves - gathering magic and wealth to sate Ruthazek - or as saboteurs undermining enemies of the state or arranging bloody massacres for {faith/Angazhan/'s} glory. They pose as guides or playful apes to lead adventurers and travelers into the jungles' many hazards."
 		]
 	},
 	"jungle_trickster": { "redirect": "charau_ka_jungle_trickster" },
@@ -43,7 +43,9 @@
 			"",
 			"::moffense{sp=30 cl=30 melee=\"mwk club +10/+5 (1d4+2), bite +4 (1d3+3)\" ranged=\"musket +11 (1d10/&times&4) or rock +12 (1d4+2/19-20)\" specAtt=\"grit (3)~shrieking frenzy~thrown-weapon mastery\"}",
 			"",
-			"::mstats{str=15 dex=18 con=16 int=10 wis=16 cha=9 bab=+6 cmb=+7 cmd=23 feats=\"Dodge~Gunsmithing~Mobility~Point-Blank Shot~Precise Shot~Shot on the Run~Throw Anything#B\" skills=\"Acrobatics +10~Bluff +4~Climb +13~Intimidate +4~Perception +11~Sleight of Hand +8~Stealth +12~Survival +11\" racial=\"+4 Stealth\" lang=\"Abyssal, Polyglot\" sq=\"deeds (deadeye, gunslinger initiative, gunslinger's dodge, pistol-whip, quick clear, utility shot), gunsmith\" combat=\"oil of %%spell/jury-rig%%, oil of %%spell/magic weapon%%, potions of %%spell/cure moderate wounds%% (2), potion of %%spell/invisibility%%, potion of %%spell/protection from good%%, %%magic-weapon/tracer bullet/s%% (2), %%eq-weapon/entangling shot alchemical cartridge/s%% (10), %%eq-weapon/salt shot alchemical cartridge/s%% (10), %%eq-weapon/tanglefoot bag/s%% (2)\" othergear=\"mwk %%eq-armor/chain shirt%%, mwk %%eq-weapon/club%%, %%eq-weapon/musket%% with 20 bullets, %%magic-wondrous/amulet of natural armor +1%%, %%eq-weapon/powder horn%% with 20 doses of black powder\"}",
+			"::mstats{str=15 dex=18 con=16 int=10 wis=16 cha=9 bab=+6 cmb=+7 cmd=23 feats=\"Dodge~Gunsmithing~Mobility~Point-Blank Shot~Precise Shot~Shot on the Run~Throw Anything#B\" skills=\"Acrobatics +10~Bluff +4~Climb +13~Intimidate +4~Perception +11~Sleight of Hand +8~Stealth +12~Survival +11\" racial=\"+4 Stealth\" lang=\"Abyssal, Polyglot\" sq=\"deeds (deadeye, gunslinger initiative, gunslinger's dodge, pistol-whip, quick clear, utility shot), gunsmith\" combat=\"oil of %%spell/jury-rig%%, oil of %%spell/magic weapon%%, potions of %%spell/cure moderate wounds%% (2), potion of %%spell/invisibility%%, potion of %%spell/protection from good%%, %%magic-weapon/tracer bullet/s%% (2), %%eq-weapon/entangling shot alchemical cartridge/s%% (10), %%eq-weapon/salt shot alchemical cartridge/s%% (10), %%eq-weapon/tanglefoot bag/s%% (2)\" othergear=\"mwk %%eq-armor/chain shirt%%, mwk %%eq-weapon/club%%, %%eq-weapon/musket%% with 20 bullets, %%magic-wondrous/amulet of natural armor +1%%, %%eq-weapon/powder horn%% with 20 doses of black powder\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm forests\"}",
 			"",
@@ -51,9 +53,7 @@
 			"",
 			"A decade ago, intent on impressing the Gorilla King, a tribe of charau-ka crossed the Brazen Peaks and raided Alkenstar's Dongun Hold, a dwarven citadel loaded with the Grand Duchy's prized firearms. They suffered severe casualties but absconded with scores of guns. Ruthazek then handpicked several dozen promising ape-men to master the weapons, creating an elite caste of assassins, monster wranglers, and bounty hunters. Many warriors managed to survive this unorthodox training and now wander the jungle at Ruthazek's command, eliminating Usaro's enemies, retrieving fugitive slaves, and stocking the beast pits. The Gorilla King takes a special joy in sending his technological marvels to eliminate mages and healers.",
 			"",
-			"Rather than confronting foes directly, sharpshooters take aim from above, disappearing into the wilderness long before victims can muster a counterattack. They show no remorse and chase wounded targets through the jungle for miles with relentless determination. Priests of {faith/Angazhan} instilled a strong sense of survival in these sharpshooters, who show surprising restraint for charau-ka. The telltale frenzy of their kin surfaces only when enemies draw close to these gunslingers, and several have broken their muskets bludgeoning foes to death, only to suffer horrible reprimands for their carelessness. Those who keep their rage tempered travel far beyond the borders of the Gorilla King's realm, searching Golarion for anything their sovereign requires. Loyal to the very core, these charau-ka never reveal what they seek until it lies within their sights.",
-			"",
-			"[^B]: Bonus feat."
+			"Rather than confronting foes directly, sharpshooters take aim from above, disappearing into the wilderness long before victims can muster a counterattack. They show no remorse and chase wounded targets through the jungle for miles with relentless determination. Priests of {faith/Angazhan} instilled a strong sense of survival in these sharpshooters, who show surprising restraint for charau-ka. The telltale frenzy of their kin surfaces only when enemies draw close to these gunslingers, and several have broken their muskets bludgeoning foes to death, only to suffer horrible reprimands for their carelessness. Those who keep their rage tempered travel far beyond the borders of the Gorilla King's realm, searching Golarion for anything their sovereign requires. Loyal to the very core, these charau-ka never reveal what they seek until it lies within their sights."
 		]
 	},
 	"simian_sharpshooter": { "redirect": "charau_ka_simian_sharpshooter" },
@@ -992,7 +992,9 @@
 			"",
 			"::mspell{prep=Cleric cl=10 con=+15 l5=\"greater command|DC 20~mass inflict light wounds|DC 20~scrying|DC 20\" l4=\"air walk~cure critical wounds~dimensional anchor~sending\" l3=\"blindness/deafness|DC 18~deeper darkness~magic circle against good~prayer\" l2=\"enthrall|DC 17~shatter|DC 17~silence|DC 17~sound burst|DC 17~spiritual weapon\" l1=\"cause fear|DC 16~command|DC 16~cure light wounds~divine favor~sanctuary|DC 16~shield of faith\" l0=\"bleed~create water~detect magic~resistance\"}",
 			"",
-			"::mstats{str=32 dex=11 con=21 int=16 wis=21 cha=14 bab=+10 cmb=\"+25 (+27 bull rush)\" cmd=\"35 (37 vs. bull rush, can't be tripped)\" feats=\"Awesome Blow~Combat Casting~Eschew Materials#B~Extend Spell~Improved Bull Rush~Intimidating Prowess~Power Attack~Vital Strike\" skills=\"Climb +16~Diplomacy +16~Intimidate +30~Knowledge (religion) +20~Perception +22~Sense Motive +19~Spellcraft +20~Survival +22\" lang=\"Aklo, Common, Infernal; %%umr/telepathy%% 100 ft.\" sq=\"alien vestment\"}",
+			"::mstats{str=32 dex=11 con=21 int=16 wis=21 cha=14 bab=+10 cmb=\"+25 (+27 bull rush)\" cmd=\"35 (37 vs. bull rush, can't be tripped)\" feats=\"Awesome Blow~Combat Casting~Eschew Materials#B~Extend Spell~Improved Bull Rush~Intimidating Prowess~Power Attack~Vital Strike\" skills=\"Climb +16~Diplomacy +16~Intimidate +30~Knowledge (religion) +20~Perception +22~Sense Motive +19~Spellcraft +20~Survival +22\" lang=\"Aklo, Common, Infernal; %%umr/telepathy%% 100 ft.\" sq=\"alien vestment\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=solitary treasure=\"double=7,500 gp of metallic material, other treasure\"}",
 			"",
@@ -1022,9 +1024,7 @@
 			"",
 			"Unlike most races of the Dominion, chyzaedu have a keen interest in Golarion and make occasional expeditions to the planet. Chyzaedu share a myth similar to the Casmar legend of the Star-Worm - it tells of an interstellar monster that crashed on Golarion eons ago and gave birth to the first {monster/purple worm/s}. Chyzaedu track and study purple worms and their variants (in particular, the colossal crimson worms of the Storval Plateau). Some chyzaedu view purple worms as enlightened brutes, devoid of intellect but wholly overwhelmed by the religious fervor of consumption. Other chyzaedu see purple worms as little more than breeding stock, but hope to use them to enhance future generations of their race. The worm-priests find the diverse panoply of deities worshipped on Golarion to be confusing and unnecessary, and are particularly offended by the worship of {faith/Rovagug} - the Rough Beast's theology of destruction wholly devoid of purpose smacks of apostasy.",
 			"",
-			"Chyzaedu measure of 60 feet in length on average and weigh approximately 5,000 pounds.",
-			"",
-			"[^B]: Bonus feat."
+			"Chyzaedu measure of 60 feet in length on average and weigh approximately 5,000 pounds."
 		]
 	},
 	"cicada_cicada_swarm": {
@@ -1196,7 +1196,9 @@
 			"",
 			"::moffense{sp=10 fl=50 average melee=\"1 bite +6 (1d4-2 plus bleed)\" bleed=1 distraction=\"DC 11\"}",
 			"",
-			"::mstats{str=7 dex=17 con=10 int=2 wis=14 cha=10 bab=+2 cmb=-1 cmd=12 feats=\"Flyby Attack#B~Weapon Finesse\" skills=\"Fly +5~Stealth +12\"}",
+			"::mstats{str=7 dex=17 con=10 int=2 wis=14 cha=10 bab=+2 cmb=-1 cmd=12 feats=\"Flyby Attack#B~Weapon Finesse\" skills=\"Fly +5~Stealth +12\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate hills and ruins\" org=\"solitary, pair, or clutch (3-16)\" treasure=none}",
 			"",
@@ -1210,9 +1212,7 @@
 			"",
 			"Clawbats, or einchadu, as they're known to the tribes of greater Iobaria, haunt the desolate expanses of northeastern Avistan and the rugged lands beyond. Swarming forth from their shadowy dens to hunt by night, these strange predators thirst for blood, scavenging from the victims of greater nocturnal hunters and stalking those foolish enough not to fear dangers in the dark. Drawn by the scent of spilled blood, clawbats fearlessly follow deadly beasts, and more than one traveler has narrowly escaped a predator's nearly lethal ambush only to find his luck change as a swarm of wings and eyes descend upon him.",
 			"",
-			"The span of an average clawbat's dual pairs of wings stretches 3 feet wide, lifting aloft rubbery bodies weighing 2 to 4 pounds. Tales of more monstrous clawbats, with wings that blot out the stars as they swoop away with children and small animals, also pass through the civilized lands of Iobaria. Such overgrown clawbats might be constructed by making use of the giant creature simple template.",
-			"",
-			"[^B]: Bonus feat."
+			"The span of an average clawbat's dual pairs of wings stretches 3 feet wide, lifting aloft rubbery bodies weighing 2 to 4 pounds. Tales of more monstrous clawbats, with wings that blot out the stars as they swoop away with children and small animals, also pass through the civilized lands of Iobaria. Such overgrown clawbats might be constructed by making use of the giant creature simple template."
 		]
 	},
 	"cloaker": {
@@ -1358,7 +1358,9 @@
 			"",
 			"::moffense{sp=60 fl=100 average sw=60 melee=\"bite +35 (4d6+12), 2 claws +35 (2d8+12), tail slap +30 (2d6+6), 2 wings +30 (2d6+6)\" space=15 reach=15 reachP=\"15 ft. with bite\" brWeap=\"100-ft. line, 14d6 fire damage, Reflex DC 22 half, usable every 1d4 rounds\" specAtt=\"adamantine weapons~self-destruction\"}",
 			"",
-			"::mstats{str=34 dex=19 con=\"-\" int=\"-\" wis=11 cha=1 bab=+25 cmb=+39 cmd=\"55 (59 vs. trip)\" feats=\"Improved Initiative#B~Lightning Reflexes#B\" skills=\"Fly +8~Perception +8~Swim +20\" racial=\"+8 Fly, +8 Perception\" sq=\"difficult to create, efficient winding, swift reactions\"}",
+			"::mstats{str=34 dex=19 con=\"-\" int=\"-\" wis=11 cha=1 bab=+25 cmb=+39 cmd=\"55 (59 vs. trip)\" feats=\"Improved Initiative#B~Lightning Reflexes#B\" skills=\"Fly +8~Perception +8~Swim +20\" racial=\"+8 Fly, +8 Perception\" sq=\"difficult to create, efficient winding, swift reactions\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any land\" org=solitary treasure=none}",
 			"",
@@ -1401,9 +1403,7 @@
 			"The clockwork dragon is a masterpiece of clockwork construction and is exceptionally difficult to create. The creator must begin with crafted clockwork pieces worth 25,000 gp.",
 			"",
 			"**CL** 18th; **Price** 300,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, and {spell/limited wish}, creator must be at least CL 18th; **Skill** Craft (clockwork) DC 20; **Cost** 162,500 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, and {spell/limited wish}, creator must be at least CL 18th; **Skill** Craft (clockwork) DC 20; **Cost** 162,500 gp"
 		]
 	},
 	"clockwork_dragon": { "redirect": "clockwork_clockwork_dragon" },
@@ -1421,7 +1421,9 @@
 			"",
 			"::moffense{sp=20 br=10 melee=\"2 slams +21 (1d8+10 plus %%umr/grab%%), drill +21 (2d6+10)\" space=15 reach=15 swallow=\"2d6 bludgeoning damage, AC 17, 11 hp\" specAtt=\"explosive charge 3/day~pulverizing ray (30-ft. line, 6d8 sonic damage, Reflex DC 16 for half, usable every 1d4 rounds)\"}",
 			"",
-			"::mstats{str=30 dex=8 con=\"-\" int=\"-\" wis=11 cha=7 bab=+13 cmb=+25 cmd=36 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, superior craftsmanship, swift reactions, winding\"}",
+			"::mstats{str=30 dex=8 con=\"-\" int=\"-\" wis=11 cha=7 bab=+13 cmb=+25 cmd=36 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, superior craftsmanship, swift reactions, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any land\" org=\"solitary or crew (2-4)\" treasure=incidental}",
 			"",
@@ -1464,9 +1466,7 @@
 			"When creating a clockwork excavator, the creator must obtain adamantine drill bits worth 10,000 gp, in addition to acid- and fire-resistant clockwork components worth 10,000 gp.",
 			"",
 			"**CL** 10th; **Price** 140,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/fabricate}, {spell/geas//quest}, {spell/locate object}, {spell/shatter}, creator must be at least caster level 10th; **Skill** Craft (clockwork) DC 20; **Cost** 80,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/fabricate}, {spell/geas//quest}, {spell/locate object}, {spell/shatter}, creator must be at least caster level 10th; **Skill** Craft (clockwork) DC 20; **Cost** 80,000 gp"
 		]
 	},
 	"clockwork_excavator": { "redirect": "clockwork_clockwork_excavator" },
@@ -1575,7 +1575,9 @@
 			"",
 			"::moffense{sp=30 melee=\"dogslicer +10 (1d4+5)\" specAtt=\"integrated dogslicer~searing eyebeam\"}",
 			"",
-			"::mstats{str=20 dex=14 con=\"-\" int=\"-\" wis=11 cha=1 bab=+4 cmb=+8 cmd=22 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, swift reactions, unstable creation, winding\"}",
+			"::mstats{str=20 dex=14 con=\"-\" int=\"-\" wis=11 cha=1 bab=+4 cmb=+8 cmd=22 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, swift reactions, unstable creation, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, pair, or gang (3-6)\" treasure=none}",
 			"",
@@ -1598,9 +1600,7 @@
 			"Though their appearance makes them seem rushed, the creation of a clockwork goblin still requires a certain degree of technique and finesse. The creator of a clockwork goblin must start with clockwork pieces worth 750 gp.",
 			"",
 			"**CL** 12th; **Price** 9,250 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/burning hands}, {spell/geas//quest}, creator must be caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 5,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/burning hands}, {spell/geas//quest}, creator must be caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 5,000 gp"
 		]
 	},
 	"clockwork_goblin": { "redirect": "clockwork_clockwork_goblin" },
@@ -1618,7 +1618,9 @@
 			"",
 			"::moffense{sp=40 melee=\"4 slams +41 (3d6+17)\" ranged=\"cannon +29/+24/+19/+14 (6d6/&times&4)\" space=20 reach=20 trample=\"3d6+25, DC 41\" specAtt=self-destruction}",
 			"",
-			"::mstats{str=45 dex=20 con=\"-\" int=\"-\" wis=11 cha=1 bab=+28 cmb=+49 cmd=66 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"swift reactions, winding\"}",
+			"::mstats{str=45 dex=20 con=\"-\" int=\"-\" wis=11 cha=1 bab=+28 cmb=+49 cmd=66 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"swift reactions, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, pair, or siege (3-6)\" treasure=none}",
 			"",
@@ -1641,9 +1643,7 @@
 			"The clockwork goliath is one of the most difficult of its kind to create. The creator must start with crafted clockwork pieces worth 20,000 gp.",
 			"",
 			"**CL** 18th; **Price** 300,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {feat/Gunsmithing}, {spell/animate objects}, {spell/geas//quest}, and {spell/limited wish}, creator must be at least caster level 18th; **Skill** Craft (clockwork) DC 25; **Cost** 160,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {feat/Gunsmithing}, {spell/animate objects}, {spell/geas//quest}, and {spell/limited wish}, creator must be at least caster level 18th; **Skill** Craft (clockwork) DC 25; **Cost** 160,000 gp"
 		]
 	},
 	"clockwork_goliath": { "redirect": "clockwork_clockwork_goliath" },
@@ -1702,7 +1702,9 @@
 			"",
 			"::moffense{sp=30 melee=\"slam +14 (1d6+7)\" ranged=\"pistol +12 (1d8/&times&4)\" specAtt=\"captive time\"}",
 			"",
-			"::mstats{str=20 dex=16 con=\"-\" int=\"-\" wis=11 cha=1 bab=+9 cmb=+14 cmd=29 feats=\"Deadly Aim#B~Improved Initiative#B~Lightning Reflexes#B~Point-Blank Shot#B~Precise Shot#B\" sq=\"difficult to create, integrated clockwork pistol, swift reactions, winding\"}",
+			"::mstats{str=20 dex=16 con=\"-\" int=\"-\" wis=11 cha=1 bab=+9 cmb=+14 cmd=29 feats=\"Deadly Aim#B~Improved Initiative#B~Lightning Reflexes#B~Point-Blank Shot#B~Precise Shot#B\" sq=\"difficult to create, integrated clockwork pistol, swift reactions, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, pair, or squad (3-8)\" treasure=none}",
 			"",
@@ -1727,9 +1729,7 @@
 			"The creator of a clockwork gunslinger must start with a pistol worth 1,000 gp, a crystalline hourglass worth 500 gp, and created clockwork pieces worth 1,750 gp.",
 			"",
 			"**CL** 12th; **Price** 40,250 gp  ",
-			"**Requirements** {feat/Craft Construct}, {feat/Exotic Weapon Proficiency} (pistol), *haste,* {spell/geas//quest}, *slow,* creator must be caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 21,750 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {feat/Exotic Weapon Proficiency} (pistol), *haste,* {spell/geas//quest}, *slow,* creator must be caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 21,750 gp"
 		]
 	},
 	"clockwork_gunslinger": { "redirect": "clockwork_clockwork_gunslinger" },
@@ -1792,7 +1792,9 @@
 			"",
 			"::moffense{sp=30 sw=60 melee=\"bite +25 (2d6+11 plus %%umr/grab%%), 2 slam +25 (1d8+11 plus grab)\" space=15 reach=15 brWeap=\"60-ft. line, 12d8 fire damage, DC 18 for half, usable every 1d4 rounds, 3/day\" swallow=\"2d8+16 slashing damage plus 2d6 fire damage, AC 17, 12 hp\" specAtt=grind}",
 			"",
-			"::mstats{str=33 dex=18 con=\"-\" int=\"-\" wis=11 cha=1 bab=+16 cmb=\"+29 (+33 grapple)\" cmd=\"45 (can't be tripped)\" feats=\"Improved Initiative#B~Lightning Reflexes#B\" skills=\"Stealth +8 (+12 in water)~Swim +19\" racial=\"+12 Stealth (+16 in water)\" sq=\"swift reactions, winding\"}",
+			"::mstats{str=33 dex=18 con=\"-\" int=\"-\" wis=11 cha=1 bab=+16 cmb=\"+29 (+33 grapple)\" cmd=\"45 (can't be tripped)\" feats=\"Improved Initiative#B~Lightning Reflexes#B\" skills=\"Stealth +8 (+12 in water)~Swim +19\" racial=\"+12 Stealth (+16 in water)\" sq=\"swift reactions, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary or pod (2-4)\" treasure=none}",
 			"",
@@ -1819,9 +1821,7 @@
 			"When creating these clockworks, great care must be taken to waterproof their components. The creator must start with crafted clockwork pieces worth 10,000 gp.",
 			"",
 			"**CL** 12th; **Price** 130,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/freedom of movement}, {spell/geas//quest}, {spell/heat metal}, and {spell/limited wish}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 70,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/freedom of movement}, {spell/geas//quest}, {spell/heat metal}, and {spell/limited wish}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 70,000 gp"
 		]
 	},
 	"clockwork_leviathan": { "redirect": "clockwork_clockwork_leviathan" },
@@ -1839,7 +1839,9 @@
 			"",
 			"::moffense{sp=30 melee=\"4 slams +18 (1d4+3)\" specAtt=\"wand magic\"}",
 			"",
-			"::mstats{str=16 dex=21 con=\"-\" int=\"-\" wis=14 cha=1 bab=+15 cmb=+18 cmd=35 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, swift reactions, winding\"}",
+			"::mstats{str=16 dex=21 con=\"-\" int=\"-\" wis=14 cha=1 bab=+15 cmb=+18 cmd=35 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, swift reactions, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any land\" org=solitary treasure=none}",
 			"",
@@ -1868,9 +1870,7 @@
 			"The creator of a clockwork mage must start with crafted clockwork pieces worth 2,000 gp.",
 			"",
 			"**CL** 12th; **Price** 84,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, and {spell/mnemonic enhancer}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 43,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, and {spell/mnemonic enhancer}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 43,000 gp"
 		]
 	},
 	"clockwork_mage": { "redirect": "clockwork_clockwork_mage" },
@@ -1888,7 +1888,9 @@
 			"",
 			"::moffense{sp=10 sw=40 melee=\"bite +30 (2d6+10), 4 tentacles +25 (1d8+5 plus %%umr/grab%%)\" space=15 reach=15 constrict=\"1d8+5\" specAtt=\"tenacious grappler\"}",
 			"",
-			"::mstats{str=31 dex=20 con=\"-\" int=\"-\" wis=11 cha=1 bab=+22 cmb=\"+34 (+38 grapple)\" cmd=\"49 (can't be tripped)\" feats=\"Improved Initiative#B~Lightning Reflexes#B\" skills=\"Perception +8~Swim +18\" racial=\"+8 Perception\" sq=\"enhanced senses, swift reactions, winding\"}",
+			"::mstats{str=31 dex=20 con=\"-\" int=\"-\" wis=11 cha=1 bab=+22 cmb=\"+34 (+38 grapple)\" cmd=\"49 (can't be tripped)\" feats=\"Improved Initiative#B~Lightning Reflexes#B\" skills=\"Perception +8~Swim +18\" racial=\"+8 Perception\" sq=\"enhanced senses, swift reactions, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any water\" org=\"solitary or pair\" treasure=none}",
 			"",
@@ -1939,9 +1941,7 @@
 			"A clockwork nautiloid is difficult to create, as each component must be waterproof and able to withstand the crushing pressure of the deep ocean. The creator must start with crafted clockwork pieces worth 18,000 gp.",
 			"",
 			"**CL** 14th; **Price** 200,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/true seeing}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 25; **Cost** 109,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/true seeing}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 25; **Cost** 109,000 gp"
 		]
 	},
 	"clockwork_nautiloid": { "redirect": "clockwork_clockwork_nautiloid" },
@@ -1959,7 +1959,9 @@
 			"",
 			"::moffense{sp=30 cl=30 melee=\"lash +15 (1d4+5 plus %%umr/trip%%), slam +15 (1d6+5 plus push)\" space=5 reach=5 reachP=\"10 ft. with lash\" push=\"slam, 10 ft.\" specAtt=overclock}",
 			"",
-			"::mstats{str=19 dex=14 con=\"-\" int=\"-\" wis=13 cha=1 bab=+10 cmb=+15 cmd=29 feats=\"Improved Initiative#B~Lightning Reflexes#B\" skills=\"Climb +12\" sq=\"swift reactions, tactical calculus, winding\"}",
+			"::mstats{str=19 dex=14 con=\"-\" int=\"-\" wis=13 cha=1 bab=+10 cmb=+15 cmd=29 feats=\"Improved Initiative#B~Lightning Reflexes#B\" skills=\"Climb +12\" sq=\"swift reactions, tactical calculus, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any land\" org=\"solitary, crew (1 plus 2-5 %%monster/clockwork servant/s%%), or deployment (1-2 plus 2-5 %%monster/clockwork soldier/s%%)\" treasure=none}",
 			"",
@@ -2004,9 +2006,7 @@
 			"The creator of a clockwork overseer must start with crafted clockwork pieces worth 2,000 gp.",
 			"",
 			"**CL** 12th; **Price** 42,000 gp  ",
-			"**Requirements** Craft Construct, {spell/geas//quest} and *haste,* creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 22,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** Craft Construct, {spell/geas//quest} and *haste,* creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 22,000 gp"
 		]
 	},
 	"clockwork_overseer": { "redirect": "clockwork_clockwork_overseer" },
@@ -2028,7 +2028,9 @@
 			"",
 			"::mspell{title=Domain data=\"%%domain/Artifice%%\"}",
 			"",
-			"::mstats{str=17 dex=22 con=\"-\" int=\"-\" wis=18 cha=1 bab=+18 cmb=+21 cmd=39 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, swift reactions, winding\"}",
+			"::mstats{str=17 dex=22 con=\"-\" int=\"-\" wis=18 cha=1 bab=+18 cmb=+21 cmd=39 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, swift reactions, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, pair, or clergy (3-8)\" treasure=none}",
 			"",
@@ -2049,9 +2051,7 @@
 			"The creator of a clockwork priest must start with a diamond worth 5,000 gp as well as created clockwork pieces worth 5,000 gp.",
 			"",
 			"**CL** 12th; **Price** 95,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 12th and be able to {ability/channel energy}; **Skill** Craft (clockwork) DC 22; **Cost** 52,500 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 12th and be able to {ability/channel energy}; **Skill** Craft (clockwork) DC 22; **Cost** 52,500 gp"
 		]
 	},
 	"clockwork_priest": { "redirect": "clockwork_clockwork_priest" },
@@ -2069,7 +2069,9 @@
 			"",
 			"::moffense{sp=30 melee=\"slam +6 (1d4+6)\" ranged=\"net +4 (entangle)\"}",
 			"",
-			"::mstats{str=19 dex=14 con=\"-\" int=\"-\" wis=11 cha=1 bab=+2 cmb=+6 cmd=20 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"repair clockwork, swift reactions, winding\"}",
+			"::mstats{str=19 dex=14 con=\"-\" int=\"-\" wis=11 cha=1 bab=+2 cmb=+6 cmd=20 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"repair clockwork, swift reactions, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, team (2-4), or squadron (5-10)\" treasure=none}",
 			"",
@@ -2095,9 +2097,7 @@
 			"",
 			"**CL** 12th; **Price** 7,500 gp (13,500 for an intelligent servant)",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest} and {spell/make whole}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 4,000 gp (7,000 for an intelligent clockwork servant)",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest} and {spell/make whole}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 4,000 gp (7,000 for an intelligent clockwork servant)"
 		]
 	},
 	"clockwork_servant": { "redirect": "clockwork_clockwork_servant" },
@@ -2115,7 +2115,9 @@
 			"",
 			"::moffense{sp=30 cl=20 spExtra=\"improved charge, tracks\" melee=\"mwk dire flail +18/+13/+8 (1d8+7), mwk dire flail +18 (1d8+3)\" space=10 reach=5}",
 			"",
-			"::mstats{str=24 dex=17 con=\"-\" int=\"-\" wis=11 cha=1 bab=+13 cmb=+21 cmd=\"36 (can't be tripped)\" feats=\"Improved Initiative#B~Lightning Reflexes#B~Two-Weapon Fighting#B\" skills=\"Climb +23\" sq=\"swift reactions, %%umr/undersized weapons%%, winding\"}",
+			"::mstats{str=24 dex=17 con=\"-\" int=\"-\" wis=11 cha=1 bab=+13 cmb=+21 cmd=\"36 (can't be tripped)\" feats=\"Improved Initiative#B~Lightning Reflexes#B~Two-Weapon Fighting#B\" skills=\"Climb +23\" sq=\"swift reactions, %%umr/undersized weapons%%, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, squadron (2-4), or cavalry (5-10)\" treasure=\"incidental=mwk %%eq-weapon/dire flail%%, other treasure\"}",
 			"",
@@ -2138,9 +2140,7 @@
 			"The creator of a clockwork snail must start with crafted clockwork pieces worth 7,500 gp and 1,000 gp worth of refined eidite ore.",
 			"",
 			"**CL** 12th; **Price** 100,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/freedom of movement}, {spell/geas//quest}, and {spell/poison}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 50,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/freedom of movement}, {spell/geas//quest}, and {spell/poison}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 50,000 gp"
 		]
 	},
 	"clockwork_snail": { "redirect": "clockwork_clockwork_snail" },
@@ -2158,7 +2158,9 @@
 			"",
 			"::moffense{sp=30 melee=\"+1 halberd +18/+13 (1d10+14/&times&3)\" specAtt=latch}",
 			"",
-			"::mstats{str=28 dex=15 con=\"-\" int=\"-\" wis=11 cha=1 bab=+8 cmb=\"+17 (+19 disarm)\" cmd=\"31 (33 vs. disarm)\" feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"efficient winding, proficient, standby, swift reactions\"}",
+			"::mstats{str=28 dex=15 con=\"-\" int=\"-\" wis=11 cha=1 bab=+8 cmb=\"+17 (+19 disarm)\" cmd=\"31 (33 vs. disarm)\" feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"efficient winding, proficient, standby, swift reactions\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, pair, trio, troop (3-8), or company (9-12 plus 1-4 %%monster/clockwork servant/s%%)\" treasure=\"standard=+1 %%eq-weapon/halberd%%, other treasure\"}",
 			"",
@@ -2185,9 +2187,7 @@
 			"The creator must start with crafted clockwork pieces worth 1,000 gp; the cost of the soldier's weapon is not included in this price.",
 			"",
 			"**CL** 12th; **Price** 37,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest} and {spell/heroism}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 19,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest} and {spell/heroism}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 19,000 gp"
 		]
 	},
 	"clockwork_soldier": { "redirect": "clockwork_clockwork_soldier" },
@@ -2289,7 +2289,9 @@
 			"",
 			"::moffense{sp=50 melee=\"bite +14 (1d8+7), 2 hooves +9 (1d6+3)\" space=10 reach=5 trample=\"1d6+7, DC 21\" specAtt=\"powerful kick\"}",
 			"",
-			"::mstats{str=24 dex=13 con=\"-\" int=\"-\" wis=10 cha=1 bab=+8 cmb=+16 cmd=\"29 (33 vs. trip)\" feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, swift reactions, winding\"}",
+			"::mstats{str=24 dex=13 con=\"-\" int=\"-\" wis=10 cha=1 bab=+8 cmb=+16 cmd=\"29 (33 vs. trip)\" feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, swift reactions, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any land\" org=solitary treasure=none}",
 			"",
@@ -2315,9 +2317,7 @@
 			"",
 			"**CL** 12th; **Price** 29,000 gp (33,500 for a clockwork charger)",
 			"",
-			"**Requirements** {feat/Craft Construct}, {spell/bull's strength}, {spell/geas//quest}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 16,000 gp (18,750 for a clockwork charger)",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/bull's strength}, {spell/geas//quest}, creator must be at least caster level 12th; **Skill** Craft (clockwork) DC 20; **Cost** 16,000 gp (18,750 for a clockwork charger)"
 		]
 	},
 	"clockwork_steed": { "redirect": "clockwork_clockwork_steed" },
@@ -2335,7 +2335,9 @@
 			"",
 			"::moffense{sp=30 melee=\"2 claw +22 (2d6+9 plus %%umr/grab%%)\" specAtt=\"anesthetizing injection\"}",
 			"",
-			"::mstats{str=28 dex=15 con=\"-\" int=\"-\" wis=9 cha=1 bab=+13 cmb=\"+22 (+26 grapple)\" cmd=36 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, efficient winding, standby, swift reactions\"}",
+			"::mstats{str=28 dex=15 con=\"-\" int=\"-\" wis=9 cha=1 bab=+13 cmb=\"+22 (+26 grapple)\" cmd=36 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, efficient winding, standby, swift reactions\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=solitary treasure=none}",
 			"",
@@ -2376,9 +2378,7 @@
 			"Creating these clockworks requires precisely crafted gears and other refined mechanisms, plus various anesthetizing fluids, worth 8,500 gp. However, the process isn't a matter of simply building the mechanisms in the correct shape - some aspect of a clockwork vivisectionist's function remains incomprehensible and alien to beings on the Material Plane, so aspiring clockwork makers must consult with extraplanar powers using contact other plane. One theory suggests that constructing the clockwork near a gate to Leng, or, for the truly adventurous builder, on Leng itself, may increase the chance of successfully creating a functional clockwork vivisectionist.",
 			"",
 			"**CL** 10th; **Price** 80,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/contact other plane}, {spell/geas//quest}, {spell/limited wish}, creator must be at least caster level 10th; **Skill** Craft (clockwork) DC 20; **Cost** 44,250 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/contact other plane}, {spell/geas//quest}, {spell/limited wish}, creator must be at least caster level 10th; **Skill** Craft (clockwork) DC 20; **Cost** 44,250 gp"
 		]
 	},
 	"clockwork_vivisectionist": { "redirect": "clockwork_clockwork_vivisectionist" },
@@ -2396,7 +2396,9 @@
 			"",
 			"::moffense{sp=30 melee=\"slam +1 (1d3-2 plus burn)\" space=\"2-1/2\" reach=0 burn=\"1d6 fire, DC 10\"}",
 			"",
-			"::mstats{str=6 dex=14 con=\"-\" int=\"-\" wis=11 cha=1 bab=+1 cmb=+1 cmd=11 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, swift reflexes, winding\"}",
+			"::mstats{str=6 dex=14 con=\"-\" int=\"-\" wis=11 cha=1 bab=+1 cmb=+1 cmd=11 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, swift reflexes, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::sh[Description]",
 			"",
@@ -2423,9 +2425,7 @@
 			"",
 			"**Mechanical Marid:** A mechanical marid is quick but tends to be erratic. It loses the burn ability, but gains a swim speed of 30 feet and Swim skill of +6. Its base speed increases to 40 feet, and it gains a +2 bonus on attack and damage rolls against creatures in or touching water. Its construction requires haste in place of fireball.",
 			"",
-			"**Mechanical Shaitan:** A mechanical shaitan loses the burn ability, but gains an additional slam attack and a +4 bonus to Strength. Creation of a mechanical shaitan requires stone shape in place of fireball.",
-			"",
-			"[^B]: Bonus feat."
+			"**Mechanical Shaitan:** A mechanical shaitan loses the burn ability, but gains an additional slam attack and a +4 bonus to Strength. Creation of a mechanical shaitan requires stone shape in place of fireball."
 		]
 	},
 	"mechanical_efreeti": { "redirect": "clockwork_mechanical_efreeti" },
@@ -2443,7 +2443,9 @@
 			"",
 			"::moffense{sp=30 melee=\"2 slams +10 (1d6+4 plus disease)\" specAtt=disease}",
 			"",
-			"::mstats{str=18 dex=9 con=\"-\" int=\"-\" wis=11 cha=1 bab=+6 cmb=+10 cmd=21 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, discorporate, swift reactions, winding\"}",
+			"::mstats{str=18 dex=9 con=\"-\" int=\"-\" wis=11 cha=1 bab=+6 cmb=+10 cmd=21 feats=\"Improved Initiative#B~Lightning Reflexes#B\" sq=\"difficult to create, discorporate, swift reactions, winding\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -2462,9 +2464,7 @@
 			"A toy golem requires approximately 300 tiny clockwork components worth a total of 1,000 gp.",
 			"",
 			"**CL** 7th; **Price** 16,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/lesser geas}, {spell/false life}, {spell/minor creation}, creator must be at least caster level 7th; **Skill** Craft (clockwork) DC 17; **Cost** 8,500 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/lesser geas}, {spell/false life}, {spell/minor creation}, creator must be at least caster level 7th; **Skill** Craft (clockwork) DC 17; **Cost** 8,500 gp"
 		]
 	},
 	"toy_golem": { "redirect": "clockwork_toy_golem" }

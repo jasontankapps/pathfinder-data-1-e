@@ -835,7 +835,9 @@
 			"",
 			"::mspell{know cl=6 con=+12 l3=\"4/day~lightning bolt|DC 19\" l2=\"7/day~lesser restoration~scorching ray\" l1=\"8/day~color spray|DC 17~cure light wounds~disguise self~remove fear~sanctuary|DC 17\" l0=\"at will~arcane mark~create water~detect magic~guidance~mage hand~mending~stabilize\"}",
 			"",
-			"::mstats{str=20 dex=23 con=18 int=18 wis=21 cha=23 bab=+9 cmb=+15 cmd=\"31 (35 vs. trip)\" feats=\"Combat Casting~Eschew Materials#B~Flyby Attack~Hover~Iron Will~Weapon Focus=gore\" skills=\"Diplomacy +15~Fly +20~Knowledge (history) +13~Perception +17~Perform (sing) +15~Sense Motive +14\" lang=\"Abyssal, Auran, Celestial, Common, Draconic; %%umr/telepathy%% 100 ft.\"}",
+			"::mstats{str=20 dex=23 con=18 int=18 wis=21 cha=23 bab=+9 cmb=+15 cmd=\"31 (35 vs. trip)\" feats=\"Combat Casting~Eschew Materials#B~Flyby Attack~Hover~Iron Will~Weapon Focus=gore\" skills=\"Diplomacy +15~Fly +20~Knowledge (history) +13~Perception +17~Perform (sing) +15~Sense Motive +14\" lang=\"Abyssal, Auran, Celestial, Common, Draconic; %%umr/telepathy%% 100 ft.\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary or pair\" treasure=standard}",
 			"",
@@ -857,9 +859,7 @@
 			"- Breath Weapon: Damage increases by 1d6 for every 2 additional HD.",
 			"- Spellcasting: Increase sorcerer level (for the purpose of spells known and spells per day) by 1 per additional HD.",
 			"- Spell-Like Abilities: Increase caster level by +1 per additional HD.",
-			"- Spell Resistance: Increase by +1 per additional HD.",
-			"",
-			"[^B]: Bonus feat."
+			"- Spell Resistance: Increase by +1 per additional HD."
 		]
 	},
 	"kirrix": {

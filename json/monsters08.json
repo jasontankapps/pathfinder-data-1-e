@@ -1298,7 +1298,9 @@
 			"",
 			"::moffense{sp=40 melee=\"gore +11 (2d8+9)\" space=10 reach=5 powCh=\"gore, 4d8+9\" specAtt=\"reflexive strike\"}",
 			"",
-			"::mstats{str=22 dex=13 con=17 int=2 wis=12 cha=7 bab=+5 cmb=+12 cmd=\"23 (27 vs. trip)\" feats=\"Combat Reflexes#B~Great Fortitude~Iron Will~Power Attack~Weapon Focus=gore\" skills=\"Perception +11\"}",
+			"::mstats{str=22 dex=13 con=17 int=2 wis=12 cha=7 bab=+5 cmb=+12 cmd=\"23 (27 vs. trip)\" feats=\"Combat Reflexes#B~Great Fortitude~Iron Will~Power Attack~Weapon Focus=gore\" skills=\"Perception +11\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm plains\" org=\"solitary, pair, or herd (3-16)\" treasure=none}",
 			"",
@@ -1312,9 +1314,7 @@
 			"",
 			"A styracosaurus is 18 feet long and weighs nearly 3 tons.",
 			"",
-			"**Family:** {family/Dinosaur}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Dinosaur}"
 		]
 	},
 	"styracosaurus": { "redirect": "dinosaur_styracosaurus" },
@@ -2640,7 +2640,9 @@
 			"",
 			"::mspell{sla cl=15 con=+21 atWill=\"comprehend languages~deeper darkness~greater teleport|self plus 50 lbs. of objects only~nondetection~speak with dead|DC 19\" day=\"3~blindness/deafness|DC 18~fly~ice storm~invisibility~mirror image~scorching ray~touch of idiocy~true strike~~1~animate dead~baleful polymorph|DC 21~bestow curse|DC 20~break enchantment~create undead~disintegrate|DC 22~enervation~fireball|DC 19~hold monster|DC 21~!%%umr/summon%% (level 4; 1 ghawwas or 1 shira 40%)~true seeing\"}",
 			"",
-			"::mstats{str=25 dex=20 con=27 int=19 wis=19 cha=22 bab=+15 cmb=+23 cmd=38 feats=\"Cleave~Combat Reflexes~Deflect Arrows#B~Improved Critical=falchion~Improved Initiative~Iron Will~Lightning Reflexes~Power Attack~Weapon Focus=falchion\" skills=\"Bluff +24~Fly +15~Intimidate +24~Knowledge (arcana) +19~Knowledge (planes) +22~Knowledge (religion) +15~Perception +22~Sense Motive +20~Spellcraft +22~Stealth +19~Use Magic Device +24\" lang=\"Abyssal, Celestial, Common, Draconic, Infernal; %%umr/telepathy%% 100 ft.\" sq=\"deflect rays\"}",
+			"::mstats{str=25 dex=20 con=27 int=19 wis=19 cha=22 bab=+15 cmb=+23 cmd=38 feats=\"Cleave~Combat Reflexes~Deflect Arrows#B~Improved Critical=falchion~Improved Initiative~Iron Will~Lightning Reflexes~Power Attack~Weapon Focus=falchion\" skills=\"Bluff +24~Fly +15~Intimidate +24~Knowledge (arcana) +19~Knowledge (planes) +22~Knowledge (religion) +15~Perception +22~Sense Motive +20~Spellcraft +22~Stealth +19~Use Magic Device +24\" lang=\"Abyssal, Celestial, Common, Draconic, Infernal; %%umr/telepathy%% 100 ft.\" sq=\"deflect rays\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Abaddon%%)\" org=solitary treasure=\"standard=+1 %%eq-weapon/falchion%%, other treasure\"}",
 			"",
@@ -2658,9 +2660,7 @@
 			"",
 			"Sepids stand 13 feet tall and weigh upward of 1,500 pounds.",
 			"",
-			"**Family:** {family/Div}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Div}"
 		]
 	},
 	"sepid": { "redirect": "div_sepid" },

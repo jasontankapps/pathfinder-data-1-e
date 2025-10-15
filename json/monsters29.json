@@ -1097,7 +1097,9 @@
 			"",
 			"::mspell{sla cl=5 con=+7 atWill=\"alter winds|DC 13\" day=\"3~gust of wind|DC 14~river of wind|DC 16~~1~control winds|DC 17~!%%umr/summon%% (level 3; 1 hala 40%)\"}",
 			"",
-			"::mstats{str=16 dex=19 con=14 int=12 wis=11 cha=15 bab=+5 cmb=+8 cmd=22 feats=\"Flyby Attack~Hover~Weapon Finesse#B~Wingover\" skills=\"Acrobatics +12~Escape Artist +12~Fly +20~Intimidate +10~Knowledge (planes) +9~Perception +8~Stealth +12\" lang=\"Abyssal, Celestial, Draconic, %%umr/telepathy%% 100 ft.\"}",
+			"::mstats{str=16 dex=19 con=14 int=12 wis=11 cha=15 bab=+5 cmb=+8 cmd=22 feats=\"Flyby Attack~Hover~Weapon Finesse#B~Wingover\" skills=\"Acrobatics +12~Escape Artist +12~Fly +20~Intimidate +10~Knowledge (planes) +9~Perception +8~Stealth +12\" lang=\"Abyssal, Celestial, Draconic, %%umr/telepathy%% 100 ft.\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/the Abyss%%)\" org=solitary treasure=standard}",
 			"",
@@ -1131,9 +1133,7 @@
 			"",
 			"Pazuzu values his hala minions not only for the intelligence they gather on the activities of his enemies in the Abyss, but also for the chaos and destruction they bring on the winds. He is especially fond of sending halas to the Material Plane to ravage the countryside with storms and hail. As in the Abyss, halas on the Material Plane prefer to reside in remote areas. The lair of a hala is often located in a hidden cave in an isolated mountain range, or in the hollow of a giant, ancient tree deep in a forest or swamp.",
 			"",
-			"While hala demons have a general dislike for or distrust of nearly all creatures, they have an especially strong fear and hatred of two creatures: eagles and dragons. Eagles have an innate response to attack and drive a hala from the skies, possibly due to the threat the hala represents to the eagle's territory and offspring. Dragons - of any breed - largely view the storm demons as a danger to their own hoards of treasure, for if a hala discovers the dragon's lair, it will stop at nothing to possess all that lies within it.",
-			"",
-			"[^B]: Bonus feat."
+			"While hala demons have a general dislike for or distrust of nearly all creatures, they have an especially strong fear and hatred of two creatures: eagles and dragons. Eagles have an innate response to attack and drive a hala from the skies, possibly due to the threat the hala represents to the eagle's territory and offspring. Dragons - of any breed - largely view the storm demons as a danger to their own hoards of treasure, for if a hala discovers the dragon's lair, it will stop at nothing to possess all that lies within it."
 		]
 	},
 	"hala": { "redirect": "demon_hala" },

@@ -460,13 +460,13 @@
 			"",
 			"::moffense{sp=30 spP=\"40 ft. base\" melee=\"greatclub +7 (2d8+7) or 2 claws +7 (1d6+5)\" space=10 reach=10}",
 			"",
-			"::mstats{str=21 dex=10 con=\"-\" int=\"-\" wis=10 cha=10 bab=+3 cmb=+9 cmd=19 feats=\"Improved Initiative#B\" gear=\"%%eq-armor/half-plate%%, %%eq-weapon/greatclub%%\"}",
+			"::mstats{str=21 dex=10 con=\"-\" int=\"-\" wis=10 cha=10 bab=+3 cmb=+9 cmd=19 feats=\"Improved Initiative#B\" gear=\"%%eq-armor/half-plate%%, %%eq-weapon/greatclub%%\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::sh[Description]",
 			"",
-			"Armored skeletons are normal skeletons given heavier varieties of armor and weapons to serve as elite troops in undead armies.",
-			"",
-			"[^B]: Bonus feat."
+			"Armored skeletons are normal skeletons given heavier varieties of armor and weapons to serve as elite troops in undead armies."
 		]
 	},
 	"armored_ogre_skeleton": { "redirect": "skeleton_armored_ogre_skeleton" },
@@ -485,13 +485,13 @@
 			"",
 			"::moffense{sp=30 melee=\"short sword +1 (1d6+2/19-20), 3 short swords +1 (1d6+1/19-20) or 4 claws +3 (1d4+2)\"}",
 			"",
-			"::mstats{str=15 dex=16 con=\"-\" int=\"-\" wis=10 cha=10 bab=+0 cmb=+2 cmd=15 feats=\"Improved Initiative#B~Multiweapon Fighting#B~Weapon Finesse#B\" gear=\"4 %%eq-weapon/short sword/s%%\"}",
+			"::mstats{str=15 dex=16 con=\"-\" int=\"-\" wis=10 cha=10 bab=+0 cmb=+2 cmd=15 feats=\"Improved Initiative#B~Multiweapon Fighting#B~Weapon Finesse#B\" gear=\"4 %%eq-weapon/short sword/s%%\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::sh[Description]",
 			"",
-			"Sometimes called \"whirlwind skeletons,\" a mudra skeleton's Dexterity increases by +4 (instead of +2), and it gains Multiweapon Fighting and Weapon Finesse as bonus feats.",
-			"",
-			"[^B]: Bonus feat."
+			"Sometimes called \"whirlwind skeletons,\" a mudra skeleton's Dexterity increases by +4 (instead of +2), and it gains Multiweapon Fighting and Weapon Finesse as bonus feats."
 		]
 	},
 	"four_armed_mudra_skeleton": { "redirect": "skeleton_four_armed_mudra_skeleton" },
@@ -508,7 +508,9 @@
 			"",
 			"::moffense{sp=40 melee=\"bite +20 (4d6+22)\" space=20 reach=20}",
 			"",
-			"::mstats{str=32 dex=15 con=\"-\" int=\"-\" wis=10 cha=10 bab=+13 cmb=+28 cmd=40 feats=\"Improved Initiative#B\" sq=\"multiplication, powerful bite\"}",
+			"::mstats{str=32 dex=15 con=\"-\" int=\"-\" wis=10 cha=10 bab=+13 cmb=+28 cmd=40 feats=\"Improved Initiative#B\" sq=\"multiplication, powerful bite\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -518,9 +520,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"A multiplying skeleton reassembles itself into smaller skeletons when it is destroyed. As these smaller skeletons are themselves destroyed, they continue to multiply into even more skeletons. Once the skeleton's Hit Dice can no longer be halved or the resulting skeletons would be Tiny or smaller, the skeletons are finally destroyed. Multiplying skeletons can be created using animate dead, but they count as twice their normal number of Hit Dice per casting.",
-			"",
-			"[^B]: Bonus feat."
+			"A multiplying skeleton reassembles itself into smaller skeletons when it is destroyed. As these smaller skeletons are themselves destroyed, they continue to multiply into even more skeletons. Once the skeleton's Hit Dice can no longer be halved or the resulting skeletons would be Tiny or smaller, the skeletons are finally destroyed. Multiplying skeletons can be created using animate dead, but they count as twice their normal number of Hit Dice per casting."
 		]
 	},
 	"multiplying_t_rex_skeleton": { "redirect": "skeleton_multiplying_t_rex_skeleton" },
@@ -544,15 +544,15 @@
 			"",
 			"::mspell{title=\"Opposition Schools\" data=\"Enchantment, Illusion\"}",
 			"",
-			"::mstats{str=12 dex=15 con=\"-\" int=16 wis=12 cha=15 bab=+2 cmb=+3 cmd=15 feats=\"Combat Casting~Command Undead~Improved Initiative#B~Scribe Scroll~Silent Spell#B~Spell Focus=necromancy~Toughness~Weapon Finesse\" skills=\"Intimidate +8~Knowledge (arcana) +11~Knowledge (religion) +11~Perception +8~Sense Motive +9~Spellcraft +11~Stealth +10\" lang=\"Abyssal, Common, Draconic, Undercommon\" sq=\"arcane bond (skull)\"}",
+			"::mstats{str=12 dex=15 con=\"-\" int=16 wis=12 cha=15 bab=+2 cmb=+3 cmd=15 feats=\"Combat Casting~Command Undead~Improved Initiative#B~Scribe Scroll~Silent Spell#B~Spell Focus=necromancy~Toughness~Weapon Finesse\" skills=\"Intimidate +8~Knowledge (arcana) +11~Knowledge (religion) +11~Perception +8~Sense Motive +9~Spellcraft +11~Stealth +10\" lang=\"Abyssal, Common, Draconic, Undercommon\" sq=\"arcane bond (skull)\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary or pair\" treasure=\"npc=masterwork %%eq-weapon/dagger%%, %%magic-wondrous/cloak of resistance +1%%, skull, %%eq-misc/spell component pouch%%, %%eq-misc/spellbook%%, 348 gp\"}",
 			"",
 			"::sh[Description]",
 			"",
-			"Skeletal mages are minor spellcasters (typically 5th-level or less) who have retained both their intelligence and their spellcasting abilities. These variant {template/skeletal champion/s} gain Silent Spell as a bonus feat. Like skeletal champions, skeletal mages cannot be created with animate dead - they only arise under rare conditions or through ancient, esoteric rituals.",
-			"",
-			"[^B]: Bonus feat."
+			"Skeletal mages are minor spellcasters (typically 5th-level or less) who have retained both their intelligence and their spellcasting abilities. These variant {template/skeletal champion/s} gain Silent Spell as a bonus feat. Like skeletal champions, skeletal mages cannot be created with animate dead - they only arise under rare conditions or through ancient, esoteric rituals."
 		]
 	},
 	"skeletal_mage": { "redirect": "skeleton_skeletal_mage" },
@@ -568,13 +568,13 @@
 			"",
 			"::moffense{sp=50 melee=\"bite +5 (1d4+5), 2 hooves +0 (1d6+2)\" space=10 reach=5}",
 			"",
-			"::mstats{str=20 dex=20 con=\"-\" int=\"-\" wis=10 cha=10 bab=+1 cmb=+7 cmd=\"22 (26 vs. trip)\" feats=\"Improved Initiative#B\" gear=\"broken %%eq-armor/chain shirt%% %%eq-armor/barding%%\"}",
+			"::mstats{str=20 dex=20 con=\"-\" int=\"-\" wis=10 cha=10 bab=+1 cmb=+7 cmd=\"22 (26 vs. trip)\" feats=\"Improved Initiative#B\" gear=\"broken %%eq-armor/chain shirt%% %%eq-armor/barding%%\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::sh[Description]",
 			"",
-			"Skeletal mounts are normal skeletons made from combat-trained heavy horses. They often serve as mounts for necromancers or skeletal champions.",
-			"",
-			"[^B]: Bonus feat."
+			"Skeletal mounts are normal skeletons made from combat-trained heavy horses. They often serve as mounts for necromancers or skeletal champions."
 		]
 	},
 	"skeletal_mount": { "redirect": "skeleton_skeletal_mount" },
@@ -1434,7 +1434,9 @@
 			"",
 			"::moffense{sp=20 cl=20 sw=20 melee=\"bite +4 (1d4 plus poison)\" specAtt=poison}",
 			"",
-			"::mstats{str=10 dex=15 con=14 int=1 wis=15 cha=2 bab=+2 cmb=+2 cmd=\"14 (can't be tripped)\" feats=\"Improved Initiative~Skill Focus=Stealth~Weapon Finesse#B\" skills=\"Acrobatics +10~Climb +10~Perception +10~Stealth +14~Swim +10\" racial=\"+8 Acrobatics, +4 Perception, +4 Stealth\"}",
+			"::mstats{str=10 dex=15 con=14 int=1 wis=15 cha=2 bab=+2 cmb=+2 cmd=\"14 (can't be tripped)\" feats=\"Improved Initiative~Skill Focus=Stealth~Weapon Finesse#B\" skills=\"Acrobatics +10~Climb +10~Perception +10~Stealth +14~Swim +10\" racial=\"+8 Acrobatics, +4 Perception, +4 Stealth\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm deserts\" org=\"solitary, pair, or nest (3-8)\" treasure=none}",
 			"",
@@ -1446,9 +1448,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"An asp is a type of cobra native to Osirion and northern Garund. It ranges from 4 to 6 feet in length and has brownish scales with dark mottling.",
-			"",
-			"[^B]: Bonus feat."
+			"An asp is a type of cobra native to Osirion and northern Garund. It ranges from 4 to 6 feet in length and has brownish scales with dark mottling."
 		]
 	},
 	"asp": { "redirect": "snake_asp" },
@@ -1547,7 +1547,9 @@
 			"",
 			"::moffense{sp=20 cl=20 sw=20 melee=\"bite +2 (1d4-1 plus poison)\"}",
 			"",
-			"::mstats{str=8 dex=13 con=14 int=1 wis=13 cha=2 bab=+1 cmb=+0 cmd=\"11 (can't be tripped)\" feats=\"Improved Initiative~Weapon Finesse#B\" skills=\"Acrobatics +9~Climb +9~Perception +9~Stealth +9~Swim +9\" racial=\"+4 Perception, +4 Stealth, +8 Acrobatics\"}",
+			"::mstats{str=8 dex=13 con=14 int=1 wis=13 cha=2 bab=+1 cmb=+0 cmd=\"11 (can't be tripped)\" feats=\"Improved Initiative~Weapon Finesse#B\" skills=\"Acrobatics +9~Climb +9~Perception +9~Stealth +9~Swim +9\" racial=\"+4 Perception, +4 Stealth, +8 Acrobatics\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any temperate or warm\" org=\"solitary, pair, or nest (3-8)\" treasure=none}",
 			"",
@@ -1561,9 +1563,7 @@
 			"",
 			"Countless species of poisonous snakes dwell in the wild, their bites capable of bringing down creatures much larger than themselves. Snakes of the size presented here are thankfully rarer than their smaller kin, but many species of rattlesnake, cobra, and similar reptiles can grow to this size.",
 			"",
-			"Venomous snakes are generally far more aggressive than constrictor snakes, and even larger variants do exist: you can create stats for a king cobra, for example, by applying the advanced and giant simple templates to the stats given above.",
-			"",
-			"[^B]: Bonus feat."
+			"Venomous snakes are generally far more aggressive than constrictor snakes, and even larger variants do exist: you can create stats for a king cobra, for example, by applying the advanced and giant simple templates to the stats given above."
 		]
 	},
 	"snake_venomous": { "redirect": "snake_venomous_snake" },

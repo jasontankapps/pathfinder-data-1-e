@@ -1813,7 +1813,9 @@
 			"",
 			"::mspell{sla cl=10 con=+12 constant=\"pass without trace\" atWill=\"major image|DC 15~passwall~shatter|DC 14~stone shape\" day=\"3~deeper darkness~dimensional anchor~flesh to stone|DC 18~!quickened %%spell/produce flame%%~wall of fire~wall of stone\"}",
 			"",
-			"::mstats{str=24 dex=14 con=25 int=15 wis=12 cha=15 bab=+11 cmb=+19 cmd=31 feats=\"Combat Reflexes~Greater Sunder#B~Improved Initiative~Improved Iron Will~Improved Sunder#B~Iron Will~Quicken Spell-Like Ability=produce flame~Vital Strike\" skills=\"Acrobatics +16 (+12 when jumping)~Climb +21~Craft (traps) +16~Disable Device +16~Knowledge (dungeoneering) +16~Perception +15~Sense Motive +15~Stealth +12\" lang=\"Common, Dwarven, Infernal, Terran\"}",
+			"::mstats{str=24 dex=14 con=25 int=15 wis=12 cha=15 bab=+11 cmb=+19 cmd=31 feats=\"Combat Reflexes~Greater Sunder#B~Improved Initiative~Improved Iron Will~Improved Sunder#B~Iron Will~Quicken Spell-Like Ability=produce flame~Vital Strike\" skills=\"Acrobatics +16 (+12 when jumping)~Climb +21~Craft (traps) +16~Disable Device +16~Knowledge (dungeoneering) +16~Perception +15~Sense Motive +15~Stealth +12\" lang=\"Common, Dwarven, Infernal, Terran\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any underground (%%rule/Plane of Earth%%)\" org=\"solitary or team (2-6)\" treasure=standard}",
 			"",
@@ -1829,9 +1831,7 @@
 			"",
 			"Scanderigs, more commonly known as \"forgefiends,\" look like large, heavily armored, barrel-shaped giants, with enormous mouths in their bellies in addition to the normal-sized ones in their heads. They are native to the Plane of Earth, but sometimes make their way through subterranean portals onto the Material Plane, where they gorge themselves on rich and relatively uncontested mineral veins. A forgefiend might live quite happily inside a mountain's heart for centuries, only causing trouble when the ore runs out or interlopers attempt to mine its territory.",
 			"",
-			"Forgefiends are particularly feared in many dwarven societies. In addition to their penchant for destroying deep forges, they are often portrayed as boogeyman-like figures for frightening dwarven children and instilling good smithing habits-for it is said, \"For every scrap of slag you waste, a scanderig is making haste. Those who use excessive ore find forgefiends scratching at their door!\"",
-			"",
-			"[^B]: Bonus feat."
+			"Forgefiends are particularly feared in many dwarven societies. In addition to their penchant for destroying deep forges, they are often portrayed as boogeyman-like figures for frightening dwarven children and instilling good smithing habits-for it is said, \"For every scrap of slag you waste, a scanderig is making haste. Those who use excessive ore find forgefiends scratching at their door!\""
 		]
 	},
 	"forgefiend": { "redirect": "forgefiend_scanderig" },

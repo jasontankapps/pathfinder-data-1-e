@@ -158,7 +158,9 @@
 			"",
 			"::moffense{sp=40 melee=\"bite +2 (1d6+1)\"}",
 			"",
-			"::mstats{str=13 dex=10 con=17 int=2 wis=13 cha=12 bab=+1 cmb=+2 cmd=\"12 (16 vs. bull rush, 20 vs. trip)\" feats=\"Endurance~Nimble Moves#B\" skills=\"Perception +5~Survival +2 (+6 when tracking by scent)\" racial=\"+4 Survival when tracking by scent\" sq=sure-footed}",
+			"::mstats{str=13 dex=10 con=17 int=2 wis=13 cha=12 bab=+1 cmb=+2 cmd=\"12 (16 vs. bull rush, 20 vs. trip)\" feats=\"Endurance~Nimble Moves#B\" skills=\"Perception +5~Survival +2 (+6 when tracking by scent)\" racial=\"+4 Survival when tracking by scent\" sq=sure-footed next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate forests, hills, or plains (First World)\" org=\"solitary, pair, or wiggle (3-12)\" treasure=none}",
 			"",
@@ -174,9 +176,7 @@
 			"",
 			"Faerie mounts grow up to 5 feet long and 3 feet tall, and weigh around 120 pounds.",
 			"",
-			"Tales of the animals' legendary bravery and loyalty inspired Taldan dog breeders to create a breed of similar proportions. These canines make excellent herding dogs, and are found in the central highlands of Taldor, Isger, and Molthune. To reflect the Taldan corgi, use the statistics for a Small dog, remove its racial Acrobatics bonus to jump, and add the faerie mount's stability special ability.",
-			"",
-			"[^B]: Bonus feat."
+			"Tales of the animals' legendary bravery and loyalty inspired Taldan dog breeders to create a breed of similar proportions. These canines make excellent herding dogs, and are found in the central highlands of Taldor, Isger, and Molthune. To reflect the Taldan corgi, use the statistics for a Small dog, remove its racial Acrobatics bonus to jump, and add the faerie mount's stability special ability."
 		]
 	},
 	"fallen": {
@@ -382,7 +382,9 @@
 			"",
 			"::moffense{sp=20 sw=30 jet=60 melee=\"bite +7 (1d2-1 plus poison), tentacles +5 (%%umr/grab%%)\" space=\"2-1/2\" reach=0 specAtt=poison}",
 			"",
-			"::mstats{str=8 dex=21 con=10 int=2 wis=13 cha=3 bab=+0 cmb=\"+3 (+7 grapple)\" cmd=\"12 (can't be tripped)\" feats=\"Multiattack#B~Weapon Finesse\" skills=\"Escape Artist +15~Stealth +25~Swim +13\" racial=\"+10 Escape Artist, +8 Stealth\"}",
+			"::mstats{str=8 dex=21 con=10 int=2 wis=13 cha=3 bab=+0 cmb=\"+3 (+7 grapple)\" cmd=\"12 (can't be tripped)\" feats=\"Multiattack#B~Weapon Finesse\" skills=\"Escape Artist +15~Stealth +25~Swim +13\" racial=\"+10 Escape Artist, +8 Stealth\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate or cold aquatic\" org=solitary treasure=none}",
 			"",
@@ -400,9 +402,7 @@
 			"",
 			"Blue-ringed octopuses are aquatic animals capable of a surprising amount of cunning. They cannot survive out of water.",
 			"",
-			"**Family:** {family/Familiar}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"blue_ringed_octopus": { "redirect": "familiar_blue_ringed_octopus" },
@@ -773,7 +773,9 @@
 			"",
 			"::moffense{sp=20 fl=40 clumsy melee=\"bite +4 (1d3-4)\" space=\"2-1/2\" reach=0}",
 			"",
-			"::mstats{str=3 dex=15 con=8 int=1 wis=12 cha=6 bab=+0 cmb=+0 cmd=\"6 (10 vs. trip)\" feats=\"Acrobatic#B~Weapon Finesse\" skills=\"Acrobatics +16 (+12 when jumping)~Climb +10~Fly +4\" racial=\"+12 Acrobatics, +8 Climb\" sq=glide}",
+			"::mstats{str=3 dex=15 con=8 int=1 wis=12 cha=6 bab=+0 cmb=+0 cmd=\"6 (10 vs. trip)\" feats=\"Acrobatic#B~Weapon Finesse\" skills=\"Acrobatics +16 (+12 when jumping)~Climb +10~Fly +4\" racial=\"+12 Acrobatics, +8 Climb\" sq=glide next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate forests\" org=\"solitary or pair\" treasure=none}",
 			"",
@@ -785,9 +787,7 @@
 			"",
 			"Although not capable of actual flight, a flying squirrel possesses a furry membrane stretching between its wrists and ankles, allowing it to glide for long distances.",
 			"",
-			"**Family:** {family/Familiar}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"flying_squirrel": { "redirect": "familiar_flying_squirrel" },
@@ -2236,7 +2236,9 @@
 			"",
 			"::moffense{sp=15 cl=15 melee=\"vine +3 (1d2-4)\" space=\"2-1/2\" reach=0}",
 			"",
-			"::mstats{str=3 dex=12 con=10 int=\"-\" wis=13 cha=5 bab=+0 cmb=-1 cmd=5 feats=\"Weapon Finesse#B\" skills=\"Climb +4\" sq=\"seal wound\"}",
+			"::mstats{str=3 dex=12 con=10 int=\"-\" wis=13 cha=5 bab=+0 cmb=-1 cmd=5 feats=\"Weapon Finesse#B\" skills=\"Climb +4\" sq=\"seal wound\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate forests\" org=\"solitary, pair, or clinic (3-5)\" treasure=none}",
 			"",
@@ -2252,9 +2254,7 @@
 			"",
 			"Suture vines are thorny, symbiotic organisms that snag rides on wounded animals, seek out open wounds, and knit those injuries closed-all while absorbing fairly harmless amounts of blood. Local animals often recognize suture vines, both avoiding them as food and seeking them out when wounded. A suture vine that goes without feeding for a week or more sometimes resorts to ambushing small prey.",
 			"",
-			"**Family:** {family/Familiar}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"suture_vine": { "redirect": "familiar_suture_vine" },
@@ -2350,7 +2350,9 @@
 			"",
 			"::moffense{sp=20 sw=30 melee=\"bite +4 (1d3-2)\" space=\"2-1/2\" reach=0}",
 			"",
-			"::mstats{str=7 dex=15 con=12 int=\"-\" wis=11 cha=2 bab=+0 cmb=+0 cmd=8 feats=\"Weapon Finesse#B\" skills=\"Perception +4~Swim +10\" racial=\"+4 Perception\" sq=\"curl, water dependency\"}",
+			"::mstats{str=7 dex=15 con=12 int=\"-\" wis=11 cha=2 bab=+0 cmb=+0 cmd=8 feats=\"Weapon Finesse#B\" skills=\"Perception +4~Swim +10\" racial=\"+4 Perception\" sq=\"curl, water dependency\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any oceans\" org=\"solitary, pair, group (2-12)\" treasure=none}",
 			"",
@@ -2362,9 +2364,7 @@
 			"",
 			"Ancient arthropods adapted to scavenging the ocean floor, trilobites have both resilient exteriors and keen senses honed for use in the lightless depths of the sea, and are known for curling into balls to protect themselves.",
 			"",
-			"**Family:** {family/Familiar}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Familiar}"
 		]
 	},
 	"trilobite": { "redirect": "familiar_trilobite" },
@@ -3129,7 +3129,9 @@
 			"",
 			"::moffense{sp=50 melee=\"bite +4 (1d8+3), 2 hooves -1 (1d6+1)\" space=10 reach=5}",
 			"",
-			"::mstats{str=17 dex=14 con=17 int=2 wis=13 cha=10 bab=+2 cmb=+6 cmd=\"18 (22 vs. trip)\" feats=\"Intimidating Prowess~Run#B~Skill Focus=Stealth\" skills=\"Intimidate +4~Perception +5~Stealth +5\" sq=\"docile, smoke resistance\"}",
+			"::mstats{str=17 dex=14 con=17 int=2 wis=13 cha=10 bab=+2 cmb=+6 cmd=\"18 (22 vs. trip)\" feats=\"Intimidating Prowess~Run#B~Skill Focus=Stealth\" skills=\"Intimidate +4~Perception +5~Stealth +5\" sq=\"docile, smoke resistance\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate or warm plains\" org=solitary treasure=none}",
 			"",
@@ -3149,9 +3151,7 @@
 			"",
 			"Stygian hot-blooded horses stand 5 feet tall at the shoulder and weigh approximately 1,000 pounds.",
 			"",
-			"**Family:** {family/Fiend Bred Animal}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Fiend Bred Animal}"
 		]
 	},
 	"stygian_hot_blooded_horse": { "redirect": "fiend_bred_animal_stygian_hot_blooded_horse" },
@@ -3468,7 +3468,9 @@
 			"",
 			"::moffense{sp=30 melee=\"bite +4 (1d8+3 plus blood drain and disease)\" space=10 reach=10 bDrain=\"1d2 Con\" specAtt=disease}",
 			"",
-			"::mstats{str=13 dex=17 con=13 int=\"-\" wis=11 cha=6 bab=+3 cmb=+6 cmd=19 feats=\"Dodge#B\" skills=\"Acrobatics +0 (+20 when jumping)\" racial=\"+20 Acrobatics when jumping\" sq=\"uncanny leap (see %%monster/giant flea%%)\"}",
+			"::mstats{str=13 dex=17 con=13 int=\"-\" wis=11 cha=6 bab=+3 cmb=+6 cmd=19 feats=\"Dodge#B\" skills=\"Acrobatics +0 (+20 when jumping)\" racial=\"+20 Acrobatics when jumping\" sq=\"uncanny leap (see %%monster/giant flea%%)\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"temperate forests, hills, mountains, or plains\" org=\"solitary, pair, or cluster (3-8)\" treasure=none}",
 			"",
@@ -3480,9 +3482,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Mammoth fleas are fierce predators. They require vast amounts of blood to survive, though once full, they can survive for months before needing to feed again. For this reason, they seek larger prey like cows and horses, and plague agrarian communities that raise herd animals. A mammoth flea's bite is excruciatingly painful, and leaves behind a raised, ring-shaped scar.",
-			"",
-			"[^B]: Bonus feat."
+			"Mammoth fleas are fierce predators. They require vast amounts of blood to survive, though once full, they can survive for months before needing to feed again. For this reason, they seek larger prey like cows and horses, and plague agrarian communities that raise herd animals. A mammoth flea's bite is excruciatingly painful, and leaves behind a raised, ring-shaped scar."
 		]
 	},
 	"flea_mammoth": { "redirect": "flea_mammoth_flea" },

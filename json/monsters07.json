@@ -988,7 +988,9 @@
 			"",
 			"::mspell{sla cl=12 constant=\"true seeing\" atWill=\"fear|single target, DC 19~greater teleport|self plus 50 lbs. of objects only~minor image|DC 17~unholy blight|DC 19\" day=\"1~!%%umr/summon%% (level 3; 2 bearded devils; 50%)\"}",
 			"",
-			"::mstats{str=20 dex=23 con=21 int=14 wis=18 cha=21 bab=+9 cmb=+14 cmd=31 feats=\"Combat Reflexes~Dodge#B~Mobility#B~Point-Blank Shot~Precise Shot~Rapid Shot~Shot on the Run\" skills=\"Acrobatics +18~Bluff +17~Diplomacy +14~Escape Artist +12~Fly +19~Intimidate +17~Knowledge (planes) +8~Knowledge (religion) +8~Perception +16~Sense Motive +10~Stealth +15\" lang=\"Celestial, Common, Draconic, Infernal; %%umr/telepathy%% 100 ft.\"}",
+			"::mstats{str=20 dex=23 con=21 int=14 wis=18 cha=21 bab=+9 cmb=+14 cmd=31 feats=\"Combat Reflexes~Dodge#B~Mobility#B~Point-Blank Shot~Precise Shot~Rapid Shot~Shot on the Run\" skills=\"Acrobatics +18~Bluff +17~Diplomacy +14~Escape Artist +12~Fly +19~Intimidate +17~Knowledge (planes) +8~Knowledge (religion) +8~Perception +16~Sense Motive +10~Stealth +15\" lang=\"Celestial, Common, Draconic, Infernal; %%umr/telepathy%% 100 ft.\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Hell%%)\" org=\"solitary or trio\" treasure=\"triple=+1 %%eq-weapon/longsword%%, +1 %%magic-enh/flaming%% %%eq-weapon/composite longbow%% &#91&+5 Str bonus&#93&, rope\"}",
 			"",
@@ -1004,9 +1006,7 @@
 			"",
 			"Most erinyes stand just under 6 feet tall and weigh approximately 140 pounds, even with their black-feathered wings that stretch over 10 feet wide.",
 			"",
-			"**Family:** {family/Devil}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Devil}"
 		]
 	},
 	"erinyes": { "redirect": "devil_erinyes" },

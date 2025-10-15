@@ -338,7 +338,9 @@
 			"",
 			"::mspell{sla cl=12 con=+16 atWill=\"bleed|DC 14~blood biography|DC 16~bloodhound~pain strike|DC 19\" day=\"3~charm person|DC 15~modify memory|DC 18~rage|DC 17\"}",
 			"",
-			"::mstats{str=16 dex=19 con=\"-\" int=17 wis=14 cha=18 bab=+9 cmb=+12 cmd=26 feats=\"Ability Focus=pain strike~Dazzling Display~Deceitful#B~Improved Initiative~Persuasive#B~Shatter Defenses~Weapon Focus=dagger, slam\" skills=\"Bluff +18~Craft (alchemy) +13~Diplomacy +18~Disguise +14 (+24 when appearing to be alive)~Intimidate +21~Knowledge (arcana, nobility) +11~Perception +15~Sense Motive +15~Stealth +13\" lang=\"Common, Elven, Infernal, Jistka\" sq=\"blood well, bloody bath\"}",
+			"::mstats{str=16 dex=19 con=\"-\" int=17 wis=14 cha=18 bab=+9 cmb=+12 cmd=26 feats=\"Ability Focus=pain strike~Dazzling Display~Deceitful#B~Improved Initiative~Persuasive#B~Shatter Defenses~Weapon Focus=dagger, slam\" skills=\"Bluff +18~Craft (alchemy) +13~Diplomacy +18~Disguise +14 (+24 when appearing to be alive)~Intimidate +21~Knowledge (arcana, nobility) +11~Perception +15~Sense Motive +15~Stealth +13\" lang=\"Common, Elven, Infernal, Jistka\" sq=\"blood well, bloody bath\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any urban\" org=\"solitary or cabal (2-6)\" treasure=\"double=%%eq-armor/padded armor%%, %%eq-weapon/dagger%%, other treasure\"}",
 			"",
@@ -354,9 +356,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Baetriovs are unique occult vampires who use ancient vile rituals to store their life force in a pool of blood, which must be periodically refreshed by human sacrifice. So long as their blood wells remain fresh and intact, baetriovs can remain forever young and handsome, gathering cults of personality to provide new victims.",
-			"",
-			"[^B]: Bonus feat."
+			"Baetriovs are unique occult vampires who use ancient vile rituals to store their life force in a pool of blood, which must be periodically refreshed by human sacrifice. So long as their blood wells remain fresh and intact, baetriovs can remain forever young and handsome, gathering cults of personality to provide new victims."
 		]
 	},
 	"bagiennik": {
@@ -1756,7 +1756,9 @@
 			"",
 			"::moffense{fl=40 perfect melee=\"bite +6 (1d4+2 plus petrifying bite)\"}",
 			"",
-			"::mstats{str=14 dex=12 con=\"-\" int=\"-\" wis=11 cha=15 bab=+3 cmb=+4 cmd=\"15 (can't be tripped)\" feats=\"Flyby Attack#B\" lang=Common}",
+			"::mstats{str=14 dex=12 con=\"-\" int=\"-\" wis=11 cha=15 bab=+3 cmb=+4 cmd=\"15 (can't be tripped)\" feats=\"Flyby Attack#B\" lang=Common next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, pair, or trio\" treasure=none}",
 			"",
@@ -1770,9 +1772,7 @@
 			"",
 			"See the {monster/beheaded} entry for variants and methods of creation.",
 			"",
-			"**Family:** {family/Beheaded}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Beheaded}"
 		]
 	},
 	"medusa_head": { "redirect": "beheaded_medusa_head" },

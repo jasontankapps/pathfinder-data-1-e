@@ -308,7 +308,9 @@
 			"",
 			"::moffense{sp=40 cl=20 fl=20 clumsy melee=\"2 claws +13 (1d6+5 plus %%umr/grab%%), bite +13 (1d6+5 plus poison)\" bDrain=\"1d2 Constitution\" specAtt=poison}",
 			"",
-			"::mstats{str=20 dex=17 con=19 int=\"-\" wis=12 cha=7 bab=+8 cmb=\"+13 (+17 grapple)\" cmd=\"26 (34 vs. trip)\" feats=\"Improved Critical#B=claw\" skills=\"Climb +13~Disguise +6 (+14 when disguised as a humanoid)~Fly -5~Stealth +11\" racial=\"+8 Disguise (+16 when disguised as a humanoid), +8 Stealth\" sq=\"entangling slime\"}",
+			"::mstats{str=20 dex=17 con=19 int=\"-\" wis=12 cha=7 bab=+8 cmb=\"+13 (+17 grapple)\" cmd=\"26 (34 vs. trip)\" feats=\"Improved Critical#B=claw\" skills=\"Climb +13~Disguise +6 (+14 when disguised as a humanoid)~Fly -5~Stealth +11\" racial=\"+8 Disguise (+16 when disguised as a humanoid), +8 Stealth\" sq=\"entangling slime\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any land or underground\" org=\"solitary, pair, or hive (3-30)\" treasure=none}",
 			"",
@@ -324,9 +326,7 @@
 			"",
 			"Xenopterids are human-sized predatory insects with the insidious ability to mimic the form of their favorite prey-humanoids. Xenopterids can be encountered nearly anywhere they can find food, quickly adapting their mimicry to resemble whatever humanoids are most common in a particular region. They can bend their wings to form cowls and cloaks, and they can fold their limbs to imitate humanoids' weapons and armor. A xenopterid's eeriest feature is its mouth - a crude chitinous beak that, when closed, resembles a human face. Up close, the xenopterid's unsettling nature is obvious, but from a distance or in dim light, the creature easily passes for its prey. Because their mimicking abilities require concealment, xenopterids commonly hunt their prey at night. Once a xenopterid captures and kills a victim, it liquefies the creature's remains in order to bring the putrid slurry back to the hive where it stuffs this substance into small spherical capsules the creatures use as food. Some evil races prize these capsules, and make gruesome liquors by fermenting the contents.",
 			"",
-			"Xenopterids live in colonies in abandoned ruins, old castles, decrepit farmsteads, and similarly abandoned human structures. A colony typically consists of 19 to 28 sterile drones and a fertile hive king and hive queen (xenopterids with the advanced creature simple template). Each colony has only one fertile male, so xenopterids reproduce slowly. Still, the only way to destroy a xenopterid colony is to kill both the king and the queen, and neither one of them ever leaves the safety of the hive. Xenopterid drones become fiercely aggressive when defending the hive against invaders.",
-			"",
-			"[^B]: Bonus feat."
+			"Xenopterids live in colonies in abandoned ruins, old castles, decrepit farmsteads, and similarly abandoned human structures. A colony typically consists of 19 to 28 sterile drones and a fertile hive king and hive queen (xenopterids with the advanced creature simple template). Each colony has only one fertile male, so xenopterids reproduce slowly. Still, the only way to destroy a xenopterid colony is to kill both the king and the queen, and neither one of them ever leaves the safety of the hive. Xenopterid drones become fiercely aggressive when defending the hive against invaders."
 		]
 	},
 	"xiao": {
@@ -655,7 +655,9 @@
 			"",
 			"::mspell{know=Sorcerer cl=12 con=+32 l6=\"4/day~disintegrate|DC 21\" l5=\"6/day~sending~suffocation|DC 22\" l4=\"8/day~confusion|DC 19~contagion|DC 21~dimension door\" l3=\"8/day~clairaudience/clairvoyance~dispel magic~slow|DC 18~vampiric touch\" l2=\"8/day~detect thoughts|DC 17~ghoul touch|DC 19~mirror image~scorching ray~spectral hand\" l1=\"8/day~chill touch|DC 18~magic missile~ray of enfeeblement|DC 18~shocking grasp~unseen servant\" l0=\"at will~acid splash~detect magic~flare|DC 15~ghost sound|DC 15~mage hand~open/close~prestidigitation~read magic~touch of fatigue|DC 17\"}",
 			"",
-			"::mstats{str=32 dex=18 con=26 int=23 wis=25 cha=21 bab=+12 cmb=+24 cmd=\"50 (62 vs. trip)\" feats=\"Arcane Strike~Combat Casting~Combat Expertise~Eschew Materials#B~Greater Spell Focus=necromancy~Improved Initiative~Lightning Reflexes~Spell Focus=necromancy~Vital Strike\" skills=\"Bluff +21~Diplomacy +13~Fly +21~Intimidate +24~Knowledge (arcana) +37~Knowledge (engineering) +37~Knowledge (geography) +37~Knowledge (planes) +37~Perception +26~Spellcraft +25~Use Magic Device +21\" lang=\"Abyssal, Aklo, Common, Draconic, Infernal, Protean, Undercommon; %%umr/telepathy%% 100 ft.\" sq=\"brain collection, strange knowledge\"}",
+			"::mstats{str=32 dex=18 con=26 int=23 wis=25 cha=21 bab=+12 cmb=+24 cmd=\"50 (62 vs. trip)\" feats=\"Arcane Strike~Combat Casting~Combat Expertise~Eschew Materials#B~Greater Spell Focus=necromancy~Improved Initiative~Lightning Reflexes~Spell Focus=necromancy~Vital Strike\" skills=\"Bluff +21~Diplomacy +13~Fly +21~Intimidate +24~Knowledge (arcana) +37~Knowledge (engineering) +37~Knowledge (geography) +37~Knowledge (planes) +37~Perception +26~Spellcraft +25~Use Magic Device +21\" lang=\"Abyssal, Aklo, Common, Draconic, Infernal, Protean, Undercommon; %%umr/telepathy%% 100 ft.\" sq=\"brain collection, strange knowledge\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=solitary treasure=double}",
 			"",
@@ -689,9 +691,7 @@
 			"",
 			"Yah-thelgaads are zealously devoted to the inscrutable causes of the Dominion of the Black, but they are also notoriously devout believers in that alliance's weird theology, worshiping a concept they refer to as the \"Ineffable Void,\" among other cryptic mysteries. It is not uncommon for yahthelgaads of high rank to also possess inquisitor or oracle levels, lording their authority and fanatical faith over those in their charge - the most powerful yah-thelgaads often take levels in mystic theurge to combine their class-based mastery of the divine with their stolen brains' arcane lore.",
 			"",
-			"Yah-thelgaads often supervise the Dominion of the Black's surgical and genetic engineers on major projects, pushing those agents to attempt greater and more horrific procedures. For all their legendary cruelty, however, yah-thelgaads don't appear to gain pleasure from such experiments. Indeed, they don't seem to feel any emotions at all on their own, but rather experience such sensations vicariously through the memories of the brains they've collected. In this way, the creatures know lust, fear, hatred, and pride without exposing their own minds to the disadvantages of being susceptible to mind-affecting effects.",
-			"",
-			"[^B]: Bonus feat."
+			"Yah-thelgaads often supervise the Dominion of the Black's surgical and genetic engineers on major projects, pushing those agents to attempt greater and more horrific procedures. For all their legendary cruelty, however, yah-thelgaads don't appear to gain pleasure from such experiments. Indeed, they don't seem to feel any emotions at all on their own, but rather experience such sensations vicariously through the memories of the brains they've collected. In this way, the creatures know lust, fear, hatred, and pride without exposing their own minds to the disadvantages of being susceptible to mind-affecting effects."
 		]
 	},
 	"yangethe": {
@@ -1378,7 +1378,9 @@
 			"",
 			"::mspell{sla cl=6 con=+6 day=\"3~bear's endurance~cure light wounds~true strike~~1~rage\"}",
 			"",
-			"::mstats{str=17 dex=12 con=13 int=8 wis=11 cha=10 bab=+6 cmb=\"+10 (+14 grapple, +12 sunder)\" cmd=\"21 (23 vs. sunder, 25 vs. trip)\" feats=\"Improved Initiative~Improved Sunder#B~Power Attack~Weapon Focus=claws\" skills=\"Climb +12~Intimidate +9~Knowledge (planes) +5~Knowledge (religion) +5~Perception +9~Swim +16\" racial=\"+4 Swim\" lang=\"Abyssal, Celestial; *speak with animals* (bears only)\" sq=\"eat metal\"}",
+			"::mstats{str=17 dex=12 con=13 int=8 wis=11 cha=10 bab=+6 cmb=\"+10 (+14 grapple, +12 sunder)\" cmd=\"21 (23 vs. sunder, 25 vs. trip)\" feats=\"Improved Initiative~Improved Sunder#B~Power Attack~Weapon Focus=claws\" skills=\"Climb +12~Intimidate +9~Knowledge (planes) +5~Knowledge (religion) +5~Perception +9~Swim +16\" racial=\"+4 Swim\" lang=\"Abyssal, Celestial; *speak with animals* (bears only)\" sq=\"eat metal\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Elysium%%)\" org=\"solitary, pair, or gang (3-5)\" treasure=standard}",
 			"",
@@ -1396,9 +1398,7 @@
 			"",
 			"Zentragts revere metal, seeing all iron and steel as a portion of their divine master. To them, the act of eating metal is a form of communion in which they replenish their bodies with Gorum's enduring substance. As such, they go out of their way to collect rare metals and treat such ritual meals with uncharacteristic respect.",
 			"",
-			"On average, zentragts stand about 9 feet tall and weigh over 1,200 pounds.",
-			"",
-			"[^B]: Bonus feat."
+			"On average, zentragts stand about 9 feet tall and weigh over 1,200 pounds."
 		]
 	},
 	"zephyr": {
@@ -1478,7 +1478,9 @@
 			"",
 			"::moffense{sp=20 br=10 sw=20 melee=\"slam +1 (1d4+1 plus %%umr/grab%%)\" constrict=\"1d4+1\" specAtt=\"dissolve flesh\"}",
 			"",
-			"::mstats{str=12 dex=9 con=13 int=\"-\" wis=10 cha=1 bab=+0 cmb=+1 cmd=10 feats=\"Blind-Fight#B\" skills=\"Stealth -1 (+9 in swamps)~Swim +9\" racial=\"+10 Stealth in swamps\"}",
+			"::mstats{str=12 dex=9 con=13 int=\"-\" wis=10 cha=1 bab=+0 cmb=+1 cmd=10 feats=\"Blind-Fight#B\" skills=\"Stealth -1 (+9 in swamps)~Swim +9\" racial=\"+10 Stealth in swamps\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm swamps\" org=\"solitary, pair, or colony (3-20)\" treasure=none}",
 			"",
@@ -1500,9 +1502,7 @@
 			"",
 			"::sh[Zhen Distillate]",
 			"",
-			"Through alchemical processes, zhen worm mucus can be distilled into a preservative ointment. When spread liberally over a dead game animal, zhen distillate preserves the meat for 1 month. If left on for at least 3 days, the distillate dissolves away hair, nails, and skin, while leaving muscles and organs untouched. If not thoroughly washed away with wine or a similar alcoholic liquid, zhen distillate leaves behind a foul aftertaste. A flask of zhen distillate weighs 1 pound, costs 50 gp, and preserves the corpse of a Large creature. Each step up or down from Large doubles or halves, respectively, the amount of distillate needed. The mucus harvested from a single zhen worm can be processed into one flask of distillate with a successful DC 25 Craft (alchemy) check.",
-			"",
-			"[^B]: Bonus feat."
+			"Through alchemical processes, zhen worm mucus can be distilled into a preservative ointment. When spread liberally over a dead game animal, zhen distillate preserves the meat for 1 month. If left on for at least 3 days, the distillate dissolves away hair, nails, and skin, while leaving muscles and organs untouched. If not thoroughly washed away with wine or a similar alcoholic liquid, zhen distillate leaves behind a foul aftertaste. A flask of zhen distillate weighs 1 pound, costs 50 gp, and preserves the corpse of a Large creature. Each step up or down from Large doubles or halves, respectively, the amount of distillate needed. The mucus harvested from a single zhen worm can be processed into one flask of distillate with a successful DC 25 Craft (alchemy) check."
 		]
 	},
 	"zhyen": {
@@ -1888,7 +1888,9 @@
 			"",
 			"::moffense{sp=30 br=30 cl=30 melee=\"bite +4 (1d6+3/19-20)\" sneak=\"+1d6\" specAtt=\"devastating maw,~swarming\"}",
 			"",
-			"::mstats{str=12 dex=11 con=14 int=3 wis=10 cha=5 bab=+1 cmb=+1 cmd=\"11 (15 vs. trip)\" feats=\"Improved Critical#B=bite~Weapon Focus=bite~Weapon Specialization#B=bite\" skills=\"Climb +17~Perception +5\" racial=\"+8 Climb\" lang=Aklo}",
+			"::mstats{str=12 dex=11 con=14 int=3 wis=10 cha=5 bab=+1 cmb=+1 cmd=\"11 (15 vs. trip)\" feats=\"Improved Critical#B=bite~Weapon Focus=bite~Weapon Specialization#B=bite\" skills=\"Climb +17~Perception +5\" racial=\"+8 Climb\" lang=Aklo next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any underground (except water)\" org=\"solitary, clutch (2-9), or infestation (10-20)\" treasure=incidental}",
 			"",
@@ -1912,9 +1914,7 @@
 			"",
 			"Once one of these extremely tenacious creatures lays eyes on potential prey, it does not give up the chase until it or its target is dead, or enters or crosses a body of water. A dossenus cannot swim (it sinks to the bottom) and has an intense fear of deep water.",
 			"",
-			"Once every few generations, dossenuses gather in great numbers, sometimes in the thousands. After several weeks of worship, fasting, and frenzied mating, the creatures skitter forth as a massive swarm intent on devouring any living thing in their path.",
-			"",
-			"[^B]: Bonus feat."
+			"Once every few generations, dossenuses gather in great numbers, sometimes in the thousands. After several weeks of worship, fasting, and frenzied mating, the creatures skitter forth as a massive swarm intent on devouring any living thing in their path."
 		]
 	},
 	"duppy": {

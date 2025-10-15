@@ -962,7 +962,9 @@
 			"",
 			"::moffense{sp=10 melee=\"2 slams +6 (1d8+4 plus %%umr/grab%%)\" space=10 reach=5 push=\"slam, 5 ft.\" specAtt=\"crushing push\"}",
 			"",
-			"::mstats{str=18 dex=3 con=\"-\" int=\"-\" wis=11 cha=1 bab=+3 cmb=\"+8 (+10 bull rush, +12 grapple)\" cmd=\"14 (16 vs. bull rush)\" feats=\"Improved Bull Rush#B\" sq=\"fleshy link\"}",
+			"::mstats{str=18 dex=3 con=\"-\" int=\"-\" wis=11 cha=1 bab=+3 cmb=\"+8 (+10 bull rush, +12 grapple)\" cmd=\"14 (16 vs. bull rush)\" feats=\"Improved Bull Rush#B\" sq=\"fleshy link\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any ruins or underground\" org=\"solitary or pack (2-8)\" treasure=incidental}",
 			"",
@@ -983,9 +985,7 @@
 			"The pieces of a living wall must come from normal humanoid corpses that have not decayed significantly. The wall must also include at least one skull of a Large or larger creature (not necessarily a humanoid). Assembly requires at least 20 different full bodies. Special flesh-dissolving acids worth 500 gp are also required to cement the pieces together. Note that creating a living wall requires casting a spell with the evil descriptor.",
 			"",
 			"**CL** 12th; **Price** 18,500 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate dead}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 8th; **Skill** Craft (leather) or Heal DC 13; **Cost** 9,500 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/animate dead}, {spell/geas//quest}, {spell/limited wish}, creator must be caster level 8th; **Skill** Craft (leather) or Heal DC 13; **Cost** 9,500 gp"
 		]
 	},
 	"lizard_giant_chameleon": {

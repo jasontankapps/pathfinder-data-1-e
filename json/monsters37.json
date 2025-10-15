@@ -284,7 +284,9 @@
 			"",
 			"::moffense{sp=30 cl=30 sw=30 melee=\"4 slams +17 (1d6+8 plus %%umr/grab%%)\" constrict=\"1d6+8\" specAtt=\"create spawn~infect flesh\"}",
 			"",
-			"::mstats{str=26 dex=24 con=25 int=\"-\" wis=16 cha=1 bab=+9 cmb=+17 cmd=34 feats=\"Great Fortitude#B~Iron Will#B\" skills=\"Climb +16~Swim +16\" sq=\"%%umr/compression%%, merge\"}",
+			"::mstats{str=26 dex=24 con=25 int=\"-\" wis=16 cha=1 bab=+9 cmb=+17 cmd=34 feats=\"Great Fortitude#B~Iron Will#B\" skills=\"Climb +16~Swim +16\" sq=\"%%umr/compression%%, merge\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary or mass (2-8)\" treasure=incidental}",
 			"",
@@ -310,9 +312,7 @@
 			"",
 			"Proto-shoggoths have no true society, and are driven by two overwhelming instincts: the urge to infect living flesh, and the urge to merge with other proto-shoggoths. Once a creature succumbs to such an infestation, a proto-shoggoth instinctually knows to linger in the area and attempts to merge with its freshly born offspring when it erupts from the victim's body. A proto-shoggoth tends not to remain in proximity with others of its kind that it has failed to merge with, but is not hostile toward such incompatible specimens.",
 			"",
-			"Once two proto-shoggoths successfully merge and form a proto-shoggoth syncytium, the syncytium gains a rudimentary intellect that allows it to more successfully seek out others to merge with and finish the growth cycle into a full-fledged shoggoth. It can no longer infect flesh, though, nor can it merge with other non-syncytium proto-shoggoths, but it does understand that lingering in areas where other proto-shoggoths are active will, eventually, give it opportunities to grow. A proto-shoggoth syncytium often acts as a protector over its mindless \"children\" and has been known to use rudimentary cunning to lure (or more often chase) unsuspecting living creatures into proto-shoggoth nests.",
-			"",
-			"[^B]: Bonus feat."
+			"Once two proto-shoggoths successfully merge and form a proto-shoggoth syncytium, the syncytium gains a rudimentary intellect that allows it to more successfully seek out others to merge with and finish the growth cycle into a full-fledged shoggoth. It can no longer infect flesh, though, nor can it merge with other non-syncytium proto-shoggoths, but it does understand that lingering in areas where other proto-shoggoths are active will, eventually, give it opportunities to grow. A proto-shoggoth syncytium often acts as a protector over its mindless \"children\" and has been known to use rudimentary cunning to lure (or more often chase) unsuspecting living creatures into proto-shoggoth nests."
 		]
 	},
 	"proto_shoggoth_proto_shoggoth_synctium": {
@@ -1622,7 +1622,9 @@
 			"",
 			"::moffense{sp=30 fl=40 good melee=\"bite +10 (1d6+3 plus bleed), 2 claws +10 (1d6+3 plus %%umr/grab%%)\" bleed=\"1d4\" bDrain=\"1 Constitution\" powCh=\"claw, 2d6+6\" specAtt=\"dust cloud~fell shriek\"}",
 			"",
-			"::mstats{str=16 dex=18 con=15 int=9 wis=13 cha=10 bab=+7 cmb=+10 cmd=24 feats=\"Flyby Attack~Hover#B~Improved Initiative~Power Attack~Skill Focus=Perception\" skills=\"Acrobatics +11~Fly +8~Perception +14~Stealth +14\" lang=Abyssal}",
+			"::mstats{str=16 dex=18 con=15 int=9 wis=13 cha=10 bab=+7 cmb=+10 cmd=24 feats=\"Flyby Attack~Hover#B~Improved Initiative~Power Attack~Skill Focus=Perception\" skills=\"Acrobatics +11~Fly +8~Perception +14~Stealth +14\" lang=Abyssal next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm forests or underground\" org=\"solitary, hunting party (2-6), or clan (7-12)\" treasure=standard}",
 			"",
@@ -1640,9 +1642,7 @@
 			"",
 			"Although they can see as well as any human in daylight, sabosan hunt at twilight or after dark when their echolocation-based blindsense ability gives them a great advantage. Sabosan can also use their voices offensively, funneling their screeches into blasts of high-pitched sound capable of deafening other creatures. When hunting en masse or attacking foes, a sabosan employs its fell shriek on adversaries while other sabosan use their massive wings to churn up great clouds of dust and debris, rendering foes deaf and blind.",
 			"",
-			"A sabosan's emaciated frame belies its strength and agility, which are not apparent from its gaunt appearance. Its giant, leathery wings can reach a span of almost 20 feet. Both males and females have red or dark brown fur on their heads, necks, chests, and backs. Sabosan stand just under 6 feet tall and weigh only 150 pounds.",
-			"",
-			"[^B]: Bonus feat."
+			"A sabosan's emaciated frame belies its strength and agility, which are not apparent from its gaunt appearance. Its giant, leathery wings can reach a span of almost 20 feet. Both males and females have red or dark brown fur on their heads, necks, chests, and backs. Sabosan stand just under 6 feet tall and weigh only 150 pounds."
 		]
 	},
 	"sagari": {

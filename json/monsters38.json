@@ -1115,7 +1115,9 @@
 			"",
 			"::moffense{sp=30 sw=30 melee=\"mwk spear +11/+6 (2d6+6 plus salted wound/&times&3) or 2 slams +10 (1d6+4 plus salted wound)\" ranged=\"mwk spear +12 (2d6+4 plus salted wound/&times&3)\" space=10 reach=10}",
 			"",
-			"::mstats{str=19 dex=21 con=\"-\" int=\"-\" wis=23 cha=16 bab=+7 cmb=+12 cmd=27 feats=\"Improved Initiative#B\"}",
+			"::mstats{str=19 dex=21 con=\"-\" int=\"-\" wis=23 cha=16 bab=+7 cmb=+12 cmd=27 feats=\"Improved Initiative#B\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any water\" org=solitary treasure=none}",
 			"",
@@ -1160,9 +1162,7 @@
 			"### Ship Sentinel",
 			"",
 			"**CL** 9th; **Price** 21,250 gp; 21,750 gp (ballista marksman); 23,250 gp (mariner's muse); 25,250 gp (sea sorcerer)  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/limited wish}, creator must be caster level 9th; Craft (woodworking) check DC 25; **Cost** 10,750 gp; 11,000 gp (ballista marksman); 11,750 gp (mariner's muse); 12,750 gp (sea sorcerer)",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/limited wish}, creator must be caster level 9th; Craft (woodworking) check DC 25; **Cost** 10,750 gp; 11,000 gp (ballista marksman); 11,750 gp (mariner's muse); 12,750 gp (sea sorcerer)"
 		]
 	},
 	"shipmind": {
@@ -1232,7 +1232,9 @@
 			"",
 			"::moffense{sp=60 melee=\"bite +6 (1d8+4), 2 hooves +5 (1d4+2)\" space=10 reach=5}",
 			"",
-			"::mstats{str=18 dex=20 con=19 int=2 wis=14 cha=10 bab=+3 cmb=+8 cmd=23 feats=\"Endurance~Multiattack~Run#B~Weapon Focus=hoof\" skills=\"Perception +8 (+12 in deserts)~Survival +4 (+8 in deserts)\" racial=\"+4 Perception and +4 Survival in deserts\" sq=\"desert dweller, easily trained\"}",
+			"::mstats{str=18 dex=20 con=19 int=2 wis=14 cha=10 bab=+3 cmb=+8 cmd=23 feats=\"Endurance~Multiattack~Run#B~Weapon Focus=hoof\" skills=\"Perception +8 (+12 in deserts)~Survival +4 (+8 in deserts)\" racial=\"+4 Perception and +4 Survival in deserts\" sq=\"desert dweller, easily trained\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm deserts\" org=\"solitary, pair, or herd (3-16)\" treasure=none}",
 			"",
@@ -1252,9 +1254,7 @@
 			"",
 			"::sh[Shissah Companions]",
 			"",
-			"A shissah companion starts with slightly less natural armor than a typical horse, but it is easier to train; while it doesn't advance until 7th level (unlike a typical horse, which advances at 4th level), the superior boons it gains in the end often make the wait worthwhile.",
-			"",
-			"[^B]: Bonus feat."
+			"A shissah companion starts with slightly less natural armor than a typical horse, but it is easier to train; while it doesn't advance until 7th level (unlike a typical horse, which advances at 4th level), the superior boons it gains in the end often make the wait worthwhile."
 		]
 	},
 	"shobhad": {
@@ -1274,7 +1274,9 @@
 			"",
 			"::moffense{sp=40 spP=\"30 ft. in armor\" melee=\"longsword +5 (2d6+5/19-20), longsword +5 (2d6+2/19-20), 2 slams +4 (1d6+2)\" ranged=\"shobhad longrifle +6 (2d6/&times&4) or 2 javelins +5 (1d8+5)\" space=10 reach=10}",
 			"",
-			"::mstats{str=20 dex=13 con=18 int=10 wis=11 cha=13 bab=+5 cmb=+11 cmd=22 feats=\"Combat Reflexes~Improved Initiative~Multiweapon Fighting~Weapon Focus#B=shobhad longrifle\" skills=\"Intimidate +9~Perception +8~Stealth +2~Survival +8\" lang=Giant}",
+			"::mstats{str=20 dex=13 con=18 int=10 wis=11 cha=13 bab=+5 cmb=+11 cmd=22 feats=\"Combat Reflexes~Improved Initiative~Multiweapon Fighting~Weapon Focus#B=shobhad longrifle\" skills=\"Intimidate +9~Perception +8~Stealth +2~Survival +8\" lang=Giant next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"cold deserts or mountains\" org=\"solitary, pair, raiding party (3-19), or clan (20 or more plus 1 sergeant of 3rd-4th level per 10 adults and 1 leader of 5th-7th level), plus mounts (use statistics for %%monster/ankylosaurus%%).\" treasure=\"npc=%%eq-armor/hide armor%%, 2 %%eq-weapon/longsword/s%%, 2 %%eq-weapon/javelin/s%%, shobhad longrifle with 20 %%eq-weapon/firearm_<bullet/s%%, other treasure\"}",
 			"",
@@ -1290,9 +1292,7 @@
 			"",
 			"::sh[Shobhad Longrifle]",
 			"",
-			"A shobhad longrifle is treated as a Large {eq-weapon/rifle} with a range increment of 200 feet, but it functions only on low-gravity worlds.",
-			"",
-			"[^B]: Bonus feat."
+			"A shobhad longrifle is treated as a Large {eq-weapon/rifle} with a range increment of 200 feet, but it functions only on low-gravity worlds."
 		]
 	},
 	"shocker_lizard": {
@@ -1673,7 +1673,9 @@
 			"",
 			"::mspell{sla cl=12 con=+16 constant=\"air walk\" atWill=\"!temporal jaunt\" day=\"3~displacement~!quickened %%spell/vanish%%~~1~plane shift|DC 21\"}",
 			"",
-			"::mstats{str=22 dex=19 con=20 int=15 wis=21 cha=18 bab=+16 cmb=+23 cmd=\"43 (51 vs. trip)\" feats=\"Combat Reflexes~Dodge~Improved Critical=claws~Improved Initiative~Lightning Reflexes~Mobility~Quicken Spell-Like Ability=vanish~Spring Attack~Whirlwind Attack#B\" skills=\"Acrobatics +23~Intimidate +23~Knowledge (arcana) +21~Knowledge (history) +21~Knowledge (planes) +21~Perception +24~Sense Motive +24~Stealth +19\" lang=\"Aklo (cannot speak); %%umr/telepathy%% 300 ft.\" sq=\"miserable source\"}",
+			"::mstats{str=22 dex=19 con=20 int=15 wis=21 cha=18 bab=+16 cmb=+23 cmd=\"43 (51 vs. trip)\" feats=\"Combat Reflexes~Dodge~Improved Critical=claws~Improved Initiative~Lightning Reflexes~Mobility~Quicken Spell-Like Ability=vanish~Spring Attack~Whirlwind Attack#B\" skills=\"Acrobatics +23~Intimidate +23~Knowledge (arcana) +21~Knowledge (history) +21~Knowledge (planes) +21~Perception +24~Sense Motive +24~Stealth +19\" lang=\"Aklo (cannot speak); %%umr/telepathy%% 300 ft.\" sq=\"miserable source\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Dimension of Time%%)\" org=\"solitary, pair, or desperation (3-6)\" treasure=incidental}",
 			"",
@@ -1713,9 +1715,7 @@
 			"",
 			"::sh[Other Siktemporas]",
 			"",
-			"Other types of siktemporas exist, but they are rare outside of the depths of the Dimension of Time and are almost always encountered when obscure spells or ancient rituals conjure them to other planes.",
-			"",
-			"[^B]: Bonus feat."
+			"Other types of siktemporas exist, but they are rare outside of the depths of the Dimension of Time and are almost always encountered when obscure spells or ancient rituals conjure them to other planes."
 		]
 	},
 	"siktempora_misery": { "redirect": "siktempora_misery_siktempora" },

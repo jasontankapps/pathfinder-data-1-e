@@ -1986,7 +1986,9 @@
 			"",
 			"::moffense{sp=30 cl=20 melee=\"5 claws +21 (1d6+6/19-20 plus %%umr/grab%%)\" ranged=\"integrated laser rifle +22 touch (2d6 fire)\" space=10 reach=15 constrict=\"1d6+6\" specAtt=\"combined arms~efficient grappler\"}",
 			"",
-			"::mstats{str=22 dex=25 con=\"-\" int=14 wis=15 cha=1 bab=+16 cmb=\"+23 (+31 grapple, +27 sunder)\" cmd=\"40 (48 vs. grapple, 42 vs. sunder, 44 vs. trip)\" feats=\"Blinding Critical~Critical Focus~Great Fortitude~Greater Sunder~Improved Critical=claws~Improved Initiative~Improved Sunder~Power Attack~Technologist#B\" skills=\"Climb +34~Disable Device +23~Knowledge (engineering) +22~Perception +18\" racial=\"+4 Climb, +4 Knowledge (engineering)\" lang=\"Androffan, Common\" sq=\"item creation, salvage, scaling\"}",
+			"::mstats{str=22 dex=25 con=\"-\" int=14 wis=15 cha=1 bab=+16 cmb=\"+23 (+31 grapple, +27 sunder)\" cmd=\"40 (48 vs. grapple, 42 vs. sunder, 44 vs. trip)\" feats=\"Blinding Critical~Critical Focus~Great Fortitude~Greater Sunder~Improved Critical=claws~Improved Initiative~Improved Sunder~Power Attack~Technologist#B\" skills=\"Climb +34~Disable Device +23~Knowledge (engineering) +22~Perception +18\" racial=\"+4 Climb, +4 Knowledge (engineering)\" lang=\"Androffan, Common\" sq=\"item creation, salvage, scaling\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary, duo, or work gang (3-5)\" treasure=standard}",
 			"",
@@ -2034,9 +2036,7 @@
 			"",
 			"Though a reclamation robot is generally quite adept at repairing damage to itself as well, injury to certain processors and memory modules deep within the robot can cause significant problems. Some of the resulting malfunctions can be quite noticeable (see the table above), while others are subtler, such as a tendency to add baroque and unnecessary embellishments to constructions and repairs. Reclamation robots with this type of damage are largely unaware of their condition and actively resist efforts to repair them, requiring intervention with a robojack or the like. There are even recorded incidents of damaged reclamators going rogue and setting off on their own to build whatever outlandish structures their flawed processors dictate. Though they were originally designed to create things for humanoids, such rogue robots typically design structures and devices of no apparent use to organic beings... which isn't to say that these creations don't have a place in some unknowable automaton agenda.",
 			"",
-			"**Family:** {family/Robot}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Robot}"
 		]
 	},
 	"robot_reclamation": { "redirect": "robot_reclamation_robot" },

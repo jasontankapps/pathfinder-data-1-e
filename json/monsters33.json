@@ -198,7 +198,9 @@
 			"",
 			"::moffense{sp=30 melee=\"bite +14 (1d8+4), 2 slams +14 (2d6+4)\" space=10 reach=10 specAtt=\"bone prison (ranged touch +12)\"}",
 			"",
-			"::mstats{str=18 dex=15 con=\"-\" int=\"-\" wis=10 cha=1 bab=+11 cmb=\"+16 (+20 disarm or grapple)\" cmd=28 feats=\"Improved Initiative#B\"}",
+			"::mstats{str=18 dex=15 con=\"-\" int=\"-\" wis=10 cha=1 bab=+11 cmb=\"+16 (+20 disarm or grapple)\" cmd=28 feats=\"Improved Initiative#B\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary or gang (2-4)\" treasure=none}",
 			"",
@@ -223,9 +225,7 @@
 			"The golem's body consists of bones from at least a dozen Medium or larger skeletons. The bones must be treated with oils and shellac worth 1,000 gp.",
 			"",
 			"**CL** 9th; **Price** 41,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/telekinesis}, and either {spell/animate dead} or {spell/animate objects}, creator must be at least caster level 9th; **Skill** Craft (sculpture) or Heal DC 15; **Cost** 21,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/telekinesis}, and either {spell/animate dead} or {spell/animate objects}, creator must be at least caster level 9th; **Skill** Craft (sculpture) or Heal DC 15; **Cost** 21,000 gp"
 		]
 	},
 	"golem_bone": { "redirect": "golem_bone_golem" },
@@ -296,7 +296,9 @@
 			"",
 			"::moffense{sp=30 melee=\"2 slams +29 (2d10+10)\" ranged=\"cannon +26/+21 (6d6+7/19-20/&times&4)\" space=10 reach=10 specAtt=cannon}",
 			"",
-			"::mstats{str=30 dex=24 con=\"-\" int=\"-\" wis=15 cha=2 bab=+20 cmb=+31 cmd=48 feats=\"Improved Critical#B=cannon\" sq=\"alloyed, blasting critical, gun training\"}",
+			"::mstats{str=30 dex=24 con=\"-\" int=\"-\" wis=15 cha=2 bab=+20 cmb=+31 cmd=48 feats=\"Improved Critical#B=cannon\" sq=\"alloyed, blasting critical, gun training\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any land\" org=\"solitary or pair\" treasure=none}",
 			"",
@@ -326,9 +328,7 @@
 			"A cannon golem is built from 2,000 pounds of adamantine, brass, cold iron, and mithral.",
 			"",
 			"**CL** 17th; **Price** 200,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/plane shift} or {spell/secret chest}, creator must be caster level 17th; **Skill** Craft (siege engine) and Knowledge (engineering) DC 25; **Cost** 105,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/limited wish}, {spell/plane shift} or {spell/secret chest}, creator must be caster level 17th; **Skill** Craft (siege engine) and Knowledge (engineering) DC 25; **Cost** 105,000 gp"
 		]
 	},
 	"golem_cannon": { "redirect": "golem_cannon_golem" },
@@ -496,7 +496,9 @@
 			"",
 			"::moffense{sp=30 melee=\"2 claws +18 (1d6+10/19-20 plus bleed)\" space=10 reach=10 bleed=\"1d6\"}",
 			"",
-			"::mstats{str=24 dex=11 con=\"-\" int=\"-\" wis=11 cha=1 bab=+12 cmb=+20 cmd=30 feats=\"Improved Critical#B=claw\" sq=\"aquatic reconstruction, powerful blows (slam)\"}",
+			"::mstats{str=24 dex=11 con=\"-\" int=\"-\" wis=11 cha=1 bab=+12 cmb=+20 cmd=30 feats=\"Improved Critical#B=claw\" sq=\"aquatic reconstruction, powerful blows (slam)\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm oceans or coastlines\" org=\"solitary or gang (2-5)\" treasure=none}",
 			"",
@@ -522,9 +524,7 @@
 			"A coral golem's body is made of a healthy colony of living coral weighing at least 1,000 pounds, infused with rare organic substances and minerals worth 3,500 gp.",
 			"",
 			"**CL** 11th; **Price** 57,500 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/keen edge}, {spell/limited wish}, {spell/water breathing}, creator must be caster level 11th; **Skill** Craft (sculpture) DC 15; **Cost** 30,500 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, {spell/keen edge}, {spell/limited wish}, {spell/water breathing}, creator must be caster level 11th; **Skill** Craft (sculpture) DC 15; **Cost** 30,500 gp"
 		]
 	},
 	"golem_coral": { "redirect": "golem_coral_golem" },
@@ -662,7 +662,9 @@
 			"",
 			"::moffense{sp=40 melee=\"bite +21 (1d8+6), 2 hooves +16 (2d6+3 plus staggered)\" space=10 reach=5 trample=\"2d6+9, DC 24\" specAtt=\"bone prison (ranged touch +17)~staggering stomp\"}",
 			"",
-			"::mstats{str=22 dex=15 con=\"-\" int=\"-\" wis=10 cha=1 bab=+16 cmb=+23 cmd=\"35 (39 vs. trip)\" feats=\"Improved Initiative#B\"}",
+			"::mstats{str=22 dex=15 con=\"-\" int=\"-\" wis=10 cha=1 bab=+16 cmb=+23 cmd=\"35 (39 vs. trip)\" feats=\"Improved Initiative#B\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -684,9 +686,7 @@
 			"",
 			"**Destrier Bone Golem (CR +1):** A destrier bone golem is fashioned with metal plates to resemble barding, although these plates primarily serve to bolster the golem's structural integrity rather than deflect blows. A destrier bone golem gains a +2 armor bonus to its AC, 20 additional hit points, and {feat/Improved Natural Attack} as a bonus feat for each of its natural attacks.",
 			"",
-			"**Family:** {family/Golem}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Golem}"
 		]
 	},
 	"golem_equine_bone": { "redirect": "golem_equine_bone_golem" },
@@ -770,7 +770,9 @@
 			"",
 			"::moffense{sp=30 melee=\"2 bites +20 (6d6+7 plus petrification)\" space=15 reach=15}",
 			"",
-			"::mstats{str=25 dex=13 con=\"-\" int=\"-\" wis=10 cha=1 bab=+15 cmb=+24 cmd=35 feats=\"Combat Reflexes#B\"}",
+			"::mstats{str=25 dex=13 con=\"-\" int=\"-\" wis=10 cha=1 bab=+15 cmb=+24 cmd=35 feats=\"Combat Reflexes#B\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary or gang (2-4)\" treasure=none}",
 			"",
@@ -796,9 +798,7 @@
 			"A fossil golem must be constructed from the fossilized skeletons of at least two creatures of Huge size or greater. The fossilized bone making up the golem requires extensive preservation and reassembly with alchemical solutions at a cost of 5,000 gp.",
 			"",
 			"**CL** 15th; **Price** 125,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/flesh to stone}, {spell/geas//quest}, {spell/limited wish}, {spell/stone shape}, creator must be at least caster level 15th; **Skill** Craft (sculpture) or Heal DC 20; **Cost** 65,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/flesh to stone}, {spell/geas//quest}, {spell/limited wish}, {spell/stone shape}, creator must be at least caster level 15th; **Skill** Craft (sculpture) or Heal DC 20; **Cost** 65,000 gp"
 		]
 	},
 	"golem_fossil": { "redirect": "golem_fossil_golem" },
@@ -1418,7 +1418,9 @@
 			"",
 			"::moffense{sp=50 melee=\"2 slams +33 (4d10+11)\" space=15 reach=15 specAtt=\"fluid form~quickness\"}",
 			"",
-			"::mstats{str=33 dex=24 con=\"-\" int=\"-\" wis=11 cha=1 bab=+24 cmb=+37 cmd=55 feats=\"Dodge#B~Mobility#B~Run#B~Spring Attack#B\"}",
+			"::mstats{str=33 dex=24 con=\"-\" int=\"-\" wis=11 cha=1 bab=+24 cmb=+37 cmd=55 feats=\"Dodge#B~Mobility#B~Run#B~Spring Attack#B\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=any org=\"solitary or gang (2-4)\" treasure=none}",
 			"",
@@ -1445,9 +1447,7 @@
 			"A mithral golem's body is made of 3,000 pounds of mithral and other precious metals, worth a total of 50,000 gp.",
 			"",
 			"**CL** 18th; **Price** 250,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, *haste,* {spell/polymorph any object}, {spell/wish}, creator must be caster level 18th; **Skill** Craft (sculpture) DC 25; **Cost** 150,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/animate objects}, {spell/geas//quest}, *haste,* {spell/polymorph any object}, {spell/wish}, creator must be caster level 18th; **Skill** Craft (sculpture) DC 25; **Cost** 150,000 gp"
 		]
 	},
 	"golem_mithral": { "redirect": "golem_mithral_golem" },
@@ -1466,7 +1466,9 @@
 			"",
 			"::moffense{sp=40 melee=\"2 slams +36 (4d8+19/19-20 plus spell sunder)\" space=15 reach=15 specAtt=\"construct bane\"}",
 			"",
-			"::mstats{str=36 dex=15 con=\"-\" int=\"-\" wis=11 cha=1 bab=+25 cmb=+40 cmd=52 feats=\"Toughness#B\"}",
+			"::mstats{str=36 dex=15 con=\"-\" int=\"-\" wis=11 cha=1 bab=+25 cmb=+40 cmd=52 feats=\"Toughness#B\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (Numeria, Thassilon)\" org=\"solitary or pair\" treasure=none}",
 			"",
@@ -1500,9 +1502,7 @@
 			"A noqual golem's body is sculpted from 30,000 pounds of iron alloyed with 1,000 pounds of noqual at the staggering cost of 53,000 gp.",
 			"",
 			"**CL** 18th; **Price** 253,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/greater dispel magic}, {spell/polymorph any object}, {spell/wish}, creator must be caster level 18th; **Skill** Craft (armor) or Craft (weapons) DC 26; **Cost** 153,000 gp",
-			"",
-			"[^B]: Bonus feat."
+			"**Requirements** {feat/Craft Construct}, {spell/geas//quest}, {spell/greater dispel magic}, {spell/polymorph any object}, {spell/wish}, creator must be caster level 18th; **Skill** Craft (armor) or Craft (weapons) DC 26; **Cost** 153,000 gp"
 		]
 	},
 	"golem_noqual": { "redirect": "golem_noqual_golem" },

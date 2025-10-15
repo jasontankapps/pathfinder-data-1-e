@@ -2377,7 +2377,9 @@
 			"",
 			"::moffense{sp=40 melee=\"bite +4 (1d3)\" space=\"2-1/2\" reach=0}",
 			"",
-			"::mstats{str=10 dex=21 con=13 int=2 wis=17 cha=10 bab=+2 cmb=+5 cmd=\"15 (19 vs. trip)\" feats=\"Go Unnoticed~Mobility#B~Skill Focus=Perception~Stealthy#B\" skills=\"Acrobatics +5 (+17 when jumping)~Climb +9~Escape Artist +7~Perception +10~Stealth +19~Survival +3 (+7 when tracking by scent)\" racial=\"+4 Acrobatics when jumping, +4 Survival when tracking by scent\" sq=\"fade away\"}",
+			"::mstats{str=10 dex=21 con=13 int=2 wis=17 cha=10 bab=+2 cmb=+5 cmd=\"15 (19 vs. trip)\" feats=\"Go Unnoticed~Mobility#B~Skill Focus=Perception~Stealthy#B\" skills=\"Acrobatics +5 (+17 when jumping)~Climb +9~Escape Artist +7~Perception +10~Stealth +19~Survival +3 (+7 when tracking by scent)\" racial=\"+4 Acrobatics when jumping, +4 Survival when tracking by scent\" sq=\"fade away\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any temperate land\" org=\"solitary or pair\" treasure=none}",
 			"",
@@ -2387,9 +2389,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"\"Smarter than my own children,\" is the common refrain from those nobles who've pitted their hunting skills against the fading fox. Agile, alert, and clever, these handsome beasts find few traps or enclosures they can't escape - and few gardens or larders they can't enter. To aristocratic hunters, they represent the ultimate quarry to track, leaving no footprints, running confusing trails, and easily vanishing from sight, but to the common people of western Taldor, fading foxes have become a surprisingly common and persistent pests they have neither the ability nor the permission to trap.",
-			"",
-			"[^B]: Bonus feat."
+			"\"Smarter than my own children,\" is the common refrain from those nobles who've pitted their hunting skills against the fading fox. Agile, alert, and clever, these handsome beasts find few traps or enclosures they can't escape - and few gardens or larders they can't enter. To aristocratic hunters, they represent the ultimate quarry to track, leaving no footprints, running confusing trails, and easily vanishing from sight, but to the common people of western Taldor, fading foxes have become a surprisingly common and persistent pests they have neither the ability nor the permission to trap."
 		]
 	},
 	"zygomind": {

@@ -87,7 +87,9 @@
 			"",
 			"::mspell{sla cl=13 con=+17 atWill=\"calm emotions|DC 16~charm monster|DC 18~clairaudience/clairvoyance|clairvoyance only~daze monster|DC 16~feather fall\" day=\"3~dispel magic~lightning bolt|DC 17~~1~dominate monster|DC 23\" month=\"interplanetary teleport\"}",
 			"",
-			"::mstats{str=11 dex=21 con=14 int=18 wis=10 cha=19 bab=+9 cmb=\"+9 (+21 grapple)\" cmd=\"24 (32 vs. grapple, can't be tripped)\" feats=\"Combat Reflexes~Critical Focus~Flyby Attack~Hover#B~Improved Initiative~Skill Focus=Perception~Weapon Finesse~Weapon Focus=tentacle~Wingover#B\" skills=\"Acrobatics +21~Diplomacy +17~Fly +20~Knowledge (arcana) +14~Perception +28~Sense Motive +13~Spellcraft +15~Stealth +21~Use Magic Device +17\" racial=\"+6 Perception\" lang=\"Aklo, Common, Draconic, Undercommon; %%umr/telepathy%% 100 ft.\" sq=\"%%umr/compression%%, float, %%umr/no breath%%\"}",
+			"::mstats{str=11 dex=21 con=14 int=18 wis=10 cha=19 bab=+9 cmb=\"+9 (+21 grapple)\" cmd=\"24 (32 vs. grapple, can't be tripped)\" feats=\"Combat Reflexes~Critical Focus~Flyby Attack~Hover#B~Improved Initiative~Skill Focus=Perception~Weapon Finesse~Weapon Focus=tentacle~Wingover#B\" skills=\"Acrobatics +21~Diplomacy +17~Fly +20~Knowledge (arcana) +14~Perception +28~Sense Motive +13~Spellcraft +15~Stealth +21~Use Magic Device +17\" racial=\"+6 Perception\" lang=\"Aklo, Common, Draconic, Undercommon; %%umr/telepathy%% 100 ft.\" sq=\"%%umr/compression%%, float, %%umr/no breath%%\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any land\" org=\"solitary, pair, pod (3-5), or invasion (6-36)\" treasure=standard}",
 			"",
@@ -105,9 +107,7 @@
 			"",
 			"Aatheriexas were once a race of conquerors and slavers, but since the destruction of their homeworld, the survivors have wandered the cosmos. Exceedingly cruel, they find perverse pleasure in tormenting those they capture, using them as disposable bodyguards or subjecting them to sadistic magic experiments.",
 			"",
-			"An aatheriexa's fleshy pink center is roughly 2 feet in diameter, and features a maw of gnashing teeth. Its grasping eye-tentacles hang down like the leaves of a weeping willow and extend its effective diameter to 5 feet. Aatheriexas weigh approximately 150 pounds.",
-			"",
-			"[^B]: Bonus feat."
+			"An aatheriexa's fleshy pink center is roughly 2 feet in diameter, and features a maw of gnashing teeth. Its grasping eye-tentacles hang down like the leaves of a weeping willow and extend its effective diameter to 5 feet. Aatheriexas weigh approximately 150 pounds."
 		]
 	},
 	"abaia": {
@@ -1868,7 +1868,9 @@
 			"",
 			"::moffense{sp=30 sw=50 melee=\"bite +12 (2d6+5), claw +12 (1d8+5/19-20 plus %%umr/grab%%)\" space=10 reach=5 reachP=\"10 ft. with tail\" rake=\"2 claws +12, 1d4+5\"}",
 			"",
-			"::mstats{str=20 dex=17 con=17 int=9 wis=14 cha=16 bab=+8 cmb=\"+14 (+18 grapple)\" cmd=\"27 (31 vs. trip)\" feats=\"Blinding Critical#B~Combat Reflexes~Improved Critical#B=claw~Improved Initiative~Skill Focus=Stealth~Stand Still\" skills=\"Bluff +9~Stealth +9~Swim +20\" racial=\"+6 Bluff\" lang=Common sq=\"%%umr/amphibious%%, tenacious grapple, voice mimicry\"}",
+			"::mstats{str=20 dex=17 con=17 int=9 wis=14 cha=16 bab=+8 cmb=\"+14 (+18 grapple)\" cmd=\"27 (31 vs. trip)\" feats=\"Blinding Critical#B~Combat Reflexes~Improved Critical#B=claw~Improved Initiative~Skill Focus=Stealth~Stand Still\" skills=\"Bluff +9~Stealth +9~Swim +20\" racial=\"+6 Bluff\" lang=Common sq=\"%%umr/amphibious%%, tenacious grapple, voice mimicry\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"warm lakes, rivers, or swamps\" org=solitary treasure=standard}",
 			"",
@@ -1884,9 +1886,7 @@
 			"",
 			"Despite its preference for cruelty, an ahuizotl might come to mutually advantageous arrangements with other pernicious denizens of the swamps. {monster/Will-o'-wisp/s} and ahuizotls often find themselves in such cooperative relationships, with the will-o'-wisp coaxing creatures near the ahuizotl's lair and then lingering to feed upon the victims' fear as the ahuizotl drags them into the depths. Some wily humanoids who fall into an ahuizotl's clutches - typically {monster/lizardfolk}, {monster/boggard/s}, or swamp-dwelling humans - have successfully managed to bargain away the lives of others in exchange for their own. Such arrangements always lead to a series of vicarious murders, as the aquatic predator's proxy coaxes new victims into the swamp for its fearsome partner to dine upon.",
 			"",
-			"Ahuizotls are exceptionally long-lived, and a single individual might live and feed in a particular area for several human generations. An ahuizotl is 9 feet long and weighs 1,200 pounds.",
-			"",
-			"[^B]: Bonus feat."
+			"Ahuizotls are exceptionally long-lived, and a single individual might live and feed in a particular area for several human generations. An ahuizotl is 9 feet long and weighs 1,200 pounds."
 		]
 	},
 	"akaname": {

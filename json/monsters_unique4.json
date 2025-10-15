@@ -247,7 +247,9 @@
 			"",
 			"::mfn[M~Korada can use the mythic version of this ability in his realm.]",
 			"",
-			"::mstats{str=26 dex=30 con=33 int=25 wis=35 cha=38 bab=+32 cmb=\"+41 (+43 disarm or grapple, +45 trip)\" cmd=\"84 (86 vs. disarm, grapple, or trip)\" feats=\"Combat Expertise~Combat Reflexes~Dodge~Greater Trip~Improved Disarm~Improved Grapple~Improved Initiative~Improved Trip~Improved Unarmed Strike#B~Lunge~Mobility~Quicken Spell-Like Ability=mirror image~Scorpion Style~Snatch Arrows~Spring Attack~Step Up~Stunning Fist#B~Weapon Finesse\" skills=\"Acrobatics +44 (+68 when jumping)~Bluff +32~Climb +50~Diplomacy +45~Disguise +32~Escape Artist +26~Fly +8~Heal +27~Knowledge (arcana, geography, history, nature) +23~Knowledge (local) +22~Knowledge (planes, religion) +41~Perception +46~Sense Motive +46~Spellcraft +22~Stealth +40\" racial=\"+24 Acrobatics when jumping\" lang=\"Celestial, Infernal; *speak with animals,* truespeech\" sq=\"abundant step, %%umr/change shape%% (avoral or any humanoid; %%spell/shapechange%%), combat style master, %%umr/empyreal lord traits%%, ki pool (22 points; adamantine, epic, good, lawful, magic, mythic, silver), %%ability/lay on hands%% (15d6, 29/day), seed of life, tranquil master\" faith=Korada}",
+			"::mstats{str=26 dex=30 con=33 int=25 wis=35 cha=38 bab=+32 cmb=\"+41 (+43 disarm or grapple, +45 trip)\" cmd=\"84 (86 vs. disarm, grapple, or trip)\" feats=\"Combat Expertise~Combat Reflexes~Dodge~Greater Trip~Improved Disarm~Improved Grapple~Improved Initiative~Improved Trip~Improved Unarmed Strike#B~Lunge~Mobility~Quicken Spell-Like Ability=mirror image~Scorpion Style~Snatch Arrows~Spring Attack~Step Up~Stunning Fist#B~Weapon Finesse\" skills=\"Acrobatics +44 (+68 when jumping)~Bluff +32~Climb +50~Diplomacy +45~Disguise +32~Escape Artist +26~Fly +8~Heal +27~Knowledge (arcana, geography, history, nature) +23~Knowledge (local) +22~Knowledge (planes, religion) +41~Perception +46~Sense Motive +46~Spellcraft +22~Stealth +40\" racial=\"+24 Acrobatics when jumping\" lang=\"Celestial, Infernal; *speak with animals,* truespeech\" sq=\"abundant step, %%umr/change shape%% (avoral or any humanoid; %%spell/shapechange%%), combat style master, %%umr/empyreal lord traits%%, ki pool (22 points; adamantine, epic, good, lawful, magic, mythic, silver), %%ability/lay on hands%% (15d6, 29/day), seed of life, tranquil master\" faith=Korada next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any forests or mountains (%%rule/Nirvana%%)\" org=unique treasure=\"standard=+5 %%eq-weapon/quarterstaff%%, other treasure\"}",
 			"",
@@ -285,9 +287,7 @@
 			"",
 			"Korada's holy symbol is two devotees kneeling before a lotus or a golden monkey with three tails. His favored weapon is the unarmed strike. His clerics have access to the domains of Good, Healing, Magic, and Protection, and the subdomains of Agathion, Defense, Divine, and Restoration.",
 			"",
-			"**Family:** {family/Empyreal Lord}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Empyreal Lord}"
 		]
 	},
 	"korada": { "redirect": "empyreal_lord_korada" },
@@ -1400,7 +1400,9 @@
 			"",
 			"::mspell{sla cl=10 con=+15 constant=\"death ward~tongues~true seeing\" atWill=\"bestow curse|DC 18~divination~greater dispel magic~wind walk|self only\" day=\"1~maze~moment of prescience~phantasmal killer|DC 19\"}",
 			"",
-			"::mstats{str=25 dex=12 con=26 int=17 wis=18 cha=21 bab=+6 cmb=+14 cmd=30 feats=\"Combat Expertise~Combat Reflexes~Diehard#B~Great Fortitude~Improved Initiative~Iron Will~Lightning Reflexes\" skills=\"Bluff +12~Craft (cloth) +10~Heal +6~Intimidate +17~Knowledge (all) +11~Perception +19~Perform (oratory) +12~Sense Motive +19~Use Magic Device +16\" lang=\"Common, Giant, Sylvan; *tongues*\" sq=\"%%umr/change shape%% (humanoid; %%spell/alter self%% or %%spell/giant form II%%), sister seeking\" gear=\"+2 %%eq-armor/hide armor%%, %%eq-misc/shears%%\"}",
+			"::mstats{str=25 dex=12 con=26 int=17 wis=18 cha=21 bab=+6 cmb=+14 cmd=30 feats=\"Combat Expertise~Combat Reflexes~Diehard#B~Great Fortitude~Improved Initiative~Iron Will~Lightning Reflexes\" skills=\"Bluff +12~Craft (cloth) +10~Heal +6~Intimidate +17~Knowledge (all) +11~Perception +19~Perform (oratory) +12~Sense Motive +19~Use Magic Device +16\" lang=\"Common, Giant, Sylvan; *tongues*\" sq=\"%%umr/change shape%% (humanoid; %%spell/alter self%% or %%spell/giant form II%%), sister seeking\" gear=\"+2 %%eq-armor/hide armor%%, %%eq-misc/shears%%\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -1412,9 +1414,7 @@
 			"",
 			"The norn known as Yrldak and her sisters Surlda and Hilde have served as handmaidens for Magdh, prophetess and seer of the mysterious Eldest who have ruled the First World since the gods were young. Serving as their mistress's agents, these norns protect her long-term interests wherever possible, but especially on the Material Plane, where Magdh lacks direct influence. As one of the multiverse's most prescient beings, Magdh is capable of seeing farther down the long lines of probability and fate than the norns themselves, and the triumvirate often takes on dangerous and enigmatic missions on Magdh's behalf.",
 			"",
-			"It was on one such venture that Yrldak met her demise upon the Material Plane, when facing a particularly greedy white dragon who thought the norn trio's treasure would make a good addition to its hoard. As happens to all norns who die outside the First World, Yrldak was reborn on her native plane, and is quickly growing while traversing Golarion looking for her sisters. Exhibiting the dark features of a reborn norn, whose hair and eyes lighten as they age, Yrldak is distinctive among her kind, and though her ebon hair reveals her still undeveloped power, Yrldak is a force to be reckoned with if any stand in her way or tempt fate in her presence. Eager to rejoin her sisters, Yrldak might seek the aid of adventurers, to whom she may promise wealth, prophecy, and other boons if they assist her in her quest.",
-			"",
-			"[^B]: Bonus feat."
+			"It was on one such venture that Yrldak met her demise upon the Material Plane, when facing a particularly greedy white dragon who thought the norn trio's treasure would make a good addition to its hoard. As happens to all norns who die outside the First World, Yrldak was reborn on her native plane, and is quickly growing while traversing Golarion looking for her sisters. Exhibiting the dark features of a reborn norn, whose hair and eyes lighten as they age, Yrldak is distinctive among her kind, and though her ebon hair reveals her still undeveloped power, Yrldak is a force to be reckoned with if any stand in her way or tempt fate in her presence. Eager to rejoin her sisters, Yrldak might seek the aid of adventurers, to whom she may promise wealth, prophecy, and other boons if they assist her in her quest."
 		]
 	},
 	"elemental_lord_ymeri": {

@@ -1029,7 +1029,9 @@
 			"",
 			"::mspell{sla cl=12 con=+18 constant=desecrate atWill=\"contagion|DC 19~dimension door~ghoul hunger|DC 18~inflict critical wounds|DC 20\" day=\"1~animate dead~create undead~eyebite|DC 22~plane shift\"}",
 			"",
-			"::mstats{str=33 dex=25 con=\"-\" int=21 wis=20 cha=22 bab=+15 cmb=\"+27 (+31 grapple)\" cmd=\"44 (can't be tripped)\" feats=\"Cleave~Command Undead~Critical Focus~Improved Critical=bite~Improved Initiative#B~Improved Iron Will~Improved Lightning Reflexes~Lightning Reflexes~Power Attack~Staggering Critical~Stunning Critical#B~Toughness\" skills=\"Acrobatics +27 (+19 jump)~Fly +28~Intimidate +29~Knowledge (planes) +25~Knowledge (religion) +28~Perception +28~Profession (cook) +25~Sense Motive +28~Stealth +26\" sq=\"deathless, true herald\"}",
+			"::mstats{str=33 dex=25 con=\"-\" int=21 wis=20 cha=22 bab=+15 cmb=\"+27 (+31 grapple)\" cmd=\"44 (can't be tripped)\" feats=\"Cleave~Command Undead~Critical Focus~Improved Critical=bite~Improved Initiative#B~Improved Iron Will~Improved Lightning Reflexes~Lightning Reflexes~Power Attack~Staggering Critical~Stunning Critical#B~Toughness\" skills=\"Acrobatics +27 (+19 jump)~Fly +28~Intimidate +29~Knowledge (planes) +25~Knowledge (religion) +28~Perception +28~Profession (cook) +25~Sense Motive +28~Stealth +26\" sq=\"deathless, true herald\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -1059,9 +1061,7 @@
 			"",
 			"Although the Maw normally appears as a bare skull, it sometimes covers itself with its swarms. Whether this is out of a morbid sense of humor or an attempt to remember an old sensation from its life is unknown. It has confirmed that it was once a devourer, and before that a living creature, but it does not give further details.",
 			"",
-			"**Family:** {family/Herald}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Herald}"
 		]
 	},
 	"mothers_maw": { "redirect": "herald_mothers_maw" },
@@ -1084,7 +1084,9 @@
 			"",
 			"::mspell{sla cl=17 con=+21 atWill=\"create water~invisibility|self only~summon monster II|air or water elemental only\" day=\"5~air breathing|as *water breathing* but allows water-breathing creatures to breathe air or water~control water~control weather|as a druid~water breathing~~1~beast shape IV~possess object~summon monster IX|air or water elementals only\"}",
 			"",
-			"::mstats{str=28 dex=35 con=22 int=15 wis=15 cha=18 bab=+17 cmb=\"+28 (+30 bull rush)\" cmd=\"51 (53 vs. bull rush)\" feats=\"Blind-Fight~Combat Reflexes~Dodge~Flyby Attack~Improved Bull Rush~Improved Critical=slam~Improved Initiative#B~Iron Will~Mobility~Power Attack~Weapon Finesse#B\" skills=\"Acrobatics +29~Escape Artist +32~Fly +27~Knowledge (nature, religion) +22~Knowledge (planes) +13~Perception +22~Sense Motive +14~Stealth +24~Survival +11~Swim +17\" lang=\"Aquan, Auran, Common, Druidic, Ignan, Sylvan, Terran\" sq=\"%%umr/change shape%% (air or water elemental; %%spell/elemental body IV%%)\"}",
+			"::mstats{str=28 dex=35 con=22 int=15 wis=15 cha=18 bab=+17 cmb=\"+28 (+30 bull rush)\" cmd=\"51 (53 vs. bull rush)\" feats=\"Blind-Fight~Combat Reflexes~Dodge~Flyby Attack~Improved Bull Rush~Improved Critical=slam~Improved Initiative#B~Iron Will~Mobility~Power Attack~Weapon Finesse#B\" skills=\"Acrobatics +29~Escape Artist +32~Fly +27~Knowledge (nature, religion) +22~Knowledge (planes) +13~Perception +22~Sense Motive +14~Stealth +24~Survival +11~Swim +17\" lang=\"Aquan, Auran, Common, Druidic, Ignan, Sylvan, Terran\" sq=\"%%umr/change shape%% (air or water elemental; %%spell/elemental body IV%%)\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any air or water (%%rule/Plane of Air%% or %%rule/Plane of Water%%)\" org=solitary treasure=standard}",
 			"",
@@ -1106,9 +1108,7 @@
 			"",
 			"The Herald of Gozreh rises to nearly 25 feet in height, and its changeable form usually weighs approximately 1 ton.",
 			"",
-			"**Family:** {family/Herald}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Herald}"
 		]
 	},
 	"personification_of_fury": { "redirect": "herald_personification_of_fury" },
@@ -1462,7 +1462,9 @@
 			"",
 			"::mspell{sla cl=17 con=+23 day=\"7~air walk~augury~cure light wounds~dimension door~invisibility~true strike~water walk~~3~commune~haste~heal~legend lore\"}",
 			"",
-			"::mstats{str=20 dex=31 con=20 int=21 wis=31 cha=22 bab=+17 cmb=\"+27 (+29 disarm, +31 grapple, +29 trip)\" cmd=\"57 (59 vs. disarm, 59 vs. grapple, 59 vs. trip)\" feats=\"Agile Maneuvers~Combat Expertise~Dodge~Greater Grapple~Improved Disarm~Improved Grapple~Improved Trip~Improved Unarmed Strike#B~Mobility~Stunning Fist#B~Weapon Finesse#B~Wind Stance\" skills=\"Acrobatics +30 (+66 when jumping)~Climb +13~Diplomacy +23~Handle Animal +14~Heal +22~Knowledge (history) +22~Knowledge (religion) +13~Perception +30~Perform (string) +23~Ride +27~Sense Motive +30~Sleight of Hand +30~Stealth +30~Swim +25\" lang=\"Common, Tien, Vudrani; %%umr/telepathy%% 100 ft.\" sq=\"monk abilities\"}",
+			"::mstats{str=20 dex=31 con=20 int=21 wis=31 cha=22 bab=+17 cmb=\"+27 (+29 disarm, +31 grapple, +29 trip)\" cmd=\"57 (59 vs. disarm, 59 vs. grapple, 59 vs. trip)\" feats=\"Agile Maneuvers~Combat Expertise~Dodge~Greater Grapple~Improved Disarm~Improved Grapple~Improved Trip~Improved Unarmed Strike#B~Mobility~Stunning Fist#B~Weapon Finesse#B~Wind Stance\" skills=\"Acrobatics +30 (+66 when jumping)~Climb +13~Diplomacy +23~Handle Animal +14~Heal +22~Knowledge (history) +22~Knowledge (religion) +13~Perception +30~Perform (string) +23~Ride +27~Sense Motive +30~Sleight of Hand +30~Stealth +30~Swim +25\" lang=\"Common, Tien, Vudrani; %%umr/telepathy%% 100 ft.\" sq=\"monk abilities\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any land (%%rule/Axis%%)\" org=solitary treasure=standard}",
 			"",
@@ -1478,9 +1480,7 @@
 			"",
 			"When not acting on Irori's behalf, the Herald of Irori keeps busy with tending to animals, planting gardens, meditating, practicing martial arts forms, swimming, and quipping with students. The Herald of Irori stands just over 5 feet tall and weighs about 120 pounds.",
 			"",
-			"**Family:** {family/Herald}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Herald}"
 		]
 	},
 	"the_old_man": { "redirect": "herald_the_old_man" },
@@ -1500,7 +1500,9 @@
 			"",
 			"::mspell{sla cl=16 con=+22 atWill=\"calm emotions|DC 18~good hope~cure moderate wounds~teleport|self plus 50 lbs. only\"}",
 			"",
-			"::mstats{str=18 dex=19 con=22 int=19 wis=22 cha=23 bab=+16 cmb=\"+21 (+23 sunder)\" cmd=\"42 (44 vs. sunder)\" feats=\"Blind-Fight~Dodge~Improved Iron Will~Improved Sunder#B~Iron Will#B~Mobility~Skill Focus=Perception~Step Up~Weapon Focus=glaive~Wind Stance\" skills=\"Acrobatics +12~Bluff +17~Diplomacy +17~Disguise +14~Fly +17~Handle Animal +14~Heal +14~Intimidate +17~Knowledge (religion) +12~Perception +31~Perform (dance) +22~Sense Motive +25~Spellcraft +20~Stealth +19~Use Magic Device +14\" lang=\"Auran, Celestial, Common, Ignan, Shadowtongue\" sq=\"inspiration, unearthly grace, %%umr/change shape%% (Small or Medium humanoid; %%spell/alter self%%)\"}",
+			"::mstats{str=18 dex=19 con=22 int=19 wis=22 cha=23 bab=+16 cmb=\"+21 (+23 sunder)\" cmd=\"42 (44 vs. sunder)\" feats=\"Blind-Fight~Dodge~Improved Iron Will~Improved Sunder#B~Iron Will#B~Mobility~Skill Focus=Perception~Step Up~Weapon Focus=glaive~Wind Stance\" skills=\"Acrobatics +12~Bluff +17~Diplomacy +17~Disguise +14~Fly +17~Handle Animal +14~Heal +14~Intimidate +17~Knowledge (religion) +12~Perception +31~Perform (dance) +22~Sense Motive +25~Spellcraft +20~Stealth +19~Use Magic Device +14\" lang=\"Auran, Celestial, Common, Ignan, Shadowtongue\" sq=\"inspiration, unearthly grace, %%umr/change shape%% (Small or Medium humanoid; %%spell/alter self%%)\" next}",
+			"",
+			"::mfn[B~Bonus feat.]",
 			"",
 			"::meco{env=\"any (%%rule/Nirvana%%)\" org=solitary treasure=\"triple=+2 %%magic-enh/dancing%% %%eq-weapon/glaive%%\"}",
 			"",
@@ -1518,9 +1520,7 @@
 			"",
 			"The Spirit of Adoration is a personification of resolute love, whose power lifts the heaviest heart and overcomes all obstacles. Her true form is that of a 10-foot-tall, angel-winged woman dressed in flowing clothes and bearing a shining steel glaive.",
 			"",
-			"**Family:** {family/Herald}",
-			"",
-			"[^B]: Bonus feat."
+			"**Family:** {family/Herald}"
 		]
 	},
 	"the_spirit_of_adoration": { "redirect": "herald_the_spirit_of_adoration" },
