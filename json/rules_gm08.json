@@ -2811,6 +2811,7 @@
 		]
 	},
 	"pressure_damage": { "redirect": "water_dangers" },
+	"water_pressure": { "redirect": "water_dangers" },
 	"drowning": {
 		"name": "Drowning",
 		"subtitle": "Environmental Rules",
