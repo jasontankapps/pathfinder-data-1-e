@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 import fs from 'fs';
 import capitalize from 'capitalize';
-import basic_data_groups from './basic_data_groups.js';
-import { convertTextToLink } from './tests/checkForEncodedLink.js';
+
+import basic_data_groups from './prebuild/basic_data_groups.js';
+import { convertTextToLink } from './prebuild/tests/checkForEncodedLink.js';
 
 const SEARCHGROUPS = [
 	"class", // 1

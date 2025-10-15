@@ -12,7 +12,10 @@
     "lint": "eslint",
     "start": "electron-forge start",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "makedata": "node ./prebuild-create-data.js",
+    "index": "node ./prebuild-create-index.js",
+    "tester": "node ./test-all.js"
   },
   "dependencies": {
     "@capacitor-community/electron": "^5.0.1",

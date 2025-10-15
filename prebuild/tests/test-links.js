@@ -1,5 +1,5 @@
 import checkForEncodedLink, { convertTextToLink } from './checkForEncodedLink.js';
-import featTreeData from '../json/feat_tree_data.json' with {type: 'json'};
+import featTreeData from '../../json/feat_tree_data.json' with {type: 'json'};
 import { $All as a, $KnownProps } from '../get-all-links.js';
 
 const [ sources, ...$All ] = a;

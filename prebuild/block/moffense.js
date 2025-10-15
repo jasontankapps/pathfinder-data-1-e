@@ -1,5 +1,5 @@
-import isALink from "./get-all-links.js";
-import { convertTextToLink } from "./tests/checkForEncodedLink.js";
+import isALink from "../get-all-links.js";
+import { convertTextToLink } from "../tests/checkForEncodedLink.js";
 
 const linkify = (spell) => convertTextToLink(spell.replace(/#[A-Z]/g, ""));
 

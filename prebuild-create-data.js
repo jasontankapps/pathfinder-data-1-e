@@ -4,14 +4,14 @@ import { Marked } from 'marked';
 import markedFootnote from 'marked-footnote';
 import { gfmHeadingId } from "marked-gfm-heading-id";
 import { createDirectives, presetDirectiveConfigs } from 'marked-directive';
-import basic_data_groups, { basic_data_by_link, templates_by_link } from './basic_data_groups.js';
-import checkForEncodedLink, { convertTextToLink } from './tests/checkForEncodedLink.js';
+import basic_data_groups, { basic_data_by_link, templates_by_link } from './prebuild/basic_data_groups.js';
+import checkForEncodedLink, { convertTextToLink } from './prebuild/tests/checkForEncodedLink.js';
 import featTreeData from './json/feat_tree_data.json' with {type: 'json'};
 import featInfo from './src/json/_data__all_links.json' with {type: 'json'};
 import colorJSON from './json/colors.json' with {type: 'json'};
-import getInlineDirectives from './_prebuild-inline-directives.js';
-import getBlockDirectives from './_prebuild-block-directives.js';
-import getContainerDirectives from './_prebuild-container-directives.js';
+import getInlineDirectives from './prebuild/inline-directives.js';
+import getBlockDirectives from './prebuild/block-directives.js';
+import getContainerDirectives from './prebuild/container-directives.js';
 
 // Console log error
 const logError = (...message) => {

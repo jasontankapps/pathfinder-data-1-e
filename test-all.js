@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-import archTest from './test-archetypes.js';
-import basicsTest from './test-basic.js';
-import rulesTest from './test-rules.js';
-import linksTest from './test-links.js';
-import sourcesTest from './test-sources.js';
+import archTest from './prebuild/tests/test-archetypes.js';
+import basicsTest from './prebuild/tests/test-basic.js';
+import rulesTest from './prebuild/tests/test-rules.js';
+import linksTest from './prebuild/tests/test-links.js';
+import sourcesTest from './prebuild/tests/test-sources.js';
 
 const $ = {};
 // Parse command-line arguments
