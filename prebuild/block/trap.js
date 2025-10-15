@@ -1,4 +1,4 @@
-const makeTrapBlock = (marked2, flags, linker, linkify, maybeClear, text, attrs, logError) => {
+const makeTrapBlock = (marked2, flags, linker, id, maybeClear, text, attrs, logError) => {
 	const {
 		cr, magic, mechanical, terrain,
 		pdc, dddc, trigger,
@@ -13,10 +13,6 @@ const makeTrapBlock = (marked2, flags, linker, linkify, maybeClear, text, attrs,
 		`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
 		`<table className="noWrap"><tbody>`
 	];
-	//
-	// CREATE UNIQUE ID
-	//
-	const id = prefix + linkify(text + "-trap");
 	//
 	// ADD A TITLE LINE IF NEEDED
 	//

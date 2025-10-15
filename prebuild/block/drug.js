@@ -1,4 +1,4 @@
-const makeDrugBlock = (marked2, flags, linker, linkify, maybeClear, text, attrs, logError) => {
+const makeDrugBlock = (marked2, flags, linker, id, maybeClear, text, attrs, logError) => {
 	const {
 		type, addict, minor, moderate, severe, dc,
 		price, eff1, eff2,
@@ -53,10 +53,6 @@ const makeDrugBlock = (marked2, flags, linker, linkify, maybeClear, text, attrs,
 			cost = `${gp * 10} cp`;
 		}
 	}
-	//
-	// CREATE UNIQUE ID
-	//
-	const id = prefix + linkify(text + "-" + type);
 	//
 	// ADD TYPE, ADDICTION, SAVE DC, PRICE
 	//

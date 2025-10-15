@@ -1,4 +1,4 @@
-const makeHauntBlock = (marked2, flags, linker, linkify, maybeClear, text, attrs, logError) => {
+const makeHauntBlock = (marked2, flags, linker, id, maybeClear, text, attrs, logError) => {
 	const {
 		notice, hp, weak, trigger, reset,
 		start
@@ -11,10 +11,6 @@ const makeHauntBlock = (marked2, flags, linker, linkify, maybeClear, text, attrs
 		`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
 		`<table className="noWrap"><tbody>`
 	];
-	//
-	// CREATE UNIQUE ID
-	//
-	const id = prefix + linkify(text + "-haunt");
 	//
 	// ADD A TITLE LINE IF NEEDED
 	//

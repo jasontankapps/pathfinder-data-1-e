@@ -8,6 +8,7 @@ import makeMonsterInfoBlock from './block/minfo.js';
 import makeMonsterDefenseBlock from './block/mdefense.js';
 import { makeMonsterFootnoteBlock, makeMonsterOffenseBlock, makeMonsterSpellBlock } from './block/moffense.js';
 import makeMonsterStatisticsBlock from './block/mstats.js';
+import makeMonsterEcologyBlock from './block/meco.js';
 
 const churn = (n, attrs, list, logError) => {
 	const found = [];
@@ -208,7 +209,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"start"
 				], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeDrugBlock(marked2, flags, linker, linkify, maybeClear, text, attrs, logError);
+				const id = prefix + linkify(text + "-haunt");
+				return makeDrugBlock(marked2, flags, linker, id, maybeClear, text, attrs, logError);
 			} else if (n === "trap") {
 				// Trap
 				churn(n, attrs, [
@@ -218,7 +220,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"start", "clear"
 				], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeTrapBlock(marked2, flags, linker, linkify, maybeClear, text, attrs, logError);
+				const id = prefix + linkify(text + "-haunt");
+				return makeTrapBlock(marked2, flags, linker, id, maybeClear, text, attrs, logError);
 			} else if (n === "haunt") {
 				// Haunt
 				churn(n, attrs, [
@@ -226,7 +229,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"start", "clear"
 				], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeHauntBlock(marked2, flags, linker, linkify, maybeClear, text, attrs, logError);
+				const id = prefix + linkify(text + "-haunt");
+				return makeHauntBlock(marked2, flags, linker, id, maybeClear, text, attrs, logError);
 			} else if (n === "spell") {
 				// Spell
 				churn(n, attrs, [
@@ -332,6 +336,10 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterStatisticsBlock(marked2, linker, maybeClear, attrs, logError);
+			} else if (n === "meco") {
+				churn(n, attrs, [ "clear", "env", "org", "treasure" ], logError);
+				const marked2 = makeNewMarkedInstance();
+				return makeMonsterEcologyBlock(marked2, linker, maybeClear, attrs, logError);
 			} else if (n === "archetype") {
 				// Archetype
 				churn(n, attrs, ["clear", "c", "r", "e"], logError);
