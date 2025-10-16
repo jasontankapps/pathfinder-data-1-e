@@ -1955,7 +1955,7 @@
 			"",
 			"::mdefense{ac=\"18/14/15\" mod=\"+3 Dex, +4 natural, +1 size\" hp=\"37 (5d10+10)\" fort=+3 ref=+9 will=+4 dr=\"5/cold iron\" immune=\"electricity, gaze attacks, poison, visual effects and attacks relying on sight\" resist=\"acid 10, cold 10, fire 10\" sr=15}",
 			"",
-			"::moffense{sp=30 melee=\"bite +6 (1d4), 2 claws +6 (1d3)\" specAtt=\"hexes (cackle, evil eye &#91&-2, 4 rounds&#93&, misfortune &#91&1 round&#93&; DC 13)\" next}",
+			"::moffense{sp=30 melee=\"bite +6 (1d4), 2 claws +6 (1d3)\" specAtt=\"hexes (%%hex/cackle%%, %%hex/evil eye%% &#91&-2, 4 rounds&#93&, %%hex/misfortune%% &#91&1 round&#93&; DC 13)\" next}",
 			"",
 			"::mspell{sla cl=5 con=+6 constant=\"speak with animals\" atWill=\"cause fear|DC 12~detect magic~ray of enfeeblement|DC 12~read magic\" day=\"3~charm animal|DC 12~invisibility|self only~~1~rage~waters of Lamashtu\"}",
 			"",

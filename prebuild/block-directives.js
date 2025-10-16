@@ -289,7 +289,6 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"chanRes", "fortif", "split", "ink", "pBlood", "trapS",
 					"unstop", "blockAt", "rockCt", "secSave",
 					"ferocity", "amorph", "aav", "incorp", "noB",
-					"oozeT", "undeadT", "constructT", "plantT",
 					"eva", "impEva", "unc", "impUnc",
 					"weak", "vulner"
 				], logError);

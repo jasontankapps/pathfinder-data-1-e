@@ -147,7 +147,7 @@
 			"",
 			"::minfo{source=\"Bestiary 5/26\" xp=200 ne tiny ooze init=+4 blindsight=60 pcp=+1}",
 			"",
-			"::mdefense{ac=\"13/13/12\" mod=\"+1 Dex, +2 size\" hp=\"11 (2d8+2)\" fort=+1 ref=+1 will=+1 oozeT dr=\"5/slashing\" vulner=fire}",
+			"::mdefense{ac=\"13/13/12\" mod=\"+1 Dex, +2 size\" hp=\"11 (2d8+2)\" fort=+1 ref=+1 will=+1 dr=\"5/slashing\" immune=\"%%umr/ooze traits%%\" vulner=fire}",
 			"",
 			"::moffense{sp=20 cl=20 melee=\"2 slams +3 (1d2)\" space=\"2-1/2\" reach=0 specAtt=\"infestation~murderous whispers\"}",
 			"",

@@ -2063,7 +2063,7 @@
 			"",
 			"::minfo{source=\"Pathfinder RPG Bestiary/82\" xp=\"12,800\" ne large undead subs=extraplanar init=+7 dv=60 pcp=+20}",
 			"",
-			"::mdefense{ac=\"25/12/22\" mod=\"+3 Dex, +13 natural, -1 size\" hp=\"133 (14d8+70)\" fort=+9 ref=+7 will=+12 undeadT def=\"spell deflection\" sr=22}",
+			"::mdefense{ac=\"25/12/22\" mod=\"+3 Dex, +13 natural, -1 size\" hp=\"133 (14d8+70)\" fort=+9 ref=+7 will=+12 def=\"spell deflection\" immune=\"%%umr/undead traits%%\" sr=22}",
 			"",
 			"::moffense{sp=30 fl=20 perfect melee=\"2 claws +18 (1d8+9 plus energy drain)\" space=10 reach=10 eDrain=\"1 level, DC 20\" specAtt=\"devour soul\" next}",
 			"",

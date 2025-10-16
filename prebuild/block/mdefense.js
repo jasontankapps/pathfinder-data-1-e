@@ -8,7 +8,6 @@ const makeMonsterDefenseBlock = (marked2, linker, maybeClear, attrs, logError) =
 		chanRes, fortif, split, ink, pBlood, trapS,
 		unstop, blockAt, rockCt, secSave,
 		ferocity, amorph, aav, incorp, noB,
-		oozeT, undeadT, constructT, plantT,
 		eva, impEva, unc, impUnc,
 		def, dr, immune, resist, sr,
 		weak, vulner
@@ -114,18 +113,6 @@ const makeMonsterDefenseBlock = (marked2, linker, maybeClear, attrs, logError) =
 	}
 	if(noB) {
 		deff.push([`no breath`, `{umr/no breath}`]);
-	}
-	if(oozeT) {
-		deff.push([`ooze traits`, `{umr/ooze traits}`]);
-	}
-	if(undeadT) {
-		deff.push([`undead traits`, `{umr/undead traits}`]);
-	}
-	if(constructT) {
-		deff.push([`construct traits`, `{umr/construct traits}`]);
-	}
-	if(plantT) {
-		deff.push([`plant traits`, `{umr/plant traits}`]);
 	}
 	if(eva) {
 		deff.push([`evasion`, `{ability/evasion}`]);

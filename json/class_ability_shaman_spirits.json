@@ -709,7 +709,7 @@
 			"",
 			"**True Spirit Ability:** A shaman who chooses the Wind spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.",
 			"",
-			">**Elemental Form (Su):** As a standard action, the shaman assumes the form of a Huge (or smaller) lightning elemental, as if using {spell/elemental body IV} with a duration of 1 hour per level. The shaman can use this ability once per day.",
+			">**Elemental Form (Su):** As a standard action, the shaman assumes the form of a Huge (or smaller) {family/lightning elemental}, as if using {spell/elemental body IV} with a duration of 1 hour per level. The shaman can use this ability once per day.",
 			"",
 			"**Manifestation:** Upon reaching 20th level, the shaman becomes a being of air and electricity. The shaman gains electricity resistance 30. She can also apply any one of the following feats to any air or electricity spell she casts without increasing the spell's level or casting time: {feat/Enlarge Spell}, {feat/Extend Spell}, {feat/Silent Spell}, or {feat/Still Spell}. She doesn't need to possess these feats to use this ability."
 		]

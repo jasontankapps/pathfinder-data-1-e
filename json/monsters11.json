@@ -305,7 +305,7 @@
 			"",
 			"::minfo{source=\"Bestiary 3/122\" xp=600 n small ooze init=+3 blindsight=60 pcp=-5}",
 			"",
-			"::mdefense{ac=\"14/14/11\" mod=\"+3 Dex, +1 size\" hp=\"19 (3d8+6)\" fort=+3 ref=+4 will=-4 oozeT immune=acid}",
+			"::mdefense{ac=\"14/14/11\" mod=\"+3 Dex, +1 size\" hp=\"19 (3d8+6)\" fort=+3 ref=+4 will=-4 immune=\"acid, %%umr/ooze traits%%\"}",
 			"",
 			"::moffense{sp=20 cl=20 melee=\"slam +3 (1d4 plus 1d8 acid)\" specAtt=\"acid~stink\"}",
 			"",

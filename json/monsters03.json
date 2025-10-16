@@ -2396,7 +2396,7 @@
 			"",
 			"::minfo{source=\"Pathfinder RPG Bestiary/35\" xp=\"3,200\" n huge ooze init=-5 blindsight=60 pcp=-5}",
 			"",
-			"::mdefense{ac=\"3/3/3\" mod=\"-2 size, -5 Dex\" hp=\"105 (10d8+60)\" fort=+9 ref=-2 will=-2 oozeT def=split}",
+			"::mdefense{ac=\"3/3/3\" mod=\"-2 size, -5 Dex\" hp=\"105 (10d8+60)\" fort=+9 ref=-2 will=-2 def=split immune=\"%%umr/ooze traits%%\"}",
 			"",
 			"::moffense{sp=20 cl=20 melee=\"slam +8 (2d6+4 plus 2d6 acid plus %%umr/grab%%)\" space=15 reach=10 constrict=\"2d6+4 plus 2d6 acid\" specAtt=corrosion}",
 			"",

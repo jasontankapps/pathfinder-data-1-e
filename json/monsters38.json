@@ -432,7 +432,7 @@
 			"",
 			"::minfo{source=\"Pathfinder RPG Bestiary/246\" xp=\"2,400\" n large plant init=+0 dv=60 llv pcp=+11}",
 			"",
-			"::mdefense{ac=\"19/9/19\" mod=\"+10 natural, -1 size\" hp=\"67 (9d8+27)\" fort=+9 ref=+5 will=+5 plantT immune=electricity resist=\"fire 10\"}",
+			"::mdefense{ac=\"19/9/19\" mod=\"+10 natural, -1 size\" hp=\"67 (9d8+27)\" fort=+9 ref=+5 will=+5 immune=\"electricity, %%umr/plant traits%%\" resist=\"fire 10\"}",
 			"",
 			"::moffense{sp=20 sw=20 melee=\"2 slams +11 (2d6+5 plus %%umr/grab%%)\" space=10 reach=10 constrict=\"2d6+7\"}",
 			"",

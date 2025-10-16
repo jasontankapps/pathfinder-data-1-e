@@ -2220,7 +2220,7 @@
 			"",
 			"::minfo{source=\"Pathfinder RPG Bestiary/176\" xp=400 al=\"Any alignment (same as creator)\" tiny construct init=+2 dv=60 llv pcp=+3}",
 			"",
-			"::mdefense{ac=\"14/14/12\" mod=\"+2 Dex, +2 size\" hp=\"11 (2d10)\" fort=+0 ref=+4 will=+1 constructT}",
+			"::mdefense{ac=\"14/14/12\" mod=\"+2 Dex, +2 size\" hp=\"11 (2d10)\" fort=+0 ref=+4 will=+1 immune=\"%%umr/construct traits%%\"}",
 			"",
 			"::moffense{sp=20 fl=50 good melee=\"1 bite +3 (1d4-1 plus poison)\" space=\"2-1/2\" reach=0}",
 			"",

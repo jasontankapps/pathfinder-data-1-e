@@ -14,7 +14,7 @@
 			"",
 			"::mdefense{ac=\"30/16/24\" mod=\"+4 armor, +5 Dex, +1 Dodge, +10 natural\" hp=\"209 (22d8+110)\" fh=10 fort=+13 ref=+14 will=+18 chanRes=+4 dr=\"10/cold iron and slashing\" immune=\"cold, %%umr/undead traits%%\" sr=26 vulner=fire}",
 			"",
-			"::moffense{sp=30 melee=\"ice staff +27/+22/+17/+12 (1d6+14 plus 1d6 cold and energy drain) or 2 claws +22 (1d6+6 plus 1d6 cold and energy drain)\" eDrain=\"2 levels, DC 25\" specAtt=\"cold~hexes (blight, evil eye, hoarfrost, ice tomb, misfortune)~ice staff~unearthly cold\" next}",
+			"::moffense{sp=30 melee=\"ice staff +27/+22/+17/+12 (1d6+14 plus 1d6 cold and energy drain) or 2 claws +22 (1d6+6 plus 1d6 cold and energy drain)\" eDrain=\"2 levels, DC 25\" specAtt=\"cold~hexes (%%hex/blight%%, %%hex/evil eye%%, %%hex/hoarfrost%%, %%hex/ice tomb%%, %%hex/misfortune%%)~ice staff~unearthly cold\" next}",
 			"",
 			"::mspell{sla cl=19 con=+23 constant=\"mage armor\" atWill=\"frost fall|DC 16~!ice missile (as %%spell/magic missile%% but deals cold damage)~obscuring mist~screech|DC 17\" day=\"3~bestow curse|DC 17~crushing despair|DC 18~ice storm~unshakable chill|DC 16~wall of ice|DC 18~~1~cone of cold|DC 19~freezing sphere|DC 20~polar ray\"}",
 			"",

@@ -248,7 +248,7 @@
 			"",
 			"::minfo{source=\"Bestiary 2/23\" xp=400 n small ooze subs=aquatic init=-5 blindsight=30 pcp=-5}",
 			"",
-			"::mdefense{ac=\"6/6/6\" mod=\"-5 Dex, +1 size\" hp=\"15 (2d8+6)\" fort=+3 ref=-5 will=-5 oozeT}",
+			"::mdefense{ac=\"6/6/6\" mod=\"-5 Dex, +1 size\" hp=\"15 (2d8+6)\" fort=+3 ref=-5 will=-5 immune=\"%%umr/ooze traits%%\"}",
 			"",
 			"::moffense{sp=10 cl=10 sw=20 melee=\"slam +3 (1d3+1 plus 1d3 acid and %%umr/grab%%)\" space=5 reach=5 constrict=\"1d3+1 plus 1d3 acid\"}",
 			"",

@@ -1736,7 +1736,7 @@
 			"",
 			"::minfo{source=\"Heart of the Jungle/61\" xp=\"19,200\" n gargantuan plant init=-1 llv pcp=+12}",
 			"",
-			"::mdefense{ac=\"27/5/27\" mod=\"-1 Dex, +22 natural, -4 size\" hp=\"175 (14d8+112)\" fort=+17 ref=+3 will=+9 plantT dr=\"10/slashing\" vulner=fire}",
+			"::mdefense{ac=\"27/5/27\" mod=\"-1 Dex, +22 natural, -4 size\" hp=\"175 (14d8+112)\" fort=+17 ref=+3 will=+9 dr=\"10/slashing\" immune=\"%%umr/plant traits%%\" vulner=fire}",
 			"",
 			"::moffense{sp=40 melee=\"2 slams +19 (4d6+12/19-20 plus %%umr/grab%%)\" ranged=\"rock +6 (4d6+18)\" space=20 reach=20 rockTh=\"240 ft.\" trample=\"4d6+18, DC 29\" specAtt=\"curse of barkflesh~shake the earth\" next}",
 			"",

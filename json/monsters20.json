@@ -1107,7 +1107,7 @@
 			"",
 			"::minfo{source=\"Pathfinder RPG Bestiary/234\" xp=\"12,800\" ce huge construct subs=extraplanar init=+7 dv=60 llv pcp=+15}",
 			"",
-			"::mdefense{ac=\"25/11/22\" mod=\"+3 Dex, +14 natural, -2 size\" hp=\"137 (15d10+55)\" fh=5 fort=+7 ref=+10 will=+5 constructT}",
+			"::mdefense{ac=\"25/11/22\" mod=\"+3 Dex, +14 natural, -2 size\" hp=\"137 (15d10+55)\" fh=5 fort=+7 ref=+10 will=+5 immune=\"%%umr/construct traits%%\"}",
 			"",
 			"::moffense{sp=50 melee=\"bite +19 (1d8+6 plus %%umr/grab%%), 4 claws +19 (2d6+6/19-20)\" space=15 reach=15 specAtt=\"eye rays (+16 ranged touch)\" next}",
 			"",
