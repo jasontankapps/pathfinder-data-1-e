@@ -292,7 +292,7 @@ export const makeMonsterSpellBlock = (marked2, linker, maybeClear, attrs, logErr
 		if(day) {
 			const days = day.split(/~~/);
 			days.forEach(d => {
-				const [, times, spells] = d.match(/^([^~])+~(.+)$/);
+				const [, times, spells] = d.match(/^([^~]+)~(.+)$/);
 				output.push(`<em>${times}/day</em>-` + parseSpells(spells));
 			});
 		}
@@ -306,7 +306,7 @@ export const makeMonsterSpellBlock = (marked2, linker, maybeClear, attrs, logErr
 			output.push("<em>1/year</em>-" + parseSpells(year));
 		}
 		if(other) {
-			const [, duration, spells] = other.match(/^([^~])+~(.+)$/);
+			const [, duration, spells] = other.match(/^([^~]+)~(.+)$/);
 			output.push(`<em>${duration}</em>-` + parseSpells(spells));
 		}
 	}
@@ -353,7 +353,7 @@ export const makeMonsterSpellBlock = (marked2, linker, maybeClear, attrs, logErr
 	if(know) {
 		output.push(`<strong>${know !== "know" ? know + " " : ""}Spells Known</strong> (CL ${CL}${con ? `; concentration ${con}` : ""})`);
 		const convert = (line, num) => {
-			const [, times, spells] = line.match(/^([^~])+~(.+)$/);
+			const [, times, spells] = line.match(/^([^~]+)~(.+)$/);
 			output.push(`<em>${num} (${times})</em>-` + parseSpells(spells));
 		};
 		l9 && convert(l9, "9th");

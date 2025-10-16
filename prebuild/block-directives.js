@@ -286,7 +286,12 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"hp", "fh", "regen",
 					"fort", "ref", "will",
 					"def", "dr", "immune", "resist", "sr",
-					"weak"
+					"chanRes", "fortif", "split", "ink", "pBlood", "trapS",
+					"unstop", "blockAt", "rockCt", "secSave",
+					"ferocity", "amorph", "aav", "incorp", "noB",
+					"oozeT", "undeadT", "constructT", "plantT",
+					"eva", "impEva", "unc", "impUnc",
+					"weak", "vulner"
 				], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterDefenseBlock(marked2, linker, maybeClear, attrs, logError);
