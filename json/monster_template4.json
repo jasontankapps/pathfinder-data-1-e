@@ -1912,7 +1912,7 @@
 			"",
 			"@HL[Special Qualities:] A zombie loses most special qualities of the base creature. It retains any extraordinary special qualities that improve its melee or ranged attacks. A zombie gains the following special quality.",
 			"",
-			">**{misc/Staggered} (Ex):** Zombies have poor reflexes and can only perform a single move action or standard action each round. A zombie can move up to its speed and attack in the same round as a {rule/charge} action.",
+			">@hll[misc/Staggered/ (Ex):] Zombies have poor reflexes and can only perform a single move action or standard action each round. A zombie can move up to its speed and attack in the same round as a {rule/charge} action.",
 			"",
 			"### Variant Zombies",
 			"",

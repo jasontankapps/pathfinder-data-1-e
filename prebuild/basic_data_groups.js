@@ -3172,7 +3172,7 @@ const basic_data_groups = {
 		num: 2,
 		type: "Monster Family"
 	},
-	"monster_template": {
+	"monster_template1": {
 		data: template1,
 		searchgroup: 11, // monster
 		link: "template",

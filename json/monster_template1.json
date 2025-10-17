@@ -808,7 +808,9 @@
 		"description": [
 			"::th[Cytillesh Zombie]{cr=+1 source=\"No Response from Deepmar/21\" acquired}",
 			"",
-			"The cytillesh zombies presented here use a hybrid monster template that is easy to duplicate. The base creature gains the {template/fast |zombie/ template}. It also gains +4 {umr/channel resistance} and Cytillesh Symbiosis (see the {monster/Cytillesh Zombie} stat block). The cytillesh zombie template increases a zombie's challenge rating by 1. In the context of this adventure, this template can only be added to a creature suffering the effects of exposure to cytillesh fungus that imbibes concentrated cytillesh with {eq-material/caphorite} and {eq-material/lazurite} granules."
+			"The cytillesh zombies presented here use a hybrid monster template that is easy to duplicate. The base creature gains the {template/fast |zombie/ template}. It also gains +4 {umr/channel resistance} and Cytillesh Symbiosis (see below). The cytillesh zombie template increases a zombie's challenge rating by 1. In the context of this adventure, this template can only be added to a creature suffering the effects of exposure to cytillesh fungus that imbibes concentrated cytillesh with {eq-material/caphorite} and {eq-material/lazurite} granules.",
+			"",
+			">**Cytillesh Symbiosis (Su)** The cytillesh fungus infesting the host creature's body acts as the dead flesh's animating force. It grants the creature a +4 enhancement bonus to Strength and Dexterity and a poisonous touch. The slam of a cytillesh zombie releases spores that subject the creature to a mild dose of cytillesh poison. The creature must succeed at a DC 18 Fortitude save or become {misc/dazed} for 1d3 rounds as it suffers memory loss of the previous moments. Multiple poisoning effects do not stack, but rather only extend the duration."
 		]
 	},
 	"dark": {
