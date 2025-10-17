@@ -3,7 +3,7 @@ const clean = (bit) => bit.replace(/\*/g, "").replace(/%%[-a-z_]+[/]([^%]+)%%/g,
 const makeMonsterDefenseBlock = (marked2, linker, maybeClear, attrs, logError) => {
 	const {
 		ac, mod,
-		hp, fh, regen,
+		hp, hpRaw, fh, regen,
 		fort, ref, will,
 		chanRes, fortif, split, ink, pBlood, trapS,
 		unstop, blockAt, rockCt, secSave,
@@ -26,8 +26,21 @@ const makeMonsterDefenseBlock = (marked2, linker, maybeClear, attrs, logError) =
 	//
 	// HP LINE
 	//
-	if(hp) {
-		let line = `<strong>hp</strong> ${hp}`;
+	if(hp || hpRaw) {
+		let line;
+		if(hpRaw) {
+			line = `<strong>hp</strong> ${hpRaw}`;
+		} else {
+			const [, h, formula, hd, forcefield] = hp.match(/([^~]+)~([^~]+)(?:~([^~]*))?(?:~([^~]*))?/);
+			let paren = formula;
+			if(hd) {
+				paren = `${hd} HD; ${paren}`;
+			}
+			if(forcefield) {
+				paren = paren + ` plus ${forcefield} hp force field`;
+			}
+			line = `<strong>hp</strong> ${h} (${paren})`;
+		}
 		if(fh) {
 			line = line + doParse(`; %%umr/fast healing%% ${fh}`);
 		}

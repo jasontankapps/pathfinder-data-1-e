@@ -283,7 +283,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "mdefense") {
 				churn(n, attrs, [
 					"clear", "ac", "mod",
-					"hp", "fh", "regen",
+					"hp", "hpRaw", "fh", "regen",
 					"fort", "ref", "will",
 					"def", "dr", "immune", "resist", "sr",
 					"chanRes", "fortif", "split", "ink", "pBlood", "trapS",
