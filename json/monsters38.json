@@ -1772,7 +1772,7 @@
 			"",
 			"The following is an example of a possessed tree under the control of a waldgeist. For more information, see the text of the {spell/animate objects} spell.",
 			"",
-			">:mh[Possessed Tree]{cr=5}",
+			">::mh[Possessed Tree]{cr=5}",
 			">",
 			">N Large {type/construct}  ",
 			">**Init** -1; **Senses** darkvision 60 ft., low-light vision; Perception -5",
