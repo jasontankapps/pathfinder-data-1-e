@@ -95,7 +95,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		setHiddenHeaders(hiddencols);
 		setHiddenRows(hiddenrows);
 		dispatch(setTableFilter({id, data: {hiddencols, hiddenrows}}));
-	}, [setHiddenHeaders, setHiddenRows, id]);
+	}, [setHiddenHeaders, setHiddenRows, id, dispatch]);
 
 	const sortedAndFilteredColumns = columns
 		.map((col, i) => [col, i] as [Column, number])
@@ -110,7 +110,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 				// hide hidden rows
 			.filter(([, i]) => hiddenRows.every(hRow => hRow !== i))
 				// remove hidden columns (and row indices)
-			.map(([row, i]) => row.filter((cell, i) => hiddenHeaders.every(hCol => hCol !== i)) as SortableCell[]);
+			.map(([row,]) => row.filter((cell, i) => hiddenHeaders.every(hCol => hCol !== i)) as SortableCell[]);
 		/*
 			[
 				[ originalColumnData, origColIndex ], ...

@@ -1,8 +1,4 @@
-import {
-	FC,
-	PropsWithChildren,
-	useCallback
-} from 'react';
+import { FC, PropsWithChildren } from 'react';
 import { IonRippleEffect } from '@ionic/react';
 import { useLocation } from 'wouter';
 import { Datum } from '../../types';
@@ -29,9 +25,8 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }
 	}
 	const [, originalLink, output] = m;
 	const link = getLink(originalLink);
-	const click = useCallback(() => { navigate(`/${link}`); dispatch(goTo(`/${link}`)); }, [link, dispatch, navigate]);
 	return (
-		<td className={"ion-activatable cell-link" + (align === "end" ? " ion-text-end" : (align === "start" ? " ion-text-start" : ""))} onClick={click}>
+		<td className={"ion-activatable cell-link" + (align === "end" ? " ion-text-end" : (align === "start" ? " ion-text-start" : ""))} onClick={() => { navigate(`/${link}`); dispatch(goTo(`/${link}`)); }}>
 			{output}
 			<IonRippleEffect />
 		</td>

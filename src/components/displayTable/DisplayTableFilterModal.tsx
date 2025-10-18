@@ -30,8 +30,7 @@ import {
 import {
 	close,
 	closeCircle,
-	filter as filterIcon,
-	repeat
+	filter as filterIcon
 } from 'ionicons/icons';
 import AutoSizer from 'react-virtualized-auto-sizer';
 import { FixedSizeList } from 'react-window';
@@ -280,7 +279,7 @@ const DisplayTableFilterModal: FC<FilterProps> = (props) => {
 		setModified(true);
 	};
 	const toggleAllRows = (bool: boolean) => {
-		setRowStates(rowStates.map(x => bool));
+		setRowStates(rowStates.map(() => bool));
 		setModified(true);
 		closeToast().then(() => toast({
 			message: `Toggled ${bool ? "ON" : "OFF"} all rows.`,

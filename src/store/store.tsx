@@ -14,28 +14,21 @@ import {
 } from 'redux-persist';
 import autoMergeLevel1 from 'redux-persist/lib/stateReconciler/autoMergeLevel1';
 import storage from 'redux-persist/lib/storage';
-import scrollReducer, {initialState as scroll} from './scrollSlice';
-import historyReducer, {initialState as history} from './historySlice';
-import searchReducer, {initialState as search} from './searchSlice';
-import displayTableReducer, {initialState as displayTable, DisplayTableState} from './displayTableSlice';
-import bookmarksReducer, {BookmarkDB, BookmarkGroup, initialState as bookmarks, Catalog} from './bookmarksSlice';
-import settingsReducer, {initialState as settings} from './settingsSlice';
+import scrollReducer, {ScrollState} from './scrollSlice';
+import historyReducer, {HistoryState} from './historySlice';
+import searchReducer, {SearchState} from './searchSlice';
+import displayTableReducer, {DisplayTableState} from './displayTableSlice';
+import bookmarksReducer, {BookmarkDB, BookmarkGroup, BookmarkState, Catalog} from './bookmarksSlice';
+import settingsReducer, {initialState as settings, SettingsState} from './settingsSlice';
 
-//
-//
-//
-// ----- USE THIS to put in temporary changes for testing.
-const initialAppState = {
-	scroll,
-	history,
-	search,
-	displayTable,
-	bookmarks,
-	settings
-};
-// ----- END
-//
-//
+interface InitialAppState {
+	scroll: ScrollState
+	history: HistoryState
+	search: SearchState
+	displayTable: DisplayTableState
+	bookmarks: BookmarkState
+	settings: SettingsState
+}
 
 const migrations = {
 	10: (state: any) => {
@@ -82,7 +75,7 @@ const migrations = {
 		}
 	}, */
 	12: (state: any) => {
-		const {displayTable: dt, ...unchangedState} = state;
+		const unchangedState = {...state};
 		// Reset all tables, as the store format has greatly changed
 		const displayTable: DisplayTableState = {};
 		return {
@@ -176,7 +169,7 @@ const migrations = {
 		};
 	},
 	14: (state: any) => {
-		const {displayTable: dt, ...unchangedState} = state;
+		const unchangedState = {...state};
 		// Reset all tables, as the table format has greatly changed
 		const displayTable: DisplayTableState = {};
 		return {
@@ -336,7 +329,7 @@ const reducerConfig = {
 const stateReconciler = (incomingState: any, originalState: any, reducedState: any, config: any) => {
 	return autoMergeLevel1(incomingState, originalState, reducedState, config);
 };
-const persistConfig: PersistConfig<typeof initialAppState> = {
+const persistConfig: PersistConfig<InitialAppState> = {
 	key: 'root-pf-data',
 	version: 17,
 	storage,

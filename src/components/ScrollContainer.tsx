@@ -1,10 +1,12 @@
-import { FC, PropsWithChildren, UIEventHandler, useCallback, useState } from "react";
+import { FC, PropsWithChildren, UIEventHandler, useCallback } from "react";
 import { useAppDispatch, useAppSelector, useElement } from "../store/hooks";
 import { setPosition } from "../store/scrollSlice";
 
 const debounceNamespace: { [key: string]: any } = {};
 
-const debounce = (fn: Function, ns: string, delay: number = 500) => {
+type AnyFunc = () => void;
+
+const debounce = (fn: AnyFunc, ns: string, delay: number = 500) => {
 	if (debounceNamespace[ns]) {
 		if(debounceNamespace[ns] === "frozen") {
 			// Do not continue;

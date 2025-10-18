@@ -10,7 +10,7 @@ interface BooleanState {
 	wholeWords: boolean
 }
 
-interface SearchState extends BooleanState {
+export interface SearchState extends BooleanState {
 	searchtext: string
 	filter: SearchIndex[]
 }

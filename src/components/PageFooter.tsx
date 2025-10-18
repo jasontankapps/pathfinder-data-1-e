@@ -47,7 +47,7 @@ const PageFooter: FC<{
 	const goToSearch = useCallback(() => {
 		dispatch(goTo("/search"));
 		navigate("/search");
-	}, [navigate]);
+	}, [navigate, dispatch]);
 	return (
 		<IonFooter>
 			<IonActionSheet

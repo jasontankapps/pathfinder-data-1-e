@@ -40,7 +40,7 @@ export interface BookmarkGroup {
 
 export type BookmarkDB = { [key: string]: BookmarkGroup }
 
-interface BookmarkState {
+export interface BookmarkState {
 	// "link/url" : [ "id of bookmark group", ... ]
 	catalog: Catalog
 	// "id": BookmarkGroup
@@ -305,9 +305,13 @@ export const bookmarkSlice = createSlice({
 			};
 		},
 		changeGroupColor: (state, action: PayloadAction<{id: string, color: Color}>) => {
+			interface ColorChange extends Omit<BookmarkGroup, "color"> {
+				color?: Color
+			}
 			const {id, color} = action.payload;
 			const {db: oldDb, ...etc} = state;
-			const {color: x, ...rest} = oldDb[id];
+			const rest: ColorChange = {...oldDb[id]};
+			delete rest.color;
 			const db = {...oldDb};
 			db[id] = {
 				color,

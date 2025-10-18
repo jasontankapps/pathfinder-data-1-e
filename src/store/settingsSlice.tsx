@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 
-interface SettingsState {
+export interface SettingsState {
 	noMythic: boolean
 	noStamina: boolean
 	noElephant: boolean

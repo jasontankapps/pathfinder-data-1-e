@@ -1,6 +1,6 @@
 import {
 	FC, Dispatch, PropsWithChildren, useMemo,
-	ReactElement, MouseEventHandler, SetStateAction,
+	ReactElement, MouseEventHandler,
 	useContext
 } from 'react';
 import {
@@ -19,7 +19,7 @@ import './Bookmarks.css';
 const Bookmarks: FC<{location: string}> = ({location}) => {
 	const dispatch = useAppDispatch();
 	const { db, order, catalog } = useAppSelector((state) => state.bookmarks);
-	const bookmarked = catalog[location] || [];
+	const bookmarked = useMemo(() => catalog[location] || [], [catalog, location]);
 	const checkboxes = useMemo(() => {
 		return order.filter(id => !db[id].hidden).map(id => {
 			const checked = bookmarked.indexOf(id) > -1;

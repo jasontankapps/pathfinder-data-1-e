@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 
-interface HistoryState {
+export interface HistoryState {
 	current: string
 	previous: string[] // "most recent", "next recent", ... "first page shown"
 	next: string[] // "next page", "the page after next", ... "last page shown"
