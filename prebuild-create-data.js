@@ -225,23 +225,38 @@ const makeSourceLink = (sourceInfo) => {
 	const link = convertTextToLink(source);
 	return `[${sourceText}](source/${link})`;
 };
-
 // Renderer object for Marked
 const renderer = (instance) => {
+	const parseAndClean = (text) => {
+		if(text.match(/^(https?:[/]{2})?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&/=]*)$/)) {
+			// GFM-Markdown will try to create a link for any URL-resembling text.
+			// We don't want this.
+			return text;
+		}
+		return instance
+			.parse(text)
+			.replace(/<[/]?p>\n*/g, "")
+			.replace(/<div className="jumpList".*?<[/]div>/g, "");
+	};
 	return {
 		renderer: {
 			// Changes <a> to <Link> and <InnerLink> as needed, updating `$.flags` to note the outside Tags being used
 			link: ({href, text}) => {
+				const parsedText = parseAndClean(text);
 				if (href.match(/^http/)) {
-					return `<a href="${href}">${text}</a>`;
+					return `<a href="${href}">${parsedText}</a>`;
 				} else if (href.match(/^#/)) {
 					// Hash indicates internal link, updating `$.flags` to note the outside Tag being used
 					$.flags.innerlink = true;
-					return `<InnerLink toTop to="${$.prefix}${href.slice(1)}">${text}</InnerLink>`;
+					return `<InnerLink toTop to="${$.prefix}${href.slice(1)}">${parsedText}</InnerLink>`;
 				}
 				$.flags.link = true;
-				return `<Link to="/${href}">${text}</Link>`;
+				return `<Link to="/${href}">${parsedText}</Link>`;
 			},
+			// Fixes <ol start="4"> to <ol start={4}>
+			// Decided to fix this in postprocess
+			// Archiving in case I need to remember how these things work
+			/*
 			list: (token) => {
 				const ordered = token.ordered;
 				const start = token.start;
@@ -249,14 +264,15 @@ const renderer = (instance) => {
 				let body = '';
 				for (let j = 0; j < token.items.length; j++) {
 					const item = token.items[j];
-					const parsed = instance.parse(item.text);
-					body += "<li>" + parsed.replace(/<[/]?p>|\n/g, "") + "</li>\n";
+					const parsed = parseAndClean(item.text);
+					body += "<li>" + parsed + "</li>\n";
 				}
 
 				const type = ordered ? 'ol' : 'ul';
 				const startAttr = (ordered && start !== 1) ? (' start={' + start + '}') : '';
 				return '<' + type + startAttr + '>\n' + body + '</' + type + '>\n';
 			}
+			*/
 		}
 	};
 };
@@ -289,6 +305,8 @@ const postprocess = (tables) => {
 			.replace(/&#39;/g, "'")
 			// Replace unneeded HTML entity for the quotation mark
 			.replace(/&quot;/g, "\"")
+			// Fix incorrect React syntax on ordered lists
+			.replace(/(<ol [^>]*start=)"([0-9])"([^>]*>)/g, "$1{$2}$3")
 			// Remove whitespace at start and end
 			.trim();
 		let output = "";
