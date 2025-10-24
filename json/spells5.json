@@ -558,7 +558,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/19\" earth transmutation clr=2 drd=2 hnt=2 mag=2 orc=2 rgr=2 war=2 ctSt cV cS rTouch target=\"creature touched\" durML=1}",
 			"",
-			">*{race/Dwar/ven>f} spellcasters are renowned for shaping the ground beneath them, molding metal, and using magic to aid their craft. This spell one of several samples of such magics.*",
+			">*{race/Dwarven} spellcasters are renowned for shaping the ground beneath them, molding metal, and using magic to aid their craft. This spell one of several samples of such magics.*",
 			"",
 			"This spell allows the target to cause the ground to rise up beneath him. As a swift action, the target can cause the ground to rise 5 feet, while all adjacent squares are treated as steep slopes. The groundswell precludes flanking from creatures standing at lower elevations than the target. If the target moves after creating a groundswell, the ground returns to its normal elevation at the end of his turn; otherwise, it remains in place until the target moves or uses a swift action to return the ground to normal. A groundswell cannot increase elevation of the ground beyond 5 feet."
 		]

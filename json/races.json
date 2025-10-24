@@ -2027,6 +2027,8 @@
 			"[^T]: {source/Ultimate Intrigue/ pg. 17}"
 		]
 	},
+	"dwarves": { "redirect": "dwarf" },
+	"dwarven": { "redirect": "dwarf" },
 	"elf": {
 		"name": "Elf",
 		"sources": [

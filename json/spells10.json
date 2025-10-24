@@ -1854,7 +1854,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/19\" enchantment compulsion mindAffecting brd=1 skd=1 ct=\"see text\" cV cS rClose target=\"one living creature\" dur=\"see text\" will srY harmless}",
 			"",
-			">*{race/Dwar/ven>f} spellcasters are renowned for shaping the ground beneath them, molding metal, and using magic to aid their craft. This spell one of several samples of such magics.*",
+			">*{race/Dwarven} spellcasters are renowned for shaping the ground beneath them, molding metal, and using magic to aid their craft. This spell one of several samples of such magics.*",
 			"",
 			"You can cast this spell as part of the action to begin an inspire competence bardic performance. The benefit of inspire competence persists for as long as is necessary to complete the target's next skill check using the chosen skill (up to a maximum of 1 hour per caster level), even if you cease your bardic performance."
 		]
