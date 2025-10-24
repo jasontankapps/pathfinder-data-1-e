@@ -178,6 +178,7 @@
 		"type": "Rule",
 		"topLink": [ "Dying Conditions", "rule/dying_conditions" ]
 	},
+	"stabilization": { "redirect": "dying" },
 	"stable": {
 		"name": "Stable",
 		"sources": [ "PRPG Core Rulebook" ],

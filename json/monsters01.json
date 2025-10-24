@@ -1440,7 +1440,7 @@
 			"",
 			"::moffense{sp=20 br=40 melee=\"mwk quarterstaff +6 (1d4) or bite +5 (1d8 plus paralysis), 2 claws +5 (1d3)\" paralysis=\"1 round, DC 16\" next}",
 			"",
-			"::mspell{sla cl=4 con=+5 constant=\"detect snares and pits\" day=\"3~create pit|DC 13~~1~move earth~!%%umr/summon%% (level 4; 1 silvanshee 35%)\" next}",
+			"::mspell{sla cl=4 con=+5 constant=\"detect snares and pits\" day=\"3~create pit|DC 13~~1~move earth~!%%umr/summon%% (level 4; 1 %%monster/silvanshee%% 35%)\" next}",
 			"",
 			"::mspell{prep=Druid cl=4 con=+9 l2=\"control vermin|DC 17~soften earth and stone~summon swarm\" l1=\"call animal~cure light wounds~expeditious excavation~shillelagh~thunderstomp\" l0=\"detect poison~know direction~purify food and drink|DC 15~stabilize\"}",
 			"",
