@@ -21,9 +21,9 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Tree Meld (Su)** A dryad can meld with any tree, similar to how the spell meld into stone functions. She can remain melded with a tree as long as she wishes.",
+			"**Tree Meld (Su)** A dryad can meld with any tree, similar to how the spell {spell/meld into stone} functions. She can remain melded with a tree as long as she wishes.",
 			"",
-			"**Tree Dependent (Su)** A dryad is mystically bonded to a single, enormous tree and must never stray more than 300 yards from it. Most dryad trees are oak trees, but other trees function as well (often having subtle influences on a specific dryad's personality and appearance). A dryad who moves 300 yards beyond her bonded tree immediately becomes sickened. Every hour thereafter, she must make a DC 15 Fortitude save to resist becoming nauseated for an hour. A dryad that is out of range of her bonded tree for 24 hours takes 1d6 points of Constitution damage, and another 1d6 points of Constitution damage every day that follows-eventually, this separation kills the dryad. A dryad can forge a new bond with a new tree by performing a 24-hour ritual and making a successful DC 20 Will save.",
+			"**Tree Dependent (Su)** A dryad is mystically bonded to a single, enormous tree and must never stray more than 300 yards from it. Most dryad trees are oak trees, but other trees function as well (often having subtle influences on a specific dryad's personality and appearance). A dryad who moves 300 yards beyond her bonded tree immediately becomes {misc/sickened}. Every hour thereafter, she must make a DC 15 Fortitude save to resist becoming {misc/nauseated} for an hour. A dryad that is out of range of her bonded tree for 24 hours takes 1d6 points of {rule/Constitution damage}, and another 1d6 points of Constitution damage every day that follows - eventually, this separation kills the dryad. A dryad can forge a new bond with a new tree by performing a 24-hour ritual and making a successful DC 20 Will save.",
 			"",
 			"**Wild Empathy (Su)** This works like the druid's {ability/wild empathy} class feature, except the dryad has a +6 racial bonus on the check. Dryads with druid levels add this racial modifier to their wild empathy checks.",
 			"",
@@ -31,7 +31,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Dryads are tree-fey who prefer secluded woodlands far from humanoids in need of lumber. Dryads' main interests are their own survival and that of their beloved forests, and they have been known to magically coerce passersby into aiding them in tasks they cannot complete. They are more likely to be friendly to non-evil druids and rangers, as they recognize a mutual respect for or empathy with nature.",
+			"Dryads are tree-fey who prefer secluded woodlands far from humanoids in need of lumber. Dryads' main interests are their own survival and that of their beloved forests, and they have been known to magically coerce passers-by into aiding them in tasks they cannot complete. They are more likely to be friendly to non-evil druids and rangers, as they recognize a mutual respect for or empathy with nature.",
 			"",
 			"Dryads are benign guardians of trees, and though they can do little in the way of direct violence, they can trap and disable threats to their homes or turn enemies into allies. Some keep one or more charmed humanoids in their territory to fend off or lead away attackers. Incapacitated foes are typically dragged to the edge of the forest by the dryad's allies and left there, but evil or overtly hostile ones are killed once combat is over."
 		]
@@ -60,9 +60,9 @@
 			"",
 			"**Madness (Ex)** Derros use their Charisma modifier on Will saves instead of their Wisdom modifier, and are immune to insanity and confusion effects. Only a {spell/miracle} or {spell/wish} can remove a derro's madness. If this occurs, the derro gains 6 points of Wisdom and loses 6 points of Charisma.",
 			"",
-			"**Poison Use (Ex)** Derros are not at risk of poisoning themselves when handling poison. They use Medium spider venom to poison their crossbow bolts, and generally carry 10 pre-poisoned bolts at all times.",
+			"**Poison Use (Ex)** Derros are not at risk of poisoning themselves when handling poison. They use {eq-poison/Medium spider venom} to poison their crossbow bolts, and generally carry 10 pre-poisoned bolts at all times.",
 			"",
-			"**Vulnerability to Sunlight (Ex)** A derro takes 1 point of Con damage after every hour it is exposed to sunlight.",
+			"**Vulnerability to Sunlight (Ex)** A derro takes 1 point of {rule/Con damage} after every hour it is exposed to sunlight.",
 			"",
 			"::sh[Description]",
 			"",
@@ -72,7 +72,15 @@
 			"",
 			"Derro leaders are typically sorcerers of at least 3rd level, although they also make excellent rogues. Many derros wield strange and unusual weapons like hooked polearms, eerie whistling aklyses, long hollow spears that can be filled with toxins, or crystalline throwing wedges that shatter on impact to create horrific bleeding wounds.",
 			"",
-			"A derro stands 3 feet tall and weighs 70 pounds."
+			"A derro stands 3 feet tall and weighs 70 pounds.",
+			"",
+			"### Other Derro",
+			"",
+			"- {monster/Bodysnatcher}",
+			"- {monster/Brainwasher}",
+			"- {monster/Magister}",
+			"- {monster/Urban Stalker}",
+			"- {monster/White-Eyed Torturer}"
 		]
 	},
 	"derro_derro_bodysnatcher": {
@@ -99,7 +107,7 @@
 			"",
 			"These master infiltrators creep through dark alleys and shadowy corners looking to waylay victims and drag them to Nar-Voth. Bodysnatchers prefer marginalized targets who walk the streets alone: criminals, the homeless, addicts, and any person few others would miss. Well studied in nonlethal tactics, bodysnatchers switch to deadly force only if their presence is exposed. When detected, these kidnappers usually break off pursuit, knowing all too well that they can plan another attempt during the next starless night. Abandoned targets usually then shout maniacal warnings, telling and retelling of their encounters with a race of unblinking nightmares that dwell below the city streets. Unfortunately, most of these testimonials fall on deaf ears. Derros depend on this surface-world indifference to conceal their nocturnal expeditions and keep their slave pens stocked.",
 			"",
-			"When the moon and stars above shine too brightly, derros forgo the surface and turn upon their Darklands neighbors, abducting dwarven miners, dark folk cultists, and even the rare lone drow. Only kobolds-for reasons that remain largely mysterious even to other derros-escape these hunters' sights. Derros consider the stock of subterranean races common at best and tainted at worst, but a steady supply of captives is needed for slave labor and as subjects of experiments, so even second-rate bodies will suffice in lean times.",
+			"When the moon and stars above shine too brightly, {monster/derro/s} forgo the surface and turn upon their Darklands neighbors, abducting dwarven miners, {family/dark folk} cultists, and even the rare lone {monster/drow}. Only {race/kobold/s} - for reasons that remain largely mysterious even to other derros - escape these hunters' sights. Derros consider the stock of subterranean races common at best and tainted at worst, but a steady supply of captives is needed for slave labor and as subjects of experiments, so even second-rate bodies will suffice in lean times.",
 			"",
 			"When derros grow brazen enough to take multiple specimens, they target complete households. Bodysnatchers are unparalleled in their ability to pluck victims from secure havens. Since news of an entire family's disappearance creates a stir, derros often direct such operations toward a settlement's rural outskirts and make it look like their marks were the victims of raiding bandits or a wild beast. Sometimes bodysnatchers even provide such cover themselves, dragging captured monsters with them from the depths to rampage through a home once their own work is complete, covering up any trace of derro involvement and leaving a delightful surprise for any concerned citizens who rush to their neighbors' aid."
 		]
@@ -129,7 +137,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"These sinister derros specialize in the skills needed to keep their underground civilization hidden from the surface world. Years of study and experimentation provide them with an unnatural understanding of how the humanoid mind works, especially the sections governing memory. Derro brainwashers program new memories into their targets and remove unwanted memories altogether; they edit away any evidence of their people and sow chaos within a subject's psyche, leaving the unfortunate soul jabbering and confused.",
+			"These sinister derros specialize in the skills needed to keep their underground civilization hidden from the surface world. Years of study and experimentation provide them with an unnatural understanding of how the humanoid mind works, especially the sections governing memory. {monster/Derro} brainwashers program new memories into their targets and remove unwanted memories altogether; they edit away any evidence of their people and sow chaos within a subject's psyche, leaving the unfortunate soul jabbering and confused.",
 			"",
 			"Brainwashers typically venture aboveground to examine former test subjects when their memories of Nar-Voth visits threaten to return with unwelcome clarity. Instead of killing these leaks outright, the derro would rather protect their investment and try to recover these subjects, open them up to see what went wrong, and return them after appropriate repairs. Fortunately for the brainwashers, these former guests are generally so unhinged from their experience that they're unable to hide effectively. Most rave about white-eyed abductors, slobbering in seedy taverns where they quell the horrible visions with strong drink, or are locked away in asylums when they're caught violently preparing for their tormentors' return. Once the brainwashers locate their targets, they incapacitate the unfortunate victims, bring them back underground, and alter their memories of recent events using either magic or drastic surgery. They rarely come to the surface unprepared or alone, however, and their expeditions often return with new subjects as well as old ones."
 		]
@@ -162,13 +170,13 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Cytillesh Stare (Ex)** Spores of cytillesh fungus in a derro magister's blood grant it a powerful stare. This works like the hypnotic stare of an 8th-level mesmerist with the painful stare ability and all seven of the base mesmerist's bold stares. When the cytillesh stare ends, the affected creature automatically forgets all that occurred while it was under the stare's effects. This is a mind-affecting effect.",
+			"**Cytillesh Stare (Ex)** Spores of cytillesh fungus in a derro magister's blood grant it a powerful stare. This works like the hypnotic stare of an 8th-level {class/mesmerist} with the painful stare ability and all seven of the base mesmerist's bold stares. When the cytillesh stare ends, the affected creature automatically forgets all that occurred while it was under the stare's effects. This is a mind-affecting effect.",
 			"",
 			"**Psychic Incoherence (Su)** A derro magister uses its Charisma modifier on Will saves instead of its Wisdom modifier. Creatures attempting to read a magister's mind must succeed at a DC 16 Will save or take 5d6 points of damage from mental anguish; this is a mind-affecting effect. The save DC is Charisma-based.",
 			"",
 			"**Puppeteer (Su)** As a standard action, a derro magister can target one willing creature within 30 feet, which can take an immediate action to perform one full turn's worth of actions of the magister's choice. Creatures do not obey obviously self-destructive orders. While affected, the creature does not suffer from incapacitating effects such as stun or paralysis; such effects don't prevent it from taking this immediate action.",
 			"",
-			"**Vulnerable to Sunlight (Ex)** A derro magister takes 2 points of Constitution damage after every hour it's exposed to sunlight",
+			"**Vulnerable to Sunlight (Ex)** A derro magister takes 2 points of {rule/Constitution damage} after every hour it's exposed to sunlight",
 			"",
 			"::sh[Description]",
 			"",
@@ -198,7 +206,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"When a victim of derro machinations escapes captivity, or when a subject's memories remain clear despite modification, derros abandon their research and send specialized killers to hunt down the wayward experiments. Urban stalkers excel at moving about cityscapes unnoticed and removing any traces of their passage. These skilled trackers often walk the streets in disguise, listening for and investigating rumors of derro activities. To sow confusion, these derros sometimes invent their own stories of mysterious human men and women in black who steal evidence and terrorize witnesses of abductions.",
+			"When a victim of {monster/derro} machinations escapes captivity, or when a subject's memories remain clear despite modification, derros abandon their research and send specialized killers to hunt down the wayward experiments. Urban stalkers excel at moving about cityscapes unnoticed and removing any traces of their passage. These skilled trackers often walk the streets in disguise, listening for and investigating rumors of derro activities. To sow confusion, these derros sometimes invent their own stories of mysterious human men and women in black who steal evidence and terrorize witnesses of abductions.",
 			"",
 			"Urban stalkers pursue their targets over several days and take great satisfaction in seeing their marks during the most intimate moments of their lives, even forming an unreciprocated obsession during their pursuit. When the moment finally comes to quiet those too stubborn to forget their experiences in Nar-Voth, these sadistic derros savor the last moments they have with their victims, even crying to themselves once the deed is done and their new \"friends\" lie quiet and cold. To protect themselves from this painful separation, urban stalkers stretch the killing out over an inhumane amount of time and always collect a memento from each victim that they lovingly care for and keep in a safe place alongside their other souvenirs."
 		]
@@ -228,7 +236,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"The self-mutilated white-eyed torturer carves into humanoid flesh with deviant glee and bestial hands, eager to learn the limits of anatomy. Armed with cutting implements, pliers, clamps, and perhaps even aberrant claws, this twisted surgeon goes about his work modifying his patients and himself. To this derro, his subject is at best a beast, and as his victim's screams echo through the nearby fungus-lined tunnels, other derros become drawn to the song and wait eagerly outside the torturer's laboratory to see what wonder he has created."
+			"The self-mutilated white-eyed torturer carves into humanoid flesh with deviant glee and bestial hands, eager to learn the limits of anatomy. Armed with cutting implements, pliers, clamps, and perhaps even aberrant claws, this twisted surgeon goes about his work modifying his patients and himself. To this {monster/derro}, his subject is at best a beast, and as his victim's screams echo through the nearby fungus-lined tunnels, other derros become drawn to the song and wait eagerly outside the torturer's laboratory to see what wonder he has created."
 		]
 	},
 	"white_eyed_torturer": { "redirect": "derro_white_eyed_torturer" },
@@ -252,7 +260,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Implant (Ex)** Ground wasps grow their eggs inside of a living host. Implanting eggs in a host is a full-round action that provokes attacks of opportunity, and the target must be helpless but alive. Once an egg is implanted, it exudes paralytic enzymes that not only keep the victim in a state of perpetual paralysis, but also keep it nourished and alive- and fully aware. This condition lasts until the egg hatches 1d6 days later, at which point the larvae consume most of the host, killing it. Any magical effect that removes paralysis or disease (such as remove paralysis, remove disease, or heal) destroys the eggs, but mere immunity to paralysis or disease does not offer protection.",
+			"**Implant (Ex)** Ground wasps grow their eggs inside of a living host. Implanting eggs in a host is a full-round action that provokes attacks of opportunity, and the target must be {misc/helpless} but alive. Once an egg is implanted, it exudes paralytic enzymes that not only keep the victim in a state of perpetual {rule/paralysis}, but also keep it nourished and alive - and fully aware. This condition lasts until the egg hatches 1d6 days later, at which point the larvae consume most of the host, killing it. Any magical effect that removes paralysis or disease (such as {spell/remove paralysis}, {spell/remove disease}, or {spell/heal}) destroys the eggs, but mere immunity to paralysis or disease does not offer protection.",
 			"",
 			"**Poison (Ex)**",
 			"",
@@ -284,7 +292,7 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Nauseating Spray (Ex)** A walking stick can spray a 15-foot cone of irritating, foul-smelling liquid once every 1d4 rounds. Creatures within this area must succeed at a DC 17 Reflex save or be sickened for 5 rounds. Alternatively, the walking stick can target a single creature within 30 feet with a stream of this fluid. To use this version of its nauseating spray, the walking stick must succeed at a ranged touch attack (+5 for most walking sticks). If the target is hit, it must succeed at a DC 17 Fortitude save or become nauseated for 5 rounds; otherwise, it is sickened for 5 rounds. The save DC is Constitution-based.",
+			"**Nauseating Spray (Ex)** A walking stick can spray a 15-foot cone of irritating, foul-smelling liquid once every 1d4 rounds. Creatures within this area must succeed at a DC 17 Reflex save or be {misc/sickened} for 5 rounds. Alternatively, the walking stick can target a single creature within 30 feet with a stream of this fluid. To use this version of its nauseating spray, the walking stick must succeed at a ranged touch attack (+5 for most walking sticks). If the target is hit, it must succeed at a DC 17 Fortitude save or become {misc/nauseated} for 5 rounds; otherwise, it is sickened for 5 rounds. The save DC is Constitution-based.",
 			"",
 			"::sh[Description]",
 			"",
@@ -314,9 +322,9 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Black Shards (Ex)** As a standard action, a despoiler can remove and throw a shard as a bolt of negative energy to a range of 80 feet, dealing 4d6 points of negative energy damage on a hit. A creature that takes damage from a black shard must succeed at a DC 19 Fortitude save or be staggered from the pain for 1d4 rounds. A despoiler can impale itself on a shard in this way to heal itself of 4d6 points of damage. Once a shard is used, it must be replenished via the despoiler's embrace of darkness ability. The save DC is Charisma-based.",
+			"**Black Shards (Ex)** As a standard action, a despoiler can remove and throw a shard as a bolt of negative energy to a range of 80 feet, dealing 4d6 points of negative energy damage on a hit. A creature that takes damage from a black shard must succeed at a DC 19 Fortitude save or be {misc/staggered} from the pain for 1d4 rounds. A despoiler can impale itself on a shard in this way to heal itself of 4d6 points of damage. Once a shard is used, it must be replenished via the despoiler's *embrace of darkness* ability. The save DC is Charisma-based.",
 			"",
-			"**Embrace of Darkness (Su)** If a despoiler pins a grappled creature, it deals 4d6 points of negative energy damage and staggers the victim for 1d3 rounds. When a despoiler uses this ability, it regrows a black shard (to a maximum of 3 black shards). A successful DC 19 Will save halves the damage and prevents the staggered condition and shard regrowth. The save DC is Charisma-based.",
+			"**Embrace of Darkness (Su)** If a despoiler pins a {rule/grappled} creature, it deals 4d6 points of negative energy damage and staggers the victim for 1d3 rounds. When a despoiler uses this ability, it regrows a black shard (to a maximum of 3 black shards). A successful DC 19 Will save halves the damage and prevents the staggered condition and shard regrowth. The save DC is Charisma-based.",
 			"",
 			"::sh[Description]",
 			"",
@@ -343,10 +351,10 @@
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Destructive Harmonics (Su)** A destrachan can project a blast of sonic energy in a cone up to 80 feet long or in a 30-foot-radius burst centered on itself as a standard action. It can adjust the harmonics of its sonic cry to generate one of two different effects on targets within the area of effect, but can only create one of these effects with each use of this ability. The save DCs are Constitution-based.",
+			"**Destructive Harmonics (Su)** A destrachan can project a blast of sonic energy in a cone up to 80 feet long or in a 30-foot-radius {misc/burst} centered on itself as a standard action. It can adjust the harmonics of its sonic cry to generate one of two different effects on targets within the area of effect, but can only create one of these effects with each use of this ability. The save DCs are Constitution-based.",
 			"",
-			"- *Destruction:* All creatures within the area of effect of the destructive harmonics take 8d6 points of sonic damage - a DC 19 Reflex save halves this damage. If the destrachan wishes, this damage can instead deal nonlethal damage rather than sonic damage. Alternatively, the destrachan can target a single crystal, metal, stone, or wooden object within 80 feet with this attack-that object takes 8d6 points of damage. This damage is not halved when applied to the object's hit points, but is reduced by the object's hardness. A magical or attended object can attempt a DC 19 Reflex save to halve the damage.",
-			"- *Pain:* Rather than deal damage, the destrachan can cause intense pain and overwhelming sound to affect all creatures within the area. Targets in the area must succeed on a DC 19 Fortitude save to avoid being stunned for 1 round and deafened for 1d6 rounds.",
+			"- *Destruction:* All creatures within the area of effect of the destructive harmonics take 8d6 points of sonic damage - a DC 19 Reflex save halves this damage. If the destrachan wishes, this damage can instead deal nonlethal damage rather than sonic damage. Alternatively, the destrachan can target a single crystal, metal, stone, or wooden object within 80 feet with this attack - that object takes 8d6 points of damage. This damage is not halved when applied to the object's hit points, but is reduced by the object's hardness. A magical or attended object can attempt a DC 19 Reflex save to halve the damage.",
+			"- *Pain:* Rather than deal damage, the destrachan can cause intense pain and overwhelming sound to affect all creatures within the area. Targets in the area must succeed on a DC 19 Fortitude save to avoid being {misc/stunned} for 1 round and deafened for 1d6 rounds.",
 			"",
 			"**Protection from Sonics (Ex)** A destrachan gains a +4 racial bonus on all saves against sonic attacks. It is immune to the effects of its own destructive harmonics. A destrachan whose sense of hearing is impaired is effectively blinded, treating all targets as if they had {rule/total |concealment}.",
 			"",
@@ -381,7 +389,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Devil monkeys are so named for their bright red-orange fur and distinct hair tufts that resemble horns. Despite their name and strange appearance, these primates have no connection to devils or other supernatural creatures, although their penchant for violence and lairing in regions not typically noted for primate fauna often sparks rumors of strange monsters or mythical invaders. In truth, devil monkeys are giant relatives of baboons. Like their smaller cousins, devil monkeys have dog-like muzzles and large canine teeth. Their tails are relatively short and not prehensile. Devil monkeys mostly move around on all fours, but when they rest on their haunches, their heads can reach up to 18 feet high. A typical devil monkey weighs 15,000 pounds.",
+			"Devil monkeys are so named for their bright red-orange fur and distinct hair tufts that resemble horns. Despite their name and strange appearance, these primates have no connection to {family/devil/s} or other supernatural creatures, although their penchant for violence and lairing in regions not typically noted for primate fauna often sparks rumors of strange monsters or mythical invaders. In truth, devil monkeys are giant relatives of {monster/baboon/s}. Like their smaller cousins, devil monkeys have dog-like muzzles and large canine teeth. Their tails are relatively short and not prehensile. Devil monkeys mostly move around on all fours, but when they rest on their haunches, their heads can reach up to 18 feet high. A typical devil monkey weighs 15,000 pounds.",
 			"",
 			"Owing to their rarity, reclusiveness, and unusual appearance, devil monkeys are often surrounded by legends. In many cases, they are mistaken for other creatures. Their spoor might suggest an unusually large bear or other predator, while those who catch sight of the primate may mistake it for a devil or other fiend. Even when they're recognized as a kind of monkey, the fact that they may live far from typical monkey territory often adds to their air of sinister mystery."
 		]
