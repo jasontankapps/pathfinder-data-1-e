@@ -251,6 +251,7 @@
 			"saving_throws"
 		]
 	},
+	"size_bonus": { "redirect": "armor_class" },
 	"damage": {
 		"name": "Damage",
 		"sources": [ "PRPG Core Rulebook" ],

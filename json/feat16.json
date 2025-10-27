@@ -418,7 +418,7 @@
 			"",
 			"You are highly alert for enemies using teleportation to approach you or flee from you.  ",
 			"**Prerequisites:** {feat/Combat Reflexes}, {feat/Disruptive}, {feat/Spellbreaker}.  ",
-			"**Benefit:** Any creature using a teleportation effect to enter or leave a square threatened by you provokes an attack of opportunity, even if [casting defensively](rule/concentration) or using a supernatural ability.",
+			"**Benefit:** Any creature using a teleportation effect to enter or leave a square threatened by you provokes an attack of opportunity, even if {rule/casting defensively} or using a supernatural ability.",
 			"",
 			":::stamina",
 			"",

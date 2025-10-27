@@ -1220,6 +1220,8 @@
 			"combining_magic_effects"
 		]
 	},
+	"casting_defensively": { "redirect": "concentration" },
+	"cast_spells_defensively": { "redirect": "concentration" },
 	"counterspells": {
 		"name": "Counterspells",
 		"sources": [ "PRPG Core Rulebook" ],
