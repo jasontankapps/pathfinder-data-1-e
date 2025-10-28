@@ -1,7 +1,7 @@
 import isALink from "../get-all-links.js";
 import { convertTextToLink } from "../tests/checkForEncodedLink.js";
 
-const linkify = (spell) => convertTextToLink(spell.replace(/#[A-Z]/g, ""));
+const linkify = (spell) => convertTextToLink(spell.replace(/#[A-Z0-9]/g, ""));
 
 export const makeMonsterOffenseBlock = (marked2, linker, maybeClear, attrs, logError) => {
 	const {
@@ -270,8 +270,12 @@ export const makeMonsterSpellBlock = (marked2, linker, maybeClear, attrs, logErr
 		}
 		return pre + found.map(
 			f => doParse(f)
-				.replace(/((?:#(?:[A-Z]))+)<[/]Link>/g, "</Link>$1")
+				.replace(/((?:#(?:[A-Z0-9]))+)<[/]Link>/g, "</Link>$1")
 				.replace(/#([A-Z])/g, "<sup>$1</sup>")
+				.replace(/#1\b/g, "<sup>1st</sup>")
+				.replace(/#2\b/g, "<sup>2nd</sup>")
+				.replace(/#3\b/g, "<sup>3rd</sup>")
+				.replace(/#([4-9])/g, "<sup>$1th</sup>")
 		).join(", ").replace(/<[/]sup><sup>/g, " ")
 			.replace(/<[/]em>, <em>/g, ", ")
 			.replace(/<[/]em>,/g, ",</em>")

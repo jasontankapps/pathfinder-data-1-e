@@ -17,21 +17,33 @@
 			"",
 			"::mstats{str=11 dex=15 con=10 int=10 wis=9 cha=10 bab=+1 cmb=+1 cmd=13 feats=\"Weapon Finesse\" skills=\"Perception +2~Stealth +2\" racial=\"+2 Perception\" lang=\"Elven, Undercommon\" sq=\"poison use\"}",
 			"",
-			"::meco{env=underground org=\"pair, squad (3-4), patrol (5-8), or war party (10-40)\" treasure=\"npc=%%eq-armor/leather armor%%, %%eq-armor/light steel shield%%, %%eq-weapon/rapier%%, %%eq-weapon/hand crossbow%% with 20 bolts, drow poison &#91&2 doses&#93&, 3d6 gp, other treasure\"}",
+			"::meco{env=underground org=\"pair, squad (3-4), patrol (5-8), or war party (10-40)\" treasure=\"npc=%%eq-armor/leather armor%%, %%eq-armor/light steel shield%%, %%eq-weapon/rapier%%, %%eq-weapon/hand crossbow%% with 20 bolts, %%eq-poison/drow poison%% &#91&2 doses&#93&, 3d6 gp, other treasure\"}",
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Poison Use (Ex)** Drow are skilled in the use of poison and never risk accidentally poisoning themselves. Drow favor an insidious toxin that causes its victims to lapse into unconsciousness - this {eq-poison/drow_<poison} allows drow to capture slaves with great ease.",
+			"**Poison Use (Ex)** Drow are skilled in the use of poison and never risk accidentally poisoning themselves. Drow favor an insidious toxin that causes its victims to lapse into unconsciousness - this poison allows drow to capture slaves with great ease.",
 			"",
 			"::sh[Description]",
 			"",
-			"Although related to the elves, the drow are a vile and evil cousin at best. Sometimes called dark elves, these cunning creatures prowl the caves and tunnels of the world below, ruling vast subterranean cities through fear and might. Worshiping demons and enslaving most races they encounter, the drow are among the underworld's most feared and hated denizens.",
+			"Although related to the elves, the {race/drow} are a vile and evil cousin at best. Sometimes called dark {race/elves}, these cunning creatures prowl the caves and tunnels of the world below, ruling vast subterranean cities through fear and might. Worshiping demons and enslaving most races they encounter, the drow are among the underworld's most feared and hated denizens.",
 			"",
 			"Drow are shorter and a bit more slender than their surface-dwelling kin, but they are otherwise physically similar. Drow have dark skin, ranging from black to a hazy purple hue. Most drow have white or silver hair and white or red eyes, but other colors are not unheard of.",
 			"",
-			"Drow society is ruled over by powerful nobility, themselves governed by sadistic and dangerous matriarchs who constantly plot and scheme against rival houses and lesser kin within their own families. The majority of drow are the common soldiers and decadent citizenry, with base stats as presented here-drow nobles are more powerful and dangerous, and are detailed below.",
+			"Drow society is ruled over by powerful nobility, themselves governed by sadistic and dangerous matriarchs who constantly plot and scheme against rival houses and lesser kin within their own families. The majority of drow are the common soldiers and decadent citizenry, with base stats as presented above - {monster/drow noble/s} are more powerful and dangerous.",
 			"",
-			"In combat, drow are thoroughly ruthless, with little regard for fairness or mercy. They prefer to attack from ambush or to lure enemies into situations where they clearly have the upper hand. If things turn against them, drow are quick to flee, leaving slaves and minions to cover their escape."
+			"In combat, drow are thoroughly ruthless, with little regard for fairness or mercy. They prefer to attack from ambush or to lure enemies into situations where they clearly have the upper hand. If things turn against them, drow are quick to flee, leaving slaves and minions to cover their escape.",
+			"",
+			"### Other Drow",
+			"",
+			"- {monster/Drow Demonic Champion}",
+			"- {monster/Drow House Captain}",
+			"- {monster/Drow House Guard}",
+			"- {monster/Drow Master Scout}",
+			"- {monster/Drow Matron}",
+			"- {monster/Drow Noble}",
+			"- {monster/Drow Poisoner}",
+			"- {monster/Drow Priest}",
+			"- {monster/Drow Scout}"
 		]
 	},
 	"drow_drow_demonic_champion": {
@@ -56,8 +68,8 @@
 			"",
 			"::sh[Tactics]",
 			"",
-			"**Before Combat** The demonic champion casts invisibility and protection from good on herself, then uses her scroll of defile armor on her full plate. She prefers to use her fiendish boon ability to grant her scimitar the {magic-enh/anarchic}, {magic-enh/flaming}, {magic-enh/unholy}, or {magic-enh/vicious} weapon special ability.  ",
-			"**During Combat** The demonic champion uses smite good and Channel Smite with her scimitar attacks to harm foes, or uses her cruelties and touch of corruption to disable opponents. She casts silence to interfere with spellcasters employing ranged spells against her.",
+			"**Before Combat** The demonic champion casts *invisibility* and *protection from good* on herself, then uses her scroll of *defile armor* on her full plate. She prefers to use her fiendish boon ability to grant her scimitar the {magic-enh/anarchic}, {magic-enh/flaming}, {magic-enh/unholy}, or {magic-enh/vicious} weapon special ability.  ",
+			"**During Combat** The demonic champion uses smite good and Channel Smite with her scimitar attacks to harm foes, or uses her cruelties and touch of corruption to disable opponents. She casts *silence* to interfere with spellcasters employing ranged spells against her.",
 			"",
 			"::mstats{str=18 dex=12 con=12 int=12 wis=8 cha=16 bab=+10 cmb=+14 cmd=25 feats=\"Channel Smite~Improved Critical=scimitar~Improved Initiative~Shield Focus~Weapon Focus=scimitar\" skills=\"Acrobatics +0~Climb +3~Intimidate +11~Perception +11~Stealth +8\" lang=\"Elven, Undercommon\" sq=\"cruelties (dazed, nauseated, sickened, staggered), fiendish boon (weapon +2, 2/day), %%ability/poison use%%, touch of corruption 8/day (5d6)\" combat=\"potion of %%spell/cure serious wounds%%, potion of %%spell/delay poison%%, potion of %%spell/haste%%, scroll of %%spell/defile armor%%, scroll of *invisibility*, %%eq-weapon/acid%% (2), %%eq-weapon/alchemist's fire%% (2), %%eq-misc/antitoxin%%\" othergear=\"+1 %%eq-armor/full plate%%, +1 %%eq-armor/heavy steel shield%%, +1 %%eq-weapon/scimitar%%, %%eq-weapon/heavy crossbow%% with 10 mwk bolts, %%magic-wondrous/belt of giant strength +2%%, 69 gp\"}",
 			"",
@@ -65,7 +77,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"A demonic champion has been tested by the powers of the Abyss and emerged stronger for it. Her soul is scarred by centuries of depraved acts, and she is irredeemable in her evil-something she is happy to prove. Demonic champions enjoy many creature comforts within drow society thanks to the spoils they claim in war, but their bloodlust motivates them to repeatedly return to battle."
+			"A demonic champion has been tested by the powers of {rule/the Abyss} and emerged stronger for it. Her soul is scarred by centuries of depraved acts, and she is irredeemable in her evil - something she is happy to prove. Demonic champions enjoy many creature comforts within {monster/drow} society thanks to the spoils they claim in war, but their bloodlust motivates them to repeatedly return to battle."
 		]
 	},
 	"drow_demonic_champion": { "redirect": "drow_drow_demonic_champion" },
@@ -91,7 +103,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"A house guard is better trained and equipped than a common warrior defending a drow city or caravan."
+			"A house guard is better trained and equipped than a common warrior defending a {monster/drow} city or caravan."
 		]
 	},
 	"drow_house_captain": { "redirect": "drow_drow_house_captain" },
@@ -121,7 +133,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"A house guard is better trained and equipped than a common warrior defending a drow city or caravan."
+			"A house guard is better trained and equipped than a common warrior defending a {monster/drow} city or caravan."
 		]
 	},
 	"drow_house_guard": { "redirect": "drow_drow_house_guard" },
@@ -151,7 +163,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Scouts are cunning and resourceful, but still must prove themselves to higher-ranked drow before being considered anything but expendable."
+			"Scouts are cunning and resourceful, but still must prove themselves to higher-ranked {monster/drow} before being considered anything but expendable."
 		]
 	},
 	"drow_master_scout": { "redirect": "drow_drow_master_scout" },
@@ -185,7 +197,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Born with unusual powers, the matron has survived coup attempts by countless rivals to remain the head of her house."
+			"Born with unusual powers, the {monster/drow} matron has survived coup attempts by countless rivals to remain the head of her house."
 		]
 	},
 	"drow_matron": { "redirect": "drow_drow_matron" },
@@ -221,7 +233,7 @@
 			"",
 			"Drow are shorter and a bit more slender than their surface-dwelling kin, but they are otherwise physically similar. Drow have dark skin, ranging from black to a hazy purple hue. Most drow have white or silver hair and white or red eyes, but other colors are not unheard of.",
 			"",
-			"Drow society is ruled over by powerful nobility, themselves governed by sadistic and dangerous matriarchs who constantly plot and scheme against rival houses and lesser kin within their own families. The majority of drow are the common soldiers and decadent citizenry, with base stats as presented here-drow nobles are more powerful and dangerous, and are detailed below.",
+			"Drow society is ruled over by powerful nobility, themselves governed by sadistic and dangerous matriarchs who constantly plot and scheme against rival houses and lesser kin within their own families. The majority of {monster/drow} are the common soldiers and decadent citizenry, with base stats as presented there - {race/drow noble/s} are more powerful and dangerous, and are detailed above.",
 			"",
 			"In combat, drow are thoroughly ruthless, with little regard for fairness or mercy. They prefer to attack from ambush or to lure enemies into situations where they clearly have the upper hand. If things turn against them, drow are quick to flee, leaving slaves and minions to cover their escape."
 		]
@@ -256,7 +268,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"This drow makes use of deadly venoms and alchemy."
+			"This {monster/drow} makes use of deadly venoms and alchemy."
 		]
 	},
 	"drow_poisoner": { "redirect": "drow_drow_poisoner" },
@@ -286,9 +298,9 @@
 			"",
 			"::sh[Tactics]",
 			"",
-			"**Before Combat** The priest casts shield of faith on herself. She prefers to let her minions do the fighting, and has them stand between her and any approaching foes.  ",
-			"**During Combat** The priest channels negative energy at groups of foes and uses single-target spells against her most dangerous opponent (typically starting with hold person so her allies can surround the hapless target).  ",
-			"**Base Statistics** Without shield of faith, the drow's statistics are AC 22, touch 11, flat-footed 21.",
+			"**Before Combat** The priest casts *shield of faith* on herself. She prefers to let her minions do the fighting, and has them stand between her and any approaching foes.  ",
+			"**During Combat** The priest {ability/channel[s] negative energy} at groups of foes and uses single-target spells against her most dangerous opponent (typically starting with *hold person* so her allies can surround the hapless target).  ",
+			"**Base Statistics** Without *shield of faith,* the drow's statistics are AC 22, touch 11, flat-footed 21.",
 			"",
 			"::mstats{str=10 dex=12 con=12 int=14 wis=18 cha=15 bab=+3 cmb=+3 cmd=14 feats=\"Combat Casting~Extra Channel~Improved Initiative\" skills=\"Bluff +3~Diplomacy +6~Intimidate +7~Knowledge (arcana) +6~Knowledge (history) +6~Knowledge (nobility) +6~Knowledge (religion) +10~Perception +11~Sense Motive +12\" lang=\"Abyssal, Common, Elven, Undercommon\" sq=\"%%ability/poison use%%\" combat=\"potion of %%spell/invisibility%%, potion of %%spell/owl's wisdom%%, scroll of %%spell/cure moderate wounds%%, scroll of %%spell/cure serious wounds%%, scroll of %%spell/magic weapon%%\" othergear=\"mwk %%eq-armor/full plate%%, %%eq-armor/heavy steel shield%%, mwk %%eq-weapon/light_<flail%%, %%eq-misc/spell component pouch%%, 167 gp\"}",
 			"",
@@ -296,7 +308,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Having manipulated and assassinated her way into the middle ranks of her church, the drow priest uses her powers to eliminate rivals as she continues her climb. The drow religious orders are just as cutthroat as every other aspect of drow society. Their priests see the ability to out-scheme one's foes as a sign of the unholy favor of their demonic patrons."
+			"Having manipulated and assassinated her way into the middle ranks of her church, the drow priest uses her powers to eliminate rivals as she continues her climb. The drow religious orders are just as cutthroat as every other aspect of {monster/drow} society. Their priests see the ability to out-scheme one's foes as a sign of the unholy favor of their demonic patrons."
 		]
 	},
 	"drow_priest": { "redirect": "drow_drow_priest" },
@@ -322,7 +334,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Scouts are cunning and resourceful, but still must prove themselves to higher-ranked drow before being considered anything but expendable."
+			"Scouts are cunning and resourceful, but still must prove themselves to higher-ranked {monster/drow} before being considered anything but expendable."
 		]
 	},
 	"drow_scout": { "redirect": "drow_drow_scout" },
