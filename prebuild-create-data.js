@@ -305,6 +305,8 @@ const postprocess = (tables) => {
 			.replace(/&#39;/g, "'")
 			// Replace unneeded HTML entity for the quotation mark
 			.replace(/&quot;/g, "\"")
+			// Replace unneeded HTML entity for the open and close brackets
+			.replace(/&#91;/g, "[").replace(/&#93;/g, "]")
 			// Fix incorrect React syntax on ordered lists
 			.replace(/(<ol [^>]*start=)"([0-9])"([^>]*>)/g, "$1{$2}$3")
 			// Remove whitespace at start and end
