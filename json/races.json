@@ -1520,6 +1520,35 @@
 			"[^D]: {source/Darklands Revisited/ pg. 13}"
 		]
 	},
+	"duergar_tyrant": {
+		"name": "Duergar Tyrant",
+		"sources": [
+			"Occult Bestiary",
+			"Advanced Race Guide"
+		],
+		"description": [
+			"## Duergar Tyrant",
+			"",
+			"{SOURCE Occult Bestiary/23;Advanced Race Guide/186}  ",
+			"Duergar tyrants are defined by their class levels - they do not have racial Hit Dice. Duergar tyrants have all of the racial traits of {race/duergar} characters except spell-like abilities, in addition to the following.",
+			"",
+			"::h3[Duergar Racial Traits]{jl}",
+			"",
+			">**+2 Strength, +4 Constitution, +2 Wisdom, -2 Charisma:** Duergar tyrants are strong, hardy, and willful.  ",
+			">**Medium:** Duergar are Medium creatures and have no bonuses or penalties due to their size.  ",
+			">**Dwarf:** Duergar are humanoids with the dwarf subtype.  ",
+			">**Slow and Steady:** Duergar have a base speed of 20 feet, but their speed is never modified by armor or encumbrance.  ",
+			">**Superior Darkvision:** Duergar can see in the dark up to 120 feet.  ",
+			">**Duergar Immunities:** Duergar are immune to paralysis, phantasms, and poison. They gain a +2 racial bonus on saves against spells and spell-like abilities.  ",
+			">**Psychic Resilience (Ex):** Duergar tyrants' racial bonus against spells and spell-like abilities increases from +2 to +4 on saving throws against psychic spells and spell-like abilities.  ",
+			">**Stability:** Duergar receive a +4 racial bonus to their Combat Maneuver Defense against bull rush or trip attempts while standing on the ground.  ",
+			">**Light Sensitivity:** Duergar are dazzled in areas of bright light.  ",
+			">**Languages:** Duergar begin play speaking Common, Dwarven, and Undercommon. Duergar with high Intelligence scores can choose from the following languages: Aklo, Draconic, Giant, Goblin, Orc, and Terran.  ",
+			">**Telekinetic Adept:** A duergar tyrant has access to the {kinetic/basic telekinesis}, {kinetic/kinetic form}, {kinetic/telekinetic finesse}, {kinetic/telekinetic haul}, and {kinetic/telekinetic invisibility} kineticist wild talents with an effective {class/kineticist} level equal to her total character level.  ",
+			">**Psychic Magic:** Duergar tyrants can cast {spell/ironskin} (2 PE) and {spell/mind thrust I} (1 PE) as per the {umr/psychic magic} universal monster rule. The caster level is equal to the duergar tyrant's total character level. Duergar tyrants have a reservoir of 5 PE per day.  ",
+			">**Spell Resistance:** A duergar tyrant has spell resistance equal to 11 + her character level."
+		]
+	},
 	"duskwalker": {
 		"name": "Duskwalker",
 		"sources": [

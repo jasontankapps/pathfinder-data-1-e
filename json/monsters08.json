@@ -356,15 +356,29 @@
 			"",
 			"::mstats{str=12 dex=9 con=15 int=10 wis=13 cha=4 bab=+1 cmb=+2 cmd=11 feats=\"Weapon Focus=warhammer\" skills=\"Intimidate +1~Stealth -3\" racial=\"+2 Perception relating to stonework, +4 Stealth\" lang=\"Common, Dwarven, Undercommon\" sq=\"slow and steady, stability\"}",
 			"",
-			"::meco{env=\"any underground\" org=\"solitary, team (2-5), squad (6-12 plus 3 sergeants of 3rd level and 1 leader of 3rd-8th level), or clan (13-80 plus 25% noncombatant children plus 1 sergeant of 3rd level per 5 adults, 3-6 lieutenants of 3rd-6th level, and 1-4 captains of 9th level)\" treasure=\"npc=%%eq-armor/chainmail%%, %%eq-armor/heavy steel shield%%, %%eq-weapon/warhammer%%, light crossbow &#91&20 bolts&#93&, 3d6 gp, other treasure\"}",
+			"::meco{env=\"any underground\" org=\"solitary, team (2-5), squad (6-12 plus 3 %%monster/duergar_<sergeant/s%% of 3rd level and 1 leader of 3rd-8th level), or clan (13-80 plus 25% noncombatant children plus 1 sergeant of 3rd level per 5 adults, 3-6 %%monster/duergar_<lieutenant/s%% of 3rd-6th level, and 1-4 %%monster/duergar_<captain/s%% of 9th level)\" treasure=\"npc=%%eq-armor/chainmail%%, %%eq-armor/heavy steel shield%%, %%eq-weapon/warhammer%%, light crossbow &#91&20 bolts&#93&, 3d6 gp, other treasure\"}",
 			"",
 			"::sh[Description]",
 			"",
-			"Cousins to dwarves, duergar are foul-tempered creatures that loathe intruders to their underground realms - but not nearly as much as they do their kinfolk closer to the surface.",
+			"Cousins to {race/dwarves}, {race/duergar} are foul-tempered creatures that loathe intruders to their underground realms - but not nearly as much as they do their kinfolk closer to the surface.",
 			"",
 			"Duergar dwell in communities deep underground, and appear as darker, more twisted versions of their kinder kin. Their skin is a dull gray, as though rubbed with dust or ash, but this is a natural coloration that better allows them to blend with their underground surroundings. They are a race of slavers, but while non-dwarven prisoners are usually put to backbreaking work, dwarven prisoners are generally slain on the spot.",
 			"",
-			"In combat, duergar fire crossbows from a distance, then shift to the warhammer after a few rounds. If outnumbered, or given sufficient threat (and space), a duergar will use its enlarge person ability and begin lashing out at its enemies."
+			"In combat, duergar fire crossbows from a distance, then shift to the warhammer after a few rounds. If outnumbered, or given sufficient threat (and space), a duergar will use its *enlarge person* ability and begin lashing out at its enemies.",
+			"",
+			"### Other Duergar",
+			"",
+			"- {monster/Duergar Anvil}",
+			"- {monster/Duergar Bombardier}",
+			"- {monster/Duergar Captain}",
+			"- {monster/Duergar Hammer}",
+			"- {monster/Duergar High Priest}",
+			"- {monster/Duergar Lieutenant}",
+			"- {monster/Duergar Sergeant}",
+			"- {monster/Duergar Sharpshooter}",
+			"- {monster/Duergar Slaver}",
+			"- {monster/Duergar Taskmaster}",
+			"- {monster/Duergar Tyrant}"
 		]
 	},
 	"duergar_duergar_anvil": {
@@ -385,7 +399,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Martial mystics expunge corruption from duergar society."
+			"Martial mystics expunge corruption from {monster/duergar} society."
 		]
 	},
 	"duergar_anvil": { "redirect": "duergar_duergar_anvil" },
@@ -407,9 +421,9 @@
 			"",
 			"::sh[Tactics]",
 			"",
-			"**Before Combat** The bombardier quaffs a Dexterity mutagen and casts ironskin.  ",
-			"**During Combat** The bombardier spends most of the combat lobbing bombs or alchemist's fire at her foes, using invisibility and potions of longstrider to gain superior tactical positions or make a hasty retreat.  ",
-			"**Base Statistics** When she's not under the effect of her mutagen and ironskin, the bombardier's statistics are Init +2; AC 14, touch 12, flat-footed 12; Ref +5, Will +1; Ranged bomb +4 (1d6+2 fire) or light crossbow +3 (1d8/19-20); Dex 14, Wis 12; CMD 14 (18 vs. bull rush, 18 vs. trip); Skills Heal +6, Disable Device +7, Perception +6, Survival +6.",
+			"**Before Combat** The bombardier quaffs a Dexterity mutagen and casts *ironskin.*  ",
+			"**During Combat** The bombardier spends most of the combat lobbing bombs or alchemist's fire at her foes, using *invisibility* and potions of *longstrider* to gain superior tactical positions or make a hasty retreat.  ",
+			"**Base Statistics** When she's not under the effect of her mutagen and *ironskin,* the bombardier's statistics are Init +2; AC 14, touch 12, flat-footed 12; Ref +5, Will +1; Ranged bomb +4 (1d6+2 fire) or light crossbow +3 (1d8/19-20); Dex 14, Wis 12; CMD 14 (18 vs. bull rush, 18 vs. trip); Skills Heal +6, Disable Device +7, Perception +6, Survival +6.",
 			"",
 			"::mstats{str=12 dex=16 con=15 int=15 wis=10 cha=4 bab=+1 cmb=+2 cmd=\"16 (20 vs. bull rush or trip)\" feats=\"Brew Potion~Extra Bombs~Throw Anything\" skills=\"Craft (alchemy) +7~Disable Device +8~Heal +4~Knowledge (arcana) +7~Perception +6~Survival +4\" lang=\"Aklo, Common, Draconic, Dwarven, Undercommon\" sq=\"alchemy (alchemy crafting +2, identify potions), discovery (%%discovery/acid bomb%%), ironskinned, mutagen (+4/-2, +2 natural, 20 minutes), %%ability/poison use%%, slow and steady, stability\" combat=\"potions of %%spell/cure light wounds%% (2), potions of %%spell/detect secret doors%% (2), potions of %%spell/expeditious retreat%% (2), potions of %%spell/negate aroma%% (2), %%eq-weapon/acid%% (6), %%eq-weapon/alchemist's fire%% (6), %%eq-misc/smokestick/s%% (6), %%eq-weapon/tanglefoot bag/s%% (6), %%eq-weapon/thunderstone/s%% (6)\" othergear=\"%%eq-armor/leather armor%%, %%eq-weapon/light crossbow%% with 10 bolts, %%eq-weapon/light mace%%, %%magic-wondrous/dust of tracelessness%%, %%eq-misc/tindertwig/s%% (6), %%eq-misc/formula book%%, 2 gp\"}",
 			"",
@@ -443,7 +457,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Veteran soldiers among the duergar lead groups of warriors or form their own elite strike forces. These soldiers always use enlarge person before combat."
+			"Veteran soldiers among the {monster/duergar} lead groups of warriors or form their own elite strike forces. These soldiers always use *enlarge person* before combat."
 		]
 	},
 	"duergar_captain": { "redirect": "duergar_duergar_captain" },
@@ -467,7 +481,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Martial mystics expunge corruption from duergar society."
+			"Martial mystics expunge corruption from {monster/duergar} society."
 		]
 	},
 	"duergar_hammer": { "redirect": "duergar_duergar_hammer" },
@@ -495,9 +509,9 @@
 			"",
 			"::sh[Tactics]",
 			"",
-			"**Before Combat** The high priest casts freedom of movement, ironskin, and shield of faith.  ",
-			"**During Combat** The high priest first provides magical support, then uses enlarge person and enters combat.  ",
-			"**Base Statistics** When not under the effects of freedom of movement, ironskin, and shield of faith, the high priest's statistics are AC 22, touch 11, flat-footed 22; Speed no freedom of movement.",
+			"**Before Combat** The high priest casts *freedom of movement, ironskin,* and *shield of faith.*  ",
+			"**During Combat** The high priest first provides magical support, then uses *enlarge person* and enters combat.  ",
+			"**Base Statistics** When not under the effects of *freedom of movement, ironskin,* and *shield of faith,* the high priest's statistics are AC 22, touch 11, flat-footed 22; Speed no *freedom of movement.*",
 			"",
 			"::mstats{str=13 dex=10 con=14 int=8 wis=20 cha=12 bab=+9 cmb=+10 cmd=\"21 (25 vs. bull rush or trip)\" feats=\"Combat Casting~Gray Dwarf Magic=ironskin~Giant Steps~Innate Flexibility~Tough as Iron~Toughness~Weapon Focus=heavy mace\" skills=\"Knowledge (religion) +8~Perception +18~Spellcraft +9\" lang=\"Common, Dwarven, Undercommon\" sq=\"slow and steady, stability\" combat=\"scroll of *cure critical wounds*\" othergear=\"+3 %%eq-armor/chainmail%%, +1 %%eq-weapon/heavy mace%%, mwk %%eq-weapon/light crossbow%% with 20 bolts, %%magic-wondrous/amulet of natural armor +2%%, %%magic-wondrous/headband of inspired wisdom +2%%, %%magic-ring/ring of protection +1%%, %%eq-misc/silver unholy symbol%%, %%eq-misc/spell component pouch%%, 321 gp\"}",
 			"",
@@ -505,7 +519,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Because religious doctrine is so influential in duergar society, common duergar treat high priests like the voice of their god, trusting their wisdom in all things. A high priest is effectively the primary lawmaker for her clan."
+			"Because religious doctrine is so influential in {monster/duergar} society, common duergar treat high priests like the voice of their god, trusting their wisdom in all things. A high priest is effectively the primary lawmaker for her clan."
 		]
 	},
 	"duergar_high_priest": { "redirect": "duergar_duergar_high_priest" },
@@ -527,8 +541,8 @@
 			"",
 			"::sh[Tactics]",
 			"",
-			"**Before Combat** The lieutenant casts ironskin and lead blades on himself.  ",
-			"**Base Statistics** When not under the effects of ironskin and lead blades, the lieutenant's statistics are AC 16, touch 11, flat-footed 15; Melee +1 warhammer +11/+6 (1d8+4/&times;3).",
+			"**Before Combat** The lieutenant casts *ironskin* and *lead blades* on himself.  ",
+			"**Base Statistics** When not under the effects of *ironskin* and *lead blades,* the lieutenant's statistics are AC 16, touch 11, flat-footed 15; Melee +1 warhammer +11/+6 (1d8+4/&times;3).",
 			"",
 			"::mstats{str=16 dex=12 con=16 int=10 wis=15 cha=4 bab=+6 cmb=+9 cmd=\"20 (24 vs. bull rush or trip)\" feats=\"Cleave~Endurance~Mounted Combat~Power Attack~Weapon Focus=warhammer\" skills=\"Climb +11~Handle Animal +6~Knowledge (dungeoneering) +9~Perception +11~Ride +9~Survival +11\" lang=\"Common, Dwarven, Undercommon\" sq=\"%%ability/favored terrain%% (underground +2), hunter's bond (companions), ironskinned, slow and steady, stability, track +3, twilight touched, %%ability/wild empathy%% +3\" combat=\"potion of %%spell/cure moderate wounds%%, potion of %%spell/invisibility%%, %%eq-weapon/alchemist's fire%% (2), %%eq-weapon/thunderstone/s%% (2)\" othergear=\"+1 %%eq-armor/chain shirt%%, +1 %%eq-weapon/warhammer%%, mwk %%eq-weapon/light crossbow%% with 20 bolts, 51 gp\"}",
 			"",
@@ -536,7 +550,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Spending much time scouting and exploring alone, rangers prove their toughness to their kin."
+			"Spending much time scouting and exploring alone, {monster/duergar} rangers prove their toughness to their kin."
 		]
 	},
 	"duergar_lieutenant": { "redirect": "duergar_duergar_lieutenant" },
@@ -560,7 +574,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Veteran soldiers among the duergar lead groups of warriors or form their own elite strike forces. These soldiers always use enlarge person before combat."
+			"Veteran soldiers among the {monster/duergar} lead groups of warriors or form their own elite strike forces. These soldiers always use *enlarge person* before combat."
 		]
 	},
 	"duergar_sergeant": { "redirect": "duergar_duergar_sergeant" },
@@ -584,7 +598,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Spending much time scouting and exploring alone, rangers prove their toughness to their kin."
+			"Spending much time scouting and exploring alone, {monster/duergar} rangers prove their toughness to their kin."
 		]
 	},
 	"duergar_sharpshooter": { "redirect": "duergar_duergar_sharpshooter" },
@@ -608,7 +622,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Duergar rogues primarily capture and discipline slaves."
+			"{monster/Duergar} rogues primarily capture and discipline slaves."
 		]
 	},
 	"duergar_slaver": { "redirect": "duergar_duergar_slaver" },
@@ -634,7 +648,7 @@
 			"",
 			"::sh[Description]",
 			"",
-			"Duergar rogues primarily capture and discipline slaves."
+			"{monster/Duergar} rogues primarily capture and discipline slaves."
 		]
 	},
 	"duergar_taskmaster": { "redirect": "duergar_duergar_taskmaster" },
@@ -656,25 +670,13 @@
 			"",
 			"::mstats{str=16 dex=13 con=19 int=10 wis=14 cha=6 bab=+2 cmb=+5 cmd=\"16 (20 vs. bull rush and trip while on solid ground)\" feats=\"Point-Blank Shot~Weapon Focus=earth blast\" skills=\"Intimidate +4~Knowledge (dungeoneering) +6~Perception +8 (+10 related to stonework)~Stealth +10\" racial=\"+2 Perception related to stonework, +4 Stealth\" sq=\"burn (1/round, maximum 7), elemental overflow +1, slow and steady, stability, telekinetic adept\"}",
 			"",
-			"::meco{env=\"any underground\" org=\"solitary, squad (1 plus 6-12 %%monster/duergar%% plus 3 sergeants of 3rd level and 1 leader of 3rd-8th level), or clan (1 plus 13-18 duergar, 25% noncombatant children, 1 sergeant of 3rd level per 5 adults, 3-6 lieutenants of 3rd-6th level, and 1-4 captains of 9th level)\" treasure=\"npc=+1 %%eq-armor/chain shirt%%, 400 gp\"}",
+			"::meco{env=\"any underground\" org=\"solitary, squad (1 plus 6-12 %%monster/duergar%% plus 3 %%monster/duergar_<sergeant/s%% of 3rd level and 1 leader of 3rd-8th level), or clan (1 plus 13-18 duergar, 25% noncombatant children, 1 sergeant of 3rd level per 5 adults, 3-6 %%monster/duergar_<lieutenant/s%% of 3rd-6th level, and 1-4 %%monster/duergar_<captain/s%% of 9th level)\" treasure=\"npc=+1 %%eq-armor/chain shirt%%, 400 gp\"}",
 			"",
 			"::sh[Description]",
 			"",
 			"One in a hundred births brings forth a duergar bestowed with powerful psychic gifts. When such children grow into their powers, they often become authoritarian members of their clans known as tyrants.",
 			"",
-			"::sh[Duergar Tyrant Characters]",
-			"",
-			"Duergar tyrants are defined by their class levels - they do not have racial Hit Dice. A duergar tyrant's Challenge Rating is equal to her class level. Duergar tyrants have all of the racial traits of duergar characters except spell-like abilities, in addition to the following.",
-			"",
-			"+2 Strength, +4 Constitution, +2 Wisdom, -2 Charisma: Duergar tyrants are strong, hardy, and willful. These ability score modifiers replace the standard duergar ability score modifiers.",
-			"",
-			"**Telekinetic Adept:** A duergar tyrant has access to the basic telekinesis, kinetic form, telekinetic finesse, telekinetic haul, and telekinetic invisibility kineticist wild talents with an effective kineticist level equal to her total character level.",
-			"",
-			"**Psychic Magic:** Duergar tyrants can cast ironskin (2 PE) and mind thrust I (1 PE) as per the {umr/psychic magic} universal monster rule. The caster level is equal to the duergar tyrant's total character level. Duergar tyrants have a reservoir of 5 PE per day.",
-			"",
-			"**Psychic Resilience (Ex):** Duergar tyrants' racial bonus against spells and spell-like abilities increases from +2 to +4 on saving throws against psychic spells and spell-like abilities.",
-			"",
-			"**Spell Resistance:** A duergar tyrant has spell resistance equal to 11 + her character level."
+			"{race/Duergar tyrant/s} are defined by their class levels - they do not have racial Hit Dice. A duergar tyrant's Challenge Rating is equal to her class level."
 		]
 	},
 	"duergar_tyrant": { "redirect": "duergar_duergar_tyrant" },
