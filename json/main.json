@@ -2787,6 +2787,7 @@
 					[ "{drug/Scour}", [ 2, "severe" ], "ingested or inhaled", 24, 45 ],
 					[ "{drug/Sting's Savor}", [ 0, "minor" ], "injury", 15, 45 ],
 					[ "{drug/Dwarven Fire Ale}", [ 1, "moderate" ], "ingested", 20, 50 ],
+					[ "{drug/Midnight Milk}", [ 1, "moderate" ], "ingested", 16, 50 ],
 					[ "{drug/Serpent's Kiss}", [ 1, "moderate" ], "ingested", 18, 50 ],
 					[ "{drug/Zerk}", [ 0, "minor" ], "injury", 18, 50 ],
 					[ "{drug/Ruk Tar}", [ 1, "moderate" ], "injury", 25, 55 ],
