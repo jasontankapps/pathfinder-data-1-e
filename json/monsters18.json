@@ -573,6 +573,7 @@
 			"Although the typical ochre jelly has stats as presented here, in the deepest reaches of the underground world these mindless predators can grow to enormous sizes. Perhaps more disturbing, though, are rumors of ochre jellies that have developed additional methods of capturing prey. Adventurers speak of jellies capable of poisoning foes with a touch or exuding clouds of noxious gas that burns the eyes and throat, leaving those who draw too near helpless as the immense protoplasmic beast slithers over their bodies and begins to feed."
 		]
 	},
+	"ochre_jellies": { "redirect": "ochre_jelly" },
 	"octopus": {
 		"name": "Octopus",
 		"sources": [ "Pathfinder RPG Bestiary" ],

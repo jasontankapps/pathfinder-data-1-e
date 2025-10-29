@@ -967,6 +967,7 @@
 			"Harpies appear wildly different in different lands. Some seem like an amalgam of vultures and women, while others bear the regal markings of hawks or falcons in their feathers. Rare clutches of harpies in isolated and tropical parts of the world even have colorful feathers akin to parrots."
 		]
 	},
+	"harpies": { "redirect": "harpy" },
 	"havero_havero_tentacle": {
 		"name": "Havero Tentacle",
 		"sources": [ "Curse of the Crimson Throne" ],

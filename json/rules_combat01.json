@@ -2374,6 +2374,7 @@
 			"trip"
 		]
 	},
+	"grappling": { "redirect": "grapple" },
 	"overrun": {
 		"name": "Overrun",
 		"subtitle": "Combat Maneuver",

@@ -4755,7 +4755,7 @@
 			"",
 			"You are skilled at incapacitating larger opponents.  ",
 			"**Prerequisites:** {rule/Unarmed Combatant}, {rule/Deft Maneuvers} or {rule/Powerful Maneuvers}.  ",
-			"**Benefit:** You can {rule/bull rush}, {rule/hamstring}, {rule/overrun}, or {rule/trip} an opponent who is up to two size categories larger than you. You are treated as one size category larger while {rule/grappl/ing>e}.  ",
+			"**Benefit:** You can {rule/bull rush}, {rule/hamstring}, {rule/overrun}, or {rule/trip} an opponent who is up to two size categories larger than you. You are treated as one size category larger while {rule/grappling}.  ",
 			"**Special:** By spending 1 point from his ki pool, a monk can bull rush, hamstring, overrun, or trip an opponent who is up to three size categories larger than him and is treated as two size categories larger while grappling. This effect lasts for a number of rounds equal to his Wisdom modifier.  ",
 			"**Normal:** You can only bull rush, hamstring, overrun, or trip an opponent who is no more than one size category larger than you."
 		],
@@ -5115,7 +5115,7 @@
 			"",
 			"This designation is a measure of how much effort it takes to wield a weapon in combat. It indicates whether a melee weapon, when wielded by a character of the weapon's size category, is considered a finesse weapon, a one-handed weapon, or a two-handed weapon.",
 			"",
-			"@HL[Finesse:] A finesse weapon is used in one hand. It is easier to use in one's off hand than a one-handed weapon is and can be used while {rule/grappl/ing>e}.",
+			"@HL[Finesse:] A finesse weapon is used in one hand. It is easier to use in one's off hand than a one-handed weapon is and can be used while {rule/grappling}.",
 			"",
 			"A wielder may choose to use their Dexterity modifier instead of their Strength modifier on attack rolls with a finesse weapon. In either case, add the wielder's Strength modifier to damage rolls for melee attacks if it is used in the primary hand, or half the wielder's Strength bonus if it is used in the off hand. Using two hands to wield a finesse weapon gives no advantage on damage; the Strength bonus applies as though the weapon were held in the wielder's primary hand only.",
 			"",

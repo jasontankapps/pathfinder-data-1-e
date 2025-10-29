@@ -1588,6 +1588,7 @@
 		],
 		"siblings": [ "sandstorms" ]
 	},
+	"sandstorm": { "redirect": "sandstorms" },
 	"plains_terrain": {
 		"name": "Plains Terrain",
 		"subtitle": "Wilderness",
