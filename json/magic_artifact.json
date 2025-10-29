@@ -1366,11 +1366,11 @@
 			"The Imperial Diadem is destroyed if both {monster/Hastur} and Cassilda die within 24 hours of each other. This releases all of those souls stored within the item to the Boneyard or permits them to be resurrected in a restored Yhtill."
 		]
 	},
-	"ioun_stones_thassilonian": {
-		"name": "Ioun Stones, Thassilonian",
+	"thassilonian_ioun_stones": {
+		"name": "Thassilonian Ioun Stones",
 		"sources": [ "Rise of the Runelords Anniversary Edition" ],
 		"description": [
-			"## Ioun Stones, Thassilonian",
+			"## Thassilonian Ioun Stones",
 			"",
 			"{SOURCE Rise of the Runelords Anniversary Edition/421}  ",
 			"**Aura** strong varied; **CL** 12th  ",
