@@ -1122,7 +1122,7 @@
 			"**Celestial:** any good outsider.  ",
 			"**Destined:** any creature able to cast divination spells.  ",
 			"**Draconic:** any dragon or creature with the dragon type.  ",
-			"**Elemental:** any creature with an elemental or energy subtype (air, cold, earth, fire, water), provided it has flesh and blood (such as a {monster/salamander}, but not a {family/fire elemental}).  ",
+			"**Elemental:** any creature with an elemental or energy subtype (air, cold, earth, fire, water), provided it has flesh and blood (such as a {monster/salamander}, but not a {monster/fire elemental}).  ",
 			"**Fey:** any fey or gnome.  ",
 			"**Infernal:** any lawful evil outsider.  ",
 			"**Undead:** any undead creature with flesh and blood (such as {template/vampire/s} or {monster/ghoul/s}, but not {template/skeleton/s})."

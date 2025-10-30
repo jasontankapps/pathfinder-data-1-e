@@ -1398,7 +1398,7 @@
 			"**Associated Blasts** {kinetic/Charged Water Blast}, {kinetic/Water Blast}  ",
 			"**Saving Throw** none",
 			"",
-			"Your blast puts out nonmagical fires as if they had been touched by a {family/water elemental}. If you increase the burn cost to 2 or reduce the damage to 0, it also dispels magical fires as if you were a water elemental with a number of Hit Dice equal to your kineticist level."
+			"Your blast puts out nonmagical fires as if they had been touched by a {monster/water elemental}. If you increase the burn cost to 2 or reduce the damage to 0, it also dispels magical fires as if you were a water elemental with a number of Hit Dice equal to your kineticist level."
 		]
 	},
 	"rare_metal_infusion": {
@@ -2304,7 +2304,7 @@
 			"**Element** earth; **Type** utility (Su); **Level** 5; **Burn** 0  ",
 			"**Prerequisite** {kinetic/earth climb}",
 			"",
-			"You can glide through earth, as an {family/earth elemental/'s} earth glide ability, with a burrow speed equal to your base land speed."
+			"You can glide through earth, as an {monster/earth elemental/'s} earth glide ability, with a burrow speed equal to your base land speed."
 		]
 	},
 	"earth_tongue": {
@@ -3483,7 +3483,7 @@
 			"**Element** earth; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
 			"**Prerequisite** {kinetic/metal blast}",
 			"",
-			"You shape metal into a clockwork creature, as {kinetic/spark of life} except you summon a clockwork {family/earth elemental}. The elemental's type is changed to construct (clockwork) and it gains construct traits and {subtype/clockwork/ traits} instead of elemental traits. The creature loses any spell-like abilities or supernatural abilities it normally has. If you have the {kinetic/greater elemental whispers} utility wild talent, you can take a {monster/clockwork familiar} as an improved familiar with that ability instead of an earth elemental."
+			"You shape metal into a clockwork creature, as {kinetic/spark of life} except you summon a clockwork {monster/earth elemental}. The elemental's type is changed to construct (clockwork) and it gains construct traits and {subtype/clockwork/ traits} instead of elemental traits. The creature loses any spell-like abilities or supernatural abilities it normally has. If you have the {kinetic/greater elemental whispers} utility wild talent, you can take a {monster/clockwork familiar} as an improved familiar with that ability instead of an earth elemental."
 		]
 	},
 	"spark_of_life": {

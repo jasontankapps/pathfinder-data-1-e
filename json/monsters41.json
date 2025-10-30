@@ -448,7 +448,7 @@
 			"",
 			"::mstats{str=22 dex=27 con=25 int=27 wis=18 cha=24 bab=+16 cmb=\"+22 (+24 sunder)\" cmd=\"41 (43 vs. sunder)\" feats=\"Combat Reflexes~Dodge~Improved Critical=claw~Improved Sunder~Mobility~Power Attack~Spring Attack~Weapon Finesse\" skills=\"Acrobatics +20~Climb +30~Craft (sculpture) +13~Disable Device +22~Heal +20~Knowledge (arcana) +27~Knowledge (dungeoneering) +24~Knowledge (geography) +24~Knowledge (nature) +24~Knowledge (planes) +27~Perception +23~Sense Motive +23~Spellcraft +27~Stealth +27~Use Magic Device +26\" lang=\"Terran; %%umr/telepathy%% 300 ft.\" sq=\"item mastery\"}",
 			"",
-			"::meco{env=any org=\"solitary, pair, or cabal (3-6 plus 4-12 %%monster/pech/s%% and 2-6 %%family/earth elemental/s%%)\" treasure=double}",
+			"::meco{env=any org=\"solitary, pair, or cabal (3-6 plus 4-12 %%monster/pech/s%% and 2-6 %%monster/earth elemental/s%%)\" treasure=double}",
 			"",
 			"::sh[Special Abilities]",
 			"",

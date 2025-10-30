@@ -230,7 +230,7 @@
 			">",
 			">1. **Elemental Arcana (Sp)** {spell/produce flame} 3/day, {spell/soften earth and stone} 2/day, or {spell/call lightning} 1/day",
 			">2. **Quake (Sp)** You can cast {spell/earthquake} once per day.",
-			">3. **Wrath of Nature (Su)** Once per day, you can assume the form of a Gargantuan earth or fire elemental for up to 1 hour. If you choose the form of an {family/earth elemental}, you gain a +10 size bonus to your Strength, a -4 penalty to your Dexterity, a +6 size bonus to your Constitution, and a +8 natural armor bonus. If you choose the form of a {family/fire elemental}, you gain a +8 size bonus to your Dexterity, a +6 size bonus to your Constitution, and a +6 natural armor bonus. This ability is otherwise identical to {spell/elemental body IV}.",
+			">3. **Wrath of Nature (Su)** Once per day, you can assume the form of a Gargantuan earth or fire elemental for up to 1 hour. If you choose the form of an {monster/earth elemental}, you gain a +10 size bonus to your Strength, a -4 penalty to your Dexterity, a +6 size bonus to your Constitution, and a +8 natural armor bonus. If you choose the form of a {monster/fire elemental}, you gain a +8 size bonus to your Dexterity, a +6 size bonus to your Constitution, and a +6 natural armor bonus. This ability is otherwise identical to {spell/elemental body IV}.",
 			"",
 			"::h2[Follower Options]{jl}",
 			"",
