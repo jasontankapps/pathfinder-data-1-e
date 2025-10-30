@@ -2213,6 +2213,9 @@
 			"two_weapon_fighting"
 		]
 	},
+	"cmb": { "redirect": "combat_maneuvers" },
+	"cmd": { "redirect": "combat_maneuvers" },
+	"combat_maneuver_bonus": { "redirect": "combat_maneuvers" },
 	"bull_rush": {
 		"name": "Bull Rush",
 		"subtitle": "Combat Maneuver",

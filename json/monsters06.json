@@ -379,6 +379,7 @@
 			"Ancient records, the oral traditions of other giantish races, and the scattered accounts of tribal natives of the southern jungles speak of much larger, more primal {monster/\"great cyclop[e]s,\"} imposing titans with shaggy legs and a massive horn above an inquisitive eye. These creatures are thought to have been either the leaders or the war beasts of the ancient race, and modern cyclopes honor them as elusive, destructive living gods."
 		]
 	},
+	"cyclopes": { "redirect": "cyclops" },
 	"cyclops_cyclops_grand_eye": {
 		"name": "Cyclops Grand-Eye",
 		"sources": [ "Inner Sea Monster Codex" ],
