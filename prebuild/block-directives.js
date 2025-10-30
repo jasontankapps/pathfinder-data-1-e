@@ -51,13 +51,19 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return `${maybeClear}<p className="statblockHeader">${text}</p>\n`;
 			} else if (n === "mh") {
 				// Monster Header
-				churn(n, attrs, ["cr", "mr", "clear"], logError);
-				const {cr, mr} = attrs;
+				churn(n, attrs, ["cr", "mr", "clear", "jl", "id"], logError);
+				const {cr, mr, jl} = attrs;
+				let filler = "";
+				if(jl) {
+					const id = prefix + (attrs.id || linkify(text));
+					addToJumpList(text, id, jl);
+					filler = ` id="${id}" data-hash-target`;
+				}
 				if(cr || mr) {
 					const ender = (cr && mr) ? `CR ${cr}/MR ${mr}` : (cr ? `CR ${cr}` : `MR ${mr}`);
-					return `${maybeClear}<p className="statblockHeaderFull"><span>${text}</span><span>${ender}</span></p>\n`;
+					return `${maybeClear}<p className="statblockHeaderFull"${filler}><span>${text}</span><span>${ender}</span></p>\n`;
 				}
-				return `${maybeClear}<p className="statblockHeader">${text}</p>\n`;
+				return `${maybeClear}<p className="statblockHeader"${filler}>${text}</p>\n`;
 			} else if (n === "sh") {
 				// Subheader
 				churn(n, attrs, ["clear"], logError);
