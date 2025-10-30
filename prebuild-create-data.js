@@ -114,7 +114,8 @@ const $ = {
 	parseSOURCE,
 	removeCurlyBrackets
 };
-const footnoteNames = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@&%#;?_=+~".split('');
+const footnoteNames = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890".split('');
+footnoteNames.push(...footnoteNames.map(x => x + x));
 
 // Parse command-line arguments
 process.argv.forEach(bit => {
@@ -234,8 +235,7 @@ const renderer = (instance) => {
 			return text;
 		}
 		return instance
-			.parse(text)
-			.replace(/<[/]?p>\n*/g, "")
+			.parseInline(text)
 			.replace(/<div className="jumpList".*?<[/]div>/g, "");
 	};
 	return {
@@ -645,7 +645,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 			desc.push(...final.split("!-N-!"));
 		}
 	});
-	if(footnotes.count) {
+	if(footnotes.count > 0) {
 		const noted = {};
 		desc.push("");
 		footnotes.found.forEach(fn => {

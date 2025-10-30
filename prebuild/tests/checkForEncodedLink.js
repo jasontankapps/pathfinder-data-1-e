@@ -42,7 +42,7 @@ const checkForEncodedLink = (input, options = {}) => {
 		m.push("");
 		// `m` is now [full, "", protocol, matchedx, ""]
 	} else if (m2) {
-		// See if we have a {match}, then figure out who has the earlier match.
+		// See if we have a {match}, and if so figure out who has the earlier match.
 		if(!m || (m[1].length > m2[1].length)) {
 			// [match] wins
 			const [, pre, text, protocol, property, post] = m2;
