@@ -1942,7 +1942,7 @@
 			">**Poison Use:** Vishkanyas are skilled in the use of poison and never accidentally poison themselves when using or applying poison.  ",
 			">**Toxic:** A number of times per day equal to his Constitution modifier (minimum 1/day), a vishkanya can envenom a weapon that he wields with his toxic saliva or blood (using blood requires the vishkanya to be injured when he uses this ability). Applying venom in this way is a swift action.",
 			">",
-			">::aff[Vishkanya Venom]{iconP type=Weapon-injury dcF dcHD=vishkanya dcMod=Con freqR=6 effDex=\"1d2\"cure1}",
+			">::aff[Vishkanya Venom]{iconP type=Weapon-injury dcF dcHD=vishkanya dcMod=Con freqR=6 effDex=\"1d2\" cure1}",
 			">",
 			">**Weapon Familiarity:** Vishkanyas are always proficient with blowguns, kukri, and shuriken.  ",
 			">**Languages:** Vishkanyas begin play speaking Common and Vishkanya. Vishkanyas with high Intelligence scores can choose from the following languages: Aklo, Draconic, Elven, Goblin, Sylvan, and Undercommon.",

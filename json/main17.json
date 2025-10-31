@@ -1049,7 +1049,6 @@
 					[ "{monster/Fastachee}", 11, null, [ 2, "tiny" ], [ 3, "NG" ], "This gaunt, two-foot-tall humanoid figure appears made of corn husks, and carries an oversized basket filled with corn." ],
 					[ "{monster/Faun}", 1, null, [ 4, "medium" ], [ 6, "CG" ], "This capricious figure has the upper torso, arms, and head of a man, but goat-like legs, a tail, and curling horns on his head." ],
 					[ "{monster/Fear Eater}", 5, null, [ 4, "medium" ], [ 5, "NE" ], "A distressingly humanoid face and stubby arms grow from this maggot-like creature's body." ],
-					[ "{monster/Fey Animal}", 3, "augmented animal", [ 4, "medium" ], [ 7, "CN" ], "This wolverine's eyes possess the unmistakable glint of intelligence, and its mouth seems to twitch as if it were about to laugh." ],
 					[ "{monster/Forlarren}", 2, null, [ 4, "medium" ], [ 5, "NE" ], "This humanoid creature has the legs of a bald goat, a completely hairless body, and a horned head with a sinister expression." ],
 					[ "{monster/Fossegrim}", 4, "aquatic", [ 4, "medium" ], [ 5, "NE" ], "This striking, blue-eyed man with luminous skin and flowing white hair holds an ethereal harp." ],
 					[ "{monster/Gathlain}", [ -2, "1/2" ], null, [ 3, "small" ], [ 7, "CN" ], "Wings composed of wood and vines grow out of the body of this lithesome fey." ],
