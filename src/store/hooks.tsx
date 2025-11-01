@@ -10,12 +10,12 @@ export type DispatchType = ReturnType<typeof useAppDispatch>;
 
 type ElementRef<T extends Element> = (node: T | null) => void;
 
-// Takes optional argument extraFunc (T | null) => void
 // Must define T as an Element when using the hook
-//   The function will be called whenever the reference is set or changes 
+// Takes optional argument extraFunc (T | null) => void
+//   The extraFunc function will be called whenever the reference is set or changes 
 // Returns [Element, ElementRef]
 //   Element is an HTML element or `null`
-//   ElementRef is a fucntion that can be used as the argument for a ref attribute
+//   ElementRef is a function that can be used as the argument for a ref attribute
 export const useElement = <T extends Element>(extraFunc?: (node: T | null) => void): [T | null, ElementRef<T>] => {
 	const [el, setEl] = useState<T | null>(null);
 	const ref: ElementRef<T> = useCallback((node: T | null) => {

@@ -184,7 +184,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	const [numberOfTextsFound, setNumberOfTextsFound] = useState<number>(0);
 	const [markers, setMarkers] = useState<(HTMLElement| HTMLElement[])[]>([]);
 	const [highlightedText, setHighlightedText] = useState<number>(-1);
-	const [contentObject, refContentObject] = useElement<HTMLIonContentElement>();
+	const [contentObject, contentObjectRef] = useElement<HTMLIonContentElement>();
 	const [findInPageSearchbarObj, findInPageSearchRef] = useElement<HTMLIonSearchbarElement>();
 	const [path] = useLocation();
 
@@ -301,7 +301,12 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				notBookmarkable={notBookmarkable}
 				extraButton={extraButton}
 			/>
-			<IonContent scrollEvents={true} className={hasJL && goToTopFlag ? "atTop" : ""} onIonScroll={onScroll} ref={refContentObject}>
+			<IonContent
+				scrollEvents={true}
+				className={hasJL && goToTopFlag ? "atTop" : ""}
+				onIonScroll={onScroll}
+				ref={contentObjectRef}
+			>
 				{hasJL ?
 					<IonFab slot="fixed" vertical="top" horizontal="end" className="goToTop">
 						<IonFabButton size="small" color="secondary" onClick={goToTop}>
