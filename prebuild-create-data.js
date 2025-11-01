@@ -313,9 +313,15 @@ const postprocess = (tables) => {
 			.trim();
 		let output = "";
 		let m = false;
+		const { prefix, flags } = $;
 		//<sup><a id="footnotey-ref-H" href="#footnotey-H" data-footnotey-ref aria-describedby="footnotey-label">1</a></sup>
 		//Redo footnotes into <InnerLink>s
-		const matcher = new RegExp(`^(.*?)<sup><a id="${$.prefix}([^"]+)" href="#${$.prefix}([^"]+)"[^>]*>(.*?)</a></sup>(.*)$`);
+		const matcher = new RegExp(
+			// pre                        id
+			`^(.*?)<sup><a id="${prefix}([^"]+?)(?:(?<!-ref)-[0-9]+)?" `
+			//                   to         linktext        post
+			+ `href="#${prefix}([^"]+)"[^>]*>(.*?)</a></sup>(.*)$`
+		);
 		const footnotedata = {};
 		while(m = text.match(matcher)) {
 			const [, pre, id, to, linktext, post] = m;
@@ -323,21 +329,27 @@ const postprocess = (tables) => {
 				footnotedata[id] = 0;
 			}
 			const noteNumber = ++footnotedata[id];
-			output = output + `${pre}<sup><InnerLink showBacklink="backlink-${$.prefix}${id}-${noteNumber}" id="${$.prefix}${id}-${noteNumber}" data-hash-target to="${$.prefix}${to}">${linktext}</InnerLink></sup>`;
+			output = output + `${pre}<sup><InnerLink showBacklink="backlink-${prefix}${id}-${noteNumber}" id="${prefix}${id}-${noteNumber}" data-hash-target to="${prefix}${to}">${linktext}</InnerLink></sup>`;
 			text = post;
-			$.flags.innerlink = true;
+			flags.innerlink = true;
 		}
 		text = output + text;
 		output = "";
 		//<a href="#footnote-prefix-ref-H" data-footnote-prefix-backref aria-label="Back to reference H">↩</a>
 		//Redo footnotes into <InnerLink>s
-		const backmatcher = new RegExp(`^(.*?)<a href="#${$.prefix}([^"]+)"[^>]*?( aria-label="[^"]*)"[^>]*?>(.*?(?:<sup>([0-9]+)</sup>)?)</a>(.*)$`);
+		const backmatcher =
+			new RegExp(
+				// pre                     to
+				`^(.*?)<a href="#${prefix}([^"]+?)(?:(?<!-ref)-[0-9]+)?"[^>]*?`
+				//  aria linktext                         linknumber?           post
+				+ `( aria-label="[^"]*)"[^>]*?>(.*?(?:<sup>([0-9]+)</sup>)?)</a>(.*)$`
+			);
 		while(m = text.match(backmatcher)) {
 			const [, pre, to, aria, linktext, linknumber, post] = m;
 			const noteNumber = linknumber || "1";
-			output = output + `${pre}<InnerLink id="backlink-${$.prefix}${to}-${noteNumber}" data-hash-target to="${$.prefix}${to}-${noteNumber}"${aria}-${noteNumber}">${linktext}</InnerLink>`;
+			output = output + `${pre}<InnerLink id="backlink-${prefix}${to}-${noteNumber}" data-hash-target to="${prefix}${to}-${noteNumber}"${aria}-${noteNumber}">${linktext}</InnerLink>`;
 			text = post;
-			$.flags.innerlink = true;
+			flags.innerlink = true;
 		}
 		text = output + text;
 		output = "";
@@ -350,10 +362,10 @@ const postprocess = (tables) => {
 			const index = parseInt(table);
 			if(index >= 0 && tables && index < tables.length) {
 				output = output + `<DisplayTable table={${JSON.stringify(tables[index])}} />`;
-				$.flags.displaytable = true;
+				flags.displaytable = true;
 			} else {
 				output = output + `<p><code>\{table${table}\}</code></p>`;
-				logError(`ERROR: Bad Table: "{table${table}}" in ${$.prefix}`);
+				logError(`ERROR: Bad Table: "{table${table}}" in ${prefix}`);
 			}
 			text = post;
 		}
@@ -363,9 +375,9 @@ const postprocess = (tables) => {
 		//Add "tableWrap" <div> around plain <table>s so they can be contained to one pageview and scroll horizontally
 		while(m = text.match(/^(.*?)(<table>.+?<[/]table>)(.*)$/)) {
 			const [, pre, table, post] = m;
-			output = output + `${pre}<ScrollContainer id="${`${$.prefix}-table-${counter++}`}">${table}</ScrollContainer>`;
+			output = output + `${pre}<ScrollContainer id="${`${prefix}-table-${counter++}`}">${table}</ScrollContainer>`;
 			text = post;
-			$.flags.scrollContainer = true;
+			flags.scrollContainer = true;
 		}
 		text = output + text;
 		output = "";
@@ -387,14 +399,14 @@ const postprocess = (tables) => {
 		}
 		output = output + text;
 		//Create implicit jumplists
-		if($.flags.implicitJumplist) {
-			let div = `<div className="jumpList" id="${$.prefix}jumplist"><h2>Jump to:</h2><ul>`;
-			$.flags.implicitJumplist.forEach(pair => {
+		if(flags.implicitJumplist) {
+			let div = `<div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
+			flags.implicitJumplist.forEach(pair => {
 				const [text, id] = pair;
 				div = div + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${id}")} onClick={()=>jumpScroller("${id}")}>${text}</li>`;
 			});
 			div = div + `</ul></div>`;
-			$.flags.jumplist = true;
+			flags.jumplist = true;
 			// Use a marker if a jumplist needs to be placed specially.
 			const m = output.match(/^(.*)<p>(?:\{|&#123;)jumplist(?:\}|&#125;)<[/]p>(.*)$/);
 			if(m) {
