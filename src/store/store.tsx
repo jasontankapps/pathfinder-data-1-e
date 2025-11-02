@@ -314,6 +314,15 @@ const migrations = {
 			...incomingState,
 			settings: {...settings}
 		};
+	},
+	18: (state: any) => {
+		const unchangedState = {...state};
+		// Reset all tables, as the table format has greatly changed
+		const displayTable: DisplayTableState = {};
+		return {
+			...unchangedState,
+			displayTable
+		};
 	}
 };
 
@@ -331,7 +340,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<InitialAppState> = {
 	key: 'root-pf-data',
-	version: 17,
+	version: 18,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),

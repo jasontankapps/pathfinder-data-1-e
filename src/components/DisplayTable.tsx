@@ -11,7 +11,13 @@ import {
 } from '@ionic/react';
 import { filter as filterIcon } from 'ionicons/icons';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { setTableFilter, setTableSortCol, setTableSortDir, TableObject } from '../store/displayTableSlice';
+import {
+	setTableFilter,
+	setTableSortDir,
+	TableDataObject,
+	setTablePrimarySortCol,
+	getDefaultSortOrder
+} from '../store/displayTableSlice';
 import Td from './displayTable/Td';
 import Th from './displayTable/Th';
 import TdRouterLink from './displayTable/TdRouterLink';
@@ -57,20 +63,27 @@ const reverseSort = (a: RawDatum, b: RawDatum) => {
 };
 type SortableCell = [RawDatum, number];
 type SortableRow = [SortableCell[], number];
-const sortOnColumn = (column: number, direction: boolean) => {
+const sortOnColumns = (columns: number[], direction: boolean) => {
 	// Returns a sort() function.
 	return (a: SortableRow, b: SortableRow) => {
-		if(direction) {
-			return normalSort(a[0][column][0], b[0][column][0]);
-		}
-		return reverseSort(a[0][column][0], b[0][column][0]);
+		let result = 0;
+		const copy = [...columns];
+		do {
+			const column = copy.shift()!;
+			if(direction) {
+				result = normalSort(a[0][column][0], b[0][column][0]);
+			} else {
+				result = reverseSort(a[0][column][0], b[0][column][0]);
+			}
+		} while (!result && copy.length > 0);
+		return result;
 	};
 };
 
-const blankSortInfo: TableObject = {
-	alpha: true,
-	hiddencols: [],
-	hiddenrows: []
+const blankSortInfo: TableDataObject = {
+	alphabeticalSort: true,
+	hiddenHeaders: [],
+	hiddenRows: []
 };
 
 const DisplayTable: FC<{ table: Table }> = ({ table }) => {
@@ -78,52 +91,45 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 		id,
 		columns,
 		data,
-		initialColumn,
 		nullValue = "&mdash;",
 		filter,
 	} = table;
-	const {sortcol, alpha, hiddencols, hiddenrows} = useAppSelector(state => state.displayTable[id] || blankSortInfo);
-	const [sortingColumn, setSortingColumn] = useState<number>(sortcol !== undefined ? sortcol : initialColumn);
-	const [sortDirection, setSortDirection] = useState<boolean>(alpha); // true = a-z, false = z-a
-	const [hiddenRows, setHiddenRows] = useState<number[]>(hiddenrows);
-	const [hiddenHeaders, setHiddenHeaders] = useState<number[]>(hiddencols);
+	const defaultSortOrder = getDefaultSortOrder(table);
+	const {
+		sortOrder,
+		alphabeticalSort = true,
+		hiddenHeaders = [],
+		hiddenRows = []
+	} = useAppSelector(state => state.displayTable[id] || blankSortInfo);
+	const sortingColumns = (sortOrder || defaultSortOrder);
+	const sortingColumn = sortingColumns[0];
 	const finderIsOpen = useContext(FinderContext);
 	const [open, setOpen] = useState<boolean>(false);
 	const dispatch = useAppDispatch();
 
-	const saveFromFilter = useCallback((hiddencols: number[], hiddenrows: number[]) => {
-		setHiddenHeaders(hiddencols);
-		setHiddenRows(hiddenrows);
-		dispatch(setTableFilter({id, data: {hiddencols, hiddenrows}}));
-	}, [setHiddenHeaders, setHiddenRows, id, dispatch]);
+	const saveFromFilter = useCallback((hiddenHeaders: number[], hiddenRows: number[]) => {
+		dispatch(setTableFilter({id, data: {hiddenHeaders, hiddenRows}}));
+	}, [id, dispatch]);
 
-	const sortedAndFilteredColumns = columns
+	const filteredColumns = columns
 		.map((col, i) => [col, i] as [Column, number])
 		.filter(([, i]) => hiddenHeaders.every(hCol => hCol !== i));
-	const {sortedRowsWithBothOriginalIndices, sortedAndFilteredRowsWithHeaderIndices} = useMemo(() => {
-		const sortedRowsWithBothOriginalIndices = data
+
+	const sortedRowsWithBothOriginalIndices = useMemo(() => {
+		return data
 				// add index to each row [ ROW, index ]
 			.map((row, j) => [row.map((cell, k) => [cell, k]), j] as SortableRow)
 				// sort everything (non-destructive due to this being a mapped instance)
-			.sort(sortOnColumn(sortingColumn, sortDirection));
-		const sortedAndFilteredRowsWithHeaderIndices = sortedRowsWithBothOriginalIndices
+			.sort(sortOnColumns(sortingColumns, alphabeticalSort));
+	}, [data, alphabeticalSort, sortingColumns]);
+
+	const sortedAndFilteredRowsWithHeaderIndices = useMemo(() => {
+		return sortedRowsWithBothOriginalIndices
 				// hide hidden rows
 			.filter(([, i]) => hiddenRows.every(hRow => hRow !== i))
 				// remove hidden columns (and row indices)
 			.map(([row,]) => row.filter((cell, i) => hiddenHeaders.every(hCol => hCol !== i)) as SortableCell[]);
-		/*
-			[
-				[ originalColumnData, origColIndex ], ...
-			]
-			= modifiedRow
-
-			[
-				[ modifiedRow, origRowIndex ], ...
-			]
-			= sortedRowsWithBothOriginalIndices
-		*/
-		return {sortedRowsWithBothOriginalIndices, sortedAndFilteredRowsWithHeaderIndices};
-	}, [data, hiddenHeaders, hiddenRows, sortingColumn, sortDirection]);
+	}, [sortedRowsWithBothOriginalIndices, hiddenHeaders, hiddenRows]);	
 
 	const tableWidth = useMemo(() => {
 		if(columns.some(col => col.size === undefined)) {
@@ -138,12 +144,9 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const sorter = (col: number) => {
 		return () => {
 			if(col === sortingColumn) {
-				setSortDirection(!sortDirection);
-				dispatch(setTableSortDir({id, dir: !sortDirection}));
+				dispatch(setTableSortDir({table, dir: !alphabeticalSort}));
 			} else {
-				setSortDirection(true);
-				setSortingColumn(col);
-				dispatch(setTableSortCol({id, col: col === initialColumn ? undefined : col}));
+				dispatch(setTablePrimarySortCol({table, col}));
 			}
 		};
 	};
@@ -172,7 +175,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 				<table key={`table/${id}`} style={tableWidth}>
 					<thead>
 						<tr>{
-							sortedAndFilteredColumns.map((pair) => {
+							filteredColumns.map((pair) => {
 								const [col, i] = pair;
 								if(!col) {
 									return <StoreError id={id} dispatch={dispatch} />;
@@ -180,7 +183,7 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 								return <Th
 									key={`table/${id}/header/${i}`}
 									index={i}
-									sortState={i === sortingColumn ? sortDirection : undefined}
+									sortState={i === sortingColumn ? alphabeticalSort : undefined}
 									active={i === sortingColumn}
 									sorter={sorter(i)}
 									sortable={!col.unsortable}
