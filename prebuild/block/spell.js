@@ -260,16 +260,16 @@ const makeSpellBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, logErro
 		let c = 0;
 		let dur = "";
 		if(durR) { dur = `${durR} round${durR === 1 ? "" : "s"}`; c++; }
-		if(durM) { dur = `${durM} minute${durM === 1 ? "" : "s"}`; c++; }
-		if(durH) { dur = `${durH} hour${durH === 1 ? "" : "s"}`; c++; }
-		if(durC) { dur = `concentration`; c++; }
-		if(durI) { dur = `instantaneous`; c++; }
-		if(durP) { dur = `permanent`; c++; }
-		if(durCon) { dur = doParse(`concentration (${durCon})`); c++; }
-		if(durRL) { dur = `${durRL} round${durRL === 1 ? "" : "s"}/level`; c++; }
-		if(durML) { dur = `${durML} minute${durML === 1 ? "" : "s"}/level`; c++; }
-		if(durHL) { dur = `${durHL} hour${durHL === 1 ? "" : "s"}/level`; c++; }
-		if(durDL) { dur = `${durDL} day${durDL === 1 ? "" : "s"}/level`; c++; }
+		else if (durM) { dur = `${durM} minute${durM === 1 ? "" : "s"}`; c++; }
+		else if (durH) { dur = `${durH} hour${durH === 1 ? "" : "s"}`; c++; }
+		else if (durC) { dur = `concentration`; c++; }
+		else if (durCon) { dur = doParse(`concentration${durCon}`); c++; }
+		else if (durI) { dur = `instantaneous`; c++; }
+		else if (durP) { dur = `permanent`; c++; }
+		else if (durRL) { dur = `${durRL} round${durRL === 1 ? "" : "s"}/level`; c++; }
+		else if (durML) { dur = `${durML} minute${durML === 1 ? "" : "s"}/level`; c++; }
+		else if (durHL) { dur = `${durHL} hour${durHL === 1 ? "" : "s"}/level`; c++; }
+		else if (durDL) { dur = `${durDL} day${durDL === 1 ? "" : "s"}/level`; c++; }
 		if(c !== 1) {
 			logError(`Found ${c} duration notations instead of 1`);
 		}

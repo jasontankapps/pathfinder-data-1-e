@@ -1054,9 +1054,11 @@
 			"",
 			"::h3[Secret Vault]{jl}",
 			"",
-			"::spell{source=\"Black Markets/31\" conjuration summoning arc=8 sor=8 wit=8 wiz=8 ctM=10 cV cS cFp=\"the chest and its replica\" rText target=\"one chamber and up to 10 cu. ft. of goods/caster level\" dur=\"60 days or until discharged\" saveNo srN}",
+			"::spell{source=\"Black Markets/31\" conjuration summoning arc=8 sor=8 wit=8 wiz=8 ctM=10 cV cS cFp=\"the chest and its replica\" rText target=\"one chamber and up to 10 cu. ft. of goods/caster level\" dur=\"360 days or until discharged\" saveNo srN}",
 			"",
-			"This spell functions like secret chest, except it affects a small structure, vault, or oversized chest. Living creatures within a secret vault don't cause the spell to fail. While the vault is stored on the Ethereal Plane, living creatures within the vault don't need to eat, drink, or breathe, but they can't leave the vault except via magic such as plane shift. The vault used as a focus for secret vault must cost at least 25,000 gp, and its replica costs 250 gp. A secret vault has only a 1% cumulative chance per day of becoming irretrievably lost after 360 days."
+			"This spell functions like secret chest, except it affects a small structure, vault, or oversized chest. Living creatures within a secret vault don't cause the spell to fail. While the vault is stored on the Ethereal Plane, living creatures within the vault don't need to eat, drink, or breathe, but they can't leave the vault except via magic such as plane shift. The vault used as a focus for secret vault must cost at least 25,000 gp, and its replica costs 250 gp. A secret vault has only a 1% cumulative chance per day of becoming irretrievably lost after 360 days.",
+			"",
+			">*Note: The original source does not mention a change in duration from *secret chest,* but the text implies a 360-day duration.*"
 		]
 	},
 	"secret_coffer": {

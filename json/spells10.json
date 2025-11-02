@@ -948,7 +948,7 @@
 		"description": [
 			"## Telekinesis",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/357\" transmutation arc=5 mag=5 occ=5 psy=4 sor=5 spr=5 wiz=5 ctSt cV cS rLong targetOrTargets=\"see text\" durCon=\"(up to 1 round/level) or instantaneous; see text\" save=\"Will negates (object) or none; see text\" sr=\"yes (object); see text\"}",
+			"::spell{source=\"PRPG Core Rulebook/357\" transmutation arc=5 mag=5 occ=5 psy=4 sor=5 spr=5 wiz=5 ctSt cV cS rLong targetOrTargets=\"see text\" durCon=\" (up to 1 round/level) or instantaneous; see text\" save=\"Will negates (object) or none; see text\" sr=\"yes (object); see text\"}",
 			"",
 			"You move objects or creatures by concentrating on them. Depending on the version selected, the spell can provide a gentle, sustained force, perform a variety of combat maneuvers, or exert a single short, violent thrust.",
 			"",
@@ -1008,7 +1008,7 @@
 		"description": [
 			"## Telekinetic Maneuver",
 			"",
-			"::spell{source=\"Occult Adventures/188\" transmutation arc=4 mag=4 psy=3 sor=4 spr=4 wiz=4 ctSt cV cS rClose target=\"one creature\" durCon=\"(up to 1 round/level)\" saveNo srY}",
+			"::spell{source=\"Occult Adventures/188\" transmutation arc=4 mag=4 psy=3 sor=4 spr=4 wiz=4 ctSt cV cS rClose target=\"one creature\" durCon=\" (up to 1 round/level)\" saveNo srY}",
 			"",
 			"This spell functions as {spell/telekinesis}, but it can be used only to perform a bull rush, disarm, drag, grapple (including pin), reposition, steal, or trip combat maneuver."
 		]
@@ -2356,7 +2356,7 @@
 		"description": [
 			"## Transmute Blood To Acid",
 			"",
-			"::spell{source=\"Ultimate Magic/244\" acid pain transmutation arc=9 psy=9 sor=9 wiz=9 ctSt cV cS cMp=\"a wax doll and a vial of acid worth 10 gp\" rClose target=\"one living creature\" durCon=\"(maximum 1 round/5 levels)\" fortHalf srY}",
+			"::spell{source=\"Ultimate Magic/244\" acid pain transmutation arc=9 psy=9 sor=9 wiz=9 ctSt cV cS cMp=\"a wax doll and a vial of acid worth 10 gp\" rClose target=\"one living creature\" durCon=\" (maximum 1 round/5 levels)\" fortHalf srY}",
 			"",
 			"You transmute blood in the target's body to acid, dealing 1d6 points of acid damage/2 levels (maximum 12d6) each round. The creature is staggered and sickened by the debilitating pain. A successful Fortitude save each round halves the damage and negates the staggered condition for 1 round. If this damage reduces the creature to 0 or fewer hit points, it dissolves, leaving only the barest trace of remains. A dissolved creature's equipment is unaffected.",
 			"",

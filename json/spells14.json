@@ -339,7 +339,7 @@
 		"description": [
 			"## Implosion",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/299\" evocation clr=9 orc=9 psy=9 ctSt cV cS rClose target=\"one corporeal creature/round\" durCon=\"(up to 1 round per 2 levels)\" fort srY}",
+			"::spell{source=\"PRPG Core Rulebook/299\" evocation clr=9 orc=9 psy=9 ctSt cV cS rClose target=\"one corporeal creature/round\" durCon=\" (up to 1 round per 2 levels)\" fort srY}",
 			"",
 			"This spell causes a destructive resonance in a corporeal creature's body. Each round you concentrate (including the first), you can cause one creature to collapse in on itself, inflicting 10 points of damage per caster level. If you break concentration, the spell immediately ends, though any implosions that have already happened remain in effect. You can target a particular creature only once with each casting of the spell. Implosion has no effect on creatures in gaseous form or on incorporeal creatures."
 		]
@@ -1421,7 +1421,7 @@
 		"description": [
 			"## Maw of Chaos",
 			"",
-			"::spell{source=\"Pathfinder #74: Sword of Valor/74\" conjuration chaotic teleportation arc=8 clr=8 orc=8 sor=8 wiz=8 ctSt cV cS cFDFp=\"a gold-plated, cold iron ring that was forged in the Abyss\" rClose area=\"5-foot-radius spread\" durCon=\"(maximum 1 round/level)\" save=\"see text\" srY}",
+			"::spell{source=\"Pathfinder #74: Sword of Valor/74\" conjuration chaotic teleportation arc=8 clr=8 orc=8 sor=8 wiz=8 ctSt cV cS cFDFp=\"a gold-plated, cold iron ring that was forged in the Abyss\" rClose area=\"5-foot-radius spread\" durCon=\" (maximum 1 round/level)\" save=\"see text\" srY}",
 			"",
 			"This spell creates a rip in reality that plunges into the interspatial vortices that constantly churn with the raw destructive chaos of the Abyss. Each round at the beginning of your turn, the maw of chaos attempts a drag combat maneuver check against every creature within 40 feet, using your caster level plus your primary spellcasting ability modifier in place of a CMB. If a creature is dragged into a maw of chaos, the area erupts in a surge of chaotic energy and the creature takes 1d6 points of damage per caster level. Only one such eruption can occur per round.",
 			"",

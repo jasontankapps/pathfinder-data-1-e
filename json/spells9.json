@@ -2936,7 +2936,7 @@
 		"description": [
 			"## Storm of Vengeance",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/350\" conjuration summoning clr=9 drd=9 orc=9 sha=9 wit=9 ctR=1 cV cS rLong effect=\"360-ft.-radius storm cloud\" durD durCon=\"(maximum 10 rounds)\" save=\"see text\" srY}",
+			"::spell{source=\"PRPG Core Rulebook/350\" conjuration summoning clr=9 drd=9 orc=9 sha=9 wit=9 ctR=1 cV cS rLong effect=\"360-ft.-radius storm cloud\" durD durCon=\" (maximum 10 rounds)\" save=\"see text\" srY}",
 			"",
 			"You create a huge black storm cloud in the air. Each creature under the cloud must succeed on a Fortitude save or be deafened for 1d4 &times; 10 minutes. Each round you continue to concentrate, the spell generates additional effects as noted below. Each effect occurs on your turn.",
 			"",
