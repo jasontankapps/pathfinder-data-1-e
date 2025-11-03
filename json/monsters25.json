@@ -1813,6 +1813,7 @@
 			"A wolf-in-sheep's-clothing is usually about 4 to 5 feet across and weighs 200 pounds."
 		]
 	},
+	"wolves_in_sheeps_clothing": { "redirect": "wolf_in_sheeps_clothing" },
 	"wolliped": {
 		"name": "Wolliped",
 		"sources": [ "Bestiary 5" ],

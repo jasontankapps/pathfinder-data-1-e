@@ -2970,7 +2970,7 @@
 			"",
 			"@HL[Heroic (4 RP):] **Prerequisites:** None; **Benefit:** In campaigns that use [the optional hero point system](rule/hero_points), each time a member of this race gains a level, it gains 2 hero points instead of 1. If it takes the {feat/Blood of Heroes} feat, it gains 3 hero points each level instead of 2.",
 			"",
-			"@HL[Hold Breath (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race can hold their breath for a number of rounds equal to four times their Constitution score before risking drowning or [suffocating](rule/suffocation).",
+			"@HL[Hold Breath (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race can hold their breath for a number of rounds equal to four times their Constitution score before risking {rule/drowning} or {rule/suffocating}.",
 			"",
 			"@HL[Light and Dark (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain the following supernatural ability: Once per day as an immediate action, a member of this race can treat positive and negative energies as if it were an undead creature, taking damage from positive energy and healing damage from negative energy. This ability lasts for 1 minute once activated.",
 			"",
