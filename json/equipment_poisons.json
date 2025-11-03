@@ -343,7 +343,7 @@
 			"",
 			"::aff{iconP start type=injury saveF=15 freqR=2 ineffCon=\"1d2\" seceffExtra=\"%%rule/bleed%% damage from non-poison sources increases by 1 for 1 minute\" cure1}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (6 {eq-reagent/gold} + 50 {eq-reagent/myrrh} + 30 {eq-reagent/quicksilver})/distillation; **Craft** DC 15  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (6 gold + 50 myrrh + 30 quicksilver)/distillation; **Craft** DC 15  ",
 			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** poison"
 		]
 	},
@@ -359,7 +359,7 @@
 			"",
 			"::aff{iconP start type=inhaled saveF=18 freqM=2 ineff=\"%%misc/staggered%% for 1 minute\" seceff=\"If already staggered, %%misc/stunned%%, or %%misc/unconscious%%, the victim becomes highly suggestible. If an event (whether true or false) is described to him, he unconsciously fabricates a detailed memory of the event, filling in any gaps in the description with his own best guesses. The confabulated memory can be disbelieved with a successful DC 18 Will save the first time it is recalled, but if the save fails, the victim treats it as completely genuine thereafter. All confabulated memories can be removed with a restoration or heal spell\" cure1}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/quicksilver} + 15 {eq-reagent/cytillesh spores})/digestion; **Craft** DC 18  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (20 quicksilver + 15 cytillesh spores)/digestion; **Craft** DC 18  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},
@@ -596,7 +596,7 @@
 			"",
 			"::aff{iconP start type=ingested saveF=11 onset=\"10 minutes\" freqM=5 eff=\"1 %%rule/Wis damage%%, and for the duration of the poison, the next time the victim's attitude toward another creature would shift one or more steps toward helpful as a result of a successful Diplomacy or Intimidate check or other effect, the victim's attitude also shifts one additional step. For example, if the victim's attitude would shift from indifferent to friendly (one step better), it shifts to helpful instead (two steps better)\" cure1}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (20 {eq-reagent/dew of lunary} + 20 {eq-reagent/quicksilver} + 80 {eq-reagent/spirit of wine})/distillation; **Craft** DC 11  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (20 dew of lunary + 20 quicksilver + 80 spirit of wine)/distillation; **Craft** DC 11  ",
 			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** poison"
 		]
 	},
@@ -704,7 +704,7 @@
 			"",
 			"::aff{iconP start type=inhaled saveF=13 freqM=2 ineff=\"%%misc/deafened%% for 10 minutes\" seceff=\"%%misc/blinded%% for 10 minutes\" cure1}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (150 {eq-reagent/brimstone} + 20 {eq-reagent/dew of lunary} + 80 {eq-reagent/spirit of wine})/fermentation; **Craft** DC 13  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (150 brimstone + 20 dew of lunary + 80 spirit of wine)/fermentation; **Craft** DC 13  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},
@@ -853,7 +853,7 @@
 			"",
 			"::aff{iconP start type=injury saveF=15 freqR=6 eff=\"1d2 %%rule/Wis damage%%. Additionally, the creature has double vision, imposing a 50% miss chance on its attacks against all opponents. Blind creatures are unaffected by this additional effect\" cure1}",
 			"",
-			"{arc-oracle/Pei Zin>_practitioner} herbalists accidentally created diplopic serum while attempting to devise a treatment for cataracts. Derived from {eq-reagent/dew of lunary}, this aromatic pink serum temporarily affects a creature's vision systems, in addition to temporarily impairing its mental faculties."
+			"{arc-oracle/Pei Zin>_practitioner} herbalists accidentally created diplopic serum while attempting to devise a treatment for cataracts. Derived from dew of lunary, this aromatic pink serum temporarily affects a creature's vision systems, in addition to temporarily impairing its mental faculties."
 		]
 	},
 	"malyass_root_paste": {
@@ -974,7 +974,7 @@
 			"",
 			"::aff{iconP start type=contact saveF=16 onset=\"1 minute\" freqM=6 ineffDex=1 ineffExtra=\"%%misc/nauseated%% for 1 minute\" seceffDexD=\"1d2\" seceffExtra=\"%%misc/sickened%% for 1 minute\" cure1}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (70 {eq-reagent/dew of lunary} + 35 {eq-reagent/realgar} + 70 {eq-reagent/urea})/digestion; **Craft** DC 16  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (70 dew of lunary + 35 realgar + 70 urea)/digestion; **Craft** DC 16  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},
@@ -1291,7 +1291,7 @@
 			"",
 			"::aff{iconP start type=inhaled saveF=17 freqM=6 effWis=\"1d2\" effExtra=\"if the victim would become %%misc/shaken%% during the next 1 minute, she becomes %%misc/frightened%% instead\" cure2}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (170 {eq-reagent/quicksilver} + 170 {eq-reagent/realgar})/fermentation; **Craft** DC 17  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (170 quicksilver + 170 realgar)/fermentation; **Craft** DC 17  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},
@@ -1493,7 +1493,7 @@
 			"",
 			"::aff{iconP start type=ingested saveF=18 freqH=8 eff=\"The victim loses all memory of events that took place in the previous hour and can't form new memories for 8 hours. These lost and prevented memories might return later in the form of dreams, and can be returned with a %%spell/restoration%% or %%spell/heal%% spell\" cure2}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (115 {eq-reagent/realgar} + 115 {eq-reagent/cytillesh spores})/calcination; **Craft** DC 18  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (115 realgar + 115 cytillesh spores)/calcination; **Craft** DC 18  ",
 			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** poison"
 		]
 	},
@@ -1543,7 +1543,7 @@
 			"",
 			"::aff{iconP start type=injury saveF=18 freqR=6 eff=\"1d6 fire damage and victim possibly catches on fire\" cure2}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (200 {eq-reagent/magnesium} + 200 {eq-reagent/phosphorus} + 250 {eq-reagent/saltpeter})/distillation; **Craft** DC 18  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (200 magnesium + 200 phosphorus + 250 saltpeter)/distillation; **Craft** DC 18  ",
 			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** poison"
 		]
 	},
@@ -1559,7 +1559,7 @@
 			"",
 			"::aff{iconP start type=inhaled saveF=16 freqM=4 eff=\"Non-orcs are %%misc/blinded%% for 1 minute. Orcs rage for 1 minute, gaining a +2 alchemical bonus to Strength and Dexterity, a +1 alchemical bonus on Will saves, and a -2 penalty to AC. This poison's effects are otherwise similar to a %%class/barbarian/'s%% rage, except that affected orcs are unable to discern friend from foe - attacking the nearest creature each round - and they are not fatigued afterward\" cure2}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (180 {eq-reagent/brimstone} + 80 {eq-reagent/quicksilver} + 60 {eq-reagent/saltpeter})/fermentation; **Craft** DC 16  ",
+			"**{rule/Spontaneous Alchemy} Recipe** (180 brimstone + 80 quicksilver + 60 saltpeter)/fermentation; **Craft** DC 16  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},

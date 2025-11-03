@@ -111,7 +111,7 @@
 			"**Price** 50 gp; **Weight** -  ",
 			"**Equipment Page:** {eq-misc/Antiplague}",
 			"",
-			"Certain healing spells have greater effects when used with [this substance](eq-misc/antiplague).",
+			"Certain healing spells have greater effects when used with this substance.",
 			"",
 			"### Power Component",
 			"",
@@ -134,7 +134,7 @@
 			"**Price** 50 gp; **Weight** -  ",
 			"**Equipment Page:** {eq-misc/Antitoxin}",
 			"",
-			"Like antiplague, [this substance](eq-misc/antitoxin) can augment certain healing spells.",
+			"Like antiplague, this substance can augment certain healing spells.",
 			"",
 			"### Power Component",
 			"",
@@ -159,7 +159,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (10 gp); **Spells** evocation school  ",
+			"**Doses** 1 (10 gp); **Spells** evocation school (M)  ",
 			"**Effect** +1 energy damage"
 		]
 	},
@@ -198,7 +198,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 2 (1 gp); **Spells** acid descriptor  ",
+			"**Doses** 2 (1 gp); **Spells** acid descriptor (M)  ",
 			"**Effect** +1 acid damage"
 		]
 	},
@@ -217,7 +217,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 5 (5 gp); **Spells** abjuration school  ",
+			"**Doses** 5 (5 gp); **Spells** abjuration school (M)  ",
 			"**Effect** +1 caster level for the purpose of caster level and dispel checks"
 		]
 	},
@@ -231,12 +231,12 @@
 			"",
 			"**Price** 300 gp; **Weight** -",
 			"",
-			"This vibrant blue-green crystal is a distillation of the spirit of cooperation characteristic of the chaotic good plane of Elysium.",
+			"This vibrant blue-green crystal is a distillation of the spirit of cooperation characteristic of the chaotic good plane of {rule/Elysium}.",
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (300 gp); **Spells** harmless spells  ",
-			"**Effect** When you use a cooperation crystal as a material component or focus for a harmless spell, treat your caster level as 1 higher for the purpose of determining the spell's duration and effect. This increase doesn't stack with other effects that raise the caster level of a spell."
+			"**Doses** 1 (300 gp); **Spells** harmless spells (M or F)  ",
+			"**Effect** When you use a cooperation crystal as a material component or focus for a harmless spell, treat your caster level as 1 higher for the purpose of determining the spell's duration and effect. This increase doesn't stack with other effects that raise the caster level of a spell. (You cannot use this as a material component and a focus for the same spell.)"
 		]
 	},
 	"cytillesh_spores": {
@@ -254,7 +254,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (5 gp); **Spells** charm or compulsion subschool  ",
+			"**Doses** 1 (5 gp); **Spells** charm or compulsion subschool (M)  ",
 			"**Effect** +1 caster level for the purpose of duration"
 		]
 	},
@@ -273,7 +273,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 5 (10 gp); **Spells** creation subschool  ",
+			"**Doses** 5 (10 gp); **Spells** creation subschool (M)  ",
 			"**Effect** +1 caster level for the purpose of the effect"
 		]
 	},
@@ -291,7 +291,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 5 (20 gp); **Spells** divination school  ",
+			"**Doses** 5 (20 gp); **Spells** divination school (M)  ",
 			"**Effect** +1 caster level for the purpose of effect"
 		]
 	},
@@ -303,9 +303,10 @@
 			"",
 			"{SOURCE Dragonslayer's Handbook/19}",
 			"",
-			"**Price** 50 gp; **Weight** 1 lb.",
+			"**Price** 50 gp; **Weight** 1 lb.  ",
+			"**Equipment Page:** {eq-misc/Dragon's Gut}",
 			"",
-			"A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called {eq-misc/dragon's gut}.",
+			"A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called dragon's gut.",
 			"",
 			"### Power Component",
 			"",
@@ -331,12 +332,12 @@
 			"",
 			"**Price** 350 gp; **Weight** -",
 			"",
-			"This small, reddish crystal shard flickers with a brilliant, dancing flame - a representation of the Plane of Fire.",
+			"This small, reddish crystal shard flickers with a brilliant, dancing flame - a representation of the {rule/Plane of Fire}.",
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (350 gp); **Spells** fire spells  ",
-			"**Effect** When you use a fire fragment as a material component or focus for a spell that deals fire damage, that spell is affected as per the {feat/Flaring Spell} metamagic feat (though this does not increase the spell slot that the spell uses), and you treat your caster level as 1 higher for the purpose of determining the spell's damage."
+			"**Doses** 1 (350 gp); **Spells** fire spells (M or F)  ",
+			"**Effect** When you use a fire fragment as a material component or focus for a spell that deals fire damage, that spell is affected as per the {feat/Flaring Spell} metamagic feat (though this does not increase the spell slot that the spell uses), and you treat your caster level as 1 higher for the purpose of determining the spell's damage. (You cannot use this as a material component and a focus for the same spell.)"
 		]
 	},
 	"flash_powder": {
@@ -376,7 +377,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 10 (5 gp); **Spells** transmutation school  ",
+			"**Doses** 10 (5 gp); **Spells** transmutation school (M)  ",
 			"**Effect** +1 caster level for the purpose of overcoming spell resistance"
 		]
 	},
@@ -395,7 +396,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (5 gp); **Spells** healing subschool  ",
+			"**Doses** 1 (5 gp); **Spells** healing subschool (M)  ",
 			"**Effect** +1 hit point healed"
 		]
 	},
@@ -409,12 +410,12 @@
 			"",
 			"**Price** 250 gp; **Weight** -",
 			"",
-			"This fragment appears to be made of glass and gold and emits gleaming light, reminiscent of the mountain of Heaven.",
+			"This fragment appears to be made of glass and gold and emits gleaming light, reminiscent of the mountain of {rule/Heaven}.",
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (250 gp); **Spells** good or lawful spells with a Will saving throw  ",
-			"**Effect** When you use a Heavenly quartz as a material component or focus for a spell with the good or lawful descriptor that requires affected creatures to attempt a Will saving throw, increase the DC of that saving throw by 1; if the spell has both the good and lawful descriptors, treat the spell's caster level as if it were 1 higher for the purpose of caster level checks and dispel checks."
+			"**Doses** 1 (250 gp); **Spells** good or lawful spells with a Will saving throw (M or F)  ",
+			"**Effect** When you use a Heavenly quartz as a material component or focus for a spell with the good or lawful descriptor that requires affected creatures to attempt a Will saving throw, increase the DC of that saving throw by 1; if the spell has both the good and lawful descriptors, treat the spell's caster level as if it were 1 higher for the purpose of caster level checks and dispel checks. (You cannot use this as a material component and a focus for the same spell.)"
 		]
 	},
 	"itching_powder": {
@@ -428,7 +429,7 @@
 			"**Price** 60 gp; **Weight** 2 lbs.  ",
 			"**Equipment Page:** {eq-weapon/Itching Powder}",
 			"",
-			"[This powder](eq-weapon/itching_powder) can make an otherwise innocuous spell especially irritating.",
+			"This powder can make an otherwise innocuous spell especially irritating.",
 			"",
 			"### Power Component",
 			"",
@@ -451,9 +452,9 @@
 			"{SOURCE Adventurer's Armory/27}",
 			"",
 			"**Price** 40 gp; **Weight** 2 lbs.  ",
-			"**Equipment Page:** {eq-weapon/Liquid Ice}",
+			"**Equipment Pages:** {eq-weapon/Liquid Ice} (weapon), {eq-siegeengine/Liquid Ice} (siege engine ammunition)",
 			"",
-			"[This substance](eq-siegeengine/liquid_ice) augments cold magic.",
+			"This substance augments cold magic.",
 			"",
 			"### Power Component",
 			"",
@@ -487,7 +488,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 2 (2 gp); **Spells** transmutation school  ",
+			"**Doses** 2 (2 gp); **Spells** transmutation school (M)  ",
 			"**Effect** +1 caster level for the purpose of duration"
 		]
 	},
@@ -505,7 +506,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 2 (4 gp); **Spells** abjuration school  ",
+			"**Doses** 2 (4 gp); **Spells** abjuration school (M)  ",
 			"**Effect** +1 caster level for the purpose of range"
 		]
 	},
@@ -523,7 +524,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 4 (2 gp); **Spells** abjuration school  ",
+			"**Doses** 4 (2 gp); **Spells** abjuration school (M)  ",
 			"**Effect** +1 caster level for the purpose of caster level checks and dispel checks"
 		]
 	},
@@ -535,9 +536,10 @@
 			"",
 			"{SOURCE Monster Hunter's Handbook/27}",
 			"",
-			"**Price** 70 gp; **Weight** 1/10 lb.",
+			"**Price** 70 gp; **Weight** 1/10 lb.  ",
+			"**Equipment Page:** {eq-misc/Odor Stalk}",
 			"",
-			"These alchemically treated {eq-misc/incense} sticks contain pheromones that certain creatures find repellent. Each {eq-misc/odor stalk} is created to irritate a specific creature type.",
+			"These alchemically treated {eq-misc/incense} sticks contain pheromones that certain creatures find repellent. Each odor stalk is created to irritate a specific creature type.",
 			"",
 			"### Power Component",
 			"",
@@ -562,13 +564,13 @@
 			"{SOURCE Alchemy Manual/19}",
 			"",
 			"**Price** 15 gp; **Weight** -  ",
-			"**Equipment Page:** {eq-misc/Pesh}",
+			"**Equipment Pages:** {eq-misc/Pesh} (Black Market item), {drug/Pesh} (drug)",
 			"",
 			"When used as an alchemical reagent, refined pesh is often sublimated along with other reagents to create new forms of the famous drug.",
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (15 gp); **Spells** enchantment school  ",
+			"**Doses** 1 (15 gp); **Spells** enchantment school (M)  ",
 			"**Effect** +1 caster level for purpose of duration"
 		]
 	},
@@ -586,7 +588,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 10 (2 gp); **Spells** light descriptor or teleportation subschool  ",
+			"**Doses** 10 (2 gp); **Spells** light descriptor or teleportation subschool (M)  ",
 			"**Effect** +1 caster level for the purpose of range"
 		]
 	},
@@ -604,7 +606,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 3 (3 gp); **Spells** mind-affecting descriptor  ",
+			"**Doses** 3 (3 gp); **Spells** mind-affecting descriptor (M)  ",
 			"**Effect** +1 caster level for the purpose of duration"
 		]
 	},
@@ -622,7 +624,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (3 gp); **Spells** poison descriptor  ",
+			"**Doses** 1 (3 gp); **Spells** poison descriptor (M)  ",
 			"**Effect** +2 DC to identify or neutralize the poison with spells or skills"
 		]
 	},
@@ -640,7 +642,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 20 (10 gp); **Spells** necromancy school  ",
+			"**Doses** 20 (10 gp); **Spells** necromancy school (M)  ",
 			"**Effect** +1 caster level for the purpose of effect"
 		]
 	},
@@ -658,7 +660,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (1 gp); **Spells** fire descriptor  ",
+			"**Doses** 1 (1 gp); **Spells** fire descriptor (M)  ",
 			"**Effect** +1 fire damage"
 		]
 	},
@@ -677,7 +679,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 10 (10 gp); **Spells** illusion school  ",
+			"**Doses** 10 (10 gp); **Spells** illusion school (M)  ",
 			"**Effect** +1 to DC of Will saves to disbelieve"
 		]
 	},
@@ -720,7 +722,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 6 (3 gp); **Spells** calling and summoning subschools  ",
+			"**Doses** 6 (3 gp); **Spells** calling and summoning subschools (M)  ",
 			"**Effect** +1 caster level for the purpose of duration"
 		]
 	},
@@ -769,7 +771,7 @@
 			"",
 			"@HL[Alarm (M):] If cast as a mental alarm, you may have the spell activate a mental and audible alarm. If cast as an audible alarm, the alarm is as loud as a thunderstone and affects creatures in a 10-foot-radius spread as if a thunderstone had detonated there.",
 			"",
-			"@HL[Glyph of Warding (M):] Creatures that fail their saves against a blast glyph are also deafened as if by a thunderstone."
+			"@HL[Glyph of Warding (M):] Creatures that fail their saves against a blast glyph are also {misc/deafened} as if by a thunderstone."
 		]
 	},
 	"urea": {
@@ -786,7 +788,7 @@
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 4 (2 gp); **Spells** cold descriptor  ",
+			"**Doses** 4 (2 gp); **Spells** cold descriptor (M)  ",
 			"**Effect** +1 caster level for the purpose of the effect"
 		]
 	},
@@ -800,12 +802,12 @@
 			"",
 			"**Price** 250 gp; **Weight** -",
 			"",
-			"This shard seems to absorb the light around it, demonstrating the annihilatory power of the Negative Energy Plane.",
+			"This shard seems to absorb the light around it, demonstrating the annihilatory power of the {rule/Negative Energy Plane}.",
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (250 gp); **Spells** necromancy school  ",
-			"**Effect** When you use a void crystal as a material component or focus for a spell of the necromancy school, the target takes a -2 penalty on saves against the spell."
+			"**Doses** 1 (250 gp); **Spells** necromancy school (M or F)  ",
+			"**Effect** When you use a void crystal as a material component or focus for a spell of the necromancy school, the target takes a -2 penalty on saves against the spell. (You cannot use this as a material component and a focus for the same spell.)"
 		]
 	},
 	"whimsy_star": {
@@ -818,12 +820,12 @@
 			"",
 			"**Price** 200 gp; **Weight** -",
 			"",
-			"The shimmering, multicolored whimsy star captures the mutability of the First World.",
+			"The shimmering, multicolored whimsy star captures the mutability of {rule/the First World}.",
 			"",
 			"### Power Component",
 			"",
-			"**Doses** 1 (200 gp); **Spells** any  ",
-			"**Effect** When you use a whimsy star as a material component or focus for a spell, roll 1d6 and consult the table below. You can't use magic or other abilities to affect the result of this roll. If a result cannot apply to your spell, then the spell resolves normally. Regardless of the result, the spell slot required to cast the spell doesn't change.",
+			"**Doses** 1 (200 gp); **Spells** any (M or F)  ",
+			"**Effect** When you use a whimsy star as a material component or focus for a spell, roll 1d6 and consult the table below. You can't use magic or other abilities to affect the result of this roll. If a result cannot apply to your spell, then the spell resolves normally. Regardless of the result, the spell slot required to cast the spell doesn't change. (You cannot use this as a material component and a focus for the same spell.)",
 			"",
 			"| d6 | Result |",
 			"| --- | --- |",

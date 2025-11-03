@@ -2,6 +2,7 @@
 	"advanced_magic_topics": {
 		"name": "Advanced Magic Topics",
 		"subtopics": [
+			"alchemical_power_components",
 			"binding_outsiders",
 			"building_and_modifying_constructs",
 			"designing_spells",
@@ -11,6 +12,76 @@
 		],
 		"description": [
 			"These topics contain more \"advanced\" topics about magic in the Pathfinder RPG."
+		]
+	},
+	"alchemical_power_components": {
+		"name": "Alchemical Power components",
+		"sources": [ "Adventurer's Armory" ],
+		"description": [
+			"{SOURCE Adventurer's Armory/26}",
+			"",
+			"An {rule/alchemical power component>s} is an alchemical item used as a material component or focus for a spell in order to alter or augment the spell's normal effects. What is listed is a sample of these effects; your GM may allow other combinations. Spells followed by an (M) expend the alchemical item as a material component; those followed by an (F) use the item as a focus and do not expend it. In both cases, the alchemical item does not have its normal effect and does not affect any other parameters of the spell. You cannot use the same item as both a focus and a material component at the same time.",
+			"",
+			"There are two types of power components. One type can be used to enhance specific spells, while the other type can be used on a broad range of spells.",
+			"",
+			"::h3[Specific Spells]{jl}",
+			"",
+			"| Component | Material Component | Focus Component |",
+			"| --- | --- | --- |",
+			"| @ripple[eq-reagent/Acid] | {spell/Acid arrow}, {spell/acid fog}, {spell/acid splash}, {spell/dispel magic}, {spell/grease}, {spell/wall of ice} | *Acid splash* |",
+			"| @ripple[eq-reagent/Alchemical Grease] | {spell/Grease}, {spell/sleet storm}, {spell/wall of iron}, {spell/wall of stone} | - |",
+			"| @ripple[eq-reagent/Alchemist's Fire] | {spell/Burning hands}, {spell/fireball}, {spell/flaming sphere}, {spell/protection from energy}, {spell/resist energy}, {spell/scorching ray} | *Scorching ray* |",
+			"| @ripple[eq-reagent/Antiplague] | {spell/Heroes' feast}, {spell/remove disease} | - |",
+			"| @ripple[eq-reagent/Antitoxin] | {spell/Neutralize poison} | - |",
+			"| @ripple[eq-reagent/Bladeguard] | {spell/Wall of iron} | - |",
+			"| @ripple[eq-reagent/Dragon's gut] | {spell/Acid arrow}, {spell/acid fog}, {spell/acidic spray} | (see text) |",
+			"| @ripple[eq-reagent/Flash Powder] | {spell/Flare}, {spell/pyrotechnics} | - |",
+			"| @ripple[eq-reagent/Itching Powder] | {spell/Glitterdust}, {spell/repel vermin}, {spell/summon swarm} | - |",
+			"| @ripple[eq-reagent/Liquid Ice] | {spell/Cone of cold}, {spell/gentle repose}, {spell/ray of frost}, {spell/protection from energy}, {spell/resist energy} | *Ray of frost* |",
+			"| @ripple[eq-reagent/Odor Stalk] | {spell/Ghoul touch}, {spell/repel vermin}, {spell/stinking cloud} | (see text) |",
+			"| @ripple[eq-reagent/Smokestick] | {spell/Fog cloud}, {spell/obscuring mist}, {spell/pyrotechnics} | - |",
+			"| @ripple[eq-reagent/Tanglefoot Bag] | {spell/Black tentacles}, {spell/slow}, {spell/web} | - |",
+			"| @ripple[eq-reagent/Thunderstone] | {spell/Alarm}, {spell/glyph of warding} | - |",
+			"",
+			"::h3[Wide Range of Spells]{jl}",
+			"",
+			"| Component | Spells |",
+			"| --- | --- |",
+			"| @ripple[eq-reagent/Black powder] | {main/spells_<Evocation} spells (M) |",
+			"| @ripple[eq-reagent/Brimstone] | {spelldef/Acid} descriptor (M) |",
+			"| @ripple[eq-reagent/Cold iron] | {main/spells_<Abjuration} school (M) |",
+			"| @ripple[eq-reagent/Cooperation crystals] | Harmless spells (M or F) |",
+			"| @ripple[eq-reagent/Cytillesh spores] | {spelldef/Charm} or {spelldef/compulsion} subschool (M) |",
+			"| @ripple[eq-reagent/Darkwood] | {spelldef/Creation} subschool (M) |",
+			"| @ripple[eq-reagent/Dew of lunary] | {main/spells_<Divination} school (M) |",
+			"| @ripple[eq-reagent/Fire fragment] | {spelldef/Fire} spells (M or F) |",
+			"| @ripple[eq-reagent/Ginger extract] | {main/spells_<Transmutation} school (M) |",
+			"| @ripple[eq-reagent/Gold] | {spelldef/Healing} subschool (M) |",
+			"| @ripple[eq-reagent/Heavenly quartz] | {spelldef/Good} or {spelldef/lawful} spells with a Will saving throw (M or F) |",
+			"| @ripple[eq-reagent/Magnesium] | Transmutation school (M) |",
+			"| @ripple[eq-reagent/Mugwort extract] | Abjuration school (M) |",
+			"| @ripple[eq-reagent/Myrrh] | Abjuration school (M) |",
+			"| @ripple[eq-reagent/Pesh] | {main/spells_<Enchantment} school (M) |",
+			"| @ripple[eq-reagent/Phosphorus] | {spelldef/Light} descriptor or {spelldef/teleportation} subschool (M) |",
+			"| @ripple[eq-reagent/Quicksilver] | {spelldef/Mind-affecting} descriptor (M) |",
+			"| @ripple[eq-reagent/Realgar] | {spelldef/Poison} descriptor (M) |",
+			"| @ripple[eq-reagent/Salt] | {main/spells_<Necromancy} school (M) |",
+			"| @ripple[eq-reagent/Saltpeter] | Fire descriptor (M) |",
+			"| @ripple[eq-reagent/Silver] | {main/spells_<Illusion} school (M) |",
+			"| @ripple[eq-reagent/Spirit of wine] | {spelldef/Calling} and {spelldef/summoning} subschools (M) |",
+			"| @ripple[eq-reagent/Urea] | {spelldef/Cold} descriptor (M) |",
+			"| @ripple[eq-reagent/Void shard] | Necromancy school (M or F) |",
+			"| @ripple[eq-reagent/Whimsy star] | Any (M or F) |"
+		],
+		"parent_topics": [ "advanced_magic_topics" ],
+		"siblings": [
+			"alchemical_power_components",
+			"binding_outsiders",
+			"building_and_modifying_constructs",
+			"designing_spells",
+			"magic_item_creation_ucp",
+			"magic_item_familiars_companions",
+			"spellblights"
 		]
 	},
 	"binding_outsiders": {
@@ -29,6 +100,7 @@
 			"outsider_categories"
 		],
 		"siblings": [
+			"alchemical_power_components",
 			"binding_outsiders",
 			"building_and_modifying_constructs",
 			"designing_spells",
@@ -852,6 +924,7 @@
 			"construct_modifications"
 		],
 		"siblings": [
+			"alchemical_power_components",
 			"binding_outsiders",
 			"building_and_modifying_constructs",
 			"designing_spells",
@@ -1101,6 +1174,7 @@
 			"benchmarks"
 		],
 		"siblings": [
+			"alchemical_power_components",
 			"binding_outsiders",
 			"building_and_modifying_constructs",
 			"designing_spells",
@@ -1805,6 +1879,7 @@
 			"talismanic_components"
 		],
 		"siblings": [
+			"alchemical_power_components",
 			"binding_outsiders",
 			"building_and_modifying_constructs",
 			"designing_spells",
@@ -2303,6 +2378,7 @@
 		],
 		"parent_topics": [ "advanced_magic_topics" ],
 		"siblings": [
+			"alchemical_power_components",
 			"binding_outsiders",
 			"building_and_modifying_constructs",
 			"designing_spells",
@@ -2330,6 +2406,7 @@
 			"description_of_spellblights"
 		],
 		"siblings": [
+			"alchemical_power_components",
 			"binding_outsiders",
 			"building_and_modifying_constructs",
 			"designing_spells",
