@@ -910,7 +910,7 @@
 		"compilationSources": [ [ "Distant Realms" ] ],
 		"category": "Mutagen Discoveries",
 		"description": [
-			"The alchemist's rasugen now grants a +4 alchemical bonus on all saving throws, 3 temporary hit points per alchemist level, and immunity to mind-affecting effects. The alchemist takes a -4 penalty to Intelligence as long as the greater rasugen persists. An alchemist must be at least 12th level and [able to brew a rasugen](arc-alchemist/mnemostiller) before selecting this discovery."
+			"The alchemist's rasugen now grants a +4 alchemical bonus on all saving throws, 3 {rule/temporary hit points} per alchemist level, and immunity to mind-affecting effects. The alchemist takes a -4 penalty to Intelligence as long as the greater rasugen persists. An alchemist must be at least 12th level and [able to brew a rasugen](arc-alchemist/mnemostiller) before selecting this discovery."
 		]
 	},
 	"grand_rasugen": {
@@ -919,7 +919,7 @@
 		"category": "Mutagen Discoveries",
 		"level": 1,
 		"description": [
-			"The alchemist's rasugen now grants a +6 alchemical bonus on all saving throws, 4 temporary hit points per alchemist level, and immunity to disease, mind-affecting effects, and poison. The alchemist takes a -6 penalty to Intelligence and a -2 penalty to Charisma and Wisdom as long as the grand rasugen persists. An alchemist must be at least 16th level and have the {discovery/greater rasugen} discovery before selecting this discovery."
+			"The alchemist's rasugen now grants a +6 alchemical bonus on all saving throws, 4 {rule/temporary hit points} per alchemist level, and immunity to disease, mind-affecting effects, and poison. The alchemist takes a -6 penalty to Intelligence and a -2 penalty to Charisma and Wisdom as long as the grand rasugen persists. An alchemist must be at least 16th level and have the {discovery/greater rasugen} discovery before selecting this discovery."
 		]
 	},
 	"infuse_mutagen": {

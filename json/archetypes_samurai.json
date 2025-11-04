@@ -55,11 +55,11 @@
 			"This replaces greater banner."
 		]
 	},
-	"soverign_blade": {
-		"name": "Soverign Blade",
+	"sovereign_blade": {
+		"name": "Sovereign Blade",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
-			"## Soverign Blade",
+			"## Sovereign Blade",
 			"",
 			"{SOURCE Legacy of Dragons/14}  ",
 			"In Tian Xia, many samurai are tutored in the ways of honor using lessons that originate from sovereign dragons and their dedication to safeguarding harmony.",
@@ -74,7 +74,7 @@
 			"",
 			"This ability replaces mounted archer.",
 			"",
-			"**Soverign Breath (Sp):** At 6th level, the sovereign blade can issue forth an immense roar similar to the breath weapon of a {family/sovereign dragon}. This functions as dragon's breath, except it deals sonic damage in a 30-foot cone and has a caster level equal to half the sovereign blade's samurai level. The sovereign blade can use this ability once per day, plus one additional time per day at 12th and 18th levels.",
+			"**Sovereign Breath (Sp):** At 6th level, the sovereign blade can issue forth an immense roar similar to the breath weapon of a {family/sovereign dragon}. This functions as dragon's breath, except it deals sonic damage in a 30-foot cone and has a caster level equal to half the sovereign blade's samurai level. The sovereign blade can use this ability once per day, plus one additional time per day at 12th and 18th levels.",
 			"",
 			"This replaces the bonus feats a samurai gained at 6th, 12th, and 18th level."
 		]

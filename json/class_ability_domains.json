@@ -131,7 +131,7 @@
 			"",
 			"The following granted power replaces the speak with animals power of the Animal domain.",
 			"",
-			">**Exoskeleton (Su):** As a swift action, you can grow an exoskeleton that grants you a +1 enhancement bonus to your natural armor and 1d4 temporary hit points + 1 for every 2 cleric levels you have. The natural armor bonus increases by 1 for every 5 cleric levels you have. The exoskeleton retracts after 1 round, ending its benefits. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
+			">**Exoskeleton (Su):** As a swift action, you can grow an exoskeleton that grants you a +1 enhancement bonus to your natural armor and 1d4 {rule/temporary hit points} + 1 for every 2 cleric levels you have. The natural armor bonus increases by 1 for every 5 cleric levels you have. The exoskeleton retracts after 1 round, ending its benefits. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
 			"**Replacement Domain Spells:** 4th-{spell/giant vermin}, 5th-{spell/vermin shape II}, 8th-{spell/summon nature's ally VIII} (1d3 goliath stag beetles)."
 		]
@@ -1049,7 +1049,7 @@
 			"",
 			"**Replacement Power:** The following granted power replaces the scythe of evil power of the Evil domain.",
 			"",
-			">**Feed on Fear (Su):** At 8th level, as an immediate action upon successfully landing a melee attack on a creature that is already suffering from a fear effect, you deal 2d6 extra points of damage and gain an equal amount of temporary hit points. These temporary hit points last for 24 hours or until lost. You can use this ability once per day at 8th level, and an additional time per day for every 4 levels beyond 8th.",
+			">**Feed on Fear (Su):** At 8th level, as an immediate action upon successfully landing a melee attack on a creature that is already suffering from a fear effect, you deal 2d6 extra points of damage and gain an equal amount of {rule/temporary hit points}. These temporary hit points last for 24 hours or until lost. You can use this ability once per day at 8th level, and an additional time per day for every 4 levels beyond 8th.",
 			"",
 			"**Replacement Domain Spells:** 1st-{spell/cause fear}, 3rd-{spell/scare}, 4th-{spell/fear}.",
 			"",

@@ -451,7 +451,7 @@
 			"",
 			"::archetype[Ironbound Sword]{c=samurai r=\"Weapon Expertise; Banner; Greater Banner\" e=\"The ironbound sword's fighting style, focused on incapacitating opponents rather than killing them, can subdue a foe without causing permanent harm, leaving the soul of the samurai unstained by deaths of her enemies.\"}",
 			"",
-			"::archetype[Soverign Blade]{c=samurai r=\"Alignment; Mount; Mounted Archer; 6th, 12th, 18th-level bonus feats\" e=\"In Tian Xia, many samurai are tutored in the ways of honor using lessons that originate from sovereign dragons and their dedication to safeguarding harmony.\"}",
+			"::archetype[Sovereign Blade]{c=samurai r=\"Alignment; Mount; Mounted Archer; 6th, 12th, 18th-level bonus feats\" e=\"In Tian Xia, many samurai are tutored in the ways of honor using lessons that originate from sovereign dragons and their dedication to safeguarding harmony.\"}",
 			"",
 			"::archetype[Sword Saint]{c=samurai r=\"Samurai's Mount; Mounted Charge; Banner; Greater Banner\" e=\"Sword saints hail from lands where samurai are prevalent, and are often ronin who wander the world seeking new challenges to perfect their intricate style of swordplay called iaijutsu.\"}",
 			"",
@@ -512,7 +512,7 @@
 				"data": [
 					[ "{arc-samurai/Brawling Blademaster}", null, "X", null, null, null, "X", null, null, "X", "X", null, null, null, "X", "X" ],
 					[ "{arc-samurai/Ironbound Sword}", null, "X", null, null, null, "X", null, null, null, null, null, null, null, "X", null ],
-					[ "{arc-samurai/Soverign Blade}", "X", null, "X", null, null, null, null, null, "X", "X", null, null, null, null, null ],
+					[ "{arc-samurai/Sovereign Blade}", "X", null, "X", null, null, null, null, null, "X", "X", null, null, null, null, null ],
 					[ "{arc-samurai/Sword Saint}", null, "X", null, null, null, "X", null, null, "X", null, "X", null, null, null, null ],
 					[ "{arc-samurai/Ward Speaker}", "X", null, null, null, null, null, "X", "X", null, null, null, "X", "X", null, null ],
 					[ "{arc-samurai/Warrior Poet}", null, "X", "X", "X", "X", "X", null, null, "X", "X", null, null, null, "X", "X" ],

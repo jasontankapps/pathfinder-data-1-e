@@ -80,9 +80,9 @@
 			"{SOURCE Wilderness Origins/4}  ",
 			"The crocodile lurks in the water, unseen until it lunges forth with its powerful jaws.",
 			"",
-			"**Minor Form:** You gain a +2 competence bonus on Swim checks and grapple combat maneuver checks. This bonus increases to +4 at 8th level and +6 at 15th level.",
+			"**Minor Form:** You gain a +2 competence bonus on Swim checks and {rule/grapple} combat maneuver checks. This bonus increases to +4 at 8th level and +6 at 15th level.",
 			"",
-			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a {monster/crocodile}. While in this form, you gain a swim speed of 30 feet, low-light vision, a bite attack (1d8) with the {umr/grab} ability, and a tail slap attack (a secondary natural attack that deals 1d12 points of damage). At 8th level, once per minute as a free action, you can increase your land speed by 20 feet for 1 round. At 15th level, you gain {feat/Improved Natural Attack} with your bite attack, and when you successfully grapple a foe, you can knock your grappled foe prone.",
+			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a {monster/crocodile}. While in this form, you gain a swim speed of 30 feet, low-light vision, a bite attack (1d8) with the {umr/grab} ability, and a tail slap attack (a secondary {umr/natural attack} that deals 1d12 points of damage). At 8th level, once per minute as a free action, you can increase your land speed by 20 feet for 1 round. At 15th level, you gain {feat/Improved Natural Attack} with your bite attack, and when you successfully grapple a foe, you can knock your grappled foe {rule/prone}.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S), tail slap (B)"
 		]
@@ -128,9 +128,9 @@
 			"{SOURCE Wilderness Origins/4}  ",
 			"The aspect of the dragonfly offers the ability to make quick, darting attacks at foes.",
 			"",
-			"**Minor Form:** You gain an enhancement bonus of +10 feet to your base speed when charging. This bonus increases to +20 feet at 8th level and +30 feet at 15th level.",
+			"**Minor Form:** You gain an enhancement bonus of +10 feet to your base speed when {rule/charging}. This bonus increases to +20 feet at 8th level and +30 feet at 15th level.",
 			"",
-			"**Major Form ({spell/Vermin Shape II}):** Your shape changes to that of a {monster/giant dragonfly}. While in this form, you gain a fly speed of 60 feet (average), darkvision with a range of 60 feet, and a bite attack (2d6) with the {umr/grab} ability. At 8th level, you gain {feat/Flyby Attack} as a bonus feat, and your fly speed improves to 60 feet (good). At 15th level, your fly speed increases to 80 feet (perfect), and if you charge while flying, you gain a +4 bonus on grapple combat maneuver checks for 1 round.",
+			"**Major Form ({spell/Vermin Shape II}):** Your shape changes to that of a {monster/giant dragonfly}. While in this form, you gain a fly speed of 60 feet (average), darkvision with a range of 60 feet, and a bite attack (2d6) with the {umr/grab} ability. At 8th level, you gain {feat/Flyby Attack} as a bonus feat, and your fly speed improves to 60 feet (good). At 15th level, your fly speed increases to 80 feet (perfect), and if you charge while flying, you gain a +4 bonus on {rule/grapple} combat maneuver checks for 1 round.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S), wing (B)"
 		]
@@ -146,7 +146,7 @@
 			"",
 			"**Minor Form:** Your attacks deal 1 point of electricity damage in addition to their normal damage. This additional electricity damage increases to 1d3 at 8th level and 1d6 at 15th level.",
 			"",
-			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of an {monster/electric eel}. While in this form, you gain a swim speed of 30 feet, low-light vision, electricity resistance 5, a bite attack (1d6), and a tail attack (a secondary natural touch attack that deals 1d6 points of electricity damage). At 8th level, your electricity resistance increases to 10 and you gain a +4 racial bonus on Escape Artist checks. At 15th level, on a critical hit with your tail attack, the creature struck must succeed at a Fortitude save (DC = 10 + half your shifter level + your Constitution modifier) or be {misc/stunned} for 1d4 rounds.",
+			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of an {monster/electric eel}. While in this form, you gain a swim speed of 30 feet, low-light vision, electricity {umr/resistance} 5, a bite attack (1d6), and a tail attack (a {umr/secondary |natural[ touch] attack} that deals 1d6 points of electricity damage). At 8th level, your electricity resistance increases to 10 and you gain a +4 racial bonus on Escape Artist checks. At 15th level, on a critical hit with your tail attack, the creature struck must succeed at a Fortitude save (DC = 10 + half your shifter level + your Constitution modifier) or be {misc/stunned} for 1d4 rounds.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S), tail slap (B)"
 		]
@@ -160,7 +160,7 @@
 			"{SOURCE Heroes of Golarion/22}  ",
 			"The elephant is a symbol of both power and wisdom in Garund and Vudra. Shifters who take this aspect learn the value of applying their strength with precision. An elephant's alternate attacks are gore (P) and slam (B).",
 			"",
-			"**Minor Form:** You gain a +4 enhancement bonus on bull rush and overrun combat maneuver checks. At 8th level, this bonus increases to +6, and at 15th level it increases to +8.",
+			"**Minor Form:** You gain a +4 enhancement bonus on {rule/bull rush} and {rule/overrun} combat maneuver checks. At 8th level, this bonus increases to +6, and at 15th level it increases to +8.",
 			"",
 			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a Large adolescent {monster/elephant} (as an elephant, but with a space of 10 feet). While in this form, you gain low-light vision, {umr/scent}, a gore attack (1d6 damage), and a slam attack (1d8 damage) with a 5-foot reach. You also gain a +2 racial bonus to Strength and to natural armor. While in this form, you can carry a Medium bipedal creature on your back, allowing you to act as the creature's mount. At 8th level, you gain {umr/trample}, as the universal monster rule, dealing your shifter claw damage. At 15th level, you gain {feat/Improved Bull Rush} as a bonus feat, and your racial bonus to Strength and natural armor increases to +4.",
 			"",
@@ -194,9 +194,9 @@
 			"",
 			"**Minor Form:** You gain a +4 competence bonus on Acrobatics checks when jumping and on Swim checks. These bonuses increase to +6 at 8th level and +8 at 15th level.",
 			"",
-			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a Large frog (as per the {monster/giant frog} but with a space of 10 feet). While in this form, you gain a base speed of 30 feet, a swim speed of 30 feet, low-light vision, {umr/scent} (30 feet), a bite attack (1d6 damage) with the {umr/grab} ability, and the ability to treat all jumps as if you had a running start. At 8th level, you gain a tongue attack (see below). At 15th level, your swim speed increases to 60 feet. In addition, the reach of your tongue attack increases to 30 feet, and your tongue attack deals bludgeoning damage equal to the damage dealt by your shifter claws.",
+			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a Large frog (as per the {monster/giant frog} but with a space of 10 feet). While in this form, you gain a base speed of 30 feet, a swim speed of 30 feet, low-light vision, {umr/scent} (30 feet), a bite attack (1d6 damage) with the {umr/grab} ability, and the ability to treat all [jumps](skill/acrobatics) as if you had a running start. At 8th level, you gain a tongue attack (see below). At 15th level, your swim speed increases to 60 feet. In addition, the reach of your tongue attack increases to 30 feet, and your tongue attack deals bludgeoning damage equal to the damage dealt by your shifter claws.",
 			"",
-			">*Tongue (Ex):* Your tongue is a primary natural attack with a reach of 15 feet. Your tongue deals no damage on a hit, but can be used to grab. You do not gain the grappled condition while using your tongue in this manner.",
+			">*Tongue (Ex):* Your tongue is a {umr/primary |natural attack} with a reach of 15 feet. Your tongue deals no damage on a hit, but can be used to grab. You do not gain the {rule/grappled} condition while using your tongue in this manner.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S)"
 		]
@@ -248,7 +248,7 @@
 			"",
 			"**Minor Form:** You gain a +4 competence bonus on Intimidate checks. This bonus increases to +6 at 8th level and +8 at 15th level.",
 			"",
-			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a {monster/dire lion}. While in this form, you gain a base speed of 40 feet, low-light vision, and {umr/scent} (30 feet). Once per day for every 2 shifter levels you have, you can utter a mighty roar, allowing you to attempt an Intimidate check with a +5 circumstance bonus to demoralize enemies within 30 feet. Allies gain a +1 morale bonus on attack and damage rolls against creatures affected by this ability. At 8th level, you gain one of the following teamwork feats as a bonus feat: {feat/Outflank}, {feat/Pack Attack}, {feat/Paired Opportunists}, or {feat/Shake It Off}. You can grant allies within 30 feet the benefits of this feat as a swift action for a number of rounds equal to 3 + your Wisdom modifier. At 15th level, you provide a flanking bonus to any ally who threatens the same opponent as you do, and you can change places with an adjacent ally as a move action that does not provoke an attack of opportunity, as if using the {feat/Swap Places} feat.",
+			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a {monster/dire lion}. While in this form, you gain a base speed of 40 feet, low-light vision, and {umr/scent} (30 feet). Once per day for every 2 shifter levels you have, you can utter a mighty roar, allowing you to attempt an Intimidate check with a +5 circumstance bonus to demoralize enemies within 30 feet. Allies gain a +1 morale bonus on attack and damage rolls against creatures affected by this ability. At 8th level, you gain one of the following teamwork feats as a bonus feat: {feat/Outflank}, {feat/Pack Attack}, {feat/Paired Opportunists}, or {feat/Shake It Off}. You can grant allies within 30 feet the benefits of this feat as a swift action for a number of rounds equal to 3 + your Wisdom modifier. At 15th level, you provide a {rule/flanking} bonus to any ally who threatens the same opponent as you do, and you can change places with an adjacent ally as a move action that does not provoke an attack of opportunity, as if using the {feat/Swap Places} feat.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S)"
 		]
@@ -264,7 +264,7 @@
 			"",
 			"**Minor Form:** You gain a +4 competence bonus on Acrobatics checks. This bonus increases to +6 at 8th level and +8 at 15th level.",
 			"",
-			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of an agile and brightly colored giant lizard (as per the {monster/giant frilled lizard}, but with the following changes). While in this form, you gain a base speed of 40 feet, low-light vision, {umr/scent} (30 feet), a primary bite attack (1d8 damage) with the {umr/grab} ability and a secondary tail attack (1d6 damage) with the trip ability. At 8th level, your base speed increases to 60 feet and you gain a climb speed of 30 feet. At 15th level, you gain {feat/Improved Natural Attack} with your bite and your tail attacks, and the reach of your tail attack becomes 10 feet.",
+			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of an agile and brightly colored giant lizard (as per the {monster/giant frilled lizard}, but with the following changes). While in this form, you gain a base speed of 40 feet, low-light vision, {umr/scent} (30 feet), a {umr/natural<primary bite| attack} (1d8 damage) with the {umr/grab} ability and a secondary tail attack (1d6 damage) with the trip ability. At 8th level, your base speed increases to 60 feet and you gain a climb speed of 30 feet. At 15th level, you gain {feat/Improved Natural Attack} with your bite and your tail attacks, and the reach of your tail attack becomes 10 feet.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S), tail slap (B)"
 		]
@@ -296,7 +296,7 @@
 			"",
 			"**Minor Form:** You gain a +4 competence bonus on Climb checks. This bonus increases to +6 at 8th level and +8 at 15th level.",
 			"",
-			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a Large monkey (as per the {monster/dire ape}). While in this form, you gain a base speed of 30 feet, a climb speed of 30 feet, low-light vision, {umr/scent} (30 feet), a bite attack (1d6 damage), and two claw attacks (1d6 damage), and you can still use your hands to wield weapons, hold objects, and manipulate objects normally. At 8th level, your climb speed increases to 50 feet, and you can use your tail to hold and manipulate objects as if you had a third hand, but you cannot use it to wield weapons or shields. At 15th level, you gain a rend attack that deals extra damage equal to that of your shifter claws attack plus 1-1/2 times your Strength bonus when you hit with two of your normal shifter claws attacks.",
+			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a Large monkey (as per the {monster/dire ape}). While in this form, you gain a base speed of 30 feet, a climb speed of 30 feet, low-light vision, {umr/scent} (30 feet), a bite attack (1d6 damage), and two claw attacks (1d6 damage), and you can still use your hands to wield weapons, hold objects, and manipulate objects normally. At 8th level, your climb speed increases to 50 feet, and you can use your tail to hold and manipulate objects as if you had a third hand, but you cannot use it to wield weapons or shields. At 15th level, you gain a {umr/rend} attack that deals extra damage equal to that of your shifter claws attack plus 1-1/2 times your Strength bonus when you hit with two of your normal shifter claws attacks.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S)"
 		]
@@ -376,9 +376,9 @@
 			"{SOURCE Wilderness Origins/5}  ",
 			"The aspect of the scorpion invokes a hidden menace with a poisonous sting.",
 			"",
-			"**Minor Form:** You gain a +2 competence bonus on Stealth checks and grapple combat maneuver checks. This bonus increases to +4 at 8th level and +6 at 15th level.",
+			"**Minor Form:** You gain a +2 competence bonus on Stealth checks and {rule/grapple} combat maneuver checks. This bonus increases to +4 at 8th level and +6 at 15th level.",
 			"",
-			"**Major Form ({spell/Vermin Shape II}):** Your shape changes to that of a {monster/giant scorpion}. While in this form, you gain darkvision with a range of 60 feet, {umr/tremorsense} with a range of 10 feet, two primary claw attacks (1d6) with the {umr/grab} ability, and a secondary sting attack (1d6). At 8th level, the range of your tremorsense increases to 20 feet, and you gain a +4 racial bonus on Climb and Perception checks. At 15th level, when you make an attack of opportunity with your sting attack or maintain a grapple and deal damage with your sting attack, that attack also applies the following poison.",
+			"**Major Form ({spell/Vermin Shape II}):** Your shape changes to that of a {monster/giant scorpion}. While in this form, you gain darkvision with a range of 60 feet, {umr/tremorsense} with a range of 10 feet, two {umr/natural<primary claw| attacks} (1d6) with the {umr/grab} ability, and a secondary sting attack (1d6). At 8th level, the range of your tremorsense increases to 20 feet, and you gain a +4 racial bonus on Climb and Perception checks. At 15th level, when you make an attack of opportunity with your sting attack or maintain a grapple and deal damage with your sting attack, that attack also applies the following poison.",
 			"",
 			"::aff[Poison]{iconP type=Sting-injury dcF dcLev=shifter dcYou dcMod=Con freqR=6 effStr=\"1d3\" cure2c}",
 			"",
@@ -396,7 +396,7 @@
 			"",
 			"**Minor Form:** You gain a +2 bonus on attack rolls when making attacks of opportunity and a +2 dodge bonus to your AC against attacks of opportunity. These bonuses increase to +4 at 8th level and +6 at 15th level.",
 			"",
-			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of an emperor cobra. While in this form, you gain a base speed of 30 feet, a climb speed of 30 feet, a swim speed of 30 feet, low-light vision, {umr/scent} (30 feet), a bite attack (2d6 damage), and the {feat/Combat Reflexes} feat. If you already have Combat Reflexes or your Dexterity score is not high enough to gain more attacks of opportunity from Combat Reflexes, you can instead make one additional attack of opportunity each round. At 8th level, you gain a +4 racial bonus on Acrobatics and Stealth checks. At 15th level, when you make an attack of opportunity with your bite attack, that attack also applies the following poison.",
+			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of an {monster/emperor cobra}. While in this form, you gain a base speed of 30 feet, a climb speed of 30 feet, a swim speed of 30 feet, low-light vision, {umr/scent} (30 feet), a bite attack (2d6 damage), and the {feat/Combat Reflexes} feat. If you already have Combat Reflexes or your Dexterity score is not high enough to gain more attacks of opportunity from Combat Reflexes, you can instead make one additional attack of opportunity each round. At 8th level, you gain a +4 racial bonus on Acrobatics and Stealth checks. At 15th level, when you make an attack of opportunity with your bite attack, that attack also applies the following poison.",
 			"",
 			"::aff[Poison]{iconP type=Bite-injury dcF dcLev=shifter dcYou dcMod=Con freqR=6 effCon=\"1d3\" cure2c}",
 			"",
@@ -414,7 +414,7 @@
 			"",
 			"**Minor Form:** You gain a +2 enhancement bonus to Wisdom. At 8th level, this bonus increases to +4, and at 15th level, it increases to +6.",
 			"",
-			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a Large {monster/giant snapping turtle}. While in this form, you gain low-light vision, {umr/scent} (30 feet), a swim speed of 20 feet, and a bite attack (1d8 + 1-1/2 your Strength modifier damage). At 8th level, you gain an insight bonus equal to your Wisdom modifier to your CMD against bull rush, drag, overrun, reposition, and trip attempts. At 15th level, you gain DR 5/silver.",
+			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a Large {monster/giant snapping turtle}. While in this form, you gain low-light vision, {umr/scent} (30 feet), a swim speed of 20 feet, and a bite attack (1d8 + 1-1/2 your Strength modifier damage). At 8th level, you gain an insight bonus equal to your Wisdom modifier to your CMD against {rule/bull rush}, {rule/drag}, {rule/overrun}, {rule/reposition}, and {rule/trip} attempts. At 15th level, you gain DR 5/silver.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S)"
 		]
@@ -428,7 +428,7 @@
 			"{SOURCE Wilderness Origins/5}  ",
 			"The spider is a patient hunter, sensing foes that struggle in its webs.",
 			"",
-			"**Minor Form:** You gain a +2 competence bonus on Climb checks, Stealth checks, saving throws against web effects (magical or otherwise), and checks to break free of webs. This bonus increases to +4 at 8th level and +6 at 15th level.",
+			"**Minor Form:** You gain a +2 competence bonus on Climb checks, Stealth checks, saving throws against {spell/web} effects (magical or otherwise), and checks to break free of webs. This bonus increases to +4 at 8th level and +6 at 15th level.",
 			"",
 			"**Major Form ({spell/Vermin Shape II}):** Your shape changes to that of a {monster/giant spider}. While in this form, you gain darkvision with a range of 60 feet, {umr/tremorsense} with a range of 10 feet, a climb speed of 30 feet, the {umr/web} special attack, and a bite attack (1d6). At 8th level, you gain a +4 racial bonus on Perception checks, and the range of your tremorsense increases to 20 feet. At 15th level, you gain {feat/Improved Natural Attack} (bite), and the range of your tremorsense increases to 30 feet.",
 			"",
@@ -478,7 +478,7 @@
 			"",
 			"**Minor Form:** You gain the {umr/scent} ability with a range of 10 feet, or, if you have the scent ability, the range increases by 10 feet. The range of this scent or the increase to your scent increases to 20 feet at 8th level and 30 feet at 15th level. The range doubles if the opponent is upwind and is halved if the opponent is downwind.",
 			"",
-			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a {monster/dire wolf}. While in this form, you gain a base speed of 50 feet, low-light vision, scent (30 feet), a bite attack (1d8 damage), and you can make a trip attempt with your bite attack. At 8th level, the range of your scent ability increases to 40 feet and you gain a +4 racial bonus on Survival checks when tracking with scent. At 15th level, you gain {feat/Improved Natural Attack} (bite).",
+			"**Major Form ({spell/Beast Shape II}):** Your shape changes to that of a {monster/dire wolf}. While in this form, you gain a base speed of 50 feet, low-light vision, scent (30 feet), a bite attack (1d8 damage), and you can make a {rule/trip} attempt with your bite attack. At 8th level, the range of your scent ability increases to 40 feet and you gain a +4 racial bonus on Survival checks when tracking with scent. At 15th level, you gain {feat/Improved Natural Attack} (bite).",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S)"
 		]

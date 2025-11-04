@@ -24,7 +24,7 @@
 		"name": "Balanced Summoning",
 		"compilationSources": [ [ "Champions of Balance", 20 ] ],
 		"description": [
-			"You maintain balance by calling on opposing forces when summoning. Whenever you cast a summon monster spell, you can summon two creatures from a single list 1 or more levels lower than the level of the spell. The two creatures must have alignments that are opposite along at least one axis (chaotic and lawful or evil and good). For example, if you cast {spell/summon monster III}, you could summon a {template/celestial} wolf and a {template/fiendish} hyena from the 2nd-level list."
+			"You maintain balance by calling on opposing forces when summoning. Whenever you cast a *summon monster* spell, you can summon two creatures from a single list 1 or more levels lower than the level of the spell. The two creatures must have alignments that are opposite along at least one axis (chaotic and lawful or evil and good). For example, if you cast {spell/summon monster III}, you could summon a {template/celestial} wolf and a {template/fiendish} hyena from the 2nd-level list."
 		]
 	},
 	"beyond_morality": {
@@ -47,7 +47,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Champions of Balance", 21 ] ],
 		"description": [
-			"You have learned how to use destructive energy to empower yourself. When you cast an evocation spell that deals damage, you gain a number of temporary hit points equal to the total number of dice used to determine the damage caused by the spell. Temporary hit points gained from this discovery do not stack and disappear after 1 hour."
+			"You have learned how to use destructive energy to empower yourself. When you cast an evocation spell that deals damage, you gain a number of {rule/temporary hit points} equal to the total number of dice used to determine the damage caused by the spell. Temporary hit points gained from this discovery do not stack and disappear after 1 hour."
 		]
 	},
 	"defensive_feedback": {
@@ -84,7 +84,7 @@
 		"name": "Golem Constructor",
 		"compilationSources": [ [ "Ultimate Magic", 86 ] ],
 		"description": [
-			"You have learned the art and craft of creating a single type of golem (such as {monster/stone golem/s} or {monster/iron golem/s}). When creating a golem of this type, you count as having the {feat/Craft Wondrous Item}, {feat/Craft_Magic_Arms_and_Armor}, and {feat/Craft Construct} feats. You must meet all other construction requirements for the golem as normal. You may select this discovery multiple times. Each time you select this discovery, it applies to a different kind of golem. You must be at least a 9th-level wizard to select this discovery."
+			"You have learned the art and craft of creating a single type of {family/golem} (such as {monster/stone golem/s} or {monster/iron golem/s}). When creating a golem of this type, you count as having the {feat/Craft Wondrous Item}, {feat/Craft_Magic_Arms_and_Armor}, and {feat/Craft Construct} feats. You must meet all other construction requirements for the golem as normal. You may select this discovery multiple times. Each time you select this discovery, it applies to a different kind of golem. You must be at least a 9th-level wizard to select this discovery."
 		]
 	},
 	"idealize": {
@@ -209,7 +209,7 @@
 		"name": "Werewolf Shape",
 		"compilationSources": [ [ "Blood of the Moon", 25 ] ],
 		"description": [
-			"When you cast {spell/beast shape IV} or {spell/shapechange}, you can choose to take the shape of a werewolf in addition to the other shapes available. While in werewolf shape, you gain all the effects of the {template/lycanthrope} template instead of the spell's normal benefits. You act in all respects as a natural lycanthrope for the duration of the spell, including the ability to inflict the curse of lycanthropy using the spell's save DC. You must be at least a 15th-level wizard to select this arcane discovery."
+			"When you cast {spell/beast shape IV} or {spell/shapechange}, you can choose to take the shape of a werewolf in addition to the other shapes available. While in werewolf shape, you gain all the effects of the {template/lycanthrope} template instead of the spell's normal benefits. You act in all respects as a natural lycanthrope for the duration of the spell, including the ability to inflict the {umr/curse of lycanthropy} using the spell's save DC. You must be at least a 15th-level wizard to select this arcane discovery."
 		]
 	},
 	"yuelrals_blessing": {

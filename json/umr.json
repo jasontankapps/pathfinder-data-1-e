@@ -864,7 +864,7 @@
 			"## Compression (Ex)",
 			"",
 			"{SOURCE Bestiary 5/291}  ",
-			"The creature can move through an area as small as one-quarter its space without squeezing, or one-eighth its space when squeezing.",
+			"The creature can move through an area as small as one-quarter its space without {misc/squeezing}, or one-eighth its space when squeezing.",
 			"",
 			"**Format:** compression  ",
 			"**Location:** SQ."

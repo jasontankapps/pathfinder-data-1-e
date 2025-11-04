@@ -292,7 +292,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"level": 2,
 		"description": [
-			"While raging, the barbarian can absorb energy from a single attack of her chosen energy type once per rage. She does not make a saving throw against the effect but takes no damage from it, instead gaining 1 temporary hit point per 3 points of damage the attack would have inflicted. These temporary hit points last until the end of the barbarian's rage. A barbarian must have the {ragepower/greater energy resistance} rage power to select this rage power. A barbarian must be at least 12th level to select this rage power."
+			"While raging, the barbarian can absorb energy from a single attack of her chosen energy type once per rage. She does not make a saving throw against the effect but takes no damage from it, instead gaining 1 temporary hit point per 3 points of damage the attack would have inflicted. These {rule/temporary hit points} last until the end of the barbarian's rage. A barbarian must have the {ragepower/greater energy resistance} rage power to select this rage power. A barbarian must be at least 12th level to select this rage power."
 		]
 	},
 	"energy_eruption": {
@@ -1167,7 +1167,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"level": 1,
 		"description": [
-			"Once per rage, when a barbarian fails a saving throw against a spell, supernatural ability, or spell-like ability, she can reroll the saving throw against the effect (this is not an action). If she succeeds at the second saving throw, she is not affected by the spell, supernatural ability, or spell-like ability and gains a number of temporary hit points equal to the effect's caster level (in the case of spell or spell-like abilities) or the CR of the effect's creator (in the case of supernatural abilities). These temporary hit points last until damage is applied to them or 1 minute, whichever occurs first. A barbarian must have the {ragepower/superstition} rage power and be at least 10th level before selecting this rage power."
+			"Once per rage, when a barbarian fails a saving throw against a spell, supernatural ability, or spell-like ability, she can reroll the saving throw against the effect (this is not an action). If she succeeds at the second saving throw, she is not affected by the spell, supernatural ability, or spell-like ability and gains a number of {rule/temporary hit points} equal to the effect's caster level (in the case of spell or spell-like abilities) or the CR of the effect's creator (in the case of supernatural abilities). These temporary hit points last until damage is applied to them or 1 minute, whichever occurs first. A barbarian must have the {ragepower/superstition} rage power and be at least 10th level before selecting this rage power."
 		]
 	},
 	"spellbreaker": {
@@ -1581,7 +1581,7 @@
 		"category": "Totem",
 		"compilationSources": [ [ "Horror Adventures" ] ],
 		"description": [
-			"If the barbarian kills an intelligent creature with a CR equal to at least half her character level while raging, she heals 5 hit points. If she is already at her maximum number of hit points, she instead gains 5 temporary hit points, which don't stack if she kills multiple creatures. A barbarian must be at least 10th level and have the {ragepower/lesser daemon totem} and {ragepower/daemon totem} rage powers to select this rage power."
+			"If the barbarian kills an intelligent creature with a CR equal to at least half her character level while raging, she heals 5 hit points. If she is already at her maximum number of hit points, she instead gains 5 {rule/temporary hit points}, which don't stack if she kills multiple creatures. A barbarian must be at least 10th level and have the {ragepower/lesser daemon totem} and {ragepower/daemon totem} rage powers to select this rage power."
 		],
 		"topLink": ["Totem Warrior", "arc-barbarian/totem_warrior"]
 	},

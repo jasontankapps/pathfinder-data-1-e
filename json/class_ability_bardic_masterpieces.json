@@ -496,7 +496,7 @@
 			"**Prerequisite:** Perform (sing) or Perform (oratory) 4 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** You sing or chant simple phrases or a distinctive series of notes that you associate with a specific trade good or service. While you perform these jingles, allies within 30 feet are affected by this performance's effects and are treated as being affected by your inspire confidence bardic performance. Furthermore, if an affected creature purchases the associated good or service, that creature immediately gains a number of temporary hit points equal to half your bard level.",
+			"**Effect:** You sing or chant simple phrases or a distinctive series of notes that you associate with a specific trade good or service. While you perform these jingles, allies within 30 feet are affected by this performance's effects and are treated as being affected by your inspire confidence bardic performance. Furthermore, if an affected creature purchases the associated good or service, that creature immediately gains a number of {rule/temporary hit points} equal to half your bard level.",
 			"",
 			"**Use:** 3 bardic performance rounds, plus 1 round per additional person affected.  ",
 			"**Action:** 1 standard action."

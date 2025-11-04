@@ -320,7 +320,7 @@
 			"",
 			"**Edicts:** The cavalier must strive to protect atheists and all those who reject the gods. He must never have a patron deity or willingly serve agents of the divine. He must protect the common folk from suffering due to the actions of divine agents.",
 			"",
-			"**Challenge:** Whenever an order of the First Law cavalier issues a challenge, each round that he makes an attack against the target of his challenge, he gains 1 temporary hit point on his turn. These temporary hit points last up to 1 hour. The number of temporary hit points gained per round increases by 1 for every 4 levels the cavalier possesses.",
+			"**Challenge:** Whenever an order of the First Law cavalier issues a challenge, each round that he makes an attack against the target of his challenge, he gains 1 temporary hit point on his turn. These {rule/temporary hit points} last up to 1 hour. The number of temporary hit points gained per round increases by 1 for every 4 levels the cavalier possesses.",
 			"",
 			"**Skills:** An order of the First Law cavalier adds Heal (Wis) and Knowledge (religion) (Int) to his list of class skills. An order of the First Law cavalier can attempt Knowledge (religion) skill checks untrained. If he has ranks in the skill, he receives a bonus on the check equal to 1/2 his cavalier level (minimum +1) when making checks to identify members of religious faiths or religious paraphernalia.",
 			"",
@@ -822,7 +822,7 @@
 			"",
 			"**Spell Aid (Ex):** At 2nd level, whenever the cavalier uses the aid another action to assist one of his allies, the ally receives a +2 competence bonus on the next {rule/concentration} check, {spell/dispel} check, or caster level check she makes (whichever comes first). At 8th level and every six levels thereafter, this bonus increases by an additional +1.",
 			"",
-			"**Arcane Vessel (Ex):** At 8th level, whenever the cavalier gains a bonus on attack rolls, saving throws, or damage rolls from a spell or spell-like ability cast by another creature, the cavalier also gains a number of temporary hit points equal to the level of the spell or spell-like ability. Temporary hit points gained from this ability from different spells stack, but only to a maximum number of temporary hit points equal to the cavalier's level. These temporary hit points last for 10 minutes.",
+			"**Arcane Vessel (Ex):** At 8th level, whenever the cavalier gains a bonus on attack rolls, saving throws, or damage rolls from a spell or spell-like ability cast by another creature, the cavalier also gains a number of {rule/temporary hit points} equal to the level of the spell or spell-like ability. Temporary hit points gained from this ability from different spells stack, but only to a maximum number of temporary hit points equal to the cavalier's level. These temporary hit points last for 10 minutes.",
 			"",
 			"**Synchronized Smash (Ex):** At 15th level, the cavalier can utilize the power of his spellcasting allies to make devastating attacks against the allies' targets. If the cavalier is adjacent to an enemy affected by a targeted or area spell or spell-like ability cast by one of the cavalier's allies, he can make an immediate attack of opportunity against the affected creature. If the cavalier is also affected by the spell (such as by being caught in the area of the same {spell/fireball} spell), during the rest of that round he automatically confirms any critical hits made against the affected creature while using this ability."
 		]
