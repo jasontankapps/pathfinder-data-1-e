@@ -1337,6 +1337,7 @@
 			"take_5_foot_step"
 		]
 	},
+	"take_a_5_foot_step": { "redirect": "take_5_foot_step" },
 	"injury_and_death": {
 		"name": "Injury and Death",
 		"sources": [ "PRPG Core Rulebook" ],

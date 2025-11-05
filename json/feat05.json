@@ -2786,7 +2786,7 @@
 			"{SOURCE Ultimate Combat/100}",
 			"",
 			"Your ranged attacks take advantage of the {rule/flanking} maneuvers of allies.  ",
-			"**Prerequisites:** {feat/Point-Blank Shot}, {feat/Precise Shot}, one other {main/feats_<teamwork/ feat}.  ",
+			"**Prerequisites:** {feat/Point-Blank Shot}, {feat/Precise Shot}, one other {main/teamwork feat}.  ",
 			"**Benefit:** You receive a +2 bonus on ranged attacks made against a foe flanked by 1 or more allies with this feat.",
 			"",
 			":::stamina",

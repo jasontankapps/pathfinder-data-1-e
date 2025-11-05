@@ -1180,7 +1180,7 @@
 			"",
 			"@HL[Crusades (evocation aura):] A noble-looking lord's banner of crusades emits a *hallow* effect in a 40-foot radius around it, so long as it is borne by one true to the religion of the person whose crest is on the banner (these sorts of banners usually have a holy symbol or other religious insignia worked into the design).",
 			"",
-			"@HL[Swiftness (abjuration aura):] A group or army that are traveling under a lord's banner of swiftness can make a [forced march](rule/overland_movement) without needing Constitution checks or suffering any nonlethal damage from doing so, allowing them to cover great distances while still arriving ready to do battle. This ability affects all allied creatures within 1 mile as long as they are able to see the banner at least once a day.",
+			"@HL[Swiftness (abjuration aura):] A group or army that are traveling under a lord's banner of swiftness can make a {rule/forced march} without needing Constitution checks or suffering any nonlethal damage from doing so, allowing them to cover great distances while still arriving ready to do battle. This ability affects all allied creatures within 1 mile as long as they are able to see the banner at least once a day.",
 			"",
 			"@HL[Terror (necromancy aura):] Enemies of the bearer of a lord's banner of terror, while within 30 feet and able to see the banner, must make a DC 16 Will save or become {misc/panicked}, fleeing as quickly as possible for as long as they can see the banner. Those that succeed on the save are {misc/shaken}. A creature that makes its saving throw cannot be panicked by the banner for 24 hours.",
 			"",

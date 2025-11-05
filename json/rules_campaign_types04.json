@@ -1786,7 +1786,7 @@
 			"",
 			"@HL[Terrain:] Any hex with a Road.",
 			"",
-			"@HL[Effect:] Economy +1 for every 4 hexes of Highway, Stability +1 for every 8 hexes of Highway; improves [overland travel speed](rule/overland_movement).",
+			"@HL[Effect:] Economy +1 for every 4 hexes of Highway, Stability +1 for every 8 hexes of Highway; improves {rule/overland /travel speed>movement}.",
 			"",
 			"@HL[Cost:] Twice the cost of a Road (see [Table 4-6: Terrain and Terrain Improvements](rule/terrain_improvements))."
 		],
@@ -1897,7 +1897,7 @@
 			"",
 			"@HL[Terrain:] Any land.",
 			"",
-			"@HL[Effect:] Economy +1 for every 4 hexes of Road, Stability +1 for every 8 hexes of Road; improves [overland travel speed](rule/overland_movement).",
+			"@HL[Effect:] Economy +1 for every 4 hexes of Road, Stability +1 for every 8 hexes of Road; improves {rule/overland /travel speed>movement}.",
 			"",
 			"@HL[Cost:] See the Road column of [Table 4-6: Terrain and Terrain Improvements](rule/terrain_improvements)."
 		],

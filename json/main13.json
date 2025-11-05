@@ -616,6 +616,7 @@
 			}
 		]
 	},
+	"teamwork_feat": { "redirect": "feats_teamwork" },
 	"feats_betrayal": {
 		"title": "Feats - Betrayal",
 		"searchgroup": "feat",

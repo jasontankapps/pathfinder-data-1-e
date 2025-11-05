@@ -698,7 +698,7 @@
 			"",
 			"**Demonic Knowledge (Ex):** At 1st level, when making Knowledge (planes) checks regarding demons, demonic cults, and their magic, a Mendevian priest gains a bonus on the check equal to half her class level (minimum +1) and can make these Knowledge skill checks untrained.",
 			"",
-			"**Teamwork Feat:** At 4th level and 8th level, the Mendevian priest gains a bonus feat. This must be a {main/feats_<teamwork/ feat}, {feat/Alignment Channel}, {feat/Greater Spell Penetration}, {feat/Leadership}, or {feat/Spell Penetration}. The cleric must meet the prerequisites of the selected bonus feat."
+			"**Teamwork Feat:** At 4th level and 8th level, the Mendevian priest gains a bonus feat. This must be a {main/teamwork feat}, {feat/Alignment Channel}, {feat/Greater Spell Penetration}, {feat/Leadership}, or {feat/Spell Penetration}. The cleric must meet the prerequisites of the selected bonus feat."
 		]
 	},
 	"merciful_healer": {
@@ -868,7 +868,7 @@
 			"",
 			">**Bonded Power (Su):** A triadic priest gains either a witch's coven {ability/hex>es} or the {feat/Allied Spellcaster} feat as a bonus feat.",
 			">",
-			">**Bonded Unity (Su):** As a move action, a triadic priest can share one {main/feats_<teamwork/ feat} she has with up to two bonded companions that are within 10 feet of her. Her bonded companions do not need to meet the feat's prerequisites and gain the benefits of the feat for 1 round plus 1 additional round for every 5 class levels the triadic priest has. A bonded companion can gain only one teamwork feat in this way at a time. The triadic priest can use this ability a number of times per day equal to 3 + her Wisdom modifier.",
+			">**Bonded Unity (Su):** As a move action, a triadic priest can share one {main/teamwork feat} she has with up to two bonded companions that are within 10 feet of her. Her bonded companions do not need to meet the feat's prerequisites and gain the benefits of the feat for 1 round plus 1 additional round for every 5 class levels the triadic priest has. A bonded companion can gain only one teamwork feat in this way at a time. The triadic priest can use this ability a number of times per day equal to 3 + her Wisdom modifier.",
 			">",
 			">**Bonded Ritual:** A triadic priest can prepare any of the spells below as though they were domain spells, though she can cast these domain spells only while she is within 10 feet of one of her bonded allies. At 8th level, once per day while within 10 feet of both her bonded allies, a triadic priest can cast any one of her domain spells of a spell level she can cast, whether she has prepared the spell or not, without expending a spell slot. If one of these domain spells has a casting time of more than one standard action, the triadic priest must succeed at a {rule/concentration} check (DC = 20 + double the spell's level) or lose the spell if at any point during the casting she does not have a bonded ally within 10 feet.",
 			">",

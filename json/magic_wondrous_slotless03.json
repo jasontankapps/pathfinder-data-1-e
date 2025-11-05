@@ -2603,7 +2603,7 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 5 lbs.",
 			"",
-			"This ornate {eq-misc/military saddle}, tooled with an elaborate equine motif, grants the mount a +5 competence bonus on {skill/Acrobatics} checks and the mount's rider a +5 competence bonus on {skill/Ride} checks. In addition, the mount gains the benefits of any {main/feats_<teamwork/ feats} possessed by the rider.",
+			"This ornate {eq-misc/military saddle}, tooled with an elaborate equine motif, grants the mount a +5 competence bonus on {skill/Acrobatics} checks and the mount's rider a +5 competence bonus on {skill/Ride} checks. In addition, the mount gains the benefits of any {main/teamwork feat/s} possessed by the rider.",
 			"",
 			"### Construction",
 			"",

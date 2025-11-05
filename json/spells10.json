@@ -1826,7 +1826,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/249\" transmutation hnt=1 inq=1 rgr=1 ctSt cV cS cMp=\"a hard biscuit\" rPers target=you durD durHL=1}",
 			"",
-			"You harden your body against the stresses of long travel. You halve the damage caused by [hustling and forced marching](rule/overland_movement). In addition, for the duration of the spell you ignore any fatigue caused by such travel. Once the spell ends, if you still have any nonlethal damage caused by the hustling or forced march, you become fatigued, or exhausted if already fatigued.",
+			"You harden your body against the stresses of long travel. You halve the damage caused by {rule/hustling and |forced march/ing}. In addition, for the duration of the spell you ignore any fatigue caused by such travel. Once the spell ends, if you still have any nonlethal damage caused by the hustling or forced march, you become fatigued, or exhausted if already fatigued.",
 			"",
 			"### Tireless Pursuers",
 			"",

@@ -1354,7 +1354,7 @@
 			"",
 			"**Sentinel Against Undeath (Ex):** A Knight of Ozem gains a bonus equal to 1/3 his class level (minimum +1) on Perception and Sense Motive checks against undead. He also gains this bonus as a dodge bonus to his AC and CMD against attacks made by undead.",
 			"",
-			"**Teamwork Feat (Ex):** At 2nd level, and every three levels thereafter, a Knight of Ozem gains a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as {main/feats_<teamwork/ feats}. The Knight of Ozem must meet the prerequisites of the selected bonus feat.",
+			"**Teamwork Feat (Ex):** At 2nd level, and every three levels thereafter, a Knight of Ozem gains a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as {main/teamwork feat/s}. The Knight of Ozem must meet the prerequisites of the selected bonus feat.",
 			"",
 			"In addition, at these levels, a Knight of Ozem may choose to learn a new teamwork feat in place of a teamwork feat he has already learned. In effect, he loses the old teamwork feat in exchange for the new one. The old feat cannot be one that was used as a prerequisite for another feat, prestige class, or other ability, and he can change only one teamwork feat at any given level.",
 			"",

@@ -1766,7 +1766,7 @@
 			"",
 			"The {rule/Gray Maidens'} bond with each other goes beyond simple combat coordination. An elite member of the sisterhood is an inspiration to her fellow women, both invigorating their spirits and effortlessly coordinating their tactics.  ",
 			"**Prerequisites:** Cha 13, {feat/Shield Focus}, {feat/Shield Wall}, {feat/Sisterhood Rampart}, {feat/Sisterhood Style}, base attack bonus +6.  ",
-			"**Benefit:** While you're using Sisterhood Style and wielding a {eq-weapon/longsword} and either a {eq-armor/light>_shield} or {eq-armor/heavy shield}, the bonus on saving throws from Sisterhood Style increases to +2 and you grant half that bonus to all allies within 20 feet. In addition, you can choose up to two {main/feats_<teamwork/ feats} you have when entering the Sisterhood Style stance. As a swift action, you can grant one of those feats to two allies within 20 feet until the beginning of your next turn, or you can grant both feats to one ally within 20 feet until the beginning of your next turn."
+			"**Benefit:** While you're using Sisterhood Style and wielding a {eq-weapon/longsword} and either a {eq-armor/light>_shield} or {eq-armor/heavy shield}, the bonus on saving throws from Sisterhood Style increases to +2 and you grant half that bonus to all allies within 20 feet. In addition, you can choose up to two {main/teamwork feat/s} you have when entering the Sisterhood Style stance. As a swift action, you can grant one of those feats to two allies within 20 feet until the beginning of your next turn, or you can grant both feats to one ally within 20 feet until the beginning of your next turn."
 		]
 	},
 	"sisterhood_rampart": {
@@ -1792,7 +1792,7 @@
 			"",
 			"The {rule/Gray Maidens} are more than just soldiers - they drill relentlessly to fight as a team and to protect their bodies and minds. A Gray Maiden using the Sisterhood Style can easily coordinate tactics with other women.  ",
 			"**Prerequisites:** Cha 13, {feat/Shield Focus}, base attack bonus +2.  ",
-			"**Benefit:** While using this style and wielding a {eq-weapon/longsword} and either a {eq-armor/light>_shield} or {eq-armor/heavy shield}, you gain a +1 bonus on Reflex and Will saving throws. In addition, when you enter the Sisterhood Style stance, you can choose a {main/feats_<teamwork/ feat} you have. As a swift action, you can grant that feat to an ally within 10 feet until the beginning of your next turn."
+			"**Benefit:** While using this style and wielding a {eq-weapon/longsword} and either a {eq-armor/light>_shield} or {eq-armor/heavy shield}, you gain a +1 bonus on Reflex and Will saving throws. In addition, when you enter the Sisterhood Style stance, you can choose a {main/teamwork feat} you have. As a swift action, you can grant that feat to an ally within 10 feet until the beginning of your next turn."
 		]
 	},
 	"sizzling_shot": {

@@ -411,7 +411,7 @@
 			"",
 			"**Favored Terrain (Ex):** At 3rd level, a holy guide chooses a {ability/favored terrain} from the ranger favored terrains table. This otherwise functions like the {class/ranger} ability of the same name. This ability replaces the mercy gained at 3rd level. Every time a holy guide would be able to select another mercy, he can instead select another favored terrain and increase his bonuses for one existing favored terrain, just like a ranger.",
 			"",
-			"**Teamwork Feat (Ex):** At 6th level, a holy guide gains a {main/feats_<teamwork/ feat} as a bonus feat. He must meet the prerequisites for this feat. As a standard action, He can expend one use of smite evil to grant this feat to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 levels the holy guide possesses. Allies do not need to meet the prerequisites of this bonus feat. Evil creatures do not gain the benefit of this teamwork feat, even if the paladin considers them allies. This ability replaces the mercy gained at 6th level."
+			"**Teamwork Feat (Ex):** At 6th level, a holy guide gains a {main/teamwork feat} as a bonus feat. He must meet the prerequisites for this feat. As a standard action, He can expend one use of smite evil to grant this feat to all allies within 30 feet who can see and hear him. Allies retain the use of this bonus feat for 3 rounds plus 1 round for every 2 levels the holy guide possesses. Allies do not need to meet the prerequisites of this bonus feat. Evil creatures do not gain the benefit of this teamwork feat, even if the paladin considers them allies. This ability replaces the mercy gained at 6th level."
 		]
 	},
 	"holy_gun": {
@@ -453,7 +453,7 @@
 			"",
 			"At 4th level, and every three levels thereafter, the holy tactician may use weal's champion one additional time per day (to a maximum of seven times per day at 19th level). This ability replaces smite evil.",
 			"",
-			"**Tactical Acumen (Ex):** At 3rd level, a holy tactician gains a {main/feats_<teamwork/ feat} as a bonus feat. She must meet the prerequisites for this feat. She gains an additional bonus feat for every four levels attained after 3rd, to a maximum of five bonus feats at 19th level. This ability replaces divine health and divine bond.",
+			"**Tactical Acumen (Ex):** At 3rd level, a holy tactician gains a {main/teamwork feat} as a bonus feat. She must meet the prerequisites for this feat. She gains an additional bonus feat for every four levels attained after 3rd, to a maximum of five bonus feats at 19th level. This ability replaces divine health and divine bond.",
 			"",
 			"**Battlefield Presence (Su):** At 3rd level, a tactician can direct her allies in battle, granting each ally within 30 feet one teamwork feat she possesses as a bonus feat as a standard action. All allies must receive the same feat, but do not need to meet the prerequisites of this bonus feat. This ability does not function if the paladin is flat-footed or unconscious. Allies must be able to see and hear the holy tactician in order to gain this benefit. Changing the bonus feat granted is a swift action. This ability replaces aura of courage.",
 			"",
@@ -1131,7 +1131,7 @@
 			"",
 			"This replaces divine health.",
 			"",
-			"**Teamwork Feat:** At 3rd level and every 6 levels thereafter, the vindictive bastard gains a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as {main/feats_<teamwork/ feats}. The vindictive bastard must meet the prerequisites of the selected bonus feat.",
+			"**Teamwork Feat:** At 3rd level and every 6 levels thereafter, the vindictive bastard gains a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as {main/teamwork feat/s}. The vindictive bastard must meet the prerequisites of the selected bonus feat.",
 			"",
 			"This replaces mercy and channel energy.",
 			"",

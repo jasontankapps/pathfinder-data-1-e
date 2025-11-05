@@ -572,7 +572,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, the {main/feats_<teamwork/ feat} to be imbued, {spell/tactical acumen}, creator must be a dwarf; **Cost** 5,000 gp (Lesser), 8,000 gp (Greater), 12,000 gp (Superior)"
+			"**Requirements** {feat/Craft Wondrous Item}, the {main/teamwork feat} to be imbued, {spell/tactical acumen}, creator must be a dwarf; **Cost** 5,000 gp (Lesser), 8,000 gp (Greater), 12,000 gp (Superior)"
 		]
 	},
 	"lesser_commanders_helm": { "redirect": "commanders_helm_dwarf_lesser" },

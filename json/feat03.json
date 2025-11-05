@@ -626,7 +626,7 @@
 			"{SOURCE Cohorts and Companions/15}",
 			"",
 			"The mindless undead you command fight together like seasoned warriors.  ",
-			"**Prerequisites:** Any {main/feats_<teamwork/ feat}, ability to control or create undead.  ",
+			"**Prerequisites:** Any {main/teamwork feat}, ability to control or create undead.  ",
 			"**Benefit:** When you create undead, they gain one teamwork feat you know as a bonus feat, though they gain its benefits only when cooperating with you or with other undead that you have created. If you control undead with the {feat/Command Undead} feat or a spell like {spell/command undead}, they likewise gain one teamwork feat you know as a bonus feat as long as they remain under your control. Intelligent undead gain no benefit from this feat."
 		]
 	},
@@ -2258,7 +2258,7 @@
 			"{SOURCE Ultimate Combat/92}",
 			"",
 			"You are an expert at leading your allies into the fray.  ",
-			"**Prerequisites:** You have at least two other {main/feats_<teamwork/ feats}, base attack bonus +10.  ",
+			"**Prerequisites:** You have at least two other {main/teamwork feat/s}, base attack bonus +10.  ",
 			"**Benefit:** When an ally with this feat charges a creature that is no further away from you than your speed, you can, as an immediate action, charge that creature. You must be able to follow all of the normal charge rules.",
 			"",
 			":::stamina",

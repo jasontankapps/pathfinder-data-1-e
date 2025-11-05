@@ -18,7 +18,7 @@
 			"",
 			"**Zephyr's Gift (minor):** At 1st level, you can touch any one ranged weapon and enhance it with the quality of air. For 1 minute, any attacks made with the weapon take no penalties due to range. In addition, making a ranged attack with this weapon doesn't provoke an attack of opportunity.",
 			"",
-			"**Soaring Assault (major):** At 10th level, you can touch an ally and give her the gift of flight for 1 minute (as {spell/fly}). The ally gains a fly speed of 60 feet with average maneuverability. She gains a bonus on Fly skill checks equal to your level. Whenever the ally succeeds at a charge attack while flying, that attack deals an amount of additional electricity damage equal to your level."
+			"**Soaring Assault (major):** At 10th level, you can touch an ally and give her the gift of flight for 1 minute (as {spell/fly}). The ally gains a fly speed of 60 feet with average maneuverability. She gains a bonus on Fly skill checks equal to your level. Whenever the ally succeeds at a {rule/charge} attack while flying, that attack deals an amount of additional electricity damage equal to your level."
 		]
 	},
 	"animal": {
@@ -32,7 +32,7 @@
 			"",
 			"**Animal Fury (minor):** At 1st level, you can touch one ally and grant it feral features. The ally gains 2 claw attacks that each deal 1d6 points of damage if the ally is Medium or 1d4 if it's Small, or 1 bite attack that deals 1d8 points of damage if the ally is Medium or 1d6 if it's Small. These are primary {umr/natural attacks} that replace any similar primary natural attacks the ally might have. This effect lasts for 1 minute.",
 			"",
-			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon nature's ally V} with a duration of 1 minute. This ability can summon only one animal, regardless of the list used. For every 2 levels beyond 10th, the level of the summon nature's ally spell increases by 1 (to a maximum of {spell/summon nature's ally IX} at 18th level)."
+			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon nature's ally V} with a duration of 1 minute. This ability can summon only one animal, regardless of the list used. For every 2 levels beyond 10th, the level of the *summon nature's ally* spell increases by 1 (to a maximum of {spell/summon nature's ally IX} at 18th level)."
 		]
 	},
 	"artifice": {
@@ -46,7 +46,7 @@
 			"",
 			"**Crafter's Wrath (minor):** At 1st level, you can touch one melee weapon and grant it greater power to harm and destroy crafted objects. For 1 minute, whenever this weapon deals damage to constructs or objects, it bypasses hardness and damage reduction.",
 			"",
-			"**Transfer Magic (major):** At 10th level, you can temporarily transfer a weapon special ability from one weapon to another. The bearers of each of the weapons must be willing, and you must be touching both weapons to activate this ability. You can transfer a weapon special ability with a base price modifier of +1 or +2. If you are using this ability on a double weapon, only one end of the double weapon is affected. The transfer lasts for 1 minute, after which the transferred weapon special ability automatically returns to the source weapon. You can use this ability multiple times on the same weapon or weapons. Alternatively, you can use transfer magic to move a +1 or +2 armor special ability from one touched suit of armor to another, or move a +1 or +2 armor or weapon enhancement bonus to another armor or weapon."
+			"**Transfer Magic (major):** At 10th level, you can temporarily transfer a weapon special ability from one weapon to another. The bearers of each of the weapons must be willing, and you must be touching both weapons to activate this ability. You can transfer a weapon special ability with a base price modifier of +1 or +2. If you are using this ability on a {misc/double} weapon, only one end of the double weapon is affected. The transfer lasts for 1 minute, after which the transferred weapon special ability automatically returns to the source weapon. You can use this ability multiple times on the same weapon or weapons. Alternatively, you can use transfer magic to move a +1 or +2 armor special ability from one touched suit of armor to another, or move a +1 or +2 armor or weapon enhancement bonus to another armor or weapon."
 		]
 	},
 	"chaos": {
@@ -60,7 +60,7 @@
 			"",
 			"**Anarchic Strike (minor):** At 1st level, you can touch one weapon and grant it a chaotic blessing. For 1 minute, this weapon glows yellow or purple and deals an additional 1d6 points of damage against lawful creatures. During this time, it's treated as chaotic for the purposes of overcoming damage reduction. This blessing's additional damage doesn't stack with the additional damage from the {magic-enh/anarchic} weapon special ability.",
 			"",
-			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon monster IV} with a duration of 1 minute, but for only a chaotic outsider or an animal with the {template/entropic} creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the summon monster spell increases by 1 (to a maximum of {spell/summon monster IX} at 20th level)."
+			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon monster IV} with a duration of 1 minute, but for only a chaotic outsider or an animal with the {template/entropic} creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the *summon monster* spell increases by 1 (to a maximum of {spell/summon monster IX} at 20th level)."
 		]
 	},
 	"charm": {
@@ -99,7 +99,7 @@
 			"",
 			"**Replacement Blessing:** The following minor blessing replaces the communal aid ability of the Community blessing.",
 			"",
-			"*Team Effort (minor):* At 1st level, you can touch an ally and grant it the blessing of cooperation. Choose one teamwork feat that you have. The touched ally gains the benefit of the chosen teamwork feat for a number of rounds equal to 1/2 your warpriest level (minimum 1). Alternatively, you can choose one teamwork feat that a touched ally has and gain the benefit of the chosen feat for a number of rounds equal to 1/2 your warpriest level (minimum 1)."
+			"*Team Effort (minor):* At 1st level, you can touch an ally and grant it the blessing of cooperation. Choose one {main/teamwork feat} that you have. The touched ally gains the benefit of the chosen teamwork feat for a number of rounds equal to 1/2 your warpriest level (minimum 1). Alternatively, you can choose one teamwork feat that a touched ally has and gain the benefit of the chosen feat for a number of rounds equal to 1/2 your warpriest level (minimum 1)."
 		]
 	},
 	"cooperation": { "redirect": "community" },
@@ -128,7 +128,7 @@
 			"",
 			"**Enshrouding Darkness (minor):** At 1st level, you can touch an ally and bestow a darkness blessing. For 1 minute, the ally becomes enshrouded in shadows while in combat, granting it {rule/concealment} (20%). Creatures that are normally able to see in supernatural darkness ignore this concealment.",
 			"",
-			"**Darkened Vision (major):** At 10th level, you can place a shroud of darkness around the eyes of one foe within 30 feet. The target must succeed at a Will saving throw or be blinded for 1 minute (as {spell/blindness//deafness})."
+			"**Darkened Vision (major):** At 10th level, you can place a shroud of darkness around the eyes of one foe within 30 feet. The target must succeed at a Will saving throw or be {misc/blinded} for 1 minute (as {spell/blindness//deafness})."
 		]
 	},
 	"death": {
@@ -156,7 +156,7 @@
 			"",
 			"**Destructive Attacks (minor):** At 1st level, you can touch an ally and bless it with the power of destruction. For 1 minute, the ally gains a morale bonus on weapon damage rolls equal to half your level (minimum 1).",
 			"",
-			"**Heart of Carnage (major):** At 10th level, you can touch an ally and bless it with even greater destructive power. For 1 minute, the ally gains a +4 insight bonus on attack rolls made to confirm critical hits and has a 50% chance to treat any critical hit or sneak attack against it as a normal hit."
+			"**Heart of Carnage (major):** At 10th level, you can touch an ally and bless it with even greater destructive power. For 1 minute, the ally gains a +4 insight bonus on attack rolls made to confirm critical hits and has a 50% chance to treat any critical hit or {ability/sneak attack} against it as a normal hit."
 		]
 	},
 	"earth": {
@@ -198,7 +198,7 @@
 			"",
 			"**Unholy Strike (minor):** At 1st level, you can touch one weapon and give it an evil blessing. For 1 minute, this weapon takes on a black, orange, or violet cast and deals an additional 1d6 points of damage against good creatures. During this time, it's treated as evil for the purposes of overcoming damage reduction. This additional damage doesn't stack with the additional damage from the {magic-enh/unholy} weapon special ability.",
 			"",
-			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon monster IV} with a duration of 1 minute, but for only an evil outsider or an animal with the {template/fiendish} creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the summon monster spell increases by 1 (to a maximum of {spell/summon monster IX} at 20th level)."
+			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon monster IV} with a duration of 1 minute, but for only an evil outsider or an animal with the {template/fiendish} creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the *summon monster* spell increases by 1 (to a maximum of {spell/summon monster IX} at 20th level)."
 		]
 	},
 	"fire": {
@@ -224,9 +224,9 @@
 			"{SOURCE Ultimate Wilderness/97}  ",
 			"**Deities:** Evil deities that offer the {blessing/Water} blessing or nonevil deities with disasters in their portfolios",
 			"",
-			"**Lasting Breath (minor):** You can touch an ally to bless it with an extra reserve of breath. For 1 minute, while the ally holds its breath, standard and full-round actions don't decrease the number of rounds the ally can hold its breath.",
+			"**Lasting Breath (minor):** You can touch an ally to bless it with an extra reserve of breath. For 1 minute, while the ally {misc/hold[s] its breath}, standard and full-round actions don't decrease the number of rounds the ally can hold its breath.",
 			"",
-			"**Tsunami Burst (major):** At 10th level, when you are hit by a melee attack, you can invoke this blessing as an immediate action. A wave of water blasts out from you at your attacker, attempting a bull rush combat maneuver check using your CMB but adding your Wisdom modifier instead of your Strength modifier."
+			"**Tsunami Burst (major):** At 10th level, when you are hit by a melee attack, you can invoke this blessing as an immediate action. A wave of water blasts out from you at your attacker, attempting a {rule/bull rush} combat maneuver check using your CMB but adding your Wisdom modifier instead of your Strength modifier."
 		]
 	},
 	"glory": {
@@ -254,7 +254,7 @@
 			"",
 			"**Command Obedience (minor):** You can touch an ally and say a quick word to remind her of her obligations, granting her a new saving throw against each enchantment effect that currently affects her. If the saving throw is successful, the enchantment effect immediately ends. This power affects only effects that allow a saving throw.",
 			"",
-			"**Tactical Readiness (major):** At 10th level, you can rally your allies within 30 feet, allowing each to immediately do one of the following as a free action that does not provoke attacks of opportunity: remove the {rule/flat-footed} condition, take a 5-foot step, draw a weapon, ready a shield, or gain a +1 dodge bonus to AC for 1 round. You can affect a number of allies equal to your Wisdom bonus. These actions do not count against your allies' total movement or actions on their next turn."
+			"**Tactical Readiness (major):** At 10th level, you can rally your allies within 30 feet, allowing each to immediately do one of the following as a free action that does not provoke attacks of opportunity: remove the {rule/flat-footed} condition, {rule/take a 5-foot step}, draw a weapon, ready a shield, or gain a +1 dodge bonus to AC for 1 round. You can affect a number of allies equal to your Wisdom bonus. These actions do not count against your allies' total movement or actions on their next turn."
 		]
 	},
 	"good": {
@@ -268,7 +268,7 @@
 			"",
 			"**Holy Strike (minor):** At 1st level, you can touch one weapon and bless it with the power of purity and goodness. For 1 minute, this weapon glows green, white, or yellow-gold and deals an additional 1d6 points of damage against evil creatures. During this time, it's treated as good for the purposes of overcoming damage reduction. This additional damage doesn't stack with the additional damage from the {magic-enh/holy} weapon special ability.",
 			"",
-			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon monster IV} with a duration of 1 minute, but for only a good outsider or an animal with the {template/celestial} creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the summon monster spell increases by 1 (to a maximum of {spell/summon monster IX} at 20th level)."
+			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon monster IV} with a duration of 1 minute, but for only a good outsider or an animal with the {template/celestial} creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the *summon monster* spell increases by 1 (to a maximum of {spell/summon monster IX} at 20th level)."
 		]
 	},
 	"healing": {
@@ -283,7 +283,7 @@
 			"{SOURCE Advanced Class Guide/66}  ",
 			"**Deities:** {faith/Irori}, {faith/Pharasma}, {faith/Sarenrae}",
 			"",
-			"**Powerful Healer (minor):** At 1st level, you can add power to a cure spell as you cast it. As a swift action, you can treat any cure spell as if it were empowered (as the {feat/Empower Spell} feat), causing it to heal 50% more damage (or deal 50% more damage if used against undead). This ability doesn't stack with itself or the Empower Spell feat.",
+			"**Powerful Healer (minor):** At 1st level, you can add power to a {main/cure spell>s} as you cast it. As a swift action, you can treat any *cure* spell as if it were empowered (as the {feat/Empower Spell} feat), causing it to heal 50% more damage (or deal 50% more damage if used against undead). This ability doesn't stack with itself or the Empower Spell feat.",
 			"",
 			"**Fast Healing (major):** At 10th level, you can touch an ally and grant it {umr/fast healing} 3 for 1 minute.",
 			"",
@@ -331,7 +331,7 @@
 			"",
 			"**Axiomatic Strike (minor):** At 1st level, you can touch one weapon and enhance it with the essence of law. For 1 minute, this weapon glows blue, pale yellow, or white and deals an additional 1d6 points of damage against chaotic creatures. During this time, it's treated as lawful for the purposes of overcoming damage reduction. This additional damage doesn't stack with the additional damage from the {magic-enh/axiomatic} weapon special ability.",
 			"",
-			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon monster IV} with a duration of 1 minute, but for only a lawful outsider or an animal with the {template/resolute} creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the summon monster spell increases by 1 (to a maximum of {spell/summon monster IX} at 20 level)."
+			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon monster IV} with a duration of 1 minute, but for only a lawful outsider or an animal with the {template/resolute} creature simple template. This ability can summon only one creature, regardless of the list used. For every 2 levels beyond 10th, the level of the *summon monster* spell increases by 1 (to a maximum of {spell/summon monster IX} at 20 level)."
 		]
 	},
 	"liberation": {
@@ -346,7 +346,7 @@
 			"{SOURCE Advanced Class Guide/66}  ",
 			"**Deities:** {faith/Desna}",
 			"",
-			"**Liberation (minor):** At 1st level, for 1 round as a swift action, you can ignore impediments to your mobility and effects that cause paralysis (as {spell/freedom of movement}). You can activate this blessing even if you're otherwise unable to take actions, but not if you're unconscious.",
+			"**Liberation (minor):** At 1st level, for 1 round as a swift action, you can ignore impediments to your mobility and effects that cause {rule/paralysis} (as {spell/freedom of movement}). You can activate this blessing even if you're otherwise unable to take actions, but not if you're unconscious.",
 			"",
 			"**Freedom's Shout (major):** At 10th level, as a swift action you can emit a 30-foot aura that affects all allies with the liberation blessing described above. This effect lasts for 1 round.",
 			"",
@@ -439,7 +439,7 @@
 			"",
 			"**Creeping Vines (minor):** At 1st level, upon hitting with a melee attack, as a swift action you cause the creature you hit to sprout entangling vines that attempt to hold it in place, {rule/entangl/ing>ed} it for 1 round (Reflex negates).",
 			"",
-			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon nature's ally IV}, with a duration of 1 minute. This ability can summon only one animal, regardless of the list used, and the creature's type changes to plant instead of animal. For every 2 levels beyond 10th, the level of the summon nature's ally spell increases by 1, to a maximum of {spell/summon nature's ally IX} at 20th level."
+			"**Battle Companion (major):** At 10th level, you can summon a battle companion. This ability functions as {spell/summon nature's ally IV}, with a duration of 1 minute. This ability can summon only one animal, regardless of the list used, and the creature's type changes to plant instead of animal. For every 2 levels beyond 10th, the level of the *summon nature's ally* spell increases by 1, to a maximum of {spell/summon nature's ally IX} at 20th level."
 		]
 	},
 	"protection": {
@@ -467,7 +467,7 @@
 			"",
 			"**Gentle Rest (minor):** At 1st level, you can fill a living creature with lethargy by hitting it with a melee touch attack, causing it to become {misc/staggered} for 1 round. If the target is already staggered, it falls asleep for 1 round instead. An undead creature that's touched is staggered for a number of rounds equal to your Wisdom modifier (minimum 1).",
 			"",
-			"**Back to the Grave (major):** At 10th level, when using channel energy to heal living creatures, you can take a swift action on that same turn to also deal damage to undead creatures (as your {ability/channel energy} ability). Undead take an amount of damage equal to half the amount healed, and can attempt the normal saving throw to halve this damage."
+			"**Back to the Grave (major):** At 10th level, when using {ability/channel energy} to heal living creatures, you can take a swift action on that same turn to also deal damage to undead creatures (as your channel energy ability). Undead take an amount of damage equal to half the amount healed, and can attempt the normal saving throw to halve this damage."
 		]
 	},
 	"rune": {
@@ -509,9 +509,9 @@
 			"{SOURCE Blood of Shadows/17}  ",
 			"**Deities:** {faith/Nocticula}, {faith/Norgorber}, {faith/Zon-Kuthon}",
 			"",
-			"**Flicker of Shadows (minor):** At 1st level, you can cause a weapon you touch to warp and become insubstantial for a split second before an attack. The first attack made with this weapon each round ignores any shield bonus to Armor Class, as well as bonuses from cover. Total cover still provides a creature its full benefit. This effect lasts for 1 minute.",
+			"**Flicker of Shadows (minor):** At 1st level, you can cause a weapon you touch to warp and become insubstantial for a split second before an attack. The first attack made with this weapon each round ignores any shield bonus to Armor Class, as well as bonuses from {rule/cover}. Total cover still provides a creature its full benefit. This effect lasts for 1 minute.",
 			"",
-			"**Swift as Shadow (major):** At 10th level, you can spend a swift action to empower yourself or an ally within 30 feet to move over the ground as easily as its shadow. The subject's land speed increases by 10 feet and it takes no movement penalties for darkness, difficult terrain, or slickness. The creature can safely move over areas of ice and even those affected by a {spell/grease} spell. When a creature affected by this ability hits with a charge attack, that attack deals an amount of additional cold damage equal to your level."
+			"**Swift as Shadow (major):** At 10th level, you can spend a swift action to empower yourself or an ally within 30 feet to move over the ground as easily as its shadow. The subject's land speed increases by 10 feet and it takes no movement penalties for darkness, difficult terrain, or slickness. The creature can safely move over areas of ice and even those affected by a {spell/grease} spell. When a creature affected by this ability hits with a {rule/charge} attack, that attack deals an amount of additional cold damage equal to your level."
 		]
 	},
 	"strength": {
@@ -537,7 +537,7 @@
 			"{SOURCE Advanced Class Guide/68}  ",
 			"**Deities:** {faith/Iomedae}, {faith/Sarenrae}",
 			"",
-			"**Blinding Strike (minor):** At 1st level, you can create a flash of sunlight in the eyes of one of your opponents. The target is {misc/blinded} for 1 round. If it succeeds at a Reflex saving throw, it's instead {misc/dazzled} for 1 round. Creatures with light blindness or light sensitivity take a -4 penalty on this saving throw. This is a light effect. Sightless creatures are unaffected by this ability.",
+			"**Blinding Strike (minor):** At 1st level, you can create a flash of sunlight in the eyes of one of your opponents. The target is {misc/blinded} for 1 round. If it succeeds at a Reflex saving throw, it's instead {misc/dazzled} for 1 round. Creatures with {umr/light blindness} or {umr/light sensitivity} take a -4 penalty on this saving throw. This is a {spelldef/light} effect. Sightless creatures are unaffected by this ability.",
 			"",
 			"**Cleansing Fire (major):** At 10th level, you can touch a weapon and grant it either the {magic-enh/flaming} or undead-{magic-enh/bane} weapon special ability for 1 minute. If you spend two uses of your blessing when activating this ability, the weapon can have both weapon special abilities."
 		]
@@ -553,7 +553,7 @@
 			"",
 			"**Dust Devil (minor):** When you hit with a weapon attack, you can use a swift action to cause a sudden burst of wind and debris to swirl around your target. The target is {misc/dazzled} for 1 minute.",
 			"",
-			"**Howling Gale (major):** At 10th level, you can invoke a howling windstorm around yourself as a standard action. For 1 minute, any Large or smaller creature takes twice as much movement to enter a space adjacent to you due to the winds, and thus can't take a 5-foot step to move adjacent to you."
+			"**Howling Gale (major):** At 10th level, you can invoke a howling windstorm around yourself as a standard action. For 1 minute, any Large or smaller creature takes twice as much movement to enter a space adjacent to you due to the winds, and thus can't {rule/take a 5-foot step} to move adjacent to you."
 		]
 	},
 	"travel": {
@@ -579,7 +579,7 @@
 			"{SOURCE Advanced Class Guide/68}  ",
 			"**Deities:** {faith/Asmodeus}, {faith/Calistria}, {faith/Lamashtu}, {faith/Norgorber}",
 			"",
-			"**Double (minor):** At 1st level, as a move action you can create an illusory double of yourself. This double functions as a single {spell/mirror image}, and lasts for a number of rounds equal to your warpriest level, or until the illusory duplicate is dispelled or destroyed. You can have no more than one double at a time. The double created by this ability doesn't stack with the additional images from the mirror image spell.",
+			"**Double (minor):** At 1st level, as a move action you can create an illusory double of yourself. This double functions as a single {spell/mirror image}, and lasts for a number of rounds equal to your warpriest level, or until the illusory duplicate is {spell/dispel/led} or destroyed. You can have no more than one double at a time. The double created by this ability doesn't stack with the additional images from the mirror image spell.",
 			"",
 			"**Greater Invisibility (major):** At 10th level, as a swift action you can become invisible for 1 round (as {spell/greater invisibility})."
 		]
@@ -593,7 +593,7 @@
 			"{SOURCE Advanced Class Origins/25}  ",
 			"**Deities:** Great Old Ones, {faith/Groetus}",
 			"",
-			"**Airless Touch (minor):** At 1st level, with a successful melee touch attack you can steal the breath from an opponent's lungs, leaving it unable to speak, use breath weapons, cast spells with verbal components, or do anything else requiring breath for 1 round. If the target fails at a Fortitude saving throw, it's also {misc/staggered} for 1 round as it catches its breath. If the target was attempting to hold its breath, it can no longer do so: it must breathe on its turn or risk {rule/suffocation} and unconsciousness. Creatures that don't need to breathe are unaffected. Regardless of whether it succeeds at its saving throw, the target is immune to further uses of your airless touch for 24 hours.",
+			"**Airless Touch (minor):** At 1st level, with a successful melee touch attack you can steal the breath from an opponent's lungs, leaving it unable to speak, use breath weapons, cast spells with verbal components, or do anything else requiring breath for 1 round. If the target fails at a Fortitude saving throw, it's also {misc/staggered} for 1 round as it catches its breath. If the target was attempting to {misc/hold its breath}, it can no longer do so: it must breathe on its turn or risk {rule/suffocation} and unconsciousness. Creatures that don't need to breathe are unaffected. Regardless of whether it succeeds at its saving throw, the target is immune to further uses of your airless touch for 24 hours.",
 			"",
 			"**Deny Gravity (major):** At 10th level, as a standard action you can touch an ally to allow her to ignore the effects of gravity for 1 minute (as {spell/fly}). The ally gains a fly speed of 40 feet with average maneuverability. The ally is also immune to dangerous environmental conditions (as {spell/life bubble}) for 1 minute."
 		]

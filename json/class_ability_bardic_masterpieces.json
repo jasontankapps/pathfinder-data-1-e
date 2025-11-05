@@ -20,7 +20,7 @@
 			"**Prerequisite:** Perform (oratory) 13 ranks, ability to speak Draconic.  ",
 			"**Cost:** Feat or 5th-level bard spell known.",
 			"",
-			"**Effect:** This urgent verse tugs at the racial arrogance of dragonkind, compelling {family/dragon/s}, both true and lesser, to perform the epic alongside you. Any creatures of the dragon type that can hear this masterpiece must succeed at a Will save or be compelled to join in the performance. Affected dragons cannot use their mouths to attack or even speak except to recite Ancients' Flight, preventing them from using their bite attacks and breath weapons, casting spells with vocal components, or otherwise communicating vocally for the duration of the performance. The effect ceases as soon as you end your bardic performance.",
+			"**Effect:** This urgent verse tugs at the racial arrogance of dragonkind, compelling {family/dragon/s}, both true and lesser, to perform the epic alongside you. Any creatures of the {type/dragon} type that can hear this masterpiece must succeed at a Will save or be compelled to join in the performance. Affected dragons cannot use their mouths to attack or even speak except to recite Ancients' Flight, preventing them from using their bite attacks and breath weapons, casting spells with vocal components, or otherwise communicating vocally for the duration of the performance. The effect ceases as soon as you end your bardic performance.",
 			"",
 			"**Use:** 2 bardic performance rounds per round.  ",
 			"**Action:** 1 full round."
@@ -121,7 +121,7 @@
 			"**Prerequisite:** Perform (oratory) or Perform (sing) 10 ranks. This masterpiece can be learned from the ancient folio {eq-misc/Songs of Shazathared}.  ",
 			"**Cost:** Feat or 4th-level bard spell known.",
 			"",
-			"**Effect:** The soothing words of this ballad tell of a benevolent genie princess and the shelter she extended to her allies from mundane and magical depredations. The refrain seems to hang in the air each time it is repeated. When you complete the performance, the words whirl around you like an invisible cloying buffer for the next 10 minutes, reducing your base movement to half your normal speed but providing you with soft cover against all attacks.",
+			"**Effect:** The soothing words of this ballad tell of a benevolent {family/genie} princess and the shelter she extended to her allies from mundane and magical depredations. The refrain seems to hang in the air each time it is repeated. When you complete the performance, the words whirl around you like an invisible cloying buffer for the next 10 minutes, reducing your base movement to half your normal speed but providing you with soft {rule/cover} against all attacks.",
 			"",
 			"You can additionally affect up to one willing creature per bard level within 30 feet of you with this masterpiece, but you must expend 1 round of bardic performance for each creature other than yourself to receive the cloying buffer. Creatures that leave the area lose this bonus, and do not regain it by moving back within the area.",
 			"",
@@ -142,7 +142,7 @@
 			"**Prerequisite:** Perform (sing) 17 ranks.  ",
 			"**Cost:** Feat or 6th-level bard spell known.",
 			"",
-			"**Effect:** All living creatures you select within 30 feet at the start of your turn each round gain 2 negative levels unless they succeed at a Fortitude saving throw (DC = 10 + 1/2 your bard level + your Charisma bonus). This is a death effect and a sonic effect. This performance has audible components.",
+			"**Effect:** All living creatures you select within 30 feet at the start of your turn each round gain 2 {rule/negative levels} unless they succeed at a Fortitude saving throw (DC = 10 + 1/2 your bard level + your Charisma bonus). This is a death effect and a sonic effect. This performance has audible components.",
 			"",
 			"**Use:** 3 rounds of bardic performance per round.  ",
 			"**Action:** 1 full round action."
@@ -161,7 +161,7 @@
 			"**Prerequisite:** Perform (percussion) or Perform (wind) 4 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** When you learn this masterpiece, choose a {main/feats_<teamwork/ feat} for which you meet the prerequisites. Once the feat is chosen, it can't be changed. This performance grants the chosen feat to all allies within 30 feet who can see and hear you. Your allies don't need to meet the prerequisites of this feat. Abilities that extend the duration of a bardic performance, such as {feat/Lingering Performance}, affect this masterpiece.",
+			"**Effect:** When you learn this masterpiece, choose a {main/teamwork feat} for which you meet the prerequisites. Once the feat is chosen, it can't be changed. This performance grants the chosen feat to all allies within 30 feet who can see and hear you. Your allies don't need to meet the prerequisites of this feat. Abilities that extend the duration of a bardic performance, such as {feat/Lingering Performance}, affect this masterpiece.",
 			"",
 			"**Use:** 1 bardic performance round per round.  ",
 			"**Action:** 1 standard action.  ",
@@ -314,7 +314,7 @@
 			"**Prerequisite:** Perform (string) or Perform (wind) 6 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** This stirring pibroch reminds dragons of a significant victory by one of the legendary heroes of their kind and fills lesser races with a feeling of frustration and rage. Any creature of the dragon type that hears the entire performance must succeed at a Will save to avoid having her attitude toward the performer and his allies improved by two steps (from Hostile to Indifferent, for example).",
+			"**Effect:** This stirring pibroch reminds dragons of a significant victory by one of the legendary heroes of their kind and fills lesser races with a feeling of frustration and rage. Any creature of the {type/dragon} type that hears the entire performance must succeed at a Will save to avoid having her [attitude](skill/diplomacy) toward the performer and his allies improved by two steps (from Hostile to Indifferent, for example).",
 			"",
 			"A creature of any other type (apart from the bard and his allies) must succeed at a Will save to avoid having her attitude toward the performer and his allies worsened by two steps (from Indifferent to Hostile, for example).",
 			"",
@@ -431,7 +431,7 @@
 			"",
 			"{SOURCE Disciple's Doctrine}",
 			"",
-			"You beat a thunderous cacophony that strikes your foes with the fury of the kami of storms.",
+			"You beat a thunderous cacophony that strikes your foes with the fury of the {family/kami} of storms.",
 			"",
 			"**Prerequisite:** Perform (percussion) 10 ranks.  ",
 			"**Cost:** Feat or 4th-level bard spell known.",
@@ -455,7 +455,7 @@
 			"**Prerequisite:** Perform (string) 11 ranks.  ",
 			"**Cost:** Feat or 4th-level bard spell known.",
 			"",
-			"**Effect:** This fast-paced tune harmonizes with the magical frequencies of another plane, allowing you to draw an extraplanar creature to you and bargain for its service. When you complete this performance, you call one or more outsiders as if using {spell/planar ally}. Unlike with *planar ally,* the creature is not necessarily associated with your deity, and has an initial attitude of \"indifferent\" toward you. Because it is intrigued by your performance, it remains for up to 1 minute to hear the service you are requesting and the payment you are offering. If you succeed at an opposed Charisma check against the creature (with a +0 to +6 bonus on your roll based on the nature of the service and the offered reward), it agrees to perform the service. This ability otherwise works like {spell/planar ally}.",
+			"**Effect:** This fast-paced tune harmonizes with the magical frequencies of another plane, allowing you to draw an extraplanar creature to you and bargain for its service. When you complete this performance, you call one or more outsiders as if using {spell/planar ally}. Unlike with *planar ally,* the creature is not necessarily associated with your deity, and has an initial attitude of \"indifferent\" toward you. Because it is intrigued by your performance, it remains for up to 1 minute to hear the service you are requesting and the payment you are offering. If you succeed at an opposed Charisma check against the creature (with a +0 to +6 bonus on your roll based on the nature of the service and the offered reward), it agrees to perform the service. This ability otherwise works like *planar ally.*",
 			"",
 			"Though the best-known version of this masterpiece refers to an infernal bargain, it can be used to conjure any sort of extraplanar creature (such as an {family/archon}, {family/elemental}, or {family/protean}). Other versions and arrangements of this masterpiece may have different names but otherwise identical effects.",
 			"",
@@ -496,10 +496,12 @@
 			"**Prerequisite:** Perform (sing) or Perform (oratory) 4 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** You sing or chant simple phrases or a distinctive series of notes that you associate with a specific trade good or service. While you perform these jingles, allies within 30 feet are affected by this performance's effects and are treated as being affected by your inspire confidence bardic performance. Furthermore, if an affected creature purchases the associated good or service, that creature immediately gains a number of {rule/temporary hit points} equal to half your bard level.",
+			"**Effect:** You sing or chant simple phrases or a distinctive series of notes that you associate with a specific trade good or service. While you perform these jingles, allies within 30 feet are affected by this performance's effects and are treated as being affected by your {performance/inspire competence} bardic performance.[^C] Furthermore, if an affected creature purchases the associated good or service, that creature immediately gains a number of {rule/temporary hit points} equal to half your bard level.",
 			"",
 			"**Use:** 3 bardic performance rounds, plus 1 round per additional person affected.  ",
-			"**Action:** 1 standard action."
+			"**Action:** 1 standard action.",
+			"",
+			"[^C]: The original source refers to an \"inspire confidence\" performance, which does not exist. Presumably, they meant *inspire competence,* which boosts skill checks."
 		]
 	},
 	"melody_of_frightful_death": {
@@ -595,9 +597,9 @@
 			"**Prerequisite:** Perform (act) or Perform (oratory) 7 ranks.  ",
 			"**Cost:** Feat or 3rd-level bard spell known.",
 			"",
-			"**Effect:** You scream out a litany of every way you have been harmed by others, from physical abuse, to verbal insults, to subtle harassment, to any other number of contemptuous actions that denied you something you were rightfully due. When you complete the performance, you fall prone, the emotion or power behind your speech driving you to your knees. Any creature that damaged you within the last round must succeed at a Will save or be cursed, as per the {spell/bestow curse} spell.",
+			"**Effect:** You scream out a litany of every way you have been harmed by others, from physical abuse, to verbal insults, to subtle harassment, to any other number of contemptuous actions that denied you something you were rightfully due. When you complete the performance, you fall {rule/prone}, the emotion or power behind your speech driving you to your knees. Any creature that damaged you within the last round must succeed at a Will save or be cursed, as per the {spell/bestow curse} spell.",
 			"",
-			"Once per day, if you are reduced to fewer than 0 hit points, you can activate this bardic masterpiece as an immediate action before you become dying or dead as long as you have at least 3 rounds of bardic performance remaining.",
+			"Once per day, if you are reduced to fewer than 0 hit points, you can activate this bardic masterpiece as an immediate action before you become {misc/dying} or {misc/dead} as long as you have at least 3 rounds of bardic performance remaining.",
 			"",
 			"**Use:** 3 rounds of bardic performance.  ",
 			"**Action:** 1 full-round action (see text)."
@@ -715,7 +717,7 @@
 			"**Prerequisite:** Perform (keyboard, sing, string, or wind) 4 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** Whenever you end a bardic performance, you can add a quick reprise that makes it unnaturally catchy. Any creature within 30 feet of you when you finish your performance will run the risk of having your tune replaying endlessly in its mind. Unless the creature succeeds on a Will saving throw (DC = 10 + 1/2 your bard level + your Charisma modifier), the tune distracts it for 1 day per bard level. The creature takes a -4 penalty on {rule/concentration} checks, initiative checks, and Perception checks as long as it remains distracted. The creature's sleep also becomes fitful, requiring half again as long for the usual benefit and entirely negating the benefits of full {rule/bed rest} beyond a normal rest. Once per day upon waking after rest, the creature can attempt a new Will saving throw to shake off the relentless reprise. If it fails, the creature takes 1d2 points of Wisdom damage (or 1d4 points of {rule/sanity/ damage}). This is a curse effect with audible components.",
+			"**Effect:** Whenever you end a bardic performance, you can add a quick reprise that makes it unnaturally catchy. Any creature within 30 feet of you when you finish your performance will run the risk of having your tune replaying endlessly in its mind. Unless the creature succeeds on a Will saving throw (DC = 10 + 1/2 your bard level + your Charisma modifier), the tune distracts it for 1 day per bard level. The creature takes a -4 penalty on {rule/concentration} checks, initiative checks, and Perception checks as long as it remains distracted. The creature's sleep also becomes fitful, requiring half again as long for the usual benefit and entirely negating the benefits of full {rule/bed rest} beyond a normal rest. Once per day upon waking after rest, the creature can attempt a new Will saving throw to shake off the relentless reprise. If it fails, the creature takes 1d2 points of {rule/Wisdom damage} (or 1d4 points of {rule/sanity/ damage}). This is a curse effect with audible components.",
 			"",
 			"**Use:** 1 round of bardic performance.  ",
 			"**Action:** 1 immediate action."
@@ -755,7 +757,7 @@
 			"**Prerequisite:** Perform (sing, string, or wind) 15 ranks.  ",
 			"**Cost:** Feat or 6th-level bard spell known.",
 			"",
-			"**Effect:** The area within 100 feet of the performer begins quaking and moaning as if the earth itself were in pain. The affected area is treated as per the spell {spell/earthquake}. In addition, all creatures in the area except for the performer must make DC 25 Reflex saves, as individual earthen maws open beneath each. Those who fail fall into a 100-foot-deep pit that quickly grinds shut, trapping them as if they were in the {rule/bury zone of an |avalanche/ and trapped without air>s}. If any living, sentient creature is killed by the Song of Extinction's effects, the performer ceases to age for 1 year.",
+			"**Effect:** The area within 100 feet of the performer begins quaking and moaning as if the earth itself were in pain. The affected area is treated as per the spell {spell/earthquake}. In addition, all creatures in the area except for the performer must make DC 25 Reflex saves, as individual earthen maws open beneath each. Those who fail fall into a 100-foot-deep pit that quickly grinds shut, trapping them as if they were in the {rule/bury zone of an |avalanche/ and trapped without air>s}. If any living, sentient creature is killed by the Song of Extinction's effects, the performer ceases to {rule/age} for 1 year.",
 			"",
 			"**Use:** All of the performer's uses of bardic performance for that day.  ",
 			"**Action:** 5 full rounds."
@@ -831,7 +833,7 @@
 			"**Prerequisite:** Perform (oratory) 4 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** Upon completion of your lecture, anyone who listened to your performance gains a +4 insight bonus on Knowledge checks to perform research in a library, and on Spellcraft checks to identify the properties of magic items. This bonus lasts for 10 minutes.",
+			"**Effect:** Upon completion of your lecture, anyone who listened to your performance gains a +4 insight bonus on Knowledge checks to perform {rule/research} in a library, and on Spellcraft checks to identify the properties of magic items. This bonus lasts for 10 minutes.",
 			"",
 			"**Use:** 2 rounds of bardic performance.  ",
 			"**Action:** 1 minute."
@@ -869,7 +871,7 @@
 			"**Prerequisite:** Perform (percussion or wind) 7 ranks.  ",
 			"**Cost:** Feat or 3rd-level bard spell known.",
 			"",
-			"**Effect:** All allies within 30 feet become immune to one of the following (your choice) while they can hear your performance: charm effects, the {misc/dazed} condition, fear effects, magical sleep, paralysis, the {misc/staggered} condition, or the {misc/stunned} condition. You must choose the condition before activating the performance and can't change your choice during the performance. If any affected ally currently has the chosen condition, she can attempt a new saving throw against it each round she can hear your song. Success on this saving throw has its usual benefit, but failure has no effect at all. This performance relies on audible components.",
+			"**Effect:** All allies within 30 feet become immune to one of the following (your choice) while they can hear your performance: charm effects, the {misc/dazed} condition, fear effects, magical sleep, {rule/paralysis}, the {misc/staggered} condition, or the {misc/stunned} condition. You must choose the condition before activating the performance and can't change your choice during the performance. If any affected ally currently has the chosen condition, she can attempt a new saving throw against it each round she can hear your song. Success on this saving throw has its usual benefit, but failure has no effect at all. This performance relies on audible components.",
 			"",
 			"**Use:** 1 bardic performance round per round.  ",
 			"**Action:** 1 full round."
@@ -1044,7 +1046,7 @@
 			"",
 			"For each round you continue to expend bardic performance rounds, the area experiences a round-long aftershock, which has the following effects.",
 			"",
-			"**Caves, Caverns, or Tunnels:** Smaller collapses cause 4d6 points of damage (Reflex DC 5 half) and pin any creatures caught inside.",
+			"**Caves, Caverns, or Tunnels:** Smaller collapses cause 4d6 points of damage (Reflex DC 5 half) and {rule/pin} any creatures caught inside.",
 			"",
 			"**Cliffs:** More cliffs crumble, creating a landslide that travels half as far horizontally as it falls vertically. Any creature in the path takes 4d6 points of bludgeoning damage (Reflex DC 5 half) and is pinned beneath the rubble.",
 			"",
@@ -1136,7 +1138,7 @@
 			"",
 			"**Effect:** You create a musical tempo that first mirrors your enemies' heartbeats, and then quickens them to dangerous levels. When you complete the performance, all enemies within 30 feet who can hear your performance must save or take 1d6 points of damage as their pounding heart causes them to sweat blood. Creatures that are immune to critical hits are unaffected by this ability.",
 			"",
-			"Each round that you continue the performance adds another round to the bleed effect. Abilities that extend the duration of a bardic performance (such as {feat/Lingering Performance}) affect this masterpiece.",
+			"Each round that you continue the performance adds another round to the {rule/bleed} effect. Abilities that extend the duration of a bardic performance (such as {feat/Lingering Performance}) affect this masterpiece.",
 			"",
 			"**Use:** 1 bardic performance round per round of bleed.  ",
 			"**Action:** 1 standard action."
@@ -1159,10 +1161,12 @@
 			"",
 			"This ability does not stack with other effects that increase your speed (such as {spell/haste}) or alter time (such as {spell/time stop}).",
 			"",
-			"Your allies may benefit from this masterpiece, but they must listen to it intently (to the exclusion of all other activities) for the duration of the performance, and you must expend 1 round of bardic performance for each ally other than yourself whom you want to gain the ability to accelerate time (for example, affecting yourself and five others requires expending 11 rounds of bardic performance). This is a language-dependent effect.",
+			"Your allies may benefit from this masterpiece, but they must listen to it intently (to the exclusion of all other activities) for the duration of the performance, and you must expend 1 round of bardic performance for each ally other than yourself whom you want to gain the ability to accelerate time (for example, affecting yourself and five others requires expending 10[^N] rounds of bardic performance). This is a language-dependent effect.",
 			"",
 			"**Use:** 5 bardic performance rounds, +1 round per additional person affected.  ",
-			"**Action:** 1 minute."
+			"**Action:** 1 minute.",
+			"",
+			"[^N]: The original text says this would cost 11 rounds, but that math doesn't seem right. Five rounds (base time) + one round for each of five allies is 5 + 5 = 10."
 		]
 	},
 	"the_rheumy_refrain": {
@@ -1197,7 +1201,7 @@
 			"**Prerequisite:** Perform (sing) or Perform (string) 9 ranks.  ",
 			"**Cost:** Feat or 3rd-level bard spell known.",
 			"",
-			"**Effect:** You and a number of allies (up to one creature per bard level) who can see and hear you gain a swim speed of 40 feet and a bonus on Swim checks equal to half your caster level. When using this masterpiece for long-distance travel, you and your affected allies can hustle without taking nonlethal damage (a forced march still requires Constitution checks). This means you and affected allies can cover 8 miles underwater in an hour of swimming. If an ally can no longer see or hear you, she loses this benefit.",
+			"**Effect:** You and a number of allies (up to one creature per bard level) who can see and hear you gain a swim speed of 40 feet and a bonus on Swim checks equal to half your caster level. When using this masterpiece for long-distance travel, you and your affected allies can {rule/hustle} without taking nonlethal damage (a forced march still requires Constitution checks). This means you and affected allies can cover 8 miles underwater in an hour of swimming. If an ally can no longer see or hear you, she loses this benefit.",
 			"",
 			"**Use:** 1 round of bardic performance per creature affected for each hour of the effect's duration.  ",
 			"**Action:** 1 full round."
@@ -1216,7 +1220,7 @@
 			"**Prerequisite:** Perform (oratory) or Perform (sing) 4 ranks.  ",
 			"**Cost:** Feat or 2nd-level bard spell known.",
 			"",
-			"**Effect:** You create a feeling of deceptive confidence in an enemy. When you activate this performance, one target within 30 feet becomes {rule/flat-footed} for as long as you maintain the performance (Will negates). If you target a creature that has not yet acted in a surprise round, the creature does not get to act in the surprise round. Any target with the uncanny dodge class feature or an ability with a similar effect is immune to this performance. This is a mind-affecting emotion effect.",
+			"**Effect:** You create a feeling of deceptive confidence in an enemy. When you activate this performance, one target within 30 feet becomes {rule/flat-footed} for as long as you maintain the performance (Will negates). If you target a creature that has not yet acted in a surprise round, the creature does not get to act in the surprise round. Any target with the {ability/uncanny dodge} class feature or an ability with a similar effect is immune to this performance. This is a mind-affecting emotion effect.",
 			"",
 			"**Use:** 1 bardic performance round per round.  ",
 			"**Action:** 1 standard action."
@@ -1331,7 +1335,7 @@
 			"",
 			"{SOURCE Heroes from the Fringe}",
 			"",
-			"Channeling the mysterious power of the First World, you grant the listener the gift - or curse - of an animal's shape.",
+			"Channeling the mysterious power of {rule/the First World}, you grant the listener the gift - or curse - of an animal's shape.",
 			"",
 			"**Prerequisite:** Perform (sing) 7 ranks or Perform (wind) 7 ranks.  ",
 			"**Cost:** Feat or 4th-level bard spell known.",

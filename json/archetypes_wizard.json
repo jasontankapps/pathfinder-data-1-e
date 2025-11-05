@@ -68,7 +68,7 @@
 			"",
 			"This alters the wizard's class skills.",
 			"",
-			"**Ready for Anything (Ex):** Instead of crafting magical items or learning ways to manipulate metamagic, arcane wardens prefer to spend their time providing safety and refuge for others. At 1st level, an arcane warden gains a bonus feat associated with aiding allies or providing shelter. At 5th, 10th, 15th, and 20th levels, the arcane warden gains an additional bonus feat. The arcane warden must qualify for any feat he takes, and must choose from the following list: {feat/Alertness}, {feat/Endurance}, {feat/Great Fortitude}, {feat/Improved Great Fortitude}, {feat/Leadership}, {feat/Self-Sufficient}, {feat/Skill Focus} (Survival), {feat/Toughness}, or any {main/feats_<teamwork/ feat}.",
+			"**Ready for Anything (Ex):** Instead of crafting magical items or learning ways to manipulate metamagic, arcane wardens prefer to spend their time providing safety and refuge for others. At 1st level, an arcane warden gains a bonus feat associated with aiding allies or providing shelter. At 5th, 10th, 15th, and 20th levels, the arcane warden gains an additional bonus feat. The arcane warden must qualify for any feat he takes, and must choose from the following list: {feat/Alertness}, {feat/Endurance}, {feat/Great Fortitude}, {feat/Improved Great Fortitude}, {feat/Leadership}, {feat/Self-Sufficient}, {feat/Skill Focus} (Survival), {feat/Toughness}, or any {main/teamwork feat}.",
 			"",
 			"This replaces Scribe Scroll and the bonus feats gained at 5th, 10th, 15th, and 20th levels.",
 			"",
@@ -356,7 +356,7 @@
 			"",
 			"This ability replaces arcane bond.",
 			"",
-			"**Trained Teamwork (Ex):** Starting at 5th level, the instructor can take a {main/feats_<teamwork/ feat} as his wizard bonus feat. As long as his apprentice is within 60 feet, the apprentice gains all such teamwork feats as bonus feats. The apprentice does not have to meet the feat's prerequisites. This ability modifies the bonus feats gained at 5th, 10th, 15th, and 20th level."
+			"**Trained Teamwork (Ex):** Starting at 5th level, the instructor can take a {main/teamwork feat} as his wizard bonus feat. As long as his apprentice is within 60 feet, the apprentice gains all such teamwork feats as bonus feats. The apprentice does not have to meet the feat's prerequisites. This ability modifies the bonus feats gained at 5th, 10th, 15th, and 20th level."
 		]
 	},
 	"pact_wizard_ff": {
