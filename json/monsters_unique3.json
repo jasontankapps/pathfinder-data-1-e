@@ -1615,6 +1615,46 @@
 			"Those who live on the edges of the fen avoid the place despite the lure of easy fishing and lost funeral barges said to be crammed with treasure. They know of the Mistress, her followers, and her sacrifices. Many suspect it was the changelings who gave the orm her powers over rot and fecundity, but the witches deny this, claiming that the Mistress has always possessed such gifts. Their chants can be heard at all times across the murky waters of the swamp, and on moonless nights, one can catch a glimpse of the changelings as they take turns kissing the fetid jaws of their revered mother and drinking in her pestilence."
 		]
 	},
+	"moldering_emperor": {
+		"name": "The Moldering Emperor",
+		"sources": [ "Pathfinder #18: Descent into Midnight" ],
+		"description": [
+			"*Once, perhaps, this monstrosity was an ancient neothelid, but centuries of exposure or experimentation with the black blood has perverted the beast into a terrible new form.*",
+			"",
+			"::mh[The Moldering Emperor]{cr=18}",
+			"",
+			"::minfo[%%template/Black-blooded%% %%monster/neothelid%%]{source=\"Pathfinder RPG Bestiary/214\" xp=\"153,600\" ce gargantuan aberration subs=aquatic init=+2 sen=\"trace teleport 60 ft.\" blindsight=100 pcp=+25}",
+			"",
+			"::mdefense{ac=\"33/5/32\" mod=\"-1 Dex, +28 natural, -4 size\" hp=\"270~20d8+180\" fort=+17 ref=+5 will=+16 dr=\"10/cold iron\" immune=\"ability drain, cold, energy drain, poison\" sr=26}",
+			"",
+			"::moffense{sp=30 fl=60 good melee=\"4 tongues +22 (3d6+11/19-20 plus %%umr/grab%%)\" space=20 reach=20 brWeap=\"50-ft. cone, 14d10 acid, Reflex DC 29 half, once every 1d4 rounds; 30-ft. cone of black blood, 6d6 cold, Reflex DC 29 half, once every 1d4 rounds\" swallow=\"2d6+11 plus 2d6 acid, AC 23, hp 25\" specAtt=\"mind thrust~psychic crush\" next}",
+			"",
+			"::mspell{sla cl=20 constant=fly atWill=\"detect thoughts|DC 18~charm monster|DC 20~clairvoyance/clairaudience~suggestion|DC 19~telekinesis|DC 21~teleport~poison|DC 20\" day=\"3~!quickened *suggestion* (DC 19)\"}",
+			"",
+			"::mstats{str=32 dex=9 con=28 int=12 wis=15 cha=23 bab=+15 cmb=\"+30 (+34 grapple)\" cmd=\"39 (can't be tripped)\" feats=\"Cleave~Great Cleave~Great Fortitude~Improved Bull Rush~Improved Critical=tongue~Improved Initiative~Improved Overrun~Iron Will~Power Attack~Quicken Spell-Like Ability=suggestion\" lang=\"Aklo, Terran, Undercommon; %%umr/telepathy%% 100 ft.\" sq=\"%%umr/amphibious%%\"}",
+			"",
+			"::sh[Special Abilities]",
+			"",
+			"**Blood Rain (Su):** Black-blooded creatures constantly leak and spray bursts of freezing {magic-artifact/black blood}. Any creature within 15 feet of the moldering emperor takes 9 points of cold damage. This damage is Constitution-based.",
+			"",
+			"**Mind Thrust (Su)** As a standard action up to three times a day, the moldering emperor can deliver a massive blast of mental energy at any one target within 60 feet, inflicting 15d10 points of damage. A successful DC 26 Will save negates the effect. This effect can only harm creatures with Intelligence scores. This is a mind-affecting effect. The save DC is Charisma-based.",
+			"",
+			"**Psychic Crush (Su)** As a standard action up to three times a day, the moldering emperor can attempt to crush the mind of a single creature within 60 feet. The target must make a DC 26 Will save or collapse, becoming unconscious and dying at -1 hit points. If the target succeeds on the save, it takes 6d6 points of damage and is {misc/sickened} for 1 round. This is a mind-affecting effect. The save DC is Charisma-based.",
+			"",
+			"**Tainted Life (Ex):** The black blood is antithetical to all life and consumes all but the heartiest hosts. The moldering emperor must make a DC 15 Fortitude save every day or take 1d4 points of {rule/Constitution damage}.",
+			"",
+			"**Trace Teleport (Ex)** The moldering emperor telepathically and reflexively learns the mental coordinates of the destination, of all creatures that teleport within 60 feet of it, gaining an awareness of the location equivalent to \"seen casually.\" This knowledge fades and is lost after 1 minute. This power does not grant any environmental information about the conditions of the destination.",
+			"",
+			"**Skills** The Moldering Emperor has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered.",
+			"",
+			"::sh[Description]",
+			"",
+			"Lurking amid the depths of the Caltherium at the heart of the Land of Black Blood writhes one of the vault's deadliest hunters, the fearsome Moldering Emperor. Burdened with mutations, out-of-control tendrils, and wing-like fins, this hunter of the depths claims every black-blood-soaked region of the vast cavern as its personal domain, and it doesn't take kindly to trespassers.",
+			"",
+			">**Note:** Some of the numbers above are different from the source article. The black-blooded template was applied to the neothelid published in *Pathfinder RPG Bestiary* and the resulting stats differ slightly from the original."
+		]
+	},
+	"the_moldering_emperor": { "redirect": "moldering_emperor" },
 	"the_mourning_one": {
 		"name": "The Mourning One",
 		"sources": [ "Mystery Monsters Revisited" ],
@@ -1643,7 +1683,7 @@
 			"",
 			"The oldest Darklands sages speak in hushed tones of a creature called the Mourning One - a thing created, they say, in the Land of Black Blood, one of Orv's vast and terrible Vaults. The Mourning One only recently escaped its Darklands prison, winding its way through the perilous tunnels of Orv up into Sekamina, and now dwells in Lake Nirthran - the Dying Sea.",
 			"",
-			"The ghouls of Nemret Noktoria have seen the Mourning One slide through the waters of Lake Nirthran, and avaricious necromancers among their kind occasionally undertake voyages to try to capture the beast for the valuable black blood that seeps from its pores. The skum of Cold Momugado, on the other hand, do not seek the creature for its strange properties-most merely wish the nuisance dead and gone, as it has proven a menace to skum scavengers and raiders since its first sighting. Still other inhabitants of the Darklands would like to see the Mourning One put to different uses - in Delvingulf, drow fleshwarpers view the monstrous sea serpent as a figure of great awe as well as potential. If it were to be captured, they could perhaps learn how to further utilize the strange substance known as black blood in subsequent experiments."
+			"The ghouls of Nemret Noktoria have seen the Mourning One slide through the waters of Lake Nirthran, and avaricious necromancers among their kind occasionally undertake voyages to try to capture the beast for the valuable {magic-artifact/black blood} that seeps from its pores. The skum of Cold Momugado, on the other hand, do not seek the creature for its strange properties - most merely wish the nuisance dead and gone, as it has proven a menace to skum scavengers and raiders since its first sighting. Still other inhabitants of the Darklands would like to see the Mourning One put to different uses - in Delvingulf, drow fleshwarpers view the monstrous sea serpent as a figure of great awe as well as potential. If it were to be captured, they could perhaps learn how to further utilize the strange substance known as black blood in subsequent experiments."
 		]
 	},
 	"the_surface_caller": {
