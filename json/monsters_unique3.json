@@ -1617,13 +1617,16 @@
 	},
 	"moldering_emperor": {
 		"name": "The Moldering Emperor",
-		"sources": [ "Pathfinder #18: Descent into Midnight" ],
+		"sources": [
+			"Pathfinder #18: Descent into Midnight",
+			"Pathfinder RPG Bestiary"
+		],
 		"description": [
 			"*Once, perhaps, this monstrosity was an ancient neothelid, but centuries of exposure or experimentation with the black blood has perverted the beast into a terrible new form.*",
 			"",
 			"::mh[The Moldering Emperor]{cr=18}",
 			"",
-			"::minfo[%%template/Black-blooded%% %%monster/neothelid%%]{source=\"Pathfinder RPG Bestiary/214\" xp=\"153,600\" ce gargantuan aberration subs=aquatic init=+2 sen=\"trace teleport 60 ft.\" blindsight=100 pcp=+25}",
+			"::minfo[%%template/Black-blooded%% %%monster/neothelid%%]{source=\"Pathfinder #18: Descent into Midnight/82;Pathfinder RPG Bestiary/214\" xp=\"153,600\" ce gargantuan aberration subs=aquatic init=+2 sen=\"trace teleport 60 ft.\" blindsight=100 pcp=+25}",
 			"",
 			"::mdefense{ac=\"33/5/32\" mod=\"-1 Dex, +28 natural, -4 size\" hp=\"270~20d8+180\" fort=+17 ref=+5 will=+16 dr=\"10/cold iron\" immune=\"ability drain, cold, energy drain, poison\" sr=26}",
 			"",

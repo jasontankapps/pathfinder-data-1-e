@@ -384,6 +384,7 @@
 			"whirlpools"
 		]
 	},
+	"current": { "redirect": "currents_and_running_water" },
 	"whirlpools": {
 		"name": "Whirlpools",
 		"subtitle": "Aquatic Adventures",
