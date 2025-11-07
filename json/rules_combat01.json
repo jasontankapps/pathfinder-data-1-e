@@ -2742,6 +2742,7 @@
 			"take_5_foot_step"
 		]
 	},
+	"readied": { "redirect": "ready" },
 	"readied_action": { "redirect": "ready" },
 	"ready_an_action": { "redirect": "ready" },
 	"conditions": {
