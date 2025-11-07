@@ -1571,11 +1571,11 @@
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** body; **Price** 5,400 gp; **Weight** 1 lb.",
 			"",
-			"When the wearer enters a stance from a {main/feats_<style/ feat} while wearing a dhoti of style mastery, he gains 1d8+3 {rule/temporary hit points} plus an additional 1d8 temporary hit points for each feat he has that lists that style feat as a prerequisite (maximum 3d8+3 temporary hit points). These temporary hit points last as long as the wearer maintains the stance during that combat, but vanish when the combat concludes. The wearer cannot gain temporary hit points in this way more than once per day.",
+			"When the wearer enters a stance from a {main/style feat} while wearing a dhoti of style mastery, he gains 1d8+3 {rule/temporary hit points} plus an additional 1d8 temporary hit points for each feat he has that lists that style feat as a prerequisite (maximum 3d8+3 temporary hit points). These temporary hit points last as long as the wearer maintains the stance during that combat, but vanish when the combat concludes. The wearer cannot gain temporary hit points in this way more than once per day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, any {main/feats_<style/ feat}, {spell/false life}; **Cost** 2,700 gp"
+			"**Requirements** {feat/Craft Wondrous Item}, any {main/style feat}, {spell/false life}; **Cost** 2,700 gp"
 		]
 	},
 	"druids_vestment": {

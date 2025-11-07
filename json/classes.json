@@ -821,7 +821,7 @@
 			"",
 			"An arcanist must choose and prepare her spells ahead of time by getting 8 hours of sleep and spending 1 hour studying her spellbook. While studying, the arcanist decides what spells to prepare and refreshes her available spell slots for the day.",
 			"",
-			"Like a sorcerer, an arcanist can choose to apply any {main/feats_<metamagic/ feats} she knows to a prepared spell as she casts it, with the same increase in casting time. However, she may also prepare a spell with any metamagic feats she knows and cast it without increasing casting time like a wizard. She cannot combine these options - a spell prepared with metamagic feats cannot be further modified with another metamagic feat at the time of casting (unless she has the {exploit/metamixing} arcanist exploit).",
+			"Like a sorcerer, an arcanist can choose to apply any {main/metamagic feat/s} she knows to a prepared spell as she casts it, with the same increase in casting time. However, she may also prepare a spell with any metamagic feats she knows and cast it without increasing casting time like a wizard. She cannot combine these options - a spell prepared with metamagic feats cannot be further modified with another metamagic feat at the time of casting (unless she has the {exploit/metamixing} arcanist exploit).",
 			"",
 			"**Cantrips:** Arcanists can prepare a number of cantrips, or 0-level spells, each day. These spells are cast like any other spell, but they do not consume spell slots. As with her other spells, these spells are not expended when cast.",
 			"",

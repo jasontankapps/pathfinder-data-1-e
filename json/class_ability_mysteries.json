@@ -1215,7 +1215,7 @@
 			"",
 			"**Spirit Boost (Su):** As per the *life* oracle mystery revelation of the same name: Whenever your healing spells heal a target up to its maximum hit points, any excess points persist for 1 round per level as temporary hit points (up to a maximum number of temporary hit points equal to your oracle level).",
 			"",
-			"**Teamwork Mastery (Ex, Sp):** You are an immaculate team player and can distribute your team-based insights to your allies with a touch. This revelation grants you {main/feats_<a bonus |teamwork/ feat}. You must meet the teamwork feat's prerequisites, if any. Additionally, you can touch an ally as a standard action to confer upon it the benefits of any one teamwork feat that you have. This effect persists for a number of rounds equal to 1/2 your oracle level (minimum 1). You can confer the benefits of a teamwork feat you have a number of times per day equal to 3 + your Charisma modifier.",
+			"**Teamwork Mastery (Ex, Sp):** You are an immaculate team player and can distribute your team-based insights to your allies with a touch. This revelation grants you a bonus {main/teamwork feat}. You must meet the teamwork feat's prerequisites, if any. Additionally, you can touch an ally as a standard action to confer upon it the benefits of any one teamwork feat that you have. This effect persists for a number of rounds equal to 1/2 your oracle level (minimum 1). You can confer the benefits of a teamwork feat you have a number of times per day equal to 3 + your Charisma modifier.",
 			"",
 			"### Final Revelation",
 			"",

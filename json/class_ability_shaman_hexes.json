@@ -91,7 +91,7 @@
 		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Advanced Class Guide", 37 ] ],
 		"description": [
-			"The shaman receives one {main/feats_<metamagic/ feat} as a bonus feat. The shaman must meet the prerequisites for the feat."
+			"The shaman receives one {main/metamagic feat} as a bonus feat. The shaman must meet the prerequisites for the feat."
 		]
 	},
 	"shapeshift": {

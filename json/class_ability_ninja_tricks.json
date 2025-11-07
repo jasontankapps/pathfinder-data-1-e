@@ -251,7 +251,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Other Tricks",
 		"description": [
-			"A ninja who selects this trick gains a bonus {main/feats_<combat/ feat}."
+			"A ninja who selects this trick gains a bonus {main/combat feat}."
 		]
 	},
 	"fast_stealth": {
@@ -303,7 +303,7 @@
 		"compilationSources": [ [ "Ultimate Combat" ] ],
 		"category": "Other Tricks",
 		"description": [
-			"A ninja who selects this ninja trick gains a {main/feats_<style/ feat} that she qualifies for as a bonus feat."
+			"A ninja who selects this ninja trick gains a {main/style feat} that she qualifies for as a bonus feat."
 		]
 	},
 	"swarming_attack": {

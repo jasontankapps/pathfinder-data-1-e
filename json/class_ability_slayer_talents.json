@@ -239,7 +239,7 @@
 		"compilationSources": [ [ "Martial Arts Handbook", 18 ] ],
 		"category": "Other Talents",
 		"description": [
-			"({race/Samsaran} only.) By calling on the memories of previous incarnations, a samsaran slayer can use martial techniques that transcend his usual capabilities. Once per day, the slayer can take a move action to gain the benefit of a {main/feats_<combat/ feat} he doesn't have. This effect lasts for 1 minute per slayer level he has. The slayer must meet all the feat's prerequisites."
+			"({race/Samsaran} only.) By calling on the memories of previous incarnations, a samsaran slayer can use martial techniques that transcend his usual capabilities. Once per day, the slayer can take a move action to gain the benefit of a {main/combat feat} he doesn't have. This effect lasts for 1 minute per slayer level he has. The slayer must meet all the feat's prerequisites."
 		]
 	},
 	"redirect_poison": {

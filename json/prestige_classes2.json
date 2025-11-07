@@ -1716,7 +1716,7 @@
 			"To qualify to become a loremaster, a character must fulfill all the following criteria.",
 			"",
 			"**Skills:** Knowledge (any two) 7 ranks in each.  ",
-			"**Feats:** Any three {main/feats_<metamagic} or {main/feats_<item creation} feats, plus {feat/Skill Focus} (Knowledge [any individual Knowledge skill]).  ",
+			"**Feats:** Any three {main/metamagic>_feat} or {main/item creation>_feat} feats, plus {feat/Skill Focus} (Knowledge [any individual Knowledge skill]).  ",
 			"**Spells:** Able to cast seven different divination spells, one of which must be 3rd level or higher.",
 			"",
 			"### Class Skills",

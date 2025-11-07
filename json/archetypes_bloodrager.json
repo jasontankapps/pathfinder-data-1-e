@@ -100,7 +100,7 @@
 			"",
 			"**Pugilist (Ex):** At 1st level, a bloody-knuckled rowdy gains {feat/Improved Unarmed Strike} as a bonus feat. This ability replaces fast movement.",
 			"",
-			"**Combat Style Student:** At 2nd level, a bloody-knuckled rowdy gains a bonus feat. This bonus feat must be a {main/feats_<style/ feat} or a feat with a style feat as a prerequisite. The bloody-knuckled rowdy treats his bloodrager levels as monk levels when qualifying for and calculating the effects of style feats and feats that have style feats as prerequisites. At 5th level, the bloody-knuckled rowdy gains the {feat/Combat Style Master} feat. He doesn't need to meet the prerequisites for this feat. This ability replaces uncanny dodge and improved uncanny dodge.",
+			"**Combat Style Student:** At 2nd level, a bloody-knuckled rowdy gains a bonus feat. This bonus feat must be a {main/style feat} or a feat with a style feat as a prerequisite. The bloody-knuckled rowdy treats his bloodrager levels as monk levels when qualifying for and calculating the effects of style feats and feats that have style feats as prerequisites. At 5th level, the bloody-knuckled rowdy gains the {feat/Combat Style Master} feat. He doesn't need to meet the prerequisites for this feat. This ability replaces uncanny dodge and improved uncanny dodge.",
 			"",
 			"**Hand-to-Hand Training (Ex):** At 3rd level, a bloody-knuckled rowdy deals unarmed damage as a {class/monk} of a level equal to his bloodrager level - 2."
 		]
@@ -269,7 +269,7 @@
 			"{SOURCE Advanced Class Guide/83}  ",
 			"While metamagic is difficult for many bloodragers to utilize, a talented few are able to channel their bloodrage in ways that push their spells to impressive ends.",
 			"",
-			"**Meta-Rage (Su):** At 5th level, a metamagic rager can sacrifice additional rounds of bloodrage to apply a {main/feats_<metamagic/ feat} he knows to a bloodrager spell. This costs a number of rounds of bloodrage equal to twice what the spell's adjusted level would normally be with the metamagic feat applied (minimum 2 rounds). The metamagic rager does not have to be bloodraging to use this ability. The metamagic effect is applied without increasing the level of the spell slot expended, though the casting time is increased as normal. The metamagic rager can apply only one metamagic feat he knows in this manner with each casting. Additionally, when the metamagic rager takes a bloodline feat, he can choose to take a metamagic feat instead. This ability replaces improved uncanny dodge."
+			"**Meta-Rage (Su):** At 5th level, a metamagic rager can sacrifice additional rounds of bloodrage to apply a {main/metamagic feat} he knows to a bloodrager spell. This costs a number of rounds of bloodrage equal to twice what the spell's adjusted level would normally be with the metamagic feat applied (minimum 2 rounds). The metamagic rager does not have to be bloodraging to use this ability. The metamagic effect is applied without increasing the level of the spell slot expended, though the casting time is increased as normal. The metamagic rager can apply only one metamagic feat he knows in this manner with each casting. Additionally, when the metamagic rager takes a bloodline feat, he can choose to take a metamagic feat instead. This ability replaces improved uncanny dodge."
 		]
 	},
 	"primalist": {

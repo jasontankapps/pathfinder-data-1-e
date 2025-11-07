@@ -3154,7 +3154,7 @@
 			"{SOURCE Halflings of Golarion/27}",
 			"",
 			"You can make a creature that fails its spell save suffer your jinx as well.  ",
-			"**Prerequisites:** Any two {main/feats_<metamagic/ feats}, Halfling Jinx trait.  ",
+			"**Prerequisites:** Any two {main/metamagic feat/s}, Halfling Jinx trait.  ",
 			"**Benefit:** Any creature that fails its saving throw against a jinxed spell also suffers the effects of your jinx. This feat has no effect on spells that do not allow a saving throw. If the spell affects an area or multiple creatures, you must select one creature to take the jinx, unless you have the {feat/Area Jinx} feat; if you have the Area Jinx feat, choose a jinx {misc/burst} area within the spell's area or among its targets and apply the jinx to those in the burst that failed their save. A jinxed spell uses up a spell slot one level higher than the spell's actual level."
 		]
 	},
@@ -3444,7 +3444,7 @@
 			"",
 			"You can use your wild talents to help you craft magic items.  ",
 			"**Prerequisites:** {class/Kineticist} level 3rd.  ",
-			"**Benefit:** When crafting a magic item or taking {main/feats_<item creation/ feats}, you can treat your kineticist level as your caster level. In addition, you can treat any wild talent you have as a spell of the same level or lower for the purpose of fulfilling the requirements for magic item creation (except spell completion and spell trigger items). This wild talent must be associated with the same element or deal the same type of energy damage as the emulated spell's descriptor."
+			"**Benefit:** When crafting a magic item or taking {main/item creation feat/s}, you can treat your kineticist level as your caster level. In addition, you can treat any wild talent you have as a spell of the same level or lower for the purpose of fulfilling the requirements for magic item creation (except spell completion and spell trigger items). This wild talent must be associated with the same element or deal the same type of energy damage as the emulated spell's descriptor."
 		]
 	},
 	"kinetic_invocation": {

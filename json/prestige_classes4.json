@@ -383,7 +383,7 @@
 			"",
 			"**Weapon and Armor Proficiency:** Eldritch knights gain no proficiency with any weapon or armor.",
 			"",
-			"**Bonus Feat:** At 1st level, an eldritch knight may choose a bonus {main/feats_<combat/ feat}. This is in addition to the feats that a character of any class normally gets from advancing levels. The character must still meet any prerequisites for these bonus feats. An eldritch knight gains an additional combat feat at 5th and 9th level.",
+			"**Bonus Feat:** At 1st level, an eldritch knight may choose a bonus {main/combat feat}. This is in addition to the feats that a character of any class normally gets from advancing levels. The character must still meet any prerequisites for these bonus feats. An eldritch knight gains an additional combat feat at 5th and 9th level.",
 			"",
 			"**Diverse Training:** An eldritch knight adds his level to any levels of fighter he might have for the purpose of meeting the prerequisites for feats (if he has no fighter levels, treat his eldritch knight levels as levels of fighter). He also adds his level to any levels in an arcane spellcasting class for the purpose of meeting the prerequisites for feats.",
 			"",
@@ -589,7 +589,7 @@
 			"",
 			"Instead of choosing a spellcasting class, a character with levels in a class that grants the kinetic blast class feature can add these effective levels to that class. If she does, she increases her effective kineticist level for purposes of determining the highest level of wild talents she can select, the effective spell level of her kinetic blast and defense wild talents, and the amount of burn she can accept each round. She continues to gain utility wild talents and infusions as if these levels of esoteric knight were levels of her class that grants kinetic blast. She does not gain or increase other related class features, such as infusion specializations.",
 			"",
-			"**Martial Esoterica:** At 1st level and every 2 levels thereafter, the esoteric knight gains a bonus {main/feats_<combat/ feat}. She must meet the prerequisites of the feat. Her esoteric knight levels count as fighter levels and stack with any levels of fighter she might have for meeting the prerequisites for feats.",
+			"**Martial Esoterica:** At 1st level and every 2 levels thereafter, the esoteric knight gains a bonus {main/combat feat}. She must meet the prerequisites of the feat. Her esoteric knight levels count as fighter levels and stack with any levels of fighter she might have for meeting the prerequisites for feats.",
 			"",
 			"An esoteric knight can learn a new combat feat in place of the most recent martial esoterica feat she has learned either by expending a 1st-level spell slot or, if she is a character with the burn class feature (such as the kineticist), by accepting 1 point of burn as a standard action. In effect, the esoteric knight loses the bonus feat in exchange for the new one. She can change only the most recent combat feat gained. Whenever she gains a new bonus combat feat, the previous feat becomes set and cannot be changed again.",
 			"",
@@ -1108,7 +1108,7 @@
 			">",
 			">**Stabilize:** The wayfinder can be used to cast {spell/stabilize} at will.",
 			"",
-			"**Bonus Feat:** At 2nd level and every 3 levels thereafter, a Pathfinder field agent can select a bonus feat. Each of these bonus feats must be {feat/Skill Focus} or a {main/feats_<teamwork} feat. The Pathfinder field agent must meet the prerequisites of the selected bonus feat.",
+			"**Bonus Feat:** At 2nd level and every 3 levels thereafter, a Pathfinder field agent can select a bonus feat. Each of these bonus feats must be {feat/Skill Focus} or a {main/teamwork>_feat} feat. The Pathfinder field agent must meet the prerequisites of the selected bonus feat.",
 			"",
 			"**Legends Uncovered (Su):** At 10th level, a Pathfinder field agent has the ability to uncover the secrets of the distant past. Once per day when studying or researching a person, place, or artifact of antiquity, the agent can dedicate herself to the task to gain benefits as though she were casting the spell {spell/legend lore}."
 		]

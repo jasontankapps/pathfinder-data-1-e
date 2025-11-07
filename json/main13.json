@@ -923,6 +923,7 @@
 			}
 		]
 	},
+	"style_feat": { "redirect": "feats_style" },
 	"feats_item_creation": {
 		"title": "Feats - Item Creation",
 		"searchgroup": "feat",
@@ -963,6 +964,7 @@
 			":::"
 		]
 	},
+	"item_creation_feat": { "redirect": "feats_item_creation" },
 	"feats_metamagic": {
 		"title": "Feats - Metamagic",
 		"searchgroup": "rule",
@@ -1074,6 +1076,7 @@
 			}
 		]
 	},
+	"metamagic_feat": { "redirect": "feats_metamagic" },
 	"feats_grit": {
 		"title": "Feats - Grit",
 		"searchgroup": "feat",

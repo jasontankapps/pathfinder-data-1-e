@@ -440,7 +440,7 @@
 			"",
 			"**Replacement Powers:** The following school power replaces the hand of the apprentice power of the universalist school.",
 			"",
-			">**Metacharge (Ex):** As an Arcanamirium crafter, you gain a bonus feat at 3rd level, which must be an {main/feats_<item creation/ feat} or {main/feats_<metamagic/ feat}. You must still meet all prerequisites for a bonus feat, including caster level minimums. When using metamagic feats to create magic items, your skill and understanding of the principles involved in the item's creation give you a +2 bonus on the skill check made to create the item."
+			">**Metacharge (Ex):** As an Arcanamirium crafter, you gain a bonus feat at 3rd level, which must be an {main/item creation feat} or {main/metamagic feat}. You must still meet all prerequisites for a bonus feat, including caster level minimums. When using metamagic feats to create magic items, your skill and understanding of the principles involved in the item's creation give you a +2 bonus on the skill check made to create the item."
 		]
 	},
 	"aether": {

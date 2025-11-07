@@ -611,7 +611,7 @@
 			"",
 			"**Weapon and Armor Proficiency:** A gladiator is not proficient with heavy armor or tower shields. Instead he gains the {feat/Performance Weapon Mastery} feat at 1st level as a bonus feat. This bonus feat is in addition to the bonus feat a fighter gains at 1st level. Furthermore, a gladiator using {rule/piecemeal armor} is considered to be wearing a suit of armor as long as he wearing two or three armor pieces, gaining the +1 to armor bonus but still taking the +5% chance of arcane spell failure if the pieces are mixed.",
 			"",
-			"**Bonus Feats:** A gladiator may choose to take {main/feats_<combat} or {main/feats_<performance} feats as bonus feats.",
+			"**Bonus Feats:** A gladiator may choose to take {main/combat>_feat} or {main/feats_<performance} feats as bonus feats.",
 			"",
 			"**Fame (Ex):** At 2nd level, when a gladiator begins a performance combat, he always starts with at least 1 victory point. If he already has victory points, he gains 1 extra victory point. At 10th level, the gladiator starts out with at least 2 victory points. If he already has victory points, he gains 2 extra victory points. This ability replaces bravery."
 		]
@@ -1273,7 +1273,7 @@
 			"",
 			"This ability replaces the bonus combat feats the fighter normally receives at those levels.",
 			"",
-			"**Bonus Feats (Ex):** At 4th level, and every 4 levels thereafter, the swarm fighter gains a bonus {main/feats_<combat/ feat}. These are gained as with the fighter's normal bonus feats class feature (but less frequently).",
+			"**Bonus Feats (Ex):** At 4th level, and every 4 levels thereafter, the swarm fighter gains a bonus {main/combat feat}. These are gained as with the fighter's normal bonus feats class feature (but less frequently).",
 			"",
 			"**Share Space (Ex):** At 5th level, the swarm fighter can move into the space of another creature at least one size category larger than she is. She may end her movement in, and make attacks from, that space. She must succeed at the Acrobatics check for moving through an occupied square to move into a space occupied by an enemy. While sharing the space of another creature, she gains a +2 shield bonus to AC and a +1 circumstance bonus on Reflex saves.",
 			"",
@@ -1424,7 +1424,7 @@
 			"",
 			"**Forbidden Armor:** A tribal fighter favors traditional armor and shields, avoiding other types out of spiritual devotion, superstitious suspicion, or respect for tradition. He can attain his battle focus only while using armaments of the appropriate types. Like a druid, a tribal fighter is prohibited from wearing metal armor and using metal shields. A tribal fighter who wears prohibited armor or uses a prohibited shield loses the benefits of the battle focus and tribal weapon training abilities while doing so and for 24 hours after removing the prohibited armor or shield.",
 			"",
-			"**Battle Focus (Ex):** A tribal fighter learns to fight with his bare hands and wield traditional tribal weapons so effortlessly that they are almost extensions of his arms. He gains {feat/Improved Unarmed Strike} as a bonus feat. For the purpose of meeting the prerequisites of {main/feats_<style/ feats} and feats that have style feats as prerequisites, the tribal fighter counts as having a number of skill ranks equal to his fighter level in all skills in which he is trained.",
+			"**Battle Focus (Ex):** A tribal fighter learns to fight with his bare hands and wield traditional tribal weapons so effortlessly that they are almost extensions of his arms. He gains {feat/Improved Unarmed Strike} as a bonus feat. For the purpose of meeting the prerequisites of {main/style feat/s} and feats that have style feats as prerequisites, the tribal fighter counts as having a number of skill ranks equal to his fighter level in all skills in which he is trained.",
 			"",
 			"This replaces the fighter feat gained at 1st level.",
 			"",
@@ -1494,7 +1494,7 @@
 			"",
 			"**Weapon and Armor Proficiency:** An unarmed fighter is not proficient with medium armor, heavy armor, or shields. An unarmed fighter is proficient with all {class/monk} weapons, including exotic monk weapons.",
 			"",
-			"**Unarmed Style:** At 1st level, an unarmed fighter gains the {feat/Improved Unarmed Strike} feat and any single {main/feats_<style/ feat} as a bonus feat. The unarmed fighter need not meet all the prerequisites of the style feat he chooses, but style feats that grant additional uses of the {feat/Elemental Fist} feat cannot be taken until the unarmed fighter has that feat. This ability replaces the bonus feat at 1st level.",
+			"**Unarmed Style:** At 1st level, an unarmed fighter gains the {feat/Improved Unarmed Strike} feat and any single {main/style feat} as a bonus feat. The unarmed fighter need not meet all the prerequisites of the style feat he chooses, but style feats that grant additional uses of the {feat/Elemental Fist} feat cannot be taken until the unarmed fighter has that feat. This ability replaces the bonus feat at 1st level.",
 			"",
 			"**Harsh Training (Ex):** At 2nd level, an unarmed fighter gains a +1 bonus on saving throws against effects that cause the exhausted, fatigued, or staggered conditions or temporary penalties to ability scores. This bonus increases by +1 for every four levels after 2nd (to a maximum of +5 at 18th level). This ability replaces bravery.",
 			"",
@@ -1532,7 +1532,7 @@
 			"",
 			"**Unflinching (Ex):** At 2nd level, an unbreakable gains a +1 bonus on Will saves against mind-affecting effects. This bonus increases by +1 for every four levels after 2nd level (to a maximum of +5 at 18th level). This ability replaces bravery.",
 			"",
-			"**Heroic Recovery (Ex):** At 5th level, an unbreakable gains the {feat/Heroic Recovery} feat as a bonus feat, if he does not have it already. If he already has this feat, the unbreakable can choose any {main/feats_<combat/ feat} instead. In addition, he may use this feat one additional time per day for every four levels after 5th (to a maximum of 4 times per day at 17th level). This ability replaces weapon training 1.",
+			"**Heroic Recovery (Ex):** At 5th level, an unbreakable gains the {feat/Heroic Recovery} feat as a bonus feat, if he does not have it already. If he already has this feat, the unbreakable can choose any {main/combat feat} instead. In addition, he may use this feat one additional time per day for every four levels after 5th (to a maximum of 4 times per day at 17th level). This ability replaces weapon training 1.",
 			"",
 			"**Heroic Defiance (Ex):** At 9th level, an unbreakable gains the {feat/Heroic Defiance} feat as a bonus feat, if he does not have it already. If he already has this feat, the unbreakable can choose any combat feat instead. In addition, he may use this feat one additional time per day for every four levels after 9th (to a maximum of 3 times per day at 19th level). This ability replaces weapon training 2.",
 			"",
@@ -1582,7 +1582,7 @@
 			"",
 			"**Martial Flexibility (Ex):** A Varisian free-style fighter gains martial flexibility as per the brawler class feature, treating his fighter level as his brawler level for the purposes of this ability. This ability replaces the bonus feats gained at 1st level, 6th level, 10th level, and 12th level, as well as weapon training and weapon mastery.",
 			"",
-			"**Free Fighting Style (Ex):** At 3rd level, a Varisian freestyle fighter can freely mix two of the styles he knows into a more flexible style. A Varisian free-style fighter can have an additional {main/feats_<style/ feat} stance active simultaneously with his first style feat stance. He can enter all of his allowed stances as a move action or one stance as a swift action. At 11th level, a Varisian free-style fighter can have the stances of up to two additional style feats active at the same time. At 15th level, a Varisian free-style fighter can have the stances of up to three additional style feats active at the same time. This ability replaces armor training."
+			"**Free Fighting Style (Ex):** At 3rd level, a Varisian freestyle fighter can freely mix two of the styles he knows into a more flexible style. A Varisian free-style fighter can have an additional {main/style feat} stance active simultaneously with his first style feat stance. He can enter all of his allowed stances as a move action or one stance as a swift action. At 11th level, a Varisian free-style fighter can have the stances of up to two additional style feats active at the same time. At 15th level, a Varisian free-style fighter can have the stances of up to three additional style feats active at the same time. This ability replaces armor training."
 		]
 	},
 	"venomblade": {

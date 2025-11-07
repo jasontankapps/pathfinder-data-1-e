@@ -34,13 +34,7 @@
 			">",
 			">**Dark Resilience (Su):** The black blood flowing through a black-blooded oracle's veins gives her resistance to many effects to which undead are immune. Once per day, as an immediate action, whenever she fails a saving throw against an ability drain, a death effect, disease, energy drain, paralysis, or poison, she may attempt that saving throw again with a +4 circumstance bonus. She must take the second result, even if it is worse. At 7th level, she can use this ability twice per day. At 15th level, she can use the ability 3 times per day.",
 			">",
-			">**Darkvision (Ex):** A black-blooded oracle gains darkvision with a range of 60 feet. The range increases to 90 feet at 15th level.",
-			"",
-			"### Black Blood of Orv",
-			"",
-			"Black blood wells from the walls of a singular vault deep in Orv, a region known quite aptly as the Land of Black Blood. This noxious fluid repulses and freezes all natural life, although certain creatures like aberrations, undead, and black-blooded oracles possess an uncanny immunity to its effects. Any other creature that comes into contact with black blood takes 1d6 points of cold damage - 10d6 points of cold damage per round if fully immersed.",
-			"",
-			"Although black blood isn't itself inherently evil, a pint of black blood can be used as {eq-weapon/unholy water}. A spellcaster who consumes a dose of black blood casts all necromantic spells at +1 caster level for the next 10 minutes, but takes 3d6 points of cold damage and 1 point of {rule/Constitution damage} by drinking the stuff. Normally, a dose of black blood becomes inert an hour after being harvested from the source in the Land of Black Blood, losing all mystical properties. {spell/Gentle repose} can preserve up to 1 gallon of black blood's magical properties for increased lengths of time, but no other method of stabilizing the stuff has yet been developed. The blood of a black-blooded oracle is diluted and does not have the properties of full-strength black blood."
+			">**Darkvision (Ex):** A black-blooded oracle gains darkvision with a range of 60 feet. The range increases to 90 feet at 15th level."
 		]
 	},
 	"community_guardian": {
@@ -648,7 +642,7 @@
 			"{SOURCE Advanced Class Guide/106}  ",
 			"A warsighted's unique gifts are not in strange magical revelations, but in her ability to adapt in the midst of a battle with new fighting techniques. The warsighted is a master of combat, as dedicated as a fighter and as flexible as a brawler.",
 			"",
-			"**Martial Flexibility (Ex):** At 1st level, a warsighted can use a move action to gain the benefit of a {main/feats_<combat/ feat} she doesn't possess. This effect lasts for 1 minute. The warsighted must otherwise meet all the feat's prerequisites. She can use this ability a number of times per day equal to 3 + 1/2 her oracle level.",
+			"**Martial Flexibility (Ex):** At 1st level, a warsighted can use a move action to gain the benefit of a {main/combat feat} she doesn't possess. This effect lasts for 1 minute. The warsighted must otherwise meet all the feat's prerequisites. She can use this ability a number of times per day equal to 3 + 1/2 her oracle level.",
 			"",
 			"The warsighted can use this ability again before the duration expires in order to replace the previous combat feat with another choice.",
 			"",

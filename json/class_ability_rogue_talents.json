@@ -804,7 +804,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook", 68 ] ],
 		"category": "Combat Talents",
 		"description": [
-			"A rogue that selects this talent gains a bonus {main/feats_<combat/ feat}."
+			"A rogue that selects this talent gains a bonus {main/combat feat}."
 		]
 	},
 	"deft_palm": {

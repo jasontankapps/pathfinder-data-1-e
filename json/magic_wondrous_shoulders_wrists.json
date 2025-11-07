@@ -3707,7 +3707,7 @@
 			"",
 			"This plain silver-and-steel bracelet grants the {magic-enh/keen} weapon special ability to any piercing or slashing weapon wielded by the wearer. Each time the wearer confirms a critical hit with such a weapon, however, she must succeed at a DC 17 Fortitude save or the bracelet severs her hand, dealing 1d6 points of {rule/Dexterity drain} and 2d6 points of {rule/bleed} damage. The style-stealing vambrace and the severed hand immediately teleport to the item's creator if he is on the same plane, or else drop to the ground if he is not.",
 			"",
-			"Once per day, a creature holding the severed hand can speak the bracelet's command word to gain access to one {main/feats_<combat/ feat} known by the previous wearer for 24 hours, as if it were a bonus feat. The creature must meet all of the usual prerequisites for the feat.",
+			"Once per day, a creature holding the severed hand can speak the bracelet's command word to gain access to one {main/combat feat} known by the previous wearer for 24 hours, as if it were a bonus feat. The creature must meet all of the usual prerequisites for the feat.",
 			"",
 			"The wearer's hand can be restored instantly with a {spell/regenerate} spell, or with a {spell/restoration} spell or {umr/regeneration} (such as that granted by a {magic-ring/ring of regeneration}) if the severed hand is held against the stump. Restoring the wearer's hand removes the Dexterity drain. The style-stealing vambrace cannot be removed from the severed hand it holds or be reused until its victim dies or the hand is reattached.",
 			"",

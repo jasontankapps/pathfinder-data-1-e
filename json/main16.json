@@ -1350,5 +1350,6 @@
 				]
 			}
 		]
-	}
+	},
+	"combat_feat": { "redirect": "feats_combat" }
 }
