@@ -1982,7 +1982,7 @@
 			"",
 			"You become more difficult to move or pass, an elusive peak your enemies cannot surmount.  ",
 			"**Prerequisites:** Wis 15, {feat/Combat Reflexes}, {feat/Improved Unarmed Strike}, {feat/Indomitable Mountain Style}, base attack bonus +6.  ",
-			"**Benefit:** Whenever an opponent succeeds at a {rule/combat maneuver>s} against you or at an {skill/Acrobatics} check to avoid provoking an attack of opportunity when moving through a square you threaten, you immediately gain a +2 morale bonus to your CMD against the next combat maneuver against you or to the DC of the next Acrobatics check to avoid an attack of opportunity when moving through a square you threaten. This bonus stacks until either attempt fails against you."
+			"**Benefit:** Whenever an opponent succeeds at a {rule/combat maneuver} against you or at an {skill/Acrobatics} check to avoid provoking an attack of opportunity when moving through a square you threaten, you immediately gain a +2 morale bonus to your CMD against the next combat maneuver against you or to the DC of the next Acrobatics check to avoid an attack of opportunity when moving through a square you threaten. This bonus stacks until either attempt fails against you."
 		]
 	},
 	"indomitable_mountain_style": {
