@@ -44,6 +44,7 @@ import {
 import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
 import { FinderContext } from '../components/contexts';
 import useDarkMode from '../components/useDarkMode';
+import { GenStrict } from '../types';
 import BasicPage from './BasicPage';
 import '../components/Bookmarks.css';
 import './Page.css';
@@ -199,7 +200,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 				{
 					text: "Save",
 					role: "confirm",
-					handler: (e: boolean | void | { [key: string]: string }) => {
+					handler: (e: boolean | void | GenStrict<string, string>) => {
 						if(e && e !== true) {
 							const title = e["0"] || base; // first input
 							dispatch(editBookmark({id, title, position}));

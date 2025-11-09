@@ -123,6 +123,7 @@ const convertLinks = (input: string[]): string => {
 };
 
 export const convertTextToLink = (input: string) => {
+	// Converts "Some link text/s>ing" to "some_link_texting"
 	return input.toLowerCase().replace(/[-_ /]/g, "_").replace(/[^0-9_a-z]/g, "");
 };
 

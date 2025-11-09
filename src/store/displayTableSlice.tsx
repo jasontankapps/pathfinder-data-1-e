@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
-import { Table } from '../types'
+import { GenStrict, Table } from '../types'
 
 interface HiddenDataObject {
 	hiddenHeaders: number[]
@@ -11,7 +11,7 @@ export interface TableDataObject extends HiddenDataObject {
 	alphabeticalSort: boolean
 }
 
-export type DisplayTableState = { [key: string]: TableDataObject };
+export type DisplayTableState = GenStrict<string, TableDataObject>;
 
 // Define the initial value for the slice state
 export const initialState: DisplayTableState = {};

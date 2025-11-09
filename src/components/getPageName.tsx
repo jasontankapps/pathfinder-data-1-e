@@ -1,9 +1,7 @@
 import index from '../json/_data__all_links.json';
+import { Gen } from '../types';
 
-interface LinkTitleObject {
-	[key: string]: string
-}
-function isObject(value: unknown): asserts value is LinkTitleObject {}
+function isObject(value: unknown): asserts value is Gen<string, string> {}
 isObject(index);
 
 const switchback = (link: string) => {

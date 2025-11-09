@@ -30,6 +30,9 @@ export type ColumnDataType = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "num" | "
 
 export type Hierarchy = [string, string];
 
+export type GenStrict<T extends string, X> = { [key in T]: X };
+export type Gen<T extends string, X> = { [key in T]?: X };
+
 interface BaseFilter {
 	col: number
 	header?: string

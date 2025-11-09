@@ -1,9 +1,9 @@
 import data from '../json/_data_rule.json';
-import { JsonRulesProps } from '../types';
+import { GenStrict, JsonRulesProps } from '../types';
 import BasicRulesPage from './BasicRulesPage';
 import './Page.css';
 
-type Basic = {[x: string]: unknown};
+type Basic = GenStrict<string, unknown>;
 interface RulesProps {
 	id: keyof Basic
 	rules: Basic

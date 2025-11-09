@@ -46,6 +46,7 @@ import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
 import { setSearchQuery, setSearchFilter, SearchIndex } from '../store/searchSlice';
 import fuseIndex from '../json/_data__fuse-index.json';
 import fuseTranslatedIndex from '../json/_data__fuse-translated_data.json';
+import { Gen } from '../types';
 import './Page.css';
 import './SearchPage.css';
 
@@ -127,9 +128,7 @@ const { data, types, prefixes, searchindex } = fuseTranslatedIndex;
 
 interface SearchResultItem {
 	index: number
-	style: {
-		[key: string]: any
-	}
+	style: Gen<string, any>
 	data: {
 		data: ParallelItem[]
 		results: FuseResult<Item>[]

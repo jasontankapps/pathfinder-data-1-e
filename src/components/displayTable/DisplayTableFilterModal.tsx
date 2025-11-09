@@ -34,7 +34,7 @@ import {
 } from 'ionicons/icons';
 import AutoSizer from 'react-virtualized-auto-sizer';
 import { FixedSizeList } from 'react-window';
-import { Filter, RawDatum, Column } from '../../types';
+import { Filter, RawDatum, Column, Gen } from '../../types';
 import { checkForEncodedLink } from '../convertLinks';
 
 type SortableCell = [RawDatum, number];
@@ -72,9 +72,7 @@ const getValue = (x: RawDatum) => {
 
 interface RowItem {
 	index: number
-	style: {
-		[key: string]: any
-	}
+	style: Gen<string, any>
 	data: {
 		rowStates: boolean[]
 		rowTitles: string[]

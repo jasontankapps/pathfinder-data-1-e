@@ -18,7 +18,7 @@ import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
 import Link from '../components/Link';
 import { FinderContext } from '../components/contexts';
-import { DisplayItemProps } from '../types';
+import { DisplayItemProps, Gen } from '../types';
 import './Page.css';
 
 interface PageProps extends Partial<DisplayItemProps> {
@@ -37,7 +37,7 @@ interface PageProps extends Partial<DisplayItemProps> {
 const opaque = { opacity: 1 };
 const unopaque = { opacity: 0 };
 
-const debounceNamespace: { [key: string]: any } = {};
+const debounceNamespace: Gen<string, any> = {};
 
 const debounce = (fn: Function, ns: string, delay: number = 500) => {
 	if (debounceNamespace[ns]) {

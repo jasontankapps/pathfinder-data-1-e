@@ -31,7 +31,11 @@
 		"description": [
 			"You can throw bombs infused with psychic trauma. This discovery allows other alchemists to duplicate the anguish bombs used by {arc-alchemist/mnemostiller/s}."
 		],
-		"addenda": [ "primarybomb" ]
+		"addenda": [ "primarybomb" ],
+		"tree": [
+			"Dread Bomb",
+			"Melancholy Bomb"
+		]
 	},
 	"dread_bomb": {
 		"name": "Dread Bomb",
@@ -69,7 +73,10 @@
 		"description": [
 			"When the alchemist creates a bomb, he can choose for it to detonate very brightly. Creatures that take a direct hit from a blinding bomb are {misc/blinded} for 1 minute unless they succeed at a Fortitude save. Creatures in the splash area that fail their saves against the bomb are {misc/dazzled} for 1 minute. This is a light effect. An alchemist must be at least 8th level before selecting this discovery."
 		],
-		"addenda": [ "primarybomb" ]
+		"addenda": [ "primarybomb" ],
+		"tree": [
+			"Sunlight bomb"
+		]
 	},
 	"sunlight_bomb": {
 		"name": "Sunlight Bomb",
@@ -179,7 +186,11 @@
 		"description": [
 			"The alchemist's bombs now have a splash radius of 10 feet rather than 5 feet. Creatures that take a direct hit from an explosive bomb catch fire, taking 1d6 points of fire damage each round until the fire is extinguished. Extinguishing the flames is a full-round action that requires a Reflex save. Rolling on the ground provides the target with a +2 to the save. Dousing the target with at least 2 gallons of water automatically extinguishes the flames."
 		],
-		"addenda": [ "primarybomb" ]
+		"addenda": [ "primarybomb" ],
+		"tree": [
+			"Hellfire Bomb",
+			"Siege Bomb"
+		]
 	},
 	"hellfire_bomb": {
 		"name": "Hellfire Bomb",
@@ -403,7 +414,15 @@
 		"description": [
 			"When the alchemist creates a bomb, he can choose to have it create a cloud of thick smoke when it detonates. The cloud functions as {spell/fog cloud}, filling an area equal to twice the bomb's splash radius for 1 round per level."
 		],
-		"addenda": [ "primarybomb" ]
+		"addenda": [ "primarybomb" ],
+		"tree": [
+			"Poison Bomb",
+			"Inferno Bomb",
+			"Plague Bomb",
+			"Greater Plague Bomb",
+			"Plague Vector",
+			"Stink Bomb"
+		]
 	},
 	"inferno_bomb": {
 		"name": "Inferno Bomb",
@@ -423,7 +442,11 @@
 		"description": [
 			"The effects of the smoke created by an alchemist's bomb duplicates the effects of {spell/contagion} instead of {spell/fog cloud}, filling an area equal to twice the bomb's splash area for 1 round per level. An alchemist must be at least 8th level and must have the {discovery/smoke bomb} discovery before selecting this discovery."
 		],
-		"addenda": [ "primarybomb" ]
+		"addenda": [ "primarybomb" ],
+		"tree": [
+			"Greater Plague Bomb",
+			"Plague Vector"
+		]
 	},
 	"greater_plague_bomb": {
 		"name": "Greater Plague Bomb",
@@ -508,7 +531,10 @@
 		"description": [
 			"({race/Drow} only) By combining the spores from strange fungi with slivers from extradimensional voids, some drow alchemists create bombs that cause bursts of gravity capable of crushing those inside. Void bombs deals 1d4 points of bludgeoning damage, plus 1d4 points of bludgeoning damage for every 2 alchemist levels beyond 1st, instead of 1d6. A creature hit by the bomb must succeed at a Reflex save against the bomb's DC. If it fails, it is knocked prone and can't get up for 1 round. If it succeeds, all of its movement speeds are reduced to 5 feet for 1 round. Other creatures within 5 feet of the bomb's target take no damage, but must succeed at a Reflex save against the bomb's DC or have all their movement speeds reduced to 5 feet for 1 round. An alchemist must be at least 6th level before selecting this discovery."
 		],
-		"addenda": [ "primarybomb" ]
+		"addenda": [ "primarybomb" ],
+		"tree": [
+			"Blackstar Bomb"
+		]
 	},
 	"blackstar_bomb": {
 		"name": "Blackstar Bomb",
@@ -527,6 +553,9 @@
 		"category": "Other Bomb Discoveries",
 		"description": [
 			"The alchemist can place a bomb so that it explodes a number of rounds after the alchemist ceases contact with the bomb. This delay can be any number of rounds as chosen by the alchemist, up to a number of rounds equal to his level. If at any point the alchemist reclaims possession of the delayed bomb, he can end the timer and prevent the bomb's detonation. A delayed bomb detonates immediately if any other creature attempts to touch or move it, or if the bomb's contents are removed from the vial (such as if the vial breaks). The bomb deals damage as if it scored a direct hit to any creature in the square with the bomb when it detonates, and splash damage to all adjacent creatures as normal. An alchemist cannot have more than one delayed bomb at one time. If he creates another delayed bomb, the previous bomb becomes inert. {spell/Dispel magic} can neutralize a delayed bomb, as can a successful Disable Device check (DC equals 10 + the alchemist's level + the alchemist's Intelligence modifier). An alchemist must be at least 8th level before selecting this discovery."
+		],
+		"tree": [
+			"Tainted Infusion"
 		]
 	},
 	"directed_bomb": {
@@ -543,6 +572,13 @@
 		"category": "Other Bomb Discoveries",
 		"description": [
 			"The alchemist can develop special pigments and combine them with his alchemical reagents to create unique dyes that cling to the empty space around him, allowing him to paint images in the air to fool his enemies. By expending two daily uses of his bombs, he can use the dyes to create an image in a space adjacent to him, as {spell/silent image}, using his alchemist level as the spell's caster level. The image he creates remains for a number of minutes equal to his alchemist level. He can dismiss this image as a standard action."
+		],
+		"tree": [
+			"Improved Divine Inks",
+			"Greater Divine Inks",
+			"Constructive Dyes",
+			"Greater Constructive Dyes",
+			"Living Pigment"
 		]
 	},
 	"improved_divine_inks": {
@@ -552,6 +588,9 @@
 		"level": 1,
 		"description": [
 			"The alchemist's unique dyes allow him to create images accompanied by sound. If he expends an additional daily use of his bombs, the image he creates with the divine inks discovery also produces minor sounds, as {spell/minor image}. The alchemist must be at least 4th level and must have the {discovery/divine inks} discovery before selecting this discovery."
+		],
+		"tree": [
+			"Greater Divine Inks"
 		]
 	},
 	"greater_divine_inks": {
@@ -570,6 +609,9 @@
 		"level": 1,
 		"description": [
 			"The alchemist's dyes congeal and solidify, allowing him to make physical objects from them. The alchemist can expend two uses of his daily bombs to create a nonmagical object, as {spell/minor creation}, using his alchemist level as the spell's caster level. The alchemist must be at least 8th level and have the {discovery/divine inks} discovery before selecting this discovery."
+		],
+		"tree": [
+			"Greater Constructive Dyes"
 		]
 	},
 	"greater_constructive_dyes": {
@@ -708,6 +750,14 @@
 		"category": "Extract Discoveries",
 		"description": [
 			"When the alchemist creates an extract, he can infuse it with an extra bit of his own magical power. The extract created now persists even after the alchemist sets it down. As long as the extract exists, it continues to occupy one of the alchemist's daily extract slots. An infused extract can be imbibed by a non-alchemist to gain its effects."
+		],
+		"tree": [
+			"Aromatic Extract",
+			"Change Alignment",
+			"Glimmering Infusion",
+			"Nostrum",
+			"Tainted Infusion",
+			"Greater Change Alignment"
 		]
 	},
 	"aromatic_extract": {
@@ -726,6 +776,9 @@
 		"level": 1,
 		"description": [
 			"Once per day as part of his preparation of infusions, the alchemist can brew an infusion that shifts the imbiber's alignment to good. This change in alignment lasts for 10 minutes per alchemist level. An unwilling creature receives a Will save to resist this change. The alchemist may have only one such infusion at any one time. The effects of this infusion may have serious repercussions for a creature suddenly struggling with a new outlook. Many see it as little more than forced insanity, and some good faiths outlaw its use. An alchemist must be at least 12th level and have the {discovery/infusion} discovery before selecting this discovery."
+		],
+		"tree": [
+			"Greater Change Alignment"
 		]
 	},
 	"glimmering_infusion": {
@@ -817,6 +870,12 @@
 		"category": "Mutagen Discoveries",
 		"description": [
 			"The alchemist gains the ability to create a cognatogen, a mutagen-like mixture that heightens one mental ability score at the expense of a physical ability score. If the cognatogen enhances his Intelligence, it applies a penalty to his Strength. If it enhances his Wisdom, it applies a penalty to his Dexterity. If it enhances his Charisma, it applies a penalty to his Constitution. Otherwise, this ability works just like the mutagen ability (including the natural armor bonus). Anytime the alchemist would prepare a mutagen, he may instead prepare a cognatogen. All limitations of mutagens apply to cognatogens as if they were the same substance - an alchemist can only maintain one mutagen or cognatogen at a time, a cognatogen that is not in an alchemist's possession becomes inert, drinking a cognatogen makes a non-alchemist sick, and so on. When the effect of the cognatogen ends, the alchemist takes 2 points of ability damage to the ability score penalized by the cognatogen. The {discovery/infuse mutagen} discovery and the persistent mutagen class ability apply to cognatogens."
+		],
+		"tree": [
+			"Intuitive Understanding",
+			"Collective Memory",
+			"Greater Cognatogen",
+			"Grand Cognatogen"
 		]
 	},
 	"collective_memory": {
@@ -835,6 +894,9 @@
 		"level": 1,
 		"description": [
 			"The alchemist's mutagen now grants a +4 natural armor bonus, a +6 alchemical bonus to one mental ability score (Intelligence, Wisdom, or Charisma), and a +4 alchemical bonus to a second mental ability score. The alchemist takes a -2 penalty on both associated physical ability scores as long as the mutagen persists, and takes 2 points of ability damage to both associated physical ability scores when the cognatogen ends. An alchemist must be at least 12th level and must have the {discovery/cognatogen} discovery or class ability before selecting this discovery."
+		],
+		"tree": [
+			"Grand Cognatogen"
 		]
 	},
 	"grand_cognatogen": {
@@ -868,6 +930,10 @@
 		"category": "Mutagen Discoveries",
 		"description": [
 			"The alchemist gains the ability to create a fey mutagen, a mixture that lends him some of the grace and power of the First World. When imbibed, a fey mutagen grants a +2 alchemical bonus to the alchemist's Dexterity and Charisma, a -2 penalty to his Strength, and DR 2/cold iron. This otherwise works like the standard mutagen class feature and interacts with other effects as though it were a mutagen."
+		],
+		"tree": [
+			"Greater Fey Mutagen",
+			"Grand Fey Mutagen"
 		]
 	},
 	"greater_fey_mutagen": {
@@ -877,6 +943,9 @@
 		"level": 1,
 		"description": [
 			"The alchemist's fey mutagen now grants a +4 alchemical bonus to Dexterity and Charisma, a -2 penalty to his Strength, DR 5/cold iron, and the druid's {ability/woodland stride} class feature. An alchemist must be at least 12th level and must have the {discovery/fey mutagen} discovery before selecting this discovery."
+		],
+		"tree": [
+			"Grand Fey Mutagen"
 		]
 	},
 	"grand_fey_mutagen": {
@@ -894,6 +963,9 @@
 		"category": "Mutagen Discoveries",
 		"description": [
 			"The alchemist's mutagen now grants a +4 natural armor bonus, a +6 alchemical bonus to one physical ability score (Strength, Dexterity, or Constitution), and a +4 alchemical bonus to a second physical ability score. The alchemist takes a -2 penalty on both associated mental ability scores as long as the mutagen persists. An alchemist must be at least 12th level before selecting this discovery."
+		],
+		"tree": [
+			"Grand Mutagen"
 		]
 	},
 	"grand_mutagen": {
@@ -903,6 +975,9 @@
 		"level": 1,
 		"description": [
 			"The alchemist's mutagen now grants a +6 natural armor bonus, a +8 alchemical bonus to one ability score (Strength, Dexterity, or Constitution), a +6 alchemical bonus to a second physical ability score, and a +4 alchemical bonus to a third physical ability score. The alchemist takes a -2 penalty to his Intelligence, Wisdom, and Charisma as long as the mutagen persists. An alchemist must be at least 16th level and must possess the {discovery/greater mutagen} discovery before selecting this discovery."
+		],
+		"tree": [
+			"True Mutagen"
 		]
 	},
 	"greater_rasugen": {
@@ -911,6 +986,9 @@
 		"category": "Mutagen Discoveries",
 		"description": [
 			"The alchemist's rasugen now grants a +4 alchemical bonus on all saving throws, 3 {rule/temporary hit points} per alchemist level, and immunity to mind-affecting effects. The alchemist takes a -4 penalty to Intelligence as long as the greater rasugen persists. An alchemist must be at least 12th level and [able to brew a rasugen](arc-alchemist/mnemostiller) before selecting this discovery."
+		],
+		"tree": [
+			"Grand Rasugen"
 		]
 	},
 	"grand_rasugen": {
@@ -940,6 +1018,10 @@
 			"As a free action, the alchemist can add 1d6 to the result of an ability or skill check (including any he takes 10 or 20 on) by expending one use of inspiration. This ability works exactly like the investigator's inspiration ability, except that the alchemist gains the pool of inspiration upon drinking the inspiring cognatogen, and any unspent inspiration is lost at the end of the cognatogen's duration. If the alchemist already has access to inspiration, the inspiration added by the inspiring cognatogen is added to his inspiration pool, but each time he expends at least one use of inspiration while this ability is active, he must succeed at a DC 20 Will saving throw or become {misc/dazed} for 1 round. He cannot use inspiration to augment this saving throw.",
 			"",
 			"All limitations of mutagens apply to an inspiring cognatogen as if they were the same substance - an alchemist can only maintain one mutagen or cognatogen (either the standard {discovery/cognatogen} or the inspired cognatogen) at a time, a cognatogen not in an alchemist's possession becomes inert, drinking a cognatogen makes non-alchemists sick, and so on. When the effect of an inspiring cognatogen ends, the alchemist takes 2 points of ability damage to Strength and Dexterity. The {discovery/infuse mutagen} discovery and the persistent mutagen class ability apply to an inspiring cognatogen."
+		],
+		"tree": [
+			"Greater Inspiring Cognatogen",
+			"Grand Inspiring Cognatogen"
 		]
 	},
 	"greater_inspiring_cognatogen": {
@@ -949,6 +1031,9 @@
 		"level": 1,
 		"description": [
 			"The alchemist's inspiring cognatogen now grants a +2 dodge bonus to AC and a +2 bonus to Reflex saving throws; a -4 penalty to Strength and Constitution; and the effects of having the {invtalent/amazing inspiration}, {invtalent/eidetic recollection}, and {invtalent/expanded inspiration} investigator talents. An alchemist must be at least 12th level and must have the {discovery/inspiring cognatogen} discovery or class feature to select this discovery."
+		],
+		"tree": [
+			"Grand Inspiring Cognatogen"
 		]
 	},
 	"grand_inspiring_cognatogen": {
@@ -1110,6 +1195,9 @@
 		"category": "Potion/Elixir Discoveries",
 		"description": [
 			"A number of times per day equal to his Intelligence modifier, the alchemist can cause any potion he drinks that does not have an instantaneous duration to function at twice its normal duration. This does not apply to extracts."
+		],
+		"tree": [
+			"Eternal Potion"
 		]
 	},
 	"eternal_potion": {
@@ -1142,6 +1230,10 @@
 		"category": "Other Discoveries",
 		"description": [
 			"The alchemist gains the ability to create a {spell/lesser simulacrum}. This works like the *lesser simulacrum* spell, except it costs 100 gp in alchemical materials per Hit Die of the simulacrum, requires 24 hours to grow, and decays into inert flesh rather than ice or snow if killed. An alchemist must be at least 8th level before selecting this discovery. The created simulacrum is a creature, not a supernatural effect."
+		],
+		"tree": [
+			"Doppelganger Simulacrum",
+			"Greater Alchemical Simulacrum"
 		]
 	},
 	"doppelganger_simulacrum": {
@@ -1176,6 +1268,9 @@
 		"category": "Other Discoveries",
 		"description": [
 			"The alchemist gains the ability to animate a relatively complete corpse as an alchemy-powered zombie. This process takes 1 hour and costs 100 gp in alchemical reagents per HD of the corpse being animated; the dead creature gains the {template/zombie/ template}. Zombies that are created in this manner count as undead created by {spell/animate dead} for the purposes of determining how many undead the alchemist can control. An alchemist must be at least 8th level before selecting this discovery. The created zombie is a creature, not a supernatural effect."
+		],
+		"tree": [
+			"Boneshard Bomb"
 		]
 	},
 	"bitter_pill": {
@@ -1256,6 +1351,9 @@
 		"category": "Other Discoveries",
 		"description": [
 			"The alchemist learns how to preserve and protect his vital organs, reducing the chance of a mortal wound. When a critical hit or sneak attack is scored on the alchemist, there is a 25% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This does not stack with similar abilities that negate critical hits and sneak attacks (such as {magic-enh/fortification} armor). An alchemist can take this discovery up to three times; the effects stack, increasing this chance to 50% and then 75%."
+		],
+		"tree": [
+			"Mummification"
 		]
 	},
 	"mummification": {
@@ -1313,6 +1411,9 @@
 		"category": "Other Discoveries",
 		"description": [
 			"The alchemist gains the ability to heal from wounds rapidly. As a free action once per round, he can heal 5 hit points as if he had the {umr/fast healing} ability. He can heal 5 hit points per day in this manner for every 2 alchemist levels he possesses. If the alchemist falls unconscious because of hit point damage and he still has healing available from this ability, the ability activates automatically each round until he is conscious again or the ability is depleted for the day."
+		],
+		"tree": [
+			"Healing Touch"
 		]
 	},
 	"healing_touch": {
@@ -1354,6 +1455,10 @@
 		"category": "Other Discoveries",
 		"description": [
 			"The alchemist gains a new arm (left or right) on his torso. The arm is fully under his control and cannot be concealed except with magic or bulky clothing. The arm does not give the alchemist any extra attacks or actions per round, though the arm can wield a weapon and make attacks as part of the alchemist's attack routine (using two-weapon fighting). The arm can manipulate or hold items as well as the alchemist's original arms (for example, allowing the alchemist to use one hand to wield a weapon, another hand to hold a potion, and the third hand to throw a bomb). The arm has its own \"hand\" and \"ring\" magic item slots (though the alchemist can still only wear two rings and two hand magic items at a time). An alchemist may take this discovery up to two times."
+		],
+		"tree": [
+			"Parasitic Twin",
+			"Subsumed Spirit"
 		]
 	},
 	"parasitic_twin": {
@@ -1363,6 +1468,9 @@
 		"level": 1,
 		"description": [
 			"The alchemist's vestigial limbs are part of a parasitic twin on his torso, consisting of a head, a torso, and two arms (from the vestigial limb discovery). Normally, the twin is mostly recessed within the alchemist's body, with the visible arms acting like the vestigial arm discovery, though the alchemist can manifest or hide the twin as a standard action. The twin is helpless, fully subservient to the alchemist, and cannot be targeted or harmed. Once per day, if the alchemist succumbs to a mental effect that would make him unconscious, helpless, or not in control of his own actions (such as {spell/charm person}, {spell/feeblemind}, or {spell/hold person}), he can reroll his saving throw; success means the twin absorbs the effect and the alchemist can ignore it. Using this ability {misc/sicken/s} the alchemist for the duration of the absorbed effect (removing the effect from the twin ends the sickened condition), and he cannot use the twin's limbs during that time, though passive effects (such as from rings worn on the vestigial limbs) continue normally. The alchemist must have selected the {discovery/vestigial arm} discovery twice before selecting this discovery."
+		],
+		"tree": [
+			"Subsumed Spirit"
 		]
 	},
 	"subsumed_spirit": {

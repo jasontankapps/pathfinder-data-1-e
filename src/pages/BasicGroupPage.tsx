@@ -1,9 +1,11 @@
 import getItem, { getGuaranteedItem, JsonDataProps } from '../components/getItem';
-import { Hierarchy } from '../types';
+import { Gen, Hierarchy } from '../types';
 import BasicPage from './BasicPage';
 
-type Basic = {[x: string]: unknown};
-type BasicPlusUnknown = {[x: string]: unknown, not_found: JsonDataProps};
+type Basic = Gen<string, unknown>;
+interface BasicPlusUnknown extends Basic {
+	not_found: JsonDataProps
+};
 export interface GroupProps {
 	id: string
 	info: Basic

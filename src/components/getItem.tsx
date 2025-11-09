@@ -8,6 +8,7 @@ export interface JsonDataProps {
 	topLink?: Hierarchy
 	noFinder?: boolean
 	addenda?: string[]
+	tree?: string[]
 	notBookmarkable?: boolean
 	className?: string
 }

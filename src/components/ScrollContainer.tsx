@@ -1,8 +1,9 @@
 import { FC, PropsWithChildren, UIEventHandler, useCallback } from "react";
 import { useAppDispatch, useAppSelector, useElement } from "../store/hooks";
 import { setPosition } from "../store/scrollSlice";
+import { Gen } from "../types";
 
-const debounceNamespace: { [key: string]: any } = {};
+const debounceNamespace: Gen<string, any> = {};
 
 type AnyFunc = () => void;
 

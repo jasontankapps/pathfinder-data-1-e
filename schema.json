@@ -128,6 +128,7 @@
 								},
 								"description": { "$ref": "#stringArray" },
 								"addenda": { "$ref": "#stringArray" },
+								"tree": { "$ref": "#uniqueArray" },
 								"topLink": { "$ref": "#link" },
 								"level": {
 									"type": "number",

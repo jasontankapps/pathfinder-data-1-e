@@ -27,6 +27,7 @@ import {
 } from '@ionic/react';
 import { BookmarkDB, BookmarkGroup, importBookmarkGroups } from '../store/bookmarksSlice';
 import { DispatchType, useAppDispatch, useAppSelector } from '../store/hooks';
+import { GenStrict } from "../types";
 import BasicPage from './BasicPage';
 import './Page.css';
 import parseImport from "./parseImport";
@@ -283,7 +284,7 @@ const BookmarksImportExportPage: FC = () => {
 		if(exportRef && exportRef.current) {
 			const newSelected = toggle(toggling, selected);
 			if(newSelected.length) {
-				const temp: {[key: string]: BG} = {};
+				const temp: GenStrict<string, BG> = {};
 				toggle(toggling, selected).forEach(id => {
 					const {hidden, ...obj} = db[id]
 					temp[id] = obj;

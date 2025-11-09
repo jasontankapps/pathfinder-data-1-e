@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 import { v7 as uuidv7 } from 'uuid';
+import { GenStrict } from '../types';
 import { Color as C, lightColors as lC, darkColors as dC } from './generated/__colors';
 
 export type Color = C;
@@ -10,7 +11,7 @@ export const darkColors = dC;
 
 export const colorNames = Object.keys(lightColors) as Color[];
 
-const hexToColor: {[key: string]: Color} = {};
+const hexToColor: GenStrict<string, Color> = {};
 colorNames.forEach(color => {
 	hexToColor[lightColors[color]] = color;
 	hexToColor[darkColors[color]] = color;
@@ -20,7 +21,7 @@ export const getColor = (input: unknown): Color => {
 	return hexToColor[input as string] || "red";
 }
 
-export type Catalog = { [key: string]: string[] }
+export type Catalog = GenStrict<string, string[]>;
 
 type Link = string;
 type Title = string;
@@ -38,7 +39,7 @@ export interface BookmarkGroup {
 	hidden: boolean
 }
 
-export type BookmarkDB = { [key: string]: BookmarkGroup }
+export type BookmarkDB = GenStrict<string, BookmarkGroup>;
 
 export interface BookmarkState {
 	// "link/url" : [ "id of bookmark group", ... ]

@@ -674,7 +674,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 };
 
 const createItem = (info, prop) => {
-	const { title, description, parent_topics, siblings, subtopics, topLink, noFinder, addenda, disambiguation, className } = info;
+	const { title, description, parent_topics, siblings, subtopics, topLink, noFinder, addenda, tree, disambiguation, className } = info;
 	let output = `const _${prop} = {title: "${title}"`;
 	parent_topics && (output = output + `, parent_topics: ${JSON.stringify(parent_topics)}`);
 	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
@@ -682,6 +682,7 @@ const createItem = (info, prop) => {
 	topLink && (output = output + `, topLink: ${JSON.stringify(topLink)}`);
 	noFinder && (output = output + ", noFinder: true");
 	addenda && (output = output + `, addenda: ${JSON.stringify(addenda)}`);
+	tree && (output = output + `, tree: ${JSON.stringify(tree)}`);
 	className && (output = output + `, className: "${className}"`);
 	disambiguation && (output = output + `, notBookmarkable: true`);
 	output = output + `, jsx: ${description}};`;
@@ -858,7 +859,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 			tables, topLink, parent_topics,
 			subtopics, siblings, noFinder, className,
 			nameSuffix, compilationSources, redirect,
-			compileFrom, addenda, disambiguation
+			compileFrom, addenda, disambiguation, tree
 		} = base;
 		// Convert entities in tables
 		tables && entities_in_tables.forEach(([matcher, replacer, codepoint]) => {
@@ -898,6 +899,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 					info.title = n;
 					info.topLink = topLink;
 					info.addenda = addenda;
+					info.tree = tree;
 					converted = convertCompileableDescription(
 						temporaryFlags,
 						template,

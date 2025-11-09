@@ -1,5 +1,6 @@
 import { ReactNode, lazy } from 'react';
 import { useParams } from 'wouter';
+import { GenStrict } from '../types';
 import './Page.css';
 
 export interface ArchetypeProps {
@@ -42,7 +43,7 @@ const pages: ((x: ArchGroupPageProps) => ReactNode)[] = [
 	({id, parent, classTitle}) => <ArchetypeGroup14Page id={id} parent={parent} classTitle={classTitle} />
 ];
 
-const classes: { [key: string]: [number, string] } = {
+const classes: GenStrict<string, [number, string]> = {
 	monk: [1, "Monk"],
 	samurai: [1, "Samurai"],
 

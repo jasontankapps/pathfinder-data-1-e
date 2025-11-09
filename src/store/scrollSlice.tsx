@@ -1,9 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
+import { Gen } from '../types'
 
-export interface ScrollState {
-	[key: string]: number
-}
+export type ScrollState = Gen<string, number>;
 
 interface Updater {
 	id: string

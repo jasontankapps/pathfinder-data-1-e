@@ -1,4 +1,3 @@
-import { ReactElement } from 'react';
 import { useParams } from 'wouter';
 import getItem from '../components/getItem';
 import talent from './subpages/__talent';
@@ -8,7 +7,8 @@ import deed from './subpages/__deed';
 import swashdeed from './subpages/__swashdeed';
 import hkdiscipline from './subpages/__hkdiscipline';
 import rangertrap from './subpages/__rangertrap';
-import BasicPage from './BasicPage';
+import BasicTalentPage from './BasicTalentPage';
+import { Gen, GenStrict } from '../types';
 import './Page.css';
 
 const allTalents = {
@@ -23,7 +23,7 @@ const allTalents = {
 
 type Talent = keyof typeof allTalents;
 
-const info: { [key in Talent]: [string, string] } = {
+const info: GenStrict<Talent, [string, string]> = {
 	"talent": [ "Rogue Talent", "ability/rogue_talents" ],
 	"slayertalent": [ "Slayer Talents", "ability/slayer_talents" ],
 	"phrenicamp": [ "Phrenic Amplifications", "ability/phrenic_amplifications" ],
@@ -32,45 +32,34 @@ const info: { [key in Talent]: [string, string] } = {
 	"swashdeed": [ "Swashbuckler Deeds", "ability/swashbuckler_deeds" ],
 	"hkdiscipline": [ "Hellknight Disciplines", "ability/hellknight_disciplines" ],
 };
-
-const addendaObj: { [key: string]: string } = {
+const things: Gen<Talent, string> = {};
+const addendaObj: GenStrict<string, string> = {
 	sneakattack: "This type of talent adds effects to a rogue's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
 	slayersneak: "This type of talent adds effects to a slayer's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made."
 };
 
-const getAddenda = (input: string[], jsx: ReactElement, id: string) => {
-	const found: ReactElement[] = [];
-	input.forEach(bit => {
-		if(addendaObj[bit]) {
-			found.push(<aside key={`${id}-addenda:${bit}`}><p><em>{addendaObj[bit]}</em></p></aside>);
-		}
-	});
-	if(found.length >= 1) {
-		return <>{jsx}{found}</>;
-	}
-	return jsx;
-};
-
 const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
-
 	const data = allTalents[prefix];
 
 	type Data = typeof data;
 	type Params = { id?: keyof Data };
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
+	const { hasJL, title, jsx, topLink, addenda, notBookmarkable, tree } = getItem<Data>(id, data);
 
-	const { hasJL, title, jsx, topLink, addenda, notBookmarkable } = getItem<Data>(id, data);
-
-	const output = addenda ? getAddenda(addenda, jsx, id || "not_found") : jsx;
-
-	return <BasicPage
+	return <BasicTalentPage
+		id={id}
 		hasJL={hasJL}
 		title={title}
-		pageId={`/${prefix}/${id}`}
-		topLink={topLink || info[prefix]}
+		prefix={prefix}
+		topLink={topLink}
+		topLinkInfo={info}
 		notBookmarkable={notBookmarkable}
-	>{output}</BasicPage>;
+		tree={tree}
+		things={things}
+		addenda={addenda}
+		addendaObj={addendaObj}
+	>{jsx}</BasicTalentPage>;
 };
 
 export default TalentPage;
