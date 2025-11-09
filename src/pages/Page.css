@@ -673,9 +673,15 @@ div.sideNoteWrap.singular table tr th:first-child {
 }
 div.sideNoteWrap table tr:first-of-type th[rowSpan]:first-child ion-icon {
 	font-size: 1.5rem;
+	line-height: 1rem;
 }
 div.sideNoteWrap.singular table tr th:first-child ion-icon {
 	font-size: 2rem;
+	line-height: 1rem;
+}
+div.sideNoteWrap table tr:first-of-type th[rowSpan]:first-child,
+div.sideNoteWrap.singular table tr th:first-child {
+	line-height: 0.5rem;
 }
 div.sideNoteWrap table tr:first-of-type > *:last-child {
 	border-start-end-radius: 1.5em;
@@ -702,6 +708,23 @@ div.sideNoteWrap.optional table tbody tr th.thLink ion-icon {
 }
 div.sideNoteWrap table tbody tr th.thLink {
 	cursor: pointer;
+}
+div.sideNoteWrap.delist table ul {
+	margin-block: 0;
+	padding-inline-start: 0;
+	list-style-type: none;
+}
+div.sideNoteWrap.delist table ul li {
+	font-size: 0.875rem;
+	line-height: 1rem;
+}
+div.sideNoteWrap.delist table ul li + li {
+	margin-block-start: 0.25rem;
+}
+div.compilation div.sideNoteWrap table,
+div.compilation div.sideNoteWrap table th,
+div.compilation div.sideNoteWrap table td {
+	border-radius: 0 !important;
 }
 
 ion-content.noStamina div.sideNoteWrap.stamina,

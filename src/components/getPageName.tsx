@@ -11,6 +11,8 @@ const switchback = (link: string) => {
 			return "Main";
 		case "about":
 			return "About";
+		case "prereqs":
+			return "Prerequisites";
 		case "settings":
 			return "Settings";
 		case "search":

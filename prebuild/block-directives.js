@@ -9,6 +9,7 @@ import makeMonsterDefenseBlock from './block/mdefense.js';
 import { makeMonsterFootnoteBlock, makeMonsterOffenseBlock, makeMonsterSpellBlock } from './block/moffense.js';
 import makeMonsterStatisticsBlock from './block/mstats.js';
 import makeMonsterEcologyBlock from './block/meco.js';
+import makePrerequisiteBlock from './block/prereq.js';
 
 const churn = (n, attrs, list, logError) => {
 	const found = [];
@@ -181,6 +182,14 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					return `${maybeClear}<${t} id="${id}" data-hash-target>${inner}</${t}>\n`;
 				}
 				return `${maybeClear}<${t}>${inner}</${t}>`;
+			} else if (n === "prereq") {
+				churn(n, attrs, [
+					"clear","l","c","r",
+					"g1","g1info",
+					"other","sep"
+				], logError);
+				const marked2 = makeNewMarkedInstance();
+				return makePrerequisiteBlock(marked2, flags, maybeClear, attrs, linker);
 			} else if (n === "aff") {
 				// Affliction
 				churn(n, attrs, [
