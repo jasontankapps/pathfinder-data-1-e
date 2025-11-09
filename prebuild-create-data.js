@@ -923,7 +923,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 					if(d) {
 						converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables);
 					} else if (compileFrom) {
-						converted = compile(compileFrom, `${link}-${prop}-`, temporaryFlags);
+						converted = compile(compileFrom, `${link}-${prop}-`, temporaryFlags, `div className="compilation"`, "div");
 					} else {
 						logError(`ERROR: ${link}/${prop} does not have a description or a compileFrom property.`);
 						converted = [ "ERROR: This entry has no description.", {} ];

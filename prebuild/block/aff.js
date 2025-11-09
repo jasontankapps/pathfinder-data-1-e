@@ -123,7 +123,7 @@ const makeAfflictionBlock = (marked2, flags, linker, maybeClear, text, attrs, lo
 	let rows = 2;
 	const output = [
 		`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
-		`<table className="noWrap"><tbody>`
+		`<table><tbody>`
 	];
 	//
 	// ADD A TITLE LINE IF NEEDED

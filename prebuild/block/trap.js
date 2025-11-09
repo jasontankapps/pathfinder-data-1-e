@@ -11,7 +11,7 @@ const makeTrapBlock = (marked2, flags, linker, id, maybeClear, text, attrs, logE
 	//
 	const output = [
 		`${maybeClear}<div className="sideNoteWrap${start ? " startAlign" : ""}">`,
-		`<table className="noWrap"><tbody>`
+		`<table><tbody>`
 	];
 	//
 	// ADD A TITLE LINE IF NEEDED
