@@ -360,7 +360,7 @@
 			"",
 			"**Replacement Power:** The following granted power replaces the aura of madness power of the Madness domain.",
 			"",
-			">**Dawning Realization (Su):** At 8th level, you can impart a shared vision of unfathomable ineffability to a living creature you touch as a standard action, after which your turn immediately ends. You are {misc/dazed} and the target {misc/confused} for 1 round by what you both learn. On the following round, you are both {misc/staggered} for 1 round by the ramifications of your discovery. On the third round, you are confused and the target dazed for 1 round as you attempt to regain your bearings. Each round, the target can attempt a Will save with a DC equal to 10 + 1/2 your cleric level + your Wisdom modifier to negate that round's effects for both of you, though the effect does not end until the end of the third round. This is a mind-affecting effect that you can use a number of times per day equal to 1/2 your class level.",
+			">**Dawning Realization (Su):** At 8th level, you can impart a shared vision of unfathomable ineffability to a living creature you touch as a standard action, after which your turn immediately ends. You are {misc/dazed} and the target {misc/confused} for 1 round by what you both learn. On the following round, you are both {misc/staggered} for 1 round by the ramifications of your discovery. On the third round, you are confused and the target dazed for 1 round as you attempt to regain your bearings. Each round, the target can attempt a Will save with a DC equal to 10 + 1/2 your cleric level + your Wisdom modifier to negate that round's effects for both of you, though the effect does not end until the end of the third round. This is a mind-affecting effect that you can use a number of times per day equal to half your class level.",
 			"",
 			"**Replacement Domain Spells:** 3rd-{spell/wall of nausea}, 5th-{spell/contact other plane}, 6th-{spell/litany of madness}."
 		]
@@ -1305,7 +1305,7 @@
 			"",
 			"**Part the Veil (Su):** At 8th level, you can lace spells you cast with the raw madness that waits in the outer darkness. Activating this ability is a swift action that you must use as you cast a spell that targets a single creature and that allows a Will saving throw to negate or reduce the spell's primary effect. If the target fails to resist the spell, the target is also {misc/confused} for a number of rounds equal to the spell's level as visions of the void cause temporary insanity.",
 			"",
-			"The victim must succeed at a new saving throw each round to end the effect; these additional saving throws apply only to the additional confusion effect and not to the original spell effect. Part the veil is a mind-affecting effect. You can use this ability a number of times per day equal to 1/2 your class level.",
+			"The victim must succeed at a new saving throw each round to end the effect; these additional saving throws apply only to the additional confusion effect and not to the original spell effect. Part the veil is a mind-affecting effect. You can use this ability a number of times per day equal to half your class level.",
 			"",
 			"**Domain Spells:** 1st-{spell/feather fall}, 2nd-{spell/levitate}, 3rd-{spell/fly}, 4th-{spell/lesser planar binding}, 5th-{spell/overland flight}, 6th-{spell/planar binding}, 7th-{spell/reverse gravity}, 8th-{spell/greater planar binding}, 9th-{spell/interplanetary teleport}.",
 			"",

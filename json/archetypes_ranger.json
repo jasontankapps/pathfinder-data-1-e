@@ -950,7 +950,7 @@
 			"{SOURCE Blood of the Beast/9}  ",
 			"In dense jungles, foliage and tight spaces hinder all but the most deceptively humble weapons: {eq-weapon/blowgun/s} and poison.",
 			"",
-			"**Debilitating Venom (Ex):** A poison darter can concoct potent toxins that he can apply to his weapons. He can use this ability a number of times per day equal to 1/2 his ranger level + his Wisdom modifier; if he has the [toxic skin alternate racial trait](race/grippli), he can expend a daily use of that poison to employ his debilitating venom ability an additional time. The debilitating venom functions only for the poison darter and becomes inert if not used within 1 hour. Creating a debilitating venom is a standard action, and it can be applied to a weapon as a move action.",
+			"**Debilitating Venom (Ex):** A poison darter can concoct potent toxins that he can apply to his weapons. He can use this ability a number of times per day equal to half his ranger level + his Wisdom modifier; if he has the [toxic skin alternate racial trait](race/grippli), he can expend a daily use of that poison to employ his debilitating venom ability an additional time. The debilitating venom functions only for the poison darter and becomes inert if not used within 1 hour. Creating a debilitating venom is a standard action, and it can be applied to a weapon as a move action.",
 			"",
 			"::aff[Debilitating Venom]{iconP type=injury dcF dcLev=\"the poison darter\" dcIt=his dcMod=Wis freqR=4 effDex=\"1d3\" cure1}",
 			"",

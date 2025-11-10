@@ -34,7 +34,7 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 					if(tag === "ripple") {
 						return `<Link to="/${link}">${text}<IonRippleEffect /></Link>`;
 					}
-					// hll
+					// hll - highlighted link
 					const id = maybeJL(attrs, text);
 					return `<strong className="hl"${id ? ` id="${id}" data-hash-target` : ""}><Link to="/${link}">${text}</Link></strong>`
 				}
@@ -48,10 +48,12 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				const marked2 = makeNewMarkedInstance();
 				return marked2.parseInline(text);
 			} else if (tag === "hl" || tag === "HL") {
+				// Highlight
 				const marked2 = makeNewMarkedInstance();
 				const id = maybeJL(attrs, text);
 				return `<strong className="hl"${id ? ` id="${id}" data-hash-target` : ""}>${marked2.parseInline(text)}</strong>`;
 			} else if (tag === "FN") {
+				// Fake footnotes
 				const { from } = attrs;
 				flags.innerlink = true;
 				if(from) {
@@ -67,6 +69,7 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 			switch(tag) {
 				case "primary":
 				case "alternate":
+					// This should be ignored in this context
 					return "";
 				case "b":
 					tag = "strong";
@@ -81,6 +84,7 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				default:
 					return false;
 			}
+			// We are either strong, em, or span
 			const marked2 = makeNewMarkedInstance();
 			const id = prefix + (attrs.id || text.replace(/ +/g, "-").toLowerCase().replace(/[^-a-z0-9]/g, ""));
 			// implicit jumplist
