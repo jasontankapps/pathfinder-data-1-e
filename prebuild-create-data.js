@@ -101,6 +101,7 @@ const removeCurlyBrackets = (input, inlineText) => {
 // Globally available variables and functions
 const $ = {
 	flags: {},
+	temp: {},
 	prefix: "",
 	current: "",
 	errorCount: 0,

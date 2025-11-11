@@ -10,6 +10,8 @@ import { makeMonsterFootnoteBlock, makeMonsterOffenseBlock, makeMonsterSpellBloc
 import makeMonsterStatisticsBlock from './block/mstats.js';
 import makeMonsterEcologyBlock from './block/meco.js';
 import makePrerequisiteBlock from './block/prereq.js';
+import makeAbilityBlock from './block/ab.js';
+import makeSpellListBlock from './block/spelllist.js';
 
 const churn = (n, attrs, list, logError) => {
 	const found = [];
@@ -42,7 +44,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 		level: "block",
 		marker,
 		renderer: (token) => {
-			const {prefix, flags, addToJumpList, logError, makeNewMarkedInstance, removeCurlyBrackets, parseSOURCE} = $;
+			const {prefix, flags, temp, addToJumpList, logError, makeNewMarkedInstance, removeCurlyBrackets, parseSOURCE} = $;
 			const {text, attrs = {}, meta} = token;
 			const n = meta.name || "";
 			const maybeClear = attrs.clear ? `<div style={{clear:"both"}}></div>` : "";
@@ -375,6 +377,33 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					+ `<p>${removeCurlyBrackets(marked2.parseInline(convertEncodedInfo(e)), true)}</p>`
 					+ `</div>\n`
 				);
+			} else if (n === "ab") {
+				churn(n, attrs, [
+					"clear", "id", "icon",
+					"l", "levels",
+					"standard", "swift",
+					"usage", "useNC"
+				], logError);
+				flags.icon = true;
+				flags.link = true;
+				const marked2 = makeNewMarkedInstance();
+				return makeAbilityBlock({
+					marked2, prefix, text,
+					convertEncodedInfo, maybeClear,
+					attrs, logError
+				});
+			} else if (n === "spelllist") {
+				churn(n, attrs, [
+					"clear", "all", "all0", "save", "from",
+					"l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8", "l9", "l0"
+				], logError);
+				flags.icon = true;
+				flags.link = true;
+				const marked2 = makeNewMarkedInstance();
+				return makeSpellListBlock({
+					marked2, text, convertEncodedInfo,
+					maybeClear, attrs, temp
+				});
 			}
 			return false;
 		}

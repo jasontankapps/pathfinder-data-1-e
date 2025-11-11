@@ -5,6 +5,11 @@ ion-content{
 	scroll-margin-block-end: 80px;
 }
 
+p,
+div.p {
+	margin-block: 1rem;
+}
+
 ion-toast {
 	--width: max-content;
 	--max-width: 95vw;
@@ -253,7 +258,7 @@ ion-list ion-item-divider {
 	--color: var(--faded-text);
 	font-weight: bold;
 	font-size: 1rem;
-	border-bottom-width: 0.1875rem;
+	border-block-end-width: 0.1875rem;
 }
 
 /* Optional Headers */
@@ -968,4 +973,76 @@ ion-item-divider[id].highlight a,
 ion-item-divider[id].highlight ion-label {
 	color: var(--ion-color-success-contrast) !important;
 	transition: color 0.25s ease-out 0s !important;
+}
+
+/* Basic Tables */
+
+table.basic {
+	border-width: var(--full-width);
+	border-collapse: collapse !important;
+	margin: 1rem auto;
+}
+table.basic tr th,
+table.basic tr td {
+	border-width: var(--full-width) !important;
+}
+
+/* Ability Boxes */
+
+div.ability {
+	background: var(--table-bg);
+	margin-inline: 0.25rem;
+	display: grid;
+	grid-template-columns: 2.5rem 1fr 3fr;
+	grid-auto-rows: min-content;
+	justify-content: center;
+	border-radius: 0.75rem;
+}
+div.abIcon {
+	grid-column: 1;
+	grid-row: 1 / span 20;
+	place-self: center;
+	font-size: 2rem;
+	padding: 0.25rem;
+}
+div.abSingle {
+	grid-column: 2 / span 2;
+	align-self: stretch;
+	justify-self: stretch;
+	padding-inline: 0.25rem;
+	border-style: solid;
+	border-color: var(--table-border-color);
+	border-width: 0;
+	border-block-end-width: 2px;
+}
+div.abSingle.title {
+	font-weight: bold;
+	text-align: center;
+	border-inline-start-width: 2px;
+}
+div.abPair {
+	display: contents;
+}
+div.abStart,
+div.abEnd {
+	border-style: solid;
+	border-color: var(--table-border-color);
+	border-width: 0;
+	border-block-end-width: 2px;
+	border-inline-start-width: 2px;
+	grid-column: 3;
+	justify-self: stretch;
+	text-align: start;
+	padding-inline: 0.5rem;
+	align-self: stretch;
+}
+div.abStart {
+	font-weight: bold;
+	grid-column: 2;
+	text-align: end;
+}
+div.abSingle:last-child,
+div.abPair:last-child .abStart,
+div.abPair:last-child div.abEnd {
+	border-block-end-width: 0;
 }
