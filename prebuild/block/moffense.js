@@ -3,7 +3,7 @@ import { convertTextToLink } from "../tests/checkForEncodedLink.js";
 
 const linkify = (spell) => convertTextToLink(spell.replace(/#[A-Z0-9]/g, ""));
 
-export const makeMonsterOffenseBlock = (marked2, linker, maybeClear, attrs, logError) => {
+export const makeMonsterOffenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs, logError) => {
 	const {
 		sp, spP, br, brP, cl, clP, sw, swP,
 		fl, flP, clumsy, poor, average, good, perfect,
@@ -22,7 +22,7 @@ export const makeMonsterOffenseBlock = (marked2, linker, maybeClear, attrs, logE
 		next
 	} = attrs;
 	const output = [];
-	const doParse = (input) => marked2.parseInline(linker(input));
+	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
 	//
 	// SPEED LINE
 	//
@@ -230,7 +230,7 @@ export const makeMonsterOffenseBlock = (marked2, linker, maybeClear, attrs, logE
 	return `${maybeClear}<p className="statblockSubHeader">Offense</p>\n<p${next ? ' className="no-bottom-margin"' : ""}>${output.join("<br>")}</p>`;
 };
 
-export const makeMonsterSpellBlock = (marked2, linker, maybeClear, attrs, logError) => {
+export const makeMonsterSpellBlock = (marked2, convertEncodedInfo, maybeClear, attrs, logError) => {
 	const {
 		cl, con,
 		sla, atWill, constant, day, hour, week, month, year, other,
@@ -241,7 +241,7 @@ export const makeMonsterSpellBlock = (marked2, linker, maybeClear, attrs, logErr
 		next
 	} = attrs;
 	const output = [];
-	const doParse = (input) => marked2.parseInline(linker(input));
+	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
 	const CL = `${cl}${cl === 1 ? "st" : (cl === 2 ? "nd" : (cl === 3 ? "rd" : "th"))}`;
 	const parseSpells = (input) => {
 		const all = input.split(/~/);
@@ -396,12 +396,12 @@ export const makeMonsterSpellBlock = (marked2, linker, maybeClear, attrs, logErr
 	return `${maybeClear}<p className="no-top-margin${next ? ' no-bottom-margin' : ""}">${output.join("<br>")}</p>`;
 };
 
-export const makeMonsterFootnoteBlock = (marked2, linker, text) => {
+export const makeMonsterFootnoteBlock = (marked2, convertEncodedInfo, text) => {
 	const all = text.split(/\|/);
 	const output = [];
 	all.forEach(line => {
 		const [id, text = ""] = line.split(/~/);
-		output.push(`<sup><strong>${id}</strong></sup> ` + marked2.parseInline(linker(text)));
+		output.push(`<sup><strong>${id}</strong></sup> ` + marked2.parseInline(convertEncodedInfo(text)));
 	});
 	return `<blockquote className="no-top-margin">${output.join("<br>")}</blockquote>`;
 };

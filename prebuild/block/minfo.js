@@ -1,4 +1,4 @@
-const makeMonsterInfoBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, text, logError) => {
+const makeMonsterInfoBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, text, logError) => {
 	const {
 		source, xp, al, lg, ln, le, ng, n, ne, cg, cn, ce,
 		fine, diminutive, tiny, small, medium, large, huge, gargantuan, colossal,
@@ -10,7 +10,7 @@ const makeMonsterInfoBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, t
 		aura
 	} = attrs;
 	const output = [];
-	const doParse = (input) => marked2.parseInline(linker(input));
+	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
 	if(source) {
 		output.push(marked2.parseInline(parseSOURCE(source, true)));
 	}

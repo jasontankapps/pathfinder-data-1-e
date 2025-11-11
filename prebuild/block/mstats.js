@@ -3,7 +3,7 @@ import { getCleanText, convertSpecialTextToLink } from "../tests/checkForEncoded
 
 const linkify = (thing) => convertSpecialTextToLink(thing.replace(/#[A-Z]/g, ""));
 
-export const makeMonsterStatisticsBlock = (marked2, linker, maybeClear, attrs, logError) => {
+export const makeMonsterStatisticsBlock = (marked2, convertEncodedInfo, maybeClear, attrs, logError) => {
 	const {
 		str, dex, con, int, wis, cha,
 		bab, cmb, cmd,
@@ -13,7 +13,7 @@ export const makeMonsterStatisticsBlock = (marked2, linker, maybeClear, attrs, l
 	} = attrs;
 	const output = [];
 	const doParse = (input) => marked2
-		.parseInline(linker(input))
+		.parseInline(convertEncodedInfo(input))
 		.replace(/((?:#(?:[A-Z]))+)<[/]Link>/g, "</Link>$1")
 		.replace(/#([A-Z])/g, "<sup>$1</sup>")
 		.replace(/<[/]em>, <em>/g, ", ");

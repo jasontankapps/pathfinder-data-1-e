@@ -1,4 +1,4 @@
-const makeSpellBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, logError) => {
+const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, logError) => {
 	const {
 		source, school,
 		abjuration, conjuration, divination, enchantment, evocation,
@@ -26,7 +26,7 @@ const makeSpellBlock = (marked2, parseSOURCE, linker, maybeClear, attrs, logErro
 		harmless, object
 	} = attrs;
 	const output = [];
-	const doParse = (input) => marked2.parseInline(linker(input));
+	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
 	if(source) {
 		output.push(marked2.parseInline(parseSOURCE(source, true)));
 	}

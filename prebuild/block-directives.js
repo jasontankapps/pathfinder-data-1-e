@@ -23,7 +23,7 @@ const churn = (n, attrs, list, logError) => {
 		logError("\n" + found.map(([key, value]) => `--> ::${n}{${key}=${JSON.stringify(value)}}`).join("\n"));
 	}
 };
-const linker = (input) => {
+const convertEncodedInfo = (input) => {
 	let m;
 	let test = input;
 	let output = "";
@@ -189,7 +189,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"other","sep"
 				], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makePrerequisiteBlock(marked2, flags, maybeClear, attrs, linker);
+				return makePrerequisiteBlock(marked2, flags, maybeClear, attrs, convertEncodedInfo);
 			} else if (n === "aff") {
 				// Affliction
 				churn(n, attrs, [
@@ -213,7 +213,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"extra","start","nolink"
 				], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeAfflictionBlock(marked2, flags, linker, maybeClear, text, attrs, logError);
+				return makeAfflictionBlock(marked2, flags, convertEncodedInfo, maybeClear, text, attrs, logError);
 			} else if (n === "drug") {
 				// Drug
 				churn(n, attrs, [
@@ -225,7 +225,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], logError);
 				const marked2 = makeNewMarkedInstance();
 				const id = prefix + linkify(text + "-haunt");
-				return makeDrugBlock(marked2, flags, linker, id, maybeClear, text, attrs, logError);
+				return makeDrugBlock(marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError);
 			} else if (n === "trap") {
 				// Trap
 				churn(n, attrs, [
@@ -236,7 +236,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], logError);
 				const marked2 = makeNewMarkedInstance();
 				const id = prefix + linkify(text + "-haunt");
-				return makeTrapBlock(marked2, flags, linker, id, maybeClear, text, attrs, logError);
+				return makeTrapBlock(marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError);
 			} else if (n === "haunt") {
 				// Haunt
 				churn(n, attrs, [
@@ -245,7 +245,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], logError);
 				const marked2 = makeNewMarkedInstance();
 				const id = prefix + linkify(text + "-haunt");
-				return makeHauntBlock(marked2, flags, linker, id, maybeClear, text, attrs, logError);
+				return makeHauntBlock(marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError);
 			} else if (n === "spell") {
 				// Spell
 				churn(n, attrs, [
@@ -276,7 +276,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"harmless", "object"
 				], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeSpellBlock(marked2, parseSOURCE, linker, maybeClear, attrs, logError);
+				return makeSpellBlock(marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "spelldeitynote") {
 				const marked2 = makeNewMarkedInstance();
 				return (
@@ -294,7 +294,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"aura"
 				], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterInfoBlock(marked2, parseSOURCE, linker, maybeClear, attrs, text, logError);
+				return makeMonsterInfoBlock(marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, text, logError);
 			} else if (n === "mdefense") {
 				churn(n, attrs, [
 					"clear", "ac", "mod",
@@ -308,7 +308,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"weak", "vulner"
 				], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterDefenseBlock(marked2, linker, maybeClear, attrs, logError);
+				return makeMonsterDefenseBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "moffense") {
 				churn(n, attrs, [
 					"clear", "sp", "spP", "br", "brP", "cl", "clP", "sw", "swP",
@@ -328,7 +328,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"next"
 				], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterOffenseBlock(marked2, linker, maybeClear, attrs, logError);
+				return makeMonsterOffenseBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "mspell") {
 				churn(n, attrs, [
 					"clear", "cl", "con",
@@ -340,11 +340,11 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"next"
 				], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterSpellBlock(marked2, linker, maybeClear, attrs, logError);
+				return makeMonsterSpellBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "mfn") {
 				churn(n, attrs, ["clear"], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterFootnoteBlock(marked2, linker, text);
+				return makeMonsterFootnoteBlock(marked2, convertEncodedInfo, text);
 			} else if (n === "mstats") {
 				churn(n, attrs, [
 					"clear", "str", "dex", "con", "int", "wis", "cha",
@@ -354,11 +354,11 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"faith", "next"
 				], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterStatisticsBlock(marked2, linker, maybeClear, attrs, logError);
+				return makeMonsterStatisticsBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "meco") {
 				churn(n, attrs, [ "clear", "env", "org", "treasure" ], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeMonsterEcologyBlock(marked2, linker, maybeClear, attrs, logError);
+				return makeMonsterEcologyBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "archetype") {
 				// Archetype
 				churn(n, attrs, ["clear", "c", "r", "e"], logError);
@@ -372,7 +372,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					`<div className="archetype">`
 					+ `<p><Link to="/arc-${c}/${link}">${text}</Link></p>`
 					+ `<p><strong>Modifies or Replaces:</strong> ${removeCurlyBrackets(marked2.parseInline(r), true)}</p>`
-					+ `<p>${removeCurlyBrackets(marked2.parseInline(linker(e)), true)}</p>`
+					+ `<p>${removeCurlyBrackets(marked2.parseInline(convertEncodedInfo(e)), true)}</p>`
 					+ `</div>\n`
 				);
 			}

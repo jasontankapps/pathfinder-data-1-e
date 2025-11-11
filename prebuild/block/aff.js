@@ -33,7 +33,7 @@ const convertIniSec = (attrs, prefix) => {
 	});
 	return flag && out;
 };
-const constructEffect = (attrs, linker) => {
+const constructEffect = (attrs, convertEncodedInfo) => {
 	const {
 		effStr, effStrD, effDex, effDexD, effCon, effConD,
 		effInt, effIntD, effWis, effWisD, effCha, effChaD,
@@ -95,7 +95,7 @@ const constructEffect = (attrs, linker) => {
 	}
 	const last = output.pop();
 	if(output.length) {
-		return linker(output.join(", ") + (
+		return convertEncodedInfo(output.join(", ") + (
 			output.length > 2 ? "," : ""
 		) + (
 			effOr ? (
@@ -103,10 +103,10 @@ const constructEffect = (attrs, linker) => {
 			) : " and "
 		) + last);
 	}
-	return linker(last);
+	return convertEncodedInfo(last);
 };
 
-const makeAfflictionBlock = (marked2, flags, linker, maybeClear, text, attrs, logError) => {
+const makeAfflictionBlock = (marked2, flags, convertEncodedInfo, maybeClear, text, attrs, logError) => {
 	const {
 		iconP, iconI, iconC, iconD, iconA,
 		poison, curse, infest, disease,
@@ -203,7 +203,7 @@ const makeAfflictionBlock = (marked2, flags, linker, maybeClear, text, attrs, lo
 				`<td colSpan={3}>${frequency}</td>`,
 				"</tr><tr>",
 				`<th scope="row">Track</th>`,
-				`<td colSpan={3}>${marked2.parseInline(linker(track))}</td>`,
+				`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(track))}</td>`,
 				"</tr><tr>"
 			);
 		} else if (track) {
@@ -213,7 +213,7 @@ const makeAfflictionBlock = (marked2, flags, linker, maybeClear, text, attrs, lo
 				`<td colSpan={3}>${frequency}</td>`,
 				"</tr><tr>",
 				`<th scope="row">Track</th>`,
-				`<td colSpan={3}>${marked2.parseInline(linker(track))}</td>`,
+				`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(track))}</td>`,
 				"</tr><tr>"
 			);
 		} else {
@@ -231,7 +231,7 @@ const makeAfflictionBlock = (marked2, flags, linker, maybeClear, text, attrs, lo
 			rows++;
 			output.push(
 				`<th scope="row">Track</th>`,
-				`<td colSpan={3}>${marked2.parseInline(linker(trackmod))}</td>`,
+				`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(trackmod))}</td>`,
 				"</tr><tr>"
 			);
 		}
@@ -244,7 +244,7 @@ const makeAfflictionBlock = (marked2, flags, linker, maybeClear, text, attrs, lo
 			// BASIC EFFECT TEXT
 			output.push(
 				`<th scope="row">Effect</th>`,
-				`<td colSpan={3}>${marked2.parseInline(linker(eff))}</td>`
+				`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(eff))}</td>`
 			);
 			if(ineff || seceff) {
 				logError(`---> ineff/seceff used when eff present`)
@@ -254,10 +254,10 @@ const makeAfflictionBlock = (marked2, flags, linker, maybeClear, text, attrs, lo
 			// INITIAL AND SECONDARY EFFECT TEXTS
 			output.push(
 				`<th scope="row">Initial Effect</th>`,
-				`<td colSpan={3}>${marked2.parseInline(linker(ineff))}</td>`,
+				`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(ineff))}</td>`,
 				"</tr><tr>",
 				`<th scope="row">Secondary Effect</th>`,
-				`<td colSpan={3}>${marked2.parseInline(linker(seceff))}</td>`
+				`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(seceff))}</td>`
 			);
 			rows += 2;
 		}
@@ -269,7 +269,7 @@ const makeAfflictionBlock = (marked2, flags, linker, maybeClear, text, attrs, lo
 		// USE ATTRS TO FIND EFFECTS
 		// AND/OR INITIAL/SECONDARY EFFECTS
 		//
-		const ee = constructEffect(attrs, linker);
+		const ee = constructEffect(attrs, convertEncodedInfo);
 		if(ee) {
 			rows++;
 			output.push(
@@ -279,8 +279,8 @@ const makeAfflictionBlock = (marked2, flags, linker, maybeClear, text, attrs, lo
 		} else {
 			const i = convertIniSec(attrs, "in");
 			const s = convertIniSec(attrs, "sec");
-			const ii = i && constructEffect(i, linker);
-			const ss = s && constructEffect(s, linker);
+			const ii = i && constructEffect(i, convertEncodedInfo);
+			const ss = s && constructEffect(s, convertEncodedInfo);
 			if(ii && ss) {
 				rows += 2;
 				output.push(
@@ -296,7 +296,7 @@ const makeAfflictionBlock = (marked2, flags, linker, maybeClear, text, attrs, lo
 	//
 	// CONFIGURE CURE LINE
 	//
-	const cureLine = cure ? marked2.parseInline(linker(cure)) : (
+	const cureLine = cure ? marked2.parseInline(convertEncodedInfo(cure)) : (
 		cure1 ? "1 save" : (
 			cure2 ? "2 saves" : (
 				cure2c ? "2 consecutive saves" : (
@@ -329,7 +329,7 @@ const makeAfflictionBlock = (marked2, flags, linker, maybeClear, text, attrs, lo
 	if(extra) {
 		rows++;
 		output.push(
-			`<tr><td colSpan={4} className=\"extra\">${marked2.parseInline(linker(extra))}</td></tr>`
+			`<tr><td colSpan={4} className=\"extra\">${marked2.parseInline(convertEncodedInfo(extra))}</td></tr>`
 		);
 	}
 	//

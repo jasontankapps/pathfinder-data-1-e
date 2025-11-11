@@ -1,4 +1,4 @@
-const makeDrugBlock = (marked2, flags, linker, id, maybeClear, text, attrs, logError) => {
+const makeDrugBlock = (marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError) => {
 	const {
 		type, addict, minor, moderate, severe, dc,
 		price, eff1, eff2,
@@ -76,7 +76,7 @@ const makeDrugBlock = (marked2, flags, linker, id, maybeClear, text, attrs, logE
 		output.push(
 			"<tr>",
 			`<th scope="row">Effect</th>`,
-			`<td colSpan={3}>${marked2.parseInline(linker(eff))}</td>`,
+			`<td colSpan={3}>${marked2.parseInline(convertEncodedInfo(eff))}</td>`,
 			"</tr>"
 		);
 	});

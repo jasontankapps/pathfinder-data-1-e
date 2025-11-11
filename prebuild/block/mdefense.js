@@ -1,6 +1,6 @@
 const clean = (bit) => bit.replace(/\*/g, "").replace(/%%[-a-z_]+[/]([^%]+)%%/g, "$1");
 
-const makeMonsterDefenseBlock = (marked2, linker, maybeClear, attrs, logError) => {
+const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs, logError) => {
 	const {
 		ac, mod,
 		hp, hpRaw, fh, regen,
@@ -13,7 +13,7 @@ const makeMonsterDefenseBlock = (marked2, linker, maybeClear, attrs, logError) =
 		weak, vulner
 	} = attrs;
 	const output = [];
-	const doParse = (input) => marked2.parseInline(linker(input));
+	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
 	//
 	// AC LINE
 	//

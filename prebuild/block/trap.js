@@ -1,4 +1,4 @@
-const makeTrapBlock = (marked2, flags, linker, id, maybeClear, text, attrs, logError) => {
+const makeTrapBlock = (marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError) => {
 	const {
 		cr, magic, mechanical, terrain,
 		pdc, dddc, trigger,
@@ -83,7 +83,7 @@ const makeTrapBlock = (marked2, flags, linker, id, maybeClear, text, attrs, logE
 	//
 	rows++;
 	output.push(
-		`<tr><td colSpan={4}><strong>Effect:</strong> ${marked2.parseInline(linker(eff))}</td></tr>`
+		`<tr><td colSpan={4}><strong>Effect:</strong> ${marked2.parseInline(convertEncodedInfo(eff))}</td></tr>`
 	);
 	//
 	// ADD TRAP ICON

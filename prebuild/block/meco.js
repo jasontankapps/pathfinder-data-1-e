@@ -1,9 +1,9 @@
-export const makeMonsterEcologyBlock = (marked2, linker, maybeClear, attrs, logError) => {
+export const makeMonsterEcologyBlock = (marked2, convertEncodedInfo, maybeClear, attrs, logError) => {
 	const {
 		env, org, treasure
 	} = attrs;
 	const output = [];
-	const doParse = (input) => marked2.parseInline(linker(input));
+	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
 	//
 	// ENVIRONMENT LINE
 	//

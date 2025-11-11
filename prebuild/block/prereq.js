@@ -1,6 +1,6 @@
 import { convertTextToLink } from '../tests/checkForEncodedLink.js';
 
-const handleInfo = (m, list, info, sep, flags, linker) => {
+const handleInfo = (m, list, info, sep, flags, convertEncodedInfo) => {
 	const [title, prefix] = info.split(sep);
 	const output = [ ];
 	if(title) {
@@ -14,12 +14,12 @@ const handleInfo = (m, list, info, sep, flags, linker) => {
 		});
 		output.push(items.join(", "));
 	} else {
-		output.push(m.parseInline(linker(list)));
+		output.push(m.parseInline(convertEncodedInfo(list)));
 	}
 	return output.join(" ");
 };
 
-const makePrerequisiteBlock = (marked2, flags, maybeClear, attrs, linker) => {
+const makePrerequisiteBlock = (marked2, flags, maybeClear, attrs, convertEncodedInfo) => {
 	const {
 		l, c, r,
 		g1, g1info,
@@ -51,10 +51,10 @@ const makePrerequisiteBlock = (marked2, flags, maybeClear, attrs, linker) => {
 		lines.push(`<Link to="/race/${convertTextToLink(r)}">${r}</Link>`)
 	}
 	if(g1 && g1info) {
-		lines.push(handleInfo(marked2, g1, g1info, sep, flags, linker));
+		lines.push(handleInfo(marked2, g1, g1info, sep, flags, convertEncodedInfo));
 	}
 	if(other) {
-		lines.push(marked2.parseInline(linker(other)));
+		lines.push(marked2.parseInline(convertEncodedInfo(other)));
 	}
 	//
 	// MAYBE END EARLY
@@ -72,7 +72,7 @@ const makePrerequisiteBlock = (marked2, flags, maybeClear, attrs, linker) => {
 	//
 	flags.icon = true;
 	flags.thlink = true;
-	output.push(`<ThLink scope="row" to="/prereqs"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink>`);
+	output.push(`<ThLink scope="row" to="/icons"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink>`);
 	//
 	// ADD PREREQUISITES
 	//

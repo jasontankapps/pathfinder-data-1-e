@@ -1,4 +1,4 @@
-const makeHauntBlock = (marked2, flags, linker, id, maybeClear, text, attrs, logError) => {
+const makeHauntBlock = (marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError) => {
 	const {
 		notice, hp, weak, trigger, reset,
 		start
@@ -45,7 +45,7 @@ const makeHauntBlock = (marked2, flags, linker, id, maybeClear, text, attrs, log
 		output.push(
 			"<tr>",
 			`<th id="${id}-hp">hp</th><td>${hp}</td>`,
-			`<th id="${id}-weak">Weaknesses</th><td colSpan={2}>${marked2.parseInline(linker(weak))}</td>`,
+			`<th id="${id}-weak">Weaknesses</th><td colSpan={2}>${marked2.parseInline(convertEncodedInfo(weak))}</td>`,
 			"</tr>"
 		);
 	} else {
