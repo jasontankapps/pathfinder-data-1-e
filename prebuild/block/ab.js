@@ -11,8 +11,9 @@ export const makeAbilityBlock = ({
 }) => {
 	const {
 		id, icon,
-		l, levels,
-		standard, swift,
+		l, levels, spells, imp,
+		standard, swift, immediate,
+		passive, ability,
 		usage, useNC
 	} = attrs;
 	const output = [];
@@ -22,23 +23,41 @@ export const makeAbilityBlock = ({
 	//
 	const svg = (() => {
 		switch(icon) {
-			case "melee": {
+			case "melee": { // melee attack, combat maneuver
 				return "mailed-fist";
 			}
-			case "magic": {
+			case "touch": { // touch attack
+				return "magic-palm";
+			}
+			case "magic": { // cast a spell
 				return "magic-swirl";
 			}
-			case "zap": {
+			case "zap": { // ranged touch attack
 				return "bolt-spell-cast";
 			}
-			case "line": {
+			case "line": { // line attack
 				return "barbed-arrow";
 			}
-			case "ranged": {
+			case "ranged": { // ranged physical attack
 				return "bowman";
 			}
-			case "def": {
+			case "def": { // defensive ability
 				return "armor-upgrade";
+			}
+			case "learn": { // gain a spell
+				return "spell-book";
+			}
+			case "aura": { // aura
+				return "abstract-091";
+			}
+			case "power": { // gain a new ability or companion
+				return "muscle-up";
+			}
+			case "boost": { // boost your own abilities, or an ally's
+				return "embraced-energy";
+			}
+			case "care": { // aid another
+				return "cherish";
 			}
 		}
 		logError("---> Missing icon");
@@ -52,7 +71,18 @@ export const makeAbilityBlock = ({
 	//
 	// LEVEL-BASED NOTES
 	//
-	if(levels) {
+	if(spells) {
+		// Spells granted based on level
+		spells.split(/~~/).forEach((bit, i) => {
+			const [lev, text] = bit.split(/~/);
+			const level = ordinal(lev);
+			output.push(
+				`<div className="abPair">`
+				+ `<div className="abStart plain">${level}</div>`
+				+ `<div className="abEnd simple">${doParse(`{spell/${text}}`)}</div></div>`
+			);
+		});
+	} else if(levels) {
 		// Levels show increasing abilities based on level
 		levels.split(/~~/).forEach((bit, i) => {
 			const [lev, text] = bit.split(/~/);
@@ -86,12 +116,32 @@ export const makeAbilityBlock = ({
 	//
 	// ACTION
 	//
-	if(swift || standard) {
+	if(swift || standard || immediate) {
 		output.push(
 				`<div className="abPair">`
-				+ `<div className="abStart">${swift ? "Swift" : "Standard"} Action</div>`
-				+ `<div className="abEnd">${doParse(swift || standard)}</div></div>`
+				+ `<div className="abStart">${swift ? "Swift" : (immediate ? "Immediate" : "Standard")} Action</div>`
+				+ `<div className="abEnd">${doParse(swift || standard || immediate)}</div></div>`
 			);
+	} else if (passive || ability) {
+		output.push(
+				`<div className="abPair">`
+				+ `<div className="abStart">${passive ? "Passive " : ""}Ability</div>`
+				+ `<div className="abEnd">${doParse(passive || ability)}</div></div>`
+			);
+	}
+	//
+	// LEVEL-BASED ACTION IMPROVEMENTS
+	//
+	if(imp) {
+		const improvements = imp.split(/~~/);
+		improvements.forEach(bit => {
+			const [lv, text] = bit.split(/~/);
+			output.push(
+					`<div className="abPair">`
+					+ `<div className="abStart">At ${ordinal(lv)} Level</div>`
+					+ `<div className="abEnd">${doParse(text)}</div></div>`
+				);
+		});
 	}
 
 	return `${maybeClear}<div className="ability p">`

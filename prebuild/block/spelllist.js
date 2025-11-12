@@ -24,7 +24,7 @@ export const makeSpellListBlock = ({
 	temp
 }) => {
 	const {
-		all, all0, save, from,
+		all, all0, save, from, extra,
 		l1, l2, l3,
 		l4, l5, l6,
 		l7, l8, l9, l0
@@ -80,6 +80,9 @@ export const makeSpellListBlock = ({
 	}
 	if(save) {
 		temp[save] = base;
+	}
+	if(extra) {
+		output.push(`<td colSpan={2}>${doParse(extra)}</td>`);
 	}
 
 	return `${maybeClear}<table className="basic spellList">`

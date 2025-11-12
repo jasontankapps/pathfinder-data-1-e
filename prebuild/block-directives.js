@@ -380,8 +380,9 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "ab") {
 				churn(n, attrs, [
 					"clear", "id", "icon",
-					"l", "levels",
-					"standard", "swift",
+					"l", "levels", "spells", "imp",
+					"standard", "swift", "immediate",
+					"ability", "passive",
 					"usage", "useNC"
 				], logError);
 				flags.icon = true;
@@ -394,7 +395,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				});
 			} else if (n === "spelllist") {
 				churn(n, attrs, [
-					"clear", "all", "all0", "save", "from",
+					"clear", "all", "all0", "save", "from", "extra",
 					"l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8", "l9", "l0"
 				], logError);
 				flags.icon = true;

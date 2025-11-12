@@ -3,17 +3,17 @@ import PageHeader from './components/PageHeader';
 import PageFooter from './components/PageFooter';
 import './pages/Page.css';
 
-const Prereqs: React.FC = () => {
+const Icons: React.FC = () => {
 
 	return (
 		<IonPage>
-			<PageHeader title="Prerequisites" />
+			<PageHeader title="Icons" />
 			<IonContent>
 				<IonList lines="none">
 					<IonItem lines="none">
 						<IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" color="secondary" slot="start" />
 						<IonLabel className="ion-text-wrap">
-							<p>Boxes containing this symbol list the prerequisites for the given ability.</p>
+							<p>Boxes containing this symbol list the prerequisites for a given ability.</p>
 						</IonLabel>
 					</IonItem>
 				</IonList>
@@ -23,4 +23,4 @@ const Prereqs: React.FC = () => {
 	);
 };
 
-export default Prereqs;
+export default Icons;

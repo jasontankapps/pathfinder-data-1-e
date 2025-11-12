@@ -13,7 +13,7 @@ import Loading from './Loading';
 
 import FrontPage from './FrontPage';
 import AboutOnlyPage from './AboutOnlyPage';
-import Prereqs from './Prereqs';
+import Icons from './Icons';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -159,7 +159,7 @@ const App: FC = () => {
 				<IonContent id="main" className={className}>
 					<Switch>
 						<Route path="/about"><AboutOnlyPage /></Route>
-						<Route path="/prereqs"><Prereqs /></Route>
+						<Route path="/icons"><Icons /></Route>
 						<Route path="/settings"><SettingsPage /></Route>
 						<Route path="/main/:mainpage">
 							<Suspense fallback={<Loading />}>

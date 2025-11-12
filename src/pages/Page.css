@@ -1016,6 +1016,9 @@ div.abSingle {
 	border-block-end-width: 2px;
 }
 div.abSingle.title {
+	color: var(--table-header-fg);
+	background: var(--table-header-bg);
+	border-start-end-radius: 0.75rem;
 	font-weight: bold;
 	text-align: center;
 	border-inline-start-width: 2px;
@@ -1037,9 +1040,14 @@ div.abEnd {
 	align-self: stretch;
 }
 div.abStart {
-	font-weight: bold;
 	grid-column: 2;
 	text-align: end;
+}
+div.abEnd.simple a {
+	text-decoration: none;
+}
+div.abStart:not(.plain) {
+	font-weight: bold;
 }
 div.abSingle:last-child,
 div.abPair:last-child .abStart,
