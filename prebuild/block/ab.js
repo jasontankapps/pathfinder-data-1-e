@@ -1,4 +1,5 @@
 import ordinal from "../ordinal.js";
+import writtenNumber from "written-number";
 
 export const makeAbilityBlock = ({
 	marked2,
@@ -13,15 +14,21 @@ export const makeAbilityBlock = ({
 		id, icon,
 		l, levels, spells, imp,
 		standard, swift, immediate,
+		fullround, move, free,
+		provokes,
 		passive, ability,
-		usage, useNC
+		usage, useNC,
+		useL, useM,
+		useInc, useL3,
+		useMod, useMod3,
+		useUnit = "round"
 	} = attrs;
 	const output = [];
 	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
 	//
 	// CONSTRUCT ICON
 	//
-	const svg = (() => {
+	const svg = () => {
 		switch(icon) {
 			case "melee": { // melee attack, combat maneuver
 				return "mailed-fist";
@@ -56,14 +63,20 @@ export const makeAbilityBlock = ({
 			case "boost": { // boost your own abilities, or an ally's
 				return "embraced-energy";
 			}
-			case "care": { // aid another
+			case "aid": { // aid another
 				return "cherish";
 			}
+			case "protect": { // protect another
+				return "shield-reflect";
+			}
+			case "lower": { // lower another's defenses
+				return "armor-downgrade";
+			}
 		}
-		logError("---> Missing icon");
+		logError(`---> Missing or invalid icon [${icon}]`);
 		return "confirmed";
-	})();
-	const iconBox = `<Link to="/icons"><IonIcon icon="/icons/${svg}.svg" color="tertiary" /></Link>`;
+	};
+	const iconBox = `<Link to="/icons"><IonIcon icon="/icons/${svg()}.svg" color="tertiary" /></Link>`;
 	//
 	// TITLE
 	//
@@ -104,29 +117,91 @@ export const makeAbilityBlock = ({
 	//
 	// DETERMINE ANY USAGE LIMITS
 	//
-	if(usage) {
-		const consecutive = useNC ? "; these rounds need not be consecutive" : "";
+	const use = (() => {
+		if (usage) {
+			return doParse(usage);
+		} else if (useInc) {
+			const [inc, clss, base] = useInc.split(/~/);
+			if(!base) {
+				return `1 ${useUnit}/day per ${writtenNumber(Number(inc))} ${clss} levels`;
+				//useInc=2~cleric =>
+				//1 round/day per two cleric levels
+			}
+			return `1 ${useUnit}/day + 1 per ${writtenNumber(Number(inc))} ${clss} levels beyond ${ordinal(base)}`;
+			//useInc=4~cleric~8 =>
+			//1 time/day + 1 per four cleric levels beyond 8th
+		} else if (useL3) {
+			return `3 ${useUnit}s/day + 1 ${useUnit} per ${useL3} level`;
+			//3 rounds/day + 1 round per cleric level
+		} else if (useL) {
+			return `1 ${useUnit}/day per ${useL} level`;
+			//1 round/day per cleric level
+		} else if (useMod) {
+			return `${useMod} modifier times/day`
+			//Wis modifier times/day
+		} else if (useMod3) {
+			return `3 + ${useMod3} modifier times/day`
+			//3 + Wis modifier times/day
+		}
+		return null;
+	})();
+	if(use) {
+		const min = !useM ? "" : (
+			useM === "useM" ? " (minimum 1)" : `(minimum ${useM})`
+		);
+		const consecutive = () => {
+			if(useNC) {
+				if (useNC === "useNC") {
+					return `; these ${useUnit}s need not be consecutive`;
+				}
+				return `; these ${useUnit}s need not be consecutive, but they must be spent in ${useNC}-${useUnit} increments`;
+			}
+			return "";
+		};
 		output.push(
 				`<div className="abPair">`
 				+ `<div className="abStart">Usage</div>`
-				+ `<div className="abEnd">${doParse(usage)}`
-				+ `${consecutive}</div></div>`
+				+ `<div className="abEnd">${use}${min}${consecutive()}</div></div>`
 			);
 	}
 	//
 	// ACTION
 	//
-	if(swift || standard || immediate) {
+	if(standard || swift || fullround || move || immediate || free) {
 		output.push(
 				`<div className="abPair">`
-				+ `<div className="abStart">${swift ? "Swift" : (immediate ? "Immediate" : "Standard")} Action</div>`
-				+ `<div className="abEnd">${doParse(swift || standard || immediate)}</div></div>`
+				+ `<div className="abStart">${
+					standard ? "Standard" : (
+						swift ? "Swift" : (
+							fullround ? "Full-Round" : (
+								move ? "Move-Equivalent" : (
+									immediate ? "Immediate" : "Free"
+								)
+							)
+						)
+					)
+				} Action</div>`
+				+ `<div className="abEnd">${
+					doParse(standard || swift || fullround || move || immediate || free)
+				}</div></div>`
 			);
 	} else if (passive || ability) {
 		output.push(
 				`<div className="abPair">`
 				+ `<div className="abStart">${passive ? "Passive " : ""}Ability</div>`
 				+ `<div className="abEnd">${doParse(passive || ability)}</div></div>`
+			);
+	}
+	//
+	// PROVOKES ATTACK OF OPPORTUNITY
+	//
+	if(provokes) {
+		output.push(
+				`<div className="abPair">`
+				+ `<div className="abStart">Provokes <Link to="/rule/aoo">AoO?</Link></div>`
+				+ `<div className="abEnd">${
+					provokes === "provokes" ? "Yes" : doParse(provokes)
+				}</div></div>`
 			);
 	}
 	//

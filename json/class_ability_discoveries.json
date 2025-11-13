@@ -609,7 +609,7 @@
 		"description": [
 			"::prereq{g1=\"void bomb\" g1info=\"Discovery~discovery\"}",
 			"",
-			"This bomb crushes the target like a void bomb, then repels nearby creatures with a burst of gravity. The target takes damage as if hit by a void bomb. All other creatures within 5 feet of the target are subject to a bull rush. The alchemist uses his alchemist class level in place of his Combat Maneuver Bonus, and adds his Intelligence modifier in place of his Strength or Dexterity modifier to resolve the bull rush attempts. Creatures moved by a blackstar bomb are pushed directly away from the target's square."
+			"This bomb crushes the target like a void bomb, then repels nearby creatures with a burst of gravity. The target takes damage as if hit by a void bomb. All other creatures within 5 feet of the target are subject to a {rule/bull rush}. The alchemist uses his alchemist class level in place of his Combat Maneuver Bonus, and adds his Intelligence modifier in place of his Strength or Dexterity modifier to resolve the bull rush attempts. Creatures moved by a blackstar bomb are pushed directly away from the target's square."
 		],
 		"addenda": [ "primarybomb" ]
 	},
@@ -1133,7 +1133,7 @@
 		"description": [
 			"::prereq{l=16 c=alchemist g1=\"greater rasugen\" g1info=\"Discovery~discovery\"}",
 			"",
-			"The alchemist's rasugen now grants a +6 alchemical bonus on all saving throws, 4 {rule/temporary hit points} per alchemist level, and immunity to disease, mind-affecting effects, and poison. The alchemist takes a -6 penalty to Intelligence and a -2 penalty to Charisma and Wisdom as long as the grand rasugen persists. An alchemist must have the {discovery/greater rasugen} discovery before selecting this discovery."
+			"The alchemist's rasugen now grants a +6 alchemical bonus on all saving throws, 4 {rule/temporary hit points} per alchemist level, and immunity to disease, mind-affecting effects, and poison. The alchemist takes a -6 penalty to Intelligence and a -2 penalty to Charisma and Wisdom as long as the grand rasugen persists."
 		]
 	},
 	"infuse_mutagen": {
@@ -1677,7 +1677,7 @@
 		"description": [
 			"::prereq{g1=\"parasitic twin\" g1info=\"Discovery~discovery\"}",
 			"",
-			"As the alchemist grows in power, his parasitic twin laps up a portion of his soul, like a dog feeding on its master's scraps. The alchemist's parasitic twin can now manifest or hide within the alchemist's torso as a move action. As a standard action, the alchemist can cause his manifested twin to babble, driving listeners insane. All creatures without the insanity special ability (although see below) that are within 60 feet of the alchemist must succeed at a Will save or be affected by {spell/confusion} for 1 round per alchemist level. The alchemist can urge his parasitic twin to babble a number of times per day equal to 3 + the alchemist's Intelligence modifier. Creatures that successfully save can't be affected by this effect for 24 hours. The alchemist is immune to its sibling's babbling. This is a sonic, mind-affecting compulsion effect. The alchemist must have the {discovery/parasitic twin} discovery before selecting this discovery.",
+			"As the alchemist grows in power, his parasitic twin laps up a portion of his soul, like a dog feeding on its master's scraps. The alchemist's parasitic twin can now manifest or hide within the alchemist's torso as a move action. As a standard action, the alchemist can cause his manifested twin to babble, driving listeners insane. All creatures without the insanity special ability (although see below) that are within 60 feet of the alchemist must succeed at a Will save or be affected by {spell/confusion} for 1 round per alchemist level. The alchemist can urge his parasitic twin to babble a number of times per day equal to 3 + the alchemist's Intelligence modifier. Creatures that successfully save can't be affected by this effect for 24 hours. The alchemist is immune to its sibling's babbling. This is a sonic, mind-affecting compulsion effect.",
 			"",
 			";;;aside",
 			"",

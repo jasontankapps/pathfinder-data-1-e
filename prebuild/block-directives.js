@@ -12,6 +12,7 @@ import makeMonsterEcologyBlock from './block/meco.js';
 import makePrerequisiteBlock from './block/prereq.js';
 import makeAbilityBlock from './block/ab.js';
 import makeSpellListBlock from './block/spelllist.js';
+import makeListBlock from './block/list.js';
 
 const churn = (n, attrs, list, logError) => {
 	const found = [];
@@ -382,8 +383,14 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"clear", "id", "icon",
 					"l", "levels", "spells", "imp",
 					"standard", "swift", "immediate",
+					"fullround", "move", "free",
+					"provokes",
 					"ability", "passive",
-					"usage", "useNC"
+					"usage", "useNC",
+					"useL", "useM",
+					"useInc", "useL3",
+					"useMod", "useMod3",
+					"useUnit"
 				], logError);
 				flags.icon = true;
 				flags.link = true;
@@ -391,6 +398,16 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return makeAbilityBlock({
 					marked2, prefix, text,
 					convertEncodedInfo, maybeClear,
+					attrs, logError
+				});
+			} else if (n === "list") {
+				churn(n, attrs, [
+					"clear", "all", "link", "and",
+					"hl", "sep", "comma"
+				], logError);
+				attrs.link && (flags.link = true);
+				return makeListBlock({
+					text, maybeClear,
 					attrs, logError
 				});
 			} else if (n === "spelllist") {

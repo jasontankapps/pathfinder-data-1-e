@@ -1,4 +1,5 @@
 import checkForEncodedLink from './tests/checkForEncodedLink.js';
+import makeListBlock from './block/list.js';
 
 const getInlineDirectives = (globalVariable, marker = "@") => {
 	const $ = globalVariable;
@@ -65,6 +66,14 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 					const id = `${prefix}fake-fn-${text}`;
 					return `<sup><InnerLink showBacklink="backlink-${id}" id="${id}" data-hash-target to="${id}-target">${text}</InnerLink></sup>`;
 				}
+			} else if (tag === "list") {
+				return makeListBlock({
+					text,
+					attrs,
+					logError,
+					inline: true,
+					maybeClear: ""
+				});
 			}
 			switch(tag) {
 				case "primary":

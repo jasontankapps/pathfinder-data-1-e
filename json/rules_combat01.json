@@ -372,6 +372,7 @@
 			"saving_throws"
 		]
 	},
+	"aoo": { "redirect": "attacks_of_opportunity" },
 	"speed": {
 		"name": "Speed",
 		"sources": [ "PRPG Core Rulebook" ],
