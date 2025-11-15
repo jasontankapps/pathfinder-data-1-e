@@ -1,4 +1,4 @@
-import { IonContent, IonPage } from '@ionic/react';
+import { IonContent, IonList, IonPage, IonItem, IonItemDivider, IonLabel, IonIcon } from '@ionic/react';
 import PageHeader from './components/PageHeader';
 import PageFooter from './components/PageFooter';
 import Link from './components/Link';
@@ -6,27 +6,95 @@ import './pages/Page.css';
 
 export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 	<div className={className}>
-		<h2>General Info</h2>
-		<p>This app uses trademarks and/or copyrights owned by Paizo Inc., used under <a href="https://paizo.com/communityuse">Paizo's Community Use Policy (paizo.com/communityuse)</a>. We are expressly prohibited from charging you to use or access this content. <em>Pf Data 1e</em> is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit <a href="https://paizo.com/">paizo.com</a>.</p>
-		<p>The game rules herein are covered by the <Link to="/main/ogc">Open Game License</Link>.</p>
-		<h2>Bug Reports</h2>
-		<p>If you run into any issues or find any bad information, please report it to the <a href="https://github.com/jasontankapps/pathfinder-data-1-e/issues">Github</a>.</p>
-		<h2>Credits</h2>
-		<p>App Icon is based on "Gift of Knowledge" by <a href="https://lorcblog.blogspot.com/">Lorc</a>.</p>
-		<p>Menu icons "Battle Gear, "Croc Jaws", "Bolt Eyes", and "Robe" also by Lorc.</p>
-		<blockquote>
-			<p>The icons for curses ("Death Note"), poisons ("Poison Bottle"), infestations ("Infested Mass"), diseases ("Paramecia"), afflictions ("Tumor"), drugs ("Syringe"), haunts ("Ghost"), and traps ("Wolf Trap") are also by Lorc.</p>
-		</blockquote>
-		<p>Menu icons "Skills", "Person", "Mighty Force", and "Sparkles", and the icons for prerequisites ("Confirmed"), mythic feats/spells ("Ancient Sword"), Combat Stamina tricks ("Shield Bash") and "Elephant" are by <a href="https://delapouite.com/">Delapouite</a>. (CC BY 3.0)</p>
-		<p>Menu icon "Orb Wand" by <a href="https://wjbstories.blogspot.com/">Wildabeast</a></p>
-		<p>Menu icon "Read" by <a href="https://game-icons.net/">Skoll</a></p>
-		<p>Menu icon "Spiked Half" by <a href="https://opengameart.org/content/95-game-icons">sbed</a></p>
-		<p>Modal icon "Overlap" by <a href="https://thenounproject.com/browse/icons/term/overlap/">Alec Dhuse</a> (CC BY 3.0)</p>
-		<p>"Find in Page", "Input", and "Swipe-Left" icons by <a href="https://fonts.google.com/icons">Google</a></p>
-		<p><em>All original icons are distributed under the <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> Creative Commons license.</em></p>
-		<p>The font is <a href="https://fonts.google.com/specimen/Taviraj">Taviraj</a> by <a href="https://fonts.google.com/?query=Cadson%20Demak">Cadson Demak</a>, with some symbols being rendered as <a href="https://www.onlinewebfonts.com/download/bd95c919d5566390c0565bea43f95495">Symbola</a> by George Douros.</p>
-		<h2>App Info</h2>
-		<p>v.0.8.1</p>
+		<IonList className="aboutPage" lines="full">
+			<IonItemDivider><IonLabel>General Info</IonLabel></IonItemDivider>
+			<IonItem><IonLabel>
+				<p>This app uses trademarks and/or copyrights owned by Paizo Inc., used under <a href="https://paizo.com/communityuse">Paizo's Community Use Policy (paizo.com/communityuse)</a>. We are expressly prohibited from charging you to use or access this content. <em>Pf Data 1e</em> is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit <a href="https://paizo.com/">paizo.com</a>.</p>
+				<p>The game rules herein are covered by the <Link to="/main/ogc">Open Game License</Link>.</p>
+			</IonLabel></IonItem>
+			<IonItemDivider><IonLabel>Bug Reports</IonLabel></IonItemDivider>
+			<IonItem><IonLabel>
+				<p>If you run into any issues or find any bad information, please report it to the <a href="https://github.com/jasontankapps/pathfinder-data-1-e/issues">Github</a>.</p>
+			</IonLabel></IonItem>
+			<IonItemDivider><IonLabel>Credits</IonLabel></IonItemDivider>
+			<IonItem><IonLabel>
+				<p>App Icon is based on "Gift of Knowledge" by <a href="https://lorcblog.blogspot.com/">Lorc</a>. The following icons are also by Lorc.</p>
+				<p className="icons">
+					<IonIcon icon="/public/icons/battle-gear.svg" />
+					<IonIcon icon="/public/icons/croc-jaws.svg" />
+					<IonIcon icon="/public/icons/bolt-eye.svg" />
+					<IonIcon icon="/public/icons/robe.svg" />
+					<IonIcon icon="/public/icons/death-note.svg" />
+					<IonIcon icon="/public/icons/poison-bottle.svg" />
+					<IonIcon icon="/public/icons/infested-mass.svg" />
+					<IonIcon icon="/public/icons/paramecia.svg" />
+					<IonIcon icon="/public/icons/tumor.svg" />
+					<IonIcon icon="/public/icons/syringe.svg" />
+					<IonIcon icon="/public/icons/ghost.svg" />
+					<IonIcon icon="/public/icons/wolf-trap.svg" />
+					<IonIcon icon="/public/icons/smoking-finger.svg" />
+				</p>
+			</IonLabel></IonItem>
+			<IonItem><IonLabel>
+				<p>The following icons are by <a href="https://delapouite.com/">Delapouite</a>. (CC BY 3.0)</p>
+				<p className="icons">
+					<IonIcon icon="/public/icons/skills.svg" />
+					<IonIcon icon="/public/icons/person.svg" />
+					<IonIcon icon="/public/icons/mighty-force.svg" />
+					<IonIcon icon="/public/icons/sparkles.svg" />
+					<IonIcon icon="/public/icons/confirmed.svg" />
+					<IonIcon icon="/public/icons/ancient-sword.svg" />
+					<IonIcon icon="/public/icons/shield-bash.svg" />
+					<IonIcon icon="/public/icons/elephant.svg" />
+				</p>
+			</IonLabel></IonItem>
+			<IonItem>
+				<IonIcon icon="/public/icons/abstract-091.svg" slot="start" />
+				<IonLabel>
+					<p>Icon by <a href="https://viscious-speed.deviantart.com/">Viscious Speed</a>.</p>
+				</IonLabel>
+			</IonItem>
+			<IonItem>
+				<IonIcon icon="/public/icons/orb-wand.svg" slot="start" />
+				<IonLabel>
+					<p>Icon by <a href="https://wjbstories.blogspot.com/">Wildabeast</a>.</p>
+				</IonLabel>
+			</IonItem>
+			<IonItem>
+				<IonIcon icon="/public/icons/read.svg" slot="start" />
+				<IonLabel>
+					<p>Icon by <a href="https://game-icons.net/">Skoll</a>.</p>
+				</IonLabel>
+			</IonItem>
+			<IonItem>
+				<IonIcon icon="/public/icons/spikes-half.svg" slot="start" />
+				<IonLabel>
+					<p>Icon by <a href="https://opengameart.org/content/95-game-icons">sbed</a>.</p>
+				</IonLabel>
+			</IonItem>
+			<IonItem>
+				<IonIcon icon="/public/icons/overlap.svg" slot="start" />
+				<IonLabel>
+					<p>Icon by <a href="https://thenounproject.com/browse/icons/term/overlap/">Alec Dhuse</a>. (CC BY 3.0)</p>
+				</IonLabel>
+			</IonItem>
+			<IonItem><IonLabel>
+				<p>The following icons are by <a href="https://fonts.google.com/icons">Google</a>.</p>
+				<p className="icons">
+					<IonIcon icon="/public/icons/find-in-page.svg" />
+					<IonIcon icon="/public/icons/input.svg" />
+					<IonIcon icon="/public/icons/swipe-left.svg" />
+				</p>
+			</IonLabel></IonItem>
+			<IonItem><IonLabel>
+				<p><em>All original icons are distributed under the <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> Creative Commons license.</em></p>
+			</IonLabel></IonItem>
+			<IonItem><IonLabel>
+				<p>The font is <a href="https://fonts.google.com/specimen/Taviraj">Taviraj</a> by <a href="https://fonts.google.com/?query=Cadson%20Demak">Cadson Demak</a>, with some symbols being rendered as <a href="https://www.onlinewebfonts.com/download/bd95c919d5566390c0565bea43f95495">Symbola</a> by George Douros.</p>
+			</IonLabel></IonItem>
+			<IonItemDivider><IonLabel>App Info</IonLabel></IonItemDivider>
+			<IonItem><IonLabel><p>v.0.8.1</p></IonLabel></IonItem>
+		</IonList>
 	</div>
 );
 
@@ -36,7 +104,7 @@ const AboutOnlyPage: React.FC = () => {
 		<IonPage>
 			<PageHeader title="About Pf Data 1e" />
 			<IonContent>
-				<AboutInfo className="basicContent simple" />
+				<AboutInfo className="basicContent" />
 			</IonContent>
 			<PageFooter />
 		</IonPage>

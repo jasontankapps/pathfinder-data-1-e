@@ -993,7 +993,7 @@ div.ability {
 	background: var(--table-bg);
 	margin-inline: 0.25rem;
 	display: grid;
-	grid-template-columns: 2.5rem 1fr 3fr;
+	grid-template-columns: 2.5rem minmax(min-content, 1fr) 3fr;
 	grid-auto-rows: min-content;
 	justify-content: center;
 	border-radius: 0.75rem;
@@ -1064,3 +1064,27 @@ div.abPair div.abEnd {
 	min-height: 2rem;
 }
 
+ion-list.aboutPage {
+	padding-block: 0;
+}
+ion-list.aboutPage p.icons {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+	gap: 0.75rem;
+}
+ion-list.aboutPage ion-icon {
+	color: var(--ion-text-color);
+	width: 2rem;
+	height: 2rem;
+}
+ion-list.aboutPage ion-item ion-label p {
+	margin-block: 1rem;
+}
+ion-list.aboutPage ion-item ion-label p:first-child {
+	margin-block-start: 0.25rem;
+}
+ion-list.aboutPage ion-item ion-label p:last-child {
+	margin-block-end: 0.25rem;
+}

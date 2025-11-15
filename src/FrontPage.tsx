@@ -18,7 +18,7 @@ const FrontPage: React.FC = () => {
 						{jsx}
 					</IonList>
 				</div>
-				<AboutInfo className="ion-hide-lg-down basicContent simple" />
+				<AboutInfo className="ion-hide-lg-down basicContent" />
 			</IonContent>
 			<PageFooter />
 		</IonPage>
