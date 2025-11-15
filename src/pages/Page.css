@@ -1004,11 +1004,15 @@ div.abIcon {
 	place-self: center;
 	font-size: 2rem;
 	padding: 0.25rem;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	gap: 0.25rem;
 }
 div.abSingle {
 	grid-column: 2 / span 2;
-	align-self: stretch;
-	justify-self: stretch;
+	place-self: stretch;
 	padding-inline: 0.25rem;
 	border-style: solid;
 	border-color: var(--table-border-color);
@@ -1022,6 +1026,7 @@ div.abSingle.title {
 	font-weight: bold;
 	text-align: center;
 	border-inline-start-width: 2px;
+	line-height: 2rem;
 }
 div.abPair {
 	display: contents;
@@ -1034,10 +1039,9 @@ div.abEnd {
 	border-block-end-width: 2px;
 	border-inline-start-width: 2px;
 	grid-column: 3;
-	justify-self: stretch;
+	place-self: stretch;
 	text-align: start;
 	padding-inline: 0.5rem;
-	align-self: stretch;
 }
 div.abStart {
 	grid-column: 2;
@@ -1050,7 +1054,13 @@ div.abStart:not(.plain) {
 	font-weight: bold;
 }
 div.abSingle:last-child,
-div.abPair:last-child .abStart,
+div.abPair:last-child div.abStart,
 div.abPair:last-child div.abEnd {
 	border-block-end-width: 0;
 }
+div.abSingle,
+div.abPair div.abStart,
+div.abPair div.abEnd {
+	min-height: 2rem;
+}
+
