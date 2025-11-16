@@ -8,7 +8,7 @@ const Icons: React.FC = () => {
 	return (
 		<IonPage>
 			<PageHeader title="Icons" />
-			<IonContent>
+			<IonContent className="standalone">
 				<IonList lines="full">
 					<IonItem>
 						<IonIcon icon="/icons/confirmed.svg" color="secondary" slot="start" />

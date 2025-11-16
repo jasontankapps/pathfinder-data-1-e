@@ -12,7 +12,7 @@ const switchback = (link: string) => {
 		case "about":
 			return "About";
 		case "icons":
-			return "Prerequisites";
+			return "Icons";
 		case "settings":
 			return "Settings";
 		case "search":

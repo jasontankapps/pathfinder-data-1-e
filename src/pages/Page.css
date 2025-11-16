@@ -345,6 +345,10 @@ ion-content.atTop ion-fab.goToTop {
 	transition: opacity 250ms ease-in,visibility 0s 255ms;
 }
 
+ion-content.standalone ion-list {
+	padding-block: 0;
+}
+
 /* Main */
 
 div.main ion-list {
