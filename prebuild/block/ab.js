@@ -20,11 +20,11 @@ export const makeAbilityBlock = ({
 		usage, useNC,
 		useL, useM, useInc, useL3, // default useUnit is "round"
 		useMod, useMod3, // default useUnit is "time"
-		useUnit
+		useUnit,
+		containerInfo
 	} = attrs;
 	const output = [];
 	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
-	const doParseMulti = (input) => input.split(/\|\|/).map(bit => doParse(bit)).join("<br /><br />");
 	//
 	// CONSTRUCT ICON
 	//
@@ -90,8 +90,9 @@ export const makeAbilityBlock = ({
 	// LEVEL-BASED NOTES
 	//
 	if(spells) {
-		// Spells granted based on level
-		spells.split(/~~/).forEach((bit, i) => {
+		// Spells granted based on character level
+		// Title should indicate how the spells are gained, what the level column means, etc.
+		spells.split(/~~/).forEach((bit) => {
 			const [lev, text, extra] = bit.split(/~/);
 			const level = ordinal(lev);
 			output.push(
@@ -102,7 +103,7 @@ export const makeAbilityBlock = ({
 		});
 	} else if(levels) {
 		// Levels show increasing abilities based on level
-		levels.split(/~~/).forEach((bit, i) => {
+		levels.split(/~~/).forEach((bit) => {
 			const [lev, text] = bit.split(/~/);
 			const level = ordinal(lev);
 			output.push(
@@ -183,7 +184,15 @@ export const makeAbilityBlock = ({
 	//
 	// ACTION
 	//
-	if(standard || swift || fullround || move || immediate || free) {
+	if(containerInfo) {
+		// This was pre-parsed and passed in from container-directives.
+		const {ability, contents} = containerInfo;
+		output.push(
+			`<div className="abPair">`
+			+ `<div className="abStart">${ability}</div>`
+			+ `<div className="abEnd">${contents}</div></div>`
+		);
+	} else if(standard || swift || fullround || move || immediate || free) {
 		output.push(
 				`<div className="abPair">`
 				+ `<div className="abStart">${
@@ -198,21 +207,21 @@ export const makeAbilityBlock = ({
 					)
 				} Action</div>`
 				+ `<div className="abEnd">${
-					doParseMulti(standard || swift || fullround || move || immediate || free)
+					doParse(standard || swift || fullround || move || immediate || free)
 				}</div></div>`
 			);
 	} else if (passive || ability) {
 		output.push(
 				`<div className="abPair">`
 				+ `<div className="abStart">${passive ? "Passive " : ""}Ability</div>`
-				+ `<div className="abEnd">${doParseMulti(passive || ability)}</div></div>`
+				+ `<div className="abEnd">${doParse(passive || ability)}</div></div>`
 			);
 	}
 	if(special) {
 		output.push(
 				`<div className="abPair">`
 				+ `<div className="abStart">Special</div>`
-				+ `<div className="abEnd">${doParseMulti(special)}</div></div>`
+				+ `<div className="abEnd">${doParse(special)}</div></div>`
 			);
 	}
 	//
@@ -233,7 +242,7 @@ export const makeAbilityBlock = ({
 	if(imp) {
 		const improvements = imp.split(/~~/);
 		improvements.forEach(bit => {
-			const [lv, text] = bit.split(/~/);
+			const [lv, text = ""] = bit.split(/~/);
 			output.push(
 					`<div className="abPair">`
 					+ `<div className="abStart">At ${ordinal(lv)} Level</div>`

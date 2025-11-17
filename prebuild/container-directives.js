@@ -1,4 +1,17 @@
-import { convertTextToLink } from './tests/checkForEncodedLink.js';
+import checkForEncodedLink, { convertTextToLink } from './tests/checkForEncodedLink.js';
+import makeAbilityBlock from './block/ab.js';
+
+const convertEncodedInfo = (input) => {
+	let m;
+	let test = input;
+	let output = "";
+	while(m = checkForEncodedLink(test, {percent: true})) {
+		const [pre, fulllink, text, post] = m;
+		output = output + `${pre}[${text}](${fulllink})`;
+		test = post;
+	}
+	return (output + test).replace(/&(times|quot|mdash|#[0-9]+)&/g, "&$1;");
+};
 
 const getContainerDirectives = (globalVariable, marker = ":::") => {
 	const $ = globalVariable;
@@ -10,8 +23,24 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 			const {text = "", attrs = {}, meta} = token;
 			const {jl} = attrs;
 			const n = meta.name;
+			// variables used by pass-throughs
 			let link, label, icon, title, id;
 			switch(n) {
+				case "ab": {
+					const marked2 = makeNewMarkedInstance();
+					flags.icon = true;
+					flags.link = true;
+					const {logError} = $;
+					const {title, ability, ...etc} = attrs;
+					const myAttrs = {
+						containerInfo: {
+							ability,
+							contents: removeCurlyBrackets(marked2.parse(text)).replace(/<[/]p>\s*<p>/g, "<br /><br />").replace(/<[/]?p>/g, "")
+						},
+						...etc
+					};
+					return makeAbilityBlock({ marked2, prefix, text: title, convertEncodedInfo, maybeClear: "", attrs: myAttrs, logError });
+				}
 				case "item": {
 					flags.item = true;
 					flags.label = true;
