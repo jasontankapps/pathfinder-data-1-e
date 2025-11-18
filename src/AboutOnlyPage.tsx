@@ -20,60 +20,74 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 			<IonItem><IonLabel>
 				<p>App Icon is based on "Gift of Knowledge" by <a href="https://lorcblog.blogspot.com/">Lorc</a>. The following icons are also by Lorc.</p>
 				<p className="icons">
-					<IonIcon icon="/public/icons/battle-gear.svg" />
-					<IonIcon icon="/public/icons/croc-jaws.svg" />
-					<IonIcon icon="/public/icons/bolt-eye.svg" />
-					<IonIcon icon="/public/icons/robe.svg" />
-					<IonIcon icon="/public/icons/death-note.svg" />
-					<IonIcon icon="/public/icons/poison-bottle.svg" />
-					<IonIcon icon="/public/icons/infested-mass.svg" />
-					<IonIcon icon="/public/icons/paramecia.svg" />
-					<IonIcon icon="/public/icons/tumor.svg" />
-					<IonIcon icon="/public/icons/syringe.svg" />
-					<IonIcon icon="/public/icons/ghost.svg" />
-					<IonIcon icon="/public/icons/wolf-trap.svg" />
-					<IonIcon icon="/public/icons/smoking-finger.svg" />
+					<IonIcon icon="/icons/battle-gear.svg" />
+					<IonIcon icon="/icons/croc-jaws.svg" />
+					<IonIcon icon="/icons/bolt-eye.svg" />
+					<IonIcon icon="/icons/robe.svg" />
+					<IonIcon icon="/icons/death-note.svg" />
+					<IonIcon icon="/icons/poison-bottle.svg" />
+					<IonIcon icon="/icons/infested-mass.svg" />
+					<IonIcon icon="/icons/paramecia.svg" />
+					<IonIcon icon="/icons/tumor.svg" />
+					<IonIcon icon="/icons/syringe.svg" />
+					<IonIcon icon="/icons/ghost.svg" />
+					<IonIcon icon="/icons/wolf-trap.svg" />
+					<IonIcon icon="/icons/barbed-arrow.svg" />
+					<IonIcon icon="/icons/bowman.svg" />
+					<IonIcon icon="/icons/embraced-energy.svg" />
+					<IonIcon icon="/icons/magic-palm.svg" />
+					<IonIcon icon="/icons/magic-swirl.svg" />
+					<IonIcon icon="/icons/mailed-fist.svg" />
+					<IonIcon icon="/icons/muscle-up.svg" />
+					<IonIcon icon="/icons/shield-reflect.svg" />
+					<IonIcon icon="/icons/smoking-finger.svg" />
+					<IonIcon icon="/icons/tornado-discs.svg" />
 				</p>
 			</IonLabel></IonItem>
 			<IonItem><IonLabel>
 				<p>The following icons are by <a href="https://delapouite.com/">Delapouite</a>. (CC BY 3.0)</p>
 				<p className="icons">
-					<IonIcon icon="/public/icons/skills.svg" />
-					<IonIcon icon="/public/icons/person.svg" />
-					<IonIcon icon="/public/icons/mighty-force.svg" />
-					<IonIcon icon="/public/icons/sparkles.svg" />
-					<IonIcon icon="/public/icons/confirmed.svg" />
-					<IonIcon icon="/public/icons/ancient-sword.svg" />
-					<IonIcon icon="/public/icons/shield-bash.svg" />
-					<IonIcon icon="/public/icons/elephant.svg" />
+					<IonIcon icon="/icons/skills.svg" />
+					<IonIcon icon="/icons/person.svg" />
+					<IonIcon icon="/icons/mighty-force.svg" />
+					<IonIcon icon="/icons/sparkles.svg" />
+					<IonIcon icon="/icons/ancient-sword.svg" />
+					<IonIcon icon="/icons/shield-bash.svg" />
+					<IonIcon icon="/icons/elephant.svg" />
+					<IonIcon icon="/icons/confirmed.svg" />
+					<IonIcon icon="/icons/armor-downgrade.svg" />
+					<IonIcon icon="/icons/armor-upgrade.svg" />
+					<IonIcon icon="/icons/cherish.svg" />
+					<IonIcon icon="/icons/rolling-dices.svg" />
+					<IonIcon icon="/icons/spell-book.svg" />
 				</p>
 			</IonLabel></IonItem>
 			<IonItem>
-				<IonIcon icon="/public/icons/abstract-091.svg" slot="start" />
+				<IonIcon icon="/icons/abstract-091.svg" slot="start" />
 				<IonLabel>
 					<p>Icon by <a href="https://viscious-speed.deviantart.com/">Viscious Speed</a>.</p>
 				</IonLabel>
 			</IonItem>
 			<IonItem>
-				<IonIcon icon="/public/icons/orb-wand.svg" slot="start" />
+				<IonIcon icon="/icons/orb-wand.svg" slot="start" />
 				<IonLabel>
 					<p>Icon by <a href="https://wjbstories.blogspot.com/">Wildabeast</a>.</p>
 				</IonLabel>
 			</IonItem>
 			<IonItem>
-				<IonIcon icon="/public/icons/read.svg" slot="start" />
+				<IonIcon icon="/icons/read.svg" slot="start" />
 				<IonLabel>
 					<p>Icon by <a href="https://game-icons.net/">Skoll</a>.</p>
 				</IonLabel>
 			</IonItem>
 			<IonItem>
-				<IonIcon icon="/public/icons/spikes-half.svg" slot="start" />
+				<IonIcon icon="/icons/spikes-half.svg" slot="start" />
 				<IonLabel>
 					<p>Icon by <a href="https://opengameart.org/content/95-game-icons">sbed</a>.</p>
 				</IonLabel>
 			</IonItem>
 			<IonItem>
-				<IonIcon icon="/public/icons/overlap.svg" slot="start" />
+				<IonIcon icon="/icons/overlap.svg" slot="start" />
 				<IonLabel>
 					<p>Icon by <a href="https://thenounproject.com/browse/icons/term/overlap/">Alec Dhuse</a>. (CC BY 3.0)</p>
 				</IonLabel>
@@ -81,9 +95,9 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 			<IonItem><IonLabel>
 				<p>The following icons are by <a href="https://fonts.google.com/icons">Google</a>.</p>
 				<p className="icons">
-					<IonIcon icon="/public/icons/find-in-page.svg" />
-					<IonIcon icon="/public/icons/input.svg" />
-					<IonIcon icon="/public/icons/swipe-left.svg" />
+					<IonIcon icon="/icons/find-in-page.svg" />
+					<IonIcon icon="/icons/input.svg" />
+					<IonIcon icon="/icons/swipe-left.svg" />
 				</p>
 			</IonLabel></IonItem>
 			<IonItem><IonLabel>

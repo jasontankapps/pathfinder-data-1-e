@@ -11,8 +11,13 @@ export const makeAbilityBlock = ({
 	logError
 }) => {
 	const {
-		id, icon,
-		l, levels, spells, imp,
+		id, icon, l,
+		l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,
+		l11,l12,l13,l14,l15,l16,l17,l18,l19,l20,
+		s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,
+		s11,s12,s13,s14,s15,s16,s17,s18,s19,s20,
+		i0,imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,
+		imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20,
 		standard, swift, immediate,
 		fullround, move, free,
 		provokes, special,
@@ -29,7 +34,7 @@ export const makeAbilityBlock = ({
 	// CONSTRUCT ICON
 	//
 	const svg = () => {
-		return icon.split("-").map(i => {
+		return (icon || "").split("-").map(i => {
 			switch(i) {
 				case "melee": { // melee attack, combat maneuver
 					return "mailed-fist";
@@ -76,6 +81,9 @@ export const makeAbilityBlock = ({
 				case "lower": { // lower another's defenses
 					return "armor-downgrade";
 				}
+				case "roll": { // change to how you roll dice
+					return "rolling-dices";
+				}
 			}
 			logError(`---> Missing or invalid icon [${i}]`);
 			return "confirmed";
@@ -89,29 +97,47 @@ export const makeAbilityBlock = ({
 	//
 	// LEVEL-BASED NOTES
 	//
-	if(spells) {
+	if(
+		s0 || s1 || s2 || s3 || s4 || s5 || s6 || s7 || s8 || s9 || s10
+		|| s11 || s12 || s13 || s14 || s15 || s16 || s17 || s18 || s19 || s20
+	) {
 		// Spells granted based on character level
 		// Title should indicate how the spells are gained, what the level column means, etc.
-		spells.split(/~~/).forEach((bit) => {
-			const [lev, text, extra] = bit.split(/~/);
-			const level = ordinal(lev);
-			output.push(
-				`<div className="abPair">`
-				+ `<div className="abStart plain">${level}</div>`
-				+ `<div className="abEnd simple">${doParse(`{spell/${text}}`)}${extra || ""}</div></div>`
-			);
-		});
-	} else if(levels) {
+		[s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20]
+			.forEach((bit, i) => {
+				if(!bit) {
+					return;
+				}
+				const spells = bit.split(/~~/).map(line => {
+					const [text, extra] = line.split(/~/);
+					return `{spell/${text}}${extra || ""}`;
+				}).join(", ");
+				const level = i && ordinal(i);
+				output.push(
+					`<div className="abPair">`
+					+ `<div className="abStart plain">${level}</div>`
+					+ `<div className="abEnd simple">${doParse(spells)}</div></div>`
+				);
+			}
+		);
+	} else if(
+		l1 || l2 || l3 || l4 || l5 || l6 || l7 || l8 || l9 || l10
+		|| l11 || l12 || l13 || l14 || l15 || l16 || l17 || l18 || l19 || l20
+	) {
 		// Levels show increasing abilities based on level
-		levels.split(/~~/).forEach((bit) => {
-			const [lev, text] = bit.split(/~/);
-			const level = ordinal(lev);
-			output.push(
-				`<div className="abPair">`
-				+ `<div className="abStart">At ${level} Level</div>`
-				+ `<div className="abEnd">${doParse(text)}</div></div>`
-			);
-		});
+		[l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,l13,l14,l15,l16,l17,l18,l19,l20]
+			.forEach((text, i) => {
+				if(!text) {
+					return;
+				}
+				const level = ordinal(i + 1);
+				output.push(
+					`<div className="abPair">`
+					+ `<div className="abStart">At ${level} Level</div>`
+					+ `<div className="abEnd">${doParse(text)}</div></div>`
+				);
+			}
+		);
 	} else if (l) {
 		// A single level shows when the ability is gained
 		output.push(
@@ -239,15 +265,23 @@ export const makeAbilityBlock = ({
 	//
 	// LEVEL-BASED ACTION IMPROVEMENTS
 	//
-	if(imp) {
-		const improvements = imp.split(/~~/);
-		improvements.forEach(bit => {
-			const [lv, text = ""] = bit.split(/~/);
+	if(
+		imp1 || imp2 || imp3 || imp4 || imp5 || imp6 || imp7 || imp8 || imp9 || imp10
+		|| imp11 || imp12 || imp13 || imp14 || imp15 || imp16 || imp17 || imp18 || imp19 || imp20
+	) {
+		[
+			imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,
+			imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20
+		].forEach((text, i) => {
+			if(!text) {
+				return;
+			}
+			const level = ordinal(i + 1);
 			output.push(
-					`<div className="abPair">`
-					+ `<div className="abStart">At ${ordinal(lv)} Level</div>`
-					+ `<div className="abEnd">${doParse(text)}</div></div>`
-				);
+				`<div className="abPair">`
+				+ `<div className="abStart">At ${level} Level</div>`
+				+ `<div className="abEnd">${doParse(text)}</div></div>`
+			);
 		});
 	}
 

@@ -47,6 +47,12 @@ const Icons: React.FC = () => {
 						</IonLabel>
 					</IonItem>
 					<IonItem>
+						<IonIcon icon="/icons/rolling-dices.svg" color="secondary" slot="start" />
+						<IonLabel className="ion-text-wrap">
+							<p>A change to the outcome of a die roll.</p>
+						</IonLabel>
+					</IonItem>
+					<IonItem>
 						<IonIcon icon="/icons/barbed-arrow.svg" color="secondary" slot="start" />
 						<IonLabel className="ion-text-wrap">
 							<p>A line-effect magical attack.</p>

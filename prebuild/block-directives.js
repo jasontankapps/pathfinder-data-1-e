@@ -14,13 +14,14 @@ import makeAbilityBlock from './block/ab.js';
 import makeSpellListBlock from './block/spelllist.js';
 import makeListBlock from './block/list.js';
 
-const churn = (n, attrs, list, logError) => {
+const churn = (n, attrs, list, regex, logError) => {
 	const found = [];
 	const listing = new Set(list);
 	Object.keys(attrs).forEach(key => {
-		if(!listing.has(key)) {
-			found.push([key, attrs[key]]);
-		}
+		(!listing.has(key))
+			&& (regex.length > 0)
+			&& regex.every(rx => !key.match(rx))
+			&& found.push([key, attrs[key]]);
 	});
 	if(found.length) {
 		logError("\n" + found.map(([key, value]) => `--> ::${n}{${key}=${JSON.stringify(value)}}`).join("\n"));
@@ -51,11 +52,11 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			const maybeClear = attrs.clear ? `<div style={{clear:"both"}}></div>` : "";
 			if(n === "gh") {
 				// General Header
-				churn(n, attrs, ["clear"], logError);
+				churn(n, attrs, ["clear"], [], logError);
 				return `${maybeClear}<p className="statblockHeader">${text}</p>\n`;
 			} else if (n === "mh") {
 				// Monster Header
-				churn(n, attrs, ["cr", "mr", "clear", "jl", "id"], logError);
+				churn(n, attrs, ["cr", "mr", "clear", "jl", "id"], [], logError);
 				const {cr, mr, jl} = attrs;
 				let filler = "";
 				if(jl) {
@@ -70,11 +71,11 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return `${maybeClear}<p className="statblockHeader"${filler}>${text}</p>\n`;
 			} else if (n === "sh") {
 				// Subheader
-				churn(n, attrs, ["clear"], logError);
+				churn(n, attrs, ["clear"], [], logError);
 				return `${maybeClear}<p className="statblockSubHeader">${text}</p>\n`;
 			} else if (n === "th") {
 				// Template Header
-				churn(n, attrs, ["clear", "cr", "source", "acquired", "inherited", "simple", "summonable", "maybesummon"], logError);
+				churn(n, attrs, ["clear", "cr", "source", "acquired", "inherited", "simple", "summonable", "maybesummon"], [], logError);
 				const {cr, source, acquired, inherited, simple, summonable, maybesummon} = attrs;
 				const head = `<div style={{clear:"both"}}></div><p className="statblockHeaderFull">`
 					+ `<span>${text}</span><span>CR ${cr}</span></p>\n`;
@@ -89,7 +90,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					+`<strong>Usable with Summons</strong> ${summons}</p>\n`;
 			} else if (n === "fh") {
 				// Faith Header
-				churn(n, attrs, ["clear", "sub"], logError);
+				churn(n, attrs, ["clear", "sub"], [], logError);
 				const {sub} = attrs;
 				if(sub) {
 					return `${maybeClear}<div className="headerLike"><div>${text}</div><div className="sub">${sub}</div></div>\n`;
@@ -97,7 +98,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return `${maybeClear}<div className="headerLike">${text}</div>\n`;
 			} else if (n === "ph") {
 				// Plane Header
-				churn(n, attrs, ["clear", "sub", "desc", "cat"], logError);
+				churn(n, attrs, ["clear", "sub", "desc", "cat"], [], logError);
 				const {sub, desc, cat} = attrs;
 				let main = `<p className="statblockHeader"><span>${text}</span></p>`;
 				if(sub) {
@@ -112,16 +113,16 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				return maybeClear + main + "\n";
 			} else if (n === "mhr") {
 				// Main page Horizontal rule
-				churn(n, attrs, ["clear"], logError);
+				churn(n, attrs, ["clear"], [], logError);
 				flags.divider = true;
 				return `${maybeClear}<IonItemDivider className="mainItem divider"></IonItemDivider>`;
 			} else if (n === "mainheader") {
-				churn(n, attrs, ["clear", "id"], logError);
+				churn(n, attrs, ["clear", "id"], [], logError);
 				flags.divider = true;
 				flags.label = true;
 				return `${maybeClear}<IonItemDivider className="mainItem"${attrs.id ? ` id="${prefix}${attrs.id}"` : ""}><IonLabel>${text}</IonLabel></IonItemDivider>`;
 			} else if (n === "main") {
-				churn(n, attrs, ["clear", "ind", "rev", "to", "end", "endem", "bottom"], logError);
+				churn(n, attrs, ["clear", "ind", "rev", "to", "end", "endem", "bottom"], [], logError);
 				const {ind, rev, to, end, endem, bottom} = attrs;
 				flags.mainlink = true;
 				let cn;
@@ -148,7 +149,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				}
 				return `${maybeClear}${output}info="${text}" />`;
 			} else if ("h2h3h4h5h6".indexOf(n) >= 0) {
-				churn(n, attrs, ["clear","jl","id","extra"], logError);
+				churn(n, attrs, ["clear","jl","id","extra"], [], logError);
 				if(attrs.jl) {
 					const id = prefix + (attrs.id || linkify(text));
 					addToJumpList(text, id, attrs.jl);
@@ -159,7 +160,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				}
 				return `${maybeClear}<${n}>${text}</${n}>`;
 			} else if ("hl2hl3hl4hl5hl6".indexOf(n) >= 0) {
-				churn(n, attrs, ["clear","pre","post","extra","jl","id"], logError);
+				churn(n, attrs, ["clear","pre","post","extra","jl","id"], [], logError);
 				const m = checkForEncodedLink(text, { bare: true });
 				const t = "h" + n.slice(-1);
 				if(!m) {
@@ -190,7 +191,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"clear","l","c","r",
 					"g1","g1info",
 					"other","sep"
-				], logError);
+				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makePrerequisiteBlock(marked2, flags, maybeClear, attrs, convertEncodedInfo);
 			} else if (n === "aff") {
@@ -203,18 +204,9 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"track", "trackmod",
 					"freq","freqR","freqM","freqH","freqD",
 					"eff","ineff","seceff",
-					"effStr", "effStrD", "effDex", "effDexD", "effCon", "effConD",
-					"effInt", "effIntD", "effWis", "effWisD", "effCha", "effChaD",
-					"effExtra", "effOr",
-					"ineffStr", "ineffStrD", "ineffDex", "ineffDexD", "ineffCon", "ineffConD",
-					"ineffInt", "ineffIntD", "ineffWis", "ineffWisD", "ineffCha", "ineffChaD",
-					"ineffExtra", "ineffOr",
-					"seceffStr", "seceffStrD", "seceffDex", "seceffDexD", "seceffCon", "seceffConD",
-					"seceffInt", "seceffIntD", "seceffWis", "seceffWisD", "seceffCha", "seceffChaD",
-					"seceffExtra", "seceffOr",
 					"cure","cure1","cure2","cure2c","cure3","cure3c",
 					"extra","start","nolink"
-				], logError);
+				], [ /^(in|sec)?eff((Str|Int|Dex|Con|Wis|Cha)D?|Extra|Or)$/ ], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeAfflictionBlock(marked2, flags, convertEncodedInfo, maybeClear, text, attrs, logError);
 			} else if (n === "drug") {
@@ -225,7 +217,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"price","eff1","eff2",
 					"dmg","dmgStr","dmgDex","dmgCon","dmgInt","dmgWis","dmgCha",
 					"start"
-				], logError);
+				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				const id = prefix + linkify(text + "-haunt");
 				return makeDrugBlock(marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError);
@@ -236,7 +228,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"pdc", "dddc", "trigger",
 					"manual", "automatic", "repair", "eff",
 					"start", "clear"
-				], logError);
+				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				const id = prefix + linkify(text + "-haunt");
 				return makeTrapBlock(marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError);
@@ -245,7 +237,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				churn(n, attrs, [
 					"notice", "hp", "weak", "trigger", "reset",
 					"start", "clear"
-				], logError);
+				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				const id = prefix + linkify(text + "-haunt");
 				return makeHauntBlock(marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError);
@@ -277,7 +269,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"willHalf", "willPartial", "svHarmless", "svObject",
 					"sr", "srY", "srN", "srHarmless", "srObject",
 					"harmless", "object"
-				], logError);
+				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeSpellBlock(marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "spelldeitynote") {
@@ -295,7 +287,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"sen", "senSpell", "dv", "llv", "keenScent", "scent", "thoughtsense", "greensight", "lifesense",
 						"xray", "aav", "mistsight", "sid", "blindsight", "blindsense", "tremorsense", "pcp",
 					"aura"
-				], logError);
+				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterInfoBlock(marked2, parseSOURCE, convertEncodedInfo, maybeClear, attrs, text, logError);
 			} else if (n === "mdefense") {
@@ -309,7 +301,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"ferocity", "amorph", "aav", "incorp", "noB",
 					"eva", "impEva", "unc", "impUnc",
 					"weak", "vulner"
-				], logError);
+				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterDefenseBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "moffense") {
@@ -329,23 +321,22 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"attach", "bloodRage", "fSwallow", "ferocity", "gaze",
 					"pounce", "smother", "strangle",
 					"next"
-				], logError);
+				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterOffenseBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "mspell") {
 				churn(n, attrs, [
 					"clear", "cl", "con",
 					"sla", "atWill", "constant", "day", "hour", "week", "month", "year", "other",
-					"l0", "l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8", "l9",
 					"prep", "ex", "know",
 					"psy", "psyMag", "pe", "peP",
 					"title", "data", "newLine",
 					"next"
-				], logError);
+				], [ /^l[0-9]$/ ], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterSpellBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "mfn") {
-				churn(n, attrs, ["clear"], logError);
+				churn(n, attrs, ["clear"], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterFootnoteBlock(marked2, convertEncodedInfo, text);
 			} else if (n === "mstats") {
@@ -355,16 +346,16 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"feats", "skills", "racial", "lang", "sq",
 					"combat", "othergear", "gear",
 					"faith", "next"
-				], logError);
+				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterStatisticsBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "meco") {
-				churn(n, attrs, [ "clear", "env", "org", "treasure" ], logError);
+				churn(n, attrs, [ "clear", "env", "org", "treasure" ], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeMonsterEcologyBlock(marked2, convertEncodedInfo, maybeClear, attrs, logError);
 			} else if (n === "archetype") {
 				// Archetype
-				churn(n, attrs, ["clear", "c", "r", "e"], logError);
+				churn(n, attrs, ["clear", "c", "r", "e"], [], logError);
 				const {c, r, e} = attrs;
 				flags.link = true;
 				const link = convertTextToLink(text);
@@ -381,7 +372,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "ab") {
 				churn(n, attrs, [
 					"clear", "id", "icon",
-					"l", "levels", "spells", "imp",
+					"l", "imp",
 					"standard", "swift", "immediate",
 					"fullround", "move", "free",
 					"provokes", "special",
@@ -391,7 +382,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"useInc", "useL3",
 					"useMod", "useMod3",
 					"useUnit"
-				], logError);
+				], [ /^(([sl]|imp)(1?[1-9]|[12]0)|s0)$/ ], logError);
 				flags.icon = true;
 				flags.link = true;
 				const marked2 = makeNewMarkedInstance();
@@ -404,7 +395,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				churn(n, attrs, [
 					"clear", "all", "link", "and",
 					"hl", "sep", "comma"
-				], logError);
+				], [], logError);
 				attrs.link && (flags.link = true);
 				return makeListBlock({
 					text, maybeClear,
@@ -412,9 +403,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				});
 			} else if (n === "spelllist") {
 				churn(n, attrs, [
-					"clear", "all", "all0", "save", "from", "extra",
-					"l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8", "l9", "l0"
-				], logError);
+					"clear", "all", "all0", "save", "from", "extra"
+				], [ /^l[0-9]$/ ], logError);
 				flags.icon = true;
 				flags.link = true;
 				const marked2 = makeNewMarkedInstance();
