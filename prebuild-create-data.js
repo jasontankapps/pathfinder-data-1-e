@@ -383,8 +383,12 @@ const postprocess = (tables) => {
 		text = output + text;
 		output = "";
 		//<td>
-		//Add "ion-activatable" class to <td>
-		while(m = text.match(/^(.*?)<td( align="[^"]+")?>(.*?<[/]td>)(.*)$/)) {
+		//Add "ion-activatable" class to <td> where needed
+		//<Link to="/${link}">${text}<IonRippleEffect /></Link>
+		//   /^(.*?)<td( align="[^"]+")?>(.*?<[/]td>)(.*)$/
+		while(m = text.match(
+			/^(.*?)<td( align="[^"]+")?>(\s*<Link to="[^"]+">[^<]+<IonRippleEffect [/]><[/]Link>\s*<[/]td>)(.*)$/)
+		) {
 			const [, pre, align, td, post] = m;
 			output = output + `${pre}<td${align || ""} className="ion-activatable">${td}`;
 			text = post;

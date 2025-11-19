@@ -33,7 +33,7 @@ export const ThLink: FC<ThProps> = (props) => {
 	};
 	const keydown = (e: KE<HTMLTableCellElement>) => e.key === "Enter" && invoke();
 	const onclick= () => invoke();
-	const className = cn ? `${cn} ion-activateable thLink` : "ion-activateable thLink";
+	const className = cn ? `${cn} ion-activatable thLink` : "ion-activatable thLink";
 	return (
 		<th className={className} tabIndex={0} role="link" onKeyDown={keydown} onClick={onclick} {...etc}>
 			{children}
