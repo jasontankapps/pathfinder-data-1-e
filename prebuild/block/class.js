@@ -13,7 +13,7 @@ export const makeClassBlock = ({maybeClear, attrs}) => {
 	const {
 		al, any,
 		lg, ln, le, ng, n, ne, cg, cn, ce,
-		hd, wealth, skp,
+		hd, wealth, parent, skp,
 		acro, app, bluff, climb, craft, diplo,
 		dis, ddev, ea, fly, ha, heal, intm,
 		ka, kd, ke, kg, kh, kl, kna, kno, kp, kr,
@@ -38,6 +38,10 @@ export const makeClassBlock = ({maybeClear, attrs}) => {
 	// HIT DIE
 	//
 	output.push(`<tr><th scope="row">Hit Die</th><td colSpan={2}>d${hd}</td></tr>`);
+	//
+	// PARENT(S)
+	//
+	output.push(`<tr><th scope="row">Parent Class(es)</th><td colSpan={2}>${parent}</td></tr>`);
 	//
 	// WEALTH
 	//
@@ -114,7 +118,7 @@ export const makeClassBlock = ({maybeClear, attrs}) => {
 	output.push(
 		`</tbody></table>`
 	);
-	return output.join("");
+	return output.join("") + "\n";
 }
 
 export const makeProfBlock = ({maybeClear, attrs, marked2, flags}) => {
@@ -206,5 +210,5 @@ export const makeProfBlock = ({maybeClear, attrs, marked2, flags}) => {
 			marked2.parseInline(extra)
 		}</td></tr>`)
 	}
-	return output.join("") + `</tbody></table>`;
+	return output.join("") + `</tbody></table>\n`;
 };

@@ -378,6 +378,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"fullround", "move", "free",
 					"provokes", "special",
 					"ability", "passive",
+					"order",
 					"usage", "useNC",
 					"useL", "useM",
 					"useInc", "useL3",
@@ -421,7 +422,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				churn(n, attrs, [
  					"clear", "al", "any",
 					"lg", "ln", "le", "ng", "n", "ne", "cg", "cn", "ce",
-					"hd", "wealth", "skp",
+					"hd", "parent", "wealth", "skp",
 					"acro", "app", "bluff", "climb", "craft", "diplo",
 					"dis", "ddev", "ea", "fly", "ha", "heal", "intm",
 					"ka", "kd", "ke", "kg", "kh", "kl", "kna", "kno", "kp", "kr",

@@ -23,6 +23,7 @@ export const makeAbilityBlock = ({
 		fullround, move, free,
 		provokes, special,
 		passive, ability,
+		order,
 		usage, useNC,
 		useL, useM, useInc, useL3, // default useUnit is "round"
 		useMod, useMod3, // default useUnit is "time"
@@ -86,7 +87,7 @@ export const makeAbilityBlock = ({
 					return "rolling-dices";
 				}
 			}
-			logError(`---> Missing or invalid icon [${i}]`);
+			logError(`---> Missing or invalid icon [${i}][${text}]`);
 			return "confirmed";
 		});
 	};
@@ -219,6 +220,53 @@ export const makeAbilityBlock = ({
 			+ `<div className="abStart">${ability}</div>`
 			+ `<div className="abEnd">${contents}</div></div>`
 		);
+	} else if (order) {
+		const path = order.split("");
+		path.forEach(ab => {
+			let title = "", what = "";
+			switch(ab) {
+				case "s":
+					title = "Standard Action";
+					what = standard;
+					break;
+				case "m":
+					title = "Move-Equivalent Action";
+					what = move;
+					break;
+				case "w":
+					title = "Swift Action";
+					what = swift;
+					break;
+				case "i":
+					title = "Immediate Action";
+					what = immediate;
+					break;
+				case "r":
+					title = "Full-Round Action";
+					what = fullround;
+					break;
+				case "f":
+					title = "Free Action";
+					what = free;
+					break;
+				case "p":
+					title = "Passive Ability";
+					what = passive;
+					break;
+				case "a":
+					title = "Ability";
+					what = ability;
+					break;
+				default:
+					logError(`Invalid token [${ab}] in order attribute [${text}]`);
+					return;
+			}
+		output.push(
+				`<div className="abPair">`
+				+ `<div className="abStart">${title}</div>`
+				+ `<div className="abEnd">${doParse(what)}</div></div>`
+			);
+		});
 	} else if(standard || swift || fullround || move || immediate || free) {
 		output.push(
 				`<div className="abPair">`
@@ -287,8 +335,8 @@ export const makeAbilityBlock = ({
 	}
 
 	return `${maybeClear}<div className="ability p">`
-		+ `<div className="abIcon"><Link to="/icons">${iconBox}</Link></div>`
-		+ `${output.join("\n")}</div>`;
+		+ `<div className="abIcon"><Link to="/icons">${iconBox}</Link></div>\n`
+		+ `${output.join("\n")}</div>\n`;
 };
 
 export default makeAbilityBlock;
