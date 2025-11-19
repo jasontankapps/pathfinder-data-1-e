@@ -4,6 +4,7 @@ import writtenNumber from "written-number";
 export const makeAbilityBlock = ({
 	marked2,
 	prefix,
+	jlid,
 	text,
 	convertEncodedInfo,
 	maybeClear,
@@ -16,7 +17,7 @@ export const makeAbilityBlock = ({
 		l11,l12,l13,l14,l15,l16,l17,l18,l19,l20,
 		s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,
 		s11,s12,s13,s14,s15,s16,s17,s18,s19,s20,
-		i0,imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,
+		imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,
 		imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20,
 		standard, swift, immediate,
 		fullround, move, free,
@@ -93,7 +94,7 @@ export const makeAbilityBlock = ({
 	//
 	// TITLE
 	//
-	output.push(`<div className="title abSingle" id="${prefix}${id}" data-hash-target>${doParse(text)}</div>`);
+	output.push(`<div className="title abSingle" id="${jlid || prefix + id}" data-hash-target>${doParse(text)}</div>`);
 	//
 	// LEVEL-BASED NOTES
 	//
@@ -142,8 +143,8 @@ export const makeAbilityBlock = ({
 		// A single level shows when the ability is gained
 		output.push(
 			`<div className="abPair">`
-			+ `<div className="abStart">Gained at</div>`
-			+ `<div className="abEnd">${ordinal(l)} Level</div></div>`
+			+ `<div className="abStart">Gained</div>`
+			+ `<div className="abEnd">At ${ordinal(l)} Level</div></div>`
 		);
 	}
 	//

@@ -567,10 +567,19 @@ table tr td {
 	border-width: 0 var(--full-width) var(--half-width) 0;
 	text-align: center;
 	vertical-align: middle;
-	font-size: 0.875rem;
-	line-height: 1.25rem;
 	/* This is so linked cells will ripple */
 	position: relative;
+}
+table tr th,
+table tr td,
+table tr th li,
+table tr td li {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+table tr th li + li,
+table tr td li + li {
+	margin-block-start: 0.25rem;
 }
 .lastColumnStart table tr td:last-child,
 .firstColumnStart table tr td:first-child {
@@ -989,6 +998,73 @@ table.basic {
 table.basic tr th,
 table.basic tr td {
 	border-width: var(--full-width) !important;
+}
+
+/* Class Blocks */
+
+table.class th {
+	text-align: end;
+	background: var(--table-header-bg);
+	color: var(--table-header-fg);
+}
+table.class td {
+	text-align: start;
+}
+table.class td.c {
+	text-align: center;
+}
+
+table.class {
+	border-radius: 1rem;
+	border-width: var(--full-width) 0 0 var(--full-width);
+	margin: 1rem auto;
+}
+table.class > tbody > tr > td,
+table.class > tbody > tr > th,
+table.class > thead > tr > th {
+	border-width: 0 var(--full-width) var(--full-width) 0;
+	position: relative;
+}
+table.class .nw {
+	border-radius: 1rem 0 0 0;
+}
+table.class .ne {
+	border-radius: 0 1rem 0 0;
+}
+table.class .ne.nw {
+	border-radius: 1rem 1rem 0 0;
+}
+table.class .sw {
+	border-radius: 0 0 0 1rem;
+}
+table.class .se {
+	border-radius: 0 0 1rem 0;
+}
+table.class .se.sw {
+	border-radius: 0 0 1rem 1rem;
+}
+
+table.class td .colFlex {
+	display: inline-flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+table.alignment,
+table.alignment td {
+	border-color: transparent;
+	margin: 0.5rem;
+	text-align: center;
+}
+table.alignment td {
+	opacity: 0.5;
+	color: var(--ion-color-danger);
+}
+table.alignment td[data-lit] {
+	background: var(--ion-text-color);
+	color: var(--ion-background-color);
+	opacity: 1;
 }
 
 /* Ability Boxes */

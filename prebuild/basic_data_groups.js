@@ -258,6 +258,7 @@ import main35 from '../json/main35.json' with {type: 'json'};
 import main36 from '../json/main36.json' with {type: 'json'};
 import main37 from '../json/main37.json' with {type: 'json'};
 import main38 from '../json/main38.json' with {type: 'json'};
+import main39 from '../json/main39.json' with {type: 'json'};
 import monster1 from '../json/monsters01.json' with {type: 'json'};
 import monster2 from '../json/monsters02.json' with {type: 'json'};
 import monster3 from '../json/monsters03.json' with {type: 'json'};
@@ -2813,6 +2814,13 @@ const basic_data_groups = {
 		datatype: "main",
 		link: "main",
 		num: 38,
+		type: "General Info"
+	},
+	"main39": {
+		data: main39,
+		datatype: "main",
+		link: "main",
+		num: 39,
 		type: "General Info"
 	},
 	"monsters01": {

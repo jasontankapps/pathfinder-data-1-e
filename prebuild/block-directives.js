@@ -13,6 +13,7 @@ import makePrerequisiteBlock from './block/prereq.js';
 import makeAbilityBlock from './block/ab.js';
 import makeSpellListBlock from './block/spelllist.js';
 import makeListBlock from './block/list.js';
+import { makeClassBlock, makeProfBlock } from './block/class.js';
 
 const churn = (n, attrs, list, regex, logError) => {
 	const found = [];
@@ -41,7 +42,7 @@ const convertEncodedInfo = (input) => {
 
 const getBlockDirectives = (globalVariable, marker = "::") => {
 	const $ = globalVariable;
-	const linkify = (input) => input.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, "");
+	const makeValidID = (input) => input.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, "");
 	return {
 		level: "block",
 		marker,
@@ -60,7 +61,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				const {cr, mr, jl} = attrs;
 				let filler = "";
 				if(jl) {
-					const id = prefix + (attrs.id || linkify(text));
+					const id = prefix + (attrs.id || makeValidID(text));
 					addToJumpList(text, id, jl);
 					filler = ` id="${id}" data-hash-target`;
 				}
@@ -151,7 +152,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if ("h2h3h4h5h6".indexOf(n) >= 0) {
 				churn(n, attrs, ["clear","jl","id","extra"], [], logError);
 				if(attrs.jl) {
-					const id = prefix + (attrs.id || linkify(text));
+					const id = prefix + (attrs.id || makeValidID(text));
 					addToJumpList(text, id, attrs.jl);
 					if(attrs.extra) {
 						return `${maybeClear}<${n} id="${id}" data-hash-target>${text} ${attrs.extra}</${n}>\n`;
@@ -181,7 +182,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					inner = `${inner} ${extra}`;
 				}
 				if(attrs.jl) {
-					const id = prefix + (attrs.id || linkify(linktext));
+					const id = prefix + (attrs.id || makeValidID(linktext));
 					addToJumpList(linktext, id, attrs.jl);
 					return `${maybeClear}<${t} id="${id}" data-hash-target>${inner}</${t}>\n`;
 				}
@@ -219,7 +220,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"start"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
-				const id = prefix + linkify(text + "-haunt");
+				const id = prefix + makeValidID(text + "-haunt");
 				return makeDrugBlock(marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError);
 			} else if (n === "trap") {
 				// Trap
@@ -230,7 +231,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"start", "clear"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
-				const id = prefix + linkify(text + "-haunt");
+				const id = prefix + makeValidID(text + "-haunt");
 				return makeTrapBlock(marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError);
 			} else if (n === "haunt") {
 				// Haunt
@@ -239,7 +240,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"start", "clear"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
-				const id = prefix + linkify(text + "-haunt");
+				const id = prefix + makeValidID(text + "-haunt");
 				return makeHauntBlock(marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError);
 			} else if (n === "spell") {
 				// Spell
@@ -371,7 +372,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				);
 			} else if (n === "ab") {
 				churn(n, attrs, [
-					"clear", "id", "icon",
+					"clear", "jl", "id", "icon",
 					"l", "imp",
 					"standard", "swift", "immediate",
 					"fullround", "move", "free",
@@ -386,8 +387,12 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				flags.icon = true;
 				flags.link = true;
 				const marked2 = makeNewMarkedInstance();
+				const jlid = prefix + (attrs.id || makeValidID(text));
+				if(attrs.jl) {
+					addToJumpList(text, jlid, attrs.jl);
+				}
 				return makeAbilityBlock({
-					marked2, prefix, text,
+					marked2, prefix, jlid, text,
 					convertEncodedInfo, maybeClear,
 					attrs, logError
 				});
@@ -412,6 +417,29 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					marked2, text, convertEncodedInfo,
 					maybeClear, attrs, temp
 				});
+			} else if (n === "class") {
+				churn(n, attrs, [
+ 					"clear", "al", "any",
+					"lg", "ln", "le", "ng", "n", "ne", "cg", "cn", "ce",
+					"hd", "wealth", "skp",
+					"acro", "app", "bluff", "climb", "craft", "diplo",
+					"dis", "ddev", "ea", "fly", "ha", "heal", "intm",
+					"ka", "kd", "ke", "kg", "kh", "kl", "kna", "kno", "kp", "kr",
+					"ling", "per", "perf", "prof", "ride", "sm", "soh",
+					"spc", "stl", "sur", "swim", "umd"
+				], [], logError);
+				flags.link = true;
+				return makeClassBlock({maybeClear, attrs});
+			} else if (n === "prof") {
+				churn(n, attrs, [
+ 					"clear",
+					"simple", "martial", "weaps", "wExtra",
+					"light", "medium", "heavy",
+					"shields", "tower", "aExtra",
+					"extra"
+				], [], logError);
+				const marked2 = makeNewMarkedInstance();
+				return makeProfBlock({maybeClear, attrs, marked2, flags})
 			}
 			return false;
 		}

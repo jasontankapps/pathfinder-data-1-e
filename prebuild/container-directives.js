@@ -39,7 +39,14 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 						},
 						...etc
 					};
-					return makeAbilityBlock({ marked2, prefix, text: title, convertEncodedInfo, maybeClear: "", attrs: myAttrs, logError });
+					const jlid = prefix + (
+						attrs.id
+						|| title.toLowerCase().replace(/ +/g, "-").replace(/[^-a-z0-9]/g, "")
+					);
+					if(jl) {
+						addToJumpList(title, jlid, jl);
+					}
+					return makeAbilityBlock({ marked2, prefix, jlid, text: title, convertEncodedInfo, maybeClear: "", attrs: myAttrs, logError });
 				}
 				case "item": {
 					flags.item = true;
