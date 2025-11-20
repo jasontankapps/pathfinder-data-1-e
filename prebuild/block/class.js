@@ -9,7 +9,7 @@ const constructAlignmentTable = ({any, lg, ln, le, ng, n, ne, cg, cn, ce}) => {
 		+ "</tbody></table>";
 };
 
-export const makeClassBlock = ({maybeClear, attrs}) => {
+export const makeClassBlock = ({maybeClear, attrs, marked2, convertEncodedInfo}) => {
 	const {
 		al, any,
 		lg, ln, le, ng, n, ne, cg, cn, ce,
@@ -41,7 +41,7 @@ export const makeClassBlock = ({maybeClear, attrs}) => {
 	//
 	// PARENT(S)
 	//
-	output.push(`<tr><th scope="row">Parent Class(es)</th><td colSpan={2}>${parent}</td></tr>`);
+	parent && output.push(`<tr><th scope="row">Parent Class(es)</th><td colSpan={2}>${marked2.parseInline(convertEncodedInfo(parent))}</td></tr>`);
 	//
 	// WEALTH
 	//
@@ -121,7 +121,7 @@ export const makeClassBlock = ({maybeClear, attrs}) => {
 	return output.join("") + "\n";
 }
 
-export const makeProfBlock = ({maybeClear, attrs, marked2, flags}) => {
+export const makeProfBlock = ({maybeClear, attrs, marked2, flags, convertEncodedInfo}) => {
 	const {
 		simple, martial, weaps = "",
 		wExtra,
@@ -134,7 +134,7 @@ export const makeProfBlock = ({maybeClear, attrs, marked2, flags}) => {
 	//
 	const output = [
 		`${maybeClear}<table className="class p">`,
-		`<thead><tr><th className="nw ne" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead>`,
+		`<thead><tr><th className="nw ne ion-text-center" scope="col" colSpan={3}>Weapon and Armor Proficiencies</th></tr></thead>`,
 		"<tbody>"
 	];
 	const wL = [];
@@ -150,7 +150,7 @@ export const makeProfBlock = ({maybeClear, attrs, marked2, flags}) => {
 		if(!wp) {
 			return "";
 		} else if(wp.slice(0,1) === "!") {
-			return marked2.parseInline(wp.slice(1));
+			return marked2.parseInline(convertEncodedInfo(wp.slice(1)));
 		}
 		flags.link = true;
 		return `<Link to="/eq-weapon/${convertTextToLink(wp)}">${wp}</Link>`;
@@ -179,21 +179,21 @@ export const makeProfBlock = ({maybeClear, attrs, marked2, flags}) => {
 		pastFirstLine = true;
 	}
 	if(wExtra) {
-		output.push(`${pastFirstLine ? "<tr>" : ""}<td colSpan={2}>${marked2.parseInline(wExtra)}</td></tr>`);
+		output.push(`${pastFirstLine ? "<tr>" : ""}<td colSpan={2}>${marked2.parseInline(convertEncodedInfo(wExtra))}</td></tr>`);
 		pastFirstLine = true;
 	}
-	output.push(`<tr><th>Light Armor?</th><td>${light ? "Yes" : "No"}</td></tr>`);
-	output.push(`<tr><th>Medium Armor?</th><td>${medium ? "Yes" : "No"}</td></tr>`);
-	output.push(`<tr><th>Heavy Armor?</th><td>${heavy ? "Yes" : "No"}</td></tr>`);
+	output.push(`<tr><th>Light Armor?</th><td colSpan={2}>${light ? "Yes" : "No"}</td></tr>`);
+	output.push(`<tr><th>Medium Armor?</th><td colSpan={2}>${medium ? "Yes" : "No"}</td></tr>`);
+	output.push(`<tr><th>Heavy Armor?</th><td colSpan={2}>${heavy ? "Yes" : "No"}</td></tr>`);
 	output.push(`<tr><th${
 		extra || aExtra ? "" : ` className="sw"`
-	}>Shields?</th><td${
+	}>Shields?</th><td colSpan={2}${
 		extra || aExtra ? "" : ` className="se"`
 	}>${
 		shields === "shields" ? (
 			tower ? "Yes, including tower shields" : "Yes, except tower shields"
 		) : (
-			shields ? marked2.parseInline(shields) : "No"
+			shields ? marked2.parseInline(convertEncodedInfo(shields)) : "No"
 		)
 	}</td></tr>`);
 	if(aExtra) {
@@ -202,12 +202,12 @@ export const makeProfBlock = ({maybeClear, attrs, marked2, flags}) => {
 		}>Armor</th><td colSpan={2}${
 			extra ? "" : ` className="se"`
 		}>${
-			marked2.parseInline(aExtra)
+			marked2.parseInline(convertEncodedInfo(aExtra))
 		}</td></tr>`);
 	}
 	if(extra) {
-		output.push(`<tr><td colspan={3} className="sw se">${
-			marked2.parseInline(extra)
+		output.push(`<tr><td colSpan={3} className="sw se">${
+			marked2.parseInline(convertEncodedInfo(extra))
 		}</td></tr>`)
 	}
 	return output.join("") + `</tbody></table>\n`;

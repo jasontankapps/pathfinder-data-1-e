@@ -372,7 +372,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				);
 			} else if (n === "ab") {
 				churn(n, attrs, [
-					"clear", "jl", "id", "icon",
+					"clear", "jl", "id",
+					"sub", "head", "icon",
 					"l", "imp",
 					"standard", "swift", "immediate",
 					"fullround", "move", "free",
@@ -382,9 +383,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"usage", "useNC",
 					"useL", "useM",
 					"useInc", "useL3",
-					"useMod", "useMod3",
 					"useUnit"
-				], [ /^(([sl]|imp)(1?[1-9]|[12]0)|s0)$/ ], logError);
+				], [ /^(([sl]|imp)(1?[1-9]|[12]0)|s0)$/, /^useMod[1-9]?$/ ], logError);
 				flags.icon = true;
 				flags.link = true;
 				const marked2 = makeNewMarkedInstance();
@@ -429,8 +429,9 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"ling", "per", "perf", "prof", "ride", "sm", "soh",
 					"spc", "stl", "sur", "swim", "umd"
 				], [], logError);
+				const marked2 = makeNewMarkedInstance();
 				flags.link = true;
-				return makeClassBlock({maybeClear, attrs});
+				return makeClassBlock({maybeClear, attrs, marked2, convertEncodedInfo});
 			} else if (n === "prof") {
 				churn(n, attrs, [
  					"clear",
@@ -440,7 +441,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"extra"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeProfBlock({maybeClear, attrs, marked2, flags})
+				return makeProfBlock({maybeClear, attrs, marked2, flags, convertEncodedInfo})
 			}
 			return false;
 		}

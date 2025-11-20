@@ -12,7 +12,7 @@ export const makeAbilityBlock = ({
 	logError
 }) => {
 	const {
-		id, icon, l,
+		id, sub, head, icon, l,
 		l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,
 		l11,l12,l13,l14,l15,l16,l17,l18,l19,l20,
 		s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,
@@ -26,7 +26,7 @@ export const makeAbilityBlock = ({
 		order,
 		usage, useNC,
 		useL, useM, useInc, useL3, // default useUnit is "round"
-		useMod, useMod3, // default useUnit is "time"
+		useMod, useMod3, useMod4, // default useUnit is "time"
 		useUnit,
 		containerInfo
 	} = attrs;
@@ -186,6 +186,10 @@ export const makeAbilityBlock = ({
 			const unit = useUnit || "time";
 			return [`3 + ${useMod3} modifier ${unit}s/day`, unit]
 			//3 + Wis modifier times/day
+		} else if (useMod4) {
+			const unit = useUnit || "time";
+			return [`4 + ${useMod4} modifier ${unit}s/day`, unit]
+			//4 + Cha modifier times/day
 		}
 		return null;
 	})();
@@ -334,7 +338,7 @@ export const makeAbilityBlock = ({
 		});
 	}
 
-	return `${maybeClear}<div className="ability p">`
+	return `${maybeClear}<div className="ability ${sub ? "subAbility" : (head ? "hasSubs" : "p")}">`
 		+ `<div className="abIcon"><Link to="/icons">${iconBox}</Link></div>\n`
 		+ `${output.join("\n")}</div>\n`;
 };

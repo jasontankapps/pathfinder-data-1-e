@@ -182,6 +182,9 @@ aside p:first-child::first-letter {
 aside p + p {
 	margin-block-start: 0.5rem;
 }
+div.tableWrap + aside {
+	margin-block-start: 1rem;
+}
 
 div.compressed > p,
 div.compressed > div,
@@ -1057,14 +1060,13 @@ table.alignment td {
 	margin: 0.5rem;
 	text-align: center;
 }
-table.alignment td {
-	opacity: 0.5;
+table.alignment tbody tr td {
 	color: var(--ion-color-danger);
+	background: rgba( var(--ion-background-color-rgb) , 0.25);
 }
 table.alignment td[data-lit] {
 	background: var(--ion-text-color);
 	color: var(--ion-background-color);
-	opacity: 1;
 }
 
 /* Ability Boxes */
@@ -1143,6 +1145,52 @@ div.abPair div.abStart,
 div.abPair div.abEnd {
 	min-height: 2rem;
 }
+div.ability.hasSubs {
+	margin-block-start: 1rem;
+	margin-block-end: 0;
+	border-radius: 0.75rem 0.75rem 0 0.75rem;
+	counter-reset: subcount 0;
+}
+div.ability.hasSubs :is(div.abSingle:last-child, div.abPair:last-child > div) {
+	border-block-end: 2px solid var(--table-border-color);
+}
+div.subAbility {
+	background: var(--ion-item-background);
+	margin-inline-start: 2.75rem;
+	margin-inline-end: 0.25rem;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	border-radius: 0;
+	grid-template-columns: 2.5rem minmax(min-content, 1fr) 4fr;
+}
+div.subAbility div.abIcon {
+	grid-column: 1;
+	grid-row: 2 / span 19;
+}
+div.subAbility div.abIcon + div.abSingle {
+	grid-column: 1 / span 3;
+	border-inline-start-width: 0;
+}
+div.subAbility div.abSingle.title {
+	background: var(--table-bg);
+	counter-increment: subcount 1;
+	text-align: start;
+	border-radius: 0;
+}
+div.subAbility + div.subAbility {
+	border-block-start: 2px solid var(--table-border-color);
+}
+div.subAbility div.abSingle.title::before {
+	content: "(" counter(subcount) ") ";
+}
+/* div.subAbility:not(div.subAbility + div.subAbility):has(+ *:not(div.subAbility)) */
+div.subAbility:has(+ *:not(div.subAbility)),
+div.subAbility:last-child {
+	background: var(--ion-item-background);
+	margin-block-end: 1rem;
+	border-radius: 0 0 0.75rem 0.75rem;
+}
+
 
 ion-list.aboutPage {
 	padding-block: 0;
