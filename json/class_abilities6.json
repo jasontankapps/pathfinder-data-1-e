@@ -1153,5 +1153,33 @@
 			"[^N]: The spellcaster's alignment **must** be True Neutral, or the spellcaster must be a {race/duskwalker} with the {feat/Personal Chronicler} feat."
 		],
 		"topLink": [ "Wizard", "class/wizard" ]
+	},
+	"judgments": {
+		"name": "Inquisitor Judgments",
+		"sources": [ "Advanced Player's Guide" ],
+		"description": [
+			"{SOURCE Advanced Player's Guide/39}",
+			"",
+			"When an inquisitor uses the Judgment ability (as a swift action), she must select one type of judgment to make. As a swift action, she can change this judgment to another type. If the inquisitor is evil, she receives profane bonuses instead of sacred, as appropriate. Neutral inquisitors must select profane or sacred bonuses. Once made, this choice cannot be changed.",
+			"",
+			"::ab[Destruction]{jl clear icon=boost passive=\"You gain a +1 sacred bonus on all weapon damage rolls.\"  imp3=\"The bonus becomes +2.\" imp6=\"The bonus becomes +3.\" imp9=\"The bonus becomes +4.\" imp12=\"The bonus becomes +5.\" imp15=\"The bonus becomes +6.\" imp18=\"The bonus becomes +7.\"}",
+			"",
+			"::ab[Healing]{jl icon=def passive=\"You're surrounded by a healing light, gaining %%umr/fast healing%% 1.\" imp3=\"You instead gain fast healing 2.\" imp6=\"You instead gain fast healing 3.\" imp9=\"You instead gain fast healing 4.\" imp12=\"You instead gain fast healing 5.\" imp15=\"You instead gain fast healing 6.\" imp18=\"You instead gain fast healing 7.\"}",
+			"",
+			"::ab[Justice]{jl icon=boost passive=\"You gain a +1 sacred bonus on all attack rolls.\" imp5=\"The bonus improves to +2.\" imp10=\"The bonus improves to +3, and is doubled on all attack rolls made to confirm critical hits.\" imp15=\"The bonus becomes +4.\" imp20=\"The bonus becomes +5.\"}",
+			"",
+			"::ab[Piercing]{jl icon=def passive=\"You gain a +1 sacred bonus on %%rule/concentration%% checks and caster level checks made to overcome a target's spell resistance.\" imp3=\"Your bonus increases to +2.\" imp6=\"Your bonus increases to +3.\" imp9=\"Your bonus increases to +4.\" imp12=\"Your bonus increases to +5.\" imp15=\"Your bonus increases to +6.\" imp18=\"Your bonus increases to +7.\"}",
+			"",
+			"::ab[Protection]{jl icon=def passive=\"You're surrounded by a protective aura, granting a +1 sacred bonus to Armor Class.\" imp5=\"The bonus improves to +2.\" imp10=\"The bonus improves to +3, and is doubled against attack rolls made to confirm critical hits against you.\" imp15=\"The bonus becomes +4.\" imp20=\"The bonus becomes +5.\"}",
+			"",
+			"::ab[Purity]{jl icon=def passive=\"You gain a +1 sacred bonus on all saving throws.\" imp5=\"The bonus improves to +2.\" imp10=\"The bonus improves to +3, and is doubled against curses, diseases, and poisons.\" imp15=\"The bonus becomes +4.\" imp20=\"The bonus becomes +5.\"}",
+			"",
+			"::ab[Resiliency]{jl icon=def passive=\"You gain %%rule/DR%% 1/magic.\" imp5=\"You instead gain DR 2/magic.\" imp10=\"You instead gain DR 3/chaotic, evil, good, or lawful, whichever is opposite to your alignment. If you are opposite to two, choose only one of them. If you are true neutral, you gain DR 3/magic, instead.\" imp15=\"The DR increases to 4.\" imp20=\"The DR increases to 5.\"}",
+			"",
+			"::ab[Resistance]{jl icon=def passive=\"You gain %%umr/resistance%% 2 against one energy type (acid, cold, electricity, fire, or sonic) chosen when the judgment is declared.\" imp3=\"Your resistance increases to 4.\" imp6=\"Your resistance increases to 6.\" imp9=\"Your resistance increases to 8.\" imp12=\"Your resistance increases to 10.\" imp15=\"Your resistance increases to 12.\" imp18=\"Your resistance increases to 14.\"}",
+			"",
+			"::ab[Smiting]{jl icon=boost passive=\"Your weapons count as magic for the purposes of bypassing %%rule/damage reduction%%.\" imp6=\"Your weapons also count as one alignment type (chaotic, evil, good, or lawful) for the purpose of bypassing damage reduction. The type selected must match one of your alignments. If you're true neutral, you do not receive this bonus.\" imp10=\"Your weapons also count as %%eq-material/adamantine%% for the purpose of overcoming damage reduction (but not for reducing hardness).\"}"
+		],
+		"topLink": [ "Inquisitor", "class/inquisitor" ]
 	}
 }

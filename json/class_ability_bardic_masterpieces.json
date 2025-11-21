@@ -123,7 +123,7 @@
 			"",
 			"The words of your poem weave around your allies and deflect attacks.",
 			"",
-			"::prereq{other=\"Perform (oratory) or Perform (sing) 10 ranks. This masterpiece can be learned from the ancient folio {eq-misc/Songs of Shazathared}\"}",
+			"::prereq{other=\"Perform (oratory) or Perform (sing) 10 ranks. This masterpiece can be learned from the ancient folio %%eq-misc/Songs of Shazathared%%\"}",
 			"",
 			"**Cost:** Feat or 4th-level bard spell known.",
 			"",

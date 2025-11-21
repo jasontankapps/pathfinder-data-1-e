@@ -372,7 +372,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				);
 			} else if (n === "ab") {
 				churn(n, attrs, [
-					"clear", "jl", "id",
+					"clear", "jl", "id", "flavor",
 					"sub", "head", "icon",
 					"l", "imp",
 					"standard", "swift", "immediate",
@@ -420,7 +420,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				});
 			} else if (n === "class") {
 				churn(n, attrs, [
- 					"clear", "al", "any",
+ 					"clear", "al", "any", "alSpecial",
 					"lg", "ln", "le", "ng", "n", "ne", "cg", "cn", "ce",
 					"hd", "parent", "wealth", "skp",
 					"acro", "app", "bluff", "climb", "craft", "diplo",

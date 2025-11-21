@@ -868,7 +868,7 @@
 			"",
 			"::moffense{sp=20 fl=40 perfect melee=\"2 claws +6 (1d4-1)\" specAtt=anathematize next}",
 			"",
-			"::mspell{sla cl=6 con=+9 constant=\"detect magic~detect thoughts|DC 15\" atWill=\"daze|DC 13~greater teleport|self plus 50 lbs. of objects only~mage hand\" day=\"5~bane|DC 14~chill touch|DC 14~doom|DC 14~~3~bestow curse|DC 16~suggestion|DC 16~touch of idiocy|DC 15~~1~blindness/deafness|DC 15~confusion|DC 17~contagion|DC 17~!%%umr/summon%% (level 3; 2 {monster/lesser host devil/s} 50%)\"}",
+			"::mspell{sla cl=6 con=+9 constant=\"detect magic~detect thoughts|DC 15\" atWill=\"daze|DC 13~greater teleport|self plus 50 lbs. of objects only~mage hand\" day=\"5~bane|DC 14~chill touch|DC 14~doom|DC 14~~3~bestow curse|DC 16~suggestion|DC 16~touch of idiocy|DC 15~~1~blindness/deafness|DC 15~confusion|DC 17~contagion|DC 17~!%%umr/summon%% (level 3; 2 %%monster/lesser host devil/s%% 50%)\"}",
 			"",
 			"::mstats{str=8 dex=18 con=12 int=13 wis=15 cha=17 bab=+6 cmb=+4 cmd=19 feats=\"Dodge~Great Fortitude~Improved Initiative\" skills=\"Bluff +12~Fly +23~Intimidate +12~Perception +11~Sense Motive +11~Spellcraft +10~Stealth +17\" lang=\"Infernal; %%umr/telepathy%% 100 ft.\" sq=\"broken curses, infernal bond\"}",
 			"",

@@ -4024,6 +4024,7 @@
 			"spell_resistance_2"
 		]
 	},
+	"dr": { "redirect": "damage_reduction" },
 	"darkvision": {
 		"name": "Darkvision",
 		"sources": [ "PRPG Core Rulebook" ],

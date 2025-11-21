@@ -8,6 +8,7 @@ ion-content{
 p,
 div.p {
 	margin-block: 1rem;
+	line-height: 1.75em;
 }
 
 ion-toast {
@@ -47,10 +48,16 @@ ion-alert h3.alert-sub-title {
 	border-block-start: 0;
 }
 
+blockquote.hanging {
+	margin-block: 1rem;
+	margin-inline-start: 0.5rem;
+	margin-inline-end: 0.25rem;
+}
 blockquote.hanging p {
-	margin-block: 0.25rem;
+	margin-block: 0.5rem;
 	padding-inline-start: 1.5rem;
 	text-indent: -1.5rem;
+	line-height: 1.5em;
 }
 
 p.no-top-margin,
@@ -63,7 +70,7 @@ p.no-bottom-margin {
 
 /*
 	The 'columnar' class attempts to split
-	giant lists into veritcal columns.
+	giant lists into vertical columns.
 */
 
 div.columnar {
@@ -124,28 +131,8 @@ h5, h6 {
 h6 {
 	border-block-start-width: 0.0625rem;
 }
-h1:first-child,
-h2:first-child,
-h3:first-child,
-h4:first-child,
-h5:first-child,
-h6:first-child,
-div.headerLike:first-child,
-.hierarchyInset + h1,
-.hierarchyInset + h2,
-.hierarchyInset + h3,
-.hierarchyInset + h4,
-.hierarchyInset + h5,
-.hierarchyInset + h6,
-.hierarchyInset + div.headerLike,
-.jumpList + h1,
-.jumpList + h2,
-.jumpList + h3,
-.jumpList + h4,
-.jumpList + h5,
-.jumpList + h6,
-.jumpList + div.headerLike,
-p.diminishNextHeader + h3 {
+:is(h1,h2,h3,h4,h5,h6,div.headerLike):first-child,
+:is(.hierarchyInset,.jumpList,p.diminishNextHeader) + :is(h1,h2,h3,h4,h5,h6,div.headerLike) {
 	border-block-start-width: 0;
 }
 div.headerLike {
@@ -186,9 +173,7 @@ div.tableWrap + aside {
 	margin-block-start: 1rem;
 }
 
-div.compressed > p,
-div.compressed > div,
-div.compressed > blockquote,
+div.compressed > :is(p,div,blockquote),
 div.compressed > blockquote > p {
 	margin-block: 0;
 }
@@ -392,8 +377,7 @@ div.main.basicContent ion-list ion-item.mainItem.basic ion-label p {
 	color: var(--ion-text-color);
 	margin-block-end: 0.85rem;
 }
-div.main.basicContent ion-list ion-item.mainItem.basic ion-label th p,
-div.main.basicContent ion-list ion-item.mainItem.basic ion-label td p {
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label :is(th td) p {
 	margin-block-end: 0;
 }
 div.main.basicContent ion-list ion-item.mainItem.basic ion-label h2 {
@@ -412,11 +396,7 @@ div.main.basicContent ion-list ion-item.mainItem.basic ion-label h5 {
 	font-size: 1.15rem;
 	margin-block-end: 1rem;
 }
-div.main.basicContent h2 a,
-div.main.basicContent h3 a,
-div.main.basicContent h4 a,
-div.main.basicContent h5 a,
-div.main.basicContent h6 a {
+div.main.basicContent :is(h2,h3,h4,h5,h6) a {
 	text-decoration: none;
 }
 
@@ -441,9 +421,7 @@ div.main.basicContent h6 a {
 	text-align: end;
 	display: inline-block;
 }
-.hasStatblock p.statblockHeaderFull,
-.hasStatblock p.statblockSubHeader,
-.hasStatblock p.statblockHeader {
+.hasStatblock p:is(.statblockHeaderFull,.statblockSubHeader,.statblockHeader) {
 	text-transform: uppercase;
 	font-variant: small-caps;
 	font-weight: bold;
@@ -453,8 +431,7 @@ div.main.basicContent h6 a {
 	border-style: solid;
 	border-color: var(--ion-text-color);
 }
-.hasStatblock p.statblockHeader *,
-.hasStatblock p.statblockHeaderFull * {
+.hasStatblock p:is(.statblockHeader,.statblockHeaderFull) * {
 	/*
 		This is making a weird fading issue on page load... sometimes.
 		I don't think jumplists (the thing that needs transitions) ever
@@ -467,8 +444,7 @@ div.main.basicContent h6 a {
 	font-weight: normal;
 	font-size: 0.9rem;
 }
-.hasStatblock p.statblockHeaderFull,
-.hasStatblock p.statblockHeader {
+.hasStatblock p:is(.statblockHeader,.statblockHeaderFull) {
 	background: var(--ion-text-color);
 	color: var(--ion-background-color);
 }
@@ -534,17 +510,10 @@ div.tableWrap {
 div.displayTable { /* Dunno if this is needed, but... */
 	display: contents;
 }
-div.displayTable + div.displayTable,
-div.displayTable + div.tableWrap,
-div.tableWrap + div.displayTable,
-div.tableWrap + div.tableWrap {
+div:is(.displayTable,.tableWrap) + div:is(.displayTable,.tableWrap) {
 	margin-block-start: 1rem;
 }
-div.main.basicContent ion-list ion-item.mainItem.basic ion-label div.tableWrap + h2,
-div.main.basicContent ion-list ion-item.mainItem.basic ion-label div.tableWrap + h3,
-div.main.basicContent ion-list ion-item.mainItem.basic ion-label div.tableWrap + h4,
-div.main.basicContent ion-list ion-item.mainItem.basic ion-label div.tableWrap + h5,
-div.main.basicContent ion-list ion-item.mainItem.basic ion-label div.tableWrap + h6 {
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label div.tableWrap + :is(h2,h3,h4,h5,h6) {
 	margin-block-start: 0.75em;
 	margin-block-end: 0.5em;
 }
@@ -560,8 +529,7 @@ table {
 	table-layout: fixed;
 	position: relative;
 }
-table tr th,
-table tr td {
+table tr :is(th, td) {
 	font-variant-numeric: tabular-nums;
 	padding-inline: 0.5rem;
 	padding-block: 0.25rem;
@@ -573,15 +541,12 @@ table tr td {
 	/* This is so linked cells will ripple */
 	position: relative;
 }
-table tr th,
-table tr td,
-table tr th li,
-table tr td li {
+table tr :is(th, td),
+table tr :is(th, td) li {
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 }
-table tr th li + li,
-table tr td li + li {
+table tr :is(th, td) li + li {
 	margin-block-start: 0.25rem;
 }
 .lastColumnStart table tr td:last-child,
@@ -683,8 +648,7 @@ div.sideNoteWrap.singular table tbody tr th {
 	color: var(--table-header-fg);
 	background: var(--table-header-bg);
 }
-div.sideNoteWrap table tbody tr td,
-div.sideNoteWrap table tbody tr th {
+div.sideNoteWrap table tbody tr :is(th, td) {
 	border-width: var(--half-width);
 }
 div.sideNoteWrap table tr:first-of-type th[rowSpan]:first-child,
@@ -743,8 +707,7 @@ div.sideNoteWrap.delist table ul li + li {
 	margin-block-start: 0.25rem;
 }
 div.compilation div.sideNoteWrap table,
-div.compilation div.sideNoteWrap table th,
-div.compilation div.sideNoteWrap table td {
+div.compilation div.sideNoteWrap table :is(th, td) {
 	border-radius: 0 !important;
 }
 
@@ -845,12 +808,12 @@ div.archetype {
 	margin: 1em 0;
 }
 div.archetype p {
-	font-size: 1rem;
 	font-weight: bold;
 	margin: 0;
 }
 div.archetype p:nth-child(n+2) {
 	font-size: 0.875rem;
+	line-height: 1.25rem;
 	font-weight: normal;
 	text-indent: 1.5em;
 }
@@ -960,14 +923,12 @@ section[data-footnotes] li[id] {
 		background-color 0.5s ease-in 1.5s,
 		color 0.5s ease-in 1.5s;
 }
-*[data-hash-target] a,
-ion-item-divider[id] a,
+:is(*[data-hash-target], ion-item-divider[id]) a,
 ion-item-divider[id] ion-label,
 section[data-footnotes] li[id]::before {
 	transition: color 0.5s ease-in 1.5s;
 }
-a.backToPreviousLink,
-span.innerlink.backToPreviousLink {
+:is(a,span.innerlink).backToPreviousLink {
 	color: var(--ion-color-danger) !important;
 }
 
@@ -985,8 +946,7 @@ section[data-footnotes] li[id].highlight::before {
 	transition: color 0.25s ease-out 0s !important;
 }
 *.highlight a,
-ion-item-divider[id].highlight a,
-ion-item-divider[id].highlight ion-label {
+ion-item-divider[id].highlight :is(a, ion-label) {
 	color: var(--ion-color-success-contrast) !important;
 	transition: color 0.25s ease-out 0s !important;
 }
@@ -998,8 +958,7 @@ table.basic {
 	border-collapse: collapse !important;
 	margin: 1rem auto;
 }
-table.basic tr th,
-table.basic tr td {
+table.basic tr :is(th, td) {
 	border-width: var(--full-width) !important;
 }
 
@@ -1022,8 +981,7 @@ table.class {
 	border-width: var(--full-width) 0 0 var(--full-width);
 	margin: 1rem auto;
 }
-table.class > tbody > tr > td,
-table.class > tbody > tr > th,
+table.class > tbody > tr > :is(th, td),
 table.class > thead > tr > th {
 	border-width: 0 var(--full-width) var(--full-width) 0;
 	position: relative;
@@ -1090,12 +1048,19 @@ div.abIcon {
 	flex-flow: column nowrap;
 	align-items: center;
 	justify-content: center;
-	gap: 0.25rem;
+}
+div.abIcon a {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
 }
 div.abSingle {
+	font-size: 1rem;
+	line-height: 1.15em;
 	grid-column: 2 / span 2;
 	place-self: stretch;
-	padding-inline: 0.25rem;
 	border-style: solid;
 	border-color: var(--table-border-color);
 	border-width: 0;
@@ -1108,13 +1073,25 @@ div.abSingle.title {
 	font-weight: bold;
 	text-align: center;
 	border-inline-start-width: 2px;
-	line-height: 2rem;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+div.abSingle.title div.flavor {
+	font-style: italic;
+	font-weight: normal;
+	margin: 0 auto;
+	font-size: 0.9em;
+	line-height: 1em;
+	text-align: center;
 }
 div.abPair {
 	display: contents;
 }
 div.abStart,
 div.abEnd {
+	font-size: 1rem;
+	line-height: 1.25em;
 	border-style: solid;
 	border-color: var(--table-border-color);
 	border-width: 0;
@@ -1123,11 +1100,16 @@ div.abEnd {
 	grid-column: 3;
 	place-self: stretch;
 	text-align: start;
-	padding-inline: 0.5rem;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-start;
 }
 div.abStart {
 	grid-column: 2;
 	text-align: end;
+	justify-content: flex-end;
+	align-items: flex-start;
 }
 div.abEnd.simple a {
 	text-decoration: none;
@@ -1136,13 +1118,11 @@ div.abStart:not(.plain) {
 	font-weight: bold;
 }
 div.abSingle:last-child,
-div.abPair:last-child div.abStart,
-div.abPair:last-child div.abEnd {
+div.abPair:last-child div:is(.abStart,.abEnd) {
 	border-block-end-width: 0;
 }
 div.abSingle,
-div.abPair div.abStart,
-div.abPair div.abEnd {
+div.abPair div:is(.abStart,.abEnd) {
 	min-height: 2rem;
 }
 div.ability.hasSubs {
@@ -1176,11 +1156,15 @@ div.subAbility div.abSingle.title {
 	counter-increment: subcount 1;
 	text-align: start;
 	border-radius: 0;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: flex-start;
 }
 div.subAbility + div.subAbility {
 	border-block-start: 2px solid var(--table-border-color);
 }
 div.subAbility div.abSingle.title::before {
+	padding-inline-start: 0.5rem;
 	content: "(" counter(subcount) ") ";
 }
 /* div.subAbility:not(div.subAbility + div.subAbility):has(+ *:not(div.subAbility)) */
@@ -1189,6 +1173,11 @@ div.subAbility:last-child {
 	background: var(--ion-item-background);
 	margin-block-end: 1rem;
 	border-radius: 0 0 0.75rem 0.75rem;
+}
+div:is(.ability, .subAbility) div.box {
+	display: inline-block;
+	padding-block: 0.25rem;
+	padding-inline: 0.5rem;
 }
 
 

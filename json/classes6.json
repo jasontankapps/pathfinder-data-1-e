@@ -874,7 +874,7 @@
 			"",
 			":::",
 			"",
-			"@b[Chaotic, Evil, Good, and Lawful Spells:]{jl=\"Aligned Spells\"} A warpriest cannot cast spells of an alignment opposed to his own or his deity's (if he has a deity). Spells associated with particular alignments are indicated by the chaotic, evil, good, and lawful descriptors in their spell descriptions.",
+			"::ab[Chaotic, Evil, Good, and Lawful Spells]{jl=\"Aligned Spells\" icon=magic passive=\"You can't cast spells of an alignment opposed to your own or your deity's (if you have one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law descriptors in their spell descriptions.\"}",
 			"",
 			"@b[Bonus Languages:]{jl=strip} A warpriest's bonus language options include Abyssal, Celestial, and Infernal. These choices are in addition to the bonus languages available to the character because of his race.",
 			"",

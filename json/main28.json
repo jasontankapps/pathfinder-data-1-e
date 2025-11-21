@@ -1614,6 +1614,7 @@
 		],
 		"searchgroup": "spell"
 	},
+	"hunter_spell": { "redirect": "spells_hunter" },
 	"spells_hunter_0_1": {
 		"title": "Hunter Spells Levels 0-1",
 		"description": [

@@ -11,7 +11,7 @@ const constructAlignmentTable = ({any, lg, ln, le, ng, n, ne, cg, cn, ce}) => {
 
 export const makeClassBlock = ({maybeClear, attrs, marked2, convertEncodedInfo}) => {
 	const {
-		al, any,
+		al, any, alSpecial,
 		lg, ln, le, ng, n, ne, cg, cn, ce,
 		hd, wealth, parent, skp,
 		acro, app, bluff, climb, craft, diplo,
@@ -32,7 +32,7 @@ export const makeClassBlock = ({maybeClear, attrs, marked2, convertEncodedInfo})
 	output.push(`<tr><th scope="row" className="nw">Alignment</th><td colSpan={2} className="ne"><div className="colFlex">${
 		al ? `<span>${al}</span>` : ""
 	}${
-		constructAlignmentTable({any, lg, ln, le, ng, n, ne, cg, cn, ce})
+		alSpecial ? "" : constructAlignmentTable({any, lg, ln, le, ng, n, ne, cg, cn, ce})
 	}</div></td></tr>`);
 	//
 	// HIT DIE

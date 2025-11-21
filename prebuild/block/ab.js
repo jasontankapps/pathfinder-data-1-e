@@ -1,6 +1,12 @@
 import ordinal from "../ordinal.js";
 import writtenNumber from "written-number";
 
+const abPairOpen = 	'<div className="abPair">';
+const abPairStartOpen = '<div className="abStart"><div className="box">';
+const abPairEndOpen = '<div className="abEnd"><div className="box">';
+const abPairPartClose = "</div></div>";
+const abPairClose = "</div>";
+
 export const makeAbilityBlock = ({
 	marked2,
 	prefix,
@@ -12,7 +18,7 @@ export const makeAbilityBlock = ({
 	logError
 }) => {
 	const {
-		id, sub, head, icon, l,
+		id, sub, head, icon, l, flavor,
 		l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,
 		l11,l12,l13,l14,l15,l16,l17,l18,l19,l20,
 		s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,
@@ -95,7 +101,13 @@ export const makeAbilityBlock = ({
 	//
 	// TITLE
 	//
-	output.push(`<div className="title abSingle" id="${jlid || prefix + id}" data-hash-target>${doParse(text)}</div>`);
+	output.push(`<div className="title abSingle" id="${
+		jlid || prefix + id
+	}" data-hash-target><div className="box">${
+		doParse(text)
+	}</div>${
+		flavor ? `<div className="flavor">${doParse(flavor)}</div>` : ""
+	}</div>`);
 	//
 	// LEVEL-BASED NOTES
 	//
@@ -116,9 +128,12 @@ export const makeAbilityBlock = ({
 				}).join(", ");
 				const level = i && ordinal(i);
 				output.push(
-					`<div className="abPair">`
-					+ `<div className="abStart plain">${level}</div>`
-					+ `<div className="abEnd simple">${doParse(spells)}</div></div>`
+					abPairOpen
+					+ `<div className="abStart plain"><div className="box">${level}`
+					+ abPairPartClose
+					+ `<div className="abEnd simple"><div className="box">${doParse(spells)}`
+					+ abPairPartClose
+					+ abPairClose
 				);
 			}
 		);
@@ -134,69 +149,82 @@ export const makeAbilityBlock = ({
 				}
 				const level = ordinal(i + 1);
 				output.push(
-					`<div className="abPair">`
-					+ `<div className="abStart">At ${level} Level</div>`
-					+ `<div className="abEnd">${doParse(text)}</div></div>`
+					abPairOpen
+					+ abPairStartOpen
+					+ `At ${level} Level`
+					+ abPairPartClose
+					+ abPairEndOpen
+					+ doParse(text)
+					+ abPairPartClose
+					+ abPairClose
 				);
 			}
 		);
 	} else if (l) {
 		// A single level shows when the ability is gained
 		output.push(
-			`<div className="abPair">`
-			+ `<div className="abStart">Gained</div>`
-			+ `<div className="abEnd">At ${ordinal(l)} Level</div></div>`
+			abPairOpen
+			+ abPairStartOpen
+			+ "Gained"
+			+ abPairPartClose
+			+ abPairEndOpen
+			+ `At ${ordinal(l)} Level`
+			+ abPairPartClose
+			+ abPairClose
 		);
 	}
 	//
 	// DETERMINE ANY USAGE LIMITS
 	//
 	const use = (() => {
-		if (usage) {
-			return [doParse(usage), "error"];
-		} else if (useInc) {
-			const [inc, clss, base] = useInc.split(/~/);
-			const unit = useUnit || "round";
-			if(!base) {
-				return [`1 ${unit}/day per ${writtenNumber(Number(inc))} ${clss} levels`, unit];
-				//useInc=2~cleric =>
-				//1 round/day per two cleric levels
+		const base = (() => {
+			if (usage) {
+				return [doParse(usage), "error"];
+			} else if (useInc) {
+				const [inc, clss, base] = useInc.split(/~/);
+				const unit = useUnit || "round";
+				if(!base) {
+					return [`1 ${unit}/day per ${writtenNumber(Number(inc))} ${clss} levels`, unit];
+					//useInc=2~cleric =>
+					//1 round/day per two cleric levels
+				}
+				return [
+					`1 ${unit}/day + 1 per ${
+						writtenNumber(Number(inc))
+					} ${clss} levels beyond ${ordinal(base)}`,
+					unit
+				];
+				//useInc=4~cleric~8 =>
+				//1 time/day + 1 per four cleric levels beyond 8th
+			} else if (useL3) {
+				const unit = useUnit || "round";
+				return [`3 ${unit}s/day + 1 ${unit} per ${useL3} level`, unit];
+				//3 rounds/day + 1 round per cleric level
+			} else if (useL) {
+				const unit = useUnit || "round";
+				return [`1 ${unit}/day per ${useL} level`, unit];
+				//1 round/day per cleric level
+			} else if (useMod) {
+				const unit = useUnit || "time";
+				return [`${useMod} modifier ${unit}s/day`, unit]
+				//Wis modifier times/day
+			} else if (useMod3) {
+				const unit = useUnit || "time";
+				return [`3 + ${useMod3} modifier ${unit}s/day`, unit]
+				//3 + Wis modifier times/day
+			} else if (useMod4) {
+				const unit = useUnit || "time";
+				return [`4 + ${useMod4} modifier ${unit}s/day`, unit]
+				//4 + Cha modifier times/day
 			}
-			return [
-				`1 ${unit}/day + 1 per ${
-					writtenNumber(Number(inc))
-				} ${clss} levels beyond ${ordinal(base)}`,
-				unit
-			];
-			//useInc=4~cleric~8 =>
-			//1 time/day + 1 per four cleric levels beyond 8th
-		} else if (useL3) {
-			const unit = useUnit || "round";
-			return [`3 ${unit}s/day + 1 ${unit} per ${useL3} level`, unit];
-			//3 rounds/day + 1 round per cleric level
-		} else if (useL) {
-			const unit = useUnit || "round";
-			return [`1 ${unit}/day per ${useL} level`, unit];
-			//1 round/day per cleric level
-		} else if (useMod) {
-			const unit = useUnit || "time";
-			return [`${useMod} modifier ${unit}s/day`, unit]
-			//Wis modifier times/day
-		} else if (useMod3) {
-			const unit = useUnit || "time";
-			return [`3 + ${useMod3} modifier ${unit}s/day`, unit]
-			//3 + Wis modifier times/day
-		} else if (useMod4) {
-			const unit = useUnit || "time";
-			return [`4 + ${useMod4} modifier ${unit}s/day`, unit]
-			//4 + Cha modifier times/day
+			return null;
+		})();
+		if(!base) {
+			return base;
 		}
-		return null;
-	})();
-	if(use) {
-		const [usage, unit] = use;
+		const [u, unit] = base;
 		const min = !useM ? "" : (
-			useM === "useM" ? " (minimum 1)" : `(minimum ${useM})`
+			useM === "useM" ? " (minimum 1)" : ` (minimum ${useM})`
 		);
 		const consecutive = () => {
 			if(useNC) {
@@ -207,12 +235,8 @@ export const makeAbilityBlock = ({
 			}
 			return "";
 		};
-		output.push(
-				`<div className="abPair">`
-				+ `<div className="abStart">Usage</div>`
-				+ `<div className="abEnd">${usage}${min}${consecutive()}</div></div>`
-			);
-	}
+		return `${u}${min}${consecutive()}`;
+	})();
 	//
 	// ACTION
 	//
@@ -220,15 +244,24 @@ export const makeAbilityBlock = ({
 		// This was pre-parsed and passed in from container-directives.
 		const {ability, contents} = containerInfo;
 		output.push(
-			`<div className="abPair">`
-			+ `<div className="abStart">${ability}</div>`
-			+ `<div className="abEnd">${contents}</div></div>`
+			abPairOpen
+			+ abPairStartOpen
+			+ ability
+			+ abPairPartClose
+			+ abPairEndOpen
+			+ contents
+			+ abPairPartClose
+			+ abPairClose
 		);
 	} else if (order) {
 		const path = order.split("");
 		path.forEach(ab => {
 			let title = "", what = "";
 			switch(ab) {
+				case "u":
+					title = "Usage";
+					what = use;
+					break;
 				case "s":
 					title = "Standard Action";
 					what = standard;
@@ -266,53 +299,80 @@ export const makeAbilityBlock = ({
 					return;
 			}
 		output.push(
-				`<div className="abPair">`
-				+ `<div className="abStart">${title}</div>`
-				+ `<div className="abEnd">${doParse(what)}</div></div>`
+				abPairOpen
+				+ abPairStartOpen
+				+ title
+				+ abPairPartClose
+				+ abPairEndOpen
+				+ doParse(what)
+				+ abPairPartClose
+				+ abPairClose
 			);
 		});
-	} else if(standard || swift || fullround || move || immediate || free) {
-		output.push(
-				`<div className="abPair">`
-				+ `<div className="abStart">${
-					standard ? "Standard" : (
-						swift ? "Swift" : (
-							fullround ? "Full-Round" : (
-								move ? "Move-Equivalent" : (
-									immediate ? "Immediate" : "Free"
+	} else {
+		if(use) {
+			output.push(
+				abPairOpen
+				+ abPairStartOpen
+				+ "Usage"
+				+ abPairPartClose
+				+ abPairEndOpen
+				+ use
+				+ abPairPartClose
+				+ abPairClose
+			);
+		}
+		if(standard || swift || fullround || move || immediate || free) {
+			output.push(
+					abPairOpen
+					+ abPairStartOpen
+					+ (
+						standard ? "Standard" : (
+							swift ? "Swift" : (
+								fullround ? "Full-Round" : (
+									move ? "Move-Equivalent" : (
+										immediate ? "Immediate" : "Free"
+									)
 								)
 							)
 						)
 					)
-				} Action</div>`
-				+ `<div className="abEnd">${
-					doParse(standard || swift || fullround || move || immediate || free)
-				}</div></div>`
-			);
-	} else if (passive || ability) {
-		output.push(
-				`<div className="abPair">`
-				+ `<div className="abStart">${passive ? "Passive " : ""}Ability</div>`
-				+ `<div className="abEnd">${doParse(passive || ability)}</div></div>`
-			);
-	}
-	if(special) {
-		output.push(
-				`<div className="abPair">`
-				+ `<div className="abStart">Special</div>`
-				+ `<div className="abEnd">${doParse(special)}</div></div>`
-			);
+					+ " Action"
+					+ abPairPartClose
+					+ abPairEndOpen
+					+ doParse(standard || swift || fullround || move || immediate || free)
+					+ abPairPartClose
+					+ abPairClose
+				);
+		} else if (passive || ability) {
+			output.push(
+					abPairOpen
+					+ abPairStartOpen
+					+ (passive ? "Passive " : "")
+					+ "Ability"
+					+ abPairPartClose
+					+ abPairEndOpen
+					+ doParse(passive || ability)
+					+ abPairPartClose
+					+ abPairClose
+				);
+		}
 	}
 	//
 	// PROVOKES ATTACK OF OPPORTUNITY
 	//
 	if(provokes) {
 		output.push(
-				`<div className="abPair">`
-				+ `<div className="abStart">Provokes <Link to="/rule/aoo">AoO?</Link></div>`
-				+ `<div className="abEnd">${
+				abPairOpen
+				+ abPairStartOpen
+				+ 'Provokes <Link to="/rule/aoo">AoO?</Link>'
+				+ abPairPartClose
+				+ abPairEndOpen
+				+ (
 					provokes === "provokes" ? "Yes" : doParse(provokes)
-				}</div></div>`
+				)
+				+ abPairPartClose
+				+ abPairClose
 			);
 	}
 	//
@@ -331,11 +391,28 @@ export const makeAbilityBlock = ({
 			}
 			const level = ordinal(i + 1);
 			output.push(
-				`<div className="abPair">`
-				+ `<div className="abStart">At ${level} Level</div>`
-				+ `<div className="abEnd">${doParse(text)}</div></div>`
+				abPairOpen
+				+ abPairStartOpen
+				+ `At ${level} Level`
+				+ abPairPartClose
+				+ abPairEndOpen
+				+ doParse(text)
+				+ abPairPartClose
+				+ abPairClose
 			);
 		});
+	}
+	if(special) {
+		output.push(
+				abPairOpen
+				+ abPairStartOpen
+				+ "Special"
+				+ abPairPartClose
+				+ abPairEndOpen
+				+ doParse(special)
+				+ abPairPartClose
+				+ abPairClose
+			);
 	}
 
 	return `${maybeClear}<div className="ability ${sub ? "subAbility" : (head ? "hasSubs" : "p")}">`
