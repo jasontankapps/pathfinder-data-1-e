@@ -98,12 +98,12 @@ const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, at
 		if(sonic) { desc.push("sonic"); }
 		if(water) { desc.push("water"); }
 
-		const all = [`**School** {spelldef/${school}}`];
+		const all = [`**School** ‹spelldef/${school}›`];
 		if(subs.length) {
-			all.push(`({spelldef/${subs.join(`}, {spelldef/`)}})`);
+			all.push(`(‹spelldef/${subs.join(`›, ‹spelldef/`)}›)`);
 		}
 		if(desc.length) {
-			all.push(`[{spelldef/${desc.join(`}, {spelldef/`)}}]`);
+			all.push(`[‹spelldef/${desc.join(`›, ‹spelldef/`)}›]`);
 		}
 		output.push(doParse(all.join(" ")));
 	}

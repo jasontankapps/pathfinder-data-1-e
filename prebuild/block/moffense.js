@@ -56,7 +56,7 @@ export const makeMonsterOffenseBlock = (marked2, convertEncodedInfo, maybeClear,
 		speeds.push(`fly ${fl} ft.${p ? ` (${p})` : ""}`);
 	}
 	if(jet) {
-		speeds.push(`{umr/jet} ${jet} ft.`);
+		speeds.push(`‹umr/jet› ${jet} ft.`);
 	}
 	if(sw) {
 		speeds.push(`swim ${sw} ft.${swP ? ` (${swP})` : ""}`);
@@ -92,136 +92,136 @@ export const makeMonsterOffenseBlock = (marked2, convertEncodedInfo, maybeClear,
 		}));
 	}
 	if(attach) {
-		spAtt.push(["attach", "{umr/attach}"]);
+		spAtt.push(["attach", "‹umr/attach›"]);
 	}
 	if(bleed && bleed === "bleed") {
-		spAtt.push(["bleed", `{umr/bleed}`]);
+		spAtt.push(["bleed", `‹umr/bleed›`]);
 	} else if (bleed) {
-		spAtt.push(["bleed", `{umr/bleed} (${bleed})`]);
+		spAtt.push(["bleed", `‹umr/bleed› (${bleed})`]);
 	}
 	if(bDrain) {
-		spAtt.push(["blood drain", `{umr/blood drain} (${bDrain})`]);
+		spAtt.push(["blood drain", `‹umr/blood drain› (${bDrain})`]);
 	}
 	if(bloodRage) {
-		spAtt.push(["blood rage", "{umr/blood rage}"]);
+		spAtt.push(["blood rage", "‹umr/blood rage›"]);
 	}
 	if(brWeap) {
-		spAtt.push(["breath weapon", `{umr/breath weapon} (${brWeap})`]);
+		spAtt.push(["breath weapon", `‹umr/breath weapon› (${brWeap})`]);
 	}
 	if(burn) {
-		spAtt.push(["burn", `{umr/burn} (${burn})`]);
+		spAtt.push(["burn", `‹umr/burn› (${burn})`]);
 	}
 	if(capsize && capsize === "capsize") {
-		spAtt.push(["capsize", `{umr/capsize}`]);
+		spAtt.push(["capsize", `‹umr/capsize›`]);
 	} else if (capsize) {
-		spAtt.push(["capsize", `{umr/capsize} (${capsize})`]);
+		spAtt.push(["capsize", `‹umr/capsize› (${capsize})`]);
 	}
 	if(chEn) {
-		spAtt.push(["channel energy", `{ability/channel energy} (${chEn})`]);
+		spAtt.push(["channel energy", `‹ability/channel energy› (${chEn})`]);
 	}
 	if(chNEn) {
-		spAtt.push(["channel negative energy", `{ability/channel negative energy} (${chNEn})`]);
+		spAtt.push(["channel negative energy", `‹ability/channel negative energy› (${chNEn})`]);
 	}
 	if(chPEn) {
-		spAtt.push(["channel positive energy", `{ability/channel positive energy} (${chPEn})`]);
+		spAtt.push(["channel positive energy", `‹ability/channel positive energy› (${chPEn})`]);
 	}
 	if(constrict && constrict === "constrict") {
-		spAtt.push(["constrict", `{umr/constrict}`]);
+		spAtt.push(["constrict", `‹umr/constrict›`]);
 	} else if (constrict) {
-		spAtt.push(["constrict", `{umr/constrict} (${constrict})`]);
+		spAtt.push(["constrict", `‹umr/constrict› (${constrict})`]);
 	}
 	if(distraction && distraction === "distraction") {
-		spAtt.push(["distraction", `{umr/distraction}`]);
+		spAtt.push(["distraction", `‹umr/distraction›`]);
 	} else if (distraction) {
-		spAtt.push(["distraction", `{umr/distraction} (${distraction})`]);
+		spAtt.push(["distraction", `‹umr/distraction› (${distraction})`]);
 	}
 	if(eDrain) {
-		spAtt.push(["energy drain", `{umr/energy drain} (${eDrain})`]);
+		spAtt.push(["energy drain", `‹umr/energy drain› (${eDrain})`]);
 	}
 	if(engulf) {
-		spAtt.push(["engulf", `{umr/engulf} (${engulf})`]);
+		spAtt.push(["engulf", `‹umr/engulf› (${engulf})`]);
 	}
 	if(entrap) {
-		spAtt.push(["entrap", `{umr/entrap} (${entrap})`]);
+		spAtt.push(["entrap", `‹umr/entrap› (${entrap})`]);
 	}
 	if(fSwallow) {
-		spAtt.push(["fast swallow", "{umr/fast swallow}"]);
+		spAtt.push(["fast swallow", "‹umr/fast swallow›"]);
 	}
 	if(favEn) {
-		spAtt.push(["favored enemy", `{ability/favored enemy} (${favEn})`]);
+		spAtt.push(["favored enemy", `‹ability/favored enemy› (${favEn})`]);
 	}
 	if(ferocity) {
-		spAtt.push(["ferocity", "{umr/ferocity}"]);
+		spAtt.push(["ferocity", "‹umr/ferocity›"]);
 	}
 	if(gaze) {
-		spAtt.push(["gaze", "{umr/gaze}"]);
+		spAtt.push(["gaze", "‹umr/gaze›"]);
 	}
 	if(grab && grab === "grab") {
-		spAtt.push(["grab", `{umr/grab}`]);
+		spAtt.push(["grab", `‹umr/grab›`]);
 	} else if (grab) {
-		spAtt.push(["grab", `{umr/grab} (${grab})`]);
+		spAtt.push(["grab", `‹umr/grab› (${grab})`]);
 	}
 	if(heat && heat === "heat") {
-		spAtt.push(["heat", `{umr/heat}`]);
+		spAtt.push(["heat", `‹umr/heat›`]);
 	} else if (heat) {
-		spAtt.push(["heat", `{umr/heat} (${heat})`]);
+		spAtt.push(["heat", `‹umr/heat› (${heat})`]);
 	}
 	if(mMagic) {
-		spAtt.push(["mythic magic", `{umr/mythic magic} (${mMagic})`]);
+		spAtt.push(["mythic magic", `‹umr/mythic magic› (${mMagic})`]);
 	}
 	if(mPower) {
-		spAtt.push(["mythic power", `{umr/mythic power} (${mPower})`]);
+		spAtt.push(["mythic power", `‹umr/mythic power› (${mPower})`]);
 	}
 	if(paralysis) {
-		spAtt.push(["paralysis", `{umr/paralysis} (${paralysis})`]);
+		spAtt.push(["paralysis", `‹umr/paralysis› (${paralysis})`]);
 	}
 	if(powCh) {
-		spAtt.push(["powerful charge", `{umr/powerful charge} (${powCh})`]);
+		spAtt.push(["powerful charge", `‹umr/powerful charge› (${powCh})`]);
 	}
 	if(pounce) {
-		spAtt.push(["pounce", "{umr/pounce}"]);
+		spAtt.push(["pounce", "‹umr/pounce›"]);
 	}
 	if(pull) {
-		spAtt.push(["pull", `{umr/pull} (${pull})`]);
+		spAtt.push(["pull", `‹umr/pull› (${pull})`]);
 	}
 	if(push && push === "push") {
-		spAtt.push(["push", `{umr/push}`]);
+		spAtt.push(["push", `‹umr/push›`]);
 	} else if (push) {
-		spAtt.push(["push", `{umr/push} (${push})`]);
+		spAtt.push(["push", `‹umr/push› (${push})`]);
 	}
 	if(rake) {
-		spAtt.push(["rake", `{umr/rake} (${rake})`]);
+		spAtt.push(["rake", `‹umr/rake› (${rake})`]);
 	}
 	if(rend) {
-		spAtt.push(["rend", `{umr/rend} (${rend})`]);
+		spAtt.push(["rend", `‹umr/rend› (${rend})`]);
 	}
 	if(rockTh) {
-		spAtt.push(["rock throwing", `{umr/rock throwing} (${rockTh})`]);
+		spAtt.push(["rock throwing", `‹umr/rock throwing› (${rockTh})`]);
 	}
 	if(smother) {
-		spAtt.push(["smother", "{umr/smother}"]);
+		spAtt.push(["smother", "‹umr/smother›"]);
 	}
 	if(sneak) {
-		spAtt.push(["sneak attack", `{ability/sneak attack} (${sneak})`]);
+		spAtt.push(["sneak attack", `‹ability/sneak attack› (${sneak})`]);
 	}
 	if(strangle) {
-		spAtt.push(["strangle", "{umr/strangle}"]);
+		spAtt.push(["strangle", "‹umr/strangle›"]);
 	}
 	if(swallow && swallow === "swallow") {
-		spAtt.push(["swallow whole", `{umr/swallow whole}`]);
+		spAtt.push(["swallow whole", `‹umr/swallow whole›`]);
 	} else if (swallow) {
-		spAtt.push(["swallow whole", `{umr/swallow whole} (${swallow})`]);
+		spAtt.push(["swallow whole", `‹umr/swallow whole› (${swallow})`]);
 	}
 	if(trample) {
-		spAtt.push(["trample", `{umr/trample} (${trample})`]);
+		spAtt.push(["trample", `‹umr/trample› (${trample})`]);
 	}
 	if(web && web === "web") {
-		spAtt.push(["web", `{umr/web}`]);
+		spAtt.push(["web", `‹umr/web›`]);
 	} else if (web) {
-		spAtt.push(["web", `{umr/web} (${web})`]);
+		spAtt.push(["web", `‹umr/web› (${web})`]);
 	}
 	if(whirlwind) {
-		spAtt.push(["whirlwind", `{umr/whirlwind} (${whirlwind})`]);
+		spAtt.push(["whirlwind", `‹umr/whirlwind› (${whirlwind})`]);
 	}
 	if(spAtt.length > 0) {
 		spAtt.sort((a,b) => a[0].localeCompare(b[0]));

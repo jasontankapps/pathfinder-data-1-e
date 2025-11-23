@@ -48,7 +48,7 @@ const constructEffect = (attrs, convertEncodedInfo) => {
 			return input;
 		}
 		linked = true;
-		return `{rule/${input}}`;
+		return `‹rule/${input}›`;
 	};
 	if(effStr) {
 		output.push(`${effStr} ${link("Str damage")}`);

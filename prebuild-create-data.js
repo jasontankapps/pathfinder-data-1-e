@@ -619,7 +619,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 				}) : obj.compilationSources.map(arr => {
 					// set up footnotes info
 					const [title, pg] = arr;
-					const detail = pg ? `{source/${title}/ pg. ${pg}}` : `{source/${title}}`;
+					const detail = pg ? `‹source/${title}/ pg. ${pg}›` : `‹source/${title}›`;
 					if(!footnotes[detail]) {
 						const plain = pg ? `${title} pg. ${pg}` : title;
 						footnotes[detail] = `[^${footnoteNames[footnotes.count++]}]`;

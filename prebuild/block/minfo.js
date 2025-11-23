@@ -57,19 +57,19 @@ const makeMonsterInfoBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeCle
 	else {
 		logError("Missing size");
 	}
-	if(aberration) { line = line + "{type/aberration}"; }
-	else if(animal) { line = line + "{type/animal}"; }
-	else if(construct) { line = line + "{type/construct}"; }
-	else if(dragon) { line = line + "{type/dragon}"; }
-	else if(fey) { line = line + "{type/fey}"; }
-	else if(humanoid) { line = line + "{type/humanoid}"; }
-	else if(magicalBeast) { line = line + "{type/magical beast}"; }
-	else if(monstrousHumanoid) { line = line + "{type/monstrous humanoid}"; }
-	else if(ooze) { line = line + "{type/ooze}"; }
-	else if(outsider) { line = line + "{type/outsider}"; }
-	else if(plant) { line = line + "{type/plant}"; }
-	else if(undead) { line = line + "{type/undead}"; }
-	else if(vermin) { line = line + "{type/vermin}"; }
+	if(aberration) { line = line + "‹type/aberration›"; }
+	else if(animal) { line = line + "‹type/animal›"; }
+	else if(construct) { line = line + "‹type/construct›"; }
+	else if(dragon) { line = line + "‹type/dragon›"; }
+	else if(fey) { line = line + "‹type/fey›"; }
+	else if(humanoid) { line = line + "‹type/humanoid›"; }
+	else if(magicalBeast) { line = line + "‹type/magical beast›"; }
+	else if(monstrousHumanoid) { line = line + "‹type/monstrous humanoid›"; }
+	else if(ooze) { line = line + "‹type/ooze›"; }
+	else if(outsider) { line = line + "‹type/outsider›"; }
+	else if(plant) { line = line + "‹type/plant›"; }
+	else if(undead) { line = line + "‹type/undead›"; }
+	else if(vermin) { line = line + "‹type/vermin›"; }
 	else {
 		logError("Missing type");
 	}
@@ -86,9 +86,9 @@ const makeMonsterInfoBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeCle
 						// No subtype entry exists
 						return sub;
 					} else if (m = sub.match(/^augmented:(.+)$/)) {
-						return `{subtype/augmented} {type/${m[1]}}`;
+						return `‹subtype/augmented› ‹type/${m[1]}›`;
 					} else {
-						return `{subtype/${sub}}`;
+						return `‹subtype/${sub}›`;
 					}
 				}
 			).join(", ")
@@ -109,26 +109,26 @@ const makeMonsterInfoBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeCle
 	if(dv) { senses.push(["darkvision", `darkvision ${dv} ft.`]); }
 	if(llv) { senses.push(["low-light vision", "low-light vision"]); }
 	if(keenScent) {
-		if(keenScent === true) { senses.push(["keen scent", `{umr/keen scent}`]);}
-		else { senses.push(["keen scent", `{umr/keen scent} ${keenScent} ft.`]); }
+		if(keenScent === true) { senses.push(["keen scent", `‹umr/keen scent›`]);}
+		else { senses.push(["keen scent", `‹umr/keen scent› ${keenScent} ft.`]); }
 	}
-	if(scent) { senses.push(["scent", `{umr/scent}`]); }
-	if(thoughtsense) { senses.push(["thoughtsense", `{umr/thoughtsense} ${thoughtsense} ft.`]); }
+	if(scent) { senses.push(["scent", `‹umr/scent›`]); }
+	if(thoughtsense) { senses.push(["thoughtsense", `‹umr/thoughtsense› ${thoughtsense} ft.`]); }
 	if(greensight) {
-		if(greensight === true) { senses.push(["greensight", `{umr/greensight}`]);}
-		else { senses.push(["greensight", `{umr/greensight} ${greensight} ft.`]); }
+		if(greensight === true) { senses.push(["greensight", `‹umr/greensight›`]);}
+		else { senses.push(["greensight", `‹umr/greensight› ${greensight} ft.`]); }
 	}
 	if(lifesense) {
-		if(lifesense === true) { senses.push(["lifesense", `{umr/lifesense}`]);}
-		else { senses.push(["lifesense", `{umr/lifesense} ${lifesense} ft.`]); }
+		if(lifesense === true) { senses.push(["lifesense", `‹umr/lifesense›`]);}
+		else { senses.push(["lifesense", `‹umr/lifesense› ${lifesense} ft.`]); }
 	}
-	if(blindsight) { senses.push(["blindsight", `{umr/blindsight} ${blindsight} ft.`]); }
-	if(blindsense) { senses.push(["blindsense", `{umr/blindsense} ${blindsense} ft.`]); }
-	if(tremorsense) { senses.push(["tremorsense", `{umr/tremorsense} ${tremorsense} ft.`]); }
-	if(mistsight) { senses.push(["mistsight", `{umr/mistsight}`]); }
-	if(xray) { senses.push(["x-ray vision", "{umr/x-ray vision}"]); }
-	if(aav) { senses.push(["all-around vision", `{umr/all-around vision}`]); }
-	if(sid) { senses.push(["see in darkness", `{umr/see in darkness}`]); }
+	if(blindsight) { senses.push(["blindsight", `‹umr/blindsight› ${blindsight} ft.`]); }
+	if(blindsense) { senses.push(["blindsense", `‹umr/blindsense› ${blindsense} ft.`]); }
+	if(tremorsense) { senses.push(["tremorsense", `‹umr/tremorsense› ${tremorsense} ft.`]); }
+	if(mistsight) { senses.push(["mistsight", `‹umr/mistsight›`]); }
+	if(xray) { senses.push(["x-ray vision", "‹umr/x-ray vision›"]); }
+	if(aav) { senses.push(["all-around vision", `‹umr/all-around vision›`]); }
+	if(sid) { senses.push(["see in darkness", `‹umr/see in darkness›`]); }
 	if(senses.length) {
 		line =
 			line

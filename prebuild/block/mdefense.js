@@ -83,61 +83,61 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 		});
 	}
 	if(chanRes) {
-		deff.push([`channel resistance ${chanRes}`, `{umr/channel resistance} ${chanRes}`]);
+		deff.push([`channel resistance ${chanRes}`, `‹umr/channel resistance› ${chanRes}`]);
 	}
 	if(fortif) {
-		deff.push([`fortification (${fortif})`, `{umr/fortification} (${fortif})`]);
+		deff.push([`fortification (${fortif})`, `‹umr/fortification› (${fortif})`]);
 	}
 	if(split) {
-		deff.push([`split (${split})`, `{umr/split} (${split})`]);
+		deff.push([`split (${split})`, `‹umr/split› (${split})`]);
 	}
 	if(ink) {
-		deff.push([`ink cloud (${ink}-ft. radius})`, `{umr/ink cloud} (${ink}-ft. radius})`]);
+		deff.push([`ink cloud (${ink}-ft. radius})`, `‹umr/ink cloud› (${ink}-ft. radius})`]);
 	}
 	if(pBlood) {
-		deff.push([`poisonous blood (${pBlood})`, `{umr/poisonous blood} ({eq-poison/${pBlood}})`]);
+		deff.push([`poisonous blood (${pBlood})`, `‹umr/poisonous blood› (‹eq-poison/${pBlood}›)`]);
 	}
 	if(trapS) {
-		deff.push([`trap sense ${trapS}`, `{ability/trap sense} ${trapS}`]);
+		deff.push([`trap sense ${trapS}`, `‹ability/trap sense› ${trapS}`]);
 	}
 	if(unstop) {
-		deff.push([`unstoppable`, `{umr/unstoppable}`]);
+		deff.push([`unstoppable`, `‹umr/unstoppable›`]);
 	}
 	if(blockAt) {
-		deff.push([`block attacks`, `{umr/block attacks}`]);
+		deff.push([`block attacks`, `‹umr/block attacks›`]);
 	}
 	if(rockCt) {
-		deff.push([`rock catching`, `{umr/rock catching}`]);
+		deff.push([`rock catching`, `‹umr/rock catching›`]);
 	}
 	if(secSave) {
-		deff.push([`second save`, `{umr/second save}`]);
+		deff.push([`second save`, `‹umr/second save›`]);
 	}
 	if(ferocity) {
-		deff.push([`ferocity`, `{umr/ferocity}`]);
+		deff.push([`ferocity`, `‹umr/ferocity›`]);
 	}
 	if(amorph) {
-		deff.push([`amorphous`, `{umr/amorphous}`]);
+		deff.push([`amorphous`, `‹umr/amorphous›`]);
 	}
 	if(aav) {
-		deff.push([`all-around vision`, `{umr/all-around vision}`]);
+		deff.push([`all-around vision`, `‹umr/all-around vision›`]);
 	}
 	if(incorp) {
-		deff.push([`incorporeal`, `{umr/incorporeal}`]);
+		deff.push([`incorporeal`, `‹umr/incorporeal›`]);
 	}
 	if(noB) {
-		deff.push([`no breath`, `{umr/no breath}`]);
+		deff.push([`no breath`, `‹umr/no breath›`]);
 	}
 	if(eva) {
-		deff.push([`evasion`, `{ability/evasion}`]);
+		deff.push([`evasion`, `‹ability/evasion›`]);
 	}
 	if(unc) {
-		deff.push([`uncanny dodge`, `{ability/uncanny dodge}`]);
+		deff.push([`uncanny dodge`, `‹ability/uncanny dodge›`]);
 	}
 	if(impEva) {
-		deff.push([`improved evasion`, `{ability/improved evasion}`]);
+		deff.push([`improved evasion`, `‹ability/improved evasion›`]);
 	}
 	if(impUnc) {
-		deff.push([`improved uncanny dodge`, `{ability/improved uncanny dodge}`]);
+		deff.push([`improved uncanny dodge`, `‹ability/improved uncanny dodge›`]);
 	}
 	if(deff.length > 0) {
 		line = `**Defensive Abilities** ${deff.sort((a, b) => a[0].localeCompare(b[0])).map(d => d[1]).join(", ")}`
@@ -160,7 +160,7 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 	//
 	const w = [];
 	if(vulner) {
-		w.push([`vulnerable to ${clean(vulner)}`, `{umr/vulnerable} to ${vulner}`])
+		w.push([`vulnerable to ${clean(vulner)}`, `‹umr/vulnerable› to ${vulner}`])
 	}
 	if(weak) {
 		weak.split(/~/).forEach(bit => w.push([clean(bit), bit]));

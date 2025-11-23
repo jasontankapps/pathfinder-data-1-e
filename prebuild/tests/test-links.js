@@ -8,7 +8,7 @@ const [ , source ] = sources;
 
 const checkForMalformedLinks = (line) => {
 	let m;
-	// 1: what follows isn't a {valid/link}
+	// 1: what follows isn't a ‹valid/link›
 	// 2: what follows isn't a SOURCE tag, jumplist marker, or table reference
 	//                            1                 2
 	if(m = line.match(/‹(?![-a-z_]+[/][^›]+›)(?!SOURCE|table[0-9]+|jumplist).{0,10}/)) {

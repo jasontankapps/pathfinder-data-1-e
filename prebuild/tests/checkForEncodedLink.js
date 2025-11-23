@@ -54,6 +54,35 @@ const checkForEncodedLink = (input, options = {}) => {
 		}
 	}
 	const [, pre, protocol, matchedx, post] = m;
+	// Check for links inside props of directives. DO NOT expand them.
+	let toFindTheEnd = null;
+	if(!basic || bare) {
+		if (pre.match(/="[^"]*$/)) {
+			toFindTheEnd = /^([^"]*")(.*$)/;
+		} else if (pre.match(/(::|;;;|@)[a-zA-Z0-9]+\[[^\]]*$/)) {
+			toFindTheEnd = /^([^\]]*\])(.*$)/;
+		}
+	}
+	if(toFindTheEnd) {
+		// We found one. Run the excess through the wringer again.
+		const findEndOfProp = post.match(toFindTheEnd);
+		if(!findEndOfProp) {
+			console.log("ERROR FINDING END OF PROP");
+			console.log(pre);
+			console.log(post);
+			return false;
+		}
+		const [, endOfProp, next] = findEndOfProp;
+		const mm = checkForEncodedLink(next, {});
+		if(!mm) {
+			return false;
+		}
+		const [xpre, ...etc] = mm;
+		return [
+			pre + `${protocol}/${matchedx}` + endOfProp + xpre,
+			...etc
+		];
+	}
 	let matched = matchedx, linkpre = "", linkpost = "", textpre = "", textpost = "";
 	// pre_>link
 	if(m = matched.match(/(^[^<]*?)>(.*$)/)) {
@@ -66,12 +95,12 @@ const checkForEncodedLink = (input, options = {}) => {
 		linkpost = m[2];
 	}
 	// pre»text
-	if(m = matched.match(/([^»]*?)»(.*$)/)) {
+	if(m = matched.match(/(^[^«]*?)»(.*$)/)) {
 		matched = m[2];
 		textpre = m[1];
 	}
 	// post«text
-	if(m = matched.match(/(^.*?)«([^«]*$)/)) {
+	if(m = matched.match(/(^.*?)«([^»]*$)/)) {
 		matched = m[1];
 		textpost = m[2];
 	}
@@ -110,11 +139,11 @@ export const convertSpecialTextToLink = (input) => {
 		matched = m[1];
 	}
 	// pre»text
-	if(m = matched.match(/([^»]*?)»(.*$)/)) {
+	if(m = matched.match(/(^[^«]*?)»(.*$)/)) {
 		matched = m[2];
 	}
 	// post«text
-	if(m = matched.match(/(^.*?)«([^«]*$)/)) {
+	if(m = matched.match(/(^.*?)«([^»]*$)/)) {
 		matched = m[1];
 	}
 	// enclosed «extra»<link_and> text
@@ -141,11 +170,11 @@ export const getCleanText = (input) => {
 		matched = m[1];
 	}
 	// pre»text
-	if(m = matched.match(/([^»]*?)»(.*$)/)) {
+	if(m = matched.match(/(^[^«]*?)»(.*$)/)) {
 		matched = m[1] + m[2];
 	}
 	// post«text
-	if(m = matched.match(/(^.*?)«([^«]*$)/)) {
+	if(m = matched.match(/(^.*?)«([^»]*$)/)) {
 		matched = m[1] + m[2];
 	}
 	// enclosed «extra»<link_and> text
