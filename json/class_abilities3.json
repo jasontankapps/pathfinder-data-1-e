@@ -11,7 +11,7 @@
 				[
 					"## Witch Patrons",
 					"",
-					"{SOURCE Advanced Player's Guide}  ",
+					"‹SOURCE Advanced Player's Guide›  ",
 					"At 1st level, when a witch gains her familiar, she must also select a patron. This patron is a vague and mysterious force, granting the witch power for reasons that she might not entirely understand. While these forces need not be named, they typically hold influence over one of the following forces. At 2nd level, and every two levels thereafter, a witch's patron adds new spells to a witch's list of spells known. These spells are also automatically added to the list of spells stored by the familiar. The spells gained depend upon the patron chosen. Each patron is listed by its theme. Its actual name is up to the GM and the witch to decide.",
 					"",
 					":::blockquote{className=hanging}",
@@ -28,10 +28,10 @@
 					"",
 					"::h3[Unique Patrons]{jl}",
 					"",
-					"{SOURCE Blood of the Coven}  ",
+					"‹SOURCE Blood of the Coven›  ",
 					"Witch patrons are enigmatic entities, sometimes fair minded and other times malevolent. Some are demigods or powerful spirits, such as those that grant shamans their spellcasting. Others are manifestations of cosmic forces, created by the certainty of mortals and the fundamental need for balance in much the same way aeons manifest. While kindly patrons are rare - attracting worshipers more readily than agents - the majority are high-minded and neutral figures. They dispense arcane power to those whose interests and mindsets align with their needs, and once a witch drifts from the cause or refuses to pay the price for such power, her patron divests the spellcaster of her powers and departs. Wicked patrons enjoy longer-lasting relationships, however, manipulating the witches' minds and punishing disobedience in a manner far more personal than an evil god. The familiar of a wicked patron becomes equal parts power source and prison guard, forever studying its charge for disobedience.",
 					"",
-					"The various published witch patron themes present a wide array of concepts and priorities to align with a large variety of supernatural beings. Some specific patrons, however, might offer variations within the spells they grant. Special patrons swap out the spells normally provided by a patron theme at specific levels, and grant a specific {ability/hex>es} and drawback at 1st level. Once a specific patron has been selected, a witch cannot change her patron or raise a hand against that entity without losing her spellcasting, hexes, and familiar. These categories are limited in the patron themes they can provide; their witches must select from one of the four listed for each entry. These patrons are extraordinary examples of their kind, often invested with unique or mythic powers and pursuing long-term agendas measured in centuries or eons."
+					"The various published witch patron themes present a wide array of concepts and priorities to align with a large variety of supernatural beings. Some specific patrons, however, might offer variations within the spells they grant. Special patrons swap out the spells normally provided by a patron theme at specific levels, and grant a specific ‹ability/hex<es› and drawback at 1st level. Once a specific patron has been selected, a witch cannot change her patron or raise a hand against that entity without losing her spellcasting, hexes, and familiar. These categories are limited in the patron themes they can provide; their witches must select from one of the four listed for each entry. These patrons are extraordinary examples of their kind, often invested with unique or mythic powers and pursuing long-term agendas measured in centuries or eons."
 				],
 				{
 					"limit": "unique",
@@ -53,7 +53,7 @@
 			"source": "phrenicamp",
 			"targets": [
 				[
-					"{SOURCE Occult Adventures/60}  ",
+					"‹SOURCE Occult Adventures/60›  ",
 					"A psychic develops particular techniques to empower her spellcasting, called phrenic amplifications. The psychic can activate a phrenic amplification only while casting a spell using psychic magic, and the amplification modifies either the spell's effects or the process of casting it. The spell being cast is called the linked spell. The psychic can activate only one amplification each time she casts a spell, and doing so is part of the action used to cast the spell. She can use any amplification she knows with any psychic spell, unless the amplification's description states that it can be linked only to certain types of spells. A psychic learns one phrenic amplification at 1st level, selected from the list below. At 3rd level and every 4 levels thereafter, the psychic learns a new phrenic amplification. A phrenic amplification can't be selected more than once. Once a phrenic amplification has been selected, it can't be changed. Phrenic amplifications require the psychic to expend 1 or more points from her phrenic pool to function.",
 					"",
 					"---",
@@ -78,16 +78,16 @@
 		"description": [
 			"## Psi-Tech Discoveries",
 			"",
-			"{SOURCE Occult Realms/12}  ",
-			"A psychic can learn a psi-tech discovery in place of a phrenic amplification or a feat. Many of these discoveries use the rules for {rule/advanced |technolog/y>ical_equipment}.",
+			"‹SOURCE Occult Realms/12›  ",
+			"A psychic can learn a psi-tech discovery in place of a phrenic amplification or a feat. Many of these discoveries use the rules for ‹rule/advanced »technolog«y<ical_equipment›.",
 			"",
 			"---",
 			"",
 			"::h3[Artificial Ascension]{jl}",
 			"",
-			"You can upload your consciousness into a robot, becoming an artificial intelligence. Performing this ascension requires uninterrupted access to a construct with the robot subtype and at least 10 Hit Dice for 24 hours, during which time you cannot perform other tasks. Any interruptions cause the upload to fail. At the end of the 24 hours your consciousness is successfully uploaded into the robot. If the robot is not willing, it must attempt a Will save (DC = 1/2 your psychic level + your Intelligence modifier). If it is successful, the robot rejects your consciousness, rendering you {misc/staggered} for 24 hours and unable to perform the ritual again during this time.",
+			"You can upload your consciousness into a robot, becoming an artificial intelligence. Performing this ascension requires uninterrupted access to a construct with the robot subtype and at least 10 Hit Dice for 24 hours, during which time you cannot perform other tasks. Any interruptions cause the upload to fail. At the end of the 24 hours your consciousness is successfully uploaded into the robot. If the robot is not willing, it must attempt a Will save (DC = 1/2 your psychic level + your Intelligence modifier). If it is successful, the robot rejects your consciousness, rendering you ‹misc/staggered› for 24 hours and unable to perform the ritual again during this time.",
 			"",
-			"If your consciousness is successfully uploaded, the robot's consciousness is destroyed and your physical body immediately dies and can't be raised, resurrected, or otherwise brought back to life. Your creature type changes to {rule/artificial intelligence}, and your robot body gains the {template/aggregate} template, with all the adjustments made in the template's description.",
+			"If your consciousness is successfully uploaded, the robot's consciousness is destroyed and your physical body immediately dies and can't be raised, resurrected, or otherwise brought back to life. Your creature type changes to ‹rule/artificial intelligence›, and your robot body gains the ‹template/aggregate› template, with all the adjustments made in the template's description.",
 			"",
 			"As a full-round action, you can attempt to upload your consciousness to any other robot within 30 feet that has 10 Hit Dice or more. If the robot is not willing to serve as your vessel, it receives a Will save as above, except if it succeeds, your current robot body is staggered for only 1 minute. If it fails, you move from your current body to the new host body, granting it the aggregate template. Your previous robot body is immediately destroyed by the transference.",
 			"",
@@ -95,11 +95,11 @@
 			"",
 			"::h3[Disease Transference (Su)]{jl}",
 			"",
-			"You are able to psychically control and manipulate all manner of diseases. You can cast {spell/diagnose disease} as a spell-like ability at will. Additionally, you can touch a creature afflicted with a disease as a standard action and draw the disease into yourself, or transfer it to another willing living creature that is susceptible to diseases and that you (or the afflicted creature) are also touching. Attempt a caster level check against a DC equal to 10 + the disease's Fortitude save DC. If you are successful, the afflicted creature is no longer affected by the disease. If you move the disease into yourself or another creature you (or the afflicted) are touching, the target receiving the disease must immediately attempt a Fortitude save as if it were initially exposed to the disease. If the target fails, the disease affects it immediately with no onset time. You can use this ability a number of times per day equal to 3 + your Intelligence modifier. You must be at least 7th level to select this discovery.",
+			"You are able to psychically control and manipulate all manner of diseases. You can cast ‹spell/diagnose disease› as a spell-like ability at will. Additionally, you can touch a creature afflicted with a disease as a standard action and draw the disease into yourself, or transfer it to another willing living creature that is susceptible to diseases and that you (or the afflicted creature) are also touching. Attempt a caster level check against a DC equal to 10 + the disease's Fortitude save DC. If you are successful, the afflicted creature is no longer affected by the disease. If you move the disease into yourself or another creature you (or the afflicted) are touching, the target receiving the disease must immediately attempt a Fortitude save as if it were initially exposed to the disease. If the target fails, the disease affects it immediately with no onset time. You can use this ability a number of times per day equal to 3 + your Intelligence modifier. You must be at least 7th level to select this discovery.",
 			"",
 			"::h3[Force Field (Su)]{jl}",
 			"",
-			"As a swift action, you can spend 1 point from your phrenic pool to activate a force field of raw psychic energy that provides you with a number of {rule/temporary hit points} equal to 5 + your psychic level (maximum 10 temporary hit points). If you spend 2 points from your phrenic pool, the force field provides a number of temporary hit points equal to 10 + your psychic level (maximum 20 temporary hit points). The force field lasts for a number of minutes equal to your psychic level. If you spend 3 points from your phrenic pool, the force field lasts for twice as long, and it provides {umr/fast healing} 2. Once the temporary hit points are depleted, the force field disappears and you cannot reinstate it for 24 hours. You must be at least 3rd level to select this discovery.",
+			"As a swift action, you can spend 1 point from your phrenic pool to activate a force field of raw psychic energy that provides you with a number of ‹rule/temporary hit points› equal to 5 + your psychic level (maximum 10 temporary hit points). If you spend 2 points from your phrenic pool, the force field provides a number of temporary hit points equal to 10 + your psychic level (maximum 20 temporary hit points). The force field lasts for a number of minutes equal to your psychic level. If you spend 3 points from your phrenic pool, the force field lasts for twice as long, and it provides ‹umr/fast healing› 2. Once the temporary hit points are depleted, the force field disappears and you cannot reinstate it for 24 hours. You must be at least 3rd level to select this discovery.",
 			"",
 			"::h3[Kinetic Enhancement]{jl}",
 			"",
@@ -111,11 +111,11 @@
 			"",
 			"::h3[Mind Over Augmentation]{jl}",
 			"",
-			"When you're determining how many cybernetic implants you can have, the total implantation values of all {rule/cybertech} implanted in you can't exceed your Intelligence score + 4 (ignoring your Constitution score).",
+			"When you're determining how many cybernetic implants you can have, the total implantation values of all ‹rule/cybertech› implanted in you can't exceed your Intelligence score + 4 (ignoring your Constitution score).",
 			"",
 			"::h3[Psychic Battery (Su)]{jl}",
 			"",
-			"You can expend an unused spell slot or a number of points from your phrenic pool as a swift action to power a technological device you are touching. Each spell level expended in this way grants the device 1 charge, and every 2 points from your phrenic pool spent grant 1 charge. Any charges unused at the end of the round are lost, and any charges used by the device that round that aren't provided by you must come from the device's own power reserves. You cannot use this ability to power {rule/timeworn technology}. You can power only devices that use charges. You must be at least 7th level to select this discovery.",
+			"You can expend an unused spell slot or a number of points from your phrenic pool as a swift action to power a technological device you are touching. Each spell level expended in this way grants the device 1 charge, and every 2 points from your phrenic pool spent grant 1 charge. Any charges unused at the end of the round are lost, and any charges used by the device that round that aren't provided by you must come from the device's own power reserves. You cannot use this ability to power ‹rule/timeworn technology›. You can power only devices that use charges. You must be at least 7th level to select this discovery.",
 			"",
 			"::h3[Radiation Resistance]{jl}",
 			"",
@@ -123,7 +123,7 @@
 			"",
 			"::h3[Techsmith]{jl}",
 			"",
-			"Select one type of technological item ({main/tech_<armor}, {main/tech_<cybertech}, {main/tech_<pharmaceuticals}, {main/tech/nological gear>_misc}, or {main/tech_<weapons}). You can create items of this type 25% faster than normal, and you gain a +4 bonus on Craft (mechanical) checks (or other checks, as appropriate) to craft items of this type. You can select this discovery multiple times; its effects do not stack. Instead, each time you select this discovery, it applies to a single different type of technological item."
+			"Select one type of technological item (‹main/tech_>armor›, ‹main/tech_>cybertech›, ‹main/tech_>pharmaceuticals›, ‹main/tech«nological gear<_misc›, or ‹main/tech_>weapons›). You can create items of this type 25% faster than normal, and you gain a +4 bonus on Craft (mechanical) checks (or other checks, as appropriate) to craft items of this type. You can select this discovery multiple times; its effects do not stack. Instead, each time you select this discovery, it applies to a single different type of technological item."
 		],
 		"topLink": [ "Psychic", "class/psychic" ]
 	},
@@ -136,8 +136,8 @@
 				[
 					"## Ranger Traps",
 					"",
-					"{SOURCE Ultimate Magic}  ",
-					"Rangers are legendary for their ability to hunt down and capture their prey. Some rangers can create elaborate traps out of scraps, vines, and perhaps a little bit of specialized magic. Characters can learn how to set these traps by taking the {feat/Learn Ranger Trap} feat or by having the {arc-ranger/trapper} ranger archetype.",
+					"‹SOURCE Ultimate Magic›  ",
+					"Rangers are legendary for their ability to hunt down and capture their prey. Some rangers can create elaborate traps out of scraps, vines, and perhaps a little bit of specialized magic. Characters can learn how to set these traps by taking the ‹feat/Learn Ranger Trap› feat or by having the ‹arc-ranger/trapper› ranger archetype.",
 					"",
 					"Setting a trap is a full-round action that provokes attacks of opportunity. A trap fills a single 5-foot square, and cannot be placed in the same area as another ranger trap or a magical trap such as a glyph of warding. The ranger only needs simple materials to create the trap, such as a piece of cloth, a small amount of metal (such as a dagger, iron spike, or a few nails), a foot of rope or vine, and so on. The DCs for Perception checks to notice the trap, Disable Device checks to disable it, and for saving throws to avoid it are equal to 10 + 1/2 the character's level + the character's Wisdom bonus. All ranger traps are Trigger: location, and Reset: none.",
 					"",
@@ -147,7 +147,7 @@
 					"",
 					"Certain traps add to or modify the effects of another trap; a ranger can add one of these trap types to any standard ranger trap (this costs 1 additional use of the trap ability).",
 					"",
-					"Some supernatural traps can be created by a character who isn't a ranger (but who has the {feat/Learn Ranger Trap} feat) through including an additional magical component. This component - usually a scroll, potion, or oil - is expended at the time of the trap's creation. Including it increases the time to lay the trap to 1 full minute."
+					"Some supernatural traps can be created by a character who isn't a ranger (but who has the ‹feat/Learn Ranger Trap› feat) through including an additional magical component. This component - usually a scroll, potion, or oil - is expended at the time of the trap's creation. Including it increases the time to lay the trap to 1 full minute."
 				],
 				{
 					"limit": { "omit": [] },
@@ -171,16 +171,16 @@
 				[
 					"## Rogue Talents",
 					"",
-					"{SOURCE PRPG Core Rulebook}  ",
+					"‹SOURCE PRPG Core Rulebook›  ",
 					"As a rogue gains experience, she learns a number of talents that aid her and confound her foes. Starting at 2nd level, a rogue gains one rogue talent. She gains an additional rogue talent for every 2 levels of rogue attained after 2nd level. A rogue cannot select an individual talent more than once.",
 					"",
-					"Also see: {ability/advanced rogue talents}, available starting at 10th level.",
+					"Also see: ‹ability/advanced rogue talents›, available starting at 10th level.",
 					"",
-					"**Note:** This list contains talents for both the Rogue and the {class/Unchained Rogue}. Most can be used by both. Some talents were made for the Rogue and haven't been officially stated to be usable by the Unchained Rogue, and are labeled \"Rogue Only\". Others are only for the Unchained Rogue and are labeled as such. Several talents have different text for each class - both are listed in their entry.",
+					"**Note:** This list contains talents for both the Rogue and the ‹class/Unchained Rogue›. Most can be used by both. Some talents were made for the Rogue and haven't been officially stated to be usable by the Unchained Rogue, and are labeled \"Rogue Only\". Others are only for the Unchained Rogue and are labeled as such. Several talents have different text for each class - both are listed in their entry.",
 					"",
 					"::h3[Primary Sneak Attack Talents]{jl}",
 					"",
-					"These talents add effects to a rogue's {ability/sneak attack}. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
+					"These talents add effects to a rogue's ‹ability/sneak attack›. Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
 					""
 				],
 				{
@@ -190,7 +190,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -206,7 +206,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -220,7 +220,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -234,7 +234,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -248,7 +248,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -262,7 +262,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -276,7 +276,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -290,7 +290,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -304,7 +304,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -318,7 +318,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -332,7 +332,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -346,7 +346,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -360,7 +360,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[talent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				}
 			]
 		},
@@ -374,7 +374,7 @@
 			"source": "shamanhex",
 			"targets": [
 				[
-					"{SOURCE Advanced Class Guide}  ",
+					"‹SOURCE Advanced Class Guide›  ",
 					"A shaman learns a number of magical tricks, called hexes, which grant her powers or weaken foes. At 2nd level, a shaman learns one hex. At 4th, 8th, 10th, 12th, 16th, 18th, and 20th level, the shaman learns new hexes. A shaman can select from any of the following hexes or from any of the hexes listed in the description of her chosen spirit. A shaman cannot select a hex more than once unless noted otherwise.",
 					"",
 					"Using a hex is a standard action that doesn't provoke an attack of opportunity unless otherwise noted. The saving throw DC to resist a hex is equal to 10 + 1/2 the shaman's level + the shaman's Wisdom modifier.",
@@ -389,7 +389,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[shamanhex/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[shamanhex/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -404,10 +404,10 @@
 		"description": [
 			"## Shaman Spirits",
 			"",
-			"{SOURCE Advanced Class Guide/37}  ",
+			"‹SOURCE Advanced Class Guide/37›  ",
 			"Each shaman must select from the following spirits. Unless otherwise noted, the DC to save against the special abilities granted by a spirit is equal to 10 + 1/2 the shaman's level + the shaman's Wisdom modifier.",
 			"",
-			"{SOURCE Healer's Handbook/27}  ",
+			"‹SOURCE Healer's Handbook/27›  ",
 			"**Spirit specializations** are more specific focuses for shaman spirits that allow shamans greater flexibility in customizing their characters and building character backstories. The **Restoration** spirit is listed below, specializing the **Life** spirit, but it is far from the only spirit specialization that exists.",
 			"",
 			"Each spirit specialization replaces one or more hexes that the shaman can gain, as well as one or more of the spirit's abilities and a number of the spells in the spirit's spirit magic spell list. A spirit specialization never replaces all of the spirit's hexes or all of the spirit's abilities.",
@@ -445,10 +445,10 @@
 		"description": [
 			"## Simple Kinetic Blasts",
 			"",
-			"{SOURCE Occult Adventures/15}  ",
+			"‹SOURCE Occult Adventures/15›  ",
 			"A kineticist gains a simple blast from her primary element at 1st level. Some elements offer more than one option. When a kineticist gains a new element via the expanded element class feature, she gains a simple blast from that element as well. Each simple blast is either a physical blast or an energy blast. Physical blasts are ranged attacks that deal an amount of damage equal to 1d6+1 + the kineticist's Constitution modifier, increasing by 1d6+1 for every 2 kineticist levels beyond 1st. Spell resistance doesn't apply against physical blasts. Energy blasts are ranged touch attacks that deal an amount of damage equal to 1d6 + 1/2 the kineticist's Constitution modifier, increasing by 1d6 for every 2 kineticist levels beyond 1st.",
 			"",
-			"{table0}"
+			"‹table0›"
 		],
 		"tables": [
 			{
@@ -461,17 +461,17 @@
 					{ "header": "Damage Type", "align": "start" }
 				],
 				"data": [
-					[ "{kinetic/Air Blast/ (Sp)}", "air", 0, "physical", "bludgeoning" ],
-					[ "{kinetic/Cold Blast/ (Sp)}", "water", 0, "energy", "cold" ],
-					[ "{kinetic/Earth Blast/ (Sp)}", "earth", 0, "physical", "bludgeoning, piercing, or slashing" ],
-					[ "{kinetic/Electric Blast/ (Sp)}", "air", 0, "energy", "electricity" ],
-					[ "{kinetic/Fire Blast/ (Sp)}", "fire", 0, "energy", "fire" ],
-					[ "{kinetic/Gravity Blast/ (Sp)}", "void", 0, "physical", "bludgeoning" ],
-					[ "{kinetic/Negative Blast/ (Sp)}", "void", 0, "energy", "negative energy" ],
-					[ "{kinetic/Positive Blast/ (Sp)}", "wood", 0, "energy", "positive energy" ],
-					[ "{kinetic/Telekinetic Blast/ (Sp)}", "aether", 0, "physical", "bludgeoning, piercing, or slashing" ],
-					[ "{kinetic/Water Blast/ (Sp)}", "water", 0, "physical", "bludgeoning" ],
-					[ "{kinetic/Wood Blast/ (Sp)}", "wood", 0, "physical", "bludgeoning, piercing, or slashing" ]
+					[ "‹kinetic/Air Blast« (Sp)›", "air", 0, "physical", "bludgeoning" ],
+					[ "‹kinetic/Cold Blast« (Sp)›", "water", 0, "energy", "cold" ],
+					[ "‹kinetic/Earth Blast« (Sp)›", "earth", 0, "physical", "bludgeoning, piercing, or slashing" ],
+					[ "‹kinetic/Electric Blast« (Sp)›", "air", 0, "energy", "electricity" ],
+					[ "‹kinetic/Fire Blast« (Sp)›", "fire", 0, "energy", "fire" ],
+					[ "‹kinetic/Gravity Blast« (Sp)›", "void", 0, "physical", "bludgeoning" ],
+					[ "‹kinetic/Negative Blast« (Sp)›", "void", 0, "energy", "negative energy" ],
+					[ "‹kinetic/Positive Blast« (Sp)›", "wood", 0, "energy", "positive energy" ],
+					[ "‹kinetic/Telekinetic Blast« (Sp)›", "aether", 0, "physical", "bludgeoning, piercing, or slashing" ],
+					[ "‹kinetic/Water Blast« (Sp)›", "water", 0, "physical", "bludgeoning" ],
+					[ "‹kinetic/Wood Blast« (Sp)›", "wood", 0, "physical", "bludgeoning, piercing, or slashing" ]
 				],
 				"initialColumn": 0
 			}
@@ -487,12 +487,12 @@
 				[
 					"## Slayer Talents",
 					"",
-					"{SOURCE Advanced Class Guide/53}  ",
+					"‹SOURCE Advanced Class Guide/53›  ",
 					"As a slayer gains experience, he learns a number of talents that aid him and confound his foes. Starting at 2nd level and every 2 levels thereafter, a slayer gains one slayer talent. Unless otherwise noted, a slayer cannot select an individual talent more than once.",
 					"",
 					"::h3[Primary Sneak Attack Talents]{jl}",
 					"",
-					"These talents add effects to a slayer's {ability/sneak attack}. Only one of these talents can be applied to an individual attack, and the decision of which to use must be made before the attack roll is made.",
+					"These talents add effects to a slayer's ‹ability/sneak attack›. Only one of these talents can be applied to an individual attack, and the decision of which to use must be made before the attack roll is made.",
 					""
 				],
 				{
@@ -502,7 +502,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -518,7 +518,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -534,7 +534,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -548,7 +548,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[slayertalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -563,7 +563,7 @@
 				[
 					"## Social Talents",
 					"",
-					"{SOURCE Ultimate Intrigue}  ",
+					"‹SOURCE Ultimate Intrigue›  ",
 					"Starting at 1st level, and every 2 levels thereafter, a vigilante gains a social talent. Unless otherwise noted, a talent can be selected only once. Some talents require the vigilante to meet other prerequisites before they can be chosen, such as having another social talent or attaining a minimum vigilante level. Once a talent has been chosen, it cannot be changed.",
 					"",
 					"---",
@@ -576,7 +576,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[soctalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[soctalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -588,24 +588,24 @@
 		"description": [
 			"## Stance Rage Powers",
 			"",
-			"{SOURCE Pathfinder Unchained}",
+			"‹SOURCE Pathfinder Unchained›",
 			"",
 			"**Stance rage powers** are available to unchained barbarians. Activating a stance rage power is a move action. A barbarian can't have more than one stance rage power active at a time. If she activates a stance rage power while another one is active, the current stance immediately ends. The stance can be intentionally ended at the beginning of the barbarian's turn as a free action; otherwise, it lasts until the rage ends.",
 			"",
-			"An unchained barbarian can also choose from other {ability/rage powers}.",
+			"An unchained barbarian can also choose from other ‹ability/rage powers›.",
 			"",
 			"| Stance Power | Minimum Level | Description |",
 			"| --- | --- | --- |",
-			"| @ripple[ragepower/Accurate Stance/ (Ex)] | 2nd | Improve your melee and thrown weapon attacks. |",
-			"| @ripple[ragepower/Calm Stance/ (Ex)] | 2nd | Supress rage benefits and penalties, except for the temporary hit points. |",
-			"| @ripple[ragepower/Elemental Stance/ (Su)] | 4th | Deal extra elemental damage with your melee attacks. |",
-			"| @ripple[ragepower/Guarded Stance /(Ex)>stance] | 2nd | Gain a dodge bonus to your AC. |",
-			"| @ripple[ragepower/Knockdown Stance/ (Ex)] | 2nd | You can freely trip foes in lieu of attacking them. |",
-			"| @ripple[ragepower/Powerful Stance/ (Ex)] | 2nd | Increase your melee and thrown weapon damage. |",
-			"| @ripple[ragepower/Reckless Stance/ (Ex)] | 2nd | Increase your attack at the expense of your defense. |",
-			"| @ripple[ragepower/Regenerative Stance/ (Ex)] | 4th | Regain temporary hit points every round. |",
-			"| @ripple[ragepower/Strength Stance/ (Ex)] | 2nd | Gain a bonus to combat maneuvers and some Strength checks. |",
-			"| @ripple[ragepower/Taunting Stance/ (Ex)] | 12th | Leave yourself open to attack, but counterattack with impunity. |"
+			"| @ripple[ragepower/Accurate Stance« (Ex)] | 2nd | Improve your melee and thrown weapon attacks. |",
+			"| @ripple[ragepower/Calm Stance« (Ex)] | 2nd | Supress rage benefits and penalties, except for the temporary hit points. |",
+			"| @ripple[ragepower/Elemental Stance« (Su)] | 4th | Deal extra elemental damage with your melee attacks. |",
+			"| @ripple[ragepower/Guarded Stance «(Ex)<stance] | 2nd | Gain a dodge bonus to your AC. |",
+			"| @ripple[ragepower/Knockdown Stance« (Ex)] | 2nd | You can freely trip foes in lieu of attacking them. |",
+			"| @ripple[ragepower/Powerful Stance« (Ex)] | 2nd | Increase your melee and thrown weapon damage. |",
+			"| @ripple[ragepower/Reckless Stance« (Ex)] | 2nd | Increase your attack at the expense of your defense. |",
+			"| @ripple[ragepower/Regenerative Stance« (Ex)] | 4th | Regain temporary hit points every round. |",
+			"| @ripple[ragepower/Strength Stance« (Ex)] | 2nd | Gain a bonus to combat maneuvers and some Strength checks. |",
+			"| @ripple[ragepower/Taunting Stance« (Ex)] | 12th | Leave yourself open to attack, but counterattack with impunity. |"
 		],
 		"topLink": [ "Unchained Barbarian", "class/unchained_barbarian" ]
 	}

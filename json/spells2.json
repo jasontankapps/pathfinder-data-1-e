@@ -16,13 +16,13 @@
 			"- Stand up as a swift action without provoking an attack of opportunity.",
 			"- Take one extra attack as part of a full attack action, using its highest base attack bonus.",
 			"- Gain a +2 bonus on attack rolls and a +2 dodge bonus to AC and Reflex saves.",
-			"- Cast a single spell of 2nd level or lower as if it were an {feat/enlarged}, {feat/extended}, {feat/silent>_spell}, or {feat/still spell}.",
+			"- Cast a single spell of 2nd level or lower as if it were an ‹feat/enlarged›, ‹feat/extended›, ‹feat/silent<_spell›, or ‹feat/still spell›.",
 			"",
 			"These effects are not cumulative with similar effects, such as those provided by haste or a speed weapon, nor do they actually grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round. Blessing of fervor does not stack with haste.",
 			"",
 			":::mythic{title=\"Mythic Blessing of Fervor\"}",
 			"",
-			"{SOURCE Mythic Adventures/86}  ",
+			"‹SOURCE Mythic Adventures/86›  ",
 			"Affected creatures can choose two of the spell's bonuses each round rather than one.",
 			"",
 			":::"
@@ -47,7 +47,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/68\" enchantment compulsion mindAffecting clr=2 inq=2 orc=2 pal=2 war=2 ctSt cV cS rTouch target=\"one living creature touched\" dur=\"1 minute/level (d), special see below\" will srY harmless}",
 			"",
-			">*{race/Halfling/s} have access to the following spells.*",
+			">*‹race/Halfling«s› have access to the following spells.*",
 			"",
 			"A favored blessing of halfling clerics, this spell grants its target a +2 morale bonus on saving throws against fear effects. If the target has the fearless racial trait, it is immune to fear instead. If the target fails a saving throw against fear, it can end the spell as an immediate action to reroll the save with a +4 morale bonus, and must take the new result, even if it is worse.",
 			"",
@@ -123,7 +123,7 @@
 			"",
 			"::spell{source=\"Kobolds of Golarion/26\" transmutation alc=4 arc=5 inq=4 inv=4 mag=4 sor=5 wit=5 wiz=5 ctSt cV cS cDF rClose target=\"one weapon\" durD durRL=1 will srY object}",
 			"",
-			"You transform the target weapon into pure blightburn. The weapon functions as normal, but any creature that touches it, or that it strikes, takes 2d6 points of fire damage each round it remains in contact. In addition, the weapon emanates an aura of radiation that causes {disease/blightburn sickness}. This is as the disease, but with a 10-foot radius and a save DC equal to this spell's save DC."
+			"You transform the target weapon into pure blightburn. The weapon functions as normal, but any creature that touches it, or that it strikes, takes 2d6 points of fire damage each round it remains in contact. In addition, the weapon emanates an aura of radiation that causes ‹disease/blightburn sickness›. This is as the disease, but with a 10-foot radius and a save DC equal to this spell's save DC."
 		]
 	},
 	"blinding_ray": {
@@ -137,13 +137,13 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/101\" evocation good light clr=2 inq=3 orc=2 pal=2 war=2 ctSt cV cS cDF rClose effect=\"one or more rays of light\" dur=\"instantaneous (see text)\" fort srY}",
 			"",
-			">*{race/Dhampir/s} have access to the following spell.*",
+			">*‹race/Dhampir«s› have access to the following spell.*",
 			"",
 			"You blast your enemies with blinding rays of sunlight. You may fire one ray, plus one additional ray for every four levels beyond 3rd (to a maximum of three rays at 11th level). Each ray requires a ranged touch attack to hit. If a ray hits, it explodes into powerful motes of light, and the target must save or be blinded for 1 round. If the target has light blindness, light sensitivity, or is otherwise vulnerable to bright light, it instead must save or be blinded for 1d4 rounds and take 1d4 points of damage per two caster levels (maximum 5d4). Any creature blinded by a ray sheds light as a sunrod for the duration of its blindness. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously.",
 			"",
 			":::mythic{title=\"Mythic Blinding Ray\"}",
 			"",
-			"{SOURCE Mythic Adventures/86}  ",
+			"‹SOURCE Mythic Adventures/86›  ",
 			"On a successful saving throw, the target is dazzled for 1 round. On a failed saving throw, the target is instead blinded for 1d4 rounds.",
 			"",
 			"A target with light blindness, light sensitivity, or any other vulnerability to light is instead blinded for 1d4 rounds on a successful saving throw and permanently blinded on a failed saving throw.",
@@ -166,7 +166,7 @@
 			"",
 			":::mythic{title=\"Mythic Blindness/Deafness\"}",
 			"",
-			"{SOURCE Mythic Adventures/86}  ",
+			"‹SOURCE Mythic Adventures/86›  ",
 			"You can cause the target to be both blinded and deafened at the same time. The target must attempt a saving throw against each effect separately.",
 			"",
 			":::"
@@ -186,7 +186,7 @@
 			"",
 			"You \"blink\" quickly back and forth between the Material Plane and the Ethereal Plane and look as though you're winking in and out of reality at random. Blink has several effects, as follows.",
 			"",
-			"Physical attacks against you have a 50% miss chance, and the {feat/Blind-Fight} feat doesn't help opponents, since you're ethereal and not merely invisible. If the attack is capable of striking ethereal creatures, the miss chance is only 20% (for concealment).",
+			"Physical attacks against you have a 50% miss chance, and the ‹feat/Blind-Fight› feat doesn't help opponents, since you're ethereal and not merely invisible. If the attack is capable of striking ethereal creatures, the miss chance is only 20% (for concealment).",
 			"",
 			"If the attacker can see invisible creatures, the miss chance is also only 20%. (For an attacker who can both see and strike ethereal creatures, there is no miss chance.) Likewise, your own attacks have a 20% miss chance, since you sometimes go ethereal just as you are about to strike.",
 			"",
@@ -208,7 +208,7 @@
 			"",
 			":::mythic{title=\"Mythic Blink\"}",
 			"",
-			"{SOURCE Mythic Adventures/86}  ",
+			"‹SOURCE Mythic Adventures/86›  ",
 			"You may spend a move action to remain corporeal or incorporeal until the end of your turn (you automatically resume blinking at the end of your turn).",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, you can spend either a swift action or a move action to remain corporeal or incorporeal until the end of your turn.",
@@ -231,7 +231,7 @@
 			"",
 			":::mythic{title=\"Mythic Blistering Invective\"}",
 			"",
-			"{SOURCE Mythic Adventures/86}  ",
+			"‹SOURCE Mythic Adventures/86›  ",
 			"Enemies that are demoralized by your Intimidate check take 2d8 points of fire damage and catch fire (no saving throw). Any Reflex save attempted to extinguish the flames automatically fails as long as the creature remains demoralized by your Intimidate check.",
 			"",
 			"*Augmented (5th):* If you expend two uses of mythic power, the spell doesn't have the language-dependent descriptor and you don't take a penalty on your Intimidate check to demoralize creatures that are larger than you.",
@@ -287,7 +287,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/143\" fire transmutation alc=2 ant=1 arc=2 bld=2 clr=2 inv=2 mag=2 orc=2 psy=2 rma=2 sor=2 war=2 wit=2 wiz=2 ctSt cV cS rTouch target=\"creature touched\" durD durRL=1 fort srY harmless}",
 			"",
-			">*{race/Orc/s} have access to the following spell.*",
+			">*‹race/Orc«s› have access to the following spell.*",
 			"",
 			"The target gains a 5-foot-radius aura that causes the blood of creatures in that area to ignite upon contact with air. Any creature (including the spell's target) within the aura that takes at least 5 points of piercing, slashing, or bleed damage from a single attack automatically creates a spray of burning blood. The spray strikes a creature in a randomly determined square adjacent to the injured creature. The spray deals 1d6 points of fire damage to any creature in that square, and 1 point of splash damage to all creatures within 5 feet of the spray's target, including the target of this spell. A creature can only create one spray of burning blood per round. Creatures that do not have blood (including oozes and most constructs and undead) do not create blood sprays when attacked."
 		]
@@ -318,8 +318,8 @@
 			"",
 			":::mythic{title=\"Mythic Blood Crow Strike\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}  ",
-			"Unarmed strikes attempted with this spell are treated as if you had the {feat/Improved Critical} (unarmed strike) feat. Use your tier plus your monk level (if any) when determining your unarmed strike damage for this spell. Fire damage from this spell bypasses fire resistance.",
+			"‹SOURCE Mythic Adventures/87›  ",
+			"Unarmed strikes attempted with this spell are treated as if you had the ‹feat/Improved Critical› (unarmed strike) feat. Use your tier plus your monk level (if any) when determining your unarmed strike damage for this spell. Fire damage from this spell bypasses fire resistance.",
 			"",
 			":::"
 		]
@@ -343,7 +343,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/209\" conjuration creation poison drd=8 sha=8 ctSt cV cS cMp=\"a pinch of dried red algae\" rMed area=\"60-ft. radius\" durML=1 save=\"Fortitude negates (see text)\" srY}",
 			"",
-			"This spell summons forth a misty cloud of rust-red toxic algae. Any creature within the mist is coated by it, turning the creature the same reddish color. All targets within the mist gain {rule/concealment}. Any creature within the mist must save or take 1d4 points of Wisdom damage and become enraged, attacking any creatures it detects nearby (as the \"attack nearest creature\" result of the confused condition). An enraged creature remains so as long as the spell is in effect. A creature only needs to save once each time it is within the mist (though leaving and returning requires another save)."
+			"This spell summons forth a misty cloud of rust-red toxic algae. Any creature within the mist is coated by it, turning the creature the same reddish color. All targets within the mist gain ‹rule/concealment›. Any creature within the mist must save or take 1d4 points of Wisdom damage and become enraged, attacking any creatures it detects nearby (as the \"attack nearest creature\" result of the confused condition). An enraged creature remains so as long as the spell is in effect. A creature only needs to save once each time it is within the mist (though leaving and returning requires another save)."
 		]
 	},
 	"blood_money": {
@@ -405,9 +405,9 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/143\" transmutation alc=3 ant=2 arc=3 bld=3 clr=3 drd=3 hnt=2 inq=3 inv=3 orc=3 psy=3 rgr=2 rma=3 sor=3 war=3 wit=3 wiz=3 ctSt cV cS rMed targets=\"one creature/2 levels, no two of which can be more than 30 ft. apart\" durML=1 durD will srY harmless}",
 			"",
-			">*{race/Orc/s} have access to the following spell.*",
+			">*‹race/Orc«s› have access to the following spell.*",
 			"",
-			"You greatly magnify the target's ability to smell the presence of blood. The target is considered to have the {umr/scent} universal monster ability, but only for purposes of detecting and pinpointing injured creatures (below full hit points). Creatures below half their full hit points or suffering bleed damage are considered strong scents for this ability.",
+			"You greatly magnify the target's ability to smell the presence of blood. The target is considered to have the ‹umr/scent› universal monster ability, but only for purposes of detecting and pinpointing injured creatures (below full hit points). Creatures below half their full hit points or suffering bleed damage are considered strong scents for this ability.",
 			"",
 			"Orcs and any creature under the effects of rage gain a +2 morale bonus on attack and damage rolls against creatures they can smell with this spell, or a +4 morale bonus if the target's blood counts as a strong scent."
 		]
@@ -420,7 +420,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/176\" transmutation alc=3 arc=3 inv=3 rma=3 sor=3 wiz=3 ctSt cV cS cMp=\"a life-sized animal sculpture of a familiar made of clay, cloth, stone, or wood, plus mandrake root worth 25 gp\" rTouch target=\"one animal sculpture\" durML=10 saveNo srN}",
 			"",
-			"After casting this spell, you pour a few drops of your blood and saliva into the mouth of the animal sculpture material component, temporarily giving it life. The animal is bonded to you as if it were a familiar, and it has the abilities of a familiar (use your caster level as your effective wizard level to determine its abilities), but it does not grant you the {feat/Alertness} feat or the special ability of its animal type. If your blood sentinel is slain, you take 2 points of Intelligence drain and the blood sentinel's body becomes a destroyed statue. This spell has no effect if you already have a familiar or another blood sentinel."
+			"After casting this spell, you pour a few drops of your blood and saliva into the mouth of the animal sculpture material component, temporarily giving it life. The animal is bonded to you as if it were a familiar, and it has the abilities of a familiar (use your caster level as your effective wizard level to determine its abilities), but it does not grant you the ‹feat/Alertness› feat or the special ability of its animal type. If your blood sentinel is slain, you take 2 points of Intelligence drain and the blood sentinel's body becomes a destroyed statue. This spell has no effect if you already have a familiar or another blood sentinel."
 		]
 	},
 	"blood_song": {
@@ -431,7 +431,7 @@
 			"",
 			"::spell{source=\"Faiths and Philosophies/28\" evocation brd=4 skd=4 ctM=2 cV cS cMp=\"the caster's blood\" rTouch target=\"creature touched; see text\" dur=\"1 day or until discharged\" durD will srY harmless}",
 			"",
-			"This spell functions as {spell/imbue with spell ability}, with the following exceptions: only bard spells of the conjuration (healing), enchantment, and transmutation schools can be transferred; the imbued spells last for 1 day; and the subject isn't beholden to any principles regarding the imbued spells' use.",
+			"This spell functions as ‹spell/imbue with spell ability›, with the following exceptions: only bard spells of the conjuration (healing), enchantment, and transmutation schools can be transferred; the imbued spells last for 1 day; and the subject isn't beholden to any principles regarding the imbued spells' use.",
 			"",
 			"As part of the casting, the caster must shed some of his blood (or an equivalent humor). If the caster isn't susceptible to bleed damage, regardless of the reason, he can't cast blood song. For each spell that is imbued using blood song, the caster loses 5 hit points, which can't be regained by any means until the spell ends or is discharged."
 		]
@@ -499,7 +499,7 @@
 			"",
 			"::spell{source=\"Pathfinder #140: Eulogy for Roslar's Coffer/72\" abjuration clr=7 occ=5 orc=7 wit=7 ctSt cV cS cMp=\"a red bloodstone worth 500 gp\" rPers target=you durHL=1}",
 			"",
-			"Developed due to {faith/Arazni/'s} fear that her stolen organs might be used to control her, this spell reflects any attempts to steal your free will. Whenever you are exposed to a mind-affecting effect or a spell that would otherwise give another creature control of your actions (such as {spell/control undead}), you can dispel this effect as an immediate action to redirect the spell to a creature within 30 feet. The affected creature must attempt a save against the original DC of the triggering effect. On a failure, it is subject to the effects of the triggering spell, with the exception that you are treated as the original caster (statistics determined by caster level are still calculated according to its original caster). The target creature applies any spell resistance or immunities it has normally. You can have only one instance of this spell active at a time."
+			"Developed due to ‹faith/Arazni«'s› fear that her stolen organs might be used to control her, this spell reflects any attempts to steal your free will. Whenever you are exposed to a mind-affecting effect or a spell that would otherwise give another creature control of your actions (such as ‹spell/control undead›), you can dispel this effect as an immediate action to redirect the spell to a creature within 30 feet. The affected creature must attempt a save against the original DC of the triggering effect. On a failure, it is subject to the effects of the triggering spell, with the exception that you are treated as the original caster (statistics determined by caster level are still calculated according to its original caster). The target creature applies any spell resistance or immunities it has normally. You can have only one instance of this spell active at a time."
 		]
 	},
 	"bloodsworn_retribution": {
@@ -510,7 +510,7 @@
 			"",
 			"::spell{source=\"Dwarves of Golarion/22\" necromancy clr=6 hnt=4 orc=6 pal=4 rgr=4 war=6 ctR=1 cV cS cMp=\"your blood\" rPers target=you dur=\"special (see text)\"}",
 			"",
-			">*In order to prepare this spell, the caster must spend an hour performing a ritual in which he beseeches {faith/Torag} (or a member of his family) for the aid of {faith/Dranngvit}. For 24 hours after the ritual, the caster may prepare spells of the requested deity. The caster may only attune himself to one additional deity at a time.*",
+			">*In order to prepare this spell, the caster must spend an hour performing a ritual in which he beseeches ‹faith/Torag› (or a member of his family) for the aid of ‹faith/Dranngvit›. For 24 hours after the ritual, the caster may prepare spells of the requested deity. The caster may only attune himself to one additional deity at a time.*",
 			"",
 			"When you cast this spell, you cut yourself and swear an oath of retribution on your own blood. You decide how much damage you want to take from this attack, up to 25 points. This damage cannot be healed for as long as the spell is in effect. Anytime you perform an attack, save, or check that is directly related to the oath and brings you closer to the fulfillment of that oath, you gain a morale bonus to that roll equal to the number of hit points of damage you took from the oath divided by 5. The GM is the final arbiter over whether or not an action qualifies for this bonus. When you fulfill the oath (or choose to forsake it), the spell ends, and the lost hit points can be healed as normal.",
 			"",
@@ -547,9 +547,9 @@
 			"",
 			"::spell{source=\"Pathfinder #71: Rasputin Must Die!/75\" necromancy arc=2 clr=2 orc=2 sor=2 war=2 wiz=2 ctSt cV cS r=\"personal and see text\" target=\"you and see text\" durML=10 saveNo srY}",
 			"",
-			">*{faith/Szuriel/'s} priests have access to the following spell.*",
+			">*‹faith/Szuriel«'s› priests have access to the following spell.*",
 			"",
-			"Your eyes turn black and weep blood, and your teeth become jagged fangs. You gain a bite attack (1d3 points of damage if you are Small, 1d4 points of damage if you are Medium). You gain a +4 profane bonus on Intimidate checks and on your spell DCs for spells with the fear descriptor. You perceive creatures as if using {spell/deathwatch}."
+			"Your eyes turn black and weep blood, and your teeth become jagged fangs. You gain a bite attack (1d3 points of damage if you are Small, 1d4 points of damage if you are Medium). You gain a +4 profane bonus on Intimidate checks and on your spell DCs for spells with the fear descriptor. You perceive creatures as if using ‹spell/deathwatch›."
 		]
 	},
 	"blot": {
@@ -560,7 +560,7 @@
 			"",
 			"::spell{source=\"Goblins of Golarion/28\" transmutation arc=3 brd=3 clr=3 orc=3 rma=3 skd=3 sor=3 war=3 wiz=3 ctSt cV cS cMp=\"a bit of cloth made wet with saliva\" rClose area=\"10 ft.-radius burst\" durH=24 will srY object}",
 			"",
-			"This spell reduces all types of writing and other recognizable symbols found on any sort of surface within range into illegible smears. It affects books, carvings on stone, or even tattoos with equal ease. It does not affect writing that is not actually on a surface, such as an illusion, projection, reflection, or anything similar. Spellbooks and magical items that contain writing (such as scrolls) gain a saving throw to resist the effects of this spell. Against magical writing created by spell effects (such as {spell/glyph[s] of warding} or {spell/symbol/s>_of_death}), blot instead functions as a {spell/dispel magic} spell capable of targeting all such spell effects in the area. This spell has no effect on writing found on artifacts or similarly unique surfaces."
+			"This spell reduces all types of writing and other recognizable symbols found on any sort of surface within range into illegible smears. It affects books, carvings on stone, or even tattoos with equal ease. It does not affect writing that is not actually on a surface, such as an illusion, projection, reflection, or anything similar. Spellbooks and magical items that contain writing (such as scrolls) gain a saving throw to resist the effects of this spell. Against magical writing created by spell effects (such as ‹spell/glyph«s» of warding› or ‹spell/symbol«s<_of_death›), blot instead functions as a ‹spell/dispel magic› spell capable of targeting all such spell effects in the area. This spell has no effect on writing found on artifacts or similarly unique surfaces."
 		]
 	},
 	"blur": {
@@ -586,7 +586,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/176\" glamer illusion alc=1 arc=1 bld=1 brd=1 inv=1 mag=1 mes=1 occ=1 psy=1 rma=1 skd=1 sor=1 sum=1 usm=1 wiz=1 ctSt cV cS rPers target=you durML=1 durD}",
 			"",
-			"This spell functions as {spell/blur}, except that the blurring occurs only when you move at least 10 feet on your turn and ceases at the end of your movement. It is therefore mainly used to thwart attacks on your turn, such as attacks of opportunity. If you move at least twice your speed on your turn, the blurring lasts until the start of your next turn."
+			"This spell functions as ‹spell/blur›, except that the blurring occurs only when you move at least 10 feet on your turn and ceases at the end of your movement. It is therefore mainly used to thwart attacks on your turn, such as attacks of opportunity. If you move at least twice your speed on your turn, the blurring lasts until the start of your next turn."
 		]
 	},
 	"body_capacitance": {
@@ -634,7 +634,7 @@
 			"",
 			":::mythic{title=\"Mythic Boiling Blood\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}  ",
+			"‹SOURCE Mythic Adventures/87›  ",
 			"A target that fails its save takes 1d3 points of fire damage per round. If a target has the orc subtype, it also gains fire resistance 5.",
 			"",
 			"*Augmented:* If you expend two uses of mythic power, you can affect allies as though they had the orc subtype.",
@@ -672,7 +672,7 @@
 			"",
 			"::spell{source=\"Adventurer's Guide/160\" transmutation arc=3 bld=2 clr=3 drd=3 hnt=3 inq=3 mag=3 orc=3 sor=3 war=3 wit=3 wiz=3 ctSt cSpecial=\"M/F (a jagged shard of bone from a humanoid creature)\" rClose target=\"one living creature\" durRL=1 fort srN}",
 			"",
-			"Choose a creature that you can see. When that creature is struck by a weapon wielded by a member of the {rule/Red Mantis}, a sawtooth sabre, or by the claw of a giant mantis, the bone nearest to the wound instantly sprouts jagged, razor-sharp spurs that flense the muscle and flesh from the inside out unless the target succeeds at a Fortitude save. The creature takes 1d6 points of piercing damage per caster level. While the bone returns to normal immediately after dealing damage, the creature takes 1d4 points of bleed damage for 1 round per 2 caster levels. The victim is sickened by the pain for the duration of the bleeding. If the target creature has no bones, this spell has no effect."
+			"Choose a creature that you can see. When that creature is struck by a weapon wielded by a member of the ‹rule/Red Mantis›, a sawtooth sabre, or by the claw of a giant mantis, the bone nearest to the wound instantly sprouts jagged, razor-sharp spurs that flense the muscle and flesh from the inside out unless the target succeeds at a Fortitude save. The creature takes 1d6 points of piercing damage per caster level. While the bone returns to normal immediately after dealing damage, the creature takes 1d4 points of bleed damage for 1 round per 2 caster levels. The victim is sickened by the pain for the duration of the bleeding. If the target creature has no bones, this spell has no effect."
 		]
 	},
 	"boneshaker": {
@@ -725,9 +725,9 @@
 			"",
 			"::spell{source=\"Horror Adventures/111\" evil transmutation ant=2 clr=4 drd=4 hnt=4 med=2 occ=3 orc=4 psy=4 rgr=4 sha=4 war=4 wit=4 ctSt cV cS cMp=\"a dirty scrap of a good priest's raiment\" rTouch target=\"creature touched\" durML=1 durD saveNo srN}",
 			"",
-			"You touch a creature with at least one manifestation from a {rule/corruption}. You temporarily gain any stains and gifts that corruption grants to the creature, and the creature retains them. If the gifts have limited uses, you count as having no uses remaining. You take 1d3 points of Wisdom drain whenever you cast this spell.",
+			"You touch a creature with at least one manifestation from a ‹rule/corruption›. You temporarily gain any stains and gifts that corruption grants to the creature, and the creature retains them. If the gifts have limited uses, you count as having no uses remaining. You take 1d3 points of Wisdom drain whenever you cast this spell.",
 			"",
-			"If your campaign uses {rule/the |sanity/ system}, your sanity score decreases by 2 (and thus your sanity edge decreases by 1) each time you cast this spell, instead of you taking Wisdom drain. Only {spell/greater restoration}, {spell/miracle}, or {spell/wish} can remove this decrease. A single casting of greater restoration removes one decrease of sanity from casting {spell/borrow corruption}, while a casting of miracle or wish removes them all."
+			"If your campaign uses ‹rule/the »sanity« system›, your sanity score decreases by 2 (and thus your sanity edge decreases by 1) each time you cast this spell, instead of you taking Wisdom drain. Only ‹spell/greater restoration›, ‹spell/miracle›, or ‹spell/wish› can remove this decrease. A single casting of greater restoration removes one decrease of sanity from casting ‹spell/borrow corruption›, while a casting of miracle or wish removes them all."
 		]
 	},
 	"borrow_fortune": {
@@ -764,7 +764,7 @@
 			"",
 			":::mythic{title=\"Mythic Borrowed Time\"}",
 			"",
-			"{SOURCE Mythic Origins/14}  ",
+			"‹SOURCE Mythic Origins/14›  ",
 			"If you expend one use of mythic power, instead of taking an extra swift action, you can take either an extra move or an extra swift action each round. You can use this extra swift action to take two immediate actions between your turns; this consumes your extra swift action in your next round. Each extra action you take still deals damage to you as described above.",
 			"",
 			":::"
@@ -817,7 +817,7 @@
 			"",
 			"A bow spirit is a shapeless force that hovers about you, taking ammunition from your quiver and firing it. For as long as the bow spirit lasts, you can spend a swift action to direct the bow spirit to fire an arrow or a bolt at a target of your choice, as if the bow spirit were firing the necessary ranged weapon. The bow spirit uses your base attack bonus plus your Dexterity modifier, as well as any bonuses and effects from feats you have that affect ranged attacks, or bonuses from the ammunition it uses. A bow spirit's attacks do not provoke attacks of opportunity. There must be ammunition available for the bow spirit to use, and it expends ammunition as if used by you.",
 			"",
-			"A bow spirit occupies your space, and moves with you. It cannot be attacked or harmed by physical attacks, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it. A bow spirit's AC against touch attacks is 10 + your Dexterity modifier."
+			"A bow spirit occupies your space, and moves with you. It cannot be attacked or harmed by physical attacks, but ‹spell/dispel magic›, ‹spell/disintegrate›, a ‹magic-artifact/sphere of annihilation›, or a ‹magic-rod/rod of cancellation› affects it. A bow spirit's AC against touch attacks is 10 + your Dexterity modifier."
 		]
 	},
 	"bowstaff": {
@@ -845,7 +845,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/207\" curse transmutation inq=4 ctR=1 cV cS cDF rTouch target=\"creature touched\" durP fort srY}",
 			"",
-			"This spell functions like brand, except that it inflicts 1d6 points of damage when applied and cannot be removed, even temporarily. In addition, a greater brand blazes as bright as a torch when brought within 30 feet of a visible symbol of your faith. While the symbol is blazing, the recipient is sickened. Like the effects of bestow curse, a greater brand cannot be dispelled, but it can be removed by any means that removes a {spell/mark of justice}."
+			"This spell functions like brand, except that it inflicts 1d6 points of damage when applied and cannot be removed, even temporarily. In addition, a greater brand blazes as bright as a torch when brought within 30 feet of a visible symbol of your faith. While the symbol is blazing, the recipient is sickened. Like the effects of bestow curse, a greater brand cannot be dispelled, but it can be removed by any means that removes a ‹spell/mark of justice›."
 		]
 	},
 	"brand_greater": {
@@ -864,7 +864,7 @@
 			"",
 			"::spell{source=\"Adventurer's Guide/97;Path of the Hellknight/60\" curse transmutation inq=1 ctR=1 cV cS cDF rTouch target=\"creature touched\" durDL=1 fort srY}",
 			"",
-			"This spell etches the symbol of a nation, organization, or order on the target, dealing 1 point of damage. The mark can be placed on any exposed portion of the creature, typically the head or forearm. While branded in this way, the recipient loses the ability to speak or understand its racial language and the language of its homeland or primary culture (if these are different). For example, an elf raised among the Shoanti would lose Elven and Shoanti (if she knew both those {misc/languages}), while a halfling raised among dwarves would lose both Halfling and Dwarven (if she knew both those languages). A gnome raised among gnomes would lose Gnome, but no other language. This spell never suppresses Common or Undercommon, nor does it prevent spellcasting, though it may prevent a target from speaking intelligibly if it suppresses all of the target's languages. A brand of conformity can be hidden beneath clothing or removed by scraping it away (the latter deals 1d6 points of damage, though the brand returns if that damage is healed). In any event, the language-suppression element of a brand of conformity continues to function even when hidden or scraped away."
+			"This spell etches the symbol of a nation, organization, or order on the target, dealing 1 point of damage. The mark can be placed on any exposed portion of the creature, typically the head or forearm. While branded in this way, the recipient loses the ability to speak or understand its racial language and the language of its homeland or primary culture (if these are different). For example, an elf raised among the Shoanti would lose Elven and Shoanti (if she knew both those ‹misc/languages›), while a halfling raised among dwarves would lose both Halfling and Dwarven (if she knew both those languages). A gnome raised among gnomes would lose Gnome, but no other language. This spell never suppresses Common or Undercommon, nor does it prevent spellcasting, though it may prevent a target from speaking intelligibly if it suppresses all of the target's languages. A brand of conformity can be hidden beneath clothing or removed by scraping it away (the latter deals 1d6 points of damage, though the brand returns if that damage is healed). In any event, the language-suppression element of a brand of conformity continues to function even when hidden or scraped away."
 		]
 	},
 	"brand_of_hobbling": {
@@ -894,7 +894,7 @@
 			"",
 			"This spell etches the symbol of an eye or a lawful institution on the target, dealing 1d6 points of damage. The mark can be placed on any exposed portion of the creature, typically the head or forearm. While the target is branded in this way, twice per day as a standard action, you can instantly determine in what direction and how far away the target is, as long as it is within a range equal to 1 mile per your caster level. If the target travels beyond this range or to another plane, you cannot gain information about the recipient's location. Similarly, if the target becomes warded by a spell or effect that thwarts divination spells (such as nondetection) or moves into such an area (such as one created by antimagic field), you cannot gain information about the target's location. This effect otherwise works as a locate creature spell that lasts for 1 minute per caster level. It can be fooled by mislead but not by polymorph.",
 			"",
-			"A brand of tracking can be hidden by clothing or temporarily removed by scraping it away (the latter deals 1d6 points of damage, though the brand returns if that damage is healed, or 1 day later otherwise). The effects of a brand of tracking continue to function even when hidden or scraped away. A brand of tracking cannot be dispelled, but it can be permanently removed by any means that removes a {spell/mark of justice}."
+			"A brand of tracking can be hidden by clothing or temporarily removed by scraping it away (the latter deals 1d6 points of damage, though the brand returns if that damage is healed, or 1 day later otherwise). The effects of a brand of tracking continue to function even when hidden or scraped away. A brand of tracking cannot be dispelled, but it can be permanently removed by any means that removes a ‹spell/mark of justice›."
 		]
 	},
 	"break": {
@@ -913,7 +913,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Break\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}",
+			"‹SOURCE Mythic Adventures/87›",
 			"",
 			"You can target up to 1 Medium or smaller object per caster level.",
 			"",
@@ -941,13 +941,13 @@
 			"",
 			"This spell frees victims from enchantments, transmutations, and curses. Break enchantment can reverse even an instantaneous effect. For each such effect, you make a caster level check (1d20 + caster level, maximum +15) against a DC of 11 + caster level of the effect. Success means that the creature is free of the spell, curse, or effect. For a cursed magic item, the DC is equal to the DC of the curse.",
 			"",
-			"If the spell is one that cannot be dispelled by {spell/dispel magic} or {spell/stone to flesh}, break enchantment works only if that spell is 5th level or lower.",
+			"If the spell is one that cannot be dispelled by ‹spell/dispel magic› or ‹spell/stone to flesh›, break enchantment works only if that spell is 5th level or lower.",
 			"",
 			"If the effect comes from a permanent magic item, break enchantment does not remove the curse from the item, but it does free the victim from the item's effects.",
 			"",
 			":::mythic{title=\"Mythic Break Enchantment\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}  ",
+			"‹SOURCE Mythic Adventures/87›  ",
 			"Against non-mythic effects, the spell automatically succeeds without requiring a caster level check. Against mythic effects, add your tier to your caster level check. The maximum level of spell this spell can remove is 5 + half your tier.",
 			"",
 			"*Augmented (7th):* If you expend two uses of mythic power, you can apply a removed enchantment, transmutation, or curse to the creature that originally cast it. The creature must be a valid target of the spell and on the same plane as you, and it gets a saving throw at the effect's original DC.",
@@ -977,11 +977,11 @@
 			"",
 			"Creatures slain by death effects cannot be saved by breath of life.",
 			"",
-			"Like {main/cure spells}, breath of life deals damage to undead creatures rather than curing them, and cannot bring them back to life.",
+			"Like ‹main/cure spells›, breath of life deals damage to undead creatures rather than curing them, and cannot bring them back to life.",
 			"",
 			":::mythic{title=\"Mythic Breath of Life\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}  ",
+			"‹SOURCE Mythic Adventures/87›  ",
 			"The spell heals 5d12 points of damage + 1 point per caster level (maximum +25). It can revive a creature that died of hp damage within the past 2 rounds. If the target was slain by a death effect that allows a saving throw, this spell allows the creature to attempt another save against that effect. If this save is successful, the creature is revived with -10 hp plus the amount healed by this spell.",
 			"",
 			"*Augmented (9th):* If you expend two uses of mythic power, you can target up to one creature per caster level within 30 feet of you. Alternatively, you can target one creature that has been dead for a number of rounds up to your caster level.",
@@ -998,7 +998,7 @@
 			"",
 			"::spell{source=\"Paizo Blog - Ultimate Cantrips\" air evocation arc=0 sor=0 wiz=0 ctSt cV cS cMp=\"a miniature fan\" rClose target=\"one creature or object\" durH=1 durD will svHarmless srY}",
 			"",
-			"You create a light wind that blows against the target, from a direction of your choice. The breeze grants the subject a +2 bonus on saves against very hot conditions, severe heat, breath weapons, and saves against cloud vapors and gases (such as {spell/cloudkill}, {spell/stinking cloud}, and inhaled poisons). This spell does not function without air or underwater.",
+			"You create a light wind that blows against the target, from a direction of your choice. The breeze grants the subject a +2 bonus on saves against very hot conditions, severe heat, breath weapons, and saves against cloud vapors and gases (such as ‹spell/cloudkill›, ‹spell/stinking cloud›, and inhaled poisons). This spell does not function without air or underwater.",
 			"",
 			"You can only have one breeze active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled.",
 			"",
@@ -1075,7 +1075,7 @@
 			"",
 			"You get a sense of the best way to interact with the target in order to encourage positive regard and fellowship toward you. You gain a +2 circumstance bonus on all Charisma checks and Charisma-based skill checks you attempt when interacting with the target. In addition, whenever you fail a Charisma check or Charisma-based skill check when interacting with the target, you can reroll the check as an immediate action. Attempting this reroll grants the target a new saving throw to end the spell. The target doesn't become hostile to you when the spell ends, but it does become disillusioned of its new trust in you. Attacking the target or taking an obvious hostile action against it automatically ends the spell.",
 			"",
-			"If you are using the {rule/contacts} rules, your {rule/trust/ score} with the target increases by 1 for the duration of the spell. If you're using the individual influence system, if the target fails its initial saving throw you learn one of its influence skills, strengths, or weaknesses as though you had succeeded at a discovery check."
+			"If you are using the ‹rule/contacts› rules, your ‹rule/trust« score› with the target increases by 1 for the duration of the spell. If you're using the individual influence system, if the target fails its initial saving throw you learn one of its influence skills, strengths, or weaknesses as though you had succeeded at a discovery check."
 		]
 	},
 	"bullet_shield": {
@@ -1166,7 +1166,7 @@
 			"",
 			"::spell{source=\"Inner Sea Races/218\" evocation fire good arc=5 bld=4 mag=5 sor=5 wiz=5 ctSt cV cS rLong area=\"10-ft. cube/level (S)\" durI reflHalf srY}",
 			"",
-			">*The following spell is available to the indicated race or ethnicity: {race/Elf}*",
+			">*The following spell is available to the indicated race or ethnicity: ‹race/Elf›*",
 			"",
 			"This spell fills the area with violet flames that scour an area clean of life - especially of the corrupted life of the Abyss. Creatures (and foliage) in the area take 1d8 points of fire damage per 2 caster levels you possess (maximum 7d8) unless they are outsiders with the chaotic and evil subtypes or are otherwise tainted by demons, in which case they instead take 1d6 points of fire damage per caster level (maximum 15d6). This fire damage ignores the fire resistance granted by the demon subtype, but it does not penetrate any other form of fire resistance or immunity."
 		]
@@ -1216,7 +1216,7 @@
 			"",
 			":::mythic{title=\"Mythic Burning Gaze\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}  ",
+			"‹SOURCE Mythic Adventures/87›  ",
 			"You may focus your burning gaze on a creature or object as a move action instead of as a standard action. The target takes 1d8 points of fire damage for failing its save and for each round it's on fire.",
 			"",
 			"*Augmented:* If you expend two uses of mythic power, once during the spell's duration you can, as a full-round action, direct your burning gaze at up to one creature per caster level.",
@@ -1239,7 +1239,7 @@
 			"",
 			":::mythic{title=\"Mythic Burning Hands\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}  ",
+			"‹SOURCE Mythic Adventures/87›  ",
 			"The range increases to 20 feet, and the damage dealt increases to 1d6 points of fire damage per caster level (maximum 5d6).",
 			"",
 			":::"
@@ -1271,7 +1271,7 @@
 			"",
 			":::mythic{title=\"Mythic Burrow\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}  ",
+			"‹SOURCE Mythic Adventures/87›  ",
 			"The target can breathe underground while burrowing. If you're 3rd tier, the burrow speed increases to 20 feet through sand, soil, or gravel, and to 10 feet through stone. At 6th tier, these speeds increase to 30 feet and 15 feet respectively. At 9th tier, these speeds increase to 40 feet and 20 feet.",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, the burrowing creature may leave behind an open tunnel with a diameter equal to half its space. When the spell's effect ends, this tunnel closes up immediately.",
@@ -1395,7 +1395,7 @@
 			"",
 			"::spell{source=\"Quests and Campaigns/28\" enchantment arc=3 brd=3 skd=3 sor=3 wiz=3 ctSt cV cS cMp=\"promotional materials such as flyers and posters worth 10 gp\" rTouch target=\"one building\" dur=\"see text\" durD saveNo srN}",
 			"",
-			"You may cast this spell immediately prior to spending 1 day of downtime to {rule/promote a business}. The spell is cast on a building you wish to promote, which is magically bestowed with magical decorations and other improvements that make it generally more appealing, and it is treated as seeing increased activity for the spell's duration. If the spell is cast on a building that you do not promote immediately thereafter, the spell is expended with no effect.",
+			"You may cast this spell immediately prior to spending 1 day of downtime to ‹rule/promote a business›. The spell is cast on a building you wish to promote, which is magically bestowed with magical decorations and other improvements that make it generally more appealing, and it is treated as seeing increased activity for the spell's duration. If the spell is cast on a building that you do not promote immediately thereafter, the spell is expended with no effect.",
 			"",
 			"After the initial day of downtime spent promoting your building, the spell maintains the influx of activity for a number of days equal to half your caster level (maximum 5 days). During this time, you needn't spend additional downtime to promote the building, but you must spend capital as normal to promote the building. The capital the affected building generates for you is unaffected by the spell. If you spend 1 day promoting a different building than the target of this spell while this spell remains active, the spell immediately ends."
 		]
@@ -1408,7 +1408,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/210\" glamer illusion wit=3 ctSt cV cS rClose target=\"one skull\" dur=\"permanent until discharged\" will srY}",
 			"",
-			"This spell functions as {spell/magic mouth}, except rather than creating an illusory mouth on any surface, it affects a skull. In addition, when the skull's magic is triggered, it releases wild and unnerving cackles before speaking its message. All creatures that can hear the cackles must save or become shaken for 1d4 rounds."
+			"This spell functions as ‹spell/magic mouth›, except rather than creating an illusory mouth on any surface, it affects a skull. In addition, when the skull's magic is triggered, it releases wild and unnerving cackles before speaking its message. All creatures that can hear the cackles must save or become shaken for 1d4 rounds."
 		]
 	},
 	"cacophonous_call": {
@@ -1447,7 +1447,7 @@
 			"",
 			"Creatures within the area are caught and contained unless any creature within the splash radius is too big to fit inside, in which case the effect automatically fails. Teleportation and other forms of astral travel provide means for escape, but the force walls extend into the Ethereal Plane, blocking ethereal travel.",
 			"",
-			"Like a {spell/wall of force}, the cage created by the caging bomb admixture resists {spell/dispel magic}, although a {spell/mage's disjunction} still functions. The walls of the cage can be damaged by spells as normal, except for {spell/disintegrate}, which automatically destroys the cage. The walls of this cage can be damaged by weapons and supernatural abilities, but the cage has a hardness of 20 and a number of hit points equal to 20 per alchemist level. Contact with a {magic-artifact/sphere of annihilation} or a {magic-rod/rod of cancellation} instantly destroys this cage.",
+			"Like a ‹spell/wall of force›, the cage created by the caging bomb admixture resists ‹spell/dispel magic›, although a ‹spell/mage's disjunction› still functions. The walls of the cage can be damaged by spells as normal, except for ‹spell/disintegrate›, which automatically destroys the cage. The walls of this cage can be damaged by weapons and supernatural abilities, but the cage has a hardness of 20 and a number of hit points equal to 20 per alchemist level. Contact with a ‹magic-artifact/sphere of annihilation› or a ‹magic-rod/rod of cancellation› instantly destroys this cage.",
 			"",
 			"When using caging bomb admixture, an alchemist can only have one cage in effect at a time. If the alchemist throws another bomb during the duration of caging bomb admixture, any other cage created by the earlier admixture ends, and a new one is created. When the duration of the caging bomb admixture ends, so does any remaining cage created by this admixture's effect."
 		]
@@ -1471,7 +1471,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/208\" earth transmutation arc=4 bld=4 psy=4 rma=4 sor=4 wiz=4 ctSt cV cS rTouch target=\"creature or creatures touched (up to one per level)\" durRL=1 fortPartial srY}",
 			"",
-			"Your touch progressively transmutes the substance of creatures you touch into stone. Once per round, you may deliver a touch attack that inflicts 1d4 points of Dexterity damage and {spell/slow/s} the target (as the spell) for 1 round. A successful Fortitude save negates the slow effect but not the ability damage. A target reduced to 0 Dexterity is petrified permanently. {spell/Break enchantment}, {spell/restoration}, or {spell/stone to flesh} can reverse the effects of calcific touch."
+			"Your touch progressively transmutes the substance of creatures you touch into stone. Once per round, you may deliver a touch attack that inflicts 1d4 points of Dexterity damage and ‹spell/slow«s› the target (as the spell) for 1 round. A successful Fortitude save negates the slow effect but not the ability damage. A target reduced to 0 Dexterity is petrified permanently. ‹spell/Break enchantment›, ‹spell/restoration›, or ‹spell/stone to flesh› can reverse the effects of calcific touch."
 		]
 	},
 	"calculated_luck": {
@@ -1497,7 +1497,7 @@
 			"",
 			"::spell{source=\"Inner Sea Intrigue/58\" conjuration summoning arc=3 drd=3 hnt=3 psy=3 rgr=3 sor=3 wiz=3 ct=\"10 minutes; see text\" cV cS cMp=\"a glob of spiced honey\" rClose effect=\"Swarm of wasps that builds a nest; see text\" durDL=1 saveNo srN}",
 			"",
-			"You summon a {monster/wasp swarm} that builds a 10-foot-by-10-foot nest in the place you designate - typically under the eaves of a house, amid the rafters of a tavern, or in another obscured place. The wasp swarm takes the spell's casting time to build its nest; if the swarm is disrupted in any way (such as by being attacked) before you finish casting this spell, the wasps disappear and the spell fizzles.",
+			"You summon a ‹monster/wasp swarm› that builds a 10-foot-by-10-foot nest in the place you designate - typically under the eaves of a house, amid the rafters of a tavern, or in another obscured place. The wasp swarm takes the spell's casting time to build its nest; if the swarm is disrupted in any way (such as by being attacked) before you finish casting this spell, the wasps disappear and the spell fizzles.",
 			"",
 			"Once the wasp swarm has built its nest, this spell also wards the area. As per alarm, when intruders that do not speak the password pass within 20 feet, the swarm is alerted and immediately leaves its nest and attacks the nearest intruder. The swarm pursues that intruder as best it can. Once the swarm attacks an intruder, you have no control over its target or direction of travel. When the spell ends, if the wasps have not left their nest, they and their nest disappear."
 		]
@@ -1523,7 +1523,7 @@
 			"",
 			":::mythic{title=\"Mythic Call Animal\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}  ",
+			"‹SOURCE Mythic Adventures/87›  ",
 			"You can call up to one animal per 2 caster levels. Animals that answer your call have a starting attitude of friendly. Add your tier to Handle Animal checks attempted to influence these animals.",
 			"",
 			"You may use this spell to call magical beasts with Intelligence 1 or 2, but they can attempt Will saving throws (with a +4 bonus) to resist the spell.",
@@ -1539,7 +1539,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/210\" conjuration teleportation arc=8 clr=8 occ=6 orc=8 psy=8 sor=8 wiz=8 ctM=10 cV cS cMp=\"a sapphire worth 1,000 or 5,000 gp; see text\" rTouch target=\"construct touched\" dur=\"permanent until discharged\" saveNo srN}",
 			"",
-			"This spell functions as {spell/instant summons}, except it can only summon a construct you control. For constructs such as golems that are immune to magic, the value of the specially inscribed sapphire must be at least 5,000 gp. For other constructs, a 1,000 gp sapphire suffices.",
+			"This spell functions as ‹spell/instant summons›, except it can only summon a construct you control. For constructs such as golems that are immune to magic, the value of the specially inscribed sapphire must be at least 5,000 gp. For other constructs, a 1,000 gp sapphire suffices.",
 			"",
 			"If the construct is no longer under your control or destroyed, the spell fails, but you know roughly where the construct or its remains are located."
 		]
@@ -1565,7 +1565,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Call Lightning\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}",
+			"‹SOURCE Mythic Adventures/87›",
 			"",
 			"Each lightning bolt's damage increases to 3d10 points of damage (or 5d10 points outdoors in stormy weather). Half of this damage is electricity damage, and the other half is sonic. Creatures that succeed at their saving throws are dazzled and deafened for 1 round. Those that fail at their saving throws are dazzled and deafened for 1 minute.",
 			"",
@@ -1730,7 +1730,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/210\" evocation fire light arc=3 brd=3 drd=2 hnt=2 occ=2 rgr=2 skd=3 sor=3 wiz=3 ctSt cV cS cMDFp=\"ash made from burnt thorns\" rClose effect=\"20-ft.-radius sphere centered on fire source\" dur=\"2 hours/level; see below\" durD saveNo srY}",
 			"",
-			"You can create a barrier around a fire of at least campfire size that shelters everyone inside so long as the fire continues to burn. The barrier appears as a crackling sphere of light and fire that is clearly visible, providing as much illumination as a torch. The barrier bocks line of sight, granting creatures on either side of the barrier {rule/total |concealment} from creatures on the other side. Any object or creature passing through the barrier from outside takes 1d6 points of fire damage and is also outlined with light equivalent to that of a torch, for 1d6 minutes. Creatures outlined in this way are plainly visible regardless of the light conditions and do not benefit from any sort of concealment, magical or otherwise. The light is not bright enough to have any special effect on undead or creatures vulnerable to light. Creatures inside the barrier can leave without penalty, but if they try to return they suffer the same consequences as anyone else. If the fire source at the barrier's center is extinguished or moved, the spell ends."
+			"You can create a barrier around a fire of at least campfire size that shelters everyone inside so long as the fire continues to burn. The barrier appears as a crackling sphere of light and fire that is clearly visible, providing as much illumination as a torch. The barrier bocks line of sight, granting creatures on either side of the barrier ‹rule/total »concealment› from creatures on the other side. Any object or creature passing through the barrier from outside takes 1d6 points of fire damage and is also outlined with light equivalent to that of a torch, for 1d6 minutes. Creatures outlined in this way are plainly visible regardless of the light conditions and do not benefit from any sort of concealment, magical or otherwise. The light is not bright enough to have any special effect on undead or creatures vulnerable to light. Creatures inside the barrier can leave without penalty, but if they try to return they suffer the same consequences as anyone else. If the fire source at the barrier's center is extinguished or moved, the spell ends."
 		]
 	},
 	"canopic_conversion": {
@@ -1746,9 +1746,9 @@
 			"",
 			"This spell eviscerates the target, drawing forth its life essence as well as its internal organs. The target takes 1d6 hit points of damage per caster level (maximum 20d6). If this damage kills the target, the spell pulls the creature's organs into a set of 4 canopic jars and seals them; 1d4 rounds later, the corpse revives as a mummy (if 8 HD or fewer) or an advanced mummy (if 9 HD or more).",
 			"",
-			"The mummy is not under your control, but the canopic jars give the bearer certain powers over it. Anyone holding one of the jars can communicate with the mummy as if the two shared a common language. The bearer gains the benefits of {spell/protection from evil} and {spell/sanctuary}, but only against that mummy. Unsealing or breaking a jar is a standard action, which dissipates its power (and protection) but lets the bearer issue a short command to the mummy, similar to a suggestion spell (Will DC 23 negates). You (and only you) may unseal all 4 jars in a 10-minute ritual to control the mummy with an effect similar to geas (Will DC 23 negates); most casters typically include a restriction that the mummy will not harm them, as unsealing the jars leaves them vulnerable.",
+			"The mummy is not under your control, but the canopic jars give the bearer certain powers over it. Anyone holding one of the jars can communicate with the mummy as if the two shared a common language. The bearer gains the benefits of ‹spell/protection from evil› and ‹spell/sanctuary›, but only against that mummy. Unsealing or breaking a jar is a standard action, which dissipates its power (and protection) but lets the bearer issue a short command to the mummy, similar to a suggestion spell (Will DC 23 negates). You (and only you) may unseal all 4 jars in a 10-minute ritual to control the mummy with an effect similar to geas (Will DC 23 negates); most casters typically include a restriction that the mummy will not harm them, as unsealing the jars leaves them vulnerable.",
 			"",
-			"The pharaohs of ancient Osirion sometimes used this spell to punish their enemies. The {rule/Risen Guard} does not use the spell (though they have access to it), preferring trustworthy living guardians for the Ruby Prince. The {rule/Whispering Way} may have copies of the spell."
+			"The pharaohs of ancient Osirion sometimes used this spell to punish their enemies. The ‹rule/Risen Guard› does not use the spell (though they have access to it), preferring trustworthy living guardians for the Ruby Prince. The ‹rule/Whispering Way› may have copies of the spell."
 		]
 	},
 	"cape_of_wasps": {
@@ -1762,11 +1762,11 @@
 			"",
 			"::spell{source=\"Ultimate Magic/210\" conjuration summoning drd=4 hnt=4 wit=4 ctSt cV cS rPers target=you durD durRL=1}",
 			"",
-			"You summon a wasp swarm, which fills your space (up to 5 feet by 5 feet) but does not attack you. The dense cloud of vermin gives you partial {rule/concealment} against ranged attacks. Any creature that makes a successful melee attack against you takes 2d6 points of swarm damage and poison from the wasp swarm, but is not affected by the swarm's distraction ability. As a free action on your turn, you may have the swarm cling to you tightly, giving you a fly speed of 20 feet (poor maneuverability); when using the swarm to fly, it does not provide concealment or harm creatures that strike you. You can return the swarm to its protective shape as a free action on your turn.",
+			"You summon a wasp swarm, which fills your space (up to 5 feet by 5 feet) but does not attack you. The dense cloud of vermin gives you partial ‹rule/concealment› against ranged attacks. Any creature that makes a successful melee attack against you takes 2d6 points of swarm damage and poison from the wasp swarm, but is not affected by the swarm's distraction ability. As a free action on your turn, you may have the swarm cling to you tightly, giving you a fly speed of 20 feet (poor maneuverability); when using the swarm to fly, it does not provide concealment or harm creatures that strike you. You can return the swarm to its protective shape as a free action on your turn.",
 			"",
 			":::mythic{title=\"Mythic Cape of Wasps\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}  ",
+			"‹SOURCE Mythic Adventures/87›  ",
 			"The wasp swarm fills a 15-foot-by-15-foot space centered on you (or on 1 of your squares, if your space is larger than 1 square). Creatures in the area of the swarm are affected by it normally (including the swarm's distraction ability). Add your tier to the swarm's distraction DC.",
 			"",
 			"When you use the swarm to fly, it fills only your space, your fly speed is 30 feet (average maneuverability), and the swarm still provides partial concealment against ranged attacks.",
@@ -1797,7 +1797,7 @@
 			"",
 			"You touch an animal or magical beast that has a helpful attitude toward you, instantly transforming the creature into a miniature figurine of stone, small enough to fit into the palm of your hand. Creatures with an attitude of less than helpful will not tolerate this spell, and it automatically fails to work on them. An intelligent animal or magical beast must be a willing subject in order for this spell to take effect. Any items that the creature wears (such as a harness or saddle) or carries (such as those stowed in saddlebags) are transformed along with the creature.",
 			"",
-			"While miniaturized, the creature is under an effect similar to that of a {spell/flesh to stone} spell: It is mindless and inert, and does not seem alive when viewed with spells like {spell/deathwatch}. However, you may return the creature to its normal form at any time simply by placing the figurine on the ground, touching it, and uttering a word of command. Otherwise, the creature remains in miniature form unless the spell is broken, such as by {spell/dispel magic} or stronger magic. Unlike a *flesh to stone* spell, a creature affected by *carry companion* is unaffected by {spell/stone to flesh}. If the miniature figurine is broken or damaged, the creature (if returned to its original state) has similar damage or deformities."
+			"While miniaturized, the creature is under an effect similar to that of a ‹spell/flesh to stone› spell: It is mindless and inert, and does not seem alive when viewed with spells like ‹spell/deathwatch›. However, you may return the creature to its normal form at any time simply by placing the figurine on the ground, touching it, and uttering a word of command. Otherwise, the creature remains in miniature form unless the spell is broken, such as by ‹spell/dispel magic› or stronger magic. Unlike a *flesh to stone* spell, a creature affected by *carry companion* is unaffected by ‹spell/stone to flesh›. If the miniature figurine is broken or damaged, the creature (if returned to its original state) has similar damage or deformities."
 		]
 	},
 	"carrying_wind": {
@@ -1819,9 +1819,9 @@
 			"",
 			"::spell{source=\"Inner Sea Races/218\" earth transmutation arc=5 drd=5 hnt=5 sor=5 wiz=5 ctSt cV cS cFp=\"a tiny diamond pick worth 500 gp\" rClose area=\"dirt or loose rock in one 5-ft. cube/level\" durI save=\"see text\" srN}",
 			"",
-			">*The following spell is available to the indicated race or ethnicity: {race/Kobold}*",
+			">*The following spell is available to the indicated race or ethnicity: ‹race/Kobold›*",
 			"",
-			"You can excavate and move an amount of snow, earth, dust, sand, and loose or packed rocks or ice chunks (each no more than 5 feet in diameter) whose volume fills one 5-foot cube per level. If you are buried, you can open a space around yourself and use any remaining cubes for tunneling. This spell is otherwise similar to {spell/expeditious excavation}. Carve passage has no effect on earth creatures or solid rock or ice."
+			"You can excavate and move an amount of snow, earth, dust, sand, and loose or packed rocks or ice chunks (each no more than 5 feet in diameter) whose volume fills one 5-foot cube per level. If you are buried, you can open a space around yourself and use any remaining cubes for tunneling. This spell is otherwise similar to ‹spell/expeditious excavation›. Carve passage has no effect on earth creatures or solid rock or ice."
 		]
 	},
 	"cast_out": {
@@ -1832,7 +1832,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/210\" abjuration inq=3 med=2 psy=4 ctSt cV cS cDF rTouch target=\"creature touched\" durI willPartial srY}",
 			"",
-			"With a melee touch attack you blast a single creature and disrupt any magic controlling it. The target takes 2d8 points of damage + 1 point per caster level (maximum +15). In addition, you make a dispel check against any magic jar effect (including a ghost's malevolence ability) or enchantment (compulsion) spells on the target creature, starting with the highest level spells and proceeding to lower level spells. Treat this as a targeted {spell/dispel magic} spell, except cast out can dispel one such spell for every four caster levels you possess. A successful Will save halves the damage and limits the dispelling to a single spell or effect."
+			"With a melee touch attack you blast a single creature and disrupt any magic controlling it. The target takes 2d8 points of damage + 1 point per caster level (maximum +15). In addition, you make a dispel check against any magic jar effect (including a ghost's malevolence ability) or enchantment (compulsion) spells on the target creature, starting with the highest level spells and proceeding to lower level spells. Treat this as a targeted ‹spell/dispel magic› spell, except cast out can dispel one such spell for every four caster levels you possess. A successful Will save halves the damage and limits the dispelling to a single spell or effect."
 		]
 	},
 	"castigate": {
@@ -1902,7 +1902,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/252\" mindAffecting emotion fear necromancy adp=1 ant=1 arc=1 bld=1 brd=1 clr=1 inq=1 med=1 mes=1 occ=1 orc=1 psy=1 sha=1 skd=1 sor=1 spr=1 war=1 wit=1 wiz=1 ctSt cV cS rClose target=\"one living creature with 5 or fewer HD\" dur=\"1d4 rounds or 1 round; see text\" willPartial srY}",
 			"",
-			"The affected creature becomes frightened. If the subject succeeds on a Will save, it is shaken for 1 round. Creatures with 6 or more HD are immune to this effect. Cause fear counters and dispels {spell/remove fear}."
+			"The affected creature becomes frightened. If the subject succeeds on a Will save, it is shaken for 1 round. Creatures with 6 or more HD are immune to this effect. Cause fear counters and dispels ‹spell/remove fear›."
 		]
 	},
 	"caustic_blood": {
@@ -2010,7 +2010,7 @@
 			"",
 			"You harness divine power to create one of four different ceremonies - a funeral, holiday fete, marriage, or naming - and can also create two domain-based ceremonies. Each ceremony provides a boon to two living, touched subjects for 1 hour per caster level, representing the divine gifts granted by your deity as well as the normal morale-boosting benefits of participating in an officiated ceremony. Bonuses granted by these boons are sacred bonuses if you channel positive energy or profane bonuses if you channel negative energy. (Bonuses in this section are referred to simply as sacred bonuses for ease of reading.) Only subjects whose alignments are within one step of your deity can be affected by this spell.",
 			"",
-			"If you are using the {rule/downtime/ system}, you may use additional resources to augment the effect of a particular ceremony. You may spend 10 Goods, Labor, or Influence or 2 Magic to create a larger ceremony and grant an additional boon that lasts for 1 day per caster level (up to a maximum of 5 days). The type of capital spent should reflect the preparation required for the specific ceremony. Augmented boons affect the creatures touched as well as a number of intelligent, properly aligned creatures within medium range equal to your caster level (up to a maximum of 10 creatures), granting all subjects the benefits of the original boon as well as the benefits of an augmented boon, representing the divine gifts granted to these witnesses by your god.",
+			"If you are using the ‹rule/downtime« system›, you may use additional resources to augment the effect of a particular ceremony. You may spend 10 Goods, Labor, or Influence or 2 Magic to create a larger ceremony and grant an additional boon that lasts for 1 day per caster level (up to a maximum of 5 days). The type of capital spent should reflect the preparation required for the specific ceremony. Augmented boons affect the creatures touched as well as a number of intelligent, properly aligned creatures within medium range equal to your caster level (up to a maximum of 10 creatures), granting all subjects the benefits of the original boon as well as the benefits of an augmented boon, representing the divine gifts granted to these witnesses by your god.",
 			"",
 			"Unless otherwise stated, use-activated abilities are supernatural abilities and abilities that emulate the effects of a spell are spell-like abilities; in either case, abilities granted by a boon are generally usable only once or until the duration of the spell ends, whichever comes first. Spell-like abilities are cast at a creature's highest caster level gained, or, if the creature has no caster level, CL 1st. Constant or passive effects and bonuses granted by this spell can be dispelled as normal, using your caster level to do so.",
 			"",
@@ -2028,7 +2028,7 @@
 			"",
 			"::h4[Naming]{jl}",
 			"",
-			"A naming must involve a willing parent or parents and a newborn (who is touched but unaffected). The subject can use {spell/sanctuary} once.",
+			"A naming must involve a willing parent or parents and a newborn (who is touched but unaffected). The subject can use ‹spell/sanctuary› once.",
 			"",
 			"The augmented versions of these four ceremonies are identical, granting the subject a +2 sacred bonus on all saving throws.",
 			"",
@@ -2038,13 +2038,13 @@
 			"",
 			"::h5[Air]{jl}",
 			"",
-			"**Celebration of Storms.** The subject can use {spell/feather fall} once.  ",
+			"**Celebration of Storms.** The subject can use ‹spell/feather fall› once.  ",
 			"*Augmented:* The subject gains a +4 sacred bonus on saves against effects with the air descriptor.",
 			"",
 			"::h5[Animal]{jl}",
 			"",
-			"**Ritual of Beasts.** The subject can use {spell/speak with animals} once (this effect lasts 3 rounds).  ",
-			"*Augmented:* The subject can use {spell/charm animal} once.",
+			"**Ritual of Beasts.** The subject can use ‹spell/speak with animals› once (this effect lasts 3 rounds).  ",
+			"*Augmented:* The subject can use ‹spell/charm animal› once.",
 			"",
 			"::h5[Artifice]{jl}",
 			"",
@@ -2073,8 +2073,8 @@
 			"",
 			"::h5[Death]{jl}",
 			"",
-			"**Dance of the Dead.** The subject can use {spell/bleed} up to three times.  ",
-			"*Augmented:* The subject can use {spell/cause fear} once.",
+			"**Dance of the Dead.** The subject can use ‹spell/bleed› up to three times.  ",
+			"*Augmented:* The subject can use ‹spell/cause fear› once.",
 			"",
 			"::h5[Destruction]{jl}",
 			"",
@@ -2083,7 +2083,7 @@
 			"",
 			"::h5[Earth]{jl}",
 			"",
-			"**Festival of Soil.** The subject can cast {spell/plant growth} (enrichment) once.  ",
+			"**Festival of Soil.** The subject can cast ‹spell/plant growth› (enrichment) once.  ",
 			"*Augmented:* The subject gains a +4 sacred bonus on saves against effects with the earth descriptor.",
 			"",
 			"::h5[Evil]{jl}",
@@ -2148,12 +2148,12 @@
 			"",
 			"::h5[Plant]{jl}",
 			"",
-			"**Harvest Festival.** The subject can use {spell/speak with plants} once, but the duration is 1 minute.  ",
+			"**Harvest Festival.** The subject can use ‹spell/speak with plants› once, but the duration is 1 minute.  ",
 			"*Augmented:* This boon can be used three times.",
 			"",
 			"::h5[Protection]{jl}",
 			"",
-			"**Ceremony of Sanctuary.** The subject can use {spell/sanctuary} once.  ",
+			"**Ceremony of Sanctuary.** The subject can use ‹spell/sanctuary› once.  ",
 			"*Augmented:* The subject gains a +2 sacred bonus to AC.",
 			"",
 			"::h5[Repose]{jl}",
@@ -2208,7 +2208,7 @@
 			"",
 			"::h5[Weather]{jl}",
 			"",
-			"**Song of the Tempest.** The subject can call one 10-foot-by-10-foot rain cloud in an area within 30 feet, requiring creatures in the affected area attempting to cast spells to first succeed at DC 13 {rule/concentration} checks for 1 round.  ",
+			"**Song of the Tempest.** The subject can call one 10-foot-by-10-foot rain cloud in an area within 30 feet, requiring creatures in the affected area attempting to cast spells to first succeed at DC 13 ‹rule/concentration› checks for 1 round.  ",
 			"*Augmented:* The DC is 15 for 3 rounds."
 		]
 	},
@@ -2242,7 +2242,7 @@
 			"",
 			":::mythic{title=\"Mythic Chain Lightning\"}",
 			"",
-			"{SOURCE Mythic Adventures/87}  ",
+			"‹SOURCE Mythic Adventures/87›  ",
 			"This spell deals 1d10 points of damage per caster level (maximum 20d10) and the save DC isn't reduced for secondary targets. Secondary targets have to be within 30 feet of any other target, not necessarily the primary target.",
 			"",
 			":::"
@@ -2256,7 +2256,7 @@
 			"",
 			"::spell{source=\"Ultimate Combat/225\" force evocation arc=3 bld=3 clr=3 orc=3 psy=3 sor=3 war=3 wiz=3 ctSt cV cS cMDFp=\"chain link\" rClose effect=\"10-ft. chain\" durD durRL=1 saveNo srY}",
 			"",
-			"A floating chain of force with hooks at each end appears within an unoccupied space of your choosing within range. This chain is a Medium object that has a 10-foot reach. Physical attacks cannot hit or harm the chain of perdition, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it normally. The chain's AC against touch attacks is 10 + your Charisma modifier (sorcerer), Intelligence modifier (wizard), or Wisdom modifier (cleric).",
+			"A floating chain of force with hooks at each end appears within an unoccupied space of your choosing within range. This chain is a Medium object that has a 10-foot reach. Physical attacks cannot hit or harm the chain of perdition, but ‹spell/dispel magic›, ‹spell/disintegrate›, a ‹magic-artifact/sphere of annihilation›, or a ‹magic-rod/rod of cancellation› affects it normally. The chain's AC against touch attacks is 10 + your Charisma modifier (sorcerer), Intelligence modifier (wizard), or Wisdom modifier (cleric).",
 			"",
 			"The chain can perform the dirty trick (blind or entangle), drag, reposition, and trip combat maneuvers, using your caster level in place of your Combat Maneuver Bonus, and your Charisma modifier (sorcerer), Intelligence modifier (wizard), or Wisdom modifier (cleric) in place of your Strength or Dexterity modifier. The chain does not provoke attacks of opportunity for making combat maneuvers. It suffers no penalty or miss chance due to darkness, invisibility, or other forms of concealment.",
 			"",
@@ -2273,7 +2273,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/131\" evocation fire arc=6 mag=6 sor=6 wiz=6 ctSt cV cS cFp=\"a drop of oil and a small piece of flint\" rMed targets=\"one primary target, plus one secondary target/level (each of which must be within 30 ft. of the primary target)\" durI reflHalf srY}",
 			"",
-			">*{race/Ifrit/s} have access to the following spell.*",
+			">*‹race/Ifrit«s› have access to the following spell.*",
 			"",
 			"This spell functions like chain lightning, except as noted above, and the spell deals fire damage instead of electricity damage."
 		]
@@ -2286,7 +2286,7 @@
 			"",
 			"::spell{source=\"Champions of Purity/29\" conjuration creation good arc=6 clr=6 inq=5 orc=6 pal=4 sor=6 war=6 wiz=6 ctSt cV cS cFp=\"a length of fine golden chain\" rClose target=\"one creature\" durD durRL=1 refl srN}",
 			"",
-			"A creature targeted by this spell is held immobile by glowing golden chains composed of pure light. The creature is paralyzed and held in place, but may attempt a new saving throw each round to end the effect. While held by the golden chains, a creature cannot use any sort of extradimensional travel, such as {spell/astral projection}, {spell/blink}, {spell/dimension door}, {spell/ethereal jaunt}, {spell/etherealness}, {spell/gate}, {spell/maze}, {spell/plane shift}, {spell/shadow walk}, {spell/teleport}, and similar spells and spell-like abilities. The spell does not affect creatures that are already in ethereal or astral form when the spell is cast."
+			"A creature targeted by this spell is held immobile by glowing golden chains composed of pure light. The creature is paralyzed and held in place, but may attempt a new saving throw each round to end the effect. While held by the golden chains, a creature cannot use any sort of extradimensional travel, such as ‹spell/astral projection›, ‹spell/blink›, ‹spell/dimension door›, ‹spell/ethereal jaunt›, ‹spell/etherealness›, ‹spell/gate›, ‹spell/maze›, ‹spell/plane shift›, ‹spell/shadow walk›, ‹spell/teleport›, and similar spells and spell-like abilities. The spell does not affect creatures that are already in ethereal or astral form when the spell is cast."
 		]
 	},
 	"challenge_evil": {
@@ -2364,7 +2364,7 @@
 			"",
 			":::mythic{title=\"Mythic Changestaff\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}  ",
+			"‹SOURCE Mythic Adventures/88›  ",
 			"The treant-like creature created with this spell is considered a mythic creature, and it gains DR 10/epic and slashing instead of gaining DR 10/slashing.",
 			"",
 			"*Augmented (7th):* If you expend two uses of mythic power, the creature gains the savage [mythic template](rule/mythic_simple_templates).",
@@ -2409,7 +2409,7 @@
 			"",
 			"*Spirit:* You gain a +6 competence bonus on Will saving throws and Bluff and Intimidate checks.",
 			"",
-			"*Torso:* You gain a +6 competence bonus on Fortitude saving throws and {rule/concentration} checks.",
+			"*Torso:* You gain a +6 competence bonus on Fortitude saving throws and ‹rule/concentration› checks.",
 			"",
 			"::spelldeitynote"
 		]
@@ -2427,13 +2427,13 @@
 			"",
 			"You unleash chaotic power to smite your enemies. The power takes the form of a multicolored explosion of leaping, ricocheting energy. Only lawful and neutral (not chaotic) creatures are harmed by the spell.",
 			"",
-			"The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to lawful creatures (or 1d6 points of damage per caster level, maximum 10d6, to lawful outsiders) and slows them for 1d6 rounds (see the {spell/slow} spell). A successful Will save reduces the damage by half and negates the slow effect.",
+			"The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to lawful creatures (or 1d6 points of damage per caster level, maximum 10d6, to lawful outsiders) and slows them for 1d6 rounds (see the ‹spell/slow› spell). A successful Will save reduces the damage by half and negates the slow effect.",
 			"",
 			"The spell deals only half damage against creatures who are neither lawful nor chaotic, and they are not slowed. Such a creature can reduce the damage by half again (down to one-quarter) with a successful Will save.",
 			"",
 			":::mythic{title=\"Mythic Chaos Hammer\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}  ",
+			"‹SOURCE Mythic Adventures/88›  ",
 			"The damage dealt to lawful outsiders increases to 1d10 points of damage per caster level (maximum 10d10), and the damage dealt to other lawful creatures increases to 1d12 points of damage per 2 caster levels (maximum 5d12). The duration of slow increases to 2d6 rounds. Lawful creatures that succeed at their saves are slowed for 1 round.",
 			"",
 			":::"
@@ -2447,7 +2447,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/161\" transmutation med=1 mes=1 occ=1 psy=1 spr=1 ctM=10 cV cS rTouch target=\"object touched\" durP save=\"none, see text\" srN}",
 			"",
-			"You charge an item with minor psychic energy. The item can be detected by the {spell/detect psychic significance} spell. If you wish, you can imprint the item with your ownership history. Spells such as {spell/object reading} and uses of the {skill/psychometry} unlock can reveal any information about yourself you impart into the object, including your name, alignment, profession, and a summary of your experiences with the item. You can't impart false information into the object, but you can omit any details you'd prefer not to divulge. If the target object is already psychically charged, you can add more information to it, but you can't use charge object to erase existing psychic information."
+			"You charge an item with minor psychic energy. The item can be detected by the ‹spell/detect psychic significance› spell. If you wish, you can imprint the item with your ownership history. Spells such as ‹spell/object reading› and uses of the ‹skill/psychometry› unlock can reveal any information about yourself you impart into the object, including your name, alignment, profession, and a summary of your experiences with the item. You can't impart false information into the object, but you can omit any details you'd prefer not to divulge. If the target object is already psychically charged, you can add more information to it, but you can't use charge object to erase existing psychic information."
 		]
 	},
 	"charitable_impulse": {
@@ -2554,7 +2554,7 @@
 			"",
 			"By sacrificing a living creature, you create the grisly illusion of viscera and gore splattered about the nearby area. When the casting time is complete, the walls drip with blood and the floor is slick with unidentifiable lumps of meat and other signs of a massacre. Anyone entering the area must attempt a Will save or be sickened for 1d6 rounds. This is a mind-affecting effect. If a creature succeeds at its save, it can see the semi-real nature of the illusion.",
 			"",
-			"The room itself is covered in a layer of slippery, semi-real gore. Any creature attempting to walk within or through the area of gore can move at half normal speed with a DC 10 Acrobatics check. Failure means it can't move that round, and failure by 5 or more means it falls prone (see the {skill/Acrobatics} skill for details). Creatures that don't move on their turns don't need to attempt this check and are not considered flat-footed. A creature that succeeded at its Will save gains a +5 bonus on the Acrobatics check."
+			"The room itself is covered in a layer of slippery, semi-real gore. Any creature attempting to walk within or through the area of gore can move at half normal speed with a DC 10 Acrobatics check. Failure means it can't move that round, and failure by 5 or more means it falls prone (see the ‹skill/Acrobatics› skill for details). Creatures that don't move on their turns don't need to attempt this check and are not considered flat-footed. A creature that succeeded at its Will save gains a +5 bonus on the Acrobatics check."
 		]
 	},
 	"charons_dispensation": {
@@ -2568,7 +2568,7 @@
 			"",
 			"::spell{source=\"Book of the Damned/183;Book of the Damned - Volume 3: Horsemen of the Apocalypse/38\" abjuration arc=4 clr=4 inq=4 med=4 mes=4 orc=4 psy=4 sha=4 sor=4 spr=4 war=4 wit=4 wiz=4 ctSt cV cS cMp=\"2 silver coins\" rClose target=\"one creature/level\" durML=1 will srY harmless}",
 			"",
-			"The target of this spell gains immunity to the harmful effects of touching or drinking from the River Styx and a +4 profane bonus on saves against effects that alter or suppress memory (such as {spell/modify memory} or {spell/mindwipe}). This does not grant the target the ability to breathe water, nor does it grant any protection against creatures or mundane hazards such as rapids. The spell has no power to restore memory to a creature already suffering from an existing fugue or amnesia state."
+			"The target of this spell gains immunity to the harmful effects of touching or drinking from the River Styx and a +4 profane bonus on saves against effects that alter or suppress memory (such as ‹spell/modify memory› or ‹spell/mindwipe›). This does not grant the target the ability to breathe water, nor does it grant any protection against creatures or mundane hazards such as rapids. The spell has no power to restore memory to a creature already suffering from an existing fugue or amnesia state."
 		]
 	},
 	"chastise": {
@@ -2581,7 +2581,7 @@
 			"",
 			"You gain a +5 bonus on Bluff, Diplomacy, and Intimidate checks to convince a listener that they will get in trouble with their superiors or with the law if they don't do what you ask.",
 			"",
-			"This spell is primarily used by the {rule/Eagle Knights}, though they did not create it; {rule/Hellknights} also use it extensively to gather information and foster cooperation."
+			"This spell is primarily used by the ‹rule/Eagle Knights›, though they did not create it; ‹rule/Hellknights› also use it extensively to gather information and foster cooperation."
 		]
 	},
 	"cheetahs_sprint": {
@@ -2622,11 +2622,11 @@
 			"",
 			"Any heat intense enough to damage the creature negates cold damage from the spell (and vice versa) on a point-for-point basis. Underwater, chill metal deals no damage, but ice immediately forms around the affected metal, making it float if unattended.",
 			"",
-			"Chill metal counters and dispels {spell/heat metal}.",
+			"Chill metal counters and dispels ‹spell/heat metal›.",
 			"",
 			":::mythic{title=\"Mythic Chill Metal\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}  ",
+			"‹SOURCE Mythic Adventures/88›  ",
 			"The damage dealt increases to 1d8 points of cold damage on rounds 2 and 6, and to 2d8 points of cold damage on rounds 3 through 5. Each round a creature takes cold damage from this spell, it also takes 1 point of Dexterity damage (Fortitude negates).",
 			"",
 			":::"
@@ -2660,7 +2660,7 @@
 			"",
 			":::mythic{title=\"Mythic Chord of Shards\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}  ",
+			"‹SOURCE Mythic Adventures/88›  ",
 			"The damage dealt increases to 2d8 points of piercing damage and bypasses all damage reduction. Any creature damaged by the shards takes 1d8 points of sonic damage.",
 			"",
 			":::"
@@ -2674,7 +2674,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/211\" abjuration arc=7 clr=7 orc=7 psy=7 sha=8 sor=7 wiz=7 ctSt cV cS cFp=\"a crystal lens worth 100 gp\" rMed effect=\"20-ft.-radius emanation centered on a creature, object or point in space\" durD durRL=1 will srY harmless}",
 			"",
-			"You create a magical emanation that interferes with all figments and glamers within it, giving creatures a +4 bonus on saving throws to recognize them as illusions. The emanation negates {rule/concealment} less than total concealment within the area. Perception checks to notice creatures or objects within the area gain a bonus equal to half your caster level (maximum +10). The spell is stationary if cast on a point in space. It is mobile if centered on a creature or object, though creatures or attended objects can negate the spell with a saving throw or spell resistance."
+			"You create a magical emanation that interferes with all figments and glamers within it, giving creatures a +4 bonus on saving throws to recognize them as illusions. The emanation negates ‹rule/concealment› less than total concealment within the area. Perception checks to notice creatures or objects within the area gain a bonus equal to half your caster level (maximum +10). The spell is stationary if cast on a point in space. It is mobile if centered on a creature or object, though creatures or attended objects can negate the spell with a saving throw or spell resistance."
 		]
 	},
 	"circle_of_death": {
@@ -2692,7 +2692,7 @@
 			"",
 			":::mythic{title=\"Mythic Circle of Death\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}  ",
+			"‹SOURCE Mythic Adventures/88›  ",
 			"The number of Hit Dice worth of creatures killed by the spell increases to 1d6 per caster level (maximum 20d6). Add your tier to the maximum HD of creatures that can be affected by the spell. (For example, at 3rd tier, a creature with 12 HD cannot be affected.)",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, creatures that succeed at their saves against this spell take 1d6 points of damage per tier.",
@@ -2759,7 +2759,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/210\" conjuration creation earth arc=9 drd=9 sor=9 wiz=9 ctSt cV cS rLong effect=\"see text\" durI save=\"Reflex partial, see text\" srN}",
 			"",
-			"You create two Colossal-sized masses of rock, dirt, and stone and slam them together against a single creature between them. The clashing rocks appear up to 30 feet away from the target on opposite sides and rush toward it with a mighty grinding crash. You must make a ranged touch attack to hit the target with the rocks. The clashing rocks ignore concealment and cover, and if there is a solid barrier between the target and either of the clashing rocks, the spell has a +28 bonus on the Strength check to burst through the barrier and continue unimpeded to the target. A creature struck by the clashing rocks takes 20d6 points of bludgeoning damage and is knocked prone. If the target fails a Reflex saving throw, it is also buried under the resulting rubble as if by a {rule/cave-in>s_and_collapses}.",
+			"You create two Colossal-sized masses of rock, dirt, and stone and slam them together against a single creature between them. The clashing rocks appear up to 30 feet away from the target on opposite sides and rush toward it with a mighty grinding crash. You must make a ranged touch attack to hit the target with the rocks. The clashing rocks ignore concealment and cover, and if there is a solid barrier between the target and either of the clashing rocks, the spell has a +28 bonus on the Strength check to burst through the barrier and continue unimpeded to the target. A creature struck by the clashing rocks takes 20d6 points of bludgeoning damage and is knocked prone. If the target fails a Reflex saving throw, it is also buried under the resulting rubble as if by a ‹rule/cave-in<s_and_collapses›.",
 			"",
 			"If the clashing rocks miss the target, the target still takes 10d6 points of bludgeoning damage from falling rocks and is knocked prone. A successful Reflex save reduces this damage to half and the target remains standing. Creatures other than the target that occupy the spaces where the clashing rocks appear or within their path (30 feet wide, 30 feet high, and up to 60 feet long) must also make Reflex saves or take 10d6 points of bludgeoning damage and be knocked prone (save for half and remain standing). A creature can only take damage once from the clashing rocks, no matter how many times the clashing rocks pass over a target creature."
 		]
@@ -2772,7 +2772,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/211\" evocation clr=5 inq=6 orc=5 war=5 ctSt cS cDF rPers target=you durI}",
 			"",
-			"Positive energy infuses and cleanses your body. This spell cures 4d8 points of damage + 1 point per caster level (maximum +25) and ends any and all of the following adverse conditions affecting you: ability damage, blinded, confused, dazzled, deafened, diseased, exhausted, fatigued, nauseated, poisoned, and sickened. In addition, cleanse functions as {spell/break enchantment} upon a single additional effect of your choice that is affecting you and that can be legally affected by this effect.",
+			"Positive energy infuses and cleanses your body. This spell cures 4d8 points of damage + 1 point per caster level (maximum +25) and ends any and all of the following adverse conditions affecting you: ability damage, blinded, confused, dazzled, deafened, diseased, exhausted, fatigued, nauseated, poisoned, and sickened. In addition, cleanse functions as ‹spell/break enchantment› upon a single additional effect of your choice that is affecting you and that can be legally affected by this effect.",
 			"",
 			"If used by undead or other creatures healed by negative energy, the spell cleanses with negative energy rather than positive."
 		]
@@ -2787,7 +2787,7 @@
 			"",
 			"A ring of fire surrounds the area affected by the spell. The flames radiate heat, but not enough to damage adjacent creatures. The flames deal 2d6 points of fire damage to any creatures that pass through them (or 4d6 points of damage to undead creatures). If you manifest a portion of the ring in a square that contains a creature, that creature takes damage as if it passed through the ring.",
 			"",
-			"The ring of flames attempts to dispel all ongoing spell effects with the evil descriptor within it, targeting each spell effect once per round as per {spell/dispel magic}. Any attempt to cast a spell with the evil descriptor inside the ring of flames is targeted by a dispel magic affect that attempts to counterspell the evil spell."
+			"The ring of flames attempts to dispel all ongoing spell effects with the evil descriptor within it, targeting each spell effect once per round as per ‹spell/dispel magic›. Any attempt to cast a spell with the evil descriptor inside the ring of flames is targeted by a dispel magic affect that attempts to counterspell the evil spell."
 		]
 	},
 	"clear_grove": {
@@ -2852,7 +2852,7 @@
 			"",
 			"A random pattern of color surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by lawful creatures, and causing lawful creatures that strike the subjects to become confused. This abjuration has four effects.",
 			"",
-			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike {spell/protection from law}, the benefit of this spell applies against all attacks, not just against attacks by lawful creatures.",
+			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike ‹spell/protection from law›, the benefit of this spell applies against all attacks, not just against attacks by lawful creatures.",
 			"",
 			"Second, each warded creature gains spell resistance 25 against lawful spells and spells cast by lawful creatures.",
 			"",
@@ -2891,7 +2891,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/211\" abjuration drd=1 hnt=1 rgr=1 ctSt cV cS cMp=\"a leaf from a shade tree\" rTouch target=\"one creature per level\" durD durHL=1 will srY harmless}",
 			"",
-			"This spell provides the subject with some degree of protection from the harmful effects of the sun. The cloaked subject treats environmental heat due to sun exposure as one level less: severe heat is considered very hot conditions, while very hot is considered average temperature (see {rule/heat dangers}). The cloak of shade also reduces any penalties from sunlight by 1. The spell does not, however, eliminate the effects of direct sunlight on creatures vulnerable to sunlight. Cloak of shade has no effect on environmental heat from sources other than the sun."
+			"This spell provides the subject with some degree of protection from the harmful effects of the sun. The cloaked subject treats environmental heat due to sun exposure as one level less: severe heat is considered very hot conditions, while very hot is considered average temperature (see ‹rule/heat dangers›). The cloak of shade also reduces any penalties from sunlight by 1. The spell does not, however, eliminate the effects of direct sunlight on creatures vulnerable to sunlight. Cloak of shade has no effect on environmental heat from sources other than the sun."
 		]
 	},
 	"cloak_of_shadows": {
@@ -2943,11 +2943,11 @@
 			"",
 			"::spell{source=\"Pathfinder #55: The Wormwood Mutiny/73\" conjuration creation poison arc=2 clr=2 drd=2 hnt=2 orc=2 sor=2 war=2 wiz=2 ctSt cV cS cMp=\"a piece of seaweed\" rClose effect=\"cloud spreads in 20-ft. radius, 20 ft. high\" durRL=1 save=\"Fortitude negates; see text\" srN}",
 			"",
-			">*This spell is associated with {faith/Besmara}, but there are no restrictions on its use by others.*",
+			">*This spell is associated with ‹faith/Besmara›, but there are no restrictions on its use by others.*",
 			"",
 			"This spell functions like stinking cloud, except as noted above and that the vapors make creatures sickened instead of nauseated.",
 			"",
-			"Cloud of seasickness can be made permanent with a {spell/permanency} spell (requiring a 9th-level caster and costing 2,500 gp). A permanent cloud of seasickness dispersed by wind reforms in 10 minutes."
+			"Cloud of seasickness can be made permanent with a ‹spell/permanency› spell (requiring a 9th-level caster and costing 2,500 gp). A permanent cloud of seasickness dispersed by wind reforms in 10 minutes."
 		]
 	},
 	"cloud_shape": {
@@ -2958,7 +2958,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/160\" air transmutation arc=4 drd=4 hnt=4 rgr=4 rma=4 sor=4 wiz=4 ctSt cS cMDFp=\"a bit of gauze and a wisp of smoke\" rPers target=you durML=10 durD saveNo srN}",
 			"",
-			">*{race/Sylph/s} have access to the following spell.*",
+			">*‹race/Sylph«s› have access to the following spell.*",
 			"",
 			"This spell functions like gaseous form, except you assume the shape of a Colossal cloud with a space of 30 feet. You choose the general appearance of the cloud (white, stormy, fluffy, flat, and so on), after which your appearance cannot be changed. Even the closest inspection cannot reveal that the cloud in question is actually a magically concealed creature. To all normal tests you are, in fact, a cloud, although a detect magic spell reveals a moderate transmutation aura on the cloud. Your fly speed in cloud form is 30 feet."
 		]
@@ -2986,7 +2986,7 @@
 			"",
 			":::mythic{title=\"Mythic Cloudkill\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}  ",
+			"‹SOURCE Mythic Adventures/88›  ",
 			"As a move action, you can move the cloud 10 feet in any direction. Add your tier to the spell's level and Hit Dice categories to determine its effect on creatures. (For example, at 3rd tier a creature with 6 or fewer HD gets no save, one with 7-9 HD must save or die, and one with 10 or more HD must save or take 1d4 points of Con damage.)",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, the spell bypasses the poison immunity of living creatures.",
@@ -3069,7 +3069,7 @@
 			"",
 			"::spell{source=\"Pathfinder Society Primer/12\" universal arc=3 brd=3 clr=3 drd=3 hnt=3 mag=3 orc=3 skd=3 sor=3 sum=3 usm=3 war=3 wit=3 wiz=3 ctIm cV cS cFp=\"a bronze tuning fork\" rClose target=\"one creature\" durI}",
 			"",
-			"You tap into the magical resonance between you and your allies to enhance one another's magic. Cast this spell when an ally casts a spell at least 1 level lower than the highest-level spell she can cast. The ally casts her spell as if one of the following metamagic feats were applied to it without increasing the spell level or casting time: {feat/Enlarge Spell}, {feat/Extend Spell}, {feat/Silent Spell}, or {feat/Still Spell}. If the ally is the target of two collaborative thaumaturgy spells when casting a spell, the ally can instead apply the {feat/Empower Spell} metamagic feat to a spell at least 2 levels lower than the highest-level spell she can cast. Finally, if the ally is the target of three collaborative thaumaturgy spells when casting a spell, she can instead apply the {feat/Maximize Spell} or {feat/Widen Spell} metamagic feat to a spell at least 3 levels lower than the highest-level spell she can cast. You can't target yourself with collaborative thaumaturgy."
+			"You tap into the magical resonance between you and your allies to enhance one another's magic. Cast this spell when an ally casts a spell at least 1 level lower than the highest-level spell she can cast. The ally casts her spell as if one of the following metamagic feats were applied to it without increasing the spell level or casting time: ‹feat/Enlarge Spell›, ‹feat/Extend Spell›, ‹feat/Silent Spell›, or ‹feat/Still Spell›. If the ally is the target of two collaborative thaumaturgy spells when casting a spell, the ally can instead apply the ‹feat/Empower Spell› metamagic feat to a spell at least 2 levels lower than the highest-level spell she can cast. Finally, if the ally is the target of three collaborative thaumaturgy spells when casting a spell, she can instead apply the ‹feat/Maximize Spell› or ‹feat/Widen Spell› metamagic feat to a spell at least 3 levels lower than the highest-level spell she can cast. You can't target yourself with collaborative thaumaturgy."
 		]
 	},
 	"color_spray": {
@@ -3095,7 +3095,7 @@
 			"",
 			":::mythic{title=\"Mythic Color Spray\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}  ",
+			"‹SOURCE Mythic Adventures/88›  ",
 			"The range increases to 30 feet. Add half your tier to the spell's Hit Dice categories to determine its effects on creatures. (At 3rd tier a creature with 3 or fewer HD is unconscious, blinded, and stunned; one with 4 or 5 HD is blinded and stunned, and one with 6 or more HD is stunned.) Creatures that succeed at their saves are dazzled for 1 minute.",
 			"",
 			":::"

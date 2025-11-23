@@ -5,7 +5,7 @@
 		"description": [
 			"::mh[Adult Astral Dragon]{cr=13}",
 			"",
-			"::minfo{source=\"Bestiary 5/88\" xp=\"25,600\" n huge dragon subs=extraplanar init=+5 sen=\"dragon senses\" senSpell=\"see invisibility\" pcp=+24 aura=\"%%umr/mental static%% (30 ft., DC 21), %%umr/frightful presence%% (180 ft., DC 21)\"}",
+			"::minfo{source=\"Bestiary 5/88\" xp=\"25,600\" n huge dragon subs=extraplanar init=+5 sen=\"dragon senses\" senSpell=\"see invisibility\" pcp=+24 aura=\"‹umr/mental static› (30 ft., DC 21), ‹umr/frightful presence› (180 ft., DC 21)\"}",
 			"",
 			"::mdefense{ac=\"28/9/27\" mod=\"+1 Dex, +19 natural, -2 size\" hp=\"184~16d12+80\" fort=+15 ref=+11 will=\"+17; +4 vs. psychic spells\" def=\"psychic resilience\" dr=\"5/magic\" immune=\"paralysis, sleep\" sr=24}",
 			"",
@@ -17,13 +17,13 @@
 			"",
 			"::mstats{str=27 dex=12 con=20 int=21 wis=20 cha=16 bab=+16 cmb=+26 cmd=\"37 (41 vs. trip)\" feats=\"Cleave~Flyby Attack~Improved Initiative~Iron Will~Lunge~Multiattack~Power Attack~Weapon Focus=bite\" skills=\"Appraise +24~Diplomacy +22~Fly +12~Intimidate +22~Knowledge (arcana, history, planes, religion) +24~Perception +24~Sense Motive +24~Stealth +12\" lang=\"Aklo, Celestial, Common, Draconic, Infernal\" sq=\"change shape\"}",
 			"",
-			"::meco{env=\"any (%%rule/Astral Plane%%)\" org=solitary treasure=triple}",
+			"::meco{env=\"any (‹rule/Astral Plane›)\" org=solitary treasure=triple}",
 			"",
 			"::sh[Description]",
 			"",
 			"Reserved and haughty, these dragons roam the Astral Plane, seeking to expand their knowledge of its esoteric secrets. They hunt to eat, and use psychic magic to fight one another.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"adult_astral_dragon": { "redirect": "dragon_esoteric_astral_adult_astral_dragon" },
@@ -33,7 +33,7 @@
 		"description": [
 			"::mh[Ancient Astral Dragon]{cr=18}",
 			"",
-			"::minfo{source=\"Bestiary 5/89\" xp=\"153,600\" n gargantuan dragon subs=extraplanar init=+4 sen=\"dragon senses\" senSpell=\"see invisibility\" pcp=+34 aura=\"%%umr/mental static%% (30 ft., DC 27), %%umr/frightful presence%% (300 ft., DC 27)\"}",
+			"::minfo{source=\"Bestiary 5/89\" xp=\"153,600\" n gargantuan dragon subs=extraplanar init=+4 sen=\"dragon senses\" senSpell=\"see invisibility\" pcp=+34 aura=\"‹umr/mental static› (30 ft., DC 27), ‹umr/frightful presence› (300 ft., DC 27)\"}",
 			"",
 			"::mdefense{ac=\"37/6/37\" mod=\"+31 natural, -4 size\" hp=\"348~24d12+192\" fort=+21 ref=+14 will=\"+23; +4 vs. psychic spells\" def=\"psychic interference~psychic resilience\" dr=\"15/magic\" immune=\"paralysis, sleep\" sr=30}",
 			"",
@@ -45,13 +45,13 @@
 			"",
 			"::mstats{str=35 dex=10 con=24 int=25 wis=24 cha=20 bab=+24 cmb=+40 cmd=\"50 (54 vs. trip)\" feats=\"Cleave~Flyby Attack~Great Cleave~Improved Initiative~Iron Will~Lunge~Multiattack~Power Attack~Snatch~Toughness~Vital Strike~Weapon Focus=bite\" skills=\"Appraise +34~Bluff +32~Diplomacy +32~Fly +13~Intimidate +32~Knowledge (arcana, history, nobility, planes, religion) +34~Perception +34~Sense Motive +34~Stealth +15\" lang=\"Aklo, Auran, Celestial, Common, Draconic, Infernal\" sq=\"change shape\"}",
 			"",
-			"::meco{env=\"any (%%rule/Astral Plane%%)\" org=solitary treasure=triple}",
+			"::meco{env=\"any (‹rule/Astral Plane›)\" org=solitary treasure=triple}",
 			"",
 			"::sh[Description]",
 			"",
 			"Reserved and haughty, these dragons roam the Astral Plane, seeking to expand their knowledge of its esoteric secrets. They hunt to eat, and use psychic magic to fight one another.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"ancient_astral_dragon": { "redirect": "dragon_esoteric_astral_ancient_astral_dragon" },
@@ -63,7 +63,7 @@
 			"",
 			"::mh[Young Astral Dragon]{cr=9}",
 			"",
-			"::minfo{source=\"Bestiary 5/88\" xp=\"6,400\" n large dragon subs=extraplanar init=+6 sen=\"dragon senses\" senSpell=\"see invisibility\" pcp=+16 aura=\"%%umr/mental static%% (30 ft., DC 16)\"}",
+			"::minfo{source=\"Bestiary 5/88\" xp=\"6,400\" n large dragon subs=extraplanar init=+6 sen=\"dragon senses\" senSpell=\"see invisibility\" pcp=+16 aura=\"‹umr/mental static› (30 ft., DC 16)\"}",
 			"",
 			"::mdefense{ac=\"21/11/19\" mod=\"+2 Dex, +10 natural, -1 size\" hp=\"95~10d12+30\" fort=+10 ref=+9 will=\"+10; +4 vs. psychic spells\" def=\"psychic resilience\" immune=\"paralysis, sleep\" sr=20}",
 			"",
@@ -75,13 +75,13 @@
 			"",
 			"::mstats{str=21 dex=14 con=16 int=17 wis=16 cha=12 bab=+10 cmb=+16 cmd=\"28 (32 vs. trip)\" feats=\"Flyby Attack~Improved Initiative~Multiattack~Power Attack~Weapon Focus=bite\" skills=\"Appraise +16~Diplomacy +14~Fly +9~Intimidate +14~Knowledge (arcana, history, planes) +16~Perception +16~Sense Motive +16\" lang=\"Celestial, Common, Draconic\"}",
 			"",
-			"::meco{env=\"any (%%rule/Astral Plane%%)\" org=solitary treasure=triple}",
+			"::meco{env=\"any (‹rule/Astral Plane›)\" org=solitary treasure=triple}",
 			"",
 			"::sh[Description]",
 			"",
 			"Reserved and haughty, these dragons roam the Astral Plane, seeking to expand their knowledge of its esoteric secrets. They hunt to eat, and use psychic magic to fight one another.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"young_astral_dragon": { "redirect": "dragon_esoteric_astral_young_astral_dragon" },
@@ -91,7 +91,7 @@
 		"description": [
 			"::mh[Adult Dream Dragon]{cr=14}",
 			"",
-			"::minfo{source=\"Bestiary 5/90\" xp=\"38,400\" n huge dragon subs=extraplanar init=+4 sen=\"dragon senses,dreamsight\" pcp=+34 aura=\"%%umr/frightful presence%% (180 ft., DC 23)\"}",
+			"::minfo{source=\"Bestiary 5/90\" xp=\"38,400\" n huge dragon subs=extraplanar init=+4 sen=\"dragon senses,dreamsight\" pcp=+34 aura=\"‹umr/frightful presence› (180 ft., DC 23)\"}",
 			"",
 			"::mdefense{ac=\"29/8/29\" mod=\"+21 natural, -2 size\" hp=\"195~17d12+85\" fort=+15 ref=+12 will=+14 def=\"dream fortress\" dr=\"5/magic\" immune=\"paralysis, sleep\" sr=25}",
 			"",
@@ -103,13 +103,13 @@
 			"",
 			"::mstats{str=25 dex=11 con=20 int=20 wis=19 cha=22 bab=+17 cmb=+26 cmd=\"36 (40 vs. trip)\" feats=\"Alertness~Flyby Attack~Hover~Improved Initiative~Lightning Reflexes~Multiattack~Power Attack~Skill Focus=Perception~Weapon Focus=bite\" skills=\"Bluff +26~Diplomacy +26~Fly +12~Intimidate +26~Knowledge (arcana, dungeoneering, planes) +25~Perception +34~Sense Motive +28~Stealth +12~Survival +24\" lang=\"Aklo, Celestial, Common, Draconic, Infernal\" sq=\"change shape\"}",
 			"",
-			"::meco{env=\"any (%%rule/Dimension of Dreams%%)\" org=solitary treasure=triple}",
+			"::meco{env=\"any (‹rule/Dimension of Dreams›)\" org=solitary treasure=triple}",
 			"",
 			"::sh[Description]",
 			"",
 			"These self-styled masters of the Dimension of Dreams hunt that strange plane's shifting expanse.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"adult_dream_dragon": { "redirect": "dragon_esoteric_dream_adult_dream_dragon" },
@@ -119,7 +119,7 @@
 		"description": [
 			"::mh[Ancient Dream Dragon]{cr=19}",
 			"",
-			"::minfo{source=\"Bestiary 5/91\" xp=\"204,800\" n gargantuan dragon subs=extraplanar init=+3 sen=\"dragon senses,dreamsight\" pcp=+44 aura=\"%%umr/frightful presence%% (300 ft., DC 30)\"}",
+			"::minfo{source=\"Bestiary 5/91\" xp=\"204,800\" n gargantuan dragon subs=extraplanar init=+3 sen=\"dragon senses,dreamsight\" pcp=+44 aura=\"‹umr/frightful presence› (300 ft., DC 30)\"}",
 			"",
 			"::mdefense{ac=\"38/5/38\" mod=\"-1 Dex, +33 natural, -4 size\" hp=\"337~25d12+175\" fort=+21 ref=+15 will=+22 def=\"dream fortress\" dr=\"15/magic\" immune=\"paralysis, sleep\" sr=30}",
 			"",
@@ -131,13 +131,13 @@
 			"",
 			"::mstats{str=33 dex=9 con=24 int=24 wis=23 cha=26 bab=+25 cmb=+40 cmd=\"49 (53 vs. trip)\" feats=\"Alertness~Flyby Attack~Hover~Improved Initiative~Iron Will~Lightning Reflexes~Multiattack~Power Attack~Skill Focus=Perception~Snatch~Vital Strike~Weapon Focus=bite~Wingover\" skills=\"Bluff +36~Diplomacy +36~Fly +13~Intimidate +36~Knowledge (arcana, dungeoneering, history, planes, religion) +35~Perception +44~Sense Motive +38~Stealth +15~Survival +34\" lang=\"Aklo, Auran, Celestial, Common, Draconic, Infernal\" sq=\"change shape, join dreamscape\"}",
 			"",
-			"::meco{env=\"any (%%rule/Dimension of Dreams%%)\" org=solitary treasure=triple}",
+			"::meco{env=\"any (‹rule/Dimension of Dreams›)\" org=solitary treasure=triple}",
 			"",
 			"::sh[Description]",
 			"",
 			"These self-styled masters of the Dimension of Dreams hunt that strange plane's shifting expanse.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"ancient_dream_dragon": { "redirect": "dragon_esoteric_dream_ancient_dream_dragon" },
@@ -161,13 +161,13 @@
 			"",
 			"::mstats{str=19 dex=13 con=16 int=16 wis=15 cha=18 bab=+11 cmb=+16 cmd=\"27 (31 vs. trip)\" feats=\"Flyby Attack~Improved Initiative~Multiattack~Power Attack~Skill Focus=Perception~Weapon Focus=bite\" skills=\"Bluff +18~Diplomacy +18~Fly +9~Intimidate +18~Knowledge (arcana) +17~Knowledge (planes) +17~Perception +22~Sense Motive +16~Stealth +11\" lang=\"Aklo, Common, Draconic\"}",
 			"",
-			"::meco{env=\"any (%%rule/Dimension of Dreams%%)\" org=solitary treasure=triple}",
+			"::meco{env=\"any (‹rule/Dimension of Dreams›)\" org=solitary treasure=triple}",
 			"",
 			"::sh[Description]",
 			"",
 			"These self-styled masters of the Dimension of Dreams hunt that strange plane's shifting expanse.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"young_dream_dragon": { "redirect": "dragon_esoteric_dream_young_dream_dragon" },
@@ -177,7 +177,7 @@
 		"description": [
 			"::mh[Adult Etheric Dragon]{cr=11}",
 			"",
-			"::minfo{source=\"Bestiary 5/92\" xp=\"12,800\" n large dragon subs=extraplanar init=+4 sen=\"dragon senses\" sid pcp=+26 aura=\"%%umr/frightful presence%% (180 ft., DC 20)\"}",
+			"::minfo{source=\"Bestiary 5/92\" xp=\"12,800\" n large dragon subs=extraplanar init=+4 sen=\"dragon senses\" sid pcp=+26 aura=\"‹umr/frightful presence› (180 ft., DC 20)\"}",
 			"",
 			"::mdefense{ac=\"27/9/27\" mod=\"+18 natural, -1 size\" hp=\"175~14d12+84\" fort=+15 ref=+9 will=+12 dr=\"5/magic\" immune=\"paralysis, sleep\" sr=22}",
 			"",
@@ -187,15 +187,15 @@
 			"",
 			"::mspell{know=Psychic cl=5 con=+9 l2=\"5/day~blindness/deafness|DC 15~false life\" l1=\"7/day~anticipate peril~detect thoughts|DC 14~magic missile~shield\" l0=\"at will~bleed|DC 13~detect magic~detect poison~ghost sound|DC 13~grave words\"}",
 			"",
-			"::mstats{str=30 dex=11 con=22 int=19 wis=16 cha=17 bab=+14 cmb=+25 cmd=\"35 (39 vs. trip)\" feats=\"Flyby Attack~Improved Initiative~Intimidating Prowess~Multiattack~Power Attack~Skill Focus=Perception~Weapon Focus=claw\" skills=\"Appraise +21~Fly +11~Intimidate +30~Knowledge (arcana, planes, religion) +21~Perception +26~Sense Motive +20~Stealth +13~Survival +20\" lang=\"Aklo, Common, Draconic\" sq=\"%%umr/compression%%\"}",
+			"::mstats{str=30 dex=11 con=22 int=19 wis=16 cha=17 bab=+14 cmb=+25 cmd=\"35 (39 vs. trip)\" feats=\"Flyby Attack~Improved Initiative~Intimidating Prowess~Multiattack~Power Attack~Skill Focus=Perception~Weapon Focus=claw\" skills=\"Appraise +21~Fly +11~Intimidate +30~Knowledge (arcana, planes, religion) +21~Perception +26~Sense Motive +20~Stealth +13~Survival +20\" lang=\"Aklo, Common, Draconic\" sq=\"‹umr/compression›\"}",
 			"",
-			"::meco{env=\"any (%%rule/Ethereal Plane%%)\" org=solitary treasure=double}",
+			"::meco{env=\"any (‹rule/Ethereal Plane›)\" org=solitary treasure=double}",
 			"",
 			"::sh[Description]",
 			"",
 			"Etheric dragons are pragmatic and survival-oriented beings who dwell in the farthest reaches of the Ethereal Plane.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"adult_etheric_dragon": { "redirect": "dragon_esoteric_etheric_adult_etheric_dragon" },
@@ -205,7 +205,7 @@
 		"description": [
 			"::mh[Ancient Etheric Dragon]{cr=16}",
 			"",
-			"::minfo{source=\"Bestiary 5/93\" xp=\"76,800\" n huge dragon subs=extraplanar init=+3 sen=\"dragon senses\" sid pcp=+36 aura=\"%%umr/frightful presence%% (300 ft., DC 25)\"}",
+			"::minfo{source=\"Bestiary 5/93\" xp=\"76,800\" n huge dragon subs=extraplanar init=+3 sen=\"dragon senses\" sid pcp=+36 aura=\"‹umr/frightful presence› (300 ft., DC 25)\"}",
 			"",
 			"::mdefense{ac=\"37/7/37\" mod=\"-1 Dex, +30 natural, -2 size\" hp=\"319~22d12+176\" fort=+21 ref=+12 will=+18 dr=\"15/magic\" immune=\"paralysis, sleep\" sr=27}",
 			"",
@@ -215,15 +215,15 @@
 			"",
 			"::mspell{know=Psychic cl=13 con=+19 l6=\"5/day~contingency~greater heroism\" l5=\"7/day~hold monster|DC 20~plane shift|DC 20~wall of ectoplasm|DC 20\" l4=\"7/day~arcane eye~condensed ether~dimension door~phantasmal killer|DC 19\" l3=\"7/day~aura sight~deep slumber|DC 18~heroism~thought shield II\" l2=\"8/day~blindness/deafness|DC 17~false life~pain strike~see invisibility~silence|DC 17\" l1=\"8/day~anticipate peril~detect thoughts|DC 16~shield~silent image|DC 16~magic missile\" l0=\"at will~bleed|DC 15~dancing lights~daze|DC 15~detect magic~detect poison~ghost sound|DC 15~grave words~resistance~virtue\"}",
 			"",
-			"::mstats{str=38 dex=9 con=26 int=23 wis=20 cha=21 bab=+22 cmb=+38 cmd=\"47 (51 vs. trip)\" feats=\"Flyby Attack~Hover~Improved Critical=bite~!Improved Critical (claws)~Improved Initiative~Intimidating Prowess~Multiattack~Power Attack~Skill Focus=Perception~Vital Strike~Weapon Focus=claw\" skills=\"Appraise +31~Bluff +30~Fly +16~Intimidate +44~Knowledge (arcana, geography, planes, religion) +31~Perception +36~Sense Motive +30~Stealth +16~Survival +30\" lang=\"Abyssal, Aklo, Common, Draconic, Infernal\" sq=\"%%umr/compression%%\"}",
+			"::mstats{str=38 dex=9 con=26 int=23 wis=20 cha=21 bab=+22 cmb=+38 cmd=\"47 (51 vs. trip)\" feats=\"Flyby Attack~Hover~Improved Critical=bite~!Improved Critical (claws)~Improved Initiative~Intimidating Prowess~Multiattack~Power Attack~Skill Focus=Perception~Vital Strike~Weapon Focus=claw\" skills=\"Appraise +31~Bluff +30~Fly +16~Intimidate +44~Knowledge (arcana, geography, planes, religion) +31~Perception +36~Sense Motive +30~Stealth +16~Survival +30\" lang=\"Abyssal, Aklo, Common, Draconic, Infernal\" sq=\"‹umr/compression›\"}",
 			"",
-			"::meco{env=\"any (%%rule/Ethereal Plane%%)\" org=solitary treasure=double}",
+			"::meco{env=\"any (‹rule/Ethereal Plane›)\" org=solitary treasure=double}",
 			"",
 			"::sh[Description]",
 			"",
 			"Etheric dragons are pragmatic and survival-oriented beings who dwell in the farthest reaches of the Ethereal Plane.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"ancient_etheric_dragon": { "redirect": "dragon_esoteric_etheric_ancient_etheric_dragon" },
@@ -241,15 +241,15 @@
 			"",
 			"::moffense{sp=40 fl=150 average melee=\"bite +15 (1d8+10), 2 claws +15 (1d6+7), 2 wings +13 (1d4+3)\" space=5 reach=5 reachP=\"10 ft. with bite\" brWeap=\"60-ft. line, DC 18, 6d8 force\" specAtt=\"spectral attacks~spirit eater\"}",
 			"",
-			"::mstats{str=24 dex=13 con=18 int=15 wis=12 cha=13 bab=+8 cmb=+15 cmd=\"26 (30 vs. trip)\" feats=\"Flyby Attack~Improved Initiative~Multiattack~Power Attack\" skills=\"Appraise +13~Fly +12~Intimidate +12~Knowledge (planes) +13~Perception +12~Sense Motive +12~Stealth +12~Survival +12\" lang=Draconic sq=\"%%umr/compression%%\"}",
+			"::mstats{str=24 dex=13 con=18 int=15 wis=12 cha=13 bab=+8 cmb=+15 cmd=\"26 (30 vs. trip)\" feats=\"Flyby Attack~Improved Initiative~Multiattack~Power Attack\" skills=\"Appraise +13~Fly +12~Intimidate +12~Knowledge (planes) +13~Perception +12~Sense Motive +12~Stealth +12~Survival +12\" lang=Draconic sq=\"‹umr/compression›\"}",
 			"",
-			"::meco{env=\"any (%%rule/Ethereal Plane%%)\" org=solitary treasure=double}",
+			"::meco{env=\"any (‹rule/Ethereal Plane›)\" org=solitary treasure=double}",
 			"",
 			"::sh[Description]",
 			"",
 			"Etheric dragons are pragmatic and survival-oriented beings who dwell in the farthest reaches of the Ethereal Plane.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"young_etheric_dragon": { "redirect": "dragon_esoteric_etheric_young_etheric_dragon" },
@@ -259,7 +259,7 @@
 		"description": [
 			"::mh[Adult Nightmare Dragon]{cr=10}",
 			"",
-			"::minfo{source=\"Bestiary 5/94\" xp=\"9,600\" ne large dragon subs=extraplanar init=+4 sen=\"dragon senses,dreamsight\" sid pcp=+20 aura=\"%%umr/frightful presence%% (180 ft., DC 20)\"}",
+			"::minfo{source=\"Bestiary 5/94\" xp=\"9,600\" ne large dragon subs=extraplanar init=+4 sen=\"dragon senses,dreamsight\" sid pcp=+20 aura=\"‹umr/frightful presence› (180 ft., DC 20)\"}",
 			"",
 			"::mdefense{ac=\"26/9/26\" mod=\"+17 natural, -1 size\" hp=\"175~13d12+91\" fort=+15 ref=+8 will=+14 dr=\"5/magic\" immune=\"mind-affecting effects, paralysis, sleep\" sr=21}",
 			"",
@@ -271,13 +271,13 @@
 			"",
 			"::mstats{str=29 dex=11 con=24 int=16 wis=18 cha=19 bab=+13 cmb=+23 cmd=\"33 (37 vs. trip)\" feats=\"Flyby Attack~Improved Initiative~Iron Will~Multiattack~Power Attack~Skill Focus=Stealth~Weapon Focus=bite\" skills=\"Bluff +20~Fly +10~Intimidate +20~Knowledge (arcana) +19~Knowledge (planes) +19~Perception +20~Sense Motive +20~Stealth +18~Survival +20\" lang=\"Aklo, Common, Draconic\" sq=\"change shape\"}",
 			"",
-			"::meco{env=\"any (%%rule/Dimension of Dreams%%)\" org=solitary treasure=triple}",
+			"::meco{env=\"any (‹rule/Dimension of Dreams›)\" org=solitary treasure=triple}",
 			"",
 			"::sh[Description]",
 			"",
 			"These hunters of the Dimension of Dreams seek to wreak nightmares on sleepers and make existing bad dreams even more terrifying. Nightmare dragons often work with night hags in their grim collection of sleeping souls.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"adult_nightmare_dragon": { "redirect": "dragon_esoteric_nightmare_adult_nightmare_dragon" },
@@ -299,13 +299,13 @@
 			"",
 			"::mstats{str=37 dex=9 con=28 int=20 wis=22 cha=23 bab=+21 cmb=+36 cmd=\"45 (49 vs. trip)\" feats=\"Flyby Attack~Hover~Improved Critical=bite~Improved Initiative~Iron Will~Multiattack~Power Attack~Skill Focus=Stealth~Snatch~Stealthy~Weapon Focus=bite\" skills=\"Bluff +30~Diplomacy +30~Escape Artist +1~Fly +15~Intimidate +30~Knowledge (arcana, planes, religion) +29~Perception +30~Sense Motive +30~Stealth +25~Survival +30\" lang=\"Abyssal, Aklo, Common, Draconic, Infernal\" sq=\"change shape\"}",
 			"",
-			"::meco{env=\"any (%%rule/Dimension of Dreams%%)\" org=solitary treasure=triple}",
+			"::meco{env=\"any (‹rule/Dimension of Dreams›)\" org=solitary treasure=triple}",
 			"",
 			"::sh[Description]",
 			"",
 			"These hunters of the Dimension of Dreams seek to wreak nightmares on sleepers and make existing bad dreams even more terrifying. Nightmare dragons often work with night hags in their grim collection of sleeping souls.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"ancient_nightmare_dragon": { "redirect": "dragon_esoteric_nightmare_ancient_nightmare_dragon" },
@@ -325,13 +325,13 @@
 			"",
 			"::mstats{str=23 dex=13 con=20 int=12 wis=14 cha=15 bab=+7 cmb=+13 cmd=\"24 (28 vs. trip)\" feats=\"Flyby Attack~Improved Initiative~Multiattack~Power Attack\" skills=\"Bluff +12~Fly +11~Intimidate +12~Knowledge (planes) +11~Perception +12~Sense Motive +12~Stealth +11\" lang=\"Common, Draconic\"}",
 			"",
-			"::meco{env=\"any (%%rule/Dimension of Dreams%%)\" org=solitary treasure=triple}",
+			"::meco{env=\"any (‹rule/Dimension of Dreams›)\" org=solitary treasure=triple}",
 			"",
 			"::sh[Description]",
 			"",
 			"These hunters of the Dimension of Dreams seek to wreak nightmares on sleepers and make existing bad dreams even more terrifying. Nightmare dragons often work with night hags in their grim collection of sleeping souls.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"young_nightmare_dragon": { "redirect": "dragon_esoteric_nightmare_young_nightmare_dragon" },
@@ -341,7 +341,7 @@
 		"description": [
 			"::mh[Adult Occult Dragon]{cr=10}",
 			"",
-			"::minfo{source=\"Bestiary 5/96\" xp=\"9,600\" ng large dragon init=+1 sen=\"appraising sight,dragon senses\" pcp=+25 aura=\"%%umr/frightful presence%% (180 ft., DC 19), protective aura (20 ft.)\"}",
+			"::minfo{source=\"Bestiary 5/96\" xp=\"9,600\" ng large dragon init=+1 sen=\"appraising sight,dragon senses\" pcp=+25 aura=\"‹umr/frightful presence› (180 ft., DC 19), protective aura (20 ft.)\"}",
 			"",
 			"::mdefense{ac=\"28/10/27\" mod=\"+1 Dex, +18 natural, -1 size\" hp=\"138~12d12+60\" fort=+13 ref=+9 will=+14 dr=\"5/magic\" immune=\"paralysis, sleep\" sr=21}",
 			"",
@@ -359,7 +359,7 @@
 			"",
 			"Occult dragons infiltrate large urban centers in humanoid form to search for esoteric secrets and psychically charged artifacts to add to their hoards.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"adult_occult_dragon": { "redirect": "dragon_esoteric_occult_adult_occult_dragon" },
@@ -369,7 +369,7 @@
 		"description": [
 			"::mh[Ancient Occult Dragon]{cr=15}",
 			"",
-			"::minfo{source=\"Bestiary 5/97\" xp=\"51,200\" ng huge dragon init=+0 sen=\"appraising sight,aura sight,dragon senses\" pcp=+35 aura=\"%%umr/frightful presence%% (180 ft., DC 25), protective aura (20 ft.)\"}",
+			"::minfo{source=\"Bestiary 5/97\" xp=\"51,200\" ng huge dragon init=+0 sen=\"appraising sight,aura sight,dragon senses\" pcp=+35 aura=\"‹umr/frightful presence› (180 ft., DC 25), protective aura (20 ft.)\"}",
 			"",
 			"::mdefense{ac=\"38/8/38\" mod=\"+30 natural, -2 size\" hp=\"270~20d12+140\" fort=+19 ref=+12 will=+20 dr=\"15/magic\" immune=\"paralysis, sleep\" sr=26}",
 			"",
@@ -387,7 +387,7 @@
 			"",
 			"Occult dragons infiltrate large urban centers in humanoid form to search for esoteric secrets and psychically charged artifacts to add to their hoards.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"ancient_occult_dragon": { "redirect": "dragon_esoteric_occult_ancient_occult_dragon" },
@@ -417,7 +417,7 @@
 			"",
 			"Occult dragons infiltrate large urban centers in humanoid form to search for esoteric secrets and psychically charged artifacts to add to their hoards.",
 			"",
-			"**Family:** {family/Esoteric Dragon}"
+			"**Family:** ‹family/Esoteric Dragon›"
 		]
 	},
 	"young_occult_dragon": { "redirect": "dragon_esoteric_occult_young_occult_dragon" },
@@ -427,7 +427,7 @@
 		"description": [
 			"::mh[Adult Forest Dragon]{cr=14}",
 			"",
-			"::minfo{source=\"Bestiary 3/94\" xp=\"38,400\" ce huge dragon subs=earth init=+4 sen=\"dragon senses\" tremorsense=60 pcp=+23 aura=\"%%umr/frightful presence%% (180 ft., DC 21)\"}",
+			"::minfo{source=\"Bestiary 3/94\" xp=\"38,400\" ce huge dragon subs=earth init=+4 sen=\"dragon senses\" tremorsense=60 pcp=+23 aura=\"‹umr/frightful presence› (180 ft., DC 21)\"}",
 			"",
 			"::mdefense{ac=\"30/8/30\" mod=\"+22 natural, -2 size\" hp=\"229~17d12+119\" fort=+16 ref=+10 will=+15 dr=\"2/adamantine\" immune=\"paralysis, poison, sleep\" sr=25}",
 			"",
@@ -437,7 +437,7 @@
 			"",
 			"::mspell{know cl=7 con=+10 l3=\"5/day~wind wall~stinking cloud|DC 16\" l2=\"7/day~fog cloud~hideous laughter|DC 15~touch of idiocy\" l1=\"7/day~hypnotism|DC 14~obscuring mist~magic missile~ray of enfeeblement|DC 14~shield\" l0=\"at will~daze|DC 13~detect magic~ghost sound~mage hand~read magic~resistance~touch of fatigue\"}",
 			"",
-			"::mstats{str=29 dex=10 con=22 int=16 wis=17 cha=16 bab=+17 cmb=+28 cmd=\"38 (42 vs. trip)\" feats=\"Improved Initiative~Improved Natural Armor~Iron Will~Multiattack~Power Attack~Skill Focus=Stealth~Stealthy~Toughness~Weapon Focus=bite\" skills=\"Acrobatics +8 (+11 when jumping)~Bluff +23~Climb +37~Escape Artist +2~Fly +12~Intimidate +23~Knowledge (arcana, nature) +14~Perception +23~Spellcraft +23~Stealth +22~Survival +16\" lang=\"Common, Draconic, Sylvan\" sq=\"change shape, sound imitation, %%ability/woodland stride%%\"}",
+			"::mstats{str=29 dex=10 con=22 int=16 wis=17 cha=16 bab=+17 cmb=+28 cmd=\"38 (42 vs. trip)\" feats=\"Improved Initiative~Improved Natural Armor~Iron Will~Multiattack~Power Attack~Skill Focus=Stealth~Stealthy~Toughness~Weapon Focus=bite\" skills=\"Acrobatics +8 (+11 when jumping)~Bluff +23~Climb +37~Escape Artist +2~Fly +12~Intimidate +23~Knowledge (arcana, nature) +14~Perception +23~Spellcraft +23~Stealth +22~Survival +16\" lang=\"Common, Draconic, Sylvan\" sq=\"change shape, sound imitation, ‹ability/woodland stride›\"}",
 			"",
 			"::meco{env=\"any forest\" org=solitary treasure=triple}",
 			"",
@@ -445,7 +445,7 @@
 			"",
 			"Forest dragons, or dilung, are fickle and malevolent dragons that dwell in deep, rugged woodlands. While a forest dragon can fly, it prefers to stalk the earth, flying only to pursue objects of its wrath.",
 			"",
-			"**Family:** {family/Forest Dragon}"
+			"**Family:** ‹family/Forest Dragon›"
 		]
 	},
 	"adult_forest_dragon": { "redirect": "dragon_imperial_forest_adult_forest_dragon" },
@@ -455,7 +455,7 @@
 		"description": [
 			"::mh[Ancient Forest Dragon]{cr=19}",
 			"",
-			"::minfo{source=\"Bestiary 3/95\" xp=\"204,800\" ce gargantuan dragon subs=earth init=+3 sen=\"dragon senses\" tremorsense=60 pcp=+33 aura=\"%%umr/frightful presence%% (300 ft., DC 29)\"}",
+			"::minfo{source=\"Bestiary 3/95\" xp=\"204,800\" ce gargantuan dragon subs=earth init=+3 sen=\"dragon senses\" tremorsense=60 pcp=+33 aura=\"‹umr/frightful presence› (300 ft., DC 29)\"}",
 			"",
 			"::mdefense{ac=\"39/5/39\" mod=\"-1 Dex, +34 natural, -4 size\" hp=\"387~25d12+225\" fort=+22 ref=+13 will=+21 dr=\"10/adamantine\" immune=\"paralysis, poison, sleep\" sr=30}",
 			"",
@@ -465,7 +465,7 @@
 			"",
 			"::mspell{know cl=15 con=+20 l7=\"4/day~power word blind~waves of exhaustion|DC 22\" l6=\"6/day~acid fog~disintegrate|DC 21~move earth\" l5=\"7/day~baleful polymorph|DC 20~cloudkill|DC 20~feeblemind|DC 20~passwall\" l4=\"7/day~bestow curse|DC 19~charm monster|DC 19~solid fog~stone shape\" l3=\"7/day~lightning bolt|DC 18~wind wall~slow|DC 18~stinking cloud|DC 18\" l2=\"7/day~fog cloud~glitterdust|DC 17~hideous laughter|DC 17~invisibility~touch of idiocy\" l1=\"8/day~hypnotism|DC 16~obscuring mist~magic missile~ray of enfeeblement|DC 16~shield\" l0=\"at will~dancing lights~daze|DC 15~detect magic~ghost sound~mage hand~mending~read magic~resistance~touch of fatigue\"}",
 			"",
-			"::mstats{str=37 dex=8 con=26 int=20 wis=21 cha=20 bab=+25 cmb=+42 cmd=\"51 (55 vs. trip)\" feats=\"Combat Casting~Deceitful~Improved Critical=bite~Improved Initiative~Improved Natural Armor~Iron Will~Multiattack~Power Attack~Skill Focus=Stealth~Stealthy~Toughness~Weapon Focus=bite~!Weapon Focus (claws)\" skills=\"Acrobatics +24 (+28 when jumping)~Bluff +35~Climb +47~Disguise +7~Escape Artist +28~Fly +0~Intimidate +33~Knowledge (arcana, nature) +31~Perception +33~Spellcraft +33~Stealth +25~Survival +29\" lang=\"Common, Draconic, Elven, Goblin, Sylvan, Terran\" sq=\"change shape, sound imitation, %%ability/woodland stride%%\"}",
+			"::mstats{str=37 dex=8 con=26 int=20 wis=21 cha=20 bab=+25 cmb=+42 cmd=\"51 (55 vs. trip)\" feats=\"Combat Casting~Deceitful~Improved Critical=bite~Improved Initiative~Improved Natural Armor~Iron Will~Multiattack~Power Attack~Skill Focus=Stealth~Stealthy~Toughness~Weapon Focus=bite~!Weapon Focus (claws)\" skills=\"Acrobatics +24 (+28 when jumping)~Bluff +35~Climb +47~Disguise +7~Escape Artist +28~Fly +0~Intimidate +33~Knowledge (arcana, nature) +31~Perception +33~Spellcraft +33~Stealth +25~Survival +29\" lang=\"Common, Draconic, Elven, Goblin, Sylvan, Terran\" sq=\"change shape, sound imitation, ‹ability/woodland stride›\"}",
 			"",
 			"::meco{env=\"any forest\" org=solitary treasure=triple}",
 			"",
@@ -473,7 +473,7 @@
 			"",
 			"Forest dragons, or dilung, are fickle and malevolent dragons that dwell in deep, rugged woodlands. While a forest dragon can fly, it prefers to stalk the earth, flying only to pursue objects of its wrath.",
 			"",
-			"**Family:** {family/Forest Dragon}"
+			"**Family:** ‹family/Forest Dragon›"
 		]
 	},
 	"ancient_forest_dragon": { "redirect": "dragon_imperial_forest_ancient_forest_dragon" },
@@ -495,7 +495,7 @@
 			"",
 			"::mspell{know cl=1 con=+12 l1=\"4/day~obscuring mist~shield\" l0=\"at will~ghost sound~read magic~resistance~touch of fatigue\"}",
 			"",
-			"::mstats{str=23 dex=12 con=18 int=12 wis=13 cha=12 bab=+11 cmb=+18 cmd=\"29 (33 vs. trip)\" feats=\"Improved Initiative~Multiattack~Power Attack~Skill Focus=Stealth~Toughness~Weapon Focus=bite\" skills=\"Acrobatics +7 (+11 when jumping)~Bluff +15~Climb +28~Fly -5~Intimidate +15~Knowledge (arcana, nature) +9~Perception +15~Stealth +17~Survival +10\" lang=\"Common, Draconic\" sq=\"sound imitation, %%ability/woodland stride%%\"}",
+			"::mstats{str=23 dex=12 con=18 int=12 wis=13 cha=12 bab=+11 cmb=+18 cmd=\"29 (33 vs. trip)\" feats=\"Improved Initiative~Multiattack~Power Attack~Skill Focus=Stealth~Toughness~Weapon Focus=bite\" skills=\"Acrobatics +7 (+11 when jumping)~Bluff +15~Climb +28~Fly -5~Intimidate +15~Knowledge (arcana, nature) +9~Perception +15~Stealth +17~Survival +10\" lang=\"Common, Draconic\" sq=\"sound imitation, ‹ability/woodland stride›\"}",
 			"",
 			"::meco{env=\"any forest\" org=solitary treasure=triple}",
 			"",
@@ -503,7 +503,7 @@
 			"",
 			"Forest dragons, or dilung, are fickle and malevolent dragons that dwell in deep, rugged woodlands. While a forest dragon can fly, it prefers to stalk the earth, flying only to pursue objects of its wrath.",
 			"",
-			"**Family:** {family/Forest Dragon}"
+			"**Family:** ‹family/Forest Dragon›"
 		]
 	},
 	"young_forest_dragon": { "redirect": "dragon_imperial_forest_young_forest_dragon" },
@@ -513,7 +513,7 @@
 		"description": [
 			"::mh[Adult Sea Dragon]{cr=12}",
 			"",
-			"::minfo{source=\"Bestiary 3/96\" xp=\"19,200\" cg huge dragon subs=water init=+4 sen=\"dragon senses\" pcp=+27 aura=\"%%umr/frightful presence%% (180 ft., DC 22)\"}",
+			"::minfo{source=\"Bestiary 3/96\" xp=\"19,200\" cg huge dragon subs=water init=+4 sen=\"dragon senses\" pcp=+27 aura=\"‹umr/frightful presence› (180 ft., DC 22)\"}",
 			"",
 			"::mdefense{ac=\"28/8/28\" mod=\"+20 natural, -2 size\" hp=\"172~15d12+75\" fort=+16 ref=+11 will=+14 dr=\"5/magic\" immune=\"electricity, paralysis, sleep\" sr=23}",
 			"",
@@ -531,7 +531,7 @@
 			"",
 			"Infused with the power of waves and storms, sea dragons - or jiaolungs, as they are known in many lands - are draconic protectors of oceans and their creatures. Possessing tempestuous natures, sea dragons wander widely, sometimes claiming thousands of miles of ocean and coastlines as their protectorates.",
 			"",
-			"**Family:** {family/Sea Dragon}"
+			"**Family:** ‹family/Sea Dragon›"
 		]
 	},
 	"adult_sea_dragon": { "redirect": "dragon_imperial_sea_adult_sea_dragon" },
@@ -541,7 +541,7 @@
 		"description": [
 			"::mh[Ancient Sea Dragon]{cr=17}",
 			"",
-			"::minfo{source=\"Bestiary 3/97\" xp=\"102,400\" cg gargantuan dragon subs=water init=+3 sen=\"dragon senses\" pcp=+37 aura=\"%%umr/frightful presence%% (300 ft., DC 28)\"}",
+			"::minfo{source=\"Bestiary 3/97\" xp=\"102,400\" cg gargantuan dragon subs=water init=+3 sen=\"dragon senses\" pcp=+37 aura=\"‹umr/frightful presence› (300 ft., DC 28)\"}",
 			"",
 			"::mdefense{ac=\"37/5/37\" mod=\"-1 Dex, +32 natural, -4 size\" hp=\"310~23d12+161\" fort=+22 ref=+14 will=+20 dr=\"15/magic\" immune=\"electricity, paralysis, sleep\" sr=28}",
 			"",
@@ -559,7 +559,7 @@
 			"",
 			"Infused with the power of waves and storms, sea dragons - or jiaolungs, as they are known in many lands - are draconic protectors of oceans and their creatures. Possessing tempestuous natures, sea dragons wander widely, sometimes claiming thousands of miles of ocean and coastlines as their protectorates.",
 			"",
-			"**Family:** {family/Sea Dragon}"
+			"**Family:** ‹family/Sea Dragon›"
 		]
 	},
 	"ancient_sea_dragon": { "redirect": "dragon_imperial_sea_ancient_sea_dragon" },
@@ -589,7 +589,7 @@
 			"",
 			"Infused with the power of waves and storms, sea dragons - or jiaolungs, as they are known in many lands - are draconic protectors of oceans and their creatures. Possessing tempestuous natures, sea dragons wander widely, sometimes claiming thousands of miles of ocean and coastlines as their protectorates.",
 			"",
-			"**Family:** {family/Sea Dragon}"
+			"**Family:** ‹family/Sea Dragon›"
 		]
 	},
 	"young_sea_dragon": { "redirect": "dragon_imperial_sea_young_sea_dragon" },
@@ -599,7 +599,7 @@
 		"description": [
 			"::mh[Adult Sky Dragon]{cr=13}",
 			"",
-			"::minfo{source=\"Bestiary 3/98\" xp=\"25,600\" lg huge dragon subs=air init=+4 sen=\"cloud sight,dragon senses\" pcp=+30 aura=\"%%umr/frightful presence%% (180 ft., DC 23)\"}",
+			"::minfo{source=\"Bestiary 3/98\" xp=\"25,600\" lg huge dragon subs=air init=+4 sen=\"cloud sight,dragon senses\" pcp=+30 aura=\"‹umr/frightful presence› (180 ft., DC 23)\"}",
 			"",
 			"::mdefense{ac=\"29/8/29\" mod=\"+21 natural, -2 size\" hp=\"184~16d12+80\" fort=+15 ref=+12 will=+17 dr=\"5/magic\" immune=\"electricity, paralysis, sleep\" sr=24}",
 			"",
@@ -617,7 +617,7 @@
 			"",
 			"Benevolent and noble, sky dragons, or tienlungs, are fearsome champions of good and protectors of those in need. They are often sought out for their wise council, which they grant only to the deserving and true.",
 			"",
-			"**Family:** {family/Sky Dragon}"
+			"**Family:** ‹family/Sky Dragon›"
 		]
 	},
 	"adult_sky_dragon": { "redirect": "dragon_imperial_sky_adult_sky_dragon" },
@@ -645,7 +645,7 @@
 			"",
 			"Benevolent and noble, sky dragons, or tienlungs, are fearsome champions of good and protectors of those in need. They are often sought out for their wise council, which they grant only to the deserving and true.",
 			"",
-			"**Family:** {family/Sky Dragon}"
+			"**Family:** ‹family/Sky Dragon›"
 		]
 	},
 	"ancient_sky_dragon": { "redirect": "dragon_imperial_sky_ancient_sky_dragon" },
@@ -675,7 +675,7 @@
 			"",
 			"Benevolent and noble, sky dragons, or tienlungs, are fearsome champions of good and protectors of those in need. They are often sought out for their wise council, which they grant only to the deserving and true.",
 			"",
-			"**Family:** {family/Sky Dragon}"
+			"**Family:** ‹family/Sky Dragon›"
 		]
 	},
 	"young_sky_dragon": { "redirect": "dragon_imperial_sky_young_sky_dragon" },
@@ -685,7 +685,7 @@
 		"description": [
 			"::mh[Adult Sovereign Dragon]{cr=15}",
 			"",
-			"::minfo{source=\"Bestiary 3/100\" xp=\"51,200\" n huge dragon init=+4 sen=\"dragon senses\" pcp=+26 aura=\"%%umr/frightful presence%% (180 ft., DC 24)\"}",
+			"::minfo{source=\"Bestiary 3/100\" xp=\"51,200\" n huge dragon init=+4 sen=\"dragon senses\" pcp=+26 aura=\"‹umr/frightful presence› (180 ft., DC 24)\"}",
 			"",
 			"::mdefense{ac=\"30/8/30\" mod=\"+22 natural, -2 size\" hp=\"225~18d12+108\" fort=+17 ref=+13 will=+18 dr=\"5/magic\" immune=\"paralysis, sleep\" sr=26}",
 			"",
@@ -703,7 +703,7 @@
 			"",
 			"Guardians of balance, sovereign dragons, or lungwangs as they are also known, were placed in the skies by the gods themselves to safeguard harmony in the world.",
 			"",
-			"**Family:** {family/Sovereign Dragon}"
+			"**Family:** ‹family/Sovereign Dragon›"
 		]
 	},
 	"adult_sovereign_dragon": { "redirect": "dragon_imperial_sovereign_adult_sovereign_dragon" },
@@ -713,7 +713,7 @@
 		"description": [
 			"::mh[Ancient Sovereign Dragon]{cr=20}",
 			"",
-			"::minfo{source=\"Bestiary 3/101\" xp=\"307,200\" n gargantuan dragon init=+3 sen=\"dragon senses\" pcp=+42 aura=\"%%umr/frightful presence%% (300 ft., DC 30)\"}",
+			"::minfo{source=\"Bestiary 3/101\" xp=\"307,200\" n gargantuan dragon init=+3 sen=\"dragon senses\" pcp=+42 aura=\"‹umr/frightful presence› (300 ft., DC 30)\"}",
 			"",
 			"::mdefense{ac=\"39/5/39\" mod=\"-1 Dex, +34 natural, -4 size\" hp=\"377~26d12+208\" fort=+23 ref=+16 will=+24 dr=\"15/magic\" immune=\"paralysis, sleep\" sr=31}",
 			"",
@@ -731,7 +731,7 @@
 			"",
 			"Guardians of balance, sovereign dragons, or lungwangs as they are also known, were placed in the skies by the gods themselves to safeguard harmony in the world.",
 			"",
-			"**Family:** {family/Sovereign Dragon}"
+			"**Family:** ‹family/Sovereign Dragon›"
 		]
 	},
 	"ancient_sovereign_dragon": { "redirect": "dragon_imperial_sovereign_ancient_sovereign_dragon" },
@@ -761,7 +761,7 @@
 			"",
 			"Guardians of balance, sovereign dragons, or lungwangs as they are also known, were placed in the skies by the gods themselves to safeguard harmony in the world.",
 			"",
-			"**Family:** {family/Sovereign Dragon}"
+			"**Family:** ‹family/Sovereign Dragon›"
 		]
 	},
 	"young_sovereign_dragon": { "redirect": "dragon_imperial_sovereign_young_sovereign_dragon" },
@@ -771,7 +771,7 @@
 		"description": [
 			"::mh[Adult Underworld Dragon]{cr=11}",
 			"",
-			"::minfo{source=\"Bestiary 3/102\" xp=\"12,800\" le large dragon subs=fire init=+4 sen=\"dragon senses,smoke vision\" pcp=+20 aura=\"%%umr/frightful presence%% (180 ft., DC 20)\"}",
+			"::minfo{source=\"Bestiary 3/102\" xp=\"12,800\" le large dragon subs=fire init=+4 sen=\"dragon senses,smoke vision\" pcp=+20 aura=\"‹umr/frightful presence› (180 ft., DC 20)\"}",
 			"",
 			"::mdefense{ac=\"29/9/29\" mod=\"+20 natural, -1 size\" hp=\"161~14d12+70\" fort=+14 ref=+9 will=+12 dr=\"5/magic\" immune=\"fire, paralysis, sleep\" sr=22 vulner=cold}",
 			"",
@@ -789,7 +789,7 @@
 			"",
 			"Underworld dragons - also called futsanglungs - are calculating, greedy creatures that carve great labyrinthine tunnels beneath the world, defending their hidden treasures. Preferring the earth to the heavens, they channel the fires of the world's core within their twisting, stone-like bodies and through flaming breath hot enough to turn granite into slag.",
 			"",
-			"**Family:** {family/Underworld Dragon}"
+			"**Family:** ‹family/Underworld Dragon›"
 		]
 	},
 	"adult_underworld_dragon": { "redirect": "dragon_imperial_underworld_adult_underworld_dragon" },
@@ -799,7 +799,7 @@
 		"description": [
 			"::mh[Ancient Underworld Dragon]{cr=16}",
 			"",
-			"::minfo{source=\"Bestiary 3/103\" xp=\"76,800\" le huge dragon subs=fire init=+3 sen=\"dragon senses,smoke vision\" pcp=+30 aura=\"%%umr/frightful presence%% (300 ft., DC 26)\"}",
+			"::minfo{source=\"Bestiary 3/103\" xp=\"76,800\" le huge dragon subs=fire init=+3 sen=\"dragon senses,smoke vision\" pcp=+30 aura=\"‹umr/frightful presence› (300 ft., DC 26)\"}",
 			"",
 			"::mdefense{ac=\"39/7/39\" mod=\"-1 Dex, +32 natural, -2 size\" hp=\"297~22d12+154\" fort=+20 ref=+12 will=+18 dr=\"15/magic\" immune=\"fire, paralysis, sleep\" sr=27 vulner=cold}",
 			"",
@@ -817,7 +817,7 @@
 			"",
 			"Underworld dragons - also called futsanglungs - are calculating, greedy creatures that carve great labyrinthine tunnels beneath the world, defending their hidden treasures. Preferring the earth to the heavens, they channel the fires of the world's core within their twisting, stone-like bodies and through flaming breath hot enough to turn granite into slag.",
 			"",
-			"**Family:** {family/Underworld Dragon}"
+			"**Family:** ‹family/Underworld Dragon›"
 		]
 	},
 	"ancient_underworld_dragon": { "redirect": "dragon_imperial_underworld_ancient_underworld_dragon" },
@@ -847,7 +847,7 @@
 			"",
 			"Underworld dragons - also called futsanglungs - are calculating, greedy creatures that carve great labyrinthine tunnels beneath the world, defending their hidden treasures. Preferring the earth to the heavens, they channel the fires of the world's core within their twisting, stone-like bodies and through flaming breath hot enough to turn granite into slag.",
 			"",
-			"**Family:** {family/Underworld Dragon}"
+			"**Family:** ‹family/Underworld Dragon›"
 		]
 	},
 	"young_underworld_dragon": { "redirect": "dragon_imperial_underworld_young_underworld_dragon" },
@@ -865,13 +865,13 @@
 			"",
 			"::moffense{sp=60 fl=120 good melee=\"2 hooves +16 (2d6+7 plus 1d6 electricity)\" space=10 reach=10 specAtt=\"breath weapons~flying charge\"}",
 			"",
-			"::mstats{str=24 dex=17 con=21 int=16 wis=18 cha=21 bab=+10 cmb=+18 cmd=\"32 (36 vs. trip)\" feats=\"Dodge~Flyby Attack~Improved Initiative~Iron Will~Mobility\" skills=\"Fly +18~Knowledge (planes) +13~Perception +17~Sense Motive +14~Survival +14\" lang=\"Auran, Common, Draconic; %%umr/telepathy%% 100 ft.\" sq=\"shift planes\"}",
+			"::mstats{str=24 dex=17 con=21 int=16 wis=18 cha=21 bab=+10 cmb=+18 cmd=\"32 (36 vs. trip)\" feats=\"Dodge~Flyby Attack~Improved Initiative~Iron Will~Mobility\" skills=\"Fly +18~Knowledge (planes) +13~Perception +17~Sense Motive +14~Survival +14\" lang=\"Auran, Common, Draconic; ‹umr/telepathy› 100 ft.\" sq=\"shift planes\"}",
 			"",
 			"::meco{env=any org=solitary treasure=none}",
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Breath Weapons (Su)** As a standard action, a dragon horse can breathe out a 30-foot cone of mist. This mist either deals 10d6 points of cold damage (DC 20 Reflex half), creates a region of fog in the area that lasts for 1 minute (similar to that created by a {spell/fog cloud} spell), or creates a blast of severe wind (see the {rule/wind/ effects table}) in the area. The dragon horse may use this breath weapon once every 1d4 rounds. The save DC is Constitution-based.",
+			"**Breath Weapons (Su)** As a standard action, a dragon horse can breathe out a 30-foot cone of mist. This mist either deals 10d6 points of cold damage (DC 20 Reflex half), creates a region of fog in the area that lasts for 1 minute (similar to that created by a ‹spell/fog cloud› spell), or creates a blast of severe wind (see the ‹rule/wind« effects table›) in the area. The dragon horse may use this breath weapon once every 1d4 rounds. The save DC is Constitution-based.",
 			"",
 			"**Flying Charge (Ex)** A dragon horse gains a +4 bonus on damage rolls if it charges while flying.",
 			"",
@@ -944,7 +944,7 @@
 			"",
 			"::mstats{str=26 dex=15 con=20 int=11 wis=12 cha=17 bab=+10 cmb=+19 cmd=31 feats=\"Combat Reflexes~Flyby Attack~Power Attack~Vital Strike~Weapon Focus=bite\" skills=\"Bluff +16~Fly +17~Intimidate +16~Perception +14~Stealth +11~Survival +14\" lang=\"Common, Draconic\" sq=\"rider bond\"}",
 			"",
-			"::meco{env=\"any mountains\" org=\"solitary, pair, patrol (3-6), or wing (7-14)\" treasure=\"standard=masterwork %%eq-weapon/glaive%%, other treasure\"}",
+			"::meco{env=\"any mountains\" org=\"solitary, pair, patrol (3-6), or wing (7-14)\" treasure=\"standard=masterwork ‹eq-weapon/glaive›, other treasure\"}",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -992,7 +992,7 @@
 			"",
 			"Although many creatures rightly fear these ferocious hunters, few dragonnes are blatantly evil-most are just highly territorial and seek to defend their homes and hunting grounds from interlopers. Creatures that draw too close to a dragonne's lair are typically met by the resident's fearsome roar, followed by its claws and fangs if this warning is ignored. Those who attempt to settle in a dragonne's territory find themselves harassed constantly until they decide to leave or the dragonne is slain. These intimidating predators spend the majority of their time on the ground, even when in combat, since their wings prove somewhat ungainly. They typically search for prey and intruders from the air, then land nearby to charge and pounce.",
 			"",
-			"Despite their deadliness, dragonnes form strong bonds with those they consider members of their pride, sometimes even adopting creatures of other races. A character with the {feat/Leadership} feat can take a dragonne as a cohort. Such characters must have an effective leadership level of 10th. Most dragonne cohorts gain levels in barbarian, fighter, or ranger.",
+			"Despite their deadliness, dragonnes form strong bonds with those they consider members of their pride, sometimes even adopting creatures of other races. A character with the ‹feat/Leadership› feat can take a dragonne as a cohort. Such characters must have an effective leadership level of 10th. Most dragonne cohorts gain levels in barbarian, fighter, or ranger.",
 			"",
 			"A dragonne measures between 10 and 12 feet long and weighs up to 1,200 pounds."
 		]
@@ -1031,7 +1031,7 @@
 			"",
 			"A typical desert drake measures 15 feet long from nose to tail tip, has a supple, worm-like build, and weighs about 2,500 pounds.",
 			"",
-			"**Family:** {family/Drake}"
+			"**Family:** ‹family/Drake›"
 		]
 	},
 	"drake_desert": { "redirect": "drake_desert_drake" },
@@ -1052,7 +1052,7 @@
 			"",
 			"::mspell{psy cl=12 con=+14 pe=10 psyMag=\"burst of adrenaline|1 PE~condensed ether|4 PE~mindlink|1 PE\"}",
 			"",
-			"::mstats{str=30 dex=15 con=21 int=8 wis=15 cha=14 bab=+12 cmb=+23 cmd=35 feats=\"Critical Focus~Improved Critical=bite~Improved Initiative~Iron Will~Lunge~Power Attack\" skills=\"Fly +23~Intimidate +17~Perception +17~Stealth +13~Survival +17\" lang=\"Draconic; %%umr/telepathy%% 60 ft.\" sq=\"etheric shift, speed surge\"}",
+			"::mstats{str=30 dex=15 con=21 int=8 wis=15 cha=14 bab=+12 cmb=+23 cmd=35 feats=\"Critical Focus~Improved Critical=bite~Improved Initiative~Iron Will~Lunge~Power Attack\" skills=\"Fly +23~Intimidate +17~Perception +17~Stealth +13~Survival +17\" lang=\"Draconic; ‹umr/telepathy› 60 ft.\" sq=\"etheric shift, speed surge\"}",
 			"",
 			"::meco{env=any org=\"solitary, pair, or rampage (3-6)\" treasure=standard}",
 			"",
@@ -1060,7 +1060,7 @@
 			"",
 			"**Ether Bite (Ex)** An ether drake applies 1-1/2 &times; its Strength modifier to damage dealt by its bite attack, and its bite threatens a critical hit on a roll of 19-20 and has a &times;3 multiplier. An ether drake's bite deals full damage to incorporeal creatures.",
 			"",
-			"**Etheric Shift (Ex)** An ether drake can become ethereal (as the {spell/etherealness} spell) once every 3 rounds as a swift action. The drake can activate this effect as a free action whenever it uses its speed surge ability, regardless of the number of rounds since the last time it used etheric shift. Once this ability is activated, the drake remains ethereal for 1 round.",
+			"**Etheric Shift (Ex)** An ether drake can become ethereal (as the ‹spell/etherealness› spell) once every 3 rounds as a swift action. The drake can activate this effect as a free action whenever it uses its speed surge ability, regardless of the number of rounds since the last time it used etheric shift. Once this ability is activated, the drake remains ethereal for 1 round.",
 			"",
 			"**Speed Surge (Ex)** Three times per day as a swift action, an ether drake can draw on its draconic heritage for a boost of strength and speed that allows it to take an additional move action in that round.",
 			"",
@@ -1070,7 +1070,7 @@
 			"",
 			"When an unwelcome creature enters their territory, ether drakes use their psychic abilities to create mental links between others of their kind to coordinate and strategize. Ether drakes measure 16 feet long from head to tail and weigh around 2,000 pounds.",
 			"",
-			"**Family:** {family/Drake}"
+			"**Family:** ‹family/Drake›"
 		]
 	},
 	"drake_ether": { "redirect": "drake_ether_drake" },
@@ -1110,7 +1110,7 @@
 			"",
 			"Flame drakes mate once a year. Males play no part in raising their offspring, and abandon their partners soon after mating. Females lay clutches of two or three eggs in secluded mountain nests, and raise their hatchlings for only 2 years before rejoining their packs and abandoning their offspring to their fates. Flame drakes mature in 5 years, and can live up to 150 years. They generally grow to 12 feet long and weigh 1,500 pounds.",
 			"",
-			"**Family:** {family/Drake}"
+			"**Family:** ‹family/Drake›"
 		]
 	},
 	"drake_flame": { "redirect": "drake_flame_drake" },
@@ -1154,7 +1154,7 @@
 			"",
 			"While few survive so long, forest drakes can live up to 200 years. Forest drakes are typically about 10 feet long with equally long tails, and weigh around 1,000 pounds.",
 			"",
-			"**Family:** {family/Drake}"
+			"**Family:** ‹family/Drake›"
 		]
 	},
 	"drake_forest": { "redirect": "drake_forest_drake" },
@@ -1193,7 +1193,7 @@
 			"",
 			"Young frost drakes form adolescent hunting packs divided along gender lines, but older frost drakes are usually encountered in mated pairs. Frost drakes mate for life, leaving their packs when they find a suitable mate. Mated pairs make a nest together, and the female lays a clutch of two to five eggs. Both parents care for their offspring when they hatch, and families usually form small packs until the young reach maturity at 5 years of age. At this point, the parents abandon their offspring, usually laying a new clutch of eggs in a new nest elsewhere, and leaving the fledgling drakes to find their own adolescent packs to join.",
 			"",
-			"**Family:** {family/Drake}"
+			"**Family:** ‹family/Drake›"
 		]
 	},
 	"drake_frost": { "redirect": "drake_frost_drake" },
@@ -1210,9 +1210,9 @@
 			"",
 			"::mdefense{ac=\"19/13/15\" mod=\"+3 Dex, +1 dodge, +6 natural, -1 size\" hp=\"73~7d12+28\" fort=+9 ref=+8 will=+6 immune=\"disease, poison, paralysis, sleep\"}",
 			"",
-			"::moffense{sp=40 fl=60 average melee=\"bite +13 (2d6+7 plus %%umr/grab%%), sting +13 (1d8+7 plus poison)\" space=10 reach=10 specAtt=\"predatory grab\"}",
+			"::moffense{sp=40 fl=60 average melee=\"bite +13 (2d6+7 plus ‹umr/grab›), sting +13 (1d8+7 plus poison)\" space=10 reach=10 specAtt=\"predatory grab\"}",
 			"",
-			"::mstats{str=24 dex=17 con=19 int=8 wis=13 cha=12 bab=+7 cmb=\"+15 (+19 grapple)\" cmd=29 feats=\"Dodge~Improved Initiative~Mobility~Spring Attack\" skills=\"Fly +11~Perception +11~Sense Motive +11~Stealth +9~Survival +11\" lang=Draconic sq=\"speed surge, %%ability/woodland stride%%\"}",
+			"::mstats{str=24 dex=17 con=19 int=8 wis=13 cha=12 bab=+7 cmb=\"+15 (+19 grapple)\" cmd=29 feats=\"Dodge~Improved Initiative~Mobility~Spring Attack\" skills=\"Fly +11~Perception +11~Sense Motive +11~Stealth +9~Survival +11\" lang=Draconic sq=\"speed surge, ‹ability/woodland stride›\"}",
 			"",
 			"::meco{env=\"warm jungles\" org=\"solitary, pair, or rampage (3-8)\" treasure=standard}",
 			"",
@@ -1236,7 +1236,7 @@
 			"",
 			"A jungle drake measures 14 feet from front to back, with a lean but muscular build, and weighs around 2,100 pounds.",
 			"",
-			"**Family:** {family/Drake}"
+			"**Family:** ‹family/Drake›"
 		]
 	},
 	"drake_jungle": { "redirect": "drake_jungle_drake" },
@@ -1255,7 +1255,7 @@
 			"",
 			"::moffense{sp=20 br=30 brP=\"lava only\" fl=60 average melee=\"bite +17 (1d8+7), 2 claws +17 (1d6+7), tail slap +15 (1d8+3)\" space=10 reach=10 specAtt=\"magma shake~pyroclastic vomit\"}",
 			"",
-			"::mstats{str=25 dex=16 con=18 int=9 wis=12 cha=11 bab=+11 cmb=\"+19 (+21 bull rush)\" cmd=\"32 (34 vs. bull rush)\" feats=\"Awesome Blow~Flyby Attack~Improved Bull Rush~Improved Initiative~Multiattack~Power Attack\" skills=\"Climb +21~Fly +15~Intimidate +14~Perception +15~Stealth +13 (+21 submerged in molten rock or metal)\" racial=\"+8 Stealth submerged in molten rock or metal\" lang=Draconic sq=\"%%umr/hold breath%%, speed surge\"}",
+			"::mstats{str=25 dex=16 con=18 int=9 wis=12 cha=11 bab=+11 cmb=\"+19 (+21 bull rush)\" cmd=\"32 (34 vs. bull rush)\" feats=\"Awesome Blow~Flyby Attack~Improved Bull Rush~Improved Initiative~Multiattack~Power Attack\" skills=\"Climb +21~Fly +15~Intimidate +14~Perception +15~Stealth +13 (+21 submerged in molten rock or metal)\" racial=\"+8 Stealth submerged in molten rock or metal\" lang=Draconic sq=\"‹umr/hold breath›, speed surge\"}",
 			"",
 			"::meco{env=\"warm forests, hills, or mountains\" org=\"solitary, pair, or rampage (3-12)\" treasure=standard}",
 			"",
@@ -1273,7 +1273,7 @@
 			"",
 			"Stockier than other drakes, adults can grow up to 18 feet in length and weigh over 3,000 pounds.",
 			"",
-			"**Family:** {family/Drake}"
+			"**Family:** ‹family/Drake›"
 		]
 	},
 	"drake_lava": { "redirect": "drake_lava_drake" },
@@ -1314,7 +1314,7 @@
 			"",
 			"A typical mist drake is 13 feet long from head to tail tip, but these lithe dragons rarely weigh more than 1,000 pounds.",
 			"",
-			"**Family:** {family/Drake}"
+			"**Family:** ‹family/Drake›"
 		]
 	},
 	"drake_mist": { "redirect": "drake_mist_drake" },
@@ -1331,7 +1331,7 @@
 			"",
 			"::mdefense{ac=\"23/12/20\" mod=\"+3 Dex, +11 natural, -1 size\" hp=\"126~11d12+55\" fort=+12 ref=+10 will=+8 immune=\"paralysis, sleep\" resist=\"acid 30\"}",
 			"",
-			"::moffense{sp=30 cl=20 fl=60 average melee=\"bite +18 (2d8+10/19-20 plus bleed), tail slap +12 (1d10+3 plus %%umr/trip%%)\" space=10 reach=10 bleed=\"1d6\" pounce specAtt=\"clinging corrosion~savage bite\"}",
+			"::moffense{sp=30 cl=20 fl=60 average melee=\"bite +18 (2d8+10/19-20 plus bleed), tail slap +12 (1d10+3 plus ‹umr/trip›)\" space=10 reach=10 bleed=\"1d6\" pounce specAtt=\"clinging corrosion~savage bite\"}",
 			"",
 			"::mstats{str=25 dex=17 con=20 int=8 wis=12 cha=11 bab=+11 cmb=+19 cmd=32 feats=\"Bleeding Critical~Critical Focus~Flyby Attack~Improved Initiative~Power Attack~Weapon Focus=bite\" skills=\"Climb +15~Fly +14~Intimidate +12~Perception +14~Sense Motive +11~Stealth +12~Survival +13\" lang=Draconic sq=\"speed surge\"}",
 			"",
@@ -1353,7 +1353,7 @@
 			"",
 			"A rift drake is around 14 feet long, end to end. Its burly, spiky body weighs about 2,500 pounds.",
 			"",
-			"**Family:** {family/Drake}"
+			"**Family:** ‹family/Drake›"
 		]
 	},
 	"drake_rift": { "redirect": "drake_rift_drake" },
@@ -1372,7 +1372,7 @@
 			"",
 			"::moffense{sp=20 fl=60 average sw=30 melee=\"bite +7 (2d4+3), tail slap +2 (1d4+1)\" pounce specAtt=\"caustic mucus\"}",
 			"",
-			"::mstats{str=17 dex=16 con=15 int=8 wis=10 cha=9 bab=+4 cmb=+7 cmd=20 feats=\"Improved Initiative~Power Attack\" skills=\"Fly +10~Intimidate +6~Perception +7~Stealth +10~Survival +7~Swim +11\" lang=Draconic sq=\"%%umr/amphibious%%, speed surge\"}",
+			"::mstats{str=17 dex=16 con=15 int=8 wis=10 cha=9 bab=+4 cmb=+7 cmd=20 feats=\"Improved Initiative~Power Attack\" skills=\"Fly +10~Intimidate +6~Perception +7~Stealth +10~Survival +7~Swim +11\" lang=Draconic sq=\"‹umr/amphibious›, speed surge\"}",
 			"",
 			"::meco{env=\"temperate rivers or lakes\" org=\"solitary, pair, or rampage (3-12)\" treasure=standard}",
 			"",
@@ -1394,7 +1394,7 @@
 			"",
 			"River drakes are 8 feet long and look much like small sea drakes. An adult river drake weighs about 700 pounds.",
 			"",
-			"**Family:** {family/Drake}"
+			"**Family:** ‹family/Drake›"
 		]
 	},
 	"drake_river": { "redirect": "drake_river_drake" },
@@ -1413,7 +1413,7 @@
 			"",
 			"::moffense{sp=20 fl=60 average sw=60 melee=\"bite +12 (1d8+6 plus 1d6 electricity), tail slap +7 (1d8+3)\" space=10 reach=10 capsize specAtt=\"ball lightning breath\"}",
 			"",
-			"::mstats{str=23 dex=15 con=18 int=8 wis=10 cha=9 bab=+7 cmb=+14 cmd=26 feats=\"Improved Initiative~Lightning Reflexes~Power Attack~Skill Focus=Stealth\" skills=\"Fly +10~Intimidate +9~Perception +10~Stealth +11~Swim +24\" lang=Draconic sq=\"%%umr/amphibious%%, speed surge\"}",
+			"::mstats{str=23 dex=15 con=18 int=8 wis=10 cha=9 bab=+7 cmb=+14 cmd=26 feats=\"Improved Initiative~Lightning Reflexes~Power Attack~Skill Focus=Stealth\" skills=\"Fly +10~Intimidate +9~Perception +10~Stealth +11~Swim +24\" lang=Draconic sq=\"‹umr/amphibious›, speed surge\"}",
 			"",
 			"::meco{env=\"any coastlines\" org=\"solitary, pair, or rampage (3-12)\" treasure=standard}",
 			"",
@@ -1433,7 +1433,7 @@
 			"",
 			"The most solitary of all drakes, sea drakes prefer to hunt alone. Occasionally, however, they band together in packs to hunt larger prey. Such rampages can be a significant danger to coastal shipping.",
 			"",
-			"**Family:** {family/Drake}"
+			"**Family:** ‹family/Drake›"
 		]
 	},
 	"drake_sea": { "redirect": "drake_sea_drake" },
@@ -1448,7 +1448,7 @@
 			"",
 			"::minfo{source=\"Bestiary 4/80\" xp=600 ce tiny dragon subs=cold init=+5 dv=60 llv pcp=+7}",
 			"",
-			"::mdefense{ac=\"18/17/13\" mod=\"+5 Dex, +1 natural, +2 size\" hp=\"22~3d12+3\" fort=+4 ref=+8 will=+4 def=\"shadow blend\" immune=\"cold, paralysis, and sleep\" vulner=fire weak=\"%%umr/light sensitivity%%\"}",
+			"::mdefense{ac=\"18/17/13\" mod=\"+5 Dex, +1 natural, +2 size\" hp=\"22~3d12+3\" fort=+4 ref=+8 will=+4 def=\"shadow blend\" immune=\"cold, paralysis, and sleep\" vulner=fire weak=\"‹umr/light sensitivity›\"}",
 			"",
 			"::moffense{sp=20 fl=90 perfect melee=\"bite +10 (1d3-1), tail slap +5 (1d3-1)\" space=\"2-1/2\" reach=0 reachP=\"5 ft. with tail\" specAtt=\"stygian breath\"}",
 			"",
@@ -1468,11 +1468,11 @@
 			"",
 			"Shadow drakes are mischievous and greedy. They often use their whip-like tails as third limbs, grasping small objects or even using their tails to work locks or swipe small objects they desire. Because they are so small and fast, they are master thieves and pickpockets. Unlike most drakes and dragonkin, shadow drakes like to haunt the fringes of civilization, often making lairs in abandoned buildings, forgotten attics, or unused bell towers, and stashing their tiny treasure hoards there.",
 			"",
-			"A shadow drake can be chosen as a familiar by a 7th-level evil spellcaster who has the {feat/Improved Familiar} feat.",
+			"A shadow drake can be chosen as a familiar by a 7th-level evil spellcaster who has the ‹feat/Improved Familiar› feat.",
 			"",
 			"Young shadow drakes are almost pure black and have lustrous hides. As they age, their scales lose this luster and turn dull gray. Much like their larger dragon cousins, shadow drakes are long-lived, and can reach 150 to 200 years in age.",
 			"",
-			"**Family:** {family/Drake}"
+			"**Family:** ‹family/Drake›"
 		]
 	},
 	"drake_shadow": { "redirect": "drake_shadow_drake" },
@@ -1513,7 +1513,7 @@
 			"",
 			"A typical spire drake measures 18 feet from its nose to the long, thin tip of its tail, and weighs about 1,700 pounds.",
 			"",
-			"**Family:** {family/Drake}"
+			"**Family:** ‹family/Drake›"
 		]
 	},
 	"drake_spire": { "redirect": "drake_spire_drake" },
@@ -1536,9 +1536,9 @@
 			"",
 			"::mspell{know cl=6 l3=\"4/day~lightning bolt|DC 16\" l2=\"6/day~invisibility~web|DC 15\" l1=\"7/day~mage armor~magic missile~ray of enfeeblement|DC 14~silent image|DC 14\" l0=\"at will~bleed|DC 13~daze|DC 13~ghost sound~mage hand~ray of frost~read magic~resistance\"}",
 			"",
-			"::mstats{str=15 dex=15 con=18 int=15 wis=16 cha=16 bab=+6 cmb=+9 cmd=\"21 (33 vs. trip)\" feats=\"Blind-Fight~Dodge~Combat Casting~Weapon Focus=bite, mace\" skills=\"Climb +22~Intimidate +15~Knowledge (arcana) +14~Perception +15~Spellcraft +14~Stealth +14\" racial=\"+4 Stealth\" lang=\"Common, Elven, Undercommon\" sq=\"%%umr/undersized weapons%%\"}",
+			"::mstats{str=15 dex=15 con=18 int=15 wis=16 cha=16 bab=+6 cmb=+9 cmd=\"21 (33 vs. trip)\" feats=\"Blind-Fight~Dodge~Combat Casting~Weapon Focus=bite, mace\" skills=\"Climb +22~Intimidate +15~Knowledge (arcana) +14~Perception +15~Spellcraft +14~Stealth +14\" racial=\"+4 Stealth\" lang=\"Common, Elven, Undercommon\" sq=\"‹umr/undersized weapons›\"}",
 			"",
-			"::meco{env=\"any underground\" org=\"solitary, pair, or group (3-8)\" treasure=\"double=masterwork %%eq-weapon/heavy mace%%, masterwork %%eq-weapon/composite longbow%% &#91&+2 Str&#93& with 20 arrows, additional treasure\"}",
+			"::meco{env=\"any underground\" org=\"solitary, pair, or group (3-8)\" treasure=\"double=masterwork ‹eq-weapon/heavy mace›, masterwork ‹eq-weapon/composite longbow› &#91&+2 Str&#93& with 20 arrows, additional treasure\"}",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -1556,7 +1556,7 @@
 			"",
 			"Driders are sexually dimorphic. A female drider's lower spider body is sleek and graceful, often similar to a black widow's body, while its upper drow torso retains its alluring curves and beautiful face (with the exception of sharp, poisonous fangs). A male drider's lower body is bulky like a tarantula, while its upper body is wiry and bears a hideous face more spider than drow, complete with fanged mandibles.",
 			"",
-			"**Family:** {family/Fleshwarp}"
+			"**Family:** ‹family/Fleshwarp›"
 		]
 	},
 	"drider": { "redirect": "fleshwarp_drider" },
@@ -1571,7 +1571,7 @@
 			"",
 			"::mh[Ghonhatine]{cr=10}",
 			"",
-			"::minfo{source=\"Bestiary 4/102;Pathfinder #16: Endless Night/84\" xp=\"9,600\" ce large aberration init=-2 scent dv=60 pcp=+9 aura=\"powerful %%umr/stench%% (10 ft., DC 24, 1d4 rounds)\"}",
+			"::minfo{source=\"Bestiary 4/102;Pathfinder #16: Endless Night/84\" xp=\"9,600\" ce large aberration init=-2 scent dv=60 pcp=+9 aura=\"powerful ‹umr/stench› (10 ft., DC 24, 1d4 rounds)\"}",
 			"",
 			"::mdefense{ac=\"24/7/24\" mod=\"-2 Dex, +17 natural, -1 size\" hp=\"162~12d8+108\" fort=+13 ref=+2 will=+6 immune=\"acid, critical hits, disease, poison\"}",
 			"",
@@ -1595,7 +1595,7 @@
 			"",
 			"Troglodytes forced to undergo fleshwarping by the drow, ghonhatines harken to what troglodytes might have been in savage prehistory. They stand over 10 feet tall (hunched to about 8 feet) and weigh upward of 5,000 pounds.",
 			"",
-			"**Family:** {family/Fleshwarp}"
+			"**Family:** ‹family/Fleshwarp›"
 		]
 	},
 	"ghonhatine": { "redirect": "fleshwarp_ghonhatine" },
@@ -1613,7 +1613,7 @@
 			"",
 			"::moffense{sp=20 melee=\"2 slams +6 (1d6+3)\" specAtt=\"digestive spew~disgusting demise~piteous moan\"}",
 			"",
-			"::mstats{str=15 dex=6 con=18 int=1 wis=8 cha=5 bab=+3 cmb=+5 cmd=\"13 (can't be tripped)\" feats=\"Great Fortitude~Improved Initiative~Weapon Focus=slam\" skills=\"Climb +10\" sq=\"%%umr/compression%%\"}",
+			"::mstats{str=15 dex=6 con=18 int=1 wis=8 cha=5 bab=+3 cmb=+5 cmd=\"13 (can't be tripped)\" feats=\"Great Fortitude~Improved Initiative~Weapon Focus=slam\" skills=\"Climb +10\" sq=\"‹umr/compression›\"}",
 			"",
 			"::meco{env=\"any underground\" org=\"solitary or rout (2-10)\" treasure=none}",
 			"",
@@ -1631,7 +1631,7 @@
 			"",
 			"Many fleshcrafters consider the grothlut a failure, as the transformation all but stamps out its human consciousness. Others disagree, arguing that warping the creature's mind makes it more useful, as its stupidity makes it pliable and easy to herd. The drow typically use grothluts only as guardians to slowly patrol the remote edges of their enclaves. Once in position, though, grothluts can be used as crude shock troops, unleashed to soften enemy forces before more valuable warriors wade in and cut down the enemies who have been nauseated by the grothluts' exploded organs and flesh.",
 			"",
-			"**Family:** {family/Fleshwarp}"
+			"**Family:** ‹family/Fleshwarp›"
 		]
 	},
 	"grothlut": { "redirect": "fleshwarp_grothlut" },
@@ -1665,7 +1665,7 @@
 			"",
 			"Though their sunken eyes and constant stream of acidic tears often make these creatures seem pitiful, they are fierce bundles of rage and self-hatred. The conditioning of the fleshwarpers causes them to attack and infect any enemy of the drow they come in contact with, but what's left of their consciousness rages against the mutated spores they carry. Worse still, many drow use these creatures to hunt down and even infect other tribes of vegepygmies.",
 			"",
-			"**Family:** {family/Fleshwarp}"
+			"**Family:** ‹family/Fleshwarp›"
 		]
 	},
 	"halsora": { "redirect": "fleshwarp_halsora" },
@@ -1704,7 +1704,7 @@
 			"",
 			"No two irnakurse look exactly the same-drow torturers take profane pride in sculpting their elven victims into unique masterpieces of agony-most stand between 8 and 9 feet tall and weigh upward of 300 pounds.",
 			"",
-			"**Family:** {family/Fleshwarp}"
+			"**Family:** ‹family/Fleshwarp›"
 		]
 	},
 	"irnakurse": { "redirect": "fleshwarp_irnakurse" },
@@ -1718,13 +1718,13 @@
 			"",
 			"::minfo{source=\"Inner Sea Bestiary/36\" xp=\"1,600\" ce large aberration init=+3 tremorsense=60 dv=120 pcp=+5}",
 			"",
-			"::mdefense{ac=\"20/12/17\" mod=\"+3 Dex, +6 natural, +2 shield, -1 size\" hp=\"59~7d8+28\" fort=+6 ref=+5 will=+5 ferocity weak=\"%%umr/light sensitivity%%\"}",
+			"::mdefense{ac=\"20/12/17\" mod=\"+3 Dex, +6 natural, +2 shield, -1 size\" hp=\"59~7d8+28\" fort=+6 ref=+5 will=+5 ferocity weak=\"‹umr/light sensitivity›\"}",
 			"",
 			"::moffense{sp=40 cl=40 melee=\"mwk battleaxe +11 (1d8+6/&times&3), bite +10 (1d6+9 plus poison)\" ranged=\"mwk longbow +8 (1d8/&times&3)\" space=10 reach=5 specAtt=frenzy~spit}",
 			"",
 			"::mstats{str=23 dex=17 con=18 int=7 wis=10 cha=16 bab=+5 cmb=\"+12 (+14 overrun)\" cmd=\"25 (27 vs. overrun)\" feats=\"Acrobatic Steps~Improved Overrun~Nimble Moves~Power Attack\" skills=\"Acrobatics +8 (+12 when jumping)~Climb +16~Perception +5~Stealth +6~Swim +8\" lang=Orc}",
 			"",
-			"::meco{env=\"any underground (Darklands)\" org=\"solitary, pair, or nest (3-9)\" treasure=\"standard=%%eq-armor/heavy wooden shield%%, mwk %%eq-weapon/battleaxe%%\"}",
+			"::meco{env=\"any underground (Darklands)\" org=\"solitary, pair, or nest (3-9)\" treasure=\"standard=‹eq-armor/heavy wooden shield›, mwk ‹eq-weapon/battleaxe›\"}",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -1744,7 +1744,7 @@
 			"",
 			"With the exception of the driders, the oronci are among the most useful of the obscenities produced by fleshwarping. They embody all the savage brutality of an orc warrior, but mounted centaur-like upon an even larger, more powerful frame. Being less intelligent than drow, oronci make better shock troopers and advance soldiers for drow armies than the dark elves themselves. Oronci who have escaped the slavery of the dark elves have become favored champions for certain clever orc chieftains. Some oronci even overcome their sensitivity to daylight given time, which makes them better suited to terrorize the surface lands.",
 			"",
-			"**Family:** {family/Fleshwarp}"
+			"**Family:** ‹family/Fleshwarp›"
 		]
 	},
 	"oronci": { "redirect": "fleshwarp_oronci" },
@@ -1759,11 +1759,11 @@
 			"",
 			"::mh[Flying Polyp]{cr=14}",
 			"",
-			"::minfo{source=\"Bestiary 4/106;Pathfinder #65: Into the Nightmare Rift/86\" xp=\"38,400\" ce huge aberration subs=air init=+6 dv=60 pcp=+26 aura=\"%%umr/frightful presence%% (90 ft., DC 24)\"}",
+			"::minfo{source=\"Bestiary 4/106;Pathfinder #65: Into the Nightmare Rift/86\" xp=\"38,400\" ce huge aberration subs=air init=+6 dv=60 pcp=+26 aura=\"‹umr/frightful presence› (90 ft., DC 24)\"}",
 			"",
 			"::mdefense{ac=\"29/16/26\" mod=\"+5 deflection, +2 Dex, +1 dodge, +13 natural, -2 size\" hp=\"207~18d8+126\" fort=+13 ref=+12 will=+16 amorph def=\"deflecting winds~partial invisibility\" dr=\"10/magic and slashing\" immune=\"acid, cold, sonic\" sr=25 vulner=electricity}",
 			"",
-			"::moffense{sp=30 fl=60 perfect melee=\"4 tentacles +21 (1d8+9/19-20 plus %%umr/grab%%)\" space=15 reach=15 constrict=\"1d8+9\" specAtt=\"sucking wind~wind blast\" next}",
+			"::moffense{sp=30 fl=60 perfect melee=\"4 tentacles +21 (1d8+9/19-20 plus ‹umr/grab›)\" space=15 reach=15 constrict=\"1d8+9\" specAtt=\"sucking wind~wind blast\" next}",
 			"",
 			"::mspell{sla cl=14 con=+19 atWill=\"alter winds~gust of wind|DC 17~whispering wind~wind walk\" day=\"3~control winds|DC 20~river of wind|DC 19~wind wall~~1~control weather~whirlwind|DC 23\"}",
 			"",
@@ -1811,13 +1811,13 @@
 			"",
 			"::moffense{sp=20 br=20 spExtra=\"earth glide\" melee=\"bite +17 (2d6+7 plus rend armor), bite +17 (1d6+7), 2 claws +17 (1d6+7)\" space=10 reach=10 specAtt=\"adamantine bite~searing spew\" next}",
 			"",
-			"::mspell{sla cl=10 con=+12 constant=\"pass without trace\" atWill=\"major image|DC 15~passwall~shatter|DC 14~stone shape\" day=\"3~deeper darkness~dimensional anchor~flesh to stone|DC 18~!quickened %%spell/produce flame%%~wall of fire~wall of stone\"}",
+			"::mspell{sla cl=10 con=+12 constant=\"pass without trace\" atWill=\"major image|DC 15~passwall~shatter|DC 14~stone shape\" day=\"3~deeper darkness~dimensional anchor~flesh to stone|DC 18~!quickened ‹spell/produce flame›~wall of fire~wall of stone\"}",
 			"",
 			"::mstats{str=24 dex=14 con=25 int=15 wis=12 cha=15 bab=+11 cmb=+19 cmd=31 feats=\"Combat Reflexes~Greater Sunder#B~Improved Initiative~Improved Iron Will~Improved Sunder#B~Iron Will~Quicken Spell-Like Ability=produce flame~Vital Strike\" skills=\"Acrobatics +16 (+12 when jumping)~Climb +21~Craft (traps) +16~Disable Device +16~Knowledge (dungeoneering) +16~Perception +15~Sense Motive +15~Stealth +12\" lang=\"Common, Dwarven, Infernal, Terran\" next}",
 			"",
 			"::mfn[B~Bonus feat.]",
 			"",
-			"::meco{env=\"any underground (%%rule/Plane of Earth%%)\" org=\"solitary or team (2-6)\" treasure=standard}",
+			"::meco{env=\"any underground (‹rule/Plane of Earth›)\" org=\"solitary or team (2-6)\" treasure=standard}",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -1869,7 +1869,7 @@
 			"",
 			"The forlarren attacks with its clawed hands, typically focusing on a single opponent at a time and attacking until it or its opponent is slain. Yet curiously, when a forlarren succeeds in killing an opponent, the kindly traits of its fey mother sometimes surface, and it shows profound remorse for its cruelty. With such a pendulum of erratic behavior, it is no wonder that forlarrens are all but incapable of forming lasting friendships - even with others of their own kind.",
 			"",
-			"The majority of forlarrens inherit little in the way of the magical abilities possessed by their fey mothers, but they do gain a small measure of the powers of their fiendish fathers. In most cases, this manifests as the ability to use heat metal three times per day, but some forlarren instead gain a different spell-like ability chosen from the following list: {spell/chill metal}, {spell/flame blade}, {spell/flaming sphere}, {spell/gust of wind}, {spell/summon swarm}, or {spell/warp wood}.",
+			"The majority of forlarrens inherit little in the way of the magical abilities possessed by their fey mothers, but they do gain a small measure of the powers of their fiendish fathers. In most cases, this manifests as the ability to use heat metal three times per day, but some forlarren instead gain a different spell-like ability chosen from the following list: ‹spell/chill metal›, ‹spell/flame blade›, ‹spell/flaming sphere›, ‹spell/gust of wind›, ‹spell/summon swarm›, or ‹spell/warp wood›.",
 			"",
 			"A forlarren stands 6 feet tall and weighs about 160 pounds. In theory, these creatures can live for hundreds of years, but most perish through violence before they turn 10."
 		]
@@ -1890,9 +1890,9 @@
 			"",
 			"::mspell{sla cl=12 con=+15 atWill=\"charm monster|DC 17~clairaudience/clairvoyance~detect thoughts|DC 15\" day=\"3~hold monster|DC 18~~1~feeblemind|DC 18\"}",
 			"",
-			"::mstats{str=20 dex=19 con=20 int=17 wis=16 cha=17 bab=+12 cmb=+18 cmd=\"35 (39 vs. trip)\" feats=\"Dodge~Improved Initiative~Mobility~Quick Draw~Spring Attack~Vital Strike\" skills=\"Climb +20~Diplomacy +15~Knowledge (arcana) +15~Perception +18 (+22 with hive mind)~Sense Motive +15~Spellcraft +15~Stealth +15\" lang=\"Common, %%umr/telepathy%% 150 ft.\" sq=\"formian traits, inspire hive, %%umr/undersized weapons%%\"}",
+			"::mstats{str=20 dex=19 con=20 int=17 wis=16 cha=17 bab=+12 cmb=+18 cmd=\"35 (39 vs. trip)\" feats=\"Dodge~Improved Initiative~Mobility~Quick Draw~Spring Attack~Vital Strike\" skills=\"Climb +20~Diplomacy +15~Knowledge (arcana) +15~Perception +18 (+22 with hive mind)~Sense Motive +15~Spellcraft +15~Stealth +15\" lang=\"Common, ‹umr/telepathy› 150 ft.\" sq=\"formian traits, inspire hive, ‹umr/undersized weapons›\"}",
 			"",
-			"::meco{env=\"warm or temperate land or underground\" org=\"Solitary, team (2-4), platoon (1 plus 7-18 warriors and 6-12 workers), or royal guard (4 plus 12-20 warriors)\" treasure=\"standard=9 %%eq-weapon/javelin/s%%, other treasure\"}",
+			"::meco{env=\"warm or temperate land or underground\" org=\"Solitary, team (2-4), platoon (1 plus 7-18 warriors and 6-12 workers), or royal guard (4 plus 12-20 warriors)\" treasure=\"standard=9 ‹eq-weapon/javelin«s›, other treasure\"}",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -1900,7 +1900,7 @@
 			"",
 			"**Poison (Ex)**",
 			"",
-			"::aff{iconP type=\"Javelin or sting-injury\" saveF=21 freqR=6 effDex=\"1d4\" eff=\"%%misc/sickened%%\" cure2 extra=\"The save DC is Constitution-based.\"}",
+			"::aff{iconP type=\"Javelin or sting-injury\" saveF=21 freqR=6 effDex=\"1d4\" eff=\"‹misc/sickened›\" cure2 extra=\"The save DC is Constitution-based.\"}",
 			"",
 			"::sh[Description]",
 			"",
@@ -1914,7 +1914,7 @@
 			"",
 			"A myrmarch has an enlarged thorax and abdomen, which give it the same general size and weight as a large warhorse, though its upper body is not much larger than that of a formian warrior's. Myrmarchs stand about 8 feet high and weigh about 1,200 pounds.",
 			"",
-			"**Family:** {family/Formian}"
+			"**Family:** ‹family/Formian›"
 		]
 	},
 	"formian_myrmarch": { "redirect": "formian_formian_myrmarch" },
@@ -1932,11 +1932,11 @@
 			"",
 			"::moffense{sp=5 melee=\"2 claws +33 (4d8+10)\" space=10 reach=10 specAtt=\"telepathic feedback\" next}",
 			"",
-			"::mspell{sla cl=17 con=+24 atWill=\"magic jar|other formians only~magic missile\" day=\"1~invisibility~feeblemind|DC 21~~3~commune with nature~!empowered %%spell/cone of cold%% (DC 22)~permanent image~!quickened *magic missile*~repulsion|DC 23~teleport\"}",
+			"::mspell{sla cl=17 con=+24 atWill=\"magic jar|other formians only~magic missile\" day=\"1~invisibility~feeblemind|DC 21~~3~commune with nature~!empowered ‹spell/cone of cold› (DC 22)~permanent image~!quickened *magic missile*~repulsion|DC 23~teleport\"}",
 			"",
-			"::mstats{str=6 dex=5 con=20 int=19 wis=18 cha=25 bab=+24 cmb=+35 cmd=\"42 (50 vs. trip)\" feats=\"Alertness~Blind-Fight~Combat Casting~Craft Wondrous Item~Empower Spell-Like Ability=cone of cold~Great Fortitude~Improved Initiative~Iron Will~Lightning Reflexes~Quicken Spell-Like Ability=magic missile~Spell Penetration~Toughness\" skills=\"Diplomacy +31~Intimidate +34~Knowledge (arcana, nature) +28~Knowledge (dungeoneering, engineering, geography, local, planes) +12~Perception +35 (+39 with hive mind)~Sense Motive +12~Spellcraft +28\" lang=\"Common, Dwarven, Terran, Undercommon; %%umr/telepathy%% 200 ft.\" sq=\"formian traits, hive frenzy\"}",
+			"::mstats{str=6 dex=5 con=20 int=19 wis=18 cha=25 bab=+24 cmb=+35 cmd=\"42 (50 vs. trip)\" feats=\"Alertness~Blind-Fight~Combat Casting~Craft Wondrous Item~Empower Spell-Like Ability=cone of cold~Great Fortitude~Improved Initiative~Iron Will~Lightning Reflexes~Quicken Spell-Like Ability=magic missile~Spell Penetration~Toughness\" skills=\"Diplomacy +31~Intimidate +34~Knowledge (arcana, nature) +28~Knowledge (dungeoneering, engineering, geography, local, planes) +12~Perception +35 (+39 with hive mind)~Sense Motive +12~Spellcraft +28\" lang=\"Common, Dwarven, Terran, Undercommon; ‹umr/telepathy› 200 ft.\" sq=\"formian traits, hive frenzy\"}",
 			"",
-			"::meco{env=\"warm or temperate land or underground\" org=\"hive (1 plus 300-5,000 %%family/formian/s%%)\" treasure=triple}",
+			"::meco{env=\"warm or temperate land or underground\" org=\"hive (1 plus 300-5,000 ‹family/formian«s›)\" treasure=triple}",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -1948,7 +1948,7 @@
 			"",
 			"A formian queen is the embodiment of the hive and the key to its success, as a hive's fate is tied to her ability to both populate it and successfully guide it. The formian queen does this while her massive body is bound to a central chamber dedicated to her nearly constant egg laying. The queen's enormous abdomen squeezes out egg after egg as she meets with her myrmarchs to plan defense, strategy, and trade negotiations. While the queen may be sheltered, she is not blind. When necessary, she possesses the minds of her children to see for herself what occurs beyond her central chamber, and more active queens use this ability to confront intruders directly.",
 			"",
-			"**Family:** {family/Formian}"
+			"**Family:** ‹family/Formian›"
 		]
 	},
 	"formian_queen": { "redirect": "formian_formian_queen" },
@@ -1970,13 +1970,13 @@
 			"",
 			"::mspell{know=Bard cl=7 con=+11 l3=\"2/day~confusion|DC 18~good hope\" l2=\"4/day~heroism~invisibility~sound burst|DC 16~suggestion|DC 17\" l1=\"5/day~charm person|DC 16~comprehend languages~cure light wounds~hideous laughter|DC 16~silent image|DC 15\" l0=\"at will~dancing lights~daze|DC 15~detect magic~mending~message~prestidigitation\"}",
 			"",
-			"::mstats{str=17 dex=14 con=16 int=13 wis=16 cha=19 bab=+10 cmb=+13 cmd=\"26 (30 vs. trip)\" feats=\"Combat Casting~Point-Blank Shot~Quick Draw~Rapid Shot~Spell Focus=enchantment\" skills=\"Appraise +6~Bluff +9~Climb +11~Craft (armor) +9~Diplomacy +14~Perception +16 (+20 with hive mind)~Sense Motive +8~Spellcraft +6\" lang=\"Common; %%umr/telepathy%% 120 ft.\" sq=\"formian traits, mental motivator (20 rounds/day)\"}",
+			"::mstats{str=17 dex=14 con=16 int=13 wis=16 cha=19 bab=+10 cmb=+13 cmd=\"26 (30 vs. trip)\" feats=\"Combat Casting~Point-Blank Shot~Quick Draw~Rapid Shot~Spell Focus=enchantment\" skills=\"Appraise +6~Bluff +9~Climb +11~Craft (armor) +9~Diplomacy +14~Perception +16 (+20 with hive mind)~Sense Motive +8~Spellcraft +6\" lang=\"Common; ‹umr/telepathy› 120 ft.\" sq=\"formian traits, mental motivator (20 rounds/day)\"}",
 			"",
-			"::meco{env=\"warm or temperate land or underground\" org=\"solitary, work crew (1 plus 6-12 %%monster/formian_<worker/s%%), band (1 plus 3-15 workers and 5-8 %%monster/formian_<warrior/s%%), embassy (2-6)\" treasure=\"standard=10 %%eq-weapon/dart/s%%, other treasure\"}",
+			"::meco{env=\"warm or temperate land or underground\" org=\"solitary, work crew (1 plus 6-12 ‹monster/formian_>worker«s›), band (1 plus 3-15 workers and 5-8 ‹monster/formian_>warrior«s›), embassy (2-6)\" treasure=\"standard=10 ‹eq-weapon/dart«s›, other treasure\"}",
 			"",
 			"::sh[Special Abilities]",
 			"",
-			"**Mental Motivator (Su)** A formian taskmaster can {performance/inspire competence} or {performance/inspire courage} as a 7th-level bard (typically 20 rounds/day). The taskmaster's performance is purely mental and only affects formians from its own hive within telepathic range.",
+			"**Mental Motivator (Su)** A formian taskmaster can ‹performance/inspire competence› or ‹performance/inspire courage› as a 7th-level bard (typically 20 rounds/day). The taskmaster's performance is purely mental and only affects formians from its own hive within telepathic range.",
 			"",
 			"**Poison (Ex)**",
 			"",
@@ -1994,7 +1994,7 @@
 			"",
 			"Two taskmasters might have a duel over promotions, a trade route, or an insult. These duels are rarely lethal for fear of weakening the hive, and taskmasters who are too aggressive attract the wrong kind of attention from the myrmarchs. Dueling victories are often recorded on taskmasters' carapaces alongside their other major accomplishments.",
 			"",
-			"**Family:** {family/Formian}"
+			"**Family:** ‹family/Formian›"
 		]
 	},
 	"formian_taskmaster": { "redirect": "formian_formian_taskmaster" },
@@ -2010,11 +2010,11 @@
 			"",
 			"::mdefense{ac=\"17/13/14\" mod=\"+3 Dex, +4 natural\" hp=\"30~4d10+8\" fort=+3 ref=+7 will=+4 resist=\"sonic 10\"}",
 			"",
-			"::moffense{sp=40 melee=\"sting +6 (1d4+2 plus poison), 2 claws +6 (1d4+2 plus %%umr/grab%%)\" ranged=\"javelin +7 (1d6+2 plus poison)\" specAtt=\"deadly grasp~poison\"}",
+			"::moffense{sp=40 melee=\"sting +6 (1d4+2 plus poison), 2 claws +6 (1d4+2 plus ‹umr/grab›)\" ranged=\"javelin +7 (1d6+2 plus poison)\" specAtt=\"deadly grasp~poison\"}",
 			"",
-			"::mstats{str=14 dex=17 con=15 int=11 wis=10 cha=12 bab=+4 cmb=\"+6 (+10 grapple)\" cmd=\"19 (23 vs. trip)\" feats=\"Skill Focus=Acrobatics~Step Up\" skills=\"Acrobatics +10 (+14 when jumping)~Climb +8~Intimidate +8~Perception +7 (+11 with hive mind)~Stealth +7\" lang=\"Common; %%umr/telepathy%% 60 ft.\" sq=\"coordinate, formian traits\"}",
+			"::mstats{str=14 dex=17 con=15 int=11 wis=10 cha=12 bab=+4 cmb=\"+6 (+10 grapple)\" cmd=\"19 (23 vs. trip)\" feats=\"Skill Focus=Acrobatics~Step Up\" skills=\"Acrobatics +10 (+14 when jumping)~Climb +8~Intimidate +8~Perception +7 (+11 with hive mind)~Stealth +7\" lang=\"Common; ‹umr/telepathy› 60 ft.\" sq=\"coordinate, formian traits\"}",
 			"",
-			"::meco{env=\"warm or temperate land or underground\" org=\"solitary, pair, band (5-8 plus 3-15 %%monster/formian_<worker/s%% and 1 %%monster/formian_<taskmaster%%), or patrol (3-12)\" treasure=\"standard=6 %%eq-weapon/javelin/s%%, other treasure\"}",
+			"::meco{env=\"warm or temperate land or underground\" org=\"solitary, pair, band (5-8 plus 3-15 ‹monster/formian_>worker«s› and 1 ‹monster/formian_>taskmaster›), or patrol (3-12)\" treasure=\"standard=6 ‹eq-weapon/javelin«s›, other treasure\"}",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -2038,7 +2038,7 @@
 			"",
 			"Warriors mature quickly and have short life spans, becoming too infirm to fight around 15 years of age. Old warriors are expected to end their lives for the good of the hive, either by taking on a fatal mission or through voluntary starvation. A few of the most exceptional warriors receive permission to live out their remaining years as teachers and drill instructors, passing their skills on to new generations of formian warriors.",
 			"",
-			"**Family:** {family/Formian}"
+			"**Family:** ‹family/Formian›"
 		]
 	},
 	"formian_warrior": { "redirect": "formian_formian_warrior" },
@@ -2056,9 +2056,9 @@
 			"",
 			"::moffense{sp=40 br=10 melee=\"bite +3 (1d6+1)\"}",
 			"",
-			"::mstats{str=13 dex=10 con=13 int=10 wis=10 cha=9 bab=+1 cmb=+1 cmd=\"11 (15 vs. trip)\" feats=\"Skill Focus=Profession &#91&miner&#93&\" skills=\"Climb +5~Knowledge (engineering) +4~Perception +4 (+8 with hive mind)~Profession (miner) +7\" lang=\"Common, %%umr/telepathy%% 60 ft.\" sq=\"able assistant, formian traits, peerless bearer\"}",
+			"::mstats{str=13 dex=10 con=13 int=10 wis=10 cha=9 bab=+1 cmb=+1 cmd=\"11 (15 vs. trip)\" feats=\"Skill Focus=Profession &#91&miner&#93&\" skills=\"Climb +5~Knowledge (engineering) +4~Perception +4 (+8 with hive mind)~Profession (miner) +7\" lang=\"Common, ‹umr/telepathy› 60 ft.\" sq=\"able assistant, formian traits, peerless bearer\"}",
 			"",
-			"::meco{env=\"warm or temperate land or underground\" org=\"solitary, work crew (6-12 plus 1 %%monster/formian_<taskmaster%%), band (3-15 plus 5-8 %%monster/formian_<warrior/s%% and 1 taskmaster)\" treasure=\"incidental=occasionally a 10-50 gp gem embedded into a worker's carapace\"}",
+			"::meco{env=\"warm or temperate land or underground\" org=\"solitary, work crew (6-12 plus 1 ‹monster/formian_>taskmaster›), band (3-15 plus 5-8 ‹monster/formian_>warrior«s› and 1 taskmaster)\" treasure=\"incidental=occasionally a 10-50 gp gem embedded into a worker's carapace\"}",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -2076,7 +2076,7 @@
 			"",
 			"Workers flee from combat unless they are ordered by a taskmaster or myrmarch to attack intruders. If a hive is invaded, formian workers might be used as diversions or to undermine or collapse tunnels on invading enemies. If forced into a direct fight, they usually spend most of their efforts assisting a warrior or myrmarch, though they make good use of mining picks or alchemist's fire if they are cornered.",
 			"",
-			"**Family:** {family/Formian}"
+			"**Family:** ‹family/Formian›"
 		]
 	},
 	"formian_worker": { "redirect": "formian_formian_worker" },
@@ -2090,11 +2090,11 @@
 			"",
 			"::minfo{source=\"Pathfinder #111: Dreams of the Yellow King/82\" xp=\"9,600\" ce huge ooze init=+9 aav tremorsense=240 blindsight=120 pcp=+13 aura=\"tendrils (20 ft.)\"}",
 			"",
-			"::mdefense{ac=\"22/22/13\" mod=\"+5 deflection, +9 Dex, -2 size\" hp=\"126~12d8+72\" fh=10 fort=+10 ref=+13 will=+5 dr=\"10/-\" immune=\"acid, aging effects, %%umr/ooze traits%%, piercing damage\" resist=\"electricity 10\" sr=21}",
+			"::mdefense{ac=\"22/22/13\" mod=\"+5 deflection, +9 Dex, -2 size\" hp=\"126~12d8+72\" fh=10 fort=+10 ref=+13 will=+5 dr=\"10/-\" immune=\"acid, aging effects, ‹umr/ooze traits›, piercing damage\" resist=\"electricity 10\" sr=21}",
 			"",
-			"::moffense{sp=40 cl=20 sw=40 melee=\"bite +17 (2d6+6 plus %%umr/grab%%), 4 tentacles +17 (1d6+6)\" space=15 reach=15 reachP=\"20 ft. with tentacle\" swallow=\"2d6+6 damage, AC 12, 12 hp\" fSwallow}",
+			"::moffense{sp=40 cl=20 sw=40 melee=\"bite +17 (2d6+6 plus ‹umr/grab›), 4 tentacles +17 (1d6+6)\" space=15 reach=15 reachP=\"20 ft. with tentacle\" swallow=\"2d6+6 damage, AC 12, 12 hp\" fSwallow}",
 			"",
-			"::mstats{str=23 dex=29 con=22 int=15 wis=12 cha=15 bab=+9 cmb=+17 cmd=36 feats=\"Combat Expertise~Combat Reflexes~Power Attack~Weapon Finesse~Weapon Focus=bite~!Weapon Focus (tentacle)\" skills=\"Climb +20~Knowledge (religion) +14~Perception +13~Stealth +13~Swim +20\" lang=Aklo sq=\"%%umr/compression%%, %%umr/freeze%%, improved swallow whole, tentacles\"}",
+			"::mstats{str=23 dex=29 con=22 int=15 wis=12 cha=15 bab=+9 cmb=+17 cmd=36 feats=\"Combat Expertise~Combat Reflexes~Power Attack~Weapon Finesse~Weapon Focus=bite~!Weapon Focus (tentacle)\" skills=\"Climb +20~Knowledge (religion) +14~Perception +13~Stealth +13~Swim +20\" lang=Aklo sq=\"‹umr/compression›, ‹umr/freeze›, improved swallow whole, tentacles\"}",
 			"",
 			"::meco{env=\"temperate ruins\" org=\"solitary or flood (2-6)\" treasure=standard}",
 			"",
@@ -2141,13 +2141,13 @@
 			"",
 			"::minfo{source=\"Pathfinder #102: Breaking the Bones of Hell/86\" xp=800 le medium undead init=+5 dv=60 pcp=+7}",
 			"",
-			"::mdefense{ac=\"16/11/15\" mod=\"+5 armor, +1 Dex\" hp=\"27~6d8\" fort=+2 ref=+3 will=+6 dr=\"5/bludgeoning or slashing\" immune=\"%%umr/undead traits%%\"}",
+			"::mdefense{ac=\"16/11/15\" mod=\"+5 armor, +1 Dex\" hp=\"27~6d8\" fort=+2 ref=+3 will=+6 dr=\"5/bludgeoning or slashing\" immune=\"‹umr/undead traits›\"}",
 			"",
 			"::moffense{sp=20 melee=\"short sword +4 (1d6/19-20)\" ranged=\"mwk repeating heavy crossbow +6 (1d10/19-20)\" specAtt=\"rapid fire\"}",
 			"",
 			"::mstats{str=10 dex=13 con=\"-\" int=11 wis=12 cha=13 bab=+4 cmb=+4 cmd=15 feats=\"Improved Initiative~Point-Blank Shot~Precise Shot\" skills=\"Knowledge (engineering) +3~Perception +7~Profession (soldier) +7\" lang=\"Common, Jistka\"}",
 			"",
-			"::meco{env=\"any ruins (Cheliax or Rahadoum)\" org=\"solitary, squad (2-10), or company (12-24 forsaken arbalesters, %%monster/forsaken_<defender/s%%, and %%monster/forsaken_<foot soldier/s%%)\" treasure=\"standard=%%eq-armor/scale mail%%, %%eq-weapon/short sword%%, mwk repeating %%eq-weapon/heavy crossbow%% with 20 bolts\"}",
+			"::meco{env=\"any ruins (Cheliax or Rahadoum)\" org=\"solitary, squad (2-10), or company (12-24 forsaken arbalesters, ‹monster/forsaken_>defender«s›, and ‹monster/forsaken_>foot soldier«s›)\" treasure=\"standard=‹eq-armor/scale mail›, ‹eq-weapon/short sword›, mwk repeating ‹eq-weapon/heavy crossbow› with 20 bolts\"}",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -2169,13 +2169,13 @@
 			"",
 			"::minfo{source=\"Pathfinder #102: Breaking the Bones of Hell/87\" xp=\"1,200\" le medium undead init=+2 dv=60 pcp=+10}",
 			"",
-			"::mdefense{ac=\"16/12/14\" mod=\"+4 armor, +2 Dex\" hp=\"31~7d8\" fort=+2 ref=+6 will=+7 dr=\"5/slashing\" immune=\"%%umr/undead traits%%\"}",
+			"::mdefense{ac=\"16/12/14\" mod=\"+4 armor, +2 Dex\" hp=\"31~7d8\" fort=+2 ref=+6 will=+7 dr=\"5/slashing\" immune=\"‹umr/undead traits›\"}",
 			"",
 			"::moffense{sp=20 melee=\"heavy pick +9 (1d6+4/&times&4), short sword +9 (1d6+6/19-20)\" specAtt=\"phantom trench~phantom wall\"}",
 			"",
 			"::mstats{str=18 dex=15 con=\"-\" int=13 wis=10 cha=11 bab=+5 cmb=+9 cmd=21 feats=\"Combat Expertise~Iron Will~Lightning Reflexes~Two-Weapon Fighting\" skills=\"Climb +11~Disable Device +6~Knowledge (engineering) +8~Perception +10~Stealth +9\" lang=\"Common, Jistka\"}",
 			"",
-			"::meco{env=\"any ruins (Cheliax or Rahadoum)\" org=\"solitary, squad (2-10), or company (12-24 %%monster/forsaken arbalester/s%%, defenders, and %%monster/forsaken_<foot soldier/s%%)\" treasure=\"standard=%%eq-armor/hide armor%%, %%eq-weapon/heavy pick%%, %%eq-weapon/short sword%%\"}",
+			"::meco{env=\"any ruins (Cheliax or Rahadoum)\" org=\"solitary, squad (2-10), or company (12-24 ‹monster/forsaken arbalester«s›, defenders, and ‹monster/forsaken_>foot soldier«s›)\" treasure=\"standard=‹eq-armor/hide armor›, ‹eq-weapon/heavy pick›, ‹eq-weapon/short sword›\"}",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -2199,13 +2199,13 @@
 			"",
 			"::minfo{source=\"Pathfinder #102: Breaking the Bones of Hell/87\" xp=600 le medium undead init=+0 dv=60 pcp=+8}",
 			"",
-			"::mdefense{ac=\"16/10/16\" mod=\"+5 armor, +1 shield\" hp=\"18~4d8\" fort=+1 ref=+1 will=+5 dr=\"5/bludgeoning and slashing\" immune=\"%%umr/undead traits%%\"}",
+			"::mdefense{ac=\"16/10/16\" mod=\"+5 armor, +1 shield\" hp=\"18~4d8\" fort=+1 ref=+1 will=+5 dr=\"5/bludgeoning and slashing\" immune=\"‹umr/undead traits›\"}",
 			"",
 			"::moffense{sp=20 melee=\"spear +5 (1d8+3/&times&3)\" ranged=\"javelin +3 (1d6+2)\"}",
 			"",
 			"::mstats{str=14 dex=11 con=\"-\" int=11 wis=12 cha=11 bab=+3 cmb=+5 cmd=15 feats=\"Precise Strike~Shield Wall\" skills=\"Diplomacy +4~Intimidate +7~Perception +8~Profession (soldier) +5\" lang=\"Common, Jistka\" sq=\"undying loyalty\"}",
 			"",
-			"::meco{env=\"any ruins (Cheliax or Rahadoum)\" org=\"solitary, squad (2-10), or company (12-24 %%monster/forsaken arbalester/s%%, %%monster/forsaken_<defender/s%%, and foot soldiers)\" treasure=\"standard=%%eq-armor/buckler%%, %%eq-armor/scale mail%%, %%eq-weapon/javelin%%, %%eq-weapon/spear%%\"}",
+			"::meco{env=\"any ruins (Cheliax or Rahadoum)\" org=\"solitary, squad (2-10), or company (12-24 ‹monster/forsaken arbalester«s›, ‹monster/forsaken_>defender«s›, and foot soldiers)\" treasure=\"standard=‹eq-armor/buckler›, ‹eq-armor/scale mail›, ‹eq-weapon/javelin›, ‹eq-weapon/spear›\"}",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -2233,9 +2233,9 @@
 			"",
 			"::mspell{sla cl=9 con=+14 constant=\"water walk\" day=\"3~hydraulic torrent\"}",
 			"",
-			"::mstats{str=10 dex=17 con=15 int=12 wis=14 cha=21 bab=+4 cmb=+4 cmd=17 feats=\"Alertness~Dodge~Improved Initiative~Weapon Finesse~Weapon Focus=slam\" skills=\"Bluff +17~Diplomacy +9~Knowledge (geography) +6~Knowledge (nature) +10~Perception +16~Perform (sing) +10~Perform (string) +21~Sense Motive +16~Sleight of Hand +10~Stealth +15~Swim +18\" racial=\"+4 Perform (string), +4 Swim\" lang=\"Common, Sylvan\" sq=\"%%umr/amphibious%%, transparency, treasure form\"}",
+			"::mstats{str=10 dex=17 con=15 int=12 wis=14 cha=21 bab=+4 cmb=+4 cmd=17 feats=\"Alertness~Dodge~Improved Initiative~Weapon Finesse~Weapon Focus=slam\" skills=\"Bluff +17~Diplomacy +9~Knowledge (geography) +6~Knowledge (nature) +10~Perception +16~Perform (sing) +10~Perform (string) +21~Sense Motive +16~Sleight of Hand +10~Stealth +15~Swim +18\" racial=\"+4 Perform (string), +4 Swim\" lang=\"Common, Sylvan\" sq=\"‹umr/amphibious›, transparency, treasure form\"}",
 			"",
-			"::meco{env=\"cold or temperate water (waterfalls)\" org=solitary treasure=\"standard=%%eq-misc/masterwork harp/ or violin%%, other treasure\"}",
+			"::meco{env=\"cold or temperate water (waterfalls)\" org=solitary treasure=\"standard=‹eq-misc/masterwork harp« or violin›, other treasure\"}",
 			"",
 			"::sh[Special Abilities]",
 			"",
@@ -2262,9 +2262,9 @@
 			"",
 			"::minfo{source=\"Bestiary 4/115\" xp=\"1,200\" n large ooze subs=\"cold,water\" init=-5 blindsense=60 pcp=-5}",
 			"",
-			"::mdefense{ac=\"16/12/13\" mod=\"+3 Dex, +4 natural, -1 size\" hp=\"47~5d8+25\" fort=+6 ref=+3 will=-4 immune=\"cold, %%umr/ooze traits%%\" vulner=fire}",
+			"::mdefense{ac=\"16/12/13\" mod=\"+3 Dex, +4 natural, -1 size\" hp=\"47~5d8+25\" fort=+6 ref=+3 will=-4 immune=\"cold, ‹umr/ooze traits›\" vulner=fire}",
 			"",
-			"::moffense{sp=20 sw=20 melee=\"slam +6 (2d4+6/19-20 plus 1d6 cold and %%umr/grab%%)\" space=10 reach=5 constrict=\"2d4+6 plus 1d6 cold\" specAtt=\"jagged slam~numbing touch\"}",
+			"::moffense{sp=20 sw=20 melee=\"slam +6 (2d4+6/19-20 plus 1d6 cold and ‹umr/grab›)\" space=10 reach=5 constrict=\"2d4+6 plus 1d6 cold\" specAtt=\"jagged slam~numbing touch\"}",
 			"",
 			"::mstats{str=18 dex=16 con=20 int=\"-\" wis=1 cha=1 bab=+3 cmb=+8 cmd=13 skills=\"Swim +12\" sq=crystalline}",
 			"",
@@ -2338,7 +2338,7 @@
 			"",
 			"::mdefense{ac=\"18/9/17\" mod=\"+1 Dex, +9 natural, -2 size\" hp=\"57~6d8+30\" fort=+10 ref=+8 will=+4}",
 			"",
-			"::moffense{sp=30 sw=30 melee=\"bite +8 (3d6+9 plus %%umr/grab%%), tongue +8 (grab)\" space=15 reach=10 reachP=\"30 ft. with tongue\" swallow=\"2d6 bludgeoning damage, AC 14, 5 hp\" pull=\"tongue, 10 ft.\" fSwallow specAtt=tongue}",
+			"::moffense{sp=30 sw=30 melee=\"bite +8 (3d6+9 plus ‹umr/grab›), tongue +8 (grab)\" space=15 reach=10 reachP=\"30 ft. with tongue\" swallow=\"2d6 bludgeoning damage, AC 14, 5 hp\" pull=\"tongue, 10 ft.\" fSwallow specAtt=tongue}",
 			"",
 			"::mstats{str=23 dex=13 con=20 int=1 wis=10 cha=6 bab=+4 cmb=+12 cmd=\"23 (27 vs. trip)\" feats=\"Iron Will~Lightning Reflexes~Skill Focus=Acrobatics\" skills=\"Acrobatics +12 (+20 jumping)~Perception +10~Stealth +2~Swim +14\" racial=\"+4 Acrobatics (+12 jumping), +4 Perception, +4 Stealth\"}",
 			"",
@@ -2366,7 +2366,7 @@
 			"",
 			"::mdefense{ac=\"12/11/11\" mod=\"+1 Dex, +1 natural\" hp=\"15~2d8+6\" fort=+6 ref=+6 will=-1}",
 			"",
-			"::moffense{sp=30 sw=30 melee=\"bite +3 (1d6+2 plus %%umr/grab%%) or tongue +3 touch (grab)\" space=5 reach=5 reachP=\"15 ft. with tongue\" swallow=\"1d4 bludgeoning damage, AC 10, 1 hp\" pull=\"tongue, 5 feet\" specAtt=tongue}",
+			"::moffense{sp=30 sw=30 melee=\"bite +3 (1d6+2 plus ‹umr/grab›) or tongue +3 touch (grab)\" space=5 reach=5 reachP=\"15 ft. with tongue\" swallow=\"1d4 bludgeoning damage, AC 10, 1 hp\" pull=\"tongue, 5 feet\" specAtt=tongue}",
 			"",
 			"::mstats{str=15 dex=13 con=16 int=1 wis=8 cha=6 bab=+1 cmb=\"+3 (+7 grapple)\" cmd=\"14 (18 vs. trip)\" feats=\"Lightning Reflexes\" skills=\"Acrobatics +9 (+13 jumping)~Perception +3~Stealth +5~Swim +10\" racial=\"+4 Acrobatics (+8 jumping), +4 Stealth\"}",
 			"",
@@ -2395,7 +2395,7 @@
 			"",
 			"::mdefense{ac=\"15/10/14\" mod=\"+1 Dex, +5 natural, -1 size\" hp=\"34~4d8+16\" fort=+8 ref=+7 will=+1}",
 			"",
-			"::moffense{sp=30 cl=20 sw=30 melee=\"bite +6 (2d6+6 plus %%umr/grab%%) or tongue +6 (grab)\" space=10 reach=5 reachP=\"15 ft. with tongue\" swallow=\"1d6 bludgeoning damage, AC 12, 3 hp\" pull=\"tongue, 5 ft.\" fSwallow specAtt=tongue}",
+			"::moffense{sp=30 cl=20 sw=30 melee=\"bite +6 (2d6+6 plus ‹umr/grab›) or tongue +6 (grab)\" space=10 reach=5 reachP=\"15 ft. with tongue\" swallow=\"1d6 bludgeoning damage, AC 12, 3 hp\" pull=\"tongue, 5 ft.\" fSwallow specAtt=tongue}",
 			"",
 			"::mstats{str=19 dex=13 con=18 int=1 wis=10 cha=6 bab=+3 cmb=\"+8 (+12 grapple)\" cmd=\"19 (23 vs. trip)\" feats=\"Lightning Reflexes~Skill Focus=Acrobatics\" skills=\"Acrobatics +12 (+20 when jumping)~Climb +16~Perception +8~Stealth +5~Swim +12\" racial=\"+4 Acrobatics (+12 when jumping), +4 Perception, +4 Stealth\"}",
 			"",
@@ -2458,7 +2458,7 @@
 			"",
 			"::mdefense{ac=\"28/9/27\" mod=\"+1 Dex, +19 natural, -2 size\" hp=\"184~16d8+112\" fort=+12 ref=+8 will=+11 immune=\"electricity (partial)\" resist=\"fire 10\" weak=\"slowed by electricity\"}",
 			"",
-			"::moffense{sp=20 sw=30 melee=\"bite +20 (2d6+10/19-20 plus %%umr/grab%%), 4 tentacles +18 (1d8+5 plus grab), tongue +18 (1d4+5 plus grab)\" space=15 reach=15 reachP=\"30 ft. with tongue\" constrict=\"tentacle, 1d6+10\" swallow=\"3d6+10 damage, AC 19, hp 18\"}",
+			"::moffense{sp=20 sw=30 melee=\"bite +20 (2d6+10/19-20 plus ‹umr/grab›), 4 tentacles +18 (1d8+5 plus grab), tongue +18 (1d4+5 plus grab)\" space=15 reach=15 reachP=\"30 ft. with tongue\" constrict=\"tentacle, 1d6+10\" swallow=\"3d6+10 damage, AC 19, hp 18\"}",
 			"",
 			"::mstats{str=30 dex=13 con=24 int=2 wis=13 cha=11 bab=+12 cmb=\"+24 (+28 grapple)\" cmd=35 feats=\"Cleave~Improved Critical=bite~Improved Initiative~Lightning Reflexes~Lunge~Multiattack~Power Attack~Skill Focus=Stealth\" skills=\"Perception +16~Stealth +14 (+22 in marshes)~Swim +18\" racial=\"+8 Perception, +8 Stealth in marshes\"}",
 			"",

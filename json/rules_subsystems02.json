@@ -3,15 +3,15 @@
 		"name": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/76}",
+			"‹SOURCE Ultimate Campaign/76›",
 			"",
 			"In many campaigns, returning to town after an adventure is a lull in your character's activity. You sell loot, stock up on potions, and perhaps wait around for the wizard to scribe some scrolls. However, there is much more you can do in town in between adventures - your character might want to practice with a military school, start a guild, build a temple, train a new pet, and so on. Normally you and the other PCs would have to compete for the GM's attention so you can explain what your characters want to do and haggle over how much time that should take. With the rules presented here, what you can do with a day of downtime is clearly spelled out, allowing you to get on with your plans.",
 			"",
-			"Even if you don't want to use the rules to earn extra gold or throw your weight around in town as a business owner, there are campaign and roleplaying benefits for using the downtime system. For example, if you build or buy a house, you have a comfortable, private place to rest between adventures. By adding a few more rooms, you can easily convert a house into a base of operations for your adventuring party; it would count as \"very familiar\" for the purpose of your teleport spells, and if it includes an altar to your deity, you can use it as the destination for a {spell/word of recall}.",
+			"Even if you don't want to use the rules to earn extra gold or throw your weight around in town as a business owner, there are campaign and roleplaying benefits for using the downtime system. For example, if you build or buy a house, you have a comfortable, private place to rest between adventures. By adding a few more rooms, you can easily convert a house into a base of operations for your adventuring party; it would count as \"very familiar\" for the purpose of your teleport spells, and if it includes an altar to your deity, you can use it as the destination for a ‹spell/word of recall›.",
 			"",
 			"Additionally, if you have a business, the GM can insert campaign events and story awards tied to it. You might earn XP as a story award when your business earns its first 1,000 gp or first 100 points of Goods. If you own a restaurant, the king might hear about your famous soup recipe and arrange a visit to sample it. If you have a tavern, it could become a hangout for young adventurers hoping your luck and success rub off on them. In either case, the GM may award you Influence instead of XP for these events.",
 			"",
-			"Of course, having a building or organization has its risks. Your enemies might try to burn down your tavern or attack you at your home. If you start a thieves' guild and are away for months at a time, a personable rogue might take over the guild and turn it against you. If a dragon attacks the town, it could destroy your house (and give you a perfect setup for you taking the {feat/Nemesis} story feat). Investing yourself in a community means you're part of it - for good or ill. The GM should remember to use that investment to enrich the campaign, not just exploit it as a way to attack your character or strong-arm you into adventures.",
+			"Of course, having a building or organization has its risks. Your enemies might try to burn down your tavern or attack you at your home. If you start a thieves' guild and are away for months at a time, a personable rogue might take over the guild and turn it against you. If a dragon attacks the town, it could destroy your house (and give you a perfect setup for you taking the ‹feat/Nemesis› story feat). Investing yourself in a community means you're part of it - for good or ill. The GM should remember to use that investment to enrich the campaign, not just exploit it as a way to attack your character or strong-arm you into adventures.",
 			"",
 			"The downtime system is designed to put much of the power and decision making for non-adventuring tasks in the hands of the players. These rules assume the reader is a player making decisions about what his character does during downtime. However, the GM is still in charge of the campaign and the final judge of what is possible using this system; these rules simply take much of the burden away from busy GMs, allowing them more time to work on creating adventures and other campaign issues."
 		],
@@ -48,17 +48,17 @@
 		"name": "Downtime Overview",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/76}",
+			"‹SOURCE Ultimate Campaign/76›",
 			"",
 			"The key parts of the downtime rules that you'll be referencing often are the following:",
 			"",
-			"- Explanation of the {rule/downtime terminology} used throughout this section.",
-			"- {rule/gaining<Earning downtime| capital} such as Goods, Influence, and Labor.",
-			"- The {rule/downtime_<phase/ sequence>s} for using downtime.",
-			"- The kinds of {rule/downtime_<activities} you can do with this system.",
-			"- Constructing {rule/rooms>_and_teams}, the building blocks of buildings such as guildhalls or temples, and recruiting teams such as apprentices and guards.",
+			"- Explanation of the ‹rule/downtime terminology› used throughout this section.",
+			"- ‹rule/gaining>Earning downtime» capital› such as Goods, Influence, and Labor.",
+			"- The ‹rule/downtime_>phase« sequence<s› for using downtime.",
+			"- The kinds of ‹rule/downtime_>activities› you can do with this system.",
+			"- Constructing ‹rule/rooms<_and_teams›, the building blocks of buildings such as guildhalls or temples, and recruiting teams such as apprentices and guards.",
 			"- [Example](rule/buildings_and_organizations) buildings constructed out of rooms, and example organizations built out of teams.",
-			"- Positive and negative {rule/downtime_<events} that can occur during downtime.",
+			"- Positive and negative ‹rule/downtime_>events› that can occur during downtime.",
 			"- Downtime tracking sheet (included in physical book only)."
 		],
 		"parent_topics": [
@@ -85,13 +85,13 @@
 		"name": "Downtime Terminology",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/76}",
+			"‹SOURCE Ultimate Campaign/76›",
 			"",
 			"This section explains the basic game terms for the downtime system. It uses existing character abilities (such as skill checks and saving throws), familiar resources (such as gold pieces), and new resources specific to the downtime system. Together, these allow you to accomplish tasks.",
 			"",
-			"@HL[Building:] A building is a physical structure you construct or purchase, such as a house, inn, or temple. The downtime system allows you to construct buildings out of specialized rooms - see {rule/Rooms and Teams}.",
+			"@HL[Building:] A building is a physical structure you construct or purchase, such as a house, inn, or temple. The downtime system allows you to construct buildings out of specialized rooms - see ‹rule/Rooms and Teams›.",
 			"",
-			"@HL[Build Points:] A build point (BP) is a unit of wealth and productivity used in the {rule/kingdom-building/ rules}. The downtime system doesn't normally use BP, but if you are using the kingdom-building rules, you may have ways to spend BP as part of your downtime. BP are a larger-scale combination of Goods, Influence, Labor, and Prestige.",
+			"@HL[Build Points:] A build point (BP) is a unit of wealth and productivity used in the ‹rule/kingdom-building« rules›. The downtime system doesn't normally use BP, but if you are using the kingdom-building rules, you may have ways to spend BP as part of your downtime. BP are a larger-scale combination of Goods, Influence, Labor, and Prestige.",
 			"",
 			"@HL[Business:] A business is a building or organization that earns you one or more kinds of capital, such as a blacksmith's shop or thieves' guild.",
 			"",
@@ -99,7 +99,7 @@
 			"",
 			"@HL[Day:] The downtime system measures time in days rather than hours, minutes, or rounds. Most downtime activities require you to spend at least 1 day on the activity.",
 			"",
-			"@HL[Followers:] Followers are a type of Labor gained from the {feat/Leadership} feat or other methods. Followers can be used like Labor, but aren't expended like capital because they are loyal to you and don't leave as soon as an activity is completed. For more information, see {rule/Using Followers}.",
+			"@HL[Followers:] Followers are a type of Labor gained from the ‹feat/Leadership› feat or other methods. Followers can be used like Labor, but aren't expended like capital because they are loyal to you and don't leave as soon as an activity is completed. For more information, see ‹rule/Using Followers›.",
 			"",
 			"@HL[Goods:] Goods represent physical items necessary for an activity, which can be permanent fixtures or consumable items. For building an inn, Goods are the materials used to build the structure, the tables and chairs, and the food and beverages you plan to sell. Goods as capital are an abstraction so that you don't need to keep track of gathering things like stones for a building's foundation, timber for the walls, ingredients for the menu, and so on. Goods might also represent natural resources (such as fertile soil or a spring), in which case you're not literally moving these items to a specific location - instead, you're spending capital to acquire a location with those resources.",
 			"",
@@ -111,7 +111,7 @@
 			"",
 			"@HL[Magic:] Magic represents magical power at your disposal. Some activities, such as healing sick peasants in the slums or constructing a magical library, specifically require you to spend Magic.",
 			"",
-			"@HL[Organization:] This is a group of people who do what you say (such as a cult, thieves' guild, or mercenary company). An organization may or may not have a base of operations. The downtime system allows you to recruit organizations made up of specialized teams (see {rule/Rooms and Teams})."
+			"@HL[Organization:] This is a group of people who do what you say (such as a cult, thieves' guild, or mercenary company). An organization may or may not have a base of operations. The downtime system allows you to recruit organizations made up of specialized teams (see ‹rule/Rooms and Teams›)."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -130,7 +130,7 @@
 		"name": "Downtime and Kingdom Building",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/77}",
+			"‹SOURCE Ultimate Campaign/77›",
 			"",
 			"The downtime system is a middle ground between personal projects (like crafting a new set of armor) and large-scale tasks (like ruling a kingdom). These rules interface with both ends of that scale, and aren't intended to completely replace them. In many cases, they might slightly contradict what is presented in the [kingdom-building rules](rule/kingdoms_and_war). For example, the kingdom-building rules allow you to construct any type of building in 1 month, even a grand palace, which would take much longer using the downtime system. That is because the leader of a kingdom can spend build points to muster incredible amounts of resources and make things happen, far beyond what even a popular hero can do by spending gold and calling in favors. If your GM is using both the downtime system and the kingdom-building rules and there are conflicts over how to handle a situation, the GM decides which method is used, but should lean toward whichever rules seem most appropriate and efficient for the task."
 		],
@@ -152,13 +152,13 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/77}",
+			"‹SOURCE Ultimate Campaign/77›",
 			"",
 			"Goods, Influence, Labor, and Magic are the backbone of the downtime system. These types of capital are necessary for completing many downtime activities. You can gain such capital in one of two ways: by purchasing it or by earning it.",
 			"",
-			"@HL[Purchasing Capital:] The easiest way to gain capital is to purchase it by buying materials, bribing people, paying administrative fees, hiring workers, and so on. Goods, Influence, Labor, and Magic each have a specific gp value for this method, listed in the Purchased Cost column of Table 2-1: Capital Values. If you need one of these types of capital, you can spend gp to get it, just like buying a +1 sword or hiring a spellcaster to cast {spell/remove curse} costs you gp. For example, Goods have a Purchased Cost of 20 gp each; if you need to spend 5 points of Goods to repair your tavern, you can spend 100 gp (5 &times; 20 gp) to purchase the necessary Goods. Purchasing capital is fast, but expensive.",
+			"@HL[Purchasing Capital:] The easiest way to gain capital is to purchase it by buying materials, bribing people, paying administrative fees, hiring workers, and so on. Goods, Influence, Labor, and Magic each have a specific gp value for this method, listed in the Purchased Cost column of Table 2-1: Capital Values. If you need one of these types of capital, you can spend gp to get it, just like buying a +1 sword or hiring a spellcaster to cast ‹spell/remove curse› costs you gp. For example, Goods have a Purchased Cost of 20 gp each; if you need to spend 5 points of Goods to repair your tavern, you can spend 100 gp (5 &times; 20 gp) to purchase the necessary Goods. Purchasing capital is fast, but expensive.",
 			"",
-			"@HL[Earning Capital:] Many downtime activities, such as doing mundane work with a Craft or Profession skill or gaining the day-to-day profits for running an inn or tavern, allow you to earn capital (see the {rule/Earn Capital} activity). Earning capital is like using an item crafting feat to create a magic item: You have to put in some work to make the item, but you pay only half the normal price for it. If a downtime activity's description says it generates capital, you can earn that amount of capital by spending the required amount of downtime and gp on it; the gp cost for the capital is half the normal cost, as listed in the Earned Cost column of Table 2-1. For example, Influence has an Earned Cost of 15 gp per point, so if you want to socialize in town to generate 3 points of Influence, you must use a day of downtime and spend 45 gp (3 &times; 15 gp) to earn those 3 points of Influence. Earning capital takes longer, but is much cheaper than just buying it outright. It is easier to keep track of your earned capital if you pay for it as soon as you earn it; otherwise, you also need to track earned capital you don't yet have (because you haven't paid gp for it yet).",
+			"@HL[Earning Capital:] Many downtime activities, such as doing mundane work with a Craft or Profession skill or gaining the day-to-day profits for running an inn or tavern, allow you to earn capital (see the ‹rule/Earn Capital› activity). Earning capital is like using an item crafting feat to create a magic item: You have to put in some work to make the item, but you pay only half the normal price for it. If a downtime activity's description says it generates capital, you can earn that amount of capital by spending the required amount of downtime and gp on it; the gp cost for the capital is half the normal cost, as listed in the Earned Cost column of Table 2-1. For example, Influence has an Earned Cost of 15 gp per point, so if you want to socialize in town to generate 3 points of Influence, you must use a day of downtime and spend 45 gp (3 &times; 15 gp) to earn those 3 points of Influence. Earning capital takes longer, but is much cheaper than just buying it outright. It is easier to keep track of your earned capital if you pay for it as soon as you earn it; otherwise, you also need to track earned capital you don't yet have (because you haven't paid gp for it yet).",
 			"",
 			"### Table 2-1: Capital Values",
 			"",
@@ -214,7 +214,7 @@
 			"",
 			"@HL[Purchases:] If you would rather spend gold than attempt checks to earn other types of capital, use the values listed in the Purchased Cost column of Table 2-1: Capital Values. Although you can't sell capital, you can use it for its listed Purchased Cost as payment toward any applicable downtime activity that requires you to spend gp. For example, if you are brewing a potion, you can spend 1 point of Magic toward the cost of the materials needed to make the potion as if that point were equal to 100 gp.",
 			"",
-			"Although you may have a lot of gp or other capital to throw around in a settlement, the settlement's size limits how much you can accomplish per day (see {rule/Spending Limits}).",
+			"Although you may have a lot of gp or other capital to throw around in a settlement, the settlement's size limits how much you can accomplish per day (see ‹rule/Spending Limits›).",
 			"",
 			"@HL[Rewards:] A GM using the downtime system might award you various types of capital as monster loot, adventure rewards, inheritance, or natural resources. For example, if your party defeats a gang of smugglers, your treasure for the final encounter could include 5 points of Goods in addition to conventional treasure. After freeing a group of peasants from a hobgoblin tribe, the GM might decide that the freed prisoners have no money to give you as a reward but instead promise you 3 points of Labor as thanks for saving them. Your character could inherit a ramshackle house from an old relative, which you can use as a base of operations or sell for gold. After clearing out a kobold warren, you might discover a vein of iron ore that (after an investment of Goods, Labor, and perhaps Influence) can generate gp or Goods for you on a monthly basis. Depending on the nature of the reward, the GM might decide that you don't need to pay the Earned Cost to get capital acquired in this way.",
 			"",
@@ -245,7 +245,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/79}",
+			"‹SOURCE Ultimate Campaign/79›",
 			"",
 			"The Craft and Profession skills in the Pathfinder RPG Core Rulebook allow you to attempt a skill check once per week, earning an amount of gp equal to 1/2 your check result. If you were to divide that amount by 7, you'd get your earnings per day. However, that assumes you work 7 days per week, and most people take 2 days off per week for rest and worship, so that's only 5 days of actual work per week. Dividing your check result by 2 and then by 5 is the same as dividing by 10, which is why the downtime system has you divide your check result by 10 to determine gp earned per day. You can work 7 days per week (if you really need the 2 extra days for earning capital), but even mighty adventurers need a day off now and then!"
 		],
@@ -268,7 +268,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/80}",
+			"‹SOURCE Ultimate Campaign/80›",
 			"",
 			"You can trade 3 points of Goods, Labor, Influence, or Magic for 1 point of Goods, Labor, or Influence. Under certain circumstances, the GM may allow you to trade these resources at a 2-for-1 rate rather than the normal 3-for-1. You can trade 5 points of Goods, Labor, or Influence for 1 point of Magic."
 		],
@@ -291,7 +291,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/80}",
+			"‹SOURCE Ultimate Campaign/80›",
 			"",
 			"Some types of capital - in particular Influence - might be specific to a particular settlement or region. Other types may be used at any settlement, though the GM might rule that there is a delay in transporting Goods or Labor to a new location before you can spend it there."
 		],
@@ -314,7 +314,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/80}",
+			"‹SOURCE Ultimate Campaign/80›",
 			"",
 			"The population of a settlement limits how much help you can get on a given day. The following numbers represent the limit of how much Goods, Influence, and Labor you can utilize in settlement each day. Even if you have a lot of Goods and Labor at your disposal from favors and such, a tiny settlement might have only a few hands to spare to turn that capital into finished projects.",
 			"",
@@ -348,9 +348,9 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/80}",
+			"‹SOURCE Ultimate Campaign/80›",
 			"",
-			"The {feat/Leadership} feat can grant you followers - people loyal to you who assist you if they are able. In the downtime system, followers provide additional Influence or Labor to supplement your activities at no cost to you. This increases the effect of Influence or Labor you spend by 50%, to a maximum of 1 additional Influence or Labor for every 2 followers in the settlement where the downtime activity takes place.",
+			"The ‹feat/Leadership› feat can grant you followers - people loyal to you who assist you if they are able. In the downtime system, followers provide additional Influence or Labor to supplement your activities at no cost to you. This increases the effect of Influence or Labor you spend by 50%, to a maximum of 1 additional Influence or Labor for every 2 followers in the settlement where the downtime activity takes place.",
 			"",
 			"Example: Alice's character has a Leadership score of 10, and 4 of his 5 followers live in Sandpoint. Assistance from her followers can provide a maximum of 2 (1/2 of 4) points of Influence or Labor when she takes downtime actions in Sandpoint. If Alice spends 2 points of Influence or Labor, it counts as 2 &times; 50% = 3; if she spends 6 points of Influence or Labor, however, it counts as 8, because the maximum increase her 4 followers can provide is 2.",
 			"",
@@ -375,7 +375,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/81}",
+			"‹SOURCE Ultimate Campaign/81›",
 			"",
 			"At the GM's discretion, you may affect any activity you have in the settlement (downtime or otherwise) by spending Goods, Influence, Labor, or Magic. This gives you a lot of leeway in terms of what you can accomplish using downtime resources. In general, every 1 point of Goods, Influence, Labor, or Magic spent allows you to add a +1 bonus on one skill check (maximum +5).",
 			"",
@@ -402,7 +402,7 @@
 		"name": "Downtime Phases",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/81}",
+			"‹SOURCE Ultimate Campaign/81›",
 			"",
 			"The GM tells you when you have downtime available and how many days you can use for downtime. For example, after returning to town after a long adventure, if the GM says you have 10 days before you need to travel to the capital for the princess's coronation ceremony, you may use those 10 days for downtime activities.",
 			"",
@@ -446,11 +446,11 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/81}",
+			"‹SOURCE Ultimate Campaign/81›",
 			"",
 			"If you have never performed any downtime activities in the settlement where you currently are, skip this phase and proceed to the Activity phase.",
 			"",
-			"During the Upkeep phase, adjust your capital or other game statistics based on what's happened in previous days (whether those days were spent on downtime activities or were normal days). For example, if you have a manager running your tavern, you must pay her wages. If you want to retrain a feat you know (see {rule/Retraining}) and are paying in installments, you must pay an installment.",
+			"During the Upkeep phase, adjust your capital or other game statistics based on what's happened in previous days (whether those days were spent on downtime activities or were normal days). For example, if you have a manager running your tavern, you must pay her wages. If you want to retrain a feat you know (see ‹rule/Retraining›) and are paying in installments, you must pay an installment.",
 			"",
 			"@HL[Step 1-Add Up Costs:] These costs include ongoing or recurring costs for your buildings, organizations, and other previous downtime activities that have accrued since the last time you have had a downtime session. Most of these costs are incurred daily, whether or not you are spending downtime days at the settlement.",
 			"",
@@ -460,7 +460,7 @@
 			"",
 			"@HL[Step 4-Determine Business Attrition:] Business attrition is loss caused by poor morale among employees due to your absence. If a building doesn't generate capital (and therefore isn't a business), skip Step 4. Without any employees to speculate about your absence, there is no chance of mutiny. However, the GM may decide that opportunistic thieves, squatters, monsters, animals, or vermin may move into an abandoned building if you are gone for a long time, requiring you to clear them out if you want to use it again.",
 			"",
-			"Because adventuring is dangerous work, if you're away from a settlement for 30 days or more, you risk losing control of your businesses there as employees begin to wonder whether you're dead. Upon your return, you must attempt a leadership check (1d20 + your Leadership score) against a DC equal to the number of days since you last had contact with that businesses - 10 (so if you've been gone for 30 days, the DC is 20). Having contact with the business requires visiting it personally, sending a qualified representative on your behalf (such as a cohort or {rule/manager>s}), or sending a formal letter or magical communication (such as {spell/dream}, {spell/sending}, or {spell/whispering wind}); doing so resets your number of days away to 0.",
+			"Because adventuring is dangerous work, if you're away from a settlement for 30 days or more, you risk losing control of your businesses there as employees begin to wonder whether you're dead. Upon your return, you must attempt a leadership check (1d20 + your Leadership score) against a DC equal to the number of days since you last had contact with that businesses - 10 (so if you've been gone for 30 days, the DC is 20). Having contact with the business requires visiting it personally, sending a qualified representative on your behalf (such as a cohort or ‹rule/manager<s›), or sending a formal letter or magical communication (such as ‹spell/dream›, ‹spell/sending›, or ‹spell/whispering wind›); doing so resets your number of days away to 0.",
 			"",
 			"If this leadership check succeeds, the business remains under your control. For each business you've been away from for at least 30 days, you must continue to attempt this leadership check each day until you make contact again.",
 			"",
@@ -488,7 +488,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/82}",
+			"‹SOURCE Ultimate Campaign/82›",
 			"",
 			"During the Activity phase, you declare new downtime activities or continue existing ones. Activities like beginning construction on a new building, continuing construction on an existing building, recruiting for a new organization, crafting magic items, or retraining skill points or a feat occur in this phase. You may also use this phase to take actions that do not require the downtime system.",
 			"",
@@ -498,7 +498,7 @@
 			"",
 			"@HL[Step 3-Begin New Downtime Activity:] If you aren't continuing an earlier downtime activity, or are continuing one that doesn't restrict you from starting a new activity, you can begin a new downtime activity. [The list of downtime activities can be found here](rule/downtime_activities).",
 			"",
-			"Example: Patrick's character has been crafting a {spell/wand of |fireball}, but had to interrupt the process just short of completion to have a short adventure that didn't give him any time to work on the item. When he returns to town and begins a downtime session, he sells some loot in Step 1 (which doesn't use any downtime days), then proceeds to Step 2. In Step 2, he decides to spend downtime finishing the work on the wand, which takes him 1 day of downtime. The next day, he has no ongoing downtime activities, so he proceeds to Step 3 and starts spending Influence to recruit an Apprentice wizard."
+			"Example: Patrick's character has been crafting a ‹spell/wand of »fireball›, but had to interrupt the process just short of completion to have a short adventure that didn't give him any time to work on the item. When he returns to town and begins a downtime session, he sells some loot in Step 1 (which doesn't use any downtime days), then proceeds to Step 2. In Step 2, he decides to spend downtime finishing the work on the wand, which takes him 1 day of downtime. The next day, he has no ongoing downtime activities, so he proceeds to Step 3 and starts spending Influence to recruit an Apprentice wizard."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -518,7 +518,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/82}",
+			"‹SOURCE Ultimate Campaign/82›",
 			"",
 			"During the Income phase, you generate capital from downtime activities and from buildings and organizations you control.",
 			"",
@@ -561,7 +561,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/83}",
+			"‹SOURCE Ultimate Campaign/83›",
 			"",
 			"During the Event phase, a random event might affect your downtime. This could be a generic event or an event relating specifically to one of your buildings or organizations.",
 			"",
@@ -588,13 +588,13 @@
 		"name": "Downtime Activities",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/84}",
+			"‹SOURCE Ultimate Campaign/84›",
 			"",
 			"This section provides many examples of activities you can undertake during downtime. Some of these are new, and others expand on options from the Core Rulebook or other sourcebooks to explain how those activities relate to the downtime rules. In most cases, using the downtime rules doesn't change the costs for performing the action, but it might allow you to spend capital instead of gp as per [Table 2-1: Capital Values](rule/gaining_capital). You can substitute 1 point of Goods or Labor for 20 gp, 1 point of Influence for 30 gp, and 1 point of Magic for 100 gp where appropriate. You can combine multiple types of capital when substituting for a gp value.",
 			"",
 			"Some downtime activities allow you to spend Goods, Influence, Labor, or Magic to modify the outcome of a check. You must decide to spend this capital before you attempt the check.",
 			"",
-			"Also see: {rule/Criminal Downtime Activities}"
+			"Also see: ‹rule/Criminal Downtime Activities›"
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -636,7 +636,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/84}",
+			"‹SOURCE Ultimate Campaign/84›",
 			"",
 			"If you're a magus or wizard, you can spend 1 day of downtime to copy up to eight spells from other sources into your spellbook (see [Spells Copied from Another's Spellbook or a Scroll](rule/adding_spells_to_a_wizards_spellbook)). If you're an alchemist, you can use this option to add new formulae to your formula book. If you're a witch, you can use this option to add spells to your familiar. You may spend Magic toward the cost of copying spells."
 		],
@@ -673,11 +673,11 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/84}",
+			"‹SOURCE Ultimate Campaign/84›",
 			"",
-			"You can use your downtime capital to create a building that suit your needs, such as a temple, guildhall, or mage tower. You construct a building out of component rooms that allow you to configure the building exactly how you want it (see {rule/Rooms and Teams}).",
+			"You can use your downtime capital to create a building that suit your needs, such as a temple, guildhall, or mage tower. You construct a building out of component rooms that allow you to configure the building exactly how you want it (see ‹rule/Rooms and Teams›).",
 			"",
-			"How much capital you can spend per day is limited by the size of the settlement you're in (see {rule/Spending Limits}). Once you've spent the total capital and time needed to finish your building, it's complete and you can use it immediately."
+			"How much capital you can spend per day is limited by the size of the settlement you're in (see ‹rule/Spending Limits›). Once you've spent the total capital and time needed to finish your building, it's complete and you can use it immediately."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -712,9 +712,9 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/84}",
+			"‹SOURCE Ultimate Campaign/84›",
 			"",
-			"The Core Rulebook details how to {rule/craft magic items}. As magic item crafting and the downtime rules both use days as time increments for all but the cheapest potions and scrolls, you can spend days in the downtime system to craft magic items, with each downtime day counting as 8 hours of crafting time. You may spend Magic toward the crafting cost."
+			"The Core Rulebook details how to ‹rule/craft magic items›. As magic item crafting and the downtime rules both use days as time increments for all but the cheapest potions and scrolls, you can spend days in the downtime system to craft magic items, with each downtime day counting as 8 hours of crafting time. You may spend Magic toward the crafting cost."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -749,13 +749,13 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/84}",
+			"‹SOURCE Ultimate Campaign/84›",
 			"",
 			"The Craft skill allows you to spend time creating mundane items such as armor, weapons, and alchemist's fire. The standard rules presented in the Core Rulebook assume you spend a week on crafting, but give you the option to make progress by the day. If you use the downtime system, make your Craft checks by the day instead of by the week. The steps for crafting by day are as follows.",
 			"",
 			"1. Find the item's price in silver pieces (1 gp = 10 sp).",
 			"",
-			"2. Find the item's DC from {skill/Table 4-4: |Craft/ Skills}.",
+			"2. Find the item's DC from ‹skill/Table 4-4: »Craft« Skills›.",
 			"",
 			"3. Pay 1/3 of the item's price in gp for the raw material cost. You may also spend Goods toward this cost.",
 			"",
@@ -800,9 +800,9 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/85}",
+			"‹SOURCE Ultimate Campaign/85›",
 			"",
-			"You can spend 1 day of downtime earning capital. Depending on the nature of the work, this might require making some kind of check and paying an amount of gp. This work might be unskilled labor or skilled labor with a Craft or Profession skill. See {rule/Gaining Capital} for more information."
+			"You can spend 1 day of downtime earning capital. Depending on the nature of the work, this might require making some kind of check and paying an amount of gp. This work might be unskilled labor or skilled labor with a Craft or Profession skill. See ‹rule/Gaining Capital› for more information."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -837,7 +837,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/85}",
+			"‹SOURCE Ultimate Campaign/85›",
 			"",
 			"If you've missed a campaign session or otherwise fallen behind in XP compared to the other characters, you can spend downtime adventuring to help catch up to the other PCs. Usually downtime adventures feature encounters that are much easier than you'd normally expect as part of a group. For example, a 5th-level character might clear zombies out of a crypt or assist some lower-level adventures with a problem that's a little too difficult for them.",
 			"",
@@ -878,7 +878,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/85}",
+			"‹SOURCE Ultimate Campaign/85›",
 			"",
 			"Using the Diplomacy skill to gather information normally requires 1d4 hours to search for rumors and informants. When using the downtime system, you have three options for gathering information.",
 			"",
@@ -921,7 +921,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/85}",
+			"‹SOURCE Ultimate Campaign/85›",
 			"",
 			"You can use downtime to help others rest and recover using the Heal skill. For long-term care, treating wounds, and treating disease, you can spend Labor to modify your check result. Each 1 point of Labor spent adds 2 to your check.",
 			"",
@@ -966,9 +966,9 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/85}",
+			"‹SOURCE Ultimate Campaign/85›",
 			"",
-			"If you are using the {rule/kingdom-building/ rules} and have a leadership role in the kingdom, you must spend 7 days per month performing various [leadership duties](rule/leadership_roles). In the downtime system, performing leadership duties for a day costs 1 day of downtime. You can't perform any other downtime activities on a day you perform kingdom leadership duties."
+			"If you are using the ‹rule/kingdom-building« rules› and have a leadership role in the kingdom, you must spend 7 days per month performing various [leadership duties](rule/leadership_roles). In the downtime system, performing leadership duties for a day costs 1 day of downtime. You can't perform any other downtime activities on a day you perform kingdom leadership duties."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -1003,7 +1003,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/85}",
+			"‹SOURCE Ultimate Campaign/85›",
 			"",
 			"You can spend 1 day of downtime to increase interest in a business, temple, organization, or other local fixture. You can also spend one type of capital, depending on how you want to promote the business. For example, if you want to promote a bakery, you can spend Goods giving out free pastries to people in town, Influence to get the mayor to visit the bakery and praise its food, Labor to hire workers to stand with signboards advertising the bakery, or Magic for a memorable illusion that draws people to the bakery.",
 			"",
@@ -1046,7 +1046,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/86}",
+			"‹SOURCE Ultimate Campaign/86›",
 			"",
 			"If you lose or dismiss your animal companion, you can spend 1 day performing a ceremony to gain a new one. This ceremony requires 24 uninterrupted hours of prayer in the environment where the new companion typically lives (at the GM's discretion, traveling might add to the downtime requirement if there's no suitable environment near the settlement)."
 		],
@@ -1083,7 +1083,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/86}",
+			"‹SOURCE Ultimate Campaign/86›",
 			"",
 			"The Core Rulebook allows you to replace a familiar if at least 1 week has passed since it was dismissed or lost. Doing so requires you to spend 1 day performing a specialized ritual to summon a new familiar. The ritual costs 200 gp &times; your wizard or witch level. You can [spend Goods or Magic](rule/spend_capital_to_boost_checks) toward the ritual cost."
 		],
@@ -1120,9 +1120,9 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/86}",
+			"‹SOURCE Ultimate Campaign/86›",
 			"",
-			"You can create and recruit for an organization that doesn't rely on a specific building. For example, you could may want to recruit employees (or minions) if you're a rogue and want to start your own gang of cutpurses or a cleric who wants to start a cult of followers. You create an organization out of component teams, so you can configure the organization exactly how you want it (see {rule/Rooms and Teams}). How much downtime capital you can spend in a day is limited by the size of the settlement you're in (see {rule/Spending Limits}). When you've spent the appropriate capital and time for your organization, it's complete and you can put it to work immediately."
+			"You can create and recruit for an organization that doesn't rely on a specific building. For example, you could may want to recruit employees (or minions) if you're a rogue and want to start your own gang of cutpurses or a cleric who wants to start a cult of followers. You create an organization out of component teams, so you can configure the organization exactly how you want it (see ‹rule/Rooms and Teams›). How much downtime capital you can spend in a day is limited by the size of the settlement you're in (see ‹rule/Spending Limits›). When you've spent the appropriate capital and time for your organization, it's complete and you can put it to work immediately."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -1157,7 +1157,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/86}",
+			"‹SOURCE Ultimate Campaign/86›",
 			"",
 			"The Core Rulebook allows you to perform spell research, either to create a new spell or learn an existing spell from another source. In the downtime system, the steps for spell research each day are as follows.",
 			"",
@@ -1206,7 +1206,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/86}",
+			"‹SOURCE Ultimate Campaign/86›",
 			"",
 			"You can use downtime and capital to learn more about the campaign or the game world. This is similar to the gather information activity, except instead of looking for rumors and gossip in town, you are consulting with sages, perusing historical documents, or using magic to unearth information. Instead of a Diplomacy check, attempt one or more Knowledge checks appropriate to the intended subject. These checks can be for the same or different topics (and can use different Knowledge skills), and you can expend one of the rolls you haven't used yet to reroll a Knowledge check you failed during this activity. You have three options for researching information.",
 			"",
@@ -1249,7 +1249,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/86}",
+			"‹SOURCE Ultimate Campaign/86›",
 			"",
 			"You can use downtime to rest and recover. It is assumed that you spend 8 hours resting at night, which allows you to recover 1 hp per level per day and 1 point of ability damage for each affected ability score. If you spend a full day of downtime resting in bed, you recover another 1 hp per level per day and another 1 point of ability damage for each affected ability score."
 		],
@@ -1286,9 +1286,9 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/86}",
+			"‹SOURCE Ultimate Campaign/86›",
 			"",
-			"You can use your downtime to retrain (see {rule/Retraining}). You may [spend Goods, Influence, Labor, or Magic](rule/spend_capital_to_boost_checks) toward this cost."
+			"You can use your downtime to retrain (see ‹rule/Retraining›). You may [spend Goods, Influence, Labor, or Magic](rule/spend_capital_to_boost_checks) toward this cost."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -1323,9 +1323,9 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/86}",
+			"‹SOURCE Ultimate Campaign/86›",
 			"",
-			"If you have a building and that building generates any kind of capital, you can spend 1 day of downtime working at your building - increasing its productivity by inspiring your employees to work harder, using your expertise to get more done, or using your fame to attract more customers. This counts as using downtime to earn capital (see {rule/Gaining Capital}), but you gain a +10 bonus on your check.",
+			"If you have a building and that building generates any kind of capital, you can spend 1 day of downtime working at your building - increasing its productivity by inspiring your employees to work harder, using your expertise to get more done, or using your fame to attract more customers. This counts as using downtime to earn capital (see ‹rule/Gaining Capital›), but you gain a +10 bonus on your check.",
 			"",
 			"The capital you generate must be a kind that your building can generate. For example, an inn that generates gp and Influence can generate only those two currencies using this downtime activity; you can't use it to generate Goods, Labor, or Magic just because you're personally running it for the day. You must earn capital acquired in this way as normal."
 		],
@@ -1362,9 +1362,9 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/87}",
+			"‹SOURCE Ultimate Campaign/87›",
 			"",
-			"You can use downtime to prepare for an upcoming adventure or event. For example, if you know you have to crash the baron's fancy party in 2 days, you can spend downtime watching the baron's manor, investigating what clothing the servants will wear, and finding out which important guests are attending. This works like {rule/spend[ing] capital to boost checks}, except you must spend 1 day of downtime, and each Good, Influence, Labor, or Magic you spend toward this purpose gives you a +2 bonus on one skill check (maximum +6). As with the spend capital option, the GM decides if your approach is reasonable for the check you're attempting. The bonus from this activity stacks with that from the spend capital to boost checks option (maximum +10 total). This bonus lasts for one check.",
+			"You can use downtime to prepare for an upcoming adventure or event. For example, if you know you have to crash the baron's fancy party in 2 days, you can spend downtime watching the baron's manor, investigating what clothing the servants will wear, and finding out which important guests are attending. This works like ‹rule/spend«ing» capital to boost checks›, except you must spend 1 day of downtime, and each Good, Influence, Labor, or Magic you spend toward this purpose gives you a +2 bonus on one skill check (maximum +6). As with the spend capital option, the GM decides if your approach is reasonable for the check you're attempting. The bonus from this activity stacks with that from the spend capital to boost checks option (maximum +10 total). This bonus lasts for one check.",
 			"",
 			"For example, by spending 1 day of downtime and 1 point of Goods, you gain an excellent understanding of the liveried servants' uniforms and add 2 to your Disguise check to disguise yourself as one of them. By spending 1 day of downtime and 1 point of Influence, you learn what famous trapsmith constructed the baron's vault and add 2 to your Disable Device check to open it."
 		],
@@ -1401,13 +1401,13 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/87}",
+			"‹SOURCE Ultimate Campaign/87›",
 			"",
 			"You can use the Handle Animal skill to train an animal, as described in the Core Rulebook. The rules for training assume the training period is continuous. However, you can break this training into smaller increments (allowing you to make progress on this training between adventures), but you must attempt a Handle Animal check for each training period, and the DC increases by 2. Failing the check means that training period doesn't count toward completing the training.",
 			"",
 			"This use of downtime doesn't allow you to exceed the animal's normal training limitations from the Core Rulebook. For example, spending downtime doesn't allow you to teach an animal more tricks than it could learn if you weren't using the downtime system.",
 			"",
-			"@HL[Teach an Animal a Trick:] This requires 7 days and a successful {skill/Handle Animal} check at the end of the training period. You may [spend Goods, Influence, Labor, or Magic](rule/spend_capital_to_boost_checks) to modify your check result, with each 1 point of capital adding 2 to your total (maximum +10).",
+			"@HL[Teach an Animal a Trick:] This requires 7 days and a successful ‹skill/Handle Animal› check at the end of the training period. You may [spend Goods, Influence, Labor, or Magic](rule/spend_capital_to_boost_checks) to modify your check result, with each 1 point of capital adding 2 to your total (maximum +10).",
 			"",
 			"@HL[Train an Animal for a General Purpose:] This sort of training can take several weeks, depending on the nature of the training. You may spend Goods, Influence, Labor, or Magic to modify your check result, with each 1 point of capital adding 2 to your total (maximum +10).",
 			"",
@@ -1446,11 +1446,11 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/88}",
+			"‹SOURCE Ultimate Campaign/88›",
 			"",
 			"A manager is a competent employee qualified to run a business while you're gone, even for weeks or months at a time. A manager is authorized to make certain decisions about your property while you're away, such as paying tax collectors, banning cultists from your store, and handling emergency situations.",
 			"",
-			"Having a manager delays capital attrition {rule/Upkeep phase/ step 3}) from 1 every 7 days to 1 every 14 days. As long as the manager's pay is up to date, having a manager look after your business prevents business attrition [see step 4 of the Upkeep phase](rule/upkeep_phase)).",
+			"Having a manager delays capital attrition ‹rule/Upkeep phase« step 3›) from 1 every 7 days to 1 every 14 days. As long as the manager's pay is up to date, having a manager look after your business prevents business attrition [see step 4 of the Upkeep phase](rule/upkeep_phase)).",
 			"",
 			"Unlike a team, a manager requires daily wages paid in gp. It's customary to pay a manager in advance when you're going to be absent, or arrange to pay wages through a bank or accountant. If you trust the manager, you can even allow her to take wages out of your business's earnings or from money you've set aside for your building or organization.",
 			"",
@@ -1479,7 +1479,7 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/88}",
+			"‹SOURCE Ultimate Campaign/88›",
 			"",
 			"A manager stat block is organized as follows.",
 			"",
@@ -1506,7 +1506,7 @@
 		"tags": "Abbot, Accountant, Captain, DoctorGuildmaster, Headmaster, Innkeeper, Lieutennant, Master Smith, Partner, Sensei, Smuggler, Stage Manager, Steward, Underboss, Warden",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/88}",
+			"‹SOURCE Ultimate Campaign/88›",
 			"",
 			"The following managers are examples of individuals you can hire to manage a business or look after your building or organization.",
 			"",
@@ -1646,7 +1646,7 @@
 		"tags": "Animal Keeper, Master Carpenter, Master Scout",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
-			"{SOURCE Heroes of the Wild/16}",
+			"‹SOURCE Heroes of the Wild/16›",
 			"",
 			"Managers oversee businesses, buildings, or organizations.",
 			"",
@@ -1687,15 +1687,15 @@
 		"subtitle": "Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/90}",
+			"‹SOURCE Ultimate Campaign/90›",
 			"",
 			"Many players want to run inns, found mercenary companies, build temples, or lead cabals of mages. The downtime system allows you to do this by presenting small constituent units: rooms for constructing buildings and teams for forming organizations.",
 			"",
 			"A room can be as simple as a 10-foot-by-10-foot area surrounded by wooden walls, or as complex as a stone-walled guard tower with a heavy wooden gate. A team can be as simple as a few beggars or pickpockets, as skilled as a group of acolytes trained in the healing arts, or as dangerous as a band of veteran mercenary soldiers. The details of the room or team are left vague to allow you greater versatility; they provide the game mechanics for your building or organization, but you decide the layout or hierarchy that suits your aesthetics.",
 			"",
-			"Each room and team costs one or more kinds of {rule/gaining_<capital} (gp, Goods, Influence, Labor, or Magic). When you construct a building or create an organization, determine what rooms or teams you want, add up the gp, Goods, Influence, Labor, and Magic prices for these rooms, and spend that capital to begin construction or start recruiting. A {rule/list of |rooms/ begins here} and a {rule/list of |teams/ here}.",
+			"Each room and team costs one or more kinds of ‹rule/gaining_>capital› (gp, Goods, Influence, Labor, or Magic). When you construct a building or create an organization, determine what rooms or teams you want, add up the gp, Goods, Influence, Labor, and Magic prices for these rooms, and spend that capital to begin construction or start recruiting. A ‹rule/list of »rooms« begins here› and a ‹rule/list of »teams« here›.",
 			"",
-			"@HL[Constructing Buildings from Rooms:] If you are {rule/constructing a |building>s}, you can connect these rooms in any way you see fit using normal doors and hallways, or fit them together without interior partitions into a large common space. Unless otherwise stated, each room includes a floor, ceiling, walls, furniture, doors, windows, and other details that are appropriate to the room's purpose in your building.",
+			"@HL[Constructing Buildings from Rooms:] If you are ‹rule/constructing a »building<s›, you can connect these rooms in any way you see fit using normal doors and hallways, or fit them together without interior partitions into a large common space. Unless otherwise stated, each room includes a floor, ceiling, walls, furniture, doors, windows, and other details that are appropriate to the room's purpose in your building.",
 			"",
 			"Example: A Common Room is a large area designed for use by many people at once. In a Fort, a Common Room has tables and chairs and functions as a mess hall for soldiers. In a Tavern or Inn, it has tables and chairs and is the main place for socializing and drinking. In a Temple, it has chairs or pews and is used for conducting worship services. In a Bardic College, it has chairs and music stands and is used for practicing performances.",
 			"",
@@ -1713,17 +1713,17 @@
 			"",
 			"The composition of a team is flexible and can change over time depending on the nature of your organization. For example, if your thieves' guild has Cutpurses and Robbers, some of them might get caught and jailed, but it is assumed your organization replaces them with individuals of similar skill. In the same way that you don't have to track routine maintenance on a building you own, replacing individuals who leave your organization is factored into the price of the team.",
 			"",
-			"You can only recruit a team if the character levels of its individual members are equal to or lower than your Leadership score. Even if you don't have the {feat/Leadership} feat, calculate your Leadership score as your character level + your Charisma modifier.",
+			"You can only recruit a team if the character levels of its individual members are equal to or lower than your Leadership score. Even if you don't have the ‹feat/Leadership› feat, calculate your Leadership score as your character level + your Charisma modifier.",
 			"",
 			"Unless otherwise noted, the members of a team are not adventurers and are unwilling to accompany you into dungeons and other deadly locations.",
 			"",
 			"Example: An Acolyte is a low-level divine spellcaster. In a Cult, Acolytes are the lowest-ranked members of the group and handle most of the interactions with new converts. In a Thieves' Guild, they are responsible for patching up members of the guild after a robbery or gang war. In a Mercenary Company, they look after the spiritual needs and physical injuries of the soldiers.",
 			"",
-			"@HL[Teams and Leadership:] One advantage of having followers from the Leadership feat is that they increase the effect of Influence and Labor you spend in a settlement (see {rule/Using Followers}). As the primary component of the price of recruiting teams is Influence, having followers in a settlement makes it easier to get the word out about the organization you want to build.",
+			"@HL[Teams and Leadership:] One advantage of having followers from the Leadership feat is that they increase the effect of Influence and Labor you spend in a settlement (see ‹rule/Using Followers›). As the primary component of the price of recruiting teams is Influence, having followers in a settlement makes it easier to get the word out about the organization you want to build.",
 			"",
 			"The people in your organization obey you because you pay them, or at least keep regular contact with them and direct their activities. Unlike with cohorts and followers gained from the Leadership feat (who are loyal toward you because of your reputation and behavior), if you're away from your organization for a long period of time, you might lose your connection with it. In the Upkeep Phase section, see [Step 3-Determine Capital Attrition](rule/upkeep_phase).",
 			"",
-			"In addition to the ways to combat attrition mentioned in the Upkeep Phase section, recruiting your followers into your organization can help with this problem. You can automatically add followers to your organizations as you recruit teams. For every five of your followers who are also members of your organization, you gain a +1 bonus on the leadership check to avoid attrition. As most followers are low-level characters with NPC classes, most teams of followers aren't trained for combat and are usually recruited to be Acolytes, Bureaucrats, Craftspeople, Lackeys, and so on (see {rule/Teams}).",
+			"In addition to the ways to combat attrition mentioned in the Upkeep Phase section, recruiting your followers into your organization can help with this problem. You can automatically add followers to your organizations as you recruit teams. For every five of your followers who are also members of your organization, you gain a +1 bonus on the leadership check to avoid attrition. As most followers are low-level characters with NPC classes, most teams of followers aren't trained for combat and are usually recruited to be Acolytes, Bureaucrats, Craftspeople, Lackeys, and so on (see ‹rule/Teams›).",
 			"",
 			"@HL[Combining Rooms and Teams:] This system allows you to construct a building that has no workers, create an organization that has no base of operations, or combine the two to make a fully staffed building or an organization with a headquarters. For example, if you build a Temple and recruit Acolytes in that settlement, you can have the Acolytes work at your temple. If the Temple has a place for the Acolytes to sleep, they can even live there. If you later want the Acolytes to go somewhere else or disperse, you still have the Temple and can use it for whatever purpose you see fit."
 		],
@@ -1754,7 +1754,7 @@
 		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/91}",
+			"‹SOURCE Ultimate Campaign/91›",
 			"",
 			"The following are examples of how you can construct your own Inn using rooms or create your own Thieves' Guild using teams. [Many complete buildings and organizations are presented here](rule/buildings_and_organizations).",
 			"",
@@ -1788,7 +1788,7 @@
 		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/92}",
+			"‹SOURCE Ultimate Campaign/92›",
 			"",
 			"The unit stat blocks are essentially the same for rooms and teams, and are organized as follows. Where an entry in a stat block would have no value (for example, a room that can't be upgraded from or into something else), that entry is omitted from the stat block.",
 			"",
@@ -1806,7 +1806,7 @@
 			"",
 			"Example: The Inn example [here](rule/construction_examples) has a Bar, a Common Room, a Kitchen, a Lodging, and a Stall. The Bar gives gp or Influence +10; the Common Room gives gp or Influence +7; the Kitchen gives gp or Goods +4; the Lodging gives gp +12; and the Stall gives gp, Goods, or Labor +8. All of those rooms can earn gp, so if you want to earn gp, just add all the room bonuses together (total +41) and make a skilled work check for the Inn to see [how much gp you earn](rule/gaining_capital). If you wanted to use the Bar's bonus to contribute to generating Influence and use the rest of the rooms' bonuses on gp, you'd attempt one skilled work check for Influence with a +10 modifier (the Bar's bonus) and another skilled work check for gp with a +31 modifier (the total bonuses from the Common Room, Lodging, and Stall).",
 			"",
-			"@HL[Benefit (Rooms Only):] This entry lists what non-downtime bonuses the room provides, such skill bonuses or changes to settlement modifiers (such as Corruption, Crime, and Danger; see {rule/Settlement Modifiers}). If a room provides a skill bonus, that bonus applies only when you're in the location specified. For example, just because you have a Ballroom in your castle doesn't mean you get its Perform bonus when you're in a dungeon.",
+			"@HL[Benefit (Rooms Only):] This entry lists what non-downtime bonuses the room provides, such skill bonuses or changes to settlement modifiers (such as Corruption, Crime, and Danger; see ‹rule/Settlement Modifiers›). If a room provides a skill bonus, that bonus applies only when you're in the location specified. For example, just because you have a Ballroom in your castle doesn't mean you get its Perform bonus when you're in a dungeon.",
 			"",
 			"The stat block doesn't list obvious benefits that aren't related to game mechanics. For example, a Bar allows you to sell drinks, a Kitchen allows you to serve food (either for your personal guests or to paying customers if the building is an Inn), and a Magical Repository allows you to research spells.",
 			"",
@@ -1816,7 +1816,7 @@
 			"",
 			"If a team doesn't have a Time price, spending capital to recruit that team doesn't count as a downtime action.",
 			"",
-			"Note that the Time prices for teams are for recruiting the team for long-term employment and don't reflect the availability of these kinds of NPCs for temporary work. For example, if you need to hire a 3rd-level cleric to cast {spell/lesser restoration}, you don't have to spend 7 days of downtime recruiting a Priest team - you can just make the {eq-misc/standard |spellcasting/ arrangements}.",
+			"Note that the Time prices for teams are for recruiting the team for long-term employment and don't reflect the availability of these kinds of NPCs for temporary work. For example, if you need to hire a 3rd-level cleric to cast ‹spell/lesser restoration›, you don't have to spend 7 days of downtime recruiting a Priest team - you can just make the ‹eq-misc/standard »spellcasting« arrangements›.",
 			"",
 			"@HL[Size:] If the unit is a room, this entry indicates a range of how many 5-foot squares are needed for a standard room of its type. For example, a Kitchen is 2-6 5-foot squares. If you need a larger room of this type, construct two rooms and join them. If you need a smaller room of this size, you can make it that smaller size for free. For example, if you only need a 5-foot-square Kitchen, you can construct one at the listed price, even though the smallest size listed is 2 5-foot squares.",
 			"",
@@ -1850,7 +1850,7 @@
 		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/93}",
+			"‹SOURCE Ultimate Campaign/93›",
 			"",
 			"Whether a unit generates its listed capital depends on your intentions for the building or organization, and should follow common sense. For example, if you construct a building with a Bar, Common Room, and Kitchen, you might want to use it as a tavern or a headquarters for your adventuring party. If it's a tavern, it's open to the public and generates capital. Otherwise, it's a private building and doesn't generate capital because it's used by only you and your friends. If you start your own cult with Acolytes and Priests, you might decide they sell healing and generate income. If your thieves' guild has Acolytes, you might decide they only heal members of your guild, and therefore don't generate income.",
 			"",
@@ -1876,7 +1876,7 @@
 		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/93}",
+			"‹SOURCE Ultimate Campaign/93›",
 			"",
 			"If the settlement's nature is contrary to the kind of building or organization you're trying to construct or create (such as a Black Market or Thieves' Guild in a settlement with low Crime and high Law settlement modifiers), the GM might decide that construction or recruitment takes 1d6 &times; 10% longer than normal (minimum 1 extra day) if you aren't monitoring the work.",
 			"",
@@ -1902,7 +1902,7 @@
 		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/93}",
+			"‹SOURCE Ultimate Campaign/93›",
 			"",
 			"You can move an organization to a different settlement by paying half the price of recruiting it. This price accounts for paying relocation expenses for your teams, hiring replacements for people unwilling to move, and so on. Arranging the movement of an organization usually takes 1d6 days per team in the organization; the time needed to actually move the teams is the amount of time it takes to travel from the old settlement to the new one. The organization provides only half its benefits during the time you are arranging the move, and none of its benefits while traveling to the new settlement.",
 			"",
@@ -1928,7 +1928,7 @@
 		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/94}",
+			"‹SOURCE Ultimate Campaign/94›",
 			"",
 			"You can use the following rooms to construct buildings.",
 			"",
@@ -1941,7 +1941,7 @@
 			"- [Group 7](rule/rooms7): *Scrying Room, Secret Room, Sewer Access, Sewing Room, Shack, Sitting Room, Sports Field, Stall, Statue, Storage*",
 			"- [Group 8](rule/rooms8): *Storefront, Summmoning Chamber, Throne Room, Toolbooth, Torture Chamber, Trap, Trophy Room, Vault, War Room, Workstation*",
 			"",
-			"There are also {rule/wilderness \"rooms\"} that can be used to construct outdoor locations: *Archery Range, Blind, Grotto, Mystic Greenhouse, Rangelands, Reservoir System, Watering Hole*"
+			"There are also ‹rule/wilderness \"rooms\"› that can be used to construct outdoor locations: *Archery Range, Blind, Grotto, Mystic Greenhouse, Rangelands, Reservoir System, Watering Hole*"
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -1978,12 +1978,12 @@
 		"tags": "Alchemy Lab, Altar, Animal Pen, Armory, Artisan's Workshop, Auditorium, Ballroom, Bar, Bath, Battle Ring",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/94}",
+			"‹SOURCE Ultimate Campaign/94›",
 			"",
 			"### Alchemy Lab",
 			"",
 			"**Earnings** gp, Goods, or Magic +10  ",
-			"**Benefit** counts as an {eq-misc/alchemist's lab}  ",
+			"**Benefit** counts as an ‹eq-misc/alchemist's lab›  ",
 			"**Create** 8 Goods, 1 Influence, 5 Labor, 1 Magic (390 gp); **Time** 16 days  ",
 			"**Size** 8-16 squares",
 			"",
@@ -1992,7 +1992,7 @@
 			"### Altar",
 			"",
 			"**Earnings** Influence +3  ",
-			"**Benefit** counts as a permanent fixture dedicated to your deity for the purpose of {spell/consecrate} and similar spells  ",
+			"**Benefit** counts as a permanent fixture dedicated to your deity for the purpose of ‹spell/consecrate› and similar spells  ",
 			"**Create** 2 Goods, 1 Influence, 2 Labor, 1 Magic (210 gp); **Time** 4 days  ",
 			"**Size** 2-8 squares",
 			"",
@@ -2018,7 +2018,7 @@
 			"### Artisan's Workshop",
 			"",
 			"**Earnings** gp, Goods, or Influence +10  ",
-			"**Benefit** counts as {eq-misc/masterwork artisan's tools} for one Craft skill  ",
+			"**Benefit** counts as ‹eq-misc/masterwork artisan's tools› for one Craft skill  ",
 			"**Create** 9 Goods, 9 Labor (360 gp); **Time** 20 days  ",
 			"**Size** 8-16 squares",
 			"",
@@ -2066,7 +2066,7 @@
 			"### Battle Ring",
 			"",
 			"**Earnings** gp or Influence +15  ",
-			"**Benefit** contestant gains a bonus on Intimidate and {rule/performance combat} checks  ",
+			"**Benefit** contestant gains a bonus on Intimidate and ‹rule/performance combat› checks  ",
 			"**Create** 18 Goods, 4 Influence, 16 Labor (800 gp); **Time** 40 days  ",
 			"**Size** 40-100 squares  ",
 			"**Upgrades To** Sports Field",
@@ -2100,7 +2100,7 @@
 		"tags": "Bedroom, Bell Tower, Book Repository, Brewery, Bunks, Burial Ground, Cell, Ceremonial Room, Classroom, Clockwork Shop",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/95}",
+			"‹SOURCE Ultimate Campaign/95›",
 			"",
 			"### Bedroom",
 			"",
@@ -2183,7 +2183,7 @@
 			"### Clockwork Shop",
 			"",
 			"**Earnings** gp, Goods, or Labor +10  ",
-			"**Benefit** counts as {eq-misc/masterwork artisan's tools} for Craft (clockwork)  ",
+			"**Benefit** counts as ‹eq-misc/masterwork artisan's tools› for Craft (clockwork)  ",
 			"**Create** 9 Goods, 9 Labor (360 gp); **Time** 20 days  ",
 			"**Size** 8-16 squares",
 			"",
@@ -2216,7 +2216,7 @@
 		"tags": "Common Room, Confessional, Courtyard, Crypt, Defensive Wall, Dock, Dojo, Drawbridge, Escape Route",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/96}",
+			"‹SOURCE Ultimate Campaign/96›",
 			"",
 			"### Common Room",
 			"",
@@ -2250,7 +2250,7 @@
 			"**Size** 8-30 squares  ",
 			"**Upgrades From** Burial Ground",
 			"",
-			"This space is dedicated to the storage of prominent corpses. Above ground this space might take the form of a tomb. The duration of spells that preserve or protect corpses (such as {spell/gentle repose}) are doubled when cast on a corpse that remains in this room.",
+			"This space is dedicated to the storage of prominent corpses. Above ground this space might take the form of a tomb. The duration of spells that preserve or protect corpses (such as ‹spell/gentle repose›) are doubled when cast on a corpse that remains in this room.",
 			"",
 			"### Defensive Wall",
 			"",
@@ -2318,7 +2318,7 @@
 		"tags": "False Front, Farmland, Forge, Game Room, Garden, Gatehouse, Gauntlet, Greenhouse, Guard Post",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/97}",
+			"‹SOURCE Ultimate Campaign/97›",
 			"",
 			"### False Front",
 			"",
@@ -2341,7 +2341,7 @@
 			"### Forge",
 			"",
 			"**Earnings** gp or Goods +10  ",
-			"**Benefit** counts as {eq-misc/masterwork artisan's tools} for smithing skills  ",
+			"**Benefit** counts as ‹eq-misc/masterwork artisan's tools› for smithing skills  ",
 			"**Create** 9 Goods, 1 Influence, 8 Labor (370 gp); **Time** 20 days  ",
 			"**Size** 8-16 squares",
 			"",
@@ -2429,7 +2429,7 @@
 		"tags": "Habitat, Hatchery, Infirmary, Kitchen, Labyrinth, Laundry, Lavatory, Leather Workshop, Lodging, Magical Repository",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/98}",
+			"‹SOURCE Ultimate Campaign/98›",
 			"",
 			"### Habitat",
 			"",
@@ -2451,7 +2451,7 @@
 			"### Infirmary",
 			"",
 			"**Earnings** gp or Influence +8  ",
-			"**Benefit** counts as a {eq-misc/healer's kit} (see below)  ",
+			"**Benefit** counts as a ‹eq-misc/healer's kit› (see below)  ",
 			"**Create** 6 Goods, 1 Influence, 6 Labor, 1 Magic (370 gp); **Time** 16 days  ",
 			"**Size** 4-12 squares",
 			"",
@@ -2494,7 +2494,7 @@
 			"### Leather Workshop",
 			"",
 			"**Earnings** gp or Goods +10  ",
-			"**Benefit** counts as {eq-misc/masterwork artisan's tools} for leatherworking skills  ",
+			"**Benefit** counts as ‹eq-misc/masterwork artisan's tools› for leatherworking skills  ",
 			"**Create** 7 Goods, 1 Influence, 7 Labor (310 gp); **Time** 16 days  ",
 			"**Size** 4-10 squares",
 			"",
@@ -2517,7 +2517,7 @@
 			"**Size** 4-12 squares  ",
 			"**Upgrades From** Book Repository",
 			"",
-			"A Magical Repository is similar to a Book Repository, but specific to the study of the arcane arts. It contains shelves of books, comfortable chairs, and tables for studying and for scribing notes and scrolls. If you construct this room from scratch, it grants someone who studies there for 1 hour a +3 bonus on a Knowledge (arcana) check to answer a question. If you upgrade a Book Repository into this room, you either keep the original Book Repository's bonus on Knowledge checks or change its skill to Knowledge (arcana). An hour of study in this room also grants a +3 bonus on Spellcraft checks. The room grants an additional +1 bonus on Knowledge (arcana) and Spellcraft checks for spell research (see {rule/Research a Spell}) and crafting magic items."
+			"A Magical Repository is similar to a Book Repository, but specific to the study of the arcane arts. It contains shelves of books, comfortable chairs, and tables for studying and for scribing notes and scrolls. If you construct this room from scratch, it grants someone who studies there for 1 hour a +3 bonus on a Knowledge (arcana) check to answer a question. If you upgrade a Book Repository into this room, you either keep the original Book Repository's bonus on Knowledge checks or change its skill to Knowledge (arcana). An hour of study in this room also grants a +3 bonus on Spellcraft checks. The room grants an additional +1 bonus on Knowledge (arcana) and Spellcraft checks for spell research (see ‹rule/Research a Spell›) and crafting magic items."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -2546,7 +2546,7 @@
 		"tags": "Mill Room, Nursery, Observation Dome, Office, Pit, Printer, Reliquary, Sanctum, Sauna, Scriptorium",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/100}",
+			"‹SOURCE Ultimate Campaign/100›",
 			"",
 			"### Mill Room",
 			"",
@@ -2592,7 +2592,7 @@
 			"### Printer",
 			"",
 			"**Earnings** gp, Goods, Influence, or Labor +8  ",
-			"**Benefit** counts as {eq-misc/masterwork artisan's tools} for writing and printing skills  ",
+			"**Benefit** counts as ‹eq-misc/masterwork artisan's tools› for writing and printing skills  ",
 			"**Create** 9 Goods, 2 Influence, 7 Labor (380 gp); **Time** 20 days  ",
 			"**Size** 5-16 squares  ",
 			"**Upgrades From** Scriptorium",
@@ -2664,7 +2664,7 @@
 		"tags": "Scrying Room, Secret Room, Sewer Access, Sewing Room, Shack, Sitting Room, Sports Field, Stall, Statue, Storage",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/101}",
+			"‹SOURCE Ultimate Campaign/101›",
 			"",
 			"### Scrying Room",
 			"",
@@ -2673,7 +2673,7 @@
 			"**Create** 6 Goods, 1 Influence, 5 Labor, 3 Magic (550 gp); **Time** 16 days  ",
 			"**Size** 4-16 squares",
 			"",
-			"A Scrying Room is built to be a quiet place for scrying, seances, and similar divinations. It contains a table, chairs, and either a pool of water (at no additional cost) or a suitable focus object for a {spell/scrying} spell (for an additional 1,000 gp). A caster using *scrying,* {spell/locate creature}, or a similar targeted divination from here increases the spell's DC by 1.",
+			"A Scrying Room is built to be a quiet place for scrying, seances, and similar divinations. It contains a table, chairs, and either a pool of water (at no additional cost) or a suitable focus object for a ‹spell/scrying› spell (for an additional 1,000 gp). A caster using *scrying,* ‹spell/locate creature›, or a similar targeted divination from here increases the spell's DC by 1.",
 			"",
 			"### Secret Room",
 			"",
@@ -2693,7 +2693,7 @@
 			"### Sewing Room",
 			"",
 			"**Earnings** gp, Goods, or Influence +10  ",
-			"**Benefit** counts as {eq-misc/masterwork artisan's tools} for one Craft skill  ",
+			"**Benefit** counts as ‹eq-misc/masterwork artisan's tools› for one Craft skill  ",
 			"**Create** 8 Goods, 7 Labor (300 gp); **Time** 16 days  ",
 			"**Size** 6-12 squares A Sewing Room is used for designing heraldry and making cloth garments, tapestries, blankets, carpets, linens, and other textiles. It contains a loom; a spinning wheel; tapestry frames; shelves for fabric; worktables; and tools for spinning, weaving, and sewing. Up to three people can use the room at once; gaining the benefit of masterwork artisan's tools for skills such as Craft (cloth) and Craft (clothing), and for related skills such as Craft (baskets).",
 			"",
@@ -2776,7 +2776,7 @@
 		"tags": "Storefront, Summmoning Chamber, Throne Room, Toolbooth, Torture Chamber, Trap, Trophy Room, Vault, War Room, Workstation",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/103}",
+			"‹SOURCE Ultimate Campaign/103›",
 			"",
 			"### Storefront",
 			"",
@@ -2794,7 +2794,7 @@
 			"**Create** 11 Goods, 4 Influence, 10 Labor, 5 Magic (1,040 gp); **Time** 28 days  ",
 			"**Size** 6-16 squares",
 			"",
-			"A Summoning Chamber is used to perform magical rituals to conjure outsiders. It contains a well-drawn, nearly complete magic circle on the floor - which you can complete with just a few chalk marks - suitable for use with {spell/magic circle} spells, {spell/planar binding} spells, and so on. A person who uses a Summoning Chamber gains a +3 bonus on Knowledge (planes) checks relating to a creature being called or summoned, and a +3 bonus on Charisma checks, Diplomacy checks, and Intimidate checks to influence or bargain with a creature called or summoned here.",
+			"A Summoning Chamber is used to perform magical rituals to conjure outsiders. It contains a well-drawn, nearly complete magic circle on the floor - which you can complete with just a few chalk marks - suitable for use with ‹spell/magic circle› spells, ‹spell/planar binding› spells, and so on. A person who uses a Summoning Chamber gains a +3 bonus on Knowledge (planes) checks relating to a creature being called or summoned, and a +3 bonus on Charisma checks, Diplomacy checks, and Intimidate checks to influence or bargain with a creature called or summoned here.",
 			"",
 			"### Throne Room",
 			"",
@@ -2828,7 +2828,7 @@
 			"**Benefit** see below Cost see below; **Time** see below  ",
 			"**Size** 1-4 squares",
 			"",
-			"This can be a specific room in a building or an augmentation to another room. A Trap room might appear empty or it might be decorated to appear to be harmless in order to lure a target into the trap. A Trap costs are explained in {rule/Designing a Trap}, and building one uses the crafting rules, though you may spend Goods and Labor toward this cost.",
+			"This can be a specific room in a building or an augmentation to another room. A Trap room might appear empty or it might be decorated to appear to be harmless in order to lure a target into the trap. A Trap costs are explained in ‹rule/Designing a Trap›, and building one uses the crafting rules, though you may spend Goods and Labor toward this cost.",
 			"",
 			"### Trophy Room",
 			"",
@@ -2852,12 +2852,12 @@
 			"**Create** 8 Goods, 7 Labor (300 gp); **Time** 16 days  ",
 			"**Size** 4-12 squares",
 			"",
-			"This is a room for planning military maneuvers, plotting grand heists, or providing briefings. It contains a large central table with plenty of chairs, maps, and figures to simulate troops and structures. When it's used for planning a battle, your army gains a +2 bonus on attack rolls and morale checks for their next battle within 24 hours. To grant the army this bonus, the army's commander must be present at the planning meeting for the battle or you must have some way of communicating these instructions to the commander. When used to {rule/scheme for an upcoming adventure}, a War Room allows you to use the scheme's planning bonus on two skill checks instead of one.",
+			"This is a room for planning military maneuvers, plotting grand heists, or providing briefings. It contains a large central table with plenty of chairs, maps, and figures to simulate troops and structures. When it's used for planning a battle, your army gains a +2 bonus on attack rolls and morale checks for their next battle within 24 hours. To grant the army this bonus, the army's commander must be present at the planning meeting for the battle or you must have some way of communicating these instructions to the commander. When used to ‹rule/scheme for an upcoming adventure›, a War Room allows you to use the scheme's planning bonus on two skill checks instead of one.",
 			"",
 			"### Workstation",
 			"",
 			"**Earnings** gp, Goods, or Influence +8  ",
-			"**Benefit** counts as {eq-misc/masterwork artisan's tools} for one Craft or Profession skill  ",
+			"**Benefit** counts as ‹eq-misc/masterwork artisan's tools› for one Craft or Profession skill  ",
 			"**Create** 8 Goods, 7 Labor (300 gp); **Time** 16 days  ",
 			"**Size** 8-16 squares",
 			"",
@@ -2890,7 +2890,7 @@
 		"tags": "Archery Range, Blind, Grotto, Mystic Greenhouse, Rangelands, Reservoir System, Watering Hole",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
-			"{SOURCE Heroes of the Wild/14}",
+			"‹SOURCE Heroes of the Wild/14›",
 			"",
 			"The rooms below can help characters survive in the wild.",
 			"",
@@ -2910,7 +2910,7 @@
 			"**Create** 3 Goods, 2 Influence, 3 Labor (180 gp); **Time** 10 days  ",
 			"**Size** 10-30 squares",
 			"",
-			"A Blind is a semi-solid wall constructed out of area-appropriate debris and flora. Between 10 and 15 feet high, a Blind helps to conceal any structures behind it as it blends in with the nearby landscape. Structures behind a Blind can be seen only with a successful DC 15 Perception check, and targets of ranged attacks made through a blind gain {rule/concealment}. One Blind can cover 20 squares' worth of structures; multiple Blinds can be used to conceal larger structures. A Blind can be thickened for double the construction cost, increasing the DC of the Perception check to see through the Blind to 20 and granting total concealment to creatures hiding behind it.",
+			"A Blind is a semi-solid wall constructed out of area-appropriate debris and flora. Between 10 and 15 feet high, a Blind helps to conceal any structures behind it as it blends in with the nearby landscape. Structures behind a Blind can be seen only with a successful DC 15 Perception check, and targets of ranged attacks made through a blind gain ‹rule/concealment›. One Blind can cover 20 squares' worth of structures; multiple Blinds can be used to conceal larger structures. A Blind can be thickened for double the construction cost, increasing the DC of the Perception check to see through the Blind to 20 and granting total concealment to creatures hiding behind it.",
 			"",
 			"### Grotto",
 			"",
@@ -2980,7 +2980,7 @@
 		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/104}",
+			"‹SOURCE Ultimate Campaign/104›",
 			"",
 			"Augmentations modify a room to be more productive, durable, or useful. Augmentations are permanent and can't be removed. If you upgrade a room you have augmented, the augmentation carries over to the upgrade, but the augmentation's cost isn't considered when you look at the difference between the base and upgrade room. You can put more than one augmentation in a room, as long as they aren't the same augmentation.",
 			"",
@@ -3030,7 +3030,7 @@
 		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
-			"{SOURCE Heroes of the Wild/15}",
+			"‹SOURCE Heroes of the Wild/15›",
 			"",
 			"### Arboreal (Augmentation)",
 			"",
@@ -3047,7 +3047,7 @@
 			"**Create** 5 Goods, 5 Labor, 3 Magic (500 gp); **Time** 20 days  ",
 			"**Size** As original room",
 			"",
-			"This augmentation integrates a room into the surrounding natural environment, putting the space into symbiosis with the local ecosystems. An Attuned room in a forest can be built amid great trees that act as some of the primary walls, while an Attuned room in a desert might be built to help foster the growth of desert plants. Once this augmentation is completed, the room is considered to be representative of the local flora for purposes of spells such as {spell/entangle} or {spell/spike growth}."
+			"This augmentation integrates a room into the surrounding natural environment, putting the space into symbiosis with the local ecosystems. An Attuned room in a forest can be built amid great trees that act as some of the primary walls, while an Attuned room in a desert might be built to help foster the growth of desert plants. Once this augmentation is completed, the room is considered to be representative of the local flora for purposes of spells such as ‹spell/entangle› or ‹spell/spike growth›."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -3075,15 +3075,15 @@
 		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"{SOURCE Inner Sea Intrigue/56}",
+			"‹SOURCE Inner Sea Intrigue/56›",
 			"",
 			"Master architects across the Inner Sea region and beyond use the following building materials to protect against thieves and spies as well as invaders.",
 			"",
-			"@HL[Dead-Magic Wall:] Dead-magic walls incorporate cold iron runes that negate all magic passing through, as described in the spell {spell/antimagic field}. If a room is enclosed on all sides (including the ceiling and floor) by dead-magic walls, the area within functions as an antimagic field. Creating a dead-magic wall requires the spell antimagic field, the expenditure of 3,000 gp for each 5-foot-wide-by-10-foot-tall section of wall, and the creator to have the {feat/Craft Wondrous Item} feat.",
+			"@HL[Dead-Magic Wall:] Dead-magic walls incorporate cold iron runes that negate all magic passing through, as described in the spell ‹spell/antimagic field›. If a room is enclosed on all sides (including the ceiling and floor) by dead-magic walls, the area within functions as an antimagic field. Creating a dead-magic wall requires the spell antimagic field, the expenditure of 3,000 gp for each 5-foot-wide-by-10-foot-tall section of wall, and the creator to have the ‹feat/Craft Wondrous Item› feat.",
 			"",
-			"@HL[Lead-Lined Walls:] Lead-lined walls block nearly all divinations from passing through, but are ineffective as long as any door is open so much as a crack. Detection and location magic generally is blocked as long as there is an unbroken lead barrier directly between the caster and the protected creature or object, but scrying effects, {spell/discern location}, and other spells that aren't limited to straight lines of effect are blocked only if the protected creature or object is seamlessly enclosed by lead-lined walls. Because of this and the fact that they are rumored to cause insanity in anyone who dwells within long enough, these walls are rarely used in any structures other than vaults and panic rooms. The price includes adding lead lining to any doors, shutters, and other openings into the room so that the lead seal is complete when they are closed. A room sealed fast against divination from all directions by lead is also airtight, potentially suffocating anyone trapped inside. A lead-lined wall costs an extra 250 gp for each 5-foot-wide by 10-foot-tall section of wall. This augmentation cannot be applied to paper walls.",
+			"@HL[Lead-Lined Walls:] Lead-lined walls block nearly all divinations from passing through, but are ineffective as long as any door is open so much as a crack. Detection and location magic generally is blocked as long as there is an unbroken lead barrier directly between the caster and the protected creature or object, but scrying effects, ‹spell/discern location›, and other spells that aren't limited to straight lines of effect are blocked only if the protected creature or object is seamlessly enclosed by lead-lined walls. Because of this and the fact that they are rumored to cause insanity in anyone who dwells within long enough, these walls are rarely used in any structures other than vaults and panic rooms. The price includes adding lead lining to any doors, shutters, and other openings into the room so that the lead seal is complete when they are closed. A room sealed fast against divination from all directions by lead is also airtight, potentially suffocating anyone trapped inside. A lead-lined wall costs an extra 250 gp for each 5-foot-wide by 10-foot-tall section of wall. This augmentation cannot be applied to paper walls.",
 			"",
-			"@HL[Secrecy Runes:] Magically reinforced walls can incorporate secrecy runes to prevent magic from allowing someone to see within. Sounds cannot pass out of an area enclosed by secrecy runes on all sides (including ceilings and floors), as long as all exits are closed. In addition, the runes block divinations of or below a specified spell level (as indicated on the table below) from entering an area enclosed by secrecy runes on all sides (including ceilings and floors), even while portals to the area are open. See the table below for prices and the maximum level of spells each type of runes can block. Creating secrecy runes requires the Craft Wondrous Item feat, the spell {spell/mage's private sanctum}, and the expenditure of the listed amount of gold for each 5-foot-by-10-foot section of wall.",
+			"@HL[Secrecy Runes:] Magically reinforced walls can incorporate secrecy runes to prevent magic from allowing someone to see within. Sounds cannot pass out of an area enclosed by secrecy runes on all sides (including ceilings and floors), as long as all exits are closed. In addition, the runes block divinations of or below a specified spell level (as indicated on the table below) from entering an area enclosed by secrecy runes on all sides (including ceilings and floors), even while portals to the area are open. See the table below for prices and the maximum level of spells each type of runes can block. Creating secrecy runes requires the Craft Wondrous Item feat, the spell ‹spell/mage's private sanctum›, and the expenditure of the listed amount of gold for each 5-foot-by-10-foot section of wall.",
 			"",
 			"| Runes of Secrecy | Maximum Spell Level of Divination Blocked | Cost per Section of Wall[^1] |",
 			"| --- | --- | --- |",
@@ -3162,7 +3162,7 @@
 		"tags": "acolyte apprentice elite archer bureaucrats calvary archers craftspeople cutpurses craftsperson craftsman driver elite guards elite soldiers laborers lackeys mage priest robbers sage sailors scofflaws",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/104}",
+			"‹SOURCE Ultimate Campaign/104›",
 			"",
 			"You can recruit the following teams and combine them to create a variety of organizations.",
 			"",
@@ -3382,7 +3382,7 @@
 		"subtitle": "Rooms, Teams, Downtime",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
-			"{SOURCE Heroes of the Wild/15}",
+			"‹SOURCE Heroes of the Wild/15›",
 			"",
 			"These teams help wilderness outposts run smoothly.",
 			"",

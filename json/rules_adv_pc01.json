@@ -19,7 +19,7 @@
 		"name": "Charters",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
-			"{SOURCE Cohorts and Companions/22}",
+			"‹SOURCE Cohorts and Companions/22›",
 			"",
 			"Adventuring parties may start as childhood friends, casual companions, or total strangers thrown together by chance. Dedicated comrades-in-arms, however, may decide to formalize their partnership by establishing a charter. Players may even choose to write down their charter and display it during gaming sessions, to help cement the importance of the team in their minds. Truly dedicated groups can choose to establish a charter: a private contract and code of conduct.",
 			"",
@@ -27,19 +27,19 @@
 			"",
 			"@HL[Cost:] In some regions, characters can pay a fee of 100 gp per level for each member to register their charter with the local government, exempting them from salvage taxes on treasure and mitigating fines for collateral damage to property and buildings. This registration also recognizes the name of the chartered group and prevents other groups from taking a name that is too similar. Players who opt to take the Chartered Adventuring company feat[^C] are not required to pay this cost to benefit from the feat, but their charter is not recognized in areas that require the fee until it is paid.",
 			"",
-			"@HL[Values:] A chartered group should choose a core alignment that encompasses their shared values. All members of the group should have an alignment within one step of the group's alignment, though this is not an absolute requirement. Players should also discuss some important questions when forming a charter, such as what happens when a character dies (or is permanently incapacitated). Are the costs of healing or resurrection borne by the individual or the group? Likewise, how will they divide wealth? Are shares equal or is level a factor? Do cohorts or hirelings get some portion of the wealth, or is their master responsible for rewarding them? Will some magical items be held in common by the party, for the general use of those who need them? Should the party pay for members' {rule/cost of living}, and if so at what level? Should the party invest in a shared building or business (see {rule/Downtime}) as their base of operations? Are characters with item creation feats, Craft skills, or other abilities that could be used on behalf of others obliged to use them for the benefit of their fellows, and if so are they owed any remuneration for doing so? What are the consequences if a member withholds their services from another, whether in combat or during downtime?",
+			"@HL[Values:] A chartered group should choose a core alignment that encompasses their shared values. All members of the group should have an alignment within one step of the group's alignment, though this is not an absolute requirement. Players should also discuss some important questions when forming a charter, such as what happens when a character dies (or is permanently incapacitated). Are the costs of healing or resurrection borne by the individual or the group? Likewise, how will they divide wealth? Are shares equal or is level a factor? Do cohorts or hirelings get some portion of the wealth, or is their master responsible for rewarding them? Will some magical items be held in common by the party, for the general use of those who need them? Should the party pay for members' ‹rule/cost of living›, and if so at what level? Should the party invest in a shared building or business (see ‹rule/Downtime›) as their base of operations? Are characters with item creation feats, Craft skills, or other abilities that could be used on behalf of others obliged to use them for the benefit of their fellows, and if so are they owed any remuneration for doing so? What are the consequences if a member withholds their services from another, whether in combat or during downtime?",
 			"",
 			"One of the advantages of a charter is that once a group addresses these issues, they can write down the answers and use them to solve similar situations that arise later. Also if new members are interested in joining a group they can inspect the group's charter before joining forces.",
 			"",
-			"@HL[Contacts:] The stability and forethought a charter represents attracts the interest of other competent individuals. The party begins its charter with one reliable {rule/contact>s}, and each time the average party level of its members increases, the group may choose to acquire a new reliable contact or improve their trust level with an existing contact by 1.",
+			"@HL[Contacts:] The stability and forethought a charter represents attracts the interest of other competent individuals. The party begins its charter with one reliable ‹rule/contact<s›, and each time the average party level of its members increases, the group may choose to acquire a new reliable contact or improve their trust level with an existing contact by 1.",
 			"",
-			"@HL[Goals:] Setting group goals and accomplishing shared glory earns fame and respect for all members of the charter. Whether defeating a chosen foe, founding a stronghold, or completing an adventure, each time your group achieves a goal its honor and reputation (see {rule/Reputation and Fame}) increase. As your group completes goals, you should continue to set new ones.",
+			"@HL[Goals:] Setting group goals and accomplishing shared glory earns fame and respect for all members of the charter. Whether defeating a chosen foe, founding a stronghold, or completing an adventure, each time your group achieves a goal its honor and reputation (see ‹rule/Reputation and Fame›) increase. As your group completes goals, you should continue to set new ones.",
 			"",
-			"@HL[Secret Signs:] A group with a contract can agree upon specific code phases and secret hand signs they use to communicate important messages to one another. A group with a contract receive a +2 circumstance bonus on Bluff checks made to pass secret messages to each other, and the DC for creatures who have not read the contract to decipher such messages with Sense Motive increases by 2. Groups wishing to codify a more advanced secret language can do so with the {feat/Secret Language} feat.",
+			"@HL[Secret Signs:] A group with a contract can agree upon specific code phases and secret hand signs they use to communicate important messages to one another. A group with a contract receive a +2 circumstance bonus on Bluff checks made to pass secret messages to each other, and the DC for creatures who have not read the contract to decipher such messages with Sense Motive increases by 2. Groups wishing to codify a more advanced secret language can do so with the ‹feat/Secret Language› feat.",
 			"",
-			"@HL[Shared Reputation:] The actions and reputation of one member of a charter can impact the reputation of other members. Charter members can share {rule/honor/ points} and prestige points (see Reputation and Fame) with other charter members by spending 1 honor or prestige point to transfer a number of honor or prestige points up to half the character's level (so for example, a 12th level character could spend 1 prestige point to transfer 6 prestige points to her colleague; she loses a total of 7 prestige points and her colleague gains 6).",
+			"@HL[Shared Reputation:] The actions and reputation of one member of a charter can impact the reputation of other members. Charter members can share ‹rule/honor« points› and prestige points (see Reputation and Fame) with other charter members by spending 1 honor or prestige point to transfer a number of honor or prestige points up to half the character's level (so for example, a 12th level character could spend 1 prestige point to transfer 6 prestige points to her colleague; she loses a total of 7 prestige points and her colleague gains 6).",
 			"",
-			"@HL[Story Feats:] The common goals of a charter allow multiple characters to become part of the same story. If one character takes a {main/feats_<story/ feat}, other characters in the charter may choose to take the same feat (with GM approval) even if they do not meet its prerequisites. In this case none of the characters gain the completion benefit until all the characters qualify for the completion benefit.",
+			"@HL[Story Feats:] The common goals of a charter allow multiple characters to become part of the same story. If one character takes a ‹main/feats_>story« feat›, other characters in the charter may choose to take the same feat (with GM approval) even if they do not meet its prerequisites. In this case none of the characters gain the completion benefit until all the characters qualify for the completion benefit.",
 			"",
 			"[^C]: No such feat was presented in the sourcebook."
 		],
@@ -59,7 +59,7 @@
 		"name": "Companions, Cohorts, etc.",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/140}",
+			"‹SOURCE Ultimate Campaign/140›",
 			"",
 			"In a typical campaign, each player controls one character. However, there are several ways for you to temporarily or permanently gain the assistance of a companion, such as an animal companion, a cohort, an eidolon, or a familiar. The combat advantages of controlling a second creature are obvious, but having a companion also has drawbacks and requires an understanding of both your role and the GM's in determining the creature's actions. This section addresses common issues for companions and the characters who use them."
 		],
@@ -87,7 +87,7 @@
 		"name": "Controlling Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/140}",
+			"‹SOURCE Ultimate Campaign/140›",
 			"",
 			"How a companion works depends on the campaign as well as the companion's nature, intelligence, and abilities. In some cases, the rules do not specify whether you or the GM controls the companion. If you're entirely in control, the companion acts like a subsidiary PC, doing exactly what you want just like a true PC. If the GM is control, you can make suggestions or attempt to influence the companion, but the GM determines whether the creature is willing or able to attempt what you want."
 		],
@@ -113,19 +113,19 @@
 		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/140}",
+			"‹SOURCE Ultimate Campaign/140›",
 			"",
 			"Whether you or the GM controls a particular companion depends largely on the creature's intelligence and level of independence from you.",
 			"",
-			"@HL[Nonsentient Companions:] A nonsentient companion (one with animal-level intelligence) is loyal to you in the way a well-trained dog is - the creature is conditioned to obey your commands, but its behavior is limited by its intelligence and it can't make altruistic moral decisions, such as nobly sacrificing itself to save another. Animal companions, cavalier mounts, and purchased creatures (such as common horses and guard dogs) fall into this category. In general they're GM-controlled companions. You can direct them using the {skill/Handle Animal} skill, but their specific behavior is up to the GM.",
+			"@HL[Nonsentient Companions:] A nonsentient companion (one with animal-level intelligence) is loyal to you in the way a well-trained dog is - the creature is conditioned to obey your commands, but its behavior is limited by its intelligence and it can't make altruistic moral decisions, such as nobly sacrificing itself to save another. Animal companions, cavalier mounts, and purchased creatures (such as common horses and guard dogs) fall into this category. In general they're GM-controlled companions. You can direct them using the ‹skill/Handle Animal› skill, but their specific behavior is up to the GM.",
 			"",
 			"@HL[Sentient Companions:] A sentient companion (a creature that can understand language and has an Intelligence score of at least 3) is considered your ally and obeys your suggestions and orders to the best of its ability. It won't necessarily blindly follow a suicidal order, but it has your interests at heart and does what it can to keep you alive. Paladin bonded mounts, familiars, and cohorts fall into this category, and are usually player-controlled companions.",
 			"",
 			"@HL[Eidolons:] Outside the linear obedience and intelligence scale of sentient and nonsentient companions are eidolons: intelligent entities magically bound to you. Whether you wish to roleplay this relationship as friendly or coerced, the eidolon is inclined to obey you unless you give a command only to spite it. An eidolon would obey a cruel summoner's order to save a child from a burning building, knowing that at worst the fire damage would temporarily banish it, but it wouldn't stand in a bonfire just because the summoner said to. An eidolon is normally a player-controlled companion, but the GM can have the eidolon refuse extreme orders that would cause it to suffer needlessly.",
 			"",
-			"@HL[Magical Control:] {spell/Charm person}, {spell/dominate person}, and similar effects turn an NPC into a companion for a limited time. Most charm-like effects make the target friendly to you; the target has to follow your requests only if they're reasonable, and has its own ideas about what is reasonable. For example, few creatures consider \"hand over all your valuables\" or \"let me put these manacles on you\" a reasonable request from a friend. You might have to use {skill/Diplomacy} or {skill/Intimidate} checks to influence a charmed ally, and the GM has the final say as to what happens. Though the target of a charm effect considers you a friend, it probably feels indifferent at best toward the other PCs and won't listen to requests from them. A creature under a dominate effect is more of a puppet, and you can force it to do anything that isn't suicidal or otherwise against its well-being. Treat it as player-controlled, with the GM making its saving throws to resist inappropriate commands.",
+			"@HL[Magical Control:] ‹spell/Charm person›, ‹spell/dominate person›, and similar effects turn an NPC into a companion for a limited time. Most charm-like effects make the target friendly to you; the target has to follow your requests only if they're reasonable, and has its own ideas about what is reasonable. For example, few creatures consider \"hand over all your valuables\" or \"let me put these manacles on you\" a reasonable request from a friend. You might have to use ‹skill/Diplomacy› or ‹skill/Intimidate› checks to influence a charmed ally, and the GM has the final say as to what happens. Though the target of a charm effect considers you a friend, it probably feels indifferent at best toward the other PCs and won't listen to requests from them. A creature under a dominate effect is more of a puppet, and you can force it to do anything that isn't suicidal or otherwise against its well-being. Treat it as player-controlled, with the GM making its saving throws to resist inappropriate commands.",
 			"",
-			"@HL[Common Exceptions:] Some companions are exceptions, such as an intelligent companion who doesn't bear exceptional loyalty toward you (for example, a hired guard), a weaker minion who is loyal to you but lacks the abilities or resources to assist in adventuring tasks, and a called outsider (such as from {spell/planar ally}) who agrees to a specific service but still has a sense of self-preservation. You can use {skill/Bluff}, Diplomacy, and Intimidate to influence such companions, but the GM is the final arbiter of their actions. For example, a PC might use threats to convince a caravan guard to hold back an ogre for a few rounds or to prevent her zealous followers from attacking a rival adventurer, but the GM makes the decision whether the guard runs away after getting hit once or the followers attack when provoked.",
+			"@HL[Common Exceptions:] Some companions are exceptions, such as an intelligent companion who doesn't bear exceptional loyalty toward you (for example, a hired guard), a weaker minion who is loyal to you but lacks the abilities or resources to assist in adventuring tasks, and a called outsider (such as from ‹spell/planar ally›) who agrees to a specific service but still has a sense of self-preservation. You can use ‹skill/Bluff›, Diplomacy, and Intimidate to influence such companions, but the GM is the final arbiter of their actions. For example, a PC might use threats to convince a caravan guard to hold back an ogre for a few rounds or to prevent her zealous followers from attacking a rival adventurer, but the GM makes the decision whether the guard runs away after getting hit once or the followers attack when provoked.",
 			"",
 			"The GM may deviate from the above suggestions, such as allowing a druid to control an animal companion directly, creating a more equivalent or even antagonistic relationship between a summoner and an eidolon, or roleplaying a mentoring relationship between a veteran warhorse and the young paladin who inherited his loyalty. Before you create a character with a companion creature (or decide to add a companion in play), the GM should explain to everyone how much influence you and the GM each have over the creature's actions. That way, everyone is fully informed about all aspects of dealing with the companion.",
 			"",
@@ -146,19 +146,19 @@
 		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/141}",
+			"‹SOURCE Ultimate Campaign/141›",
 			"",
 			"The GM should keep in mind several factors when it comes to companions, whether handling them as suggested above or altering the balance to give you more or less control.",
 			"",
 			"@HL[Ease of Play:] Changing who controls a companion can make the game easier or harder for the GM. Controlling a cohort in combat is one more complex thing for the GM to deal with. The GM must keep track of a cohort's tactics and motivations and how those affect it in combat while keeping her own knowledge of the monsters separate from the cohort's knowledge; otherwise, the cohort will outshine the PCs with superior tactics. Giving you control over these decisions (while still allowing the GM to veto certain actions) alleviates some of the burden and allows you to plan interesting tactics between yourself and your cohort, much as you would have mastered during times you trained together.",
 			"",
-			"Conversely, giving a player full control over the actions of two characters can slow down the game. If you're prone to choice paralysis, playing two turns every round can drag the game to a halt. If this is a problem, the GM should suggest that another player help run the companion or ask you to give up the companion and alter yourself to compensate (such as by choosing a different feat in place of {feat/Leadership}, taking a domain instead of a druid animal companion, or selecting the \"companions\" option for a ranger's hunter's bond ability instead of an animal).",
+			"Conversely, giving a player full control over the actions of two characters can slow down the game. If you're prone to choice paralysis, playing two turns every round can drag the game to a halt. If this is a problem, the GM should suggest that another player help run the companion or ask you to give up the companion and alter yourself to compensate (such as by choosing a different feat in place of ‹feat/Leadership›, taking a domain instead of a druid animal companion, or selecting the \"companions\" option for a ranger's hunter's bond ability instead of an animal).",
 			"",
 			"@HL[Game Balance:] Even a simple change like allowing players to directly control companions has repercussions in the game mechanics. For example, if a druid has complete control over an animal companion, there's no reason for her to put ranks in Handle Animal, freeing up those ranks for other valuable skills like Perception. If a wizard with a guard dog doesn't have to use a move action to make a Handle Animal check to have the dog attack, he has a full set of actions each round and a minion creature that doesn't require investing any extra time to \"summon\" it. If companion animals don't have to know specific tricks, the PC can use any animal like an ally and plan strategies (like flanking) as if the animal were much smarter than it actually is.",
 			"",
 			"With intelligent companions such as cohorts, giving you full control means you're controlling two characters and can take twice as many actions as the other players. The GM can create a middle ground, such as requiring you to put ranks in Handle Animal but not requiring you to make checks, or reducing the action needed to command an animal, but these decisions should be made before the companion joins the group.",
 			"",
-			"@HL[Sharing Information:] Whenever you control multiple creatures, there are issues of sharing information between you and your companions. Some companions have special abilities that facilitate this sort of communication, such as a familiar's empathic link or an eidolon's bond senses ability, but most companions are limited to what they can observe with their own senses. For example, if a wizard using {spell/see invisibility} knows there is an invisible rogue across the room, he can't just direct his guard dog to attack the rogue; he has to use the seek command to move the dog to the general area of the rogue, and even then he can't use the attack command to attack the rogue because the rogue isn't an \"apparent enemy.\" If the GM allows the wizard to make the dog fight the invisible rogue, that makes the animal much more versatile than normal, and also devalues the special nature of a true empathic or telepathic bond with a companion. If the dog is allowed to work outside the PC's line of sight, it devalues abilities such as a wizard's ability to scry on his familiar. Of course, intelligent companions using speech can bypass some of these limitations (such as telling a cohort there's an invisible rogue in the corner)."
+			"@HL[Sharing Information:] Whenever you control multiple creatures, there are issues of sharing information between you and your companions. Some companions have special abilities that facilitate this sort of communication, such as a familiar's empathic link or an eidolon's bond senses ability, but most companions are limited to what they can observe with their own senses. For example, if a wizard using ‹spell/see invisibility› knows there is an invisible rogue across the room, he can't just direct his guard dog to attack the rogue; he has to use the seek command to move the dog to the general area of the rogue, and even then he can't use the attack command to attack the rogue because the rogue isn't an \"apparent enemy.\" If the GM allows the wizard to make the dog fight the invisible rogue, that makes the animal much more versatile than normal, and also devalues the special nature of a true empathic or telepathic bond with a companion. If the dog is allowed to work outside the PC's line of sight, it devalues abilities such as a wizard's ability to scry on his familiar. Of course, intelligent companions using speech can bypass some of these limitations (such as telling a cohort there's an invisible rogue in the corner)."
 		],
 		"parent_topics": [
 			"advanced_player_topics",
@@ -174,7 +174,7 @@
 		"name": "Advancing Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/142}",
+			"‹SOURCE Ultimate Campaign/142›",
 			"",
 			"Another issue is who gets to control the companion's advancement. Animal companions, eidolons, and cohorts all advance much like PCs, making choices about feats, skills, special abilities, and (in the case of cohorts) class levels. Whoever controls the companion's actions also makes decisions about its advancement, but there is more of a shared role between you and the GM for some types of companions.",
 			"",
@@ -192,17 +192,17 @@
 			"",
 			"A cohort is generally considered a player-controlled companion, and therefore you get to decide how the cohort advances. The GM might step in if you make choices that are inappropriate for the cohort, use the cohort as a mechanism for pushing the boundaries of the game rules, or treat the cohort unfairly. A cohort is a loyal companion and ally to you, and expects you to treat him fairly, generously, without aloofness or cruelty, and without devoting too much attention to other minions such as familiars or animal companions. The cohort's attitude toward you is generally helpful (as if using the Diplomacy skill); he complies with most of your requests without any sort of skill check, except for requests that are against his nature or put him in serious peril.",
 			"",
-			"If you exploit your cohort, you'll quickly find your {feat/Leadership} score shrinking away. Although this doesn't change the cohort's level, the cohort can't gain levels until your Leadership score allows for a level increase, so if you're a poor leader, you must wait longer for your cohort to level up. In extreme cases, the cohort might abandon you, and you'll have to recruit a new cohort.",
+			"If you exploit your cohort, you'll quickly find your ‹feat/Leadership› score shrinking away. Although this doesn't change the cohort's level, the cohort can't gain levels until your Leadership score allows for a level increase, so if you're a poor leader, you must wait longer for your cohort to level up. In extreme cases, the cohort might abandon you, and you'll have to recruit a new cohort.",
 			"",
-			"Examples of inappropriate advancement choices are a good-aligned companion selecting morally questionable feats, a clumsy cohort suddenly putting many ranks in {skill/Disable Device} (so he can take all the risks in searching for traps instead of you), a spellcaster cohort taking nothing but item creation feats (so you get access to plenty of cheap magic items at the cost of just one feat, Leadership), a fighter cohort taking a level in wizard when he had no previous interest in magic, or you not interacting with your cleric cohort other than to gain defensive spells from a different class or a flanking bonus.",
+			"Examples of inappropriate advancement choices are a good-aligned companion selecting morally questionable feats, a clumsy cohort suddenly putting many ranks in ‹skill/Disable Device› (so he can take all the risks in searching for traps instead of you), a spellcaster cohort taking nothing but item creation feats (so you get access to plenty of cheap magic items at the cost of just one feat, Leadership), a fighter cohort taking a level in wizard when he had no previous interest in magic, or you not interacting with your cleric cohort other than to gain defensive spells from a different class or a flanking bonus.",
 			"",
-			"When you select the Leadership feat, you and the GM should discuss the cohort's background, personality, interests, and role in the campaign and party. Not only does this give the GM the opportunity to reject a cohort concept that goes against the theme of the campaign, but the GM can plan adventure hooks involving the cohort for future quests. The random {rule/background generator} can help greatly when filling in details about the cohort. Once the discussion is done, writing down a biography and personality profile of the cohort helps cement his role in the campaign and provides a strong reference point for later talks about what is or is not appropriate advancement for the cohort.",
+			"When you select the Leadership feat, you and the GM should discuss the cohort's background, personality, interests, and role in the campaign and party. Not only does this give the GM the opportunity to reject a cohort concept that goes against the theme of the campaign, but the GM can plan adventure hooks involving the cohort for future quests. The random ‹rule/background generator› can help greatly when filling in details about the cohort. Once the discussion is done, writing down a biography and personality profile of the cohort helps cement his role in the campaign and provides a strong reference point for later talks about what is or is not appropriate advancement for the cohort.",
 			"",
-			"@HL[Eidolon:] Compared to an animal companion or cohort, an eidolon is a unique type of companion - it is intelligent and loyal to you, and you have absolute power over whether it is present in the material world or banished to its home plane. You literally have the power to reshape the eidolon's body using the {spell/transmogrify} spell, and though technically the eidolon can resist this - the Saving Throw is \"Will negates (harmless)?\" - it is assumed that the eidolon complies with what you want. After all, the eidolon can't actually be killed while summoned; at worst, it might experience pain before damage sends it back to its home plane. This means the eidolon is usually willing to take great risks to help you. If swimming through acid was the only way to save you, it would do so, knowing that it won't die and will recover. The eidolon is a subservient creature whose very nature depends upon your will, so you decide what feats, skill points, ability score increases, and evolutions the eidolon gains as it advances.",
+			"@HL[Eidolon:] Compared to an animal companion or cohort, an eidolon is a unique type of companion - it is intelligent and loyal to you, and you have absolute power over whether it is present in the material world or banished to its home plane. You literally have the power to reshape the eidolon's body using the ‹spell/transmogrify› spell, and though technically the eidolon can resist this - the Saving Throw is \"Will negates (harmless)?\" - it is assumed that the eidolon complies with what you want. After all, the eidolon can't actually be killed while summoned; at worst, it might experience pain before damage sends it back to its home plane. This means the eidolon is usually willing to take great risks to help you. If swimming through acid was the only way to save you, it would do so, knowing that it won't die and will recover. The eidolon is a subservient creature whose very nature depends upon your will, so you decide what feats, skill points, ability score increases, and evolutions the eidolon gains as it advances.",
 			"",
 			"@HL[Follower:] Because a follower is much lower level than you, it's generally not worth determining a follower's exact feats and skill ranks, as he would be ineffective against opponents appropriate for your level. In most cases, knowing the follower's name, gender, race, class, level, and profession is sufficient, such as \"Lars, male human expert 1, sailor.\" Since followers lack full stat blocks, the issue of advancing them is irrelevant. If your Leadership score improves, just add new followers rather than advancing existing ones. However, if events require advancing a follower (such as turning a follower into a cohort to replace a dead cohort), use the same guidelines as for cohorts.",
 			"",
-			"@HL[Hirelings:] Hirelings don't normally gain levels. If the GM is running a kingdom-building campaign where hireling NPCs are heavily involved, you might suggest ways for NPCs to advance, but the final decision is up to the GM. If you want more control over your hireling's feats, skills, and class levels, you should select that hireling as a follower with the {feat/Leadership} feat.",
+			"@HL[Hirelings:] Hirelings don't normally gain levels. If the GM is running a kingdom-building campaign where hireling NPCs are heavily involved, you might suggest ways for NPCs to advance, but the final decision is up to the GM. If you want more control over your hireling's feats, skills, and class levels, you should select that hireling as a follower with the ‹feat/Leadership› feat.",
 			"",
 			"@HL[Mounts:] Common mounts (such as horses or riding dogs bought from a merchant, rather than mounts that are class features) don't normally advance. If extraordinary circumstances merit a mount gaining Hit Dice, and you have Handle Animal ranks and take an interest in training the animal, use the same guidelines as those for animal companions."
 		],
@@ -224,9 +224,9 @@
 		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/143}",
+			"‹SOURCE Ultimate Campaign/143›",
 			"",
-			"Increasing an animal's Intelligence to 3 or higher means it is smart enough to understand a language. However, unless an {spell/awaken} spell is used, the animal doesn't automatically and instantly learn a language, any more than a human child does. The animal must be taught a language, usually over the course of months, giving it the understanding of the meaning of words and sentences beyond its trained responses to commands like \"attack\" and \"defend.\"",
+			"Increasing an animal's Intelligence to 3 or higher means it is smart enough to understand a language. However, unless an ‹spell/awaken› spell is used, the animal doesn't automatically and instantly learn a language, any more than a human child does. The animal must be taught a language, usually over the course of months, giving it the understanding of the meaning of words and sentences beyond its trained responses to commands like \"attack\" and \"defend.\"",
 			"",
 			"Even if the animal is taught to understand a language, it probably lacks the anatomy to actually speak (unless *awaken* is used). For example, dogs, elephants, and even gorillas lack the proper physiology to speak humanoid languages, though they can use their limited \"vocabulary\" of sounds to articulate concepts, especially if working with a person who learns what the sounds mean.",
 			"",
@@ -251,7 +251,7 @@
 		"name": "Remembering Companions and Followers",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/143}",
+			"‹SOURCE Ultimate Campaign/143›",
 			"",
 			"### Remembering Companions",
 			"",
@@ -273,7 +273,7 @@
 			"",
 			"Followers are a little more complex because there can be so many of them and they don't usually adventure with you. You and the GM should keep notes about each follower (or group of followers, if there are several in a common location such as a temple) and link this information to the followers' base of operations. For example, the GM's notes about the capital city should mention the thieves' guild informant follower of the rogue PC. Artwork representing the follower (even a simple piece of free clip art found online) can be a stronger reminder than a name that's easily lost in a page full of words.",
 			"",
-			"Followers also have a unique companion role in that they spend most of their time away from you, and might use that time positively or negatively. Just because a follower is low level and you're not doesn't mean the follower stops being a person with needs, fears, and a role to play in your heroic story. Even if you dismiss the follower aspect of the {feat/Leadership} feat as baggage, a follower is going to pay attention to what you do, and if this hero-worship grows tarnished from neglect or abuse, that very same follower provides an opportunity for the GM to demonstrate how bad will among the common folk can negatively affect an adventurer's life (see the {rule/Reputation>_and_fame} section for more information)."
+			"Followers also have a unique companion role in that they spend most of their time away from you, and might use that time positively or negatively. Just because a follower is low level and you're not doesn't mean the follower stops being a person with needs, fears, and a role to play in your heroic story. Even if you dismiss the follower aspect of the ‹feat/Leadership› feat as baggage, a follower is going to pay attention to what you do, and if this hero-worship grows tarnished from neglect or abuse, that very same follower provides an opportunity for the GM to demonstrate how bad will among the common folk can negatively affect an adventurer's life (see the ‹rule/Reputation<_and_fame› section for more information)."
 		],
 		"parent_topics": [
 			"advanced_player_topics",
@@ -292,7 +292,7 @@
 		"name": "Companion Plot Hooks",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/144}",
+			"‹SOURCE Ultimate Campaign/144›",
 			"",
 			"Having a companion in the party is an incredible opportunity for the GM to introduce plot elements into a campaign - and more interesting plots than \"the companion has been kidnapped!\" The players have a general idea about their characters' pre-adventurer histories, but a companion is a bit of a mystery. What did it do before it met you? What is its motivation for joining the adventuring party? What are its goals? What does it do when you aren't around?"
 		],
@@ -321,9 +321,9 @@
 		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/144}",
+			"‹SOURCE Ultimate Campaign/144›",
 			"",
-			"Unless you raised your animal companion from birth, it has its own history and secrets that are likely important and could surprise you. A druid's wolf companion might have been saved by a famous ranger, fought in an orc tribe's arena, or escaped a wizard's experimental lab. What happens when that wolf recognizes that helpful ranger, savage orc, or mad wizard? Is the wolf aggressive when the druid isn't around? Does it have behavior quirks like not letting anyone touch the druid when she's sleeping, even allies trying to wake her? What if the companion was once a humanoid, but was cursed or polymorphed into a different shape and lost its memory about its original identity? What if another druid previously cast {spell/awaken} on it, and it has been pretending to be a common animal so it can watch over or spy on a PC? The answers to these questions are the seeds to side plots or entire adventures.",
+			"Unless you raised your animal companion from birth, it has its own history and secrets that are likely important and could surprise you. A druid's wolf companion might have been saved by a famous ranger, fought in an orc tribe's arena, or escaped a wizard's experimental lab. What happens when that wolf recognizes that helpful ranger, savage orc, or mad wizard? Is the wolf aggressive when the druid isn't around? Does it have behavior quirks like not letting anyone touch the druid when she's sleeping, even allies trying to wake her? What if the companion was once a humanoid, but was cursed or polymorphed into a different shape and lost its memory about its original identity? What if another druid previously cast ‹spell/awaken› on it, and it has been pretending to be a common animal so it can watch over or spy on a PC? The answers to these questions are the seeds to side plots or entire adventures.",
 			"",
 			"Animal companions can also incite fear or prejudice among ignorant townsfolk. Most villages don't want rowdy adventurers bringing wolves, bears, lions, giant snakes, and especially dinosaurs into the town square, and innkeepers don't usually want the larger animals staying in rooms with guests. Stables might charge more to board exotic animals or entirely refuse to do so, and might not have appropriate food for them. If a village is experiencing attacks on its livestock, angry people might be quick to blame a carnivorous animal companion. Conversely, innocent children could have a circus-like fascination with exotic animal companions and help break the ice between visiting adventurers and suspicious locals."
 		],
@@ -345,7 +345,7 @@
 		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/145}",
+			"‹SOURCE Ultimate Campaign/145›",
 			"",
 			"A cohort could have a former life as a criminal that she abandoned after being inspired by your heroic deeds. Just like a PC, a cohort has family and friends, with hopes and concerns for those people. The cohort might be a target for your enemies who are unwilling or unable to strike directly at you (though be careful to avoid making the cohort become a liability or look incompetent). A cohort who is critically injured by a monster might develop a fear about that kind of monster and avoid attacking it. She may have secret vices or virtues that become more prominent over time and can directly affect her relationship with you. If the cohort has an animal companion, you might also suffer some indirect repercussions for the animal's behavior or reputation."
 		],
@@ -367,7 +367,7 @@
 		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/145}",
+			"‹SOURCE Ultimate Campaign/145›",
 			"",
 			"An eidolon has the same mystery as a cohort, except its origins are far weirder. It might have been linked to another summoner before its bond with you. It might be a natural creature altered by planar energies and banished to a far realm, or a former adventurer lost in a disastrous mission to an unknown plane. If it resembles a more conventional planar monster (such as an archon, a dretch, or an elemental), it might have been accidentally summoned or called by a sloppy spellcaster and could have some familiarity with other people in the world. Though an eidolon's soul is strongly tied to its summoner, it has an existence in another world when it is away, and in that world it might be a bully, champion, or slave. How it reacts to things during its limited time on the Material Plane is influenced by its unknown past and secret life.",
 			"",
@@ -391,7 +391,7 @@
 		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/146}",
+			"‹SOURCE Ultimate Campaign/146›",
 			"",
 			"Plot hooks for familiars are similar to those for animal companions, as they can have the same unknown backgrounds and instinctive reactions to people they knew when they were just common animals. Fortunately, familiars are usually small creatures that can easily pass for common pets as long as they don't do anything that reveals their unusual intelligence. Most townsfolk aren't averse to a common cat, a trained hawk, or even a snake, though innkeepers and merchants might ask that such animals be kept in a cage to prevent them from getting loose and causing any damage.",
 			"",
@@ -415,11 +415,11 @@
 		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/146}",
+			"‹SOURCE Ultimate Campaign/146›",
 			"",
-			"A follower should be more than an acquaintance or an employee. A follower is devoted to you in the same way a cohort is, but has fewer resources at his disposal and in most cases isn't an adventurer. The follower sees you as a hero or celebrity: someone to emulate. Though it's easy to treat followers as a single, nameless group, a smart player realizes that they don't have to group together. Followers can be spread out over multiple settlements and have multiple roles. For example, if you have a {feat/Leadership} score of 10, you can have five 1st-level followers: a city guard in the capital, an acolyte at the high temple, an informant in the thieves' guild, an adept in a frontier village, and a strange child saved from a goblin's hunger. Gaining followers is an opportunity for you to look back over your adventuring career, recall important or noteworthy NPCs, and solidify the bonds between those NPCs and you.",
+			"A follower should be more than an acquaintance or an employee. A follower is devoted to you in the same way a cohort is, but has fewer resources at his disposal and in most cases isn't an adventurer. The follower sees you as a hero or celebrity: someone to emulate. Though it's easy to treat followers as a single, nameless group, a smart player realizes that they don't have to group together. Followers can be spread out over multiple settlements and have multiple roles. For example, if you have a ‹feat/Leadership› score of 10, you can have five 1st-level followers: a city guard in the capital, an acolyte at the high temple, an informant in the thieves' guild, an adept in a frontier village, and a strange child saved from a goblin's hunger. Gaining followers is an opportunity for you to look back over your adventuring career, recall important or noteworthy NPCs, and solidify the bonds between those NPCs and you.",
 			"",
-			"Choosing followers gives you a network of loyal contacts who trust and respect you. Though they might not have the resources or backbone to fight on your behalf, they're always on the lookout for ways to help you in any way they can. In effect, they are trustworthy NPC contacts ({rule/Trust/ score} 4). The city guard might invite you to gamble with the other guards or arrange to have your armor polished. The acolyte might have tips about an upcoming religious festival and the clergy's concerns about a nearby plague. The informant might have news about mysterious disappearances or volunteer to keep an eye on your rival. A thug might bully the truth out of a tight-lipped witness or provide inside information on her employer. The adept might send messages about strange events from the wildlands. The strange child might have precognitive visions, perhaps from budding magical powers.",
+			"Choosing followers gives you a network of loyal contacts who trust and respect you. Though they might not have the resources or backbone to fight on your behalf, they're always on the lookout for ways to help you in any way they can. In effect, they are trustworthy NPC contacts (‹rule/Trust« score› 4). The city guard might invite you to gamble with the other guards or arrange to have your armor polished. The acolyte might have tips about an upcoming religious festival and the clergy's concerns about a nearby plague. The informant might have news about mysterious disappearances or volunteer to keep an eye on your rival. A thug might bully the truth out of a tight-lipped witness or provide inside information on her employer. The adept might send messages about strange events from the wildlands. The strange child might have precognitive visions, perhaps from budding magical powers.",
 			"",
 			"If you ever lose or dismiss your cohort, selecting a replacement from among your followers not only gives you an excuse to spend some downtime training that follower to become your new cohort, but rewards the loyalty of all the other followers, as they see that you treat them as near equals.",
 			"",
@@ -444,7 +444,7 @@
 		"name": "Reviving and Replacing Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/147}",
+			"‹SOURCE Ultimate Campaign/147›",
 			"",
 			"Adventuring is a dangerous career, and sometimes an animal companion, cohort, or familiar dies or is lost. A change in your alignment or religion might drive away your cohort, or the cohort's role in the story might end based on discussion between you and the GM. An extended voyage in a dangerous environment might convince a druid to free a trusted companion that would otherwise suffer and die if forced to travel (such as a polar bear in the desert). A ranger might discover a rare specimen of a favorite type of creature and want to claim it as his own in order to protect it from poachers. Regardless of the cause, when a companion dies or is lost, you need to replace it. This creates an opportunity for roleplaying."
 		],
@@ -469,13 +469,13 @@
 		"name": "Reviving a Dead Companion",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/147}",
+			"‹SOURCE Ultimate Campaign/147›",
 			"",
-			"A lost animal companion, cohort, familiar, or follower can be raised or resurrected with spells such as {spell/raise dead}, {spell/raise animal companion}, {spell/resurrection}, or {spell/true resurrection}. For a cohort or follower with character levels, these kinds of spells give the character one or more negative levels - a price worth paying if the alternative is death. Creatures with no character levels (such as animal companions and familiars) count as 1st level for the purpose of these spells, and therefore they take Constitution drain instead of negative levels. A nonsentient companion is assumed to be willing to return to life unless you were cruel to it or directly responsible for its death.",
+			"A lost animal companion, cohort, familiar, or follower can be raised or resurrected with spells such as ‹spell/raise dead›, ‹spell/raise animal companion›, ‹spell/resurrection›, or ‹spell/true resurrection›. For a cohort or follower with character levels, these kinds of spells give the character one or more negative levels - a price worth paying if the alternative is death. Creatures with no character levels (such as animal companions and familiars) count as 1st level for the purpose of these spells, and therefore they take Constitution drain instead of negative levels. A nonsentient companion is assumed to be willing to return to life unless you were cruel to it or directly responsible for its death.",
 			"",
-			"In most cases, the companion probably remembers its last moments alive and understands that you're the reason why it is alive again. For a lower-level cohort or a non-adventuring follower, the gift of a second chance at life is something very treasured and earns you great respect and devotion. You can gain the reputation of \"fairness and generosity\" for the purposes of the {feat/Leadership} feat.",
+			"In most cases, the companion probably remembers its last moments alive and understands that you're the reason why it is alive again. For a lower-level cohort or a non-adventuring follower, the gift of a second chance at life is something very treasured and earns you great respect and devotion. You can gain the reputation of \"fairness and generosity\" for the purposes of the ‹feat/Leadership› feat.",
 			"",
-			"Using {spell/reincarnate} is an alternative option, but has a similar effect on a companion's loyalty and affection. Few humans would choose to be reincarnated as a bugbear or kobold, but if the choice is that or death, a new life in a new body is generally preferred. For an animal companion, the GM should create a random table of creatures similar to its original form; for example, a lion might be reincarnated as a leopard, cheetah, or tiger."
+			"Using ‹spell/reincarnate› is an alternative option, but has a similar effect on a companion's loyalty and affection. Few humans would choose to be reincarnated as a bugbear or kobold, but if the choice is that or death, a new life in a new body is generally preferred. For an animal companion, the GM should create a random table of creatures similar to its original form; for example, a lion might be reincarnated as a leopard, cheetah, or tiger."
 		],
 		"parent_topics": [
 			"advanced_player_topics",
@@ -492,7 +492,7 @@
 		"subtitle": "Companions",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/147}",
+			"‹SOURCE Ultimate Campaign/147›",
 			"",
 			"In some cases, replacing an animal companion or familiar can be as easy as purchasing an animal of the desired type and declaring it your new companion. [Attuning a familiar to its new master](class/wizard) requires a ritual. [Choosing an animal companion](class/druid) requires 24 hours of prayer. The ceremony can also be used to attract and bond with an animal appropriate to the local environment. However, you might want to wait for the campaign to present an appropriate companion, such as an animal you rescue from a cruel enemy that you tame with the ritual or ceremony. In terms of game mechanics, there is no difference between any of these options, and you should work with the GM to find a replacement method that is appropriate to the campaign.",
 			"",
@@ -512,7 +512,7 @@
 		"name": "Family and Lineage",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/166}",
+			"‹SOURCE Ultimate Campaign/166›",
 			"",
 			"A hero doesn't just blink into existence the moment you fill out a character sheet; he came from somewhere. For most characters, that means he has or had a family: a mother and father, who in turn had mothers and fathers of their own, and so on, stretching back into the past in a chain of ancestry. This is the character's lineage, and it shapes and defines the character, whether he's consciously aware of it or not. Some lineages are more complex than others - adoption, sorcerer bloodlines, and reincarnation are a few examples - but the idea of family is still important beyond immediate blood ties. Whatever form this lineage takes, it has a profound effect on the character's life, story, and role in the campaign."
 		],
@@ -543,11 +543,11 @@
 		"name": "Developing Your Family",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/166}",
+			"‹SOURCE Ultimate Campaign/166›",
 			"",
 			"The most obvious manifestation of your character's lineage is his still-living relatives. Many of these NPCs have been with the character since birth, and helped shape him into the person he is today. A character's family is an extension of that character's backstory, and so you should ultimately have the final say over its size and nature. The GM should only intervene when your desired family would disrupt the campaign in some way or give you an unfair advantage. For the same reason, the GM should avoid introducing new members to your character's family after the campaign begins, unless the circumstances of the story (such as marriage or pregnancy) demand it.",
 			"",
-			"The first thing you need to do is to determine the size and composition of your character's family. This can be chosen arbitrarily, within reason, or can be [generated randomly](rule/background_generator). One character's family might consist solely of the single parent who raised him, while another character might be a part of a large clan or noble house. Once you determine the size of the family, you can use the guidelines in this section and in {rule/Non-Player Characters} to further develop the personalities of these relatives. Every family is different, so it's hard to generalize a PC's relationship with his relatives. The following guidelines are a good place to start. This assumes a happy, functional family. For other family types of dynamics, see Complicated and Dysfunctional Families.",
+			"The first thing you need to do is to determine the size and composition of your character's family. This can be chosen arbitrarily, within reason, or can be [generated randomly](rule/background_generator). One character's family might consist solely of the single parent who raised him, while another character might be a part of a large clan or noble house. Once you determine the size of the family, you can use the guidelines in this section and in ‹rule/Non-Player Characters› to further develop the personalities of these relatives. Every family is different, so it's hard to generalize a PC's relationship with his relatives. The following guidelines are a good place to start. This assumes a happy, functional family. For other family types of dynamics, see Complicated and Dysfunctional Families.",
 			"",
 			"@HL[Immediate Family:] This group includes anyone who played a direct role in raising the character, or anyone whom the character is raising (such as a child or younger sibling). Generally this includes the character's mother, father, surrogate parents, brothers, sisters, and any other live-in relatives. The character's spouse (if any) also belongs in this category, as do any children. The size of an immediate family varies by culture, but for most campaigns they shouldn't be too numerous. These family members are usually very loyal, and start the campaign with a helpful attitude toward the PC (though in most campaigns they are low-level NPC-class characters and can't provide much support in terms of finances or gear). It should be difficult to permanently worsen their attitudes, barring exceptionally heinous actions. A character's greatest obligations are often to immediate family members, and when times get rough for the family, he may be expected to spend time or money helping them.",
 			"",
@@ -575,7 +575,7 @@
 		"name": "Complicated and Dysfunctional Families",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/166}",
+			"‹SOURCE Ultimate Campaign/166›",
 			"",
 			"Of course, not all families get along. Past trauma, such as abuse or neglect, can shatter bonds, poisoning what should be healthy relationships. Politics and religion also drive wedges between relatives, turning brother against brother and mother against daughter. Sometimes a simple clash of personalities is enough to turn one family member away. Because of reasons like these, some family members begin with a worse attitude toward your PC than the above guidelines suggest. Most such relatives will be unfriendly to the PC at worst, though hostile relatives are possible in extreme cases.",
 			"",
@@ -603,9 +603,9 @@
 		"name": "Family Values",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/167}",
+			"‹SOURCE Ultimate Campaign/167›",
 			"",
-			"You can create and describe the individual members of your character's family using rules in {rule/Non-Player Characters} and the guidelines earlier in this section, but a true family is more than a collection of NPCs with the same surname. Families have traditions, values, and a shared folklore that sets them apart, even from other groups in the same culture. When developing your character's family, you should consider what makes that family unique.",
+			"You can create and describe the individual members of your character's family using rules in ‹rule/Non-Player Characters› and the guidelines earlier in this section, but a true family is more than a collection of NPCs with the same surname. Families have traditions, values, and a shared folklore that sets them apart, even from other groups in the same culture. When developing your character's family, you should consider what makes that family unique.",
 			"",
 			"Does the family have any famous ancestors that they're proud or embarrassed of? What stories do the family elders tell about them? What stories do other family members tell? Does the family follow any special naming traditions, or worship a deity unusual for the region? What songs do they sing? Do any members have notorious reputations? Does the family have a motto? What values do they hold and what behaviors do they condemn? These are just a few examples of questions you can use to breathe life into the family and give its members a sense of cohesion."
 		],
@@ -629,7 +629,7 @@
 		"name": "Including Families in the Game",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/167}",
+			"‹SOURCE Ultimate Campaign/167›",
 			"",
 			"While creating and developing a character's family is largely your responsibility, it's up to the GM to determine how large a role that family plays in the campaign. The family's role might be limited to that of a background element, serving only to flesh out your character concept, or it could play a pivotal role in the campaign's story, tying the character directly to the plot and motivating her from adventure to adventure. Creating a family for your character helps establish an emotional connection with the campaign setting, and the GM should encourage this by giving your family some measure of in-game relevance. Yet placing too much emphasis on one character's family gives that player undue influence over the campaign, and unless the rest of the party is composed of playing members of the same family, the other players could feel underrepresented.",
 			"",
@@ -656,13 +656,13 @@
 		"subtitle": "Family",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/168}",
+			"‹SOURCE Ultimate Campaign/168›",
 			"",
 			"Unless your character's family is astonishingly poor, they should be able to provide the PC and her allies with simple, mundane aid. This might mean a decent meal, a clean set of clothes, a roof for the night, or a few extra hands for some manual labor. Beyond this, what sort of aid the family provides depends on the family's interests and skills. A family of artisans might offer to craft a nonmagical piece of equipment, or lend tools and equipment related to their trade. A family of musicians might help you make contact with an influential noble patron, or throw a party for your friends and allies after a great victory.",
 			"",
-			"Family members should never fight your PC's battles for you, and probably shouldn't fight at all except in extreme circumstances - after all, your PC is likely the adventurous member of the family. However, if you take the {feat/Leadership} feat and select a family member as a cohort, the normal cohort rules apply and you may turn a family member into a combat-ready NPC (though the rest of your family may never forgive you if you get your relative killed by a monster).",
+			"Family members should never fight your PC's battles for you, and probably shouldn't fight at all except in extreme circumstances - after all, your PC is likely the adventurous member of the family. However, if you take the ‹feat/Leadership› feat and select a family member as a cohort, the normal cohort rules apply and you may turn a family member into a combat-ready NPC (though the rest of your family may never forgive you if you get your relative killed by a monster).",
 			"",
-			"One easy way to handle the family's aid to your PC is to use the rules for {rule/NPC Boons}, mainly in the form of favor and skill boons. These boons usually come only from immediate family members, and even then only as often as the GM feels is appropriate. Unique boons might make an excellent reward for a PC who does her family a great service.",
+			"One easy way to handle the family's aid to your PC is to use the rules for ‹rule/NPC Boons›, mainly in the form of favor and skill boons. These boons usually come only from immediate family members, and even then only as often as the GM feels is appropriate. Unique boons might make an excellent reward for a PC who does her family a great service.",
 			"",
 			"These offers of help don't come for free. Your character is expected to help the family when problems arise. The family should primarily ask for small favors, things your character can take care of with a simple skill check or a little gold. For example, your niece might ask you to help her enroll in a prestigious academy, necessitating a Diplomacy check with the school's dean, or your character's brother might ask for a small loan to start a new business. These favors should play to your character's strengths, and come with tangible benefits for your adventuring career in order to prevent the family member from becoming a GM-controlled nuisance. For example, your niece can arrange to get you access to her school's magical library, and your brother can give you a discount on the goods or services his business sells. These activities should take place during downtime so as to not detract from adventuring. Family obligations are also a way to introduce short side quests into the game, although GMs should be sure to include plot hooks that interest the rest of the party."
 		],
@@ -687,15 +687,15 @@
 		"subtitle": "Family",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/168}",
+			"‹SOURCE Ultimate Campaign/168›",
 			"",
-			"The GM may decide that your character inherits something of value from a deceased relative. This may be as innocuous as a village farm or a house in the city, an adventurer's heirloom such as a masterwork rapier or {magic-ring/ring of protection +1}, or something cryptic and unnerving like a glowing frog idol or a skull that whispers secrets.",
+			"The GM may decide that your character inherits something of value from a deceased relative. This may be as innocuous as a village farm or a house in the city, an adventurer's heirloom such as a masterwork rapier or ‹magic-ring/ring of protection +1›, or something cryptic and unnerving like a glowing frog idol or a skull that whispers secrets.",
 			"",
 			"These items are often the source of adventure hooks: Perhaps squatters are living in your house, the rapier has an inscription in a lost language, or cultists are trying to steal the idol. Sometimes the inheritance creates family drama, such as a brother who is upset that you got the house instead of him, an impoverished uncle who'd like to sell the ring, or a religious cousin who shuns you because you own the blasphemous skull. Just like in real life, an inheritance can divide close family members or create alliances out of distant relatives.",
 			"",
 			"These guidelines for inheritance don't apply if you are just using the idea as a way to provide roleplaying flavor for your character's starting equipment. For example, if your starting equipment at 1st level includes a normal longbow, you don't need GM approval to say that the bow once belonged to your grandmother, who was a ranger in her youth. However, if you wanted an heirloom masterwork longbow or +1 longbow for your character, you would need GM approval because the price of either of those items is beyond what a 1st-level character could afford.[^1]",
 			"",
-			"[^1]: {rule/Traits} can allow for some masterwork heirlooms to become feasible, such as {trait/Ancestral Weapon}, {trait/Ancestor's Blade}, {trait/Chosen of Iomedae} {trait/Duskwalker Agent}, {trait/Lair Snake}, {trait/Rich Parents}, {trait/Signature Moves} or {trait/Well-Provisioned Adventurer}."
+			"[^1]: ‹rule/Traits› can allow for some masterwork heirlooms to become feasible, such as ‹trait/Ancestral Weapon›, ‹trait/Ancestor's Blade›, ‹trait/Chosen of Iomedae› ‹trait/Duskwalker Agent›, ‹trait/Lair Snake›, ‹trait/Rich Parents›, ‹trait/Signature Moves› or ‹trait/Well-Provisioned Adventurer›."
 		],
 		"parent_topics": [
 			"advanced_player_topics",
@@ -717,9 +717,9 @@
 		"name": "Family Members as Foes",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/168}",
+			"‹SOURCE Ultimate Campaign/168›",
 			"",
-			"Villainous relatives are everywhere in popular fiction, and for good reason - confronting the \"black sheep\" of the family, whether over bad politics, stealing from the family business, or dangerous criminal acts carries a lot of dramatic tension, and the fallout from this sort of storyline can impact the entire family for generations. Having a friendly family member turn out to be the villain is just as effective as having a retired PC become a villain (see {rule/Retirement}). The GM should use this as a plot device sparingly - turning relatives into villains is predictable, can negatively impact your perception of your character's family, and might focus the campaign too much on one player.",
+			"Villainous relatives are everywhere in popular fiction, and for good reason - confronting the \"black sheep\" of the family, whether over bad politics, stealing from the family business, or dangerous criminal acts carries a lot of dramatic tension, and the fallout from this sort of storyline can impact the entire family for generations. Having a friendly family member turn out to be the villain is just as effective as having a retired PC become a villain (see ‹rule/Retirement›). The GM should use this as a plot device sparingly - turning relatives into villains is predictable, can negatively impact your perception of your character's family, and might focus the campaign too much on one player.",
 			"",
 			"Instead of using a family member as a turncoat, you can plant the seeds for shady members of the family that the GM can use or ignore for the campaign. If your character's family owns a horse ranch, you may have a cousin who's fallen in with horse thieves. If the family owns a farm, a lazy uncle may have run off to join a cult or a gang of bandits. If the family matriarch is heavily involved with the local good temple, an eerie cousin may have sorcerer powers or leave to study necromancy. These NPCs may appear in the campaign later as obvious foes or as morally ambiguous characters you can recruit or ally with - after all, as an adventurer, you may be the black sheep in your family, an embarrassment that nobody decent talks about at family gatherings!",
 			"",
@@ -747,7 +747,7 @@
 		"name": "Death in the Family",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/169}",
+			"‹SOURCE Ultimate Campaign/169›",
 			"",
 			"When a GM kills your PC's family members, it carries just as much risk as using your PC's family members as villains, and yields far fewer benefits. The death of a loved one at an enemy's hand can certainly provide an emotional kick to the campaign, and help characterize a villain as a truly loathsome individual. However, the unforeseen death of a beloved family member can just as easily prove jarring or traumatic if you are heavily invested in your character's family's well-being. If the GM believes it is necessary to place your character's family in peril, you should have a fair opportunity to defend or save them, or at least to distract the one responsible long enough for your family to get to safety."
 		],
@@ -772,7 +772,7 @@
 		"subtitle": "Family",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/169}",
+			"‹SOURCE Ultimate Campaign/169›",
 			"",
 			"Your character's deceased family members can have just as strong an influence over the campaign as you do. Lineages vary widely; one character might be descended from an ancient line of kings, and another could be the child of an infamous thief. Rather than simply granting your character benefits or drawbacks based on her ancestors, your character's legacy should be used to provide hooks for further adventures and quests.",
 			"",
@@ -800,19 +800,19 @@
 		"name": "Masked Personas",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"{SOURCE Inner Sea Intrigue/12}",
+			"‹SOURCE Inner Sea Intrigue/12›",
 			"",
-			"{class/Vigilante/s} take naturally to establishing masked personas distinct from their day-to-day lives, but other adventurers, scoundrels, and troublemakers can also use this strategy to avoid the consequences of their actions. Despite the name, a masked persona does not strictly require a literal mask. Any alternate identities or disguises that characters use consistently while performing their heroic (or villainous) deeds can be considered \"masked personas\" -  including the scarves worn by {pclass/Gray Gardener/s} or the mantis masks worn by {pclass/Red Mantis assassin/s}. Masked identities provide a variety of potential advantages.",
+			"‹class/Vigilante«s› take naturally to establishing masked personas distinct from their day-to-day lives, but other adventurers, scoundrels, and troublemakers can also use this strategy to avoid the consequences of their actions. Despite the name, a masked persona does not strictly require a literal mask. Any alternate identities or disguises that characters use consistently while performing their heroic (or villainous) deeds can be considered \"masked personas\" -  including the scarves worn by ‹pclass/Gray Gardener«s› or the mantis masks worn by ‹pclass/Red Mantis assassin«s›. Masked identities provide a variety of potential advantages.",
 			"",
 			"@HL[Fresh Start:] Characters might create new personas as blank slates that separate their pre-existing reputations and deeds from their clandestine activities. A noble can become a rough-and-tumble warrior, a swindler can become a beacon of justice, and a friendly community leader can inspire horrendous fear.",
 			"",
-			"@HL[Sacred Duty:] The faithful of deities such as {faith/Achaekek}, {faith/Norgorber}, and Razmir revere masks as a method to emulate their deity or become a vessel for their deity. Masked personas are common among these cults.",
+			"@HL[Sacred Duty:] The faithful of deities such as ‹faith/Achaekek›, ‹faith/Norgorber›, and Razmir revere masks as a method to emulate their deity or become a vessel for their deity. Masked personas are common among these cults.",
 			"",
-			"@HL[Safety in Anonymity:] A masked persona absorbs the blame for the actions she undertakes, shielding the character's larger life from repercussions. Even powerful characters with little to fear from reprisal may still be surrounded by vulnerable allies, friends, or family, all of whom could be targeted by enemies of their masked persona. Cheliax's famed City of Masks, Vyre, encourages its residents and visitors to conceal their identities and compromise their deepest-held morals under the guise of anonymity. Rebels like {faith/Milani/'s} herald {monster/Courage Heart} often choose to conceal their identities for this reason. The Gray Gardeners draw upon their shared reputation, and use their masks to prevent outsiders from extracting vengeance for their bloody work.",
+			"@HL[Safety in Anonymity:] A masked persona absorbs the blame for the actions she undertakes, shielding the character's larger life from repercussions. Even powerful characters with little to fear from reprisal may still be surrounded by vulnerable allies, friends, or family, all of whom could be targeted by enemies of their masked persona. Cheliax's famed City of Masks, Vyre, encourages its residents and visitors to conceal their identities and compromise their deepest-held morals under the guise of anonymity. Rebels like ‹faith/Milani«'s› herald ‹monster/Courage Heart› often choose to conceal their identities for this reason. The Gray Gardeners draw upon their shared reputation, and use their masks to prevent outsiders from extracting vengeance for their bloody work.",
 			"",
 			"@HL[Symbolic Roles:] By revealing themselves at only the most opportune times, masked personas can represent ideals and causes that no human being could normally live up to, as idyllic as boundless generosity or as sober as unstoppable revenge. These identities can take on a quality that seems grander and more powerful than any named individual could achieve, inspiring admirers or the common folk to follow their example - or live in constant fear. This superhuman reputation may prevent foes from acting against a character or scare away petty foes who might otherwise challenge her. A masked persona, as a result, can be far more important, influential, and dangerous than her daily identity may be.",
 			"",
-			"@HL[Unpredictability:] A masked persona's origin, prowess, knowledge, agenda, allegiance, vulnerabilities, and sometimes even race, gender, or nationality are difficult (if not impossible) to guess. With few obvious cues, her motivations, habits, and allies become harder to divine, ultimately making a masked persona more difficult to predict or undermine. Members of the {rule/Pathfinder Society/'s} masked leadership, the Decemvirate, wear their ceremonial masks for this reason, concealing their motivations and personal interests from their fellow leaders and the Pathfinder Society at large.",
+			"@HL[Unpredictability:] A masked persona's origin, prowess, knowledge, agenda, allegiance, vulnerabilities, and sometimes even race, gender, or nationality are difficult (if not impossible) to guess. With few obvious cues, her motivations, habits, and allies become harder to divine, ultimately making a masked persona more difficult to predict or undermine. Members of the ‹rule/Pathfinder Society«'s› masked leadership, the Decemvirate, wear their ceremonial masks for this reason, concealing their motivations and personal interests from their fellow leaders and the Pathfinder Society at large.",
 			"",
 			"A masked persona functions much like the vigilante's dual identity class feature, but requires more time to cultivate and provides fewer benefits in terms of game mechanics. It is, however, an option available to all classes to add excitement and intrigue to campaigns, allowing adventuring parties to battle corrupt governments or entrenched crime organizations without having to flee their base of operations or permanently go into hiding."
 		],
@@ -837,11 +837,11 @@
 		"name": "Maintaining a Masked Persona",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"{SOURCE Inner Sea Intrigue/12}",
+			"‹SOURCE Inner Sea Intrigue/12›",
 			"",
 			"At any point, any character can don a disguise to confront foes or conduct affairs. What makes a full masked persona stand apart from a simple disguise is consistency and obfuscation. A character must adopt the same or similar mask, clothing, or iconic equipment as part of her disguise repeatedly when she adventures in the public eye or is seen by survivors of her deeds, slowly giving her masked identity a seeming life of its own. A character wishing to cultivate a masked persona must also endeavor to keep others from linking her true name to the costumed identity, ensuring that her disguise conceals her face or otherwise changes her features enough to seem like a distinct individual.",
 			"",
-			"Adopting a masked persona relies on the {skill/Disguise} skill to fool onlookers, and generally counts as changing only minor details. An adventurer more determined to conceal her identity can augment her costumed identity to conceal her race or change her gender or apparent age. The final result of a character's Disguise check determines the difficulty of onlookers' {skill/Perception} checks to recognize her through the disguise. In general, only characters familiar with the masked persona's normal identity are allowed Perception checks to try to recognize her through the disguise. GMs may wish to always have a character take 10 on masked persona Disguise checks, setting a default DC for that character. A character who adventures both in and out of her costumed identity, and uses similar abilities in both guises, takes a -5 circumstance penalty on attempts to conceal her true identity with the Disguise check. Adopting a masked disguise is faster and easier than adopting a normal disguise, requiring only 5 minutes.",
+			"Adopting a masked persona relies on the ‹skill/Disguise› skill to fool onlookers, and generally counts as changing only minor details. An adventurer more determined to conceal her identity can augment her costumed identity to conceal her race or change her gender or apparent age. The final result of a character's Disguise check determines the difficulty of onlookers' ‹skill/Perception› checks to recognize her through the disguise. In general, only characters familiar with the masked persona's normal identity are allowed Perception checks to try to recognize her through the disguise. GMs may wish to always have a character take 10 on masked persona Disguise checks, setting a default DC for that character. A character who adventures both in and out of her costumed identity, and uses similar abilities in both guises, takes a -5 circumstance penalty on attempts to conceal her true identity with the Disguise check. Adopting a masked disguise is faster and easier than adopting a normal disguise, requiring only 5 minutes.",
 			"",
 			"Secrecy is paramount to maintaining a masked persona, and rumors fly quickly about something as exciting as clandestine adventures. A character can generally trust one individual per class level (beyond her adventuring party) with her secret identity - including enemies who learn her identity, trusted cohorts, or loved ones - before her masked persona is compromised. A compromised masked persona no longer protects a character from divination magic (see next section), but may still offer some protection to a character's reputation at the GM's discretion. A masked persona's anonymity can be restored by reducing the number of people who connect the masked persona with her real identity, either by killing those who know, modifying their memories, or using clever trickery to reject that truth."
 		],
@@ -859,9 +859,9 @@
 		"name": "Benefits of a Masked Persona",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"{SOURCE Inner Sea Intrigue/13}",
+			"‹SOURCE Inner Sea Intrigue/13›",
 			"",
-			"After conducting her affairs in disguise long enough to gain a full level, the character's masked persona becomes established and begins providing a character with tangible benefits, granting her abilities similar to the vigilante's dual identity class feature. A masked persona's alignment still registers as the character's true alignment for spells such as {spell/detect evil}, but the persona otherwise stands out as a separate individual for the purposes of divination spells such as {spell/locate creature} and {spell/scrying}. Characters who know the masked persona's true identity or see through her disguise with a successful {skill/Perception} check can still target her with divination spells.",
+			"After conducting her affairs in disguise long enough to gain a full level, the character's masked persona becomes established and begins providing a character with tangible benefits, granting her abilities similar to the vigilante's dual identity class feature. A masked persona's alignment still registers as the character's true alignment for spells such as ‹spell/detect evil›, but the persona otherwise stands out as a separate individual for the purposes of divination spells such as ‹spell/locate creature› and ‹spell/scrying›. Characters who know the masked persona's true identity or see through her disguise with a successful ‹skill/Perception› check can still target her with divination spells.",
 			"",
 			"A masked persona also shields a character from social and legal repercussions, generally allowing her to go about her daily life without fear of those her masked persona has thwarted or threatened. Attempts to gather information and rumors using skill checks never connect this identity to the character's true self."
 		],
@@ -879,13 +879,13 @@
 		"name": "Masked Persona Feats",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"{SOURCE Inner Sea Intrigue/13}",
+			"‹SOURCE Inner Sea Intrigue/13›",
 			"",
 			"The following feats help a character maintain or gain additional benefits from her masked persona. A character must be have an established, uncompromised masked persona to gain the benefits of the feats listed below (excluding Convincing Persona), and loses access to the feats' benefits if her identity is compromised.",
 			"",
-			"- {feat/Convincing Persona}",
-			"- {feat/Masked Renown}",
-			"- {feat/Masked Symbol}"
+			"- ‹feat/Convincing Persona›",
+			"- ‹feat/Masked Renown›",
+			"- ‹feat/Masked Symbol›"
 		],
 		"parent_topics": [
 			"advanced_player_topics",
@@ -901,7 +901,7 @@
 		"name": "Retirement",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/186}",
+			"‹SOURCE Ultimate Campaign/186›",
 			"",
 			"Every hero's journey comes to an end. Ideally this happens at the conclusion of the campaign, but not every hero makes it that far. Some are crippled in battle, killed without the possibility of resurrection, or altered beyond recognition by foul magic. Others lose the will to adventure or their motives for adventuring become irrelevant. Characters can also fall by the wayside for out-of-game reasons, such as a player's schedule changing and preventing participation or the player losing interest in playing the character or the game.",
 			"",
@@ -934,7 +934,7 @@
 		"subtitle": "Retirement",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/186}",
+			"‹SOURCE Ultimate Campaign/186›",
 			"",
 			"When most people think of retired adventurers, they think of the explorer-turned-tavern owner or the seasoned veteran who now patrols the streets as sheriff. These are characters who turned away from excitement and danger to live simpler, safer lives within the confines of civilization. This is an excellent option for PCs who have strong ties to a particular settlement or who possess skills or abilities that would be of use in the world outside the dungeon. If you're interested in having your PC retire this way, work with the GM to determine what sort of occupation your character can pursue and what location in the campaign world is best for that role.",
 			"",
@@ -956,11 +956,11 @@
 		"subtitle": "Retirement",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/186}",
+			"‹SOURCE Ultimate Campaign/186›",
 			"",
 			"You need to consider your retired PC's relationship with the remaining PCs, including your new character if you have one. If your PC left on good terms, the party members now have a friendly contact to call upon for advice or assistance. The retired PC can also serve as a convenient mouthpiece when the GM needs to relay plot-relevant information to the players. However, the GM should take care not to let your retired PC have too much of an active role in the campaign - the point of retiring is to retire, and if your old character is involved almost as much as your current character that means you're getting twice as much time in the spotlight as the other players.",
 			"",
-			"Your retired PC isn't automatically best friends with your new character and shouldn't be the source of free gold, magic items, or spellcasting (but see the {rule/Lineage} section for information about handling inheritance from earlier PCs). You should think of your retired PC as an allied NPC - to keep things fair, you need to make Diplomacy checks to gain significant favors, and the GM is the final arbiter of how much assistance your old PC is willing to offer based on the needs of the campaign."
+			"Your retired PC isn't automatically best friends with your new character and shouldn't be the source of free gold, magic items, or spellcasting (but see the ‹rule/Lineage› section for information about handling inheritance from earlier PCs). You should think of your retired PC as an allied NPC - to keep things fair, you need to make Diplomacy checks to gain significant favors, and the GM is the final arbiter of how much assistance your old PC is willing to offer based on the needs of the campaign."
 		],
 		"parent_topics": [
 			"advanced_player_topics",
@@ -978,7 +978,7 @@
 		"subtitle": "Retirement",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/186}",
+			"‹SOURCE Ultimate Campaign/186›",
 			"",
 			"A character that stops being a PC doesn't have to quit adventuring; that PC just isn't part of the main adventuring party anymore. A devout mystic might leave the group to undertake a sacred pilgrimage for her church, or a savage warrior may return to her homeland to defend her tribe from foreign invaders. This type of retirement works best for an individualistic character or one whose adventuring motives are independent of the group's overall goals. The ex-PC may not have a direct role to play in the group's future efforts, but that doesn't mean she can't continue to influence the campaign.",
 			"",
@@ -1004,11 +1004,11 @@
 		"subtitle": "Retirement",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/187}",
+			"‹SOURCE Ultimate Campaign/187›",
 			"",
 			"Not all retired characters work to aid the PCs. Your character might harbor some grudge against her old teammates or even outright turn against them given the proper impetus, especially if there were personality conflicts in the group. Foes who were once friends make dangerous opponents, since they know the party's weaknesses. Using former PCs as campaign villains has two great advantages. First, the GM saves time by having a character sheet that is generally a little more powerful than a standard NPC of the same level. Second, the PC-turned-villain instantly engages the players' emotions. However, the latter reason is exactly why the GM should be careful using ex-PCs as villains. Repeated betrayals lose their potency quickly, and might leave players feeling jaded, cynical, or suspicious of any new PC who joins the group. The GM should have the permission of the retired PC's player (obtained discreetly, so as to not spoil the surprise), as many players won't like seeing their heroes turned into villains. Of course, it is also possible for the GM to coordinate with a player to introduce a new PC that they both want to turn into a villain after he spends a stint in the party.",
 			"",
-			"A good betrayal is unexpected but believable in hindsight. This form of retirement works well for a character the party would not immediately suspect, so long as the GM and player can construct a rational motive. Sometimes the circumstances make this easy. A character left for dead or believed killed in battle might survive and swear revenge on the friends who abandoned him. He could return as an undead creature to (quite literally) haunt the PCs, or return in a different form, such as a flesh golem. If no obvious motive for betrayal presents itself, the GM should consider what the ex-PC values most, and use that information to turn the character against the party. Even the most righteous characters may turn against former friends under the right circumstances. Perhaps the villains are holding the character's family hostage to force compliance, or perhaps it's something as simple as a well-placed {spell/suggestion} effect, a {spell/dominate person} spell, or demonic possession.",
+			"A good betrayal is unexpected but believable in hindsight. This form of retirement works well for a character the party would not immediately suspect, so long as the GM and player can construct a rational motive. Sometimes the circumstances make this easy. A character left for dead or believed killed in battle might survive and swear revenge on the friends who abandoned him. He could return as an undead creature to (quite literally) haunt the PCs, or return in a different form, such as a flesh golem. If no obvious motive for betrayal presents itself, the GM should consider what the ex-PC values most, and use that information to turn the character against the party. Even the most righteous characters may turn against former friends under the right circumstances. Perhaps the villains are holding the character's family hostage to force compliance, or perhaps it's something as simple as a well-placed ‹spell/suggestion› effect, a ‹spell/dominate person› spell, or demonic possession.",
 			"",
 			"The key to making the most of a retired character's betrayal is for the GM to tie it in with the campaign story. A former PC that acts alone is good for one fight or a tense roleplaying scene, but not much more than that. One who becomes a recurring villain, however, gives the PCs another hook to get involved with the story and lets the players act on their feelings of betrayal. It also gives them the opportunity to bring the former PC to justice - or offer redemption."
 		],
@@ -1028,7 +1028,7 @@
 		"tags": "changing your character features",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/188}",
+			"‹SOURCE Ultimate Campaign/188›",
 			"",
 			"If you are unsatisfied with a feat, skill, archetype, or class ability you chose, you may spend time in intense training to trade the old ability for a new one. Though it is time-consuming and expensive, this allows you to alter aspects of your character without extreme magic or a traumatic event.",
 			"",
@@ -1036,9 +1036,9 @@
 			"",
 			"Unless stated otherwise, retraining costs gp equal to 10 &times; your level &times; the number of days required to retrain. This is normally paid in full at the start of the retraining period, but the GM might allow you to divide these payments over multiple days. At the GM's discretion, this training cost could be up to 50% higher or lower, depending on situational factors within the settlement: availability of trainers, local economy, cost of materials, and so on.",
 			"",
-			"Some retraining options require you to work with a trainer. If no suitable trainer is available, the GM might allow you to retrain yourself by spending twice the normal time. Even if you train yourself, you must still pay the cost for training (though you don't double the cost as you do the time). Any option that requires a trainer also requires some kind of training facility for that activity (such as a Dojo; see {rule/Rooms}).",
+			"Some retraining options require you to work with a trainer. If no suitable trainer is available, the GM might allow you to retrain yourself by spending twice the normal time. Even if you train yourself, you must still pay the cost for training (though you don't double the cost as you do the time). Any option that requires a trainer also requires some kind of training facility for that activity (such as a Dojo; see ‹rule/Rooms›).",
 			"",
-			"When you use retraining to replace some aspect of your character, you must meet all prerequisites, requirements, and considerations for whatever you're trying to acquire. For example, a 6th-level rogue can't use retraining to learn the {feat/Weapon Specialization} feat because only fighters can choose that feat. When retraining multiple character options (class features, feats, classes, etc.) in one continuous period, all of the new selections are made at the end of that period in an order decided by the player. If this period is interrupted for any reason all choices must be made immediately. In this way players can retrain class features and their prerequisites at the same time.",
+			"When you use retraining to replace some aspect of your character, you must meet all prerequisites, requirements, and considerations for whatever you're trying to acquire. For example, a 6th-level rogue can't use retraining to learn the ‹feat/Weapon Specialization› feat because only fighters can choose that feat. When retraining multiple character options (class features, feats, classes, etc.) in one continuous period, all of the new selections are made at the end of that period in an order decided by the player. If this period is interrupted for any reason all choices must be made immediately. In this way players can retrain class features and their prerequisites at the same time.",
 			"",
 			"Unless otherwise specified, there is no limit to how many times you can use retraining. Options that specify \"one\" of something refer to once per retraining session, not a campaign-wide limitation. For example, a barbarian can retrain one rage power per training session, and when she finishes a session she can start another retraining session to retrain that rage power or another one.",
 			"",
@@ -1072,7 +1072,7 @@
 		"name": "Retraining Ability Score Increases",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/188}",
+			"‹SOURCE Ultimate Campaign/188›",
 			"",
 			"You may retrain an ability score increase gained at level 4, 8, 12, 16, or 20. This takes 5 days. At the end of the training period, remove the +1 bonus from the original ability score and add it to a different ability score. If this retraining means you no longer qualify for a feat, prestige class, or other ability you have, you can't use that feat, prestige class, or ability until you meet the qualifications again. (You can retrain that feat, prestige class, or other ability separately.)"
 		],
@@ -1097,7 +1097,7 @@
 		"name": "Retraining Archetypes",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/189}",
+			"‹SOURCE Ultimate Campaign/189›",
 			"",
 			"You can use the retraining rules to acquire an archetype for your class or abandon an archetype you have.",
 			"",
@@ -1107,7 +1107,7 @@
 			"",
 			"Swapping one archetype for another requires two retraining sessions: one to abandon the archetype, and then one to gain the new one.",
 			"",
-			"Note that you don't have to use the retraining rules to take an archetype if your class level is low enough that the archetype doesn't modify any of your current class abilities. For example, if you're a 1st-level fighter who wants the {arc-fighter/archer/ archetype}, that archetype doesn't replace any class abilities until fighter level 2, so you don't need to use the retraining rules at all; once you reach 2nd level, you can just decide to take the archer archetype.",
+			"Note that you don't have to use the retraining rules to take an archetype if your class level is low enough that the archetype doesn't modify any of your current class abilities. For example, if you're a 1st-level fighter who wants the ‹arc-fighter/archer« archetype›, that archetype doesn't replace any class abilities until fighter level 2, so you don't need to use the retraining rules at all; once you reach 2nd level, you can just decide to take the archer archetype.",
 			"",
 			"**Example:** Logan's 4th-level fighter has the archer archetype. Because he is 4th level, he has two alternative class features from his archetype (hawkeye at 2nd level and trick shot at 3rd level), so he must spend 10 days and 400 gp retraining to abandon this archetype. If he were 5th level, he would also have the expert archer alternative class feature, which would increase his retraining to 15 days and 750 gp."
 		],
@@ -1132,7 +1132,7 @@
 		"name": "Retraining Class Features",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/189}",
+			"‹SOURCE Ultimate Campaign/189›",
 			"",
 			"Many choices you make about your class features can be retrained. It takes 5 days to retrain one class feature. Training requires spending time with a character of your class whose class level is at least 1 higher than yours and who has the class feature you want. For example, if you are a 5th-level illusionist wizard and want to become a necromancer, you must train with a necromancer of at least 6th level.",
 			"",
@@ -1140,9 +1140,9 @@
 			"",
 			"The class feature you wish to retrain can't be one that you used as a prerequisite for a feat, class feature, archetype, prestige class, or other ability. You must retrain those elements separately before you can retrain this class feature.",
 			"",
-			"If an archetype or variant class feature replaces the listed class feature, at the GM's discretion you may retrain that alternative class feature for an equivalent variant class feature. For example, {ability/inquisitions} exist, which inquisitors can select in place of a domain, and the inquisitor entry below allows you to retrain your chosen domain, so you are allowed to instead retrain an inquisition, swapping it for a domain or another inquisition.",
+			"If an archetype or variant class feature replaces the listed class feature, at the GM's discretion you may retrain that alternative class feature for an equivalent variant class feature. For example, ‹ability/inquisitions› exist, which inquisitors can select in place of a domain, and the inquisitor entry below allows you to retrain your chosen domain, so you are allowed to instead retrain an inquisition, swapping it for a domain or another inquisition.",
 			"",
-			"Class features you can retrain are as follows (some entries also call out other retraining options that are significant for the class in question, such as {rule/retraining |feat/s} for fighters, {rule/skill ranks} for rogues, or {rule/spells known} for sorcerers).",
+			"Class features you can retrain are as follows (some entries also call out other retraining options that are significant for the class in question, such as ‹rule/retraining »feat«s› for fighters, ‹rule/skill ranks› for rogues, or ‹rule/spells known› for sorcerers).",
 			"",
 			"@HL[Alchemist:] Retrain one discovery.",
 			"",
@@ -1150,9 +1150,9 @@
 			"",
 			"@HL[Barbarian:] Retrain one rage power.",
 			"",
-			"@HL[Bard:] Retrain one type of Perform skill associated with your versatile performance class feature. See also {rule/retraining |skill ranks} and {rule/retraining |spells known}.",
+			"@HL[Bard:] Retrain one type of Perform skill associated with your versatile performance class feature. See also ‹rule/retraining »skill ranks› and ‹rule/retraining »spells known›.",
 			"",
-			"@HL[Cavalier:] You can change your order; the rules for this are found on the {ability/Order/ page>s}. See also {rule/retraining |feat/s}.",
+			"@HL[Cavalier:] You can change your order; the rules for this are found on the ‹ability/Order« page<s›. See also ‹rule/retraining »feat«s›.",
 			"",
 			"@HL[Cleric:] Retrain one domain; the new domain must be one granted by your deity. Doing so replaces your list of domain spells and your domain granted powers. If you are a neutral cleric of a neutral deity, you can instead retrain whether you channel positive or negative energy, which also changes whether you spontaneously cast *cure* spells or *inflict* spells.",
 			"",
@@ -1162,7 +1162,7 @@
 			"",
 			"@HL[Gunslinger:] Retrain one firearm type you selected for gun training, or retrain one deed you selected for true grit. See also retraining feats.",
 			"",
-			"@HL[Inquisitor:] Retrain one domain; the new domain must be one granted by your deity or ethos. Doing so replaces your domain granted powers. See also retraining feats and {rule/retraining |spells known}.",
+			"@HL[Inquisitor:] Retrain one domain; the new domain must be one granted by your deity or ethos. Doing so replaces your domain granted powers. See also retraining feats and ‹rule/retraining »spells known›.",
 			"",
 			"@HL[Magus:] Retrain one magus arcana.",
 			"",
@@ -1184,7 +1184,7 @@
 			"",
 			"@HL[Rogue:] Retrain one rogue talent or advanced rogue talent.",
 			"",
-			"@HL[Samurai:] Retrain the weapon you chose for your weapon expertise class ability. You can change your samurai order; the rules for this are on the {ability/Order/ page>s}. See also retraining feats.",
+			"@HL[Samurai:] Retrain the weapon you chose for your weapon expertise class ability. You can change your samurai order; the rules for this are on the ‹ability/Order« page<s›. See also retraining feats.",
 			"",
 			"@HL[Sorcerer:] Retrain your bloodline. Doing so replaces your bonus spells, bloodline arcana, bloodline feats, and bloodline powers. This training takes 5 days for every bonus feat, bloodline arcana, and bloodline power you lose from changing bloodlines. See also retraining feats and retraining spells known.",
 			"",
@@ -1194,14 +1194,14 @@
 			"",
 			"@HL[Wizard:] Retrain your arcane bond by replacing one bonded item with another, replacing your bonded item with a familiar, or replacing your familiar with a bonded item. See also retraining feats.",
 			"",
-			"You can instead retrain your {ability/arcane school>s} (including changing to or from a universalist). Doing so replaces your school's bonus spell slots and school powers. This training takes 5 days for every school power you lose from changing schools.",
+			"You can instead retrain your ‹ability/arcane school<s› (including changing to or from a universalist). Doing so replaces your school's bonus spell slots and school powers. This training takes 5 days for every school power you lose from changing schools.",
 			"",
 			"### Other Classes",
 			"",
 			"There are no official guidelines for Shifter or Vigilante, nor the hybrid and Occult classes, as they were published after this sourcebook. The following are non-official suggestions:",
 			"",
 			"- **Shifter:** Retrain one aspect into another.",
-			"- **Vigilante:** Retrain a social talent into another social talent, or a vigilante talent into another vigilante talent. Alternately, retrain your specialization from being an avenger into being a stalker, or vice versa; this takes 2.5 days for every level of Vigilante you have (this is based on {rule/retraining |class level/s} with synergy, but only half of your identity is being retrained). Talents that were unique to your old specialization become unusable and must be retrained separately.",
+			"- **Vigilante:** Retrain a social talent into another social talent, or a vigilante talent into another vigilante talent. Alternately, retrain your specialization from being an avenger into being a stalker, or vice versa; this takes 2.5 days for every level of Vigilante you have (this is based on ‹rule/retraining »class level«s› with synergy, but only half of your identity is being retrained). Talents that were unique to your old specialization become unusable and must be retrained separately.",
 			"- **Arcanist:** Retrain an exploit or greater exploit.",
 			"- **Bloodrager:** Retrain your bloodline. Doing so replaces your bonus spells, bloodline feats, and bloodline powers. This training takes 5 days for every bonus feat and bloodline power you lose from changing bloodlines.",
 			"- **Brawler:** Retrain a maneuver training choice. This takes 5 days for every +1 bonus you currently have in the maneuver. (For example, if you have +3 to grapple, +2 to sunder and +1 to bull rush, it takes 5 days to retrain bull rush, 10 days to retrain sunder, and 15 days to retrain grapple.) If you wish to swap the bonuses you have between two maneuvers, it takes 5 days for every +1 difference between them. (For example, it would take 5 days to change grapple to +2 and sunder to +3, 5 days to change sunder to +1 and +2 to bull rush, or 10 days to change grapple to +1 and bull rush to +3.",
@@ -1216,7 +1216,7 @@
 			"- **Mesmerist:** Retrain one choice of bold stare.",
 			"- **Occultist:** Retrain an implement school or panoply. You cannot retrain an implement school into a panoply if it would leave you with fewer than two implement schools.",
 			"- **Psychic:** Retrain a phrenic amplification, or retrain a psychic discipline; the latter takes 5 days for every bonus spell the discipline grants, and an additional 5 days if this changes the ability score your phrenic pool uses.",
-			"- **Spiritualist:** If you want to retrain a connection to a different phantom with a different emotional focus, treat this as {rule/retraining |class level/s}. Since phantoms are jealous, this is treated as switching to a class with no synergy. Once you begin, the phantom abandons you and you cannot use any phantom-related powers until you fully retrain at least one level (seven days), at which point you gain the phantom-related powers of a 1st-level spiritualist. You gain more powers with every retrained level until you've retrained all of them.",
+			"- **Spiritualist:** If you want to retrain a connection to a different phantom with a different emotional focus, treat this as ‹rule/retraining »class level«s›. Since phantoms are jealous, this is treated as switching to a class with no synergy. Once you begin, the phantom abandons you and you cannot use any phantom-related powers until you fully retrain at least one level (seven days), at which point you gain the phantom-related powers of a 1st-level spiritualist. You gain more powers with every retrained level until you've retrained all of them.",
 			"- **Medium:** There are no special class features to retrain, though you may retrain bonus feats, spells known, etc, such as any other character could."
 		],
 		"parent_topics": [
@@ -1240,7 +1240,7 @@
 		"name": "Retraining Class Levels",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/190}",
+			"‹SOURCE Ultimate Campaign/190›",
 			"",
 			"One of the most critical choices you can make about your character is what class to choose when you gain a level.",
 			"",
@@ -1280,7 +1280,7 @@
 			"",
 			"**Example:** Mark is playing a ranger 5/rogue 2, and has decided he'd like to retrain one of his ranger levels into a rogue level (so he has to find a 3rd-level rogue). When he completes the training, he immediately loses all benefits from taking ranger level 5 (base attack bonus, saving throw bonuses, Hit Dice, hit points, skill ranks, and class features), then gains 1 level in rogue, immediately gaining all the benefits of rogue level 3. Mark's character is now a ranger 4/rogue 3. This retraining did not change Mark's 7th-level feat.",
 			"",
-			"If you are retraining a level in an NPC class (adept, aristocrat, commoner, or expert) to a level in any other class, the training takes only 3 days. This allows an NPC soldier to begin her career as a warrior and eventually become an officer who is a single-classed fighter, and for a younger character to start out with one commoner or expert level and become a 1st-level adventurer with a PC class when he reaches adulthood (see {rule/Young Characters}).",
+			"If you are retraining a level in an NPC class (adept, aristocrat, commoner, or expert) to a level in any other class, the training takes only 3 days. This allows an NPC soldier to begin her career as a warrior and eventually become an officer who is a single-classed fighter, and for a younger character to start out with one commoner or expert level and become a 1st-level adventurer with a PC class when he reaches adulthood (see ‹rule/Young Characters›).",
 			"",
 			"### Other Classes",
 			"",
@@ -1317,7 +1317,7 @@
 		"name": "Retraining Feats",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/191}",
+			"‹SOURCE Ultimate Campaign/191›",
 			"",
 			"You may change one feat to another through retraining. Retraining a feat takes 5 days with a character who has the feat you want. The old feat can't be one you used as a prerequisite for a feat, class feature, archetype, prestige class, or other ability. If the old feat is a bonus feat granted by a class feature, you must replace it with a feat that you could choose using that class feature.",
 			"",
@@ -1344,13 +1344,13 @@
 		"name": "Retraining Hit Points",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/191}",
+			"‹SOURCE Ultimate Campaign/191›",
 			"",
 			"Sometimes the dice aren't in your favor when you gain a level and the hit points you roll are especially low. Unlike retraining other character abilities, retraining hit points doesn't involve replacing an existing ability with a new one, it just increases your maximum hit points.",
 			"",
 			"Retraining hit points takes 3 days and requires you to spend time at a martial academy, monk monastery, or with some kind of master of combat who is at least one level higher than you. At the end of the training period, increase your hit points by 1. You can retrain hit points only if your maximum hit point total is less than the maximum possible hit point total for your character.",
 			"",
-			"**Example:** If you are a fighter 5 with Constitution 14 and you haven't allocated any of your favored class bonus to hit points, your maximum possible hit point total is 60: (d10 HD + 2 from Constitution) &times; 5 levels. If your maximum hit point total is already 60, you can't retrain hit points because you are already at the limit. If you took the {feat/Toughness} feat, you would gain 5 hit points and your maximum possible hit point total would also increase by 5, which means your ability to retrain hit points would be the same as without the feat."
+			"**Example:** If you are a fighter 5 with Constitution 14 and you haven't allocated any of your favored class bonus to hit points, your maximum possible hit point total is 60: (d10 HD + 2 from Constitution) &times; 5 levels. If your maximum hit point total is already 60, you can't retrain hit points because you are already at the limit. If you took the ‹feat/Toughness› feat, you would gain 5 hit points and your maximum possible hit point total would also increase by 5, which means your ability to retrain hit points would be the same as without the feat."
 		],
 		"parent_topics": [
 			"advanced_player_topics",
@@ -1373,11 +1373,11 @@
 		"name": "Retraining a New Language",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/191}",
+			"‹SOURCE Ultimate Campaign/191›",
 			"",
 			"You can spend time to learn an additional language. It takes 20 days of training to gain a bonus language, and these days need not be consecutive. Each language requires a trainer who shares a language with you and knows the language you want to learn, or a book written in a language you know that explains the basics of the language you want to learn.",
 			"",
-			"The new language does not count toward your maximum number of {misc/languages} (racial languages + bonus languages from Intelligence + Linguistics ranks). You can train this way only a number of times equal to 1 + your Intelligence bonus."
+			"The new language does not count toward your maximum number of ‹misc/languages› (racial languages + bonus languages from Intelligence + Linguistics ranks). You can train this way only a number of times equal to 1 + your Intelligence bonus."
 		],
 		"parent_topics": [
 			"advanced_player_topics",
@@ -1400,7 +1400,7 @@
 		"name": "Retraining Racial Traits",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/191}",
+			"‹SOURCE Ultimate Campaign/191›",
 			"",
 			"If your campaign uses alternate racial traits, you can retrain a racial trait. This takes 20 non-consecutive days and requires a trainer with the racial trait you want. The replacement trait must be an appropriate one from your racial list. The old and new racial traits must replace the same standard racial trait. For example, the [magic resistant and stubborn alternate dwarven traits replace the hardy standard trait](race/dwarf), so you can retrain one of those for the other."
 		],
@@ -1425,7 +1425,7 @@
 		"name": "Retraining Skill Ranks",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/191}",
+			"‹SOURCE Ultimate Campaign/191›",
 			"",
 			"You can retrain skill ranks you have assigned to skills. Retraining skill ranks takes 5 days. When the training period ends, reassign a number of skill ranks up to your Intelligence bonus (minimum 1), removing them from your existing skill (or skills) and adding them to a different skill (or skills).",
 			"",
@@ -1452,7 +1452,7 @@
 		"name": "Retraining Spells Known",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/191}",
+			"‹SOURCE Ultimate Campaign/191›",
 			"",
 			"If you are a spontaneous spellcaster (such as a bard, oracle, sorcerer, or summoner), you can retrain a spell known. This retraining takes 2 days per spell level of the new spell (or 1 day in the case of a cantrip or orison) and requires a trainer who can cast the spell you want. The trainer must cast the same kind of spells as you do (arcane or divine).",
 			"",
@@ -1479,7 +1479,7 @@
 		"name": "Rumors",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"{SOURCE Inner Sea Intrigue/14}",
+			"‹SOURCE Inner Sea Intrigue/14›",
 			"",
 			"Those who operate in the shadowy world of intrigue know that rumors often hold more power than truth. Devious agents spread tales to discredit their foes, pass word of rulers' weaknesses to their allies, and plant falsehoods designed to lure tyrants into carefully laid traps."
 		],
@@ -1504,11 +1504,11 @@
 		"name": "Starting a Rumor",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"{SOURCE Inner Sea Intrigue/14}",
+			"‹SOURCE Inner Sea Intrigue/14›",
 			"",
-			"Planting a rumor requires carefully spreading and cultivating it. A PC can plant a rumor in a settlement by spending 1 week (or 1d4 days if the settlement is smaller than a town) and succeeding at a Propaganda check. This check can be a {skill/Bluff}, {skill/Diplomacy}, or {skill/Perform} (act, oratory, or sing) check, or another skill check at the GM's discretion (see [Spreading Propaganda](rule/alternate_goals)). The base DC of a Propaganda check is 15. If a true rumor is particularly believable or unbelievable, the DC may decrease by up to 5 or increase by up to 20, respectively. If a rumor is false, the PC must succeed at an additional Bluff check to avoid being caught in a lie, applying plausibility modifiers as normal. If a PC fails that Bluff check by 5 or more, she takes a -4 penalty on all Bluff and Diplomacy checks she attempts in the settlement for 1d4 weeks.",
+			"Planting a rumor requires carefully spreading and cultivating it. A PC can plant a rumor in a settlement by spending 1 week (or 1d4 days if the settlement is smaller than a town) and succeeding at a Propaganda check. This check can be a ‹skill/Bluff›, ‹skill/Diplomacy›, or ‹skill/Perform› (act, oratory, or sing) check, or another skill check at the GM's discretion (see [Spreading Propaganda](rule/alternate_goals)). The base DC of a Propaganda check is 15. If a true rumor is particularly believable or unbelievable, the DC may decrease by up to 5 or increase by up to 20, respectively. If a rumor is false, the PC must succeed at an additional Bluff check to avoid being caught in a lie, applying plausibility modifiers as normal. If a PC fails that Bluff check by 5 or more, she takes a -4 penalty on all Bluff and Diplomacy checks she attempts in the settlement for 1d4 weeks.",
 			"",
-			"Because rumors are difficult to plant in large settlements, PCs should apply the modifier based on settlement size listed in the table below to all Propaganda checks as well as to Bluff checks to avoid being caught in a lie. In a large settlement, such as a city, a PC can instead plant a rumor in a single district. In this case, use the modifier for a settlement with approximately the same population as the district. If the GM is using {rule/settlement modifiers}, the settlement's Lore modifier applies to Propaganda checks and the settlement's Corruption modifier applies to Bluff checks to avoid being caught in a lie.",
+			"Because rumors are difficult to plant in large settlements, PCs should apply the modifier based on settlement size listed in the table below to all Propaganda checks as well as to Bluff checks to avoid being caught in a lie. In a large settlement, such as a city, a PC can instead plant a rumor in a single district. In this case, use the modifier for a settlement with approximately the same population as the district. If the GM is using ‹rule/settlement modifiers›, the settlement's Lore modifier applies to Propaganda checks and the settlement's Corruption modifier applies to Bluff checks to avoid being caught in a lie.",
 			"",
 			"| Settlement Type | Propaganda and Bluff Check DC Modifier |",
 			"| --- | --- |",
@@ -1521,7 +1521,7 @@
 			"",
 			"Multiple characters can work together to plant a rumor. Choose one character to attempt the Propaganda check. Each character who wishes to assist can attempt a separate skill check whose DC is 10 less than the Propaganda check's DC. A character who knows that the rumor is false must also succeed at a DC 15 Bluff check. Each character who successfully assists provides a +2 bonus (up to a maximum bonus equal to 4 + the settlement's Propaganda modifier). A character with a class feature, feat, or other ability that grants her followers gains a +5 bonus on Propaganda checks and checks to assist in spreading rumors.",
 			"",
-			"If a PC succeeds at the Propaganda check (and the Bluff check, if necessary), her rumor takes hold as an obscure rumor. If she exceeds the Propaganda check's DC by 5 or more, the rumor is more prevalent, as indicated on the table below. A character with the {talent/rumormonger} advanced rogue talent creates a common rumor if she succeeds at the Propaganda check, and a widely known rumor if she succeeds by 5 or more. Anyone who gathers information related to a rumor learns the rumor if she succeeds at a Diplomacy check at the listed DC.",
+			"If a PC succeeds at the Propaganda check (and the Bluff check, if necessary), her rumor takes hold as an obscure rumor. If she exceeds the Propaganda check's DC by 5 or more, the rumor is more prevalent, as indicated on the table below. A character with the ‹talent/rumormonger› advanced rogue talent creates a common rumor if she succeeds at the Propaganda check, and a widely known rumor if she succeeds by 5 or more. Anyone who gathers information related to a rumor learns the rumor if she succeeds at a Diplomacy check at the listed DC.",
 			"",
 			"| Propaganda Check Result | Rumor Prevalence | Diplomacy DC to Learn |",
 			"| --- | --- | --- |",
@@ -1544,7 +1544,7 @@
 		"name": "Influencing a Rumor",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"{SOURCE Inner Sea Intrigue/14}",
+			"‹SOURCE Inner Sea Intrigue/14›",
 			"",
 			"The PCs can spread or quell an existing rumor by succeeding at a Propaganda check that takes the same amount of time and uses the same base DC as creating a new rumor. This check is modified based on the rumor's prevalence, as listed in the table below. The DC of the Propaganda check to quell an existing rumor increases by 5 if the PCs do not provide evidence against the rumor.",
 			"",
@@ -1573,9 +1573,9 @@
 		"name": "Rumors",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
-			"{SOURCE Inner Sea Intrigue/14}",
+			"‹SOURCE Inner Sea Intrigue/14›",
 			"",
-			"Rumors are most often used to alter a character's overall reputation in a community. In general, a positive rumor that becomes common improves the attitude of most NPCs toward the character by one step, while an unflattering rumor worsens it by one step. In encounters using the {rule/individual influence} system, a common rumor about a character provides between a -4 penalty and a +4 bonus on the character's checks to influence NPCs. In a campaign using the {rule/organizational influence} system, treat the PCs as if common rumors about them were true for the purpose of determining whether they gain or lose influence points with an organization."
+			"Rumors are most often used to alter a character's overall reputation in a community. In general, a positive rumor that becomes common improves the attitude of most NPCs toward the character by one step, while an unflattering rumor worsens it by one step. In encounters using the ‹rule/individual influence› system, a common rumor about a character provides between a -4 penalty and a +4 bonus on the character's checks to influence NPCs. In a campaign using the ‹rule/organizational influence› system, treat the PCs as if common rumors about them were true for the purpose of determining whether they gain or lose influence points with an organization."
 		],
 		"parent_topics": [
 			"advanced_player_topics",
@@ -1591,9 +1591,9 @@
 		"name": "Young Characters",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/194}",
+			"‹SOURCE Ultimate Campaign/194›",
 			"",
-			"Not all fantasy characters have the luxury of waiting until adulthood to begin their adventuring careers - take Arya Stark, Sabriel the Abhorsen, the Pevensie siblings, and Harry Potter, for example. The dangers of fantasy worlds don't discriminate between the ages of those they threaten. Even the infant Hercules had to strangle the serpents Hera sent to kill him in his crib. But though they're often underestimated, such youths are rarely the ready victims they're often treated as. By default, newly made characters are adults, their ages randomly assigned or at least influenced by {rule/Table 7-1: Random Starting |Age/s}. However, should you wish to play a young prodigy getting an early start on her legend, the rules here detail how to bring such a character to life."
+			"Not all fantasy characters have the luxury of waiting until adulthood to begin their adventuring careers - take Arya Stark, Sabriel the Abhorsen, the Pevensie siblings, and Harry Potter, for example. The dangers of fantasy worlds don't discriminate between the ages of those they threaten. Even the infant Hercules had to strangle the serpents Hera sent to kill him in his crib. But though they're often underestimated, such youths are rarely the ready victims they're often treated as. By default, newly made characters are adults, their ages randomly assigned or at least influenced by ‹rule/Table 7-1: Random Starting »Age«s›. However, should you wish to play a young prodigy getting an early start on her legend, the rules here detail how to bring such a character to life."
 		],
 		"parent_topics": [ "advanced_player_topics" ],
 		"subtopics": [
@@ -1616,7 +1616,7 @@
 		"name": "Creating Young Characters",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/194}",
+			"‹SOURCE Ultimate Campaign/194›",
 			"",
 			"Young characters are essentially normal characters with an age category younger than any presented in the Core Rulebook. Characters of this age category are able and intelligent, curious and talented, but not yet experienced or worldly. They are on the threshold of great things, but still a step away. This youthfulness is represented in three ways: ability score adjustments, restrictions to available classes, and slower trait acquisition.",
 			"",
@@ -1624,9 +1624,9 @@
 			"",
 			"When a young character reaches adulthood (see Table 3-9: Random Young Starting Ages), she loses these ability score adjustments.",
 			"",
-			"@HL[Available Classes:] A young character does not have access to the same classes as adult characters. Not yet trained in the advanced techniques of war, arcana, faith, and varied other pursuits, a young character is a squire, apprentice, acolyte, or student on the path to expertise. As such, you can select only NPC classes while in this age category, beginning play and advancing in level as an {npcclass/adept}, {npcclass/aristocrat}, {npcclass/commoner}, {npcclass/expert}, or {npcclass/warrior}, according to your interests and social background. As soon as you reach adulthood, though, you may retrain those NPC class levels as levels in any base classes of your choosing (see {rule/Retraining}).",
+			"@HL[Available Classes:] A young character does not have access to the same classes as adult characters. Not yet trained in the advanced techniques of war, arcana, faith, and varied other pursuits, a young character is a squire, apprentice, acolyte, or student on the path to expertise. As such, you can select only NPC classes while in this age category, beginning play and advancing in level as an ‹npcclass/adept›, ‹npcclass/aristocrat›, ‹npcclass/commoner›, ‹npcclass/expert›, or ‹npcclass/warrior›, according to your interests and social background. As soon as you reach adulthood, though, you may retrain those NPC class levels as levels in any base classes of your choosing (see ‹rule/Retraining›).",
 			"",
-			"@HL[Traits:] Because {rule/character |traits} represent your character's background before becoming an adventurer, the GM might limit you to selecting only one trait at 1st level instead of the normal two traits allowed. When your character reaches adulthood, you select your second trait. Note that normally you can select a new trait after 1st level only if your character takes the {feat/Additional Traits} feat, so this option allows you more flexibility in choosing your second trait, as recent events in the campaign might make some of your trait options more valuable than they originally appeared when the campaign started.",
+			"@HL[Traits:] Because ‹rule/character »traits› represent your character's background before becoming an adventurer, the GM might limit you to selecting only one trait at 1st level instead of the normal two traits allowed. When your character reaches adulthood, you select your second trait. Note that normally you can select a new trait after 1st level only if your character takes the ‹feat/Additional Traits› feat, so this option allows you more flexibility in choosing your second trait, as recent events in the campaign might make some of your trait options more valuable than they originally appeared when the campaign started.",
 			"",
 			"### Table 3-9: Random Young Starting Ages",
 			"",
@@ -1657,7 +1657,7 @@
 		"name": "Leaving Youth Behind",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/194}",
+			"‹SOURCE Ultimate Campaign/194›",
 			"",
 			"Unlike higher age categories, there are two common ways a young character might advance into adulthood.",
 			"",
@@ -1681,7 +1681,7 @@
 		"name": "Considerations of Youth",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/195}",
+			"‹SOURCE Ultimate Campaign/195›",
 			"",
 			"You might choose to play a young character to gain insight into your PC's life or indulge a character concept you haven't tried. A GM might start your campaign at a young age to mimic adventures common in young adult fiction, video games, superhero teams from comics, and various other media. If you are thinking about playing a young character, consider the following points. The GM planning for this should be aware of and have methods of addressing each topic.",
 			"",

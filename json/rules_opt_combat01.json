@@ -18,7 +18,7 @@
 		"name": "Armor as Damage Reduction",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/191}",
+			"‹SOURCE Ultimate Combat/191›",
 			"",
 			"While the armor and Armor Class system presented in the Pathfinder Roleplaying Game is tried and tested, some players may yet have a sense that it feels slightly off. That is to say, if a suit of armor is actually protecting the wearer from attacks that strike but simply fail to cause the wearer harm, why then do we say that armor reduces the chance of a hit? The abstraction has been clarified in the rules by defining what it means to be \"hit\" in combat as actually being \"hit in such a way as to effectively cause harm,\" but this explanation is still not enough for some players.",
 			"",
@@ -46,7 +46,7 @@
 		"subtitle": "Armor as DR",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/191}",
+			"‹SOURCE Ultimate Combat/191›",
 			"",
 			"In this alternative system, a creature does not have an Armor Class (AC); it instead has a Defense score. Defense is similar to touch AC in the standard Pathfinder Roleplaying Game rules, but it also adds the shield bonus (including any enhancement bonus to the shield), and any enhancement bonus to armor.",
 			"",
@@ -73,7 +73,7 @@
 		"name": "Armor as DR",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/191}",
+			"‹SOURCE Ultimate Combat/191›",
 			"",
 			"Armor in this system keeps all of its normal statistics and qualities, but its armor bonus (including any enhancement bonus added to armor bonus and natural armor bonus) is converted to DR/armor. The DR an armor provides is equal to its total armor bonus with a +1 bonus at 5th level or at 5 Hit Dice, with an increase to that bonus of +1 for every five levels above 5th level, or every 5 Hit Dice over 5 Hit Dice (to a maximum of +4 to DR at 20th level or at 20 or more Hit Dice), provided that the creature wearing the armor is also proficient with the armor.",
 			"",
@@ -91,7 +91,7 @@
 			"",
 			"@HL[Natural Armor Bonus and DR:] Like a creature's armor bonus, a natural armor bonus is also converted into damage reduction. If a creature is wearing armor and has a natural armor bonus, the creature adds its armor bonus to its natural armor bonus to determine the amount of DR/armor that it has (see Table 5-2).",
 			"",
-			"For instance, if a creature wearing a +2 chain shirt has DR 6/armor is then subject to a {spell/barkskin} spell cast by a 6th-level druid (gaining a +3 natural armor bonus), its DR becomes DR 9/armor for the duration of the spell. This DR is bypassed by adamantine, or the attacks of Huge or larger creatures.",
+			"For instance, if a creature wearing a +2 chain shirt has DR 6/armor is then subject to a ‹spell/barkskin› spell cast by a 6th-level druid (gaining a +3 natural armor bonus), its DR becomes DR 9/armor for the duration of the spell. This DR is bypassed by adamantine, or the attacks of Huge or larger creatures.",
 			"",
 			"A creature that has both DR from a source other than armor and a natural armor bonus gains the effects of an enhanced form of DR, similar to how the composition of the armor grants special DR/armor defenses (see Table 5-1). If a creature has magical armor, natural armor, and DR, it takes the best form of the special protection provided by both its armor and its mix of DR and natural armor to its DR/armor.",
 			"",
@@ -107,7 +107,7 @@
 			"| Natural armor with DR/- | DR/-[^2] | Colossal |",
 			"| Natural armor with DR/epic | DR/epic[^2] | n/a |",
 			"",
-			"@HL[Unusual Creatures and Armor DR:] Amorphous or incorporeal creatures have an easier time bypassing DR/armor. When they attack a creature with DR/armor, they typically treat that DR as a fraction of the DR/armor. Attacks by incorporeal creatures entirely ignore the DR unless that DR comes from a force effect or from armor with the {magic-enh/ghost touch>_a} special armor quality. These traits are detailed in Table 5-3.",
+			"@HL[Unusual Creatures and Armor DR:] Amorphous or incorporeal creatures have an easier time bypassing DR/armor. When they attack a creature with DR/armor, they typically treat that DR as a fraction of the DR/armor. Attacks by incorporeal creatures entirely ignore the DR unless that DR comes from a force effect or from armor with the ‹magic-enh/ghost touch<_a› special armor quality. These traits are detailed in Table 5-3.",
 			"",
 			"### Table 5-3: Unusual Creatures and Armor DR",
 			"",
@@ -119,7 +119,7 @@
 			"| Swarm of Diminutive creatures | &times; 1/4 |",
 			"| Swarm of Fine creatures | &times; 0 |",
 			"",
-			"[^1]: {magic-enh/Brilliant energy} weapons bypass any DR provided by armor. In addition, DR from armor is halved if a creature is grappled or entangled, and does not apply when a creature is helpless or pinned.",
+			"[^1]: ‹magic-enh/Brilliant energy› weapons bypass any DR provided by armor. In addition, DR from armor is halved if a creature is grappled or entangled, and does not apply when a creature is helpless or pinned.",
 			"[^2]: A creature that already has DR/- or DR/epic increases its DR by an amount equal to its natural armor bonus.",
 			"[^3]: Elementals, oozes, ooze-like creatures, and any creature with the amorphous defensive ability."
 		],
@@ -138,7 +138,7 @@
 		"subtitle": "Armor as DR",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/192}",
+			"‹SOURCE Ultimate Combat/192›",
 			"",
 			"In this alternative system, when a creature threatens a critical hit, it does not make a critical hit confirmation roll. Instead, the target of that critical hit makes a critical defense check instead. A critical defense check is 1d20 + a bonus equal to the creature's DR + the creature's Dexterity modifier (up to the maximum Dexterity bonus allowed by any armor worn) + the sum of any deflection and shield bonus to Defense.",
 			"",
@@ -165,7 +165,7 @@
 		"name": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/193}",
+			"‹SOURCE Ultimate Combat/193›",
 			"",
 			"The Pathfinder Roleplaying Game deals with hits and damage in a rather abstract way, treating almost all hits the same except for the amount and type of damage dealt. With these optional called shot rules, PCs, monsters, and villains alike can aim their attacks more precisely, potentially to devastating effect.",
 			"",
@@ -191,9 +191,9 @@
 		"name": "Making Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/193}",
+			"‹SOURCE Ultimate Combat/193›",
 			"",
-			"A called shot is an attack aimed at a particular part of the body, in the hope of gaining some extra effect from the attack. The smaller or better guarded the area, the more difficult the called shot. A called shot is a single attack made as a full-round action, and thus can't be combined with a charge, feats like {feat/Vital Strike}, or multiple attacks with a full-attack action.",
+			"A called shot is an attack aimed at a particular part of the body, in the hope of gaining some extra effect from the attack. The smaller or better guarded the area, the more difficult the called shot. A called shot is a single attack made as a full-round action, and thus can't be combined with a charge, feats like ‹feat/Vital Strike›, or multiple attacks with a full-attack action.",
 			"",
 			"Called shots are divided into three basic difficulty groups: easy, tricky, and challenging. Easy called shots represent large areas of the body, and are made at a -2 penalty. They have relatively minor effects unless a critical hit is scored or massive damage is dealt. Tricky called shots represent either smaller areas, like a hand, or areas a creature protects well, like its head. Tricky shots receive a -5 penalty, and inflict more serious consequences. Challenging called shots represent very small areas like eyes, fingers, or creatures' necks. They receive a -10 penalty, and successful hits cause significant short-term impairment. Beyond these challenging ratings lie almost impossible called shots that receive a -20 penalty. For called shots against non-humanoid creatures, use common sense and the categories above as guidelines. For example, a flying creature's wings are treated as arms.",
 			"",
@@ -216,13 +216,13 @@
 		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/193}",
+			"‹SOURCE Ultimate Combat/193›",
 			"",
 			"@HL[Automatic Hits:] Some effects in the game, like true strike or the flash of insight ability of cyclopes, provide automatic or nearly automatic hits. Using such an ability on a called shot turns it into a normal attack, with none of the benefits or penalties associated with called shots. From a story perspective, this is because the effect cannot distinguish between a hit in general and a hit in a particular area, but it's also necessary to keep the power of such abilities in line with their original intended effects. Some Game Masters may prefer a more theatrical or dangerous game in which magic can make a shot through the eye nearly certain, in which case this rule can be ignored.",
 			"",
 			"@HL[Cover:] Cover other than soft cover interferes with a called shot even more than with a normal shot. Double any AC bonuses provided by cover that isn't soft cover. In addition, cover may make certain called shots impossible.",
 			"",
-			"@HL[Concealment:] The miss chance for a called shot against a creature with {rule/concealment} increases to 50%. It's not possible to make a called shot against a creature with total concealment. For effects that function like concealment, such as {spell/blink} and {spell/displacement}, a miss chance of 50% or more prevents called shots, a miss chance of 20% increases to 50%, and miss chances of other values are doubled.",
+			"@HL[Concealment:] The miss chance for a called shot against a creature with ‹rule/concealment› increases to 50%. It's not possible to make a called shot against a creature with total concealment. For effects that function like concealment, such as ‹spell/blink› and ‹spell/displacement›, a miss chance of 50% or more prevents called shots, a miss chance of 20% increases to 50%, and miss chances of other values are doubled.",
 			"",
 			"@HL[Damage Reduction:] If damage reduction completely negates the damage from a called shot, the called shot has no effect. If hit point damage does get through, the called shot has normal effects. Damage reduction does not reduce any ability damage, ability drain, penalties, or bleed damage caused by the called shot.",
 			"",
@@ -250,7 +250,7 @@
 		"name": "Called Shot Effects",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/193}",
+			"‹SOURCE Ultimate Combat/193›",
 			"",
 			"The consequences of a successful called shot vary depending on whether the hit is a normal hit, a critical hit, or a debilitating blow (a hit for 50 points of damage or more). When more than one limb or organ can be affected by a called shot, the attacker can choose the target if desired; otherwise, it should be determined randomly.",
 			"",
@@ -260,7 +260,7 @@
 			"",
 			"@HL[Debilitating Blow:] A called shot that deals half the creature's hit points of damage (minimum 50) or more (whether a critical hit or not) results in a debilitating blow that has extra effects. A debilitating blow inflicts major consequences and potentially permanent consequences.",
 			"",
-			"@HL[Concentration Checks:] {rule/Concentration} checks forced by called shots to parts of the body involved in spellcasting (generally the head for spells with verbal components, and the casting arm and hand for spells with somatic components) are made at a -5 penalty.",
+			"@HL[Concentration Checks:] ‹rule/Concentration› checks forced by called shots to parts of the body involved in spellcasting (generally the head for spells with verbal components, and the casting arm and hand for spells with somatic components) are made at a -5 penalty.",
 			"",
 			"@HL[Healing Called Shot Effects:] Some called shot effects render a given location useless until healed. Remedying this condition requires the victim be healed (naturally or magically, and by one or more sources of healing) for as many hit points of damage as the called shot caused. If the victim is suffering from multiple wounds of this sort, divide healing equally between them. The regenerate spell repairs any and all effects of called shots except for ability damage and ability drain."
 		],
@@ -291,7 +291,7 @@
 		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/194}",
+			"‹SOURCE Ultimate Combat/194›",
 			"",
 			"Arms are the manipulating limbs of a creature, including tentacles. Wings are also considered to be arms for purposes of a called shot. Called shots to the arm are easy (-2 penalty).",
 			"",
@@ -299,7 +299,7 @@
 			"",
 			"@HL[Critical Called Shot:] A critical hit to the arm deals 1d4 points of Dexterity damage and 1d4 points of Strength damage. A successful Fortitude saving throw halves the ability damage (minimum 1 point to each attribute). The target also suffers the effects of a called shot to the arm for 1d4 minutes.",
 			"",
-			"@HL[Debilitating Blow:] A debilitating blow deals 1d6 points of Dexterity damage and 1d6 points of Strength damage. The blow renders the arm useless until healed unless the target succeeds at a Fortitude saving throw. If the saving throw fails by 5 or more, the arm is severed or otherwise mangled such that only {spell/regenerate} or similar effects can repair it. The target also suffers the effects of a called shot to the arm (if the arm remains usable) for 2d6 minutes."
+			"@HL[Debilitating Blow:] A debilitating blow deals 1d6 points of Dexterity damage and 1d6 points of Strength damage. The blow renders the arm useless until healed unless the target succeeds at a Fortitude saving throw. If the saving throw fails by 5 or more, the arm is severed or otherwise mangled such that only ‹spell/regenerate› or similar effects can repair it. The target also suffers the effects of a called shot to the arm (if the arm remains usable) for 2d6 minutes."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -324,7 +324,7 @@
 		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/194}",
+			"‹SOURCE Ultimate Combat/194›",
 			"",
 			"Called shots to the chest are aimed at the well-protected center of mass of a creature. Called shots to the chest are easy (-2 penalty).",
 			"",
@@ -357,7 +357,7 @@
 		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/194}",
+			"‹SOURCE Ultimate Combat/194›",
 			"",
 			"Ears are the organs used to hear. Creatures without visible ears generally aren't susceptible to called shots to that location. Called shots to the ear are challenging (-10 penalty).",
 			"",
@@ -365,7 +365,7 @@
 			"",
 			"@HL[Critical Called Shot:] A critical hit to the ear deafens that ear for 2d6 minutes and leaves the target staggered for 1 round. The target also suffers the effects of a called shot to the ear for that duration.",
 			"",
-			"@HL[Debilitating Blow:] A debilitating blow to the ear destroys that ear and stuns the target for 1 round, then leaves it staggered for 1d4 rounds, and deafened until removed with the {spell/remove blindness//deafness} spell or a similar effect. A successful Fortitude saving throw deafens the creature until it is restored by the *remove blindness/deafness* spell or a similar effect."
+			"@HL[Debilitating Blow:] A debilitating blow to the ear destroys that ear and stuns the target for 1 round, then leaves it staggered for 1d4 rounds, and deafened until removed with the ‹spell/remove blindness/deafness› spell or a similar effect. A successful Fortitude saving throw deafens the creature until it is restored by the *remove blindness/deafness* spell or a similar effect."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -390,15 +390,15 @@
 		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/195}",
+			"‹SOURCE Ultimate Combat/195›",
 			"",
 			"Eyes include whatever organs a creature uses to see. At the Game Master's discretion, a called shot to the eye can also target sensory organs such as antennae, potentially negating abilities like blindsense. Generally, a creature can't be blinded until it has lost all vision in all of its eyes. Creatures with five or more eyes take no penalties from called shots to their eyes until they're blinded in enough eyes to bring them down a single functional eye, but can still be blinded in that eye by a critical hit or debilitating blow. Called shots to the eye are challenging (-10 penalty).",
 			"",
-			"@HL[Called Shot:] A called shot to the eye gives all of the target's foes {rule/concealment} against its attacks for 1 round and gives it a -2 penalty on Perception checks. If the creature only has one functional eye prior to the called shot, it is blinded for 1 round instead.",
+			"@HL[Called Shot:] A called shot to the eye gives all of the target's foes ‹rule/concealment› against its attacks for 1 round and gives it a -2 penalty on Perception checks. If the creature only has one functional eye prior to the called shot, it is blinded for 1 round instead.",
 			"",
 			"@HL[Critical Called Shot:] A critical hit to the eye costs the target sight in that eye for 1d4 minutes. The target also suffers the effects of a called shot to the eye for that duration.",
 			"",
-			"@HL[Debilitating Blow:] A debilitating blow to the eye destroys that eye, causes blindness until the condition is removed with a {spell/remove blindness//deafness} spell or similar effect, and deals 1d6 points of bleed damage. A successful Reflex saving throw reduces this to 1d4 hours of loss of sight in that eye and eliminates the bleeding. The target also suffers the effects of a called shot to the eye for 2d6 minutes."
+			"@HL[Debilitating Blow:] A debilitating blow to the eye destroys that eye, causes blindness until the condition is removed with a ‹spell/remove blindness/deafness› spell or similar effect, and deals 1d6 points of bleed damage. A successful Reflex saving throw reduces this to 1d4 hours of loss of sight in that eye and eliminates the bleeding. The target also suffers the effects of a called shot to the eye for 2d6 minutes."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -423,7 +423,7 @@
 		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/195}",
+			"‹SOURCE Ultimate Combat/195›",
 			"",
 			"Hands include most extremities used for fine manipulation. Called shots to the hand are tricky (-5 penalty).",
 			"",
@@ -431,7 +431,7 @@
 			"",
 			"@HL[Critical Called Shot:] A critical hit to the hand deals 1d4 points of Dexterity damage. In addition, the target drops anything it is holding in that hand unless it succeeds at a Reflex saving throw. Items held in two hands aren't dropped, but the target still loses its grip with the injured hand. The target also suffers the effects of a called shot to the hand for 1d4 minutes.",
 			"",
-			"@HL[Debilitating Blow:] A debilitating blow deals 1d6 points of Dexterity damage. The blow renders the hand useless until healed unless the target succeeds at a Reflex saving throw. If the saving throw fails by 5 or more, the hand is severed or otherwise mangled such that only {spell/regenerate} or similar effects can repair it. Regardless of the result of the saving throw, anything held in the wounded hand is automatically dropped, even items held in two or more hands. The target also suffers the effects of a called shot to the hand (if the hand remains usable) for 2d6 minutes."
+			"@HL[Debilitating Blow:] A debilitating blow deals 1d6 points of Dexterity damage. The blow renders the hand useless until healed unless the target succeeds at a Reflex saving throw. If the saving throw fails by 5 or more, the hand is severed or otherwise mangled such that only ‹spell/regenerate› or similar effects can repair it. Regardless of the result of the saving throw, anything held in the wounded hand is automatically dropped, even items held in two or more hands. The target also suffers the effects of a called shot to the hand (if the hand remains usable) for 2d6 minutes."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -456,7 +456,7 @@
 		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/195}",
+			"‹SOURCE Ultimate Combat/195›",
 			"",
 			"Called shots to the head are tricky (-5 penalty), as most creatures show some skill at dodging attacks aimed at their faces. Some creatures, such as otyughs and purple worms, lack a proper head altogether. Creatures with multiple heads must be hit by called shots to all their heads in a single round to suffer ill effects, and even then, only suffer the least effect that is inflicted on any single head (so for example, an ettin would need to take critical hits to both heads to receive the effects of a critical called shot to the head).",
 			"",
@@ -464,7 +464,7 @@
 			"",
 			"@HL[Critical Called Shot:] A critical hit to the head deals 1d6 points of Intelligence, Wisdom, or Charisma damage (randomly determine which) and staggers the target for 1d4 rounds. A successful Fortitude saving throw prevents the target from being staggered. The target also suffers the effects of a called shot to the head for 1d4 minutes.",
 			"",
-			"@HL[Debilitating Blow:] A debilitating blow to the head deals 1d6 points of Intelligence, Wisdom, and Charisma damage (roll separately for each), and knocks the target unconscious for 1d10 rounds. A successful Fortitude saving throw prevents the target from being knocked unconscious, but leaves it staggered for 1d10 rounds instead. If the saving throw fails by 5 or more, the target is rendered senseless by severe brain trauma (as the {spell/feeblemind} spell) until it receives a {spell/heal}, {spell/greater restoration}, or similar effect. The target also suffers the effects of a called shot to the head for 2d6 minutes."
+			"@HL[Debilitating Blow:] A debilitating blow to the head deals 1d6 points of Intelligence, Wisdom, and Charisma damage (roll separately for each), and knocks the target unconscious for 1d10 rounds. A successful Fortitude saving throw prevents the target from being knocked unconscious, but leaves it staggered for 1d10 rounds instead. If the saving throw fails by 5 or more, the target is rendered senseless by severe brain trauma (as the ‹spell/feeblemind› spell) until it receives a ‹spell/heal›, ‹spell/greater restoration›, or similar effect. The target also suffers the effects of a called shot to the head for 2d6 minutes."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -489,13 +489,13 @@
 		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/196}",
+			"‹SOURCE Ultimate Combat/196›",
 			"",
 			"A called shot to the heart represents an attempt at a killing blow. If the hit isn't either a critical hit or a debilitating blow, the attempt fails and is just a normal hit. A called shot to the heart can be used for any small, likely fatal location on a creature, such as the only weakness on an unimaginably ancient red dragon. Called shots to the heart are challenging (-10 penalty).",
 			"",
 			"@HL[Called Shot:] A called shot to the heart is just a normal hit with no extra effect.",
 			"",
-			"@HL[Critical Called Shot:] A critical hit to the heart pierces the organ, causing exhaustion and 1d4 points of Constitution bleed damage. A successful Fortitude save reduces this to fatigue and 1 point of Constitution bleed damage. In either case, stopping the bleeding requires either {spell/regenerate} (spell or [special ability](umr/regeneration)), magic healing that heals as many points of damage (from one or more sources) as the original blow dealt, or a successful DC 20 heal check that takes 1d4 rounds to complete.",
+			"@HL[Critical Called Shot:] A critical hit to the heart pierces the organ, causing exhaustion and 1d4 points of Constitution bleed damage. A successful Fortitude save reduces this to fatigue and 1 point of Constitution bleed damage. In either case, stopping the bleeding requires either ‹spell/regenerate› (spell or [special ability](umr/regeneration)), magic healing that heals as many points of damage (from one or more sources) as the original blow dealt, or a successful DC 20 heal check that takes 1d4 rounds to complete.",
 			"",
 			"A critical hit to the heart against a vampire made with a piercing weapon composed entirely of wood leaves the vampire impaled through the heart by the weapon if it fails its Fortitude save, [with effects as described in its entry](template/vampire).",
 			"",
@@ -526,7 +526,7 @@
 		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/197}",
+			"‹SOURCE Ultimate Combat/197›",
 			"",
 			"Legs are the ambulatory limbs of a creature, including feet. Called shots to the leg have no special effect on creatures with five or more legs. Called shots to the leg are easy (-2 penalty).",
 			"",
@@ -534,7 +534,7 @@
 			"",
 			"@HL[Critical Called Shot:] A critical hit to the leg deals 1d4 points of Dexterity damage and knocks the target prone. A successful Fortitude save keeps the creature from falling prone. The creature also suffers the effects of a called shot to the leg for 1d4 minutes.",
 			"",
-			"@HL[Debilitating Blow:] A debilitating blow to the leg knocks the creature prone. The blow renders the leg entirely useless until healed unless the target succeeds at a Fortitude saving throw. If the saving throw fails by 5 or more, the leg is severed or otherwise mangled such that only {spell/regenerate} or similar effects can repair it. If the save succeeds, the target is instead lamed and moves at half speed until the leg is healed, or until it receives a successful DC 20 Heal check. A creature with a useless or severed leg moves at half speed if it still has more than half of its legs usable; otherwise, it cannot stand up and must crawl to move. The target also suffers the effects of a called shot to the leg (if the leg remains usable) for 2d6 minutes."
+			"@HL[Debilitating Blow:] A debilitating blow to the leg knocks the creature prone. The blow renders the leg entirely useless until healed unless the target succeeds at a Fortitude saving throw. If the saving throw fails by 5 or more, the leg is severed or otherwise mangled such that only ‹spell/regenerate› or similar effects can repair it. If the save succeeds, the target is instead lamed and moves at half speed until the leg is healed, or until it receives a successful DC 20 Heal check. A creature with a useless or severed leg moves at half speed if it still has more than half of its legs usable; otherwise, it cannot stand up and must crawl to move. The target also suffers the effects of a called shot to the leg (if the leg remains usable) for 2d6 minutes."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -559,7 +559,7 @@
 		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/197}",
+			"‹SOURCE Ultimate Combat/197›",
 			"",
 			"The neck makes for a difficult but rewarding target. Injuries to the neck keep a creature from speaking easily, and if blood vessels or the windpipe are damaged, such injuries rapidly lead to death. Creatures that lack vulnerable heads generally can't be attacked in the neck either. Called shots to the neck are challenging (-10 penalty).",
 			"",
@@ -567,7 +567,7 @@
 			"",
 			"@HL[Critical Called Shot:] A critical hit to the neck deals 1d6 points of bleed damage. In addition, the target must succeed at a Fortitude saving throw or suffer a crushed windpipe and be unable to breathe or speak, possibly suffocating. A crushed windpipe can be repaired by magical healing (from one or more sources) that heals as many hit points of damage as the original hit dealt, or by a DC 25 Heal check to open up a hole into the windpipe. The latter check deals 2d6 hit points of damage, and leaves the creature still unable to speak. If target makes its saving throw, it still suffers the effects of a called shot to the neck for 1d4 minutes.",
 			"",
-			"@HL[Debilitating Blow:] A debilitating blow to the neck leaves the target unable to speak or breathe and deals 1d4 points of Constitution bleed damage. A successful Fortitude saving throw reduces this to 2d6 points of regular (hit point) bleed damage, and the target is only unable to speak and breathe for 1d4 minutes. The Constitution bleed damage caused by a debilitating blow to the neck can only be stopped by {spell/regenerate} (spell or [special ability](umr/regeneration)), magical healing (from one or more sources) that heals as many points of damage as the original blow dealt, or a DC 20 Heal check that takes 1d4 rounds to complete."
+			"@HL[Debilitating Blow:] A debilitating blow to the neck leaves the target unable to speak or breathe and deals 1d4 points of Constitution bleed damage. A successful Fortitude saving throw reduces this to 2d6 points of regular (hit point) bleed damage, and the target is only unable to speak and breathe for 1d4 minutes. The Constitution bleed damage caused by a debilitating blow to the neck can only be stopped by ‹spell/regenerate› (spell or [special ability](umr/regeneration)), magical healing (from one or more sources) that heals as many points of damage as the original blow dealt, or a DC 20 Heal check that takes 1d4 rounds to complete."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -592,7 +592,7 @@
 		"subtitle": "Called Shots",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/197}",
+			"‹SOURCE Ultimate Combat/197›",
 			"",
 			"The vitals correspond to the abdomen on a humanoid: critical organs not well-protected by bone. Attacks on the vitals can also include dastardly \"low blows.\" Vitals for non-humanoid creatures can include nearly any location that is relatively hard to hit, poorly protected, and debilitating if struck. Called shots to the vitals are tricky (-5 penalty).",
 			"",
@@ -600,7 +600,7 @@
 			"",
 			"@HL[Critical Called Shot:] A critical hit deals 1d4 points of Constitution damage. In addition, the target is nauseated for 1d4 rounds and sickened for 1d6 minutes. A successful Fortitude saving throw negates the nauseated condition. While the target is sickened from the blow, it cannot run or charge.",
 			"",
-			"@HL[Debilitating Blow:] A debilitating blow to the vitals deals 1d6 points of Constitution drain, nauseates the target for 1d4 rounds, and sickens it for 2d6 minutes. A successful Fortitude save reduces the drain to damage and the nausea to 1 round. If the save fails by 5 or more, the target is disemboweled or otherwise horrifically wounded, and takes 1 point of Constitution bleed damage. The Constitution bleed damage caused by a debilitating blow to the vitals can only be stopped by {spell/regenerate} (spell or [special ability](umr/regeneration)), magical healing that heals as many points of damage (from one or more sources) as the original blow dealt, or a DC 20 Heal check that takes 1d4 rounds to complete."
+			"@HL[Debilitating Blow:] A debilitating blow to the vitals deals 1d6 points of Constitution drain, nauseates the target for 1d4 rounds, and sickens it for 2d6 minutes. A successful Fortitude save reduces the drain to damage and the nausea to 1 round. If the save fails by 5 or more, the target is disemboweled or otherwise horrifically wounded, and takes 1 point of Constitution bleed damage. The Constitution bleed damage caused by a debilitating blow to the vitals can only be stopped by ‹spell/regenerate› (spell or [special ability](umr/regeneration)), magical healing that heals as many points of damage (from one or more sources) as the original blow dealt, or a DC 20 Heal check that takes 1d4 rounds to complete."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -624,7 +624,7 @@
 		"name": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/198}",
+			"‹SOURCE Ultimate Combat/198›",
 			"",
 			"All armor in the Pathfinder Roleplaying Game is constructed of pieces and parts that are carefully (or hastily) donned each time the armor is used. While a full suit of armor is always more protective than wearing pieces of armor, sometimes a character does not have time to don an entire suit of armor before jumping into the fray. Other times characters may not have access to an entire suit of armor; in dire situations, they may need to find pieces or parts of armor among lower-level treasure hoards, or they have to scavenge from the bodies of fallen foes in order to protect themselves.",
 			"",
@@ -655,7 +655,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/198}",
+			"‹SOURCE Ultimate Combat/198›",
 			"",
 			"The piecemeal armor system splits up armor into three general types of armor pieces. An armor piece is a small group of armor parts, rather than simply being any discrete part of the armor. A single armor piece comprises the armor parts one needs to protect its corresponding area - either the arms, the legs, or the torso (including the head); a single arm or leg armor piece provides armor for both arms or both legs, respectively. A plate arm armor piece typically consists of pairs of pauldrons, gardbraces, rerebraces, vambraces, and gauntlets along with bits of chainmail and padded armor, while a chain lamellar arm armor piece consists of two chain sleeves, gauntlets, and perhaps pairs of pauldrons and couters. Both protect the arms, though they have a different number of specific parts and types of overall components.",
 			"",
@@ -694,7 +694,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/198}",
+			"‹SOURCE Ultimate Combat/198›",
 			"",
 			"If you are proficient with an armor category, you are also proficient with the armor pieces of that category. For example, if you are proficient with light armor, you are proficient with all light armor pieces. Some torso armor pieces (such as chain, plate, and agile plate torso armor pieces) are a category lighter if worn alone (treat as a chain shirt, breastplate, and agile breastplate, respectively).",
 			"",
@@ -719,7 +719,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/199}",
+			"‹SOURCE Ultimate Combat/199›",
 			"",
 			"Any individual armor piece can be of masterwork construction or constructed of special materials, or, if it is of masterwork construction, it can be magically enchanted at the standard cost listed in the Core Rulebook. In this manner, each armor piece is treated as its own type of armor, but most armorers and magic item crafters know that this is an inefficient way of making and enchanting armor.",
 			"",
@@ -757,7 +757,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/199}",
+			"‹SOURCE Ultimate Combat/199›",
 			"",
 			"Armor pieces made of adamantine grant their wearers damage reduction of 1/- if they are light armor, 2/- if they are medium armor, and 3/- if they are heavy armor. Adamantine armor pieces are always masterwork in quality. Armor pieces normally made of steel that are made of adamantine have one-third more hit points than normal.",
 			"",
@@ -786,7 +786,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/199}",
+			"‹SOURCE Ultimate Combat/199›",
 			"",
 			"If the dragonhide used to construct this armor comes from a dragon that had immunity to an energy type, the armor pieces also have immunity to that energy type. A piece of dragonhide armor costs double the armor piece cost + 100 gp. Alternatively, a plate torso armor piece can be constructed from dragonhide for 700 gp, and an agile plate torso armor piece can be constructed from dragonhide for 1,100 gp. Dragonhide armor pieces retain dragonhide's usual 25% reduction in cost when adding matching energy protection to them."
 		],
@@ -806,7 +806,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/199}",
+			"‹SOURCE Ultimate Combat/199›",
 			"",
 			"Armor pieces made of mithral are lighter than steel, but are just as hard. Mithral armor pieces are less cumbersome to move in. Medium armor pieces that feature a reduced movement do not have a reduced movement when they are made from mithral. Heavy armor pieces that reduce the wearer's run speed to triple her speed instead of quadruple her speed do not do so when they are made from mithral or are part of a mithral armor suit.",
 			"",
@@ -839,7 +839,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/200}",
+			"‹SOURCE Ultimate Combat/200›",
 			"",
 			"The time required to don an armor piece is based on its type and the area it protects; see Table 5-6.",
 			"",
@@ -882,7 +882,7 @@
 		"name": "Armor Pieces for Unusual Creatures",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/200}",
+			"‹SOURCE Ultimate Combat/200›",
 			"",
 			"Armor pieces for unusually big creatures, unusually little creatures, and non-humanoid creatures (such as horses) have different costs and weights from those given in Tables [5-7](rule/arms), [5-8](rule/legs), and [5-9](rule/torso). Refer to the appropriate line in [Table 6-8](rule/armor_for_unusual_creatures) and apply the multipliers to cost and weight. For animals with four or more legs, the armor for half of the legs counts as the leg armor piece, and the armor for the other half counts as the arm armor piece."
 		],
@@ -904,7 +904,7 @@
 		"name": "Armor and Armor Piece Hit Points and Hardness",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/200}",
+			"‹SOURCE Ultimate Combat/200›",
 			"",
 			"To determine the hit points and hardness of your armor, use the hardness for the weakest material, and to determine hit points, add the total armor bonus (including the +1 for wearing a complete suit of armor) and multiply that value by 5. If you need to determine the hardness and hit points for a single armor piece, it has the hardness of its main material and hit points equal to its armor bonus (treat as +1 for armor pieces with a +0 armor bonus) &times; 5. [Hardness for substances can be found in Table 7-13](rule/breaking_things)."
 		],
@@ -926,7 +926,7 @@
 		"name": "Armor Piece Descriptions",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/200}",
+			"‹SOURCE Ultimate Combat/200›",
 			"",
 			"The following pieces of armor make up the piecemeal armor system, and are split into three armor groups."
 		],
@@ -954,7 +954,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/200}",
+			"‹SOURCE Ultimate Combat/200›",
 			"",
 			"With the smallest area to protect, arm armor pieces tend to have the lowest armor value of all the piecemeal armor types, with light armor pieces offering little to no protection unless they are part of a complete suit. Because arm armor pieces tend to interfere with hand movements needed for somatic components, they offer the highest spell failure chance.",
 			"",
@@ -1044,7 +1044,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/202}",
+			"‹SOURCE Ultimate Combat/202›",
 			"",
 			"Heavier leg armor pieces slow down their wearers and provide higher armor check penalties, but are less restrictive to spellcasters than heavier arm armor pieces.",
 			"",
@@ -1132,7 +1132,7 @@
 		"subtitle": "Piecemeal Armor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/203}",
+			"‹SOURCE Ultimate Combat/203›",
 			"",
 			"The torso armor piece provides the most protection, but also usually provides the most hindrances to the wearer.",
 			"",
@@ -1246,9 +1246,9 @@
 		"name": "Removing Iterative Attacks",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/110}",
+			"‹SOURCE Pathfinder Unchained/110›",
 			"",
-			"Iterative attacks allow combatants to deal a high amount of damage, but they can also make turns take a long time. Since a character's subsequent attacks have a bonus that's so much lower, this can lead to a lot of time spent on missed attacks. With this new system, an entire full attack resolves with a single d20 roll. Other sorts of attacks (such as attack actions, attacks of opportunity, and attacks granted by the {feat/Whirlwind Attack} feat) are resolved as normal."
+			"Iterative attacks allow combatants to deal a high amount of damage, but they can also make turns take a long time. Since a character's subsequent attacks have a bonus that's so much lower, this can lead to a lot of time spent on missed attacks. With this new system, an entire full attack resolves with a single d20 roll. Other sorts of attacks (such as attack actions, attacks of opportunity, and attacks granted by the ‹feat/Whirlwind Attack› feat) are resolved as normal."
 		],
 		"parent_topics": [ "optional_combat_changes" ],
 		"subtopics": [
@@ -1273,7 +1273,7 @@
 		"subtitle": "Removing Iterative Attacks",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/110}",
+			"‹SOURCE Pathfinder Unchained/110›",
 			"",
 			"When making a full attack, roll only one attack roll and compare your result to the target's AC. If your attack result is lower than the target's AC by 6 or more, you miss and deal no damage. If your result is lower than the target's AC by 5 or less, you deliver a glancing blow, dealing an amount of damage equal to 1/2 the minimum damage you would normally deal on a hit with the weapon you're using. Effects that trigger on a hit do not trigger on a glancing blow. If your attack result equals or exceeds the target's AC, you score a hit, plus one additional hit for every 5 by which your roll exceeds that target's AC, up to your maximum number of hits. At first level, you can score a maximum of only one hit, but at base attack bonus +6 and at every +5 to your base attack bonus thereafter, you can score another. This is shown on Table 3-3, and also matches the progression of iterative attacks you'd gain if you were using the core rules for attacks. For each hit you score, roll damage separately; damage reduction applies to each hit.",
 			"",
@@ -1326,9 +1326,9 @@
 		"subtitle": "Removing Iterative Attacks",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/110}",
+			"‹SOURCE Pathfinder Unchained/110›",
 			"",
-			"If you have more than one maximum hit, you can declare you're making a full attack against more than one target. In that case, your number of hits is determined by the highest AC among your targets, and you can allocate your hits however you like among all the targets after determining your total number of hits - you can even choose not to hit the target whose AC you rolled against. This doesn't allow you to bypass effects that would prevent you from hitting a creature normally. For instance, you couldn't assign a hit to a creature under a {spell/sanctuary} effect when making an attack roll against a different creature (unless you first succeeded on the required Will save)."
+			"If you have more than one maximum hit, you can declare you're making a full attack against more than one target. In that case, your number of hits is determined by the highest AC among your targets, and you can allocate your hits however you like among all the targets after determining your total number of hits - you can even choose not to hit the target whose AC you rolled against. This doesn't allow you to bypass effects that would prevent you from hitting a creature normally. For instance, you couldn't assign a hit to a creature under a ‹spell/sanctuary› effect when making an attack roll against a different creature (unless you first succeeded on the required Will save)."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -1345,7 +1345,7 @@
 		"subtitle": "Removing Iterative Attacks",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/110}",
+			"‹SOURCE Pathfinder Unchained/110›",
 			"",
 			"When you threaten a critical hit, roll to confirm at your full bonus and apply the effects of the critical hit to any one of your hits. If your original attack roll scored multiple hits and the critical confirmation roll also falls within your weapon's critical threat range, you score two critical hits and can apply them to any two hits."
 		],
@@ -1364,9 +1364,9 @@
 		"subtitle": "Removing Iterative Attacks",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/110}",
+			"‹SOURCE Pathfinder Unchained/110›",
 			"",
-			"When fighting with two weapons, use the lower attack bonus of the two weapons. If you score one hit, you also score a hit with your off-hand weapon. If you have {feat/Improved Two-Weapon Fighting} and score two hits, you also score a second hit with your off-hand weapon, for a total of four. If you have {feat/Greater Two-Weapon Fighting} and score three hits, you also score a third hit with your off-hand weapon, for a total of six.",
+			"When fighting with two weapons, use the lower attack bonus of the two weapons. If you score one hit, you also score a hit with your off-hand weapon. If you have ‹feat/Improved Two-Weapon Fighting› and score two hits, you also score a second hit with your off-hand weapon, for a total of four. If you have ‹feat/Greater Two-Weapon Fighting› and score three hits, you also score a third hit with your off-hand weapon, for a total of six.",
 			"",
 			"@HL[Critical Hits with Two-Weapon Fighting:] If you threaten a critical hit when using Two-Weapon Fighting, roll a single confirmation roll using the lower attack bonus among the two weapons. If you confirm, you score one critical hit with each weapon, so long as the initial roll threatened a critical with both weapons. For example, if you're fighting with a rapier and a light pick, roll an 18 on your initial attack roll, and confirm the critical hit, you score a critical hit with only the rapier. However, if you roll a 20 and confirm, you score a critical hit with each weapon."
 		],
@@ -1387,7 +1387,7 @@
 		"subtitle": "Removing Iterative Attacks",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/110}",
+			"‹SOURCE Pathfinder Unchained/110›",
 			"",
 			"If a creature with at least three natural attacks makes a full attack using only natural weapons, the creature has a maximum number of hits equal to the number of secondary attacks plus 1/2 the number of primary attacks (rounded up). The creature uses the lowest attack bonus of its primary natural weapons for its attack roll. For each hit it scores, the creature can choose to deal damage with any two primary natural weapons or any one secondary natural weapon. If it misses by 5 or less, it hits with one primary natural weapon instead of dealing a glancing blow.",
 			"",
@@ -1410,7 +1410,7 @@
 		"subtitle": "Removing Iterative Attacks",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/111}",
+			"‹SOURCE Pathfinder Unchained/111›",
 			"",
 			"Dealing with spells and abilities that grant additional attacks, rerolls, or high bonuses can be tricky under this system. So many rules are based around iterative attacks that it's not possible to cover every type of effect that needs to be adjusted. GMs should use the following rules as guidelines when interpreting how to implement similar spells and abilities.",
 			"",
@@ -1424,7 +1424,7 @@
 			"",
 			"### True Strike",
 			"",
-			"When using {spell/true strike} with a full attack, first see how many hits you would have scored without *true strike.* A single casting of *true strike* adds at most one more hit."
+			"When using ‹spell/true strike› with a full attack, first see how many hits you would have scored without *true strike.* A single casting of *true strike* adds at most one more hit."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -1443,13 +1443,13 @@
 		"subtitle": "Removing Iterative Attacks",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/111}",
+			"‹SOURCE Pathfinder Unchained/111›",
 			"",
 			"This variant modification to removing iterative attacks allows a character greater mobility during a melee full attack rather than forcing them to stay put. When a character declares a melee full attack, she can also declare she will move before or after the attacks, up to a maximum of her movement speed. For every 5 feet she moves beyond the first 5 feet, she takes a -5 penalty on her attack roll for the purposes of determining extra hits only. Apply this penalty after determining whether she hits at least once.",
 			"",
 			"The character can attempt an Acrobatics check to reduce this penalty by an amount equal to the result of her Acrobatics check divided by 5. No matter how high her Acrobatics check result may be, she can't reduce the penalty below -2 per 5 feet moved beyond the first 5 feet.",
 			"",
-			"Characters with the {feat/Spring Attack} feat can move before, after, and in between the attacks when using this option, and they reduce the penalty to -4 for every 5 feet moved beyond the first 5 feet."
+			"Characters with the ‹feat/Spring Attack› feat can move before, after, and in between the attacks when using this option, and they reduce the penalty to -4 for every 5 feet moved beyond the first 5 feet."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -1467,7 +1467,7 @@
 		"name": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/102}",
+			"‹SOURCE Pathfinder Unchained/102›",
 			"",
 			"The default action economy of the Pathfinder Roleplaying Game is intricate - full of exceptions, non-actions, and strange actions. This revised action economy streamlines the process of combat encounters. In many ways, it's a more active system that allows lower-level characters more options in a round while slightly limiting how much higher-level characters can do during their turns.",
 			"",
@@ -1498,7 +1498,7 @@
 		"name": "Revised Action Economy Overview",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/102}",
+			"‹SOURCE Pathfinder Unchained/102›",
 			"",
 			"To illustrate this system, we start at the initiative check and go though the turns and rounds of an encounter.",
 			"",
@@ -1512,7 +1512,7 @@
 			"",
 			"## Your Turn",
 			"",
-			"When your turn comes up in the initiative order, you can commit up to 3 acts. Sometimes, acts are committed discretely as simple actions, while other times 2 or more acts can be committed together as an advanced action. You can take these simple and advanced actions in any order you choose, except when the rules for individual actions state otherwise. You can also take a number of free actions your GM deems appropriate. Your turn ends once you have committed all 3 acts and any free actions you wish to take. Once your turn is over, you gain the ability to take one reaction before the start of your next turn. (Some abilities grant additional reactions; see {rule/Final Considerations}.)",
+			"When your turn comes up in the initiative order, you can commit up to 3 acts. Sometimes, acts are committed discretely as simple actions, while other times 2 or more acts can be committed together as an advanced action. You can take these simple and advanced actions in any order you choose, except when the rules for individual actions state otherwise. You can also take a number of free actions your GM deems appropriate. Your turn ends once you have committed all 3 acts and any free actions you wish to take. Once your turn is over, you gain the ability to take one reaction before the start of your next turn. (Some abilities grant additional reactions; see ‹rule/Final Considerations›.)",
 			"",
 			"When your turn comes up in the initiative order, you can choose to delay instead. When you do, you can't commit acts. You keep any reactions you haven't used since your previous turn, but don't gain any more. At any point after another combatant has taken its turn, you can choose to end your delay and reenter the initiative order. When you do so, your initiative changes to the point in the initiative order directly after the last acting creature's turn.",
 			"",
@@ -1520,7 +1520,7 @@
 			"",
 			"Reactions are like actions, but can be taken only when they are triggered, and only during other characters' turns. Usually, reactions are triggered by actions taken by other combatants. For instance, the most common reaction you'll likely take is the attack of opportunity: an attack you can make when a foe in your threatened area drops his guard (typically by moving, making a ranged attack, or attempting a complicated attack for which he lacks the proper training). Some reactions may provoke attacks of opportunity - the reaction's subtype, if any, determines whether it provokes attacks of opportunity.",
 			"",
-			"Other times, something that happens to you might grant you the ability to take a reaction. Spells and abilities that are used as immediate actions in the default action economy are reactions in this system. For example, the spell {spell/feather fall} is cast an immediate action in the default action economy - in this system, it's a reaction."
+			"Other times, something that happens to you might grant you the ability to take a reaction. Spells and abilities that are used as immediate actions in the default action economy are reactions in this system. For example, the spell ‹spell/feather fall› is cast an immediate action in the default action economy - in this system, it's a reaction."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -1542,7 +1542,7 @@
 		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/102}",
+			"‹SOURCE Pathfinder Unchained/102›",
 			"",
 			"This section describes the various actions in the game, their costs within this system, and new rules on how each one works.",
 			"",
@@ -1552,7 +1552,7 @@
 			"",
 			"Some actions and reactions have one or more of the following subtypes. The subtypes are thematic, sometimes affect other actions taken later in the turn, and are used to determine whether (and at what point) an action provokes attacks of opportunity.",
 			"",
-			"@HL[Attack Actions:] Actions with the attack subtype involve making at least one attack roll against an opponent or object. They typically provoke attacks of opportunity only if the attack is a ranged attack or you don't have the appropriate feat to take that attack action without provoking attacks of opportunity, such as {feat/Improved Unarmed Strike} for unarmed strikes or {feat/Improved Trip} for trip attempts. In the latter case, the action provokes an attack of opportunity only from the creature you target. When an attack action provokes an attack of opportunity, the attack of opportunity is made before the provoking attack roll is made.",
+			"@HL[Attack Actions:] Actions with the attack subtype involve making at least one attack roll against an opponent or object. They typically provoke attacks of opportunity only if the attack is a ranged attack or you don't have the appropriate feat to take that attack action without provoking attacks of opportunity, such as ‹feat/Improved Unarmed Strike› for unarmed strikes or ‹feat/Improved Trip› for trip attempts. In the latter case, the action provokes an attack of opportunity only from the creature you target. When an attack action provokes an attack of opportunity, the attack of opportunity is made before the provoking attack roll is made.",
 			"",
 			"The first time during your turn that you take an action with this subtype, you roll the attack as normal. Each subsequent attack action taken during your turn imposes a cumulative -5 penalty on the attack roll or combat maneuver check (so the second attack action has a -5 penalty on the attack roll, the third has a -10 penalty, and so on).",
 			"",
@@ -1566,9 +1566,9 @@
 			"",
 			"When you fight with a second weapon in your off hand or with a double weapon, you can make two attacks with the first attack simple action you take during your turn: one with your primary hand and another with your off hand. You take penalties on these attack rolls as listed on [Table 8-7: Two-Weapon Fighting Penalties](rule/two_weapon_fighting). Any other attack simple actions you take during your turn allow only one attack roll, using either the weapon in your primary hand or the one in your off hand.",
 			"",
-			"If you have the {feat/Improved Two-Weapon Fighting} feat, you can make two attack rolls on both the first and second attack simple actions taken during your turn; both of the attacks made on the second attack action are made at a -5 penalty. Further attack simple actions taken during the same turn allow only one attack roll, using either the weapon in your primary hand or the one in your off hand.",
+			"If you have the ‹feat/Improved Two-Weapon Fighting› feat, you can make two attack rolls on both the first and second attack simple actions taken during your turn; both of the attacks made on the second attack action are made at a -5 penalty. Further attack simple actions taken during the same turn allow only one attack roll, using either the weapon in your primary hand or the one in your off hand.",
 			"",
-			"If you have the {feat/Greater Two-Weapon Fighting} feat, you can make two attacks on each of your attack simple actions on your turn, though you take all the normal penalties for two-weapon fighting, as well as the cumulative -5 penalty per attack simple action (all attacks made as part of the same attack action have the same penalty).",
+			"If you have the ‹feat/Greater Two-Weapon Fighting› feat, you can make two attacks on each of your attack simple actions on your turn, though you take all the normal penalties for two-weapon fighting, as well as the cumulative -5 penalty per attack simple action (all attacks made as part of the same attack action have the same penalty).",
 			"",
 			"The [flurry of blows class feature](class/monk) works in a similar way. At 1st level, you can make an additional attack with a -2 penalty on your first attack simple action during a turn. At 8th level, you can make an additional attack on both your first and second attack simple actions during your turn. At 15th level, you can make an additional attack on each of your attack simple actions during your turn. You must, of course, take all the penalties associated with those attacks."
 		],
@@ -1592,7 +1592,7 @@
 		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/103}",
+			"‹SOURCE Pathfinder Unchained/103›",
 			"",
 			"The following are some of the more common actions. To take any of them, you need to commit only 1 act (though some can be taken as free actions under special circumstances).",
 			"",
@@ -1602,7 +1602,7 @@
 			"",
 			"@HL[Attack (Attack):] You make one or more attacks against a single foe within your melee reach (if making a melee attack) or range (if making a ranged attack).",
 			"",
-			"@HL[Bull Rush (Attack):] You push a foe that is at most one size category larger than you straight back. Attempt a bull rush combat maneuver check. If you're successful, you push the foe back 5 feet. For every 5 by which your check exceeds your foe's CMD, you push that foe back 5 additional feet. You can choose to move along with the target if you have the necessary acts to do so. The foe's movement doesn't provoke attacks of opportunity unless you have the {feat/Greater Bull Rush} Feat.",
+			"@HL[Bull Rush (Attack):] You push a foe that is at most one size category larger than you straight back. Attempt a bull rush combat maneuver check. If you're successful, you push the foe back 5 feet. For every 5 by which your check exceeds your foe's CMD, you push that foe back 5 additional feet. You can choose to move along with the target if you have the necessary acts to do so. The foe's movement doesn't provoke attacks of opportunity unless you have the ‹feat/Greater Bull Rush› Feat.",
 			"",
 			"@HL[Cast a Swift Spell:] You cast a single spell or use a single spell-like ability with a casting time of 1 swift action.",
 			"",
@@ -1622,13 +1622,13 @@
 			"",
 			"@HL[Escape a Grapple:] You attempt to escape or gain control of a grapple by attempting either an Escape Artist check or a combat maneuver check. The second time in a turn you take this action, you take a -5 penalty on the check. The third time, you take a -10 penalty on the check.",
 			"",
-			"@HL[Feint (Attack):] You use Bluff to attempt a feint against an opponent. If you succeed, that opponent is denied its Dexterity bonus to AC for the next attack you make against it this turn. If you have the {feat/Improved Feint} feat, this action doesn't have the attack subtype.",
+			"@HL[Feint (Attack):] You use Bluff to attempt a feint against an opponent. If you succeed, that opponent is denied its Dexterity bonus to AC for the next attack you make against it this turn. If you have the ‹feat/Improved Feint› feat, this action doesn't have the attack subtype.",
 			"",
 			"@HL[Handle an Animal:] You command an animal to perform a trick it knows by attempting a Handle Animal check. Some class abilities let characters attempt this as a free action.",
 			"",
 			"@HL[Light a Torch with a Tindertwig or Open Flame:] You ignite a torch with a tindertwig or an open flame.",
 			"",
-			"@HL[Load a Hand Crossbow or Light Crossbow (Complex):] You load a hand crossbow or a light crossbow with a bolt. If you have the {feat/Rapid Reload} feat with the weapon you are reloading, this is a free action.",
+			"@HL[Load a Hand Crossbow or Light Crossbow (Complex):] You load a hand crossbow or a light crossbow with a bolt. If you have the ‹feat/Rapid Reload› feat with the weapon you are reloading, this is a free action.",
 			"",
 			"@HL[Lower or Reactivate Spell Resistance:] You lower any spell resistance that is active, or reactivate a spell resistance that has been lowered.",
 			"",
@@ -1648,7 +1648,7 @@
 			"",
 			"@HL[Search:] You use Perception to search a room for salient hidden creatures or clues, or you make a detailed search of a 10-foot-square area to detect traps, triggers, hidden objects, or footprints. When you search an area, this action has the complex subtype.",
 			"",
-			"@HL[Spell Combat (Attack, Complex):] You make an attack roll with a light or one-handed melee weapon, then cast a spell on the magus spell list with a casting time of 1 standard action. You take a -2 penalty on the melee attack, but the spell is cast regardless of whether the attack hits. If you cast the spell defensively, you can subtract your Intelligence bonus from the result of the attack roll to add the same value as a circumstance bonus on the {rule/concentration} check. You must have the [spell combat class feature](class/magus) to take this action, and can take this action only once per turn. To take this action, you must have one hand free. You can't also take the following actions this turn: cast a standard-action spell or cast a 1-round-action spell.",
+			"@HL[Spell Combat (Attack, Complex):] You make an attack roll with a light or one-handed melee weapon, then cast a spell on the magus spell list with a casting time of 1 standard action. You take a -2 penalty on the melee attack, but the spell is cast regardless of whether the attack hits. If you cast the spell defensively, you can subtract your Intelligence bonus from the result of the attack roll to add the same value as a circumstance bonus on the ‹rule/concentration› check. You must have the [spell combat class feature](class/magus) to take this action, and can take this action only once per turn. To take this action, you must have one hand free. You can't also take the following actions this turn: cast a standard-action spell or cast a 1-round-action spell.",
 			"",
 			"@HL[Stand Up (Move):] You stand up from being prone.",
 			"",
@@ -1680,7 +1680,7 @@
 		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/105}",
+			"‹SOURCE Pathfinder Unchained/105›",
 			"",
 			"The following is a list of the main advanced actions in this system. The number of acts required to take each advanced action is listed in parentheses after the action's subtype (if any).",
 			"",
@@ -1714,7 +1714,7 @@
 			"",
 			"@HL[Disable Device (Complex; At Least 3 Acts):] You attempt to unlock a lock or disable another device. For every round the action takes, you must commit 3 acts. These acts may or may not need to be consecutive based on the nature of the device. For example, acts committed to open a lock or disable a trap must nearly always be consecutive. The GM may rule that some complex devices take more than 3 acts to disable; for example, a complex arcane machine that will cause a devastating calamity in 1 minute could take 10 acts to disable, though the acts may not need to be consecutive.",
 			"",
-			"@HL[Drag (Combat; 2 Acts):] You try to drag a foe that is no more than one size category larger than you 5 or more feet in a straight line. Attempt a drag combat maneuver check. If you succeed, you move 5 feet in one direction, and your opponent moves with you, staying adjacent to you. For every 5 by which your combat maneuver check exceeds the target's CMD, you can move 5 additional feet in the same direction. You can't drag a creature a distance greater than your speed with this advanced action. The target's movement does not provoke attacks of opportunity unless you have the {feat/Greater Drag} feat.",
+			"@HL[Drag (Combat; 2 Acts):] You try to drag a foe that is no more than one size category larger than you 5 or more feet in a straight line. Attempt a drag combat maneuver check. If you succeed, you move 5 feet in one direction, and your opponent moves with you, staying adjacent to you. For every 5 by which your combat maneuver check exceeds the target's CMD, you can move 5 additional feet in the same direction. You can't drag a creature a distance greater than your speed with this advanced action. The target's movement does not provoke attacks of opportunity unless you have the ‹feat/Greater Drag› feat.",
 			"",
 			"@HL[Drink a Liquid or Apply an Oil (Complex; 2 Acts):] You drink a potion, elixir, or another liquid, or apply an oil, gaining that liquid or oil's effects when the drinking or application is complete.",
 			"",
@@ -1730,7 +1730,7 @@
 			"",
 			"@HL[Load a Heavy or Repeating Crossbow (Complex; 2 acts):] You load a bolt in a heavy crossbow or place a new case of 5 bolts into a repeating crossbow.",
 			"",
-			"@HL[Load a One-Handed Early Firearm (Complex; 2 Acts):] You load a single barrel of a one-handed early firearm. If you have the {feat/Rapid Reload} feat for that firearm, this is reduced to a simple action.",
+			"@HL[Load a One-Handed Early Firearm (Complex; 2 Acts):] You load a single barrel of a one-handed early firearm. If you have the ‹feat/Rapid Reload› feat for that firearm, this is reduced to a simple action.",
 			"",
 			"@HL[Load a Two-Handed Early Firearm (Complex; 3 Acts):] You load a single barrel of a two-handed early firearm. If you have the Rapid Reload feat for that firearm, you need commit only 2 acts to reload that firearm.",
 			"",
@@ -1788,7 +1788,7 @@
 		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/109}",
+			"‹SOURCE Pathfinder Unchained/109›",
 			"",
 			"Unless stated otherwise in the action's description, a free action can be taken only on your turn. Theoretically, you can take as many free actions in a turn as you wish, though the GM may apply reasonable limitations on free actions. For instance, although speaking is a free action, since a round is only 6 seconds in length, your GM might stop you from spouting off a long diatribe during your turn (or between turns), and may even rule that if you are casting a rather complex spell with a verbal component, you aren't able to verbally warn your companions of some danger that you notice before they do. Typically, this limitation shouldn't be applied to reloading ranged weapons as a free action.",
 			"",
@@ -1796,7 +1796,7 @@
 			"",
 			"The following are the main free actions of this system.",
 			"",
-			"@HL[Cast Defensively:] When casting a spell, you can take a free action to do so defensively. You must attempt a {rule/concentration} check (DC = 15 + double the spell's level). If you succeed, that spell loses the complex subtype for that casting. If you fail, you lose the spell.",
+			"@HL[Cast Defensively:] When casting a spell, you can take a free action to do so defensively. You must attempt a ‹rule/concentration› check (DC = 15 + double the spell's level). If you succeed, that spell loses the complex subtype for that casting. If you fail, you lose the spell.",
 			"",
 			"@HL[Cease Concentrating on a Spell:] You cease concentrating on a spell that you have cast.",
 			"",
@@ -1838,7 +1838,7 @@
 		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/109}",
+			"‹SOURCE Pathfinder Unchained/109›",
 			"",
 			"The following are the main reactions of this system.",
 			"",
@@ -1870,7 +1870,7 @@
 		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/107}",
+			"‹SOURCE Pathfinder Unchained/107›",
 			"",
 			"While the list of actions in this section is long and covers most of the major actions in the game, it's not exhaustive. There are many actions that are not covered in these pages. The following are guidelines for converting such actions from the default action economy to this one.",
 			"",
@@ -1906,9 +1906,9 @@
 		"subtitle": "Revised Action Economy",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/109}",
+			"‹SOURCE Pathfinder Unchained/109›",
 			"",
-			"Some spells and abilities in the game grant extra actions. The two benchmark abilities are the {feat/Combat Reflexes} feat and the {spell/haste} spell. The following describes how to use these in this system, which should serve as a guide for how to fit in similar abilities.",
+			"Some spells and abilities in the game grant extra actions. The two benchmark abilities are the ‹feat/Combat Reflexes› feat and the ‹spell/haste› spell. The following describes how to use these in this system, which should serve as a guide for how to fit in similar abilities.",
 			"",
 			"@HL[Combat Reflexes:] If you have this feat, you can take a number of additional reactions between your turns equal to your Dexterity bonus, but those reactions can be used only to make attacks of opportunity. You gain all the other abilities of this feat.",
 			"",
@@ -1933,7 +1933,7 @@
 		"name": "Wound Thresholds",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/136}",
+			"‹SOURCE Pathfinder Unchained/136›",
 			"",
 			"In a standard Pathfinder game, when a dragon with 800 hit points has taken 798 points of damage, it's still fighting at full capacity, but as soon as it has taken 801 points of damage, it's knocked completely unconscious. Though this ensures that injured characters remain useful and effective, it can feel unrealistic, and it devalues any healing that doesn't strictly prevent a knockout. Consider using the following variant to add tension and increase the strategic value of healing, but be aware that it can lead to situations that punish the side that's already behind, and that the pace of fights could drag in the late stages as two injured parties slug it out. Wound thresholds also make it especially dangerous for a party to take on higher-CR opponents."
 		],
@@ -1960,7 +1960,7 @@
 		"subtitle": "Wound Thresholds",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/136}",
+			"‹SOURCE Pathfinder Unchained/136›",
 			"",
 			"In the wound thresholds variant, a character divides her hit point total into four quarters, and takes penalties whenever she's not in her top quarter. A character at 3/4 of her maximum hit points is less effective than one at full hit points, one at 1/2 is less effective than one at 3/4, and so on.",
 			"",
@@ -1983,7 +1983,7 @@
 		"subtitle": "Wound Thresholds",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/136}",
+			"‹SOURCE Pathfinder Unchained/136›",
 			"",
 			"This rules variant uses three special conditions that apply automatically when a character reaches the corresponding wound thresholds: grazed, wounded, and critical. These conditions are not cumulative - only the most severe one applies at a given time. The disabled and staggered conditions have the same effects as in the core rules, but apply to a wider range of hit point totals, as described below. Unlike grazed, wounded, and critical, the disabled and staggered conditions stack, so a character who is disabled or staggered is still critical as well.",
 			"",
@@ -2013,7 +2013,7 @@
 			"",
 			"### Caster Level Penalties",
 			"",
-			"The penalty to caster level from the grazed, wounded, or critical condition can make it so an injured spellcaster is unable to cast the highest levels of spells she would normally be able to. However, it doesn't cause her to lose any prepared spells or spell slots. The penalty to caster level also reduces her bonus on {rule/concentration} checks and lowers the range, duration, and effectiveness of her spells. The penalty can't make her effective caster level lower than 1."
+			"The penalty to caster level from the grazed, wounded, or critical condition can make it so an injured spellcaster is unable to cast the highest levels of spells she would normally be able to. However, it doesn't cause her to lose any prepared spells or spell slots. The penalty to caster level also reduces her bonus on ‹rule/concentration› checks and lowers the range, duration, and effectiveness of her spells. The penalty can't make her effective caster level lower than 1."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -2032,7 +2032,7 @@
 		"subtitle": "Wound Thresholds",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/137}",
+			"‹SOURCE Pathfinder Unchained/137›",
 			"",
 			"Keeping track of wound thresholds for a horde of monsters can be a significant amount of work. To simplify the process, the GM can use only the wounded threshold and ignore the increased range for the disabled condition. This means she only needs to keep track of 1/2 of each monster's hit points and the -2 penalty. The GM should use this method primarily for large groups of monsters; prominent NPCs and enemies that fight on their own should use all the thresholds."
 		],
@@ -2053,7 +2053,7 @@
 		"subtitle": "Wound Thresholds",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/137}",
+			"‹SOURCE Pathfinder Unchained/137›",
 			"",
 			"The following feats are either new feats or Core Rulebook feats adapted to work with the wound threshold system. Though the system doesn't require their use, they're a great way to expand the role of wound thresholds in your game.",
 			"",
@@ -2094,7 +2094,7 @@
 		"subtitle": "Wound Thresholds",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/137}",
+			"‹SOURCE Pathfinder Unchained/137›",
 			"",
 			"For a grittier game in which wounds have a much larger impact, double the penalties imposed by the grazed, wounded, and critical conditions. Use this mode carefully, since it can cause a serious death spiral - in other words, the side that starts losing has tremendous disadvantages and is far more likely to die or need to escape. This adjustment also means that a spellcaster will always lose a level of spells she can cast when she drops from one wound threshold to a lower one, so the effects of wound thresholds on spellcasting are more predictable and stay consistent whether a character is at an even or odd level."
 		],
@@ -2114,7 +2114,7 @@
 		"name": "Wounds and Vigor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/206}",
+			"‹SOURCE Ultimate Combat/206›",
 			"",
 			"Hit points are an abstraction. When a fighter gains a level, his body does not suddenly become more resistant to damage. A sword's strike does not suddenly do proportionately less damage. Rather, hit points suggest that the fighter has undergone more training, and while he may have improved his ability to deal with wounds to a small degree, the hit points gained at higher levels reflect less his capacity for physical punishment and more his skill at avoiding hits, his ability to dodge and twist and turn. Each loss of hit points, in this case, suggests that he is becoming progressively less nimble over the course of combat - in other words, that the decreasing hit points are a marker for his overall endurance and condition. It's not quite as satisfying, however, to roll a critical hit and then tell a player that his opponent ducked out of the way, but that the sword's slash made the enemy a little less lucky.",
 			"",
@@ -2142,7 +2142,7 @@
 		"name": "Determining Wound Points and Vigor Points",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/206}",
+			"‹SOURCE Ultimate Combat/206›",
 			"",
 			"Instead of hit points, creatures using this system have a number of wound points and vigor points. These two replacement scores are kept track of separately, and represent different ways a character handles the damage inflicted on him. The following are descriptions of these scores and how they work within the variant system of damage tracking."
 		],
@@ -2167,7 +2167,7 @@
 		"subtitle": "Wounds and Vigor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/206}",
+			"‹SOURCE Ultimate Combat/206›",
 			"",
 			"Typically a creature has a number of wound points equal to twice its Constitution score. It also has a wound threshold equal to its Constitution score.",
 			"",
@@ -2192,7 +2192,7 @@
 		"subtitle": "Wounds and Vigor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/206}",
+			"‹SOURCE Ultimate Combat/206›",
 			"",
 			"Vigor represents a creature's ability to avoid the majority of actual physical damage it might take from an attack. When a creature takes damage, the damage typically reduces its vigor points first. Some special attacks either deal wound point damage directly or deal both vigor and wound point damage (see [Critical Hits](rule/attacks_that_deal_wound_point_damage)).",
 			"",
@@ -2214,11 +2214,11 @@
 		"name": "Regaining Wound Points and Vigor Points",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/206}",
+			"‹SOURCE Ultimate Combat/206›",
 			"",
 			"A creature can regain wound and vigor points in a number of ways, but in general it is easier to regain vigor points.",
 			"",
-			"@HL[Healing Spells and Effects:] When casting healing spells or using an ability with a healing effect (such as channeling holy energy on living creatures or the paladin's lay on hands ability), the creature casting the spell or using the effect must choose whether it wants to heal wound points or vigor points. The creature decides this before casting the spell or using the ability. When that creature decides to heal vigor points, the healing spell or effect acts normally, replenishing a number of vigor points equal to the number of hit points the spell or effect would normally heal. If the creature decides to heal wound points, it heals a number of wound points equal to the number of dice it would normally roll for the healing spell or effect. In the case of effects like the {spell/heal} spell, where a spell or effect heals 10 hit points per caster level, the creature heals its caster level in wound points.",
+			"@HL[Healing Spells and Effects:] When casting healing spells or using an ability with a healing effect (such as channeling holy energy on living creatures or the paladin's lay on hands ability), the creature casting the spell or using the effect must choose whether it wants to heal wound points or vigor points. The creature decides this before casting the spell or using the ability. When that creature decides to heal vigor points, the healing spell or effect acts normally, replenishing a number of vigor points equal to the number of hit points the spell or effect would normally heal. If the creature decides to heal wound points, it heals a number of wound points equal to the number of dice it would normally roll for the healing spell or effect. In the case of effects like the ‹spell/heal› spell, where a spell or effect heals 10 hit points per caster level, the creature heals its caster level in wound points.",
 			"",
 			"For instance, if a 12th-level cleric uses her channel positive energy power to replenish wound points to living creatures, she would typically heal 6 wound points for all living creatures with her channel energy burst. If she casts the *heal* spell, she would restore 12 wound points to the creature touched.",
 			"",
@@ -2243,13 +2243,13 @@
 		"subtitle": "Wounds and Vigor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/207}",
+			"‹SOURCE Ultimate Combat/207›",
 			"",
 			"Some attacks can be used to deal wound points damage directly.",
 			"",
 			"@HL[Critical Hits:] When a creature is subject to a critical hit, the critical hit deals the damage normally, reducing vigor points first, and then reducing wound points when vigor points are gone. It also deals an amount of wound point damage equal to its critical multiplier (for example, 3 wound points for a weapon with a &times;3 modifier), on top of any wound point damage the creature might take from the critical hit.",
 			"",
-			"@HL[Negative Energy Damage:] When a creature deals negative energy damage to a creature with a spell or effect, it can choose to deal wound point or vigor point damage (but not both) with the spell or effect. If that creature chooses to deal vigor point damage, the spell or effect deals negative energy damage normally, and that damage reduces vigor points only, even if it deals more damage than the target has vigor points. If the spell or effect deals negative energy damage to wound points directly, it deals an amount of wound point damage equal to the number of dice the creature would roll for that effect; if the effect deals a number of points per caster level (such as the {spell/harm} spell), it deals a number of wound points equal to the caster level of the spell."
+			"@HL[Negative Energy Damage:] When a creature deals negative energy damage to a creature with a spell or effect, it can choose to deal wound point or vigor point damage (but not both) with the spell or effect. If that creature chooses to deal vigor point damage, the spell or effect deals negative energy damage normally, and that damage reduces vigor points only, even if it deals more damage than the target has vigor points. If the spell or effect deals negative energy damage to wound points directly, it deals an amount of wound point damage equal to the number of dice the creature would roll for that effect; if the effect deals a number of points per caster level (such as the ‹spell/harm› spell), it deals a number of wound points equal to the caster level of the spell."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -2268,7 +2268,7 @@
 		"subtitle": "Wounds and Vigor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/207}",
+			"‹SOURCE Ultimate Combat/207›",
 			"",
 			"The following are a few other considerations to take into account when using the wounds and vigor system.",
 			"",
@@ -2276,7 +2276,7 @@
 			"",
 			"@HL[Nonlethal Damage:] When a creature takes nonlethal damage, it takes that damage in vigor points only, even if the attack deals more damage than the creature has vigor points. If the creature has no vigor points (and no temporary vigor points), each time that creature takes damage from an attack that deals nonlethal damage, it takes either 1 wound point of damage, or a number of wound points in damage equal to the attack's critical hit modifier if the attack is a critical hit.",
 			"",
-			"@HL[Spells or Effects with Hit Point Triggers:] When using this system, if a spell or an ability has an effect that occurs when you reduce a creature to 0 or fewer hit points (such as the {spell/disintegrate} spell), that effect is instead triggered when a creature is wounded. In the case of the harm spell or a similar effect where a creature cannot be reduced below 1 hit point by the spell or effect, a creature's wound points cannot be reduced to or below that creature's wound threshold."
+			"@HL[Spells or Effects with Hit Point Triggers:] When using this system, if a spell or an ability has an effect that occurs when you reduce a creature to 0 or fewer hit points (such as the ‹spell/disintegrate› spell), that effect is instead triggered when a creature is wounded. In the case of the harm spell or a similar effect where a creature cannot be reduced below 1 hit point by the spell or effect, a creature's wound points cannot be reduced to or below that creature's wound threshold."
 		],
 		"parent_topics": [
 			"optional_combat_changes",
@@ -2294,7 +2294,7 @@
 		"name": "Wounds and Vigor Variant Feats",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"{SOURCE Ultimate Combat/207}",
+			"‹SOURCE Ultimate Combat/207›",
 			"",
 			"The following feats are either new for the wounds and vigor system or work differently in that system.",
 			"",
@@ -2302,7 +2302,7 @@
 			"",
 			"For you, impending death is a call to wrath.",
 			"",
-			"**Prerequisites:** Str 13, Con 13, {feat/Diehard}, {feat/Endurance}, base attack bonus +6, orc or half-orc.",
+			"**Prerequisites:** Str 13, Con 13, ‹feat/Diehard›, ‹feat/Endurance›, base attack bonus +6, orc or half-orc.",
 			"",
 			"**Benefit:** You are not staggered when your wound points reach your wound threshold, but you lose 1 wound point if you take any action during your turn. You only take 1 wound point each round when you take actions. Furthermore, you gain a +2 bonus on melee attacks and damage rolls when your wound points are at or below your wound threshold.",
 			"",
@@ -2310,7 +2310,7 @@
 			"",
 			"Even if you suffer a grievous wound, you can shrug off the damage and continue your relentless assault.",
 			"",
-			"**Prerequisites:** Str 13, Con 15, {feat/Deathless Initiate}, Diehard, Endurance, {feat/Ironhide}, base attack bonus +9, orc or half-orc.",
+			"**Prerequisites:** Str 13, Con 15, ‹feat/Deathless Initiate›, Diehard, Endurance, ‹feat/Ironhide›, base attack bonus +9, orc or half-orc.",
 			"",
 			"**Benefit:** When your wound points reach your wound threshold, you do not take 1 wound point when you take an action.",
 			"",

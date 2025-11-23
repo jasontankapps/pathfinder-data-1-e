@@ -3,7 +3,7 @@
 		"name": "Puzzles and Riddles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/248}",
+			"‹SOURCE GameMastery Guide/248›",
 			"",
 			"While ancient ciphers and cunning sphinxes fill the pages of great fantasy tales, crafting a workable and believable puzzle that adds an air of mystery can be a challenge. What makes a great puzzle in a newspaper is rarely right for a puzzle in a dungeon. Puzzles in such publications are usually solved by one person, with no time limit, and modern-day knowledge. None of those things are true in most Pathfinder adventures. In such roleplaying situations you have a team of solvers, often pressed for time, and with only their characters' knowledge. Just as you customize encounters to your PCs' skills, you should customize a puzzle to both your players' skills and their PCs' characteristics. When putting together a puzzle, riddle, or similar knowledge-based challenge for your campaign, consider the four parts of a well-orchestrated puzzle: the setup, the mechanism, the clues, and the answer."
 		],
@@ -38,7 +38,7 @@
 		"subtitle": "Puzzles and Riddles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/248}",
+			"‹SOURCE GameMastery Guide/248›",
 			"",
 			"Giving your puzzle a reason to exist is a crucial step to making sure the players are interested in your game. Any puzzle needs to feel like an important part of an adventure, not a barrier preventing the players from enjoying the experience. There should also be a reason players actually want to solve a puzzle, with at least an implied benefit and penalty if they do or don't.",
 			"",
@@ -67,7 +67,7 @@
 		"subtitle": "Puzzles and Riddles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/248}",
+			"‹SOURCE GameMastery Guide/248›",
 			"",
 			"There are dozens of puzzle types, but not all of them are great for every adventure. When designing a puzzle, consider the story and environment, and decide whether the mechanism fits.",
 			"",
@@ -100,7 +100,7 @@
 		"subtitle": "Puzzles and Riddles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/249}",
+			"‹SOURCE GameMastery Guide/249›",
 			"",
 			"There's a significant distinction between clues and hints. A clue is something that's necessary to solve the puzzle. A hint, on the other hand, is something that helps open up an entirely solvable puzzle. While a clue might be meted out by the GM, often in the form of additional details found along with the puzzle, later in an adventure, or from a loose-tongued henchman, hints should be the domain of the PCs and bridge the gap between characters and players.",
 			"",
@@ -127,7 +127,7 @@
 		"subtitle": "Puzzles and Riddles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/249}",
+			"‹SOURCE GameMastery Guide/249›",
 			"",
 			"Regardless of the type of puzzle, the answer should mean something. Perhaps the answer is the command word to a powerful wand, or the riddle of the three gems results in the players ending up with a magical treasure. An unmemorable answer is easy to spot, such as a number or piece of unrelated trivia. If your answer is unmemorable, the puzzle leading up to it might seem pointless. Make the players need the answer and they'll be excited about getting it.",
 			"",
@@ -152,7 +152,7 @@
 		"subtitle": "Puzzles and Riddles",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/249}",
+			"‹SOURCE GameMastery Guide/249›",
 			"",
 			"Noted here are three classic types of fantasy riddles. If you're looking for more riddles, a simple online search for fantasy puzzles and riddles can reveal hundreds more.",
 			"",
@@ -164,7 +164,7 @@
 			">",
 			">What can you put in a wood box that will make it lighter? Answer: \"Holes.\"",
 			"",
-			"@HL[I Never Lie Puzzle:] This is a simple and famous logic puzzle, wherein two guards protect two pathways, one to danger and one to safety. They present the conundrum that one always lies and one always tells the truth. Now have the PCs decide which is which. While a spell like {spell/discern lies} might easily reveal this, so can posing questions with blatantly true answers (like simple equations), or a question like \"If I asked you if the door you're guarding leads to safety, would you say yes?\" wherein the guard is forced to answer truthfully.",
+			"@HL[I Never Lie Puzzle:] This is a simple and famous logic puzzle, wherein two guards protect two pathways, one to danger and one to safety. They present the conundrum that one always lies and one always tells the truth. Now have the PCs decide which is which. While a spell like ‹spell/discern lies› might easily reveal this, so can posing questions with blatantly true answers (like simple equations), or a question like \"If I asked you if the door you're guarding leads to safety, would you say yes?\" wherein the guard is forced to answer truthfully.",
 			"",
 			"@HL[Sequence Riddles:] Riddles like this require the solver to find the next in a sequence, though many might require a hint or visual cue.",
 			"",
@@ -192,15 +192,15 @@
 			"Horror Adventures"
 		],
 		"description": [
-			"{SOURCE GameMastery Guide/250}",
+			"‹SOURCE GameMastery Guide/250›",
 			"",
-			"Insanity is an affliction inflicted upon those who suffer from extraordinary physical, mental, or spiritual anguishes and trials. Insanity can also be caused by exposure to particularly potent sources of unhinging horror, madness, or alien natures, such that the mind simply cannot withstand them. Insanity is a {spelldef/mind-affecting} effect.",
+			"Insanity is an affliction inflicted upon those who suffer from extraordinary physical, mental, or spiritual anguishes and trials. Insanity can also be caused by exposure to particularly potent sources of unhinging horror, madness, or alien natures, such that the mind simply cannot withstand them. Insanity is a ‹spelldef/mind-affecting› effect.",
 			"",
 			"### Curing Insanity",
 			"",
 			"All insanities have a DC that represents the insanity's strength. An insanity's DC indicates the Will save you need to roll in order to resist contracting the insanity when you are initially exposed to it, but also the DC you need to make to recover. Recovering from an insanity naturally is a lengthy process - once per week, you make a Will save against the insanity's current DC. If you succeed on this save, the insanity's DC is reduced by a number of points equal to your Charisma bonus (minimum of 1). You continue to suffer the full effects of the insanity until its DC is reduced to 0, at which point you are cured and the insanity vanishes completely.",
 			"",
-			"{spell/Lesser restoration} has no effect on insanity, but {spell/restoration} reduces the current DC of one insanity currently affecting a target by an amount equal to the caster's level. {spell/Greater restoration}, {spell/heal}, {spell/limited wish}, {spell/miracle}, or {spell/wish} immediately cures a target of all insanity.",
+			"‹spell/Lesser restoration› has no effect on insanity, but ‹spell/restoration› reduces the current DC of one insanity currently affecting a target by an amount equal to the caster's level. ‹spell/Greater restoration›, ‹spell/heal›, ‹spell/limited wish›, ‹spell/miracle›, or ‹spell/wish› immediately cures a target of all insanity.",
 			"",
 			"### Types of Insanity",
 			"",
@@ -208,14 +208,14 @@
 			"",
 			"| d% | Insanity |",
 			"| --- | --- |",
-			"| 01-11 | {madness/Amnesia} |",
-			"| 12-48 | {madness/Mania}/{madness/Phobia} |",
-			"| 49-68 | {madness/Dissociated Identity} |",
-			"| 69-78 | {madness/Paranoid} |",
-			"| 79-84 | {madness/Moral Insanity} |",
-			"| 85-100 | {madness/Schizophrenia} |",
+			"| 01-11 | ‹madness/Amnesia› |",
+			"| 12-48 | ‹madness/Mania›/‹madness/Phobia› |",
+			"| 49-68 | ‹madness/Dissociated Identity› |",
+			"| 69-78 | ‹madness/Paranoid› |",
+			"| 79-84 | ‹madness/Moral Insanity› |",
+			"| 85-100 | ‹madness/Schizophrenia› |",
 			"",
-			"@HL[Note:] These rules point to the \"original rules version\" of some of the madnesses, which can be found at the bottom of their entries. *{source/Horror Adventures}* introduced {rule/different rules for |madness}, which you may prefer to use."
+			"@HL[Note:] These rules point to the \"original rules version\" of some of the madnesses, which can be found at the bottom of their entries. *‹source/Horror Adventures›* introduced ‹rule/different rules for »madness›, which you may prefer to use."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -241,7 +241,7 @@
 		"tags": "npc boons non-player characters",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/254}",
+			"‹SOURCE GameMastery Guide/254›",
 			"",
 			"For every player character adventuring through a fantasy world, there exist dozens if not hundreds of non-player characters, each existing to provide vital services to characters, progress important story lines, or just add flavor between sagas. From the local farmer to the tavern storyteller and from the highest king to the poorest urchin, these characters are the residents of the worlds and stories all GMs craft. They are the allies and hindrances, the employers and victims, the cheering throngs and the booing crowds. Whenever the PCs need aid, have business, or venture off the beaten path, these are the characters ready to come to life.",
 			"",
@@ -286,7 +286,7 @@
 		"name": "A List of NPCs",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/255}",
+			"‹SOURCE GameMastery Guide/255›",
 			"",
 			"- Adventurer:",
 			"    - [Battle Mage](npc/adventurer_battle_mage)",
@@ -354,7 +354,7 @@
 			"- Noble:",
 			"    - [Knight](npc/noble_knight)",
 			"    - [Noble Scion](npc/noble_noble_scion)",
-			"    - {npc/Noble>_noble}",
+			"    - ‹npc/Noble<_noble›",
 			"- Road:",
 			"    - [Pilgrim](npc/road_pilgrim)",
 			"    - [Vagabond](npc/road_vagabond)",
@@ -408,9 +408,9 @@
 		"tags": "monsters",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/5}",
+			"‹SOURCE Pathfinder RPG Bestiary/5›",
 			"",
-			"The creatures in the Pathfinder RPG have been drawn from a wide range of sources, from real-world legends and myths (where we get our dragons and {rule/demons}, our {monster/basilisk/s} and {monster/yeti/s}), to the traditions of the RPG's rich history (such as the {monster/shambling mound} and the {monster/rust monster}), to the inventions of writers both old (such as H. G. Wells's {monster/morlock/s} or H. P. Lovecraft's [ghasts](monster/ghoul) and {monster/shoggoth/s}) and new.",
+			"The creatures in the Pathfinder RPG have been drawn from a wide range of sources, from real-world legends and myths (where we get our dragons and ‹rule/demons›, our ‹monster/basilisk«s› and ‹monster/yeti«s›), to the traditions of the RPG's rich history (such as the ‹monster/shambling mound› and the ‹monster/rust monster›), to the inventions of writers both old (such as H. G. Wells's ‹monster/morlock«s› or H. P. Lovecraft's [ghasts](monster/ghoul) and ‹monster/shoggoth«s›) and new.",
 			"",
 			"While each monster is a unique creature, many possess similar special attacks, defenses, and qualities. Unique abilities are described below the monster's stat block. Many abilities common to several monsters appear in the [Universal Monster Rules](main/umr). If a monster's listed special ability does not appear in its description, you'll find it there.",
 			"",
@@ -446,17 +446,17 @@
 		"tags": "monster stat block",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/5}",
+			"‹SOURCE Pathfinder RPG Bestiary/5›",
 			"",
 			"This is where you'll find all of the information you need to run the monster in an encounter. A stat block is organized as follows. Note that in cases where a line in a stat block has no value, that line is omitted.",
 			"",
-			"@HL[Name and CR:] The monster's name is presented first, along with its challenge rating (CR). Challenge rating is a numerical indication of how dangerous a monster is: the higher the number, the deadlier the creature. Challenge rating is detailed in the {rule/Designing Encounters} section.",
+			"@HL[Name and CR:] The monster's name is presented first, along with its challenge rating (CR). Challenge rating is a numerical indication of how dangerous a monster is: the higher the number, the deadlier the creature. Challenge rating is detailed in the ‹rule/Designing Encounters› section.",
 			"",
 			"@HL[XP:] Listed here are the total experience points that PCs earn for defeating the monster.",
 			"",
 			"@HL[Race, Class, and Level:] Some monsters do not possess racial Hit Dice and are instead defined by their class levels. For these monsters, their race, class, and level appear here. Unless otherwise noted, the first class listed is the class chosen by the monster as its favored class.",
 			"",
-			"@HL[Alignment, Size, and Type:] While a monster's size and type remain constant (unless changed by the application of {rule/templates} or other unusual modifiers), alignment is far more fluid. The alignments listed for each monster represent the norm for those monsters - they can vary as you require them to in order to serve the needs of your campaign. Only in the case of relatively unintelligent monsters (creatures with an Intelligence of 2 or lower are almost never anything other than neutral) and planar monsters (outsiders with alignments other than those listed are unusual and typically outcasts from their kind) is the listed alignment relatively unchangeable.",
+			"@HL[Alignment, Size, and Type:] While a monster's size and type remain constant (unless changed by the application of ‹rule/templates› or other unusual modifiers), alignment is far more fluid. The alignments listed for each monster represent the norm for those monsters - they can vary as you require them to in order to serve the needs of your campaign. Only in the case of relatively unintelligent monsters (creatures with an Intelligence of 2 or lower are almost never anything other than neutral) and planar monsters (outsiders with alignments other than those listed are unusual and typically outcasts from their kind) is the listed alignment relatively unchangeable.",
 			"",
 			"@HL[Init and Senses:] The creature's initiative modifier followed by any special senses and its Perception check modifier.",
 			"",
@@ -464,11 +464,11 @@
 			"",
 			"@HL[AC:] The creature's Armor Class, touch Armor Class, and flat-footed Armor Class. The modifiers that generate its AC are listed parenthetically at the end of this entry.",
 			"",
-			"@HL[hp:] The creature's hit points, followed by its Hit Dice (including modifiers from Constitution, favored class levels, creature type modifiers, and the {feat/Toughness} feat). Creatures with PC class levels receive maximum hit points for their first HD, but all other HD rolls are assumed to be average. {umr/Fast healing} and {umr/regeneration} values, if any, follow the creature's HD.",
+			"@HL[hp:] The creature's hit points, followed by its Hit Dice (including modifiers from Constitution, favored class levels, creature type modifiers, and the ‹feat/Toughness› feat). Creatures with PC class levels receive maximum hit points for their first HD, but all other HD rolls are assumed to be average. ‹umr/Fast healing› and ‹umr/regeneration› values, if any, follow the creature's HD.",
 			"",
 			"@HL[Saving Throws:] The creature's Fortitude, Reflex, and Will saves, followed by situational modifiers to those rolls.",
 			"",
-			"@HL[Defensive Abilities/&shy;DR/&shy;Immune/&shy;Resist/&shy;SR:] All of the creature's unusual defensive abilities. {rule/Damage reduction}, {umr/immunit/ies>y}, {umr/resistance/s}, and {rule/spell resistance} are called out separately as necessary.",
+			"@HL[Defensive Abilities/&shy;DR/&shy;Immune/&shy;Resist/&shy;SR:] All of the creature's unusual defensive abilities. ‹rule/Damage reduction›, ‹umr/immunit«ies<y›, ‹umr/resistance«s›, and ‹rule/spell resistance› are called out separately as necessary.",
 			"",
 			"@HL[Weaknesses:] All of the creature's unusual weaknesses are listed here.",
 			"",
@@ -482,7 +482,7 @@
 			"",
 			"@HL[Special Attacks:] The creature's special attacks. Full details for these attacks are given at the end of the stat block or in the [universal monster rules section](main/umr).",
 			"",
-			"@HL[Spell-Like Abilities:] After listing the caster level of the creature's spell-like abilities, this section lists all of the creature's spell-like abilities, organized by how many times per day it can use the abilities. Constant spell-like abilities function at all times but can be {spell/dispel/led}. A creature can reactivate a constant spell-like ability as a swift action.",
+			"@HL[Spell-Like Abilities:] After listing the caster level of the creature's spell-like abilities, this section lists all of the creature's spell-like abilities, organized by how many times per day it can use the abilities. Constant spell-like abilities function at all times but can be ‹spell/dispel«led›. A creature can reactivate a constant spell-like ability as a swift action.",
 			"",
 			"@HL[Spells Known/&shy;Prepared:] If the creature can actually cast spells, its caster level is indicated here followed by the spells it knows or typically has prepared. Unless otherwise indicated, a spellcasting creature does not receive any of a spellcasting class's other abilities, such as a cleric's ability to spontaneously convert prepared spells to *cure* or *inflict* spells.",
 			"",
@@ -494,7 +494,7 @@
 			"",
 			"@HL[Skills:] The creature's skills are listed here. Racial modifiers to skills are indicated at the end of this entry.",
 			"",
-			"@HL[Languages:] The {misc/languages} most commonly spoken by the creature are listed here. For unusual creatures, you can swap out the languages known for other choices as needed. A creature with a higher-than-normal Intelligence score receives the appropriate number of bonus languages.",
+			"@HL[Languages:] The ‹misc/languages› most commonly spoken by the creature are listed here. For unusual creatures, you can swap out the languages known for other choices as needed. A creature with a higher-than-normal Intelligence score receives the appropriate number of bonus languages.",
 			"",
 			"@HL[SQ:] Any special qualities possessed by the creature.",
 			"",
@@ -525,7 +525,7 @@
 		"name": "Monster Creation",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/290}",
+			"‹SOURCE Pathfinder RPG Bestiary/290›",
 			"",
 			"Creating a monster is part science and part art. While most monsters follow a general pattern of their overall power and abilities as related to their Challenge Rating (CR), there are many exceptions. Some monsters, for example, have significantly more hit points or a higher AC than the average for their CR, but make up for this advantage by being weak in other areas. Other monsters have significantly higher average damage, but have a lower attack bonus.",
 			"",
@@ -560,7 +560,7 @@
 		"tags": "Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/290}",
+			"‹SOURCE Pathfinder RPG Bestiary/290›",
 			"",
 			"The first step in creating a new monster is to define its concept and role in the game. Generally, this involves picking the monster's CR, type, physical appearance, and manner of fighting. Once you have these basic pieces of information, you should find a number of similar monsters of the same type and roughly the same CR for comparison purposes."
 		],
@@ -591,7 +591,7 @@
 			"Pathfinder RPG Bestiary"
 		],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/290;Bestiary 2/293}",
+			"‹SOURCE Pathfinder RPG Bestiary/290;Bestiary 2/293›",
 			"",
 			"Once you have a creature's type and CR determined, use Table 1-1 to determine its approximate statistics by CR. These values are a rough guideline only. You will notice that many of the existing monsters do not follow these guidelines exactly. Most monsters excel in one of these areas, usually in the amount of damage dealt, but lag in one or two other areas to help balance them out. When referring to Table 1-1, keep the following points in mind.",
 			"",
@@ -670,7 +670,7 @@
 		"tags": "Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/290}",
+			"‹SOURCE Pathfinder RPG Bestiary/290›",
 			"",
 			"The next step in creating a monster is to determine the approximate number of Hit Dice it has. Hit Dice determine a wide variety of other statistics, including the creature's feats, skills, hit points, attack bonuses, and special ability DCs.",
 			"",
@@ -718,9 +718,9 @@
 		"tags": "Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/290}",
+			"‹SOURCE Pathfinder RPG Bestiary/290›",
 			"",
-			"Now that you have the creature's average statistics, it's time to pick its size. Most creatures range in size from Small to Huge, but other sizes are not uncommon. A creature's size sets a baseline for its physical ability scores and its natural weapon damage (as noted in the {umr/Natural Attacks} description). You should pick a size that fits well with the creature's intended role in the game and Challenge Rating. If you decide to give a creature an unusual size for its CR or HD, you should justify the unusual choice in the monster's description to account for the discrepancy - in most cases, such unusually sized monsters should be highly magical in nature. See Table 1-3 for more information on creature sizes and expected scores.",
+			"Now that you have the creature's average statistics, it's time to pick its size. Most creatures range in size from Small to Huge, but other sizes are not uncommon. A creature's size sets a baseline for its physical ability scores and its natural weapon damage (as noted in the ‹umr/Natural Attacks› description). You should pick a size that fits well with the creature's intended role in the game and Challenge Rating. If you decide to give a creature an unusual size for its CR or HD, you should justify the unusual choice in the monster's description to account for the discrepancy - in most cases, such unusually sized monsters should be highly magical in nature. See Table 1-3 for more information on creature sizes and expected scores.",
 			"",
 			"@HL[Minimum/Maximum CR:] These values list the minimum and the maximum challenge ratings a creature of the indicated size should fall between.",
 			"",
@@ -764,7 +764,7 @@
 		"tags": "Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/291}",
+			"‹SOURCE Pathfinder RPG Bestiary/291›",
 			"",
 			"Once you have determined a creature's size, type, and Hit Dice, it's time to move on to its ability scores. The bonuses granted from these ability scores should increase a creature's hit points, attack bonuses, and saving throws to the approximate values presented on [Table 1-1](rule/step_2_target_statistics).",
 			"",
@@ -796,7 +796,7 @@
 		"tags": "Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/292}",
+			"‹SOURCE Pathfinder RPG Bestiary/292›",
 			"",
 			"Using Table 1-4, determine how many skill ranks your creature has based on its type and Hit Dice. Assign these ranks as determined by the creature's concept. A creature's class skills are determined by its type (see the [creature types](main/umr)). Creatures with a low Intelligence typically only have ranks in Dexterity- and Strength-based skills.",
 			"",
@@ -848,7 +848,7 @@
 		"tags": "Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/292}",
+			"‹SOURCE Pathfinder RPG Bestiary/292›",
 			"",
 			"Using Tables [1-1](rule/step_2_target_statistics), [1-4](rule/step_6_skills_and_feats), and 1-6, you can now determine many of the creature's other statistics.",
 			"",
@@ -934,9 +934,9 @@
 		"tags": "Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/292}",
+			"‹SOURCE Pathfinder RPG Bestiary/292›",
 			"",
-			"Monsters are different from characters in that they can have all sorts of different special abilities and qualities. Each of these is tied closely to the creature's concept, allowing it to fill a specific role in the game. For examples, look at {main/existing |monsters}. Monsters should use abilities from the [Universal Monster Rules](main/umr) whenever possible, instead of creating new yet similar abilities - when you do create new abilities, use the Universal Monster Rules as a template for how to present and create the new abilities.",
+			"Monsters are different from characters in that they can have all sorts of different special abilities and qualities. Each of these is tied closely to the creature's concept, allowing it to fill a specific role in the game. For examples, look at ‹main/existing »monsters›. Monsters should use abilities from the [Universal Monster Rules](main/umr) whenever possible, instead of creating new yet similar abilities - when you do create new abilities, use the Universal Monster Rules as a template for how to present and create the new abilities.",
 			"",
 			"Most special abilities that cause damage, such as breath weapons, give a save (Fortitude, Reflex, or Will depending on the ability). The DC for almost all special abilities is equal to 10 + 1/2 the creature's Hit Dice + a relevant ability modifier (usually Constitution or Charisma depending on the ability). Special abilities that add to melee and ranged attacks generally do not allow a save, as they rely on the attacks hitting to be useful.",
 			"",
@@ -966,7 +966,7 @@
 		"tags": "Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/293}",
+			"‹SOURCE Pathfinder RPG Bestiary/293›",
 			"",
 			"A creature should have an amount of treasure appropriate to its CR. See Table 1-7 for a list of treasure totals based on CR. For some creatures, their treasure consists of the loot from their recent meals strewn across their lairs, while for others it consists of a greed-fueled hoard or even gear it uses in combat. Make sure to account for any weapons or armor that the creature is using, as determined by [step 7](rule/step_7_other_statistics).",
 			"",
@@ -1029,7 +1029,7 @@
 		"tags": "Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/293}",
+			"‹SOURCE Pathfinder RPG Bestiary/293›",
 			"",
 			"Now that you have all of the creature's statistics sorted out, it's time to fill in all the details - such as name, alignment, space, reach, environment, and ecology - as you see fit."
 		],
@@ -1056,7 +1056,7 @@
 		"tags": "modifying monsters modifying creatures",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/294}",
+			"‹SOURCE Pathfinder RPG Bestiary/294›",
 			"",
 			"The following rules allow you to adjust monsters, increasing (or even decreasing) their statistics and abilities while still creating a balanced and fun encounter."
 		],
@@ -1082,15 +1082,15 @@
 		"tags": "simple templates, acquired templates, inherited templates, Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/294}",
+			"‹SOURCE Pathfinder RPG Bestiary/294›",
 			"",
 			"A template is a set of rules that you apply to a monster to transform it into a different monster. All templates give precise directions on how to change a monster's statistics to transform it into the new monster.",
 			"",
-			"@HL[Acquired Templates:] Some templates, like the {template/lich}, are the results of a creature's choice and desire to transform. Others, like the {template/ghost} template, are the result of an external force acting upon a creature (for example, when a tormented person dies and becomes a ghost). Yet in both cases, the template changed a creature well after its birth or creation - these types are called \"acquired templates,\" and can be added to a creature at any time during its existance.",
+			"@HL[Acquired Templates:] Some templates, like the ‹template/lich›, are the results of a creature's choice and desire to transform. Others, like the ‹template/ghost› template, are the result of an external force acting upon a creature (for example, when a tormented person dies and becomes a ghost). Yet in both cases, the template changed a creature well after its birth or creation - these types are called \"acquired templates,\" and can be added to a creature at any time during its existance.",
 			"",
-			"@HL[Inherited Templates:] Some templates, such as the {template/half-dragon} and {template/half-fiend/ templates}, are part of a creature from the beginning of its existence. Creatures are born or created with these templates already in place, and have never known life without them. These types of templates are called \"inherited templates.\"",
+			"@HL[Inherited Templates:] Some templates, such as the ‹template/half-dragon› and ‹template/half-fiend« templates›, are part of a creature from the beginning of its existence. Creatures are born or created with these templates already in place, and have never known life without them. These types of templates are called \"inherited templates.\"",
 			"",
-			"@HL[Simple templates] can be applied during the game with minimal effort. This makes it easy, for example, to deal with {template/celestial} and {template/fiendish} creatures conjured in the heat of battle by {spell/summon monster} spells.",
+			"@HL[Simple templates] can be applied during the game with minimal effort. This makes it easy, for example, to deal with ‹template/celestial› and ‹template/fiendish› creatures conjured in the heat of battle by ‹spell/summon monster› spells.",
 			"",
 			"All simple templates have two categories of changes. The **quick rules** present a fast way to modify die rolls made in play to simulate the template's effects without actually rebuilding the stat block - this method works great for summoned creatures. The **rebuild rules** list the exact changes you make to the base stat block if you have the time to completely rebuild it - this method works best when you have time during game preparation to build full stat blocks. The two methods result in creatures of similar, if not identical, abilities.",
 			"",
@@ -1113,7 +1113,7 @@
 		"tags": "Creature size changes, Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/295}",
+			"‹SOURCE Pathfinder RPG Bestiary/295›",
 			"",
 			"Adding racial Hit Dice to a monster is a similar process to building a monster from scratch. As additional Hit Dice are added, other abilities increase in power as well. Additional Hit Dice usually results in better attack bonuses, saves, hit points, and skills, as well as more feats. It can also include additional spellcasting capability and other powers.",
 			"",
@@ -1217,7 +1217,7 @@
 		"tags": "Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/296}",
+			"‹SOURCE Pathfinder RPG Bestiary/296›",
 			"",
 			"Of all the methods of advancing a monster, adding class levels requires the most adjudication and careful comparison. Some classes truly add to the power and abilities of some monster types, while others do not. For example, adding levels of barbarian to a hill giant can be a great addition, whereas adding levels of sorcerer is less useful. When adding class levels to a creature, take the following three steps."
 		],
@@ -1243,7 +1243,7 @@
 		"tags": "Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/297}",
+			"‹SOURCE Pathfinder RPG Bestiary/297›",
 			"",
 			"When adding class levels to a creature, the first step is to determine what role the base creature fulfills. There are three basic roles into which a creature might fall. A creature can fall into more than one role if its abilities are diverse.",
 			"",
@@ -1279,7 +1279,7 @@
 		"tags": "Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/297}",
+			"‹SOURCE Pathfinder RPG Bestiary/297›",
 			"",
 			"Once you have determined the creature's role, it's time to add class levels. The first step of this process is to modify the creature's ability scores. Creatures with class levels receive +4, +4, +2, +2, +0, and -2 adjustments to their ability scores, assigned in a manner that enhances their class abilities. Creatures with NPC class levels do not receive adjustments to their ability scores.",
 			"",
@@ -1305,7 +1305,7 @@
 		"tags": "Monster Descriptions",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/297}",
+			"‹SOURCE Pathfinder RPG Bestiary/297›",
 			"",
 			"Determining the final CR for a creature with class levels requires careful consideration. While adding a class level to a monster that stacks with its existing abilities and role generally adds 1 to its CR for each level taken, adding classes that do not stack is more complicated.",
 			"",
@@ -1338,7 +1338,7 @@
 		"name": "Monsters as PCs",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
-			"{SOURCE Pathfinder RPG Bestiary/313}",
+			"‹SOURCE Pathfinder RPG Bestiary/313›",
 			"",
 			"Using one of the monsters presented as a character can be very rewarding, but weighing such a character against others is challenging. Monsters are not designed with the rules for players in mind, and as such can be very unbalancing if not handled carefully.",
 			"",
@@ -1352,7 +1352,7 @@
 			"",
 			"GMs should carefully consider any monster PCs in their groups. Some creatures are simply not suitable for play as PCs, due to their powers or role in the game. As monster characters progress, GMs should closely monitor whether such characters are disruptive or abusive to the rules and modify them as needed to improve play.",
 			"",
-			"**Also see:** {rule/Race Builder}."
+			"**Also see:** ‹rule/Race Builder›."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -1370,7 +1370,7 @@
 		"tags": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/214}",
+			"‹SOURCE Advanced Race Guide/214›",
 			"",
 			"There comes a point in nearly every campaign when someone - either one of the players or the GM - wants to create a new race. Sometimes the GM needs a new race to fill a story or ecological niche in her campaign world. Such races may be as simple as elves who dwell in an arctic climate or as complex as clockwork giants from another plane of existence. Perhaps a player wants to play a monstrous race, or has been inspired by some piece of fiction or flight of creative fancy and wants to create a race for a new character concept not yet seen in Pathfinder. The following rules allow GMs, or even players with GM oversight, to create new races that are balanced and mesh with the core races.",
 			"",
@@ -1403,9 +1403,9 @@
 		"tags": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/214}",
+			"‹SOURCE Advanced Race Guide/214›",
 			"",
-			"This race builder allows you to create a new race by buying racial qualities and racial traits with Race Points (RP). There are a number of differences between racial qualities and racial traits. The main difference is that racial qualities are mandatory (you must make a choice for each category of racial qualities provided in these rules), whereas racial traits are optional. There are six categories of racial qualities, including type, subtypes (if any), size, base speed, ability score modifiers, and {misc/languages}. Racial traits present a number of interesting options for the race you are creating, from expanded modes of movement and bonuses on skill checks to even stranger powers, like a frightening croak attack or the ability to change shape. Racial traits are split up into a number of different categories, such as defense, offense, and magical traits.",
+			"This race builder allows you to create a new race by buying racial qualities and racial traits with Race Points (RP). There are a number of differences between racial qualities and racial traits. The main difference is that racial qualities are mandatory (you must make a choice for each category of racial qualities provided in these rules), whereas racial traits are optional. There are six categories of racial qualities, including type, subtypes (if any), size, base speed, ability score modifiers, and ‹misc/languages›. Racial traits present a number of interesting options for the race you are creating, from expanded modes of movement and bonuses on skill checks to even stranger powers, like a frightening croak attack or the ability to change shape. Racial traits are split up into a number of different categories, such as defense, offense, and magical traits.",
 			"",
 			"Before you buy racial qualities and traits, you must determine the power level of your race. The GM decides this based on the needs of her campaign. The power level of the race determines the number of RP you get to build the race, as well as the maximum number of racial traits you can choose from each racial trait category and what kinds of traits you can take from those categories.",
 			"",
@@ -1449,7 +1449,7 @@
 		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/214}",
+			"‹SOURCE Advanced Race Guide/214›",
 			"",
 			"A race is more than just a group of individuals with similar qualities and traits. A race is a collection of people with a shared history and cultural identity. While the race builder presents many options for creating new races, and it may be tempting to treat each section as a buffet of options to help you ferret out the most optimal choices for your character, it is generally more beneficial for your campaign world to conceptualize your race first.",
 			"",
@@ -1480,7 +1480,7 @@
 		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/215}",
+			"‹SOURCE Advanced Race Guide/215›",
 			"",
 			"The next step is to choose your race's qualities. You must select an option from each of the following quality categories. Qualities or aspects of qualities often serve as prerequisites for racial traits."
 		],
@@ -1507,7 +1507,7 @@
 		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/215}",
+			"‹SOURCE Advanced Race Guide/215›",
 			"",
 			"This is the race's creature type. A race's creature type is similar to the corresponding creature type found in a monster's entry, with a few important differences. The first difference is that each race type assumes members of the race are roughly humanoid in shape and have two arms, two legs, a torso, and a head. This is important so that a race can take advantage of all the various magic item slots available to characters and can utilize the standard weapon and armor options. The second difference is that all of these race types are 0-Hit Dice creatures, which means that their Hit Dice, base attack bonus, saving throw progression, skill points, class skills, and weapon and armor proficiencies are based on the class levels each member of a race takes.",
 			"",
@@ -1540,7 +1540,7 @@
 		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/217}",
+			"‹SOURCE Advanced Race Guide/217›",
 			"",
 			"The types below range from 0 RP to 3 RP.",
 			"",
@@ -1595,7 +1595,7 @@
 		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/216}",
+			"‹SOURCE Advanced Race Guide/216›",
 			"",
 			"These types range from 7 RP to 10 RP. The first two are \"full\" types, while the last two are modifications of the High-RP types.",
 			"",
@@ -1631,7 +1631,7 @@
 			"",
 			"#### Half-Undead: 5 RP",
 			"",
-			"Half-undead races are strange or unholy fusions of the living and the undead. Players interested in playing a half-undead race might also consider the {race/dhampir}, the progeny of a vampire and a human. A half-undead race has the following features.",
+			"Half-undead races are strange or unholy fusions of the living and the undead. Players interested in playing a half-undead race might also consider the ‹race/dhampir›, the progeny of a vampire and a human. A half-undead race has the following features.",
 			"",
 			"- Half-undead have the darkvision 60 feet racial trait.",
 			"- Half-undead gain a +2 racial bonus on saving throws against disease and mind-affecting effects.",
@@ -1655,7 +1655,7 @@
 		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/217}",
+			"‹SOURCE Advanced Race Guide/217›",
 			"",
 			"These types cost more than 10 RP and do not have Constitution scores. See the note at the end for more information on what this means for character creation.",
 			"",
@@ -1671,7 +1671,7 @@
 			"- Undead are harmed by positive energy and healed by negative energy. An undead creature with the fast healing special quality still benefits from that quality.",
 			"- Undead are immune to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).",
 			"- Undead do not risk death from massive damage, but are immediately destroyed when reduced to 0 hit points or fewer.",
-			"- Undead are not affected by {spell/raise dead} and reincarnate spells or abilities. {spell/Resurrection} and {spell/true resurrection} can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.",
+			"- Undead are not affected by ‹spell/raise dead› and reincarnate spells or abilities. ‹spell/Resurrection› and ‹spell/true resurrection› can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.",
 			"- Undead do not breathe, eat, or sleep, unless they want to gain some beneficial effect from one of these activities. This means that an undead creature can drink potions to benefit from their effects and can sleep in order to regain spells, but neither of these activities is required to survive or stay in good health.",
 			"",
 			"### Construct: 20 RP",
@@ -1682,7 +1682,7 @@
 			"- Constructs have the low-light vision racial trait.",
 			"- Constructs have the darkvision 60 feet racial trait.",
 			"- Constructs are immune to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).",
-			"- Constructs cannot heal damage on their own, but can often be repaired via exposure to a certain kind of effect (depending on the construct's racial abilities) or through the use of the {feat/Craft Construct} feat. Constructs can also be healed through spells such as {spell/make whole}. A construct with the fast healing special quality still benefits from that quality.",
+			"- Constructs cannot heal damage on their own, but can often be repaired via exposure to a certain kind of effect (depending on the construct's racial abilities) or through the use of the ‹feat/Craft Construct› feat. Constructs can also be healed through spells such as ‹spell/make whole›. A construct with the fast healing special quality still benefits from that quality.",
 			"- Constructs are not subject to ability damage, ability drain, fatigue, exhaustion, energy drain, or nonlethal damage.",
 			"- Constructs are immune to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).",
 			"- Constructs do not risk death due to massive damage, but they are immediately destroyed when reduced to 0 hit points or fewer.",
@@ -1728,7 +1728,7 @@
 		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/218}",
+			"‹SOURCE Advanced Race Guide/218›",
 			"",
 			"The next step is to pick a size quality for your race. Most races are Medium or Small, which have no prerequisites, but you can also elect to make your race either Large or Tiny with the following modifications at the listed point cost.",
 			"",
@@ -1758,7 +1758,7 @@
 		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/218}",
+			"‹SOURCE Advanced Race Guide/218›",
 			"",
 			"The next step is to pick the base speed quality for your race. Some racial traits can increase speed or grant other movement types, but these traits usually require the normal speed quality as a prerequisite. You have the following options.",
 			"",
@@ -1784,7 +1784,7 @@
 		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/219}",
+			"‹SOURCE Advanced Race Guide/219›",
 			"",
 			"The next step is to determine the ability score modifier quality for your race. In many ways, choosing this quality is one of the most important choices when creating a new race, as it determines many of the native abilities of that race. With the exception of the human heritage modifier quality, when you choose a race's ability score modifiers, you are choosing what ability scores are modified for every member of that race. Only the human heritage modifier quality allows individual members to decide which ability score is modified during character creation.",
 			"",
@@ -1830,9 +1830,9 @@
 		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/219}",
+			"‹SOURCE Advanced Race Guide/219›",
 			"",
-			"The next step is to pick the race's language quality. This quality determines the starting {misc/languages} and bonus languages for the race. There are three options. In cases where the language trait instructs you to choose a racial language, that language is either the race's racial language (if any; feel free to create a new language for the race if you wish), Draconic (if it is a humanoid with the reptilian subtype), or, if the race is of the outsider (native) type, one of the planar languages (Abyssal, Aquan, Auran, Celestial, Ignan, Infernal, or Terran) of the corresponding plane. (Creatures tied to Abaddon can take either Abyssal or Infernal as a racial language.) If your race is native to the Darklands, you can replace Common with Undercommon. See the {skill/Linguistics} skill entry for a list of languages.",
+			"The next step is to pick the race's language quality. This quality determines the starting ‹misc/languages› and bonus languages for the race. There are three options. In cases where the language trait instructs you to choose a racial language, that language is either the race's racial language (if any; feel free to create a new language for the race if you wish), Draconic (if it is a humanoid with the reptilian subtype), or, if the race is of the outsider (native) type, one of the planar languages (Abyssal, Aquan, Auran, Celestial, Ignan, Infernal, or Terran) of the corresponding plane. (Creatures tied to Abaddon can take either Abyssal or Infernal as a racial language.) If your race is native to the Darklands, you can replace Common with Undercommon. See the ‹skill/Linguistics› skill entry for a list of languages.",
 			"",
 			"Construct and undead races usually have the racial language of the race that created them.",
 			"",
@@ -1860,7 +1860,7 @@
 		"subtitle": "Race Creation",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/220}",
+			"‹SOURCE Advanced Race Guide/220›",
 			"",
 			"Once you have chosen all your racial qualities, you may then choose your racial traits with your remaining RP.",
 			"",
@@ -1906,7 +1906,7 @@
 		"name": "Ability Score Racial Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/220}",
+			"‹SOURCE Advanced Race Guide/220›",
 			"",
 			"The following racial traits add to the base ability score modifiers chosen in the ability score modifier quality."
 		],
@@ -1932,7 +1932,7 @@
 		"name": "Advanced Ability Score Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/220}",
+			"‹SOURCE Advanced Race Guide/220›",
 			"",
 			"@HL[Advanced Charisma (4 RP):] **Prerequisites:** None; **Benefit:** Members of this race receive a +2 racial bonus to Charisma.  ",
 			"**Special:** This bonus can be taken multiple times, but each additional time it is taken, its cost increases by 1 RP. Its effects stack.",
@@ -1964,7 +1964,7 @@
 		"name": "Defense Racial Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/220}",
+			"‹SOURCE Advanced Race Guide/220›",
 			"",
 			"The following racial traits augment the defenses of members of the race."
 		],
@@ -1994,7 +1994,7 @@
 		"name": "Standard Defense Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/220}",
+			"‹SOURCE Advanced Race Guide/220›",
 			"",
 			"@HL[Ancient Foe (3 RP):] **Prerequisites:** None; **Benefit:** Choose one monster type or one subtype of the humanoid type. Members of this race gain a +2 dodge bonus to AC against monsters of that type and a +2 racial bonus on combat maneuver checks made to grapple creatures of that type.",
 			"",
@@ -2010,7 +2010,7 @@
 			"",
 			"@HL[Cornered Fury (4 RP):] **Prerequisites:** None; **Benefit:** Whenever a member of this race is reduced to half its hit points or fewer and has no conscious ally within 30 feet, it gains a +2 racial bonus on melee attack rolls and to Armor Class.",
 			"",
-			"@HL[Crystalline Form (2 RP):] **Prerequisite:** Outsider (native) with ties to the Plane of Earth, construct type, or half-construct subtype; **Benefit:** Members of this race have reflective, crystalline skin that grants them a +2 racial bonus to AC against rays. Once per day, they can deflect a single ray attack targeted at them as if they were using the {feat/Deflect Arrows} feat.",
+			"@HL[Crystalline Form (2 RP):] **Prerequisite:** Outsider (native) with ties to the Plane of Earth, construct type, or half-construct subtype; **Benefit:** Members of this race have reflective, crystalline skin that grants them a +2 racial bonus to AC against rays. Once per day, they can deflect a single ray attack targeted at them as if they were using the ‹feat/Deflect Arrows› feat.",
 			"",
 			"@HL[Deathless Spirit (3 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain resistance 5 against negative energy damage. They do not lose hit points when they gain a negative level, and they gain a +2 racial bonus on saving throws against death effects, energy drain, negative energy, and spells or spell-like abilities of the necromancy school.",
 			"",
@@ -2022,7 +2022,7 @@
 			"",
 			"@HL[Dual-Minded (1 RP):] **Prerequisite:** Humanoid with two subtypes or race with half-construct or half-undead subtype; **Benefit:** Members of this race gain a +2 bonus on all Will saving throws.",
 			"",
-			"@HL[Duergar Immunities (4 RP):] **Prerequisites:** Dwarf subtype, at least a +2 racial bonus to Constitution; **Benefit:** Members of this race are immune to paralysis, {spelldef/phantasm/s}, and poison. They also gain a +2 racial bonus on saving throws against spells and spell-like abilities.",
+			"@HL[Duergar Immunities (4 RP):] **Prerequisites:** Dwarf subtype, at least a +2 racial bonus to Constitution; **Benefit:** Members of this race are immune to paralysis, ‹spelldef/phantasm«s›, and poison. They also gain a +2 racial bonus on saving throws against spells and spell-like abilities.",
 			"",
 			"@HL[Elven Immunities (2 RP):] **Prerequisite:** Elf subtype; **Benefit:** Members of this race are immune to magic sleep effects and gain a +2 racial bonus on saving throws made against enchantment spells and effects.",
 			"",
@@ -2040,13 +2040,13 @@
 			"",
 			"@HL[Fire in the Blood (3 RP):] **Prerequisite:** Outsider (native) with ties to the Plane of Fire or dragon type; **Benefit:** Members of this race gain fast healing 2 for 1 round anytime they take fire damage (whether or not this fire damage overcomes their fire resistance, if any). Members of this race can heal up to 2 hit points per level per day with this ability, after which it ceases to function.",
 			"",
-			"@HL[Halo (2 RP):] **Prerequisite:** Outsider (native) with ties to Elysium, Heaven, or Nirvana; **Benefit:** Members of this race can create {spell/light} centered on their head at will as a spell-like ability. When using the halo, a member of this race gains a +2 circumstance bonus on Intimidate checks against evil creatures and on saving throws against becoming blinded or dazzled.",
+			"@HL[Halo (2 RP):] **Prerequisite:** Outsider (native) with ties to Elysium, Heaven, or Nirvana; **Benefit:** Members of this race can create ‹spell/light› centered on their head at will as a spell-like ability. When using the halo, a member of this race gains a +2 circumstance bonus on Intimidate checks against evil creatures and on saving throws against becoming blinded or dazzled.",
 			"",
 			"@HL[Hardy (3 RP):] **Prerequisite:** The race has at least a +2 racial bonus to Constitution; **Benefit:** Members of this race gain a +2 racial bonus on saving throws against poison, spells, and spell-like abilities.",
 			"",
 			"@HL[Healthy (2 RP):] **Prerequisite:** The race has at least a +2 racial bonus to Constitution; **Benefit:** Members of this race gain a +4 bonus on Fortitude saves against disease and poison, including magical diseases.",
 			"",
-			"@HL[Hydrated Vitality (3 RP):] **Prerequisite:** Outsider (native) with ties to the Plane of Water, fey type, or plant type; **Benefit:** Members of this race gain fast healing 2 for 1 round anytime they submerge completely within a body of natural salt water, fresh water, or brackish water. Stagnant, poisoned, or trapped water (such as water within an artificial pit or a {magic-wondrous/bag of holding}) does not activate this ability. Members of this race can heal up to 2 hit points per level per day with this ability, after which it ceases to function.",
+			"@HL[Hydrated Vitality (3 RP):] **Prerequisite:** Outsider (native) with ties to the Plane of Water, fey type, or plant type; **Benefit:** Members of this race gain fast healing 2 for 1 round anytime they submerge completely within a body of natural salt water, fresh water, or brackish water. Stagnant, poisoned, or trapped water (such as water within an artificial pit or a ‹magic-wondrous/bag of holding›) does not activate this ability. Members of this race can heal up to 2 hit points per level per day with this ability, after which it ceases to function.",
 			"",
 			"@HL[Illusion Resistance (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain a +2 racial bonus on saving throws against illusion spells or effects.",
 			"",
@@ -2104,7 +2104,7 @@
 		"name": "Advanced Defense Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/224}",
+			"‹SOURCE Advanced Race Guide/224›",
 			"",
 			"@HL[Fey Damage Resistance (3 RP):] **Prerequisite:** Fey type; **Benefit:** Members of this race gain DR 5/cold iron.",
 			"",
@@ -2136,7 +2136,7 @@
 		"name": "Monstrous Defense Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/224}",
+			"‹SOURCE Advanced Race Guide/224›",
 			"",
 			"@HL[Damage Reduction (4 RP; see special):] **Prerequisites:** None; **Benefit:** Members of this race gain DR 5/magic.  ",
 			"**Special:** This can be increased to DR 10/magic for an additional 2 RP. The type of DR can be changed to one of the alignments (chaos, evil, good, or law) if the race is of the outsider (native) type with ties to the appropriate plane (chaos for a race with ties to a lawful-aligned plane, evil for a race with ties to a good-aligned plane, etc.) for an additional 2 RP.",
@@ -2165,7 +2165,7 @@
 		"name": "Feat and Skill Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/224}",
+			"‹SOURCE Advanced Race Guide/224›",
 			"",
 			"Feat and skill racial traits typically grant bonuses on particular skills or grant bonus feats."
 		],
@@ -2194,11 +2194,11 @@
 		"name": "Standard Feat and Skill Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/225}",
+			"‹SOURCE Advanced Race Guide/225›",
 			"",
 			"@HL[Beguiling Liar (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain a +4 racial bonus on Bluff checks to convince an opponent that what they are saying is true when they tell a lie.",
 			"",
-			"@HL[Camouflage (1 RP):] **Prerequisites:** None; **Benefit:** Choose a ranger {ability/favored terrain} type. Members of this race gain a +4 racial bonus on Stealth checks while within that terrain type.",
+			"@HL[Camouflage (1 RP):] **Prerequisites:** None; **Benefit:** Choose a ranger ‹ability/favored terrain› type. Members of this race gain a +4 racial bonus on Stealth checks while within that terrain type.",
 			"",
 			"@HL[Cave Dweller (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain a +1 bonus on Knowledge (dungeoneering) and Survival checks made underground.",
 			"",
@@ -2210,7 +2210,7 @@
 			"",
 			"@HL[Flexible Bonus Feat (4 RP):] **Prerequisites:** None; **Benefit:** Members of this race select one extra feat at 1st level.",
 			"",
-			"@HL[Focused Study (4 RP):] **Prerequisites:** None; **Benefit:** At 1st, 8th, and 16th level, members of this race gain {feat/Skill Focus} in a skill of their choice as a bonus feat.",
+			"@HL[Focused Study (4 RP):] **Prerequisites:** None; **Benefit:** At 1st, 8th, and 16th level, members of this race gain ‹feat/Skill Focus› in a skill of their choice as a bonus feat.",
 			"",
 			"@HL[Gift of Tongues (2 RP):] **Prerequisite:** Standard or linguist language quality; **Benefit:** Members of this race gain a +1 racial bonus on Bluff and Diplomacy checks, and they learn one additional language every time they put a rank in the Linguistics skill.",
 			"",
@@ -2274,11 +2274,11 @@
 		"name": "Advanced Feat and Skill Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/227}",
+			"‹SOURCE Advanced Race Guide/227›",
 			"",
-			"@HL[Nimble Attacks (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race receive {feat/Weapon Finesse} as a bonus feat.",
+			"@HL[Nimble Attacks (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race receive ‹feat/Weapon Finesse› as a bonus feat.",
 			"",
-			"@HL[Quick Reactions (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race receive {feat/Improved Initiative} as a bonus feat."
+			"@HL[Quick Reactions (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race receive ‹feat/Improved Initiative› as a bonus feat."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2295,7 +2295,7 @@
 		"name": "Magical Racial Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/227}",
+			"‹SOURCE Advanced Race Guide/227›",
 			"",
 			"The following racial traits augment a race's ability to use magic or grant spell-like abilities."
 		],
@@ -2325,19 +2325,19 @@
 		"name": "Standard Magical Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/227}",
+			"‹SOURCE Advanced Race Guide/227›",
 			"",
-			"@HL[Arcane Focus (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain a +2 racial bonus on {rule/concentration} checks made to cast arcane spells defensively.",
+			"@HL[Arcane Focus (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain a +2 racial bonus on ‹rule/concentration› checks made to cast arcane spells defensively.",
 			"",
-			"@HL[Change Shape, Greater (6 RP):] **Prerequisite:** Aberration, dragon, fey, humanoid, or monstrous humanoid type; **Benefit:** Members of this race gain the following supernatural ability: a member of this race can assume the appearance of a Small or Medium humanoid as the {spell/alter self} spell, save that it does not adjust its ability scores.",
+			"@HL[Change Shape, Greater (6 RP):] **Prerequisite:** Aberration, dragon, fey, humanoid, or monstrous humanoid type; **Benefit:** Members of this race gain the following supernatural ability: a member of this race can assume the appearance of a Small or Medium humanoid as the ‹spell/alter self› spell, save that it does not adjust its ability scores.",
 			"",
 			"@HL[Change Shape, Lesser (3 RP):] **Prerequisite:** Aberration, dragon, fey, humanoid, or monstrous humanoid type; **Benefit:** Members of this race gain the following supernatural ability: A member of this race can assume the appearance of a single form of a single humanoid race of its size. The form is static and cannot be changed each time it takes this form. The creature gains a +10 racial bonus on Disguise checks made to appear as the member of the race whose appearance it assumes. Changing its shape is a standard action. This trait otherwise functions as *alter self,* save that the creature does not adjust its ability scores.",
 			"",
 			"@HL[Deep Magic (3 RP):] **Prerequisite:** Native of the Darklands; **Benefit:** Members of this race gain a +2 racial bonus on caster level checks made to overcome spell resistance and a +2 racial bonus on dispel checks.",
 			"",
-			"@HL[Dissolution's Child (5 RP):] **Prerequisite:** Outsider (native) with ties to the Shadow Plane, fey type, undead type, or half-undead subtype; **Benefit:** Members of this race gain the following supernatural ability: Once per day, a member of this race can change its appearance to look as if it were little more than a 4-foot-tall area of shadow. Its physical form still exists and it is not incorporeal: only its appearance changes. This racial trait works like {spell/invisibility}, except the effect only lasts 1 round per level (maximum 5 rounds).",
+			"@HL[Dissolution's Child (5 RP):] **Prerequisite:** Outsider (native) with ties to the Shadow Plane, fey type, undead type, or half-undead subtype; **Benefit:** Members of this race gain the following supernatural ability: Once per day, a member of this race can change its appearance to look as if it were little more than a 4-foot-tall area of shadow. Its physical form still exists and it is not incorporeal: only its appearance changes. This racial trait works like ‹spell/invisibility›, except the effect only lasts 1 round per level (maximum 5 rounds).",
 			"",
-			"@HL[Dreamspeaker (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain a +1 bonus to the saving throw DCs of spells of the divination school and spells that produce sleep effects that they cast. In addition, members of this race with a Charisma score of 15 or higher may use {spell/dream} once per day as a spell-like ability (caster level is equal to the user's character level).",
+			"@HL[Dreamspeaker (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain a +1 bonus to the saving throw DCs of spells of the divination school and spells that produce sleep effects that they cast. In addition, members of this race with a Charisma score of 15 or higher may use ‹spell/dream› once per day as a spell-like ability (caster level is equal to the user's character level).",
 			"",
 			"@HL[Elemental Affinity (1 RP):] **Prerequisite:** Outsider (native) with ties to an elemental plane; **Benefit:** If a member of the race is a sorcerer with the elemental bloodline corresponding to the elemental plane it has ties to (i.e., air, earth, fire, or water), it treats its Charisma score as 2 points higher for all sorcerer spells and class abilities. Furthermore, a member of this race able to cast domain spells that correspond to the elemental plane the race has ties to casts its domain powers and spells at +1 caster level. This trait does not give members of this race early access to level-based powers; it only affects powers that they could already use without this trait.",
 			"",
@@ -2345,11 +2345,11 @@
 			"",
 			"@HL[Elven Magic (3 RP):] **Prerequisite:** Elf subtype; **Benefit:** Members of this race gain a +2 bonus on caster level checks made to overcome spell resistance. In addition, they also receive a +2 racial bonus on Spellcraft checks made to identify the properties of magic items.",
 			"",
-			"@HL[Enclave Protector (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race add +1 to the caster level of any abjuration spells they cast. Members of this race also gain the following spell-like abilities: constant-{spell/nondetection}; 1/day-{spell/faerie fire}, {spell/obscure object}, {spell/sanctuary}. The caster level for these effects is equal to the user's character level.",
+			"@HL[Enclave Protector (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race add +1 to the caster level of any abjuration spells they cast. Members of this race also gain the following spell-like abilities: constant-‹spell/nondetection›; 1/day-‹spell/faerie fire›, ‹spell/obscure object›, ‹spell/sanctuary›. The caster level for these effects is equal to the user's character level.",
 			"",
-			"@HL[Envoy (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race with an Intelligence score of 11 or higher gain the following spell-like abilities: 1/day-{spell/comprehend languages}, {spell/detect magic}, {spell/detect poison}, {spell/read magic}. The caster level for these effects is equal to the user's character level.",
+			"@HL[Envoy (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race with an Intelligence score of 11 or higher gain the following spell-like abilities: 1/day-‹spell/comprehend languages›, ‹spell/detect magic›, ‹spell/detect poison›, ‹spell/read magic›. The caster level for these effects is equal to the user's character level.",
 			"",
-			"@HL[Fell Magic (3 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain +1 to the DC of any saving throws against necromancy spells that they cast. Members of this race with a Wisdom score of 11 or higher also gain the following spell-like abilities: 1/day-{spell/bleed}, {spell/chill touch}, *detect poison,* {spell/touch of fatigue}. The caster level for these effects is equal to the user's character level. The DC for these spell-like abilities is equal to 10 + the spell's level + the user's Wisdom modifier.",
+			"@HL[Fell Magic (3 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain +1 to the DC of any saving throws against necromancy spells that they cast. Members of this race with a Wisdom score of 11 or higher also gain the following spell-like abilities: 1/day-‹spell/bleed›, ‹spell/chill touch›, *detect poison,* ‹spell/touch of fatigue›. The caster level for these effects is equal to the user's character level. The DC for these spell-like abilities is equal to 10 + the spell's level + the user's Wisdom modifier.",
 			"",
 			"@HL[Ferrous Growth (2 RP):] **Prerequisite:** Outsider (native) with ties to the Plane of Earth; **Benefit:** Once per day, a member of this race can cause a touched piece of iron or steel to grow into an object weighing up to 10 pounds, such as a sword, crowbar, or light steel shield. This object remains in this form for 10 minutes or until broken or destroyed, at which point it shrinks back to its original size and shape.",
 			"",
@@ -2357,44 +2357,44 @@
 			"",
 			"@HL[Fiendish Sorcery (1 RP):] **Prerequisite:** Outsider (native) with ties to Abaddon, the Abyss, or Hell; **Benefit:** If a member of this race is a sorcerer with the Abyssal or Infernal bloodline, it treats its caster level as 1 higher when casting bonus spells and bloodline powers. This trait does not give members of this race early access to level-based powers; it only affects powers that they could already use without this trait.",
 			"",
-			"@HL[Gnome Magic (2 RP):] **Prerequisite:** Gnome subtype; **Benefit:** Members of this race gain a +1 bonus to the DC of any saving throws against illusion spells that they cast. Members of this race with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/day-{spell/dancing lights}, {spell/ghost sound}, {spell/prestidigitation}, {spell/speak with animals}. The caster level for these effects is equal to the user's level. The DC for the spell-like abilities is equal to 10 + the spell's level + the user's Charisma modifier.",
+			"@HL[Gnome Magic (2 RP):] **Prerequisite:** Gnome subtype; **Benefit:** Members of this race gain a +1 bonus to the DC of any saving throws against illusion spells that they cast. Members of this race with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/day-‹spell/dancing lights›, ‹spell/ghost sound›, ‹spell/prestidigitation›, ‹spell/speak with animals›. The caster level for these effects is equal to the user's level. The DC for the spell-like abilities is equal to 10 + the spell's level + the user's Charisma modifier.",
 			"",
 			"@HL[Heavenborn (3 RP):] **Prerequisite:** Outsider (native) with ties to Elysium, Heaven, or Nirvana; **Benefit:** Members of this race gain a +2 bonus on Knowledge (planes) checks, and they cast spells with the good or light descriptor at +1 caster level.",
 			"",
 			"@HL[Hypnotic (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race add +1 to the DC for all saving throws against spells or effects they cast that inflict the fascinated condition. Once per day, when a creature rolls a saving throw against such an effect from a member of this race, the member of the race can force that creature to reroll the saving throw and use the second result, even if it is worse.",
 			"",
-			"@HL[Hypnotic Gaze (3 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain the following supernatural ability: Once per day, a member of this race can attempt to hypnotize a single target as per the spell {spell/hypnotism} (caster level equal to its character level). The effects of the hypnotic gaze last only 1 round.",
+			"@HL[Hypnotic Gaze (3 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain the following supernatural ability: Once per day, a member of this race can attempt to hypnotize a single target as per the spell ‹spell/hypnotism› (caster level equal to its character level). The effects of the hypnotic gaze last only 1 round.",
 			"",
-			"@HL[Immortal Spark (7 RP):] **Prerequisite:** Outsider (native) with ties to Elysium, Heaven, or Nirvana; **Benefit:** Members of this race gain a +2 bonus on Knowledge (history) checks and saving throws against death effects and can use {spell/lesser age resistance} once per day as a spell-like ability.",
+			"@HL[Immortal Spark (7 RP):] **Prerequisite:** Outsider (native) with ties to Elysium, Heaven, or Nirvana; **Benefit:** Members of this race gain a +2 bonus on Knowledge (history) checks and saving throws against death effects and can use ‹spell/lesser age resistance› once per day as a spell-like ability.",
 			"",
-			"@HL[Lightbringer (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race are immune to light-based blindness and dazzle effects, and are treated as one level higher when determining the effects of any light-based spells or effects they cast (including spell-like and supernatural abilities). If a member of this race has an Intelligence of 10 or higher, it may use {spell/light} at will as a spell-like ability.",
+			"@HL[Lightbringer (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race are immune to light-based blindness and dazzle effects, and are treated as one level higher when determining the effects of any light-based spells or effects they cast (including spell-like and supernatural abilities). If a member of this race has an Intelligence of 10 or higher, it may use ‹spell/light› at will as a spell-like ability.",
 			"",
-			"@HL[Magical Linguist (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain a +1 bonus to the DC of spells they cast that have the language-dependent descriptor or that create glyphs, symbols, or other magical writings. They also gain a +2 racial bonus on saving throws against such spells. Members of this race with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/day-{spell/arcane mark}, {spell/comprehend languages}, {spell/message}, {spell/read magic}. The caster level for these spell-like abilities is equal to the user's character level.",
+			"@HL[Magical Linguist (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain a +1 bonus to the DC of spells they cast that have the language-dependent descriptor or that create glyphs, symbols, or other magical writings. They also gain a +2 racial bonus on saving throws against such spells. Members of this race with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/day-‹spell/arcane mark›, ‹spell/comprehend languages›, ‹spell/message›, ‹spell/read magic›. The caster level for these spell-like abilities is equal to the user's character level.",
 			"",
 			"@HL[Nereid Fascination (3 RP):] **Prerequisite:** Outsider (native) with ties to the Plane of Water or fey type; **Benefit:** Members of this race gain the following supernatural ability: Once per day, a member of this race can create a 20-foot-radius burst that causes humanoids within the aura's range to become fascinated with the user (as the bard's fascinate bardic performance). Affected humanoids may resist this effect by making a successful Will saving throw (DC 10 + 1/2 the user's character level + the user's Charisma modifier).",
 			"",
-			"@HL[Object of Desire (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race add +1 to their caster level when casting {spell/charm person} and {spell/charm monster}.",
+			"@HL[Object of Desire (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race add +1 to their caster level when casting ‹spell/charm person› and ‹spell/charm monster›.",
 			"",
-			"@HL[Pyromaniac (3 RP):] **Prerequisites:** None; **Benefit:** Members of this race are treated as +1 level higher when casting spells with the fire descriptor, using granted powers of the Fire domain, using bloodline powers of the fire elemental bloodline, using the revelations of the oracle's flame mystery, and determining the damage of alchemist bombs that deal fire damage. This trait does not give members of this race early access to level-based powers; it only affects powers that they could already use without this trait. If a member of this race has a Charisma score of 11 or higher, it also gains the following spell-like abilities: 1/day-{spell/dancing lights}, {spell/flare}, {spell/prestidigitation}, {spell/produce flame}. The caster level for these spell-like abilities is equal to the user's character level.",
+			"@HL[Pyromaniac (3 RP):] **Prerequisites:** None; **Benefit:** Members of this race are treated as +1 level higher when casting spells with the fire descriptor, using granted powers of the Fire domain, using bloodline powers of the fire elemental bloodline, using the revelations of the oracle's flame mystery, and determining the damage of alchemist bombs that deal fire damage. This trait does not give members of this race early access to level-based powers; it only affects powers that they could already use without this trait. If a member of this race has a Charisma score of 11 or higher, it also gains the following spell-like abilities: 1/day-‹spell/dancing lights›, ‹spell/flare›, ‹spell/prestidigitation›, ‹spell/produce flame›. The caster level for these spell-like abilities is equal to the user's character level.",
 			"",
-			"@HL[Samsaran Magic (2 RP):] **Prerequisite:** Samsaran subtype; **Benefit:** Members of this race with a Charisma score of 11 or higher gain the following spell-like abilities: 1/day-*comprehend languages,* {spell/deathwatch}, {spell/stabilize}. The caster level for these effects is equal to the user's character level.",
+			"@HL[Samsaran Magic (2 RP):] **Prerequisite:** Samsaran subtype; **Benefit:** Members of this race with a Charisma score of 11 or higher gain the following spell-like abilities: 1/day-*comprehend languages,* ‹spell/deathwatch›, ‹spell/stabilize›. The caster level for these effects is equal to the user's character level.",
 			"",
 			"@HL[Seducer (2 RP):] **Prerequisite:** The race has at least a +2 racial bonus to Charisma; **Benefit:** Members of this race add +1 to the saving throw DCs for their spells and spell-like abilities of the enchantment school. In addition, members of this race with a Wisdom score of 15 or higher may use *charm person* once per day as a spell-like ability (caster level is equal to the user's character level).",
 			"",
 			"@HL[Shadow Caster (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race add +1 to the saving throw DCs for their spells and spell-like abilities of the illusion (shadow) subschool.",
 			"",
-			"@HL[Shadow Magic (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race add +1 to the DC of any saving throws against spells of the shadow subschool that they cast. Members of this race with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/day-{spell/ghost sound}, {spell/pass without trace}, {spell/ventriloquism}. The caster level for these spell-like abilities is equal to the user's character level.",
+			"@HL[Shadow Magic (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race add +1 to the DC of any saving throws against spells of the shadow subschool that they cast. Members of this race with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/day-‹spell/ghost sound›, ‹spell/pass without trace›, ‹spell/ventriloquism›. The caster level for these spell-like abilities is equal to the user's character level.",
 			"",
 			"@HL[Soul Seer (4 RP):] **Prerequisite:** Outsider (native); **Benefit:** Members of this race gain the use of *deathwatch* as a constant spell-like ability.",
 			"",
 			"@HL[Spell-Like Ability, Lesser (Variable, see Special):] **Prerequisites:** None; **Benefit:** Choose a 2nd-level or lower spell that does not attack a creature or deal damage. Members of this race can use this spell as a spell-like ability once per day. The caster level of the spell is equal to the user's character level.  ",
 			"**Special:** This trait costs as many RP as the level of the spell chosen (minimum 1 RP). This trait can be taken up to three times. Each time you take an additional spell, adjust the RP cost of this trait appropriately.",
 			"",
-			"@HL[Stoneseer (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race add +1 to the caster level of any spells with the earth descriptor they cast. Members of this race also gain the following spell-like abilities: constant-{spell/nondetection}; 1/day-{spell/magic stone}, {spell/stone shape}, {spell/stone tell}. The caster level for these spell-like abilities is equal to the user's character level.",
+			"@HL[Stoneseer (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race add +1 to the caster level of any spells with the earth descriptor they cast. Members of this race also gain the following spell-like abilities: constant-‹spell/nondetection›; 1/day-‹spell/magic stone›, ‹spell/stone shape›, ‹spell/stone tell›. The caster level for these spell-like abilities is equal to the user's character level.",
 			"",
 			"@HL[Stonesinger (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race are treated as 1 level higher when casting spells with the earth descriptor or using powers of the Earth domain, bloodline powers of the earth elemental bloodline, and revelations of the oracle's stone mystery. This trait does not give members of this race early access to level-based powers; it only affects powers they could already use without this trait.",
 			"",
-			"@HL[Svirfneblin Magic (2 RP):] **Prerequisite:** Gnome subtype; **Benefit:** Members of this race add +1 to the DC of any illusion spells they cast. They also gain the following spell-like abilities: constant-*nondetection;* 1/day-{spell/blindness//deafness}, {spell/blur}, {spell/disguise self}. The DC for the spells is equal to 10 + the spell's level + the caster's Charisma modifier.",
+			"@HL[Svirfneblin Magic (2 RP):] **Prerequisite:** Gnome subtype; **Benefit:** Members of this race add +1 to the DC of any illusion spells they cast. They also gain the following spell-like abilities: constant-*nondetection;* 1/day-‹spell/blindness/deafness›, ‹spell/blur›, ‹spell/disguise self›. The DC for the spells is equal to 10 + the spell's level + the caster's Charisma modifier.",
 			"",
 			"@HL[Treacherous Earth (2 RP):] **Prerequisite:** Outsider (native) with ties to the Plane of Earth or fey type; **Benefit:** Members of this race gain the following supernatural ability: Once per day, a member of this race can will the earth to rumble and shift, transforming a 10-foot-radius patch of earth, unworked stone, or sand into an area of difficult terrain centered on a square it can touch. This lasts for a number of minutes equal to the user's level, after which the ground returns to normal.",
 			"",
@@ -2416,11 +2416,11 @@
 		"name": "Advanced Magical Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/231}",
+			"‹SOURCE Advanced Race Guide/231›",
 			"",
-			"@HL[Constant Spell-Like Divination (3 RP):] **Prerequisites:** None; **Benefit:** Choose one of the following spells: {spell/detect magic}, {spell/detect poison}, {spell/detect secret doors}, {spell/detect undead}. Members of this race can use this spell as a constant spell-like ability. The caster level of the spell-like ability is equal to the user's character level.",
+			"@HL[Constant Spell-Like Divination (3 RP):] **Prerequisites:** None; **Benefit:** Choose one of the following spells: ‹spell/detect magic›, ‹spell/detect poison›, ‹spell/detect secret doors›, ‹spell/detect undead›. Members of this race can use this spell as a constant spell-like ability. The caster level of the spell-like ability is equal to the user's character level.",
 			"",
-			"@HL[Shadow Travel (5 RP):] **Prerequisite:** Outsider (native) with ties to the Shadow Plane; **Benefit:** When a member of this race reaches 9th level in any combination of classes, she gains the ability to use {spell/shadow walk} (self only) as a spell-like ability once per day, and at 13th level, she can use {spell/plane shift} (self only to the Shadow Plane or the Material Plane only) as a spell-like ability once per day. The caster level of these spell-like abilities is equal to the user's character level.",
+			"@HL[Shadow Travel (5 RP):] **Prerequisite:** Outsider (native) with ties to the Shadow Plane; **Benefit:** When a member of this race reaches 9th level in any combination of classes, she gains the ability to use ‹spell/shadow walk› (self only) as a spell-like ability once per day, and at 13th level, she can use ‹spell/plane shift› (self only to the Shadow Plane or the Material Plane only) as a spell-like ability once per day. The caster level of these spell-like abilities is equal to the user's character level.",
 			"",
 			"@HL[Spell-Like Ability, Greater (Variable, see Special):] **Prerequisites:** None; **Benefit:** Choose a 3rd-level or 4th-level spell that does not attack a creature or deal damage. Members of this race can use this spell as a spell-like ability once per day. The caster level of the spell is equal to the user's character level.  ",
 			"**Special:** This trait costs as many RP as the level of the spell chosen. This trait can be taken up to three times. Each time you take an additional spell, adjust the RP cost of this trait appropriately."
@@ -2441,7 +2441,7 @@
 		"name": "Monstrous Magical Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/231}",
+			"‹SOURCE Advanced Race Guide/231›",
 			"",
 			"@HL[Spell-Like Ability, At-Will (Variable, see Special):] **Prerequisites:** None; **Benefit:** Choose a 3rd-level or lower spell that does not attack a creature or deal damage. Members of this race can use this spell as an at-will spell-like ability. The caster level of the spell is equal to the user's character level.  ",
 			"**Special:** This trait costs as many RP as twice the level of spell chosen (minimum 2). Up to five spells can be chosen when you take this trait. Each time you take an additional spell, adjust the RP cost of this trait appropriately."
@@ -2462,7 +2462,7 @@
 		"name": "Movement Racial Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/231}",
+			"‹SOURCE Advanced Race Guide/231›",
 			"",
 			"The following racial traits augment a race's ability to move about the world."
 		],
@@ -2492,19 +2492,19 @@
 		"name": "Standard Movement Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/231}",
+			"‹SOURCE Advanced Race Guide/231›",
 			"",
 			"@HL[Climb (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race have a climb speed of 20 feet, and gain the +8 racial bonus on Climb checks that a climb speed normally grants.",
 			"",
-			"@HL[Darklands Stalker (4 RP):] **Prerequisite:** Native to the Darklands; **Benefit:** Members of this race can move unhindered through difficult terrain while underground. In addition, members of this race with a Dexterity score of 13 or higher gain {feat/Nimble Moves} as a bonus feat.",
+			"@HL[Darklands Stalker (4 RP):] **Prerequisite:** Native to the Darklands; **Benefit:** Members of this race can move unhindered through difficult terrain while underground. In addition, members of this race with a Dexterity score of 13 or higher gain ‹feat/Nimble Moves› as a bonus feat.",
 			"",
-			"@HL[Fleet-Footed (3 RP):] **Prerequisite:** The race has at least a +2 racial bonus to Dexterity; **Benefit:** Members of this race receive {feat/Run} as a bonus feat and a +2 racial bonus on initiative checks.",
+			"@HL[Fleet-Footed (3 RP):] **Prerequisite:** The race has at least a +2 racial bonus to Dexterity; **Benefit:** Members of this race receive ‹feat/Run› as a bonus feat and a +2 racial bonus on initiative checks.",
 			"",
-			"@HL[Gliding Wings (3 RP):] **Prerequisites:** None; **Benefit:** Members of this race take no damage from falling (as if subject to a constant nonmagical {spell/feather fall} spell). While in midair, members of this race can move up to 5 feet in any horizontal direction for every 1 foot they fall, at a speed of 60 feet per round. A member of a race with gliding wings cannot gain height with these wings alone; it merely coasts in other directions as it falls. If subjected to a strong wind or any other effect that causes a creature with gliding wings to rise, it can take advantage of the updraft to increase the distance it can glide.",
+			"@HL[Gliding Wings (3 RP):] **Prerequisites:** None; **Benefit:** Members of this race take no damage from falling (as if subject to a constant nonmagical ‹spell/feather fall› spell). While in midair, members of this race can move up to 5 feet in any horizontal direction for every 1 foot they fall, at a speed of 60 feet per round. A member of a race with gliding wings cannot gain height with these wings alone; it merely coasts in other directions as it falls. If subjected to a strong wind or any other effect that causes a creature with gliding wings to rise, it can take advantage of the updraft to increase the distance it can glide.",
 			"",
 			"@HL[Jumper (2 RP):] **Prerequisite:** The race has at least a +2 racial bonus to Dexterity; **Benefit:** Members of this race are always considered to have a running start when making Acrobatics checks to jump.",
 			"",
-			"@HL[Mountaineer (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race are immune to {rule/altitude sickness} and do not lose their Dexterity bonus to AC when making Climb checks or Acrobatics checks to cross narrow or slippery surfaces.",
+			"@HL[Mountaineer (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race are immune to ‹rule/altitude sickness› and do not lose their Dexterity bonus to AC when making Climb checks or Acrobatics checks to cross narrow or slippery surfaces.",
 			"",
 			"@HL[Sprinter (1 RP):] **Prerequisite:** Normal speed; **Benefit:** Members of this race gain a +10 foot racial bonus to their speed when using the charge, run, or withdraw actions.",
 			"",
@@ -2532,7 +2532,7 @@
 		"name": "Advanced Movement Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/232}",
+			"‹SOURCE Advanced Race Guide/232›",
 			"",
 			"@HL[Burrow (3 RP):] **Prerequisite:** Normal speed; **Benefit:** Members of this race gain a burrow speed of 20 feet.  ",
 			"**Special:** This trait can be taken twice. The second time it is taken, the burrow speed increases to 30 feet.",
@@ -2562,9 +2562,9 @@
 		"name": "Monstrous Movement Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/232}",
+			"‹SOURCE Advanced Race Guide/232›",
 			"",
-			"@HL[Expert Climber (4 RP):] **Prerequisite:** Climb racial trait; **Benefit:** Members of this race can cling to cave walls and even ceilings as long as the surface has hand- and footholds. In effect, members of this race are treated as being constantly under the effects of a nonmagical {spell/spider climb} spell, save that members of this race cannot cling to smooth surfaces. This trait doubles the normal +8 racial bonus on Climb checks normally granted to creatures with a climb speed (to a total +16 bonus)."
+			"@HL[Expert Climber (4 RP):] **Prerequisite:** Climb racial trait; **Benefit:** Members of this race can cling to cave walls and even ceilings as long as the surface has hand- and footholds. In effect, members of this race are treated as being constantly under the effects of a nonmagical ‹spell/spider climb› spell, save that members of this race cannot cling to smooth surfaces. This trait doubles the normal +8 racial bonus on Climb checks normally granted to creatures with a climb speed (to a total +16 bonus)."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2582,7 +2582,7 @@
 		"name": "Offensive Racial Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/232}",
+			"‹SOURCE Advanced Race Guide/232›",
 			"",
 			"The following racial traits augment a race's fighting prowess."
 		],
@@ -2612,9 +2612,9 @@
 		"name": "Standard Offensive Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/232}",
+			"‹SOURCE Advanced Race Guide/232›",
 			"",
-			"@HL[Bite (1 RP):] **Prerequisites:** Small or larger size; **Benefit:** Members of this race gain a natural bite attack, dealing damage equivalent to that of a creature {misc/one<two| size categor/ies lower>y_larger} than normal for their size (1d2 for Small races, 1d3 for Medium, etc.). The bite is a primary attack, or a secondary attack if the creature is wielding manufactured weapons.  ",
+			"@HL[Bite (1 RP):] **Prerequisites:** Small or larger size; **Benefit:** Members of this race gain a natural bite attack, dealing damage equivalent to that of a creature ‹misc/one>two» size categor«ies lower<y_larger› than normal for their size (1d2 for Small races, 1d3 for Medium, etc.). The bite is a primary attack, or a secondary attack if the creature is wielding manufactured weapons.  ",
 			"**Special:** This trait can be taken up to two times. The second time it is taken, the bite damage increases by one size category.",
 			"",
 			"@HL[Breath Weapon (1 RP):] **Prerequisites:** Aberration, construct, dragon, humanoid (reptilian), monstrous humanoid, or outsider (native) with ties to an elemental plane; **Benefit:** Choose one of the following energy types: acid, cold, electricity, or fire. If the creature is an outsider (native), it must have ties to an elemental plane, and it must pick an energy that corresponds to the plane it has ties to (acid [earth], cold [water], electricity [air], or fire [fire]). Then pick either a 15-foot cone or a 20-foot line. Once per day, as a standard action, members of this race can make a supernatural breath weapon attack that deals 1d6 points of the damage type chosen in the area chosen. All creatures within the affected area must make a Reflex saving throw to avoid taking damage. The save DC against this breath weapon is 10 + 1/2 the user's character level + the user's Constitution modifier. Those who succeed at the save take no damage from the attack.  ",
@@ -2653,7 +2653,7 @@
 			"@HL[Slapping Tail (3 RP):] **Prerequisites:** None; **Benefit:** Members of this race have a tail they can use to make attacks of opportunity with a reach of 5 feet. The tail is a natural attack that deals 1d6 points of damage plus the user's Strength modifier if Small, 1d8 points of damage plus the user's Strength modifier if Medium, or 1d10 points of damage plus 1-1/2 times the user's Strength modifier if Large.  ",
 			"**Special:** If a Large creature has the reach trait, its tail also gains reach.",
 			"",
-			"@HL[Stench Aura (4 RP):] **Prerequisite:** Monstrous humanoid type, reptilian subtype, or undead type; **Benefit:** Members of this race secrete a terrible scent as a 15-foot aura that nearly every other creature finds offensive. All living creatures (except those with the stench aura ability) within the aura must succeed at a Fortitude saving throw (DC 10 + 1/2 the user's character level + the user's Constitution modifier) or be {misc/sickened} for 5 rounds. Creatures that succeed at the saving throw cannot be sickened by the same creature's stench aura for 24 hours. A {spell/delay poison} or {spell/neutralize poison} spell or similar effect removes the effect from the sickened creature. This is a poison effect.  ",
+			"@HL[Stench Aura (4 RP):] **Prerequisite:** Monstrous humanoid type, reptilian subtype, or undead type; **Benefit:** Members of this race secrete a terrible scent as a 15-foot aura that nearly every other creature finds offensive. All living creatures (except those with the stench aura ability) within the aura must succeed at a Fortitude saving throw (DC 10 + 1/2 the user's character level + the user's Constitution modifier) or be ‹misc/sickened› for 5 rounds. Creatures that succeed at the saving throw cannot be sickened by the same creature's stench aura for 24 hours. A ‹spell/delay poison› or ‹spell/neutralize poison› spell or similar effect removes the effect from the sickened creature. This is a poison effect.  ",
 			"**Special:** This trait can be taken up to two times. The second time it is taken, the size of the aura increases to 30 feet, and the duration of the effect increases to 10 rounds.",
 			"",
 			"@HL[Sticky Tongue (2 RP):] **Prerequisite:** Medium or larger size; **Benefit:** Members of this race can make melee attacks with their long, sticky tongues. This is a secondary attack. A creature hit by this attack cannot move more than 10 feet away from the attacker and takes a -2 penalty to AC as long as the tongue is attached (this penalty does not stack if multiple tongues are attached). The tongue can be removed by the target or an adjacent ally by making an opposed Strength check against the attacking creature as a standard action or by dealing 2 points of damage to the tongue (AC 11, damage does not reduce the sticky-tongued creature's hit points). A member of this race cannot move more than 10 feet away from a creature stuck to its tongue, but it can release its tongue from the target as a free action. A member of this race can only have one creature attached to its tongue at a time.  ",
@@ -2662,7 +2662,7 @@
 			"@HL[Swarming (1 or 2 RP):] **Prerequisite:** Medium or smaller size; **Benefit:** Members of this race are used to living and fighting communally with other members of their race. Up to two members of this race can share the same square at the same time. If two members of this race that are occupying the same square attack the same foe, they are considered to be flanking that foe as if they were in two opposite squares.  ",
 			"**Special:** If the race is Small or smaller, this trait costs 1 RP. If the race is Medium, it costs 2 RP.",
 			"",
-			"@HL[Terrifying Croak (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain the following supernatural ability: Once per hour as a standard action, a member of this race can emit a thunderous croak. Any creature not of its subtype (if humanoid) or type (if another race type) must make a successful Will saving throw (DC 10 + 1/2 the user's character level + the user's Charisma modifier) or become {misc/shaken} for 1d4 rounds. A target that successfully saves cannot be affected by the user's terrifying croak for 24 hours. Creatures that are already shaken become frightened for 1d4 rounds instead. This is a sonic, mind-affecting effect.",
+			"@HL[Terrifying Croak (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain the following supernatural ability: Once per hour as a standard action, a member of this race can emit a thunderous croak. Any creature not of its subtype (if humanoid) or type (if another race type) must make a successful Will saving throw (DC 10 + 1/2 the user's character level + the user's Charisma modifier) or become ‹misc/shaken› for 1d4 rounds. A target that successfully saves cannot be affected by the user's terrifying croak for 24 hours. Creatures that are already shaken become frightened for 1d4 rounds instead. This is a sonic, mind-affecting effect.",
 			"",
 			"@HL[Toxic (1 RP):] **Prerequisite:** Aberration, dragon, plant, or undead type, or grippli, half-undead, reptilian, or vishkanya subtype; **Benefit:** Members of this race gain the following extraordinary ability: A number of times per day equal to its Constitution modifier (minimum 1/day), a member of this race can envenom a weapon that it wields with its toxic saliva or blood (using blood requires the creature to be injured when it uses this ability). Applying venom in this way is a swift action. When you take this trait, choose one of the following venoms.",
 			"",
@@ -2693,15 +2693,15 @@
 		"name": "Advanced Offensive Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/235}",
+			"‹SOURCE Advanced Race Guide/235›",
 			"",
 			"@HL[Claws (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race receive two claw attacks. These are primary natural attacks. The damage is [based on the creature's size](umr/natural_attacks).",
 			"",
 			"@HL[Frenzy (2 RP):] **Prerequisites:** None; **Benefit:** Once per day, whenever a member of this race takes damage, it flies into a frenzy for 1 minute, gaining a +2 racial bonus to Constitution and Strength, but a -2 penalty to AC.",
 			"",
-			"@HL[Frightful Gaze (6 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain the following supernatural ability: Creatures within 30 feet of a member of this race that meet its gaze must succeed at a Will saving throw (DC 10 + the 1/2 user's character level + the user's Charisma modifier) or stand {rule/paralyzed} in fear for 1 round. This is a mind-affecting fear effect. A target that successfully saves cannot be affected by the user's frightful gaze for 24 hours.",
+			"@HL[Frightful Gaze (6 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain the following supernatural ability: Creatures within 30 feet of a member of this race that meet its gaze must succeed at a Will saving throw (DC 10 + the 1/2 user's character level + the user's Charisma modifier) or stand ‹rule/paralyzed› in fear for 1 round. This is a mind-affecting fear effect. A target that successfully saves cannot be affected by the user's frightful gaze for 24 hours.",
 			"",
-			"@HL[Natural Attack (1 RP):] **Prerequisites:** None; **Benefit:** Pick one of the following {umr/natural attacks}: gore, hoof (if the race has hooves), slam, talons, or wings (if the race has flight). Members of this race receive one natural attack of the chosen type. Gore, slam, and talons are primary natural attacks, while hoof and wings are secondary natural attacks. The damage is based on the creature's size.  ",
+			"@HL[Natural Attack (1 RP):] **Prerequisites:** None; **Benefit:** Pick one of the following ‹umr/natural attacks›: gore, hoof (if the race has hooves), slam, talons, or wings (if the race has flight). Members of this race receive one natural attack of the chosen type. Gore, slam, and talons are primary natural attacks, while hoof and wings are secondary natural attacks. The damage is based on the creature's size.  ",
 			"**Special:** This trait can be taken multiple times. Each time, pick a different natural attack.",
 			"",
 			"@HL[Reach (1 RP):] **Prerequisite:** Large size; **Benefit:** Members of this race have a reach of 10 feet.",
@@ -2726,7 +2726,7 @@
 		"name": "Monstrous Offensive Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/236}",
+			"‹SOURCE Advanced Race Guide/236›",
 			"",
 			"@HL[Elemental Weapons (6 RP):] **Prerequisite:** Outsider (native) with ties to an elemental plane; **Benefit:** Pick one of the following energy types that corresponds to the plane the race has ties to: acid (earth), cold (water), electricity (air), or fire (fire). Members of this race deal 1d6 points of energy damage of the selected type whenever they strike a foe with a natural attack, unarmed strike, or melee weapon.",
 			"",
@@ -2750,7 +2750,7 @@
 		"name": "Senses Racial Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/236}",
+			"‹SOURCE Advanced Race Guide/236›",
 			"",
 			"All races start with normal vision. The following traits augment their vision or otherwise enhance their senses."
 		],
@@ -2780,9 +2780,9 @@
 		"name": "Standard Senses Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/236}",
+			"‹SOURCE Advanced Race Guide/236›",
 			"",
-			"@HL[Carrion Sense (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race have a natural ability to sniff out carrion. This functions like the {umr/scent} ability, but only for corpses and badly wounded creatures (creatures with 25% or fewer hit points).",
+			"@HL[Carrion Sense (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race have a natural ability to sniff out carrion. This functions like the ‹umr/scent› ability, but only for corpses and badly wounded creatures (creatures with 25% or fewer hit points).",
 			"",
 			"@HL[Darkvision 60 Feet (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race can see in the dark up to 60 feet.",
 			"",
@@ -2794,7 +2794,7 @@
 			"",
 			"@HL[Minesight (2 RP):] **Prerequisites:** None; **Benefit:** Members of this race have darkvision 90 feet; however, they are automatically dazzled in bright light and take a -2 penalty on saving throws against effects with the light descriptor.",
 			"",
-			"@HL[Water Sense (1 RP):] **Prerequisite:** Outsider (native) with ties to the Plane of Water or amphibious racial trait; **Benefit:** Members of this race can sense vibrations in water, granting them {umr/blindsense} 30 feet against creatures that are touching the same body of water."
+			"@HL[Water Sense (1 RP):] **Prerequisite:** Outsider (native) with ties to the Plane of Water or amphibious racial trait; **Benefit:** Members of this race can sense vibrations in water, granting them ‹umr/blindsense› 30 feet against creatures that are touching the same body of water."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2812,11 +2812,11 @@
 		"name": "Advanced Senses Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/236}",
+			"‹SOURCE Advanced Race Guide/236›",
 			"",
-			"@HL[Scent (4 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain the {umr/scent} ability.",
+			"@HL[Scent (4 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain the ‹umr/scent› ability.",
 			"",
-			"@HL[See in Darkness (4 RP):] **Prerequisites:** None; **Benefit:** Members of this race can [see perfectly in darkness](umr/see_in_darkness) of any kind, including that created by spells such as {spell/deeper darkness}."
+			"@HL[See in Darkness (4 RP):] **Prerequisites:** None; **Benefit:** Members of this race can [see perfectly in darkness](umr/see_in_darkness) of any kind, including that created by spells such as ‹spell/deeper darkness›."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2834,11 +2834,11 @@
 		"name": "Monstrous Senses Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/236}",
+			"‹SOURCE Advanced Race Guide/236›",
 			"",
 			"@HL[All-Around Vision (4 RP):] **Prerequisites:** None; **Benefit:** Members of this race have some way of [seeing all around them](umr/all_around_vision), granting them a +4 racial bonus on Perception checks and making them immune to flanking.",
 			"",
-			"@HL[Blindsense 30 Feet (4 RP):] **Prerequisites:** None; **Benefit:** Using nonvisual senses such as acute smell or hearing, members of this race [notice things they cannot see](umr/blindsense). Members of this race usually do not need to make Perception checks to pinpoint the location of a creature within 30 feet, provided they have line of effect to that creature. A creature that members of this race cannot see still has total {rule/concealment} against individuals with blindsense, and members of this race still have the normal miss chance when attacking creatures that have concealment. Visibility still affects the movement of members of this race. Members of this race are still denied their Dexterity bonus to AC against attacks from creatures they cannot see."
+			"@HL[Blindsense 30 Feet (4 RP):] **Prerequisites:** None; **Benefit:** Using nonvisual senses such as acute smell or hearing, members of this race [notice things they cannot see](umr/blindsense). Members of this race usually do not need to make Perception checks to pinpoint the location of a creature within 30 feet, provided they have line of effect to that creature. A creature that members of this race cannot see still has total ‹rule/concealment› against individuals with blindsense, and members of this race still have the normal miss chance when attacking creatures that have concealment. Visibility still affects the movement of members of this race. Members of this race are still denied their Dexterity bonus to AC against attacks from creatures they cannot see."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2856,7 +2856,7 @@
 		"name": "Weakness Racial Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/236}",
+			"‹SOURCE Advanced Race Guide/236›",
 			"",
 			"The following racial traits apply weaknesses to members of the race. All weakness racial traits cost negative RP, which means they subtract from a race's total RP spent for the purposes of meeting the race's power level restrictions."
 		],
@@ -2885,15 +2885,15 @@
 		"name": "Standard Weakness Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/237}",
+			"‹SOURCE Advanced Race Guide/237›",
 			"",
-			"@HL[Light Blindness (-2 RP):] **Prerequisite:** Darkvision or see in darkness trait; **Weakness:** Abrupt exposure to bright light blinds members of this race for 1 round; on subsequent rounds, they are {misc/dazzled} as long as they remain in the affected area.",
+			"@HL[Light Blindness (-2 RP):] **Prerequisite:** Darkvision or see in darkness trait; **Weakness:** Abrupt exposure to bright light blinds members of this race for 1 round; on subsequent rounds, they are ‹misc/dazzled› as long as they remain in the affected area.",
 			"",
 			"@HL[Light Sensitivity (-1 RP):] **Prerequisite:** Darkvision; **Weakness:** Members of this race are dazzled as long as they remain in an area of bright light.",
 			"",
 			"@HL[Negative Energy Affinity (-1 RP):] **Prerequisites:** None; **Weakness:** A member of this race is alive, but reacts to positive and negative energy as if it were undead; positive energy harms it, while negative energy heals it.",
 			"",
-			"@HL[Resurrection Vulnerability (-1 RP):] **Prerequisite:** Half-undead subtype or undead type; **Weakness:** A {spell/raise dead} spell cast on a member of this race can destroy it (Will negates). Using the spell in this way does not require a material component.",
+			"@HL[Resurrection Vulnerability (-1 RP):] **Prerequisite:** Half-undead subtype or undead type; **Weakness:** A ‹spell/raise dead› spell cast on a member of this race can destroy it (Will negates). Using the spell in this way does not require a material component.",
 			"",
 			"@HL[Vulnerable to Sunlight (-2 RP):] **Prerequisite:** Native to the Darklands or the Plane of Shadow; **Weakness:** Members of this race take 1 point of Constitution damage after every hour they are exposed to sunlight."
 		],
@@ -2912,12 +2912,12 @@
 		"name": "Advanced Weakness Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/237}",
+			"‹SOURCE Advanced Race Guide/237›",
 			"",
 			"@HL[Elemental Vulnerability (-2 RP):] **Prerequisite:** Outsider (native) with ties to an elemental plane; **Weakness:** Pick one of the following energy types: acid, cold, electricity, or fire. Members of this race have [vulnerability](rule/energy_immunity_and_vulnerability) to the chosen energy type. They cannot posses any racial trait that grants them resistance or immunity to this energy type.  ",
 			"**Special:** This trait can be taken multiple times. Each time it is taken, choose a different energy type. If a race has vulnerability to fire and immunity to cold, it gains the cold subtype. If a race has vulnerability to cold and immunity to fire, it gains the fire subtype.",
 			"",
-			"@HL[Sunlight Powerlessness (-2 RP):] **Prerequisite:** Half-undead subtype or undead type; **Weakness:** Members of this race are powerless in natural sunlight (this does not include light created by effects such as a {spell/daylight} spell). A member of this race caught in natural sunlight cannot attack and is {misc/staggered}."
+			"@HL[Sunlight Powerlessness (-2 RP):] **Prerequisite:** Half-undead subtype or undead type; **Weakness:** Members of this race are powerless in natural sunlight (this does not include light created by effects such as a ‹spell/daylight› spell). A member of this race caught in natural sunlight cannot attack and is ‹misc/staggered›."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2934,7 +2934,7 @@
 		"name": "Other Racial Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/238}",
+			"‹SOURCE Advanced Race Guide/238›",
 			"",
 			"This category covers various traits that other categories do not, which can augment your race in a number of different ways."
 		],
@@ -2964,13 +2964,13 @@
 		"name": "Standard Other Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/238}",
+			"‹SOURCE Advanced Race Guide/238›",
 			"",
 			"@HL[Amphibious (2 RP):] **Prerequisite:** Swim racial trait; **Benefit:** Members of this race are amphibious and can breathe both air and water.",
 			"",
-			"@HL[Heroic (4 RP):] **Prerequisites:** None; **Benefit:** In campaigns that use [the optional hero point system](rule/hero_points), each time a member of this race gains a level, it gains 2 hero points instead of 1. If it takes the {feat/Blood of Heroes} feat, it gains 3 hero points each level instead of 2.",
+			"@HL[Heroic (4 RP):] **Prerequisites:** None; **Benefit:** In campaigns that use [the optional hero point system](rule/hero_points), each time a member of this race gains a level, it gains 2 hero points instead of 1. If it takes the ‹feat/Blood of Heroes› feat, it gains 3 hero points each level instead of 2.",
 			"",
-			"@HL[Hold Breath (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race can hold their breath for a number of rounds equal to four times their Constitution score before risking {rule/drowning} or {rule/suffocating}.",
+			"@HL[Hold Breath (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race can hold their breath for a number of rounds equal to four times their Constitution score before risking ‹rule/drowning› or ‹rule/suffocating›.",
 			"",
 			"@HL[Light and Dark (1 RP):] **Prerequisites:** None; **Benefit:** Members of this race gain the following supernatural ability: Once per day as an immediate action, a member of this race can treat positive and negative energies as if it were an undead creature, taking damage from positive energy and healing damage from negative energy. This ability lasts for 1 minute once activated.",
 			"",
@@ -2980,7 +2980,7 @@
 			"",
 			"@HL[Rodent Empathy (1 RP):] **Prerequisite:** Ratfolk subtype; **Benefit:** Members of this race gain a +4 bonus on Handle Animal checks made to influence rodents.",
 			"",
-			"@HL[Treespeech (2 RP):] **Prerequisite:** Plant type; **Benefit:** Members of this race have the ability to converse with plants as if subject to a continual {spell/speak with plants} spell."
+			"@HL[Treespeech (2 RP):] **Prerequisite:** Plant type; **Benefit:** Members of this race have the ability to converse with plants as if subject to a continual ‹spell/speak with plants› spell."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2998,9 +2998,9 @@
 		"name": "Advanced Other Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/239}",
+			"‹SOURCE Advanced Race Guide/239›",
 			"",
-			"@HL[Grabbing Appendages (6 RP):] **Prerequisites:** Any type except humanoid, Large size; **Benefit:** Members of this race have a small group of appendages that are useful for little more than to aid in grappling. Members of this race gain {feat/Improved Grapple} as a bonus feat, and can maintain a grapple and still make attacks with their main appendages."
+			"@HL[Grabbing Appendages (6 RP):] **Prerequisites:** Any type except humanoid, Large size; **Benefit:** Members of this race have a small group of appendages that are useful for little more than to aid in grappling. Members of this race gain ‹feat/Improved Grapple› as a bonus feat, and can maintain a grapple and still make attacks with their main appendages."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -3018,7 +3018,7 @@
 		"name": "Monstrous Other Traits",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
-			"{SOURCE Advanced Race Guide/239}",
+			"‹SOURCE Advanced Race Guide/239›",
 			"",
 			"@HL[Multi-Armed (4 RP):] **Prerequisites:** None; **Benefit:** Members of this race possess three arms. A member of this race can wield multiple weapons, but only one hand is its primary hand, and all others are off hands. It can also use its hands for other purposes that require free hands.  ",
 			"**Special:** This trait can be taken up to twice. When it is taken a second time, the race gains a fourth arm.",
@@ -3046,7 +3046,7 @@
 		"name": "Creating New Weapons",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
-			"{SOURCE Weapon Master's Handbook/28}  ",
+			"‹SOURCE Weapon Master's Handbook/28›  ",
 			"It is next to impossible for any game to cover every conceivable weapon from all cultures, eras, works of fiction, and players' imaginations. In many cases, new weapons can be represented as slightly different versions of existing weapons, such as a Chinese dao that uses the shortsword rules. However, for those cases when new weapon statistics are truly needed, this section introduces rules for GMs to use as guidelines.",
 			"",
 			"This weapon design system allows you to create a new weapon by buying weapon qualities with Design Points (DP). The number of Design Points a weapon receives is determined by whether it is simple (4 DP), martial (5 DP), or exotic (6 DP).",
@@ -3055,9 +3055,9 @@
 			"",
 			"In addition, you choose whether your base weapon is a [melee weapon or a ranged weapon](rule/weapon_types). If you choose ranged, you must decide whether the weapon is a projectile weapon or a thrown weapon. A projectile ranged weapon has a 50-foot range increment and uses ammunition, while a thrown ranged weapon has a 10-foot range increment.",
 			"",
-			"@HL[Fighter Weapon Group:] You must choose the {ability/fighter |weapon group>s} (or groups) to which your weapon belongs. When determining this, pick the fighter weapon group with the most weapons that have similar statistics (in the case of ranged weapons, the group with the most weapons that are reloaded in the same manner). Some fighter weapon groups grant weapons additional abilities, as noted below.",
+			"@HL[Fighter Weapon Group:] You must choose the ‹ability/fighter »weapon group<s› (or groups) to which your weapon belongs. When determining this, pick the fighter weapon group with the most weapons that have similar statistics (in the case of ranged weapons, the group with the most weapons that are reloaded in the same manner). Some fighter weapon groups grant weapons additional abilities, as noted below.",
 			"",
-			"@HL[Double:] The weapon gains the double {rule/weapon_<special feature>s}. You pick the damage type of each of the weapon's ends separately. If you choose the additional damage type or the improved damage quality with the weapon (see below), treat each end as a separate weapon when determining the Design Point cost of that quality.",
+			"@HL[Double:] The weapon gains the double ‹rule/weapon_>special feature<s›. You pick the damage type of each of the weapon's ends separately. If you choose the additional damage type or the improved damage quality with the weapon (see below), treat each end as a separate weapon when determining the Design Point cost of that quality.",
 			"",
 			"@HL[Monk:] A weapon can be placed in the monk group only if it gains the monk weapon feature (see below).",
 			"",
@@ -3081,9 +3081,9 @@
 			"",
 			"@HL[Expanded Range Increment (1 DP):] The weapon's range increment increases by 10 feet, up to a maximum range increment of 30 feet for thrown weapons and 120 feet for projectile weapons or slings. This quality can be selected multiple times.",
 			"",
-			"@HL[Finesse (3 DP):] The weapon can be used with {feat/Weapon Finesse} as if it were a light weapon. Only one-handed and exotic melee weapons can have this quality.",
+			"@HL[Finesse (3 DP):] The weapon can be used with ‹feat/Weapon Finesse› as if it were a light weapon. Only one-handed and exotic melee weapons can have this quality.",
 			"",
-			"@HL[Fragile (-1 DP):] The weapon gains the {misc/fragile} special weapon feature.",
+			"@HL[Fragile (-1 DP):] The weapon gains the ‹misc/fragile› special weapon feature.",
 			"",
 			"@HL[Improved Critical Multiplier (Varies):] Increase the weapon's critical multiplier by 1. This quality can be selected twice. It costs 3 DP the first time it is selected, and 6 DP the second time. It can be selected only once if the weapon has the improved critical threat range quality, in which case the Design Point cost is doubled.",
 			"",
@@ -3103,7 +3103,7 @@
 			"",
 			"@HL[Traditional (1 DP):] Select one race with the weapon familiarity racial trait (such as elves or orcs). Members of that race with the weapon familiarity racial trait treat the weapon as a martial weapon. This quality can be applied only to exotic weapons.",
 			"",
-			"@HL[Weapon Feature (Varies):] Choose one of the following {rule/weapon special features} for the weapon: *blocking, brace, deadly, disarm, distracting, grapple, monk, nonlethal, performance, reach,* or *trip.* This quality can be selected twice for martial weapons and three times for exotic weapons. It costs 1 DP the first time it is selected, 3 DP the second time, and 4 DP the third time."
+			"@HL[Weapon Feature (Varies):] Choose one of the following ‹rule/weapon special features› for the weapon: *blocking, brace, deadly, disarm, distracting, grapple, monk, nonlethal, performance, reach,* or *trip.* This quality can be selected twice for martial weapons and three times for exotic weapons. It costs 1 DP the first time it is selected, 3 DP the second time, and 4 DP the third time."
 		],
 		"parent_topics": [ "gamemastery" ],
 		"siblings": [

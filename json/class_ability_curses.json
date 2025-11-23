@@ -11,34 +11,34 @@
 		"name": "Aboleth",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
-			"**Aboleth:** Your mind is marked by {monster/aboleth} tampering, either as a result of a close encounter with one of these creatures while you were a child, or even through an ancestor, close family member, or one of your sisters or brothers in faith - this associate's interaction with the aboleths may be all that it takes to infect you.",
+			"‹SOURCE Horror Realms›  ",
+			"**Aboleth:** Your mind is marked by ‹monster/aboleth› tampering, either as a result of a close encounter with one of these creatures while you were a child, or even through an ancestor, close family member, or one of your sisters or brothers in faith - this associate's interaction with the aboleths may be all that it takes to infect you.",
 			"",
 			"@HL[Penalty:] You take a -2 penalty on saving throws against mind-affecting effects.",
 			"",
-			"@HL[Benefit:] Add {spell/charm person} and {spell/hypnotism} to your list of 1st-level oracle spells known.",
+			"@HL[Benefit:] Add ‹spell/charm person› and ‹spell/hypnotism› to your list of 1st-level oracle spells known.",
 			"",
-			"@HL[At 5th Level:] Add {spell/minor image} to your list of 2nd-level oracle spells known.",
+			"@HL[At 5th Level:] Add ‹spell/minor image› to your list of 2nd-level oracle spells known.",
 			"",
-			"@HL[At 10th Level:] Add {spell/modify memory} to your list of 4th-level oracle spells known.",
+			"@HL[At 10th Level:] Add ‹spell/modify memory› to your list of 4th-level oracle spells known.",
 			"",
-			"@HL[At 15th Level:] Add {spell/veil} to your list of 6th-level oracle spells known."
+			"@HL[At 15th Level:] Add ‹spell/veil› to your list of 6th-level oracle spells known."
 		]
 	},
 	"acursed": {
 		"name": "Acursed",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
+			"‹SOURCE Horror Realms›  ",
 			"**Acursed:** You are cursed with misfortune and sorrow.",
 			"",
 			"@HL[Penalty:] You cannot gain benefit from morale bonuses.",
 			"",
-			"@HL[Benefit:] You gain a +4 bonus to all saving throws against {spelldef/curse} effects.",
+			"@HL[Benefit:] You gain a +4 bonus to all saving throws against ‹spelldef/curse› effects.",
 			"",
-			"@HL[At 5th Level:] Add {spell/ill omen} to your list of spells known.",
+			"@HL[At 5th Level:] Add ‹spell/ill omen› to your list of spells known.",
 			"",
-			"@HL[At 10th Level:] Add {spell/greater brand} to your list of spells known.",
+			"@HL[At 10th Level:] Add ‹spell/greater brand› to your list of spells known.",
 			"",
 			"@HL[At 15th Level:] You are immune to curse effects except for your own oracle curse."
 		]
@@ -47,25 +47,25 @@
 		"name": "Blackened",
 		"sources": [ "Blood of Angels" ],
 		"description": [
-			"{SOURCE Blood of Angels}  ",
+			"‹SOURCE Blood of Angels›  ",
 			"**Blackened:** Your hands and forearms are shriveled and blackened, as if you had plunged your arms into a blazing fire, and your thin, papery skin is sensitive to the touch.",
 			"",
 			"@HL[Penalty:] You take a -4 penalty on weapon attack rolls.",
 			"",
-			"@HL[Benefit:] Add {spell/burning hands} to your list of spells known.",
+			"@HL[Benefit:] Add ‹spell/burning hands› to your list of spells known.",
 			"",
-			"@HL[At 5th Level:] Add {spell/scorching ray} and {spell/flaming sphere} to your list of spells known.",
+			"@HL[At 5th Level:] Add ‹spell/scorching ray› and ‹spell/flaming sphere› to your list of spells known.",
 			"",
-			"@HL[At 10th Level:] Add {spell/wall of fire} to your list of spells known and your penalty on weapon attack rolls is reduced to -2.",
+			"@HL[At 10th Level:] Add ‹spell/wall of fire› to your list of spells known and your penalty on weapon attack rolls is reduced to -2.",
 			"",
-			"@HL[At 15th Level:] Add {spell/delayed blast fireball} to your list of spells known."
+			"@HL[At 15th Level:] Add ‹spell/delayed blast fireball› to your list of spells known."
 		]
 	},
 	"clouded_vision": {
 		"name": "Clouded Vision",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"{SOURCE Advanced Player's Guide}  ",
+			"‹SOURCE Advanced Player's Guide›  ",
 			"**Clouded Vision:** Your eyes are obscured, making it difficult for you to see.",
 			"",
 			"@HL[Penalty:] You cannot see anything beyond 30 feet.",
@@ -74,25 +74,25 @@
 			"",
 			"@HL[At 5th Level:] This distance increases to 60 feet.",
 			"",
-			"@HL[At 10th Level:] You gain {umr/blindsense} out to a range of 30 feet.",
+			"@HL[At 10th Level:] You gain ‹umr/blindsense› out to a range of 30 feet.",
 			"",
-			"@HL[At 15th Level:] You gain {umr/blindsight} out to a range of 15 feet."
+			"@HL[At 15th Level:] You gain ‹umr/blindsight› out to a range of 15 feet."
 		]
 	},
 	"cold_blooded": {
 		"name": "Cold-Blooded",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"{SOURCE Monster Codex}  ",
-			"**Cold-Blooded:** Your blood turns sluggish without sufficient heat, and you must seek warmth and shelter earlier than most. This oracle curse is common among {monster/lizardfolk} and other oracles with the reptilian subtype.",
+			"‹SOURCE Monster Codex›  ",
+			"**Cold-Blooded:** Your blood turns sluggish without sufficient heat, and you must seek warmth and shelter earlier than most. This oracle curse is common among ‹monster/lizardfolk› and other oracles with the reptilian subtype.",
 			"",
-			"@HL[Penalty:] You take a -4 penalty on saves against cold spells and effects, and whenever you fail such a saving throw, you are {misc/staggered} for 1 round.",
+			"@HL[Penalty:] You take a -4 penalty on saves against cold spells and effects, and whenever you fail such a saving throw, you are ‹misc/staggered› for 1 round.",
 			"",
 			"@HL[Benefit:] You can survive without food four times longer than a typical creature of your species before you begin to starve.",
 			"",
 			"@HL[At 5th Level:] Poisons affecting you have their onset time doubled and last half as long if they end after a set time (for example, a poison with a frequency of 1/round for 6 rounds would instead have a frequency of 1/round for 3 rounds). Poisons with no onset time gain an onset time of 1 round.",
 			"",
-			"@HL[At 10th Level:] Whenever an action you have {rule/readied} is triggered, you can take an additional move action at half your speed - along with your readied action - even if you have already taken a move action that round.",
+			"@HL[At 10th Level:] Whenever an action you have ‹rule/readied› is triggered, you can take an additional move action at half your speed - along with your readied action - even if you have already taken a move action that round.",
 			"",
 			"@HL[At 15th Level:] You can take an additional move action a number of times per day equal to your Charisma modifier. You can take these additional move actions only on your turn, and can take only one of these extra move actions per turn."
 		]
@@ -101,61 +101,61 @@
 		"name": "Consumed",
 		"sources": [ "Blood of Fiends" ],
 		"description": [
-			"{SOURCE Blood of Fiends}  ",
-			"**Consumed:** Your connection to Abaddon and the {family/daemon/s} that call it home has left you diminished but still able to scorn many mortal frailties.",
+			"‹SOURCE Blood of Fiends›  ",
+			"**Consumed:** Your connection to Abaddon and the ‹family/daemon«s› that call it home has left you diminished but still able to scorn many mortal frailties.",
 			"",
 			"@HL[Penalty:] Whenever you take lethal hit point damage, you take an additional number of points of nonlethal damage equal to 1/2 the lethal damage you took.",
 			"",
-			"@HL[Benefit:] You automatically {misc/stabilize} when brought below 0 hit points.",
+			"@HL[Benefit:] You automatically ‹misc/stabilize› when brought below 0 hit points.",
 			"",
 			"@HL[At 5th Level:] Whenever you make a saving throw against a disease or poison effect, roll twice and use the higher roll as your result.",
 			"",
-			"@HL[At 10th Level:] You can go without food or water for a number of days equal to your oracle level before suffering any ill effects due to {rule/starvation} or thirst.",
+			"@HL[At 10th Level:] You can go without food or water for a number of days equal to your oracle level before suffering any ill effects due to ‹rule/starvation› or thirst.",
 			"",
-			"@HL[At 15th Level:] Whenever a creature within 30 feet takes damage while in combat, you automatically gain 1 temporary hit point. You can benefit from this ability a number of times per round equal to your Charisma modifier, and you can gain a total number of {rule/temporary hit points} in this way equal to your oracle level. Temporary hit points gained this way disappear after 1 hour."
+			"@HL[At 15th Level:] Whenever a creature within 30 feet takes damage while in combat, you automatically gain 1 temporary hit point. You can benefit from this ability a number of times per round equal to your Charisma modifier, and you can gain a total number of ‹rule/temporary hit points› in this way equal to your oracle level. Temporary hit points gained this way disappear after 1 hour."
 		]
 	},
 	"covetous": {
 		"name": "Covetous",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
-			"{SOURCE Legacy of Dragons}  ",
+			"‹SOURCE Legacy of Dragons›  ",
 			"**Covetous:** You find yourself drawn to the luster of wealthy living.",
 			"",
-			"@HL[Penalty:] You must wear fine nonmagical clothing and jewelry worth at least 50 gp + 100 gp per character level you have beyond 1st. If you do not have sufficient wealth to purchase this additional equipment, you feel a strong desire (but are not compelled) to sell existing items or steal from others to obtain it. You are {misc/sickened} whenever you do not meet this requirement; you are also sickened for 24 hours after anything worth 25 gp &times; your character level or more is taken from you against your will.",
+			"@HL[Penalty:] You must wear fine nonmagical clothing and jewelry worth at least 50 gp + 100 gp per character level you have beyond 1st. If you do not have sufficient wealth to purchase this additional equipment, you feel a strong desire (but are not compelled) to sell existing items or steal from others to obtain it. You are ‹misc/sickened› whenever you do not meet this requirement; you are also sickened for 24 hours after anything worth 25 gp &times; your character level or more is taken from you against your will.",
 			"",
 			"@HL[Benefit:] Use Magic Device becomes a class skill for you.",
 			"",
 			"@HL[At 5th Level:] You gain a +4 insight bonus on Appraise checks, Spellcraft checks to identify magic items, and Use Magic Device checks.",
 			"",
-			"@HL[At 10th Level:] You add {spell/fabricate} to your list of spells known.",
+			"@HL[At 10th Level:] You add ‹spell/fabricate› to your list of spells known.",
 			"",
-			"@HL[At 15th Level:] You add half your oracle level to your CMD against {rule/steal} combat maneuvers and to the DC of Sleight of Hand checks to take items from you."
+			"@HL[At 15th Level:] You add half your oracle level to your CMD against ‹rule/steal› combat maneuvers and to the DC of Sleight of Hand checks to take items from you."
 		]
 	},
 	"deaf": {
 		"name": "Deaf",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"{SOURCE Advanced Player's Guide}  ",
+			"‹SOURCE Advanced Player's Guide›  ",
 			"**Deaf:** You cannot hear.",
 			"",
-			"@HL[Penalty:] You suffer all of the usual penalties for being {misc/deafened}.",
+			"@HL[Penalty:] You suffer all of the usual penalties for being ‹misc/deafened›.",
 			"",
-			"@HL[Benefit:] You cast all of your spells as if they were modified by the {feat/Silent Spell} feat. This does not increase their level or casting time.",
+			"@HL[Benefit:] You cast all of your spells as if they were modified by the ‹feat/Silent Spell› feat. This does not increase their level or casting time.",
 			"",
 			"@HL[At 5th Level:] You receive a +3 competence bonus on Perception checks that do not rely upon hearing, and the initiative penalty for being deaf is reduced to -2.",
 			"",
-			"@HL[At 10th Level:] You gain {umr/scent} and you do not suffer any penalty on initiative checks due to being deaf.",
+			"@HL[At 10th Level:] You gain ‹umr/scent› and you do not suffer any penalty on initiative checks due to being deaf.",
 			"",
-			"@HL[At 15th Level:] You gain {umr/tremorsense} out to a range of 30 feet."
+			"@HL[At 15th Level:] You gain ‹umr/tremorsense› out to a range of 30 feet."
 		]
 	},
 	"deep_one": {
 		"name": "Deep One",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
+			"‹SOURCE Horror Realms›  ",
 			"**Deep One:** The lure of the ocean tugs at your soul.",
 			"",
 			"@HL[Penalty:] You reduce your base land speed by 5 feet.",
@@ -166,14 +166,14 @@
 			"",
 			"@HL[At 10th Level:] You gain a +1 bonus to your caster level when casting spells underwater and when casting spells with the water descriptor.",
 			"",
-			"@HL[At 15th Level:] You gain the benefits of {spell/freedom of movement} while underwater."
+			"@HL[At 15th Level:] You gain the benefits of ‹spell/freedom of movement› while underwater."
 		]
 	},
 	"demonic": {
 		"name": "Demonic",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
+			"‹SOURCE Horror Realms›  ",
 			"**Demonic:** Your heart is cursed with the pull of the Abyss.",
 			"",
 			"@HL[Penalty:] You cannot cast spells with the good or lawful descriptors, nor can you summon good or lawful creatures. Good and lawful creatures instinctively distrust you, and you take a -4 penalty on all Diplomacy checks against such creatures. Diplomacy is not a class skill for you.",
@@ -191,12 +191,12 @@
 		"name": "Elemental Imbalance",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
-			"{SOURCE Elemental Master's Handbook}  ",
+			"‹SOURCE Elemental Master's Handbook›  ",
 			"**Elemental Imbalance:** You wield an element's might, but you are vulnerable to its opposite.",
 			"",
 			"@HL[Penalty:] Choose air, earth, fire, or water.",
 			"",
-			">If you select air, you gain {umr/vulnerability} to acid, cannot benefit from any acid {umr/resistance} or {umr/immunity}, and cannot cast spells with the acid or earth descriptors.",
+			">If you select air, you gain ‹umr/vulnerability› to acid, cannot benefit from any acid ‹umr/resistance› or ‹umr/immunity›, and cannot cast spells with the acid or earth descriptors.",
 			">",
 			">If you select earth, you gain vulnerability to electricity, cannot benefit from any electricity resistance or immunity, and cannot cast spells with the air or electricity descriptors.",
 			">",
@@ -218,32 +218,32 @@
 		"name": "Ghoul",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
+			"‹SOURCE Horror Realms›  ",
 			"**Ghoul:** While your actual dietary needs don't change, you crave the flesh of sentient creatures.",
 			"",
-			"@HL[Penalty:] You can only go without food for 12 hours before you begin to {rule/starve}, and when you do starve, the DC of the Constitution check to avoid taking damage increases by 5.",
+			"@HL[Penalty:] You can only go without food for 12 hours before you begin to ‹rule/starve›, and when you do starve, the DC of the Constitution check to avoid taking damage increases by 5.",
 			"",
 			"@HL[Benefit:] If you feed on fresh, raw flesh (no older than 1 hour) from a creature of your own race, you gain a +1 morale bonus on all saving throws for 24 hours.",
 			"",
-			"@HL[At 5th Level:] You add {spell/ghoul touch} to your list of 2nd-level oracle spells known.",
+			"@HL[At 5th Level:] You add ‹spell/ghoul touch› to your list of 2nd-level oracle spells known.",
 			"",
 			"@HL[At 10th Level:] You become immune to paralysis and disease.",
 			"",
-			"@HL[At 15th Level:] You gain the effects of {spell/heroes' feast} whenever you feed on the raw flesh of a sentient creature, and the effects of this *heroes' feast* double if the flesh you eat comes from a member of your own race (this effect applies no more often than once per day)."
+			"@HL[At 15th Level:] You gain the effects of ‹spell/heroes' feast› whenever you feed on the raw flesh of a sentient creature, and the effects of this *heroes' feast* double if the flesh you eat comes from a member of your own race (this effect applies no more often than once per day)."
 		]
 	},
 	"god_meddled": {
 		"name": "God-Meddled",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
-			"{SOURCE Heroes of Golarion}  ",
+			"‹SOURCE Heroes of Golarion›  ",
 			"**God-Meddled:** The isle of Iblydos is populated and watched over by hero-gods, some of whom are known for entangling mortals in their own affairs. The gods' interference in your life has left you with strange, unpredictable powers dependent on divine whim. Bizarre side effects occur whenever you are affected by a spell from a divine caster - for better or for worse.",
 			"",
 			"@HL[Penalty/Benefit:] Once per round, when a creature casts a divine spell including you as a target, roll 1d20 and consult the table below. The effect resulting from this roll begins at the end of that enemy's turn. This effect targets only you, even if other creatures were included as targets of the triggering spell.",
 			"",
 			"@HL[At 5th Level:] You gain a +2 competence bonus on saving throws to resist divine spells.",
 			"",
-			"@HL[At 10th Level:] You become immune to the {misc/confused} condition.",
+			"@HL[At 10th Level:] You become immune to the ‹misc/confused› condition.",
 			"",
 			"@HL[At 15th Level:] You gain a +4 competence bonus on saving throws to resist mind-affecting effects.",
 			"",
@@ -253,39 +253,39 @@
 			"| --- | --- |",
 			"| 1 | You provoke an attack of opportunity from one enemy adjacent to you. If no enemy is adjacent, the closest enemy can move its full movement speed in your direction as a free action. If multiple enemies qualify, the GM determines which creature attacks or moves. This movement does not trigger attacks of opportunity. |",
 			"| 2-3 | Your movement speed is halved for 1 round. |",
-			"| 4-5 | You are {misc/deafened} for 1 round. |",
-			"| 6-7 | You are knocked {rule/prone}. |",
-			"| 8-10 | You shrink by one size category for 1 round, as {spell/reduce person}. |",
-			"| 11-13 | You grow by one size category for 1 round, as {spell/enlarge person}. |",
+			"| 4-5 | You are ‹misc/deafened› for 1 round. |",
+			"| 6-7 | You are knocked ‹rule/prone›. |",
+			"| 8-10 | You shrink by one size category for 1 round, as ‹spell/reduce person›. |",
+			"| 11-13 | You grow by one size category for 1 round, as ‹spell/enlarge person›. |",
 			"| 14-15 | Your caster level is treated as 1 higher for the purpose of spell durations for 1 round. |",
 			"| 16-17 | Creatures in squares adjacent to you are pushed 10 feet away from the space you occupy. |",
 			"| 18-19 | You are able to understand all languages for 1 round. |",
-			"| 20 | You gain the benefits of {spell/haste} for 1 round. |"
+			"| 20 | You gain the benefits of ‹spell/haste› for 1 round. |"
 		]
 	},
 	"haunted": {
 		"name": "Haunted",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"{SOURCE Advanced Player's Guide}  ",
+			"‹SOURCE Advanced Player's Guide›  ",
 			"**Haunted:** Malevolent spirits follow you wherever you go, causing minor mishaps and strange occurrences (such as unexpected breezes, small objects moving on their own, and faint noises).",
 			"",
 			"@HL[Penalty:] Retrieving any stored item from your gear requires a standard action, unless it would normally take longer. Any item you drop lands 10 feet away from you in a random direction.",
 			"",
-			"@HL[Benefit:] Add {spell/mage hand} and {spell/ghost sound} to your list of spells known.",
+			"@HL[Benefit:] Add ‹spell/mage hand› and ‹spell/ghost sound› to your list of spells known.",
 			"",
-			"@HL[At 5th Level:] Add {spell/levitate} and {spell/minor image} to your list of spells known.",
+			"@HL[At 5th Level:] Add ‹spell/levitate› and ‹spell/minor image› to your list of spells known.",
 			"",
-			"@HL[At 10th Level:] Add {spell/telekinesis} to your list of spells known.",
+			"@HL[At 10th Level:] Add ‹spell/telekinesis› to your list of spells known.",
 			"",
-			"@HL[At 15th Level:] Add {spell/reverse gravity} to your list of spells known."
+			"@HL[At 15th Level:] Add ‹spell/reverse gravity› to your list of spells known."
 		]
 	},
 	"hellbound": {
 		"name": "Hellbound",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
+			"‹SOURCE Horror Realms›  ",
 			"**Hellbound:** Infernal influence grants you profane insight and weighs on your soul.",
 			"",
 			"@HL[Penalty:] You cannot cast spells with the good or chaotic descriptors, and you can't summon good or chaotic creatures. Good and chaotic creatures instinctively distrust you, and you take a -4 penalty on all Diplomacy checks against such creatures.",
@@ -303,54 +303,54 @@
 		"name": "Hive",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
-			"**Hive:** You were exposed at a young age (perhaps even before you were born) to the alien species known as the {family/hive}, but this exposure did not result in a full-blown infestation by these otherworldly monsters.",
+			"‹SOURCE Horror Realms›  ",
+			"**Hive:** You were exposed at a young age (perhaps even before you were born) to the alien species known as the ‹family/hive›, but this exposure did not result in a full-blown infestation by these otherworldly monsters.",
 			"",
 			"@HL[Penalty:] Others (including animals) find the unsightly spines and rough growths that periodically emerge from your flesh to be disturbing and distracting, and you take a -4 penalty on Bluff, Diplomacy, Handle Animal, and Ride checks.",
 			"",
-			"@HL[Benefit:] Once per day as a standard action, you can cough up an ovoid, leathery sphere that can be hurled as a flask of {eq-weapon/acid}, though it becomes inert after 24 hours.",
+			"@HL[Benefit:] Once per day as a standard action, you can cough up an ovoid, leathery sphere that can be hurled as a flask of ‹eq-weapon/acid›, though it becomes inert after 24 hours.",
 			"",
-			"@HL[At 5th Level:] You gain the benefits of {spell/endure elements} in hot environments and are immune to {rule/infestations} (save for those from the hive itself).",
+			"@HL[At 5th Level:] You gain the benefits of ‹spell/endure elements› in hot environments and are immune to ‹rule/infestations› (save for those from the hive itself).",
 			"",
 			"@HL[At 10th Level:] Your skin deformities grow numerous enough to increase your natural armor bonus by 1.",
 			"",
-			"@HL[At 15th Level:] You gain acid {umr/resistance} 20."
+			"@HL[At 15th Level:] You gain acid ‹umr/resistance› 20."
 		]
 	},
 	"hunger": {
 		"name": "Hunger",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
-			"{SOURCE Inner Sea Monster Codex}  ",
+			"‹SOURCE Inner Sea Monster Codex›  ",
 			"**Hunger:** Ravenous hunger wracks your body in stressful situations.",
 			"",
-			"@HL[Penalty:] You gain none of the benefits from spells or magic items that provide nourishment, such as {spell/goodberry}, {spell/heroes' feast}, or a {magic-ring/ring of sustenance}. You begin each combat with the {misc/sickened} condition until you deal damage with your bite attack (see below).",
+			"@HL[Penalty:] You gain none of the benefits from spells or magic items that provide nourishment, such as ‹spell/goodberry›, ‹spell/heroes' feast›, or a ‹magic-ring/ring of sustenance›. You begin each combat with the ‹misc/sickened› condition until you deal damage with your bite attack (see below).",
 			"",
-			"@HL[Benefit:] You gain a bite attack that deals an amount of piercing damage appropriate for your size (1d8 for a Large creature, 1d6 for Medium, 1d4 for Small) as a secondary {umr/natural attack}.",
+			"@HL[Benefit:] You gain a bite attack that deals an amount of piercing damage appropriate for your size (1d8 for a Large creature, 1d6 for Medium, 1d4 for Small) as a secondary ‹umr/natural attack›.",
 			"",
-			"@HL[At 5th Level:] You gain the {umr/grab} monster special ability on bite attacks against creatures smaller than yourself.",
+			"@HL[At 5th Level:] You gain the ‹umr/grab› monster special ability on bite attacks against creatures smaller than yourself.",
 			"",
-			"@HL[At 10th Level:] Your bite attack deals damage as if you were {misc/one size category larger}.",
+			"@HL[At 10th Level:] Your bite attack deals damage as if you were ‹misc/one size category larger›.",
 			"",
-			"@HL[At 15th Level:] You gain the {umr/blood drain} monster special ability with your bite, dealing 1d2 points of {rule/Constitution damage} at the end of a turn if you grapple a foe."
+			"@HL[At 15th Level:] You gain the ‹umr/blood drain› monster special ability with your bite, dealing 1d2 points of ‹rule/Constitution damage› at the end of a turn if you grapple a foe."
 		]
 	},
 	"infested": {
 		"name": "Infested",
 		"sources": [ "Monster Codex" ],
 		"description": [
-			"{SOURCE Monster Codex}  ",
+			"‹SOURCE Monster Codex›  ",
 			"**Infested:** Insects, spiders, grubs, and other vermin plague you constantly. They crawl in your hair, fill your clothes, and fly or crawl into your mouth, nose, and ears.",
 			"",
 			"@HL[Penalty:] You take a -4 penalty on Diplomacy checks, and when you first meet someone, the person's initial attitude toward you starts one level lower than normal. Animals shy away from you - you take a -4 penalty on Handle Animal checks.",
 			"",
 			"@HL[Benefit:] You gain a +2 bonus on Fortitude saves versus poisons from insects, scorpions, and spiders, as well as the distraction ability of swarms of such creatures.",
 			"",
-			"@HL[At 5th Level:] You add {spell/vomit swarm} to your list of spells known.",
+			"@HL[At 5th Level:] You add ‹spell/vomit swarm› to your list of spells known.",
 			"",
 			"@HL[At 7th Level:] Your bonus on poison and distraction saves increases to +4, and you gain DR 10/- against all swarm damage.",
 			"",
-			"@HL[At 13th Level:] You add {spell/swarm skin} to your list of spells known.",
+			"@HL[At 13th Level:] You add ‹spell/swarm skin› to your list of spells known.",
 			"",
 			"@HL[At 17th Level:] You become immune to the swarm damage and the distraction ability of insect, scorpion, and spider swarms."
 		]
@@ -359,28 +359,28 @@
 		"name": "Lame",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"{SOURCE Advanced Player's Guide}  ",
+			"‹SOURCE Advanced Player's Guide›  ",
 			"**Lame:** One of your legs is permanently wounded.",
 			"",
 			"@HL[Penalty:] You reduce your base land speed by 10 feet if your base speed is 30 feet or more. If your base speed is less than 30 feet, your speed is reduced by 5 feet.",
 			"",
 			"@HL[Benefit:] Your speed is never reduced due to encumbrance.",
 			"",
-			"@HL[At 5th Level:] You are immune to the {misc/fatigued} condition (but not exhaustion).",
+			"@HL[At 5th Level:] You are immune to the ‹misc/fatigued› condition (but not exhaustion).",
 			"",
 			"@HL[At 10th Level:] Your speed is never reduced by armor.",
 			"",
-			"@HL[At 15th Level:] You are immune to the {misc/exhausted} condition."
+			"@HL[At 15th Level:] You are immune to the ‹misc/exhausted› condition."
 		]
 	},
 	"legalistic": {
 		"name": "Legalistic",
 		"sources": [ "Blood of Fiends" ],
 		"description": [
-			"{SOURCE Blood of Fiends}  ",
+			"‹SOURCE Blood of Fiends›  ",
 			"**Legalistic:** The shackles of Hell impose savage consequences should you violate a covenant, but also imbue you with remarkable guile.",
 			"",
-			"@HL[Penalty:] Whenever you break your word (either purposefully or unintentionally), you become {misc/sickened} for 24 hours or until you meet your obligation, whichever comes first.",
+			"@HL[Penalty:] Whenever you break your word (either purposefully or unintentionally), you become ‹misc/sickened› for 24 hours or until you meet your obligation, whichever comes first.",
 			"",
 			"@HL[Benefit:] Once per day, you can make a vow to yourself that grants a +4 morale bonus on any one roll you make while trying to fulfill a promise made to another individual.",
 			"",
@@ -395,14 +395,14 @@
 		"name": "Lich",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
-			"**Lich:** Every living spellcaster hides a secret in their flesh - a unique, personalized set of conditions that, when all are fulfilled in the correct order, can trigger the transformation into a {template/lich}. Normally, one must expend years and tens of thousands of gold pieces to research this deeply personalized method of attaining immortality. Yet, in a rare few cases, chance and ill fortune can conspire against an unsuspecting spellcaster. You have (unknowingly) fulfilled most (but not all) of the ritualistic components to achieve lichdom. You have yet to turn into an undead creature, but you are close.",
+			"‹SOURCE Horror Realms›  ",
+			"**Lich:** Every living spellcaster hides a secret in their flesh - a unique, personalized set of conditions that, when all are fulfilled in the correct order, can trigger the transformation into a ‹template/lich›. Normally, one must expend years and tens of thousands of gold pieces to research this deeply personalized method of attaining immortality. Yet, in a rare few cases, chance and ill fortune can conspire against an unsuspecting spellcaster. You have (unknowingly) fulfilled most (but not all) of the ritualistic components to achieve lichdom. You have yet to turn into an undead creature, but you are close.",
 			"",
 			"@HL[Penalty/Benefit:] You take damage from positive energy and heal from negative energy as if you were undead.",
 			"",
-			"@HL[At 5th Level:] Add {spell/control undead} to your list of 2nd-level oracle spells known.",
+			"@HL[At 5th Level:] Add ‹spell/control undead› to your list of 2nd-level oracle spells known.",
 			"",
-			"@HL[At 10th Level:] Add {spell/undead anatomy I} to your list of 3rd-level oracle spells known and {spell/undead anatomy II} to your list of 5th-level oracle spells known.",
+			"@HL[At 10th Level:] Add ‹spell/undead anatomy I› to your list of 3rd-level oracle spells known and ‹spell/undead anatomy II› to your list of 5th-level oracle spells known.",
 			"",
 			"@HL[At 15th Level:] You are immune to death effects."
 		]
@@ -411,70 +411,70 @@
 		"name": "Lycanthropy",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
+			"‹SOURCE Horror Realms›  ",
 			"**Lycanthropy:** You suffer from a minor form of lycanthropy. The exact animal your body and mind are aligned with can vary, but you should choose an animal that matches your faith thematically.",
 			"",
-			"@HL[Penalty:] In times of stress or unease, you cannot speak - only growl and snarl like an animal. This ability works similarly to the {oraclecurse/tongues} curse, but whenever you are in combat, you cannot speak at all. This does not interfere with spellcasting but does apply to spells that are language dependent. A character under the effects of {spell/speak with animals} can understand you, and you can communicate with such characters normally. You can speak with animals when in this condition.",
+			"@HL[Penalty:] In times of stress or unease, you cannot speak - only growl and snarl like an animal. This ability works similarly to the ‹oraclecurse/tongues› curse, but whenever you are in combat, you cannot speak at all. This does not interfere with spellcasting but does apply to spells that are language dependent. A character under the effects of ‹spell/speak with animals› can understand you, and you can communicate with such characters normally. You can speak with animals when in this condition.",
 			"",
 			"@HL[Benefit:] Choose one type of animal commonly associated with lycanthropy (such as rats, wolves, or bears); you gain a +4 bonus on Handle Animal checks with these creatures.",
 			"",
-			"@HL[At 5th Level:] Add {spell/charm animal} to your list of 1st-level oracle spells known and {spell/animal messenger} to your list of 2nd-level oracle spells known.",
+			"@HL[At 5th Level:] Add ‹spell/charm animal› to your list of 1st-level oracle spells known and ‹spell/animal messenger› to your list of 2nd-level oracle spells known.",
 			"",
-			"@HL[At 10th Level:] Add {spell/beast shape I} to your list of 3rd-level oracle spells known and {spell/beast shape II} to your list of 5th-level oracle spells known.",
+			"@HL[At 10th Level:] Add ‹spell/beast shape I› to your list of 3rd-level oracle spells known and ‹spell/beast shape II› to your list of 5th-level oracle spells known.",
 			"",
-			"@HL[At 15th Level:] You gain {rule/damage reduction} 5/silver, and if you already have this type of damage reduction, it increases in value by 5 (to a maximum of DR 15/silver)."
+			"@HL[At 15th Level:] You gain ‹rule/damage reduction› 5/silver, and if you already have this type of damage reduction, it increases in value by 5 (to a maximum of DR 15/silver)."
 		]
 	},
 	"plagued": {
 		"name": "Plagued",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
+			"‹SOURCE Horror Realms›  ",
 			"**Plagued:** You suffer from minor ailments and sicknesses. While you struggle to resist new diseases, you have grown accustomed to the many inconveniences of sickness.",
 			"",
 			"@HL[Penalty:] You take a -1 penalty on all saving throws against disease or infestation effects.",
 			"",
-			"@HL[Benefit:] You are immune to the {misc/sickened} condition.",
+			"@HL[Benefit:] You are immune to the ‹misc/sickened› condition.",
 			"",
-			"@HL[At 5th Level:] Add {spell/pox pustules} to your list of 2nd-level oracle spells known.",
+			"@HL[At 5th Level:] Add ‹spell/pox pustules› to your list of 2nd-level oracle spells known.",
 			"",
 			"@HL[At 10th Level:] Increase the save DC of any disease effect you create by +2, and you raise the number of saves required to recover naturally from these diseases by 1.",
 			"",
-			"@HL[At 15th Level:] You are immune to the effects of disease and {rule/infestations}, but you can still function as a carrier for sickness."
+			"@HL[At 15th Level:] You are immune to the effects of disease and ‹rule/infestations›, but you can still function as a carrier for sickness."
 		]
 	},
 	"possessed": {
 		"name": "Possessed",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
+			"‹SOURCE Horror Realms›  ",
 			"**Possessed:** Another mind shares your body, interfering with your control, and it's more difficult for you to concentrate as a result.",
 			"",
-			"@HL[Penalty:] You take a -2 penalty on all {rule/concentration} checks, and concentrating to maintain a spell duration provokes attacks of opportunity.",
+			"@HL[Penalty:] You take a -2 penalty on all ‹rule/concentration› checks, and concentrating to maintain a spell duration provokes attacks of opportunity.",
 			"",
 			"@HL[Benefit:] Whenever a foe attempts to use an effect to possess or dominate you and the effect allows a saving throw to negate, you may roll twice and take the better of the two results.",
 			"",
-			"@HL[At 5th Level:] If you become {misc/dazed} or {misc/stunned}, you can choose instead to become {misc/confused} for twice the duration the daze or stun effect would have normally lasted.",
+			"@HL[At 5th Level:] If you become ‹misc/dazed› or ‹misc/stunned›, you can choose instead to become ‹misc/confused› for twice the duration the daze or stun effect would have normally lasted.",
 			"",
-			"@HL[At 10th Level:] Add {spell/possession} to your list of 5th-level oracle spells known.",
+			"@HL[At 10th Level:] Add ‹spell/possession› to your list of 5th-level oracle spells known.",
 			"",
-			"@HL[At 15th Level:] Add {spell/greater object possession} to your list of 7th-level oracle spells known."
+			"@HL[At 15th Level:] Add ‹spell/greater object possession› to your list of 7th-level oracle spells known."
 		]
 	},
 	"powerless_prophecy": {
 		"name": "Powerless Prophecy",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
-			"{SOURCE Inner Sea Monster Codex}  ",
+			"‹SOURCE Inner Sea Monster Codex›  ",
 			"**Powerless Prophecy:** You are forewarned of danger but can't act to prevent it.",
 			"",
-			"@HL[Penalty:] You can't take any actions in a surprise round, including free actions, except for [flash of insight](arc-oracle/cyclopean_seer). In the absence of a surprise round, you are {misc/staggered} for the entire first round of combat.",
+			"@HL[Penalty:] You can't take any actions in a surprise round, including free actions, except for [flash of insight](arc-oracle/cyclopean_seer). In the absence of a surprise round, you are ‹misc/staggered› for the entire first round of combat.",
 			"",
-			"@HL[Benefit:] You gain {ability/uncanny dodge}, as the rogue class feature.",
+			"@HL[Benefit:] You gain ‹ability/uncanny dodge›, as the rogue class feature.",
 			"",
 			"@HL[At 5th Level:] You gain a +4 insight bonus on initiative checks.",
 			"",
-			"@HL[At 10th Level:] You gain {ability/improved uncanny dodge} as the rogue ability, using your oracle level as your rogue level.",
+			"@HL[At 10th Level:] You gain ‹ability/improved uncanny dodge› as the rogue ability, using your oracle level as your rogue level.",
 			"",
 			"@HL[At 15th Level:] You gain a +4 insight bonus on all your saving throws and to your AC during surprise rounds and when you are otherwise unaware of an attack."
 		]
@@ -483,32 +483,32 @@
 		"name": "Pranked",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
-			"{SOURCE Legacy of the First World}  ",
+			"‹SOURCE Legacy of the First World›  ",
 			"**Pranked:** Capricious fey constantly bedevil you, playing pranks on you such as tying your shoelaces together, hiding your gear, making inappropriate noises or smells at formal events, and mimicking your voice to tell embarrassing lies.",
 			"",
 			"@HL[Penalty:] You take a -4 penalty on initiative checks, in addition to any social consequences the fey mischief may cause for you. Furthermore, whenever you attempt to retrieve a stored item from your gear, there's a 25% chance that you fail to find it with that action.",
 			"",
-			"@HL[Benefit:] Add {spell/faerie fire} and {spell/ghost sound} to your list of spells known.",
+			"@HL[Benefit:] Add ‹spell/faerie fire› and ‹spell/ghost sound› to your list of spells known.",
 			"",
-			"@HL[At 5th Level:] Add {spell/glitterdust} and {spell/minor image} to your list of spells known.",
+			"@HL[At 5th Level:] Add ‹spell/glitterdust› and ‹spell/minor image› to your list of spells known.",
 			"",
-			"@HL[At 10th Level:] Add {spell/confusion} to your list of spells known as a 5th-level spell.",
+			"@HL[At 10th Level:] Add ‹spell/confusion› to your list of spells known as a 5th-level spell.",
 			"",
-			"@HL[At 15th Level:] Add {spell/project image} to your list of spells known."
+			"@HL[At 15th Level:] Add ‹spell/project image› to your list of spells known."
 		]
 	},
 	"promethean": {
 		"name": "Promethean",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
+			"‹SOURCE Horror Realms›  ",
 			"**Promethean:** Your body is falling apart, forcing you to rely on mechanical augmentations or replacements to keep yourself alive.",
 			"",
-			"@HL[Penalty:] You take 1 point of {rule/Constitution damage} each day.",
+			"@HL[Penalty:] You take 1 point of ‹rule/Constitution damage› each day.",
 			"",
 			"@HL[Benefit:] After taking your Constitution damage, you ignore the first point of Strength, Dexterity, or Constitution damage you take for the remainder of that day.",
 			"",
-			"@HL[At 5th Level:] You gain a +2 bonus on all saving throws on effects that cause {rule/ability damage, [ability ]drain/, or ability score penalties}.",
+			"@HL[At 5th Level:] You gain a +2 bonus on all saving throws on effects that cause ‹rule/ability damage, «ability »drain«, or ability score penalties›.",
 			"",
 			"@HL[At 10th Level:] This bonus increases to +6.",
 			"",
@@ -519,16 +519,16 @@
 		"name": "Putrid",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
-			"{SOURCE Wilderness Origins}  ",
+			"‹SOURCE Wilderness Origins›  ",
 			"**Putrid:** Your presence causes liquids to spoil.",
 			"",
-			"@HL[Penalty:] Your presence stagnates water and befouls all liquids carried on your person, including magical items such as potions, and unattended sources of still water within 10 feet. Creatures who drink such a liquid are {misc/nauseated} for 1 round (though potions and similar liquids still convey their usual benefits as well). Affected liquids remain stagnant for 1 hour after leaving your presence. {spell/Purify food and drink} can cleanse a stagnant potion or water with a successful caster level check (DC = 15 + double the potion's caster level).",
+			"@HL[Penalty:] Your presence stagnates water and befouls all liquids carried on your person, including magical items such as potions, and unattended sources of still water within 10 feet. Creatures who drink such a liquid are ‹misc/nauseated› for 1 round (though potions and similar liquids still convey their usual benefits as well). Affected liquids remain stagnant for 1 hour after leaving your presence. ‹spell/Purify food and drink› can cleanse a stagnant potion or water with a successful caster level check (DC = 15 + double the potion's caster level).",
 			"",
 			"@HL[Benefit:] None.",
 			"",
 			"@HL[At 5th Level:] You become immune to the nauseated effects created by liquids your presence has befouled.",
 			"",
-			"@HL[At 10th Level:] Your body is covered in noxious slime, and each creature adjacent to you at the beginning of its turn must succeed at a Fortitude save (DC = 10 + half your oracle level + your Charisma modifier) or become {misc/sickened} for 1 round.",
+			"@HL[At 10th Level:] Your body is covered in noxious slime, and each creature adjacent to you at the beginning of its turn must succeed at a Fortitude save (DC = 10 + half your oracle level + your Charisma modifier) or become ‹misc/sickened› for 1 round.",
 			"",
 			"@HL[At 15th Level:] Your slime coating grants you DR 10/-."
 		]
@@ -537,14 +537,14 @@
 		"name": "Reclusive",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
-			"{SOURCE Legacy of the First World}  ",
+			"‹SOURCE Legacy of the First World›  ",
 			"**Reclusive:** You are reclusive and paranoid to the point that your allies cannot easily help you in times of stress or unease.",
 			"",
 			"@HL[Penalty:] Whenever you are in combat, your allies must succeed at a melee touch attack to affect you with touch spells, and you must attempt saving throws to resist all spells cast by anyone other than yourself, even those cast by allies.",
 			"",
 			"@HL[Benefit:] Instantaneous spells you cast only on yourself affect you as though your caster level were 1 higher.",
 			"",
-			"@HL[At 5th Level:] Any spells you cast only on yourself affect you as if they were modified by the {feat/Extend Spell} feat. This does not increase their level or casting time.",
+			"@HL[At 5th Level:] Any spells you cast only on yourself affect you as if they were modified by the ‹feat/Extend Spell› feat. This does not increase their level or casting time.",
 			"",
 			"@HL[At 10th Level:] You are immune to charm spells and spell-like abilities.",
 			"",
@@ -555,50 +555,50 @@
 		"name": "Scourge",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
-			"{SOURCE Wilderness Origins}  ",
+			"‹SOURCE Wilderness Origins›  ",
 			"**Scourge:** You are a blight on the natural world.",
 			"",
-			"@HL[Penalty:] Bizarre natural hazards develop within a 300-foot radius around you whenever you linger in a natural area for more than 10 minutes, as {spell/lesser curse terrain}. You cannot choose the hazards or their locations.",
+			"@HL[Penalty:] Bizarre natural hazards develop within a 300-foot radius around you whenever you linger in a natural area for more than 10 minutes, as ‹spell/lesser curse terrain›. You cannot choose the hazards or their locations.",
 			"",
-			"@HL[Benefit:] Your movement is unimpeded by undergrowth, as a druid's {ability/woodland stride} ability, as plants wither away in your footsteps.",
+			"@HL[Benefit:] Your movement is unimpeded by undergrowth, as a druid's ‹ability/woodland stride› ability, as plants wither away in your footsteps.",
 			"",
-			"@HL[At 5th Level:] Add {spell/feast of ashes} to your list of 2nd-lvel oracle spells known.",
+			"@HL[At 5th Level:] Add ‹spell/feast of ashes› to your list of 2nd-lvel oracle spells known.",
 			"",
-			"@HL[At 10th Level:] Add {spell/explosion of rot} to your list of 4th-level oracle spells known.",
+			"@HL[At 10th Level:] Add ‹spell/explosion of rot› to your list of 4th-level oracle spells known.",
 			"",
-			"@HL[At 15th Level:] Add {spell/swarm skin} to your list of 6th-level oracle spells known."
+			"@HL[At 15th Level:] Add ‹spell/swarm skin› to your list of 6th-level oracle spells known."
 		]
 	},
 	"shadowbound": {
 		"name": "Shadowbound",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
+			"‹SOURCE Horror Realms›  ",
 			"**Shadowbound:** Your pigmentation is oddly colorless, and your eyes are highly sensitive to light.",
 			"",
-			"@HL[Penalty:] You are {misc/blinded} for 1 round when exposed to normal or bright light and {misc/dazzled} while in such a lit area.",
+			"@HL[Penalty:] You are ‹misc/blinded› for 1 round when exposed to normal or bright light and ‹misc/dazzled› while in such a lit area.",
 			"",
 			"@HL[Benefit:] You gain darkvision to a range of 30 feet.",
 			"",
 			"@HL[At 5th Level:] The range of your darkvision increases by 30 feet.",
 			"",
-			"@HL[At 10th Level:] Add {spell/shadow conjuration} to your list of 4th-level oracle spells known and {spell/shadow evocation} to your list of 5th-level oracle spells known.",
+			"@HL[At 10th Level:] Add ‹spell/shadow conjuration› to your list of 4th-level oracle spells known and ‹spell/shadow evocation› to your list of 5th-level oracle spells known.",
 			"",
-			"@HL[At 15th Level:] Add {spell/shadow walk} to your list of 6th-level oracle spells known."
+			"@HL[At 15th Level:] Add ‹spell/shadow walk› to your list of 6th-level oracle spells known."
 		]
 	},
 	"shattered_psyche": {
 		"name": "Shattered Psyche",
 		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],
 		"description": [
-			"{SOURCE Pathfinder #88: Valley of the Brain Collectors}  ",
+			"‹SOURCE Pathfinder #88: Valley of the Brain Collectors›  ",
 			"**Shattered Psyche:** Your mind is crowded with dozens of voices, fragmented snippets of your past lives.",
 			"",
-			"@HL[Penalty:] You take a -2 penalty on all Intelligence-based skill checks, Wisdom-based skill checks, and {rule/concentration} checks.",
+			"@HL[Penalty:] You take a -2 penalty on all Intelligence-based skill checks, Wisdom-based skill checks, and ‹rule/concentration› checks.",
 			"",
 			"@HL[Benefit:] You gain a +4 competence bonus on saving throws made against mind-affecting effects.",
 			"",
-			"@HL[At 5th Level:] You're {umr/immune} to charm effects.",
+			"@HL[At 5th Level:] You're ‹umr/immune› to charm effects.",
 			"",
 			"@HL[At 10th Level:] You're immune to compulsion effects.",
 			"",
@@ -609,10 +609,10 @@
 		"name": "Site-Bound",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
-			"{SOURCE Inner Sea Monster Codex}  ",
+			"‹SOURCE Inner Sea Monster Codex›  ",
 			"**Site-Bound:** You are bound to a particular place.",
 			"",
-			"@HL[Penalty:] You form a bond with a particular 10-foot square, and must remain within 1,500 feet of that site or immediately become {misc/sickened}. You must succeed at a DC 15 Fortitude save each minute you spend outside of the boundary or become {misc/nauseated}. For every hour spent outside of the boundary, you also take 1d4 points of {rule/Constitution damage} (no save).",
+			"@HL[Penalty:] You form a bond with a particular 10-foot square, and must remain within 1,500 feet of that site or immediately become ‹misc/sickened›. You must succeed at a DC 15 Fortitude save each minute you spend outside of the boundary or become ‹misc/nauseated›. For every hour spent outside of the boundary, you also take 1d4 points of ‹rule/Constitution damage› (no save).",
 			"",
 			"@HL[Benefit:] When within range of your bonded site, you gain a +1 bonus to your caster level when casting oracle spells.",
 			"",
@@ -627,34 +627,34 @@
 		"name": "Song-Bound",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
-			"{SOURCE Blood of the Sea}  ",
-			"**Song-Bound:** ({race/Merfolk} only) Whenever you speak, you are compelled to sing loudly, and you draw out even short utterances with vocal scales or simple melodies.",
+			"‹SOURCE Blood of the Sea›  ",
+			"**Song-Bound:** (‹race/Merfolk› only) Whenever you speak, you are compelled to sing loudly, and you draw out even short utterances with vocal scales or simple melodies.",
 			"",
 			"@HL[Penalty:] You cannot speak in less than a loud voice, although you may choose not to speak.",
 			"",
-			"@HL[Benefit:] You can perform the {performance/countersong} bardic performance (using Perform [sing] only) for a number of rounds per day equal to your oracle level. If you gain the {ability/bardic performance} class feature, these rounds are in addition to any other bardic performance rounds you gain, but they can be used only for the *countersong* bardic performance.",
+			"@HL[Benefit:] You can perform the ‹performance/countersong› bardic performance (using Perform [sing] only) for a number of rounds per day equal to your oracle level. If you gain the ‹ability/bardic performance› class feature, these rounds are in addition to any other bardic performance rounds you gain, but they can be used only for the *countersong* bardic performance.",
 			"",
-			"@HL[At 5th Level:] Add {spell/command} and {spell/suggestion} to your list of spells known.",
+			"@HL[At 5th Level:] Add ‹spell/command› and ‹spell/suggestion› to your list of spells known.",
 			"",
 			"@HL[At 10th Level:] Add 1 to the DC of saving throws against language-dependent spells you cast.",
 			"",
-			"@HL[At 15th Level:] Add {spell/greater command} and {spell/mass suggestion} to your list of spells known."
+			"@HL[At 15th Level:] Add ‹spell/greater command› and ‹spell/mass suggestion› to your list of spells known."
 		]
 	},
 	"tongues": {
 		"name": "Tongues",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"{SOURCE Advanced Player's Guide}  ",
+			"‹SOURCE Advanced Player's Guide›  ",
 			"**Tongues:** In times of stress or unease, you speak in tongues.",
 			"",
-			"@HL[Penalty:] Pick one of the following languages: Abyssal, Aklo, Aquan, Auran, Celestial, Ignan, Infernal, or Terran. Whenever you are in combat, you can only speak and understand the selected language. This does not interfere with spellcasting, but it does apply to spells that are {spelldef/language dependent}.",
+			"@HL[Penalty:] Pick one of the following languages: Abyssal, Aklo, Aquan, Auran, Celestial, Ignan, Infernal, or Terran. Whenever you are in combat, you can only speak and understand the selected language. This does not interfere with spellcasting, but it does apply to spells that are ‹spelldef/language dependent›.",
 			"",
 			"@HL[Benefit:] You gain the selected language as a bonus language.",
 			"",
 			"@HL[At 5th Level:] Pick an additional language to speak in combat and add it to your list of known languages.",
 			"",
-			"@HL[At 10th Level:] You can understand any spoken language, as if under the effects of {spell/tongues}, even during combat.",
+			"@HL[At 10th Level:] You can understand any spoken language, as if under the effects of ‹spell/tongues›, even during combat.",
 			"",
 			"@HL[At 15th Level:] You can speak and understand any language, but your speech is still restricted during combat."
 		]
@@ -663,12 +663,12 @@
 		"name": "Toxic Blood",
 		"sources": [ "Villain Codex" ],
 		"description": [
-			"{SOURCE Villain Codex}  ",
+			"‹SOURCE Villain Codex›  ",
 			"**Toxic Blood:** Your body is ravaged by a potent, slow-acting poison that resists all treatment.",
 			"",
-			"@HL[Penalty:] Whenever you must attempt a Fortitude save to resist a poison effect, roll twice and take the lowest result. Additionally, you need one more consecutive successful save to end an ongoing poison. You lose any immunity to poison you have upon receiving this curse, and you become immune to {spell/delay poison} and {spell/neutralize poison}, as well as other attempts to suppress or remove the poison from which you are suffering.",
+			"@HL[Penalty:] Whenever you must attempt a Fortitude save to resist a poison effect, roll twice and take the lowest result. Additionally, you need one more consecutive successful save to end an ongoing poison. You lose any immunity to poison you have upon receiving this curse, and you become immune to ‹spell/delay poison› and ‹spell/neutralize poison›, as well as other attempts to suppress or remove the poison from which you are suffering.",
 			"",
-			"@HL[Benefit:] You gain the {ability/poison use} ability.",
+			"@HL[Benefit:] You gain the ‹ability/poison use› ability.",
 			"",
 			"@HL[At 5th Level:] You are so envenomed that your touch becomes poisonous. Once per day for every 4 oracle levels you have, you can deliver a unique contact poison as a touch attack or via an unarmed strike or natural weapon.",
 			"",
@@ -683,62 +683,62 @@
 		"name": "Vampirism",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"{SOURCE Horror Realms}  ",
+			"‹SOURCE Horror Realms›  ",
 			"**Vampirism:** You crave the taste of fresh, warm blood.",
 			"",
 			"@HL[Penalty/Benefit:] You take damage from positive energy and heal from negative energy as if you were undead.",
 			"",
-			"@HL[At 5th Level:] You gain {umr/channel resistance} +4.",
+			"@HL[At 5th Level:] You gain ‹umr/channel resistance› +4.",
 			"",
-			"@HL[At 10th Level:] You add {spell/vampiric touch} to your list of 3rd-level oracle spells known and {spell/undead anatomy II} to your list of 5th-level oracle spells known.",
+			"@HL[At 10th Level:] You add ‹spell/vampiric touch› to your list of 3rd-level oracle spells known and ‹spell/undead anatomy II› to your list of 5th-level oracle spells known.",
 			"",
-			"@HL[At 15th Level:] You gain {rule/damage reduction} 5/magic."
+			"@HL[At 15th Level:] You gain ‹rule/damage reduction› 5/magic."
 		]
 	},
 	"wasting": {
 		"name": "Wasting",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"{SOURCE Advanced Player's Guide}  ",
+			"‹SOURCE Advanced Player's Guide›  ",
 			"**Wasting:** Your body is slowly rotting away.",
 			"",
 			"@HL[Penalty:] You take a -4 penalty on Charisma-based skill checks, except for Intimidate.",
 			"",
 			"@HL[Benefit:] You gain a +4 competence bonus on saves made against disease.",
 			"",
-			"@HL[At 5th Level:] You are immune to the {misc/sickened} condition (but not nauseated).",
+			"@HL[At 5th Level:] You are immune to the ‹misc/sickened› condition (but not nauseated).",
 			"",
 			"@HL[At 10th Level:] You gain immunity to disease.",
 			"",
-			"@HL[At 15th Level:] You are immune to the {misc/nauseated} condition."
+			"@HL[At 15th Level:] You are immune to the ‹misc/nauseated› condition."
 		]
 	},
 	"wolfscarred_face": {
 		"name": "Wolfscarred Face",
 		"sources": [ "Blood of Angels" ],
 		"description": [
-			"{SOURCE Blood of Angels}  ",
+			"‹SOURCE Blood of Angels›  ",
 			"**Wolfscarred Face:** Your face is deformed, as though you were born with a wolf's muzzle instead of an ordinary nose and jaw. Many mistake you for a werewolf, and in areas plagued by lycanthropes, you must take pains to hide your face.",
 			"",
 			"@HL[Penalty:] You have a severe speech impediment, and any spells you cast with a verbal component have a 20% chance of failing, wasting your action but not expending the spell.",
 			"",
-			"@HL[Benefit:] You gain a {umr/natural [bite ]attack} that deals 1d4 points of damage if you are a Medium creature or 1d3 points of damage if you are Small.",
+			"@HL[Benefit:] You gain a ‹umr/natural «bite »attack› that deals 1d4 points of damage if you are a Medium creature or 1d3 points of damage if you are Small.",
 			"",
-			"@HL[At 5th Level:] You add {spell/magic fang} to your list of known spells and your bite damage increases to 1d6 if you are Medium or 1d4 if you are Small.",
+			"@HL[At 5th Level:] You add ‹spell/magic fang› to your list of known spells and your bite damage increases to 1d6 if you are Medium or 1d4 if you are Small.",
 			"",
 			"@HL[At 10th Level:] The damage dealt by your bite attack increases to 1d8 if you are Medium or 1d6 if you are Small.",
 			"",
-			"@HL[At 15th Level:] You add {spell/greater magic fang} to your list of known spells and the damage dealt by your bite attack increases to 2d6 if you are Medium or 1d8 if you are Small."
+			"@HL[At 15th Level:] You add ‹spell/greater magic fang› to your list of known spells and the damage dealt by your bite attack increases to 2d6 if you are Medium or 1d8 if you are Small."
 		]
 	},
 	"wrecker": {
 		"name": "Wrecker",
 		"sources": [ "Blood of Fiends" ],
 		"description": [
-			"{SOURCE Blood of Fiends}  ",
-			"**Wrecker:** The destructive power of {rule/the Abyss} and its teeming hordes of {family/demon/s} seeps from your very pores and into your belongings and surroundings.",
+			"‹SOURCE Blood of Fiends›  ",
+			"**Wrecker:** The destructive power of ‹rule/the Abyss› and its teeming hordes of ‹family/demon«s› seeps from your very pores and into your belongings and surroundings.",
 			"",
-			"@HL[Penalty:] Held objects gain the {misc/broken} condition when you use or equip them but regain their actual condition if employed by anyone else. If a held item is restored to unbroken condition, it becomes broken again the following round.",
+			"@HL[Penalty:] Held objects gain the ‹misc/broken› condition when you use or equip them but regain their actual condition if employed by anyone else. If a held item is restored to unbroken condition, it becomes broken again the following round.",
 			"",
 			"@HL[Benefit:] Disable Device becomes a class skill for you and you can make Disable Device checks to destroy nonmagical traps as a move action without the need to use tools or take any action beyond simply touching it.",
 			"",
@@ -753,18 +753,18 @@
 		"name": "Wrecking Mysticism",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
-			"{SOURCE Dirty Tactics Toolbox}  ",
-			"**Wrecking Mysticism:** ({race/Kitsune} only) A divine entity has blessed you with a source of eldritch power.",
+			"‹SOURCE Dirty Tactics Toolbox›  ",
+			"**Wrecking Mysticism:** (‹race/Kitsune› only) A divine entity has blessed you with a source of eldritch power.",
 			"",
 			"@HL[Penalty:] This power erodes your fortitude, increasing by 50% the duration of any poison, sickened condition, or nauseated condition affecting you.",
 			"",
-			"@HL[Benefit:] Whenever you would gain a mystery spell, you can gain {feat/Magical Tail} as a bonus feat instead. Once this choice has been made, it cannot be changed. You cannot replace a bonus spell granted to you by an oracle archetype with Magical Tail, even if it replaces a mystery spell.",
+			"@HL[Benefit:] Whenever you would gain a mystery spell, you can gain ‹feat/Magical Tail› as a bonus feat instead. Once this choice has been made, it cannot be changed. You cannot replace a bonus spell granted to you by an oracle archetype with Magical Tail, even if it replaces a mystery spell.",
 			"",
-			"@HL[At 5th Level:] Add {spell/minor image} and {spell/ventriloquism}.",
+			"@HL[At 5th Level:] Add ‹spell/minor image› and ‹spell/ventriloquism›.",
 			"",
-			"@HL[At 10th Level:] Add {spell/magic jar} to your list of spells known.",
+			"@HL[At 10th Level:] Add ‹spell/magic jar› to your list of spells known.",
 			"",
-			"@HL[At 15th Level:] Add {spell/project image} to your list of spells known."
+			"@HL[At 15th Level:] Add ‹spell/project image› to your list of spells known."
 		]
 	}
 }

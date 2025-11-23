@@ -9,7 +9,7 @@
 			"",
 			"You give the targets the appearance and many of the abilities of sahuagin mutants, with effects as described below. Choose one benefit for all targets of this spell. This spell has no effect on sahuagin that are already mutants or already under the effects of gift of the deep.",
 			"",
-			"*Four-Armed:* The sahuagin sprouts an extra pair of arms - which can be used to make claw attacks (dealing 1d4 points of damage), or to wield weapons or hold items. It gains the benefits of the {feat/Multiattack} and {feat/Multiweapon Fighting} feats.",
+			"*Four-Armed:* The sahuagin sprouts an extra pair of arms - which can be used to make claw attacks (dealing 1d4 points of damage), or to wield weapons or hold items. It gains the benefits of the ‹feat/Multiattack› and ‹feat/Multiweapon Fighting› feats.",
 			"",
 			"*Malenti:* The sahuagin's features shift to resemble those of an aquatic elf. It loses its light blindness as well as its claw and bite attacks. The sahuagin gains a +4 enhancement bonus to Dexterity and Charisma, and a +10 circumstance bonus on Disguise checks to appear to be an aquatic elf.",
 			"",
@@ -19,7 +19,7 @@
 			"",
 			"*Sightless:* The sahuagin is blinded, but gains the benefits of the Blind Fight feat and blindsense with a range of 90 feet.",
 			"",
-			"*Spined:* Spines grow on the sahuagin's scales. Any creature that successfully grapples with it, is grappled by it, or hits it with an unarmed strike or natural weapon takes 1d4 points of piercing damage. The sahuagin also gains the benefits of the {feat/Improved Grapple} feat."
+			"*Spined:* Spines grow on the sahuagin's scales. Any creature that successfully grapples with it, is grappled by it, or hits it with an unarmed strike or natural weapon takes 1d4 points of piercing damage. The sahuagin also gains the benefits of the ‹feat/Improved Grapple› feat."
 		]
 	},
 	"gilded_whispers": {
@@ -30,7 +30,7 @@
 			"",
 			"::spell{source=\"Pathfinder Society Field Guide/57\" divination arc=3 clr=4 orc=4 sor=3 war=4 wiz=3 ctR=1 cV cS cMp=\"100 gp of powdered gemstones\" rTouch target=\"a gold or platinum coin\" durD durDL=1 will srY object}",
 			"",
-			"Developed by priests of Abadar to catch thieves and skimmers, gilded whispers later spread to other faiths and was adapted to the arcane arts through the combined efforts of Aram Zey and Kreighton Shaine. Pathfinders most commonly use this spell to track bribes and illicit purchases back to their ultimate source, especially when they suspect the influence of {rule/Aspis Consortium} agents.",
+			"Developed by priests of Abadar to catch thieves and skimmers, gilded whispers later spread to other faiths and was adapted to the arcane arts through the combined efforts of Aram Zey and Kreighton Shaine. Pathfinders most commonly use this spell to track bribes and illicit purchases back to their ultimate source, especially when they suspect the influence of ‹rule/Aspis Consortium› agents.",
 			"",
 			"Gilded whispers allows you to use a single coin as a conduit for an eavesdropping spell. When you use a divination (scrying) spell or item, such as clairvoyance/clairaudience, scrying, or a crystal ball, you can choose to target a coin you have affected with gilded whispers instead of a creature or location (even if you would not otherwise be able to target an object), though any range limits on the scrying effect still apply. If the coin is held or carried by a creature, its owner receives any applicable saving throw against the effect. The caster of gilded whispers treats the coin as a familiar subject. The residual psychic impressions left upon the coin by other handlers help mask this dweomer from detection, protecting gilded whispers against location by detect magic, arcane sight, and similar effects unless the latter spell's caster succeeds on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast gilded whispers. The scrying sensor created by using a divination (scrying) spell to observe or listen to the coin's surroundings can be detected as normal."
 		]
@@ -109,7 +109,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Globe of Invulnerability\"}",
 			"",
-			"{SOURCE Mythic Adventures/96}",
+			"‹SOURCE Mythic Adventures/96›",
 			"",
 			"Add half your tier to the level of non-mythic spells the globe excludes. The globe excludes mythic spells of 4th level or lower.",
 			"",
@@ -154,7 +154,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/113\" conjuration creation shadowDesc arc=3 bld=3 mag=3 sor=3 wit=3 wiz=3 ctSt cV cS rMed effect=\"one or more bolts of energy\" durI save=\"Reflex negates, see text\" srY}",
 			"",
-			">*{race/Fetchling/s} have access to the following spell.*",
+			">*‹race/Fetchling«s› have access to the following spell.*",
 			"",
 			"You create one or more bolts of negative energy infused with shadow pulled from the Shadow Plane. You can fire one bolt, plus one for every four levels beyond 5th (to a maximum of three bolts at 13th level) at the same or different targets, but all bolts must be aimed at targets within 30 feet of each other and require a ranged touch attack to hit. Each bolt deals 4d6 points of damage to a living creature or heals 4d6 points of damage to an undead creature. Furthermore, the bolt's energy spreads over the skin of creature, possibly blinding it for a short time. Any creature struck by a bolt must succeed at a Reflex saving throw or become blinded for 1 round."
 		]
@@ -189,7 +189,7 @@
 			"",
 			"When casting the spell, you weave a tracery of faintly glowing lines around the warding sigil. A glyph can be placed to conform to any shape up to the limitations of your total square footage. When the spell is completed, the glyph and tracery become nearly invisible.",
 			"",
-			"Glyphs cannot be affected or bypassed by such means as physical or magical probing, though they can be dispelled. {spell/Mislead}, {spell/polymorph}, and {spell/nondetection} (and similar magical effects) can fool a glyph, though nonmagical disguises and the like can't. {spell/Read magic} allows you to identify a glyph of warding with a DC 13 Knowledge (arcana) check. Identifying the glyph does not discharge it and allows you to know the basic nature of the glyph (version, type of damage caused, what spell is stored).",
+			"Glyphs cannot be affected or bypassed by such means as physical or magical probing, though they can be dispelled. ‹spell/Mislead›, ‹spell/polymorph›, and ‹spell/nondetection› (and similar magical effects) can fool a glyph, though nonmagical disguises and the like can't. ‹spell/Read magic› allows you to identify a glyph of warding with a DC 13 Knowledge (arcana) check. Identifying the glyph does not discharge it and allows you to know the basic nature of the glyph (version, type of damage caused, what spell is stored).",
 			"",
 			"*Note:* Magic traps such as glyph of warding are hard to detect and disable. While any character can use Perception to find a glyph, only a character with the trapfinding class feature can use Disable Device to disarm it. The DC in each case is 25 + spell level, or 28 for glyph of warding.",
 			"",
@@ -201,7 +201,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Glyph of Warding\"}",
 			"",
-			"{SOURCE Mythic Adventures/96}",
+			"‹SOURCE Mythic Adventures/96›",
 			"",
 			"Add your tier to the DC to detect or disable the glyph. Blast glyph damage increases to 1d6 points of damage per caster level (maximum 20d6). Add half your tier to the maximum spell level you can store in a spell glyph.",
 			"",
@@ -213,7 +213,7 @@
 			"",
 			"This spell functions like glyph of warding, except that a greater blast glyph deals up to 10d8 points of damage, and a greater spell glyph can store a spell of 6th level or lower.",
 			"",
-			"{spell/Read magic} allows you to identify a greater glyph of warding with a DC 16 Spellcraft check.",
+			"‹spell/Read magic› allows you to identify a greater glyph of warding with a DC 16 Spellcraft check.",
 			"",
 			"*Material Component:* You trace the glyph with incense, which must first be sprinkled with powdered diamond worth at least 400 gp."
 		]
@@ -231,7 +231,7 @@
 			"",
 			"::spell{source=\"Agents of Evil/31\" transmutation arc=3 brd=2 skd=2 sor=3 wit=3 wiz=3 ctSt cV cS cMp=\"10 gold pieces\" rClose target=\"one object weighing no more than 5 lbs./level\" durML=1 will svHarmless srY}",
 			"",
-			"You cause an object to briefly transform into gold. Affected items gain the properties of gold until the spell expires. Weapons reduce their hardness by half and gain the {misc/fragile} quality, while piercing and slashing weapons take a -2 penalty on damage rolls (minimum 1 damage). This spell increases the affected item's armor check penalty by 2 and decreases its armor or shield bonus by 2. Gold armor has hardness 5."
+			"You cause an object to briefly transform into gold. Affected items gain the properties of gold until the spell expires. Weapons reduce their hardness by half and gain the ‹misc/fragile› quality, while piercing and slashing weapons take a -2 penalty on damage rolls (minimum 1 damage). This spell increases the affected item's armor check penalty by 2 and decreases its armor or shield bonus by 2. Gold armor has hardness 5."
 		]
 	},
 	"good_hope": {
@@ -244,7 +244,7 @@
 			"",
 			"This spell instills powerful hope in the subjects. Each affected creature gains a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls.",
 			"",
-			"Good hope counters and dispels {spell/crushing despair}."
+			"Good hope counters and dispels ‹spell/crushing despair›."
 		]
 	},
 	"goodberry": {
@@ -262,7 +262,7 @@
 			"",
 			":::mythic{title=\"Mythic Goodberry\"}",
 			"",
-			"{SOURCE Mythic Adventures/96}  ",
+			"‹SOURCE Mythic Adventures/96›  ",
 			"Each berry provides a full day's nourishment and counts as 1 hour of complete rest for the purpose of removing exhaustion, fatigue, or nonlethal damage.",
 			"",
 			"*Augmented (2nd):* You can cast the spell to affect only one berry, imbuing into that berry any harmless druid spell you have prepared. The spell remains stored in the berry for the duration of the goodberry spell or until the berry is consumed. A creature that eats the berry gains the benefits of that spell as if you had cast it upon her. The maximum level of the imbued spell is equal to half your tier, and you must expend one use of mythic power for each spell level of the imbued spell (in addition to the one use needed to cast mythic goodberry). Similar to imbue with spell ability, you can't prepare a spell in that spell's slot until the berry is consumed or the mythic goodberry spell ends.",
@@ -286,7 +286,7 @@
 			"",
 			":::mythic{title=\"Mythic Gorum's Armor\"}",
 			"",
-			"{SOURCE Mythic Origins/12}  ",
+			"‹SOURCE Mythic Origins/12›  ",
 			"The damage to attackers increases to 1d4 points of piercing damage and affects creatures that attack the wearer with a melee weapon, an unarmed strike, or a natural weapon. Melee weapons with reach do not endanger a creature in this way. If you're wearing the armor and are taking bleed damage, the spikes lengthen and grow wicked barbs-this increases their damage against foes that strike you to 1d6 + 1/2 your caster level (maximum +5), and the spikes deal 1 point of bleed damage to any foe damaged by them. When your bleeding stops, the spikes immediately return to their normal size and any bleed effects caused by the armor end.",
 			"",
 			":::"
@@ -373,7 +373,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/291\" force evocation arc=7 psy=7 sor=7 wiz=7 ctSt cV cS cFp=\"a soft glove\" rMed effect=\"10-ft. hand\" durD durRL=1 saveNo srY}",
 			"",
-			"This spell functions as {spell/interposing hand}, except that it can also grapple one opponent you select. The grasping hand gets one grapple attack per round. This attack does not provoke an attack of opportunity. Its CMB and CMD for grapple checks use your caster level in place of its base attack bonus, with a +10 bonus for its Strength (31) score and a +1 bonus for being Large (its Dexterity is 10, granting no bonus on the Combat Maneuver Defense). The hand holds but does not harm creatures that it grapples. Directing the spell to a new target is a move action. The grasping hand can instead be directed to bull rush a target, using the same bonuses outlined above, or it can be directed to interpose itself, as interposing hand does."
+			"This spell functions as ‹spell/interposing hand›, except that it can also grapple one opponent you select. The grasping hand gets one grapple attack per round. This attack does not provoke an attack of opportunity. Its CMB and CMD for grapple checks use your caster level in place of its base attack bonus, with a +10 bonus for its Strength (31) score and a +1 bonus for being Large (its Dexterity is 10, granting no bonus on the Combat Maneuver Defense). The hand holds but does not harm creatures that it grapples. Directing the spell to a new target is a move action. The grasping hand can instead be directed to bull rush a target, using the same bonuses outlined above, or it can be directed to interpose itself, as interposing hand does."
 		]
 	},
 	"grasping_vine": {
@@ -384,7 +384,7 @@
 			"",
 			"::spell{source=\"Ultimate Wilderness/25\" transmutation alc=2 arc=2 drd=2 hnt=2 inv=2 occ=2 rgr=2 sha=2 sor=2 wit=2 wiz=2 ctSt cV cS rPers target=you durML=1 durD}",
 			"",
-			">*{race/Vine leshy/s} have access to the following spell.*",
+			">*‹race/Vine leshy«s› have access to the following spell.*",
 			"",
 			"You cause a long, thin vine to sprout from your body - typically from the center of your chest or from the palm of an outstretched hand. As a standard action, you can direct the end of the vine to move to any square within 20 feet of you and perform one of the following tasks: deliver a touch spell that you cast after the vine has grown, pick up an unattended object weighing 20 pounds or less, give a held object to another creature, attempt to disable a trap or lock using your Disable Device modifier with a -2 penalty, or perform any other task that the GM deems reasonable. The vine does not threaten squares and cannot make attacks of opportunity, nor can it wield weapons."
 		]
@@ -423,7 +423,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/226\" transmutation arc=1 hnt=1 occ=1 rgr=1 rma=1 sor=1 wiz=1 ctSt cV cS rPers target=you durML=1 durD}",
 			"",
-			"Gravity bow significantly increases the weight and density of arrows or bolts fired from your bow or crossbow the instant before they strike their target and then return them to normal a few moments later. Any arrow fired from a bow or crossbow you are carrying when the spell is cast deals damage as if {misc/one size category larger} than it actually is. For instance, an arrow fired from a Medium longbow normally deals 1d8 points of damage, but it would instead deal 2d6 points of damage if fired from a gravity bow. Only you can benefit from this spell. If anyone else uses your bow to make an attack the arrows deal damage as normal for their size."
+			"Gravity bow significantly increases the weight and density of arrows or bolts fired from your bow or crossbow the instant before they strike their target and then return them to normal a few moments later. Any arrow fired from a bow or crossbow you are carrying when the spell is cast deals damage as if ‹misc/one size category larger› than it actually is. For instance, an arrow fired from a Medium longbow normally deals 1d8 points of damage, but it would instead deal 2d6 points of damage if fired from a gravity bow. Only you can benefit from this spell. If anyone else uses your bow to make an attack the arrows deal damage as normal for their size."
 		]
 	},
 	"gravity_sphere": {
@@ -438,9 +438,9 @@
 			"",
 			"Creatures that fall within the area of a gravity sphere spell take more damage from the fall if the gravity within is higher and less damage if the gravity within is lower. However, if the creature falls through a gravity sphere and continues to fall in a non-affected area, the rest of the fall damage is calculated normally. For instance, if a creature falls through 20 feet of a lowgravity sphere and an additional 30 feet outside the sphere, it would take 1d6 points of damage for the 20 feet of low gravity plus 3d6 points of damage as normal for the 30 feet outside the sphere (for a total of 4d6 points of damage).",
 			"",
-			"This spell doesn't counteract or negate the effects of other spells that affect gravity; both effects occur simultaneously. For instance, a no-gravity gravity sphere spell cast within the area of a {spell/reverse gravity} spell would simply mean that creatures float about until the gravity sphere's duration expires or they exit the gravity sphere, at which point they return to the top of the reverse gravity effect's area. If both gravity-altering magical effects could not feasibly take place simultaneously (at the GM's discretion), the gravity sphere spell supersedes the previous effect (if it's higher-level than the previous effect) or simply fails (if it's lower-level).",
+			"This spell doesn't counteract or negate the effects of other spells that affect gravity; both effects occur simultaneously. For instance, a no-gravity gravity sphere spell cast within the area of a ‹spell/reverse gravity› spell would simply mean that creatures float about until the gravity sphere's duration expires or they exit the gravity sphere, at which point they return to the top of the reverse gravity effect's area. If both gravity-altering magical effects could not feasibly take place simultaneously (at the GM's discretion), the gravity sphere spell supersedes the previous effect (if it's higher-level than the previous effect) or simply fails (if it's lower-level).",
 			"",
-			"{SOURCE People of the Stars/18}",
+			"‹SOURCE People of the Stars/18›",
 			"",
 			"**Standard Gravity (&times;1):** The gravity mimics that of Golarion.",
 			"",
@@ -459,7 +459,7 @@
 			"",
 			"::spell{source=\"Dragonslayer's Handbook/29\" transmutation arc=5 drd=6 hnt=6 sor=5 wiz=5 ctSt cV cS cMp=\"a small lead weight\" rMed target=\"one creature\" durD durRL=1 fort srN}",
 			"",
-			"You bring into being a localized region of increased gravity that crushes a creature to the ground. Affected targets weigh twice as much as normal, can move only at half speed, jump only half as far as normal, and can lift and carry only half as much as normal. Any flying target has its maneuverability worsened by two steps (from good to poor, for example; minimum clumsy) and plummets to the ground unless it succeeds at a DC 25 Fly check to remain in the air. {spell/Freedom of movement} negates the effects of this spell. A creature targeted by gravity well behaves normally in the area of a reverse gravity spell."
+			"You bring into being a localized region of increased gravity that crushes a creature to the ground. Affected targets weigh twice as much as normal, can move only at half speed, jump only half as far as normal, and can lift and carry only half as much as normal. Any flying target has its maneuverability worsened by two steps (from good to poor, for example; minimum clumsy) and plummets to the ground unless it succeeds at a DC 25 Fly check to remain in the air. ‹spell/Freedom of movement› negates the effects of this spell. A creature targeted by gravity well behaves normally in the area of a reverse gravity spell."
 		]
 	},
 	"grease": {
@@ -474,13 +474,13 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/291\" conjuration creation arc=1 brd=1 mag=1 mes=1 skd=1 sor=1 sum=1 usm=1 wiz=1 ctSt cV cS cMp=butter rClose target=\"one object or 10-ft. square\" durML=1 durD save=\"see text\" srN}",
 			"",
-			"A grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when the spell is cast must make a successful Reflex save or fall. A creature can walk within or through the area of grease at half normal speed with a DC 10 Acrobatics check. Failure means it can't move that round (and must then make a Reflex save or fall), while failure by 5 or more means it falls (see the {skill/Acrobatics} skill for details). Creatures that do not move on their turn do not need to make this check and are not considered flat-footed.",
+			"A grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when the spell is cast must make a successful Reflex save or fall. A creature can walk within or through the area of grease at half normal speed with a DC 10 Acrobatics check. Failure means it can't move that round (and must then make a Reflex save or fall), while failure by 5 or more means it falls (see the ‹skill/Acrobatics› skill for details). Creatures that do not move on their turn do not need to make this check and are not considered flat-footed.",
 			"",
 			"The spell can also be used to create a greasy coating on an item. Material objects not in use are always affected by this spell, while an object wielded or employed by a creature requires its bearer to make a Reflex saving throw to avoid the effect. If the initial saving throw fails, the creature immediately drops the item. A saving throw must be made in each round that the creature attempts to pick up or use the greased item. A creature wearing greased armor or clothing gains a +10 circumstance bonus on Escape Artist checks and combat maneuver checks made to escape a grapple, and to their CMD to avoid being grappled.",
 			"",
 			":::mythic{jl title=\"Mythic Grease\"}",
 			"",
-			"{SOURCE Mythic Adventures/96}",
+			"‹SOURCE Mythic Adventures/96›",
 			"",
 			"If you cast mythic grease on an area, add your tier to the Acrobatics DC to move within or through the area. If you cast it on a creature's armor or clothing, add your tier to its Escape Artist checks and combat maneuver checks attempted to escape a grapple and to its CMD to avoid being grappled.",
 			"",
@@ -512,9 +512,9 @@
 			"",
 			"If the damage to any single ability score equals or exceeds that score, the target fully transforms into a normal small tree or shrub. This final transformation is instantaneous, ending green caress. The target remains alive but is considered the same as a regular tree, shrub, or other vegetation. Any ability damage from other sources, like poison or disease, also applies toward transforming the creature. If the target retains at least 1 point in all of its physical ability scores at the end of 7 days, the final transformation doesn't occur and the spell ends. Any changes in appearance gradually reverse themselves as the ability damage heals.",
 			"",
-			"{spell/Break enchantment}, {spell/dispel magic}, and {spell/remove curse} can end the spell before the duration expires, but the spell is contagious. If a caster level check attempt to remove green caress fails by 5 or more, the creature who attempted to remove the effect must attempt a Fortitude saving throw as if it had just been targeted with the spell. If the spell's target attempts to remove the effect from itself and fails, it causes the spell to behave as if affected by {spell/plant growth} (as described below).",
+			"‹spell/Break enchantment›, ‹spell/dispel magic›, and ‹spell/remove curse› can end the spell before the duration expires, but the spell is contagious. If a caster level check attempt to remove green caress fails by 5 or more, the creature who attempted to remove the effect must attempt a Fortitude saving throw as if it had just been targeted with the spell. If the spell's target attempts to remove the effect from itself and fails, it causes the spell to behave as if affected by ‹spell/plant growth› (as described below).",
 			"",
-			"{spell/Polymorph any object} ends the spell and totally restores the target without any risk to the caster, even after the target has been finally transformed, as do {spell/limited wish}, {spell/miracle}, and {spell/wish} (treat polymorph any object as if it had an instantaneous duration if it is used in this way). If the target is in the area of a plant growth spell as it is cast, it must attempt a Fortitude save at green caress's DC or immediately take another 1d4 points of ability damage to each physical ability score; this stacks with multiple castings of plant growth. If the target is in the area of {spell/diminish plants} as it is cast, it ignores the next ability damage from green caress to one of its three physical ability scores (chosen randomly); this doesn't stack with multiple castings of diminish plants."
+			"‹spell/Polymorph any object› ends the spell and totally restores the target without any risk to the caster, even after the target has been finally transformed, as do ‹spell/limited wish›, ‹spell/miracle›, and ‹spell/wish› (treat polymorph any object as if it had an instantaneous duration if it is used in this way). If the target is in the area of a plant growth spell as it is cast, it must attempt a Fortitude save at green caress's DC or immediately take another 1d4 points of ability damage to each physical ability score; this stacks with multiple castings of plant growth. If the target is in the area of ‹spell/diminish plants› as it is cast, it ignores the next ability damage from green caress to one of its three physical ability scores (chosen randomly); this doesn't stack with multiple castings of diminish plants."
 		]
 	},
 	"greensight": {
@@ -558,7 +558,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/19\" earth transmutation clr=2 drd=2 hnt=2 mag=2 orc=2 rgr=2 war=2 ctSt cV cS rTouch target=\"creature touched\" durML=1}",
 			"",
-			">*{race/Dwarven} spellcasters are renowned for shaping the ground beneath them, molding metal, and using magic to aid their craft. This spell one of several samples of such magics.*",
+			">*‹race/Dwarven› spellcasters are renowned for shaping the ground beneath them, molding metal, and using magic to aid their craft. This spell one of several samples of such magics.*",
 			"",
 			"This spell allows the target to cause the ground to rise up beneath him. As a swift action, the target can cause the ground to rise 5 feet, while all adjacent squares are treated as steep slopes. The groundswell precludes flanking from creatures standing at lower elevations than the target. If the target moves after creating a groundswell, the ground returns to its normal elevation at the end of his turn; otherwise, it remains in place until the target moves or uses a swift action to return the ground to normal. A groundswell cannot increase elevation of the ground beyond 5 feet."
 		]
@@ -573,7 +573,7 @@
 			"",
 			"You conjure a sheltered grove of trees surrounding a shallow spring. The grove appears from nowhere even in the most barren, rocky soil regardless of season, but the spell must be cast outside on open ground.",
 			"",
-			"The area within the grove is temperate and comfortable, like that of a tiny hut, although the grove provides no illumination and provides no protection from the elements. The water in the grove's spring is clean and drinkable. Additionally, the trees provide a variety of ripe fruit, regardless of season, which acts as a {spell/goodberry} spell for up to eight people. The grove is warded with an alarm spell that alerts you whenever any creature enters the area. Once the spell expires, the grove vanishes, including all fruit, water, and other materials from it, although any nourishment or healing gained from its effects remains."
+			"The area within the grove is temperate and comfortable, like that of a tiny hut, although the grove provides no illumination and provides no protection from the elements. The water in the grove's spring is clean and drinkable. Additionally, the trees provide a variety of ripe fruit, regardless of season, which acts as a ‹spell/goodberry› spell for up to eight people. The grove is warded with an alarm spell that alerts you whenever any creature enters the area. Once the spell expires, the grove vanishes, including all fruit, water, and other materials from it, although any nourishment or healing gained from its effects remains."
 		]
 	},
 	"guardian_armor": {
@@ -618,9 +618,9 @@
 		"description": [
 			"## Guardian of Faith",
 			"",
-			"::spell{source=\"Advanced Class Guide/183\" school=\"%%spelldef/abjuration%% &#91&see text&#93&\" clr=4 orc=4 pal=4 war=4 ctSt cV cS cMp=\"parchment with a holy text written on it\" rClose target=\"one ally\" durML=1 will svHarmless srN}",
+			"::spell{source=\"Advanced Class Guide/183\" school=\"‹spelldef/abjuration› &#91&see text&#93&\" clr=4 orc=4 pal=4 war=4 ctSt cV cS cMp=\"parchment with a holy text written on it\" rClose target=\"one ally\" durML=1 will svHarmless srN}",
 			"",
-			"The target gains the benefit of {spell/shield of faith} and your choice of {spell/protection from chaos, evil, good,[ or] law}. As a move action, the target can transfer this spell to a touched ally, who becomes the new target of the spell.",
+			"The target gains the benefit of ‹spell/shield of faith› and your choice of ‹spell/protection from chaos, evil, good,« or» law›. As a move action, the target can transfer this spell to a touched ally, who becomes the new target of the spell.",
 			"",
 			"The alignment descriptor of this spell matches the alignment descriptor of the protection spell you chose when casting it. For example, granting the target protection from evil gives this spell the good descriptor."
 		]
@@ -633,7 +633,7 @@
 			"",
 			"::spell{source=\"Monster Hunter's Handbook/30\" abjuration alc=3 arc=3 brd=3 clr=3 inq=2 inv=3 occ=3 orc=3 psy=3 skd=3 sor=3 war=3 wiz=3 ctSt cV cS cMDFp=\"see text\" rPers target=you durML=1 durD}",
 			"",
-			"Upon casting this spell, choose a specific variety of monster ({family/red dragon} rather than {family/dragon}) and one of its special attacks that you have successfully identified with a Knowledge check or otherwise researched, such as a {monster/cockatrice/'s} petrification ability or a spider swarm's poison. You gain a +4 insight bonus on saving throws against the selected special attack. The bonus does not apply to saves against other monsters' abilities of the same name, spell-like abilities, or special attacks derived from class levels or equipment. If you use a trophy from a monster of the exact same variety as an optional material component, the bonus increases to +6."
+			"Upon casting this spell, choose a specific variety of monster (‹family/red dragon› rather than ‹family/dragon›) and one of its special attacks that you have successfully identified with a Knowledge check or otherwise researched, such as a ‹monster/cockatrice«'s› petrification ability or a spider swarm's poison. You gain a +4 insight bonus on saving throws against the selected special attack. The bonus does not apply to saves against other monsters' abilities of the same name, spell-like abilities, or special attacks derived from class levels or equipment. If you use a trophy from a monster of the exact same variety as an optional material component, the bonus increases to +6."
 		]
 	},
 	"guards_and_wards": {
@@ -661,26 +661,26 @@
 			"",
 			"In addition, you can place your choice of one of the following five magical effects.",
 			"",
-			"1. {spell/Dancing lights} in four corridors. You can designate a simple program that causes the lights to repeat as long as the guards and wards spell lasts. *Saving Throw:* none. *Spell Resistance:* no.",
-			"2. A {spell/magic mouth} in two places. *Saving Throw:* none. *Spell Resistance:* no.",
-			"3. A {spell/stinking cloud} in two places. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while the guards and wards spell lasts. *Saving Throw:* Fortitude negates; see text for stinking cloud. *Spell Resistance:* no.",
-			"4. A {spell/gust of wind} in one corridor or room. *Saving Throw:* Fortitude negates. *Spell Resistance:* yes.",
-			"5. A {spell/suggestion} in one place. You select an area of up to 5 feet square, and any creature who enters or passes through the area receives the suggestion mentally. *Saving Throw:* Will negates. *Spell Resistance:* yes.",
+			"1. ‹spell/Dancing lights› in four corridors. You can designate a simple program that causes the lights to repeat as long as the guards and wards spell lasts. *Saving Throw:* none. *Spell Resistance:* no.",
+			"2. A ‹spell/magic mouth› in two places. *Saving Throw:* none. *Spell Resistance:* no.",
+			"3. A ‹spell/stinking cloud› in two places. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while the guards and wards spell lasts. *Saving Throw:* Fortitude negates; see text for stinking cloud. *Spell Resistance:* no.",
+			"4. A ‹spell/gust of wind› in one corridor or room. *Saving Throw:* Fortitude negates. *Spell Resistance:* yes.",
+			"5. A ‹spell/suggestion› in one place. You select an area of up to 5 feet square, and any creature who enters or passes through the area receives the suggestion mentally. *Saving Throw:* Will negates. *Spell Resistance:* yes.",
 			"",
-			"The whole warded area radiates strong magic of the abjuration school. A {spell/dispel magic} cast on a specific effect, if successful, removes only that effect. A successful mage's disjunction destroys the entire guards and wards effect.",
+			"The whole warded area radiates strong magic of the abjuration school. A ‹spell/dispel magic› cast on a specific effect, if successful, removes only that effect. A successful mage's disjunction destroys the entire guards and wards effect.",
 			"",
 			":::mythic{title=\"Mythic Guards and Wards\"}",
 			"",
-			"{SOURCE Mythic Adventures/97}  ",
+			"‹SOURCE Mythic Adventures/97›  ",
 			"You are alerted whenever any creature enters the warded area as if by a mental alarm spell as long as you're on the same plane as the warded area. At will, you can concentrate to observe the warded area as if using arcane eye. When you start concentrating, the sensor always appears at a point you designate when you cast the spell. You can place two of the five effects listed in the spell (dancing lights and so on) instead of one.",
 			"",
 			"*Augmented (3rd):* You can place the following effects anywhere within the warded area by expending one additional use of mythic power per effect.",
 			"",
-			"6. {spell/Black tentacles} in one place, returning after 10 minutes if dispelled.",
-			"7. {spell/Dispel magic} in one place. You select an area up to 5 feet square, and any creature that enters or passes through the area is targeted by the spell. *Saving Throw:* Will negates. *Spell Resistance:* yes.",
-			"8. {spell/Entangle} in four places, returning in 10 minutes if dispelled.",
-			"9. {spell/Explosive runes} in three places, returning in 10 minutes if activated or dispelled.",
-			"10. {spell/Slow} in three places, returning in 10 minutes if dispelled.",
+			"6. ‹spell/Black tentacles› in one place, returning after 10 minutes if dispelled.",
+			"7. ‹spell/Dispel magic› in one place. You select an area up to 5 feet square, and any creature that enters or passes through the area is targeted by the spell. *Saving Throw:* Will negates. *Spell Resistance:* yes.",
+			"8. ‹spell/Entangle› in four places, returning in 10 minutes if dispelled.",
+			"9. ‹spell/Explosive runes› in three places, returning in 10 minutes if activated or dispelled.",
+			"10. ‹spell/Slow› in three places, returning in 10 minutes if dispelled.",
 			"",
 			":::"
 		]
@@ -750,13 +750,13 @@
 			"",
 			"In addition to the effects noted, a gust of wind can do anything that a sudden blast of wind would be expected to do. It can create a stinging spray of sand or dust, fan a large fire, overturn delicate awnings or hangings, heel over a small boat, and blow gases or vapors to the edge of its range.",
 			"",
-			"Gust of wind can be made permanent with a {spell/permanency} spell.",
+			"Gust of wind can be made permanent with a ‹spell/permanency› spell.",
 			"",
 			":::mythic{jl title=\"Mythic Gust of Wind\"}",
 			"",
-			"{SOURCE Mythic Adventures/97}",
+			"‹SOURCE Mythic Adventures/97›",
 			"",
-			"The force of the wind increases to {rule/winds/torm} (approximately 70 mph). All effects described in the spell affect creatures one size larger. Ranged attacks can't be attempted in the area of the spell. The wind automatically blows out unprotected flames and has a 75% chance of blowing out protected flames.",
+			"The force of the wind increases to ‹rule/winds«torm› (approximately 70 mph). All effects described in the spell affect creatures one size larger. Ranged attacks can't be attempted in the area of the spell. The wind automatically blows out unprotected flames and has a 75% chance of blowing out protected flames.",
 			"",
 			"*Augmented (2nd):* If you expend two uses of mythic power, the spell lasts for 1 additional round and the range increases by 30 feet. As a swift action at the start of your turn, you can expend another use of mythic power to extend the duration by 1 round and the range by another 30 feet.",
 			"",
@@ -781,7 +781,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/160\" air evocation arc=2 bld=2 drd=2 hnt=2 mag=2 sor=2 wiz=2 ctSt cV cS rMed effect=\"5-ft.-diameter sphere of air\" durRL=1 save=\"Fortitude negates (object) or Reflex negates, see text\" srY}",
 			"",
-			">*{race/Sylph/s} have access to the following spell.*",
+			">*‹race/Sylph«s› have access to the following spell.*",
 			"",
 			"A swirling ball of wind rolls in whichever direction you point, hurling those it strikes with great force. The sphere is treated in all ways as an area of severe wind, applying a -4 penalty on ranged weapon attacks that pass through it. The sphere moves 30 feet per round. As part of this movement, it can ascend or jump up to 30 feet to strike a target. If it enters a space containing a Medium or smaller creature, it stops moving for that round and generates a sharp thrust of wind to bull rush the creature. The sphere's CMB for bull rush combat maneuvers uses your caster level in place of its base attack bonus, with a +2 bonus for its Strength score (14). Whether or not the bull rush is successful, the creature takes 1d6 points of nonlethal bludgeoning damage from the attack. If the bull rush fails, the creature is still subject to the severe winds from the sphere as long as they remain in the same square as it. A gusting sphere rolls over objects or barriers that are less than 4 feet tall.",
 			"",
@@ -823,7 +823,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/59\" transmutation alc=5 arc=5 clr=5 drd=5 hnt=5 inv=5 orc=5 psy=5 sor=5 war=5 wit=5 wiz=5 ctH=1 cV cS cMDFp=\"oils and poisons worth 3,000 gp\" rTouch target=\"willing half-orc touched\" durI saveNo srN}",
 			"",
-			">*{race/Half-orc/s} have access to the following spell.*",
+			">*‹race/Half-orc«s› have access to the following spell.*",
 			"",
 			"You transform the target half-orc into a full-blooded orc. The target loses all of its half-orc racial traits and gains the orc racial traits."
 		]
@@ -869,7 +869,7 @@
 			"",
 			"Hallow makes a particular site, building, or structure a holy site. This has four major effects.",
 			"",
-			"First, the site is warded by a {spell/magic circle against evil} effect.",
+			"First, the site is warded by a ‹spell/magic circle against evil› effect.",
 			"",
 			"Second, the DC to resist positive channeled energy within this area gains a +4 sacred bonus and the DC to resist negative energy is reduced by 4. Spell resistance does not apply to this effect. This provision does not apply to the druid version of the spell.",
 			"",
@@ -877,9 +877,9 @@
 			"",
 			"Finally, you can fix a single spell effect to the hallowed site. The spell effect lasts for 1 year and functions throughout the entire site, regardless of the normal duration and area or effect. You may designate whether the effect applies to all creatures, creatures who share your faith or alignment, or creatures who adhere to another faith or alignment. At the end of the year, the chosen effect lapses, but it can be renewed or replaced simply by casting hallow again.",
 			"",
-			"Spell effects that may be tied to a hallowed site include {spell/aid}, {spell/bane}, {spell/bless}, {spell/cause fear}, {spell/darkness}, {spell/daylight}, {spell/death ward}, {spell/deeper darkness}, {spell/detect evil}, {spell/detect magic}, {spell/dimensional anchor}, {spell/discern lies}, {spell/dispel magic}, {spell/endure elements}, {spell/freedom of movement}, {spell/invisibility purge}, {spell/protection from energy}, {spell/remove fear}, {spell/resist energy}, {spell/silence}, {spell/tongues}, and {spell/zone of truth}. Saving throws and spell resistance might apply to these spells' effects. (See the individual spell descriptions for details.)",
+			"Spell effects that may be tied to a hallowed site include ‹spell/aid›, ‹spell/bane›, ‹spell/bless›, ‹spell/cause fear›, ‹spell/darkness›, ‹spell/daylight›, ‹spell/death ward›, ‹spell/deeper darkness›, ‹spell/detect evil›, ‹spell/detect magic›, ‹spell/dimensional anchor›, ‹spell/discern lies›, ‹spell/dispel magic›, ‹spell/endure elements›, ‹spell/freedom of movement›, ‹spell/invisibility purge›, ‹spell/protection from energy›, ‹spell/remove fear›, ‹spell/resist energy›, ‹spell/silence›, ‹spell/tongues›, and ‹spell/zone of truth›. Saving throws and spell resistance might apply to these spells' effects. (See the individual spell descriptions for details.)",
 			"",
-			"An area can receive only one hallow spell (and its associated spell effect) at a time. Hallow counters but does not dispel {spell/unhallow}."
+			"An area can receive only one hallow spell (and its associated spell effect) at a time. Hallow counters but does not dispel ‹spell/unhallow›."
 		]
 	},
 	"hallucinatory_decor": {
@@ -929,7 +929,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/293\" necromancy arc=3 inq=3 sor=3 wiz=3 ctSt cV cS cMp=\"a pinch of sulfur and powdered garlic\" rMed targets=\"up to three undead creatures, no two of which can be more than 30 ft. apart\" durRL=1 save=\"Will negates (see text)\" srY}",
 			"",
-			"This spell renders as many as three undead creatures immobile. A nonintelligent undead creature gets no saving throw; an intelligent undead creature does. If the spell is successful, it renders the undead creature immobile for the duration of the spell (similar to the effect of {spell/hold person} on a living creature). The effect is broken if the halted creatures are attacked or take damage."
+			"This spell renders as many as three undead creatures immobile. A nonintelligent undead creature gets no saving throw; an intelligent undead creature does. If the spell is successful, it renders the undead creature immobile for the duration of the spell (similar to the effect of ‹spell/hold person› on a living creature). The effect is broken if the halted creatures are attacked or take damage."
 		]
 	},
 	"hammer_of_mending": {
@@ -1003,7 +1003,7 @@
 			"",
 			":::mythic{title=\"Mythic Harm\"}",
 			"",
-			"{SOURCE Mythic Adventures/97}  ",
+			"‹SOURCE Mythic Adventures/97›  ",
 			"The damage dealt increases to 15 points of damage per caster level (maximum 225 points).",
 			"",
 			"*Augmented:* If you expend two uses of mythic power, the spell also acts as poison.",
@@ -1019,7 +1019,7 @@
 			"",
 			"::spell{source=\"Heroes of the Streets/23\" polymorph transmutation arc=2 drd=2 hnt=2 rgr=2 sha=2 sor=2 wit=2 wiz=2 ctSt cV cS rTouch target=\"one willing animal companion, familiar, or spirit animal\" durH=8 durD fort srY harmless}",
 			"",
-			"You transform the target into a harmless animal of the same approximate body type. The form assumed must be one considered unobtrusive by local communities, such as a cat, a dog, a hunting hawk, a horse, or a rat. This transformation can reduce the target by up to two size categories, but cannot make an animal smaller than Tiny. It cannot increase the size of the target or give it new natural attacks or new forms of movement. The spell otherwise functions as {spell/beast shape II}."
+			"You transform the target into a harmless animal of the same approximate body type. The form assumed must be one considered unobtrusive by local communities, such as a cat, a dog, a hunting hawk, a horse, or a rat. This transformation can reduce the target by up to two size categories, but cannot make an animal smaller than Tiny. It cannot increase the size of the target or give it new natural attacks or new forms of movement. The spell otherwise functions as ‹spell/beast shape II›."
 		]
 	},
 	"harrowing": {
@@ -1069,7 +1069,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Harrowing\"}",
 			"",
-			"{SOURCE Mythic Origins/12}",
+			"‹SOURCE Mythic Origins/12›",
 			"",
 			"The bonuses and penalties associated with your reading are doubled, resulting in a +4 luck bonus if the card's and target's alignment are identical, a -2 penalty if the alignments are opposite, and a +2 luck bonus for any other alignment. You can use each bonus twice-once at this doubled value, the second time at the normal value (+2 or +1). You must use a given card's doubled bonus before you can use its lower bonus. Once you have used both bonuses, or when the spell's duration ends, the spell ends and any penalties are removed.",
 			"",
@@ -1089,7 +1089,7 @@
 			"",
 			"*Hammers:* As a standard action, you can grant yourself a +4 enhancement bonus to Strength for 1 minute. While this bonus persists, you can reroll any bull rush, grapple, or sunder combat maneuver checks. You must use the result of this second roll, even if it is worse.",
 			"",
-			"*Keys:* As a standard action, you can grant yourself a +4 enhancement bonus to Dexterity for 1 minute. While this bonus persists, you gain {ability/evasion}, as the rogue class feature. If you already possess evasion, you instead gain {talent/improved evasion}, as the advanced rogue talent.",
+			"*Keys:* As a standard action, you can grant yourself a +4 enhancement bonus to Dexterity for 1 minute. While this bonus persists, you gain ‹ability/evasion›, as the rogue class feature. If you already possess evasion, you instead gain ‹talent/improved evasion›, as the advanced rogue talent.",
 			"",
 			"*Shields:* As a standard action, you can grant yourself a +4 enhancement bonus to Constitution for 1 minute. While this bonus persists, you gain fast healing 1 and don't die until you reach a number of negative hit points equal to double your Constitution.",
 			"",
@@ -1146,11 +1146,11 @@
 			"",
 			"A hasted creature gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and Reflex saves. Any condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses.",
 			"",
-			"All of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed. Multiple haste effects don't stack. Haste dispels and counters {spell/slow}.",
+			"All of the hasted creature's modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's normal speed using that form of movement. This increase counts as an enhancement bonus, and it affects the creature's jumping distance as normal for increased speed. Multiple haste effects don't stack. Haste dispels and counters ‹spell/slow›.",
 			"",
 			":::mythic{title=\"Mythic Haste\"}",
 			"",
-			"{SOURCE Mythic Adventures/97}  ",
+			"‹SOURCE Mythic Adventures/97›  ",
 			"Affected creatures gain an additional move action each round. The movement speed increase changes to 50 feet, to a maximum of three times the creature's normal speed for that movement type.",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, the movement speed increase changes to 70 feet, with no limit based on the creature's normal speed. If an affected creature moves at least 30 feet on its turn, it can travel across liquid as if the liquid were solid. If the liquid deals damage on contact, the creature takes only half damage from moving across it.",
@@ -1166,7 +1166,7 @@
 			"",
 			"::spell{source=\"Planar Adventures/40\" curse necromancy ant=4 arc=6 clr=5 drd=5 hnt=5 inq=4 orc=5 sor=6 spr=4 war=5 wit=5 wiz=6 ctSt cV cS cMp=\"2 silver pieces\" rTouch target=\"one living or corporeal undead creature\" durDL=1 will srY}",
 			"",
-			"This potent curse weighs upon the target's soul, hastening a living creature's journey to the Boneyard upon death or weakening an undead creature's animating force. A living creature that dies during the spell's duration cannot be affected by breath of life or similar effects, and the period during which attempts to restore the target to life can succeed is reduced to 1 hour/level (for {spell/raise dead}), 1 day/level (for {spell/resurrection}), or 10 days/level (for {spell/true resurrection}). Reincarnate and similar effects work normally on a creature killed under this spell's effects.",
+			"This potent curse weighs upon the target's soul, hastening a living creature's journey to the Boneyard upon death or weakening an undead creature's animating force. A living creature that dies during the spell's duration cannot be affected by breath of life or similar effects, and the period during which attempts to restore the target to life can succeed is reduced to 1 hour/level (for ‹spell/raise dead›), 1 day/level (for ‹spell/resurrection›), or 10 days/level (for ‹spell/true resurrection›). Reincarnate and similar effects work normally on a creature killed under this spell's effects.",
 			"",
 			"An undead creature affected by this spell cannot gain temporary hit points, and any existing channel resistance the undead may have is reduced by half as long as the curse persists.",
 			"",
@@ -1250,15 +1250,15 @@
 			"",
 			"Heal does not remove negative levels or restore permanently drained ability score points.",
 			"",
-			"If used against an undead creature, heal instead acts like {spell/harm}.",
+			"If used against an undead creature, heal instead acts like ‹spell/harm›.",
 			"",
 			":::mythic{jl title=\"Mythic Heal\"}",
 			"",
-			"{SOURCE Mythic Adventures/97}",
+			"‹SOURCE Mythic Adventures/97›",
 			"",
 			"The damage cured increases to 15 points of damage per caster level (maximum 225 points).",
 			"",
-			"*Augmented:* If you expend two uses of mythic power, the spell also acts as {spell/restoration}.",
+			"*Augmented:* If you expend two uses of mythic power, the spell also acts as ‹spell/restoration›.",
 			"",
 			":::",
 			"",
@@ -1308,7 +1308,7 @@
 			"",
 			"::spell{source=\"Plane-Hopper's Handbook/13\" necromancy ant=2 arc=3 clr=3 orc=3 pal=2 sha=3 war=3 wit=3 wiz=3 ctSt cV cS cMDFp=\"a piece of muslin\" rTouch target=\"creature touched\" durRL=1 will srY}",
 			"",
-			"Whenever the target is affected by a spell or effect that heals hit point damage through the use of positive or negative energy, it regains only half the number of hit points it normally would recover. If the target employs a spell or effect that heals itself or other creatures through the use of positive or negative energy, the target must succeed at a {rule/concentration} check (DC = this spell's save DC) or the effect restores only half of the normal number of hit points. Other forms of healing (such as from the Heal skill) are not affected by this spell."
+			"Whenever the target is affected by a spell or effect that heals hit point damage through the use of positive or negative energy, it regains only half the number of hit points it normally would recover. If the target employs a spell or effect that heals itself or other creatures through the use of positive or negative energy, the target must succeed at a ‹rule/concentration› check (DC = this spell's save DC) or the effect restores only half of the normal number of hit points. Other forms of healing (such as from the Heal skill) are not affected by this spell."
 		]
 	},
 	"healing_thief": {
@@ -1326,7 +1326,7 @@
 			"",
 			":::mythic{title=\"Mythic Healing Thief\"}",
 			"",
-			"{SOURCE Mythic Adventures/97}  ",
+			"‹SOURCE Mythic Adventures/97›  ",
 			"Instead of stealing half the target's healing, you steal all of it. The amount of damage you steal before the spell is discharged increases to 10 points per caster level (maximum 100 points).",
 			"",
 			"*Augmented:* If you expend two uses of mythic power, the range of the spell changes to close (25 feet + 5 feet per 2 caster levels). If the target has fast healing or regeneration, you steal half of its fast healing or regeneration. Healing from these abilities count toward the maximum healing stolen before the spell is discharged.",
@@ -1361,7 +1361,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/131\" abjuration alc=4 clr=4 drd=4 hnt=4 inq=4 inv=4 orc=4 psy=4 war=4 ctSt cV cS rPers target=you durML=1}",
 			"",
-			">*{race/Ifrit/s} have access to the following spell.*",
+			">*‹race/Ifrit«s› have access to the following spell.*",
 			"",
 			"This spell grants you temporary immunity to fire damage as protection from energy. As a standard action, you may sacrifice 12 points of remaining energy absorption from the spell to heal a touched creature of 1d8 points of damage. Healing a creature provokes an attack of opportunity. When the spell has absorbed 12 points of fire damage per caster level (to a maximum of 120 points at 10th level), it is discharged."
 		]
@@ -1374,7 +1374,7 @@
 			"",
 			"::spell{source=\"Dragonslayer's Handbook/29\" transmutation arc=8 clr=8 drd=8 orc=8 sor=8 wit=8 wiz=8 ctSt cV cS cFp=\"a fetish of mammoth hair soaked in dragon's blood\" rTouch target=\"creature touched\" durRL=1 save=\"Will (harmless)\" srN}",
 			"",
-			"The target creature becomes stronger, hardier, and imbued with the courage of the greatest megafauna of the tundra. The spell grants a +8 enhancement bonus to Strength and Constitution, immunity to fear, a +4 morale bonus to Will saves, and doubles the critical threat range of all its attacks against creatures of the dragon type (this does not stack with {feat/Improved Critical}, keen edge, or similar effects)."
+			"The target creature becomes stronger, hardier, and imbued with the courage of the greatest megafauna of the tundra. The spell grants a +8 enhancement bonus to Strength and Constitution, immunity to fear, a +4 morale bonus to Will saves, and doubles the critical threat range of all its attacks against creatures of the dragon type (this does not stack with ‹feat/Improved Critical›, keen edge, or similar effects)."
 		]
 	},
 	"heart_of_the_metal": {
@@ -1425,11 +1425,11 @@
 			"",
 			"Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis. If cast underwater, heat metal deals half damage and boils the surrounding water.",
 			"",
-			"Heat metal counters and dispels {spell/chill metal}.",
+			"Heat metal counters and dispels ‹spell/chill metal›.",
 			"",
 			":::mythic{title=\"Mythic Heat Metal\"}",
 			"",
-			"{SOURCE Mythic Adventures/97}  ",
+			"‹SOURCE Mythic Adventures/97›  ",
 			"The damage dealt increases to 1d8 points of fire damage on rounds 2 and 6 and to 2d8 points of fire damage per round on rounds 3 through 5. On any round in which a creature takes fire damage from this spell, that creature must succeed at a Reflex save or catch on fire.",
 			"",
 			":::"
@@ -1445,7 +1445,7 @@
 			"",
 			"A wavering red ray projects from your finger. You must succeed on a ranged touch attack with the ray to hit your target.",
 			"",
-			"The ray inflicts 1d4 points of nonlethal damage, causing the target to suffer from heatstroke as its body temperature dramatically increases. Except as noted above, this spell otherwise functions as {spell/ray of exhaustion}.",
+			"The ray inflicts 1d4 points of nonlethal damage, causing the target to suffer from heatstroke as its body temperature dramatically increases. Except as noted above, this spell otherwise functions as ‹spell/ray of exhaustion›.",
 			"",
 			"Characters wearing heavy clothing or armor of any sort take a -4 penalty on their saves."
 		]
@@ -1529,9 +1529,9 @@
 		"description": [
 			"## Hellmouth Lash",
 			"",
-			"::spell{source=\"Advanced Race Guide/173\" school=\"%%spelldef/transmutation%% &#91&%%spelldef/acid%%, %%spelldef/electricity%%, or %%spelldef/fire%%&#93&\" arc=4 bld=4 rma=4 sor=4 wit=4 wiz=4 ctSt cV cS rPers target=you durD durRL=1}",
+			"::spell{source=\"Advanced Race Guide/173\" school=\"‹spelldef/transmutation› &#91&‹spelldef/acid›, ‹spelldef/electricity›, or ‹spelldef/fire›&#93&\" arc=4 bld=4 rma=4 sor=4 wit=4 wiz=4 ctSt cV cS rPers target=you durD durRL=1}",
 			"",
-			">*{race/Tiefling/s} have access to the following spell.*",
+			">*‹race/Tiefling«s› have access to the following spell.*",
 			"",
 			"Upon casting this spell, your tongue transforms into an energy whip weapon that can deal acid, electricity, or fire damage. You choose what type of energy damage the spell deals when you cast it. You attack with your tongue as if it were a whip, except you make touch attacks with it and it can harm creatures with armor or natural armor bonuses. You are considered proficient with this weapon. A successful touch attack with the tongue deals 1d8 points of energy damage per two caster levels (maximum of 5d8 points of damage at 10th level).",
 			"",
@@ -1581,7 +1581,7 @@
 			"",
 			"::spell{source=\"Pathfinder #107: Scourge of the Godclaw/72\" enchantment mindAffecting clr=5 inq=5 mes=6 orc=5 war=5 ctSt cV cS rClose target=\"living creature\" durRL=1 will srY}",
 			"",
-			">*Priests of {faith/Geryon} have access to the following spell.*",
+			">*Priests of ‹faith/Geryon› have access to the following spell.*",
 			"",
 			"You fill your target's mind with blasphemous knowledge. If the target fails its saving throw, it cannot cast spells or use spell-like abilities for the duration of the spell. Divine spellcasters whose power derives from the worship of a single deity (most clerics, paladins, and warpriests) have the potential to suffer worse. When targeting a divine spellcaster, you can designate an alignment. If the named alignment coincides with either the spellcaster's alignment or that of her deity, the divine spellcaster loses access to all supernatural and spell-like class abilities granted by the associated class for the spell's duration-blessings, domain powers, channel energy, smite evil, etc.",
 			"",
@@ -1609,7 +1609,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/295\" conjuration creation brd=6 clr=6 inq=6 orc=6 skd=6 war=6 ctM=10 cV cS cDF rClose effect=\"feast for one creature/level\" dur=\"1 hour plus 12 hours; see text\" saveNo srN}",
 			"",
-			"You bring forth a great feast, including a magnificent table, chairs, service, and food and drink. The feast takes 1 hour to consume, and the beneficial effects do not set in until this hour is over. Every creature partaking of the feast is cured of all sickness and nausea, receives the benefits of both {spell/neutralize poison} and {spell/remove disease}, and gains 1d8 temporary hit points + 1 point per two caster levels (maximum +10) after imbibing the nectar-like beverage that is part of the feast. The ambrosial food grants each creature that partakes a +1 morale bonus on attack rolls and Will saves and a +4 morale bonus on saving throws against poison and fear effects for 12 hours.",
+			"You bring forth a great feast, including a magnificent table, chairs, service, and food and drink. The feast takes 1 hour to consume, and the beneficial effects do not set in until this hour is over. Every creature partaking of the feast is cured of all sickness and nausea, receives the benefits of both ‹spell/neutralize poison› and ‹spell/remove disease›, and gains 1d8 temporary hit points + 1 point per two caster levels (maximum +10) after imbibing the nectar-like beverage that is part of the feast. The ambrosial food grants each creature that partakes a +1 morale bonus on attack rolls and Will saves and a +4 morale bonus on saving throws against poison and fear effects for 12 hours.",
 			"",
 			"If the feast is interrupted for any reason, the spell is ruined and all effects of the spell are negated."
 		]
@@ -1676,7 +1676,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Heroism\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}",
+			"‹SOURCE Mythic Adventures/98›",
 			"",
 			"The morale bonus increases to +4 and applies on all checks, attack rolls, saves, and weapon damage rolls. Allies adjacent to the target gain a +4 morale bonus on saves against fear effects.",
 			"",
@@ -1740,9 +1740,9 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/184\" abjuration sha=3 wit=3 ctM=10 cV cS cMp=\"powdered diamond worth 200 gp\" rTouch targetOrArea=\"object touched or up to 5 sq. ft./level\" dur=\"permanent until discharged\" durD save=\"see text\" sr=\"no (object) and yes (see text)\"}",
 			"",
-			"This spell functions like the spell glyph version of {spell/glyph of warding}, except you can store a hex you know (but not a major hex or a grand hex) instead of a spell. If the hex has a target, it targets the intruder. If the hex has an area or an amorphous effect, the area or effect is centered on the intruder. The triggered hex uses this spell's caster level and DC.",
+			"This spell functions like the spell glyph version of ‹spell/glyph of warding›, except you can store a hex you know (but not a major hex or a grand hex) instead of a spell. If the hex has a target, it targets the intruder. If the hex has an area or an amorphous effect, the area or effect is centered on the intruder. The triggered hex uses this spell's caster level and DC.",
 			"",
-			"{spell/Read magic} allows its caster to identify a hex glyph with a successful DC 13 Knowledge (arcana) check. Identifying the glyph does not discharge it and indicates that it stores a hex, but does not indicate the effect of that hex.",
+			"‹spell/Read magic› allows its caster to identify a hex glyph with a successful DC 13 Knowledge (arcana) check. Identifying the glyph does not discharge it and indicates that it stores a hex, but does not indicate the effect of that hex.",
 			"",
 			"### Greater Hex Glyph",
 			"",
@@ -1750,7 +1750,7 @@
 			"",
 			"This spell functions as hex glyph, except you can store a hex or a major hex (but not a grand hex). You trace the glyph with incense, which must first be sprinkled with powdered diamond (as noted in the material line).",
 			"",
-			"{spell/Read magic} allows its caster to identify a greater hex glyph with a DC 16 Spellcraft check."
+			"‹spell/Read magic› allows its caster to identify a greater hex glyph with a DC 16 Spellcraft check."
 		]
 	},
 	"hex_glyph_greater": {
@@ -1786,7 +1786,7 @@
 			"",
 			":::mythic{title=\"Mythic Hex Ward\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}  ",
+			"‹SOURCE Mythic Adventures/98›  ",
 			"The target gains immunity to one witch hex (but not a major hex or grand hex) of your choice.",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, instead of granting immunity to one witch hex, you can grant immunity to two hexes or one major hex.",
@@ -1833,7 +1833,7 @@
 			"",
 			"This subtle but useful spell allows you to safeguard important knowledge - even from yourself. While casting this spell, you recite one piece of knowledge (up to a maximum of 50 words). Upon completion of the spell's casting, you transfer the knowledge from your mind to your skin in the form of an intricate, runic tattoo placed anywhere you choose on your body. The knowledge disappears utterly from your mind, and you might not realize you forgot something. The magic of the spell patches over gaps in your memory with recollections from the past. Until the spell's duration ends, the knowledge is lost to you. When you cast this spell, you decide how long you wish the spell's duration to be, up to a maximum duration of 1 day per level.",
 			"",
-			"Many {rule/Cyphermages} commission nonmagical tattoos to disguise the effects of this spell. A {spell/detect magic} spell or a successful Linguistics or Spellcraft check (DC 20 + your Intelligence modifier) reveals an enchanted tattoo, but not its contents. The effects of hidden knowledge can be dispelled normally, in which case the knowledge is completely lost."
+			"Many ‹rule/Cyphermages› commission nonmagical tattoos to disguise the effects of this spell. A ‹spell/detect magic› spell or a successful Linguistics or Spellcraft check (DC 20 + your Intelligence modifier) reveals an enchanted tattoo, but not its contents. The effects of hidden knowledge can be dispelled normally, in which case the knowledge is completely lost."
 		]
 	},
 	"hidden_presence": {
@@ -1961,7 +1961,7 @@
 			"",
 			":::mythic{title=\"Mythic Hideous Laughter\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}  ",
+			"‹SOURCE Mythic Adventures/98›  ",
 			"A creature of a type different than your own doesn't gain a bonus on its saving throws against this spell. The affected target laughs so hard it hurts, and takes 1d6 points of nonlethal damage each round it spends laughing.",
 			"",
 			"If the target fails its initial save, it must succeed at two follow-up saving throws (each a full-round action that doesn't provoke attacks of opportunity) to end the spell. Succeeding at only one save means the spell no longer deals damage, but the target is still unable to take actions.",
@@ -1990,7 +1990,7 @@
 			"",
 			"::spell{source=\"Pathfinder #117: Assault on Longshadow/76\" transmutation alc=4 inv=4 ctSt cV cS rPers target=you durRL=1}",
 			"",
-			">*{race/Hobgoblin} alchemists devoted to {faith/Hadregash} have developed the following extract to empower themselves and their allies or to make prey easier to catch and enslave.*",
+			">*‹race/Hobgoblin› alchemists devoted to ‹faith/Hadregash› have developed the following extract to empower themselves and their allies or to make prey easier to catch and enslave.*",
 			"",
 			"Upon drinking an extract created with this formula, you make a significant change to your magical reserve that modifies the nature of all bombs you create and throw during this extract's duration. This effect on your magical reserve has no effect on any discoveries that you use to modify your bombs, but you can have only one admixture effect (formula with the words \"bomb admixture\" in its title) active at a time. If you drink another bomb admixture, the effects of the former bomb admixture end and the new one becomes active.",
 			"",
@@ -2076,13 +2076,13 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/297\" abjuration arc=1 occ=1 psy=1 sor=1 wiz=1 ctSt cV rMed target=\"one portal, up to 20 sq. ft./level\" durML=1 durD saveNo srN}",
 			"",
-			"This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A {spell/knock} spell or a successful {spell/dispel magic} spell can negate a hold portal spell.",
+			"This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A ‹spell/knock› spell or a successful ‹spell/dispel magic› spell can negate a hold portal spell.",
 			"",
 			"Add 5 to the normal DC for forcing open a portal affected by this spell.",
 			"",
 			":::mythic{title=\"Mythic Hold Portal\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}  ",
+			"‹SOURCE Mythic Adventures/98›  ",
 			"The target portal can be as large as 30 square feet per caster level. A creature attempting to force open the portal must first succeed at a Will save against the spell's DC. This is a mind-affecting effect. Failure means the creature can't open the door while the spell is in effect.",
 			"",
 			":::"
@@ -2109,7 +2109,7 @@
 			"",
 			"A brilliant divine radiance surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by evil creatures, and causing evil creatures to become blinded when they strike the subjects. This abjuration has four effects.",
 			"",
-			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike {spell/protection from evil}, this benefit applies against all attacks, not just against attacks by evil creatures.",
+			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike ‹spell/protection from evil›, this benefit applies against all attacks, not just against attacks by evil creatures.",
 			"",
 			"Second, each warded creature gains spell resistance 25 against evil spells and spells cast by evil creatures.",
 			"",
@@ -2199,7 +2199,7 @@
 			"",
 			":::mythic{title=\"Mythic Holy Smite\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}  ",
+			"‹SOURCE Mythic Adventures/98›  ",
 			"The damage dealt to evil outsiders increases to 1d10 points of damage per caster level (maximum 10d10) and the damage dealt to other evil creatures increases to 1d12 points of damage per 2 caster levels (maximum 5d12). The duration that creatures in the area are blinded increases to 2 rounds. On a successful save, an evil creature is blinded for 1 round.",
 			"",
 			":::"
@@ -2213,7 +2213,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/297\" evocation good pal=4 ctSt cV cS rTouch target=\"melee weapon touched\" durRL=1 saveNo srN}",
 			"",
-			"This spell allows you to channel holy power into your sword, or any other melee weapon you choose. The weapon acts as a +5 {magic-enh/holy} weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against evil opponents). It also emits a {spell/magic circle against evil} effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one holy sword at a time.",
+			"This spell allows you to channel holy power into your sword, or any other melee weapon you choose. The weapon acts as a +5 ‹magic-enh/holy› weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against evil opponents). It also emits a ‹spell/magic circle against evil› effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one holy sword at a time.",
 			"",
 			"If this spell is cast on a magic weapon, the powers of the spell supercede any that the weapon normally has, rendering the normal enhancement bonus and powers of the weapon inoperative for the duration of the spell. This spell is not cumulative with bless weapon or any other spell that might modify the weapon in any way. This spell does not work on artifacts. A masterwork weapon's bonus to attack does not stack with an enhancement bonus to attack."
 		]
@@ -2265,7 +2265,7 @@
 			"",
 			":::mythic{title=\"Mythic Holy Word\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}  ",
+			"‹SOURCE Mythic Adventures/98›  ",
 			"When determining the spell's effect on non-mythic creatures, add your tier to your caster level. Nongood creatures that fail their saves also take a -4 penalty on attack rolls and saving throws, and their spell resistance decreases by 5 for as long as the spell's other effects last.",
 			"",
 			":::"
@@ -2292,7 +2292,7 @@
 			"",
 			"You befuddle the targets' senses, preventing the targets from clearly perceiving their surroundings. Instead, hoodwinked creatures see only the roughest shapes and details and hear only muffled noises. However, targets can clearly hear verbal communication from the spell's caster. This spell does not impart understanding of the caster's language if the creature can't already understand it. Other than to hear the caster speak, targets automatically fail Perception checks with DCs greater than 5, and they are too disoriented by the spell to accurately remember the path they took while under its effects.",
 			"",
-			"While under the effects of this spell, targets without the help of a guide move at half speed, and any attacks they make are treated as though the creature they are attacking had {rule/concealment}.",
+			"While under the effects of this spell, targets without the help of a guide move at half speed, and any attacks they make are treated as though the creature they are attacking had ‹rule/concealment›.",
 			"",
 			"Moving faster than half speed requires targets to succeed at a DC 10 Acrobatics check. Those that fail this check fall prone. If the target is attacked or physically harmed by any creature other than another target of hoodwink, the spell's effect ends immediately for that target only."
 		]
@@ -2331,7 +2331,7 @@
 			"",
 			"Each creature that can see the doubles must succeed at a Will save or become shaken for as long as it can see any of the doubles. A successful saving throw negates the shaken condition and renders the creature immune to the further effects of this spell (beyond the usual effects of mirror image). In addition, the first time a creature that failed its initial saving throw destroys one of the images, it must succeed at a Will save or its perception of the double shifts at the last second. The double takes on the face of the attacker, the face of a loved one, or some other equally disturbing image, causing the attacker to become frightened for 1 round and take 1d3 points of Wisdom damage from the traumatic shock. Both additional effects are mind-affecting fear effects, and spell resistance applies against them.",
 			"",
-			"If your campaign uses {rule/the |sanity/ system}, a creature takes 1d8 points of sanity damage instead of Wisdom damage."
+			"If your campaign uses ‹rule/the »sanity« system›, a creature takes 1d8 points of sanity damage instead of Wisdom damage."
 		]
 	},
 	"horrifying_visage": {
@@ -2392,7 +2392,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/223\" death necromancy pain arc=3 bld=3 inq=2 mes=2 psy=2 sor=3 spr=3 wit=3 wiz=3 ctSt cV cS cMp=\"a needle and a dried eyeball\" rClose target=\"one living creature/level, no two of which can be more than 30 ft. apart\" durRL=1 fort srY}",
 			"",
-			"You send wracking pains through the targets' bodies. Because of the pain, affected creatures take a -2 penalty to AC, attacks, melee damage rolls, and Reflex saving throws, and must succeed at a {rule/concentration} check (DC equal to the DC of this spell) to cast spells. However, if an affected creature spends a move action screaming as loudly as possible, it can act without any other penalties for the remainder of its turn. \"Screaming,\" for the purposes of this spell, includes any vocalization of pain or its telepathic equivalent; creatures that cannot scream (such as creatures without the natural ability to communicate or vocalize) suffer the full effect of the spell."
+			"You send wracking pains through the targets' bodies. Because of the pain, affected creatures take a -2 penalty to AC, attacks, melee damage rolls, and Reflex saving throws, and must succeed at a ‹rule/concentration› check (DC equal to the DC of this spell) to cast spells. However, if an affected creature spends a move action screaming as loudly as possible, it can act without any other penalties for the remainder of its turn. \"Screaming,\" for the purposes of this spell, includes any vocalization of pain or its telepathic equivalent; creatures that cannot scream (such as creatures without the natural ability to communicate or vocalize) suffer the full effect of the spell."
 		]
 	},
 	"human_potential": {
@@ -2477,7 +2477,7 @@
 			"",
 			"::spell{source=\"Inner Sea Gods/235\" transmutation clr=5 drd=5 hnt=5 inq=5 orc=5 sha=5 war=5 faith=Erastil ctSt cV cS cDF rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" durHL=1 will srY harmless}",
 			"",
-			"When casting this spell, you designate a type or type and subtype of creature (using the {class/ranger/'s} {ability/favored enemy} categories) and a type of terrain (using the list of ranger's {ability/favored terrain} categories). Targets of the spell gain a +2 sacred bonus on Bluff, Perception, Sense Motive, and Survival checks attempted against creatures of the selected type, and a +2 sacred bonus on attack rolls and damage rolls made against creatures of that type. Furthermore, they gain a +2 sacred bonus on initiative checks, Perception, Stealth, and Survival checks while they are in the type of terrain you designate. Lastly, when tracking the designated creature type in the chosen terrain, the targets can follow the tracks of such creatures untrained, even if the DC for the task is 11 or higher.",
+			"When casting this spell, you designate a type or type and subtype of creature (using the ‹class/ranger«'s› ‹ability/favored enemy› categories) and a type of terrain (using the list of ranger's ‹ability/favored terrain› categories). Targets of the spell gain a +2 sacred bonus on Bluff, Perception, Sense Motive, and Survival checks attempted against creatures of the selected type, and a +2 sacred bonus on attack rolls and damage rolls made against creatures of that type. Furthermore, they gain a +2 sacred bonus on initiative checks, Perception, Stealth, and Survival checks while they are in the type of terrain you designate. Lastly, when tracking the designated creature type in the chosen terrain, the targets can follow the tracks of such creatures untrained, even if the DC for the task is 11 or higher.",
 			"",
 			"::spelldeitynote"
 		]
@@ -2490,7 +2490,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/228\" divination hnt=2 inq=3 rgr=2 ctSt cV cS cDF rMed target=\"one creature\" durML=1 saveNo srY}",
 			"",
-			"Sharpening your perceptive abilities and tuning them against obfuscating effects, hunter's eye greatly enhances your senses against the target creature. You gain the ability to perceive the target when it is invisible or ethereal as though using the see invisibility spell, and receive a +20 competence bonus on Perception checks to locate the target. You ignore concealment provided by fog or mist, {spell/blur}, {spell/displacement}, {spell/invisibility}, and similar effects affecting the target, but not concealment provided by darkness. This spell provides no benefits to your allies, and no benefits against creatures other than the target."
+			"Sharpening your perceptive abilities and tuning them against obfuscating effects, hunter's eye greatly enhances your senses against the target creature. You gain the ability to perceive the target when it is invisible or ethereal as though using the see invisibility spell, and receive a +20 competence bonus on Perception checks to locate the target. You ignore concealment provided by fog or mist, ‹spell/blur›, ‹spell/displacement›, ‹spell/invisibility›, and similar effects affecting the target, but not concealment provided by darkness. This spell provides no benefits to your allies, and no benefits against creatures other than the target."
 		]
 	},
 	"hunters_friend": {
@@ -2514,7 +2514,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/228\" mindAffecting emotion fear necromancy hnt=1 rgr=1 ctSt cV cS rFt=20 area=\"20-ft.-radius burst\" durRL=1 will srN}",
 			"",
-			"With a single primal howl, you strike fear in your opponents. Until the end of the spell's duration, you treat those affected by it as if they were your {ability/favored enemy}, gaining a +2 bonus on weapon attack and damage rolls against them, and a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against them. If an affected creature is already one of your favored enemies, it is shaken instead. This is a mind-affecting fear effect."
+			"With a single primal howl, you strike fear in your opponents. Until the end of the spell's duration, you treat those affected by it as if they were your ‹ability/favored enemy›, gaining a +2 bonus on weapon attack and damage rolls against them, and a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against them. If an affected creature is already one of your favored enemies, it is shaken instead. This is a mind-affecting fear effect."
 		]
 	},
 	"hunters_lore": {
@@ -2538,7 +2538,7 @@
 			"",
 			"::spell{source=\"Monster Hunter's Handbook/30\" transmutation ant=1 bld=2 drd=2 hnt=1 inq=2 mag=2 occ=2 pal=1 rgr=1 sha=2 ctM=10 cV cS cMDFp=\"see text\" rTouch target=\"nonmagical spear touched\" dur=\"24 hours or until discharged\" will srY harmless object}",
 			"",
-			"Choose one creature type (and subtype, if applicable) from the ranger's {ability/favored enemy} list. When you cast this spell, the targeted spear hums with destructive energy and functions as a +1 spear against creatures of the selected type.",
+			"Choose one creature type (and subtype, if applicable) from the ranger's ‹ability/favored enemy› list. When you cast this spell, the targeted spear hums with destructive energy and functions as a +1 spear against creatures of the selected type.",
 			"",
 			"You can discharge this spell in order to make an especially powerful attack with the spear. The spear's critical range becomes 18-20 and its critical multiplier becomes &times;3. If you make this attack as part of a charge action, you gain an enhancement bonus of +30 feet to your base speed while performing the charge. If you throw the spear as part of this attack, its range increment increases to 80 feet. If you cast this spell on a masterwork spear, it also gains the bane special ability against the selected creature type and automatically bypasses any damage reduction (except DR/-) regardless of the creature's type. After resolving the attack, the spear is completely destroyed in a burst of energy.",
 			"",
@@ -2583,7 +2583,7 @@
 			"",
 			":::mythic{title=\"Mythic Hydraulic Push\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}  ",
+			"‹SOURCE Mythic Adventures/98›  ",
 			"The water is boiling hot or freezing cold, dealing 1d6 points of fire or cold damage per 2 caster levels. Add your tier to your CMB for the spell.",
 			"",
 			":::"
@@ -2608,10 +2608,10 @@
 			"",
 			":::mythic{title=\"Mythic Hydraulic Torrent\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}  ",
+			"‹SOURCE Mythic Adventures/98›  ",
 			"The water is boiling hot or freezing cold, dealing 1d6 points of fire or cold damage per 2 caster levels. Add your tier to your CMB for the spell and on the Strength check to destroy immovable targets.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, the spell can extinguish magical fires as if using a targeted {spell/dispel magic}. Freezing cold water hardens into ice on the ground, lasting as long as prevailing conditions allow. Boiling hot water turns into steam, creating an area of concealing mist (equivalent to obscuring mist) that fills the affected squares and all squares adjacent to the line of the spell.",
+			"*Augmented (3rd):* If you expend two uses of mythic power, the spell can extinguish magical fires as if using a targeted ‹spell/dispel magic›. Freezing cold water hardens into ice on the ground, lasting as long as prevailing conditions allow. Boiling hot water turns into steam, creating an area of concealing mist (equivalent to obscuring mist) that fills the affected squares and all squares adjacent to the line of the spell.",
 			"",
 			":::"
 		]
@@ -2685,7 +2685,7 @@
 			"",
 			"::spell{source=\"Blood of the Beast/19\" enchantment compulsion mindAffecting arc=4 brd=4 mes=4 occ=4 psy=4 skd=4 sor=4 wit=4 wiz=4 ctR=1 cV cS rClose durD durR=\"2d4\"}",
 			"",
-			">*The following spell is the result of generations of {race/nagaji} tradition, but spellcasters from elsewhere in Tian Xia have begun to learn these techniques and spread them further.*",
+			">*The following spell is the result of generations of ‹race/nagaji› tradition, but spellcasters from elsewhere in Tian Xia have begun to learn these techniques and spread them further.*",
 			"",
 			"This functions as hypnotism, except it affects 2 Hit Die of creatures per caster level you have. You can make up to five requests (instead of a single request) to each creature affected by the spell, and the requests can be as long and as complicated as you desire (though they still must be reasonable)."
 		]
@@ -2732,7 +2732,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/224\" conjuration cold teleportation arc=6 sor=6 sum=5 usm=6 wit=6 wiz=6 ctSt cV rLong target=\"one creature\" dur=\"1d4 rounds and instantaneous\" will srY}",
 			"",
-			"This spell functions as {spell/teleport}, except you use it to teleport yourself or one other creature to a safe location you specify (the target can bring along objects as long as their weight doesn't exceed the target's heavy load). You can only send the target to a location with which you are very familiar. The target is first trapped in ice (hardness 0, 3 hit points per inch of thickness, 1 inch thick per caster level) for 1d4 rounds, during which time it is paralyzed, aware but unable to take any physical actions, and begins to fade away as the teleportation aspect takes effect. At the end of the 1d4 rounds, the target teleports to the specified location, and the ice's hit points drop to 0 and it quickly melts away. If the ice is destroyed before the target teleports, the spell ends and the teleport doesn't occur."
+			"This spell functions as ‹spell/teleport›, except you use it to teleport yourself or one other creature to a safe location you specify (the target can bring along objects as long as their weight doesn't exceed the target's heavy load). You can only send the target to a location with which you are very familiar. The target is first trapped in ice (hardness 0, 3 hit points per inch of thickness, 1 inch thick per caster level) for 1d4 rounds, during which time it is paralyzed, aware but unable to take any physical actions, and begins to fade away as the teleportation aspect takes effect. At the end of the 1d4 rounds, the target teleports to the specified location, and the ice's hit points drop to 0 and it quickly melts away. If the ice is destroyed before the target teleports, the spell ends and the teleport doesn't occur."
 		]
 	},
 	"ice_slick": {
@@ -2745,7 +2745,7 @@
 			"",
 			"You create a blast of intense cold, coating all solid surfaces in the area with a thin coating of ice. Any creature in the area when the spell is cast takes 1d6 points of cold damage + 1 point per caster level (maximum +10) and falls prone; creatures that succeed at a Reflex save take half damage and don't fall prone. Spell resistance applies to this initial effect.",
 			"",
-			"A creature can walk within or through the area of ice at half its normal speed with a successful DC 10 Acrobatics check. Failure by 4 or less means the creature can't move that round (and must succeed at a Reflex save or fall); failure by 5 or more means it falls (see the {skill/Acrobatics/ skill} for details). Creatures that do not move on their turn do not need to attempt this check.",
+			"A creature can walk within or through the area of ice at half its normal speed with a successful DC 10 Acrobatics check. Failure by 4 or less means the creature can't move that round (and must succeed at a Reflex save or fall); failure by 5 or more means it falls (see the ‹skill/Acrobatics« skill› for details). Creatures that do not move on their turn do not need to attempt this check.",
 			"",
 			"A 5-foot square of ice has hardness 0 and 3 hit points. The ice is an instantaneous effect, but persists as nonmagical ice. Under temperate conditions, the ice lasts 1 minute per level. In tropical environments, it might last only half as long. In cold environments where ice and snow persist without melting, it could last indefinitely."
 		]
@@ -2785,7 +2785,7 @@
 			"",
 			":::mythic{title=\"Mythic Ice Storm\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}  ",
+			"‹SOURCE Mythic Adventures/98›  ",
 			"The bludgeoning damage increases to 4d8 points of damage and the cold damage increases to 3d6 points of damage. The ground in the area is covered in ice and hailstones, acting as though a grease spell were cast on it. Dealing 5 or more points of fire damage to a square melts the ice and hail, negating the grease effect.",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, one creature in the area is paralyzed (as if by hold person) and gains vulnerability to fire as long as it's paralyzed.",
@@ -2801,7 +2801,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/224\" conjuration creation cold arc=1 bld=1 occ=1 sor=1 sum=1 usm=1 wit=1 wiz=1 ctSt cV cS rFt=0 effect=\"one icicle\" durML=1 saveNo srN}",
 			"",
-			"You create a masterwork dagger out of ice. The dagger deals 1 point of cold damage in addition to normal dagger damage. If the dagger leaves your hand for more than 1 round, it melts and the spell ends. At 6th level, the dagger functions as a +1 {magic-enh/frost} dagger. At 11th level, it gains the returning property when thrown, melting away and reforming in your hand just before your next turn."
+			"You create a masterwork dagger out of ice. The dagger deals 1 point of cold damage in addition to normal dagger damage. If the dagger leaves your hand for more than 1 round, it melts and the spell ends. At 6th level, the dagger functions as a +1 ‹magic-enh/frost› dagger. At 11th level, it gains the returning property when thrown, melting away and reforming in your hand just before your next turn."
 		]
 	},
 	"icy_prison": {

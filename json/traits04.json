@@ -32,7 +32,7 @@
 			"**Type:** Regional  ",
 			"**Region:** The Sodden Lands",
 			"",
-			"You have spent time in the gales of the perpetual hurricane, and can cast spells even when battered by the elements. You gain a +2 trait bonus on {rule/concentration} checks when spellcasting."
+			"You have spent time in the gales of the perpetual hurricane, and can cast spells even when battered by the elements. You gain a +2 trait bonus on ‹rule/concentration› checks when spellcasting."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -140,7 +140,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Plane of Air",
 			"",
-			"Your years of piloting airships on the Plane of Air, dodging angry mephits and protecting your passengers from the depredations of capricious elementals, have taught you how to expertly command your vessel, as well as how to arrest yourself even in the midst of the most turbulent planar storms. You gain a +2 trait bonus on Wisdom checks to move in a plane with subjective directional gravity (see the {rule/planar /rules>traits}) and a +2 trait bonus on driving checks (see the {rule/full_<vehicle rules})."
+			"Your years of piloting airships on the Plane of Air, dodging angry mephits and protecting your passengers from the depredations of capricious elementals, have taught you how to expertly command your vessel, as well as how to arrest yourself even in the midst of the most turbulent planar storms. You gain a +2 trait bonus on Wisdom checks to move in a plane with subjective directional gravity (see the ‹rule/planar «rules<traits›) and a +2 trait bonus on driving checks (see the ‹rule/full_>vehicle rules›)."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -206,7 +206,7 @@
 			"",
 			"You are in some way tied to the mysterious alien monument known as Silver Mount in Numeria, but you have forgotten an important piece of your past. Perhaps you were a metallurgist's experiment gone awry, a rediscovered automaton that escaped the mountain's confines, or the result of some equally enigmatic phenomenon. Regardless, your unusual origins mark you as somehow different from others, and you know the gaps in your memory hold the key to your past. You start play with a unique compass that doesn't point north and is riddled with indecipherable alien markings - the only object you have that you know to be tied to your home. In addition, your inscrutable mannerisms give you a +2 trait bonus on opposed Bluff checks.",
 			"",
-			"**Suggestion:** Consider being a member of the {race/android/ race}.*"
+			"**Suggestion:** Consider being a member of the ‹race/android« race›.*"
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -266,7 +266,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Numeria",
 			"",
-			"You have inherited a sacred tribal weapon wielded by your forebears since the days before the Rain of Stars, and you were trained in its use from a young age. Select either {eq-material/cold iron} or {eq-material/alchemical_<silver}. You begin play with a masterwork melee weapon made of the material of your choice. You must be proficient with this weapon, and its combined cost cannot exceed 500 gp. You gain a +1 trait bonus on attack rolls with weapons made of the selected material."
+			"You have inherited a sacred tribal weapon wielded by your forebears since the days before the Rain of Stars, and you were trained in its use from a young age. Select either ‹eq-material/cold iron› or ‹eq-material/alchemical_>silver›. You begin play with a masterwork melee weapon made of the material of your choice. You must be proficient with this weapon, and its combined cost cannot exceed 500 gp. You gain a +1 trait bonus on attack rolls with weapons made of the selected material."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -374,7 +374,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Cheliax",
 			"",
-			"Your family has a long tradition of service in the {rule/Hellknights}, and your strict upbringing and training have given you a forceful aura of command. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you."
+			"Your family has a long tradition of service in the ‹rule/Hellknights›, and your strict upbringing and training have given you a forceful aura of command. You gain a +1 trait bonus on Intimidate checks, and Intimidate is always a class skill for you."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -459,7 +459,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Cheliax",
 			"",
-			"You are a tiller in the secretive {rule/Bellflower Network} in Cheliax and carefully move slaves from one hideout to the next. You gain a +5 trait bonus on all Survival skill checks made to get along in the wild, travel in severe weather, keep from getting lost, or predict the weather."
+			"You are a tiller in the secretive ‹rule/Bellflower Network› in Cheliax and carefully move slaves from one hideout to the next. You gain a +5 trait bonus on all Survival skill checks made to get along in the wild, travel in severe weather, keep from getting lost, or predict the weather."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -687,7 +687,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Jalmeray",
 			"",
-			"You have begun training to enter one of the {rule/Houses of Perfection}, and have honed your body, mind, and spirit into one well-trained weapon. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes."
+			"You have begun training to enter one of the ‹rule/Houses of Perfection›, and have honed your body, mind, and spirit into one well-trained weapon. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -833,7 +833,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Osirion",
 			"",
-			"During your childhood, you knew someone who was addicted to {drug/mumia}, a drug made from the flesh of the dead, whether that was a drug-addled parent, an unsavory employer, or a libertine childhood friend. Although you did not indulge in the ghoulish narcotic yourself, your exposure to it grants you a +1 trait bonus on saving throws against curses and diseases, including magical diseases."
+			"During your childhood, you knew someone who was addicted to ‹drug/mumia›, a drug made from the flesh of the dead, whether that was a drug-addled parent, an unsavory employer, or a libertine childhood friend. Although you did not indulge in the ghoulish narcotic yourself, your exposure to it grants you a +1 trait bonus on saving throws against curses and diseases, including magical diseases."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1106,7 +1106,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Ustalav",
 			"",
-			"You spent your formative years in the town of Ravengro, where your proximity to both a prominent graveyard and an infamous prison left you no stranger to the occasional zombie or skeleton. As such, you developed unique methods of dodging these pests. Once per day, you can cast {spell/hide from undead} as a spell-like ability. The casting time is a swift action and the caster level for this effect is always 1st; this ability is otherwise identical to the spell."
+			"You spent your formative years in the town of Ravengro, where your proximity to both a prominent graveyard and an infamous prison left you no stranger to the occasional zombie or skeleton. As such, you developed unique methods of dodging these pests. Once per day, you can cast ‹spell/hide from undead› as a spell-like ability. The casting time is a swift action and the caster level for this effect is always 1st; this ability is otherwise identical to the spell."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1145,7 +1145,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Echo Wood or Thornkeep",
 			"",
-			"You trained with the {rule/Hellknights} at Fort Inevitable or the paladins of Iomedae at Fort Riverwatch. If you trained with the Hellknights, you gain a +1 trait bonus on saving throws against chaotic spells and the spell-like abilities of chaotic outsiders. If you trained with the Iomedaean Paladins, you gain this bonus against evil spells and evil outsiders instead."
+			"You trained with the ‹rule/Hellknights› at Fort Inevitable or the paladins of Iomedae at Fort Riverwatch. If you trained with the Hellknights, you gain a +1 trait bonus on saving throws against chaotic spells and the spell-like abilities of chaotic outsiders. If you trained with the Iomedaean Paladins, you gain this bonus against evil spells and evil outsiders instead."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1169,7 +1169,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Mediogalti",
 			"",
-			"Your parents were both Red Mantis assassins and your family has a long tradition of service in the {rule/Red Mantis} cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace. This grants you a +1 trait bonus on Intimidate checks. If you act during the surprise round, as a free action during that round you can draw a light weapon (or two if you have the {feat/Two-Weapon Fighting} feat)."
+			"Your parents were both Red Mantis assassins and your family has a long tradition of service in the ‹rule/Red Mantis› cult. Your strict, fanatical upbringing and familiarity with murder have bestowed upon you an air of confidence and menace. This grants you a +1 trait bonus on Intimidate checks. If you act during the surprise round, as a free action during that round you can draw a light weapon (or two if you have the ‹feat/Two-Weapon Fighting› feat)."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1181,7 +1181,7 @@
 			"**Type:** Regional  ",
 			"**Region:** urban",
 			"",
-			"You grew up speaking multiple {misc/languages}. You learn one additional language. Additionally, when attempting a Diplomacy check to gather information using this language, you can do so in 1d6 &times; 10 minutes, rather than the normal 1d4 hours."
+			"You grew up speaking multiple ‹misc/languages›. You learn one additional language. Additionally, when attempting a Diplomacy check to gather information using this language, you can do so in 1d6 &times; 10 minutes, rather than the normal 1d4 hours."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1205,7 +1205,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Osirion",
 			"",
-			"Whenever a caster level check is required to treat an affliction with magic (such as when casting {spell/remove curse} on a cursed creature or object), you gain a +2 trait bonus on your caster level check. Additionally, you gain a +1 trait bonus on your saving throws against curses."
+			"Whenever a caster level check is required to treat an affliction with magic (such as when casting ‹spell/remove curse› on a cursed creature or object), you gain a +2 trait bonus on your caster level check. Additionally, you gain a +1 trait bonus on your saving throws against curses."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1241,7 +1241,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Riddleport",
 			"",
-			"You've sold relics to a {rule/Cyphermage} in the past, and she's agreed to assist you with future findings. When in Riddleport, you can use your contact to gain information about artifacts and history. Treat this ability as a single Knowledge (arcana) or Knowledge (history) check with a skill bonus of +15. You may make this check once per day that you spend in Riddleport. You can make a new check every day. Each time you do so, you can choose whether to use Knowledge (arcana) or Knowledge (history)."
+			"You've sold relics to a ‹rule/Cyphermage› in the past, and she's agreed to assist you with future findings. When in Riddleport, you can use your contact to gain information about artifacts and history. Treat this ability as a single Knowledge (arcana) or Knowledge (history) check with a skill bonus of +15. You may make this check once per day that you spend in Riddleport. You can make a new check every day. Each time you do so, you can choose whether to use Knowledge (arcana) or Knowledge (history)."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1368,7 +1368,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Druma",
 			"",
-			"As an adherent of the {rule/Prophecies of Kalistrade}, you understand the importance of a good deal. You gain a +1 trait bonus on Appraise checks, and a +1 trait bonus on Bluff checks when trying to make a deal with nonbelievers."
+			"As an adherent of the ‹rule/Prophecies of Kalistrade›, you understand the importance of a good deal. You gain a +1 trait bonus on Appraise checks, and a +1 trait bonus on Bluff checks when trying to make a deal with nonbelievers."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -1392,7 +1392,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Mediogalti",
 			"",
-			"After spending a month in the Mediogaltian jungle, you developed a knack for dealing with dinosaurs. You gain a +1 trait bonus on Knowledge (nature) and Survival checks concerning dinosaurs. You also gain a +1 trait bonus on {ability/wild empathy} checks made to affect dinosaurs."
+			"After spending a month in the Mediogaltian jungle, you developed a knack for dealing with dinosaurs. You gain a +1 trait bonus on Knowledge (nature) and Survival checks concerning dinosaurs. You also gain a +1 trait bonus on ‹ability/wild empathy› checks made to affect dinosaurs."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -2003,7 +2003,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Shokuro",
 			"",
-			"You come from a family of farmers, but are determined to fight for your rights. You gain a +1 trait bonus on attacks made with improvised weapons. If you do not possess the {feat/Catch Off-Guard} or {feat/Throw Anything} feats, you still take penalties on these attack rolls as normal."
+			"You come from a family of farmers, but are determined to fight for your rights. You gain a +1 trait bonus on attacks made with improvised weapons. If you do not possess the ‹feat/Catch Off-Guard› or ‹feat/Throw Anything› feats, you still take penalties on these attack rolls as normal."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -2557,7 +2557,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Darklands",
 			"",
-			"Due to the constant intrusion of marsh gases seeping into the tunnels and chambers of your lair, you can {misc/hold your breath} for twice as long and gain a +2 trait bonus on saving throws against the effects of inhaled poisons."
+			"Due to the constant intrusion of marsh gases seeping into the tunnels and chambers of your lair, you can ‹misc/hold your breath› for twice as long and gain a +2 trait bonus on saving throws against the effects of inhaled poisons."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -2751,7 +2751,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Kwanlai",
 			"",
-			"You were raised in Kwanlai in one of the devout tengu churches, and your dedication to your cause makes your divine abilities particularly potent. You gain a +2 trait bonus on {rule/concentration} checks made while casting divine spells."
+			"You were raised in Kwanlai in one of the devout tengu churches, and your dedication to your cause makes your divine abilities particularly potent. You gain a +2 trait bonus on ‹rule/concentration› checks made while casting divine spells."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3006,7 +3006,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Wall of Heaven",
 			"",
-			"You have made it to the summits of a number of the Wall of Heaven's peaks, and your body is used to the effects of both extreme cold and high altitude. You gain a +2 trait bonus on Fortitude saving throws made against the effects of {rule/cold dangers} and {rule/altitude sickness}."
+			"You have made it to the summits of a number of the Wall of Heaven's peaks, and your body is used to the effects of both extreme cold and high altitude. You gain a +2 trait bonus on Fortitude saving throws made against the effects of ‹rule/cold dangers› and ‹rule/altitude sickness›."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3380,7 +3380,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Geb",
 			"",
-			"Survival in Geb requires convincing your betters that you would be of more service to them if they let you live another day than if they turn you into an unliving thrall, and you have mastered the art of buying time against undead attacks. Once per day as a swift action, you can use {spell/sanctuary} as a spell-like ability (caster level = your highest caster level, or 1st if you have no caster level), with a DC equal to 10 + 1/2 your caster level (minimum 0) + your Charisma modifier. Only undead must save to attack you (other creature types are not affected). The effect ends as soon as you attack a creature, as normal."
+			"Survival in Geb requires convincing your betters that you would be of more service to them if they let you live another day than if they turn you into an unliving thrall, and you have mastered the art of buying time against undead attacks. Once per day as a swift action, you can use ‹spell/sanctuary› as a spell-like ability (caster level = your highest caster level, or 1st if you have no caster level), with a DC equal to 10 + 1/2 your caster level (minimum 0) + your Charisma modifier. Only undead must save to attack you (other creature types are not affected). The effect ends as soon as you attack a creature, as normal."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3664,7 +3664,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Taldor",
 			"",
-			"When the ceaseless bickering and elaborate posturing of Taldan politics proves ineffective, it is not unheard of for the nobility of Taldor to turn to poison to solve their problems, and therefore many are taught to identify the telltale signs of commonly used toxins. You gain a +2 trait bonus on saving throws against ingested poisons. Additionally, you can cast {spell/detect poison} as a spell-like ability once per day, using your character level as your caster level."
+			"When the ceaseless bickering and elaborate posturing of Taldan politics proves ineffective, it is not unheard of for the nobility of Taldor to turn to poison to solve their problems, and therefore many are taught to identify the telltale signs of commonly used toxins. You gain a +2 trait bonus on saving throws against ingested poisons. Additionally, you can cast ‹spell/detect poison› as a spell-like ability once per day, using your character level as your caster level."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3737,7 +3737,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Andoran",
 			"",
-			"You've grown up playing the confusing game of prismati and throw stones with accuracy and ease. You gain a +1 trait bonus on attack rolls with fist-sized rocks or similarly shaped objects, and a +1 trait bonus on {rule/concentration} checks."
+			"You've grown up playing the confusing game of prismati and throw stones with accuracy and ease. You gain a +1 trait bonus on attack rolls with fist-sized rocks or similarly shaped objects, and a +1 trait bonus on ‹rule/concentration› checks."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3762,7 +3762,7 @@
 			"**Region:** Druma  ",
 			"**Requirements:** Ratfolk",
 			"",
-			"While you might not be a practicing follower of the {rule/Prophecies of Kalistrade}, you value human coin more than most ratfolk do and have taken the mercantile practices of the Prophecies to heart. Whenever you roll a skill check to earn money, increase the amount of money that you earn by 5%."
+			"While you might not be a practicing follower of the ‹rule/Prophecies of Kalistrade›, you value human coin more than most ratfolk do and have taken the mercantile practices of the Prophecies to heart. Whenever you roll a skill check to earn money, increase the amount of money that you earn by 5%."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3810,7 +3810,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Nex",
 			"",
-			"You graduated from one of Quantium's justly famous arcane academies, and the rigorous program of study has honed your mind. You gain a +2 trait bonus on {rule/concentration} checks when casting arcane spells."
+			"You graduated from one of Quantium's justly famous arcane academies, and the rigorous program of study has honed your mind. You gain a +2 trait bonus on ‹rule/concentration› checks when casting arcane spells."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3859,7 +3859,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Shokuro",
 			"",
-			"A close relative was an important player in the rebellions that led to the independence of Shokuro, and passed on her passion to you. If you take the {feat/Leadership} feat, you receive a +1 trait bonus to your Leadership score."
+			"A close relative was an important player in the rebellions that led to the independence of Shokuro, and passed on her passion to you. If you take the ‹feat/Leadership› feat, you receive a +1 trait bonus to your Leadership score."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3874,7 +3874,7 @@
 			"Although you live some distance from the city-state your community owes fealty to, you've been influenced by its sophisticated urban ways. Determine the city-state of which your home is a holding. You gain a +1 trait bonus on checks with one Profession skill and one of the following benefits.",
 			"",
 			"**Korvosa:** Gain Infernal as a bonus language. If you already have this language, gain a +1 trait bonus on Diplomacy checks.  ",
-			"**Magnimar:** Gain one random {eq-misc/Varisian idol}.  ",
+			"**Magnimar:** Gain one random ‹eq-misc/Varisian idol›.  ",
 			"**Riddleport:** Gain a +1 trait bonus on Swim checks."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
@@ -3905,7 +3905,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Thuvia",
 			"",
-			"Alchemy is a point of national pride in Thuvia, home of the famous {magic-artifact/sun orchid elixir}. But resources are often hard to come by in the blasted desert landscape, so you have found creative ways to create many of the tools you need to survive. You gain a +2 trait bonus on Craft (alchemy) skill checks. This bonus increases to +3 when you are using Craft (alchemy) to craft an alchemical item."
+			"Alchemy is a point of national pride in Thuvia, home of the famous ‹magic-artifact/sun orchid elixir›. But resources are often hard to come by in the blasted desert landscape, so you have found creative ways to create many of the tools you need to survive. You gain a +2 trait bonus on Craft (alchemy) skill checks. This bonus increases to +3 when you are using Craft (alchemy) to craft an alchemical item."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -3943,7 +3943,7 @@
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Qadira  ",
-			"**Requirements:** {feat/Mounted Combat} feat",
+			"**Requirements:** ‹feat/Mounted Combat› feat",
 			"",
 			"You call the Plains of Paresh home, whether you were born among the plains' tribes or in the glittering towers of Katheer. The horses are your kin. When mounted and making a charge, your mount's speed is increased by 10 feet."
 		],
@@ -4086,7 +4086,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Mwangi Expanse",
 			"",
-			"The blood of a Shory aeromancer flows through your veins. You gain a +2 bonus on {rule/concentration} checks when casting flight spells such as {spell/levitate}, {spell/fly}, or {spell/overland flight}. Once per day, you can use {spell/message} as a spell-like ability."
+			"The blood of a Shory aeromancer flows through your veins. You gain a +2 bonus on ‹rule/concentration› checks when casting flight spells such as ‹spell/levitate›, ‹spell/fly›, or ‹spell/overland flight›. Once per day, you can use ‹spell/message› as a spell-like ability."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -4319,7 +4319,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Riddleport",
 			"",
-			"You feel an affinity with ships and the sea, and the rolling rhythm of the waves helps focus your mind. When on a ship or other water-going vessel, you gain a +3 bonus on {rule/concentration} checks."
+			"You feel an affinity with ships and the sea, and the rolling rhythm of the waves helps focus your mind. When on a ship or other water-going vessel, you gain a +3 bonus on ‹rule/concentration› checks."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -4403,7 +4403,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Numeria",
 			"",
-			"You gain a +2 trait bonus on Fortitude saves against the negative effects of {eq-material/skymetal/s}, as well as a +2 trait bonus on Craft checks made to create weapons or armor out of skymetals."
+			"You gain a +2 trait bonus on Fortitude saves against the negative effects of ‹eq-material/skymetal«s›, as well as a +2 trait bonus on Craft checks made to create weapons or armor out of skymetals."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -4450,7 +4450,7 @@
 		"description": [
 			"**Type:** Regional  ",
 			"**Region:** Osirion  ",
-			"**Religion:** {faith/Apep} or {faith/Wadjet}",
+			"**Religion:** ‹faith/Apep› or ‹faith/Wadjet›",
 			"",
 			"You have spent time as a member of a cult of either Apep or Wadjet, the serpent gods of Osirion. Membership involved the handling of dangerous snakes during rituals, and you have learned how to keep yourself and others safe around them. You gain a +2 bonus on Fortitude saves against poison. Handle Animal is always a class skill for you."
 		],
@@ -4708,7 +4708,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Ustalav",
 			"",
-			"You're not frightened of the old wives' tales of vampires and ghosts, and though you try to avoid the undead, you've learned how to deal with them. You may cast {spell/disrupt undead} once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st."
+			"You're not frightened of the old wives' tales of vampires and ghosts, and though you try to avoid the undead, you've learned how to deal with them. You may cast ‹spell/disrupt undead› once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -4732,7 +4732,7 @@
 			"**Type:** Regional  ",
 			"**Region:** underground",
 			"",
-			"You were born and raised in a subterranean home with little or no bright light. Your miss chance for {rule/concealment} or total concealment due to either mundane or magical darkness decreases by 10%. You are dazzled for 1 round when you are suddenly exposed to bright light."
+			"You were born and raised in a subterranean home with little or no bright light. Your miss chance for ‹rule/concealment› or total concealment due to either mundane or magical darkness decreases by 10%. You are dazzled for 1 round when you are suddenly exposed to bright light."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -4888,7 +4888,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Thuvia",
 			"",
-			"You have traveled the great circular trade route around Thuvia, following the sale of the {magic-artifact/sun orchid elixir} from city to city, and are used to haggling with foreigners. You gain a +1 trait bonus on Appraise, Bluff, and Sense Motive checks made for business deals and transactions."
+			"You have traveled the great circular trade route around Thuvia, following the sale of the ‹magic-artifact/sun orchid elixir› from city to city, and are used to haggling with foreigners. You gain a +1 trait bonus on Appraise, Bluff, and Sense Motive checks made for business deals and transactions."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},
@@ -5478,7 +5478,7 @@
 			"**Type:** Regional  ",
 			"**Region:** Irrisen",
 			"",
-			"The eternal winter of Irrisen is as much a part of you as it is the land. You may cast {spell/ray of frost} once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st."
+			"The eternal winter of Irrisen is as much a part of you as it is the land. You may cast ‹spell/ray of frost› once per day as a spell-like ability. This is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st."
 		],
 		"topLink": [ "Regional Traits", "main/traits_regional" ]
 	},

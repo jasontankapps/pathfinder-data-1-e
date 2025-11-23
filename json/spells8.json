@@ -23,7 +23,7 @@
 			"",
 			"::spell{source=\"Ultimate Combat/241\" enchantment compulsion mindAffecting arc=2 brd=2 inq=2 med=2 mes=2 psy=2 skd=2 sor=2 wit=2 wiz=2 ctSt cV cS rClose target=\"one creature\" dur=\"1 minute/level or until discharged\" will srY}",
 			"",
-			"The target is suddenly beset with unexplainable doubts about the effectiveness of its actions and the righteousness of its cause. The creature takes a -10 penalty on its ability checks, skill checks, and {rule/concentration} checks, until the duration ends, or until it spends its entire turn doing absolutely nothing (it spends a full-round action gaining focus). Spending an entire turn doing nothing discharges the spell."
+			"The target is suddenly beset with unexplainable doubts about the effectiveness of its actions and the righteousness of its cause. The creature takes a -10 penalty on its ability checks, skill checks, and ‹rule/concentration› checks, until the duration ends, or until it spends its entire turn doing absolutely nothing (it spends a full-round action gaining focus). Spending an entire turn doing nothing discharges the spell."
 		]
 	},
 	"quell_energy": {
@@ -84,7 +84,7 @@
 			"",
 			"::spell{source=\"Pathfinder #91: Battle of Bloodmarch Hills/71\" transmutation ant=2 bld=2 hnt=2 mag=2 pal=2 rgr=2 ctSt cV cS cM rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" durRL=1 fort srY harmless}",
 			"",
-			"Those under the effects of this spell become faster in the use of thrown weapons. They can draw thrown weapons (including rocks if they have the rock throwing ability) on their bodies or within their space without the need for the {feat/Quick Draw} feat, allowing them to make their full normal rate of attacks with such weapons. This has no effects on other forms of ranged weapon ammunition."
+			"Those under the effects of this spell become faster in the use of thrown weapons. They can draw thrown weapons (including rocks if they have the rock throwing ability) on their bodies or within their space without the need for the ‹feat/Quick Draw› feat, allowing them to make their full normal rate of attacks with such weapons. This has no effects on other forms of ranged weapon ammunition."
 		]
 	},
 	"quieting_weapons": {
@@ -108,7 +108,7 @@
 			"",
 			"You draw forth the idealized image of the target creature or object, masking any flaws or damage. An injured or ill creature appears healthy, and a damaged object or one with the broken condition appears intact. However, a corpse masked by quintessence remains obviously dead, and a completely destroyed object can't be made to seem whole. This illusion has visual and tactile components. Careful examination of or handling the target grants a saving throw to disbelieve, but casual observation does not. Using a broken object for its intended purpose automatically reveals the deception. Appraise checks to assess the value of an object affected by quintessence estimate the value as an item of its type in perfect condition, unless the appraiser disbelieves the illusion.",
 			"",
-			"Unwilling targets can negate the spell's effect on them with successful Will saves or with spell resistance. Those who interact with the target can attempt Will saves to see through the glamer, but spell resistance doesn't apply. Quintessence counters and dispels {spell/decrepit disguise}."
+			"Unwilling targets can negate the spell's effect on them with successful Will saves or with spell resistance. Those who interact with the target can attempt Will saves to see through the glamer, but spell resistance doesn't apply. Quintessence counters and dispels ‹spell/decrepit disguise›."
 		]
 	},
 	"quintessence_mastery": {
@@ -123,7 +123,7 @@
 			"",
 			"*Planewarp:* This allows the caster to create various objects or effects. When this spell is cast, you can replicate a number of effects from one or more of the following spells: control water, diminish plants, fog cloud, major creation, move earth, plant growth, secure shelter, soften earth and stone, spike growth, spike stones, stone shape, transmute mud to rock, transmute rock to mud, wall of stone, or wall of thorns. The total spell levels of effects to be created must not exceed 8. For example, you could use this spell to replicate the effects of fog cloud, secure shelter, and soften earth and stone (since these three spells have levels that add up to 8) or diminish plants and spike stones (since these two spells have levels that add up to 7), but not move earth and plant growth (since these two spells have levels that add up to 9). If a spell appears on different spell lists at different levels, use the lowest level-control water, for example, counts as a 4th-level spell even though it's a 6th-level spell for sorcerers and wizards. This list need not be exhaustive; at the GM's discretion, this list may be expanded to include similar spells from other sources or similarly themed effects that do not mimic specific spells. This version of the spell has a casting time of 1 round and lasts for 1 hour per caster level or until its effects are expended.",
 			"",
-			"*Shape Realm:* This functions similarly to {spell/create demiplane}, except that it alters an equivalent area of the plane the caster is on rather than creating a self-contained realm on the Astral or Ethereal Plane. You cannot grant the affected area an alignment or essence trait opposed by the plane's traits (such as granting the lawful-aligned trait to a portion of Elysium), and the area is not self-contained. At the GM's discretion, additional restrictions beyond those listed in the create demiplane spell may limit this spell's effects, and additional options for customizing the affected area may be available. This version of the spell has a casting time of 4 hours and lasts for 1 day per caster level. This version of quintessence mastery can be made {spell/permanen/t>cy} in the same way and for the same cost as create demiplane. This version of quintessence mastery does not function within the boundaries of a divine realm."
+			"*Shape Realm:* This functions similarly to ‹spell/create demiplane›, except that it alters an equivalent area of the plane the caster is on rather than creating a self-contained realm on the Astral or Ethereal Plane. You cannot grant the affected area an alignment or essence trait opposed by the plane's traits (such as granting the lawful-aligned trait to a portion of Elysium), and the area is not self-contained. At the GM's discretion, additional restrictions beyond those listed in the create demiplane spell may limit this spell's effects, and additional options for customizing the affected area may be available. This version of the spell has a casting time of 4 hours and lasts for 1 day per caster level. This version of quintessence mastery can be made ‹spell/permanen«t<cy› in the same way and for the same cost as create demiplane. This version of quintessence mastery does not function within the boundaries of a divine realm."
 		]
 	},
 	"radiation_ward": {
@@ -145,7 +145,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/329\" enchantment compulsion mindAffecting emotion alc=3 arc=3 bld=3 brd=2 inv=3 mes=2 psy=3 skd=2 sor=3 sum=3 usm=3 wit=3 wiz=3 ctSt cV cS rMed targets=\"one willing living creature per three levels, no two of which may be more than 30 ft. apart\" durD durCon=\"+ 1 round/level\" saveNo srY}",
 			"",
-			"Each affected creature gains a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a -2 penalty to AC. The effect is otherwise identical with a {class/barbarian/'s} rage except that the subjects aren't fatigued at the end of the rage."
+			"Each affected creature gains a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a -2 penalty to AC. The effect is otherwise identical with a ‹class/barbarian«'s› rage except that the subjects aren't fatigued at the end of the rage."
 		]
 	},
 	"raging_rubble": {
@@ -156,9 +156,9 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/149\" earth transmutation arc=3 bld=3 brd=3 clr=3 drd=3 hnt=3 orc=3 rma=3 skd=3 sor=3 war=3 wit=3 wiz=3 ctR=1 cV cS cDF rClose effect=\"one swarm of stones\" durCon=\"+ 2 rounds\" saveNo srY}",
 			"",
-			">*{race/Oread/s} have access to the following spell.*",
+			">*‹race/Oread«s› have access to the following spell.*",
 			"",
-			"You animate an area of rubble, gravel, or other small stones, creating a dangerous, rolling area of debris. The animated rubble has a space of 10 feet and acts like a {subtype/swarm}, damaging (1d6 hit points) and distracting (DC 12) anything within it. As a move action, you can direct the rubble to move up to 10 feet. If the rubble is attacked, treat it as a Medium animated object with the young creature simple template and the swarm subtype."
+			"You animate an area of rubble, gravel, or other small stones, creating a dangerous, rolling area of debris. The animated rubble has a space of 10 feet and acts like a ‹subtype/swarm›, damaging (1d6 hit points) and distracting (DC 12) anything within it. As a move action, you can direct the rubble to move up to 10 feet. If the rubble is attacked, treat it as a Medium animated object with the young creature simple template and the swarm subtype."
 		]
 	},
 	"rags_to_riches": {
@@ -305,7 +305,7 @@
 			"",
 			":::mythic{title=\"Mythic Ray of Enfeeblement\"}",
 			"",
-			"{SOURCE Mythic Adventures/105}  ",
+			"‹SOURCE Mythic Adventures/105›  ",
 			"The Strength penalty increases to 1d8 + 1 per 2 caster levels (maximum +10). If the target fails its save, it's fatigued.",
 			"",
 			":::"
@@ -363,7 +363,7 @@
 			"",
 			"You can decipher magical inscriptions on objects-books, scrolls, weapons, and the like-that would otherwise be unintelligible. This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed or trapped scroll. Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of read magic. You can read at the rate of one page (250 words) per minute. The spell allows you to identify a glyph of warding with a DC 13 Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with a Spellcraft check (DC 10 + spell level).",
 			"",
-			"Read magic can be made permanent with a {spell/permanency} spell."
+			"Read magic can be made permanent with a ‹spell/permanency› spell."
 		]
 	},
 	"read_weather": {
@@ -390,7 +390,7 @@
 			"",
 			"::spell{source=\"Chronicle of Legends/14\" conjuration teleportation clr=8 inq=6 orc=8 war=6 ctSt cV cS rTouch target=\"creature touched\" durRL=1 save=\"Will negates (see text)\" srN}",
 			"",
-			"All attacks made by the target match your alignment, counting as either chaotic, evil, good, or lawful as appropriate. If your alignment includes multiple alignment components, such as lawful good, you select one alignment component to impart to the target. Whenever the target confirms a critical hit against or takes damage from a creature, that creature must attempt a Will save. On a failed save, the creature is sent to the Outer Plane matching your alignment, as per {spell/plane shift}, and the spell ends. A warpriest treats this spell as a 6th-level cleric spell for the purposes of preparing the spell, determining DCs, and so forth."
+			"All attacks made by the target match your alignment, counting as either chaotic, evil, good, or lawful as appropriate. If your alignment includes multiple alignment components, such as lawful good, you select one alignment component to impart to the target. Whenever the target confirms a critical hit against or takes damage from a creature, that creature must attempt a Will save. On a failed save, the creature is sent to the Outer Plane matching your alignment, as per ‹spell/plane shift›, and the spell ends. A warpriest treats this spell as a 6th-level cleric spell for the purposes of preparing the spell, determining DCs, and so forth."
 		]
 	},
 	"reapers_coterie": {
@@ -480,7 +480,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/39\" transmutation alc=1 arc=1 brd=1 clr=1 drd=1 hnt=1 inq=1 inv=1 mag=1 mes=1 orc=1 psy=1 rma=1 skd=1 sor=1 war=1 wit=1 wiz=1 ctSt cV cS rPers target=you durI}",
 			"",
-			">*{race/Gnome/s} have access to the following spell.*",
+			">*‹race/Gnome«s› have access to the following spell.*",
 			"",
 			"You channel magic energy into your own aura, recharging your innate magic abilities. You regain one use of all 0-level and 1st-level spell-like abilities you can use as a result of a racial trait."
 		]
@@ -495,7 +495,7 @@
 			"",
 			"You fill your target with feelings of intense infatuation for a specific individual known to the target. At the time of the casting, you designate a single creature as the focus of the target's desire. Thereafter, the target does all it can to remain within 30 feet of the object of its desire. If the target moves outside this range, it gains the staggered condition until it is again near the focus of its desire. If remaining within 30 feet of the focus of its affection would place the target in obvious physical danger, the target can attempt a second save to break the spell's effect.",
 			"",
-			"Reckless infatuation counters {spell/unadulterated loathing}."
+			"Reckless infatuation counters ‹spell/unadulterated loathing›."
 		]
 	},
 	"recoil_fire": {
@@ -526,7 +526,7 @@
 			"",
 			"The greatest strength of recorporeal incarnation is the difficulty of detecting it as a disguise. If subjected to detect magic, the living target sheds no magical aura, though the focus item gives off an aura of strong necromantic magic. True seeing does not reveal the living target's true form, since the corpse's flesh magically obscures it. The spell detect undead and similar effects indicate the living target is an undead creature, but the target is not truly undead, and is not affected by any other effects that target undead creatures. Recorporeal incarnation does not disguise the target's alignment.",
 			"",
-			"If the living target of recorporeal incarnation dies while the spell is in effect, the spell continues. Any {spell/raise dead} or similar spell cast upon that target resurrects that target, not the corpse flesh. Since recorporeal incarnation destroys the majority of the target corpse's physical remains, the target corpse cannot be restored to life except by {spell/miracle}, {spell/resurrection}, {spell/true resurrection}, or {spell/wish}. Recorporeal incarnation can be made permanent by a 15th-level caster using {spell/permanency} with a material component worth 17,500 gp."
+			"If the living target of recorporeal incarnation dies while the spell is in effect, the spell continues. Any ‹spell/raise dead› or similar spell cast upon that target resurrects that target, not the corpse flesh. Since recorporeal incarnation destroys the majority of the target corpse's physical remains, the target corpse cannot be restored to life except by ‹spell/miracle›, ‹spell/resurrection›, ‹spell/true resurrection›, or ‹spell/wish›. Recorporeal incarnation can be made permanent by a 15th-level caster using ‹spell/permanency› with a material component worth 17,500 gp."
 		]
 	},
 	"red_hand_of_the_killer": {
@@ -583,19 +583,19 @@
 			"",
 			"All equipment worn or carried by a creature is similarly reduced by the spell.",
 			"",
-			"Melee and projectile weapons {misc/deal less damage}. Other magical properties are not affected by this spell. Any reduced item that leaves the reduced creature's possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown weapons deal their normal damage (projectiles deal damage based on the size of the weapon that fired them).",
+			"Melee and projectile weapons ‹misc/deal less damage›. Other magical properties are not affected by this spell. Any reduced item that leaves the reduced creature's possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown weapons deal their normal damage (projectiles deal damage based on the size of the weapon that fired them).",
 			"",
-			"Multiple magical effects that reduce size do not stack. Reduce person counters and dispels {spell/enlarge person}.",
+			"Multiple magical effects that reduce size do not stack. Reduce person counters and dispels ‹spell/enlarge person›.",
 			"",
-			"Reduce person can be made permanent with a {spell/permanency} spell.",
+			"Reduce person can be made permanent with a ‹spell/permanency› spell.",
 			"",
 			":::mythic{jl title=\"Mythic Reduce Person\"}",
 			"",
-			"{SOURCE Mythic Adventures/105}",
+			"‹SOURCE Mythic Adventures/105›",
 			"",
 			"You can decrease the target's size by up to two categories, to a minimum of Tiny. If the target shrinks two sizes, its weight decreases by a factor of 16 and it gains a +4 size bonus to Dexterity, a -4 size penalty to Strength, and a +2 bonus on attack rolls and to AC because of its decreased size. A Medium or Small humanoid creature whose size decreases to Tiny has a space of 2-1/2 feet and a natural reach of 0 feet.",
 			"",
-			"Mythic reduce person counters and dispels mythic {spell/enlarge person}.",
+			"Mythic reduce person counters and dispels mythic ‹spell/enlarge person›.",
 			"",
 			":::",
 			"",
@@ -663,7 +663,7 @@
 			"",
 			":::mythic{title=\"Mythic Regenerate\"}",
 			"",
-			"{SOURCE Mythic Adventures/105}  ",
+			"‹SOURCE Mythic Adventures/105›  ",
 			"The casting time changes to 1 standard action and the target changes to 1 living creature or corpse touched. The spell removes the blinded, dazzled, and deafened conditions. The target gains regeneration equal to your tier (overcome by acid and fire) for 1 round per caster level. If the target was killed by amputation or decapitation (such as from a vorpal weapon) within the past 1 round, the spell regenerates lost body parts and brings the creature back to life (as breath of life), treating it as if it had negative hp equal to its Constitution score.",
 			"",
 			":::"
@@ -714,15 +714,15 @@
 			"",
 			"The reincarnated creature gains all abilities associated with its new form, including forms of movement and speeds, natural armor, natural attacks, extraordinary abilities, and the like, but it doesn't automatically speak the language of the new form.",
 			"",
-			"A {spell/wish} or a {spell/miracle} spell can restore a reincarnated character to his or her original form.",
+			"A ‹spell/wish› or a ‹spell/miracle› spell can restore a reincarnated character to his or her original form.",
 			"",
 			"::h3[Reincarnation on Golarion]{jl}",
 			"",
-			"{SOURCE Inner Sea Races/193}",
+			"‹SOURCE Inner Sea Races/193›",
 			"",
-			"Death is a natural part of life in the Inner Sea region, but it need not be final. Yet returning to life is not without its perils and peculiarities. While reincarnation is a significant part of the culture of certain races - particularly the {race/samsaran/s}, who reincarnate countless times over the centuries on their slow paths toward perfection and enlightenment - the use of the spell reincarnate allows any character to experience this mystical and fundamentally life-changing event. The table of random races presented here expands on the one presented with the reincarnate spell. At the GM's discretion, you may use the following optional table when rolling to determine what new body is generated when a reincarnate spell is cast. This Golarion-specific table excludes all races that possess racial Hit Dice, but also adds in new races that are relatively widespread and common in the region. Not all of the races appear on the following table-{race/android/s}, for example, are beyond the scope of a reincarnate spell to create (although dead androids and {race/wyrwood/s} can themselves be reincarnated, they have no chance of coming back in the same type of body). Others, such as {race/kasatha/s} and other alien races, are not true natives of Golarion and thus lack the \"spiritual weight\" needed to be included in a table of reincarnation possibilities. Of course, a result of \"GM's choice\" gives each GM the opportunity to break these assumptions about allowed incarnations as she sees fit.",
+			"Death is a natural part of life in the Inner Sea region, but it need not be final. Yet returning to life is not without its perils and peculiarities. While reincarnation is a significant part of the culture of certain races - particularly the ‹race/samsaran«s›, who reincarnate countless times over the centuries on their slow paths toward perfection and enlightenment - the use of the spell reincarnate allows any character to experience this mystical and fundamentally life-changing event. The table of random races presented here expands on the one presented with the reincarnate spell. At the GM's discretion, you may use the following optional table when rolling to determine what new body is generated when a reincarnate spell is cast. This Golarion-specific table excludes all races that possess racial Hit Dice, but also adds in new races that are relatively widespread and common in the region. Not all of the races appear on the following table-‹race/android«s›, for example, are beyond the scope of a reincarnate spell to create (although dead androids and ‹race/wyrwood«s› can themselves be reincarnated, they have no chance of coming back in the same type of body). Others, such as ‹race/kasatha«s› and other alien races, are not true natives of Golarion and thus lack the \"spiritual weight\" needed to be included in a table of reincarnation possibilities. Of course, a result of \"GM's choice\" gives each GM the opportunity to break these assumptions about allowed incarnations as she sees fit.",
 			"",
-			"When using these expanded tables, roll first on the Core Incarnations table. This table presents an array of familiar races. Move on to the Other Incarnations table only if directed to do so. This larger list presents a selection of less-common races from across Golarion, some of which might be familiar to the people of the Inner Sea, while others might be almost entirely alien. If the incarnation rolled has multiple ethnicities or heritages - as is the case with {race/aasimar}, {race/dhampir}, and several similar races - randomly determine which ethnicity or heritage applies to the new incarnation. Ability score modifiers remain the same regardless of the final ethnicity or heritage.",
+			"When using these expanded tables, roll first on the Core Incarnations table. This table presents an array of familiar races. Move on to the Other Incarnations table only if directed to do so. This larger list presents a selection of less-common races from across Golarion, some of which might be familiar to the people of the Inner Sea, while others might be almost entirely alien. If the incarnation rolled has multiple ethnicities or heritages - as is the case with ‹race/aasimar›, ‹race/dhampir›, and several similar races - randomly determine which ethnicity or heritage applies to the new incarnation. Ability score modifiers remain the same regardless of the final ethnicity or heritage.",
 			"",
 			"#### Core Incarnations",
 			"",
@@ -811,7 +811,7 @@
 			"",
 			"::spell{source=\"Ultimate Combat/241\" transmutation arc=1 clr=1 mag=1 occ=1 orc=1 rma=1 sor=1 war=1 wit=1 wiz=1 ctSt cV cS cMDFp=\"a metal pin\" rTouch target=\"one armor suit or weapon touched\" durML=10 will srY harmless object}",
 			"",
-			"You reinforce a weapon or armor suit to give it a temporarily upgrade or mitigate the {misc/fragile} quality. A suit of armor or weapon touched that has the fragile quality is not considered to have the fragile quality for the spell's duration. Normal armor suits or weapons subjected to this spell instead gain the masterwork quality for the spell's duration and their hardness is doubled. If this spell is cast on masterwork or magical armor or weapons, their hardness is doubled for the duration of the spell.",
+			"You reinforce a weapon or armor suit to give it a temporarily upgrade or mitigate the ‹misc/fragile› quality. A suit of armor or weapon touched that has the fragile quality is not considered to have the fragile quality for the spell's duration. Normal armor suits or weapons subjected to this spell instead gain the masterwork quality for the spell's duration and their hardness is doubled. If this spell is cast on masterwork or magical armor or weapons, their hardness is doubled for the duration of the spell.",
 			"",
 			"### Communal Reinforce Armaments",
 			"",
@@ -925,7 +925,7 @@
 			"",
 			"Remove blindness/deafness cures blindness or deafness (your choice), whether the effect is normal or magical in nature. The spell does not restore ears or eyes that have been lost, but it repairs them if they are damaged.",
 			"",
-			"Remove blindness/deafness counters and dispels {spell/blindness//deafness}."
+			"Remove blindness/deafness counters and dispels ‹spell/blindness/deafness›."
 		]
 	},
 	"remove_blindness": { "redirect": "remove_blindness_deafness" },
@@ -941,7 +941,7 @@
 			"",
 			"Remove curse can remove all curses on an object or a creature. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each curse affecting the target. Success means that the curse is removed. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although a successful caster level check enables the creature afflicted with any such cursed item to remove and get rid of it.",
 			"",
-			"Remove curse counters and dispels {spell/bestow curse}."
+			"Remove curse counters and dispels ‹spell/bestow curse›."
 		]
 	},
 	"remove_disease": {
@@ -967,7 +967,7 @@
 			"",
 			"You instill courage in the subject, granting it a +4 morale bonus against fear effects for 10 minutes. If the subject is under the influence of a fear effect when receiving the spell, that effect is suppressed for the duration of the spell.",
 			"",
-			"Remove fear counters and dispels {spell/cause fear}."
+			"Remove fear counters and dispels ‹spell/cause fear›."
 		]
 	},
 	"remove_paralysis": {
@@ -1093,7 +1093,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/191\" necromancy arc=5 sor=5 spr=5 wiz=5 ctSt cV cS rClose targets=\"one undead creature/level, no two of which can be more than 30 ft. apart\" durI willHalf srY harmless}",
 			"",
-			"This spell functions as {spell/repair undead}, except as noted above, and it cures 1d8 points of damage + 1 point per caster level (maximum +20) on each selected creature."
+			"This spell functions as ‹spell/repair undead›, except as noted above, and it cures 1d8 points of damage + 1 point per caster level (maximum +20) on each selected creature."
 		]
 	},
 	"mass_repair_undead": { "redirect": "repair_undead_mass" },
@@ -1144,7 +1144,7 @@
 			"",
 			":::mythic{title=\"Mythic Repel Wood\"}",
 			"",
-			"{SOURCE Mythic Adventures/105}  ",
+			"‹SOURCE Mythic Adventures/105›  ",
 			"The casting time changes to 1 immediate action. You may cause one affected wooden object up to 5 inches in diameter to splinter and break.",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, the area changes to a 60-foot, cone-shaped emanation from you.",
@@ -1189,7 +1189,7 @@
 			"",
 			"This spell allows you to safeguard important knowledge, even from yourself. When casting this spell, you recount one piece of knowledge you possess (up to a maximum of 50 words). This knowledge disappears utterly from your mind, and you might not realize you forgot something. The magic of the spell patches omissions in your memory with indistinct haze. Repress memory protects against detect thoughts, discern lies, zone of truth, and similar spells, though careful questioning may reveal the gaps in your memory, or that your memory has been affected by the spell.",
 			"",
-			"A repressed memory can be restored only by {spell/break enchantment}, {spell/psychic surgery}, {spell/limited wish}, {spell/miracle}, or {spell/wish}. If you use this spell to negate the memory of a magical compulsion, it doesn't remove the compulsion, nor does it remove procedural memories that might affect your skills or class abilities.",
+			"A repressed memory can be restored only by ‹spell/break enchantment›, ‹spell/psychic surgery›, ‹spell/limited wish›, ‹spell/miracle›, or ‹spell/wish›. If you use this spell to negate the memory of a magical compulsion, it doesn't remove the compulsion, nor does it remove procedural memories that might affect your skills or class abilities.",
 			"",
 			"At the GM's discretion, multiple castings of this spell might erase memories of a lengthier event or all memory of a place or individual from your memory."
 		]
@@ -1200,7 +1200,7 @@
 		"description": [
 			"## Reprobation",
 			"",
-			"::spell{source=\"Ultimate Magic/234\" school=\"%%spelldef/transmutation%% &#91&%%spelldef/curse%%, see text&#93&\" clr=5 drd=5 hnt=5 inq=4 orc=5 pal=4 war=5 ctM=1 cV cS cDF rClose target=\"one creature of your faith\" durP saveNo srY}",
+			"::spell{source=\"Ultimate Magic/234\" school=\"‹spelldef/transmutation› &#91&‹spelldef/curse›, see text&#93&\" clr=5 drd=5 hnt=5 inq=4 orc=5 pal=4 war=5 ctM=1 cV cS cDF rClose target=\"one creature of your faith\" durP saveNo srY}",
 			"",
 			"You cast the target out of your religion as a curse and punishment for acts or misdeeds against the tenets of your faith. This has three effects.",
 			"",
@@ -1212,7 +1212,7 @@
 			"",
 			"This powerful spell with no saving throw is used to punish severe transgressions that do not deserve death or when you prefer to be merciful rather than meting out a more severe punishment. However, the spell has one drawback that prevents it from being overused. If the target did not commit any acts or misdeeds against your faith, the spell does not affect it but affects you instead, even if you are innocent of the charges. This potential backlash prevents inquisitions run by corrupt members of the faith, and it means that most accusations of misconduct are carefully investigated (and usually verified with magic) before this sentence is handed down.",
 			"",
-			"This mark can be removed like any other curse effect. In addition, a member of your faith can use {spell/atonement} to break the curse if he makes a caster level check against your caster level; {spell/remove curse} also requires a caster of your faith and a caster level check to end the reprobation."
+			"This mark can be removed like any other curse effect. In addition, a member of your faith can use ‹spell/atonement› to break the curse if he makes a caster level check against your caster level; ‹spell/remove curse› also requires a caster of your faith and a caster level check to end the reprobation."
 		]
 	},
 	"repugnant_taste": {
@@ -1256,7 +1256,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/49\" transmutation arc=4 mag=3 mes=3 pal=3 psy=4 rma=4 sor=4 wit=4 wiz=4 ctSt cV cS rPers area=\"special, see text\" dur=\"1 round/ level\" save=\"none (see below)\" srY}",
 			"",
-			">*{race/Half-elves} have access to the following spell.*",
+			">*‹race/Half-elves› have access to the following spell.*",
 			"",
 			"Upon casting this spell, damage from melee attacks and touch spells gets transferred into a special pool that you then redirect before the spell's duration expires.",
 			"",
@@ -1273,7 +1273,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/333\" force evocation arc=4 occ=4 psy=4 sor=4 wiz=4 ctSt cV cS cFp=\"a crystal sphere\" rClose effect=\"1-ft.-diameter/level sphere, centered around a creature\" durML=1 durD refl srY}",
 			"",
-			"A globe of shimmering force encloses a creature, provided the creature is small enough to fit within the diameter of the sphere. The sphere contains its subject for the spell's duration. The sphere functions as a {spell/wall of force}, except that it can be negated by {spell/dispel magic}. A subject inside the sphere can breathe normally. The sphere cannot be physically moved either by people outside it or by the struggles of those within."
+			"A globe of shimmering force encloses a creature, provided the creature is small enough to fit within the diameter of the sphere. The sphere contains its subject for the spell's duration. The sphere functions as a ‹spell/wall of force›, except that it can be negated by ‹spell/dispel magic›. A subject inside the sphere can breathe normally. The sphere cannot be physically moved either by people outside it or by the struggles of those within."
 		]
 	},
 	"resinous_skin": {
@@ -1303,11 +1303,11 @@
 			"",
 			"Resist energy absorbs only damage. The subject could still suffer unfortunate side effects.",
 			"",
-			"Resist energy overlaps (and does not stack with) {spell/protection from energy}. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted.",
+			"Resist energy overlaps (and does not stack with) ‹spell/protection from energy›. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted.",
 			"",
 			":::mythic{jl title=\"Mythic Resist Energy\"}",
 			"",
-			"{SOURCE Mythic Adventures/105}",
+			"‹SOURCE Mythic Adventures/105›",
 			"",
 			"The target gains a +4 bonus on saves against effects that deal damage of the selected energy type. Once each round as a free action, the target can choose one adjacent ally to gain energy resistance 5 against the chosen energy type for 1 round. This increases to energy resistance 10 at caster level 7 and energy resistance 15 at caster level 11.",
 			"",
@@ -1346,7 +1346,7 @@
 			"",
 			"You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves.",
 			"",
-			"Resistance can be made permanent with a {spell/permanency} spell."
+			"Resistance can be made permanent with a ‹spell/permanency› spell."
 		]
 	},
 	"resize_item": {
@@ -1359,7 +1359,7 @@
 			"",
 			"You alter a magic weapon or suit of armor to be up to two size categories larger or smaller. If the spell on a resized suit of armor ends while the armor is being worn, the armor falls off harmlessly. If the spell would cause an item to grow too large for the area containing it, its growth halts just before that point.",
 			"",
-			"Resize item can be made permanent with a {spell/permanency} spell for 7,500 gp, in which case the affected object is set at one specific new size within two steps of its original size."
+			"Resize item can be made permanent with a ‹spell/permanency› spell for 7,500 gp, in which case the affected object is set at one specific new size within two steps of its original size."
 		]
 	},
 	"resonating_word": {
@@ -1385,7 +1385,7 @@
 			"",
 			":::mythic{title=\"Mythic Resonating Word\"}",
 			"",
-			"{SOURCE Mythic Adventures/105}  ",
+			"‹SOURCE Mythic Adventures/105›  ",
 			"The damage dealt increases to 8d6 points on the 1st and 2nd rounds and 15d6 on the 3rd round. The target takes a -4 penalty on saving throws against all sonic effects.",
 			"",
 			":::"
@@ -1461,7 +1461,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/238\" curse necromancy clr=4 drd=5 hnt=5 orc=4 sha=5 war=4 wit=5 ctR=1 cV cS cMDFp=\"ashes and a vial of holy or unholy water\" rTouch target=\"one dead creature touched\" durP saveNo srN}",
 			"",
-			"You place a curse upon a dead creature that bars its spirit from returning. Anyone casting a spell that would communicate with the dead creature, return it to life, or turn it into an undead creature must succeed on a caster level check with a DC of 11 plus your caster level. Rest eternal cannot be dispelled, but it can be negated with {spell/remove curse} or {spell/break enchantment}."
+			"You place a curse upon a dead creature that bars its spirit from returning. Anyone casting a spell that would communicate with the dead creature, return it to life, or turn it into an undead creature must succeed on a caster level check with a DC of 11 plus your caster level. Rest eternal cannot be dispelled, but it can be negated with ‹spell/remove curse› or ‹spell/break enchantment›."
 		]
 	},
 	"restful_cloak": {
@@ -1483,7 +1483,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/239\" necromancy brd=1 skd=1 ctM=10 cV cS cMp=\"a pinch of sand\" rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" dur=\"8 hours or 24 hours; see text\" fort srY harmless}",
 			"",
-			"You cast this spell immediately prior to resting. While under the effects of this spell, you and your allies enjoy a restful night's sleep. If a subject completes a full night's rest, it regains hit points as if it had undergone a full day of {rule/bed rest} (regaining twice its character level in hit points). If a subject completes a full day's rest, it regains three times its character level in hit points. Any significant interruption during the rest (such as being awoken) prevents any healing that night and ends the effect of this spell on the awakened subject. Any healing acquired while under the effects of restful sleep is considered natural healing, and has no affect on effects requiring magical healing to cure."
+			"You cast this spell immediately prior to resting. While under the effects of this spell, you and your allies enjoy a restful night's sleep. If a subject completes a full night's rest, it regains hit points as if it had undergone a full day of ‹rule/bed rest› (regaining twice its character level in hit points). If a subject completes a full day's rest, it regains three times its character level in hit points. Any significant interruption during the rest (such as being awoken) prevents any healing that night and ends the effect of this spell on the awakened subject. Any healing acquired while under the effects of restful sleep is considered natural healing, and has no affect on effects requiring magical healing to cure."
 		]
 	},
 	"restoration": {
@@ -1540,13 +1540,13 @@
 			"",
 			"::spell{source=\"Ultimate Magic/235\" conjuration healing sum=2 usm=2 ctR=3 cV cS rTouch target=\"eidolon touched\" durI will srY harmless}",
 			"",
-			"This spell functions as {spell/lesser restoration}, except it only affects an eidolon.",
+			"This spell functions as ‹spell/lesser restoration›, except it only affects an eidolon.",
 			"",
 			"### Restore Eidolon",
 			"",
 			"::spell{source=\"Ultimate Magic/235\" conjuration healing sum=3 usm=3 ctM=1 cV cS cMp=\"diamond dust worth 100 gp or 1,000 gp, see text\" rTouch target=\"eidolon touched\" durI will srY harmless}",
 			"",
-			"This spell functions as {spell/restoration}, except it only affects an eidolon."
+			"This spell functions as ‹spell/restoration›, except it only affects an eidolon."
 		]
 	},
 	"lesser_restore_eidolon": { "redirect": "restore_eidolon_lesser" },
@@ -1591,7 +1591,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/334\" conjuration healing clr=7 orc=7 sha=8 wit=8 ctM=1 cV cS cDF cMp=\"diamond worth 10,000 gp\" rTouch target=\"dead creature touched\" durI save=\"none, see text\" srY}",
 			"",
-			"This spell functions like {spell/raise dead}, except that you are able to restore life and complete strength to any deceased creature.",
+			"This spell functions like ‹spell/raise dead›, except that you are able to restore life and complete strength to any deceased creature.",
 			"",
 			"The condition of the remains is not a factor. So long as some small portion of the creature's body still exists, it can be resurrected, but the portion receiving the spell must have been part of the creature's body at the time of death. (The remains of a creature hit by a disintegrate spell count as a small portion of its body.) The creature can have been dead no longer than 10 years per caster level.",
 			"",
@@ -1605,15 +1605,15 @@
 			"",
 			"This spell functions as resurrection except that instead of recalling the dead soul to life, the spell calls a shadow demon with the advanced simple template to possess the body. If you fail to overcome the subject's spell resistance, the subject's soul can negate the calling and gain the option to return to life (as resurrection) in the restored body. The possession otherwise functions (as possession) except that the subject's soul is not present to resist. When false resurrection ends or the demon is removed from the subject, the demon returns to the Abyss, leaving the body alive but soulless (like that created by clone). If the soul hasn't been returned to life already, it has the option to return in the now-empty body if it still lives (as resurrection). If the body was killed, the demon is sent back to the Abyss but the subject remains dead.",
 			"",
-			"Attempts to identify false resurrection with a skill check incorrectly identify it as resurrection (see the {spelldef/ruse} descriptor). A fooled viewer mistakes false resurrection's aura as the lingering aura of an instantaneous conjuration effect.",
+			"Attempts to identify false resurrection with a skill check incorrectly identify it as resurrection (see the ‹spelldef/ruse› descriptor). A fooled viewer mistakes false resurrection's aura as the lingering aura of an instantaneous conjuration effect.",
 			"",
 			"::h3[Greater False Resurrection]{jl}",
 			"",
 			"::spell{source=\"Ultimate Intrigue/214\" conjuration calling evil lawful ruse clr=9 orc=9 ctM=1 cV cS cDF cMp=\"diamond worth 25,000 gp\" rTouch target=\"dead creature touched\" durP saveNo srY}",
 			"",
-			"This spell functions as false resurrection except that it calls a belier devil with the young simple template to possess the body and all parts of false resurrection that function like resurrection instead function like {spell/true resurrection}.",
+			"This spell functions as false resurrection except that it calls a belier devil with the young simple template to possess the body and all parts of false resurrection that function like resurrection instead function like ‹spell/true resurrection›.",
 			"",
-			"Attempts to identify greater false resurrection with a skill check incorrectly identify it as true resurrection (see the {spelldef/ruse} descriptor). A fooled viewer mistakes greater false resurrection's aura as the lingering aura of an instantaneous conjuration effect."
+			"Attempts to identify greater false resurrection with a skill check incorrectly identify it as true resurrection (see the ‹spelldef/ruse› descriptor). A fooled viewer mistakes greater false resurrection's aura as the lingering aura of an instantaneous conjuration effect."
 		]
 	},
 	"false_resurrection": {
@@ -1646,7 +1646,7 @@
 			"",
 			"If a creature successfully takes the item targeted by this spell while you are holding, wearing, or wielding it, the creature must attempt a Will save. If the creature fails its save, it becomes fatigued, and it must attempt a new saving throw at the end of its turn every round it does not return the item to you. Failing a second saving throw causes the target to become exhausted. As long as the victim of the curse is actively working to return the object, its exhaustion is reduced to fatigue. The fatigue and exhaustion cannot be removed by effects that normally remove them, though immunity to fatigue and exhaustion protect against the conditions as normal.",
 			"",
-			"This curse can be ended with {spell/remove curse} or by returning the item to you. You can have this spell active on one item at a time."
+			"This curse can be ended with ‹spell/remove curse› or by returning the item to you. You can have this spell active on one item at a time."
 		]
 	},
 	"retrieve_item": {
@@ -1670,7 +1670,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/185\" divination arc=7 med=3 occ=3 psy=5 sor=7 wiz=7 ctM=1 cV cS rPers target=you durCon=\", up to 1 minute/level\"}",
 			"",
-			"This spell allows you to gain psychic impressions from past events that occurred in your current location. Retrocognition reveals psychic impressions from events that occurred over the course of the last hour throughout the first minute of the duration, followed by impressions from the next hour back the next minute you concentrate, and so on. If a psychically traumatic or turbulent event happened during that time period, you must succeed at a {rule/concentration} check (DC = 20, 30, or 40, depending on the severity of the psychic disturbance) or lose concentration on the spell.",
+			"This spell allows you to gain psychic impressions from past events that occurred in your current location. Retrocognition reveals psychic impressions from events that occurred over the course of the last hour throughout the first minute of the duration, followed by impressions from the next hour back the next minute you concentrate, and so on. If a psychically traumatic or turbulent event happened during that time period, you must succeed at a ‹rule/concentration› check (DC = 20, 30, or 40, depending on the severity of the psychic disturbance) or lose concentration on the spell.",
 			"",
 			"At caster level 13th and higher, you can choose to collect impressions from over the course of a longer interval of time than an hour, beginning at 1 week per minute of concentration (as listed on the table below). The amount of detail you receive diminishes, so this eventually makes it harder to distinguish impressions left by anything but the most major events.",
 			"",
@@ -1793,13 +1793,13 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/335\" transmutation arc=7 drd=8 psy=7 sor=7 wiz=7 ctSt cV cS cMDFp=\"lodestone and iron fillings\" rMed area=\"up to one 10-ft. cube/level (S)\" durD durRL=1 save=\"none, see text\" srN}",
 			"",
-			"This spell reverses gravity in an area, causing unattached objects and creatures in the area to fall upward and reach the top of the area in 1 round. If a solid object (such as a ceiling) is encountered in this fall, {rule/falling objects} and creatures strike it in the same manner as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, until the spell ends. At the end of the spell duration, affected objects and creatures fall downward.",
+			"This spell reverses gravity in an area, causing unattached objects and creatures in the area to fall upward and reach the top of the area in 1 round. If a solid object (such as a ceiling) is encountered in this fall, ‹rule/falling objects› and creatures strike it in the same manner as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, until the spell ends. At the end of the spell duration, affected objects and creatures fall downward.",
 			"",
 			"Provided it has something to hold onto, a creature caught in the area can attempt a Reflex save to secure itself when the spell strikes. Creatures who can fly or levitate can keep themselves from falling.",
 			"",
 			":::mythic{title=\"Mythic Reverse Gravity\"}",
 			"",
-			"{SOURCE Mythic Adventures/105}  ",
+			"‹SOURCE Mythic Adventures/105›  ",
 			"Creatures in the area or that enter the area must succeed at a Fortitude save or be nauseated.",
 			"",
 			"*Augmented (8th):* If you expend three uses of mythic power, once per round as a move action you may select one secured creature (one that succeeded at its Reflex save) or attached object (such as a tree or cottage) and force it to attempt a Fortitude save against the spell. The selected creature or object can weigh no more than 100 pounds per caster level. If it fails the save, it's pulled free and falls upward.",
@@ -1835,7 +1835,7 @@
 			"",
 			":::mythic{title=\"Mythic Ricochet Shot\"}",
 			"",
-			"{SOURCE Mythic Adventures/106}  ",
+			"‹SOURCE Mythic Adventures/106›  ",
 			"If the attack hits the secondary target, the wielder can select a tertiary target within 20 feet of the secondary target. This functions like a ricochet off the primary target. The tertiary target must be a different creature than the primary target.",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, the secondary and tertiary attacks gain the enhancement bonus and magic qualities of the attack against the primary target.",
@@ -1873,7 +1873,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/185\" necromancy arc=4 med=2 mes=4 occ=3 psy=4 sor=4 spr=3 sum=4 wit=4 wiz=4 ctSt cV cS rMed target=\"one creature\" dur=\"1 hour/level (d); see text\" will srY}",
 			"",
-			"You stealthily project your soul into the host's body as an observer, with limited ability to influence the target. This functions as {spell/possession}, except the host is still in full control of its body and is unaware you are possessing it. You can't communicate with the host directly, but you can cast mind-affecting spells or riding possession on the host as long as you can cast these spells as purely mental actions. Even if the spell you cast would normally affect more than one target or an area, it can affect only the host. If the host succeeds at a saving throw against a spell that you cast in this way, it immediately becomes aware that it is possessed, and if it was already aware, it receives another saving throw against riding possession. {spell/Protection from evil} and similar effects don't expel you from the host, but they do prevent you from casting further spells from within your host until their durations expire."
+			"You stealthily project your soul into the host's body as an observer, with limited ability to influence the target. This functions as ‹spell/possession›, except the host is still in full control of its body and is unaware you are possessing it. You can't communicate with the host directly, but you can cast mind-affecting spells or riding possession on the host as long as you can cast these spells as purely mental actions. Even if the spell you cast would normally affect more than one target or an area, it can affect only the host. If the host succeeds at a saving throw against a spell that you cast in this way, it immediately becomes aware that it is possessed, and if it was already aware, it receives another saving throw against riding possession. ‹spell/Protection from evil› and similar effects don't expel you from the host, but they do prevent you from casting further spells from within your host until their durations expire."
 		]
 	},
 	"rift_of_ruin": {
@@ -1893,7 +1893,7 @@
 			"",
 			"When this spell's duration ends, the rift snaps shut, violently expelling all creatures still within. These creatures take double damage from the rift's environs in that round and are knocked prone as they are returned to the surface above.",
 			"",
-			"At any time during the spell's duration, you can use it to conjure a number of Abyssal denizens into the surrounding region as a standard action. Doing so causes the rift to snap shut, ending the spell's duration and returning any creatures that had fallen into it to the ground as detailed above. As the rift snaps shut, choose one of the following creatures or groups of creatures to appear in the area; these Abyssal denizens are treated as if you had summoned them via {spell/summon monster VII} and remain for a number of rounds equal to the remaining duration of the rift of ruin spell. You can choose to summon one of the following: one bebilith, one vrock, 1d3 shadow demons, 1d3 succubi, 1d4+1 babaus, or 1d4+1 brimoraks."
+			"At any time during the spell's duration, you can use it to conjure a number of Abyssal denizens into the surrounding region as a standard action. Doing so causes the rift to snap shut, ending the spell's duration and returning any creatures that had fallen into it to the ground as detailed above. As the rift snaps shut, choose one of the following creatures or groups of creatures to appear in the area; these Abyssal denizens are treated as if you had summoned them via ‹spell/summon monster VII› and remain for a number of rounds equal to the remaining duration of the rift of ruin spell. You can choose to summon one of the following: one bebilith, one vrock, 1d3 shadow demons, 1d3 succubi, 1d4+1 babaus, or 1d4+1 brimoraks."
 		]
 	},
 	"righteous_blood": {
@@ -1963,7 +1963,7 @@
 			"",
 			"::spell{source=\"Elemental Master's Handbook/14\" conjuration water arc=4 bld=3 drd=4 hnt=3 mag=4 occ=4 psy=4 rgr=3 sha=4 sor=4 sum=4 usm=4 wiz=4 ctSt cV cS cMp=\"a lily pad\" rMed area=\"cylinder (20-ft. radius, 10 ft. high)\" durD durRL=1 saveNo srN}",
 			"",
-			"You conjure a cylinder of calm water on an area of solid ground or on top of a body of water. The water forms quickly but displaces only air; it doesn't push away objects or creatures, though anything in the area when the spell is cast is submerged. Unconscious air-breathing creatures caught in the area immediately begin to drown, but other air-breathing creatures can {misc/hold their breath} while in the cylinder. Movement through the cylinder at normal speed requires a successful DC 10 Swim check (otherwise, creatures move at one-quarter speed). If conjured in an area with insufficient room for the entire cylinder, the cylinder attains its maximum possible size. It retains its shape in defiance of gravity for the spell's duration, and any creature can enter or exit the cylinder's sides as easily as stepping into or out of a pool of ordinary water. The water disappears at the end of the spell's duration, so creatures swimming in the water immediately fall to the ground."
+			"You conjure a cylinder of calm water on an area of solid ground or on top of a body of water. The water forms quickly but displaces only air; it doesn't push away objects or creatures, though anything in the area when the spell is cast is submerged. Unconscious air-breathing creatures caught in the area immediately begin to drown, but other air-breathing creatures can ‹misc/hold their breath› while in the cylinder. Movement through the cylinder at normal speed requires a successful DC 10 Swim check (otherwise, creatures move at one-quarter speed). If conjured in an area with insufficient room for the entire cylinder, the cylinder attains its maximum possible size. It retains its shape in defiance of gravity for the spell's duration, and any creature can enter or exit the cylinder's sides as easily as stepping into or out of a pool of ordinary water. The water disappears at the end of the spell's duration, so creatures swimming in the water immediately fall to the ground."
 		]
 	},
 	"rite_of_bodily_purity": {
@@ -1996,9 +1996,9 @@
 			"",
 			"::spell{source=\"Chronicle of Legends/14\" polymorph transmutation drd=9 sha=9 wit=9 ctSt cV cS cMp=\"a hardened piece of tree sap\" rClose target=\"one creature/two levels, no two of which can be more than 30 ft. apart\" durP save=\"Fortitude negates, Will partial (see text)\" srY}",
 			"",
-			"This spell transforms your targets into trees as per {spell/tree shape}, except the targets transform into living trees that resemble their original forms. If a target is in a situation that would prove fatal to a tree created by this spell, such as off the ground or under water, the target receives a +4 bonus on its Fortitude save.",
+			"This spell transforms your targets into trees as per ‹spell/tree shape›, except the targets transform into living trees that resemble their original forms. If a target is in a situation that would prove fatal to a tree created by this spell, such as off the ground or under water, the target receives a +4 bonus on its Fortitude save.",
 			"",
-			"If the spell succeeds, the target must also attempt a Will save. On a failed save, the creature loses the ability to observe what transpires around it, and its mental capacity reverts to that of a tree, rendering it unable to take any kind of action. A target that succeeds at the saving throw can observe the area around it but can't take any actions other than communicate to those under the effects of a {spell/speak with plants} spell or to other trees. Over the span of 1 year, the target's appearance becomes more like a common tree and less like its original form.",
+			"If the spell succeeds, the target must also attempt a Will save. On a failed save, the creature loses the ability to observe what transpires around it, and its mental capacity reverts to that of a tree, rendering it unable to take any kind of action. A target that succeeds at the saving throw can observe the area around it but can't take any actions other than communicate to those under the effects of a ‹spell/speak with plants› spell or to other trees. Over the span of 1 year, the target's appearance becomes more like a common tree and less like its original form.",
 			"",
 			"Any polymorph effects on a target are automatically dispelled when the target fails to resist the effects of rival's weald, and as long as rival's weald remains in effect, the target cannot use other polymorph spells or effects to assume a new form. Incorporeal, gaseous, and plant creatures are immune to rival's weald."
 		]
@@ -2050,7 +2050,7 @@
 			"",
 			"::spell{source=\"Magic Tactics Toolbox/13\" conjuration creation arc=5 clr=6 drd=6 hnt=6 occ=6 psy=6 sor=5 sum=5 usm=5 war=6 wiz=5 ctSt cV cS cMp=\"powered diamond dust worth 10 gp\" rMed effect=\"mobile 10-ft.-by-10-ft. hold, 10 ft. deep/2 levels\" durRL=1 refl srN}",
 			"",
-			"This spell functions as {spell/create pit}, except the pit is capable of movement. As a move action, you can direct the pit to move up to 20 feet, though it must always remain on a horizontal surface large enough to accommodate its area. If the pit's movement causes it to share a space with a creature on the same horizontal surface, that creature must succeed at a Reflex saving throw or fall into the pit. Any creature that avoids falling into the pit when it reaches its new destination moves to the nearest safe space. Creatures that fall into the pit move with it if it is relocated."
+			"This spell functions as ‹spell/create pit›, except the pit is capable of movement. As a move action, you can direct the pit to move up to 20 feet, though it must always remain on a horizontal surface large enough to accommodate its area. If the pit's movement causes it to share a space with a creature on the same horizontal surface, that creature must succeed at a Reflex saving throw or fall into the pit. Any creature that avoids falling into the pit when it reaches its new destination moves to the nearest safe space. Creatures that fall into the pit move with it if it is relocated."
 		]
 	},
 	"rock_whip": {
@@ -2148,7 +2148,7 @@
 			"",
 			"You curse two or more creatures to sicken and waste away while in each others' company. Each target that fails a Fortitude save becomes cursed with a wasting sickness. The disease has no onset period, and those who contracted it must attempt a second Fortitude save immediately. A target that fails this second saving throw takes 1d6 points of Constitution damage and 1d6 points of Charisma damage. Every day thereafter, each target that was within 100 feet of another target during the previous 24 hours takes 1d6 points of Constitution damage and 1d6 points of Charisma damage (reroll to determine the specific amount of damage each day). A successful Fortitude save negates the damage for that day only.",
 			"",
-			"A target cannot be healed of damage from this disease (naturally or by magic) while the target is within 100 feet of another target. If healed of such damage while away from other targets, a target might take damage again the day they reconvene. This disease is a curse, and can never be cured by successful saving throws. The spell can be ended on a single target only with a successful casting of {spell/remove curse} followed by a successful casting of {spell/remove disease} while the target is within 100 feet of at least one other target. When the curse remains on only one target, it ends automatically."
+			"A target cannot be healed of damage from this disease (naturally or by magic) while the target is within 100 feet of another target. If healed of such damage while away from other targets, a target might take damage again the day they reconvene. This disease is a curse, and can never be cured by successful saving throws. The spell can be ended on a single target only with a successful casting of ‹spell/remove curse› followed by a successful casting of ‹spell/remove disease› while the target is within 100 feet of at least one other target. When the curse remains on only one target, it ends automatically."
 		]
 	},
 	"rovagugs_fury": {
@@ -2163,7 +2163,7 @@
 			"",
 			"::spell{source=\"Inner Sea Gods/239;Pathfinder #23: The Impossible Eye/66;Gods and Magic/33\" transmutation adp=2 arc=2 bld=2 clr=2 inq=2 orc=2 rma=2 sor=2 war=2 wit=2 wiz=2 faith=Rovagug ctSt cV cS rFt=30 area=\"cone-shaped burst\" durI saveNo srY}",
 			"",
-			"You create a minor earthquake that can trip creatures. Attempt a single combat maneuver check and apply the result against the CMD of every creature in the area. If your roll equals or exceeds a creature's CMD, that creature is knocked prone. This trip attack does not provoke an attack of opportunity (though you do provoke one for casting the spell), nor are you knocked prone if you fail the check by 10 or more. Unlike with a regular trip attack, you can trip any creature touching the ground, regardless of size. {feat/Improved Trip} does not affect this spell in any way. Though the earthquake is small and focused on the ground, if the area is particularly unstable, the spell might cause items to topple, stones to shake loose from the walls or ceiling, and so on at the GM's discretion.",
+			"You create a minor earthquake that can trip creatures. Attempt a single combat maneuver check and apply the result against the CMD of every creature in the area. If your roll equals or exceeds a creature's CMD, that creature is knocked prone. This trip attack does not provoke an attack of opportunity (though you do provoke one for casting the spell), nor are you knocked prone if you fail the check by 10 or more. Unlike with a regular trip attack, you can trip any creature touching the ground, regardless of size. ‹feat/Improved Trip› does not affect this spell in any way. Though the earthquake is small and focused on the ground, if the area is particularly unstable, the spell might cause items to topple, stones to shake loose from the walls or ceiling, and so on at the GM's discretion.",
 			"",
 			"::spelldeitynote"
 		]
@@ -2239,7 +2239,7 @@
 			"",
 			"::spell{source=\"Adventurer's Guide/61\" transmutation arc=2 brd=2 occ=2 skd=2 sor=2 wit=2 wiz=2 ctM=1 cV cS cMp=\"vial of paint worth 25 gp\" rClose target=\"one living creature\" dur=\"1 day or until activated (see description)\" save=\"Will (harmless)\" srY}",
 			"",
-			"Investigations into the ancient and mysterious traditions of the seven virtues of rule of the lost human empire of Azlant, which were later corrupted by the runelords into the more familiar seven deadly sins, inspired the {rule/Cyphermages} to develop the runes of rule. This spell allows you to place a rune upon another creature that can then be used to aid it at a later time. You determine the spell's effect at the time of casting by using your finger to paint a specific rune on the recipient's body with a dose of specially prepared paint worth 25 gp. The inscribed rune lasts for 24 hours or until the spell is activated. Unless otherwise noted, the creature upon which the rune of rule has been inscribed can activate it at any time as a swift action. If the spell effect isn't used, all markings associated with the rune disappear and the effect fades. You can never place the spell upon yourself - it must be bestowed on someone else. The seven runes of rule, along with their specific effects when the user activates them, are listed below. A creature can bear only one rune of rule at a time.",
+			"Investigations into the ancient and mysterious traditions of the seven virtues of rule of the lost human empire of Azlant, which were later corrupted by the runelords into the more familiar seven deadly sins, inspired the ‹rule/Cyphermages› to develop the runes of rule. This spell allows you to place a rune upon another creature that can then be used to aid it at a later time. You determine the spell's effect at the time of casting by using your finger to paint a specific rune on the recipient's body with a dose of specially prepared paint worth 25 gp. The inscribed rune lasts for 24 hours or until the spell is activated. Unless otherwise noted, the creature upon which the rune of rule has been inscribed can activate it at any time as a swift action. If the spell effect isn't used, all markings associated with the rune disappear and the effect fades. You can never place the spell upon yourself - it must be bestowed on someone else. The seven runes of rule, along with their specific effects when the user activates them, are listed below. A creature can bear only one rune of rule at a time.",
 			"",
 			"*Charity:* A creature bearing this mark gains a +5 insight bonus on a single attack roll or skill check attempted at the request of another creature, provided the creature bearing this mark does not gain any immediate benefit or reward for making the roll or attempting the check.",
 			"",
@@ -2324,7 +2324,7 @@
 			"",
 			"::spell{source=\"People of the River/27\" transmutation arc=6 brd=5 inq=5 skd=5 sor=6 wit=6 wiz=6 ctSt cV cS rTouch targets=\"all constructs in a 15-ft.-radius burst\" durRL=1 willPartial srY}",
 			"",
-			"This spell functions as {spell/confusion}, except that it affects only constructs. When you are rolling for a confused construct's behavior, a result of 26-50 indicates the construct twitches spasmodically. On a successful Will save, the construct is confused for only 1 round."
+			"This spell functions as ‹spell/confusion›, except that it affects only constructs. When you are rolling for a confused construct's behavior, a result of 26-50 indicates the construct twitches spasmodically. On a successful Will save, the construct is confused for only 1 round."
 		]
 	},
 	"sacramental_seal": {
@@ -2335,7 +2335,7 @@
 			"",
 			"::spell{source=\"Horror Adventures/126\" necromancy clr=8 orc=8 ctR=1 cV cS cFp=\"an object worth at least 2,000 gp\" rTouch target=\"creature touched\" durI will srY}",
 			"",
-			"You trap the target in an object decorated with the holy symbols of your god or faith. While trapped in the object, the creature can't take any actions and is immune to spells and spell-like abilities. The creature remains permanently trapped in the object as long the object remains in your possession. Only a {spell/freedom}, {spell/miracle}, or {spell/wish} spell can dispel the enchantment, though destroying the object frees the creature.",
+			"You trap the target in an object decorated with the holy symbols of your god or faith. While trapped in the object, the creature can't take any actions and is immune to spells and spell-like abilities. The creature remains permanently trapped in the object as long the object remains in your possession. Only a ‹spell/freedom›, ‹spell/miracle›, or ‹spell/wish› spell can dispel the enchantment, though destroying the object frees the creature.",
 			"",
 			"If you relinquish your stewardship of the object (such as giving it away or leaving it in a remote location or extradimensional space), the trapped creature begins to gain control over the object. It immediately gains the ability to communicate telepathically with any creature now in possession of the object. It still can't take any actions besides communicating but can use feats and skills related to speaking (such as Bluff and Diplomacy).",
 			"",
@@ -2365,7 +2365,7 @@
 			"",
 			":::mythic{title=\"Mythic Sacred Bond\"}",
 			"",
-			"{SOURCE Mythic Adventures/106}  ",
+			"‹SOURCE Mythic Adventures/106›  ",
 			"The range at which you and the target can cast conjuration (healing) spells on each other increases to medium (100 feet + 10 feet per caster level). When you or the target uses the sacred bond to cast a healing spell on the other, the caster also heals a number of hit points equal to the minimum amount the spell can heal.",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, casting a healing spell through the link heals the caster the normal amount instead of the minimum amount.",
@@ -2394,9 +2394,9 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/89\" evocation good clr=2 orc=2 pal=2 war=2 ctSt cV cS cMp=\"a vial of ambrosia\" rClose area=\"20-ft.-radius emanation\" durHL=2 saveNo srN}",
 			"",
-			">*{race/Aasimar/s} have access to the following spell.*",
+			">*‹race/Aasimar«s› have access to the following spell.*",
 			"",
-			"This spell sanctifies an area with heavenly power. The DC to resist spells or spell-like abilities with the good descriptor or channeled energy that damages evil outsiders (as when using {feat/Alignment Channel}) increases by +2. In addition, evil outsiders take a -1 penalty on attack rolls, damage rolls, and saving throws, and they cannot be called or summoned into a sacred space. If the sacred space contains an altar, shrine, or other permanent fixture dedicated to your deity, pantheon, or good-aligned higher power, the modifiers given above are doubled. You cannot cast sacred space in an area with a permanent fixture dedicated to a deity other than yours."
+			"This spell sanctifies an area with heavenly power. The DC to resist spells or spell-like abilities with the good descriptor or channeled energy that damages evil outsiders (as when using ‹feat/Alignment Channel›) increases by +2. In addition, evil outsiders take a -1 penalty on attack rolls, damage rolls, and saving throws, and they cannot be called or summoned into a sacred space. If the sacred space contains an altar, shrine, or other permanent fixture dedicated to your deity, pantheon, or good-aligned higher power, the modifiers given above are doubled. You cannot cast sacred space in an area with a permanent fixture dedicated to a deity other than yours."
 		]
 	},
 	"sacrifice": {
@@ -2410,7 +2410,7 @@
 			"",
 			"::spell{source=\"Book of the Damned/185;Book of the Damned - Volume 1: Princes of Darkness/47\" enchantment mindAffecting charm arc=4 clr=4 orc=4 sor=4 war=4 wiz=4 ctM=1 cV cS cMp=\"see text\" rClose target=\"one summoned elemental or outsider (see text)\" dur=\"instantaneous, 1 hour, or 1 day (see text)\" saveNo srN}",
 			"",
-			"You make a sacrifice to aid in conjuring and commanding a creature called with {spell/planar ally}, {spell/planar binding}, or a similar spell. A sacrifice can be used in a variety of ways.",
+			"You make a sacrifice to aid in conjuring and commanding a creature called with ‹spell/planar ally›, ‹spell/planar binding›, or a similar spell. A sacrifice can be used in a variety of ways.",
 			"",
 			"*Bargain:* Making a sacrifice directly to the conjured being grants you a bonus on opposed Charisma checks made to compel the creature into service for the next hour.",
 			"",
@@ -2517,7 +2517,7 @@
 			"",
 			":::mythic{title=\"Mythic Sanctify Armor\"}",
 			"",
-			"{SOURCE Mythic Adventures/106}  ",
+			"‹SOURCE Mythic Adventures/106›  ",
 			"You gain DR 5/evil while wearing the target armor. While you're using your judgment or smite ability, this improves to DR 10/evil.",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, when you use judgment or smite, add half your tier to your AC as a sacred bonus.",
@@ -2535,7 +2535,7 @@
 			"",
 			"This spell blesses a corpse with positive energy, preventing it from being turned into an undead creature. Attempts to raise the corpse as an undead automatically fail. If the corpse is of a person slain by a creature that creates undead out of its slain foes (such as a shadow, vampire, or wraith), that effect is delayed until the end of this spell. It is possible to protect a corpse for an extended time by casting this spell each day.",
 			"",
-			"Sanctify corpse can be made permanent with a {spell/permanency} spell by a caster of 9th level or higher for the cost of 500 gp."
+			"Sanctify corpse can be made permanent with a ‹spell/permanency› spell by a caster of 9th level or higher for the cost of 500 gp."
 		]
 	},
 	"sanctify_weapons": {
@@ -2564,7 +2564,7 @@
 			"",
 			":::mythic{title=\"Mythic Sanctuary\"}",
 			"",
-			"{SOURCE Mythic Adventures/107}  ",
+			"‹SOURCE Mythic Adventures/107›  ",
 			"If an attacker succeeds at its Will save to attack the protected target, add your tier to the target's AC against the attack. If the target uses a healing spell or ability on another creature, that creature gains the benefit of non-mythic sanctuary for 1 round. If the creature breaks the non-mythic sanctuary by attacking, subsequent healing by the target doesn't create another non-mythic sanctuary effect on the creature.",
 			"",
 			"*Augmented (2nd):* If you expend two uses of mythic power, select a number of additional creatures equal to half your tier that are within reach. These creatures gain the benefit of non-mythic sanctuary.",
@@ -2595,7 +2595,7 @@
 			"",
 			"::spell{source=\"Taldor, Echoes of Glory/25\" conjuration creation clr=3 orc=3 war=3 ctSt cV cS cMp=\"a handful of sand, dust, or fine powder\" rMed target=\"one creature\" durRL=1 save=\"Will negates (blinding only)\" srN}",
 			"",
-			"A whirling cloud of sand strikes the target, blinding it and hampering its ability to speak. To speak while affected by the spell, the target must make a {rule/concentration} check (DC equal to the DC of this spell). If the target tries to cast a spell, the Concentration DC increases by the level of the spell being cast. A successful Will save negates the blindness but not the speechhampering effect.",
+			"A whirling cloud of sand strikes the target, blinding it and hampering its ability to speak. To speak while affected by the spell, the target must make a ‹rule/concentration› check (DC equal to the DC of this spell). If the target tries to cast a spell, the Concentration DC increases by the level of the spell being cast. A successful Will save negates the blindness but not the speechhampering effect.",
 			"",
 			"### Greater Sand Whirlwind",
 			"",
@@ -2627,7 +2627,7 @@
 			"",
 			":::mythic{title=\"Mythic Sands of Time\"}",
 			"",
-			"{SOURCE Mythic Adventures/107}  ",
+			"‹SOURCE Mythic Adventures/107›  ",
 			"You age the target by two categories instead of one. The damage dealt to objects, constructs, and undead increases to 5d6 points of damage + 1 point per caster level (maximum +20).",
 			"",
 			"*Augmented (8th):* If you expend four uses of mythic power, the duration changes to instantaneous. If the target is a living creature, its age increases to venerable, regardless of its current age. A non-mythic creature receives no saving throw against this, but a mythic creature can attempt a Fortitude save against the spell's DC to reduce the duration to 10 minutes per level and the effect to two age categories instead of automatically changing to venerable.",
@@ -2647,7 +2647,7 @@
 			"",
 			"While casting this spell, you slowly destroy a piece of art bearing your victim's likeness and beseech Achaekek to grant you access to the knowledge and lore contained within the innermost sanctum of the Crimson Citadel, the Sarzari Library. This endows you with information that could facilitate the target's assassination by your hands. This information must be chosen from one of the three following categories: back doors, character, or weakness.",
 			"",
-			"\"Back doors\" informs you of hidden passages and other means of navigation within your target's home. While inside your target's home, you gain a +10 insight bonus on Perception checks and gain the constant benefits of {spell/detect secret doors} and {spell/find traps}. You automatically see through any illusory walls in the target's home.",
+			"\"Back doors\" informs you of hidden passages and other means of navigation within your target's home. While inside your target's home, you gain a +10 insight bonus on Perception checks and gain the constant benefits of ‹spell/detect secret doors› and ‹spell/find traps›. You automatically see through any illusory walls in the target's home.",
 			"",
 			"\"Character\" lets you know of a compromising detail about your target's personal life, giving you a +10 bonus on Bluff, Diplomacy, and Intimidate checks when attempting to gather information about your contracted victim from other people. Your target takes a -2 penalty on all saving throws against mind-affecting effects you generate, and you gain a +4 bonus on caster level checks you attempt to overcome the target's spell resistance.",
 			"",
@@ -2664,7 +2664,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/59\" transmutation ant=1 clr=2 drd=2 hnt=1 inq=2 mag=2 orc=2 psy=2 rgr=1 war=2 ctSt cV cS rPers target=you dur=\"1 minute/level (d), special (see below)\"}",
 			"",
-			">*{race/Half-orc/s} have access to the following spell.*",
+			">*‹race/Half-orc«s› have access to the following spell.*",
 			"",
 			"Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs. You gain a bite attack that deals 1d4 points of damage plus your Strength modifier. If you confirm a critical hit with this attack, it also deals 1 point of bleed damage. If you already have a bite attack, your bite deals 2 points of bleed damage on a critical hit. You are considered proficient with this attack. If used as part of a full-attack action, the bite is considered a secondary attack, is made at your full base attack bonus -5, and adds half your Strength modifier to its damage.",
 			"",
@@ -2686,7 +2686,7 @@
 			"",
 			":::mythic{title=\"Mythic Saving Finale\"}",
 			"",
-			"{SOURCE Mythic Adventures/107}  ",
+			"‹SOURCE Mythic Adventures/107›  ",
 			"Add your tier as a bonus on the saving throw reroll.",
 			"",
 			":::"
@@ -2818,7 +2818,7 @@
 			"",
 			"If you create the wall so that it appears in the same space as one or more creatures, each affected creature must succeed at a Fortitude save or become blinded. Creatures that successfully save against the blindness are subject to the fascination effect unless they leave the wall within 1 round of casting the spell.",
 			"",
-			"Scintillating wall can be made permanent with a {spell/permanency} spell cast by a caster of 13th level or higher, at a cost of 12,500 gp."
+			"Scintillating wall can be made permanent with a ‹spell/permanency› spell cast by a caster of 13th level or higher, at a cost of 12,500 gp."
 		]
 	},
 	"scoop": {
@@ -2846,13 +2846,13 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/131\" fire transmutation alc=4 arc=4 inv=4 rma=4 sor=4 wiz=4 ctSt cS cMp=\"a bit of gauze and a handful of ashes\" rTouch target=\"willing corporeal creature touched\" durML=1 saveNo srN}",
 			"",
-			">*{race/Ifrit/s} have access to the following spell.*",
+			">*‹race/Ifrit«s› have access to the following spell.*",
 			"",
 			"This spell functions like gaseous form, except the target becomes a visible swirl of hot ash and smoke instead of harmless translucent gas. The target gains the fire subtype. Any creature that begins its turn sharing a space with the target takes 2d6 points of fire damage and must make a Fortitude save (DC 15, + 1 per previous check) or suffer the effects of [smoke inhalation](rule/forest_fires).",
 			"",
 			":::mythic{title=\"Mythic Scorching Ash Form\"}",
 			"",
-			"{SOURCE Mythic Adventures/107}  ",
+			"‹SOURCE Mythic Adventures/107›  ",
 			"The damage dealt increases to 3d6 points of fire damage. This otherwise makes the same changes as mythic gaseous form.",
 			"",
 			"*Augmented:* If you expend two uses of mythic power, the target can shift into or out of scorching ash form as a move action.",
@@ -2875,7 +2875,7 @@
 			"",
 			":::mythic{title=\"Mythic Scorching Ray\"}",
 			"",
-			"{SOURCE Mythic Adventures/107}  ",
+			"‹SOURCE Mythic Adventures/107›  ",
 			"Each ray's damage increases to 6d6 points of fire damage. The first ray bypasses fire resistance and immunity.",
 			"",
 			":::"
@@ -2905,13 +2905,13 @@
 			"",
 			"This spell brings forth a windstorm of stinging sand that blocks all vision. You can move the storm up to 30 feet each round as a move action.",
 			"",
-			"Any creature in the area takes 3d6 points of piercing damage each round. The area is considered a windstorm (see the {rule/wind/ effects} table).",
+			"Any creature in the area takes 3d6 points of piercing damage each round. The area is considered a windstorm (see the ‹rule/wind« effects› table).",
 			"",
 			"If a creature with spell resistance successfully resists this spell, it is unaffected by the winds and sand, but still unable to see within the area of the spell.",
 			"",
 			":::mythic{title=\"Mythic Scouring Winds\"}",
 			"",
-			"{SOURCE Mythic Adventures/107}  ",
+			"‹SOURCE Mythic Adventures/107›  ",
 			"The spell's damage increases to 4d8 points of piercing damage. Any creature in the area at the start of your turn must succeed at a Reflex save or be blinded for as long as it remains in the area and for 1d4 rounds after it leaves.",
 			"",
 			"*Augmented (5th):* If you expend two uses of mythic power, the sandstorm's radius and height each increase to 40 feet, and the damage dealt increases to 6d8 points of piercing damage. Each round, you can either move the storm up to 50 feet as a move action or up to 10 feet as a swift action.",
@@ -2929,7 +2929,7 @@
 			"",
 			"A sheer wall of flame appears and rushes away from you. Tendrils of fire reach out of it, shaped into skulls screaming in agony. When the wall passes through a creature's space, that creature must succeed at a Reflex save or take 1d8 points of fire damage for every 2 caster levels you have (maximum 5d8). Any creature taking fire damage must also succeed at a Will save or take 1d3 points of Wisdom damage. Deaf creatures receive a +4 circumstance bonus on their Will saves.",
 			"",
-			"If your campaign uses {rule/the |sanity/ system}, a creature takes 1d6 points of sanity damage instead of Wisdom damage."
+			"If your campaign uses ‹rule/the »sanity« system›, a creature takes 1d6 points of sanity damage instead of Wisdom damage."
 		]
 	},
 	"screech": {

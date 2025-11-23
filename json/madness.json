@@ -13,7 +13,7 @@
 		"description": [
 			"## Hallucination",
 			"",
-			"{SOURCE Horror Adventures/184}  ",
+			"‹SOURCE Horror Adventures/184›  ",
 			"**Type** lesser madness; **Save DC** 14  ",
 			"**Onset** 2d6 days  ",
 			"**Effect** -4 penalty on any Will saving throw against or to disbelieve illusions, and illusions of things that are not there (see below)  ",
@@ -31,20 +31,20 @@
 		"description": [
 			"## Mania",
 			"",
-			"{SOURCE Horror Adventures/184}  ",
+			"‹SOURCE Horror Adventures/184›  ",
 			"**Type** lesser madness (compulsion); **Save DC** 14  ",
 			"**Onset** 1 day  ",
 			"**Effect** Each round when an afflicted character is within 30 feet and can see the object of her mania, she must succeed at a Will saving throw or rush to interact with that object. If the afflicted character succeeds at the saving throw by 5 or more, she can keep away from the object of the mania or resist the manic activity for 1 minute before having to attempt the saving throw again. After failing a saving throw and fully performing the mania's compulsion, the afflicted character need not attempt another saving throw for 1 minute, as she has temporarily satisfied her obsession.  ",
-			"**Dormancy Effect** Each round when an afflicted character is within 30 feet and can see the object of her mania, she must attempt a Will saving throw. If she fails, she can choose to either interact with the object of her mania (as above) or become {misc/fascinated} by the object while abstaining from the activity for 1 round. If the afflicted character succeeds at this saving throw by 5 or more, she can't be fascinated by that particular stimulus for 24 hours before having to attempt the saving throw again (for instance, if a character obsessed with swords succeeded at her save against a particular sword by 5 or more, she wouldn't be fascinated by that sword for 24 hours, but she might be fascinated by other swords).",
+			"**Dormancy Effect** Each round when an afflicted character is within 30 feet and can see the object of her mania, she must attempt a Will saving throw. If she fails, she can choose to either interact with the object of her mania (as above) or become ‹misc/fascinated› by the object while abstaining from the activity for 1 round. If the afflicted character succeeds at this saving throw by 5 or more, she can't be fascinated by that particular stimulus for 24 hours before having to attempt the saving throw again (for instance, if a character obsessed with swords succeeded at her save against a particular sword by 5 or more, she wouldn't be fascinated by that sword for 24 hours, but she might be fascinated by other swords).",
 			"",
 			"A mania is an irrational and unhealthy obsession with an object or activity. Nearly any object or activity can become the object of a mania, but often the object is either dangerous (like fire or deadly magic) or somewhat taboo (like the need to commit small thefts or engage in risky sexual behavior). The GM determines the exact nature of the mania, but it should have some connection to the madness's impetus and be respectful to the narrative sensibilities and maturity of the player and the group.",
 			"",
 			"### Mania/Phobia (original rules version)",
 			"",
-			"{SOURCE GameMastery Guide/251}  ",
+			"‹SOURCE GameMastery Guide/251›  ",
 			"**Type** insanity; **Save** Will DC 14  ",
 			"**Onset** 1 day  ",
-			"**Effect** target is {misc/sickened} (if manic) or {misc/shaken} (if phobic) as long as the source of the mania or phobia is obvious; chance of becoming fascinated or {misc/frightened} (see below)",
+			"**Effect** target is ‹misc/sickened› (if manic) or ‹misc/shaken› (if phobic) as long as the source of the mania or phobia is obvious; chance of becoming fascinated or ‹misc/frightened› (see below)",
 			"",
 			"A mania is an irrational obsession with a (usually inappropriate) particular object or situation, while a phobia is an irrational fear of a (usually commonplace) object or situation. Additionally, if a manic or phobic character is directly confronted by his obsession (requiring a standard action), he must make a Will save against the insanity or become fascinated (if manic) or frightened (if phobic) by the object for 1d6 rounds."
 		]
@@ -55,7 +55,7 @@
 		"description": [
 			"## Melancholia",
 			"",
-			"{SOURCE Horror Adventures/185}  ",
+			"‹SOURCE Horror Adventures/185›  ",
 			"**Type** lesser madness; **Save DC** 14  ",
 			"**Onset** 1d4 days  ",
 			"**Effect** -2 penalty on initiative checks, and morale bonuses are halved (minimum +0)  ",
@@ -73,20 +73,20 @@
 		"description": [
 			"## Phobia",
 			"",
-			"{SOURCE Horror Adventures/185}  ",
+			"‹SOURCE Horror Adventures/185›  ",
 			"**Type** lesser madness (fear); **Save DC** 14  ",
 			"**Onset** 1 day  ",
-			"**Effect** Each round an afflicted character is within 30 feet and can see the object of her phobia, she must succeed at a Will saving throw or become *shaken.* The next round, the afflicted character can choose to attempt another saving throw to end the effect, but if she fails, she becomes *scared* instead. A scared character can choose to attempt another saving throw to become *shaken* again, but if she fails, she becomes *frightened* for 1d6 rounds instead. (The terms *shaken, scared,* and *frightened* are different than the \"standard\" fear terms, and are explained under {rule/Lesser Fear and Greater Fear}.)  ",
+			"**Effect** Each round an afflicted character is within 30 feet and can see the object of her phobia, she must succeed at a Will saving throw or become *shaken.* The next round, the afflicted character can choose to attempt another saving throw to end the effect, but if she fails, she becomes *scared* instead. A scared character can choose to attempt another saving throw to become *shaken* again, but if she fails, she becomes *frightened* for 1d6 rounds instead. (The terms *shaken, scared,* and *frightened* are different than the \"standard\" fear terms, and are explained under ‹rule/Lesser Fear and Greater Fear›.)  ",
 			"**Dormancy Effect** Each round an afflicted character is within 30 feet and can see the object of her phobia, she must succeed at a Will saving throw or become *shaken* for 1 round. If the afflicted character succeeds at this saving throw by 5 or more, that particular stimulus can't cause her to become *shaken* for 24 hours before having to attempt the saving throw again (for instance, if a character has a phobia of spiders and succeeds at her saving throw by 5 or more after seeing the wizard's spider familiar, she doesn't need to attempt another saving throw against the familiar for 24 hours, but she would still need to attempt a saving throw if she saw a different spider).",
 			"",
 			"A phobia is an irrational fear of an object or activity. Nearly any object or activity can become the focus of a phobia, but often the object is either very specific (like all spiders, no matter how big or small, or clowns) or something that could be hazardous in some situations (like heights or water) but could be made relativity safe with magical or mundane precautions. The GM determines the exact nature of the phobia, but it should have some connection to the madness's impetus and be respectful to the narrative sensibilities and maturity of the player and the group.",
 			"",
 			"### Mania/Phobia (original rules version)",
 			"",
-			"{SOURCE GameMastery Guide/251}  ",
+			"‹SOURCE GameMastery Guide/251›  ",
 			"**Type** insanity; **Save** Will DC 14  ",
 			"**Onset** 1 day  ",
-			"**Effect** target is {misc/sickened} (if manic) or {misc/shaken} (if phobic) as long as the source of the mania or phobia is obvious; chance of becoming {misc/fascinated} or {misc/frightened} (see below)",
+			"**Effect** target is ‹misc/sickened› (if manic) or ‹misc/shaken› (if phobic) as long as the source of the mania or phobia is obvious; chance of becoming ‹misc/fascinated› or ‹misc/frightened› (see below)",
 			"",
 			"A mania is an irrational obsession with a (usually inappropriate) particular object or situation, while a phobia is an irrational fear of a (usually commonplace) object or situation. Additionally, if a manic or phobic character is directly confronted by his obsession (requiring a standard action), he must make a Will save against the insanity or become fascinated (if manic) or frightened (if phobic) by the object for 1d6 rounds."
 		]
@@ -97,7 +97,7 @@
 		"description": [
 			"## Delirium",
 			"",
-			"{SOURCE Horror Adventures/183}  ",
+			"‹SOURCE Horror Adventures/183›  ",
 			"**Type** lesser madness; **Save DC** 16  ",
 			"**Onset** 1d4 days  ",
 			"**Effect** -2 penalty on Wisdom- and Intelligence-based checks; cannot take 10 or 20 on any check  ",
@@ -112,7 +112,7 @@
 		"description": [
 			"## Delusion",
 			"",
-			"{SOURCE Horror Adventures/183}  ",
+			"‹SOURCE Horror Adventures/183›  ",
 			"**Type** lesser madness; **Save DC** 16  ",
 			"**Onset** 2d6 days  ",
 			"**Effect** The afflicted character believes something that is not true, and no amount of evidence can dissuade him of the belief.  ",
@@ -129,13 +129,13 @@
 		"description": [
 			"## Night Terrors",
 			"",
-			"{SOURCE Horror Adventures/185}  ",
+			"‹SOURCE Horror Adventures/185›  ",
 			"**Type** lesser madness; **Save DC** 16  ",
 			"**Onset** 1 day  ",
-			"**Effect** Each night when the afflicted character sleeps, she must succeed at a saving throw or wake up {misc/fatigued} (see below).  ",
+			"**Effect** Each night when the afflicted character sleeps, she must succeed at a saving throw or wake up ‹misc/fatigued› (see below).  ",
 			"**Dormancy Effect** None",
 			"",
-			"A character suffering from night terrors is plagued by persistent terrifying dreams, worry, or terror that impedes her from getting restful sleep. Each night the afflicted character must succeed at a saving throw or wake up fatigued, though multiple nights of night terrors do not increase the condition to exhausted, and an {misc/exhausted} character with night terrors wakes up after 8 hours of sleep either rested or fatigued based on the success or failure of the saving throw for this affliction. Often a character suffering from night terrors will bolt upright during sleep, eyes open, and scream, though less-dramatic symptoms are also possible. A character who awakens fatigued from night terrors doesn't count as having had a good night's rest for the purpose of preparing new spells, and she can't remove the fatigue until she gets a good night's rest by succeeding at the Will save against night terrors."
+			"A character suffering from night terrors is plagued by persistent terrifying dreams, worry, or terror that impedes her from getting restful sleep. Each night the afflicted character must succeed at a saving throw or wake up fatigued, though multiple nights of night terrors do not increase the condition to exhausted, and an ‹misc/exhausted› character with night terrors wakes up after 8 hours of sleep either rested or fatigued based on the success or failure of the saving throw for this affliction. Often a character suffering from night terrors will bolt upright during sleep, eyes open, and scream, though less-dramatic symptoms are also possible. A character who awakens fatigued from night terrors doesn't count as having had a good night's rest for the purpose of preparing new spells, and she can't remove the fatigue until she gets a good night's rest by succeeding at the Will save against night terrors."
 		]
 	},
 	"paranoid": {
@@ -148,17 +148,17 @@
 		"description": [
 			"## Paranoid",
 			"",
-			"{SOURCE Horror Adventures/185}  ",
+			"‹SOURCE Horror Adventures/185›  ",
 			"**Type** lesser madness; **Save DC** 17  ",
 			"**Onset** 2d6 days  ",
-			"**Effect** The afflicted character gains a +2 bonus on saving throws against charm effects, but takes a -2 penalty on Bluff, Diplomacy, and Sense Motive checks. When the afflicted character attempts a Sense Motive check, the GM rolls the check in secret, and failure gives the afflicted character the impression that those whose motives he is trying to sense are plotting against him in some way. Lastly, any time the afflicted character tries to use or gain a benefit from the {rule/aid another} action, or is the target of a beneficial spell or effect from an ally, he must succeed at a Will saving throw in order to take the aid another action or gain the benefit from the action, spell, or effect.  ",
+			"**Effect** The afflicted character gains a +2 bonus on saving throws against charm effects, but takes a -2 penalty on Bluff, Diplomacy, and Sense Motive checks. When the afflicted character attempts a Sense Motive check, the GM rolls the check in secret, and failure gives the afflicted character the impression that those whose motives he is trying to sense are plotting against him in some way. Lastly, any time the afflicted character tries to use or gain a benefit from the ‹rule/aid another› action, or is the target of a beneficial spell or effect from an ally, he must succeed at a Will saving throw in order to take the aid another action or gain the benefit from the action, spell, or effect.  ",
 			"**Dormancy Effect** The afflicted character gains a +2 bonus on saving throws against charm effects, but takes a -2 penalty on Bluff, Diplomacy, and Sense Motive checks.",
 			"",
 			"A paranoid character is convinced that the world and society are conspiring toward his ruin. Typically those afflicted with paranoia are fidgety, argumentative, sullen, or extremely introverted.",
 			"",
 			"## Paranoia (original rules version)",
 			"",
-			"{SOURCE GameMastery Guide/251}  ",
+			"‹SOURCE GameMastery Guide/251›  ",
 			"**Type** insanity; **Save** Will DC 17  ",
 			"**Onset** 2d6 days  ",
 			"**Effect** -4 penalty on Will saves and Charisma-based skill checks; cannot receive benefit from or attempt the Aid Another action; cannot willingly accept aid (including healing) from another creature unless he makes a Will save against his insanity's DC",
@@ -172,7 +172,7 @@
 		"description": [
 			"## Fugue",
 			"",
-			"{SOURCE Horror Adventures/184}  ",
+			"‹SOURCE Horror Adventures/184›  ",
 			"**Type** lesser madness; **Save DC** 18  ",
 			"**Onset** 1d4 days  ",
 			"**Effect** -2 penalty on Will saving throws and skill checks, and some memory loss (see below)  ",
@@ -187,10 +187,10 @@
 		"description": [
 			"## Cognitive Block",
 			"",
-			"{SOURCE Horror Adventures/187}  ",
+			"‹SOURCE Horror Adventures/187›  ",
 			"**Type** greater madness; **Save DC** 20  ",
 			"**Onset** immediate  ",
-			"**Effect** The afflicted character can no longer speak or write and has difficulty concentrating. He can no longer use command word items, spell-trigger items, or spell-completion items. He takes a -10 penalty on {rule/concentration} checks. He cannot cast spells with a verbal or thought component, and cannot prepare spells from a spellbook.  ",
+			"**Effect** The afflicted character can no longer speak or write and has difficulty concentrating. He can no longer use command word items, spell-trigger items, or spell-completion items. He takes a -10 penalty on ‹rule/concentration› checks. He cannot cast spells with a verbal or thought component, and cannot prepare spells from a spellbook.  ",
 			"**Dormancy Effect** The afflicted character takes a -4 penalty on concentration checks.",
 			"",
 			"This affliction deprives a character of his concentration and his ability to speak, read, and write, though he can understand words he hears and can react to requests and commands as normal."
@@ -206,7 +206,7 @@
 		"description": [
 			"## Dissociated Identity",
 			"",
-			"{SOURCE Horror Adventures/187}  ",
+			"‹SOURCE Horror Adventures/187›  ",
 			"**Type** greater madness; **Save DC** 20  ",
 			"**Onset** 2d6 days  ",
 			"**Effect** -6 penalty on Will saving throws and Wisdom-based checks, and disassociated identities (see below)  ",
@@ -218,7 +218,7 @@
 			"",
 			"## Multiple Personality Disorder (original rules version)",
 			"",
-			"{SOURCE GameMastery Guide/251}  ",
+			"‹SOURCE GameMastery Guide/251›  ",
 			"**Type** insanity; **Save** Will DC 19  ",
 			"**Onset** 2d6 days  ",
 			"**Effect** -6 penalty on Will saving throws and Wisdom-based checks; disassociated identities (see below)",
@@ -234,13 +234,13 @@
 		"description": [
 			"## Psychosomatic Loss",
 			"",
-			"{SOURCE Horror Adventures/187}  ",
+			"‹SOURCE Horror Adventures/187›  ",
 			"**Type** greater madness; **Save DC** 20  ",
 			"**Onset** immediate  ",
-			"**Effect** The afflicted character becomes {misc/blinded} or {misc/deafened}, loses another special sense (like {umr/scent} or {umr/blindsense}), loses the use of limbs, or loses a special movement speed (like a fly or swim speed). The GM chooses how the psychosomatic loss manifests.  ",
+			"**Effect** The afflicted character becomes ‹misc/blinded› or ‹misc/deafened›, loses another special sense (like ‹umr/scent› or ‹umr/blindsense›), loses the use of limbs, or loses a special movement speed (like a fly or swim speed). The GM chooses how the psychosomatic loss manifests.  ",
 			"**Dormancy Effect** None",
 			"",
-			"While there is nothing physically wrong with the afflicted character, some kind of mental trauma has forced her brain to shut down sensory or motor systems. Furthermore, magical effects that typically remove these conditions (such as {spell/remove blindness//deafness}) have no effect on this madness; the madness must be cured in order to regain the senses or motor skills."
+			"While there is nothing physically wrong with the afflicted character, some kind of mental trauma has forced her brain to shut down sensory or motor systems. Furthermore, magical effects that typically remove these conditions (such as ‹spell/remove blindness/deafness›) have no effect on this madness; the madness must be cured in order to regain the senses or motor skills."
 		]
 	},
 	"amnesia": {
@@ -252,7 +252,7 @@
 		"description": [
 			"## Amnesia",
 			"",
-			"{SOURCE Horror Adventures/186}  ",
+			"‹SOURCE Horror Adventures/186›  ",
 			"**Type** greater madness; **Save DC** 22  ",
 			"**Onset** immediate  ",
 			"**Effect** -4 penalty on Will saving throws and skill checks, and loss of memory (see below)  ",
@@ -264,7 +264,7 @@
 			"",
 			"### Amnesia (original rules version)",
 			"",
-			"{SOURCE GameMastery Guide/250}  ",
+			"‹SOURCE GameMastery Guide/250›  ",
 			"**Type** insanity; **Save** Will DC 20  ",
 			"**Onset** immediate  ",
 			"**Effect** -4 penalty on Will saving throws and all skill checks; loss of memory (see below)",
@@ -284,7 +284,7 @@
 		"description": [
 			"## Moral Insanity",
 			"",
-			"{SOURCE Horror Adventures/187}  ",
+			"‹SOURCE Horror Adventures/187›  ",
 			"**Type** greater madness; **Save DC** 22  ",
 			"**Onset** 3d6 days  ",
 			"**Effect** The afflicted character's alignment shifts to evil, and he gains a +10 competence bonus on Bluff checks to hide this madness. Once per day, the afflicted character can attempt a Will saving throw to suppress this effect for 24 hours.  ",
@@ -294,7 +294,7 @@
 			"",
 			"### Psychosis (original rules version)",
 			"",
-			"{SOURCE GameMastery Guide/251}  ",
+			"‹SOURCE GameMastery Guide/251›  ",
 			"**Type** insanity; **Save** Will DC 20  ",
 			"**Onset** 3d6 days  ",
 			"**Effect** The afflicted character's alignment shifts to chaotic evil, and he gains a +10 competence bonus on Bluff checks to hide this insanity",
@@ -311,17 +311,17 @@
 		"description": [
 			"## Schizophrenia",
 			"",
-			"{SOURCE Horror Adventures/187}  ",
+			"‹SOURCE Horror Adventures/187›  ",
 			"**Type** greater madness; **Save DC** 22  ",
 			"**Onset** 1d6 days  ",
 			"**Effect** -4 penalty on Wisdom- and Charisma-based checks; cannot take 10 or take 20 on any check; chance of becoming confused (see below)  ",
 			"**Dormancy Effect** cannot take 10 or take 20 on any check",
 			"",
-			"A character afflicted with schizophrenia can no longer function as he once did, dealing with sudden deficits in social skills and cognition, and an influx of new, strange behaviors. The character becomes erratic, chaotic, and unpredictable as his affliction and symptoms continue, often hitting a peak of symptoms including hallucinations and delusions. Each time a character afflicted with this madness finds himself in a stressful situation (such as combat), he must succeed at a Will saving throw or become {misc/confused} for 1d6 rounds.",
+			"A character afflicted with schizophrenia can no longer function as he once did, dealing with sudden deficits in social skills and cognition, and an influx of new, strange behaviors. The character becomes erratic, chaotic, and unpredictable as his affliction and symptoms continue, often hitting a peak of symptoms including hallucinations and delusions. Each time a character afflicted with this madness finds himself in a stressful situation (such as combat), he must succeed at a Will saving throw or become ‹misc/confused› for 1d6 rounds.",
 			"",
 			"### Schizophrenia (original rules version)",
 			"",
-			"{SOURCE GameMastery Guide/251}  ",
+			"‹SOURCE GameMastery Guide/251›  ",
 			"**Type** insanity; **Save** Will DC 16  ",
 			"**Onset** 1d6 days  ",
 			"**Effect** -4 penalty on Wisdom- and Charisma-based skill checks; chance of becoming confused (see below)",
@@ -335,13 +335,13 @@
 		"description": [
 			"## Catatonia",
 			"",
-			"{SOURCE Horror Adventures/186}  ",
+			"‹SOURCE Horror Adventures/186›  ",
 			"**Type** greater madness; **Save DC** 24  ",
 			"**Onset** immediate  ",
-			"**Effect** The afflicted character acts as if she were {misc/cowering}, but this is not a fear effect, unlike other forms of cowering.  ",
-			"**Dormancy Effect** The afflicted character is {misc/staggered}.",
+			"**Effect** The afflicted character acts as if she were ‹misc/cowering›, but this is not a fear effect, unlike other forms of cowering.  ",
+			"**Dormancy Effect** The afflicted character is ‹misc/staggered›.",
 			"",
-			"A character suffering from catatonia mentally shuts down completely, or nearly so, greatly limiting her physical capabilities as well. While a catatonic character still breathes, she can eat or drink without assistance only if the catatonia is dormant. If a catatonic character is faced with a dangerous situation, she must attempt a saving throw. If she succeeds, she acts as if {misc/panicked} (though this is not a fear effect) until she is out of line of sight of the danger or is cornered. If she is cornered, she cowers again."
+			"A character suffering from catatonia mentally shuts down completely, or nearly so, greatly limiting her physical capabilities as well. While a catatonic character still breathes, she can eat or drink without assistance only if the catatonia is dormant. If a catatonic character is faced with a dangerous situation, she must attempt a saving throw. If she succeeds, she acts as if ‹misc/panicked› (though this is not a fear effect) until she is out of line of sight of the danger or is cornered. If she is cornered, she cowers again."
 		]
 	}
 }

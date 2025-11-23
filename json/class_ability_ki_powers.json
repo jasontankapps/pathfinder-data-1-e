@@ -11,7 +11,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Pathfinder Unchained", 16 ] ],
 		"description": [
-			"A monk with this ki power can slip magically between spaces, as if using the spell {spell/dimension door}. Using this ability is a move action that consumes 2 points from his ki pool. The monk's caster level for this effect is equal to his monk level. He cannot take other creatures with him when he uses this ability. A monk must be at least 8th level before selecting this ki power."
+			"A monk with this ki power can slip magically between spaces, as if using the spell ‹spell/dimension door›. Using this ability is a move action that consumes 2 points from his ki pool. The monk's caster level for this effect is equal to his monk level. He cannot take other creatures with him when he uses this ability. A monk must be at least 8th level before selecting this ki power."
 		]
 	},
 	"action_before_thought": {
@@ -27,7 +27,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Martial Arts Handbook", 20 ] ],
 		"description": [
-			"A monk with this ability can spend 1 ki point as a swift action to present a paradox, riddle, or complicated question to a creature within 30 feet. The creature must succeed at a Will save (DC = 10 + 1/2 the monk's level + his Wisdom modifier) or be {misc/confused} for 1 round. This is a mind-affecting, language-dependent effect. A monk must be at least 8th level before selecting this ki power."
+			"A monk with this ability can spend 1 ki point as a swift action to present a paradox, riddle, or complicated question to a creature within 30 feet. The creature must succeed at a Will save (DC = 10 + 1/2 the monk's level + his Wisdom modifier) or be ‹misc/confused› for 1 round. This is a mind-affecting, language-dependent effect. A monk must be at least 8th level before selecting this ki power."
 		]
 	},
 	"building_up_koan": {
@@ -44,7 +44,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Martial Arts Handbook", 20 ] ],
 		"description": [
-			"A monk with this ability can spend an additional 2 ki points when using either the breaking-down koan or building-up koan ki powers. When combined with master-thought koan, breaking-down koan affects a number of characters of your choice within 30 feet equal to the monk's wisdom modifier. When combined with master-thought koan, building-up koan can be used on an ally within 30 feet. A monk must be at least 12th level and have either the {kipower/breaking-down koan} or the {kipower/building-up koan} ki power before selecting this ki power."
+			"A monk with this ability can spend an additional 2 ki points when using either the breaking-down koan or building-up koan ki powers. When combined with master-thought koan, breaking-down koan affects a number of characters of your choice within 30 feet equal to the monk's wisdom modifier. When combined with master-thought koan, building-up koan can be used on an ally within 30 feet. A monk must be at least 12th level and have either the ‹kipower/breaking-down koan› or the ‹kipower/building-up koan› ki power before selecting this ki power."
 		]
 	},
 	"diamond_body": {
@@ -52,7 +52,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Pathfinder Unchained", 16 ] ],
 		"description": [
-			"By spending 1 point from his ki pool, a monk with this power can remove one toxin from his body as if using {spell/neutralize poison}, using his monk level as his caster level. He can remove only one poison in this way per use of this ability. A monk must be at least 8th level before selecting this ki power."
+			"By spending 1 point from his ki pool, a monk with this power can remove one toxin from his body as if using ‹spell/neutralize poison›, using his monk level as his caster level. He can remove only one poison in this way per use of this ability. A monk must be at least 8th level before selecting this ki power."
 		]
 	},
 	"cobra_breath": {
@@ -61,7 +61,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Pathfinder Unchained", 16 ] ],
 		"description": [
-			"Whenever a monk with this ki power uses diamond body to neutralize a poison, he can instead release that poison as a ranged touch attack against a single foe within 30 feet. If the attack hits, the foe must succeed at a saving throw (using the poison's original DC) or suffer the poison's effects, even if it was not originally a contact poison. A monk must be at least 12th level and must possess the {kipower/diamond body} ki power before selecting this ki power."
+			"Whenever a monk with this ki power uses diamond body to neutralize a poison, he can instead release that poison as a ranged touch attack against a single foe within 30 feet. If the attack hits, the foe must succeed at a saving throw (using the poison's original DC) or suffer the poison's effects, even if it was not originally a contact poison. A monk must be at least 12th level and must possess the ‹kipower/diamond body› ki power before selecting this ki power."
 		]
 	},
 	"diamond_mind": {
@@ -69,7 +69,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Pathfinder Unchained", 16 ] ],
 		"description": [
-			"By spending 1 point from his ki pool as a swift action, a monk with this power can suppress a fear effect affecting him as if using {spell/remove fear}, using his monk level as his caster level. He can spend 2 ki points to activate this ability even when frightened or panicked. A monk must be at least 6th level before selecting this ki power."
+			"By spending 1 point from his ki pool as a swift action, a monk with this power can suppress a fear effect affecting him as if using ‹spell/remove fear›, using his monk level as his caster level. He can spend 2 ki points to activate this ability even when frightened or panicked. A monk must be at least 6th level before selecting this ki power."
 		]
 	},
 	"diamond_resilience": {
@@ -94,7 +94,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Pathfinder Unchained", 18 ] ],
 		"description": [
-			"When a targeted spell or spell-like ability fails to overcome the monk's spell resistance from diamond soul, he can spend 2 ki points as an immediate action to send that spell back at its caster as {spell/spell turning}. A monk must be 16th level or higher and possess the {kipower/diamond soul} ki power before selecting this ki power."
+			"When a targeted spell or spell-like ability fails to overcome the monk's spell resistance from diamond soul, he can spend 2 ki points as an immediate action to send that spell back at its caster as ‹spell/spell turning›. A monk must be 16th level or higher and possess the ‹kipower/diamond soul› ki power before selecting this ki power."
 		]
 	},
 	"elemental_fury": {
@@ -111,7 +111,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Pathfinder Unchained", 16 ] ],
 		"description": [
-			"A monk with this ability can spend 4 ki points to unleash a gout of energy in a 30-foot cone. Creatures within the cone take 20d6 points of damage of the same type as the monk's {kipower/elemental fury} ki power. A Reflex save (DC = 10 + 1/2 the monk's level + his Wisdom modifier) halves the damage. A monk must be at least 18th level and must possess the elemental fury ki power before selecting this ki power."
+			"A monk with this ability can spend 4 ki points to unleash a gout of energy in a 30-foot cone. Creatures within the cone take 20d6 points of damage of the same type as the monk's ‹kipower/elemental fury› ki power. A Reflex save (DC = 10 + 1/2 the monk's level + his Wisdom modifier) halves the damage. A monk must be at least 18th level and must possess the elemental fury ki power before selecting this ki power."
 		]
 	},
 	"empty_body": {
@@ -119,7 +119,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Pathfinder Unchained", 16 ] ],
 		"description": [
-			"A monk with this ki power gains the ability to assume an ethereal state for 1 minute as though using the spell {spell/etherealness}, using his monk level as his caster level. Using this ability is a move action that consumes 3 points from the monk's ki pool. This ability affects only the monk and cannot be used to make other creatures ethereal."
+			"A monk with this ki power gains the ability to assume an ethereal state for 1 minute as though using the spell ‹spell/etherealness›, using his monk level as his caster level. Using this ability is a move action that consumes 3 points from the monk's ki pool. This ability affects only the monk and cannot be used to make other creatures ethereal."
 		]
 	},
 	"feather_balance": {
@@ -136,7 +136,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Pathfinder Unchained", 18 ] ],
 		"description": [
-			"A monk with this ki power can move effortlessly across nearly any surface. Whenever the monk activates his feather balance ki power, he can also ignore all {rule/difficult terrain}. In addition, while active, he can cross any solid surface, even if it would normally not support his weight. This does not allow him to walk on liquids. A monk must be at least 8th level and have the {kipower/feather balance} ki power before selecting this ki power."
+			"A monk with this ki power can move effortlessly across nearly any surface. Whenever the monk activates his feather balance ki power, he can also ignore all ‹rule/difficult terrain›. In addition, while active, he can cross any solid surface, even if it would normally not support his weight. This does not allow him to walk on liquids. A monk must be at least 8th level and have the ‹kipower/feather balance› ki power before selecting this ki power."
 		]
 	},
 	"floating_breath": {
@@ -144,7 +144,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Wilderness Origins", 31 ] ],
 		"description": [
-			"A monk with this ki power can spend 1 point from his ki pool as a swift action to balance on the air, hovering in place, until the end of his next turn. This power does not allow the monk to fly or otherwise move into the air; he must jump or use some other ability to reach his position. This otherwise functions as {spell/air walk}. A monk must be 8th level before selecting this power."
+			"A monk with this ki power can spend 1 point from his ki pool as a swift action to balance on the air, hovering in place, until the end of his next turn. This power does not allow the monk to fly or otherwise move into the air; he must jump or use some other ability to reach his position. This otherwise functions as ‹spell/air walk›. A monk must be 8th level before selecting this power."
 		]
 	},
 	"formless_mastery": {
@@ -152,7 +152,7 @@
 		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Pathfinder Unchained", 17 ] ],
 		"description": [
-			"A monk with this ability varies his styles, never repeating the same move twice and capitalizing on the weaknesses of an opponent's style. As long as he does not possess any style feat, the monk can spend 1 point from his ki pool as an immediate action to gain the following against opponents in the stance of a style feat: a +4 dodge bonus to AC, a +4 circumstance bonus on attack rolls, and a bonus equal to his monk level on damage rolls. These bonuses last until the end of the monk's next turn (or his current turn if he uses this ability on his own turn). The monk can activate this ability and the {kipower/furious defense} ki power with the same immediate action for a total cost of 3 ki points. A monk must be at least 7th level before selecting this ki power."
+			"A monk with this ability varies his styles, never repeating the same move twice and capitalizing on the weaknesses of an opponent's style. As long as he does not possess any style feat, the monk can spend 1 point from his ki pool as an immediate action to gain the following against opponents in the stance of a style feat: a +4 dodge bonus to AC, a +4 circumstance bonus on attack rolls, and a bonus equal to his monk level on damage rolls. These bonuses last until the end of the monk's next turn (or his current turn if he uses this ability on his own turn). The monk can activate this ability and the ‹kipower/furious defense› ki power with the same immediate action for a total cost of 3 ki points. A monk must be at least 7th level before selecting this ki power."
 		]
 	},
 	"freedom_of_movement": {
@@ -160,7 +160,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Blood of the Beast", 31 ] ],
 		"description": [
-			"A monk with this ability can spend 1 ki point as a swift action to gain the effects of {spell/freedom of movement} for 1 round. The monk must be at least 8th level before selecting this ki power."
+			"A monk with this ability can spend 1 ki point as a swift action to gain the effects of ‹spell/freedom of movement› for 1 round. The monk must be at least 8th level before selecting this ki power."
 		]
 	},
 	"furious_defense": {
@@ -168,7 +168,7 @@
 		"nameSuffix": "(Ex)",
 		"compilationSources": [ [ "Pathfinder Unchained", 17 ] ],
 		"description": [
-			"By spending 1 point from his ki pool as an immediate action, a monk with this ki power can grant himself a +4 dodge bonus to AC until the end of his next turn. The monk can activate this ability and the {kipower/formless mastery} ki power with the same immediate action for a total cost of 3 ki points. A monk must be at least 7th level before selecting this ki power."
+			"By spending 1 point from his ki pool as an immediate action, a monk with this ki power can grant himself a +4 dodge bonus to AC until the end of his next turn. The monk can activate this ability and the ‹kipower/formless mastery› ki power with the same immediate action for a total cost of 3 ki points. A monk must be at least 7th level before selecting this ki power."
 		]
 	},
 	"high_jump": {
@@ -185,7 +185,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Pathfinder Unchained", 18 ] ],
 		"description": [
-			"A monk with this ki power can spend 1 point from his ki pool as a move action to grant himself a fly speed (with perfect maneuverability) equal to his base land speed. He must end his movement each round on solid ground (or some other surface that can support his weight) or fall as normal. Once activated, this ability lasts for 1 minute. A monk must be at least 8th level and have the {kipower/high jump} ki power before selecting this ki power."
+			"A monk with this ki power can spend 1 point from his ki pool as a move action to grant himself a fly speed (with perfect maneuverability) equal to his base land speed. He must end his movement each round on solid ground (or some other surface that can support his weight) or fall as normal. Once activated, this ability lasts for 1 minute. A monk must be at least 8th level and have the ‹kipower/high jump› ki power before selecting this ki power."
 		]
 	},
 	"improvised_weapon_proficiency": {
@@ -193,7 +193,7 @@
 		"nameSuffix": "(Ex, Su)",
 		"compilationSources": [ [ "Blood of the Beast", 31 ] ],
 		"description": [
-			"A monk with this ability does not take a penalty on attack rolls for using an {misc/improvised weapon}. By spending 1 ki point, the monk can fight with a {misc/broken} weapon without taking any penalties on attack rolls or damage rolls for 1 round."
+			"A monk with this ability does not take a penalty on attack rolls for using an ‹misc/improvised weapon›. By spending 1 ki point, the monk can fight with a ‹misc/broken› weapon without taking any penalties on attack rolls or damage rolls for 1 round."
 		]
 	},
 	"insightful_wisdom": {
@@ -225,7 +225,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Blood of the Beast", 31 ] ],
 		"description": [
-			"A monk with this ability can spend 2 ki points to meditate as a full-round action, as if using Combat Meditation. Alternatively, he can spend 4 ki points to meditate as a move action instead. Using these ki points does not count as one of the monk's daily uses of Combat Meditation, but it grants him the usual benefits he would gain from his meditation feats for doing so. The monk must have the {feat/Combat Meditation} feat before selecting this ki power."
+			"A monk with this ability can spend 2 ki points to meditate as a full-round action, as if using Combat Meditation. Alternatively, he can spend 4 ki points to meditate as a move action instead. Using these ki points does not count as one of the monk's daily uses of Combat Meditation, but it grants him the usual benefits he would gain from his meditation feats for doing so. The monk must have the ‹feat/Combat Meditation› feat before selecting this ki power."
 		]
 	},
 	"ki_metabolism": {
@@ -233,7 +233,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Pathfinder Unchained", 17 ] ],
 		"description": [
-			"A monk with this ability uses his ki to control his metabolism. As long as he has at least 1 point remaining in his ki pool, the monk needs to eat and drink only 1/4 as often as normal, needs only 2 hours of sleep each night (including to replenish his ki pool), and can {misc/hold his breath} for up to 1 hour per point of Constitution. As a move action, he can spend 1 ki point to enter a state of suspended animation, falling unconscious and appearing dead to all senses. At the time he enters this state, he indicates a preset period of time or a triggering condition, after which he awakens."
+			"A monk with this ability uses his ki to control his metabolism. As long as he has at least 1 point remaining in his ki pool, the monk needs to eat and drink only 1/4 as often as normal, needs only 2 hours of sleep each night (including to replenish his ki pool), and can ‹misc/hold his breath› for up to 1 hour per point of Constitution. As a move action, he can spend 1 ki point to enter a state of suspended animation, falling unconscious and appearing dead to all senses. At the time he enters this state, he indicates a preset period of time or a triggering condition, after which he awakens."
 		]
 	},
 	"ki_mount": {
@@ -241,7 +241,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Pathfinder Unchained", 17 ] ],
 		"description": [
-			"A monk with this ability can spend 1 ki point as a standard action to grant 2 {rule/temporary hit points} per monk level he possesses to his mount for 1 hour per monk level. As long as the monk and his mount are adjacent or the monk is mounted, the mount shares the benefits of whichever of the AC bonus, evasion, high jump, improved evasion, ki strike, perfect self, and still mind abilities the monk possesses. A monk must be at least 6th level before selecting this ki power."
+			"A monk with this ability can spend 1 ki point as a standard action to grant 2 ‹rule/temporary hit points› per monk level he possesses to his mount for 1 hour per monk level. As long as the monk and his mount are adjacent or the monk is mounted, the mount shares the benefits of whichever of the AC bonus, evasion, high jump, improved evasion, ki strike, perfect self, and still mind abilities the monk possesses. A monk must be at least 6th level before selecting this ki power."
 		]
 	},
 	"ki_range": {
@@ -249,7 +249,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Pathfinder Unchained", 17 ] ],
 		"description": [
-			"A monk with this ability can spend 1 ki point as a swift action to increase the range increment of any thrown monk weapon by 20 feet. Apply this benefit before doubling the range increment with the {feat/Far Shot} feat."
+			"A monk with this ability can spend 1 ki point as a swift action to increase the range increment of any thrown monk weapon by 20 feet. Apply this benefit before doubling the range increment with the ‹feat/Far Shot› feat."
 		]
 	},
 	"ki_sunder": {
@@ -266,7 +266,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Martial Arts Handbook", 20 ] ],
 		"description": [
-			"A monk with this ability can spend 1 ki point as an immediate action when attacked with a manufactured weapon to attempt an unarmed sunder combat maneuver check against it. If he successfully sunders the weapon and grants it the broken condition, the attack deals no damage. He can spend an additional 1 ki point when using this ability to activate ki sunder as a free action. A monk must be at least 8th level and have the {kipower/ki sunder} ki power before selecting this ki power."
+			"A monk with this ability can spend 1 ki point as an immediate action when attacked with a manufactured weapon to attempt an unarmed sunder combat maneuver check against it. If he successfully sunders the weapon and grants it the broken condition, the attack deals no damage. He can spend an additional 1 ki point when using this ability to activate ki sunder as a free action. A monk must be at least 8th level and have the ‹kipower/ki sunder› ki power before selecting this ki power."
 		]
 	},
 	"ki_visions": {
@@ -274,7 +274,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Pathfinder Unchained", 17 ] ],
 		"description": [
-			"A monk with this ability often sees visions of spirits or hears the voice of his departed mentor in his dreams. On any given night during which the monk dreams, he can use this ability to gain the benefits of a {spell/divination}. If he does, he spends 2 ki points from the next day's total. A monk must be at least 10th level before selecting this ki power."
+			"A monk with this ability often sees visions of spirits or hears the voice of his departed mentor in his dreams. On any given night during which the monk dreams, he can use this ability to gain the benefits of a ‹spell/divination›. If he does, he spends 2 ki points from the next day's total. A monk must be at least 10th level before selecting this ki power."
 		]
 	},
 	"one_touch": {
@@ -290,7 +290,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Pathfinder Unchained", 18 ] ],
 		"description": [
-			"A monk with this power selects any of the {arc-monk/qinggong monk} ki powers for which he qualifies based on his monk level. A monk can select this ability multiple times. Each time, he must select a different qinggong monk ki power."
+			"A monk with this power selects any of the ‹arc-monk/qinggong monk› ki powers for which he qualifies based on his monk level. A monk can select this ability multiple times. Each time, he must select a different qinggong monk ki power."
 		]
 	},
 	"quivering_palm": {
@@ -306,7 +306,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Wilderness Origins", 31 ] ],
 		"description": [
-			"A monk with this ki power can create a wave to help him maneuver allies upon the battlefield, as if using the spell {spell/slipstream}. Using this ability is a move action that costs 2 ki points, and the ability remains in effect for 1 minute. A monk must be 6th level to select this ki power."
+			"A monk with this ki power can create a wave to help him maneuver allies upon the battlefield, as if using the spell ‹spell/slipstream›. Using this ability is a move action that costs 2 ki points, and the ability remains in effect for 1 minute. A monk must be 6th level to select this ki power."
 		]
 	},
 	"slow_fall": {
@@ -314,7 +314,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Pathfinder Unchained", 18 ] ],
 		"description": [
-			"A monk within arm's reach of a wall can use it to slow his descent by expending 1 point from his ki pool. When he uses this ability, he takes no damage from the fall (as if using {spell/feather fall}), but he must be adjacent to a wall for the length of the fall (although this can be used to reduce the damage from a fall if only part of it is adjacent to a wall)."
+			"A monk within arm's reach of a wall can use it to slow his descent by expending 1 point from his ki pool. When he uses this ability, he takes no damage from the fall (as if using ‹spell/feather fall›), but he must be adjacent to a wall for the length of the fall (although this can be used to reduce the damage from a fall if only part of it is adjacent to a wall)."
 		]
 	},
 	"sudden_speed": {
@@ -331,7 +331,7 @@
 		"level": 1,
 		"compilationSources": [ [ "Blood of the Beast", 30 ] ],
 		"description": [
-			"A monk with this ability adds half the base speed bonus from his fast movement ability to his racial climb speed. In addition, when he uses the sudden speed ki power, he adds the base speed bonus from that ki power to his racial climb speed for 1 round. The monk must have the {kipower/sudden speed} ki power before selecting branch runner."
+			"A monk with this ability adds half the base speed bonus from his fast movement ability to his racial climb speed. In addition, when he uses the sudden speed ki power, he adds the base speed bonus from that ki power to his racial climb speed for 1 round. The monk must have the ‹kipower/sudden speed› ki power before selecting branch runner."
 		]
 	},
 	"ki_hurricane": {
@@ -348,7 +348,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Pathfinder Unchained", 18 ] ],
 		"description": [
-			"A monk with this ki power can spend 1 point from his ki pool as a swift action to gain the ability to walk on water, as if under the effects of {spell/water walk}. Once activated, this ability lasts for 1 minute per monk level. A monk must be fat least 6th level before selecting this ki power."
+			"A monk with this ki power can spend 1 point from his ki pool as a swift action to gain the ability to walk on water, as if under the effects of ‹spell/water walk›. Once activated, this ability lasts for 1 minute per monk level. A monk must be fat least 6th level before selecting this ki power."
 		]
 	},
 	"wholeness_of_body": {
@@ -364,7 +364,7 @@
 		"nameSuffix": "(Su)",
 		"compilationSources": [ [ "Wilderness Origins", 31 ] ],
 		"description": [
-			"By spending 1 ki point as a standard action, a monk with this power can disrupt the wind and create a sharp blast of air, as if using the spell {spell/gust of wind}. The monk's caster level for this effect is equal to his monk level."
+			"By spending 1 ki point as a standard action, a monk with this power can disrupt the wind and create a sharp blast of air, as if using the spell ‹spell/gust of wind›. The monk's caster level for this effect is equal to his monk level."
 		]
 	}
 }

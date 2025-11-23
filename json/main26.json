@@ -12,7 +12,7 @@
 						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
 						"replacement": "$1!-SOURCE-!  !-N-!$2"
 					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				}
 			]
 		}
@@ -30,7 +30,7 @@
 						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
 						"replacement": "$1!-SOURCE-!  !-N-!$2"
 					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				}
 			]
 		}
@@ -48,7 +48,7 @@
 						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
 						"replacement": "$1!-SOURCE-!  !-N-!$2"
 					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				}
 			]
 		}
@@ -66,7 +66,7 @@
 						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
 						"replacement": "$1!-SOURCE-!  !-N-!$2"
 					},
-					"template": ":::item!-N-!!-N-!## {trait/!-TITLE-!}!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
 				}
 			]
 		}

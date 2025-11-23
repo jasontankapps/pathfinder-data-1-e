@@ -21,7 +21,7 @@
 		"name": "How Combat Works",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/178}",
+			"‹SOURCE PRPG Core Rulebook/178›",
 			"",
 			"Combat is cyclical; everybody acts in turn in a regular cycle of rounds. Combat follows this sequence:",
 			"",
@@ -58,7 +58,7 @@
 		"name": "The Combat Round",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/178}",
+			"‹SOURCE PRPG Core Rulebook/178›",
 			"",
 			"Each round represents 6 seconds in the game world; there are 10 rounds in a minute of combat. A round normally allows each character involved in a combat situation to act.",
 			"",
@@ -81,13 +81,13 @@
 		"tags": "flat-footed",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/178}",
+			"‹SOURCE PRPG Core Rulebook/178›",
 			"",
 			"At the start of a battle, each combatant makes an initiative check. An initiative check is a Dexterity check. Each character applies his or her Dexterity modifier to the roll, as well as other modifiers from feats, spells, and other effects. Characters act in order, counting down from the highest result to the lowest. In every round that follows, the characters act in the same order (unless a character takes an action that results in his or her initiative changing; see Special Initiative Actions).",
 			"",
 			"If two or more combatants have the same initiative check result, the combatants who are tied act in order of total initiative modifier (highest first). If there is still a tie, the tied characters should roll to determine which one of them goes before the other.",
 			"",
-			"@HL[Flat-Footed:] At the start of a battle, before you have had a chance to act (specifically, before your first regular turn in the initiative order), you are flat-footed. You can't use your Dexterity bonus to AC (if any) while flat-footed. Barbarians and rogues of high enough level have the uncanny dodge extraordinary ability, which means that they cannot be caught flat-footed. Characters with uncanny dodge retain their Dexterity bonus to their AC and can make attacks of opportunity before they have acted in the first round of combat. A flat-footed character can't make attacks of opportunity, unless he has the {feat/Combat Reflexes} feat.",
+			"@HL[Flat-Footed:] At the start of a battle, before you have had a chance to act (specifically, before your first regular turn in the initiative order), you are flat-footed. You can't use your Dexterity bonus to AC (if any) while flat-footed. Barbarians and rogues of high enough level have the uncanny dodge extraordinary ability, which means that they cannot be caught flat-footed. Characters with uncanny dodge retain their Dexterity bonus to their AC and can make attacks of opportunity before they have acted in the first round of combat. A flat-footed character can't make attacks of opportunity, unless he has the ‹feat/Combat Reflexes› feat.",
 			"",
 			"@HL[Inaction:] Even if you can't take actions, you retain your initiative score for the duration of the encounter."
 		],
@@ -105,7 +105,7 @@
 		"name": "Surprise Round",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/178}",
+			"‹SOURCE PRPG Core Rulebook/178›",
 			"",
 			"When a combat starts, if you are not aware of your opponents and they are aware of you, you're surprised.",
 			"",
@@ -131,7 +131,7 @@
 		"name": "Combat Statistics",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/178}",
+			"‹SOURCE PRPG Core Rulebook/178›",
 			"",
 			"This section summarizes the statistics that determine success in combat, then details how to use them."
 		],
@@ -162,11 +162,11 @@
 		"name": "Attack Roll and Attack Bonus",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/178}",
+			"‹SOURCE PRPG Core Rulebook/178›",
 			"",
 			"An attack roll represents your attempt to strike your opponent on your turn in a round. When you make an attack roll, you roll a d20 and add your attack bonus. (Other modifiers may also apply to this roll.) If your result equals or beats the target's Armor Class, you hit and deal damage.",
 			"",
-			"@HL[Automatic Misses and Hits:] A natural 1 (the d20 comes up 1) on an attack roll is always a miss. A natural 20 (the d20 comes up 20) is always a hit. A natural 20 is also a threat - a possible critical hit (see {rule/the |attack/ action}).",
+			"@HL[Automatic Misses and Hits:] A natural 1 (the d20 comes up 1) on an attack roll is always a miss. A natural 20 (the d20 comes up 20) is always a hit. A natural 20 is also a threat - a possible critical hit (see ‹rule/the »attack« action›).",
 			"",
 			"Your attack bonus with a melee weapon is the following:",
 			"",
@@ -195,7 +195,7 @@
 		"tags": "dexterity bonus enhancement bonus deflection bonus natural armor bonus dodge bonus size modifier incorporeal touch attacks",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/179}",
+			"‹SOURCE PRPG Core Rulebook/179›",
 			"",
 			"Your Armor Class (AC) represents how hard it is for opponents to land a solid, damaging blow on you. It's the attack roll result that an opponent needs to achieve to hit you. Your AC is equal to the following:",
 			"",
@@ -235,7 +235,7 @@
 			"",
 			"@HL[Touch Attacks:] Some attacks completely disregard armor, including shields and natural armor - the aggressor need only touch a foe for such an attack to take full effect. In these cases, the attacker makes a touch attack roll (either ranged or melee). When you are the target of a touch attack, your AC doesn't include any armor bonus, shield bonus, or natural armor bonus. All other modifiers, such as your size modifier, Dexterity modifier, and deflection bonus (if any) apply normally.",
 			"",
-			"Some creatures have the ability to make incorporeal touch attacks. These attacks bypass solid objects, such as armor and shields, by passing through them. Incorporeal touch attacks work similarly to normal touch attacks except that they also ignore cover bonuses. Incorporeal touch attacks do not ignore armor bonuses granted by force effects, such as {spell/mage armor} and {magic-wondrous/bracers of armor}."
+			"Some creatures have the ability to make incorporeal touch attacks. These attacks bypass solid objects, such as armor and shields, by passing through them. Incorporeal touch attacks work similarly to normal touch attacks except that they also ignore cover bonuses. Incorporeal touch attacks do not ignore armor bonuses granted by force effects, such as ‹spell/mage armor› and ‹magic-wondrous/bracers of armor›."
 		],
 		"parent_topics": [
 			"combat",
@@ -256,11 +256,11 @@
 		"name": "Damage",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/179}",
+			"‹SOURCE PRPG Core Rulebook/179›",
 			"",
 			"If your attack succeeds, you deal damage. The type of weapon used determines the amount of damage you deal. Damage reduces a target's current hit points.",
 			"",
-			"@HL[Minimum Damage:] If penalties reduce the damage result to less than 1, a hit still deals 1 point of nonlethal damage (see {rule/Nonlethal Damage}).",
+			"@HL[Minimum Damage:] If penalties reduce the damage result to less than 1, a hit still deals 1 point of nonlethal damage (see ‹rule/Nonlethal Damage›).",
 			"",
 			"@HL[Strength Bonus:] When you hit with a melee or thrown weapon, including a sling, add your Strength modifier to the damage result. A Strength penalty, but not a bonus, applies on damage rolls made with a bow that is not a composite bow.",
 			"",
@@ -274,7 +274,7 @@
 			"",
 			"@HL[Exception:] Extra damage dice over and above a weapon's normal damage are never multiplied.",
 			"",
-			"@HL[Ability Damage:] Certain creatures and magical effects can cause temporary or permanent ability damage (a reduction to an ability score). {rule/Rules covering |ability damage /are found here>drain}."
+			"@HL[Ability Damage:] Certain creatures and magical effects can cause temporary or permanent ability damage (a reduction to an ability score). ‹rule/Rules covering »ability damage «are found here<drain›."
 		],
 		"parent_topics": [
 			"combat",
@@ -294,9 +294,9 @@
 		"name": "Hit Points",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/179}",
+			"‹SOURCE PRPG Core Rulebook/179›",
 			"",
-			"When your hit point total reaches 0, you're {rule/disabled>_0_hit_points}. When it reaches -1, you're {rule/dying>_negative_hit_points}. When it gets to a negative amount equal to your Constitution score, you're {rule/dead}."
+			"When your hit point total reaches 0, you're ‹rule/disabled<_0_hit_points›. When it reaches -1, you're ‹rule/dying<_negative_hit_points›. When it gets to a negative amount equal to your Constitution score, you're ‹rule/dead›."
 		],
 		"parent_topics": [
 			"combat",
@@ -316,7 +316,7 @@
 		"name": "Attacks of Opportunity",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/180}",
+			"‹SOURCE PRPG Core Rulebook/180›",
 			"",
 			"Sometimes a combatant in a melee lets her guard down or takes a reckless action. In this case, combatants near her can take advantage of her lapse in defense to attack her for free. These free attacks are called attacks of opportunity (AoO). See the Attacks of Opportunity diagram [in the physical book, page 181] for an example of how they work.",
 			"",
@@ -328,7 +328,7 @@
 			"",
 			"@HL[Moving:] Moving out of a threatened square usually provokes AoOs from threatening opponents. There are two common methods of avoiding such an attack - the 5-foot step and the withdraw action.",
 			"",
-			"@HL[Performing a Distracting Act:] Some actions, when performed in a threatened square, provoke AoOs as you divert your attention from the battle. Many of the actions that provoke attacks of opportunity are noted in their respective sections: {rule/standard actions}, {rule/move actions}, {rule/full-round actions}, {rule/free actions}, {rule/swift a[ctions, ]«nd_»immediate actions}, and {rule/miscellaneous actions}. They are summarized in the list below.",
+			"@HL[Performing a Distracting Act:] Some actions, when performed in a threatened square, provoke AoOs as you divert your attention from the battle. Many of the actions that provoke attacks of opportunity are noted in their respective sections: ‹rule/standard actions›, ‹rule/move actions›, ‹rule/full-round actions›, ‹rule/free actions›, ‹rule/swift a«ctions, »<nd_>immediate actions›, and ‹rule/miscellaneous actions›. They are summarized in the list below.",
 			"",
 			"Remember that even actions that normally provoke AoOs may have exceptions to this rule.",
 			"",
@@ -336,7 +336,7 @@
 			"",
 			"An attack of opportunity \"interrupts\" the normal flow of actions in the round. If an attack of opportunity is provoked, immediately resolve the attack of opportunity, then continue with the next character's turn (or complete the current turn, if the attack of opportunity was provoked in the midst of a character's turn).",
 			"",
-			"@HL[Combat Reflexes and Additional Attacks of Opportunity:] If you have the {feat/Combat Reflexes} feat, you can add your Dexterity bonus to the number of AoOs you can make in a round. This feat does not let you make more than one attack for a given opportunity, but if the same opponent provokes two AoOs from you, you could make two separate attacks of opportunity (since each one represents a different opportunity). Moving out of more than one square threatened by the same opponent in the same round doesn't count as more than one opportunity for that opponent. All these attacks are at your full normal attack bonus.",
+			"@HL[Combat Reflexes and Additional Attacks of Opportunity:] If you have the ‹feat/Combat Reflexes› feat, you can add your Dexterity bonus to the number of AoOs you can make in a round. This feat does not let you make more than one attack for a given opportunity, but if the same opponent provokes two AoOs from you, you could make two separate attacks of opportunity (since each one represents a different opportunity). Moving out of more than one square threatened by the same opponent in the same round doesn't count as more than one opportunity for that opponent. All these attacks are at your full normal attack bonus.",
 			"",
 			"### Actions That Provoke Attacks of Opportunity",
 			"",
@@ -347,7 +347,7 @@
 			"- Load a crossbow",
 			"- Move a heavy item",
 			"- Pick up an item, or retrieve a stored item",
-			"- Use a {main/skill>s} that takes 1 action or longer (usually; some exceptions apply)",
+			"- Use a ‹main/skill<s› that takes 1 action or longer (usually; some exceptions apply)",
 			"- Move out of a threatened square (including running)",
 			"- Light a torch with a tindertwig",
 			"- Control a frightened mount",
@@ -377,7 +377,7 @@
 		"name": "Speed",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/180}",
+			"‹SOURCE PRPG Core Rulebook/180›",
 			"",
 			"Your speed tells you how far you can move in a round and still do something, such as attack or cast a spell. Your speed depends mostly on your size and your armor. Dwarves, gnomes, and halflings have a speed of 20 feet (4 squares), or 15 feet (3 squares) when wearing medium or heavy armor (except for dwarves, who move 20 feet in any armor).",
 			"",
@@ -403,7 +403,7 @@
 		"name": "Saving Throws",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/180}",
+			"‹SOURCE PRPG Core Rulebook/180›",
 			"",
 			"Generally, when you are subject to an unusual or magical attack, you get a saving throw to avoid or reduce the effect. Like an attack roll, a saving throw is a d20 roll plus a bonus based on your class and level, and an associated ability score. Your saving throw modifier is:",
 			"",
@@ -419,7 +419,7 @@
 			"",
 			"@HL[Saving Throw Difficulty Class:] The DC for a save is determined by the attack itself.",
 			"",
-			"@HL[Automatic Failures and Successes:] A natural 1 (the d20 comes up 1) on a saving throw is always a failure (and may cause damage to exposed items; see {rule/Items Surviving after a |Saving Throw}). A natural 20 (the d20 comes up 20) is always a success."
+			"@HL[Automatic Failures and Successes:] A natural 1 (the d20 comes up 1) on a saving throw is always a failure (and may cause damage to exposed items; see ‹rule/Items Surviving after a »Saving Throw›). A natural 20 (the d20 comes up 20) is always a success."
 		],
 		"parent_topics": [
 			"combat",
@@ -439,7 +439,7 @@
 		"name": "Actions in Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/181}",
+			"‹SOURCE PRPG Core Rulebook/181›",
 			"",
 			"During one turn, there are a wide variety of actions that your character can perform, from swinging a sword to casting a spell.",
 			"",
@@ -499,7 +499,7 @@
 		"name": "Standard Actions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/182}",
+			"‹SOURCE PRPG Core Rulebook/182›",
 			"",
 			"Most of the common actions characters take, aside from movement, fall into the realm of standard actions.",
 			"",
@@ -514,7 +514,7 @@
 			"| Channel energy | No |",
 			"| Concentration to maintain an active spell | No |",
 			"| Dismiss a spell | No |",
-			"| Draw a hidden weapon (see {skill/Sleight of Hand}) | No |",
+			"| Draw a hidden weapon (see ‹skill/Sleight of Hand›) | No |",
 			"| Drink a potion or apply an oil | Yes |",
 			"| Escape a grapple | No |",
 			"| Feint | No |",
@@ -522,7 +522,7 @@
 			"| Lower spell resistance | No |",
 			"| Read a scroll | Yes |",
 			"| Ready (triggers a standard action) | No |",
-			"| Stabilize a dying friend (see {skill/Heal}) | Yes |",
+			"| Stabilize a dying friend (see ‹skill/Heal›) | Yes |",
 			"| Total defense | No |",
 			"| Use extraordinary ability | No |",
 			"| Use skill that takes 1 action | Usually |",
@@ -557,7 +557,7 @@
 		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/182}",
+			"‹SOURCE PRPG Core Rulebook/182›",
 			"",
 			"Making an attack is a standard action."
 		],
@@ -585,9 +585,9 @@
 		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/182}",
+			"‹SOURCE PRPG Core Rulebook/182›",
 			"",
-			"@HL[Melee Attacks:] With a normal melee weapon, you can strike any opponent within 5 feet. (Opponents within 5 feet are considered adjacent to you.) Some melee weapons have {misc/reach}, as indicated in their descriptions. With a typical reach weapon, you can strike opponents 10 feet away, but you can't strike adjacent foes (those within 5 feet).",
+			"@HL[Melee Attacks:] With a normal melee weapon, you can strike any opponent within 5 feet. (Opponents within 5 feet are considered adjacent to you.) Some melee weapons have ‹misc/reach›, as indicated in their descriptions. With a typical reach weapon, you can strike opponents 10 feet away, but you can't strike adjacent foes (those within 5 feet).",
 			"",
 			"@HL[Unarmed Attacks:] Striking for damage with punches, kicks, and head butts is much like attacking with a melee weapon, except for the following:",
 			"",
@@ -595,11 +595,11 @@
 			">",
 			">An unarmed character can't take attacks of opportunity (but see \"Armed\" Unarmed Attacks, below).",
 			">",
-			">@HL[\"Armed\" Unarmed Attacks:] Sometimes a character's or creature's unarmed attack counts as an armed attack. A {class/monk}, a character with the {feat/Improved Unarmed Strike} feat, a spellcaster delivering a touch attack spell, and a creature with natural physical weapons all count as being armed (see {rule/natural attacks}).",
+			">@HL[\"Armed\" Unarmed Attacks:] Sometimes a character's or creature's unarmed attack counts as an armed attack. A ‹class/monk›, a character with the ‹feat/Improved Unarmed Strike› feat, a spellcaster delivering a touch attack spell, and a creature with natural physical weapons all count as being armed (see ‹rule/natural attacks›).",
 			">",
 			">Note that being armed counts for both offense and defense (the character can make attacks of opportunity).",
 			">",
-			">@HL[Unarmed Strike Damage:] An unarmed strike from a Medium character deals 1d3 points of bludgeoning damage (plus your Strength modifier, as normal). A Small character's unarmed strike deals 1d2 points of bludgeoning damage, while a Large character's unarmed strike deals 1d4 points of bludgeoning damage. All damage from unarmed strikes is nonlethal damage. Unarmed strikes count as light weapons (for purposes of {rule/two-weapon /attack>fighting} penalties and so on).",
+			">@HL[Unarmed Strike Damage:] An unarmed strike from a Medium character deals 1d3 points of bludgeoning damage (plus your Strength modifier, as normal). A Small character's unarmed strike deals 1d2 points of bludgeoning damage, while a Large character's unarmed strike deals 1d4 points of bludgeoning damage. All damage from unarmed strikes is nonlethal damage. Unarmed strikes count as light weapons (for purposes of ‹rule/two-weapon «attack<fighting› penalties and so on).",
 			">",
 			">@HL[Dealing Lethal Damage:] You can specify that your unarmed strike will deal lethal damage before you make your attack roll, but you take a -4 penalty on your attack roll. If you have the Improved Unarmed Strike feat, you can deal lethal damage with an unarmed strike without taking a penalty on the attack roll.",
 			"",
@@ -609,7 +609,7 @@
 			">",
 			">If your target is two size categories larger than the friendly characters it is engaged with, this penalty is reduced to -2. There is no penalty for firing at a creature that is three size categories larger than the friendly characters it is engaged with.",
 			"",
-			"@HL[Precise Shot:] If you have the {feat/Precise Shot} feat, you don't take this penalty."
+			"@HL[Precise Shot:] If you have the ‹feat/Precise Shot› feat, you don't take this penalty."
 		],
 		"parent_topics": [
 			"combat",
@@ -630,13 +630,13 @@
 		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/182}",
+			"‹SOURCE PRPG Core Rulebook/182›",
 			"",
 			"Attacks made with natural weapons, such as claws and bites, are melee attacks that can be made against any creature within your reach (usually 5 feet). These attacks are made using your full attack bonus and deal an amount of damage that depends on their type (plus your Strength modifier, as normal). You do not receive additional natural attacks for a high base attack bonus. Instead, you receive additional attack rolls for multiple limb and body parts capable of making the attack (as noted by the race or ability that grants the attacks). If you possess only one natural attack (such as a bite - two claw attacks do not qualify), you add 1-1/2 times your Strength bonus on damage rolls made with that attack.",
 			"",
 			"Some natural attacks are denoted as secondary natural attacks, such as tails and wings. Attacks with secondary natural attacks are made using your base attack bonus minus 5. These attacks deal an amount of damage depending on their type, but you only add half your Strength modifier on damage rolls.",
 			"",
-			"You can make attacks with natural weapons in combination with attacks made with a melee weapon and unarmed strikes, so long as a different limb is used for each attack. For example, you cannot make a claw attack and also use that hand to make attacks with a longsword. When you make additional attacks in this way, all of your natural attacks are treated as secondary natural attacks, using your base attack bonus minus 5 and adding only 1/2 of your Strength modifier on damage rolls. Feats such as {feat/Two-Weapon Fighting} and {feat/Multiattack} can reduce these penalties."
+			"You can make attacks with natural weapons in combination with attacks made with a melee weapon and unarmed strikes, so long as a different limb is used for each attack. For example, you cannot make a claw attack and also use that hand to make attacks with a longsword. When you make additional attacks in this way, all of your natural attacks are treated as secondary natural attacks, using your base attack bonus minus 5 and adding only 1/2 of your Strength modifier on damage rolls. Feats such as ‹feat/Two-Weapon Fighting› and ‹feat/Multiattack› can reduce these penalties."
 		],
 		"parent_topics": [
 			"combat",
@@ -658,9 +658,9 @@
 		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/184}",
+			"‹SOURCE PRPG Core Rulebook/184›",
 			"",
-			"@HL[Multiple Attacks:] A character who can make more than one attack per round must use the {rule/full-attack/ action} in order to get more than one attack.",
+			"@HL[Multiple Attacks:] A character who can make more than one attack per round must use the ‹rule/full-attack« action› in order to get more than one attack.",
 			"",
 			"@HL[Fighting Defensively as a Standard Action:] You can choose to fight defensively when attacking. If you do so, you take a -4 penalty on all attacks in a round to gain a +2 dodge bonus to AC until the start of your next turn."
 		],
@@ -682,19 +682,19 @@
 		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/184}",
+			"‹SOURCE PRPG Core Rulebook/184›",
 			"",
 			"When you make an attack roll and get a natural 20 (the d20 shows 20), you hit regardless of your target's Armor Class, and you have scored a \"threat,\" meaning the hit might be a critical hit (or \"crit\"). To find out if it's a critical hit, you immediately make an attempt to \"confirm\" the critical hit - another attack roll with all the same modifiers as the attack roll you just made. If the confirmation roll also results in a hit against the target's AC, your original hit is a critical hit. (The critical roll just needs to hit to give you a crit, it doesn't need to come up 20 again.) If the confirmation roll is a miss, then your hit is just a regular hit.",
 			"",
 			"A critical hit means that you roll your damage more than once, with all your usual bonuses, and add the rolls together. Unless otherwise specified, the threat range for a critical hit on an attack roll is 20, and the multiplier is &times;2.",
 			"",
-			">@HL[Exception:] Precision damage (such as from a rogue's {ability/sneak attack} class feature) and additional damage dice from weapon special abilities (such as {magic-enh/flaming}) are not multiplied when you score a critical hit.",
+			">@HL[Exception:] Precision damage (such as from a rogue's ‹ability/sneak attack› class feature) and additional damage dice from weapon special abilities (such as ‹magic-enh/flaming›) are not multiplied when you score a critical hit.",
 			"",
 			"@HL[Increased Threat Range:] Sometimes your threat range is greater than 20. That is, you can score a threat on a lower number. In such cases, a roll of lower than 20 is not an automatic hit. Any attack roll that doesn't result in a hit is not a threat.",
 			"",
 			"@HL[Increased Critical Multiplier:] Some weapons deal better than double damage on a critical hit.",
 			"",
-			"@HL[Spells and Critical Hits:] A spell that requires an attack roll can score a critical hit. A spell attack that requires no attack roll cannot score a critical hit. If a spell causes {rule/ability damage[ or] drain}, the damage or drain is doubled on a critical hit."
+			"@HL[Spells and Critical Hits:] A spell that requires an attack roll can score a critical hit. A spell attack that requires no attack roll cannot score a critical hit. If a spell causes ‹rule/ability damage« or» drain›, the damage or drain is doubled on a critical hit."
 		],
 		"parent_topics": [
 			"combat",
@@ -714,7 +714,7 @@
 		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/183}",
+			"‹SOURCE PRPG Core Rulebook/183›",
 			"",
 			"Many magic items don't need to be activated. Certain magic items, however, do need to be activated, especially potions, scrolls, wands, rods, and staves. Unless otherwise noted, activating a magic item is a standard action.",
 			"",
@@ -741,19 +741,19 @@
 		"tags": "holding the charge ranged touch spells concentration",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/183}",
+			"‹SOURCE PRPG Core Rulebook/183›",
 			"",
 			"Most spells require 1 standard action to cast. You can cast such a spell either before or after you take a move action.",
 			"",
 			"**Note:** You retain your Dexterity bonus to AC while casting.",
 			"",
-			"@HL[Spell Components:] To cast a spell with a verbal (V) component, your character must speak in a firm voice. If you're gagged or in the area of a {spell/silence} spell, you can't cast such a spell. A spellcaster who has been {misc/deafened} has a 20% chance to spoil any spell he tries to cast if that spell has a verbal component.",
+			"@HL[Spell Components:] To cast a spell with a verbal (V) component, your character must speak in a firm voice. If you're gagged or in the area of a ‹spell/silence› spell, you can't cast such a spell. A spellcaster who has been ‹misc/deafened› has a 20% chance to spoil any spell he tries to cast if that spell has a verbal component.",
 			"",
 			"To cast a spell with a somatic (S) component, you must gesture freely with at least one hand. You can't cast a spell of this type while bound, grappling, or with both your hands full or occupied.",
 			"",
 			"To cast a spell with a material (M), focus (F), or divine focus (DF) component, you have to have the proper materials, as described by the spell. Unless these components are elaborate, preparing them is a free action. For material components and focuses whose costs are not listed in the spell description, you can assume that you have them if you have your spell component pouch.",
 			"",
-			"@HL[Concentration:] You must concentrate to cast a spell. If you can't concentrate, you can't cast a spell. If you start casting a spell but something interferes with your concentration, you must make a {rule/concentration} check or lose the spell. The check's DC depends on what is threatening your concentration. If you fail, the spell fizzles with no effect. If you prepare spells, it is lost from preparation. If you cast at will, it counts against your daily limit of spells even though you did not cast it successfully.",
+			"@HL[Concentration:] You must concentrate to cast a spell. If you can't concentrate, you can't cast a spell. If you start casting a spell but something interferes with your concentration, you must make a ‹rule/concentration› check or lose the spell. The check's DC depends on what is threatening your concentration. If you fail, the spell fizzles with no effect. If you prepare spells, it is lost from preparation. If you cast at will, it counts against your daily limit of spells even though you did not cast it successfully.",
 			"",
 			"@HL[Concentrating to Maintain a Spell:] Some spells require continued concentration to keep them going. Concentrating to maintain a spell is a standard action that doesn't provoke an attack of opportunity. Anything that could break your concentration when casting a spell can keep you from concentrating to maintain a spell. If your concentration breaks, the spell ends.",
 			"",
@@ -791,13 +791,13 @@
 		"subtitle": "Standard Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/186}",
+			"‹SOURCE PRPG Core Rulebook/186›",
 			"",
 			"Using a special ability is usually a standard action, but whether it is a standard action, a full-round action, or not an action at all is defined by the ability.",
 			"",
 			"@HL[Spell-Like Abilities (Sp):] Using a spell-like ability works like casting a spell in that it requires concentration and provokes attacks of opportunity. Spell-like abilities can be disrupted. If your concentration is broken, the attempt to use the ability fails, but the attempt counts as if you had used the ability. The casting time of a spell-like ability is 1 standard action, unless the ability description notes otherwise.",
 			"",
-			"@HL[Using a Spell-Like Ability on the Defensive:] You may attempt to use a spell-like ability on the defensive, just as with casting a spell. If the {rule/concentration} check (DC 15 + double the spell's level) fails, you can't use the ability, but the attempt counts as if you had used the ability.",
+			"@HL[Using a Spell-Like Ability on the Defensive:] You may attempt to use a spell-like ability on the defensive, just as with casting a spell. If the ‹rule/concentration› check (DC 15 + double the spell's level) fails, you can't use the ability, but the attempt counts as if you had used the ability.",
 			"",
 			"@HL[Supernatural Abilities (Su):] Using a supernatural ability is usually a standard action (unless defined otherwise by the ability's description). Its use cannot be disrupted, does not require concentration, and does not provoke attacks of opportunity.",
 			"",
@@ -820,11 +820,11 @@
 		"name": "Other Standard Actions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/185}",
+			"‹SOURCE PRPG Core Rulebook/185›",
 			"",
 			"The @HL[start full-round action] standard action lets you start undertaking a full-round action, which you can complete in the following round by using another standard action (@HL[complete full-round action]). You can't use this action to start or complete a full attack, charge, run, or withdraw.",
 			"",
-			"@HL[Total defense] lets you defend yourself as a standard action. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with fighting defensively or with the benefit of the {feat/Combat Expertise} feat. You can't make attacks of opportunity while using total defense."
+			"@HL[Total defense] lets you defend yourself as a standard action. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with fighting defensively or with the benefit of the ‹feat/Combat Expertise› feat. You can't make attacks of opportunity while using total defense."
 		],
 		"parent_topics": [
 			"combat",
@@ -843,7 +843,7 @@
 		"name": "Move Actions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/186}",
+			"‹SOURCE PRPG Core Rulebook/186›",
 			"",
 			"With the exception of specific movement-related skills, most move actions don't require a check.",
 			"",
@@ -864,7 +864,7 @@
 			"| Retrieve a stored item | Yes |",
 			"",
 			"[^1]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.",
-			"[^2]: If you have a base attack bonus of +1 or higher, you can combine one of these actions with a regular move. If you have the {feat/Two-Weapon Fighting} feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one."
+			"[^2]: If you have a base attack bonus of +1 or higher, you can combine one of these actions with a regular move. If you have the ‹feat/Two-Weapon Fighting› feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one."
 		],
 		"parent_topics": [
 			"combat",
@@ -891,7 +891,7 @@
 		"subtitle": "Move Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/186}",
+			"‹SOURCE PRPG Core Rulebook/186›",
 			"",
 			"The simplest move action is moving your speed. If you take this kind of move action during your turn, you can't also take a 5-foot step.",
 			"",
@@ -919,11 +919,11 @@
 		"subtitle": "Move Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/186}",
+			"‹SOURCE PRPG Core Rulebook/186›",
 			"",
 			"Drawing a weapon so that you can use it in combat, or putting it away so that you have a free hand, requires a move action. This action also applies to weapon-like objects carried in easy reach, such as wands. If your weapon or weapon-like object is stored in a pack or otherwise out of easy reach, treat this action as retrieving a stored item.",
 			"",
-			"If you have a base attack bonus of +1 or higher, you may draw a weapon as a free action combined with a regular move. If you have the {feat/Two-Weapon Fighting} feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one.",
+			"If you have a base attack bonus of +1 or higher, you may draw a weapon as a free action combined with a regular move. If you have the ‹feat/Two-Weapon Fighting› feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one.",
 			"",
 			"Drawing ammunition for use with a ranged weapon (such as arrows, bolts, sling bullets, or shuriken) is a free action."
 		],
@@ -945,7 +945,7 @@
 		"subtitle": "Move Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/187}",
+			"‹SOURCE PRPG Core Rulebook/187›",
 			"",
 			"Mounting or dismounting a steed requires a move action.",
 			"",
@@ -969,7 +969,7 @@
 		"subtitle": "Move Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/187}",
+			"‹SOURCE PRPG Core Rulebook/187›",
 			"",
 			"Strapping a shield to your arm to gain its shield bonus to your AC, or unstrapping and dropping a shield so you can use your shield hand for another purpose, requires a move action. If you have a base attack bonus of +1 or higher, you can ready or drop a shield as a free action combined with a regular move. Dropping a carried (but not worn) shield is a free action."
 		],
@@ -992,7 +992,7 @@
 		"tags": "manipulating an item stand up from prone direct spell redirect spell",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/187}",
+			"‹SOURCE PRPG Core Rulebook/187›",
 			"",
 			"Moving or manipulating an item is usually a move action. This includes retrieving or putting away a stored item, picking up an item, moving a heavy object, and opening a door. Examples of this kind of action, along with whether they incur an attack of opportunity, are given in [the table here](rule/move_actions).",
 			"",
@@ -1017,7 +1017,7 @@
 		"name": "Full-Round Actions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/187}",
+			"‹SOURCE PRPG Core Rulebook/187›",
 			"",
 			"A full-round action requires an entire round to complete. Thus, it can't be coupled with a standard or a move action, though if it does not involve moving any distance, you can take a 5-foot step.",
 			"",
@@ -1065,7 +1065,7 @@
 		"subtitle": "Full-Round Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/187}",
+			"‹SOURCE PRPG Core Rulebook/187›",
 			"",
 			"If you get more than one attack per round because your base attack bonus is high enough, because you fight with two weapons or a double weapon, or for some special reason, you must use a full-round action to get your additional attacks. You do not need to specify the targets of your attacks ahead of time. You can see how the earlier attacks turn out before assigning the later ones.",
 			"",
@@ -1094,7 +1094,7 @@
 		"name": "Cast a Spell (Full-Round Action)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/187}",
+			"‹SOURCE PRPG Core Rulebook/187›",
 			"",
 			"A spell that takes one round to cast is a full-round action. It comes into effect just before the beginning of your turn in the round after you began casting the spell. You then act normally after the spell is completed.",
 			"",
@@ -1104,7 +1104,7 @@
 			"",
 			"This action is otherwise identical to the cast a spell action described under Standard Actions.",
 			"",
-			"@HL[Casting a Metamagic Spell:] Sorcerers and bards must take more time to cast a metamagic spell (one enhanced by a {main/metamagic feat} than a regular spell. If a spell's normal casting time is 1 standard action, casting a metamagic version of the spell is a full-round action for a sorcerer or bard (except for spells modified by the {feat/Quicken Spell} feat, which take 1 swift action to cast). Note that this isn't the same as a spell with a 1-round casting time. Spells that take a full-round action to cast take effect in the same round that you begin casting, and you are not required to continue the invocations, gestures, and concentration until your next turn. For spells with a longer casting time, it takes an extra full-round action to cast the metamagic spell.",
+			"@HL[Casting a Metamagic Spell:] Sorcerers and bards must take more time to cast a metamagic spell (one enhanced by a ‹main/metamagic feat› than a regular spell. If a spell's normal casting time is 1 standard action, casting a metamagic version of the spell is a full-round action for a sorcerer or bard (except for spells modified by the ‹feat/Quicken Spell› feat, which take 1 swift action to cast). Note that this isn't the same as a spell with a 1-round casting time. Spells that take a full-round action to cast take effect in the same round that you begin casting, and you are not required to continue the invocations, gestures, and concentration until your next turn. For spells with a longer casting time, it takes an extra full-round action to cast the metamagic spell.",
 			"",
 			"Clerics and druids must take more time to spontaneously cast a metamagic version of a cure, inflict, or summon spell. Spontaneously casting a metamagic version of a spell with a casting time of 1 standard action is a full-round action, and spells with longer casting times take an extra full-round action to cast."
 		],
@@ -1126,9 +1126,9 @@
 		"subtitle": "Full-Round Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/188}",
+			"‹SOURCE PRPG Core Rulebook/188›",
 			"",
-			"You can run as a full-round action. If you do, you do not also get a 5-foot step. When you run, you can move up to four times your speed in a straight line (or three times your speed if you're in heavy armor). You lose any Dexterity bonus to AC unless you have the {feat/Run} feat.",
+			"You can run as a full-round action. If you do, you do not also get a 5-foot step. When you run, you can move up to four times your speed in a straight line (or three times your speed if you're in heavy armor). You lose any Dexterity bonus to AC unless you have the ‹feat/Run› feat.",
 			"",
 			"You can run for a number of rounds equal to your Constitution score, but after that you must make a DC 10 Constitution check to continue running. You must check again each round in which you continue to run, and the DC of this check increases by 1 for each check you have made. When you fail this check, you must stop running. A character who has run to his limit must rest for 1 minute (10 rounds) before running again. During a rest period, a character can move no faster than a normal move action.",
 			"",
@@ -1154,7 +1154,7 @@
 		"subtitle": "Full-Round Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/188}",
+			"‹SOURCE PRPG Core Rulebook/188›",
 			"",
 			"Withdrawing from melee combat is a full-round action. When you withdraw, you can move up to double your speed. The square you start out in is not considered threatened by any opponent you can see, and therefore visible enemies do not get attacks of opportunity against you when you move from that square. Invisible enemies still get attacks of opportunity against you, and you can't withdraw from combat if you're blinded. You can't take a 5-foot step during the same round in which you withdraw.",
 			"",
@@ -1184,7 +1184,7 @@
 		"tags": "Move 5 Feet through Difficult Terrain Use Special Ability",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/188}",
+			"‹SOURCE PRPG Core Rulebook/188›",
 			"",
 			"In some situations, your movement may be so hampered that you don't have sufficient speed even to move 5 feet (a single square). In such a case, you may spend a full-round action to @HL[move 5 feet] (1 square) in any direction, even diagonally. Even though this looks like a 5-foot step, it's not, and thus it provokes attacks of opportunity normally.",
 			"",
@@ -1207,7 +1207,7 @@
 		"name": "Free Actions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/188}",
+			"‹SOURCE PRPG Core Rulebook/188›",
 			"",
 			"Free actions don't take any time at all, though there may be limits to the number of free actions you can perform in a turn. Free actions rarely incur attacks of opportunity. Some common free actions are described below.",
 			"",
@@ -1240,7 +1240,7 @@
 		"name": "Swift and Immediate Actions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/188}",
+			"‹SOURCE PRPG Core Rulebook/188›",
 			"",
 			"A @HL[swift action] consumes a very small amount of time, but represents a larger expenditure of effort than a free action. You can perform one swift action per turn without affecting your ability to perform other actions. In that regard, a swift action is like a free action. You can, however, perform only one single swift action per turn, regardless of what other actions you take. You can take a swift action anytime you would normally be allowed to take a free action. Swift actions usually involve spellcasting, activating a feat, or the activation of magic items.",
 			"",
@@ -1254,10 +1254,10 @@
 			"",
 			"| Immediate Action | Attack of Opportunity[^3] |",
 			"| --- | --- |",
-			"| Cast {spell/feather fall} | No |",
+			"| Cast ‹spell/feather fall› | No |",
 			"",
 			"[^1]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.",
-			"[^2]: You can cast a quickened spell (see the {feat/Quicken Spell} feat), or any spell whose casting time is designated as a free or swift action, as a swift action. Only one such spell can be cast in any round, and such spells don't count toward your normal limit of one spell per round. Casting a spell as a swift action doesn't incur an attack of opportunity.",
+			"[^2]: You can cast a quickened spell (see the ‹feat/Quicken Spell› feat), or any spell whose casting time is designated as a free or swift action, as a swift action. Only one such spell can be cast in any round, and such spells don't count toward your normal limit of one spell per round. Casting a spell as a swift action doesn't incur an attack of opportunity.",
 			"[^3]: Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity."
 		],
 		"parent_topics": [
@@ -1278,7 +1278,7 @@
 		"tags": "delay take 5-foot step perform combat maneuver use feat use skill",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/189}",
+			"‹SOURCE PRPG Core Rulebook/189›",
 			"",
 			"The following actions take a variable amount of time to accomplish or otherwise work differently than other actions.",
 			"",
@@ -1319,7 +1319,7 @@
 		"subtitle": "Combat Action",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/189}",
+			"‹SOURCE PRPG Core Rulebook/189›",
 			"",
 			"You can move 5 feet in any round when you don't perform any other kind of movement. Taking this @HL[5-foot step] never provokes an attack of opportunity. You can't take more than one 5-foot step in a round, and you can't take a 5-foot step in the same round that you move any distance. You can take a 5-foot step before, during, or after your other actions in the round.",
 			"",
@@ -1343,7 +1343,7 @@
 		"name": "Injury and Death",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/189}",
+			"‹SOURCE PRPG Core Rulebook/189›",
 			"",
 			"Your hit points measure how hard you are to kill. No matter how many hit points you lose, your character isn't hindered in any way until your hit points drop to 0 or lower."
 		],
@@ -1376,7 +1376,7 @@
 		"tags": "Death from Massive Damage",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/189}",
+			"‹SOURCE PRPG Core Rulebook/189›",
 			"",
 			"The most common way that your character gets hurt is to take lethal damage and lose hit points.",
 			"",
@@ -1409,15 +1409,15 @@
 		"name": "Disabled (0 Hit Points)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/189}",
+			"‹SOURCE PRPG Core Rulebook/189›",
 			"",
 			"When your current hit point total drops to exactly 0, you are disabled.",
 			"",
-			"You gain the {misc/staggered} condition and can only take a single move or standard action each turn (but not both, nor can you take full-round actions). You can take move actions without further injuring yourself, but if you perform any standard action (or any other strenuous action) you take 1 point of damage after completing the act. Unless your activity increased your hit points, you are now at -1 hit points and dying.",
+			"You gain the ‹misc/staggered› condition and can only take a single move or standard action each turn (but not both, nor can you take full-round actions). You can take move actions without further injuring yourself, but if you perform any standard action (or any other strenuous action) you take 1 point of damage after completing the act. Unless your activity increased your hit points, you are now at -1 hit points and dying.",
 			"",
 			"Healing that raises your hit points above 0 makes you fully functional again, just as if you'd never been reduced to 0 or fewer hit points.",
 			"",
-			"You can also become {misc/disabled} when recovering from dying. In this case, it's a step toward recovery, and you can have fewer than 0 hit points (see {rule/Stable Characters and Recovery})."
+			"You can also become ‹misc/disabled› when recovering from dying. In this case, it's a step toward recovery, and you can have fewer than 0 hit points (see ‹rule/Stable Characters and Recovery›)."
 		],
 		"parent_topics": [
 			"combat",
@@ -1438,7 +1438,7 @@
 		"name": "Dying (Negative Hit Points)",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/189}",
+			"‹SOURCE PRPG Core Rulebook/189›",
 			"",
 			"If your hit point total is negative, but not equal to or greater than your Constitution score, you're dying.",
 			"",
@@ -1465,11 +1465,11 @@
 		"name": "Dead",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/190}",
+			"‹SOURCE PRPG Core Rulebook/190›",
 			"",
-			"When your character's current hit points drop to a negative amount equal to his Constitution score or lower, or if he succumbs to [massive damage](rule/loss_of_hit_points), he's dead. A character can also die from taking {rule/ability damage} or suffering an ability drain that reduces his Constitution score to 0.",
+			"When your character's current hit points drop to a negative amount equal to his Constitution score or lower, or if he succumbs to [massive damage](rule/loss_of_hit_points), he's dead. A character can also die from taking ‹rule/ability damage› or suffering an ability drain that reduces his Constitution score to 0.",
 			"",
-			"Certain types of powerful magic, such as {spell/raise dead} and {spell/resurrection}, can restore life to a dead character."
+			"Certain types of powerful magic, such as ‹spell/raise dead› and ‹spell/resurrection›, can restore life to a dead character."
 		],
 		"parent_topics": [
 			"combat",
@@ -1490,7 +1490,7 @@
 		"name": "Stable Characters and Recovery",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/190}",
+			"‹SOURCE PRPG Core Rulebook/190›",
 			"",
 			"On the character's next turn, after being reduced to negative hit points (but not dead), and on all subsequent turns, the character must make a DC 10 Constitution check to become stable. The character takes a penalty on this roll equal to his negative hit point total. A character that is stable does not need to make this check. A natural 20 on this check is an automatic success. If the character fails this check, he loses 1 hit point. An unconscious or dying character cannot use any special action that changes the initiative count on which his action occurs.",
 			"",
@@ -1502,7 +1502,7 @@
 			"",
 			"A stable character who has been tended by a healer or who has been magically healed eventually regains consciousness and recovers hit points naturally. If the character has no one to tend him, however, his life is still in danger, and he may yet slip away.",
 			"",
-			"@HL[Recovering with Help:] One hour after a tended, dying character becomes stable, the character must make a DC 10 Constitution check to become conscious. The character takes a penalty on this roll equal to his negative hit point total. Conscious characters with negative hit point totals are treated as {rule/disabled>_0_hit_points} characters. If the character remains unconscious, he receives another check every hour to regain consciousness. A natural 20 on this check is an automatic success. Even if unconscious, the character recovers hit points naturally. He automatically regains consciousness when his hit points rise to 1 or higher.",
+			"@HL[Recovering with Help:] One hour after a tended, dying character becomes stable, the character must make a DC 10 Constitution check to become conscious. The character takes a penalty on this roll equal to his negative hit point total. Conscious characters with negative hit point totals are treated as ‹rule/disabled<_0_hit_points› characters. If the character remains unconscious, he receives another check every hour to regain consciousness. A natural 20 on this check is an automatic success. Even if unconscious, the character recovers hit points naturally. He automatically regains consciousness when his hit points rise to 1 or higher.",
 			"",
 			"@HL[Recovering without Help:] A severely wounded character left alone usually dies. He has a small chance of recovering on his own. Treat such characters as those attempting to recover with help, but every failed Constitution check to regain consciousness results in the loss of 1 hit point. An unaided character does not recover hit points naturally. Once conscious, the character can make a DC 10 Constitution check once per day, after resting for 8 hours, to begin recovering hit points naturally. The character takes a penalty on this roll equal to his negative hit point total. Failing this check causes the character to lose 1 hit point, but this does not cause the character to become unconscious. Once a character makes this check, he continues to heal naturally and is no longer in danger of losing hit points naturally."
 		],
@@ -1525,7 +1525,7 @@
 		"name": "Healing",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/191}",
+			"‹SOURCE PRPG Core Rulebook/191›",
 			"",
 			"After taking damage, you can recover hit points through natural healing or through magical healing. In any case, you can't regain hit points past your full normal hit point total.",
 			"",
@@ -1537,7 +1537,7 @@
 			"",
 			"@HL[Healing Limits:] You can never recover more hit points than you lost. Magical healing won't raise your current hit points higher than your full normal hit point total.",
 			"",
-			"@HL[Healing Ability Damage:] Temporary {rule/ability damage} returns at the rate of 1 point per night of rest (8 hours) for each affected ability score. Complete bed rest restores 2 points per day (24 hours) for each affected ability score."
+			"@HL[Healing Ability Damage:] Temporary ‹rule/ability damage› returns at the rate of 1 point per night of rest (8 hours) for each affected ability score. Complete bed rest restores 2 points per day (24 hours) for each affected ability score."
 		],
 		"parent_topics": [
 			"combat",
@@ -1562,7 +1562,7 @@
 		"name": "Temporary Hit Points",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/191}",
+			"‹SOURCE PRPG Core Rulebook/191›",
 			"",
 			"Certain effects give a character temporary hit points. These hit points are in addition to the character's current hit point total and any damage taken by the character is subtracted from these hit points first. Any damage in excess of a character's temporary hit points is applied to his current hit points as normal. If the effect that grants the temporary hit points ends or is dispelled, any remaining temporary hit points go away. The damage they sustained is not transferred to the character's current hit points.",
 			"",
@@ -1589,7 +1589,7 @@
 		"name": "Nonlethal Damage",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/191}",
+			"‹SOURCE PRPG Core Rulebook/191›",
 			"",
 			"Nonlethal damage represents harm to a character that is not life-threatening. Unlike normal damage, nonlethal damage is healed quickly with rest.",
 			"",
@@ -1599,11 +1599,11 @@
 			"",
 			"@HL[Lethal Damage with a Weapon that Deals Nonlethal Damage:] You can use a weapon that deals nonlethal damage, including an unarmed strike, to deal lethal damage instead, but you take a -4 penalty on your attack roll.",
 			"",
-			"@HL[Staggered and Unconscious:] When your nonlethal damage equals your current hit points, you're {misc/staggered}. You can only take a standard action or a move action in each round (in addition to free, immediate, and swift actions). You cease being staggered when your current hit points once again exceed your nonlethal damage. When your nonlethal damage exceeds your current hit points, you fall {misc/unconscious}. While unconscious, you are {misc/helpless}.",
+			"@HL[Staggered and Unconscious:] When your nonlethal damage equals your current hit points, you're ‹misc/staggered›. You can only take a standard action or a move action in each round (in addition to free, immediate, and swift actions). You cease being staggered when your current hit points once again exceed your nonlethal damage. When your nonlethal damage exceeds your current hit points, you fall ‹misc/unconscious›. While unconscious, you are ‹misc/helpless›.",
 			"",
 			"Spellcasters who fall unconscious retain any spellcasting ability they had before going unconscious.",
 			"",
-			"If a creature's nonlethal damage is equal to his total maximum hit points (not his current hit points), all further nonlethal damage is treated as lethal damage. This does not apply to creatures with {umr/regeneration}. Such creatures simply accrue additional nonlethal damage, increasing the amount of time they remain unconscious.",
+			"If a creature's nonlethal damage is equal to his total maximum hit points (not his current hit points), all further nonlethal damage is treated as lethal damage. This does not apply to creatures with ‹umr/regeneration›. Such creatures simply accrue additional nonlethal damage, increasing the amount of time they remain unconscious.",
 			"",
 			"@HL[Healing Nonlethal Damage:] You heal nonlethal damage at the rate of 1 hit point per hour per character level. When a spell or ability cures hit point damage, it also removes an equal amount of nonlethal damage."
 		],
@@ -1627,11 +1627,11 @@
 		"tags": "tactical movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/192}",
+			"‹SOURCE PRPG Core Rulebook/192›",
 			"",
 			"Your speed is determined by your race and your armor (see Table 8-3). Your speed while unarmored is your base land speed.",
 			"",
-			"@HL[Encumbrance:] A character {rule/encumbered} by carrying treasure, a large amount of gear, or fallen comrades may move slower than normal.",
+			"@HL[Encumbrance:] A character ‹rule/encumbered› by carrying treasure, a large amount of gear, or fallen comrades may move slower than normal.",
 			"",
 			"@HL[Hampered Movement:] Difficult terrain, obstacles, or poor visibility can hamper movement.",
 			"",
@@ -1676,7 +1676,7 @@
 		"subtitle": "Movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/192}",
+			"‹SOURCE PRPG Core Rulebook/192›",
 			"",
 			"As a general rule, distance is measured assuming that 1 square equals 5 feet.",
 			"",
@@ -1701,11 +1701,11 @@
 		"name": "Moving Through a Square",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/193}",
+			"‹SOURCE PRPG Core Rulebook/193›",
 			"",
 			"You can move through an unoccupied square without difficulty in most circumstances. Difficult terrain and a number of spell effects might hamper your movement through open spaces.",
 			"",
-			"@HL[Friend:] You can move through a square occupied by a friendly character, unless you are charging. When you move through a square occupied by a friendly character, that character doesn't provide you with {rule/cover}.",
+			"@HL[Friend:] You can move through a square occupied by a friendly character, unless you are charging. When you move through a square occupied by a friendly character, that character doesn't provide you with ‹rule/cover›.",
 			"",
 			"@HL[Opponent:] You can't move through a square occupied by an opponent unless the opponent is helpless. You can move through a square occupied by a helpless opponent without penalty. Some creatures, particularly very large ones, may present an obstacle even when helpless. In such cases, each square you move through counts as 2 squares.",
 			"",
@@ -1713,7 +1713,7 @@
 			"",
 			"@HL[Overrun:] During your movement, you can attempt to [move through a square](rule/overrun) occupied by an opponent.",
 			"",
-			"@HL[Tumbling:] A trained character can attempt to use {skill/Acrobatics} to move through a square occupied by an opponent.",
+			"@HL[Tumbling:] A trained character can attempt to use ‹skill/Acrobatics› to move through a square occupied by an opponent.",
 			"",
 			"@HL[Very Small Creature:] A Fine, Diminutive, or Tiny creature can move into or through an occupied square. The creature provokes attacks of opportunity when doing so.",
 			"",
@@ -1740,7 +1740,7 @@
 		"tags": "Squeezing",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/193}",
+			"‹SOURCE PRPG Core Rulebook/193›",
 			"",
 			"From tangled plants to broken stone, there are a number of terrain features that can affect your movement.",
 			"",
@@ -1780,7 +1780,7 @@
 		"name": "Special Movement Rules",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/194}",
+			"‹SOURCE PRPG Core Rulebook/194›",
 			"",
 			"These rules cover special movement situations.",
 			"",
@@ -1808,7 +1808,7 @@
 		"tags": "creature size monster size creature reach monster reach",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/194}",
+			"‹SOURCE PRPG Core Rulebook/194›",
 			"",
 			"Creatures smaller than Small or larger than Medium have special rules relating to position.",
 			"",
@@ -1860,7 +1860,7 @@
 		"name": "Combat Modifiers",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/195}",
+			"‹SOURCE PRPG Core Rulebook/195›",
 			"",
 			"A number of factors and conditions can influence an attack roll. Many of these situations grant a bonus or penalty on attack rolls or to a defender's Armor Class.",
 			"",
@@ -1926,7 +1926,7 @@
 		"tags": "soft cover partial cover total cover improved cover",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/195}",
+			"‹SOURCE PRPG Core Rulebook/195›",
 			"",
 			"To determine whether your target has cover from your ranged attack, choose a corner of your square. If any line from this corner to any corner of the target's square passes through a square or border that blocks line of effect or provides cover, or through a square occupied by a creature, the target has cover (+4 to AC).",
 			"",
@@ -1938,7 +1938,7 @@
 			"",
 			"@HL[Cover and Reflex Saves:] Cover grants you a +2 bonus on Reflex saves against attacks that originate or burst out from a point on the other side of the cover from you. Note that spread effects can extend around corners and thus negate this cover bonus.",
 			"",
-			"@HL[Cover and Stealth Checks:] You can use cover to make a Stealth check. Without cover, you usually need {rule/concealment} to make a Stealth check.",
+			"@HL[Cover and Stealth Checks:] You can use cover to make a Stealth check. Without cover, you usually need ‹rule/concealment› to make a Stealth check.",
 			"",
 			"@HL[Soft Cover:] Creatures, even your enemies, can provide you with cover against ranged attacks, giving you a +4 bonus to AC. However, such soft cover provides no bonus on Reflex saves, nor does soft cover allow you to make a Stealth check.",
 			"",
@@ -1965,7 +1965,7 @@
 		"name": "Concealment",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/196}",
+			"‹SOURCE PRPG Core Rulebook/196›",
 			"",
 			"To determine whether your target has concealment from your ranged attack, choose a corner of your square. If any line from this corner to any corner of the target's square passes through a square or border that provides concealment, the target has concealment.",
 			"",
@@ -2000,7 +2000,7 @@
 		"name": "Flanking",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/197}",
+			"‹SOURCE PRPG Core Rulebook/197›",
 			"",
 			"When making a melee attack, you get a +2 flanking bonus if your opponent is threatened by another enemy character or creature on its opposite border or opposite corner.",
 			"",
@@ -2029,7 +2029,7 @@
 		"tags": "coup de grace",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/197}",
+			"‹SOURCE PRPG Core Rulebook/197›",
 			"",
 			"A helpless opponent is someone who is bound, sleeping, paralyzed, unconscious, or otherwise at your mercy.",
 			"",
@@ -2041,7 +2041,7 @@
 			"",
 			"Delivering a coup de grace provokes attacks of opportunity from threatening opponents.",
 			"",
-			"You can't deliver a coup de grace against a creature that is immune to critical hits. You can deliver a coup de grace against a creature with total {rule/concealment}, but doing this requires two consecutive full-round actions (one to \"find\" the creature once you've determined what square it's in, and one to deliver the coup de grace)."
+			"You can't deliver a coup de grace against a creature that is immune to critical hits. You can deliver a coup de grace against a creature with total ‹rule/concealment›, but doing this requires two consecutive full-round actions (one to \"find\" the creature once you've determined what square it's in, and one to deliver the coup de grace)."
 		],
 		"parent_topics": [
 			"combat",
@@ -2058,7 +2058,7 @@
 		"name": "Special Attacks",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/197}",
+			"‹SOURCE PRPG Core Rulebook/197›",
 			"",
 			"This section discusses all of the various standard maneuvers you can perform during combat other than normal attacks, casting spells, or using other class abilities. Some of these special attacks can be made as part of another action (such as an attack) or as an attack of opportunity."
 		],
@@ -2089,13 +2089,13 @@
 		"name": "Aid Another",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/197}",
+			"‹SOURCE PRPG Core Rulebook/197›",
 			"",
 			"In melee combat, you can help a friend attack or defend by distracting or interfering with an opponent. If you're in position to make a melee attack on an opponent that is engaging a friend in melee combat, you can attempt to aid your friend as a standard action. You make an attack roll against AC 10. If you succeed, your friend gains either a +2 bonus on his next attack roll against that opponent or a +2 bonus to AC against that opponent's next attack (your choice), as long as that attack comes before the beginning of your next turn. Multiple characters can aid the same friend, and similar bonuses stack.",
 			"",
 			"You can also use this standard action to help a friend in other ways, such as when he is affected by a spell, or to assist another character's skill check.",
 			"",
-			"Also see: {rule/Aid Another} (in the Skills section)."
+			"Also see: ‹rule/Aid Another› (in the Skills section)."
 		],
 		"parent_topics": [
 			"combat",
@@ -2115,7 +2115,7 @@
 		"name": "Charge",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/198}",
+			"‹SOURCE PRPG Core Rulebook/198›",
 			"",
 			"Charging is a special full-round action that allows you to move up to twice your speed and attack during the action. Charging, however, carries tight restrictions on how you can move.",
 			"",
@@ -2123,11 +2123,11 @@
 			"",
 			"If you don't have line of sight to the opponent at the start of your turn, you can't charge that opponent.",
 			"",
-			"You can't take a 5-foot step in the same round as a charge. If you are able to take only a standard action on your turn, you can still charge, but you are only allowed to move up to your speed (instead of up to double your speed) and you cannot draw a weapon unless you possess the {feat/Quick Draw} feat. You can't use this option unless you are restricted to taking only a standard action on your turn.",
+			"You can't take a 5-foot step in the same round as a charge. If you are able to take only a standard action on your turn, you can still charge, but you are only allowed to move up to your speed (instead of up to double your speed) and you cannot draw a weapon unless you possess the ‹feat/Quick Draw› feat. You can't use this option unless you are restricted to taking only a standard action on your turn.",
 			"",
 			"@HL[Attacking on a Charge:] After moving, you may make a single melee attack. You get a +2 bonus on the attack roll and take a -2 penalty to your AC until the start of your next turn.",
 			"",
-			"A charging character gets a +2 bonus on combat maneuver attack rolls made to {rule/bull rush} an opponent.",
+			"A charging character gets a +2 bonus on combat maneuver attack rolls made to ‹rule/bull rush› an opponent.",
 			"",
 			"Even if you have extra attacks, such as from having a high enough base attack bonus or from using multiple weapons, you only get to make one attack during a charge.",
 			"",
@@ -2155,7 +2155,7 @@
 		"tags": "CMB CMD combat maneuver bonus combat maneuver defense",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/198}",
+			"‹SOURCE PRPG Core Rulebook/198›",
 			"",
 			"During combat, you can attempt to perform a number of maneuvers that can hinder or even cripple your foe, including bull rush, disarm, grapple, overrun, sunder, and trip. Although these maneuvers have vastly different results, they all use a similar mechanic to determine success.",
 			"",
@@ -2167,7 +2167,7 @@
 			"",
 			"@HL[Performing a Combat Maneuver:] When performing a combat maneuver, you must use an action appropriate to the maneuver you are attempting to perform. While many combat maneuvers can be performed as part of an attack action, full-attack action, or attack of opportunity (in place of a melee attack), others require a specific action. Unless otherwise noted, performing a combat maneuver provokes an attack of opportunity from the target of the maneuver. If you are hit by the target, you take the damage normally and apply that amount as a penalty to the attack roll to perform the maneuver. If your target is immobilized, unconscious, or otherwise incapacitated, your maneuver automatically succeeds (treat as if you rolled a natural 20 on the attack roll). If your target is stunned, you receive a +4 bonus on your attack roll to perform a combat maneuver against it.",
 			"",
-			"When you attempt to perform a combat maneuver, make an attack roll and add your CMB in place of your normal attack bonus. Add any bonuses you currently have on attack rolls due to spells, feats, and other effects. These bonuses must be applicable to the weapon or attack used to perform the maneuver. The DC of this maneuver is your target's Combat Maneuver Defense. Combat maneuvers are attack rolls, so you must roll for {rule/concealment} and take any other penalties that would normally apply to an attack roll.",
+			"When you attempt to perform a combat maneuver, make an attack roll and add your CMB in place of your normal attack bonus. Add any bonuses you currently have on attack rolls due to spells, feats, and other effects. These bonuses must be applicable to the weapon or attack used to perform the maneuver. The DC of this maneuver is your target's Combat Maneuver Defense. Combat maneuvers are attack rolls, so you must roll for ‹rule/concealment› and take any other penalties that would normally apply to an attack roll.",
 			"",
 			"@HL[Combat Maneuver Defense:] Each character and creature has a Combat Maneuver Defense (or CMD) that represents its ability to resist combat maneuvers. A creature's CMD is determined using the following formula:",
 			"",
@@ -2224,13 +2224,13 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/199}",
+			"‹SOURCE PRPG Core Rulebook/199›",
 			"",
-			"You can make a bull rush as a standard action or as part of a charge, in place of the melee attack. You can only bull rush an opponent who is no more than one size category larger than you. A bull rush attempts to push an opponent straight back without doing any harm. If you do not have the {feat/Improved Bull Rush} feat, or a similar ability, initiating a bull rush provokes an attack of opportunity from the target of your maneuver.",
+			"You can make a bull rush as a standard action or as part of a charge, in place of the melee attack. You can only bull rush an opponent who is no more than one size category larger than you. A bull rush attempts to push an opponent straight back without doing any harm. If you do not have the ‹feat/Improved Bull Rush› feat, or a similar ability, initiating a bull rush provokes an attack of opportunity from the target of your maneuver.",
 			"",
 			"If your attack is successful, your target is pushed back 5 feet. For every 5 by which your attack exceeds your opponent's CMD you can push the target back an additional 5 feet. You can move with the target if you wish but you must have the available movement to do so. If your attack fails, your movement ends in front of the target.",
 			"",
-			"An enemy being moved by a bull rush does not provoke an attack of opportunity because of the movement unless you possess the {feat/Greater Bull Rush} feat. You cannot bull rush a creature into a square that is occupied by a solid object or obstacle. If there is another creature in the way of your bull rush, you must immediately make a combat maneuver check to bull rush that creature. You take a -4 penalty on this check for each creature being pushed beyond the first. If you are successful, you can continue to push the creatures a distance equal to the lesser result. For example, if a fighter bull rushes a goblin for a total of 15 feet, but there is another goblin 5 feet behind the first, he must make another combat maneuver check against the second goblin after having pushed the first 5 feet. If his check reveals that he can push the second goblin a total of 20 feet, he can continue to push both goblins another 10 feet (since the first goblin will have moved a total of 15 feet)."
+			"An enemy being moved by a bull rush does not provoke an attack of opportunity because of the movement unless you possess the ‹feat/Greater Bull Rush› feat. You cannot bull rush a creature into a square that is occupied by a solid object or obstacle. If there is another creature in the way of your bull rush, you must immediately make a combat maneuver check to bull rush that creature. You take a -4 penalty on this check for each creature being pushed beyond the first. If you are successful, you can continue to push the creatures a distance equal to the lesser result. For example, if a fighter bull rushes a goblin for a total of 15 feet, but there is another goblin 5 feet behind the first, he must make another combat maneuver check against the second goblin after having pushed the first 5 feet. If his check reveals that he can push the second goblin a total of 20 feet, he can continue to push both goblins another 10 feet (since the first goblin will have moved a total of 15 feet)."
 		],
 		"parent_topics": [
 			"combat",
@@ -2255,11 +2255,11 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"{SOURCE Advanced Player's Guide/321}",
+			"‹SOURCE Advanced Player's Guide/321›",
 			"",
-			"You can attempt to hinder a foe in melee as a standard action. This maneuver covers any sort of situational attack that imposes a penalty on a foe for a short period of time. Examples include kicking sand into an opponent's face to blind him for 1 round, pulling down an enemy's pants to halve his speed, or hitting a foe in a sensitive spot to make him sickened for a round. The GM is the arbiter of what can be accomplished with this maneuver, but it cannot be used to impose a permanent penalty, and the results can be undone if the target spends a move action. If you do not have the {feat/Improved Dirty Trick} feat or a similar ability, attempting a dirty trick provokes an attack of opportunity from the target of your maneuver.",
+			"You can attempt to hinder a foe in melee as a standard action. This maneuver covers any sort of situational attack that imposes a penalty on a foe for a short period of time. Examples include kicking sand into an opponent's face to blind him for 1 round, pulling down an enemy's pants to halve his speed, or hitting a foe in a sensitive spot to make him sickened for a round. The GM is the arbiter of what can be accomplished with this maneuver, but it cannot be used to impose a permanent penalty, and the results can be undone if the target spends a move action. If you do not have the ‹feat/Improved Dirty Trick› feat or a similar ability, attempting a dirty trick provokes an attack of opportunity from the target of your maneuver.",
 			"",
-			"If your attack is successful, the target takes a penalty. The penalty is limited to one of the following conditions: blinded, dazzled, deafened, entangled, shaken, or sickened. This condition lasts for 1 round. For every 5 by which your attack exceeds your opponent's CMD, the penalty lasts 1 additional round. This penalty can usually be removed if the target spends a move action. If you possess the {feat/Greater Dirty Trick} feat, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds your opponent's CMD. In addition, removing the condition requires the target to spend a standard action."
+			"If your attack is successful, the target takes a penalty. The penalty is limited to one of the following conditions: blinded, dazzled, deafened, entangled, shaken, or sickened. This condition lasts for 1 round. For every 5 by which your attack exceeds your opponent's CMD, the penalty lasts 1 additional round. This penalty can usually be removed if the target spends a move action. If you possess the ‹feat/Greater Dirty Trick› feat, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds your opponent's CMD. In addition, removing the condition requires the target to spend a standard action."
 		],
 		"parent_topics": [
 			"combat",
@@ -2284,9 +2284,9 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/199}",
+			"‹SOURCE PRPG Core Rulebook/199›",
 			"",
-			"You can attempt to disarm your opponent in place of a melee attack. If you do not have the {feat/Improved Disarm} feat, or a similar ability, attempting to disarm a foe provokes an attack of opportunity from the target of your maneuver. Attempting to disarm a foe while unarmed imposes a -4 penalty on the attack.",
+			"You can attempt to disarm your opponent in place of a melee attack. If you do not have the ‹feat/Improved Disarm› feat, or a similar ability, attempting to disarm a foe provokes an attack of opportunity from the target of your maneuver. Attempting to disarm a foe while unarmed imposes a -4 penalty on the attack.",
 			"",
 			"If your attack is successful, your target drops one item it is carrying of your choice (even if the item is wielded with two hands). If your attack exceeds the CMD of the target by 10 or more, the target drops the items it is carrying in both hands (maximum two items if the target has more than two hands). If your attack fails by 10 or more, you drop the weapon that you were using to attempt the disarm. If you successfully disarm your opponent without using a weapon, you may automatically pick up the item dropped."
 		],
@@ -2313,13 +2313,13 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"{SOURCE Advanced Player's Guide/321}",
+			"‹SOURCE Advanced Player's Guide/321›",
 			"",
-			"You can attempt to drag a foe as a standard action. You can only drag an opponent who is no more than one size category larger than you. The aim of this maneuver is to drag a foe in a straight line behind you without doing any harm. If you do not have the {feat/Improved Drag} feat or a similar ability, initiating a drag provokes an attack of opportunity from the target of your maneuver.",
+			"You can attempt to drag a foe as a standard action. You can only drag an opponent who is no more than one size category larger than you. The aim of this maneuver is to drag a foe in a straight line behind you without doing any harm. If you do not have the ‹feat/Improved Drag› feat or a similar ability, initiating a drag provokes an attack of opportunity from the target of your maneuver.",
 			"",
 			"If your attack is successful, both you and your target are moved 5 feet back, with your opponent occupying your original space and you in the space behind that in a straight line. For every 5 by which your attack exceeds your opponent's CMD, you can drag the target back an additional 5 feet. You must be able to move with the target to perform this maneuver. If you do not have enough movement, the drag goes to the maximum amount of movement available to you and ends.",
 			"",
-			"An enemy being moved by a drag does not provoke an attack of opportunity because of the movement unless you possess the {feat/Greater Drag} feat. You cannot move a creature into a square that is occupied by a solid object or obstacle. If there is another creature in the way of your movement, the drag ends adjacent to that creature.",
+			"An enemy being moved by a drag does not provoke an attack of opportunity because of the movement unless you possess the ‹feat/Greater Drag› feat. You cannot move a creature into a square that is occupied by a solid object or obstacle. If there is another creature in the way of your movement, the drag ends adjacent to that creature.",
 			"",
 			"@HL[Stability:] Some characters or types of creatures prove particularly sure-footed, making them more difficult to overthrow and move around the battlefield. Any racial ability that grants a bonus to CMD versus bull rush attempts grants the same bonus against drag combat maneuvers."
 		],
@@ -2346,21 +2346,21 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/199}",
+			"‹SOURCE PRPG Core Rulebook/199›",
 			"",
-			"As a standard action, you can attempt to grapple a foe, hindering his combat options. If you do not have {feat/Improved Grapple}, grab, or a similar ability, attempting to grapple a foe provokes an attack of opportunity from the target of your maneuver. Humanoid creatures without two free hands attempting to grapple a foe take a -4 penalty on the combat maneuver roll. If successful, both you and the target gain the {rule/grapple[d] condition>s}. If you successfully grapple a creature that is not adjacent to you, move that creature to an adjacent open space (if no space is available, your grapple fails). Although both creatures have the grappled condition, you can, as the creature that initiated the grapple, release the grapple as a free action, removing the condition from both you and the target. If you do not release the grapple, you must continue to make a check each round, as a standard action, to maintain the hold. If your target does not break the grapple, you get a +5 circumstance bonus on grapple checks made against the same target in subsequent rounds. Once you are grappling an opponent, a successful check allows you to continue grappling the foe, and also allows you to perform one of the following actions (as part of the standard action spent to maintain the grapple).",
+			"As a standard action, you can attempt to grapple a foe, hindering his combat options. If you do not have ‹feat/Improved Grapple›, grab, or a similar ability, attempting to grapple a foe provokes an attack of opportunity from the target of your maneuver. Humanoid creatures without two free hands attempting to grapple a foe take a -4 penalty on the combat maneuver roll. If successful, both you and the target gain the ‹rule/grapple«d» condition<s›. If you successfully grapple a creature that is not adjacent to you, move that creature to an adjacent open space (if no space is available, your grapple fails). Although both creatures have the grappled condition, you can, as the creature that initiated the grapple, release the grapple as a free action, removing the condition from both you and the target. If you do not release the grapple, you must continue to make a check each round, as a standard action, to maintain the hold. If your target does not break the grapple, you get a +5 circumstance bonus on grapple checks made against the same target in subsequent rounds. Once you are grappling an opponent, a successful check allows you to continue grappling the foe, and also allows you to perform one of the following actions (as part of the standard action spent to maintain the grapple).",
 			"",
 			"@HL[Move:] You can move both yourself and your target up to half your speed. At the end of your movement, you can place your target in any square adjacent to you. If you attempt to place your foe in a hazardous location, such as in a wall of fire or over a pit, the target receives a free attempt to break your grapple with a +4 bonus.",
 			"",
 			"@HL[Damage:] You can inflict damage to your target equal to your unarmed strike, a natural attack, or an attack made with armor spikes or a light or one-handed weapon. This damage can be either lethal or nonlethal.",
 			"",
-			"@HL[Pin:] You can give your opponent the {rule/grapple<pinned| condition>s}. Despite pinning your opponent, you still only have the grappled condition, but you lose your Dexterity bonus to AC.",
+			"@HL[Pin:] You can give your opponent the ‹rule/grapple>pinned» condition<s›. Despite pinning your opponent, you still only have the grappled condition, but you lose your Dexterity bonus to AC.",
 			"",
 			"@HL[Tie Up:] If you have your target pinned, otherwise restrained, or unconscious, you can use rope to tie him up. This works like a pin effect, but the DC to escape the bonds is equal to 20 + your Combat Maneuver Bonus (instead of your CMD). The ropes do not need to make a check every round to maintain the pin. If you are grappling the target, you can attempt to tie him up in ropes, but doing so requires a combat maneuver check at a -10 penalty. If the DC to escape from these bindings is higher than 20 + the target's CMB, the target cannot escape from the bonds, even with a natural 20 on the check.",
 			"",
 			"@HL[If You Are Grappled:] If you are grappled, you can attempt to break the grapple as a standard action by making a combat maneuver check (DC equal to your opponent's CMD; this does not provoke an attack of opportunity) or Escape Artist check (with a DC equal to your opponent's CMD). If you succeed, you break the grapple and can act normally. Alternatively, if you succeed, you can become the grappler, grappling the other creature (meaning that the other creature cannot freely release the grapple without making a combat maneuver check, while you can). Instead of attempting to break or reverse the grapple, you can take any action that doesn't require two hands to perform, such as cast a spell or make an attack or full attack with a light or one-handed weapon against any creature within your reach, including the creature that is grappling you. See the grappled condition for additional details. If you are pinned, your actions are very limited. See the pinned condition for additional details.",
 			"",
-			"@HL[Multiple Creatures:] Multiple creatures can attempt to grapple one target. The creature that first initiates the grapple is the only one that makes a check, with a +2 bonus for each creature that assists in the grapple (using the {rule/Aid Another} action). Multiple creatures can also assist another creature in breaking free from a grapple, with each creature that assists (using the Aid Another action) granting a +2 bonus on the grappled creature's combat maneuver check."
+			"@HL[Multiple Creatures:] Multiple creatures can attempt to grapple one target. The creature that first initiates the grapple is the only one that makes a check, with a +2 bonus for each creature that assists in the grapple (using the ‹rule/Aid Another› action). Multiple creatures can also assist another creature in breaking free from a grapple, with each creature that assists (using the Aid Another action) granting a +2 bonus on the grappled creature's combat maneuver check."
 		],
 		"parent_topics": [
 			"combat",
@@ -2386,9 +2386,9 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/201}",
+			"‹SOURCE PRPG Core Rulebook/201›",
 			"",
-			"As a standard action, taken during your move or as part of a charge, you can attempt to overrun your target, moving through its square. You can only overrun an opponent who is no more than one size category larger than you. If you do not have the {feat/Improved Overrun} feat, or a similar ability, initiating an overrun provokes an attack of opportunity from the target of your maneuver. If your overrun attempt fails, you stop in the space directly in front of the opponent, or the nearest open space in front of the creature if there are other creatures occupying that space.",
+			"As a standard action, taken during your move or as part of a charge, you can attempt to overrun your target, moving through its square. You can only overrun an opponent who is no more than one size category larger than you. If you do not have the ‹feat/Improved Overrun› feat, or a similar ability, initiating an overrun provokes an attack of opportunity from the target of your maneuver. If your overrun attempt fails, you stop in the space directly in front of the opponent, or the nearest open space in front of the creature if there are other creatures occupying that space.",
 			"",
 			"When you attempt to overrun a target, it can choose to avoid you, allowing you to pass through its square without requiring an attack. If your target does not avoid you, make a combat maneuver check as normal. If your maneuver is successful, you move through the target's space. If your attack exceeds your opponent's CMD by 5 or more, you move through the target's space and the target is knocked prone. If the target has more than two legs, add +2 to the DC of the combat maneuver attack roll for each additional leg it has."
 		],
@@ -2415,13 +2415,13 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"{SOURCE Advanced Player's Guide/322}",
+			"‹SOURCE Advanced Player's Guide/322›",
 			"",
-			"You can attempt to reposition a foe to a different location as a standard action. You can only reposition an opponent that is no more than one size category larger than you. A reposition attempts to force a foe to move to a different position in relation to your location without doing any harm. If you do not have the {feat/Improved Reposition} feat or a similar ability, attempting to reposition a foe provokes an attack of opportunity from the target of your maneuver. You cannot use this maneuver to move a foe into a space that is intrinsically dangerous, such as a pit or {spell/wall of fire}.",
+			"You can attempt to reposition a foe to a different location as a standard action. You can only reposition an opponent that is no more than one size category larger than you. A reposition attempts to force a foe to move to a different position in relation to your location without doing any harm. If you do not have the ‹feat/Improved Reposition› feat or a similar ability, attempting to reposition a foe provokes an attack of opportunity from the target of your maneuver. You cannot use this maneuver to move a foe into a space that is intrinsically dangerous, such as a pit or ‹spell/wall of fire›.",
 			"",
 			"If your attack is successful, you may move your target 5 feet to a new location. For every 5 by which your attack exceeds your opponent's CMD, you can move the target an additional 5 feet. The target must remain within your reach at all times during this movement, except for the final 5 feet of movement, which can be to a space adjacent to your reach.",
 			"",
-			"An enemy being moved by a reposition does not provoke an attack of opportunity because of the movement unless you possess the {feat/Greater Reposition} feat. You cannot move a creature into a square that is occupied by a solid object or obstacle."
+			"An enemy being moved by a reposition does not provoke an attack of opportunity because of the movement unless you possess the ‹feat/Greater Reposition› feat. You cannot move a creature into a square that is occupied by a solid object or obstacle."
 		],
 		"parent_topics": [
 			"combat",
@@ -2446,13 +2446,13 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"{SOURCE Advanced Player's Guide/322}",
+			"‹SOURCE Advanced Player's Guide/322›",
 			"",
-			"You can attempt to take an item from a foe as a standard action. This maneuver can be used in melee to take any item that is neither held nor hidden in a bag or pack. You must have at least one hand free (holding nothing) to attempt this maneuver. You must select the item to be taken before the check is made. Items that are simply tucked into a belt or loosely attached (such as brooches or necklaces) are the easiest to take. Items fastened to a foe (such as cloaks, sheathed weapons, or pouches) are more difficult to take, and give the opponent a +5 bonus (or greater) to his CMD. Items that are closely worn (such as armor, backpacks, boots, clothing, or rings) cannot be taken with this maneuver. Items held in the hands (such as wielded weapons or wands) also cannot be taken with the steal maneuver - you must use the disarm combat maneuver instead. The GM is the final arbiter of what items can be taken. If you do not have the {feat/Improved Steal} feat or a similar ability, attempting to steal an object provokes an attack of opportunity from the target of your maneuver.",
+			"You can attempt to take an item from a foe as a standard action. This maneuver can be used in melee to take any item that is neither held nor hidden in a bag or pack. You must have at least one hand free (holding nothing) to attempt this maneuver. You must select the item to be taken before the check is made. Items that are simply tucked into a belt or loosely attached (such as brooches or necklaces) are the easiest to take. Items fastened to a foe (such as cloaks, sheathed weapons, or pouches) are more difficult to take, and give the opponent a +5 bonus (or greater) to his CMD. Items that are closely worn (such as armor, backpacks, boots, clothing, or rings) cannot be taken with this maneuver. Items held in the hands (such as wielded weapons or wands) also cannot be taken with the steal maneuver - you must use the disarm combat maneuver instead. The GM is the final arbiter of what items can be taken. If you do not have the ‹feat/Improved Steal› feat or a similar ability, attempting to steal an object provokes an attack of opportunity from the target of your maneuver.",
 			"",
 			"Although this maneuver can only be performed if the target is within your reach, you can use a whip to steal an object from a target within range with a -4 penalty on the attack roll.",
 			"",
-			"If your attack is successful, you may take one item from your opponent. You must be able to reach the item to be taken (subject to GM discretion). Your enemy is immediately aware of this theft unless you possess the {feat/Greater Steal} feat."
+			"If your attack is successful, you may take one item from your opponent. You must be able to reach the item to be taken (subject to GM discretion). Your enemy is immediately aware of this theft unless you possess the ‹feat/Greater Steal› feat."
 		],
 		"parent_topics": [
 			"combat",
@@ -2477,11 +2477,11 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/201}",
+			"‹SOURCE PRPG Core Rulebook/201›",
 			"",
-			"You can attempt to sunder an item held or worn by your opponent as part of an attack action in place of a melee attack. If you do not have the {feat/Improved Sunder} feat, or a similar ability, attempting to sunder an item provokes an attack of opportunity from the target of your maneuver.",
+			"You can attempt to sunder an item held or worn by your opponent as part of an attack action in place of a melee attack. If you do not have the ‹feat/Improved Sunder› feat, or a similar ability, attempting to sunder an item provokes an attack of opportunity from the target of your maneuver.",
 			"",
-			"If your attack is successful, you deal damage to the item normally. Damage that exceeds the object's Hardness is subtracted from its hit points. If an object has equal to or less than half its total hit points remaining, it gains the {misc/broken/ condition}. If the damage you deal would reduce the object to less than 0 hit points, you can choose to destroy it. If you do not choose to destroy it, the object is left with only 1 hit point and the broken condition."
+			"If your attack is successful, you deal damage to the item normally. Damage that exceeds the object's Hardness is subtracted from its hit points. If an object has equal to or less than half its total hit points remaining, it gains the ‹misc/broken« condition›. If the damage you deal would reduce the object to less than 0 hit points, you can choose to destroy it. If you do not choose to destroy it, the object is left with only 1 hit point and the broken condition."
 		],
 		"parent_topics": [
 			"combat",
@@ -2506,9 +2506,9 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/201}",
+			"‹SOURCE PRPG Core Rulebook/201›",
 			"",
-			"You can attempt to trip your opponent in place of a melee attack. You can only trip an opponent who is no more than one size category larger than you. If you do not have the {feat/Improved Trip} feat, or a similar ability, initiating a trip provokes an attack of opportunity from the target of your maneuver.",
+			"You can attempt to trip your opponent in place of a melee attack. You can only trip an opponent who is no more than one size category larger than you. If you do not have the ‹feat/Improved Trip› feat, or a similar ability, initiating a trip provokes an attack of opportunity from the target of your maneuver.",
 			"",
 			"If your attack exceeds the target's CMD, the target is knocked prone. If your attack fails by 10 or more, you are knocked prone instead. If the target has more than two legs, add +2 to the DC of the combat maneuver attack roll for each additional leg it has. Some creatures - such as oozes, creatures without legs, and flying creatures - cannot be tripped."
 		],
@@ -2535,13 +2535,13 @@
 		"subtitle": "Combat Maneuver",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/201}",
+			"‹SOURCE PRPG Core Rulebook/201›",
 			"",
 			"Feinting is a standard action. To feint, make a Bluff skill check. The DC of this check is equal to 10 + your opponent's base attack bonus + your opponent's Wisdom modifier. If your opponent is trained in Sense Motive, the DC is instead equal to 10 + your opponent's Sense Motive bonus, if higher. If successful, the next melee attack you make against the target does not allow him to use his Dexterity bonus to AC (if any). This attack must be made on or before your next turn.",
 			"",
 			"When feinting against a non-humanoid you take a -4 penalty. Against a creature of animal Intelligence (1 or 2), you take a -8 penalty. Against a creature lacking an Intelligence score, it's impossible. Feinting in combat does not provoke attacks of opportunity.",
 			"",
-			"@HL[Feinting as a Move Action:] With the {feat/Improved Feint} feat, you can attempt a feint as a move action."
+			"@HL[Feinting as a Move Action:] With the ‹feat/Improved Feint› feat, you can attempt a feint as a move action."
 		],
 		"parent_topics": [
 			"combat",
@@ -2561,11 +2561,11 @@
 		"name": "Mounted Combat",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/201}",
+			"‹SOURCE PRPG Core Rulebook/201›",
 			"",
 			"These rules cover being mounted on a horse in combat but can also be applied to more unusual steeds, such as a griffon or dragon.",
 			"",
-			"@HL[Mounts in Combat:] Horses, ponies, and riding dogs can serve readily as combat steeds. Mounts that do not possess combat training (see {skill/Handle Animal}) are frightened by combat. If you don't dismount, you must make a DC 20 {skill/Ride} check each round as a move action to control such a mount. If you succeed, you can perform a standard action after the move action. If you fail, the move action becomes a full-round action, and you can't do anything else until your next turn.",
+			"@HL[Mounts in Combat:] Horses, ponies, and riding dogs can serve readily as combat steeds. Mounts that do not possess combat training (see ‹skill/Handle Animal›) are frightened by combat. If you don't dismount, you must make a DC 20 ‹skill/Ride› check each round as a move action to control such a mount. If you succeed, you can perform a standard action after the move action. If you fail, the move action becomes a full-round action, and you can't do anything else until your next turn.",
 			"",
 			"Your mount acts on your initiative count as you direct it. You move at its speed, but the mount uses its action to move. A horse (not a pony) is a Large creature and thus takes up a space 10 feet (2 squares) across. For simplicity, assume that you share your mount's space during combat.",
 			"",
@@ -2573,11 +2573,11 @@
 			"",
 			"When you attack a creature smaller than your mount that is on foot, you get the +1 bonus on melee attacks for being on higher ground. If your mount moves more than 5 feet, you can only make a single melee attack. Essentially, you have to wait until the mount gets to your enemy before attacking, so you can't make a full attack. Even at your mount's full speed, you don't take any penalty on melee attacks while mounted.",
 			"",
-			"If your mount charges, you also take the AC penalty associated with a charge. If you make an attack at the end of the charge, you receive the bonus gained from the charge. When charging on horseback, you deal double damage with a lance (see {rule/Charge}).",
+			"If your mount charges, you also take the AC penalty associated with a charge. If you make an attack at the end of the charge, you receive the bonus gained from the charge. When charging on horseback, you deal double damage with a lance (see ‹rule/Charge›).",
 			"",
 			"You can use ranged weapons while your mount is taking a double move, but at a -4 penalty on the attack roll. You can use ranged weapons while your mount is running (quadruple speed) at a -8 penalty. In either case, you make the attack roll when your mount has completed half its movement. You can make a full attack with a ranged weapon while your mount is moving. Likewise, you can take move actions normally.",
 			"",
-			"@HL[Casting Spells While Mounted:] You can cast a spell normally if your mount moves up to a normal move (its speed) either before or after you cast. If you have your mount move both before and after you cast a spell, then you're casting the spell while the mount is moving, and you have to make a {rule/concentration} check due to the vigorous motion (DC 10 + spell level) or lose the spell. If the mount is running (quadruple speed), you can cast a spell when your mount has moved up to twice its speed, but your concentration check is more difficult due to the violent motion (DC 15 + spell level).",
+			"@HL[Casting Spells While Mounted:] You can cast a spell normally if your mount moves up to a normal move (its speed) either before or after you cast. If you have your mount move both before and after you cast a spell, then you're casting the spell while the mount is moving, and you have to make a ‹rule/concentration› check due to the vigorous motion (DC 10 + spell level) or lose the spell. If the mount is running (quadruple speed), you can cast a spell when your mount has moved up to twice its speed, but your concentration check is more difficult due to the violent motion (DC 15 + spell level).",
 			"",
 			"@HL[If Your Mount Falls in Battle:] If your mount falls, you have to succeed on a DC 15 Ride check to make a soft fall and take no damage. If the check fails, you take 1d6 points of damage.",
 			"",
@@ -2601,7 +2601,7 @@
 		"name": "Throw Splash Weapon",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/202}",
+			"‹SOURCE PRPG Core Rulebook/202›",
 			"",
 			"A splash weapon is a ranged weapon that breaks on impact, splashing or scattering its contents over its target and nearby creatures or objects. To attack with a splash weapon, make a ranged touch attack against the target. Thrown splash weapons require no weapon proficiency, so you don't take the -4 nonproficiency penalty. A hit deals direct hit damage to the target and splash damage to all creatures within 5 feet of the target. If the target is Large or larger, you choose one of its squares and the splash damage affects creatures within 5 feet of that square. Splash weapons cannot deal precision-based damage (such as sneak attack).",
 			"",
@@ -2631,13 +2631,13 @@
 		"name": "Greater Splash Weapon",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
-			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/72}",
+			"‹SOURCE Pathfinder #91: Battle of Bloodmarch Hills/72›",
 			"",
 			"This splash weapon works in some ways like a normal splash weapon, but its effects cover a larger area. Like a normal splash weapon, a greater splash weapon requires no weapon proficiency, and you throw it by making a ranged touch attack. A hit deals direct hit damage to the target and to creatures and objects in squares within 5 feet of that target. It then deals splash damage to all creatures within 10 feet of the target. If the target takes up more than a 5-foot square, you can chose one of its squares as the center of the effect. The direct damage affects the squares normally, so a Large or larger creature could take both the direct damage and the splash damage depending on the square you choose. The splash damage for a greater splash weapon is 5 points of the appropriate damage type for the weapon.",
 			"",
 			"Like a normal splash weapon, you can also choose to target a specific grid intersection (treating it as a ranged attack against AC 5). If it hits, the greater splash weapon deals direct damage to creatures and objects in squares within 5 feet of the targeted intersection, and splash damage to creatures within 10 feet of the targeted intersection. As with a normal splash weapon, you cannot target a grid intersection occupied by a creature.",
 			"",
-			"Greater splash weapons can be thrown as if they were a rock using the {umr/rock throwing/ universal monster rule}, and caught with rock catching, though the DC to catch a greater splash weapon is 10 higher than normal due to its fragile and volatile nature. If a creature fails its Reflex saving throw to catch a greater splash weapon, the weapon automatically breaks, treating the creature attempting to catch it as the splash weapon's target.",
+			"Greater splash weapons can be thrown as if they were a rock using the ‹umr/rock throwing« universal monster rule›, and caught with rock catching, though the DC to catch a greater splash weapon is 10 higher than normal due to its fragile and volatile nature. If a creature fails its Reflex saving throw to catch a greater splash weapon, the weapon automatically breaks, treating the creature attempting to catch it as the splash weapon's target.",
 			"",
 			"A greater splash weapon can be used only by Large or larger creatures, though it can be used as ammunition in a catapult or trebuchet. When used as ammunition in one of these siege engines, use the range for the engine rather than the greater splash weapon's range."
 		],
@@ -2654,9 +2654,9 @@
 		"name": "Two-Weapon Fighting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/202}",
+			"‹SOURCE PRPG Core Rulebook/202›",
 			"",
-			"If you wield a second weapon in your off hand, you can get one extra attack per round with that weapon. You suffer a -6 penalty with your regular attack or attacks with your primary hand and a -10 penalty to the attack with your off hand when you fight this way. You can reduce these penalties in two ways. First, if your off-hand weapon is light, the penalties are reduced by 2 each. An unarmed strike is always considered light. Second, the {feat/Two-Weapon Fighting} feat lessens the primary hand penalty by 2, and the off-hand penalty by 6.",
+			"If you wield a second weapon in your off hand, you can get one extra attack per round with that weapon. You suffer a -6 penalty with your regular attack or attacks with your primary hand and a -10 penalty to the attack with your off hand when you fight this way. You can reduce these penalties in two ways. First, if your off-hand weapon is light, the penalties are reduced by 2 each. An unarmed strike is always considered light. Second, the ‹feat/Two-Weapon Fighting› feat lessens the primary hand penalty by 2, and the off-hand penalty by 6.",
 			"",
 			"Table 8-7 summarizes the interaction of all these factors.",
 			"",
@@ -2692,7 +2692,7 @@
 		"name": "Delay",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/203}",
+			"‹SOURCE PRPG Core Rulebook/203›",
 			"",
 			"By choosing to delay, you take no action and then act normally on whatever initiative count you decide to act. When you delay, you voluntarily reduce your own initiative result for the rest of the combat. When your new, lower initiative count comes up later in the same round, you can act normally. You can specify this new initiative result or just wait until some time later in the round and act then, thus fixing your new initiative count at that point.",
 			"",
@@ -2717,7 +2717,7 @@
 		"name": "Ready",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/203}",
+			"‹SOURCE PRPG Core Rulebook/203›",
 			"",
 			"The ready action lets you prepare to take an action later, after your turn is over but before your next one has begun. Readying is a standard action. It does not provoke an attack of opportunity (though the action that you ready might do so).",
 			"",
@@ -2727,9 +2727,9 @@
 			"",
 			"@HL[Initiative Consequences of Readying:] Your initiative result becomes the count on which you took the readied action. If you come to your next action and have not yet performed your readied action, you don't get to take the readied action (though you can ready the same action again). If you take your readied action in the next round, before your regular turn comes up, your initiative count rises to that new point in the order of battle, and you do not get your regular action that round.",
 			"",
-			"@HL[Distracting Spellcasters:] You can ready an attack against a spellcaster with the trigger \"if she starts casting a spell.\" If you damage the spellcaster, she may lose the spell she was trying to cast (as determined by her {rule/concentration} check result).",
+			"@HL[Distracting Spellcasters:] You can ready an attack against a spellcaster with the trigger \"if she starts casting a spell.\" If you damage the spellcaster, she may lose the spell she was trying to cast (as determined by her ‹rule/concentration› check result).",
 			"",
-			"@HL[Readying to Counterspell:] You may ready a counterspell against a spellcaster (often with the trigger \"if she starts casting a spell\"). In this case, when the spellcaster starts a spell, you get a chance to identify it with a Spellcraft check (DC 15 + spell level). If you do, and if you can cast that same spell (and are able to cast it and have it prepared, if you prepare spells), you can cast the spell as a counterspell and automatically ruin the other spellcaster's spell. Counterspelling works even if one spell is divine and the other arcane. A spellcaster can use {spell/dispel magic} to counterspell another spellcaster, but it doesn't always work (see the spell description).",
+			"@HL[Readying to Counterspell:] You may ready a counterspell against a spellcaster (often with the trigger \"if she starts casting a spell\"). In this case, when the spellcaster starts a spell, you get a chance to identify it with a Spellcraft check (DC 15 + spell level). If you do, and if you can cast that same spell (and are able to cast it and have it prepared, if you prepare spells), you can cast the spell as a counterspell and automatically ruin the other spellcaster's spell. Counterspelling works even if one spell is divine and the other arcane. A spellcaster can use ‹spell/dispel magic› to counterspell another spellcaster, but it doesn't always work (see the spell description).",
 			"",
 			"@HL[Readying a Weapon against a Charge:] You can ready weapons with the brace feature, setting them to receive charges. A readied weapon of this type deals double damage if you score a hit with it against a charging character."
 		],
@@ -2751,7 +2751,7 @@
 		"name": "Conditions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/565}",
+			"‹SOURCE PRPG Core Rulebook/565›",
 			"",
 			"If more than one condition affects a character, apply them all. If effects can't combine, apply the most severe effect.",
 			"",
@@ -2806,9 +2806,9 @@
 		"subtitle": "Blinded, Confused, Dazed, Dazzled, Deafened, Fascinated, Helpless, Staggered, Stunned, Unconscious",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/565}",
+			"‹SOURCE PRPG Core Rulebook/565›",
 			"",
-			"@HL[Blinded:] The creature cannot see. It takes a -2 penalty to Armor Class, loses its Dexterity bonus to AC (if any), and takes a -4 penalty on most Strength- and Dexterity-based skill checks and on opposed Perception skill checks. All checks and activities that rely on vision (such as reading and Perception checks based on sight) automatically fail. All opponents are considered to have total concealment (50% miss chance) against the blinded character. Blind creatures must make a DC 10 Acrobatics skill check to move faster than half speed. Creatures that fail this check fall prone. Characters who remain blinded for a long time grow accustomed to these drawbacks and can overcome some of them. Also see: {rule/Darkness}.",
+			"@HL[Blinded:] The creature cannot see. It takes a -2 penalty to Armor Class, loses its Dexterity bonus to AC (if any), and takes a -4 penalty on most Strength- and Dexterity-based skill checks and on opposed Perception skill checks. All checks and activities that rely on vision (such as reading and Perception checks based on sight) automatically fail. All opponents are considered to have total concealment (50% miss chance) against the blinded character. Blind creatures must make a DC 10 Acrobatics skill check to move faster than half speed. Creatures that fail this check fall prone. Characters who remain blinded for a long time grow accustomed to these drawbacks and can overcome some of them. Also see: ‹rule/Darkness›.",
 			"",
 			"@HL[Confused:] A confused creature is mentally befuddled and cannot act normally. A confused creature cannot tell the difference between ally and foe, treating all creatures as enemies. Allies wishing to cast a beneficial spell that requires a touch on a confused creature must succeed on a melee touch attack. If a confused creature is attacked, it attacks the creature that last attacked it until that creature is dead or out of sight.",
 			"",
@@ -2871,7 +2871,7 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/565}",
+			"‹SOURCE PRPG Core Rulebook/565›",
 			"",
 			"@HL[Broken:] Items that have taken damage in excess of half their total hit points gain the broken condition, meaning they are less effective at their designated task. The broken condition has the following effects, depending upon the item.",
 			"",
@@ -2921,9 +2921,9 @@
 		"subtitle": "Bleed Damage, Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/565}",
+			"‹SOURCE PRPG Core Rulebook/565›",
 			"",
-			"A creature that is taking bleed damage takes the listed amount of damage at the beginning of its turn. Bleeding can be stopped by a DC 15 Heal check or through the application of any spell that cures hit point damage (even if the bleed is ability damage). Some bleed effects cause {rule/ability damage [or even ability ]drain}. Bleed effects do not stack with each other unless they deal different kinds of damage. When two or more bleed effects deal the same kind of damage, take the worse effect. In this case, ability drain is worse than ability damage."
+			"A creature that is taking bleed damage takes the listed amount of damage at the beginning of its turn. Bleeding can be stopped by a DC 15 Heal check or through the application of any spell that cures hit point damage (even if the bleed is ability damage). Some bleed effects cause ‹rule/ability damage «or even ability »drain›. Bleed effects do not stack with each other unless they deal different kinds of damage. When two or more bleed effects deal the same kind of damage, take the worse effect. In this case, ability drain is worse than ability damage."
 		],
 		"parent_topics": [
 			"combat",
@@ -2953,7 +2953,7 @@
 		"subtitle": "Dead, Disabled, Dying, Stable",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/566}",
+			"‹SOURCE PRPG Core Rulebook/566›",
 			"",
 			"@HL[Dead:] The character's hit points are reduced to a negative amount equal to his Constitution score, his Constitution drops to 0, or he is killed outright by a spell or effect. The character's soul leaves his body. Dead characters cannot benefit from normal or magical healing, but they can be restored to life via magic. A dead body decays normally unless magically preserved, but magic that restores a dead character to life also restores the body either to full health or to its condition at the time of death (depending on the spell or device). Either way, resurrected characters need not worry about rigor mortis, decomposition, and other conditions that affect dead bodies.",
 			"",
@@ -2995,9 +2995,9 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/567}",
+			"‹SOURCE PRPG Core Rulebook/567›",
 			"",
-			"@HL[Energy Drained:] The character gains one or more negative levels, which might become permanent. If the subject has at least as many negative levels as Hit Dice, he dies. See {rule/Energy Drain and Negative levels} more information."
+			"@HL[Energy Drained:] The character gains one or more negative levels, which might become permanent. If the subject has at least as many negative levels as Hit Dice, he dies. See ‹rule/Energy Drain and Negative levels› more information."
 		],
 		"parent_topics": [
 			"combat",
@@ -3027,9 +3027,9 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/567}",
+			"‹SOURCE PRPG Core Rulebook/567›",
 			"",
-			"@HL[Entangled:] The character is ensnared. Being entangled impedes movement, but does not entirely prevent it unless the bonds are anchored to an immobile object or tethered by an opposing force. An entangled creature moves at half speed, cannot run or charge, and takes a -2 penalty on all attack rolls and a -4 penalty to Dexterity. An entangled character who attempts to cast a spell must make a {rule/concentration} check (DC 15 + spell level) or lose the spell."
+			"@HL[Entangled:] The character is ensnared. Being entangled impedes movement, but does not entirely prevent it unless the bonds are anchored to an immobile object or tethered by an opposing force. An entangled creature moves at half speed, cannot run or charge, and takes a -2 penalty on all attack rolls and a -4 penalty to Dexterity. An entangled character who attempts to cast a spell must make a ‹rule/concentration› check (DC 15 + spell level) or lose the spell."
 		],
 		"parent_topics": [
 			"combat",
@@ -3059,7 +3059,7 @@
 		"subtitle": "Exhausted, Fatigued",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/567}",
+			"‹SOURCE PRPG Core Rulebook/567›",
 			"",
 			"@HL[Exhausted:] An exhausted character moves at half speed, cannot run or charge, and takes a -6 penalty to Strength and Dexterity. After 1 hour of complete rest, an exhausted character becomes fatigued. A fatigued character becomes exhausted by doing something else that would normally cause fatigue.",
 			"",
@@ -3093,7 +3093,7 @@
 		"subtitle": "Cowering, Frightened, Panicked, Shaken",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/566}",
+			"‹SOURCE PRPG Core Rulebook/566›",
 			"",
 			"@HL[Cowering:] The character is frozen in fear and can take no actions. A cowering character takes a -2 penalty to Armor Class and loses his Dexterity bonus (if any).",
 			"",
@@ -3135,7 +3135,7 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/567}",
+			"‹SOURCE PRPG Core Rulebook/567›",
 			"",
 			"@HL[Flat-Footed:] A character who has not yet acted during a combat is flat-footed, unable to react normally to the situation. A flat-footed character loses his Dexterity bonus to AC (if any) and cannot make attacks of opportunity."
 		],
@@ -3167,9 +3167,9 @@
 		"subtitle": "Grappled, Pinned",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/567}",
+			"‹SOURCE PRPG Core Rulebook/567›",
 			"",
-			"@HL[Grappled:] A grappled creature is restrained by a creature, trap, or effect. Grappled creatures cannot move and take a -4 penalty to Dexterity. A grappled creature takes a -2 penalty on all attack rolls and combat maneuver checks, except those made to grapple or escape a grapple. In addition, grappled creatures can take no action that requires two hands to perform. A grappled character who attempts to cast a spell or use a spell-like ability must make a concentration check (DC 10 + grappler's CMB + spell level, see {rule/Concentration}), or lose the spell. Grappled creatures cannot make attacks of opportunity.",
+			"@HL[Grappled:] A grappled creature is restrained by a creature, trap, or effect. Grappled creatures cannot move and take a -4 penalty to Dexterity. A grappled creature takes a -2 penalty on all attack rolls and combat maneuver checks, except those made to grapple or escape a grapple. In addition, grappled creatures can take no action that requires two hands to perform. A grappled character who attempts to cast a spell or use a spell-like ability must make a concentration check (DC 10 + grappler's CMB + spell level, see ‹rule/Concentration›), or lose the spell. Grappled creatures cannot make attacks of opportunity.",
 			"",
 			"A grappled creature cannot use Stealth to hide from the creature grappling it, even if a special ability, such as hide in plain sight, would normally allow it to do so. If a grappled creature becomes invisible, through a spell or other ability, it gains a +2 circumstance bonus on its CMD to avoid being grappled, but receives no other benefit.",
 			"",
@@ -3206,7 +3206,7 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/567}",
+			"‹SOURCE PRPG Core Rulebook/567›",
 			"",
 			"@HL[Incorporeal:] Creatures with the incorporeal condition do not have a physical body. Incorporeal creatures are immune to all nonmagical attack forms. Incorporeal creatures take half damage (50%) from magic weapons, spells, spell-like effects, and supernatural effects. Incorporeal creatures take full damage from other incorporeal creatures and effects, as well as all force effects."
 		],
@@ -3238,9 +3238,9 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/567}",
+			"‹SOURCE PRPG Core Rulebook/567›",
 			"",
-			"@HL[Invisible:] Invisible creatures are visually undetectable. An invisible creature gains a +2 bonus on attack rolls against a sighted opponent, and ignores its opponent's Dexterity bonus to AC (if any). See {rule/Invisibility}, under Special Abilities."
+			"@HL[Invisible:] Invisible creatures are visually undetectable. An invisible creature gains a +2 bonus on attack rolls against a sighted opponent, and ignores its opponent's Dexterity bonus to AC (if any). See ‹rule/Invisibility›, under Special Abilities."
 		],
 		"parent_topics": [
 			"combat",
@@ -3270,7 +3270,7 @@
 		"subtitle": "Nauseated, Sickened",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/568}",
+			"‹SOURCE PRPG Core Rulebook/568›",
 			"",
 			"@HL[Nauseated:] Creatures with the nauseated condition experience stomach distress. Nauseated creatures are unable to attack, cast spells, concentrate on spells, or do anything else requiring attention. The only action such a character can take is a single move action per turn.",
 			"",
@@ -3304,7 +3304,7 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/568}",
+			"‹SOURCE PRPG Core Rulebook/568›",
 			"",
 			"@HL[Paralyzed:] A paralyzed character is frozen in place and unable to move or act. A paralyzed character has effective Dexterity and Strength scores of 0 and is helpless, but can take purely mental actions. A winged creature flying in the air at the time that it becomes paralyzed cannot flap its wings and falls. A paralyzed swimmer can't swim and may drown. A creature can move through a space occupied by a paralyzed creature - ally or not. Each square occupied by a paralyzed creature, however, counts as 2 squares to move through."
 		],
@@ -3336,7 +3336,7 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/568}",
+			"‹SOURCE PRPG Core Rulebook/568›",
 			"",
 			"@HL[Petrified:] A petrified character has been turned to stone and is considered unconscious. If a petrified character cracks or breaks, but the broken pieces are joined with the body as he returns to flesh, he is unharmed. If the character's petrified body is incomplete when it returns to flesh, the body is likewise incomplete and there is some amount of permanent hit point loss and/or debilitation."
 		],
@@ -3368,7 +3368,7 @@
 		"subtitle": "Condition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/568}",
+			"‹SOURCE PRPG Core Rulebook/568›",
 			"",
 			"@HL[Prone:] The character is lying on the ground. A prone attacker has a -4 penalty on melee attack rolls and cannot use a ranged weapon (except for a crossbow). A prone defender gains a +4 bonus to Armor Class against ranged attacks, but takes a -4 penalty to AC against melee attacks.",
 			"",
@@ -3401,13 +3401,13 @@
 		"name": "Special Abilities",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/554}",
+			"‹SOURCE PRPG Core Rulebook/554›",
 			"",
 			"The following special abilities include rules commonly used by a number of creatures, spells, and traps.",
 			"",
 			"@HL[Extraordinary Abilities (Ex):] Extraordinary abilities are nonmagical. They are, however, not something that just anyone can do or even learn to do without extensive training. Effects or areas that suppress or negate magic have no effect on extraordinary abilities.",
 			"",
-			"@HL[Spell-Like Abilities (Sp):] Spell-like abilities, as the name implies, are magical abilities that are very much like spells. Spell-like abilities are subject to spell resistance and {spell/dispel magic}. They do not function in areas where magic is suppressed or negated (such as an {spell/antimagic field}). Spell-like abilities can be dispelled, but they cannot be counterspelled or used to counterspell.",
+			"@HL[Spell-Like Abilities (Sp):] Spell-like abilities, as the name implies, are magical abilities that are very much like spells. Spell-like abilities are subject to spell resistance and ‹spell/dispel magic›. They do not function in areas where magic is suppressed or negated (such as an ‹spell/antimagic field›). Spell-like abilities can be dispelled, but they cannot be counterspelled or used to counterspell.",
 			"",
 			"@HL[Supernatural Abilities (Su):] Supernatural abilities are magical but not spell-like. Supernatural abilities are not subject to spell resistance and do not function in areas where magic is suppressed or negated (such as an antimagic field). A supernatural ability's effect cannot be dispelled and is not subject to counterspells. See Table 16-1 for a summary of the types of special abilities.",
 			"",
@@ -3420,7 +3420,7 @@
 			"| Antimagic field | No | Yes | Yes |",
 			"| Attack of opportunity | No | Yes | No |",
 			"",
-			"@HL[Dispel:] Can {spell/dispel magic} and similar spells dispel the effects of abilities of that type?",
+			"@HL[Dispel:] Can ‹spell/dispel magic› and similar spells dispel the effects of abilities of that type?",
 			"",
 			"@HL[Spell Resistance:] Does spell resistance protect a creature from these abilities?",
 			"",
@@ -3465,7 +3465,7 @@
 		"name": "Ability Score Bonuses",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/554}",
+			"‹SOURCE PRPG Core Rulebook/554›",
 			"",
 			"Some spells and abilities increase your ability scores. Ability score increases with a duration of 1 day or less give only **temporary bonuses.** For every two points of increase to a single ability, apply a +1 bonus to the skills and statistics listed with the relevant ability.",
 			"",
@@ -3513,7 +3513,7 @@
 		"tags": "ability drain, ability damage",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/555}",
+			"‹SOURCE PRPG Core Rulebook/555›",
 			"",
 			"Diseases, poisons, spells, and other abilities can all deal damage directly to your ability scores. This damage does not actually reduce an ability, but it does apply a penalty to the skills and statistics that are based on that ability.",
 			"",
@@ -3535,7 +3535,7 @@
 			"",
 			"### Ability Drain",
 			"",
-			"Ability drain actually reduces the relevant ability score. Modify all skills and statistics related to that ability. This might cause you to lose skill points, hit points, and other bonuses. Ability drain can be healed through the use of spells such as {spell/restoration}."
+			"Ability drain actually reduces the relevant ability score. Modify all skills and statistics related to that ability. This might cause you to lose skill points, hit points, and other bonuses. Ability drain can be healed through the use of spells such as ‹spell/restoration›."
 		],
 		"parent_topics": [
 			"combat",
@@ -3594,7 +3594,7 @@
 		"name": "Afflictions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/555}",
+			"‹SOURCE PRPG Core Rulebook/555›",
 			"",
 			"From curses to poisons to diseases, there are a number of afflictions that can affect a creature. While each of these afflictions has a different effect, they all function using the same basic system. All afflictions grant a saving throw when they are contracted. If successful, the creature does not suffer from the affliction and does not need to make any further rolls. If the saving throw is a failure, the creature falls victim to the affliction and must deal with its effects.",
 			"",
@@ -3606,7 +3606,7 @@
 			"",
 			"@HL[Type:] This is the type of the affliction, such as curse, disease, or poison. It might also include the means by which it is contracted, such as contact, ingestion, inhalation, injury, spell, or trap.",
 			"",
-			"@HL[Save:] This gives the type of save necessary to avoid contracting the affliction, as well as the DC of that save. Unless otherwise noted, this is also the save to avoid the affliction's effects once it is contracted, as well as the DC of any caster level checks needed to end the affliction through magic, such as {spell/remove curse} or {spell/neutralize poison}.",
+			"@HL[Save:] This gives the type of save necessary to avoid contracting the affliction, as well as the DC of that save. Unless otherwise noted, this is also the save to avoid the affliction's effects once it is contracted, as well as the DC of any caster level checks needed to end the affliction through magic, such as ‹spell/remove curse› or ‹spell/neutralize poison›.",
 			"",
 			"@HL[Onset:] Some afflictions have a variable amount of time before they set in. Creatures that come in contact with an affliction with an onset time must make a saving throw immediately. Success means that the affliction is avoided and no further saving throws must be made. Failure means that the creature has contracted the affliction and must begin making additional saves after the onset period has elapsed. The affliction's effect does not occur until after the onset period has elapsed and then only if further saving throws are failed.",
 			"",
@@ -3614,11 +3614,11 @@
 			"",
 			"Afflictions without a frequency occur only once, immediately upon contraction (or after the onset time if one is listed).",
 			"",
-			"@HL[Effect:] This is the effect that the character suffers each time if he fails his saving throw against the affliction. Most afflictions cause {rule/ability damage} or hit point damage. These effects are cumulative, but they can be cured normally. Other afflictions cause the creature to take penalties or other effects. These effects are sometimes cumulative, with the rest only affecting the creature if it failed its most recent save. Some afflictions have different effects after the first save is failed. These afflictions have an initial effect, which occurs when the first save is failed, and a secondary effect, when additional saves are failed, as noted in the text. Hit point and ability score damage caused by an affliction cannot be healed naturally while the affliction persists.",
+			"@HL[Effect:] This is the effect that the character suffers each time if he fails his saving throw against the affliction. Most afflictions cause ‹rule/ability damage› or hit point damage. These effects are cumulative, but they can be cured normally. Other afflictions cause the creature to take penalties or other effects. These effects are sometimes cumulative, with the rest only affecting the creature if it failed its most recent save. Some afflictions have different effects after the first save is failed. These afflictions have an initial effect, which occurs when the first save is failed, and a secondary effect, when additional saves are failed, as noted in the text. Hit point and ability score damage caused by an affliction cannot be healed naturally while the affliction persists.",
 			"",
-			"@HL[Cure:] This tells you how the affliction is cured. Commonly, this is a number of saving throws that must be made consecutively. Even if the affliction has a limited frequency, it might be cured prematurely if enough saving throws are made. Hit point damage and ability score damage is not removed when an affliction is cured. Such damage must be healed normally. Afflictions without a cure entry can only be cured through powerful spells, such as {spell/neutralize poison} and {spell/remove curse}. No matter how many saving throws are made, these afflictions continue to affect the target.",
+			"@HL[Cure:] This tells you how the affliction is cured. Commonly, this is a number of saving throws that must be made consecutively. Even if the affliction has a limited frequency, it might be cured prematurely if enough saving throws are made. Hit point damage and ability score damage is not removed when an affliction is cured. Such damage must be healed normally. Afflictions without a cure entry can only be cured through powerful spells, such as ‹spell/neutralize poison› and ‹spell/remove curse›. No matter how many saving throws are made, these afflictions continue to affect the target.",
 			"",
-			"@HL[Example:] Valeros has been exposed to the {disease/red ache} disease. He failed a DC 15 Fortitude save to avoid contracting it, so after the onset period of 1d3 days has passed, he must make another DC 15 Fortitude save to avoid taking 1d6 points of Strength damage. From this point onward, he must make a DC 15 Fortitude save each day (according to the disease's frequency) to avoid further Strength damage. If, on two consecutive days, he makes his Fortitude saves, he is cured of the disease and any damage it caused begins to heal as normal."
+			"@HL[Example:] Valeros has been exposed to the ‹disease/red ache› disease. He failed a DC 15 Fortitude save to avoid contracting it, so after the onset period of 1d3 days has passed, he must make another DC 15 Fortitude save to avoid taking 1d6 points of Strength damage. From this point onward, he must make a DC 15 Fortitude save each day (according to the disease's frequency) to avoid further Strength damage. If, on two consecutive days, he makes his Fortitude saves, he is cured of the disease and any damage it caused begins to heal as normal."
 		],
 		"parent_topics": [
 			"combat",
@@ -3654,9 +3654,9 @@
 		"name": "Curses",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/556}",
+			"‹SOURCE PRPG Core Rulebook/556›",
 			"",
-			"Careless rogues plundering a tomb, drunken heroes insulting a powerful wizard, and foolhardy adventurers who pick up ancient swords all might suffer from curses. These magic afflictions can have a wide variety of effects, from a simple penalty to certain checks to transforming the victim into a toad. Some even cause the afflicted to slowly rot away, leaving nothing behind but dust. Unlike other afflictions, most curses cannot be cured through a number of successful saving throws. Curses can be cured through magic, however, usually via spells such as {spell/remove curse} and {spell/break enchantment}. While some curses cause a progressive deterioration, others inflict a static penalty from the moment they are contracted, neither fading over time nor growing worse. In addition, there are a number of magic items that act like curses.",
+			"Careless rogues plundering a tomb, drunken heroes insulting a powerful wizard, and foolhardy adventurers who pick up ancient swords all might suffer from curses. These magic afflictions can have a wide variety of effects, from a simple penalty to certain checks to transforming the victim into a toad. Some even cause the afflicted to slowly rot away, leaving nothing behind but dust. Unlike other afflictions, most curses cannot be cured through a number of successful saving throws. Curses can be cured through magic, however, usually via spells such as ‹spell/remove curse› and ‹spell/break enchantment›. While some curses cause a progressive deterioration, others inflict a static penalty from the moment they are contracted, neither fading over time nor growing worse. In addition, there are a number of magic items that act like curses.",
 			"",
 			"| Curse | Saving Throw |",
 			"| --- | --- |",
@@ -3701,9 +3701,9 @@
 		"name": "Diseases",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/557}",
+			"‹SOURCE PRPG Core Rulebook/557›",
 			"",
-			"From a widespread plague to the bite of a dire rat, disease is a serious threat to common folk and adventurers alike. Diseases rarely have a limited frequency, but most have a lengthy onset time. This onset time can also be variable. Most diseases can be cured by a number of consecutive saving throws or by spells such as {spell/remove disease}.",
+			"From a widespread plague to the bite of a dire rat, disease is a serious threat to common folk and adventurers alike. Diseases rarely have a limited frequency, but most have a lengthy onset time. This onset time can also be variable. Most diseases can be cured by a number of consecutive saving throws or by spells such as ‹spell/remove disease›.",
 			"",
 			"| Disease | Saving Throw |",
 			"| --- | --- |",
@@ -3772,9 +3772,9 @@
 		"name": "Infestations",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/245}",
+			"‹SOURCE GameMastery Guide/245›",
 			"",
-			"Parasites such as ear seekers or rot grubs cause infestations, a type of affliction similar to diseases. Infestations can only be cured through specific means; no matter how many saving throws are made, the infestation continues to afflict the target. While a {spell/remove disease} spell (or similar effect) instantly halts an infestation, immunity to disease offers no protection, as the infestation itself is caused by parasites. Infestations can afflict {race/android/s} despite their artificial nature and immunity to disease, but they can't afflict nonliving creatures such as undead.",
+			"Parasites such as ear seekers or rot grubs cause infestations, a type of affliction similar to diseases. Infestations can only be cured through specific means; no matter how many saving throws are made, the infestation continues to afflict the target. While a ‹spell/remove disease› spell (or similar effect) instantly halts an infestation, immunity to disease offers no protection, as the infestation itself is caused by parasites. Infestations can afflict ‹race/android«s› despite their artificial nature and immunity to disease, but they can't afflict nonliving creatures such as undead.",
 			"",
 			"| Infestation | Fortitude DC | Description |",
 			"| --- | --- | --- |",
@@ -3803,7 +3803,7 @@
 			"Inner Sea Intrigue"
 		],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/557;Inner Sea Intrigue/51}",
+			"‹SOURCE PRPG Core Rulebook/557;Inner Sea Intrigue/51›",
 			"",
 			"No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and spells such as neutralize poison.",
 			"",
@@ -3845,9 +3845,9 @@
 		"name": "Blindsight and Blindsense",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/560}",
+			"‹SOURCE PRPG Core Rulebook/560›",
 			"",
-			"Some creatures possess @HL[blindsight,] the extraordinary ability to use a nonvisual sense (or a combination of senses) to operate effectively without vision. Such senses may include sensitivity to vibrations, acute scent, keen hearing, or echolocation. This makes invisibility and {rule/concealment} (even magical darkness) irrelevant to the creature (though it still can't see ethereal creatures). This ability operates out to a range specified in the creature description.",
+			"Some creatures possess @HL[blindsight,] the extraordinary ability to use a nonvisual sense (or a combination of senses) to operate effectively without vision. Such senses may include sensitivity to vibrations, acute scent, keen hearing, or echolocation. This makes invisibility and ‹rule/concealment› (even magical darkness) irrelevant to the creature (though it still can't see ethereal creatures). This ability operates out to a range specified in the creature description.",
 			"",
 			"- Blindsight never allows a creature to distinguish color or visual contrast. A creature cannot read with blindsight.",
 			"- Blindsight does not subject a creature to gaze attacks (even though darkvision does).",
@@ -3886,7 +3886,7 @@
 		"name": "Channel Resistance",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/561}",
+			"‹SOURCE PRPG Core Rulebook/561›",
 			"",
 			"Creatures with channel resistance gain a bonus on Will saves made against channeled energy. They add their bonus to any Will saves made to halve the damage and resist the effect."
 		],
@@ -3918,7 +3918,7 @@
 		"name": "Charm and Compulsion",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/561}",
+			"‹SOURCE PRPG Core Rulebook/561›",
 			"",
 			"Many abilities and spells can cloud the minds of characters and monsters, leaving them unable to tell friend from foe - or worse yet, deceiving them into thinking that their former friends are now their worst enemies. Two general types of enchantments affect characters and creatures: charms and compulsions.",
 			"",
@@ -3964,13 +3964,13 @@
 		"name": "Damage Reduction",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/561}",
+			"‹SOURCE PRPG Core Rulebook/561›",
 			"",
 			"Some magic creatures have the supernatural ability to instantly heal damage from weapons or ignore blows altogether as though they were invulnerable.",
 			"",
 			"The numerical part of a creature's damage reduction (or DR) is the amount of damage the creature ignores from normal attacks. Usually, a certain type of weapon can overcome this reduction (see Overcoming DR). This information is separated from the damage reduction number by a slash. For example, DR 5/magic means that a creature takes 5 less points of damage from all weapons that are not magic. If a dash follows the slash, then the damage reduction is effective against any attack that does not ignore damage reduction.",
 			"",
-			"Some DR has multiple parts, separated by an \"and\" or an \"or\". An attack must have **all** qualities of an \"and\" DR in order to bypass it (e.g. a {template/lich/'s} DR 15/bludgeoning and magic), but needs only **one** quality of an \"or\" DR to get through (e.g. a {monster/dretch/'s} DR 5/cold iron or good).",
+			"Some DR has multiple parts, separated by an \"and\" or an \"or\". An attack must have **all** qualities of an \"and\" DR in order to bypass it (e.g. a ‹template/lich«'s› DR 15/bludgeoning and magic), but needs only **one** quality of an \"or\" DR to get through (e.g. a ‹monster/dretch«'s› DR 5/cold iron or good).",
 			"",
 			"Whenever damage reduction completely negates the damage from an attack, it also negates most special effects that accompany the attack, such as injury poison, a monk's stunning, and injury-based disease. Damage reduction does not negate touch attacks, energy damage dealt along with an attack, or energy drains. Nor does it affect poisons or diseases delivered by inhalation, ingestion, or contact.",
 			"",
@@ -3994,11 +3994,11 @@
 			"| Adamantine[^1] | +4 |",
 			"| Alignment-based | +5 |",
 			"",
-			"{rule/Some |weapon«_description»s} deal damage of multiple types. If a weapon causes two types of damage, the type it deals is not half one type and half another; all damage caused is of both types. Therefore, a creature would have to be immune to both types of damage to ignore any of the damage caused by such a weapon (e.g. a +3 {eq-weapon/morningstar} [B and P damage] deals full damage to a lich).",
+			"‹rule/Some »weapon<_description>s› deal damage of multiple types. If a weapon causes two types of damage, the type it deals is not half one type and half another; all damage caused is of both types. Therefore, a creature would have to be immune to both types of damage to ignore any of the damage caused by such a weapon (e.g. a +3 ‹eq-weapon/morningstar› [B and P damage] deals full damage to a lich).",
 			"",
-			"In other cases, a weapon can deal either of two types of damage. In a situation where the damage type is significant, the wielder can choose which type of damage to deal with such a weapon (e.g. a +3 {eq-weapon/lucerne hammer} [B or P damage] only overcomes a lich's DR when used to deal bludgeoning damage).",
+			"In other cases, a weapon can deal either of two types of damage. In a situation where the damage type is significant, the wielder can choose which type of damage to deal with such a weapon (e.g. a +3 ‹eq-weapon/lucerne hammer› [B or P damage] only overcomes a lich's DR when used to deal bludgeoning damage).",
 			"",
-			"[^1]: Note that this does not give the ability to ignore hardness, like an actual {eq-material/adamantine} weapon does"
+			"[^1]: Note that this does not give the ability to ignore hardness, like an actual ‹eq-material/adamantine› weapon does"
 		],
 		"parent_topics": [
 			"combat",
@@ -4029,7 +4029,7 @@
 		"name": "Darkvision",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/562}",
+			"‹SOURCE PRPG Core Rulebook/562›",
 			"",
 			"Darkvision is the extraordinary ability to see with no light source at all, out to a range specified for the creature. Darkvision is black-and-white only (colors cannot be discerned). It does not allow characters to see anything that they could not see otherwise-invisible objects are still invisible, and illusions are still visible as what they seem to be. Likewise, darkvision subjects a creature to gaze attacks normally. The presence of light does not spoil darkvision."
 		],
@@ -4061,7 +4061,7 @@
 		"name": "Death Attacks",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/562}",
+			"‹SOURCE PRPG Core Rulebook/562›",
 			"",
 			"In most cases, a death attack allows the victim a Fortitude save to avoid the effect, but if the save fails, the creature takes a large amount of damage, which might cause it to die instantly.",
 			"",
@@ -4098,7 +4098,7 @@
 		"name": "Energy Drain and Negative Levels",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/562}",
+			"‹SOURCE PRPG Core Rulebook/562›",
 			"",
 			"Some spells and a number of undead creatures have the ability to drain away life and energy; this dreadful attack results in \"negative levels.\" These cause a character to take a number of penalties.",
 			"",
@@ -4106,7 +4106,7 @@
 			"",
 			"A creature with temporary negative levels receives a new saving throw to remove the negative level each day. The DC of this save is the same as the effect that caused the negative levels.",
 			"",
-			"Some abilities and spells (such as {spell/raise dead}) bestow permanent level drain on a creature. These are treated just like temporary negative levels, but they do not allow a new save each day to remove them. Level drain can be removed through spells like {spell/restoration}. Permanent negative levels remain after a dead creature is restored to life. A creature whose permanent negative levels equal its Hit Dice cannot be brought back to life through spells like *raise dead* and {spell/resurrection} without also receiving a restoration spell, cast the round after it is restored to life."
+			"Some abilities and spells (such as ‹spell/raise dead›) bestow permanent level drain on a creature. These are treated just like temporary negative levels, but they do not allow a new save each day to remove them. Level drain can be removed through spells like ‹spell/restoration›. Permanent negative levels remain after a dead creature is restored to life. A creature whose permanent negative levels equal its Hit Dice cannot be brought back to life through spells like *raise dead* and ‹spell/resurrection› without also receiving a restoration spell, cast the round after it is restored to life."
 		],
 		"parent_topics": [
 			"combat",
@@ -4140,7 +4140,7 @@
 		"tags": "energy resistance energy vulnerability",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/563}",
+			"‹SOURCE PRPG Core Rulebook/563›",
 			"",
 			"A creature with @HL[energy immunity] never takes damage from that energy type. @HL[Vulnerability] means the creature takes half again as much (+50%) damage as normal from that energy type, regardless of whether a saving throw is allowed or if the save is a success or failure.",
 			"",
@@ -4178,7 +4178,7 @@
 		"name": "Fear",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/564}",
+			"‹SOURCE PRPG Core Rulebook/564›",
 			"",
 			"Spells, magic items, and certain monsters can affect characters with fear. In most cases, the character makes a Will saving throw to resist this effect, and a failed roll means that the character is shaken, frightened, or panicked.",
 			"",
@@ -4218,13 +4218,13 @@
 		"name": "Invisibility",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/564}",
+			"‹SOURCE PRPG Core Rulebook/564›",
 			"",
 			"The ability to move about unseen is not foolproof. While they can't be seen, invisible creatures can be heard, smelled, or felt.",
 			"",
 			"Invisibility makes a creature undetectable by vision, including darkvision.",
 			"",
-			"Invisibility does not, by itself, make a creature immune to critical hits, but it does make the creature immune to extra damage from being a ranger's {ability/favored enemy} and from sneak attacks.",
+			"Invisibility does not, by itself, make a creature immune to critical hits, but it does make the creature immune to extra damage from being a ranger's ‹ability/favored enemy› and from sneak attacks.",
 			"",
 			"A creature can generally notice the presence of an active invisible creature within 30 feet with a DC 20 Perception check. The observer gains a hunch that \"something's there\" but can't see it or target it accurately with an attack. It's practically impossible (+20 DC) to pinpoint an invisible creature's location with a Perception check. Even once a character has pinpointed the square that contains an invisible creature, the creature still benefits from total concealment (50% miss chance). There are a number of modifiers that can be applied to this DC if the invisible creature is moving or engaged in a noisy activity.",
 			"",
@@ -4244,7 +4244,7 @@
 			"",
 			"If an invisible creature strikes a character, the character struck knows the location of the creature that struck him (until, of course, the invisible creature moves). The only exception is if the invisible creature has a reach greater than 5 feet. In this case, the struck character knows the general location of the creature but has not pinpointed the exact location.",
 			"",
-			"If a character tries to attack an invisible creature whose location he has pinpointed, he attacks normally, but the invisible creature still benefits from full {rule/concealment} (and thus a 50% miss chance). A particularly large and slow invisible creature might get a smaller miss chance.",
+			"If a character tries to attack an invisible creature whose location he has pinpointed, he attacks normally, but the invisible creature still benefits from full ‹rule/concealment› (and thus a 50% miss chance). A particularly large and slow invisible creature might get a smaller miss chance.",
 			"",
 			"If a character tries to attack an invisible creature whose location he has not pinpointed, have the player choose the space where the character will direct the attack. If the invisible creature is there, conduct the attack normally. If the enemy's not there, roll the miss chance as if it were there and tell him that the character has missed, regardless of the result. That way the player doesn't know whether the attack missed because the enemy's not there or because you successfully rolled the miss chance.",
 			"",
@@ -4254,11 +4254,11 @@
 			"",
 			"An invisible creature in the water displaces water, revealing its location. The invisible creature, however, is still hard to see and benefits from concealment.",
 			"",
-			"A creature with the {umr/scent} ability can detect an invisible creature as it would a visible one.",
+			"A creature with the ‹umr/scent› ability can detect an invisible creature as it would a visible one.",
 			"",
-			"A creature with the {feat/Blind-Fight} feat has a better chance to hit an invisible creature. Roll the miss chance twice, and he misses only if both rolls indicate a miss. (Alternatively, make one 25% miss chance roll rather than two 50% miss chance rolls.)",
+			"A creature with the ‹feat/Blind-Fight› feat has a better chance to hit an invisible creature. Roll the miss chance twice, and he misses only if both rolls indicate a miss. (Alternatively, make one 25% miss chance roll rather than two 50% miss chance rolls.)",
 			"",
-			"A creature with {rule/blindsight>_and_blindsense} can attack (and otherwise interact with) creatures regardless of invisibility.",
+			"A creature with ‹rule/blindsight<_and_blindsense› can attack (and otherwise interact with) creatures regardless of invisibility.",
 			"",
 			"An invisible burning torch still gives off light, as does an invisible object with a light or similar spell cast upon it.",
 			"",
@@ -4298,7 +4298,7 @@
 		"name": "Low-Light Vision",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/565}",
+			"‹SOURCE PRPG Core Rulebook/565›",
 			"",
 			"Characters with low-light vision have eyes that are so sensitive to light that they can see twice as far as normal in dim light. Low-light vision is color vision. A spellcaster with low-light vision can read a scroll as long as even the tiniest candle flame is next to him as a source of light. Characters with low-light vision can see outdoors on a moonlit night as well as they can during the day."
 		],
@@ -4330,11 +4330,11 @@
 		"name": "Paralysis",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/565}",
+			"‹SOURCE PRPG Core Rulebook/565›",
 			"",
 			"Some monsters and spells have the supernatural or spell-like ability to paralyze their victims, immobilizing them through magical means. Paralysis from poison is discussed in the Afflictions section.",
 			"",
-			"A {rule/paralyzed} character cannot move, speak, or take any physical action. He is rooted to the spot, frozen and helpless. Not even friends can move his limbs. He may take purely mental actions, such as casting a spell with no components.",
+			"A ‹rule/paralyzed› character cannot move, speak, or take any physical action. He is rooted to the spot, frozen and helpless. Not even friends can move his limbs. He may take purely mental actions, such as casting a spell with no components.",
 			"",
 			"A winged creature flying in the air at the time that it becomes paralyzed cannot flap its wings and falls. A swimmer can't swim and may drown."
 		],
@@ -4366,11 +4366,11 @@
 		"name": "Scent",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/565}",
+			"‹SOURCE PRPG Core Rulebook/565›",
 			"",
 			"This extraordinary ability lets a creature detect approaching enemies, sniff out hidden foes, and track by sense of smell.",
 			"",
-			"A creature with the {umr/scent} ability can detect opponents by sense of smell, generally within 30 feet. If the opponent is upwind, the range is 60 feet. If it is downwind, the range is 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at three times these ranges.",
+			"A creature with the ‹umr/scent› ability can detect opponents by sense of smell, generally within 30 feet. If the opponent is upwind, the range is 60 feet. If it is downwind, the range is 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at three times these ranges.",
 			"",
 			"The creature detects another creature's presence but not its specific location. Noting the direction of the scent is a move action. If the creature moves within 5 feet (1 square) of the scent's source, the creature can pinpoint the area that the source occupies, even if it cannot be seen.",
 			"",
@@ -4410,7 +4410,7 @@
 		"name": "Spell Resistance",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/565}",
+			"‹SOURCE PRPG Core Rulebook/565›",
 			"",
 			"Spell resistance is the extraordinary ability to avoid being affected by spells. Some spells also grant spell resistance.",
 			"",
@@ -4458,7 +4458,7 @@
 		"name": "When Spell Resistance Applies",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/566}",
+			"‹SOURCE PRPG Core Rulebook/566›",
 			"",
 			"Each spell includes an entry that indicates whether spell resistance applies to the spell. In general, whether spell resistance applies depends on what the spell does.",
 			"",
@@ -4492,7 +4492,7 @@
 		"name": "Successful Spell Resistance",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/567}",
+			"‹SOURCE PRPG Core Rulebook/567›",
 			"",
 			"Spell resistance prevents a spell or a spell-like ability from affecting or harming the resistant creature, but it never removes a magical effect from another creature or negates a spell's effect on another creature. Spell resistance prevents a spell from disrupting another spell.",
 			"",

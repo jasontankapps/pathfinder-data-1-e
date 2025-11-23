@@ -18,7 +18,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"The hypnotic stare penalty also applies to all Charisma checks to escape {spell/planar binding} spells, and applies to the target's spell resistance against a planar binding spell."
+			"The hypnotic stare penalty also applies to all Charisma checks to escape ‹spell/planar binding› spells, and applies to the target's spell resistance against a planar binding spell."
 		]
 	},
 	"devilbane_dampening": {
@@ -42,7 +42,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"The target of your hypnotic stare must succeed at a {rule/concentration} check (DC = 15 + the level of the spell) to activate any of its spell-like abilities (but not standard spellcasting). If the target fails the check, the spell-like ability doesn't function but is still expended."
+			"The target of your hypnotic stare must succeed at a ‹rule/concentration› check (DC = 15 + the level of the spell) to activate any of its spell-like abilities (but not standard spellcasting). If the target fails the check, the spell-like ability doesn't function but is still expended."
 		]
 	},
 	"devilbane_mundanity": {
@@ -50,7 +50,7 @@
 		"compilationSources": [ [ "Occult Origins", 13 ] ],
 		"addenda": ["devilbane"],
 		"description": [
-			"The hypnotic stare penalty also applies to the target's spell resistance. This ability doesn't stack with the {stare/sapped magic} bold stare improvement."
+			"The hypnotic stare penalty also applies to the target's spell resistance. This ability doesn't stack with the ‹stare/sapped magic› bold stare improvement."
 		]
 	},
 	"devilbane_withering": {
@@ -72,14 +72,14 @@
 		"name": "Disquiet",
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"description": [
-			"The target of the hypnotic stare is {misc/shaken} while in areas of total darkness."
+			"The target of the hypnotic stare is ‹misc/shaken› while in areas of total darkness."
 		]
 	},
 	"distracted": {
 		"name": "Distracted",
 		"compilationSources": [ [ "Heroes of Golarion", 9 ] ],
 		"description": [
-			"The hypnotic stare penalty also applies to {rule/concentration} checks."
+			"The hypnotic stare penalty also applies to ‹rule/concentration› checks."
 		]
 	},
 	"infiltration": {
@@ -114,7 +114,7 @@
 		"name": "Oscillation",
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"description": [
-			"The target of the hypnotic stare treats all enemies beyond 30 feet (except the mesmerist) as having {rule/concealment} (20% miss chance)."
+			"The target of the hypnotic stare treats all enemies beyond 30 feet (except the mesmerist) as having ‹rule/concealment› (20% miss chance)."
 		]
 	},
 	"psychic_inception": {
@@ -128,7 +128,7 @@
 		"name": "Restriction",
 		"compilationSources": [ [ "Occult Realms", 16 ] ],
 		"description": [
-			"The target of the hypnotic stare treats all areas of {rule/dim light} or darker as {rule/difficult terrain}."
+			"The target of the hypnotic stare treats all areas of ‹rule/dim light› or darker as ‹rule/difficult terrain›."
 		]
 	},
 	"sabotage": {
@@ -177,7 +177,7 @@
 		"name": "Unaided",
 		"compilationSources": [ [ "Heroes of Golarion", 9 ] ],
 		"description": [
-			"The target of the hypnotic stare is not able to grant or receive {rule/flanking} bonuses."
+			"The target of the hypnotic stare is not able to grant or receive ‹rule/flanking› bonuses."
 		]
 	}
 }

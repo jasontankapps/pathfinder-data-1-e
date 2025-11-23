@@ -14,7 +14,7 @@
 		"name": "Alignment as a Storytelling Mechanic",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/95}",
+			"‹SOURCE Pathfinder Unchained/95›",
 			"",
 			"Many campaigns treat alignment mechanically - as a class prerequisite, a rough concept of moral standing (often open to much bickering and debate), and a benchmark for letting you know what weapons and spells to avoid. Others treat it with more reverence, with each player delving deeply into her character's alignment and the PCs becoming exemplars of their respective moral philosophies.",
 			"",
@@ -55,7 +55,7 @@
 		"name": "Moral Challengers and Dilemmas",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/95}",
+			"‹SOURCE Pathfinder Unchained/95›",
 			"",
 			"During the course of play, characters fight monsters, find treasure, and decide to take the left fork or the right, but there are other choices that come up in a game as well: moral choices. In most games, these choices are fairly straightforward. Do you help vanquish an ancient evil from the kingdom? Do you stop the raiders from pillaging? Do you put down the hungry troll raiding far-flung hamlets? Without mitigating circumstances, all of these can be seen as good (and probably lawful) moral choices, and can count as such when you are using this system. But this system really shines when the choices are not nearly so clear-cut.",
 			"",
@@ -85,7 +85,7 @@
 		"name": "Timing and Focus",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/97}",
+			"‹SOURCE Pathfinder Unchained/97›",
 			"",
 			"Nearly every adventure has the potential for moral conflicts, but you should be careful not to spring them on your players too often; otherwise you risk creating conflict fatigue or lessening the dramatic impact. While moral conflict can be a fun and thought-provoking part of a campaign, remember that some players like to focus on more concrete aspects of the game, and the best sessions often feature a diverse selection of moral, strategic, and tactical challenges. Moral challenges are often nuanced, and moral dilemmas can be frustrating with their \"damned if you do, damned if you don't\" nature. Both can be just as stressful as a challenging battle, and can ramp up tensions at the table - for better or worse.",
 			"",
@@ -109,7 +109,7 @@
 		"name": "Shifts and Affirmations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/97}",
+			"‹SOURCE Pathfinder Unchained/97›",
 			"",
 			"When faced with a moral challenge or dilemma, use each character's response to inform whether he or she gains a shift or an affirmation. It's up to the GM to judge whether a response warrants a shift on the alignment axes. Often, this will be easy: Did a character act in a selfish and uncaring manner? That may cause a shift toward evil on the good/evil axis. Did the character uphold the law of the land over the rights of its citizens? That may cause a shift toward the lawful side of the law/chaos axis. Particularly severe actions may warrant a 2-step shift. However, you should never allow more than a 2-step shift for a single action. As the GM, the final decision is yours, but keep in mind that players may disagree with your initial judgments. Allow them to appeal your decision. Take their arguments seriously, and don't be afraid to change your mind.",
 			"",
@@ -143,7 +143,7 @@
 		"name": "Going Cosmic",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/98}",
+			"‹SOURCE Pathfinder Unchained/98›",
 			"",
 			"Morality and alignment in Pathfinder are about more than just everyday actions. When you truly pledge yourself to an alignment, you become part of a timeless struggle of ideas that transcends mortal life and the physical world, a conflict so vast and eternal that the gods themselves are caught up in the fracas. As characters increase in level and power, they can play correspondingly larger roles in these cosmic struggles.",
 			"",
@@ -165,7 +165,7 @@
 		"name": "Alignment Feats",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/98}",
+			"‹SOURCE Pathfinder Unchained/98›",
 			"",
 			"As characters enter the larger cosmic struggles of morality and alignment, they are able to gain new tools to help them champion their philosophies.",
 			"",
@@ -187,7 +187,7 @@
 		"name": "Changing Alignment",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/136}",
+			"‹SOURCE Ultimate Campaign/136›",
 			"",
 			"Over time, a character might become disillusioned and drift toward a different alignment. This section describes an optional system for tracking incremental changes to a character's alignment.",
 			"",
@@ -201,9 +201,9 @@
 			"",
 			"The mechanism for strengthening a character's position within a particular section of the alignment track requires greater effort than acting out of character. A person who is a little bit good (3) has to work hard to become very good (1); even a lifetime of mildly good acts is insufficient. If a character makes a great effort toward promoting or maintaining that alignment, the GM should decide whether that merits a shift toward one of the \"safest\" points on the alignment track (1, 5, and 9) where most out-of-alignment acts don't risk an immediate alignment change. This helps prevent players from gaming the system by offsetting minor evil acts with an equivalent number of minor good acts to remain within the good section of the good-evil alignment axis.",
 			"",
-			"A forced alignment change, such as from a {magic-wondrous/helm of opposite alignment}, shifts a character's position on each alignment track to the corresponding opposite position (1 becomes 9, 2 becomes 8, and so on); a true neutral character jumps to an extreme point on both alignment tracks (1/1, 1/9, 9/1, or 9/9). Unlike a deliberate alignment change, a forced alignment change does not incur the normal 1-week penalty on attack rolls, saving throws, and checks.",
+			"A forced alignment change, such as from a ‹magic-wondrous/helm of opposite alignment›, shifts a character's position on each alignment track to the corresponding opposite position (1 becomes 9, 2 becomes 8, and so on); a true neutral character jumps to an extreme point on both alignment tracks (1/1, 1/9, 9/1, or 9/9). Unlike a deliberate alignment change, a forced alignment change does not incur the normal 1-week penalty on attack rolls, saving throws, and checks.",
 			"",
-			"Using an {spell/atonement} spell moves the character's position on the alignment track the minimum amount to return the character to his previous alignment. For example, a fallen paladin using *atonement* to become good again shifts her position on the good-evil track to 3, even if she originally was at 2 or 1. The spell is a means of reversing the worst of an indiscretion, not for gaining a safe buffer within an alignment zone on the track, and this gives the character an incentive to work toward entrenching herself within the tenets of the restored alignment. Using the \"reverse magical alignment change\" option of {spell/atonement} does not give the target the normal alignment-change penalty on attack rolls, saving throws, and checks, but accepting the \"redemption or temptation\" option does.",
+			"Using an ‹spell/atonement› spell moves the character's position on the alignment track the minimum amount to return the character to his previous alignment. For example, a fallen paladin using *atonement* to become good again shifts her position on the good-evil track to 3, even if she originally was at 2 or 1. The spell is a means of reversing the worst of an indiscretion, not for gaining a safe buffer within an alignment zone on the track, and this gives the character an incentive to work toward entrenching herself within the tenets of the restored alignment. Using the \"reverse magical alignment change\" option of ‹spell/atonement› does not give the target the normal alignment-change penalty on attack rolls, saving throws, and checks, but accepting the \"redemption or temptation\" option does.",
 			"",
 			"A GM who wants a grittier campaign or more flexibility in changing alignment can alter the size of the alignment zones (where everything but 1 and 9 are neutral), use a scale with more than 9 points to allow more granularity when quantifying alignment acts, or create transition areas between the alignment zones where characters can slowly change alignment without penalty.",
 			"",
@@ -231,7 +231,7 @@
 		"name": "Removing Alignment",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/100}",
+			"‹SOURCE Pathfinder Unchained/100›",
 			"",
 			"Alignment is a cornerstone of the Pathfinder Roleplaying Game. In its most useful form, alignment is a shorthand to help players learn more about their characters' personalities. But sometimes you may want to play in a world where there is no absolute good and evil. Perhaps the only lord willing to send troops to aid the PCs' fight against an undead horde is an oppressive dictator who will use the situation to further his own power and oppress his subjects - but without his help, everyone will die. Or the PCs must face an infernal foe, but the only available way to take him down is to imbue themselves with demonic power.",
 			"",
@@ -254,7 +254,7 @@
 		"subtitle": "Removing Alignment",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/100}",
+			"‹SOURCE Pathfinder Unchained/100›",
 			"",
 			"When you use the loyalties system to build a character, whether a PC or an NPC, decide on three loyalties. These can represent ideals, people, organizations, or anything else to which the character is loyal, and might be as abstract as \"my honor\" or as concrete as \"my beloved mother.\" Rank these loyalties from strongest to weakest. One easy way to decide the order is to ask yourself what your character would do if these loyalties came into conflict. For a more simplified game, you could use one or two loyalties. These loyalties then replace alignment as the standard by which characters' actions are measured.",
 			"",
@@ -275,7 +275,7 @@
 		"subtitle": "Removing Alignment",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/100}",
+			"‹SOURCE Pathfinder Unchained/100›",
 			"",
 			"Certain classes depend on alignment features. Below is a list of changes you'll need to make to the classes from the Pathfinder RPG Core Rulebook if you decide not to use alignment - you can use these as a guideline to change other classes as well. These assume that you've replaced the default alignment system with the aligned loyalties option outlined below under Creatures, Spells, and Effects - if you have gone further and removed even these basic alignment elements (as in the subjective morality option), then ignore all references to loyalty restrictions in the classes below.",
 			"",
@@ -287,7 +287,7 @@
 			"",
 			"@HL[Monk:] Remove the alignment restriction. A monk who ever has a loyalty to chaos, imbalance, or closely related concepts becomes an ex-monk for as long as he has those loyalties.",
 			"",
-			"@HL[Paladin:] Remove the class's alignment restriction. The paladin's code of conduct becomes \"A paladin's code requires that she respect legitimate authority, act with honor (not lying, not cheating, not using poison, and so forth), help those in need (provided they do not use the help in a way that betrays any of the paladin's loyalties), and punish those who harm or threaten innocents.\" Remove the Associates section under the code of conduct. A paladin must have a loyalty to the concept of good, and most paladins also have loyalty to a deity. For changes to the paladin's {spell/detect evil} ability, see the Creatures, Spells, and Effects section, below. Creatures whose loyalties are in opposition to the paladin's gain no benefit from the paladin's aura of justice ability.",
+			"@HL[Paladin:] Remove the class's alignment restriction. The paladin's code of conduct becomes \"A paladin's code requires that she respect legitimate authority, act with honor (not lying, not cheating, not using poison, and so forth), help those in need (provided they do not use the help in a way that betrays any of the paladin's loyalties), and punish those who harm or threaten innocents.\" Remove the Associates section under the code of conduct. A paladin must have a loyalty to the concept of good, and most paladins also have loyalty to a deity. For changes to the paladin's ‹spell/detect evil› ability, see the Creatures, Spells, and Effects section, below. Creatures whose loyalties are in opposition to the paladin's gain no benefit from the paladin's aura of justice ability.",
 			"",
 			"The paladin's smite evil ability works against any foe whose loyalties are directly contrary to the paladin's highest loyalty. She can also recover one use of smite if she accidentally smites an invalid target. She can do this a number of times per day equal to her maximum uses per day of smite. This means the paladin isn't punished for having to guess, but she also can't use her smite class feature on every opponent as a de facto loyalty detector. If the paladin's highest loyalty is to good, she can smite foes with a loyalty to evil, but if her highest loyalty is to her king, her smite might instead apply to foes with loyalties to the jealous baron's rebellion. The GM has the final say on how the ability works, since only the GM knows the NPCs' true loyalties - a mercenary who works for a cause might not have a loyalty to that cause, for example. The GM can decide to simply have smite work only on foes with a loyalty to evil, or to require the paladin's highest loyalty be to the concept of good."
 		],
@@ -306,19 +306,19 @@
 		"subtitle": "Removing Alignment",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/100}",
+			"‹SOURCE Pathfinder Unchained/100›",
 			"",
-			"Many spells and effects rely on alignment, such as {spell/detect evil}, {magic-enh/holy} weapons, and {spell/blasphemy}. Below are five suggested options for dealing with these abilities.",
+			"Many spells and effects rely on alignment, such as ‹spell/detect evil›, ‹magic-enh/holy› weapons, and ‹spell/blasphemy›. Below are five suggested options for dealing with these abilities.",
 			"",
-			"@HL[Full Removal:] You can remove alignment-based spells and effects entirely. Consider replacing monster spell-like abilities with others of similar power. You'll need to replace other abilities that affect creatures of particular alignments (such as the heavenly fire ability of a sorcerer with the {sorcbloodline/celestial/ bloodline}) or restrict character options to avoid such abilities.",
+			"@HL[Full Removal:] You can remove alignment-based spells and effects entirely. Consider replacing monster spell-like abilities with others of similar power. You'll need to replace other abilities that affect creatures of particular alignments (such as the heavenly fire ability of a sorcerer with the ‹sorcbloodline/celestial« bloodline›) or restrict character options to avoid such abilities.",
 			"",
 			"@HL[Aligned Loyalties:] You can allow alignment-based effects to instead apply to characters who have loyalties to the concepts of chaos, evil, good, or law (or any concept close enough).",
 			"",
 			"@HL[Outsiders Only:] You can keep the alignment subtypes for outsiders and allow alignment-based effects to apply only to them. In this style of game, mortals live in a world with shades of gray, but true evil does still exist in the multiverse in the hearts of daemons, demons, devils, and the other evil outsiders.",
 			"",
-			"@HL[Radiant and Shadow:] You can instead have alignment-based effects apply to everyone, or nearly everyone. Remove the alignments and replace \"good\" and \"evil\" with stand-ins that lack moral implications, such as \"radiant\" and \"shadow.\" These are then treated as simply two more forms of energy that exist in the world, and any creature can wield a weapon that deals radiant or shadow damage. You'll need to make appropriate changes, such as changing DR 5/good to DR 5/radiant, making {magic-enh/unholy} weapons shadow weapons, and so on. Creatures that were once strongly defined by their alignment become more unpredictable. Maybe some angels are just as corrupt as devils, despite their celestial forms, and the PCs must team up with a noble demon and wield shadow weapons to defeat their foe. You can choose to grant certain creatures immunity; for instance, perhaps angels don't take radiant damage from radiant weapons or radiant smite, the stand-ins for holy weapons and {spell/holy smite}.",
+			"@HL[Radiant and Shadow:] You can instead have alignment-based effects apply to everyone, or nearly everyone. Remove the alignments and replace \"good\" and \"evil\" with stand-ins that lack moral implications, such as \"radiant\" and \"shadow.\" These are then treated as simply two more forms of energy that exist in the world, and any creature can wield a weapon that deals radiant or shadow damage. You'll need to make appropriate changes, such as changing DR 5/good to DR 5/radiant, making ‹magic-enh/unholy› weapons shadow weapons, and so on. Creatures that were once strongly defined by their alignment become more unpredictable. Maybe some angels are just as corrupt as devils, despite their celestial forms, and the PCs must team up with a noble demon and wield shadow weapons to defeat their foe. You can choose to grant certain creatures immunity; for instance, perhaps angels don't take radiant damage from radiant weapons or radiant smite, the stand-ins for holy weapons and ‹spell/holy smite›.",
 			"",
-			"@HL[Subjective Morality:] You can make your world extremely complex by replacing all alignment-based effects with subjective morality based on loyalties. In this kind of game, everyone is the hero of his own story, and the only alignment-based items and spells that exist are the ones named after the good alignment (such as holy weapons and {spell/holy word}) plus {spell/detect evil}. However, these effects apply not to good in the usual sense, but instead depend on the loyalties of their users. When someone uses *detect evil,* it detects others who have loyalties that oppose the caster's. When a character wields a holy weapon, it deals extra damage to those with conflicting loyalties, and so on. It's up to the GM to decide when loyalties conflict. For instance, if a magus decides that his primary loyalty is to himself, he could not reasonably claim that everything that ever attacks him has a conflicting loyalty, but an enemy who constantly abused him in the past would have a conflicting loyalty. Against this enemy, the magus's holy attacks would strike true. This world might even do away with the idea of loyalties to the concept of good and allow paladins and antipaladins alike to use the paladin class and smite each other. Since even outsiders no longer have an alignment subtype, you'll need to add other subtypes to the list of choices for abilities such as {magic-enh/bane} or a ranger's favored enemy class feature. This covers subtypes such as demon or devil, but some outsiders have no non-alignment subtype. If you want such creatures to be subject to these abilities, you could lump them together under a new subtype (such as \"independent\"), or add subtypes on a case-by-case basis - the astral leviathan might have the \"astral\" subtype, for example."
+			"@HL[Subjective Morality:] You can make your world extremely complex by replacing all alignment-based effects with subjective morality based on loyalties. In this kind of game, everyone is the hero of his own story, and the only alignment-based items and spells that exist are the ones named after the good alignment (such as holy weapons and ‹spell/holy word›) plus ‹spell/detect evil›. However, these effects apply not to good in the usual sense, but instead depend on the loyalties of their users. When someone uses *detect evil,* it detects others who have loyalties that oppose the caster's. When a character wields a holy weapon, it deals extra damage to those with conflicting loyalties, and so on. It's up to the GM to decide when loyalties conflict. For instance, if a magus decides that his primary loyalty is to himself, he could not reasonably claim that everything that ever attacks him has a conflicting loyalty, but an enemy who constantly abused him in the past would have a conflicting loyalty. Against this enemy, the magus's holy attacks would strike true. This world might even do away with the idea of loyalties to the concept of good and allow paladins and antipaladins alike to use the paladin class and smite each other. Since even outsiders no longer have an alignment subtype, you'll need to add other subtypes to the list of choices for abilities such as ‹magic-enh/bane› or a ranger's favored enemy class feature. This covers subtypes such as demon or devil, but some outsiders have no non-alignment subtype. If you want such creatures to be subject to these abilities, you could lump them together under a new subtype (such as \"independent\"), or add subtypes on a case-by-case basis - the astral leviathan might have the \"astral\" subtype, for example."
 		],
 		"parent_topics": [
 			"optional_alignment_changes",

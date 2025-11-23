@@ -5,15 +5,15 @@
 		"description": [
 			"## Throne of Pleasing Mien",
 			"",
-			"{SOURCE Heroes of the High Court/31}  ",
+			"‹SOURCE Heroes of the High Court/31›  ",
 			"**Aura** moderate abjuration and enchantment; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 350 lbs.",
 			"",
-			"This beautiful throne is delicately crafted from pale stone carved with images of dancing {monster/nymph/s} and frolicking {monster/satyr/s}. A throne of pleasing mien imparts its continuous *heroism* effect to anyone seated upon it. A creature that bows or otherwise offers fealty to anyone sitting upon the throne (regardless of whether the person is a rightful ruler or not) gains a +2 circumstance bonus on Charisma-based skill checks and a +1 morale bonus on Will saving throws for 24 hours.",
+			"This beautiful throne is delicately crafted from pale stone carved with images of dancing ‹monster/nymph«s› and frolicking ‹monster/satyr«s›. A throne of pleasing mien imparts its continuous *heroism* effect to anyone seated upon it. A creature that bows or otherwise offers fealty to anyone sitting upon the throne (regardless of whether the person is a rightful ruler or not) gains a +2 circumstance bonus on Charisma-based skill checks and a +1 morale bonus on Will saving throws for 24 hours.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor}, {spell/heroism}, {spell/resistance}; **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/eagle's splendor›, ‹spell/heroism›, ‹spell/resistance›; **Cost** 4,000 gp"
 		]
 	},
 	"throne_of_fetters": {
@@ -22,7 +22,7 @@
 		"description": [
 			"## Throne of Fetters",
 			"",
-			"{SOURCE Heroes of the High Court/31}  ",
+			"‹SOURCE Heroes of the High Court/31›  ",
 			"**Aura** moderate conjuration and enchantment; **CL** 10th  ",
 			"**Slot** none; **Price** 16,000 gp; **Weight** 500 lbs.",
 			"",
@@ -30,7 +30,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/bear's endurance}, {spell/freedom of movement}, {spell/heroism}; **Cost** 8,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/bear's endurance›, ‹spell/freedom of movement›, ‹spell/heroism›; **Cost** 8,000 gp"
 		]
 	},
 	"throne_of_the_ardent_defense": {
@@ -39,7 +39,7 @@
 		"description": [
 			"## Throne of the Ardent Defense",
 			"",
-			"{SOURCE Heroes of the High Court/31}  ",
+			"‹SOURCE Heroes of the High Court/31›  ",
 			"**Aura** moderate abjuration and enchantment; **CL** 10th  ",
 			"**Slot** none; **Price** 16,000 gp; **Weight** 350 lbs.",
 			"",
@@ -47,7 +47,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/heroism}, {spell/shield other}; **Cost** 8,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/heroism›, ‹spell/shield other›; **Cost** 8,000 gp"
 		]
 	}
 }

@@ -13,14 +13,14 @@
 		"description": [
 			"## Armor Modification",
 			"",
-			"{SOURCE Ultimate Magic/113}  ",
+			"‹SOURCE Ultimate Magic/113›  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
 			"",
-			"This modification adds an enhancement bonus to the construct's natural armor bonus or adds a magic armor property. The cost for magical enhancements equals the cost for creating magic armor as described in {rule/Magic Armor}."
+			"This modification adds an enhancement bonus to the construct's natural armor bonus or adds a magic armor property. The cost for magical enhancements equals the cost for creating magic armor as described in ‹rule/Magic Armor›."
 		]
 	},
 	"hit_dice_modification": {
@@ -29,14 +29,14 @@
 		"description": [
 			"## Hit Dice Modification",
 			"",
-			"{SOURCE Ultimate Magic/113}  ",
+			"‹SOURCE Ultimate Magic/113›  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
 			"",
-			"Hit Dice represent the overall strength and power of a construct. They affect a number of subsequent abilities, including hit points, saving throws, and base attacks. Determine the effects of a Hit Dice modification using the rules for {rule/step_3<adding creature| Hit Dice}. Because a construct's size is limited, a Hit Dice modification cannot increase its size. Therefore Hit Dice modification can never increase the base construct's Hit Dice beyond 50% of its total HD. Some constructs have a defined cost for increasing Hit Dice. To calculate the cost per Hit Die of other constructs, divide the construct's construction cost by its existing Hit Dice."
+			"Hit Dice represent the overall strength and power of a construct. They affect a number of subsequent abilities, including hit points, saving throws, and base attacks. Determine the effects of a Hit Dice modification using the rules for ‹rule/step_3>adding creature» Hit Dice›. Because a construct's size is limited, a Hit Dice modification cannot increase its size. Therefore Hit Dice modification can never increase the base construct's Hit Dice beyond 50% of its total HD. Some constructs have a defined cost for increasing Hit Dice. To calculate the cost per Hit Die of other constructs, divide the construct's construction cost by its existing Hit Dice."
 		]
 	},
 	"movement_modification": {
@@ -45,7 +45,7 @@
 		"description": [
 			"## Movement Modification",
 			"",
-			"{SOURCE Construct Handbook/7}  ",
+			"‹SOURCE Construct Handbook/7›  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
@@ -63,14 +63,14 @@
 		"description": [
 			"## Resistances",
 			"",
-			"{SOURCE Construct Handbook/7}  ",
+			"‹SOURCE Construct Handbook/7›  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
 			"",
-			"This modification grants resistances to a construct or improves existing resistances. The construct gains energy resistance 5 to one of the following energy types: acid, cold, electricity, or fire. This base resistance costs 4,000 gp. This modification can also improve resistance to the above energy types, up to a total equal to double the original value or 15, whichever is lower. Improving energy resistance in this way costs 6,000 gp for every increment of 5 by which the resistance is increased. Constructs with vulnerability to one of the above energy types, such as an {monster/ice golem/'s} vulnerability to fire, cannot gain resistance to that energy type with this modification."
+			"This modification grants resistances to a construct or improves existing resistances. The construct gains energy resistance 5 to one of the following energy types: acid, cold, electricity, or fire. This base resistance costs 4,000 gp. This modification can also improve resistance to the above energy types, up to a total equal to double the original value or 15, whichever is lower. Improving energy resistance in this way costs 6,000 gp for every increment of 5 by which the resistance is increased. Constructs with vulnerability to one of the above energy types, such as an ‹monster/ice golem«'s› vulnerability to fire, cannot gain resistance to that energy type with this modification."
 		]
 	},
 	"sense_modifications": {
@@ -79,14 +79,14 @@
 		"description": [
 			"## Sense Modifications",
 			"",
-			"{SOURCE Construct Handbook/8}  ",
+			"‹SOURCE Construct Handbook/8›  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
 			"",
-			"This modification improves the construct's existing senses. This modification can improve a construct's darkvision, extending the range of that darkvision by an additional 30 feet, up to a total range of 120 feet. Each improvement costs 2,500 gp. This modification can also provide {umr/blindsense} and {umr/blindsight} to a construct. Blindsense can be added at a cost of 4,000 gp per 30 feet of blindsense, up to a total of 60 feet of blindsense. Blindsight can be added to a construct with blindsense at a cost of 7,500 gp per 15 feet of blindsight, up to a total of 30 feet of blindsight."
+			"This modification improves the construct's existing senses. This modification can improve a construct's darkvision, extending the range of that darkvision by an additional 30 feet, up to a total range of 120 feet. Each improvement costs 2,500 gp. This modification can also provide ‹umr/blindsense› and ‹umr/blindsight› to a construct. Blindsense can be added at a cost of 4,000 gp per 30 feet of blindsense, up to a total of 60 feet of blindsense. Blindsight can be added to a construct with blindsense at a cost of 7,500 gp per 15 feet of blindsight, up to a total of 30 feet of blindsight."
 		]
 	},
 	"spell_like_ability_modification": {
@@ -95,14 +95,14 @@
 		"description": [
 			"## Spell-Like Ability Modification",
 			"",
-			"{SOURCE Construct Handbook/8}  ",
+			"‹SOURCE Construct Handbook/8›  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
 			"",
-			"This modification allows a construct to cast a spell-like ability in a limited capacity. A spell-like ability chosen for this modification can be of any level, but it must be one that the construct's creator can cast. The construct can cast the selected spell-like ability once per day. Using this modification, a construct's creator can provide additional castings of the same spell-like ability by paying the cost for that spell multiple times. For example, a construct can gain the ability to cast {spell/fireball} three times per day if the creator pays for the cost of the spell-like ability three times. A construct's Hit Dice limit the total amount of spell-like abilities it can gain from this modification. A construct can gain only a number of spell levels through this modification up to a total equal to its Hit Dice. Following the above example, the construct requires at least 9 Hit Dice to cast *fireball* three times per day. The cost for adding a spell-like ability is equal to 3,000 gp per spell level of the spell. For the purposes of this cost, a 0-level spell has a spell level of 1/2."
+			"This modification allows a construct to cast a spell-like ability in a limited capacity. A spell-like ability chosen for this modification can be of any level, but it must be one that the construct's creator can cast. The construct can cast the selected spell-like ability once per day. Using this modification, a construct's creator can provide additional castings of the same spell-like ability by paying the cost for that spell multiple times. For example, a construct can gain the ability to cast ‹spell/fireball› three times per day if the creator pays for the cost of the spell-like ability three times. A construct's Hit Dice limit the total amount of spell-like abilities it can gain from this modification. A construct can gain only a number of spell levels through this modification up to a total equal to its Hit Dice. Following the above example, the construct requires at least 9 Hit Dice to cast *fireball* three times per day. The cost for adding a spell-like ability is equal to 3,000 gp per spell level of the spell. For the purposes of this cost, a 0-level spell has a spell level of 1/2."
 		]
 	},
 	"weapon_modification": {
@@ -111,14 +111,14 @@
 		"description": [
 			"## Weapon Modification",
 			"",
-			"{SOURCE Ultimate Magic/113}  ",
+			"‹SOURCE Ultimate Magic/113›  ",
 			"**Type** Basic; **Cost** See Text  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
 			"",
-			"This modification enhances a construct's physical weaponry. This process includes adding actual weapons (such as blades or spiked chains) to the physical structure of the construct or enhancing existing weapons with additional magical properties. Structural changes alter the construct's damage only. A construct is automatically considered proficient with any weapon added to its structure as a weapon modification. The cost for adding a weapon is determined by the cost of the weapon or weapon enhancement added. The cost for magical enhancements to these weapons is the same as the cost for creating magic weapons as described in {rule/Magic Weapons}. Performing a weapon modification also requires the {feat/Craft Magic Arms and Armor} feat."
+			"This modification enhances a construct's physical weaponry. This process includes adding actual weapons (such as blades or spiked chains) to the physical structure of the construct or enhancing existing weapons with additional magical properties. Structural changes alter the construct's damage only. A construct is automatically considered proficient with any weapon added to its structure as a weapon modification. The cost for adding a weapon is determined by the cost of the weapon or weapon enhancement added. The cost for magical enhancements to these weapons is the same as the cost for creating magic weapons as described in ‹rule/Magic Weapons›. Performing a weapon modification also requires the ‹feat/Craft Magic Arms and Armor› feat."
 		]
 	},
 	"ability_score_increase": {
@@ -127,7 +127,7 @@
 		"description": [
 			"## Ability Score Increase",
 			"",
-			"{SOURCE Ultimate Magic/114}  ",
+			"‹SOURCE Ultimate Magic/114›  ",
 			"**Type** Basic; **Cost** 5,000 gp  ",
 			"**Requirements** None  ",
 			"**CR Increase** None",
@@ -143,14 +143,14 @@
 		"description": [
 			"## Alarm Link",
 			"",
-			"{SOURCE Construct Handbook/8}  ",
+			"‹SOURCE Construct Handbook/8›  ",
 			"**Type** Complex; **Cost** 250 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/alarm}  ",
+			"**Requirements** ‹feat/Craft Construct›, ‹spell/alarm›  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
 			"",
-			"This modification allows a construct to alert its creator with a mental alarm. The creator sets a specific password for the construct. Any creature it encounters that does not speak the password within 1 round causes the construct to activate the mental alarm, which alerts the creator so long as the creator is within 1 mile. The mental alarm awakens the creator from nonmagical sleep but does not otherwise disturb {rule/concentration}. The creator can deactivate or reactivate a construct's alarm feature as a standard action. The maximum distance of the mental alarm can be increased by paying an additional 250 gp for each additional mile of maximum distance."
+			"This modification allows a construct to alert its creator with a mental alarm. The creator sets a specific password for the construct. Any creature it encounters that does not speak the password within 1 round causes the construct to activate the mental alarm, which alerts the creator so long as the creator is within 1 mile. The mental alarm awakens the creator from nonmagical sleep but does not otherwise disturb ‹rule/concentration›. The creator can deactivate or reactivate a construct's alarm feature as a standard action. The maximum distance of the mental alarm can be increased by paying an additional 250 gp for each additional mile of maximum distance."
 		]
 	},
 	"frost_mist_stash_shatter_stash": {
@@ -159,9 +159,9 @@
 		"description": [
 			"## Shatter Stash",
 			"",
-			"{SOURCE Ultimate Magic/115}  ",
+			"‹SOURCE Ultimate Magic/115›  ",
 			"**Type** Complex; **Cost** See below  ",
-			"**Requirements** {feat/Craft Construct}, {spell/shatter}, variable (see below)  ",
+			"**Requirements** ‹feat/Craft Construct›, ‹spell/shatter›, variable (see below)  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
@@ -172,9 +172,9 @@
 			"",
 			"::h3[Corrosive Jet Stash]{jl}",
 			"",
-			"A 15-foot {misc/burst} of corrosive liquid sprays out of the modified construct's stash. Creatures within the burst must succeed on a DC 15 Fortitude saving throw or take 2d6 points of acid damage and be nauseated for 1d4 rounds. On a successful save, the afflicted creature takes no damage but is sickened for 1 round.",
+			"A 15-foot ‹misc/burst› of corrosive liquid sprays out of the modified construct's stash. Creatures within the burst must succeed on a DC 15 Fortitude saving throw or take 2d6 points of acid damage and be nauseated for 1d4 rounds. On a successful save, the afflicted creature takes no damage but is sickened for 1 round.",
 			"",
-			"**Requirements** {spell/fireball}; **Cost** 1,200 gp",
+			"**Requirements** ‹spell/fireball›; **Cost** 1,200 gp",
 			"",
 			"::h3[Firebomb Stash]{jl}",
 			"",
@@ -186,19 +186,19 @@
 			"",
 			"A 15-foot burst of frosty mist erupts out of the modified construct's stash. Any creatures within the burst must succeed on a DC 14 Fortitude saving throw or else take 1d6 points of damage and become entangled for 1 round. A successful save halves the damage and the target does not become entangled.",
 			"",
-			"**Requirements** {spell/cone of cold}; **Cost** 1,000 gp",
+			"**Requirements** ‹spell/cone of cold›; **Cost** 1,000 gp",
 			"",
 			"::h3[Lightning Lash Stash]{jl}",
 			"",
 			"A 30-foot burst of electricity cracks out of the modified construct's stash. Those within the burst must succeed on a DC 15 Reflex saving throw or take 3d8 points of electrical damage. A successful save halves the damage.",
 			"",
-			"**Requirements** {spell/lightning bolt}; **Cost** 1,200 gp",
+			"**Requirements** ‹spell/lightning bolt›; **Cost** 1,200 gp",
 			"",
 			"::h3[Willsap Gas Stash]{jl}",
 			"",
 			"A 15-foot burst of toxic gas hisses out of this stash. Living creatures within this burst must succeed on a DC 13 Will saving throw or become confused for 1 round. This is a poison effect.",
 			"",
-			"**Requirements** {spell/stinking cloud}; **Cost** 2,000 gp"
+			"**Requirements** ‹spell/stinking cloud›; **Cost** 2,000 gp"
 		]
 	},
 	"corrosive_jet_stash_shatter_stash": {
@@ -223,14 +223,14 @@
 		"description": [
 			"## Rune Carved",
 			"",
-			"{SOURCE Ultimate Magic/115}  ",
+			"‹SOURCE Ultimate Magic/115›  ",
 			"**Type** Complex; **Cost** See below  ",
-			"**Requirements** {feat/Craft Construct}, variable (see below)  ",
+			"**Requirements** ‹feat/Craft Construct›, variable (see below)  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
 			"",
-			"This subcategory of complex modification allows a construct's creator to carve a runic spell trigger into her creation. Choose one of the following runes. The cost of the rune and any prerequisites are detailed in the rune's description. Once per day, the first time the rune is triggered, its effect occurs. As an immediate action, the creator can attempt to delay the effect until the next time it is triggered. Doing so requires that the construct be within line of sight of the creator (or for the creator to be using {spell/scrying} or {spell/greater scrying} through the {constructmod/crafter's eyes} construct modification) and that the caster make a Spellcraft check equal to 10 + the caster level of the rune's effect.",
+			"This subcategory of complex modification allows a construct's creator to carve a runic spell trigger into her creation. Choose one of the following runes. The cost of the rune and any prerequisites are detailed in the rune's description. Once per day, the first time the rune is triggered, its effect occurs. As an immediate action, the creator can attempt to delay the effect until the next time it is triggered. Doing so requires that the construct be within line of sight of the creator (or for the creator to be using ‹spell/scrying› or ‹spell/greater scrying› through the ‹constructmod/crafter's eyes› construct modification) and that the caster make a Spellcraft check equal to 10 + the caster level of the rune's effect.",
 			"",
 			"A construct can have more than one rune-carved modification, and even multiple runes of the same type. If it has multiple applications of the same rune, the first one goes off when it is first triggered, the second one goes off when the trigger happens next, and so on. Multiple runes of different types go off when first triggered, even if the different runes share similar triggers.",
 			"",
@@ -242,9 +242,9 @@
 			"",
 			"#### Trigger and Effect",
 			"",
-			"This modification is triggered the first time the modified construct takes damage. Creatures within a 20-foot-radius {misc/spread} must succeed on a DC 17 Fortitude save or suffer from wracking pains that impose a -4 penalty on attack rolls, skill checks, and ability checks for 1 minute. On a successful saving throw, the creature takes the penalties imposed by the rune for 1 round.",
+			"This modification is triggered the first time the modified construct takes damage. Creatures within a 20-foot-radius ‹misc/spread› must succeed on a DC 17 Fortitude save or suffer from wracking pains that impose a -4 penalty on attack rolls, skill checks, and ability checks for 1 minute. On a successful saving throw, the creature takes the penalties imposed by the rune for 1 round.",
 			"",
-			"**Requirements** {spell/symbol of pain}; **Cost** 18,000 gp",
+			"**Requirements** ‹spell/symbol of pain›; **Cost** 18,000 gp",
 			"",
 			"::h3[Rune of Imprisonment]{jl}",
 			"",
@@ -256,7 +256,7 @@
 			"",
 			"While a creature is trapped within the gem, the gem is vulnerable to critical hits; if an attacker confirms a critical hit, the construct takes damage and the gem is destroyed, releasing the entrapped creature into a space adjacent to the construct. The broken gem must then be replaced before the rune of imprisonment can function again.",
 			"",
-			"**Requirements** {spell/trap the soul}, gem worth 20,000 gp to serve as the rune's focus; **Cost** 57,600 gp",
+			"**Requirements** ‹spell/trap the soul›, gem worth 20,000 gp to serve as the rune's focus; **Cost** 57,600 gp",
 			"",
 			"::h3[Rune of Lightning]{jl}",
 			"",
@@ -264,9 +264,9 @@
 			"",
 			"#### Trigger and Effect",
 			"",
-			"This rune is triggered when the modified construct is hit by a melee attack. The rune releases a 5-foot-radius {misc/burst} of electricity dealing 3d8 points of electrical damage to all creatures within the burst. A successful DC 12 Reflex saving throw halves the damage.",
+			"This rune is triggered when the modified construct is hit by a melee attack. The rune releases a 5-foot-radius ‹misc/burst› of electricity dealing 3d8 points of electrical damage to all creatures within the burst. A successful DC 12 Reflex saving throw halves the damage.",
 			"",
-			"**Requirements** {spell/shocking grasp}; **Cost** 2,000 gp",
+			"**Requirements** ‹spell/shocking grasp›; **Cost** 2,000 gp",
 			"",
 			"::h3[Rune of Shielding]{jl}",
 			"",
@@ -274,9 +274,9 @@
 			"",
 			"#### Trigger and Effect",
 			"",
-			"This rune is triggered the first time the modified construct is attacked with a melee attack, ranged attack, or {spell/magic missile}. The construct gains a +4 shield bonus to its Armor Class for 3 minutes. This is a force effect and applies against incorporeal touch attacks.",
+			"This rune is triggered the first time the modified construct is attacked with a melee attack, ranged attack, or ‹spell/magic missile›. The construct gains a +4 shield bonus to its Armor Class for 3 minutes. This is a force effect and applies against incorporeal touch attacks.",
 			"",
-			"**Requirements** {spell/shield}; **Cost** 1,200 gp",
+			"**Requirements** ‹spell/shield›; **Cost** 1,200 gp",
 			"",
 			"::h3[Rune of Terror]{jl}",
 			"",
@@ -284,9 +284,9 @@
 			"",
 			"#### Trigger and Effect",
 			"",
-			"This rune is triggered the first time a creature moves adjacent to the modified construct. The rune creates 20-foot-radius spread of necromantic energy. Creatures in the area must succeed on a DC 20 Will saving throw or become {misc/panicked} for 1d4 rounds. If the Will save succeeds, the creature is {misc/shaken} for 1 round.",
+			"This rune is triggered the first time a creature moves adjacent to the modified construct. The rune creates 20-foot-radius spread of necromantic energy. Creatures in the area must succeed on a DC 20 Will saving throw or become ‹misc/panicked› for 1d4 rounds. If the Will save succeeds, the creature is ‹misc/shaken› for 1 round.",
 			"",
-			"**Requirements** {spell/fear}; **Cost** 11,200 gp"
+			"**Requirements** ‹spell/fear›; **Cost** 11,200 gp"
 		]
 	},
 	"rune_of_lightning_rune_carved": {
@@ -311,14 +311,14 @@
 		"description": [
 			"## Self-Repair",
 			"",
-			"{SOURCE Construct Handbook/9}  ",
+			"‹SOURCE Construct Handbook/9›  ",
 			"**Type** Complex; **Cost** 1,500 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/make whole}  ",
+			"**Requirements** ‹feat/Craft Construct›, ‹spell/make whole›  ",
 			"**CR Increase** +1",
 			"",
 			"### Description",
 			"",
-			"This modification allows a construct to use some of the innate magic that powers its body to repair damage to itself. As a swift action, the construct can gain {umr/fast healing} 5. A construct can activate this fast healing for a number of rounds per day equal to half its Hit Dice (minimum 1 round). These rounds do not need to be consecutive. A construct can gain this modification multiple times. Each time, the total number of rounds per day increases by a number equal to half the construct's Hit Dice (minimum 1 round), up to a maximum equal to double the construct's Hit Dice. Constructs that already have the fast healing ability instead increase their fast healing value by 2, up to a maximum equal to double the construct's original fast healing value."
+			"This modification allows a construct to use some of the innate magic that powers its body to repair damage to itself. As a swift action, the construct can gain ‹umr/fast healing› 5. A construct can activate this fast healing for a number of rounds per day equal to half its Hit Dice (minimum 1 round). These rounds do not need to be consecutive. A construct can gain this modification multiple times. Each time, the total number of rounds per day increases by a number equal to half the construct's Hit Dice (minimum 1 round), up to a maximum equal to double the construct's Hit Dice. Constructs that already have the fast healing ability instead increase their fast healing value by 2, up to a maximum equal to double the construct's original fast healing value."
 		]
 	},
 	"self_destruct": {
@@ -327,14 +327,14 @@
 		"description": [
 			"## Self-Destruct",
 			"",
-			"{SOURCE Construct Handbook/9}  ",
+			"‹SOURCE Construct Handbook/9›  ",
 			"**Type** Complex; **Cost** 3,570 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/fireball}  ",
+			"**Requirements** ‹feat/Craft Construct›, ‹spell/fireball›  ",
 			"**CR Increase** +1",
 			"",
 			"### Description",
 			"",
-			"This modification causes a construct to explode in a shower of razor-sharp scrap and debris when it is reduced to 0 or fewer hit points. All creatures within a 10-foot {misc/burst} of the construct take a number of points of slashing damage equal to 1d6 times the construct's CR. A successful Reflex save (DC = 10 + half the construct's Hit Dice + the construct's Constitution modifier) halves this damage. If a construct already has a similar ability, such as the death burst of a {monster/clockwork golem}, the DC of the ability instead increases by 4."
+			"This modification causes a construct to explode in a shower of razor-sharp scrap and debris when it is reduced to 0 or fewer hit points. All creatures within a 10-foot ‹misc/burst› of the construct take a number of points of slashing damage equal to 1d6 times the construct's CR. A successful Reflex save (DC = 10 + half the construct's Hit Dice + the construct's Constitution modifier) halves this damage. If a construct already has a similar ability, such as the death burst of a ‹monster/clockwork golem›, the DC of the ability instead increases by 4."
 		]
 	},
 	"crafters_eyes": {
@@ -343,14 +343,14 @@
 		"description": [
 			"## Crafter's Eyes",
 			"",
-			"{SOURCE Ultimate Magic/114}  ",
+			"‹SOURCE Ultimate Magic/114›  ",
 			"**Type** Complex; **Cost** 8,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/scrying}  ",
+			"**Requirements** ‹feat/Craft Construct›, ‹spell/scrying›  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
 			"",
-			"The crafter gives her construct crystalline eyes that permit her to use a *scrying* or {spell/greater scrying} spell to see from the perspective of her creation. This modification requires the crafter also to prepare a special crystalline orb magically bonded to the eyes, which serves as her focus for the *scrying* or *greater scrying* spell. The cost of creating that focus is included in the cost of modifying the construct.",
+			"The crafter gives her construct crystalline eyes that permit her to use a *scrying* or ‹spell/greater scrying› spell to see from the perspective of her creation. This modification requires the crafter also to prepare a special crystalline orb magically bonded to the eyes, which serves as her focus for the *scrying* or *greater scrying* spell. The cost of creating that focus is included in the cost of modifying the construct.",
 			"",
 			"Unlike normal *scrying* or *greater scrying,* there is no chance of failure for viewing creatures though the sensor; the creator simply sees what the construct sees for the duration of the spell. Spells cast through the sensor still have the normal chance of operating through the construct's eyes."
 		]
@@ -361,9 +361,9 @@
 		"description": [
 			"## Construct Shelter",
 			"",
-			"{SOURCE Construct Handbook/8}  ",
+			"‹SOURCE Construct Handbook/8›  ",
 			"**Type** Complex; **Cost** 11,250 gp  ",
-			"**Requirements** {feat/Craft Construct}, {feat/Craft Wondrous Item}, {spell/mage's private sanctum}, Small or larger construct  ",
+			"**Requirements** ‹feat/Craft Construct›, ‹feat/Craft Wondrous Item›, ‹spell/mage's private sanctum›, Small or larger construct  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
@@ -379,14 +379,14 @@
 		"description": [
 			"## Construct Storage",
 			"",
-			"{SOURCE Construct Handbook/8}  ",
+			"‹SOURCE Construct Handbook/8›  ",
 			"**Type** Complex; **Cost** 11,250 gp  ",
-			"**Requirements** {feat/Craft Construct}, {feat/Craft Wondrous Item}, {spell/secret chest}, Small or larger construct  ",
+			"**Requirements** ‹feat/Craft Construct›, ‹feat/Craft Wondrous Item›, ‹spell/secret chest›, Small or larger construct  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
 			"",
-			"This modification creates an extradimensional space within the construct, allowing the creator and her allies to store objects within the construct. The construct's size determines the amount of storage available. A Small construct contains 4 cubic feet of space that can hold up to 25 pounds. This space and weight limit is doubled for each size category larger than Small, up to a total of 128 cubic feet and a weight limit of 800 pounds for a Colossal construct. The construct can retrieve any object held within this space as a swift action. Other creatures accessing this space can retrieve an object as a move action. This extradimensional space otherwise functions like a {magic-wondrous/bag of holding}."
+			"This modification creates an extradimensional space within the construct, allowing the creator and her allies to store objects within the construct. The construct's size determines the amount of storage available. A Small construct contains 4 cubic feet of space that can hold up to 25 pounds. This space and weight limit is doubled for each size category larger than Small, up to a total of 128 cubic feet and a weight limit of 800 pounds for a Colossal construct. The construct can retrieve any object held within this space as a swift action. Other creatures accessing this space can retrieve an object as a move action. This extradimensional space otherwise functions like a ‹magic-wondrous/bag of holding›."
 		]
 	},
 	"mind_link": {
@@ -395,9 +395,9 @@
 		"description": [
 			"## Mind Link",
 			"",
-			"{SOURCE Construct Handbook/9}  ",
+			"‹SOURCE Construct Handbook/9›  ",
 			"**Type** Complex; **Cost** 16,500 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/telepathy}  ",
+			"**Requirements** ‹feat/Craft Construct›, ‹spell/telepathy›  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
@@ -411,9 +411,9 @@
 		"description": [
 			"## Bioconstruct Modification",
 			"",
-			"{SOURCE Ultimate Magic/114}  ",
+			"‹SOURCE Ultimate Magic/114›  ",
 			"**Type** Complex; **Cost** 22,750 gp  ",
-			"**Requirements** {feat/Craft Construct}, {spell/regenerate}  ",
+			"**Requirements** ‹feat/Craft Construct›, ‹spell/regenerate›  ",
 			"**CR Increase** +1",
 			"",
 			"### Description",
@@ -433,16 +433,16 @@
 		"description": [
 			"## Construct Limb",
 			"",
-			"{SOURCE Ultimate Magic/114}  ",
+			"‹SOURCE Ultimate Magic/114›  ",
 			"**Type** Complex; **Cost** 27,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {feat/Craft Magic Arms and Armor}, {spell/animate objects}, Small or Tiny construct  ",
+			"**Requirements** ‹feat/Craft Construct›, ‹feat/Craft Magic Arms and Armor›, ‹spell/animate objects›, Small or Tiny construct  ",
 			"**CR Increase** None",
 			"",
 			"### Description",
 			"",
-			"This modification can be performed on a Small or Tiny construct, such as an {monster/iron cobra} or a {monster/homunculus}. The creator modifies the construct such that she can slip it over her arm and control its actions as part of her own. The construct limb retains any melee attacks that the construct has, and the creator can use special attacks as if she were the construct (using the construct's attack statistics and effects), but treat the creator as the creature making attacks for the purpose of determining attacks of opportunity and other actions that could be triggered by an attack made by the creator.",
+			"This modification can be performed on a Small or Tiny construct, such as an ‹monster/iron cobra› or a ‹monster/homunculus›. The creator modifies the construct such that she can slip it over her arm and control its actions as part of her own. The construct limb retains any melee attacks that the construct has, and the creator can use special attacks as if she were the construct (using the construct's attack statistics and effects), but treat the creator as the creature making attacks for the purpose of determining attacks of opportunity and other actions that could be triggered by an attack made by the creator.",
 			"",
-			"The limb also provides the wearer with limited protection in combat, roughly equivalent to that of a {eq-armor/heavy steel shield}. The wearer is considered proficient in this shield. The wearer retains the remainder of her abilities.",
+			"The limb also provides the wearer with limited protection in combat, roughly equivalent to that of a ‹eq-armor/heavy steel shield›. The wearer is considered proficient in this shield. The wearer retains the remainder of her abilities.",
 			"",
 			"A construct limb counts as a heavy steel shield for purposes of determining AC, weight, Dexterity modifiers to AC, and chance of arcane spell failure."
 		]
@@ -453,16 +453,16 @@
 		"description": [
 			"## Construct Armor",
 			"",
-			"{SOURCE Ultimate Magic/114}  ",
+			"‹SOURCE Ultimate Magic/114›  ",
 			"**Type** Complex; **Cost** 35,000 gp  ",
-			"**Requirements** {feat/Craft Construct}, {feat/Craft Magic Arms and Armor}, {spell/animate objects}, the construct modified must be the same size as the creator  ",
+			"**Requirements** ‹feat/Craft Construct›, ‹feat/Craft Magic Arms and Armor›, ‹spell/animate objects›, the construct modified must be the same size as the creator  ",
 			"**CR Increase** +1",
 			"",
 			"### Description",
 			"",
-			"This modification allows the construct to be worn like armor by its creator. So long as the creator wears it, the construct performs no independent actions, remaining under the control of the creator, and any attacks directed at the wearer damage the construct. When a construct is destroyed while serving as armor, the wearer loses all the benefits, but retains all the hindrances until the armor is removed, which takes the same amount of time that {rule/getting_into_and_out_of<removing breastplate| armor} does. If the construct is still active, the creator can order the removal of the armor with a swift action, at which point the construct leaves the creator's space and enters a space adjacent to the creator. Donning construct armor takes a full-round action if the construct is still active. The creator cannot don a construct with this modification if the construct has been destroyed.",
+			"This modification allows the construct to be worn like armor by its creator. So long as the creator wears it, the construct performs no independent actions, remaining under the control of the creator, and any attacks directed at the wearer damage the construct. When a construct is destroyed while serving as armor, the wearer loses all the benefits, but retains all the hindrances until the armor is removed, which takes the same amount of time that ‹rule/getting_into_and_out_of>removing breastplate» armor› does. If the construct is still active, the creator can order the removal of the armor with a swift action, at which point the construct leaves the creator's space and enters a space adjacent to the creator. Donning construct armor takes a full-round action if the construct is still active. The creator cannot don a construct with this modification if the construct has been destroyed.",
 			"",
-			"The construct's wearer retains his base attacks and saves. Construct armor counts as {eq-armor/breastplate} armor for purposes of determining AC, weight, Dexterity modifiers to AC, and chance of arcane spell failure."
+			"The construct's wearer retains his base attacks and saves. Construct armor counts as ‹eq-armor/breastplate› armor for purposes of determining AC, weight, Dexterity modifiers to AC, and chance of arcane spell failure."
 		]
 	}
 }

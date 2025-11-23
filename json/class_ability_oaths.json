@@ -13,10 +13,10 @@
 		"description": [
 			"## Oath against Chaos",
 			"",
-			"{SOURCE Inner Sea Combat/15}  ",
-			"Despite the seemingly inherent contradiction, the militant {rule/Hellknights} of Cheliax count a number of paladins among their ranks, especially the {hkorder/Order of the Godclaw}. Typically these paladins reconcile their allegiance to the Hellknights by dedication to the rule of law above all other things.",
+			"‹SOURCE Inner Sea Combat/15›  ",
+			"Despite the seemingly inherent contradiction, the militant ‹rule/Hellknights› of Cheliax count a number of paladins among their ranks, especially the ‹hkorder/Order of the Godclaw›. Typically these paladins reconcile their allegiance to the Hellknights by dedication to the rule of law above all other things.",
 			"",
-			"**Detect Chaos (Su):** This ability works like the standard paladin ability to detect evil, except as {spell/detect chaos} instead of detect evil. This ability replaces detect evil.",
+			"**Detect Chaos (Su):** This ability works like the standard paladin ability to detect evil, except as ‹spell/detect chaos› instead of detect evil. This ability replaces detect evil.",
 			"",
 			"**Smite Chaos (Su):** This ability works like the standard paladin ability to smite evil, except the paladin gains bonuses against targets with chaotic alignments instead of evil. The paladin deals additional damage against outsiders with the chaotic subtype, chaotic-aligned dragons, and aberrations, instead of against evil outsiders, evil dragons, and undead. This ability replaces smite evil.",
 			"",
@@ -24,7 +24,7 @@
 			"",
 			"**Code of Conduct:** Spread the order of law wherever you go, so long as the law is just; do not serve as a tool of tyranny. Fight vigilantly the servants of chaos.",
 			"",
-			"**Oath Spells:** 1st-{spell/command}; 2nd-{spell/calm emotions}; 3rd-{spell/suggestion}; 4th-{spell/order's wrath}."
+			"**Oath Spells:** 1st-‹spell/command›; 2nd-‹spell/calm emotions›; 3rd-‹spell/suggestion›; 4th-‹spell/order's wrath›."
 		]
 	},
 	"corruption": {
@@ -33,7 +33,7 @@
 		"description": [
 			"## Oath against Corruption",
 			"",
-			"{SOURCE Ultimate Magic/60}  ",
+			"‹SOURCE Ultimate Magic/60›  ",
 			"More insidious than meddling devils and more destructive than rampaging hordes are the strange alien entities that bubble up from the deep earth and the strange places beyond the sky. When a paladin takes this oath, she becomes a hunter of aberrations, protecting the common people from these bizarre threats. Often the paladin works in secret, not wanting to spread panic about her mission. Within cities they sometimes have underground bases that give access through the sewers and passages to strange vaults where the aberrant creatures live.",
 			"",
 			"**Aura of Purity (Su):** At 3rd level, you gain a +4 sacred bonus on saves against spells and effects from creatures of the aberration type. Allies within 10 feet gain a +1 sacred bonus on these saves. This ability functions only while the paladin is conscious, not if she is unconscious or dead. This ability replaces aura of courage.",
@@ -42,11 +42,11 @@
 			"",
 			"**Cast into the Void (Su):** At 20th level, a paladin becomes a conduit for the power of her god. Her DR increases to 10/evil. Whenever she uses smite evil and successfully strikes an aberration, the creature must make a Will save (DC 10 + 1/2 the paladin's level + the paladin's Charisma modifier) or be banished to oblivion. This ability does not kill the creature, but it is sent to a remote place, such as deep underground or far into space (if it is a creature native to space), and cannot return under its own power for at least 100 years.",
 			"",
-			"Whenever the paladin {ability/channel[s] positive energy} or uses lay on hands to heal a creature, she heals the maximum possible amount. This ability replaces holy champion.",
+			"Whenever the paladin ‹ability/channel«s» positive energy› or uses lay on hands to heal a creature, she heals the maximum possible amount. This ability replaces holy champion.",
 			"",
 			"**Code of Conduct:** Hunt aberrations and do not allow them to roam freely or harm others. Destroy them if you can, or banish them if you cannot.",
 			"",
-			"**Oath Spells:** 1st-{spell/true strike}; 2nd-{spell/acute senses}; 3rd-{spell/touch of idiocy}; 4th-{spell/spell immunity}."
+			"**Oath Spells:** 1st-‹spell/true strike›; 2nd-‹spell/acute senses›; 3rd-‹spell/touch of idiocy›; 4th-‹spell/spell immunity›."
 		]
 	},
 	"fiends": {
@@ -55,20 +55,20 @@
 		"description": [
 			"## Oath against Fiends",
 			"",
-			"{SOURCE Ultimate Magic/61}  ",
-			"A paladin who takes an oath against {family/demon/s}, {family/devil/s}, {family/daemon/s}, and other evil outsiders is constantly on the lookout for malicious fiendish insurgence into the world, and faces it with swift and unwavering defiance. Often she works closely with {class/inquisitor/s}, searching for signs of outsider manipulation and possession.",
+			"‹SOURCE Ultimate Magic/61›  ",
+			"A paladin who takes an oath against ‹family/demon«s›, ‹family/devil«s›, ‹family/daemon«s›, and other evil outsiders is constantly on the lookout for malicious fiendish insurgence into the world, and faces it with swift and unwavering defiance. Often she works closely with ‹class/inquisitor«s›, searching for signs of outsider manipulation and possession.",
 			"",
-			"**Anchoring Aura (Su):** At 8th level, a paladin's aura hampers extradimensional travel by evil outsiders. The aura extends 20 feet from the paladin. Evil outsiders attempting to use abilities such as {spell/dimension door}, {spell/plane shift}, or {spell/teleport} to leave or enter the aura must succeed at a Will save (DC 10 + 1/2 the paladin's level + the paladin's Charisma modifier); failure means the ability does not function, as if the outsider were affected by {spell/dimensional anchor}. The aura functions only while the paladin is conscious, not if she is unconscious or dead.",
+			"**Anchoring Aura (Su):** At 8th level, a paladin's aura hampers extradimensional travel by evil outsiders. The aura extends 20 feet from the paladin. Evil outsiders attempting to use abilities such as ‹spell/dimension door›, ‹spell/plane shift›, or ‹spell/teleport› to leave or enter the aura must succeed at a Will save (DC 10 + 1/2 the paladin's level + the paladin's Charisma modifier); failure means the ability does not function, as if the outsider were affected by ‹spell/dimensional anchor›. The aura functions only while the paladin is conscious, not if she is unconscious or dead.",
 			"",
 			"Alternatively, as an immediate action, the paladin can expend one use of her smite evil ability to target an evil outsider within 30 feet with *dimensional anchor.* A targeted *dimensional anchor* persists even if the paladin is unconscious or dead.",
 			"",
 			"This ability replaces aura of resolve.",
 			"",
-			"**Holy Vessel (Su):** At 9th level, a paladin whose divine bond is with a weapon can also use her divine bond to augment her armor or shield with enhancement bonuses, or add any of the following armor or shield properties: {magic-enh/bashing}, {magic-enh/fortification}, and {magic-enh/spell resistance}. Adding these properties consumes an amount of bonus equal to the property's cost (see the {rule/magic_<armor/ special abilities and shield special abilities tables}). She can divide her bonuses from the divine bond ability among her weapon, armor, and shield as she sees fit. This ability has no effect for a paladin whose divine bond is with a mount. This ability replaces the mercy gained at 9th level.",
+			"**Holy Vessel (Su):** At 9th level, a paladin whose divine bond is with a weapon can also use her divine bond to augment her armor or shield with enhancement bonuses, or add any of the following armor or shield properties: ‹magic-enh/bashing›, ‹magic-enh/fortification›, and ‹magic-enh/spell resistance›. Adding these properties consumes an amount of bonus equal to the property's cost (see the ‹rule/magic_>armor« special abilities and shield special abilities tables›). She can divide her bonuses from the divine bond ability among her weapon, armor, and shield as she sees fit. This ability has no effect for a paladin whose divine bond is with a mount. This ability replaces the mercy gained at 9th level.",
 			"",
 			"**Code of Conduct:** Never suffer an evil outsider to live if it is in your power to destroy it. Banish fiends you cannot kill. Purge the evil from those possessed by fiends.",
 			"",
-			"**Oath Spells:** 1st-{spell/resist energy}; 2nd-{spell/detect thoughts}; 3rd-{spell/invisibility purge}; 4th-{spell/plane shift}."
+			"**Oath Spells:** 1st-‹spell/resist energy›; 2nd-‹spell/detect thoughts›; 3rd-‹spell/invisibility purge›; 4th-‹spell/plane shift›."
 		]
 	},
 	"grotesquery": {
@@ -77,16 +77,16 @@
 		"description": [
 			"## Oath against Grotesquery",
 			"",
-			"{SOURCE Inner Sea Combat/15}  ",
-			"For paladins of the Eternal Rose, beauty is synonymous with virtue, and it is the lens through which all goodness is filtered. For champions of {faith/Shelyn}, who are aware that aesthetics is subjective, beauty is the form inviolate.",
+			"‹SOURCE Inner Sea Combat/15›  ",
+			"For paladins of the Eternal Rose, beauty is synonymous with virtue, and it is the lens through which all goodness is filtered. For champions of ‹faith/Shelyn›, who are aware that aesthetics is subjective, beauty is the form inviolate.",
 			"",
 			"**Beauty Unyielding (Su):** At 3rd level, a paladin gains spell resistance equal to 11 + her paladin level, but only against non-harmless transmutation effects. This spell resistance can be lowered as a standard action. Additionally, whenever the paladin would take Charisma damage or suffer Charisma drain, she reduces the amount of damage or drain by 1 (minimum 0). This ability replaces divine health.",
 			"",
-			"**Restore True Beauty (Su):** At 14th level, a paladin can expend two uses of her lay on hands ability to attempt to dispel any non-harmless transmutation effect on a target, as {spell/break enchantment}. Additionally, the paladin can expend two uses of her lay on hands ability to remove all of the target's temporary {rule/Charisma damage} and restore all points drained from its Charisma score, as {spell/restoration}. This ability replaces aura of faith.",
+			"**Restore True Beauty (Su):** At 14th level, a paladin can expend two uses of her lay on hands ability to attempt to dispel any non-harmless transmutation effect on a target, as ‹spell/break enchantment›. Additionally, the paladin can expend two uses of her lay on hands ability to remove all of the target's temporary ‹rule/Charisma damage› and restore all points drained from its Charisma score, as ‹spell/restoration›. This ability replaces aura of faith.",
 			"",
 			"**Code of Conduct:** Respect the innate beauty in all things, and strive to preserve it from corruption and perversion. Never willfully cause damage to crafted objects or works of art, nor cause a creature or object to be deformed in any way.",
 			"",
-			"**Oath Spells:** 1st-{spell/sanctuary}; 2nd-{spell/make whole}; 3rd-{spell/banish seeming}; 4th-{spell/true form}."
+			"**Oath Spells:** 1st-‹spell/sanctuary›; 2nd-‹spell/make whole›; 3rd-‹spell/banish seeming›; 4th-‹spell/true form›."
 		]
 	},
 	"savagery": {
@@ -95,16 +95,16 @@
 		"description": [
 			"## Oath against Savagery",
 			"",
-			"{SOURCE Ultimate Magic/61}  ",
+			"‹SOURCE Ultimate Magic/61›  ",
 			"Some paladins are champions of order, pledging to battle the hordes of goblinoids, orcs, hostile barbarians, and similar savages that nip at the heels of civilization, as well as those who gnaw on society from within, such as thieves' and assassins' guilds. More so than other paladins, those who take this oath expect to fight many creatures at once, and develop special abilities to deal with these numbers.",
 			"",
-			"**Holy Reach (Su):** At 2nd level, an oathbound paladin can expend one use of her smite evil ability to extend her natural reach by 5 feet for 1 minute. This does not stack with the {feat/Lunge} feat. This ability replaces divine grace.",
+			"**Holy Reach (Su):** At 2nd level, an oathbound paladin can expend one use of her smite evil ability to extend her natural reach by 5 feet for 1 minute. This does not stack with the ‹feat/Lunge› feat. This ability replaces divine grace.",
 			"",
-			"**Hordebreaker (Su):** At 11th level, when the paladin hits an evil humanoid with an attack of opportunity, she deals an additional 1d6 points of damage. When using holy reach, the paladin may make a number of additional attacks of opportunity per round equal to her Charisma bonus. This increase stacks with similar increases from other sources such as {feat/Combat Reflexes}. This ability replaces aura of justice.",
+			"**Hordebreaker (Su):** At 11th level, when the paladin hits an evil humanoid with an attack of opportunity, she deals an additional 1d6 points of damage. When using holy reach, the paladin may make a number of additional attacks of opportunity per round equal to her Charisma bonus. This increase stacks with similar increases from other sources such as ‹feat/Combat Reflexes›. This ability replaces aura of justice.",
 			"",
 			"**Code of Conduct:** Always heed the call of a community in danger from savages. Be the first in line to defend a settlement and the last to retreat.",
 			"",
-			"**Oath Spells:** 1st-{spell/deathwatch}; 2nd-{spell/protection from arrows}; 3rd-{spell/haste}; 4th-{spell/divine power}."
+			"**Oath Spells:** 1st-‹spell/deathwatch›; 2nd-‹spell/protection from arrows›; 3rd-‹spell/haste›; 4th-‹spell/divine power›."
 		]
 	},
 	"the_whispering_way": {
@@ -113,10 +113,10 @@
 		"description": [
 			"## Oath against the Whispering Way",
 			"",
-			"{SOURCE Divine Anthology/20}  ",
-			"The {rule/Whispering Way} is an enemy to all life in the world, and as a result many paladins feel called to contain its evil. This oath is identical to the {oath/oath against |undeath} except as noted here.",
+			"‹SOURCE Divine Anthology/20›  ",
+			"The ‹rule/Whispering Way› is an enemy to all life in the world, and as a result many paladins feel called to contain its evil. This oath is identical to the ‹oath/oath against »undeath› except as noted here.",
 			"",
-			"**Deities:** {faith/Angradd}, {faith/Arqueros}, {faith/Iomedae}, {faith/Sarenrae}, {faith/Torag}, {faith/Vildeis}.",
+			"**Deities:** ‹faith/Angradd›, ‹faith/Arqueros›, ‹faith/Iomedae›, ‹faith/Sarenrae›, ‹faith/Torag›, ‹faith/Vildeis›.",
 			"",
 			"**Aura against Necromancy (Su):** At 8th level, the paladin gains a +4 morale bonus on saves against necromancy spells and spell-like abilities. Each ally within 10 feet of her gains a +2 morale bonus on these saves. This ability functions only while the paladin is conscious, not if she is unconscious or dead.",
 			"",
@@ -131,18 +131,18 @@
 		"description": [
 			"## Oath against the Wyrm",
 			"",
-			"{SOURCE Ultimate Magic/62}  ",
-			"Few dragons see the smaller races of the world as their equals - to most, humanoids are either food or an annoyance. Some paladins swear to protect others against the predation of dragonkind. Some include dragon-blooded creatures (such as half-dragons or even sorcerers with the draconic bloodline) in their oath and team up with {class/inquisitor/s} to root out those whose ancestry carries the taint of dragon magic. Many paladins with this oath are thrill-seekers for the cause of good, channeling their divine power in ways that allow them to take on their powerful foes head on.",
+			"‹SOURCE Ultimate Magic/62›  ",
+			"Few dragons see the smaller races of the world as their equals - to most, humanoids are either food or an annoyance. Some paladins swear to protect others against the predation of dragonkind. Some include dragon-blooded creatures (such as half-dragons or even sorcerers with the draconic bloodline) in their oath and team up with ‹class/inquisitor«s› to root out those whose ancestry carries the taint of dragon magic. Many paladins with this oath are thrill-seekers for the cause of good, channeling their divine power in ways that allow them to take on their powerful foes head on.",
 			"",
-			"**Breath Evasion (Su):** At 4th level, a paladin with this oath gains {ability/evasion}, but only against the breath weapons of creatures with the dragon type. This ability replaces channel positive energy.",
+			"**Breath Evasion (Su):** At 4th level, a paladin with this oath gains ‹ability/evasion›, but only against the breath weapons of creatures with the dragon type. This ability replaces channel positive energy.",
 			"",
-			"**Divine Bond (Sp):** This works like the paladin's normal divine bond ability, except as follows. If the paladin's bond is with a weapon, she cannot use that ability to add the *brilliant energy, disruption,* or *merciful* weapon properties, but she can add the {magic-enh/bane} weapon property (but only against dragons). If the paladin's bond is with her steed, the steed gains the paladin's aura-based immunities and her aura does not affect allies. This replaces the standard divine bond ability.",
+			"**Divine Bond (Sp):** This works like the paladin's normal divine bond ability, except as follows. If the paladin's bond is with a weapon, she cannot use that ability to add the *brilliant energy, disruption,* or *merciful* weapon properties, but she can add the ‹magic-enh/bane› weapon property (but only against dragons). If the paladin's bond is with her steed, the steed gains the paladin's aura-based immunities and her aura does not affect allies. This replaces the standard divine bond ability.",
 			"",
-			"**Dragon-Slaying Strike (Su):** At 20th level, an oathbound paladin becomes a conduit of holy power. Her DR increases to 10/evil. Whenever she uses smite evil and successfully strikes a dragon, the dragon is also subject to a single-target {spell/holy word}, using her paladin level +10 as the caster level. After the banishment effect and the damage from the attack are resolved, the smite immediately ends. In addition, whenever she channels positive energy or uses lay on hands to heal a creature, she heals the maximum possible amount. This ability replaces holy champion.",
+			"**Dragon-Slaying Strike (Su):** At 20th level, an oathbound paladin becomes a conduit of holy power. Her DR increases to 10/evil. Whenever she uses smite evil and successfully strikes a dragon, the dragon is also subject to a single-target ‹spell/holy word›, using her paladin level +10 as the caster level. After the banishment effect and the damage from the attack are resolved, the smite immediately ends. In addition, whenever she channels positive energy or uses lay on hands to heal a creature, she heals the maximum possible amount. This ability replaces holy champion.",
 			"",
 			"**Code of Conduct:** Slay evil dragons, as well as other dangerous dragons whether or not they are evil. Prevent the bloodlines of other creatures from being corrupted with draconic power. Protect the innocent against the predation of dragons.",
 			"",
-			"**Oath Spells:** 1st-{spell/enlarge person}; 2nd-{spell/bear's endurance}; 3rd-{spell/fly}; 4th-{spell/stoneskin}."
+			"**Oath Spells:** 1st-‹spell/enlarge person›; 2nd-‹spell/bear's endurance›; 3rd-‹spell/fly›; 4th-‹spell/stoneskin›."
 		]
 	},
 	"undeath": {
@@ -151,12 +151,12 @@
 		"description": [
 			"## Oath against Undeath",
 			"",
-			"{SOURCE Ultimate Magic/61}  ",
+			"‹SOURCE Ultimate Magic/61›  ",
 			"A paladin with this oath vows to restore the natural state of death to any animate corpse she encounters, and destroy the undead energy in the process. While a few paladins who take this oath recognize that not all undead are evil, others are quite willing to purge neutral and good undead along with all the evil ones.",
 			"",
-			"**Detect Undead (Su):** This ability works like the standard paladin ability to detect evil, except as {spell/detect undead} instead of detect evil. This ability replaces detect evil. (But you can regain that ability through the {feat/Sin Seer} feat.)",
+			"**Detect Undead (Su):** This ability works like the standard paladin ability to detect evil, except as ‹spell/detect undead› instead of detect evil. This ability replaces detect evil. (But you can regain that ability through the ‹feat/Sin Seer› feat.)",
 			"",
-			"**Ghost Touch Aura (Su):** At 3rd level, the paladin's armor is treated as if it had the {magic-enh/ghost touch>_a} armor property. This does not affect the cost or effect of any other abilities of the armor. At 9th level, this ability also applies to the paladin's shield. This ability replaces the paladin's 3rd-level and 9th-level mercies.",
+			"**Ghost Touch Aura (Su):** At 3rd level, the paladin's armor is treated as if it had the ‹magic-enh/ghost touch<_a› armor property. This does not affect the cost or effect of any other abilities of the armor. At 9th level, this ability also applies to the paladin's shield. This ability replaces the paladin's 3rd-level and 9th-level mercies.",
 			"",
 			"**Aura of Life (Su):** At 8th level, the paladin gains a +4 morale bonus on saves against attacks that grant negative levels and saves to overcome negative levels. Each ally within 10 feet of her gains a +2 morale bonus on these saves.",
 			"",
@@ -166,7 +166,7 @@
 			"",
 			"**Code of Conduct:** Destroy all undead. Put to rest the poor souls turned against their will. Prevent the taint of undeath from spreading to the newly dead, blessing or burning the corpses as necessary.",
 			"",
-			"**Oath Spells**: 1st-{spell/sanctify corpse}; 2nd-{spell/darkvision}; 3rd-{spell/searing light}; 4th-{spell/halt undead}."
+			"**Oath Spells**: 1st-‹spell/sanctify corpse›; 2nd-‹spell/darkvision›; 3rd-‹spell/searing light›; 4th-‹spell/halt undead›."
 		]
 	},
 	"charity": {
@@ -175,16 +175,16 @@
 		"description": [
 			"## Oath of Charity",
 			"",
-			"{SOURCE Ultimate Magic/62}  ",
+			"‹SOURCE Ultimate Magic/62›  ",
 			"Charity is more than just giving money to a temple or a cause - it is about the necessity of sacrifice to help others. Those who take this oath dedicate their lives to protecting those who can't protect themselves and giving to those who are in need. They are generous to a fault, the most steadfast of friends, and give without anyone needing to ask. Paladins who take the oath of charity often turn over a fifth or more of their acquired wealth gained through adventuring to their temples or community.",
 			"",
 			"**Charitable Hands (Su):** At 2nd level, a paladin with this oath heals 50% less when she uses lay on hands on herself, but 50% more than the normal amount when she uses it to heal others. Using lay on hands to harm undead deals the normal amount of damage. This ability otherwise works like and replaces lay on hands.",
 			"",
-			"**Charitable Mercy (Su):** At 5th level, a paladin with this oath is more flexible with her mercies than other paladins. At the start of each day, a paladin with this oath can select her mercies anew from the list of available {ability/mercies}. This ability replaces divine bond.",
+			"**Charitable Mercy (Su):** At 5th level, a paladin with this oath is more flexible with her mercies than other paladins. At the start of each day, a paladin with this oath can select her mercies anew from the list of available ‹ability/mercies›. This ability replaces divine bond.",
 			"",
 			"**Code of Conduct:** Always offer help to good creatures who need it. Always offer help to the poor and destitute. (In settlements, this help is often handled by donating to charitable religious organizations, rather than the paladin being required to dole out coppers to every beggar in the street.)",
 			"",
-			"**Oath Spells:** 1st-{spell/magic stone}; 2nd-{spell/make whole}; 3rd-{spell/magic vestment}; 4th-{spell/imbue with spell ability}."
+			"**Oath Spells:** 1st-‹spell/magic stone›; 2nd-‹spell/make whole›; 3rd-‹spell/magic vestment›; 4th-‹spell/imbue with spell ability›."
 		]
 	},
 	"chastity": {
@@ -193,16 +193,16 @@
 		"description": [
 			"## Oath of Chastity",
 			"",
-			"{SOURCE Ultimate Magic/62}  ",
+			"‹SOURCE Ultimate Magic/62›  ",
 			"A chaste paladin proves her purity by way of her action and her abstinence from romantic activities. Many believe that this oath is only about sex, but it is really an oath about the romantic notion that a single person could be more important than all the evils facing the world - it is this perceived selfishness that the bearer of the Oath of Chastity strives to reject. In doing so, she gains purifying power.",
 			"",
 			"**Pure of Mind (Su):** At 2nd level, the paladin gains a +4 sacred bonus on saves against charm effects and figments, and gains a bonus equal to her Charisma modifier on Will saving throws. This ability replaces divine grace.",
 			"",
-			"**Pure of Body (Su):** Upon reaching 8th level, the paladin has a 50% chance to turn any critical hit or sneak attack against her into a normal hit, as if she were wearing {magic-enh/fortification} armor. This ability replaces aura of resolve.",
+			"**Pure of Body (Su):** Upon reaching 8th level, the paladin has a 50% chance to turn any critical hit or sneak attack against her into a normal hit, as if she were wearing ‹magic-enh/fortification› armor. This ability replaces aura of resolve.",
 			"",
 			"**Code of Conduct:** Never engage in a romantic relationship or a sexual act.",
 			"",
-			"**Oath Spells:** 1st-{spell/remove fear}; 2nd-{spell/confess}; 3rd-{spell/heroism}; 4th-{spell/freedom of movement}."
+			"**Oath Spells:** 1st-‹spell/remove fear›; 2nd-‹spell/confess›; 3rd-‹spell/heroism›; 4th-‹spell/freedom of movement›."
 		]
 	},
 	"loyalty": {
@@ -211,7 +211,7 @@
 		"description": [
 			"## Oath of Loyalty",
 			"",
-			"{SOURCE Ultimate Magic/63}  ",
+			"‹SOURCE Ultimate Magic/63›  ",
 			"To most paladins, their word is everything. When they say something, it will be done. Those who take this oath put that ideal to the test every day. The oathbound paladin's word is a promise, a sacred bond, and also greater power in the cause of law and good. She is careful with her words, lest she agree to something she cannot fully support.",
 			"",
 			"**Loyal Oath (Su):** Starting at 1st level, once per day as a swift action, an oathbound paladin can choose a willing creature within line of sight as the target of her loyal oath. When the paladin is adjacent to the target of her loyal oath, she grants the target a sacred bonus on saving throws and to Armor Class equal to the paladin's Charisma bonus. The loyal oath lasts 1 minute, or until the paladin dismisses it (a free action) or discharges it (see below), whichever comes first.",
@@ -222,7 +222,7 @@
 			"",
 			"**Code of Conduct:** Keep all promises. Never make an oath or promise lightly. Never go back on an oath.",
 			"",
-			"**Oath Spells:** 1st-{spell/wrath}; 2nd-{spell/aid}; 3rd-{spell/helping hand}; 4th-{spell/sending}."
+			"**Oath Spells:** 1st-‹spell/wrath›; 2nd-‹spell/aid›; 3rd-‹spell/helping hand›; 4th-‹spell/sending›."
 		]
 	},
 	"the_mendevian_crusade": {
@@ -231,18 +231,18 @@
 		"description": [
 			"## Oath of the Mendevian Crusade",
 			"",
-			"{SOURCE Divine Anthology/20}  ",
+			"‹SOURCE Divine Anthology/20›  ",
 			"The Worldwound threatens all of Golarion with the uttermost depths of depravity, and so paladins across the world stand firm against it. This oath is identical to the oath against fiends except as noted here.",
 			"",
-			"**Deities:** {faith/Angradd}, {faith/Arqueros}, {faith/Iomedae}, {faith/Kols}, {faith/Ragathiel}, {faith/Sarenrae}, {faith/Torag}, {faith/Vildeis}.",
+			"**Deities:** ‹faith/Angradd›, ‹faith/Arqueros›, ‹faith/Iomedae›, ‹faith/Kols›, ‹faith/Ragathiel›, ‹faith/Sarenrae›, ‹faith/Torag›, ‹faith/Vildeis›.",
 			"",
-			"**Divine Bond (Su):** At 5th level, the paladin adds evil outsider {magic-enh/bane} to the list of weapon special abilities that can be added to her weapon and removes {magic-enh/flaming} from the list.",
+			"**Divine Bond (Su):** At 5th level, the paladin adds evil outsider ‹magic-enh/bane› to the list of weapon special abilities that can be added to her weapon and removes ‹magic-enh/flaming› from the list.",
 			"",
 			"This ability alters divine bond.",
 			"",
 			"**Mercy (Su):** At 12th level, the paladin can choose the following mercy.",
 			"",
-			">*Possessed:* If the subject is affected by {spell/dominate person}, possessed, or otherwise magically controlled by an evil outsider, this mercy grants the victim a new saving throw against the effect to end the effect at once.",
+			">*Possessed:* If the subject is affected by ‹spell/dominate person›, possessed, or otherwise magically controlled by an evil outsider, this mercy grants the victim a new saving throw against the effect to end the effect at once.",
 			"",
 			"**Code of Conduct:** Oppose demonic influence in all its forms and seek a way to close the Worldwound."
 		]
@@ -253,14 +253,14 @@
 		"description": [
 			"## Oath of the People's Council",
 			"",
-			"{SOURCE Divine Anthology/20}  ",
-			"The {rule/Eagle Knights} and the people of Andoran hold their elected officials to extremely high standards of conduct. Paladins swearing the oath of the People's Council serve the common good by finding and thwarting those who abuse their authority. Many seek specifically to emulate Talmandor, the agathion patron of Andoran.",
+			"‹SOURCE Divine Anthology/20›  ",
+			"The ‹rule/Eagle Knights› and the people of Andoran hold their elected officials to extremely high standards of conduct. Paladins swearing the oath of the People's Council serve the common good by finding and thwarting those who abuse their authority. Many seek specifically to emulate Talmandor, the agathion patron of Andoran.",
 			"",
-			"**Deities:** {faith/Abadar}, {faith/Erastil}, {faith/Iomedae}, {faith/Ragathiel}, {faith/Shelyn}, {faith/Vildeis}.",
+			"**Deities:** ‹faith/Abadar›, ‹faith/Erastil›, ‹faith/Iomedae›, ‹faith/Ragathiel›, ‹faith/Shelyn›, ‹faith/Vildeis›.",
 			"",
 			"**Skills:** The oathbound paladin's class skills include Linguistics, Perception, and Perform, but not Handle Animal, Ride, or Spellcraft.",
 			"",
-			"**Stirring Monologue (Su):** At 1st level, the paladin can deliver a stirring monologue on the ideals of justice and fairness, motivating allies and persuading others. This functions as {ability/bardic performance} as per a bard of her paladin level using Perform (oratory). All the effects are language-dependent even if they would not normally be. The paladin gains the following performances at the indicated levels: {performance/inspire courage} (1st), {performance/fascinate} (4th), {performance/inspire competence} (5th), {performance/suggestion} (7th), {performance/dirge of doom} (10th), {performance/inspire greatness} (13th), {performance/frightening tune} (16th), and {performance/mass suggestion} (19th).",
+			"**Stirring Monologue (Su):** At 1st level, the paladin can deliver a stirring monologue on the ideals of justice and fairness, motivating allies and persuading others. This functions as ‹ability/bardic performance› as per a bard of her paladin level using Perform (oratory). All the effects are language-dependent even if they would not normally be. The paladin gains the following performances at the indicated levels: ‹performance/inspire courage› (1st), ‹performance/fascinate› (4th), ‹performance/inspire competence› (5th), ‹performance/suggestion› (7th), ‹performance/dirge of doom› (10th), ‹performance/inspire greatness› (13th), ‹performance/frightening tune› (16th), and ‹performance/mass suggestion› (19th).",
 			"",
 			"This ability replaces smite evil.",
 			"",
@@ -274,7 +274,7 @@
 			"",
 			"**Code of Conduct:** Know the laws of Andoran and do not exempt authorities from the application of the law.",
 			"",
-			"**Oath Spells:** 1st-{spell/comprehend languages}; 2nd-{spell/locate object}; 3rd-{spell/tongues}; 4th-{spell/true seeing}."
+			"**Oath Spells:** 1st-‹spell/comprehend languages›; 2nd-‹spell/locate object›; 3rd-‹spell/tongues›; 4th-‹spell/true seeing›."
 		]
 	},
 	"the_skyseeker": {
@@ -283,20 +283,20 @@
 		"description": [
 			"## Oath of the Skyseeker",
 			"",
-			"{SOURCE Divine Anthology/21}  ",
+			"‹SOURCE Divine Anthology/21›  ",
 			"The dwarven people look to the legendary Sky Citadels as beacons of dwarven culture. Paladins with the oath of the skyseeker swear to defend those citadels their people retain and to help reclaim those the dwarves have lost, hoping to one day rebuild them on the greatest, most honorable ideals of the dwarven gods.",
 			"",
-			"**Deities:** {faith/Angradd}, {faith/Folgrit}, {faith/Kols}, {faith/Torag}, {faith/Trudd}.",
+			"**Deities:** ‹faith/Angradd›, ‹faith/Folgrit›, ‹faith/Kols›, ‹faith/Torag›, ‹faith/Trudd›.",
 			"",
 			"**Smite Evil Hordes (Su):** When the paladin or an ally defeats the target of the paladin's smite evil ability, the paladin can change the target of her smite to a different target within 30 feet of the previously defeated target without using an action. The new target must be of the same creature type and subtype as the previous target. If no applicable target is within 30 feet, then the smite evil effect ends. The paladin's smite does not deal more damage to evil outsiders, dragons, or undead than to other evil creatures.",
 			"",
 			"This ability alters smite evil.",
 			"",
-			"**Divine Bond (Su):** At 5th level, the paladin adds {magic-enh/mighty cleaving} to the list of weapon special abilities that can be added to her weapon and removes {magic-enh/flaming} from the list.",
+			"**Divine Bond (Su):** At 5th level, the paladin adds ‹magic-enh/mighty cleaving› to the list of weapon special abilities that can be added to her weapon and removes ‹magic-enh/flaming› from the list.",
 			"",
 			"This ability alters divine bond.",
 			"",
-			"**Mercy for the Lost (Sp):** At 11th level, the paladin can use the Sky Citadels as a beacon leading her on the path to her deity. If she is on the Material Plane, the paladin can use {spell/find the path} once per day at her paladin level, but only to find her way to a known Sky Citadel. If she is not on the Material Plane, she can instead use this ability to use {spell/plane shift} as per the spell to travel to a known Sky Citadel. If she is in a Sky Citadel, she can expend her daily use of this ability to use *plane shift* to travel to the realm of her deity.",
+			"**Mercy for the Lost (Sp):** At 11th level, the paladin can use the Sky Citadels as a beacon leading her on the path to her deity. If she is on the Material Plane, the paladin can use ‹spell/find the path› once per day at her paladin level, but only to find her way to a known Sky Citadel. If she is not on the Material Plane, she can instead use this ability to use ‹spell/plane shift› as per the spell to travel to a known Sky Citadel. If she is in a Sky Citadel, she can expend her daily use of this ability to use *plane shift* to travel to the realm of her deity.",
 			"",
 			"This ability replaces aura of justice.",
 			"",
@@ -306,7 +306,7 @@
 			"",
 			"**Code of Conduct:** Reclaim a Sky Citadel in the name of honorable dwarven ideals. Defend Sky Citadels already held by dwarves.",
 			"",
-			"**Oath Spells:** 1st-{spell/enlarge person}; 2nd-{spell/find traps}; 3rd-{spell/spiritual ally}; 4th-{spell/blessing of fervor}."
+			"**Oath Spells:** 1st-‹spell/enlarge person›; 2nd-‹spell/find traps›; 3rd-‹spell/spiritual ally›; 4th-‹spell/blessing of fervor›."
 		]
 	},
 	"vengeance": {
@@ -315,7 +315,7 @@
 		"description": [
 			"## Oath of Vengeance",
 			"",
-			"{SOURCE Ultimate Magic/63}  ",
+			"‹SOURCE Ultimate Magic/63›  ",
 			"While all paladins uphold the principals of law and good, sometimes these ideas must have a ruthless and dangerous side. It often falls upon a paladin to bring justice in the form of vengeance upon heinous transgressors against law and good. These oathbound paladins are always on the hunt for those who have perpetrated evil, and are the instrument of Heaven's most definitive and implacable judgment.",
 			"",
 			"**Channel Wrath (Su):** When an oathbound paladin reach 4th level, she can spend two uses of her lay on hands ability to gain an extra use of smite evil that day. This ability has no effect for a paladin who does not have the smite evil ability. This ability replaces channel positive energy.",
@@ -324,7 +324,7 @@
 			"",
 			"**Code of Conduct:** Never let lesser eveils distract you from your pursuit of just vengeance.",
 			"",
-			"**Oath Spells:** 1st-{spell/wrath}; 2nd-{spell/confess}; 3rd-{spell/blessing of fervor}; 4th-{spell/order's wrath}."
+			"**Oath Spells:** 1st-‹spell/wrath›; 2nd-‹spell/confess›; 3rd-‹spell/blessing of fervor›; 4th-‹spell/order's wrath›."
 		]
 	}
 }

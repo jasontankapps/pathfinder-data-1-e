@@ -115,7 +115,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Aasimar",
 			"",
-			"You are skilled at convincing outsiders that you require their aid. Whenever you cast {spell/lesser planar ally}, {spell/planar ally}, or {spell/greater planar ally}, you receive a 10% discount on the monetary cost required by the summoned outsiders. This bonus has no effect on services the outsiders may demand in order to strike a bargain."
+			"You are skilled at convincing outsiders that you require their aid. Whenever you cast ‹spell/lesser planar ally›, ‹spell/planar ally›, or ‹spell/greater planar ally›, you receive a 10% discount on the monetary cost required by the summoned outsiders. This bonus has no effect on services the outsiders may demand in order to strike a bargain."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -307,7 +307,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Android",
 			"",
-			"Whenever you are affected by a polymorph spell or effect, your nanites adjust completely at a molecular level. For the duration of the polymorph effect, you are treated as only a humanoid for the purpose of effects that target creatures by type. For example, a ranger's {ability/favored enemy} bonus against constructs wouldn't apply to you while you are polymorphed, but nor would spells such as make whole. This trait modifies part of the android's constructed racial trait, but otherwise that trait is unchanged (a polymorphed android still can't gain morale bonuses, is still immune to fear, and so on)."
+			"Whenever you are affected by a polymorph spell or effect, your nanites adjust completely at a molecular level. For the duration of the polymorph effect, you are treated as only a humanoid for the purpose of effects that target creatures by type. For example, a ranger's ‹ability/favored enemy› bonus against constructs wouldn't apply to you while you are polymorphed, but nor would spells such as make whole. This trait modifies part of the android's constructed racial trait, but otherwise that trait is unchanged (a polymorphed android still can't gain morale bonuses, is still immune to fear, and so on)."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -451,7 +451,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Changeling",
 			"",
-			"You possess natural magical ability. Select one of the following spells: {spell/bleed}, {spell/create water}, {spell/dancing lights}, {spell/detect good}, {spell/ghost sound}, {spell/putrefy food and drink}. You can cast this spell three times per day as a spell-like ability."
+			"You possess natural magical ability. Select one of the following spells: ‹spell/bleed›, ‹spell/create water›, ‹spell/dancing lights›, ‹spell/detect good›, ‹spell/ghost sound›, ‹spell/putrefy food and drink›. You can cast this spell three times per day as a spell-like ability."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -487,7 +487,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Dhampir",
 			"",
-			"The circumstance of your birth and upbringing left little room to accommodate your weaknesses, and many hours toiling in broad daylight have decreased the severity of your innate hindrances. You gain a +2 bonus on checks and saves affected by the {feat/Endurance} feat (this bonus does not stack with the bonus granted by the Endurance feat). When your light sensitivity causes you to become dazzled, you do not take the -1 penalty on sight-based Perception checks."
+			"The circumstance of your birth and upbringing left little room to accommodate your weaknesses, and many hours toiling in broad daylight have decreased the severity of your innate hindrances. You gain a +2 bonus on checks and saves affected by the ‹feat/Endurance› feat (this bonus does not stack with the bonus granted by the Endurance feat). When your light sensitivity causes you to become dazzled, you do not take the -1 penalty on sight-based Perception checks."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -619,7 +619,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Drow",
 			"",
-			"Once per day as an immediate action, you can double the duration of one of your racial spell-like abilities, as if using the {feat/Extend Spell} metamagic feat."
+			"Once per day as an immediate action, you can double the duration of one of your racial spell-like abilities, as if using the ‹feat/Extend Spell› metamagic feat."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -967,7 +967,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Elf",
 			"",
-			"You are a member of the {rule/Lantern Bearers} or an agent of the Winter Council, tasked with ensuring that knowledge of the elves' secret shame - the drow - never reaches the surface. You gain a +2 trait bonus on Knowledge checks pertaining to drow and drow settlements."
+			"You are a member of the ‹rule/Lantern Bearers› or an agent of the Winter Council, tasked with ensuring that knowledge of the elves' secret shame - the drow - never reaches the surface. You gain a +2 trait bonus on Knowledge checks pertaining to drow and drow settlements."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -979,7 +979,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Elf",
 			"",
-			"You still remember a few prayers from your past experience serving in a temple. Once per day you may cast {spell/cure light wounds} as a spell-like ability at caster level 1. The save DC is Wisdom-based."
+			"You still remember a few prayers from your past experience serving in a temple. Once per day you may cast ‹spell/cure light wounds› as a spell-like ability at caster level 1. The save DC is Wisdom-based."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1055,7 +1055,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Elf",
 			"",
-			"Choose a favored terrain from those listed in the ranger {ability/favored terrain} class ability. You can move through naturally occurring difficult terrain without any penalty while within your favored terrain. Terrain created or modified by magic or traps affects you normally."
+			"Choose a favored terrain from those listed in the ranger ‹ability/favored terrain› class ability. You can move through naturally occurring difficult terrain without any penalty while within your favored terrain. Terrain created or modified by magic or traps affects you normally."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1079,7 +1079,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Elf; Snowcaster",
 			"",
-			"You confound those who think they know about elves. Any creature attempting to make a Knowledge check about your people, a Sense Motive check to determine whether you are lying, or a Survival check to track you takes a -2 penalty on the check. Additionally, any character or creature that normally gains a bonus on attack or damage rolls against elves (such as a ranger's {ability/favored enemy} ability) has such a bonus reduced by 1 (minimum 0)."
+			"You confound those who think they know about elves. Any creature attempting to make a Knowledge check about your people, a Sense Motive check to determine whether you are lying, or a Survival check to track you takes a -2 penalty on the check. Additionally, any character or creature that normally gains a bonus on attack or damage rolls against elves (such as a ranger's ‹ability/favored enemy› ability) has such a bonus reduced by 1 (minimum 0)."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1608,7 +1608,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Half-elf",
 			"",
-			"You are skilled at finding treasures in the warm coastal waters near the desert. You gain a +2 trait bonus on Perception checks while underwater and can {misc/hold your breath} for a number of rounds equal to three times your Constitution score before you risk drowning."
+			"You are skilled at finding treasures in the warm coastal waters near the desert. You gain a +2 trait bonus on Perception checks while underwater and can ‹misc/hold your breath› for a number of rounds equal to three times your Constitution score before you risk drowning."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1632,7 +1632,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Half-elf, Half-orc, or Human",
 			"",
-			"Your parents come from two visibly different cultures that maintain distinct identities regardless of their physical proximity (such as Tians and Ulfen). The tug of conflicting expectations has strengthened your sense of individuality and given you a gift for languages. You receive a +2 trait bonus on Will saves against charm and compulsion effects, and you automatically know the racial or ethnic {misc/languages} of both your parents."
+			"Your parents come from two visibly different cultures that maintain distinct identities regardless of their physical proximity (such as Tians and Ulfen). The tug of conflicting expectations has strengthened your sense of individuality and given you a gift for languages. You receive a +2 trait bonus on Will saves against charm and compulsion effects, and you automatically know the racial or ethnic ‹misc/languages› of both your parents."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1808,7 +1808,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Half-orc",
 			"",
-			"Select one terrain type from the ranger's {ability/favored terrain} list. While in this terrain type, taking a standard action while disabled does not cause you to take the normal 1 point of damage. You can use this trait when acting as if disabled despite having a negative hit point total as a result of orc ferocity or the {feat/Diehard} feat."
+			"Select one terrain type from the ranger's ‹ability/favored terrain› list. While in this terrain type, taking a standard action while disabled does not cause you to take the normal 1 point of damage. You can use this trait when acting as if disabled despite having a negative hit point total as a result of orc ferocity or the ‹feat/Diehard› feat."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1952,7 +1952,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Half-orc or Orc",
 			"",
-			"Your ferocity is focused into your spells, and it is harder to break your concentration. You receive a +2 trait bonus on all {rule/concentration} checks."
+			"Your ferocity is focused into your spells, and it is harder to break your concentration. You receive a +2 trait bonus on all ‹rule/concentration› checks."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1988,7 +1988,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Halfling",
 			"",
-			"Before you were old enough to be a {rule/Bellflower Network} member, you kept an ear out for information useful to slave liberators. You gain a +1 trait bonus on Perception checks, Sense Motive checks to understand secret messages, and Bluff checks to send secret messages."
+			"Before you were old enough to be a ‹rule/Bellflower Network› member, you kept an ear out for information useful to slave liberators. You gain a +1 trait bonus on Perception checks, Sense Motive checks to understand secret messages, and Bluff checks to send secret messages."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -1998,7 +1998,7 @@
 		"category": "Halfling",
 		"description": [
 			"**Type:** Race  ",
-			"**Requirements:** Halfling; Member of The {rule/Bellflower Network}",
+			"**Requirements:** Halfling; Member of The ‹rule/Bellflower Network›",
 			"",
 			"You grew up as a slave in Cheliax and know the ins and outs of Chelish nobility better than most. You gain a +1 trait bonus on Diplomacy and Knowledge (nobility) checks and Knowledge (nobility) is a class skill for you."
 		],
@@ -2140,7 +2140,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Halfling",
 			"",
-			"Select one terrain type from the ranger's {ability/favored terrain} list. You can attempt Stealth checks in this terrain in normal light without having cover or being invisible. You still can't attempt Stealth checks in areas of bright light without invisibility or cover."
+			"Select one terrain type from the ranger's ‹ability/favored terrain› list. You can attempt Stealth checks in this terrain in normal light without having cover or being invisible. You still can't attempt Stealth checks in areas of bright light without invisibility or cover."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2228,7 +2228,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Varisian wanderers",
 			"",
-			"A childhood spent at your mystically gifted grandmother's side has taught you the basics of real magic. You may cast {spell/prestidigitation} three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
+			"A childhood spent at your mystically gifted grandmother's side has taught you the basics of real magic. You may cast ‹spell/prestidigitation› three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2316,7 +2316,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Bekyar or Shoanti",
 			"",
-			"The spirit voices of your ancestors sing to you of the world around you. Once per day, you can act in the surprise round even if you aren't aware of your attackers; you can use this action only to start a {ability/bardic /song>performance} or {ability/raging song}, and you're still considered {rule/flat-footed} until you act in the first normal round of combat."
+			"The spirit voices of your ancestors sing to you of the world around you. Once per day, you can act in the surprise round even if you aren't aware of your attackers; you can use this action only to start a ‹ability/bardic «song<performance› or ‹ability/raging song›, and you're still considered ‹rule/flat-footed› until you act in the first normal round of combat."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2654,7 +2654,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Kellid",
 			"",
-			"You pray to whatever local deity will answer your prayers - and if they won't, to hell with them. You gain a +1 trait bonus on Knowledge (religion) checks and can make Knowledge (religion) checks as if trained. Once per day, you can cast {spell/resistance} on yourself as a spell-like ability cast at your highest caster level (CL 1st if you have no caster level)."
+			"You pray to whatever local deity will answer your prayers - and if they won't, to hell with them. You gain a +1 trait bonus on Knowledge (religion) checks and can make Knowledge (religion) checks as if trained. Once per day, you can cast ‹spell/resistance› on yourself as a spell-like ability cast at your highest caster level (CL 1st if you have no caster level)."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2810,7 +2810,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Mwangi",
 			"",
-			"You have spent time at {rule/Magaambya}, the magical academy of Nantambu, absorbing the ancient knowledge taught there. You gain a +1 trait bonus on Knowledge (arcana) and Spellcraft checks, and you may make these checks untrained."
+			"You have spent time at ‹rule/Magaambya›, the magical academy of Nantambu, absorbing the ancient knowledge taught there. You gain a +1 trait bonus on Knowledge (arcana) and Spellcraft checks, and you may make these checks untrained."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2930,7 +2930,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Taldan",
 			"",
-			"You spent countless hours of your youth wandering the open campuses of the {rule/Kitharodian Academy} and the Rhapsodic College, listening to wonderful musicians and singers and daydreaming of your life as a bard. You gain a +1 trait bonus to one category of Perform checks and a +2 trait bonus to any Knowledge (local) checks that deal with the Oppara music scene."
+			"You spent countless hours of your youth wandering the open campuses of the ‹rule/Kitharodian Academy› and the Rhapsodic College, listening to wonderful musicians and singers and daydreaming of your life as a bard. You gain a +1 trait bonus to one category of Perform checks and a +2 trait bonus to any Knowledge (local) checks that deal with the Oppara music scene."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -2954,7 +2954,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Taldan",
 			"",
-			"Your forebears served in an Army of Exploration, and you retain that expansionist spirit. Select a terrain from the {class/ranger/'s} list of {ability/favored terrain/s}. Once selected, this choice cannot be changed. Once per day while in the selected terrain, you may move across nonmagical difficult terrain as though it were not difficult terrain until the end of your turn."
+			"Your forebears served in an Army of Exploration, and you retain that expansionist spirit. Select a terrain from the ‹class/ranger«'s› list of ‹ability/favored terrain«s›. Once selected, this choice cannot be changed. Once per day while in the selected terrain, you may move across nonmagical difficult terrain as though it were not difficult terrain until the end of your turn."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3026,7 +3026,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Tian",
 			"",
-			"After a close call with {rule/snow blindness} on the Crown of the World or the scouring winds of Hongal, you honed your instincts to protect your eyes. You gain a +2 trait bonus on saving throws to avoid being blinded or dazzled."
+			"After a close call with ‹rule/snow blindness› on the Crown of the World or the scouring winds of Hongal, you honed your instincts to protect your eyes. You gain a +2 trait bonus on saving throws to avoid being blinded or dazzled."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3038,7 +3038,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Ulfen",
 			"",
-			"You grew up with an affinity for predatory animals, and whispers amid your clan suggest somewhere in the past, lycanthropy afflicted an ancestor. Whether or not you share this affliction, you often have animalistic urges. You gain a +1 trait bonus on Handle Animal and {ability/Wild Empathy} checks."
+			"You grew up with an affinity for predatory animals, and whispers amid your clan suggest somewhere in the past, lycanthropy afflicted an ancestor. Whether or not you share this affliction, you often have animalistic urges. You gain a +1 trait bonus on Handle Animal and ‹ability/Wild Empathy› checks."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3098,7 +3098,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Ulfen",
 			"",
-			"As soon as you were old enough to hold it, you were trained to defend yourself with traditional Ulfen weapons. You gain a +1 trait bonus on damage rolls with the following weapons: {eq-weapon/bastard sword}, {eq-weapon/battleaxe}, {eq-weapon/greataxe}, {eq-weapon/greatsword}, {eq-weapon/handaxe}, {eq-weapon/light hammer}, {eq-weapon/longbow}, {eq-weapon/longsword}, {eq-weapon/shortbow}, {eq-weapon/short sword}, {eq-weapon/throwing axe}, and {eq-weapon/warhammer}."
+			"As soon as you were old enough to hold it, you were trained to defend yourself with traditional Ulfen weapons. You gain a +1 trait bonus on damage rolls with the following weapons: ‹eq-weapon/bastard sword›, ‹eq-weapon/battleaxe›, ‹eq-weapon/greataxe›, ‹eq-weapon/greatsword›, ‹eq-weapon/handaxe›, ‹eq-weapon/light hammer›, ‹eq-weapon/longbow›, ‹eq-weapon/longsword›, ‹eq-weapon/shortbow›, ‹eq-weapon/short sword›, ‹eq-weapon/throwing axe›, and ‹eq-weapon/warhammer›."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3230,7 +3230,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Human; Vudrani",
 			"",
-			"You were raised with a daily regimen to keep your mind sharp and your words fluid. You gain a +1 trait bonus on {rule/concentration} checks and on Bluff checks."
+			"You were raised with a daily regimen to keep your mind sharp and your words fluid. You gain a +1 trait bonus on ‹rule/concentration› checks and on Bluff checks."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3254,7 +3254,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Ifrit",
 			"",
-			"Whenever you damage an opponent that is casting a spell with a melee attack that deals fire damage (such as a flaming weapon or a torch), the DC of the {rule/concentration} check for your opponent to cast the spell is equal to 10 + the non-fire damage dealt + double the fire damage dealt + the spell's level (instead of just 10 + the damage dealt + the spell's level)."
+			"Whenever you damage an opponent that is casting a spell with a melee attack that deals fire damage (such as a flaming weapon or a torch), the DC of the ‹rule/concentration› check for your opponent to cast the spell is equal to 10 + the non-fire damage dealt + double the fire damage dealt + the spell's level (instead of just 10 + the damage dealt + the spell's level)."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3374,7 +3374,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Kitsune",
 			"",
-			"You are talented with kitsune magic. You gain a +1 trait bonus on caster level checks for your racial spell-like abilities as well as those from the {feat/Magical Tail} feat. Additionally, you can select Magical Tail as a bonus feat whenever your favored class grants you a bonus bloodline feat, combat feat, or metamagic feat instead of the normal type of feat granted by that class. You cannot exchange specific feats granted by a class or race for Magical Tail in this manner; for instance, a monk cannot exchange his {feat/Stunning Fist} feat for Magical Tail."
+			"You are talented with kitsune magic. You gain a +1 trait bonus on caster level checks for your racial spell-like abilities as well as those from the ‹feat/Magical Tail› feat. Additionally, you can select Magical Tail as a bonus feat whenever your favored class grants you a bonus bloodline feat, combat feat, or metamagic feat instead of the normal type of feat granted by that class. You cannot exchange specific feats granted by a class or race for Magical Tail in this manner; for instance, a monk cannot exchange his ‹feat/Stunning Fist› feat for Magical Tail."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3482,7 +3482,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Black-scaled",
 			"",
-			"Swimming comes naturally to you, as does hunting marsh vipers and other aquatic creatures. Increase the number of rounds you can {misc/hold your breath} underwater by an amount equal to your Constitution score. You gain a +2 bonus on Stealth checks in swamps and in underwater environments."
+			"Swimming comes naturally to you, as does hunting marsh vipers and other aquatic creatures. Increase the number of rounds you can ‹misc/hold your breath› underwater by an amount equal to your Constitution score. You gain a +2 bonus on Stealth checks in swamps and in underwater environments."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3494,7 +3494,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Blue-scaled",
 			"",
-			"Like the blue dragons your tribe reveres, you have a touch of illusory magic. You are able to cast {spell/ghost sound} twice per day as a spell-like ability. The caster level for this effect is equal to your character level. This spell-like ability's save DC is Intelligence-based."
+			"Like the blue dragons your tribe reveres, you have a touch of illusory magic. You are able to cast ‹spell/ghost sound› twice per day as a spell-like ability. The caster level for this effect is equal to your character level. This spell-like ability's save DC is Intelligence-based."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3590,7 +3590,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Kobold; Red-scaled",
 			"",
-			"Like the red dragons that inspire your tribe, you're blessed with a small spark of incendiary magic. You are able to cast {spell/spark} three times per day as a spell-like ability. The caster level is equal to your character level. This spell-like ability's save DC is Intelligence-based."
+			"Like the red dragons that inspire your tribe, you're blessed with a small spark of incendiary magic. You are able to cast ‹spell/spark› three times per day as a spell-like ability. The caster level is equal to your character level. This spell-like ability's save DC is Intelligence-based."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3722,7 +3722,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Monkey goblin",
 			"",
-			"You have spent long hours scouring shipwrecks and shoreline tide pools during low tide for shiny treasure. You gain a +2 trait bonus on Perception checks while underwater and can {misc/hold your breath} for a number of rounds equal to three times your Constitution score before you risk drowning."
+			"You have spent long hours scouring shipwrecks and shoreline tide pools during low tide for shiny treasure. You gain a +2 trait bonus on Perception checks while underwater and can ‹misc/hold your breath› for a number of rounds equal to three times your Constitution score before you risk drowning."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3962,7 +3962,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Werebear-kin",
 			"",
-			"When you use your change shape ability, you can choose to gain the benefits of the {feat/Endurance} feat rather than gaining a special ability."
+			"When you use your change shape ability, you can choose to gain the benefits of the ‹feat/Endurance› feat rather than gaining a special ability."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3974,7 +3974,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Werebear-kin",
 			"",
-			"When you first demonstrated your werebear ancestry, you slept for a week and awoke feeling more refreshed than ever before. Whenever you undergo complete {rule/bed rest} for 24 hours, you recover an amount of hit points equal to three times your character level."
+			"When you first demonstrated your werebear ancestry, you slept for a week and awoke feeling more refreshed than ever before. Whenever you undergo complete ‹rule/bed rest› for 24 hours, you recover an amount of hit points equal to three times your character level."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -3986,7 +3986,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Skinwalker; Wereboar-kin",
 			"",
-			"You were victimized by bullies or even abusive adults. Although the harassment got worse when your wereboar features became more obvious, those features also gave you fortitude that helped you resist it. You are unimpaired by being at exactly 0 hit points. In addition, you can ignore the {feat/Endurance} prerequisite for the {feat/Diehard} feat."
+			"You were victimized by bullies or even abusive adults. Although the harassment got worse when your wereboar features became more obvious, those features also gave you fortitude that helped you resist it. You are unimpaired by being at exactly 0 hit points. In addition, you can ignore the ‹feat/Endurance› prerequisite for the ‹feat/Diehard› feat."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -4358,7 +4358,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling",
 			"",
-			"You can channel your evil ancestry to take advantage of any effects for which such an identity would matter (such as {spell/detect evil}). You detect as an evil outsider with the same number of HD as you possess. You can begin or end this effect as a swift action. You can maintain this effect for a number of rounds per day equal to your HD."
+			"You can channel your evil ancestry to take advantage of any effects for which such an identity would matter (such as ‹spell/detect evil›). You detect as an evil outsider with the same number of HD as you possess. You can begin or end this effect as a swift action. You can maintain this effect for a number of rounds per day equal to your HD."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -4502,7 +4502,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling",
 			"",
-			"Constant drills and preparation allow you to get more out of your innate magic. Whenever you use a spell-like ability gained through your tiefling heritage, it automatically acts as if affected by the {feat/Extend Spell} metamagic feat."
+			"Constant drills and preparation allow you to get more out of your innate magic. Whenever you use a spell-like ability gained through your tiefling heritage, it automatically acts as if affected by the ‹feat/Extend Spell› metamagic feat."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -4610,7 +4610,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Tiefling; Faultspawn",
 			"",
-			"You have an instinctive flair for causing such pain to the faithful that they temporarily lose their connection with their god. If a divine spellcaster makes a {rule/concentration} check to avoid losing a spell because of an injury you caused, increase the DC of that check by +2."
+			"You have an instinctive flair for causing such pain to the faithful that they temporarily lose their connection with their god. If a divine spellcaster makes a ‹rule/concentration› check to avoid losing a spell because of an injury you caused, increase the DC of that check by +2."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -4910,7 +4910,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Undine",
 			"",
-			"When the air is full of water, your elemental blood allows you to blend with your surroundings and become one with the precipitation. In areas of nonmagical fog, rain, snow, or similar conditions (such as the spray of a waterfall), you gain the effects of {rule/concealment}, but with a miss chance of 10%. If the precipitation would already grant you concealment, the miss chances stack."
+			"When the air is full of water, your elemental blood allows you to blend with your surroundings and become one with the precipitation. In areas of nonmagical fog, rain, snow, or similar conditions (such as the spray of a waterfall), you gain the effects of ‹rule/concealment›, but with a miss chance of 10%. If the precipitation would already grant you concealment, the miss chances stack."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},
@@ -4982,7 +4982,7 @@
 			"**Type:** Race  ",
 			"**Requirements:** Vampire; Nosferatu",
 			"",
-			"Your body is so ancient you fear damaging it with exertion. You gain a +1 trait bonus to your caster level when casting (or using as a spell-like ability) {spell/fly}, {spell/levitate}, {spell/mage hand}, {spell/telekinesis}, and similar spells that move objects through sheer will."
+			"Your body is so ancient you fear damaging it with exertion. You gain a +1 trait bonus to your caster level when casting (or using as a spell-like ability) ‹spell/fly›, ‹spell/levitate›, ‹spell/mage hand›, ‹spell/telekinesis›, and similar spells that move objects through sheer will."
 		],
 		"topLink": [ "Race Traits", "main/traits_race" ]
 	},

@@ -68,7 +68,7 @@
 			"",
 			"If you desire, any spell you cast whose range is touch or greater can originate from the projected image instead of from you. The projected image can't cast any spells on itself except for illusion spells. The spells affect other targets normally, despite originating from the projected image.",
 			"",
-			"Objects are affected by the projected image as if they had succeeded on their Will save. You must maintain line of effect to the projected image at all times. If your line of effect is obstructed, the spell ends. If you use {spell/dimension door}, {spell/teleport}, {spell/plane shift}, or a similar spell that breaks your line of effect, even momentarily, the spell ends.",
+			"Objects are affected by the projected image as if they had succeeded on their Will save. You must maintain line of effect to the projected image at all times. If your line of effect is obstructed, the spell ends. If you use ‹spell/dimension door›, ‹spell/teleport›, ‹spell/plane shift›, or a similar spell that breaks your line of effect, even momentarily, the spell ends.",
 			"",
 			"### Familiar Double",
 			"",
@@ -89,7 +89,7 @@
 			"",
 			"::spell{source=\"Blood of the Night/30\" curse evil necromancy arc=4 clr=3 orc=3 sor=4 war=3 wit=3 wiz=4 ctSt cV cS rTouch target=\"living creature touched\" durP will srY}",
 			"",
-			">*{template/Vampire/s} have access to the following spell.*",
+			">*‹template/Vampire«s› have access to the following spell.*",
 			"",
 			"You curse the target with the weaknesses of your kind of vampirism. The creature reacts to garlic, mirrors, ringing bells, sunlight, and so on as if it were a vampire of the same type as you. This cannot kill the target; anything that would kill it (such as a lengthy exposure to sunlight if you are a moroi vampire) renders it helpless until the curse or the harmful effect is removed. The target gains none of the benefits of being a vampire (such as fast healing or requiring special ways to be permanently killed), only the penalties."
 		]
@@ -143,7 +143,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Protection from Arrows\"}",
 			"",
-			"{SOURCE Mythic Adventures/104}",
+			"‹SOURCE Mythic Adventures/104›",
 			"",
 			"The damage reduction increases to 15/magic. The maximum damage prevented by the spell increases to 15 points per caster level (maximum 150 points). If the spell prevents all damage from a ranged weapon attack, it turns the projectile or weapon back on the attacker, using the same attack roll result. If the attacker is also protected by mythic protection from arrows and its spell completely prevents the damage from the rebounded attack, the weapon or projectile is destroyed.",
 			"",
@@ -174,7 +174,7 @@
 			"",
 			"Protection from energy grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.",
 			"",
-			"Protection from energy overlaps (and does not stack with) {spell/resist energy}. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted.",
+			"Protection from energy overlaps (and does not stack with) ‹spell/resist energy›. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted.",
 			"",
 			"### Communal Protection from Energy",
 			"",
@@ -204,13 +204,13 @@
 			"",
 			"First, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.",
 			"",
-			"Second, the subject immediately receives another saving throw (if one was allowed to begin with) against any spells or effects that possess or exercise mental control over the creature (including enchantment [charm] effects and enchantment [compulsion] effects, such as charm person, command, and dominate person. This saving throw is made with a +2 morale bonus, using the same DC as the original effect. If successful, such effects are suppressed for the duration of this spell. The effects resume when the duration of this spell expires. While under the effects of this spell, the target is immune to any new attempts to possess or exercise mental control over the target. This spell does not expel a controlling life force (such as a {template/ghost} or spellcaster using {spell/magic jar}), but it does prevent them from controlling the target. This second effect only functions against spells and effects created by evil creatures or objects, subject to GM discretion.",
+			"Second, the subject immediately receives another saving throw (if one was allowed to begin with) against any spells or effects that possess or exercise mental control over the creature (including enchantment [charm] effects and enchantment [compulsion] effects, such as charm person, command, and dominate person. This saving throw is made with a +2 morale bonus, using the same DC as the original effect. If successful, such effects are suppressed for the duration of this spell. The effects resume when the duration of this spell expires. While under the effects of this spell, the target is immune to any new attempts to possess or exercise mental control over the target. This spell does not expel a controlling life force (such as a ‹template/ghost› or spellcaster using ‹spell/magic jar›), but it does prevent them from controlling the target. This second effect only functions against spells and effects created by evil creatures or objects, subject to GM discretion.",
 			"",
 			"Third, the spell prevents bodily contact by evil summoned creatures. This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Summoned creatures that are not evil are immune to this effect. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature. Spell resistance can allow a creature to overcome this protection and touch the warded creature.",
 			"",
 			":::mythic{jl title=\"Mythic Protection from Evil\"}",
 			"",
-			"{SOURCE Mythic Adventures/105}",
+			"‹SOURCE Mythic Adventures/105›",
 			"",
 			"The bonuses to AC and on saves increase to +4. Any evil creature attempting to possess or exercise mental control over the target must attempt a Will save against this spell. If it fails, the creature takes 1d6 points of damage per 2 caster levels (maximum 5d6) from mental feedback. An evil creature that uses spell resistance to bypass the spell's protection against contact must successfully save or take this damage once each round it attacks the protected target.",
 			"",
@@ -218,22 +218,22 @@
 			"",
 			"::h3[Communal Protection from Evil]{jl}",
 			"",
-			"{SOURCE Ultimate Combat/240}  ",
-			"**School** {spelldef/abjuration} [{spelldef/good}]; **Level** arcanist 2, cleric 2, inquisitor 2, oracle 2, paladin 2, sorcerer 2, summoner 2, unchained summoner 2, warpriest 2, wizard 2  ",
+			"‹SOURCE Ultimate Combat/240›  ",
+			"**School** ‹spelldef/abjuration› [‹spelldef/good›]; **Level** arcanist 2, cleric 2, inquisitor 2, oracle 2, paladin 2, sorcerer 2, summoner 2, unchained summoner 2, warpriest 2, wizard 2  ",
 			"**Targets** creatures touched",
 			"",
 			"This spell functions like *protection from evil,* except you divide the duration in 1-minute intervals among the creatures touched.",
 			"",
 			"::h3[Protection from Chaos]{jl}",
 			"",
-			"{SOURCE PRPG Core Rulebook/327}  ",
-			"**School** abjuration [{spelldef/lawful}]; **Level** adept 1, arcanist 1, bloodrager 1, cleric 1, inquisitor 1, medium 1, oracle 1, paladin 1, shaman 1, sorcerer 1, spiritualist 1, summoner 1, unchained summoner 1, warpriest 1, wizard 1",
+			"‹SOURCE PRPG Core Rulebook/327›  ",
+			"**School** abjuration [‹spelldef/lawful›]; **Level** adept 1, arcanist 1, bloodrager 1, cleric 1, inquisitor 1, medium 1, oracle 1, paladin 1, shaman 1, sorcerer 1, spiritualist 1, summoner 1, unchained summoner 1, warpriest 1, wizard 1",
 			"",
 			"This spell functions like *protection from evil,* except that the deflection and resistance bonuses apply to attacks made by chaotic creatures. The target receives a new saving throw against control by chaotic creatures and chaotic summoned creatures cannot touch the target.",
 			"",
 			":::mythic{jl title=\"Mythic Protection from Chaos\"}",
 			"",
-			"{SOURCE Mythic Adventures/104}",
+			"‹SOURCE Mythic Adventures/104›",
 			"",
 			"As mythic protection from evil, except against chaotic creatures.",
 			"",
@@ -241,21 +241,21 @@
 			"",
 			"::h3[Communal Protection from Chaos]{jl}",
 			"",
-			"{SOURCE Ultimate Combat/240}  ",
-			"**School** {spelldef/abjuration} [{spelldef/lawful}]; **Level** arcanist 2, cleric 2, inquisitor 2, oracle 2, paladin 2, sorcerer 2, summoner 2, unchained summoner 2, warpriest 2, wizard 2",
+			"‹SOURCE Ultimate Combat/240›  ",
+			"**School** ‹spelldef/abjuration› [‹spelldef/lawful›]; **Level** arcanist 2, cleric 2, inquisitor 2, oracle 2, paladin 2, sorcerer 2, summoner 2, unchained summoner 2, warpriest 2, wizard 2",
 			"",
 			"This spell functions like *communal protection from evil,* except it behaves like *protection from chaos* and you divide the duration in 1-minute intervals among the creatures touched.",
 			"",
 			"::h3[Protection from Good]{jl}",
 			"",
-			"{SOURCE PRPG Core Rulebook/328}  ",
-			"**School** abjuration [{spelldef/evil}]; **Level** adept 1, antipaladin 1, arcanist 1, bloodrager 1, cleric 1, inquisitor 1, medium 1, oracle 1, shaman 1, sorcerer 1, spiritualist 1, summoner 1, unchained summoner 1, warpriest 1, wizard 1",
+			"‹SOURCE PRPG Core Rulebook/328›  ",
+			"**School** abjuration [‹spelldef/evil›]; **Level** adept 1, antipaladin 1, arcanist 1, bloodrager 1, cleric 1, inquisitor 1, medium 1, oracle 1, shaman 1, sorcerer 1, spiritualist 1, summoner 1, unchained summoner 1, warpriest 1, wizard 1",
 			"",
 			"This spell functions like *protection from evil,* except that the deflection and resistance bonuses apply to attacks made by good creatures. The target receives a new saving throw against control by good creatures and good summoned creatures cannot touch the target.",
 			"",
 			":::mythic{jl title=\"Mythic Protection from Good\"}",
 			"",
-			"{SOURCE Mythic Adventures/105}",
+			"‹SOURCE Mythic Adventures/105›",
 			"",
 			"As *mythic protection from evil,* except against good creatures.",
 			"",
@@ -263,21 +263,21 @@
 			"",
 			"::h3[Communal Protection from Good]{jl}",
 			"",
-			"{SOURCE Ultimate Combat/240}  ",
-			"**School** {spelldef/abjuration} [{spelldef/evil}]; **Level** antipaladin 2, arcanist 2, cleric 2, inquisitor 2, oracle 2, sorcerer 2, summoner 2, unchained summoner 2, warpriest 2, wizard 2",
+			"‹SOURCE Ultimate Combat/240›  ",
+			"**School** ‹spelldef/abjuration› [‹spelldef/evil›]; **Level** antipaladin 2, arcanist 2, cleric 2, inquisitor 2, oracle 2, sorcerer 2, summoner 2, unchained summoner 2, warpriest 2, wizard 2",
 			"",
 			"This spell functions like *communcal protection from evil,* except it behaves like *protection from good* and you divide the duration in 1-minute intervals among the creatures touched.",
 			"",
 			"::h3[Protection from Law]{jl}",
 			"",
-			"{SOURCE PRPG Core Rulebook/328}  ",
-			"**School** abjuration [{spelldef/chaotic}]; **Level** adept 1, antipaladin 1, arcanist 1, bloodrager 1, cleric 1, inquisitor 1, medium 1, oracle 1, shaman 1, sorcerer 1, spiritualist 1, summoner 1, unchained summoner 1, warpriest 1, wizard 1",
+			"‹SOURCE PRPG Core Rulebook/328›  ",
+			"**School** abjuration [‹spelldef/chaotic›]; **Level** adept 1, antipaladin 1, arcanist 1, bloodrager 1, cleric 1, inquisitor 1, medium 1, oracle 1, shaman 1, sorcerer 1, spiritualist 1, summoner 1, unchained summoner 1, warpriest 1, wizard 1",
 			"",
 			"This spell functions like *protection from evil,* except that the deflection and resistance bonuses apply to attacks made by lawful creatures. The target receives a new saving throw against control by lawful creatures and lawful summoned creatures cannot touch the target.",
 			"",
 			":::mythic{jl title=\"Mythic Protection from Law\"}",
 			"",
-			"{SOURCE Mythic Adventures/105}",
+			"‹SOURCE Mythic Adventures/105›",
 			"",
 			"As *mythic protection from evil,* except against lawful creatures.",
 			"",
@@ -285,8 +285,8 @@
 			"",
 			"::h3[Communal Protection from Law]{jl}",
 			"",
-			"{SOURCE Ultimate Combat/240}  ",
-			"**School** {spelldef/abjuration} [{spelldef/chaotic}]; **Level** antipaladin 2, arcanist 2, cleric 2, inquisitor 2, oracle 2, sorcerer 2, summoner 2, unchained summoner 2, warpriest 2, wizard 2",
+			"‹SOURCE Ultimate Combat/240›  ",
+			"**School** ‹spelldef/abjuration› [‹spelldef/chaotic›]; **Level** antipaladin 2, arcanist 2, cleric 2, inquisitor 2, oracle 2, sorcerer 2, summoner 2, unchained summoner 2, warpriest 2, wizard 2",
 			"",
 			"This spell functions like *communal protection from evil,* except it behaves like *protection from law* and you divide the duration in 1-minute intervals among the creatures touched."
 		]
@@ -344,7 +344,7 @@
 		"description": [
 			"## Protection from Outsiders",
 			"",
-			"::spell{source=\"Demon Hunter's Handbook/26\" school=\"%%spelldef/abjuration%% &#91&see text&#93&\" clr=2 inq=2 orc=2 pal=2 war=2 ctSt cV cS cDF rTouch target=\"creature touched\" durML=1 durD will svHarmless srN}",
+			"::spell{source=\"Demon Hunter's Handbook/26\" school=\"‹spelldef/abjuration› &#91&see text&#93&\" clr=2 inq=2 orc=2 pal=2 war=2 ctSt cV cS cDF rTouch target=\"creature touched\" durML=1 durD will svHarmless srN}",
 			"",
 			"This spell wards a creature from attacks by outsiders with a specific racial subtype, from mental control exerted by creatures of the chosen subtype, and from summoned creatures of that subtype. Only the subtypes of specific outsider races - angel, azata, demon, oni, psychopomp, protean, and so on - can be chosen as the subtype this spell protects against. Alignment subtypes or other general subtypes (like elemental, extraplanar, or native) cannot be selected. Outsiders without an outsider racial subtype (like genies, night hags, yeth hounds, or xills) are not affected by this spell.",
 			"",
@@ -352,7 +352,7 @@
 			"",
 			"First, the subject gains a +4 deflection bonus to AC and a +4 resistance bonus on saves when targeted by creatures of the chosen subtype.",
 			"",
-			"Second, the subject immediately receives another saving throw (if one was allowed to begin with) against any spells or effects that possess or exercise mental control over the target creature. This functions in the same fashion as {spell/protection from evil}, but only when the effect stems from outsiders of the chosen subtype, and the target's saving throw is made with a +4 morale bonus (using the same DC as the original effect).",
+			"Second, the subject immediately receives another saving throw (if one was allowed to begin with) against any spells or effects that possess or exercise mental control over the target creature. This functions in the same fashion as ‹spell/protection from evil›, but only when the effect stems from outsiders of the chosen subtype, and the target's saving throw is made with a +4 morale bonus (using the same DC as the original effect).",
 			"",
 			"Third, the spell prevents bodily contact by summoned creatures of the chosen subtype in the same manner as detailed in protection from evil.",
 			"",
@@ -378,7 +378,7 @@
 			"",
 			"::spell{source=\"Pathfinder #113: What Grows Within/66\" abjuration alc=2 clr=2 drd=2 hnt=1 inv=2 orc=2 rgr=1 sha=2 war=2 wit=2 ctSt cV cS rTouch target=\"creature touched\" durML=1 fort svHarmless srN}",
 			"",
-			">*This spell is associated with {faith/Xhamen-Dor}, but there are no restrictions on its use by others.*",
+			">*This spell is associated with ‹faith/Xhamen-Dor›, but there are no restrictions on its use by others.*",
 			"",
 			"With a touch, you bolster a creature's body to protect it from the harmful effects of spores and similar afflictions. While under the effect of this spell, a creature is immune to the effects of brown mold, green slime, russet mold, yellow mold, and any similar hazard, provided the hazard is CR 6 or lower. Similarly, the creature is immune to poison, disease, and infestation attacks from all fungal creatures of CR 6 or lower, including effects such as basidirond spores, violet fungus rot, and the like. The target is immune to fungus-based toxins, such as striped toadstool. Against similar hazards or monsters of CR 7 or higher, the target gains a bonus on all saving throws against the effect equal to half your caster level. Protection from spores offers no protection against fungal infestations created by the seeded, by the spell what grows within, or by Xhamen-Dor."
 		]
@@ -419,7 +419,7 @@
 			"",
 			"A protective spirit is an invisible, mindless, shapeless force that hovers about you, defending you against unexpected attacks. When a creature makes an attack of opportunity against you, the protective spirit makes an immediate attack using your base attack bonus plus your Dexterity modifier. On a successful hit, the spirit does no damage, but it causes the attack of opportunity to automatically miss. A protective spirit can defend against a number of attacks of opportunity equal to your Dexterity bonus (minimum 1) per round.",
 			"",
-			"A protective spirit occupies your space, and moves with you. It cannot be attacked or harmed by physical attacks, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it. A protective spirit's AC against touch attacks is 10 + your Dexterity modifier."
+			"A protective spirit occupies your space, and moves with you. It cannot be attacked or harmed by physical attacks, but ‹spell/dispel magic›, ‹spell/disintegrate›, a ‹magic-artifact/sphere of annihilation›, or a ‹magic-rod/rod of cancellation› affects it. A protective spirit's AC against touch attacks is 10 + your Dexterity modifier."
 		]
 	},
 	"prying_eyes": {
@@ -440,7 +440,7 @@
 			"",
 			"If an eye ever gets more than 1 mile away from you, it instantly ceases to exist. However, your link with the eye is such that you won't know if the eye was destroyed because it wandered out of range or because of some other event.",
 			"",
-			"The eyes exist for up to 1 hour per caster level or until they return to you. {spell/Dispel magic} can destroy eyes. Roll separately for each eye caught in an area dispel. Of course, if an eye is sent into darkness, it could hit a wall or similar obstacle and destroy itself."
+			"The eyes exist for up to 1 hour per caster level or until they return to you. ‹spell/Dispel magic› can destroy eyes. Roll separately for each eye caught in an area dispel. Of course, if an eye is sent into darkness, it could hit a wall or similar obstacle and destroy itself."
 		]
 	},
 	"prying_eyes_greater": {
@@ -463,7 +463,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/181\" mindAffecting illusion phantasm arc=6 mes=5 psy=5 sor=6 wiz=6 ctSw cV cS rPers target=you dur=\"instantaneous; see text\" saveNo srN}",
 			"",
-			"You retreat into a {rule/mindscape>s} of your own making that allows you to perform a lengthy mental task in an instant. You create a mental landscape that provides succor and calm for you, such as a library, sitting room, garden, or childhood tree house. You can spend up to 15 minutes in your psychic asylum. While you are within, no time passes for your body, and when you emerge you can continue with your turn. The mindscape is overt, finite, and has a rapid passage of time.",
+			"You retreat into a ‹rule/mindscape<s› of your own making that allows you to perform a lengthy mental task in an instant. You create a mental landscape that provides succor and calm for you, such as a library, sitting room, garden, or childhood tree house. You can spend up to 15 minutes in your psychic asylum. While you are within, no time passes for your body, and when you emerge you can continue with your turn. The mindscape is overt, finite, and has a rapid passage of time.",
 			"",
 			"While within the mindscape, you can consult any text, recall any conversation, or remember any image that you have been exposed to with perfect clarity and recollection, as if you had an eidetic memory. You must have seen or heard the material within a time frame of 1 week per level. For example, you might wish to reexamine a passage of text from an ancient manuscript you rapidly scanned in a library 2 weeks prior. While in the psychic asylum, you can perfectly recall the precise layout of the text within the ancient manuscript and read it word for word. Once you emerge from the psychic asylum, you can recall the details of what you had just studied as clearly as if you had just looked at it, but you no longer have total recall of the material.",
 			"",
@@ -577,7 +577,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/183\" enchantment mindAffecting mes=5 psy=6 ctM=10 cV cMp=\"diamond dust worth 250 gp\" rTouch target=\"one willing and living creature\" durI saveNo srN}",
 			"",
-			"Psychic surgery cures the target of all Intelligence, Wisdom, and Charisma damage and restores all points permanently drained from the target's Intelligence, Wisdom, and Charisma scores. It also eliminates all ongoing insanity, confusion, and fear effects. Psychic surgery can also remove other mental afflictions, including enchantment spells and abilities, and even instantaneous effects, but in this case, if {spell/dispel magic} couldn't remove the effect, psychic surgery works only if the spell level or equivalent spell level of the effect was 6th level or lower. Psychic surgery removes all effects magically altering the target's memory, even instantaneous effects, and it can restore a memory to perfect clarity like the second use of {spell/modify memory}."
+			"Psychic surgery cures the target of all Intelligence, Wisdom, and Charisma damage and restores all points permanently drained from the target's Intelligence, Wisdom, and Charisma scores. It also eliminates all ongoing insanity, confusion, and fear effects. Psychic surgery can also remove other mental afflictions, including enchantment spells and abilities, and even instantaneous effects, but in this case, if ‹spell/dispel magic› couldn't remove the effect, psychic surgery works only if the spell level or equivalent spell level of the effect was 6th level or lower. Psychic surgery removes all effects magically altering the target's memory, even instantaneous effects, and it can restore a memory to perfect clarity like the second use of ‹spell/modify memory›."
 		]
 	},
 	"psychonaut_manifestation": {
@@ -706,7 +706,7 @@
 			"",
 			"::spell{source=\"Inner Sea Monster Codex/41\" enchantment compulsion mindAffecting curse arc=3 brd=2 skd=2 sor=3 wit=3 wiz=3 ctSt cV cS rClose target=\"one creature or one object up to 5 lbs./level\" dur=\"1 round/level or permanent; see text\" save=\"Will negates or none\" srY}",
 			"",
-			"This spell causes even commonly used objects to become conundrums. When cast on a creature, the target loses all weapon and shield proficiencies. The target also forgets how to use all {misc/spell-completion}, {misc/spell-trigger}, and use-activated magic items, as well as any mundane items used as part of a skill check, imposing a -5 penalty on all ability and skill checks attempted with such items. These effects last for 1 round per level. As a move action, the target can attempt a skill check to negate the effects of this spell for one object. Weapons, shields, and mundane objects require a successful Craft skill check of the type required to craft the item in question, with a DC equal to the spell's save DC. Magic items require a successful Spellcraft or Use Magic Device skill check against the spell's save DC.",
+			"This spell causes even commonly used objects to become conundrums. When cast on a creature, the target loses all weapon and shield proficiencies. The target also forgets how to use all ‹misc/spell-completion›, ‹misc/spell-trigger›, and use-activated magic items, as well as any mundane items used as part of a skill check, imposing a -5 penalty on all ability and skill checks attempted with such items. These effects last for 1 round per level. As a move action, the target can attempt a skill check to negate the effects of this spell for one object. Weapons, shields, and mundane objects require a successful Craft skill check of the type required to craft the item in question, with a DC equal to the spell's save DC. Magic items require a successful Spellcraft or Use Magic Device skill check against the spell's save DC.",
 			"",
 			"Alternatively, this spell can be cast on a single touched object that weighs up to 5 pounds per the caster's level. Use of this object becomes a puzzle even to those previously familiar with it. Any creature attempting to use an item affected in this way is treated as though the creature was the target of puzzle box for that item only. When cast on an object, the duration of this spell is permanent."
 		]
@@ -758,11 +758,11 @@
 			"",
 			"::spell{source=\"Spymaster's Handbook/29\" polymorph transmutation arc=9 occ=6 sor=9 wit=9 wiz=9 ctSt cV cS cFp=\"a book bound in precious metals and treated with rare oils, worth 1,000 gp per HD of the target\" rClose target=\"creature touched\" durP fort srY}",
 			"",
-			"Hermea's benevolent Council of Enlightenment uses this spell to humanely preserve their society's greatest minds from the ravages of time, though it has seen far more sinister employment when put to use by other organizations that have since discovered its utility. This spell binds a single creature into a prepared book, sustaining it in suspended animation and filling the book with its experience and knowledge. The tome weighs 10 pounds and has one page for every day of the subject's life. The cover and binding transform to reflect the subject's appearance, interests, and tastes. Every thought and memory - including those the target may have forgotten long ago - are perfectly transcribed within the enchanted pages, penned in excruciating detail in the language that the creature was thinking or speaking in when the event occurred. If a memory includes dialogue in a language the subject didn't understand, that dialogue is reproduced phonetically, and must be translated by a reader who knows that language. Any alterations to a subject's memories - such as by a {spell/modify memory} spell - appear in a subtly different script; a successful DC 35 Linguistics check is needed to identify this.",
+			"Hermea's benevolent Council of Enlightenment uses this spell to humanely preserve their society's greatest minds from the ravages of time, though it has seen far more sinister employment when put to use by other organizations that have since discovered its utility. This spell binds a single creature into a prepared book, sustaining it in suspended animation and filling the book with its experience and knowledge. The tome weighs 10 pounds and has one page for every day of the subject's life. The cover and binding transform to reflect the subject's appearance, interests, and tastes. Every thought and memory - including those the target may have forgotten long ago - are perfectly transcribed within the enchanted pages, penned in excruciating detail in the language that the creature was thinking or speaking in when the event occurred. If a memory includes dialogue in a language the subject didn't understand, that dialogue is reproduced phonetically, and must be translated by a reader who knows that language. Any alterations to a subject's memories - such as by a ‹spell/modify memory› spell - appear in a subtly different script; a successful DC 35 Linguistics check is needed to identify this.",
 			"",
-			"Spells that modify or remove text - such as {spell/erase} or {spell/secret page} - also affect the target's memory if they persist after its release. *Modify memory* can be used to repair any changes to its original state, or alter the accounts recorded within the book. A creature imprisoned by scribe's binding automatically fails any saving throws against effects to change or modify its memories.",
+			"Spells that modify or remove text - such as ‹spell/erase› or ‹spell/secret page› - also affect the target's memory if they persist after its release. *Modify memory* can be used to repair any changes to its original state, or alter the accounts recorded within the book. A creature imprisoned by scribe's binding automatically fails any saving throws against effects to change or modify its memories.",
 			"",
-			"A target bound by this spell can be freed by only {spell/freedom}, {spell/miracle}, or {spell/wish}. {spell/Polymorph any object} restores the target's normal form for 24 hours. Scribe's binding makes the imprisoning tome supernaturally durable (hardness 20, 10 hp per HD the imprisoned creature had). Destroying the tome immediately slays the creature imprisoned within."
+			"A target bound by this spell can be freed by only ‹spell/freedom›, ‹spell/miracle›, or ‹spell/wish›. ‹spell/Polymorph any object› restores the target's normal form for 24 hours. Scribe's binding makes the imprisoning tome supernaturally durable (hardness 20, 10 hp per HD the imprisoned creature had). Destroying the tome immediately slays the creature imprisoned within."
 		]
 	},
 	"scriveners_chant": {
@@ -805,7 +805,7 @@
 			"",
 			"If the save fails, you can see and hear the subject and its surroundings (approximately 10 feet in all directions of the subject). If the subject moves, the sensor follows at a speed of up to 150 feet.",
 			"",
-			"As with all divination (scrying) spells, the sensor has your full visual acuity, including any magical effects. In addition, the following spells have a 5% chance per caster level of operating through the sensor: {spell/detect chaos}, {spell/detect evil}, {spell/detect good}, {spell/detect law}, {spell/detect magic}, and {spell/message}.",
+			"As with all divination (scrying) spells, the sensor has your full visual acuity, including any magical effects. In addition, the following spells have a 5% chance per caster level of operating through the sensor: ‹spell/detect chaos›, ‹spell/detect evil›, ‹spell/detect good›, ‹spell/detect law›, ‹spell/detect magic›, and ‹spell/message›.",
 			"",
 			"If the save succeeds, you can't attempt to scry on that subject again for at least 24 hours.",
 			"",
@@ -813,7 +813,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/337\" divination scrying arc=7 brd=6 clr=7 drd=7 mes=6 occ=6 orc=7 psy=7 sha=7 skd=6 sor=7 wit=7 wiz=7 ctSt cV cS rText effect=\"magical sensor\" durHL=1 will srY}",
 			"",
-			"This spell functions like scrying, except as noted above. Additionally, all of the following spells function reliably through the sensor: {spell/detect chaos}, {spell/detect evil}, {spell/detect good}, {spell/detect law}, {spell/detect magic}, {spell/message}, {spell/read magic}, and {spell/tongues}."
+			"This spell functions like scrying, except as noted above. Additionally, all of the following spells function reliably through the sensor: ‹spell/detect chaos›, ‹spell/detect evil›, ‹spell/detect good›, ‹spell/detect law›, ‹spell/detect magic›, ‹spell/message›, ‹spell/read magic›, and ‹spell/tongues›."
 		]
 	},
 	"scrying_greater": {
@@ -829,7 +829,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/241\" necromancy arc=1 occ=1 sor=1 wiz=1 ctSt cV cS cMp=\"lump of wax\" rTouch target=\"one dead creature touched\" durI save=\"Will partial, see text\" srN}",
 			"",
-			"With a clammy caress and a word to the powers lurking beyond death, you can reshape a dead body look like another creature or even a specific person so long as you have first-hand knowledge of how that creature or person actually looks. You can make the corpse one size larger or smaller and change anything else about it including its apparent type, gender, or age. Creatures with a reason to suspect deception may make a Will saving throw to realize that the corpse was altered. If you chose to make the corpse look like a specific individual anyone who knows that individual can make a Will save to realize that the corpse is not actually that person. However, if a creature fails its Will save by 5 or less they believe the corpse is that of someone who closely resembled the person they knew rather than a deliberate fake. This spell merely changes the appearance of the corpse. Any spell or effect that targets the corpse (such as {spell/speak with dead} or {spell/raise dead}) treats it as if it still had its original appearance."
+			"With a clammy caress and a word to the powers lurking beyond death, you can reshape a dead body look like another creature or even a specific person so long as you have first-hand knowledge of how that creature or person actually looks. You can make the corpse one size larger or smaller and change anything else about it including its apparent type, gender, or age. Creatures with a reason to suspect deception may make a Will saving throw to realize that the corpse was altered. If you chose to make the corpse look like a specific individual anyone who knows that individual can make a Will save to realize that the corpse is not actually that person. However, if a creature fails its Will save by 5 or less they believe the corpse is that of someone who closely resembled the person they knew rather than a deliberate fake. This spell merely changes the appearance of the corpse. Any spell or effect that targets the corpse (such as ‹spell/speak with dead› or ‹spell/raise dead›) treats it as if it still had its original appearance."
 		]
 	},
 	"sculpt_simulacrum": {
@@ -914,7 +914,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/185\" abjuration med=2 spr=3 ctSt cS rClose target=\"one creature\" durRL=1 saveNo srY}",
 			"",
-			"You seal the life force within the target, preventing it from sharing its vitality with others. Affected creatures can't transfer damage to or from another, such as through {spell/shield other}, a spiritualist's life bond, or a summoner's life link. Effects such as vampiric touch that steal vitality from others deal damage normally, but provide no benefits."
+			"You seal the life force within the target, preventing it from sharing its vitality with others. Affected creatures can't transfer damage to or from another, such as through ‹spell/shield other›, a spiritualist's life bond, or a summoner's life link. Effects such as vampiric touch that steal vitality from others deal damage normally, but provide no benefits."
 		]
 	},
 	"sealed_life_greater": {
@@ -925,7 +925,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/185\" abjuration spr=6 ctSt cS rClose target=\"one creature\" durML=1 saveNo srY}",
 			"",
-			"This spell functions as {spell/sealed life}, except it additionally provides the benefits of death ward and renders its targets immune to effects that extract or transfer its soul, such as possession and trap the soul. This spell prevents a soul from returning to its body if it has already departed, until the spell's duration expires."
+			"This spell functions as ‹spell/sealed life›, except it additionally provides the benefits of death ward and renders its targets immune to effects that extract or transfer its soul, such as possession and trap the soul. This spell prevents a soul from returning to its body if it has already departed, until the spell's duration expires."
 		]
 	},
 	"greater_sealed_life": { "redirect": "sealed_life_greater" },
@@ -952,7 +952,7 @@
 			"",
 			"The seamantle blocks line of effect for any fire spell or supernatural fire effect, but enemies can attempt to use fire spells within the seamantle; this requires a caster level check (DC 20 + spell level), and if successful the fire spell takes effect as a bubble of steam contained within the seamantle rather than its usual effect.",
 			"",
-			"The seamantle allows you to make a slam attack by forming a pseudopod of water, inflicting damage appropriate for your size. This slam attack has a reach of 30 feet. In addition, as a standard action, you can attempt to extinguish fires by touch. You automatically extinguish up to a 10-foot cube of normal fire. Against magical fire effects, your touch acts as {spell/dispel magic}; this also applies to any non-instantaneous fire affect that comes into contact with you (such as {spell/flame blade}, {spell/flaming sphere}, or {spell/incendiary cloud}). Even if you fail to extinguish a fire, you are not harmed by it. A {magic-enh/flaming} or {magic-enh/flaming burst} weapon that strikes you has its power suppressed for 1d4 rounds if the wielder fails a Fortitude save."
+			"The seamantle allows you to make a slam attack by forming a pseudopod of water, inflicting damage appropriate for your size. This slam attack has a reach of 30 feet. In addition, as a standard action, you can attempt to extinguish fires by touch. You automatically extinguish up to a 10-foot cube of normal fire. Against magical fire effects, your touch acts as ‹spell/dispel magic›; this also applies to any non-instantaneous fire affect that comes into contact with you (such as ‹spell/flame blade›, ‹spell/flaming sphere›, or ‹spell/incendiary cloud›). Even if you fail to extinguish a fire, you are not harmed by it. A ‹magic-enh/flaming› or ‹magic-enh/flaming burst› weapon that strikes you has its power suppressed for 1d4 rounds if the wielder fails a Fortitude save."
 		]
 	},
 	"searching_shadows": {
@@ -983,7 +983,7 @@
 			"",
 			":::mythic{title=\"Mythic Searing Light\"}",
 			"",
-			"{SOURCE Mythic Adventures/107}  ",
+			"‹SOURCE Mythic Adventures/107›  ",
 			"The spell's damage increases to 1d6 per caster level (maximum 10d6). The damage dealt to an undead creature increases to 1d8 points of damage per caster level (maximum 10d8), or 2d6 per caster level (maximum 20d6) if the undead is vulnerable to bright light. The damage dealt to constructs increases to 1d8 points of damage per 2 caster levels (maximum 5d8). If a creature struck has light sensitivity or light blindness, it takes the penalty from that weakness for 1 round after being struck by the light.",
 			"",
 			":::"
@@ -997,7 +997,7 @@
 			"",
 			"::spell{source=\"Pathfinder #119: Prisoners of the Blight/70\" transmutation arc=3 clr=3 drd=3 hnt=3 orc=3 sor=3 war=3 wit=3 wiz=3 ctSt cV cS rTouch target=\"living creature touched\" dur=\"1 round/level (see text)\" save=\"none (see text)\" srY}",
 			"",
-			">*Worshippers of {faith/Cyth-V'sug} have access to the following spell.*",
+			">*Worshippers of ‹faith/Cyth-V'sug› have access to the following spell.*",
 			"",
 			"By touching a living target, you cause a half-formed, parasitic clone of the target to burst from its midsection. The twin dangles from the target's body, making it difficult for the target to move easily and imparting a -2 penalty on Acrobatics and Climb checks. In addition, for the spell's duration, the target must succeed at a Fortitude saving throw at the start of its turn each round, or else it takes 1 point of Constitution damage and is sickened for that round as the twin siphons off its blood. Each time the target receives any healing (magical or otherwise), the duration of this spell is extended by 1 round. Each attack that deals damage to the target reduces the duration of this spell by 1 round. If the duration reaches 0 rounds in this manner, the twin is violently excised from the body, and the target takes 1d6 points of bleed damage (which can be healed as normal).",
 			"",
@@ -1094,7 +1094,7 @@
 			"",
 			"Disguises and illusions that mimic the set criterion can fool this spell. Normal darkness doesn't conceal a visual trigger, but magical darkness or invisibility does. Auditory criteria (such as a password) and tangible criteria (such as pressing your hand against a specific object or wall) can be performed by anyone who learns of them. A secret sign cannot distinguish alignment, level, Hit Dice, or class except by external garb, but can differentiate apparent races, genders, and garments. See invisibility and invisibility purge reveal the sign, but glitterdust does not.",
 			"",
-			"A caster of at least 10th level can make secret sign permanent on an object with a {spell/permanency} spell using 5,000 gp of diamond dust as a material component."
+			"A caster of at least 10th level can make secret sign permanent on an object with a ‹spell/permanency› spell using 5,000 gp of diamond dust as a material component."
 		]
 	},
 	"secret_speech": {
@@ -1187,7 +1187,7 @@
 			"",
 			"The spell does not reveal the method used to obtain invisibility. It does not reveal illusions or enable you to see through opaque objects. It does not reveal creatures who are simply hiding, concealed, or otherwise hard to see.",
 			"",
-			"See invisibility can be made permanent with a {spell/permanency} spell.",
+			"See invisibility can be made permanent with a ‹spell/permanency› spell.",
 			"",
 			"### Glimpse the Hidden",
 			"",
@@ -1210,7 +1210,7 @@
 			"",
 			"You gain the ability to see through solid rock as if it were transparent glass. You may see through 1 foot of stone per caster level. You see within the stone as if you were looking at the area in normal light, even if there is no illumination, though low-light vision and darkvision have no effect on your ability to see through stone. Metal at least 1 inch thick or wood or dirt at least 3 feet thick blocks your vision.",
 			"",
-			"The spell does not negate {rule/concealment} for those creatures hiding behind stone objects (the stone is still an obstacle to your attacks)."
+			"The spell does not negate ‹rule/concealment› for those creatures hiding behind stone objects (the stone is still an obstacle to your attacks)."
 		]
 	},
 	"seed_spies": {
@@ -1221,9 +1221,9 @@
 			"",
 			"::spell{source=\"Ultimate Wilderness/14\" divination arc=3 drd=2 hnt=2 occ=2 rgr=2 sha=3 sor=3 wit=3 wiz=3 ctR=1 cV cS cMp=\"a drop of honey\" rClose effect=\"up to one insect spy/4 levels\" durML=10 durD saveNo srN}",
 			"",
-			">*{race/Gathlain/s} have access to the following spell.*",
+			">*‹race/Gathlain«s› have access to the following spell.*",
 			"",
-			"This spell functions as {spell/insect spies}, except it creates wafting seeds with magical intellect instead of insects. The seeds can hear but not see. They fly at a speed of 10 feet (good maneuverability), but they can't crawl or climb, although they can cling to rough, soft, or sticky creatures or surfaces."
+			"This spell functions as ‹spell/insect spies›, except it creates wafting seeds with magical intellect instead of insects. The seeds can hear but not see. They fly at a speed of 10 feet (good maneuverability), but they can't crawl or climb, although they can cling to rough, soft, or sticky creatures or surfaces."
 		]
 	},
 	"seeds_of_influence": {
@@ -1236,7 +1236,7 @@
 			"",
 			"You leave a magical trace in the mind of a creature with an attitude of at least indifferent toward you. The target takes a cumulative -2 penalty on its Will save to negate the spell for each step by which its attitude is better than indifferent.",
 			"",
-			"The target takes a -2 penalty on saving throws against divination spells you cast. You can target that creature with mind-affecting spells of a spell level lower than seeds of influence as if those spells were modified by {feat/Enlarge Spell} (the modified spell doesn't take longer to cast and doesn't use a higher-level spell slot). Whenever the target succeeds at a saving throw against a divination or mind-affecting spell you cast, seeds of influence ends for that target. A creature can be subject to only one seeds of influence spell at a time; later castings of seeds of influence remove any previous casting.",
+			"The target takes a -2 penalty on saving throws against divination spells you cast. You can target that creature with mind-affecting spells of a spell level lower than seeds of influence as if those spells were modified by ‹feat/Enlarge Spell› (the modified spell doesn't take longer to cast and doesn't use a higher-level spell slot). Whenever the target succeeds at a saving throw against a divination or mind-affecting spell you cast, seeds of influence ends for that target. A creature can be subject to only one seeds of influence spell at a time; later castings of seeds of influence remove any previous casting.",
 			"",
 			"### Greater Seeds of Influence",
 			"",
@@ -1293,9 +1293,9 @@
 			"",
 			"::spell{source=\"Pathfinder #102: Breaking the Bones of Hell/75\" abjuration clr=6 inq=6 orc=6 war=6 ctR=1 cV cS rTouch target=\"creature or object touched\" durHL=1 will srY harmless object}",
 			"",
-			">*Priests of {faith/Mephistopheles} have access to the following spell.*",
+			">*Priests of ‹faith/Mephistopheles› have access to the following spell.*",
 			"",
-			"This spell functions as {spell/nondetection}, except that those who cast divination spells targeting the warded creature or item must succeed on a caster level check (DC = 15 + your caster level). If the caster of the divination fails, deadly magical feedback strikes at him, dealing 1d6 points of electricity damage per 2 caster levels you have (maximum 10d6 at 20th level).",
+			"This spell functions as ‹spell/nondetection›, except that those who cast divination spells targeting the warded creature or item must succeed on a caster level check (DC = 15 + your caster level). If the caster of the divination fails, deadly magical feedback strikes at him, dealing 1d6 points of electricity damage per 2 caster levels you have (maximum 10d6 at 20th level).",
 			"",
 			"Alternatively, if you cast bestow curse, chaos hammer, contagion, holy smite, order's wrath, poison, or unholy blight in the round immediately following seer's bane, you can replace the spell's damaging effect with the effects of that second spell (the divination's caster - and potentially those around him - save as normal for the modifying spell)."
 		]
@@ -1319,7 +1319,7 @@
 			"",
 			"::spell{source=\"Dirty Tactics Toolbox/31\" glamer illusion alc=3 ant=3 arc=3 brd=3 inq=3 inv=3 mag=3 skd=3 sor=3 sum=3 wiz=3 ctSt cV cS cMDFp=\"three translucent pebbles\" rClose target=\"you and one other creature\" durD durRL=1 saveNo srY}",
 			"",
-			"Upon casting this spell, you turn invisible, as per the {spell/invisibility} spell, and you choose a second target. That creature can still see you as though you were not invisible, and you can attack that creature without ending the invisibility effect on you. However, if you attack any other creature, this spell ends. If you cast this spell multiple times, you can attack any of the affected creatures without ending the spell."
+			"Upon casting this spell, you turn invisible, as per the ‹spell/invisibility› spell, and you choose a second target. That creature can still see you as though you were not invisible, and you can attack that creature without ending the invisibility effect on you. However, if you attack any other creature, this spell ends. If you cast this spell multiple times, you can attack any of the affected creatures without ending the spell."
 		]
 	},
 	"semblance_of_flesh": {
@@ -1330,7 +1330,7 @@
 			"",
 			"::spell{source=\"Pathfinder #86: Lords of Rust/75\" glamer illusion arc=2 clr=2 orc=2 sor=2 war=2 wiz=2 ctSt cV cS rTouch target=\"construct touched\" durML=10 durD}",
 			"",
-			">*Clerics of {faith/Brigh} have access to the following spell.*",
+			">*Clerics of ‹faith/Brigh› have access to the following spell.*",
 			"",
 			"You make the target construct appear to be a living creature of flesh and bone, regardless of its actual materials. You can make it seem 1 foot shorter or taller, and appear thin, fat, or anywhere in between. Its bodily configuration does not change; for example, a centaur-like construct looks like a centaur rather than a human. The extent of the apparent change (such as flesh color, hair color, apparent age, and so on) is up to you.",
 			"",
@@ -1355,7 +1355,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Sending\"}",
 			"",
-			"{SOURCE Mythic Adventures/107}",
+			"‹SOURCE Mythic Adventures/107›",
 			"",
 			"You can contact a number of additional creatures equal to your tier. Each creature must receive the same message, and can communicate back only to you.",
 			"",
@@ -1393,7 +1393,7 @@
 			"",
 			"::spell{source=\"Horror Adventures/127\" divination clr=2 inq=2 med=2 occ=2 orc=2 pal=2 psy=2 war=2 ctSt cV cS rClose target=\"creatures in range (see text)\" durCon=\", up to 1 round/level\" saveNo srN}",
 			"",
-			"You can sense the presence of mental disturbance in creatures within range, focusing your detection on one creature each round. If the target is currently suffering from any form of {rule/madness} or addiction, has total sanity damage greater than or equal to its [sanity edge](rule/sanity_score_edge_and_thresholds), or is under a magical compulsion that could be detected by {spell/detect magic}, you can detect the presence of such a disturbance on the first round of concentration.",
+			"You can sense the presence of mental disturbance in creatures within range, focusing your detection on one creature each round. If the target is currently suffering from any form of ‹rule/madness› or addiction, has total sanity damage greater than or equal to its [sanity edge](rule/sanity_score_edge_and_thresholds), or is under a magical compulsion that could be detected by ‹spell/detect magic›, you can detect the presence of such a disturbance on the first round of concentration.",
 			"",
 			"If you concentrate on the same creature for an additional round, you learn if the creature's total sanity damage is greater than or equal to its sanity edge, and you can attempt a Sense Motive check against a DC equal to 10 + the save DC of the target's madness or addiction to determine the exact nature of a madness or addiction. Additionally, you can attempt a Spellcraft check with a DC equal to 11 + the caster level of the compulsion against each magical compulsion currently affecting the target that could be detected by detect magic. If successful, you can identify the specific spell affecting the target. You gain a +4 bonus on your Spellcraft check if the effect is confusion, insanity, or a similar effect that explicitly causes madness or insanity. If you successfully identify such an effect with sense madness, the insights provided by this spell grant you a +1 circumstance bonus on your next caster level check in the following 1 minute made to counter, dispel, or remove that specific effect. After attempting a check to identify a madness, addiction, or compulsion, you can't attempt that check against the same creature again, even if you concentrate on the creature again."
 		]
@@ -1428,7 +1428,7 @@
 			"",
 			"::spell{source=\"Occult Origins/29\" mindAffecting divination drd=4 hnt=4 med=2 mes=3 psy=3 wit=3 ctSt cS rPers area=\"10-ft.-radius emanation centered on you\" durD durRL=1 will srY}",
 			"",
-			"You open the minds of all creatures near you and enhance their sensory receptors. All living creatures other than you in the area gain a +5 bonus on Perception checks. Sighted creatures gain low-light vision, and creatures with a sense of smell gain {umr/scent}. In addition, the first time each round that a creature in the area takes damage, it takes an additional 2d6 points of damage of the same type. Despite being within the area, the caster does not take this extra damage."
+			"You open the minds of all creatures near you and enhance their sensory receptors. All living creatures other than you in the area gain a +5 bonus on Perception checks. Sighted creatures gain low-light vision, and creatures with a sense of smell gain ‹umr/scent›. In addition, the first time each round that a creature in the area takes damage, it takes an additional 2d6 points of damage of the same type. Despite being within the area, the caster does not take this extra damage."
 		]
 	},
 	"sensory_overload": {
@@ -1450,13 +1450,13 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/143\" evil necromancy ant=1 arc=2 clr=2 orc=2 sor=2 war=2 wit=2 wiz=2 ctH=1 cV cS cMp=\"an onyx gem worth at least 10 gp\" rTouch target=\"severed head touched\" dur=\"permanent (d); see text\" saveNo srN}",
 			"",
-			">*{race/Orc/s} have access to the following spell.*",
+			">*‹race/Orc«s› have access to the following spell.*",
 			"",
 			"You restore the senses to the severed head of a humanoid or monstrous humanoid killed within the past 24 hours, creating a grisly sentinel. The head must be affixed to a pole, spear, tree branch, or other stable object, and the spell ends if the head or its object is moved. The head has darkvision 60 feet and low-light vision, can swivel in place to look in any direction, and has a +5 bonus on Perception checks.",
 			"",
 			"If you are within 30 feet of the head, as a standard action you can shift your senses to it, seeing and hearing from its location and gaining the benefit of its darkvision and low-light vision, and you may use its Perception skill instead of your own. While your senses are in the severed head, your body is blind and deaf until you spend a free action to shift your senses back to your own body.",
 			"",
-			"When you create the head, you can imprint it with a single triggering condition, similar to {spell/magic mouth}. Once this triggering condition is set, it can never be changed. If you are within 30 feet of the head, you immediately know if it is triggered (if you have multiple active sentry skulls, you also know which one was triggered). This wakens you from normal sleep but does not otherwise disturb your concentration. For example, you could have a sentry skull alert you if any humanoid comes into view, if a particular rival approaches, if your guard animal is killed, and so on, as long as it occurs where the severed head can see it.",
+			"When you create the head, you can imprint it with a single triggering condition, similar to ‹spell/magic mouth›. Once this triggering condition is set, it can never be changed. If you are within 30 feet of the head, you immediately know if it is triggered (if you have multiple active sentry skulls, you also know which one was triggered). This wakens you from normal sleep but does not otherwise disturb your concentration. For example, you could have a sentry skull alert you if any humanoid comes into view, if a particular rival approaches, if your guard animal is killed, and so on, as long as it occurs where the severed head can see it.",
 			"",
 			"This spell does not give the head any ability to speak, think, or take any kind of action other than to turn itself, though it is a suitable target for other spells such as magic mouth."
 		]
@@ -1475,11 +1475,11 @@
 			"",
 			"While trapped in the amber field of force, the subject does not age, breathe, grow hungry, sleep, or regain spells. It is preserved in a state of suspended animation, unaware of its surroundings. It can be damaged by outside forces (and perhaps even killed), since the field provides no protection against physical injury. However, a dying subject does not lose hit points or become stable until the spell ends.",
 			"",
-			"The hidden sigil cannot be detected by normal observation, and {spell/detect magic} reveals only that the entire text is magical.",
+			"The hidden sigil cannot be detected by normal observation, and ‹spell/detect magic› reveals only that the entire text is magical.",
 			"",
-			"A {spell/dispel magic} can remove the sigil. An {spell/erase} spell destroys the entire page of text.",
+			"A ‹spell/dispel magic› can remove the sigil. An ‹spell/erase› spell destroys the entire page of text.",
 			"",
-			"Sepia snake sigil can be cast in combination with other spells that hide or garble text, such as {spell/secret page}."
+			"Sepia snake sigil can be cast in combination with other spells that hide or garble text, such as ‹spell/secret page›."
 		]
 	},
 	"sequester": {
@@ -1490,7 +1490,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/340\" abjuration arc=7 psy=7 sor=7 sum=5 usm=6 wiz=7 ctSt cV cS cMp=\"a basilisk eyelash and gum arabic\" rTouch target=\"one willing creature or object (up to a 2-ft. cube/level) touched\" durD durDL=1 save=\"none or Will negates (object)\" sr=\"no or yes (object)\"}",
 			"",
-			"When cast, this spell prevents divination spells from detecting or locating the target and also renders the affected target invisible (as the {spell/invisibility} spell). The spell does not prevent the subject from being discovered through tactile means or through the use of devices. Creatures affected by sequester become comatose and are effectively in a state of suspended animation until the spell ends.",
+			"When cast, this spell prevents divination spells from detecting or locating the target and also renders the affected target invisible (as the ‹spell/invisibility› spell). The spell does not prevent the subject from being discovered through tactile means or through the use of devices. Creatures affected by sequester become comatose and are effectively in a state of suspended animation until the spell ends.",
 			"",
 			"*Note:* The Will save prevents an attended or magical object from being sequestered. There is no save to see the sequestered creature or object or to detect it with a divination spell."
 		]
@@ -1503,9 +1503,9 @@
 			"",
 			"::spell{source=\"Pathfinder Society Field Guide/58\" enchantment compulsion mindAffecting arc=5 brd=3 skd=3 sor=5 wiz=5 ctM=10 cV cS cMp=\"a gemstone worth at least 500 gp\" rPers target=\"one willing creature\" dur=\"permanent until discharged (see text)\"}",
 			"",
-			"Sequester thoughts allows you to erase a creature's memory of either an event lasting not more than 1 minute per caster level or all of its knowledge about a single topic (using the GM's discretion as to what constitutes a single topic). For example, you could erase a single battle from a creature's memory, or all knowledge of a plot to assassinate a king. The memories you remove are stored within the gem used at the time of casting. If the gem is shattered, the memories return to the creature as long as the two are within 30 feet of each other. Once sequester thoughts has been cast, the spell remains active on the gem and can be dispelled (which shatters it). No portion of the spell remains active on the target creature, and the target does not radiate magic as a consequence of the spell, nor can its memories be returned by dispelling the creature or subjecting it to antimagic. If the gem is shattered or dispelled out of range from the creature, the thoughts sequestered within are forever lost save by the use of {spell/wish}, {spell/miracle}, or the like.",
+			"Sequester thoughts allows you to erase a creature's memory of either an event lasting not more than 1 minute per caster level or all of its knowledge about a single topic (using the GM's discretion as to what constitutes a single topic). For example, you could erase a single battle from a creature's memory, or all knowledge of a plot to assassinate a king. The memories you remove are stored within the gem used at the time of casting. If the gem is shattered, the memories return to the creature as long as the two are within 30 feet of each other. Once sequester thoughts has been cast, the spell remains active on the gem and can be dispelled (which shatters it). No portion of the spell remains active on the target creature, and the target does not radiate magic as a consequence of the spell, nor can its memories be returned by dispelling the creature or subjecting it to antimagic. If the gem is shattered or dispelled out of range from the creature, the thoughts sequestered within are forever lost save by the use of ‹spell/wish›, ‹spell/miracle›, or the like.",
 			"",
-			"Sequester thoughts protects against {spell/detect thoughts}, {spell/zone of truth}, {spell/discern lies}, and similar spells where the memories removed are concerned, though careful questioning may reveal the gaps in the creature's memory, or that it has been affected by the spell. Note that the creature itself does not remember any details of what memories were removed until the gem is broken."
+			"Sequester thoughts protects against ‹spell/detect thoughts›, ‹spell/zone of truth›, ‹spell/discern lies›, and similar spells where the memories removed are concerned, though careful questioning may reveal the gaps in the creature's memory, or that it has been affected by the spell. Note that the creature itself does not remember any details of what memories were removed until the gem is broken."
 		]
 	},
 	"serenity": {
@@ -1516,7 +1516,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/236\" enchantment compulsion mindAffecting emotion arc=6 brd=4 clr=5 mes=4 orc=5 psy=5 skd=4 sor=6 war=5 wiz=6 ctSt cV cS rMed targets=\"one creature/level, no two of which can be more than 30 ft. apart\" durRL=1 will srY}",
 			"",
-			"You fill the targets' minds with feelings of tranquility. Those attempting to commit violence become stricken with wracking pain and take 3d6 points of nonlethal damage each round they attempt to harm another creature. If attacked, affected individuals can defend themselves and may participate in combat by using {feat/Combat Expertise}, fighting defensively, or taking the total defense action without triggering the spell's nonlethal damage."
+			"You fill the targets' minds with feelings of tranquility. Those attempting to commit violence become stricken with wracking pain and take 3d6 points of nonlethal damage each round they attempt to harm another creature. If attacked, affected individuals can defend themselves and may participate in combat by using ‹feat/Combat Expertise›, fighting defensively, or taking the total defense action without triggering the spell's nonlethal damage."
 		]
 	},
 	"serrens_armor_lock": {
@@ -1562,7 +1562,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/324\" enchantment clr=3 orc=3 war=3 wit=2 ctSt cV cS rClose target=\"one living creature\" durML=10 will srY}",
 			"",
-			"You curse the target, preventing it from drawing upon the powers of destiny. The target is shaken and cannot use hero points for the duration of the spell. This effect can be removed by {spell/dispel magic}, {spell/remove curse}, or other similar effects."
+			"You curse the target, preventing it from drawing upon the powers of destiny. The target is shaken and cannot use hero points for the duration of the spell. This effect can be removed by ‹spell/dispel magic›, ‹spell/remove curse›, or other similar effects."
 		]
 	},
 	"shackle": {
@@ -1605,13 +1605,13 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/211\" illusion shadowDesc shadowSub arc=2 brd=2 mes=2 psy=2 rma=2 skd=2 sor=2 wit=2 wiz=2 ctSt cS rTouch target=\"creature touched\" effect=\"a shadowy shadow tether\" dur=\"1 round/level (d); see text\" will srY}",
 			"",
-			">*{race/Wayang/s} have access to the following spell.*",
+			">*‹race/Wayang«s› have access to the following spell.*",
 			"",
 			"The target's shadow becomes a flexible tether to its current square. The creature can move up to 5 feet from that square without penalty. Moving farther than 5 feet from the tether point requires the target to make a bull rush combat maneuver check against a CMB of 10 + 1/2 your caster level + your Intelligence modifier (if a witch or wizard) or Charisma modifier (if a bard or sorcerer). The target takes a -1 penalty for every 5 feet of distance between it and its tethered square. Failing this check means the target's move is wasted and it cannot move farther away. If it fails this check by 10 or more, it is pulled 5 feet toward the tether square and is knocked prone. If it beats the check by 10 or more, the spell ends. This spell does not work on creatures that do not cast shadows or reflections. If the target uses a teleportation effect or leaves the current plane, the spell ends.",
 			"",
 			":::mythic{title=\"Mythic Shadow Anchor\"}",
 			"",
-			"{SOURCE Mythic Adventures/107}  ",
+			"‹SOURCE Mythic Adventures/107›  ",
 			"Add your tier to the CMD of the shadow tether. A creature attempting to escape the shadow tether using planar travel or teleportation must succeed at a Will saving throw or be shunted to the Plane of Shadow instead of its intended destination, as if it had cast shadow walk (if the target could not reach the Shadow Plane from its current location using shadow walk, this aspect of the spell has no effect).",
 			"",
 			":::"
@@ -1631,7 +1631,7 @@
 			"",
 			"The chain radiates darkness in a 10-foot-radius spread around you, reducing the illumination level in this area by one step, but not below the level of dim light.",
 			"",
-			"You can wield the shadow barbs as a spiked chain as if you were fully proficient with spiked chains. Any additional abilities or feats that you possess that apply to spiked chains apply to the shadow barbs as well. The weapon functions as a +2 {magic-enh/vicious} {eq-weapon/spiked chain}. Its enhancement bonus increases to +3 at caster level 11th, to +4 at caster level 15th, and finally to +5 at caster level 19th. When the spell effect ends, you can make a Will save against the spell - if successful, all of the damage caused to you by the shadow barbs' vicious weapon quality vanishes, unless you are dead or unconscious at the time the spell ends, in which case you automatically fail this Will save and the vicious weapon damage remains."
+			"You can wield the shadow barbs as a spiked chain as if you were fully proficient with spiked chains. Any additional abilities or feats that you possess that apply to spiked chains apply to the shadow barbs as well. The weapon functions as a +2 ‹magic-enh/vicious› ‹eq-weapon/spiked chain›. Its enhancement bonus increases to +3 at caster level 11th, to +4 at caster level 15th, and finally to +5 at caster level 19th. When the spell effect ends, you can make a Will save against the spell - if successful, all of the damage caused to you by the shadow barbs' vicious weapon quality vanishes, unless you are dead or unconscious at the time the spell ends, in which case you automatically fail this Will save and the vicious weapon damage remains."
 		]
 	},
 	"shadow_body": {
@@ -1642,9 +1642,9 @@
 			"",
 			"::spell{source=\"Occult Adventures/186\" polymorph transmutation arc=7 sor=7 spr=5 wit=7 wiz=7 ctSt cV cS rPers target=you durML=1 durD}",
 			"",
-			"You exchange the crude matter of your material body with the insubstantial essence of the Plane of Shadow, becoming a living shadow yourself. You are visible as an unattached shadow in bright light or normal light, but you gain total {rule/concealment} in dim light or darkness. Against creatures with darkvision, you gain concealment rather than total concealment. Your shadow body is incorporeal for most purposes, though you can't fly or pass through solid objects or creatures. However, you can move at your normal speed along any surface, including horizontal and vertical surfaces and liquids, and you are never slowed by difficult terrain. Your size doesn't change.",
+			"You exchange the crude matter of your material body with the insubstantial essence of the Plane of Shadow, becoming a living shadow yourself. You are visible as an unattached shadow in bright light or normal light, but you gain total ‹rule/concealment› in dim light or darkness. Against creatures with darkvision, you gain concealment rather than total concealment. Your shadow body is incorporeal for most purposes, though you can't fly or pass through solid objects or creatures. However, you can move at your normal speed along any surface, including horizontal and vertical surfaces and liquids, and you are never slowed by difficult terrain. Your size doesn't change.",
 			"",
-			"You can speak and cast spells and perform mental actions, but you have no physical substance and cannot manipulate objects or attack physically. You can deliver touch spells and effects as if making an incorporeal touch attack. Your equipment merges with your shadow body, so you can't cast spells with a material component unless those spells are prepared with {feat/Eschew Materials}."
+			"You can speak and cast spells and perform mental actions, but you have no physical substance and cannot manipulate objects or attack physically. You can deliver touch spells and effects as if making an incorporeal touch attack. Your equipment merges with your shadow body, so you can't cast spells with a material component unless those spells are prepared with ‹feat/Eschew Materials›."
 		]
 	},
 	"shadow_bomb_admixture": {
@@ -1657,7 +1657,7 @@
 			"",
 			"Upon drinking an extract created with this formula, you make a significant change to your magical reserve that modifies the nature of all bombs you create and throw during this extract's duration. This effect on your magical reserve has no effect on any discoveries that you use to modify your bombs, but you can only have one admixture effect (formula with the word \"bomb admixture\" in its title) active at a time. If you drink another bomb admixture, the effects of the former bomb admixture end and the new one becomes active.",
 			"",
-			"When you throw a bomb and hit a direct target, a shadowy substance is released from the bomb covering the direct target and up to three creatures that take damage from the bomb's splash (alchemist's choice). The affected creatures must successfully make a Fortitude saving throw, or they gain {rule/concealment} but treat all other creatures as having concealment for the duration of the shadow bomb admixture. This effect does not ignore spell resistance."
+			"When you throw a bomb and hit a direct target, a shadowy substance is released from the bomb covering the direct target and up to three creatures that take damage from the bomb's splash (alchemist's choice). The affected creatures must successfully make a Fortitude saving throw, or they gain ‹rule/concealment› but treat all other creatures as having concealment for the duration of the shadow bomb admixture. This effect does not ignore spell resistance."
 		]
 	},
 	"shadow_claws": {
@@ -1787,7 +1787,7 @@
 			"",
 			"Using a slashing motion with the spell's focus as part of the casting of shadow invasion, you cut open a rift to the Plane of Shadow that fills a 30-foot area with shadowy energies. This area is stationary and becomes dark and gloomy, reducing the light level by one step (as darkness). Certain spells are enhanced within the area; spells of the shadow subschool that have reduced effects when disbelieved (such as shadow evocation) have their reduced effects increased by 20% (to a maximum of 90%) when determining their effects on targets within the area of shadow invasion.",
 			"",
-			"In addition, the rift created by shadow invasion has a chance of attracting attention from the other side, and the spell can be inverted to bring these watchers through. When shadow invasion is dismissed as a standard action, there is a chance that a single evangelist kyton will be summoned under the caster's command (as per {spell/summon monster V}). This chance is 5% for every full round that shadow invasion was active. If the caster level of shadow invasion is 16th or greater, this effect summons an interlocutor kyton instead. A kyton summoned this way remains for a number of rounds equal to what the remaining duration of shadow invasion would have been had it not been dismissed. Successfully summoning a kyton this way is a lawful and evil act, as though casting a spell with the lawful and evil descriptors."
+			"In addition, the rift created by shadow invasion has a chance of attracting attention from the other side, and the spell can be inverted to bring these watchers through. When shadow invasion is dismissed as a standard action, there is a chance that a single evangelist kyton will be summoned under the caster's command (as per ‹spell/summon monster V›). This chance is 5% for every full round that shadow invasion was active. If the caster level of shadow invasion is 16th or greater, this effect summons an interlocutor kyton instead. A kyton summoned this way remains for a number of rounds equal to what the remaining duration of shadow invasion would have been had it not been dismissed. Successfully summoning a kyton this way is a lawful and evil act, as though casting a spell with the lawful and evil descriptors."
 		]
 	},
 	"shadow_jaunt": {
@@ -1809,7 +1809,7 @@
 			"",
 			"::spell{source=\"Inner Sea Races/222\" enchantment compulsion mindAffecting darkness emotion evil ant=4 brd=4 skd=4 ctSt cV cS rClose targets=\"one creature/3 levels\" durRL=1 save=\"Will partial (see text)\" srY}",
 			"",
-			">*The following spell is available to the indicated race or ethnicity: {race/Tiefling}*",
+			">*The following spell is available to the indicated race or ethnicity: ‹race/Tiefling›*",
 			"",
 			"You create a shadowy aura of doubt fueled by a foe's own inner flaws. Targets perceive all illumination as if it were one light level darker, to a minimum light level of darkness (not supernatural darkness), even on a successful saving throw.",
 			"",
@@ -1824,7 +1824,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/243\" evil necromancy arc=4 sor=4 wiz=4 ctM=1 cS rPers target=you durD durHL=1}",
 			"",
-			"With this spell, you infuse your life force and psyche into your shadow, giving it independent life and movement as if it were an undead {monster/shadow}. Your physical body lies comatose while you are projecting your shadow, and your body has no shadow or reflection while the spell is in effect.",
+			"With this spell, you infuse your life force and psyche into your shadow, giving it independent life and movement as if it were an undead ‹monster/shadow›. Your physical body lies comatose while you are projecting your shadow, and your body has no shadow or reflection while the spell is in effect.",
 			"",
 			"While projecting your shadow, you gain a shadow's darkvision, defensive abilities, fly speed, racial stealth modifier, and strength damage attack. You do not gain the creature's create spawn ability, nor its skill ranks or Hit Dice. Your shadow has Hit Dice and hit points equal to your own. Your shadow projection has the undead type and may be turned or affected as undead.",
 			"",
@@ -1919,7 +1919,7 @@
 			"",
 			":::mythic{title=\"Mythic Shadow Weapon\"}",
 			"",
-			"{SOURCE Mythic Adventures/107}  ",
+			"‹SOURCE Mythic Adventures/107›  ",
 			"Add your tier to your caster level when determining what enhancement bonus or weapon special abilities the weapon can have. The weapon deals half damage to creatures that disbelieve in it and to objects, instead of only 1 point.",
 			"",
 			"You can spend a swift action to transform the weapon into a dull black metal ring on your finger, or to return it from its ring form to its weapon form in your hand.",
@@ -1946,7 +1946,7 @@
 			"",
 			"::spell{source=\"Heroes of the Darklands/9\" illusion shadowSub arc=1 brd=1 inq=1 mes=1 skd=1 sor=1 sum=1 usm=1 wiz=1 ctSt cV cS cMp=\"a blindfold\" rTouch target=\"creature touched\" durML=1 durD will srY harmless}",
 			"",
-			"In areas of darkness, the target of shadowfade is invisible to creatures using darkvision to see. In areas of dim light, the target gains {rule/concealment} against creatures using darkvision. This spell has no effect in areas of normal light or brighter, and is automatically dispelled if the target enters an area of bright light or takes a hostile action."
+			"In areas of darkness, the target of shadowfade is invisible to creatures using darkvision to see. In areas of dim light, the target gains ‹rule/concealment› against creatures using darkvision. This spell has no effect in areas of normal light or brighter, and is automatically dispelled if the target enters an area of bright light or takes a hostile action."
 		]
 	},
 	"shadowform": {
@@ -1979,7 +1979,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/113\" transmutation arc=4 psy=4 rma=4 sor=4 wiz=4 ctSt cV cS cMp=\"a small black silk bag\" rTouch target=\"one 5-foot square of floor touched\" durD durHL=2 saveNo srN}",
 			"",
-			">*{race/Fetchling/s} have access to the following spell.*",
+			">*‹race/Fetchling«s› have access to the following spell.*",
 			"",
 			"This spell functions like rope trick, except the point of entry is through a 5-foot-square instead of a rope. The space holds as many as 10 creatures of any size.",
 			"",
@@ -2059,7 +2059,7 @@
 			"",
 			":::mythic{title=\"Mythic Strangling Hair\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}  ",
+			"‹SOURCE Mythic Adventures/109›  ",
 			"You may use your hair to attempt dirty trick, disarm, steal, or trip combat maneuvers instead of grapple combat maneuvers. Add your tier to combat maneuver checks attempted with your hair and to your hair's damage rolls made as part of a grapple.",
 			"",
 			":::"
@@ -2106,7 +2106,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/201\" transmutation arc=1 bld=1 drd=1 hnt=1 rgr=1 rma=1 sor=1 wit=1 wiz=1 ctSt cV cS rTouch target=\"creature touched\" durML=1 fort srY harmless}",
 			"",
-			">*{race/Strix} have access to the following spell.*",
+			">*‹race/Strix› have access to the following spell.*",
 			"",
 			"The target's wings grow more powerful, causing its fly speed to increase by +10 feet and its maneuverability to improve by one category (to a maximum of good). This increase counts as an enhancement bonus. This spell has no effect on wingless creatures or winged creatures that cannot fly."
 		]

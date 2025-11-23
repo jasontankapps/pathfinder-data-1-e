@@ -4,9 +4,9 @@
 		"tags": "creating magic items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/548}",
+			"‹SOURCE PRPG Core Rulebook/548›",
 			"",
-			"To create magic items, spellcasters use special feats which allow them to invest time and money in an item's creation. At the end of this process, the spellcaster must make a single skill check (usually Spellcraft, but sometimes another skill) to finish the item. If an item type has multiple possible skills, you choose which skill to make the check with. The DC to create a magic item is 5 + the caster level for the item. Failing this check means that the item does not function and the materials and time are wasted. Failing this check by 5 or more results in a cursed item (see {rule/Cursed Items} for more information).",
+			"To create magic items, spellcasters use special feats which allow them to invest time and money in an item's creation. At the end of this process, the spellcaster must make a single skill check (usually Spellcraft, but sometimes another skill) to finish the item. If an item type has multiple possible skills, you choose which skill to make the check with. The DC to create a magic item is 5 + the caster level for the item. Failing this check means that the item does not function and the materials and time are wasted. Failing this check by 5 or more results in a cursed item (see ‹rule/Cursed Items› for more information).",
 			"",
 			"Note that all items have prerequisites in their descriptions. These prerequisites must be met for the item to be created. Most of the time, they take the form of spells that must be known by the item's creator (although access through another magic item or spellcaster is allowed). The DC to create a magic item increases by +5 for each prerequisite the caster does not meet. The only exception to this is the requisite item creation feat, which is mandatory. In addition, you cannot create potions, spell-trigger, or spell-completion magic items without meeting their spell prerequisites.",
 			"",
@@ -60,7 +60,7 @@
 		"name": "Magic Item Gold Piece Values",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/549}",
+			"‹SOURCE PRPG Core Rulebook/549›",
 			"",
 			"Many factors must be considered when determining the price of new magic items. The easiest way to come up with a price is to compare the new item to an item that is already priced, using that price as a guide. Otherwise, use the guidelines summarized on the table below.",
 			"",
@@ -80,7 +80,7 @@
 			"",
 			"Not all items adhere to these formulas. First and foremost, these few formulas aren't enough to truly gauge the exact differences between items. The price of a magic item may be modified based on its actual worth. The formulas only provide a starting point. The pricing of scrolls assumes that, whenever possible, a wizard or cleric created it. Potions and wands follow the formulas exactly. Staves follow the formulas closely, and other items require at least some judgment calls.",
 			"",
-			">@HL[Also See:] {rule/Magic Item Creation /(Advanced Magic Topics)>ucp}",
+			">@HL[Also See:] ‹rule/Magic Item Creation «(Advanced Magic Topics)<ucp›",
 			"",
 			"### Estimating Magic Item Gold Piece Values",
 			"",
@@ -150,7 +150,7 @@
 		"name": "Creating Magic Armor",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/550}",
+			"‹SOURCE PRPG Core Rulebook/550›",
 			"",
 			"To create magic armor, a character needs a heat source and some iron, wood, or leatherworking tools. He also needs a supply of materials, the most obvious being the armor or the pieces of the armor to be assembled. Armor to be made into magic armor must be masterwork armor, and the masterwork cost is added to the base price to determine final market value. Additional magic supply costs for the materials are subsumed in the cost for creating the magic armor - half the base price of the item. Creating magic armor has a special prerequisite: The creator's caster level must be at least three times the enhancement bonus of the armor. If an item has both an enhancement bonus and a special ability, the higher of the two caster level requirements must be met. Magic armor or a magic shield must have at least a +1 enhancement bonus to have any armor or shield special abilities.",
 			"",
@@ -160,7 +160,7 @@
 			"",
 			"Crafting magic armor requires one day for each 1,000 gp value of the base price.",
 			"",
-			"*Item Creation Feat Required:* {feat/Craft Magic Arms and Armor}.",
+			"*Item Creation Feat Required:* ‹feat/Craft Magic Arms and Armor›.",
 			"",
 			"*Skill Used in Creation:* Spellcraft or Craft (armor)."
 		],
@@ -187,7 +187,7 @@
 		"name": "Creating Magic Weapons",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/551}",
+			"‹SOURCE PRPG Core Rulebook/551›",
 			"",
 			"To create a magic weapon, a character needs a heat source and some iron, wood, or leatherworking tools. She also needs a supply of materials, the most obvious being the weapon or the pieces of the weapon to be assembled. Only a masterwork weapon can become a magic weapon, and the masterwork cost is added to the total cost to determine final market value. Additional magic supplies costs for the materials are subsumed in the cost for creating the magic weapon - half the base price of the item based upon the item's total effective bonus.",
 			"",
@@ -203,7 +203,7 @@
 			"",
 			"Crafting a magic weapon requires 1 day for each 1,000 gp value of the base price.",
 			"",
-			"*Item Creation Feat Required:* {feat/Craft Magic Arms and Armor}.",
+			"*Item Creation Feat Required:* ‹feat/Craft Magic Arms and Armor›.",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (bows) (for magic bows and arrows), or Craft (weapons) (for all other weapons)."
 		],
@@ -231,7 +231,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/551}",
+			"‹SOURCE PRPG Core Rulebook/551›",
 			"",
 			"The creator of a potion needs a level working surface and at least a few containers in which to mix liquids, as well as a source of heat to boil the brew. In addition, he needs ingredients. The costs for materials and ingredients are subsumed in the cost for brewing the potion: 25 gp &times; the level of the spell &times; the level of the caster.",
 			"",
@@ -239,7 +239,7 @@
 			"",
 			"Material components are consumed when he begins working, but a focus is not. (A focus used in brewing a potion can be reused.) The act of brewing triggers the prepared spell, making it unavailable for casting until the character has rested and regained spells. (That is, that spell slot is expended from the caster's currently prepared spells, just as if it had been cast.) Brewing a potion requires 1 day.",
 			"",
-			"*Item Creation Feat Required:* {feat/Brew Potion}.",
+			"*Item Creation Feat Required:* ‹feat/Brew Potion›.",
 			"",
 			"*Skill Used in Creation:* Spellcraft or Craft (alchemy)",
 			"",
@@ -286,9 +286,9 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/551}",
+			"‹SOURCE PRPG Core Rulebook/551›",
 			"",
-			"To create a magic ring, a character needs a heat source. He also needs a supply of materials, the most obvious being a ring or the pieces of the ring to be assembled. The cost for the materials is subsumed in the cost for creating the ring. Ring costs are difficult to determine. Refer to {rule/Magic Item Gold Piece Values} and use the ring prices in the ring descriptions as a guideline. Creating a ring generally costs half the ring's market price.",
+			"To create a magic ring, a character needs a heat source. He also needs a supply of materials, the most obvious being a ring or the pieces of the ring to be assembled. The cost for the materials is subsumed in the cost for creating the ring. Ring costs are difficult to determine. Refer to ‹rule/Magic Item Gold Piece Values› and use the ring prices in the ring descriptions as a guideline. Creating a ring generally costs half the ring's market price.",
 			"",
 			"Rings that duplicate spells with costly material components add in the value of 50 &times; the spell's component cost. Having a spell with a costly component as a prerequisite does not automatically incur this cost. The act of working on the ring triggers the prepared spells, making them unavailable for casting during each day of the ring's creation. (That is, those spell slots are expended from the caster's currently prepared spells, just as if they had been cast.)",
 			"",
@@ -296,7 +296,7 @@
 			"",
 			"Forging a ring requires 1 day for each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* {feat/Forge Ring}.",
+			"*Item Creation Feat Required:* ‹feat/Forge Ring›.",
 			"",
 			"*Skill Used in Creation:* Spellcraft or Craft (jewelry)."
 		],
@@ -324,9 +324,9 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/552}",
+			"‹SOURCE PRPG Core Rulebook/552›",
 			"",
-			"To create a magic rod, a character needs a supply of materials, the most obvious being a rod or the pieces of the rod to be assembled. The cost for the materials is subsumed in the cost for creating the rod. Rod costs are difficult to determine. Refer to {rule/Magic Item Gold Piece Values} and use the rod prices in the rod descriptions as a guideline. Creating a rod costs half the market value listed.",
+			"To create a magic rod, a character needs a supply of materials, the most obvious being a rod or the pieces of the rod to be assembled. The cost for the materials is subsumed in the cost for creating the rod. Rod costs are difficult to determine. Refer to ‹rule/Magic Item Gold Piece Values› and use the rod prices in the rod descriptions as a guideline. Creating a rod costs half the market value listed.",
 			"",
 			"If spells are involved in the prerequisites for making the rod, the creator must have prepared the spells to be cast (or must know the spells, in the case of a sorcerer or bard) but need not provide any material components or focuses the spells require. The act of working on the rod triggers the prepared spells, making them unavailable for casting during each day of the rod's creation. (That is, those spell slots are expended from the caster's currently prepared spells, just as if they had been cast.)",
 			"",
@@ -334,7 +334,7 @@
 			"",
 			"Crafting a rod requires 1 day for each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* {feat/Craft Rod}.",
+			"*Item Creation Feat Required:* ‹feat/Craft Rod›.",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (jewelry), Craft (sculptures), or Craft (weapons)."
 		],
@@ -362,7 +362,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/552}",
+			"‹SOURCE PRPG Core Rulebook/552›",
 			"",
 			"To create a scroll, a character needs a supply of choice writing materials, the cost of which is subsumed in the cost for scribing the scroll: 12.5 gp &times; the level of the spell &times; the level of the caster.",
 			"",
@@ -372,7 +372,7 @@
 			"",
 			"Scribing a scroll requires 1 day per 1,000 gp of the base price. Although an individual scroll might contain more than one spell, each spell must be scribed as a separate effort, meaning that no more than 1 spell can be scribed in a day.",
 			"",
-			"*Item Creation Feat Required:* {feat/Scribe Scroll}.",
+			"*Item Creation Feat Required:* ‹feat/Scribe Scroll›.",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (calligraphy), or Profession (scribe).",
 			"",
@@ -426,7 +426,7 @@
 		"tags": "staffs",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/552}",
+			"‹SOURCE PRPG Core Rulebook/552›",
 			"",
 			"To create a magic staff, a character needs a supply of materials, the most obvious being a staff or the pieces of the staff to be assembled.",
 			"",
@@ -440,7 +440,7 @@
 			"",
 			"Crafting a staff requires 1 day for each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* {feat/Craft Staff}.",
+			"*Item Creation Feat Required:* ‹feat/Craft Staff›.",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (jewelry), Craft (sculptures), or Profession (woodcutter)."
 		],
@@ -468,7 +468,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/553}",
+			"‹SOURCE PRPG Core Rulebook/553›",
 			"",
 			"To create a magic wand, a character needs a small supply of materials, the most obvious being a baton or the pieces of the wand to be assembled. The cost for the materials is subsumed in the cost for creating the wand: 375 gp &times; the level of the spell &times; the level of the caster. Wands are always fully charged (50 charges) when created.",
 			"",
@@ -476,7 +476,7 @@
 			"",
 			"Crafting a wand requires 1 day per each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* {feat/Craft Wand}.",
+			"*Item Creation Feat Required:* ‹feat/Craft Wand›.",
 			"",
 			"*Skill Used in Creation:* Spellcraft, Craft (jewelry), Craft (sculptures), or Profession (woodcutter).",
 			"",
@@ -524,9 +524,9 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/553}",
+			"‹SOURCE PRPG Core Rulebook/553›",
 			"",
-			"To create a wondrous item, a character usually needs some sort of equipment or tools to work on the item. She also needs a supply of materials, the most obvious being the item itself or the pieces of the item to be assembled. The cost for the materials is subsumed in the cost for creating the item. Wondrous item costs are difficult to determine. Refer to {rule/Magic Item Gold Piece Values} and use the item prices in the item descriptions as a guideline. Creating an item costs half the market value listed.",
+			"To create a wondrous item, a character usually needs some sort of equipment or tools to work on the item. She also needs a supply of materials, the most obvious being the item itself or the pieces of the item to be assembled. The cost for the materials is subsumed in the cost for creating the item. Wondrous item costs are difficult to determine. Refer to ‹rule/Magic Item Gold Piece Values› and use the item prices in the item descriptions as a guideline. Creating an item costs half the market value listed.",
 			"",
 			"If spells are involved in the prerequisites for making the item, the creator must have prepared the spells to be cast (or must know the spells, in the case of a sorcerer or bard) but need not provide any material components or focuses the spells require. The act of working on the item triggers the prepared spells, making them unavailable for casting during each day of the item's creation. (That is, those spell slots are expended from the caster's currently prepared spells, just as if they had been cast.)",
 			"",
@@ -534,7 +534,7 @@
 			"",
 			"Crafting a wondrous item requires 1 day for each 1,000 gp of the base price.",
 			"",
-			"*Item Creation Feat Required:* {feat/Craft Wondrous Item}.",
+			"*Item Creation Feat Required:* ‹feat/Craft Wondrous Item›.",
 			"",
 			"*Skill Used In Creation:* Spellcraft or an applicable Craft or Profession skill check."
 		],
@@ -562,7 +562,7 @@
 		"subtitle": "Magic Items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/553}",
+			"‹SOURCE PRPG Core Rulebook/553›",
 			"",
 			"Sometimes, lack of funds or time make it impossible for a magic item crafter to create the desired item from scratch. Fortunately, it is possible to enhance or build upon an existing magic item. Only time, gold, and the various prerequisites required of the new ability to be added to the magic item restrict the type of additional powers one can place.",
 			"",
@@ -570,7 +570,7 @@
 			"",
 			"If the item is one that occupies a specific place on a character's body, the cost of adding any additional ability to that item increases by 50%. For example, if a character adds the power to confer invisibility to her ring of protection +2, the cost of adding this ability is the same as for creating a ring of invisibility multiplied by 1.5.",
 			"",
-			">@HL[Also See:] {rule/Upgrading Items}."
+			">@HL[Also See:] ‹rule/Upgrading Items›."
 		],
 		"parent_topics": [
 			"basics",
@@ -595,7 +595,7 @@
 		"name": "Movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/170}",
+			"‹SOURCE PRPG Core Rulebook/170›",
 			"",
 			"There are three movement scales, as follows:",
 			"",
@@ -667,11 +667,11 @@
 		"name": "Tactical Movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/170}",
+			"‹SOURCE PRPG Core Rulebook/170›",
 			"",
 			"Tactical movement is used for combat. Characters generally don't walk during combat, for obvious reasons - they hustle or run instead. A character who moves his speed and takes some action is hustling for about half the round and doing something else the other half.",
 			"",
-			"@HL[Hampered Movement:] {rule/Difficult terrain}, obstacles, and poor visibility can hamper movement (see Table 7-7 for details). When movement is hampered, each square moved into usually counts as two squares, effectively reducing the distance that a character can cover in a move. If more than one hampering condition applies, multiply all additional costs that apply. This is a specific exception to the normal rule for doubling.",
+			"@HL[Hampered Movement:] ‹rule/Difficult terrain›, obstacles, and poor visibility can hamper movement (see Table 7-7 for details). When movement is hampered, each square moved into usually counts as two squares, effectively reducing the distance that a character can cover in a move. If more than one hampering condition applies, multiply all additional costs that apply. This is a specific exception to the normal rule for doubling.",
 			"",
 			"In some situations, your movement may be so hampered that you don't have sufficient speed even to move 5 feet (1 square). In such a case, you may use a full-round action to move 5 feet (1 square) in any direction, even diagonally. Even though this looks like a 5-foot step, it's not, and thus it provokes attacks of opportunity normally. (You can't take advantage of this rule to move through impassable terrain or to move when all movement is prohibited to you.)",
 			"",
@@ -703,7 +703,7 @@
 		"name": "Local Movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/170}",
+			"‹SOURCE PRPG Core Rulebook/170›",
 			"",
 			"Characters exploring an area use local movement, measured in feet per minute.",
 			"",
@@ -728,7 +728,7 @@
 		"name": "Overland Movement",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/171}",
+			"‹SOURCE PRPG Core Rulebook/171›",
 			"",
 			"Characters covering long distances cross-country use overland movement. Overland movement is measured in miles per hour or miles per day. A day represents 8 hours of actual travel time. For rowed watercraft, a day represents 10 hours of rowing. For a sailing ship, it represents 24 hours.",
 			"",
@@ -787,7 +787,7 @@
 			"| Longship (sailed and rowed) | 3 miles | 72 miles |",
 			"| Galley (rowed and sailed) | 4 miles | 96 miles |",
 			"",
-			"[^1]: Quadrupeds, such as horses, can carry heavier load than characters can. See {rule/Carrying Capacity} for more information.",
+			"[^1]: Quadrupeds, such as horses, can carry heavier load than characters can. See ‹rule/Carrying Capacity› for more information.",
 			"[^2]: Rafts, barges, keelboats, and rowboats are most often used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. In addition to 10 hours of being rowed, the vehicle can also float an additional 14 hours, if someone can guide it, adding an additional 42 miles to the daily distance traveled. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores."
 		],
 		"parent_topics": [
@@ -807,7 +807,7 @@
 		"name": "Evasion and Pursuit",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/171}",
+			"‹SOURCE PRPG Core Rulebook/171›",
 			"",
 			"In round-by-round movement, when simply counting off squares, it's impossible for a slow character to get away from a determined fast character without mitigating circumstances. Likewise, it's no problem for a fast character to get away from a slower one.",
 			"",
@@ -815,7 +815,7 @@
 			"",
 			"Sometimes a chase occurs overland and could last all day, with the two sides only occasionally getting glimpses of each other at a distance. In the case of a long chase, an opposed Constitution check made by all parties determines which can keep pace the longest. If the creature being chased rolls the highest, it gets away. If not, the chaser runs down its prey, outlasting it with stamina.",
 			"",
-			"**Also see:** {rule/Chases/ (Gamemastery)} and {rule/Pursuit/ (Advanced GM Topics)}"
+			"**Also see:** ‹rule/Chases« (Gamemastery)› and ‹rule/Pursuit« (Advanced GM Topics)›"
 		],
 		"parent_topics": [
 			"basics",
@@ -833,17 +833,17 @@
 		"tags": "normal light dim light bright light",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/172}",
+			"‹SOURCE PRPG Core Rulebook/172›",
 			"",
 			"Dwarves and half-orcs have darkvision, but other races need light to see by. See Table 7-10 for the radius that a light source illuminates and how long it lasts. The increased entry indicates an area outside the lit radius in which the light level is increased by one step (from darkness to dim light, for example).",
 			"",
-			"In an area of @HL[bright light] all characters can see clearly. Some creatures, such as those with {umr/light sensitivity} and {umr/light blindness}, take penalties while in areas of bright light. A creature can't use Stealth in an area of bright light unless it is invisible or has cover. Areas of bright light include outside in direct sunshine and inside the area of a daylight spell.",
+			"In an area of @HL[bright light] all characters can see clearly. Some creatures, such as those with ‹umr/light sensitivity› and ‹umr/light blindness›, take penalties while in areas of bright light. A creature can't use Stealth in an area of bright light unless it is invisible or has cover. Areas of bright light include outside in direct sunshine and inside the area of a daylight spell.",
 			"",
 			"@HL[Normal light] functions just like bright light, but characters with light sensitivity and light blindness do not take penalties. Areas of normal light include underneath a forest canopy during the day, within 20 feet of a torch, and inside the area of a light spell.",
 			"",
 			"In an area of @HL[dim light] a character can see somewhat. Creatures within this area have concealment (20% miss chance in combat) from those without darkvision or the ability to see in darkness. A creature within an area of dim light can make a Stealth check to conceal itself. Areas of dim light include outside at night with a moon in the sky, bright starlight, and the area between 20 and 40 feet from a torch.",
 			"",
-			"In areas of darkness, creatures without darkvision are effectively blinded. In addition to the obvious effects, a blinded creature has a 50% miss chance in combat (all opponents have {rule/total |concealment}), loses any Dexterity bonus to AC, takes a -2 penalty to AC, and takes a -4 penalty on Perception checks that rely on sight and most Strength- and Dexterity-based skill checks. Areas of darkness include an unlit dungeon chamber, most caverns, and outside on a cloudy, moonless night.",
+			"In areas of darkness, creatures without darkvision are effectively blinded. In addition to the obvious effects, a blinded creature has a 50% miss chance in combat (all opponents have ‹rule/total »concealment›), loses any Dexterity bonus to AC, takes a -2 penalty to AC, and takes a -4 penalty on Perception checks that rely on sight and most Strength- and Dexterity-based skill checks. Areas of darkness include an unlit dungeon chamber, most caverns, and outside on a cloudy, moonless night.",
 			"",
 			"Characters with low-light vision (elves, gnomes, and half-elves) can see objects twice as far away as the given radius. Double the effective radius of bright light, normal light, and dim light for such characters.",
 			"",
@@ -860,10 +860,10 @@
 			"| Lantern, hooded | 30 ft. | 60 ft. | 6 hr./pint |",
 			"| Sunrod | 30 ft. | 60 ft. | 6 hr. |",
 			"| Torch | 20 ft. | 40 ft. | 1 hr. |",
-			"| {spell/Continual flame} | 20 ft. | 40 ft. | Permanent |",
-			"| {spell/Dancing lights} (torches) | 20 ft. (each) | 40 ft. (each) | 1 min. |",
-			"| {spell/Daylight} | 60 ft.[^2] | 120 ft. | 10 min./level |",
-			"| {spell/Light} | 20 ft. | 40 ft. | 10 min./level |",
+			"| ‹spell/Continual flame› | 20 ft. | 40 ft. | Permanent |",
+			"| ‹spell/Dancing lights› (torches) | 20 ft. (each) | 40 ft. (each) | 1 min. |",
+			"| ‹spell/Daylight› | 60 ft.[^2] | 120 ft. | 10 min./level |",
+			"| ‹spell/Light› | 20 ft. | 40 ft. | 10 min./level |",
 			"",
 			"[^1]: A candle does not provide normal illumination, only dim light.",
 			"[^2]: The light for a daylight spell is bright light."
@@ -899,25 +899,25 @@
 		"tags": "smashing an object breaking items",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/173}",
+			"‹SOURCE PRPG Core Rulebook/173›",
 			"",
 			"When attempting to break an object, you have two choices: smash it with a weapon or [break it](#breaking-items) with sheer strength.",
 			"",
 			"### Smashing an Object",
 			"",
-			"Smashing a weapon or shield with a slashing or bludgeoning weapon is accomplished with the {rule/sunder} combat maneuver. Smashing an object is like sundering a weapon or shield, except that your combat maneuver check is opposed by the object's AC. Generally, you can smash an object only with a bludgeoning or slashing weapon.",
+			"Smashing a weapon or shield with a slashing or bludgeoning weapon is accomplished with the ‹rule/sunder› combat maneuver. Smashing an object is like sundering a weapon or shield, except that your combat maneuver check is opposed by the object's AC. Generally, you can smash an object only with a bludgeoning or slashing weapon.",
 			"",
 			"@HL[Armor Class:] Objects are easier to hit than creatures because they don't usually move, but many are tough enough to shrug off some damage from each blow. An object's Armor Class is equal to 10 + its size modifier (see Table 7-11) + its Dexterity modifier. An inanimate object has not only a Dexterity of 0 (-5 penalty to AC), but also an additional -2 penalty to its AC. Furthermore, if you take a full-round action to line up a shot, you get an automatic hit with a melee weapon and a +5 bonus on attack rolls with a ranged weapon.",
 			"",
 			"@HL[Hardness:] Each object has **hardness** - a number that represents how well it resists damage. When an object is damaged, subtract its hardness from the damage. Only damage in excess of its hardness is deducted from the object's hit points (see Table 7-12, Table 7-13, and Table 7-14).",
 			"",
-			"@HL[Hit Points:] An object's hit point total depends on what it is made of and how big it is (see Table 7-12, Table 7-13, and Table 7-14). Objects that take damage equal to or greater than half their total hit points gain the {misc/broken/ condition}. When an object's hit points reach 0, it's ruined.",
+			"@HL[Hit Points:] An object's hit point total depends on what it is made of and how big it is (see Table 7-12, Table 7-13, and Table 7-14). Objects that take damage equal to or greater than half their total hit points gain the ‹misc/broken« condition›. When an object's hit points reach 0, it's ruined.",
 			"",
 			"Very large objects have separate hit point totals for different sections.",
 			"",
 			"@HL[Energy Attacks:] Energy attacks deal half damage to most objects. Divide the damage by 2 before applying the object's hardness. Some energy types might be particularly effective against certain objects, subject to GM discretion. For example, fire might do full damage against parchment, cloth, and other objects that burn easily. Sonic might do full damage against glass and crystal objects.",
 			"",
-			"@HL[Ranged Weapon Damage:] Objects take half damage from ranged weapons (unless the weapon is a {rule/siege engine>s} or something similar). Divide the damage dealt by 2 before applying the object's hardness.",
+			"@HL[Ranged Weapon Damage:] Objects take half damage from ranged weapons (unless the weapon is a ‹rule/siege engine<s› or something similar). Divide the damage dealt by 2 before applying the object's hardness.",
 			"",
 			"@HL[Ineffective Weapons:] Certain weapons just can't effectively deal damage to certain objects. Likewise, most melee weapons have little effect on stone walls and doors, unless they are designed for breaking up stone, such as a pick or hammer.",
 			"",
@@ -1008,11 +1008,11 @@
 			"",
 			"When a character tries to break or burst something with sudden force rather than by dealing damage, use a Strength check (rather than an attack roll and damage roll, as with the sunder special attack) to determine whether he succeeds. Since hardness doesn't affect an object's break DC, this value depends more on the construction of the item than on the material the item is made of. Consult Table 7-15 for a list of common break DCs.",
 			"",
-			"If an item has lost half or more of its hit points, the item gains the {misc/broken/ condition} and the DC to break it drops by 2.",
+			"If an item has lost half or more of its hit points, the item gains the ‹misc/broken« condition› and the DC to break it drops by 2.",
 			"",
 			"Larger and smaller creatures get size bonuses and size penalties on Strength checks to break open doors as follows: Fine -16, Diminutive -12, Tiny -8, Small -4, Large +4, Huge +8, Gargantuan +12, Colossal +16.",
 			"",
-			"A {eq-misc/crowbar} or {eq-misc/portable ram} improves a character's chance of breaking open a door.",
+			"A ‹eq-misc/crowbar› or ‹eq-misc/portable ram› improves a character's chance of breaking open a door.",
 			"",
 			"### Table 7-15: DCs to Break or Burst Items",
 			"",
@@ -1067,7 +1067,7 @@
 		"name": "Magic and Spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/206}",
+			"‹SOURCE PRPG Core Rulebook/206›",
 			"",
 			"From creating a wisp of light to causing the ground itself to shatter and break, spells are a source of immense power. A spell is a one-time magical effect. Spells come in two types: arcane (cast by bards, sorcerers, and wizards) and divine (cast by clerics, druids, and experienced paladins and rangers). Some spellcasters select their spells from a limited list of spells known, while others have access to a wide variety of options.",
 			"",
@@ -1107,7 +1107,7 @@
 		"tags": "spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/206}",
+			"‹SOURCE PRPG Core Rulebook/206›",
 			"",
 			"Whether a spell is arcane or divine, and whether a character prepares spells in advance or chooses them on the spot, casting a spell works the same way."
 		],
@@ -1137,7 +1137,7 @@
 		"name": "Choosing a Spell",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/206}",
+			"‹SOURCE PRPG Core Rulebook/206›",
 			"",
 			"First you must choose which spell to cast. If you're a cleric, druid, experienced paladin, experienced ranger, or wizard, you select from among spells prepared earlier in the day and not yet cast (see Preparing Wizard Spells and Preparing Divine Spells).",
 			"",
@@ -1169,7 +1169,7 @@
 		"tags": "spells magic spellcasting casting defensively",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/206}",
+			"‹SOURCE PRPG Core Rulebook/206›",
 			"",
 			"To cast a spell, you must concentrate. If something interrupts your concentration while you're casting, you must make a concentration check or lose the spell. When you make a concentration check, you roll d20 and add your caster level and the ability score modifier used to determine bonus spells of the same type. Clerics, druids, and rangers add their Wisdom modifier. Bards, paladins, and sorcerers add their Charisma modifier. Finally, wizards add their Intelligence modifier. The more distracting the interruption and the higher the level of the spell you are trying to cast, the higher the DC (see Table 9-1). If you fail the check, you lose the spell just as if you had cast it to no effect.",
 			"",
@@ -1232,11 +1232,11 @@
 		"name": "Counterspells",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/207}",
+			"‹SOURCE PRPG Core Rulebook/207›",
 			"",
 			"It is possible to cast any spell as a counterspell. By doing so, you are using the spell's energy to disrupt the casting of the same spell by another character. Counterspelling works even if one spell is divine and the other arcane.",
 			"",
-			"@HL[How Counterspells Work:] To use a counterspell, you must select an opponent as the target of the counterspell. You do this by choosing to ready an action ({rule/see |Combat}). In doing so, you elect to wait to complete your action until your opponent tries to cast a spell. You may still move at your normal speed, since ready is a standard action.",
+			"@HL[How Counterspells Work:] To use a counterspell, you must select an opponent as the target of the counterspell. You do this by choosing to ready an action (‹rule/see »Combat›). In doing so, you elect to wait to complete your action until your opponent tries to cast a spell. You may still move at your normal speed, since ready is a standard action.",
 			"",
 			"If the target of your counterspell tries to cast a spell, make a Spellcraft check (DC 15 + the spell's level). This check is a free action. If the check succeeds, you correctly identify the opponent's spell and can attempt to counter it. If the check fails, you can't do either of these things.",
 			"",
@@ -1246,7 +1246,7 @@
 			"",
 			"@HL[Specific Exceptions:] Some spells can counter other specific spells, often those with diametrically opposed effects.",
 			"",
-			"@HL[Dispel Magic as a Counterspell:] You can usually use {spell/dispel magic} to counterspell another spell being cast without needing to identify the spell being cast. Dispel magic doesn't always work as a counterspell (see the spell description)."
+			"@HL[Dispel Magic as a Counterspell:] You can usually use ‹spell/dispel magic› to counterspell another spell being cast without needing to identify the spell being cast. Dispel magic doesn't always work as a counterspell (see the spell description)."
 		],
 		"parent_topics": [
 			"basics",
@@ -1267,7 +1267,7 @@
 		"name": "Caster Level",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/208}",
+			"‹SOURCE PRPG Core Rulebook/208›",
 			"",
 			"A spell's power often depends on its caster level, which for most spellcasting characters is equal to her class level in the class she's using to cast the spell.",
 			"",
@@ -1294,7 +1294,7 @@
 		"name": "Spell Failure",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/208}",
+			"‹SOURCE PRPG Core Rulebook/208›",
 			"",
 			"If you ever try to cast a spell in conditions where the characteristics of the spell cannot be made to conform, the casting fails and the spell is wasted.",
 			"",
@@ -1319,7 +1319,7 @@
 		"name": "Special Spell Effects",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/208}",
+			"‹SOURCE PRPG Core Rulebook/208›",
 			"",
 			"Once you know which creatures (or objects or areas) are affected, and whether those creatures have made successful saving throws (if any were allowed), you can apply whatever results a spell entails.",
 			"",
@@ -1327,7 +1327,7 @@
 			"",
 			"@HL[Attacks:] Some spell descriptions refer to attacking. All offensive combat actions, even those that don't damage opponents, are considered attacks. Attempts to channel energy count as attacks if it would harm any creatures in the area. All spells that opponents resist with saving throws, that deal damage, or that otherwise harm or hamper subjects are attacks. Spells that summon monsters or other allies are not attacks because the spells themselves don't harm anyone.",
 			"",
-			"@HL[Bonus Types:] Usually, a bonus has a type that indicates how the spell grants the bonus. The important aspect of bonus types is that two bonuses of the same type don't generally stack. With the exception of dodge bonuses, most circumstance bonuses, and racial bonuses, only the better bonus of a given type works (see {rule/Combining Magic[al] Effects}). The same principle applies to penalties - a character taking two or more penalties of the same type applies only the worst one, although most penalties have no type and thus always stack. Bonuses without a type always stack, unless they are from the same source.",
+			"@HL[Bonus Types:] Usually, a bonus has a type that indicates how the spell grants the bonus. The important aspect of bonus types is that two bonuses of the same type don't generally stack. With the exception of dodge bonuses, most circumstance bonuses, and racial bonuses, only the better bonus of a given type works (see ‹rule/Combining Magic«al» Effects›). The same principle applies to penalties - a character taking two or more penalties of the same type applies only the worst one, although most penalties have no type and thus always stack. Bonuses without a type always stack, unless they are from the same source.",
 			"",
 			"### Bringing Back the Dead",
 			"",
@@ -1335,9 +1335,9 @@
 			"",
 			"When a living creature dies, its soul departs its body, leaves the Material Plane, travels through the Astral Plane, and goes to abide on the plane where the creature's deity resides. If the creature did not worship a deity, its soul departs to the plane corresponding to its alignment. Bringing someone back from the dead involves magically retrieving his soul and returning it to his body.",
 			"",
-			"@HL[Negative Levels:] Any creature brought back to life usually gains one or more permanent {rule/negative levels}. These levels apply a penalty to most rolls until removed through spells such as {spell/restoration}. If the character was 1st level at the time of death, he loses 2 points of Constitution instead of gaining a negative level.",
+			"@HL[Negative Levels:] Any creature brought back to life usually gains one or more permanent ‹rule/negative levels›. These levels apply a penalty to most rolls until removed through spells such as ‹spell/restoration›. If the character was 1st level at the time of death, he loses 2 points of Constitution instead of gaining a negative level.",
 			"",
-			"@HL[Preventing Revivification:] Enemies can take steps to make it more difficult for a character to be returned from the dead. Keeping the body prevents others from using {spell/raise dead} or {spell/resurrection} to restore the slain character to life. Casting {spell/trap the soul} prevents any sort of revivification unless the soul is first released.",
+			"@HL[Preventing Revivification:] Enemies can take steps to make it more difficult for a character to be returned from the dead. Keeping the body prevents others from using ‹spell/raise dead› or ‹spell/resurrection› to restore the slain character to life. Casting ‹spell/trap the soul› prevents any sort of revivification unless the soul is first released.",
 			"",
 			"@HL[Revivification Against One's Will:] A soul can't be returned to life if it doesn't wish to be. A soul knows the name, alignment, and patron deity (if any) of the character attempting to revive it and may refuse to return on that basis."
 		],
@@ -1360,7 +1360,7 @@
 		"name": "Combining Magic Effects",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/208}",
+			"‹SOURCE PRPG Core Rulebook/208›",
 			"",
 			"Spells or magical effects usually work as described, no matter how many other spells or magical effects happen to be operating in the same area or on the same recipient. Except in special cases, a spell does not affect the way another spell operates. Whenever a spell has a specific effect on other spells, the spell description explains that effect. Several other general rules apply when spells or magical effects operate in the same place:",
 			"",
@@ -1399,7 +1399,7 @@
 		"name": "Spell Descriptions",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/209}",
+			"‹SOURCE PRPG Core Rulebook/209›",
 			"",
 			"The description of each spell is presented in a standard format. Each category of information is explained and defined below."
 		],
@@ -1433,7 +1433,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/209}",
+			"‹SOURCE PRPG Core Rulebook/209›",
 			"",
 			"The first line of every spell description gives the name by which the spell is generally known.",
 			"",
@@ -1445,7 +1445,7 @@
 			"",
 			"Appearing on the same line as the school and subschool, when applicable, is a descriptor that further categorizes the spell in some way. Some spells have more than one descriptor.",
 			"",
-			"The descriptors are {spelldef/acid}, {spelldef/air}, {spelldef/chaotic}, {spelldef/cold}, {spelldef/curse}, {spelldef/darkness}, {spelldef/death}, {spelldef/disease}, {spelldef/draconic}, {spelldef/earth}, {spelldef/electricity}, {spelldef/emotion}, {spelldef/evil}, {spelldef/fear}, {spelldef/fire}, {spelldef/force}, {spelldef/good}, {spelldef/language-dependent}, {spelldef/lawful}, {spelldef/light}, {spelldef/meditative}, {spelldef/mind-affecting}, {spelldef/pain}, {spelldef/poison}, {spelldef/ruse}, {spelldef/shadow>_descriptor}, {spelldef/sonic}, and {spelldef/water}.",
+			"The descriptors are ‹spelldef/acid›, ‹spelldef/air›, ‹spelldef/chaotic›, ‹spelldef/cold›, ‹spelldef/curse›, ‹spelldef/darkness›, ‹spelldef/death›, ‹spelldef/disease›, ‹spelldef/draconic›, ‹spelldef/earth›, ‹spelldef/electricity›, ‹spelldef/emotion›, ‹spelldef/evil›, ‹spelldef/fear›, ‹spelldef/fire›, ‹spelldef/force›, ‹spelldef/good›, ‹spelldef/language-dependent›, ‹spelldef/lawful›, ‹spelldef/light›, ‹spelldef/meditative›, ‹spelldef/mind-affecting›, ‹spelldef/pain›, ‹spelldef/poison›, ‹spelldef/ruse›, ‹spelldef/shadow<_descriptor›, ‹spelldef/sonic›, and ‹spelldef/water›.",
 			"",
 			"Most of these descriptors have no game effect by themselves, but they govern how the spell interacts with other spells, with special abilities, with unusual creatures, with alignment, and so on.",
 			"",
@@ -1484,7 +1484,7 @@
 		"name": "Abjuration",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/209}",
+			"‹SOURCE PRPG Core Rulebook/209›",
 			"",
 			"Abjurations are protective spells. They create physical or magical barriers, negate magical or physical abilities, harm trespassers, or even banish the subject of the spell to another plane of existence.",
 			"",
@@ -1513,7 +1513,7 @@
 		"name": "Conjuration",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/209}",
+			"‹SOURCE PRPG Core Rulebook/209›",
 			"",
 			"Each conjuration spell belongs to one of five subschools. Conjurations transport creatures from another plane of existence to your plane (calling); create objects or effects on the spot (creation); heal (healing); bring manifestations of objects, creatures, or forms of energy to you (summoning); or transport creatures or objects over great distances (teleportation). Creatures you conjure usually - but not always - obey your commands.",
 			"",
@@ -1556,7 +1556,7 @@
 		"name": "Divination",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/210}",
+			"‹SOURCE PRPG Core Rulebook/210›",
 			"",
 			"Divination spells enable you to learn secrets long forgotten, predict the future, find hidden things, and foil deceptive spells.",
 			"",
@@ -1589,7 +1589,7 @@
 		"name": "Enchantment",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/210}",
+			"‹SOURCE PRPG Core Rulebook/210›",
 			"",
 			"Enchantment spells affect the minds of others, influencing or controlling their behavior. All enchantments are mind-affecting spells. Two subschools of enchantment spells grant you influence over a subject creature.",
 			"",
@@ -1618,7 +1618,7 @@
 		"name": "Evocation",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/210}",
+			"‹SOURCE PRPG Core Rulebook/210›",
 			"",
 			"Evocation spells manipulate magical energy or tap an unseen source of power to produce a desired end. In effect, an evocation draws upon magic to create something out of nothing. Many of these spells produce spectacular effects, and evocation spells can deal large amounts of damage."
 		],
@@ -1643,7 +1643,7 @@
 		"name": "Illusion",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/210}",
+			"‹SOURCE PRPG Core Rulebook/210›",
 			"",
 			"Illusion spells deceive the senses or minds of others. They cause people to see things that are not there, not see things that are there, hear phantom noises, or remember things that never happened.",
 			"",
@@ -1688,7 +1688,7 @@
 		"name": "Necromancy",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/211}",
+			"‹SOURCE PRPG Core Rulebook/211›",
 			"",
 			"Necromancy spells manipulate the power of death, unlife, and the life force. Spells involving undead creatures make up a large part of this school."
 		],
@@ -1713,7 +1713,7 @@
 		"name": "Transmutation",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/211}",
+			"‹SOURCE PRPG Core Rulebook/211›",
 			"",
 			"Transmutation spells change the properties of some creature, thing, or condition.",
 			"",
@@ -1766,7 +1766,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/212}",
+			"‹SOURCE PRPG Core Rulebook/212›",
 			"",
 			"The next line of a spell description gives the spell's level, a number between 0 and 9 that defines the spell's relative power. This number is preceded by a list of classes whose members can cast the spell. A spell's level affects the DC for any save allowed against its effects.",
 			"",
@@ -1807,7 +1807,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/213}",
+			"‹SOURCE PRPG Core Rulebook/213›",
 			"",
 			"Most spells have a casting time of 1 standard action. Others take 1 round or more, while a few require only a swift action.",
 			"",
@@ -1844,7 +1844,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/213}",
+			"‹SOURCE PRPG Core Rulebook/213›",
 			"",
 			"A spell's range indicates how far from you it can reach, as defined in the range entry of the spell description. A spell's range is the maximum distance from you that the spell's effect can occur, as well as the maximum distance at which you can designate the spell's point of origin. If any portion of the spell's area would extend beyond this range, that area is wasted. Standard ranges include the following.",
 			"",
@@ -1887,7 +1887,7 @@
 			"Pathfinder #91: Battle of Bloodmarch Hills"
 		],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/213}",
+			"‹SOURCE PRPG Core Rulebook/213›",
 			"",
 			"You must make choices about whom a spell is to affect or where an effect is to originate, depending on a spell's type. The next entry in a spell description defines the spell's target (or targets), its effect, or its area, as appropriate.",
 			"",
@@ -1925,8 +1925,8 @@
 			"",
 			"::h4[Larger Creatures and Area]{jl}",
 			"",
-			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/72}  ",
-			"The rules for many character options in the Pathfinder RPG Core Rulebook and other Pathfinder RPG products often assume that creatures are Medium or Small. In the case of a handful of spells with areas that feature a \"radius emanation centered on you\" such as {spell/antimagic field}, {spell/aura of doom}, and {spell/zone of silence}, this can result in an area that is effectively useless when coming from a Large or larger caster. As an optional rule, when a creature casts an emanation or burst spell with the text \"centered on you,\" treat the creature's entire space as the spell's point of origin, and measure the spell's area or effect from the edge of the creature's space. For instance, an *antimagic field* cast by a fire giant would extend 10 feet beyond his space (effectively increasing the emanation's radius by 5 feet).",
+			"‹SOURCE Pathfinder #91: Battle of Bloodmarch Hills/72›  ",
+			"The rules for many character options in the Pathfinder RPG Core Rulebook and other Pathfinder RPG products often assume that creatures are Medium or Small. In the case of a handful of spells with areas that feature a \"radius emanation centered on you\" such as ‹spell/antimagic field›, ‹spell/aura of doom›, and ‹spell/zone of silence›, this can result in an area that is effectively useless when coming from a Large or larger caster. As an optional rule, when a creature casts an emanation or burst spell with the text \"centered on you,\" treat the creature's entire space as the spell's point of origin, and measure the spell's area or effect from the edge of the creature's space. For instance, an *antimagic field* cast by a fire giant would extend 10 feet beyond his space (effectively increasing the emanation's radius by 5 feet).",
 			"",
 			"::h3[Burst, Emanation, Spread]{jl}",
 			"",
@@ -1997,7 +1997,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/215}",
+			"‹SOURCE PRPG Core Rulebook/215›",
 			"",
 			"A spell's duration entry tells you how long the magical energy of the spell lasts.",
 			"",
@@ -2005,9 +2005,9 @@
 			"",
 			"@HL[Instantaneous:] The spell energy comes and goes the instant the spell is cast, though the consequences might be long-lasting.",
 			"",
-			"@HL[Permanent:] The energy remains as long as the effect does. This means the spell is vulnerable to {spell/dispel magic}.",
+			"@HL[Permanent:] The energy remains as long as the effect does. This means the spell is vulnerable to ‹spell/dispel magic›.",
 			"",
-			"@HL[Concentration:] The spell lasts as long as you concentrate on it. Concentrating to maintain a spell is a standard action that does not provoke attacks of opportunity. Anything that could break your concentration when casting a spell can also break your {rule/concentration} while you're maintaining one, causing the spell to end.",
+			"@HL[Concentration:] The spell lasts as long as you concentrate on it. Concentrating to maintain a spell is a standard action that does not provoke attacks of opportunity. Anything that could break your concentration when casting a spell can also break your ‹rule/concentration› while you're maintaining one, causing the spell to end.",
 			"",
 			"You can't cast a spell while concentrating on another one. Some spells last for a short time after you cease concentrating.",
 			"",
@@ -2048,7 +2048,7 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/216}",
+			"‹SOURCE PRPG Core Rulebook/216›",
 			"",
 			"Usually a harmful spell allows a target to make a saving throw to avoid some or all of the effect. The saving throw entry in a spell description defines which type of saving throw the spell allows and describes how saving throws against the spell work.",
 			"",
@@ -2114,13 +2114,13 @@
 		"tags": "magic spellcasting",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/217}",
+			"‹SOURCE PRPG Core Rulebook/217›",
 			"",
 			"Spell resistance is a special defensive ability. If your spell is being resisted by a creature with spell resistance, you must make a caster level check (1d20 + caster level) at least equal to the creature's spell resistance for the spell to affect that creature. The defender's spell resistance is like an Armor Class against magical attacks. Include any adjustments to your caster level to this caster level check.",
 			"",
 			"The Spell Resistance entry and the descriptive text of a spell description tell you whether spell resistance protects creatures from the spell. In many cases, spell resistance applies only when a resistant creature is targeted by the spell, not when a resistant creature encounters a spell that is already in place.",
 			"",
-			"The terms \"object\" and \"harmless\" mean the same thing for spell resistance as they do for {rule/saving throw/s}. A creature with spell resistance must voluntarily lower the resistance (a standard action) in order to be affected by such spells without forcing the caster to make a caster level check."
+			"The terms \"object\" and \"harmless\" mean the same thing for spell resistance as they do for ‹rule/saving throw«s›. A creature with spell resistance must voluntarily lower the resistance (a standard action) in order to be affected by such spells without forcing the caster to make a caster level check."
 		],
 		"parent_topics": [
 			"basics",
@@ -2144,7 +2144,7 @@
 		"subtitle": "Spell Description",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/218}",
+			"‹SOURCE PRPG Core Rulebook/218›",
 			"",
 			"This portion of a spell description details what the spell does and how it works. If one of the previous entries in the description includes \"see text,\" this is where the explanation is found."
 		],
@@ -2169,7 +2169,7 @@
 		"name": "Arcane Spells",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/218}",
+			"‹SOURCE PRPG Core Rulebook/218›",
 			"",
 			"Wizards, sorcerers, and bards cast arcane spells. Compared to divine spells, arcane spells are more likely to produce dramatic results.",
 			"",
@@ -2198,7 +2198,7 @@
 		"name": "Preparing Wizard Spells",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/218}",
+			"‹SOURCE PRPG Core Rulebook/218›",
 			"",
 			"A wizard's level limits the number of spells he can prepare and cast. His high Intelligence score might allow him to prepare a few extra spells. He can prepare the same spell more than once, but each preparation counts as one spell toward his daily limit. To prepare a spell, the wizard must have an Intelligence score of at least 10 + the spell's level.",
 			"",
@@ -2206,7 +2206,7 @@
 			"",
 			"@HL[Recent Casting Limit/Rest Interruptions:] If a wizard has cast spells recently, the drain on his resources reduces his capacity to prepare new spells. When he prepares spells for the coming day, all the spells he has cast within the last 8 hours count against his daily limit.",
 			"",
-			"@HL[Preparation Environment:] To prepare any spell, a wizard must have enough peace, quiet, and comfort to allow for proper concentration. The wizard's surroundings need not be luxurious, but they must be free from distractions. Exposure to inclement weather prevents the necessary concentration, as does any injury or failed saving throw the character might experience while studying. Wizards also must have access to their spellbooks to study from and sufficient light to read them. There is one major exception: a wizard can prepare a {spell/read magic} spell even without a spellbook.",
+			"@HL[Preparation Environment:] To prepare any spell, a wizard must have enough peace, quiet, and comfort to allow for proper concentration. The wizard's surroundings need not be luxurious, but they must be free from distractions. Exposure to inclement weather prevents the necessary concentration, as does any injury or failed saving throw the character might experience while studying. Wizards also must have access to their spellbooks to study from and sufficient light to read them. There is one major exception: a wizard can prepare a ‹spell/read magic› spell even without a spellbook.",
 			"",
 			"@HL[Spell Preparation Time:] After resting, a wizard must study his spellbook to prepare any spells that day. If he wants to prepare all his spells, the process takes 1 hour. Preparing some smaller portion of his daily capacity takes a proportionally smaller amount of time, but always at least 15 minutes, the minimum time required to achieve the proper mental state.",
 			"",
@@ -2216,7 +2216,7 @@
 			"",
 			"@HL[Prepared Spell Retention:] Once a wizard prepares a spell, it remains in his mind as a nearly cast spell until he uses the prescribed components to complete and trigger it or until he abandons it. Certain other events, such as the effects of magic items or special attacks from monsters, can wipe a prepared spell from a character's mind.",
 			"",
-			"@HL[Death and Prepared Spell Retention:] If a spellcaster dies, all prepared spells stored in his mind are wiped away. Potent magic (such as {spell/raise dead}, {spell/resurrection}, or {spell/true resurrection}) can recover the lost energy when it recovers the character."
+			"@HL[Death and Prepared Spell Retention:] If a spellcaster dies, all prepared spells stored in his mind are wiped away. Potent magic (such as ‹spell/raise dead›, ‹spell/resurrection›, or ‹spell/true resurrection›) can recover the lost energy when it recovers the character."
 		],
 		"parent_topics": [
 			"basics",
@@ -2234,11 +2234,11 @@
 		"name": "Arcane Magical Writing",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/218}",
+			"‹SOURCE PRPG Core Rulebook/218›",
 			"",
 			"To record an arcane spell in written form, a character uses complex notation that describes the magical forces involved in the spell. The writer uses the same system no matter what her native language or culture. However, each character uses the system in his own way. Another person's magical writing remains incomprehensible to even the most powerful wizard until he takes time to study and decipher it.",
 			"",
-			"To decipher an arcane magical writing (such as a single spell in another's spellbook or on a scroll), a character must make a Spellcraft check (DC 20 + the spell's level). If the skill check fails, the character cannot attempt to read that particular spell again until the next day. A {spell/read magic} spell automatically deciphers magical writing without a skill check. If the person who created the magical writing is on hand to help the reader, success is also automatic.",
+			"To decipher an arcane magical writing (such as a single spell in another's spellbook or on a scroll), a character must make a Spellcraft check (DC 20 + the spell's level). If the skill check fails, the character cannot attempt to read that particular spell again until the next day. A ‹spell/read magic› spell automatically deciphers magical writing without a skill check. If the person who created the magical writing is on hand to help the reader, success is also automatic.",
 			"",
 			"Once a character deciphers a particular piece of magical writing, he does not need to decipher it again. Deciphering magical writing allows the reader to identify the spell and gives some idea of its effects (as explained in the spell description). If the magical writing is a scroll and the reader can cast arcane spells, he can attempt to use the scroll."
 		],
@@ -2265,9 +2265,9 @@
 		"name": "Wizard Spells and Borrowed Spellbooks",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/219}",
+			"‹SOURCE PRPG Core Rulebook/219›",
 			"",
-			"A wizard can use a borrowed spellbook to prepare a spell he already knows and has recorded in his own spellbook, but preparation success is not assured. First, the wizard must decipher the writing in the book (see {rule/Arcane Magical Writing}). Once a spell from another spellcaster's book is deciphered, the reader must make a Spellcraft check (DC 15 + spell's level) to prepare the spell. If the check succeeds, the wizard can prepare the spell. He must repeat the check to prepare the spell again, no matter how many times he has prepared it before. If the check fails, he cannot try to prepare the spell from the same source again until the next day. However, as explained above, he does not need to repeat a check to decipher the writing."
+			"A wizard can use a borrowed spellbook to prepare a spell he already knows and has recorded in his own spellbook, but preparation success is not assured. First, the wizard must decipher the writing in the book (see ‹rule/Arcane Magical Writing›). Once a spell from another spellcaster's book is deciphered, the reader must make a Spellcraft check (DC 15 + spell's level) to prepare the spell. If the check succeeds, the wizard can prepare the spell. He must repeat the check to prepare the spell again, no matter how many times he has prepared it before. If the check fails, he cannot try to prepare the spell from the same source again until the next day. However, as explained above, he does not need to repeat a check to decipher the writing."
 		],
 		"parent_topics": [
 			"basics",
@@ -2287,13 +2287,13 @@
 		"name": "Adding Spells to a Wizard's Spellbook",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/219}",
+			"‹SOURCE PRPG Core Rulebook/219›",
 			"",
 			"Wizards can add new spells to their spellbooks through several methods. A wizard can only learn new spells that belong to the wizard spell lists.",
 			"",
 			"@HL[Spells Gained at a New Level:] Wizards perform a certain amount of spell research between adventures. Each time a character attains a new wizard level, he gains two spells of his choice to add to his spellbook. The two free spells must be of spell levels he can cast.",
 			"",
-			"@HL[Spells Copied from Another's Spellbook or a Scroll:] A wizard can also add a spell to his book whenever he encounters one on a magic scroll or in another wizard's spellbook. No matter what the spell's source, the wizard must first decipher the magical writing (see {rule/Arcane Magical Writing}). Next, he must spend 1 hour studying the spell. At the end of the hour, he must make a Spellcraft check (DC 15 + spell's level). A wizard who has specialized in a school of spells gains a +2 bonus on the Spellcraft check if the new spell is from his specialty school. If the check succeeds, the wizard understands the spell and can copy it into his spellbook (see {rule/Writing a New Spell into a Spellbook}). The process leaves a spellbook that was copied from unharmed, but a spell successfully copied from a magic scroll disappears from the parchment.",
+			"@HL[Spells Copied from Another's Spellbook or a Scroll:] A wizard can also add a spell to his book whenever he encounters one on a magic scroll or in another wizard's spellbook. No matter what the spell's source, the wizard must first decipher the magical writing (see ‹rule/Arcane Magical Writing›). Next, he must spend 1 hour studying the spell. At the end of the hour, he must make a Spellcraft check (DC 15 + spell's level). A wizard who has specialized in a school of spells gains a +2 bonus on the Spellcraft check if the new spell is from his specialty school. If the check succeeds, the wizard understands the spell and can copy it into his spellbook (see ‹rule/Writing a New Spell into a Spellbook›). The process leaves a spellbook that was copied from unharmed, but a spell successfully copied from a magic scroll disappears from the parchment.",
 			"",
 			"If the check fails, the wizard cannot understand or copy the spell. He cannot attempt to learn or copy that spell again until one week has passed. If the spell was from a scroll, a failed Spellcraft check does not cause the spell to vanish.",
 			"",
@@ -2320,7 +2320,7 @@
 		"name": "Writing a New Spell into a Spellbook",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/219}",
+			"‹SOURCE PRPG Core Rulebook/219›",
 			"",
 			"Once a wizard understands a new spell, he can record it into his spellbook.",
 			"",
@@ -2361,7 +2361,7 @@
 		"name": "Replacing and Copying Spellbooks",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/219}",
+			"‹SOURCE PRPG Core Rulebook/219›",
 			"",
 			"A wizard can use the procedure for learning a spell to reconstruct a lost spellbook. If he already has a particular spell prepared, he can write it directly into a new book at the same cost required to write a spell into a spellbook. The process wipes the prepared spell from his mind, just as casting it would. If he does not have the spell prepared, he can prepare it from a borrowed spellbook and then write it into a new book.",
 			"",
@@ -2385,7 +2385,7 @@
 		"name": "Selling a Spellbook",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/220}",
+			"‹SOURCE PRPG Core Rulebook/220›",
 			"",
 			"Captured spellbooks can be sold for an amount equal to half the cost of purchasing and inscribing the spells within."
 		],
@@ -2407,7 +2407,7 @@
 		"name": "Sorcerers and Bards",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/220}",
+			"‹SOURCE PRPG Core Rulebook/220›",
 			"",
 			"Sorcerers and bards cast arcane spells, but they do not use spellbooks or prepare spells. Their class level limits the number of spells she can cast (see these class descriptions). Her high Charisma score might allow her to cast a few extra spells. A member of either class must have a Charisma score of at least 10 + the spell's level to cast the spell.",
 			"",
@@ -2433,11 +2433,11 @@
 		"name": "Arcane Spells and Armor",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/83}",
+			"‹SOURCE PRPG Core Rulebook/83›",
 			"",
 			"Armor restricts the complicated gestures required while casting any spell that has a somatic component. The armor and shield descriptions list the arcane spell failure chance for different armors and shields.",
 			"",
-			"If a spell doesn't have a somatic component, an arcane spellcaster can cast it with no arcane spell failure chance while wearing armor. Such spells can also be cast even if the caster's hands are bound or he is grappling (although concentration checks still apply normally). The metamagic feat {feat/Still Spell} allows a spellcaster to prepare or cast a spell without the somatic component at one spell level higher than normal. This also provides a way to cast a spell while wearing armor without risking arcane spell failure."
+			"If a spell doesn't have a somatic component, an arcane spellcaster can cast it with no arcane spell failure chance while wearing armor. Such spells can also be cast even if the caster's hands are bound or he is grappling (although concentration checks still apply normally). The metamagic feat ‹feat/Still Spell› allows a spellcaster to prepare or cast a spell without the somatic component at one spell level higher than normal. This also provides a way to cast a spell while wearing armor without risking arcane spell failure."
 		],
 		"parent_topics": [
 			"basics",
@@ -2455,7 +2455,7 @@
 		"name": "Divine Spells",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/220}",
+			"‹SOURCE PRPG Core Rulebook/220›",
 			"",
 			"Clerics, druids, experienced paladins, and experienced rangers can cast divine spells. Unlike arcane spells, divine spells draw power from a divine source. Clerics gain spell power from deities or from divine forces. The divine force of nature powers druid and ranger spells, and the divine forces of law and good power paladin spells. Divine spells tend to focus on healing and protection and are less flashy, destructive, and disruptive than arcane spells."
 		],
@@ -2481,7 +2481,7 @@
 		"name": "Preparing Divine Spells",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/220}",
+			"‹SOURCE PRPG Core Rulebook/220›",
 			"",
 			"Divine spellcasters prepare their spells in largely the same manner as wizards do, but with a few differences. The relevant ability for most divine spells is Wisdom (Charisma for paladins). To prepare a divine spell, a character must have a Wisdom score (or Charisma score for paladins) of 10 + the spell's level. Likewise, bonus spells are based on Wisdom.",
 			"",
@@ -2495,7 +2495,7 @@
 			"",
 			"@HL[Recent Casting Limit:] As with arcane spells, at the time of preparation any spells cast within the previous 8 hours count against the number of spells that can be prepared.",
 			"",
-			"@HL[Spontaneous Casting of Cure and Inflict Spells:] A good cleric (or a cleric of a good deity) can spontaneously cast a cure spell in place of a prepared spell of the same level or higher, but not in place of a bonus domain spell. An evil cleric (or a cleric of an evil deity) can spontaneously cast an inflict spell in place of a prepared spell (that is not a domain spell) of the same level or higher. Each neutral cleric of a neutral deity spontaneously casts either {main/cure spells} like a good cleric or inflict spells like an evil one, depending on which option the player chooses when creating the character. The divine energy of the spell that the cure or inflict spell substitutes for is converted into the cure or inflict spell as if that spell had been prepared all along.",
+			"@HL[Spontaneous Casting of Cure and Inflict Spells:] A good cleric (or a cleric of a good deity) can spontaneously cast a cure spell in place of a prepared spell of the same level or higher, but not in place of a bonus domain spell. An evil cleric (or a cleric of an evil deity) can spontaneously cast an inflict spell in place of a prepared spell (that is not a domain spell) of the same level or higher. Each neutral cleric of a neutral deity spontaneously casts either ‹main/cure spells› like a good cleric or inflict spells like an evil one, depending on which option the player chooses when creating the character. The divine energy of the spell that the cure or inflict spell substitutes for is converted into the cure or inflict spell as if that spell had been prepared all along.",
 			"",
 			"@HL[Spontaneous Casting of Summon Nature's Ally Spells:] A druid can spontaneously cast summon nature's ally in place of a prepared spell of the same level or higher. The divine energy of the spell that the summon spell substitutes for is converted as if that spell had been prepared all along."
 		],
@@ -2514,9 +2514,9 @@
 		"name": "Divine Magical Writing",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/221}",
+			"‹SOURCE PRPG Core Rulebook/221›",
 			"",
-			"Divine spells can be written and deciphered like arcane spells (see {rule/Arcane Magical Writing}). A Spellcraft check can decipher divine magical writing and identify it. Only characters who have the spell (in its divine form) on their class spell list can cast a divine spell from a scroll."
+			"Divine spells can be written and deciphered like arcane spells (see ‹rule/Arcane Magical Writing›). A Spellcraft check can decipher divine magical writing and identify it. Only characters who have the spell (in its divine form) on their class spell list can cast a divine spell from a scroll."
 		],
 		"parent_topics": [
 			"basics",
@@ -2534,7 +2534,7 @@
 		"subtitle": "From Levelling Up",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/221}",
+			"‹SOURCE PRPG Core Rulebook/221›",
 			"",
 			"Divine spellcasters gain new spells as follows.",
 			"",
@@ -2557,11 +2557,11 @@
 		"name": "Psychic Magic",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"{SOURCE Occult Adventures/144}",
+			"‹SOURCE Occult Adventures/144›",
 			"",
 			"Wizards study ancient tomes to unlock arcane secrets of the universe, and clerics pray to distant deities to grant them divine power. Yet there is a third, more esoteric kind of magic, connected to every creature's composite being, from the conscious mind to the deepest desire, from the life force to the spirit, from the very soul to the cosmic self. This third type of magic is psychic magic.",
 			"",
-			"A psychic spell largely functions like any other spell. It's another type of magic, similar to arcane or divine magic - in fact, those who use psychic magic are easily mistaken for practitioners of arcane and divine traditions. {main/Metamagic feat/s} and any other rules that alter or trigger from spells can usually be used with psychic spells (though see the Components section below for a few exceptions). Psychic spellcasters aren't affected by effects that target only arcane or divine spellcasters, nor can they use arcane or divine scrolls or other items or feats that state they can be utilized by only arcane or divine spellcasters."
+			"A psychic spell largely functions like any other spell. It's another type of magic, similar to arcane or divine magic - in fact, those who use psychic magic are easily mistaken for practitioners of arcane and divine traditions. ‹main/Metamagic feat«s› and any other rules that alter or trigger from spells can usually be used with psychic spells (though see the Components section below for a few exceptions). Psychic spellcasters aren't affected by effects that target only arcane or divine spellcasters, nor can they use arcane or divine scrolls or other items or feats that state they can be utilized by only arcane or divine spellcasters."
 		],
 		"parent_topics": [
 			"basics",
@@ -2585,19 +2585,19 @@
 		"subtitle": "Psychic Magic Spells",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"{SOURCE Occult Adventures/144}",
+			"‹SOURCE Occult Adventures/144›",
 			"",
 			"Psychic magic originates from the distinctive qualities of the caster's composite being, rather than through arcane formulae or rote supplication to divine entities. Therefore, psychic spells never have verbal or somatic components, and have only expensive material components. Psychic spells are purely mental actions, and they can be cast even while the caster is pinned or paralyzed. Focus components work the same way with psychic spells as they do with other spells.",
 			"",
-			"When a spell calls for an expensive material component, a psychic spellcaster can instead use any item with both significant meaning and a value greater than or equal to the spell's component cost. For example, if a spiritualist wanted to cast {spell/raise dead} to bring her dead husband back from the grave, she could use her 5,000 gp wedding ring as the spell's material component.",
+			"When a spell calls for an expensive material component, a psychic spellcaster can instead use any item with both significant meaning and a value greater than or equal to the spell's component cost. For example, if a spiritualist wanted to cast ‹spell/raise dead› to bring her dead husband back from the grave, she could use her 5,000 gp wedding ring as the spell's material component.",
 			"",
 			"Instead of verbal and somatic components, all psychic spells have components related to the caster's inner being. The two psychic components are called emotion components and thought components. If a spell's components line lists a somatic component, that spell instead requires an emotion component when cast by psychic spellcasters, and if it has a verbal component, it instead requires a thought component when cast by psychic spellcasters. Psychic spells cast by non-psychic arcane and divine casters use any listed somatic and verbal components as normal.",
 			"",
 			"@HL[Emotion Components:] Emotion components represent a particular emotional state required to cast the spell. A psychic spellcaster marshals her desire in order to focus and release the spell's energy. It is impossible to cast a spell with an emotion component while the spellcaster is under the influence of a non-harmless effect with the emotion or fear descriptors. Even if the effect's emotion matches the necessary emotion to cast the psychic spell, the spellcaster is not in control of her own desires and animal impulses, which is a necessary part of providing an emotion component.",
 			"",
-			"@HL[Thought Components:] Thought components represent mental constructs necessary for the spell's function, such as picturing a wolf in vivid detail - down to the saliva dripping from its jaws - in order to cast {spell/beast shape>_1} to transform into a wolf. Thought components are so mentally demanding that they make interruptions and distractions extremely challenging. The DC for any {rule/concentration} check for a spell with a thought component increases by 10. A psychic spellcaster casting a spell with a thought component can take a move action before beginning to cast the spell to center herself; she can then use the normal DC instead of the increased DC.",
+			"@HL[Thought Components:] Thought components represent mental constructs necessary for the spell's function, such as picturing a wolf in vivid detail - down to the saliva dripping from its jaws - in order to cast ‹spell/beast shape<_1› to transform into a wolf. Thought components are so mentally demanding that they make interruptions and distractions extremely challenging. The DC for any ‹rule/concentration› check for a spell with a thought component increases by 10. A psychic spellcaster casting a spell with a thought component can take a move action before beginning to cast the spell to center herself; she can then use the normal DC instead of the increased DC.",
 			"",
-			"Just as spell-like abilities never require verbal, somatic, or material components, these abilities also don't require thought or emotion components. A psychic spellcaster can replace verbal and somatic components with thought and emotion components only for the purposes of the spell components themselves, not for the purposes of any other rules elements that relate to verbal and somatic components. She can't use {feat/Silent Spell} to ignore the thought component of a spell, for example. The new feats {feat/Intuitive Spell} and {feat/Logical Spell} serve a similar function for these new components."
+			"Just as spell-like abilities never require verbal, somatic, or material components, these abilities also don't require thought or emotion components. A psychic spellcaster can replace verbal and somatic components with thought and emotion components only for the purposes of the spell components themselves, not for the purposes of any other rules elements that relate to verbal and somatic components. She can't use ‹feat/Silent Spell› to ignore the thought component of a spell, for example. The new feats ‹feat/Intuitive Spell› and ‹feat/Logical Spell› serve a similar function for these new components."
 		],
 		"parent_topics": [
 			"basics",
@@ -2614,9 +2614,9 @@
 		"subtitle": "Psychic Magic",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"{SOURCE Occult Adventures/144}",
+			"‹SOURCE Occult Adventures/144›",
 			"",
-			"Some psychic spells can be undercast. This means that the spellcaster can cast the spell at the level that he knows, or as any lower-level version of that spell, using the appropriate spell slot. When a spellcaster undercasts a spell, it is treated exactly like the lower-level version, including when determining its effect, saving throw, and other variables. For example, a psychic spellcaster who adds {spell/ego whip III} to his list of spells known can cast it as ego whip I, II or III. If he casts it as {spell/ego whip I}, it is treated in all ways as that spell; it uses the text and the saving throw DC for that spell, and requires him to expend a 3rd-level spell slot.",
+			"Some psychic spells can be undercast. This means that the spellcaster can cast the spell at the level that he knows, or as any lower-level version of that spell, using the appropriate spell slot. When a spellcaster undercasts a spell, it is treated exactly like the lower-level version, including when determining its effect, saving throw, and other variables. For example, a psychic spellcaster who adds ‹spell/ego whip III› to his list of spells known can cast it as ego whip I, II or III. If he casts it as ‹spell/ego whip I›, it is treated in all ways as that spell; it uses the text and the saving throw DC for that spell, and requires him to expend a 3rd-level spell slot.",
 			"",
 			"Whenever a spontaneous spellcaster adds a spell to his list of spells known that can be undercast, he can immediately learn a spell in place of each lower-level version of that spell he knows. In essence, he loses each earlier version and can replace it with another spell of the same level that is on his spell list."
 		],
@@ -2634,7 +2634,7 @@
 		"name": "Special Abilities",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/221}",
+			"‹SOURCE PRPG Core Rulebook/221›",
 			"",
 			"A number of classes and creatures gain the use of special abilities, many of which function like spells.",
 			"",
@@ -2642,7 +2642,7 @@
 			"",
 			"A spell-like ability has a casting time of 1 standard action unless noted otherwise in the ability or spell description. In all other ways, a spell-like ability functions just like a spell.",
 			"",
-			"Spell-like abilities are subject to spell resistance and {spell/dispel magic}. They do not function in areas where magic is suppressed or negated. Spell-like abilities cannot be used to counterspell, nor can they be counterspelled.",
+			"Spell-like abilities are subject to spell resistance and ‹spell/dispel magic›. They do not function in areas where magic is suppressed or negated. Spell-like abilities cannot be used to counterspell, nor can they be counterspelled.",
 			"",
 			"If a character class grants a spell-like ability that is not based on an actual spell, the ability's effective spell level is equal to the highest-level class spell the character can cast, and is cast at the class level the ability is gained.",
 			"",

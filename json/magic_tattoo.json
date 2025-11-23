@@ -5,15 +5,15 @@
 		"description": [
 			"## Spell Tattoo",
 			"",
-			"{SOURCE Inner Sea Magic/16}  ",
+			"‹SOURCE Inner Sea Magic/16›  ",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** none; **Price** varies; **Weight** -",
 			"",
-			"A spell tattoo is essentially a wearable {rule/scroll>s} inscribed on flesh instead of on parchment or vellum. These tattoos appear as colorful and intricate patterns rather than magical writing. The tattoo is a silent, {misc/spell completion} item that only the bearer can activate. It vanishes when activated. A spell tattoo must be visible to the bearer and must be touched as part of its activation. These magical tattoos are not normally placed on the head, neck, or back as a result, since most creatures would require mirrors to activate them. A spell tattoo's aura and caster level varies as per the scroll it emulates. A spell tattoo has a market price four times as much as an equivalent scroll.",
+			"A spell tattoo is essentially a wearable ‹rule/scroll<s› inscribed on flesh instead of on parchment or vellum. These tattoos appear as colorful and intricate patterns rather than magical writing. The tattoo is a silent, ‹misc/spell completion› item that only the bearer can activate. It vanishes when activated. A spell tattoo must be visible to the bearer and must be touched as part of its activation. These magical tattoos are not normally placed on the head, neck, or back as a result, since most creatures would require mirrors to activate them. A spell tattoo's aura and caster level varies as per the scroll it emulates. A spell tattoo has a market price four times as much as an equivalent scroll.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, the spell to be inscribed; **Cost** varies"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›, the spell to be inscribed; **Cost** varies"
 		]
 	},
 	"hypnotic_tattoo": {
@@ -22,17 +22,17 @@
 		"description": [
 			"## Hypnotic Tattoo",
 			"",
-			"{SOURCE Magical Marketplace/5}  ",
+			"‹SOURCE Magical Marketplace/5›  ",
 			"**Aura** faint enchantment; **CL** 1st  ",
 			"**Slot** none; **Price** 900 gp; **Weight** -",
 			"",
-			"This arabesque tattoo accentuates the bearer's movements. If the tattoo is visible, the bearer gains a +2 circumstance bonus on {skill/Perform/ (dance)} checks.",
+			"This arabesque tattoo accentuates the bearer's movements. If the tattoo is visible, the bearer gains a +2 circumstance bonus on ‹skill/Perform« (dance)› checks.",
 			"",
-			"When the bearer uses a Perform skill or {ability/bardic performance}, she can choose a creature within 90 feet that she can see and that can see her hypnotic tattoo. That creature takes a -2 penalty on Perception and Sense Motive checks while the bearer performs. This is a mind-affecting effect. The bearer can change the target of this effect as a free action on her turn.",
+			"When the bearer uses a Perform skill or ‹ability/bardic performance›, she can choose a creature within 90 feet that she can see and that can see her hypnotic tattoo. That creature takes a -2 penalty on Perception and Sense Motive checks while the bearer performs. This is a mind-affecting effect. The bearer can change the target of this effect as a free action on her turn.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/hypnotism}; **Cost** 450 gp"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›, ‹spell/hypnotism›; **Cost** 450 gp"
 		]
 	},
 	"runeward_tattoo": {
@@ -41,7 +41,7 @@
 		"description": [
 			"## Runeward Tattoo",
 			"",
-			"{SOURCE Magical Marketplace/5}  ",
+			"‹SOURCE Magical Marketplace/5›  ",
 			"**Aura** faint divination; **CL** 1st  ",
 			"**Slot** none; **Price** 1,000 gp; **Weight** -",
 			"",
@@ -49,7 +49,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/detect magic}, {spell/guidance}; **Cost** 500 gp"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›, ‹spell/detect magic›, ‹spell/guidance›; **Cost** 500 gp"
 		]
 	},
 	"radiant_tattoo": {
@@ -58,15 +58,15 @@
 		"description": [
 			"## Radiant Tattoo",
 			"",
-			"{SOURCE Dirty Tactics Toolbox/27}  ",
+			"‹SOURCE Dirty Tactics Toolbox/27›  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 1,500 gp; **Weight** -",
 			"",
-			"This tattoo typically takes the form of a colorful sunburst. The bearer can activate the tattoo with a command word, causing it to flare brilliantly. A single, adjacent foe is {misc/blinded} for 1d4 rounds. If it succeeds at a DC 15 Reflex save, it is {misc/dazzled} for 1d4 rounds instead. If the target has {umr/light blindness}, {umr/light sensitivity,} or is otherwise vulnerable to bright light, it is instead blinded for 2d4 rounds or dazzled for 2d4 rounds on a successful save. If the bearer activates the tattoo while more than one foe is adjacent, she may choose which foe is affected. The tattoo vanishes once it has been activated.",
+			"This tattoo typically takes the form of a colorful sunburst. The bearer can activate the tattoo with a command word, causing it to flare brilliantly. A single, adjacent foe is ‹misc/blinded› for 1d4 rounds. If it succeeds at a DC 15 Reflex save, it is ‹misc/dazzled› for 1d4 rounds instead. If the target has ‹umr/light blindness›, ‹umr/light sensitivity,› or is otherwise vulnerable to bright light, it is instead blinded for 2d4 rounds or dazzled for 2d4 rounds on a successful save. If the bearer activates the tattoo while more than one foe is adjacent, she may choose which foe is affected. The tattoo vanishes once it has been activated.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/daylight}; **Cost** 750 gp"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›, ‹spell/daylight›; **Cost** 750 gp"
 		]
 	},
 	"kins_face_tattoo": {
@@ -78,7 +78,7 @@
 		"description": [
 			"## Kin's Face Tattoo",
 			"",
-			"{SOURCE Pathfinder #91: Battle of Bloodmarch Hills/61;Bastards of Golarion/11}  ",
+			"‹SOURCE Pathfinder #91: Battle of Bloodmarch Hills/61;Bastards of Golarion/11›  ",
 			"**Aura** faint illusion; **CL** 5th  ",
 			"**Slot** none; **Price** 1,600 gp; **Weight** -",
 			"",
@@ -88,7 +88,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/disguise self}; **Cost** 800 gp"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›, ‹spell/disguise self›; **Cost** 800 gp"
 		]
 	},
 	"serpentine_tattoo": {
@@ -97,15 +97,15 @@
 		"description": [
 			"## Serpentine Tattoo",
 			"",
-			"{SOURCE Magical Marketplace/5}  ",
+			"‹SOURCE Magical Marketplace/5›  ",
 			"**Aura** faint conjuration; **CL** 1st  ",
 			"**Slot** none; **Price** 2,000 gp; **Weight** -",
 			"",
-			"This sinuous tattoo appears to move when the bearer flexes his muscles. Three times per day when the bearer makes a successful melee attack with a {misc/monk} or {misc/performance} weapon or an unarmed strike, he can cause the tattoo to lunge like a snake at the creature hit. This allows the bearer to perform a {rule/dirty trick} combat maneuver as an immediate action that does not provoke attacks of opportunity.",
+			"This sinuous tattoo appears to move when the bearer flexes his muscles. Three times per day when the bearer makes a successful melee attack with a ‹misc/monk› or ‹misc/performance› weapon or an unarmed strike, he can cause the tattoo to lunge like a snake at the creature hit. This allows the bearer to perform a ‹rule/dirty trick› combat maneuver as an immediate action that does not provoke attacks of opportunity.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Improved Dirty Trick}, {feat/Inscribe Magical Tattoo}, {spell/summon monster I}; **Cost** 1,000 gp"
+			"**Requirements** ‹feat/Improved Dirty Trick›, ‹feat/Inscribe Magical Tattoo›, ‹spell/summon monster I›; **Cost** 1,000 gp"
 		]
 	},
 	"casters_tattoo_lesser": {
@@ -114,7 +114,7 @@
 		"description": [
 			"## Caster's Tattoo",
 			"",
-			"{SOURCE Inner Sea Magic/16}  ",
+			"‹SOURCE Inner Sea Magic/16›  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 6,000 gp (Lesser), 21,000 gp (Normal), 48,000 gp (Greater); **Weight** -",
 			"",
@@ -124,7 +124,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {feat/Silent Spell}, {feat/Still Spell}; **Cost** 3,000 gp (lesser), 10,500 gp (normal), 24,000 gp (greater)"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›, ‹feat/Silent Spell›, ‹feat/Still Spell›; **Cost** 3,000 gp (lesser), 10,500 gp (normal), 24,000 gp (greater)"
 		]
 	},
 	"lesser_casters_tattoo": { "redirect": "casters_tattoo_lesser" },
@@ -134,17 +134,17 @@
 		"description": [
 			"## Watchtower Tattoo",
 			"",
-			"{SOURCE Feast of Dust/5}  ",
+			"‹SOURCE Feast of Dust/5›  ",
 			"**Aura** moderate abjuration; **CL** 8th  ",
 			"**Slot** none; **Price** 9,500 gp; **Weight** -",
 			"",
-			"A watchtower tattoo must be applied to the back of a hand. Once applied, it provides a +4 resistance bonus against the spells and spell-like abilities of {family/daemon/s}, and the bearer cannot be possessed by daemons using {spell/magic jar} or similar effects.",
+			"A watchtower tattoo must be applied to the back of a hand. Once applied, it provides a +4 resistance bonus against the spells and spell-like abilities of ‹family/daemon«s›, and the bearer cannot be possessed by daemons using ‹spell/magic jar› or similar effects.",
 			"",
 			"Daemons immediately recognize any bearer of this tattoo as an enemy, even if the mark is covered or disguised. This revulsion may trigger strange reactions in daemonic magic or artifacts.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/protection from evil}; **Cost** 4,750 gp"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›, ‹spell/protection from evil›; **Cost** 4,750 gp"
 		]
 	},
 	"reservoir_tattoo": {
@@ -153,7 +153,7 @@
 		"description": [
 			"## Reservoir Tattoo",
 			"",
-			"{SOURCE Inner Sea Magic/16}  ",
+			"‹SOURCE Inner Sea Magic/16›  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** -",
 			"",
@@ -161,7 +161,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}; **Cost** 5,000 gp"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›; **Cost** 5,000 gp"
 		]
 	},
 	"weapon_tattoo": {
@@ -170,7 +170,7 @@
 		"description": [
 			"## Weapon Tattoo",
 			"",
-			"{SOURCE Dirty Tactics Toolbox/27}  ",
+			"‹SOURCE Dirty Tactics Toolbox/27›  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** -",
 			"",
@@ -178,7 +178,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/disguise weapon}; **Cost** 5,000 gp"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›, ‹spell/disguise weapon›; **Cost** 5,000 gp"
 		]
 	},
 	"mesmerizing_tattoo": {
@@ -187,17 +187,17 @@
 		"description": [
 			"## Mesmerizing Tattoo",
 			"",
-			"{SOURCE Blood of Shadows/12}  ",
+			"‹SOURCE Blood of Shadows/12›  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** none; **Price** 10,800 gp; **Weight** -",
 			"",
-			"This shadowy tattoo is drawn in a spiraling pattern down one of the bearer's arms. If the tattoo is visible, the wearer gains a +2 circumstance bonus on {skill/Diplomacy} checks.",
+			"This shadowy tattoo is drawn in a spiraling pattern down one of the bearer's arms. If the tattoo is visible, the wearer gains a +2 circumstance bonus on ‹skill/Diplomacy› checks.",
 			"",
-			"Whenever the bearer uses the {skill/hypnotism} occult skill unlock, casts an enchantment spell that targets a single creature, or uses the hypnotic stare class feature, her target takes a -1 penalty on Will saving throws for the ability's duration and the DC to affect the target with the hypnotism occult skill unlock is reduced by 1. This is a mind-affecting effect.",
+			"Whenever the bearer uses the ‹skill/hypnotism› occult skill unlock, casts an enchantment spell that targets a single creature, or uses the hypnotic stare class feature, her target takes a -1 penalty on Will saving throws for the ability's duration and the DC to affect the target with the hypnotism occult skill unlock is reduced by 1. This is a mind-affecting effect.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/suggestion}; **Cost** 5,400 gp"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›, ‹spell/suggestion›; **Cost** 5,400 gp"
 		]
 	},
 	"animal_totem_tattoo": {
@@ -206,15 +206,15 @@
 		"description": [
 			"## Animal Totem Tattoo",
 			"",
-			"{SOURCE Magical Marketplace/5}  ",
+			"‹SOURCE Magical Marketplace/5›  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** -",
 			"",
-			"An animal totem tattoo is dedicated to a specific animal totem. The bearer gains the totem transformation ability of a 5th-level {class/druid} with the corresponding animal shaman archetype ({arc-druid/ape>_shaman}, {arc-druid/bat>_shaman}, {arc-druid/bear>_shaman}, {arc-druid/boar>_shaman}, {arc-druid/dragon>_shaman}, {arc-druid/eagle>_shaman}, {arc-druid/lion>_shaman}, {arc-druid/saurian>_shaman}, {arc-druid/serpent>_shaman}, {arc-druid/shark>_shaman}, or {arc-druid/wolf>_shaman}). If the bearer already has the corresponding totem transformation as a class ability, she is instead treated as a druid of 5 levels higher for the purposes of this ability.",
+			"An animal totem tattoo is dedicated to a specific animal totem. The bearer gains the totem transformation ability of a 5th-level ‹class/druid› with the corresponding animal shaman archetype (‹arc-druid/ape<_shaman›, ‹arc-druid/bat<_shaman›, ‹arc-druid/bear<_shaman›, ‹arc-druid/boar<_shaman›, ‹arc-druid/dragon<_shaman›, ‹arc-druid/eagle<_shaman›, ‹arc-druid/lion<_shaman›, ‹arc-druid/saurian<_shaman›, ‹arc-druid/serpent<_shaman›, ‹arc-druid/shark<_shaman›, or ‹arc-druid/wolf<_shaman›). If the bearer already has the corresponding totem transformation as a class ability, she is instead treated as a druid of 5 levels higher for the purposes of this ability.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/beast shape I}; **Cost** 6,000 gp"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›, ‹spell/beast shape I›; **Cost** 6,000 gp"
 		]
 	},
 	"swirling_smoke_tattoo": {
@@ -223,7 +223,7 @@
 		"description": [
 			"## Swirling Smoke Tattoo",
 			"",
-			"{SOURCE Blood of Shadows/12}  ",
+			"‹SOURCE Blood of Shadows/12›  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** none; **Price** 12,500 gp; **Weight** -",
 			"",
@@ -231,7 +231,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/blur}; **Cost** 6,250 gp"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›, ‹spell/blur›; **Cost** 6,250 gp"
 		]
 	},
 	"viper_tattoo": {
@@ -240,21 +240,21 @@
 		"description": [
 			"## Viper Tattoo",
 			"",
-			"{SOURCE Dirty Tactics Toolbox/27}  ",
+			"‹SOURCE Dirty Tactics Toolbox/27›  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 18,000 gp; **Weight** -",
 			"",
 			"This tattoo typically takes the form of a coiled snake, and once per day the bearer can activate it as a standard action. A viper tattoo must be visible to the bearer and must be touched as part of its activation. The tattoo is not normally placed on the head, neck, or back as a result, since most creatures would require mirrors to activate them.",
 			"",
-			"When activated, the snake tattoo animates and becomes a {monster/viper}. It appears in the bearer's space and acts immediately, on the bearer's turn, and obeys the bearer's spoken commands for up to 5 rounds.",
+			"When activated, the snake tattoo animates and becomes a ‹monster/viper›. It appears in the bearer's space and acts immediately, on the bearer's turn, and obeys the bearer's spoken commands for up to 5 rounds.",
 			"",
-			"The viper uses the bearer's base attack bonus when it attacks, and the DC to resist and cure its poison is equal to 10 + the 1/2 bearer's level + the bearer's Constitution modifier. If the bearer has a class feature or an ability that grants it {misc/precision damage} (such as {ability/sneak attack}), the viper's attack deals 1 additional point of damage per die of that precision damage.",
+			"The viper uses the bearer's base attack bonus when it attacks, and the DC to resist and cure its poison is equal to 10 + the 1/2 bearer's level + the bearer's Constitution modifier. If the bearer has a class feature or an ability that grants it ‹misc/precision damage› (such as ‹ability/sneak attack›), the viper's attack deals 1 additional point of damage per die of that precision damage.",
 			"",
 			"At the end of the 5 rounds, the viper vanishes and reverts to its tattoo form. If the viper is killed, the tattoo vanishes. As a swift action, the bearer can command the viper to withdraw from an opponent, and in this case, the viper returns to its tattoo form once it reaches the bearer's space.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/summon nature's ally I}; **Cost** 9,000 gp"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›, ‹spell/summon nature's ally I›; **Cost** 9,000 gp"
 		]
 	},
 	"casters_tattoo_normal": {
@@ -268,15 +268,15 @@
 		"description": [
 			"## Penumbra Tattoo",
 			"",
-			"{SOURCE Blood of Shadows/12}  ",
+			"‹SOURCE Blood of Shadows/12›  ",
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** none; **Price** 24,000 gp; **Weight** -",
 			"",
-			"This ritualistic scar is infused with shadowstuff that shifts and writhes within the bearer's skin. Whenever the bearer is exposed to illumination brighter than {rule/dim light}, the tattoo emits a vapor, shrouding the bearer in a dusky haze that provides the benefits of *protective penumbra.*",
+			"This ritualistic scar is infused with shadowstuff that shifts and writhes within the bearer's skin. Whenever the bearer is exposed to illumination brighter than ‹rule/dim light›, the tattoo emits a vapor, shrouding the bearer in a dusky haze that provides the benefits of *protective penumbra.*",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Inscribe Magical Tattoo}, {spell/protective penumbra}; **Cost** 12,000 gp"
+			"**Requirements** ‹feat/Inscribe Magical Tattoo›, ‹spell/protective penumbra›; **Cost** 12,000 gp"
 		]
 	},
 	"casters_tattoo_greater": {

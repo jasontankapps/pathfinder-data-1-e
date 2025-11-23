@@ -13,9 +13,9 @@
 		"description": [
 			"## Keleshite Coffee",
 			"",
-			"{SOURCE Potions and Poisons/27}",
+			"‹SOURCE Potions and Poisons/27›",
 			"",
-			"::drug{start type=ingested minor dc=12 price=5 eff1=\"8 hours; user ignores the effects of the %%misc/fatigued%% condition\" eff2=\"after 8 hours; the user becomes %%misc/exhausted%%, and he becomes fatigued only after 8 hours of rest (instead of 1)\" dmgWis=1}",
+			"::drug{start type=ingested minor dc=12 price=5 eff1=\"8 hours; user ignores the effects of the ‹misc/fatigued› condition\" eff2=\"after 8 hours; the user becomes ‹misc/exhausted›, and he becomes fatigued only after 8 hours of rest (instead of 1)\" dmgWis=1}",
 			"",
 			"This particularly strong coffee is popular throughout the Padishah Empire of Kelesh, though it also has aficionados in Absalom, Oppara, and beyond. A morning cup is a good cure for lack of rest, but many find that it becomes a habit."
 		]
@@ -26,9 +26,9 @@
 		"description": [
 			"## Flayleaf",
 			"",
-			"{SOURCE GameMastery Guide/237}",
+			"‹SOURCE GameMastery Guide/237›",
 			"",
-			"::drug{start type=\"inhaled or ingested\" minor dc=12 price=10 eff1=\"1 hour; +2 alchemical bonus on saves against mind-affecting effects, %%misc/fatigue%%\" dmgWis=1}"
+			"::drug{start type=\"inhaled or ingested\" minor dc=12 price=10 eff1=\"1 hour; +2 alchemical bonus on saves against mind-affecting effects, ‹misc/fatigue›\" dmgWis=1}"
 		]
 	},
 	"morgod_jelly": {
@@ -37,11 +37,11 @@
 		"description": [
 			"## Morgod Jelly",
 			"",
-			"{SOURCE Pathfinder #99: Dance of the Damned/86}",
+			"‹SOURCE Pathfinder #99: Dance of the Damned/86›",
 			"",
-			"::drug{start type=\"ingested or injury\" addict=\"special (see below)\" dc=15 price=10 eff1=\"1 hour; +1d2 Cha and all creatures are considered to have %%rule/concealment%% against the user\" dmgCha=\"1d2\" dmgWis=\"1d2\"}",
+			"::drug{start type=\"ingested or injury\" addict=\"special (see below)\" dc=15 price=10 eff1=\"1 hour; +1d2 Cha and all creatures are considered to have ‹rule/concealment› against the user\" dmgCha=\"1d2\" dmgWis=\"1d2\"}",
 			"",
-			"Morgod jelly causes vivid hallucinations and a sense of euphoria, and proves remarkably addictive to most humanoids. {monster/Morgodea/s} not only coat their stingers in this jelly, but also collect it in vials or wax-covered paper to sell to victims once they become addicted.",
+			"Morgod jelly causes vivid hallucinations and a sense of euphoria, and proves remarkably addictive to most humanoids. ‹monster/Morgodea«s› not only coat their stingers in this jelly, but also collect it in vials or wax-covered paper to sell to victims once they become addicted.",
 			"",
 			"::aff[Morgod Addiction]{iconD start disease type=variable saveW=15 onset=\"1 day\" freq=\"1/day\" eff=\"-2 penalty to Wis and Cha, target cannot naturally heal ability damage caused by morgod jelly\" cure3c}"
 		]
@@ -52,9 +52,9 @@
 		"description": [
 			"## Magesight",
 			"",
-			"{SOURCE Potions and Poisons/27}",
+			"‹SOURCE Potions and Poisons/27›",
 			"",
-			"::drug{start type=inhaled minor dc=15 price=15 eff1=\"1d4 &times& 10 minutes; the user gains the benefits of a constant %%spell/detect magic%% effect, but she treats illumination in the area as %%rule/dim light%%; areas of dim light and darkness are treated as darkness\" eff2=\"1 hour; the user gains the %%misc/dazzled%% condition\" dmgWis=\"1d2\"}",
+			"::drug{start type=inhaled minor dc=15 price=15 eff1=\"1d4 &times& 10 minutes; the user gains the benefits of a constant ‹spell/detect magic› effect, but she treats illumination in the area as ‹rule/dim light›; areas of dim light and darkness are treated as darkness\" eff2=\"1 hour; the user gains the ‹misc/dazzled› condition\" dmgWis=\"1d2\"}",
 			"",
 			"Dilettantes pursue the visions from magesight simply for the wonder of the experience, while back-alley shopkeeps in Absalom, Katapesh, Katheer, and other major trade cities rely on it to provide a valuable ability they have no other way to obtain."
 		]
@@ -65,7 +65,7 @@
 		"description": [
 			"## Muscaria",
 			"",
-			"{SOURCE Pathfinder #110: The Thrushmoor Terror/14}",
+			"‹SOURCE Pathfinder #110: The Thrushmoor Terror/14›",
 			"",
 			"::drug{start type=ingested minor dc=14 price=15 eff1=\"3 hours; +1d6 alchemical bonus on a single Knowledge (any one), Perception, or Sense Motive check once per minute for the duration of the effect Onset 30 minutes\" dmgCha=\"1d4\"}",
 			"",
@@ -78,9 +78,9 @@
 		"description": [
 			"## Pesh",
 			"",
-			"{SOURCE GameMastery Guide/237}",
+			"‹SOURCE GameMastery Guide/237›",
 			"",
-			"::drug{start type=\"ingested or inhaled\" moderate dc=20 price=15 eff1=\"1 hour; +1d2 alchemical bonus to Strength, -2 penalty on saves against illusions and mind-affecting effects\" eff2=\"after 1 hour; 1d2 hours of %%misc/fatigue%%\" dmgCon=\"1d2\" dmgWis=\"1d2\"}"
+			"::drug{start type=\"ingested or inhaled\" moderate dc=20 price=15 eff1=\"1 hour; +1d2 alchemical bonus to Strength, -2 penalty on saves against illusions and mind-affecting effects\" eff2=\"after 1 hour; 1d2 hours of ‹misc/fatigue›\" dmgCon=\"1d2\" dmgWis=\"1d2\"}"
 		]
 	},
 	"vigilance": {
@@ -89,7 +89,7 @@
 		"description": [
 			"## Vigilance",
 			"",
-			"{SOURCE Potions and Poisons/27}",
+			"‹SOURCE Potions and Poisons/27›",
 			"",
 			"::drug{start type=ingested moderate dc=20 price=15 eff1=\"1d3 hours; +10 alchemical bonus on Perception checks\" eff2=\"4 hours; user is denied his Dexterity bonus to AC\" dmgCon=\"1d4\"}",
 			"",
@@ -102,7 +102,7 @@
 		"description": [
 			"## Aether",
 			"",
-			"{SOURCE GameMastery Guide/237}",
+			"‹SOURCE GameMastery Guide/237›",
 			"",
 			"::drug{start type=inhaled moderate dc=16 price=20 eff1=\"1 hour; +1 caster level\" eff2=\"1d4 hours; user must make a caster check to cast spells, DC 15 + spell level\" dmgCon=\"1d2\"}"
 		]
@@ -113,11 +113,11 @@
 		"description": [
 			"## Gossamer Veil",
 			"",
-			"{SOURCE Potions and Poisons/26}",
+			"‹SOURCE Potions and Poisons/26›",
 			"",
 			"::drug{start type=ingested minor dc=18 price=20 eff1=\"1 day; +4 alchemical bonus on saving throws against disease effects\" eff2=\"after 1 day; -4 penalty on saving throws against disease effects for 7 days\" dmgWis=\"1d4\"}",
 			"",
-			"Cultists of {faith/Ghlaunder} and similar manipulators wander the streets of impoverished neighborhoods, administering this \"vaccine\" to prevent diseases common in squalid conditions, often with an admonition that it remains effective only as long as the recipient maintains faith in the priest's deity."
+			"Cultists of ‹faith/Ghlaunder› and similar manipulators wander the streets of impoverished neighborhoods, administering this \"vaccine\" to prevent diseases common in squalid conditions, often with an admonition that it remains effective only as long as the recipient maintains faith in the priest's deity."
 		]
 	},
 	"slavers_drops": {
@@ -126,7 +126,7 @@
 		"description": [
 			"## Slaver's Drops",
 			"",
-			"{SOURCE Rival Guide/53}",
+			"‹SOURCE Rival Guide/53›",
 			"",
 			"::drug{start type=ingested minor dc=13 price=20 eff1=\"3 hours; -3 on Will saves, +3 on Perception checks\" dmgStr=\"1d2\"}",
 			"",
@@ -139,11 +139,11 @@
 		"description": [
 			"## Bloodbrush Extract",
 			"",
-			"{SOURCE Numeria, Land of Fallen Stars/23}",
+			"‹SOURCE Numeria, Land of Fallen Stars/23›",
 			"",
-			"::drug{start type=ingested minor dc=14 price=25 eff1=\"2 hours; +2 on Knowledge (arcana, planes, or religion) and Spellcraft checks, victim is distracted for the purposes of %%skill/Perception%% checks\" dmgWis=\"1d2\"}",
+			"::drug{start type=ingested minor dc=14 price=25 eff1=\"2 hours; +2 on Knowledge (arcana, planes, or religion) and Spellcraft checks, victim is distracted for the purposes of ‹skill/Perception› checks\" dmgWis=\"1d2\"}",
 			"",
-			"Refined from the thorns of {monster/bloodbrush}, this extract numbs the senses and evokes vivid hallucinations, heightened awareness, and altered thought processes. Although repeated doses can be toxic, bloodbrush extract is not widely used as a poison but rather as a recreational drug."
+			"Refined from the thorns of ‹monster/bloodbrush›, this extract numbs the senses and evokes vivid hallucinations, heightened awareness, and altered thought processes. Although repeated doses can be toxic, bloodbrush extract is not widely used as a poison but rather as a recreational drug."
 		]
 	},
 	"opium": {
@@ -152,9 +152,9 @@
 		"description": [
 			"## Opium",
 			"",
-			"{SOURCE GameMastery Guide/237}",
+			"‹SOURCE GameMastery Guide/237›",
 			"",
-			"::drug{start type=\"inhaled, ingested, or injury\" severe dc=20 price=25 eff1=\"1 hour; +1d8 temporary hit points, +2 alchemical bonus on Fortitude saves, %%misc/fatigue%%\" dmgCon=\"1d4\" dmgWis=\"1d4\"}"
+			"::drug{start type=\"inhaled, ingested, or injury\" severe dc=20 price=25 eff1=\"1 hour; +1d8 temporary hit points, +2 alchemical bonus on Fortitude saves, ‹misc/fatigue›\" dmgCon=\"1d4\" dmgWis=\"1d4\"}"
 		]
 	},
 	"tears_of_razmir": {
@@ -163,7 +163,7 @@
 		"description": [
 			"## Tears of Razmir",
 			"",
-			"{SOURCE Inner Sea World Guide/293}",
+			"‹SOURCE Inner Sea World Guide/293›",
 			"",
 			"::drug{start type=ingested severe dc=18 price=25 eff1=\"1 hour; +1 alchemical bonus to Constitution, -2 penalty on Wisdom-based skill checks\" dmgCon=\"1d2\"}",
 			"",
@@ -176,7 +176,7 @@
 		"description": [
 			"## Scour",
 			"",
-			"{SOURCE GameMastery Guide/237}",
+			"‹SOURCE GameMastery Guide/237›",
 			"",
 			"::drug{start type=\"ingested or inhaled\" severe dc=24 price=45 eff1=\"3 hours; +1d4 alchemical bonus to Dexterity, -1d4 penalty to Wisdom\" dmgCon=\"1d6\"}"
 		]
@@ -187,11 +187,11 @@
 		"description": [
 			"## Sting's Savor",
 			"",
-			"{SOURCE Potions and Poisons/27}",
+			"‹SOURCE Potions and Poisons/27›",
 			"",
 			"::drug{start type=injury minor dc=15 price=45 eff1=\"user immediately heals 1d8+2 points of nonlethal damage\" eff2=\"1d4 hours; an opponent who attempts a Bluff check to fool the user or a Diplomacy check to change the user's attitude can roll twice and take the better result\" dmgWis=\"1d2\"}",
 			"",
-			"The \"sting\" administered to willing recipients at some {faith/Calistria/n} temples helps nervous visitors relax. Black-market alchemists have reverse-engineered the drug to meet demand from less savory individuals who appreciate the pliability it elicits in users."
+			"The \"sting\" administered to willing recipients at some ‹faith/Calistria«n› temples helps nervous visitors relax. Black-market alchemists have reverse-engineered the drug to meet demand from less savory individuals who appreciate the pliability it elicits in users."
 		]
 	},
 	"dwarven_fire_ale": {
@@ -200,9 +200,9 @@
 		"description": [
 			"## Dwarven Fire Ale",
 			"",
-			"{SOURCE GameMastery Guide/237}",
+			"‹SOURCE GameMastery Guide/237›",
 			"",
-			"::drug{start type=ingested moderate dc=20 price=50 eff1=\"1d4 rounds; %%spell/rage%% as per the spell\" eff2=\"1 hour; cold resistance 5\" dmgCon=\"1d2\"}"
+			"::drug{start type=ingested moderate dc=20 price=50 eff1=\"1d4 rounds; ‹spell/rage› as per the spell\" eff2=\"1 hour; cold resistance 5\" dmgCon=\"1d2\"}"
 		]
 	},
 	"serpents_kiss": {
@@ -211,9 +211,9 @@
 		"description": [
 			"## Serpent's Kiss",
 			"",
-			"{SOURCE Potions and Poisons/27}",
+			"‹SOURCE Potions and Poisons/27›",
 			"",
-			"::drug{start type=ingested moderate dc=18 price=50 eff1=\"1 hour; +2 alchemical bonus on Bluff, Diplomacy, and Intimidate checks\" eff2=\"after 1 hour; the user gains the %%misc/fatigued%% condition for 1d4 hours\" dmgDex=\"1d4\"}",
+			"::drug{start type=ingested moderate dc=18 price=50 eff1=\"1 hour; +2 alchemical bonus on Bluff, Diplomacy, and Intimidate checks\" eff2=\"after 1 hour; the user gains the ‹misc/fatigued› condition for 1d4 hours\" dmgDex=\"1d4\"}",
 			"",
 			"Relied upon by politicians and shy noble scions, this emerald syrup boosts the user's confidence, allowing her to navigate social situations with aplomb, though the tremor it imparts to her hands can cause an unseemly clatter of cutlery or stemware."
 		]
@@ -224,7 +224,7 @@
 		"description": [
 			"## Zerk",
 			"",
-			"{SOURCE GameMastery Guide/237}",
+			"‹SOURCE GameMastery Guide/237›",
 			"",
 			"::drug{start type=injury minor dc=18 price=50 eff1=\"1 hour; +1 alchemical bonus to initiative. If addicted, the user also gains a +1d4 alchemical bonus to Strength for as long as he is addicted\" dmgCon=\"1d2\"}"
 		]
@@ -235,9 +235,9 @@
 		"description": [
 			"## Ruk Tar",
 			"",
-			"{SOURCE Potions and Poisons/27}",
+			"‹SOURCE Potions and Poisons/27›",
 			"",
-			"::drug{start type=injury moderate dc=25 price=55 eff1=\"1 hour; +2 alchemical bonus to Strength and immunity to pain effects\" eff2=\"after 1 hour; the user gains the %%misc/exhausted%% condition\" dmgInt=\"1d4\"}",
+			"::drug{start type=injury moderate dc=25 price=55 eff1=\"1 hour; +2 alchemical bonus to Strength and immunity to pain effects\" eff2=\"after 1 hour; the user gains the ‹misc/exhausted› condition\" dmgInt=\"1d4\"}",
 			"",
 			"Common among desperate adventurers, gladiatorial combatants, and orc tribes, ruk tar is often applied after the first blood of a fight is spilled, using the wound as an opportunity to enhance the user's abilities to ensure victory."
 		]
@@ -248,7 +248,7 @@
 		"description": [
 			"## Harlot Sweets",
 			"",
-			"{SOURCE Rival Guide/53}",
+			"‹SOURCE Rival Guide/53›",
 			"",
 			"::drug{start type=ingested moderate dc=18 price=60 eff1=\"1 hour; +1d4 Cha and +1 Dex damage\" dmgInt=\"1d2\"}",
 			"",
@@ -261,9 +261,9 @@
 		"description": [
 			"## Inspiration Dust",
 			"",
-			"{SOURCE Potions and Poisons/26}",
+			"‹SOURCE Potions and Poisons/26›",
 			"",
-			"::drug{start type=inhaled moderate dc=22 price=75 eff1=\"4 hours; +1d4 alchemical bonus on Knowledge, Linguistics, and Spellcraft checks\" eff2=\"after 4 hours; for 24 hours, the user takes a -4 penalty on %%skill/Sense Motive%% checks and assumes everything heard is a lie, but she can attempt a DC 20 Sense Motive check to determine if someone is telling the truth\" dmgWis=\"1d4\"}",
+			"::drug{start type=inhaled moderate dc=22 price=75 eff1=\"4 hours; +1d4 alchemical bonus on Knowledge, Linguistics, and Spellcraft checks\" eff2=\"after 4 hours; for 24 hours, the user takes a -4 penalty on ‹skill/Sense Motive› checks and assumes everything heard is a lie, but she can attempt a DC 20 Sense Motive check to determine if someone is telling the truth\" dmgWis=\"1d4\"}",
 			"",
 			"The mind-opening properties of this translucent dust enable the user to process information and draw connections rapidly, though the accompanying paranoia can make it difficult to act effectively on the knowledge thus gleaned."
 		]
@@ -274,11 +274,11 @@
 		"description": [
 			"## Fireskin elixir",
 			"",
-			"{SOURCE Blood of the Elements/27}",
+			"‹SOURCE Blood of the Elements/27›",
 			"",
 			"::drug{start type=ingested severe dc=20 price=100 eff1=\"1 day; +10 alchemical bonus on Disguise checks to appear as an efreeti, -1 penalty on all saves\" dmgWis=\"1d2\"}",
 			"",
-			"This elixir turns its imbiber fiery red, making it easier to pass as an {monster/efreeti}. Unscrupulous efreet can sell {eq-misc/fireskin elixir} to guests who have been barred from citizen-only districts and must rely on disguises. Fireskin is highly addictive. Many once-savvy merchants have fallen into destitution as they scrambled to maintain efreet favor and secure a steady supply of the drug."
+			"This elixir turns its imbiber fiery red, making it easier to pass as an ‹monster/efreeti›. Unscrupulous efreet can sell ‹eq-misc/fireskin elixir› to guests who have been barred from citizen-only districts and must rely on disguises. Fireskin is highly addictive. Many once-savvy merchants have fallen into destitution as they scrambled to maintain efreet favor and secure a steady supply of the drug."
 		]
 	},
 	"oblivion": {
@@ -287,11 +287,11 @@
 		"description": [
 			"## Oblivion",
 			"",
-			"{SOURCE Potions and Poisons/27}",
+			"‹SOURCE Potions and Poisons/27›",
 			"",
-			"::drug{start type=ingested severe dc=26 price=100 eff1=\"a user under the effect of a %%spell/suggestion%% spell can attempt another saving throw (with the effect's original DC) to shake off the spell's effect, but he loses all memories from the previous 1d4 hours, as per %%spell/modify memory%% but without the 5-minute limit\" dmg=\"1d4 damage to a random ability score\"}",
+			"::drug{start type=ingested severe dc=26 price=100 eff1=\"a user under the effect of a ‹spell/suggestion› spell can attempt another saving throw (with the effect's original DC) to shake off the spell's effect, but he loses all memories from the previous 1d4 hours, as per ‹spell/modify memory› but without the 5-minute limit\" dmg=\"1d4 damage to a random ability score\"}",
 			"",
-			"A less pure version of refined {eq-poison/cytillesh>_extract}, oblivion retains the unpredictable side effects and highly addictive properties of the source material. Oblivion is common in Cassomir's slums and the Puddles district of Absalom."
+			"A less pure version of refined ‹eq-poison/cytillesh<_extract›, oblivion retains the unpredictable side effects and highly addictive properties of the source material. Oblivion is common in Cassomir's slums and the Puddles district of Absalom."
 		]
 	},
 	"dreamtime_tea": {
@@ -300,9 +300,9 @@
 		"description": [
 			"## Dreamtime Tea",
 			"",
-			"{SOURCE Rival Guide/53}",
+			"‹SOURCE Rival Guide/53›",
 			"",
-			"::drug{start type=ingested moderate dc=20 price=120 eff1=\"2d12 minutes; %%misc/unconscious%%, gain vivid dreams acting as the %%spell/augury%% spell, but with only a 60% chance of receiving a meaningful reply\" dmgWis=\"1d3\"}",
+			"::drug{start type=ingested moderate dc=20 price=120 eff1=\"2d12 minutes; ‹misc/unconscious›, gain vivid dreams acting as the ‹spell/augury› spell, but with only a 60% chance of receiving a meaningful reply\" dmgWis=\"1d3\"}",
 			"",
 			"This tea carries a complex aroma combining the unlikely mix of citrus and dung. Originally developed in Vudra from a mix of rare herbs and flowers, dreamtime tea is gaining popularity in many cities in the Inner Sea region, particularly among those who seek dreams as an escape from reality."
 		]
@@ -313,9 +313,9 @@
 		"description": [
 			"## Blood Sap",
 			"",
-			"{SOURCE Rival Guide/53}",
+			"‹SOURCE Rival Guide/53›",
 			"",
-			"::drug{start type=ingested moderate dc=20 price=150 eff1=\"30 minutes; +1d4 Str and +1d3 %%rule/Dex damage%%, then slowed (as per the spell %%spell/slow%%) for 3 hours\" dmgCon=\"1d4\"}",
+			"::drug{start type=ingested moderate dc=20 price=150 eff1=\"30 minutes; +1d4 Str and +1d3 ‹rule/Dex damage›, then slowed (as per the spell ‹spell/slow›) for 3 hours\" dmgCon=\"1d4\"}",
 			"",
 			"Blood sap is distilled from the crimson sap exuded by a pale green vine native to swamplands in the Mwangi Expanse. Users of this deep red syrup justify the negative effects of the drug with their increased agility and strength. Blood sap addicts often display vividly red lips and teeth."
 		]
@@ -326,11 +326,11 @@
 		"description": [
 			"## Synthetic mumia",
 			"",
-			"{SOURCE Undead Slayer's Handbook/9}",
+			"‹SOURCE Undead Slayer's Handbook/9›",
 			"",
 			"::drug{start type=\"ingested or injury\" moderate dc=14 price=150 eff1=\"1 hour; +2 alchemical bonus on saving throws against spells and effects with the curse or disease descriptor, fatigue\" dmgWis=\"1d2\"}",
 			"",
-			"A laboratory-created version of the expensive and infamous Osirian drug {drug/mumia}, {eq-misc/synthetic mumia} is a mixture of honey, embalming fluids, and various animal organs. The murky liquid comes enclosed in small packets made of intestine. Mumia and synthetic mumia may be taken interchangeably to stave off the effects of addiction to either substance, and is thus used by some mumia junkies hoping to quit their addiction."
+			"A laboratory-created version of the expensive and infamous Osirian drug ‹drug/mumia›, ‹eq-misc/synthetic mumia› is a mixture of honey, embalming fluids, and various animal organs. The murky liquid comes enclosed in small packets made of intestine. Mumia and synthetic mumia may be taken interchangeably to stave off the effects of addiction to either substance, and is thus used by some mumia junkies hoping to quit their addiction."
 		]
 	},
 	"hush": {
@@ -339,7 +339,7 @@
 		"description": [
 			"## Hush",
 			"",
-			"{SOURCE Potions and Poisons/26}",
+			"‹SOURCE Potions and Poisons/26›",
 			"",
 			"::drug{start type=ingested moderate dc=20 price=200 eff1=\"1d6 hours; the user gains sonic resistance 5, but must roll twice and take the worse result for Perception checks based on sound and increases her arcane spell failure chance by 5%\" dmgWis=\"1d4\"}",
 			"",
@@ -352,11 +352,11 @@
 		"description": [
 			"## Starspore",
 			"",
-			"{SOURCE Numeria, Land of Fallen Stars/25}",
+			"‹SOURCE Numeria, Land of Fallen Stars/25›",
 			"",
-			"::drug{start type=\"ingested or inhaled\" severe dc=15 price=300 eff1=\"1 hour; gains darkvision with a range of 60 feet, the ability to see invisible creatures (as %%spell/see invisibility%%), and vulnerability to sonic damage\" dmgCon=\"1d2\" dmg=\"1 Wisdom drain\"}",
+			"::drug{start type=\"ingested or inhaled\" severe dc=15 price=300 eff1=\"1 hour; gains darkvision with a range of 60 feet, the ability to see invisible creatures (as ‹spell/see invisibility›), and vulnerability to sonic damage\" dmgCon=\"1d2\" dmg=\"1 Wisdom drain\"}",
 			"",
-			"A resilient, iridescent mold that blooms with a peridot-colored encrustation before releasing invisible spores, starspore grows on {eq-material/adamantine} and other {eq-material/skymetal/s} as well as their alloys. It requires trace toxins found in the rains and water of Numeria to grow. Ingesting or inhaling starspore opens the mind, enhances the senses, and bestows a feeling of invulnerability upon the user, but these sensations come at a price."
+			"A resilient, iridescent mold that blooms with a peridot-colored encrustation before releasing invisible spores, starspore grows on ‹eq-material/adamantine› and other ‹eq-material/skymetal«s› as well as their alloys. It requires trace toxins found in the rains and water of Numeria to grow. Ingesting or inhaling starspore opens the mind, enhances the senses, and bestows a feeling of invulnerability upon the user, but these sensations come at a price."
 		]
 	},
 	"elven_absinthe": {
@@ -365,7 +365,7 @@
 		"description": [
 			"## Elven Absinthe",
 			"",
-			"{SOURCE GameMastery Guide/237}",
+			"‹SOURCE GameMastery Guide/237›",
 			"",
 			"::drug{start type=ingested moderate dc=16 price=500 eff1=\"1 hour; +1d4 Cha damage\" dmgCon=\"1d4\"}"
 		]
@@ -376,9 +376,9 @@
 		"description": [
 			"## Mumia",
 			"",
-			"{SOURCE Lost Kingdoms/22}",
+			"‹SOURCE Lost Kingdoms/22›",
 			"",
-			"::drug{start type=\"inhaled, ingested, or injury\" severe dc=18 price=500 eff1=\"1 hour; +1d8 temporary hit points, +2 alchemical bonus on saving throws made against spells and effects with the curse or disease descriptor, %%misc/fatigue%%. If the user is addicted for more than a week straight, she has a cumulative +5% chance of transforming into a %%monster/ghoul%% every week she remains addicted.\" dmgWis=\"1d2\"}",
+			"::drug{start type=\"inhaled, ingested, or injury\" severe dc=18 price=500 eff1=\"1 hour; +1d8 temporary hit points, +2 alchemical bonus on saving throws made against spells and effects with the curse or disease descriptor, ‹misc/fatigue›. If the user is addicted for more than a week straight, she has a cumulative +5% chance of transforming into a ‹monster/ghoul› every week she remains addicted.\" dmgWis=\"1d2\"}",
 			"",
 			"Perhaps the strangest of the valuables removed from the dusty tombs of Osirion is the flesh of the dead itself. During the years of satrapy-dominated Osirion and later under the rule of Keleshite sultans, a highly prized royal physician of Osirian descent by the name of Merenfren used a previously unknown black, tar-like substance as an ingredient in numerous salves, potions, and pills she concocted to treat ailments and revitalize her wealthy clientele.",
 			"",
@@ -395,9 +395,9 @@
 		"description": [
 			"## Numerian Fluids",
 			"",
-			"{SOURCE Numeria, Land of Fallen Stars/28}",
+			"‹SOURCE Numeria, Land of Fallen Stars/28›",
 			"",
-			"::drug{start type=ingested minor dc=20 price=500 eff1=\"1d4 hours; +1d4 %%rule/Wis damage%%, roll on the *Numerian Fluids Side Effects* table\" eff2=\"after the initial 1d4 hours; -5 penalty to Perception and Sense Motive checks, -2 penalty on saving throws against mind-affecting effects for 2d4 hours\" dmgCon=\"1d2\"}",
+			"::drug{start type=ingested minor dc=20 price=500 eff1=\"1d4 hours; +1d4 ‹rule/Wis damage›, roll on the *Numerian Fluids Side Effects* table\" eff2=\"after the initial 1d4 hours; -5 penalty to Perception and Sense Motive checks, -2 penalty on saving throws against mind-affecting effects for 2d4 hours\" dmgCon=\"1d2\"}",
 			"",
 			"Over the centuries, strange fluids have seeped from the wreckage of Silver Mount and other crash sites. Engine fluid, coolant, hydraulic fluids, and stranger substances have mixed together, the chemicals further transformed by the strange radiations of the ship's drives. Fluids can be found in pools or springs, or collected as they drip from larger pieces of wreckage. Odd behavior in animal life or an abundance of mutations can indicate a nearby source of alien fluids. While many such fluids are no more magical or marvelous than crude oil - and often highly poisonous to humanoids - others have strange and sometimes desirable effects on biological life.",
 			"",
@@ -417,7 +417,7 @@
 			"",
 			"| d% | Result |",
 			"| --- | --- |",
-			"| 01 | The drinker's cellular structure breaks down, and her flesh dissolves off of her bones. The victim dies in 1 round unless a {spell/limited wish}, {spell/regenerate} (not just the regeneration ability), or {spell/wish} spell is administered. Immunity to {rule/ability drain} prevents death, but immunity to death effects or poison does not. |",
+			"| 01 | The drinker's cellular structure breaks down, and her flesh dissolves off of her bones. The victim dies in 1 round unless a ‹spell/limited wish›, ‹spell/regenerate› (not just the regeneration ability), or ‹spell/wish› spell is administered. Immunity to ‹rule/ability drain› prevents death, but immunity to death effects or poison does not. |",
 			"| 02-04 | The drinker permanently loses a random sense (roll 1d4: 1-hearing, 2-sight, 3-smell, 4-taste). A regenerate spell restores lost smell or taste. Moderate addiction. |",
 			"| 05-07 | The drinker ages 2d10 years. |",
 			"| 08-10 | The drinker takes 2d6 points of damage to all ability scores (roll once for damage, apply it to each). If any score reaches 0, death results. If the imbiber survives, roll again for an additional side effect, rerolling a result of 15 or lower. |",
@@ -425,20 +425,20 @@
 			"| 16-20 | The drinker takes 1d4 points of Intelligence damage and loses the ability to speak or write (but not to listen and read) for 1d4 days. Moderate addiction. |",
 			"| 21-30 | The drinker contracts a random form of [insanity](rule/madness) for 1d4 days. |",
 			"| 31-35 | The fluids impart 1d4 negative levels to the drinker (Fortitude DC 20 to remove). |",
-			"| 36-40 | The drinker is rendered {misc/unconscious} until the effects of the dose wear off. Mild addiction. |",
-			"| 41-50 | The drinker is {misc/nauseated} for 2d6&times;10 minutes. |",
-			"| 51-60 | The drinker is {misc/sickened} until the effects of the dose wear off. |",
-			"| 61-65 | The drinker is {misc/fascinated} by visions of a far-off reality for 1d4 hours. An interruption that ends the fascination provokes incoherent anger (attack nearest creature) for 1d4 rounds. Strong addiction. |",
-			"| 66-70 | The drinker exudes an unpleasant odor, as the {umr/stench} ability, for 24 hours. |",
+			"| 36-40 | The drinker is rendered ‹misc/unconscious› until the effects of the dose wear off. Mild addiction. |",
+			"| 41-50 | The drinker is ‹misc/nauseated› for 2d6&times;10 minutes. |",
+			"| 51-60 | The drinker is ‹misc/sickened› until the effects of the dose wear off. |",
+			"| 61-65 | The drinker is ‹misc/fascinated› by visions of a far-off reality for 1d4 hours. An interruption that ends the fascination provokes incoherent anger (attack nearest creature) for 1d4 rounds. Strong addiction. |",
+			"| 66-70 | The drinker exudes an unpleasant odor, as the ‹umr/stench› ability, for 24 hours. |",
 			"| 71-75 | The drinker gains increased empathy with mechanical minds for 24 hours, gaining a +10 bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks against androids and robots, but takes a -5 penalty on such checks against other creatures. |",
-			"| 76-80 | For 1d4 hours, the drinker is healed by a random energy type (acid, cold, electricity, fire, or sonic) instead of harmed. Being healed in this fashion {misc/stagger/s} the drinker for 1 round. |",
+			"| 76-80 | For 1d4 hours, the drinker is healed by a random energy type (acid, cold, electricity, fire, or sonic) instead of harmed. Being healed in this fashion ‹misc/stagger«s› the drinker for 1 round. |",
 			"| 81-85 | The drinker's skin thickens into armor-like plates. This gives a +2 bonus to natural armor and a -2 penalty to Dexterity. Multiple doses do not stack. It takes 1d4 months for the excess skin to slough off. |",
 			"| 86-90 | Roll twice. If the first result is below 20, add 20 to the result. If the second result is above 80, subtract 20 from the result. If the same side effect results on both rolls, apply it only once, but the drinker becomes severely addicted to that result. |",
-			"| 91-92 | The drinker gains {umr/fast healing} 5 for 24 hours, but must consume twice as much food and water as normal. |",
+			"| 91-92 | The drinker gains ‹umr/fast healing› 5 for 24 hours, but must consume twice as much food and water as normal. |",
 			"| 93-94 | The drinker gains a +6 enhancement bonus to a random ability score for 2d4 days. |",
-			"| 95-96 | The drinker gains {umr/telepathy} with a range of 100 feet for 2d4 days. |",
+			"| 95-96 | The drinker gains ‹umr/telepathy› with a range of 100 feet for 2d4 days. |",
 			"| 97 | The drinker gains the ability to see possible futures a few seconds ahead for 24 hours. Because the visions are distracting, the drinker takes a -2 penalty on ability checks, attack rolls, saving throws, and skill checks, but for one such roll, she can ignore the penalty and roll twice, keeping the better result. The drinker must decide to use this ability before rolling. |",
-			"| 98 | The drinker becomes 1d6 years younger. If this changes her {rule/age/ category}, adjust physical attributes but not mental. Mental attributes don't increase when the original age category is reached again (see {rule/Young Characters}). |",
+			"| 98 | The drinker becomes 1d6 years younger. If this changes her ‹rule/age« category›, adjust physical attributes but not mental. Mental attributes don't increase when the original age category is reached again (see ‹rule/Young Characters›). |",
 			"| 99 | The drinker foresees her death in a cryptic and disjointed vision. The next time an effect would cause her death, she can take an extra standard action just before she dies (including actions like healing spells that prevent the impending death). |",
 			"| 100 | Roll on the table below. All exceptional effects are permanent. |",
 			"",
@@ -447,14 +447,14 @@
 			"| d10 | Exceptional Side Effect |",
 			"| --- | --- |",
 			"| 1 | **Immortality:** The drinker no longer takes penalties for aging (bonuses still apply) and does not die from old age. |",
-			"| 2 | **Mutant:** The drinker gains the {template/mutant/ template}. The mutations should reflect the drinker's inner personality, as determined by the GM. |",
-			"| 3 | **Phasing:** The drinker gains the ability to become {umr/incorporeal} for 1d4 rounds as a swift action, but takes 1 point of Con damage when he does so. Phasing can be extended as a free action by taking 1 additional point of Con damage. Coming out of phase inside a solid object is instantly fatal. Phasing cannot be used by creatures that are immune to Con damage. |",
-			"| 4 | **Three-Dimensional Touch:** The drinker gains {umr/blindsense} with a range of 60 feet. Focusing on this sense as a move action improves it to {umr/blindsight} with a range of 60 feet until the start of the drinker's next turn. |",
+			"| 2 | **Mutant:** The drinker gains the ‹template/mutant« template›. The mutations should reflect the drinker's inner personality, as determined by the GM. |",
+			"| 3 | **Phasing:** The drinker gains the ability to become ‹umr/incorporeal› for 1d4 rounds as a swift action, but takes 1 point of Con damage when he does so. Phasing can be extended as a free action by taking 1 additional point of Con damage. Coming out of phase inside a solid object is instantly fatal. Phasing cannot be used by creatures that are immune to Con damage. |",
+			"| 4 | **Three-Dimensional Touch:** The drinker gains ‹umr/blindsense› with a range of 60 feet. Focusing on this sense as a move action improves it to ‹umr/blindsight› with a range of 60 feet until the start of the drinker's next turn. |",
 			"| 5 | **Wings:** The drinker grows a pair of bat-like wings that grant a fly speed of 30 feet and average maneuverability. |",
 			"| 6 | **Ability Score Bonus:** The drinker gains a +2 inherent bonus to a random ability score. |",
 			"| 7 | **Fluid Generation:** The drinker's body naturally creates its own approximation of Numerian fluids, which he can, as a standard action once a day, redirect into his system to gain the effects of drinking 1 dose of Numerian fluids. Treat the addiction, effects, and side effects of this dose as normal, save that it cannot provide an additional exceptional effect (reroll results of 100). |",
 			"| 8 | **Grounding Skin:** The drinker grows a metal mesh surrounding his skin that grants him electricity resistance 10. |",
-			"| 9 | **Bioluminescence:** The drinker's body glows as {magic-wondrous/gem of brightness}. The drinker can produce this effect 5 times per day. |",
+			"| 9 | **Bioluminescence:** The drinker's body glows as ‹magic-wondrous/gem of brightness›. The drinker can produce this effect 5 times per day. |",
 			"| 10 | **Sleep of Experience:** For 24 hours, the drinker falls into a coma and cannot be awakened. During this time, he dreams of living an entire lifetime on a different planet in an alien body. The drinker gains the number of bonus experience points needed to advance 1 level. A creature can gain this exceptional effect only once (reroll all future exceptional effect rolls of 10). |"
 		]
 	},
@@ -464,7 +464,7 @@
 		"description": [
 			"## Shiver",
 			"",
-			"{SOURCE GameMastery Guide/237}",
+			"‹SOURCE GameMastery Guide/237›",
 			"",
 			"::drug{start type=\"injury or ingested\" severe dc=18 price=500 eff1=\"variable; 50% chance to sleep for 1d4 hours or gain immunity to fear for 1d4 minutes\" dmgCon=\"1d2\"}"
 		]
@@ -475,11 +475,11 @@
 		"description": [
 			"## Wyrm pesh",
 			"",
-			"{SOURCE Dragonslayer's Handbook/19}",
+			"‹SOURCE Dragonslayer's Handbook/19›",
 			"",
 			"::drug{start type=\"ingested or inhaled\" severe dc=24 price=500 eff1=\"1 hour; 25 temporary hit points\" eff2=\"1 day; +2 alchemical bonus on saves against sleep and paralysis effects\" dmgWis=\"1d2\"}",
 			"",
-			"This rare and expensive [variant](eq-misc/wyrm_pesh) of standard Garundi {drug/pesh} is produced by introducing a vial of dragon's blood into a dose of pesh during the refining process, and has a noticeable reddish tint. While the drug provides a more potent high and fewer immediate penalties, it is highly addictive, and unless a user has a steady supply of dragon's blood, the cost to her well-being can be severe."
+			"This rare and expensive [variant](eq-misc/wyrm_pesh) of standard Garundi ‹drug/pesh› is produced by introducing a vial of dragon's blood into a dose of pesh during the refining process, and has a noticeable reddish tint. While the drug provides a more potent high and fewer immediate penalties, it is highly addictive, and unless a user has a steady supply of dragon's blood, the cost to her well-being can be severe."
 		]
 	},
 	"esoterum": {
@@ -488,9 +488,9 @@
 		"description": [
 			"## Esoterum",
 			"",
-			"{SOURCE Potions and Poisons/26}",
+			"‹SOURCE Potions and Poisons/26›",
 			"",
-			"::drug{start type=inhaled severe dc=24 price=600 eff1=\"24 hours; the user gains the benefits of the %%feat/Psychic Sensitivity%% feat but takes a -4 penalty on Will saves and automatically fails Will saves against possession attempts\" dmgWis=\"1d4\" dmgCon=\"1d4\"}",
+			"::drug{start type=inhaled severe dc=24 price=600 eff1=\"24 hours; the user gains the benefits of the ‹feat/Psychic Sensitivity› feat but takes a -4 penalty on Will saves and automatically fails Will saves against possession attempts\" dmgWis=\"1d4\" dmgCon=\"1d4\"}",
 			"",
 			"Legends tell of esoterum dens in Tian Xia and Vudra where dream chasers open their minds to the spirit world, gaining deep insights and abilities beyond mortal ken. Such tales usually continue to describe the destructive rampages that follow when malevolent spirits take advantage of an opened mind and possess the unfortunate individual."
 		]
@@ -501,9 +501,9 @@
 		"description": [
 			"## Old-Mage",
 			"",
-			"{SOURCE Potions and Poisons/27}",
+			"‹SOURCE Potions and Poisons/27›",
 			"",
-			"::drug{start type=injury severe dc=18 price=1500 eff1=\"12 hours; the user gains the ability to activate scrolls as if she had succeeded at a %%skill/Use Magic Device%% check to activate a given scroll. Each time the user activates a scroll this way, she takes 1d4 points of %%rule/Charisma damage%% and an amount of nonlethal damage equal to the scroll's caster level. Charisma damage taken this way is counted as ability damage caused by the drug for the purpose of calculating the DC of saving throws to resist addiction to the drug. Neither the Charisma damage nor the nonlethal damage can be healed until the user takes a full 8 hours of rest.\" dmg=\"see Effects\"}",
+			"::drug{start type=injury severe dc=18 price=1500 eff1=\"12 hours; the user gains the ability to activate scrolls as if she had succeeded at a ‹skill/Use Magic Device› check to activate a given scroll. Each time the user activates a scroll this way, she takes 1d4 points of ‹rule/Charisma damage› and an amount of nonlethal damage equal to the scroll's caster level. Charisma damage taken this way is counted as ability damage caused by the drug for the purpose of calculating the DC of saving throws to resist addiction to the drug. Neither the Charisma damage nor the nonlethal damage can be healed until the user takes a full 8 hours of rest.\" dmg=\"see Effects\"}",
 			"",
 			"In higher circles of Avistani nobility, some petty nobles pretend to be mighty wizards. Typically created in and smuggled north from Sargava, old-mage offers a temporary taste of eldritch power at an exorbitant cost - both financial and physical."
 		]
@@ -514,11 +514,11 @@
 		"description": [
 			"## Adyton",
 			"",
-			"{SOURCE Book of the Damned/183}",
+			"‹SOURCE Book of the Damned/183›",
 			"",
-			"::drug{start type=contact severe dc=20 price=2000 eff1=\"An affected creature that succeeds at an additional DC 20 Will saving throw has its consciousness transported into the %%rule/mindscape>s%% called the Adyton, where it can linger for as long as it likes and return as a full-round action whenever it so pleases. Those that fail this secondary saving throw sleep fitfully for 2d4 hours and wake remembering snippets of surreal dreams.\" dmgStr=\"1d4\"}",
+			"::drug{start type=contact severe dc=20 price=2000 eff1=\"An affected creature that succeeds at an additional DC 20 Will saving throw has its consciousness transported into the ‹rule/mindscape<s› called the Adyton, where it can linger for as long as it likes and return as a full-round action whenever it so pleases. Those that fail this secondary saving throw sleep fitfully for 2d4 hours and wake remembering snippets of surreal dreams.\" dmgStr=\"1d4\"}",
 			"",
-			"The drug adyton is central to {faith/Mahathallah/'s} worship and the spreading of her mysteries. It can be purchased only from worshipers of Mahathallah, and typically only by servants of the goddess."
+			"The drug adyton is central to ‹faith/Mahathallah«'s› worship and the spreading of her mysteries. It can be purchased only from worshipers of Mahathallah, and typically only by servants of the goddess."
 		]
 	},
 	"felwil": {
@@ -527,9 +527,9 @@
 		"description": [
 			"## Felwil",
 			"",
-			"{SOURCE Bastards of Golarion/21}",
+			"‹SOURCE Bastards of Golarion/21›",
 			"",
-			"::drug{start type=inhaled minor dc=13 price=20 eff1=\"1 hour; +1d2 alchemical bonus to Charisma, -2 penalty on saves against illusions\" eff2=\"after 1 hour; 75% chance to become %%misc/sickened%% for 1d4 hours\" dmgWis=\"1d2\"}",
+			"::drug{start type=inhaled minor dc=13 price=20 eff1=\"1 hour; +1d2 alchemical bonus to Charisma, -2 penalty on saves against illusions\" eff2=\"after 1 hour; 75% chance to become ‹misc/sickened› for 1d4 hours\" dmgWis=\"1d2\"}",
 			"",
 			"The gnome prima donnas of Wispil in Taldor are thought to be the inventors of this mild, dizzying powder, but its use has spread throughout much of southern Avistan. Once taken, this sparkling, honeydew-colored inhalant gives the user a euphoric sensation that can quickly become overwhelming and even sickening. While the long-term effects are relatively minor, few except the hardy care to risk stomaching this toxin."
 		]
@@ -540,7 +540,7 @@
 		"description": [
 			"## Silvertongue",
 			"",
-			"{SOURCE Bastards of Golarion/21}",
+			"‹SOURCE Bastards of Golarion/21›",
 			"",
 			"::drug{start type=ingested moderate dc=16 price=75 eff1=\"1 hour; +1d2 alchemical bonus to Charisma\" eff2=\"1d4 hours; +2 alchemical bonus on saves against mind-affecting effects\" dmgCon=\"1d4\"}",
 			"",
@@ -553,23 +553,23 @@
 		"description": [
 			"## Midnight Milk",
 			"",
-			"{SOURCE Lost Cities of Golarion/12}",
+			"‹SOURCE Lost Cities of Golarion/12›",
 			"",
-			"::drug{start type=ingested moderate dc=16 price=50 eff1=\"1 hour; %%misc/fatigued%%, plus the user takes a -4 penalty on all saving throws made to resist sleep effects. If the user falls asleep while under the effects of midnight milk, he dreams vividly; these dreams last for 1 hour per dose of midnight milk taken in the past month (including this one). Upon awakening, the user is revitalized as if he had enjoyed a full 8 hours of sleep.\" dmgWis=\"1d2\"}",
+			"::drug{start type=ingested moderate dc=16 price=50 eff1=\"1 hour; ‹misc/fatigued›, plus the user takes a -4 penalty on all saving throws made to resist sleep effects. If the user falls asleep while under the effects of midnight milk, he dreams vividly; these dreams last for 1 hour per dose of midnight milk taken in the past month (including this one). Upon awakening, the user is revitalized as if he had enjoyed a full 8 hours of sleep.\" dmgWis=\"1d2\"}",
 			"",
-			"While a *dream lens*[^D] is active nearby, there's a 1% chance each time a user takes the drug that he ends up in a body already used by an {monster/intellect devourer} - this chance increases by 1% for each previous dose of midnight milk the user has taken. If the dreamer is unfortunate enough to end up sharing a host body with an intellect devourer, the intellect devourer immediately makes its way toward the *dream lens* - this takes 1d10 hours. If the dream ends before the intellect devourer reaches the *dream lens,* the dreamer awakens with no ill effect. If the intellect devourer reaches the *dream lens* in time, the intellect devourer can attempt to use its body thief ability on the dreamer. If the attempt fails, the dreamer awakes with a start with blood pouring from eyes, mouth, nostrils, and ears, but no real memories of what caused the incredible pain.",
+			"While a *dream lens*[^D] is active nearby, there's a 1% chance each time a user takes the drug that he ends up in a body already used by an ‹monster/intellect devourer› - this chance increases by 1% for each previous dose of midnight milk the user has taken. If the dreamer is unfortunate enough to end up sharing a host body with an intellect devourer, the intellect devourer immediately makes its way toward the *dream lens* - this takes 1d10 hours. If the dream ends before the intellect devourer reaches the *dream lens,* the dreamer awakens with no ill effect. If the intellect devourer reaches the *dream lens* in time, the intellect devourer can attempt to use its body thief ability on the dreamer. If the attempt fails, the dreamer awakes with a start with blood pouring from eyes, mouth, nostrils, and ears, but no real memories of what caused the incredible pain.",
 			"",
 			"---",
 			"",
-			"The strange and powerful drug known as midnight milk is the cornerstone of Ilvarandin's most recent attempt to bolster its armies against the worms of Denebrum. Distilled from the excretions and seepings of vast {monster/mu spore/s} that float in the skies above the Midnight Mountains, midnight milk has a strange connection to the powerful and alien dreams these immense slumbering monsters spend the majority of their time pursuing. By distilling the fluids and mixing them with other alchemical elixirs and catalysts, the intellect devourers and their {monster/ghast} ally Bereshkhani have concocted an elixir capable of allowing an intellect devourer to use its body thief ability at great range. The only tricky part - getting the targets addicted to the stuff, for it takes time for midnight milk to work its unwelcome magic upon the dreaming mind.",
+			"The strange and powerful drug known as midnight milk is the cornerstone of Ilvarandin's most recent attempt to bolster its armies against the worms of Denebrum. Distilled from the excretions and seepings of vast ‹monster/mu spore«s› that float in the skies above the Midnight Mountains, midnight milk has a strange connection to the powerful and alien dreams these immense slumbering monsters spend the majority of their time pursuing. By distilling the fluids and mixing them with other alchemical elixirs and catalysts, the intellect devourers and their ‹monster/ghast› ally Bereshkhani have concocted an elixir capable of allowing an intellect devourer to use its body thief ability at great range. The only tricky part - getting the targets addicted to the stuff, for it takes time for midnight milk to work its unwelcome magic upon the dreaming mind.",
 			"",
 			"Midnight milk is imbibed through the mouth. A single dose is enough to send most drinkers into a deep sleep, during which the user experiences very vivid dreams. All of these dreams are superficially similar, starting with a sensation of an endless fall into what seems a bottomless pit that eventually reveals itself to be a fall downward toward a vast range of subterranean mountains lit by strange moon-like shapes floating near the vast cavern roof.",
 			"",
-			"If the dreaming victim dreams long enough (with successive doses of midnight milk, each dream lasts longer and allows the dreamer to travel farther), they travel ghostlike to the west and eventually reach Ilvarandin, at which point the dreaming mind \"lands\" in the body of a creature that dwells there - typically a {monster/troglodyte}, {monster/drow}, {monster/duergar}, {monster/derro}, {monster/mongrelman}, or {monster/morlock}, but sometimes stranger things like {monster/drider/s} or {monster/gug/s} or {monster/roper/s}, or even {monster/black pudding/s} or {monster/purple worm/s}. The \"dreamer\" experiences his explorations of Ilvarandin unaware of the fact that he's in a strange new body, but has no control over his actions since he's basically just watching and experiencing the actions of his host body, and when he finally wakes remembers the dreams as vague memories. The addictive quality of the drug colors these memories and makes his stay in Ilvarandin feel like a visit to paradise.",
+			"If the dreaming victim dreams long enough (with successive doses of midnight milk, each dream lasts longer and allows the dreamer to travel farther), they travel ghostlike to the west and eventually reach Ilvarandin, at which point the dreaming mind \"lands\" in the body of a creature that dwells there - typically a ‹monster/troglodyte›, ‹monster/drow›, ‹monster/duergar›, ‹monster/derro›, ‹monster/mongrelman›, or ‹monster/morlock›, but sometimes stranger things like ‹monster/drider«s› or ‹monster/gug«s› or ‹monster/roper«s›, or even ‹monster/black pudding«s› or ‹monster/purple worm«s›. The \"dreamer\" experiences his explorations of Ilvarandin unaware of the fact that he's in a strange new body, but has no control over his actions since he's basically just watching and experiencing the actions of his host body, and when he finally wakes remembers the dreams as vague memories. The addictive quality of the drug colors these memories and makes his stay in Ilvarandin feel like a visit to paradise.",
 			"",
 			"Yet the truth is far more insidious, for these experiences are not just dreams. The user's slumbering mind actually leaves his body, seeks out a denizen of Ilvarandin, and enjoys that body's experiences for a time. The *dream lens* acts as a strange spiritual magnet, drawing the dreamer deep into Ilvarandin where, it becomes increasingly likely on successive visits that the dreamer's mind inhabits a body already inhabited by an intellect devourer.",
 			"",
-			"An intellect devourer automatically notices the arrival of a dreaming mind in its already shared body. If the intellect devourer can reach the *dream lens* before the dreamer awakens, it can abandon its current host body to merge with the dreaming creature's mind - when the dreamer awakens, the intellect devourer travels with it and immediately devourers the dreamer's brain, proceeding from that point forward as if it had successfully used its body thief ability on the victim. At this point, the intellect devourer is free to use its new body on the surface as it wills - most quickly seek out other cells of intellect devourers active in the area to secure {spell/gentle repose} spells to keep their new host bodies fresh, or to volunteer their aid in spreading the midnight milk further into society.",
+			"An intellect devourer automatically notices the arrival of a dreaming mind in its already shared body. If the intellect devourer can reach the *dream lens* before the dreamer awakens, it can abandon its current host body to merge with the dreaming creature's mind - when the dreamer awakens, the intellect devourer travels with it and immediately devourers the dreamer's brain, proceeding from that point forward as if it had successfully used its body thief ability on the victim. At this point, the intellect devourer is free to use its new body on the surface as it wills - most quickly seek out other cells of intellect devourers active in the area to secure ‹spell/gentle repose› spells to keep their new host bodies fresh, or to volunteer their aid in spreading the midnight milk further into society.",
 			"",
 			"[^D]: *Dream lenses* are artifacts mentioned in *Lost Cities of Golarion* but not given any statistics. The *lens* is described as \"the artifact allowing the invasion into Golarion's dreaming minds,\" and is located in Ilvarandin in Orv, the deepest part of the Darklands."
 		]

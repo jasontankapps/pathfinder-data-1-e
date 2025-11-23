@@ -7,7 +7,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/299\" divination alc=1 arc=1 brd=1 inv=1 med=1 occ=1 psy=1 skd=1 sor=1 spr=1 sum=1 usm=1 wit=1 wiz=1 ctSt cV cS cMp=\"wine stirred with an owl's feather\" rFt=60 area=\"cone-shaped emanation\" durD durRL=3 saveNo srN}",
 			"",
-			"This spell functions as {spell/detect magic}, except that it gives you a +10 enhancement bonus on Spellcraft checks made to identify the properties and command words of magic items in your possession. This spell does not allow you to identify artifacts."
+			"This spell functions as ‹spell/detect magic›, except that it gives you a +10 enhancement bonus on Spellcraft checks made to identify the properties and command words of magic items in your possession. This spell does not allow you to identify artifacts."
 		]
 	},
 	"ignoble_form": {
@@ -38,7 +38,7 @@
 			"",
 			":::mythic{title=\"Mythic Ill Omen\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}  ",
+			"‹SOURCE Mythic Adventures/98›  ",
 			"For the target's unlucky d20 rolls, it must roll three times and take the lowest result. Spending a move action to utter a prayer or good luck charm allows the target to roll twice instead of three times.",
 			"",
 			"*Augmented (4th):* If you expend two uses of mythic power, you afflict the target with especially foul luck. Any natural 20 it rolls counts as a natural 1 instead.",
@@ -128,7 +128,7 @@
 			"",
 			"You create a phantasm of an oily green phantasmal poison on the target weapon. The first creature hit by the poisoned weapon must make a Will save against the illusion spell; success means the spell has no effect and is expended from the weapon. If the creature fails its save, it believes it has been poisoned and must make Fortitude saves at the spell's DC to avoid suffering illusory poison damage.",
 			"",
-			"Delay poison allows the target to ignore the effects of the phantasmal poison until the delay poison spell ends, at which time it may make a Will save to realize the poison is illusory and recover all illusory poison damage. Neutralize poison, lesser restoration, or restoration immediately recovers all damage from the spell. A successful {spell/dispel magic} spell ends the effect of the illusion, as do spells that penetrate illusions (such as {spell/true seeing}). The target automatically recovers all illusory poison damage after 1 hour.",
+			"Delay poison allows the target to ignore the effects of the phantasmal poison until the delay poison spell ends, at which time it may make a Will save to realize the poison is illusory and recover all illusory poison damage. Neutralize poison, lesser restoration, or restoration immediately recovers all damage from the spell. A successful ‹spell/dispel magic› spell ends the effect of the illusion, as do spells that penetrate illusions (such as ‹spell/true seeing›). The target automatically recovers all illusory poison damage after 1 hour.",
 			"",
 			"#### Phantasmal Poison",
 			"",
@@ -147,7 +147,7 @@
 			"",
 			"You write instructions or other information on parchment, paper, or any suitable writing material. The illusory script appears to be some form of foreign or magical writing. Only the person (or people) designated by you at the time of the casting can read the writing; it's unintelligible to any other character.",
 			"",
-			"Any unauthorized creature attempting to read the script triggers a potent illusory effect and must make a saving throw. A successful saving throw means the creature can look away with only a mild sense of disorientation. Failure means the creature is subject to a suggestion implanted in the script by you at the time the illusory script spell was cast. The suggestion lasts only 30 minutes. Typical suggestions include \"Close the book and leave,\" \"Forget the existence of this note,\" and so forth. If successfully dispelled by {spell/dispel magic}, the illusory script and its secret message disappear. The hidden message can be read by a combination of the {spell/true seeing} spell with the {spell/read magic} or {spell/comprehend languages} spell."
+			"Any unauthorized creature attempting to read the script triggers a potent illusory effect and must make a saving throw. A successful saving throw means the creature can look away with only a mild sense of disorientation. Failure means the creature is subject to a suggestion implanted in the script by you at the time the illusory script spell was cast. The suggestion lasts only 30 minutes. Typical suggestions include \"Close the book and leave,\" \"Forget the existence of this note,\" and so forth. If successfully dispelled by ‹spell/dispel magic›, the illusory script and its secret message disappear. The hidden message can be read by a combination of the ‹spell/true seeing› spell with the ‹spell/read magic› or ‹spell/comprehend languages› spell."
 		]
 	},
 	"illusory_wall": {
@@ -207,7 +207,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/225\" transmutation clr=2 orc=2 war=2 ctSt cV cS cDF rClose target=\"one creature\" durML=1 save=\"Will negates (see text)\" srY}",
 			"",
-			"You infuse another creature with your divine aura, causing the target to radiate an aura identical to your own clerical aura. The target's actual alignment is not changed, but spells like {spell/detect evil} or {spell/detect good} detect only the aura, not the creature's actual alignment. For the duration of this spell, effects influenced by the target's alignment function according to the imposed aura, not the creature's actual aura. When the spell ends, the target's aura returns to normal, and alignment-affecting magic affects it according to its actual alignment."
+			"You infuse another creature with your divine aura, causing the target to radiate an aura identical to your own clerical aura. The target's actual alignment is not changed, but spells like ‹spell/detect evil› or ‹spell/detect good› detect only the aura, not the creature's actual alignment. For the duration of this spell, effects influenced by the target's alignment function according to the imposed aura, not the creature's actual aura. When the spell ends, the target's aura returns to normal, and alignment-affecting magic affects it according to its actual alignment."
 		]
 	},
 	"imbue_with_elemental_might": {
@@ -216,7 +216,7 @@
 		"description": [
 			"## Imbue with Elemental Might",
 			"",
-			"::spell{source=\"Advanced Race Guide/203\" school=\"%%spelldef/evocation%% &#91&see text&#93&\" arc=2 bld=2 clr=2 mag=2 orc=2 sha=2 sor=2 war=2 wiz=2 ctM=10 cV cS rTouch target=\"creature touched; see text\" dur=\"24 hours or until discharged\" durD will srY harmless}",
+			"::spell{source=\"Advanced Race Guide/203\" school=\"‹spelldef/evocation› &#91&see text&#93&\" arc=2 bld=2 clr=2 mag=2 orc=2 sha=2 sor=2 war=2 wiz=2 ctM=10 cV cS rTouch target=\"creature touched; see text\" dur=\"24 hours or until discharged\" durD will srY harmless}",
 			"",
 			"This spell functions like imbue with spell ability, except you transfer the use of your elemental assault ability to the target. The target must have an Intelligence score of at least 5 to use the ability. The imbued elemental assault functions exactly like yours, except the ability's duration is based on the target's level or Hit Dice. Once you cast this spell, you cannot use your elemental assault ability until the duration of the spell is over."
 		]
@@ -233,7 +233,7 @@
 			"",
 			":::mythic{title=\"Mythic Imbue with Flight\"}",
 			"",
-			"{SOURCE Mythic Origins/15}  ",
+			"‹SOURCE Mythic Origins/15›  ",
 			"If you expend one use of mythic power, you double the maximum weight of the object you can imbue with flight. You can expend additional uses of mythic power to increase the maximum size of the object you can imbue with flight. Imbuing a Huge object requires two uses of mythic power, imbuing a Gargantuan object requires four uses, and imbuing a Colossal object requires eight uses. These costs include the expenditure to cast a mythic spell, and count toward doubling the weight limit of the spell.",
 			"",
 			"Two or more casters can cast this spell in concert to share the mythic power cost. Each caster must expend an additional use of mythic power to cooperate; this does not count toward the other costs or effects of the spell. The group chooses which caster has control of the flight. As a full-round action, the controlling caster can cede control to another caster involved in the original casting of the spell.",
@@ -293,7 +293,7 @@
 			"",
 			"::spell{source=\"Second Darkness Player's Guide/27\" necromancy arc=3 brd=2 skd=2 sor=3 wiz=3 ctSt cV cS rTouch target=\"creature touched\" durML=10 will srY}",
 			"",
-			"This minor curse interferes with the target's ability to speak. On a failed save, the target has difficulty stringing words together. Only with great concentration can he communicate intelligibly. Speaking in combat becomes a move-equivalent action rather than a free action. If the target attempts to cast a spell with a verbal component, he has a 50% chance of making an error and losing the spell. Even if he can successfully cast a spell, doing so takes 1 round if the spell's normal casting time is less than 1 round. If the spell's casting time is usually 1 round or longer, its casting time doubles (up until the end of impede speech). Impede speech cannot be dispelled, but {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} can end it prematurely."
+			"This minor curse interferes with the target's ability to speak. On a failed save, the target has difficulty stringing words together. Only with great concentration can he communicate intelligibly. Speaking in combat becomes a move-equivalent action rather than a free action. If the target attempts to cast a spell with a verbal component, he has a 50% chance of making an error and losing the spell. Even if he can successfully cast a spell, doing so takes 1 round if the spell's normal casting time is less than 1 round. If the spell's casting time is usually 1 round or longer, its casting time doubles (up until the end of impede speech). Impede speech cannot be dispelled, but ‹spell/break enchantment›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/remove curse›, or ‹spell/wish› can end it prematurely."
 		]
 	},
 	"impenetrable_veil": {
@@ -315,7 +315,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/173\" glamer illusion mes=2 occ=2 psy=2 ctM=1 cV cS rTouch target=\"object touched\" durDL=1 save=\"none, see text\" srN}",
 			"",
-			"You implant a false psychometric reading into an object, imbuing the item with misleading information that might be learned from the {spell/object reading} spell or through the {skill/psychometry} occult skill unlock. This information might fool enemies, create a false history, or pass on secret messages through objects to psychically attuned allies. You can implant any information you wish that could be implanted by the charge object spell, as well as up to one piece of information per 3 levels that could be attained using psychometry or the object reading spell. You can detail this information in any way you see fit, either making up a previous owner and circumstances involving the object from whole cloth, or attempting to emulate the biographical information and fictional accounts of a specific individual's experience with the object.",
+			"You implant a false psychometric reading into an object, imbuing the item with misleading information that might be learned from the ‹spell/object reading› spell or through the ‹skill/psychometry› occult skill unlock. This information might fool enemies, create a false history, or pass on secret messages through objects to psychically attuned allies. You can implant any information you wish that could be implanted by the charge object spell, as well as up to one piece of information per 3 levels that could be attained using psychometry or the object reading spell. You can detail this information in any way you see fit, either making up a previous owner and circumstances involving the object from whole cloth, or attempting to emulate the biographical information and fictional accounts of a specific individual's experience with the object.",
 			"",
 			"During the spell's duration, creatures reading the object through the object reading spell or the psychometry occult skill unlock receive this false information in place of an item's true history if they fail a Will saving throw. Creatures that succeed at their saves still detect and receive the false information, but recognize it for what is and are able to discern the fictitious information from the item's true history without difficulty.",
 			"",
@@ -363,7 +363,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/300\" abjuration arc=9 psy=9 sor=9 wiz=9 ctSt cV cS rTouch target=\"creature touched\" durI save=\"Will negates; see text\" srY}",
 			"",
-			"When you cast imprisonment and touch a creature, it is entombed in a state of suspended animation (see the {spell/temporal stasis} spell) in a small sphere far beneath the surface of the ground. The subject remains there unless a freedom spell is cast at the locale where the imprisonment took place. Magical search by a crystal ball, a locate object spell, or some other similar divination does not reveal the fact that a creature is imprisoned, but discern location does. A wish or miracle spell will not free the recipient, but will reveal where it is entombed. If you know the target's name and some facts about its life, the target takes a -4 penalty on its save."
+			"When you cast imprisonment and touch a creature, it is entombed in a state of suspended animation (see the ‹spell/temporal stasis› spell) in a small sphere far beneath the surface of the ground. The subject remains there unless a freedom spell is cast at the locale where the imprisonment took place. Magical search by a crystal ball, a locate object spell, or some other similar divination does not reveal the fact that a creature is imprisoned, but discern location does. A wish or miracle spell will not free the recipient, but will reveal where it is entombed. If you know the target's name and some facts about its life, the target takes a -4 penalty on its save."
 		]
 	},
 	"improve_trap": {
@@ -374,7 +374,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/137\" transmutation ant=2 arc=3 drd=3 hnt=2 inq=3 rgr=2 rma=3 sor=3 wit=3 wiz=3 ctM=1 cV cS rClose target=\"one trap\" durI will srY object}",
 			"",
-			">*{race/Kobold/s} have access to the following spell.*",
+			">*‹race/Kobold«s› have access to the following spell.*",
 			"",
 			"When this spell is cast upon a trap, it improves one specific element of the trap chosen at the time of casting. The caster can improve the trap in any of the following ways (each one raises the trap's CR by +1).",
 			"",
@@ -408,7 +408,7 @@
 			"",
 			"::spell{source=\"Black Markets/31\" abjuration fire arc=1 sor=1 wiz=1 ctSt cV cS rTouch target=\"one touched object weighing no more than 10 lbs.\" dur=\"permanent until discharged\" durD reflPartial srY}",
 			"",
-			"This spell functions as {spell/explosive runes}, except it creates a small surge of flames rather than an explosion of force. The runes automatically deal 1d6 points of fire damage to any creatures and objects in adjacent squares, and those creatures and objects catch fire unless they succeed at Reflex saves."
+			"This spell functions as ‹spell/explosive runes›, except it creates a small surge of flames rather than an explosion of force. The runes automatically deal 1d6 points of fire damage to any creatures and objects in adjacent squares, and those creatures and objects catch fire unless they succeed at Reflex saves."
 		]
 	},
 	"incessant_buzzing": {
@@ -450,7 +450,7 @@
 			"",
 			"On the round it appears, the devil identifies itself (typically by name and with a brief recitation of honors) and states it is prepared to do battle with a sole mortal champion. In the same round, either you or a creature you designate while casting the spell must identify the devil's challenger. For the duration of the spell, the devil does everything in its power to kill the challenger. You do not control the devil or have any influence over how it conducts itself in battle, but the devil cannot leave the testing ground. Unlike with summon monster and similar spells, you cannot dismiss the devil. Rather, the conjured devil remains until any one of the following criteria is met: it is reduced below 0 hit points or otherwise defeated, its challenger is slain, its challenger leaves the testing ground, or it takes damage from any source other than its challenger. Upon any of these occurrences, the devil vanishes.",
 			"",
-			"Conjuring a devil is typically an evil act. If cast for any purpose besides the administering of a {rule/Hellknight>s} test, this spell has the evil descriptor."
+			"Conjuring a devil is typically an evil act. If cast for any purpose besides the administering of a ‹rule/Hellknight<s› test, this spell has the evil descriptor."
 		]
 	},
 	"infernal_healing": {
@@ -491,11 +491,11 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/300\" necromancy clr=4 inq=4 occ=4 orc=4 sha=4 spr=4 war=4 wit=5 ctSt cV cS rTouch target=\"creature touched\" durI willHalf srY}",
 			"",
-			"This spell functions like {spell/inflict light wounds}, except that you deal 4d8 points of damage + 1 point per caster level (maximum +20).",
+			"This spell functions like ‹spell/inflict light wounds›, except that you deal 4d8 points of damage + 1 point per caster level (maximum +20).",
 			"",
 			":::mythic{jl title=\"Mythic Inflict Critical Wounds\"}",
 			"",
-			"{SOURCE Mythic Adventures/98}",
+			"‹SOURCE Mythic Adventures/98›",
 			"",
 			"The damage dealt increases to 8d8 points of damage + 2 points per caster level (maximum +40). A living target is sickened for 1 round per caster level (maximum 20 rounds) if it fails its saving throw.",
 			"",
@@ -505,7 +505,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/300\" necromancy clr=8 orc=8 sha=8 wit=9 ctSt cV cS rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" durI willHalf srY}",
 			"",
-			"This spell functions like {spell/mass inflict light wounds}, except that it deals 4d8 points of damage + 1 point per caster level (maximum +40)."
+			"This spell functions like ‹spell/mass inflict light wounds›, except that it deals 4d8 points of damage + 1 point per caster level (maximum +40)."
 		]
 	},
 	"inflict_critical_wounds_mass": {
@@ -530,7 +530,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Inflict Light Wounds\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}",
+			"‹SOURCE Mythic Adventures/99›",
 			"",
 			"The damage dealt increases to 2d8 points of damage + 2 points per caster level (maximum +10). A living target is sickened for 1 round per caster level (maximum 5 rounds) if it fails its saving throw.",
 			"",
@@ -542,7 +542,7 @@
 			"",
 			"Negative energy spreads out in all directions from the point of origin, dealing 1d8 points of damage + 1 point per caster level (maximum +25) to nearby living enemies.",
 			"",
-			"Like other {main/inflict spells}, mass inflict light wounds cures undead in its area rather than damaging them. A cleric capable of spontaneously casting inflict spells can also spontaneously cast mass inflict spells."
+			"Like other ‹main/inflict spells›, mass inflict light wounds cures undead in its area rather than damaging them. A cleric capable of spontaneously casting inflict spells can also spontaneously cast mass inflict spells."
 		]
 	},
 	"inflict_light_wounds_mass": {
@@ -561,11 +561,11 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/300\" necromancy ant=3 clr=2 inq=2 occ=2 orc=2 sha=2 spr=2 war=2 wit=2 ctSt cV cS rTouch target=\"creature touched\" durI willHalf srY}",
 			"",
-			"This spell functions like {spell/inflict light wounds}, except that you deal 2d8 points of damage + 1 point per caster level (maximum +10).",
+			"This spell functions like ‹spell/inflict light wounds›, except that you deal 2d8 points of damage + 1 point per caster level (maximum +10).",
 			"",
 			":::mythic{jl title=\"Mythic Inflict Moderate Wounds\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}",
+			"‹SOURCE Mythic Adventures/99›",
 			"",
 			"The damage dealt increases to 4d8 points of damage + 2 points per caster level (maximum +20). A living target is sickened for 1 round per caster level (maximum 10 rounds) if it fails its saving throw.",
 			"",
@@ -575,7 +575,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/300\" necromancy clr=6 inq=6 occ=6 orc=6 sha=6 war=6 wit=7 ctSt cV cS rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" durI willHalf srY}",
 			"",
-			"This spell functions like {spell/mass inflict light wounds}, except that it deals 2d8 points of damage + 1 point per caster level (maximum +30)."
+			"This spell functions like ‹spell/mass inflict light wounds›, except that it deals 2d8 points of damage + 1 point per caster level (maximum +30)."
 		]
 	},
 	"inflict_moderate_wounds_mass": {
@@ -617,11 +617,11 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/301\" necromancy ant=4 clr=3 inq=3 occ=3 orc=3 sha=3 spr=3 war=3 wit=4 ctSt cV cS rTouch target=\"creature touched\" durI willHalf srY}",
 			"",
-			"This spell functions like {spell/inflict light wounds}, except that it deals 3d8 + 1 point per caster level (maximum +15).",
+			"This spell functions like ‹spell/inflict light wounds›, except that it deals 3d8 + 1 point per caster level (maximum +15).",
 			"",
 			":::mythic{jl title=\"Mythic Inflict Serious Wounds\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}",
+			"‹SOURCE Mythic Adventures/99›",
 			"",
 			"The damage dealt increases to 6d8 points of damage + 2 points per caster level (maximum +30). A living target is sickened for 1 round per caster level (maximum 15 rounds) if it fails its saving throw.",
 			"",
@@ -631,7 +631,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/301\" necromancy clr=7 orc=7 sha=7 wit=8 ctSt cV cS rClose target=\"one creature/level, no two of which can be more than 30 ft. apart\" durI willHalf srY}",
 			"",
-			"This spell functions like {spell/mass inflict light wounds}, except that it deals 3d8 points of damage + 1 point per caster level (maximum +35)."
+			"This spell functions like ‹spell/mass inflict light wounds›, except that it deals 3d8 points of damage + 1 point per caster level (maximum +35)."
 		]
 	},
 	"inflict_serious_wounds_mass": {
@@ -647,7 +647,7 @@
 			"",
 			"::spell{source=\"People of the Wastes/29\" abjuration arc=2 brd=2 clr=2 drd=2 hnt=2 med=2 mes=2 orc=2 rgr=2 skd=2 sor=2 sum=2 usm=2 war=2 wit=2 wiz=2 ctSt cV cS rPers effect=\"20-foot-radius burst of stabilizing magic centered on you\" durML=10 srN harmless}",
 			"",
-			"This spell creates an area of stabilizing magical energy that emanates from you. Any creature within this area that fails a {rule/concentration} check to cast a spell normally in an area of wild magic rolls twice to determine the wild magic effect and choose its preferred result."
+			"This spell creates an area of stabilizing magical energy that emanates from you. Any creature within this area that fails a ‹rule/concentration› check to cast a spell normally in an area of wild magic rolls twice to determine the wild magic effect and choose its preferred result."
 		]
 	},
 	"infuse_decay": {
@@ -658,7 +658,7 @@
 			"",
 			"::spell{source=\"Curse of the Crimson Throne/453\" evil necromancy arc=4 sor=4 wit=4 wiz=4 ctM=10 cV cS cFp=\"a set of fine mortician's tools worth 100 gp\" rTouch area=\"corporeal undead touched; see text\" dur=\"permanent until discharged\" durD will srY harmless}",
 			"",
-			"This spell functions as per {spell/imbue with spell ability}, except it can only target corporeal undead creatures, and can only transfer touch spells. The number and level of spells the subject can be granted depends on the undead creature's Hit Dice; even multiple castings of infuse decay can't exceed this limit.",
+			"This spell functions as per ‹spell/imbue with spell ability›, except it can only target corporeal undead creatures, and can only transfer touch spells. The number and level of spells the subject can be granted depends on the undead creature's Hit Dice; even multiple castings of infuse decay can't exceed this limit.",
 			"",
 			"| HD of Undead | Touch Spells Infused |",
 			"| --- | --- |",
@@ -681,7 +681,7 @@
 			"",
 			"The nature of the curse that becomes infused into the effigy you touch depends more on the nature of the effigy than anything else. You can cast this spell on a standard effigy (such as a head stuck onto a spike, or on a body hanging from a tree), but can generate more powerful effects by casting the spell on one of the more elaborate effigies detailed above - in this case, it is the established traditions of the effigy as much as the effigy itself that empowers the curse. The larger effigies, such as the tree of souls and the wicker man, have minimum caster level requirements; you must be this level or higher in order to cast infuse effigy on such a target.",
 			"",
-			"Once an effigy is infused, it radiates an aura of unease to a radius of 5 feet per caster level - the first time a creature enters this area, it must make a Will save or become shaken for 1 minute per caster level. This effect can only occur once per creature and is a mind-affecting fear effect. As long as an effigy remains under the effects of this spell, the body parts associated with the effigy become preserved as if by {spell/gentle repose}. Once an effigy has been the focus for an infuse effigy spell, it can never again be the target of this spell - a new effigy must be constructed from new victims if you wish to recreate it. An infused effigy is treated as a magic item for the purposes of saving throws.",
+			"Once an effigy is infused, it radiates an aura of unease to a radius of 5 feet per caster level - the first time a creature enters this area, it must make a Will save or become shaken for 1 minute per caster level. This effect can only occur once per creature and is a mind-affecting fear effect. As long as an effigy remains under the effects of this spell, the body parts associated with the effigy become preserved as if by ‹spell/gentle repose›. Once an effigy has been the focus for an infuse effigy spell, it can never again be the target of this spell - a new effigy must be constructed from new victims if you wish to recreate it. An infused effigy is treated as a magic item for the purposes of saving throws.",
 			"",
 			"An infused effigy has an additional effect on creatures of the same type as the largest creature incorporated into the effigy. If the largest creature is a humanoid or outsider, the additional effect only affects creatures of the largest creature's subtype. Creatures of this type (and subtype) take a -2 penalty on the saving throw against the effigy's aura, and as soon as such creatures attack or damage the effigy (from any distance) or approach within 10 feet of it, they must make a Will saving throw or become cursed. If a creature becomes cursed by an infused effigy, the spell effect on the effigy ends (and the caster can now use that spell slot to prepare or cast spells again), but the curse itself is permanent until it is removed. If the creature that triggers the effigy was close friends with or related to anyone whose body was used to construct the effigy, that creature takes a -4 penalty on the Will save to avoid becoming cursed. The specific effects of each type of effigy's curse are listed below. At the GM's discretion, other specific effigies might exist, along with specific effects they exhibit when they are the subject of an infuse effigy spell.",
 			"",
@@ -777,7 +777,7 @@
 			"",
 			"::spell{source=\"Magic Tactics Toolbox/25\" polymorph transmutation alc=4 arc=4 inv=4 psy=4 sha=4 sor=4 wit=4 wiz=4 ctSt cV cS cMp=\"a handfull of dandelion seeds\" rTouch target=\"living creature touched\" durML=1 durD will srY harmless}",
 			"",
-			"This spell transforms a creature into a Medium or smaller animal or humanoid of no more than 1 Hit Die. If you use this spell to cause the target to take on the form of an animal, the spell functions as {spell/beast shape II}. If the form is that of a humanoid, the spell can function as alter self, youthful appearance, or both, such that you can transform a creature into a generic, youthful humanoid of any type.",
+			"This spell transforms a creature into a Medium or smaller animal or humanoid of no more than 1 Hit Die. If you use this spell to cause the target to take on the form of an animal, the spell functions as ‹spell/beast shape II›. If the form is that of a humanoid, the spell can function as alter self, youthful appearance, or both, such that you can transform a creature into a generic, youthful humanoid of any type.",
 			"",
 			"Any creature that interacts with the target of this spell must succeed at a Will saving throw (using the DC of the spell) or view the target in the most innocuous possible light. On a failed saving throw, the creature views all of the target's actions as inoffensive and no cause for concern unless the target becomes an obvious threat. The creature can otherwise act normally, and feels no compunction to obey or ignore the target; it simply assumes none of the target's actions are dangerous or malicious unless shown evidence that proves otherwise."
 		]
@@ -790,9 +790,9 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/301\" enchantment compulsion mindAffecting arc=7 mes=6 psy=7 sor=7 wit=7 wiz=7 ctSt cV cS rMed target=\"one living creature\" durI will srY}",
 			"",
-			"The affected creature suffers from a continuous {spell/confusion} effect, as the spell.",
+			"The affected creature suffers from a continuous ‹spell/confusion› effect, as the spell.",
 			"",
-			"{spell/Remove curse} does not remove insanity. {spell/Greater restoration}, {spell/heal}, {spell/limited wish}, {spell/miracle}, or {spell/wish} can restore the creature."
+			"‹spell/Remove curse› does not remove insanity. ‹spell/Greater restoration›, ‹spell/heal›, ‹spell/limited wish›, ‹spell/miracle›, or ‹spell/wish› can restore the creature."
 		]
 	},
 	"insect_plague": {
@@ -901,7 +901,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/229\" enchantment hnt=3 rgr=3 ctSw cV cS rClose target=\"one creature that is not your favored enemy.\" durML=1 saveNo srN}",
 			"",
-			"With this spell you designate the target as your {ability/favored enemy} for the remainder of its duration. Select one of your favored enemy types. For the duration of the spell, you treat the target as if it were that type of favored enemy for all purposes."
+			"With this spell you designate the target as your ‹ability/favored enemy› for the remainder of its duration. Select one of your favored enemy types. For the duration of the spell, you treat the target as if it were that type of favored enemy for all purposes."
 		]
 	},
 	"instant_fake": {
@@ -956,7 +956,7 @@
 			"",
 			"If the item is in the possession of another creature, the spell does not work, but you know who the possessor is and roughly where that creature is located when the summons occurs.",
 			"",
-			"The inscription on the gem is invisible. It is also unreadable, except by means of a {spell/read magic} spell, to anyone but you.",
+			"The inscription on the gem is invisible. It is also unreadable, except by means of a ‹spell/read magic› spell, to anyone but you.",
 			"",
 			"The item can be summoned from another plane, but only if no other creature has claimed ownership of it.",
 			"",
@@ -1064,7 +1064,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/225;Pathfinder #14: Children of the Void/54;Inner Sea World Guide/295\" conjuration teleportation arc=9 clr=9 orc=9 psy=9 sor=9 wiz=9 ctSt cV r=\"personal and touch\" target=\"you and touched objects or other touched willing creatures\" durI save=\"none and Will negates (object)\" sr=\"no and yes (object)\"}",
 			"",
-			"This spell functions as {spell/teleport}, except there is truly no range limit and you do not need to have seen your destination, though you must have a solid grasp of which world you wish to travel to (\"the third planet from the sun\" is an acceptable destination, but \"a habitable world near that bright star\" is not). If you have a specific location on a planet in mind, you arrive there without a chance of failure; otherwise you arrive at a location that would not immediately be life-threatening. If no such safe landing zone exists on the world, such as someone attempting to travel into the sun without the proper precautions in place, the spell simply fails."
+			"This spell functions as ‹spell/teleport›, except there is truly no range limit and you do not need to have seen your destination, though you must have a solid grasp of which world you wish to travel to (\"the third planet from the sun\" is an acceptable destination, but \"a habitable world near that bright star\" is not). If you have a specific location on a planet in mind, you arrive there without a chance of failure; otherwise you arrive at a location that would not immediately be life-threatening. If no such safe landing zone exists on the world, such as someone attempting to travel into the sun without the proper precautions in place, the spell simply fails."
 		]
 	},
 	"interposing_hand": {
@@ -1081,7 +1081,7 @@
 			"",
 			"The hand never provokes attacks of opportunity from opponents. It cannot push through a wall of force or enter an antimagic field, but it suffers the full effect of a prismatic wall or prismatic sphere. The hand makes saving throws as its caster.",
 			"",
-			"{spell/Disintegrate} or a successful {spell/dispel magic} destroys it.",
+			"‹spell/Disintegrate› or a successful ‹spell/dispel magic› destroys it.",
 			"",
 			"Any creature weighing 2,000 pounds or less that tries to push past the hand is slowed to half its normal speed. The hand cannot reduce the speed of a creature weighing more than 2,000 pounds, but it still affects the creature's attacks.",
 			"",
@@ -1187,9 +1187,9 @@
 			"",
 			"::spell{source=\"Dwarves of Golarion/22\" conjuration healing clr=5 orc=5 war=5 ctSt cV cS cDF rPers target=you dur=\"1 hour or until discharged\"}",
 			"",
-			">*In order to prepare this spell, the caster must spend an hour performing a ritual in which he beseeches {faith/Torag} (or a member of his family) for the aid of {faith/Magrim}. For 24 hours after the ritual, the caster may prepare spells of the requested deity. The caster may only attune himself to one additional deity at a time.*",
+			">*In order to prepare this spell, the caster must spend an hour performing a ritual in which he beseeches ‹faith/Torag› (or a member of his family) for the aid of ‹faith/Magrim›. For 24 hours after the ritual, the caster may prepare spells of the requested deity. The caster may only attune himself to one additional deity at a time.*",
 			"",
-			"This spell enhances your spells that bring the dead back to life. If you cast {spell/raise dead}, the target creature is restored to full hit points. If you cast breath of life, that spell can revive a dead target as long as you cast it within a number of rounds equal to half your caster level, and the healing effect is treated as if the spell were empowered with the {feat/Empower Spell} feat. Casting any of these spells discharges the invigorating repose spell."
+			"This spell enhances your spells that bring the dead back to life. If you cast ‹spell/raise dead›, the target creature is restored to full hit points. If you cast breath of life, that spell can revive a dead target as long as you cast it within a number of rounds equal to half your caster level, and the healing effect is treated as if the spell were empowered with the ‹feat/Empower Spell› feat. Casting any of these spells discharges the invigorating repose spell."
 		]
 	},
 	"invisibility": {
@@ -1209,13 +1209,13 @@
 			"",
 			"Of course, the subject is not magically silenced, and certain other conditions can render the recipient detectable (such as swimming in water or stepping in a puddle). If a check is required, a stationary invisible creature has a +40 bonus on its Stealth checks. This bonus is reduced to +20 if the creature is moving. The spell ends if the subject attacks any creature. For purposes of this spell, an attack includes any spell targeting a foe or whose area or effect includes a foe. Exactly who is a foe depends on the invisible character's perceptions. Actions directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. Thus, an invisible being can open doors, talk, eat, climb stairs, summon monsters and have them attack, cut the ropes holding a rope bridge while enemies are on the bridge, remotely trigger traps, open a portcullis to release attack dogs, and so forth. If the subject attacks directly, however, it immediately becomes visible along with all its gear. Spells such as bless that specifically affect allies but not foes are not attacks for this purpose, even when they include foes in their area.",
 			"",
-			"Invisibility can be made permanent (on objects only) with a {spell/permanency} spell.",
+			"Invisibility can be made permanent (on objects only) with a ‹spell/permanency› spell.",
 			"",
 			":::mythic{jl title=\"Mythic Invisibility\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}",
+			"‹SOURCE Mythic Adventures/99›",
 			"",
-			"The invisible target can't be detected with {spell/detect magic} or other spells that detect magic auras. The invisibility can't be penetrated, revealed, or dispelled by spells of 2nd level or lower (such as see invisibility or glitterdust), though true seeing and dust of appearance can reveal the invisible target's presence.",
+			"The invisible target can't be detected with ‹spell/detect magic› or other spells that detect magic auras. The invisibility can't be penetrated, revealed, or dispelled by spells of 2nd level or lower (such as see invisibility or glitterdust), though true seeing and dust of appearance can reveal the invisible target's presence.",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, the invisible target is undetectable by blindsense, blindsight, scent, and tremorsense.",
 			"",
@@ -1252,9 +1252,9 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/185\" abjuration alc=1 arc=1 brd=1 hnt=1 inq=1 inv=1 psy=1 rgr=1 skd=1 sor=1 wiz=1 ctSt cV cS cFDFp=\"a tiny bell and a piece of very fine silver wire\" rClose area=\"20-ft.-radius emanation centered on a point in space\" durML=10 saveNo srN}",
 			"",
-			"This spell functions as {spell/alarm}, except it is triggered only by invisible creatures entering or leaving the warded area. The spell has a different mental alarm depending on whether the invisible creature is entering or leaving the area. This spell does not aid you in sensing or pinpointing the location of an invisible creature within the spell's area.",
+			"This spell functions as ‹spell/alarm›, except it is triggered only by invisible creatures entering or leaving the warded area. The spell has a different mental alarm depending on whether the invisible creature is entering or leaving the area. This spell does not aid you in sensing or pinpointing the location of an invisible creature within the spell's area.",
 			"",
-			"Invisibility alarm can be made permanent with a {spell/permanency} spell by a caster of 9th level or higher at a cost of 2,500 gp."
+			"Invisibility alarm can be made permanent with a ‹spell/permanency› spell by a caster of 9th level or higher at a cost of 2,500 gp."
 		]
 	},
 	"invisibility_bubble": {
@@ -1327,7 +1327,7 @@
 			"",
 			"::spell{source=\"Adventurer's Guide/125;Arcane Anthology/14\" divination alc=5 arc=5 bld=4 inv=5 mag=5 sha=5 sor=5 wit=5 wiz=5 ctSt cV cS cMp=\"diamond dust worth 200 gp\" cFp=\"an eyeless mask\" rTouch target=\"creature touched\" durH=24 will srY harmless object}",
 			"",
-			"As part of the action used to cast this spell, you place the mask used as the focus component on the target's face, after which it adheres tightly to the target for the spell's duration and cannot be removed by physical force. Despite lacking eyes, this mask does not impair its wearer's vision in any way. While in effect, this spell functions like {spell/nondetection}, except it also foils divination spells that attempt to gather information about the creature, even if they don't target it specifically. In the case of divination spells that would normally reveal the wearer's presence, such as {spell/see invisibility}, the spell works, but the wearer is detected only if the caster succeeds at a caster level check. Likewise, scrying attempts that specifically target the wearer do not work at all unless the caster succeeds at a caster level check. In addition, the DCs of skill checks to learn about the wearer or identify the wearer and its strengths and weaknesses - including Diplomacy checks to gather information, Perception checks opposed by the target's Disguise checks, and Knowledge checks - increase by 4.",
+			"As part of the action used to cast this spell, you place the mask used as the focus component on the target's face, after which it adheres tightly to the target for the spell's duration and cannot be removed by physical force. Despite lacking eyes, this mask does not impair its wearer's vision in any way. While in effect, this spell functions like ‹spell/nondetection›, except it also foils divination spells that attempt to gather information about the creature, even if they don't target it specifically. In the case of divination spells that would normally reveal the wearer's presence, such as ‹spell/see invisibility›, the spell works, but the wearer is detected only if the caster succeeds at a caster level check. Likewise, scrying attempts that specifically target the wearer do not work at all unless the caster succeeds at a caster level check. In addition, the DCs of skill checks to learn about the wearer or identify the wearer and its strengths and weaknesses - including Diplomacy checks to gather information, Perception checks opposed by the target's Disguise checks, and Knowledge checks - increase by 4.",
 			"",
 			"The mask cannot be removed for the duration of the spell, and the fact that the target is wearing the focus mask cannot be hidden in any way from creatures that observe the target."
 		]
@@ -1447,7 +1447,7 @@
 			"",
 			":::mythic{title=\"Mythic Maze\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}  ",
+			"‹SOURCE Mythic Adventures/100›  ",
 			"A spectral minotaur hunts the target trapped in the maze. Every round the creature fails to escape from the maze, it takes 2d8 + your tier points of piercing and slashing damage from this phantom opponent.",
 			"",
 			":::"
@@ -1471,7 +1471,7 @@
 			"| 61-80 | Oasis of respite |",
 			"| 81-100 | Strange city |",
 			"",
-			"*Circus:* The creature finds itself in a nightmarish circus of giant beasts, garishly painted faces, and hideous, mocking laughter. The creature must succeed at a Will save or gain a lesser {rule/madness}. The save uses the madness's normal DC.",
+			"*Circus:* The creature finds itself in a nightmarish circus of giant beasts, garishly painted faces, and hideous, mocking laughter. The creature must succeed at a Will save or gain a lesser ‹rule/madness›. The save uses the madness's normal DC.",
 			"",
 			"*Haunted Forest:* The creature travels through a dark forest of grasping trees while shadowy beasts prowl at the edge of its vision. The creature must succeed at a Will save or become frightened for 2d4 rounds. This is a fear effect. A frightened creature can still attempt Intelligence checks to escape the maze, but it takes 3d6 points of slashing and piercing damage from the trees' branches.",
 			"",
@@ -1479,7 +1479,7 @@
 			"",
 			"*Oasis of Respite:* Whether it appears as a beautiful glade, a perfumed palace, or a literal desert oasis, this section of the maze is supernaturally peaceful, especially in comparison to the rest of the maze. The creature must succeed at a Will save or become fascinated for 1 round. The creature can't attempt to escape the maze while fascinated. A creature that fails three consecutive saving throws to this fascination enters a state of lethargy and gives up ever escaping the maze, remaining in this area until the spell ends on its own in 10 minutes (as per maze).",
 			"",
-			"*Strange City:* The creature journeys through a city of cyclopean architecture under a sky of indescribable color and numerous stars. The creature must succeed at a Will save or take 2d4 points of Wisdom damage. If your campaign uses {rule/the |sanity/ system}, the creature instead takes 2d10 points of sanity damage."
+			"*Strange City:* The creature journeys through a city of cyclopean architecture under a sky of indescribable color and numerous stars. The creature must succeed at a Will save or take 2d4 points of Wisdom damage. If your campaign uses ‹rule/the »sanity« system›, the creature instead takes 2d10 points of sanity damage."
 		]
 	},
 	"medusas_bane": {
@@ -1520,7 +1520,7 @@
 			"",
 			"The target gains a perfect memory of the page you used as a focus component. The target can visualize this page as easily as looking at it in person, including minute details visible to close scrutiny by the naked eye. The memory of the page includes text and images, such as a drawing or a map. Someone unfamiliar with the language on the page (or even an illiterate person) could relay what is written simply by copying the shapes of the letters so another person can read them.",
 			"",
-			"The maximum number of pages that a particular target can memorize through repeated castings of this spell is equal to the target's Intelligence modifier (minimum 1); any attempts beyond this limit have no effect, although the target's memory of a page could be erased (using {spell/modify memory} or a similar effect) to effectively make room for a different one.",
+			"The maximum number of pages that a particular target can memorize through repeated castings of this spell is equal to the target's Intelligence modifier (minimum 1); any attempts beyond this limit have no effect, although the target's memory of a page could be erased (using ‹spell/modify memory› or a similar effect) to effectively make room for a different one.",
 			"",
 			"A creature that memorizes magical writing (such as a scroll or a page from a spellbook) cannot borrow, duplicate, or retain any of the magic in the writing. However, this would allow a wizard to copy a spell into his spellbook so he could prepare the spell from his book (assuming the spell takes up only one page in a spellbook)."
 		]
@@ -1540,10 +1540,10 @@
 			"",
 			":::mythic{title=\"Mythic Memory Lapse\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}  ",
+			"‹SOURCE Mythic Adventures/100›  ",
 			"The target forgets an additional round, back to the beginning of the turn before its last turn.",
 			"",
-			"*Augmented (3rd):* If you expend two uses of mythic power, you can spend 1 round implanting a false memory in the affected target. This false memory is limited to events that could have occurred during the time it just forgot, as if using {spell/modify memory} but limited to that short period of time. For example, you couldn't implant the memory of a lengthy conversation, as that couldn't happen in the forgotten length of time.",
+			"*Augmented (3rd):* If you expend two uses of mythic power, you can spend 1 round implanting a false memory in the affected target. This false memory is limited to events that could have occurred during the time it just forgot, as if using ‹spell/modify memory› but limited to that short period of time. For example, you couldn't implant the memory of a lengthy conversation, as that couldn't happen in the forgotten length of time.",
 			"",
 			"The target can attempt a Will saving throw (DC equal to the mythic memory lapse DC plus your tier) to resist this implanted memory. Success means no memory is implanted, but the target still forgets the allotted time.",
 			"",
@@ -1556,7 +1556,7 @@
 		"description": [
 			"## Memory of Function",
 			"",
-			"::spell{source=\"Technology Guide/10\" transmutation arc=7 clr=7 orc=7 sor=7 wiz=7 ctSt cV cS cMp=\"powdered %%eq-material/skymetal%% worth 10,000 gp\" rTouch target=\"object or construct touched\" durI will srY}",
+			"::spell{source=\"Technology Guide/10\" transmutation arc=7 clr=7 orc=7 sor=7 wiz=7 ctSt cV cS cMp=\"powdered ‹eq-material/skymetal› worth 10,000 gp\" rTouch target=\"object or construct touched\" durI will srY}",
 			"",
 			"Even a broken object remembers what it means to be a functioning whole. You restore a broken object or damaged construct to a functional state, as if it were new and intact. Any pieces missing from the object or construct remain missing. Significant missing pieces may prevent proper functioning. If the object uses charges, the object becomes fully charged. A timeworn object becomes fully charged, but doesn't lose the timeworn condition (this spell is one of the few ways a timeworn item can be recharged). For 1 hour after this spell is cast on a timeworn object, that object does not suffer any chance of glitching. Other consumables such as ammunition are not restored.",
 			"",
@@ -1700,11 +1700,11 @@
 			"",
 			"::spell{source=\"Blood of the Beast/19\" transmutation clr=6 drd=6 hnt=6 orc=6 sha=6 war=6 wit=6 ctM=10 cV cS cMp=\"a valuable gemstone worth at least 250 gp\" rTouch target=\"willing creature or dead body touched\" dur=\"see text\" will svHarmless srN}",
 			"",
-			">*The following spell is the result of generations of {race/nagaji} tradition, but spellcasters from elsewhere in Tian Xia have begun to learn these techniques and spread them further.*",
+			">*The following spell is the result of generations of ‹race/nagaji› tradition, but spellcasters from elsewhere in Tian Xia have begun to learn these techniques and spread them further.*",
 			"",
 			"You encase the willing subject in a jeweled shell that has the same hardness and hit points as 5 inches of iron (hardness 10, hp 150). For 7 days, the subject enters a state of suspended animation (as per temporal stasis), during which it heals from even the most grievous wounds. Each day, the subject regains 5 hit points per Hit Die it has as well as recovering from 2 points of ability damage or ability drain from any ability score of its choice. After 7 days, the shell crumbles away and the subject emerges, its body's severed limbs, broken bones, and ruined organs regrown (as per regenerate).",
 			"",
-			"If the gemstone you use for the component is worth at least 5,000 gp, metabolic molting can bring a target back to life, as long as it has been dead for no more than 1 hour when the spell is cast. When the spell is used on such a creature, the creature comes back to life after 7 days and stabilizes at 0 hit points. A creature brought back to life through metabolic molting gains 1 permanent negative level, or 2 points of Constitution drain if it is 1st level. Like {spell/raise dead}, this spell can't save creatures slain by death effects."
+			"If the gemstone you use for the component is worth at least 5,000 gp, metabolic molting can bring a target back to life, as long as it has been dead for no more than 1 hour when the spell is cast. When the spell is used on such a creature, the creature comes back to life after 7 days and stabilizes at 0 hit points. A creature brought back to life through metabolic molting gains 1 permanent negative level, or 2 points of Constitution drain if it is 1st level. Like ‹spell/raise dead›, this spell can't save creatures slain by death effects."
 		]
 	},
 	"meteor_swarm": {
@@ -1726,7 +1726,7 @@
 			"",
 			":::mythic{title=\"Mythic Meteor Swarm\"}",
 			"",
-			"{SOURCE Mythic Adventures/101}  ",
+			"‹SOURCE Mythic Adventures/101›  ",
 			"The meteors created by this spell deal bludgeoning damage in a line extending from you to the target destination where it explodes. Creatures in the path of a meteor take 2d10 points of bludgeoning damage and must succeed at a Fortitude save or be knocked prone. The damage from the exploding meteors increases to 6d10 points of fire damage. Creatures that fail their Reflex saves against the fire damage are also knocked prone and deafened for 1d4 rounds.",
 			"",
 			"*Augmented (10th):* If you expend two uses of mythic power, creatures in the path of a meteor also take 4d10 points of fire damage and the damage from the exploding meteors increases to 10d10 points of fire damage; this fire damage bypasses fire resistance and fire immunity.",
@@ -1757,9 +1757,9 @@
 			"",
 			"::spell{source=\"Inner Sea Races/221\" enchantment compulsion mindAffecting fear ant=2 bld=2 brd=2 inq=3 skd=2 ctSt cV cS rFt=30 area=\"cone-shaped burst\" durI saveNo srN}",
 			"",
-			">*The following spell is available to the indicated race or ethnicity: {race/Half-Orc}*",
+			">*The following spell is available to the indicated race or ethnicity: ‹race/Half-Orc›*",
 			"",
-			"A cloud of sickly green mist pours from your mouth and coalesces around creatures in the cone. Attempt a single {skill/Intimidate} check to demoralize as part of casting the spell, comparing the result against the DC to Intimidate each foe within the area. You demoralize all foes whose DC you meet or exceed."
+			"A cloud of sickly green mist pours from your mouth and coalesces around creatures in the cone. Attempt a single ‹skill/Intimidate› check to demoralize as part of casting the spell, comparing the result against the DC to Intimidate each foe within the area. You demoralize all foes whose DC you meet or exceed."
 		]
 	},
 	"miasmatic_form": {
@@ -1770,7 +1770,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/160\" air poison transmutation alc=4 arc=4 inv=4 rma=4 sor=4 wiz=4 ctSt cS cMp=\"contact or inhaled poison worth 100 gp\" rTouch target=\"willing corporeal creature touched\" durML=1 save=\"none, see text\" srN}",
 			"",
-			">*{race/Sylph/s} have access to the following spell.*",
+			">*‹race/Sylph«s› have access to the following spell.*",
 			"",
 			"This spell functions like gaseous form, except the target's vaporous body is dangerous to creatures that touch it. A creature can make a Fortitude save (DC 14 + your Intelligence modifier) on its turn to resist the vapors. When you cast this spell, you select one of the following options.",
 			"",
@@ -1803,15 +1803,15 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/149\" conjuration creation earth clr=1 drd=1 hnt=1 orc=1 war=1 ctSt cV cS cDF rClose target=\"one creature\" durI saveNo srY}",
 			"",
-			">*{race/Oread/s} have access to the following spell.*",
+			">*‹race/Oread«s› have access to the following spell.*",
 			"",
 			"You create a fist-sized rock that flies toward one enemy. Make an unarmed strike attack roll against the target as if it were in your threatened area. If the attack is successful, the rock deals bludgeoning damage to the target as if you had hit the target with your unarmed strike. If you have a ki pool, as long as you have at least 1 point in your ki pool, the rock counts as a ki strike.",
 			"",
-			"At 4th level, a {arc-monk/qinggong monk} may select this spell as a ki power costing 1 ki point to activate (if the monk has 0 ki points after activating this ki power, the rock does not count as a ki strike).",
+			"At 4th level, a ‹arc-monk/qinggong monk› may select this spell as a ki power costing 1 ki point to activate (if the monk has 0 ki points after activating this ki power, the rock does not count as a ki strike).",
 			"",
 			":::mythic{title=\"Mythic Mighty Fist of the Earth\"}",
 			"",
-			"{SOURCE Mythic Adventures/101}  ",
+			"‹SOURCE Mythic Adventures/101›  ",
 			"Add your tier to the rock's attack roll and damage roll. Increase the critical multiplier of the attack by 1 (maximum &times;4).",
 			"",
 			":::"
@@ -1825,7 +1825,7 @@
 			"",
 			"::spell{source=\"Dwarves of Golarion/22\" transmutation clr=4 orc=4 pal=4 war=4 ctSt cV cS cDF rPers target=you durML=1}",
 			"",
-			">*In order to prepare this spell, the caster must spend an hour performing a ritual in which he beseeches {faith/Torag} (or a member of his family) for the aid of {faith/Trudd}. For 24 hours after the ritual, the caster may prepare spells of the requested deity. The caster may only attune himself to one additional deity at a time.*",
+			">*In order to prepare this spell, the caster must spend an hour performing a ritual in which he beseeches ‹faith/Torag› (or a member of his family) for the aid of ‹faith/Trudd›. For 24 hours after the ritual, the caster may prepare spells of the requested deity. The caster may only attune himself to one additional deity at a time.*",
 			"",
 			"As bull's strength, except it grants a +8 enhancement bonus to Strength."
 		]
@@ -1841,7 +1841,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/313\" abjuration arc=8 psy=7 sor=8 wit=8 wiz=8 ctSt cV cS rClose target=\"one creature\" durH=24 will srY harmless}",
 			"",
-			"The subject is protected from all devices and spells that gather information about the target through divination magic (such as {spell/detect evil}, {spell/locate creature}, {spell/scrying}, and {spell/see invisibility}). This spell also grants a +8 resistance bonus on saving throws against all mind-affecting spells and effects. Mind blank even foils {spell/limited wish}, {spell/miracle}, and {spell/wish} spells when they are used in such a way as to gain information about the target. In the case of scrying that scans an area the creature is in, such as {spell/arcane eye}, the spell works but the creature simply isn't detected. Scrying attempts that are targeted specifically at the subject do not work at all.",
+			"The subject is protected from all devices and spells that gather information about the target through divination magic (such as ‹spell/detect evil›, ‹spell/locate creature›, ‹spell/scrying›, and ‹spell/see invisibility›). This spell also grants a +8 resistance bonus on saving throws against all mind-affecting spells and effects. Mind blank even foils ‹spell/limited wish›, ‹spell/miracle›, and ‹spell/wish› spells when they are used in such a way as to gain information about the target. In the case of scrying that scans an area the creature is in, such as ‹spell/arcane eye›, the spell works but the creature simply isn't detected. Scrying attempts that are targeted specifically at the subject do not work at all.",
 			"",
 			"### Communal Mind Blank",
 			"",
@@ -1919,7 +1919,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/176\" enchantment compulsion mindAffecting arc=6 med=3 mes=5 occ=4 psy=5 sor=6 spr=4 sum=5 wit=6 wiz=6 ctR=1 cV cS rMed target=\"one creature\" durD durHL=1 will srY}",
 			"",
-			"This spell is similar to {spell/possession}, except you switch minds with the target, so instead of the target's soul sharing its body with yours and being unable to act, the target's mind moves to your body and can control it as if you each had cast possession on the other.",
+			"This spell is similar to ‹spell/possession›, except you switch minds with the target, so instead of the target's soul sharing its body with yours and being unable to act, the target's mind moves to your body and can control it as if you each had cast possession on the other.",
 			"",
 			"### Major Mind Swap",
 			"",
@@ -2032,7 +2032,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/177\" mindAffecting illusion phantasm arc=4 med=3 mes=3 psy=3 sor=4 wiz=4 ctSt cV cS rClose effect=\"one illusory portal\" durML=10 save=\"Will negates (see text)\" srN}",
 			"",
-			"You or other creatures enter into or escape from a {rule/mindscape>s} through an imaginary doorway. This doorway takes on any form of your choosing, but can be no larger than a 5-foot cube. This spell has different effects depending on whether you are inside a mindscape when you cast it.",
+			"You or other creatures enter into or escape from a ‹rule/mindscape<s› through an imaginary doorway. This doorway takes on any form of your choosing, but can be no larger than a 5-foot cube. This spell has different effects depending on whether you are inside a mindscape when you cast it.",
 			"",
 			"When you cast this spell outside a mindscape, the doorway connects to one mindscape inhabited by a creature of your choice within close range (25 feet + 5 feet per 2 levels) of the door. That creature becomes the door's conduit, but can attempt a Will save to deny access to the mindscape. You must be aware of the mindscape to connect a mindscape door to it. If you connect to the mindscape, you designate any number of creatures to be able to see and pass through the door as though it were a normal doorway. You can name specific creatures or categories of creatures, or allow all creatures access. Creatures other than those you designate can't perceive or use the door, nor can mindless creatures or those immune to mind-affecting effects. Once anyone enters the mindscape through the door, a duplicate of the door appears inside the mindscape next to the creature you used as a conduit. Anyone inside a mindscape is able to perceive and use a mindscape door within that mindscape. Anyone who enters is subject to all rules of the mindscape, but is aware she is in a mindscape if you informed her where the portal leads.",
 			"",
@@ -2107,9 +2107,9 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/39\" mindAffecting figment illusion alc=2 arc=3 brd=3 inv=2 med=2 mes=3 psy=3 rma=3 skd=3 sor=3 wit=2 wiz=3 ctM=1 cV cS r=unlimited target=\"you or one gnome touched\" dur=\"see text\"}",
 			"",
-			">*{race/Gnome/s} have access to the following spell.*",
+			">*‹race/Gnome«s› have access to the following spell.*",
 			"",
-			"This spell functions as the {spell/dream} spell, except as follows. The messenger must be yourself or a gnome touched. The message can be no longer than 20 words. If the recipient of the message is not asleep when the spell is cast, the spell automatically fails."
+			"This spell functions as the ‹spell/dream› spell, except as follows. The messenger must be yourself or a gnome touched. The message can be no longer than 20 words. If the recipient of the message is not asleep when the spell is cast, the spell automatically fails."
 		]
 	},
 	"minor_image": {
@@ -2143,9 +2143,9 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/39\" illusion shadowDesc shadowSub arc=4 mes=4 psy=4 rma=4 sor=4 wiz=4 ctM=1 cV cS rFt=0 effect=\"illusory, unattended, nonmagical object of nonliving plant matter, up to 1 cu. ft./level\" durML=10 durD}",
 			"",
-			">*{race/Gnome/s} have access to the following spell.*",
+			">*‹race/Gnome«s› have access to the following spell.*",
 			"",
-			"This spell functions as the {spell/minor creation} spell, except the object created is a semi-real illusion. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item."
+			"This spell functions as the ‹spell/minor creation› spell, except the object created is a semi-real illusion. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item."
 		]
 	},
 	"minor_reversion": {
@@ -2162,7 +2162,7 @@
 			"",
 			"::spell{source=\"Plane-Hopper's Handbook/28\" conjuration healing arc=5 clr=5 orc=5 psy=4 sor=5 war=5 wiz=5 ctM=20 cV cS rPers target=self durH=24}",
 			"",
-			"You create a fine-tuned replica of yourself within the {rule/Akashic Record} at the time the spell is cast. You must currently have a number of hit points equal to or greater than half your maximum hit points to cast the spell. If at any time during the duration of the spell you are brought below half your maximum hit points, you can end this spell as an immediate action to absorb strength from your replica and immediately regain a number of hit points equal to 3d8 plus 1 point per caster level (maximum +15).",
+			"You create a fine-tuned replica of yourself within the ‹rule/Akashic Record› at the time the spell is cast. You must currently have a number of hit points equal to or greater than half your maximum hit points to cast the spell. If at any time during the duration of the spell you are brought below half your maximum hit points, you can end this spell as an immediate action to absorb strength from your replica and immediately regain a number of hit points equal to 3d8 plus 1 point per caster level (maximum +15).",
 			"",
 			"::h3[Mass Minor Reversion]{jl}",
 			"",
@@ -2266,7 +2266,7 @@
 			"",
 			":::mythic{title=\"Mythic Mirror Image\"}",
 			"",
-			"{SOURCE Mythic Adventures/101}  ",
+			"‹SOURCE Mythic Adventures/101›  ",
 			"The maximum number of images generated by this spell increases to 12. Destroying an image creates a flash of light. Any creature that destroys an image must succeed at a Will save or be dazzled for 1 round.",
 			"",
 			":::"
@@ -2313,7 +2313,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/188\" transmutation arc=4 occ=4 psy=4 rma=4 sor=4 spr=4 wit=4 wiz=4 ctSt cV cS cMp=\"a glass or metal marble and a twisted loop of parchment\" rTouch target=\"one mirror\" durD durHL=1 save=\"yes (object)\" srY srObject}",
 			"",
-			"This spell functions as {spell/mirror hideaway}, except any creature that enters the target mirror can spend a swift action to exit through another mirror within 500 feet as if using dimension door; this is a one-way transport. The creature can exit through a mirror only if it could fit through an opening the same size as the mirror. Each transport through the target mirror reduces the spell's duration by 1 hour."
+			"This spell functions as ‹spell/mirror hideaway›, except any creature that enters the target mirror can spend a swift action to exit through another mirror within 500 feet as if using dimension door; this is a one-way transport. The creature can exit through a mirror only if it could fit through an opening the same size as the mirror. Each transport through the target mirror reduces the spell's duration by 1 hour."
 		]
 	},
 	"mischievous_shadow": {
@@ -2324,7 +2324,7 @@
 			"",
 			"::spell{source=\"Haunted Heroes Handbook/28\" mindAffecting emotion fear haunted necromancy arc=4 brd=4 mag=4 med=3 sha=4 skd=4 sor=4 spr=4 sum=4 usm=4 wit=4 wiz=4 ctSt cV cS cMp=\"a black candle\" rClose area=\"one 5-ft. cube/level\" durD durDL=1 will srY}",
 			"",
-			"You direct spirits into the shadows of creatures. The shadows of creatures that fail their Will saving throws appear slightly different for the duration of the spell, bearing small horns, unusually long and slender arms, or other small discrepancies. This spell does not work on creatures that do not cast shadows or reflections. At will as an immediate action (but no more often than once every 10 minutes), a mischievous shadow can interfere with its host's actions or the actions of adjacent creatures by interacting with their shadows in ways that affect their physical counterparts, such as grabbing the shadow of a crossbow to redirect the physical weapon's aim. Each disruption either imposes a -8 penalty on a single attack roll, combat maneuver check, or Strength- or Dexterity-based skill check, or requires a spellcaster to succeed at a {rule/concentration} check (DC = 15 + spell level) or lose a spell being cast. If you are within range of the spell effect, you can decide how these shadows interfere; otherwise, their actions are timed and decided by the GM as needed, typically manifesting during important or crucial roles. Each time a mischievous shadow makes such a disruption, the spell's haunt-like manifestation occurs during that round.",
+			"You direct spirits into the shadows of creatures. The shadows of creatures that fail their Will saving throws appear slightly different for the duration of the spell, bearing small horns, unusually long and slender arms, or other small discrepancies. This spell does not work on creatures that do not cast shadows or reflections. At will as an immediate action (but no more often than once every 10 minutes), a mischievous shadow can interfere with its host's actions or the actions of adjacent creatures by interacting with their shadows in ways that affect their physical counterparts, such as grabbing the shadow of a crossbow to redirect the physical weapon's aim. Each disruption either imposes a -8 penalty on a single attack roll, combat maneuver check, or Strength- or Dexterity-based skill check, or requires a spellcaster to succeed at a ‹rule/concentration› check (DC = 15 + spell level) or lose a spell being cast. If you are within range of the spell effect, you can decide how these shadows interfere; otherwise, their actions are timed and decided by the GM as needed, typically manifesting during important or crucial roles. Each time a mischievous shadow makes such a disruption, the spell's haunt-like manifestation occurs during that round.",
 			"",
 			"#### Haunt Statistics",
 			"",
@@ -2339,7 +2339,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/314\" glamer illusion arc=2 brd=2 med=2 mes=2 occ=2 psy=2 rma=2 skd=2 sor=2 spr=2 sum=2 usm=2 wiz=2 ctSt cV cS rClose target=\"one creature or object, up to a 10-ft. cube in size\" durHL=1 save=\"none or Will negates; see text\" srN}",
 			"",
-			"By means of this spell, you misdirect the information from divination spells that reveal auras ({spell/detect evil}, {spell/detect magic}, {spell/discern lies}, and the like). On casting the spell, you choose another object within range. For the duration of the spell, the subject of misdirection is detected as if it were the other object. Neither the subject nor the other object gets a saving throw against this effect. Detection spells provide information based on the second object rather than on the actual target of the detection unless the caster of the detection succeeds on a Will save. For instance, you could make yourself detect as a tree if one were within range at casting: not evil, not lying, not magical, neutral in alignment, and so forth. This spell does not affect other types of divination magic ({spell/augury}, {spell/detect thoughts}, {spell/clairaudience//clairvoyance}, and the like)."
+			"By means of this spell, you misdirect the information from divination spells that reveal auras (‹spell/detect evil›, ‹spell/detect magic›, ‹spell/discern lies›, and the like). On casting the spell, you choose another object within range. For the duration of the spell, the subject of misdirection is detected as if it were the other object. Neither the subject nor the other object gets a saving throw against this effect. Detection spells provide information based on the second object rather than on the actual target of the detection unless the caster of the detection succeeds on a Will save. For instance, you could make yourself detect as a tree if one were within range at casting: not evil, not lying, not magical, neutral in alignment, and so forth. This spell does not affect other types of divination magic (‹spell/augury›, ‹spell/detect thoughts›, ‹spell/clairaudience/clairvoyance›, and the like)."
 		]
 	},
 	"miserable_pity": {
@@ -2350,7 +2350,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/229\" mindAffecting abjuration emotion arc=2 brd=2 mes=2 psy=2 skd=2 sor=2 wit=2 wiz=2 ctSt cV cS rTouch target=\"creature touched\" dur=\"1 round/level and 1 minute; see text\" save=\"Will negates (see text)\" srY}",
 			"",
-			"This spell functions as {spell/sanctuary}, except creatures attempting to attack the target who fail their saves also feel a strong sense of pity toward the target, as if it were weak, pathetic, and not a threat. If the target breaks the spell by attacking, any creature that failed its save against the spell gains a +2 morale bonus on attack rolls against the target for 1 minute."
+			"This spell functions as ‹spell/sanctuary›, except creatures attempting to attack the target who fail their saves also feel a strong sense of pity toward the target, as if it were weak, pathetic, and not a threat. If the target breaks the spell by attacking, any creature that failed its save against the spell gains a +2 morale bonus on attack rolls against the target for 1 minute."
 		]
 	},
 	"mislead": {
@@ -2370,7 +2370,7 @@
 			"",
 			":::mythic{title=\"Mythic Mislead\"}",
 			"",
-			"{SOURCE Mythic Adventures/101}  ",
+			"‹SOURCE Mythic Adventures/101›  ",
 			"You create one illusory double per 5 caster levels, each of which appears in your square or in an unoccupied square adjacent to yours. When you cast the spell, you can give each of these doubles a simple programmed task as a telepathic command, such a \"walk south,\" \"beg for mercy,\" or \"walk south,\"",
 			"",
 			"You can change or modify a single illusory double's programmed task by spending a swift, move, or standard action; this requires concentration.",
@@ -2405,7 +2405,7 @@
 			"",
 			"::spell{source=\"Blood of the Ancients/26\" divination arc=4 mag=3 occ=3 sor=4 wit=4 wiz=4 ctM=10 cV cS rTouch target=\"object touched\" dur=\"1 day/level or until discharged\" durD saveNo srN}",
 			"",
-			"You inscribe a rune on the target object. The rune remains dormant until the object finds its way into the hands of a spellcaster, at which point the rune steals one of that creature's spells and passes the knowledge back to you. The stolen spell is selected randomly. An object inscribed with this rune is affected as though by the spell {spell/magic aura}. Additionally, if a creature in possession of the object casts a spell that appears on your spell list, there is a 10% chance that the mnemonic siphon absorbs that spell, causing it to fail as though it had been successfully countered. Whenever the mnemonic siphon absorbs a spell in this fashion, it causes the knowledge of the absorbed spell to appear directly in your mind. You can use this knowledge to prepare the spell if you have an unused spell slot capable of casting it. You can also use the knowledge to write the spell into a spellbook or teach it to your familiar. This knowledge remains in your mind for 24 hours, after which time it is lost. The mnemonic siphon is capable of absorbing up to 1 spell per 2 caster levels you have before being discharged. If you are not capable of learning a stolen spell normally, the knowledge is useless to you."
+			"You inscribe a rune on the target object. The rune remains dormant until the object finds its way into the hands of a spellcaster, at which point the rune steals one of that creature's spells and passes the knowledge back to you. The stolen spell is selected randomly. An object inscribed with this rune is affected as though by the spell ‹spell/magic aura›. Additionally, if a creature in possession of the object casts a spell that appears on your spell list, there is a 10% chance that the mnemonic siphon absorbs that spell, causing it to fail as though it had been successfully countered. Whenever the mnemonic siphon absorbs a spell in this fashion, it causes the knowledge of the absorbed spell to appear directly in your mind. You can use this knowledge to prepare the spell if you have an unused spell slot capable of casting it. You can also use the knowledge to write the spell into a spellbook or teach it to your familiar. This knowledge remains in your mind for 24 hours, after which time it is lost. The mnemonic siphon is capable of absorbing up to 1 spell per 2 caster levels you have before being discharged. If you are not capable of learning a stolen spell normally, the knowledge is useless to you."
 		]
 	},
 	"modify_memory": {
@@ -2432,7 +2432,7 @@
 			"",
 			":::mythic{title=\"Mythic Modify Memory\"}",
 			"",
-			"{SOURCE Mythic Adventures/102}  ",
+			"‹SOURCE Mythic Adventures/102›  ",
 			"You can modify an additional 5 minutes of the subject's memory per tier. You may affect multiple memories with one casting of the spell, as long as the total number of minutes doesn't exceed this limit. Each affected memory counts as a minimum of 5 minutes. For example, you could implant a memory of having a brief meeting with the mayor before lunch and another brief meeting just after dinner, even though the two events would have been hours apart.",
 			"",
 			"*Augmented (8th):* If you expend four uses of mythic power, instead of altering the target's memories, you alter all other creatures' memories of the target (only the target gets a saving throw against the spell). All creatures on the same plane as the target forget his name, their relationship to him, and everything he has done; he is essentially a stranger to them. Any important acts by the target are attributed to someone else. Everyone's memories of history are rewritten to incorporate this change. The target's memories are unaffected. You can exclude a number of other creatures up to your tier from the effects of this spell (so they remember the truth), including yourself if you wish. Written records are unchanged unless you expend an additional six uses of mythic power when you cast the spell, and written records on other planes remain unchanged regardless.",
@@ -2571,7 +2571,7 @@
 			"",
 			"#### Possession and Magic Jar",
 			"",
-			"The old {spell/magic jar} spell is unwieldy, particularly with respect to creatures like ghosts and shadow demons that don't really use a jar at all. Consider replacing magic jar with the new possession spells for both spellcasters and monsters. Likewise, consider using spells based on possession rather than magic jar.",
+			"The old ‹spell/magic jar› spell is unwieldy, particularly with respect to creatures like ghosts and shadow demons that don't really use a jar at all. Consider replacing magic jar with the new possession spells for both spellcasters and monsters. Likewise, consider using spells based on possession rather than magic jar.",
 			"",
 			"### Greater Possession",
 			"",
@@ -2609,7 +2609,7 @@
 			"",
 			"::spell{source=\"Ultimate Wilderness/233;Blood of the Beast/7\" transmutation alc=2 arc=2 bld=2 drd=2 hnt=2 inv=2 mag=2 rgr=2 sor=2 wit=2 wiz=2 ctSt cV cS rPers target=you durRL=1}",
 			"",
-			">*The following spell was created by {race/catfolk} and make use of their clawed hands.*",
+			">*The following spell was created by ‹race/catfolk› and make use of their clawed hands.*",
 			"",
 			"When you charge, you can make a full attack at the end of that charge, but only with claw attacks you have, and you can make only one attack per claw. If you have abilities that grant bonuses on damage rolls or that apply other special effects to charge attacks, only the first claw attack benefits from these bonuses. When you make a claw attack as an attack of opportunity, you can expend one additional use of your attacks of opportunity to make an additional claw attack against the target that provoked the attack."
 		]
@@ -2635,7 +2635,7 @@
 			"",
 			":::mythic{title=\"Mythic Power Word Blind\"}",
 			"",
-			"{SOURCE Mythic Adventures/103}  ",
+			"‹SOURCE Mythic Adventures/103›  ",
 			"Treat the target's current hit point total as though it were lowered by 5 times your tier. For example, a 3rd-tier archmage casting mythic power word blind would affect a creature with 60 hp as though it had 45 hp, and the spell would permanently blind the target.",
 			"",
 			"You can target a creature with more hit points than this spell could normally affect, causing it to treat all opponents as though they had concealment (20% miss chance) for 1d4 rounds.",
@@ -2660,7 +2660,7 @@
 			"",
 			":::mythic{title=\"Mythic Power Word Kill\"}",
 			"",
-			"{SOURCE Mythic Adventures/103}  ",
+			"‹SOURCE Mythic Adventures/103›  ",
 			"Treat the target's current hit point total as though it were lowered by 5 times your tier. For example, a 3rd-tier archmage casting mythic power word kill would instantly kill a creature with 85 hit points or fewer.",
 			"",
 			"You can target a creature with more hit points than this spell could normally affect, causing it to become exhausted.",
@@ -2691,7 +2691,7 @@
 			"",
 			":::mythic{title=\"Mythic Power Word Stun\"}",
 			"",
-			"{SOURCE Mythic Adventures/104}  ",
+			"‹SOURCE Mythic Adventures/104›  ",
 			"Treat the target's current hit point total as though it were lowered by 5 times your tier. For example, a 3rd-tier archmage casting this spell would affect a creature with 60 hp as though it had 45 hp, and the spell would last an additional 2d4 rounds.",
 			"",
 			"You can target a creature with more hit points than this spell could normally affect, causing it to become dazed for 1 round.",
@@ -2711,7 +2711,7 @@
 			"",
 			"You curse the target to attract negative assumptions and rumors of a sort you specify when you cast the spell. If the target fails the initial save to negate the curse, every day that it spends in a settlement, it must attempt a Will save. If it fails, it accidentally says or does something that makes others assume the rumor you specified is true in some way that is unflattering or incriminating. If the creature is not aware of the nature of the rumors, it takes a -4 penalty on these secondary saves. After the first failed save, the attitude each resident in the settlement has regarding the target is worsened by one step. For each additional failure, the target becomes the victim of focused harassment. A group of residents taunts or attacks the creature, potentially sending the authorities to investigate if the rumor indicates criminal guilt.",
 			"",
-			"The spell can be cast at any distance. The difficulty of the save depends on your knowledge of the subject and what sort of physical connection you have to that creature. The target gains the same bonuses and penalties on its Will save to resist this spell as the bonuses and penalties that apply to the scrying spell (including a +5 bonus if the target is on another plane), except that you can't cast pox of rumors without at least a possession or garment to use as the material component, and the target takes no penalty when you use a possession or garment and only a -5 penalty when you use a piece of the target's body. Pox of rumors is a curse, and until its duration expires, it can be removed only by {spell/remove curse} or similar magic."
+			"The spell can be cast at any distance. The difficulty of the save depends on your knowledge of the subject and what sort of physical connection you have to that creature. The target gains the same bonuses and penalties on its Will save to resist this spell as the bonuses and penalties that apply to the scrying spell (including a +5 bonus if the target is on another plane), except that you can't cast pox of rumors without at least a possession or garment to use as the material component, and the target takes no penalty when you use a possession or garment and only a -5 penalty when you use a piece of the target's body. Pox of rumors is a curse, and until its duration expires, it can be removed only by ‹spell/remove curse› or similar magic."
 		]
 	},
 	"pox_pustules": {
@@ -2729,7 +2729,7 @@
 			"",
 			":::mythic{title=\"Mythic Pox Pustules\"}",
 			"",
-			"{SOURCE Mythic Adventures/104}  ",
+			"‹SOURCE Mythic Adventures/104›  ",
 			"The Dexterity penalty increases to -6. The target takes 1 point of bleed damage each round. If the target spends a move action scratching, increase its bleed damage each round by 1. If the bleeding is stopped, scratching causes it to start again at 1 point of bleed per round.",
 			"",
 			":::"
@@ -2750,7 +2750,7 @@
 			"",
 			":::mythic{title=\"Mythic Prayer\"}",
 			"",
-			"{SOURCE Mythic Adventures/104}  ",
+			"‹SOURCE Mythic Adventures/104›  ",
 			"The spell's luck bonus increases to +2, and the penalty for enemies changes to -2. When you cast the spell, your affected allies heal an amount of hit point damage equal to double your tier, and affected enemies take an amount of damage equal to double your tier.",
 			"",
 			":::"
@@ -2775,7 +2775,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/207\" transmutation alc=3 arc=3 brd=3 inv=3 mag=3 rma=3 skd=3 sor=3 wiz=3 ctSt cV cS rTouch target=\"creature touched\" durD durRL=1 fort srY harmless}",
 			"",
-			">*{race/Vanara/s} have access to the following spell.*",
+			">*‹race/Vanara«s› have access to the following spell.*",
 			"",
 			"The target's tail moves and acts more quickly, almost with a mind of its own. When making a full-attack action, the target may use its tail to make a dirty trick or steal combat maneuver as a swift action. For the purpose of this attack, the target's tail is a natural weapon with a reach of 5 feet. This spell has no effect on creatures lacking a prehensile tail. If the target already has an extra attack from haste or a similar effect, this spell only allows the tail to make dirty trick and steal combat maneuvers, but does not grant an extra attack."
 		]
@@ -2788,9 +2788,9 @@
 			"",
 			"::spell{source=\"Inner Sea Temples/43\" necromancy adp=1 arc=1 clr=1 hnt=1 med=1 occ=1 orc=1 rgr=1 sha=1 sor=1 spr=1 war=1 wit=1 wiz=1 ctSt cV cS cMDFp=\"a pinch of salt\" rTouch target=\"one or more objects, up to 1 lb./level\" dur=\"1 week\" will srY object}",
 			"",
-			"You imbue one or more objects with magic that dramatically slows down natural processes that lead to decay and spoilage. For the duration of the spell, food, water, plants, and other perishable objects affected by the spell remain as fresh as they were when the spell was cast. The spell also protects these objects against spells of the same level or lower that cause spoilage, such as {spell/putrefy food and drink}. When the duration of preserve expires, the objects resume aging at their normal rate. The spell also works on severed body parts and the bodies of small creatures as per {spell/gentle repose}, provided that the weight of the creature or part does not exceed the spell's limit.",
+			"You imbue one or more objects with magic that dramatically slows down natural processes that lead to decay and spoilage. For the duration of the spell, food, water, plants, and other perishable objects affected by the spell remain as fresh as they were when the spell was cast. The spell also protects these objects against spells of the same level or lower that cause spoilage, such as ‹spell/putrefy food and drink›. When the duration of preserve expires, the objects resume aging at their normal rate. The spell also works on severed body parts and the bodies of small creatures as per ‹spell/gentle repose›, provided that the weight of the creature or part does not exceed the spell's limit.",
 			"",
-			"Preserve can be made permanent with a {spell/permanency} spell by a caster of 9th level or higher for 500 gp."
+			"Preserve can be made permanent with a ‹spell/permanency› spell by a caster of 9th level or higher for 500 gp."
 		]
 	},
 	"preserve_grace": {
@@ -2801,7 +2801,7 @@
 			"",
 			"::spell{source=\"Adventurer's Guide/115\" divination good clr=2 inq=1 orc=2 pal=1 war=2 ctM=1 cV cS cFp=\"a silver hand mirror worth 50 gp\" rTouch target=\"one good-aligned creature\" dur=\"1 day\" will svHarmless srN}",
 			"",
-			"The {rule/Lantern Bearers} must often make difficult decisions during their missions, such as determining what to do with captured enemies-should they be executed, imprisoned, set free, or given a chance to mend their ways? With this spell, you grant a creature the ability to foresee moral consequences, as if the creature were wearing a phylactery of faithfulness. The spell's guidance focuses on the protection of beauty and encourages peaceful resolution and mercy."
+			"The ‹rule/Lantern Bearers› must often make difficult decisions during their missions, such as determining what to do with captured enemies-should they be executed, imprisoned, set free, or given a chance to mend their ways? With this spell, you grant a creature the ability to foresee moral consequences, as if the creature were wearing a phylactery of faithfulness. The spell's guidance focuses on the protection of beauty and encourages peaceful resolution and mercy."
 		]
 	},
 	"pressure_adaptation": {
@@ -2851,7 +2851,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/232\" mindAffecting abjuration sonic brd=4 mes=4 skd=4 ctSt cV rPers target=you durRL=1}",
 			"",
-			"You voice a mighty yell from the depths of your soul, invigorating yourself and dispelling enchantment and paralysis effects. This functions as {spell/break enchantment}, except it only affects you and only frees you from enchantment and paralysis effects. If the caster level check to break the hostile effect succeeds, you give voice to your scream and the spell takes effect normally; if not, this spell fails without further effect. You can cast this spell even when paralyzed or unable to speak because of an enchantment effect, but not in an area of silence, if you are unable to speak for reasons other than enchantments or paralysis (for example, if you are gagged), or if cast in an environment where speaking is not possible."
+			"You voice a mighty yell from the depths of your soul, invigorating yourself and dispelling enchantment and paralysis effects. This functions as ‹spell/break enchantment›, except it only affects you and only frees you from enchantment and paralysis effects. If the caster level check to break the hostile effect succeeds, you give voice to your scream and the spell takes effect normally; if not, this spell fails without further effect. You can cast this spell even when paralyzed or unable to speak because of an enchantment effect, but not in an area of silence, if you are unable to speak for reasons other than enchantments or paralysis (for example, if you are gagged), or if cast in an environment where speaking is not possible."
 		]
 	},
 	"prismatic_sphere": {
@@ -2875,11 +2875,11 @@
 			"",
 			"The colors of the sphere have the same effects as the colors of a prismatic wall.",
 			"",
-			"Prismatic sphere can be made permanent with a {spell/permanency} spell.",
+			"Prismatic sphere can be made permanent with a ‹spell/permanency› spell.",
 			"",
 			":::mythic{title=\"Mythic Prismatic Sphere\"}",
 			"",
-			"{SOURCE Mythic Adventures/104}  ",
+			"‹SOURCE Mythic Adventures/104›  ",
 			"When you cast the spell, you simultaneously create a prismatic spray that originates from one point on the sphere and radiates directly away from you. The save DC of this prismatic spray is the same as that of your mythic prismatic sphere.",
 			"",
 			":::"
@@ -2896,23 +2896,23 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/325\" evocation arc=7 sor=7 wiz=7 ctSt cV cS rFt=60 area=\"cone-shaped burst\" durI save=\"see text\" srY}",
 			"",
-			"This spell causes seven shimmering, multicolored beams of light to spray from your hand. Each beam has a different power. Creatures in the area of the spell with 8 HD or less are automatically {misc/blinded} for 2d4 rounds. Every creature in the area is randomly struck by one or more beams, which have additional effects.",
+			"This spell causes seven shimmering, multicolored beams of light to spray from your hand. Each beam has a different power. Creatures in the area of the spell with 8 HD or less are automatically ‹misc/blinded› for 2d4 rounds. Every creature in the area is randomly struck by one or more beams, which have additional effects.",
 			"",
 			"| 1d8 | Color of Beam | Effect |",
 			"| --- | --- | --- |",
 			"| 1 | Red | 20 points fire damage (Reflex half) |",
 			"| 2 | Orange | 40 points acid damage (Reflex half) |",
 			"| 3 | Yellow | 80 points electricity damage (Reflex half) |",
-			"| 4 | Green | {eq-poison/Green prismatic poison} |",
-			"| 5 | Blue | {spell/Flesh to stone} (Fortitude negates) |",
-			"| 6 | Indigo | Insane, as {spell/insanity} spell (Will negates) |",
+			"| 4 | Green | ‹eq-poison/Green prismatic poison› |",
+			"| 5 | Blue | ‹spell/Flesh to stone› (Fortitude negates) |",
+			"| 6 | Indigo | Insane, as ‹spell/insanity› spell (Will negates) |",
 			"| 7 | Violet | Sent to another plane (Will negates) |",
 			"| 8 | Struck by two rays | Roll twice more, ignoring any \"8\" results |",
 			"",
 			":::mythic{title=\"Mythic Prismatic Spray\"}",
 			"",
-			"{SOURCE Mythic Adventures/104}  ",
-			"The spell automatically blinds creatures with up to 12 Hit Dice instead of 8 Hit Dice. Attempt one {rule/bull rush} combat maneuver and apply its results to each creature in the area. Your CMB for this bull rush is equal to your caster level plus your Intelligence, Wisdom, or Charisma modifier, whichever is highest. This bull rush doesn't provoke an attack of opportunity.",
+			"‹SOURCE Mythic Adventures/104›  ",
+			"The spell automatically blinds creatures with up to 12 Hit Dice instead of 8 Hit Dice. Attempt one ‹rule/bull rush› combat maneuver and apply its results to each creature in the area. Your CMB for this bull rush is equal to your caster level plus your Intelligence, Wisdom, or Charisma modifier, whichever is highest. This bull rush doesn't provoke an attack of opportunity.",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, the area changes from a cone into a line. Creatures in the line are struck by two beams (or three, if the creature rolls an 8 on the table). The spell bypasses energy resistance and immunity.",
 			"",
@@ -2933,19 +2933,19 @@
 			"",
 			"Each color in the wall has a special effect. The accompanying table shows the seven colors of the wall, the order in which they appear, their effects on creatures trying to attack you or pass through the wall, and the magic needed to negate each color.",
 			"",
-			"The wall can be destroyed, color by color, in consecutive order, by casting the specified spells on the wall; however, the first color must be brought down before the second can be affected, and so on. A {magic-rod/rod of cancellation} or a {spell/mage's disjunction} spell destroys a prismatic wall, but an {spell/antimagic field} fails to penetrate it. {spell/Dispel magic} and {spell/greater dispel magic} can only be used on the wall once all the other colors have been destroyed. Spell resistance is effective against a prismatic wall, but the caster level check must be repeated for each color present.",
+			"The wall can be destroyed, color by color, in consecutive order, by casting the specified spells on the wall; however, the first color must be brought down before the second can be affected, and so on. A ‹magic-rod/rod of cancellation› or a ‹spell/mage's disjunction› spell destroys a prismatic wall, but an ‹spell/antimagic field› fails to penetrate it. ‹spell/Dispel magic› and ‹spell/greater dispel magic› can only be used on the wall once all the other colors have been destroyed. Spell resistance is effective against a prismatic wall, but the caster level check must be repeated for each color present.",
 			"",
-			"Prismatic wall can be made permanent with a {spell/permanency} spell.",
+			"Prismatic wall can be made permanent with a ‹spell/permanency› spell.",
 			"",
 			"| Order | Color | Effect of Color | Negated By |",
 			"| --- | --- | --- | --- |",
-			"| 1st | Red | Stops nonmagical ranged weapons. Deals 20 points of fire damage (Reflex half). | {spell/Cone of cold} |",
-			"| 2nd | Orange | Stops magical ranged weapons. Deals 40 points of acid damage (Reflex half). | {spell/Gust of wind} |",
-			"| 3rd | Yellow | Stops poisons, gases, and petrification. Deals 80 points of electricity damage (Reflex half). | {spell/Disintegrate} |",
-			"| 4th | Green | Stops breath weapons. *Poison: (*frequency:* 1/rd for 6 rd.; *init. effect:* death, *sec. effect:* 1 Con/rd.; *cure* 2 consecutive Fort saves).* | {spell/Passwall} |",
-			"| 5th | Blue | Stops divination and mental attacks. Turned to stone (Fortitude negates). | {spell/Magic missile} |",
-			"| 6th | Indigo | Stops all spells. Will save or become insane (as insanity spell). | {spell/Daylight} |",
-			"| 7th | Violet | Energy field destroys all objects and effects.[^V] Creatures sent to another plane (Will negates). | {spell/Dispel magic} or {spell/greater dispel magic} |",
+			"| 1st | Red | Stops nonmagical ranged weapons. Deals 20 points of fire damage (Reflex half). | ‹spell/Cone of cold› |",
+			"| 2nd | Orange | Stops magical ranged weapons. Deals 40 points of acid damage (Reflex half). | ‹spell/Gust of wind› |",
+			"| 3rd | Yellow | Stops poisons, gases, and petrification. Deals 80 points of electricity damage (Reflex half). | ‹spell/Disintegrate› |",
+			"| 4th | Green | Stops breath weapons. *Poison: (*frequency:* 1/rd for 6 rd.; *init. effect:* death, *sec. effect:* 1 Con/rd.; *cure* 2 consecutive Fort saves).* | ‹spell/Passwall› |",
+			"| 5th | Blue | Stops divination and mental attacks. Turned to stone (Fortitude negates). | ‹spell/Magic missile› |",
+			"| 6th | Indigo | Stops all spells. Will save or become insane (as insanity spell). | ‹spell/Daylight› |",
+			"| 7th | Violet | Energy field destroys all objects and effects.[^V] Creatures sent to another plane (Will negates). | ‹spell/Dispel magic› or ‹spell/greater dispel magic› |",
 			"",
 			"[^V]: The violet effect makes the special effects of the other six colors redundant, but these six effects are included here because certain magic items can create prismatic effects one color at a time, and spell resistance might render some colors ineffective (see above)."
 		]
@@ -2958,7 +2958,7 @@
 			"",
 			"::spell{source=\"Inner Sea Races/222\" divination arc=4 brd=3 clr=4 inq=4 orc=4 skd=3 sor=4 war=4 wiz=4 ctR=1 cV cS cDF rClose targets=\"one creature\" durI will srY}",
 			"",
-			">*The following spell is available to the indicated race or ethnicity: {race/Half-Elf}*",
+			">*The following spell is available to the indicated race or ethnicity: ‹race/Half-Elf›*",
 			"",
 			"You gain a glimpse of a potential reality similar to this one but that never was. If the target fails her Will save, you can ask about one topic and attempt the appropriate Knowledge check with a +5 competence bonus; track Knowledge checks attempted with this spell separately for the purpose of disallowing retries on Knowledge checks. You learn information on that topic from a reality in which you were an acquaintance of the target, although the differences in that reality might cause the answer to be subtly different than in your own. Once you have probed a target's history, successfully or not, you cannot target the same creature's history or search for the same information in another creature's history."
 		]

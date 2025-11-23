@@ -66,7 +66,7 @@
 			"",
 			"::spell{source=\"Pathfinder #56: Raiders of the Fever Sea/70\" transmutation arc=7 clr=7 orc=7 sor=7 wiz=7 ctM=1 cV cS cMDFp=\"a glass marble or piece of soap\" rTouch target=\"1 sailing vessel\" durML=10 will svHarmless srN}",
 			"",
-			"When this spell is cast upon a vessel, the ship is surrounded by a protective bubble of constantly replenishing, breathable air and sinks beneath the waves. For the duration of the spell, the ship can travel beneath the water as easily as it did above. While under the effects of this spell, the ship has magical propulsion that gives it a maximum speed of 120 feet and an acceleration of 30 feet (see {rule/ship-to-ship combat} for details). The ship's pilot uses the normal sailing skill to control the ship while under this spell's effects, and can command it to dive and ascend as part of the vessel's normal movement. Despite the magical propulsion, the ship still requires its crew to perform its normal functions.",
+			"When this spell is cast upon a vessel, the ship is surrounded by a protective bubble of constantly replenishing, breathable air and sinks beneath the waves. For the duration of the spell, the ship can travel beneath the water as easily as it did above. While under the effects of this spell, the ship has magical propulsion that gives it a maximum speed of 120 feet and an acceleration of 30 feet (see ‹rule/ship-to-ship combat› for details). The ship's pilot uses the normal sailing skill to control the ship while under this spell's effects, and can command it to dive and ascend as part of the vessel's normal movement. Despite the magical propulsion, the ship still requires its crew to perform its normal functions.",
 			"",
 			"The spell protects the ship and all aboard from the dangers of drowning and pressure, but not from damage from outside obstacles or creatures. The bubble cannot be used offensively and prevents an affected ship from rising into a space that won't accommodate it (like a sea cave too small to contain it or under another vessel). Creatures can enter or leave the bubble at will, but those outside the sphere cannot be forced inside against their will, the sphere proving substantial enough that such creatures may choose whether to enter or to slip away along its sides. At the end of the spell's duration the bubble pops, causing a ship still underwater at that time to gain the sinking condition. This spell has no effect if cast upon a ship in water that cannot cover the vessel entirely.",
 			"",
@@ -127,7 +127,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Suggestion\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}",
+			"‹SOURCE Mythic Adventures/109›",
 			"",
 			"Mythic suggestion loses the language-dependent descriptor, and can target one or more living creatures in a 10-foot-radius burst.",
 			"",
@@ -173,7 +173,7 @@
 			"",
 			"::spell{source=\"Rival Guide/59\" conjuration evil lawful summoning arc=4 brd=4 clr=4 orc=4 skd=4 sor=4 sum=4 usm=4 war=4 wit=4 wiz=4 ctR=1 cV cS cFDFp=\"chunk of rotten meat\" rClose effect=\"1 accuser devil\" durML=10 saveNo srN}",
 			"",
-			"This spell summons a single {monster/accuser devil} from Hell to do the spellcaster's bidding, similar to how summon monster spells function. Accuser devils, known to diabolists as zebubs, are hideous flying creatures with the torso of a plump human infant and the body and wings of an enormous fly. They make excellent spies, for they have the ability to grant visions of what they have witnessed to others - the Queen's Hands sometimes use summoned zebubs to observe suspects from afar."
+			"This spell summons a single ‹monster/accuser devil› from Hell to do the spellcaster's bidding, similar to how summon monster spells function. Accuser devils, known to diabolists as zebubs, are hideous flying creatures with the torso of a plump human infant and the body and wings of an enormous fly. They make excellent spies, for they have the ability to grant visions of what they have witnessed to others - the Queen's Hands sometimes use summoned zebubs to observe suspects from afar."
 		]
 	},
 	"summon_ancestral_guardian": {
@@ -262,7 +262,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/248\" conjuration summoning sum=2 usm=2 ctR=1 cV cS cMp=\"a silver coin\" rClose target=\"one eidolon\" durML=1 durD saveNo srN}",
 			"",
-			"You open a rift between dimensions that summons your eidolon. Treat this as if you had summoned your eidolon normally, except that it only remains with you for the duration of this spell. While summoned in this way, your eidolon cannot touch any creature warded by {spell/protection from evil} or a similar effect and your eidolon can be sent back to its home plane by {spell/dispel magic}.",
+			"You open a rift between dimensions that summons your eidolon. Treat this as if you had summoned your eidolon normally, except that it only remains with you for the duration of this spell. While summoned in this way, your eidolon cannot touch any creature warded by ‹spell/protection from evil› or a similar effect and your eidolon can be sent back to its home plane by ‹spell/dispel magic›.",
 			"",
 			"If you cast this spell while your eidolon is already on your plane, this spell has no effect. This spell allows you to summon your eidolon even if it has been returned to its home plane due to damage."
 		]
@@ -275,7 +275,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/240\" conjuration summoning drd=9 ctR=1 cV cS rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
 			"",
-			"This spell functions as {spell/summon nature's ally VIII}, except you summon a purple worm with the giant creature simple template."
+			"This spell functions as ‹spell/summon nature's ally VIII›, except you summon a purple worm with the giant creature simple template."
 		]
 	},
 	"summon_elemental_steed": {
@@ -284,7 +284,7 @@
 		"description": [
 			"## Summon Elemental Steed",
 			"",
-			"::spell{source=\"Faction Guide/61\" school=\"%%spelldef/conjuration%% (%%spelldef/summoning%%) &#91&see text&#93&\" drd=9 ctM=10 cV cS cDF rClose effect=\"one chariot\" durML=10 durD saveNo srN}",
+			"::spell{source=\"Faction Guide/61\" school=\"‹spelldef/conjuration› (‹spelldef/summoning›) &#91&see text&#93&\" drd=9 ctM=10 cV cS cDF rClose effect=\"one chariot\" durML=10 durD saveNo srN}",
 			"",
 			"You summon a greater elemental (air, earth, fire, or water) bound in the form of a mighty chariot that moves at your command and can carry up to nine Medium creatures. Passengers inside are not harmed by the elemental, and can see, breathe, and act normally, suffering no environmental damage even when the elemental chariot is flying, underwater, burrowing, or using earth glide. Passengers are not otherwise protected, though the elemental chariot does provide cover like a normal chariot.",
 			"",
@@ -328,7 +328,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/240\" conjuration summoning drd=9 ctR=1 cV cS rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
 			"",
-			"This spell functions as {spell/summon nature's ally IX}, except you summon a froghemoth."
+			"This spell functions as ‹spell/summon nature's ally IX›, except you summon a froghemoth."
 		]
 	},
 	"summon_genie_lesser": {
@@ -339,7 +339,7 @@
 			"",
 			"::spell{source=\"People of the Sands/11\" conjuration summoning arc=4 clr=4 orc=4 sor=4 sum=3 usm=3 war=4 wit=4 wiz=4 ctR=1 cV cS cFDFp=\"an oil lamp worth at least 50 gp\" rClose effect=\"one summoned genie\" durD durRL=1 saveNo srN}",
 			"",
-			"This spell functions like {spell/summon monster I}, except you can summon one janni.",
+			"This spell functions like ‹spell/summon monster I›, except you can summon one janni.",
 			"",
 			"::h3[Summon Genie]{jl}",
 			"",
@@ -370,21 +370,21 @@
 		"description": [
 			"## Summon Giant Ally I",
 			"",
-			"::spell{source=\"Inner Sea Races/223\" school=\"%%spelldef/conjuration%% (%%spelldef/summoning%%) &#91&see text&#93&\" drd=6 hnt=6 ctSt cV cS cFDFp=\"bit of cloth from a giant's bag\" rClose effect=\"one or more giants\" durD durRL=1 saveNo srN}",
+			"::spell{source=\"Inner Sea Races/223\" school=\"‹spelldef/conjuration› (‹spelldef/summoning›) &#91&see text&#93&\" drd=6 hnt=6 ctSt cV cS cFDFp=\"bit of cloth from a giant's bag\" rClose effect=\"one or more giants\" durD durRL=1 saveNo srN}",
 			"",
 			">*The following spells are available to the indicated race or ethnicity: Kellid*",
 			"",
-			"This spell functions as {spell/summon nature's ally VI}, except its casting time is shorter and you can summon one cave, hill, marsh, river, slag, stone, or wood giant.",
+			"This spell functions as ‹spell/summon nature's ally VI›, except its casting time is shorter and you can summon one cave, hill, marsh, river, slag, stone, or wood giant.",
 			"",
 			"::h3[Summon Giant Ally II]{jl}",
 			"",
-			"::spell{source=\"Inner Sea Races/223\" school=\"%%spelldef/conjuration%% (%%spelldef/summoning%%) &#91&see text&#93&\" drd=7 ctSt cV cS cFDFp=\"bit of cloth from a giant's bag\" rClose effect=\"one or more giants\" durD durRL=1 saveNo srN}",
+			"::spell{source=\"Inner Sea Races/223\" school=\"‹spelldef/conjuration› (‹spelldef/summoning›) &#91&see text&#93&\" drd=7 ctSt cV cS cFDFp=\"bit of cloth from a giant's bag\" rClose effect=\"one or more giants\" durD durRL=1 saveNo srN}",
 			"",
 			"This spell functions as summon giant ally I, except you can summon one desert, fire, frost, or jungle giant or 1d3 cave, hill, marsh, river, slag, stone, or wood giants.",
 			"",
 			"::h3[Summon Giant Ally III]{jl}",
 			"",
-			"::spell{source=\"Inner Sea Races/223\" school=\"%%spelldef/conjuration%% (%%spelldef/summoning%%) &#91&see text&#93&\" drd=8 ctSt cV cS cFDFp=\"bit of cloth from a giant's bag\" rClose effect=\"one or more giants\" durD durRL=1 saveNo srN}",
+			"::spell{source=\"Inner Sea Races/223\" school=\"‹spelldef/conjuration› (‹spelldef/summoning›) &#91&see text&#93&\" drd=8 ctSt cV cS cFDFp=\"bit of cloth from a giant's bag\" rClose effect=\"one or more giants\" durD durRL=1 saveNo srN}",
 			"",
 			"This spell functions as summon giant ally I, except you can summon one ash or cloud giant; 1d3 desert, fire, frost, or jungle giants; or 1d4+1 cave, hill, marsh, river, slag, stone, or wood giants."
 		]
@@ -419,7 +419,7 @@
 			"",
 			"::spell{source=\"Rival Guide/59\" conjuration evil lawful summoning arc=5 brd=5 clr=5 orc=5 skd=5 sor=5 sum=5 usm=5 war=5 wit=5 wiz=5 ctR=1 cV cS cFDFp=\"strip of rune-inscribed parchment\" rClose effect=\"1d4+1 lesser host devils or 1 greater host devil\" durRL=1 saveNo srN}",
 			"",
-			"This spell functions as {spell/summon monster V}, save that it can only be used to summon host devils, noxious flying devils, known also as [gaavs](monster/lesser_host_devil) and [magaavs](monster/greater_host_devil)."
+			"This spell functions as ‹spell/summon monster V›, save that it can only be used to summon host devils, noxious flying devils, known also as [gaavs](monster/lesser_host_devil) and [magaavs](monster/greater_host_devil)."
 		]
 	},
 	"summon_instrument": {
@@ -463,7 +463,7 @@
 			"",
 			"::spell{source=\"Pathfinder #80: Empty Graves/28\" conjuration summoning arc=5 clr=5 orc=5 sor=5 sum=4 usm=4 war=5 wit=5 wiz=5 ctR=1 cV cS cFDFp=\"a crocodile skull funerary mask\" rClose effect=\"one or more summoned psychopomps (see text)\" durD durRL=1 saveNo srN}",
 			"",
-			"This spell functions like summon monster, except that it summons 1d3 {monster/esobok/ psychopomps} or 1d4+1 {monster/nosoi/ psychopomps}."
+			"This spell functions like summon monster, except that it summons 1d3 ‹monster/esobok« psychopomps› or 1d4+1 ‹monster/nosoi« psychopomps›."
 		]
 	},
 	"summon_meladaemon": {
@@ -485,7 +485,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/241\" conjuration summoning drd=1 hnt=1 rgr=1 ctR=1 cV cS cDF rClose effect=\"1d3 summoned creatures\" durD durRL=1 saveNo srN}",
 			"",
-			"This spell functions as {spell/summon nature's ally I}, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The summoned animals must all be the same type of creature."
+			"This spell functions as ‹spell/summon nature's ally I›, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The summoned animals must all be the same type of creature."
 		]
 	},
 	"summon_minor_monster": {
@@ -496,7 +496,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/241\" conjuration summoning ant=1 arc=1 brd=1 clr=1 med=1 orc=1 psy=1 skd=1 sor=1 sum=1 usm=1 war=1 wit=1 wiz=1 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"1d3 summoned creatures\" durD durRL=1 saveNo srN}",
 			"",
-			"This spell functions as {spell/summon monster I}, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The summoned animals must all be the same type of creature. As with animals summoned with summon monster I, you may apply one alignment-appropriate template to these animals."
+			"This spell functions as ‹spell/summon monster I›, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The summoned animals must all be the same type of creature. As with animals summoned with summon monster I, you may apply one alignment-appropriate template to these animals."
 		]
 	},
 	"summon_monster": {
@@ -508,7 +508,7 @@
 		"description": [
 			"## Summon Monster I",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/350;Monster Summoner's Handbook/18\" school=\"%%spelldef/conjuration%% (%%spelldef/summoning%%) &#91&see text&#93&\" ant=1 arc=1 brd=1 clr=1 med=1 orc=1 psy=1 skd=1 sor=1 spr=1 sum=1 usm=1 war=1 wit=1 wiz=1 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
+			"::spell{source=\"PRPG Core Rulebook/350;Monster Summoner's Handbook/18\" school=\"‹spelldef/conjuration› (‹spelldef/summoning›) &#91&see text&#93&\" ant=1 arc=1 brd=1 clr=1 med=1 orc=1 psy=1 skd=1 sor=1 spr=1 sum=1 usm=1 war=1 wit=1 wiz=1 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
 			"",
 			"This spell summons an extraplanar creature (typically an outsider, elemental, or magical beast native to another plane). It appears where you designate and acts immediately, on your turn. It attacks your opponents to the best of its ability. If you can communicate with the creature, you can direct it not to attack, to attack particular enemies, or to perform other actions. The spell conjures one of the creatures from the 1st Level list on Table 10-1. You choose which kind of creature to summon, and you can choose a different one each time you cast the spell.",
 			"",
@@ -626,49 +626,49 @@
 			"",
 			"::h3[Summon Monster II]{jl}",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/352\" school=\"%%spelldef/conjuration%% (%%spelldef/summoning%%) &#91&see text&#93&\" ant=2 arc=2 brd=2 clr=2 med=2 orc=2 psy=2 skd=2 sor=2 spr=2 sum=2 usm=2 war=2 wit=2 wiz=2 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
+			"::spell{source=\"PRPG Core Rulebook/352\" school=\"‹spelldef/conjuration› (‹spelldef/summoning›) &#91&see text&#93&\" ant=2 arc=2 brd=2 clr=2 med=2 orc=2 psy=2 skd=2 sor=2 spr=2 sum=2 usm=2 war=2 wit=2 wiz=2 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
 			"",
 			"This spell functions like summon monster I, except that you can summon one creature from the 2nd-level list or 1d3 creatures of the same kind from the 1st-level list.",
 			"",
 			"::h3[Summon Monster III]{jl}",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/352\" school=\"%%spelldef/conjuration%% (%%spelldef/summoning%%) &#91&see text&#93&\" ant=3 arc=3 brd=3 clr=3 orc=3 psy=3 skd=3 sor=3 spr=3 war=3 wit=3 wiz=3 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
+			"::spell{source=\"PRPG Core Rulebook/352\" school=\"‹spelldef/conjuration› (‹spelldef/summoning›) &#91&see text&#93&\" ant=3 arc=3 brd=3 clr=3 orc=3 psy=3 skd=3 sor=3 spr=3 war=3 wit=3 wiz=3 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
 			"",
 			"This spell functions like summon monster I, except that you can summon one creature from the 3rd-level list, 1d3 creatures of the same kind from the 2nd-level list, or 1d4+1 creatures of the same kind from the 1st-level list.",
 			"",
 			"::h3[Summon Monster IV]{jl}",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/352\" school=\"%%spelldef/conjuration%% (%%spelldef/summoning%%) &#91&see text&#93&\" ant=4 arc=4 brd=4 clr=4 med=3 orc=4 psy=4 skd=4 sor=4 spr=4 sum=3 usm=3 war=4 wit=4 wiz=4 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
+			"::spell{source=\"PRPG Core Rulebook/352\" school=\"‹spelldef/conjuration› (‹spelldef/summoning›) &#91&see text&#93&\" ant=4 arc=4 brd=4 clr=4 med=3 orc=4 psy=4 skd=4 sor=4 spr=4 sum=3 usm=3 war=4 wit=4 wiz=4 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
 			"",
 			"This spell functions like summon monster I, except that you can summon one creature from the 4th-level list, 1d3 creatures of the same kind from the 3rd-level list, or 1d4+1 creatures of the same kind from a lower-level list.",
 			"",
 			"::h3[Summon Monster V]{jl}",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/352\" school=\"%%spelldef/conjuration%% (%%spelldef/summoning%%) &#91&see text&#93&\" arc=5 brd=5 clr=5 med=4 orc=5 psy=5 skd=5 sor=5 spr=5 sum=4 usm=4 war=5 wit=5 wiz=5 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
+			"::spell{source=\"PRPG Core Rulebook/352\" school=\"‹spelldef/conjuration› (‹spelldef/summoning›) &#91&see text&#93&\" arc=5 brd=5 clr=5 med=4 orc=5 psy=5 skd=5 sor=5 spr=5 sum=4 usm=4 war=5 wit=5 wiz=5 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
 			"",
 			"This spell functions like summon monster I, except that you can summon one creature from the 5th-level list, 1d3 creatures of the same kind from the 4th-level list, or 1d4+1 creatures of the same kind from a lower-level list.",
 			"",
 			"::h3[Summon Monster VI]{jl}",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/352\" school=\"%%spelldef/conjuration%% (%%spelldef/summoning%%) &#91&see text&#93&\" arc=6 brd=6 clr=6 orc=6 psy=6 skd=6 sor=6 spr=6 usm=5 war=6 wit=6 wiz=6 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
+			"::spell{source=\"PRPG Core Rulebook/352\" school=\"‹spelldef/conjuration› (‹spelldef/summoning›) &#91&see text&#93&\" arc=6 brd=6 clr=6 orc=6 psy=6 skd=6 sor=6 spr=6 usm=5 war=6 wit=6 wiz=6 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
 			"",
 			"This spell functions like summon monster I, except you can summon one creature from the 6th-level list, 1d3 creatures of the same kind from the 5th-level list, or 1d4+1 creatures of the same kind from a lower-level list.",
 			"",
 			"::h3[Summon Monster VII]{jl}",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/352\" school=\"%%spelldef/conjuration%% (%%spelldef/summoning%%) &#91&see text&#93&\" arc=7 clr=7 orc=7 psy=7 sor=7 sum=5 usm=6 wit=7 wiz=7 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
+			"::spell{source=\"PRPG Core Rulebook/352\" school=\"‹spelldef/conjuration› (‹spelldef/summoning›) &#91&see text&#93&\" arc=7 clr=7 orc=7 psy=7 sor=7 sum=5 usm=6 wit=7 wiz=7 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
 			"",
 			"This spell functions like summon monster I, except that you can summon one creature from the 7th-level list, 1d3 creatures of the same kind from the 6th-level list, or 1d4+1 creatures of the same kind from a lower-level list.",
 			"",
 			"::h3[Summon Monster VIII]{jl}",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/352\" school=\"%%spelldef/conjuration%% (%%spelldef/summoning%%) &#91&see text&#93&\" arc=8 clr=8 orc=8 psy=8 sor=8 sum=6 wit=8 wiz=8 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
+			"::spell{source=\"PRPG Core Rulebook/352\" school=\"‹spelldef/conjuration› (‹spelldef/summoning›) &#91&see text&#93&\" arc=8 clr=8 orc=8 psy=8 sor=8 sum=6 wit=8 wiz=8 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
 			"",
 			"This spell functions like summon monster I, except that you can summon one creature from the 8th-level list, 1d3 creatures of the same kind from the 7th-level list, or 1d4+1 creatures of the same kind from a lower-level list.",
 			"",
 			"::h3[Summon Monster IX]{jl}",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/352\" school=\"%%spelldef/conjuration%% (%%spelldef/summoning%%) &#91&see text&#93&\" arc=9 clr=9 orc=9 psy=9 sor=9 wit=9 wiz=9 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
+			"::spell{source=\"PRPG Core Rulebook/352\" school=\"‹spelldef/conjuration› (‹spelldef/summoning›) &#91&see text&#93&\" arc=9 clr=9 orc=9 psy=9 sor=9 wit=9 wiz=9 ctR=1 cV cS cFDFp=\"a tiny bag and a small candle\" rClose effect=\"one summoned creature\" durD durRL=1 saveNo srN}",
 			"",
 			"This spell functions like summon monster I, except that you can summon one creature from the 9th-level list, 1d3 creatures of the same kind from the 8th-level list, or 1d4+1 creatures of the same kind from a lower-level list.",
 			"",
@@ -988,13 +988,13 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/354\" conjuration summoning arc=2 brd=2 drd=2 hnt=2 sha=2 skd=2 sor=2 sum=2 usm=2 wit=2 wiz=2 ctR=1 cV cS cMDFp=\"a square of red cloth\" rClose effect=\"one swarm of bats, rats, or spiders\" durCon=\"+ 2 rounds\" saveNo srN}",
 			"",
-			"You summon a swarm of {monster/bat/s>_swarm}, {monster/rat/s>_swarm}, or {monster/spider/s>_swarm} (your choice), which attacks all other creatures within its area. (You may summon the swarm so that it shares the area of other creatures.) If no living creatures are within its area, the swarm attacks or pursues the nearest creature as best it can. The caster has no control over its target or direction of travel.",
+			"You summon a swarm of ‹monster/bat«s<_swarm›, ‹monster/rat«s<_swarm›, or ‹monster/spider«s<_swarm› (your choice), which attacks all other creatures within its area. (You may summon the swarm so that it shares the area of other creatures.) If no living creatures are within its area, the swarm attacks or pursues the nearest creature as best it can. The caster has no control over its target or direction of travel.",
 			"",
 			":::mythic{jl title=\"Mythic Summon Swarm\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}",
+			"‹SOURCE Mythic Adventures/109›",
 			"",
-			"The swarm has the advanced simple template. A swarm of rats or spiders leaves behind a trail of filth or ichor when it moves, which has the effects of a {spell/grease} spell for 1 round after the swarm passes through an area. Any creature that moves through the affected area is also subject to the swarm's disease or poison, as if attacked by the swarm. A prone creature in the affected area takes a -4 penalty on its saving throw against this affliction. A bat swarm leaves behind a similar trail that lasts for 2 rounds but doesn't have a disease or poison effect.",
+			"The swarm has the advanced simple template. A swarm of rats or spiders leaves behind a trail of filth or ichor when it moves, which has the effects of a ‹spell/grease› spell for 1 round after the swarm passes through an area. Any creature that moves through the affected area is also subject to the swarm's disease or poison, as if attacked by the swarm. A prone creature in the affected area takes a -4 penalty on its saving throw against this affliction. A bat swarm leaves behind a similar trail that lasts for 2 rounds but doesn't have a disease or poison effect.",
 			"",
 			":::",
 			"",
@@ -1002,7 +1002,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/233\" conjuration summoning arc=3 brd=3 drd=3 hnt=3 psy=3 sha=4 skd=3 sor=3 sum=3 usm=3 wit=3 wiz=3 ctR=1 cV cS cMDFp=\"a square of red cloth\" rClose effect=\"one swarm of poisonous frogs\" durCon=\"+ 2 rounds\" saveNo srN}",
 			"",
-			"This spell functions as summon swarm, except you summon a swarm of poisonous frogs. This swarm has the statistics of a {monster/centipede swarm}, except it has the animal type and its poison deals Constitution damage instead of Dexterity damage."
+			"This spell functions as summon swarm, except you summon a swarm of poisonous frogs. This swarm has the statistics of a ‹monster/centipede swarm›, except it has the animal type and its poison deals Constitution damage instead of Dexterity damage."
 		]
 	},
 	"rain_of_frogs": {
@@ -1028,7 +1028,7 @@
 			"",
 			"::spell{source=\"Humans of Golarion/29\" conjuration summoning arc=3 clr=3 drd=3 hnt=3 orc=3 rgr=3 sor=3 sum=3 usm=3 war=3 wiz=3 ctM=10 cV cS cMDFp=\"a piece of bone from any one of your totem animals\" rClose effect=\"one summoned creature\" durH=1 durD saveNo srN}",
 			"",
-			"The Shoanti revere more than the deities of distant planes, but also the animals and natural forces of the rugged lands they call home. Shoanti spellcasters have learned ways to call upon the might of their quahs' totem creatures in times of need. A character must have been raised by the Shoanti and be considered part of a quah to be able to cast this spell. Characters with access to this spell can only summon creatures revered by the quah they are a part of, as noted on the following lists. Except as noted above, this spell functions as {spell/summon nature's ally III}.",
+			"The Shoanti revere more than the deities of distant planes, but also the animals and natural forces of the rugged lands they call home. Shoanti spellcasters have learned ways to call upon the might of their quahs' totem creatures in times of need. A character must have been raised by the Shoanti and be considered part of a quah to be able to cast this spell. Characters with access to this spell can only summon creatures revered by the quah they are a part of, as noted on the following lists. Except as noted above, this spell functions as ‹spell/summon nature's ally III›.",
 			"",
 			"*Lyrune-Quah (Moon Clan):* air elemental (small), 1d3 bats, wolf, 1d3 owls.",
 			"",
@@ -1053,7 +1053,7 @@
 			"",
 			"::spell{source=\"Pathfinder #80: Empty Graves/28\" conjuration summoning arc=6 clr=6 orc=6 sor=6 sum=5 usm=5 war=6 wit=6 wiz=6 ctR=1 cV cS cFDFp=\"a vulture skull funerary mask\" rClose effect=\"one summoned vanth psychopomp\" durD durRL=1 saveNo srN}",
 			"",
-			"This spell functions like summon monster, except that it summons a single {monster/vanth/ psychopomp}."
+			"This spell functions like summon monster, except that it summons a single ‹monster/vanth« psychopomp›."
 		]
 	},
 	"summoner_conduit": {
@@ -1083,7 +1083,7 @@
 			"",
 			":::mythic{title=\"Mythic Sun Metal\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}  ",
+			"‹SOURCE Mythic Adventures/109›  ",
 			"The additional damage dealt by the weapon increases to 1d6 points of fire damage. Any creature struck by the weapon is dazzled for 1 round (no saving throw). On a critical hit, the target is blinded for 1 round (Fortitude negates, DC equal to the DC of the spell).",
 			"",
 			":::"
@@ -1110,7 +1110,7 @@
 			"",
 			":::mythic{title=\"Mythic Sunbeam\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}  ",
+			"‹SOURCE Mythic Adventures/109›  ",
 			"You call forth one beam per 2 caster levels instead of per 3. The damage dealt increases to 4d8 points of damage. The damage dealt to undead creatures, fungi, mold, oozes, and slimes increases to 1d8 points of damage per caster level (maximum 20d8). Any creature that successfully saves against a beam is dazzled for 1 minute.",
 			"",
 			"*Augmented (9th):* If you expend three uses of mythic power, the first beam you create has a duration of 1 round per 2 caster levels, and deals maximum damage on the round you cast it. Creatures in the beam can attempt saving throws to avoid blindness, but not the spell's damage.",
@@ -1178,7 +1178,7 @@
 			"",
 			"::spell{source=\"Adventurer's Guide/17\" curse transmutation arc=2 bld=2 clr=2 inq=2 orc=2 sha=2 sor=2 war=2 wit=2 wiz=2 ctSt cV cS cMDFp=\"a piece of glass\" rTouch target=\"creature touched\" durP will srY}",
 			"",
-			"You alter a creature so the touch of the sun is hostile to it. The cursed creature gains light blindness and is blinded for 1 round if exposed to bright light, such as sunlight or the {spell/daylight} spell. The cursed creature is dazzled as long as it remains in areas of bright light, and it is treated as being particularly susceptible to sunlight for the purposes of resolving spells like {spell/searing light}, {spell/sunbeam}, and {spell/sunburst}.",
+			"You alter a creature so the touch of the sun is hostile to it. The cursed creature gains light blindness and is blinded for 1 round if exposed to bright light, such as sunlight or the ‹spell/daylight› spell. The cursed creature is dazzled as long as it remains in areas of bright light, and it is treated as being particularly susceptible to sunlight for the purposes of resolving spells like ‹spell/searing light›, ‹spell/sunbeam›, and ‹spell/sunburst›.",
 			"",
 			"### Mass Sun's Disdain",
 			"",
@@ -1209,7 +1209,7 @@
 			"",
 			":::mythic{title=\"Mythic Whirlwind\"}",
 			"",
-			"{SOURCE Mythic Adventures/112}  ",
+			"‹SOURCE Mythic Adventures/112›  ",
 			"The cyclone becomes 15 feet wide at the base, 40 feet wide at the top, and 40 feet tall. The cyclone's effect on Large or smaller creatures also applies to Huge creatures, and its damage increases to 3d8 points of damage. The effect on Medium or smaller creatures also applies to Large creatures, and the damage it deals each turn increases to 2d6 points of damage.",
 			"",
 			"*Augmented (8th):* If you expend three uses of mythic power, the cyclone's size increases to 50 feet wide at the base, 150 feet wide at the top, and 150 feet tall. Creatures and objects of all sizes touched by the whirlwind take 8d8 points of damage (Reflex negates), and the damage dealt to those trapped in the cyclone increases to 6d6 points of damage per round. Additionally, unattended objects smaller than 30 feet to a side are swept up in the effect. The area within 20 feet of the whirlwind is treated as severe wind, and within 40 feet it is treated as strong wind.",
@@ -1225,7 +1225,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/29\" divination clr=2 drd=1 hnt=1 med=1 orc=2 psy=1 rgr=1 war=2 wit=1 ctFRA cV cS cMDFp=\"an owl's beak\" rPers target=you durML=10 durD}",
 			"",
-			">*Most know of elven magic for its power, but those who delve deeper discover its elegance and ties to the natural world. The following spell is just one that the {race/elves} are known for.*",
+			">*Most know of elven magic for its power, but those who delve deeper discover its elegance and ties to the natural world. The following spell is just one that the ‹race/elves› are known for.*",
 			"",
 			"Upon casting this spell, you are able to gain knowledge from the land itself. As you walk through the terrain, it whisper information in a language you understand, though the whispering is so rambling it is hard to distinguish useful information. This whispering grants you a +4 insight bonus on a single Knowledge skill type appropriate to the type of terrain you are in. If you are within a cold, desert, forest, jungle, mountain, plains, swamp, or water environment, you gain the bonus on Knowledge (nature) checks. If you are within an underground environment, you gain the bonus on Knowledge (dungeoneering) checks. If you are within an urban environment, you gain the bonus on Knowledge (local) checks. If you are on a plane other than the Material Plane, you gain the bonus on Knowledge (planes) checks. If you enter a new terrain, you lose the previous terrain's skill bonus and gain the new bonus."
 		]
@@ -1242,7 +1242,7 @@
 			"",
 			"You can prepare the spell to bear a message of no more than 25 words, cause the spell to deliver other sounds for 1 round, or merely have the whispering wind seem to be a faint stirring of the air. You can likewise cause the whispering wind to move as slowly as 1 mile per hour or as quickly as 1 mile per 10 minutes.",
 			"",
-			"When the spell reaches its objective, it swirls and remains in place until the message is delivered. As with {spell/magic mouth}, whispering wind cannot speak verbal components, use command words, or activate magical effects."
+			"When the spell reaches its objective, it swirls and remains in place until the message is delivered. As with ‹spell/magic mouth›, whispering wind cannot speak verbal components, use command words, or activate magical effects."
 		]
 	},
 	"wicker_horse": {
@@ -1257,7 +1257,7 @@
 			"",
 			"A wicker horse has the statistics of a light horse or a pony, except it gains construct traits and counts as both an animal and a construct for the purposes of spells and effects. It gains a number of extra hit points equal to your caster level. It has no skills or feats except as noted below.",
 			"",
-			"A horse made of reeds gains a number of Swim ranks equal to your caster level. A horse made of grasses gains the {feat/Run} feat and a number of Acrobatics ranks equal to your caster level. A horse made of creepers gains a number of ranks in Climb and Stealth equal to your caster level. A horse made of tree branches is continually affected by barkskin, as cast by a magic-user with a caster level equal to yours.",
+			"A horse made of reeds gains a number of Swim ranks equal to your caster level. A horse made of grasses gains the ‹feat/Run› feat and a number of Acrobatics ranks equal to your caster level. A horse made of creepers gains a number of ranks in Climb and Stealth equal to your caster level. A horse made of tree branches is continually affected by barkskin, as cast by a magic-user with a caster level equal to yours.",
 			"",
 			"The wicker horse does not follow any commands given with the Handle Animal skill, and only you can ride it. You can cast this spell only in an environment where suitable plant material is available. When the spell ends or the horse loses all its hit points, the horse falls apart."
 		]
@@ -1307,7 +1307,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/160\" air transmutation arc=5 drd=5 hnt=5 mag=5 sor=5 wit=5 wiz=5 ctSt cV cS rTouch target=\"creature touched\" durRL=1 will srY}",
 			"",
-			">*{race/Sylph/s} have access to the following spell.*",
+			">*‹race/Sylph«s› have access to the following spell.*",
 			"",
 			"You harden the air around the target into jagged invisible blades that deal damage based on how fast the target moves. On its turn, the target takes 1d6 points of slashing damage if it moves at least 5 feet, plus 1d6 points of slashing damage for each additional 10 feet of movement. Movement that doesn't pass through air (such as burrowing, swimming, or teleportation) doesn't cause this damage.",
 			"",
@@ -1322,7 +1322,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/369\" air transmutation alc=6 clr=6 drd=7 inv=6 orc=6 sha=7 war=6 ctSt cV cS cDF rTouch targets=\"you and one touched creature per three levels\" dur=\"1 hour/level (d); see text\" save=\"no and Will negates (harmless)\" sr=\"no and yes (harmless)\"}",
 			"",
-			"You alter the substance of your body to a cloud-like vapor (as the {spell/gaseous form} spell) and move through the air, possibly at great speed. You can take other creatures with you, each of which acts independently.",
+			"You alter the substance of your body to a cloud-like vapor (as the ‹spell/gaseous form› spell) and move through the air, possibly at great speed. You can take other creatures with you, each of which acts independently.",
 			"",
 			"Normally, a wind walker flies at a speed of 10 feet with perfect maneuverability. If desired by the subject, a magical wind wafts a wind walker along at up to 600 feet per round (60 mph) with poor maneuverability. Wind walkers are not invisible but rather appear misty and translucent. If fully clothed in white, they are 80% likely to be mistaken for clouds, fog, vapors, or the like.",
 			"",
@@ -1365,7 +1365,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/160\" air transmutation arc=1 bld=1 brd=1 drd=1 hnt=1 mag=1 rma=1 skd=1 sor=1 wiz=1 ctIm cV cS rPers target=you durI}",
 			"",
-			">*{race/Sylph/s} have access to the following spell.*",
+			">*‹race/Sylph«s› have access to the following spell.*",
 			"",
 			"You respond to an attack by briefly becoming vaporous and insubstantial, allowing the attack to pass harmlessly through you. You gain DR 10/magic against this attack and are immune to any poison, sneak attacks, or critical hit effect from that attack.",
 			"",
@@ -1380,9 +1380,9 @@
 			"",
 			"::spell{source=\"Ultimate Wilderness/14\" conjuration creation drd=2 hnt=2 sha=2 ctSt cV cS cDF rFt=0 effect=\"2d4 berries + 2 berries/level\" durDL=1 saveNo srN}",
 			"",
-			">*{race/Gathlain/s} have access to the following spell.*",
+			">*‹race/Gathlain«s› have access to the following spell.*",
 			"",
-			"Your wings sprout a variety of colorful and flavorful berries. Each berry functions as if affected by {spell/goodberry}. You can choose for one affected berry to also be poisonous (as striped toadstool); only you and druids of 5th level or higher can tell which is which without magic."
+			"Your wings sprout a variety of colorful and flavorful berries. Each berry functions as if affected by ‹spell/goodberry›. You can choose for one affected berry to also be poisonous (as striped toadstool); only you and druids of 5th level or higher can tell which is which without magic."
 		]
 	},
 	"wing_thorns": {
@@ -1393,7 +1393,7 @@
 			"",
 			"::spell{source=\"Ultimate Wilderness/14\" poison transmutation alc=3 ant=3 bld=3 drd=3 hnt=3 inv=3 mag=4 sha=3 wit=3 ctSt cV cS rPers target=you durRL=1}",
 			"",
-			">*{race/Gathlain/s} have access to the following spell.*",
+			">*‹race/Gathlain«s› have access to the following spell.*",
 			"",
 			"Your wings sprout poisonous thorns each the size of a dagger. You can use these thorns like armor spikes. In addition, you can make two wing attacks as primary natural weapons. If you are Small, the wings deal 1d3 points of bludgeoning and piercing damage plus your Strength modifier (unless you also attack with a weapon, in which case they are treated as a secondary natural weapon). A creature damaged by your wing thorns experiences intense itching, gaining the sickened condition while the spell lasts unless it succeeds at a Fortitude saving throw."
 		]
@@ -1417,7 +1417,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/167\" abjuration arc=1 bld=1 clr=1 drd=1 hnt=1 inq=1 orc=1 rgr=1 sor=1 war=1 wiz=1 ctSt cV cS rTouch target=\"feathered creature touched\" durH=24 will srY harmless}",
 			"",
-			">*{race/Tengu/s} have access to the following spell.*",
+			">*‹race/Tengu«s› have access to the following spell.*",
 			"",
 			"The target's feathers thicken and fluff up to ward against winter's chill. The target suffers no harm from being in a cold environment, and can exist comfortably in conditions as low as -50 degrees Fahrenheit without having to make Fortitude saves. The creature's equipment is likewise protected. This spell doesn't provide any protection from cold damage, nor does it protect against other environmental hazards associated with cold weather (such as slipping on ice, blindness from snow, and so on).",
 			"",
@@ -1458,7 +1458,7 @@
 			"- Undo the harmful effects of many other spells, such as geas/quest or insanity.",
 			"- Grant a creature a +1 inherent bonus to an ability score. Two to five wish spells cast in immediate succession can grant a creature a +2 to +5 inherent bonus to an ability score (two wishes for a +2 inherent bonus, three wishes for a +3 inherent bonus, and so on). Inherent bonuses are instantaneous, so they cannot be dispelled. **Note:** An inherent bonus may not exceed +5 for a single ability score, and inherent bonuses to a particular ability score do not stack, so only the best one applies.",
 			"- Remove injuries and afflictions. A single wish can aid one creature per caster level, and all subjects are cured of the same kind of affliction. For example, you could heal all the damage you and your companions have taken, or remove all poison effects from everyone in the party, but not do both with the same wish.",
-			"- Revive the dead. A wish can bring a dead creature back to life by duplicating a {spell/resurrection} spell. A wish can revive a dead creature whose body has been destroyed, but the task takes two wishes: one to recreate the body and another to infuse the body with life again. A wish cannot prevent a character who was brought back to life from gaining a permanent negative level.",
+			"- Revive the dead. A wish can bring a dead creature back to life by duplicating a ‹spell/resurrection› spell. A wish can revive a dead creature whose body has been destroyed, but the task takes two wishes: one to recreate the body and another to infuse the body with life again. A wish cannot prevent a character who was brought back to life from gaining a permanent negative level.",
 			"- Transport travelers. A wish can lift one creature per caster level from anywhere on any plane and place those creatures anywhere else on any plane regardless of local conditions. An unwilling target gets a Will save to negate the effect, and spell resistance (if any) applies.",
 			"- Undo misfortune. A wish can undo a single recent event. The wish forces a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a wish could undo an opponent's successful save, a foe's successful critical hit (either the attack roll or the critical roll), a friend's failed save, and so on. The reroll, however, may be as bad as or worse than the original roll. An unwilling target gets a Will save to negate the effect, and spell resistance (if any) applies.",
 			"",
@@ -1470,7 +1470,7 @@
 			"",
 			":::mythic{title=\"Mythic Wish\"}",
 			"",
-			"{SOURCE Mythic Adventures/112}  ",
+			"‹SOURCE Mythic Adventures/112›  ",
 			"When using mythic wish to duplicate another spell, you can duplicate a mythic spell you know (if you're a spontaneous caster) or have prepared (if you're a caster who prepares spells). If you don't know or haven't prepared the mythic spell, you can expend a second use of mythic power to duplicate the mythic version of the desired spell.",
 			"",
 			"You can also produce any one of the following effects that modify or replace effects listed in the non-mythic wish spell description:",
@@ -1503,7 +1503,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/191\" necromancy psy=6 sha=6 spr=5 wit=7 ctSt cV cS rTouch target=\"one afflicted creature\" durI saveNo srY}",
 			"",
-			"You push your hand into the subject, then withdraw an affliction from the body of the sufferer as a tangible object. This extraction appears as a slimy mass of flesh. The target creature is cured as if affected by {spell/remove disease}, {spell/remove curse}, or {spell/neutralize poison}.",
+			"You push your hand into the subject, then withdraw an affliction from the body of the sufferer as a tangible object. This extraction appears as a slimy mass of flesh. The target creature is cured as if affected by ‹spell/remove disease›, ‹spell/remove curse›, or ‹spell/neutralize poison›.",
 			"",
 			"In addition, this slimy mass allows you to deliver the affliction to another as a touch attack, as if holding the charge for a touch spell. It has the same effect as the original affliction, with the same saving throw and DC."
 		]
@@ -1516,7 +1516,7 @@
 			"",
 			"::spell{source=\"Horror Adventures/131\" necromancy arc=6 clr=6 inq=6 orc=6 sha=6 sor=6 spr=6 war=6 wit=6 wiz=6 ctSt cV cS rTouch target=\"living creature touched\" durI fort srY}",
 			"",
-			"You cause one limb of the target to shrivel and weaken. The target takes 2d6 points of damage. The points are permanently lost until the target's limb is restored by {spell/heal}, {spell/limited wish}, {spell/miracle}, {spell/regenerate}, or {spell/wish}. Wither limb affects only living creatures of the humanoid or monstrous humanoid type, or similar bipedal creatures at the GM's discretion. You choose the limb affected. This spell's effects stack, until all a target's arms and legs (or equivalent limbs) are withered.",
+			"You cause one limb of the target to shrivel and weaken. The target takes 2d6 points of damage. The points are permanently lost until the target's limb is restored by ‹spell/heal›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/regenerate›, or ‹spell/wish›. Wither limb affects only living creatures of the humanoid or monstrous humanoid type, or similar bipedal creatures at the GM's discretion. You choose the limb affected. This spell's effects stack, until all a target's arms and legs (or equivalent limbs) are withered.",
 			"",
 			"*Arm:* The target looses the use of one arm, which might affect what weapons and shields it can use. The creature must immediately drop all objects held in the withered limb, though it can shift a two-handed weapon it is holding in both hands to a remaining arm as an immediate action. Worn objects' gauntlets, rings, and magic items in the wrist slot-remain. This prevents the creature from using two-weapon fighting, claw attacks from that arm, and so on. If multiple castings of this spell wither all of a creature's arms, it can't manipulate objects or cast spells requiring somatic components.",
 			"",
@@ -1579,7 +1579,7 @@
 			"",
 			"::spell{source=\"Ultimate Wilderness/14\" transmutation bld=4 drd=4 hnt=4 mag=5 sha=4 sum=4 ctIm cS rPers target=you dur=\"1 round/level or until you move\"}",
 			"",
-			">*{race/Gathlain/s} have access to the following spell.*",
+			">*‹race/Gathlain«s› have access to the following spell.*",
 			"",
 			"Your wings transmute into a wooden barrier resembling a tower shield to block attacks, granting you a +4 shield bonus to AC. If you move, the spell ends immediately."
 		]
@@ -1592,7 +1592,7 @@
 			"",
 			"::spell{source=\"Wilderness Origins/13\" abjuration drd=3 hnt=3 rgr=3 sha=3 wit=3 ctM=10 cV cS rFt=0 effect=\"one rune\" dur=\"permanent until discharged\" durD fort srY}",
 			"",
-			"Created by Ghorus as a safety measure to limit his enemies' movements, this spell allows you to inscribe a powerful rune on any surface. Woodland rune triggers when any non-plant creature (apart from the caster) moves within 30 feet of the rune. When it's triggered, roots and branches sprout from the ground, catching all creatures within a 30-foot burst of the rune and hindering their movement as if they were moving through heavy undergrowth, though it does not provide concealment. Plant creatures and creatures under the effect of woodland stride or {spell/freedom of movement} are not affected by this spell. In all other respects, this spell functions as {spell/symbol of death}."
+			"Created by Ghorus as a safety measure to limit his enemies' movements, this spell allows you to inscribe a powerful rune on any surface. Woodland rune triggers when any non-plant creature (apart from the caster) moves within 30 feet of the rune. When it's triggered, roots and branches sprout from the ground, catching all creatures within a 30-foot burst of the rune and hindering their movement as if they were moving through heavy undergrowth, though it does not provide concealment. Plant creatures and creatures under the effect of woodland stride or ‹spell/freedom of movement› are not affected by this spell. In all other respects, this spell functions as ‹spell/symbol of death›."
 		]
 	},
 	"word_of_chaos": {
@@ -1631,7 +1631,7 @@
 			"",
 			":::mythic{title=\"Mythic Word of Chaos\"}",
 			"",
-			"{SOURCE Mythic Adventures/112}  ",
+			"‹SOURCE Mythic Adventures/112›  ",
 			"When determining the spell's effect on non-mythic creatures, add your tier to your caster level. Non-chaotic creatures that fail their saves against the spell also take a -4 penalty on attack rolls and saving throws, and their spell resistance decreases by 5 for as long as the spell's other effects last.",
 			"",
 			":::"
@@ -1697,7 +1697,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/257\" enchantment compulsion mindAffecting emotion inq=1 ctSt cV cS cMp=\"a thorny vine\" rPers target=you durM=1}",
 			"",
-			"You focus your anger against an enemy. Choose one enemy creature that you can see. You gain a +1 morale bonus on attack rolls and weapon damage rolls against that designated creature for every three caster levels you have (at least +1, maximum +3). You also receive this bonus on caster level checks made to overcome the creature's spell resistance, if any. At 12th level, you gain the benefits of the {feat/Improved Critical} feat on attack rolls made against the designated creature. This effect doesn't stack with any other effect that expands the threat range of a weapon.",
+			"You focus your anger against an enemy. Choose one enemy creature that you can see. You gain a +1 morale bonus on attack rolls and weapon damage rolls against that designated creature for every three caster levels you have (at least +1, maximum +3). You also receive this bonus on caster level checks made to overcome the creature's spell resistance, if any. At 12th level, you gain the benefits of the ‹feat/Improved Critical› feat on attack rolls made against the designated creature. This effect doesn't stack with any other effect that expands the threat range of a weapon.",
 			"",
 			"### Shared Wrath",
 			"",
@@ -1727,9 +1727,9 @@
 		"description": [
 			"## Wrathful Weapon",
 			"",
-			"::spell{source=\"Advanced Class Origins/31\" school=\"%%spelldef/transmutation%% &#91&see text&#93&\" clr=4 orc=4 war=4 ctSt cV cS cDF rTouch target=\"melee weapon touched (see text)\" durML=1 save=\"Will (harmless, object)\" srY srObject}",
+			"::spell{source=\"Advanced Class Origins/31\" school=\"‹spelldef/transmutation› &#91&see text&#93&\" clr=4 orc=4 war=4 ctSt cV cS cDF rTouch target=\"melee weapon touched (see text)\" durML=1 save=\"Will (harmless, object)\" srY srObject}",
 			"",
-			"You grant the targeted weapon one of the following weapon special abilities: {magic-enh/anarchic}, {magic-enh/axiomatic}, {magic-enh/holy}, or {magic-enh/unholy}. If anarchic, this spell has the chaos descriptor; if axiomatic, the law descriptor; if holy, the good descriptor; and if unholy, the evil descriptor. If the caster attempts to place a special ability on a weapon that already has that special ability, the spell fails.",
+			"You grant the targeted weapon one of the following weapon special abilities: ‹magic-enh/anarchic›, ‹magic-enh/axiomatic›, ‹magic-enh/holy›, or ‹magic-enh/unholy›. If anarchic, this spell has the chaos descriptor; if axiomatic, the law descriptor; if holy, the good descriptor; and if unholy, the evil descriptor. If the caster attempts to place a special ability on a weapon that already has that special ability, the spell fails.",
 			"",
 			"If a warpriest casts this spell on his sacred weapon, the duration doubles. Warpriests with unarmed strike as a sacred weapon can cast this spell on their unarmed strike."
 		]
@@ -1744,9 +1744,9 @@
 			"",
 			"The daggers serving as focus of this spell take on a deadly sharpness as they animate and spin around you, creating a 5-foot-radius emanation of spinning mithral blades that moves with you. Any creature that starts its turn within the area of the spinning blades takes 1d4 points of damage for every two caster levels (maximum 10d4 at 20th level) and the damage bypasses DR/silver.",
 			"",
-			"Furthermore, the daggers ward off some attacks, in a way similar to the {spell/warding weapon} spell. While subject to this spell, you do not provoke attacks of opportunity for casting spells, even from creatures with the {feat/Disruptive} feat. Creatures with the {feat/Spellbreaker} feat can easily bypass this defensive property, though they still take damage from the spell. Your casting (even failing to cast defensively) still provokes attacks of opportunity from creatures with that feat.",
+			"Furthermore, the daggers ward off some attacks, in a way similar to the ‹spell/warding weapon› spell. While subject to this spell, you do not provoke attacks of opportunity for casting spells, even from creatures with the ‹feat/Disruptive› feat. Creatures with the ‹feat/Spellbreaker› feat can easily bypass this defensive property, though they still take damage from the spell. Your casting (even failing to cast defensively) still provokes attacks of opportunity from creatures with that feat.",
 			"",
-			"Lastly, the blades that serve as the focus for this spell can be enchanted for greater effect. When all of the blades share the same enhancement bonus and special weapon qualities, a creature that is damaged by this spell is also treated as if hit by one of these weapons. For example, if a 12th-level magus casts this spell using four +1 {magic-enh/frost} {eq-material/mithral} daggers as focus, the damage dealt by the blades would be 6d4+1 plus 1d6 cold damage, as long as the daggers were commanded to be sheathed in ice. No matter the modifications made to the focus weapons, they must always be mithral daggers. No other type of weapons can serve as a focus for this spell."
+			"Lastly, the blades that serve as the focus for this spell can be enchanted for greater effect. When all of the blades share the same enhancement bonus and special weapon qualities, a creature that is damaged by this spell is also treated as if hit by one of these weapons. For example, if a 12th-level magus casts this spell using four +1 ‹magic-enh/frost› ‹eq-material/mithral› daggers as focus, the damage dealt by the blades would be 6d4+1 plus 1d6 cold damage, as long as the daggers were commanded to be sheathed in ice. No matter the modifications made to the focus weapons, they must always be mithral daggers. No other type of weapons can serve as a focus for this spell."
 		]
 	},
 	"yellow_sign": {
@@ -1757,15 +1757,15 @@
 			"",
 			"::spell{source=\"Pathfinder #110: The Thrushmoor Terror/72\" enchantment compulsion mindAffecting arc=9 brd=6 clr=9 orc=9 skd=6 sor=9 wit=9 wiz=9 ctM=10 cV cS cMp=\"ochre and sulfur, plus powdered gold worth a total of 15,000 gp\" r=\"0 ft.; see text\" effect=\"one symbol\" dur=\"see text\" will srY}",
 			"",
-			">*Priests of {faith/Hastur} have access to the following spell.*",
+			">*Priests of ‹faith/Hastur› have access to the following spell.*",
 			"",
-			"This spell functions as per {spell/symbol of death}, save that creatures that succumb to this spell become dominated (as per {spell/dominate monster}) by {monster/Hastur}. This causes such creatures to seek to aid any obvious minions or worshipers of Hastur in sight, and any true worshiper of Hastur can command the affected creatures as if that worshiper had been the one to dominate them. In the case of conflicting commands issued from different true worshipers of Hastur, the commanders must attempt opposed Charisma checks, with the winner being able to command the targets for that round. If no worshipers or agents of Hastur are in sight, an affected creature can act normally. When affected by this spell's Yellow Sign in this way, the effects last for 1 round per level. Once triggered, the Yellow Sign remains active for 10 minutes per caster level.",
+			"This spell functions as per ‹spell/symbol of death›, save that creatures that succumb to this spell become dominated (as per ‹spell/dominate monster›) by ‹monster/Hastur›. This causes such creatures to seek to aid any obvious minions or worshipers of Hastur in sight, and any true worshiper of Hastur can command the affected creatures as if that worshiper had been the one to dominate them. In the case of conflicting commands issued from different true worshipers of Hastur, the commanders must attempt opposed Charisma checks, with the winner being able to command the targets for that round. If no worshipers or agents of Hastur are in sight, an affected creature can act normally. When affected by this spell's Yellow Sign in this way, the effects last for 1 round per level. Once triggered, the Yellow Sign remains active for 10 minutes per caster level.",
 			"",
 			"There is a 1% chance when a creature fails its saving throw against this spell that Hastur takes note and, for reasons of his own, decides to control the target personally. In this case, the actions taken by the dominated creature are left to the GM to determine, but the effects of this spell's Yellow Sign persist for 1 day per level and the commands issued cannot be countermanded by any other creature, even if they are Hastur worshipers.",
 			"",
 			"Regardless of how long the effects last or whether Hastur directly controls a victim, if a creature failed to resist this spell's effects, Hastur can target that victim for the rest of its life with his fulvous dreams ability. Whether or not the Great Old One ever chooses to do so is left to the GM to determine.",
 			"",
-			"Yellow Sign can be made permanent with a {spell/permanency} spell by a caster of 18th level or higher for the cost of 40,000 gp."
+			"Yellow Sign can be made permanent with a ‹spell/permanency› spell by a caster of 18th level or higher for the cost of 40,000 gp."
 		]
 	},
 	"youthful_appearance": {

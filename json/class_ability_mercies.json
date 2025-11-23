@@ -27,7 +27,7 @@
 		"compilationSources": [ [ "Healer's Handbook", 25 ] ],
 		"category": "3",
 		"description": [
-			"The paladin's lay on hands also acts as {spell/calm emotions}, but only for the purpose of suppressing morale bonuses (such as from the {spell/rage} spell) and emotion effects that aren't fear effects. Use the paladin's level as the caster level."
+			"The paladin's lay on hands also acts as ‹spell/calm emotions›, but only for the purpose of suppressing morale bonuses (such as from the ‹spell/rage› spell) and emotion effects that aren't fear effects. Use the paladin's level as the caster level."
 		]
 	},
 	"shaken": {
@@ -59,7 +59,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook", 61 ] ],
 		"category": "6",
 		"description": [
-			"The paladin's lay on hands ability also acts as {spell/remove disease}, using the paladin's level as the caster level."
+			"The paladin's lay on hands ability also acts as ‹spell/remove disease›, using the paladin's level as the caster level."
 		]
 	},
 	"enfeebled": {
@@ -67,7 +67,7 @@
 		"compilationSources": [ [ "Healer's Handbook", 25 ] ],
 		"category": "6",
 		"description": [
-			"The paladin {spell/dispel/s} any magical effects that are reducing one of the target's ability scores (paladin's choice)."
+			"The paladin ‹spell/dispel«s› any magical effects that are reducing one of the target's ability scores (paladin's choice)."
 		]
 	},
 	"haunted": {
@@ -75,7 +75,7 @@
 		"compilationSources": [ [ "Healer's Handbook", 25 ] ],
 		"category": "6",
 		"description": [
-			"The paladin's lay on hands also acts as {spell/protection from evil}, but only for the purpose of allowing a new saving throw against enchantment (charm) and enchantment (compulsion) effects, making the target immune to any attempts to possess or exercise mental control over the target, or preventing a life force from controlling the target (all as described in the second effect of protection from evil). Use the paladin's level as the caster level."
+			"The paladin's lay on hands also acts as ‹spell/protection from evil›, but only for the purpose of allowing a new saving throw against enchantment (charm) and enchantment (compulsion) effects, making the target immune to any attempts to possess or exercise mental control over the target, or preventing a life force from controlling the target (all as described in the second effect of protection from evil). Use the paladin's level as the caster level."
 		]
 	},
 	"staggered": {
@@ -91,7 +91,7 @@
 		"compilationSources": [ [ "Healer's Handbook", 25 ] ],
 		"category": "6",
 		"description": [
-			"The paladin's lay on hands also acts as {spell/sanctuary}, using the paladin's level as the caster level. The saving throw DC to negate this effect is equal to 10 + 1/2 the paladin's level + the paladin's Charisma modifier."
+			"The paladin's lay on hands also acts as ‹spell/sanctuary›, using the paladin's level as the caster level. The saving throw DC to negate this effect is equal to 10 + 1/2 the paladin's level + the paladin's Charisma modifier."
 		]
 	},
 	"confused": {
@@ -107,7 +107,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook", 62 ] ],
 		"category": "9",
 		"description": [
-			"The paladin's lay on hands ability also acts as {spell/remove curse}, using the paladin's level as the caster level."
+			"The paladin's lay on hands ability also acts as ‹spell/remove curse›, using the paladin's level as the caster level."
 		]
 	},
 	"exhausted": {
@@ -115,7 +115,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook", 62 ] ],
 		"category": "9",
 		"description": [
-			"The target is no longer exhausted. The paladin must have the {mercy/fatigued} mercy before selecting this mercy."
+			"The target is no longer exhausted. The paladin must have the ‹mercy/fatigued› mercy before selecting this mercy."
 		]
 	},
 	"frightened": {
@@ -123,7 +123,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook", 62 ] ],
 		"category": "9",
 		"description": [
-			"The target is no longer frightened. The paladin must have the {mercy/shaken} mercy before selecting this mercy."
+			"The target is no longer frightened. The paladin must have the ‹mercy/shaken› mercy before selecting this mercy."
 		]
 	},
 	"injured": {
@@ -131,7 +131,7 @@
 		"compilationSources": [ [ "Healer's Handbook", 25 ] ],
 		"category": "9",
 		"description": [
-			"The target gains {umr/fast healing} 3 for a number of rounds equal to 1/2 the paladin's level."
+			"The target gains ‹umr/fast healing› 3 for a number of rounds equal to 1/2 the paladin's level."
 		]
 	},
 	"nauseated": {
@@ -139,7 +139,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook", 62 ] ],
 		"category": "9",
 		"description": [
-			"The target is no longer nauseated. The paladin must have the {mercy/sickened} mercy before selecting this mercy."
+			"The target is no longer nauseated. The paladin must have the ‹mercy/sickened› mercy before selecting this mercy."
 		]
 	},
 	"poisoned": {
@@ -147,7 +147,7 @@
 		"compilationSources": [ [ "PRPG Core Rulebook", 62 ] ],
 		"category": "9",
 		"description": [
-			"The paladin's lay on hands ability also acts as {spell/neutralize poison}, using the paladin's level as the caster level."
+			"The paladin's lay on hands ability also acts as ‹spell/neutralize poison›, using the paladin's level as the caster level."
 		]
 	},
 	"amputated": {
@@ -155,7 +155,7 @@
 		"compilationSources": [ [ "Healer's Handbook", 25 ] ],
 		"category": "12",
 		"description": [
-			"The paladin's lay on hands also acts as {spell/regenerate}, but only for the purposes of regrowing severed body members, broken bones, and ruined organs. The paladin must have the {mercy/injured} mercy before she can select this mercy."
+			"The paladin's lay on hands also acts as ‹spell/regenerate›, but only for the purposes of regrowing severed body members, broken bones, and ruined organs. The paladin must have the ‹mercy/injured› mercy before she can select this mercy."
 		]
 	},
 	"blinded": {
@@ -179,7 +179,7 @@
 		"compilationSources": [ [ "Healer's Handbook", 25 ] ],
 		"category": "12",
 		"description": [
-			"The paladin's lay on hands also acts as {spell/dispel magic}, using the paladin's level as her caster level (maximum 20)."
+			"The paladin's lay on hands also acts as ‹spell/dispel magic›, using the paladin's level as her caster level (maximum 20)."
 		]
 	},
 	"paralyzed": {
@@ -195,7 +195,7 @@
 		"compilationSources": [ [ "Healer's Handbook", 25 ] ],
 		"category": "12",
 		"description": [
-			"The paladin's lay on hands ability also acts as {spell/stone to flesh}, but only for the purpose of removing the {rule/petrified} condition from a creature."
+			"The paladin's lay on hands ability also acts as ‹spell/stone to flesh›, but only for the purpose of removing the ‹rule/petrified› condition from a creature."
 		]
 	},
 	"stunned": {

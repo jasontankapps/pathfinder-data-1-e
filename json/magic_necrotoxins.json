@@ -5,7 +5,7 @@
 		"description": [
 			"## Entropic Dust",
 			"",
-			"{SOURCE Black Markets/13}  ",
+			"‹SOURCE Black Markets/13›  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot**; **Price** 1,500 gp; **Weight** &mdash;",
 			"",
@@ -13,11 +13,11 @@
 			"",
 			"**Type** poison, inhaled; **Save** Fortitude DC 18  ",
 			"**Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1d2 {rule/Cha damage}, and for the duration of the poison, victim must succeed at a {rule/concentration} check vs. the poison's save DC to {ability/channel positive energy} or lay on hands; **Cure** 1 save",
+			"**Effect** 1d2 ‹rule/Cha damage›, and for the duration of the poison, victim must succeed at a ‹rule/concentration› check vs. the poison's save DC to ‹ability/channel positive energy› or lay on hands; **Cure** 1 save",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/desecrate}; **Cost** 750 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/desecrate›; **Cost** 750 gp"
 		]
 	},
 	"ghost_syrup": {
@@ -26,7 +26,7 @@
 		"description": [
 			"## Ghost Syrup",
 			"",
-			"{SOURCE Agents of Evil/23}  ",
+			"‹SOURCE Agents of Evil/23›  ",
 			"**Aura** strong necromancy; **CL** 13th  ",
 			"**Slot**; **Price** 6,000 gp; **Weight** &mdash;",
 			"",
@@ -34,11 +34,11 @@
 			"",
 			"**Type** ingested; **Save** Fortitude DC 20  ",
 			"**Onset** 1 minute; **Frequency** 1/round for 6 rounds  ",
-			"**Effect** 1d3 {rule/Str damage}, and each round a victim takes damage from this poison, she has a 50% chance of dropping one held item. If a victim's Strength is reduced to 0 by ghost syrup, the Strength damage becomes Strength drain, and the victim becomes permanently incorporeal. Carried and worn equipment is unaffected and remains corporeal, and the victim can be restored only through a {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell; **Cure** 2 consecutive saves",
+			"**Effect** 1d3 ‹rule/Str damage›, and each round a victim takes damage from this poison, she has a 50% chance of dropping one held item. If a victim's Strength is reduced to 0 by ghost syrup, the Strength damage becomes Strength drain, and the victim becomes permanently incorporeal. Carried and worn equipment is unaffected and remains corporeal, and the victim can be restored only through a ‹spell/limited wish›, ‹spell/miracle›, ‹spell/remove curse›, or ‹spell/wish› spell; **Cure** 2 consecutive saves",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/ethereal jaunt}, creator must have 13 ranks in Craft (alchemy); **Cost** 3,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/ethereal jaunt›, creator must have 13 ranks in Craft (alchemy); **Cost** 3,000 gp"
 		]
 	},
 	"lazurite_flakes": {
@@ -47,7 +47,7 @@
 		"description": [
 			"## Lazurite Flakes",
 			"",
-			"{SOURCE Black Markets/13}  ",
+			"‹SOURCE Black Markets/13›  ",
 			"**Aura** moderate necromancy; **CL** 11th  ",
 			"**Slot**; **Price** 5,400 gp; **Weight** &mdash;",
 			"",
@@ -55,11 +55,11 @@
 			"",
 			"**Type** poison, ingested; **Save** Fortitude DC 18  ",
 			"**Onset** 10 minutes; **Frequency** 1/minute for 8 minutes  ",
-			"**Effect** 1d2 {rule/Con damage}, and a humanoid who dies while poisoned rises as an uncontrolled {monster/ghoul} at the next midnight, retaining none of the abilities it possessed in life; **Cure** 2 consecutive saves",
+			"**Effect** 1d2 ‹rule/Con damage›, and a humanoid who dies while poisoned rises as an uncontrolled ‹monster/ghoul› at the next midnight, retaining none of the abilities it possessed in life; **Cure** 2 consecutive saves",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/create undead}; **Cost** 2,700 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/create undead›; **Cost** 2,700 gp"
 		]
 	},
 	"memento_mori": {
@@ -68,7 +68,7 @@
 		"description": [
 			"## Memento Mori",
 			"",
-			"{SOURCE Agents of Evil/23}  ",
+			"‹SOURCE Agents of Evil/23›  ",
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot**; **Price** 3,700 gp; **Weight** &mdash;",
 			"",
@@ -76,11 +76,11 @@
 			"",
 			"**Type** inhaled; **Save** Fortitude DC 19  ",
 			"**Onset** -; **Frequency** 1/minute for 6 rounds  ",
-			"**Effect** 1d3 {rule/Wis damage}, and as long as any Wisdom damage from the poison remains, the victim can't distinguish living creatures from undead and can't understand or read any language - spoken words sound like tearful moans and written words seem faded and tattered. While under this effect, the target takes a -5 penalty on saving throws against fear effects and must attempt to save against all spells cast by others, even harmless or beneficial spells; **Cure** 2 consecutive saves",
+			"**Effect** 1d3 ‹rule/Wis damage›, and as long as any Wisdom damage from the poison remains, the victim can't distinguish living creatures from undead and can't understand or read any language - spoken words sound like tearful moans and written words seem faded and tattered. While under this effect, the target takes a -5 penalty on saving throws against fear effects and must attempt to save against all spells cast by others, even harmless or beneficial spells; **Cure** 2 consecutive saves",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/unhallow}, creator must have 10 ranks in Craft (alchemy); **Cost** 1,850 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/unhallow›, creator must have 10 ranks in Craft (alchemy); **Cost** 1,850 gp"
 		]
 	},
 	"quick_rot": {
@@ -89,7 +89,7 @@
 		"description": [
 			"## Quick Rot",
 			"",
-			"{SOURCE Black Markets/13}  ",
+			"‹SOURCE Black Markets/13›  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot**; **Price** 450 gp; **Weight** &mdash;",
 			"",
@@ -97,11 +97,11 @@
 			"",
 			"**Type** poison, injury; **Save** Fortitude DC 14  ",
 			"**Frequency** 1/round for 4 rounds  ",
-			"**Effect** 1d2 {rule/Con damage}, and until the Con damage is healed, the victim gains the {umr/stench} universal monster ability. The stench DC is equal to the poison's DC, and creatures who fail their saves are {misc/sickened} for 1d6+4 minutes. The poisoned creature is not immune to its own stench; **Cure** 1 save",
+			"**Effect** 1d2 ‹rule/Con damage›, and until the Con damage is healed, the victim gains the ‹umr/stench› universal monster ability. The stench DC is equal to the poison's DC, and creatures who fail their saves are ‹misc/sickened› for 1d6+4 minutes. The poisoned creature is not immune to its own stench; **Cure** 1 save",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/ghoul touch}; **Cost** 225 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/ghoul touch›; **Cost** 225 gp"
 		]
 	},
 	"xensh_spores": {
@@ -110,7 +110,7 @@
 		"description": [
 			"## Xensh Spores",
 			"",
-			"{SOURCE Black Markets/13}  ",
+			"‹SOURCE Black Markets/13›  ",
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Slot**; **Price** 1,200 gp; **Weight** &mdash;",
 			"",
@@ -118,11 +118,11 @@
 			"",
 			"**Type** poison, inhaled; **Save** Fortitude DC 16  ",
 			"**Onset** 10 minutes; **Frequency** 1/hour for 6 hours  ",
-			"**Effect** 1d2 {rule/Dex damage}, and until the Dex damage is healed, the victim regains only half the normal amount of hit points from {ability/channel[ed] energy} and conjuration (healing) spells; **Cure** 2 consecutive saves",
+			"**Effect** 1d2 ‹rule/Dex damage›, and until the Dex damage is healed, the victim regains only half the normal amount of hit points from ‹ability/channel«ed» energy› and conjuration (healing) spells; **Cure** 2 consecutive saves",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/undead anatomy I}; **Cost** 225 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/undead anatomy I›; **Cost** 225 gp"
 		]
 	}
 }

@@ -5,7 +5,7 @@
 		"description": [
 			"## Invoke Deity",
 			"",
-			"::spell{source=\"Planar Adventures/41\" school=\"%%spelldef/transmutation%% &#91&see text&#93&\" ant=4 clr=6 hnt=4 inq=6 med=4 occ=6 orc=6 pal=4 rgr=4 war=6 wit=6 ctR=1 cV cS cMp=\"incense worth 1,000 gp\" cFp=\"a bejeweled holy symbol of your patron deity worth 2,500 gp\" rPers target=you durML=10}",
+			"::spell{source=\"Planar Adventures/41\" school=\"‹spelldef/transmutation› &#91&see text&#93&\" ant=4 clr=6 hnt=4 inq=6 med=4 occ=6 orc=6 pal=4 rgr=4 war=6 wit=6 ctR=1 cV cS cMp=\"incense worth 1,000 gp\" cFp=\"a bejeweled holy symbol of your patron deity worth 2,500 gp\" rPers target=you durML=10}",
 			"",
 			"By holding aloft a holy symbol and calling your deity's name, you take on an aspect of that divinity. When you cast this spell, choose a domain offered by your deity. You gain that domain's benefits from the list below, along with the listed physical changes; abilities that allow a saving throw use this spell's DC. At any point during the duration of this spell, you can change which domain benefit you gain by concentrating for 1 round-this provokes attacks of opportunity and reduces the remaining duration of the spell by 10 minutes. If you have less than 10 minutes of the spell's duration remaining, you cannot change the selected domain in this way. If you change your domain, all ongoing effects from your previously chosen domain end.",
 			"",
@@ -15,15 +15,15 @@
 			"",
 			"*Animal:* Your form becomes bestial with animalistic features. You gain low-light vision, scent, a +6 natural armor bonus, and a bite attack that deals damage as normal for a creature of your size. If you already have a bite attack, the damage increases as if you increased one size category. You can use speak with animals at will.",
 			"",
-			"*Artifice:* Parts of your body are replaced by pistons and gears. You can be affected by spells that specifically affect constructs (such as {spell/make whole}). You are immune to bleed, disease, and poison effects, and you gain a +4 bonus on saving throws against death effects, mind-affecting effects, and necromancy effects.",
+			"*Artifice:* Parts of your body are replaced by pistons and gears. You can be affected by spells that specifically affect constructs (such as ‹spell/make whole›). You are immune to bleed, disease, and poison effects, and you gain a +4 bonus on saving throws against death effects, mind-affecting effects, and necromancy effects.",
 			"",
 			"*Chaos:* Your flesh churns and swirls chaotically. You are immune to additional damage from critical hits and precision damage (such as sneak attack damage), and weapons you wield count as chaotic for the purpose of overcoming damage reduction.",
 			"",
 			"*Charm:* You become overwhelmingly attractive and persuasive. You gain a +6 enhancement bonus to Charisma.",
 			"",
-			"*Community:* Your voice echoes with the sound of multitudes. Select a number of creatures within 30 feet equal to your level divided by three - you gain the effects of {spell/status} and {spell/telepathic bond} with those creatures.",
+			"*Community:* Your voice echoes with the sound of multitudes. Select a number of creatures within 30 feet equal to your level divided by three - you gain the effects of ‹spell/status› and ‹spell/telepathic bond› with those creatures.",
 			"",
-			"*Darkness:* Your eyes become solid black orbs. You become immune to blindness and can see perfectly in darkness of any kind, even that created by a {spell/deeper darkness} spell.",
+			"*Darkness:* Your eyes become solid black orbs. You become immune to blindness and can see perfectly in darkness of any kind, even that created by a ‹spell/deeper darkness› spell.",
 			"",
 			"*Death:* Your flesh becomes pallid. You are healed by both positive and negative energy, are immune to energy drain and death effects, and automatically stabilize when reduced below 0 hit points.",
 			"",
@@ -33,9 +33,9 @@
 			"",
 			"*Evil:* Your appearance becomes corrupted and fiendish. You automatically confirm critical hits, and weapons you wield count as evil for the purpose of overcoming damage reduction.",
 			"",
-			"*Fire:* Your hair ignites into flames. You are immune to fire. As a standard action once per minute, you can fire a ray of flame, as per {spell/scorching ray} (limit one ray).",
+			"*Fire:* Your hair ignites into flames. You are immune to fire. As a standard action once per minute, you can fire a ray of flame, as per ‹spell/scorching ray› (limit one ray).",
 			"",
-			"*Glory:* Your countenance becomes stern and implacable, and your wrath devastates the undead. You gain the benefits of {spell/heroism} and {spell/protection from evil}, and your first successful attack each round against an undead target deals an additional 1d6 points of positive energy damage.",
+			"*Glory:* Your countenance becomes stern and implacable, and your wrath devastates the undead. You gain the benefits of ‹spell/heroism› and ‹spell/protection from evil›, and your first successful attack each round against an undead target deals an additional 1d6 points of positive energy damage.",
 			"",
 			"*Good:* Your appearance becomes pristine and angelic. You are immune to fear and compulsion effects, and weapons you wield count as good for the purpose of overcoming damage reduction.",
 			"",
@@ -53,25 +53,25 @@
 			"",
 			"*Magic:* You shimmer with magical power. You gain spell resistance equal to 11 + your caster level against hostile spells.",
 			"",
-			"*Nobility:* Your voice becomes resonant and imperious. As a move action, you can issue one order to a single creature within 30 feet. This effect functions as if you had cast the spell {spell/command}.",
+			"*Nobility:* Your voice becomes resonant and imperious. As a move action, you can issue one order to a single creature within 30 feet. This effect functions as if you had cast the spell ‹spell/command›.",
 			"",
 			"*Plant:* Your appearance becomes plant-like, with leafy hair and green skin. You become immune to paralysis, poison, polymorph effects, sleep effects, and stunning.",
 			"",
-			"*Protection:* An aura of protective energy surrounds you. Select three of the following spells: {spell/delay poison}, {spell/false life}, {spell/mage armor}, {spell/protection from chaos}, {spell/protection from evil}, {spell/protection from good}, {spell/protection from law}, {spell/resist energy}, {spell/shield}, or {spell/shield of faith}; you gain the protective benefits of those spells.",
+			"*Protection:* An aura of protective energy surrounds you. Select three of the following spells: ‹spell/delay poison›, ‹spell/false life›, ‹spell/mage armor›, ‹spell/protection from chaos›, ‹spell/protection from evil›, ‹spell/protection from good›, ‹spell/protection from law›, ‹spell/resist energy›, ‹spell/shield›, or ‹spell/shield of faith›; you gain the protective benefits of those spells.",
 			"",
 			"*Repose:* Your eyes become pure, bleak white. You gain a +6 enhancement bonus to Wisdom.",
 			"",
-			"*Rune:* Your skin is marked with runic tattoos. Your presence does not trigger the effects of {spell/glyph[s] of warding}, {main/symbol spells}, and similar effects unless you choose to, and you are immune to their harmful effects. You can use {spell/read magic} at will and can resolve the effects of scrolls using your own caster level rather than the scroll's caster level.",
+			"*Rune:* Your skin is marked with runic tattoos. Your presence does not trigger the effects of ‹spell/glyph«s» of warding›, ‹main/symbol spells›, and similar effects unless you choose to, and you are immune to their harmful effects. You can use ‹spell/read magic› at will and can resolve the effects of scrolls using your own caster level rather than the scroll's caster level.",
 			"",
 			"*Scalykind:* Your flesh becomes squamous, and your mouth grows venomous fangs. You gain a bite attack that deals damage as normal for a creature of your size; if you already have a bite attack, the damage increases as if you had increased one size category. Each creature you bite must succeed at a Fortitude save or become sickened for 1d4 rounds (or if already sickened, staggered for 1 round); this is a poison effect.",
 			"",
 			"*Strength:* Your body visibly ripples with muscle. You gain a +6 enhancement bonus to Strength.",
 			"",
-			"*Sun:* Your form blazes with solar light. You are immune to blindness, the dazzled condition, and all effects generated by powerful light (such as {spell/searing light}, {spell/sunbeam}, or the blinding light of a {monster/shining child}), and you radiate light as the {spell/daylight} spell. Creatures that are harmed or hindered by sunlight take a -2 penalty on attack rolls against you, and you gain a +2 bonus on saving throws against effects originating from such creatures.",
+			"*Sun:* Your form blazes with solar light. You are immune to blindness, the dazzled condition, and all effects generated by powerful light (such as ‹spell/searing light›, ‹spell/sunbeam›, or the blinding light of a ‹monster/shining child›), and you radiate light as the ‹spell/daylight› spell. Creatures that are harmed or hindered by sunlight take a -2 penalty on attack rolls against you, and you gain a +2 bonus on saving throws against effects originating from such creatures.",
 			"",
 			"*Travel:* Faint afterimages trail behind you when you move. You gain a +6 enhancement bonus to Constitution.",
 			"",
-			"*Trickery:* Your appearance changes as you desire (as {spell/veil}, except affecting only yourself). Changing your appearance is a swift action. You gain a +4 bonus on Bluff, Disguise, Sleight of Hand, and Stealth checks.",
+			"*Trickery:* Your appearance changes as you desire (as ‹spell/veil›, except affecting only yourself). Changing your appearance is a swift action. You gain a +4 bonus on Bluff, Disguise, Sleight of Hand, and Stealth checks.",
 			"",
 			"*Void:* Your clothes and hair seem to float about you, as if you were adrift in a weightless environment. You are immune to cold damage and no longer need to breathe. You can exist comfortably in the depths of outer space.",
 			"",
@@ -79,7 +79,7 @@
 			"",
 			"*Water:* You gain gills, webbed fingers, and other ichthyic features. You gain a swim speed of 40 feet, can breathe water, and ignore the usual penalties on weapon attack and damage rolls from fighting underwater.",
 			"",
-			"*Weather:* Your hair and clothing are constantly wind-tossed, and you crackle with electricity. You do not take penalties or damage or suffer from reduced visibility or other effects due to natural weather. You are immune to electricity damage, and your {spell/call lightning} and {spell/call lightning storm} spells and effects always function as though called outdoors in stormy weather."
+			"*Weather:* Your hair and clothing are constantly wind-tossed, and you crackle with electricity. You do not take penalties or damage or suffer from reduced visibility or other effects due to natural weather. You are immune to electricity damage, and your ‹spell/call lightning› and ‹spell/call lightning storm› spells and effects always function as though called outdoors in stormy weather."
 		]
 	},
 	"invoke_primal_power": {
@@ -152,7 +152,7 @@
 			"",
 			"This spell creates a 1-foot-long spike of cold iron that you fling at your target as a ranged touch attack. The stake is treated as a magic and cold iron weapon for the purpose of overcoming damage reduction, and deals 1d6 points of piercing damage for every 2 caster levels you have (maximum 10d6 at 20th level).",
 			"",
-			"Additionally, if a creature with DR/cold iron takes damage from this spell, it is sickened for 1 round and must attempt a Fortitude save. If it fails, for a number of rounds equal to your caster level, it must succeed at a {rule/concentration} check (in addition to any normally required concentration checks) to use any spells or spell-like abilities it has - the DC of this check is equal to 15 + twice the spell's level. If the creature fails this concentration check, its spell is wasted."
+			"Additionally, if a creature with DR/cold iron takes damage from this spell, it is sickened for 1 round and must attempt a Fortitude save. If it fails, for a number of rounds equal to your caster level, it must succeed at a ‹rule/concentration› check (in addition to any normally required concentration checks) to use any spells or spell-like abilities it has - the DC of this check is equal to 15 + twice the spell's level. If the creature fails this concentration check, its spell is wasted."
 		]
 	},
 	"ironbeard": {
@@ -163,7 +163,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/19\" transmutation ant=1 clr=1 hnt=1 mag=1 orc=1 pal=1 rgr=1 war=1 ctSt cV cS rTouch target=\"creature touched\" durML=1}",
 			"",
-			">*{race/Dwarven} spellcasters are renowned for shaping the ground beneath them, molding metal, and using magic to aid their craft. This spell one of several samples of such magics.*",
+			">*‹race/Dwarven› spellcasters are renowned for shaping the ground beneath them, molding metal, and using magic to aid their craft. This spell one of several samples of such magics.*",
 			"",
 			"This spell causes a brushy beard of stiff iron to erupt from the face of a willing target. The ironbeard grants a +1 armor bonus to AC, and this bonus stacks with any armor worn by the creature. The ironbeard may also be used as a weapon equivalent to cold iron armor spikes. The ironbeard makes it difficult to speak, so any spellcasting with a verbal component has a 20% spell failure chance."
 		]
@@ -205,7 +205,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/303\" transmutation drd=6 hnt=6 occ=6 ct=\"1 minute/lb. created\" cV cS cFp=\"wood to be transformed\" rFt=0 effect=\"an ironwood object weighing up to 5 lbs./level\" durD durDL=1 saveNo srN}",
 			"",
-			"Ironwood is a magical substance created by druids from normal wood. While remaining natural wood in almost every way, ironwood is as strong, heavy, and resistant to fire as steel. Spells that affect metal or iron do not function on ironwood. Spells that affect wood do affect ironwood, although ironwood does not burn. Using this spell with {spell/wood shape} or a wood-related Craft check, you can fashion wooden items that function as steel items. Thus, wooden plate armor and wooden swords can be created that are as durable as their normal steel counterparts. These items are freely usable by druids.",
+			"Ironwood is a magical substance created by druids from normal wood. While remaining natural wood in almost every way, ironwood is as strong, heavy, and resistant to fire as steel. Spells that affect metal or iron do not function on ironwood. Spells that affect wood do affect ironwood, although ironwood does not burn. Using this spell with ‹spell/wood shape› or a wood-related Craft check, you can fashion wooden items that function as steel items. Thus, wooden plate armor and wooden swords can be created that are as durable as their normal steel counterparts. These items are freely usable by druids.",
 			"",
 			"Further, if you make only half as much ironwood as the spell would normally allow, any weapon, shield, or suit of armor so created is treated as a magic item with a +1 enhancement bonus."
 		]
@@ -218,7 +218,7 @@
 			"",
 			"::spell{source=\"Technology Guide/9\" conjuration creation arc=3 clr=3 drd=4 hnt=4 mag=3 orc=3 sor=3 sum=3 usm=3 war=3 wit=3 wiz=3 ctSt cV cS rMed effect=\"special (see below)\" durI save=\"Fortitude partial (see below)\" srN}",
 			"",
-			"The spell's area of effect floods with dangerous radiation. The strength of the radiation you create depends on your caster level, as detailed below. The central irradiated area is always a 10-foot-radius spread that expands normally per the rules for {rule/radiation} areas of effect. Creatures within the area are exposed to the radiation only once; the radiation does not linger in the area. The save to resist the radiation effects is set by the spell, not the standard save DC for radiation.",
+			"The spell's area of effect floods with dangerous radiation. The strength of the radiation you create depends on your caster level, as detailed below. The central irradiated area is always a 10-foot-radius spread that expands normally per the rules for ‹rule/radiation› areas of effect. Creatures within the area are exposed to the radiation only once; the radiation does not linger in the area. The save to resist the radiation effects is set by the spell, not the standard save DC for radiation.",
 			"",
 			"| Caster Level | Radiation Level |",
 			"| --- | --- |",
@@ -260,7 +260,7 @@
 			"",
 			":::mythic{title=\"Mythic Irresistible Dance\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}  ",
+			"‹SOURCE Mythic Adventures/99›  ",
 			"When casting the spell, you can choose to make the dance either an unending dance or a dance of death.",
 			"",
 			"A target affected by unending dance receives a new saving throw at the end of each round of dancing, even if its initial save was successful. If the save fails, the duration of the spell increases by 1 round.",
@@ -341,7 +341,7 @@
 			"",
 			"::spell{source=\"Arcane Anthology/13\" good transmutation arc=6 drd=6 hnt=6 sor=6 wiz=6 ctSt cV cS cMp=\"octopus or squid tentacle\" rMed area=\"120-ft.-radius spread\" durD durRL=1 saveNo srN}",
 			"",
-			"The scholars of the {rule/Magaambya} claim that Old-Mage Jatembe developed this spell to help eradicate the lost city of Ird, although such claims have never been confirmed. This spell causes tall grass, weeds, and other plants to swell into Gargantuan vines and tendrils that erupt from the ground, reaching for any structure or any creature of evil alignment, functioning like black tentacles except as noted. When you are determining the tendrils' CMB, the tendrils use your caster level as their base attack bonus and have a +13 bonus due to their Strength. Any tendril that succeeds in grappling a foe deals 4d6+13 points of damage to the grappled creature. Additionally, the tendrils created by this spell can detect evil auras, as if they had spent 3 rounds observing all creatures and objects within the spell's area using {spell/detect evil}, and attack and impede the movement of only evil creatures, though they also attack any structures in their area. Each structure suffers a single attack each round; your caster level acts as the base attack bonus for these attacks, and the tendrils deal 4d6+13 points of damage on each successful attack. Creatures that lack evil auras are not attacked or impeded by this spell."
+			"The scholars of the ‹rule/Magaambya› claim that Old-Mage Jatembe developed this spell to help eradicate the lost city of Ird, although such claims have never been confirmed. This spell causes tall grass, weeds, and other plants to swell into Gargantuan vines and tendrils that erupt from the ground, reaching for any structure or any creature of evil alignment, functioning like black tentacles except as noted. When you are determining the tendrils' CMB, the tendrils use your caster level as their base attack bonus and have a +13 bonus due to their Strength. Any tendril that succeeds in grappling a foe deals 4d6+13 points of damage to the grappled creature. Additionally, the tendrils created by this spell can detect evil auras, as if they had spent 3 rounds observing all creatures and objects within the spell's area using ‹spell/detect evil›, and attack and impede the movement of only evil creatures, though they also attack any structures in their area. Each structure suffers a single attack each round; your caster level acts as the base attack bonus for these attacks, and the tendrils deal 4d6+13 points of damage on each successful attack. Creatures that lack evil auras are not attacked or impeded by this spell."
 		]
 	},
 	"jealous_rage": {
@@ -377,13 +377,13 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/39\" mindAffecting figment illusion arc=2 brd=1 mes=1 psy=2 rma=2 skd=1 sor=2 wiz=2 ctSt cV cS rClose target=\"one creature\" durRL=1}",
 			"",
-			">*{race/Gnome/s} have access to the following spell.*",
+			">*‹race/Gnome«s› have access to the following spell.*",
 			"",
 			"You cause the target to perceive itself as being covered in creeping, crawling, stinging bugs. This causes the target to become jittery and unable to stay still, forcing it to constantly move and twitch. The target takes a -4 penalty on all Dexterity checks and Dexterity-based skill checks, and cannot take the delay, ready, or total defense actions.",
 			"",
 			":::mythic{title=\"Mythic Jitterbugs\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}  ",
+			"‹SOURCE Mythic Adventures/99›  ",
 			"Starting on the second round of the spell, the affected target must succeed at a Fortitude save on your turn or be nauseated for 1 round, as if distracted by an actual swarm.",
 			"",
 			":::"
@@ -516,7 +516,7 @@
 			"",
 			"::spell{source=\"Magic Tactics Toolbox/22\" curse transmutation alc=2 arc=3 brd=2 clr=3 inq=2 inv=2 mag=2 occ=2 orc=3 skd=2 sor=3 war=3 wit=2 wiz=3 ctSt cV cS cMp=\"a copper piece\" rTouch target=\"creature touched\" dur=\"1 hour/level (see text)\" will srY}",
 			"",
-			"You temporarily curse a creature so its touch lessens the value of coins it touches. While under the effects of this curse, whenever the target touches a coin of higher value than copper piece, that coin changes into a copper piece. The change takes place over the course of the following minute, allowing the target to interact with multiple coins before the effect of the curse becomes apparent. The affected coins are permanently transmuted from their previous material (typically gold or silver) into copper coins, though {spell/remove curse} (which can affect up to 50 coins with a single casting) or a similar spell can restore them to their previous material."
+			"You temporarily curse a creature so its touch lessens the value of coins it touches. While under the effects of this curse, whenever the target touches a coin of higher value than copper piece, that coin changes into a copper piece. The change takes place over the course of the following minute, allowing the target to interact with multiple coins before the effect of the curse becomes apparent. The affected coins are permanently transmuted from their previous material (typically gold or silver) into copper coins, though ‹spell/remove curse› (which can affect up to 50 coins with a single casting) or a similar spell can restore them to their previous material."
 		]
 	},
 	"karmic_blessing": {
@@ -527,7 +527,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/199\" divination good clr=1 orc=1 war=1 wit=1 ctSt cV cS rTouch target=\"creature touched\" durRL=1}",
 			"",
-			">*{race/Samsaran/s} have access to the following spell.*",
+			">*‹race/Samsaran«s› have access to the following spell.*",
 			"",
 			"The target treats one skill of your choice as a class skill."
 		]
@@ -542,7 +542,7 @@
 			"",
 			"This spell makes a weapon magically keen, improving its ability to deal telling blows. This transmutation doubles the threat range of the weapon. A threat range of 20 becomes 19-20, a threat range of 19-20 becomes 17-20, and a threat range of 18-20 becomes 15-20. The spell can be cast only on piercing or slashing weapons. If cast on arrows or crossbow bolts, the keen edge on a particular projectile ends after one use, whether or not the missile strikes its intended target. Treat shuriken as arrows, rather than as thrown weapons, for the purpose of this spell.",
 			"",
-			"Multiple effects that increase a weapon's threat range (such as the keen special weapon property and the {feat/Improved Critical} feat) don't stack. You can't cast this spell on a natural weapon, such as a claw."
+			"Multiple effects that increase a weapon's threat range (such as the keen special weapon property and the ‹feat/Improved Critical› feat) don't stack. You can't cast this spell on a natural weapon, such as a claw."
 		]
 	},
 	"keen_senses": {
@@ -699,13 +699,13 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/303\" transmutation arc=2 inq=2 med=2 mes=2 occ=2 psy=2 rma=2 sor=2 wiz=2 ctSt cV rMed target=\"one door, box, or chest with an area of up to 10 sq. ft./level\" dur=\"instantaneous; see text\" saveNo srN}",
 			"",
-			"Knock opens stuck, barred, or locked doors, as well as those subject to {spell/hold portal} or {spell/arcane lock}. When you complete the casting of this spell, make a caster level check against the DC of the lock with a +10 bonus. If successful, knock opens up to two means of closure. This spell opens secret doors, as well as locked or trick-opening boxes or chests. It also loosens welds, shackles, or chains (provided they serve to hold something shut). If used to open an arcane locked door, the spell does not remove the arcane lock but simply suspends its functioning for 10 minutes. In all other cases, the door does not relock itself or become stuck again on its own. Knock does not raise barred gates or similar impediments (such as a portcullis), nor does it affect ropes, vines, and the like. The effect is limited by the area. Each casting can undo as many as two means of preventing access.",
+			"Knock opens stuck, barred, or locked doors, as well as those subject to ‹spell/hold portal› or ‹spell/arcane lock›. When you complete the casting of this spell, make a caster level check against the DC of the lock with a +10 bonus. If successful, knock opens up to two means of closure. This spell opens secret doors, as well as locked or trick-opening boxes or chests. It also loosens welds, shackles, or chains (provided they serve to hold something shut). If used to open an arcane locked door, the spell does not remove the arcane lock but simply suspends its functioning for 10 minutes. In all other cases, the door does not relock itself or become stuck again on its own. Knock does not raise barred gates or similar impediments (such as a portcullis), nor does it affect ropes, vines, and the like. The effect is limited by the area. Each casting can undo as many as two means of preventing access.",
 			"",
 			":::mythic{jl title=\"Mythic Knock\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}",
+			"‹SOURCE Mythic Adventures/99›",
 			"",
-			"The spell unlocks up to three means of closure instead of two. The spell automatically opens locks of simple or average quality, without requiring a caster level check to do so). If used on a door locked with arcane lock, you can attempt a free dispel check against it as if using a targeted {spell/dispel magic}, adding your tier to the check.",
+			"The spell unlocks up to three means of closure instead of two. The spell automatically opens locks of simple or average quality, without requiring a caster level check to do so). If used on a door locked with arcane lock, you can attempt a free dispel check against it as if using a targeted ‹spell/dispel magic›, adding your tier to the check.",
 			"",
 			"*Augmented (3rd):* You can expend two uses of mythic power to target one locked item per tier, unlocking up to four means of closure on each, allowing a free dispel against an arcane lock on each, and automatically opening locks of up to good quality (no caster level check needed).",
 			"",
@@ -764,7 +764,7 @@
 			"",
 			":::mythic{title=\"Mythic Know the Enemy\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}  ",
+			"‹SOURCE Mythic Adventures/99›  ",
 			"The insight bonus increases to +15 plus your tier. If the check is successful, you gain a +5 insight bonus on your next attack roll or saving throw against a creature of that type, as long as the roll occurs within 24 hours of casting the spell.",
 			"",
 			":::"
@@ -778,7 +778,7 @@
 			"",
 			"::spell{source=\"Pathfinder Society Primer/10\" divination arc=1 brd=1 clr=1 mag=1 orc=1 skd=1 sor=1 war=1 wiz=1 ctSt cV cS rTouch target=\"book touched\" durI will srY harmless object}",
 			"",
-			"You gain a brief but incomplete understanding of one book's contents, equivalent to having skimmed its pages for 1 hour. This insight is not sufficient to translate unknown languages, decipher codes, or memorize text, but it does allow the caster to learn what topics the book discusses-invaluable to a Pathfinder who must make a snap decision when performing research or deciding whether or not to abscond with a volume. In addition, you instantly benefit from any bonuses or effects the book would normally grant to anyone who reads it for 1 hour (such as the bonuses gained from reading volumes of the {eq-misc/Pathfinder Chronicle/s})."
+			"You gain a brief but incomplete understanding of one book's contents, equivalent to having skimmed its pages for 1 hour. This insight is not sufficient to translate unknown languages, decipher codes, or memorize text, but it does allow the caster to learn what topics the book discusses-invaluable to a Pathfinder who must make a snap decision when performing research or deciding whether or not to abscond with a volume. In addition, you instantly benefit from any bonuses or effects the book would normally grant to anyone who reads it for 1 hour (such as the bonuses gained from reading volumes of the ‹eq-misc/Pathfinder Chronicle«s›)."
 		]
 	},
 	"lament_of_summers_last_breath": {
@@ -791,7 +791,7 @@
 			"",
 			">*The following spell is available to the indicated race or ethnicity: Ulfen*",
 			"",
-			"You wrap the target in a mantle of summery air, within which the ambient temperature never falls below 70 degrees Fahrenheit. Creatures with the cold subtype that start their turns in the area take an amount of fire damage equal to 1d4 points + 1 point per 2 caster levels (maximum 1d4+5) with no saving throw. Each time an evil {type/dragon}, {type/fey}, or {subtype/giant} takes damage from the spell, it must succeed at a Will saving throw or become {misc/shaken} for 1 round. Creatures attempting to cast a cold spell in the area must succeed at a Will save or the spell fails. Succeeding at one such save to cast a spell allows a creature to continue casting cold spells in the area for the spell's remainder."
+			"You wrap the target in a mantle of summery air, within which the ambient temperature never falls below 70 degrees Fahrenheit. Creatures with the cold subtype that start their turns in the area take an amount of fire damage equal to 1d4 points + 1 point per 2 caster levels (maximum 1d4+5) with no saving throw. Each time an evil ‹type/dragon›, ‹type/fey›, or ‹subtype/giant› takes damage from the spell, it must succeed at a Will saving throw or become ‹misc/shaken› for 1 round. Creatures attempting to cast a cold spell in the area must succeed at a Will save or the spell fails. Succeeding at one such save to cast a spell allows a creature to continue casting cold spells in the area for the spell's remainder."
 		]
 	},
 	"languid_bomb_admixture": {
@@ -854,7 +854,7 @@
 			"",
 			"::spell{source=\"Arcane Anthology/9\" force evocation arc=6 mag=6 occ=6 psy=7 sor=6 wiz=6 ctSt cV cS cFp=\"a miniature platinum sword worth 250 gp\" rClose effect=\"one sword\" durD durRL=1 saveNo srY}",
 			"",
-			"You create a sword of force that functions as {spell/mage's sword} except as described here. The sword does not receive the additional +3 enhancement bonus a mage's sword receives, and deals 3d6 points of force damage. You cannot command the sword. Until the sword is triggered, it hovers in your space without interfering with your actions. While hovering in this way, the sword attempts to defend you from incoming attacks, granting you a +4 shield bonus to your AC. The first time a foe within close range damages you or forces you to attempt a saving throw that you fail, the sword is triggered and begins attacking that target as described in mage's sword for the duration of the spell. This ends the shield bonus. You cannot direct the sword to defend against a new target once it has begun to attack. If its target moves beyond the sword's range, the sword returns to you and hovers until the target is again within range. The sword's return does not restore the spell's shield bonus to AC.",
+			"You create a sword of force that functions as ‹spell/mage's sword› except as described here. The sword does not receive the additional +3 enhancement bonus a mage's sword receives, and deals 3d6 points of force damage. You cannot command the sword. Until the sword is triggered, it hovers in your space without interfering with your actions. While hovering in this way, the sword attempts to defend you from incoming attacks, granting you a +4 shield bonus to your AC. The first time a foe within close range damages you or forces you to attempt a saving throw that you fail, the sword is triggered and begins attacking that target as described in mage's sword for the duration of the spell. This ends the shield bonus. You cannot direct the sword to defend against a new target once it has begun to attack. If its target moves beyond the sword's range, the sword returns to you and hovers until the target is again within range. The sword's return does not restore the spell's shield bonus to AC.",
 			"",
 			"### Mass Last Azlanti's Defending Sword",
 			"",
@@ -889,7 +889,7 @@
 			"",
 			"::spell{source=\"Aquatic Adventures/60\" evocation alc=2 brd=2 drd=2 hnt=2 inv=2 med=2 occ=2 psy=2 rgr=2 sha=2 skd=2 wit=2 ctSt cV cS cDF cMp=\"a bag of air\" rTouch target=\"creature touched\" durML=10 will srY}",
 			"",
-			"The target's buoyancy becomes and stays swiftly sinking, regardless of how dense the target and its gear are. Among other effects, the target can walk on the bottom, but she also needs to succeed at a DC 20 Swim check to swim towards the surface and to stay above the bottom (see {rule/Buoyancy}). This makes lead anchor a useful spell both for exploring the sea floor and for drowning an air-breathing foe in the water."
+			"The target's buoyancy becomes and stays swiftly sinking, regardless of how dense the target and its gear are. Among other effects, the target can walk on the bottom, but she also needs to succeed at a DC 20 Swim check to swim towards the surface and to stay above the bottom (see ‹rule/Buoyancy›). This makes lead anchor a useful spell both for exploring the sea floor and for drowning an air-breathing foe in the water."
 		]
 	},
 	"lead_blades": {
@@ -900,7 +900,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/230\" transmutation hnt=1 occ=1 rgr=1 ctSt cV cS rPers target=touch durML=1 durD}",
 			"",
-			"Lead blades increases the momentum and density of your melee weapons just as they strike a foe. All melee weapons you are carrying when the spell is cast deal damage as if {misc/one size category larger} than they actually are. For instance, a Medium longsword normally deals 1d8 points of damage, but it would instead deal 2d6 points of damage if benefiting from lead blades. Only you can benefit from this spell. If anyone else uses one of your weapons to make an attack it deals damage as normal for its size."
+			"Lead blades increases the momentum and density of your melee weapons just as they strike a foe. All melee weapons you are carrying when the spell is cast deal damage as if ‹misc/one size category larger› than they actually are. For instance, a Medium longsword normally deals 1d8 points of damage, but it would instead deal 2d6 points of damage if benefiting from lead blades. Only you can benefit from this spell. If anyone else uses one of your weapons to make an attack it deals damage as normal for its size."
 		]
 	},
 	"lead_plating": {
@@ -994,7 +994,7 @@
 			"",
 			"::spell{source=\"Ultimate Wilderness/25\" conjuration summoning arc=3 brd=3 drd=3 hnt=3 skd=3 sor=3 sum=3 wiz=3 ctR=1 cV cS cMDFp=\"a bundle of seeds\" rClose effect=\"10-ft.-square swarm of leshys\" durRL=1 saveNo srN}",
 			"",
-			">*{race/Vine leshy/s} have access to the following spell.*",
+			">*‹race/Vine leshy«s› have access to the following spell.*",
 			"",
 			"You call out to nearby nature spirits and grant them temporary plant bodies. These creatures are similar to leshys, except they are Tiny and far more simpleminded. The swarm uses the statistics for a rat swarm, except it does not carry a disease or have scent. The leshy swarm has darkvision with a range of 60 feet and is immune to electricity, mind-affecting effects, paralysis, poison, polymorph, sleep effects, sonic, and stunning.",
 			"",
@@ -1018,7 +1018,7 @@
 			"",
 			":::mythic{title=\"Mythic Levitate\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}  ",
+			"‹SOURCE Mythic Adventures/99›  ",
 			"Instead of affecting one creature, you can affect a number of targets up to your caster level, but the total weight supported can be no more than 100 pounds per caster level. You can spend a move action to mentally direct all targets, but you must move all of them identically.",
 			"",
 			"*Augmented (8th):* If you expend 10 uses of mythic power, you permanently levitate a 5-foot cube of rock, which you can move 20 feet vertically or horizontally as a move action.",
@@ -1063,7 +1063,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/230\" abjuration arc=5 clr=5 drd=4 hnt=3 occ=4 orc=5 psy=5 rgr=3 sor=5 war=5 wiz=5 ctSt cV cS cMDFp=\"a bit of eggshell\" rTouch target=\"creatures touched, up to one/level\" dur=\"2 hours/level; see text\" will srY harmless}",
 			"",
-			"You surround the touched creatures with a constant and moveable 1-inch shell of tolerable living conditions. This shell enables the subjects to breathe freely, even underwater or in a vacuum, as well as making them immune to harmful gases and vapors, including inhaled diseases and poisons and spells like cloudkill and stinking cloud. In addition, the shell protects subjects from extremes of temperature (per {spell/endure elements}) as well as extremes of pressure.",
+			"You surround the touched creatures with a constant and moveable 1-inch shell of tolerable living conditions. This shell enables the subjects to breathe freely, even underwater or in a vacuum, as well as making them immune to harmful gases and vapors, including inhaled diseases and poisons and spells like cloudkill and stinking cloud. In addition, the shell protects subjects from extremes of temperature (per ‹spell/endure elements›) as well as extremes of pressure.",
 			"",
 			"Life bubble does not provide protection from negative or positive energy (such as found on the Negative and Positive Energy planes), the ability to see in conditions of poor visibility (such as in smoke or fog), nor the ability to move or act normally in conditions that impede movement (such as underwater).",
 			"",
@@ -1078,7 +1078,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/101\" transmutation clr=2 orc=2 war=2 ctSt cV cS rTouch target=\"one touched creature with negative energy affinity\" durML=1 fort srY harmless}",
 			"",
-			">*{race/Dhampir/s} have access to the following spell.*",
+			">*‹race/Dhampir«s› have access to the following spell.*",
 			"",
 			"When cast on a creature with negative energy affinity, the target is able to convert channeled positive energy into temporary hit points. When subject to an effect that heals hit points only to living creatures (such as cure light wounds or channel positive energy), the target gains a number of temporary hit points equal to half the number of hit points that the positive energy would normally heal. These temporary hit points go away at the end of this spell's duration."
 		]
@@ -1149,7 +1149,7 @@
 			"",
 			"The target moves by Stealth whenever possible, and lies and deceives others instinctively to further its personal agenda. In addition, when the target is conscious, it must succeed at a Will save against the spell's save DC each hour (or each round during combat or a similarly stressful situation) or behave as if affected by a crime wave spell for 1 round.",
 			"",
-			"Life of crime is particularly difficult to remove. Only a {spell/remove curse} with a higher caster level than life of crime's caster level, or a {spell/limited wish}, {spell/wish}, or {spell/miracle} can remove its effects."
+			"Life of crime is particularly difficult to remove. Only a ‹spell/remove curse› with a higher caster level than life of crime's caster level, or a ‹spell/limited wish›, ‹spell/wish›, or ‹spell/miracle› can remove its effects."
 		]
 	},
 	"life_pact": {
@@ -1186,7 +1186,7 @@
 			"",
 			"This spell causes a touched object to glow like a torch, shedding normal light in a 20-foot radius, and increasing the light level for an additional 20 feet by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light). In an area of normal or bright light, this spell has no effect. The effect is immobile, but it can be cast on a movable object.",
 			"",
-			"You can only have one light spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent (through {spell/permanency} or a similar effect), it does not count against this limit. Light can be used to counter or dispel any {spelldef/darkness} spell of equal or lower spell level."
+			"You can only have one light spell active at any one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. If you make this spell permanent (through ‹spell/permanency› or a similar effect), it does not count against this limit. Light can be used to counter or dispel any ‹spelldef/darkness› spell of equal or lower spell level."
 		]
 	},
 	"light_lance": {
@@ -1197,7 +1197,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/231\" evocation good light pal=2 ctSt cV cS rPers effect=\"lance of light\" dur=\"1 round + 1 round/level\" durD}",
 			"",
-			"You create a glorious beam of brilliant radiance that acts as a +1 {magic-enh/holy} {eq-weapon/lance} suitable for your size. You must have a free hand when casting the spell and, once you call the lance into being, you cannot switch it to another hand or put it down without prematurely ending the spell. As a standard action while holding a light lance, you can choose not to make an attack and instead hold the lance aloft as a beacon of light and truth, creating an area of bright light with a radius of 90 feet. If you choose to do this for one or more additional rounds the lance also casts a spear of brilliant light up into the sky that grows progressively more visible as it continues to climb toward the heavens. Under cover of night or other darkness, if nothing obstructs the beam, it becomes visible for an additional 2 miles during each round in which you continue to aim your lance skyward (2 miles in the second round, 4 miles in the third round, and so on)."
+			"You create a glorious beam of brilliant radiance that acts as a +1 ‹magic-enh/holy› ‹eq-weapon/lance› suitable for your size. You must have a free hand when casting the spell and, once you call the lance into being, you cannot switch it to another hand or put it down without prematurely ending the spell. As a standard action while holding a light lance, you can choose not to make an attack and instead hold the lance aloft as a beacon of light and truth, creating an area of bright light with a radius of 90 feet. If you choose to do this for one or more additional rounds the lance also casts a spear of brilliant light up into the sky that grows progressively more visible as it continues to climb toward the heavens. Under cover of night or other darkness, if nothing obstructs the beam, it becomes visible for an additional 2 miles during each round in which you continue to aim your lance skyward (2 miles in the second round, 4 miles in the third round, and so on)."
 		]
 	},
 	"light_of_iomedae": {
@@ -1261,7 +1261,7 @@
 			"",
 			"::spell{source=\"Blood of the Beast/27\" transmutation psy=1 spr=1 wit=1 ctSt cV cS rClose target=\"one creature\" durI saveNo srY}",
 			"",
-			">*While {race/tengu/s} are renowned for their supposed ability to eat bad luck or hex with a foul stare, most tengus have long forgotten the jinx magic their ancestors perfected millennia ago in the mountains of Tian Xia to confound meddling visitors bearing imperial decrees. Only a handful of these luck-manipulating spells now remain known outside the secretive temples of Hei Feng, largely practiced by tengu witches and the occasional tengu or halfling rogue, by way of the {talent/major magic} rogue talent.*",
+			">*While ‹race/tengu«s› are renowned for their supposed ability to eat bad luck or hex with a foul stare, most tengus have long forgotten the jinx magic their ancestors perfected millennia ago in the mountains of Tian Xia to confound meddling visitors bearing imperial decrees. Only a handful of these luck-manipulating spells now remain known outside the secretive temples of Hei Feng, largely practiced by tengu witches and the occasional tengu or halfling rogue, by way of the ‹talent/major magic› rogue talent.*",
 			"",
 			"A flutter of subtle, telekinetic force causes your target to drop a single nonmagical carried item weighing no more than 1 pound per caster level, such as a coin purse, a key ring, or a loose object in its pocket. The target must succeed at a Perception check against the spell's save DC to notice the dropped item. You select what item the target drops as long as you can see both your target and the item you wish to affect. This use of the spell can't cause a target to lose a held item or anything it is wearing, including jewelry.",
 			"",
@@ -1283,7 +1283,7 @@
 			"",
 			":::mythic{title=\"Mythic Lightning Arc\"}",
 			"",
-			"{SOURCE Mythic Adventures/99}  ",
+			"‹SOURCE Mythic Adventures/99›  ",
 			"The damage dealt increases to 1d8 points of electricity damage per caster level (maximum 15d8). A target that fails its save is blinded by the flash for 1 round and deafened by thunder for 1d4 rounds.",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, the two targets can be up to 120 feet apart, the lightning can turn once up to 90 degrees to connect the targets, and the spell's electrical damage bypasses electricity resistance and electricity immunity.",
@@ -1308,7 +1308,7 @@
 			"",
 			":::mythic{title=\"Mythic Lightning Bolt\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}  ",
+			"‹SOURCE Mythic Adventures/100›  ",
 			"The damage dealt increases to 1d8 points of electricity damage per caster level (maximum 10d8). Any creature that fails its save is staggered for 1 round.",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, you can bend the line of the spell once up to 90 degrees. Any creature that fails its save is stunned for 1 round.",
@@ -1392,10 +1392,10 @@
 			"",
 			":::mythic{title=\"Mythic Limited Wish\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}  ",
+			"‹SOURCE Mythic Adventures/100›  ",
 			"When using mythic limited wish to duplicate another spell, you can duplicate a mythic spell you know (if you're a spontaneous caster) or have prepared (if you're a caster who prepares spells). If you don't know or haven't prepared the mythic spell, you can expend a second use of mythic power duplicate the mythic version of the desired spell.",
 			"",
-			"*Augmented:* If you expend two uses of mythic power, you can cast a {feat/silent>_spell}, {feat/stilled} mythic limited wish, even if you're helpless or couldn't otherwise take actions (but not unconscious).",
+			"*Augmented:* If you expend two uses of mythic power, you can cast a ‹feat/silent<_spell›, ‹feat/stilled› mythic limited wish, even if you're helpless or couldn't otherwise take actions (but not unconscious).",
 			"",
 			":::"
 		]
@@ -1430,7 +1430,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/59\" transmutation alc=1 ant=1 hnt=1 inq=1 inv=1 mag=1 pal=1 rgr=1 ctSt cV cS rPers target=you durML=1}",
 			"",
-			">*{race/Half-orc/s} have access to the following spell.*",
+			">*‹race/Half-orc«s› have access to the following spell.*",
 			"",
 			"You gain a +20 foot bonus to your base speed when charging and a +2 bonus on combat maneuver checks made to bull rush or overrun."
 		]
@@ -1480,9 +1480,9 @@
 			"",
 			"::spell{source=\"Pathfinder #65: Into the Nightmare Rift/75\" school=\"multiple (see text)\" arc=3 clr=3 orc=3 sor=3 war=3 wiz=3 ctM=10 cV cS cMp=\"powdered amber worth 500 gp and a snake scale\" rTouch target=\"one touched book or written work\" dur=\"permanent or until discharged; 1 day/level; see text\" refl srN}",
 			"",
-			">*Priests of {faith/Lissala} have access to the following spell.*",
+			">*Priests of ‹faith/Lissala› have access to the following spell.*",
 			"",
-			"There are seven variants of this spell, one for each of the Thassilonian schools of magic. Each functions like {spell/sepia snake sigil} (and counts as that spell for the purpose of combining other spells that hide or garble text), except instead of trapping the subject, the triggered sigil's effect depends on this spell's school. This effect lasts for 1 day/level. This is a curse effect that can be removed via {spell/remove curse}.",
+			"There are seven variants of this spell, one for each of the Thassilonian schools of magic. Each functions like ‹spell/sepia snake sigil› (and counts as that spell for the purpose of combining other spells that hide or garble text), except instead of trapping the subject, the triggered sigil's effect depends on this spell's school. This effect lasts for 1 day/level. This is a curse effect that can be removed via ‹spell/remove curse›.",
 			"",
 			"*Abjuration:* All beneficial magical effects on the target last half as long as normal.",
 			"",
@@ -1653,7 +1653,7 @@
 			"",
 			"::spell{source=\"Pathfinder #140: Eulogy for Roslar's Coffer/72\" necromancy ant=1 inq=2 pal=1 ctSw cV cS cDF rClose target=\"one creature\" durR=1 fort srY}",
 			"",
-			"Followers of {faith/Arazni} have made use of this litany since her days as a crusader and herald. Each time the target creature takes piercing or slashing damage, it takes 1 point of bleed damage; this bleed damage stacks with itself. While subject to this spell, the target cannot be the target of another spell that has the word \"litany\" in the title."
+			"Followers of ‹faith/Arazni› have made use of this litany since her days as a crusader and herald. Each time the target creature takes piercing or slashing damage, it takes 1 point of bleed damage; this bleed damage stacks with itself. While subject to this spell, the target cannot be the target of another spell that has the word \"litany\" in the title."
 		]
 	},
 	"litany_of_thunder": {
@@ -1752,7 +1752,7 @@
 			"",
 			"A successful saving throw ignores all effects of the veil. Sightless creatures are not affected by loathsome veil. Affected creatures can avert or close their eyes to avoid seeing the veil, similar to avoiding a gaze attack.",
 			"",
-			"Loathsome veil can be made permanent with the {spell/permanency} spell by a caster of 10th level or higher for the cost of 7,500 gp."
+			"Loathsome veil can be made permanent with the ‹spell/permanency› spell by a caster of 10th level or higher for the cost of 7,500 gp."
 		]
 	},
 	"locate_creature": {
@@ -1826,7 +1826,7 @@
 			"",
 			"::spell{source=\"Ultimate Combat/236\" enchantment compulsion mindAffecting arc=1 brd=1 inq=1 mag=1 mes=1 psy=1 skd=1 sor=1 wit=1 wiz=1 ctSt cV cS rClose target=\"one creature\" durRL=1 will srY}",
 			"",
-			"You compel the target to look at you and only you for the spell's duration or until the spell is discharged. While staring at you, the target is considered to be averting its eyes from every creature but you, granting creatures other than you {rule/concealment} against the target's attacks. If the target willingly leaves your line of sight, it is blinded for 1 round and the spell ends. If you willingly leave the target's line of sight or become unconscious or dead, the spell ends but the target suffers no ill effects. Blind creatures and creatures immune to gaze attacks are immune to this spell."
+			"You compel the target to look at you and only you for the spell's duration or until the spell is discharged. While staring at you, the target is considered to be averting its eyes from every creature but you, granting creatures other than you ‹rule/concealment› against the target's attacks. If the target willingly leaves your line of sight, it is blinded for 1 round and the spell ends. If you willingly leave the target's line of sight or become unconscious or dead, the spell ends but the target suffers no ill effects. Blind creatures and creatures immune to gaze attacks are immune to this spell."
 		]
 	},
 	"lockjaw": {
@@ -1922,7 +1922,7 @@
 			"",
 			"::spell{source=\"Magic Tactics Toolbox/22\" enchantment mindAffecting curse arc=7 brd=6 clr=7 inq=6 occ=6 orc=7 psy=7 skd=6 sor=7 wit=6 wiz=7 ctSt cV cS cFDFp=\"a holy symbol of a dead or forgotten deity, or flag of a fallen or forgotten nation\" rTouch target=\"creature touched\" durP will srY}",
 			"",
-			"You inflict a powerful curse on a touched creature that causes others to quickly forget positive aspects of their interactions with the target. The target cannot attempt a Diplomacy (or {ability/wild empathy} or similar ability) check to improve the attitude of other creatures. Any creature that normally has an attitude of friendly or helpful toward the target must succeed at a Will save at the spell's normal saving throw DC each time it interacts with the target, or its attitude becomes indifferent. Once this curse is removed, creatures coming back into contact with the target regain their pleasant memories of it. If their attitudes toward the target have not been reduced from indifferent, their original attitudes are restored."
+			"You inflict a powerful curse on a touched creature that causes others to quickly forget positive aspects of their interactions with the target. The target cannot attempt a Diplomacy (or ‹ability/wild empathy› or similar ability) check to improve the attitude of other creatures. Any creature that normally has an attitude of friendly or helpful toward the target must succeed at a Will save at the spell's normal saving throw DC each time it interacts with the target, or its attitude becomes indifferent. Once this curse is removed, creatures coming back into contact with the target regain their pleasant memories of it. If their attitudes toward the target have not been reduced from indifferent, their original attitudes are restored."
 		]
 	},
 	"lost_locale": {
@@ -1937,17 +1937,17 @@
 			"",
 			"::spell{source=\"Inner Sea Races/220\" enchantment compulsion mindAffecting arc=4 brd=4 skd=4 sor=4 wiz=4 ctSt cV cS rLong area=\"one 30-ft. cube/level (S)\" durD durHL=2 willPartial srY}",
 			"",
-			">*The following spells are available to the indicated race or ethnicity: {race/Samsaran}*",
+			">*The following spells are available to the indicated race or ethnicity: ‹race/Samsaran›*",
 			"",
 			"Creatures in the area of this spell are subject to a subtle enchantment that confounds their senses of direction, interferes with recognizing landmarks, and causes them to misjudge distances and angles. Creatures that enter the area must succeed at a new Survival check to avoid becoming lost immediately, whether or not they succeed at their saving throws. Those that fail the save take a penalty on such Survival checks equal to double your caster level, treat all squares they enter as difficult terrain for as long as they are in the area and for 1 hour per caster level thereafter, lose the benefit of all effects that allow them to ignore difficult terrain, and take a -4 penalty to Dexterity.",
 			"",
-			"Lost passage can be made permanent with {spell/permanency} at a cost of 10,000 gp.",
+			"Lost passage can be made permanent with ‹spell/permanency› at a cost of 10,000 gp.",
 			"",
 			"### Lost Locale",
 			"",
 			"::spell{source=\"Inner Sea Races/220\" enchantment compulsion mindAffecting arc=9 sor=9 wiz=9 ctH=24 cV cS r=\"1 mile/level\" area=\"one 1-mile cube/level\" durD durHL=2 willPartial srY}",
 			"",
-			"This spell functions as lost passage, except that it affects a larger area. Lost locale can be made permanent with {spell/permanency} at a cost of 90,000 gp."
+			"This spell functions as lost passage, except that it affects a larger area. Lost locale can be made permanent with ‹spell/permanency› at a cost of 90,000 gp."
 		]
 	},
 	"lovers_vengeance": {
@@ -1995,7 +1995,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/227\" darkness illusion shadowDesc shadowSub arc=7 clr=7 orc=7 psy=7 sor=7 wit=7 wiz=7 ctSt cV cS rLong area=\"120-ft.-radius emanation\" durML=10 save=\"Will negates, see text\" srN}",
 			"",
-			"You conjure a tremendous area of shadow to obscure moonlight within the area, creating something akin to a lunar eclipse. The light level is lowered by two steps (though unlike {spell/deeper darkness}, areas of normal light or dimmer become normal darkness rather than supernaturally dark). Lycanthropes in the area must make a Will save every round or revert to their humanoid forms. In addition, lycanthropes attempting to assume animal or hybrid form within the affected area take a -5 penalty on Constitution checks to do so."
+			"You conjure a tremendous area of shadow to obscure moonlight within the area, creating something akin to a lunar eclipse. The light level is lowered by two steps (though unlike ‹spell/deeper darkness›, areas of normal light or dimmer become normal darkness rather than supernaturally dark). Lycanthropes in the area must make a Will save every round or revert to their humanoid forms. In addition, lycanthropes attempting to assume animal or hybrid form within the affected area take a -5 penalty on Constitution checks to do so."
 		]
 	},
 	"mad_hallucination": {
@@ -2032,7 +2032,7 @@
 			"",
 			"If you have the bardic performance class feature and the fascinate bardic performance, you can choose to use the spell's saving throw DC or a DC equal to 10 + 1/2 your levels in the class that grants you bardic performance + your Charisma modifier, whichever is higher. If you choose to use the latter DC, each round of the melody costs 1 round of bardic performance and it counts as an active performance for determining how many performances you can have active.",
 			"",
-			"This spell takes a toll on the caster. Each time you cast it, you take 1d4 points of Wisdom damage. If your campaign uses {rule/the |sanity/ system}, you instead take 2d6 points of sanity damage."
+			"This spell takes a toll on the caster. Each time you cast it, you take 1d4 points of Wisdom damage. If your campaign uses ‹rule/the »sanity« system›, you instead take 2d6 points of sanity damage."
 		]
 	},
 	"maddening_oubliette": {
@@ -2065,7 +2065,7 @@
 			"",
 			":::mythic{title=\"Mythic Mage Armor\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}  ",
+			"‹SOURCE Mythic Adventures/100›  ",
 			"The armor bonus increases to +6. There is a 50% chance that any critical hit or sneak attack made against the target is negated and treated as a normal hit, as if the target were wearing moderate fortification armor.",
 			"",
 			":::"
@@ -2119,7 +2119,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/306\" abjuration arc=9 psy=9 sor=9 wiz=9 ctSt cV rClose area=\"all magical effects and magic items within a 40-ft. radius burst, or one magic item (see text)\" durML=1 will svObject srN}",
 			"",
-			"All magical effects and magic items within the radius of the spell, except for those that you carry or touch, are disjoined. That is, spells and spell-like effects are unraveled and destroyed completely (ending the effect as a {spell/dispel magic} spell does), and each permanent magic item must make a successful Will save or be turned into a normal item for the duration of this spell. An item in a creature's possession uses its own Will save bonus or its possessor's Will save bonus, whichever is higher. If an item's saving throw results in a natural 1 on the die, the item is destroyed instead of being suppressed.",
+			"All magical effects and magic items within the radius of the spell, except for those that you carry or touch, are disjoined. That is, spells and spell-like effects are unraveled and destroyed completely (ending the effect as a ‹spell/dispel magic› spell does), and each permanent magic item must make a successful Will save or be turned into a normal item for the duration of this spell. An item in a creature's possession uses its own Will save bonus or its possessor's Will save bonus, whichever is higher. If an item's saving throw results in a natural 1 on the die, the item is destroyed instead of being suppressed.",
 			"",
 			"You also have a 1% chance per caster level of destroying an antimagic field. If the antimagic field survives the disjunction, no items within it are disjoined.",
 			"",
@@ -2127,7 +2127,7 @@
 			"",
 			":::mythic{title=\"Mythic Mage's Disjunction\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}  ",
+			"‹SOURCE Mythic Adventures/100›  ",
 			"The duration increases to 10 minutes per caster level. The chance to destroy an antimagic field increases to 2% per caster level.",
 			"",
 			":::"
@@ -2143,7 +2143,7 @@
 			"",
 			"You conjure up a phantom watchdog that is invisible to everyone but yourself. It then guards the area where it was conjured (it does not move). The hound immediately starts barking loudly if any Small or larger creature approaches within 30 feet of it. (Those within 30 feet of the hound when it is conjured may move about in the area, but if they leave and return, they activate the barking.) The hound sees invisible and ethereal creatures. It does not react to figments, but it does react to shadow illusions.",
 			"",
-			"If an intruder approaches to within 5 feet of the hound, the dog stops barking and delivers a vicious bite (+10 attack bonus, 2d6+3 points of piercing damage) once per round. The dog also gets the bonuses appropriate to an invisible creature (see {rule/invisibility}).",
+			"If an intruder approaches to within 5 feet of the hound, the dog stops barking and delivers a vicious bite (+10 attack bonus, 2d6+3 points of piercing damage) once per round. The dog also gets the bonuses appropriate to an invisible creature (see ‹rule/invisibility›).",
 			"",
 			"The dog is considered ready to bite intruders, so it delivers its first bite on the intruder's turn. Its bite is the equivalent of a magic weapon for the purpose of damage reduction. The hound cannot be attacked, but it can be dispelled.",
 			"",
@@ -2192,7 +2192,7 @@
 			"",
 			"The spell does not prevent creatures or objects from moving into and out of the area.",
 			"",
-			"Mage's private sanctum can be made permanent with a {spell/permanency} spell."
+			"Mage's private sanctum can be made permanent with a ‹spell/permanency› spell."
 		]
 	},
 	"mages_sword": {
@@ -2209,7 +2209,7 @@
 			"",
 			"Each round after the first, you can use a standard action to switch the sword to a new target. If you do not, the sword continues to attack the previous round's target.",
 			"",
-			"The sword cannot be attacked or harmed by physical attacks, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it. The sword's AC is 13 (10, +0 size bonus for Medium object, +3 deflection bonus).",
+			"The sword cannot be attacked or harmed by physical attacks, but ‹spell/dispel magic›, ‹spell/disintegrate›, a ‹magic-artifact/sphere of annihilation›, or a ‹magic-rod/rod of cancellation› affects it. The sword's AC is 13 (10, +0 size bonus for Medium object, +3 deflection bonus).",
 			"",
 			"If an attacked creature has spell resistance, the resistance is checked the first time mage's sword strikes it. If the sword is successfully resisted, the spell is dispelled. If not, the sword has its normal full effect on that creature for the duration of the spell."
 		]
@@ -2236,7 +2236,7 @@
 			"",
 			"::spell{source=\"Ultimate Intrigue/219\" glamer illusion arc=4 brd=3 mes=3 occ=3 psy=4 skd=3 sor=4 wiz=4 ctSt cV cS cFp=\"a woolen handkerchief\" rClose target=\"one creature, or one object weighting up to 20 lbs./level\" durD durDL=1 save=\"none (see text)\" srN}",
 			"",
-			"If cast on an object, this spell functions as magic aura, except that if you have identified the unique spellcasting signatures of a specific individual with {spell/greater detect magic} or a similar spell, you can make the magic aura appear to have been created by that individual. Alternatively, you can simply obscure all identifiers, making it more difficult to determine who cast the spell. In either case, if the object is the subject of a greater detect magic spell, any Spellcraft check made to identify the unique spellcasting identifiers of the aura automatically produce the result you chose unless the observer disbelieves the spell with a successful Will save (as with magic aura, however, detect spells don't grant a save to disbelieve).",
+			"If cast on an object, this spell functions as magic aura, except that if you have identified the unique spellcasting signatures of a specific individual with ‹spell/greater detect magic› or a similar spell, you can make the magic aura appear to have been created by that individual. Alternatively, you can simply obscure all identifiers, making it more difficult to determine who cast the spell. In either case, if the object is the subject of a greater detect magic spell, any Spellcraft check made to identify the unique spellcasting identifiers of the aura automatically produce the result you chose unless the observer disbelieves the spell with a successful Will save (as with magic aura, however, detect spells don't grant a save to disbelieve).",
 			"",
 			"If cast on a creature, you can make that creature register to detect spells (and spells with similar capabilities) as though it were the subject of any number of spells that you specify, when the spell is cast. Alternatively, you can make the creature register as nonmagical, hiding all spell effects that he is currently affected by from such scrutiny. If you choose to make the creature register as being the subject of one or more spells, you can also alter the unique spellcasting identifiers of those spell auras, in the same fashion as described for objects.",
 			"",
@@ -2266,7 +2266,7 @@
 			"",
 			"::spell{source=\"Monster Codex/69\" earth transmutation clr=2 drd=2 hnt=2 orc=2 war=2 ctSt cV cS cDF rTouch targets=\"up to three boulders touched\" dur=\"30 minutes or until discharged\" will srY harmless object}",
 			"",
-			"This spell works like {spell/magic stone}, except you transmute as many as three boulders (rocks up to two size categories smaller than yourself) to use with the {umr/rock throwing} ability or as siege engine ammunition. The boulder's damage increases by one step, and the boulder gains a +1 enhancement bonus on attack and damage rolls."
+			"This spell works like ‹spell/magic stone›, except you transmute as many as three boulders (rocks up to two size categories smaller than yourself) to use with the ‹umr/rock throwing› ability or as siege engine ammunition. The boulder's damage increases by one step, and the boulder gains a +1 enhancement bonus on attack and damage rolls."
 		]
 	},
 	"magic_circle_against_evil": {
@@ -2277,9 +2277,9 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/308\" abjuration good arc=3 clr=3 inq=3 med=3 occ=3 orc=3 pal=3 sha=3 sor=3 spr=3 sum=3 usm=3 war=3 wiz=3 ctSt cV cS cMDFp=\"a 3-ft.-diameter circle of powdered silver\" rTouch area=\"10-ft.-radius emanation from touched creature\" durML=10 will svHarmless sr=\"no; see text\"}",
 			"",
-			"All creatures within the area gain the effects of a {spell/protection from evil} spell, and evil summoned creatures cannot enter the area either. Creatures in the area, or who later enter the area, receive only one attempt to suppress effects that are controlling them. If successful, such effects are suppressed as long as they remain in the area. Creatures that leave the area and come back are not protected. You must overcome a creature's spell resistance in order to keep it at bay (as in the third function of protection from evil), but the deflection and resistance bonuses and the protection from mental control apply regardless of enemies' spell resistance.",
+			"All creatures within the area gain the effects of a ‹spell/protection from evil› spell, and evil summoned creatures cannot enter the area either. Creatures in the area, or who later enter the area, receive only one attempt to suppress effects that are controlling them. If successful, such effects are suppressed as long as they remain in the area. Creatures that leave the area and come back are not protected. You must overcome a creature's spell resistance in order to keep it at bay (as in the third function of protection from evil), but the deflection and resistance bonuses and the protection from mental control apply regardless of enemies' spell resistance.",
 			"",
-			"This spell has an alternative version that you may choose when casting it. A *magic circle against evil* can be focused inward rather than outward. When focused inward, the spell binds a nongood called creature (such as those called by the {spell/lesser planar binding}, {spell/planar binding}, and {spell/greater planar binding} spells) for a maximum of 24 hours per caster level, provided that you cast the spell that calls the creature within 1 round of casting the *magic circle.* The creature cannot cross the circle's boundaries. If a creature too large to fit into the spell's area is the subject of the spell, the spell acts as a normal protection from evil spell for that creature only.",
+			"This spell has an alternative version that you may choose when casting it. A *magic circle against evil* can be focused inward rather than outward. When focused inward, the spell binds a nongood called creature (such as those called by the ‹spell/lesser planar binding›, ‹spell/planar binding›, and ‹spell/greater planar binding› spells) for a maximum of 24 hours per caster level, provided that you cast the spell that calls the creature within 1 round of casting the *magic circle.* The creature cannot cross the circle's boundaries. If a creature too large to fit into the spell's area is the subject of the spell, the spell acts as a normal protection from evil spell for that creature only.",
 			"",
 			"A *magic circle* leaves much to be desired as a trap. If the circle of powdered silver laid down in the process of spellcasting is broken, the effect immediately ends. The trapped creature can do nothing that disturbs the circle, directly or indirectly, but other creatures can. If the called creature has spell resistance, it can test the trap once a day. If you fail to overcome its spell resistance, the creature breaks free, destroying the circle. A creature capable of any form of dimensional travel (astral projection, blink, dimension door, etherealness, gate, plane shift, shadow walk, teleport, and similar abilities) can simply leave the circle through such means. You can prevent the creature's extradimensional escape by casting a dimensional anchor spell on it, but you must cast the spell before the creature acts. If you are successful, the anchor effect lasts as long as the *magic circle* does. The creature cannot reach across the *magic circle,* but its ranged attacks (ranged weapons, spells, magical abilities, and the like) can. The creature can attack any target it can reach with its ranged attacks except for the circle itself.",
 			"",
@@ -2287,28 +2287,28 @@
 			"",
 			"A successful diagram allows you to cast a dimensional anchor spell on the *magic circle* during the round before casting any summoning spell. The anchor holds any called creatures in the *magic circle* for 24 hours per caster level. A creature cannot use its spell resistance against a *magic circle* prepared with a diagram, and none of its abilities or attacks can cross the diagram. If the creature tries a Charisma check to break free of the trap (see the *lesser planar binding* spell), the DC increases by 5. The creature is immediately released if anything disturbs the diagram - even a straw laid across it. The creature itself cannot disturb the diagram either directly or indirectly, as noted above.",
 			"",
-			"This spell is not cumulative with {spell/protection from evil} and vice versa.",
+			"This spell is not cumulative with ‹spell/protection from evil› and vice versa.",
 			"",
 			"::h3[Magic Circle Against Chaos]{jl}",
 			"",
-			"{SOURCE PRPG Core Rulebook/308}  ",
-			"**School** {spelldef/abjuration} [{spelldef/lawful}]; **Level** arcanist 3, cleric 3, inquisitor 3, medium 3, occultist 3, oracle 3, paladin 3, shaman 3, sorcerer 3, spiritualist 3, summoner 3, unchained summoner 3, warpriest 3, wizard 3",
+			"‹SOURCE PRPG Core Rulebook/308›  ",
+			"**School** ‹spelldef/abjuration› [‹spelldef/lawful›]; **Level** arcanist 3, cleric 3, inquisitor 3, medium 3, occultist 3, oracle 3, paladin 3, shaman 3, sorcerer 3, spiritualist 3, summoner 3, unchained summoner 3, warpriest 3, wizard 3",
 			"",
-			"This spell functions like *magic circle against evil,* except that it is similar to {spell/protection from chaos} instead of *protection from evil,* and it can imprison a nonlawful called creature.",
+			"This spell functions like *magic circle against evil,* except that it is similar to ‹spell/protection from chaos› instead of *protection from evil,* and it can imprison a nonlawful called creature.",
 			"",
 			"::h3[Magic Circle Against Good]{jl}",
 			"",
-			"{SOURCE PRPG Core Rulebook/308}  ",
-			"**School** abjuration [{spelldef/evil}]; **Level** antipaladin 3, arcanist 3, cleric 3, inquisitor 3, medium 3, occultist 3, oracle 3, shaman 3, sorcerer 3, spiritualist 3, summoner 3, unchained summoner 3, warpriest 3, wizard 3",
+			"‹SOURCE PRPG Core Rulebook/308›  ",
+			"**School** abjuration [‹spelldef/evil›]; **Level** antipaladin 3, arcanist 3, cleric 3, inquisitor 3, medium 3, occultist 3, oracle 3, shaman 3, sorcerer 3, spiritualist 3, summoner 3, unchained summoner 3, warpriest 3, wizard 3",
 			"",
-			"This spell functions like *magic circle against evil,* except that it is similar to {spell/protection from good} instead of *protection from evil,* and it can imprison a nonevil called creature.",
+			"This spell functions like *magic circle against evil,* except that it is similar to ‹spell/protection from good› instead of *protection from evil,* and it can imprison a nonevil called creature.",
 			"",
 			"::h3[Magic Circle Against Law]{jl}",
 			"",
-			"{SOURCE PRPG Core Rulebook/308}  ",
-			"**School** abjuration [{spelldef/chaotic}]; **Level** antipaladin 3, arcanist 3, cleric 3, inquisitor 3, medium 3, occultist 3, oracle 3, shaman 3, sorcerer 3, spiritualist 3, summoner 3, unchained summoner 3, warpriest 3, wizard 3",
+			"‹SOURCE PRPG Core Rulebook/308›  ",
+			"**School** abjuration [‹spelldef/chaotic›]; **Level** antipaladin 3, arcanist 3, cleric 3, inquisitor 3, medium 3, occultist 3, oracle 3, shaman 3, sorcerer 3, spiritualist 3, summoner 3, unchained summoner 3, warpriest 3, wizard 3",
 			"",
-			"This spell functions like *magic circle against evil,* except that it is similar to {spell/protection from law} instead of *protection from evil,* and it can imprison a nonchaotic called creature."
+			"This spell functions like *magic circle against evil,* except that it is similar to ‹spell/protection from law› instead of *protection from evil,* and it can imprison a nonchaotic called creature."
 		]
 	},
 	"magic_circle_against_chaos_evil_good_law": {
@@ -2357,11 +2357,11 @@
 			"",
 			"Magic fang gives one natural weapon or unarmed strike of the subject a +1 enhancement bonus on attack and damage rolls. The spell can affect a slam attack, fist, bite, or other natural weapon. The spell does not change an unarmed strike's damage from nonlethal damage to lethal damage.",
 			"",
-			"Magic fang can be made permanent with a {spell/permanency} spell.",
+			"Magic fang can be made permanent with a ‹spell/permanency› spell.",
 			"",
 			":::mythic{jl title=\"Mythic Magic Fang\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}",
+			"‹SOURCE Mythic Adventures/100›",
 			"",
 			"The spell affects an additional number of the target's natural weapons equal to your tier. For example, if you're 3rd tier, it could affect two claws and one bite).",
 			"",
@@ -2375,15 +2375,15 @@
 			"",
 			"Alternatively, you may imbue all of the creature's natural weapons with a +1 enhancement bonus (regardless of your caster level).",
 			"",
-			"Greater magic fang can be made permanent with a {spell/permanency} spell.",
+			"Greater magic fang can be made permanent with a ‹spell/permanency› spell.",
 			"",
 			"::h3[Greater Mythic Magic Fang]{jl}",
 			"",
-			"{SOURCE Mythic Adventures/100}",
+			"‹SOURCE Mythic Adventures/100›",
 			"",
-			"This functions like mythic magic fang. You can add one of the following weapon special abilities to natural attacks or unarmed strikes affected by the spell: {magic-enh/flaming}, {magic-enh/frost}, {magic-enh/keen}, {magic-enh/merciful}, {magic-enh/shock}, or {magic-enh/thundering}. You must choose only one with each casting of the spell. For example, you can't add flaming to a tiger's bite and keen to its claws with the same casting. If the target has an Intelligence score less than 3, these abilities are always on (the target can't activate or deactivate the effect) and it might react with fear if its attacks make noise or create visible energy.",
+			"This functions like mythic magic fang. You can add one of the following weapon special abilities to natural attacks or unarmed strikes affected by the spell: ‹magic-enh/flaming›, ‹magic-enh/frost›, ‹magic-enh/keen›, ‹magic-enh/merciful›, ‹magic-enh/shock›, or ‹magic-enh/thundering›. You must choose only one with each casting of the spell. For example, you can't add flaming to a tiger's bite and keen to its claws with the same casting. If the target has an Intelligence score less than 3, these abilities are always on (the target can't activate or deactivate the effect) and it might react with fear if its attacks make noise or create visible energy.",
 			"",
-			"*Augmented (5th):* If you expend two uses of mythic power, you can reduce the granted enhancement bonuses by 1 to add two of the above abilities or one of the following abilities: {magic-enh/flaming burst}, {magic-enh/icy burst}, or {magic-enh/shocking burst}."
+			"*Augmented (5th):* If you expend two uses of mythic power, you can reduce the granted enhancement bonuses by 1 to add two of the above abilities or one of the following abilities: ‹magic-enh/flaming burst›, ‹magic-enh/icy burst›, or ‹magic-enh/shocking burst›."
 		]
 	},
 	"magic_fang_greater": {
@@ -2410,7 +2410,7 @@
 			"",
 			"You could choose to take over either a stronger or a weaker creature, but which particular stronger or weaker creature you attempt to possess is determined randomly.",
 			"",
-			"Attempting to possess a body is a full-round action. It is blocked by {spell/protection from evil} or a similar ward. You possess the body and force the creature's soul into the magic jar unless the subject succeeds on a Will save. Failure to take over the host leaves your life force in the magic jar, and the target automatically succeeds on further saving throws if you attempt to possess its body again.",
+			"Attempting to possess a body is a full-round action. It is blocked by ‹spell/protection from evil› or a similar ward. You possess the body and force the creature's soul into the magic jar unless the subject succeeds on a Will save. Failure to take over the host leaves your life force in the magic jar, and the target automatically succeeds on further saving throws if you attempt to possess its body again.",
 			"",
 			"If you are successful, your life force occupies the host body, and the host's life force is imprisoned in the magic jar. You keep your Intelligence, Wisdom, Charisma, level, class, base attack bonus, base save bonuses, alignment, and mental abilities. The body retains its Strength, Dexterity, Constitution, hit points, natural abilities, and automatic abilities. A body with extra limbs does not allow you to make more attacks (or more advantageous two-weapon attacks) than normal. You can't choose to activate the body's extraordinary or supernatural abilities. The creature's spells and spell-like abilities do not stay with the body.",
 			"",
@@ -2460,7 +2460,7 @@
 			"",
 			":::mythic{title=\"Mythic Magic Missile\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}  ",
+			"‹SOURCE Mythic Adventures/100›  ",
 			"The damage dealt by each missile increases to 2d4+1. The missiles bypass the shield spell and similar effects that block the non-mythic version of this spell.",
 			"",
 			"*Augmented (4th):* If you expend two uses of mythic power, the spell creates double the normal number of missiles (affecting up to 10 creatures), its range increases to line of sight, and it bypasses the targets' spell resistance and spell immunity.",
@@ -2482,7 +2482,7 @@
 			"",
 			"The range limit of a trigger is 15 feet per caster level, so a 6th-level caster can command a magic mouth to respond to triggers as far as 90 feet away. Regardless of range, the mouth can respond only to visible or audible triggers and actions in line of sight or within hearing distance.",
 			"",
-			"Magic mouth can be made permanent with a {spell/permanency} spell."
+			"Magic mouth can be made permanent with a ‹spell/permanency› spell."
 		]
 	},
 	"magic_siege_engine": {
@@ -2499,7 +2499,7 @@
 			"",
 			"::spell{source=\"Ultimate Combat/236\" transmutation ant=4 arc=4 clr=5 inq=4 occ=4 orc=5 pal=4 rma=4 sor=4 war=5 wiz=4 ctSt cV cS cMDFp=\"black powder\" rClose target=\"one siege engine touched\" durHL=1 will srY harmless object}",
 			"",
-			"This spell functions like magic siege weapon, except it gives an indirect fire siege weapon an enhancement bonus on targeting and damage rolls of +1 per four caster levels (maximum +5). If used on a direct-fire siege weapon, this spell functions as {spell/greater magic weapon}."
+			"This spell functions like magic siege weapon, except it gives an indirect fire siege weapon an enhancement bonus on targeting and damage rolls of +1 per four caster levels (maximum +5). If used on a direct-fire siege weapon, this spell functions as ‹spell/greater magic weapon›."
 		]
 	},
 	"magic_siege_engine_greater": {
@@ -2535,7 +2535,7 @@
 			"",
 			":::mythic{title=\"Mythic Magic Vestment\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}  ",
+			"‹SOURCE Mythic Adventures/100›  ",
 			"You can add one armor special ability to the target if it's armor or one shield special ability if it's a shield. The special ability must have a base price modifier no greater than a +1 enhancement bonus or 4,000 gp.",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, you can add any number of special abilities with a total base price modifier no greater than a +2 enhancement bonus or 15,000 gp.",
@@ -2568,7 +2568,7 @@
 			"",
 			"::h3[Greater Mythic Magic Weapon]{jl}",
 			"",
-			"{SOURCE Mythic Adventures/100}",
+			"‹SOURCE Mythic Adventures/100›",
 			"",
 			"You can add one of the following weapon special abilities to the weapon: flaming, frost, keen, merciful, shock, or thundering.",
 			"",
@@ -2590,7 +2590,7 @@
 			"",
 			"You create a spherical magnetic field that surrounds you to a range of 30 feet and follows you for the duration of the spell. Unattended metal objects in range - including weapons, armor, and anything made primarily out of metal - are pulled violently toward you, stopping just short of your space and falling harmlessly to the ground. Objects secured to a nonmetallic fixture remain where they are unless a forceful tug would be enough to detach them. Loose objects weighing more than 500 pounds are not affected. If the magnetic field would cause a dangerous metal object such as a sword or anvil to intersect a square occupied by a creature, that creature must succeed at a Reflex save or take damage as if from an improvised weapon of the object's size (or smaller or larger, at the GM's discretion).",
 			"",
-			"A creature in the area wearing metal armor, wielding a metal weapon, or holding a metal object must succeed at a Reflex save or be dragged 5 feet closer to you in a straight line, as if affected by the {umr/pull} universal monster rule. A creature can drop a metal object it's holding as a free action to avoid the effect if it's not wearing metal armor; a creature being dragged by its shield can loosen it as a move action and drop it as a free action. Creatures made entirely or mostly of metal take a -2 penalty on their Reflex saves. Creatures that fail their saves by 5 or more are pulled an additional 5 feet closer for every increment of 5 by which they failed their saves."
+			"A creature in the area wearing metal armor, wielding a metal weapon, or holding a metal object must succeed at a Reflex save or be dragged 5 feet closer to you in a straight line, as if affected by the ‹umr/pull› universal monster rule. A creature can drop a metal object it's holding as a free action to avoid the effect if it's not wearing metal armor; a creature being dragged by its shield can loosen it as a move action and drop it as a free action. Creatures made entirely or mostly of metal take a -2 penalty on their Reflex saves. Creatures that fail their saves by 5 or more are pulled an additional 5 feet closer for every increment of 5 by which they failed their saves."
 		]
 	},
 	"magnifying_chime": {
@@ -2625,9 +2625,9 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/39\" illusion shadowDesc shadowSub arc=5 mes=5 psy=5 sor=5 wiz=5 ctM=10 cV cS cMp=\"a tiny piece of matter of the same sort of item you plan to create with major phantom object\" rClose effect=\"illusory, unattended, nonmagical object, up to 1 cu. ft./level\" durML=10 durD}",
 			"",
-			">*{race/Gnome/s} have access to the following spell.*",
+			">*‹race/Gnome«s› have access to the following spell.*",
 			"",
-			"This spell functions as the {spell/major creation} spell, except as noted above and the object created is a semi-real illusion. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item."
+			"This spell functions as the ‹spell/major creation› spell, except as noted above and the object created is a semi-real illusion. Any creature that interacts with the object may make a Will save, with success causing the object to cease to exist. A gnome casting this spell may make a Spellcraft check in place of any Craft check required to make a complex item."
 		]
 	},
 	"make_lost": {
@@ -2653,13 +2653,13 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/311\" transmutation arc=2 clr=2 occ=2 orc=2 psy=2 rma=2 sor=2 war=2 wiz=2 ctM=10 cV cS rClose target=\"one object up to 10 cu. ft./level or one construct creature of any size\" durI will srY harmless object}",
 			"",
-			"This spell functions as {spell/mending}, except that it repairs 1d6 points of damage per level when cast on a construct creature (maximum 5d6).",
+			"This spell functions as ‹spell/mending›, except that it repairs 1d6 points of damage per level when cast on a construct creature (maximum 5d6).",
 			"",
 			"Make whole can fix destroyed magic items (at 0 hit points or less), and restores the magic properties of the item if your caster level is at least twice that of the item. Items with charges (such as wands) and single-use items (such as potions and scrolls) cannot be repaired in this way. When make whole is used on a construct creature, the spell bypasses any immunity to magic as if the spell did not allow spell resistance.",
 			"",
 			":::mythic{jl title=\"Mythic Make Whole\"}",
 			"",
-			"{SOURCE Mythic Adventures/100}",
+			"‹SOURCE Mythic Adventures/100›",
 			"",
 			"The damage the spell repairs increases to 2d6 points of damage per caster level when cast on a construct creature (maximum 10d6). A construct repaired with this spell gains a +2 enhancement bonus on an ability score of your choice for the next 24 hours. To repair a magic item, your caster level has to equal to only the caster level of the magic item, not double the caster level.",
 			"",
@@ -2694,7 +2694,7 @@
 			"",
 			"A soul can also be freed by the efforts of someone bodily going to the appropriate plane, locating the affected soul, and leading it out of the plane, which allows it to go to its intended destination in the afterlife and be resurrected as normal. You can end the effects of your own malediction by casting the spell again and concentrating on a past target. Doing so only frees the past target to go to its rightful place in death; it does not return the target to life.",
 			"",
-			"Spells such as {spell/break enchantment}, {spell/dispel magic}, and {spell/remove curse} negate this spell if successfully cast before the target dies."
+			"Spells such as ‹spell/break enchantment›, ‹spell/dispel magic›, and ‹spell/remove curse› negate this spell if successfully cast before the target dies."
 		]
 	},
 	"malediction_hero_points": {
@@ -2716,7 +2716,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/228\" transmutation arc=4 occ=4 rma=4 sor=4 wiz=4 ctSt cV cS rClose area=\"one construct\" durD durRL=1 fort srY}",
 			"",
-			"This functions as {spell/confusion}, except it only affects constructs, and instead of babbling incoherently, the construct takes no actions on its turn (but may still make attacks of opportunity)."
+			"This functions as ‹spell/confusion›, except it only affects constructs, and instead of babbling incoherently, the construct takes no actions on its turn (but may still make attacks of opportunity)."
 		]
 	},
 	"malicious_spite": {
@@ -2792,7 +2792,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/178\" transmutation water arc=1 bld=1 clr=1 drd=1 hnt=1 orc=1 rgr=1 rma=1 sor=1 war=1 wit=1 wiz=1 ctSt cV cS rTouch target=\"willing creature touched\" durML=1 will srY harmless}",
 			"",
-			">*{race/Undine/s} have access to the following spell.*",
+			">*‹race/Undine«s› have access to the following spell.*",
 			"",
 			"The target gains a +1 bonus on attack and damage rolls if it and its opponent are touching water. If the opponent or the target is touching the ground, the target takes a -4 penalty on attack and damage rolls."
 		]
@@ -2805,7 +2805,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/228\" necromancy alc=3 arc=3 inv=3 mes=3 psy=3 sor=3 sum=3 usm=3 wit=3 wiz=3 ctSt cV cS cFp=\"a piece of paper with the target's name\" rMed target=\"one willing creature\" dur=\"10 minutes/level or until you return to your body\" save=\"Will negates (see text)\" srY}",
 			"",
-			"You project your soul out of your body and into the body of a willing creature. This possession is blocked by {spell/protection from evil} or a similar ward. The target's soul shares its body with you; it is helpless but can still use its senses. You and the target's soul can communicate telepathically as if using a common language.",
+			"You project your soul out of your body and into the body of a willing creature. This possession is blocked by ‹spell/protection from evil› or a similar ward. The target's soul shares its body with you; it is helpless but can still use its senses. You and the target's soul can communicate telepathically as if using a common language.",
 			"",
 			"You keep your Intelligence, Wisdom, Charisma, level, class, base attack bonus, base save bonuses, alignment, and mental abilities. The body retains its Strength, Dexterity, Constitution, hit points, natural abilities, and natural attacks (such as a bite or sting). A body with extra limbs does not allow you to make more attacks (or more advantageous two-weapon attacks) than normal. You can't choose to activate the body's extraordinary, spell-like, or supernatural abilities.",
 			"",
@@ -2823,7 +2823,7 @@
 			"",
 			"::spell{source=\"Adventurer's Guide/160;Faction Guide/61\" curse transmutation arc=2 bld=2 inq=2 sor=2 wit=2 wiz=2 ctSt cV cS cMp=\"a drop of your blood\" rTouch target=\"one weapon touched\" dur=\"1 minute and permanent (see text)\" will srY}",
 			"",
-			"You place a drop of your blood on a weapon and charge it with magic so that you transfer a small amount of your life essence to the next living creature you strike with the weapon. Thereafter, you can spend a move action to know the direction and general distance of that creature. The target can negate this effect with a successful Will save. You must strike a creature within 1 minute of casting this spell or the magic is wasted, but once the mark of blood takes effect it is permanent until dispelled or removed via an effect like {spell/remove curse}."
+			"You place a drop of your blood on a weapon and charge it with magic so that you transfer a small amount of your life essence to the next living creature you strike with the weapon. Thereafter, you can spend a move action to know the direction and general distance of that creature. The target can negate this effect with a successful Will save. You must strike a creature within 1 minute of casting this spell or the magic is wasted, but once the mark of blood takes effect it is permanent until dispelled or removed via an effect like ‹spell/remove curse›."
 		]
 	},
 	"mark_of_buoyancy": {
@@ -2836,7 +2836,7 @@
 			"",
 			"You cause the touched object to become lighter than air, such that it floats if not weighted down. The object is effectively weightless and, if left unattended, will rise to a number of feet off the ground equal to twice your caster level, and then remain floating at that height. The object can be pushed, dragged, carried, or otherwise moved normally, and it can be carried by the wind if not held or secured. The object is buoyant enough that it can carry an additional weight of up to 10 pounds per caster level with it, potentially allowing it to be used to carry small objects or creatures.",
 			"",
-			"Mark of buoyancy can be made permanent with a {spell/permanency} spell cast by a caster of 11th level or higher at the cost of 7,500 gp."
+			"Mark of buoyancy can be made permanent with a ‹spell/permanency› spell cast by a caster of 11th level or higher at the cost of 7,500 gp."
 		]
 	},
 	"mark_of_justice": {
@@ -2847,11 +2847,11 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/312\" curse necromancy clr=5 inq=5 orc=5 pal=4 war=5 wit=5 ctM=10 cV cS cDF rTouch target=\"creature touched\" dur=\"permanent; see text\" saveNo srY}",
 			"",
-			"You mark a subject and state some behavior on the part of the subject that will activate the mark. When activated, the mark curses the subject. Typically, you designate some sort of undesirable behavior that activates the mark, but you can pick any act you please. The effect of the mark is identical with the effect of {spell/bestow curse}.",
+			"You mark a subject and state some behavior on the part of the subject that will activate the mark. When activated, the mark curses the subject. Typically, you designate some sort of undesirable behavior that activates the mark, but you can pick any act you please. The effect of the mark is identical with the effect of ‹spell/bestow curse›.",
 			"",
 			"Since this spell takes 10 minutes to cast and involves writing on the target, you can cast it only on a creature that is willing or restrained.",
 			"",
-			"Like the effect of bestow curse, a mark of justice cannot be dispelled, but it can be removed with a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell. Remove curse works only if its caster level is equal to or higher than your mark of justice caster level. These restrictions apply regardless of whether the mark has activated."
+			"Like the effect of bestow curse, a mark of justice cannot be dispelled, but it can be removed with a ‹spell/break enchantment›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/remove curse›, or ‹spell/wish› spell. Remove curse works only if its caster level is equal to or higher than your mark of justice caster level. These restrictions apply regardless of whether the mark has activated."
 		]
 	},
 	"mark_of_obvious_ethics": {
@@ -2886,9 +2886,9 @@
 			"",
 			"If you succeed at a ranged touch attack, you burn your handprint onto the flesh of a creature, dealing 1d6 points of acid damage. The mark can be placed on any exposed portion of the creature, typically the head or forearm. The flesh around the handprint becomes rough and scaly, like the hide of a lizard. It also glows with a green radiance (shedding light as a torch) when brought within 60 feet of you. While the handprint glows, the target takes a -2 penalty to AC against your attacks and on saving throws to resist any spell you cast or spell-like ability you use.",
 			"",
-			"Additionally, each day the target remains cursed, more and more of its flesh becomes covered in reptilian scales. The target must succeed at a Fortitude save each day or take 1d4 points of Charisma damage, 1 point of which is Charisma drain instead. A creature reduced to 0 Charisma by this effect is immediately transformed into a small, harmless cave lizard, as the {spell/baleful polymorph} spell.",
+			"Additionally, each day the target remains cursed, more and more of its flesh becomes covered in reptilian scales. The target must succeed at a Fortitude save each day or take 1d4 points of Charisma damage, 1 point of which is Charisma drain instead. A creature reduced to 0 Charisma by this effect is immediately transformed into a small, harmless cave lizard, as the ‹spell/baleful polymorph› spell.",
 			"",
-			"As with the effects of bestow curse, the curse inflicted by this spell cannot be dispelled, but it can be removed with a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell."
+			"As with the effects of bestow curse, the curse inflicted by this spell cannot be dispelled, but it can be removed with a ‹spell/break enchantment›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/remove curse›, or ‹spell/wish› spell."
 		]
 	},
 	"marks_of_forbiddance": {
@@ -2925,7 +2925,7 @@
 			"",
 			">*The following spell is available to the indicated race or ethnicity: Vudrani*",
 			"",
-			"You mingle the power of your mind and body to exert force beyond your reach. This spell functions as the combat maneuver version of {spell/telekinesis}, except as noted above. Alternatively, you can inflict a telekinetic unarmed strike with this spell, using your own unarmed strike damage and applying your primary spellcasting ability score modifier to the damage in place of your Strength modifier."
+			"You mingle the power of your mind and body to exert force beyond your reach. This spell functions as the combat maneuver version of ‹spell/telekinesis›, except as noted above. Alternatively, you can inflict a telekinetic unarmed strike with this spell, using your own unarmed strike damage and applying your primary spellcasting ability score modifier to the damage in place of your Strength modifier."
 		]
 	},
 	"martyrs_bargain": {
@@ -2940,7 +2940,7 @@
 			"",
 			"You cast this spell as an immediate action when you are subject to a spell or spell-like ability that deals hit point damage, after attack rolls and saving throws have been rolled but before the damage itself is determined. The damage dealt by the spell and any related effects are then delayed for you (and you only) for a number of rounds equal to your caster level.",
 			"",
-			"At the end of that time (or immediately if martyr's bargain is dispelled), the delayed damage takes effect on you as it would have at the time it was cast, but is maximized as if affected by the {feat/Maximize Spell} metamagic feat. Spells and spell-like abilities that were already maximized gain no additional benefit from this spell. Nothing can prevent this delayed damage from affecting you.",
+			"At the end of that time (or immediately if martyr's bargain is dispelled), the delayed damage takes effect on you as it would have at the time it was cast, but is maximized as if affected by the ‹feat/Maximize Spell› metamagic feat. Spells and spell-like abilities that were already maximized gain no additional benefit from this spell. Nothing can prevent this delayed damage from affecting you.",
 			"",
 			"You can be affected by only one martyr's bargain spell at a time. If you cast this spell while you are already under the effects of a previous martyr's bargain, the previous spell effect ends and you immediately take the damage it had delayed."
 		]
@@ -2953,9 +2953,9 @@
 			"",
 			"::spell{source=\"Pathfinder #68: The Shackled Hut/69\" conjuration healing clr=3 hnt=3 orc=3 rgr=3 war=3 ctM=1 cV cS cDF r=\"personal (see text)\" target=\"you and one ally/level, no two of which can be more than 30 ft. apart (see text)\" dur=\"1 hour/level or instantaneous (see text)\" save=\"Will half (harmless, see text)\" srY}",
 			"",
-			">*Priests of {faith/Milani} have access to the following spell.*",
+			">*Priests of ‹faith/Milani› have access to the following spell.*",
 			"",
-			"You charge your body with healing energy, which erupts from you if you are dying or are killed before 1 hour per level has passed. If you're brought below 0 hit points or killed (including by effects that kill without dealing damage, such as {spell/phantasmal killer} and {spell/power word kill}), the eruption of healing energy acts as {spell/mass cure light wounds} on allies (other than you). Allies with the fewest Hit Dice are affected first. Among allies with equal HD, those closest to you are affected first. If the duration ends, the stored healing energy dissipates with no effect."
+			"You charge your body with healing energy, which erupts from you if you are dying or are killed before 1 hour per level has passed. If you're brought below 0 hit points or killed (including by effects that kill without dealing damage, such as ‹spell/phantasmal killer› and ‹spell/power word kill›), the eruption of healing energy acts as ‹spell/mass cure light wounds› on allies (other than you). Allies with the fewest Hit Dice are affected first. Among allies with equal HD, those closest to you are affected first. If the duration ends, the stored healing energy dissipates with no effect."
 		]
 	},
 	"mask_dweomer": {

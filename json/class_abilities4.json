@@ -8,8 +8,8 @@
 				[
 					"## Subtypes",
 					"",
-					"{SOURCE Pathfinder Unchained/29}  ",
-					"The first time a summoner calls his {sidekick/unchained_<eidolon}, he must decide on its subtype. The eidolon's subtype determines a number of its base statistics and abilities, as well as its overall look and theme. The subtype also determines what sort of {ability/unchained_<evolutions} the summoner can select for his eidolon using the evolution pool. Once the choice of subtype is made, it cannot be changed.",
+					"‹SOURCE Pathfinder Unchained/29›  ",
+					"The first time a summoner calls his ‹sidekick/unchained_>eidolon›, he must decide on its subtype. The eidolon's subtype determines a number of its base statistics and abilities, as well as its overall look and theme. The subtype also determines what sort of ‹ability/unchained_>evolutions› the summoner can select for his eidolon using the evolution pool. Once the choice of subtype is made, it cannot be changed.",
 					"",
 					"As a summoner gains levels, his eidolon gains specific evolutions based on its subtype. Each subtype entry below includes the following information.",
 					"",
@@ -25,7 +25,7 @@
 					"",
 					"#### Eidolons and Alignment",
 					"",
-					"{SOURCE Pathfinder Unchained/35}  ",
+					"‹SOURCE Pathfinder Unchained/35›  ",
 					"Generally, the summoner controls the actions of his eidolon, even during combat, either through verbal commands or through the link ability, but this does not mean that the eidolon is a puppet that follows every command without question. Eidolons have been known to refuse actions that are against their ethoses or alignments (subject to the GM's discretion) and are quick to chide the summoner about such requests. In addition, should the action of the summoner cause a shift in alignment such that the summoner's alignment is more than one step away from the eidolon's, the eidolon refuses the call of the summoner (although the summoner can still use his summon monster class feature). If the summoner manages to restore his alignment, the eidolon returns to his service."
 				],
 				{
@@ -50,7 +50,7 @@
 				[
 					"## Talents",
 					"",
-					"{SOURCE Advanced Class Guide/32}  ",
+					"‹SOURCE Advanced Class Guide/32›  ",
 					"At 3rd level and every 2 levels thereafter, an investigator gains an investigator talent. Except where otherwise noted, each investigator talent can only be selected once.",
 					"",
 					"::h3[Studied Strike Talents]{jl}",
@@ -65,7 +65,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -81,7 +81,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -97,7 +97,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -113,7 +113,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -127,7 +127,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[invtalent/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -143,7 +143,7 @@
 				[
 					"## Ki Powers (Unchained)",
 					"",
-					"{SOURCE Pathfinder Unchained}  ",
+					"‹SOURCE Pathfinder Unchained›  ",
 					"At 4th level and every 2 levels thereafter, an unchained monk can select one ki power. These powers allow the monk to perform amazing feats of mystical power and acrobatic prowess by expending points from his ki pool. Once a ki power is selected, it cannot be changed. Some ki powers require the monk to be of a specific level or higher before they can be chosen. Unless otherwise noted, a monk cannot select an individual ki power more than once.",
 					""
 				],
@@ -154,7 +154,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[kipower/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[kipower/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -166,10 +166,10 @@
 		"description": [
 			"## Magus Arcana",
 			"",
-			"{SOURCE Ultimate Magic/10}  ",
-			"As he gains levels, a magus learns arcane secrets tailored to his specific way of blending martial puissance and magical skill. Starting at 3rd level, a magus gains one magus arcana. He gains an additional magus arcana for every three levels of magus attained after 3rd level. Unless specifically noted in a magus arcana's description, a magus cannot select a particular magus arcana more than once. Magus arcana that affect spells can only be used to modify spells from the {main/magus spell/ list} unless otherwise noted.",
+			"‹SOURCE Ultimate Magic/10›  ",
+			"As he gains levels, a magus learns arcane secrets tailored to his specific way of blending martial puissance and magical skill. Starting at 3rd level, a magus gains one magus arcana. He gains an additional magus arcana for every three levels of magus attained after 3rd level. Unless specifically noted in a magus arcana's description, a magus cannot select a particular magus arcana more than once. Magus arcana that affect spells can only be used to modify spells from the ‹main/magus spell« list› unless otherwise noted.",
 			"",
-			"{table0}"
+			"‹table0›"
 		],
 		"tables": [
 			{
@@ -180,70 +180,70 @@
 					{ "header": "Description", "align": "start" }
 				],
 				"data": [
-					[ "{arcana/Accurate Strike}", [ 9, "9th" ], "Your melee attacks become melee touch attacks." ],
-					[ "{arcana/Aquatic Agility}", [ 6, "6th" ], "Gain water breathing and ignore the effects of rough water." ],
-					[ "{arcana/Arcane Accuracy}", [ 3, "3rd" ], "Gain an insight bonus to attack." ],
-					[ "{arcana/Arcane Cloak}", [ 3, "3rd" ], "Add your Intelligence bonus to Stealth checks and Bluff checks to hide." ],
-					[ "{arcana/Arcane Dealer}", [ 6, "6th" ], "Gain the {feat/Deadly Dealer} feat." ],
-					[ "{arcana/Arcane Deed}", [ 3, "3rd" ], "Learn a swashbuckler deed." ],
-					[ "{arcana/Arcane Edge}", [ 9, "9th" ], "Add bleed damage to an attack." ],
-					[ "{arcana/Arcane Redoubt}", [ 3, "3rd" ], "Add your shield bonus as a touch AC bonus." ],
-					[ "{arcana/Arcane Redoubt, Greater}", [ 12, "12th" ], "Gain evasion when you use *arcane redoubt.*" ],
-					[ "{arcana/Arcane Scent}", [ 3, "3rd" ], "Gain scent vs spellcasting creatures." ],
-					[ "{arcana/Bane Blade}", [ 15, "15th" ], "Add *bane* to a weapon you wield." ],
-					[ "{arcana/Book-Bound}", [ 3, "3rd" ], "Bonus to concentration while holding your spellbook." ],
-					[ "{arcana/Broad Study}", [ 6, "6th" ], "Use spellstrike and spell combat with spells from another class." ],
-					[ "{arcana/Circle of Order}", [ 9, "9th" ], "Dodge bonus vs chaotic creatures and effects." ],
-					[ "{arcana/Close Range}", [ 3, "3rd" ], "Deliver ray spells as melee touch spells and with spellstrike." ],
-					[ "{arcana/Concentrate}", [ 3, "3rd" ], "Reroll a concentration check." ],
-					[ "{arcana/Critical Strike}", [ 12, "12th" ], "Add a touch spell to a critical hit." ],
-					[ "{arcana/Dark Shifter}", [ 6, "6th" ], "Change the target of an ongoing spell effect with the darkness descriptor." ],
-					[ "{arcana/Devoted Blade}", [ 12, "12th" ], "Add the anarchic, axiomatic, holy, or unholy special ability to your weapon." ],
-					[ "{arcana/Dispelling Strike}", [ 9, "9th" ], "Your weapon can dispel magic." ],
-					[ "{arcana/Disruptive}", [ 6, "6th" ], "Gain {feat/Disruptive} as a bonus feat." ],
-					[ "{arcana/Distant Spellstrike}", [ 12, "12th" ], "Increase the range of a spell to your ranged weapon's range." ],
-					[ "{arcana/Divinatory Strike}", [ 3, "3rd" ], "Gain deep knowledge about a creature you critically hit." ],
-					[ "{arcana/Empowered Magic}", [ 6, "6th" ], "Use {feat/Empower Spell} for free once per day." ],
-					[ "{arcana/Enduring Blade}", [ 6, "6th" ], "Your weapon enhancements can last longer than normal." ],
-					[ "{arcana/Familiar}", [ 3, "3rd" ], "Gain a familiar, as a {class/wizard}." ],
-					[ "{arcana/Flamboyant Arcana}", [ 3, "3rd" ], "Gain the derring-do and opportune parry and riposte deeds from the swashbuckler's list of deeds." ],
-					[ "{arcana/Ghost Blade}", [ 9, "9th" ], "You can add brilliant energy and ghost touch special abilities to your weapons." ],
-					[ "{arcana/Hasted Assault}", [ 9, "9th" ], "Become {spell/haste/d} temporarily." ],
-					[ "{arcana/Intuitive Protection}", [ 3, "3rd" ], "You can protect yourself if you identify a summoning." ],
-					[ "{arcana/Ki Arcana}", [ 6, "6th" ], "Use your arcane pool as ki points, and vice versa." ],
-					[ "{arcana/Lingering Pain}", [ 3, "3rd" ], "The pain of your attack lingers, disrupting spellcasting." ],
-					[ "{arcana/Maneuver Mastery}", [ 3, "3rd" ], "Use your magus level as your CMB for one maneuver." ],
-					[ "{arcana/Maximized Magic}", [ 12, "12th" ], "Use {feat/Maximize Spell} for free once per day." ],
-					[ "{arcana/Natural Spell Combat}", [ 3, "3rd" ], "Use spell combat with a natural attack." ],
-					[ "{arcana/Planar Hunter}", [ 9, "9th" ], "You can add the planar and phase locking special abilities to your weapons." ],
-					[ "{arcana/Pool Ray}", [ 3, "3rd" ], "Imbue your weapon with elemental power." ],
-					[ "{arcana/Pool Strike}", [ 3, "3rd" ], "Imbue your hand with elemental power." ],
-					[ "{arcana/Pool Strike, Arcing}", [ 12, "12th" ], "Hit more creatures with *pool strike.*" ],
-					[ "{arcana/Pool Strike, Clinging}", [ 9, "9th" ], "Your *pool strike* hits again the next round." ],
-					[ "{arcana/Pool Strike, Thunderous}", [ 6, "6th" ], "Your *pool strike* causes thunder damage and can deafen." ],
-					[ "{arcana/Prescient Attack}", [ 6, "6th" ], "A creature you hit becomes easier to hit again." ],
-					[ "{arcana/Prescient Defense}", [ 3, "3rd" ], "Gain greater defense against a creature you hit." ],
-					[ "{arcana/Quickened Magic}", [ 15, "15th" ], "Use {feat/Quicken Spell} for free once per day." ],
-					[ "{arcana/Rakshasa's Fortune}", [ 9, "9th" ], "Gain a bonus (or penalty) from a Harrow card when you cast a polymorph spell on yourself." ],
-					[ "{arcana/Ranger Trap}", [ 10, "10th" ], "Learn a {ability/ranger trap>s}." ],
-					[ "{arcana/Reach Magic}", [ 3, "3rd" ], "Use {feat/Reach Spell} for free once per day." ],
-					[ "{arcana/Reach Spellstrike}", [ 9, "9th" ], "Ranged spellstrike increases a touch spell's range to \"Close\"." ],
-					[ "{arcana/Reflection}", [ 15, "15th" ], "Reflect a spell back at its caster." ],
-					[ "{arcana/Rod Mastery}", [ 3, "3rd" ], "Use your intelligence modifier for the DCs of spells from rods you use." ],
-					[ "{arcana/Rod Wielder}", [ 3, "3rd" ], "Add your Intelligence bonus against spell resistance rolls when you use a rod." ],
-					[ "{arcana/Scroll Mastery}", [ 6, "6th" ], "Use your intelligence modifier for the DCs of scrolls you use." ],
-					[ "{arcana/Silent Magic}", [ 3, "3rd" ], "Use {feat/Silent Spell} for free once per day." ],
-					[ "{arcana/Spell Blending}", [ 3, "3rd" ], "Learn a wizard spell." ],
-					[ "{arcana/Spell Shield}", [ 3, "3rd" ], "Gain an instant shield bonus." ],
-					[ "{arcana/Spell Trickery}", [ 12, "12th" ], "Add an illusion or enchantment to a dirty trick combat maneuver." ],
-					[ "{arcana/Spellbreaker}", [ 9, "9th" ], "Gain {feat/Spellbreaker} as a bonus feat." ],
-					[ "{arcana/Spell-Scars}", [ 3, "3rd" ], "Gain the ability to use spell-scars." ],
-					[ "{arcana/Still Magic}", [ 3, "3rd" ], "Use {feat/Still Spell} for free once per day." ],
-					[ "{arcana/Tabris's Step}", [ 3, "3rd" ], "Gain the effects of {spell/water walk}." ],
-					[ "{arcana/Throwing Magus}", [ 3, "3rd" ], "Your weapon can gain the returning and throwing abilities, and you regain pool points when you hit." ],
-					[ "{arcana/Vision-Clouding Strike}", [ 9, "9th" ], "Your weapon can cloud the vision of your targets." ],
-					[ "{arcana/Wand Mastery}", [ 3, "3rd" ], "Use your intelligence modifier for the DCs of wands you use." ],
-					[ "{arcana/Wand Wielder}", [ 3, "3rd" ], "Use a wand or staff instead of casting a spell in *spell combat.*" ]
+					[ "‹arcana/Accurate Strike›", [ 9, "9th" ], "Your melee attacks become melee touch attacks." ],
+					[ "‹arcana/Aquatic Agility›", [ 6, "6th" ], "Gain water breathing and ignore the effects of rough water." ],
+					[ "‹arcana/Arcane Accuracy›", [ 3, "3rd" ], "Gain an insight bonus to attack." ],
+					[ "‹arcana/Arcane Cloak›", [ 3, "3rd" ], "Add your Intelligence bonus to Stealth checks and Bluff checks to hide." ],
+					[ "‹arcana/Arcane Dealer›", [ 6, "6th" ], "Gain the ‹feat/Deadly Dealer› feat." ],
+					[ "‹arcana/Arcane Deed›", [ 3, "3rd" ], "Learn a swashbuckler deed." ],
+					[ "‹arcana/Arcane Edge›", [ 9, "9th" ], "Add bleed damage to an attack." ],
+					[ "‹arcana/Arcane Redoubt›", [ 3, "3rd" ], "Add your shield bonus as a touch AC bonus." ],
+					[ "‹arcana/Arcane Redoubt, Greater›", [ 12, "12th" ], "Gain evasion when you use *arcane redoubt.*" ],
+					[ "‹arcana/Arcane Scent›", [ 3, "3rd" ], "Gain scent vs spellcasting creatures." ],
+					[ "‹arcana/Bane Blade›", [ 15, "15th" ], "Add *bane* to a weapon you wield." ],
+					[ "‹arcana/Book-Bound›", [ 3, "3rd" ], "Bonus to concentration while holding your spellbook." ],
+					[ "‹arcana/Broad Study›", [ 6, "6th" ], "Use spellstrike and spell combat with spells from another class." ],
+					[ "‹arcana/Circle of Order›", [ 9, "9th" ], "Dodge bonus vs chaotic creatures and effects." ],
+					[ "‹arcana/Close Range›", [ 3, "3rd" ], "Deliver ray spells as melee touch spells and with spellstrike." ],
+					[ "‹arcana/Concentrate›", [ 3, "3rd" ], "Reroll a concentration check." ],
+					[ "‹arcana/Critical Strike›", [ 12, "12th" ], "Add a touch spell to a critical hit." ],
+					[ "‹arcana/Dark Shifter›", [ 6, "6th" ], "Change the target of an ongoing spell effect with the darkness descriptor." ],
+					[ "‹arcana/Devoted Blade›", [ 12, "12th" ], "Add the anarchic, axiomatic, holy, or unholy special ability to your weapon." ],
+					[ "‹arcana/Dispelling Strike›", [ 9, "9th" ], "Your weapon can dispel magic." ],
+					[ "‹arcana/Disruptive›", [ 6, "6th" ], "Gain ‹feat/Disruptive› as a bonus feat." ],
+					[ "‹arcana/Distant Spellstrike›", [ 12, "12th" ], "Increase the range of a spell to your ranged weapon's range." ],
+					[ "‹arcana/Divinatory Strike›", [ 3, "3rd" ], "Gain deep knowledge about a creature you critically hit." ],
+					[ "‹arcana/Empowered Magic›", [ 6, "6th" ], "Use ‹feat/Empower Spell› for free once per day." ],
+					[ "‹arcana/Enduring Blade›", [ 6, "6th" ], "Your weapon enhancements can last longer than normal." ],
+					[ "‹arcana/Familiar›", [ 3, "3rd" ], "Gain a familiar, as a ‹class/wizard›." ],
+					[ "‹arcana/Flamboyant Arcana›", [ 3, "3rd" ], "Gain the derring-do and opportune parry and riposte deeds from the swashbuckler's list of deeds." ],
+					[ "‹arcana/Ghost Blade›", [ 9, "9th" ], "You can add brilliant energy and ghost touch special abilities to your weapons." ],
+					[ "‹arcana/Hasted Assault›", [ 9, "9th" ], "Become ‹spell/haste«d› temporarily." ],
+					[ "‹arcana/Intuitive Protection›", [ 3, "3rd" ], "You can protect yourself if you identify a summoning." ],
+					[ "‹arcana/Ki Arcana›", [ 6, "6th" ], "Use your arcane pool as ki points, and vice versa." ],
+					[ "‹arcana/Lingering Pain›", [ 3, "3rd" ], "The pain of your attack lingers, disrupting spellcasting." ],
+					[ "‹arcana/Maneuver Mastery›", [ 3, "3rd" ], "Use your magus level as your CMB for one maneuver." ],
+					[ "‹arcana/Maximized Magic›", [ 12, "12th" ], "Use ‹feat/Maximize Spell› for free once per day." ],
+					[ "‹arcana/Natural Spell Combat›", [ 3, "3rd" ], "Use spell combat with a natural attack." ],
+					[ "‹arcana/Planar Hunter›", [ 9, "9th" ], "You can add the planar and phase locking special abilities to your weapons." ],
+					[ "‹arcana/Pool Ray›", [ 3, "3rd" ], "Imbue your weapon with elemental power." ],
+					[ "‹arcana/Pool Strike›", [ 3, "3rd" ], "Imbue your hand with elemental power." ],
+					[ "‹arcana/Pool Strike, Arcing›", [ 12, "12th" ], "Hit more creatures with *pool strike.*" ],
+					[ "‹arcana/Pool Strike, Clinging›", [ 9, "9th" ], "Your *pool strike* hits again the next round." ],
+					[ "‹arcana/Pool Strike, Thunderous›", [ 6, "6th" ], "Your *pool strike* causes thunder damage and can deafen." ],
+					[ "‹arcana/Prescient Attack›", [ 6, "6th" ], "A creature you hit becomes easier to hit again." ],
+					[ "‹arcana/Prescient Defense›", [ 3, "3rd" ], "Gain greater defense against a creature you hit." ],
+					[ "‹arcana/Quickened Magic›", [ 15, "15th" ], "Use ‹feat/Quicken Spell› for free once per day." ],
+					[ "‹arcana/Rakshasa's Fortune›", [ 9, "9th" ], "Gain a bonus (or penalty) from a Harrow card when you cast a polymorph spell on yourself." ],
+					[ "‹arcana/Ranger Trap›", [ 10, "10th" ], "Learn a ‹ability/ranger trap<s›." ],
+					[ "‹arcana/Reach Magic›", [ 3, "3rd" ], "Use ‹feat/Reach Spell› for free once per day." ],
+					[ "‹arcana/Reach Spellstrike›", [ 9, "9th" ], "Ranged spellstrike increases a touch spell's range to \"Close\"." ],
+					[ "‹arcana/Reflection›", [ 15, "15th" ], "Reflect a spell back at its caster." ],
+					[ "‹arcana/Rod Mastery›", [ 3, "3rd" ], "Use your intelligence modifier for the DCs of spells from rods you use." ],
+					[ "‹arcana/Rod Wielder›", [ 3, "3rd" ], "Add your Intelligence bonus against spell resistance rolls when you use a rod." ],
+					[ "‹arcana/Scroll Mastery›", [ 6, "6th" ], "Use your intelligence modifier for the DCs of scrolls you use." ],
+					[ "‹arcana/Silent Magic›", [ 3, "3rd" ], "Use ‹feat/Silent Spell› for free once per day." ],
+					[ "‹arcana/Spell Blending›", [ 3, "3rd" ], "Learn a wizard spell." ],
+					[ "‹arcana/Spell Shield›", [ 3, "3rd" ], "Gain an instant shield bonus." ],
+					[ "‹arcana/Spell Trickery›", [ 12, "12th" ], "Add an illusion or enchantment to a dirty trick combat maneuver." ],
+					[ "‹arcana/Spellbreaker›", [ 9, "9th" ], "Gain ‹feat/Spellbreaker› as a bonus feat." ],
+					[ "‹arcana/Spell-Scars›", [ 3, "3rd" ], "Gain the ability to use spell-scars." ],
+					[ "‹arcana/Still Magic›", [ 3, "3rd" ], "Use ‹feat/Still Spell› for free once per day." ],
+					[ "‹arcana/Tabris's Step›", [ 3, "3rd" ], "Gain the effects of ‹spell/water walk›." ],
+					[ "‹arcana/Throwing Magus›", [ 3, "3rd" ], "Your weapon can gain the returning and throwing abilities, and you regain pool points when you hit." ],
+					[ "‹arcana/Vision-Clouding Strike›", [ 9, "9th" ], "Your weapon can cloud the vision of your targets." ],
+					[ "‹arcana/Wand Mastery›", [ 3, "3rd" ], "Use your intelligence modifier for the DCs of wands you use." ],
+					[ "‹arcana/Wand Wielder›", [ 3, "3rd" ], "Use a wand or staff instead of casting a spell in *spell combat.*" ]
 				],
 				"initialColumn": 0
 			}
@@ -259,8 +259,8 @@
 				[
 					"## Major Hexes",
 					"",
-					"{SOURCE Advanced Player's Guide}  ",
-					"Starting at 10th level, and every two levels thereafter, a witch can choose one of the following major hexes whenever she could select a new {ability/hex>es}.",
+					"‹SOURCE Advanced Player's Guide›  ",
+					"Starting at 10th level, and every two levels thereafter, a witch can choose one of the following major hexes whenever she could select a new ‹ability/hex<es›.",
 					"",
 					"---",
 					""
@@ -272,7 +272,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[hex/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[hex/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -287,7 +287,7 @@
 				[
 					"## Major Phrenic Amplifications",
 					"",
-					"{SOURCE Occult Adventures/63}  ",
+					"‹SOURCE Occult Adventures/63›  ",
 					"At 11th level and every 4 levels thereafter, a psychic can choose one of the following major amplifications in place of a phrenic amplification.",
 					"",
 					"---",
@@ -315,7 +315,7 @@
 				[
 					"## Masterful Tricks",
 					"",
-					"{SOURCE Occult Adventures}  ",
+					"‹SOURCE Occult Adventures›  ",
 					"At 12th level, a mesmerist can choose one of the following masterful tricks in place of a mesmerist trick. He gains an additional masterful trick every 2 levels thereafter. Using a masterful trick consumes two uses of the mesmerist trick class feature instead of one.",
 					"",
 					"---",
@@ -343,12 +343,12 @@
 				[
 					"## Master Ninja Tricks",
 					"",
-					"{SOURCE Ultimate Combat}  ",
-					"At 10th level, and every two levels thereafter, a ninja can select one of the following master tricks in place of a {ability/ninja trick>s}.",
+					"‹SOURCE Ultimate Combat›  ",
+					"At 10th level, and every two levels thereafter, a ninja can select one of the following master tricks in place of a ‹ability/ninja trick<s›.",
 					"",
 					"::h3[Primary Sneak Attack Trick]{jl}",
 					"",
-					"These tricks add effects to a ninja's {ability/sneak attack}. Only one of these tricks can be applied to an individual attack and the decision must be made before the attack is made.",
+					"These tricks add effects to a ninja's ‹ability/sneak attack›. Only one of these tricks can be applied to an individual attack and the decision must be made before the attack is made.",
 					""
 				],
 				{
@@ -358,7 +358,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -374,7 +374,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -390,7 +390,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				},
 				[
 					"",
@@ -404,7 +404,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},
@@ -420,8 +420,8 @@
 				[
 					"## Mercies",
 					"",
-					"{SOURCE PRPG Core Rulebook}  ",
-					"At 3rd level, and every three levels thereafter, a paladin can select one mercy. Each mercy adds an effect to the paladin's {ability/lay on hands} ability. Whenever the paladin uses lay on hands to heal damage to one target, the target also receives the additional effects from all of the mercies possessed by the paladin. A mercy can remove a condition caused by a curse, disease, or poison without curing the affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction that causes the condition.",
+					"‹SOURCE PRPG Core Rulebook›  ",
+					"At 3rd level, and every three levels thereafter, a paladin can select one mercy. Each mercy adds an effect to the paladin's ‹ability/lay on hands› ability. Whenever the paladin uses lay on hands to heal damage to one target, the target also receives the additional effects from all of the mercies possessed by the paladin. A mercy can remove a condition caused by a curse, disease, or poison without curing the affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction that causes the condition.",
 					"",
 					"::h3[3rd-Level Mercies]{jl}",
 					""
@@ -487,101 +487,101 @@
 		"description": [
 			"## Mysteries",
 			"",
-			"{SOURCE Advanced Player's Guide/45}  ",
+			"‹SOURCE Advanced Player's Guide/45›  ",
 			"Each oracle must choose from among the following mysteries. Unless otherwise noted, the DC to save against these revelations is equal to 10 + 1/2 the oracle's level + the oracle's Charisma modifier.",
 			"",
 			"| Mystery | Deities |",
 			"| --- | --- |",
-			"| @ripple[mystery/Ancestor] | {faith/Erastil}, {faith/Irori}, {faith/Pharasma} |",
-			"| @ripple[mystery/Apocalypse] | {faith/Gorum}, {faith/Rovagug} |",
-			"| @ripple[mystery/Ascetic] | {faith/Gozreh}, {faith/Irori} |",
-			"| @ripple[mystery/Battle] | {faith/Cayden Cailean}, {faith/Gorum}, {faith/Iomedae}, {faith/Rovagug} |",
-			"| @ripple[mystery/Bones] | {faith/Norgorber}, {faith/Pharasma}, {faith/Urgathoa} |",
-			"| @ripple[mystery/Dark Tapestry] | {faith/Lamashtu}, {faith/Norgorber}, {faith/Zon-Kuthon} |",
-			"| @ripple[mystery/Dragon] | {faith/Dahak}, {faith/General Susumu}, {faith/Nalinivati}, {faith/Ragadahn}, {faith/Shizuru} |",
-			"| @ripple[mystery/Elemental] | [Elemental Lords](main/faiths_pantheons), {faith/Gozreh}, {faith/Nethys}, {faith/Yamatsumi} |",
-			"| @ripple[mystery/Flame] | {faith/Asmodeus}, {faith/Sarenrae} |",
-			"| @ripple[mystery/Godclaw] | {faith/Abadar}, {faith/Asmodeus}, {faith/Iomedae}, {faith/Irori}, {faith/Torag} |",
-			"| @ripple[mystery/Heavens] | {faith/Desna}, {faith/Gozreh}, {faith/Pharasma}, {faith/Sarenrae} |",
-			"| @ripple[mystery/Intrigue] | {faith/Calistria}, {faith/Norgorber} |",
-			"| @ripple[mystery/Juju] | {faith/Wendo} |",
-			"| @ripple[mystery/Life] | {faith/Gozreh}, {faith/Pharasma}, {faith/Sarenrae} |",
-			"| @ripple[mystery/Lore] | {faith/Abadar}, {faith/Irori}, {faith/Nethys} |",
-			"| @ripple[mystery/Lunar] | {faith/Ashava}, {faith/Desna}, {faith/Groetus}, {faith/Jezelda}, {faith/Tsukiyo}, {faith/Zon-Kuthon} |",
-			"| @ripple[mystery/Metal] | {faith/Abadar}, {faith/Gorum}, {faith/Torag} |",
-			"| @ripple[mystery/Nature] | {faith/Erastil}, {faith/Gozreh} |",
-			"| @ripple[mystery/Occult] | {faith/Magdh}, {faith/Nethys}, {faith/Pharasma}, {faith/Tsukiyo} |",
-			"| @ripple[mystery/Outer Rifts] | {faith/Iomedae}, {faith/Groetus}, {faith/Lamashtu}, [Demon Lords](main/faiths_pantheons) |",
-			"| @ripple[mystery/Reaper] | {faith/Achaekek}, {faith/Groetus}, {faith/Pharasma} |",
-			"| @ripple[mystery/Shadow] | {faith/Groetus}, {faith/Lao Shu Po}, {faith/Tsukiyo}, {faith/Zon-Kuthon} |",
-			"| @ripple[mystery/Solar] | {faith/Desna}, {faith/Gozreh}, {faith/Iomedae}, {faith/Keltheald}, {faith/Lalaci}, {faith/Nurgal}, {faith/Sarenrae}, {faith/Ymeri} |",
-			"| @ripple[mystery/Spellscar] | {faith/Gozreh}, {faith/Lamashtu}, {faith/Nethys}, {faith/Zyphus} |",
-			"| @ripple[mystery/Stone] | {faith/Abadar}, {faith/Gorum}, {faith/Torag} |",
-			"| @ripple[mystery/Streets] | {faith/Cayden Cailean}, {faith/Milani}, {faith/Norgorber} |",
-			"| @ripple[mystery/Succor] | {faith/Milani}, {faith/Pharasma}, {faith/Qi Zhong}, {faith/Sarenrae} |",
-			"| @ripple[mystery/Time] | {faith/Gozreh}, {faith/Nethys}, {faith/Pharasma} |",
-			"| @ripple[mystery/Volcano] | {faith/Flauros}, {faith/Mhar}, {faith/Rovagug}, {faith/Valani}, {faith/Yamatsumi}, {faith/Ymeri} |",
-			"| @ripple[mystery/Waves] | {faith/Gozreh}, {faith/Pharasma} |",
-			"| @ripple[mystery/Whimsy] | {faith/The Green Mother}, {faith/The Lantern King}, {faith/Ng}, {faith/Shyka} |",
-			"| @ripple[mystery/Wind] | {faith/Gozreh}, {faith/Shelyn} |",
-			"| @ripple[mystery/Winter] | {faith/Gorum}, {faith/Gozreh}, {faith/Kostchtchie}, {faith/Ng}, {faith/Rovagug} |",
-			"| @ripple[mystery/Wood] | {faith/Erastil}, {faith/Gozreh} |",
+			"| @ripple[mystery/Ancestor] | ‹faith/Erastil›, ‹faith/Irori›, ‹faith/Pharasma› |",
+			"| @ripple[mystery/Apocalypse] | ‹faith/Gorum›, ‹faith/Rovagug› |",
+			"| @ripple[mystery/Ascetic] | ‹faith/Gozreh›, ‹faith/Irori› |",
+			"| @ripple[mystery/Battle] | ‹faith/Cayden Cailean›, ‹faith/Gorum›, ‹faith/Iomedae›, ‹faith/Rovagug› |",
+			"| @ripple[mystery/Bones] | ‹faith/Norgorber›, ‹faith/Pharasma›, ‹faith/Urgathoa› |",
+			"| @ripple[mystery/Dark Tapestry] | ‹faith/Lamashtu›, ‹faith/Norgorber›, ‹faith/Zon-Kuthon› |",
+			"| @ripple[mystery/Dragon] | ‹faith/Dahak›, ‹faith/General Susumu›, ‹faith/Nalinivati›, ‹faith/Ragadahn›, ‹faith/Shizuru› |",
+			"| @ripple[mystery/Elemental] | [Elemental Lords](main/faiths_pantheons), ‹faith/Gozreh›, ‹faith/Nethys›, ‹faith/Yamatsumi› |",
+			"| @ripple[mystery/Flame] | ‹faith/Asmodeus›, ‹faith/Sarenrae› |",
+			"| @ripple[mystery/Godclaw] | ‹faith/Abadar›, ‹faith/Asmodeus›, ‹faith/Iomedae›, ‹faith/Irori›, ‹faith/Torag› |",
+			"| @ripple[mystery/Heavens] | ‹faith/Desna›, ‹faith/Gozreh›, ‹faith/Pharasma›, ‹faith/Sarenrae› |",
+			"| @ripple[mystery/Intrigue] | ‹faith/Calistria›, ‹faith/Norgorber› |",
+			"| @ripple[mystery/Juju] | ‹faith/Wendo› |",
+			"| @ripple[mystery/Life] | ‹faith/Gozreh›, ‹faith/Pharasma›, ‹faith/Sarenrae› |",
+			"| @ripple[mystery/Lore] | ‹faith/Abadar›, ‹faith/Irori›, ‹faith/Nethys› |",
+			"| @ripple[mystery/Lunar] | ‹faith/Ashava›, ‹faith/Desna›, ‹faith/Groetus›, ‹faith/Jezelda›, ‹faith/Tsukiyo›, ‹faith/Zon-Kuthon› |",
+			"| @ripple[mystery/Metal] | ‹faith/Abadar›, ‹faith/Gorum›, ‹faith/Torag› |",
+			"| @ripple[mystery/Nature] | ‹faith/Erastil›, ‹faith/Gozreh› |",
+			"| @ripple[mystery/Occult] | ‹faith/Magdh›, ‹faith/Nethys›, ‹faith/Pharasma›, ‹faith/Tsukiyo› |",
+			"| @ripple[mystery/Outer Rifts] | ‹faith/Iomedae›, ‹faith/Groetus›, ‹faith/Lamashtu›, [Demon Lords](main/faiths_pantheons) |",
+			"| @ripple[mystery/Reaper] | ‹faith/Achaekek›, ‹faith/Groetus›, ‹faith/Pharasma› |",
+			"| @ripple[mystery/Shadow] | ‹faith/Groetus›, ‹faith/Lao Shu Po›, ‹faith/Tsukiyo›, ‹faith/Zon-Kuthon› |",
+			"| @ripple[mystery/Solar] | ‹faith/Desna›, ‹faith/Gozreh›, ‹faith/Iomedae›, ‹faith/Keltheald›, ‹faith/Lalaci›, ‹faith/Nurgal›, ‹faith/Sarenrae›, ‹faith/Ymeri› |",
+			"| @ripple[mystery/Spellscar] | ‹faith/Gozreh›, ‹faith/Lamashtu›, ‹faith/Nethys›, ‹faith/Zyphus› |",
+			"| @ripple[mystery/Stone] | ‹faith/Abadar›, ‹faith/Gorum›, ‹faith/Torag› |",
+			"| @ripple[mystery/Streets] | ‹faith/Cayden Cailean›, ‹faith/Milani›, ‹faith/Norgorber› |",
+			"| @ripple[mystery/Succor] | ‹faith/Milani›, ‹faith/Pharasma›, ‹faith/Qi Zhong›, ‹faith/Sarenrae› |",
+			"| @ripple[mystery/Time] | ‹faith/Gozreh›, ‹faith/Nethys›, ‹faith/Pharasma› |",
+			"| @ripple[mystery/Volcano] | ‹faith/Flauros›, ‹faith/Mhar›, ‹faith/Rovagug›, ‹faith/Valani›, ‹faith/Yamatsumi›, ‹faith/Ymeri› |",
+			"| @ripple[mystery/Waves] | ‹faith/Gozreh›, ‹faith/Pharasma› |",
+			"| @ripple[mystery/Whimsy] | ‹faith/The Green Mother›, ‹faith/The Lantern King›, ‹faith/Ng›, ‹faith/Shyka› |",
+			"| @ripple[mystery/Wind] | ‹faith/Gozreh›, ‹faith/Shelyn› |",
+			"| @ripple[mystery/Winter] | ‹faith/Gorum›, ‹faith/Gozreh›, ‹faith/Kostchtchie›, ‹faith/Ng›, ‹faith/Rovagug› |",
+			"| @ripple[mystery/Wood] | ‹faith/Erastil›, ‹faith/Gozreh› |",
 			"",
 			"::h3[Mysteries by Deity]{jl}",
 			"",
 			"| Deity | Mysteries |",
 			"| --- | --- |",
-			"| @ripple[faith/Abadar] | {mystery/Godclaw}, {mystery/Lore}, {mystery/Metal}, {mystery/Stone} |",
-			"| @ripple[faith/Achaekek] | {mystery/Reaper} |",
-			"| @ripple[faith/Ashava] | {mystery/Lunar} |",
-			"| @ripple[faith/Asmodeus] | {mystery/Flame}, {mystery/Godclaw} |",
-			"| @ripple[faith/Calistria] | {mystery/Intrigue} |",
-			"| @ripple[faith/Cayden Cailean] | {mystery/Battle}, {mystery/Streets} |",
-			"| @ripple[faith/Dahak] | {mystery/Dragon} |",
-			"| @ripple[main/faiths<Demon\\| /Lords>pantheons] | {mystery/Outer Rifts} |",
-			"| @ripple[faith/Desna] | {mystery/Heavens}, {mystery/Lunar}, {mystery/Solar} |",
-			"| @ripple[main/faiths<Elemental\\| /Lords>pantheons] | {mystery/Elemental} |",
-			"| @ripple[faith/Erastil] | {mystery/Ancestor}, {mystery/Nature}, {mystery/Wood} |",
-			"| @ripple[faith/Flauros] | {mystery/Volcano} |",
-			"| @ripple[faith/General Susumu] | {mystery/Dragon} |",
-			"| @ripple[faith/Gorum] | {mystery/Apocalypse}, {mystery/Battle}, {mystery/Metal}, {mystery/Stone}, {mystery/Winter} |",
-			"| @ripple[faith/Gozreh] | {mystery/Ascetic}, {mystery/Elemental}, {mystery/Heavens}, {mystery/Life}, {mystery/Nature}, {mystery/Solar}, {mystery/Spellscar}, {mystery/Time}, {mystery/Waves}, {mystery/Wind}, {mystery/Winter}, {mystery/Wood} |",
-			"| @ripple[faith/the_<Green Mother/, The] | {mystery/Whimsy} |",
-			"| @ripple[faith/Groetus] | {mystery/Lunar}, {mystery/Outer Rifts}, {mystery/Reaper}, {mystery/Shadow} |",
-			"| @ripple[faith/Iomedae] | {mystery/Battle}, {mystery/Godclaw}, {mystery/Outer Rifts}, {mystery/Solar} |",
-			"| @ripple[faith/Irori] | {mystery/Ancestor}, {mystery/Ascetic}, {mystery/Godclaw}, {mystery/Lore} |",
-			"| @ripple[faith/Jezelda] | {mystery/Lunar} |",
-			"| @ripple[faith/Keltheald] | {mystery/Solar} |",
-			"| @ripple[faith/Kostchtchie] | {mystery/Winter} |",
-			"| @ripple[faith/Lalaci] | {mystery/Solar} |",
-			"| @ripple[faith/Lamashtu] | {mystery/Dark Tapestry}, {mystery/Outer Rifts}, {mystery/Spellscar} |",
-			"| @ripple[faith/the_<Lantern King/, The] | {mystery/Whimsy} |",
-			"| @ripple[faith/Lao Shu Po] | {mystery/Shadow} |",
-			"| @ripple[faith/Magdh] | {mystery/Occult} |",
-			"| @ripple[faith/Mhar] | {mystery/Volcano} |",
-			"| @ripple[faith/Milani] | {mystery/Streets}, {mystery/Succor} |",
-			"| @ripple[faith/Nalinivati] | {mystery/Dragon} |",
-			"| @ripple[faith/Nethys] | {mystery/Elemental}, {mystery/Lore}, {mystery/Occult}, {mystery/Spellscar}, {mystery/Time} |",
-			"| @ripple[faith/Ng] | {mystery/Whimsy}, {mystery/Winter} |",
-			"| @ripple[faith/Norgorber] | {mystery/Bones}, {mystery/Dark Tapestry}, {mystery/Intrigue}, {mystery/Streets} |",
-			"| @ripple[faith/Nurgal] | {mystery/Solar} |",
-			"| @ripple[faith/Pharasma] | {mystery/Ancestor}, {mystery/Bones}, {mystery/Heavens}, {mystery/Life}, {mystery/Occult}, {mystery/Reaper}, {mystery/Succor}, {mystery/Time}, {mystery/Waves} |",
-			"| @ripple[faith/Qi Zhong] | {mystery/Succor} |",
-			"| @ripple[faith/Ragadahn] | {mystery/Dragon} |",
-			"| @ripple[faith/Rovagug] | {mystery/Apocalypse}, {mystery/Battle}, {mystery/Volcano}, {mystery/Winter} |",
-			"| @ripple[faith/Sarenrae] | {mystery/Flame}, {mystery/Heavens}, {mystery/Life}, {mystery/Solar}, {mystery/Succor} |",
-			"| @ripple[faith/Shelyn] | {mystery/Wind} |",
-			"| @ripple[faith/Shizuru] | {mystery/Dragon} |",
-			"| @ripple[faith/Shyka] | {mystery/Whimsy} |",
-			"| @ripple[faith/Torag] | {mystery/Godclaw}, {mystery/Metal}, {mystery/Stone} |",
-			"| @ripple[faith/Tsukiyo] | {mystery/Lunar}, {mystery/Occult}, {mystery/Shadow} |",
-			"| @ripple[faith/Urgathoa] | {mystery/Bones} |",
-			"| @ripple[faith/Valani] | {mystery/Volcano} |",
-			"| @ripple[faith/Wendo] | {mystery/Juju} |",
-			"| @ripple[faith/Yamatsumi] | {mystery/Elemental}, {mystery/Volcano} |",
-			"| @ripple[faith/Ymeri] | {mystery/Solar}, {mystery/Volcano} |",
-			"| @ripple[faith/Zon-Kuthon] | {mystery/Dark Tapestry}, {mystery/Lunar}, {mystery/Shadow} |",
-			"| @ripple[faith/Zyphus] | {mystery/Spellscar} |"
+			"| @ripple[faith/Abadar] | ‹mystery/Godclaw›, ‹mystery/Lore›, ‹mystery/Metal›, ‹mystery/Stone› |",
+			"| @ripple[faith/Achaekek] | ‹mystery/Reaper› |",
+			"| @ripple[faith/Ashava] | ‹mystery/Lunar› |",
+			"| @ripple[faith/Asmodeus] | ‹mystery/Flame›, ‹mystery/Godclaw› |",
+			"| @ripple[faith/Calistria] | ‹mystery/Intrigue› |",
+			"| @ripple[faith/Cayden Cailean] | ‹mystery/Battle›, ‹mystery/Streets› |",
+			"| @ripple[faith/Dahak] | ‹mystery/Dragon› |",
+			"| @ripple[main/faiths>Demon» «Lords<pantheons] | ‹mystery/Outer Rifts› |",
+			"| @ripple[faith/Desna] | ‹mystery/Heavens›, ‹mystery/Lunar›, ‹mystery/Solar› |",
+			"| @ripple[main/faiths>Elemental» «Lords<pantheons] | ‹mystery/Elemental› |",
+			"| @ripple[faith/Erastil] | ‹mystery/Ancestor›, ‹mystery/Nature›, ‹mystery/Wood› |",
+			"| @ripple[faith/Flauros] | ‹mystery/Volcano› |",
+			"| @ripple[faith/General Susumu] | ‹mystery/Dragon› |",
+			"| @ripple[faith/Gorum] | ‹mystery/Apocalypse›, ‹mystery/Battle›, ‹mystery/Metal›, ‹mystery/Stone›, ‹mystery/Winter› |",
+			"| @ripple[faith/Gozreh] | ‹mystery/Ascetic›, ‹mystery/Elemental›, ‹mystery/Heavens›, ‹mystery/Life›, ‹mystery/Nature›, ‹mystery/Solar›, ‹mystery/Spellscar›, ‹mystery/Time›, ‹mystery/Waves›, ‹mystery/Wind›, ‹mystery/Winter›, ‹mystery/Wood› |",
+			"| @ripple[faith/the_>Green Mother«, The] | ‹mystery/Whimsy› |",
+			"| @ripple[faith/Groetus] | ‹mystery/Lunar›, ‹mystery/Outer Rifts›, ‹mystery/Reaper›, ‹mystery/Shadow› |",
+			"| @ripple[faith/Iomedae] | ‹mystery/Battle›, ‹mystery/Godclaw›, ‹mystery/Outer Rifts›, ‹mystery/Solar› |",
+			"| @ripple[faith/Irori] | ‹mystery/Ancestor›, ‹mystery/Ascetic›, ‹mystery/Godclaw›, ‹mystery/Lore› |",
+			"| @ripple[faith/Jezelda] | ‹mystery/Lunar› |",
+			"| @ripple[faith/Keltheald] | ‹mystery/Solar› |",
+			"| @ripple[faith/Kostchtchie] | ‹mystery/Winter› |",
+			"| @ripple[faith/Lalaci] | ‹mystery/Solar› |",
+			"| @ripple[faith/Lamashtu] | ‹mystery/Dark Tapestry›, ‹mystery/Outer Rifts›, ‹mystery/Spellscar› |",
+			"| @ripple[faith/the_>Lantern King«, The] | ‹mystery/Whimsy› |",
+			"| @ripple[faith/Lao Shu Po] | ‹mystery/Shadow› |",
+			"| @ripple[faith/Magdh] | ‹mystery/Occult› |",
+			"| @ripple[faith/Mhar] | ‹mystery/Volcano› |",
+			"| @ripple[faith/Milani] | ‹mystery/Streets›, ‹mystery/Succor› |",
+			"| @ripple[faith/Nalinivati] | ‹mystery/Dragon› |",
+			"| @ripple[faith/Nethys] | ‹mystery/Elemental›, ‹mystery/Lore›, ‹mystery/Occult›, ‹mystery/Spellscar›, ‹mystery/Time› |",
+			"| @ripple[faith/Ng] | ‹mystery/Whimsy›, ‹mystery/Winter› |",
+			"| @ripple[faith/Norgorber] | ‹mystery/Bones›, ‹mystery/Dark Tapestry›, ‹mystery/Intrigue›, ‹mystery/Streets› |",
+			"| @ripple[faith/Nurgal] | ‹mystery/Solar› |",
+			"| @ripple[faith/Pharasma] | ‹mystery/Ancestor›, ‹mystery/Bones›, ‹mystery/Heavens›, ‹mystery/Life›, ‹mystery/Occult›, ‹mystery/Reaper›, ‹mystery/Succor›, ‹mystery/Time›, ‹mystery/Waves› |",
+			"| @ripple[faith/Qi Zhong] | ‹mystery/Succor› |",
+			"| @ripple[faith/Ragadahn] | ‹mystery/Dragon› |",
+			"| @ripple[faith/Rovagug] | ‹mystery/Apocalypse›, ‹mystery/Battle›, ‹mystery/Volcano›, ‹mystery/Winter› |",
+			"| @ripple[faith/Sarenrae] | ‹mystery/Flame›, ‹mystery/Heavens›, ‹mystery/Life›, ‹mystery/Solar›, ‹mystery/Succor› |",
+			"| @ripple[faith/Shelyn] | ‹mystery/Wind› |",
+			"| @ripple[faith/Shizuru] | ‹mystery/Dragon› |",
+			"| @ripple[faith/Shyka] | ‹mystery/Whimsy› |",
+			"| @ripple[faith/Torag] | ‹mystery/Godclaw›, ‹mystery/Metal›, ‹mystery/Stone› |",
+			"| @ripple[faith/Tsukiyo] | ‹mystery/Lunar›, ‹mystery/Occult›, ‹mystery/Shadow› |",
+			"| @ripple[faith/Urgathoa] | ‹mystery/Bones› |",
+			"| @ripple[faith/Valani] | ‹mystery/Volcano› |",
+			"| @ripple[faith/Wendo] | ‹mystery/Juju› |",
+			"| @ripple[faith/Yamatsumi] | ‹mystery/Elemental›, ‹mystery/Volcano› |",
+			"| @ripple[faith/Ymeri] | ‹mystery/Solar›, ‹mystery/Volcano› |",
+			"| @ripple[faith/Zon-Kuthon] | ‹mystery/Dark Tapestry›, ‹mystery/Lunar›, ‹mystery/Shadow› |",
+			"| @ripple[faith/Zyphus] | ‹mystery/Spellscar› |"
 		],
 		"topLink": [ "Oracle", "class/oracle" ]
 	},
@@ -595,12 +595,12 @@
 				[
 					"## Ninja Tricks",
 					"",
-					"{SOURCE Ultimate Combat}  ",
+					"‹SOURCE Ultimate Combat›  ",
 					"As a ninja continues her training, she learns a number of tricks that allow her to confuse her foes and grant her supernatural abilities. Starting at 2nd level, a ninja gains one ninja trick. She gains one additional ninja trick for every 2 levels attained after 2nd. Unless otherwise noted, a ninja cannot select an individual ninja trick more than once.",
 					"",
 					"::h3[Primary Sneak Attack Tricks]{jl}",
 					"",
-					"These tricks add effects to a ninja's {ability/sneak attack}. Only one of these tricks can be applied to an individual attack and the decision must be made before the attack is made.",
+					"These tricks add effects to a ninja's ‹ability/sneak attack›. Only one of these tricks can be applied to an individual attack and the decision must be made before the attack is made.",
 					""
 				],
 				{
@@ -610,7 +610,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -626,7 +626,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -642,7 +642,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				},
 				[
 					"",
@@ -656,7 +656,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-^S-! !-DESC-!"
+					"template": "!-BQ-!@hll[ninjatrick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-^S-! !-DESC-!"
 				}
 			]
 		},
@@ -671,7 +671,7 @@
 				[
 					"## Swashbuckler Deeds",
 					"",
-					"{SOURCE Advanced Class Guide/56-59}  ",
+					"‹SOURCE Advanced Class Guide/56-59›  ",
 					"Swashbucklers spend panache points to accomplish deeds. Most deeds grant the swashbuckler a momentary bonus or effect, but some provide longer-lasting effects. Some deeds remain in effect while the swashbuckler has at least 1 panache point, but do not require expending panache to be maintained. A swashbuckler can only perform deeds of her level or lower. Unless otherwise noted, a deed can be performed multiple successive times, as long as the swashbuckler has or spends the required number of panache points to perform the deed.",
 					"",
 					"::h3[1st-Level Deeds]{jl}",
@@ -680,7 +680,7 @@
 				{
 					"limit": "1",
 					"join": [ "", "", "" ],
-					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
+					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -690,7 +690,7 @@
 				{
 					"limit": "3",
 					"join": [ "", "", "" ],
-					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
+					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -700,7 +700,7 @@
 				{
 					"limit": "7",
 					"join": [ "", "", "" ],
-					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
+					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -710,7 +710,7 @@
 				{
 					"limit": "11",
 					"join": [ "", "", "" ],
-					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
+					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -720,7 +720,7 @@
 				{
 					"limit": "15",
 					"join": [ "", "", "" ],
-					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
+					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
 				},
 				[
 					"",
@@ -730,7 +730,7 @@
 				{
 					"limit": "19",
 					"join": [ "", "", "" ],
-					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-!"
+					"template": "@hll[swashdeed/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-!"
 				}
 			]
 		},
@@ -742,25 +742,25 @@
 		"description": [
 			"## Renowned Deeds",
 			"",
-			"{SOURCE Chronicle of Legends/5}",
+			"‹SOURCE Chronicle of Legends/5›",
 			"",
 			"Swashbucklers and gunslingers perform impressive deeds through their grit and panache, but some are capable of truly spectacular acts known as renowned deeds. A swashbuckler or gunslinger (though not members of other classes) can select a renowned deed for her class upon reaching the class level listed in the deed's description. This replaces the specific listed deed or deeds; if the character would not gain the appropriate deeds, she cannot select the renowned deed, as if selecting an archetype.",
 			"",
 			"### 1st-Level Renowned Deed",
 			"",
-			"**Vengeful Heart (Ex):** Some swashbucklers are driven by vengeance above all else. At 1st level, the swashbuckler gains the {class/samurai/'s} resolve class feature, treating her swashbuckler level as her samurai level. Whenever the swashbuckler spends a use of resolve, she must also spend a point of panache or a use of charmed life, or the use of resolve has no effect. This deed replaces the {swashdeed/derring-do} deed and one other 1st-level deed.",
+			"**Vengeful Heart (Ex):** Some swashbucklers are driven by vengeance above all else. At 1st level, the swashbuckler gains the ‹class/samurai«'s› resolve class feature, treating her swashbuckler level as her samurai level. Whenever the swashbuckler spends a use of resolve, she must also spend a point of panache or a use of charmed life, or the use of resolve has no effect. This deed replaces the ‹swashdeed/derring-do› deed and one other 1st-level deed.",
 			"",
 			"### 3rd-Level Renowned Deed",
 			"",
-			"**Hilt Hammer (Ex):** Precise strikes with a slender blade do little to hinder amorphous or incorporeal creatures; when encountering such threats, some swashbucklers abandon precision in favor of brutish strikes. At 3rd level, the swashbuckler can activate this deed before rolling the attack roll when making an attack that would benefit from precise strike. An attack altered this way deals only half the normal damage from precise strike, but this damage is not treated as {misc/precision damage}. This deed alters (but does not replace) the {swashdeed/precise strike} deed and replaces one other 3rd-level deed.",
+			"**Hilt Hammer (Ex):** Precise strikes with a slender blade do little to hinder amorphous or incorporeal creatures; when encountering such threats, some swashbucklers abandon precision in favor of brutish strikes. At 3rd level, the swashbuckler can activate this deed before rolling the attack roll when making an attack that would benefit from precise strike. An attack altered this way deals only half the normal damage from precise strike, but this damage is not treated as ‹misc/precision damage›. This deed alters (but does not replace) the ‹swashdeed/precise strike› deed and replaces one other 3rd-level deed.",
 			"",
 			"### 7th-Level Renowned Deed",
 			"",
-			"**Dodging Dance (Ex):** The swashbuckler moves around her opponents' attacks to open them up for strikes. At 7th level, a swashbuckler can spend 1 panache point to move up to half her speed as a move action. If a creature makes an attack of opportunity against her due to this movement, she can attempt an Acrobatics check with a DC equal to the attacking creature's CMD. If she succeeds, the attack of opportunity misses, and the swashbuckler can make an attack of opportunity against the attacking creature instead. She can attempt to evade multiple attacks of opportunity during this movement, but the DC of the Acrobatics check increases by 2 for each additional opponent that makes an attack of opportunity against her during this movement. If the swashbuckler has an ability that grants her additional attacks of opportunity, she can use them to respond to multiple missed attacks of opportunity with her own attacks. This deed replaces the {swashdeed/swashbuckler's grace} deed and one other 7th-level deed.",
+			"**Dodging Dance (Ex):** The swashbuckler moves around her opponents' attacks to open them up for strikes. At 7th level, a swashbuckler can spend 1 panache point to move up to half her speed as a move action. If a creature makes an attack of opportunity against her due to this movement, she can attempt an Acrobatics check with a DC equal to the attacking creature's CMD. If she succeeds, the attack of opportunity misses, and the swashbuckler can make an attack of opportunity against the attacking creature instead. She can attempt to evade multiple attacks of opportunity during this movement, but the DC of the Acrobatics check increases by 2 for each additional opponent that makes an attack of opportunity against her during this movement. If the swashbuckler has an ability that grants her additional attacks of opportunity, she can use them to respond to multiple missed attacks of opportunity with her own attacks. This deed replaces the ‹swashdeed/swashbuckler's grace› deed and one other 7th-level deed.",
 			"",
 			"### 11-Level Renowned Deed",
 			"",
-			"**Vengeful Soul (Ex):** Sometimes vengeance can take years or even decades, forcing the aggrieved swashbuckler to push the limits of her endurance. At 11th level, the swashbuckler gains the {class/samurai/'s} greater resolve class feature. At 19th level, the swashbuckler gains the samurai's true resolve class feature. The swashbuckler must have the *vengeful heart* renowned deed to select this deed. This deed replaces the {swashdeed/subtle blade} and {swashdeed/cheat death} deeds, plus an additional 11th-level deed."
+			"**Vengeful Soul (Ex):** Sometimes vengeance can take years or even decades, forcing the aggrieved swashbuckler to push the limits of her endurance. At 11th level, the swashbuckler gains the ‹class/samurai«'s› greater resolve class feature. At 19th level, the swashbuckler gains the samurai's true resolve class feature. The swashbuckler must have the *vengeful heart* renowned deed to select this deed. This deed replaces the ‹swashdeed/subtle blade› and ‹swashdeed/cheat death› deeds, plus an additional 11th-level deed."
 		],
 		"topLink": [ "Swashbuckler", "class/swashbuckler" ]
 	},
@@ -773,7 +773,7 @@
 				[
 					"## Mesmerist Tricks",
 					"",
-					"{SOURCE Occult Adventures}  ",
+					"‹SOURCE Occult Adventures›  ",
 					"A mesmerist can create hypnotic bonds with his allies, implanting magical suggestions in their minds that he can later activate. Each day, he can implant a number of these tricks equal to 1/2 his mesmerist level (minimum 1) plus his Charisma bonus (if any). He can have only one trick implanted at a given time, and implanting a new trick ends the previous one (the mesmerist still loses the use of this ability he spent on the previous trick).",
 					"",
 					"To implant a trick, the mesmerist must take a standard action and either touch a willing creature or implant the trick in himself. A creature can be the subject of only one mesmerist trick at a time. The mesmerist can activate the trick as a free action when a triggering condition is met (as defined in the trick's description), even if it isn't his turn. The subject must be within medium range (100 feet + 10 feet per level) for the mesmerist to trigger the trick. The mesmerist monitors for the trick's triggering condition through a subtle telepathic connection, so he doesn't need line of sight to trigger it&mdash;but anything that blocks telepathic contact prevents him from triggering tricks. An implanted trick lasts until the next time the mesmerist regains his spells.",
@@ -792,7 +792,7 @@
 						"regex": ">*(.+)",
 						"replacement": "$1"
 					},
-					"template": "!-BQ-!@hll[trick/!-TITLE-!??SUFFIX:/ !-SUFFIX-!??:] !-DESC-! !-^S-!"
+					"template": "!-BQ-!@hll[trick/!-TITLE-!??SUFFIX:« !-SUFFIX-!??:] !-DESC-! !-^S-!"
 				}
 			]
 		},

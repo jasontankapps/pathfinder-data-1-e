@@ -13,7 +13,7 @@
 		"description": [
 			"## Staff of Blessed Relief",
 			"",
-			"{SOURCE Ultimate Equipment/195}  ",
+			"‹SOURCE Ultimate Equipment/195›  ",
 			"**Aura** faint conjuration; **CL** 8th  ",
 			"**Slot** none; **Price** 7,200 gp; **Weight** 5 lbs.",
 			"",
@@ -25,7 +25,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/bless}, {spell/create water}, {spell/stabilize}; **Cost** 3,600 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/bless›, ‹spell/create water›, ‹spell/stabilize›; **Cost** 3,600 gp"
 		]
 	},
 	"staff_of_minor_arcana": {
@@ -34,7 +34,7 @@
 		"description": [
 			"## Staff of Minor Arcana",
 			"",
-			"{SOURCE Ultimate Equipment/198}  ",
+			"‹SOURCE Ultimate Equipment/198›  ",
 			"**Aura** moderate abjuration and evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.",
 			"",
@@ -45,7 +45,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/magic missile}, {spell/shield}; **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/magic missile›, ‹spell/shield›; **Cost** 4,000 gp"
 		]
 	},
 	"staff_of_tricks": {
@@ -54,7 +54,7 @@
 		"description": [
 			"## Staff of Tricks",
 			"",
-			"{SOURCE Ultimate Equipment/203}  ",
+			"‹SOURCE Ultimate Equipment/203›  ",
 			"**Aura** moderate illusion; **CL** 8th  ",
 			"**Slot** none; **Price** 8,800 gp; **Weight** 3 lbs.",
 			"",
@@ -67,7 +67,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/ghost sound}, {spell/mage hand}, {spell/prestidigitation}, {spell/silent image}; **Cost** 4,400 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/ghost sound›, ‹spell/mage hand›, ‹spell/prestidigitation›, ‹spell/silent image›; **Cost** 4,400 gp"
 		]
 	},
 	"staff_of_the_scout": {
@@ -76,7 +76,7 @@
 		"description": [
 			"## Staff of the Scout",
 			"",
-			"{SOURCE Ultimate Equipment/202}  ",
+			"‹SOURCE Ultimate Equipment/202›  ",
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** none; **Price** 9,600 gp; **Weight** 4 lbs.",
 			"",
@@ -88,7 +88,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/know direction}, {spell/pass without trace}, {spell/summon nature's ally I}; **Cost** 4,800 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/know direction›, ‹spell/pass without trace›, ‹spell/summon nature's ally I›; **Cost** 4,800 gp"
 		]
 	},
 	"monstrification_staff": {
@@ -97,18 +97,18 @@
 		"description": [
 			"## Monstrification Staff",
 			"",
-			"{SOURCE Advanced Class Guide/221}  ",
+			"‹SOURCE Advanced Class Guide/221›  ",
 			"**Aura** faint transmutation (polymorph); **CL** 8th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 4 lbs.",
 			"",
-			"The figures on this scrimshawed ivory staff slowly morph from one monstrous figure into another, and often grow to take up more space on the staff's surface. An {class/alchemist} or other character capable of creating extracts can pour an extract of *enlarge person* over this staff to restore 1 charge to the staff or pour an extract of *monstrous physique I* over it to restore 3 charges.",
+			"The figures on this scrimshawed ivory staff slowly morph from one monstrous figure into another, and often grow to take up more space on the staff's surface. An ‹class/alchemist› or other character capable of creating extracts can pour an extract of *enlarge person* over this staff to restore 1 charge to the staff or pour an extract of *monstrous physique I* over it to restore 3 charges.",
 			"",
 			"- *Enlarge person* (1 charge)",
 			"- *Monstrous physique I* (3 charges)",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/enlarge person}, {spell/monstrous physique I}, creator must be an alchemist; **Cost** 6,150 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/enlarge person›, ‹spell/monstrous physique I›, creator must be an alchemist; **Cost** 6,150 gp"
 		]
 	},
 	"gravediggers_spade": {
@@ -117,11 +117,11 @@
 		"description": [
 			"## Gravedigger's Spade",
 			"",
-			"{SOURCE Advanced Class Guide/221}  ",
+			"‹SOURCE Advanced Class Guide/221›  ",
 			"**Aura** moderate conjuration and evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 12,150 gp; **Weight** 4 lbs.",
 			"",
-			"The sturdy, well-polished oaken shaft and the sharp blade attached to its tip allow this magical staff to be used as a masterwork {eq-misc/shovel} when not employed in spellcasting.",
+			"The sturdy, well-polished oaken shaft and the sharp blade attached to its tip allow this magical staff to be used as a masterwork ‹eq-misc/shovel› when not employed in spellcasting.",
 			"",
 			"- *Expeditious excavation* (1 charge)",
 			"- *Create pit* (2 charges)",
@@ -129,7 +129,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/expeditious excavation}, {spell/create pit}, {spell/spiked pit}; **Cost** 6,100 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/expeditious excavation›, ‹spell/create pit›, ‹spell/spiked pit›; **Cost** 6,100 gp"
 		]
 	},
 	"spark_staff": {
@@ -138,7 +138,7 @@
 		"description": [
 			"## Spark Staff",
 			"",
-			"{SOURCE Advanced Class Guide/221}  ",
+			"‹SOURCE Advanced Class Guide/221›  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 12,650 gp; **Weight** 2 lbs.",
 			"",
@@ -150,7 +150,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {feat/Intensified Spell}, {spell/shocking grasp}, {spell/lightning bolt}; **Cost** 6,475 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹feat/Intensified Spell›, ‹spell/shocking grasp›, ‹spell/lightning bolt›; **Cost** 6,475 gp"
 		]
 	},
 	"ember_staff": {
@@ -159,11 +159,11 @@
 		"description": [
 			"## Ember Staff",
 			"",
-			"{SOURCE Advanced Class Guide/221}  ",
+			"‹SOURCE Advanced Class Guide/221›  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 13,100 gp; **Weight** 3 lbs.",
 			"",
-			"The reddish brown bark of this charred manzanita branch shows only in patches. The staff is a mere 3 feet long and balanced for use as a {rule/masterwork>_w} {eq-weapon/club}.",
+			"The reddish brown bark of this charred manzanita branch shows only in patches. The staff is a mere 3 feet long and balanced for use as a ‹rule/masterwork<_w› ‹eq-weapon/club›.",
 			"",
 			"When casting *produce flame* from the staff, its wielder can choose to set the end of the staff alight instead of producing the flame in her hand. This does not damage the staff, and the spell's damage is added to any melee attacks made with the staff.",
 			"",
@@ -173,7 +173,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/fireball}, {spell/produce flame}, {spell/scorching ray}; **Cost** 6,700 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/fireball›, ‹spell/produce flame›, ‹spell/scorching ray›; **Cost** 6,700 gp"
 		]
 	},
 	"staff_of_eidolons": {
@@ -182,7 +182,7 @@
 		"description": [
 			"## Staff of Eidolons",
 			"",
-			"{SOURCE Ultimate Equipment/196}  ",
+			"‹SOURCE Ultimate Equipment/196›  ",
 			"**Aura** moderate conjuration and transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 14,400 gp; **Weight** 5 lbs.",
 			"",
@@ -194,7 +194,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/lesser evolution surge}, {spell/lesser rejuvenate eidolon}, {spell/unfetter}; **Cost** 7,200 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/lesser evolution surge›, ‹spell/lesser rejuvenate eidolon›, ‹spell/unfetter›; **Cost** 7,200 gp"
 		]
 	},
 	"staff_of_understanding": {
@@ -206,7 +206,7 @@
 		"description": [
 			"## Staff of Understanding",
 			"",
-			"{SOURCE Ultimate Equipment/203;Pathfinder Society Field Guide/54}  ",
+			"‹SOURCE Ultimate Equipment/203;Pathfinder Society Field Guide/54›  ",
 			"**Aura** moderate divination; **CL** 8th  ",
 			"**Slot** none; **Price** 14,400 gp; **Weight** 5 lbs.",
 			"",
@@ -218,7 +218,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/comprehend languages}, {spell/detect thoughts}, {spell/tongues}; **Cost** 7,200 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/comprehend languages›, ‹spell/detect thoughts›, ‹spell/tongues›; **Cost** 7,200 gp"
 		]
 	},
 	"staff_of_accompaniment": {
@@ -227,11 +227,11 @@
 		"description": [
 			"## Staff of Accompaniment",
 			"",
-			"{SOURCE Ultimate Equipment/194}  ",
+			"‹SOURCE Ultimate Equipment/194›  ",
 			"**Aura** moderate evocation and transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 14,800 gp; **Weight** 5 lbs.",
 			"",
-			"This staff is adorned with musical notes. When held and used with {ability/bardic performance}, it accompanies the song with the sounds of wind instruments, granting a +2 competence bonus on {skill/Perform} checks. The staff allows use of the following spells:",
+			"This staff is adorned with musical notes. When held and used with ‹ability/bardic performance›, it accompanies the song with the sounds of wind instruments, granting a +2 competence bonus on ‹skill/Perform› checks. The staff allows use of the following spells:",
 			"",
 			"- *Chord of shards* (1 charge)",
 			"- *Saving finale* (1 charge)",
@@ -239,7 +239,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/allegro}, {spell/chord of shards}, {spell/saving finale}; **Cost** 7,400 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/allegro›, ‹spell/chord of shards›, ‹spell/saving finale›; **Cost** 7,400 gp"
 		]
 	},
 	"crook_of_cildhureen": {
@@ -248,7 +248,7 @@
 		"description": [
 			"## Crook of Cildhureen",
 			"",
-			"{SOURCE Realm of the Fellnight Queen/29}  ",
+			"‹SOURCE Realm of the Fellnight Queen/29›  ",
 			"**Aura** moderate illusion; **CL** 9th  ",
 			"**Slot** none; **Price** 16,800 gp; **Weight** 4 lbs.",
 			"",
@@ -262,7 +262,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/major image}, {spell/shadow conjuration}, {spell/shadow evocation}; **Cost** 8,400 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/major image›, ‹spell/shadow conjuration›, ‹spell/shadow evocation›; **Cost** 8,400 gp"
 		]
 	},
 	"staff_of_charming": {
@@ -274,7 +274,7 @@
 		"description": [
 			"## Staff of Charming",
 			"",
-			"{SOURCE Ultimate Equipment/195;PRPG Core Rulebook/492}  ",
+			"‹SOURCE Ultimate Equipment/195;PRPG Core Rulebook/492›  ",
 			"**Aura** moderate enchantment; **CL** 8th  ",
 			"**Slot** none; **Price** 17,600 gp; **Weight** 5 lbs.",
 			"",
@@ -285,7 +285,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/charm monster}, {spell/charm person}; **Cost** 8,800 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/charm monster›, ‹spell/charm person›; **Cost** 8,800 gp"
 		]
 	},
 	"staff_of_fire": {
@@ -297,7 +297,7 @@
 		"description": [
 			"## Staff of Fire",
 			"",
-			"{SOURCE Ultimate Equipment/197;PRPG Core Rulebook/494}  ",
+			"‹SOURCE Ultimate Equipment/197;PRPG Core Rulebook/494›  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 18,950 gp; **Weight** 5 lbs.",
 			"",
@@ -309,7 +309,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/burning hands}, {spell/fireball}, {spell/wall of fire}; **Cost** 9,475 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/burning hands›, ‹spell/fireball›, ‹spell/wall of fire›; **Cost** 9,475 gp"
 		]
 	},
 	"staff_of_belittling": {
@@ -318,7 +318,7 @@
 		"description": [
 			"## Staff of Belittling",
 			"",
-			"{SOURCE Ultimate Equipment/194}  ",
+			"‹SOURCE Ultimate Equipment/194›  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 20,000 gp; **Weight** 5 lbs.",
 			"",
@@ -331,7 +331,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/mass reduce person}, {spell/reduce animal}, {spell/reduce person}, {spell/shrink item}; **Cost** 10,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/mass reduce person›, ‹spell/reduce animal›, ‹spell/reduce person›, ‹spell/shrink item›; **Cost** 10,000 gp"
 		]
 	},
 	"staff_of_courage": {
@@ -343,7 +343,7 @@
 		"description": [
 			"## Staff of Courage",
 			"",
-			"{SOURCE Ultimate Equipment/195;Pathfinder Society Field Guide/54}  ",
+			"‹SOURCE Ultimate Equipment/195;Pathfinder Society Field Guide/54›  ",
 			"**Aura** moderate enchantment; **CL** 8th  ",
 			"**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.",
 			"",
@@ -356,7 +356,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/bless}, {spell/prayer}, {spell/remove fear}, {spell/remove paralysis}; **Cost** 10,400 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/bless›, ‹spell/prayer›, ‹spell/remove fear›, ‹spell/remove paralysis›; **Cost** 10,400 gp"
 		]
 	},
 	"staff_of_feast_and_famine": {
@@ -365,7 +365,7 @@
 		"description": [
 			"## Staff of Feast and Famine",
 			"",
-			"{SOURCE Ultimate Equipment/197}  ",
+			"‹SOURCE Ultimate Equipment/197›  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.",
 			"",
@@ -379,7 +379,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/create water}, {spell/cup of dust}, {spell/feast of ashes}, {spell/goodberry}, {spell/purify food and drink}; **Cost** 10,400 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/create water›, ‹spell/cup of dust›, ‹spell/feast of ashes›, ‹spell/goodberry›, ‹spell/purify food and drink›; **Cost** 10,400 gp"
 		]
 	},
 	"staff_of_internal_assault": {
@@ -388,7 +388,7 @@
 		"description": [
 			"## Staff of Internal Assault",
 			"",
-			"{SOURCE Dragonslayer's Handbook/31}",
+			"‹SOURCE Dragonslayer's Handbook/31›",
 			"",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.",
@@ -401,7 +401,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/calcific touch}, {spell/corrosive touch}, {spell/touch injection}; **Cost** 10,400 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/calcific touch›, ‹spell/corrosive touch›, ‹spell/touch injection›; **Cost** 10,400 gp"
 		]
 	},
 	"staff_of_rigor": {
@@ -413,7 +413,7 @@
 		"description": [
 			"## Staff of Rigor",
 			"",
-			"{SOURCE Ultimate Equipment/200;Advanced Player's Guide/298}  ",
+			"‹SOURCE Ultimate Equipment/200;Advanced Player's Guide/298›  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.",
 			"",
@@ -427,7 +427,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/align weapon}, {spell/bane}, {spell/cause fear}, {spell/command}, {spell/magic weapon}; **Cost** 10,400 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/align weapon›, ‹spell/bane›, ‹spell/cause fear›, ‹spell/command›, ‹spell/magic weapon›; **Cost** 10,400 gp"
 		]
 	},
 	"shory_acolytes_staff": {
@@ -436,11 +436,11 @@
 		"description": [
 			"## Shory Acolyte's Staff",
 			"",
-			"{SOURCE Advanced Class Origins/29}  ",
+			"‹SOURCE Advanced Class Origins/29›  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 21,600 gp; **Weight** 1 lb.",
 			"",
-			"These slender crystal shafts span 4 to 5 feet in length, with facets covered in deeply etched white runes of unknown make. Since the only known examples of these staves were discovered near Mount Dowama in the Mwangi Expanse, most scholars conjecture that they are relics of the Shory. The staff's holder is protected by a continuous {spell/feather fall} effect. Additionally, the staff contains the following spells:",
+			"These slender crystal shafts span 4 to 5 feet in length, with facets covered in deeply etched white runes of unknown make. Since the only known examples of these staves were discovered near Mount Dowama in the Mwangi Expanse, most scholars conjecture that they are relics of the Shory. The staff's holder is protected by a continuous ‹spell/feather fall› effect. Additionally, the staff contains the following spells:",
 			"",
 			"- *Shocking grasp* (1 charge)",
 			"- *Levitate* (2 charges)",
@@ -448,7 +448,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/fly}, {spell/levitate}, {spell/shocking grasp}; **Cost** 10,800 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/fly›, ‹spell/levitate›, ‹spell/shocking grasp›; **Cost** 10,800 gp"
 		]
 	},
 	"cephalopod_staff": {
@@ -457,21 +457,21 @@
 		"description": [
 			"## Cephalopod Staff",
 			"",
-			"{SOURCE Horror Adventures/217}  ",
+			"‹SOURCE Horror Adventures/217›  ",
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** none; **Price** 22,800 gp; **Weight** 4 lbs.",
 			"",
-			"This dark mahogany staff is carved in the shape of a squid's tentacle and smells strongly of seawater. When grasped, the staff animates, writhing momentarily until it regains its rigid, wooden form. As a swift action, the wielder can transform the staff into a long, flexible weapon that functions as a {rule/masterwork>_w} {eq-weapon/whip}. The staff reverts to its normal form at the beginning of the wielder's next turn.",
+			"This dark mahogany staff is carved in the shape of a squid's tentacle and smells strongly of seawater. When grasped, the staff animates, writhing momentarily until it regains its rigid, wooden form. As a swift action, the wielder can transform the staff into a long, flexible weapon that functions as a ‹rule/masterwork<_w› ‹eq-weapon/whip›. The staff reverts to its normal form at the beginning of the wielder's next turn.",
 			"",
 			"The staff allows the use of the following spells.",
 			"",
-			"- {spell/Summon monster II} ({monster/octopus} or {monster/squid} only; 1 charge)",
+			"- ‹spell/Summon monster II› (‹monster/octopus› or ‹monster/squid› only; 1 charge)",
 			"- *Black tentacles* (3 charges)",
-			"- *Summon monster VI* ({monster/giant octopus} only; 5 charges)",
+			"- *Summon monster VI* (‹monster/giant octopus› only; 5 charges)",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/black tentacles}, {spell/summon monster VI}; **Cost** 11,400 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/black tentacles›, ‹spell/summon monster VI›; **Cost** 11,400 gp"
 		]
 	},
 	"staff_of_swarming_insects": {
@@ -483,18 +483,18 @@
 		"description": [
 			"## Staff of Swarming Insects",
 			"",
-			"{SOURCE Ultimate Equipment/201;PRPG Core Rulebook/495}  ",
+			"‹SOURCE Ultimate Equipment/201;PRPG Core Rulebook/495›  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 22,800 gp; **Weight** 5 lbs.",
 			"",
-			"Made of twisted {eq-material/darkwood} covered with knots and nodules resembling crawling insects (which occasionally seem to move), this staff allows use of the following spells:",
+			"Made of twisted ‹eq-material/darkwood› covered with knots and nodules resembling crawling insects (which occasionally seem to move), this staff allows use of the following spells:",
 			"",
 			"- *Summon swarm* (1 charge)",
 			"- *Insect plague* (3 charges)",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/insect plague}, {spell/summon swarm}; **Cost** 11,400 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/insect plague›, ‹spell/summon swarm›; **Cost** 11,400 gp"
 		]
 	},
 	"staff_of_authority": {
@@ -503,11 +503,11 @@
 		"description": [
 			"## Staff of Authority",
 			"",
-			"{SOURCE Ultimate Equipment/194}  ",
+			"‹SOURCE Ultimate Equipment/194›  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 23,000 gp; **Weight** 5 lbs.",
 			"",
-			"This stout ironbound staff functions as a +1/+1 {eq-weapon/quarterstaff}. It allows the use of the following spells:",
+			"This stout ironbound staff functions as a +1/+1 ‹eq-weapon/quarterstaff›. It allows the use of the following spells:",
 			"",
 			"- *Forced quiet* (1 charge)",
 			"- *Interrogation* (1 charge)",
@@ -515,7 +515,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/forced quiet}, {spell/interrogation}, {spell/oppressive boredom}; **Cost** 11,800 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/forced quiet›, ‹spell/interrogation›, ‹spell/oppressive boredom›; **Cost** 11,800 gp"
 		]
 	},
 	"staff_of_radiance": {
@@ -527,7 +527,7 @@
 		"description": [
 			"## Staff of Radiance",
 			"",
-			"{SOURCE Ultimate Equipment/200;Pathfinder Society Field Guide/54}  ",
+			"‹SOURCE Ultimate Equipment/200;Pathfinder Society Field Guide/54›  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 23,200 gp; **Weight** 5 lbs.",
 			"",
@@ -539,7 +539,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/daylight}, {spell/glitterdust}, {spell/light}, {spell/searing light}; **Cost** 11,600 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/daylight›, ‹spell/glitterdust›, ‹spell/light›, ‹spell/searing light›; **Cost** 11,600 gp"
 		]
 	},
 	"zenj_totem_staff": {
@@ -548,7 +548,7 @@
 		"description": [
 			"## Zenj Totem Staff",
 			"",
-			"{SOURCE Advanced Class Origins/29}  ",
+			"‹SOURCE Advanced Class Origins/29›  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 24,800 gp; **Weight** 2 lbs.",
 			"",
@@ -561,11 +561,11 @@
 			"- *Aura sight* (3 charges)",
 			"- *Summon nature's ally IV* (animals only, 4 charges)",
 			"",
-			"A {class/shaman} who wields the staff can cast *summon nature's ally II* and *summon nature's ally IV* from the staff even though those spells are not on her spell list. Additionally, once per day when a {class/druid} or shaman uses the staff to cast either of those spells, she can instead summon the creature to perform a single task for her with a duration of up to 1 hour per level. If summoned in this fashion, the summoned creature refuses to enter combat and is immediately dismissed if it takes damage from any source.",
+			"A ‹class/shaman› who wields the staff can cast *summon nature's ally II* and *summon nature's ally IV* from the staff even though those spells are not on her spell list. Additionally, once per day when a ‹class/druid› or shaman uses the staff to cast either of those spells, she can instead summon the creature to perform a single task for her with a duration of up to 1 hour per level. If summoned in this fashion, the summoned creature refuses to enter combat and is immediately dismissed if it takes damage from any source.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/aura sight}, {spell/protection from evil}, {spell/summon nature's ally II}, {spell/summon nature's ally IV},[^N] {spell/zone of truth}; **Cost** 12,400 gp",
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/aura sight›, ‹spell/protection from evil›, ‹spell/summon nature's ally II›, ‹spell/summon nature's ally IV›,[^N] ‹spell/zone of truth›; **Cost** 12,400 gp",
 			"",
 			"[^N]: The original source lists *summon nature's ally I* and *II* as requirements, which feels like an error. Consult your GM."
 		]
@@ -579,7 +579,7 @@
 		"description": [
 			"## Staff of Size Alteration",
 			"",
-			"{SOURCE Ultimate Equipment/200;PRPG Core Rulebook/495}  ",
+			"‹SOURCE Ultimate Equipment/200;PRPG Core Rulebook/495›  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 26,150 gp; **Weight** 5 lbs.",
 			"",
@@ -593,7 +593,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/enlarge person}, {spell/mass enlarge person}, {spell/mass reduce person}, {spell/reduce person}, {spell/shrink item}; **Cost** 13,075 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/enlarge person›, ‹spell/mass enlarge person›, ‹spell/mass reduce person›, ‹spell/reduce person›, ‹spell/shrink item›; **Cost** 13,075 gp"
 		]
 	},
 	"staff_of_curchanus": {
@@ -602,11 +602,11 @@
 		"description": [
 			"## Staff of Curchanus",
 			"",
-			"{SOURCE Pathfinder #122: Into the Shattered Continent/77}  ",
+			"‹SOURCE Pathfinder #122: Into the Shattered Continent/77›  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 26,600 gp; **Weight** 5 lbs.",
 			"",
-			"This stout staff is made of wood and capped with steel. Elongated carvings of smiling beasts adorn its length. The staff of Curchanus functions as a +1/+1 {eq-weapon/quarterstaff} and allows the use of the following spells.",
+			"This stout staff is made of wood and capped with steel. Elongated carvings of smiling beasts adorn its length. The staff of Curchanus functions as a +1/+1 ‹eq-weapon/quarterstaff› and allows the use of the following spells.",
 			"",
 			"- *Charm animal* (1 charge)",
 			"- *Longstrider* (1 charge)",
@@ -614,11 +614,11 @@
 			"- *Speak with animals* (1 charge)",
 			"- *Greater longstrider* (2 charges)",
 			"",
-			"If the staff's wielder has the {feat/Fleet} feat, castings of *greater longstrider, longstrider,* or *monkey fish* from the staff are automatically extended, as the {feat/Extend Spell} feat. If the wielder has the {feat/Animal Affinity} feat, then *charm animal* or *speak with animals* spells cast from the staff are automatically extended, as the Extend Spell feat. This does not increase the spells' level or casting time.",
+			"If the staff's wielder has the ‹feat/Fleet› feat, castings of *greater longstrider, longstrider,* or *monkey fish* from the staff are automatically extended, as the ‹feat/Extend Spell› feat. If the wielder has the ‹feat/Animal Affinity› feat, then *charm animal* or *speak with animals* spells cast from the staff are automatically extended, as the Extend Spell feat. This does not increase the spells' level or casting time.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/charm animal}, {spell/greater longstrider}, {spell/longstrider}, {spell/monkey fish}, {spell/speak with animals}; **Cost** 13,600 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/charm animal›, ‹spell/greater longstrider›, ‹spell/longstrider›, ‹spell/monkey fish›, ‹spell/speak with animals›; **Cost** 13,600 gp"
 		]
 	},
 	"staff_of_journeys": {
@@ -630,7 +630,7 @@
 		"description": [
 			"## Staff of Journeys",
 			"",
-			"{SOURCE Ultimate Equipment/198;Advanced Player's Guide/297}  ",
+			"‹SOURCE Ultimate Equipment/198;Advanced Player's Guide/297›  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 27,200 gp; **Weight** 5 lbs.",
 			"",
@@ -644,7 +644,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/detect snares and pits}, {spell/endure elements}, {spell/freedom of movement}, {spell/longstrider}, {spell/pass without trace}; **Cost** 13,600 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/detect snares and pits›, ‹spell/endure elements›, ‹spell/freedom of movement›, ‹spell/longstrider›, ‹spell/pass without trace›; **Cost** 13,600 gp"
 		]
 	},
 	"staff_of_acid": {
@@ -653,7 +653,7 @@
 		"description": [
 			"## Staff of Acid",
 			"",
-			"{SOURCE Ultimate Equipment/194}  ",
+			"‹SOURCE Ultimate Equipment/194›  ",
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** none; **Price** 28,600 gp; **Weight** 5 lbs.",
 			"",
@@ -665,7 +665,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/acid arrow}, {spell/acid fog}, {spell/corrosive touch}; **Cost** 14,300 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/acid arrow›, ‹spell/acid fog›, ‹spell/corrosive touch›; **Cost** 14,300 gp"
 		]
 	},
 	"chaotic_staff": {
@@ -674,7 +674,7 @@
 		"description": [
 			"## Chaotic Staff",
 			"",
-			"{SOURCE Ultimate Equipment/192}  ",
+			"‹SOURCE Ultimate Equipment/192›  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.",
 			"",
@@ -687,7 +687,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/align weapon}, {spell/chaos hammer}, {spell/detect evil}, {spell/magic circle against law}; **Cost** 14,800 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/align weapon›, ‹spell/chaos hammer›, ‹spell/detect evil›, ‹spell/magic circle against law›; **Cost** 14,800 gp"
 		]
 	},
 	"holy_staff": {
@@ -696,7 +696,7 @@
 		"description": [
 			"## Holy Staff",
 			"",
-			"{SOURCE Ultimate Equipment/193}  ",
+			"‹SOURCE Ultimate Equipment/193›  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.",
 			"",
@@ -709,7 +709,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/align weapon}, {spell/detect evil}, {spell/holy smite}, {spell/magic circle against evil}; **Cost** 14,800 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/align weapon›, ‹spell/detect evil›, ‹spell/holy smite›, ‹spell/magic circle against evil›; **Cost** 14,800 gp"
 		]
 	},
 	"lawful_staff": {
@@ -718,7 +718,7 @@
 		"description": [
 			"## Lawful Staff",
 			"",
-			"{SOURCE Ultimate Equipment/194}  ",
+			"‹SOURCE Ultimate Equipment/194›  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.",
 			"",
@@ -731,7 +731,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/align weapon}, {spell/detect chaos}, {spell/magic circle against chaos}, {spell/order's wrath}; **Cost** 14,800 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/align weapon›, ‹spell/detect chaos›, ‹spell/magic circle against chaos›, ‹spell/order's wrath›; **Cost** 14,800 gp"
 		]
 	},
 	"staff_of_healing": {
@@ -743,7 +743,7 @@
 		"description": [
 			"## Staff of Healing",
 			"",
-			"{SOURCE Ultimate Equipment/197;PRPG Core Rulebook/494}  ",
+			"‹SOURCE Ultimate Equipment/197;PRPG Core Rulebook/494›  ",
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.",
 			"",
@@ -756,7 +756,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/cure serious wounds}, {spell/lesser restoration}, {spell/remove blindness//deafness}, {spell/remove disease}; **Cost** 14,800 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/cure serious wounds›, ‹spell/lesser restoration›, ‹spell/remove blindness/deafness›, ‹spell/remove disease›; **Cost** 14,800 gp"
 		]
 	},
 	"unholy_staff": {
@@ -765,7 +765,7 @@
 		"description": [
 			"## Unholy Staff",
 			"",
-			"{SOURCE Ultimate Equipment/203}  ",
+			"‹SOURCE Ultimate Equipment/203›  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.",
 			"",
@@ -778,7 +778,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/align weapon}, {spell/detect good}, {spell/magic circle against good}, {spell/unholy blight}; **Cost** 14,800 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/align weapon›, ‹spell/detect good›, ‹spell/magic circle against good›, ‹spell/unholy blight›; **Cost** 14,800 gp"
 		]
 	},
 	"hungering_staff": {
@@ -787,13 +787,13 @@
 		"description": [
 			"## Hungering Staff",
 			"",
-			"{SOURCE Horror Adventures/217}  ",
+			"‹SOURCE Horror Adventures/217›  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 30,000 gp; **Weight** 4 lbs.",
 			"",
-			"A ring of curved fangs circles the tip of this 7-foot-long bone staff. When *magic mouth* is cast from the staff, the resulting illusory mouth is filled with countless needle-like fangs. After *magic mouth* is cast, one charge remains drained from the staff and can't be recharged until the user {misc/dismiss/es} the spell or until the spell discharges.",
+			"A ring of curved fangs circles the tip of this 7-foot-long bone staff. When *magic mouth* is cast from the staff, the resulting illusory mouth is filled with countless needle-like fangs. After *magic mouth* is cast, one charge remains drained from the staff and can't be recharged until the user ‹misc/dismiss«es› the spell or until the spell discharges.",
 			"",
-			"When casting {spell/beast shape I} from the staff, the caster can choose only creatures with bite attacks, and the user's bite attacks deal damage as if the assumed shape were {misc/two sizes larger}.",
+			"When casting ‹spell/beast shape I› from the staff, the caster can choose only creatures with bite attacks, and the user's bite attacks deal damage as if the assumed shape were ‹misc/two sizes larger›.",
 			"",
 			"The staff allows the use of the following spells.",
 			"",
@@ -803,7 +803,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/beast shape I}, {spell/hungry pit}, {spell/magic mouth}; **Cost** 15,500 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/beast shape I›, ‹spell/hungry pit›, ‹spell/magic mouth›; **Cost** 15,500 gp"
 		]
 	},
 	"staff_of_the_master": {
@@ -812,21 +812,21 @@
 		"description": [
 			"## Staff of the Master",
 			"",
-			"{SOURCE Ultimate Equipment/202}  ",
+			"‹SOURCE Ultimate Equipment/202›  ",
 			"**Aura** moderate necromancy; **CL** 8th  ",
 			"**Slot** none; **Price** 30,000 gp; **Weight** 5 lbs.",
 			"",
-			"Often given as gifts to apprentices upon reaching the rank of master, these staves come in eight different varieties, one for each school of magic. This particular staff is for the school of necromancy. Aside from acting as a +1/+1 {eq-weapon/quarterstaff}, this staff allows use of the following spells:",
+			"Often given as gifts to apprentices upon reaching the rank of master, these staves come in eight different varieties, one for each school of magic. This particular staff is for the school of necromancy. Aside from acting as a +1/+1 ‹eq-weapon/quarterstaff›, this staff allows use of the following spells:",
 			"",
 			"- *Ray of enfeeblement* (1 charge)",
 			"- *Spectral hand* (1 charge)",
 			"- *Vampiric touch* (2 charges)",
 			"",
-			"Additionally, the wielder can apply any {main/metamagic feat/s} she knows when she casts the spells above from the staff. This consumes a number of charges equal to the number of spell levels increased by the feat. She can apply no more than one metamagic feat to a spell cast from the staff in this way. Using the staff for this purpose does not increase the casting time of the spell.",
+			"Additionally, the wielder can apply any ‹main/metamagic feat«s› she knows when she casts the spells above from the staff. This consumes a number of charges equal to the number of spell levels increased by the feat. She can apply no more than one metamagic feat to a spell cast from the staff in this way. Using the staff for this purpose does not increase the casting time of the spell.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/ray of enfeeblement}, {spell/spectral hand}, {spell/vampiric touch}; **Cost** 15,300 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/ray of enfeeblement›, ‹spell/spectral hand›, ‹spell/vampiric touch›; **Cost** 15,300 gp"
 		]
 	},
 	"staff_of_spiders": {
@@ -835,19 +835,19 @@
 		"description": [
 			"## Staff of Spiders",
 			"",
-			"{SOURCE Ultimate Equipment/201}  ",
+			"‹SOURCE Ultimate Equipment/201›  ",
 			"**Aura** moderate conjuratio and transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 30,200 gp; **Weight** 5 lbs.",
 			"",
-			"This staff is constructed from thousands of carefully prepared spiderwebs packed around a base and layered to make a shaft just as hard as oak, if not harder. A staff of spiders functions as a +1/+1 {eq-weapon/quarterstaff}. It allows the use of the following spells:",
+			"This staff is constructed from thousands of carefully prepared spiderwebs packed around a base and layered to make a shaft just as hard as oak, if not harder. A staff of spiders functions as a +1/+1 ‹eq-weapon/quarterstaff›. It allows the use of the following spells:",
 			"",
 			"- *Spider climb* (1 charge)",
 			"- *Web* (1 charge)",
-			"- *Summon spider* (as *summon monster III,* but only summons 1d3 {monster/giant spider/s}; 2 charges)",
+			"- *Summon spider* (as *summon monster III,* but only summons 1d3 ‹monster/giant spider«s›; 2 charges)",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/spider climb}, {spell/summon monster III}, {spell/web}; **Cost** 15,400 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/spider climb›, ‹spell/summon monster III›, ‹spell/web›; **Cost** 15,400 gp"
 		]
 	},
 	"oaken_staff": {
@@ -856,21 +856,21 @@
 		"description": [
 			"## Oaken Staff",
 			"",
-			"{SOURCE Heroes of the Wild/29}  ",
+			"‹SOURCE Heroes of the Wild/29›  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 31,800 gp; **Weight** 4 lbs.",
 			"",
-			"This thick, 5-foot-long wooden staff is made of rough oak and has two branches growing from the top. The branches twist together and bend back toward the body of the staff, and their leaves often rustle as if blown by a light breeze even when the surrounding air is still. An oaken staff functions as a +1 {magic-enh/called} {magic-enh/spell storing} {eq-weapon/quarterstaff}, but can't be used as a {misc/double} weapon (only one end of the staff is usable in combat). The staff allows use of the following spells.",
+			"This thick, 5-foot-long wooden staff is made of rough oak and has two branches growing from the top. The branches twist together and bend back toward the body of the staff, and their leaves often rustle as if blown by a light breeze even when the surrounding air is still. An oaken staff functions as a +1 ‹magic-enh/called› ‹magic-enh/spell storing› ‹eq-weapon/quarterstaff›, but can't be used as a ‹misc/double› weapon (only one end of the staff is usable in combat). The staff allows use of the following spells.",
 			"",
 			"- *Barkskin* (1 charge)",
 			"- *Plant growth* (2 charges)",
 			"- *Speak with plants* (2 charges)",
 			"",
-			"The wielder is immune to the terrain effects of the *plant growth* spell cast from the staff. In addition, {spell/shillelagh} can be cast on an oaken staff despite it being a magic quarterstaff, increasing its enhancement bonus by 1. The staff retains the effects of the *shillelagh* spell even if wielded by someone other than the spell's caster. Once per day, a character wielding an oaken staff who has either *barkskin* or *plant growth* on her class spell list can cast *speak with plants* from the staff without attempting a {skill/Use Magic Device} check (this expends 3 charges instead of 2).",
+			"The wielder is immune to the terrain effects of the *plant growth* spell cast from the staff. In addition, ‹spell/shillelagh› can be cast on an oaken staff despite it being a magic quarterstaff, increasing its enhancement bonus by 1. The staff retains the effects of the *shillelagh* spell even if wielded by someone other than the spell's caster. Once per day, a character wielding an oaken staff who has either *barkskin* or *plant growth* on her class spell list can cast *speak with plants* from the staff without attempting a ‹skill/Use Magic Device› check (this expends 3 charges instead of 2).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/barkskin}, {spell/plant growth}, {spell/speak with plants}, {spell/teleport}, creator must be a caster of at least 12th level; **Cost** 16,050 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/barkskin›, ‹spell/plant growth›, ‹spell/speak with plants›, ‹spell/teleport›, creator must be a caster of at least 12th level; **Cost** 16,050 gp"
 		]
 	},
 	"staff_of_electricity": {
@@ -879,7 +879,7 @@
 		"description": [
 			"## Staff of Electricity",
 			"",
-			"{SOURCE Ultimate Equipment/196}  ",
+			"‹SOURCE Ultimate Equipment/196›  ",
 			"**Aura** moderate evocation; **CL** 11th  ",
 			"**Slot** none; **Price** 31,900 gp; **Weight** 5 lbs.",
 			"",
@@ -891,7 +891,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/chain lightning}, {spell/lightning bolt}, {spell/shocking grasp}; **Cost** 15,950 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/chain lightning›, ‹spell/lightning bolt›, ‹spell/shocking grasp›; **Cost** 15,950 gp"
 		]
 	},
 	"heretics_bane": {
@@ -900,7 +900,7 @@
 		"description": [
 			"## Heretic's Bane",
 			"",
-			"{SOURCE Ultimate Equipment/193}  ",
+			"‹SOURCE Ultimate Equipment/193›  ",
 			"**Aura** moderate enchantment; **CL** 8th  ",
 			"**Slot** none; **Price** 32,000 gp; **Weight** 5 lbs.",
 			"",
@@ -913,7 +913,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/castigate}, {spell/command}, {spell/denounce}, {spell/zone of truth}; **Cost** 16,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/castigate›, ‹spell/command›, ‹spell/denounce›, ‹spell/zone of truth›; **Cost** 16,000 gp"
 		]
 	},
 	"many_eyed_staff": {
@@ -922,11 +922,11 @@
 		"description": [
 			"## Many-Eyed Staff",
 			"",
-			"{SOURCE Horror Adventures/217}  ",
+			"‹SOURCE Horror Adventures/217›  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 32,000 gp; **Weight** 5 lbs.",
 			"",
-			"Whenever the user is holding this wooden staff, 10 bulging eyes carved along the length of the staff animate, granting the user a +5 competence bonus on {skill/Perception} checks as long as he is grasping the staff. As a move action, the wielder can select a creature within 100 feet and see through its eyes with no saving throw. The creature selected must be either a spider summoned with the staff or a creature {misc/blinded} by a *blindness/deafness* spell cast from the staff (the wielder ignores the *blindness/deafness* effect). The connection lasts as long as the wielder and the target creature remain within 100 feet of each other, though the wielder can end it as a free action. The effect also ends if the target was a blinded creature and regains the ability to see. The wielder is blinded while maintaining this connection.",
+			"Whenever the user is holding this wooden staff, 10 bulging eyes carved along the length of the staff animate, granting the user a +5 competence bonus on ‹skill/Perception› checks as long as he is grasping the staff. As a move action, the wielder can select a creature within 100 feet and see through its eyes with no saving throw. The creature selected must be either a spider summoned with the staff or a creature ‹misc/blinded› by a *blindness/deafness* spell cast from the staff (the wielder ignores the *blindness/deafness* effect). The connection lasts as long as the wielder and the target creature remain within 100 feet of each other, though the wielder can end it as a free action. The effect also ends if the target was a blinded creature and regains the ability to see. The wielder is blinded while maintaining this connection.",
 			"",
 			"The staff allows the use of the following spells.",
 			"",
@@ -936,7 +936,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/blindness//deafness}, {spell/prying eyes}, {spell/summon monster II}; **Cost** 16,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/blindness/deafness›, ‹spell/prying eyes›, ‹spell/summon monster II›; **Cost** 16,000 gp"
 		]
 	},
 	"musical_staff": {
@@ -945,7 +945,7 @@
 		"description": [
 			"## Musical Staff",
 			"",
-			"{SOURCE Ultimate Equipment/194}  ",
+			"‹SOURCE Ultimate Equipment/194›  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 32,000 gp; **Weight** 5 lbs.",
 			"",
@@ -956,11 +956,11 @@
 			"- *Sculpt sound* (2 charges)",
 			"- *Wall of sound* (2 charges)",
 			"",
-			"In addition, as a swift action, the wielder of the musical staff can cause it to transform into a string or wind instrument. Any {skill/Perform} skill checks made with the musical staff gain a +5 competence bonus. The staff can still be used to cast spells while it is an instrument, and it can revert back to a staff as a free action.",
+			"In addition, as a swift action, the wielder of the musical staff can cause it to transform into a string or wind instrument. Any ‹skill/Perform› skill checks made with the musical staff gain a +5 competence bonus. The staff can still be used to cast spells while it is an instrument, and it can revert back to a staff as a free action.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/ghost sound}, {spell/piercing shriek}, {spell/sculpt sound}, {spell/wall of sound}; **Cost** 16,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/ghost sound›, ‹spell/piercing shriek›, ‹spell/sculpt sound›, ‹spell/wall of sound›; **Cost** 16,000 gp"
 		]
 	},
 	"staff_of_souls": {
@@ -972,7 +972,7 @@
 		"description": [
 			"## Staff of Souls",
 			"",
-			"{SOURCE Ultimate Equipment/201;Advanced Player's Guide/298}  ",
+			"‹SOURCE Ultimate Equipment/201;Advanced Player's Guide/298›  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 32,800 gp; **Weight** 5 lbs.",
 			"",
@@ -986,7 +986,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/death ward}, {spell/deathwatch}, {spell/detect undead}, {spell/gentle repose}, {spell/speak with dead}; **Cost** 16,400 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/death ward›, ‹spell/deathwatch›, ‹spell/detect undead›, ‹spell/gentle repose›, ‹spell/speak with dead›; **Cost** 16,400 gp"
 		]
 	},
 	"staff_of_toxins": {
@@ -998,7 +998,7 @@
 		"description": [
 			"## Staff of Toxins",
 			"",
-			"{SOURCE Ultimate Equipment/202;Advanced Player's Guide/298}  ",
+			"‹SOURCE Ultimate Equipment/202;Advanced Player's Guide/298›  ",
 			"**Aura** moderate varies; **CL** 9th  ",
 			"**Slot** none; **Price** 34,200 gp; **Weight** 5 lbs.",
 			"",
@@ -1009,7 +1009,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/cloudkill}, {spell/stinking cloud}; **Cost** 17,100 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/cloudkill›, ‹spell/stinking cloud›; **Cost** 17,100 gp"
 		]
 	},
 	"staff_of_shrieking": {
@@ -1021,7 +1021,7 @@
 		"description": [
 			"## Staff of Shrieking",
 			"",
-			"{SOURCE Ultimate Equipment/200;Advanced Player's Guide/298}  ",
+			"‹SOURCE Ultimate Equipment/200;Advanced Player's Guide/298›  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 36,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1033,7 +1033,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/shatter}, {spell/shout}, {spell/sound burst}; **Cost** 18,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/shatter›, ‹spell/shout›, ‹spell/sound burst›; **Cost** 18,000 gp"
 		]
 	},
 	"staff_of_the_avenger": {
@@ -1042,11 +1042,11 @@
 		"description": [
 			"## Staff of the Avenger",
 			"",
-			"{SOURCE Ultimate Equipment/201}  ",
+			"‹SOURCE Ultimate Equipment/201›  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 37,310 gp; **Weight** 5 lbs.",
 			"",
-			"This shining golden staff is topped with a radiant gemstone that emits light like a {eq-misc/torch}. As a swift action, the wielder of the staff can cause it to change into a +2 {eq-weapon/lance}, although it retains its other abilities. It can be made to revert to its staff form as a free action. The staff allows use of the following spells:",
+			"This shining golden staff is topped with a radiant gemstone that emits light like a ‹eq-misc/torch›. As a swift action, the wielder of the staff can cause it to change into a +2 ‹eq-weapon/lance›, although it retains its other abilities. It can be made to revert to its staff form as a free action. The staff allows use of the following spells:",
 			"",
 			"- *Bless weapon* (1 charge, cast on the staff only)",
 			"- *Shield other* (1 charge)",
@@ -1055,7 +1055,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/bless weapon}, {spell/discern lies}, {spell/holy sword}, {spell/shield other}; **Cost** 18,810 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/bless weapon›, ‹spell/discern lies›, ‹spell/holy sword›, ‹spell/shield other›; **Cost** 18,810 gp"
 		]
 	},
 	"staff_of_aspects": {
@@ -1064,11 +1064,11 @@
 		"description": [
 			"## Staff of Aspects",
 			"",
-			"{SOURCE Ultimate Equipment/194}  ",
+			"‹SOURCE Ultimate Equipment/194›  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 37,600 gp; **Weight** 5 lbs.",
 			"",
-			"This stout staff is made of ash. Four faces of animals - a bear, a falcon, a stag, and a wolf - are carved at its top. The aspect staff functions as a +1/+1 {eq-weapon/quarterstaff} and allows the use of the following spells:",
+			"This stout staff is made of ash. Four faces of animals - a bear, a falcon, a stag, and a wolf - are carved at its top. The aspect staff functions as a +1/+1 ‹eq-weapon/quarterstaff› and allows the use of the following spells:",
 			"",
 			"- *Aspect of the bear* (1 charge)",
 			"- *Aspect of the falcon* (1 charge)",
@@ -1077,7 +1077,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/aspect of the bear}, {spell/aspect of the falcon}, {spell/aspect of the stag}, {spell/aspect of the wolf}; **Cost** 19,100 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/aspect of the bear›, ‹spell/aspect of the falcon›, ‹spell/aspect of the stag›, ‹spell/aspect of the wolf›; **Cost** 19,100 gp"
 		]
 	},
 	"staff_of_the_prime_mover": {
@@ -1086,11 +1086,11 @@
 		"description": [
 			"## Staff of the Prime Mover",
 			"",
-			"{SOURCE Down the Blighted Path/63}  ",
+			"‹SOURCE Down the Blighted Path/63›  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 38,300 gp; **Weight** 2 lbs.",
 			"",
-			"This slender silver cane feels more unwieldy than its low weight might suggest, as if a hidden force fights its wielder for control. The staff functions as a +1/+1 {magic-enh/anchoring} {eq-material/mithral} {eq-weapon/quarterstaff}, and allows use of the following spells.",
+			"This slender silver cane feels more unwieldy than its low weight might suggest, as if a hidden force fights its wielder for control. The staff functions as a +1/+1 ‹magic-enh/anchoring› ‹eq-material/mithral› ‹eq-weapon/quarterstaff›, and allows use of the following spells.",
 			"",
 			"- *Kinetic reverberation* (1 charge)",
 			"- *Force hook charge* (2 charges)",
@@ -1098,7 +1098,7 @@
 			"",
 			"As long as the staff's anchoring special ability is in effect, these spells work differently when cast by the wielder, as noted below.",
 			"",
-			"*Kinetic reverberation* not only damages an attacker's weapon, but also pushes the attacker away. Immediately after the spell's damage is dealt, as an immediate action, the wielder may attempt a {rule/bull rush} combat maneuver against his attacker, using his opponent's attack bonus as his combat maneuver bonus. This combat maneuver does not provoke attacks of opportunity and the wielder does not move with his opponent.",
+			"*Kinetic reverberation* not only damages an attacker's weapon, but also pushes the attacker away. Immediately after the spell's damage is dealt, as an immediate action, the wielder may attempt a ‹rule/bull rush› combat maneuver against his attacker, using his opponent's attack bonus as his combat maneuver bonus. This combat maneuver does not provoke attacks of opportunity and the wielder does not move with his opponent.",
 			"",
 			"*Force hook charge* pulls the target to a square adjacent to the staff on a successful ranged touch attack, rather than pulling the staff and wielder toward the target. The spell's target may resist this pull with a successful Fortitude save. This movement does not provoke attacks of opportunity.",
 			"",
@@ -1106,7 +1106,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/force hook charge}, {spell/force punch}, {spell/kinetic reverberation}, {spell/levitate}; **Cost** 20,300 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/force hook charge›, ‹spell/force punch›, ‹spell/kinetic reverberation›, ‹spell/levitate›; **Cost** 20,300 gp"
 		]
 	},
 	"staff_of_spirit_talking": {
@@ -1115,7 +1115,7 @@
 		"description": [
 			"## Staff of Spirit-Talking",
 			"",
-			"{SOURCE Sargava, the Lost Colony/29}  ",
+			"‹SOURCE Sargava, the Lost Colony/29›  ",
 			"**Aura** moderate divination; **CL** 11th  ",
 			"**Slot** none; **Price** 39,050 gp; **Weight** 5 lbs.",
 			"",
@@ -1129,7 +1129,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/command plants}, {spell/commune with nature}, {spell/speak with animals}, {spell/speak with plants}, {spell/stone tell}; **Cost** 19,525 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/command plants›, ‹spell/commune with nature›, ‹spell/speak with animals›, ‹spell/speak with plants›, ‹spell/stone tell›; **Cost** 19,525 gp"
 		]
 	},
 	"staff_of_stealth": {
@@ -1141,7 +1141,7 @@
 		"description": [
 			"## Staff of Stealth",
 			"",
-			"{SOURCE Ultimate Equipment/201;Advanced Player's Guide/298}  ",
+			"‹SOURCE Ultimate Equipment/201;Advanced Player's Guide/298›  ",
 			"**Aura** moderate illusion; **CL** 8th  ",
 			"**Slot** none; **Price** 39,300 gp; **Weight** 5 lbs.",
 			"",
@@ -1154,7 +1154,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/disguise self}, {spell/greater invisibility}, {spell/invisibility}, {spell/nondetection}; **Cost** 20,900 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/disguise self›, ‹spell/greater invisibility›, ‹spell/invisibility›, ‹spell/nondetection›; **Cost** 20,900 gp"
 		]
 	},
 	"staff_of_frost": {
@@ -1166,7 +1166,7 @@
 		"description": [
 			"## Staff of Frost",
 			"",
-			"{SOURCE Ultimate Equipment/197;PRPG Core Rulebook/494}  ",
+			"‹SOURCE Ultimate Equipment/197;PRPG Core Rulebook/494›  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 41,400 gp; **Weight** 5 lbs.",
 			"",
@@ -1178,7 +1178,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/cone of cold}, {spell/ice storm}, {spell/wall of ice}; **Cost** 20,700 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/cone of cold›, ‹spell/ice storm›, ‹spell/wall of ice›; **Cost** 20,700 gp"
 		]
 	},
 	"staff_of_bolstering": {
@@ -1190,7 +1190,7 @@
 		"description": [
 			"## Staff of Bolstering",
 			"",
-			"{SOURCE Ultimate Equipment/195;Advanced Player's Guide/296}  ",
+			"‹SOURCE Ultimate Equipment/195;Advanced Player's Guide/296›  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 41,600 gp; **Weight** 5 lbs.",
 			"",
@@ -1203,7 +1203,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/bear's endurance}, {spell/bull's strength}, {spell/cat's grace}, {spell/greater magic weapon}; **Cost** 20,800 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/bear's endurance›, ‹spell/bull's strength›, ‹spell/cat's grace›, ‹spell/greater magic weapon›; **Cost** 20,800 gp"
 		]
 	},
 	"spherewalkers_staff": {
@@ -1212,11 +1212,11 @@
 		"description": [
 			"## Spherewalker's Staff",
 			"",
-			"{SOURCE Pathfinder #75: Demon's Heresy/63}  ",
+			"‹SOURCE Pathfinder #75: Demon's Heresy/63›  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 43,400 gp; **Weight** 3 lbs.",
 			"",
-			"This slender {eq-material/darkwood} staff is topped either with a star-shaped crystal or a butterfly-like silver head. Sacred to the faith of Desna, a spherewalker's staff allows use of the following spells:",
+			"This slender ‹eq-material/darkwood› staff is topped either with a star-shaped crystal or a butterfly-like silver head. Sacred to the faith of Desna, a spherewalker's staff allows use of the following spells:",
 			"",
 			"- *ant haul* (1 charge)",
 			"- *water walk* (1 charge)",
@@ -1229,7 +1229,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/air walk}, {spell/ant haul}, {spell/dimension door}, {spell/freedom of movement}, {spell/plane shift}, {spell/water walk}, creator must worship {faith/Desna}; **Cost** 21,700 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/air walk›, ‹spell/ant haul›, ‹spell/dimension door›, ‹spell/freedom of movement›, ‹spell/plane shift›, ‹spell/water walk›, creator must worship ‹faith/Desna›; **Cost** 21,700 gp"
 		]
 	},
 	"staff_of_curses": {
@@ -1238,7 +1238,7 @@
 		"description": [
 			"## Staff of Curses",
 			"",
-			"{SOURCE Ultimate Equipment/195}  ",
+			"‹SOURCE Ultimate Equipment/195›  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 43,500 gp; **Weight** 5 lbs.",
 			"",
@@ -1249,11 +1249,11 @@
 			"- *Baleful polymorph* (2 charges)",
 			"- *Bestow curse* (2 charges)",
 			"",
-			"In addition, the staff of curses is a +1/+1 {eq-weapon/quarterstaff}, and whenever the wielder strikes a creature with the staff, he can expend one charge to cause the creature to become cursed for a number of rounds equal to the number of charges remaining in the staff. While this curse persists, the creature takes a -2 penalty on saving throws from spells cast from the staff and a -2 penalty to AC against any attacks made by the staff.",
+			"In addition, the staff of curses is a +1/+1 ‹eq-weapon/quarterstaff›, and whenever the wielder strikes a creature with the staff, he can expend one charge to cause the creature to become cursed for a number of rounds equal to the number of charges remaining in the staff. While this curse persists, the creature takes a -2 penalty on saving throws from spells cast from the staff and a -2 penalty to AC against any attacks made by the staff.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/blindness//deafness}, {spell/ill omen}; **Cost** 22,050 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/baleful polymorph›, ‹spell/bestow curse›, ‹spell/blindness/deafness›, ‹spell/ill omen›; **Cost** 22,050 gp"
 		]
 	},
 	"staff_of_the_dark_tapestry": {
@@ -1262,7 +1262,7 @@
 		"description": [
 			"## Staff of the Dark Tapestry",
 			"",
-			"{SOURCE Pathfinder #88: Valley of the Brain Collectors/63}  ",
+			"‹SOURCE Pathfinder #88: Valley of the Brain Collectors/63›  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 43,500 gp; **Weight** 5 lbs.",
 			"",
@@ -1274,11 +1274,11 @@
 			"- *irradiate* (1 charge)",
 			"- *planetary adaptation* (2 charges)",
 			"",
-			"The staff may be used as a weapon, functioning as a +1 {magic-enh/impact} {eq-weapon/quarterstaff} even when its charges are expended.",
+			"The staff may be used as a weapon, functioning as a +1 ‹magic-enh/impact› ‹eq-weapon/quarterstaff› even when its charges are expended.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/bull's strength}, {spell/confusion}, {spell/darkness}, {spell/fear}, {spell/irradiate}, {spell/planetary adaptation}; **Cost** 21,900 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/bull's strength›, ‹spell/confusion›, ‹spell/darkness›, ‹spell/fear›, ‹spell/irradiate›, ‹spell/planetary adaptation›; **Cost** 21,900 gp"
 		]
 	},
 	"staff_of_fortune": {
@@ -1287,7 +1287,7 @@
 		"description": [
 			"## Staff of Fortune",
 			"",
-			"{SOURCE Advanced Player's Guide/325}  ",
+			"‹SOURCE Advanced Player's Guide/325›  ",
 			"**Aura** evocation (moderate); **CL** 9th  ",
 			"**Slot** none; **Price** 44,400 gp; **Weight** 3 lbs.",
 			"",
@@ -1298,7 +1298,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/heroic fortune}, {spell/mass heroic fortune}; **Cost** 37,200 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/heroic fortune›, ‹spell/mass heroic fortune›; **Cost** 37,200 gp"
 		]
 	},
 	"staff_of_dark_flame": {
@@ -1307,11 +1307,11 @@
 		"description": [
 			"## Staff of Dark Flame",
 			"",
-			"{SOURCE Ultimate Equipment/196}  ",
+			"‹SOURCE Ultimate Equipment/196›  ",
 			"**Aura** moderate evocation and necromancy; **CL** 8th  ",
 			"**Slot** none; **Price** 47,000 gp; **Weight** 4 lbs.",
 			"",
-			"Made from bleached bones that have been fused together, the head of this staff burns with an unholy fire. This staff can be used as a +1 {magic-enh/flaming} {eq-weapon/quarterstaff} (only one end of the staff bears magical enhancement), and it retains this property even if all its charges are drained. This staff can cast the following spells:",
+			"Made from bleached bones that have been fused together, the head of this staff burns with an unholy fire. This staff can be used as a +1 ‹magic-enh/flaming› ‹eq-weapon/quarterstaff› (only one end of the staff bears magical enhancement), and it retains this property even if all its charges are drained. This staff can cast the following spells:",
 			"",
 			"- *False life* (1 charge)",
 			"- *Ray of enfeeblement* (1 charge)",
@@ -1321,7 +1321,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/animate dead}, {spell/false life}, {spell/fireball}, {spell/ray of enfeeblement}, {spell/scorching ray}; **Cost** 27,133 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/animate dead›, ‹spell/false life›, ‹spell/fireball›, ‹spell/ray of enfeeblement›, ‹spell/scorching ray›; **Cost** 27,133 gp"
 		]
 	},
 	"staff_of_performance": {
@@ -1333,7 +1333,7 @@
 		"description": [
 			"## Staff of Performance",
 			"",
-			"{SOURCE Ultimate Equipment/199;Advanced Player's Guide/297}  ",
+			"‹SOURCE Ultimate Equipment/199;Advanced Player's Guide/297›  ",
 			"**Aura** moderate varies; **CL** 8th  ",
 			"**Slot** none; **Price** 48,800 gp; **Weight** 5 lbs.",
 			"",
@@ -1349,7 +1349,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/calm emotions}, {spell/enthrall}, {spell/glibness}, {spell/hypnotic pattern}, {spell/major image}, {spell/pyrotechnics}, {spell/sculpt sound}; **Cost** 24,400 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/calm emotions›, ‹spell/enthrall›, ‹spell/glibness›, ‹spell/hypnotic pattern›, ‹spell/major image›, ‹spell/pyrotechnics›, ‹spell/sculpt sound›; **Cost** 24,400 gp"
 		]
 	},
 	"animate_staff": {
@@ -1358,7 +1358,7 @@
 		"description": [
 			"## Animate Staff",
 			"",
-			"{SOURCE Ultimate Equipment/192}  ",
+			"‹SOURCE Ultimate Equipment/192›  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 49,800 gp; **Weight** 5 lbs.",
 			"",
@@ -1368,11 +1368,11 @@
 			"- *Mending* (1 charge)",
 			"- *Animate objects* (2 charges)",
 			"",
-			"In addition, once per day, the staff can become a Medium {monster/animated object} with the *metal* special ability. It can remain in this form for up to 10 minutes. If destroyed while in this form, it reverts to being a staff, but it loses all of its charges and this ability cannot be used again until it is fully recharged.",
+			"In addition, once per day, the staff can become a Medium ‹monster/animated object› with the *metal* special ability. It can remain in this form for up to 10 minutes. If destroyed while in this form, it reverts to being a staff, but it loses all of its charges and this ability cannot be used again until it is fully recharged.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/animate objects}, {spell/make whole}, {spell/mending}; **Cost** 24,900 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/animate objects›, ‹spell/make whole›, ‹spell/mending›; **Cost** 24,900 gp"
 		]
 	},
 	"staff_of_hunting": {
@@ -1381,7 +1381,7 @@
 		"description": [
 			"## Staff of Hunting",
 			"",
-			"{SOURCE Dragonslayer's Handbook/31}",
+			"‹SOURCE Dragonslayer's Handbook/31›",
 			"",
 			"**Aura** strong varies; **CL** 13th  ",
 			"**Slot** none; **Price** 51,000 gp; **Weight** 5 lbs.",
@@ -1395,7 +1395,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/acute senses}, {spell/bard's escape}, {spell/locate creature}, {spell/unwilling shield}; **Cost** 25,500 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/acute senses›, ‹spell/bard's escape›, ‹spell/locate creature›, ‹spell/unwilling shield›; **Cost** 25,500 gp"
 		]
 	},
 	"staff_of_revelations": {
@@ -1407,11 +1407,11 @@
 		"description": [
 			"## Staff of Revelations",
 			"",
-			"{SOURCE Ultimate Equipment/200;Advanced Player's Guide/297}  ",
+			"‹SOURCE Ultimate Equipment/200;Advanced Player's Guide/297›  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 51,008 gp; **Weight** 5 lbs.",
 			"",
-			"The forked top of this walnut shaft resembles a combination of a {eq-misc/dowsing rod} and the curled horns of a beast, and a delicate gemstone hovers between its enfolding arms. The staff allows use of the following spells:",
+			"The forked top of this walnut shaft resembles a combination of a ‹eq-misc/dowsing rod› and the curled horns of a beast, and a delicate gemstone hovers between its enfolding arms. The staff allows use of the following spells:",
 			"",
 			"- *Augury* (1 charge)",
 			"- *Speak with dead* (1 charge)",
@@ -1420,7 +1420,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/augury}, {spell/commune}, {spell/divination}, {spell/speak with dead}; **Cost** 30,608 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/augury›, ‹spell/commune›, ‹spell/divination›, ‹spell/speak with dead›; **Cost** 30,608 gp"
 		]
 	},
 	"staff_of_illumination": {
@@ -1432,7 +1432,7 @@
 		"description": [
 			"## Staff of Illumination",
 			"",
-			"{SOURCE Ultimate Equipment/197;PRPG Core Rulebook/494}  ",
+			"‹SOURCE Ultimate Equipment/197;PRPG Core Rulebook/494›  ",
 			"**Aura** strong evocation; **CL** 15th  ",
 			"**Slot** none; **Price** 51,500 gp; **Weight** 5 lbs.",
 			"",
@@ -1445,7 +1445,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/dancing lights}, {spell/daylight}, {spell/flare}, {spell/sunburst}; **Cost** 25,750 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/dancing lights›, ‹spell/daylight›, ‹spell/flare›, ‹spell/sunburst›; **Cost** 25,750 gp"
 		]
 	},
 	"staff_of_the_freed_man": {
@@ -1454,7 +1454,7 @@
 		"description": [
 			"## Staff of the Freed Man",
 			"",
-			"{SOURCE Champions of Purity/31}",
+			"‹SOURCE Champions of Purity/31›",
 			"",
 			"**Aura** moderate varies; **CL** 17th  ",
 			"**Slot** none; **Price** 51,688 gp; **Weight** 5 lbs.",
@@ -1468,7 +1468,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/detect secret doors}, {spell/freedom}, {spell/knock}, {spell/passwall}; **Cost** 25,840 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/detect secret doors›, ‹spell/freedom›, ‹spell/knock›, ‹spell/passwall›; **Cost** 25,840 gp"
 		]
 	},
 	"doomsday_staff": {
@@ -1477,11 +1477,11 @@
 		"description": [
 			"## Doomsday Staff",
 			"",
-			"{SOURCE Pathfinder #64: Beyond the Doomsday Door/60}  ",
+			"‹SOURCE Pathfinder #64: Beyond the Doomsday Door/60›  ",
 			"**Aura** strong varied; **CL** 13th  ",
 			"**Slot** none; **Price** 52,000 gp; **Weight** 5 lbs.",
 			"",
-			"This bulky staff is sacred to the cult of {faith/Groetus}, and its end bears the god's holy symbol - a skull-faced moon. This staff allows the use of the following spells.",
+			"This bulky staff is sacred to the cult of ‹faith/Groetus›, and its end bears the god's holy symbol - a skull-faced moon. This staff allows the use of the following spells.",
 			"",
 			"- *Bestow curse* (1 charge)",
 			"- *Confusion* (1 charge)",
@@ -1491,7 +1491,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/bestow curse}, {spell/confusion}, {spell/control weather}, {spell/doom}, {spell/insanity}, {spell/insect plague}; **Cost** 26,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/bestow curse›, ‹spell/confusion›, ‹spell/control weather›, ‹spell/doom›, ‹spell/insanity›, ‹spell/insect plague›; **Cost** 26,000 gp"
 		]
 	},
 	"staff_of_obstacles": {
@@ -1503,7 +1503,7 @@
 		"description": [
 			"## Staff of Obstacles",
 			"",
-			"{SOURCE Ultimate Equipment/199;Advanced Player's Guide/297}  ",
+			"‹SOURCE Ultimate Equipment/199;Advanced Player's Guide/297›  ",
 			"**Aura** moderate varies; **CL** 9th  ",
 			"**Slot** none; **Price** 52,850 gp; **Weight** 5 lbs.",
 			"",
@@ -1518,7 +1518,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/arcane lock}, {spell/grease}, {spell/wall of fire}, {spell/wall of ice}, {spell/wall of stone}, {spell/wind wall}; **Cost** 27,050 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/arcane lock›, ‹spell/grease›, ‹spell/wall of fire›, ‹spell/wall of ice›, ‹spell/wall of stone›, ‹spell/wind wall›; **Cost** 27,050 gp"
 		]
 	},
 	"staff_of_heaven_and_earth": {
@@ -1531,7 +1531,7 @@
 		"description": [
 			"## Staff of Heaven and Earth",
 			"",
-			"{SOURCE Ultimate Equipment/197;Pathfinder #4: Fortress of the Stone Giants/23;Rise of the Runelords Anniversary Edition/427}  ",
+			"‹SOURCE Ultimate Equipment/197;Pathfinder #4: Fortress of the Stone Giants/23;Rise of the Runelords Anniversary Edition/427›  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 54,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1545,7 +1545,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/air walk}, {spell/control winds}, {spell/gust of wind}, {spell/spike stones}, {spell/stone shape}; **Cost** 27,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/air walk›, ‹spell/control winds›, ‹spell/gust of wind›, ‹spell/spike stones›, ‹spell/stone shape›; **Cost** 27,000 gp"
 		]
 	},
 	"staff_of_travel": {
@@ -1554,7 +1554,7 @@
 		"description": [
 			"## Staff of Travel",
 			"",
-			"{SOURCE Ultimate Equipment/203}  ",
+			"‹SOURCE Ultimate Equipment/203›  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 54,400 gp; **Weight** 3 lbs.",
 			"",
@@ -1568,7 +1568,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/dimension door}, {spell/expeditious retreat}, {spell/fly}, {spell/teleport}; **Cost** 27,200 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/dimension door›, ‹spell/expeditious retreat›, ‹spell/fly›, ‹spell/teleport›; **Cost** 27,200 gp"
 		]
 	},
 	"staff_of_hoarding": {
@@ -1580,7 +1580,7 @@
 		"description": [
 			"## Staff of Hoarding",
 			"",
-			"{SOURCE Ultimate Equipment/197;Advanced Player's Guide/297}  ",
+			"‹SOURCE Ultimate Equipment/197;Advanced Player's Guide/297›  ",
 			"**Aura** moderate varies; **CL** 11th  ",
 			"**Slot** none; **Price** 55,866 gp; **Weight** 5 lbs.",
 			"",
@@ -1594,7 +1594,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/identify}, {spell/legend lore}, {spell/locate object}, {spell/magic aura}, {spell/secret chest}; **Cost** 30,016 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/identify›, ‹spell/legend lore›, ‹spell/locate object›, ‹spell/magic aura›, ‹spell/secret chest›; **Cost** 30,016 gp"
 		]
 	},
 	"crook_of_unseen_forces": {
@@ -1603,23 +1603,23 @@
 		"description": [
 			"## Crook of Unseen Forces",
 			"",
-			"{SOURCE Down the Blighted Path/60}  ",
+			"‹SOURCE Down the Blighted Path/60›  ",
 			"**Aura** strong conjuration and evocation; **CL** 12th  ",
 			"**Slot** none; **Price** 56,300 gp; **Weight** 5 lbs.",
 			"",
-			"This iron staff, silvered and inlaid with diamonds, curves at one end like a shepherd's crook. It functions as a +1/+1 {eq-weapon/quarterstaff} and grants an additional +2 bonus on {rule/drag} and {rule/reposition} combat maneuvers. However, its true power is to summon and command invisible forces, allowing the use of the following spells.",
+			"This iron staff, silvered and inlaid with diamonds, curves at one end like a shepherd's crook. It functions as a +1/+1 ‹eq-weapon/quarterstaff› and grants an additional +2 bonus on ‹rule/drag› and ‹rule/reposition› combat maneuvers. However, its true power is to summon and command invisible forces, allowing the use of the following spells.",
 			"",
 			"- *Spiritual weapon* (1 charge)",
 			"- *Spiritual ally* (2 charges)",
-			"- *Summon monster VI* (3 charges, {monster/invisible stalker} only)",
+			"- *Summon monster VI* (3 charges, ‹monster/invisible stalker› only)",
 			"",
-			"Both the *spiritual weapon* and *spiritual ally* gain a +1 enhancement bonus to attack and damage, and any *spiritual weapon* or *spiritual ally* created by the crook is invisible as per {spell/greater invisibility}, gaining the [usual benefits](rule/combat_modifiers) when attacking creatures are unable to see it.",
+			"Both the *spiritual weapon* and *spiritual ally* gain a +1 enhancement bonus to attack and damage, and any *spiritual weapon* or *spiritual ally* created by the crook is invisible as per ‹spell/greater invisibility›, gaining the [usual benefits](rule/combat_modifiers) when attacking creatures are unable to see it.",
 			"",
-			"The wielder of a crook of unseen forces can spend 1 or more charges as a standard action to create an invisible wave of force in a 30-foot line. This wave of force attempts a drag, reposition, or {rule/trip} combat maneuver (wielder's choice) against one creature in this line for each charge expended. This special combat maneuver check does not provoke attacks of opportunity and uses the better of the wielder's Charisma, Intelligence, or Wisdom modifiers in place of his Strength modifier to his CMB.",
+			"The wielder of a crook of unseen forces can spend 1 or more charges as a standard action to create an invisible wave of force in a 30-foot line. This wave of force attempts a drag, reposition, or ‹rule/trip› combat maneuver (wielder's choice) against one creature in this line for each charge expended. This special combat maneuver check does not provoke attacks of opportunity and uses the better of the wielder's Charisma, Intelligence, or Wisdom modifiers in place of his Strength modifier to his CMB.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/spiritual ally}, {spell/spiritual weapon}, {spell/summon monster VI}, {spell/telekinesis}; **Cost** 28,300 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/spiritual ally›, ‹spell/spiritual weapon›, ‹spell/summon monster VI›, ‹spell/telekinesis›; **Cost** 28,300 gp"
 		]
 	},
 	"staff_of_cackling_wrath": {
@@ -1631,7 +1631,7 @@
 		"description": [
 			"## Staff of Cackling Wrath",
 			"",
-			"{SOURCE Ultimate Equipment/195;Advanced Player's Guide/296}  ",
+			"‹SOURCE Ultimate Equipment/195;Advanced Player's Guide/296›  ",
 			"**Aura** moderate varies; **CL** 9th  ",
 			"**Slot** none; **Price** 56,700 gp; **Weight** 5 lbs.",
 			"",
@@ -1647,7 +1647,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/baleful polymorph}, {spell/bestow curse}, {spell/blindness//deafness}, {spell/charm person}, {spell/hold person}, {spell/inflict moderate wounds}, {spell/vampiric touch}; **Cost** 28,450 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/baleful polymorph›, ‹spell/bestow curse›, ‹spell/blindness/deafness›, ‹spell/charm person›, ‹spell/hold person›, ‹spell/inflict moderate wounds›, ‹spell/vampiric touch›; **Cost** 28,450 gp"
 		]
 	},
 	"staff_of_traps": {
@@ -1659,7 +1659,7 @@
 		"description": [
 			"## Staff of Traps",
 			"",
-			"{SOURCE Ultimate Equipment/203;Advanced Player's Guide/299}  ",
+			"‹SOURCE Ultimate Equipment/203;Advanced Player's Guide/299›  ",
 			"**Aura** moderate abjuration; **CL** 8th  ",
 			"**Slot** none; **Price** 56,925 gp; **Weight** 5 lbs.",
 			"",
@@ -1674,7 +1674,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/alarm}, {spell/explosive runes}, {spell/fire trap}, {spell/magic mouth}, {spell/phantom trap}, {spell/sepia snake sigil}; **Cost** 36,525 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/alarm›, ‹spell/explosive runes›, ‹spell/fire trap›, ‹spell/magic mouth›, ‹spell/phantom trap›, ‹spell/sepia snake sigil›; **Cost** 36,525 gp"
 		]
 	},
 	"staff_of_many_rays": {
@@ -1686,7 +1686,7 @@
 		"description": [
 			"## Staff of Many Rays",
 			"",
-			"{SOURCE Ultimate Equipment/198;Advanced Player's Guide/297}  ",
+			"‹SOURCE Ultimate Equipment/198;Advanced Player's Guide/297›  ",
 			"**Aura** moderate evocation and necromancy; **CL** 11th  ",
 			"**Slot** none; **Price** 57,200 gp; **Weight** 5 lbs.",
 			"",
@@ -1700,7 +1700,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/disintegrate}, {spell/enervation}, {spell/ray of enfeeblement}, {spell/ray of exhaustion}, {spell/scorching ray}; **Cost** 28,600 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/disintegrate›, ‹spell/enervation›, ‹spell/ray of enfeeblement›, ‹spell/ray of exhaustion›, ‹spell/scorching ray›; **Cost** 28,600 gp"
 		]
 	},
 	"staff_of_speaking": {
@@ -1709,7 +1709,7 @@
 		"description": [
 			"## Staff of Speaking",
 			"",
-			"{SOURCE Ultimate Equipment/201}  ",
+			"‹SOURCE Ultimate Equipment/201›  ",
 			"**Aura** strong enchantment; **CL** 13th  ",
 			"**Slot** none; **Price** 57,200 gp; **Weight** 5 lbs.",
 			"",
@@ -1723,7 +1723,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/denounce}, {spell/glibness}, {spell/mass suggestion}, {spell/suggestion}, {spell/tongues}; **Cost** 28,600 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/denounce›, ‹spell/glibness›, ‹spell/mass suggestion›, ‹spell/suggestion›, ‹spell/tongues›; **Cost** 28,600 gp"
 		]
 	},
 	"staff_of_mithral_might": {
@@ -1736,11 +1736,11 @@
 		"description": [
 			"## Staff of Mithral Might",
 			"",
-			"{SOURCE Ultimate Equipment/198;Pathfinder #5: Sins of the Saviors/36;Rise of the Runelords Anniversary Edition/427}  ",
+			"‹SOURCE Ultimate Equipment/198;Pathfinder #5: Sins of the Saviors/36;Rise of the Runelords Anniversary Edition/427›  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 58,000 gp; **Weight** 7 lbs.",
 			"",
-			"This staff is made of silver, with a shimmering sphere of {eq-material/mithral} at either end. One end features a golden snake wrapped around the staff and cradling the larger of these two mithral spheres. The staff may be used as a weapon, functioning as a +2/+2 {eq-weapon/quarterstaff}. It also grants a +2 enhancement bonus to Intelligence to whoever possesses it. These two attributes continue to function after all the charges are expended. It allows the use of the following spells:",
+			"This staff is made of silver, with a shimmering sphere of ‹eq-material/mithral› at either end. One end features a golden snake wrapped around the staff and cradling the larger of these two mithral spheres. The staff may be used as a weapon, functioning as a +2/+2 ‹eq-weapon/quarterstaff›. It also grants a +2 enhancement bonus to Intelligence to whoever possesses it. These two attributes continue to function after all the charges are expended. It allows the use of the following spells:",
 			"",
 			"- *Bull's strength* (1 charge)",
 			"- *Enlarge person* (1 charge)",
@@ -1749,7 +1749,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/bull's strength}, {spell/enlarge person}, {spell/flesh to stone}, {spell/fox's cunning}, {spell/telekinesis}; **Cost** 29,300 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/bull's strength›, ‹spell/enlarge person›, ‹spell/flesh to stone›, ‹spell/fox's cunning›, ‹spell/telekinesis›; **Cost** 29,300 gp"
 		]
 	},
 	"staff_of_wings": {
@@ -1758,7 +1758,7 @@
 		"description": [
 			"## Staff of Wings",
 			"",
-			"{SOURCE Chronicle of the Righteous/53}",
+			"‹SOURCE Chronicle of the Righteous/53›",
 			"",
 			"**Aura** strong illusion and transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 59,400 gp; **Weight** 5 lbs.",
@@ -1771,7 +1771,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/fly}, {spell/mass fly}, {spell/overland flight}, {spell/silent image}; **Cost** 29,700 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/fly›, ‹spell/mass fly›, ‹spell/overland flight›, ‹spell/silent image›; **Cost** 29,700 gp"
 		]
 	},
 	"staff_of_defense": {
@@ -1783,7 +1783,7 @@
 		"description": [
 			"## Staff of Defense",
 			"",
-			"{SOURCE Ultimate Equipment/196;PRPG Core Rulebook/492}  ",
+			"‹SOURCE Ultimate Equipment/196;PRPG Core Rulebook/492›  ",
 			"**Aura** strong abjuration; **CL** 15th  ",
 			"**Slot** none; **Price** 62,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1796,7 +1796,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/shield}, {spell/shield of faith}, {spell/shield of law}, {spell/shield other}, creator must be lawful; **Cost** 31,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/shield›, ‹spell/shield of faith›, ‹spell/shield of law›, ‹spell/shield other›, creator must be lawful; **Cost** 31,000 gp"
 		]
 	},
 	"staff_of_stoneweaving": {
@@ -1805,7 +1805,7 @@
 		"description": [
 			"## Staff of Stoneweaving",
 			"",
-			"{SOURCE Pathfinder #34: Blood for Blood/67}  ",
+			"‹SOURCE Pathfinder #34: Blood for Blood/67›  ",
 			"**Aura** strong abjuration and transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 63,180 gp; **Weight** 5 lbs.",
 			"",
@@ -1817,11 +1817,11 @@
 			"- *Stone to flesh* (2 charges)",
 			"- *Stoneskin* (2 charges)",
 			"",
-			"Additionally, the staff of stoneweaving acts as a +1 {eq-weapon/halfling sling-staff}. The staff creates its own ammunition - ruby {eq-weapon/sling bullet/s} which disappear after striking or missing their target. These bullets are created by tapping the head of the staff against the ground (a move action). The user cannot pick up bullets after firing them or otherwise harvest them; at the end of the round after a bullet is created, it disappears from existence.",
+			"Additionally, the staff of stoneweaving acts as a +1 ‹eq-weapon/halfling sling-staff›. The staff creates its own ammunition - ruby ‹eq-weapon/sling bullet«s› which disappear after striking or missing their target. These bullets are created by tapping the head of the staff against the ground (a move action). The user cannot pick up bullets after firing them or otherwise harvest them; at the end of the round after a bullet is created, it disappears from existence.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/minor creation}, {spell/spike stones}, {spell/statue}, {spell/stone shape}, {spell/stone to flesh}, {spell/stoneskin}; **Cost** 31,430 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/minor creation›, ‹spell/spike stones›, ‹spell/statue›, ‹spell/stone shape›, ‹spell/stone to flesh›, ‹spell/stoneskin›; **Cost** 31,430 gp"
 		]
 	},
 	"staff_of_the_planes": {
@@ -1830,7 +1830,7 @@
 		"description": [
 			"## Staff of the Planes",
 			"",
-			"{SOURCE Ultimate Equipment/202}  ",
+			"‹SOURCE Ultimate Equipment/202›  ",
 			"**Aura** strong conjuration; **CL** 13th  ",
 			"**Slot** none; **Price** 63,960 gp; **Weight** 5 lbs.",
 			"",
@@ -1840,11 +1840,11 @@
 			"- *Planar binding* (2 charges)",
 			"- *Plane shift* (5 charges)",
 			"",
-			"If the staff of the planes is fully charged, the wielder can deliberately snap the staff, causing it to shatter into thousands of pieces but opening a {spell/gate} to a plane of the wielder's choice. This can only be used for planar travel, and the connection lasts for 1 minute, without requiring the wielder's concentration. If used in this way, the staff cannot be repaired or restored.",
+			"If the staff of the planes is fully charged, the wielder can deliberately snap the staff, causing it to shatter into thousands of pieces but opening a ‹spell/gate› to a plane of the wielder's choice. This can only be used for planar travel, and the connection lasts for 1 minute, without requiring the wielder's concentration. If used in this way, the staff cannot be repaired or restored.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/planar adaptation}, {spell/planar binding}, {spell/plane shift}; **Cost** 31,980 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/planar adaptation›, ‹spell/planar binding›, ‹spell/plane shift›; **Cost** 31,980 gp"
 		]
 	},
 	"staff_of_hungry_shadows": {
@@ -1857,7 +1857,7 @@
 		"description": [
 			"## Staff of Hungry Shadows",
 			"",
-			"{SOURCE Ultimate Equipment/197;Pathfinder #5: Sins of the Saviors/32;Rise of the Runelords Anniversary Edition/427}  ",
+			"‹SOURCE Ultimate Equipment/197;Pathfinder #5: Sins of the Saviors/32;Rise of the Runelords Anniversary Edition/427›  ",
 			"**Aura** strong varies; **CL** 13th  ",
 			"**Slot** none; **Price** 69,300 gp; **Weight** 5 lbs.",
 			"",
@@ -1867,12 +1867,12 @@
 			"- *Ray of enfeeblement* (1 charge)",
 			"- *Vampiric touch* (1 charge)",
 			"- *Enervation* (2 charges)",
-			"- *Summon shadow* (as *summon monster V* but summons 1 {monster/shadow}, 2 charges)",
-			"- *Call devourer* (as *planar binding* but calls 1 {monster/devourer}, 3 charges)",
+			"- *Summon shadow* (as *summon monster V* but summons 1 ‹monster/shadow›, 2 charges)",
+			"- *Call devourer* (as *planar binding* but calls 1 ‹monster/devourer›, 3 charges)",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/darkness}, {spell/enervation}, {spell/planar binding}, {spell/ray of enfeeblement}, {spell/summon monster V}, {spell/vampiric touch}; **Cost** 34,650 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/darkness›, ‹spell/enervation›, ‹spell/planar binding›, ‹spell/ray of enfeeblement›, ‹spell/summon monster V›, ‹spell/vampiric touch›; **Cost** 34,650 gp"
 		]
 	},
 	"quiemas_branch": {
@@ -1881,7 +1881,7 @@
 		"description": [
 			"## Quiema's Branch",
 			"",
-			"{SOURCE Pathfinder #34: Blood for Blood/69}  ",
+			"‹SOURCE Pathfinder #34: Blood for Blood/69›  ",
 			"**Aura** strong abjuration, conjuration, and transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 72,750 gp; **Weight** 2 lbs.",
 			"",
@@ -1895,7 +1895,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/changestaff}, {spell/quench}, {spell/repel metal or stone}, {spell/transmute metal to wood}, {spell/tree stride}; **Cost** 36,375 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/changestaff›, ‹spell/quench›, ‹spell/repel metal or stone›, ‹spell/transmute metal to wood›, ‹spell/tree stride›; **Cost** 36,375 gp"
 		]
 	},
 	"dragon_staff": {
@@ -1904,11 +1904,11 @@
 		"description": [
 			"## Dragon Staff",
 			"",
-			"{SOURCE Ultimate Equipment/192}  ",
+			"‹SOURCE Ultimate Equipment/192›  ",
 			"**Aura** strong transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 81,000 gp; **Weight** 7 lbs.",
 			"",
-			"Made from a large dragon bone, wrapped in scales and topped with the fearsome image of a dragon, this staff radiates power. Each dragon staff is linked to one type of chromatic dragon: black, blue, green, red, or white. All the spells that can be cast using the staff are tied to that choice. If the wielder uses the staff to cast {spell/form of the dragon II}, she must assume the type linked to the staff. Any energy types chosen by spells from the staff must match the type as well (black and green are linked to acid, blue is linked to electricity, red is linked to fire, and white is linked to cold). The staff allows use of the following spells:",
+			"Made from a large dragon bone, wrapped in scales and topped with the fearsome image of a dragon, this staff radiates power. Each dragon staff is linked to one type of chromatic dragon: black, blue, green, red, or white. All the spells that can be cast using the staff are tied to that choice. If the wielder uses the staff to cast ‹spell/form of the dragon II›, she must assume the type linked to the staff. Any energy types chosen by spells from the staff must match the type as well (black and green are linked to acid, blue is linked to electricity, red is linked to fire, and white is linked to cold). The staff allows use of the following spells:",
 			"",
 			"- *Fly* (1 charge)",
 			"- *Protection from energy* (1 charge)",
@@ -1919,7 +1919,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/alter self}, {spell/dragon's breath}, {spell/fly}, {spell/form of the dragon II}, {spell/protection from energy}; **Cost** 40,500 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/alter self›, ‹spell/dragon's breath›, ‹spell/fly›, ‹spell/form of the dragon II›, ‹spell/protection from energy›; **Cost** 40,500 gp"
 		]
 	},
 	"staff_of_slumber": {
@@ -1931,7 +1931,7 @@
 		"description": [
 			"## Staff of Slumber",
 			"",
-			"{SOURCE Ultimate Equipment/200;Advanced Player's Guide/298}  ",
+			"‹SOURCE Ultimate Equipment/200;Advanced Player's Guide/298›  ",
 			"**Aura** moderate varies; **CL** 9th  ",
 			"**Slot** none; **Price** 81,766 gp; **Weight** 5 lbs.",
 			"",
@@ -1946,7 +1946,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/deep slumber}, {spell/dream}, {spell/nightmare}, {spell/symbol of sleep}, {spell/ray of exhaustion}, {spell/waves of fatigue}; **Cost** 49,216 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/deep slumber›, ‹spell/dream›, ‹spell/nightmare›, ‹spell/symbol of sleep›, ‹spell/ray of exhaustion›, ‹spell/waves of fatigue›; **Cost** 49,216 gp"
 		]
 	},
 	"staff_of_abjuration": {
@@ -1958,7 +1958,7 @@
 		"description": [
 			"## Staff of Abjuration",
 			"",
-			"{SOURCE Ultimate Equipment/194;PRPG Core Rulebook/492}  ",
+			"‹SOURCE Ultimate Equipment/194;PRPG Core Rulebook/492›  ",
 			"**Aura** strong abjuration; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1973,7 +1973,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/dismissal}, {spell/dispel magic}, {spell/lesser globe of invulnerability}, {spell/repulsion}, {spell/resist energy}, {spell/shield}; **Cost** 41,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/dismissal›, ‹spell/dispel magic›, ‹spell/lesser globe of invulnerability›, ‹spell/repulsion›, ‹spell/resist energy›, ‹spell/shield›; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_conjuration": {
@@ -1985,7 +1985,7 @@
 		"description": [
 			"## Staff of Conjuration",
 			"",
-			"{SOURCE Ultimate Equipment/195;PRPG Core Rulebook/492}  ",
+			"‹SOURCE Ultimate Equipment/195;PRPG Core Rulebook/492›  ",
 			"**Aura** strong conjuration; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2000,7 +2000,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/cloudkill}, {spell/minor creation}, {spell/stinking cloud}, {spell/summon monster VI}, {spell/summon swarm}, {spell/unseen servant}; **Cost** 41,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/cloudkill›, ‹spell/minor creation›, ‹spell/stinking cloud›, ‹spell/summon monster VI›, ‹spell/summon swarm›, ‹spell/unseen servant›; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_divination": {
@@ -2012,7 +2012,7 @@
 		"description": [
 			"## Staff of Divination",
 			"",
-			"{SOURCE Ultimate Equipment/196;PRPG Core Rulebook/293}  ",
+			"‹SOURCE Ultimate Equipment/196;PRPG Core Rulebook/293›  ",
 			"**Aura** strong divination; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2027,7 +2027,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/detect secret doors}, {spell/locate creature}, {spell/locate object}, {spell/prying eyes}, {spell/tongues}, {spell/true seeing}; **Cost** 41,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/detect secret doors›, ‹spell/locate creature›, ‹spell/locate object›, ‹spell/prying eyes›, ‹spell/tongues›, ‹spell/true seeing›; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_enchantment": {
@@ -2039,7 +2039,7 @@
 		"description": [
 			"## Staff of Enchantment",
 			"",
-			"{SOURCE Ultimate Equipment/196;PRPG Core Rulebook/493}  ",
+			"‹SOURCE Ultimate Equipment/196;PRPG Core Rulebook/493›  ",
 			"**Aura** strong enchantment; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2054,7 +2054,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/crushing despair}, {spell/hideous laughter}, {spell/mass suggestion}, {spell/mind fog}, {spell/sleep}, {spell/suggestion}; **Cost** 41,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/crushing despair›, ‹spell/hideous laughter›, ‹spell/mass suggestion›, ‹spell/mind fog›, ‹spell/sleep›, ‹spell/suggestion›; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_evocation": {
@@ -2066,7 +2066,7 @@
 		"description": [
 			"## Staff of Evocation",
 			"",
-			"{SOURCE Ultimate Equipment/196;PRPG Core Rulebook/493}  ",
+			"‹SOURCE Ultimate Equipment/196;PRPG Core Rulebook/493›  ",
 			"**Aura** strong evocation; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2081,7 +2081,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/chain lightning}, {spell/fireball}, {spell/ice storm}, {spell/magic missile}, {spell/shatter}, {spell/wall of force}; **Cost** 41,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/chain lightning›, ‹spell/fireball›, ‹spell/ice storm›, ‹spell/magic missile›, ‹spell/shatter›, ‹spell/wall of force›; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_illusion": {
@@ -2093,7 +2093,7 @@
 		"description": [
 			"## Staff of Illusion",
 			"",
-			"{SOURCE Ultimate Equipment/198;PRPG Core Rulebook/494}  ",
+			"‹SOURCE Ultimate Equipment/198;PRPG Core Rulebook/494›  ",
 			"**Aura** strong illusion; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2108,7 +2108,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/disguise self}, {spell/major image}, {spell/mirror image}, {spell/mislead}, {spell/persistent image}, {spell/rainbow pattern}; **Cost** 41,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/disguise self›, ‹spell/major image›, ‹spell/mirror image›, ‹spell/mislead›, ‹spell/persistent image›, ‹spell/rainbow pattern›; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_necromancy": {
@@ -2120,7 +2120,7 @@
 		"description": [
 			"## Staff of Necromancy",
 			"",
-			"{SOURCE Ultimate Equipment/198;PRPG Core Rulebook/494}  ",
+			"‹SOURCE Ultimate Equipment/198;PRPG Core Rulebook/494›  ",
 			"**Aura** strong necromancy; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2135,7 +2135,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/cause fear}, {spell/circle of death}, {spell/enervation}, {spell/ghoul touch}, {spell/halt undead}, {spell/waves of fatigue}; **Cost** 41,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/cause fear›, ‹spell/circle of death›, ‹spell/enervation›, ‹spell/ghoul touch›, ‹spell/halt undead›, ‹spell/waves of fatigue›; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_transmutation": {
@@ -2147,7 +2147,7 @@
 		"description": [
 			"## Staff of Transmutation",
 			"",
-			"{SOURCE Ultimate Equipment/202;PRPG Core Rulebook/495}  ",
+			"‹SOURCE Ultimate Equipment/202;PRPG Core Rulebook/495›  ",
 			"**Aura** strong transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2162,7 +2162,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/alter self}, {spell/baleful polymorph}, {spell/blink}, {spell/disintegrate}, {spell/expeditious retreat}, {spell/polymorph}; **Cost** 41,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/alter self›, ‹spell/baleful polymorph›, ‹spell/blink›, ‹spell/disintegrate›, ‹spell/expeditious retreat›, ‹spell/polymorph›; **Cost** 41,000 gp"
 		]
 	},
 	"staff_of_weather": {
@@ -2174,7 +2174,7 @@
 		"description": [
 			"## Staff of Weather",
 			"",
-			"{SOURCE Ultimate Equipment/203;Advanced Player's Guide/299}  ",
+			"‹SOURCE Ultimate Equipment/203;Advanced Player's Guide/299›  ",
 			"**Aura** strong varies; **CL** 13th  ",
 			"**Slot** none; **Price** 84,066 gp; **Weight** 5 lbs.",
 			"",
@@ -2189,7 +2189,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/control weather}, {spell/fog cloud}, {spell/gust of wind}, {spell/ice storm}, {spell/sleet storm}, {spell/wind wall}; **Cost** 42,033 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/control weather›, ‹spell/fog cloud›, ‹spell/gust of wind›, ‹spell/ice storm›, ‹spell/sleet storm›, ‹spell/wind wall›; **Cost** 42,033 gp"
 		]
 	},
 	"staff_of_earth_and_stone": {
@@ -2201,7 +2201,7 @@
 		"description": [
 			"## Staff of Earth and Stone",
 			"",
-			"{SOURCE Ultimate Equipment/196;PRPG Core Rulebook/492}  ",
+			"‹SOURCE Ultimate Equipment/196;PRPG Core Rulebook/492›  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 85,800 gp; **Weight** 5 lbs.",
 			"",
@@ -2212,7 +2212,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/move earth}, {spell/passwall}; **Cost** 42,900 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/move earth›, ‹spell/passwall›; **Cost** 42,900 gp"
 		]
 	},
 	"staff_of_vision": {
@@ -2224,7 +2224,7 @@
 		"description": [
 			"## Staff of Vision",
 			"",
-			"{SOURCE Ultimate Equipment/203;Advanced Player's Guide/299}  ",
+			"‹SOURCE Ultimate Equipment/203;Advanced Player's Guide/299›  ",
 			"**Aura** moderate divination; **CL** 11th  ",
 			"**Slot** none; **Price** 86,666 gp; **Weight** 5 lbs.",
 			"",
@@ -2239,7 +2239,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/arcane eye}, {spell/arcane sight}, {spell/prying eyes}, {spell/scrying}, {spell/see invisibility}, {spell/true seeing}; **Cost** 45,416 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/arcane eye›, ‹spell/arcane sight›, ‹spell/prying eyes›, ‹spell/scrying›, ‹spell/see invisibility›, ‹spell/true seeing›; **Cost** 45,416 gp"
 		]
 	},
 	"staff_of_waves": {
@@ -2248,11 +2248,11 @@
 		"description": [
 			"## Staff of Waves",
 			"",
-			"{SOURCE Aquatic Adventures/63}  ",
+			"‹SOURCE Aquatic Adventures/63›  ",
 			"**Aura** strong necromancy; **CL** 13th  ",
 			"**Slot** none; **Price** 90,300 gp; **Weight** 5 lbs.",
 			"",
-			"This staff is made of entwined coral and topped with a brilliant sapphire. The staff functions as a +1 {magic-enh/quenching} {eq-weapon/quarterstaff} above the waves and a +1 {magic-enh/impact} quarterstaff below, and attacks with the staff of waves take no penalties for being {rule/physical<bludgeoning melee| attacks underwater}. It allows use of the following spells:",
+			"This staff is made of entwined coral and topped with a brilliant sapphire. The staff functions as a +1 ‹magic-enh/quenching› ‹eq-weapon/quarterstaff› above the waves and a +1 ‹magic-enh/impact› quarterstaff below, and attacks with the staff of waves take no penalties for being ‹rule/physical>bludgeoning melee» attacks underwater›. It allows use of the following spells:",
 			"",
 			"- *Hydraulic torrent* (1 charge)",
 			"- *Slipstream* (1 charge)",
@@ -2262,7 +2262,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/hydraulic torrent}, {spell/ride the waves}, {spell/slipstream}, {spell/vortex}, {spell/wave form}; **Cost** 45,300 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/hydraulic torrent›, ‹spell/ride the waves›, ‹spell/slipstream›, ‹spell/vortex›, ‹spell/wave form›; **Cost** 45,300 gp"
 		]
 	},
 	"staff_of_the_woodlands": {
@@ -2274,7 +2274,7 @@
 		"description": [
 			"## Staff of the Woodlands",
 			"",
-			"{SOURCE Ultimate Equipment/202;PRPG Core Rulebook/496}  ",
+			"‹SOURCE Ultimate Equipment/202;PRPG Core Rulebook/496›  ",
 			"**Aura** strong varies; **CL** 13th  ",
 			"**Slot** none; **Price** 100,400 gp; **Weight** 5 lbs.",
 			"",
@@ -2287,11 +2287,11 @@
 			"- *Wall of thorns* (3 charges)",
 			"- *Animate plants* (4 charges)",
 			"",
-			"The staff may be used as a weapon, functioning as a +2 {eq-weapon/quarterstaff}. The staff of the woodlands also allows its wielder to cast *pass without trace* at will, with no charge cost. These two attributes continue to function after all the charges are expended.",
+			"The staff may be used as a weapon, functioning as a +2 ‹eq-weapon/quarterstaff›. The staff of the woodlands also allows its wielder to cast *pass without trace* at will, with no charge cost. These two attributes continue to function after all the charges are expended.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/animate plants}, {spell/barkskin}, {spell/charm animal}, {spell/pass without trace}, {spell/speak with animals}, {spell/summon nature's ally VI}, {spell/wall of thorns}; **Cost** 50,500 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/animate plants›, ‹spell/barkskin›, ‹spell/charm animal›, ‹spell/pass without trace›, ‹spell/speak with animals›, ‹spell/summon nature's ally VI›, ‹spell/wall of thorns›; **Cost** 50,500 gp"
 		]
 	},
 	"staff_of_life": {
@@ -2303,7 +2303,7 @@
 		"description": [
 			"## Staff of Life",
 			"",
-			"{SOURCE Ultimate Equipment/198;PRPG Core Rulebook/494}  ",
+			"‹SOURCE Ultimate Equipment/198;PRPG Core Rulebook/494›  ",
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** none; **Price** 109,400 gp; **Weight** 5 lbs.",
 			"",
@@ -2314,7 +2314,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/heal}, {spell/raise dead}; **Cost** 79,700 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/heal›, ‹spell/raise dead›; **Cost** 79,700 gp"
 		]
 	},
 	"staff_of_nethys": {
@@ -2323,11 +2323,11 @@
 		"description": [
 			"## Staff of Nethys",
 			"",
-			"{SOURCE Divine Anthology/4}  ",
+			"‹SOURCE Divine Anthology/4›  ",
 			"**Aura** strong abjuration; **CL** 13th  ",
 			"**Slot** none; **Price** 131,550 gp; **Weight** 5 lbs.",
 			"",
-			"These staves are often made of {eq-material/darkwood} and topped with the holy symbol of {faith/Nethys}, the eyes of which are made of rare gems that glow with magical energy. While the upper end of the staff (along with its symbol) always appears clean and pristine, the lower end of the staff's shaft appears charred by fire and pitted by acid. This staff allows the use of the following spells:",
+			"These staves are often made of ‹eq-material/darkwood› and topped with the holy symbol of ‹faith/Nethys›, the eyes of which are made of rare gems that glow with magical energy. While the upper end of the staff (along with its symbol) always appears clean and pristine, the lower end of the staff's shaft appears charred by fire and pitted by acid. This staff allows the use of the following spells:",
 			"",
 			"- *Arcane sight* (1 charge)",
 			"- *Channel the gift* (1 charge)",
@@ -2336,11 +2336,11 @@
 			"- *Prying eyes* (2 charges)",
 			"- *Spell scourge* (3 charges)",
 			"",
-			"In addition, the wielder of the staff can store additional spells in the staff itself, similarly to a {magic-ring/ring of spell storing}. The staff of Nethys can contain up to 5 levels of spells (arcane, divine, or psychic, or even a mix of all three). The wielder doesn't need to spend charges to cast one of these stored spells from the staff, but must have levels in a class with that spell on its spell list.",
+			"In addition, the wielder of the staff can store additional spells in the staff itself, similarly to a ‹magic-ring/ring of spell storing›. The staff of Nethys can contain up to 5 levels of spells (arcane, divine, or psychic, or even a mix of all three). The wielder doesn't need to spend charges to cast one of these stored spells from the staff, but must have levels in a class with that spell on its spell list.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {feat/Heighten Spell}, {spell/arcane sight}, {spell/channel the gift} or {spell/imbue with spell ability}, {spell/fractions of heal and harm}, {spell/prying eyes}, {spell/spell gauge}, {spell/spell scourge}; **Cost** 65,775 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹feat/Heighten Spell›, ‹spell/arcane sight›, ‹spell/channel the gift› or ‹spell/imbue with spell ability›, ‹spell/fractions of heal and harm›, ‹spell/prying eyes›, ‹spell/spell gauge›, ‹spell/spell scourge›; **Cost** 65,775 gp"
 		]
 	},
 	"staff_of_one_hundred_hands": {
@@ -2349,7 +2349,7 @@
 		"description": [
 			"## Staff of One Hundred Hands",
 			"",
-			"{SOURCE Ultimate Equipment/199}  ",
+			"‹SOURCE Ultimate Equipment/199›  ",
 			"**Aura** strong evocation; **CL** 17th  ",
 			"**Slot** none; **Price** 180,200 gp; **Weight** 5 lbs.",
 			"",
@@ -2365,7 +2365,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/clenched fist}, {spell/crushing hand}, {spell/forceful hand}, {spell/grasping hand}, {spell/interposing hand}, {spell/mage hand}; **Cost** 90,100 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/clenched fist›, ‹spell/crushing hand›, ‹spell/forceful hand›, ‹spell/grasping hand›, ‹spell/interposing hand›, ‹spell/mage hand›; **Cost** 90,100 gp"
 		]
 	},
 	"vril_staff": {
@@ -2374,7 +2374,7 @@
 		"description": [
 			"## Vril Staff",
 			"",
-			"{SOURCE Occult Adventures/255}  ",
+			"‹SOURCE Occult Adventures/255›  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 200,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2394,7 +2394,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/cure light wounds}, {spell/cure moderate wounds}, {spell/mage hand}, {spell/repulsion}, {spell/telekinesis}; **Cost** 100,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/cure light wounds›, ‹spell/cure moderate wounds›, ‹spell/mage hand›, ‹spell/repulsion›, ‹spell/telekinesis›; **Cost** 100,000 gp"
 		]
 	},
 	"staff_of_passage": {
@@ -2406,7 +2406,7 @@
 		"description": [
 			"## Staff of Passage",
 			"",
-			"{SOURCE Ultimate Equipment/199;PRPG Core Rulebook/495}  ",
+			"‹SOURCE Ultimate Equipment/199;PRPG Core Rulebook/495›  ",
 			"**Aura** strong varies; **CL** 17th  ",
 			"**Slot** none; **Price** 206,900 gp; **Weight** 5 lbs.",
 			"",
@@ -2420,7 +2420,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/astral projection}, {spell/dimension door}, {spell/greater teleport}, {spell/passwall}, {spell/phase door}; **Cost** 115,950 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/astral projection›, ‹spell/dimension door›, ‹spell/greater teleport›, ‹spell/passwall›, ‹spell/phase door›; **Cost** 115,950 gp"
 		]
 	},
 	"staff_of_the_hierophant": {
@@ -2429,7 +2429,7 @@
 		"description": [
 			"## Staff of the Hierophant",
 			"",
-			"{SOURCE Ultimate Equipment/201}  ",
+			"‹SOURCE Ultimate Equipment/201›  ",
 			"**Aura** strong varies; **CL** 15th  ",
 			"**Slot** none; **Price** 220,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2446,13 +2446,13 @@
 			"- *Righteous might* (2 charges)",
 			"- *True seeing* (2 charges)",
 			"",
-			"The wielder of a staff of the hierophant gains a +2 luck bonus to AC and on saving throws. The staff is also a +2/+2 {eq-weapon/quarterstaff}, and its wielder may use it to smite opponents. If 1 charge is expended (as a free action), the staff deals double damage (&times;3 on a critical hit) for 1 round.",
+			"The wielder of a staff of the hierophant gains a +2 luck bonus to AC and on saving throws. The staff is also a +2/+2 ‹eq-weapon/quarterstaff›, and its wielder may use it to smite opponents. If 1 charge is expended (as a free action), the staff deals double damage (&times;3 on a critical hit) for 1 round.",
 			"",
 			"A staff of the hierophant can be used to restore the life of a dead creature by calling upon the wielder's deity to take the staff as a blessing. This causes the staff to vanish, but restores life to any one dead creature as if casting *true resurrection.* In addition, after using this effect, the wielder who triggered it receives a +2 luck bonus on all ability checks, attack rolls, saving throws, and skill checks for 1 day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/bless}, {spell/cure critical wounds}, {spell/cure moderate wounds}, {spell/flame strike}, {spell/freedom of movement}, {feat/heightened} {spell/hold person}, {spell/prayer}, {spell/righteous might}, {spell/searing light}, {spell/true resurrection}, {spell/true seeing}; **Cost** 110,000 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/bless›, ‹spell/cure critical wounds›, ‹spell/cure moderate wounds›, ‹spell/flame strike›, ‹spell/freedom of movement›, ‹feat/heightened› ‹spell/hold person›, ‹spell/prayer›, ‹spell/righteous might›, ‹spell/searing light›, ‹spell/true resurrection›, ‹spell/true seeing›; **Cost** 110,000 gp"
 		]
 	},
 	"winters_reach": {
@@ -2461,12 +2461,12 @@
 		"description": [
 			"## Winter's Reach",
 			"",
-			"{SOURCE Pathfinder #72: The Witch Queen's Revenge/63}",
+			"‹SOURCE Pathfinder #72: The Witch Queen's Revenge/63›",
 			"",
 			"**Aura** strong evocation and transmutation; **CL** 19th  ",
 			"**Slot** none; **Price** 228,000 gp; **Weight** 5 lbs.",
 			"",
-			"This staff is made of a single icicle that tapers to a sharpened point at each end. It can be used as a +3 {magic-enh/icy burst} {eq-weapon/quarterstaff} (only one end of the staff bears this magical enhancement), even if all of its charges are drained. It allows the use of the following spells and abilities:",
+			"This staff is made of a single icicle that tapers to a sharpened point at each end. It can be used as a +3 ‹magic-enh/icy burst› ‹eq-weapon/quarterstaff› (only one end of the staff bears this magical enhancement), even if all of its charges are drained. It allows the use of the following spells and abilities:",
 			"",
 			"- *Frostbite* (1 charge)",
 			"- *Ice storm* (1 charge)",
@@ -2476,11 +2476,11 @@
 			"- *Cone of cold* (3 charges)",
 			"- *Ice body* (3 charges)",
 			"",
-			"Like a frost brand, Winter's Reach extinguishes all nonmagical fires in a 20-foot radius. As a standard action, it can also *dispel* lasting fire spells, but not instantaneous effects. The bearer must succeed at a *dispel* check (1d20+19) against each spell to *dispel* it. The DC to *dispel* such spells is 11 + the caster level of the fire spell. The staff can also be used to {rule/counterspell>s} any spell with the fire descriptor as if with *dispel magic.* Dispelling or counterspelling a fire spell in this way uses 1 charge.",
+			"Like a frost brand, Winter's Reach extinguishes all nonmagical fires in a 20-foot radius. As a standard action, it can also *dispel* lasting fire spells, but not instantaneous effects. The bearer must succeed at a *dispel* check (1d20+19) against each spell to *dispel* it. The DC to *dispel* such spells is 11 + the caster level of the fire spell. The staff can also be used to ‹rule/counterspell<s› any spell with the fire descriptor as if with *dispel magic.* Dispelling or counterspelling a fire spell in this way uses 1 charge.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Staff}, {spell/cone of cold}, {spell/dispel magic}, {spell/freezing sphere}, {spell/frostbite}, {spell/ice body}, {spell/ice storm}, {spell/icy prison}, {spell/wall of ice}; **Cost** 114,000 gp"
+			"**Requirements** ‹feat/Craft Staff›, ‹spell/cone of cold›, ‹spell/dispel magic›, ‹spell/freezing sphere›, ‹spell/frostbite›, ‹spell/ice body›, ‹spell/ice storm›, ‹spell/icy prison›, ‹spell/wall of ice›; **Cost** 114,000 gp"
 		]
 	},
 	"staff_of_power": {
@@ -2492,7 +2492,7 @@
 		"description": [
 			"## Staff of Power",
 			"",
-			"{SOURCE Ultimate Equipment/199;PRPG Core Rulebook/495}  ",
+			"‹SOURCE Ultimate Equipment/199;PRPG Core Rulebook/495›  ",
 			"**Aura** strong varies; **CL** 15th  ",
 			"**Slot** none; **Price** 235,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2509,15 +2509,15 @@
 			"- *Hold monster* (2 charges)",
 			"- *Wall of force* (in a 10-ft.-diameter hemisphere around the caster only, 2 charges)",
 			"",
-			"The wielder of a staff of power gains a +2 luck bonus to AC and on saving throws. The staff is also a +2 {eq-weapon/quarterstaff}, and its wielder may use it to smite opponents. If 1 charge is expended (a free action), the staff deals double damage (&times;3 on a critical hit) for 1 round.",
+			"The wielder of a staff of power gains a +2 luck bonus to AC and on saving throws. The staff is also a +2 ‹eq-weapon/quarterstaff›, and its wielder may use it to smite opponents. If 1 charge is expended (a free action), the staff deals double damage (&times;3 on a critical hit) for 1 round.",
 			"",
 			"A staff of power can be used for a retributive strike, requiring it to be broken by its wielder. (If this breaking of the staff is purposeful and declared by the wielder, it can be performed as a standard action that does not require the wielder to make a Strength check.) All charges currently in the staff are instantly released in a 30-foot spread. All creatures and objects within 2 squares of the broken staff take an amount of damage equal to 20 &times; the number of charges in the staff, those 3 or 4 squares away take an amount of damage equal to 15 &times; the number of charges, and those 5 or 6 squares away take an amount of damage equal to 10 &times; the number of charges. All those affected can make DC 17 Reflex saves to reduce the damage by half.",
 			"",
-			"The character breaking the staff has a 50% chance of traveling to another plane of existence (01-50 on a d%), but if she does not, the explosive release of spell energy instantly destroys her. Only certain items, including the {magic-artifact/staff of the magi} and the staff of power, are capable of being used for a retributive strike.",
+			"The character breaking the staff has a 50% chance of traveling to another plane of existence (01-50 on a d%), but if she does not, the explosive release of spell energy instantly destroys her. Only certain items, including the ‹magic-artifact/staff of the magi› and the staff of power, are capable of being used for a retributive strike.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {spell/cone of cold}, {spell/continual flame}, {feat/heightened} {spell/fireball}, {spell/globe of invulnerability}, {spell/hold monster}, {spell/levitate}, heightened {spell/lightning bolt}, {spell/magic missile}, heightened {spell/ray of enfeeblement}, {spell/wall of force}; **Cost** 117,500 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹spell/cone of cold›, ‹spell/continual flame›, ‹feat/heightened› ‹spell/fireball›, ‹spell/globe of invulnerability›, ‹spell/hold monster›, ‹spell/levitate›, heightened ‹spell/lightning bolt›, ‹spell/magic missile›, heightened ‹spell/ray of enfeeblement›, ‹spell/wall of force›; **Cost** 117,500 gp"
 		]
 	},
 	"lasirros_staff": {
@@ -2526,11 +2526,11 @@
 		"description": [
 			"## Lasirro's Staff",
 			"",
-			"{SOURCE Lost Treasures/38}  ",
+			"‹SOURCE Lost Treasures/38›  ",
 			"**Aura** strong varies; **CL** 15th  ",
 			"**Slot** none; **Price** 240,000 gp; **Weight** 5 lbs.",
 			"",
-			"Lasirro's staff is a variant {magic-staff/staff of power} that allows the wielder to cast a wide range of spells.",
+			"Lasirro's staff is a variant ‹magic-staff/staff of power› that allows the wielder to cast a wide range of spells.",
 			"",
 			"- *Fireball* (heightened to 5th level; 1 charge)",
 			"- *Flame arrow* (1 charge)",
@@ -2543,13 +2543,13 @@
 			"- *Repulsion* (2 charges)",
 			"- *Wall of force* (in a 10-foot-diameter hemisphere around the caster only; 2 charges)",
 			"",
-			"Lasirro's Staff is a +2 {eq-weapon/quarterstaff} that grants its wielder a +2 luck bonus to AC and on saving throws. Like a staff of power, it can be intentionally broken by its wielder as a retributive strike. Doing so is a standard action. All creatures and objects within 20 feet of the broken staff take 20 points of damage per charge, those within 40 feet take 15 points of damage per charge, and those within 60 feet take 10 points of damage per charge. Anyone affected who succeeds at a DC 17 Reflex save takes only half damage, though the wielder is always destroyed.",
+			"Lasirro's Staff is a +2 ‹eq-weapon/quarterstaff› that grants its wielder a +2 luck bonus to AC and on saving throws. Like a staff of power, it can be intentionally broken by its wielder as a retributive strike. Doing so is a standard action. All creatures and objects within 20 feet of the broken staff take 20 points of damage per charge, those within 40 feet take 15 points of damage per charge, and those within 60 feet take 10 points of damage per charge. Anyone affected who succeeds at a DC 17 Reflex save takes only half damage, though the wielder is always destroyed.",
 			"",
 			"The retributive strike destroys the staff, although it reforms on the anniversary of Lasirro's death 10d10 years later somewhere on the Material Plane within 100 miles of one of Lasirro's descendants.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Magic Arms and Armor}, {feat/Craft Staff}, {feat/Heighten Spell}, {feat/Widen Spell}, {spell/break enchantment}, {spell/fireball}, {spell/flame arrow}, {spell/greater dispel magic}, {spell/invisibility}, {spell/knock}, {spell/nondetection}, {spell/repulsion}, {spell/wall of force}; **Cost** 120,000 gp"
+			"**Requirements** ‹feat/Craft Magic Arms and Armor›, ‹feat/Craft Staff›, ‹feat/Heighten Spell›, ‹feat/Widen Spell›, ‹spell/break enchantment›, ‹spell/fireball›, ‹spell/flame arrow›, ‹spell/greater dispel magic›, ‹spell/invisibility›, ‹spell/knock›, ‹spell/nondetection›, ‹spell/repulsion›, ‹spell/wall of force›; **Cost** 120,000 gp"
 		]
 	},
 	"staff_of_magical_decline": {
@@ -2558,13 +2558,13 @@
 		"description": [
 			"## Staff of Magical Decline",
 			"",
-			"{SOURCE Horror Adventures/143}  ",
+			"‹SOURCE Horror Adventures/143›  ",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** none; **Weight** 5 lbs.",
 			"",
 			"This staff appears to be an ordinary staff and functions normally as such until it is used in combat. The wielder's effective caster level drops to match that of the staff or the wielder's caster level - 4, whichever is lower. The wielder's spellcasting ability score drops to 10 + staff's highest spell level, unless it is already lower.",
 			"",
-			"The wielder must employ the staff rather than any other melee weapon or {misc/spell trigger} item. Even if the staff is fully charged, the caster fails to regain spell slots for the day unless she forgoes a spell slot to restore 1 charge to the staff. However, she never again regains a spell slot used to charge the staff until she is freed from the curse. The only way for the wielder to be rid of the staff is by {spell/miracle} or {spell/wish}.",
+			"The wielder must employ the staff rather than any other melee weapon or ‹misc/spell trigger› item. Even if the staff is fully charged, the caster fails to regain spell slots for the day unless she forgoes a spell slot to restore 1 charge to the staff. However, she never again regains a spell slot used to charge the staff until she is freed from the curse. The only way for the wielder to be rid of the staff is by ‹spell/miracle› or ‹spell/wish›.",
 			"",
 			"### Construction",
 			"",
@@ -2577,12 +2577,12 @@
 		"description": [
 			"## Staff of Occasional Wonder",
 			"",
-			"{SOURCE Ultimate Equipment/351}",
+			"‹SOURCE Ultimate Equipment/351›",
 			"",
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** none; **Weight** 4 lbs.",
 			"",
-			"A staff of occasional wonder can appear to be any magical staff, and in fact such items are usually the result of accidents during an attempted crafting of the staff it appears to be. It usually functions as intended, but each time someone uses the staff, they must roll d%. On a roll of 1-10, instead of the desired effect, the staff acts like a {magic-rod/rod of wonder}.",
+			"A staff of occasional wonder can appear to be any magical staff, and in fact such items are usually the result of accidents during an attempted crafting of the staff it appears to be. It usually functions as intended, but each time someone uses the staff, they must roll d%. On a roll of 1-10, instead of the desired effect, the staff acts like a ‹magic-rod/rod of wonder›.",
 			"",
 			"### Construction",
 			"",
@@ -2595,17 +2595,17 @@
 		"description": [
 			"## Overcharged Staff",
 			"",
-			"{SOURCE Antihero's Handbook/31}  ",
+			"‹SOURCE Antihero's Handbook/31›  ",
 			"**Aura** moderate evocation; **CL** 11th  ",
 			"**Slot** none; **Weight** 5 lbs.",
 			"",
-			"This staff appears as a normal {magic-staff/staff of electricity}, except it is black instead of silver and electricity occasionally arcs along the shaft. The curse on this weapon alters the *shocking grasp, lightning bolt,* and *chain lightning* spells granted by the staff, causing extra surges of energy to damage the wielder and his allies.",
+			"This staff appears as a normal ‹magic-staff/staff of electricity›, except it is black instead of silver and electricity occasionally arcs along the shaft. The curse on this weapon alters the *shocking grasp, lightning bolt,* and *chain lightning* spells granted by the staff, causing extra surges of energy to damage the wielder and his allies.",
 			"",
-			"When the wielder uses the overcharged staff to cast {spell/shocking grasp}, he takes 1d3 points of electricity damage per caster level (maximum 5d3). When the wielder uses the overcharged staff to cast {spell/lightning bolt}, a random ally takes 1d6 points of electricity damage per caster level (maximum 10d6); the ally takes half that amount with a successful Reflex save. When the wielder uses the overcharged staff to cast {spell/chain lightning}, for each target the wielder chooses as a primary or secondary target, a random ally must be chosen as a secondary target.",
+			"When the wielder uses the overcharged staff to cast ‹spell/shocking grasp›, he takes 1d3 points of electricity damage per caster level (maximum 5d3). When the wielder uses the overcharged staff to cast ‹spell/lightning bolt›, a random ally takes 1d6 points of electricity damage per caster level (maximum 10d6); the ally takes half that amount with a successful Reflex save. When the wielder uses the overcharged staff to cast ‹spell/chain lightning›, for each target the wielder chooses as a primary or secondary target, a random ally must be chosen as a secondary target.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {magic-staff/staff of electricity}; **Cost** -"
+			"**Requirements** ‹magic-staff/staff of electricity›; **Cost** -"
 		]
 	}
 }

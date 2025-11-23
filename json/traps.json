@@ -11,7 +11,7 @@
 		"name": "Arrow Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/420}",
+			"‹SOURCE PRPG Core Rulebook/420›",
 			"",
 			"::trap[Arrow Trap]{start cr=1 mechanical pdc=20 dddc=20 trigger=touch eff=\"Atk +15 ranged (1d8+1/&times&3)\"}"
 		]
@@ -20,7 +20,7 @@
 		"name": "Bear Trap",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
-			"{SOURCE Advanced Player's Guide/184}",
+			"‹SOURCE Advanced Player's Guide/184›",
 			"",
 			"::trap[Bear Trap]{start cr=1 mechanical pdc=15 dddc=20 trigger=location manual eff=\"Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 Disable Device check, DC 22 Escape Artist check, or DC 26 Strength check\"}"
 		]
@@ -29,7 +29,7 @@
 		"name": "Breakaway Vine",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/172}",
+			"‹SOURCE Ultimate Wilderness/172›",
 			"",
 			"::trap[Breakaway Vine]{start cr=1 terrain=\"any forests, jungles, or swamps\" mechanical pdc=20 dddc=20 trigger=\"touch (timed)\" repair eff=\"A breakaway vine has been sabotaged so that it snaps not long after someone begins using it to climb. A breakaway vine trap can be crafted from a length of rope as well, but this ruins the rope for other uses. When a Small or larger creature climbs a breakaway vine, the vine snaps just before the creature reaches the top of the climb. A creature can grab a handhold and avoid the resulting fall with a successful DC 20 Reflex save. This breakaway vine assumes a 20-foot fall for 2d6 points of damage; longer falls increase the CR of the breakaway vine by 1 per additional 20 feet.\"}"
 		]
@@ -38,16 +38,16 @@
 		"name": "Musk Shower",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/172}",
+			"‹SOURCE Ultimate Wilderness/172›",
 			"",
-			"::trap[Musk Shower]{start cr=1 terrain=any mechanical pdc=20 dddc=20 trigger=location eff=\"Effect This trap hides a jury-rigged container of absorbent debris that has been soaked in the musk of prey animals. When a creature enters a square trapped with a musk shower, the trap makes a +10 melee touch attack against the creature. On a hit, the musk shower deals no damage but douses the target in its strong scent. Creatures with %%umr/scent%% double the range at which they can smell a doused creature for 1 week or until the musk is washed off with alcohol or another solvent. Creatures tracking the doused creature by smell gain a +10 bonus on Perception and Survival checks to track that target.\"}"
+			"::trap[Musk Shower]{start cr=1 terrain=any mechanical pdc=20 dddc=20 trigger=location eff=\"Effect This trap hides a jury-rigged container of absorbent debris that has been soaked in the musk of prey animals. When a creature enters a square trapped with a musk shower, the trap makes a +10 melee touch attack against the creature. On a hit, the musk shower deals no damage but douses the target in its strong scent. Creatures with ‹umr/scent› double the range at which they can smell a doused creature for 1 week or until the musk is washed off with alcohol or another solvent. Creatures tracking the doused creature by smell gain a +10 bonus on Perception and Survival checks to track that target.\"}"
 		]
 	},
 	"pit_trap": {
 		"name": "Pit Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/420}",
+			"‹SOURCE PRPG Core Rulebook/420›",
 			"",
 			"::trap[Pit Trap]{start cr=1 mechanical pdc=20 dddc=20 trigger=location manual eff=\"20-ft.-deep pit (2d6 falling damage); DC 20 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)\"}"
 		]
@@ -57,16 +57,16 @@
 		"name": "Poisoned Dart Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/420}",
+			"‹SOURCE PRPG Core Rulebook/420›",
 			"",
-			"::trap[Poisoned Dart Trap]{start cr=1 mechanical pdc=20 dddc=20 trigger=touch eff=\"Atk +10 ranged (1d3 plus %%eq-poison/greenblood oil%%)\"}"
+			"::trap[Poisoned Dart Trap]{start cr=1 mechanical pdc=20 dddc=20 trigger=touch eff=\"Atk +10 ranged (1d3 plus ‹eq-poison/greenblood oil›)\"}"
 		]
 	},
 	"spring_snare": {
 		"name": "Spring Snare",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/172}",
+			"‹SOURCE Ultimate Wilderness/172›",
 			"",
 			"::trap[Spring Snare]{start cr=1 terrain=\"any forests, jungles, or swamps\" mechanical pdc=25 dddc=15 trigger=location manual eff=\"A spring snare consists of a strong sapling that's been bent down with a noose affixed to the end. When a creature enters a square trapped by a spring snare, the noose attempts to snare the triggering creature with a +15 on its combat maneuver check to grapple. If it succeeds, the tree snaps upright and flings the target into the air for 1d6 damage. The creature then remains suspended 10 feet off the ground until it breaks the grapple.\"}"
 		]
@@ -75,7 +75,7 @@
 		"name": "Swinging Axe Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/420}",
+			"‹SOURCE PRPG Core Rulebook/420›",
 			"",
 			"::trap[Swinging Axe Trap]{start cr=1 mechanical pdc=20 dddc=20 trigger=location manual eff=\"Atk +10 melee (1d8+1/&times&3); multiple targets (all targets in a 10-ft. line)\"}"
 		]
@@ -84,7 +84,7 @@
 		"name": "Swinging Log",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/172}",
+			"‹SOURCE Ultimate Wilderness/172›",
 			"",
 			"::trap[Swinging Log]{start cr=1 terrain=\"any forests or jungles\" mechanical pdc=12 dddc=12 trigger=location manual eff=\"A large, heavy log is suspended in the canopy of a forest or jungle and attached to a trip line. When a creature passes through a 5-foot-square that's been trapped by this trip line, the log swings down and makes a melee attack with a +5 bonus (1d6+5 points of bludgeoning damage). A creature damaged by this log must succeed at a DC 15 Reflex save to avoid being knocked prone. Affixing a number of sharpened sticks to the log adds an additional 2d6 points of piercing damage and increases its CR by 1.\"}"
 		]
@@ -93,25 +93,25 @@
 		"name": "Tar Snare",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/172}",
+			"‹SOURCE Ultimate Wilderness/172›",
 			"",
-			"::trap[Tar Snare]{start cr=1 terrain=\"any with tar pits or mud\" mechanical pdc=20 dddc=20 trigger=location automatic eff=\"A tar snare consists of a shallow trench filled with tar or sticky mud that is then covered with a layer of debris to disguise its presence. When a creature steps into a square trapped with a tar snare, the trap makes an attempt to grapple it with a +10 bonus on the combat maneuver check. Sharp sticks can be added to the pit as well-this increases the CR of the trap by 1 and affects a creature grappled by the trap as if it had walked on %%eq-misc/caltrops%%.\"}"
+			"::trap[Tar Snare]{start cr=1 terrain=\"any with tar pits or mud\" mechanical pdc=20 dddc=20 trigger=location automatic eff=\"A tar snare consists of a shallow trench filled with tar or sticky mud that is then covered with a layer of debris to disguise its presence. When a creature steps into a square trapped with a tar snare, the trap makes an attempt to grapple it with a +10 bonus on the combat maneuver check. Sharp sticks can be added to the pit as well-this increases the CR of the trap by 1 and affects a creature grappled by the trap as if it had walked on ‹eq-misc/caltrops›.\"}"
 		]
 	},
 	"burning_hands_trap": {
 		"name": "Burning Hands Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/420}",
+			"‹SOURCE PRPG Core Rulebook/420›",
 			"",
-			"::trap[Burning Hands Trap]{start cr=2 magic pdc=26 dddc=26 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/burning hands%%, 2d4 fire damage, DC 11 Reflex save for half damage); multiple targets (all targets in a 15-ft. cone)\"}"
+			"::trap[Burning Hands Trap]{start cr=2 magic pdc=26 dddc=26 trigger=\"proximity (alarm)\" eff=\"spell effect (‹spell/burning hands›, 2d4 fire damage, DC 11 Reflex save for half damage); multiple targets (all targets in a 15-ft. cone)\"}"
 		]
 	},
 	"clam_clamp": {
 		"name": "Clam Clamp",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/173}",
+			"‹SOURCE Ultimate Wilderness/173›",
 			"",
 			"::trap[Clam Clamp]{start cr=2 terrain=\"any oceans\" mechanical pdc=20 dddc=17 trigger=location automatic eff=\"The classic *clam clamp* trap utilizes the heavy shell of a giant clam, but any similarly large bivalve mollusk or even flotsam can work. A clam clamp is typically set with a lure, such as a piece of shiny treasure. When a creature walks over a clam clamp or attempts to take the treasure, the clamp snaps shut and attempts a grapple with a +15 bonus on the combat maneuver check. The weight of the clam clamp is enough to hold a creature in place until the grappled creature can escape. A clam clamp located in an underwater area is more difficult to craft but also more dangerous to air-breathing creatures due to the fact that it can hold a creature underwater until it drowns; an underwater clam clamp's CR is 5.\"}"
 		]
@@ -120,7 +120,7 @@
 		"name": "Javelin Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/420}",
+			"‹SOURCE PRPG Core Rulebook/420›",
 			"",
 			"::trap[Javelin Trap]{start cr=2 mechanical pdc=20 dddc=20 trigger=location eff=\"Atk +15 ranged (1d6+6)\"}"
 		]
@@ -129,7 +129,7 @@
 		"name": "Spiked Pit Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/420}",
+			"‹SOURCE PRPG Core Rulebook/420›",
 			"",
 			"::trap[Spiked Pit Trap]{start cr=2 mechanical pdc=20 dddc=20 trigger=location manual eff=\"10-ft.-deep pit (1d6 falling damage); pit spikes (Atk +10 melee, 1d4 spikes per target for 1d4+2 damage each); DC 20 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)\"}"
 		]
@@ -138,16 +138,16 @@
 		"name": "Acid Arrow Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/420}",
+			"‹SOURCE PRPG Core Rulebook/420›",
 			"",
-			"::trap[Acid Arrow Trap]{start cr=3 magic pdc=27 dddc=27 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/acid arrow%%, Atk +2 ranged touch, 2d4 acid damage for 4 rounds)\"}"
+			"::trap[Acid Arrow Trap]{start cr=3 magic pdc=27 dddc=27 trigger=\"proximity (alarm)\" eff=\"spell effect (‹spell/acid arrow›, Atk +2 ranged touch, 2d4 acid damage for 4 rounds)\"}"
 		]
 	},
 	"camouflaged_pit_trap": {
 		"name": "Camouflaged Pit Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/420}",
+			"‹SOURCE PRPG Core Rulebook/420›",
 			"",
 			"::trap[Camouflaged Pit Trap]{start cr=3 mechanical pdc=25 dddc=20 trigger=location manual eff=\"30-ft.-deep pit (3d6 falling damage); DC 20 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)\"}"
 		]
@@ -156,7 +156,7 @@
 		"name": "Razor Grass",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/173}",
+			"‹SOURCE Ultimate Wilderness/173›",
 			"",
 			"::trap[Razor Grass]{start cr=3 terrain=\"any with undergrowth\" mechanical pdc=25 dddc=20 trigger=location automatic eff=\"By hiding lengths of sharpened sticks or bones amid undergrowth (traditionally tall grass; when used in coastal or underwater areas, this trap is instead called a razor kelp trap), the trapper can lay a simple but effective trap. Whenever a creature moves into a square that contains razor grass, it takes 1d6 points of damage and must succeed at a DC 20 Reflex save or its speed is halved for 24 hours or until it receives magical healing or benefits from a successful DC 15 Heal check.\"}"
 		]
@@ -165,7 +165,7 @@
 		"name": "Breakaway Log",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/173}",
+			"‹SOURCE Ultimate Wilderness/173›",
 			"",
 			"::trap[Breakaway Log]{start cr=4 terrain=\"any forests, jungles, or swamps\" mechanical pdc=25 dddc=30 trigger=location repair eff=\"Fallen trees often form excellent natural bridges over rivers or chasms, or they afford routes to climb more safely over a wall or other barrier. Breakaway logs have been sabotaged so that they collapse once they are used. At the end of a round when a Medium or larger (or two Small) creatures use the log, it collapses. All creatures on the log then fall, taking appropriate damage from the plunge. This example breakaway log fills an area that is 5 feet wide and 20 feet long, and it results in a 20-foot fall which deals 2d6 points of falling damage. A creature that succeeds at a DC 15 Reflex save can cling to the log or leap to safety and avoid the damage entirely.\"}"
 		]
@@ -174,7 +174,7 @@
 		"name": "Electricity Arc Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/420}",
+			"‹SOURCE PRPG Core Rulebook/420›",
 			"",
 			"::trap[Electricity Arc Trap]{start cr=4 mechanical pdc=25 dddc=20 trigger=touch eff=\"electricity arc (4d6 electricity damage, DC 20 Reflex save for half damage); multiple targets (all targets in a 30-ft. line)\"}"
 		]
@@ -183,16 +183,16 @@
 		"name": "Spring-arm Spike",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/173}",
+			"‹SOURCE Ultimate Wilderness/173›",
 			"",
-			"::trap[Spring-arm Spike]{start cr=4 terrain=\"any forests, jungles, or swamps\" mechanical pdc=20 dddc=20 trigger=location manual eff=\"A spring-arm spike is similar to a %%trap/spring snare/ trap%% in that it incorporates a strong sapling bent into a taut arc. When a creature enters a square that contains the spring-arm spike's trigger, the sapling snaps forward, driving a pointed spear into the target. The spring-arm spike makes a melee attack +15 (2d10+4/&times&3) against the target, which is also knocked prone unless it succeeds at a DC 20 Reflex save.\"}"
+			"::trap[Spring-arm Spike]{start cr=4 terrain=\"any forests, jungles, or swamps\" mechanical pdc=20 dddc=20 trigger=location manual eff=\"A spring-arm spike is similar to a ‹trap/spring snare« trap› in that it incorporates a strong sapling bent into a taut arc. When a creature enters a square that contains the spring-arm spike's trigger, the sapling snaps forward, driving a pointed spear into the target. The spring-arm spike makes a melee attack +15 (2d10+4/&times&3) against the target, which is also knocked prone unless it succeeds at a DC 20 Reflex save.\"}"
 		]
 	},
 	"wall_scythe_trap": {
 		"name": "Wall Scythe Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/420}",
+			"‹SOURCE PRPG Core Rulebook/420›",
 			"",
 			"::trap[Wall Scythe Trap]{start cr=4 mechanical pdc=20 dddc=20 trigger=location automatic eff=\"Atk +20 melee (2d4+6/&times&4)\"}"
 		]
@@ -202,7 +202,7 @@
 		"name": "Deadfall",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/173}",
+			"‹SOURCE Ultimate Wilderness/173›",
 			"",
 			"::trap[Deadfall]{start cr=5 terrain=\"any forests, jungles, mountains, or swaps\" mechanical pdc=20 dddc=20 trigger=location manual eff=\"Rigged to boulders, logs, or other heavy weights in canopies or on ledges, a trip line strung across an area can create a deadly trap. When a creature enters the deadfall's trigger square, the weights drop in a 20-foot line or a 10-foot-square area, affecting four 5-foot squares in all. Each creature in this area takes 4d6 points of damage and is knocked prone. With a successful DC 20 Reflex save, a target takes half the damage and avoids being knocked prone.\"}"
 		]
@@ -211,7 +211,7 @@
 		"name": "Falling Block Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/420}",
+			"‹SOURCE PRPG Core Rulebook/420›",
 			"",
 			"::trap[Falling Block Trap]{start cr=5 mechanical pdc=20 dddc=20 trigger=location manual eff=\"Atk +15 melee (6d6); multiple targets (all targets in a 10-ft. square)\"}"
 		]
@@ -220,43 +220,43 @@
 		"name": "Fireball Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
-			"::trap[Fireball Trap]{start cr=5 magic pdc=28 dddc=28 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/fireball%%, 6d6 fire damage, DC 14 Reflex save for half damage); multiple targets (all targets in a 20-ft.-radius burst)\"}"
+			"::trap[Fireball Trap]{start cr=5 magic pdc=28 dddc=28 trigger=\"proximity (alarm)\" eff=\"spell effect (‹spell/fireball›, 6d6 fire damage, DC 14 Reflex save for half damage); multiple targets (all targets in a 20-ft.-radius burst)\"}"
 		]
 	},
 	"flame_strike_trap": {
 		"name": "Flame Strike Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
-			"::trap[Flame Strike Trap]{start cr=6 magic pdc=30 dddc=30 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/flame strike%%, 8d6 fire damage, DC 17 Reflex save for half damage); multiple targets (all targets in a 10-ft.-radius cylinder)\"}"
+			"::trap[Flame Strike Trap]{start cr=6 magic pdc=30 dddc=30 trigger=\"proximity (alarm)\" eff=\"spell effect (‹spell/flame strike›, 8d6 fire damage, DC 17 Reflex save for half damage); multiple targets (all targets in a 10-ft.-radius cylinder)\"}"
 		]
 	},
 	"wyvern_arrow_trap": {
 		"name": "Wyvern Arrow Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
-			"::trap[Wyvern Arrow Trap]{start cr=6 mechanical pdc=20 dddc=20 trigger=location eff=\"Atk +15 ranged (1d6 plus %%eq-poison/wyvern poison%%/&times&3)\"}"
+			"::trap[Wyvern Arrow Trap]{start cr=6 mechanical pdc=20 dddc=20 trigger=location eff=\"Atk +15 ranged (1d6 plus ‹eq-poison/wyvern poison›/&times&3)\"}"
 		]
 	},
 	"faceless_statue_trap": {
 		"name": "Faceless Statue Trap",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"{SOURCE Horror Adventures/162}",
+			"‹SOURCE Horror Adventures/162›",
 			"",
-			"::trap[Faceless Statue Trap]{start cr=7 magic pdc=31 dddc=31 trigger=\"proximity (15 feet)\" eff=\"The faceless statue trap targets a creature with a %%spell/flesh to stone%% effect (DC 19, single target), followed immediately by a %%spell/stone shape%% effect, which completely smooths the face of the target, making it appear to be faceless. If the creature is returned to flesh, this transformation persists, rendering the target permanently blind, deaf, mute, and unable to breathe. Unless the change is reversed via %%spell/regenerate%% or other magic capable of restoring the target's mouth or nose, or unless the target is able to survive without breathing, the creature begins to %%rule/suffocate%% immediately. Using *stone shape* on the creature while it is still petrified can restore its face, preventing this, but only if the caster succeeds at a DC 25 Craft (sculpture) check. Otherwise, the spell creates a grotesque parody of a face, formed entirely of flesh and without function. Other variants of this trap exist that perform similarly grotesque alterations to a creature via *stone shape.*\"}"
+			"::trap[Faceless Statue Trap]{start cr=7 magic pdc=31 dddc=31 trigger=\"proximity (15 feet)\" eff=\"The faceless statue trap targets a creature with a ‹spell/flesh to stone› effect (DC 19, single target), followed immediately by a ‹spell/stone shape› effect, which completely smooths the face of the target, making it appear to be faceless. If the creature is returned to flesh, this transformation persists, rendering the target permanently blind, deaf, mute, and unable to breathe. Unless the change is reversed via ‹spell/regenerate› or other magic capable of restoring the target's mouth or nose, or unless the target is able to survive without breathing, the creature begins to ‹rule/suffocate› immediately. Using *stone shape* on the creature while it is still petrified can restore its face, preventing this, but only if the caster succeeds at a DC 25 Craft (sculpture) check. Otherwise, the spell creates a grotesque parody of a face, formed entirely of flesh and without function. Other variants of this trap exist that perform similarly grotesque alterations to a creature via *stone shape.*\"}"
 		]
 	},
 	"frost_fangs_trap": {
 		"name": "Frost Fangs Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
 			"::trap[Frost Fangs Trap]{start cr=7 mechanical pdc=25 dddc=20 trigger=location eff=\"jets of freezing water (3d6 cold damage, DC 20 Reflex save for half damage); multiple targets (all targets in a 40-ft.-square chamber); **Duration:** 3 rounds\"}"
 		]
@@ -265,18 +265,18 @@
 		"name": "Sinking Coffin Trap",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"{SOURCE Horror Adventures/162}",
+			"‹SOURCE Horror Adventures/162›",
 			"",
-			"::trap[Sinking Coffin Trap]{start cr=7 mechanical pdc=25 dddc=25 trigger=location repair eff=\"This trap activates similarly to a %%trap/pit trap%%, but the pit is actually a metal coffin concealed under the floor that drops into a body of water under the floor once a creature falls inside. The pit-like opening is 5 feet across, leading into a hollow metal coffin that's 10 feet deep. A creature that steps onto the opening and fails a DC 20 Reflex save falls in, taking 1d6 points of falling damage. The top of the metal box then automatically shuts and locks (Disable Device DC 30, accessible from either side), and the fastenings holding the box to the floor release, causing it and anyone still inside or standing on top of it to plummet into a body of water, typically either fast-flowing or at least 200 feet deep. The box sinks at a rate of 60 feet per round, and could be carried by the current. The box is airtight, and contains enough air for a single Medium creature to breathe for 10 minutes before being at risk of %%rule/suffocation%%. If the box is successfully opened while underwater, the water takes 1 round to fill it, during which time any creature inside the box must succeed at a DC 15 Strength check to escape the box against the power of the rushing water.\"}"
+			"::trap[Sinking Coffin Trap]{start cr=7 mechanical pdc=25 dddc=25 trigger=location repair eff=\"This trap activates similarly to a ‹trap/pit trap›, but the pit is actually a metal coffin concealed under the floor that drops into a body of water under the floor once a creature falls inside. The pit-like opening is 5 feet across, leading into a hollow metal coffin that's 10 feet deep. A creature that steps onto the opening and fails a DC 20 Reflex save falls in, taking 1d6 points of falling damage. The top of the metal box then automatically shuts and locks (Disable Device DC 30, accessible from either side), and the fastenings holding the box to the floor release, causing it and anyone still inside or standing on top of it to plummet into a body of water, typically either fast-flowing or at least 200 feet deep. The box sinks at a rate of 60 feet per round, and could be carried by the current. The box is airtight, and contains enough air for a single Medium creature to breathe for 10 minutes before being at risk of ‹rule/suffocation›. If the box is successfully opened while underwater, the water takes 1 round to fill it, during which time any creature inside the box must succeed at a DC 15 Strength check to escape the box against the power of the rushing water.\"}"
 		]
 	},
 	"summon_monster_vi_trap": {
 		"name": "Summon Monster VI Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
-			"::trap[Summon Monster VI Trap]{start cr=7 magic pdc=31 dddc=31 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/summon monster VI%%, summons 1d3 Large elementals or 1 Huge elemental)\"}"
+			"::trap[Summon Monster VI Trap]{start cr=7 magic pdc=31 dddc=31 trigger=\"proximity (alarm)\" eff=\"spell effect (‹spell/summon monster VI›, summons 1d3 Large elementals or 1 Huge elemental)\"}"
 		]
 	},
 	"summon_monster_trap": { "redirect": "summon_monster_vi_trap" },
@@ -284,7 +284,7 @@
 		"name": "Camouflaged Spiked Pit Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
 			"::trap[Camouflaged Spiked Pit Trap]{start cr=8 mechanical pdc=25 dddc=20 trigger=location manual eff=\"50-ft.-deep pit (5d6 falling damage); pit spikes (Atk +15 melee, 1d4 spikes per target for 1d6+5 damage each); DC 20 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)\"}"
 		]
@@ -293,16 +293,16 @@
 		"name": "Insanity Mist Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
-			"::trap[Insanity Mist Trap]{start cr=8 mechanical pdc=25 dddc=20 trigger=location repair eff=\"poison gas (%%eq-poison/insanity mist%%); never miss; onset delay (1 round); multiple targets (all targets in a 10-ft.-by-10-ft. room)\"}"
+			"::trap[Insanity Mist Trap]{start cr=8 mechanical pdc=25 dddc=20 trigger=location repair eff=\"poison gas (‹eq-poison/insanity mist›); never miss; onset delay (1 round); multiple targets (all targets in a 10-ft.-by-10-ft. room)\"}"
 		]
 	},
 	"hail_of_arrows_trap": {
 		"name": "Hail of Arrows Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
 			"::trap[Hail of Arrows Trap]{start cr=9 mechanical pdc=25 dddc=25 trigger=\"visual (arcane eye)\" repair eff=\"Atk +20 ranged (6d6); multiple targets (all targets in a 20-ft. line)\"}"
 		]
@@ -311,16 +311,16 @@
 		"name": "Shocking Floor Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
-			"::trap[Shocking Floor Trap]{start cr=9 magic pdc=26 dddc=26 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/shocking grasp%%, Atk +9 melee touch &#91&4d6 electricity damage&#93&); multiple targets (all targets in a 40-ft.-square room); **Duration:** 1d6 rounds\"}"
+			"::trap[Shocking Floor Trap]{start cr=9 magic pdc=26 dddc=26 trigger=\"proximity (alarm)\" eff=\"spell effect (‹spell/shocking grasp›, Atk +9 melee touch &#91&4d6 electricity damage&#93&); multiple targets (all targets in a 40-ft.-square room); **Duration:** 1d6 rounds\"}"
 		]
 	},
 	"chamber_of_blades_trap": {
 		"name": "Chamber of Blades Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
 			"::trap[Chamber of Blades Trap]{start cr=10 mechanical pdc=25 dddc=20 trigger=location repair eff=\"Atk +20 melee (3d8+3); multiple targets (all targets in a 20-ft.-square chamber); **Duration:** 1d4 rounds\"}"
 		]
@@ -329,61 +329,61 @@
 		"name": "Energy Drain Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
-			"::trap[Energy Drain Trap]{start cr=10 magic pdc=34 dddc=34 trigger=\"visual (true seeing)\" eff=\"spell effect (%%spell/energy drain%%, Atk +10 ranged touch, 2d4 temporary negative levels, DC 23 Fortitude negates after 24 hours)\"}"
+			"::trap[Energy Drain Trap]{start cr=10 magic pdc=34 dddc=34 trigger=\"visual (true seeing)\" eff=\"spell effect (‹spell/energy drain›, Atk +10 ranged touch, 2d4 temporary negative levels, DC 23 Fortitude negates after 24 hours)\"}"
 		]
 	},
 	"cone_of_cold_trap": {
 		"name": "Cone of Cold Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
-			"::trap[Cone of Cold Trap]{start cr=11 magic pdc=30 dddc=30 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/cone of cold%%, 15d6 cold damage, DC 17 Reflex save for half damage); multiple targets (all targets in a 60-ft. cone)\"}"
+			"::trap[Cone of Cold Trap]{start cr=11 magic pdc=30 dddc=30 trigger=\"proximity (alarm)\" eff=\"spell effect (‹spell/cone of cold›, 15d6 cold damage, DC 17 Reflex save for half damage); multiple targets (all targets in a 60-ft. cone)\"}"
 		]
 	},
 	"crushing_cage_tarp": {
 		"name": "Crushing Cage Tarp",
 		"sources": [ "Horror Adventures" ],
 		"description": [
-			"{SOURCE Horror Adventures/161}",
+			"‹SOURCE Horror Adventures/161›",
 			"",
-			"::trap[Crushing Cage Tarp]{start cr=11 mechanical pdc=29 dddc=30 trigger=location manual eff=\"A metal cage drops to seal creatures in a 10-foot-square area (no saving throw), and the ceiling of this cage begins to slowly lower to crush those within it, descending at a rate of 1 foot per round from a height of 10 feet. Creatures inside and outside the trapped area can attempt to open the cage's single locked door (Disable Device DC 30), but the lock is electrified, automatically dealing 6d6 points of electricity damage with each attempt, and imposing a -1 penalty on the check for every 5 points of damage dealt in this way. Creatures inside the cage can attempt to hold up the ceiling of the cage as a ful l-round action with a successful DC 25 Strength check. Success prevents the cage from lowering that round, though it doesn't reverse the progress or allow egress. Once the height of the cage's ceiling is 3 feet, Medium creatures take 10d10 points of bludgeoning damage each round the cage's ceiling is not successfully held up. Once the height of the cage's ceiling is 1 foot, Small creatures take 10d10 points of bludgeoning damage each round that the ceiling is not successfully held up. Tiny creatures can attempt a DC 30 Escape Artist check to flee through the holes in the cage, Diminutive creatures must succeed at a DC 20 Escape Artist check, and Fine creatures can leave automatically. These traps are often employed in conjunction with an effect that prevents dimensional travel, such as %%spell/dimensional lock%%. This addition doesn't change the trap's CR, but it does make the trap a combination of mechanical and magical.\"}"
+			"::trap[Crushing Cage Tarp]{start cr=11 mechanical pdc=29 dddc=30 trigger=location manual eff=\"A metal cage drops to seal creatures in a 10-foot-square area (no saving throw), and the ceiling of this cage begins to slowly lower to crush those within it, descending at a rate of 1 foot per round from a height of 10 feet. Creatures inside and outside the trapped area can attempt to open the cage's single locked door (Disable Device DC 30), but the lock is electrified, automatically dealing 6d6 points of electricity damage with each attempt, and imposing a -1 penalty on the check for every 5 points of damage dealt in this way. Creatures inside the cage can attempt to hold up the ceiling of the cage as a ful l-round action with a successful DC 25 Strength check. Success prevents the cage from lowering that round, though it doesn't reverse the progress or allow egress. Once the height of the cage's ceiling is 3 feet, Medium creatures take 10d10 points of bludgeoning damage each round the cage's ceiling is not successfully held up. Once the height of the cage's ceiling is 1 foot, Small creatures take 10d10 points of bludgeoning damage each round that the ceiling is not successfully held up. Tiny creatures can attempt a DC 30 Escape Artist check to flee through the holes in the cage, Diminutive creatures must succeed at a DC 20 Escape Artist check, and Fine creatures can leave automatically. These traps are often employed in conjunction with an effect that prevents dimensional travel, such as ‹spell/dimensional lock›. This addition doesn't change the trap's CR, but it does make the trap a combination of mechanical and magical.\"}"
 		]
 	},
 	"poisoned_pit_trap": {
 		"name": "Poisoned Pit Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
-			"::trap[Poisoned Pit Trap]{start cr=12 mechanical pdc=25 dddc=20 trigger=location manual eff=\"50-ft.-deep pit (5d6 falling damage); pit spikes (Atk +15 melee, 1d4 spikes per target for 1d6+5 damage each plus poison %%eq-poison/shadow essence%%); DC 25 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)\"}"
+			"::trap[Poisoned Pit Trap]{start cr=12 mechanical pdc=25 dddc=20 trigger=location manual eff=\"50-ft.-deep pit (5d6 falling damage); pit spikes (Atk +15 melee, 1d4 spikes per target for 1d6+5 damage each plus poison ‹eq-poison/shadow essence›); DC 25 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)\"}"
 		]
 	},
 	"maximized_fireball_trap": {
 		"name": "Maximized Fireball Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/421}",
+			"‹SOURCE PRPG Core Rulebook/421›",
 			"",
-			"::trap[Maximized Fireball Trap]{start cr=13 magic pdc=31 dddc=31 trigger=\"proximity (alarm)\" eff=\"spell effect (%%spell/fireball%%, 60 fire damage, DC 14 Reflex save for half damage); multiple targets (all targets in a 20-ft.-radius burst)\"}"
+			"::trap[Maximized Fireball Trap]{start cr=13 magic pdc=31 dddc=31 trigger=\"proximity (alarm)\" eff=\"spell effect (‹spell/fireball›, 60 fire damage, DC 14 Reflex save for half damage); multiple targets (all targets in a 20-ft.-radius burst)\"}"
 		]
 	},
 	"harm_trap": {
 		"name": "Harm Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/422}",
+			"‹SOURCE PRPG Core Rulebook/422›",
 			"",
-			"::trap[Harm Trap]{start cr=14 magic pdc=31 dddc=31 trigger=touch eff=\"spell effect (%%spell/harm%%, +6 melee touch, 130 damage, DC 19 Will save for half, cannot be reduced to less than 1 hit point)\"}"
+			"::trap[Harm Trap]{start cr=14 magic pdc=31 dddc=31 trigger=touch eff=\"spell effect (‹spell/harm›, +6 melee touch, 130 damage, DC 19 Will save for half, cannot be reduced to less than 1 hit point)\"}"
 		]
 	},
 	"crushing_stone_trap": {
 		"name": "Crushing Stone Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/422}",
+			"‹SOURCE PRPG Core Rulebook/422›",
 			"",
 			"::trap[Crushing Stone Trap]{start cr=15 mechanical pdc=30 dddc=20 trigger=location manual eff=\"Atk +15 melee (16d6); multiple targets (all targets in a 10-ft. square)\"}"
 		]
@@ -392,25 +392,25 @@
 		"name": "Empowered Disintegrate Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/422}",
+			"‹SOURCE PRPG Core Rulebook/422›",
 			"",
-			"::trap[Empowered Disintegrate Trap]{start cr=16 magic pdc=33 dddc=33 trigger=\"sight (true seeing)\" eff=\"spell effect (%%feat/empowered%% %%spell/disintegrate%%, +9 ranged touch, 30d6 damage plus 50%, DC 19 Fort save reduces the damage to 5d6 plus 50%)\"}"
+			"::trap[Empowered Disintegrate Trap]{start cr=16 magic pdc=33 dddc=33 trigger=\"sight (true seeing)\" eff=\"spell effect (‹feat/empowered› ‹spell/disintegrate›, +9 ranged touch, 30d6 damage plus 50%, DC 19 Fort save reduces the damage to 5d6 plus 50%)\"}"
 		]
 	},
 	"lightning_bolt_gallery_trap": {
 		"name": "Lightning Bolt Gallery Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/422}",
+			"‹SOURCE PRPG Core Rulebook/422›",
 			"",
-			"::trap[Lightning Bolt Gallery Trap]{start cr=17 magic pdc=29 dddc=29 trigger=\"proximity (alarm)\" eff=\"spell effect (%%feat/heightened%% %%spell/lightning bolt%%, 8d6 electricity damage, DC 16 Reflex save for half); multiple targets (all targets in a 60-ft.-square chamber); **Duration:** 1d6 rounds\"}"
+			"::trap[Lightning Bolt Gallery Trap]{start cr=17 magic pdc=29 dddc=29 trigger=\"proximity (alarm)\" eff=\"spell effect (‹feat/heightened› ‹spell/lightning bolt›, 8d6 electricity damage, DC 16 Reflex save for half); multiple targets (all targets in a 60-ft.-square chamber); **Duration:** 1d6 rounds\"}"
 		]
 	},
 	"deadly_spear_trap": {
 		"name": "Deadly Spear Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/422}",
+			"‹SOURCE PRPG Core Rulebook/422›",
 			"",
 			"::trap[Deadly Spear Trap]{start cr=18 mechanical pdc=30 dddc=30 trigger=\"sight (true seeing)\" manual eff=\"Atk +20 ranged (1d8+6 plus black lotus extract)\"}"
 		]
@@ -419,18 +419,18 @@
 		"name": "Meteor Swarm Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/422}",
+			"‹SOURCE PRPG Core Rulebook/422›",
 			"",
-			"::trap[Meteor Swarm Trap]{start cr=19 magic pdc=34 dddc=34 trigger=\"sight (true seeing)\" eff=\"spell effect (%%spell/meteor swarm%%, 4 meteors at separate targets, +9 ranged touch, 2d6 plus 6d6 fire &#91&-4 save on a hit&#93&, DC 23 Reflex save for half fire damage, 18d6 fire damage from other meteors, DC 23 Reflex save for half damage); multiple targets (four targets, no two of which can be more than 40 ft. apart)\"}"
+			"::trap[Meteor Swarm Trap]{start cr=19 magic pdc=34 dddc=34 trigger=\"sight (true seeing)\" eff=\"spell effect (‹spell/meteor swarm›, 4 meteors at separate targets, +9 ranged touch, 2d6 plus 6d6 fire &#91&-4 save on a hit&#93&, DC 23 Reflex save for half fire damage, 18d6 fire damage from other meteors, DC 23 Reflex save for half damage); multiple targets (four targets, no two of which can be more than 40 ft. apart)\"}"
 		]
 	},
 	"destruction_trap": {
 		"name": "Destruction Trap",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
-			"{SOURCE PRPG Core Rulebook/422}",
+			"‹SOURCE PRPG Core Rulebook/422›",
 			"",
-			"::trap[Destruction Trap]{start cr=20 magic pdc=34 dddc=34 trigger=\"proximity (alarm)\" eff=\"spell effect (%%feat/heightened%% %%spell/destruction%%, 190 damage, DC 23 Fortitude save reduces damage to 10d6)\"}"
+			"::trap[Destruction Trap]{start cr=20 magic pdc=34 dddc=34 trigger=\"proximity (alarm)\" eff=\"spell effect (‹feat/heightened› ‹spell/destruction›, 190 damage, DC 23 Fortitude save reduces damage to 10d6)\"}"
 		]
 	}
 }

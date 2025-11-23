@@ -3,7 +3,7 @@
 		"name": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/156}",
+			"‹SOURCE Ultimate Wilderness/156›",
 			"",
 			"The might of magic is a great force of change and power, and most adventuring parties count one or more spellcasters among them. Since spells cover an incredible range of possibility, defining \"wilderness spells\" is a broad subject. In this section, spells accessible to nature-themed classes such as druids and rangers receive special attention. Spells that assist in navigating the less settled regions of the world and those that manipulate weather or terrain are also explored in greater detail.",
 			"",
@@ -11,8 +11,8 @@
 			"",
 			"Applications of several [intrigue-themed spells](rule/spells_of_intrigue) are also appropriate for wilderness campaigns. Intrigue-themed spells that are particularly appropriate for wilderness-heavy campaigns but were covered in that section include the following:",
 			"",
-			"- **{rule/Low-Level |Divinations}:** blood biography, create treasure map, detect poison, speak with animals, speak with plants",
-			"- **{rule/Mid-Level |Divinations>_2}:** commune with nature, find the path, locate creature, stone tell"
+			"- **‹rule/Low-Level »Divinations›:** blood biography, create treasure map, detect poison, speak with animals, speak with plants",
+			"- **‹rule/Mid-Level »Divinations<_2›:** commune with nature, find the path, locate creature, stone tell"
 		],
 		"parent_topics": [ "advanced_gm_topics" ],
 		"subtopics": [
@@ -48,7 +48,7 @@
 		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/156}",
+			"‹SOURCE Ultimate Wilderness/156›",
 			"",
 			"Many wilderness-appropriate spells are available as early as 1st level. These low-level spells are often disregarded, as many of them can be substituted with class abilities, equipment, and skills. Still, low-level spells (those of 3rd level and lower) can remain useful at high levels, especially because high-level characters can cast them far more frequently."
 		],
@@ -73,17 +73,17 @@
 		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/156}",
+			"‹SOURCE Ultimate Wilderness/156›",
 			"",
 			"The benefit of many low-level conjuration spells is that they grant a wider range of versatility, letting the characters focus the spending of their hard-earned gold on items with effects that can't be replicated, rather than on mundane equipment.",
 			"",
-			"**{spell/Create Food and Water}:** As a 3rd-level cleric spell, *create food and water* is one of the most obvious choices for those looking to bypass some of the rigors of wilderness survival. The Survival skill often eclipses the worth of this spell, as succeeding at a simple DC 10 check allows for a character to provide food and water for herself without needing to expend a 3rd-level spell slot. At 5th level, it's not unlikely that a party member can regularly succeed at the DC 16 Survival check required to feed himself and three other party members. Imposing heavy penalties on Survival checks to get along in the wild is one way of making *create food and water* more valuable, and such adjustments are entirely appropriate in wasteland environments.",
+			"**‹spell/Create Food and Water›:** As a 3rd-level cleric spell, *create food and water* is one of the most obvious choices for those looking to bypass some of the rigors of wilderness survival. The Survival skill often eclipses the worth of this spell, as succeeding at a simple DC 10 check allows for a character to provide food and water for herself without needing to expend a 3rd-level spell slot. At 5th level, it's not unlikely that a party member can regularly succeed at the DC 16 Survival check required to feed himself and three other party members. Imposing heavy penalties on Survival checks to get along in the wild is one way of making *create food and water* more valuable, and such adjustments are entirely appropriate in wasteland environments.",
 			"",
-			"There are several other ways to prolong the usefulness of *create food and water.* Armed with knowledge that the party will be entering a particularly inhospitable region, characters might want to stock up on conjured food and water. Repeated castings of *create food and water* can provide numerous meals, and by spending a few days, a party can create a stockpile of rations for a trip. Combined with the fact that {spell/purify food and drink} can be cast an unlimited number of times per day, stockpiling food and drink with these castings is an economically savvy way of saving both gold and hunting time.",
+			"There are several other ways to prolong the usefulness of *create food and water.* Armed with knowledge that the party will be entering a particularly inhospitable region, characters might want to stock up on conjured food and water. Repeated castings of *create food and water* can provide numerous meals, and by spending a few days, a party can create a stockpile of rations for a trip. Combined with the fact that ‹spell/purify food and drink› can be cast an unlimited number of times per day, stockpiling food and drink with these castings is an economically savvy way of saving both gold and hunting time.",
 			"",
-			"**{spell/Mount} and {spell/Phantom Steed}:** Few wilderness areas are entirely amenable to or completely inhospitable to mounts. Open groves and wildlife paths where mounts can roam free crisscross dense forests, while deserts often contain escarpments of jagged rocks that confound the most sure footed of creatures. The mutable nature of these wilderness regions makes the ability to summon a temporary mount particularly helpful. For routine journeys, *mount* can conjure a single mount for a character or be repeatedly cast to provide mounts for a whole party. Higher-level spellcasters benefit more from *phantom steed,* especially at 8th level, when the steed starts gaining extra movement-related abilities.",
+			"**‹spell/Mount› and ‹spell/Phantom Steed›:** Few wilderness areas are entirely amenable to or completely inhospitable to mounts. Open groves and wildlife paths where mounts can roam free crisscross dense forests, while deserts often contain escarpments of jagged rocks that confound the most sure footed of creatures. The mutable nature of these wilderness regions makes the ability to summon a temporary mount particularly helpful. For routine journeys, *mount* can conjure a single mount for a character or be repeatedly cast to provide mounts for a whole party. Higher-level spellcasters benefit more from *phantom steed,* especially at 8th level, when the steed starts gaining extra movement-related abilities.",
 			"",
-			"**{spell/Neutralize Poison}:** First accessible by low-level druids, *neutralize poison* is useful as both a method of healing poison and a means to prevent poisoning from occurring in the first place. Using the spell as a means of detoxifying a creature is its most efficient application, since one casting of the spell prevents that creature from poisoning targets at all. It's also possible to use this spell to remove a poison applied to an object or from food or drink. The use of *neutralize poison* in this manner doesn't guarantee success, and it can be interesting to keep the DC of the targeted poison unknown, leaving the efficacy of a given casting in question.",
+			"**‹spell/Neutralize Poison›:** First accessible by low-level druids, *neutralize poison* is useful as both a method of healing poison and a means to prevent poisoning from occurring in the first place. Using the spell as a means of detoxifying a creature is its most efficient application, since one casting of the spell prevents that creature from poisoning targets at all. It's also possible to use this spell to remove a poison applied to an object or from food or drink. The use of *neutralize poison* in this manner doesn't guarantee success, and it can be interesting to keep the DC of the targeted poison unknown, leaving the efficacy of a given casting in question.",
 			"",
 			"At a cost of 11,250 gp, a *wand of neutralize poison* makes for a practical, if unusual, weapon. When added into the arsenal of mobile melee classes, specifically those with ranks in Use Magic Device or supplementary spellcaster levels, such wands can be used to disable the poisons of wilderness-dwelling creatures. The forfeiture of an attack in order to strike a foe with a poison-neutralizing wand could mean the difference between life and death for a character who is facing repeated applications of poison."
 		],
@@ -104,13 +104,13 @@
 		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/157}",
+			"‹SOURCE Ultimate Wilderness/157›",
 			"",
 			"There are only a few low-level divination spells specifically related to wilderness environments. Characters often ignore these spells, and instead they rely on class abilities or skills to replicate their effects. Introducing NPCs with access to these spells can highlight their utility to PCs who might otherwise see these spells as extraneous.",
 			"",
-			"**{spell/Detect Animals or Plants}:** This spell has a much larger range than {spell/detect evil}, beginning with a minimum area of a 440-foot cone. This spell also requires thinking of a specific kind of animal or plant, making it very specialized in its application. Further, it grants the caster the ability to see the current condition of a target, rather than just a sense of the creature's total power. A handy application of this spell is to monitor the health of allies, such as animal companions or plant creatures such as {race/ghoran/s} and {race/vine leshy/s}.",
+			"**‹spell/Detect Animals or Plants›:** This spell has a much larger range than ‹spell/detect evil›, beginning with a minimum area of a 440-foot cone. This spell also requires thinking of a specific kind of animal or plant, making it very specialized in its application. Further, it grants the caster the ability to see the current condition of a target, rather than just a sense of the creature's total power. A handy application of this spell is to monitor the health of allies, such as animal companions or plant creatures such as ‹race/ghoran«s› and ‹race/vine leshy«s›.",
 			"",
-			"**{spell/Detect Snares and Pits}:** As a concentration effect, this spell is more useful in low-stress situations. It cuts down on some of the monotony of having PCs attempt repeated Perception checks, but the spell's specific detection parameters mean that some skill checks are still required."
+			"**‹spell/Detect Snares and Pits›:** As a concentration effect, this spell is more useful in low-stress situations. It cuts down on some of the monotony of having PCs attempt repeated Perception checks, but the spell's specific detection parameters mean that some skill checks are still required."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -129,13 +129,13 @@
 		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/157}",
+			"‹SOURCE Ultimate Wilderness/157›",
 			"",
 			"Low-level enchantment spells that are appropriate for wilderness campaigns most often focus on the manipulation of animal minds. Keep in mind that animals are often simple creatures, with simple thoughts driving their actions - drinking, eating, and sleeping being at the forefront of an animal's mind. Due to having average or lower Wisdom scores, certain kinds of animals can be especially prone to being affected by these spells.",
 			"",
-			"**{spell/Animal Messenger}:** This spell compels a Tiny animal to venture to a designated area, likely with an item in tow. The longer casting time of the spell makes it useless in combat situations but incredibly helpful in other situations. Delivery of an item via *animal messenger* isn't guaranteed, as the animal could be waylaid by other creatures or potentially find itself unable to follow directions to the intended area. As with most spells, it's important to understand that a PC shouldn't be penalized for the casting of such magic. If you, as the GM, decide to have an *animal messenger* fail to reach its intended destination, consider rewarding the PCs in another way. For example, the *animal messenger* might have been consumed by a local predator, and by finding the slain messenger, the PCs uncover the predator's stash of claimed trophies.",
+			"**‹spell/Animal Messenger›:** This spell compels a Tiny animal to venture to a designated area, likely with an item in tow. The longer casting time of the spell makes it useless in combat situations but incredibly helpful in other situations. Delivery of an item via *animal messenger* isn't guaranteed, as the animal could be waylaid by other creatures or potentially find itself unable to follow directions to the intended area. As with most spells, it's important to understand that a PC shouldn't be penalized for the casting of such magic. If you, as the GM, decide to have an *animal messenger* fail to reach its intended destination, consider rewarding the PCs in another way. For example, the *animal messenger* might have been consumed by a local predator, and by finding the slain messenger, the PCs uncover the predator's stash of claimed trophies.",
 			"",
-			"**{spell/Calm Animals}, {spell/Charm Animal}, and {spell/Dominate Animal}:** Spells that can adjust the attitudes of animals have obvious uses as deterrents when traversing through wilderness environments. Simply calming or charming animals is often sufficient to travel through an area without harassment, while more powerful spells such as *dominate animal* can be used to deal with more dangerous or more immediate threats. Another insidious use of this magic is to subvert the loyal animal companions of foes. The ability to charm or dominate an animal companion of an opponent can significantly reduce the challenge of an encounter, while simultaneously presenting that foe the moral quandary of how to handle its wayward companion."
+			"**‹spell/Calm Animals›, ‹spell/Charm Animal›, and ‹spell/Dominate Animal›:** Spells that can adjust the attitudes of animals have obvious uses as deterrents when traversing through wilderness environments. Simply calming or charming animals is often sufficient to travel through an area without harassment, while more powerful spells such as *dominate animal* can be used to deal with more dangerous or more immediate threats. Another insidious use of this magic is to subvert the loyal animal companions of foes. The ability to charm or dominate an animal companion of an opponent can significantly reduce the challenge of an encounter, while simultaneously presenting that foe the moral quandary of how to handle its wayward companion."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -154,25 +154,25 @@
 		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/158}",
+			"‹SOURCE Ultimate Wilderness/158›",
 			"",
 			"The wilderness is a place of constant change, so it's no surprise that most wilderness-appropriate spells come from the transmutation school of magic. These spells not only mutate the caster and her immediate surroundings but also are highly sought-after ways to control plant life. As plants are universally immune to mind-affecting effects, it falls to transmutation spells to grant a modicum of control over these creatures, providing an analogue to spells commonly found in the enchantment school.",
 			"",
-			"**{spell/Diminish Plants}:** This spell controls the vegetation in a specific area. The prune growth option for this spell is an effective counter to spells such as {spell/entangle} and {spell/wall of thorns}, granting the caster some combat control in addition to straightforward utility. Using this spell also allows for the creation of open areas more amenable to mounts or other big creatures. The secondary use of *diminish plants,* the stunt growth option, is most effective as a narrative tool. Spiteful PCs seeking to punish an enemy druid might decide to use this effect on the druid's preferred territory. Conversely, an enemy druid might wrack the PCs' homeland with several castings of this spell, potentially leading to starvation in the face of reduced crop yields. PCs who have left their homeland for a prolonged period of time might be drawn back after hearing word that a magically induced famine has taken hold, only to find that the cause was a previous foe from the campaign!",
+			"**‹spell/Diminish Plants›:** This spell controls the vegetation in a specific area. The prune growth option for this spell is an effective counter to spells such as ‹spell/entangle› and ‹spell/wall of thorns›, granting the caster some combat control in addition to straightforward utility. Using this spell also allows for the creation of open areas more amenable to mounts or other big creatures. The secondary use of *diminish plants,* the stunt growth option, is most effective as a narrative tool. Spiteful PCs seeking to punish an enemy druid might decide to use this effect on the druid's preferred territory. Conversely, an enemy druid might wrack the PCs' homeland with several castings of this spell, potentially leading to starvation in the face of reduced crop yields. PCs who have left their homeland for a prolonged period of time might be drawn back after hearing word that a magically induced famine has taken hold, only to find that the cause was a previous foe from the campaign!",
 			"",
-			"**{spell/Meld into Stone} and {spell/Tree Shape}:** Hiding in blocks of stone or taking the form of a shrub allows for both intrigue and tense moments of avoiding a threat. PCs and NPCs can use these spells to perform highly effective spying on their enemies, with very few effects or spells being able to reveal the presence of a melded or shaped creature. {spell/True seeing} or a similar effect could spell disaster for a stone-melded creature, and the destruction of the melded stone has immediate - not to mention mortal - repercussions. Be sure to reward the creative use of these spells when used by the PCs, but also make them aware of the dangers of using them, should the PCs come to rely on these spells as a guaranteed means for avoiding detection and spying on foes.",
+			"**‹spell/Meld into Stone› and ‹spell/Tree Shape›:** Hiding in blocks of stone or taking the form of a shrub allows for both intrigue and tense moments of avoiding a threat. PCs and NPCs can use these spells to perform highly effective spying on their enemies, with very few effects or spells being able to reveal the presence of a melded or shaped creature. ‹spell/True seeing› or a similar effect could spell disaster for a stone-melded creature, and the destruction of the melded stone has immediate - not to mention mortal - repercussions. Be sure to reward the creative use of these spells when used by the PCs, but also make them aware of the dangers of using them, should the PCs come to rely on these spells as a guaranteed means for avoiding detection and spying on foes.",
 			"",
-			"**{spell/Pass without Trace}:** This basic 1st-level spell can defeat even the most dedicated of trackers. *Pass without trace* prevents being tracked by a Survival check or any other nonmagical means. Only spells such as {spell/locate creature} are suitable for tracking creatures that have obfuscated themselves with *pass without trace,* and such spells aren't readily accessible until later levels. Due to the difficulty in countering this spell at lower levels, the best point to take advantage of *pass without trace* is in the 4th- to 6th-level range, when the spell can affect all members of the average party and rangers gain access to the spell. At levels above that, the foes can use magical countermeasures to overcome *pass without trace.*",
+			"**‹spell/Pass without Trace›:** This basic 1st-level spell can defeat even the most dedicated of trackers. *Pass without trace* prevents being tracked by a Survival check or any other nonmagical means. Only spells such as ‹spell/locate creature› are suitable for tracking creatures that have obfuscated themselves with *pass without trace,* and such spells aren't readily accessible until later levels. Due to the difficulty in countering this spell at lower levels, the best point to take advantage of *pass without trace* is in the 4th- to 6th-level range, when the spell can affect all members of the average party and rangers gain access to the spell. At levels above that, the foes can use magical countermeasures to overcome *pass without trace.*",
 			"",
-			"**{spell/Plant Growth} and {spell/Spike Growth}:** Control of the battlefield is essential when fighting in a wilderness environment. As many such environments lack manufactured cover and traps, it falls to magic to create such hazards. *Plant growth* can drastically cut down on targets' maneuverability on a battlefield, allowing spellcasters to target enemies from afar, or even enhancing the effectiveness of spells such as *entangle.* Similarly, *spike growth* creates areas of damaging terrain that are difficult to bypass without some means of flight or levitation. In wilderness-heavy campaigns, these spells can be on par with other control-based magic, while in campaigns with only a smattering of wilderness, these spells operate best when taken in the form of one or more backup scrolls.",
+			"**‹spell/Plant Growth› and ‹spell/Spike Growth›:** Control of the battlefield is essential when fighting in a wilderness environment. As many such environments lack manufactured cover and traps, it falls to magic to create such hazards. *Plant growth* can drastically cut down on targets' maneuverability on a battlefield, allowing spellcasters to target enemies from afar, or even enhancing the effectiveness of spells such as *entangle.* Similarly, *spike growth* creates areas of damaging terrain that are difficult to bypass without some means of flight or levitation. In wilderness-heavy campaigns, these spells can be on par with other control-based magic, while in campaigns with only a smattering of wilderness, these spells operate best when taken in the form of one or more backup scrolls.",
 			"",
-			"**{spell/Quench}:** Often forgotten due to its specialized nature, *quench* can swiftly extinguish fire-based creatures, effects, and spells. The typical use of the spell is to put out nonmagical fires in its considerable area of effect (a minimum of 5 20-foot cubes at minimum caster level). A more potent use of the spell is to act as a dispelling effect on fire-based spells in its area. This allows the spell to be reserved and used to counter potent spells such as {spell/fireball} or {spell/wall of fire}, though only if a character expects such spells to be used. Using the spell on magic items that create or control flame can change the combat dynamic, especially if the effect is considerable (such as disabling the {magic-enh/flaming burst} ability from an enemy's weapon). Creatures with the fire subtype are particularly vulnerable to *quench,* taking anywhere from 5d6 to 10d6 points of damage without any sort of save - a *wand of quench* is a potent weapon against such foes.",
+			"**‹spell/Quench›:** Often forgotten due to its specialized nature, *quench* can swiftly extinguish fire-based creatures, effects, and spells. The typical use of the spell is to put out nonmagical fires in its considerable area of effect (a minimum of 5 20-foot cubes at minimum caster level). A more potent use of the spell is to act as a dispelling effect on fire-based spells in its area. This allows the spell to be reserved and used to counter potent spells such as ‹spell/fireball› or ‹spell/wall of fire›, though only if a character expects such spells to be used. Using the spell on magic items that create or control flame can change the combat dynamic, especially if the effect is considerable (such as disabling the ‹magic-enh/flaming burst› ability from an enemy's weapon). Creatures with the fire subtype are particularly vulnerable to *quench,* taking anywhere from 5d6 to 10d6 points of damage without any sort of save - a *wand of quench* is a potent weapon against such foes.",
 			"",
-			"**{spell/Stone Shape} and {spell/Wood Shape}:** Building a bridge, creating a door, or manufacturing a barricade are all immediate uses for shaping magic such as *stone shape* and *wood shape.* The wording of these spells is very open to interpretation, granting a lot of leeway in adjudicating their effects. Unexpected barriers can change the dynamic of combat or wilderness exploration, so be sure to have a basic understanding of the consequences of using these spells in areas primarily made of stone or wood. Just as PCs can use these spells to upturn encounters, their adversaries can use these spells to surprise them in dynamic ways. The PCs might explore a chamber with one entrance only to be ambushed from a stone-shaped wall during their inspection of the area, or an NPC villain might allow half the party to go through an exit door before cutting it off with a well-timed casting of *wood shape.*",
+			"**‹spell/Stone Shape› and ‹spell/Wood Shape›:** Building a bridge, creating a door, or manufacturing a barricade are all immediate uses for shaping magic such as *stone shape* and *wood shape.* The wording of these spells is very open to interpretation, granting a lot of leeway in adjudicating their effects. Unexpected barriers can change the dynamic of combat or wilderness exploration, so be sure to have a basic understanding of the consequences of using these spells in areas primarily made of stone or wood. Just as PCs can use these spells to upturn encounters, their adversaries can use these spells to surprise them in dynamic ways. The PCs might explore a chamber with one entrance only to be ambushed from a stone-shaped wall during their inspection of the area, or an NPC villain might allow half the party to go through an exit door before cutting it off with a well-timed casting of *wood shape.*",
 			"",
-			"**{spell/Water Breathing} and {spell/Water Walk}:** Both of these spells accomplish different things, but they are similar in that they overcome an incredibly common wilderness impediment: water. Watery barriers can include a lake in the middle of a forest, rivers running between mountains, a series of flooded chambers in a cavern, treacherous swamps, and underground oceans. *Water breathing* can be split among numerous creatures effectively, allowing for long or quick treks underwater. Similar magic, such as {spell/aboleth's lung} or {spell/air bubble}, can function in similar roles to *water breathing* at a lower spell level, albeit at reduced efficiency. Player characters often come to rely on these spells to traverse difficult environments, sometimes believing in a simple \"cast and forget\" mantra. Be sure to occasionally remind the PCs of their reliance on these spells, such as directing a casting of {spell/dispel magic} in their direction. It's best to give this kind of reminder in a situation where it's possible to recover so that the potential for a more disastrous situation can loom large in the mind. Dispelling *water breathing* when the PCs are deep underwater and have no way to escape and no more ways to cast the spell can mean certain death, so you shouldn't spring this tactic on players often - if ever!",
+			"**‹spell/Water Breathing› and ‹spell/Water Walk›:** Both of these spells accomplish different things, but they are similar in that they overcome an incredibly common wilderness impediment: water. Watery barriers can include a lake in the middle of a forest, rivers running between mountains, a series of flooded chambers in a cavern, treacherous swamps, and underground oceans. *Water breathing* can be split among numerous creatures effectively, allowing for long or quick treks underwater. Similar magic, such as ‹spell/aboleth's lung› or ‹spell/air bubble›, can function in similar roles to *water breathing* at a lower spell level, albeit at reduced efficiency. Player characters often come to rely on these spells to traverse difficult environments, sometimes believing in a simple \"cast and forget\" mantra. Be sure to occasionally remind the PCs of their reliance on these spells, such as directing a casting of ‹spell/dispel magic› in their direction. It's best to give this kind of reminder in a situation where it's possible to recover so that the potential for a more disastrous situation can loom large in the mind. Dispelling *water breathing* when the PCs are deep underwater and have no way to escape and no more ways to cast the spell can mean certain death, so you shouldn't spring this tactic on players often - if ever!",
 			"",
-			"**{spell/Whispering Wind}:** While {spell/sending} requires 10 minutes to cast, *whispering wind* takes only a standard action. Use of this spell doesn't guarantee a successful transmission though, as it requires the caster to be knowledgeable of a specific location within range, but even then, there's no guarantee that the intended recipient is at the designated location. It's also entirely possible that if the PCs find themselves camping at an easily identifiable landmark, they might become the unintended recipients of a *whispering wind* message. Mistakenly receiving a message in this manner could spark a new adventure or entire campaign, especially when you consider that *whispering wind* often revolves around the need to get a message out in a quick and urgent manner."
+			"**‹spell/Whispering Wind›:** While ‹spell/sending› requires 10 minutes to cast, *whispering wind* takes only a standard action. Use of this spell doesn't guarantee a successful transmission though, as it requires the caster to be knowledgeable of a specific location within range, but even then, there's no guarantee that the intended recipient is at the designated location. It's also entirely possible that if the PCs find themselves camping at an easily identifiable landmark, they might become the unintended recipients of a *whispering wind* message. Mistakenly receiving a message in this manner could spark a new adventure or entire campaign, especially when you consider that *whispering wind* often revolves around the need to get a message out in a quick and urgent manner."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -191,7 +191,7 @@
 		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/159}",
+			"‹SOURCE Ultimate Wilderness/159›",
 			"",
 			"At the middle tier of spellcasting, many spells with wilderness themes revolve around control effects. While most of them have been previously detailed (see [Spells of Intrigue](rule/mid_level_play_7_12)) and thus are not covered below, mid-level divination spells are plentiful."
 		],
@@ -215,13 +215,13 @@
 		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/159}",
+			"‹SOURCE Ultimate Wilderness/159›",
 			"",
 			"Spells that protect against or repel all sorts of wilderness threats appear in this range.",
 			"",
-			"**{spell/Antilife Shell} and {spell/Antiplant Shell}:** These are notable defensive spells because they don't allow a saving throw to resist their effects. While spell resistance offers a means of defense against these spells, such an ability is almost non-existent among plant creatures. Despite the lengthy 1-round casting time, successfully casting *antilife shell* can buy precious rounds of protection to cast other spells. *Antiplant shell* has a shorter casting time and a lower spell level, making it more useful when dealing with plant threats.",
+			"**‹spell/Antilife Shell› and ‹spell/Antiplant Shell›:** These are notable defensive spells because they don't allow a saving throw to resist their effects. While spell resistance offers a means of defense against these spells, such an ability is almost non-existent among plant creatures. Despite the lengthy 1-round casting time, successfully casting *antilife shell* can buy precious rounds of protection to cast other spells. *Antiplant shell* has a shorter casting time and a lower spell level, making it more useful when dealing with plant threats.",
 			"",
-			"**{spell/Repel vermin}:** *Repel vermin* is similar to *antilife shell,* but it takes up a lower-level spell slot and requires less time to cast. While the field created by this spell can be bypassed with a successful Will save, it still deals damage to vermin managing to traverse it - a particularly powerful effect against large numbers of enemies with few hit points. Perhaps the most enticing use of *repel vermin* is its ability to diminish the effectiveness of vermin swarms."
+			"**‹spell/Repel vermin›:** *Repel vermin* is similar to *antilife shell,* but it takes up a lower-level spell slot and requires less time to cast. While the field created by this spell can be bypassed with a successful Will save, it still deals damage to vermin managing to traverse it - a particularly powerful effect against large numbers of enemies with few hit points. Perhaps the most enticing use of *repel vermin* is its ability to diminish the effectiveness of vermin swarms."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -239,15 +239,15 @@
 		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/159}",
+			"‹SOURCE Ultimate Wilderness/159›",
 			"",
 			"Conjuration spells fill a wide array of needs. This school of magic encompasses enhancement effects, teleportation effects, the conjuration of allies, and even the creation of permanent or temporary areas of terrain. Most of these spells really begin to show their usefulness at the middle levels of spellcasting.",
 			"",
-			"**{spell/Heroes' Feast}:** Those partaking in a *heroes' feast* receive powerful bonuses in addition to the normal benefits of eating and drinking. The combination of {spell/neutralize poison} and {spell/remove disease} in this spell is a particularly useful given the number of long-onset diseases and poisons in the wilderness. The spell does require a long casting time and consumption period to be effective; casting and consuming a *heroes' feast* takes at least 70 minutes. The flaws of this spell become apparent when the PCs ambush enemies partaking in this spell or are attacked while consuming their own feast.",
+			"**‹spell/Heroes' Feast›:** Those partaking in a *heroes' feast* receive powerful bonuses in addition to the normal benefits of eating and drinking. The combination of ‹spell/neutralize poison› and ‹spell/remove disease› in this spell is a particularly useful given the number of long-onset diseases and poisons in the wilderness. The spell does require a long casting time and consumption period to be effective; casting and consuming a *heroes' feast* takes at least 70 minutes. The flaws of this spell become apparent when the PCs ambush enemies partaking in this spell or are attacked while consuming their own feast.",
 			"",
-			"**{spell/Transport via Plants} and {spell/Tree Stride}:** A dependable means of transportation within a forested environment, *tree stride* combines the best of several spells, with temporary protection and stealth akin to {spell/meld into stone} or {spell/tree shape}. It also offers a wide array of travel distance, with even coniferous trees allowing for transportation range in excess of {spell/dimension door}, assuming a suitable tree is within range. *Transport via plants* is similar to an upgraded *tree stride,* as it allows for theoretically limitless traveling distance on the same world, and it requires only a suitably sized plant with a matching species at the destination.",
+			"**‹spell/Transport via Plants› and ‹spell/Tree Stride›:** A dependable means of transportation within a forested environment, *tree stride* combines the best of several spells, with temporary protection and stealth akin to ‹spell/meld into stone› or ‹spell/tree shape›. It also offers a wide array of travel distance, with even coniferous trees allowing for transportation range in excess of ‹spell/dimension door›, assuming a suitable tree is within range. *Transport via plants* is similar to an upgraded *tree stride,* as it allows for theoretically limitless traveling distance on the same world, and it requires only a suitably sized plant with a matching species at the destination.",
 			"",
-			"**{spell/Wall of Stone} and {spell/Wall of Thorns}:** Both of these spells allow for the creation of walls to divide a battlefield. Walls made of stone have the benefit of adjoining to existing stone - a plentiful terrain feature in most wilderness environs. Since this spell has a duration of instantaneous, *wall of stone* creates long-lasting defenses. Such walls can cut off tight-knit groups in confined areas, though creatures in the path of a forming wall can attempt a Reflex save to avoid entrapment. *Wall of thorns* creates a temporary effect, and while it doesn't block off terrain as dependably as *wall of stone,* it covers twice the space of a stone wall and doesn't allow a Reflex save. *Wall of thorns* can be used to deadly effect when sculpted to cover larger area. These walls can be combined with area effects, such as {spell/cloudkill} or {spell/insect plague}, to devastate foes."
+			"**‹spell/Wall of Stone› and ‹spell/Wall of Thorns›:** Both of these spells allow for the creation of walls to divide a battlefield. Walls made of stone have the benefit of adjoining to existing stone - a plentiful terrain feature in most wilderness environs. Since this spell has a duration of instantaneous, *wall of stone* creates long-lasting defenses. Such walls can cut off tight-knit groups in confined areas, though creatures in the path of a forming wall can attempt a Reflex save to avoid entrapment. *Wall of thorns* creates a temporary effect, and while it doesn't block off terrain as dependably as *wall of stone,* it covers twice the space of a stone wall and doesn't allow a Reflex save. *Wall of thorns* can be used to deadly effect when sculpted to cover larger area. These walls can be combined with area effects, such as ‹spell/cloudkill› or ‹spell/insect plague›, to devastate foes."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -265,25 +265,25 @@
 		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/160}",
+			"‹SOURCE Ultimate Wilderness/160›",
 			"",
 			"Mid-level transmutation spells produce a variety of effects. Many augment the capabilities of their casters, allowing for otherwise impossible physical feats. Some transmutation spells control nature and, by extension, operate as mind-affecting effects against plants while bypassing plants' natural immunities to such effects. Other transmutation spells change vast swaths of terrain, allowing their casters to manipulate the wilderness in ways that range from battlefield needs to agricultural changes taking place over thousands of square feet of space.",
 			"",
-			"**{spell/Air Walk} and {spell/Wind Walk}:** *Air walk* is an effective method of bypassing treacherous terrain. When a caster typically gains access to this spell, the duration of *air walk* is about only an hour, making it an effective tool for combat encounters but diminishing its utility for long-term travel. Another hindrance of *air walk* is that it affects only a single target, making it difficult to apply to an entire group without expending several spell slots. *Wind walk,* however, can grant a group the ability to traverse long distances over open air. As this spell allows for travel of 600 feet per round, it's over 10 times as effective as spells such as {spell/fly} and {spell/overland flight} as a means of long-distance travel. However, wind walkers are particularly vulnerable to attack along the way if their movement can be curtailed with an obstruction. The caster must either dismiss the spell entirely or have everyone in the group to go through lengthy transformations back into their normal forms while being pummeled by attacks.",
+			"**‹spell/Air Walk› and ‹spell/Wind Walk›:** *Air walk* is an effective method of bypassing treacherous terrain. When a caster typically gains access to this spell, the duration of *air walk* is about only an hour, making it an effective tool for combat encounters but diminishing its utility for long-term travel. Another hindrance of *air walk* is that it affects only a single target, making it difficult to apply to an entire group without expending several spell slots. *Wind walk,* however, can grant a group the ability to traverse long distances over open air. As this spell allows for travel of 600 feet per round, it's over 10 times as effective as spells such as ‹spell/fly› and ‹spell/overland flight› as a means of long-distance travel. However, wind walkers are particularly vulnerable to attack along the way if their movement can be curtailed with an obstruction. The caster must either dismiss the spell entirely or have everyone in the group to go through lengthy transformations back into their normal forms while being pummeled by attacks.",
 			"",
-			"**{spell/Command Plants}:** Similar in many respects to {spell/charm person}, this spell entreats plant creatures to obey the spellcaster. As plants are normally immune to mind-affecting effects, this spell falls under the transmutation school of magic, meaning that feats such as {feat/Spell Focus} (transmutation) apply to it. Two important differences between this spell and *charm person,* aside from the spell level and ability to affect plants, are the increased number of targets and no requirement that the caster has to know a language understood by the target.",
+			"**‹spell/Command Plants›:** Similar in many respects to ‹spell/charm person›, this spell entreats plant creatures to obey the spellcaster. As plants are normally immune to mind-affecting effects, this spell falls under the transmutation school of magic, meaning that feats such as ‹feat/Spell Focus› (transmutation) apply to it. Two important differences between this spell and *charm person,* aside from the spell level and ability to affect plants, are the increased number of targets and no requirement that the caster has to know a language understood by the target.",
 			"",
-			"**{spell/Control Water} and {spell/Control Winds}:** These spells are both broad in their effect, with uses beyond combat. The ability to control the speed of winds is a useful tool in hampering foes that rely on flight or ranged attacks. Remember that wind speeds can impose penalties on creatures' Fly checks, with hurricane speed winds inflicting a massive -12 penalty. Manipulating water allows for access to otherwise inaccessible spaces and reveals secrets hidden in exceptionally deep areas of water. Aquatic creatures that rely on water for breathing and maneuverability can be significantly disabled by this magic. As a body of water can be lowered to as little as 2 inches deep, this spell can be a major threat to aquatic foes that don't have base speeds.",
+			"**‹spell/Control Water› and ‹spell/Control Winds›:** These spells are both broad in their effect, with uses beyond combat. The ability to control the speed of winds is a useful tool in hampering foes that rely on flight or ranged attacks. Remember that wind speeds can impose penalties on creatures' Fly checks, with hurricane speed winds inflicting a massive -12 penalty. Manipulating water allows for access to otherwise inaccessible spaces and reveals secrets hidden in exceptionally deep areas of water. Aquatic creatures that rely on water for breathing and maneuverability can be significantly disabled by this magic. As a body of water can be lowered to as little as 2 inches deep, this spell can be a major threat to aquatic foes that don't have base speeds.",
 			"",
-			"**{spell/Move Earth}:** This spell allows for the movement of various sorts of natural terrain, with the express purpose of digging or filling in dips in the earth. While it's relatively useless once combat has begun, because of its long casting time, this spell is exceptionally handy for flattening terrain or otherwise adjusting it in preparation of combat. A common use for *move earth* is in the creation or deconstruction of natural cover as part of an ongoing siege.",
+			"**‹spell/Move Earth›:** This spell allows for the movement of various sorts of natural terrain, with the express purpose of digging or filling in dips in the earth. While it's relatively useless once combat has begun, because of its long casting time, this spell is exceptionally handy for flattening terrain or otherwise adjusting it in preparation of combat. A common use for *move earth* is in the creation or deconstruction of natural cover as part of an ongoing siege.",
 			"",
-			"**{spell/Passwall}:** The bane of intrepid dungeon designers everywhere, *passwall* allows for the disruption of the expected path through a complex structure. Allowing the spell to assist in navigating hazardous terrain is important, but it should not come at the expense of storytelling or allow the characters to bypass important areas of exploration. When designing encounter areas, consider insulating critical areas with stretches of solid matter that extend 20 feet or farther, effectively inhibiting *passwall* from creating its passage into or out of key locations. Furthermore, as *passwall* is susceptible to {spell/dispel magic}, a perfectly timed dispel effect can separate a party, potentially over several (possibly as-of-yet-unexplored) areas of a dungeon.",
+			"**‹spell/Passwall›:** The bane of intrepid dungeon designers everywhere, *passwall* allows for the disruption of the expected path through a complex structure. Allowing the spell to assist in navigating hazardous terrain is important, but it should not come at the expense of storytelling or allow the characters to bypass important areas of exploration. When designing encounter areas, consider insulating critical areas with stretches of solid matter that extend 20 feet or farther, effectively inhibiting *passwall* from creating its passage into or out of key locations. Furthermore, as *passwall* is susceptible to ‹spell/dispel magic›, a perfectly timed dispel effect can separate a party, potentially over several (possibly as-of-yet-unexplored) areas of a dungeon.",
 			"",
-			"**{spell/Reincarnate}:** The ability to reincarnate a deceased companion is often a mixed affair. Many adventurers see the use of *reincarnate* as a means of bypassing the costly {spell/raise dead} (a 5th-level spell). Some even view the ability to return as a different race as a boon, especially in cases where the new race has powerful physical ability modifiers. It's important to reinforce the monumental changes that a creature undergoes after being reincarnated, though. Former acquaintances and allies won't recognize the reincarnated person, and depending on the nature of the new race, the reincarnated creature might find itself the subject of discrimination or even attacked on sight.",
+			"**‹spell/Reincarnate›:** The ability to reincarnate a deceased companion is often a mixed affair. Many adventurers see the use of *reincarnate* as a means of bypassing the costly ‹spell/raise dead› (a 5th-level spell). Some even view the ability to return as a different race as a boon, especially in cases where the new race has powerful physical ability modifiers. It's important to reinforce the monumental changes that a creature undergoes after being reincarnated, though. Former acquaintances and allies won't recognize the reincarnated person, and depending on the nature of the new race, the reincarnated creature might find itself the subject of discrimination or even attacked on sight.",
 			"",
-			"**{spell/Repel Wood}:** This spell is particularly powerful in tight corridors. Wooden objects in the path of the spell are hurled away, moving 40 feet back from their current position. This includes items such as wooden armor, wooden shields, and wood-hafted weapons; these items often carry the wielder along with them. Creatures can opt to drop shields and weapons, but a creature wearing wooden armor (especially darkwood or ironwood-enhanced equipment) doesn't have the ability to quickly remove the armor and is thus forced back with no saving throw or spell resistance. Note that the spell has no effect on most plants, since they are rooted to the ground, but it can be used to clear wooden blockages such as deadfalls.",
+			"**‹spell/Repel Wood›:** This spell is particularly powerful in tight corridors. Wooden objects in the path of the spell are hurled away, moving 40 feet back from their current position. This includes items such as wooden armor, wooden shields, and wood-hafted weapons; these items often carry the wielder along with them. Creatures can opt to drop shields and weapons, but a creature wearing wooden armor (especially darkwood or ironwood-enhanced equipment) doesn't have the ability to quickly remove the armor and is thus forced back with no saving throw or spell resistance. Note that the spell has no effect on most plants, since they are rooted to the ground, but it can be used to clear wooden blockages such as deadfalls.",
 			"",
-			"**{spell/Transmute Rock to Mud}:** Transforming large areas of unworked rock into mud creates effectively impassable terrain. Most creatures trapped in a transmuted area of mud reduce their base speed to 5 feet. Considering the vast area that even a minimum caster can affect, this mud acts as a slowing effect on all creatures without a means of flying or levitating. The most effective, and oftentimes unexpected, use of this spell is when it's used on the ceiling of a cavern. Along with creating an area of mobility-restricting terrain, the collapsing mud deals a hefty sum of damage to creatures caught underneath the falling deluge. Keep in mind that transmuted mud can be dispelled, with effects similar to a casting of {spell/transmute mud to rock}."
+			"**‹spell/Transmute Rock to Mud›:** Transforming large areas of unworked rock into mud creates effectively impassable terrain. Most creatures trapped in a transmuted area of mud reduce their base speed to 5 feet. Considering the vast area that even a minimum caster can affect, this mud acts as a slowing effect on all creatures without a means of flying or levitating. The most effective, and oftentimes unexpected, use of this spell is when it's used on the ceiling of a cavern. Along with creating an area of mobility-restricting terrain, the collapsing mud deals a hefty sum of damage to creatures caught underneath the falling deluge. Keep in mind that transmuted mud can be dispelled, with effects similar to a casting of ‹spell/transmute mud to rock›."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -301,21 +301,21 @@
 		"subtitle": "Spells of the Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/161}",
+			"‹SOURCE Ultimate Wilderness/161›",
 			"",
 			"The most powerful of wilderness spells are few but incredibly varied. Some allow for the creation of powerful allies, while others have drastic effects over vast swaths of land.",
 			"",
-			"**{spell/Animate Plants}:** From the lowest level that a druid gains access to this spell, she can animate four Large plants or a single Gargantuan plant. Animated plants are simple to command and act as allies and distractions in combat. The alternative entangle effect of this spell is particularly useful, as it not only bypasses spell resistance but also acts as a 7th-level spell version of {spell/entangle} that lasts for hours.",
+			"**‹spell/Animate Plants›:** From the lowest level that a druid gains access to this spell, she can animate four Large plants or a single Gargantuan plant. Animated plants are simple to command and act as allies and distractions in combat. The alternative entangle effect of this spell is particularly useful, as it not only bypasses spell resistance but also acts as a 7th-level spell version of ‹spell/entangle› that lasts for hours.",
 			"",
-			"**{spell/Changestaff}:** While *animate plants* creates a potential host of animated plants, *changestaff* creates a single powerful {monster/treant}-like ally that, barring misadventure, lasts for hours. The treant created by this spell is particularly useful in demolishing objects and structures. The transformed treant's innate rock throwing ability, teamed with its ability to ignore the hardness of structures, makes it particularly effective in laying siege to fortifications in all manner of terrains.",
+			"**‹spell/Changestaff›:** While *animate plants* creates a potential host of animated plants, *changestaff* creates a single powerful ‹monster/treant›-like ally that, barring misadventure, lasts for hours. The treant created by this spell is particularly useful in demolishing objects and structures. The transformed treant's innate rock throwing ability, teamed with its ability to ignore the hardness of structures, makes it particularly effective in laying siege to fortifications in all manner of terrains.",
 			"",
-			"**{spell/Control Plants}:** As this is a transmutation spell, it bypasses a plant's normal immunity to mind-affecting effects. A plant creature can attempt a Will save to avoid being controlled, but the spell is not subject to spell resistance and has no shared-language requirement. As this spell lasts only a few minutes and doesn't allow for self-destructive commands, it's best employed as an equalizer when fighting multiple plant foes, enemies that have animated plants of their own, or foes that are plants (such as high-level {monster/ghoran/s} or {family/leshy/s}).",
+			"**‹spell/Control Plants›:** As this is a transmutation spell, it bypasses a plant's normal immunity to mind-affecting effects. A plant creature can attempt a Will save to avoid being controlled, but the spell is not subject to spell resistance and has no shared-language requirement. As this spell lasts only a few minutes and doesn't allow for self-destructive commands, it's best employed as an equalizer when fighting multiple plant foes, enemies that have animated plants of their own, or foes that are plants (such as high-level ‹monster/ghoran«s› or ‹family/leshy«s›).",
 			"",
-			"**{spell/Earthquake}:** Numerous different environment-dependent effects make *earthquake* an appropriate spell for wilderness-themed campaigns. The effect of this spell in caves is a true killer, as the rules for being trapped in rubble are exceptionally deadly to creatures that do not have high Strength scores or teleportation magic. Many of the aboveground effects have the potential to create rents in the earth that can trap opponents or seal away disarmed objects and other items. Regardless of its application, *earthquake* is often about sending a message to a foe - the dramatic sights created by this spell capable of awing even those familiar with magic.",
+			"**‹spell/Earthquake›:** Numerous different environment-dependent effects make *earthquake* an appropriate spell for wilderness-themed campaigns. The effect of this spell in caves is a true killer, as the rules for being trapped in rubble are exceptionally deadly to creatures that do not have high Strength scores or teleportation magic. Many of the aboveground effects have the potential to create rents in the earth that can trap opponents or seal away disarmed objects and other items. Regardless of its application, *earthquake* is often about sending a message to a foe - the dramatic sights created by this spell capable of awing even those familiar with magic.",
 			"",
-			"**{spell/Storm of Vengeance}:** A supernatural representation of nature's ire, *storm of vengeance* is a powerful evocation that blankets a wide area in a growing tempest. Though the effects of the storm are potent, there are many things to consider when employing the spell. First, it requires concentration over several rounds to build up its power, which can be difficult to maintain while the caster is engaged in combat, especially since several of the effects of the storm cause damage, such as acid rain and hailstorm. As a result, the ideal application of *storm of vengeance* is from long range, with the caster far outside the storm's effects.",
+			"**‹spell/Storm of Vengeance›:** A supernatural representation of nature's ire, *storm of vengeance* is a powerful evocation that blankets a wide area in a growing tempest. Though the effects of the storm are potent, there are many things to consider when employing the spell. First, it requires concentration over several rounds to build up its power, which can be difficult to maintain while the caster is engaged in combat, especially since several of the effects of the storm cause damage, such as acid rain and hailstorm. As a result, the ideal application of *storm of vengeance* is from long range, with the caster far outside the storm's effects.",
 			"",
-			"**{spell/Transmute Metal to Wood}:** An instantaneous effect, *transmute metal to wood* affects all metal items within a large radius. While the spell doesn't allow any sort of saving throw, it does treat magic items affected by the spell as if they had significant spell resistance, meaning {feat/Spell Penetration} and {feat/Greater Spell Penetration} increase the effectiveness of the spell by a wide margin. This spell also specifies that it affects only objects - so no using it against {monster/iron golem/s}! *Transmute metal to wood* is at its best when employed by {class/druid/s}, as a druid often has few (if any) metal items in her possession, allowing the caster to center the spell on herself if threatened by numerous metal-clad foes. Teaming this spell with the {spell/repel wood} is a powerful combo that keeps metal-wielding foes on the defensive."
+			"**‹spell/Transmute Metal to Wood›:** An instantaneous effect, *transmute metal to wood* affects all metal items within a large radius. While the spell doesn't allow any sort of saving throw, it does treat magic items affected by the spell as if they had significant spell resistance, meaning ‹feat/Spell Penetration› and ‹feat/Greater Spell Penetration› increase the effectiveness of the spell by a wide margin. This spell also specifies that it affects only objects - so no using it against ‹monster/iron golem«s›! *Transmute metal to wood* is at its best when employed by ‹class/druid«s›, as a druid often has few (if any) metal items in her possession, allowing the caster to center the spell on herself if threatened by numerous metal-clad foes. Teaming this spell with the ‹spell/repel wood› is a powerful combo that keeps metal-wielding foes on the defensive."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -331,7 +331,7 @@
 		"name": "Skills in Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/182}",
+			"‹SOURCE Ultimate Intrigue/182›",
 			"",
 			"When skills come into conflict with each other, it can lead to extremely complex interactions, often well beyond the scope of the short skill descriptions in the Pathfinder RPG Core Rulebook. The following section offers detailed advice on the most common skill clashes that involve difficult adjudications, as well as clarifications of skills where the Core Rulebook provides little guidance. The advice in this section is holistic, and GMs are encouraged to read each description in full to gain the best grasp of the nuances of each skill. Additionally, this section offers an optional variant system for opposed skill checks that reduces randomness and the potential for many rolls."
 		],
@@ -373,7 +373,7 @@
 		"subtitle": "Skills in Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/182}",
+			"‹SOURCE Ultimate Intrigue/182›",
 			"",
 			"The Bluff skill is an extremely versatile, though sometimes misunderstood, social skill. Unlike Diplomacy and Intimidate, which can directly push their target toward a course of action, Bluff feeds the target misinformation. A skilled user of the Bluff skill needs to understand how the target's mind works, in order to deliver just the right misinformation to achieve the desired results. The disadvantage is that such manipulation is less predictable and more difficult to pull off, but the advantage is that the target is not aware that he is being manipulated, whereas even the most successful Diplomacy or Intimidate attempt leaves the target realizing who has convinced him to take action. This section includes clarifications and details on several different ways to use Bluff - and on several things that don't work."
 		],
@@ -400,7 +400,7 @@
 		"subtitle": "Bluff, Skills in Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/182}",
+			"‹SOURCE Ultimate Intrigue/182›",
 			"",
 			"Deceiving people is the most prominent use of the Bluff skill, making it one of the trickiest skills to adjudicate.",
 			"",
@@ -443,7 +443,7 @@
 		"subtitle": "Skills in Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/184}",
+			"‹SOURCE Ultimate Intrigue/184›",
 			"",
 			"In addition to being used for lying, the Bluff skill has several other uses defined in the rules.",
 			"",
@@ -471,7 +471,7 @@
 		"subtitle": "Skills in Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/184}",
+			"‹SOURCE Ultimate Intrigue/184›",
 			"",
 			"Due to its ability to convince people without using either deception or coercion - and risking their negative consequences - the Diplomacy skill is one of the most commonly used forms of persuasion in the Pathfinder RPG. However, it is also difficult to adjudicate in a variety of situations involving intrigue and combat.",
 			"",
@@ -479,7 +479,7 @@
 			"",
 			"@HL[Attitude Adjustments, Personality, and Goals:] One major trap in understanding the Diplomacy skill is the mistaken idea that attitude adjustments achieved using Diplomacy change a character's underlying personality and goals. In fact, attitude adjustments are minor good impressions (or bad impressions, in the case of a disastrously failed check) that, per the Core Rulebook, last only a few hours by default. At the GM's discretion, the adjustments may last for shorter or longer periods, depending on the circumstances. As such, a Diplomacy check to change someone's attitude is mainly useful as a prelude to a follow-up request. It doesn't alter the creature's personality or goals.",
 			"",
-			"For instance, if a cunning bard managed to convince the evil necromancer queen to become friendly with him, that doesn't mean she will give up plans of world domination or change her deity from the goddess of undead to the goddess of beauty and love, but it does mean that she likes the bard now. Even without further requests, she would probably spare him if he pledges loyalty to her and if she thinks she can trust him. Even if she feels she can't trust him, she might at least be fond enough of him to transform him into a loyal undead servant so she can keep him around. Attempting to convince the necromancer queen to give up her evil ways and cease her plans for world conquest involves much more than a Diplomacy check to change her attitude toward the bard. The bard would then need to use the {rule/influence/ system} or the {rule/relationship/ system>s} to become closer to the necromancer queen, perhaps engaging in a {rule/verbal duel>s} with her or even focusing an entire series of social adventures around changing her perspective (see {rule/Social Conflicts}).",
+			"For instance, if a cunning bard managed to convince the evil necromancer queen to become friendly with him, that doesn't mean she will give up plans of world domination or change her deity from the goddess of undead to the goddess of beauty and love, but it does mean that she likes the bard now. Even without further requests, she would probably spare him if he pledges loyalty to her and if she thinks she can trust him. Even if she feels she can't trust him, she might at least be fond enough of him to transform him into a loyal undead servant so she can keep him around. Attempting to convince the necromancer queen to give up her evil ways and cease her plans for world conquest involves much more than a Diplomacy check to change her attitude toward the bard. The bard would then need to use the ‹rule/influence« system› or the ‹rule/relationship« system<s› to become closer to the necromancer queen, perhaps engaging in a ‹rule/verbal duel<s› with her or even focusing an entire series of social adventures around changing her perspective (see ‹rule/Social Conflicts›).",
 			"",
 			"@HL[Requests Are Not Mind Control:] This is the biggest potential trap in understanding the Diplomacy skill in a typical game. Diplomacy's main strength is the ability to make requests without angering the target, but that doesn't mean that it works like mind control. As the Core Rulebook says, some requests automatically fail if they go against a creature's values or nature. In this vein, it is important to remember that no matter how high a Diplomacy roll may be, the target still has free will and won't accept certain requests. Even so, a character who declines a very high Diplomacy result should do so respectfully, as the high result means that the diplomat made her argument effectively and convincingly. For instance, a paladin who swore an oath to never unseal the inner catacombs of her faith's central cathedral might apologize and explain that though the argument to do so was convincing, she unfortunately can't violate this vow. A target who must refuse a request might try to honor the request in spirit, offering an alternative that might advance the same greater goal or doing a significant but still lesser favor for the requester.",
 			"",
@@ -514,7 +514,7 @@
 		"subtitle": "Skills in Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/186}",
+			"‹SOURCE Ultimate Intrigue/186›",
 			"",
 			"The uses of the Disguise skill are far more specific than those of Bluff and Diplomacy. The Disguise skill exists to allow characters to conceal their identity and to potentially pose as other characters.",
 			"",
@@ -522,9 +522,9 @@
 			"",
 			"@HL[A Single Disguise Check:] Unlike most other skills, a character typically attempts a Disguise check only once when creating a physical disguise. Further Disguise checks might be necessary for things such as altering one's voice or using appropriate mannerisms or phrasing, but the basic disguise doesn't require further checks. The check result is supposed to be a secret that is revealed only the first time the disguise is truly tested, which can be tricky in the face of disguising characters who want their friends to tell them how good the disguise is. One way to handle this is to roll the Disguise check secretly only the first time it truly comes into opposition (see above), since the skill doesn't indicate when the check first occurs.",
 			"",
-			"@HL[Disguise Is More Than Visual:] Though the skill as presented in the Core Rulebook focuses on the visual aspects of disguise that a character prepares, later rules (such as the {spell/vocal alteration} spell) have made it clear that there are other aspects, including voice, mannerisms, and phrasing. The trick is to distinguish between the use of the Bluff and the Disguise skills. Generally, Bluff checks cover telling actual lies to support a disguise, whereas Disguise checks cover the other aspects, such as imitating mannerisms and speech.",
+			"@HL[Disguise Is More Than Visual:] Though the skill as presented in the Core Rulebook focuses on the visual aspects of disguise that a character prepares, later rules (such as the ‹spell/vocal alteration› spell) have made it clear that there are other aspects, including voice, mannerisms, and phrasing. The trick is to distinguish between the use of the Bluff and the Disguise skills. Generally, Bluff checks cover telling actual lies to support a disguise, whereas Disguise checks cover the other aspects, such as imitating mannerisms and speech.",
 			"",
-			"@HL[Saw Through the Illusion:] It is very tempting to use illusion or transmutation magic to augment a disguise, since the bonus is so high. As per the Core Rulebook, magic that penetrates an illusion or transmutation doesn't automatically see through a mundane disguise, but it negates the magical components of the costume. Thus, a true master of disguise uses both types of trickery, and she also ensures that the person who notices her use of magic has a way to explain the fact that disguise magic was involved at all. For instance, a rogue might disguise herself as a noble with mundane means and then use {spell/disguise self} to cloak herself in a glamer of that same noble, but more beautiful. Then, if someone sees through the illusion but not the mundane disguise, he would just think she was a vain noble instead of becoming suspicious due to the use of illusion magic and demanding a more thorough inspection.",
+			"@HL[Saw Through the Illusion:] It is very tempting to use illusion or transmutation magic to augment a disguise, since the bonus is so high. As per the Core Rulebook, magic that penetrates an illusion or transmutation doesn't automatically see through a mundane disguise, but it negates the magical components of the costume. Thus, a true master of disguise uses both types of trickery, and she also ensures that the person who notices her use of magic has a way to explain the fact that disguise magic was involved at all. For instance, a rogue might disguise herself as a noble with mundane means and then use ‹spell/disguise self› to cloak herself in a glamer of that same noble, but more beautiful. Then, if someone sees through the illusion but not the mundane disguise, he would just think she was a vain noble instead of becoming suspicious due to the use of illusion magic and demanding a more thorough inspection.",
 			"",
 			"@HL[Simulacrum and Disguise:] The caster of the simulacrum spell uses the Disguise skill to shape the form created. However, it is important to note that the Sense Motive check to detect a simulacrum is very easy at the level that simulacrum becomes available, so unless the simulacrum has a high Bluff modifier, it is still challenging to use a simulacrum as an impostor for long."
 		],
@@ -547,7 +547,7 @@
 		"subtitle": "Skills in Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/186}",
+			"‹SOURCE Ultimate Intrigue/186›",
 			"",
 			"The Intimidate skill allows characters to use fear to gain an advantage over others.",
 			"",
@@ -555,7 +555,7 @@
 			"",
 			"@HL[Posturing and Bluster:] The rules for the Intimidate skill specify that a check's DC is based on the target's HD and Wisdom modifier. That generally works when one person is attempting to Intimidate the other, but sometimes both parties are actively participating in acts of posturing and bluster. Since this DC is usually low, the two characters would end up intimidating each other, which isn't quite realistic. Instead, consider opposed Intimidate checks, or if the situation warrants it, a full-fledged [verbal duel](rule/verbal_duels).",
 			"",
-			"@HL[Explaining Negative Consequences:] Sometimes a character wants to calmly explain negative consequences to someone in a way that merely relies on logic, not fear. This is particularly important when attempting to convince someone immune to fear, such as a paladin or vampire, to back down in the face of negative consequences. This is different than improving a creature's attitude or making a request (particularly since a character might try it with an unfriendly creature), so it doesn't fall under Diplomacy. One good way to handle this is to use the rules for {rule/influence} or verbal duels instead, since those both allow for logic and knowledge to help impact the situation. If only a skill check is possible, consider allowing an Intimidate check that doesn't apply any modifiers tied to frightening the target (such as the {feat/Intimidating Prowess} feat, size modifiers, an {class/inquisitor/'s} stern gaze, and so on) and then having the result not be a fear effect."
+			"@HL[Explaining Negative Consequences:] Sometimes a character wants to calmly explain negative consequences to someone in a way that merely relies on logic, not fear. This is particularly important when attempting to convince someone immune to fear, such as a paladin or vampire, to back down in the face of negative consequences. This is different than improving a creature's attitude or making a request (particularly since a character might try it with an unfriendly creature), so it doesn't fall under Diplomacy. One good way to handle this is to use the rules for ‹rule/influence› or verbal duels instead, since those both allow for logic and knowledge to help impact the situation. If only a skill check is possible, consider allowing an Intimidate check that doesn't apply any modifiers tied to frightening the target (such as the ‹feat/Intimidating Prowess› feat, size modifiers, an ‹class/inquisitor«'s› stern gaze, and so on) and then having the result not be a fear effect."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -576,19 +576,19 @@
 		"subtitle": "Skills in Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/187}",
+			"‹SOURCE Ultimate Intrigue/187›",
 			"",
 			"Since Perception is the skill that determines what a character sees, hears, and senses in the game world, it is no wonder that it's often considered the most important skill in the game. Stealth and Perception often oppose one another, and the two of them together can be difficult to adjudicate.",
 			"",
 			"@HL[Active and Automatic Perception:] There are two ways Perception checks happen in the game. The first way is automatic and reactive. Certain stimuli automatically call for a Perception check, such as a creature using Stealth (which calls for an opposed Perception check), or the sounds of combat or talking in the distance. The flip side is when a player actively calls for a Perception check because her PC is intentionally searching for something. This always takes at least a move action, but often takes significantly longer. The Core Rulebook doesn't specify what area a PC can actively search, but for a given Perception check it should be no larger than a 10-foot-by-10-foot area, and often a smaller space if that area is cluttered. For instance, in an intrigue-based game, it is fairly common to look through a filing cabinet full of files. Though the cabinet itself might fill only a 5-foot-by-5-foot area, the number of files present could cause a search to take a particularly long time.",
 			"",
-			"@HL[Precise and Imprecise Senses:] Since Perception covers all senses, it is important to distinguish which of those senses count as observing a creature that is using Stealth. Some senses are more precise than others. Imprecise senses allow a creature to pinpoint the location of another creature, but they don't allow for the use of targeted effects, and attacks against those creatures are subject to miss chances from {rule/concealment}. A few examples of imprecise senses are hearing, scent, blindsense, and tremorsense. A sense is precise if it allows the creature to use targeted effects on creatures and objects it senses, and to attack enemies without suffering a miss chance from concealment. This includes vision, touch, blindsight, and lifesense. Precise senses allow the creature to pinpoint an enemy's location. When a creature uses a precise sense to observe an enemy, that enemy is unable to use Stealth against the observer unless it creates a distraction first, or has a special ability allowing it to do so. Senses other than the listed ones count as precise or imprecise at the GM's discretion. A creature might have a limited form of a sense that makes it too weak to count as precise, such as a beast with primitive eyes that has difficulty seeing a creature that isn't moving.",
+			"@HL[Precise and Imprecise Senses:] Since Perception covers all senses, it is important to distinguish which of those senses count as observing a creature that is using Stealth. Some senses are more precise than others. Imprecise senses allow a creature to pinpoint the location of another creature, but they don't allow for the use of targeted effects, and attacks against those creatures are subject to miss chances from ‹rule/concealment›. A few examples of imprecise senses are hearing, scent, blindsense, and tremorsense. A sense is precise if it allows the creature to use targeted effects on creatures and objects it senses, and to attack enemies without suffering a miss chance from concealment. This includes vision, touch, blindsight, and lifesense. Precise senses allow the creature to pinpoint an enemy's location. When a creature uses a precise sense to observe an enemy, that enemy is unable to use Stealth against the observer unless it creates a distraction first, or has a special ability allowing it to do so. Senses other than the listed ones count as precise or imprecise at the GM's discretion. A creature might have a limited form of a sense that makes it too weak to count as precise, such as a beast with primitive eyes that has difficulty seeing a creature that isn't moving.",
 			"",
-			"@HL[Cover and Concealment for Stealth:] The reason a character usually needs {rule/cover} or {rule/concealment} to use Stealth is tied to the fact that characters can't use Stealth while being observed. A sneaking character needs to avoid all of an opponent's precise senses in order to use Stealth, and for most creatures, that means vision. Effects such as {spell/blur} and {spell/displacement}, which leave a clear visual of the character within the perceiving character's vision, aren't sufficient to use Stealth, but a shadowy area or a curtain work nicely, for example. The hide in plain sight class ability allows a creature to use Stealth while being observed and thus avoids this whole situation. As the Core Rulebook mentions, a sneaking character can come out of cover or concealment during her turn, as long as she doesn't end her turn where other characters are directly observing her.",
+			"@HL[Cover and Concealment for Stealth:] The reason a character usually needs ‹rule/cover› or ‹rule/concealment› to use Stealth is tied to the fact that characters can't use Stealth while being observed. A sneaking character needs to avoid all of an opponent's precise senses in order to use Stealth, and for most creatures, that means vision. Effects such as ‹spell/blur› and ‹spell/displacement›, which leave a clear visual of the character within the perceiving character's vision, aren't sufficient to use Stealth, but a shadowy area or a curtain work nicely, for example. The hide in plain sight class ability allows a creature to use Stealth while being observed and thus avoids this whole situation. As the Core Rulebook mentions, a sneaking character can come out of cover or concealment during her turn, as long as she doesn't end her turn where other characters are directly observing her.",
 			"",
 			"@HL[States of Awareness:] In general, there are four states of awareness that a creature can have with regard to another creature using Stealth.",
 			"",
-			"@HL[Unaware:] On one end of the spectrum, a sneaking creature can succeed at Stealth well enough that the other creature isn't even aware that the creature is present. This state allows the sneaking creature to use abilities such as the {class/vigilante/'s} startling appearance. The Stealth skill description in the Core Rulebook says that perceiving creatures that fail to beat a sneaking character's Stealth check result are not aware of the sneaking character, but that is different from being totally unaware. This is also true of a creature that has previously been made aware of the creature's presence or location (see below) but is currently unable to observe the sneaking creature. In those cases, the sneaking creature can't use abilities such as startling presence.",
+			"@HL[Unaware:] On one end of the spectrum, a sneaking creature can succeed at Stealth well enough that the other creature isn't even aware that the creature is present. This state allows the sneaking creature to use abilities such as the ‹class/vigilante«'s› startling appearance. The Stealth skill description in the Core Rulebook says that perceiving creatures that fail to beat a sneaking character's Stealth check result are not aware of the sneaking character, but that is different from being totally unaware. This is also true of a creature that has previously been made aware of the creature's presence or location (see below) but is currently unable to observe the sneaking creature. In those cases, the sneaking creature can't use abilities such as startling presence.",
 			"",
 			"@HL[Aware of Presence:] The next state is when the perceiving creature is aware of the sneaking creature's presence, though not of anything beyond that. This is the state that happens when an invisible creature attacks someone and then successfully uses Stealth so the perceiving creature doesn't know where the attacker moved, or when a sniper succeeds at her Stealth check to snipe. A perceiving creature that becomes aware of a hidden creature's presence will still be aware of its presence at least until the danger of the situation continues, if not longer (though memory-altering magic can change this).",
 			"",
@@ -615,13 +615,13 @@
 		"subtitle": "Skills in Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/188}",
+			"‹SOURCE Ultimate Intrigue/188›",
 			"",
 			"The Sense Motive skill allows a character to analyze the way another character is acting and figure out if something is off. It also opposes Bluff to determine whether someone is lying, making it an important social defensive skill in an intrigue-based game.",
 			"",
-			"@HL[Active and Automatic Sense Motive:] Most uses of Sense Motive are active and require a character to spend a minute or more interacting with someone with the intent of using Sense Motive for a particular purpose. The only time that Sense Motive happens automatically is when it opposes {skill/Bluff}, as a character attempts a Sense Motive check for every Bluff check attempted against him.",
+			"@HL[Active and Automatic Sense Motive:] Most uses of Sense Motive are active and require a character to spend a minute or more interacting with someone with the intent of using Sense Motive for a particular purpose. The only time that Sense Motive happens automatically is when it opposes ‹skill/Bluff›, as a character attempts a Sense Motive check for every Bluff check attempted against him.",
 			"",
-			"@HL[Noticing Enchantments:] Sense Motive allows a character to notice someone whose behavior is being influenced by an enchantment, though as an active check, this takes at least 1 minute of interaction and the intention to sense enchantments. This doesn't notice enchantments that aren't actually causing a difference in behavior at the time. For instance, if a creature is under {spell/charm person} but the caster isn't around and doesn't come up in conversation, a Sense Motive check won't reveal the enchantment.",
+			"@HL[Noticing Enchantments:] Sense Motive allows a character to notice someone whose behavior is being influenced by an enchantment, though as an active check, this takes at least 1 minute of interaction and the intention to sense enchantments. This doesn't notice enchantments that aren't actually causing a difference in behavior at the time. For instance, if a creature is under ‹spell/charm person› but the caster isn't around and doesn't come up in conversation, a Sense Motive check won't reveal the enchantment.",
 			"",
 			"@HL[Hunches:] The use of Sense Motive to \"get a hunch\" mentions getting a feeling that someone is trustworthy or is an impostor, and it lists a static DC. This doesn't mean to say that anyone who can succeed at a DC 20 Sense Motive check can automatically find an impostor with high Bluff and Disguise modifiers. The DC 20 check assumes that the other character is not opposing the Sense Motive check with Bluff. This is particularly useful in situations with a group of impostors, one of whom is silver-tongued and does all the talking while the others aren't saying anything but aren't skilled at Bluff. For instance, a hunch might help against a group of quiet assassins dressed as servants and trickling into the grand hall. The information gained from a hunch is general, not specific, and usually results in an ambiguous inkling. You can get a vague feeling that something is wrong or that someone seems trustworthy, but no more specific information than that. In the example above, a character who received a hunch wouldn't know that the servants are specifically assassins, but would get a sense that something was off about the servants.",
 			"",
@@ -647,7 +647,7 @@
 		"tags": "espionage, intrigue, skills in conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/189}",
+			"‹SOURCE Ultimate Intrigue/189›",
 			"",
 			"Especially in intrigue-based games, there are situations in which many different creatures might normally need to roll an opposed skill check against a PC. For instance, if the rogue sneaks into a camp of 50 orcs, it would technically require rolling 50 Perception checks. This slows down the game, and it makes it almost certain that one of those orcs will roll a natural 20. This variant rule replaces opposed rolls to reduce this sheer number of rolls and the likelihood for a skilled PC to be defeated by math alone.",
 			"",
@@ -677,7 +677,7 @@
 		"name": "Social Conflicts",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/166}",
+			"‹SOURCE Ultimate Intrigue/166›",
 			"",
 			"The Pathfinder RPG is often played as a game of high adventure, where heroes brave wildernesses, monsters, dungeons, and other dangers to gain experience and treasure. Often cities and societies simply serve as backdrops - places to rest and go shopping, use workshops or laboratories, and maybe hunt a cruel monster or dangerous cult in the labyrinthine sewers below. However, with a slight change of perspective, Game Masters can introduce social conflicts into their adventures. These unique encounters can spice up your game by presenting players with different kinds of stakes, rewards, and consequences than those found in conflicts involving brute force.",
 			"",
@@ -725,7 +725,7 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/166}",
+			"‹SOURCE Ultimate Intrigue/166›",
 			"",
 			"Before designing a social conflict for your campaign, you should determine its pace. There are two main types of pacing that can help introduce social conflict into your game: episodic and serialized. Each has its own strengths and challenges outlined below."
 		],
@@ -752,9 +752,9 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/166}",
+			"‹SOURCE Ultimate Intrigue/166›",
 			"",
-			"When you're running a game with episodic pacing, you inject minor incidents of social conflict into the normal course of exploration and adventure. This typically requires you to introduce a minor social conflict or two when the PCs enter a settlement or come into contact with some other social unit. This type of pacing works best when these small-scale social conflicts are interspersed within the framework of a larger social conflict, which itself may be part of an even larger story arc in a campaign utilizing {rule/serialized pacing}.",
+			"When you're running a game with episodic pacing, you inject minor incidents of social conflict into the normal course of exploration and adventure. This typically requires you to introduce a minor social conflict or two when the PCs enter a settlement or come into contact with some other social unit. This type of pacing works best when these small-scale social conflicts are interspersed within the framework of a larger social conflict, which itself may be part of an even larger story arc in a campaign utilizing ‹rule/serialized pacing›.",
 			"",
 			"One of the benefits of episodic pacing is that you only have to create a few events and their consequences at a time, and you can often postpone unveiling these incidents' long-term consequences. This gives you time to consider future plot points that you might want to introduce later. The downside of episodic pacing is that when players encounter later consequences, they sometimes forget these minor incidents and need to be reminded about them. To illustrate episodic pacing, let's elaborate on the example in this section's introduction. After plundering some local ruins, the PCs return to town to sell their discoveries and celebrate their victories. With nearly every visit to the various shops and business, they hear the same story: a ruthless tough is coercing protection money from local businesses. The PCs can either ignore the plight of the local entrepreneurs or confront the extortionist.",
 			"",
@@ -777,7 +777,7 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/166}",
+			"‹SOURCE Ultimate Intrigue/166›",
 			"",
 			"With serialized pacing, a large number of events quickly flow into one another. Sometimes the structure of events is immediately altered due to the consequences of previous events. Other times, consequences determine the events that the PCs participate in next. Use serialized pacing when social conflict is the main thrust of a campaign or a campaign arc. Running social conflicts with a serialized structure is more difficult because events must be modified or generated on the fly with more frequency due to PC actions.",
 			"",
@@ -802,7 +802,7 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/167}",
+			"‹SOURCE Ultimate Intrigue/167›",
 			"",
 			"Once the pacing of the adventure has been chosen, the next step is to determine the stakes and the contenders of the social conflict, or at least those at the opening of the conflict. The stakes are the core of a social conflict: the prize for which the contenders strive. Social conflicts are often struggles for control of economy, prestige, or political power. The contenders are those individuals or groups struggling to win or achieve the stakes.",
 			"",
@@ -840,9 +840,9 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/168}",
+			"‹SOURCE Ultimate Intrigue/168›",
 			"",
-			"When the stakes of a conflict are no more than a plot device, it's okay for them to be somewhat nebulous. Other times, the stakes are concrete, and you'll want a precise way to measure them. For this purpose, you can use the rules for {rule/gaining capital in the |downtime/ system} or the [influence system for organizations](rule/organizational_influence)."
+			"When the stakes of a conflict are no more than a plot device, it's okay for them to be somewhat nebulous. Other times, the stakes are concrete, and you'll want a precise way to measure them. For this purpose, you can use the rules for ‹rule/gaining capital in the »downtime« system› or the [influence system for organizations](rule/organizational_influence)."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -856,7 +856,7 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/168}",
+			"‹SOURCE Ultimate Intrigue/168›",
 			"",
 			"Events are the stage for each step of a social conflict. An event is a lot like an encounter, but instead of detailing a location and its inhabitants, it describes a scene that either provides a method of discovering some aspect of a social conflict or frames a social conflict challenge. A social conflict often becomes more complex because of the PCs' actions, which either cause or affect future events. There are two main types of social conflict events: discovery events, where the PCs have the opportunity to learn more about the nature and particulars of the social conflict, and challenge events, where the PCs must face some challenge related to the social conflict. Even though it's generally helpful to make the distinction between discovery or challenge events, sometimes a social conflict event has attributes of both types. These mixed events are especially common in more complex social conflicts.",
 			"",
@@ -885,7 +885,7 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/168}",
+			"‹SOURCE Ultimate Intrigue/168›",
 			"",
 			"Discovery events typically introduce or advance a social conflict story by giving the PCs the opportunity to learn information about the conflict. The success of these events might hinge on the PCs' ability to perceive or otherwise uncover certain clues.",
 			"",
@@ -895,9 +895,9 @@
 			"",
 			"For instance, consider the halflings beseeching the PCs for help to gain voting rights. If the PCs take what the halflings say at face value, they may think this is merely a case of blatant injustice at work, but success at some difficult Sense Motive checks may lead the PCs to suspect there's something more to the tale. Then, succeeding at another difficult Knowledge (local) check might reveal that one of the reasons the halflings don't have the right to vote is because they are considered a nation of their own to the kingdom and don't have to pay the royal taxes. Questioning the halflings further could reveal that they want to be able to vote, but would still like to avoid paying the royal taxes.",
 			"",
-			"Sometimes discovery events can involve challenges in order to gain the information. A discovery might involve tracking down obscure knowledge (using the {rule/research/ rules}), running down someone who has the information (using the {rule/pursuit/ rules}), performing a heist for the information (using the [heist rules](rule/heists)), or even entering a social engagement to figure out how much the PCs are able to uncover (using the Pathfinder RPG Social Combat Deck, roleplaying the challenge, or using one of the challenge types detailed later in this section). Often these are mixed events with an emphasis on discovery. On rare occasions, this type of event might lead to combat. For example, the PCs have been tasked with apprehending a missive carried by a local courtesan, and run into trouble when they find out she's not only very capable of defending the missive on her own but also has hired a few sellswords to waylay the PCs once they make their move. While {rule/verbal duels} are a perfect fit for a challenge in a social conflict, from time to time consider using either a spell duel, a {rule/physical |duel>s}, or a {rule/psychic duel>s} to add some action to discovery encounters. Spell duels and physical duels can distribute information by way of secret messages or witty banter. Psychic duels can distribute information in a more direct (if somewhat enigmatic) form since the binary mindscapes of such bouts allow the duelists to access parts of their opponents' minds; by reading an opponent's mental mask and watching for strange metaphors in that opponent's attack forms, a duelist can possibly learn more about her opponent.",
+			"Sometimes discovery events can involve challenges in order to gain the information. A discovery might involve tracking down obscure knowledge (using the ‹rule/research« rules›), running down someone who has the information (using the ‹rule/pursuit« rules›), performing a heist for the information (using the [heist rules](rule/heists)), or even entering a social engagement to figure out how much the PCs are able to uncover (using the Pathfinder RPG Social Combat Deck, roleplaying the challenge, or using one of the challenge types detailed later in this section). Often these are mixed events with an emphasis on discovery. On rare occasions, this type of event might lead to combat. For example, the PCs have been tasked with apprehending a missive carried by a local courtesan, and run into trouble when they find out she's not only very capable of defending the missive on her own but also has hired a few sellswords to waylay the PCs once they make their move. While ‹rule/verbal duels› are a perfect fit for a challenge in a social conflict, from time to time consider using either a spell duel, a ‹rule/physical »duel<s›, or a ‹rule/psychic duel<s› to add some action to discovery encounters. Spell duels and physical duels can distribute information by way of secret messages or witty banter. Psychic duels can distribute information in a more direct (if somewhat enigmatic) form since the binary mindscapes of such bouts allow the duelists to access parts of their opponents' minds; by reading an opponent's mental mask and watching for strange metaphors in that opponent's attack forms, a duelist can possibly learn more about her opponent.",
 			"",
-			"When creating a discovery event, it's important to compare any assumptions you've made about the event to the capabilities of the PCs and even those of the contenders. There is nothing like a well-played divination spell to foil your assumptions about how an event is going to transpire. Use the guidelines and advice presented in the {rule/Spells of Intrigue} section to aid in such troubleshooting.",
+			"When creating a discovery event, it's important to compare any assumptions you've made about the event to the capabilities of the PCs and even those of the contenders. There is nothing like a well-played divination spell to foil your assumptions about how an event is going to transpire. Use the guidelines and advice presented in the ‹rule/Spells of Intrigue› section to aid in such troubleshooting.",
 			"",
 			"Ultimately, the consequences for discovery events should depend on how much the PCs found out and how they respond to the knowledge. These consequences should also take the stakes into account and how contenders might react to the knowledge that the PCs are involved or snooping around. Outstanding successes at discovery challenges should affect the PCs' ability to navigate challenge events in a positive way, while terrible failures may mean the PCs misconstrue the scope of the challenge, overlook some aspect of it, or follow up bad leads."
 		],
@@ -916,7 +916,7 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/169}",
+			"‹SOURCE Ultimate Intrigue/169›",
 			"",
 			"Challenge events allow the PCs a chance to affect or even disrupt the balance of power in social conflicts. Unlike in discovery encounters, where the goal is often to reconnoiter the particulars of the social landscape, in challenge encounters, the PCs take a shot at changing that landscape.",
 			"",
@@ -928,7 +928,7 @@
 			"",
 			"The PCs then make the rounds negotiating with the city's various politicians. The consequences of the challenge are based on the accumulation of victories against the various politicians, and since each politician has a different personality, the key to success is different for each of them. One might cow quickly to physical threats and intimidation, while another politician might be corrupt and susceptible to bribes. One politician might be particularly steadfast in his stance, and can only be swayed if the PCs decide to get dirty and blackmail or threaten the politician's loved ones. This particular example is the perfect opportunity to use the individual influence system, but each of these interactions could be a different challenge using the Social Combat Deck, or you could create a freeform event instead.",
 			"",
-			"Keep in mind that social challenges should be more active and engaging than a jumble of skill checks and actions. Consider making a social challenge more interesting by punctuating it with a chase (using the chase rules or either Pathfinder Cards: Chase Cards or its sequel, Chase Cards 2: Hot Pursuit), a pursuit, or a heist. In higher-level games, challenge events may be even more complex, with the PCs using the {rule/kingdom-building/ rules}, or even the {rule/mass combat/ system} when diplomacy fails.",
+			"Keep in mind that social challenges should be more active and engaging than a jumble of skill checks and actions. Consider making a social challenge more interesting by punctuating it with a chase (using the chase rules or either Pathfinder Cards: Chase Cards or its sequel, Chase Cards 2: Hot Pursuit), a pursuit, or a heist. In higher-level games, challenge events may be even more complex, with the PCs using the ‹rule/kingdom-building« rules›, or even the ‹rule/mass combat« system› when diplomacy fails.",
 			"",
 			"Lastly, while social conflict is an attempt to avoid physical conflict and strife, there are times when the PCs will have to engage in combat to resolve a social conflict. Maybe after failing to negotiate with the rebels, the PCs must attempt to subdue and stop them from committing acts of violence against the community. It could be that while attempting to gain favor with a band of hot-headed noble scions, the PCs don't realize they've slighted them and inadvertently inflame the young aristocrats' ire. In this latter case, a good nonlethal thrashing might regain the rash blowhards' respect. As a general guideline, resorting to combat in order to gain successes in social conflict is a last resort that usually stems from a failure at some point earlier in the chain of events. Even in these cases, try to present opportunities to bring flair to the battlefield, perhaps by employing dramatic environments (like rooftop battles or dawn duels), enemies with colorful abilities (like a bard's stinging oratory or a swashbuckler's panache), or hazards that could change the course of combat (like a precariously hung chandelier or toppling pillars)."
 		],
@@ -947,7 +947,7 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/170}",
+			"‹SOURCE Ultimate Intrigue/170›",
 			"",
 			"Whether you're running a discovery or a challenge event, you should strive to make the consequences of both success and failure dependent on how the PCs solved the challenge. While some challenge events or straightforward discovery events may have direct and obvious consequences, more complex challenge can result in degrees of success or failure.",
 			"",
@@ -978,7 +978,7 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/170}",
+			"‹SOURCE Ultimate Intrigue/170›",
 			"",
 			"While you could use the Social Combat Deck or many of the existing tools in the Pathfinder RPG to run social conflict events, eventually you'll want to shape the PCs' encounters around a story you have created or around some unanticipated consequence of the PCs' past actions. When planning such encounters, you may want to create freeform events that give players a more active role in developing the ongoing story. Since social conflict events are less predictable than combat encounters, the following tools and guidelines can help you ad-lib when your players do something out of the ordinary."
 		],
@@ -1008,7 +1008,7 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/170}",
+			"‹SOURCE Ultimate Intrigue/170›",
 			"",
 			"Each freeform event you create should have a number of actions the PCs can take to achieve their goals. It's always better to create more actions and goals than you might need, and to have a variety of them, so multiple characters can participate in the event. Often these goals will revolve around a check or taking a specific action."
 		],
@@ -1030,9 +1030,9 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/171}",
+			"‹SOURCE Ultimate Intrigue/171›",
 			"",
-			"When you're running a freeform challenge where wits and charm are more effective than quick reflexes, it might become important to determine the order in which different characters (both PCs and NPCs) perform their actions. In such cases, consider having each character roll a social initiative check. Rather than being Dexterity-based, a social initiative check is Charisma-based, though all other standard methods for increasing initiative (such as the {feat/Improved Initiative} feat) still apply."
+			"When you're running a freeform challenge where wits and charm are more effective than quick reflexes, it might become important to determine the order in which different characters (both PCs and NPCs) perform their actions. In such cases, consider having each character roll a social initiative check. Rather than being Dexterity-based, a social initiative check is Charisma-based, though all other standard methods for increasing initiative (such as the ‹feat/Improved Initiative› feat) still apply."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -1052,7 +1052,7 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/171}",
+			"‹SOURCE Ultimate Intrigue/171›",
 			"",
 			"While the players will usually be using the standard DCs for various skill checks found in the Pathfinder RPG rules, sometimes you'll want them to attempt skill checks for purposes not defined in the rules, but that fit within the scope of the challenge events they're engaged in. In such cases, Table 4-1: Freeform Check DCs by Level provides some suggested benchmarks for these freeform checks.",
 			"",
@@ -1105,7 +1105,7 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/171}",
+			"‹SOURCE Ultimate Intrigue/171›",
 			"",
 			"While designing the challenges and goals of a social conflict, you'll need to decide the means by which you'll measure the PCs' success. Listed below are three different ways to gauge success in social conflict events. Regardless of which means you use to gauge success, you will also need to determine how many successes the PCs must accumulate to achieve their overall goals.",
 			"",
@@ -1133,7 +1133,7 @@
 		"subtitle": "Social Conflict",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/172}",
+			"‹SOURCE Ultimate Intrigue/172›",
 			"",
 			"When designing any type of social conflict event, it's always best to allow the PCs to advance the plot even in the face of a critical failure. Of course, there should be consequences for failure, but that should never be the end the story. In other words, a success moves the PCs toward victory and a failure moves their adversaries toward victory, but you shouldn't plan a result that creates a deadlock and stalls the flow of the action. So long as a defeat doesn't lead to the entire party's death, it likely brings with it a variety of exciting ramifications - sometimes more so than a success might. Feel free to use the PCs' defeats as springboards into new plots and more rewarding future victories."
 		],
@@ -1154,7 +1154,7 @@
 		"name": "Social Conflict Events and Advancement",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/172}",
+			"‹SOURCE Ultimate Intrigue/172›",
 			"",
 			"When do social conflict events grant the PCs experience points and treasure? The short answer is whenever you choose. The typical experience point progression in the Pathfinder Roleplaying Game has a baseline assumption that heroic experience increases player characters' personal power and wealth. A combat-driven campaign is balanced with the assumption that the PCs have a set amount of combat resources, and achieving goals slowly whittles down these resources, making success less certain as time goes on. In this baseline mode of advancement, few if any social conflicts grant experience points or wealth; while this style of play can whittle down some of the PCs' resources, it doesn't do so with the regularity of combat encounters. Thus, the rewards for success in social conflict events are either ad hoc or based on the few combat encounters that might be peppered into the story arc. But if you're running a campaign in which social conflict is the main focus, it's prudent to discard this baseline mode, and instead grant the PCs experience points and treasure on a more regular basis.",
 			"",
@@ -1194,7 +1194,7 @@
 		"name": "Example Social Conflict: The Taken",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/173}",
+			"‹SOURCE Ultimate Intrigue/173›",
 			"",
 			"The following serialized social conflict serves as an extended example of how to build a satisfying series of encounters and adventures using the guidelines presented throughout this section. Since social conflicts evolve over time in response to the PCs' actions, this example provides a step-by-step description of the conflict's early stages - which could then evolve however you see fit These elements might serve as background between other adventures or the basis for a full-fledged campaign.",
 			"",
@@ -1206,7 +1206,7 @@
 			"",
 			"The royalists are composed of both the nobility and other citizens loyal to the crown. Unlike the revolutionaries, they have a single leader: King Theobard. The royalists believe the revolutionaries are manufacturing or at least exaggerating the recent troubles for their own political agenda, and many believe they're nothing more than bloodthirsty anarchists wishing to toss out the status quo and loot the riches of the kingdom. The royalists are more powerful and organized than the revolutionaries, but they're slow to react, at least at first, as they dismiss the commoners as a disorganized mob of sheep pushed along by a handful of rabble-rousers. The king and many of the nobles feel that mounting a response is expensive, and a heavy-handed reaction might just stir up unrest elsewhere.",
 			"",
-			"The fey fosterlings are the final contenders, and they're the ones who on the surface appear to be pulling the strings. These fosterlings are fey children who were swapped in the cradle for human children. They appear fully human and magic detects them as being such. The fosterlings are spread throughout the kingdom and communicate clandestinely via animal messengers and the like. Their greatest political asset is the fact that Princess Annika is a fosterling, and the main coordinator of the faction. Given how disorganized the revolutionaries are, it was easy to seed some fosterlings among them, and Annika and her few fellow fosterlings among the nobility can manipulate the royalists with ease. Annika and the fosterlings are not the true power behind their faction, however. A powerful {monster/norn} has become convinced that fate demands a firmer hand with this kingdom, and she is actually the one pulling the strings - and snipping them if necessary.",
+			"The fey fosterlings are the final contenders, and they're the ones who on the surface appear to be pulling the strings. These fosterlings are fey children who were swapped in the cradle for human children. They appear fully human and magic detects them as being such. The fosterlings are spread throughout the kingdom and communicate clandestinely via animal messengers and the like. Their greatest political asset is the fact that Princess Annika is a fosterling, and the main coordinator of the faction. Given how disorganized the revolutionaries are, it was easy to seed some fosterlings among them, and Annika and her few fellow fosterlings among the nobility can manipulate the royalists with ease. Annika and the fosterlings are not the true power behind their faction, however. A powerful ‹monster/norn› has become convinced that fate demands a firmer hand with this kingdom, and she is actually the one pulling the strings - and snipping them if necessary.",
 			"",
 			"The PCs enter this situation as a fourth faction, capable of shifting the balance between the revolutionaries and the royalists, or even of exposing the true culprits.",
 			"",
@@ -1216,7 +1216,7 @@
 			"",
 			"### Conflict Arc and Early Events",
 			"",
-			"The conflict arc begins with the PCs in a town on the kingdom's outskirts, on the edge of a forest known to be the home of fey. The superstitious villagers purchased charms to ward their homes against the fey, but a fosterling in the village has been exposing the charms to fey magic, causing them to erode faster than usual. With the failing wards, a {monster/quickling} managed to sneak into the home of a popular local woodsman and whisk away a baby, but not before the parents spotted him. The woodsman and his revolutionary friends blame the nobility for the baby's kidnapping, as the appointed mayor refused to pay to replace the crumbling wards, considering them superstitious nonsense.",
+			"The conflict arc begins with the PCs in a town on the kingdom's outskirts, on the edge of a forest known to be the home of fey. The superstitious villagers purchased charms to ward their homes against the fey, but a fosterling in the village has been exposing the charms to fey magic, causing them to erode faster than usual. With the failing wards, a ‹monster/quickling› managed to sneak into the home of a popular local woodsman and whisk away a baby, but not before the parents spotted him. The woodsman and his revolutionary friends blame the nobility for the baby's kidnapping, as the appointed mayor refused to pay to replace the crumbling wards, considering them superstitious nonsense.",
 			"",
 			"@HL[Challenge Event:] Angry Mob",
 			"",
@@ -1246,7 +1246,7 @@
 			"",
 			"At this point, the PCs have many possible avenues to explore. If they return the woodcutter's baby, they earn the gratitude of the townsfolk, and one of their friendly contacts in town requests that they head to the capital, either to deliver a letter requesting more funds to assist the town (if they ally with the mayor) or helping with a mass protest (if they ally with the revolutionaries). Even if the PCs are making their own path, they still might want to head to the capital if they find out about the potential mass protest. On the other hand, depending on the results of the last event, the PCs could attempt to chase down the quickling's buyer, or even to check on the other entries on the quickling's list.",
 			"",
-			"Social conflicts branch and diverge quite rapidly and respond to the PCs' choices, which makes it difficult to plan more than an engagement or two ahead without quickly devolving into numerous if-then contingencies. Depending on the PCs' path through a social conflict, they could wind up pulling a heist on the royal treasury (using the {rule/heist>s} rules), attending a gala to gain influence with the upper nobility (using the {rule/individual |influence/ rules}), working with Princess Annika for a peaceful solution as she secretly manipulates them to further the fosterling agenda, pursuing a group of kidnapping fey to discover the whereabouts of the buyer (using the {rule/pursuit/ rules}), performing acts of sabotage in an attempt to overthrow the monarchy, researching the connection between the fosterlings (using the {rule/research/ rules}), engaging in a verbal duel with one of the founders of the revolutionaries in front of a crowd of his followers (using the {rule/verbal duel>s} rules), and much more. No matter what the PCs do, the fosterlings try to turn it to their advantage, and if the PCs unearth the fosterlings' existence and launch a shadow war against their adversaries, the fosterlings turn all of their efforts to destroying the PCs and their reputation, preferring to use the other factions as proxies if possible.",
+			"Social conflicts branch and diverge quite rapidly and respond to the PCs' choices, which makes it difficult to plan more than an engagement or two ahead without quickly devolving into numerous if-then contingencies. Depending on the PCs' path through a social conflict, they could wind up pulling a heist on the royal treasury (using the ‹rule/heist<s› rules), attending a gala to gain influence with the upper nobility (using the ‹rule/individual »influence« rules›), working with Princess Annika for a peaceful solution as she secretly manipulates them to further the fosterling agenda, pursuing a group of kidnapping fey to discover the whereabouts of the buyer (using the ‹rule/pursuit« rules›), performing acts of sabotage in an attempt to overthrow the monarchy, researching the connection between the fosterlings (using the ‹rule/research« rules›), engaging in a verbal duel with one of the founders of the revolutionaries in front of a crowd of his followers (using the ‹rule/verbal duel<s› rules), and much more. No matter what the PCs do, the fosterlings try to turn it to their advantage, and if the PCs unearth the fosterlings' existence and launch a shadow war against their adversaries, the fosterlings turn all of their efforts to destroying the PCs and their reputation, preferring to use the other factions as proxies if possible.",
 			"",
 			"### Concluding the Conflict",
 			"",
@@ -1276,7 +1276,7 @@
 		"name": "Taxation",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/192}",
+			"‹SOURCE Ultimate Campaign/192›",
 			"",
 			"Even a moderately successful adventurer commands wealth and personal power beyond the means of most normal people in the world. While the common folk adore their heroes and the small-minded envy them, the authorities take a more pragmatic view: How can they and their jurisdictions financially benefit from these adventurers? In the greater campaign, as the PCs advance in stature, they gain the notice of such authorities, who seek a share of the PCs' rewards in the form of taxes. They claim material goods, utilize the PCs' talents in day-to-day life, or even enlist the PCs' services as adventurers. These people see this attention and service as their due for giving adventurers safe haven between quests and, at least in theory, protecting the PCs from the depredations of robbers and swindlers.",
 			"",
@@ -1321,7 +1321,7 @@
 		"name": "Types of Taxes",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/192}",
+			"‹SOURCE Ultimate Campaign/192›",
 			"",
 			"Though many taxes come in the form of financial transactions, some collectors are willing to substitute material goods, favors, or services for coin.",
 			"",
@@ -1345,7 +1345,7 @@
 		"name": "Types of Services",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/192}",
+			"‹SOURCE Ultimate Campaign/192›",
 			"",
 			"PCs are more useful for the deeds they can accomplish than for any material wealth they might possess. Even low-level adventurers possess talents in excess of the typical populace, and high-level adventures can shake the pillars of the world.",
 			"",
@@ -1355,7 +1355,7 @@
 			"",
 			"@HL[Espionage:] In many cases, espionage missions are given to an appropriate PC, such as a bard, enchanter, or rogue. As with assassination, collectors use PCs as spies so they have the advantage of deniability. Requests for espionage might be tied to a region the PCs already plan on visiting, or might require that they arrange their travel to suit the request.",
 			"",
-			"@HL[Magic Item Creation:] A PC with an {main/item creation feat} could find herself called on to use her talents, either as a personal favor or for the common good. A PC wizard could be asked to enhance the blades of the city guard, or a PC cleric could be asked to provide {spell/cure light wounds} potions for her temple. Depending on who makes the request, the cost of creating the magic item might be borne by the PC, paid for by the collector, or split between them.",
+			"@HL[Magic Item Creation:] A PC with an ‹main/item creation feat› could find herself called on to use her talents, either as a personal favor or for the common good. A PC wizard could be asked to enhance the blades of the city guard, or a PC cleric could be asked to provide ‹spell/cure light wounds› potions for her temple. Depending on who makes the request, the cost of creating the magic item might be borne by the PC, paid for by the collector, or split between them.",
 			"",
 			"@HL[Military Service:] Usually only low-level PCs get called on for rank-and-file service. More capable adventurers might instead find themselves pressed into service in the role of elite commandos, sent to deal with the opposing force's most dangerous troops and monsters. PCs with appropriate expertise may be called up to train others in their skills - a tedious but valuable service that can be accomplished during downtime between adventures.",
 			"",
@@ -1380,7 +1380,7 @@
 		"subtitle": "Taxes",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/193}",
+			"‹SOURCE Ultimate Campaign/193›",
 			"",
 			"Forcing taxes on adventurers carries a certain amount of risk. Low-level PCs who avoid paying taxes likely face arrest, heavy fines, and possibly imprisonment if caught. Of course, they might be able to perform a suitable service in lieu of punishment. For mid-level PCs, indirect consequences are more effective than attempts to arrest them (unless the authorities have enough resources and ability that they stand a reasonable chance of capturing and holding the PCs) - local businesses may refuse to serve them, the thieves' guild might be given permission to rob them, city guards may ignore their calls for help, and so on.",
 			"",
@@ -1400,7 +1400,7 @@
 		"name": "Trophies",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/162}",
+			"‹SOURCE Ultimate Wilderness/162›",
 			"",
 			"Monetary treasure can be a rarity in the wild, but canny scavengers and survivalists know how to reap nature's bounty. Eggs, furs, and ivory of exotic beasts are well-known commodities, but some have also studied the mystical sympathy between certain creatures and different forms of magic. To the right buyer, these components are valuable as more exotic materials.",
 			"",
@@ -1446,7 +1446,7 @@
 		"name": "Harvesting Trophies",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/162}",
+			"‹SOURCE Ultimate Wilderness/162›",
 			"",
 			"When a monster is defeated in combat, the process of identifying what portions of the creature can serve as a trophy and harvesting the trophy are somewhat abstracted; there's no need to track the values for each part of every monster in the game once they're gathered as trophies.",
 			"",
@@ -1456,15 +1456,15 @@
 			"",
 			"@HL[Harvesting Trophy Components:] Once a character identifies potential trophies, she must attempt a skill check to harvest the relevant components. This is typically either a Survival check (for external features, such as hide, horns, teeth, or the like) or a Heal check (for internal features, such as blood, internal organs, or sweat). The DC for this check is equal to 15 + the creature's CR. Harvesting trophy components generally takes 10 minutes of work (at the GM's discretion, this could be as much as 1 hour of work for creatures whose bodies are particularly difficult to work with).",
 			"",
-			"@HL[Creating Trophies:] Once trophy components are harvested, they generally remain viable for 24 hours before decay or spoilage ruins them. Application of {spell/gentle repose}, {magic-wondrous/unguent of timelessness}, or similar magic can extend this period of decay. In order to turn components harvested from a creature into a long-lasting trophy, a character must attempt a check with an appropriate Craft skill (the exact skill varies according to the nature of the trophy the character is creating, but it is usually one from the following list: alchemy, jewelry, leather, or taxidermy) to preserve the components and turn them into a trophy. The DC of this check is equal to 15 + the creature's CR.",
+			"@HL[Creating Trophies:] Once trophy components are harvested, they generally remain viable for 24 hours before decay or spoilage ruins them. Application of ‹spell/gentle repose›, ‹magic-wondrous/unguent of timelessness›, or similar magic can extend this period of decay. In order to turn components harvested from a creature into a long-lasting trophy, a character must attempt a check with an appropriate Craft skill (the exact skill varies according to the nature of the trophy the character is creating, but it is usually one from the following list: alchemy, jewelry, leather, or taxidermy) to preserve the components and turn them into a trophy. The DC of this check is equal to 15 + the creature's CR.",
 			"",
 			"### Feats for Crafting Trophies",
 			"",
 			"Although any character can take trophies from fallen creatures for cosmetic or roleplaying purposes, the following feats allow characters to derive functionality from items they salvage from monstrous corpses. These feats work similarly to item creation feats, except trophies are created using a single Craft or Heal check, they are nonmagical, and the benefits they provide are typically temporary. The DC of such a check is equal to 15 + the creature's CR, and creating a trophy takes a number of minutes equal to the creature's CR.",
 			"",
-			"- {feat/Harvest Parts}",
-			"    - {feat/Grisly Ornament}",
-			"        - {feat/Monstrous Crafter}"
+			"- ‹feat/Harvest Parts›",
+			"    - ‹feat/Grisly Ornament›",
+			"        - ‹feat/Monstrous Crafter›"
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -1481,7 +1481,7 @@
 		"name": "Trophy Weight",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/163}",
+			"‹SOURCE Ultimate Wilderness/163›",
 			"",
 			"In most cases, the weight of trophy components recovered from a creature depend on the creature's size. This weight is doubled for bones, hides, and skins, and halved for feathers, hair, and small organs such as eyes or glands. Once components have been processed into actual trophies, the resulting weight of the trophy is generally determined by the nature of the trophy created (in the case of jewelry or the like) or half the weight of the components used (in the case of something like a preserved head or limb).",
 			"",
@@ -1514,11 +1514,11 @@
 		"name": "Selling Trophies",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/163}",
+			"‹SOURCE Ultimate Wilderness/163›",
 			"",
 			"Once a trophy is created, it can be kept or sold. Generally, a trophy can be sold to any merchant for its full value, as if it were an art object, but at the GM's discretion, certain trophies may require the PC to seek out black markets or specialized merchants to receive the full price. In some societies, selling certain trophies may be illegal or have other ramifications.",
 			"",
-			"A trophy's value is determined by the CR of the creature from which it was harvested, as indicated on the following table. For all purposes related to harvesting trophies, the CR refers to a creature's CR without any class levels (a CR 10 {monster/troll} oracle would still count as a CR 5 source for any trophies it yields). Note that the value for bounties for defeating specific creatures should not be governed by these rules but should instead be determined by the GM as appropriate for the adventure. Creatures that do not have racial Hit Dice and whose CR is defined by class level generally do not provide valuable components for trophies.",
+			"A trophy's value is determined by the CR of the creature from which it was harvested, as indicated on the following table. For all purposes related to harvesting trophies, the CR refers to a creature's CR without any class levels (a CR 10 ‹monster/troll› oracle would still count as a CR 5 source for any trophies it yields). Note that the value for bounties for defeating specific creatures should not be governed by these rules but should instead be determined by the GM as appropriate for the adventure. Creatures that do not have racial Hit Dice and whose CR is defined by class level generally do not provide valuable components for trophies.",
 			"",
 			"### Table 4-9: Trophy Value by CR",
 			"",
@@ -1560,28 +1560,28 @@
 		"name": "Magical Affinities of Trophies",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/163}",
+			"‹SOURCE Ultimate Wilderness/163›",
 			"",
 			"Certain creatures provide trophy components that, once processed into actual trophies, are exceptionally useful for the construction of alchemical or magic items. When used as raw materials for the crafting of alchemical or magic items, these trophies are worth more than their normal values for the purposes of calculating the total gp needed to craft the item. The following section details trophy uses for a wide range of creature categories. This list is not intended to be exhaustive, and GMs should feel free to add specific affinities to a creature as their campaigns demand.",
 			"",
-			"@HL[Recovery:] In order to preserve trophy components into a trophy usable for its magical affinities, a character must use a different skill than Craft to create the trophy. The specific skill required varies according to the creature, as detailed below. Creating a trophy to be used in this way is more difficult than creating one to simply be an art object: the DC to create a magical affinity trophy is equal to 20 + the creature's CR. If a creature's trophy components fall into multiple categories (such as an {monster/erinyes}), the character can choose which of the associated skills to use to craft the trophy.",
+			"@HL[Recovery:] In order to preserve trophy components into a trophy usable for its magical affinities, a character must use a different skill than Craft to create the trophy. The specific skill required varies according to the creature, as detailed below. Creating a trophy to be used in this way is more difficult than creating one to simply be an art object: the DC to create a magical affinity trophy is equal to 20 + the creature's CR. If a creature's trophy components fall into multiple categories (such as an ‹monster/erinyes›), the character can choose which of the associated skills to use to craft the trophy.",
 			"",
 			"@HL[Affinities]: The magical uses for a trophy in the construction of alchemical or magic items are listed here. When a trophy is incorporated into raw materials, its gp value is considered to be 20% greater than normal.",
 			"",
 			"### Demons",
 			"",
 			"**Recovery** Knowledge (planes)  ",
-			"**Affinities** A {family/demon/'s} heart contains the essence of sin. It can be used in the creation of any magic item that has a spell with the {spelldef/evil} descriptor as a requirement.",
+			"**Affinities** A ‹family/demon«'s› heart contains the essence of sin. It can be used in the creation of any magic item that has a spell with the ‹spelldef/evil› descriptor as a requirement.",
 			"",
 			"### Devils",
 			"",
 			"**Recovery** Knowledge (planes)  ",
-			"**Affinities** A {family/devil/'s} tongue is infused with the word of law. It can be used in the creation of any magic item that has a spell with the {spelldef/lawful} descriptor as a requirement.",
+			"**Affinities** A ‹family/devil«'s› tongue is infused with the word of law. It can be used in the creation of any magic item that has a spell with the ‹spelldef/lawful› descriptor as a requirement.",
 			"",
 			"### Doppelgangers and Mimics",
 			"",
 			"**Recovery** Knowledge (arcana)  ",
-			"**Affinities** Swaths of skin harvested from a {monster/doppelganger} or {monster/mimic} can be used in the creation of any magic item that has a spell of the {spelldef/polymorph} subschool as a requirement.",
+			"**Affinities** Swaths of skin harvested from a ‹monster/doppelganger› or ‹monster/mimic› can be used in the creation of any magic item that has a spell of the ‹spelldef/polymorph› subschool as a requirement.",
 			"",
 			"### Elementals",
 			"",
@@ -1592,69 +1592,69 @@
 			"",
 			"| Elemental Type | Material Harvested | Associated Descriptor |",
 			"| --- | --- | --- |",
-			"| @ripple[monster/Aether>_elemental] | Crystalized memories | @ripple[spelldef/Force] |",
-			"| @ripple[monster/Air>_elemental] | Fine dust | @ripple[spelldef/Air] |",
-			"| @ripple[monster/Earth>_elemental] | Stone fragments | @ripple[spelldef/Earth] |",
-			"| @ripple[monster/Fire>_elemental] | Warm ash | @ripple[spelldef/Fire] |",
-			"| @ripple[monster/Ice>_elemental] | Blue ice | @ripple[spelldef/Cold] |",
-			"| @ripple[monster/Lightning>_elemental] | Sparkling powder | @ripple[spelldef/Electricity] |",
-			"| @ripple[monster/Magma>_elemental] | Glowing embers | @ripple[spelldef/Fire] |",
-			"| @ripple[monster/Mud>_elemental] | Viscous sludge | @ripple[spelldef/Acid] |",
-			"| @ripple[monster/Water>_elemental] | Rare liquid | @ripple[spelldef/Water] |",
+			"| @ripple[monster/Aether<_elemental] | Crystalized memories | @ripple[spelldef/Force] |",
+			"| @ripple[monster/Air<_elemental] | Fine dust | @ripple[spelldef/Air] |",
+			"| @ripple[monster/Earth<_elemental] | Stone fragments | @ripple[spelldef/Earth] |",
+			"| @ripple[monster/Fire<_elemental] | Warm ash | @ripple[spelldef/Fire] |",
+			"| @ripple[monster/Ice<_elemental] | Blue ice | @ripple[spelldef/Cold] |",
+			"| @ripple[monster/Lightning<_elemental] | Sparkling powder | @ripple[spelldef/Electricity] |",
+			"| @ripple[monster/Magma<_elemental] | Glowing embers | @ripple[spelldef/Fire] |",
+			"| @ripple[monster/Mud<_elemental] | Viscous sludge | @ripple[spelldef/Acid] |",
+			"| @ripple[monster/Water<_elemental] | Rare liquid | @ripple[spelldef/Water] |",
 			"",
 			"### Giants",
 			"",
 			"**Recovery** Knowledge (local)  ",
-			"**Affinities** The sweat glands or muscles and tendons that are harvested from a giant's arms or legs can be used in the creation of magic items that have {spell/enlarge person} as a requirement or in the creation of any magic melee weapon.",
+			"**Affinities** The sweat glands or muscles and tendons that are harvested from a giant's arms or legs can be used in the creation of magic items that have ‹spell/enlarge person› as a requirement or in the creation of any magic melee weapon.",
 			"",
 			"### Intelligent Undead",
 			"",
 			"**Recovery** Knowledge (religion)  ",
-			"**Affinities** Necromancy-infused dust or organs from an intelligent undead creature can be used in the creation of any magic item that has {spell/animate dead}, {spell/create undead}, {spell/create greater undead}, {spell/energy drain}, or {spell/enervation} as a requirement; at the GM's discretion, other necromancy spells can be added to this list (a {monster/ghoul}, for example, might aid in the creation of items that require {spell/ghoul touch}).",
+			"**Affinities** Necromancy-infused dust or organs from an intelligent undead creature can be used in the creation of any magic item that has ‹spell/animate dead›, ‹spell/create undead›, ‹spell/create greater undead›, ‹spell/energy drain›, or ‹spell/enervation› as a requirement; at the GM's discretion, other necromancy spells can be added to this list (a ‹monster/ghoul›, for example, might aid in the creation of items that require ‹spell/ghoul touch›).",
 			"",
 			"### Oozes",
 			"",
 			"**Recovery** Knowledge (dungeoneering)  ",
-			"**Affinities** Fluids harvested from an ooze that deals acid damage can be used in the creation of any magic item that has a spell with the {spelldef/acid} descriptor as a requirement or for alchemical gear and weapons associated with acid.",
+			"**Affinities** Fluids harvested from an ooze that deals acid damage can be used in the creation of any magic item that has a spell with the ‹spelldef/acid› descriptor as a requirement or for alchemical gear and weapons associated with acid.",
 			"",
 			"### Petrifying Monsters",
 			"",
-			"**Recovery** Knowledge (arcana) Affinity The portion of a creature capable of petrifying targets (eyes of a {monster/basilisk} or {monster/medusa}, talons of a {monster/cockatrice}, or a {monster/gorgon/'s} lungs, for example) can be used in the creation of any magic item that has {spell/flesh to stone} or {spell/stone to flesh} as a requirement.",
+			"**Recovery** Knowledge (arcana) Affinity The portion of a creature capable of petrifying targets (eyes of a ‹monster/basilisk› or ‹monster/medusa›, talons of a ‹monster/cockatrice›, or a ‹monster/gorgon«'s› lungs, for example) can be used in the creation of any magic item that has ‹spell/flesh to stone› or ‹spell/stone to flesh› as a requirement.",
 			"",
 			"### Primeval Creatures",
 			"",
 			"**Recovery** Knowledge (nature)  ",
-			"**Affinities** The claws, fangs, horns, and tusks of primeval creatures (including all {family/dinosaur/s} and {family/megafauna}, as well as dire animals) can be used in the creation of any magic item that has {spell/bear's endurance}, {spell/bull's strength}, or {spell/cat's grace} as a requirement.",
+			"**Affinities** The claws, fangs, horns, and tusks of primeval creatures (including all ‹family/dinosaur«s› and ‹family/megafauna›, as well as dire animals) can be used in the creation of any magic item that has ‹spell/bear's endurance›, ‹spell/bull's strength›, or ‹spell/cat's grace› as a requirement.",
 			"",
 			"### Proteans",
 			"",
 			"**Recovery** Knowledge (planes)  ",
-			"**Affinities** Scales harvested from a {family/protean} seethe with pure chaos and can be used in the creation of any magic item that has a spell with the {spelldef/chaotic} descriptor as a requirement.",
+			"**Affinities** Scales harvested from a ‹family/protean› seethe with pure chaos and can be used in the creation of any magic item that has a spell with the ‹spelldef/chaotic› descriptor as a requirement.",
 			"",
 			"### Qlippoth",
 			"",
 			"**Recovery** Knowledge (planes)  ",
-			"**Affinities** A {family/qlippoth/'s} brain is infused with raw madness, and it can be used in the creation of any magic item that has {spell/confusion}, {spell/insanity}, {spell/lesser confusion}, or {spell/symbol of insanity} as a requirement.",
+			"**Affinities** A ‹family/qlippoth«'s› brain is infused with raw madness, and it can be used in the creation of any magic item that has ‹spell/confusion›, ‹spell/insanity›, ‹spell/lesser confusion›, or ‹spell/symbol of insanity› as a requirement.",
 			"",
 			"### Rakshasas",
 			"",
 			"**Recovery** Knowledge (planes)  ",
-			"**Affinities** A {subtype/rakshasa/'s} eyes can be used in the creation of any magic item that has {spell/detect thoughts} as a requirement.",
+			"**Affinities** A ‹subtype/rakshasa«'s› eyes can be used in the creation of any magic item that has ‹spell/detect thoughts› as a requirement.",
 			"",
 			"### Trolls",
 			"",
 			"**Recovery** Knowledge (local)  ",
-			"**Affinities** A {family/troll/'s} liver can be used in the creation of any magic item that has a spell of the {spelldef/healing} subschool as a requirement.",
+			"**Affinities** A ‹family/troll«'s› liver can be used in the creation of any magic item that has a spell of the ‹spelldef/healing› subschool as a requirement.",
 			"",
 			"### True Dragons",
 			"",
 			"**Recovery** Knowledge (arcana)  ",
-			"**Affinities** The organs associated with a {family/true dragon/'s} breath weapon can be utilized in the creation of any magic item that has a spell that deals energy damage of the same type as the dragon's breath weapon as a requirement.",
+			"**Affinities** The organs associated with a ‹family/true dragon«'s› breath weapon can be utilized in the creation of any magic item that has a spell that deals energy damage of the same type as the dragon's breath weapon as a requirement.",
 			"",
 			"### Web-Using Monsters",
 			"",
 			"**Recovery** Knowledge (nature); when harvested from something other than a vermin, the DC of the check to harvest the trophy increases by 2.  ",
-			"**Affinity** The spinnerets of a creature capable of using {umr/web} as per the universal monster rule can be used in the creation of any magic item that has {spell/spider climb} or {spell/web} as a requirement."
+			"**Affinity** The spinnerets of a creature capable of using ‹umr/web› as per the universal monster rule can be used in the creation of any magic item that has ‹spell/spider climb› or ‹spell/web› as a requirement."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -1671,7 +1671,7 @@
 		"name": "Weather Generation",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/165}",
+			"‹SOURCE Ultimate Wilderness/165›",
 			"",
 			"While many of the physical dangers a group faces in the wilds vary significantly based on the nature of the terrain they explore, the weather can pose an array of challenges within a single region. When the weather is calm or good, it can make even the most unpleasant of terrains less grueling, but when the weather turns bad, even gently rolling hills, idyllic woodlands, and pastoral plains can become death traps.",
 			"",
@@ -1681,7 +1681,7 @@
 			"",
 			"### Extreme Temperatures",
 			"",
-			"Temperatures of 40&deg; F and lower or 90&deg; F or higher are hazardous, growing more dangerous the more extreme they become. Without the benefit of {spell/endure elements} or some other form of protection, characters exposed to temperatures beyond these ranges run the risk of taking damage and suffering other effects, as explained in {rule/cold dangers} and {rule/heat dangers}."
+			"Temperatures of 40&deg; F and lower or 90&deg; F or higher are hazardous, growing more dangerous the more extreme they become. Without the benefit of ‹spell/endure elements› or some other form of protection, characters exposed to temperatures beyond these ranges run the risk of taking damage and suffering other effects, as explained in ‹rule/cold dangers› and ‹rule/heat dangers›."
 		],
 		"parent_topics": [ "advanced_gm_topics" ],
 		"subtopics": [
@@ -1717,7 +1717,7 @@
 		"subtitle": "Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/165}",
+			"‹SOURCE Ultimate Wilderness/165›",
 			"",
 			"When determining weather for a region in your campaign, your first step is to establish the weather baseline for the region. The weather baseline is influenced by the region's climate (this sets the baseline temperature), elevation (this provides the baseline precipitation intensity), and season (this affects the temperature and dictates the baseline precipitation frequency)."
 		],
@@ -1741,15 +1741,15 @@
 		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/165}",
+			"‹SOURCE Ultimate Wilderness/165›",
 			"",
 			"Your first step in determining a region's baseline weather is to decide upon the region's climate. Climate is split up into one of three categories: cold, temperate and tropical. These types correspond to the three climate categories used in monster entries (note that a fourth category, extraplanar, is not a factor in determining weather for Material Plane worlds).",
 			"",
-			"The baseline temperature range for each climate category is given below, and is further refined in {rule/Temperature Variations and Precipitation}. These baselines are also presented in Table 4-12.",
+			"The baseline temperature range for each climate category is given below, and is further refined in ‹rule/Temperature Variations and Precipitation›. These baselines are also presented in Table 4-12.",
 			"",
 			"@HL[Cold:] A cold climate is found in the extreme northern or southern regions of the world at latitudes greater than 60 degrees (approximately 2,000 miles from a pole). In these polar regions, temperatures often remain below freezing throughout the majority of the year. The baseline temperature in this climate is cold, ranging from 20&deg; F in the winter, to 30&deg; F in the spring and fall months, and up to 40&deg; F in the summer. For regions within 500 miles of the pole, the baseline temperature is 10&deg; F colder than the seasonal average. For regions within 250 miles of the pole, the baseline temperature is 20&deg; F colder than the seasonal average. Because cold air tends to be drier than warm air, reduce the frequency and intensity of precipitation by one step in cold climates.",
 			"",
-			"@HL[Temperate:] Temperate climates stretch between the polar regions and tropical regions of the world, generally at latitudes between 60 degrees and 30 degrees. The baseline temperature in this climate ranges from 30&deg; F in winter, to 60&deg; F in spring and fall, and all the way up to 80&deg; F in summer. Precipitation frequency is not altered as a result of a temperate climate, but it can still be altered as a result of other factors such as the {rule/elevation} or {rule/season}.",
+			"@HL[Temperate:] Temperate climates stretch between the polar regions and tropical regions of the world, generally at latitudes between 60 degrees and 30 degrees. The baseline temperature in this climate ranges from 30&deg; F in winter, to 60&deg; F in spring and fall, and all the way up to 80&deg; F in summer. Precipitation frequency is not altered as a result of a temperate climate, but it can still be altered as a result of other factors such as the ‹rule/elevation› or ‹rule/season›.",
 			"",
 			"@HL[Tropical:] The tropics exist to either side of the world's equator, extending north and south for about 30 degrees of latitude in either direction. Tropical regions tend to be warm and humid, with a baseline temperature ranging from 50&deg; F in winter, to 75&deg; F in spring and fall, and up to 95&deg; F in summer. Because warm, humid air produces a great deal of precipitation, increase the frequency and intensity of precipitation by one step in this climate.",
 			"",
@@ -1777,7 +1777,7 @@
 		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/166}",
+			"‹SOURCE Ultimate Wilderness/166›",
 			"",
 			"While the climate sets baselines for temperatures, elevation plays a key factor as well. Elevation can affect the baseline temperature, and it sets the baseline intensity of precipitation in the region, as explained below and displayed in Table 4-13: Elevation Baselines.",
 			"",
@@ -1811,7 +1811,7 @@
 		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/166}",
+			"‹SOURCE Ultimate Wilderness/166›",
 			"",
 			"A year has four seasons - spring, summer, fall, and winter - each of which lasts about 3 months. Season plays an important part in dictating a region's baseline temperature (as noted in each climate and in Table 4-14). It also dictates the baseline precipitation frequency in a region before applying adjustments due to climate or elevation. In most regions with cold and temperate climates, precipitation frequency is intermittent during spring and fall, common during the summer, and rare during the winter. In most regions with tropical climates, precipitation frequency is common during spring and fall, intermittent during the summer, and rare during the winter.",
 			"",
@@ -1842,7 +1842,7 @@
 		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/166}",
+			"‹SOURCE Ultimate Wilderness/166›",
 			"",
 			"Once you have established weather baselines for a region and adjust them to match the elevation and season, the next step is to breathe life into the weather by determining the temperature's variation from the adjusted baseline and the daily precipitation. With this system, you can build out weather patterns and events as far as you want into the future. If the PCs will be in a region for some time, it's a good idea to plan out the weather's variations and events at least a week in advance so if a character tries to use Survival to predict the weather, you'll have information to work with. On the other hand, if you know the PCs are going to be in a region for only a few days, planning our a full week of weather isn't necessary. And of course, you can randomly generate weather on a day-by-day basis if you're comfortable with the possibility of an unexpected turn complicating the game's other events."
 		],
@@ -1865,7 +1865,7 @@
 		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/166}",
+			"‹SOURCE Ultimate Wilderness/166›",
 			"",
 			"Weather is constantly changing, and a significant aspect of that change is the temperature. For the purposes of this system, it's easiest to assume that the daily temperature remains relatively static during daylight hours and then drops by 2d6+3 degrees during the night.",
 			"",
@@ -1923,7 +1923,7 @@
 		"tags": "drizzle rain thunderstorm snow fog sleet",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/167}",
+			"‹SOURCE Ultimate Wilderness/167›",
 			"",
 			"The next step in setting the local weather is to determine whether precipitation occurs and the intensity of that precipitation, if any.",
 			"",
@@ -1945,7 +1945,7 @@
 			"",
 			"@HL[Precipitation Form:] Precipitation can result in more than just rain. Depending upon the intensity and temperature, precipitation can range from a light fog or a faint drizzle of rain to a blizzard or thunderstorm. Once you know precipitation of a specific intensity is occurring, set the time of day the precipitation event occurs by rolling 1d12 to find the starting hour of the day and 1d6 to determine whether the hour is am or pm (1-3 = am, 4-6 = pm).",
 			"",
-			"Next, use the appropriate table below for the baseline precipitation intensity and whether the temperature is above or below freezing (32&deg; F) to generate the specific type of precipitation and its duration. (Remember that the temperature is lower at night!) See the {rule/Cloud Cover} section for the effects of precipitation on visibility for flying creatures.",
+			"Next, use the appropriate table below for the baseline precipitation intensity and whether the temperature is above or below freezing (32&deg; F) to generate the specific type of precipitation and its duration. (Remember that the temperature is lower at night!) See the ‹rule/Cloud Cover› section for the effects of precipitation on visibility for flying creatures.",
 			"",
 			"### Precipitation Forms",
 			"",
@@ -1955,7 +1955,7 @@
 			"",
 			"@HL[Fog, Medium:] Medium fog reduces visibility ranges by half, resulting in a -4 penalty on Perception checks and a -4 penalty on ranged attacks. Medium fog typically occurs early in the day, late in the day, or sometimes at night, but the heat of the midday usually burns it away. Medium fog occurs only when there is no or light wind.",
 			"",
-			"@HL[Fog, Heavy:] Heavy fog obscures all vision beyond 5 feet, including darkvision. Creatures 5 feet away have {rule/concealment}. Heavy fog typically occurs early in the day, late in the day, or sometimes at night, but the heat of the midday usually burns it away. Heavy fog occurs only when there is no or light wind.",
+			"@HL[Fog, Heavy:] Heavy fog obscures all vision beyond 5 feet, including darkvision. Creatures 5 feet away have ‹rule/concealment›. Heavy fog typically occurs early in the day, late in the day, or sometimes at night, but the heat of the midday usually burns it away. Heavy fog occurs only when there is no or light wind.",
 			"",
 			"@HL[Rain:] Rain reduces visibility ranges by half, resulting in a -4 penalty on Perception checks. Rain automatically extinguishes unprotected flames (candles, torches, and the like) and imposes a -4 penalty on ranged attacks.",
 			"",
@@ -2036,7 +2036,7 @@
 			"| 61-90 | Medium snow | 1d8 hours |",
 			"| 91-100 | Heavy snow | 1d6 hours |",
 			"",
-			"@HL[Thunderstorm:] Thunderstorms feature {rule/powerful |winds} and heavy rain. To determine the type of wind associated with the thunderstorm, roll on Table 4-27: Thunderstorm Winds.",
+			"@HL[Thunderstorm:] Thunderstorms feature ‹rule/powerful »winds› and heavy rain. To determine the type of wind associated with the thunderstorm, roll on Table 4-27: Thunderstorm Winds.",
 			"",
 			"In addition, there is a 40% chance that a thunderstorm features [hail](rule/severe_events) either up to an hour before or during the storm. An even greater danger presented by a thunderstorm is the lightning that occurs during the storm. These electrical discharges, generated by the roiling clouds, can pose a hazard to creatures that do not have proper shelters, especially creatures clad in metal armor. Every 10 minutes during a thunderstorm, a bolt of lightning strikes an unsheltered creature at random (though this can strike wildlife as easily as PCs). A creature struck by this lightning must succeed a DC 18 Reflex saving throw or take 10d8 points of electricity damage (a successful saving throw halves the damage). Creatures in metal armor take a -4 penalty on the Reflex saving throw.",
 			"",
@@ -2091,7 +2091,7 @@
 		"subtitle": "Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/169}",
+			"‹SOURCE Ultimate Wilderness/169›",
 			"",
 			"While temperature and precipitation are important aspects of weather, other details can add further danger and drama. Powerful winds can complicate weather, cloud cover can obscure vision, and special, often destructive weather events can cause incredible mayhem and widespread devastation."
 		],
@@ -2115,7 +2115,7 @@
 		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/170}",
+			"‹SOURCE Ultimate Wilderness/170›",
 			"",
 			"Once you've generated the day's precipitation, you'll need to establish the wind strength unless the precipitation indicates otherwise. For example, on foggy days, no significant wind occurs, while thunderstorms have their own rules for determining wind strength. To set the wind strength for the day, roll d% and consult the table below.",
 			"",
@@ -2157,9 +2157,9 @@
 		"subtitle": "Weather, Wilderness",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/171}",
+			"‹SOURCE Ultimate Wilderness/171›",
 			"",
-			"You can roll on Table 4-29: Cloud Cover to determine the cloud cover for the day. Light and medium cloud cover mainly serve as thematic elements. Overcast conditions grant {rule/concealment} for creatures flying at high altitudes. Overcast conditions without precipitation increase the temperature in fall and winter by 10&deg; F and decrease the temperature in spring and summer by the same amount. If precipitation occurs, the cloud cover functions as overcast.",
+			"You can roll on Table 4-29: Cloud Cover to determine the cloud cover for the day. Light and medium cloud cover mainly serve as thematic elements. Overcast conditions grant ‹rule/concealment› for creatures flying at high altitudes. Overcast conditions without precipitation increase the temperature in fall and winter by 10&deg; F and decrease the temperature in spring and summer by the same amount. If precipitation occurs, the cloud cover functions as overcast.",
 			"",
 			"### Table 4-29: Cloud Cover",
 			"",
@@ -2187,11 +2187,11 @@
 		"tags": "blizzard haboob hail hurricane sandstorm thunderstorm thundersnow tornado wildfire",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
-			"{SOURCE Ultimate Wilderness/171}",
+			"‹SOURCE Ultimate Wilderness/171›",
 			"",
 			"On rare occasions, weather can produce truly dramatic and dangerous events. The following severe effects are sometimes generated by extreme precipitation. For instance, thunderstorms can create or be a harbinger for haboobs, hail, tornados, wildfires, or even hurricanes. At other times, certain types of precipitation combined with higher wind strengths can generate these severe events.",
 			"",
-			"@HL[Blizzard:] A combination of severe or stronger winds with heavy snow can create blizzard conditions. Blizzards reduce range of vision to no more than 20 feet, and even then, creatures takes a -8 penalty on Perception checks within that range. In a blizzard, the snowfall increases to 4 inches of snow each hour, and travel in more than 3 feet of snow is usually impossible without {eq-misc/snowshoes} or an ability such as {spell/water walk}. Furthermore, the high winds make it feel (and affect living creatures) as if the temperature were 20&deg; F colder. There is a 20% chance that a blizzard lasts for 2d12 hours instead of the normal duration for heavy snow.",
+			"@HL[Blizzard:] A combination of severe or stronger winds with heavy snow can create blizzard conditions. Blizzards reduce range of vision to no more than 20 feet, and even then, creatures takes a -8 penalty on Perception checks within that range. In a blizzard, the snowfall increases to 4 inches of snow each hour, and travel in more than 3 feet of snow is usually impossible without ‹eq-misc/snowshoes› or an ability such as ‹spell/water walk›. Furthermore, the high winds make it feel (and affect living creatures) as if the temperature were 20&deg; F colder. There is a 20% chance that a blizzard lasts for 2d12 hours instead of the normal duration for heavy snow.",
 			"",
 			"@HL[Haboob:] A haboob is a sandstorm created by a thunderstorm. See Sandstorm below for its effects.",
 			"",
@@ -2224,12 +2224,12 @@
 		"name": "Catastrophes",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
-			"{SOURCE Pathfinder #30: The Twice-Damned Prince/56}  ",
+			"‹SOURCE Pathfinder #30: The Twice-Damned Prince/56›  ",
 			"Above the chaos of the wilds and savage frontiers, cities stand as bastions of order. With the sheer number of people crowded into such areas, method and routine prove essential to daily life. Yet even in the best-governed communities, circumstances rise that threaten to throw the balance of these places into chaos. Be such incidents natural, political, or magical, the tenuous grip of civilization breaks swiftly, leaving the fates of thousands adrift in the face of catastrophe.",
 			"",
 			"Faceless threats, the dangers of ruin, flame, and flood sow devastation as surely and wantonly as any rampaging monster, and prove all the more difficult to slay. Lives tinged by the illusion of control crumble in the face of such onslaughts, disasters having their way even in the face of the most desperate defenses. In the end, only time, luck, or the rare godlike act ends such tragedies, leaving survivors to wonder if it's even worth rebuilding their lives. Such calamities might come about in a variety of ways. Natural disasters account for the most unexpected and typically most ruinous of such collapses. Unpredictable earthquakes might reduce whole regions to rubble. A simple lightning strike can spark an enormous fire that spreads and encompasses several blocks. Excess water from unusually heavy rains or tropical storms can overflow and cause buildings to flood.",
 			"",
-			"The Pathfinder RPG Core Rulebook presents several tools for allowing GMs to handle issues of mass devastation, from hurricanes to forest fires, cave-ins to cold weather. Expanding on the environmental hazards presented in {rule/Gamemastery} (all articles starting with the Dungeon section), this article adds new rules systems for handling a variety of hazards, specifically those that might affect urban centers as the result of civil unrest or environmental threat. It's one thing to be caught in a flood, but quite another to face waters rising within a cramped basement, and fires prove all the deadlier when they bring down whole buildings as terror-stricken victims race for escape. This article seeks to address such dangers by expanding three environmental threats.",
+			"The Pathfinder RPG Core Rulebook presents several tools for allowing GMs to handle issues of mass devastation, from hurricanes to forest fires, cave-ins to cold weather. Expanding on the environmental hazards presented in ‹rule/Gamemastery› (all articles starting with the Dungeon section), this article adds new rules systems for handling a variety of hazards, specifically those that might affect urban centers as the result of civil unrest or environmental threat. It's one thing to be caught in a flood, but quite another to face waters rising within a cramped basement, and fires prove all the deadlier when they bring down whole buildings as terror-stricken victims race for escape. This article seeks to address such dangers by expanding three environmental threats.",
 			"",
 			"@HL[Collapse:] The system presented herein offers methods of handling falling buildings in a game, aimed at giving the GMs the rules they need to handle an adventure when the dungon is literally falling down around the PCs. These collapses occur when a building or other construction slowly begins to fail. This is not a sudden toppling of an entire structure, but rather what happens when the structure becomes unstable and starts to crumble, piece by piece. There are often periods of calm from one moment to the next, and then a sudden structural failure causes debris to rain down, walls to collapse, or doors to jam, potentially trapping victims within as the edifice transforms into a ruinous tomb.",
 			"",
@@ -2272,8 +2272,8 @@
 		"subtitle": "Catastrophes",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
-			"{SOURCE Pathfinder #30: The Twice-Damned Prince/57}  ",
-			"The possible scenarios PCs might face over the course of their adventures are as varied and unusual as the GM can imagine. Even though the Pathfinder RPG Core Rulebook accounts for the most common environmental dangers, the menaces of the natural world prove vast, varied, and occasionally unbelievable. GMs have an assortment of options when presenting such dangers. While the Environment chapter of the Core Rulebook offers subsystems for a variety of catastrophes, GMs might also look to other resources like spell effects for options when creating specific dangers. The spell {spell/earthquake}, for example, summarizes the effects of a nonmagical earthquake, and GMs are encouraged to look to similar spells when designing unusual natural events. Beyond pure rules elements, GMs looking to add new and unexpected dangers to their campaigns might research unusual but still natural dangers. Events like limnic eruptions, lahars, asteroid strikes, gustnados, tsunamis, pyroclastic flows, cinder cones, sudden climate change, and the like all might occur and jeopardize lives in fantasy worlds as surely as in the real world. Combining rules elements to simulate such events can make for exciting and unexpected encounters, and might even form the basis of whole adventures when villains take advantage of nature's anger or deadly beasts are forced to flee an even more destructive force.",
+			"‹SOURCE Pathfinder #30: The Twice-Damned Prince/57›  ",
+			"The possible scenarios PCs might face over the course of their adventures are as varied and unusual as the GM can imagine. Even though the Pathfinder RPG Core Rulebook accounts for the most common environmental dangers, the menaces of the natural world prove vast, varied, and occasionally unbelievable. GMs have an assortment of options when presenting such dangers. While the Environment chapter of the Core Rulebook offers subsystems for a variety of catastrophes, GMs might also look to other resources like spell effects for options when creating specific dangers. The spell ‹spell/earthquake›, for example, summarizes the effects of a nonmagical earthquake, and GMs are encouraged to look to similar spells when designing unusual natural events. Beyond pure rules elements, GMs looking to add new and unexpected dangers to their campaigns might research unusual but still natural dangers. Events like limnic eruptions, lahars, asteroid strikes, gustnados, tsunamis, pyroclastic flows, cinder cones, sudden climate change, and the like all might occur and jeopardize lives in fantasy worlds as surely as in the real world. Combining rules elements to simulate such events can make for exciting and unexpected encounters, and might even form the basis of whole adventures when villains take advantage of nature's anger or deadly beasts are forced to flee an even more destructive force.",
 			"",
 			"Fantasy worlds also bring with them their own hosts of dangers. While many fantastical lands operate at least in part like the real world, unique and magical environments might give rise to all manner of new dangers - areas where magic doesn't function, random magical effects, hauntings, and the like. The various planes of existence raise the bar even higher, with all manner of impossible environments, from flows of freezing lava to vertically rushing floods, quakes upon the backs of titanic beings, winds filled with razors, and endless other possibilities.",
 			"",
@@ -2296,8 +2296,8 @@
 		"subtitle": "Catastrophes",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
-			"{SOURCE Pathfinder #30: The Twice-Damned Prince/58}  ",
-			"Any enclosed space, natural or constructed, that is designed to provide safety and shelter can collapse under the right circumstances. The factors that can weaken these structures to the point of collapse are numerous: direct damage, earthquakes, extreme weather, fires, floods, and so on. Underground fortresses and lairs are likewise subject to the same sorts of structural failure. Characters trapped inside of these spaces during a collapse face the dangers of falling debris and becoming trapped within. {rule/Cave-Ins and Collapses} provides basic rules for characters caught within a collapse. These rules are sufficient when dealing with normal underground environments that collapse rapidly, but might prove overly lethal when dealing with manufactured structures and more gradual collapses.",
+			"‹SOURCE Pathfinder #30: The Twice-Damned Prince/58›  ",
+			"Any enclosed space, natural or constructed, that is designed to provide safety and shelter can collapse under the right circumstances. The factors that can weaken these structures to the point of collapse are numerous: direct damage, earthquakes, extreme weather, fires, floods, and so on. Underground fortresses and lairs are likewise subject to the same sorts of structural failure. Characters trapped inside of these spaces during a collapse face the dangers of falling debris and becoming trapped within. ‹rule/Cave-Ins and Collapses› provides basic rules for characters caught within a collapse. These rules are sufficient when dealing with normal underground environments that collapse rapidly, but might prove overly lethal when dealing with manufactured structures and more gradual collapses.",
 			"",
 			"Following whatever event compromises a structure, several rounds might pass during which nothing happens, followed by several rounds in a row of structural failures presenting hazards to the characters. GMs should roll on the Failing Structure chart to determine what danger occurs that round, if any. This might reveal several rounds of safety or of deadly collapse events. Should collapse events arise, roll on the Structural Collapse event table to determine the threat.",
 			"",
@@ -2324,9 +2324,9 @@
 			"| 4 | @HL[Moderate Falling Debris:] A large section of material falls from above. All characters within a 15-foot square must make a DC 15 Reflex save or take 2d6 points of damage. |",
 			"| 5 | @HL[Floor Collapse:] The floor the PCs are walking on falls out from under their feet. All characters within a 15-foot square must make a DC 18 Reflex save or fall onto the floor below - typically, about a 10- to 15-foot drop dealing 1d6 points of damage, though potentially more. If on the lowest floor, falling characters sustain 1d4 points of damage from shifting debris. |",
 			"| 6 | @HL[Large Falling Debris:] Beams and other falling debris rain down upon the area. Characters within a 15-foot square must make a DC 15 Reflex save or take 3d6 points of damage. |",
-			"| 7 | @HL[Trembling:] No significant damage occurs, though decorations fall from the walls and a cloud of particles obscures vision on the entire floor. Each character on the floor must make a Fortitude save each round or spend that round choking and coughing (as per smoke inhalation, see {rule/Forest Fires}). This provides {rule/concealment} to characters within. |",
-			"| 8 | @HL[Collapse:] Parts of the ceiling and contents from floors above come down. This collapse has a 10- foot radius bury zone and a 5-foot-wide slide zone beyond that. Characters in the bury zone take 4d6 points of damage and are buried (Reflex DC 15 half). Characters in the slide zone take 1d6 damage (Reflex DC 15 negates). Those in the slide zone who fail their save are buried. The collapse otherwise functions like those described in {rule/Cave-Ins and Collapses}. |",
-			"| 9 | @HL[Cacophony:] The trembling of the structure creates a deafening clamor for 1d4 minutes. This is so loud that it effectively drowns out all other speaking and noise, affecting characters in the building as if they were under the effects of a {spell/silence} spell. |",
+			"| 7 | @HL[Trembling:] No significant damage occurs, though decorations fall from the walls and a cloud of particles obscures vision on the entire floor. Each character on the floor must make a Fortitude save each round or spend that round choking and coughing (as per smoke inhalation, see ‹rule/Forest Fires›). This provides ‹rule/concealment› to characters within. |",
+			"| 8 | @HL[Collapse:] Parts of the ceiling and contents from floors above come down. This collapse has a 10- foot radius bury zone and a 5-foot-wide slide zone beyond that. Characters in the bury zone take 4d6 points of damage and are buried (Reflex DC 15 half). Characters in the slide zone take 1d6 damage (Reflex DC 15 negates). Those in the slide zone who fail their save are buried. The collapse otherwise functions like those described in ‹rule/Cave-Ins and Collapses›. |",
+			"| 9 | @HL[Cacophony:] The trembling of the structure creates a deafening clamor for 1d4 minutes. This is so loud that it effectively drowns out all other speaking and noise, affecting characters in the building as if they were under the effects of a ‹spell/silence› spell. |",
 			"| 10 | @HL[Massive Collapse:] A significant portion of the floors above comes down on the PCs. This collapse has a 15-foot radius bury zone and a 10-foot-wide slide zone beyond. It otherwise functions like a collapse described in Cave-Ins and Collapses. |"
 		],
 		"parent_topics": [
@@ -2345,8 +2345,8 @@
 		"subtitle": "Catastrophes",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
-			"{SOURCE Pathfinder #30: The Twice-Damned Prince/59}  ",
-			"Fires occur when indoor or outdoor areas that contain or are constructed from flammable materials are exposed to flame and catch fire. As the blaze spreads, creatures in the nearby area are subject to the deadly effects of fire and smoke inhalation. GMs running a fire encounter might refer to the rules for {rule/forest fires}. The fires detailed here suggest more easily combatable fires, such as those newly sparked or spreading within an urban setting."
+			"‹SOURCE Pathfinder #30: The Twice-Damned Prince/59›  ",
+			"Fires occur when indoor or outdoor areas that contain or are constructed from flammable materials are exposed to flame and catch fire. As the blaze spreads, creatures in the nearby area are subject to the deadly effects of fire and smoke inhalation. GMs running a fire encounter might refer to the rules for ‹rule/forest fires›. The fires detailed here suggest more easily combatable fires, such as those newly sparked or spreading within an urban setting."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -2372,10 +2372,10 @@
 		"subtitle": "Catastrophes",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
-			"{SOURCE Pathfinder #30: The Twice-Damned Prince/59}  ",
+			"‹SOURCE Pathfinder #30: The Twice-Damned Prince/59›  ",
 			"Unchecked, fire tends to spread both rapidly and unpredictably. Minor factors, such as the dryness of the burning material, the presence of wind or breeze, flammable finish on flooring, dry vegetation in an area, and countless other factors can all contribute to the spread of a fire. Once a fire has burned an area, it will not return to that area. Likewise, once an area has been doused with water or covered with a non-flammable substance, such as dirt, that area is safe from further effects of the blaze for the immediate future.",
 			"",
-			"Every round that a fire burns, regardless of whether characters are attempting to control it, roll 1d20 and consult the following table to determine the activity of the fire for that round and how many (if any) 5-foot squares the fire spreads to. The GM chooses which squares a fire spreads into if multiple possibilities exist. Fire cannot spread into areas where it has already been extinguished (unless noted otherwise), nor can it spread into squares where flammable materials are not present. Characters who are inside of a square when it catches fire are subject to damage, as per the rules for {rule/catching on fire}.",
+			"Every round that a fire burns, regardless of whether characters are attempting to control it, roll 1d20 and consult the following table to determine the activity of the fire for that round and how many (if any) 5-foot squares the fire spreads to. The GM chooses which squares a fire spreads into if multiple possibilities exist. Fire cannot spread into areas where it has already been extinguished (unless noted otherwise), nor can it spread into squares where flammable materials are not present. Characters who are inside of a square when it catches fire are subject to damage, as per the rules for ‹rule/catching on fire›.",
 			"",
 			"#### Progress of Spreading Fire",
 			"",
@@ -2416,7 +2416,7 @@
 		"subtitle": "Fire, Catastrophes",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
-			"{SOURCE Pathfinder #30: The Twice-Damned Prince/59}  ",
+			"‹SOURCE Pathfinder #30: The Twice-Damned Prince/59›  ",
 			"Buildings that catch fire are quickly engulfed and are often a complete loss. If there are no characters or NPCs attempting to put a fire out, a building becomes unsalvageable in a space of time dependent on the size of the building. Ultimately how fast a building burns is left up to the GM to decide and depends on a variety of factors, but a rough guideline is as follows: small one-floor buildings (as occupied by many commoners) are consumed in 6d8 minutes; larger homes (like town houses and the homes of merchants) are totally consumed 4d20 minutes after catching fire; and major structures (like villas, castles, or cathedrals) are consumed in 2d4 hours. Buildings built entirely of flammable materials burn in half the time, while structures consisting mainly of non-flammable materials take half again as much time to burn. While burning, most structures begin collapsing. See the [previous section](rule/collapse) for details on how to deal with such dangers."
 		],
 		"parent_topics": [
@@ -2438,8 +2438,8 @@
 		"subtitle": "Fire, Catastrophes",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
-			"{SOURCE Pathfinder #30: The Twice-Damned Prince/59}  ",
-			"Dense smoke, as might fill a burning building, can prove even more dangerous than the flames that create it. In addition to the rules for smoke inhalation presented under {rule/Forest Fires}, a character in dense smoke must make a DC 10 Fortitude save every round that she is subject to these conditions. A character may fail this save a number of times equal to her Constitution modifier. After failing to save for the last time, the character falls unconscious and is subject to {rule/suffocation}."
+			"‹SOURCE Pathfinder #30: The Twice-Damned Prince/59›  ",
+			"Dense smoke, as might fill a burning building, can prove even more dangerous than the flames that create it. In addition to the rules for smoke inhalation presented under ‹rule/Forest Fires›, a character in dense smoke must make a DC 10 Fortitude save every round that she is subject to these conditions. A character may fail this save a number of times equal to her Constitution modifier. After failing to save for the last time, the character falls unconscious and is subject to ‹rule/suffocation›."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -2460,7 +2460,7 @@
 		"subtitle": "Fire, Catastrophes",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
-			"{SOURCE Pathfinder #30: The Twice-Damned Prince/60}  ",
+			"‹SOURCE Pathfinder #30: The Twice-Damned Prince/60›  ",
 			"Fuel-starved flames bursting into freshly opened chambers pose a lethal threat to fire fighters. Such hazards typically arise from rooms no larger than 40 square feet and sealed from ample airflows. When these rooms catch fire, they deplete the supply of oxygen in 2d6 &times; 5 minutes. After such a point, the fire continues to burn, but the combustion is a slow smolder. When a door or obstruction is opened or removed, the air from outside the room rushes in and instantly restarts the flames, resulting in a fiery eruption. Any characters that are either already in the room or are within 15 feet of the newly opened entryway take 5d6 points of fire damage (DC 15 Reflex save for half). The area opened to must be oxygen-rich for a backdraft to happen, and does not occur if one oxygen-starved room opens into another."
 		],
 		"parent_topics": [
@@ -2482,7 +2482,7 @@
 		"subtitle": "Catastrophes",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
-			"{SOURCE Pathfinder #30: The Twice-Damned Prince/60}  ",
+			"‹SOURCE Pathfinder #30: The Twice-Damned Prince/60›  ",
 			"A number of spells have the potential to affect areas that have caught fire and can serve to reduce the seriousness of a blaze. While these are by no means all the spells that might aid a fire-fighting spellcaster, these account for the majority of the magical effects that can be brought to bear against flames. Other obvious spells, such as control water, rely on the specifics of a situation and are left to the GM to determine the effects.",
 			"",
 			"@hll[spell/Control Weather:] In general, weather conjured by this spell has a 40% chance to extinguish an uncovered square full of flame every round. This does not prevent flames from spreading, but those left exposed are quenched with relative swiftness. Fires burning within a structure are unaffected by this spell unless it has some obvious point of entry (such as through an open roof or large window).",
@@ -2495,7 +2495,7 @@
 			"",
 			"@hll[spell/Pyrotechnics:] Upon affecting a fire, a *pyrotechnics* spell extinguishes up to four squares of fire. Affecting flames with this spell can backfire upon a caster, though, potentially hindering those nearby with even more light and smoke.",
 			"",
-			"@hll[spell/Summon Monster:] Several summoned creatures might possess qualities allowing them to aid in putting out fires, whether special abilities or the power to cast any of the spells noted here. {monster/Water elemental/s} especially can put out flames in any square they cross, though burning squares count as {rule/difficult terrain} for them while purposefully trying to extinguish flames. Even water elementals take damage from fire, and can be destroyed by entering a blaze."
+			"@hll[spell/Summon Monster:] Several summoned creatures might possess qualities allowing them to aid in putting out fires, whether special abilities or the power to cast any of the spells noted here. ‹monster/Water elemental«s› especially can put out flames in any square they cross, though burning squares count as ‹rule/difficult terrain› for them while purposefully trying to extinguish flames. Even water elementals take damage from fire, and can be destroyed by entering a blaze."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -2516,7 +2516,7 @@
 		"subtitle": "Catastrophes",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
-			"{SOURCE Pathfinder #30: The Twice-Damned Prince/60}  ",
+			"‹SOURCE Pathfinder #30: The Twice-Damned Prince/60›  ",
 			"Dousing a fire requires a large amount of water or other non-flammable material, such as dirt, to be deposited on the burning area. One effective strategy for extinguishing a fire quickly is to surround the burning area with nonflammable material. PCs doing this must make a ranged touch attack against an AC of 10 to deliver their payload to the intended square. The following indicates how many 5-foot squares of fire a number of the listed containers can extinguish with successful delivery.",
 			"",
 			"@hll[eq-misc/Waterskin:] Twenty waterskins full of water extinguish one square.",
@@ -2550,8 +2550,8 @@
 		"subtitle": "Catastrophes",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
-			"{SOURCE Pathfinder #30: The Twice-Damned Prince/60}  ",
-			"Floods occur when the water levels in an area rise beyond their usual levels. This might be caused by river banks overflowing into a town, a sudden and unexpected rush of water from a broken reservoir, the effects of a powerful storm, or a similar incident. GMs contemplating a flood in their games should consider the basic rules for {rule/floods}, as well as those for {rule/aquatic terrain}, {rule/underwater combat}, {skill/swim/ming}, and {rule/drowning}."
+			"‹SOURCE Pathfinder #30: The Twice-Damned Prince/60›  ",
+			"Floods occur when the water levels in an area rise beyond their usual levels. This might be caused by river banks overflowing into a town, a sudden and unexpected rush of water from a broken reservoir, the effects of a powerful storm, or a similar incident. GMs contemplating a flood in their games should consider the basic rules for ‹rule/floods›, as well as those for ‹rule/aquatic terrain›, ‹rule/underwater combat›, ‹skill/swim«ming›, and ‹rule/drowning›."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -2573,12 +2573,12 @@
 		"subtitle": "Floods, Catastrophes",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
-			"{SOURCE Pathfinder #30: The Twice-Damned Prince/60}  ",
+			"‹SOURCE Pathfinder #30: The Twice-Damned Prince/60›  ",
 			"Floods can easily turn structures into watery deathtraps. Characters trapped in an underground complex or even merely a structure at a low elevation when a flood occurs might find themselves facing rising waters, dwindling pockets of air, and the risk of drowning.",
 			"",
 			"Before a flood begins, the GM needs to determine how high the ceiling is in a given area - typically 10 to 12 feet high, though variable depending on the structure's location and purpose. This height determines the length of time it takes for that space to fill with water. During a slow flood, water levels rise at a constant rate. The GM can determine this rate arbitrarily, or roll 1d6 to determine the number of inches that the water rises per round.",
 			"",
-			"The next issue the GM must consider is where the displaced air goes. If this is an underground dungeon, the air might rise through cracks and grates, disappearing into areas where the PCs may not be able to follow. Since doorways tend to be lower than ceilings, many rooms in structures not designed with airflow in mind might flood only until the water level has risen to the top of a door frame, trapping a pocket of air in a room. However, just because characters occupy an area where a pocket of air is trapped does not mean that they are safe. Characters trapped within a flooded area must succeed at {skill/Swim} checks to stay afloat, typically DC 10 for calm water, but armor and encumbrance can make even such a check deadly for unprepared characters. GMs dealing with characters trapped for several hours might also seek to address the risk of air depletion. As a rule of thumb, a resting Medium character takes 12 hours to deplete the air from a 5-foot cube (with Large creatures depleting half again as much, Small characters depleting only half as much, and so on). When a character is exerting himself, he consumes double the amount of air. With this information, a GM should be able to take the number of 5-foot cubes comprising an air pocket and formulate a rough estimate of how long it takes creatures trapped within to deplete the air. Once the air is depleted, characters begin {rule/suffocati/ng>on}."
+			"The next issue the GM must consider is where the displaced air goes. If this is an underground dungeon, the air might rise through cracks and grates, disappearing into areas where the PCs may not be able to follow. Since doorways tend to be lower than ceilings, many rooms in structures not designed with airflow in mind might flood only until the water level has risen to the top of a door frame, trapping a pocket of air in a room. However, just because characters occupy an area where a pocket of air is trapped does not mean that they are safe. Characters trapped within a flooded area must succeed at ‹skill/Swim› checks to stay afloat, typically DC 10 for calm water, but armor and encumbrance can make even such a check deadly for unprepared characters. GMs dealing with characters trapped for several hours might also seek to address the risk of air depletion. As a rule of thumb, a resting Medium character takes 12 hours to deplete the air from a 5-foot cube (with Large creatures depleting half again as much, Small characters depleting only half as much, and so on). When a character is exerting himself, he consumes double the amount of air. With this information, a GM should be able to take the number of 5-foot cubes comprising an air pocket and formulate a rough estimate of how long it takes creatures trapped within to deplete the air. Once the air is depleted, characters begin ‹rule/suffocati«ng<on›."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",
@@ -2595,10 +2595,10 @@
 		"subtitle": "Catastrophes",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
-			"{SOURCE Pathfinder #30: The Twice-Damned Prince/61}  ",
-			"Flash floods have the same issues associated with slow floods, but they also have the added danger of rapid flowing water. Most move through low-lying areas at a speed of 60 feet, sweeping away everything in their path. A creature can detect the onset of a flash flood with a DC 20 {skill/Perception} check, success granting the creature 2d6 rounds to prepare. The first sign of a flash flood is a rumbling and a sudden flow of water along the ground. The wall of water that follows arrives quickly, striking only 1d4 rounds later.",
+			"‹SOURCE Pathfinder #30: The Twice-Damned Prince/61›  ",
+			"Flash floods have the same issues associated with slow floods, but they also have the added danger of rapid flowing water. Most move through low-lying areas at a speed of 60 feet, sweeping away everything in their path. A creature can detect the onset of a flash flood with a DC 20 ‹skill/Perception› check, success granting the creature 2d6 rounds to prepare. The first sign of a flash flood is a rumbling and a sudden flow of water along the ground. The wall of water that follows arrives quickly, striking only 1d4 rounds later.",
 			"",
-			"A creature struck by a flash flood is immediately subjected to a {rule/bull rush} (as if by a creature with a CMB of +20). A successful bull rush indicates that the creature is swept away. Creatures carried along by a flash flood travel in the direction of the flood at a speed of 60 feet and take 2d6 points of damage per round from buffeting (Reflex DC 12 negates). If those swept away are air-breathers, they must {misc/hold their breath} or begin to drown. Swim checks are possible in a flash flood, but the water is treated as stormy, requiring a DC 20 Swim check to navigate. Most flash floods last for only 3d6 minutes before the rushing water either disperses or slows and becomes standing water (depending on the topography)."
+			"A creature struck by a flash flood is immediately subjected to a ‹rule/bull rush› (as if by a creature with a CMB of +20). A successful bull rush indicates that the creature is swept away. Creatures carried along by a flash flood travel in the direction of the flood at a speed of 60 feet and take 2d6 points of damage per round from buffeting (Reflex DC 12 negates). If those swept away are air-breathers, they must ‹misc/hold their breath› or begin to drown. Swim checks are possible in a flash flood, but the water is treated as stormy, requiring a DC 20 Swim check to navigate. Most flash floods last for only 3d6 minutes before the rushing water either disperses or slows and becomes standing water (depending on the topography)."
 		],
 		"parent_topics": [
 			"advanced_gm_topics",

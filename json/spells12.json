@@ -57,7 +57,7 @@
 			"",
 			":::mythic{title=\"Mythic Baleful Polymorph\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}  ",
+			"‹SOURCE Mythic Adventures/84›  ",
 			"The saving throw changes to Fortitude (partial) and Will (partial). A creature that fails the Fortitude save automatically fails the Will save. A target with the shapechanger subtype that fails its save can't use its shapechanging to shift out of its new form. A creature that succeeds at the Fortitude save is partially transformed into the intended animal. For 1 minute per level, it takes on cosmetic features appropriate to that animal and becomes one size category closer to the animal's size.",
 			"",
 			"*Augmented (9th):* If you expend four uses of mythic power, the spell affects all other creatures with 8 Hit Dice or fewer in a 1-mile radius. Affected creatures transform into Small or smaller animals appropriate to the local environment. You can select a number of creatures up to your tier to not be affected.",
@@ -103,7 +103,7 @@
 			"",
 			"::spell{source=\"Horror Adventures/109\" abjuration good clr=5 inq=4 med=3 occ=4 orc=5 pal=4 sha=5 war=5 ctSt cV cS cFp=\"a ceremonial dagger\" rPers area=\"30 ft.-radius emanation centered on you\" durCon=\"plus 1 round/level, up to 1 hour/level\" will srY}",
 			"",
-			"You strip all creatures within the emanation of any gifts associated with {rule/corruption/s}. Abilities associated with corruptions cease to function, as if they were magically dispelled. The corruption stains still fully affect creatures. A creature that enters the emanation and fails its saving throw loses its gifts until the spell's duration ends, even if it leaves the emanation, but a successful saving throw renders a creature immune to the spell, even if it enters and exits the emanation several times."
+			"You strip all creatures within the emanation of any gifts associated with ‹rule/corruption«s›. Abilities associated with corruptions cease to function, as if they were magically dispelled. The corruption stains still fully affect creatures. A creature that enters the emanation and fails its saving throw loses its gifts until the spell's duration ends, even if it leaves the emanation, but a successful saving throw renders a creature immune to the spell, even if it enters and exits the emanation several times."
 		]
 	},
 	"bane": {
@@ -117,11 +117,11 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/246\" enchantment compulsion mindAffecting emotion fear ant=1 clr=1 inq=1 mes=1 orc=1 sha=1 war=1 ctSt cV cS cDF rFt=50 area=\"50-ft.-radius burst, centered on you\" durML=1 will srY}",
 			"",
-			"Bane fills your enemies with fear and doubt. Each affected creature takes a -1 penalty on attack rolls and a -1 penalty on saving throws against fear effects. Bane counters and dispels {spell/bless}.",
+			"Bane fills your enemies with fear and doubt. Each affected creature takes a -1 penalty on attack rolls and a -1 penalty on saving throws against fear effects. Bane counters and dispels ‹spell/bless›.",
 			"",
 			":::mythic{title=\"Mythic Bane\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}  ",
+			"‹SOURCE Mythic Adventures/85›  ",
 			"The -1 penalty applies on attack rolls, weapon damage rolls, and all saving throws. Each affected creature must roll its next attack roll or saving throw twice and take the lower result.",
 			"",
 			":::"
@@ -135,7 +135,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/204\" abjuration inq=3 psy=5 wit=5 ctSt cV cS cMp=\"a cold iron nail\" rTouch target=\"one creature or object\" dur=\"instantaneous and 1 round/level; see text\" saveNo srN}",
 			"",
-			"With a melee touch attack you can dispel an illusion or return a creature to its natural form. This functions as {spell/dispel magic} directed at the effect in question, except you receive a +2 enhancement bonus on your dispel check and you can only dispel illusions or changes in form created by supernatural effects or spells. If multiple effects are changing the creature's appearance, you can dispel one such effect for every four caster levels you possess, starting with the highest caster level spells and proceeding to spells with lower caster levels. The caster level for supernatural abilities such as change shape is equal to the target creature's Hit Dice. A creature returned to its natural form by banish seeming is prevented from changing its form again for a number of rounds equal to your caster level.",
+			"With a melee touch attack you can dispel an illusion or return a creature to its natural form. This functions as ‹spell/dispel magic› directed at the effect in question, except you receive a +2 enhancement bonus on your dispel check and you can only dispel illusions or changes in form created by supernatural effects or spells. If multiple effects are changing the creature's appearance, you can dispel one such effect for every four caster levels you possess, starting with the highest caster level spells and proceeding to spells with lower caster levels. The caster level for supernatural abilities such as change shape is equal to the target creature's Hit Dice. A creature returned to its natural form by banish seeming is prevented from changing its form again for a number of rounds equal to your caster level.",
 			"",
 			"Banish seeming has no effect on nonmagical means of changing appearance, such as that provided by a disguise or extraordinary ability."
 		]
@@ -161,7 +161,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/246\" abjuration arc=7 clr=6 inq=5 orc=6 psy=7 sha=6 sor=7 spr=6 sum=5 usm=6 war=6 wiz=7 ctSt cV cS cFp=\"see text\" rClose targets=\"one or more extraplanar creatures, no two of which can be more than 30 ft. apart\" durI will srY}",
 			"",
-			"A banishment spell is a more powerful version of the {spell/dismissal} spell. It enables you to force extraplanar creatures out of your home plane. As many as 2 Hit Dice of creatures per caster level can be banished.",
+			"A banishment spell is a more powerful version of the ‹spell/dismissal› spell. It enables you to force extraplanar creatures out of your home plane. As many as 2 Hit Dice of creatures per caster level can be banished.",
 			"",
 			"You can improve the spell's chance of success by presenting at least one object or substance that the target hates, fears, or otherwise opposes. For each such object or substance, you gain a +1 bonus on your caster level check to overcome the target's spell resistance (if any), and the saving throw DC increases by 2.",
 			"",
@@ -199,7 +199,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/204\" conjuration teleportation brd=5 skd=5 ctSt cV cS cMp=\"pieces of a smashed fiddle\" rMed target=\"you and up to 1 willing creature/2 caster levels, no two of which can be more than 30 ft. apart\" durI saveNo srN}",
 			"",
-			"You whisk yourself and willing allies out of a tight jam, or instantly transfer yourselves to another location to achieve greater strategic positioning. You can move any allies within range to any other space of your choosing within range. Those spaces need not be in line of sight or line of effect from your original position, but must be open locations on surfaces able to support the creatures teleported. Except as noted above, this spell otherwise functions as {spell/dimension door}."
+			"You whisk yourself and willing allies out of a tight jam, or instantly transfer yourselves to another location to achieve greater strategic positioning. You can move any allies within range to any other space of your choosing within range. Those spaces need not be in line of sight or line of effect from your original position, but must be open locations on surfaces able to support the creatures teleported. Except as noted above, this spell otherwise functions as ‹spell/dimension door›."
 		]
 	},
 	"barghest_feast": {
@@ -210,7 +210,7 @@
 			"",
 			"::spell{source=\"Pathfinder #117: Assault on Longshadow/76\" evil transmutation alc=3 inv=3 ctSt cS rTouch target=\"creature touched\" dur=\"10 minutes/level; see text\" will srY harmless}",
 			"",
-			">*{race/Hobgoblin} alchemists devoted to {faith/Hadregash} have developed the following extract to empower themselves and their allies or to make prey easier to catch and enslave.*",
+			">*‹race/Hobgoblin› alchemists devoted to ‹faith/Hadregash› have developed the following extract to empower themselves and their allies or to make prey easier to catch and enslave.*",
 			"",
 			"The target gains the ability to absorb power from devouring a humanoid corpse. To use this ability, the target must feed on the corpse of one nonevil humanoid creature, a process that takes 1 full round per Hit Die the creature had and provokes attacks of opportunity. For every 2 rounds it feeds on the corpse in this way, the target gains a +1 profane bonus on attack rolls, saving throws, and skill checks (to a maximum of +5)."
 		]
@@ -232,7 +232,7 @@
 			"",
 			":::mythic{title=\"Mythic Barkskin\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}  ",
+			"‹SOURCE Mythic Adventures/85›  ",
 			"The target also gains DR/magic equal to the double the enhancement bonus the spell provides to the target's natural armor bonus.",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, the spell grants DR/epic rather than DR/magic.",
@@ -261,7 +261,7 @@
 			"",
 			"::spell{source=\"Blood of the Beast/11\" transmutation bld=1 drd=1 hnt=1 inq=1 rgr=1 sum=1 usm=1 ctSw cV cS rPers target=you dur=\"1 round + 1 round/3 levels\" durD saveNo srY}",
 			"",
-			">*Drawing on aspects of their amphibious animal counterparts, the following spell is more common among {race/grippli} spellcasters than among those of other races.*",
+			">*Drawing on aspects of their amphibious animal counterparts, the following spell is more common among ‹race/grippli› spellcasters than among those of other races.*",
 			"",
 			"You tap into your latent amphibian strengths, unlocking a short-lived physical talent. Armor or gear you are wearing adjusts to your new shape for the duration of the spell. When you cast batrachian surge, choose one of the following features to gain its associated benefits. You can have only one batrachian surge spell active on you at a time.",
 			"",
@@ -296,15 +296,15 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/58\" enchantment compulsion mindAffecting emotion alc=3 ant=3 clr=4 hnt=3 inq=3 inv=3 orc=4 rgr=3 war=4 wit=4 ctSt cV cS rPers target=you durML=1}",
 			"",
-			">*{race/Half-orc/s} have access to the following spell.*",
+			">*‹race/Half-orc«s› have access to the following spell.*",
 			"",
 			"You are transformed into a single-minded force of destruction. You gain the ferocity monster special ability, a number of temporary hit points equal to 1d6 + your caster level (maximum +10), and a +4 morale bonus on saving throws against mind-affecting effects. You cannot use the withdraw action or willingly move away from a creature that has attacked you.",
 			"",
-			"When you use this spell, you immediately take 4 points of Intelligence damage. You must make a DC 20 {rule/concentration} check to cast spells, and all other concentration checks to cast spells have a -5 penalty.",
+			"When you use this spell, you immediately take 4 points of Intelligence damage. You must make a DC 20 ‹rule/concentration› check to cast spells, and all other concentration checks to cast spells have a -5 penalty.",
 			"",
 			":::mythic{title=\"Mythic Battle Trance\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}  ",
+			"‹SOURCE Mythic Adventures/85›  ",
 			"The number of temporary hit points you gain increases to 2d6 + your caster level (maximum +10) + your tier. The morale bonus on saving throws against mind-affecting effects increases to +6.",
 			"",
 			"*Augmented (5th):* If you expend two uses of mythic power, you gain a +4 morale bonus to Strength, immunity to non-mythic mind-affecting effects, and DR 5/epic.",
@@ -335,7 +335,7 @@
 			"",
 			":::mythic{title=\"Mythic Battlemind Link\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}  ",
+			"‹SOURCE Mythic Adventures/85›  ",
 			"When you cast this spell, if your linked ally uses a mythic path ability against a creature, you can use the same path ability against that creature as if you had it yourself, and your linked ally can likewise use any path abilities you use against a creature (even if that ally isn't mythic). For example, if you're a champion attacking a frost giant using the precision path ability, your linked ally can use your precision ability when she attacks that frost giant. If a path ability requires expending uses of mythic power or any other cost, your linked ally must expend that cost for you to use the ability.",
 			"",
 			":::"
@@ -349,7 +349,7 @@
 			"",
 			"::spell{source=\"Villain Codex/44\" curse evocation arc=2 brd=2 inq=2 occ=2 skd=2 sor=2 wiz=2 ctSt cV cS rTouch target=\"one object\" dur=\"24 hours or until discharged, then instantaneous\" save=\"Will negates (object); see text\" srY}",
 			"",
-			"You place an invisible ward upon an object that is triggered the first time a creature tries to move the object from its current location. The next creature to touch the object is cursed to become obvious to everyone around it. The creature must succeed at a Will save or be surrounded in an aura of twinkling red light that functions as {spell/faerie fire} (spell resistance applies). The curse bestowed by this spell cannot be dispelled, but a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell can remove it."
+			"You place an invisible ward upon an object that is triggered the first time a creature tries to move the object from its current location. The next creature to touch the object is cursed to become obvious to everyone around it. The creature must succeed at a Will save or be surrounded in an aura of twinkling red light that functions as ‹spell/faerie fire› (spell resistance applies). The curse bestowed by this spell cannot be dispelled, but a ‹spell/break enchantment›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/remove curse›, or ‹spell/wish› spell can remove it."
 		]
 	},
 	"beacon_of_luck": {
@@ -419,13 +419,13 @@
 			"",
 			":::mythic{jl title=\"Mythic Beast Shape I\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}",
+			"‹SOURCE Mythic Adventures/85›",
 			"",
 			"Each mythic beast shape spell must be learned individually, and you must know the respective non-mythic beast shape spell to learn its mythic version. You don't have to learn them in order and are not required to know a lower-level mythic beast shape spell before you learn a higher-level one (for example, you can learn mythic beast shape II if you know beast shape II, even if you don't know mythic beast shape I). Each mythic beast shape spell adds the following benefits to its respective non-mythic version.",
 			"",
 			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum penalty of 0). Choose one natural attack type the animal form has, such as bite or claws. The critical multiplier for this attack type increases by 1 (maximum &times;4).",
 			"",
-			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the {feat/Natural Spell} feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
+			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the ‹feat/Natural Spell› feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
 			"",
 			":::",
 			"",
@@ -441,13 +441,13 @@
 			"",
 			":::mythic{jl title=\"Mythic Beast Shape II\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}",
+			"‹SOURCE Mythic Adventures/85›",
 			"",
 			"Each mythic beast shape spell must be learned individually, and you must know the respective non-mythic beast shape spell to learn its mythic version. You don't have to learn them in order and are not required to know a lower-level mythic beast shape spell before you learn a higher-level one (for example, you can learn mythic beast shape II if you know beast shape II, even if you don't know mythic beast shape I). Each mythic beast shape spell adds the following benefits to its respective non-mythic version.",
 			"",
 			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum penalty of 0). Choose one natural attack type the animal form has, such as bite or claws. The critical multiplier for this attack type increases by 1 (maximum &times;4).",
 			"",
-			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the {feat/Natural Spell} feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
+			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the ‹feat/Natural Spell› feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
 			"",
 			":::",
 			"",
@@ -467,13 +467,13 @@
 			"",
 			":::mythic{jl title=\"Mythic Beast Shape III\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}",
+			"‹SOURCE Mythic Adventures/85›",
 			"",
 			"Each mythic beast shape spell must be learned individually, and you must know the respective non-mythic beast shape spell to learn its mythic version. You don't have to learn them in order and are not required to know a lower-level mythic beast shape spell before you learn a higher-level one (for example, you can learn mythic beast shape II if you know beast shape II, even if you don't know mythic beast shape I). Each mythic beast shape spell adds the following benefits to its respective non-mythic version.",
 			"",
 			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum penalty of 0). Choose one natural attack type the animal form has, such as bite or claws. The critical multiplier for this attack type increases by 1 (maximum &times;4).",
 			"",
-			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the {feat/Natural Spell} feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
+			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the ‹feat/Natural Spell› feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
 			"",
 			":::",
 			"",
@@ -489,13 +489,13 @@
 			"",
 			":::mythic{jl title=\"Mythic Beast Shape IV\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}",
+			"‹SOURCE Mythic Adventures/85›",
 			"",
 			"Each mythic beast shape spell must be learned individually, and you must know the respective non-mythic beast shape spell to learn its mythic version. You don't have to learn them in order and are not required to know a lower-level mythic beast shape spell before you learn a higher-level one (for example, you can learn mythic beast shape II if you know beast shape II, even if you don't know mythic beast shape I). Each mythic beast shape spell adds the following benefits to its respective non-mythic version.",
 			"",
 			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum penalty of 0). Choose one natural attack type the animal form has, such as bite or claws. The critical multiplier for this attack type increases by 1 (maximum &times;4).",
 			"",
-			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the {feat/Natural Spell} feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
+			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, a number of times equal to your tier, you can act as if you had the ‹feat/Natural Spell› feat for 1 round. For example, if you're 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beast shape.",
 			"",
 			":::",
 			"",
@@ -632,7 +632,7 @@
 			"",
 			"::spell{source=\"Haunted Heroes Handbook/26\" mindAffecting emotion fear haunted necromancy clr=6 inq=6 orc=6 sha=6 spr=5 wit=6 ctSt cV cS cMDFp=\"a vial of sea water\" rClose area=\"one 5-ft. cube/level (S)\" dur=\"see text\" save=\"Will partial; see text\" srY}",
 			"",
-			"You call upon the restless souls of those who died at sea. This spell can be cast only on an area of deep water. When a creature enters the area, the haunt manifests, automatically grabbing the creature and dragging it under the water on initiative count 10. Each round, the haunt deals 1d6 points of nonlethal damage as it drags its victim down 10 feet; a successful DC 15 Swim check reduces the descent to 5 feet and negates the nonlethal damage. Each round in the haunt's clutches reduces the duration the victim can {misc/hold her breath} by 2 rounds. A victim can make a single move or standard action each round while in the haunt's grasp if she succeeds at a Will save; on a failed save, she can only struggle helplessly against the haunt. A victim cannot use her actions to swim toward the surface while the haunt is active. If the haunt reaches the bottom of its body of water, it pounds its victim against the bottom, dealing 2d6 points of nonlethal damage per round to the victim and reducing the duration the victim can hold her breath by an additional round. This continues until either the haunt is neutralized (in which case the victim must still swim to the surface) or the victim drowns.",
+			"You call upon the restless souls of those who died at sea. This spell can be cast only on an area of deep water. When a creature enters the area, the haunt manifests, automatically grabbing the creature and dragging it under the water on initiative count 10. Each round, the haunt deals 1d6 points of nonlethal damage as it drags its victim down 10 feet; a successful DC 15 Swim check reduces the descent to 5 feet and negates the nonlethal damage. Each round in the haunt's clutches reduces the duration the victim can ‹misc/hold her breath› by 2 rounds. A victim can make a single move or standard action each round while in the haunt's grasp if she succeeds at a Will save; on a failed save, she can only struggle helplessly against the haunt. A victim cannot use her actions to swim toward the surface while the haunt is active. If the haunt reaches the bottom of its body of water, it pounds its victim against the bottom, dealing 2d6 points of nonlethal damage per round to the victim and reducing the duration the victim can hold her breath by an additional round. This continues until either the haunt is neutralized (in which case the victim must still swim to the surface) or the victim drowns.",
 			"",
 			"The haunt can grab and attempt to drown multiple creatures in its area on its initiative count. The magic holding the haunt together is unstable and deteriorates while the haunt is active. Each round at the end of its turn, the haunt automatically loses 1d6 hit points per creature it is currently affecting. Furthermore, the spell's haunt-like manifestation is active throughout the spell's duration, rendering it vulnerable to effects that damage haunts. When the haunt reaches 0 hit points, the spell ends.",
 			"",
@@ -675,7 +675,7 @@
 			"",
 			"You may also invent your own curse, but it should be no more powerful than those described above.",
 			"",
-			"The curse bestowed by this spell cannot be dispelled, but it can be removed with a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} spell.",
+			"The curse bestowed by this spell cannot be dispelled, but it can be removed with a ‹spell/break enchantment›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/remove curse›, or ‹spell/wish› spell.",
 			"",
 			"Bestow curse counters remove curse.",
 			"",
@@ -689,17 +689,17 @@
 			"- -8 penalty on attack rolls, saves, ability checks, and skill checks.",
 			"- Each turn, the target has a 25% chance to act normally; otherwise, it takes no actions.",
 			"- Bestow one of the curses or variants in this article.",
-			"- Bestow {curse/curse of the ages} or {curse/unluck}.",
+			"- Bestow ‹curse/curse of the ages› or ‹curse/unluck›.",
 			"",
 			"If a specific affliction is bestowed, the save DC of the spell replaces the usual save DC of the affliction. You can also invent your own curse, but it should be no more powerful than those described above.",
 			"",
-			"The curse bestowed by this spell cannot be dispelled, but it can be removed with a {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, or {spell/wish} spell. It cannot be removed with {spell/remove curse} or suppressed with {spell/abeyance}. The DC to remove the curse with break enchantment increases by 5.",
+			"The curse bestowed by this spell cannot be dispelled, but it can be removed with a ‹spell/break enchantment›, ‹spell/limited wish›, ‹spell/miracle›, or ‹spell/wish› spell. It cannot be removed with ‹spell/remove curse› or suppressed with ‹spell/abeyance›. The DC to remove the curse with break enchantment increases by 5.",
 			"",
 			"::h3[Conditional Curse]{jl}",
 			"",
 			"::spell{source=\"Ultimate Intrigue/206\" curse necromancy ant=4 arc=5 clr=4 inq=4 med=3 mes=3 occ=4 orc=4 psy=5 sha=4 sor=5 spr=5 war=4 wit=4 wiz=5 ctSt cV cS rClose target=\"one creature\" dur=\"permanent (see text)\" will srY}",
 			"",
-			"This spell functions as bestow curse, except that you must state a condition under which the curse is broken, ending its effect. An intelligent target, even one of animal intelligence, innately understands this condition even if it doesn't understand your language. The condition must be possible for the target to bring about within a year and a day without ensuring its own death and stated in 25 or fewer words. The curse is more difficult to remove via magic. The DC to remove conditional curse with {spell/break enchantment} or {spell/remove curse} increases by 5.",
+			"This spell functions as bestow curse, except that you must state a condition under which the curse is broken, ending its effect. An intelligent target, even one of animal intelligence, innately understands this condition even if it doesn't understand your language. The condition must be possible for the target to bring about within a year and a day without ensuring its own death and stated in 25 or fewer words. The curse is more difficult to remove via magic. The DC to remove conditional curse with ‹spell/break enchantment› or ‹spell/remove curse› increases by 5.",
 			"",
 			"::h3[Major Curse]{jl}",
 			"",
@@ -741,7 +741,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/208\" good lawful transmutation clr=7 orc=7 pal=4 ctSt cV cS cDF rTouch target=\"lawful good creature touched\" dur=\"1 round/level (see text)\" save=\"yes (harmless)\" srY}",
 			"",
-			"You channel the power of good and law into the target, temporarily giving it powers similar to those of a paladin. The target gains the ability to use {spell/detect evil} at will as a spell-like ability, immunity to disease (suppressing any diseases currently affecting it), and immunity to fear (ending any fear effects currently affecting it); can lay on hands (on itself only) once as a paladin of 1/2 your caster level; and can smite evil once as a paladin of 1/2 your caster level. It adds its Charisma bonus to all its saving throws. It can use {misc/spell completion}, {misc/spell trigger}, or other magic items that require the ability to cast spells as a paladin. Any abilities not used by the time the spell expires are lost. This spell has no effect if cast on a paladin."
+			"You channel the power of good and law into the target, temporarily giving it powers similar to those of a paladin. The target gains the ability to use ‹spell/detect evil› at will as a spell-like ability, immunity to disease (suppressing any diseases currently affecting it), and immunity to fear (ending any fear effects currently affecting it); can lay on hands (on itself only) once as a paladin of 1/2 your caster level; and can smite evil once as a paladin of 1/2 your caster level. It adds its Charisma bonus to all its saving throws. It can use ‹misc/spell completion›, ‹misc/spell trigger›, or other magic items that require the ability to cast spells as a paladin. Any abilities not used by the time the spell expires are lost. This spell has no effect if cast on a paladin."
 		]
 	},
 	"bestow_insight": {
@@ -752,7 +752,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/79\" enchantment compulsion arc=2 brd=2 clr=3 inq=2 med=2 mes=2 orc=3 psy=2 skd=2 sor=2 war=3 wit=2 wiz=2 ctSt cV cS rTouch target=\"one creature touched\" durML=1 will srY harmless}",
 			"",
-			">*{race/Human/s} have access to the following spells.*",
+			">*‹race/Human«s› have access to the following spells.*",
 			"",
 			"When casting this spell, choose a single skill that you have at least one rank in. The target gains a +2 insight bonus on skill checks with this skill and is considered trained in that skill. The insight bonus increases by 1 for every four levels of the caster (maximum +6). Furthermore, once before the spell's duration, the target can choose to roll two checks and take the greater result. Doing so ends the spell's other effects."
 		]
@@ -870,7 +870,7 @@
 			"",
 			"This variant of planar binding is specifically used to call one of the most knowledgeable types of outsiders: the immortal and prophetic caulborn. This spell calls a single caulborn into a specially prepared trap. The caster of this spell can compel a bound caulborn only to provide information (using its Knowledge skills or detect thoughts); attempts to compel the caulborn to fight, guard a location, or perform some other task automatically fail.",
 			"",
-			"This spell otherwise functions as {spell/planar binding}. The most effective gifts for a caulborn are unique books or intelligent creatures upon whose thoughts the caulborn can feed. The true names of caulborn are nearly impossible to discover, as they are not inherently individualistic, but certain reclusive scholar communities in Kaer Maga may know titles by which specific caulborn can be called."
+			"This spell otherwise functions as ‹spell/planar binding›. The most effective gifts for a caulborn are unique books or intelligent creatures upon whose thoughts the caulborn can feed. The true names of caulborn are nearly impossible to discover, as they are not inherently individualistic, but certain reclusive scholar communities in Kaer Maga may know titles by which specific caulborn can be called."
 		]
 	},
 	"binding": {
@@ -903,7 +903,7 @@
 			">",
 			">*Minimus Containment:* The subject is shrunk to a height of 1 inch or less and held within some gem, jar, or similar object. The binding is permanent. The subject does not need to breathe, eat, or drink while contained, nor does it age. Reduce the save DC by 4.",
 			"",
-			"You can't dispel a binding spell with {spell/dispel magic} or a similar effect, though an {spell/antimagic field} or {spell/mage's disjunction} affects it normally. A bound extraplanar creature cannot be sent back to its home plane by {spell/dismissal}, {spell/banishment}, or a similar effect."
+			"You can't dispel a binding spell with ‹spell/dispel magic› or a similar effect, though an ‹spell/antimagic field› or ‹spell/mage's disjunction› affects it normally. A bound extraplanar creature cannot be sent back to its home plane by ‹spell/dismissal›, ‹spell/banishment›, or a similar effect."
 		]
 	},
 	"binding_earth": {
@@ -914,7 +914,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/149\" earth transmutation drd=2 hnt=2 wit=2 ctSt cV cS cDF rClose target=\"one creature or unattended object (see text)\" durRL=1 fort srY}",
 			"",
-			">*{race/Oread/s} have access to the following spell.*",
+			">*‹race/Oread«s› have access to the following spell.*",
 			"",
 			"If the target of this spell fails its Fortitude save, areas of earth and stone floor act as a snapping quagmire that pulls the target down and damages it if it attempts to move through such terrain.",
 			"",
@@ -926,7 +926,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/149\" earth transmutation drd=6 hnt=6 wit=6 ctSt cV cS cDF rClose targets=\"one creature or object/level, no two of which can be more than 30 ft. apart\" durRL=1 fort srY}",
 			"",
-			">*{race/Oread/s} have access to the following spell.*",
+			">*‹race/Oread«s› have access to the following spell.*",
 			"",
 			"This spell functions as binding earth, except as noted above."
 		]
@@ -944,7 +944,7 @@
 			"",
 			"::spell{source=\"Blood of the Beast/7\" evocation alc=4 arc=4 brd=3 clr=4 inv=4 orc=4 psy=4 sha=4 skd=3 sor=4 war=4 wit=4 wiz=4 ctSt cV cS cMp=\"a four-leaf clover\" rPers target=you durML=10}",
 			"",
-			">*The following spell was created by {race/catfolk} and make use of their inherent luck.*",
+			">*The following spell was created by ‹race/catfolk› and make use of their inherent luck.*",
 			"",
 			"For the spell's duration, the caster gains a reservoir of luck with a total number of points equal to 1 point per 2 caster levels. During the spell's duration, the caster can spend 1 point from this reservoir when making an attack roll or skill check to add a +1d8 luck bonus to the d20 roll's result. This bonus can be added before or after the roll or check's result is revealed, and if this bonus is large enough to turn a failure into a success, the roll succeeds. The spell instantly ends when all points are expended or when it is cast on the target again.",
 			"",
@@ -997,14 +997,14 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/79\" curse fear necromancy drd=7 wit=7 ctSt cV cS cMp=\"a flask of seawater\" rTouch target=\"one creature\" durP will srY}",
 			"",
-			">*{race/Human/s} have access to the following spells.*",
+			">*‹race/Human«s› have access to the following spells.*",
 			"",
-			"You mark the target with a black marking on its skin; the mark's exact appearance determined by you, but can be no larger than your hand. The black mark functions as a {spell/mark of justice}, and when the mark is activated, the target becomes shaken anytime it is on or in the water more than a 5 feet from shore. In addition, as long as the black mark is active, the target is affected as if subject to nature's exile, but all creatures with the aquatic or water subtype or with a swim speed are made hostile, even those not of the animal type, though non-aquatic animals are not.",
+			"You mark the target with a black marking on its skin; the mark's exact appearance determined by you, but can be no larger than your hand. The black mark functions as a ‹spell/mark of justice›, and when the mark is activated, the target becomes shaken anytime it is on or in the water more than a 5 feet from shore. In addition, as long as the black mark is active, the target is affected as if subject to nature's exile, but all creatures with the aquatic or water subtype or with a swim speed are made hostile, even those not of the animal type, though non-aquatic animals are not.",
 			"",
 			":::mythic{title=\"Mythic Black Mark\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}  ",
-			"Any time the cursed creature travels on or in the water more than 1 mile from shore, each day it (or the vessel it's on) is attacked by one or more aquatic or water monsters, as if summoned by {spell/summon nature's ally VII} (caster level 13th).",
+			"‹SOURCE Mythic Adventures/85›  ",
+			"Any time the cursed creature travels on or in the water more than 1 mile from shore, each day it (or the vessel it's on) is attacked by one or more aquatic or water monsters, as if summoned by ‹spell/summon nature's ally VII› (caster level 13th).",
 			"",
 			":::"
 		]
@@ -1023,7 +1023,7 @@
 			"",
 			"Every day in which a creature bears a black spot, it must make a Fortitude save. On a failed save, the creature takes 1 point of Constitution damage. The damage cannot be healed until the black spot is removed. If the creature's Constitution reaches 0, it dies. Pirates killed by this spell often return as ghosts, but that is not a direct effect of this spell.",
 			"",
-			"The black spot cannot be dispelled, but it can be removed with {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish}."
+			"The black spot cannot be dispelled, but it can be removed with ‹spell/break enchantment›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/remove curse›, or ‹spell/wish›."
 		]
 	},
 	"black_sword_of_war": {
@@ -1034,7 +1034,7 @@
 			"",
 			"::spell{source=\"Pathfinder #71: Rasputin Must Die!/75\" necromancy ant=3 arc=3 clr=3 hnt=3 orc=3 rgr=3 sor=3 war=3 wiz=3 ctSt cV cS cF rTouch target=\"piercing or slashing manufactured weapon touched\" durML=1 durD will srY harmless object}",
 			"",
-			">*{faith/Szuriel/'s} priests have access to the following spell.*",
+			">*‹faith/Szuriel«'s› priests have access to the following spell.*",
 			"",
 			"The target weapon turns a glossy black color and deals bleed damage if it deals hit point damage to a creature. The amount of bleed damage is equal to 1/2 your caster level (maximum bleed 5)."
 		]
@@ -1061,7 +1061,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Black Tentacles\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}",
+			"‹SOURCE Mythic Adventures/85›",
 			"",
 			"Add your tier to the base attack bonus of the tentacles. The tentacles also deal an additional 2d6 points of acid damage with a successful grapple.",
 			"",
@@ -1098,7 +1098,7 @@
 			"",
 			"You create an area of total darkness. The darkness is impenetrable even to darkvision, but you can see normally within it. Creatures outside the spell's area, even you, cannot see through it.",
 			"",
-			"You can cast the spell on a point in space, but the effect is stationary unless cast on a mobile object. You can cast the spell on a creature, and the effect then radiates from the creature and moves as it moves. Unattended objects and points in space do not get saving throws or benefit from spell resistance. Blacklight counters or dispels any light spell of equal or lower level. {spell/Daylight} counters or dispels blacklight."
+			"You can cast the spell on a point in space, but the effect is stationary unless cast on a mobile object. You can cast the spell on a creature, and the effect then radiates from the creature and moves as it moves. Unattended objects and points in space do not get saving throws or benefit from spell resistance. Blacklight counters or dispels any light spell of equal or lower level. ‹spell/Daylight› counters or dispels blacklight."
 		]
 	},
 	"blade_barrier": {
@@ -1120,7 +1120,7 @@
 			"",
 			":::mythic{title=\"Mythic Blade Barrier\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}  ",
+			"‹SOURCE Mythic Adventures/85›  ",
 			"You may cast this spell as an immediate action. The barrier's damage increases to 1d8 per caster level (maximum 20d8).",
 			"",
 			"*Augmented (3rd):* If you expend two uses of mythic power, you can spend a move action to move the barrier up to 10 feet in any direction. The shape (flat or ring) and orientation (vertical or horizontal) of the wall must remain the same. If you move the barrier through a creature's space, it can attempt a saving throw to avoid the wall, as if you had created it where the creature is.",
@@ -1147,7 +1147,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/208\" good transmutation pal=3 ctSt cV cS rTouch target=\"your paladin bonded weapon\" durML=1 will svHarmless srN}",
 			"",
-			"You strengthen the bond between your divine bond weapon and its celestial spirit. The weapon gains the {magic-enh/ghost touch} property. You may change your weapon's damage type (bludgeoning, piercing, slashing) as a swift action. You gain a sacred bonus to your CMD against disarm and sunder attacks directed at your bonded weapon; this bonus is equal to half your caster level."
+			"You strengthen the bond between your divine bond weapon and its celestial spirit. The weapon gains the ‹magic-enh/ghost touch› property. You may change your weapon's damage type (bludgeoning, piercing, slashing) as a swift action. You gain a sacred bonus to your CMD against disarm and sunder attacks directed at your bonded weapon; this bonus is equal to half your caster level."
 		]
 	},
 	"blade_of_dark_triumph": {
@@ -1158,7 +1158,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/208\" evil transmutation ant=3 ctSt cV cS rTouch target=\"your fiendish boon weapon\" durML=1 will svHarmless srN}",
 			"",
-			"You strengthen the bond between your fiendish boon weapon and its unholy spirit. The weapon gains the {magic-enh/ghost touch} property. You may change your weapon's damage type (bludgeoning, piercing, slashing) as a swift action. You gain a profane bonus to your CMD against disarm and sunder attacks directed at your boon weapon; this bonus is equal to half your caster level."
+			"You strengthen the bond between your fiendish boon weapon and its unholy spirit. The weapon gains the ‹magic-enh/ghost touch› property. You may change your weapon's damage type (bludgeoning, piercing, slashing) as a swift action. You gain a profane bonus to your CMD against disarm and sunder attacks directed at your boon weapon; this bonus is equal to half your caster level."
 		]
 	},
 	"blade_of_light": {
@@ -1169,7 +1169,7 @@
 			"",
 			"::spell{source=\"Adventurer's Guide/16\" good transmutation clr=4 inq=4 orc=4 pal=4 war=4 ctSt cV cS rTouch target=\"one melee weapon\" durRL=1 saveNo srN}",
 			"",
-			"This spell infuses a weapon with pure sunlight (the weapon need not be a bladed weapon). A weapon enhanced by this spell sheds light as if {spell/daylight} had been cast on it. It functions as a magic and good weapon for the purposes of overcoming damage reduction. The weapon grants a +2 sacred bonus on attack rolls against undead and deals +1d6 points of damage on a successful hit against such foes; against incorporeal undead, it functions as if it had the {magic-enh/ghost touch} weapon special ability. The weapon automatically confirms critical hits against foes that are vulnerable to sunlight."
+			"This spell infuses a weapon with pure sunlight (the weapon need not be a bladed weapon). A weapon enhanced by this spell sheds light as if ‹spell/daylight› had been cast on it. It functions as a magic and good weapon for the purposes of overcoming damage reduction. The weapon grants a +2 sacred bonus on attack rolls against undead and deals +1d6 points of damage on a successful hit against such foes; against incorporeal undead, it functions as if it had the ‹magic-enh/ghost touch› weapon special ability. The weapon automatically confirms critical hits against foes that are vulnerable to sunlight."
 		]
 	},
 	"blade_snare": {
@@ -1197,9 +1197,9 @@
 			"",
 			"::spell{source=\"Melee Tactics Toolbox/30\" conjuration creation ant=2 arc=2 mag=1 pal=2 sor=2 sum=2 usm=2 wiz=2 ctSt cV cS rPers target=you durML=1}",
 			"",
-			"You summon an insubstantial spirit of force that resembles a cloudy vapor hovering around your fists or any melee weapons you wield. The spirit compensates for your defensive or reckless melee attacks, nudging your weapons in the proper direction. When you voluntarily use one or more actions or feats that apply penalties to attack rolls with your melee weapons (such as a charge, fighting defensively, or using the {feat/Power Attack} feat), the spirit reduces the total penalty on affected attacks by 1 (to a minimum penalty of 0). The penalty is reduced by an additional 1 for every 5 caster levels you possess (to a minimum penalty of 0). Only penalties incurred by voluntary use of feats or maneuvers are reduced by this spell.",
+			"You summon an insubstantial spirit of force that resembles a cloudy vapor hovering around your fists or any melee weapons you wield. The spirit compensates for your defensive or reckless melee attacks, nudging your weapons in the proper direction. When you voluntarily use one or more actions or feats that apply penalties to attack rolls with your melee weapons (such as a charge, fighting defensively, or using the ‹feat/Power Attack› feat), the spirit reduces the total penalty on affected attacks by 1 (to a minimum penalty of 0). The penalty is reduced by an additional 1 for every 5 caster levels you possess (to a minimum penalty of 0). Only penalties incurred by voluntary use of feats or maneuvers are reduced by this spell.",
 			"",
-			"The spirit can't be attacked or harmed by physical attacks, but {spell/disintegrate}, {spell/dispel magic}, a {magic-rod/rod of cancellation}, or a {magic-artifact/sphere of annihilation} can affect it. A protective spirit's AC against touch attacks is equal to 10 + your Dexterity modifier."
+			"The spirit can't be attacked or harmed by physical attacks, but ‹spell/disintegrate›, ‹spell/dispel magic›, a ‹magic-rod/rod of cancellation›, or a ‹magic-artifact/sphere of annihilation› can affect it. A protective spirit's AC against touch attacks is equal to 10 + your Dexterity modifier."
 		]
 	},
 	"bladed_dash": {
@@ -1256,13 +1256,13 @@
 			"",
 			"*Killed:* Living creatures die. Undead creatures are destroyed. Save negates. If the save is successful, the creature instead takes 3d6 points of damage + 1 point per caster level (maximum +25).",
 			"",
-			"Furthermore, if you are on your home plane when you cast this spell, nonevil extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the blasphemy or not. The {spell/banishment} effect allows a Will save (at a -4 penalty) to negate.",
+			"Furthermore, if you are on your home plane when you cast this spell, nonevil extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the blasphemy or not. The ‹spell/banishment› effect allows a Will save (at a -4 penalty) to negate.",
 			"",
 			"Creatures whose Hit Dice exceed your caster level are unaffected by blasphemy.",
 			"",
 			":::mythic{title=\"Mythic Blasphemy\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}  ",
+			"‹SOURCE Mythic Adventures/85›  ",
 			"When determining the spell's effect on non-mythic creatures, add your tier to your caster level. Nonevil creatures that fail the save take a -4 penalty on attack rolls and saving throws, and their spell resistance decreases by 5 for as long as the spell's other effects last.",
 			"",
 			":::"
@@ -1319,7 +1319,7 @@
 			"",
 			"::spell{source=\"Inner Sea Races/218\" enchantment compulsion mindAffecting alc=4 arc=6 drd=6 hnt=6 inv=4 sor=6 wit=6 wiz=6 ctSt cV cS rPers target=you durH=24}",
 			"",
-			">*The following spell is available to the indicated race or ethnicity: {race/Gnome}*",
+			">*The following spell is available to the indicated race or ethnicity: ‹race/Gnome›*",
 			"",
 			"Ability score drain from the Bleaching doesn't affect your ability score modifiers while you're affected by this spell. This spell does not remove the Bleaching's effect on your appearance, nor does it prevent you from suffering further ability penalties, dying, or becoming a bleachling as a result of the Bleaching."
 		]
@@ -1358,7 +1358,7 @@
 			"",
 			"::spell{enchantment compulsion ant=4 arc=4 drd=5 hnt=5 rgr=5 sor=5 wit=5 wiz=5 ctIm cV cS rTouch target=\"your animal companion, familiar, or fiendish servant\" durI saveNo srN}",
 			"",
-			"This spell functions as Bleed for Your Master, but it allows your companion or familiar to intercept any attack that targets you, including those that do not require attack rolls (e.g. {spell/chain lightning}, {spell/hold monster}, and {spell/magic missile}). Your companion or familiar cannot intercept effects that do not affect creatures of its type (e.g. {spell/dominate person})."
+			"This spell functions as Bleed for Your Master, but it allows your companion or familiar to intercept any attack that targets you, including those that do not require attack rolls (e.g. ‹spell/chain lightning›, ‹spell/hold monster›, and ‹spell/magic missile›). Your companion or familiar cannot intercept effects that do not affect creatures of its type (e.g. ‹spell/dominate person›)."
 		]
 	},
 	"die_for_your_master": {
@@ -1384,7 +1384,7 @@
 			"",
 			"::spell{source=\"Pathfinder #77: Herald of the Ivory Labyrinth/75\" necromancy ant=1 clr=1 hnt=1 orc=1 rgr=1 war=1 wit=1 ctSt cV cS rTouch effect=\"one slashing melee weapon touched\" dur=\"1 round/level or until discharged\" will srY harmless object}",
 			"",
-			">*Priests of {faith/Baphomet} have access to the following spell.*",
+			">*Priests of ‹faith/Baphomet› have access to the following spell.*",
 			"",
 			"You imbue a slashing melee weapon with the ability to create a bleeding wound. As a free action when the weapon hits a living creature, the wielder can discharge this spell to add 1 point of bleed damage to the weapon's base damage. This bleeding is difficult to stop; add your spellcasting ability modifier (Wisdom for clerics, and so on) to the DC to stop the bleeding."
 		]
@@ -1397,7 +1397,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/29\" glamer illusion alc=1 arc=1 drd=1 hnt=1 inv=1 mag=1 mes=1 psy=1 rgr=1 rma=1 sha=1 sor=1 wit=1 wiz=1 ctSt cS rPers target=you durML=10}",
 			"",
-			">*Most know of elven magic for its power, but those who delve deeper discover its elegance and ties to the natural world. The following spell is just one that the {race/elves} are known for.*",
+			">*Most know of elven magic for its power, but those who delve deeper discover its elegance and ties to the natural world. The following spell is just one that the ‹race/elves› are known for.*",
 			"",
 			"You draw upon your elven link to the wilderness to change the coloration of yourself and your equipment to match that of your surroundings. This grants you a +4 circumstance bonus on Stealth checks and allows you to make Stealth checks without cover or concealment, but only while you move no more than half your base speed or less. If you move more than half your base speed on your turn, you gain no benefit from this spell until the start of your next turn. If you make an attack, this spell ends (as invisibility)."
 		]
@@ -1426,11 +1426,11 @@
 			"",
 			"Bless fills your allies with courage. Each ally gains a +1 morale bonus on attack rolls and on saving throws against fear effects.",
 			"",
-			"Bless counters and dispels {spell/bane}.",
+			"Bless counters and dispels ‹spell/bane›.",
 			"",
 			":::mythic{title=\"Mythic Bless\"}",
 			"",
-			"{SOURCE Mythic Adventures/85}  ",
+			"‹SOURCE Mythic Adventures/85›  ",
 			"The +1 morale bonus applies on attack rolls, weapon damage rolls, and all saving throws. Once during the spell's duration, an affected creature can roll an attack roll or saving throw twice and take the higher result. The target must decide to use this ability before the first roll is attempted.",
 			"",
 			":::"
@@ -1479,7 +1479,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/175\" good transmutation clr=1 orc=1 pal=1 war=1 ctSt cV cS rTouch target=\"creature touched\" durML=1 saveNo srY}",
 			"",
-			"The target is considered to be armed even when unarmed, so it doesn't provoke attacks of opportunity when it attacks foes with unarmed strikes. Its unarmed strikes can deal lethal or nonlethal damage (target's choice). If the target already has this ability (such as from the monk unarmed strike ability or the {feat/Improved Unarmed Strike} feat), its unarmed strikes gain a +1 enhancement bonus on attack rolls and damage rolls, and they count as good-aligned weapons for the purposes of overcoming damage reduction."
+			"The target is considered to be armed even when unarmed, so it doesn't provoke attacks of opportunity when it attacks foes with unarmed strikes. Its unarmed strikes can deal lethal or nonlethal damage (target's choice). If the target already has this ability (such as from the monk unarmed strike ability or the ‹feat/Improved Unarmed Strike› feat), its unarmed strikes gain a +1 enhancement bonus on attack rolls and damage rolls, and they count as good-aligned weapons for the purposes of overcoming damage reduction."
 		]
 	},
 	"blessing_of_courage_and_life": {
@@ -1520,7 +1520,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Command\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}",
+			"‹SOURCE Mythic Adventures/88›",
 			"",
 			"You can target up to one creature per level, each of which must receive the same command. Creatures that succeed at their saving throws are staggered for 1 round (this is a mind-affecting effect).",
 			"",
@@ -1589,9 +1589,9 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/167\" divination arc=2 brd=2 drd=1 hnt=1 mes=2 psy=2 rgr=1 sha=2 skd=2 sor=2 wit=2 wiz=2 ctSt cV cS rPers target=you dur=\"10 minutes; see text\"}",
 			"",
-			">*{race/Tengu/s} have access to the following spell.*",
+			">*‹race/Tengu«s› have access to the following spell.*",
 			"",
-			"You utter a question in the form of a low-pitched bird call that can be heard up to a mile away, and can understand the responses given by birds in the area. Over the next 10 minutes, the birds reply as if you had asked them the question using {spell/speak with animals}, giving you a general consensus answer to the question based on their knowledge. For example, you could ask if there is drinkable water in the area, the location of predators or other creatures, directions to a mountaintop or other natural feature, and so on, and the local bird communities would answer to the best of their ability.",
+			"You utter a question in the form of a low-pitched bird call that can be heard up to a mile away, and can understand the responses given by birds in the area. Over the next 10 minutes, the birds reply as if you had asked them the question using ‹spell/speak with animals›, giving you a general consensus answer to the question based on their knowledge. For example, you could ask if there is drinkable water in the area, the location of predators or other creatures, directions to a mountaintop or other natural feature, and so on, and the local bird communities would answer to the best of their ability.",
 			"",
 			"If there are no birds in range, the spell has no effect and you do not get a response. Any creature using speak with animals (or a similar ability) who hears this bird call can understand your question, though it may not be able to reply in a way you can hear."
 		]
@@ -1616,7 +1616,7 @@
 			"",
 			"::spell{source=\"Ultimate Wilderness/235\" divination drd=3 hnt=3 rgr=3 sha=3 ctM=10 cV cS rPers target=you durI}",
 			"",
-			"This spell functions as commune with nature except it reveals up to three details about the territory you currently occupy from the following list: bodies of water, features, minerals, or plants. For each feature you learn about, you automatically know the skills you can use to discover that feature and you gain 1d6 {rule/Discovery /Points>and_exploration} toward finding it.",
+			"This spell functions as commune with nature except it reveals up to three details about the territory you currently occupy from the following list: bodies of water, features, minerals, or plants. For each feature you learn about, you automatically know the skills you can use to discover that feature and you gain 1d6 ‹rule/Discovery «Points<and_exploration› toward finding it.",
 			"",
 			"::h3[Tectonic Communion]{jl}",
 			"",
@@ -1687,7 +1687,7 @@
 			"",
 			":::mythic{title=\"Mythic Companion Mind Link\"}",
 			"",
-			"{SOURCE Mythic Adventures/88}  ",
+			"‹SOURCE Mythic Adventures/88›  ",
 			"Your animal companion understands complex instructions transmitted by the spell. It can perform any trick (even one it doesn't know) as well as any activity that could be understood by a creature with an Intelligence score of 8.",
 			"",
 			":::"
@@ -1738,7 +1738,7 @@
 			"",
 			"You deliver a confusing but fascinating monologue, relaying conspiracies or metaphysical revelations that confound your audience, throughout the spell's casting time and as long as you concentrate. You take 1d4 points of Wisdom drain when you begin the speech and can't reduce or prevent this damage in any way. Each intelligent creature in the spell's area takes 1d6 points of Wisdom damage as their perceptions of reality realign with yours for the spell's duration. Listeners with at least 5 HD can attempt a Will save to negate the effects. Your targets view you with a friendly attitude and respond to criticism of you with irritation. Bluff, Diplomacy, or Intimidate checks to create doubt about your purpose in those affected by the spell take a -4 penalty. The attitude of your targets regarding any creature that criticizes you or your vision automatically changes one step toward hostile; a Diplomacy check that fails by 5 or more reduces their attitude further. Your targets retain the same alignment and their prior beliefs, in addition to the ones you force on them. You can't force beliefs on a target if such beliefs would be necessarily against the nature of its alignment and prior beliefs, but targets are otherwise able to hold contradictory beliefs.",
 			"",
-			"If your campaign uses {rule/the |sanity/ system}, your sanity score decreases by 2 (and thus your sanity edge decreases by 1) instead of taking Wisdom drain each time you cast this spell. Only {spell/greater restoration}, {spell/miracle}, or {spell/wish} can remove this decrease. A single casting of greater restoration removes one decrease of sanity from casting {spell/borrow corruption}, while a casting of miracle or wish removes them all. Affected targets take sanity damage equal to half your caster level (maximum 10) instead of Wisdom damage. The targets might actually change alignment and beliefs if their loss of sanity afflicts them with an appropriate madness, in which case those effects last even after the spell's duration has ended."
+			"If your campaign uses ‹rule/the »sanity« system›, your sanity score decreases by 2 (and thus your sanity edge decreases by 1) instead of taking Wisdom drain each time you cast this spell. Only ‹spell/greater restoration›, ‹spell/miracle›, or ‹spell/wish› can remove this decrease. A single casting of greater restoration removes one decrease of sanity from casting ‹spell/borrow corruption›, while a casting of miracle or wish removes them all. Affected targets take sanity damage equal to half your caster level (maximum 10) instead of Wisdom damage. The targets might actually change alignment and beliefs if their loss of sanity afflicts them with an appropriate madness, in which case those effects last even after the spell's duration has ended."
 		]
 	},
 	"comprehend_languages": {
@@ -1753,7 +1753,7 @@
 			"",
 			"Written material can be read at the rate of one page (250 words) per minute. Magical writing cannot be read, though the spell reveals that it is magical. This spell can be foiled by certain warding magic (such as the secret page and illusory script spells). It does not decipher codes or reveal messages concealed in otherwise normal text.",
 			"",
-			"Comprehend languages can be made permanent with a {spell/permanency} spell."
+			"Comprehend languages can be made permanent with a ‹spell/permanency› spell."
 		]
 	},
 	"compulsive_liar": {
@@ -1777,7 +1777,7 @@
 			"",
 			"::spell{source=\"Heroes of the Darklands/14\" transmutation alc=4 arc=4 clr=4 drd=4 hnt=4 inv=4 orc=4 sha=4 sor=4 sum=4 usm=4 war=4 wiz=4 ctSt cS cMDFp=\"a palm-sized stone\" rTouch target=\"living creature touched\" dur=\"1 hour/level; see text\" will srY harmless}",
 			"",
-			"This spell allows affected creatures to {misc/hold their breath} freely without negative effects or risk of {rule/suffocation}. Divide the duration evenly among all creatures touched. A creature that doesn't need to breathe because of this spell is not at risk of drowning and is immune to effects that require breathing, such as inhaled poisons. This does not grant immunity to cloud or gas attacks that don't require breathing. While a creature is holding its breath, it can't speak or cast spells with a verbal component (unless it's using {feat/Silent Spell}). This spell does not prevent a creature from breathing normally; it just removes the need for the creature to breathe."
+			"This spell allows affected creatures to ‹misc/hold their breath› freely without negative effects or risk of ‹rule/suffocation›. Divide the duration evenly among all creatures touched. A creature that doesn't need to breathe because of this spell is not at risk of drowning and is immune to effects that require breathing, such as inhaled poisons. This does not grant immunity to cloud or gas attacks that don't require breathing. While a creature is holding its breath, it can't speak or cast spells with a verbal component (unless it's using ‹feat/Silent Spell›). This spell does not prevent a creature from breathing normally; it just removes the need for the creature to breathe."
 		]
 	},
 	"condensed_ether": {
@@ -1788,7 +1788,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/162\" transmutation arc=5 psy=4 sor=5 spr=3 wiz=5 ctSt cV cS cMp=\"crushed amber\" rMed target=\"20-ft.-radius spread\" durML=1 saveNo srN}",
 			"",
-			"You condense the substance of the Ethereal Plane as it interpenetrates the Material Plane. This thickened planar conjunction slows movement through the area to a crawl. Creatures moving through condensed ether (even incorporeal creatures), move at only half their normal speed and can't take 5-foot steps. This slowing of movement doesn't stack with solid fog or similar effects. Creatures within condensed ether take a -2 penalty to Armor Class and on Reflex saves, and condensed ether prevents effective ranged weapon attacks. Even magic rays and similar ranged attacks suffer a 20% miss chance on attacks into or passing through condensed ether. This miss chance is not based on {rule/concealment}, and {feat/Blind-Fight}, true seeing, and similar effects do not reduce it."
+			"You condense the substance of the Ethereal Plane as it interpenetrates the Material Plane. This thickened planar conjunction slows movement through the area to a crawl. Creatures moving through condensed ether (even incorporeal creatures), move at only half their normal speed and can't take 5-foot steps. This slowing of movement doesn't stack with solid fog or similar effects. Creatures within condensed ether take a -2 penalty to Armor Class and on Reflex saves, and condensed ether prevents effective ranged weapon attacks. Even magic rays and similar ranged attacks suffer a 20% miss chance on attacks into or passing through condensed ether. This miss chance is not based on ‹rule/concealment›, and ‹feat/Blind-Fight›, true seeing, and similar effects do not reduce it."
 		]
 	},
 	"conditional_favor": {
@@ -1821,7 +1821,7 @@
 			"",
 			":::mythic{title=\"Mythic Cone of Cold\"}",
 			"",
-			"{SOURCE Mythic Adventures/89}  ",
+			"‹SOURCE Mythic Adventures/89›  ",
 			"The damage dealt increases to 1d10 points of cold damage per caster level (maximum 15d10). Any creature that fails its save is partially encased in ice, reducing its speed by half. Creatures with the cold or incorporeal subtype or immunity to being grappled are immune to this effect. The reduced movement lasts until the ice is destroyed. Destroying the ice requires a successful Strength or dispel check against the spell's DC, or dealing bludgeoning or fire damage equal to 1 point per caster level to the creature.",
 			"",
 			"*Augmented:* You can expend two uses of mythic power to transform the spell's cold into a barrage of giant hailstones, icicles, or shards. Half the spell's damage is your choice of bludgeoning, piercing, or slashing damage, and the other half is cold damage.",
@@ -1864,7 +1864,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Confusion\"}",
 			"",
-			"{SOURCE Mythic Adventures/89}",
+			"‹SOURCE Mythic Adventures/89›",
 			"",
 			"When you roll on the table above, use the values below to see what it does in that round.",
 			"",
@@ -1917,7 +1917,7 @@
 			"",
 			":::mythic{title=\"Mythic Conjure Black Pudding\"}",
 			"",
-			"{SOURCE Mythic Adventures/89}  ",
+			"‹SOURCE Mythic Adventures/89›  ",
 			"The black pudding has fast healing equal to your tier, as do any puddings that split off from it. The black puddings from this spell never attack you, though they're otherwise uncontrolled and might attack your allies if there are no other obvious opponents.",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, the pudding gains the [savage mythic template](rule/mythic_simple_templates). Puddings that split off from the giant pudding don't gain the template.",
@@ -1964,11 +1964,11 @@
 			"",
 			"You cannot consecrate an area with a similar fixture of a deity other than your own patron. Instead, the consecrate spell curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not also grant the bonuses and penalties relating to undead, as given above.",
 			"",
-			"Consecrate counters and dispels {spell/desecrate}.",
+			"Consecrate counters and dispels ‹spell/desecrate›.",
 			"",
 			":::mythic{title=\"Mythic Consecrate\"}",
 			"",
-			"{SOURCE Mythic Adventures/89}  ",
+			"‹SOURCE Mythic Adventures/89›  ",
 			"Select one alignment component that you have (chaotic, good, or lawful). The spell's penalty on attack rolls, damage rolls, and saves also affects outsiders with the opposite alignment subtype as if they were undead.",
 			"",
 			":::"
@@ -1982,9 +1982,9 @@
 			"",
 			"::spell{source=\"Pathfinder #42: Sanctum of the Serpent God/71\" enchantment compulsion mindAffecting arc=5 clr=5 orc=5 sor=5 war=5 wiz=5 ctSt cV cS cMDFp=\"a snakeskin\" rMed target=\"one living creature\" dur=\"1 round/level (d); see text\" save=\"Will negates; see text\" srY}",
 			"",
-			">*Priests of {faith/Ydersius} have access to the following spell.*",
+			">*Priests of ‹faith/Ydersius› have access to the following spell.*",
 			"",
-			"This spell functions like {spell/hold monster}, except that the target is constricted as if by the coils of a large snake, taking 1d6+6 points of bludgeoning damage each round that it fails its save. A successful save ends both the paralyzing and constriction effects."
+			"This spell functions like ‹spell/hold monster›, except that the target is constricted as if by the coils of a large snake, taking 1d6+6 points of bludgeoning damage each round that it fails its save. A successful save ends both the paralyzing and constriction effects."
 		]
 	},
 	"contact_entity": {
@@ -2163,7 +2163,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Contagion\"}",
 			"",
-			"{SOURCE Mythic Adventures/89}",
+			"‹SOURCE Mythic Adventures/89›",
 			"",
 			"The affected target is highly contagious. Any creature it touches or that touches it with natural weapons or unarmed strikes must save or contract the disease. The save DC for these targets is equal to the spell's DC - 4. The target can't spread this disease to you.",
 			"",
@@ -2242,7 +2242,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Contingency\"}",
 			"",
-			"{SOURCE Mythic Adventures/89}",
+			"‹SOURCE Mythic Adventures/89›",
 			"",
 			"You can cast this spell on yourself or another willing creature as if the spell had a range of touch. A companion spell placed on another creature must be a spell from you, not from the creature, and affects that creature when triggered. The target can have only one contingency spell upon it at a time unless it also knows mythic contingency. The number of companion spells you can have on yourself is equal to 1 + half your tier.",
 			"",
@@ -2256,7 +2256,7 @@
 			"",
 			"This spell functions as contingency, except as noted above. This spell also only comes into effect after your death and works only with certain spells. The companion spell triggers 1d6 rounds after your death. All decisions made involving the companion spell must be made when deadman's contingency is cast (including messages and recipients for spells like magic mouth or sending). If the spell targets an object or appears in a certain location, it must target or be centered on your corpse.",
 			"",
-			"The following spells can be companion spells for deadman's contingency: {spell/animate dead} (animating your corpse as an uncontrolled skeleton or zombie), {spell/disintegrate}, {spell/fireball}, {spell/gentle repose}, {spell/magic mouth}, {spell/major image} (with a duration of 3 rounds), {spell/permanent image}, {spell/sending}, {spell/stinking cloud}, and {spell/teleport object}."
+			"The following spells can be companion spells for deadman's contingency: ‹spell/animate dead› (animating your corpse as an uncontrolled skeleton or zombie), ‹spell/disintegrate›, ‹spell/fireball›, ‹spell/gentle repose›, ‹spell/magic mouth›, ‹spell/major image› (with a duration of 3 rounds), ‹spell/permanent image›, ‹spell/sending›, ‹spell/stinking cloud›, and ‹spell/teleport object›."
 		]
 	},
 	"deadmans_contingency": {
@@ -2305,7 +2305,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/260\" evocation light adp=3 arc=2 clr=3 inq=3 occ=2 orc=3 psy=3 sor=2 war=3 wiz=2 ctSt cV cS cMp=\"ruby dust worth 50 gp\" rTouch target=\"object touched\" effect=\"magical, heatless flame\" durP saveNo srN}",
 			"",
-			"A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A {spell/continual flame} can be covered and hidden but not smothered or quenched.",
+			"A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A ‹spell/continual flame› can be covered and hidden but not smothered or quenched.",
 			"",
 			"Light spells counter and dispel darkness spells of an equal or lower level."
 		]
@@ -2379,7 +2379,7 @@
 			"",
 			"This spell has two different applications, both of which control water in different ways. The first version of this spell causes water in the area to swiftly evaporate or to sink into the ground below, lowering the water's depth. The second version causes the water to surge and rise, increasing its overall depth and possibly flooding nearby areas.",
 			"",
-			"*Lower Water:* This causes water or similar liquid to reduce its depth by as much as 2 feet per caster level (to a minimum depth of 1 inch). The water is lowered within a squarish depression whose sides are up to caster level &times; 10 feet long. In extremely large and deep bodies of water, such as a deep ocean, the spell creates a whirlpool that sweeps ships and similar craft downward, putting them at risk and rendering them unable to leave by normal movement for the duration of the spell. When cast on water elementals and other water-based creatures, this spell acts as a {spell/slow} spell (Will negates). The spell has no effect on other creatures.",
+			"*Lower Water:* This causes water or similar liquid to reduce its depth by as much as 2 feet per caster level (to a minimum depth of 1 inch). The water is lowered within a squarish depression whose sides are up to caster level &times; 10 feet long. In extremely large and deep bodies of water, such as a deep ocean, the spell creates a whirlpool that sweeps ships and similar craft downward, putting them at risk and rendering them unable to leave by normal movement for the duration of the spell. When cast on water elementals and other water-based creatures, this spell acts as a ‹spell/slow› spell (Will negates). The spell has no effect on other creatures.",
 			"",
 			"*Raise Water:* This causes water or similar liquid to rise in height, just as the lower water version causes it to lower. Boats raised in this way slide down the sides of the hump that the spell creates. If the area affected by the spell includes riverbanks, a beach, or other land nearby, the water can spill over onto dry land.",
 			"",
@@ -2416,7 +2416,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Control Weather\"}",
 			"",
-			"{SOURCE Mythic Adventures/89}",
+			"‹SOURCE Mythic Adventures/89›",
 			"",
 			"The casting time changes to 1 standard action, and the duration doubles. The weather changes after a number of rounds equal to 11 - your tier.",
 			"",
@@ -2473,7 +2473,7 @@
 			"",
 			"::spell{source=\"Ranged Tactics Toolbox/30\" air transmutation arc=4 brd=4 skd=4 sor=4 wiz=4 ctSt cV cS r=\"1 mile/level\" area=\"10-ft.-radius spread\" durD durHL=1 saveNo srN}",
 			"",
-			"This spell functions as {spell/whispering wind}, except it can carry responses and doesn't end after delivering its first message. After the wind completes its initial message, it waits for 1 round, then copies what it hear, and returns at the same speed and by the same route. It delivers what it heard to the location where the spell was originally cast. The wind continues back and forth in this way until the duration ends or the spell is dismissed."
+			"This spell functions as ‹spell/whispering wind›, except it can carry responses and doesn't end after delivering its first message. After the wind completes its initial message, it waits for 1 round, then copies what it hear, and returns at the same speed and by the same route. It delivers what it heard to the location where the spell was originally cast. The wind continues back and forth in this way until the duration ends or the spell is dismissed."
 		]
 	},
 	"coordinated_effort": {
@@ -2484,7 +2484,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/212\" divination brd=3 inq=3 psy=4 skd=3 ctSt cV cS rClose targets=\"you plus one willing creature per 3 levels, no two of which can be more than 30 ft. part\" durML=1 saveNo srN}",
 			"",
-			"Choose a single teamwork feat that you possess. You forge a link with your allies, allowing them to gain the benefits of the chosen feat even if they do not have it themselves. You must be a part of the group qualifying for a given bonus for your allies to gain the benefits. For example, two of your allies flanking an orc would gain no benefit from your {feat/Outflank} feat, but an ally flanking the orc with you would. Your allies' positioning and actions must still meet the prerequisites listed in the teamwork feat for either of you to receive the listed bonus."
+			"Choose a single teamwork feat that you possess. You forge a link with your allies, allowing them to gain the benefits of the chosen feat even if they do not have it themselves. You must be a part of the group qualifying for a given bonus for your allies to gain the benefits. For example, two of your allies flanking an orc would gain no benefit from your ‹feat/Outflank› feat, but an ally flanking the orc with you would. Your allies' positioning and actions must still meet the prerequisites listed in the teamwork feat for either of you to receive the listed bonus."
 		]
 	},
 	"corpse_lanterns": {
@@ -2495,7 +2495,7 @@
 			"",
 			"::spell{source=\"Pathfinder Society Field Guide/57\" light necromancy arc=2 sor=2 wit=2 wiz=2 ctSt cV cS rMed effect=\"up to 4 lights, all within a 10-ft.-radius area\" durML=1 durD saveNo srN}",
 			"",
-			"This spell functions as {spell/dancing lights}, except it summons up to four spheres of light, each of which glows a sickly pale green. These corpse lanterns shed dim light in a 20-foot radius, and do not increase the light level in areas of normal light or bright light. In dim or normal light, the radiance of corpse lanterns provides a strange contrast, giving all creatures in the area a -5 penalty on Stealth checks. In addition, the hue interferes with illusion (pattern) spells, giving all creatures in the illuminated area a +2 bonus on any saving throws against such spells. Unlike dancing lights, you may have more than one corpse lanterns spell active at a time, but you may only move one set in any given round. Moving the corpse lanterns does not require concentration. Corpse lanterns can be made permanent on an area with a {spell/permanency} spell by a caster of at least 11th level for the cost of 7,500 gp."
+			"This spell functions as ‹spell/dancing lights›, except it summons up to four spheres of light, each of which glows a sickly pale green. These corpse lanterns shed dim light in a 20-foot radius, and do not increase the light level in areas of normal light or bright light. In dim or normal light, the radiance of corpse lanterns provides a strange contrast, giving all creatures in the area a -5 penalty on Stealth checks. In addition, the hue interferes with illusion (pattern) spells, giving all creatures in the illuminated area a +2 bonus on any saving throws against such spells. Unlike dancing lights, you may have more than one corpse lanterns spell active at a time, but you may only move one set in any given round. Moving the corpse lanterns does not require concentration. Corpse lanterns can be made permanent on an area with a ‹spell/permanency› spell by a caster of at least 11th level for the cost of 7,500 gp."
 		]
 	},
 	"corrosive_consumption": {
@@ -2526,7 +2526,7 @@
 		"description": [
 			"## Corruption Resistance",
 			"",
-			"::spell{source=\"Advanced Player's Guide/212\" school=\"%%spelldef/abjuration%% &#91&%%spelldef/chaotic%%, %%spelldef/evil%%, %%spelldef/good%%, or %%spelldef/lawful%%&#93&\" ant=2 inq=2 pal=2 ctSt cV cS cDF rTouch target=\"creature touched\" durML=10 fort srY harmless}",
+			"::spell{source=\"Advanced Player's Guide/212\" school=\"‹spelldef/abjuration› &#91&‹spelldef/chaotic›, ‹spelldef/evil›, ‹spelldef/good›, or ‹spelldef/lawful›&#93&\" ant=2 inq=2 pal=2 ctSt cV cS cDF rTouch target=\"creature touched\" durML=10 fort srY harmless}",
 			"",
 			"You grant the touched creature limited protection from magical effects that inflict damage based on the target creature's alignment, such as holy smite, order's wrath, a paladin's smite evil attack, or an unholy weapon. Choose one alignment type: chaos, evil, good, or law. The subject takes 5 less points of damage from effects that specifically harm creatures of that alignment. The value of the protection increases to 10 points at 7th level and 15 points at 11th level. The spell protects the recipient's equipment as well.",
 			"",
@@ -2561,7 +2561,7 @@
 			"",
 			"Second, a warded creature gains spell resistance 23 against spells cast by chaotic neutral, lawful neutral, neutral evil, and neutral good creatures, and spell resistance 27 against spells cast by neutral creatures with no other alignment components.",
 			"",
-			"Third, the spell protects warded creatures from possession and influence by such creatures (otherwise as {spell/protection from evil}).",
+			"Third, the spell protects warded creatures from possession and influence by such creatures (otherwise as ‹spell/protection from evil›).",
 			"",
 			"Finally, if a chaotic neutral, lawful neutral, neutral evil, or neutral good creature successfully hits a warded creature with a melee attack, the attacker is sickened for 1d6 rounds (Fortitude negates). If a neutral creature successfully hits a warded creature with a melee attack, the attacker is instead nauseated for 1d6 rounds (Fortitude negates)."
 		]
@@ -2594,11 +2594,11 @@
 			"",
 			":::mythic{jl title=\"Mythic Covetous Aura\"}",
 			"",
-			"{SOURCE Mythic Origins/12}",
+			"‹SOURCE Mythic Origins/12›",
 			"",
 			"The duration of the covetous aura increases to 1 minute per level or until discharged. You may gain the benefits of spells of 5th level or lower cast within the aura's area of effect. You can gain the effects of two separate spells, after which the mythic covetous aura ends.",
 			"",
-			"*Augmented (6th):* If you expend two uses of mythic power, the duration increases to 10 minutes per level or until discharged. You may gain the benefits of spells of 7th level or lower cast within the aura's area of effect. When you gain the benefit of a spell, the original spell is immediately targeted with a {spell/greater dispel magic} spell at your caster level. If the dispel check succeeds, the spell ends for any of the original recipients in the area of your covetous aura.",
+			"*Augmented (6th):* If you expend two uses of mythic power, the duration increases to 10 minutes per level or until discharged. You may gain the benefits of spells of 7th level or lower cast within the aura's area of effect. When you gain the benefit of a spell, the original spell is immediately targeted with a ‹spell/greater dispel magic› spell at your caster level. If the dispel check succeeds, the spell ends for any of the original recipients in the area of your covetous aura.",
 			"",
 			":::"
 		]
@@ -2615,7 +2615,7 @@
 			"",
 			"In combat, if the target sees a valuable item on an opponent, it must, for example, attempt to disarm its foe to take a valuable weapon or use the steal combat maneuver to grab a precious item kept on the opponent's belt. Once the target has either attempted to steal an item in combat or else taken damage, this magical compulsion subsides until the threat of the current combat ends and the target enters a new room or area. Affected targets in combat that have neither attempted to steal an item nor taken damage (perhaps because the opponent with the most valuable item is far away) can attempt a saving throw each round to ignore the spell's effect until the threat ends and the target enters a new room.",
 			"",
-			"{spell/Break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish} can each end covetous urge before the duration expires. {spell/Dispel magic} does not affect covetous urge."
+			"‹spell/Break enchantment›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/remove curse›, or ‹spell/wish› can each end covetous urge before the duration expires. ‹spell/Dispel magic› does not affect covetous urge."
 		]
 	},
 	"cowards_cowl": {
@@ -2672,7 +2672,7 @@
 			"",
 			"::spell{source=\"Haunted Heroes Handbook/27\" mindAffecting emotion fear haunted necromancy arc=2 brd=2 drd=2 hnt=2 med=1 mes=2 occ=2 psy=2 sor=2 spr=2 wit=2 wiz=2 ctSt cV cS cMp=\"a broken tool\" rClose area=\"one 5-ft. cube/level (S)\" durD durDL=1 will srY}",
 			"",
-			"You concentrate feelings of competitiveness, envy, and ill will into a poltergeist-like haunt that wreaks havoc on its victim's long-term endeavors. Every time a creature in the affected area attempts a Craft or Profession check to generate income, create an item, or earn capital, any skill check required for crafting or repairing a magic item, or any skill check required for an occult ritual, the haunt imposes a -5 penalty on the check. If the creature fails its check by 5 or more, the haunt's mischief deals 1d6 points of damage to the creature in addition to any other negative effects from such a failure. If the creature attempts to cast a spell with a casting time of 1 minute or longer, the haunt becomes similarly disruptive, requiring the caster to succeed at a {rule/concentration} check (DC = 15 + spell level) or lose the spell and take 1d6 points of damage from the mischief. Each time the haunt is disruptive, the spell's haunt-like manifestation occurs during that round.",
+			"You concentrate feelings of competitiveness, envy, and ill will into a poltergeist-like haunt that wreaks havoc on its victim's long-term endeavors. Every time a creature in the affected area attempts a Craft or Profession check to generate income, create an item, or earn capital, any skill check required for crafting or repairing a magic item, or any skill check required for an occult ritual, the haunt imposes a -5 penalty on the check. If the creature fails its check by 5 or more, the haunt's mischief deals 1d6 points of damage to the creature in addition to any other negative effects from such a failure. If the creature attempts to cast a spell with a casting time of 1 minute or longer, the haunt becomes similarly disruptive, requiring the caster to succeed at a ‹rule/concentration› check (DC = 15 + spell level) or lose the spell and take 1d6 points of damage from the mischief. Each time the haunt is disruptive, the spell's haunt-like manifestation occurs during that round.",
 			"",
 			"#### Haunt Statistics",
 			"",
@@ -2706,11 +2706,11 @@
 			"",
 			"When you finish casting this spell, you may bring yourself and up to seven other creatures to the plane automatically by joining hands in a circle. The demiplane is another plane of existence, and therefore is outside the range of any spell or ability that cannot affect or reach other planes. Creatures can only enter the plane by the use of planar travel magic such as astral projection, etherealness, or plane shift. You are considered \"very familiar\" with your entire demiplane.",
 			"",
-			"As a standard action, you may eject a creature from your demiplane. The creature may resist with a Will saving throw. An ejected creature goes to the closest plane to your demiplane (usually the Astral Plane or the Ethereal Plane, but if you cast this spell on the Material Plane, the creature is sent to the Material Plane). When the spell ends, the plane dissolves, and all creatures in the plane are ejected in this manner with no saving throw. The plane cannot be dispelled, but a creature on the plane can destroy it by using {spell/limited wish}, {spell/mage's disjunction}, {spell/miracle}, or {spell/wish} and making a successful dispel check.",
+			"As a standard action, you may eject a creature from your demiplane. The creature may resist with a Will saving throw. An ejected creature goes to the closest plane to your demiplane (usually the Astral Plane or the Ethereal Plane, but if you cast this spell on the Material Plane, the creature is sent to the Material Plane). When the spell ends, the plane dissolves, and all creatures in the plane are ejected in this manner with no saving throw. The plane cannot be dispelled, but a creature on the plane can destroy it by using ‹spell/limited wish›, ‹spell/mage's disjunction›, ‹spell/miracle›, or ‹spell/wish› and making a successful dispel check.",
 			"",
 			"If you are within the demiplane, you can add to its area by casting the spell again. Alternatively, you may cast this spell again to reset the duration of an existing area to that of your latest casting. If the duration on one area of the demiplane ends and other parts remain, creatures in the expiring area are shunted to remaining areas. If a collapsing portion of the demiplane would leave one section cut off from other sections of the demiplane (for example, if there were three areas connected in a straight line and the center part expired), the stranded sections count as separate demiplanes under your control. You may reconnect these stranded sections by casting the spell again to create a linked area between the two.",
 			"",
-			"You can make this spell permanent with the {spell/permanency} spell, at a cost of 17,500 gp. If you have cast create lesser demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell.",
+			"You can make this spell permanent with the ‹spell/permanency› spell, at a cost of 17,500 gp. If you have cast create lesser demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell.",
 			"",
 			"::h3[Create Demiplane]{jl}",
 			"",
@@ -2718,21 +2718,21 @@
 			"",
 			"This spell functions as create lesser demiplane, except the area is larger and you can add more features to the plane. You can use this spell to expand a demiplane you created with create lesser demiplane (you do not need to create an entirely new plane using this spell), in which case it has a duration of 1 day/level. Alternatively, when cast within your demiplane, you may add (or remove) one of the following features to your demiplane with each casting of the spell, in which case it has an instantaneous duration.",
 			"",
-			"**Alignment:** Your plane gains the (mildly) chaos-, good-, evil-, law-, or neutral-aligned alignment trait (see {rule/Alignment Traits}). You cannot give your demiplane an alignment trait for an alignment you do not have.",
+			"**Alignment:** Your plane gains the (mildly) chaos-, good-, evil-, law-, or neutral-aligned alignment trait (see ‹rule/Alignment Traits›). You cannot give your demiplane an alignment trait for an alignment you do not have.",
 			"",
 			"**Bountiful:** Your demiplane gains a thriving natural ecology, with streams, ponds, waterfalls, and plants. The demiplane provides enough plant-based food (nuts, grains, fruit, fungi, and so on) to support one Medium creature for every 10-foot cube of the demiplane. The demiplane does not have any animals unless you transport them there, but the ecology can sustain itself for as long as the demiplane exists without requiring watering, gardening, pollination, and so on, and dead organic material decays and returns to the soil in the normal manner. If your demiplane has ambient light, these plants are normal, familiar surface plants; if it is a realm of twilight or darkness, these plants are fungi and other plants adapted to near-darkness or underground locations.",
 			"",
-			"**Elemental:** Your plane gains the air-, earth-, fire-, or water-elemental dominant trait (see {rule/Elemental and Energy Traits}).",
+			"**Elemental:** Your plane gains the air-, earth-, fire-, or water-elemental dominant trait (see ‹rule/Elemental and Energy Traits›).",
 			"",
-			"**Gravity:** By default a demiplane's gravity is normal and oriented in one direction, like what most creatures are used to on the Material Plane. By selecting this feature, the plane's gravity is heavy, light, none, objectively directional, or subjectively directional (see {rule/Gravity>_traits}).",
+			"**Gravity:** By default a demiplane's gravity is normal and oriented in one direction, like what most creatures are used to on the Material Plane. By selecting this feature, the plane's gravity is heavy, light, none, objectively directional, or subjectively directional (see ‹rule/Gravity<_traits›).",
 			"",
 			"**Seasonal:** The demiplane has a seasonal cycle and a light cycle, usually similar to those of a land on the Material Plane, but customizable as you see fit (for example, your demiplane could always be winter, day and night could alternate every 4 hours, and so on).",
 			"",
-			"**Shape:** By default, the demiplane has a fixed shape and borders. By selecting this feature, you may make your plane self-contained so it loops upon itself when a creature reaches one edge (see {rule/Shape and Size>_traits}). You may designate areas or locations on the edges of your plane where this occurs (such as a pair of secret doors or a path in the woods) or apply it to the entire plane.",
+			"**Shape:** By default, the demiplane has a fixed shape and borders. By selecting this feature, you may make your plane self-contained so it loops upon itself when a creature reaches one edge (see ‹rule/Shape and Size<_traits›). You may designate areas or locations on the edges of your plane where this occurs (such as a pair of secret doors or a path in the woods) or apply it to the entire plane.",
 			"",
 			"**Structure:** Your demiplane has a specific, linked physical structure, such as a giant tree, floating castle, labyrinth, mountain, and so on. (This option exists so you can pick a theme for your plane without having to worry about the small details of determining what spells you need for every hill, hole, wall, floor, and corner).",
 			"",
-			"You can make this spell permanent with the {spell/permanency} spell, at a cost of 20,000 gp. If you have cast create demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell.",
+			"You can make this spell permanent with the ‹spell/permanency› spell, at a cost of 20,000 gp. If you have cast create demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell.",
 			"",
 			"::h3[Greater Create Demiplane]{jl}",
 			"",
@@ -2742,15 +2742,15 @@
 			"",
 			"**Energy:** Your plane gains the (minor) negative- or positive-dominant energy trait (see Elemental and Energy Traits). A plane cannot have both the negative-dominant and positive-dominant energy traits.",
 			"",
-			"**Magic:** Your plane gains the dead magic, enhanced magic, impeded magic, or wild magic planar trait (see {rule/Magic Traits}). If you selected dead magic, you are trapped within your plane unless it has a permanent planar portal (such as the portal feature, below). If you selected enhanced or impeded magic, choose one type of magic to be enhanced or impeded, such as \"effects with the fire descriptor or that manipulate fire\" or \"death spells and spells from the Death or Repose domains.\" A plane cannot be enhanced and impeded for the same kinds of spells.",
+			"**Magic:** Your plane gains the dead magic, enhanced magic, impeded magic, or wild magic planar trait (see ‹rule/Magic Traits›). If you selected dead magic, you are trapped within your plane unless it has a permanent planar portal (such as the portal feature, below). If you selected enhanced or impeded magic, choose one type of magic to be enhanced or impeded, such as \"effects with the fire descriptor or that manipulate fire\" or \"death spells and spells from the Death or Repose domains.\" A plane cannot be enhanced and impeded for the same kinds of spells.",
 			"",
 			"**Morphic:** You may use move earth at will in your demiplane at one-tenth of the spell's normal casting time, and can reshape normal plants in the same manner (such as by twisting trees into a fence or human-like shapes). You are even able to affect rock formations with this ability, though the casting time for this is only half normal.",
 			"",
 			"**Portal:** Your demiplane gains a permanent gate to one location on another plane, which can only be used for planar travel. This location must be very familiar to you. This gate is always open and usable from both sides, but you can secure it using normal means (such as by building a door around it).",
 			"",
-			"**Time:** By default, time passes at the normal rate in your demiplane. By selecting this feature, you may make your plane have the erratic time, flowing time (half or double normal time), or timeless trait (see {rule/Time}).",
+			"**Time:** By default, time passes at the normal rate in your demiplane. By selecting this feature, you may make your plane have the erratic time, flowing time (half or double normal time), or timeless trait (see ‹rule/Time›).",
 			"",
-			"You can make this spell permanent with the {spell/permanency} spell, at a cost of 22,500 gp. If you have cast create greater demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell."
+			"You can make this spell permanent with the ‹spell/permanency› spell, at a cost of 22,500 gp. If you have cast create greater demiplane multiple times to enlarge the demiplane, each casting's area requires its own permanency spell."
 		]
 	},
 	"lesser_create_demiplane": { "redirect": "create_demiplane_lesser" },
@@ -2774,11 +2774,11 @@
 			"",
 			"::spell{source=\"Book of the Damned/183;Pathfinder #99: Dance of the Damned/74\" conjuration creation alc=3 clr=4 drd=3 hnt=3 inv=3 occ=3 orc=4 war=4 ctR=1 cV cS rFt=0 effect=\"1 dose of a drug/3 levels\" durM=1 save=\"none (see below)\" srN}",
 			"",
-			"The caster conjures into being one of the following drugs: {drug/aether}, {drug/flayleaf}, {drug/opium}, {drug/pesh}, {drug/scour}, {drug/shiver}, or {drug/zerk}. (At the GM's discretion, other drugs of similar power can be included on this list.) The drug doses the caster creates with this spell must be used within 1 minute of being conjured, or they dissolve into worthless dust or evaporate into noxious but fleeting vapors, though the effects of the drug may last far longer if taken before it decays.",
+			"The caster conjures into being one of the following drugs: ‹drug/aether›, ‹drug/flayleaf›, ‹drug/opium›, ‹drug/pesh›, ‹drug/scour›, ‹drug/shiver›, or ‹drug/zerk›. (At the GM's discretion, other drugs of similar power can be included on this list.) The drug doses the caster creates with this spell must be used within 1 minute of being conjured, or they dissolve into worthless dust or evaporate into noxious but fleeting vapors, though the effects of the drug may last far longer if taken before it decays.",
 			"",
-			"The drugs created by this spell cannot be sold, but they can be given to other creatures. A creature that takes a dose of one of these drug typically must be either willing or helpless, though some drugs might be inhaled, applied to injuries, or secretly slipped into food if the caster acts swiftly (see each drug's description). The DC to resist a drug created by this spell is based on the conjurer's caster level, not the DC listed in the common versions of the drug. For more information, see {rule/Drugs and Addiction}.",
+			"The drugs created by this spell cannot be sold, but they can be given to other creatures. A creature that takes a dose of one of these drug typically must be either willing or helpless, though some drugs might be inhaled, applied to injuries, or secretly slipped into food if the caster acts swiftly (see each drug's description). The DC to resist a drug created by this spell is based on the conjurer's caster level, not the DC listed in the common versions of the drug. For more information, see ‹rule/Drugs and Addiction›.",
 			"",
-			"As a special use of this spell, a lawful evil worshiper of Mahathallah, the Dowager of Illusions, can create doses of the drug {drug/adyton}. A Mahathallah worshiper can create adyton only once per week, regardless of her level or how many times she casts this spell. The spell otherwise functions - and creates as many doses - as normal.",
+			"As a special use of this spell, a lawful evil worshiper of Mahathallah, the Dowager of Illusions, can create doses of the drug ‹drug/adyton›. A Mahathallah worshiper can create adyton only once per week, regardless of her level or how many times she casts this spell. The spell otherwise functions - and creates as many doses - as normal.",
 			"",
 			"#### Adyton",
 			"",
@@ -2787,7 +2787,7 @@
 			"**Adyton**  ",
 			"**Type** contact; **Addiction** major, Fortitude DC 20  ",
 			"**Price** 2,000 gp  ",
-			"**Effect** An affected creature that succeeds at an additional DC 20 Will saving throw has its consciousness transported into the {rule/mindscape>s} called the Adyton, where it can linger for as long as it likes and return as a full-round action whenever it so pleases. Those that fail this secondary saving throw sleep fitfully for 2d4 hours and wake remembering snippets of surreal dreams.  ",
+			"**Effect** An affected creature that succeeds at an additional DC 20 Will saving throw has its consciousness transported into the ‹rule/mindscape<s› called the Adyton, where it can linger for as long as it likes and return as a full-round action whenever it so pleases. Those that fail this secondary saving throw sleep fitfully for 2d4 hours and wake remembering snippets of surreal dreams.  ",
 			"**Damage** 1d4 Str damage"
 		]
 	},
@@ -2799,7 +2799,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/261\" conjuration creation clr=3 occ=3 orc=3 sha=3 war=3 ctM=10 cV cS rClose effect=\"food and water to sustain three humans or one horse/level for 24 hours\" dur=\"24 hours; see text\" saveNo srN}",
 			"",
-			"The food that this spell creates is simple fare of your choice-highly nourishing, if rather bland. Food so created decays and becomes inedible after 24 hours, although it can be kept fresh for another 24 hours by casting a {spell/purify food and drink} spell on it. The water created by this spell is just like clean rain water, and it doesn't go bad as the food does."
+			"The food that this spell creates is simple fare of your choice-highly nourishing, if rather bland. Food so created decays and becomes inedible after 24 hours, although it can be kept fresh for another 24 hours by casting a ‹spell/purify food and drink› spell on it. The water created by this spell is just like clean rain water, and it doesn't go bad as the food does."
 		]
 	}
 }

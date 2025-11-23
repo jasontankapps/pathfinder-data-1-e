@@ -4,7 +4,7 @@
 		"subtitle": "Random Item Generator",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/134}",
+			"‹SOURCE GameMastery Guide/134›",
 			"",
 			"### Table 5-47: Random Wands",
 			"",
@@ -38,7 +38,7 @@
 			"| 55-58 | @ripple[spell/mage hand] | 375 gp |",
 			"| 59-62 | @ripple[spell/mending] | 375 gp |",
 			"| 63-65 | @ripple[spell/message] | 375 gp |",
-			"| 66-69 | @ripple[spell/open//close] | 375 gp |",
+			"| 66-69 | @ripple[spell/open/close] | 375 gp |",
 			"| 70-73 | @ripple[spell/prestidigitation] | 375 gp |",
 			"| 74-77 | @ripple[spell/purify food and drink] | 375 gp |",
 			"| 78-81 | @ripple[spell/ray of frost] | 375 gp |",
@@ -148,7 +148,7 @@
 			"| 06 | @ripple[spell/animal trance] | 4,500 gp |",
 			"| 07 | @ripple[spell/barkskin] | 4,500 gp |",
 			"| 08-09 | @ripple[spell/bear's endurance] | 4,500 gp |",
-			"| 10 | @ripple[spell/blindness//deafness] | 4,500 gp |",
+			"| 10 | @ripple[spell/blindness/deafness] | 4,500 gp |",
 			"| 11 | @ripple[spell/blur] | 4,500 gp |",
 			"| 12-13 | @ripple[spell/bull's strength] | 4,500 gp |",
 			"| 14 | @ripple[spell/calm emotions] | 4,500 gp |",
@@ -235,7 +235,7 @@
 			"| 03 | @ripple[spell/bestow curse] | 11,250 gp |",
 			"| 04 | @ripple[spell/blink] | 11,250 gp |",
 			"| 05-06 | @ripple[spell/call lightning] | 11,250 gp |",
-			"| 07 | @ripple[spell/clairaudience//clairvoyance] | 11,250 gp |",
+			"| 07 | @ripple[spell/clairaudience/clairvoyance] | 11,250 gp |",
 			"| 08 | @ripple[spell/contagion] | 11,250 gp |",
 			"| 09 | @ripple[spell/create food and water] | 11,250 gp |",
 			"| 10-15 | @ripple[spell/cure serious wounds] | 11,250 gp |",
@@ -278,7 +278,7 @@
 			"| 61 | @ripple[spell/quench] | 11,250 gp |",
 			"| 62 | @ripple[spell/rage] | 11,250 gp |",
 			"| 63 | @ripple[spell/ray of exhaustion] | 11,250 gp |",
-			"| 64-66 | @ripple[spell/remove blindness//deafness] | 11,250 gp |",
+			"| 64-66 | @ripple[spell/remove blindness/deafness] | 11,250 gp |",
 			"| 67-69 | @ripple[spell/remove curse] | 11,250 gp |",
 			"| 70-72 | @ripple[spell/remove disease] | 11,250 gp |",
 			"| 73 | @ripple[spell/searing light] | 11,250 gp |",
@@ -417,15 +417,15 @@
 		"name": "Research and Designing Spells",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/114}",
+			"‹SOURCE GameMastery Guide/114›",
 			"",
 			"The subject of designing spells is touched on only briefly in the Pathfinder RPG Core Rulebook. While some guidance on cost and time is provided, a GM needs to consider balance and design factors before allowing a PC to introduce a new spell into the game. As a first step, request a detailed write-up of the spell using the Pathfinder RPG rules. Based on this write-up, you can determine whether or not the spell is balanced for its level and appropriate for the game.",
 			"",
-			"@HL[Spell Categories:] When considering a new spell, first determine the category into which it fits. Spells can be divided into the broad categories of offensive magic (spells that deal direct damage, enhance combat abilities, or summon allies to fight), defensive magic (spells that protect the caster or her allies, control or impede enemies, or heal damage), and utility magic (spells of general use outside of combat, such as travel magic and most divinations). Some spells fit into multiple categories, such as {spell/teleport}, with both defensive and utility applications.",
+			"@HL[Spell Categories:] When considering a new spell, first determine the category into which it fits. Spells can be divided into the broad categories of offensive magic (spells that deal direct damage, enhance combat abilities, or summon allies to fight), defensive magic (spells that protect the caster or her allies, control or impede enemies, or heal damage), and utility magic (spells of general use outside of combat, such as travel magic and most divinations). Some spells fit into multiple categories, such as ‹spell/teleport›, with both defensive and utility applications.",
 			"",
-			"@HL[Level-Appropriate:] Compare the new spell to other spells in the same category and at or near the desired spell level. Pay close attention to \"must have\" choices like {spell/fireball}, {spell/dimension door}, and {spell/wall of force}. If the spell is more powerful or more useful than other spells of the desired level, increase the level. If it seems weak, consider lowering the level. If there is already a similar spell in the game, pay particularly close attention to the new spell's relative power.",
+			"@HL[Level-Appropriate:] Compare the new spell to other spells in the same category and at or near the desired spell level. Pay close attention to \"must have\" choices like ‹spell/fireball›, ‹spell/dimension door›, and ‹spell/wall of force›. If the spell is more powerful or more useful than other spells of the desired level, increase the level. If it seems weak, consider lowering the level. If there is already a similar spell in the game, pay particularly close attention to the new spell's relative power.",
 			"",
-			"@HL[Saving Throw or Attack Roll:] Most spells that are usable against others should require either a saving throw or an attack roll (generally touch or ranged touch). Spells that are quite powerful for their level, like {spell/disintegrate} or {spell/phantasmal killer}, may require both, or allow two saving throws. Watch out for spells that effectively take the target out of the fight and are negated by a saving throw. Consider adding a minor effect even on a successful save, and toning down the result of a failed save. Spells that automatically affect the target should be higher level or limited in their consequences.",
+			"@HL[Saving Throw or Attack Roll:] Most spells that are usable against others should require either a saving throw or an attack roll (generally touch or ranged touch). Spells that are quite powerful for their level, like ‹spell/disintegrate› or ‹spell/phantasmal killer›, may require both, or allow two saving throws. Watch out for spells that effectively take the target out of the fight and are negated by a saving throw. Consider adding a minor effect even on a successful save, and toning down the result of a failed save. Spells that automatically affect the target should be higher level or limited in their consequences.",
 			"",
 			"@HL[Components:] Unless there's a particularly good reason, almost all spells should require both verbal and somatic components, and most divine spells should require a divine focus. Spells with no verbal component are particularly rare. If the spell-as-designed lacks them, consider adding material component or focus requirements as a means of adding flavor. Expensive components and foci are a good way to adjust the effective power of a spell without changing the level."
 		],
@@ -453,11 +453,11 @@
 		"subtitle": "Creating Spells",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/114}",
+			"‹SOURCE GameMastery Guide/114›",
 			"",
 			"The best spells do something interesting even when the casting isn't fully successful. They should have fairly simple mechanics without many ambiguities, special cases, or qualifications. If a spell takes a half-page or more to describe, it is probably too complicated and should be rejected or revised.",
 			"",
-			"Watch out for spells that counter or otherwise render useless equal- or higher-level magics. For defensive spells, countering an equal-level spell is fine (like {spell/shield} negating {spell/magic missile}), but an offensive spell generally should only overcome lower-level defenses or higher-level spells that duplicate those defenses (like {spell/disintegrate} destroying both {spell/wall of force} and {spell/forcecage}).",
+			"Watch out for spells that counter or otherwise render useless equal- or higher-level magics. For defensive spells, countering an equal-level spell is fine (like ‹spell/shield› negating ‹spell/magic missile›), but an offensive spell generally should only overcome lower-level defenses or higher-level spells that duplicate those defenses (like ‹spell/disintegrate› destroying both ‹spell/wall of force› and ‹spell/forcecage›).",
 			"",
 			"Good spells expand upon the existing themes of magic, but in a novel manner. The game doesn't really need more ways to throw damage around, but a spell that hurls adjacent enemies away from the caster is both interesting and useful. Watch for spells that break the implied limits of the game. Most arcane casters have poor healing abilities, and divine spells rarely excel at direct damage. With rare exception, spells shouldn't duplicate existing class features or feats.",
 			"",
@@ -482,7 +482,7 @@
 		"subtitle": "Creating Spells",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/114}",
+			"‹SOURCE GameMastery Guide/114›",
 			"",
 			"Successfully researching a new spell requires time and expensive research. An optional system for researching new spells is outlined below. The research should cost at least 1,000 gp per spell level (or even more for particularly exotic spells) and require both the Spellcraft skill and a Knowledge skill appropriate to the researcher's class. Wizards and bards use Knowledge (arcana), sorcerers use a Knowledge skill appropriate to their heritage (usually arcana, nature, or planes), druids and rangers use the Knowledge (nature) skill, and clerics and paladins use Knowledge (religion). The actual research process varies by the type of spell, often involving magical experimentation, the purchase and study of moldy scrolls and grimoires, contact with powerful magical beings or outsiders, and extensive meditation or rituals.",
 			"",
@@ -518,11 +518,11 @@
 		"subtitle": "Creating Spells",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/115}",
+			"‹SOURCE GameMastery Guide/115›",
 			"",
 			"The Pathfinder Roleplaying Game handles most spell components in a fairly abstract fashion: the components are purchased as part of a spell component pouch, which is assumed to contain the required quantity of any components for any spell of which the caster has knowledge. For many GMs, this suits their needs, and other than having the player mark off some gold when his PC uses a more expensive component like diamond dust, that is the extent of attention spell components receive. The virtue of this system is speed and simplicity. A GM desiring more verisimilitude can instead require the PCs track down or prepare individual components, and even allow PCs to obtain enhanced components that improve their spells.",
 			"",
-			"Even when tracking individual components, many reagents are so common they can be assumed to be easily found. Save the legwork for commissioning tiny silver whistles (for {spell/mage's faithful hound}), finding dragon scales (for {spell/form of the dragon>_1}), and things of that nature. Yet even then, don't go overboard - while finding rare components can be a fun opportunity for side-quests, your players go grocery shopping often enough in real life, and obsessing over whether their leaves are fresh or their eggshell components got cracked in the last fall is a good way to bore your players and ensure nobody wants to play a caster in your game."
+			"Even when tracking individual components, many reagents are so common they can be assumed to be easily found. Save the legwork for commissioning tiny silver whistles (for ‹spell/mage's faithful hound›), finding dragon scales (for ‹spell/form of the dragon<_1›), and things of that nature. Yet even then, don't go overboard - while finding rare components can be a fun opportunity for side-quests, your players go grocery shopping often enough in real life, and obsessing over whether their leaves are fresh or their eggshell components got cracked in the last fall is a good way to bore your players and ensure nobody wants to play a caster in your game."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -543,15 +543,15 @@
 		"subtitle": "Creating Spells",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/115}",
+			"‹SOURCE GameMastery Guide/115›",
 			"",
 			"Two principles of magic to remember when considering spell components are that of *contagion* (a part retains a connection to the whole) and *sympathy* (like produces like). A component can be linked to its source, manipulating or drawing power from that source, or it can produce effects based upon its nature.",
 			"",
 			"Historically, components such as blood carried both the life and strength of a creature, and the potential to bind two lives together; coffin nails could be pounded or bound into a weapon, making it strike true; hair and nails rendered the original owner vulnerable to hostile magic even at great distances; and animal horns and tusks provide protection to their wearer, not to mention the healing properties of a unicorn's horn.",
 			"",
-			"Most spell components in the Pathfinder RPG are based on sympathy, either duplicating the desired outcome of the spell (gauze and a wisp of smoke for {spell/gaseous form}) or having properties related to the spell (an owl's feather for {spell/owl's wisdom}). The latter sort of component may utilize contagion as well, as the single feather retains the nature of the whole.",
+			"Most spell components in the Pathfinder RPG are based on sympathy, either duplicating the desired outcome of the spell (gauze and a wisp of smoke for ‹spell/gaseous form›) or having properties related to the spell (an owl's feather for ‹spell/owl's wisdom›). The latter sort of component may utilize contagion as well, as the single feather retains the nature of the whole.",
 			"",
-			"When adding material components or a focus to a new spell, consider what forces the spell is shaping, and select components that reflect those forces. Good components don't necessarily need to be literally appropriate - the handful of earth required for {spell/detect undead} is an example of a more symbolic fit. Humorous spell components are tempting (and well represented in the game), but should be used sparingly."
+			"When adding material components or a focus to a new spell, consider what forces the spell is shaping, and select components that reflect those forces. Good components don't necessarily need to be literally appropriate - the handful of earth required for ‹spell/detect undead› is an example of a more symbolic fit. Humorous spell components are tempting (and well represented in the game), but should be used sparingly."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -572,17 +572,17 @@
 		"subtitle": "Creating Spells",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/115}",
+			"‹SOURCE GameMastery Guide/115›",
 			"",
 			"An enhanced component is a specialized reagent used to improve a spell. The exact effects of such a component are up to the GM, but may include a small increase to save DC, caster level, damage, range, or duration. Particularly rare enhanced components may even provide the benefits of metamagic feats. In addition, enhanced components used in long-duration spells often make them significantly harder to dispel.",
 			"",
 			"The power of a component is strongly influenced by the means by which it was obtained. For most magic, the most powerful components are those freely given, rather than taken by force, thievery, or magical compulsion. A vial of dragon's tears wept during a masterful performance may well hold more magic than a vial of blood taken from that same dragon's ravaged corpse. The same is not true for darker magics. For such spells, components obtained in profane and blasphemous rituals are the most powerful by far.",
 			"",
-			"Symbolism is key in obtaining enhanced components. A wizard seeking the last light of an eclipse to enhance a {spell/sunburst} might catch the sun's rays in a mirror, while a druid might gather the nectar of morning glories that bloomed in the day's light and shut in the darkness of the eclipse for the same spell. Neither is literally the last light of the sun, but the principle of contagion suffices to enhance the spell.",
+			"Symbolism is key in obtaining enhanced components. A wizard seeking the last light of an eclipse to enhance a ‹spell/sunburst› might catch the sun's rays in a mirror, while a druid might gather the nectar of morning glories that bloomed in the day's light and shut in the darkness of the eclipse for the same spell. Neither is literally the last light of the sun, but the principle of contagion suffices to enhance the spell.",
 			"",
 			"Before introducing enhanced components into your game, consider the implications of allowing casters to increase their abilities without investing in metamagic feats or permanent magic items. To preserve their rare and exotic feel, enhanced components should not be easily obtainable or fixed in price. Finding a source for an enhanced component is an adventure in itself, and the quantities available should be limited to just a few castings. Two examples are as follows:",
 			"",
-			"@HL[Dragon's Tears:] These yellowish drops extend the duration of any spell that influences emotion, such as {spell/heroism} or {spell/rage}. If the tears are both genuine and freely given, the duration is increased by 50%. If obtained by trickery or magic, the increase is only 20%.",
+			"@HL[Dragon's Tears:] These yellowish drops extend the duration of any spell that influences emotion, such as ‹spell/heroism› or ‹spell/rage›. If the tears are both genuine and freely given, the duration is increased by 50%. If obtained by trickery or magic, the increase is only 20%.",
 			"",
 			"@HL[Vampire Dust:] The carefully sifted dust of a destroyed vampire enhances spells fueled by negative energy. A single vampire yields only 1d4+1 uses of dust. Spells infused with vampire dust receive a +1 bonus to caster level. If the caster personally slew the vampire, the dust increases save DCs by +1 as well."
 		],
@@ -603,17 +603,17 @@
 		"name": "Wishes",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/116}",
+			"‹SOURCE GameMastery Guide/116›",
 			"",
 			"*The monstrous four-armed demon spoke in a surprisingly pleasant tenor voice. \"And what, pray tell, is it you so desire\"? Seltyiel paused, steeling his resolve. \"I wish suffering for my family, tenfold for each wrong visited upon myself. I wish the lord mayor's daughter and rank, and his head resting beneath my boot. I wish for such wealth that even a Qadiran merchant would weep with envy.\" The demon's laugh boomed throughout the cavern. \"And what, pray tell, is it you so desire\"?*",
 			"",
-			"More so than almost any other ability, {spell/wish} and its cousin {spell/miracle} have the potential to drastically change a campaign. When your players reach the upper echelons of the game at 15th level and beyond, you should consider whether or not you want to allow your players access to *wishes,* as even if they can't buy them, they'll soon enough be able to cast the *wish* spell themselves.",
+			"More so than almost any other ability, ‹spell/wish› and its cousin ‹spell/miracle› have the potential to drastically change a campaign. When your players reach the upper echelons of the game at 15th level and beyond, you should consider whether or not you want to allow your players access to *wishes,* as even if they can't buy them, they'll soon enough be able to cast the *wish* spell themselves.",
 			"",
 			"The easiest way to control wish is to restrict it to those options listed in the Pathfinder RPG Core Rulebook. None of these uses are game-breaking. However, by expanding the boundaries of *wish* and *miracle,* you open up roleplaying and story opportunities that can keep your high-level game fresh and exciting for many adventures to come.",
 			"",
 			"@HL[Types of Wishes:] One of the first boundaries to set is whether or not all wishes are created equal, and have similar constraints. Treating all *wishes* the same has the virtues of consistency and simplicity, and helps keep your game under control. Having a hierarchy of *wishes* gives fodder for the story in your game, letting PCs alter their local reality with their wishes, but leaving the option of seeking out higher powers to grant the wishes spoken of in legends. A suggested hierarchy is *wishes* from spells or magic items, followed by *miracle, wishes* granted by artifacts and relics, *wishes* granted by powerful outsiders like the efreet and djinn, and finally those *wishes* bestowed directly by gods and other entities beyond mortal ken.",
 			"",
-			"@HL[Making Good Wishes:] The best *wishes* are short, unambiguous, related to matters immediately at hand, and usually aimed at a simple (if powerful) task. A *wish* for a sundered {magic-wondrous/mirror of mental prowess} to be made whole or a *wish* to reveal the identity of the thief of the crown jewels is unlikely to go awry.",
+			"@HL[Making Good Wishes:] The best *wishes* are short, unambiguous, related to matters immediately at hand, and usually aimed at a simple (if powerful) task. A *wish* for a sundered ‹magic-wondrous/mirror of mental prowess› to be made whole or a *wish* to reveal the identity of the thief of the crown jewels is unlikely to go awry.",
 			"",
 			"@HL[Making Bad Wishes:] *Wishes* born of greed or vengeance have a way of turning sour. Attempts to guard against mishap with a list of conditions and qualifiers are rarely successful, most often resulting in partial fulfillment of the *wish. Wishes* that stretch the limits of the power granting them are always ill advised. If the *wish* is from a spell or magic item, failure or backlash is likely, while if the *wish* is from an outside source, the granter of the *wish* may be angered by mortal temerity and twist the *wish* or otherwise seek retribution against the wisher.",
 			"",
@@ -638,13 +638,13 @@
 		"name": "Making Magic Items",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/116}",
+			"‹SOURCE GameMastery Guide/116›",
 			"",
 			"In every campaign, there comes a time when the PCs are no longer satisfied with the magic items available to their characters. Whether looking for a power to complement their skills, a new twist on an old favorite, or just the sheer joy of invention, creating a new magic item opens up new venues for a PC. It is also a great way to leave a mark on the campaign - after all, even the oldest magic items were once new to the world.",
 			"",
-			"Pricing a magic item is more art than science. Guidance on item pricing is given in {rule/Magic Item Gold Piece Values}, but a trip through the magic item section shows the formulas are often not applied exactly. An example is the {magic-ring/ring of invisibility}, with a calculated price of 10,800 gp, but a book value of 20,000 gp. This is because the at-will nature of the ring offsets the biggest drawback of {spell/invisibility}, namely that it ends after attacking. When pricing new magic items, watch out for any item that counteracts a basic weakness of an ability, class, or spell.",
+			"Pricing a magic item is more art than science. Guidance on item pricing is given in ‹rule/Magic Item Gold Piece Values›, but a trip through the magic item section shows the formulas are often not applied exactly. An example is the ‹magic-ring/ring of invisibility›, with a calculated price of 10,800 gp, but a book value of 20,000 gp. This is because the at-will nature of the ring offsets the biggest drawback of ‹spell/invisibility›, namely that it ends after attacking. When pricing new magic items, watch out for any item that counteracts a basic weakness of an ability, class, or spell.",
 			"",
-			"The best test for item pricing is to compare it to \"must have\" items in the game, like weapons, armor, and stat-boosting gear. Also compare it to other items that share the same slot, and items with similar powers. As a rule of thumb, if you'd take the item in a heartbeat over a more expensive standard item, it is probably too cheap. And if you'd never consider taking a 10,000 gp ring over a {magic-wondrous/belt of physical might +2} or even a +2 battleaxe, it might just be overpriced. However, it is safer to price items too high rather than too low. After all, the PC gets a new, custom magic item out of the arrangement, and that's worth paying a bit extra."
+			"The best test for item pricing is to compare it to \"must have\" items in the game, like weapons, armor, and stat-boosting gear. Also compare it to other items that share the same slot, and items with similar powers. As a rule of thumb, if you'd take the item in a heartbeat over a more expensive standard item, it is probably too cheap. And if you'd never consider taking a 10,000 gp ring over a ‹magic-wondrous/belt of physical might +2› or even a +2 battleaxe, it might just be overpriced. However, it is safer to price items too high rather than too low. After all, the PC gets a new, custom magic item out of the arrangement, and that's worth paying a bit extra."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -668,9 +668,9 @@
 		"subtitle": "Magic Items",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/117}",
+			"‹SOURCE GameMastery Guide/117›",
 			"",
-			"If there's no effect in {rule/Magic Item Gold Piece Values} that matches the new item's powers, try looking through existing magic items for something that's close. For example, Seltyiel wants to add the bladethirst ability to his longsword, a power he's come up with that lets him draw the weapon as a free action. This is essentially the {feat/Quick Draw} feat, but tied to a single weapon. Even though it's a weapon enhancement, Seltyiel wants it as a flat cost, like adding fire resistance to a suit of armor. Looking over the ability, the GM decides that this fits well, since it doesn't really scale up with a more powerful weapon. {magic-wondrous/Gloves of arrow snaring} are a 4,000 gp item that grants a feat, so the GM uses this as the base price. Multiple different abilities on a magic item would normally increase this cost by 50%, but since the Quick Draw feat would allow drawing items other than just a single weapon, the GM splits the difference and makes it a 5,000 gp weapon enhancement."
+			"If there's no effect in ‹rule/Magic Item Gold Piece Values› that matches the new item's powers, try looking through existing magic items for something that's close. For example, Seltyiel wants to add the bladethirst ability to his longsword, a power he's come up with that lets him draw the weapon as a free action. This is essentially the ‹feat/Quick Draw› feat, but tied to a single weapon. Even though it's a weapon enhancement, Seltyiel wants it as a flat cost, like adding fire resistance to a suit of armor. Looking over the ability, the GM decides that this fits well, since it doesn't really scale up with a more powerful weapon. ‹magic-wondrous/Gloves of arrow snaring› are a 4,000 gp item that grants a feat, so the GM uses this as the base price. Multiple different abilities on a magic item would normally increase this cost by 50%, but since the Quick Draw feat would allow drawing items other than just a single weapon, the GM splits the difference and makes it a 5,000 gp weapon enhancement."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -689,15 +689,15 @@
 		"subtitle": "Magic Items",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/117}",
+			"‹SOURCE GameMastery Guide/117›",
 			"",
 			"Watch out for magic items that provide benefits beyond the calculated price. Keep an eye toward preserving the existing power level of magic items in the game.",
 			"",
 			"@HL[Disadvantages That Aren't:] Be wary of items that are designed with a class or alignment restriction in order to lower the price. Since the item's restriction doesn't restrict the character who is going to use it, it isn't really a drawback at all and shouldn't reduce the price.",
 			"",
-			"@HL[Slotless Items:] The Pathfinder RPG is designed with assumptions about how many magic items a character can reasonably use at the same time, requiring players to make hard choices about which magic items their PCs acquire. Slotless items like {magic-wondrous/ioun stone/s} are usually either relatively low-powered or specialized in purpose. Think carefully before allowing a new magic that essentially duplicates an old one, but without using up an item slot.",
+			"@HL[Slotless Items:] The Pathfinder RPG is designed with assumptions about how many magic items a character can reasonably use at the same time, requiring players to make hard choices about which magic items their PCs acquire. Slotless items like ‹magic-wondrous/ioun stone«s› are usually either relatively low-powered or specialized in purpose. Think carefully before allowing a new magic that essentially duplicates an old one, but without using up an item slot.",
 			"",
-			"@HL[Good Item, Bad Formula:] Take a look at what the magic item actually does, and compare it to the formula used. Consider tweaking the cost or powers to match the provided benefit. A ring that provides {spell/mind blank} calculates to 153,000 gp, while one that casts *mind blank* once per day (at 24 hours per use) comes out to 55,080 gp. In truth, there's not a large difference in utility between the two items, and the first ring is a better fit for the theme of continuous mental protection."
+			"@HL[Good Item, Bad Formula:] Take a look at what the magic item actually does, and compare it to the formula used. Consider tweaking the cost or powers to match the provided benefit. A ring that provides ‹spell/mind blank› calculates to 153,000 gp, while one that casts *mind blank* once per day (at 24 hours per use) comes out to 55,080 gp. In truth, there's not a large difference in utility between the two items, and the first ring is a better fit for the theme of continuous mental protection."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -715,7 +715,7 @@
 		"name": "Creating a World",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/140}",
+			"‹SOURCE GameMastery Guide/140›",
 			"",
 			"While running games within a published campaign setting or a favorite fictional universe is a lot of fun, many GMs enjoy creating an entire setting from scratch - a world in which every idea, NPC, and location, is an expression of your creativity. It's a powerful feeling, one that can give you countless hours of enjoyment even outside of the game session."
 		],
@@ -750,7 +750,7 @@
 		"name": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/140}",
+			"‹SOURCE GameMastery Guide/140›",
 			"",
 			"Creating a setting from scratch can also be intimidating. This section provides you with tools to help take the guesswork out of world building, breaking down monumental considerations into small, manageable chunks. While this section presumes you're creating a fantasy setting for use with the Pathfinder Roleplaying Game, most of this advice can be applied to any game genre or system. Keep in mind that not all of these questions need to be answered ahead of time, and creating as you play allows you to keep things fresh and fun for both you and your players."
 		],
@@ -781,7 +781,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/140}",
+			"‹SOURCE GameMastery Guide/140›",
 			"",
 			"When beginning work on a setting, it's useful to start with a concise description of your idea - a mission statement of sorts. Try to keep to the essentials. If the setting is derivative of something else, don't be afraid to note that. Every artist pulls inspiration from existing work, and this is just a starting point - by the time you're done, your setting will likely have evolved into something completely different. Moreover, if you try too hard to make a setting unlike anything your players have ever seen before, it might leave them confused and disconnected; having to confront a 60-page synopsis just to be able to create a character gives players a major incentive to go play something else. Drawing from the real world or fictional universes familiar to your players gives them an easy entry point, and when a player can visualize the world you're presenting, it's easier for him to get caught up in it. This initial premise is also a good place to note any fundamental rules you intend to follow, such as a lack of intelligent non-humanoids or a quirk in the way magic works. Your entire concept might be something as simple as \"an alternate history Europe, but with a Viking empire bigger than Rome's.\"",
 			"",
@@ -806,7 +806,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/140}",
+			"‹SOURCE GameMastery Guide/140›",
 			"",
 			"Every GM has his own preferred method of world creation. For some, this process starts and ends with pen and paper, in which case it's often useful to have graph paper to help judge scale and create miniatures-ready maps, or a small notebook to carry around and record ideas as inspiration strikes. Yet not even those are necessary - part of the beauty of pen-and-paper RPGs lies in the freedom from material components.",
 			"",
@@ -831,19 +831,19 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/140}",
+			"‹SOURCE GameMastery Guide/140›",
 			"",
 			"Even if you decide to take a broad-strokes approach to campaign design, eventually you'll need to get down and gritty and start creating an environment on the level at which your PCs will interact with it. Likely the best place to start is the major city or town closest to your campaign's focus; as with every aspect of building a setting, how much work you spend on a location should be commensurate with how likely players are to spend time there, and it's nice for both the GM and PCs to have a base of operations.",
 			"",
 			"Along with the natural lures of healing, buying gear, and selling loot, you can use memorable characters like mentors or patrons and favored restaurants and taverns to help make the city feel like home. (These details also raise the stakes significantly if you later threaten the city's existence - it always helps if the PCs have some sentimental attachments to give them a personal stake in a region's defense.) Bear in mind that players are fickle and may become attached to unexpected people or entirely ignore characters you expected to become linchpins. Don't be afraid to roll with the punches if they prefer the halfling pickpocket to your paladin laden with adventure hooks. In fact, it's often best to wait until you see where player characters focus before fully exploring any particular NPC.",
 			"",
-			"Creating a city can follow a pattern similar to that used when creating nations. Start with the natural geography and the locations of the borders and the most important elements, which are likely inherently tied together (see {rule/Geography} for further information on how geography informs a city or nation's layout). From there, work out the government, cultural institutions, economy, and so on. Try working on your city both from the top and bottom, letting the middle shape itself out as you go. For example, while you should know who the highest potentates in the city are, unless your players will be interacting with them immediately, it's probably best to put this aside and spend more time on the level of the common people, the streets where most people live and work.",
+			"Creating a city can follow a pattern similar to that used when creating nations. Start with the natural geography and the locations of the borders and the most important elements, which are likely inherently tied together (see ‹rule/Geography› for further information on how geography informs a city or nation's layout). From there, work out the government, cultural institutions, economy, and so on. Try working on your city both from the top and bottom, letting the middle shape itself out as you go. For example, while you should know who the highest potentates in the city are, unless your players will be interacting with them immediately, it's probably best to put this aside and spend more time on the level of the common people, the streets where most people live and work.",
 			"",
 			"If you're just starting a campaign, this city may be the best place for you to introduce the underlying themes of your setting. Figure out how to immerse your players in it: how can these themes play out in the first session? How can their early interactions foreshadow and set them up for their coming adventures?",
 			"",
 			"Once you've got the big picture for your city, it's time to start filling in details. Don't panic! A city has a lot of space to fill, but you don't need to know what every dot on your map is. Create a number of colorful locations, characters, and connected plot threads - but don't pin them down. Remember, you only have to detail as much of the city as your characters can interact with. If your characters head east from the town square looking for an inn, give them a few choices. If they instead head west, give them the same choices, but turn that waterfront bar into the best inn on the hilltop. If you want them to run into a certain character, they can do so whether they head to the market or the boatyard. While such tactics might feel like \"cheating\" to some GMs, roleplaying has an element of solipsism to it, and if your players never experience a given location, it effectively doesn't exist. Change names and ad-lib where you need to; in this manner, you can populate an entire city with just a handful of businesses and characters, and ensure that your favorite creations (whether NPCs or adventure hooks) get the airtime they deserve.",
 			"",
-			"For more information on building cities, as well as important questions to consider, see {rule/The Cosmopolitan Society}."
+			"For more information on building cities, as well as important questions to consider, see ‹rule/The Cosmopolitan Society›."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -862,7 +862,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/142}",
+			"‹SOURCE GameMastery Guide/142›",
 			"",
 			"Game designers work for months on setting sourcebooks, novelists agonize for years over how their world might work, and screenplay writers have production designers and art directors helping them present a movie's backdrop to the audience. You, on the other hand, may not have much time to create the world your players will adventure in, and you definitely won't have a huge production staff to help you.",
 			"",
@@ -895,7 +895,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/142}",
+			"‹SOURCE GameMastery Guide/142›",
 			"",
 			"First things first: What do the heroes do in this new world of yours? The first thing players do when you start a new campaign is create characters, so it's a good idea to think first about what the heroes of your world need to know.",
 			"",
@@ -931,7 +931,7 @@
 			"",
 			"### How are lives affected by magic?",
 			"",
-			"Most fantasy game worlds have magic of the arcane kind as a staple. Players who are looking to play wizards or sorcerers need to know what it means to be a wizard or sorcerer, even if they don't initially have to know the source or origin of magic itself. This is also true of the other heroes, who should have a fairly good understanding of what society thinks of people casting {spell/fireball/s} and summoning demons. You're also going to have to tell the players whether they should expect to have access to healing magic, or if the world is more gritty and dangerous.",
+			"Most fantasy game worlds have magic of the arcane kind as a staple. Players who are looking to play wizards or sorcerers need to know what it means to be a wizard or sorcerer, even if they don't initially have to know the source or origin of magic itself. This is also true of the other heroes, who should have a fairly good understanding of what society thinks of people casting ‹spell/fireball«s› and summoning demons. You're also going to have to tell the players whether they should expect to have access to healing magic, or if the world is more gritty and dangerous.",
 			"",
 			"### How are lives affected by religion?",
 			"",
@@ -962,7 +962,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/143}",
+			"‹SOURCE GameMastery Guide/143›",
 			"",
 			"Once you have the key heroic details figured out, you have a rough sketch of an adventuring world. Now you're going to have to think about the run-of-the-mill folk who populate it. Some NPCs may be just a funny accent and a handful of stats, but they still exist independently of the heroes. Think about the sorts of things the player characters might ask the innkeeper or the town guard.",
 			"",
@@ -1000,7 +1000,7 @@
 			"",
 			"### Why is everybody celebrating?",
 			"",
-			"Holy days, feast days, and anniversaries are all essential world-building elements that you should consider sketching out when you're working on your new setting. For more information on designing holidays, see {rule/Celebrating Time}.",
+			"Holy days, feast days, and anniversaries are all essential world-building elements that you should consider sketching out when you're working on your new setting. For more information on designing holidays, see ‹rule/Celebrating Time›.",
 			"",
 			"### What do people do for a good time?",
 			"",
@@ -1027,7 +1027,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/144}",
+			"‹SOURCE GameMastery Guide/144›",
 			"",
 			"Now we come to the information that perhaps only a sage would need to know, but which forms the underpinning of your world's physics - and metaphysics. Such details include how the world was formed, how magic works, and where dead heroes go when they fall in battle; many are fleshed out further starting [here](rule/technology).",
 			"",
@@ -1047,19 +1047,19 @@
 			"",
 			"### What happens when you die?",
 			"",
-			"Think about whether your world has an afterlife, a place of eternal reward or suffering. Do souls travel the planes, becoming servants of the gods, or do they reincarnate, with the legacy of heroes extending back to the earliest days? Do people even have souls at all? Among the many reasons to consider this question is the existence of spells like {spell/resurrection} and {spell/speak with dead}, as well as the nature of undead. If you depart this world for your next life after death, what's that ghost's story? Why is it still around?",
+			"Think about whether your world has an afterlife, a place of eternal reward or suffering. Do souls travel the planes, becoming servants of the gods, or do they reincarnate, with the legacy of heroes extending back to the earliest days? Do people even have souls at all? Among the many reasons to consider this question is the existence of spells like ‹spell/resurrection› and ‹spell/speak with dead›, as well as the nature of undead. If you depart this world for your next life after death, what's that ghost's story? Why is it still around?",
 			"",
 			"### What cycles or events define the calendar?",
 			"",
-			"One characteristic of a world is the cycle of seasons, the weather, and the passage of time. For more information on this subject, see {rule/Time}.",
+			"One characteristic of a world is the cycle of seasons, the weather, and the passage of time. For more information on this subject, see ‹rule/Time›.",
 			"",
 			"### What do you see when you look at the sky?",
 			"",
-			"What are the stars? What about the moon and planets? You can leave most such questions unanswered for a long time, but when the player characters achieve the kind of power or freedom to venture to other worlds, you'll want to know what they find. For more on this topic, see {rule/The Cosmos}.",
+			"What are the stars? What about the moon and planets? You can leave most such questions unanswered for a long time, but when the player characters achieve the kind of power or freedom to venture to other worlds, you'll want to know what they find. For more on this topic, see ‹rule/The Cosmos›.",
 			"",
 			"### What constitutes cutting-edge technology?",
 			"",
-			"Setting a world's tech level can be an excellent defining characteristic. Where does alchemy fit in? Does the printing press exist? What about rudimentary steam power? For more on this subject, see {rule/Technology}.",
+			"Setting a world's tech level can be an excellent defining characteristic. Where does alchemy fit in? Does the printing press exist? What about rudimentary steam power? For more on this subject, see ‹rule/Technology›.",
 			"",
 			"### Where do monsters come from?",
 			"",
@@ -1090,7 +1090,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/146}",
+			"‹SOURCE GameMastery Guide/146›",
 			"",
 			"One of the greatest joys of creating your own campaign setting is the thrill and challenge of crafting an entire world, shaping it out of the primordial clay and setting it spinning in the void. Yet as much fun as this can be, it can also be a complicated and frustrating endeavor if you aren't already an expert in the things that make our own planet what it is. When you run up against something outside of your knowledge base, it's often tempting to simply say, \"This is a magical world - rivers and mountains and deserts can go wherever they want.\"",
 			"",
@@ -1127,7 +1127,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/146}",
+			"‹SOURCE GameMastery Guide/146›",
 			"",
 			"The first thing to accept when you sit down to draw a map of your campaign world is that it doesn't need to be beautiful. As long as you can understand your own scribblings, you'll be able to maintain consistency and verisimilitude when running your game. If you don't think of yourself as particularly artistic, buy some tracing paper and crib shapes and designs from maps you like. Try reproducing a favorite map by hand, or extending an existing map beyond its edge in the same artistic style.",
 			"",
@@ -1150,7 +1150,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/146}",
+			"‹SOURCE GameMastery Guide/146›",
 			"",
 			"The kind of campaign you want to run should inform the scope of the map you need to create. If your game focuses entirely on a small valley in a mountain range, you might not even need to create a world map. On the other hand, if you're intending to include long overland journeys, you might need to create a sprawling map of an entire continent, or even a whole planet! The important thing to keep in mind is that you don't need to finish everything before the first game. Focusing only on the parts of the map that are directly connected to the next session not only eases your workload, but makes it easier to keep track of things. You're learning about your new world as you create it, and if you do so in small patches over the course of months or years, your knowledge will grow organically."
 		],
@@ -1171,7 +1171,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/146}",
+			"‹SOURCE GameMastery Guide/146›",
 			"",
 			"When it comes to drawing your map, keep in mind that the world's shape follows a specific hierarchy. As you draw your map, it's best to follow the steps below and make your decisions in this order; after all, it's tough drawing rivers without knowing where the mountains and coastlines are.",
 			"",
@@ -1209,7 +1209,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/147}",
+			"‹SOURCE GameMastery Guide/147›",
 			"",
 			"The first step is to divide land from water; draw in the region's coastlines, remembering to add bays and harbors here and there (these make great locations for major cities). Scatter islands, inland seas, and lakes here and there, bearing in mind that a chain of islands extending off a coast might indicate an extension of a mountainous region into an ocean or sea. Unless you're an expert on geology or cartography, don't worry about things like plate tectonics or trying to map the curve of the planet, especially if the region you're mapping is only a single continent or smaller. (Of course, it can't hurt to freshen up on these topics.) One way to make this easier is to vaguely base the shapes of your continents on the shapes of Earth's continents, a tactic used by many game designers and fantasy novelists."
 		],
@@ -1234,7 +1234,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/147}",
+			"‹SOURCE GameMastery Guide/147›",
 			"",
 			"Once your coastlines are set, draw in the outlines of where you want your region's major mountain ranges to run. A mountain range outline should generally be long and narrow, perhaps with multiple \"fingers\" extending from its length, since mountains often form as continental plates push together to \"wrinkle\" the surface of a world. Mountain ranges that roughly follow a region's coastline are common, as seen along the west coasts of North and South America. Volcanic activity can also cause mountains to rise - now's a good time to place some volcanoes (preferably in a line along a mountainous coastline or a range of mountains).",
 			"",
@@ -1261,7 +1261,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/147}",
+			"‹SOURCE GameMastery Guide/147›",
 			"",
 			"Once you have the elevations of your region marked, you'll be able to place rivers. Start near the centerline of a mountain range and wind downward on whatever curving course you want as you approach a coastline. Make sure that your rivers don't double back across an elevation line once they cross it, since water has a hard time flowing uphill. One important thing to keep in mind is that, as a general rule, water wants to flow together rather than apart - as a result, you should avoid having your rivers \"split\" as they flow downward from the mountains, save to create a delta like those at the mouths of the Mississippi or the Nile. Likewise, make sure that you don't have multiple rivers emptying out of a lake!"
 		],
@@ -1286,7 +1286,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/147}",
+			"‹SOURCE GameMastery Guide/147›",
 			"",
 			"Sketch in major woodlands or jungles, placing them along coastlines and in lowlands, perhaps up to the edges of your highest elevations in places. Vegetation near a large water source like a delta often forms a marshland or swamp. Don't go too overboard with these regions, though! Remember that areas you don't turn into woodlands or swamps can be hilly regions, plains, steppes, badlands, or other relatively clear terrains. Deserts are a special case - place them in areas where there are few rivers (it's okay to have one or two) and where there's a mountain range to block the path of precipitation; this area is known as a \"rain shadow.\""
 		],
@@ -1311,7 +1311,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/147}",
+			"‹SOURCE GameMastery Guide/147›",
 			"",
 			"Now you're ready to start naming your regions and placing spots of interest like cities, dungeons, and other notable features. Keep in mind some simple rules here: cities are almost always found on rivers or shorelines, and you'd expect to see cave entrances in hilly or mountainous areas. If you're drawing in national borders, remember that such divisions commonly fall along convenient geographical features, such as rivers or mountain ranges. Make sure to place plenty of intriguing adventure sites, too - it's a good rule to place three adventure sites within a few day's travel of each of your cities."
 		],
@@ -1336,7 +1336,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/147}",
+			"‹SOURCE GameMastery Guide/147›",
 			"",
 			"While these guidelines stress the importance of realism, don't forget that you're designing a fantasy world! Anything goes - feel free to have rivers flowing uphill, mountains that float on the ocean, deserts or forests that move, or swaths of ocean where the water drops away to expose portions of the sea bed. As long as you realize that these locations are unrealistic, you can design for them and explain them however you wish."
 		],
@@ -1361,7 +1361,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/148}",
+			"‹SOURCE GameMastery Guide/148›",
 			"",
 			"While such things are undeniably important, creating a world is more than merely drawing realistic geography and political lines and then slapping down analogues of real-world societies. World building is, at its core, about creating cultures and showing how those cultures have shaped the world, from simple farmers laboring for a lordly knight to fantastic sky aeries of winged elves or plane-shifting cities of ethereal horrors. But what is culture? Culture is not merely the social environment of a village or the quaint customs of the locals.",
 			"",
@@ -1404,7 +1404,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/148}",
+			"‹SOURCE GameMastery Guide/148›",
 			"",
 			"The GM can place each of the following elements on a spectrum; religion, for instance, can produce both fanatics and agnostics, and trade can consist of simple barter or complex financial instruments used to move vast sums of hypothetical money. Where a culture falls on each question is up to the world builder, but keep in mind that none of these elements exists alone, and the position of one may influence that of another.",
 			"",
@@ -1436,7 +1436,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/148}",
+			"‹SOURCE GameMastery Guide/148›",
 			"",
 			"When cultures break down into nations, whether from tribal loyalties or other shifts in thinking, or grow too large for simple meetings or councils to oversee, they require more formal governance. Broadly speaking, there are three types of government: anarchic, or rule by consent of the governed; authoritarian, or rule by the few; and democratic, rule by voice of the people. In general, most fantasy nations fall into the first two categories, either too small or disorganized to have a central authority, or possessing a ruling class that keeps the rest of the nation firmly in line.",
 			"",
@@ -1475,7 +1475,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/149}",
+			"‹SOURCE GameMastery Guide/149›",
 			"",
 			"Every civilization that rises does so via the use of resources: goods that have both utility and scarcity. As noted above, people require shelter, food, clothing, and other goods simply to survive. Basic innovations help store food and create clothing faster, and these innovations free members of society to help produce still more inventions. At some point, communal wealth tends to move toward private ownership, which then requires trade. The earliest form of trade is barter, or the exchange of one good or service for another (or for social status). But what happens when one party needs something and the other doesn't require his resources?",
 			"",
@@ -1503,7 +1503,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/149}",
+			"‹SOURCE GameMastery Guide/149›",
 			"",
 			"The following sections outline several types of societies."
 		],
@@ -1532,7 +1532,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/150}",
+			"‹SOURCE GameMastery Guide/150›",
 			"",
 			"All historical cultures, and nearly all fantastical ones, spring from primal forebears. Though creation myths sometimes tell of people springing full-formed from the earth (or the sky, the clouds, the seas, the blood of a god, and so on), culture in general proceeds from a primitive state to a more advanced one. In this case, \"advanced\" means a fixed agrarian base, a shift away from the hunter-gatherer model, the development of technological innovations, and a step toward an integrated economy, where the method of trade moves beyond simple barter or communal requirements. It's certainly possible to see an advanced culture devolve into primitivism, though it's much less common. In these cases the memories of lost glories likely end the primitive era more quickly.",
 			"",
@@ -1578,7 +1578,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/150}",
+			"‹SOURCE GameMastery Guide/150›",
 			"",
 			"A primitive culture is one that relies mainly on its connection with the land for subsistence. Its people don't engage in large-scale and complex organization, nor are they complex toolmakers. They may travel frequently, following herds of animals or escaping marauding predators. Their clothing is of cured animal skin or crudely woven plant fibers. Their tools and weapons range from simple stone and wood bound together with leather strips to crudely worked iron at best. Their craftsmanship, on the other hand, can range from rude to exquisite, depending on how much time they can devote to this outside of the more basic necessities of survival.",
 			"",
@@ -1608,7 +1608,7 @@
 		"subtitle": "Primitive Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/150}",
+			"‹SOURCE GameMastery Guide/150›",
 			"",
 			"A primitive culture rewards strength and intelligence in its leaders. Smart leaders show the people how to prosper. Strong leaders bring plunder and security. Different cultures place different values on their leaders, but they inevitably follow those who give them the greatest chance for survival. If raids and brutality are the means by which a culture survives, bloodthirst becomes a virtue. If guile and cunning prove more efficacious, then the culture develops them as its primary traits. Leaders, then, must demonstrate their abilities to earn and defend their positions, whether by leading war bands, luring enemies into snares and ambushes, or devising better methods for hunting and raising food. Those with aptitudes for magic or the divine can often lead as well, whether directly or through an advisory role."
 		],
@@ -1632,7 +1632,7 @@
 		"subtitle": "Primitive Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/151}",
+			"‹SOURCE GameMastery Guide/151›",
 			"",
 			"The religions of early people tend to be simplistic and animistic, ascribing spirits and thought to objects and phenomena. Their lives are full of portents and omens, and when they read the wind and follow the stars, they see the hands of the unknown in the world around them and so invent rituals, beliefs, and sacrifices to placate such spirits.",
 			"",
@@ -1662,7 +1662,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/151}",
+			"‹SOURCE GameMastery Guide/151›",
 			"",
 			"When designing a primitive culture, keep in mind some basic questions about the people.",
 			"",
@@ -1709,7 +1709,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/152}",
+			"‹SOURCE GameMastery Guide/152›",
 			"",
 			"As cultures emerge from ignorance into knowledge, as the people band together for mutual protection, certain leaders - whether strong, smart, or charismatic - rise to guide, lead, and protect. In a fantastic feudal society, such protection is paramount. With hordes of orcs nearby or a dragon's lair within flying distance, those without skill in arms or magic must depend on those who do have it - and those who have it must expend their energy on maintaining their abilities, rather than scratching the earth or chopping wood. Thus, leaders arise.",
 			"",
@@ -1753,7 +1753,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/152}",
+			"‹SOURCE GameMastery Guide/152›",
 			"",
 			"The primary responsibility of a feudal lord is protection for his or her vassals. This protection is both physical and legal, including aid if a vassal comes under attack as well as swift justice under the law. Though more advanced kingdoms tend to rely on precedent and established common law, kings and queens can override these at will. Their word literally is the law, often bolstered by a supposed divine mandate (and their allies within the church).",
 			"",
@@ -1779,7 +1779,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/153}",
+			"‹SOURCE GameMastery Guide/153›",
 			"",
 			"A sample feudal hierarchy, from top to bottom, is as follows. Note that the nobility holds the land in trust for the crown and does not own it outright. Certain exceptions, called allodial holdings, can be granted to anyone by the crown, but they usually quickly revert to the crown via trickery or conquest. As a feudal society doesn't leave a lot of leeway for travel, adventurers might be freemen out to improve their station through great deeds, or the youngest progeny of the nobility, eager to win their own titles through force of arms.",
 			"",
@@ -1817,9 +1817,9 @@
 		"subtitle": "Feudal Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/153}",
+			"‹SOURCE GameMastery Guide/153›",
 			"",
-			"Faith plays a huge role in many feudal societies, especially in monotheistic belief systems whose churches are structured in a similar fashion. In a fantasy setting, with multiple pantheons and the favor of the gods manifesting in physical phenomena, all bets are off. Will a monarch want to ally with a church? Early members of the royal family may find these alliances convenient, but when a priest can cast {spell/detect evil} or {spell/see alignment}, rulers no longer have the option of hiding their true beliefs. Giving such power to a church might spell disaster for a royal house. When priests speak of a ruler having the divine right, the people can rest assured that this is so. One question, then, is what happens when a hereditary monarch doesn't have that favor. Does he corrupt the priesthood, or do the priests help to replace him? In a feudal society, these are not small tasks.",
+			"Faith plays a huge role in many feudal societies, especially in monotheistic belief systems whose churches are structured in a similar fashion. In a fantasy setting, with multiple pantheons and the favor of the gods manifesting in physical phenomena, all bets are off. Will a monarch want to ally with a church? Early members of the royal family may find these alliances convenient, but when a priest can cast ‹spell/detect evil› or ‹spell/see alignment›, rulers no longer have the option of hiding their true beliefs. Giving such power to a church might spell disaster for a royal house. When priests speak of a ruler having the divine right, the people can rest assured that this is so. One question, then, is what happens when a hereditary monarch doesn't have that favor. Does he corrupt the priesthood, or do the priests help to replace him? In a feudal society, these are not small tasks.",
 			"",
 			"Depending on the society you design, the churches may be more or less woven into the framework of society, with churches of a lawful bent naturally appealing to a monarch from whom all laws stem. In such situations, the monarchy generally works with its spiritual advisors in much the same way as it does with its vassals - though in theory the church answers to itself, in practice power begets power, and those churches deeply enmeshed in feudal politics tend to spend much of their effort enforcing the social order, maintaining orthodoxy, and rooting out heresies."
 		],
@@ -1843,7 +1843,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/153}",
+			"‹SOURCE GameMastery Guide/153›",
 			"",
 			"When designing a feudal society, consider the following:",
 			"",
@@ -1886,7 +1886,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/154}",
+			"‹SOURCE GameMastery Guide/154›",
 			"",
 			"In general, civilization hinges on a people's ability to move beyond the hunter-gatherer model, to settle into a place, learn to understand, and it harness its resources. In most cases, this is the result of a primitive people first domesticating wild animals - either as hunting companions or as food, clothing, or milk sources - and learning to plant crops for survival. Many cultures eventually move on from that base, focusing instead on technological innovation, conquest, or higher magic.",
 			"",
@@ -1929,7 +1929,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/154}",
+			"‹SOURCE GameMastery Guide/154›",
 			"",
 			"In most settled lands, there is a limited growing season. Whether this is because of harsh winters or blazing summers, lack of or too much water, or monster activity, farmers must plan well ahead to gain the most from their land. Near the equator, growing seasons tend to be longer, while near the poles, they're shorter. As continuous farming leaves the land poor in nutrients, farmers must figure out ways to improve the yield year after year. Whether by controlled burning, crop rotation, irrigation, or synergistic fertilization with domesticated animals, the members of an agrarian society must constantly and consistently ensure that their lands are fertile during the growing season, and that they produce as much as possible during that time.",
 			"",
@@ -1960,7 +1960,7 @@
 		"subtitle": "Rural/Agrarian Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/155}",
+			"‹SOURCE GameMastery Guide/155›",
 			"",
 			"Being so closely tied to the land naturally directs these cultures toward nature-based deities or the worship of nature itself. Druids and the gods of fertility receive sacrifices of thanks and prayer; the gods of death, disease, and famine receive supplications to keep their distance. The reproductive cycles of various domesticated animals are incredibly important, and other holy days might be built around harvests, solstices, equinoxes, plantings, and other annual tasks. Such events are often marked with fertility rites, bonfires, celebrations, and sacrifices to assure greater yields, more children, and the blessings of the gods.",
 			"",
@@ -1987,7 +1987,7 @@
 		"subtitle": "Rural/Agrarian Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/155}",
+			"‹SOURCE GameMastery Guide/155›",
 			"",
 			"Since farms are an integral part of any civilization, the question for a world-builder is just how much of the society focuses on agriculture. In an early feudal society, most of the peasants and serfs work on farms. As farming methods and means of distribution improve, some peasants become freemen and can move toward other professions, creating a burgeoning middle class. In the beginning, though, these post-farming professionals tend to be oriented toward pastoral crafts, such as weavers, potters, and smiths.",
 			"",
@@ -2014,7 +2014,7 @@
 		"subtitle": "Rural/Agrarian Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/155}",
+			"‹SOURCE GameMastery Guide/155›",
 			"",
 			"Far from the protecting arm of a liege lord (if they have one at all), most rural societies must rely on themselves. Along with the normal race against time and nature to produce enough food to survive, raiders and monsters are a constant threat, especially during the winter, when farmer's stores are full and foraging is difficult. As a result, farmers are as likely to be suspicious or hostile as they are to welcome the protection of adventurers. War is another great destroyer of rural communities; though rarely involved as fighters themselves, farmers see their fields trampled and animals infected by unburied corpses. Warlords of all alignments are notorious for commandeering and slaughtering farm animals for their sustenance, and billeting their troops in homes even if they are unwelcome."
 		],
@@ -2039,7 +2039,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/155}",
+			"‹SOURCE GameMastery Guide/155›",
 			"",
 			"When designing a rural or agrarian society, keep in mind some of the following basic questions about the people.",
 			"",
@@ -2084,7 +2084,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/156}",
+			"‹SOURCE GameMastery Guide/156›",
 			"",
 			"While countrysides, farmlands, mountaintops, forests, and tundras all have their place in a well-developed world, the city is where the heart of civilized culture beats. As trade hubs, military fortifications, artistic centers, intellectual havens, and seats of government, cities are repositories of history and cultural knowledge. But what makes a city? How does it form, and how does it attract its people?",
 			"",
@@ -2117,7 +2117,7 @@
 		"subtitle": "Cosmopolitan Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/156}",
+			"‹SOURCE GameMastery Guide/156›",
 			"",
 			"While smaller settlements like towns and forts can sometimes exist in barely tenable situations, often for strategic military reasons, most realistic cities have a few basic requirements that must be met.",
 			"",
@@ -2146,7 +2146,7 @@
 		"subtitle": "Cosmopolitan Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/156}",
+			"‹SOURCE GameMastery Guide/156›",
 			"",
 			"The first question the GM must ask about a city is what drew the original settlers to this specific spot, and why they stayed. Was it the protection offered by a mountainous bluff? Proximity to a river? Or merely the closest they could reasonably get to an easily exploited natural resource?",
 			"",
@@ -2179,7 +2179,7 @@
 		"subtitle": "Cosmopolitan Society, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/157}",
+			"‹SOURCE GameMastery Guide/157›",
 			"",
 			"Designing a city can seem like an overwhelming task, but in a roleplaying game, the key to designing a compelling city is to consider those aspects that are most likely to affect your adventure or the PCs. Before you start writing your city, develop a familiarity with the more practical elements of your locale by answering the following questions (many of which are useful in designing smaller settlements, as well).",
 			"",
@@ -2234,7 +2234,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/158}",
+			"‹SOURCE GameMastery Guide/158›",
 			"",
 			"The cultures presented in the preceding sections are broad categories, and certainly not the only ones available to a fantasy world. Others have flowered from similar beginnings and taken dramatically different paths. The societies listed below are merely a few other possibilities; taken with the advice from previous sections, these sketches can be used by world builders to begin creating cultures from whole cloth. Whether your new society is inspired by real-world civilizations or completely alien, consider the following questions about it:",
 			"",
@@ -2297,7 +2297,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/160}",
+			"‹SOURCE GameMastery Guide/160›",
 			"",
 			"One of the most important factors in building a world is its level of technological advancement. Technology affects every aspect of the game, from what gear PCs carry to what kinds of adventures a GM can run. Though many fantasy games presume a level of technology based on medieval Europe, this is far from the only option - even leaving aside those subgenres that might qualify as science fiction, fantasy can still run the gamut from steampunk and magic-infused technocracy to the hardscrabble world of primitive barbarian tribes. So how do you decide what's right for your world?"
 		],
@@ -2329,7 +2329,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/160}",
+			"‹SOURCE GameMastery Guide/160›",
 			"",
 			"Many fantasy RPGs assume a medieval or Renaissance baseline, a level of technology in which castles, swords, and armor are at their peak. Yet if your world follows the same trends as Earth's history, several technological revolutions are just around the corner, and you should give some thought to how they interact with your setting, if at all.",
 			"",
@@ -2365,11 +2365,11 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/161}",
+			"‹SOURCE GameMastery Guide/161›",
 			"",
 			"One of the best things about creating an entire setting is giving yourself several different regions with wildly different societies, and that includes regions with differing levels of technology. While some GMs argue that such variances break a game, a glance at Earth shows that it's possible to have neighboring nations operating under extremely different conditions, and the farther apart the societies lie, the less likely there is to be crossover. Hence, it's entirely possible to have both guns and swords in your world, or a futuristic race with inventions too advanced for the primitive barbarians next door to replicate on their own. While less fortunate cultures likely lust after such innovations, it's not hard to stem the flow of technology, especially if the only people capable of constructing the wonders keep the secrets to themselves and sell their wares at incredibly inflated rates.",
 			"",
-			"This brings up another important issue: futuristic technology. Though it can be argued that, to a caveman, a sword constitutes future technology, most people think of futuristic science in terms of ray guns and laser swords, the treasures of invading aliens, or the post-apocalyptic remnants of lost civilizations. Such items are often persona non grata in a fantasy setting, but the question remains: in a world where a wizard can make his {spell/wish/es} reality, is there any functional difference between a ray gun that shoots fire and a {spell/wand of |scorching ray}?"
+			"This brings up another important issue: futuristic technology. Though it can be argued that, to a caveman, a sword constitutes future technology, most people think of futuristic science in terms of ray guns and laser swords, the treasures of invading aliens, or the post-apocalyptic remnants of lost civilizations. Such items are often persona non grata in a fantasy setting, but the question remains: in a world where a wizard can make his ‹spell/wish«es› reality, is there any functional difference between a ray gun that shoots fire and a ‹spell/wand of »scorching ray›?"
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2389,7 +2389,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/161}",
+			"‹SOURCE GameMastery Guide/161›",
 			"",
 			"The question of how magic and science interact in your world is worth asking. Not just in terms of the laws and logic that each follows - though that helps - but how each is viewed and utilized by society. In a world with magic, is there any need for conventional science? If so, what factors determine which scholars pursue which? Which one is cheaper for the average peasant with a problem, and which is more reliable? How do the various churches view science? Do scientists and arcanists get along, or do they see each other as rivals? If they coexist, do the same individuals study both, and how do the different fields inform each other? Why bother with expensive, dangerous scientific experiments when you can cast a divination spell and have a deity personally verify or disprove your hypothesis?",
 			"",
@@ -2413,7 +2413,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/161}",
+			"‹SOURCE GameMastery Guide/161›",
 			"",
 			"Anachronisms, meaning things that seem out of place in a given time period, are always an issue in fantasy. Any time you try to draw from the past, your base assumptions as a resident of the present make it easy to accidentally introduce modern conventions. Every GM should be prepared to deal with players calling him on anachronisms she hadn't noticed (or worse, on things like eyeglasses and clocks which feel anachronistic but in fact far predate the medieval period). So how should you deal with anachronisms?",
 			"",
@@ -2439,7 +2439,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/162}",
+			"‹SOURCE GameMastery Guide/162›",
 			"",
 			"Even the most superficial treatment of a campaign setting needs to deal with history and the passage of time. Every ancient ruin, powerful artifact, and court intrigue is rooted in the past, and history brings context to adventures. Your decisions on such things as the age of the world, the nature of the calendar, and even the length of the seasons have significant impacts on the stories that unfold."
 		],
@@ -2473,7 +2473,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/162}",
+			"‹SOURCE GameMastery Guide/162›",
 			"",
 			"Time creates continuity and strings together what would otherwise be a collection of random events, dungeon crawls, and journeys. A world is much more than a vague stage for the adventurers to act upon. To bring depth to the setting, you need to look into the past and establish at least a loose framework for history. How many generations ago did people first arrive in the area? How far back does the current ruling family trace its lineage? How long ago was the port city founded? And what do all of these have in common, if anything?",
 			"",
@@ -2499,7 +2499,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/162}",
+			"‹SOURCE GameMastery Guide/162›",
 			"",
 			"In most fantasy settings, time is a linear construct, a series of dates on a line. This is the standard construct, but it can also be tweaked. Do the people of your world think of time as a series of never-ending cycles or in terms of ages defined by a common theme, such as the Dark Ages or the Age of Reason? Does history repeat itself? If so, is this repetition what leads to prophecy, and how does it affect the role of sages, historians, and storytellers? Alternatively, you might decide that time happens all at once, a singular, shared hallucination - this obviously becomes complicated and makes great demands on your world's cosmology, but it can be a fun conceit nonetheless.",
 			"",
@@ -2531,7 +2531,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/162}",
+			"‹SOURCE GameMastery Guide/162›",
 			"",
 			"Holidays, festivals, and other calendar-based events provide easy world flavor and adventure hooks.",
 			"",
@@ -2561,7 +2561,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/162}",
+			"‹SOURCE GameMastery Guide/162›",
 			"",
 			"When answering the questions in this section, don't be afraid to start simple and add more as you run adventures. Write up a few important events in your setting's history, shuffle those around, and when you're happy with the story, you can set their dates and lay them out into a timeline. Even if you only have five important dates, that's enough to provide context for dozens of potential adventures. And as the game progresses, you simply flesh things out more.",
 			"",
@@ -2589,7 +2589,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/163}",
+			"‹SOURCE GameMastery Guide/163›",
 			"",
 			"While creating calendars and timelines is a lot of fun, it also carries with it a few design risks that can end up coming back to haunt you if you don't take care.",
 			"",
@@ -2619,7 +2619,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/163}",
+			"‹SOURCE GameMastery Guide/163›",
 			"",
 			"Time isn't just about holidays, calendars, and politics. On a more cosmic level, the tone of the campaign may depend on how old or young the world is, and what this means to the people, places, and plots that play out upon it. While the standard fantasy world assumes such things as ancient empires and lost races as an explanation for the many dungeons, artifacts, and legends that feature in adventures, this is merely a default. Consider these other options."
 		],
@@ -2647,7 +2647,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/163}",
+			"‹SOURCE GameMastery Guide/163›",
 			"",
 			"A young world is one that has only recently given rise to a civilized society, one in which many races are in their infancy or have yet to achieve cultural maturity. There are no ruined remnants of a lost age (or they may be buried so deep as to be yet undiscovered by the current residents). In such a world, magic may feel raw and untamed. The gods may yet walk the earth, or they have only recently inspired the creation of cults and churches. Military orders have yet to be founded. Races have not been divided by civil war or strife. The player characters are the heroes that future generations will tell stories about. Depending on how young the world is, you might decide some rules elements may be entirely absent - no iron weapons, no spells greater than 3rd level in power, and so on."
 		],
@@ -2668,7 +2668,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/163}",
+			"‹SOURCE GameMastery Guide/163›",
 			"",
 			"In contrast to a young world, an ancient world has already hit the peak of its civilizations and is fast approaching its end. In the twilight of this setting, some races have been lost to history or have moved on to other shores in the multiverse. Technology may have come and gone, giving the setting either a dystopian, post-apocalyptic theme or a pastoral, back-to-nature aesthetic. Or it may have advanced to a truly astounding level, marrying the traditional fantasy elements to steampunk or cyberpunk tropes. If the world is ancient, tradition might be even more dominant over the lives of individuals. Sorcerers may no longer exist, having had their magical traits codified into the power of wizards. Barbarians and druids might no longer have a place, or perhaps their role is changed to that of degenerate savages."
 		],
@@ -2689,7 +2689,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/164}",
+			"‹SOURCE GameMastery Guide/164›",
 			"",
 			"Space. In many fantasy games, it's not even the final frontier, but rather completely beyond the bounds of the campaign setting. Yet mankind has always looked to the sky for escape and adventure, and why should your PCs be any different? By answering a few questions regarding the nature of your world's cosmos, you can expand your setting and greatly increase its verisimilitude."
 		],
@@ -2721,7 +2721,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/164}",
+			"‹SOURCE GameMastery Guide/164›",
 			"",
 			"The first question every GM should ask about a world is whether or not it's a planet. This is by no means a foregone conclusion; planets are a relatively recent concept, and in the millennia before Earth's shape was proved, various cultures had widely varying theories. Many believed that the Earth was flat, a disc floating in an endless ocean or supported on the back of an elephant (in turn riding on a huge turtle). Others believed the world was square, the slopes of an enormous mountain, or bound by the roots of a colossal tree that held up the sky. Who's to say that any of these isn't true for your world? Perhaps your setting is a giant mobius strip, or a facet on the many-sided gem of the universe. You're the GM, and what you say goes.",
 			"",
@@ -2755,7 +2755,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/164}",
+			"‹SOURCE GameMastery Guide/164›",
 			"",
 			"While solitary planets are common in our universe, why restrict yourself to one world? Try roughing in some other planets in your solar system; such worlds spawn strange beasts and give you entirely new campaign settings to explore. In creating these planets, remember that rocky worlds like Earth form close to the sun, and gas giants farther out.[^1] But that doesn't mean you can't have playable worlds all the way out to the system's edge; captured bodies like asteroids and planet-sized moons around gas giants make wonderful solid worlds. A full solar system lets you play with planetary characteristics that are likely too extreme for your base world, such as the following.",
 			"",
@@ -2793,7 +2793,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/165}",
+			"‹SOURCE GameMastery Guide/165›",
 			"",
 			"If your solar system has multiple worlds, the next question is how beings can travel between them.",
 			"",
@@ -2801,7 +2801,7 @@
 			"",
 			"@HL[Vessels:] Whether powered by magic or science, spaceships add a whole new flavor to a game. Do your starships operate via massive thrusters or diaphanous sails that catch the sun's light? Do they fold space and time, or are they giant space-faring creatures that passengers stow away inside like Jonah and the whale? And does it take days, years, or generations for the vessel to reach another world?",
 			"",
-			"@HL[Spells:] Teleportation spells are important to consider when establishing extraplanetary locations. Can a wizard simply cast {spell/greater teleport} or {spell/wish}, or is more required to reach the stars? Be warned that easy access to the galaxy brings a host of concerns - such as why, if interplanetary travel is easy, aliens aren't thronging your base world."
+			"@HL[Spells:] Teleportation spells are important to consider when establishing extraplanetary locations. Can a wizard simply cast ‹spell/greater teleport› or ‹spell/wish›, or is more required to reach the stars? Be warned that easy access to the galaxy brings a host of concerns - such as why, if interplanetary travel is easy, aliens aren't thronging your base world."
 		],
 		"parent_topics": [
 			"gamemastery",
@@ -2821,7 +2821,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/165}",
+			"‹SOURCE GameMastery Guide/165›",
 			"",
 			"When creating alien races, first decide how alien you want them to be. Strangely colored humanoids serve their purpose, but given the biodiversity on even one world, why not try something bizarre? Are they blobs of floating protoplasm, built for grazing on gas giants? Sentient viruses? Bug-like cyborgs?",
 			"",
@@ -2845,7 +2845,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/166}",
+			"‹SOURCE GameMastery Guide/166›",
 			"",
 			"Perhaps the most prominent question in any society is that of what happens to us when we die. In a roleplaying game featuring larger-than-life heroes, this is a practical as well as philosophical consideration, for many spells are capable of returning the dead to life, and more than one group of daring PCs has followed the path of Orpheus and ventured into the underworld to reclaim a fallen comrade. Fantasy RPGs have long been attached to the idea of the multiverse, the concept that the world in which the players reside is merely one (and often the most mundane) of a number of different planes of existence. Many real-world religions follow the same principle to a lesser extent, often viewing death as the natural transition from one plane to the next. When designing your world, it's important to give thought to the worlds that lie beyond, and how souls and the various cycles of existence play into them."
 		],
@@ -2877,7 +2877,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/166}",
+			"‹SOURCE GameMastery Guide/166›",
 			"",
 			"If you're pouring all your efforts into developing a vibrant, self-contained world for your campaign setting, why should you bother introducing planes at all? The simplest answer is that many rules systems expect you to. Monsters like devils and angels - and in fact, all creatures of the \"outsider\" type in the Pathfinder Roleplaying Game - are presumed to stem from different planes than the PCs, often ones tied to specific alignments. In addition, it can be difficult to challenge high-level PCs within the boundaries of the same world that housed their low-level adventures. By having your players travel to other planes, you gain the opportunity to reinvent the natural laws of the setting and introduce both creatures and characters powerful enough to keep the PCs on their toes. Most importantly, however, planes fill out your world and help to answer the biggest of spiritual questions."
 		],
@@ -2899,9 +2899,9 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/166}",
+			"‹SOURCE GameMastery Guide/166›",
 			"",
-			"The Pathfinder Roleplaying Game presumes a multiverse in which each alignment has its own plane. After death, individual souls travel via disparate means to the plane that most closely matches their alignment, or else the domain of the primary god they worshiped in life. Within this model there's room for great variety: every plane is yours to design as you will, and the organizational structure might be anything from concentric shells like nesting dolls to a great wheel or islands floating in an astral sea. Yet the alignment system is far from the only means of dealing with the afterlife. Below are a few other models drawn from real-world beliefs. (Note that each of these deals in some way with the progression of souls; for information on alternate dimensions and other secular diversions from reality, see {rule/Parallel Worlds}.)",
+			"The Pathfinder Roleplaying Game presumes a multiverse in which each alignment has its own plane. After death, individual souls travel via disparate means to the plane that most closely matches their alignment, or else the domain of the primary god they worshiped in life. Within this model there's room for great variety: every plane is yours to design as you will, and the organizational structure might be anything from concentric shells like nesting dolls to a great wheel or islands floating in an astral sea. Yet the alignment system is far from the only means of dealing with the afterlife. Below are a few other models drawn from real-world beliefs. (Note that each of these deals in some way with the progression of souls; for information on alternate dimensions and other secular diversions from reality, see ‹rule/Parallel Worlds›.)",
 			"",
 			"@HL[Heaven and Hell:] Many religions opt for a two-party moralistic system, with saved or good-aligned souls going to Heaven and all others condemned to Hell, which in an RPG comes with the added bonus of explaining both good and evil outsiders. Yet several questions arise in such a situation: does your world have a Purgatory, in which those in-between or not-yet-judged souls wait out eternity? Where do neutral outsiders live? Do multiple deities exist in such a situation, or is there simply a single god (and perhaps that god's adversary)? Traditional visions of Heaven and Hell vary by culture, with Heaven anything from stately cities and Valhalla-style feast halls to battlefields and untouched wilderness, and Hell ranging from a burning pit of torments to the lonely absence of creation.",
 			"",
@@ -2948,7 +2948,7 @@
 		"subtitle": "The Planes, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/167}",
+			"‹SOURCE GameMastery Guide/167›",
 			"",
 			"Once you've decided what sorts of planes your setting needs - whether a thousand tiny fiefdoms, two massive planes where souls roam before birth and after death, or something else entirely - it's time to address some basic logistical factors likely to come in handy if your PCs ever decide to visit. Start with the spatial: Is each plane infinite, and if so, how does even a god handle organization, communication, and travel when there's literally always someone else just over the horizon? If not, what's beyond the plane's horizon (and beyond that, and beyond that...)?",
 			"",
@@ -2974,7 +2974,7 @@
 		"subtitle": "The Planes, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/167}",
+			"‹SOURCE GameMastery Guide/167›",
 			"",
 			"One of the biggest questions that comes up in creating planes of super-powerful (and in some cases deific) entities is why those beings don't already control the players' comparatively weak homeworld. Is it that plane-shifting is forbidden, or too difficult for the creatures to attempt it on their own, or simply that it's not worth the effort? Certainly some of the gods have managed to exert themselves on the Material Plane, and perhaps it's these same gods that keep the borders from becoming too porous. Regardless, it also brings up the issue of the gods - do they reside on particular planes, and can you visit their shining cities in person? Or do they exist here and there, as ideas or manifestations, omnipotent but unconcerned with creating a physical home? Do they all reside in the company of their peers, looking down like the Greek pantheon at plots they've set in motion, or do they seek solitude in the farthest reaches of their chosen plane, bored with the constant streams of petitioners seeking their favor? For that matter, did the gods create the planes, or did some mysterious force beyond even them set the current celestial order in motion? Dealing with the infinite and omnipotent always begets such questions, yet it's within these very tangles of cause and effect that a GM can unleash the most creativity."
 		],
@@ -2996,7 +2996,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/168}",
+			"‹SOURCE GameMastery Guide/168›",
 			"",
 			"In physics, a theory called the \"many-worlds interpretation\" asserts that for any given choice or event, a separate reality is created for each possible outcome. Under this model, history is not a straight line but rather an endlessly branching tree, in which the viewer is only conscious of the limb he's standing on (though alternate versions of him exist on other branches).",
 			"",
@@ -3029,7 +3029,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/168}",
+			"‹SOURCE GameMastery Guide/168›",
 			"",
 			"To create an alternate reality, simply take the existing world and change any one event or factor, past or present. From that point, it's a matter of extrapolation, tracing down the many routes that history could take given your change and picking the resulting world that seems like the most fun to play in.",
 			"",
@@ -3056,7 +3056,7 @@
 		"subtitle": "World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/168}",
+			"‹SOURCE GameMastery Guide/168›",
 			"",
 			"The following are several alternate reality archetypes. Of course, these are just a smattering of different possibilities to get you thinking - literally any world you could want to play in is possible using the parallel world model.",
 			"",
@@ -3091,7 +3091,7 @@
 		"subtitle": "Parallel Worlds, World Building",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/169}",
+			"‹SOURCE GameMastery Guide/169›",
 			"",
 			"While it's possible that your players may fall so deeply in love with your parallel universe that they don't want to go home (in which case, you now have a new campaign setting!), for most dimension-hopping adventurers, the whole point is to finally return to the world of their birth. Yet this homecoming doesn't have to mean the end of the madness. For instance, how do the characters know they're actually home? After letting the party breathe a sigh of relief, try placing some doubt in their minds, little inconsistencies that might indicate that they've only returned to a similar world, not their true home. If the front stairs to the characters' favorite tavern no longer creak, is it because someone fixed them while the party was away - or because they never creaked at all?",
 			"",
@@ -3113,7 +3113,7 @@
 		"name": "Adventures",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/172}",
+			"‹SOURCE GameMastery Guide/172›",
 			"",
 			"Past the elaborate details and fantastical beasts, beyond the schemes of villains and works of strange magic, lies the culmination of the Game Master's craft: the development and harmonizing of numerous characters, plots, creatures, and settings into a single vibrant, dangerous, and enthralling experience: a Pathfinder Roleplaying Game adventure."
 		],
@@ -3146,7 +3146,7 @@
 		"name": "Elements of Adventure",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/172}",
+			"‹SOURCE GameMastery Guide/172›",
 			"",
 			"More than simply the sum of its parts, a great adventure transcends any host of villains, arsenal of cunning traps, legion of monsters, or stack of stat blocks. Brought to life by the interplay of a creative GM with dynamic players, a great adventure is something akin to a living fantasy story, thrilling and captivating in a way that - like an epic work of fiction - draws participants into the tale, makes them integral parts of the excitement, and leaves them yearning to see how the story unfolds. Such an adventure is both the pinnacle and the goal of the Game Master's art.",
 			"",
@@ -3175,7 +3175,7 @@
 		"name": "What Makes a Great Adventure",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/172}",
+			"‹SOURCE GameMastery Guide/172›",
 			"",
 			"The question of what defines a great Pathfinder Roleplaying Game adventure conjures to mind a wide variety of potential answers, from artistic ideas regarding the combination of great storytelling and enthusiastic players to more literal mixtures of planning, plot, and rules. In the end, though, the answer tends to be subjective: a great adventure is any blend of preparation, storytelling, roleplaying, and strategy that keeps both the GM and players involved, entertained, and coming back for more. Whether the adventure is custom-designed or drawn directly from printed products, there is no right or wrong way to play, as long as the entire group is having fun.",
 			"",
@@ -3202,7 +3202,7 @@
 		"name": "Choosing Your Adventure",
 		"sources": [ "GameMastery Guide" ],
 		"description": [
-			"{SOURCE GameMastery Guide/172}",
+			"‹SOURCE GameMastery Guide/172›",
 			"",
 			"Specifics of storytelling style and ongoing plots aside, all adventures find common elements in the settings where their action unfolds. In the Pathfinder RPG, certain settings come up again and again: taverns where heroes meet for the first time and rest between adventures, dungeons rife with traps and monsters, untamed wilds full of mystery and danger, cities teeming with cutpurses and political subtlety, vast seas where swashbucklers and cutthroats sail into the unknown, and otherworldly planes where the impossible takes shape. While adventures certainly might occur in other venues, most conform in one way or another to the general settings described here - including the microcosm of the tavern, due to its traditional importance in the game.",
 			"",

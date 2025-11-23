@@ -25,7 +25,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You gain the one-time ability to immediately cast {spell/atonement} upon yourself as a spell-like ability upon performing an act or being subjected to an effect that spell affects. This ability can only be used while you are acting in the service of your liege (an individual of higher social standing chosen when you take this feat)."
+			"You gain the one-time ability to immediately cast ‹spell/atonement› upon yourself as a spell-like ability upon performing an act or being subjected to an effect that spell affects. This ability can only be used while you are acting in the service of your liege (an individual of higher social standing chosen when you take this feat)."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -178,7 +178,7 @@
 		],
 		"description": [
 			"**Type:** Combat  ",
-			"**Requirements:** Member of The {rule/Pathfinder Society}",
+			"**Requirements:** Member of The ‹rule/Pathfinder Society›",
 			"",
 			"Your time spent as a Pathfinder has taught you new truths about the origins of the your rage ability. You may use your rage ability for 3 additional rounds per day."
 		],
@@ -237,7 +237,7 @@
 		],
 		"description": [
 			"**Type:** Combat  ",
-			"**Requirements:** Member of The {rule/Pathfinder Society}",
+			"**Requirements:** Member of The ‹rule/Pathfinder Society›",
 			"",
 			"The Society gave you access to charts detailing the weak spots of hundreds of humanoids and monsters. You gain a +1 trait bonus on damage rolls from sneak attacks."
 		],
@@ -331,7 +331,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes. Note that this trait does not grant the ability to make attacks of opportunity with your unarmed strikes-you must have a level in monk, the {feat/Improved Unarmed Strike} feat, or some other similar power to gain the use of this character trait. However, that doesn't prevent you from selecting this trait. You simply cannot make use of it until a later point if you do."
+			"You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near. You gain a +1 trait bonus on attack of opportunity attack rolls made with unarmed strikes. Note that this trait does not grant the ability to make attacks of opportunity with your unarmed strikes-you must have a level in monk, the ‹feat/Improved Unarmed Strike› feat, or some other similar power to gain the use of this character trait. However, that doesn't prevent you from selecting this trait. You simply cannot make use of it until a later point if you do."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -363,7 +363,7 @@
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
 			"**Type:** Combat  ",
-			"**Faction:** {rule/Ulfen Guard}",
+			"**Faction:** ‹rule/Ulfen Guard›",
 			"",
 			"Your determination allows you to hold onto a shred of your rational mind at all times. Select one of the following skills: Bluff, Escape Artist, Handle Animal, or Stealth. You may use this skill normally while raging."
 		],
@@ -376,7 +376,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You are adept at tricking {ability/favored enemies} of your race or those related to your race. You gain a +1 trait bonus on all Bluff checks against favored enemies that share one of your subtypes. You also gain a +1 trait bonus on attack rolls made against such favored enemies during the surprise round."
+			"You are adept at tricking ‹ability/favored enemies› of your race or those related to your race. You gain a +1 trait bonus on all Bluff checks against favored enemies that share one of your subtypes. You also gain a +1 trait bonus on attack rolls made against such favored enemies during the surprise round."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -402,7 +402,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"A combination of armor and agility protects you from deadly attacks. When wearing light armor and fighting defensively or using {feat/Combat Expertise}, you receive a +2 trait bonus to your AC against attack rolls to confirm a critical threat."
+			"A combination of armor and agility protects you from deadly attacks. When wearing light armor and fighting defensively or using ‹feat/Combat Expertise›, you receive a +2 trait bonus to your AC against attack rolls to confirm a critical threat."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -439,7 +439,7 @@
 		],
 		"description": [
 			"**Type:** Combat  ",
-			"**Requirements:** Member of The {rule/Pathfinder Society}",
+			"**Requirements:** Member of The ‹rule/Pathfinder Society›",
 			"",
 			"Your time spent studying the greatest warriors of the Society taught you new defensive skills while wearing armor. You gain a +1 trait bonus to Armor Class when wearing medium or heavy armor."
 		],
@@ -516,7 +516,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You learned early that there's no point in fighting fair when you're fighting for your life. Others may look down their noses at your tactics, but you know you wouldn't have survived this long without breaking a few conventions of fair play. You can take the {feat/Improved Dirty Trick} feat without meeting its prerequisites, and you gain a +1 trait bonus on combat maneuver checks to attempt a dirty trick."
+			"You learned early that there's no point in fighting fair when you're fighting for your life. Others may look down their noses at your tactics, but you know you wouldn't have survived this long without breaking a few conventions of fair play. You can take the ‹feat/Improved Dirty Trick› feat without meeting its prerequisites, and you gain a +1 trait bonus on combat maneuver checks to attempt a dirty trick."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -529,7 +529,7 @@
 			"",
 			"Your childhood was ended by a great disaster or atrocity that you witnessed. To cope with the horror, you have learned to reflexively suppress all emotion. You gain a +2 trait bonus on Will saving throws against emotion and fear effects.",
 			"",
-			"Suggested Characters: Galtans, {rule/Hellknights}, Nidalese."
+			"Suggested Characters: Galtans, ‹rule/Hellknights›, Nidalese."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -540,7 +540,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"When deprived of magic, you fight harder. You gain a +1 trait bonus on weapon attack and damage rolls while within an area of antimagic such as that created by an {spell/antimagic field}. You also gain this bonus for 1 round after you are subject to an area or targeted {spell/dispel magic} spell, regardless of the effect's success or failure in dispelling your spells and magical effects."
+			"When deprived of magic, you fight harder. You gain a +1 trait bonus on weapon attack and damage rolls while within an area of antimagic such as that created by an ‹spell/antimagic field›. You also gain this bonus for 1 round after you are subject to an area or targeted ‹spell/dispel magic› spell, regardless of the effect's success or failure in dispelling your spells and magical effects."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -584,7 +584,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You are skilled at subduing your enemies. Whenever you attack one of your {ability/favored enemies} with a weapon that deals lethal damage and choose to deal nonlethal damage, you take only a -2 penalty on the attack roll instead of the normal -4."
+			"You are skilled at subduing your enemies. Whenever you attack one of your ‹ability/favored enemies› with a weapon that deals lethal damage and choose to deal nonlethal damage, you take only a -2 penalty on the attack roll instead of the normal -4."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -606,7 +606,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"Larger enemies have a hard time striking you. You gain a +1 dodge bonus to AC against enemies that are both your {ability/favored enemy} and at least two size categories larger than you."
+			"Larger enemies have a hard time striking you. You gain a +1 dodge bonus to AC against enemies that are both your ‹ability/favored enemy› and at least two size categories larger than you."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -629,7 +629,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You've failed the trials to gain entry to one of the {rule/Houses of Perfection}. Though you are disappointed, you were able to pick up one trick from the monks. Choose a single combat maneuver. Once per day, you can perform that combat maneuver without provoking an attack of opportunity, and you gain a +2 bonus on that attempt."
+			"You've failed the trials to gain entry to one of the ‹rule/Houses of Perfection›. Though you are disappointed, you were able to pick up one trick from the monks. Choose a single combat maneuver. Once per day, you can perform that combat maneuver without provoking an attack of opportunity, and you gain a +2 bonus on that attempt."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -640,7 +640,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"Divine powers smile upon you each time you grievously wound a favored enemy. When you confirm a critical hit against a {ability/favored enemy}, you may extend the duration of any divine spell affecting you by 1 round. The benefits from multiple critical hits stack. Divine spells with an instantaneous duration can't be extended in this manner."
+			"Divine powers smile upon you each time you grievously wound a favored enemy. When you confirm a critical hit against a ‹ability/favored enemy›, you may extend the duration of any divine spell affecting you by 1 round. The benefits from multiple critical hits stack. Divine spells with an instantaneous duration can't be extended in this manner."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -666,7 +666,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You were the child of a gunsmith or alchemist and always enjoyed experimenting with fiery alchemical items and minor explosives. You gain a +1 trait bonus on attack rolls made with {rule/throw[n] splash weapon/s} and alchemist bombs.",
+			"You were the child of a gunsmith or alchemist and always enjoyed experimenting with fiery alchemical items and minor explosives. You gain a +1 trait bonus on attack rolls made with ‹rule/throw«n» splash weapon«s› and alchemist bombs.",
 			"",
 			"Suggested Characters: Alkenstar natives, Katapeshi, Thuvians."
 		],
@@ -712,7 +712,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"Your family has strong ties to a {rule/Hellknight>s} order, and you harness this belief as a weapon. Once per day as a swift action, you can empower the next single melee attack you make to be treated as lawful-aligned for the purpose of overcoming damage reduction."
+			"Your family has strong ties to a ‹rule/Hellknight<s› order, and you harness this belief as a weapon. Once per day as a swift action, you can empower the next single melee attack you make to be treated as lawful-aligned for the purpose of overcoming damage reduction."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -723,7 +723,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You have laboriously studied the training rites of various {rule/Hellknight>s} orders with the intent of joining one yourself. You gain a +2 trait bonus on damage rolls against outsiders summoned through conjuration (calling) and conjuration (summoning) spells and effects."
+			"You have laboriously studied the training rites of various ‹rule/Hellknight<s› orders with the intent of joining one yourself. You gain a +2 trait bonus on damage rolls against outsiders summoned through conjuration (calling) and conjuration (summoning) spells and effects."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -783,7 +783,7 @@
 		],
 		"description": [
 			"**Type:** Combat  ",
-			"**Requirements:** Member of The {rule/Pathfinder Society}",
+			"**Requirements:** Member of The ‹rule/Pathfinder Society›",
 			"",
 			"You have studied dozens of ancient texts on martial arts that only the Society possesses, and are more learned in these arts than most. You increase your ki pool by 1 point."
 		],
@@ -796,7 +796,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"When you watch and wait before attacking, your strike is true. You gain a +1 trait bonus on attack rolls against your {ability/favored enemies} when you make such attacks as part of a readied action."
+			"When you watch and wait before attacking, your strike is true. You gain a +1 trait bonus on attack rolls against your ‹ability/favored enemies› when you make such attacks as part of a readied action."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -842,7 +842,7 @@
 			"",
 			"As a child, you learned the power of a simple expression of faith in another when you gave a hero the inspiration to fight on in the face of terrible odds and save you from danger. As a standard action, you can speak words of encouragement to grant a +1 morale bonus to an ally within 30 feet who can see and hear you. The ally can use this bonus on any d20 roll of her choice before the start of your next turn. You cannot use this trait to grant a bonus to yourself or to an ally who has already benefited from this trait within the last 24 hours.",
 			"",
-			"Suggested Characters: {rule/Eagle Knights}, {faith/Iomedae/ans}, Mendevian crusaders."
+			"Suggested Characters: ‹rule/Eagle Knights›, ‹faith/Iomedae«ans›, Mendevian crusaders."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -968,7 +968,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"Your exposure to teaching from the {rule/Houses of Perfection} makes your attacks with monk weapons even more deadly. Select one monk weapon with which you are proficient (unarmed attacks do not qualify for this purpose). You gain a +1 trait bonus on damage rolls with this weapon."
+			"Your exposure to teaching from the ‹rule/Houses of Perfection› makes your attacks with monk weapons even more deadly. Select one monk weapon with which you are proficient (unarmed attacks do not qualify for this purpose). You gain a +1 trait bonus on damage rolls with this weapon."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -1034,7 +1034,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"Even when the chips are down, you keep on shooting. If your hit point total drops to 0 or lower but you are not dead, you may act as if disabled rather than dying (as if you possessed the {feat/Diehard} feat). However, you can use your actions only to draw a firearm, reload a firearm, or attack with a firearm. If you have the Diehard feat, this trait also allows you to substitute your Wisdom score for your Constitution score for the purpose of determining the negative hit point total at which you die."
+			"Even when the chips are down, you keep on shooting. If your hit point total drops to 0 or lower but you are not dead, you may act as if disabled rather than dying (as if you possessed the ‹feat/Diehard› feat). However, you can use your actions only to draw a firearm, reload a firearm, or attack with a firearm. If you have the Diehard feat, this trait also allows you to substitute your Wisdom score for your Constitution score for the purpose of determining the negative hit point total at which you die."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -1100,7 +1100,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You carry the physical and emotional scars of your {rule/Gray Maiden>s} initiation as mental armor. You receive a +2 trait bonus on saving throws against emotion and pain spells and effects."
+			"You carry the physical and emotional scars of your ‹rule/Gray Maiden<s› initiation as mental armor. You receive a +2 trait bonus on saving throws against emotion and pain spells and effects."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -1124,7 +1124,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"Your superiors have identified you as an {rule/Eagle Knights} candidate, and their praise encourages you to strive to meet their expectations. Each day after getting a full night's sleep, you gain a +1 trait bonus to your AC when wearing armor or carrying a shield. This bonus lasts until you are first hit by an attack within the next 24 hours."
+			"Your superiors have identified you as an ‹rule/Eagle Knights› candidate, and their praise encourages you to strive to meet their expectations. Each day after getting a full night's sleep, you gain a +1 trait bonus to your AC when wearing armor or carrying a shield. This bonus lasts until you are first hit by an attack within the next 24 hours."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -1183,7 +1183,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You witnessed the training of {rule/Red Mantis} assassins, either as a child on Mediogalti Island or as an aspirant, and learned to leave bleeding wounds. Whenever you confirm a critical hit with a slashing weapon, you also deal 1 point of bleed damage."
+			"You witnessed the training of ‹rule/Red Mantis› assassins, either as a child on Mediogalti Island or as an aspirant, and learned to leave bleeding wounds. Whenever you confirm a critical hit with a slashing weapon, you also deal 1 point of bleed damage."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -1312,7 +1312,7 @@
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
 			"**Type:** Combat  ",
-			"**Requirements:** Member of The {rule/Bellflower Network}",
+			"**Requirements:** Member of The ‹rule/Bellflower Network›",
 			"",
 			"You have escaped from so many dangerous situations in your life that you've gotten quite good at not getting caught. You gain a +1 trait bonus on Stealth checks and Stealth is a class skill for you."
 		],
@@ -1360,7 +1360,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You catch others off-guard when a confrontation escalates. As long as you are standing in or adjacent to water, or holding at least a pint of liquid (including insoluble liquids like oil or alchemist's fire), you can perform a dirty trick combat maneuver to blind a foe within reach without provoking an attack of opportunity. If you select the {feat/Improved Dirty Trick} feat, you gain a +2 trait bonus on dirty trick combat maneuvers to blind foes as long as you are standing in or adjacent to water or holding a pint of liquid."
+			"You catch others off-guard when a confrontation escalates. As long as you are standing in or adjacent to water, or holding at least a pint of liquid (including insoluble liquids like oil or alchemist's fire), you can perform a dirty trick combat maneuver to blind a foe within reach without provoking an attack of opportunity. If you select the ‹feat/Improved Dirty Trick› feat, you gain a +2 trait bonus on dirty trick combat maneuvers to blind foes as long as you are standing in or adjacent to water or holding a pint of liquid."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -1487,7 +1487,7 @@
 		"description": [
 			"**Type:** Combat",
 			"",
-			"You know how to avoid a blow while still maintaining your offensive posture. When you use {feat/Combat Expertise}, reduce the number you subtract from your melee attack rolls by 1."
+			"You know how to avoid a blow while still maintaining your offensive posture. When you use ‹feat/Combat Expertise›, reduce the number you subtract from your melee attack rolls by 1."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -1522,9 +1522,9 @@
 		],
 		"description": [
 			"**Type:** Combat  ",
-			"**Requirements:** Member of The {rule/Pathfinder Society}",
+			"**Requirements:** Member of The ‹rule/Pathfinder Society›",
 			"",
-			"Thanks to your time as a Pathfinder, you've mastered the art of tracking. You gain a +1 trait bonus on initiative checks and a +2 trait bonus on Survival checks made while traveling through any of your favored terrains. This is in addition to any bonuses you receive from your {ability/favored terrain} class ability."
+			"Thanks to your time as a Pathfinder, you've mastered the art of tracking. You gain a +1 trait bonus on initiative checks and a +2 trait bonus on Survival checks made while traveling through any of your favored terrains. This is in addition to any bonuses you receive from your ‹ability/favored terrain› class ability."
 		],
 		"category": "Combat",
 		"topLink": [ "Combat Traits", "main/traits_combat" ]
@@ -1646,7 +1646,7 @@
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
 			"**Type:** Combat  ",
-			"**Requirements:** {rule/Kitharodian Academy}",
+			"**Requirements:** ‹rule/Kitharodian Academy›",
 			"",
 			"You are quick with your tongue and have always possessed the talent to quickly admonish your enemies. You gain a +1 trait bonus on Bluff checks and Bluff is a class skill for you."
 		],
@@ -1694,35 +1694,35 @@
 			"",
 			"Your religious studies hinged on teachings rarely recognized by your faith. You can select one of the apocryphal subdomains detailed below, provided the subdomain is associated with your patron deity. In some cases, you can select a subdomain associated with a deity despite that deity not offering the associated domain - these exceptions are noted with an asterisk (\\*), and you gain domain powers and domain spells from the associated domain as usual, even though your deity normally doesn't grant access to that domain. When selecting a subdomain associated with two domains, a priest can choose only a subdomain that modifies a domain to which he has access.",
 			"",
-			"- **{domain/Alchemy} ({domain/Artifice}/{domain/Magic}):** {faith/Brigh}, {faith/Haagenti}, {faith/Norgorber}\\* (Artifice only), {faith/Orgesh}\\* (Magic only), {faith/Qi Zhong})",
+			"- **‹domain/Alchemy› (‹domain/Artifice›/‹domain/Magic›):** ‹faith/Brigh›, ‹faith/Haagenti›, ‹faith/Norgorber›\\* (Artifice only), ‹faith/Orgesh›\\* (Magic only), ‹faith/Qi Zhong›)",
 			"",
-			"- **{domain/Captivation}:** {faith/Calistria}, {faith/Kofusachi}, {faith/Nalinivati}, {faith/Norgorber}, {faith/Shelyn}",
+			"- **‹domain/Captivation›:** ‹faith/Calistria›, ‹faith/Kofusachi›, ‹faith/Nalinivati›, ‹faith/Norgorber›, ‹faith/Shelyn›",
 			"",
-			"- **{domain/Hubris} ({domain/Glory}/{domain/Nobility}):** {faith/Dispater}, {faith/General Susumu}, {faith/Iomedae}, {faith/Jaidz}, {faith/Lissala}, {faith/Olheon}, {faith/Ydersius}",
+			"- **‹domain/Hubris› (‹domain/Glory›/‹domain/Nobility›):** ‹faith/Dispater›, ‹faith/General Susumu›, ‹faith/Iomedae›, ‹faith/Jaidz›, ‹faith/Lissala›, ‹faith/Olheon›, ‹faith/Ydersius›",
 			"",
-			"- **{domain/Insect}:** {faith/Achaekek}\\*, {faith/Aldinach}, {faith/Deskari}\\*, {faith/Ghlaunder}, {faith/Kitumu}, {faith/Mazmezz}",
+			"- **‹domain/Insect›:** ‹faith/Achaekek›\\*, ‹faith/Aldinach›, ‹faith/Deskari›\\*, ‹faith/Ghlaunder›, ‹faith/Kitumu›, ‹faith/Mazmezz›",
 			"",
-			"- **{domain/Legend}:** {faith/General Susumu}, {faith/Gorum}, {faith/Shizuru}",
+			"- **‹domain/Legend›:** ‹faith/General Susumu›, ‹faith/Gorum›, ‹faith/Shizuru›",
 			"",
-			"- **{domain/Lightning}:** {faith/Gozreh}, {faith/Hei Feng}, {faith/Rovagug}, {faith/Rull}",
+			"- **‹domain/Lightning›:** ‹faith/Gozreh›, ‹faith/Hei Feng›, ‹faith/Rovagug›, ‹faith/Rull›",
 			"",
-			"- **{domain/Medicine}:** {faith/Dalenydra}, {faith/Immonhiel}, {faith/Irori}, {faith/Korada}, {faith/Qi Zhong}, {faith/Sarenrae}",
+			"- **‹domain/Medicine›:** ‹faith/Dalenydra›, ‹faith/Immonhiel›, ‹faith/Irori›, ‹faith/Korada›, ‹faith/Qi Zhong›, ‹faith/Sarenrae›",
 			"",
-			"- **{domain/Monsoon}:** {faith/Daikitsu}, {faith/Gozreh}, {faith/Hei Feng}, {faith/Rull}",
+			"- **‹domain/Monsoon›:** ‹faith/Daikitsu›, ‹faith/Gozreh›, ‹faith/Hei Feng›, ‹faith/Rull›",
 			"",
-			"- **{domain/Petrification}:** {faith/Ayrzul}, {faith/Minderhal}, {faith/Soralyon}, {faith/Xoveron}",
+			"- **‹domain/Petrification›:** ‹faith/Ayrzul›, ‹faith/Minderhal›, ‹faith/Soralyon›, ‹faith/Xoveron›",
 			"",
-			"- **{domain/Portal}:** {faith/Abadar}, {faith/Alseta}\\*, {faith/Barbatos}, {faith/Yog-Sothoth}",
+			"- **‹domain/Portal›:** ‹faith/Abadar›, ‹faith/Alseta›\\*, ‹faith/Barbatos›, ‹faith/Yog-Sothoth›",
 			"",
-			"- **{domain/Rites}:** {faith/Abraxas}, {faith/Asmodeus}, {faith/Nalinivati}, {faith/Nethys}, {faith/Nyarlathotep>_black_pharaoh}, {faith/Sivanah}",
+			"- **‹domain/Rites›:** ‹faith/Abraxas›, ‹faith/Asmodeus›, ‹faith/Nalinivati›, ‹faith/Nethys›, ‹faith/Nyarlathotep<_black_pharaoh›, ‹faith/Sivanah›",
 			"",
-			"- **{domain/Self-Realization} ({domain/Liberation}/{domain/Strength}):** {faith/Arshea}, {faith/Falayna}, {faith/Haagenti}, {faith/Irori}, {faith/Kurgess}, {faith/Shei}, {faith/Urgathoa}",
+			"- **‹domain/Self-Realization› (‹domain/Liberation›/‹domain/Strength›):** ‹faith/Arshea›, ‹faith/Falayna›, ‹faith/Haagenti›, ‹faith/Irori›, ‹faith/Kurgess›, ‹faith/Shei›, ‹faith/Urgathoa›",
 			"",
-			"- **{domain/Thirst}:** {faith/Aldinach}, {faith/Lalaci}, {faith/Nurgal}, {faith/Sarenrae}",
+			"- **‹domain/Thirst›:** ‹faith/Aldinach›, ‹faith/Lalaci›, ‹faith/Nurgal›, ‹faith/Sarenrae›",
 			"",
-			"- **{domain/Thorns}:** {faith/The Green Mother}, {faith/Shub-Niggurath}, {faith/Zyphus}",
+			"- **‹domain/Thorns›:** ‹faith/The Green Mother›, ‹faith/Shub-Niggurath›, ‹faith/Zyphus›",
 			"",
-			"- **{domain/Truth}:** {faith/Groetus}, {faith/Lamashtu}, {faith/Sifkesh}, {faith/Sivanah}"
+			"- **‹domain/Truth›:** ‹faith/Groetus›, ‹faith/Lamashtu›, ‹faith/Sifkesh›, ‹faith/Sivanah›"
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1733,7 +1733,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"During your studies of The Majestic Book of the Prime Ascended, you learned some minor magical tricks. Select a single 0-level spell from the {main/spells<sorcerer|//wizard/ spell list}. You can cast this spell 1 time per day as a spell-like ability."
+			"During your studies of The Majestic Book of the Prime Ascended, you learned some minor magical tricks. Select a single 0-level spell from the ‹main/spells>sorcerer»/wizard« spell list›. You can cast this spell 1 time per day as a spell-like ability."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1782,7 +1782,7 @@
 			"",
 			"You spent much of your youth helping the clergy of your chosen faith perform their duties, and learned from them respect for authority. As long as you are acting in the service of a liege or leader you recognize as legitimate, you gain a +2 trait bonus on saving throws against fear and compulsion effects.",
 			"",
-			"Suggested Characters: {faith/Abadar/ans}, {rule/Hellknights}, Hermeans."
+			"Suggested Characters: ‹faith/Abadar«ans›, ‹rule/Hellknights›, Hermeans."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1852,7 +1852,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation. Once per day, if a mind-affecting effect would compel you to take an action that would cause you to lose {rule/Honor Points}, you may make a new saving throw against the original DC to end the effect."
+			"Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation. Once per day, if a mind-affecting effect would compel you to take an action that would cause you to lose ‹rule/Honor Points›, you may make a new saving throw against the original DC to end the effect."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1917,7 +1917,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"At your birth, your parents dedicated your soul to Iomedae to mold into a sword of her light. The goddess blessed you, granting you a gift of light to brighten your path through darkness and a fine sword with which to spread her will. You may cast {spell/light} once per day as a spell-like ability (caster level 1st), and you begin play with a masterwork longsword. In addition, whenever light is cast upon this sword, the radius of light and its duration is doubled."
+			"At your birth, your parents dedicated your soul to Iomedae to mold into a sword of her light. The goddess blessed you, granting you a gift of light to brighten your path through darkness and a fine sword with which to spread her will. You may cast ‹spell/light› once per day as a spell-like ability (caster level 1st), and you begin play with a masterwork longsword. In addition, whenever light is cast upon this sword, the radius of light and its duration is doubled."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1928,7 +1928,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"Your mentor in the {rule/Wagons of Light} taught you to hide holy symbols quickly. You can draw or stow a holy symbol as a swift action."
+			"Your mentor in the ‹rule/Wagons of Light› taught you to hide holy symbols quickly. You can draw or stow a holy symbol as a swift action."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -1982,7 +1982,7 @@
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
 			"**Type:** Faith  ",
-			"**Requirements:** {rule/Old Cults}",
+			"**Requirements:** ‹rule/Old Cults›",
 			"",
 			"Your direct involvement with supernatural and alien forces has left you less vulnerable to the insanity they cause. You gain a +1 trait bonus on any saving throws against confusion, insanity, madness, and Wisdom damage and drain."
 		],
@@ -1997,7 +1997,7 @@
 			"",
 			"Raised in the company of skilled healers, you were always encouraged to devote your time and energy to the welfare of others. Whenever you take 20 on a Heal check to treat deadly wounds, you restore an additional 1d4 hit points to those you aid.",
 			"",
-			"Suggested Characters: Battle clerics, {faith/Iomedae/ans}, Kellids."
+			"Suggested Characters: Battle clerics, ‹faith/Iomedae«ans›, Kellids."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2130,7 +2130,7 @@
 		],
 		"description": [
 			"**Type:** Faith  ",
-			"**Requirements:** Member of The {rule/Pathfinder Society}",
+			"**Requirements:** Member of The ‹rule/Pathfinder Society›",
 			"",
 			"The vaults of the Grand Lodge in Absalom contain many secrets of the divine powers of the gods, and you have studied your deity extensively. You may channel energy one additional time per day."
 		],
@@ -2144,7 +2144,7 @@
 			"**Type:** Faith  ",
 			"**Region:** Katapesh",
 			"",
-			"Your experience with magic items clues you in to their properties more quickly than others. You can identify the properties of a magic item using {spell/detect magic} in 1 round."
+			"Your experience with magic items clues you in to their properties more quickly than others. You can identify the properties of a magic item using ‹spell/detect magic› in 1 round."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2178,7 +2178,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"Upon overcoming your fear, you become a scourge to your enemies. You gain a +1 trait bonus on all saving throws against fear effects. In addition, if you successfully save against such an effect, you receive a +1 trait bonus on attack rolls against your {ability/favored enemies} for 1 round."
+			"Upon overcoming your fear, you become a scourge to your enemies. You gain a +1 trait bonus on all saving throws against fear effects. In addition, if you successfully save against such an effect, you receive a +1 trait bonus on attack rolls against your ‹ability/favored enemies› for 1 round."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2225,7 +2225,7 @@
 		],
 		"description": [
 			"**Type:** Faith  ",
-			"**Requirements:** Member of The {rule/Pathfinder Society}",
+			"**Requirements:** Member of The ‹rule/Pathfinder Society›",
 			"",
 			"Months of meditation and practice with the greatest spellcasters of the Society have given you an increased capacity for arcane knowledge. You gain one additional 0-level spell slot."
 		],
@@ -2240,7 +2240,7 @@
 		],
 		"description": [
 			"**Type:** Faith  ",
-			"**Requirements:** Member of The {rule/Pathfinder Society}",
+			"**Requirements:** Member of The ‹rule/Pathfinder Society›",
 			"",
 			"Through countless hours studying vast libraries of arcane power, you have learned how to cause greater damage to your foes. Whenever you cast a spell that deals damage, you gain a +1 trait bonus to the total damage dealt. This damage is considered force damage regardless of the type of damage dealt by the spell."
 		],
@@ -2264,7 +2264,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"If you are an inquisitor, you can select any inquisition associated with your preferred {rule/Hellknight>s} order, as long as you and your patron deity are of a lawful alignment. Additionally, you gain a +1 trait bonus on saving throws against spells and effects with the chaos descriptor."
+			"If you are an inquisitor, you can select any inquisition associated with your preferred ‹rule/Hellknight<s› order, as long as you and your patron deity are of a lawful alignment. Additionally, you gain a +1 trait bonus on saving throws against spells and effects with the chaos descriptor."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2314,7 +2314,7 @@
 			"",
 			"A religious mentor instilled in you a sense of uncompromising integrity. You often speak your mind in defiance of any fear or hatred it might earn you, a habit that inspires others to trust you. You gain a +1 trait bonus on Diplomacy checks. This bonus increases to +2 when the Diplomacy check is made to influence those who are already friendly or helpful toward you.",
 			"",
-			"Suggested Characters: {pclass/Diabolist/s}, paladins, {faith/Sarenrae} worshipers."
+			"Suggested Characters: ‹pclass/Diabolist«s›, paladins, ‹faith/Sarenrae› worshipers."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2377,7 +2377,7 @@
 			"",
 			"Your hope for a brighter future blessed by the gods, combined with your powerful personality, allows you to force your way free of spells that cloud the mind. You can use your Charisma modifier in place of your Wisdom modifier when attempting Will saving throws against charm and compulsion effects.",
 			"",
-			"Suggested Characters: {race/Gnome/s}, Keleshites, {faith/Shelyn} worshipers."
+			"Suggested Characters: ‹race/Gnome«s›, Keleshites, ‹faith/Shelyn› worshipers."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2412,7 +2412,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"You were raised under the {rule/Prophecies of Kalistrade}, and were inspired to seize upon an untapped business opportunity. Up to once per week, when you work to advance this opportunity with at least 1 day of effort, you can attempt an appropriate Profession check to earn money or gain capital using the downtime rules with a +2 trait bonus. In the event of a failed check, your opportunity is discovered by rivals and you cannot employ this trait for 1 month while you look for a new opportunity."
+			"You were raised under the ‹rule/Prophecies of Kalistrade›, and were inspired to seize upon an untapped business opportunity. Up to once per week, when you work to advance this opportunity with at least 1 day of effort, you can attempt an appropriate Profession check to earn money or gain capital using the downtime rules with a +2 trait bonus. In the event of a failed check, your opportunity is discovered by rivals and you cannot employ this trait for 1 month while you look for a new opportunity."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2423,7 +2423,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"You're destined to bring light to the darkness and expunge the faithless from the deep. Whenever you cast a spell granted by the {domain/sun} domain (or associated subdomains) while in the Darklands, the spell functions at 1 caster level higher than your actual caster level."
+			"You're destined to bring light to the darkness and expunge the faithless from the deep. Whenever you cast a spell granted by the ‹domain/sun› domain (or associated subdomains) while in the Darklands, the spell functions at 1 caster level higher than your actual caster level."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2503,7 +2503,7 @@
 			"",
 			"You were initiated into a mystery cult in your youth, and learned secrets that turned your understanding of your faith and the world on its head. This experience has given you a knack for lateral thinking. Once per day, you may reroll any Knowledge skill check. You must decide to use this ability after the first roll is made but before the results are revealed. You must take the second result, even if it is worse.",
 			"",
-			"Suggested Characters: {pclass/Mystery cultist/s}, {faith/Nethys} worshipers, {faith/Norgorber} worshipers."
+			"Suggested Characters: ‹pclass/Mystery cultist«s›, ‹faith/Nethys› worshipers, ‹faith/Norgorber› worshipers."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2526,7 +2526,7 @@
 			"**Type:** Faith  ",
 			"**Requirements:** Gnome",
 			"",
-			"For unknown reasons, you have deeper reserves of magical energy than those around you. Perhaps you are descended from a family of powerful arcane casters, or maybe you believe this trait marks you as destined for magical greatness. Wherever the truth lies, you gain an additional use of one of your gnome magic spell-like abilities each day. This does not always have to be the same spell-like ability - one day you might use {spell/dancing lights} twice, only to use the additional casting for {spell/speak with animals} the next day."
+			"For unknown reasons, you have deeper reserves of magical energy than those around you. Perhaps you are descended from a family of powerful arcane casters, or maybe you believe this trait marks you as destined for magical greatness. Wherever the truth lies, you gain an additional use of one of your gnome magic spell-like abilities each day. This does not always have to be the same spell-like ability - one day you might use ‹spell/dancing lights› twice, only to use the additional casting for ‹spell/speak with animals› the next day."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2537,7 +2537,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"When you were young, you saw a dead creature's body fertilize a field. Witnessing the connection between life and death moved you to recognize your own connection with the world, and ever since you have revered nature and feared death less. You gain a +1 trait bonus on saving throws against death effects and effects that use negative energy, such as energy drain and {main/inflict spells}."
+			"When you were young, you saw a dead creature's body fertilize a field. Witnessing the connection between life and death moved you to recognize your own connection with the world, and ever since you have revered nature and feared death less. You gain a +1 trait bonus on saving throws against death effects and effects that use negative energy, such as energy drain and ‹main/inflict spells›."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2547,7 +2547,7 @@
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
 			"**Type:** Faith  ",
-			"**Requirements:** {rule/Whispering Way}",
+			"**Requirements:** ‹rule/Whispering Way›",
 			"",
 			"Your exposure to the necromantic arts has strengthened your defenses against its vile rot. You gain a +1 trait bonus on saving throws against spells from the necromancy school or any effect that deals negative energy damage."
 		],
@@ -2595,7 +2595,7 @@
 			"",
 			"As a child, you struggled to suppress a sharp temper, but the care and patient respect of a trusted community leader rubbed off on you. As you grew older, you developed a remarkable ability to keep calm and collected when performing a task you are familiar with. Choose one Craft or Profession skill. Whenever you take 10 with that skill, determine the result as if you had rolled a 12 instead of a 10.",
 			"",
-			"Suggested Characters: {faith/Asmode/ans>us}, Drumans, {faith/Iror/ans>i}."
+			"Suggested Characters: ‹faith/Asmode«ans<us›, Drumans, ‹faith/Iror«ans<i›."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2683,7 +2683,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"Once per day, you can attempt to suppress the effects of a curse on a single creature with a touch. This functions as a {spell/remove curse} spell, treating your character level as your caster level. If you succeed at your caster level check against the curse, the curse's effects are negated for 1 minute. This trait does not allow a person burdened with a cursed item to remove or discard it. Use of this trait is a supernatural ability."
+			"Once per day, you can attempt to suppress the effects of a curse on a single creature with a touch. This functions as a ‹spell/remove curse› spell, treating your character level as your caster level. If you succeed at your caster level check against the curse, the curse's effects are negated for 1 minute. This trait does not allow a person burdened with a cursed item to remove or discard it. Use of this trait is a supernatural ability."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2804,7 +2804,7 @@
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
 			"**Type:** Faith  ",
-			"**Requirements:** {rule/Old Cults}",
+			"**Requirements:** ‹rule/Old Cults›",
 			"",
 			"Using an ancient and painful surgical technique, you've reshaped your tongue. These surgical mutilations permit you to speak ancient words unpronounceable to most mortals, enhancing your ability to work magic associated with the Great Old Ones. Any summoning or divination spell you cast to summon or contact a Great Old One or one of their minions is cast at +1 caster level."
 		],
@@ -2840,7 +2840,7 @@
 			"**Type:** Faith  ",
 			"**Requirements:** See text",
 			"",
-			"As a follower of Razmir, the {rule/Prophecies of Kalistrade}, or some other tradition that preaches self-reliance, you make a point of not seeking divine aid for minor matters. When you gain this trait, choose one of the following 0-level spells: {spell/create water}, {spell/mending}, {spell/purify food and drink}, or {spell/stabilize}. You can cast this spell once per day as a spell-like ability, using your character level as your caster level. Once chosen, this selection can't change."
+			"As a follower of Razmir, the ‹rule/Prophecies of Kalistrade›, or some other tradition that preaches self-reliance, you make a point of not seeking divine aid for minor matters. When you gain this trait, choose one of the following 0-level spells: ‹spell/create water›, ‹spell/mending›, ‹spell/purify food and drink›, or ‹spell/stabilize›. You can cast this spell once per day as a spell-like ability, using your character level as your caster level. Once chosen, this selection can't change."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2850,7 +2850,7 @@
 		"compilationSources": [ [ "Healer's Handbook" ] ],
 		"description": [
 			"**Type:** Faith  ",
-			"**Requirements:** Must follow the traditions of the {rule/Rivethun}",
+			"**Requirements:** Must follow the traditions of the ‹rule/Rivethun›",
 			"",
 			"Your introspections have taught you to understand your own flaws and proclivities and how to work with them. Choose one saving throw. You gain a +1 trait bonus on saving throws of the chosen kind."
 		],
@@ -2865,7 +2865,7 @@
 			"",
 			"Blessed by a priest of a deity of magic at birth, you demonstrated a remarkable knack for guessing the nature of spells without the schooling of your instructors. You gain a +1 trait bonus on Spellcraft checks, and Spellcraft becomes a class skill for you.",
 			"",
-			"Suggested Characters: Gebbites, {faith/Nethys} worshipers, Nexians."
+			"Suggested Characters: Gebbites, ‹faith/Nethys› worshipers, Nexians."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2901,7 +2901,7 @@
 		],
 		"description": [
 			"**Type:** Faith  ",
-			"**Requirements:** Member of The {rule/Pathfinder Society}",
+			"**Requirements:** Member of The ‹rule/Pathfinder Society›",
 			"",
 			"The courageous powers of Golarion's ancient paladin orders are open to you thanks to the Society's records of heroic deeds. As a result, your aura of courage class ability grants an additional +1 trait bonus on saving throws against fear effects."
 		],
@@ -2947,9 +2947,9 @@
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
 			"**Type:** Faith  ",
-			"**Requirements:** {rule/Whispering Way}",
+			"**Requirements:** ‹rule/Whispering Way›",
 			"",
-			"You have learned the secrets of sotto voce, the eerie, dry whispering voice used to pass on cult secrets. You may cast {spell/sotto voce} as a spell-like ability three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
+			"You have learned the secrets of sotto voce, the eerie, dry whispering voice used to pass on cult secrets. You may cast ‹spell/sotto voce› as a spell-like ability three times per day as a spell-like ability. This spell-like ability is cast at your highest caster level; if you have no caster level, it functions at CL 1st."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -2960,7 +2960,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"You restlessly pursue your enemies. When you're in pursuit of one of your {ability/favored enemies}, the DC for the Constitution check to avoid taking lethal damage during a forced march is 10 + 1 per extra hour, instead of 10 + 2 per extra hour."
+			"You restlessly pursue your enemies. When you're in pursuit of one of your ‹ability/favored enemies›, the DC for the Constitution check to avoid taking lethal damage during a forced march is 10 + 1 per extra hour, instead of 10 + 2 per extra hour."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -3030,7 +3030,7 @@
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
 			"**Type:** Faith  ",
-			"**Requirements:** {rule/Old Cults}",
+			"**Requirements:** ‹rule/Old Cults›",
 			"",
 			"Your prolonged association with alien forces leaks from your pores. You can use your Intimidate skill to demoralize animals and vermin; Intimidate is a class skill for you."
 		],
@@ -3065,7 +3065,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"Growing up in a city has broadened your philosophy, and helped you interpret your patron's divine will in a novel way. You gain Knowledge (local) as a class skill. Additionally, you can select one of the following subdomains using the normal rules for subdomains so long as your deity grants access to its associated domain: {domain/Competition}, {domain/Duels}, {domain/Espionage}, {domain/Fortifications}, {domain/Industry}, {domain/Legislation}, {domain/Plague}, or {domain/Riot}."
+			"Growing up in a city has broadened your philosophy, and helped you interpret your patron's divine will in a novel way. You gain Knowledge (local) as a class skill. Additionally, you can select one of the following subdomains using the normal rules for subdomains so long as your deity grants access to its associated domain: ‹domain/Competition›, ‹domain/Duels›, ‹domain/Espionage›, ‹domain/Fortifications›, ‹domain/Industry›, ‹domain/Legislation›, ‹domain/Plague›, or ‹domain/Riot›."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -3098,7 +3098,7 @@
 		"description": [
 			"**Type:** Faith",
 			"",
-			"For a time during your childhood, you were left in the care of a juju oracle or wendifa, who saw your potential and taught you simple juju magic to influence the weakminded for brief periods of time. You can use {spell/daze} as a spell-like ability once per day, using your character level as your caster level (minimum 1). The save DC of this effect is Charisma-based. The dazed individual looks ashen and deathly for the duration of the effect."
+			"For a time during your childhood, you were left in the care of a juju oracle or wendifa, who saw your potential and taught you simple juju magic to influence the weakminded for brief periods of time. You can use ‹spell/daze› as a spell-like ability once per day, using your character level as your caster level (minimum 1). The save DC of this effect is Charisma-based. The dazed individual looks ashen and deathly for the duration of the effect."
 		],
 		"category": "Faith",
 		"topLink": [ "Faith Traits", "main/traits_faith" ]
@@ -3158,7 +3158,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"You were adopted and raised by someone not of your race, and raised in a society not your own. As a result, you picked up a race trait from your adoptive parents and society, and may immediately select a {main/traits_<race/ trait} from your adoptive parents' race."
+			"You were adopted and raised by someone not of your race, and raised in a society not your own. As a result, you picked up a race trait from your adoptive parents and society, and may immediately select a ‹main/traits_>race« trait› from your adoptive parents' race."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -3258,7 +3258,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the {rule/Pathfinder Society}, and you have internalized these stories of bold adventurers. Choose one Knowledge skill. You can always choose to take 10 on checks with the chosen Knowledge skill, even when distracted or threatened.",
+			"As a youth, you voraciously consumed books and scrolls provided by a member of an adventurer's guild or a learned organization like the ‹rule/Pathfinder Society›, and you have internalized these stories of bold adventurers. Choose one Knowledge skill. You can always choose to take 10 on checks with the chosen Knowledge skill, even when distracted or threatened.",
 			"",
 			"**Suggested Characters:** Osirians, Pathfinders, Taldans."
 		],
@@ -3304,7 +3304,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"Select one specific type of animal (such as wolves or apes). You were raised from infancy by an animal or pack of animals of that type. You learned their ways and have more in common with your beastly kin than members of any humanoid race. You gain a +1 trait bonus on Survival checks and can use {spell/speak with animals} as a spell-like ability at will to communicate with the type of animal that raised you."
+			"Select one specific type of animal (such as wolves or apes). You were raised from infancy by an animal or pack of animals of that type. You learned their ways and have more in common with your beastly kin than members of any humanoid race. You gain a +1 trait bonus on Survival checks and can use ‹spell/speak with animals› as a spell-like ability at will to communicate with the type of animal that raised you."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -3547,7 +3547,7 @@
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
 			"**Type:** Social  ",
-			"**Requirements:** Member of The {rule/Bellflower Network}",
+			"**Requirements:** Member of The ‹rule/Bellflower Network›",
 			"",
 			"You've spent your life perfecting the art of half-truths in order to accomplish what you need to. You gain a +1 trait bonus on Bluff or Intimidate checks and one of these skills (your choice) is a class skill for you."
 		],
@@ -3695,7 +3695,7 @@
 			"**Type:** Social  ",
 			"**Requirements:** Code of Revolution",
 			"",
-			"If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease. Once per day, you can use {spell/detect law} as a spell-like ability (caster level 1st). If you have levels in a class that can cast detect law, your caster level for this spell-like ability is equal to that class level."
+			"If you follow this code, your appreciation for unfettered social freedom allows you to locate supporters of law with supernatural ease. Once per day, you can use ‹spell/detect law› as a spell-like ability (caster level 1st). If you have levels in a class that can cast detect law, your caster level for this spell-like ability is equal to that class level."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -3761,7 +3761,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"You learned how to bribe by watching {rule/Dusk Market} merchants interact with Westcrown's dottari guards. Reduce the amount of gold you must spend to bribe a guard or official or compensate a conjured creature by 5%."
+			"You learned how to bribe by watching ‹rule/Dusk Market› merchants interact with Westcrown's dottari guards. Reduce the amount of gold you must spend to bribe a guard or official or compensate a conjured creature by 5%."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -3937,7 +3937,7 @@
 			"",
 			"You have often seen lawbreakers go free when they demonstrate they have friends in high places, and so you put special effort into befriending powerful people yourself. Whenever you are in an area in which you have used the Diplomacy skill to gather information, you gain a +1 trait bonus on Diplomacy and Intimidate checks. This bonus increases to +2 when dealing with government officials.",
 			"",
-			"**Suggested Characters:** Absalom natives, {rule/Aspis Consortium} agents, Taldans."
+			"**Suggested Characters:** Absalom natives, ‹rule/Aspis Consortium› agents, Taldans."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -3995,7 +3995,7 @@
 			"",
 			"At least once in your childhood, your family moved for a reason you didn't understand and you were forced to leave behind your old friends and make new ones. Ever since, you have always been the first to meet strangers, make new friends, and welcome travelers. You learned that first impressions are the most important, and have a knack for making a good one. Once per day, when you attempt a Diplomacy check to improve a creature's attitude toward you, you may choose to reroll the check after the first roll is made but before the results are revealed. You must take the second result, even if it is worse.",
 			"",
-			"**Suggested Characters:** {rule/Eagle Knights}, Garundi, Pathfinders."
+			"**Suggested Characters:** ‹rule/Eagle Knights›, Garundi, Pathfinders."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4063,7 +4063,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"At least one of your parents was a {rule/Hellknight>s}, and you see the orders as the embodiment of civic virtue. You gain a +2 trait bonus on Diplomacy checks to influence Hellknights and a +2 trait bonus on Intimidate checks to influence enemies of the Hellknights."
+			"At least one of your parents was a ‹rule/Hellknight<s›, and you see the orders as the embodiment of civic virtue. You gain a +2 trait bonus on Diplomacy checks to influence Hellknights and a +2 trait bonus on Intimidate checks to influence enemies of the Hellknights."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4155,7 +4155,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"You know a good deal about your most dire enemies. You gain a +1 trait bonus on checks with the Knowledge skill corresponding to your first {ability/favored enemy} choice, and that Knowledge skill is always a class skill for you."
+			"You know a good deal about your most dire enemies. You gain a +1 trait bonus on checks with the Knowledge skill corresponding to your first ‹ability/favored enemy› choice, and that Knowledge skill is always a class skill for you."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4189,7 +4189,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you. You hold every Chelish government official (including {rule/Hellknights}) personally responsible for your lost glory. You gain a +1 trait bonus on attack and damage rolls against these officials."
+			"Your family was prominent before the rise of Thrune, but that legacy is now forgotten by all but you. You hold every Chelish government official (including ‹rule/Hellknights›) personally responsible for your lost glory. You gain a +1 trait bonus on attack and damage rolls against these officials."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4202,7 +4202,7 @@
 		],
 		"description": [
 			"**Type:** Social  ",
-			"**Requirements:** Member of The {rule/Pathfinder Society}",
+			"**Requirements:** Member of The ‹rule/Pathfinder Society›",
 			"",
 			"The skills of Golarion's greatest musicians are at your fingertips, thanks to the vast treasure trove of musical knowledge in the vaults beneath the Grand Lodge in Absalom. Studying this knowledge gives you the ability to use your bardic performance an additional 3 rounds per day."
 		],
@@ -4226,7 +4226,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"That which has marked you for power has also given you proof to show others. You may cast {spell/light} three times per day as a spell-like ability, but this ability only targets the palm of your hand, and it manifests as a glowing sigil representing your ominous birth - a holy or unholy symbol, a demonic symbol, or perhaps some other distinctive marking established by you and your GM. Those who recognize this symbol have a starting attitude toward you of one step closer to friendly (if they are followers of or scholars studying the sign) or one step closer to hostile (if they are opposed to the sign or its followers)."
+			"That which has marked you for power has also given you proof to show others. You may cast ‹spell/light› three times per day as a spell-like ability, but this ability only targets the palm of your hand, and it manifests as a glowing sigil representing your ominous birth - a holy or unholy symbol, a demonic symbol, or perhaps some other distinctive marking established by you and your GM. Those who recognize this symbol have a starting attitude toward you of one step closer to friendly (if they are followers of or scholars studying the sign) or one step closer to hostile (if they are opposed to the sign or its followers)."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4343,7 +4343,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not. All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the {feat/Leadership} feat, you gain a +1 trait bonus to your Leadership score."
+			"You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not. All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the ‹feat/Leadership› feat, you gain a +1 trait bonus to your Leadership score."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4354,7 +4354,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"Long exposure to the endless variety of the {rule/Nightstalls} grants you a +2 trait bonus on Diplomacy checks to gather information and on Knowledge (local) checks to recall information about criminal activities. One of these (your choice) is always a class skill for you."
+			"Long exposure to the endless variety of the ‹rule/Nightstalls› grants you a +2 trait bonus on Diplomacy checks to gather information and on Knowledge (local) checks to recall information about criminal activities. One of these (your choice) is always a class skill for you."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4364,7 +4364,7 @@
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
 			"**Type:** Social  ",
-			"**Faction:** {rule/Ulfen Guard}",
+			"**Faction:** ‹rule/Ulfen Guard›",
 			"",
 			"You hail from the fringes of civilization or the bottommost strata of society, but something in your character makes that seem endearing. You gain a +2 trait bonus on Diplomacy and Perform checks when dealing with people of high social standing."
 		],
@@ -4559,7 +4559,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"Often forced to go without food or stimulation for days at a time, you have learned to use prolonged sleep as a means of escape and a way to heal your wounds. You heal temporary ability damage at a rate of 3 points per day of complete {rule/bed rest}. A normal night of rest (8 hours) still heals you at a rate of only 1 point of temporary ability damage per night of rest."
+			"Often forced to go without food or stimulation for days at a time, you have learned to use prolonged sleep as a means of escape and a way to heal your wounds. You heal temporary ability damage at a rate of 3 points per day of complete ‹rule/bed rest›. A normal night of rest (8 hours) still heals you at a rate of only 1 point of temporary ability damage per night of rest."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4585,7 +4585,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"You gain a +2 trait bonus on Survival checks to track dragons. If you have the {ability/favored terrain} class ability, add a +1 bonus to check for skills affected by this ability, as long as you're using these skills in regards to a dragon."
+			"You gain a +2 trait bonus on Survival checks to track dragons. If you have the ‹ability/favored terrain› class ability, add a +1 bonus to check for skills affected by this ability, as long as you're using these skills in regards to a dragon."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4606,7 +4606,7 @@
 		"compilationSources": [ [ "Faction Guide" ] ],
 		"description": [
 			"**Type:** Social  ",
-			"**Requirements:** {rule/Kitharodian Academy}",
+			"**Requirements:** ‹rule/Kitharodian Academy›",
 			"",
 			"From a very young age, the ability to master performance types has come quite naturally to you. Choose a performance type. You gain a +2 trait bonus on all Perform checks made using that performance type. Perform is always a class skill for you."
 		],
@@ -4687,7 +4687,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"You witnessed or were party to the rescue of a halfling from Chelish slavery by the {rule/Bellflower Network} or {rule/Eagle Knights}. Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an Acrobatics check, an Escape Artist check, a Stealth check, or a skill check attempted as part of a heist or pursuit"
+			"You witnessed or were party to the rescue of a halfling from Chelish slavery by the ‹rule/Bellflower Network› or ‹rule/Eagle Knights›. Once per day when attempting to directly free a slave, you gain a +2 trait bonus on your choice of an Acrobatics check, an Escape Artist check, a Stealth check, or a skill check attempted as part of a heist or pursuit"
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4895,7 +4895,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"You've been part of one of Mengkare's minor experiments. Once per day, you can cast {spell/detect psychic significance} or {spell/telekinetic projectile} as a spell-like ability, with a caster level equal to your character level."
+			"You've been part of one of Mengkare's minor experiments. Once per day, you can cast ‹spell/detect psychic significance› or ‹spell/telekinetic projectile› as a spell-like ability, with a caster level equal to your character level."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4950,7 +4950,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness. Once per day as an immediate action, you can issue a command to a confused creature within 30 feet. This allows the creature to immediately reroll on the {misc/confused/ condition table}, and you can pick which of the two actions - the action of its initial roll or that of the reroll - the creature takes. Confused creatures do not need to understand you for this trait to take effect."
+			"Through pacts with eldritch beings or a simple quirk of circumstance, your voice has an uncanny rapport with those swept up in madness. Once per day as an immediate action, you can issue a command to a confused creature within 30 feet. This allows the creature to immediately reroll on the ‹misc/confused« condition table›, and you can pick which of the two actions - the action of its initial roll or that of the reroll - the creature takes. Confused creatures do not need to understand you for this trait to take effect."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]
@@ -4996,7 +4996,7 @@
 		"description": [
 			"**Type:** Social",
 			"",
-			"You gain a +1 trait bonus on Charisma checks against evil creatures. If you select the {feat/Leadership} feat or the {feat/Vile Leadership} feat at any point when you meet the prerequisites for that feat, you can recruit a cohort who is up to 1 level lower than you (instead of the normal requirement that your cohort must be 2 or more levels lower than you are) as long as your cohort is evil."
+			"You gain a +1 trait bonus on Charisma checks against evil creatures. If you select the ‹feat/Leadership› feat or the ‹feat/Vile Leadership› feat at any point when you meet the prerequisites for that feat, you can recruit a cohort who is up to 1 level lower than you (instead of the normal requirement that your cohort must be 2 or more levels lower than you are) as long as your cohort is evil."
 		],
 		"category": "Social",
 		"topLink": [ "Social Traits", "main/traits_social" ]

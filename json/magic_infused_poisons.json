@@ -5,18 +5,18 @@
 		"description": [
 			"## Abyssal Arsenic",
 			"",
-			"{SOURCE Black Markets/12}  ",
+			"‹SOURCE Black Markets/12›  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot**; **Price** 420 gp; **Weight** &mdash;",
 			"",
-			"Favored by demon cultists, this malign variant of {eq-poison/arsenic} causes a wide variety of painful deformations in the victim's flesh.",
+			"Favored by demon cultists, this malign variant of ‹eq-poison/arsenic› causes a wide variety of painful deformations in the victim's flesh.",
 			"",
 			"**Type** poison, ingested; **Save** Fortitude DC 13  ",
 			"**Onset** 10 minutes; **Frequency** 1/minute for 4 minutes  ",
-			"**Effect** 1d2 {rule/Con damage}; **Cure** 1 save  ",
+			"**Effect** 1d2 ‹rule/Con damage›; **Cure** 1 save  ",
 			"**Spell Effect** disfiguring touch (Will DC 13)",
 			"",
-			"**Requirements** {feat/Brew Potion}, {feat/Infuse Poison}, {spell/disfiguring touch}; **Cost** 270 gp"
+			"**Requirements** ‹feat/Brew Potion›, ‹feat/Infuse Poison›, ‹spell/disfiguring touch›; **Cost** 270 gp"
 		]
 	},
 	"burning_heart": {
@@ -25,18 +25,18 @@
 		"description": [
 			"## Burning Heart",
 			"",
-			"{SOURCE Black Markets/13}  ",
+			"‹SOURCE Black Markets/13›  ",
 			"**Aura** faint evocation; **CL** 1st  ",
 			"**Slot**; **Price** 150 gp; **Weight** &mdash;",
 			"",
-			"Brewed from {eq-poison/belladonna} and popular among the backstabbing nobility of Taldor and Cheliax, burning heart causes victims to burst into flames at the most embarrassing times.",
+			"Brewed from ‹eq-poison/belladonna› and popular among the backstabbing nobility of Taldor and Cheliax, burning heart causes victims to burst into flames at the most embarrassing times.",
 			"",
 			"**Type** poison, ingested; **Save** Fortitude DC 14  ",
 			"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes  ",
-			"**Effect** 1d2 {rule/Str damage}, target can attempt one save to cure a {corruption/lycanthropy} affliction contracted in the past hour; **Cure** 1 save  ",
+			"**Effect** 1d2 ‹rule/Str damage›, target can attempt one save to cure a ‹corruption/lycanthropy› affliction contracted in the past hour; **Cure** 1 save  ",
 			"**Spell Effect** touch of combustion (Reflex DC 11)",
 			"",
-			"**Requirements** {feat/Brew Potion}, {feat/Infuse Poison}, {spell/touch of combustion}; **Cost** 125 gp"
+			"**Requirements** ‹feat/Brew Potion›, ‹feat/Infuse Poison›, ‹spell/touch of combustion›; **Cost** 125 gp"
 		]
 	},
 	"dust_of_eox": {
@@ -45,18 +45,18 @@
 		"description": [
 			"## Dust of Eox",
 			"",
-			"{SOURCE Black Markets/13}  ",
+			"‹SOURCE Black Markets/13›  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot**; **Price** 1,150 gp; **Weight** &mdash;",
 			"",
-			"This black metallic powder infuses {eq-poison/lich dust} with magic-destroying energies, tearing down any protective spells its imbiber may have in place. It is especially favored by {rule/Red Mantis} assassins when they must target wizards, arcanists, or nobles with abundant magical servants.",
+			"This black metallic powder infuses ‹eq-poison/lich dust› with magic-destroying energies, tearing down any protective spells its imbiber may have in place. It is especially favored by ‹rule/Red Mantis› assassins when they must target wizards, arcanists, or nobles with abundant magical servants.",
 			"",
 			"**Type** poison, ingested; **Save** Fortitude DC 13  ",
 			"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes  ",
-			"**Effect** 1d3 {rule/Str damage}; **Cure** 2 consecutive saves  ",
+			"**Effect** 1d3 ‹rule/Str damage›; **Cure** 2 consecutive saves  ",
 			"**Spell Effect** dispel magic",
 			"",
-			"**Requirements** {feat/Brew Potion}, {feat/Infuse Poison}, {spell/dispel magic}; **Cost** 775 gp"
+			"**Requirements** ‹feat/Brew Potion›, ‹feat/Infuse Poison›, ‹spell/dispel magic›; **Cost** 775 gp"
 		]
 	},
 	"liquid_influence": {
@@ -65,18 +65,18 @@
 		"description": [
 			"## Liquid Influence",
 			"",
-			"{SOURCE Black Markets/13}  ",
+			"‹SOURCE Black Markets/13›  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot**; **Price** 900 gp; **Weight** &mdash;",
 			"",
-			"This heady liquid brewed from the toxin {eq-poison/indigo dreams} imparts a compulsion[^C] to its victim, decided when the poison is first created.",
+			"This heady liquid brewed from the toxin ‹eq-poison/indigo dreams› imparts a compulsion[^C] to its victim, decided when the poison is first created.",
 			"",
 			"**Type** poison, ingested; **Save** Fortitude DC 13  ",
 			"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes  ",
-			"**Effect** 1d3 {rule/Wis damage}; **Cure** 2 consecutive saves  ",
+			"**Effect** 1d3 ‹rule/Wis damage›; **Cure** 2 consecutive saves  ",
 			"**Spell Effect** suggestion (Will DC 14)",
 			"",
-			"**Requirements** {feat/Brew Potion}, {feat/Infuse Poison}, {spell/suggestion}; **Cost** 525 gp",
+			"**Requirements** ‹feat/Brew Potion›, ‹feat/Infuse Poison›, ‹spell/suggestion›; **Cost** 525 gp",
 			"",
 			"[^C]: What \"compulsion\" means here is not defined. Given that the requirements list the *suggestion* spell, it may be reasonable to use that spell as a benchmark. Consult your GM."
 		]

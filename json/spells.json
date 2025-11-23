@@ -32,7 +32,7 @@
 			"",
 			"::spell{source=\"Pathfinder #82: Secrets of the Sphinx/74\" abjuration clr=2 inq=2 orc=2 pal=2 war=2 ctM=1 cV cS cDF cMp=\"a flask of holy water worth 25 gp\" rTouch target=\"creature touched\" durH=24 will srY harmless}",
 			"",
-			"Abeyance suppresses the effects of a single curse on a creature. It does not restore any damage or drain that might have been caused by the curse. Abeyance cannot suppress curses that cannot be removed by {spell/remove curse}, but it can suppress curses such as lycanthropy that require remove curse along with additional measures. An individual curse can be suppressed only once by abeyance, even if cast by a different caster.",
+			"Abeyance suppresses the effects of a single curse on a creature. It does not restore any damage or drain that might have been caused by the curse. Abeyance cannot suppress curses that cannot be removed by ‹spell/remove curse›, but it can suppress curses such as lycanthropy that require remove curse along with additional measures. An individual curse can be suppressed only once by abeyance, even if cast by a different caster.",
 			"",
 			"Abeyance does not allow a creature to divest itself of cursed objects, though it can suppress a curse contracted from an object."
 		]
@@ -63,7 +63,7 @@
 			"",
 			":::mythic{title=\"Mythic Ablative Barrier\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}  ",
+			"‹SOURCE Mythic Adventures/84›  ",
 			"Add half your tier to the spell's armor bonus. Add half your tier to the amount of lethal damage from each attack that is converted to nonlethal damage and to the DR against nonlethal damage. Add half your tier to your caster level when determining how much damage the spell converts before it's discharged.",
 			"",
 			":::"
@@ -92,7 +92,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/189\" transmutation arc=2 clr=2 drd=2 hnt=2 orc=2 rma=2 sor=2 war=2 wit=2 wiz=2 ctSt cV cS cMDFp=\"piece of seaweed\" rTouch target=\"living creatures touched\" dur=\"1 hour/level; see text\" will srY}",
 			"",
-			">*The following spell is available to the indicated race or ethnicity: {race/Gillman}*",
+			">*The following spell is available to the indicated race or ethnicity: ‹race/Gillman›*",
 			"",
 			"The targets are able to breathe water, freely. However, they can no longer breathe air. Divide the duration evenly among all the creatures you touch. This spell has no effect on creatures that can already breathe water."
 		]
@@ -105,9 +105,9 @@
 			"",
 			"::spell{source=\"Ultimate Intrigue/203\" abjuration clr=4 orc=4 pal=4 war=4 ctR=1 cV cS cDF cMp=\"a vial of holy water\" rTouch target=\"living creature touched\" durI saveNo srN}",
 			"",
-			"You purge impure thoughts from the target's mind and fill him with exultant relief at the forgiveness of his sins. Absolution ends all charm or compulsion effects affecting the target (including harmless compulsions, such as {spell/heroism}) as per {spell/break enchantment}. If the target was forced to perform any actions contrary to his alignment, monk vows, paladin oath, or similar code of conduct by that charm or compulsion effect, that action doesn't cause him to lose access to class abilities, including divine spellcasting.",
+			"You purge impure thoughts from the target's mind and fill him with exultant relief at the forgiveness of his sins. Absolution ends all charm or compulsion effects affecting the target (including harmless compulsions, such as ‹spell/heroism›) as per ‹spell/break enchantment›. If the target was forced to perform any actions contrary to his alignment, monk vows, paladin oath, or similar code of conduct by that charm or compulsion effect, that action doesn't cause him to lose access to class abilities, including divine spellcasting.",
 			"",
-			"Unlike an {spell/atonement} spell, absolution can't reverse alignment change or the effects of willing transgressions, induce a creature to change its alignment, or restore class abilities lost because of misdeeds performed in the past. Absolution automatically works if the caster and the target share the same alignment or the same patron deity. If they don't, but their alignments are within one step of each other, absolution has a 5% chance of success per caster level. If neither of these is true, the spell automatically fails.",
+			"Unlike an ‹spell/atonement› spell, absolution can't reverse alignment change or the effects of willing transgressions, induce a creature to change its alignment, or restore class abilities lost because of misdeeds performed in the past. Absolution automatically works if the caster and the target share the same alignment or the same patron deity. If they don't, but their alignments are within one step of each other, absolution has a 5% chance of success per caster level. If neither of these is true, the spell automatically fails.",
 			"",
 			"If using the honor subsystem, casting absolution also eliminates the honor loss for events and actions committed by the target while he was affected by a charm or compulsion effect that the spell ended."
 		]
@@ -186,11 +186,11 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/160\" air transmutation alc=4 arc=4 bld=4 drd=4 hnt=4 inv=4 rma=4 sor=4 wiz=4 ctSt cV cS rClose target=\"one cloud-like effect, up to one 10-ft. cube/level\" dur=\"1 round/level; see text\" save=\"see text\" srN}",
 			"",
-			">*{race/Sylph/s} have access to the following spell.*",
+			">*‹race/Sylph«s› have access to the following spell.*",
 			"",
 			"You grant your lungs inhuman strength and capacity, allowing you to harmlessly and completely inhale one gas, fog, smoke, mist, or similar cloud-like effect. If the targeted cloud is a magical effect, you must succeed at a caster level check (DC 11 + the effect's caster level) to inhale it. Inhaling the cloud removes it from the area, leaving normal air in its place. If the cloud is too large for you to affect with a single casting of this spell, you may instead inhale a portion of the cloud, but you must inhale the portion of the cloud closest to you. This spell has no effect on gaseous creatures. It can only affect an instantaneous-duration cloud (such as a breath weapon) if you ready an action to cast the spell in response.",
 			"",
-			"While inhaled, the cloud does not harm you. You may keep the cloud harmlessly contained within you for up to 1 round per level, but you must {misc/hold your breath} to do so (even if you do not normally have to breathe). If the cloud has a duration, the time the cloud is contained within you counts toward that duration. As a standard action, you may release the stored cloud as a breath weapon, filling a 60-foot cone (or the cloud's original area, if smaller than a 60-foot cone). Any creature in the breath's area is subject to its normal effects, making saving throws and spell resistance checks as appropriate against the cloud's original DC. The exhaled cloud resumes its duration, if any. Exhaling the stored cloud ends this spell. If you do not exhale the cloud before this spell's duration expires, you suffer the cloud's effects and automatically fail any saving throw to resist it."
+			"While inhaled, the cloud does not harm you. You may keep the cloud harmlessly contained within you for up to 1 round per level, but you must ‹misc/hold your breath› to do so (even if you do not normally have to breathe). If the cloud has a duration, the time the cloud is contained within you counts toward that duration. As a standard action, you may release the stored cloud as a breath weapon, filling a 60-foot cone (or the cloud's original area, if smaller than a 60-foot cone). Any creature in the breath's area is subject to its normal effects, making saving throws and spell resistance checks as appropriate against the cloud's original DC. The exhaled cloud resumes its duration, if any. Exhaling the stored cloud ends this spell. If you do not exhale the cloud before this spell's duration expires, you suffer the cloud's effects and automatically fail any saving throw to resist it."
 		]
 	},
 	"absorbing_touch": {
@@ -232,9 +232,9 @@
 			"",
 			"Your targets perceive intimidation and threats as laughably absurd. A character attempting to intimidate your targets is instead perceived as having exaggerated facial features or babbling and awkward speech. Effects that impose fear conditions become objects of ridicule, with the targets making fun of the source of the object as it attempts to scare them.",
 			"",
-			"Absurdity protects your targets from gaining {rule/lesser fear /conditions>and_greater_fear} (spooked, shaken, and scared), granting them immunity to spooked and a 50% chance to negate shaken or scared conditions instead of gaining them from any effect, including uses of the Intimidate skill to demoralize. Any other effect related to a spell or ability that generates fear (such as dying from a {spell/phantasmal killer}) affects them normally, and effects that ignore immunity to fear also ignore absurdity.",
+			"Absurdity protects your targets from gaining ‹rule/lesser fear «conditions<and_greater_fear› (spooked, shaken, and scared), granting them immunity to spooked and a 50% chance to negate shaken or scared conditions instead of gaining them from any effect, including uses of the Intimidate skill to demoralize. Any other effect related to a spell or ability that generates fear (such as dying from a ‹spell/phantasmal killer›) affects them normally, and effects that ignore immunity to fear also ignore absurdity.",
 			"",
-			"However, target creatures also have serious difficulty noticing potential threats; they take a -10 penalty on Sense Motive checks to avoid surprise or to notice that a creature is actively threatening or malicious and a -2 penalty on initiative checks. The spell doesn't prevent spells or effects that provide early warning or a form of danger sense (like {spell/anticipate peril} or {spell/find traps}) from alerting the affected character to danger."
+			"However, target creatures also have serious difficulty noticing potential threats; they take a -10 penalty on Sense Motive checks to avoid surprise or to notice that a creature is actively threatening or malicious and a -2 penalty on initiative checks. The spell doesn't prevent spells or effects that provide early warning or a form of danger sense (like ‹spell/anticipate peril› or ‹spell/find traps›) from alerting the affected character to danger."
 		]
 	},
 	"abundant_ammunition": {
@@ -256,7 +256,7 @@
 			"",
 			"::spell{source=\"Pathfinder #78: City of Locusts/75\" transmutation ant=2 arc=4 clr=4 orc=4 rma=4 sor=4 war=4 wit=4 wiz=4 ctSt cV cS rClose target=\"one vermin or vermin swarm\" durML=1 save=\"Fortitude negates (see text)\" srY}",
 			"",
-			">*Priests of {faith/Deskari} have access to the following spell.*",
+			">*Priests of ‹faith/Deskari› have access to the following spell.*",
 			"",
 			"You infuse the target with power from the Abyss, granting it the fiendish creature simple template. The swarm gains DR 5/good if it has at least 5 Hit Dice, or DR 10/good it if has at least 11 HD. It gains cold resistance 5 and fire resistance 5 if it has at least 5 HD, or cold resistance 10 and fire resistance 10 if it has at least 11 HD. It gains spell resistance equal to its CR + 6. Once per day, it can smite good (as a swift action against a good opponent, the vermin adds its Charisma bonus to its attack rolls and its HD to its damage rolls until the opponent is dead). If the targeted vermin is under your command, it automatically fails its saving throw against this spell. This spell has no effect on vermin that already have the fiendish creature simple template."
 		]
@@ -291,7 +291,7 @@
 			"",
 			"::spell{source=\"Blood of the Moon/9\" curse necromancy ant=3 arc=3 sor=3 wit=3 wiz=3 ctR=1 cV cS rClose target=\"one creature\" durDL=1 will srY}",
 			"",
-			">*The following spell is common among [werebats](template/lycanthrope), bloodmarked {race/skinwalker/s}, and those who associate with them.*",
+			">*The following spell is common among [werebats](template/lycanthrope), bloodmarked ‹race/skinwalker«s›, and those who associate with them.*",
 			"",
 			"You channel a fell curse through your glare. If the target fails its saving throw, it begins to obsessively secondguess its actions and attract bad luck. Whenever the target attempts an attack roll or saving throw while the curse lasts, it must roll twice and take the lower result. While you cast this spell, an ally within range of the subject can attempt an Intimidate check as a move action (DC = save DC of this spell); on a success, the ally adds its own glare to yours, granting you a +2 bonus on your caster level check to overcome spell resistance (if any). Multiple allies can attempt Intimidate checks; this bonus stacks."
 		]
@@ -381,7 +381,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/172\" conjuration creation alc=1 arc=1 inv=1 psy=1 sor=1 wit=1 wiz=1 ctSt cV cS rFt=15 target=\"one creature\" dur=\"1 round/level or until discharged (see text)\" reflPartial srN}",
 			"",
-			"Once during this spell's duration, you can spit a viscous liquid as a standard action. This liquid functions as a {eq-weapon/tanglefoot bag}, except you do not have to make a successful attack roll to hit your target. The DCs to counteract this adhesive (to avoid being stuck to the floor, to fly, to break the adhesive, or to cast a spell) use the spell's DC rather than a tanglefoot bag's normal DCs. The adhesive persists for 2d4 rounds after you spit it."
+			"Once during this spell's duration, you can spit a viscous liquid as a standard action. This liquid functions as a ‹eq-weapon/tanglefoot bag›, except you do not have to make a successful attack roll to hit your target. The DCs to counteract this adhesive (to avoid being stuck to the floor, to fly, to break the adhesive, or to cast a spell) use the spell's DC rather than a tanglefoot bag's normal DCs. The adhesive persists for 2d4 rounds after you spit it."
 		]
 	},
 	"adjustable_disguise": {
@@ -392,7 +392,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/172\" glamer illusion alc=3 ant=3 arc=3 brd=3 inq=3 inv=3 med=3 mes=3 occ=3 psy=3 rma=3 skd=3 sor=3 wit=3 wiz=3 ctSt cV cS rPers target=you durML=10 durD}",
 			"",
-			"This spell functions as {spell/disguise self}, except as a swift action you can alter the disguise (within the limitations of disguise self). For example, you could make yourself look like a young human city guard, then an old elven wizard of the opposite gender, then a halfling thief, and so on. You can change the disguise a number of times equal to your caster level."
+			"This spell functions as ‹spell/disguise self›, except as a swift action you can alter the disguise (within the limitations of disguise self). For example, you could make yourself look like a young human city guard, then an old elven wizard of the opposite gender, then a halfling thief, and so on. You can change the disguise a number of times equal to your caster level."
 		]
 	},
 	"adjustable_polymorph": {
@@ -403,7 +403,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/172\" polymorph transmutation alc=4 arc=4 brd=4 inv=4 mag=4 med=4 psy=4 rma=4 sha=4 skd=4 sor=4 sum=4 usm=4 wit=4 wiz=4 ctSt cV cS cMp=\"a small piece of doppelganger flesh\" rPers target=you durML=1 durD}",
 			"",
-			"This spell functions as {spell/alter self}, except you can as a swift action alter the disguise (within the limitations of alter self). For example, you could transform yourself into a halfling, then a lizardfolk, then an elf, and so on. You can change your form a number of times equal to your caster level."
+			"This spell functions as ‹spell/alter self›, except you can as a swift action alter the disguise (within the limitations of alter self). For example, you could transform yourself into a halfling, then a lizardfolk, then an elf, and so on. You can change your form a number of times equal to your caster level."
 		]
 	},
 	"admonishing_ray": {
@@ -425,7 +425,7 @@
 			"",
 			"::spell{source=\"Ultimate Combat/222\" enchantment mindAffecting emotion arc=2 brd=1 mes=1 psy=2 skd=1 sor=2 wit=2 wiz=2 ctSt cV cS rClose target=\"one creature\" durML=1 will svHarmless srY}",
 			"",
-			"The target of this spell is the subject of adoration by those whom it tries to affect with Diplomacy or during performance combat. If the target is out of combat, it receives a +2 morale bonus on all Diplomacy checks it makes to influence creatures. If the creature is engaged in {rule/performance combat}, the target gains a +2 morale bonus on all performance combat checks."
+			"The target of this spell is the subject of adoration by those whom it tries to affect with Diplomacy or during performance combat. If the target is out of combat, it receives a +2 morale bonus on all Diplomacy checks it makes to influence creatures. If the creature is engaged in ‹rule/performance combat›, the target gains a +2 morale bonus on all performance combat checks."
 		]
 	},
 	"adroit_retrieval": {
@@ -447,7 +447,7 @@
 			"",
 			"::spell{source=\"Pathfinder #55: The Wormwood Mutiny/73\" disease evil necromancy clr=1 drd=1 hnt=1 orc=1 war=1 ctSt cV cS rTouch target=\"living creature touched\" durI fort srY}",
 			"",
-			">*This spell is associated with {faith/Besmara}, but there are no restrictions on its use by others.*",
+			">*This spell is associated with ‹faith/Besmara›, but there are no restrictions on its use by others.*",
 			"",
 			"The subject contracts an advanced form of scurvy. He becomes constantly fatigued, suffers from bone pain (-1 penalty on Strength- and Dexterity-based checks), wounds easily (add +1 point of damage to any bleed effects affecting the target), experiences loose teeth, and is slow to heal (natural healing occurs at half the normal rate). Scurvy can be treated magically or can be overcome with proper nutrition; eating the right foods ends the fatigue and bone pain within 1-2 days and provides a full cure 2d6 days after that."
 		]
@@ -542,7 +542,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/205;Book of the Damned - Volume 1: Princes of Darkness/46\" evil evocation pain arc=4 clr=3 occ=3 orc=3 psy=4 sor=4 sum=3 usm=4 war=3 wiz=4 ctSt cV cS rClose target=\"one conjured outsider or elemental (see text)\" durR=1 fort srY}",
 			"",
-			"You afflict a creature you have conjured via {spell/planar ally} (or a similar spell) with bolts of vicious energy. These foul energies inflict terrible pain upon the conjured creature, torturing it to make it more pliant to your will. The targeted creature must make a Fortitude save or take a -1 penalty for every 2 levels you possess (maximum -10) on all saves and checks made against you for the next hour. In addition, creatures that demand payment for their services reduce the payment by 20% for every 4 levels you possess (maximum 60% reduction). However, beings tortured by this spell quickly come to resent you, making them more likely to try to pervert your orders to malicious ends or try to seek retribution after their release. This spell has no effect on creatures that are immune to nonlethal damage."
+			"You afflict a creature you have conjured via ‹spell/planar ally› (or a similar spell) with bolts of vicious energy. These foul energies inflict terrible pain upon the conjured creature, torturing it to make it more pliant to your will. The targeted creature must make a Fortitude save or take a -1 penalty for every 2 levels you possess (maximum -10) on all saves and checks made against you for the next hour. In addition, creatures that demand payment for their services reduce the payment by 20% for every 4 levels you possess (maximum 60% reduction). However, beings tortured by this spell quickly come to resent you, making them more likely to try to pervert your orders to malicious ends or try to seek retribution after their release. This spell has no effect on creatures that are immune to nonlethal damage."
 		]
 	},
 	"agonizing_rebuke": {
@@ -553,7 +553,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/126\" mindAffecting emotion illusion pain phantasm ant=2 clr=3 inq=3 mes=3 orc=3 psy=3 war=3 wit=3 ctSt cV cS rClose target=\"one living creature\" durRL=1 will srY}",
 			"",
-			">*{race/Hobgoblin/s} have access to the following spell.*",
+			">*‹race/Hobgoblin«s› have access to the following spell.*",
 			"",
 			"With a word and a gesture, you instill such apprehension about attacking you in your target that doing so causes it mental distress and pain. Each time the target makes an attack against you, targets you with a harmful spell, or otherwise takes and action that would harm you, it takes 2d6 points of nonlethal damage."
 		]
@@ -625,7 +625,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/173\" air transmutation alc=2 arc=2 brd=2 clr=2 drd=2 hnt=2 inv=2 occ=2 orc=2 rgr=2 rma=2 skd=2 sor=2 war=2 wit=2 wiz=2 ctSt cV cS cMp=\"a goose feather\" rPers target=you durML=1}",
 			"",
-			"This spell functions as {spell/air walk}, except you can rise no higher than 1 foot off the ground, you cannot pass over liquid, and the air you walk on is less stable than solid ground. When walking on air, you ignore difficult terrain that is less than 1 foot high, you do not trigger effects based on weight (such as a pressure plate), and any creature trying to track you through areas you crossed with this spell takes a -10 penalty on its Perception or Survival check to do so. However, because of the instability of the air you walk on, your speed is reduced by 10 feet (to a minimum of 5 feet) and you take a -4 penalty on Acrobatics, Climb, and Ride checks.",
+			"This spell functions as ‹spell/air walk›, except you can rise no higher than 1 foot off the ground, you cannot pass over liquid, and the air you walk on is less stable than solid ground. When walking on air, you ignore difficult terrain that is less than 1 foot high, you do not trigger effects based on weight (such as a pressure plate), and any creature trying to track you through areas you crossed with this spell takes a -10 penalty on its Perception or Survival check to do so. However, because of the instability of the air you walk on, your speed is reduced by 10 feet (to a minimum of 5 feet) and you take a -4 penalty on Acrobatics, Climb, and Ride checks.",
 			"",
 			"If you have 1 rank in Fly, your speed is not reduced when using this spell, and you can cross over liquid at half speed. If you have 5 ranks in Fly, you can cross liquid at full speed and do not take the penalties to your skill checks."
 		]
@@ -682,7 +682,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/156\" necromancy psy=9 ctH=1 cV cS rPers target=you durH=24 saveNo srN}",
 			"",
-			"You create a perfect record of your physical body in the {rule/Akashic Record} at the time the spell is cast. This record includes your current hit point total, physical ability scores (Strength, Dexterity, and Constitution), and any conditional modifiers or conditions such as ability damage to physical ability scores, disease, negative levels, and poison. If at any point within the duration of the spell you are reduced to fewer than 0 hit points or are slain by a death effect that is not mind-affecting, you can immediately let your current physical body die and assume the record of your physical body on your next turn. When this happens, your corpse disappears, and you can either resume the place of your dead body (already wearing any clothing still attached to the corpse) or appear in any place you've been within 500 feet of where your corpse lies (but without any of your gear).",
+			"You create a perfect record of your physical body in the ‹rule/Akashic Record› at the time the spell is cast. This record includes your current hit point total, physical ability scores (Strength, Dexterity, and Constitution), and any conditional modifiers or conditions such as ability damage to physical ability scores, disease, negative levels, and poison. If at any point within the duration of the spell you are reduced to fewer than 0 hit points or are slain by a death effect that is not mind-affecting, you can immediately let your current physical body die and assume the record of your physical body on your next turn. When this happens, your corpse disappears, and you can either resume the place of your dead body (already wearing any clothing still attached to the corpse) or appear in any place you've been within 500 feet of where your corpse lies (but without any of your gear).",
 			"",
 			"You still retain your original mind, and therefore don't regain any spells. You are still under any mental influences and energy drain effects you were under when you recalled the record of your physical body, but don't retain any physical effects such as bleed damage or poison (unless you suffered from these conditions at the time the spell was cast). Spells affecting you when you store a record of yourself abide by their normal durations. For example, if you were affected by cat's grace when you created the record and you restore your body 1 hour later, you won't be under that effect anymore since its duration has already expired. This spell doesn't allow you to avoid dying of old age. Casting this spell again replaces any previous version you cast; you can't store more than one copy of yourself in the Akashic Record."
 		]
@@ -709,7 +709,7 @@
 			"",
 			"Ethereal or astral creatures do not trigger the alarm.",
 			"",
-			"Alarm can be made permanent with a {spell/permanency} spell.",
+			"Alarm can be made permanent with a ‹spell/permanency› spell.",
 			"",
 			"::h3[Escape Alarm]{jl}",
 			"",
@@ -740,7 +740,7 @@
 			"",
 			"::spell{source=\"Magic Tactics Toolbox/21\" curse evocation ant=4 arc=6 brd=4 clr=6 inq=5 occ=5 orc=6 psy=6 sha=5 skd=4 sor=6 war=6 wit=5 wiz=6 ctSt cV cS rTouch target=\"creature touched\" durP will srY}",
 			"",
-			"You inflict a curse similar to the spell burn spellblight on a creature. Each time a spellcaster who is afflicted with this curse casts a spell or uses a spell-like ability, her skin seems to burn as though she were on fire. With a successful {rule/concentration} check (DC = 15 + double the spell level of the spell cast or spell-like ability used), the spellcaster can ignore the pain of the effect, but if she fails, she loses the spell or spell slot and is staggered for a round.",
+			"You inflict a curse similar to the spell burn spellblight on a creature. Each time a spellcaster who is afflicted with this curse casts a spell or uses a spell-like ability, her skin seems to burn as though she were on fire. With a successful ‹rule/concentration› check (DC = 15 + double the spell level of the spell cast or spell-like ability used), the spellcaster can ignore the pain of the effect, but if she fails, she loses the spell or spell slot and is staggered for a round.",
 			"",
 			"Unlike with the spell burn spellblight, the burning sensation is a tangible effect, visible during the act of spellcasting as an incorporeal, violet flame surrounding the caster."
 		]
@@ -764,7 +764,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/155\" transmutation arc=1 clr=2 orc=2 rma=1 sor=1 war=2 wit=1 wiz=1 ctSt cV cS rTouch target=\"firearm or alchemical item touched\" durML=1 fort svObject srY}",
 			"",
-			">*{race/Ratfolk} have access to the following spell.*",
+			">*‹race/Ratfolk› have access to the following spell.*",
 			"",
 			"You transform one alchemical item or firearm into another alchemical item or firearm of the same or lesser cost. Magic items are unaffected by this spell. At the end of the spell's duration, alchemical items used while transformed are destroyed and do not return to a usable state and firearms transformed revert back to their original type."
 		]
@@ -789,7 +789,7 @@
 		"description": [
 			"## Align Weapon",
 			"",
-			"::spell{source=\"PRPG Core Rulebook/240\" school=\"%%spelldef/transmutation%% &#91&see text&#93&\" clr=2 inq=2 orc=2 war=2 ctSt cV cS cDF rTouch target=\"weapon touched or 50 projectiles (all of which must be together at the time of casting)\" durML=1 will srY harmless object}",
+			"::spell{source=\"PRPG Core Rulebook/240\" school=\"‹spelldef/transmutation› &#91&see text&#93&\" clr=2 inq=2 orc=2 war=2 ctSt cV cS cDF rTouch target=\"weapon touched or 50 projectiles (all of which must be together at the time of casting)\" durML=1 will srY harmless object}",
 			"",
 			"Align weapon makes a weapon chaotic, evil, good, or lawful, as you choose. A weapon that is aligned can bypass the damage reduction of certain creatures. This spell has no effect on a weapon that already has an alignment.",
 			"",
@@ -797,7 +797,7 @@
 			"",
 			"### Communal Align Weapon",
 			"",
-			"::spell{source=\"Advanced Class Guide/173\" school=\"%%spelldef/transmutation%% &#91&see text&#93&\" clr=3 inq=3 orc=3 war=3 ctSt cV cS cDF rTouch target=\"weapons or projectiles touched\" durML=1 will srY harmless object}",
+			"::spell{source=\"Advanced Class Guide/173\" school=\"‹spelldef/transmutation› &#91&see text&#93&\" clr=3 inq=3 orc=3 war=3 ctSt cV cS cDF rTouch target=\"weapons or projectiles touched\" durML=1 will srY harmless object}",
 			"",
 			"This spell functions as align weapon, except you divide the duration in 1-minute increments between any number of touched weapons. Every group of up to 50 projectiles (which must be together at the time of casting) counts as one weapon for the purpose of dividing the spell's duration."
 		]
@@ -815,7 +815,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/205\" transmutation brd=2 skd=2 ctSt cV rPers target=you dur=\"1 round/level (d) or until discharged\"}",
 			"",
-			"This spell allows you to act more swiftly while maintaining a bardic performance. You must already be maintaining a bardic performance before you can cast allegro. You gain the benefits of the spell haste for as long as you maintain that bardic performance. If you cease maintaining the bardic performance or it is interrupted, this spell's duration ends. As an immediate action while you are maintaining a bardic performance, you can dismiss allegro to reroll a Reflex save or Dexterity-based skill check-you must choose to reroll before the result of the original roll is known. You must take the result of the reroll, even if it's worse than the original roll. Allegro dispels and is dispelled by {spell/slow}."
+			"This spell allows you to act more swiftly while maintaining a bardic performance. You must already be maintaining a bardic performance before you can cast allegro. You gain the benefits of the spell haste for as long as you maintain that bardic performance. If you cease maintaining the bardic performance or it is interrupted, this spell's duration ends. As an immediate action while you are maintaining a bardic performance, you can dismiss allegro to reroll a Reflex save or Dexterity-based skill check-you must choose to reroll before the result of the original roll is known. You must take the result of the reroll, even if it's worse than the original roll. Allegro dispels and is dispelled by ‹spell/slow›."
 		]
 	},
 	"alleviate_addiction": {
@@ -837,7 +837,7 @@
 			"",
 			"::spell{source=\"Horror Adventures/108\" abjuration clr=6 occ=6 psy=6 sha=6 spr=6 war=6 wit=6 ctM=1 cV cS cMp=\"rare herbs, incense, and jewels worth 500 gp/the target's character level or HD\" rTouch target=\"one creature other than yourself\" durI will srY harmless}",
 			"",
-			"You combat the rising {rule/corruption} in another creature or advance the long-term process of exorcising it entirely. This spell has two purposes, and you choose which application to use at the time of casting.",
+			"You combat the rising ‹rule/corruption› in another creature or advance the long-term process of exorcising it entirely. This spell has two purposes, and you choose which application to use at the time of casting.",
 			"",
 			"*Combat Corruption:* Each time a creature fails a saving throw to prevent its corruption from progressing (as described in that corruption's Progression section), it advances to the next corruption stage-at stage 3, it loses the battle against its corruption. Using this spell can lower the target's corruption stage by 1. This has no effect if the target isn't at progression stage of 1 or higher.",
 			"",
@@ -880,7 +880,7 @@
 			"",
 			"::spell{source=\"Pathfinder #134: It Came from Hollow Mountain/72\" enchantment compulsion brd=1 skd=1 wit=1 ctSt cV cS rFt=30 area=\"30-ft.-radius emanation centered on you\" durI save=\"Will negates (see text)\" srY}",
 			"",
-			"You glow with a soft radiance that calls out to all who see it. Each enemy that fails its save is drawn to you and must use its move action to approach you at the beginning of each of its turns for 1 round per caster level. An affected target must move toward you in the most direct path it can, though it can step around obstacles or other creatures. This spell can't force a creature to walk into an area that might obviously harm or kill it (such as into a pit, over a patch of floor studded with {eq-misc/caltrops}, or through a {spell/wall of fire}). An affected creature that loses sight of you is not compelled to move toward you, although if it later regains vision of you while still affected by this spell, it must again move toward you. Any hostile action against an affected creature (such an attack of opportunity due to its movement) cancels the spell's effect against that creature. Your initial flash of light also increases the light level within the spell's area by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light) for 1 round per caster level."
+			"You glow with a soft radiance that calls out to all who see it. Each enemy that fails its save is drawn to you and must use its move action to approach you at the beginning of each of its turns for 1 round per caster level. An affected target must move toward you in the most direct path it can, though it can step around obstacles or other creatures. This spell can't force a creature to walk into an area that might obviously harm or kill it (such as into a pit, over a patch of floor studded with ‹eq-misc/caltrops›, or through a ‹spell/wall of fire›). An affected creature that loses sight of you is not compelled to move toward you, although if it later regains vision of you while still affected by this spell, it must again move toward you. Any hostile action against an affected creature (such an attack of opportunity due to its movement) cancels the spell's effect against that creature. Your initial flash of light also increases the light level within the spell's area by one step, up to normal light (darkness becomes dim light, and dim light becomes normal light) for 1 round per caster level."
 		]
 	},
 	"alluring_spores": {
@@ -951,9 +951,9 @@
 			"",
 			"*Alter Current:* The river's current increases or decreases in speed by up to 1 mile per hour per 2 caster levels you possess. A typical placid river travels at a rate of up to 2 mph (no effect on local movement); a swift river travels 2-4 mph, moving creatures and objects 10 to 40 feet downstream per round; and an area of river rapids travels 7-10 mph, moving creatures and objects 60 to 90 feet downstream per round. Altering the speed of the current alters the difficulty of swimming in the water accordingly.",
 			"",
-			"*Divert River:* The river diverts its course in a direction of your choosing. The river flows in the general direction indicated, but otherwise conforms to the shape of the local terrain. This spell cannot cause a river to flow uphill, though the river surges over its natural banks and inundates terrain lower than its average depth. Creatures in the path of the redirected river are in danger of being swept away; if directed properly, this spell causes a flood. See {rule/Aquatic Terrain} for more details.",
+			"*Divert River:* The river diverts its course in a direction of your choosing. The river flows in the general direction indicated, but otherwise conforms to the shape of the local terrain. This spell cannot cause a river to flow uphill, though the river surges over its natural banks and inundates terrain lower than its average depth. Creatures in the path of the redirected river are in danger of being swept away; if directed properly, this spell causes a flood. See ‹rule/Aquatic Terrain› for more details.",
 			"",
-			"Alter river can be made permanent with a {spell/permanency} spell. Clever application of spells such as {spell/move earth} can be combined with this spell to likewise make the river's new course permanent."
+			"Alter river can be made permanent with a ‹spell/permanency› spell. Clever application of spells such as ‹spell/move earth› can be combined with this spell to likewise make the river's new course permanent."
 		]
 	},
 	"alter_self": {
@@ -979,7 +979,7 @@
 			"",
 			"::spell{source=\"Monster Summoner's Handbook/22\" conjuration summoning ant=2 arc=2 brd=2 clr=2 drd=2 hnt=2 orc=2 rgr=2 skd=2 sor=2 sum=2 war=2 wit=2 wiz=2 ctSt cV cS rClose target=\"one summoned creature\" durI will srY}",
 			"",
-			"You swap a creature summoned by a conjuration (summoning) spell for a creature you could summon with a {spell/summon monster} or {spell/summon nature's ally} spell. The new creature must be an option from a spell of the same level or lower as the spell that summoned the target. The new creature cannot be summoned into an environment that cannot support it. The target can attempt a Will saving throw to negate this effect, but if the target is under your control, it receives no saving throw. Alter summoned monster does not alter the duration of the spell that summoned the target, nor does it affect any additional creatures summoned by the same spell as the target. The new creature has the same conditions and amount of damage as the target creature, and remains affected by all curses, diseases, poisons, and penalties that affected the target, but no other spells or effects carry over. Alter summoned monster is a spell of the same alignment type or types as the creature for which you exchange the target. An eidolon can't be targeted by this spell."
+			"You swap a creature summoned by a conjuration (summoning) spell for a creature you could summon with a ‹spell/summon monster› or ‹spell/summon nature's ally› spell. The new creature must be an option from a spell of the same level or lower as the spell that summoned the target. The new creature cannot be summoned into an environment that cannot support it. The target can attempt a Will saving throw to negate this effect, but if the target is under your control, it receives no saving throw. Alter summoned monster does not alter the duration of the spell that summoned the target, nor does it affect any additional creatures summoned by the same spell as the target. The new creature has the same conditions and amount of damage as the target creature, and remains affected by all curses, diseases, poisons, and penalties that affected the target, but no other spells or effects carry over. Alter summoned monster is a spell of the same alignment type or types as the creature for which you exchange the target. An eidolon can't be targeted by this spell."
 		]
 	},
 	"alter_winds": {
@@ -1010,7 +1010,7 @@
 			"",
 			"You cause the target to lose most of its memories; its skills, its past, and even its name become mysteries to it. While the target can build new memories, it has trouble accessing those gained before falling victim to the spell. The target can still speak and read any languages it knows and perform basic tasks, but it loses all class abilities, feats, and skill ranks gained before being affected by amnesia. It retains its base attack bonus, saving throws bonuses, Combat Maneuver Bonus, Combat Maneuver Defense, total experience points, Hit Dice, and hit points. If the target gains a character level while suffering from amnesia, it can use any abilities gained by that class level normally. If the class level it gained was from a class in which it already has levels, it gains the abilities of a 1st-level character of that class, even though it is technically of a higher level in that class.",
 			"",
-			"If the amnesia is cured, the target regains the full abilities of the class, including those gained from any levels taken while suffering from this condition. Amnesia can be removed only by {spell/heal}, {spell/limited wish}, {spell/miracle}, {spell/psychic surgery}, or {spell/wish}."
+			"If the amnesia is cured, the target regains the full abilities of the class, including those gained from any levels taken while suffering from this condition. Amnesia can be removed only by ‹spell/heal›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/psychic surgery›, or ‹spell/wish›."
 		]
 	},
 	"amplify_elixir": {
@@ -1045,13 +1045,13 @@
 			"",
 			"You peer into the aura of one target creature or object, gaining valuable information about its condition and nature. Each round, choose one of the target's four auras. This spell functions similarly to the read aura occult skill unlock, but doesn't require checks and returns results on all the target's auras in an instant.",
 			"",
-			"*Alignment Aura:* You study the target's spiritual nature to determine its alignment. You also learn the type and power of its alignment aura, as {spell/detect evil}.",
+			"*Alignment Aura:* You study the target's spiritual nature to determine its alignment. You also learn the type and power of its alignment aura, as ‹spell/detect evil›.",
 			"",
 			"*Emotion Aura:* The colors playing within the target's aura reveal its emotional state, granting valuable insight into its psyche. You learn a general summary of the target's current disposition, as well as its attitude toward any other creatures within 30 feet of it. For the duration of the spell and for 1 hour afterward, you gain a +2 circumstance bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks you attempt against the target. Objects do not have emotion auras, except intelligent weapons and similar sentient oddities.",
 			"",
 			"*Health Aura:* The flow of vital force animating the target becomes plainly visible, giving you insight into its physical condition. You know whether the target is unharmed or wounded, whether it is poisoned or diseased, and whether it is under any of the following conditions: confused, disabled, dying, nauseated, panicked, staggered, stunned, or unconscious. Further, your insight into the overall strength of the target's vital force reveals the total number of points available in its ki pool, grit pool, or similar resource. Objects and most undead creatures don't have health auras.",
 			"",
-			"*Magic Aura:* You determine the number and power of all magical auras on the target (as {spell/detect magic} to determine a magic aura's power), as well as the school of each aura. You can attempt Knowledge (arcana) or Spellcraft skill checks to determine the school or identify properties of a magic item, as normal. If cast on an item, analyze aura cuts through the obfuscation of the magic aura spell."
+			"*Magic Aura:* You determine the number and power of all magical auras on the target (as ‹spell/detect magic› to determine a magic aura's power), as well as the school of each aura. You can attempt Knowledge (arcana) or Spellcraft skill checks to determine the school or identify properties of a magic item, as normal. If cast on an item, analyze aura cuts through the obfuscation of the magic aura spell."
 		]
 	},
 	"analyze_dweomer": {
@@ -1118,7 +1118,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/107\" polymorph transmutation alc=2 ant=3 arc=3 clr=2 inv=2 orc=2 psy=2 rma=3 sor=3 war=2 wit=2 wiz=3 ctSt cV cS rTouch target=\"willing drow touched\" durH=24 durD will srY harmless}",
 			"",
-			">*{race/Drow} have access to the following spell.*",
+			">*‹race/Drow› have access to the following spell.*",
 			"",
 			"The target drow transforms into a surface elf. The drow loses her darkvision and light-blindness racial traits and gains the low-light vision racial trait in their place. The alignment and personality of the drow are not affected by the transformation, but the spell conceals her alignment as an undetectable alignment spell. The spell grants the target a +10 bonus on Disguise checks to pass as an elf, though she appears to be an elven analog of herself and can be recognized as such by other drow who know her."
 		]
@@ -1142,7 +1142,7 @@
 			"",
 			"::spell{source=\"Champions of Purity/28\" good transmutation arc=2 clr=2 orc=2 pal=2 rma=2 sor=2 war=2 wiz=2 ctSt cV cS rPers target=you durML=1 durD saveNo srN}",
 			"",
-			"You take on an aspect of an angelic being, including some of its physical characteristics. You gain low-light vision, resistance to acid 5, resistance to cold 5, and the benefits of {spell/protection from evil}.",
+			"You take on an aspect of an angelic being, including some of its physical characteristics. You gain low-light vision, resistance to acid 5, resistance to cold 5, and the benefits of ‹spell/protection from evil›.",
 			"",
 			"::h3[Angelic Aspect]{jl}",
 			"",
@@ -1156,7 +1156,7 @@
 			"",
 			"This spell functions like lesser angelic aspect, except you gain low-light vision; darkvision 60 feet; DR 10/evil; immunity to acid, cold, and petrification; resistance to electricity 10 and fire 10; a +4 racial bonus on saves against poison; and protective aura and truespeech as supernatural abilities for the duration of the spell. Also, your wings give you a fly speed of 60 feet with good maneuverability.",
 			"",
-			"Protective aura provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws against attacks made or effects created by evil creatures to anyone within 20 feet. Otherwise, it functions as a {spell/magic circle against evil} and a {spell/lesser globe of invulnerability}, both with a radius of 20 feet.",
+			"Protective aura provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws against attacks made or effects created by evil creatures to anyone within 20 feet. Otherwise, it functions as a ‹spell/magic circle against evil› and a ‹spell/lesser globe of invulnerability›, both with a radius of 20 feet.",
 			"",
 			"Truespeech allows you to speak with any creature that has a language, as though using the tongues spell."
 		]
@@ -1179,7 +1179,7 @@
 			"",
 			"::spell{source=\"Ultimate Intrigue/204\" enchantment compulsion mindAffecting brd=4 drd=4 hnt=3 rgr=3 sha=4 skd=4 ctM=10 cV cS cMp=\"a morsel of food the animal likes\" rClose target=\"one Medium or smaller animal\" dur=\"1 day/level or until message is delivered\" save=\"none (see text)\" srN}",
 			"",
-			"You compel a single animal to travel to a spot you designate and deliver a message to a creature you identify. This spell is similar to animal messenger, but can affect larger animals. In addition, the target animal is temporarily awakened to sentience (as the {spell/awaken} spell) for the duration of this spell, and it can use its increased mental acuity to come up with creative solutions to overcome obstacles to delivering its message. The awakened target animal speaks any one language you know. In addition, you can imbue the animal with up to 5 ranks in any of the following skills: Bluff, Diplomacy, Knowledge (local), Knowledge (nobility), Linguistics, or Sense Motive. It treats any of these skills that are class skills for you as class skills. The number of ranks you imbue in any of these skills can't exceed the target animal's Hit Dice nor the number of ranks you possess in that skill.",
+			"You compel a single animal to travel to a spot you designate and deliver a message to a creature you identify. This spell is similar to animal messenger, but can affect larger animals. In addition, the target animal is temporarily awakened to sentience (as the ‹spell/awaken› spell) for the duration of this spell, and it can use its increased mental acuity to come up with creative solutions to overcome obstacles to delivering its message. The awakened target animal speaks any one language you know. In addition, you can imbue the animal with up to 5 ranks in any of the following skills: Bluff, Diplomacy, Knowledge (local), Knowledge (nobility), Linguistics, or Sense Motive. It treats any of these skills that are class skills for you as class skills. The number of ranks you imbue in any of these skills can't exceed the target animal's Hit Dice nor the number of ranks you possess in that skill.",
 			"",
 			"The message you send with your animal ambassador can be a verbal message, which the awakened target animal can speak using its own voice or deliver using your voice. It can engage in conversation using its own intellect, knowledge, and linguistic abilities. The animal ambassador is loyal to you, but it is otherwise susceptible to mind-affecting effects like any other creature. You can also send your animal ambassador with an object or container that is within its physical ability to carry, making it deliver the contents to the target of your intended message. If the object it is given to carry is poisonous, trapped, or otherwise inherently dangerous (even if it would normally be dangerous only to the creature receiving it rather than the animal), or if you or your allies attack the target animal, the animal ambassador spell fails and the animal becomes hostile toward you. The animal ambassador intelligently but singlemindedly attempts to deliver the message to its intended target, and you can't task it with other tasks like fighting, scouting, searching for traps, and so on. It leaves on its delivery once it receives its message.",
 			"",
@@ -1203,9 +1203,9 @@
 			"",
 			"*Gorilla:* Your arms become long, flexible, and strong like those of a great ape. Your unarmed damage die type increases by one step, and you gain a +4 competence bonus on combat maneuver checks when making the grapple or reposition combat maneuver.",
 			"",
-			"*Monkey:* Your hands and arms become dexterous like those of a simian. You gain a +4 competence bonus on Climb checks, and you can throw objects as if you had the {feat/Throw Anything} feat.",
+			"*Monkey:* Your hands and arms become dexterous like those of a simian. You gain a +4 competence bonus on Climb checks, and you can throw objects as if you had the ‹feat/Throw Anything› feat.",
 			"",
-			"*Otter:* Your hands and feet gain webbing, and your lungs gain capacity, allowing you to move through the water with ease. You gain a Swim speed equal to half your speed, and all the benefits of having a swim speed. Additionally, you can {misc/hold your breath} for 4 rounds per point of Constitution before being forced to make Constitution checks to keep holding your breath.",
+			"*Otter:* Your hands and feet gain webbing, and your lungs gain capacity, allowing you to move through the water with ease. You gain a Swim speed equal to half your speed, and all the benefits of having a swim speed. Additionally, you can ‹misc/hold your breath› for 4 rounds per point of Constitution before being forced to make Constitution checks to keep holding your breath.",
 			"",
 			"*Raccoon:* Your hands become extremely dexterous, and your feet become padded. You gain a +2 competence bonus on Disable Device, Sleight of Hand, and Stealth checks.",
 			"",
@@ -1215,7 +1215,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Animal Aspect\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}",
+			"‹SOURCE Mythic Adventures/84›",
 			"",
 			"You gain low-light vision, a +2 size bonus to the physical ability score of your choice, and a +1 enhancement bonus to your natural armor. Alternatively, you may cast the non-mythic form of this spell on a touched willing creature.",
 			"",
@@ -1237,7 +1237,7 @@
 			"",
 			"*Raccoon:* Your competence bonuses on Disable Device, Sleight of Hand, and Stealth checks increase to +4.",
 			"",
-			"*Raptor:* Your enhancement bonus to speed increases to +30 feet, and you gain the benefit of the {feat/Run} feat.",
+			"*Raptor:* Your enhancement bonus to speed increases to +30 feet, and you gain the benefit of the ‹feat/Run› feat.",
 			"",
 			"*Tree Lizard:* You gain a +4 competence bonus on Stealth checks."
 		]
@@ -1289,7 +1289,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/173\" enchantment compulsion mindAffecting ant=1 brd=2 drd=2 hnt=1 inq=1 pal=1 psy=1 rgr=1 sha=2 skd=2 wit=1 ctM=1 cV cS cMp=\"a swatch of black cloth\" rClose target=\"one indifferent or friendly animal\" durHL=1 saveNo srY}",
 			"",
-			"You instill the target animal with a general purpose (see the {skill/Handle Animal} skill), which can be any purpose except combat training: fighting, guarding, heavy labor, hunting, performance, or riding.[^1] This purpose supersedes the animal's previous trained purpose and any tricks it knows. When the spell ends, the animal reverts to its previous trained purpose and known tricks.",
+			"You instill the target animal with a general purpose (see the ‹skill/Handle Animal› skill), which can be any purpose except combat training: fighting, guarding, heavy labor, hunting, performance, or riding.[^1] This purpose supersedes the animal's previous trained purpose and any tricks it knows. When the spell ends, the animal reverts to its previous trained purpose and known tricks.",
 			"",
 			"[^1]: Other purposes have been added by other sourcebooks. Consult your GM if you wish to use one of the purposes not listed in the spell."
 		]
@@ -1317,7 +1317,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/241\" evil necromancy adp=3 ant=3 arc=4 clr=3 occ=3 orc=3 sha=3 sor=4 spr=3 war=3 wiz=4 ctSt cV cS cMp=\"an onyx gem worth at least 25 gp per Hit Die of the undead\" rTouch targets=\"one or more corpses touched\" durI saveNo srN}",
 			"",
-			"This spell turns corpses into undead {template/skeleton/s} or {template/zombie/s} that obey your spoken commands.",
+			"This spell turns corpses into undead ‹template/skeleton«s› or ‹template/zombie«s› that obey your spoken commands.",
 			"",
 			"The undead can be made to follow you, or they can be made to remain in an area and attack any creature (or just a specific kind of creature) entering the place. They remain animated until they are destroyed. A destroyed skeleton or zombie can't be animated again.",
 			"",
@@ -1331,22 +1331,22 @@
 			"",
 			"Other publications have added more creatures that can be created by this spell. They include:",
 			"",
-			"- {monster/Beheaded}",
-			"- {template/Exoskeleton}",
-			"- {template/Frostfallen Creature}",
-			"- {monster/Isitoq}",
-			"- {monster/Necrocraft}",
-			"- {template/Sunbaked Zombie}",
+			"- ‹monster/Beheaded›",
+			"- ‹template/Exoskeleton›",
+			"- ‹template/Frostfallen Creature›",
+			"- ‹monster/Isitoq›",
+			"- ‹monster/Necrocraft›",
+			"- ‹template/Sunbaked Zombie›",
 			"",
 			":::mythic{jl title=\"Mythic Animate Dead\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}",
+			"‹SOURCE Mythic Adventures/84›",
 			"",
 			"Add your tier to your caster level when determining how many Hit Dice of undead you can animate with a single casting of this spell. This doesn't increase the total number of Hit Dice worth of undead you can control. By expending a second use of mythic power, you can ignore the spell's material component cost.",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, any skeletons or zombies you create gain either the [agile or savage mythic template](rule/mythic_simple_templates). This template lasts for a number of days equal to your tier.",
 			"",
-			"Alternatively, if you're 8th tier and expend 10 uses of mythic power, any skeletons you create permanently gain the {template/mythic skeleton} template.",
+			"Alternatively, if you're 8th tier and expend 10 uses of mythic power, any skeletons you create permanently gain the ‹template/mythic skeleton› template.",
 			"",
 			":::",
 			"",
@@ -1379,11 +1379,11 @@
 			"",
 			"This spell cannot affect objects carried or worn by a creature.",
 			"",
-			"Animate objects can be made permanent with a {spell/permanency} spell.",
+			"Animate objects can be made permanent with a ‹spell/permanency› spell.",
 			"",
 			":::mythic{title=\"Mythic Animate Objects\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}  ",
+			"‹SOURCE Mythic Adventures/84›  ",
 			"Animated objects you create with this spell get the maximum number of hit points per level, gain a +4 bonus to their Strength ability scores, and have 1-1/2 times the normal number of construction points.",
 			"",
 			":::"
@@ -1410,7 +1410,7 @@
 			"",
 			":::mythic{title=\"Mythic Animate Plants\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}  ",
+			"‹SOURCE Mythic Adventures/84›  ",
 			"Animated plants you create with this spell get the maximum number of hit points per level, gain a +4 bonus to their Strength ability scores, and have 1-1/2 times the normal number of construction points.",
 			"",
 			":::"
@@ -1428,7 +1428,7 @@
 			"",
 			"The possible commands are \"coil\" (form a neat, coiled stack), \"coil and knot,\" \"loop,\" \"loop and knot,\" \"tie and knot,\" and the opposites of all of the above (\"uncoil,\" and so forth). You can give one command each round as a move action, as if directing an active spell.",
 			"",
-			"The rope can enwrap only a creature or an object within 1 foot of it - it does not snake outward - so it must be thrown near the intended target. Doing so requires a successful ranged touch attack roll (range increment 10 feet). A typical 1-inch-diameter hemp rope has 2 hit points, AC 10, and requires a DC 23 Strength check to burst it. The rope does not deal damage, but it can be used as a trip line or to cause a single opponent that fails a Reflex saving throw to become entangled. A creature capable of spellcasting that is bound by this spell must make a {rule/concentration} check with a DC of 15 + the spell's level to cast a spell. An entangled creature can slip free with a DC 20 Escape Artist check.",
+			"The rope can enwrap only a creature or an object within 1 foot of it - it does not snake outward - so it must be thrown near the intended target. Doing so requires a successful ranged touch attack roll (range increment 10 feet). A typical 1-inch-diameter hemp rope has 2 hit points, AC 10, and requires a DC 23 Strength check to burst it. The rope does not deal damage, but it can be used as a trip line or to cause a single opponent that fails a Reflex saving throw to become entangled. A creature capable of spellcasting that is bound by this spell must make a ‹rule/concentration› check with a DC of 15 + the spell's level to cast a spell. An entangled creature can slip free with a DC 20 Escape Artist check.",
 			"",
 			"The rope itself and any knots tied in it are not magical.",
 			"",
@@ -1503,7 +1503,7 @@
 			"",
 			"You transform the touched animal into a bipedal hybrid of its original form with a humanoid form, similar to how a lycanthrope's hybrid form is a mix of a humanoid and animal form. The animal's size, type, and ability scores do not change. It loses its natural attacks except for bite (if it had one as an animal), all types of movement other than its land speed, and special attacks that rely on its natural attacks. One pair of its limbs is able to manipulate objects and weapons as well as human hands do; limbless animals like snakes temporarily grow a pair of arms. The creature's Intelligence increases to 3, and it gains the ability to speak one language you know. It is not considered proficient in any manufactured weapons. It can attack with unarmed strikes, dealing unarmed strike damage for a creature of its size (unless it has a bite attack, which is a natural attack).",
 			"",
-			"Anthropomorphic animal can be made permanent with a {spell/permanency} spell cast by a caster of 11th level or higher at a cost of 7,500 gp."
+			"Anthropomorphic animal can be made permanent with a ‹spell/permanency› spell cast by a caster of 11th level or higher at a cost of 7,500 gp."
 		]
 	},
 	"anticipate_peril": {
@@ -1521,7 +1521,7 @@
 			"",
 			":::mythic{title=\"Mythic Anticipate Peril\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}  ",
+			"‹SOURCE Mythic Adventures/84›  ",
 			"Add your tier to the spell's initiative bonus and the maximum initiative bonus the spell can grant.",
 			"",
 			":::"
@@ -1584,7 +1584,7 @@
 			"",
 			"Summoned creatures of any type wink out if they enter an antimagic field. They reappear in the same spot once the field goes away. Time spent winked out counts normally against the duration of the conjuration that is maintaining the creature. If you cast antimagic field in an area occupied by a summoned creature that has spell resistance, you must make a caster level check (1d20 + caster level) against the creature's spell resistance to make it wink out. (The effects of instantaneous conjurations are not affected by an antimagic field because the conjuration itself is no longer in effect, only its result.)",
 			"",
-			"A normal creature can enter the area, as can normal missiles. Furthermore, while a magic sword does not function magically within the area, it is still a sword (and a masterwork sword at that). The spell has no effect on golems and other constructs that are imbued with magic during their creation process and are thereafter self-supporting (unless they have been summoned, in which case they are treated like any other summoned creatures). Elementals, corporeal undead, and outsiders are likewise unaffected unless summoned. These creatures' spell-like or supernatural abilities may be temporarily nullified by the field. {spell/Dispel magic} does not remove the field.",
+			"A normal creature can enter the area, as can normal missiles. Furthermore, while a magic sword does not function magically within the area, it is still a sword (and a masterwork sword at that). The spell has no effect on golems and other constructs that are imbued with magic during their creation process and are thereafter self-supporting (unless they have been summoned, in which case they are treated like any other summoned creatures). Elementals, corporeal undead, and outsiders are likewise unaffected unless summoned. These creatures' spell-like or supernatural abilities may be temporarily nullified by the field. ‹spell/Dispel magic› does not remove the field.",
 			"",
 			"Two or more antimagic fields sharing any of the same space have no effect on each other. Certain spells, such as wall of force, prismatic sphere, and prismatic wall, remain unaffected by antimagic field. Artifacts and deities are unaffected by mortal magic such as this.",
 			"",
@@ -1592,7 +1592,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Antimagic Field\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}",
+			"‹SOURCE Mythic Adventures/84›",
 			"",
 			"Select a number of spell schools equal to half your tier. Spells and effects of the chosen schools are unaffected by the antimagic field.",
 			"",
@@ -1604,7 +1604,7 @@
 			"",
 			"You create an invisible barrier that surrounds you and moves with you, inhibiting one category of magic. When you cast this spell, choose either arcane or divine magic. This spell functions like antimagic field, but it suppresses only spells of the chosen type and supernatural and spell-like class abilities from classes that grant spellcasting of the selected type. Magic items, other spell-like abilities, and other supernatural abilities are unaffected.",
 			"",
-			"While this spell is in effect, you must succeed at a {rule/concentration} check (DC 20 + twice the spell level) to cast any spell, whether arcane or divine. If you fail at the check, you lose the spell as if you had cast it to no effect."
+			"While this spell is in effect, you must succeed at a ‹rule/concentration› check (DC 20 + twice the spell level) to cast any spell, whether arcane or divine. If you fail at the check, you lose the spell as if you had cast it to no effect."
 		]
 	},
 	"source_severance": {
@@ -1625,7 +1625,7 @@
 			"",
 			"A compulsion forces them to abandon the area or item, shunning it and never willingly returning to it while the spell is in effect. A creature that makes a successful saving throw can stay in the area or touch the item but feels uncomfortable doing so. This distracting discomfort reduces the creature's Dexterity score by 4 points.",
 			"",
-			"Antipathy counters and dispels {spell/sympathy}."
+			"Antipathy counters and dispels ‹spell/sympathy›."
 		]
 	},
 	"antiplant_shell": {
@@ -1679,7 +1679,7 @@
 			"",
 			"::spell{source=\"Champions of Balance/26\" enchantment compulsion mindAffecting arc=4 brd=4 skd=4 sor=4 wit=4 wiz=4 ctSt cV cS rClose target=\"one living creature\" durRL=1 will srY}",
 			"",
-			"You constrain the target such that the target automatically misses with all attacks made against creatures that are not of the opposite alignment of it. For example, a lawful evil target would automatically fail at all attacks except those made against chaotic good creatures, and a neutral good target would automatically fail at all attacks except those made against neutral evil creatures. For the purposes of antithetical constraint, creatures that are chaotic evil, chaotic good, lawful evil, or lawful good are all considered to have the opposite alignment of a target whose alignment is neutral with no other alignment components. This restriction doesn't apply to effects that do not require attack rolls, such as {spell/magic missile}."
+			"You constrain the target such that the target automatically misses with all attacks made against creatures that are not of the opposite alignment of it. For example, a lawful evil target would automatically fail at all attacks except those made against chaotic good creatures, and a neutral good target would automatically fail at all attacks except those made against neutral evil creatures. For the purposes of antithetical constraint, creatures that are chaotic evil, chaotic good, lawful evil, or lawful good are all considered to have the opposite alignment of a target whose alignment is neutral with no other alignment components. This restriction doesn't apply to effects that do not require attack rolls, such as ‹spell/magic missile›."
 		]
 	},
 	"antitoxin_touch": {
@@ -1759,7 +1759,7 @@
 			"",
 			"You render the target unable to understand any language, including spoken language, written language, sign language, gestures attempting to mimic a crude language, or even truespeech and telepathy. The affected creature is unable to communicate, use command words, cast spells with verbal components, or use any other abilities that requires language. At the end of each of its turns, the subject can attempt a new saving throw to end the effect.",
 			"",
-			"{spell/Tongues} counters and dispels aphasia, and a creature with the tongues spell active is immune to aphasia. Oracles with the Tongues curse ignore aphasia in combat."
+			"‹spell/Tongues› counters and dispels aphasia, and a creature with the tongues spell active is immune to aphasia. Oracles with the Tongues curse ignore aphasia in combat."
 		]
 	},
 	"apparent_master": {
@@ -1805,9 +1805,9 @@
 			"",
 			"The illusion makes undead creatures of Medium size or smaller appear as if they were living humanoid creatures. You can target a number of undead creatures whose total number of Hit Dice is no greater than twice your caster level. When you create the illusion, you choose the races, genders, and attire for the undead creatures. Additionally, the illusion makes the undead creatures' movements appear lifelike (two shuffling zombies could be made to appear as two strolling lovers). The illusion doesn't create smell, sound, texture, or temperature. Undead with Intelligence scores can attempt a saving throw to negate the effect of the spell, but mindless undead do not. Any creatures interacting with the illusion receive a saving throw to disbelieve the illusion.",
 			"",
-			"The illusion interferes with {spell/detect undead}, requiring the caster to succeed at a caster check (DC = 11 + your caster level) for the spell to determine the creatures are undead.",
+			"The illusion interferes with ‹spell/detect undead›, requiring the caster to succeed at a caster check (DC = 11 + your caster level) for the spell to determine the creatures are undead.",
 			"",
-			"Appearance of life can be made permanent with a {spell/permanency} spell by a caster of 12th level or higher for the cost of 10,000 gp.",
+			"Appearance of life can be made permanent with a ‹spell/permanency› spell by a caster of 12th level or higher for the cost of 10,000 gp.",
 			"",
 			"### Greater Appearance of Life",
 			"",
@@ -1846,7 +1846,7 @@
 			"",
 			"*Receiving:* You can prepare an object ahead of time to apport it to yourself by casting the spell upon it and assigning a mental trigger to complete the spell. You don't need line of sight to the object to apport it to you, but the object must be within a distance equal to 25 feet + 5 feet per 2 levels. Completing the spell is a swift action that has the same restrictions as a thought spell component. You can apport an object in this way even if someone holding the object is unwilling to let you take it. Once you apport the object, the spell ends.",
 			"",
-			"You can't send or receive an object into a space that is protected by an {spell/antimagic field}, {spell/globe of invulnerability}, or similar effect that keeps magical effects out; if you attempt to do so, the spell is lost."
+			"You can't send or receive an object into a space that is protected by an ‹spell/antimagic field›, ‹spell/globe of invulnerability›, or similar effect that keeps magical effects out; if you attempt to do so, the spell is lost."
 		]
 	},
 	"apsus_shining_scales": {
@@ -1894,9 +1894,9 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/202\" conjuration creation water arc=3 bld=3 drd=3 hnt=3 mag=3 sor=3 sum=3 usm=3 wiz=3 ctSt cV cS cMp=\"a drop of water and a glass bead\" rMed effect=\"10-ft.-diameter sphere\" durRL=1 refl srN}",
 			"",
-			"You create a rolling sphere of churning water that can engulf those it strikes. The aqueous orb can move up to 30 feet per round, rolling over barriers less than 10 feet tall. It automatically quenches any nonmagical fires and functions as {spell/dispel magic} against magical fires as long as those fires are size Large or less.",
+			"You create a rolling sphere of churning water that can engulf those it strikes. The aqueous orb can move up to 30 feet per round, rolling over barriers less than 10 feet tall. It automatically quenches any nonmagical fires and functions as ‹spell/dispel magic› against magical fires as long as those fires are size Large or less.",
 			"",
-			"Any creature in the path of the aqueous orb takes 2d6 points of nonlethal damage. A successful Reflex save negates this damage, but a large or smaller creature that fails its save must make a second save or be engulfed by the aqueous orb and carried along with it. Engulfed creatures are immersed in water and must {misc/hold their breath} unless capable of breathing water. They gain cover against attacks from outside the aqueous orb but are considered entangled by its churning currents, takes 2d6 points of nonlethal damage at the beginning of their turn each round they remain trapped. Creatures within the orb may attempt a new Reflex save each round to escape into a random square adjacent to the aqueous orb. The orb may hold one Large creature, 4 Medium, or 16 Small or smaller creatures within it.",
+			"Any creature in the path of the aqueous orb takes 2d6 points of nonlethal damage. A successful Reflex save negates this damage, but a large or smaller creature that fails its save must make a second save or be engulfed by the aqueous orb and carried along with it. Engulfed creatures are immersed in water and must ‹misc/hold their breath› unless capable of breathing water. They gain cover against attacks from outside the aqueous orb but are considered entangled by its churning currents, takes 2d6 points of nonlethal damage at the beginning of their turn each round they remain trapped. Creatures within the orb may attempt a new Reflex save each round to escape into a random square adjacent to the aqueous orb. The orb may hold one Large creature, 4 Medium, or 16 Small or smaller creatures within it.",
 			"",
 			"The sphere moves as long as you actively direct it (a move action for you); otherwise, it merely stays at rest and churns in place. An aqueous orb stops if it moves outside the spell's range."
 		]
@@ -1973,7 +1973,7 @@
 			"",
 			":::mythic{title=\"Mythic Arboreal Hammer\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}  ",
+			"‹SOURCE Mythic Adventures/84›  ",
 			"You animate two branches instead of one, allowing the tree to attack twice per round. Add your tier to your caster level when determining the tree's Strength score. A creature struck by both slam attacks in the same round must succeed at a Fortitude save against the spell's DC or be staggered for 1 round.",
 			"",
 			"*Augmented (7th):* If you expend two uses of mythic power, the tree attempts three slam attacks per round and its slams bypass all damage reduction. A creature struck by all three slam attacks in the same round is stunned for 1 round and staggered for 1d4 rounds after the stun ends. A successful Fortitude save negates the stun and reduces the duration of being staggered by half.",
@@ -1989,7 +1989,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/206\" abjuration mag=4 psy=5 ctSt cV cS rTouch target=\"creature touched\" durI saveNo srY}",
 			"",
-			"This spell functions as a targeted {spell/dispel magic} spell, except it only affects creatures and it requires a melee touch attack. If the melee touch attack is successful and the spell successfully dispels one spell affecting the target, that spell is instead transferred to you, treating you as the original target. You do not receive a new saving throw or spell resistance check against this spell and must accept its affects even if they are not beneficial. This does not alter the spell's duration; for example, if the spell only has 4 rounds of duration remaining when it is stolen, it only affects you for 4 rounds. If the spell or effect has a duration of permanent, its duration continues for 1 hour per caster level of the original caster, after which it ends. The stolen spell does not revert to the original target."
+			"This spell functions as a targeted ‹spell/dispel magic› spell, except it only affects creatures and it requires a melee touch attack. If the melee touch attack is successful and the spell successfully dispels one spell affecting the target, that spell is instead transferred to you, treating you as the original target. You do not receive a new saving throw or spell resistance check against this spell and must accept its affects even if they are not beneficial. This does not alter the spell's duration; for example, if the spell only has 4 rounds of duration remaining when it is stolen, it only affects you for 4 rounds. If the spell or effect has a duration of permanent, its duration continues for 1 hour per caster level of the original caster, after which it ends. The stolen spell does not revert to the original target."
 		]
 	},
 	"arcane_cannon": {
@@ -2007,13 +2007,13 @@
 			"",
 			"On your turn, you can spend a move action to direct the cannon to wheel itself to a new location, moving the cannon up to 20 feet. If the arcane cannon ever leaves your line of sight, it winks out of existence, and the spell's duration ends.",
 			"",
-			"The cannon has a range increment of 50 feet. It targets touch attack in the first range increment, and it has no misfire chance. The cannon acts as a weapon with the {magic-enh/conductive} special weapon ability, which you can use to channel your spell-like or supernatural abilities as long as you are within the range of arcane cannon. The cannon's attack bonus is equal to your caster level + your Intelligence bonus or your Charisma bonus (for wizards or sorcerers, respectively) with an additional +1 per four caster levels (maximum +5 at 20th level). On a hit, the cannon deals 4d10 damage. The arcane cannon attacks have a critical modifier of &times;4.",
+			"The cannon has a range increment of 50 feet. It targets touch attack in the first range increment, and it has no misfire chance. The cannon acts as a weapon with the ‹magic-enh/conductive› special weapon ability, which you can use to channel your spell-like or supernatural abilities as long as you are within the range of arcane cannon. The cannon's attack bonus is equal to your caster level + your Intelligence bonus or your Charisma bonus (for wizards or sorcerers, respectively) with an additional +1 per four caster levels (maximum +5 at 20th level). On a hit, the cannon deals 4d10 damage. The arcane cannon attacks have a critical modifier of &times;4.",
 			"",
 			"The cannon has AC 10, hardness 10, and 80 hit points. If the cannon is subject to a spell or effect that requires a save, it uses your saving throw modifiers. The cannon never provokes attacks of opportunity. If the cannon is destroyed, so is your focus.",
 			"",
 			":::mythic{title=\"Mythic Arcane Cannon\"}",
 			"",
-			"{SOURCE Mythic Adventures/84}  ",
+			"‹SOURCE Mythic Adventures/84›  ",
 			"The cannon deals 6d10 points of damage on a successful hit. Add your tier to the cannon's hardness and your tier &times; 5 to its hit points. Its conductive property can channel any spell with a range of touch (you have to expend only one spell for this, not two). You may cast a spell with an energy descriptor on the cannon. If you do, for a number of rounds equal to the spell's level, half the cannon's damage is untyped damage and the other half is energy damage of the spell's type. Casting a spell with a different energy descriptor onto the cannon replaces its current energy type with that of the new spell.",
 			"",
 			":::"
@@ -2027,7 +2027,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/203\" evocation brd=3 skd=3 ctSt cV cS cMp=\"a spent wand\" rPers area=\"10-ft.-radius emanation centered on you\" durRL=1 saveNo srN}",
 			"",
-			"A shimmering, blue and gold radiance surrounds you, enhancing arcane spells cast by your allies within its area. Any arcane spell cast by a creature within the area gains a +1 enhancement bonus to the DC of any saving throws against the spell, and can be cast as if one of the following metamagic feats was applied to it (without increasing the spell level or casting time): {feat/Enlarge Spell}, {feat/Extend Spell}, {feat/Silent Spell}, or {feat/Still Spell} (you choose the metamagic feat when you cast arcane concordance)."
+			"A shimmering, blue and gold radiance surrounds you, enhancing arcane spells cast by your allies within its area. Any arcane spell cast by a creature within the area gains a +1 enhancement bonus to the DC of any saving throws against the spell, and can be cast as if one of the following metamagic feats was applied to it (without increasing the spell level or casting time): ‹feat/Enlarge Spell›, ‹feat/Extend Spell›, ‹feat/Silent Spell›, or ‹feat/Still Spell› (you choose the metamagic feat when you cast arcane concordance)."
 		]
 	},
 	"arcane_disruption": {
@@ -2038,7 +2038,7 @@
 			"",
 			"::spell{source=\"Advanced Class Origins/30\" enchantment compulsion mindAffecting curse arc=2 bld=2 brd=2 mag=2 skd=2 sor=2 wit=2 wiz=2 ctSt cV cS cMp=\"a pinch of pepper\" rClose target=\"one creature\" durRL=1 will srY}",
 			"",
-			"This spell makes it difficult for the subject to cast arcane spells, use spell-like abilities, and use some abilities granted by arcane spellcasting classes. The subject must succeed at a {rule/concentration} check (DC = 10 + 1/2 its caster level) in order to cast an arcane spell, use any spell-like ability (even those that come from a divine source), use arcane spell completion or spell trigger magic items, or use any of the following class features that come from an arcane spellcasting class: arcane school powers, arcanist exploits, bardic performances, magus arcana, or witch hexes. Spells, spell-like abilities, or class features that take a free, swift, or immediate action aren't affected by this spell, nor are mythic spells or mythic powers.",
+			"This spell makes it difficult for the subject to cast arcane spells, use spell-like abilities, and use some abilities granted by arcane spellcasting classes. The subject must succeed at a ‹rule/concentration› check (DC = 10 + 1/2 its caster level) in order to cast an arcane spell, use any spell-like ability (even those that come from a divine source), use arcane spell completion or spell trigger magic items, or use any of the following class features that come from an arcane spellcasting class: arcane school powers, arcanist exploits, bardic performances, magus arcana, or witch hexes. Spells, spell-like abilities, or class features that take a free, swift, or immediate action aren't affected by this spell, nor are mythic spells or mythic powers.",
 			"",
 			"While under the effect of this spell, if the subject must attempt a concentration check to cast an arcane spell or use an arcane spell-like ability for any reason other than the effect of this spell (such as casting defensively, being injured while casting, and so on), it takes a penalty on that check equal to 1/2 its caster level."
 		]
@@ -2066,7 +2066,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/243\" abjuration arc=2 occ=2 sor=2 wiz=2 ctSt cV cS cMp=\"gold dust worth 25 gp\" rTouch target=\"door, chest, or portal touched, up to 30 sq. ft./level in size\" durP saveNo srN}",
 			"",
-			"An arcane lock spell cast upon a door, chest, or portal magically locks it. You can freely pass your own arcane lock without affecting it. If the locked object has a lock, the DC to open that lock increases by 10 while it remains attached to the object. If the object does not have a lock, this spell creates one that can only be opened with a DC 20 Disable Device skill check. A door or object secured with this spell can be opened only by breaking in or with a successful {spell/dispel magic} or {spell/knock} spell. Add 10 to the normal DC to break open a door or portal affected by this spell. A knock spell does not remove an arcane lock; it only suppresses the effect for 10 minutes."
+			"An arcane lock spell cast upon a door, chest, or portal magically locks it. You can freely pass your own arcane lock without affecting it. If the locked object has a lock, the DC to open that lock increases by 10 while it remains attached to the object. If the object does not have a lock, this spell creates one that can only be opened with a DC 20 Disable Device skill check. A door or object secured with this spell can be opened only by breaking in or with a successful ‹spell/dispel magic› or ‹spell/knock› spell. Add 10 to the normal DC to break open a door or portal affected by this spell. A knock spell does not remove an arcane lock; it only suppresses the effect for 10 minutes."
 		]
 	},
 	"arcane_mark": {
@@ -2079,11 +2079,11 @@
 			"",
 			"This spell allows you to inscribe your personal rune or mark, which can consist of no more than six characters. The writing can be visible or invisible. An *arcane mark* spell enables you to etch the rune upon any substance without harm to the material upon which it is placed. If an invisible mark is made, a detect magic spell causes it to glow and be visible, though not necessarily understandable.",
 			"",
-			"{spell/See invisibility}, {spell/true seeing}, a {magic-wondrous/gem of seeing}, or a {magic-wondrous/robe of eyes} likewise allows the user to see an invisible *arcane mark.* A {spell/read magic} spell reveals the words, if any. The mark cannot be dispelled, but it can be removed by the caster or by an {spell/erase} spell.",
+			"‹spell/See invisibility›, ‹spell/true seeing›, a ‹magic-wondrous/gem of seeing›, or a ‹magic-wondrous/robe of eyes› likewise allows the user to see an invisible *arcane mark.* A ‹spell/read magic› spell reveals the words, if any. The mark cannot be dispelled, but it can be removed by the caster or by an ‹spell/erase› spell.",
 			"",
 			"If an *arcane mark* is placed on a living being, the effect gradually fades in about a month.",
 			"",
-			"*Arcane mark* must be cast on an object prior to casting {spell/instant summons} on the same object (see that spell description for details)."
+			"*Arcane mark* must be cast on an object prior to casting ‹spell/instant summons› on the same object (see that spell description for details)."
 		]
 	},
 	"arcane_pocket": {
@@ -2094,7 +2094,7 @@
 			"",
 			"::spell{source=\"Black Markets/27\" conjuration creation arc=1 sor=1 wiz=1 ctSt cV cFp=\"a pocket and a silver button\" rTouch effect=\"extradimensional space up to 1 cu. ft./level\" durHL=1 saveNo srN}",
 			"",
-			"With a touch, you conjure an extradimensional space inside a pouch or pocket. The pocket acts as a {magic-wondrous/bag of holding}, except it can hold only 10 pounds per caster level. Regardless of what is placed into the pocket, it weighs 3 pounds. Unlike a bag of holding, the pocket created by this ability cannot be overloaded or ruptured-any additional material simply spills out of the top-nor does it have any special interaction with other kinds of extradimensional spaces.",
+			"With a touch, you conjure an extradimensional space inside a pouch or pocket. The pocket acts as a ‹magic-wondrous/bag of holding›, except it can hold only 10 pounds per caster level. Regardless of what is placed into the pocket, it weighs 3 pounds. Unlike a bag of holding, the pocket created by this ability cannot be overloaded or ruptured-any additional material simply spills out of the top-nor does it have any special interaction with other kinds of extradimensional spaces.",
 			"",
 			"An arcane pocket grants you a +1 bonus on Sleight of Hand checks to conceal its contents. The pocket becomes nonmagical, spilling all of its contents onto the ground unharmed, if it leaves your possession or you create a new arcane pocket."
 		]
@@ -2109,7 +2109,7 @@
 			"",
 			"You cast this spell as you begin crafting an item using a Craft skill, and add your Spellcraft ranks to Craft checks made to create that item. As part of concentrating on the spell, you must continue chanting the verbal components, pausing at most for a few seconds at a time to speak, chew, and so on. If the crafting takes more than 1 day to complete, you must cast the spell each day to gain its benefit.",
 			"",
-			"This spell originated among wizards of the Arcanamirium, though the {rule/Pathfinder Society} also uses it."
+			"This spell originated among wizards of the Arcanamirium, though the ‹rule/Pathfinder Society› also uses it."
 		]
 	},
 	"arcane_sight": {
@@ -2122,13 +2122,13 @@
 			"",
 			"This spell makes your eyes glow blue and allows you to see magical auras within 120 feet of you. The effect is similar to that of a detect magic spell, but arcane sight does not require concentration and discerns aura location and power more quickly.",
 			"",
-			"You know the location and power of all magical auras within your sight. An aura's power depends on a spell's functioning level or an item's caster level, as noted in the description of the {spell/detect magic} spell. If the items or creatures bearing the auras are in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a non-spell effect.)",
+			"You know the location and power of all magical auras within your sight. An aura's power depends on a spell's functioning level or an item's caster level, as noted in the description of the ‹spell/detect magic› spell. If the items or creatures bearing the auras are in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a non-spell effect.)",
 			"",
 			"If you concentrate on a specific creature within 120 feet of you as a standard action, you can determine whether it has any spellcasting or spell-like abilities, whether these are arcane or divine (spell-like abilities register as arcane), and the strength of the most powerful spell or spell-like ability the creature currently has available for use.",
 			"",
 			"As with detect magic, you can use this spell to identify the properties of magic items, but not artifacts.",
 			"",
-			"Arcane sight can be made permanent with a {spell/permanency} spell.",
+			"Arcane sight can be made permanent with a ‹spell/permanency› spell.",
 			"",
 			"### Greater Arcane Sight",
 			"",
@@ -2221,13 +2221,13 @@
 			"",
 			"::spell{source=\"Inner Sea Magic/52\" abjuration arc=9 sor=9 wiz=9 ctSt cV cS cFp=\"cold iron scepter worth at least 1,000 gp\" rFt=10 area=\"10-ft.-radius emanation, centered on you\" durD durHL=1 saveNo sr=\"see text\"}",
 			"",
-			"One of many spells originally created by the Last Azlanti before he became a god, Aroden's spellbane creates an area within which spells selected by you simply do not function. Select one spell per five caster levels at the time of casting. The spells selected cannot be changed after the spell is cast. Aroden's spellbane otherwise functions like {spell/antimagic field}, except its emanation only prevents the functioning of the selected spells. Only the exact spells mentioned are affected - a spellbane set to prevent the casting of {spell/summon nature's ally II} would not prevent castings of summon nature's ally I or summon nature's ally III. If you move into an area where a previously cast spell you have selected as a banned spell is in effect, that spell is affected as if by antimagic field. If the spell affects a summoned creature that has spell resistance, you must make a caster level check against the creature's spell resistance to make it wink out.",
+			"One of many spells originally created by the Last Azlanti before he became a god, Aroden's spellbane creates an area within which spells selected by you simply do not function. Select one spell per five caster levels at the time of casting. The spells selected cannot be changed after the spell is cast. Aroden's spellbane otherwise functions like ‹spell/antimagic field›, except its emanation only prevents the functioning of the selected spells. Only the exact spells mentioned are affected - a spellbane set to prevent the casting of ‹spell/summon nature's ally II› would not prevent castings of summon nature's ally I or summon nature's ally III. If you move into an area where a previously cast spell you have selected as a banned spell is in effect, that spell is affected as if by antimagic field. If the spell affects a summoned creature that has spell resistance, you must make a caster level check against the creature's spell resistance to make it wink out.",
 			"",
 			"Aroden's spellbane can even negate an antimagic field, another Aroden's spellbane, or any spell that specifies immunity to antimagic field (such as wall of force, prismatic sphere, and prismatic wall). Multiple spellbane effects can overlap. Their effects stack, preventing the functioning of every spell targeted by any of the multiple spellbane emanations. Spell effects created by artifacts or deities cannot be suppressed by Aroden's spellbane.",
 			"",
 			":::mythic{title=\"Mythic Aroden's Spellbane\"}",
 			"",
-			"{SOURCE Mythic Origins/12}  ",
+			"‹SOURCE Mythic Origins/12›  ",
 			"Add half your tier to the number of spells you can select to not function in the area. As a full-round action, you can expend one use of mythic power to change one of the spells blocked by this effect. You can do this as often as you wish during the spell's duration.",
 			"",
 			":::"
@@ -2254,7 +2254,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/202\" conjuration creation arc=2 hnt=2 rgr=2 sor=2 wiz=2 ctSt cV cS cMp=\"arrow or crossbow bolt\" rLong area=\"30-ft.-radius burst\" durI saveNo srY}",
 			"",
-			"You create exact duplicates of the arrow or crossbow bolt you used to kill a creature in the previous round and launch one at enemy creatures within a 30-foot radius of the corpse. You can target one creature per caster level (maximum 15) within range of the burst and must make a single attack roll and apply it to each arrow. These duplicate arrows possess all the intrinsic magical properties of the arrow that killed the original creature as well as those passed on to it by your bow. They also enjoy the full benefit of any bonuses or modifiers you applied to the attack from other magical items, feats, and class or racial features. However, this spell cannot reproduce any spells or other limited-use magical effects that you used to enhance that particular attack. This includes such effects as the {spell/true strike} spell, as well as any area spell you might have placed on the arrow by means of the arcane archer's imbue arrow class feature."
+			"You create exact duplicates of the arrow or crossbow bolt you used to kill a creature in the previous round and launch one at enemy creatures within a 30-foot radius of the corpse. You can target one creature per caster level (maximum 15) within range of the burst and must make a single attack roll and apply it to each arrow. These duplicate arrows possess all the intrinsic magical properties of the arrow that killed the original creature as well as those passed on to it by your bow. They also enjoy the full benefit of any bonuses or modifiers you applied to the attack from other magical items, feats, and class or racial features. However, this spell cannot reproduce any spells or other limited-use magical effects that you used to enhance that particular attack. This includes such effects as the ‹spell/true strike› spell, as well as any area spell you might have placed on the arrow by means of the arcane archer's imbue arrow class feature."
 		]
 	},
 	"arrow_of_law": {
@@ -2293,7 +2293,7 @@
 			"",
 			":::mythic{title=\"Mythic Ascension\"}",
 			"",
-			"{SOURCE Mythic Adventures/113}  ",
+			"‹SOURCE Mythic Adventures/113›  ",
 			"If you expend one use of mythic power when casting this spell, the duration increases to 1 day per level, and you can use yourself as the focus for this spell instead of a lesser artifact. If you're the focus, the targets retain their mythic tier only while they're within 100 feet of you, and if you die, the spell immediately ends and all targets gain 1d4 permanent negative levels.",
 			"",
 			":::"
@@ -2340,7 +2340,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/203\" polymorph transmutation drd=1 hnt=1 rgr=1 ctSt cV cS cDF rPers target=you durML=1}",
 			"",
-			"You take on an aspect of a falcon. Your eyes become wide and raptor-like, and you grow feathers on the sides of your head. You gain a +3 competence bonus on Perception checks, a +1 competence bonus on ranged attacks, and the critical multiplier for your bows and crossbows becomes 19-20/&times;3. This effect does not stack with any other effect that expands the threat range of a weapon, such as the {feat/Improved Critical} feat or a keen weapon."
+			"You take on an aspect of a falcon. Your eyes become wide and raptor-like, and you grow feathers on the sides of your head. You gain a +3 competence bonus on Perception checks, a +1 competence bonus on ranged attacks, and the critical multiplier for your bows and crossbows becomes 19-20/&times;3. This effect does not stack with any other effect that expands the threat range of a weapon, such as the ‹feat/Improved Critical› feat or a keen weapon."
 		]
 	},
 	"aspect_of_the_nightingale": {
@@ -2389,7 +2389,7 @@
 			"",
 			"::spell{source=\"Horror Adventures/108\" polymorph transmutation alc=3 arc=3 brd=3 inv=3 med=3 mes=3 occ=3 psy=3 sha=3 skd=3 sor=3 spr=3 sum=3 usm=3 wit=3 wiz=3 ctM=1 cV cS cFp=\"corpse of the deceased creature whose form you plan to assume\" rPers target=you durD durDL=1}",
 			"",
-			"This spell functions similarly to alter self, except for the following differences. You assume the exact form of a deceased Small or Medium creature of the humanoid type. Your voice changes to match that of the form you assume. The creature whose form you assume must be dead and you must have access to its fresh corpse (either dead less than 24 hours, or preserved via {spell/gentle repose} or similar effect). Any attempt to copy the form of a living creature causes the spell to fail. You do not have access to the assumed form's abilities, memories, mannerisms, or speech patterns. The spell grants a +10 bonus on Disguise checks to appear as the imitated creature.",
+			"This spell functions similarly to alter self, except for the following differences. You assume the exact form of a deceased Small or Medium creature of the humanoid type. Your voice changes to match that of the form you assume. The creature whose form you assume must be dead and you must have access to its fresh corpse (either dead less than 24 hours, or preserved via ‹spell/gentle repose› or similar effect). Any attempt to copy the form of a living creature causes the spell to fail. You do not have access to the assumed form's abilities, memories, mannerisms, or speech patterns. The spell grants a +10 bonus on Disguise checks to appear as the imitated creature.",
 			"",
 			"If the assumed creature is returned to life while this spell is active, assume appearance immediately ends.",
 			"",
@@ -2397,7 +2397,7 @@
 			"",
 			"::spell{source=\"Horror Adventures/109\" polymorph transmutation alc=4 arc=4 brd=4 inv=4 med=4 mes=4 occ=4 psy=4 sha=4 skd=4 sor=4 spr=4 sum=4 usm=4 wit=4 wiz=4 ctM=1 cV cS cFp=\"corpse or likeness of the deceased creature whose form you plan to assume\" rPers target=you durD durDL=1}",
 			"",
-			"This spell functions similar to assume appearance, except that you can imitate a creature even if you have only a likeness (such as a sketch or painting) that is fairly accurate. If there is an age difference between the likeness and the actual creature, you take on the appearance of the creature near the end of its life. If you have heard the creature whose form you plan to assume speak aloud, you can also copy its voice as vocal alteration ({spell/speak with dead} can also be used to fulfill this requirement). The spell doesn't grant insight into the dead creature's mannerisms",
+			"This spell functions similar to assume appearance, except that you can imitate a creature even if you have only a likeness (such as a sketch or painting) that is fairly accurate. If there is an age difference between the likeness and the actual creature, you take on the appearance of the creature near the end of its life. If you have heard the creature whose form you plan to assume speak aloud, you can also copy its voice as vocal alteration (‹spell/speak with dead› can also be used to fulfill this requirement). The spell doesn't grant insight into the dead creature's mannerisms",
 			"",
 			"Additionally, if a likeness used as a focus for the spell is kept on your person or within 30 feet at all times, the aura of greater ssume appearance is redirected to the likeness instead of to you, similar to a reverse application of the misdirection spell."
 		]
@@ -2443,7 +2443,7 @@
 			"",
 			"While you are on the Astral Plane, your astral body is connected at all times to your physical body by an incorporeal silver cord. If the cord is broken, you are killed, astrally and physically. Luckily, very few things can destroy a silver cord. When a second body is formed on a different plane, the silver cord remains invisibly attached to the new body. If the second body or the astral form is slain, the cord simply returns to your body where it rests on the Material Plane, thereby reviving it from its state of suspended animation. This is a traumatic affair, however, and you gain two permanent negative levels if your second body or astral form is slain. Although astral projections are able to function on the Astral Plane, their actions affect only creatures existing on the Astral Plane; a physical body must be materialized on other planes.",
 			"",
-			"You and your companions may travel through the Astral Plane indefinitely. Your bodies simply wait behind in a state of suspended animation until you choose to return your spirits to them. The spell lasts until you desire to end it, or until it is terminated by some outside means, such as {spell/dispel magic} cast upon either the physical body or the astral form, the breaking of the silver cord, or the destruction of your body back on the Material Plane (which kills you).",
+			"You and your companions may travel through the Astral Plane indefinitely. Your bodies simply wait behind in a state of suspended animation until you choose to return your spirits to them. The spell lasts until you desire to end it, or until it is terminated by some outside means, such as ‹spell/dispel magic› cast upon either the physical body or the astral form, the breaking of the silver cord, or the destruction of your body back on the Material Plane (which kills you).",
 			"",
 			"When this spell ends, your astral body and all of its gear, vanishes.",
 			"",
@@ -2575,7 +2575,7 @@
 		"description": [
 			"## Augmenting Wall",
 			"",
-			"::spell{source=\"Ranged Tactics Toolbox/30\" school=\"%%spelldef/evocation%% &#91&see text&#93&\" arc=5 mag=5 sor=5 wiz=5 ctSt cV cS rMed effect=\"20-ft.-high wall of energy whose area is up to one 10-ft. square/level\" dur=\"1 round/2 levels (see text)\" srN object}",
+			"::spell{source=\"Ranged Tactics Toolbox/30\" school=\"‹spelldef/evocation› &#91&see text&#93&\" arc=5 mag=5 sor=5 wiz=5 ctSt cV cS rMed effect=\"20-ft.-high wall of energy whose area is up to one 10-ft. square/level\" dur=\"1 round/2 levels (see text)\" srN object}",
 			"",
 			"You create a wall of faintly shimmering elemental energy. Upon casting the spell, choose either acid, cold, electricity, or fire. The spell gains the chosen descriptor, and any thrown weapons or ammunition that pass through the augmenting wall as part of a ranged attack deal 1d6 points of energy damage of the specified type in addition to their normal damage. The wall has no effect on melee weapons or items not thrown as part of an attack.",
 			"",
@@ -2614,13 +2614,13 @@
 			"",
 			"You mask and manipulate the target creature's or object's aura, confounding those who would attempt to discern helpful information from it using the read aura unlock or the analyze aura spell. You can change each of the following four auras with one casting of aura alteration.",
 			"",
-			"*Alignment Aura:* You can change the target's apparent alignment to thwart spells that detect alignment, such as {spell/detect evil}. You can alter the alignment by up to one step on each alignment axis, but can't make the creature appear to have a diametrically opposed alignment. For instance, you couldn't make a lawful evil character appear to be chaotic or good. You can also adjust the power of the alignment aura up or down in level by a number of steps equal to 1/2 your level or fewer.",
+			"*Alignment Aura:* You can change the target's apparent alignment to thwart spells that detect alignment, such as ‹spell/detect evil›. You can alter the alignment by up to one step on each alignment axis, but can't make the creature appear to have a diametrically opposed alignment. For instance, you couldn't make a lawful evil character appear to be chaotic or good. You can also adjust the power of the alignment aura up or down in level by a number of steps equal to 1/2 your level or fewer.",
 			"",
 			"*Emotion Aura:* Your manipulations mask the true emotions of the target, instead depicting any combination of colors on the emotional spectrum that you wish. Creatures attempting Bluff, Diplomacy, Intimidate, or Sense Motive checks against the target receive no bonuses on their checks based on information gleaned from the target's aura.",
 			"",
 			"*Health Aura:* You adulterate the target's aura to mask the condition of its physical body, revealing instead a wounded status, poison or disease status, and conditions of your choice. You likewise mask the target's available ki points or similar resources, manipulating its aura to suggest any number within the range normally available to the target.",
 			"",
-			"*Magic Aura:* You alter a creature or item's magic aura so that it registers to {spell/detect magic} (and spells with similar capabilities, like {spell/analyze aura}) as though it were nonmagical, a magic item of a kind you specify, or the subject of a spell you specify. A single casting of aura alteration is sufficient to mask all of the magic auras on the target. If an object bearing aura alteration has {spell/identify} cast on it or is similarly examined, the examiner recognizes the aura is false and detects the object's actual qualities if he succeeds at a Will save. If a targeted item's own aura is overwhelming, aura alteration can't alter it."
+			"*Magic Aura:* You alter a creature or item's magic aura so that it registers to ‹spell/detect magic› (and spells with similar capabilities, like ‹spell/analyze aura›) as though it were nonmagical, a magic item of a kind you specify, or the subject of a spell you specify. A single casting of aura alteration is sufficient to mask all of the magic auras on the target. If an object bearing aura alteration has ‹spell/identify› cast on it or is similarly examined, the examiner recognizes the aura is false and detects the object's actual qualities if he succeeds at a Will save. If a targeted item's own aura is overwhelming, aura alteration can't alter it."
 		]
 	},
 	"aura_of_cannibalism": {
@@ -2644,7 +2644,7 @@
 			"",
 			"::spell{source=\"Psychic Anthology/10\" enchantment mindAffecting arc=2 psy=2 sor=2 wit=2 wiz=2 ctSt cV cS rPers area=\"20-ft.-radius emanation centered on you\" durML=1 durD will srY}",
 			"",
-			"You emit an aura of subsonic noise and mental imagery that makes concentrating difficult. Any creature within the aura that fails its save takes a -5 penalty on {rule/concentration} checks. A creature must attempt the Will save upon entering the area of the aura, and the penalty ends as soon as the creature leaves the aura. A creature that succeeds at its save is immune to the effects of the aura for this casting of the spell, even if it leaves and reenters the aura, but must attempt another Will save each additional time this spell is cast. You are immune to your own aura of distraction."
+			"You emit an aura of subsonic noise and mental imagery that makes concentrating difficult. Any creature within the aura that fails its save takes a -5 penalty on ‹rule/concentration› checks. A creature must attempt the Will save upon entering the area of the aura, and the penalty ends as soon as the creature leaves the aura. A creature that succeeds at its save is immune to the effects of the aura for this casting of the spell, even if it leaves and reenters the aura, but must attempt another Will save each additional time this spell is cast. You are immune to your own aura of distraction."
 		]
 	},
 	"aura_of_doom": {
@@ -2702,11 +2702,11 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/174\" divination alc=3 arc=3 clr=3 inq=4 inv=3 mes=3 orc=3 psy=3 sha=3 sor=3 spr=3 war=3 wit=3 wiz=3 ctSt cV cS rPers target=you durML=1 durD}",
 			"",
-			"This spell makes your eyes glow and allows you to see alignment auras within 120 feet of you. The effect is similar to that of a {spell/detect chaos//evil//good//law} spell, but aura sight does not require concentration, and it discerns an aura's location and power more quickly.",
+			"This spell makes your eyes glow and allows you to see alignment auras within 120 feet of you. The effect is similar to that of a ‹spell/detect chaos/evil/good/law› spell, but aura sight does not require concentration, and it discerns an aura's location and power more quickly.",
 			"",
 			"You know the location and power of all chaotic, evil, good, and lawful auras within your sight. An aura's power depends on a creature's Hit Dice or an item's caster level, as noted in the description of the detect evil spell. If an item or a creature bearing an aura is in line of sight, you can attempt a Knowledge (religion) check to determine the aura's strength (one check per aura; DC 15 + spell level, or 15 + 1/2 caster level for a non-spell effect).",
 			"",
-			"Aura sight can be made permanent with a {spell/permanency} spell by a caster of 11th level or higher at a cost of 7,500 gp."
+			"Aura sight can be made permanent with a ‹spell/permanency› spell by a caster of 11th level or higher at a cost of 7,500 gp."
 		]
 	},
 	"authenticating_gaze": {
@@ -2717,7 +2717,7 @@
 			"",
 			"::spell{source=\"Black Markets/30\" divination alc=1 arc=1 clr=1 inq=1 inv=1 orc=1 sor=1 war=1 wiz=1 ctSt cV cS cMDFp=\"a miniature magnifying glass or spectacles\" rPers effect=\"see text\" durML=1}",
 			"",
-			"Your understanding of the written word becomes analytical and discerning. You gain an insight bonus equal to your caster level (maximum +10) on Appraise checks to determine the value of books and scrolls and on Linguistics checks to detect forgeries, and you can attempt a Linguistics check to detect a forged document at a glance, rather than taking the normal 1 round of examination per page. In addition, you immediately detect whether written works within 30 feet and within your line of sight have a magical aura and the strength of any such auras, as though you had concentrated on each written work for 1 round using {spell/detect magic}."
+			"Your understanding of the written word becomes analytical and discerning. You gain an insight bonus equal to your caster level (maximum +10) on Appraise checks to determine the value of books and scrolls and on Linguistics checks to detect forgeries, and you can attempt a Linguistics check to detect a forged document at a glance, rather than taking the normal 1 round of examination per page. In addition, you immediately detect whether written works within 30 feet and within your line of sight have a magical aura and the strength of any such auras, as though you had concentrated on each written work for 1 round using ‹spell/detect magic›."
 		]
 	},
 	"aversion": {

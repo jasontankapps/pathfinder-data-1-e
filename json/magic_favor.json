@@ -5,15 +5,15 @@
 		"description": [
 			"## Kerchief of Remembrance",
 			"",
-			"{SOURCE Heroes of the High Court/13}  ",
+			"‹SOURCE Heroes of the High Court/13›  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** arm or wrist; **Price** 600 gp; **Weight** -",
 			"",
-			"This favor is a simple checked kerchief worn around the arm or wrist. For 1 week, the recipient can automatically call to mind a detailed recollection of the presenter's features, even if his memory has been impaired or modified (such as by {spell/modify memory}). In addition, the recipient can take a standard action to know the presenter's *status* in the same manner that the presenter can take a standard action to know the recipient's *status.*",
+			"This favor is a simple checked kerchief worn around the arm or wrist. For 1 week, the recipient can automatically call to mind a detailed recollection of the presenter's features, even if his memory has been impaired or modified (such as by ‹spell/modify memory›). In addition, the recipient can take a standard action to know the presenter's *status* in the same manner that the presenter can take a standard action to know the recipient's *status.*",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor}, {spell/status}; **Cost** 300 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/eagle's splendor›, ‹spell/status›; **Cost** 300 gp"
 		]
 	},
 	"paper_flower": {
@@ -22,7 +22,7 @@
 		"description": [
 			"## Paper Flower",
 			"",
-			"{SOURCE Heroes of the High Court/13}  ",
+			"‹SOURCE Heroes of the High Court/13›  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** headband; **Price** 800 gp; **Weight** -",
 			"",
@@ -30,7 +30,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/sanctuary}, {spell/status}; **Cost** 400 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/sanctuary›, ‹spell/status›; **Cost** 400 gp"
 		]
 	},
 	"lucky_button": {
@@ -39,7 +39,7 @@
 		"description": [
 			"## Lucky Button",
 			"",
-			"{SOURCE Heroes of the High Court/13}  ",
+			"‹SOURCE Heroes of the High Court/13›  ",
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** none; **Price** 1,200 gp; **Weight** -",
 			"",
@@ -47,7 +47,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/status}; **Cost** 600 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/guidance›, ‹spell/status›; **Cost** 600 gp"
 		]
 	},
 	"laurel_of_the_champion": {
@@ -56,7 +56,7 @@
 		"description": [
 			"## Laurel of the Champion",
 			"",
-			"{SOURCE Heroes of the High Court/13}  ",
+			"‹SOURCE Heroes of the High Court/13›  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** head; **Price** 2,000 gp; **Weight** -",
 			"",
@@ -64,7 +64,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/eagle's splendor}, {spell/status}; **Cost** 1,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/eagle's splendor›, ‹spell/status›; **Cost** 1,000 gp"
 		]
 	},
 	"token_of_gallantry": {
@@ -73,7 +73,7 @@
 		"description": [
 			"## Token of Gallantry",
 			"",
-			"{SOURCE Heroes of the High Court/13}  ",
+			"‹SOURCE Heroes of the High Court/13›  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 2,400 gp; **Weight** -",
 			"",
@@ -81,7 +81,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/align weapon}, {spell/status}; **Cost** 1,200 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/align weapon›, ‹spell/status›; **Cost** 1,200 gp"
 		]
 	}
 }

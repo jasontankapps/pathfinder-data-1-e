@@ -16,7 +16,7 @@
 		"description": [
 			"## Black Lotus Extract",
 			"",
-			"{SOURCE PRPG Core Rulebook/558;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/558;Ultimate Equipment/111›",
 			"",
 			"**Price** 4,500 gp; **Weight** &mdash;",
 			"",
@@ -29,7 +29,7 @@
 		"description": [
 			"## Black Smear",
 			"",
-			"{SOURCE Pathfinder RPG Bestiary/54}",
+			"‹SOURCE Pathfinder RPG Bestiary/54›",
 			"",
 			"**Price** N/A; **Weight** &mdash;",
 			"",
@@ -44,7 +44,7 @@
 		"description": [
 			"## Blackfrost",
 			"",
-			"{SOURCE Pathfinder #51: The Hungry Storm/67}",
+			"‹SOURCE Pathfinder #51: The Hungry Storm/67›",
 			"",
 			"**Price** N/A; **Weight** &mdash;",
 			"",
@@ -57,7 +57,7 @@
 		"description": [
 			"## Blue lily extract",
 			"",
-			"{SOURCE Horror Realms/29}",
+			"‹SOURCE Horror Realms/29›",
 			"",
 			"**Price** N/A; **Weight** &mdash;",
 			"",
@@ -72,11 +72,11 @@
 		"description": [
 			"## Green Prismatic Poison",
 			"",
-			"{SOURCE PRPG Core Rulebook/559}",
+			"‹SOURCE PRPG Core Rulebook/559›",
 			"",
 			"**Price** N/A; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=spell saveF=\"varies by spell\" freqR=6 ineffExtra=death seceffCon=1 cure2c extra=\"See %%spell/prismatic sphere%%, %%spell/prismatic spray%%, or %%spell/prismatic wall%% for more details.\"}"
+			"::aff{iconP start type=spell saveF=\"varies by spell\" freqR=6 ineffExtra=death seceffCon=1 cure2c extra=\"See ‹spell/prismatic sphere›, ‹spell/prismatic spray›, or ‹spell/prismatic wall› for more details.\"}"
 		]
 	},
 	"kings_sleep": {
@@ -88,7 +88,7 @@
 		"description": [
 			"## King's Sleep",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 5,000 gp; **Weight** &mdash;",
 			"",
@@ -101,15 +101,15 @@
 		"description": [
 			"## Lethe water",
 			"",
-			"{SOURCE Feast of Dust/42}",
+			"‹SOURCE Feast of Dust/42›",
 			"",
 			"**Price** N/A; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=ingested saveW=16 freqR=6 effInt=\"1d4\" effCha=\"1d4\" extra=\"Cannot reduce a creature's Int or Cha below 1.\" cure2}",
 			"",
-			"Creatures reduced below 3 Intelligence gain the {template/fiendish/ creature simple template} and a +4 enhancement bonus to Strength and Constitution; these effects vanish if a creature's Intelligence score rises above 3.",
+			"Creatures reduced below 3 Intelligence gain the ‹template/fiendish« creature simple template› and a +4 enhancement bonus to Strength and Constitution; these effects vanish if a creature's Intelligence score rises above 3.",
 			"",
-			"Lethe water loses its magical potency 24 hours after being removed from the hot springs, but remains mildly poisonous thanks to its mineral content (treat as {eq-poison/bloodroot}, but ingested rather than injury)."
+			"Lethe water loses its magical potency 24 hours after being removed from the hot springs, but remains mildly poisonous thanks to its mineral content (treat as ‹eq-poison/bloodroot›, but ingested rather than injury)."
 		]
 	},
 	"maiden_lily_attar": {
@@ -118,11 +118,11 @@
 		"description": [
 			"## Maiden lily attar",
 			"",
-			"{SOURCE Murder's Mark/26}",
+			"‹SOURCE Murder's Mark/26›",
 			"",
 			"**Price** N/A; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=13 freqR=4 ineff=\"%%misc/unconscious%% for 1 minute\" seceff=\"unconscious for 1d4 hours\" cure1}"
+			"::aff{iconP start type=inhaled saveF=13 freqR=4 ineff=\"‹misc/unconscious› for 1 minute\" seceff=\"unconscious for 1d4 hours\" cure1}"
 		]
 	},
 	"quicklime": {
@@ -131,11 +131,11 @@
 		"description": [
 			"## Quicklime",
 			"",
-			"{SOURCE Pathfinder #95: Anvil of Fire/29}",
+			"‹SOURCE Pathfinder #95: Anvil of Fire/29›",
 			"",
 			"**Price** N/A; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=\"contact or inhaled\" saveF=18 freqR=6 eff=\"1d2 %%rule/Con damage%%, %%misc/blindness%% and %%misc/nausea%% for 1d10 minutes\" cure2c}",
+			"::aff{iconP start type=\"contact or inhaled\" saveF=18 freqR=6 eff=\"1d2 ‹rule/Con damage›, ‹misc/blindness› and ‹misc/nausea› for 1d10 minutes\" cure2c}",
 			"",
 			"This caustic substance is a poisonous irritant, and reacts with water (including moisture in the eyes, nose, mouth, and lungs) to create heat."
 		]
@@ -146,13 +146,13 @@
 		"description": [
 			"## Slow nectar",
 			"",
-			"{SOURCE Pathfinder #93: Forge of the Giant God/8}",
+			"‹SOURCE Pathfinder #93: Forge of the Giant God/8›",
 			"",
 			"**Price** N/A; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=injury saveF=17 freqR=6 effDex=\"1d3\" effExtra=\"paralysis for 1 round\" cure1}",
 			"",
-			"The {monster/ettercap/s} collect the sap of small white flowers that grow on the nearby cliffs to create a paralytic poison known as slow nectar, which the creatures use in their traps."
+			"The ‹monster/ettercap«s› collect the sap of small white flowers that grow on the nearby cliffs to create a paralytic poison known as slow nectar, which the creatures use in their traps."
 		]
 	},
 	"spidervine_poison": {
@@ -161,11 +161,11 @@
 		"description": [
 			"## Spidervine poison",
 			"",
-			"{SOURCE Heart of the Jungle/6}",
+			"‹SOURCE Heart of the Jungle/6›",
 			"",
 			"**Price** N/A; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=15 freqR=6 ineffExtra=\"%%rule/paralysis%%\" seceffCon=\"1d2\" cure2c}"
+			"::aff{iconP start type=injury saveF=15 freqR=6 ineffExtra=\"‹rule/paralysis›\" seceffCon=\"1d2\" cure2c}"
 		]
 	},
 	"tears_of_death": {
@@ -177,11 +177,11 @@
 		"description": [
 			"## Tears of Death",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 6,500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=contact saveF=22 onset=\"1 minute\" freqM=6 effCon=\"1d6\" effExtra=\"%%rule/paralyzed%%\"}"
+			"::aff{iconP start type=contact saveF=22 onset=\"1 minute\" freqM=6 effCon=\"1d6\" effExtra=\"‹rule/paralyzed›\"}"
 		]
 	},
 	"ungol_dust": {
@@ -193,7 +193,7 @@
 		"description": [
 			"## Ungol Dust",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 1,000 gp; **Weight** &mdash;",
 			"",
@@ -209,7 +209,7 @@
 		"description": [
 			"## Wyvern Poison",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 3,000 gp; **Weight** &mdash;",
 			"",
@@ -222,11 +222,11 @@
 		"description": [
 			"## Pupil's friend",
 			"",
-			"{SOURCE Potions and Poisons/25}",
+			"‹SOURCE Potions and Poisons/25›",
 			"",
 			"**Price** 30 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=10 onset=\"10 minutes\" freqM=15 eff=\"%%misc/sickened%% for 1 minute; if the target is affected by a second dose while already under the effects of this poison, the victim is instead %%misc/nauseated%% for 1 minute\" cure1}",
+			"::aff{iconP start type=ingested saveF=10 onset=\"10 minutes\" freqM=15 eff=\"‹misc/sickened› for 1 minute; if the target is affected by a second dose while already under the effects of this poison, the victim is instead ‹misc/nauseated› for 1 minute\" cure1}",
 			"",
 			"This mostly benign, malodorous mold induces temporary illness with no lasting effect, and it can be detected in food or drink with a DC 15 Perception check, unless the food is particularly pungent, in which case the Perception DC increases by up to 5. Named for students wishing to convincingly feign illness, anyone can easily cultivate this mold in dark, moist spaces."
 		]
@@ -237,11 +237,11 @@
 		"description": [
 			"## Red tears",
 			"",
-			"{SOURCE Dirty Tactics Toolbox/7}",
+			"‹SOURCE Dirty Tactics Toolbox/7›",
 			"",
 			"**Price** 50 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=15 freqR=10 eff=\"1d6 points of damage; creatures immune to %%rule/bleed%% effects are immune to this damage\" cure1}"
+			"::aff{iconP start type=injury saveF=15 freqR=10 eff=\"1d6 points of damage; creatures immune to ‹rule/bleed› effects are immune to this damage\" cure1}"
 		]
 	},
 	"might_blight": {
@@ -250,13 +250,13 @@
 		"description": [
 			"## Might blight",
 			"",
-			"{SOURCE Merchant's Manifest/11}",
+			"‹SOURCE Merchant's Manifest/11›",
 			"",
 			"**Price** 60 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=injury saveF=13 onset=\"1 round\" freqR=4 effStr=1 cure2c}",
 			"",
-			"The {race/ratfolk} of Diguo-Dashu, the \"Empire of the Rats,\" developed this poison to help their soldiers in overtaking foes. The poison produces lactic acids that slowly degrade the target's muscles, though for full efficacy, an exceptionally high dosage, repeated application, or a particularly feeble opponent is required."
+			"The ‹race/ratfolk› of Diguo-Dashu, the \"Empire of the Rats,\" developed this poison to help their soldiers in overtaking foes. The poison produces lactic acids that slowly degrade the target's muscles, though for full efficacy, an exceptionally high dosage, repeated application, or a particularly feeble opponent is required."
 		]
 	},
 	"addlemind": {
@@ -265,11 +265,11 @@
 		"description": [
 			"## Addlemind",
 			"",
-			"{SOURCE Dirty Tactics Toolbox/9}",
+			"‹SOURCE Dirty Tactics Toolbox/9›",
 			"",
 			"**Price** 75 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=15 onset=\"1 minute\" freqM=10 eff=\"1d2 %%rule/Wisdom damage%%; As long as any Wisdom damage from this poison remains, the victim also takes a -5 penalty on all Knowledge and Perception checks\" cure2}"
+			"::aff{iconP start type=ingested saveF=15 onset=\"1 minute\" freqM=10 eff=\"1d2 ‹rule/Wisdom damage›; As long as any Wisdom damage from this poison remains, the victim also takes a -5 penalty on all Knowledge and Perception checks\" cure2}"
 		]
 	},
 	"concentrated_laxative": {
@@ -278,11 +278,11 @@
 		"description": [
 			"## Concentrated laxative",
 			"",
-			"{SOURCE Antihero's Handbook/28}",
+			"‹SOURCE Antihero's Handbook/28›",
 			"",
 			"**Price** 75 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=12 onset=\"10 minutes\" freqM=2 eff=\"This mixture gained popularity - and notoriety - when Calistrians used it for elaborate pranks, but now tricksters of all stripes use the colonic concoction for any number of reasons, such as to incommode a nosy interlocutor. After the first failed saving throw, the target is %%misc/sickened%% for 1 minute, and after a second failure, the target is %%misc/nauseated%% for 1 minute\" cure1}"
+			"::aff{iconP start type=ingested saveF=12 onset=\"10 minutes\" freqM=2 eff=\"This mixture gained popularity - and notoriety - when Calistrians used it for elaborate pranks, but now tricksters of all stripes use the colonic concoction for any number of reasons, such as to incommode a nosy interlocutor. After the first failed saving throw, the target is ‹misc/sickened› for 1 minute, and after a second failure, the target is ‹misc/nauseated› for 1 minute\" cure1}"
 		]
 	},
 	"drow_poison": {
@@ -294,7 +294,7 @@
 		"description": [
 			"## Drow Poison",
 			"",
-			"{SOURCE PRPG Core Rulebook/559;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/559;Ultimate Equipment/111›",
 			"",
 			"**Price** 75 gp; **Weight** &mdash;",
 			"",
@@ -307,11 +307,11 @@
 		"description": [
 			"## Gelidburn oil",
 			"",
-			"{SOURCE Potions and Poisons/24}",
+			"‹SOURCE Potions and Poisons/24›",
 			"",
 			"**Price** 75 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=12 freqR=4 eff=\"1d3 fire, 1d3 cold, and %%misc/staggered%% 1 round\" cure1}",
+			"::aff{iconP start type=injury saveF=12 freqR=4 eff=\"1d3 fire, 1d3 cold, and ‹misc/staggered› 1 round\" cure1}",
 			"",
 			"This greasy pale-blue liquid delivers a shocking sensation that is both freezing cold and searing hot. Gelidburn oil is popular among pickpockets looking to stab, snatch, and run."
 		]
@@ -322,11 +322,11 @@
 		"description": [
 			"## Goblin's eye",
 			"",
-			"{SOURCE Ultimate Wilderness/144}",
+			"‹SOURCE Ultimate Wilderness/144›",
 			"",
 			"**Price** 75 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=13 onset=\"1 minute\" freqM=6 effCon=1 effExtra=\"the creature is %%misc/nauseated%% for 1 minute\" cure1}",
+			"::aff{iconP start type=ingested saveF=13 onset=\"1 minute\" freqM=6 effCon=1 effExtra=\"the creature is ‹misc/nauseated› for 1 minute\" cure1}",
 			"",
 			"These bright red seeds feature a single black dot each, giving them a superficial resemblance to an eye. The bright colors of the seeds make them attractive to certain animals, as well as those unfamiliar with wilderness lore. A character who succeeds at a DC 15 Knowledge (nature) or Survival check identifies the seed as poisonous. In some places, the seeds are used as jewelry."
 		]
@@ -337,14 +337,14 @@
 		"description": [
 			"## Vampire's kiss",
 			"",
-			"{SOURCE Alchemy Manual/9}",
+			"‹SOURCE Alchemy Manual/9›",
 			"",
 			"**Price** 75 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=15 freqR=2 ineffCon=\"1d2\" seceffExtra=\"%%rule/bleed%% damage from non-poison sources increases by 1 for 1 minute\" cure1}",
+			"::aff{iconP start type=injury saveF=15 freqR=2 ineffCon=\"1d2\" seceffExtra=\"‹rule/bleed› damage from non-poison sources increases by 1 for 1 minute\" cure1}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (6 gold + 50 myrrh + 30 quicksilver)/distillation; **Craft** DC 15  ",
-			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** poison"
+			"**‹rule/Spontaneous Alchemy› Recipe** (6 gold + 50 myrrh + 30 quicksilver)/distillation; **Craft** DC 15  ",
+			"**Time** 1 day; **Tools** ‹eq-misc/retort›; **Type** poison"
 		]
 	},
 	"confabulation_powder": {
@@ -353,13 +353,13 @@
 		"description": [
 			"## Confabulation powder",
 			"",
-			"{SOURCE Alchemy Manual/11}",
+			"‹SOURCE Alchemy Manual/11›",
 			"",
 			"**Price** 80 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=18 freqM=2 ineff=\"%%misc/staggered%% for 1 minute\" seceff=\"If already staggered, %%misc/stunned%%, or %%misc/unconscious%%, the victim becomes highly suggestible. If an event (whether true or false) is described to him, he unconsciously fabricates a detailed memory of the event, filling in any gaps in the description with his own best guesses. The confabulated memory can be disbelieved with a successful DC 18 Will save the first time it is recalled, but if the save fails, the victim treats it as completely genuine thereafter. All confabulated memories can be removed with a restoration or heal spell\" cure1}",
+			"::aff{iconP start type=inhaled saveF=18 freqM=2 ineff=\"‹misc/staggered› for 1 minute\" seceff=\"If already staggered, ‹misc/stunned›, or ‹misc/unconscious›, the victim becomes highly suggestible. If an event (whether true or false) is described to him, he unconsciously fabricates a detailed memory of the event, filling in any gaps in the description with his own best guesses. The confabulated memory can be disbelieved with a successful DC 18 Will save the first time it is recalled, but if the save fails, the victim treats it as completely genuine thereafter. All confabulated memories can be removed with a restoration or heal spell\" cure1}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (20 quicksilver + 15 cytillesh spores)/digestion; **Craft** DC 18  ",
+			"**‹rule/Spontaneous Alchemy› Recipe** (20 quicksilver + 15 cytillesh spores)/digestion; **Craft** DC 18  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},
@@ -369,11 +369,11 @@
 		"description": [
 			"## Baneberry",
 			"",
-			"{SOURCE Guide to the River Kingdoms/14}",
+			"‹SOURCE Guide to the River Kingdoms/14›",
 			"",
 			"**Price** 90 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=\"ingested or injury\" saveF=15 onset=\"1 round (injury), 30 minutes (ingested)\" freqM=5 effStr=\"1d3\" effCon=1 effExtra=\"%%rule/paralyzed%% for 1d3 rounds\" cure2}"
+			"::aff{iconP start type=\"ingested or injury\" saveF=15 onset=\"1 round (injury), 30 minutes (ingested)\" freqM=5 effStr=\"1d3\" effCon=1 effExtra=\"‹rule/paralyzed› for 1d3 rounds\" cure2}"
 		]
 	},
 	"oil_of_taggit": {
@@ -385,11 +385,11 @@
 		"description": [
 			"## Oil of Taggit",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 90 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=15 onset=\"1 minute\" freq=\"-\" eff=\"%%misc/unconscious/ness%% for 1d3 hours\" cure1}"
+			"::aff{iconP start type=ingested saveF=15 onset=\"1 minute\" freq=\"-\" eff=\"‹misc/unconscious«ness› for 1d3 hours\" cure1}"
 		]
 	},
 	"small_centipede_poison": {
@@ -401,7 +401,7 @@
 		"description": [
 			"## Small Centipede Poison",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 90 gp; **Weight** &mdash;",
 			"",
@@ -414,11 +414,11 @@
 		"description": [
 			"## Thornapple",
 			"",
-			"{SOURCE Guide to the River Kingdoms/14}",
+			"‹SOURCE Guide to the River Kingdoms/14›",
 			"",
 			"**Price** 90 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=contact saveF=11 onset=\"10 minutes\" freqM=6 effInt=1 effWis=1 effCon=1 effExtra=\"%%misc/blind%% for 1 minute\" cure2}"
+			"::aff{iconP start type=contact saveF=11 onset=\"10 minutes\" freqM=6 effInt=1 effWis=1 effCon=1 effExtra=\"‹misc/blind› for 1 minute\" cure2}"
 		]
 	},
 	"belladonna": {
@@ -430,11 +430,11 @@
 		"description": [
 			"## Belladonna",
 			"",
-			"{SOURCE Ultimate Equipment/111;PRPG Core Rulebook/558}",
+			"‹SOURCE Ultimate Equipment/111;PRPG Core Rulebook/558›",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=14 onset=\"10 minutes\" freqM=6 effStr=\"1d2\" effExtra=\"target can attempt one save to cure a %%corruption/lycanthropy%% affliction contracted in the past hour\" cure1}"
+			"::aff{iconP start type=ingested saveF=14 onset=\"10 minutes\" freqM=6 effStr=\"1d2\" effExtra=\"target can attempt one save to cure a ‹corruption/lycanthropy› affliction contracted in the past hour\" cure1}"
 		]
 	},
 	"bloodroot": {
@@ -446,11 +446,11 @@
 		"description": [
 			"## Bloodroot",
 			"",
-			"{SOURCE Ultimate Equipment/111;PRPG Core Rulebook/558}",
+			"‹SOURCE Ultimate Equipment/111;PRPG Core Rulebook/558›",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=12 onset=\"1 round\" freqR=4 eff=\"1 Con and 1 Wis and %%misc/confusion%% 1 round\" cure1}"
+			"::aff{iconP start type=injury saveF=12 onset=\"1 round\" freqR=4 eff=\"1 Con and 1 Wis and ‹misc/confusion› 1 round\" cure1}"
 		]
 	},
 	"bloodwine": {
@@ -459,11 +459,11 @@
 		"description": [
 			"## Bloodwine",
 			"",
-			"{SOURCE Pathfinder #41: The Thousand Fangs Below/42}",
+			"‹SOURCE Pathfinder #41: The Thousand Fangs Below/42›",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=25 freqM=6 ineffExtra=\"%%misc/sickened%% for 1d4 hours\" seceffWis=\"1d3\" cure2c}"
+			"::aff{iconP start type=ingested saveF=25 freqM=6 ineffExtra=\"‹misc/sickened› for 1d4 hours\" seceffWis=\"1d3\" cure2c}"
 		]
 	},
 	"frightshade": {
@@ -472,11 +472,11 @@
 		"description": [
 			"## Frightshade",
 			"",
-			"{SOURCE Antihero's Handbook/29}",
+			"‹SOURCE Antihero's Handbook/29›",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=14 freqR=4 eff=\"This plant's pollen contains a powerful hallucinogen that causes affected creatures to experience terribly realistic visions of death and destruction. The target is %%misc/shaken%% until the beginning of her next turn. When the target succeeds at her saving throw against the poison, or when the initial duration ends, she is shaken for an additional 1d4 rounds. (This is not a fear effect.)\" cure1}"
+			"::aff{iconP start type=inhaled saveF=14 freqR=4 eff=\"This plant's pollen contains a powerful hallucinogen that causes affected creatures to experience terribly realistic visions of death and destruction. The target is ‹misc/shaken› until the beginning of her next turn. When the target succeeds at her saving throw against the poison, or when the initial duration ends, she is shaken for an additional 1d4 rounds. (This is not a fear effect.)\" cure1}"
 		]
 	},
 	"frostspore": {
@@ -485,11 +485,11 @@
 		"description": [
 			"## Frostspore",
 			"",
-			"{SOURCE Pathfinder #61: Shards of Sin/64}",
+			"‹SOURCE Pathfinder #61: Shards of Sin/64›",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=\"ingested or injury\" saveF=13 freqR=6 eff=\"1d6 cold damage plus %%misc/staggered%% for 1 round\" cure2}"
+			"::aff{iconP start type=\"ingested or injury\" saveF=13 freqR=6 eff=\"1d6 cold damage plus ‹misc/staggered› for 1 round\" cure2}"
 		]
 	},
 	"greenblood_oil": {
@@ -501,7 +501,7 @@
 		"description": [
 			"## Greenblood Oil",
 			"",
-			"{SOURCE PRPG Core Rulebook/559;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/559;Ultimate Equipment/111›",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;",
 			"",
@@ -514,7 +514,7 @@
 		"description": [
 			"## Woundweal",
 			"",
-			"{SOURCE Adventurer's Armory/19}",
+			"‹SOURCE Adventurer's Armory/19›",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;",
 			"",
@@ -532,7 +532,7 @@
 		"description": [
 			"## Arsenic",
 			"",
-			"{SOURCE Ultimate Equipment/111;PRPG Core Rulebook/558}",
+			"‹SOURCE Ultimate Equipment/111;PRPG Core Rulebook/558›",
 			"",
 			"**Price** 120 gp; **Weight** &mdash;",
 			"",
@@ -548,7 +548,7 @@
 		"description": [
 			"## Black Adder Venom",
 			"",
-			"{SOURCE PRPG Core Rulebook/558;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/558;Ultimate Equipment/111›",
 			"",
 			"**Price** 120 gp; **Weight** &mdash;",
 			"",
@@ -564,11 +564,11 @@
 		"description": [
 			"## Blue Whinnis",
 			"",
-			"{SOURCE PRPG Core Rulebook/558;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/558;Ultimate Equipment/111›",
 			"",
 			"**Price** 120 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=14 freqR=2 ineffCon=1 ineffWis=1 seceffExtra=\"%%misc/unconscious/ness%% for 1d3 hours\" cure1}"
+			"::aff{iconP start type=injury saveF=14 freqR=2 ineffCon=1 ineffWis=1 seceffExtra=\"‹misc/unconscious«ness› for 1d3 hours\" cure1}"
 		]
 	},
 	"calotropis": {
@@ -577,7 +577,7 @@
 		"description": [
 			"## Calotropis",
 			"",
-			"{SOURCE Guide to the River Kingdoms/14}",
+			"‹SOURCE Guide to the River Kingdoms/14›",
 			"",
 			"**Price** 120 gp; **Weight** &mdash;",
 			"",
@@ -590,14 +590,14 @@
 		"description": [
 			"## Liquid persuasion",
 			"",
-			"{SOURCE Alchemy Manual/9}",
+			"‹SOURCE Alchemy Manual/9›",
 			"",
 			"**Price** 120 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=11 onset=\"10 minutes\" freqM=5 eff=\"1 %%rule/Wis damage%%, and for the duration of the poison, the next time the victim's attitude toward another creature would shift one or more steps toward helpful as a result of a successful Diplomacy or Intimidate check or other effect, the victim's attitude also shifts one additional step. For example, if the victim's attitude would shift from indifferent to friendly (one step better), it shifts to helpful instead (two steps better)\" cure1}",
+			"::aff{iconP start type=ingested saveF=11 onset=\"10 minutes\" freqM=5 eff=\"1 ‹rule/Wis damage›, and for the duration of the poison, the next time the victim's attitude toward another creature would shift one or more steps toward helpful as a result of a successful Diplomacy or Intimidate check or other effect, the victim's attitude also shifts one additional step. For example, if the victim's attitude would shift from indifferent to friendly (one step better), it shifts to helpful instead (two steps better)\" cure1}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (20 dew of lunary + 20 quicksilver + 80 spirit of wine)/distillation; **Craft** DC 11  ",
-			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** poison"
+			"**‹rule/Spontaneous Alchemy› Recipe** (20 dew of lunary + 20 quicksilver + 80 spirit of wine)/distillation; **Craft** DC 11  ",
+			"**Time** 1 day; **Tools** ‹eq-misc/retort›; **Type** poison"
 		]
 	},
 	"goblinvine_oil": {
@@ -606,13 +606,13 @@
 		"description": [
 			"## Goblinvine oil",
 			"",
-			"{SOURCE Heroes of the Wild/20}",
+			"‹SOURCE Heroes of the Wild/20›",
 			"",
 			"**Price** 125 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=contact saveF=10 onset=\"1 round\" freq=\"No frequency was provided in the source\" eff=\"%%misc/sickened%%\" cure=\"2 consecutive saves or 1 minute spent washing the affected area\"}",
+			"::aff{iconP start type=contact saveF=10 onset=\"1 round\" freq=\"No frequency was provided in the source\" eff=\"‹misc/sickened›\" cure=\"2 consecutive saves or 1 minute spent washing the affected area\"}",
 			"",
-			"Extracted from the mashed leaves of the pernicious {eq-misc/goblinvine}, this irritant is favored by goblins and tricksters alike."
+			"Extracted from the mashed leaves of the pernicious ‹eq-misc/goblinvine›, this irritant is favored by goblins and tricksters alike."
 		]
 	},
 	"id_moss": {
@@ -624,7 +624,7 @@
 		"description": [
 			"## Id Moss",
 			"",
-			"{SOURCE PRPG Core Rulebook/559;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/559;Ultimate Equipment/111›",
 			"",
 			"**Price** 125 gp; **Weight** &mdash;",
 			"",
@@ -637,11 +637,11 @@
 		"description": [
 			"## Draughtcap fungus",
 			"",
-			"{SOURCE Ultimate Wilderness/144}",
+			"‹SOURCE Ultimate Wilderness/144›",
 			"",
 			"**Price** 150 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=16 onset=\"4d6 hours\" freqH=8 eff=\"1d2 %%rule/Str damage%%. Additionally, as long as a creature is suffering from draughtcap fungus, its body is unable to process liquids, causing the creature to undergo the effects of %%rule/dehydration|>starvation_and_thirst%% no matter how much it drinks and preventing the creature from benefitting from potions, extracts, and other such items. After the failed initial save, the creature counts as if it had gone without water for 1 day. Further, each failed ongoing save causes the creature to be treated as though it had gone an additional hour without consuming water.\" cure2c}",
+			"::aff{iconP start type=ingested saveF=16 onset=\"4d6 hours\" freqH=8 eff=\"1d2 ‹rule/Str damage›. Additionally, as long as a creature is suffering from draughtcap fungus, its body is unable to process liquids, causing the creature to undergo the effects of ‹rule/dehydration»<starvation_and_thirst› no matter how much it drinks and preventing the creature from benefitting from potions, extracts, and other such items. After the failed initial save, the creature counts as if it had gone without water for 1 day. Further, each failed ongoing save causes the creature to be treated as though it had gone an additional hour without consuming water.\" cure2c}",
 			"",
 			"This yellow-brown mushroom is commonly found in deserts and other dry environments. Its spores absorb moisture at an incredible rate, wreaking havoc on the body of any creature foolish enough to consume it. Draughtcap fungus bears a close resemblance to a common edible mushroom, and a successful DC 20 Knowledge (nature) or Survival check is required to differentiate the two."
 		]
@@ -652,11 +652,11 @@
 		"description": [
 			"## Marvelous fear gas",
 			"",
-			"{SOURCE Inner Sea Intrigue/51}",
+			"‹SOURCE Inner Sea Intrigue/51›",
 			"",
 			"**Price** 150 gp; **Weight** 1/2 lb.",
 			"",
-			"::aff{iconP start type=inhaled saveF=17 onset=\"injury or affected by any fear condition or effect\" freqM=4 ineffExtra=\"%%misc/shaken%% for 10 minutes (this can't produce a more severe fear effect)\" seceffWis=\"1d2\" cure1}",
+			"::aff{iconP start type=inhaled saveF=17 onset=\"injury or affected by any fear condition or effect\" freqM=4 ineffExtra=\"‹misc/shaken› for 10 minutes (this can't produce a more severe fear effect)\" seceffWis=\"1d2\" cure1}",
 			"",
 			"This poison is the creation of the Guild of Wonders in Absalom, whose members hunt down and intimidate their enemies."
 		]
@@ -670,11 +670,11 @@
 		"description": [
 			"## Medium Spider Venom",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 150 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=14 freqR=4 effStr=\"1d2\" effExtra=\"target can attempt one save to cure a %%corruption/lycanthropy%% affliction contracted in the past hour\" cure1}"
+			"::aff{iconP start type=injury saveF=14 freqR=4 effStr=\"1d2\" effExtra=\"target can attempt one save to cure a ‹corruption/lycanthropy› affliction contracted in the past hour\" cure1}"
 		]
 	},
 	"rainbow_scarab_shell": {
@@ -683,13 +683,13 @@
 		"description": [
 			"## Rainbow scarab shell",
 			"",
-			"{SOURCE Adventurer's Armory 2/18}",
+			"‹SOURCE Adventurer's Armory 2/18›",
 			"",
 			"**Price** 150 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=injury saveF=14 onset=\"1 round\" freqR=4 effStr=\"1d4\" effExtra=\"suffocation (see text)\" cure1}",
 			"",
-			"This iridescent toxin is made from the crushed shells of a rare type of Osirian beetle. A creature reduced to 0 Strength by the poison asphyxiates and immediately begins {rule/suffocati/ng>on}. Creatures that do not breathe are immune to this suffocation, but not the Strength damage."
+			"This iridescent toxin is made from the crushed shells of a rare type of Osirian beetle. A creature reduced to 0 Strength by the poison asphyxiates and immediately begins ‹rule/suffocati«ng<on›. Creatures that do not breathe are immune to this suffocation, but not the Strength damage."
 		]
 	},
 	"alchemical_isolation": {
@@ -698,13 +698,13 @@
 		"description": [
 			"## Alchemical isolation",
 			"",
-			"{SOURCE Alchemy Manual/9}",
+			"‹SOURCE Alchemy Manual/9›",
 			"",
 			"**Price** 175 gp; **Weight** 1 lb.",
 			"",
-			"::aff{iconP start type=inhaled saveF=13 freqM=2 ineff=\"%%misc/deafened%% for 10 minutes\" seceff=\"%%misc/blinded%% for 10 minutes\" cure1}",
+			"::aff{iconP start type=inhaled saveF=13 freqM=2 ineff=\"‹misc/deafened› for 10 minutes\" seceff=\"‹misc/blinded› for 10 minutes\" cure1}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (150 brimstone + 20 dew of lunary + 80 spirit of wine)/fermentation; **Craft** DC 13  ",
+			"**‹rule/Spontaneous Alchemy› Recipe** (150 brimstone + 20 dew of lunary + 80 spirit of wine)/fermentation; **Craft** DC 13  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},
@@ -714,11 +714,11 @@
 		"description": [
 			"## Insecticide",
 			"",
-			"{SOURCE Potions and Poisons/24}",
+			"‹SOURCE Potions and Poisons/24›",
 			"",
 			"**Price** 175 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=\"10 (see text)\" freqR=3 eff=\"1 %%rule/Str damage%% (creatures with the vermin type are %%misc/stunned%% for 1 round)\" cure1}",
+			"::aff{iconP start type=inhaled saveF=\"10 (see text)\" freqR=3 eff=\"1 ‹rule/Str damage› (creatures with the vermin type are ‹misc/stunned› for 1 round)\" cure1}",
 			"",
 			"Farmers protecting their crops and landlords maintaining their properties use insecticide to clear out pest infestations, but they must avoid the fumes of this dangerous gas. While it is formulated to exterminate vermin, the poison poses a danger to anyone. A single dose of insecticide immediately fills a 10-foot-by-10-foot area. It can be thrown at a range of 20 feet, and it dissipates after 1d6 rounds in a well-ventilated area. A moderate wind disperses the gas in 1 round. Creatures with the vermin type take a -5 penalty on the save"
 		]
@@ -732,7 +732,7 @@
 		"description": [
 			"## Striped Toadstool",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 180 gp; **Weight** &mdash;",
 			"",
@@ -745,13 +745,13 @@
 		"description": [
 			"## Black whinnis",
 			"",
-			"{SOURCE Pathfinder #105: The Inferno Gate/18}",
+			"‹SOURCE Pathfinder #105: The Inferno Gate/18›",
 			"",
 			"**Price** 200 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=14 freqR=2 ineffCon=1 seceffExtra=\"%%misc/nausea%% for 1d4 rounds\" cure1}",
+			"::aff{iconP start type=injury saveF=14 freqR=2 ineffCon=1 seceffExtra=\"‹misc/nausea› for 1d4 rounds\" cure1}",
 			"",
-			"Black whinnis is a poison made from the same red creeper vine that produces the better-known {eq-poison/blue whinnis} poison, but the distilled sap from the blue whinnis thorns is further refined using a slightly more volatile process."
+			"Black whinnis is a poison made from the same red creeper vine that produces the better-known ‹eq-poison/blue whinnis› poison, but the distilled sap from the blue whinnis thorns is further refined using a slightly more volatile process."
 		]
 	},
 	"chelish_deathapple": {
@@ -760,13 +760,13 @@
 		"description": [
 			"## Chelish deathapple",
 			"",
-			"{SOURCE Inner Sea Intrigue/51}",
+			"‹SOURCE Inner Sea Intrigue/51›",
 			"",
 			"**Price** 200 gp; **Weight** 1/2 lb.",
 			"",
 			"::aff{iconP start type=ingested saveF=23 onset=\"1 minute\" freqM=2 ineff=\"enter a deathlike trance for 1 minute; see below\" seceff=\"remain in this deathlike trance for 8 hours\" cure1}",
 			"",
-			"This poison is culled from specially bred {eq-poison/thornapple/s}, and is often administered on the skin of an apple itself. It is typically employed to fake the deaths of dissidents so their disappearances don't attract attention. Creatures in the deathlike trance this poison causes are {misc/unconscious} and can't be woken by mundane means; a successful DC 25 Heal check is required to realize the victim is alive. The victim can be shaken from this trance with any magical healing (including {spell/lesser restoration}, as appropriate)."
+			"This poison is culled from specially bred ‹eq-poison/thornapple«s›, and is often administered on the skin of an apple itself. It is typically employed to fake the deaths of dissidents so their disappearances don't attract attention. Creatures in the deathlike trance this poison causes are ‹misc/unconscious› and can't be woken by mundane means; a successful DC 25 Heal check is required to realize the victim is alive. The victim can be shaken from this trance with any magical healing (including ‹spell/lesser restoration›, as appropriate)."
 		]
 	},
 	"hazemind_concentrate": {
@@ -775,7 +775,7 @@
 		"description": [
 			"## Hazemind concentrate",
 			"",
-			"{SOURCE Familiar Folio/20}",
+			"‹SOURCE Familiar Folio/20›",
 			"",
 			"**Price** 200 gp; **Weight** &mdash;",
 			"",
@@ -791,11 +791,11 @@
 		"description": [
 			"## Large Scorpion Venom",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 200 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=17 freqR=6 effStr=\"1d2\" effExtra=\"target can attempt one save to cure a %%corruption/lycanthropy%% affliction contracted in the past hour\" cure1}"
+			"::aff{iconP start type=injury saveF=17 freqR=6 effStr=\"1d2\" effExtra=\"target can attempt one save to cure a ‹corruption/lycanthropy› affliction contracted in the past hour\" cure1}"
 		]
 	},
 	"scorpion_venom": { "redirect": "large_scorpion_venom" },
@@ -805,11 +805,11 @@
 		"description": [
 			"## Spellscorch",
 			"",
-			"{SOURCE Advanced Race Guide/187}",
+			"‹SOURCE Advanced Race Guide/187›",
 			"",
 			"**Price** 200 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=14 freqR=4 eff=\"Refined from rare underground crystals, this poison causes a burning headache that impedes spellcasting. If the target fails its Fortitude save, for the next minute the target must make a %%rule/concentration%% check with a DC equal to 10 + spell level to cast a spell, and all other concentration checks to cast spells take a -5 penalty.\" cure1}"
+			"::aff{iconP start type=injury saveF=14 freqR=4 eff=\"Refined from rare underground crystals, this poison causes a burning headache that impedes spellcasting. If the target fails its Fortitude save, for the next minute the target must make a ‹rule/concentration› check with a DC equal to 10 + spell level to cast a spell, and all other concentration checks to cast spells take a -5 penalty.\" cure1}"
 		]
 	},
 	"giant_wasp_poison": {
@@ -821,7 +821,7 @@
 		"description": [
 			"## Giant Wasp Poison",
 			"",
-			"{SOURCE PRPG Core Rulebook/559;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/559;Ultimate Equipment/111›",
 			"",
 			"**Price** 210 gp; **Weight** &mdash;",
 			"",
@@ -834,7 +834,7 @@
 		"description": [
 			"## Hazemind mist",
 			"",
-			"{SOURCE Familiar Folio/20}",
+			"‹SOURCE Familiar Folio/20›",
 			"",
 			"**Price** 225 gp; **Weight** &mdash;",
 			"",
@@ -847,13 +847,13 @@
 		"description": [
 			"## Diplopic serum",
 			"",
-			"{SOURCE Potions and Poisons/24}",
+			"‹SOURCE Potions and Poisons/24›",
 			"",
 			"**Price** 250 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=15 freqR=6 eff=\"1d2 %%rule/Wis damage%%. Additionally, the creature has double vision, imposing a 50% miss chance on its attacks against all opponents. Blind creatures are unaffected by this additional effect\" cure1}",
+			"::aff{iconP start type=injury saveF=15 freqR=6 eff=\"1d2 ‹rule/Wis damage›. Additionally, the creature has double vision, imposing a 50% miss chance on its attacks against all opponents. Blind creatures are unaffected by this additional effect\" cure1}",
 			"",
-			"{arc-oracle/Pei Zin>_practitioner} herbalists accidentally created diplopic serum while attempting to devise a treatment for cataracts. Derived from dew of lunary, this aromatic pink serum temporarily affects a creature's vision systems, in addition to temporarily impairing its mental faculties."
+			"‹arc-oracle/Pei Zin<_practitioner› herbalists accidentally created diplopic serum while attempting to devise a treatment for cataracts. Derived from dew of lunary, this aromatic pink serum temporarily affects a creature's vision systems, in addition to temporarily impairing its mental faculties."
 		]
 	},
 	"malyass_root_paste": {
@@ -865,7 +865,7 @@
 		"description": [
 			"## Malyass Root Paste",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 250 gp; **Weight** &mdash;",
 			"",
@@ -878,11 +878,11 @@
 		"description": [
 			"## Nymph's lure",
 			"",
-			"{SOURCE Ultimate Wilderness/144}",
+			"‹SOURCE Ultimate Wilderness/144›",
 			"",
 			"**Price** 250 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=15 onset=\"1d4 hours\" freqH=8 eff=\"1d2 Str and %%rule/Wis damage%%. Additionally, as long as a creature is afflicted with nymph's lure, its sweat exudes powerful pheromones that might attract wild creatures. The DCs of Perception and Survival checks to locate or track the creature using scent are reduced by 10. Additionally, when rolling to determine whether the afflicted creature has a random encounter, roll twice and if either roll would result in a random encounter, one occurs.\" cure1}",
+			"::aff{iconP start type=ingested saveF=15 onset=\"1d4 hours\" freqH=8 eff=\"1d2 Str and ‹rule/Wis damage›. Additionally, as long as a creature is afflicted with nymph's lure, its sweat exudes powerful pheromones that might attract wild creatures. The DCs of Perception and Survival checks to locate or track the creature using scent are reduced by 10. Additionally, when rolling to determine whether the afflicted creature has a random encounter, roll twice and if either roll would result in a random encounter, one occurs.\" cure1}",
 			"",
 			"Created from the concentrated pulp of the sweet-tasting pulapaya fruit (a large, bright-red, ovular delicacy with a hard rind and watery interior), nymph's lure is used for a variety of hunting purposes in remote tropical regions. It is used in a rite of passage in certain hunter-gatherer societies, where young men and women are given a dose of the poison and sent into the wild to hunt game and prove their worth, but it is also used as a punishment in some places, with the condemned being given several doses of the poison and then forced into the wild without any weapons or equipment."
 		]
@@ -896,7 +896,7 @@
 		"description": [
 			"## Shadow Essence",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 250 gp; **Weight** &mdash;",
 			"",
@@ -909,13 +909,13 @@
 		"description": [
 			"## Blackfinger's salt",
 			"",
-			"{SOURCE Potions and Poisons/24}",
+			"‹SOURCE Potions and Poisons/24›",
 			"",
 			"**Price** 300 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=17 onset=\"10 minutes\" freqM=6 effCon=\"1d2\" effExtra=\"1d3 %%rule/bleed%%\" cure2}",
+			"::aff{iconP start type=ingested saveF=17 onset=\"10 minutes\" freqM=6 effCon=\"1d2\" effExtra=\"1d3 ‹rule/bleed›\" cure2}",
 			"",
-			"Blackfingers's salt can easily be hidden in all foods and beverages, as it lacks color, odor, and, despite the name, flavor. Soon after consuming this dastardly poison, a creature develops painful, bleeding ulcers throughout its stomach and esophagus. Followers of {faith/Norgorber} originally developed the salt to mimic targets suffering a medical emergency and thus avoid suspicion of poisoning."
+			"Blackfingers's salt can easily be hidden in all foods and beverages, as it lacks color, odor, and, despite the name, flavor. Soon after consuming this dastardly poison, a creature develops painful, bleeding ulcers throughout its stomach and esophagus. Followers of ‹faith/Norgorber› originally developed the salt to mimic targets suffering a medical emergency and thus avoid suspicion of poisoning."
 		]
 	},
 	"sassone_leaf_residue": {
@@ -927,7 +927,7 @@
 		"description": [
 			"## Sassone Leaf Residue",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 300 gp; **Weight** &mdash;",
 			"",
@@ -940,11 +940,11 @@
 		"description": [
 			"## Sloth's bite",
 			"",
-			"{SOURCE Antihero's Handbook/29}",
+			"‹SOURCE Antihero's Handbook/29›",
 			"",
 			"**Price** 300 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=18 freqR=6 effDex=\"1d2\" effExtra=\"is %%rule/flat-footed%% until the beginning of her next turn\" extra=\"This poison causes the affected creature to be sluggish and slow to react.\" cure1}"
+			"::aff{iconP start type=injury saveF=18 freqR=6 effDex=\"1d2\" effExtra=\"is ‹rule/flat-footed› until the beginning of her next turn\" extra=\"This poison causes the affected creature to be sluggish and slow to react.\" cure1}"
 		]
 	},
 	"starving_nettle": {
@@ -953,11 +953,11 @@
 		"description": [
 			"## Starving nettle",
 			"",
-			"{SOURCE Ultimate Wilderness/145}",
+			"‹SOURCE Ultimate Wilderness/145›",
 			"",
 			"**Price** 300 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=15 freqD=8 eff=\"1d3 Dex and %%rule/Con damage%%. In addition, each time the creature fails a save against the poison, for the following 24 hours it is overwhelmed with %%misc/nausea%% whenever food is presented to it and is unable to bring itself to eat, no matter how hungry it becomes.\" cure2c}",
+			"::aff{iconP start type=injury saveF=15 freqD=8 eff=\"1d3 Dex and ‹rule/Con damage›. In addition, each time the creature fails a save against the poison, for the following 24 hours it is overwhelmed with ‹misc/nausea› whenever food is presented to it and is unable to bring itself to eat, no matter how hungry it becomes.\" cure2c}",
 			"",
 			"This peculiar nettle plant bears a singularly effective poison that protects it from being eaten: creatures pricked by the nettle's thorns and affected by the poison are overcome with nausea at the mere idea of food, protecting the plant from being consumed. Farmers remain vigilant for signs of this fast-growing and hardy plant; it is difficult and dangerous to remove, so culling it is best done early, while the plant is still relatively small."
 		]
@@ -968,13 +968,13 @@
 		"description": [
 			"## Count Ambras's punishment",
 			"",
-			"{SOURCE Alchemy Manual/9}",
+			"‹SOURCE Alchemy Manual/9›",
 			"",
 			"**Price** 350 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=contact saveF=16 onset=\"1 minute\" freqM=6 ineffDex=1 ineffExtra=\"%%misc/nauseated%% for 1 minute\" seceffDexD=\"1d2\" seceffExtra=\"%%misc/sickened%% for 1 minute\" cure1}",
+			"::aff{iconP start type=contact saveF=16 onset=\"1 minute\" freqM=6 ineffDex=1 ineffExtra=\"‹misc/nauseated› for 1 minute\" seceffDexD=\"1d2\" seceffExtra=\"‹misc/sickened› for 1 minute\" cure1}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (70 dew of lunary + 35 realgar + 70 urea)/digestion; **Craft** DC 16  ",
+			"**‹rule/Spontaneous Alchemy› Recipe** (70 dew of lunary + 35 realgar + 70 urea)/digestion; **Craft** DC 16  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},
@@ -984,13 +984,13 @@
 		"description": [
 			"## Ossivane",
 			"",
-			"{SOURCE Potions and Poisons/25}",
+			"‹SOURCE Potions and Poisons/25›",
 			"",
 			"**Price** 350 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=injury saveF=18 freq=\"1/round for 6 rounds (see text)\" effDex=\"1d3\" cure2}",
 			"",
-			"Ossivane mimics the petrification capability of {monster/cockatrice/s}, but the toxin relies on the victim's heart pumping hard to spread the poison throughout the body as it stiffens limbs and locks joints. After the initial save, the victim attempts an additional Fortitude save against the poison only during rounds in which she takes a move, standard, or full-round action."
+			"Ossivane mimics the petrification capability of ‹monster/cockatrice«s›, but the toxin relies on the victim's heart pumping hard to spread the poison throughout the body as it stiffens limbs and locks joints. After the initial save, the victim attempts an additional Fortitude save against the poison only during rounds in which she takes a move, standard, or full-round action."
 		]
 	},
 	"slavers_will": {
@@ -999,11 +999,11 @@
 		"description": [
 			"## Slaver's will",
 			"",
-			"{SOURCE Heroes of the Darklands/31}",
+			"‹SOURCE Heroes of the Darklands/31›",
 			"",
 			"**Price** 350 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=14 onset=\"10 minutes\" freqH=8 eff=\"1 %%rule/Wis damage%%, target must roll twice and take the lower result for all saving throws against mind-affecting effects until the Wis damage is healed\" cure1}",
+			"::aff{iconP start type=ingested saveF=14 onset=\"10 minutes\" freqH=8 eff=\"1 ‹rule/Wis damage›, target must roll twice and take the lower result for all saving throws against mind-affecting effects until the Wis damage is healed\" cure1}",
 			"",
 			"This saccharine extract is made by drow and duergar taskmasters to help keep recalcitrant slaves in line. The poison clouds the minds of those who consume it, impairing victims' critical thinking and making them more suggestible."
 		]
@@ -1014,13 +1014,13 @@
 		"description": [
 			"## Blackfinder's silence",
 			"",
-			"{SOURCE Inner Sea Intrigue/51}",
+			"‹SOURCE Inner Sea Intrigue/51›",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=injury saveF=14 freqR=4 eff=\"unable to speak (even to cast spells) for 1 round\" cure1}",
 			"",
-			"This poison is typically used by cultists of {faith/Norgorber} to silence those who might tell secrets they want kept."
+			"This poison is typically used by cultists of ‹faith/Norgorber› to silence those who might tell secrets they want kept."
 		]
 	},
 	"bloodbrain_venom": {
@@ -1029,13 +1029,13 @@
 		"description": [
 			"## Bloodbrain Venom",
 			"",
-			"{SOURCE Pathfinder #118: Siege of Stone/16}",
+			"‹SOURCE Pathfinder #118: Siege of Stone/16›",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=injury saveF=17 freqR=6 ineffStr=\"1d6\" ineffExtra=\"scented for 10 minutes\" seceffStr=\"1d3\" cure1}",
 			"",
-			"The {monster/morlock/ creepers} brew a potent and fragrant poison harvested from the bright red sap of brain-shaped mushrooms that flourish in the lower caverns. Creatures struck by the poisoned darts are marked with a pungent fungal aroma for 10 minutes, even if they succeed at their Fortitude save. The scent is particularly potent to morlocks, allowing them to detect creatures tainted by it with their scent ability at a range of 100 feet even in the still air of the caves. The smell can be scrubbed off as a full round action with an alkalai substance, such as milk or soap.",
+			"The ‹monster/morlock« creepers› brew a potent and fragrant poison harvested from the bright red sap of brain-shaped mushrooms that flourish in the lower caverns. Creatures struck by the poisoned darts are marked with a pungent fungal aroma for 10 minutes, even if they succeed at their Fortitude save. The scent is particularly potent to morlocks, allowing them to detect creatures tainted by it with their scent ability at a range of 100 feet even in the still air of the caves. The smell can be scrubbed off as a full round action with an alkalai substance, such as milk or soap.",
 			"",
 			"One dose of bloodbrain venom costs 400 gp."
 		]
@@ -1046,13 +1046,13 @@
 		"description": [
 			"## Brinestump special",
 			"",
-			"{SOURCE Heroes of the Wild/20}",
+			"‹SOURCE Heroes of the Wild/20›",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=15 onset=\"1 round\" freq=\"No frequency was provided in the source\" eff=\"%%misc/nauseated%% for 5 rounds\" cure1}",
+			"::aff{iconP start type=ingested saveF=15 onset=\"1 round\" freq=\"No frequency was provided in the source\" eff=\"‹misc/nauseated› for 5 rounds\" cure1}",
 			"",
-			"Invented as part of a series of dares between feuding {monster/goblin} camps, this noxious brew fermented from a slurry of swamp flora is a favored concoction of the Licktoad tribe. The potent intoxicant is popular among goblinoids (who are immune to its nauseating effect), but all other races that partake of this frothy drink are wracked with nausea."
+			"Invented as part of a series of dares between feuding ‹monster/goblin› camps, this noxious brew fermented from a slurry of swamp flora is a favored concoction of the Licktoad tribe. The potent intoxicant is popular among goblinoids (who are immune to its nauseating effect), but all other races that partake of this frothy drink are wracked with nausea."
 		]
 	},
 	"cloudthorn_venom": {
@@ -1061,11 +1061,11 @@
 		"description": [
 			"## Cloudthorn venom",
 			"",
-			"{SOURCE Ultimate Wilderness/144}",
+			"‹SOURCE Ultimate Wilderness/144›",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=14 onset=\"1d4 rounds\" freqH=3 eff=\"1d3 Str and %%rule/Dex damage%%. In addition, the creature is unable to feel pain for 1 hour, rendering it immune to pain effects. A creature attacking the poisoned creature can attempt a Sleight of Hand check opposed by the poisoned creature's Perception check in order to attempt to deliver the attack without the target being aware of it, as the creature feels no pain from the attack. If a PC is rendered numb in this way, the GM should secretly track all damage dealt to the character until the numbing effect ends.\" cure1}",
+			"::aff{iconP start type=injury saveF=14 onset=\"1d4 rounds\" freqH=3 eff=\"1d3 Str and ‹rule/Dex damage›. In addition, the creature is unable to feel pain for 1 hour, rendering it immune to pain effects. A creature attacking the poisoned creature can attempt a Sleight of Hand check opposed by the poisoned creature's Perception check in order to attempt to deliver the attack without the target being aware of it, as the creature feels no pain from the attack. If a PC is rendered numb in this way, the GM should secretly track all damage dealt to the character until the numbing effect ends.\" cure1}",
 			"",
 			"This potent neurotoxin is created by the cloudthorn plant, a wild bramble whose thorns deliver a poison that numbs its victims to pain, allowing the plant to feast on the blood that flows from the wounds to the ground below. The plant's name comes from the weightless, airy feeling that victims of the poison experience, which some liken to the notion of walking on clouds."
 		]
@@ -1076,13 +1076,13 @@
 		"description": [
 			"## Gray justice",
 			"",
-			"{SOURCE Agents of Evil/22}",
+			"‹SOURCE Agents of Evil/22›",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=18 freqM=10 eff=\"1d2 %%rule/Wis damage%%, see text\" cure2}",
+			"::aff{iconP start type=injury saveF=18 freqM=10 eff=\"1d2 ‹rule/Wis damage›, see text\" cure2}",
 			"",
-			"Crafted by alchemists in Galt, gray justice has found use among the {pclass/Gray Gardener/s} as an apparent truth serum. Gray justice makes victims more susceptible to interrogation and causes side effects such as lethargy, {misc/confusion}, and {misc/nausea}; some Gardeners administer it to prisoners before their execution to make them publicly admit their crimes. The grim truth of the poison is damning, however. Gray justice is no truth serum, but instead compels its victims to say whatever they think will please those around them. Each round a victim takes Wisdom damage from the poison, he answers any questions in the affirmative, agreeing to the best of his ability and even lying to confirm whatever he assumes the questioner wants to hear. If questioned by multiple people, the victim might contradict himself. If asked questions without an affirmative response or leading answer, the victim does not need to respond."
+			"Crafted by alchemists in Galt, gray justice has found use among the ‹pclass/Gray Gardener«s› as an apparent truth serum. Gray justice makes victims more susceptible to interrogation and causes side effects such as lethargy, ‹misc/confusion›, and ‹misc/nausea›; some Gardeners administer it to prisoners before their execution to make them publicly admit their crimes. The grim truth of the poison is damning, however. Gray justice is no truth serum, but instead compels its victims to say whatever they think will please those around them. Each round a victim takes Wisdom damage from the poison, he answers any questions in the affirmative, agreeing to the best of his ability and even lying to confirm whatever he assumes the questioner wants to hear. If questioned by multiple people, the victim might contradict himself. If asked questions without an affirmative response or leading answer, the victim does not need to respond."
 		]
 	},
 	"lich_dust": {
@@ -1094,7 +1094,7 @@
 		"description": [
 			"## Lich Dust",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;",
 			"",
@@ -1107,7 +1107,7 @@
 		"description": [
 			"## Peasant's woe",
 			"",
-			"{SOURCE Champions of Corruption/27}",
+			"‹SOURCE Champions of Corruption/27›",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;",
 			"",
@@ -1120,11 +1120,11 @@
 		"description": [
 			"## Rainbow jellyfish toxin",
 			"",
-			"{SOURCE Rival Guide/53}",
+			"‹SOURCE Rival Guide/53›",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=\"contact, injury\" saveF=14 freqR=2 ineff=\"%%misc/staggered%% for 1d6 rounds\" seceff=\"%%rule/paralyzed%% for 1d6 minutes\" cure1}"
+			"::aff{iconP start type=\"contact, injury\" saveF=14 freqR=2 ineff=\"‹misc/staggered› for 1d6 rounds\" seceff=\"‹rule/paralyzed› for 1d6 minutes\" cure1}"
 		]
 	},
 	"swampseer_poison": {
@@ -1136,11 +1136,11 @@
 		"description": [
 			"## Swampseer poison",
 			"",
-			"{SOURCE Ultimate Equipment/111;Pathfinder #34: Blood for Blood/63}",
+			"‹SOURCE Ultimate Equipment/111;Pathfinder #34: Blood for Blood/63›",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=18 onset=\"10 minutes\" freqM=3 ineffWis=\"1d4\" seceffWis=\"1d2\" seceffExtra=\"%%misc/confusion%% 1 minute\" cure2}"
+			"::aff{iconP start type=ingested saveF=18 onset=\"10 minutes\" freqM=3 ineffWis=\"1d4\" seceffWis=\"1d2\" seceffExtra=\"‹misc/confusion› 1 minute\" cure2}"
 		]
 	},
 	"terinav_root": {
@@ -1152,7 +1152,7 @@
 		"description": [
 			"## Terinav Root",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;",
 			"",
@@ -1165,7 +1165,7 @@
 		"description": [
 			"## Blue star",
 			"",
-			"{SOURCE Ultimate Wilderness/143}",
+			"‹SOURCE Ultimate Wilderness/143›",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;",
 			"",
@@ -1180,13 +1180,13 @@
 		"description": [
 			"## Calistria's revenge",
 			"",
-			"{SOURCE Inner Sea Intrigue/51}",
+			"‹SOURCE Inner Sea Intrigue/51›",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=ingested saveF=16 onset=\"consuming one or more alchoholic drink\" freqM=6 effDex=\"1d2\" cure2}",
 			"",
-			"This poison is traditionally brewed as part of {faith/Calistria/n} revenge plots against traitorous lovers."
+			"This poison is traditionally brewed as part of ‹faith/Calistria«n› revenge plots against traitorous lovers."
 		]
 	},
 	"fiddleback_venom": {
@@ -1195,11 +1195,11 @@
 		"description": [
 			"## Fiddleback venom",
 			"",
-			"{SOURCE Rival Guide/53}",
+			"‹SOURCE Rival Guide/53›",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=\"injury, ingested\" saveF=13 onset=\"1 minute\" freqM=6 ineffExtra=\"%%misc/nauseated%% 1d4 rounds\" seceffStr=\"1d3\" seceffCon=\"1d4\" cure2}"
+			"::aff{iconP start type=\"injury, ingested\" saveF=13 onset=\"1 minute\" freqM=6 ineffExtra=\"‹misc/nauseated› 1d4 rounds\" seceffStr=\"1d3\" seceffCon=\"1d4\" cure2}"
 		]
 	},
 	"halo_mushroom_toxin": {
@@ -1208,13 +1208,13 @@
 		"description": [
 			"## Halo mushroom toxin",
 			"",
-			"{SOURCE Adventurer's Armory 2/18}",
+			"‹SOURCE Adventurer's Armory 2/18›",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=ingested saveF=18 onset=\"10 minutes\" freqM=6 ineffExtra=\"distraction (see text)\" seceffWis=\"1d4\" cure2c}",
 			"",
-			"Extracted from mushrooms that grow commonly in caves and forests, this toxin is occasionally used as a recreational drug despite its dangerous side effects. A creature that fails its initial saving throws sees displaced auras of color and light around other creatures and objects. The creature treats all targets as if they had {rule/concealment}, suffering a 20% miss chance on all attack rolls until the creature is cured or the poison has run its course."
+			"Extracted from mushrooms that grow commonly in caves and forests, this toxin is occasionally used as a recreational drug despite its dangerous side effects. A creature that fails its initial saving throws sees displaced auras of color and light around other creatures and objects. The creature treats all targets as if they had ‹rule/concealment›, suffering a 20% miss chance on all attack rolls until the creature is cured or the poison has run its course."
 		]
 	},
 	"laughing_gas": {
@@ -1223,11 +1223,11 @@
 		"description": [
 			"## Laughing gas",
 			"",
-			"{SOURCE Dirty Tactics Toolbox/9}",
+			"‹SOURCE Dirty Tactics Toolbox/9›",
 			"",
 			"**Price** 500 gp; **Weight** 1/2 lb.",
 			"",
-			"::aff{iconP start type=inhaled saveF=12 onset=immediate freqR=5 eff=\"The subject experiences a bout of uncontrollable laughter and is %%misc/dazed%% for 1 round\" cure1}"
+			"::aff{iconP start type=inhaled saveF=12 onset=immediate freqR=5 eff=\"The subject experiences a bout of uncontrollable laughter and is ‹misc/dazed› for 1 round\" cure1}"
 		]
 	},
 	"wolfsbane": {
@@ -1239,7 +1239,7 @@
 		"description": [
 			"## Wolfsbane",
 			"",
-			"{SOURCE Ultimate Equipment/111;PRPG Core Rulebook/560}",
+			"‹SOURCE Ultimate Equipment/111;PRPG Core Rulebook/560›",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;",
 			"",
@@ -1252,11 +1252,11 @@
 		"description": [
 			"## Crone's curse",
 			"",
-			"{SOURCE Ultimate Wilderness/144}",
+			"‹SOURCE Ultimate Wilderness/144›",
 			"",
 			"**Price** 600 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=16 onset=\"1d4 hours\" freqD=6 eff=\"1 Dex and %%rule/Wis damage%%. As long as a creature has any ability damage from crone's curse, the creature takes a -4 penalty on saving throws to resist the effects of extreme temperatures. Additionally, the creature gains vulnerability to cold and fire damage during this time, taking half again as much (+50%) damage from these forms of damage.\" cure2c}",
+			"::aff{iconP start type=inhaled saveF=16 onset=\"1d4 hours\" freqD=6 eff=\"1 Dex and ‹rule/Wis damage›. As long as a creature has any ability damage from crone's curse, the creature takes a -4 penalty on saving throws to resist the effects of extreme temperatures. Additionally, the creature gains vulnerability to cold and fire damage during this time, taking half again as much (+50%) damage from these forms of damage.\" cure2c}",
 			"",
 			"A blackish pollen produced by the night witch (a pale, vine-growing flower that blooms in the light of the moon and is hearty enough to survive very rugged and difficult environments), crone's curse disorients those who inhale it and interferes with the body's ability to regulate temperature. Merely walking through a field of night witch flowers is often sufficient enough to kick up a cloud of the nearly invisible black particles, which are a mere nuisance in temperate climates but can prove fatal to those exposed to them in deserts and tundra."
 		]
@@ -1270,13 +1270,13 @@
 		"description": [
 			"## Jackalroot essence",
 			"",
-			"{SOURCE Ultimate Wilderness/144;Heroes of the Wild/20}",
+			"‹SOURCE Ultimate Wilderness/144;Heroes of the Wild/20›",
 			"",
 			"**Price** 600 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=18 freqR=6 eff=\"uncontrollble laughter (as per %%spell/hideous laughter%%)\" cure2c}",
+			"::aff{iconP start type=injury saveF=18 freqR=6 eff=\"uncontrollble laughter (as per ‹spell/hideous laughter›)\" cure2c}",
 			"",
-			"The short and thorny jackalroot grows in desert climates, typically under the partial shade of ridges or boulders. It is identifiable by its pale green berries, which it bears twice per year. To followers of {faith/Lamashtu}, the gnarled, prickle-covered jackalroot is a blessing. The roots of this hearty desert shrub contain a potent, incapacitating ichor often used by gnolls in religious ceremonies and when capturing slaves."
+			"The short and thorny jackalroot grows in desert climates, typically under the partial shade of ridges or boulders. It is identifiable by its pale green berries, which it bears twice per year. To followers of ‹faith/Lamashtu›, the gnarled, prickle-covered jackalroot is a blessing. The roots of this hearty desert shrub contain a potent, incapacitating ichor often used by gnolls in religious ceremonies and when capturing slaves."
 		]
 	},
 	"smell_of_fear": {
@@ -1285,13 +1285,13 @@
 		"description": [
 			"## Smell of fear",
 			"",
-			"{SOURCE Alchemy Manual/7}",
+			"‹SOURCE Alchemy Manual/7›",
 			"",
 			"**Price** 600 gp; **Weight** 1/2 lb.",
 			"",
-			"::aff{iconP start type=inhaled saveF=17 freqM=6 effWis=\"1d2\" effExtra=\"if the victim would become %%misc/shaken%% during the next 1 minute, she becomes %%misc/frightened%% instead\" cure2}",
+			"::aff{iconP start type=inhaled saveF=17 freqM=6 effWis=\"1d2\" effExtra=\"if the victim would become ‹misc/shaken› during the next 1 minute, she becomes ‹misc/frightened› instead\" cure2}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (170 quicksilver + 170 realgar)/fermentation; **Craft** DC 17  ",
+			"**‹rule/Spontaneous Alchemy› Recipe** (170 quicksilver + 170 realgar)/fermentation; **Craft** DC 17  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},
@@ -1301,11 +1301,11 @@
 		"description": [
 			"## Tears of perfection",
 			"",
-			"{SOURCE Faction Guide/55}",
+			"‹SOURCE Faction Guide/55›",
 			"",
 			"**Price** 600 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=18 onset=\"1 round\" freqR=4 ineffWis=\"1d2\" ineffExtra=\"%%misc/blindness%% for 1 round\" seceffExtra=\"blindness for 24 hours\" cure1}"
+			"::aff{iconP start type=injury saveF=18 onset=\"1 round\" freqR=4 ineffWis=\"1d2\" ineffExtra=\"‹misc/blindness› for 1 round\" seceffExtra=\"blindness for 24 hours\" cure1}"
 		]
 	},
 	"tongue_twist": {
@@ -1314,11 +1314,11 @@
 		"description": [
 			"## Tongue twist",
 			"",
-			"{SOURCE Potions and Poisons/25}",
+			"‹SOURCE Potions and Poisons/25›",
 			"",
 			"**Price** 600 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=16 freqR=6 eff=\"1d2 %%rule/Int damage%%. Additionally, the creature loses the ability to speak one language at random from the languages he knows for 1 minute. Additional failed saves cause the target to lose the ability to speak additional languages if the target has the ability to speak more than one language. Any creature that can no longer speak a language speaks only gibberish, which prevents casting spells with verbal components\" cure2}",
+			"::aff{iconP start type=injury saveF=16 freqR=6 eff=\"1d2 ‹rule/Int damage›. Additionally, the creature loses the ability to speak one language at random from the languages he knows for 1 minute. Additional failed saves cause the target to lose the ability to speak additional languages if the target has the ability to speak more than one language. Any creature that can no longer speak a language speaks only gibberish, which prevents casting spells with verbal components\" cure2}",
 			"",
 			"This viscous violet gel dulls the mind, impeding the ability to recall words. Thieves and assassins keep tongue twist on hand for dealing with troublesome spellcasters."
 		]
@@ -1332,7 +1332,7 @@
 		"description": [
 			"## Nitharit",
 			"",
-			"{SOURCE Ultimate Equipment/111;PRPG Core Rulebook/560}",
+			"‹SOURCE Ultimate Equipment/111;PRPG Core Rulebook/560›",
 			"",
 			"**Price** 650 gp; **Weight** &mdash;",
 			"",
@@ -1345,11 +1345,11 @@
 		"description": [
 			"## Witch-hunter's sword",
 			"",
-			"{SOURCE Ultimate Wilderness/145}",
+			"‹SOURCE Ultimate Wilderness/145›",
 			"",
 			"**Price** 650 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=19 onset=\"10 minutes\" freqH=8 eff=\"1 %%rule/Int, Wis, and |Cha damage%%. As long as this poison persists, the victim takes a -5 penalty on %%rule/concentration%% checks. In addition, a creature suffering from witch-hunter's sword poison must succeed at a concentration check (DC = 20 + double the spell's level) to cast spells or use spell-like abilities.\" cure2c}",
+			"::aff{iconP start type=ingested saveF=19 onset=\"10 minutes\" freqH=8 eff=\"1 ‹rule/Int, Wis, and »Cha damage›. As long as this poison persists, the victim takes a -5 penalty on ‹rule/concentration› checks. In addition, a creature suffering from witch-hunter's sword poison must succeed at a concentration check (DC = 20 + double the spell's level) to cast spells or use spell-like abilities.\" cure2c}",
 			"",
 			"This red fern has jagged, forward-pointing leaves and grows in small, close-packed groups. It is named for its popularity among witch hunters and inquisitors, and its leaves can be brewed into a tea that clouds the subject's mind, interfering with the ability to cast spells while still leaving the subject lucid enough to be interrogated. The tea has a unique taste, which can be detected with a successful DC 20 Perception check. Attempts to disguise the taste require a Profession (cook) check (or a Wisdom check, for untrained characters) opposed by the drinker's Perception check. At the GM's discretion, bonuses can be applied based on the ingredients used to mask the taste."
 		]
@@ -1363,7 +1363,7 @@
 		"description": [
 			"## Purple Worm Poison",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 700 gp; **Weight** &mdash;",
 			"",
@@ -1376,13 +1376,13 @@
 		"description": [
 			"## Juvebloom",
 			"",
-			"{SOURCE Potions and Poisons/25}",
+			"‹SOURCE Potions and Poisons/25›",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=16 onset=\"1 day\" freqD=7 eff=\"1 %%rule/Wis damage%%. The creature looks younger by as much as half his age for a duration of 1 day. The younger appearance is purely cosmetic and has no mechanical effect\" cure1}",
+			"::aff{iconP start type=ingested saveF=16 onset=\"1 day\" freqD=7 eff=\"1 ‹rule/Wis damage›. The creature looks younger by as much as half his age for a duration of 1 day. The younger appearance is purely cosmetic and has no mechanical effect\" cure1}",
 			"",
-			"Swindlers claim this green capsule restores the victim's youth. After 1 day, anyone taking juvebloom sees the seemingly time-bending results in the mirror. However, the benefit is not only temporary but also potentially quite damaging. Particularly daring confidence artists mix this capsule into a solution, attempting to sell it as the much more valuable {magic-artifact/sun orchid elixir}."
+			"Swindlers claim this green capsule restores the victim's youth. After 1 day, anyone taking juvebloom sees the seemingly time-bending results in the mirror. However, the benefit is not only temporary but also potentially quite damaging. Particularly daring confidence artists mix this capsule into a solution, attempting to sell it as the much more valuable ‹magic-artifact/sun orchid elixir›."
 		]
 	},
 	"liquid_leprosy": {
@@ -1391,7 +1391,7 @@
 		"description": [
 			"## Liquid leprosy",
 			"",
-			"{SOURCE Antihero's Handbook/29}",
+			"‹SOURCE Antihero's Handbook/29›",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;",
 			"",
@@ -1399,7 +1399,7 @@
 			"",
 			"| d% | Effect |",
 			"| --- | --- |",
-			"| 01-30 | Hands, 2 {rule/Dex damage} |",
+			"| 01-30 | Hands, 2 ‹rule/Dex damage› |",
 			"| 31-60 | Arms, 2 Str damage |",
 			"| 61-95 | Torso, 2 Con damage |",
 			"| 96-100 | Brain, 2 Int and 2 Wis damage |"
@@ -1411,13 +1411,13 @@
 		"description": [
 			"## Muddling heresy",
 			"",
-			"{SOURCE Pathfinder #107: Scourge of the Godclaw/73}",
+			"‹SOURCE Pathfinder #107: Scourge of the Godclaw/73›",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=injury saveF=20 freqR=6 effWis=\"1d4+1\" cure2}",
 			"",
-			"The poison muddling heresy is often used by worshipers of {faith/Geryon} to make others more susceptible to being convinced of blasphemies and revelations of heretical truths. While the poison can be used on its own, when used as part of a deific boon, the save DC, duration, or other effects may differ from normal."
+			"The poison muddling heresy is often used by worshipers of ‹faith/Geryon› to make others more susceptible to being convinced of blasphemies and revelations of heretical truths. While the poison can be used on its own, when used as part of a deific boon, the save DC, duration, or other effects may differ from normal."
 		]
 	},
 	"twilight_illness": {
@@ -1426,13 +1426,13 @@
 		"description": [
 			"## Twilight illness",
 			"",
-			"{SOURCE Inner Sea Intrigue/51}",
+			"‹SOURCE Inner Sea Intrigue/51›",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=contact saveF=19 onset=\"eating food\" freqH=8 eff=\"%%misc/nauseated%% for 1 hour and then %%misc/sickened%% for 1 day\" cure1}",
+			"::aff{iconP start type=contact saveF=19 onset=\"eating food\" freqH=8 eff=\"‹misc/nauseated› for 1 hour and then ‹misc/sickened› for 1 day\" cure1}",
 			"",
-			"This poison is used by {pclass/Twilight Talon/s} to render targets too ill to work for a day - long enough to impersonate them."
+			"This poison is used by ‹pclass/Twilight Talon«s› to render targets too ill to work for a day - long enough to impersonate them."
 		]
 	},
 	"vessel_between": {
@@ -1441,7 +1441,7 @@
 		"description": [
 			"## Vessel between",
 			"",
-			"{SOURCE Inner Sea Intrigue/51}",
+			"‹SOURCE Inner Sea Intrigue/51›",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;",
 			"",
@@ -1456,11 +1456,11 @@
 		"description": [
 			"## Black spider marsh poison",
 			"",
-			"{SOURCE Advanced Race Guide/191}",
+			"‹SOURCE Advanced Race Guide/191›",
 			"",
 			"**Price** 800 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=14 freqR=6 effDex=\"1d4\" effExtra=\"%%misc/confused%% for 1 round\" cure2c}"
+			"::aff{iconP start type=injury saveF=14 freqR=6 effDex=\"1d4\" effExtra=\"‹misc/confused› for 1 round\" cure2c}"
 		]
 	},
 	"brain_blot": {
@@ -1469,11 +1469,11 @@
 		"description": [
 			"## Brain blot",
 			"",
-			"{SOURCE Champions of Corruption/27}",
+			"‹SOURCE Champions of Corruption/27›",
 			"",
 			"**Price** 800 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=13 onset=\"1 minute\" freqM=6 ineffExtra=\"-5 on %%rule/concentration%% checks for 1 hour\" seceffInt=1 cure1}"
+			"::aff{iconP start type=inhaled saveF=13 onset=\"1 minute\" freqM=6 ineffExtra=\"-5 on ‹rule/concentration› checks for 1 hour\" seceffInt=1 cure1}"
 		]
 	},
 	"cytillesh_extract": {
@@ -1487,14 +1487,14 @@
 		"description": [
 			"## Cytillesh extract",
 			"",
-			"{SOURCE Alchemy Manual/11;Classic Horrors Revisited/8;Pathfinder #61: Shards of Sin/64;No Response from Deepmar/21}",
+			"‹SOURCE Alchemy Manual/11;Classic Horrors Revisited/8;Pathfinder #61: Shards of Sin/64;No Response from Deepmar/21›",
 			"",
 			"**Price** 800 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=18 freqH=8 eff=\"The victim loses all memory of events that took place in the previous hour and can't form new memories for 8 hours. These lost and prevented memories might return later in the form of dreams, and can be returned with a %%spell/restoration%% or %%spell/heal%% spell\" cure2}",
+			"::aff{iconP start type=ingested saveF=18 freqH=8 eff=\"The victim loses all memory of events that took place in the previous hour and can't form new memories for 8 hours. These lost and prevented memories might return later in the form of dreams, and can be returned with a ‹spell/restoration› or ‹spell/heal› spell\" cure2}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (115 realgar + 115 cytillesh spores)/calcination; **Craft** DC 18  ",
-			"**Time** 1 hour; **Tools** {eq-misc/crucible}; **Type** poison"
+			"**‹rule/Spontaneous Alchemy› Recipe** (115 realgar + 115 cytillesh spores)/calcination; **Craft** DC 18  ",
+			"**Time** 1 hour; **Tools** ‹eq-misc/crucible›; **Type** poison"
 		]
 	},
 	"dark_reaver_powder": {
@@ -1506,7 +1506,7 @@
 		"description": [
 			"## Dark Reaver Powder",
 			"",
-			"{SOURCE PRPG Core Rulebook/558;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/558;Ultimate Equipment/111›",
 			"",
 			"**Price** 800 gp; **Weight** &mdash;",
 			"",
@@ -1522,13 +1522,13 @@
 		"description": [
 			"## Violet venom",
 			"",
-			"{SOURCE Ultimate Wilderness/145;Heroes of the Wild/20}",
+			"‹SOURCE Ultimate Wilderness/145;Heroes of the Wild/20›",
 			"",
 			"**Price** 800 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=contact saveF=13 freqM=6 effStr=\"1d2\" effCon=\"1d2\" cure1}",
 			"",
-			"The putrefying essence of a {monster/violet fungus} must be harvested with great care from a living specimen and processed quickly before it loses potency. Numerous kinds of subterranean creatures harvest this toxin to help them in their hunts for food, and they coat their weapons in the poison to help defend their underground settlements."
+			"The putrefying essence of a ‹monster/violet fungus› must be harvested with great care from a living specimen and processed quickly before it loses potency. Numerous kinds of subterranean creatures harvest this toxin to help them in their hunts for food, and they coat their weapons in the poison to help defend their underground settlements."
 		]
 	},
 	"flaming_doom": {
@@ -1537,14 +1537,14 @@
 		"description": [
 			"## Flaming doom",
 			"",
-			"{SOURCE Alchemy Manual/7}",
+			"‹SOURCE Alchemy Manual/7›",
 			"",
 			"**Price** 900 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=injury saveF=18 freqR=6 eff=\"1d6 fire damage and victim possibly catches on fire\" cure2}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (200 magnesium + 200 phosphorus + 250 saltpeter)/distillation; **Craft** DC 18  ",
-			"**Time** 1 day; **Tools** {eq-misc/retort}; **Type** poison"
+			"**‹rule/Spontaneous Alchemy› Recipe** (200 magnesium + 200 phosphorus + 250 saltpeter)/distillation; **Craft** DC 18  ",
+			"**Time** 1 day; **Tools** ‹eq-misc/retort›; **Type** poison"
 		]
 	},
 	"fury_gas": {
@@ -1553,13 +1553,13 @@
 		"description": [
 			"## Fury gas",
 			"",
-			"{SOURCE Alchemy Manual/7}",
+			"‹SOURCE Alchemy Manual/7›",
 			"",
 			"**Price** 900 gp; **Weight** 1/2 lb.",
 			"",
-			"::aff{iconP start type=inhaled saveF=16 freqM=4 eff=\"Non-orcs are %%misc/blinded%% for 1 minute. Orcs rage for 1 minute, gaining a +2 alchemical bonus to Strength and Dexterity, a +1 alchemical bonus on Will saves, and a -2 penalty to AC. This poison's effects are otherwise similar to a %%class/barbarian/'s%% rage, except that affected orcs are unable to discern friend from foe - attacking the nearest creature each round - and they are not fatigued afterward\" cure2}",
+			"::aff{iconP start type=inhaled saveF=16 freqM=4 eff=\"Non-orcs are ‹misc/blinded› for 1 minute. Orcs rage for 1 minute, gaining a +2 alchemical bonus to Strength and Dexterity, a +1 alchemical bonus on Will saves, and a -2 penalty to AC. This poison's effects are otherwise similar to a ‹class/barbarian«'s› rage, except that affected orcs are unable to discern friend from foe - attacking the nearest creature each round - and they are not fatigued afterward\" cure2}",
 			"",
-			"**{rule/Spontaneous Alchemy} Recipe** (180 brimstone + 80 quicksilver + 60 saltpeter)/fermentation; **Craft** DC 16  ",
+			"**‹rule/Spontaneous Alchemy› Recipe** (180 brimstone + 80 quicksilver + 60 saltpeter)/fermentation; **Craft** DC 16  ",
 			"**Time** 1 day; **Tools** heat source; **Type** poison"
 		]
 	},
@@ -1569,11 +1569,11 @@
 		"description": [
 			"## Nights-eye dust",
 			"",
-			"{SOURCE Adventurer's Armory 2/18}",
+			"‹SOURCE Adventurer's Armory 2/18›",
 			"",
 			"**Price** 900 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=13 freqR=6 ineff=\"%%misc/shaken%%\" seceff=\"%%misc/blinded%% for 6 rounds\" cure2c}",
+			"::aff{iconP start type=inhaled saveF=13 freqR=6 ineff=\"‹misc/shaken›\" seceff=\"‹misc/blinded› for 6 rounds\" cure2c}",
 			"",
 			"This fine powder is extracted from the wings of night's-eye moths. Creatures inhaling this poison become shaken and experience slowly building pressure behind the eyes, leading to blindness that persists until the creature is cured or the poison has run its course. A creature immune to fear cannot be shaken by the poison's initial effect and receives a +4 bonus on its saving throw against the poison's secondary effect."
 		]
@@ -1584,7 +1584,7 @@
 		"description": [
 			"## Sweetdream",
 			"",
-			"{SOURCE Adventurer's Armory 2/18}",
+			"‹SOURCE Adventurer's Armory 2/18›",
 			"",
 			"**Price** 900 gp; **Weight** &mdash;",
 			"",
@@ -1601,11 +1601,11 @@
 		"description": [
 			"## Third eye",
 			"",
-			"{SOURCE Ultimate Wilderness/145}",
+			"‹SOURCE Ultimate Wilderness/145›",
 			"",
 			"**Price** 900 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=contact saveF=17 onset=\"1 minute\" freqR=6 effWis=\"1d3\" extra=\"Each time the victim takes Wisdom damage, it must succeed at a DC 17 Will save or become %%misc/confused%% for that round.\" cure2c}",
+			"::aff{iconP start type=contact saveF=17 onset=\"1 minute\" freqR=6 effWis=\"1d3\" extra=\"Each time the victim takes Wisdom damage, it must succeed at a DC 17 Will save or become ‹misc/confused› for that round.\" cure2c}",
 			"",
 			"This poison is produced in the liver of a particular species of water-dwelling lizard and produces potent hallucinations. In some places, the lizards are raised as livestock specifically for the harvesting of the poison, which is then used for ritual ceremonies and recreational purposes. People in some cultures voluntarily dose themselves with this poison as a way to gain oracular insights into the world, but more often than not the revelations are nothing but subtle nightmares and lack true insight."
 		]
@@ -1616,7 +1616,7 @@
 		"description": [
 			"## Bloodpyre",
 			"",
-			"{SOURCE Agents of Evil/22}",
+			"‹SOURCE Agents of Evil/22›",
 			"",
 			"**Price** 1,000 gp; **Weight** &mdash;",
 			"",
@@ -1631,11 +1631,11 @@
 		"description": [
 			"## Cockatrice spit",
 			"",
-			"{SOURCE Rival Guide/53}",
+			"‹SOURCE Rival Guide/53›",
 			"",
 			"**Price** 1,000 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=\"contact, injury, ingested\" saveF=12 freqR=4 effDex=\"1d2\" extra=\"A creature who takes Dexterity damage equal to its Dexterity score from this poison becomes %%rule/petrified%%; each day, a petrified victim can attempt a new DC 12 Fortitude save to recover from the venom and become unpetrified with an amount of Dexterity damage equal to 1 point less than its Dexterity score.\" cure1}"
+			"::aff{iconP start type=\"contact, injury, ingested\" saveF=12 freqR=4 effDex=\"1d2\" extra=\"A creature who takes Dexterity damage equal to its Dexterity score from this poison becomes ‹rule/petrified›; each day, a petrified victim can attempt a new DC 12 Fortitude save to recover from the venom and become unpetrified with an amount of Dexterity damage equal to 1 point less than its Dexterity score.\" cure1}"
 		]
 	},
 	"ragespittle": {
@@ -1644,13 +1644,13 @@
 		"description": [
 			"## Ragespittle",
 			"",
-			"{SOURCE Agents of Evil/22}",
+			"‹SOURCE Agents of Evil/22›",
 			"",
 			"**Price** 1,000 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=contact saveF=17 onset=\"1 minute\" freqM=6 eff=\"1d2 %%rule/Dex damage%%, see text\" cure2}",
+			"::aff{iconP start type=contact saveF=17 onset=\"1 minute\" freqM=6 eff=\"1d2 ‹rule/Dex damage›, see text\" cure2}",
 			"",
-			"Imported from Casmaron, the substance also known as {faith/Rovagug/'s} spittle is employed by cults of the Rough Beast. The toxin is used to foment unrest by causing muscle tremors and aggression. Any creature that fails a Fortitude save against ragespittle is subjected to an uncontrollable rage. A rage-afflicted victim must succeed at a DC 17 Will save each round or attack the nearest creature, whether friend or foe. Effects that suppress confusion or emotional conditions suppress ragespittle's rage effect for their duration, but not the poison's ability damage. Effects that end confusion or emotional conditions suppress the urge for only 1d10 rounds while the poison remains in the victim's system."
+			"Imported from Casmaron, the substance also known as ‹faith/Rovagug«'s› spittle is employed by cults of the Rough Beast. The toxin is used to foment unrest by causing muscle tremors and aggression. Any creature that fails a Fortitude save against ragespittle is subjected to an uncontrollable rage. A rage-afflicted victim must succeed at a DC 17 Will save each round or attack the nearest creature, whether friend or foe. Effects that suppress confusion or emotional conditions suppress ragespittle's rage effect for their duration, but not the poison's ability damage. Effects that end confusion or emotional conditions suppress the urge for only 1d10 rounds while the poison remains in the victim's system."
 		]
 	},
 	"blistercap_spore_poison": {
@@ -1659,11 +1659,11 @@
 		"description": [
 			"## Blistercap spore poison",
 			"",
-			"{SOURCE Ultimate Wilderness/143}",
+			"‹SOURCE Ultimate Wilderness/143›",
 			"",
 			"**Price** 1,125 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=contact saveF=20 freqR=6 ineffDex=\"1d2\" ineffConD=1 seceffExtra=\"%%misc/sickened%% for 1 minute\" cure2c}",
+			"::aff{iconP start type=contact saveF=20 freqR=6 ineffDex=\"1d2\" ineffConD=1 seceffExtra=\"‹misc/sickened› for 1 minute\" cure2c}",
 			"",
 			"Found primarily in the Darklands, this fungus takes its name from the bruise-colored puffballs capping its stem, which weep a toxic yellow fluid. The spores it produces often contribute to the dangers of underground exploration."
 		]
@@ -1674,11 +1674,11 @@
 		"description": [
 			"## Lungsap powder",
 			"",
-			"{SOURCE Antihero's Handbook/29}",
+			"‹SOURCE Antihero's Handbook/29›",
 			"",
 			"**Price** 1,200 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=16 freqR=4 eff=\"This fine powder absorbs the oxygen from the lungs of any creature that breathes it in, causing the creature to gradually asphyxiate. The target has difficulty breathing and is %%misc/staggered%%. If the target suffers the effect for 4 rounds, he falls %%misc/unconscious%% for 1 minute at the end of the fourth round\" cure1}"
+			"::aff{iconP start type=inhaled saveF=16 freqR=4 eff=\"This fine powder absorbs the oxygen from the lungs of any creature that breathes it in, causing the creature to gradually asphyxiate. The target has difficulty breathing and is ‹misc/staggered›. If the target suffers the effect for 4 rounds, he falls ‹misc/unconscious› for 1 minute at the end of the fourth round\" cure1}"
 		]
 	},
 	"lungtaker": {
@@ -1687,11 +1687,11 @@
 		"description": [
 			"## Lungtaker",
 			"",
-			"{SOURCE Magnimar, City of Monuments/45}",
+			"‹SOURCE Magnimar, City of Monuments/45›",
 			"",
 			"**Price** 1,200 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=17 freqR=6 effStr=\"1d6\" extra=\"If this poison's accumulated Strength damage ever exceeds the victim's Strength score, the victim immediately begins to %%rule/suffocate%%. A DC 17 Heal check (or any amount of magical healing) is enough to stop this suffocation before the victim dies.\" cure2}"
+			"::aff{iconP start type=inhaled saveF=17 freqR=6 effStr=\"1d6\" extra=\"If this poison's accumulated Strength damage ever exceeds the victim's Strength score, the victim immediately begins to ‹rule/suffocate›. A DC 17 Heal check (or any amount of magical healing) is enough to stop this suffocation before the victim dies.\" cure2}"
 		]
 	},
 	"red_bedlam": {
@@ -1703,11 +1703,11 @@
 		"description": [
 			"## Red bedlam",
 			"",
-			"{SOURCE Ultimate Wilderness/145;Heroes of the Wild/20}",
+			"‹SOURCE Ultimate Wilderness/145;Heroes of the Wild/20›",
 			"",
 			"**Price** 1,200 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=15 onset=\"10 minutes\" freqM=10 eff=\"%%misc/confusion%%\" cure2c}",
+			"::aff{iconP start type=ingested saveF=15 onset=\"10 minutes\" freqM=10 eff=\"‹misc/confusion›\" cure2c}",
 			"",
 			"Named for the scab-red mushrooms from which it is made, this potent hallucinogen is brewed by evil druids and witches in remote regions in order to enhance the savagery of their seasonal revels. Some use this poison to debilitate their victims for ritual sacrifice."
 		]
@@ -1718,11 +1718,11 @@
 		"description": [
 			"## Skinsap extract",
 			"",
-			"{SOURCE Adventurer's Armory 2/18}",
+			"‹SOURCE Adventurer's Armory 2/18›",
 			"",
 			"**Price** 1,400 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=16 freqR=6 ineffExtra=\"%%misc/staggered%% and %%misc/confused%% (see text)\" seceffDex=\"1d2\" cure1}",
+			"::aff{iconP start type=injury saveF=16 freqR=6 ineffExtra=\"‹misc/staggered› and ‹misc/confused› (see text)\" seceffDex=\"1d2\" cure1}",
 			"",
 			"Harvested by some Mwangi tribes from the skin of colorful tree frogs, this potent poison is often used to coat arrows, darts, and other weapons. A creature that fails its save is distracted by persistent auditory hallucinations of dripping water and susurrous voices, gaining the staggered condition until it is cured or the poison has run its course. A creature that fails two consecutive saving throws against this effect is also confused until cured or the poison has run its course; this confusion is a mind-affecting effect."
 		]
@@ -1733,11 +1733,11 @@
 		"description": [
 			"## Azure lily pollen",
 			"",
-			"{SOURCE Ultimate Equipment/111}",
+			"‹SOURCE Ultimate Equipment/111›",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=15 freqM=2 ineff=\"%%misc/nauseated%% 1 minute\" seceff=\"%%rule/paralyzed%% 2d4 hours\" cure1}"
+			"::aff{iconP start type=inhaled saveF=15 freqM=2 ineff=\"‹misc/nauseated› 1 minute\" seceff=\"‹rule/paralyzed› 2d4 hours\" cure1}"
 		]
 	},
 	"breath_of_the_mantis_god": {
@@ -1749,13 +1749,13 @@
 		"description": [
 			"## Breath of the mantis god",
 			"",
-			"{SOURCE Adventurer's Guide/158;Inner Sea Intrigue/51}",
+			"‹SOURCE Adventurer's Guide/158;Inner Sea Intrigue/51›",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=21 freqM=6 ineffExtra=\"1d4 %%rule/bleed%%; see text\" seceffCon=\"1d3\" cure2}",
+			"::aff{iconP start type=inhaled saveF=21 freqM=6 ineffExtra=\"1d4 ‹rule/bleed›; see text\" seceffCon=\"1d3\" cure2}",
 			"",
-			"The {rule/Red Mantis} exist in a world rife with healing magic and all manner of supernatural ways to dodge death. With the society's reputation based on its ability to bring death to any contracted target, what good would it be if a kindly cleric or wealthy relative paid for a victim to be brought back to life? As a matter of professional pride (as well as religious fervor), the Red Mantis go to great lengths to ensure that their victims remain in the grave once they are placed there. Breath of the mantis god is just one tool they've crafted to assure such ends.",
+			"The ‹rule/Red Mantis› exist in a world rife with healing magic and all manner of supernatural ways to dodge death. With the society's reputation based on its ability to bring death to any contracted target, what good would it be if a kindly cleric or wealthy relative paid for a victim to be brought back to life? As a matter of professional pride (as well as religious fervor), the Red Mantis go to great lengths to ensure that their victims remain in the grave once they are placed there. Breath of the mantis god is just one tool they've crafted to assure such ends.",
 			"",
 			"This toxin is made only by Red Mantis assassins to ensure a target's death, and the Red Mantis often task initiates with administering it to victims before their assassination. Once an affected creature fails its saving throw against this poison's initial effect, if the creature dies before this poison is cured or runs its course, any spellcaster who attempts to raise the creature from the dead must first succeed at a caster level check (DC = 10 + the dead creature's total Hit Dice), otherwise the spell fails."
 		]
@@ -1766,7 +1766,7 @@
 		"description": [
 			"## Demon nettle sap",
 			"",
-			"{SOURCE The Moonscar/7}",
+			"‹SOURCE The Moonscar/7›",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;",
 			"",
@@ -1782,7 +1782,7 @@
 		"description": [
 			"## Dragon Bile",
 			"",
-			"{SOURCE PRPG Core Rulebook/558;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/558;Ultimate Equipment/111›",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;",
 			"",
@@ -1795,11 +1795,11 @@
 		"description": [
 			"## Hag spit",
 			"",
-			"{SOURCE Rival Guide/53}",
+			"‹SOURCE Rival Guide/53›",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=\"injury, ingested\" saveF=16 freqR=6 ineffExtra=\"%%misc/blindness%% for 1d10 rounds\" seceffWis=\"1d4\" cure2}"
+			"::aff{iconP start type=\"injury, ingested\" saveF=16 freqR=6 ineffExtra=\"‹misc/blindness› for 1d10 rounds\" seceffWis=\"1d4\" cure2}"
 		]
 	},
 	"insanity_mist": {
@@ -1811,7 +1811,7 @@
 		"description": [
 			"## Insanity Mist",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;",
 			"",
@@ -1824,13 +1824,13 @@
 		"description": [
 			"## Leng's tears",
 			"",
-			"{SOURCE Adventurer's Armory 2/18}",
+			"‹SOURCE Adventurer's Armory 2/18›",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=contact saveF=18 onset=\"1 round\" freq=\"1/10 minutes for 1 hour\" effWis=\"1d2\" effExtra=\"%%rule/paralyzed%% for 10 minutes\" cure1}",
+			"::aff{iconP start type=contact saveF=18 onset=\"1 round\" freq=\"1/10 minutes for 1 hour\" effWis=\"1d2\" effExtra=\"‹rule/paralyzed› for 10 minutes\" cure1}",
 			"",
-			"Made from the distilled tears and sweat of {monster/denizen[s] of Leng}, this substance causes hallucinations and temporary paralysis. A creature that fails its initial saving throw is paralyzed and experiences terrifying hallucinations of wandering through an icy, windswept waste. The creature's paralysis ends if it is cured or once the poison runs its course, though memories of the vivid hallucinations may haunt it for some time."
+			"Made from the distilled tears and sweat of ‹monster/denizen«s» of Leng›, this substance causes hallucinations and temporary paralysis. A creature that fails its initial saving throw is paralyzed and experiences terrifying hallucinations of wandering through an icy, windswept waste. The creature's paralysis ends if it is cured or once the poison runs its course, though memories of the vivid hallucinations may haunt it for some time."
 		]
 	},
 	"nerveblast": {
@@ -1839,11 +1839,11 @@
 		"description": [
 			"## Nerveblast",
 			"",
-			"{SOURCE Potions and Poisons/25}",
+			"‹SOURCE Potions and Poisons/25›",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=injury saveF=19 freqR=6 eff=\"1 %%rule/Dex damage%% and %%misc/shaken%% for 1 hour. The shaken condition progresses to more severe fear effects if the affected creature fails additional Fortitude saving throws against the poison. These more severe effects have the same duration as the initial shaken effect\" cure2c}",
+			"::aff{iconP start type=injury saveF=19 freqR=6 eff=\"1 ‹rule/Dex damage› and ‹misc/shaken› for 1 hour. The shaken condition progresses to more severe fear effects if the affected creature fails additional Fortitude saving throws against the poison. These more severe effects have the same duration as the initial shaken effect\" cure2c}",
 			"",
 			"This iridescent dust clings to weapons. On a hit, nerveblast immediately begins destroying nerves, blocking the signals between the brain and the rest of the body. The disconcerting effect causes many victims to flee in panic."
 		]
@@ -1854,13 +1854,13 @@
 		"description": [
 			"## Scholarblight",
 			"",
-			"{SOURCE Agents of Evil/22}",
+			"‹SOURCE Agents of Evil/22›",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=15 freqM=6 eff=\"1d3 %%rule/Int damage%%, see text\" cure1}",
+			"::aff{iconP start type=inhaled saveF=15 freqM=6 eff=\"1d3 ‹rule/Int damage›, see text\" cure1}",
 			"",
-			"Created by the {rule/Whispering Way} to simultaneously protect and bind newcomers and servants who have handled dangerous writings, scholarblight has long since become a preferred poison for those who target arcane spellcasters for assassination. Scholarblight causes headaches and impairs a victim's ability to form or recall memories through mild confusion and dysphoria. More drastically, victims who fail a saving throw against scholarblight lose their ability to read or write for 24 hours, as letters and symbols seem to twist, move, and reorient themselves. This prevents victims from using scrolls and spellbooks, but also protects an afflicted creature from any effect dependent on reading text, such as {spell/explosive runes}."
+			"Created by the ‹rule/Whispering Way› to simultaneously protect and bind newcomers and servants who have handled dangerous writings, scholarblight has long since become a preferred poison for those who target arcane spellcasters for assassination. Scholarblight causes headaches and impairs a victim's ability to form or recall memories through mild confusion and dysphoria. More drastically, victims who fail a saving throw against scholarblight lose their ability to read or write for 24 hours, as letters and symbols seem to twist, move, and reorient themselves. This prevents victims from using scrolls and spellbooks, but also protects an afflicted creature from any effect dependent on reading text, such as ‹spell/explosive runes›."
 		]
 	},
 	"mindrust": {
@@ -1869,11 +1869,11 @@
 		"description": [
 			"## Mindrust",
 			"",
-			"{SOURCE Path of the Hellknight/45}",
+			"‹SOURCE Path of the Hellknight/45›",
 			"",
 			"**Price** 1,600 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=20 freqR=6 eff=\"1 %%rule/Wis damage%% and suggestible for 1 minute per point of Wis damage taken; see text\" cure2c}",
+			"::aff{iconP start type=inhaled saveF=20 freqR=6 eff=\"1 ‹rule/Wis damage› and suggestible for 1 minute per point of Wis damage taken; see text\" cure2c}",
 			"",
 			"Refined from a traditional concoction first employed by the witches of Irrisen, mindrust - or \"witch's rust\" as its northern creators know it - is a brownish, flaky concoction of condensed nightmare vapor, striped toadstools, and howler milk. The Order of the Rack has brought this poison south and uses it to get confessions from criminals, gain assistance in slipping into rebel holdouts, or make artists destroy their masterworks in a moment of weakness.",
 			"",
@@ -1886,11 +1886,11 @@
 		"description": [
 			"## Aconite root",
 			"",
-			"{SOURCE Guide to the River Kingdoms/14}",
+			"‹SOURCE Guide to the River Kingdoms/14›",
 			"",
 			"**Price** 1,800 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=25 onset=\"1 minute\" freqR=5 effDex=\"1d3\" effCon=1 eff=\"%%misc/nauseated%% for 1 round\" cure2}"
+			"::aff{iconP start type=ingested saveF=25 onset=\"1 minute\" freqR=5 effDex=\"1d3\" effCon=1 eff=\"‹misc/nauseated› for 1 round\" cure2}"
 		]
 	},
 	"deathblade": {
@@ -1902,7 +1902,7 @@
 		"description": [
 			"## Deathblade",
 			"",
-			"{SOURCE Ultimate Equipment/111;PRPG Core Rulebook/558}",
+			"‹SOURCE Ultimate Equipment/111;PRPG Core Rulebook/558›",
 			"",
 			"**Price** 1,800 gp; **Weight** &mdash;",
 			"",
@@ -1918,11 +1918,11 @@
 		"description": [
 			"## Nightmare Vapor",
 			"",
-			"{SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/560;Ultimate Equipment/111›",
 			"",
 			"**Price** 1,800 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=inhaled saveF=20 freqR=6 eff=\"1 %%rule/Wis damage%% and %%misc/confused%% for 1 round\" cure2c}"
+			"::aff{iconP start type=inhaled saveF=20 freqR=6 eff=\"1 ‹rule/Wis damage› and ‹misc/confused› for 1 round\" cure2c}"
 		]
 	},
 	"burnt_othur_fumes": {
@@ -1934,7 +1934,7 @@
 		"description": [
 			"## Burnt othur fumes",
 			"",
-			"{SOURCE PRPG Core Rulebook/558;Ultimate Equipment/111}",
+			"‹SOURCE PRPG Core Rulebook/558;Ultimate Equipment/111›",
 			"",
 			"**Price** 2,100 gp; **Weight** &mdash;",
 			"",
@@ -1947,13 +1947,13 @@
 		"description": [
 			"## Grinding joint paste",
 			"",
-			"{SOURCE Adventurer's Armory 2/18}",
+			"‹SOURCE Adventurer's Armory 2/18›",
 			"",
 			"**Price** 2,100 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=ingested saveF=16 onset=\"10 minutes\" freqM=6 effDex=\"1d4\" cure1}",
 			"",
-			"This poisonous paste, made from dried {monster/cockatrice} organs, causes extreme muscle stiffness and joint pain, with an unpleasant feeling of gravel grinding in the victim's shoulders, hips, and knees. As long as a creature has any Dexterity damage from this poison, the creature finds it physically painful to make wide motions with its limbs. Whenever the creature attacks with a two-handed weapon or moves more than 10 feet in a round (other than via travel that doesn't require movement, such as by wagon, or teleportation), it takes 2d6 points of damage."
+			"This poisonous paste, made from dried ‹monster/cockatrice› organs, causes extreme muscle stiffness and joint pain, with an unpleasant feeling of gravel grinding in the victim's shoulders, hips, and knees. As long as a creature has any Dexterity damage from this poison, the creature finds it physically painful to make wide motions with its limbs. Whenever the creature attacks with a two-handed weapon or moves more than 10 feet in a round (other than via travel that doesn't require movement, such as by wagon, or teleportation), it takes 2d6 points of damage."
 		]
 	},
 	"dream_crystal_toxin": {
@@ -1962,13 +1962,13 @@
 		"description": [
 			"## Dream crystal toxin",
 			"",
-			"{SOURCE Doom Comes to Dustpawn/18}",
+			"‹SOURCE Doom Comes to Dustpawn/18›",
 			"",
 			"**Price** 2,500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP type=\"Curse and poison; ingested or injury\" saveW=20 freqH=6 eff=\"1d2 %%rule/Int damage%% (cannot reduce a creature's Int or Cha below 1)\" cure3c extra=\"A creature currently suffering the *curse of bestial dreams* transforms into an %%template/id mutant%% once its Intelligence is reduced by 6 points or reaches a score of 1, whichever comes first.\"}",
+			"::aff{iconP type=\"Curse and poison; ingested or injury\" saveW=20 freqH=6 eff=\"1d2 ‹rule/Int damage› (cannot reduce a creature's Int or Cha below 1)\" cure3c extra=\"A creature currently suffering the *curse of bestial dreams* transforms into an ‹template/id mutant› once its Intelligence is reduced by 6 points or reaches a score of 1, whichever comes first.\"}",
 			"",
-			"This supernatural toxin exists either in powdered form or, if mixed with an alchemically prepared solution of blood and magical reagents, as a sticky paste. The primary ingredient is a dream crystal whose stored dreams have been corrupted by otherworldly powers into nightmarish energies - a single crystal yields 1 dose of toxin. On Golarion, only the few dream crystals that remain in the crashed Lirgen's Glory can be used to create more of this toxin, but if the Emissary from Beyond establishes a domain in Dustpawn, it can create more dream crystals, given time. Dream crystal toxin introduced in significant quantities to a water supply dilutes the venom so that any who drink the water suffer a lesser version of its effects - see the {curse/curse of bestial dreams} for details. In any event, dream crystal toxin counts as both a poison and a curse for determining what can negate its effects. A creature must be immune to both poison and curses to be immune to dream crystal toxin."
+			"This supernatural toxin exists either in powdered form or, if mixed with an alchemically prepared solution of blood and magical reagents, as a sticky paste. The primary ingredient is a dream crystal whose stored dreams have been corrupted by otherworldly powers into nightmarish energies - a single crystal yields 1 dose of toxin. On Golarion, only the few dream crystals that remain in the crashed Lirgen's Glory can be used to create more of this toxin, but if the Emissary from Beyond establishes a domain in Dustpawn, it can create more dream crystals, given time. Dream crystal toxin introduced in significant quantities to a water supply dilutes the venom so that any who drink the water suffer a lesser version of its effects - see the ‹curse/curse of bestial dreams› for details. In any event, dream crystal toxin counts as both a poison and a curse for determining what can negate its effects. A creature must be immune to both poison and curses to be immune to dream crystal toxin."
 		]
 	},
 	"dreaming_death": {
@@ -1977,15 +1977,15 @@
 		"description": [
 			"## Dreaming death",
 			"",
-			"{SOURCE Agents of Evil/22}",
+			"‹SOURCE Agents of Evil/22›",
 			"",
 			"**Price** 2,500 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=inhaled saveF=16 onset=\"10 minutes\" freq=\"1/10 minutes for 1 hour\" eff=\"sleep 10 minutes, see text\" cure1}",
 			"",
-			"Imported in stoppered quartz vials by the enigmatic {monster/denizen[s] of Leng}, this green and violet gas lulls mortal creatures into a sleep filled with abominable nightmares and maddening half-truths. Creatures that fail their saving throws against dreaming death immediately fall into a fitful slumber for 10 minutes. This toxic sleep affects creatures normally immune to magical sleep effects (such as elves), and victims can be woken from the sleep only by overcoming or being cured of the poison. Each failed save extends the duration of this magical sleep by 10 minutes.",
+			"Imported in stoppered quartz vials by the enigmatic ‹monster/denizen«s» of Leng›, this green and violet gas lulls mortal creatures into a sleep filled with abominable nightmares and maddening half-truths. Creatures that fail their saving throws against dreaming death immediately fall into a fitful slumber for 10 minutes. This toxic sleep affects creatures normally immune to magical sleep effects (such as elves), and victims can be woken from the sleep only by overcoming or being cured of the poison. Each failed save extends the duration of this magical sleep by 10 minutes.",
 			"",
-			"Creatures awaken from these visions scarred and prone to self-harm. Victims must succeed at a Will save (DC = 14 + 2 for every 10 minutes spent sleeping) or begin cutting their own flesh with any available weapons. Affected creatures attempt to deliver a {misc/coup de grace} attack upon themselves every round. A victim can attempt a new Will save at the beginning of each round, with a cumulative +2 bonus for each round she successfully damaged herself."
+			"Creatures awaken from these visions scarred and prone to self-harm. Victims must succeed at a Will save (DC = 14 + 2 for every 10 minutes spent sleeping) or begin cutting their own flesh with any available weapons. Affected creatures attempt to deliver a ‹misc/coup de grace› attack upon themselves every round. A victim can attempt a new Will save at the beginning of each round, with a cumulative +2 bonus for each round she successfully damaged herself."
 		]
 	},
 	"everwake_serum": {
@@ -1994,11 +1994,11 @@
 		"description": [
 			"## Everwake serum",
 			"",
-			"{SOURCE Champions of Corruption/27}",
+			"‹SOURCE Champions of Corruption/27›",
 			"",
 			"**Price** 2,500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=16 freqD=5 eff=\"cannot voluntarily rest or sleep (spells such as %%spell/sleep%% still function as normal), preventing spellcasters who need to rest to regain or prepare spells from doing so\" cure2}"
+			"::aff{iconP start type=ingested saveF=16 freqD=5 eff=\"cannot voluntarily rest or sleep (spells such as ‹spell/sleep› still function as normal), preventing spellcasters who need to rest to regain or prepare spells from doing so\" cure2}"
 		]
 	},
 	"hemlock": {
@@ -2010,11 +2010,11 @@
 		"description": [
 			"## Hemlock",
 			"",
-			"{SOURCE Ultimate Equipment/111;PRPG Core Rulebook/559}",
+			"‹SOURCE Ultimate Equipment/111;PRPG Core Rulebook/559›",
 			"",
 			"**Price** 2,500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=18 onset=\"10 minutes\" freqM=6 effDex=\"1d6\" extra=\"Creatures reduced to 0 Dexterity %%rule/suffocate%%\" cure2}"
+			"::aff{iconP start type=ingested saveF=18 onset=\"10 minutes\" freqM=6 effDex=\"1d6\" extra=\"Creatures reduced to 0 Dexterity ‹rule/suffocate›\" cure2}"
 		]
 	},
 	"hydrofluoric_acid": {
@@ -2023,7 +2023,7 @@
 		"description": [
 			"## Hydrofluoric acid",
 			"",
-			"{SOURCE Potions and Poisons/24}",
+			"‹SOURCE Potions and Poisons/24›",
 			"",
 			"**Price** 2,500 gp; **Weight** &mdash;",
 			"",
@@ -2038,7 +2038,7 @@
 		"description": [
 			"## Snap will",
 			"",
-			"{SOURCE Dirty Tactics Toolbox/9}",
+			"‹SOURCE Dirty Tactics Toolbox/9›",
 			"",
 			"**Price** 2,500 gp; **Weight** &mdash;",
 			"",
@@ -2051,11 +2051,11 @@
 		"description": [
 			"## Styx sap",
 			"",
-			"{SOURCE Ultimate Wilderness/145}",
+			"‹SOURCE Ultimate Wilderness/145›",
 			"",
 			"**Price** 2,600 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=contact saveF=18 onset=\"1d4 minutes\" freq=\"1/10 minutes for 60 minutes\" effWis=\"1d4\" effExtra=\"the creature loses its memories from the past 10 minutes, as though they had been erased by the spell %%spell/modify memory%%\" cure1}",
+			"::aff{iconP start type=contact saveF=18 onset=\"1d4 minutes\" freq=\"1/10 minutes for 60 minutes\" effWis=\"1d4\" effExtra=\"the creature loses its memories from the past 10 minutes, as though they had been erased by the spell ‹spell/modify memory›\" cure1}",
 			"",
 			"This milky-white sap can be harvested from a rare jungle tree known as a \"weeping maiden\" in the local tongue. The tree's branches end in long, vine-like tendrils that hang low to the ground and bear large, bitter-tasting red fruit. While the fruit is safe to eat, the sap of the tree carries powerful neurotoxins that cause short-term memory loss in those that consume it. In some cultures, styx sap is occasionally taken deliberately in order to allow one to forget unpleasant or tragic events."
 		]
@@ -2066,11 +2066,11 @@
 		"description": [
 			"## Cyanide",
 			"",
-			"{SOURCE Heroes of the Darklands/31}",
+			"‹SOURCE Heroes of the Darklands/31›",
 			"",
 			"**Price** 4,000 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=contact saveF=20 onset=\"1 minute\" freqR=6 eff=\"1d4 %%rule/Con damage%%, target must succeed at a second Fortitude save or 1 point of the Con damage is instead drain.\" cure2 extra=\"Cyanide's unique metal-extracting properties make it effective against %%family/elemental/s%% with the earth subtype, despite their natural immunity to other poisons.\"}",
+			"::aff{iconP start type=contact saveF=20 onset=\"1 minute\" freqR=6 eff=\"1d4 ‹rule/Con damage›, target must succeed at a second Fortitude save or 1 point of the Con damage is instead drain.\" cure2 extra=\"Cyanide's unique metal-extracting properties make it effective against ‹family/elemental«s› with the earth subtype, despite their natural immunity to other poisons.\"}",
 			"",
 			"This potent toxin is used by both drow and duergar to extract gold from ore and to eliminate political enemies. Cyanide poisoning usually manifests as bright red flushing of the skin, even more noticeable in pallid creatures like derros and duergar."
 		]
@@ -2081,11 +2081,11 @@
 		"description": [
 			"## Leopard's bane",
 			"",
-			"{SOURCE Antihero's Handbook/29}",
+			"‹SOURCE Antihero's Handbook/29›",
 			"",
 			"**Price** 4,500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=20 onset=\"1 minute\" freqR=6 eff=\"Consuming the flowers of this plant weakens the walls of the imbiber's veins, causing them to rupture. The target takes 1d2 points of %%rule/Constitution damage%% and 1d4 points of %%rule/bleed%% damage. Blood (or an equivalent bodily fluid, if the imbiber does not have blood) flows from the target's eyes, causing the subject to be %%misc/blinded%% for the duration of the bleed effect. This bleeding can be stopped as normal (with a successful DC 15 Heal check or the application of any magical healing)\" cure2}"
+			"::aff{iconP start type=ingested saveF=20 onset=\"1 minute\" freqR=6 eff=\"Consuming the flowers of this plant weakens the walls of the imbiber's veins, causing them to rupture. The target takes 1d2 points of ‹rule/Constitution damage› and 1d4 points of ‹rule/bleed› damage. Blood (or an equivalent bodily fluid, if the imbiber does not have blood) flows from the target's eyes, causing the subject to be ‹misc/blinded› for the duration of the bleed effect. This bleeding can be stopped as normal (with a successful DC 15 Heal check or the application of any magical healing)\" cure2}"
 		]
 	},
 	"whisperwound": {
@@ -2094,7 +2094,7 @@
 		"description": [
 			"## Whisperwound",
 			"",
-			"{SOURCE Dirty Tactics Toolbox/9}",
+			"‹SOURCE Dirty Tactics Toolbox/9›",
 			"",
 			"**Price** 5,000 gp; **Weight** &mdash;",
 			"",
@@ -2107,11 +2107,11 @@
 		"description": [
 			"## Shamweed",
 			"",
-			"{SOURCE Guide to the River Kingdoms/14}",
+			"‹SOURCE Guide to the River Kingdoms/14›",
 			"",
 			"**Price** 6,500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=contact saveF=18 onset=\"immediate and 1 week, see effect\" freq=\"varies, see effect\" ineff=\"+1 Con/day for 1 week\" seceff=\"all Con gained from initial effect removed, 1d6 %%rule/Con damage%%/day for 7 days\" cure2c}"
+			"::aff{iconP start type=contact saveF=18 onset=\"immediate and 1 week, see effect\" freq=\"varies, see effect\" ineff=\"+1 Con/day for 1 week\" seceff=\"all Con gained from initial effect removed, 1d6 ‹rule/Con damage›/day for 7 days\" cure2c}"
 		]
 	},
 	"widows_kiss": {
@@ -2120,15 +2120,15 @@
 		"description": [
 			"## Widow's kiss",
 			"",
-			"{SOURCE Agents of Evil/22}",
+			"‹SOURCE Agents of Evil/22›",
 			"",
 			"**Price** 7,000 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=ingested saveF=24 onset=\"1d4 days\" freq=\"1/day\" eff=\"1d3 %%rule/Con damage%%, see text\" cure3}",
+			"::aff{iconP start type=ingested saveF=24 onset=\"1d4 days\" freq=\"1/day\" eff=\"1d3 ‹rule/Con damage›, see text\" cure3}",
 			"",
-			"Developed by the spider-like {monster/jorogumo/s}, widow's kiss is distilled from the monsters' natural venom and infused with minuscule spider eggs. Creatures injected with the toxin experience headaches and cold sweats, after which the eggs begin to hatch and infest the host's bloodstream, slowly eating the body from within. If controlled or enticed, the swarm of spiders can take direct control of its host's body, rendering hosts susceptible to effects that control or influence vermin, including a jorogumo's spider empathy ability.",
+			"Developed by the spider-like ‹monster/jorogumo«s›, widow's kiss is distilled from the monsters' natural venom and infused with minuscule spider eggs. Creatures injected with the toxin experience headaches and cold sweats, after which the eggs begin to hatch and infest the host's bloodstream, slowly eating the body from within. If controlled or enticed, the swarm of spiders can take direct control of its host's body, rendering hosts susceptible to effects that control or influence vermin, including a jorogumo's spider empathy ability.",
 			"",
-			"The effects of widow's kiss can be removed a combination of {spell/remove disease} and {spell/neutralize poison}. If a creature is slain by the poison's Constitution damage, a {monster/spider swarm} erupts from the body 1d6 rounds later."
+			"The effects of widow's kiss can be removed a combination of ‹spell/remove disease› and ‹spell/neutralize poison›. If a creature is slain by the poison's Constitution damage, a ‹monster/spider swarm› erupts from the body 1d6 rounds later."
 		]
 	},
 	"kiss_of_barbatos": {
@@ -2137,11 +2137,11 @@
 		"description": [
 			"## Kiss of barbatos",
 			"",
-			"{SOURCE Magnimar, City of Monuments/45}",
+			"‹SOURCE Magnimar, City of Monuments/45›",
 			"",
 			"**Price** 7,500 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start type=\"contact, ingested\" saveF=23 onset=\"1d6 days\" freq=\"1/day\" effStr=\"1d2\" effConD=1 effExtra=\"%%misc/fatigued%%\" cure3c}"
+			"::aff{iconP start type=\"contact, ingested\" saveF=23 onset=\"1d6 days\" freq=\"1/day\" effStr=\"1d2\" effConD=1 effExtra=\"‹misc/fatigued›\" cure3c}"
 		]
 	},
 	"fools_leprosy": {
@@ -2150,13 +2150,13 @@
 		"description": [
 			"## Fool's Leprosy",
 			"",
-			"{SOURCE Curse of the Crimson Throne/432}",
+			"‹SOURCE Curse of the Crimson Throne/432›",
 			"",
 			"**Price** 10,000 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=ingested saveF=20 onset=\"1 day\" freqD=6 effCha=\"1d2\" effConD=\"1d2\" cure3c}",
 			"",
-			"This cunning supernatural venom was originally engineered by {rule/Red Mantis} alchemists. Fool's leprosy is a slow-acting but ultimately fatal ingested toxin that, once it takes hold in its victim's system, closely mimics the effects of a fast-moving form of {disease/leprosy}. An attempt to divine its nature via {spell/detect poison} fails unless the caster succeeds at a DC 25 caster level check, and use of a spell like {spell/diagnose disease} always misidentifies the venom as a disease unless the caster succeeds at a DC 25 caster level check. In either event, the GM should roll for these caster level checks in secret. {spell/Neutralize poison} and {spell/delay poison} function normally on a person suffering from fool's leprosy, but spells like {spell/remove disease} do not, as the condition is a poison effect, not a disease effect. {spell/Heal} can cure the effects of fool's leprosy but does nothing to educate the caster about the nature of the effect it removes. As long as the truth about fool's leprosy remains hidden, a successful DC 35 Heal check is required to recognize that someone suffering from its effects is affected by poison, not a disease."
+			"This cunning supernatural venom was originally engineered by ‹rule/Red Mantis› alchemists. Fool's leprosy is a slow-acting but ultimately fatal ingested toxin that, once it takes hold in its victim's system, closely mimics the effects of a fast-moving form of ‹disease/leprosy›. An attempt to divine its nature via ‹spell/detect poison› fails unless the caster succeeds at a DC 25 caster level check, and use of a spell like ‹spell/diagnose disease› always misidentifies the venom as a disease unless the caster succeeds at a DC 25 caster level check. In either event, the GM should roll for these caster level checks in secret. ‹spell/Neutralize poison› and ‹spell/delay poison› function normally on a person suffering from fool's leprosy, but spells like ‹spell/remove disease› do not, as the condition is a poison effect, not a disease effect. ‹spell/Heal› can cure the effects of fool's leprosy but does nothing to educate the caster about the nature of the effect it removes. As long as the truth about fool's leprosy remains hidden, a successful DC 35 Heal check is required to recognize that someone suffering from its effects is affected by poison, not a disease."
 		]
 	},
 	"indigo_dreams": {
@@ -2165,7 +2165,7 @@
 		"description": [
 			"## Indigo Dreams",
 			"",
-			"{SOURCE Ultimate Equipment/111}",
+			"‹SOURCE Ultimate Equipment/111›",
 			"",
 			"**Price** 150 gp; **Weight** &mdash;",
 			"",
@@ -2178,13 +2178,13 @@
 		"description": [
 			"## Copsewight Poison",
 			"",
-			"{SOURCE Pathfinder #119: Prisoners of the Blight/80}",
+			"‹SOURCE Pathfinder #119: Prisoners of the Blight/80›",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;",
 			"",
 			"::aff{iconP start type=contact saveF=18 onset=immediate freqR=2 effCon=\"1d2\" cure1}",
 			"",
-			"A skilled alchemist can collect and preserve the juices from a {monster/copsewight/'s} fruit, distilling them into a contact poison. The fruit from a single copsewight can produce up to 12 doses of poison."
+			"A skilled alchemist can collect and preserve the juices from a ‹monster/copsewight«'s› fruit, distilling them into a contact poison. The fruit from a single copsewight can produce up to 12 doses of poison."
 		]
 	},
 	"abysium_powder": {
@@ -2193,13 +2193,13 @@
 		"description": [
 			"## Abysium Powder",
 			"",
-			"{SOURCE Pathfinder #61: Shards of Sin/70}",
+			"‹SOURCE Pathfinder #61: Shards of Sin/70›",
 			"",
 			"**Price** 900 gp; **Weight** &mdash;",
 			"",
-			"::aff{iconP start poison type=ingested saveF=18 onset=\"10 minutes\" freqM=6 effCon=\"1d4\" effExtra=\"%%misc/nausea%%\" cure2}",
+			"::aff{iconP start poison type=ingested saveF=18 onset=\"10 minutes\" freqM=6 effCon=\"1d4\" effExtra=\"‹misc/nausea›\" cure2}",
 			"",
-			"{eq-material/Abysium} can be powdered and alchemically distilled with other rare catalysts and chemicals to form a much more potent toxin. It was in this form that the metal was most traditionally used in ancient Thassilon. A pound of Abysium is enough to make 1 dose of abysium powder."
+			"‹eq-material/Abysium› can be powdered and alchemically distilled with other rare catalysts and chemicals to form a much more potent toxin. It was in this form that the metal was most traditionally used in ancient Thassilon. A pound of Abysium is enough to make 1 dose of abysium powder."
 		]
 	}
 }

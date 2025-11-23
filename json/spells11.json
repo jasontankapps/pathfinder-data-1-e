@@ -29,9 +29,9 @@
 			"",
 			"::spell{source=\"Blood of Shadows/16\" darkness necromancy shadowSub arc=7 clr=7 drd=7 inq=6 mag=6 occ=6 orc=7 psy=7 sha=7 sor=7 spr=6 wit=7 wiz=7 ctSt cV cS cMp=\"a black crossbow bolt\" rMed target=\"1 creature\" durRL=1 fortPartial srY}",
 			"",
-			"You create a bolt of dark energy and use it to make a ranged touch attack that ignores {rule/concealment} (but not total concealment). If you hit, the target takes 1d6 points of damage per caster level (maximum 20d6). Half of this damage is cold damage and half of it is negative energy. The bolt's shadow expands and covers the target, rendering him blind for the duration of the spell. A successful Fortitude save halves the damage and negates the blind condition.",
+			"You create a bolt of dark energy and use it to make a ranged touch attack that ignores ‹rule/concealment› (but not total concealment). If you hit, the target takes 1d6 points of damage per caster level (maximum 20d6). Half of this damage is cold damage and half of it is negative energy. The bolt's shadow expands and covers the target, rendering him blind for the duration of the spell. A successful Fortitude save halves the damage and negates the blind condition.",
 			"",
-			"**Note:** Normally, only {spelldef/illusion} spells can be of the shadow subschool. No errata has been issued, but this spell may have been intended to have the {spelldef/shadow descriptor}, like the spell {spell/umbral infusion} that was introduced in the same sourcebook."
+			"**Note:** Normally, only ‹spelldef/illusion› spells can be of the shadow subschool. No errata has been issued, but this spell may have been intended to have the ‹spelldef/shadow descriptor›, like the spell ‹spell/umbral infusion› that was introduced in the same sourcebook."
 		]
 	},
 	"umbral_weapon": {
@@ -55,7 +55,7 @@
 			"",
 			"You fill the target with a terrible loathing aimed at a specific creature. At the time of the casting, you designate a single creature as the object of the target's revulsion. Thereafter, the target does all it can to remain at least 60 feet away from the object of its loathing. As soon as the target moves within this range, it becomes nauseated until it can again get away from the object of its revulsion. If traveling beyond 60 feet of the object of its loathing would place the target in obvious physical danger, the target can attempt a second save to break the spell's effect.",
 			"",
-			"Unadulterated loathing counters {spell/reckless infatuation}."
+			"Unadulterated loathing counters ‹spell/reckless infatuation›."
 		]
 	},
 	"unbearable_brightness": {
@@ -66,7 +66,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/197\" evocation light alc=4 arc=4 inv=4 occ=4 psy=4 sor=4 wit=4 wiz=4 ctSt cV cS r=\"personal and 30 ft. (see text)\" area=\"30-ft.-radius emanation centered on you\" durRL=1 save=\"none and Reflex partial (see text)\" sr=\"no and yes (see text)\"}",
 			"",
-			"Your body glows with a terrible light. Creatures within 30 feet of you that can see you are dazzled (no saving throw). Creatures with light sensitivity must succeed at a Reflex saving throw or be blinded. This light counts as {spell/daylight} for the purpose of affecting darkness effects (and vice versa). If the emanation enters an area under the effect of magical darkness (or vice versa), both effects are temporarily negated so that the otherwise prevailing light conditions exist in the overlapping areas of effect. Dazzled and blinded conditions from your light end when the spell ends or when the creature is out of line of sight."
+			"Your body glows with a terrible light. Creatures within 30 feet of you that can see you are dazzled (no saving throw). Creatures with light sensitivity must succeed at a Reflex saving throw or be blinded. This light counts as ‹spell/daylight› for the purpose of affecting darkness effects (and vice versa). If the emanation enters an area under the effect of magical darkness (or vice versa), both effects are temporarily negated so that the otherwise prevailing light conditions exist in the overlapping areas of effect. Dazzled and blinded conditions from your light end when the spell ends or when the creature is out of line of sight."
 		]
 	},
 	"unbreakable_construct": {
@@ -91,7 +91,7 @@
 			"",
 			"::spell{source=\"Inner Sea World Guide/296;Gods and Magic/37\" enchantment compulsion mindAffecting brd=1 clr=1 hnt=1 orc=1 pal=1 rgr=1 sha=1 skd=1 war=1 wit=1 ctSt cV cS rClose effect=\"1 creature\" durRL=1 will srY harmless}",
 			"",
-			"The target creature gains a +4 morale bonus on saving throws against mind-affecting effects that rely on negative emotions (such as crushing despair, rage, or fear effects) or that would force him to harm an ally (such as confusion). If the target is already under such an effect when receiving this spell, that effect is suppressed for the duration of this spell. It does not affect mind-affecting effects based on positive emotions (such as good hope or the inspire courage bard ability). A creature can still be charmed or otherwise magically controlled while under this spell's effects, but if such a creature ever receives a new saving throw against that effect as a result of being ordered to attempt to harm or otherwise oppose a true ally, he can roll that saving throw twice and take the better result as his actual roll. {spell/Calm emotions} counters and dispels unbreakable heart."
+			"The target creature gains a +4 morale bonus on saving throws against mind-affecting effects that rely on negative emotions (such as crushing despair, rage, or fear effects) or that would force him to harm an ally (such as confusion). If the target is already under such an effect when receiving this spell, that effect is suppressed for the duration of this spell. It does not affect mind-affecting effects based on positive emotions (such as good hope or the inspire courage bard ability). A creature can still be charmed or otherwise magically controlled while under this spell's effects, but if such a creature ever receives a new saving throw against that effect as a result of being ordered to attempt to harm or otherwise oppose a true ally, he can roll that saving throw twice and take the better result as his actual roll. ‹spell/Calm emotions› counters and dispels unbreakable heart."
 		]
 	},
 	"uncanny_reminder": {
@@ -102,7 +102,7 @@
 			"",
 			"::spell{source=\"Chronicle of Legends/14\" conjuration arc=8 mes=6 psy=8 sor=8 sum=6 usm=6 wiz=8 ctR=1 cV cS rClose target=\"one living creature\" durRL=1 will srY}",
 			"",
-			"This spell creates an animated replica of the target drawn from the target's subconscious. This living memory is an animated form of the target's negative thoughts and emotions and is intent on destroying the target entirely. The living memory appears to be an exact replica of the target creature, but upon inspection it is obviously a construct. It uses the statistics of a {monster/clockwork angel} except that it has an Intelligence of 10 and does not have the clockwork trait, the enhance weapon ability, or vulnerability to electricity. If the living memory is destroyed, it vanishes entirely, including any replicas of equipment.",
+			"This spell creates an animated replica of the target drawn from the target's subconscious. This living memory is an animated form of the target's negative thoughts and emotions and is intent on destroying the target entirely. The living memory appears to be an exact replica of the target creature, but upon inspection it is obviously a construct. It uses the statistics of a ‹monster/clockwork angel› except that it has an Intelligence of 10 and does not have the clockwork trait, the enhance weapon ability, or vulnerability to electricity. If the living memory is destroyed, it vanishes entirely, including any replicas of equipment.",
 			"",
 			"You do not control the living memory. The living memory constantly attacks the target. The nature of the living memory causes the target to become unsettled. Roll on the following table to determine how the target acts while the living memory is in sight. If the result offers a saving throw, the DC is equal to that of this spell. The result remains in effect for as long as the living memory is in sight. If the target loses sight of the living memory and then sees it again, roll on the chart again. d% Behavior",
 			"",
@@ -133,7 +133,7 @@
 			"",
 			"If the target fails his save against this spell, he is not compelled to act in any way until the specified trigger circumstances are encountered. He also has no knowledge of the details of the spell affecting him, and has no memory of the last 10 minutes (although he might come to notice the missing time or the presence of the caster). He can function as he wishes until the events you detailed as the condition take place. Upon experiencing the prerequisite condition, the target is forced to perform the course of action you described as per the spell dominate person. (If the compelled action is against the victim's nature, he immediately gains a new saving throw at a +5 bonus against the spell to end its effects.) For the next hour, the target acts as you dictated, doing all he can to fulfill your command. If, at the end of the hour, the target still has not completed your command, the target is released from the enchantment and the spell ends. Once the course of action is completed, the spell ends. The target has full memory of acts performed during this hour.",
 			"",
-			"It's difficult to detect an unconscious agenda before the spell is triggered. Casting detect magic on one affected by it only reveals an aura of enchantment if the caster of detect magic has a higher caster level then the caster of unconscious agenda. Even if the spell is detected, it can only be removed by {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/remove curse}, or {spell/wish}. {spell/Dispel magic} does not affect unconscious agenda."
+			"It's difficult to detect an unconscious agenda before the spell is triggered. Casting detect magic on one affected by it only reveals an aura of enchantment if the caster of detect magic has a higher caster level then the caster of unconscious agenda. Even if the spell is detected, it can only be removed by ‹spell/break enchantment›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/remove curse›, or ‹spell/wish›. ‹spell/Dispel magic› does not affect unconscious agenda."
 		]
 	},
 	"undead_anatomy_1": {
@@ -146,7 +146,7 @@
 			"",
 			"When you cast this spell, you can assume the form of any Small or Medium corporeal creature of the undead type, which must be vaguely humanoid-shaped (like a ghoul, skeleton, or zombie). You gain a bite attack (1d6 for Medium forms, 1d4 for Small forms), two claw or slam attacks (1d6 for Medium forms, 1d4 for Small forms), and darkvision 60 feet. If the form you assume has any of the following abilities, you gain the listed ability: climb 30 feet, fly 30 feet (average maneuverability), swim 30 feet, low-light vision, and scent.",
 			"",
-			"In this form, you detect as an undead creature (such as with {spell/detect undead}, but not with magic that reveals your true form, such as {spell/true seeing}) and are treated as undead for the purposes of channeled energy, {main/cure spells, and |inflict spells}, but not for other effects that specifically target or react differently to undead (such as {spell/searing light}).",
+			"In this form, you detect as an undead creature (such as with ‹spell/detect undead›, but not with magic that reveals your true form, such as ‹spell/true seeing›) and are treated as undead for the purposes of channeled energy, ‹main/cure spells, and »inflict spells›, but not for other effects that specifically target or react differently to undead (such as ‹spell/searing light›).",
 			"",
 			"*Small undead:* If the form you take is that of a Small undead, you gain a +2 size bonus to your Dexterity and a +1 natural armor bonus.",
 			"",
@@ -213,7 +213,7 @@
 			"",
 			"::spell{source=\"Undead Slayer's Handbook/27\" necromancy arc=4 clr=4 orc=4 sor=4 war=4 wit=4 wiz=4 ctSt cV cS cFDFp=\"a gold piece with one scratched face\" rClose target=\"one undead creature\" dur=\"1 round/level (d); see text\" save=\"Will negates, see text\" srY}",
 			"",
-			"You alter an undead creature's energy affinity so that it takes damage from negative energy and gains healing from positive energy, as if it were a living creature. If the target was able to channel negative energy or produce negative energy effects (such as {main/inflict spells}), these abilities produce positive energy instead, healing living targets and harming the undead. The target cannot impose negative levels on other creatures for the duration of the spell. The target's creature type does not change, and it is still considered an undead creature. Each round on its turn, the subject may attempt a new saving throw to end the effect. This is a full-round action that does not provoke attacks of opportunity."
+			"You alter an undead creature's energy affinity so that it takes damage from negative energy and gains healing from positive energy, as if it were a living creature. If the target was able to channel negative energy or produce negative energy effects (such as ‹main/inflict spells›), these abilities produce positive energy instead, healing living targets and harming the undead. The target cannot impose negative levels on other creatures for the duration of the spell. The target's creature type does not change, and it is still considered an undead creature. Each round on its turn, the subject may attempt a new saving throw to end the effect. This is a full-round action that does not provoke attacks of opportunity."
 		]
 	},
 	"undeath_to_death": {
@@ -224,7 +224,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/363\" necromancy arc=6 clr=6 inq=6 orc=6 sor=6 spr=6 war=6 wiz=6 ctSt cV cS cMDFp=\"diamond powder worth 500 gp\" rMed area=\"several undead creatures within a 40-ft.-radius burst\" durI will srY}",
 			"",
-			"This spell functions like {spell/circle of death}, except that it destroys undead creatures as noted above."
+			"This spell functions like ‹spell/circle of death›, except that it destroys undead creatures as noted above."
 		]
 	},
 	"undeath_ward": {
@@ -268,7 +268,7 @@
 			"",
 			"::spell{source=\"Ultimate Intrigue/228\" glamer illusion ant=2 hnt=2 occ=3 rgr=2 ct=\"10 minutes (see text)\" cV cS cMp=\"a square of black silk worth 50 gp\" rTouch target=\"trap touched\" durD durDL=1 saveNo srN}",
 			"",
-			"You shroud a single trap with a powerful illusion to make it more difficult to locate. Spells like detect magic can't locate any magic aura from either the target trap or from undetectable trap. Furthermore, a character under the effect of the {spell/find traps} spell doesn't receive an automatic chance to locate the target trap when she comes within 10 feet of it, and the bonus on Perception checks from find traps doesn't apply to attempts to notice the target trap. Add 1/2 your caster level to the DC for any creature without the trapfinding class ability to notice the target trap with Perception checks.",
+			"You shroud a single trap with a powerful illusion to make it more difficult to locate. Spells like detect magic can't locate any magic aura from either the target trap or from undetectable trap. Furthermore, a character under the effect of the ‹spell/find traps› spell doesn't receive an automatic chance to locate the target trap when she comes within 10 feet of it, and the bonus on Perception checks from find traps doesn't apply to attempts to notice the target trap. Add 1/2 your caster level to the DC for any creature without the trapfinding class ability to notice the target trap with Perception checks.",
 			"",
 			"A ranger with the ranger traps class feature can cast this spell on a ranger trap he creates as part of the same action he uses to prepare a ranger trap. This doesn't reduce the spell's casting time if such a ranger casts this spell on an ordinary trap, even one that he created himself using Craft (traps)."
 		]
@@ -281,7 +281,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/179\" curse evil necromancy arc=1 sor=1 wit=1 wiz=1 ctSt cV cS rClose target=\"one creature\" durHL=1 will srY}",
 			"",
-			">*{race/Undine/s} have access to the following spell.*",
+			">*‹race/Undine«s› have access to the following spell.*",
 			"",
 			"The target loses its body's natural ability to breathe automatically. As long as it remains conscious and is able to take physical actions, it keeps breathing and is able to function normally. If it is ever unconscious (including sleeping) or unable to take physical actions, it stops breathing and stops breathing, must hold its breath, and might begin to suffocate. Creatures that do not have to breathe are immune to this spell."
 		]
@@ -348,19 +348,19 @@
 			"",
 			"Unhallow makes a particular site, building, or structure an unholy site. This has three major effects.",
 			"",
-			"First, the site or structure is guarded by a {spell/magic circle against good} effect.",
+			"First, the site or structure is guarded by a ‹spell/magic circle against good› effect.",
 			"",
 			"Second, the DC to resist negative channeled energy within the spell's area of effect gains a +4 sacred bonus and the DC to resist positive energy is reduced by 4. Spell resistance does not apply to this effect. This provision does not apply to the druid version of the spell.",
 			"",
 			"Finally, you may choose to fix a single spell effect to the unhallowed site. The spell effect lasts for 1 year and functions throughout the entire site, regardless of its normal duration and area or effect. You may designate whether the effect applies to all creatures, creatures that share your faith or alignment, or creatures that adhere to another faith or alignment. At the end of the year, the chosen effect lapses, but it can be renewed or replaced simply by casting unhallow again.",
 			"",
-			"Spell effects that may be tied to an unhallowed site include {spell/aid}, {spell/bane}, {spell/bless}, {spell/cause fear}, {spell/darkness}, {spell/daylight}, {spell/death ward}, {spell/detect good}, {spell/deeper darkness}, {spell/detect magic}, {spell/dimensional anchor}, {spell/discern lies}, {spell/dispel magic}, {spell/endure elements}, {spell/freedom of movement}, {spell/invisibility purge}, {spell/protection from energy}, {spell/remove fear}, {spell/resist energy}, {spell/silence}, {spell/tongues}, and {spell/zone of truth}.",
+			"Spell effects that may be tied to an unhallowed site include ‹spell/aid›, ‹spell/bane›, ‹spell/bless›, ‹spell/cause fear›, ‹spell/darkness›, ‹spell/daylight›, ‹spell/death ward›, ‹spell/detect good›, ‹spell/deeper darkness›, ‹spell/detect magic›, ‹spell/dimensional anchor›, ‹spell/discern lies›, ‹spell/dispel magic›, ‹spell/endure elements›, ‹spell/freedom of movement›, ‹spell/invisibility purge›, ‹spell/protection from energy›, ‹spell/remove fear›, ‹spell/resist energy›, ‹spell/silence›, ‹spell/tongues›, and ‹spell/zone of truth›.",
 			"",
 			"Saving throws and spell resistance might apply to these spells' effects. (See the individual spell descriptions for details.)",
 			"",
 			"An area can receive only one unhallow spell (and its associated spell effect) at a time.",
 			"",
-			"Unhallow counters but does not dispel {spell/hallow}."
+			"Unhallow counters but does not dispel ‹spell/hallow›."
 		]
 	},
 	"unhallowed_blows": {
@@ -373,7 +373,7 @@
 			"",
 			"This spell empowers the natural attacks or unarmed strikes of undead creatures, granting a +1 enhancement bonus on attack and damage rolls made by the target with its unarmed strikes or attacks with one natural attack. This spell can cause an undead creature's unarmed strike to deal lethal damage, but in this case, the attack does not gain an enhancement bonus.",
 			"",
-			"Unhallowed blows can be made permanent with a {spell/permanency} spell. In this case, the caster must be at least 9th level and must expend 2,500 gp worth of diamond dust as a material component.",
+			"Unhallowed blows can be made permanent with a ‹spell/permanency› spell. In this case, the caster must be at least 9th level and must expend 2,500 gp worth of diamond dust as a material component.",
 			"",
 			"### Greater Unhallowed Blows",
 			"",
@@ -381,7 +381,7 @@
 			"",
 			"This spell functions as unhallowed blows, except the enhancement bonus is +1 per 4 caster levels (maximum +5). Alternatively, you can imbue all of a creature's natural weapons with a +1 enhancement bonus (regardless of your caster level).",
 			"",
-			"Greater unhallowed blows can be made permanent with a {spell/permanency} spell. In this case, the caster must be at least 11th level and must expend 7,500 gp worth of diamond dust as a material component."
+			"Greater unhallowed blows can be made permanent with a ‹spell/permanency› spell. In this case, the caster must be at least 11th level and must expend 7,500 gp worth of diamond dust as a material component."
 		]
 	},
 	"unhallowed_blows_greater": {
@@ -399,7 +399,7 @@
 			"",
 			"A malevolent darkness surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by good creatures, and weakening good creatures when they strike the subjects. This abjuration has four effects.",
 			"",
-			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike the effect of {spell/protection from good}, this benefit applies against all attacks, not just against attacks by good creatures.",
+			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike the effect of ‹spell/protection from good›, this benefit applies against all attacks, not just against attacks by good creatures.",
 			"",
 			"Second, a warded creature gains SR 25 against good spells and spells cast by good creatures.",
 			"",
@@ -421,13 +421,13 @@
 			"",
 			"You call up unholy power to smite your enemies. The power takes the form of a cold, cloying miasma of greasy darkness. Only good and neutral (not evil) creatures are harmed by the spell.",
 			"",
-			"The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to a good creature (or 1d6 per caster level, maximum 10d6, to a good outsider) and causes it to be sickened for 1d4 rounds. A successful Will save reduces damage to half and negates the sickened effect. The effects cannot be negated by {spell/remove disease} or {spell/heal}, but {spell/remove curse} is effective.",
+			"The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to a good creature (or 1d6 per caster level, maximum 10d6, to a good outsider) and causes it to be sickened for 1d4 rounds. A successful Will save reduces damage to half and negates the sickened effect. The effects cannot be negated by ‹spell/remove disease› or ‹spell/heal›, but ‹spell/remove curse› is effective.",
 			"",
 			"The spell deals only half damage to creatures who are neither evil nor good, and they are not sickened. Such a creature can reduce the damage by half again (down to one-quarter) with a successful Will save.",
 			"",
 			":::mythic{title=\"Mythic Unholy Blight\"}",
 			"",
-			"{SOURCE Mythic Adventures/110}  ",
+			"‹SOURCE Mythic Adventures/110›  ",
 			"The damage dealt to good outsiders increases to 1d10 points of damage per caster level (maximum 10d10) and the damage dealt to other good creatures increases to 1d12 points of damage per 2 caster levels (maximum 5d12). The duration that creatures within the area are sickened increases to 2d4 rounds. On a successful save, a good creature is slowed for 1 round.",
 			"",
 			":::"
@@ -441,7 +441,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/245\" cold evil transmutation water clr=5 orc=5 war=5 ctSt cV cS cMp=\"a flask of unholy water or 5 pounds of powdered silver worth 25 gp\" rMed effect=\"wall of ice or flying ice javelins (see text)\" dur=\"1 minute/level, instantaneous, or until expended (see text)\" save=\"Reflex negates or none (see text)\" srY}",
 			"",
-			"This spell functions as {spell/holy ice}, except it is made of frozen unholy water rather than holy water."
+			"This spell functions as ‹spell/holy ice›, except it is made of frozen unholy water rather than holy water."
 		]
 	},
 	"unholy_sword": {
@@ -452,7 +452,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/245\" evil evocation ant=4 ctSt cV cS rTouch target=\"melee weapon touched\" durRL=1 saveNo srN}",
 			"",
-			"This spell allows you to channel the powers of evil into your sword, or any other melee weapon you choose. The weapon acts as a +5 {magic-enh/unholy} weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against good opponents). It also emits a {spell/magic circle against good} effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one unholy sword at a time.",
+			"This spell allows you to channel the powers of evil into your sword, or any other melee weapon you choose. The weapon acts as a +5 ‹magic-enh/unholy› weapon (+5 enhancement bonus on attack and damage rolls, extra 2d6 damage against good opponents). It also emits a ‹spell/magic circle against good› effect (as the spell). If the magic circle ends, the sword creates a new one on your turn as a free action. The spell is automatically canceled 1 round after the weapon leaves your hand. You cannot have more than one unholy sword at a time.",
 			"",
 			"If this spell is cast on a magic weapon, the powers of the spell supersede any that the weapon normally has, rendering the normal enhancement bonus and powers of the weapon inoperative for the duration of the spell. This spell is not cumulative with any spells that modify the weapon in any way. This spell does not work on artifacts. A masterwork weapon's bonus to attack does not stack with this spell's enhancement bonus to attack."
 		]
@@ -498,7 +498,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/198\" necromancy arc=3 clr=2 mes=2 orc=2 sor=3 spr=3 war=2 wit=3 wiz=3 ctSt cV cS rMed targets=\"one willing undead creature per 3 levels, no two of which can be more than 30 ft. apart\" durD durCon=\"+ 1 round/level\" saveNo srY}",
 			"",
-			"This spell functions as {spell/rage}, except it affects only undead creatures and bolsters them with necromantic energy rather than emotion. Each affected creature gains a +2 profane bonus to Strength and Charisma, a +1 profane bonus on Will saves, and a -2 penalty to AC. The effect is otherwise identical to a barbarian's rage."
+			"This spell functions as ‹spell/rage›, except it affects only undead creatures and bolsters them with necromantic energy rather than emotion. Each affected creature gains a +2 profane bonus to Strength and Charisma, a +1 profane bonus on Will saves, and a -2 penalty to AC. The effect is otherwise identical to a barbarian's rage."
 		]
 	},
 	"unlock_flesh": {
@@ -594,7 +594,7 @@
 			"",
 			"::spell{source=\"Haunted Heroes Handbook/29\" mindAffecting emotion fear haunted necromancy arc=2 brd=2 med=1 mes=2 occ=2 psy=2 sha=2 sor=2 wit=2 wiz=2 ctSt cV cS rClose area=\"one 5-ft. cube/level (S)\" durD durHL=1 will srY}",
 			"",
-			"Those in this spell's area who fail their Will saving throws harbor a faint sense of paranoia and evoke the same feeling in others for the duration of the spell. Domesticated animals (not including familiars and animal companions) don't willingly approach affected creatures unless the animal's master succeeds at a DC 25 Handle Animal, Ride, or {ability/wild empathy} check. Affected creatures take a -4 penalty on Handle Animal, Ride, and wild empathy checks against familiars, animal companions, animal cohorts, and other permanent companions provided by class abilities for the spell's duration. Anyone an affected creature interacts with must succeed at a Will save or have its initial attitude automatically worsened by one step for the spell's duration. Every time an affected creature attempts a Sense Motive check to get a hunch or detect a Bluff from another creature (or vice versa), it must succeed at a Will save or automatically assume the other party is lying or otherwise harbors ill will against it. Each time this spell causes an affected creature (or someone interacting with the affected creature) to attempt a Will saving throw, the spell's haunt-like manifestation occurs.",
+			"Those in this spell's area who fail their Will saving throws harbor a faint sense of paranoia and evoke the same feeling in others for the duration of the spell. Domesticated animals (not including familiars and animal companions) don't willingly approach affected creatures unless the animal's master succeeds at a DC 25 Handle Animal, Ride, or ‹ability/wild empathy› check. Affected creatures take a -4 penalty on Handle Animal, Ride, and wild empathy checks against familiars, animal companions, animal cohorts, and other permanent companions provided by class abilities for the spell's duration. Anyone an affected creature interacts with must succeed at a Will save or have its initial attitude automatically worsened by one step for the spell's duration. Every time an affected creature attempts a Sense Motive check to get a hunch or detect a Bluff from another creature (or vice versa), it must succeed at a Will save or automatically assume the other party is lying or otherwise harbors ill will against it. Each time this spell causes an affected creature (or someone interacting with the affected creature) to attempt a Will saving throw, the spell's haunt-like manifestation occurs.",
 			"",
 			"#### Haunt Statistics",
 			"",
@@ -616,7 +616,7 @@
 			"",
 			":::mythic{title=\"Mythic Unshakable Chill\"}",
 			"",
-			"{SOURCE Mythic Adventures/110}  ",
+			"‹SOURCE Mythic Adventures/110›  ",
 			"On a failed save, the target immediately takes 1d6 points of nonlethal cold damage per tier. Add your tier to the DC of any other Fortitude saves the target attempts to resist severe cold as part of the spell's effects. The target also takes a -4 penalty on saves against spells or effects with the cold descriptor.",
 			"",
 			"*Augmented (5th):* If you expend two uses of mythic power, the target gains vulnerability to fire.",
@@ -632,7 +632,7 @@
 			"",
 			"::spell{source=\"Occult Adventures/190\" enchantment compulsion mindAffecting emotion brd=5 inq=6 psy=7 skd=5 spr=6 ctSt cS cFp=\"a silver circlet\" rTouch target=\"creature touched\" durHL=1 will srY harmless}",
 			"",
-			"You fill the target with boundless enthusiasm and faith in its ultimate triumph. Whenever the target fails an attack roll, a save, a skill check, a {rule/concentration} check, or an ability check, the target receives a +4 morale bonus on its next attempt at the failed check within 1 round (this includes attack rolls against the same foe, saving throws against the same ability from the same foe, and so on). In addition, when the target would be affected by a fear or emotion effect, it can instead dismiss unshakeable zeal without spending an action to negate the effect on itself."
+			"You fill the target with boundless enthusiasm and faith in its ultimate triumph. Whenever the target fails an attack roll, a save, a skill check, a ‹rule/concentration› check, or an ability check, the target receives a +4 morale bonus on its next attempt at the failed check within 1 round (this includes attack rolls against the same foe, saving throws against the same ability from the same foe, and so on). In addition, when the target would be affected by a fear or emotion effect, it can instead dismiss unshakeable zeal without spending an action to negate the effect on itself."
 		]
 	},
 	"unspoken_name": {
@@ -643,7 +643,7 @@
 			"",
 			"::spell{source=\"Pathfinder #140: Eulogy for Roslar's Coffer/73\" divination arc=3 clr=3 inq=3 orc=3 sor=3 war=3 wiz=3 ctM=1 cV cS rPers target=you dur=\"24 hours or until discharged\"}",
 			"",
-			"Prized among those who seek to monitor the attention paid to them, this spell is said to be used by {faith/Arazni} to identify those followers who dare refer to her as \"the Harlot Queen\" so she might summarily dismiss them. When you cast this spell, designate a word, phrase, or name. If a creature within 1 mile of you uses that word, phrase, or name to refer to you, you immediately learn that creature's name, appearance, and location. This discharges the spell."
+			"Prized among those who seek to monitor the attention paid to them, this spell is said to be used by ‹faith/Arazni› to identify those followers who dare refer to her as \"the Harlot Queen\" so she might summarily dismiss them. When you cast this spell, designate a word, phrase, or name. If a creature within 1 mile of you uses that word, phrase, or name to refer to you, you immediately learn that creature's name, appearance, and location. This discharges the spell."
 		]
 	},
 	"untold_wonder": {
@@ -654,7 +654,7 @@
 			"",
 			"::spell{source=\"Heroes from the Fringe/19\" enchantment compulsion mindAffecting arc=5 brd=4 clr=5 mes=4 orc=5 pal=3 psy=5 skd=4 sor=5 war=5 wiz=5 ctSt cV cS rTouch target=\"creature touched\" durML=10 durD will srY harmless}",
 			"",
-			"You fill the target's mind with childlike wonder, allowing that creature to marvel at things that would be debilitating to others. Penalties that the target would take as a result of an emotion effect are instead treated as morale bonuses equal to half the penalty's value (for example, if the target were affected by a {spell/crushing despair} spell, she would gain a +1 morale bonus on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls, instead of the spell's normal effect). Furthermore, morale bonuses she gains from other sources are increased by 1. Finally, the target gains a +2 bonus on saving throws to resist spells of the pattern subschool, as her childlike wonder allows her to marvel at the beauty of such effects without being overwhelmed by them."
+			"You fill the target's mind with childlike wonder, allowing that creature to marvel at things that would be debilitating to others. Penalties that the target would take as a result of an emotion effect are instead treated as morale bonuses equal to half the penalty's value (for example, if the target were affected by a ‹spell/crushing despair› spell, she would gain a +1 morale bonus on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls, instead of the spell's normal effect). Furthermore, morale bonuses she gains from other sources are increased by 1. Finally, the target gains a +2 bonus on saving throws to resist spells of the pattern subschool, as her childlike wonder allows her to marvel at the beauty of such effects without being overwhelmed by them."
 		]
 	},
 	"unwelcome_halo": {
@@ -680,7 +680,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/253\" necromancy arc=6 brd=5 inq=5 mes=5 occ=5 psy=6 skd=5 sor=6 spr=6 wit=6 wiz=6 ctSt cV cS cMp=\"ruby dust worth 250 gp\" rClose target=\"one creature\" durD durRL=1 will srY}",
 			"",
-			"Like {spell/shield other}, unwilling shield creates a mystic connection between you and the target, but unlike *shield other,* the target shares the wounds that you receive. In addition, the link draws upon the target's life force to supplement your own defenses. You gain a +1 luck bonus to AC and on saving throws. You take only half damage from all wounds and attacks (including those dealt by special abilities) that deal hit point damage. The amount of damage not taken by you is taken by the target. Forms of harm that do not involve hit points, such as charm effects, ability damage, level draining, and death effects are not affected. If you take a reduction in hit points from a lowered Constitution score, the reduction is not split with the target because it is not hit point damage. When the spell ends, subsequent damage is no longer divided between you and the subject, but damage already split is not assigned to you.",
+			"Like ‹spell/shield other›, unwilling shield creates a mystic connection between you and the target, but unlike *shield other,* the target shares the wounds that you receive. In addition, the link draws upon the target's life force to supplement your own defenses. You gain a +1 luck bonus to AC and on saving throws. You take only half damage from all wounds and attacks (including those dealt by special abilities) that deal hit point damage. The amount of damage not taken by you is taken by the target. Forms of harm that do not involve hit points, such as charm effects, ability damage, level draining, and death effects are not affected. If you take a reduction in hit points from a lowered Constitution score, the reduction is not split with the target because it is not hit point damage. When the spell ends, subsequent damage is no longer divided between you and the subject, but damage already split is not assigned to you.",
 			"",
 			"If you and the target of the spell move out of range of each other, the spell remains active, but damage is no longer shared until you are once again within range of each other."
 		]
@@ -704,7 +704,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/49\" transmutation alc=1 arc=1 brd=1 hnt=1 inv=1 rgr=1 rma=1 skd=1 sor=1 wit=1 wiz=1 ctSt cV cS rPers target=you durML=1}",
 			"",
-			">*{race/Half-elves} have access to the following spell.*",
+			">*‹race/Half-elves› have access to the following spell.*",
 			"",
 			"You become one with the city around you, allowing you to move more easily through its crowds and buildings. For the duration of this spell, your base land speed increases by 10 feet. In addition, it does not cost you 2 squares of movement to enter a square with crowds, though the crowd still provides cover to you. This ability does not allow you to enter the space of enemy creatures without making the appropriate Acrobatics check. In addition, you receive a +4 circumstance bonus on Acrobatics checks made to move across uneven urban surfaces, such as roofs and broken pavement, and on Climb checks made to scale walls and other artificial surfaces. Whenever you make an Acrobatics check to make a long jump between two buildings or artificial structures, you are always treated as if you had a running start, regardless of the actual distance traveled."
 		]
@@ -730,7 +730,7 @@
 			"",
 			"::spell{source=\"Haunted Heroes Handbook/29\" mindAffecting emotion fear haunted necromancy ant=2 clr=2 inq=2 orc=2 war=2 ctSt cV cS cDF rClose area=\"one 5-ft cube/level (S)\" durD durHL=1 will srY}",
 			"",
-			"You shroud an area in Urgathoa's unclean influence, rendering those who pass through it and fail their Will saving throws more enticing to ravenous undead. When an affected creature comes within 60 feet of an undead creature, the spell immediately draws the undead creature's attention, granting it a +4 bonus on Perception checks to notice the affected creature and on saving throws to resist spells that hide or disguise the affected creature (such as {spell/hide from undead}). Once the undead creature notices the affected creature, it feels compelled to kill and devour the affected creature, and gains a +1 profane bonus on attack rolls made against the affected creature and a +1 profane bonus on saving throws against the affected creature's spells and special abilities. The undead also ignores any {rule/concealment} less than total concealment that an affected creature has. Each time the spell draws an undead creature's attention to an affected creature, the spell's haunt-like manifestation occurs during that round.",
+			"You shroud an area in Urgathoa's unclean influence, rendering those who pass through it and fail their Will saving throws more enticing to ravenous undead. When an affected creature comes within 60 feet of an undead creature, the spell immediately draws the undead creature's attention, granting it a +4 bonus on Perception checks to notice the affected creature and on saving throws to resist spells that hide or disguise the affected creature (such as ‹spell/hide from undead›). Once the undead creature notices the affected creature, it feels compelled to kill and devour the affected creature, and gains a +1 profane bonus on attack rolls made against the affected creature and a +1 profane bonus on saving throws against the affected creature's spells and special abilities. The undead also ignores any ‹rule/concealment› less than total concealment that an affected creature has. Each time the spell draws an undead creature's attention to an affected creature, the spell's haunt-like manifestation occurs during that round.",
 			"",
 			"#### Haunt Statistics",
 			"",
@@ -771,7 +771,7 @@
 			"",
 			"The target of this spell grows the fangs of a vampire, as well as a thirst for blood. For the duration of this spell, the target gains the ability to drain an opponent's blood during a grapple; if the target establishes or maintains a pin, it drains blood, dealing 1d4 points of Constitution damage. Each round it drains blood in this way, the target heals 5 hit points or gains 5 temporary hit points for the duration of the spell (up to a maximum number of temporary hit points equal to its full normal hit points). If the target does not drain blood in this way while under the effects of this spell, it becomes exhausted at the end of the spell's duration.",
 			"",
-			"**Note:** Normally, only {spelldef/transmutation} spells can be of the polymorph subschool. No errata has been issued for this spell; it's unclear if the school and subschool were an intentional design choice or a mistake."
+			"**Note:** Normally, only ‹spelldef/transmutation› spells can be of the polymorph subschool. No errata has been issued for this spell; it's unclear if the school and subschool were an intentional design choice or a mistake."
 		]
 	},
 	"vampiric_shadow_shield": {
@@ -800,7 +800,7 @@
 			"",
 			":::mythic{title=\"Mythic Vampiric Touch\"}",
 			"",
-			"{SOURCE Mythic Adventures/111}  ",
+			"‹SOURCE Mythic Adventures/111›  ",
 			"The spell's damage increases to 1d8 points of damage per 2 caster levels (maximum 10d8). Your melee touch attack to deliver the spell threatens a critical hit on a 19 or 20. This expanded threat range doesn't stack with other effects or abilities that increase the threat range. If the damage kills the target, you gain fast healing 5 for a number of rounds equal to the Hit Dice of the target.",
 			"",
 			":::"
@@ -853,7 +853,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/89\" abjuration good pal=1 ctSt cV cS cDF r=\"personal or 5 ft.; see text\" target=\"you or all creatures within 5 ft.; see text\" durML=10 durD willHalf srN}",
 			"",
-			">*{race/Aasimar/s} have access to the following spell.*",
+			">*‹race/Aasimar«s› have access to the following spell.*",
 			"",
 			"You surround yourself with a veil of positive energy, making it harder for evil outsiders to harm you. For the duration of this spell, you gain a +2 sacred bonus to AC and on saves. Both of these bonuses apply only against attacks or effects created by outsiders with the evil subtype. You can dismiss this spell as a swift action to deal 1d8 points of damage + 1 point per paladin level to all such outsiders within 5 feet. A Will save halves this damage."
 		]
@@ -990,13 +990,13 @@
 			"",
 			":::mythic{jl title=\"Mythic Vermin Shape I\"}",
 			"",
-			"{SOURCE Mythic Origins/13}",
+			"‹SOURCE Mythic Origins/13›",
 			"",
 			"Each mythic vermin shape spell must be learned individually, and you must know the respective non-mythic vermin shape spell to learn its mythic version. You don't have to learn them in order, and aren't required to know a lower-level mythic vermin shape spell before you learn a higher-level one (for example, you can learn mythic vermin shape II if you know vermin shape II, even if you don't know mythic vermin shape I). Each mythic vermin shape spell adds the following benefits to its respective non-mythic version.",
 			"",
 			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, the ability score penalties decrease by 2 (minimum penalty of 0), and the resistance bonus on saving throws against mind-affecting effects increases by 2. Choose one natural attack type the vermin form has, such as bite or claws. The critical multiplier for this attack type increases by 1 (maximum &times;4).",
 			"",
-			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, you can act as if you had the {feat/Natural Spell} feat for 1 round a number of times equal to your tier. For example, if you are 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic vermin shape.",
+			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, you can act as if you had the ‹feat/Natural Spell› feat for 1 round a number of times equal to your tier. For example, if you are 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic vermin shape.",
 			"",
 			":::",
 			"",
@@ -1012,13 +1012,13 @@
 			"",
 			":::mythic{jl title=\"Mythic Vermin Shape II\"}",
 			"",
-			"{SOURCE Mythic Origins/13}",
+			"‹SOURCE Mythic Origins/13›",
 			"",
 			"Each mythic vermin shape spell must be learned individually, and you must know the respective non-mythic vermin shape spell to learn its mythic version. You don't have to learn them in order, and aren't required to know a lower-level mythic vermin shape spell before you learn a higher-level one (for example, you can learn mythic vermin shape II if you know vermin shape II, even if you don't know mythic vermin shape I). Each mythic vermin shape spell adds the following benefits to its respective non-mythic version.",
 			"",
 			"The spell's bonuses to ability scores increase by 2, the natural armor bonus increases by 1, the ability score penalties decrease by 2 (minimum penalty of 0), and the resistance bonus on saving throws against mind-affecting effects increases by 2. Choose one natural attack type the vermin form has, such as bite or claws. The critical multiplier for this attack type increases by 1 (maximum &times;4).",
 			"",
-			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, you can act as if you had the {feat/Natural Spell} feat for 1 round a number of times equal to your tier. For example, if you are 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic vermin shape.",
+			"*Augmented (2nd):* If you expend two uses of mythic power, the ability score bonuses increase by an additional 2. During each casting of the spell, you can act as if you had the ‹feat/Natural Spell› feat for 1 round a number of times equal to your tier. For example, if you are 2nd tier, you can use the Natural Spell feat for 2 rounds per casting of mythic vermin shape.",
 			"",
 			":::"
 		]
@@ -1041,7 +1041,7 @@
 			"",
 			"Additionally, since your body is partially a swarm, you take only half damage from piercing and slashing attacks, unless those attacks would deal full damage or greater to a swarm (for instance, an area piercing attack would deal full damage to you). You can still be targeted by single-target spells but you gain a +2 circumstance bonus on any saving throws against them.",
 			"",
-			"Casting spells in this form is difficult and any spells with somatic components require a {rule/concentration} check as if casting defensively; if you are also casting the spell defensively, roll a single concentration check at a -5 penalty."
+			"Casting spells in this form is difficult and any spells with somatic components require a ‹rule/concentration› check as if casting defensively; if you are also casting the spell defensively, roll a single concentration check at a -5 penalty."
 		]
 	},
 	"versatile_weapon": {
@@ -1063,7 +1063,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/247\" abjuration ant=2 pal=2 ctSt cV cS rTouch target=\"armor or shield touched\" durML=1 saveNo srN}",
 			"",
-			"This functions as {spell/magic vestment}, except it only affects armor or a shield you are wearing or carrying. If the armor or shield is worn or carried by anyone other than you, the spell has no effect, but resumes its effect when you are wearing or carrying it again."
+			"This functions as ‹spell/magic vestment›, except it only affects armor or a shield you are wearing or carrying. If the armor or shield is worn or carried by anyone other than you, the spell has no effect, but resumes its effect when you are wearing or carrying it again."
 		]
 	},
 	"vex_giant": {
@@ -1152,7 +1152,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/68\" mindAffecting figment illusion arc=5 brd=5 clr=5 mes=5 orc=5 psy=5 skd=5 sor=5 war=5 wit=5 wiz=5 ctSt cV cS rLong area=\"one 10-ft. cube per level\" durDL=1 willDisbelief srN}",
 			"",
-			">*{race/Halfling/s} have access to the following spell.*",
+			">*‹race/Halfling«s› have access to the following spell.*",
 			"",
 			"You throw an illusion over an area to make creatures that view or interact with it believe it has suffered some great catastrophe or calamity that renders it utterly worthless for their needs. You must set a few general guidelines when casting the spell as to the nature of this disaster (fire, tornado, bandit raid, plague, etc.), after which the illusion fills in the remaining details to make it seem realistic. When casting the spell, you can grant creatures with particular, clearly identifiable physical traits (race, gender, age category, etc.) immunity to this spell. This allows all such eligible creatures to perceive the true nature of the affected area instead of its illusory appearance. Creatures without this immunity that fail their saving throws always perceive the affected area as having absolutely nothing of interest or worth to them. Unless they have reason for suspicion, they always move on without closely investigating the area. Creatures with sufficient reasons for suspicion who do choose to investigate the area gain another saving throw, this one with a +2 bonus, as they enter the village and directly interact with the illusion.",
 			"",
@@ -1322,7 +1322,7 @@
 			"",
 			"::spell{source=\"Inner Sea World Guide/297;Pathfinder #5: Sins of the Saviors/71\" mindAffecting evil illusion phantasm clr=7 inq=6 orc=7 sha=7 wit=7 ct=\"10 minutes (see text)\" cV cS r=unlimited target=\"one living creature\" durI save=\"Will negates (see text)\" srY}",
 			"",
-			"This spell functions exactly as the spell {spell/nightmare}. In addition to the effects of that spell, you can cause a second spell to be delivered when the target wakes at the nightmare's conclusion. You must have this second spell prepared, and it must be cast immediately after vision of Lamashtu (effectively adding the two spells' casting times). This second spell \"rides along\" with the nightmare, affecting the target as soon as it wakes from its fitful sleep. Any spell can be sent along with the nightmare, so long as it is of 6th level or lower, affects one target (which is always the nightmare's recipient), and does not deal hit point damage. The second spell's range is irrelevant for the purposes of vision of Lamashtu, and even touch attacks can be delivered in this manner (you must still make a successful touch attack in order to affect the target, though, with the act of touching occurring within the context of the victim's nightmare). The target is allowed to save against the second spell if a save is allowed. For example, a cleric of Lamashtu could send bestow curse along as part of a vision of Lamashtu, but not blade barrier (affects an area), destruction (too high level), or inflict moderate wounds (deals hit point damage)."
+			"This spell functions exactly as the spell ‹spell/nightmare›. In addition to the effects of that spell, you can cause a second spell to be delivered when the target wakes at the nightmare's conclusion. You must have this second spell prepared, and it must be cast immediately after vision of Lamashtu (effectively adding the two spells' casting times). This second spell \"rides along\" with the nightmare, affecting the target as soon as it wakes from its fitful sleep. Any spell can be sent along with the nightmare, so long as it is of 6th level or lower, affects one target (which is always the nightmare's recipient), and does not deal hit point damage. The second spell's range is irrelevant for the purposes of vision of Lamashtu, and even touch attacks can be delivered in this manner (you must still make a successful touch attack in order to affect the target, though, with the act of touching occurring within the context of the victim's nightmare). The target is allowed to save against the second spell if a save is allowed. For example, a cleric of Lamashtu could send bestow curse along as part of a vision of Lamashtu, but not blade barrier (affects an area), destruction (too high level), or inflict moderate wounds (deals hit point damage)."
 		]
 	},
 	"visualization_of_the_body": {
@@ -1371,7 +1371,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/248\" acid evocation alc=4 arc=4 bld=4 inv=4 sor=4 sum=4 usm=4 wiz=4 ctSt cV cS cMp=\"a piece of lemon rind\" rPers target=you durD durRL=1}",
 			"",
-			"This functions as {spell/fire shield}, except it wreathes you in yellow or green acidic mist instead of hot or cold flames. The spell deals acid damage to attackers and protects you against acid damage. This spell does not shed light."
+			"This functions as ‹spell/fire shield›, except it wreathes you in yellow or green acidic mist instead of hot or cold flames. The spell deals acid damage to attackers and protects you against acid damage. This spell does not shed light."
 		]
 	},
 	"vocal_alteration": {
@@ -1435,7 +1435,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/119\" conjuration creation teleportation alc=3 arc=4 inv=3 mag=3 psy=4 sor=4 sum=3 usm=3 wiz=4 ctSt cV cS rPers effect=\"creates one ooze duplicate of the caster\" durRL=1}",
 			"",
-			">*{race/Goblin/s} have access to the following spell.*",
+			">*‹race/Goblin«s› have access to the following spell.*",
 			"",
 			"Upon casting this spell, you vomit forth a disgusting ooze copy of yourself into a single adjacent square. As long as the twin exists, whenever you take a move action to move, the twin can move as well, although it does not need to follow you and cannot take any other actions. On subsequent rounds, at the start of your turn, you can instantaneously exchange places with your twin, as if using teleport. This is not an action and does not provoke an attack of opportunity.",
 			"",
@@ -1443,7 +1443,7 @@
 			"",
 			":::mythic{title=\"Mythic Vomit Twin\"}",
 			"",
-			"{SOURCE Mythic Adventures/111}  ",
+			"‹SOURCE Mythic Adventures/111›  ",
 			"Any spell you cast that has a range of touch, close, medium, or long can originate from the twin instead of you. The twin gains a deflection bonus to AC equal to your tier, and has hit points equal to double your caster level. The twin can attempt attacks of opportunity using your base attack bonus, but has no ability score modifiers, skills, or feats. It threatens an area appropriate for your size and wields a copy of the weapon you were wielding when you cast mythic vomit twin. If the twin's weapon is destroyed or disarmed, on your turn the twin generates a new weapon from its own substance. Its attacks deal damage using that weapon's die type.",
 			"",
 			"*Augmented (5th):* If you expend two uses of mythic power, you create two copies when you cast the spell, and both can be active at the same time. If you instead expend three uses of mythic power, you create three copies when you cast the spell, and all three can be active at the same time.",
@@ -1470,7 +1470,7 @@
 			"",
 			"::spell{source=\"Ultimate Wilderness/14\" transmutation arc=5 clr=5 drd=5 hnt=5 mag=5 occ=5 orc=5 sha=5 sor=5 spr=5 war=5 wiz=5 ctSt cV cS cMp=\"a dandelion seed\" rClose targets=\"up to one creature per 2 levels, no two of which can be more than 30 ft. apart\" durHL=1 will srY}",
 			"",
-			">*{race/Gathlain/s} have access to the following spell.*",
+			">*‹race/Gathlain«s› have access to the following spell.*",
 			"",
 			"You make the targets light enough to be carried by wind. Creatures affected by this spell suffer cumulative penalties for attacking as if under the effects of levitate unless they have a fly speed. Treat each target as two size categories lighter for the purposes of being checked or blown away by wind. If a target has a fly speed, it can fly overland at the wind's speed in the same direction as the wind by succeeding at a DC 20 Fly check. If a creature flying overland this way attempts to change direction, it risks being blown away as usual. By linking hands or creating a connection with rope, creatures affected by this spell can be towed through the air by a flying creature as if each weighed only one-eighth its actual weight."
 		]
@@ -1518,7 +1518,7 @@
 			"",
 			":::mythic{title=\"Mythic Walk through Space\"}",
 			"",
-			"{SOURCE Mythic Adventures/111}  ",
+			"‹SOURCE Mythic Adventures/111›  ",
 			"You can teleport as either a move action or a swift action, but never more than once per round. If you expend a move action and a swift action, you may teleport up to 60 feet.",
 			"",
 			":::"
@@ -1532,7 +1532,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/198\" necromancy arc=4 brd=4 clr=5 orc=5 psy=4 skd=4 sor=4 war=5 wit=4 wiz=4 ctSt cV cS rMed effect=\"translucent wall 20 ft. long/level or a translucent ring with a radius of up to 5 ft./two levels; either form 20 ft. high\" durCon=\"+ 1 round/level\" fort srY}",
 			"",
-			"You create a translucent wall of energy, within which can be seen indistinct images of faces with their eyes or ears sewn shut. When you create the wall, decide whether it blinds or deafens. Any creature that passes through the wall must save or become permanently blinded or deafened (as {spell/blindness//deafness}).",
+			"You create a translucent wall of energy, within which can be seen indistinct images of faces with their eyes or ears sewn shut. When you create the wall, decide whether it blinds or deafens. Any creature that passes through the wall must save or become permanently blinded or deafened (as ‹spell/blindness/deafness›).",
 			"",
 			"The wall must be vertical and either rectangular or a ring. It need not touch the ground. The wall must be continuous and unbroken when formed. If its surface is broken by any object or creature when it is cast, the spell fails."
 		]
@@ -1561,7 +1561,7 @@
 			"",
 			"::spell{source=\"Inner Sea Races/223\" conjuration creation water arc=4 drd=4 hnt=3 mag=4 rgr=3 sha=4 sor=4 wiz=4 ctSt cV cS cMDFp=\"a bit of coral\" rMed effect=\"wall up to 10 ft./level long and 5 ft./level high (S)\" durCon=\"+ 1 round/level\" save=\"none, see text\" srY}",
 			"",
-			">*The following spell is available to the indicated race or ethnicity: {race/Merfolk}*",
+			">*The following spell is available to the indicated race or ethnicity: ‹race/Merfolk›*",
 			"",
 			"You conjure a 5-foot-thick wall of seawater with a powerful current flowing toward one side of the wall, selected by you; a creature attempting to swim against this current must spend 4 squares of movement to enter a square of the wall. A creature that begins its turn in the wall is ejected in the direction of the current just before it acts. The wall provides cover against attacks from out of the water, as usual for a body of water. The water and the currents deflect physical ranged attacks into or through the wall, unless a weapon used is exceptionally massive (such as a siege engine). A creature submerged in the wall takes the usual penalties for underwater combat. The wall blocks gases and liquids and prevents water from mixing at its edges."
 		]
@@ -1615,11 +1615,11 @@
 			"",
 			"If you evoke the wall so that it appears where creatures are, each creature takes damage as if passing through the wall. If any 5-foot length of wall takes 20 points or more of cold damage in 1 round, that length goes away. (Do not divide cold damage by 2, as normal for objects.)",
 			"",
-			"Wall of fire can be made permanent with a {spell/permanency} spell. A permanent wall of fire that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.",
+			"Wall of fire can be made permanent with a ‹spell/permanency› spell. A permanent wall of fire that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.",
 			"",
 			":::mythic{title=\"Mythic Wall of Fire\"}",
 			"",
-			"{SOURCE Mythic Adventures/111}  ",
+			"‹SOURCE Mythic Adventures/111›  ",
 			"The wall's damage increases to 2d6 points of fire damage to creatures within 10 feet, 1d6 points of fire damage to those past 10 feet but within 20 feet, and 2d8 points of fire damage + 1 point of fire damage per caster level (maximum +20) to any creature passing through it. Any creature that passes through the wall or is within 5 feet of the wall when it's created must succeed at a Reflex save or catch fire. Attempts to extinguish this fire use the spell's save DC.",
 			"",
 			"*Augmented (5th):* If you expend two uses of mythic power, you may move the wall 5 feet in any direction as a move action on your turn. Moving the wall into a fireproof barrier (such as a stone wall) destroys the part of the wall that overlaps the barrier.",
@@ -1638,18 +1638,18 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/365\" force evocation arc=5 mag=5 occ=5 psy=5 sor=5 wiz=5 ctSt cV cS cMp=\"powdered quartz\" rClose effect=\"wall whose area is up to one 10-ft. square/level\" durD durRL=1 saveNo srN}",
 			"",
-			"A wall of force creates an invisible wall of pure force. The wall cannot move and is not easily destroyed. A wall of force is immune to {spell/dispel magic}, although a {spell/mage's disjunction} can still dispel it. A wall of force can be damaged by spells as normal, except for {spell/disintegrate}, which automatically destroys it. It can be damaged by weapons and supernatural abilities, but a wall of force has hardness 30 and a number of hit points equal to 20 per caster level. Contact with a {magic-artifact/sphere of annihilation} or {magic-rod/rod of cancellation} instantly destroys a wall of force.",
+			"A wall of force creates an invisible wall of pure force. The wall cannot move and is not easily destroyed. A wall of force is immune to ‹spell/dispel magic›, although a ‹spell/mage's disjunction› can still dispel it. A wall of force can be damaged by spells as normal, except for ‹spell/disintegrate›, which automatically destroys it. It can be damaged by weapons and supernatural abilities, but a wall of force has hardness 30 and a number of hit points equal to 20 per caster level. Contact with a ‹magic-artifact/sphere of annihilation› or ‹magic-rod/rod of cancellation› instantly destroys a wall of force.",
 			"",
-			"Breath weapons and spells cannot pass through a wall of force in either direction, although {spell/dimension door}, {spell/teleport}, and similar effects can bypass the barrier. It blocks ethereal creatures as well as material ones (though ethereal creatures can usually circumvent the wall by going around it, through material floors and ceilings). Gaze attacks can operate through a wall of force.",
+			"Breath weapons and spells cannot pass through a wall of force in either direction, although ‹spell/dimension door›, ‹spell/teleport›, and similar effects can bypass the barrier. It blocks ethereal creatures as well as material ones (though ethereal creatures can usually circumvent the wall by going around it, through material floors and ceilings). Gaze attacks can operate through a wall of force.",
 			"",
 			"The caster can form the wall into a flat, vertical plane whose area is up to one 10-foot square per level. The wall must be continuous and unbroken when formed. If its surface is broken by any object or creature, the spell fails.",
 			"",
-			"Wall of force can be made permanent with a {spell/permanency} spell.",
+			"Wall of force can be made permanent with a ‹spell/permanency› spell.",
 			"",
 			":::mythic{title=\"Mythic Wall of Force\"}",
 			"",
-			"{SOURCE Mythic Adventures/111}  ",
-			"The wall's hardness increases to 40, and its hit points increase to 30 per caster level. A non-mythic {spell/disintegrate} spell or {magic-rod/rod of cancellation} negates a 10-foot-square section of a mythic wall of force for 1 round, after which the wall reforms at full strength. One side of the wall (chosen by you) repels creatures within 5 feet as a {spell/repulsion} spell (using the DC wall of force would have if it allowed a saving throw).",
+			"‹SOURCE Mythic Adventures/111›  ",
+			"The wall's hardness increases to 40, and its hit points increase to 30 per caster level. A non-mythic ‹spell/disintegrate› spell or ‹magic-rod/rod of cancellation› negates a 10-foot-square section of a mythic wall of force for 1 round, after which the wall reforms at full strength. One side of the wall (chosen by you) repels creatures within 5 feet as a ‹spell/repulsion› spell (using the DC wall of force would have if it allowed a saving throw).",
 			"",
 			":::"
 		]
@@ -1677,7 +1677,7 @@
 			"",
 			":::mythic{title=\"Mythic Wall of Ice\"}",
 			"",
-			"{SOURCE Mythic Adventures/111}  ",
+			"‹SOURCE Mythic Adventures/111›  ",
 			"The wall's hit points increase to 5 hit points per inch of thickness. Add your tier to the Strength check DC to break through the wall. The damage dealt to those that step through the wall increases to 1d8 points of cold damage + 1 point per caster level. Any creature that passes through the wall must succeed at a Fortitude save or be staggered for 1d4 rounds; this is a cold effect.",
 			"",
 			"*Augmented (5th):* If you expend two uses of mythic power, you cover the wall in sharp, protruding icicles. Any creature that touches, strikes, or breaks through the wall takes 1d6 points of cold damage, 1d6 points of piercing damage, and 1 point of bleed damage.",
@@ -1706,7 +1706,7 @@
 			"",
 			":::mythic{title=\"Mythic Wall of Iron\"}",
 			"",
-			"{SOURCE Mythic Adventures/111}  ",
+			"‹SOURCE Mythic Adventures/111›  ",
 			"The wall is 1 inch thick per 2 caster levels. If you create an unattached wall, you can weight it so there is a 75% chance it falls on its own in the direction you want. Subtract 5 from the DC to push it in the direction you want, and add 5 to the DC to push the wall in the other direction.",
 			"",
 			"*Augmented (7th):* If you expend two uses of mythic power, one side of the wall (your choice) has a powerful magnetic charge that attracts metal within 10 feet. The wall automatically attempts a combat maneuver check to pull once per round against any creature that comes in range wearing metal armor, wielding a metal weapon, or otherwise carrying a significant amount of metal.",
@@ -1743,7 +1743,7 @@
 			"",
 			"::spell{source=\"The Dragon's Demand/24\" evocation light arc=5 drd=5 hnt=5 sor=5 wiz=5 ctSt cV cS cMDFp=\"a chip of mica\" rMed effect=\"10-ft.-high vertical sheet of light up to 5 ft. long/level\" durML=1 durD save=\"Fortitude partial, see text\" srY}",
 			"",
-			"An immobile, blinding curtain of white light that blocks line of sight springs into existence. The wall sheds bright light to a range of 60 feet in all directions. A creature adjacent to the wall is blinded as long as it remains adjacent plus an additional 1d4 rounds thereafter-closing its eyes or succeeding at a Fortitude save negates the effect for 1 round. A creature that passes through the wall is automatically blinded, even if its eyes are closed. A creature from the Plane of Shadow gains 1d4 negative levels each round it spends within 5 feet of the wall (Fortitude negates). Passing through the wall imposes a -4 penalty on the save for that round. Twenty-four hours after gaining these negative levels, the subject must attempt a new Fortitude saving throw for each negative level. If a save succeeds, 1 negative level is removed. If it fails, the negative level becomes permanent. Wall of light can be made permanent with {spell/permanency} (with a minimum caster level of 13th and cost of 11,000 gp)."
+			"An immobile, blinding curtain of white light that blocks line of sight springs into existence. The wall sheds bright light to a range of 60 feet in all directions. A creature adjacent to the wall is blinded as long as it remains adjacent plus an additional 1d4 rounds thereafter-closing its eyes or succeeding at a Fortitude save negates the effect for 1 round. A creature that passes through the wall is automatically blinded, even if its eyes are closed. A creature from the Plane of Shadow gains 1d4 negative levels each round it spends within 5 feet of the wall (Fortitude negates). Passing through the wall imposes a -4 penalty on the save for that round. Twenty-four hours after gaining these negative levels, the subject must attempt a new Fortitude saving throw for each negative level. If a save succeeds, 1 negative level is removed. If it fails, the negative level becomes permanent. Wall of light can be made permanent with ‹spell/permanency› (with a minimum caster level of 13th and cost of 11,000 gp)."
 		]
 	},
 	"wall_of_mist": {
@@ -1834,7 +1834,7 @@
 			"",
 			":::mythic{title=\"Mythic Wall of Stone\"}",
 			"",
-			"{SOURCE Mythic Adventures/112}  ",
+			"‹SOURCE Mythic Adventures/112›  ",
 			"The wall is 1 inch thick per 2 caster levels. The wall's hardness increases to 12.",
 			"",
 			"*Augmented (7th):* If you expend two uses of mythic power, the wall is impassable to ethereal travel and spells such as passwall and phase door. The wall is immune to non-mythic disintegrate, shatter, sympathetic vibration, and other non-mythic magical effects that specifically affect stone (including earthquake, soften earth and stone, and transmute rock to mud).",
@@ -1878,7 +1878,7 @@
 			"",
 			":::mythic{title=\"Mythic Wall of Thorns\"}",
 			"",
-			"{SOURCE Mythic Adventures/112}  ",
+			"‹SOURCE Mythic Adventures/112›  ",
 			"The damage dealt increases to 30 minus the creature's AC. Any creature adjacent to the wall is automatically grappled by it. Any creature that begins its turn grappled by the wall takes 2d6 points of damage. Half of this damage is bludgeoning, and the other half is piercing. For the purpose of escaping this grapple, the wall's CMD is 10 + your caster level + your tier.",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, the wall automatically grapples creatures other than you within 10 feet. Any creature grappled by the wall takes 2d6 points of bleed damage. If a creature doesn't escape the wall's grapple, on its next turn the wall automatically pins it.",
@@ -1916,7 +1916,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/29\" abjuration clr=4 drd=3 hnt=3 orc=4 rgr=3 sha=3 war=4 wit=3 ctSt cV cS rTouch target=\"one creature\" durHL=1 will svHarmless srN}",
 			"",
-			">*Most know of elven magic for its power, but those who delve deeper discover its elegance and ties to the natural world. The following spell is just one that the {race/elves} are known for.*",
+			">*Most know of elven magic for its power, but those who delve deeper discover its elegance and ties to the natural world. The following spell is just one that the ‹race/elves› are known for.*",
 			"",
 			"This spell harnesses the power of the seasons to protect the target and grant a number of bonuses. This spell has one of four different effects. The caster of the spell can select any one of the following four effects, but can change the effect as a standard action that reduces the total remaining duration by 1 hour.",
 			"",
@@ -1963,7 +1963,7 @@
 			"",
 			"The focus of this spell flies upward above your head and takes a defensive position within your space. It lunges at opponents, as if guided by a martially trained hand, parrying and turning back melee attacks aimed at you, but does not strike back at any opponent nor does it damage them. The weapon serves only as a defense. While it protects you, you can cast spells without provoking attacks of opportunity, without the need to cast them defensively.",
 			"",
-			"A creature with the {feat/Disruptive} feat can easily bypass this spell's defenses. You provoke attacks of opportunity for casting spells against these creatures even when subject to this spell, though you can still choose to cast defensively."
+			"A creature with the ‹feat/Disruptive› feat can easily bypass this spell's defenses. You provoke attacks of opportunity for casting spells against these creatures even when subject to this spell, though you can still choose to cast defensively."
 		]
 	},
 	"warp_metal": {
@@ -1978,7 +1978,7 @@
 			"",
 			"You can warp one Small or smaller object or its equivalent per caster level. A Medium object counts as two Small objects, a Large object as four, a Huge object as eight, a Gargantuan object as 16, and a Colossal object as 32.",
 			"",
-			"Alternatively, you can unwarp metal (effectively warping it back to normal) with this spell. {spell/Make whole}, on the other hand, does nothing to repair a warped item.",
+			"Alternatively, you can unwarp metal (effectively warping it back to normal) with this spell. ‹spell/Make whole›, on the other hand, does nothing to repair a warped item.",
 			"",
 			"You can combine multiple consecutive castings of warp metal to warp (or unwarp) an object that is too large for you to warp with a single casting. Until the object is completely warped, it suffers no ill effects."
 		]
@@ -1995,7 +1995,7 @@
 			"",
 			"You may warp one Small or smaller object or its equivalent per caster level. A Medium object counts as two Small objects, a Large object as four, a Huge object as eight, a Gargantuan object as 16, and a Colossal object as 32.",
 			"",
-			"Alternatively, you can unwarp wood (effectively warping it back to normal) with this spell. {spell/Make whole}, on the other hand, does no good in repairing a warped item.",
+			"Alternatively, you can unwarp wood (effectively warping it back to normal) with this spell. ‹spell/Make whole›, on the other hand, does no good in repairing a warped item.",
 			"",
 			"You can combine multiple consecutive warp wood spells to warp (or unwarp) an object that is too large for you to warp with a single spell. Until the object is completely warped, it suffers no ill effects."
 		]
@@ -2008,7 +2008,7 @@
 			"",
 			"::spell{source=\"Ultimate Magic/248\" enchantment compulsion mindAffecting ant=1 brd=2 drd=2 hnt=1 inq=1 mes=2 pal=1 rgr=1 skd=2 ctM=1 cV cS cMp=\"a swatch of black cloth\" rClose target=\"one indifferent or friendly animal\" durHL=1 saveNo srY}",
 			"",
-			"You instill the target animal with the combat training general purpose (see the {skill/Handle Animal} skill). This supersedes the animal's previous trained purpose and any tricks it knows. When the spell ends, it reverts to its previous trained purpose and known tricks."
+			"You instill the target animal with the combat training general purpose (see the ‹skill/Handle Animal› skill). This supersedes the animal's previous trained purpose and any tricks it knows. When the spell ends, it reverts to its previous trained purpose and known tricks."
 		]
 	},
 	"watchful_animal": {
@@ -2030,9 +2030,9 @@
 			"",
 			"::spell{source=\"Dwarves of Golarion/23\" abjuration clr=1 orc=1 pal=1 war=1 ctSt cV cS cFp=\"a pair of silver or gold rings worth 10 gp, worn by both you and the target\" rClose target=\"one creature\" durML=1 will srY harmless}",
 			"",
-			">*In order to prepare this spell, the caster must spend an hour performing a ritual in which he beseeches {faith/Torag} (or a member of his family) for the aid of {faith/Folgrit}. For 24 hours after the ritual, the caster may prepare spells of the requested deity. The caster may only attune himself to one additional deity at a time.*",
+			">*In order to prepare this spell, the caster must spend an hour performing a ritual in which he beseeches ‹faith/Torag› (or a member of his family) for the aid of ‹faith/Folgrit›. For 24 hours after the ritual, the caster may prepare spells of the requested deity. The caster may only attune himself to one additional deity at a time.*",
 			"",
-			"This spell emulates Folgrit's motherly protection. It functions as {spell/shield other}, except as noted above, and you must maintain line of effect to the target."
+			"This spell emulates Folgrit's motherly protection. It functions as ‹spell/shield other›, except as noted above, and you must maintain line of effect to the target."
 		]
 	},
 	"water_breathing": {
@@ -2114,13 +2114,13 @@
 			"",
 			"::spell{source=\"Book of the Damned/186;Pathfinder #5: Sins of the Saviors/71;Gods and Magic/25;Inner Sea World Guide/297;Pathfinder Comics #5/28\" conjuration creation alc=2 ant=2 clr=3 drd=3 hnt=3 inv=3 orc=3 war=3 wit=3 ctSt cV cS cMp=\"250 gp of powdered amber\" rClose effect=\"up to 1 flask of the waters of Lamashtu per 2 levels\" durI fortPartial srN}",
 			"",
-			"This spell generates what appears to be clear, pure water, but it is in fact a foul secretion known as the waters of Lamashtu. The liquid functions in all the same ways as unholy water (see {spell/curse water}). In addition, any creature that is anointed with or drinks this fluid must attempt a Fortitude save (drinking the waters of Lamashtu is particularly effective - a creature that drinks the liquid takes a -4 penalty on its save to resist its effects). Success causes the creature to become violently ill, vomit up the fluid, and become sickened for 1d4 rounds. Failure indicates the water takes root and wreaks havoc on the victim's mind (dealing 1d6 points of Intelligence damage) and twists and deforms its body (dealing 1d6 points of Dexterity damage). The subject's Dexterity and Intelligence cannot drop below 1 as a result of this effect. Casting this spell creates approximately 2 ounces of the waters of Lamashtu-enough for one dose or, if bottled, one use as a thrown weapon.",
+			"This spell generates what appears to be clear, pure water, but it is in fact a foul secretion known as the waters of Lamashtu. The liquid functions in all the same ways as unholy water (see ‹spell/curse water›). In addition, any creature that is anointed with or drinks this fluid must attempt a Fortitude save (drinking the waters of Lamashtu is particularly effective - a creature that drinks the liquid takes a -4 penalty on its save to resist its effects). Success causes the creature to become violently ill, vomit up the fluid, and become sickened for 1d4 rounds. Failure indicates the water takes root and wreaks havoc on the victim's mind (dealing 1d6 points of Intelligence damage) and twists and deforms its body (dealing 1d6 points of Dexterity damage). The subject's Dexterity and Intelligence cannot drop below 1 as a result of this effect. Casting this spell creates approximately 2 ounces of the waters of Lamashtu-enough for one dose or, if bottled, one use as a thrown weapon.",
 			"",
 			"The fluid can be created and stored indefinitely, though it cannot be created inside a creature. Extensive exposure to the waters of Lamashtu (such as drinking nothing else for months at a time) can have other long-term effects on the target, including the development of monstrous deformities or even total transformation into a beast, depending on the GM's discretion (these mutations are rarely, if ever, beneficial to the victim).",
 			"",
 			":::mythic{title=\"Mythic Waters of Lamashtu\"}",
 			"",
-			"{SOURCE Mythic Origins/13}  ",
+			"‹SOURCE Mythic Origins/13›  ",
 			"When used as unholy water, mythic waters of Lamashtu deal twice as much damage and prevent the creature from regaining hit points from fast healing or regeneration for 1d4 rounds (meaning the creature can be killed normally). The ability damage from the waters increases to 2d4, and a creature imbibing or anointed by the waters is nauseated for 1d4 rounds if it fails its saving throw. The long-term effects of drinking mythic waters of Lamashtu happen more quickly, requiring only regular exposure over weeks instead of massive quantities for months, and warp the consuming creature more extensively (at the GM's discretion). Monstrosities created by mythic waters of Lamashtu can breed with members of their original species and pass on such mutations to their offspring.",
 			"",
 			":::"
@@ -2266,11 +2266,11 @@
 			"",
 			"The strands of a web spell are flammable. A flaming weapon can slash them away as easily as a hand brushes away cobwebs. Any fire can set the webs alight and burn away one 5-foot square in 1 round. All creatures within flaming webs take 2d4 points of fire damage from the flames.",
 			"",
-			"Web can be made permanent with a {spell/permanency} spell. A permanent web that is damaged (but not destroyed) regrows in 10 minutes.",
+			"Web can be made permanent with a ‹spell/permanency› spell. A permanent web that is damaged (but not destroyed) regrows in 10 minutes.",
 			"",
 			":::mythic{title=\"Mythic Web\"}",
 			"",
-			"{SOURCE Mythic Adventures/112}  ",
+			"‹SOURCE Mythic Adventures/112›  ",
 			"The webs are filled with spider swarms (one spider swarm for each 10-foot-by-10-foot area covered in webs). Any creature caught in or moving through the webs is attacked by a spider swarm (or multiple swarms, if it passes through the space of more than one swarm). The spiders don't leave the area of webbing. Destroying the web in an area destroys the swarm there as well, and completely destroying the web destroys all the swarms.",
 			"",
 			"*Augmented (5th):* If you expend two uses of mythic power, the webs increase to a 50-foot-radius spread. Webs span any gaps between available anchor points in the area, possibly creating multiple non-contiguous webbed areas. Non-mythic abilities that make creatures immune to webs (such as freedom of movement) instead give them a +5 bonus on saves, combat maneuver checks, and Escape Artist checks against mythic web.",
@@ -2286,7 +2286,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/107\" conjuration creation arc=1 bld=1 mag=1 sor=1 wit=1 wiz=1 ctSt cV cS rClose effect=\"fist-sized blob of webbing\" durML=1 save=\"Reflex negates, see text\" srN}",
 			"",
-			">*{race/Drow} have access to the following spell.*",
+			">*‹race/Drow› have access to the following spell.*",
 			"",
 			"You launch a ball of webbing at a target, which must make a save or be affected as if by a web spell occupying only the creature's space. If the creature saves or breaks free of the webbing, the remaining webs dissolve and the square is not considered difficult terrain. The spell has no effect if the target is not on or adjacent to a solid surface that can support the webbing."
 		]
@@ -2299,15 +2299,15 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/107\" conjuration creation arc=4 sor=4 wit=4 wiz=4 ctSt cV cS rMed effect=\"cloud spreads in 20-ft. radius, 20 ft. high\" durML=1 save=\"Reflex partial, see text\" srN}",
 			"",
-			">*{race/Drow} have access to the following spell.*",
+			">*‹race/Drow› have access to the following spell.*",
 			"",
-			"You create a cloud of flame-resistant strands of adhesive webbing that billows and flows much like a {spell/cloudkill} spell. The cloud moves away from you at a rate of 10 feet per round, rolling along the surface of the ground.",
+			"You create a cloud of flame-resistant strands of adhesive webbing that billows and flows much like a ‹spell/cloudkill› spell. The cloud moves away from you at a rate of 10 feet per round, rolling along the surface of the ground.",
 			"",
 			"Figure out the cloud's new spread each round based on its new point of origin, which is 10 feet farther away from the point of origin where the caster cast the spell. Creatures trapped in the webbing remain trapped even after the cloud passes, but the area the cloud leaves behind does not count as difficult terrain.",
 			"",
 			"Because the webbing is heavier than air, it sinks to the lowest level of the land, even pouring down den or sinkhole openings. The cloud of webbing cannot penetrate liquids, nor can it be cast underwater.",
 			"",
-			"The cloud otherwise acts like a {spell/web} spell. A creature in the cloud at the start of its turn must save against the cloud or be affected. The webbing of this spell is flammable (as the web spell), but has fire resistance 5."
+			"The cloud otherwise acts like a ‹spell/web› spell. A creature in the cloud at the start of its turn must save against the cloud or be affected. The webbing of this spell is flammable (as the web spell), but has fire resistance 5."
 		]
 	},
 	"web_shelter": {
@@ -2344,11 +2344,11 @@
 			"",
 			"::spell{source=\"Pathfinder #113: What Grows Within/66\" evil necromancy arc=6 brd=6 clr=6 drd=6 hnt=6 mes=6 orc=6 psy=6 skd=6 sor=6 war=6 wit=6 wiz=6 ctSw cV rPers effect=you durRL=1 save=\"see text\" srN}",
 			"",
-			">*This spell is associated with {faith/Xhamen-Dor}, but there are no restrictions on its use by others.*",
+			">*This spell is associated with ‹faith/Xhamen-Dor›, but there are no restrictions on its use by others.*",
 			"",
-			"By speaking the name {monster/\"Xhamen-Dor,\"} you infuse yourself with the essence of the Inmost Blot and gain a +3 profane bonus on Will saving throws for the spell's duration. When you prepare what grows within for the first time, or the first time you use it via a spell completion or spell trigger item, you can thereafter be targeted by Xhamen-Dor's infected dreams ability. As long as you are under the effects of what grows within, your mind-affecting spells carry this supernatural taint within them and can infect those who succumb to those effects. Whenever you successfully affect a creature with one of your mind-affecting spells (this requires the target to fail its saving throw against the spell if the spell allows a save, but automatically affects a target if the spell does not allow a saving throw), that target must also succeed at a Fortitude saving throw against what grows within or it immediately becomes afflicted by a lesser version of Xhamen-Dor's seeded infestation. This infestation does not expose the victim to Xhamen-Dor's infectious dreams, but it can ultimately result in that creature's transformation into one of the seeded. Each time you affect a creature with what grows within in this manner, the remaining duration of what grows within is reduced by 1 round. If you affect multiple creatures in a round, you choose the order in which they must save against the effects of what grows within, and reduce the spell's remaining duration by 1 round each time one of them is affected by the infestation.",
+			"By speaking the name ‹monster/\"Xhamen-Dor,\"› you infuse yourself with the essence of the Inmost Blot and gain a +3 profane bonus on Will saving throws for the spell's duration. When you prepare what grows within for the first time, or the first time you use it via a spell completion or spell trigger item, you can thereafter be targeted by Xhamen-Dor's infected dreams ability. As long as you are under the effects of what grows within, your mind-affecting spells carry this supernatural taint within them and can infect those who succumb to those effects. Whenever you successfully affect a creature with one of your mind-affecting spells (this requires the target to fail its saving throw against the spell if the spell allows a save, but automatically affects a target if the spell does not allow a saving throw), that target must also succeed at a Fortitude saving throw against what grows within or it immediately becomes afflicted by a lesser version of Xhamen-Dor's seeded infestation. This infestation does not expose the victim to Xhamen-Dor's infectious dreams, but it can ultimately result in that creature's transformation into one of the seeded. Each time you affect a creature with what grows within in this manner, the remaining duration of what grows within is reduced by 1 round. If you affect multiple creatures in a round, you choose the order in which they must save against the effects of what grows within, and reduce the spell's remaining duration by 1 round each time one of them is affected by the infestation.",
 			"",
-			"::aff[Lesser Seeded Infestation]{iconI infest saveF=\"the spell's save DC\" freq=\"1/day\" effConD=\"1d4\" cure=None extra=\"This infestation can be cured by magic alone. A creature whose Constitution is reduced to 0 by this infestation dies and rises from death in 1d4 rounds as a %%template/seeded%% creature. This is an infestation effect.\"}"
+			"::aff[Lesser Seeded Infestation]{iconI infest saveF=\"the spell's save DC\" freq=\"1/day\" effConD=\"1d4\" cure=None extra=\"This infestation can be cured by magic alone. A creature whose Constitution is reduced to 0 by this infestation dies and rises from death in 1d4 rounds as a ‹template/seeded› creature. This is an infestation effect.\"}"
 		]
 	},
 	"whip_of_spiders": {
@@ -2359,23 +2359,23 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/199\" conjuration summoning arc=2 brd=2 drd=2 hnt=2 skd=2 sor=2 sum=2 usm=2 wit=2 wiz=2 ctSt cV cS cMDFp=\"a square of red cloth\" rFt=0 effect=\"whip-like swarm\" dur=\"1 round/level (d (see text)\" saveNo srY}",
 			"",
-			"You summon hundreds of Diminutive spiders, which cling together in the form of a whip made for a creature of your size. You can wield this object as if it were an actual whip, except you make a melee touch attack with it instead of a regular attack. Any creature you strike with the whip takes swarm damage as if it were attacked by a {monster/spider swarm} (1d6 points of damage plus poison and distraction). The swarm whip is able to damage creatures with armor or natural armor, even if a normal whip could not. It cannot be used to make bull rush, grapple, or trip attacks, and (unlike a swarm) is subject to a miss chance for concealment and cover.",
+			"You summon hundreds of Diminutive spiders, which cling together in the form of a whip made for a creature of your size. You can wield this object as if it were an actual whip, except you make a melee touch attack with it instead of a regular attack. Any creature you strike with the whip takes swarm damage as if it were attacked by a ‹monster/spider swarm› (1d6 points of damage plus poison and distraction). The swarm whip is able to damage creatures with armor or natural armor, even if a normal whip could not. It cannot be used to make bull rush, grapple, or trip attacks, and (unlike a swarm) is subject to a miss chance for concealment and cover.",
 			"",
 			"The whip is immune to all weapon damage, is never staggered or reduced to a dying state by damage, and is immune to any spell or effect that targets a specific number of creatures (including single-target spells such as disintegrate). The whip takes half again as much damage from spells or effects that affect an area, but since it is considered part of your gear, it takes damage only if you fail a saving throw on a 1 or if it is specifically targeted by an opponent. The whip does not have a swarm's susceptibility to high winds.",
 			"",
-			"As a standard action, you can transform the whip into a spider swarm (all squares of the swarm must be within 15 feet of you); thereafter it functions as {spell/summon swarm}. The spider swarm has 3 hit points and persists in that form for 2 rounds or until the end of this spell's duration, whichever comes first.",
+			"As a standard action, you can transform the whip into a spider swarm (all squares of the swarm must be within 15 feet of you); thereafter it functions as ‹spell/summon swarm›. The spider swarm has 3 hit points and persists in that form for 2 rounds or until the end of this spell's duration, whichever comes first.",
 			"",
 			"::h3[Whip of Ants]{jl}",
 			"",
 			"::spell{source=\"Advanced Class Guide/199\" conjuration summoning arc=6 brd=6 drd=6 hnt=6 skd=6 sor=6 sum=6 usm=6 wit=6 wiz=6 ctSt cV cS cMDFp=\"a square of red cloth\" rFt=0 effect=\"whip-like swarm\" dur=\"1 round/level (d (see text)\" saveNo srY}",
 			"",
-			"This spell functions as whip of spiders, except it summons army ants, and any creature you strike with the whip takes swarm damage as if it were attacked by an {monster/army ant swarm} (3d6 points of damage plus poison and distraction). If you transform the whip into an army ant swarm, it has 16 hit points.",
+			"This spell functions as whip of spiders, except it summons army ants, and any creature you strike with the whip takes swarm damage as if it were attacked by an ‹monster/army ant swarm› (3d6 points of damage plus poison and distraction). If you transform the whip into an army ant swarm, it has 16 hit points.",
 			"",
 			"::h3[Whip of Centipedes]{jl}",
 			"",
 			"::spell{source=\"Advanced Class Guide/199\" conjuration summoning arc=5 brd=5 drd=5 hnt=5 skd=5 sor=5 sum=5 usm=5 wit=5 wiz=5 ctSt cV cS cMDFp=\"a square of red cloth\" rFt=0 effect=\"whip-like swarm\" dur=\"1 round/level (d (see text)\" saveNo srY}",
 			"",
-			"This spell functions as whip of spiders, except it summons centipedes, and any creature you strike with the whip takes swarm damage as if it were attacked by a {monster/centipede swarm} (2d6 points of damage plus poison and distraction). If you transform the whip into a centipede swarm, it has 10 hit points."
+			"This spell functions as whip of spiders, except it summons centipedes, and any creature you strike with the whip takes swarm damage as if it were attacked by a ‹monster/centipede swarm› (2d6 points of damage plus poison and distraction). If you transform the whip into a centipede swarm, it has 10 hit points."
 		]
 	},
 	"whip_of_ants": {

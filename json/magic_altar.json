@@ -13,15 +13,15 @@
 		"description": [
 			"## Altar of Pharasma",
 			"",
-			"{SOURCE Inner Sea Gods/249}  ",
+			"‹SOURCE Inner Sea Gods/249›  ",
 			"**Aura** moderate abjuration and conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 5,380 gp; **Weight** 1,000 lbs.",
 			"",
-			"This altar is an ornate marble memorial to the dead and unborn, featuring abstract sculptures of the Lady of Graves in each of her aspects as midwife, prophet, and judge of souls. Instead of a *magic circle,* it is warded by a *hallow* effect. Praying at the altar grants a +2 circumstance bonus on Heal and Knowledge (religion) checks, as well as the undead-{magic-enh/bane} magic weapon special ability to one weapon carried or wielded by the worshiper; this effect is suppressed if the weapon leaves the worshiper's grasp but resumes if the weapon is returned to the worshiper.",
+			"This altar is an ornate marble memorial to the dead and unborn, featuring abstract sculptures of the Lady of Graves in each of her aspects as midwife, prophet, and judge of souls. Instead of a *magic circle,* it is warded by a *hallow* effect. Praying at the altar grants a +2 circumstance bonus on Heal and Knowledge (religion) checks, as well as the undead-‹magic-enh/bane› magic weapon special ability to one weapon carried or wielded by the worshiper; this effect is suppressed if the weapon leaves the worshiper's grasp but resumes if the weapon is returned to the worshiper.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/hallow}, {spell/summon monster I}, creator must worship {faith/Pharasma}; **Cost** 5,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/hallow›, ‹spell/summon monster I›, creator must worship ‹faith/Pharasma›; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_cayden_cailean": {
@@ -30,7 +30,7 @@
 		"description": [
 			"## Altar of Cayden Cailean",
 			"",
-			"{SOURCE Inner Sea Gods/246}  ",
+			"‹SOURCE Inner Sea Gods/246›  ",
 			"**Aura** moderate abjuration [chaotic, good]; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 150 lbs.",
 			"",
@@ -38,7 +38,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against evil}, {spell/magic circle against law}, {spell/neutralize poison}, {spell/remove fear}, creator must worship {faith/Cayden Cailean}; **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/magic circle against evil›, ‹spell/magic circle against law›, ‹spell/neutralize poison›, ‹spell/remove fear›, creator must worship ‹faith/Cayden Cailean›; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_gorum": {
@@ -47,15 +47,15 @@
 		"description": [
 			"## Altar of Gorum",
 			"",
-			"{SOURCE Inner Sea Gods/247}  ",
+			"‹SOURCE Inner Sea Gods/247›  ",
 			"**Aura** moderate abjuration and transmutation [chaotic]; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 750 lbs.",
 			"",
-			"This altar is an iron platform and frame designed to support a heavy suit of spiked armor and weapons, typically mounted in the shape of a massively imposing, 8-foot-tall warrior. Praying at the altar grants a +4 morale bonus on saves against fear effects, and any non-masterwork iron or steel weapon the worshiper wields is treated as if it were {rule/masterwork>_w}.",
+			"This altar is an iron platform and frame designed to support a heavy suit of spiked armor and weapons, typically mounted in the shape of a massively imposing, 8-foot-tall warrior. Praying at the altar grants a +4 morale bonus on saves against fear effects, and any non-masterwork iron or steel weapon the worshiper wields is treated as if it were ‹rule/masterwork<_w›.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against law}, {spell/masterwork transformation}, {spell/remove fear}, creator must worship {faith/Gorum}; **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/magic circle against law›, ‹spell/masterwork transformation›, ‹spell/remove fear›, creator must worship ‹faith/Gorum›; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_gozreh": {
@@ -64,7 +64,7 @@
 		"description": [
 			"## Altar of Gozreh",
 			"",
-			"{SOURCE Inner Sea Gods/247}  ",
+			"‹SOURCE Inner Sea Gods/247›  ",
 			"**Aura** moderate abjuration and transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 1,000 lbs.",
 			"",
@@ -72,7 +72,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/control water}, {spell/control winds}, {spell/guidance}, {spell/magic circle against chaos//evil//good//law} (as appropriate), creator must worship {faith/Gozreh}; **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/control water›, ‹spell/control winds›, ‹spell/guidance›, ‹spell/magic circle against chaos/evil/good/law› (as appropriate), creator must worship ‹faith/Gozreh›; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_iomedae": {
@@ -81,15 +81,15 @@
 		"description": [
 			"## Altar of Iomedae",
 			"",
-			"{SOURCE Inner Sea Gods/248}  ",
+			"‹SOURCE Inner Sea Gods/248›  ",
 			"**Aura** moderate abjuration and transmutation [lawful, good]; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 1,000 lbs.",
 			"",
-			"This altar is a marble slab engraved with images of the Acts of Iomedae, with a {eq-weapon/longsword} bearing a {spell/continual flame} spell mounted atop it. Praying at the altar grants a +1 morale bonus on attack rolls and saves against fear effects.",
+			"This altar is a marble slab engraved with images of the Acts of Iomedae, with a ‹eq-weapon/longsword› bearing a ‹spell/continual flame› spell mounted atop it. Praying at the altar grants a +1 morale bonus on attack rolls and saves against fear effects.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/bless}, {spell/magic circle against chaos}, {spell/magic circle against evil}, creator must worship {faith/Iomedae}; **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/bless›, ‹spell/magic circle against chaos›, ‹spell/magic circle against evil›, creator must worship ‹faith/Iomedae›; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_irori": {
@@ -98,7 +98,7 @@
 		"description": [
 			"## Altar of Irori",
 			"",
-			"{SOURCE Inner Sea Gods/248}  ",
+			"‹SOURCE Inner Sea Gods/248›  ",
 			"**Aura** moderate abjuration and transmutation [lawful]; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 150 lbs.",
 			"",
@@ -106,7 +106,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against chaos}, creator must worship {faith/Irori}; **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/guidance›, ‹spell/magic circle against chaos›, creator must worship ‹faith/Irori›; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_nethys": {
@@ -115,7 +115,7 @@
 		"description": [
 			"## Altar of Nethys",
 			"",
-			"{SOURCE Inner Sea Gods/248}  ",
+			"‹SOURCE Inner Sea Gods/248›  ",
 			"**Aura** moderate abjuration and transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 500 lbs.",
 			"",
@@ -123,7 +123,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {feat/Heighten Spell}, {spell/guidance}, {spell/magic circle against chaos//evil//good//law} (as appropriate), creator must worship {faith/Nethys}; **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹feat/Heighten Spell›, ‹spell/guidance›, ‹spell/magic circle against chaos/evil/good/law› (as appropriate), creator must worship ‹faith/Nethys›; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_sarenrae": {
@@ -132,7 +132,7 @@
 		"description": [
 			"## Altar of Sarenrae",
 			"",
-			"{SOURCE Inner Sea Gods/249}  ",
+			"‹SOURCE Inner Sea Gods/249›  ",
 			"**Aura** moderate abjuration and conjuration [good, healing]; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 750 lbs.",
 			"",
@@ -140,7 +140,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}, {spell/magic circle against evil}, {spell/resistance}, creator must worship {faith/Sarenrae}; **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/cure light wounds›, ‹spell/magic circle against evil›, ‹spell/resistance›, creator must worship ‹faith/Sarenrae›; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_shelyn": {
@@ -149,7 +149,7 @@
 		"description": [
 			"## Altar of Shelyn",
 			"",
-			"{SOURCE Inner Sea Gods/249}  ",
+			"‹SOURCE Inner Sea Gods/249›  ",
 			"**Aura** moderate abjuration and transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 150 lbs.",
 			"",
@@ -157,7 +157,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against evil}, {spell/resistance}, creator must worship {faith/Shelyn}; **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/guidance›, ‹spell/magic circle against evil›, ‹spell/resistance›, creator must worship ‹faith/Shelyn›; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_urgathoa": {
@@ -166,15 +166,15 @@
 		"description": [
 			"## Altar of Urgathoa",
 			"",
-			"{SOURCE Inner Sea Gods/249}  ",
+			"‹SOURCE Inner Sea Gods/249›  ",
 			"**Aura** moderate abjuration and necromancy [evil]; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 500 lbs.",
 			"",
-			"This altar is a large sculpted table or slab for ceremonial feasts. Praying at the altar grants a +2 circumstance bonus on saving throws against death effects, disease, {rule/energy drain}, and negative energy effects; an undead worshiper instead gains 5 {rule/temporary hit points}.",
+			"This altar is a large sculpted table or slab for ceremonial feasts. Praying at the altar grants a +2 circumstance bonus on saving throws against death effects, disease, ‹rule/energy drain›, and negative energy effects; an undead worshiper instead gains 5 ‹rule/temporary hit points›.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/death ward}, {spell/false life}, {spell/magic circle against good}, creator must worship {faith/Urgathoa}; **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/death ward›, ‹spell/false life›, ‹spell/magic circle against good›, creator must worship ‹faith/Urgathoa›; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_zon_kuthon": {
@@ -183,7 +183,7 @@
 		"description": [
 			"## Altar of Zon-Kuthon",
 			"",
-			"{SOURCE Inner Sea Gods/249}  ",
+			"‹SOURCE Inner Sea Gods/249›  ",
 			"**Aura** moderate abjuration and enchantment [evil, lawful]; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 150 lbs.",
 			"",
@@ -191,7 +191,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against chaos}, {spell/magic circle against good}, {spell/rage}, creator must worship {faith/Zon-Kuthon}; **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/magic circle against chaos›, ‹spell/magic circle against good›, ‹spell/rage›, creator must worship ‹faith/Zon-Kuthon›; **Cost** 4,000 gp"
 		]
 	},
 	"altar_of_abadar": {
@@ -200,7 +200,7 @@
 		"description": [
 			"## Altar of Abadar",
 			"",
-			"{SOURCE Inner Sea Gods/246}  ",
+			"‹SOURCE Inner Sea Gods/246›  ",
 			"**Aura** moderate abjuration [lawful]; **CL** 10th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 1,000 lbs.",
 			"",
@@ -208,7 +208,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against chaos}, {spell/sanctuary}, creator must worship {faith/Abadar}; **Cost** 5,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/guidance›, ‹spell/magic circle against chaos›, ‹spell/sanctuary›, creator must worship ‹faith/Abadar›; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_desna": {
@@ -217,7 +217,7 @@
 		"description": [
 			"## Altar of Desna",
 			"",
-			"{SOURCE Inner Sea Gods/247}  ",
+			"‹SOURCE Inner Sea Gods/247›  ",
 			"**Aura** moderate abjuration and transmutation [chaotic, good]; **CL** 10th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 1,000 lbs.",
 			"",
@@ -225,7 +225,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/freedom of movement}, {spell/longstrider}, {spell/magic circle against evil}, {spell/magic circle against law}, creator must worship {faith/Desna}; **Cost** 5,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/freedom of movement›, ‹spell/longstrider›, ‹spell/magic circle against evil›, ‹spell/magic circle against law›, creator must worship ‹faith/Desna›; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_erastil": {
@@ -234,15 +234,15 @@
 		"description": [
 			"## Altar of Erastil",
 			"",
-			"{SOURCE Inner Sea Gods/247}  ",
+			"‹SOURCE Inner Sea Gods/247›  ",
 			"**Aura** moderate abjuration, conjuration, and divination [good, lawful]; **CL** 10th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 1,000 lbs.",
 			"",
-			"This altar is a large stone hearth that is normally kept blazing and features a prominent image of Erastil wielding his sacred bow, using the holy weapon either in defense of a home or to hunt game for food. Praying at the altar grants a +2 circumstance bonus on Handle Animal and Heal checks, or one of the following magic weapon special abilities (worshiper's choice) to one magic weapon carried or wielded by the worshiper: animal-{magic-enh/bane}, {magic-enh/conserving}, {magic-enh/huntsman}, or {magic-enh/merciful}. This effect is suppressed if the weapon leaves the worshiper's grasp, but resumes if the weapon is returned to the worshiper.",
+			"This altar is a large stone hearth that is normally kept blazing and features a prominent image of Erastil wielding his sacred bow, using the holy weapon either in defense of a home or to hunt game for food. Praying at the altar grants a +2 circumstance bonus on Handle Animal and Heal checks, or one of the following magic weapon special abilities (worshiper's choice) to one magic weapon carried or wielded by the worshiper: animal-‹magic-enh/bane›, ‹magic-enh/conserving›, ‹magic-enh/huntsman›, or ‹magic-enh/merciful›. This effect is suppressed if the weapon leaves the worshiper's grasp, but resumes if the weapon is returned to the worshiper.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/abundant ammunition}, {spell/cure light wounds}, {spell/detect animals or plants}, {spell/magic circle against chaos}, {spell/magic circle against evil}, {spell/summon monster I}, creator must worship {faith/Erastil}; **Cost** 5,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/abundant ammunition›, ‹spell/cure light wounds›, ‹spell/detect animals or plants›, ‹spell/magic circle against chaos›, ‹spell/magic circle against evil›, ‹spell/summon monster I›, creator must worship ‹faith/Erastil›; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_lamashtu": {
@@ -251,15 +251,15 @@
 		"description": [
 			"## Altar of Lamashtu",
 			"",
-			"{SOURCE Inner Sea Gods/248}  ",
+			"‹SOURCE Inner Sea Gods/248›  ",
 			"**Aura** moderate abjuration and transmutation [chaotic, evil]; **CL** 10th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 500 lbs.",
 			"",
-			"This altar is a flat rock covered in images of ferocious monsters such as {monster/gnoll/s} and adorned with a venerable beast's skull, especially that of a jackal or hyena. Praying at the altar grants the creature the effects of *magic fang* on one of its natural weapons (a worshiper with a familiar, animal companion, eidolon, or similar companion creature may instead pass this blessing on to that creature).",
+			"This altar is a flat rock covered in images of ferocious monsters such as ‹monster/gnoll«s› and adorned with a venerable beast's skull, especially that of a jackal or hyena. Praying at the altar grants the creature the effects of *magic fang* on one of its natural weapons (a worshiper with a familiar, animal companion, eidolon, or similar companion creature may instead pass this blessing on to that creature).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/magic circle against good}, {spell/magic circle against law}, {spell/magic fang}, creator must worship {faith/Lamashtu}; **Cost** 5,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/magic circle against good›, ‹spell/magic circle against law›, ‹spell/magic fang›, creator must worship ‹faith/Lamashtu›; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_norgorber": {
@@ -268,7 +268,7 @@
 		"description": [
 			"## Altar of Norgorber",
 			"",
-			"{SOURCE Inner Sea Gods/248}  ",
+			"‹SOURCE Inner Sea Gods/248›  ",
 			"**Aura** moderate abjuration and enchantment [evil]; **CL** 10th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 250 lbs.",
 			"",
@@ -276,7 +276,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/false alibi}, {spell/magic circle against good}, creator must worship {faith/Norgorber}; **Cost** 5,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/false alibi›, ‹spell/magic circle against good›, creator must worship ‹faith/Norgorber›; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_rovagug": {
@@ -285,7 +285,7 @@
 		"description": [
 			"## Altar of Rovagug",
 			"",
-			"{SOURCE Inner Sea Gods/249}  ",
+			"‹SOURCE Inner Sea Gods/249›  ",
 			"**Aura** moderate abjuration and transmutation [chaotic, evil]; **CL** 10th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 150 lbs.",
 			"",
@@ -293,7 +293,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/keen edge}, {spell/magic circle against good}, {spell/magic circle against law}, creator must worship {faith/Rovagug}; **Cost** 5,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/keen edge›, ‹spell/magic circle against good›, ‹spell/magic circle against law›, creator must worship ‹faith/Rovagug›; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_the_dawnflower": {
@@ -302,17 +302,17 @@
 		"description": [
 			"## Altar of the Dawnflower",
 			"",
-			"{SOURCE Inner Sea Temples/52}  ",
+			"‹SOURCE Inner Sea Temples/52›  ",
 			"**Aura** moderate conjuration and enchantment [good, healing]; **CL** 10th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 250 lbs.",
 			"",
 			"Unearthed from the ashes of Oppara's former temple of Sarenrae, the restored and rededicated altar of the Dawnflower sits inside the House of Dawn's Redemption at the exact location it resided nearly 200 years ago. As a gift to welcome Sarenrae's faith back into Taldor, this reclaimed treasure symbolizes the hope for a peaceful existence between the traditionalists of Oppara and those longing for the light of the Healing Flame.",
 			"",
-			"This altar consists of a tiled blue box detailed with mosaics of doves in flight. A stand for a scimitar is built on top of the altar. During important worship services, the {magic-wondrous/Scabbard of the Lost Kiss} is often placed atop the altar's scimitar stand. Praying at the altar grants a +3 bonus on Diplomacy checks to redeem an evil creature or change the attitude of a creature opposed to the Sarenite faith. Creatures who rest or receive long-term care (with the {skill/Heal} skill) within 60 feet of the altar also regain 1 additional hit point per level each day.",
+			"This altar consists of a tiled blue box detailed with mosaics of doves in flight. A stand for a scimitar is built on top of the altar. During important worship services, the ‹magic-wondrous/Scabbard of the Lost Kiss› is often placed atop the altar's scimitar stand. Praying at the altar grants a +3 bonus on Diplomacy checks to redeem an evil creature or change the attitude of a creature opposed to the Sarenite faith. Creatures who rest or receive long-term care (with the ‹skill/Heal› skill) within 60 feet of the altar also regain 1 additional hit point per level each day.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/cure light wounds}, {spell/eagle's splendor}, {spell/magic circle against evil}, creator must worship {faith/Sarenrae}; **Cost** 5,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/cure light wounds›, ‹spell/eagle's splendor›, ‹spell/magic circle against evil›, creator must worship ‹faith/Sarenrae›; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_torag": {
@@ -321,7 +321,7 @@
 		"description": [
 			"## Altar of Torag",
 			"",
-			"{SOURCE Inner Sea Gods/249}  ",
+			"‹SOURCE Inner Sea Gods/249›  ",
 			"**Aura** moderate abjuration and transmutation [good, lawful]; **CL** 10th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 500 lbs.",
 			"",
@@ -329,7 +329,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against chaos}, {spell/magic circle against evil}, {spell/magic vestment}, creator must worship {faith/Torag}; **Cost** 5,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/guidance›, ‹spell/magic circle against chaos›, ‹spell/magic circle against evil›, ‹spell/magic vestment›, creator must worship ‹faith/Torag›; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_zursvaater": {
@@ -338,7 +338,7 @@
 		"description": [
 			"## Altar of Zursvaater",
 			"",
-			"{SOURCE Pathfinder #95: Anvil of Fire/45}  ",
+			"‹SOURCE Pathfinder #95: Anvil of Fire/45›  ",
 			"**Aura** moderate abjuration [evil, lawful]; **CL** 10th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 1,000 lbs.",
 			"",
@@ -346,7 +346,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/guidance}, {spell/magic circle against chaos}, {spell/magic circle against good}, {spell/resist energy}, creator must worship {faith/Zursvaater}; **Cost** 5,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/guidance›, ‹spell/magic circle against chaos›, ‹spell/magic circle against good›, ‹spell/resist energy›, creator must worship ‹faith/Zursvaater›; **Cost** 5,000 gp"
 		]
 	},
 	"altar_of_asmodeus": {
@@ -355,7 +355,7 @@
 		"description": [
 			"## Altar of Asmodeus",
 			"",
-			"{SOURCE Inner Sea Gods/246}  ",
+			"‹SOURCE Inner Sea Gods/246›  ",
 			"**Aura** moderate abjuration and enchantment [evil, lawful]; **CL** 10th  ",
 			"**Slot** none; **Price** 16,000 gp; **Weight** 750 lbs.",
 			"",
@@ -363,7 +363,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/hold person}, {spell/magic circle against chaos}, {spell/magic circle against good}, creator must worship {faith/Asmodeus}; **Cost** 8,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/hold person›, ‹spell/magic circle against chaos›, ‹spell/magic circle against good›, creator must worship ‹faith/Asmodeus›; **Cost** 8,000 gp"
 		]
 	},
 	"altar_of_calistria": {
@@ -372,7 +372,7 @@
 		"description": [
 			"## Altar of Calistria",
 			"",
-			"{SOURCE Inner Sea Gods/246}  ",
+			"‹SOURCE Inner Sea Gods/246›  ",
 			"**Aura** moderate abjuration and evocation [chaotic]; **CL** 10th  ",
 			"**Slot** none; **Price** 16,000 gp; **Weight** 500 lbs.",
 			"",
@@ -380,7 +380,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/divine favor}, {spell/magic circle against law}, creator must worship {faith/Calistria}; **Cost** 8,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/divine favor›, ‹spell/magic circle against law›, creator must worship ‹faith/Calistria›; **Cost** 8,000 gp"
 		]
 	}
 }

@@ -5,7 +5,7 @@
 		"description": [
 			"## Black Blessing",
 			"",
-			"{SOURCE Pathfinder #39: The City of Seven Spears/71}  ",
+			"‹SOURCE Pathfinder #39: The City of Seven Spears/71›  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** neck; **Price** 500 gp; **Weight** &mdash;",
 			"",
@@ -15,7 +15,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/resistance}, {spell/bane}; **Cost** 250 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/resistance›, ‹spell/bane›; **Cost** 250 gp"
 		]
 	},
 	"ganji_doll": {
@@ -24,7 +24,7 @@
 		"description": [
 			"## Ganji Doll",
 			"",
-			"{SOURCE Pathfinder #39: The City of Seven Spears/71;Occult Adventures/258}  ",
+			"‹SOURCE Pathfinder #39: The City of Seven Spears/71;Occult Adventures/258›  ",
 			"**Aura** moderate necromancy; **CL** 6th  ",
 			"**Slot** none; **Price** 16,000 gp; **Weight** 1/2 lb.",
 			"",
@@ -38,11 +38,11 @@
 			"",
 			"@HL[Damage:] Stabbing the doll with a sharp instrument, waving it over an open flame, wrapping a cord around the doll's neck, or otherwise damaging the doll causes the target to take 3d6 points of damage (DC 16 Fortitude save for half). This damage ignores all resistances and immunities.",
 			"",
-			"@HL[Target:] The ganji doll functions as the bound target itself for the purpose of any spell with a range of touch. The target receives the effect of any spell cast upon the doll (up to the doll's limit of 3 effects per day) as if the caster had actually touched him. The target may make saving throws against such spells, if allowed, as normal, but takes the -2 penalty imposed by the doll. Beneficial spells, such as {spell/cure light wounds}, can also be used in this manner.",
+			"@HL[Target:] The ganji doll functions as the bound target itself for the purpose of any spell with a range of touch. The target receives the effect of any spell cast upon the doll (up to the doll's limit of 3 effects per day) as if the caster had actually touched him. The target may make saving throws against such spells, if allowed, as normal, but takes the -2 penalty imposed by the doll. Beneficial spells, such as ‹spell/cure light wounds›, can also be used in this manner.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow curse}, and a piece of the body of the humanoid to be affected; **Cost** 8,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/bestow curse›, and a piece of the body of the humanoid to be affected; **Cost** 8,000 gp"
 		]
 	},
 	"ganji_doll_greater": {
@@ -54,7 +54,7 @@
 		"description": [
 			"## Greater Ganji Doll",
 			"",
-			"{SOURCE Pathfinder #39: The City of Seven Spears/71;Occult Adventures/258}  ",
+			"‹SOURCE Pathfinder #39: The City of Seven Spears/71;Occult Adventures/258›  ",
 			"**Aura** moderate necromancy; **CL** 12th  ",
 			"**Slot** none; **Price** 36,000 gp; **Weight** 1/2 lb.",
 			"",
@@ -66,13 +66,13 @@
 			"",
 			"@HL[Damage:] Damaging the doll causes the target to take 6d6 points of damage (DC 16 Fortitude save for half). This damage ignores all resistances and immunities.",
 			"",
-			"@HL[Locate Creature:] The bearer of a ganji doll can use it to locate its bound target, as per the spell {spell/locate creature}.",
+			"@HL[Locate Creature:] The bearer of a ganji doll can use it to locate its bound target, as per the spell ‹spell/locate creature›.",
 			"",
 			"@HL[Suggestion:] The user whispers in the doll's ear, creating the effect of a *suggestion* spell. The target must make a DC 16 Will save to resist the effect. Unlike the spell, the target need not comprehend the user's language.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/bestow curse}, {spell/suggestion}, and a piece of the body of the humanoid to be affected; **Cost** 18,000 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/bestow curse›, ‹spell/suggestion›, and a piece of the body of the humanoid to be affected; **Cost** 18,000 gp"
 		]
 	},
 	"greater_ganji_doll": { "redirect": "ganji_doll_greater" },
@@ -82,19 +82,19 @@
 		"description": [
 			"## Laubo Powder",
 			"",
-			"{SOURCE Pathfinder #39: The City of Seven Spears/71}  ",
+			"‹SOURCE Pathfinder #39: The City of Seven Spears/71›  ",
 			"**Aura** moderate enchantment; **CL** 10th  ",
 			"**Slot** none; **Price** 2,800 gp; **Weight** &mdash;",
 			"",
 			"### Description",
 			"",
-			"Salt, chalk, and powdered bone goes into the creation of this thick powder. When it is smeared over the face of a willing or helpless humanoid, the victim is affected as per the spell *dominate person.* The victim receives a save against the powder's effect, but makes it at a -2 penalty. Those who fail the save are affected by the spell and are under the control of the powder's creator (not necessarily the powder's user). In addition, the victim cannot articulate beyond making a low moaning, and takes on a death-like pallor, appearing to be a zombie. Spells like {spell/detect undead} or a minute of uninterrupted examination followed by a DC 20 Heal check reveal that the victim is not actually undead.",
+			"Salt, chalk, and powdered bone goes into the creation of this thick powder. When it is smeared over the face of a willing or helpless humanoid, the victim is affected as per the spell *dominate person.* The victim receives a save against the powder's effect, but makes it at a -2 penalty. Those who fail the save are affected by the spell and are under the control of the powder's creator (not necessarily the powder's user). In addition, the victim cannot articulate beyond making a low moaning, and takes on a death-like pallor, appearing to be a zombie. Spells like ‹spell/detect undead› or a minute of uninterrupted examination followed by a DC 20 Heal check reveal that the victim is not actually undead.",
 			"",
 			"Creating a batch of laubo powder provides enough for 3 uses.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/dominate person}, {spell/disguise self}; **Cost** 1,400 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/dominate person›, ‹spell/disguise self›; **Cost** 1,400 gp"
 		]
 	},
 	"spirit_tear": {
@@ -103,7 +103,7 @@
 		"description": [
 			"## Spirit Tear",
 			"",
-			"{SOURCE Pathfinder #39: The City of Seven Spears/71}  ",
+			"‹SOURCE Pathfinder #39: The City of Seven Spears/71›  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** neck; **Price** 1,800 gp; **Weight** &mdash;",
 			"",
@@ -113,7 +113,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Craft Wondrous Item}, {spell/see invisibility}; **Cost** 900 gp"
+			"**Requirements** ‹feat/Craft Wondrous Item›, ‹spell/see invisibility›; **Cost** 900 gp"
 		]
 	}
 }

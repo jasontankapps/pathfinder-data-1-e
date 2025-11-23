@@ -124,7 +124,7 @@ export const makeAbilityBlock = ({
 				}
 				const spells = bit.split(/~~/).map(line => {
 					const [text, extra] = line.split(/~/);
-					return `{spell/${text}}${extra || ""}`;
+					return `‹spell/${text}›${extra || ""}`;
 				}).join(", ");
 				const level = i && ordinal(i);
 				output.push(

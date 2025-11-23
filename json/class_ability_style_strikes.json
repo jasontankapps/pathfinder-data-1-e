@@ -10,7 +10,7 @@
 		"name": "Break",
 		"compilationSources": [ [ "Martial Arts Handbook", 7 ] ],
 		"description": [
-			"The monk combines a writhing twist with a violent strike against a foe that is grappling him. If the monk's attack is successful, he can attempt a {rule/grapple} combat maneuver check or Escape Artist check as a free action to escape a grapple, adding the strike's damage as a bonus on his check."
+			"The monk combines a writhing twist with a violent strike against a foe that is grappling him. If the monk's attack is successful, he can attempt a ‹rule/grapple› combat maneuver check or Escape Artist check as a free action to escape a grapple, adding the strike's damage as a bonus on his check."
 		]
 	},
 	"defensive_spin": {
@@ -24,7 +24,7 @@
 		"name": "Dirty Strikes",
 		"compilationSources": [ [ "Blood of the Beast", 31 ] ],
 		"description": [
-			"The monk fights dirty with his style strike, attempting to strike in places where his attack will negatively impact his foes' performance in combat. If the attack hits, the monk can perform a free {rule/dirty trick} combat maneuver against the target of this strike (using the base attack bonus of the attack used to hit the foe) with a -5 penalty. This dirty trick combat maneuver does not provoke an attack of opportunity."
+			"The monk fights dirty with his style strike, attempting to strike in places where his attack will negatively impact his foes' performance in combat. If the attack hits, the monk can perform a free ‹rule/dirty trick› combat maneuver against the target of this strike (using the base attack bonus of the attack used to hit the foe) with a -5 penalty. This dirty trick combat maneuver does not provoke an attack of opportunity."
 		]
 	},
 	"elbow_smash": {
@@ -59,7 +59,7 @@
 		"name": "Head-Butt",
 		"compilationSources": [ [ "Pathfinder Unchained", 19 ] ],
 		"description": [
-			"The monk slams his head into his enemy's head, leaving his foe reeling. If the attack hits and the foe is of the same size or one size smaller than the monk, the monk can make a free combat maneuver check against the target of this strike (using the base attack bonus of the attack used to hit the foe). If the foe is not of the same creature type as the monk, the monk takes a -8 penalty on this check. If the check is successful, the target is {misc/staggered} for 1 round. Creatures without a discernible head are not affected by this style strike (subject to GM discretion). The monk must attack with a head-butt to use this style strike."
+			"The monk slams his head into his enemy's head, leaving his foe reeling. If the attack hits and the foe is of the same size or one size smaller than the monk, the monk can make a free combat maneuver check against the target of this strike (using the base attack bonus of the attack used to hit the foe). If the foe is not of the same creature type as the monk, the monk takes a -8 penalty on this check. If the check is successful, the target is ‹misc/staggered› for 1 round. Creatures without a discernible head are not affected by this style strike (subject to GM discretion). The monk must attack with a head-butt to use this style strike."
 		]
 	},
 	"knockback_kick": {
@@ -73,21 +73,21 @@
 		"name": "Leg Sweep",
 		"compilationSources": [ [ "Pathfinder Unchained", 19 ] ],
 		"description": [
-			"The monk attempts to sweep his foe's leg, knocking the opponent down. If the attack hits, the monk can make a free {rule/trip} attempt against the target of this strike (using the base attack bonus of the attack used to hit the foe). This trip attempt does not provoke an attack of opportunity. The monk must attack with a kick to use this style strike."
+			"The monk attempts to sweep his foe's leg, knocking the opponent down. If the attack hits, the monk can make a free ‹rule/trip› attempt against the target of this strike (using the base attack bonus of the attack used to hit the foe). This trip attempt does not provoke an attack of opportunity. The monk must attack with a kick to use this style strike."
 		]
 	},
 	"overbearing_assault": {
 		"name": "Overbearing Assault",
 		"compilationSources": [ [ "Blood of the Beast", 31 ] ],
 		"description": [
-			"The monk attacks relentlessly, backing his foe into a corner. If the attack hits, the monk can perform a free {rule/reposition} combat maneuver against the target of the strike (using the base attack bonus of the attack used to hit the foe) with a -5 penalty. This reposition attempt does not provoke an attack of opportunity."
+			"The monk attacks relentlessly, backing his foe into a corner. If the attack hits, the monk can perform a free ‹rule/reposition› combat maneuver against the target of the strike (using the base attack bonus of the attack used to hit the foe) with a -5 penalty. This reposition attempt does not provoke an attack of opportunity."
 		]
 	},
 	"rabbit_punch": {
 		"name": "Rabbit Punch",
 		"compilationSources": [ [ "Martial Arts Handbook", 6 ] ],
 		"description": [
-			"The monk gives a sharp blow to the back of a foe's head. The critical threat range and critical multiplier of this strike increase by 1, and the monk gains a +2 bonus on attack rolls to confirm a critical hit with this strike. This increase is not doubled by {feat/Improved Critical} or similar effects. Creatures without a discernible head are unaffected by this style strike (subject to GM discretion). The monk must attack with a fist to use this style strike."
+			"The monk gives a sharp blow to the back of a foe's head. The critical threat range and critical multiplier of this strike increase by 1, and the monk gains a +2 bonus on attack rolls to confirm a critical hit with this strike. This increase is not doubled by ‹feat/Improved Critical› or similar effects. Creatures without a discernible head are unaffected by this style strike (subject to GM discretion). The monk must attack with a fist to use this style strike."
 		]
 	},
 	"shattering_punch": {
@@ -101,14 +101,14 @@
 		"name": "Spin Kick",
 		"compilationSources": [ [ "Pathfinder Unchained", 19 ] ],
 		"description": [
-			"The monk spins about, delivering a kick his foe did not expect. The monk makes his attack against the foe's {rule/flat-footed} AC. Creatures with the {ability/uncanny dodge} class feature or a similar effect cannot be caught flat-footed by this style strike. The monk must attack with a kick to use this style strike."
+			"The monk spins about, delivering a kick his foe did not expect. The monk makes his attack against the foe's ‹rule/flat-footed› AC. Creatures with the ‹ability/uncanny dodge› class feature or a similar effect cannot be caught flat-footed by this style strike. The monk must attack with a kick to use this style strike."
 		]
 	},
 	"throat_crush": {
 		"name": "Throat Crush",
 		"compilationSources": [ [ "Martial Arts Handbook", 7 ] ],
 		"description": [
-			"The monk gives a sharp blow to a foe's throat, hampering its ability to speak for 1 round as if it had the {rule/minor<caster croak| spellblight>s}. Creatures without a discernible throat, or with multiple vocal organs, are unaffected (subject to GM discretion)."
+			"The monk gives a sharp blow to a foe's throat, hampering its ability to speak for 1 round as if it had the ‹rule/minor>caster croak» spellblight<s›. Creatures without a discernible throat, or with multiple vocal organs, are unaffected (subject to GM discretion)."
 		]
 	}
 }

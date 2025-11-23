@@ -68,7 +68,7 @@
 			"",
 			"::spell{source=\"Advanced Player's Guide/243\" divination arc=2 brd=1 clr=2 drd=2 hnt=2 med=1 mes=1 occ=2 orc=2 psy=1 skd=1 sor=2 war=2 wiz=2 ctSt cV cS cMp=\"a page from a dictionary\" rTouch target=\"creature touched\" durH=24 will srY harmless}",
 			"",
-			"You can share your facility for one particular language with another creature. For 24 hours the target can read, understand, and communicate to the best of its ability in any one language which you already know. For every 5 levels you possess, you can grant the use of another language you know, to a maximum of 5 {misc/languages} at 20th level. The target must have the physical capacity to articulate sounds, make gestures, or engage in whatever other method speakers of the language use to communicate with each other in order to actually converse. If the target lacks the mental capacity to grasp an actual language it still gains enough knowledge to respond to and carry out even extremely complex commands or suggestions coached in the language (whether written or spoken). However, since this spell does not endow the target with greater reasoning capacity, merely a temporarily enhanced vocabulary, the person offering up instructions to non-sentient creatures must take care to remove any ambiguity or guesswork.",
+			"You can share your facility for one particular language with another creature. For 24 hours the target can read, understand, and communicate to the best of its ability in any one language which you already know. For every 5 levels you possess, you can grant the use of another language you know, to a maximum of 5 ‹misc/languages› at 20th level. The target must have the physical capacity to articulate sounds, make gestures, or engage in whatever other method speakers of the language use to communicate with each other in order to actually converse. If the target lacks the mental capacity to grasp an actual language it still gains enough knowledge to respond to and carry out even extremely complex commands or suggestions coached in the language (whether written or spoken). However, since this spell does not endow the target with greater reasoning capacity, merely a temporarily enhanced vocabulary, the person offering up instructions to non-sentient creatures must take care to remove any ambiguity or guesswork.",
 			"",
 			"Similarly, this spell does not affect the basic nature of the target, or its disposition toward you or anyone else, so convincing it to actually carry out these instructions could require negotiation, threats, or outright bribery.",
 			"",
@@ -137,7 +137,7 @@
 			"",
 			"::spell{source=\"Blood of the Moon/11\" necromancy drd=6 hnt=6 wit=6 ctSt cV cS rTouch target=\"one animal touched\" dur=\"1 minute/level or until you return to your body\"}",
 			"",
-			">*The following spells are common among [werebears](template/lycanthrope) coldborn {race/skinwalker/s}, and those who associate with them.*",
+			">*The following spells are common among [werebears](template/lycanthrope) coldborn ‹race/skinwalker«s›, and those who associate with them.*",
 			"",
 			"You can possess an animal's body in a manner that functions like magic jar, except as noted here. Your body vanishes while the effect lasts and you don't require a receptacle.",
 			"",
@@ -181,7 +181,7 @@
 			"",
 			"You infuse a dagger with necromantic energy, then plunge the dagger into your own body. You take 1d6 points of negative energy damage plus 1d6 points of damage for every 2 caster levels you possess beyond 1st (to a maximum of 5d6 at 9th level). The target takes an amount of damage equal to the damage you took this way, plus an amount equal to your Intelligence modifier (if you're a witch or wizard), Wisdom modifier (if you're an inquisitor), or Charisma modifier (if you're an antipaladin or sorcerer).",
 			"",
-			"Damage from this spell cannot be divided by effects such as {spell/shield other} or unwilling shield; it cuts through such protections completely."
+			"Damage from this spell cannot be divided by effects such as ‹spell/shield other› or unwilling shield; it cuts through such protections completely."
 		]
 	},
 	"shared_training": {
@@ -227,7 +227,7 @@
 			"",
 			":::mythic{title=\"Mythic Shatter\"}",
 			"",
-			"{SOURCE Mythic Adventures/107}  ",
+			"‹SOURCE Mythic Adventures/107›  ",
 			"Add your tier to your caster level when determining the maximum object weight you can affect. When targeting a crystalline creature, the spell's damage increases to 1d8 points of sonic damage per caster level (maximum 10d8). You may damage a single magical object as if it were a crystalline creature. If the spell destroys an object or damages a crystalline creature, broken shards litter the spell area or creature's space and act as caltrops.",
 			"",
 			":::"
@@ -252,7 +252,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/342\" abjuration force alc=1 arc=1 bld=1 inv=1 mag=1 occ=1 psy=1 sor=1 spr=1 sum=1 usm=1 wiz=1 ctSt cV cS rPers target=you durML=1 durD}",
 			"",
-			"Shield creates an invisible shield of force that hovers in front of you. It negates {spell/magic missile} attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance."
+			"Shield creates an invisible shield of force that hovers in front of you. It negates ‹spell/magic missile› attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance."
 		]
 	},
 	"shield_companion_acg": {
@@ -263,7 +263,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/191\" abjuration arc=3 hnt=2 pal=2 rgr=2 sha=2 sor=3 sum=3 usm=3 wiz=3 ctSt cV cS rClose target=\"your companion creature\" durD durHL=1 will srY harmless}",
 			"",
-			"This spell creates a special mystical connection between you and your companion creature - animal companion, bonded mount, eidolon, or familiar - which allows you to transfer its wounds to you. The creature gains a +1 deflection bonus to AC and a +1 resistance bonus on saves. As an immediate action when your companion takes damage, you can take that damage yourself to prevent your companion from being harmed (similar to {spell/shield other}, except the damage is not split between you and the target). Forms of harm that do not involve the loss of hit points, such as charm effects, temporary ability damage, level drain, and death effects, are not affected. If the creature suffers a reduction of hit points from a lowered Constitution score, you cannot take that damage on behalf of your companion creature because it is not hit point damage. When the spell ends, damage directed to you by the spell is not reassigned to the subject.",
+			"This spell creates a special mystical connection between you and your companion creature - animal companion, bonded mount, eidolon, or familiar - which allows you to transfer its wounds to you. The creature gains a +1 deflection bonus to AC and a +1 resistance bonus on saves. As an immediate action when your companion takes damage, you can take that damage yourself to prevent your companion from being harmed (similar to ‹spell/shield other›, except the damage is not split between you and the target). Forms of harm that do not involve the loss of hit points, such as charm effects, temporary ability damage, level drain, and death effects, are not affected. If the creature suffers a reduction of hit points from a lowered Constitution score, you cannot take that damage on behalf of your companion creature because it is not hit point damage. When the spell ends, damage directed to you by the spell is not reassigned to the subject.",
 			"",
 			"If you and your companion move out of range of each other, the spell ends."
 		]
@@ -276,7 +276,7 @@
 			"",
 			"::spell{source=\"Blood of Shadows/29\" darkness evocation shadowDesc ant=3 clr=3 inq=3 orc=3 sha=3 spr=3 war=3 ctSt cV rPers target=you durD durRL=1 saveNo srN}",
 			"",
-			"You shield yourself with darkness, reducing the illumination level in your space to magical darkness and granting you {rule/total |concealment}. Your opponents are automatically aware of which squares you occupy, preventing you from attempting Stealth checks using this concealment unless every square adjacent to you has an illumination level of darkness or lower. Shield of darkness does not hinder your vision, and creatures that can see in magical darkness ignore this effect."
+			"You shield yourself with darkness, reducing the illumination level in your space to magical darkness and granting you ‹rule/total »concealment›. Your opponents are automatically aware of which squares you occupy, preventing you from attempting Stealth checks using this concealment unless every square adjacent to you has an illumination level of darkness or lower. Shield of darkness does not hinder your vision, and creatures that can see in magical darkness ignore this effect."
 		]
 	},
 	"shield_of_faith": {
@@ -294,7 +294,7 @@
 			"",
 			":::mythic{title=\"Mythic Shield of Faith\"}",
 			"",
-			"{SOURCE Mythic Adventures/108}  ",
+			"‹SOURCE Mythic Adventures/108›  ",
 			"Add half your tier to the spell's deflection bonus.",
 			"",
 			":::"
@@ -332,13 +332,13 @@
 			"",
 			"A dim, blue glow surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by chaotic creatures, and slowing chaotic creatures when they strike the subjects. This abjuration has four effects.",
 			"",
-			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike {spell/protection from chaos}, this benefit applies against all attacks, not just against attacks by chaotic creatures.",
+			"First, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves. Unlike ‹spell/protection from chaos›, this benefit applies against all attacks, not just against attacks by chaotic creatures.",
 			"",
 			"Second, a warded creature gains spell resistance 25 against chaotic spells and spells cast by chaotic creatures.",
 			"",
 			"Third, the abjuration protects you from possession and mental influence, just as protection from chaos does.",
 			"",
-			"Finally, if a chaotic creature succeeds on a melee attack against a warded creature, the attacker is slowed (Will save negates, as the {spell/slow} spell, but against shield of law's save DC)."
+			"Finally, if a chaotic creature succeeds on a melee attack against a warded creature, the attacker is slowed (Will save negates, as the ‹spell/slow› spell, but against shield of law's save DC)."
 		]
 	},
 	"shield_of_shards": {
@@ -367,11 +367,11 @@
 			"",
 			"::spell{source=\"Inner Sea World Guide/296;Gods and Magic/35\" evocation fire good light brd=4 clr=4 hnt=4 mag=4 orc=4 pal=4 rgr=4 skd=4 war=4 faith=Sarenrae ctSt cV cS cDF rPers target=you durRL=1 save=\"see text\" srN}",
 			"",
-			"You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals normal damage, but also takes 1d6 points of fire damage + 1 point per caster level (maximum +15). Creatures with reach weapons are not subject to this damage if they attack you. The shield provides illumination as if it were a {spell/continual flame} spell. You can only have one instance of this spell in effect at a time. It does not stack with similar damaging aura spells such as fire shield.",
+			"You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals normal damage, but also takes 1d6 points of fire damage + 1 point per caster level (maximum +15). Creatures with reach weapons are not subject to this damage if they attack you. The shield provides illumination as if it were a ‹spell/continual flame› spell. You can only have one instance of this spell in effect at a time. It does not stack with similar damaging aura spells such as fire shield.",
 			"",
 			":::mythic{jl title=\"Mythic Shield of the Dawnflower\"}",
 			"",
-			"{SOURCE Mythic Origins/13}",
+			"‹SOURCE Mythic Origins/13›",
 			"",
 			"The disk of sunlight protects you as a buckler with a +1 enhancement bonus per 4 caster levels (maximum +5).",
 			"",
@@ -383,7 +383,7 @@
 			"",
 			"::spell{source=\"Inner Sea Gods/240\" evocation fire good light brd=6 clr=6 mag=6 orc=6 skd=6 war=6 faith=Sarenrae ctSt cV cS cDF rPers target=you durRL=1}",
 			"",
-			"You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals normal damage, but also takes 1d6 points of damage + 1 point per caster level. Half of this damage is fire damage and half is holy damage (as the spell {spell/flame strike}). An undead creature or a creature particularly vulnerable to light that hits you instead takes 2d6 points of damage +1 point per caster level. Creatures with reach weapons are not subject to this damage if they attack you. The shield provides illumination equivalent to a {spell/daylight} spell. You can have only one instance of this spell in effect at a time. It does not stack with similar damaging aura spells such as fire shield or shield of the Dawnflower.",
+			"You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals normal damage, but also takes 1d6 points of damage + 1 point per caster level. Half of this damage is fire damage and half is holy damage (as the spell ‹spell/flame strike›). An undead creature or a creature particularly vulnerable to light that hits you instead takes 2d6 points of damage +1 point per caster level. Creatures with reach weapons are not subject to this damage if they attack you. The shield provides illumination equivalent to a ‹spell/daylight› spell. You can have only one instance of this spell in effect at a time. It does not stack with similar damaging aura spells such as fire shield or shield of the Dawnflower.",
 			"",
 			"::spelldeitynote"
 		]
@@ -401,7 +401,7 @@
 			"",
 			"::spell{source=\"Paths of the Righteous/9\" fire transmutation clr=3 inq=3 orc=3 pal=3 rgr=3 war=3 ctSt cV cS cDF rPers target=you dur=\"1 minute/level (see below)\" saveNo srN}",
 			"",
-			">*The following spell is available to worshipers of {faith/Ragathiel}.*",
+			">*The following spell is available to worshipers of ‹faith/Ragathiel›.*",
 			"",
 			"You gain five burning wings that grant a fly speed equal to the number of wings &times; 10 (average maneuverability) for an initial fly speed of 50 feet. The first time in a round where you would take fire damage, a wing vanishes (reducing the fly speed granted) and you gain fire resistance 30 for the remainder of the round. When you are down to one wing (and a fly speed of 10 feet), your maneuverability drops to poor. When you lose your final wing, you become immune to fire damage for 1 additional minute, after which the effects of this spell end."
 		]
@@ -424,7 +424,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Shield Other\"}",
 			"",
-			"{SOURCE Mythic Adventures/108}",
+			"‹SOURCE Mythic Adventures/108›",
 			"",
 			"Increase the range to long (400 feet + 40 feet per caster level). Subtract your tier from any damage transmitted to you through the mystical connection before applying the damage (minimum 1 hp of damage). When you use your surge ability to modify a saving throw against an effect that also affects your linked ally, the ally also applies your surge bonus die result to the ally's saving throw. If the ally also uses its own surge ability, it takes either your result or its result, whichever is higher.",
 			"",
@@ -434,7 +434,7 @@
 			"",
 			"::spell{source=\"Animal Archive/25\" abjuration ant=1 arc=1 drd=1 hnt=1 pal=1 rgr=1 sor=1 wit=1 wiz=1 ctSt cV cS cFp=\"a pair of platinum rings worth 50 gp worn by both you and the target\" rClose target=\"your animal companion, familiar, or fiendish servant\" durD durHL=1 will srY harmless}",
 			"",
-			"This spell functions as {spell/shield other} but affects only the caster's animal companion or familiar. Spellcasters from classes that do not normally gain an animal companion, familiar, or fiendish servant but who gain one through an alternate class feature, archetype, or prestige class can prepare and cast this spell as a 1st-level spell if they are capable of casting spells."
+			"This spell functions as ‹spell/shield other› but affects only the caster's animal companion or familiar. Spellcasters from classes that do not normally gain an animal companion, familiar, or fiendish servant but who gain one through an alternate class feature, archetype, or prestige class can prepare and cast this spell as a 1st-level spell if they are capable of casting spells."
 		]
 	},
 	"shield_companion_aa": {
@@ -471,7 +471,7 @@
 			"",
 			"::spell{source=\"Orcs of Golarion/29\" abjuration adp=1 clr=1 orc=1 war=1 ctSt cV cS cDF rTouch target=\"object touched\" durML=1 will srN}",
 			"",
-			"This spell is used to protect one of a tribe's most valuable possessions: its tribal banner. Any creature (other than a member of the tribe which the standard represents) attempting to directly attack or touch the standard must make a Will save. This spell functions as {spell/sanctuary}, but only protects a standard or banner. In addition, the spell grants a +2 bonus to the standard's hardness, and +10 to the standard's hit points for the duration of the spell."
+			"This spell is used to protect one of a tribe's most valuable possessions: its tribal banner. Any creature (other than a member of the tribe which the standard represents) attempting to directly attack or touch the standard must make a Will save. This spell functions as ‹spell/sanctuary›, but only protects a standard or banner. In addition, the spell grants a +2 bonus to the standard's hardness, and +10 to the standard's hit points for the duration of the spell."
 		]
 	},
 	"shifted_steps": {
@@ -510,7 +510,7 @@
 			"",
 			"This spell does not cause affected creatures to risk accidentally attacking their allies, but it does require them to concentrate harder to keep track of their allies and foes. While this spell is in effect, every creature in the area can treat any other creature in the area as an allied threatening creature for the purpose of flanking. Further, whenever a creature in the area would provoke an attack of opportunity from an enemy, that creatures' allies in the area must succeed at a Reflex save or lose one attack of opportunity for that round as they suppress the instinct to attack a vulnerable target that might be an ally. The shadows do not hinder precision-based attacks or create areas of dim light.",
 			"",
-			"Creatures under the effect of {spell/true seeing} are not affected by this spell. Creatures with {umr/scent} or {umr/keen scent}, creatures that are blind, and creatures that operate effectively without vision (such as creatures with {umr/blindsight} or {umr/blindsense}) are also not affected by this spell."
+			"Creatures under the effect of ‹spell/true seeing› are not affected by this spell. Creatures with ‹umr/scent› or ‹umr/keen scent›, creatures that are blind, and creatures that operate effectively without vision (such as creatures with ‹umr/blindsight› or ‹umr/blindsense›) are also not affected by this spell."
 		]
 	},
 	"shillelagh": {
@@ -547,7 +547,7 @@
 			"",
 			"::spell{source=\"Ultimate Combat/243\" abjuration force electricity alc=1 arc=1 bld=1 inv=1 mag=1 occ=1 sor=1 wiz=1 ctSt cV cS rPers target=you durML=1 durD}",
 			"",
-			"This spell creates an invisible shield similar to but not as strong as the {spell/shield} spell. This shield hovers in front of you and negates {spell/magic missile} attacks directed at you. The disk provides a +2 shield bonus to AC. This bonus applies against incorporeal touch attacks.",
+			"This spell creates an invisible shield similar to but not as strong as the ‹spell/shield› spell. This shield hovers in front of you and negates ‹spell/magic missile› attacks directed at you. The disk provides a +2 shield bonus to AC. This bonus applies against incorporeal touch attacks.",
 			"",
 			"At any time, as a free action, you may dismiss your shield, at which point it deals 1d6 points of electrical damage to all creatures within a 5-foot burst, including you. A Reflex saving throw halves the damage."
 		]
@@ -567,7 +567,7 @@
 			"",
 			":::mythic{title=\"Mythic Shocking Grasp\"}",
 			"",
-			"{SOURCE Mythic Adventures/108}  ",
+			"‹SOURCE Mythic Adventures/108›  ",
 			"The spell's damage increases to 1d8 points of electricity damage per caster level (maximum 5d8). If the target is wearing metal armor or is made of metal, you may attempt a free grapple combat maneuver against the target.",
 			"",
 			"Alternatively, if the target is carrying a metal weapon, you may attempt a free disarm combat maneuver against that weapon. This free combat maneuver doesn't provoke attacks of opportunity.",
@@ -603,7 +603,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Shout\"}",
 			"",
-			"{SOURCE Mythic Adventures/108}",
+			"‹SOURCE Mythic Adventures/108›",
 			"",
 			"The duration that creatures in the area are deafened increases to 4d6 rounds, and the damage dealt increases to 5d8 points of sonic damage. The damage dealt to crystalline creatures and exposed brittle or crystalline objects increases to 1d8 points of sonic damage per caster level (maximum 15d8). Crystalline creatures reverberate with sonic energy, taking 4 points of sonic damage on your turn for a number of rounds equal to your tier.",
 			"",
@@ -631,7 +631,7 @@
 			"",
 			"You are able to shrink one nonmagical item (if it is within the size limit) to 1/16 of its normal size in each dimension (to about 1/4,000 the original volume and mass). This change effectively reduces the object's size by four categories. Optionally, you can also change its now shrunken composition to a cloth-like one. Objects changed by a shrink item spell can be returned to normal composition and size merely by tossing them onto any solid surface or by a word of command from the original caster. Even a burning fire and its fuel can be shrunk by this spell. Restoring the shrunken object to its normal size and composition ends the spell.",
 			"",
-			"Shrink item can be made permanent with a {spell/permanency} spell, in which case the affected object can be shrunk and expanded an indefinite number of times, but only by the original caster."
+			"Shrink item can be made permanent with a ‹spell/permanency› spell, in which case the affected object can be shrunk and expanded an indefinite number of times, but only by the original caster."
 		]
 	},
 	"shroud_of_darkness": {
@@ -666,7 +666,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/155\" disease transmutation alc=2 ant=2 drd=2 hnt=2 inv=2 mag=3 rgr=4 wit=2 ctSt cV cS rPers target=you durRL=1 save=\"Fortitude negates, see text\" srY}",
 			"",
-			">*{race/Ratfolk} have access to the following spell.*",
+			">*‹race/Ratfolk› have access to the following spell.*",
 			"",
 			"You are imbued with disease, and any creature you strike with a melee attack must make a Fortitude save or be sickened for 1 minute. Creatures that are immune to disease are immune to this sickened effect."
 		]
@@ -679,7 +679,7 @@
 			"",
 			"::spell{source=\"Ultimate Combat/244\" transmutation drd=7 ctM=10 cV cS cDF rClose targets=\"one Large plant per three caster levels\" durD durHL=1 saveNo srN}",
 			"",
-			"You imbue inanimate plants with limited mobility and a semblance of life. Each plant targeted acts as a {eq-siegeengine/light catapult} until the end of the spell's duration, though you must spend a standard action to aim each of these tree catapults before the first time they fire, and anytime thereafter when you want the trees to fire at a new target. The catapult uses your caster level as its targeting bonus. With a free action, you can command one or all of the trees under your command to stop firing. You do not need to supply ammunition to these tree catapults; they will automatically load themselves with rocks and boulders in the area, digging them deep from the ground if need be. You can supply the trees ammunition if you desire. The tree will not load flaming ammunition, and these catapult trees cannot be affected by energy siege shot if the energy selected is fire.",
+			"You imbue inanimate plants with limited mobility and a semblance of life. Each plant targeted acts as a ‹eq-siegeengine/light catapult› until the end of the spell's duration, though you must spend a standard action to aim each of these tree catapults before the first time they fire, and anytime thereafter when you want the trees to fire at a new target. The catapult uses your caster level as its targeting bonus. With a free action, you can command one or all of the trees under your command to stop firing. You do not need to supply ammunition to these tree catapults; they will automatically load themselves with rocks and boulders in the area, digging them deep from the ground if need be. You can supply the trees ammunition if you desire. The tree will not load flaming ammunition, and these catapult trees cannot be affected by energy siege shot if the energy selected is fire.",
 			"",
 			"### Greater Siege of Trees",
 			"",
@@ -701,7 +701,7 @@
 			"",
 			"::spell{source=\"Inner Sea Races/223\" earth evocation drd=5 hnt=4 rgr=4 sha=5 ctR=1 cV cS rLong area=\"50-ft.-radius spread\" durI save=\"Reflex partial (see text)\" srY}",
 			"",
-			">*The following spell is available to the indicated race or ethnicity: {race/Dwarf}*",
+			">*The following spell is available to the indicated race or ethnicity: ‹race/Dwarf›*",
 			"",
 			"A roiling blast of rough rock and dirt scatters along the ground in the area, dealing 1d6 points of slashing damage per 2 caster levels (maximum 5d6) to all creatures on the ground in the area, even on a successful saving throw. Creatures in the area that fail the Reflex save fall prone and are knocked to the nearest edge of the area, taking 1d6 points of bludgeoning damage for every 10 feet they travel this way. Creatures that did not move during the past round and those with the stability racial trait gain a +4 bonus on the saving throw."
 		]
@@ -755,7 +755,7 @@
 			"",
 			"::spell{source=\"Cheliax, Empire of Devils/23\" conjuration evil teleportation arc=7 clr=7 orc=7 sor=7 wiz=7 ctSt cV cS cMp=\"100 gp worth of bloodstone for every ally teleported\" rMed target=\"one willing ally/5 levels\" durI will srY harmless}",
 			"",
-			"You teleport up to one ally per five caster levels to your location. You determine which allies you want to teleport at the time of casting; these allies have 1 round to decide to allow or refuse your spell, and they teleport immediately upon accepting. Allies are teleported as if you had cast teleport on them (your current location is at least \"studied carefully\" for this purpose), appearing in a puff of brimstone in a space adjacent to you. If you are in combat and your allies were not, your allies may roll initiative upon arrival but are not considered flat-footed even though they have not taken any actions. The spell does not function in areas warded against intrusion by evil creatures (such as a {spell/magic circle against evil} effect)."
+			"You teleport up to one ally per five caster levels to your location. You determine which allies you want to teleport at the time of casting; these allies have 1 round to decide to allow or refuse your spell, and they teleport immediately upon accepting. Allies are teleported as if you had cast teleport on them (your current location is at least \"studied carefully\" for this purpose), appearing in a puff of brimstone in a space adjacent to you. If you are in combat and your allies were not, your allies may roll initiative upon arrival but are not considered flat-footed even though they have not taken any actions. The spell does not function in areas warded against intrusion by evil creatures (such as a ‹spell/magic circle against evil› effect)."
 		]
 	},
 	"silence": {
@@ -773,7 +773,7 @@
 			"",
 			":::mythic{title=\"Mythic Silence\"}",
 			"",
-			"{SOURCE Mythic Adventures/108}  ",
+			"‹SOURCE Mythic Adventures/108›  ",
 			"This spell also applies to telepathy, cutting off any mental communication within the area. At the time of casting, you can choose to be immune to your own mythic silence effect and can designate up to one creature per tier to also gain this immunity. Creatures immune to the mythic silence are subject to sonic effects as normal.",
 			"",
 			":::"
@@ -794,7 +794,7 @@
 			"",
 			":::mythic{title=\"Mythic Silent Image\"}",
 			"",
-			"{SOURCE Mythic Adventures/108}  ",
+			"‹SOURCE Mythic Adventures/108›  ",
 			"The duration increases to concentration + 1 round per caster level, and the effect increases to a visual figment that can't extend beyond eight 10-foot cubes + 1 10-foot cube per caster level.",
 			"",
 			"*Augmented (6th):* If you expend two uses of mythic power, the duration changes to concentration + 1 minute per caster level and the effect changes to a visual figment no larger than a 50-foot emanation. An augmented mythic silent image can't move.",
@@ -832,7 +832,7 @@
 			"",
 			"::spell{source=\"Blood of the Sea/21\" glamer illusion arc=3 brd=3 skd=3 sor=3 wiz=3 ctSt cV cS cMp=\"a smooth stone\" rFt=20 effect=\"20-ft.-radius centered on you\" durML=1 durD saveNo srN}",
 			"",
-			"This spell generates an illusory silt cloud that drifts around you and moves with you. The cloud provides total {rule/concealment} to creatures within it (including you) when the spell is cast. Creatures moving into the cloud after the spell is cast gain concealment (but not total concealment) due to the illusion. Any creatures within the cloud can see each other normally and can see out from within the cloud as though it were transparent. If a creature other than you that has total concealment due to the cloud makes an attack against any foe, it loses total concealment and gains concealment instead. If you make an attack against any creature, the spell ends.",
+			"This spell generates an illusory silt cloud that drifts around you and moves with you. The cloud provides total ‹rule/concealment› to creatures within it (including you) when the spell is cast. Creatures moving into the cloud after the spell is cast gain concealment (but not total concealment) due to the illusion. Any creatures within the cloud can see each other normally and can see out from within the cloud as though it were transparent. If a creature other than you that has total concealment due to the cloud makes an attack against any foe, it loses total concealment and gains concealment instead. If you make an attack against any creature, the spell ends.",
 			"",
 			"A creature that examines the cloud from the outside and succeeds at a DC 20 Knowledge (nature) check notices the silt cloud is unnaturally compact and fast moving, and that creature can attempt an immediate saving throw to disbelieve the illusion. Other circumstances (such as if the silt cloud floats in the middle of otherwise clear waters) can modify the DC of the Knowledge (nature) check.",
 			"",
@@ -858,7 +858,7 @@
 			"",
 			"::spell{source=\"Guide to the River Kingdoms/25\" evocation light arc=3 brd=3 clr=3 drd=3 hnt=3 orc=3 pal=3 skd=3 sor=3 war=3 wiz=3 ctSt cV cS cMp=\"1 sp\" rTouch target=\"object touched\" durML=1 save=\"Fortitude partial (see text)\" srN}",
 			"",
-			"As {spell/daylight}, except the object touched sheds bright silvery light in a 20-foot radius. In addition to providing illumination, the area of bright light is painful to creatures that are susceptible to alchemical silver. A creature with DR/silver that begins its turn within the light of this spell is automatically dazzled and becomes sickened unless it succeeds on a Fortitude save. These effects disappear 1 round after the target leaves the silverlight. A creature that leaves the area and then returns must make a new saving throw. This spell provides dim light up to 40 feet away, but only creatures within 20 feet are subject to the above effects."
+			"As ‹spell/daylight›, except the object touched sheds bright silvery light in a 20-foot radius. In addition to providing illumination, the area of bright light is painful to creatures that are susceptible to alchemical silver. A creature with DR/silver that begins its turn within the light of this spell is automatically dazzled and becomes sickened unless it succeeds on a Fortitude save. These effects disappear 1 round after the target leaves the silverlight. A creature that leaves the area and then returns must make a new saving throw. This spell provides dim light up to 40 feet away, but only creatures within 20 feet are subject to the above effects."
 		]
 	},
 	"simulacrum": {
@@ -896,7 +896,7 @@
 			"",
 			"::spell{source=\"Inner Sea Magic/60\" abjuration arc=5 clr=5 orc=5 sor=5 war=5 wit=5 wiz=5 ctSt cV cS cMp=\"a coiled length of copper wire wrapped around the palm\" rTouch target=\"creature touched\" durI saveNo srN}",
 			"",
-			"This spell attempts to transfer a magical effect from a creature you touch to yourself. When you touch the creature, siphon magic attempts to end one ongoing spell that has been cast on that creature, as if via a targeted {spell/dispel magic}. If you know the specific spell effect you wish to target, you can name that spell effect to target that specific spell; otherwise siphon magic begins with the highest-level spell in effect and works its way down through all spells affecting the target until it dispels one or runs out of effects, as per *dispel magic.*",
+			"This spell attempts to transfer a magical effect from a creature you touch to yourself. When you touch the creature, siphon magic attempts to end one ongoing spell that has been cast on that creature, as if via a targeted ‹spell/dispel magic›. If you know the specific spell effect you wish to target, you can name that spell effect to target that specific spell; otherwise siphon magic begins with the highest-level spell in effect and works its way down through all spells affecting the target until it dispels one or runs out of effects, as per *dispel magic.*",
 			"",
 			"If siphon magic successfully ends a spell effect on the target, the remaining duration of that spell effect is transferred to you. That spell effect plays out for the rest of its duration as if you had been the original target. If the spell allows a saving throw to resist the effect, you gain a saving throw as if the spell were just being cast upon you, although this does not \"reset\" the spell's duration."
 		]
@@ -980,11 +980,11 @@
 			"",
 			"You cause your own skin to peel off your body and animate as a magical creature you control. You may project your consciousness to your animated skin or return it to your actual body as a standard action. When your consciousness is in your body, you are helpless (except for transferring your will to your skin, or dismissing the spell).",
 			"",
-			"Your possessed skin is identical to you in all ways, except the following: It has only half the number of hit points you had at the time you cast the spell, and cannot be healed above this maximum; construct type, traits, and immunities; Str 3, Con -; DR 10/piercing or slashing; and {umr/compression}. Your skin can take any actions you could normally take in your own body (such as to fight or cast spells).",
+			"Your possessed skin is identical to you in all ways, except the following: It has only half the number of hit points you had at the time you cast the spell, and cannot be healed above this maximum; construct type, traits, and immunities; Str 3, Con -; DR 10/piercing or slashing; and ‹umr/compression›. Your skin can take any actions you could normally take in your own body (such as to fight or cast spells).",
 			"",
-			"When your skin leaves your body, your body's hit points drop to 0. Your body cannot heal damage naturally while you have no skin, nor do spells that cure hit point damage work on your body; only regeneration (from a {spell/regenerate} spell, {magic-ring/ring of regeneration}, the {umr/regeneration} monster ability, or any other effect that can regrow missing limbs) or heal can regrow your skin and allow you heal above 0 hit points.",
+			"When your skin leaves your body, your body's hit points drop to 0. Your body cannot heal damage naturally while you have no skin, nor do spells that cure hit point damage work on your body; only regeneration (from a ‹spell/regenerate› spell, ‹magic-ring/ring of regeneration›, the ‹umr/regeneration› monster ability, or any other effect that can regrow missing limbs) or heal can regrow your skin and allow you heal above 0 hit points.",
 			"",
-			"If your body is regenerated before your skin returns to it, the skin dies and your consciousness returns automatically to your body. Your skin can be preserved with {spell/gentle repose} and is suitable for any purpose that requires some of your flesh (such as a {spell/resurrection} spell) or any magic or ritual that requires a creature's skin.",
+			"If your body is regenerated before your skin returns to it, the skin dies and your consciousness returns automatically to your body. Your skin can be preserved with ‹spell/gentle repose› and is suitable for any purpose that requires some of your flesh (such as a ‹spell/resurrection› spell) or any magic or ritual that requires a creature's skin.",
 			"",
 			"When your skin returns to your body, you regain hit points equal to your skin's remaining hit points. If the spell ends before you reunite with your skin or if your skin is killed while you are in your body, you remain helpless and at 0 hit points until your full body is restored to you (requiring powerful magic, as described above). If your body dies while you are possessing your skin, you die when the spell ends, regardless of how many hit points the skin has left. If your body or skin is slain with your consciousness in it, the spell ends and you are instantly killed.",
 			"",
@@ -1075,7 +1075,7 @@
 			"",
 			":::mythic{title=\"Mythic Sleep\"}",
 			"",
-			"{SOURCE Mythic Adventures/108}  ",
+			"‹SOURCE Mythic Adventures/108›  ",
 			"The spell affects up to 8 Hit Dice of creatures, and you can choose the order in which creatures are affected by the spell. Any effect that would automatically awaken a sleeping creature instead allows it to attempt a new Will saving throw to awaken.",
 			"",
 			"*Augmented (8th):* If you expend three uses of mythic power, you can target all living creatures other than you that have 8 Hit Dice or fewer in a 1-mile radius centered on you. Creatures that fail their saving throws fall asleep for a number of days equal to your tier. You can select a number of creatures up to your tier to not be affected by the spell.",
@@ -1106,7 +1106,7 @@
 			"",
 			"The target moves at its speed, but isn't capable of running or moving at a higher rate of speed. It moves in dark conditions as if it had darkvision and can perform most simple and skill-based actions, but it can't engage in combat, spellcasting, or actions that require significant cognitive awareness (like making complex decisions, solving puzzles, or using complicated magic items). If the creature takes any damage while sleepwalking, it must attempt a new saving throw. If it succeeds, the spell ends and the creature awakens. When the target completes the suggested course of activity, or when the spell ends or is dismissed, the target remains unconscious and returns to where it was sleeping and must be awoken normally. It retains no memory of what it did while unconscious (with the only exception described above).",
 			"",
-			"Unlike the {spell/sleepwalk} spell, attempts to use sleepwalking suggestion on a creature that is unconscious for any reason other than sleep automatically fail. A creature affected by sleepwalking suggestion is unaware it has been programmed to act in its sleep (unless awoken because it was about to cause harm)."
+			"Unlike the ‹spell/sleepwalk› spell, attempts to use sleepwalking suggestion on a creature that is unconscious for any reason other than sleep automatically fail. A creature affected by sleepwalking suggestion is unaware it has been programmed to act in its sleep (unless awoken because it was about to cause harm)."
 		]
 	},
 	"sleet_storm": {
@@ -1117,7 +1117,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/344\" conjuration creation cold arc=3 bld=3 drd=3 hnt=3 mag=3 sha=3 sor=3 wit=3 wiz=3 ctSt cV cS cMDFp=\"dust and water\" rLong area=\"cylinder (40-ft. radius, 20 ft. high)\" durRL=1 saveNo srN}",
 			"",
-			"Driving sleet blocks all sight (even darkvision) within it and causes the ground in the area to be icy. A creature can walk within or through the area of sleet at half normal speed with a DC 10 Acrobatics check. Failure means it can't move in that round, while failure by 5 or more means it falls (see the {skill/Acrobatics} skill for details).",
+			"Driving sleet blocks all sight (even darkvision) within it and causes the ground in the area to be icy. A creature can walk within or through the area of sleet at half normal speed with a DC 10 Acrobatics check. Failure means it can't move in that round, while failure by 5 or more means it falls (see the ‹skill/Acrobatics› skill for details).",
 			"",
 			"The sleet extinguishes torches and small fires."
 		]
@@ -1168,11 +1168,11 @@
 			"",
 			"An affected creature moves and attacks at a drastically slowed rate. Creatures affected by this spell are staggered and can take only a single move action or standard action each turn, but not both (nor may it take full-round actions). Additionally, it takes a -1 penalty on attack rolls, AC, and Reflex saves. A slowed creature moves at half its normal speed (round down to the next 5-foot increment), which affects the creature's jumping distance as normal for decreased speed.",
 			"",
-			"Multiple slow effects don't stack. Slow counters and dispels {spell/haste}.",
+			"Multiple slow effects don't stack. Slow counters and dispels ‹spell/haste›.",
 			"",
 			":::mythic{title=\"Mythic Slow\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}  ",
+			"‹SOURCE Mythic Adventures/109›  ",
 			"The penalty on attack rolls, on Reflex saves, and to AC increases to -2, and affected creatures move at one-fourth speed. Select one affected creature; this creature is denied its Dexterity bonus to AC.",
 			"",
 			":::"
@@ -1186,7 +1186,7 @@
 			"",
 			"::spell{source=\"Advanced Class Guide/192\" conjuration creation drd=4 hnt=4 sha=4 ctSt cV cS cMp=\"earth and water\" rClose targets=\"one creature/level, no two of which can be more than 30 ft. apart\" dur=\"1 round/level (see text)\" fort srY}",
 			"",
-			"You coat the targets in thick, sticky mud. The mud acts as a {spell/slow} spell and also blinds the targets. A creature can use a standard action to remove the mud from its eyes or the eyes of an adjacent creature, ending the blinded condition for that individual. Removing enough mud to end the slow effect is a full-round action. Jumping into a lake or being subject to an effect that creates a lot of water (such as create water or hydraulic push) removes all the mud in 1 round.",
+			"You coat the targets in thick, sticky mud. The mud acts as a ‹spell/slow› spell and also blinds the targets. A creature can use a standard action to remove the mud from its eyes or the eyes of an adjacent creature, ending the blinded condition for that individual. Removing enough mud to end the slow effect is a full-round action. Jumping into a lake or being subject to an effect that creates a lot of water (such as create water or hydraulic push) removes all the mud in 1 round.",
 			"",
 			"A haste effect cast on a creature slowed by the mud allows it to act normally for the duration of the haste. Slow does not stack with the effects of slowing mud. This spell cannot counter or dispel haste."
 		]
@@ -1329,11 +1329,11 @@
 			"",
 			"Unlike normal fog, only a severe wind (31+ mph) disperses these vapors, and it does so in 1 round.",
 			"",
-			"Solid fog can be made permanent with a {spell/permanency} spell. A permanent solid fog dispersed by wind reforms in 10 minutes.",
+			"Solid fog can be made permanent with a ‹spell/permanency› spell. A permanent solid fog dispersed by wind reforms in 10 minutes.",
 			"",
 			":::mythic{title=\"Mythic Solid Fog\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}  ",
+			"‹SOURCE Mythic Adventures/109›  ",
 			"The penalty on melee attack and damage rolls increases to -4. The cloud's radius and height both increase to 50 feet.",
 			"",
 			"*Augmented:* The augmented version of mythic solid fog has the same additional benefits as the augmented version of mythic fog cloud.",
@@ -1502,7 +1502,7 @@
 			"",
 			"Your dry, rasping whisper fills a living creature of 4 or fewer Hit Dice with unnatural dread. The affected creature must make a Will save or be shaken for 1 round.",
 			"",
-			"This spell originated among the followers of the {rule/Whispering Way}, but necromancers and other intimidating folk outside that group are known to use it."
+			"This spell originated among the followers of the ‹rule/Whispering Way›, but necromancers and other intimidating folk outside that group are known to use it."
 		]
 	},
 	"soul_bind": {
@@ -1513,7 +1513,7 @@
 			"",
 			"::spell{source=\"PRPG Core Rulebook/345\" necromancy arc=9 clr=9 orc=9 psy=9 sha=9 sor=9 wit=9 wiz=9 ctSt cV cS cFp=\"see text\" rClose target=corpse durP will srN}",
 			"",
-			"You draw the soul from a newly dead body and imprison it in a black sapphire gem. The subject must have been dead no more than 1 round per caster level. The soul, once trapped in the gem, cannot be returned through {spell/clone}, {spell/raise dead}, {spell/reincarnate}, {spell/resurrection}, {spell/true resurrection}, or even a {spell/miracle} or a {spell/wish}. Only by destroying the gem or dispelling the spell on the gem can one free the soul (which is then still dead).",
+			"You draw the soul from a newly dead body and imprison it in a black sapphire gem. The subject must have been dead no more than 1 round per caster level. The soul, once trapped in the gem, cannot be returned through ‹spell/clone›, ‹spell/raise dead›, ‹spell/reincarnate›, ‹spell/resurrection›, ‹spell/true resurrection›, or even a ‹spell/miracle› or a ‹spell/wish›. Only by destroying the gem or dispelling the spell on the gem can one free the soul (which is then still dead).",
 			"",
 			"The focus for this spell is a black sapphire of at least 1,000 gp value for every HD possessed by the creature whose soul is to be bound. If the gem is not valuable enough, it shatters when the binding is attempted. (While creatures have no concept of level or HD as such, the value of the gem needed to trap an individual can be researched.)"
 		]
@@ -1528,7 +1528,7 @@
 			"",
 			"This spell protects the target's soul by briefly enveloping the target in an ethereal vault. The target gains a +4 bonus on saving throws against spells and effects that would trap or redirect its soul (such as magic jar, soul bind, and trap the soul) and effects that would transform the target into an undead creature. The target is granted a save to negate such effects even if one is not normally allowed. If it's cast on a living creature that then dies, the target's body and spirit are protected by the spell for its duration. If it's cast on a corpse within 1 round of death, the target's body and soul are both protected. Otherwise, only the body receives the protection.",
 			"",
-			"Any spellcaster that worships Abadar may learn and cast soul vault as a 4th level spell, if it isn't normally on her class spell list. Soul vault can be made permanent with the {spell/permanency} spell at a cost of 7,500 gp and a minimum caster level of 11th."
+			"Any spellcaster that worships Abadar may learn and cast soul vault as a 4th level spell, if it isn't normally on her class spell list. Soul vault can be made permanent with the ‹spell/permanency› spell at a cost of 7,500 gp and a minimum caster level of 11th."
 		]
 	},
 	"soulreaver": {
@@ -1543,8 +1543,8 @@
 			"",
 			":::mythic{title=\"Mythic Soulreaver\"}",
 			"",
-			"{SOURCE Mythic Origins/15}  ",
-			"You can expend one use of mythic power to raise creatures killed by this effect as undead thralls. You can animate a number of Hit Dice worth of undead up to double your tier as if you had animated them with {spell/animate dead}. The undead created by this spell count toward the total number of Hit Dice worth of undead you can control.",
+			"‹SOURCE Mythic Origins/15›  ",
+			"You can expend one use of mythic power to raise creatures killed by this effect as undead thralls. You can animate a number of Hit Dice worth of undead up to double your tier as if you had animated them with ‹spell/animate dead›. The undead created by this spell count toward the total number of Hit Dice worth of undead you can control.",
 			"",
 			"*Augmented (8th):* If you expend two uses of mythic power, you can raise slain foes as undead creatures chosen from the list of undead for create undead. By expending three uses of mythic power, you can select from the list for create greater undead. The total number of Hit Dice worth of undead created in this way can't exceed double your tier. Created undead are not automatically under your control. If you are capable of commanding undead, you may attempt to command the undead creatures as they form.",
 			"",
@@ -1574,7 +1574,7 @@
 			"",
 			"::spell{source=\"Familiar Folio/23\" necromancy arc=5 brd=5 clr=5 drd=5 hnt=5 inq=5 mag=5 orc=5 sha=5 skd=5 sor=5 war=5 wit=5 wiz=5 ctSt cV cS cFp=\"two brass collars worth 50 gp each\" rTouch targets=\"you and your familiar\" durML=10 will srY harmless}",
 			"",
-			"You may only cast this spell if you currently have a familiar. You place your soul into the body of your familiar, and your familiar's soul is placed in your body. This functions as if you possessed your familiar using {spell/magic jar}; your familiar simultaneously possesses your body in the same manner. You can't freely transfer your soul between your body and your familiar's - if you choose to return to your body as a standard action, the spell ends. If either body is killed, both spirits return to their original bodies, the spell ends, and the original owner of the slain body dies."
+			"You may only cast this spell if you currently have a familiar. You place your soul into the body of your familiar, and your familiar's soul is placed in your body. This functions as if you possessed your familiar using ‹spell/magic jar›; your familiar simultaneously possesses your body in the same manner. You can't freely transfer your soul between your body and your familiar's - if you choose to return to your body as a standard action, the spell ends. If either body is killed, both spirits return to their original bodies, the spell ends, and the original owner of the slain body dies."
 		]
 	},
 	"sound_burst": {
@@ -1596,7 +1596,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/185\" enchantment compulsion mindAffecting arc=1 brd=1 mes=1 psy=1 skd=1 sor=1 wit=1 wiz=1 ctSt cV cS rClose target=\"one creature\" durP will srY}",
 			"",
-			">*{race/Changeling/s} have access to the following spell.*",
+			">*‹race/Changeling«s› have access to the following spell.*",
 			"",
 			"You plant an idea, concept, or suspicion in the mind of the subject. The target genuinely believes that the idea is his own, but is not required to act upon it. If the idea is contrary to the target's normal thoughts (such as making a paladin think, \"I should murder my friends\") the target may suspect mind-altering magic is at play. The idea must be fairly clear, enough so that it can be conveyed in one or two sentences. You do not need to share a common language for the spell to succeed, but without a common language you can only sow the most basic rudimentary ideas."
 		]
@@ -1622,15 +1622,15 @@
 			"",
 			"Having attained the highest and most profane form of magical achievement in the Great Destroyer's service, you are able to call forth his most dreaded creations: the Spawn of Rovagug. Casting this spell requires a week-long ritual involving the sacrifice of one or more sentient humanoid creatures that between them possess a total of at least 15 Hit Dice. You may not eat, sleep, or cast any other spells for the duration of this ritual. After the third day of the ritual, you must succeed at a Constitution check on each remaining day of the ritual (DC 10 + 1 for each previous check) or take 1d6 points of nonlethal damage from hunger. At the end of the ritual, you gain the exhausted condition from lack of sleep.",
 			"",
-			"Upon completion of the ritual, the ground rumbles in a 100-foot radius centered on you. This effect lasts for 1 round. Any creature on the ground in this area that attempts to cast a spell during this round must succeed at a {rule/concentration} check (DC 20 + spell level) or lose the spell. Any creature on the ground in the area that attempts to attack or move during this round must succeed at a DC 15 Reflex save at the beginning of its turn or fall prone.",
+			"Upon completion of the ritual, the ground rumbles in a 100-foot radius centered on you. This effect lasts for 1 round. Any creature on the ground in this area that attempts to cast a spell during this round must succeed at a ‹rule/concentration› check (DC 20 + spell level) or lose the spell. Any creature on the ground in the area that attempts to attack or move during this round must succeed at a DC 15 Reflex save at the beginning of its turn or fall prone.",
 			"",
 			"At the beginning of your next turn, a massive fissure full of dark fire and shrieking cries appears at a point you designate within the spell's range, and a Spawn of Rovagug emerges. This creature takes the form of a thunder behemoth with the advanced and entropic simple templates. Unlike with summon monster or similar spells, the caster has no control whatsoever over the called creature. The spawn immediately heads in a random direction or toward an obvious target such as a population center, destroying anything in its path, yourself and your allies included.",
 			"",
-			"Any creature may attempt to control the called Spawn of Rovagug via spells like dominate monster or binding. However, if such an attempt fails, it draws the spawn's attention, and the monster immediately tries to destroy the creature that attempted to control it. Because the Spawn of Rovagug are all magical beasts native to the Material Plane, spells such as {spell/banishment} or {spell/dismissal} have no effect on the called spawn.",
+			"Any creature may attempt to control the called Spawn of Rovagug via spells like dominate monster or binding. However, if such an attempt fails, it draws the spawn's attention, and the monster immediately tries to destroy the creature that attempted to control it. Because the Spawn of Rovagug are all magical beasts native to the Material Plane, spells such as ‹spell/banishment› or ‹spell/dismissal› have no effect on the called spawn.",
 			"",
 			":::mythic{title=\"Mythic Spawn Calling\"}",
 			"",
-			"{SOURCE Inner Sea Gods/242}  ",
+			"‹SOURCE Inner Sea Gods/242›  ",
 			"When casting this spell, you can specify a particular Spawn of Rovagug - including the Tarrasque, the Armageddon Engine; Chemnosit, the Monarch Worm; or Volnagur, the End-Singer - to call in place of the nameless behemoth spawned by the non-mythic version of this spell. In order to do so, you must expend one use of mythic power plus three additional uses of mythic power per point of Challenge Rating the specified spawn represents above CR 20. These must be expended on the final day of the weeklong ritual to cast the spell.",
 			"",
 			":::",
@@ -1646,7 +1646,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/101\" necromancy clr=5 inq=5 orc=5 war=5 ctSt cV cS rTouch target=\"creature touched\" durML=10}",
 			"",
-			">*{race/Dhampir/s} have access to the following spell.*",
+			">*‹race/Dhampir«s› have access to the following spell.*",
 			"",
 			"The target becomes resistant to the effects of energy drain and blood drain attacks made by undead creatures, and cannot be made into undead spawn if killed while the spell is in effect.",
 			"",
@@ -1661,7 +1661,7 @@
 			"",
 			"::spell{source=\"Heroes of the Streets/31\" divination arc=1 brd=1 clr=1 hnt=1 inq=1 orc=1 rgr=1 skd=1 sor=1 war=1 wit=1 wiz=1 ctSt cV cMDFp=\"a worn-out coin\" rTouch target=\"creature touched\" durML=10 will svHarmless srN}",
 			"",
-			"This spell functions as {spell/tongues}, except the creature touched gains only the ability to speak and understand a regional human language, such as Varisian or Common (Taldane in the Inner Sea region or Tien in Tian Xia), and the language granted must be one you know. You must select the language at the time of casting. The language can't be a dead language, such as Ancient Osiriani or Jistka.",
+			"This spell functions as ‹spell/tongues›, except the creature touched gains only the ability to speak and understand a regional human language, such as Varisian or Common (Taldane in the Inner Sea region or Tien in Tian Xia), and the language granted must be one you know. You must select the language at the time of casting. The language can't be a dead language, such as Ancient Osiriani or Jistka.",
 			"",
 			"The target speaks the language with a native accent, but the spell doesn't impart knowledge about any culture associated with the language, nor does it change the target's appearance."
 		]
@@ -1689,7 +1689,7 @@
 			"",
 			"If the dead creature's alignment was different from yours, the corpse gets a Will save to resist the spell as if it were alive. If successful, the corpse can refuse to answer your questions or attempt to deceive you, using Bluff. The soul can only speak about what it knew in life. It cannot answer any questions that pertain to events that occurred after its death.",
 			"",
-			"If the corpse has been subject to {spell/speak with dead} within the past week, the new spell fails. You can cast this spell on a corpse that has been deceased for any amount of time, but the body must be mostly intact to be able to respond. A damaged corpse may be able to give partial answers or partially correct answers, but it must at least have a mouth in order to speak at all. This spell does not affect a corpse that has been turned into an undead creature."
+			"If the corpse has been subject to ‹spell/speak with dead› within the past week, the new spell fails. You can cast this spell on a corpse that has been deceased for any amount of time, but the body must be mostly intact to be able to respond. A damaged corpse may be able to give partial answers or partially correct answers, but it must at least have a mouth in order to speak at all. This spell does not affect a corpse that has been turned into an undead creature."
 		]
 	},
 	"speak_with_haunt": {
@@ -1704,7 +1704,7 @@
 			"",
 			"If the haunt's alignment is more than one step away from yours, the haunt can attempt a Will save to resist the spell. A haunt's Will save modifier is equal to 3 + the haunt's CR. If the save is successful, the haunt can refuse to answer your questions or attempt to deceive you (using Bluff). A haunt's Bluff modifier equals its CR (minimum +0) or might be determined by the GM based upon the original victim. The haunt can speak only about what it knew in life and the circumstances by which it became a haunt. It cannot answer any questions that pertain to events that occurred after it was created. A neutral or good haunt might cooperate with similarly aligned creatures in order to end its suffering.",
 			"",
-			"If a haunt has been subject to this spell within the past week, a new casting of this spell on it fails. You can cast this on a haunt that has been deceased for any amount of time. Unlike a corpse affected by {spell/speak with dead}, a haunt wants to express itself, if only to share its pain or to cause mischief."
+			"If a haunt has been subject to this spell within the past week, a new casting of this spell on it fails. You can cast this on a haunt that has been deceased for any amount of time. Unlike a corpse affected by ‹spell/speak with dead›, a haunt wants to express itself, if only to share its pain or to cause mischief."
 		]
 	},
 	"speak_with_plane": {
@@ -1741,7 +1741,7 @@
 			"",
 			"You commune with the soul of a dead creature. To cast this spell, you must be at the soul's place of death or be in the soul's presence, whether it is contained in a receptacle, powers an intelligent magic item, or other possibilities. The soul can attempt a Will save to resist the spell as if it were alive.",
 			"",
-			"A soul contacted this way can speak normally in any language it knows. Unlike {spell/speak with dead} and similar spells, you are not limited to asking questions and can engage in normal conversation with the soul (and vice versa). The soul isn't an undead creature and isn't compelled to speak or be truthful. Generally, the soul only knows what it knew in life, although souls that persisted with awareness of their surroundings after death may have more to offer."
+			"A soul contacted this way can speak normally in any language it knows. Unlike ‹spell/speak with dead› and similar spells, you are not limited to asking questions and can engage in normal conversation with the soul (and vice versa). The soul isn't an undead creature and isn't compelled to speak or be truthful. Generally, the soul only knows what it knew in life, although souls that persisted with awareness of their surroundings after death may have more to offer."
 		]
 	},
 	"spear_of_purity": {
@@ -1807,7 +1807,7 @@
 			"",
 			"If a creature within 100 feet that you can see is speaking a language you understand, you can read its lips with perfect accuracy. Reading lips in this manner gives the exact wording of conversation and does not assist in deciphering any obfuscated ideas such as secret messages or slang. Reading lips requires moderate concentration, and you take a -4 penalty on other Perception checks while doing so.",
 			"",
-			"Speechreader's sight can be made permanent with a {spell/permanency} spell cast by a caster of 9th level or higher, at a cost of 2,500 gp."
+			"Speechreader's sight can be made permanent with a ‹spell/permanency› spell cast by a caster of 9th level or higher, at a cost of 2,500 gp."
 		]
 	},
 	"spell_absorption": {
@@ -1818,7 +1818,7 @@
 			"",
 			"::spell{source=\"Inner Sea Magic/61\" abjuration arc=5 sor=5 wiz=5 ctR=1 cV cS cMp=\"a prism\" rPers target=you durRL=1}",
 			"",
-			"If you successfully counterspell a 3rd-level or lower level spell (through either {spell/dispel magic} or normal means) while spell absorption is in effect, you absorb the countered spell and use it to regain spells you have already cast. If you're a wizard, you regain the use of any single spell that you have cast since the last time you prepared spells. If you're a sorcerer, you regain a single spell slot. The spell recovered or spell slot regained must be of an equal level or lower than the spell you counterspelled.",
+			"If you successfully counterspell a 3rd-level or lower level spell (through either ‹spell/dispel magic› or normal means) while spell absorption is in effect, you absorb the countered spell and use it to regain spells you have already cast. If you're a wizard, you regain the use of any single spell that you have cast since the last time you prepared spells. If you're a sorcerer, you regain a single spell slot. The spell recovered or spell slot regained must be of an equal level or lower than the spell you counterspelled.",
 			"",
 			"### Greater Spell Absorption",
 			"",
@@ -1949,7 +1949,7 @@
 			"",
 			"::spell{source=\"Pathfinder #29: Mother of Flies/67\" evocation clr=5 orc=5 war=5 ctM=10 cV cS cDF rTouch target=\"creature touched; see text\" dur=\"permanent until discharged\" durD will srY harmless}",
 			"",
-			">*These three spells are associated with {faith/Asmodeus}, but there are no restrictions on its use by others.*",
+			">*These three spells are associated with ‹faith/Asmodeus›, but there are no restrictions on its use by others.*",
 			"",
 			"This spell functions exactly like imbue with spell ability, except that you can imbue the target with any spell you have prepared (instead of just abjuration, divination, or conjuration [healing] spells) and the target may have more than one use of the imbued spells, depending upon the arrangements made when it is cast.",
 			"",
@@ -2002,7 +2002,7 @@
 			"",
 			"If the target has more than one spellcasting class, choose one at random to be affected. This spell has no effect on spell-like abilities.",
 			"",
-			"Any spell or spell slot lost because of this spell is treated as if the caster had failed a {rule/concentration} check while trying to cast it - the spell or spell slot is wasted and has no effect, but is recovered normally the next time the character prepares spells or regains spell slots.",
+			"Any spell or spell slot lost because of this spell is treated as if the caster had failed a ‹rule/concentration› check while trying to cast it - the spell or spell slot is wasted and has no effect, but is recovered normally the next time the character prepares spells or regains spell slots.",
 			"",
 			"::h3[Spellcrash]{jl}",
 			"",
@@ -2046,7 +2046,7 @@
 			"",
 			"::spell{source=\"Inner Sea Magic/61\" abjuration arc=8 clr=8 orc=8 sor=8 wiz=8 ctSt cV cS cMp=\"a pinch of sand from the Spellscar Desert\" rMed area=\"two 10-ft. cubes per level (S)\" durML=10 durD}",
 			"",
-			"This potent spell invokes the same sort of magical devastation that created the Mana Wastes so long ago, albeit on a much more localized (and thankfully temporary) scale. Within the area you choose to affect with spellscar, the terrain takes on a strange pale hue, as if colors were muted. Periodically, ripples of vibrant color wriggle through the terrain. Within this area, any spell, spell-like ability, or magic item activation automatically triggers a {rule/primal magic} event - a spellcaster can avoid triggering such an event by making a {rule/concentration} check (DC 15 + twice the spell's level), but non-spellcasters who activate magic items have no such option.",
+			"This potent spell invokes the same sort of magical devastation that created the Mana Wastes so long ago, albeit on a much more localized (and thankfully temporary) scale. Within the area you choose to affect with spellscar, the terrain takes on a strange pale hue, as if colors were muted. Periodically, ripples of vibrant color wriggle through the terrain. Within this area, any spell, spell-like ability, or magic item activation automatically triggers a ‹rule/primal magic› event - a spellcaster can avoid triggering such an event by making a ‹rule/concentration› check (DC 15 + twice the spell's level), but non-spellcasters who activate magic items have no such option.",
 			"",
 			"You gain a +4 insight bonus on concentration checks made to avoid triggering primal magic events while within a spellscar you have created, and if you do trigger a primal magic event, you may roll d% twice and pick which of the two results you wish to have occur."
 		]
@@ -2080,7 +2080,7 @@
 			"",
 			"If the target has more than one spellcasting class, choose one at random to be affected. This spell has no effect on spell-like abilities.",
 			"",
-			"Any spell or spell slot lost because of this spell is treated as if the caster had failed a {rule/concentration} check while trying to cast - the spell or spell slot is wasted and has no effect, but it is recovered normally the next time the character prepares spells or regains spell slots."
+			"Any spell or spell slot lost because of this spell is treated as if the caster had failed a ‹rule/concentration› check while trying to cast - the spell or spell slot is wasted and has no effect, but it is recovered normally the next time the character prepares spells or regains spell slots."
 		]
 	},
 	"sphere_of_warding": {
@@ -2102,7 +2102,7 @@
 		"description": [
 			"## Spherescry",
 			"",
-			"::spell{source=\"Classic Treasures Revisited/45\" divination scrying arc=3 sor=3 wiz=3 ctH=1 cV cS cFp=\"onyx sphere worth at least 50 gp\" rText target=\"%%magic-artifact/sphere of annihilation%%\" durML=1 saveNo srN}",
+			"::spell{source=\"Classic Treasures Revisited/45\" divination scrying arc=3 sor=3 wiz=3 ctH=1 cV cS cFp=\"onyx sphere worth at least 50 gp\" rText target=\"‹magic-artifact/sphere of annihilation›\" durML=1 saveNo srN}",
 			"",
 			"This spell allows remote viewing through spheres that have previously consumed some portion of the spellcaster's body: a single digit of a finger or toe at a minimum. The caster can view and listen to events within a 20-foot radius of the associated sphere; this radius follows the sphere if the sphere moves. Unlike a true scrying spell, no other spells operate through the associated sphere, but spherescry produces no indication of its activity on the target and cannot be discovered by normal methods of magical detection."
 		]
@@ -2123,7 +2123,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Spider Climb\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}",
+			"‹SOURCE Mythic Adventures/109›",
 			"",
 			"The target gains a climb speed equal to its base land speed or 30 feet, whichever is higher. The target can take the run action while climbing and needs only one hand free to climb.",
 			"",
@@ -2181,7 +2181,7 @@
 			"",
 			":::mythic{title=\"Mythic Spike Stones\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}  ",
+			"‹SOURCE Mythic Adventures/109›  ",
 			"The damage dealt increases to 2d6 points of piercing damage plus 1 point of bleed damage. Add your tier to the DC to detect the magical trap.",
 			"",
 			":::"
@@ -2240,7 +2240,7 @@
 			"",
 			"::spell{source=\"Divine Anthology/13\" divination meditative arc=3 clr=3 sha=3 war=3 wit=3 wiz=3 ctH=1 cV cMp=\"soothing incense worth 300 gp\" rPers target=you dur=\"24 hours or until discharged\"}",
 			"",
-			"You heighten your awareness of up to one willing creature or object per 3 caster levels, each of which must be within 30 feet of you during the entire hour you spend preparing spells and casting spirit bonds. By concentrating on one of these creatures or objects as a full-round action, you can learn its direction and relative distance from your location, provided that it is on the same plane. In the case of a creature, you can also learn the state of its emotion or health {rule/aura>s} as a full-round action. In the case of an object, you can also get a sense of how damaged it is, similar to reading the health aura of a creature, or, in the case of a magic item that must be activated, you can learn when it was last activated (a full-round action in either case).",
+			"You heighten your awareness of up to one willing creature or object per 3 caster levels, each of which must be within 30 feet of you during the entire hour you spend preparing spells and casting spirit bonds. By concentrating on one of these creatures or objects as a full-round action, you can learn its direction and relative distance from your location, provided that it is on the same plane. In the case of a creature, you can also learn the state of its emotion or health ‹rule/aura<s› as a full-round action. In the case of an object, you can also get a sense of how damaged it is, similar to reading the health aura of a creature, or, in the case of a magic item that must be activated, you can learn when it was last activated (a full-round action in either case).",
 			"",
 			"Additionally, at any time during the spell's duration, you can deliver a single message to any of the creatures that participated in the spell. This message is delivered telepathically regardless of range and can be up to 25 words in length. Delivering a message in this way severs your connection with that character, and you can no longer learn information about that creature through this spell, but doing so does not impact the remaining duration you have linked to other creatures or objects."
 		]
@@ -2253,7 +2253,7 @@
 			"",
 			"::spell{source=\"Advanced Class Origins/31\" enchantment drd=1 hnt=1 sha=1 ctFRA cV cS cDF rFt=100 effect=\"100-ft.-radius spread centered on you\" durML=1}",
 			"",
-			"You call out to nature spirits associated with your spirit (not your wandering spirit) if you are a shaman, or your domain if you are a druid, beckoning them forth to pay attention to your current location. For the duration of the spell, all spells from your spirit magic list or domain list that are cast within the affected area have their caster level increased by 1, and all spellcasters casting such spells receive a +4 insight bonus on their {rule/concentration} checks for those spells only."
+			"You call out to nature spirits associated with your spirit (not your wandering spirit) if you are a shaman, or your domain if you are a druid, beckoning them forth to pay attention to your current location. For the duration of the spell, all spells from your spirit magic list or domain list that are cast within the affected area have their caster level increased by 1, and all spellcasters casting such spells receive a +4 insight bonus on their ‹rule/concentration› checks for those spells only."
 		]
 	},
 	"spirit_share": {
@@ -2280,29 +2280,29 @@
 			"",
 			"::spell{source=\"Occult Adventures/186\" evocation med=4 occ=4 sha=4 spr=3 ctSt cS rTouch target=\"weapon touched\" durML=1 will svHarmless svObject srN}",
 			"",
-			"You focus emotional energy and weave it into a shroud of hardened ectoplasm around the weapon you touch, infusing it with a ghostly glow and great power. The weapon becomes a {magic-enh/ghost touch} weapon, and gains one of the following additional benefits, depending on the type of emotion you infuse into the weapon. If a special ability wouldn't apply to the chosen weapon (such as vicious on a ranged weapon), the weapon doesn't gain that benefit.",
+			"You focus emotional energy and weave it into a shroud of hardened ectoplasm around the weapon you touch, infusing it with a ghostly glow and great power. The weapon becomes a ‹magic-enh/ghost touch› weapon, and gains one of the following additional benefits, depending on the type of emotion you infuse into the weapon. If a special ability wouldn't apply to the chosen weapon (such as vicious on a ranged weapon), the weapon doesn't gain that benefit.",
 			"",
-			">**Anger:** The weapon also gains the {magic-enh/vicious} special ability.",
+			">**Anger:** The weapon also gains the ‹magic-enh/vicious› special ability.",
 			">",
-			">**Dedication:** The weapon also gains the {magic-enh/returning} special ability.",
+			">**Dedication:** The weapon also gains the ‹magic-enh/returning› special ability.",
 			">",
-			">**Despair:** The weapon also gains the {magic-enh/cruel} special ability.",
+			">**Despair:** The weapon also gains the ‹magic-enh/cruel› special ability.",
 			">",
-			">**Fear:** The weapon also gains the {magic-enh/menacing} special ability.",
+			">**Fear:** The weapon also gains the ‹magic-enh/menacing› special ability.",
 			">",
-			">**Hatred:** The weapon also gains the {magic-enh/cunning} special ability.",
+			">**Hatred:** The weapon also gains the ‹magic-enh/cunning› special ability.",
 			">",
-			">**Jealousy:** The weapon also gains the {magic-enh/mimetic} special ability.",
+			">**Jealousy:** The weapon also gains the ‹magic-enh/mimetic› special ability.",
 			">",
-			">**Kindness:** The weapon also gains the {magic-enh/allying} special ability. &mdash; {source/Psychic Anthology/ pg. 4}",
+			">**Kindness:** The weapon also gains the ‹magic-enh/allying› special ability. &mdash; ‹source/Psychic Anthology« pg. 4›",
 			">",
-			">**Remorse:** The weapon also gains the {magic-enh/heartseeker} special ability. &mdash; {source/Occult Origins/ pg. 19}",
+			">**Remorse:** The weapon also gains the ‹magic-enh/heartseeker› special ability. &mdash; ‹source/Occult Origins« pg. 19›",
 			">",
-			">**Whimsey:** The weapon also gains the {magic-enh/merciful} special ability. &mdash; {source/Heroes from the Fringe/ pg. 17}",
+			">**Whimsey:** The weapon also gains the ‹magic-enh/merciful› special ability. &mdash; ‹source/Heroes from the Fringe« pg. 17›",
 			">",
-			">**Zeal:** The weapon also gains the {magic-enh/keen} special ability.",
+			">**Zeal:** The weapon also gains the ‹magic-enh/keen› special ability.",
 			"",
-			"If you are a spiritualist and the type of emotional energy you choose matches the emotional focus of your phantom, the weapon grants its wielder a +2 bonus on skill checks with both skills you gain {feat/Skill Focus} in from your phantom's emotional focus."
+			"If you are a spiritualist and the type of emotional energy you choose matches the emotional focus of your phantom, the weapon grants its wielder a +2 bonus on skill checks with both skills you gain ‹feat/Skill Focus› in from your phantom's emotional focus."
 		]
 	},
 	"spiritual_ally": {
@@ -2315,7 +2315,7 @@
 			"",
 			"An ally made of pure force appears in a single 5-foot square within range. The ally takes the form of a servant of your god. The spiritual ally occupies its space, though you and your allies can move through it, since it is your ally. The spiritual ally carries a single weapon, one favored by your deity (as for spiritual weapon), which has the same threat range and critical modifiers as a real weapon of its form. Each round on your turn, starting with the turn that you cast this spell, your spiritual ally can make an attack against a foe within its reach that you designate. The spiritual ally threatens adjacent squares and can flank and make attacks of opportunity as if it were a normal creature. The spiritual ally uses your base attack bonus (gaining extra attacks if your base attack bonus is high enough) plus your Wisdom bonus when it makes a melee attack. When the spiritual ally hits, it deals 1d10 points of force damage + 1 point of damage per 3 caster levels (maximum +5 at 15th level). It strikes as a spell, not a weapon, so it bypasses DR and can affect incorporeal creatures.",
 			"",
-			"Each round after the first, you can move the spiritual ally as a swift action. It has a speed of 30 feet, and a fly speed of 30 feet (perfect maneuverability). Being a construct of force, the spiritual ally cannot be harmed by any physical attacks, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it. A spiritual ally's AC against touch attacks is 10.",
+			"Each round after the first, you can move the spiritual ally as a swift action. It has a speed of 30 feet, and a fly speed of 30 feet (perfect maneuverability). Being a construct of force, the spiritual ally cannot be harmed by any physical attacks, but ‹spell/dispel magic›, ‹spell/disintegrate›, a ‹magic-artifact/sphere of annihilation›, or a ‹magic-rod/rod of cancellation› affects it. A spiritual ally's AC against touch attacks is 10.",
 			"",
 			"If an attacked creature has spell resistance, you make a caster level check (1d20 + caster level) against that spell resistance the first time the spiritual ally strikes it. If the ally is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell."
 		]
@@ -2330,7 +2330,7 @@
 			"",
 			"This spell causes an ally made of pure force to appear in a single 5-foot square within range. The ally takes the form of a servant of your god (if any) or an ancestor. The spiritual squire occupies its space, though you and your allies can move through it, since it is your ally. While the spiritual squire appears to wear armor and carry a weapon, it cannot make attacks and does not threaten any spaces. On your turn, the spiritual squire can do one of the following: retrieve one stowed item from your possessions, carry an object weighing no more than 10 pounds per caster level, hand you an object it is carrying, perform the aid another action on your behalf or for one of your allies, or help one creature of your choice don armor (which then takes half the normal time). When the spiritual squire attempts the aid another action in combat, its attack bonus is equal to your base attack bonus + your Wisdom modifier.",
 			"",
-			"Each round after the first as a swift action, you can order the spiritual squire to move. It has a speed of 30 feet. Being a construct of force, the spiritual squire cannot be harmed by any physical attacks, but {spell/disintegrate}, {spell/dispel magic}, a {magic-rod/rod of cancellation}, or a {magic-artifact/sphere of annihilation} affects it. A spiritual ally's AC against touch attacks is 10."
+			"Each round after the first as a swift action, you can order the spiritual squire to move. It has a speed of 30 feet. Being a construct of force, the spiritual squire cannot be harmed by any physical attacks, but ‹spell/disintegrate›, ‹spell/dispel magic›, a ‹magic-rod/rod of cancellation›, or a ‹magic-artifact/sphere of annihilation› affects it. A spiritual ally's AC against touch attacks is 10."
 		]
 	},
 	"spiritual_weapon": {
@@ -2348,7 +2348,7 @@
 			"",
 			"Each round after the first, you can use a move action to redirect the weapon to a new target. If you do not, the weapon continues to attack the previous round's target. On any round that the weapon switches targets, it gets one attack. Subsequent rounds of attacking that target allow the weapon to make multiple attacks if your base attack bonus would allow it to. Even if the spiritual weapon is a ranged weapon, use the spell's range, not the weapon's normal range increment, and switching targets still is a move action.",
 			"",
-			"A spiritual weapon cannot be attacked or harmed by physical attacks, but {spell/dispel magic}, {spell/disintegrate}, a {magic-artifact/sphere of annihilation}, or a {magic-rod/rod of cancellation} affects it. A spiritual weapon's AC against touch attacks is 12 (10 + size bonus for Tiny object).",
+			"A spiritual weapon cannot be attacked or harmed by physical attacks, but ‹spell/dispel magic›, ‹spell/disintegrate›, a ‹magic-artifact/sphere of annihilation›, or a ‹magic-rod/rod of cancellation› affects it. A spiritual weapon's AC against touch attacks is 12 (10 + size bonus for Tiny object).",
 			"",
 			"If an attacked creature has spell resistance, you make a caster level check (1d20 + caster level) against that spell resistance the first time the spiritual weapon strikes it. If the weapon is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell.",
 			"",
@@ -2356,7 +2356,7 @@
 			"",
 			":::mythic{title=\"Mythic Spiritual Weapon\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}  ",
+			"‹SOURCE Mythic Adventures/109›  ",
 			"The weapon gains your choice of one of the following magic weapon special abilities: flaming, frost, keen, merciful, shock, or thundering. Before or after the weapon attempts all of its attacks for the round, you can redirect it to a different target as a swift action instead of a move action",
 			"",
 			":::"
@@ -2445,7 +2445,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/209\" polymorph transmutation alc=2 arc=2 inv=2 rma=2 sor=2 wit=2 wiz=2 ctSt cV cS rTouch target=\"creature touched\" durML=1 fort srY harmless}",
 			"",
-			">*{race/Vishkanya/s} have access to the following spell.*",
+			">*‹race/Vishkanya«s› have access to the following spell.*",
 			"",
 			"The target becomes flexible regardless of its actual size and mass. It can move through areas at least half its size with no penalty for squeezing. It can move through a space at least one-quarter its width using the penalties for squeezing through a space at least half its width."
 		]
@@ -2581,7 +2581,7 @@
 			"",
 			"::spell{source=\"Villain Codex/177\" transmutation ant=1 drd=1 hnt=1 pal=1 rgr=1 ctSt cV cS cDF rTouch target=\"saddle touched\" durML=1 durD will srY harmless object}",
 			"",
-			"A saddle affected by this spell becomes more comfortable to sit in, and the magic stabilizes any shaking motion caused by riding at a high speed. For the duration of the spell, the penalty to use ranged weapons while mounted in the target saddle decreases by 2. This stacks with the benefit of the {feat/Mounted Archery} feat and similar effects. Furthermore, the DC for any {rule/concentration} check required as a result of the mount's movement decreases by 2."
+			"A saddle affected by this spell becomes more comfortable to sit in, and the magic stabilizes any shaking motion caused by riding at a high speed. For the duration of the spell, the penalty to use ranged weapons while mounted in the target saddle decreases by 2. This stacks with the benefit of the ‹feat/Mounted Archery› feat and similar effects. Furthermore, the DC for any ‹rule/concentration› check required as a result of the mount's movement decreases by 2."
 		]
 	},
 	"steal_book": {
@@ -2607,7 +2607,7 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/95\" air transmutation arc=2 bld=2 brd=2 drd=2 hnt=2 mes=2 psy=2 rma=2 skd=2 sor=2 wit=2 wiz=2 ctSt cV cS rClose target=\"one living creature\" dur=\"1 round (see text)\" save=\"Fortitude negates, see text\" srY}",
 			"",
-			">*{race/Catfolk} have access to the following spell.*",
+			">*‹race/Catfolk› have access to the following spell.*",
 			"",
 			"You pull the breath from a creature's lungs, dealing damage and leaving it unable to speak, use breath weapons, or cast spells with verbal components. If the target fails its saving throw, it takes 2d6 points of damage, and it cannot speak, use breath weapons, or anything else requiring breathing, and a visible line of swirling air leaves the target's mouth and enters your mouth.",
 			"",
@@ -2655,7 +2655,7 @@
 			"",
 			"::spell{source=\"Blood of the Night/30\" transmutation arc=3 clr=3 drd=3 hnt=3 orc=3 rma=3 sor=3 war=3 wit=3 wiz=3 ctSt cV cS cMp=\"a handful of ash\" rTouch target=\"creature touched\" durH=24 fort srY}",
 			"",
-			"You temporarily drain youth and vitality from the target and channel it into yourself. If the target fails its Fortitude save, it physically ages 1d4 years per two caster levels (maximum 5d4), and you decrease your age by the same number of years. If this changes the age category of you or the target, only adjust physical ability scores. This effect cannot bring your age to lower than the {rule/minimum |age/ of adulthood} for your race. This stolen youth does not actually change your age or prolong your life; you will still die at your allotted time, no matter how youthful you appear. Likewise, the spell does not add to the target's true age, and cannot make the target die of old age.",
+			"You temporarily drain youth and vitality from the target and channel it into yourself. If the target fails its Fortitude save, it physically ages 1d4 years per two caster levels (maximum 5d4), and you decrease your age by the same number of years. If this changes the age category of you or the target, only adjust physical ability scores. This effect cannot bring your age to lower than the ‹rule/minimum »age« of adulthood› for your race. This stolen youth does not actually change your age or prolong your life; you will still die at your allotted time, no matter how youthful you appear. Likewise, the spell does not add to the target's true age, and cannot make the target die of old age.",
 			"",
 			"When the spell ends, the sudden weight of aging makes you fatigued for 1d4 hours.",
 			"",
@@ -2679,7 +2679,7 @@
 			"",
 			"::spell{source=\"Aquatic Adventures/61\" evocation fire water arc=7 sor=7 wiz=7 ctSt cV cS cMp=\"a scraping from a hydrothermal vent\" rPers target=you durRL=1}",
 			"",
-			"For the duration of the spell, you can fire three rays of steam once per round as a standard action (and you also fire three such rays as part of casting the spell). These rays function similarly to the rays from {spell/scorching ray} (you can fire them at close range, they're ranged touch attacks, they deal 4d6 points of fire damage each, and spell resistance negates them) except that they work both underwater and above water without a caster level check for being a fire spell."
+			"For the duration of the spell, you can fire three rays of steam once per round as a standard action (and you also fire three such rays as part of casting the spell). These rays function similarly to the rays from ‹spell/scorching ray› (you can fire them at close range, they're ranged touch attacks, they deal 4d6 points of fire damage each, and spell resistance negates them) except that they work both underwater and above water without a caster level check for being a fire spell."
 		]
 	},
 	"stench_of_prey": {
@@ -2708,11 +2708,11 @@
 			"",
 			"Stinking cloud creates a bank of fog like that created by fog cloud, except that the vapors are nauseating. Living creatures in the cloud become nauseated. This condition lasts as long as the creature is in the cloud and for 1d4+1 rounds after it leaves. (Roll separately for each nauseated character.) Any creature that succeeds on its save but remains in the cloud must continue to save each round on your turn. This is a poison effect.",
 			"",
-			"Stinking cloud can be made permanent with a {spell/permanency} spell. A permanent stinking cloud dispersed by wind reforms in 10 minutes.",
+			"Stinking cloud can be made permanent with a ‹spell/permanency› spell. A permanent stinking cloud dispersed by wind reforms in 10 minutes.",
 			"",
 			":::mythic{title=\"Mythic Stinking Cloud\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}  ",
+			"‹SOURCE Mythic Adventures/109›  ",
 			"Creatures that succeed at their saves are sickened while they remain in the cloud and for 1d4+1 rounds after they leave. Creatures that fail their saves continue to be sickened for 1 hour after leaving the cloud.",
 			"",
 			":::"
@@ -2726,7 +2726,7 @@
 			"",
 			"::spell{source=\"Pathfinder #95: Anvil of Fire/66\" fire transmutation clr=2 inq=2 orc=2 war=2 ctSt cV rPers target=you durRL=1}",
 			"",
-			">*Priests of {faith/Zursvaater} have access to the following spell.*",
+			">*Priests of ‹faith/Zursvaater› have access to the following spell.*",
 			"",
 			"You increase the natural heat within your body, transferring it to your weapons and armor. As a swift action, you may grant one of your natural or manufactured weapons the flaming special ability for 1 round. If you have the fire subtype, your weapon instead gains the flaming burst special ability. If the weapon leaves your hand for any reason, it loses the flaming (or flaming burst) special ability until you spend a swift action to activate it again. You can only have stoke the inner fire active on one weapon at a time, and spending a swift action to imbue a second weapon with the spell's power immediately ends its effect on the first weapon.",
 			"",
@@ -2745,7 +2745,7 @@
 			"",
 			"To release an image, you touch a gem holding stolen light as a standard action and speak a command word chosen at the time of casting. For 1 minute per caster level, the image stored within the gem becomes visible. Details can be made out as clearly as they could be perceived at the time of casting. Darkvision is of no use for making out details in a stolen image, though low-light vision or other exceptional visual talents may reveal information the caster did not see. Light sources brighter than bright light are reduced to bright light in the stolen image. Once the image has been released, it cannot again be recovered from the gem.",
 			"",
-			"Stolen light can be made permanent with the {spell/permanency} spell by a caster of 10th level for a cost of 5,000 gp. This leaves the gem capable of projecting the image indefinitely, activated and deactivated by its command word, until it is destroyed or dispelled."
+			"Stolen light can be made permanent with the ‹spell/permanency› spell by a caster of 10th level for a cost of 5,000 gp. This leaves the gem capable of projecting the image indefinitely, activated and deactivated by its command word, until it is destroyed or dispelled."
 		]
 	},
 	"stone_call": {
@@ -2782,7 +2782,7 @@
 			"",
 			"This spell transforms your hands into living stone. While this spell is in effect, your unarmed strikes do not provoke attacks of opportunity and deal 1d6 points of lethal bludgeoning damage (1d4 if you are Small). In addition, your unarmed strikes ignore the hardness of any object with a hardness less than 8.",
 			"",
-			"{spell/Stone to flesh} immediately dispels stone fist. Should you be the target of {spell/transmute rock to mud}, this spell immediately ends and you take 4d6 points of damage."
+			"‹spell/Stone to flesh› immediately dispels stone fist. Should you be the target of ‹spell/transmute rock to mud›, this spell immediately ends and you take 4d6 points of damage."
 		]
 	},
 	"stone_shape": {
@@ -2800,7 +2800,7 @@
 			"",
 			":::mythic{title=\"Mythic Stone Shape\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}  ",
+			"‹SOURCE Mythic Adventures/109›  ",
 			"The duration changes to 1 round/level and instantaneous (see text). Each round after the round you cast the spell, you can spend a standard action to shape up to 5 additional cubic feet of stone you touch. Shaped stone has an instantaneous duration (meaning it does not revert to its previous form when the spell ends).",
 			"",
 			":::"
@@ -2814,11 +2814,11 @@
 			"",
 			"::spell{source=\"Advanced Race Guide/149\" conjuration creation earth arc=1 bld=1 clr=1 drd=1 hnt=1 mag=2 orc=1 sha=1 sor=1 sum=1 usm=1 war=1 wiz=1 ctIm cV cS cDF rFt=0 effect=\"stone wall whose area is one 5-ft. square\" durR=1 saveNo srN}",
 			"",
-			">*{race/Oread/s} have access to the following spell.*",
+			">*‹race/Oread«s› have access to the following spell.*",
 			"",
 			"A 1-inch-thick slab of stone springs up from the ground, interposing itself between you and an opponent of your choice. The stone shield provides you with cover from that enemy until the beginning of your next turn, granting you a +4 bonus to Armor Class and a +2 bonus on Reflex saving throws. If the opponent's attack misses you by 4 or less, the attack strikes the shield instead. The stone shield has hardness 8 and 15 hit points. If the shield is destroyed, the spell ends and the shield crumbles away into nothingness. Spells and effects that damage an area deal damage to the shield.",
 			"",
-			"You cannot use this spell if you are not adjacent to a large area of earth or stone such as the ground or a wall. At 4th level, a {arc-monk/qinggong monk} may select this spell as a ki power costing 1 ki point to activate."
+			"You cannot use this spell if you are not adjacent to a large area of earth or stone such as the ground or a wall. At 4th level, a ‹arc-monk/qinggong monk› may select this spell as a ki power costing 1 ki point to activate."
 		]
 	},
 	"stone_tell": {
@@ -2888,7 +2888,7 @@
 			"",
 			":::mythic{jl title=\"Mythic Stoneskin\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}",
+			"‹SOURCE Mythic Adventures/109›",
 			"",
 			"The target gains a +4 bonus on saving throws against disease, poison, and stun effects. There is a 50% chance any critical hit or sneak attack against the target is treated as a normal hit, as if the target were wearing medium fortification armor.",
 			"",
@@ -2948,11 +2948,11 @@
 			"",
 			"*5th through 10th Rounds:* Violent rain and wind gusts reduce visibility. The rain obscures all sight, including darkvision, beyond 5 feet. A creature 5 feet away has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target). Speed is reduced by three-quarters.",
 			"",
-			"Ranged attacks within the area of the storm are impossible. Spells cast within the area are disrupted unless the caster succeeds on a {rule/concentration} check against a DC equal to the storm of vengeance's save DC + the level of the spell the caster is trying to cast.",
+			"Ranged attacks within the area of the storm are impossible. Spells cast within the area are disrupted unless the caster succeeds on a ‹rule/concentration› check against a DC equal to the storm of vengeance's save DC + the level of the spell the caster is trying to cast.",
 			"",
 			":::mythic{title=\"Mythic Storm of Vengeance\"}",
 			"",
-			"{SOURCE Mythic Adventures/109}  ",
+			"‹SOURCE Mythic Adventures/109›  ",
 			"The acid damage dealt increases to 1d8 points of acid damage. The lightning damage dealt increases to 10d8 points of electricity damage. You can call down a bolt of lightning on the 2nd and 4th rounds (equivalent to those on the 3rd round). You can strike the same target with a bolt more than once during the casting of the spell, but not more than once per round.",
 			"",
 			"*Augmented (7th):* If you expend three uses of mythic power, the storm cloud's radius increases to 1,000 feet. Structures in the storm take 1d10 points of damage per round (this damage bypasses hardness). You can call down one additional bolt in the 2nd and 4th rounds, and three additional bolts in the 3rd round.",

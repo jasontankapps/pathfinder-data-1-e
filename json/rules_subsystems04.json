@@ -3,7 +3,7 @@
 		"name": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/102}",
+			"‹SOURCE Ultimate Intrigue/102›",
 			"",
 			"Jockeying for position and favor is natural part of human social dynamics, as common in the armies of high-minded crusaders as in the courts of wicked nobles. The resulting web of allegiances lies at the heart of any intrigue-focused campaign, with individuals scheming to gain allies while undermining their enemies' support. To represent these machinations, this section introduces two influence systems: one for individual influence and one for organizational influence. The first system provides a dynamic framework for social encounters in which the PCs gain or lose the favor of key NPCs, as well as a mechanic for calling in debts. The second system models the way the PCs' actions affect their clout within allied organizations, and how far organizations at cross-purposes with the PCs will go to undermine them."
 		],
@@ -37,13 +37,13 @@
 		"name": "Individual Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/102}",
+			"‹SOURCE Ultimate Intrigue/102›",
 			"",
 			"The most common model for social encounters involves a single exchange involving a Bluff, Diplomacy, or Intimidate check. The following influence system serves as a more robust replacement for that basic system. It also encourages the entire party to participate in a social encounter, and can be used in encounters with multiple NPCs. In the individual influence system, participants try to change the targets' opinions or court favor by succeeding at a variety of checks unique to each individual target. Known as influence checks, these are usually skill checks, though other types of checks may suffice, as an NPC may be especially impressed by other qualities, such as drinking ability or martial prowess.",
 			"",
 			"In this system, a social encounter is divided into one or more phases. The length of a phase is flexible, and typically lasts 15 minutes to 1 hour-long enough for each PC to perform several minutes' worth of actions per phase that are unrelated to influence checks (such as investigating a murder scene or surreptitiously defeating an assassin) without forgoing their chances to participate in the social encounter. GMs should determine beforehand how many phases a social encounter will last, thus determining how many chances the PCs will have to influence or learn about their targets - generally two to six. The GM should also determine whether the PCs' actions can win them additional phases. For example, seducing a baroness or forestalling her carriage may both earn the PCs an extra phase in which to win her favor.",
 			"",
-			"At the beginning of a phase, each PC selects an NPC. During each phase, a PC can either try to directly influence the NPC via an influence check, or attempt to learn more about that NPC with a discovery check - a check to learn about an NPC that can help with future influence checks during the same social encounter. The kinds of checks required for an influence check or a discovery check, known as influence skills, are unique to each individual. The PCs can learn an NPC's influence skills through successful discovery checks (see {rule/Discovery Check/s}); otherwise, they must guess.",
+			"At the beginning of a phase, each PC selects an NPC. During each phase, a PC can either try to directly influence the NPC via an influence check, or attempt to learn more about that NPC with a discovery check - a check to learn about an NPC that can help with future influence checks during the same social encounter. The kinds of checks required for an influence check or a discovery check, known as influence skills, are unique to each individual. The PCs can learn an NPC's influence skills through successful discovery checks (see ‹rule/Discovery Check«s›); otherwise, they must guess.",
 			"",
 			"### Discovery and Influence Check DCs",
 			"",
@@ -102,7 +102,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/102}",
+			"‹SOURCE Ultimate Intrigue/102›",
 			"",
 			"Each PC who attempts a discovery check rolls separately, even if multiple PCs attempt to discover information about the same NPC during the same phase. This represents the PCs forming their own separate opinions and analyses.",
 			"",
@@ -133,7 +133,7 @@
 		"name": "Influence Check",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/102}",
+			"‹SOURCE Ultimate Intrigue/102›",
 			"",
 			"Without a successful discovery check, a PC attempting an influence check must guess what an NPC's influence skills are. A PC generally gains no benefit or hindrance when using a skill that cannot influence the NPC, though the GM may rule that multiple fumblings annoy the target and impose penalties on future rolls. Guidelines for setting influence check DCs appear under Discover and Influence Check DCs under [Individual Influence](rule/individual_influence).",
 			"",
@@ -171,9 +171,9 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/103}",
+			"‹SOURCE Ultimate Intrigue/103›",
 			"",
-			"If the PCs know which NPCs they need to influence in advance, they can seek out information to assist them in doing so ahead of time, potentially gaining information from the social stat block before the encounter. To represent the results of such preparations, each PC can attempt one Knowledge-based discovery check in advance with a - 5 penalty. The GM can allow other discovery skills to work, but Sense Motive should never work in advance unless the PC is actively stalking the NPC, which might require additional Disguise or Stealth checks and could lead to negative consequences. If the PCs attempt a discovery check against a particularly prominent NPC in advance, the PCs can attempt the Knowledge check to receive a +4 on the discovery check in advance, as well (see {rule/Discovery Check/s})."
+			"If the PCs know which NPCs they need to influence in advance, they can seek out information to assist them in doing so ahead of time, potentially gaining information from the social stat block before the encounter. To represent the results of such preparations, each PC can attempt one Knowledge-based discovery check in advance with a - 5 penalty. The GM can allow other discovery skills to work, but Sense Motive should never work in advance unless the PC is actively stalking the NPC, which might require additional Disguise or Stealth checks and could lead to negative consequences. If the PCs attempt a discovery check against a particularly prominent NPC in advance, the PCs can attempt the Knowledge check to receive a +4 on the discovery check in advance, as well (see ‹rule/Discovery Check«s›)."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -199,9 +199,9 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/103}",
+			"‹SOURCE Ultimate Intrigue/103›",
 			"",
-			"The PCs may not be the only ones seeking to influence prominent NPCs. An opposing party of NPCs at the same event can place additional pressure on the PCs to complete their task. Once either the PCs or the opposing party gain sway over an NPC (see {rule/Benefits of Influence}), the other group can't attempt further influence checks during that event. If the two groups are actively opposed, one group's successful check causes the other group to take a cumulative -2 penalty on subsequent influence checks against that NPC, which can change the strategies the PCs might use. For instance, if the PCs notice the other group talking with a particular NPC, they have to decide whether to try to influence that NPC (thus foiling their rivals) or to yield that NPC to the other group and focus on influencing other NPCs."
+			"The PCs may not be the only ones seeking to influence prominent NPCs. An opposing party of NPCs at the same event can place additional pressure on the PCs to complete their task. Once either the PCs or the opposing party gain sway over an NPC (see ‹rule/Benefits of Influence›), the other group can't attempt further influence checks during that event. If the two groups are actively opposed, one group's successful check causes the other group to take a cumulative -2 penalty on subsequent influence checks against that NPC, which can change the strategies the PCs might use. For instance, if the PCs notice the other group talking with a particular NPC, they have to decide whether to try to influence that NPC (thus foiling their rivals) or to yield that NPC to the other group and focus on influencing other NPCs."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -226,13 +226,13 @@
 		"name": "Influence and Magic",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/103}",
+			"‹SOURCE Ultimate Intrigue/103›",
 			"",
 			"PCs can also use magic to assist in gaining influence over key NPCs. In most cases, casting mind-affecting or other intrusive spells is socially unacceptable or even criminal, so PCs who wish to use such magic should use discretion. Whenever a PC (or NPC) casts a spell, NPCs with the Spellcraft skill attempt to identify that spell. Even NPCs unfamiliar with magic are likely to assume that spells are intended for mischief, unnatural control, or other selfish ends. The most common schools of magic used in social situations are divination, enchantment, and illusion.",
 			"",
-			"Divination spells can assist the PCs in similar ways to a discovery check. Spells such as {spell/detect magic} and {spell/identify} reveal active spells and magic items. Spells and items far beyond the reasonable means of an NPC may indicate that NPC is hiding something, or is more than she seems. Alignment-detecting spells reveal whether someone has an unusually strong or unexpected aura. Other divination spells, such as {spell/detect thoughts}, pry directly into a target's mind, and can provide valuable clues at the GM's discretion, most commonly replicating a successful discovery check.",
+			"Divination spells can assist the PCs in similar ways to a discovery check. Spells such as ‹spell/detect magic› and ‹spell/identify› reveal active spells and magic items. Spells and items far beyond the reasonable means of an NPC may indicate that NPC is hiding something, or is more than she seems. Alignment-detecting spells reveal whether someone has an unusually strong or unexpected aura. Other divination spells, such as ‹spell/detect thoughts›, pry directly into a target's mind, and can provide valuable clues at the GM's discretion, most commonly replicating a successful discovery check.",
 			"",
-			"Enchantment spells and effects are extremely effective tools for increasing influence, but their use is dangerous. When cast during a social encounter, spells such as {spell/charm person} grant a +5 circumstance bonus on influence checks in place of their normal spell effects, as long as the target fails the saving throw and remains unaware that she is under an enchantment effect. More powerful enchantments such as {spell/suggestion} are unhelpful for gaining influence, since they compel limited actions for a time and then stop. Spells such as {spell/geas//quest} or {spell/dominate person} might obviate the need to sway an NPC, but the magical influence is obvious to many people interacting with the NPC. People typically react poorly to realizing that enchantment magic has been used on them. The consequences of getting caught range from the offending PC being unable to attempt further influence checks against that NPC at that social event, to the whole party being unable to attempt further influence checks against that NPC during that event, up to the party being kicked out of the event entirely or charged with a crime.",
+			"Enchantment spells and effects are extremely effective tools for increasing influence, but their use is dangerous. When cast during a social encounter, spells such as ‹spell/charm person› grant a +5 circumstance bonus on influence checks in place of their normal spell effects, as long as the target fails the saving throw and remains unaware that she is under an enchantment effect. More powerful enchantments such as ‹spell/suggestion› are unhelpful for gaining influence, since they compel limited actions for a time and then stop. Spells such as ‹spell/geas/quest› or ‹spell/dominate person› might obviate the need to sway an NPC, but the magical influence is obvious to many people interacting with the NPC. People typically react poorly to realizing that enchantment magic has been used on them. The consequences of getting caught range from the offending PC being unable to attempt further influence checks against that NPC at that social event, to the whole party being unable to attempt further influence checks against that NPC during that event, up to the party being kicked out of the event entirely or charged with a crime.",
 			"",
 			"From innocuous glamers - such as magic that sustains illusory finery - to spells disguising an individual as a different person, illusion spells are versatile tools of deception. Many illusions that allow a saving throw require the viewers to study the illusion carefully or interact with it before they attempt a saving throw. In the context of the influence system, the first time a PC interacts with an NPC during a phase, the PC and the NPC each receive a saving throw against the other's relevant illusions, as they are assumed to be studying each other carefully at some point during the first exchange. After that, participants generally become more complacent in the way they examine each other, so they receive saving throws against only illusions dealing with particularly specific aspects of their interaction. For example, a glamer to make a dress look nicer would grant a saving throw during the first phase of interaction, but it usually wouldn't recur in later phases unless the topic of the dress came up in conversation."
 		],
@@ -260,7 +260,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/104}",
+			"‹SOURCE Ultimate Intrigue/104›",
 			"",
 			"When an NPC is being deceptive, it is possible that the PCs never discover the NPC's true allegiance - even in the case of a recurring villain, as such an NPC's exceptional skills may render his deceptions undetectable until later in the campaign. While Perception and Sense Motive checks are often used to oppose Disguise and Bluff checks, sometimes another skill might be more useful in discerning an impostor. For example, someone pretending to be a noble of a certain house could accidentally reveal his deception through his ignorance of facts that the noble should know.",
 			"",
@@ -290,7 +290,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/104}",
+			"‹SOURCE Ultimate Intrigue/104›",
 			"",
 			"In general, this influence system assumes that the PCs share roughly the same goals, and that the party shares the total number of successful influence checks. Games developed around intrigue can produce unusual situations, though, and it is possible that the PCs may be split into groups working at cross-purposes, or, more likely, toward unrelated goals, where each purpose is separate but not in direct conflict. For example, Valeros and Seelah may want to influence the NPCs in the king's court to support a war against the necromancer queen of a neighboring land, while Kyra and Ezren want to influence those same NPCs to gain support for Kyra to marry the princess. In such cases, each groups' number of successful influence checks should be tracked separately; if their goals are unrelated rather than conflicting, one group's influence over an NPC doesn't take that NPC out of play for the others, as it would for an opposing group."
 		],
@@ -317,7 +317,7 @@
 		"name": "Benefits of Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/105}",
+			"‹SOURCE Ultimate Intrigue/105›",
 			"",
 			"In a single encounter, the goal is often to convince an NPC to perform a specific favor. In longer-term social engagements, the PCs may need to build toward larger goals. Each time the PCs sway an NPC using the influence rules (gaining the number of successes listed in the NPC's social stat block), they increase their influence level over that NPC by one step. For instance, if the PCs are unknown to an NPC who requires 3 successes to influence, after 3 successes, the PCs succeed in winning some of their target's trust and thus increase their influence level from no sway to minor sway. An NPC the PCs have not yet influenced typically treats them as strangers.",
 			"",
@@ -356,7 +356,7 @@
 		"name": "Countering Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/106}",
+			"‹SOURCE Ultimate Intrigue/106›",
 			"",
 			"A character can attempt an influence check with the goal of lowering an enemy's influence level over an NPC rather than raising her own. The DC for this kind of influence check is based on the enemy's influence level with the NPC in question. The sabotaging character gains a +2 bonus on these checks if she has minor sway over that NPC, a +4 bonus if she has moderate sway, or a +6 bonus if she has major sway. Sabotaging an NPC's influence level requires as many successes as the enemy would need to increase his influence level with that NPC. A sabotaging character who knows of an NPC's strengths can use that knowledge to ascribe unfavorable characteristics to the enemy she hopes to sabotage. If these disparaging descriptions are true (or if the NPC believes them to be true), the saboteur gains a +2 bonus per strength on influence checks to counter the enemy's influence.",
 			"",
@@ -388,7 +388,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/106}",
+			"‹SOURCE Ultimate Intrigue/106›",
 			"",
 			"Over time, a PC's influence over an NPC is likely to wane if the PC doesn't keep in contact with her (and continue making influence checks every once in a while), depending on the influence's nature. Generally, the higher the influence level, the more effort the PC must commit and thus the faster the influence degrades with neglect. However, if the PCs achieve major sway over an NPC because she becomes deeply indebted to them, at the GM's discretion their influence level may not degrade until the NPC feels she has repaid that debt, making it a matter of favors rather than time."
 		],
@@ -416,7 +416,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/107}",
+			"‹SOURCE Ultimate Intrigue/107›",
 			"",
 			"For social encounters, GMs should build social stat blocks for important NPCs. Social stat blocks are very flexible, and can include any information relevant to the encounter, though most include the information below. Examples are listed [here](rule/dramatis_personae).",
 			"",
@@ -442,11 +442,11 @@
 			"",
 			"@HL[Biases:] Some NPCs have biases - subtle attitudes that influence an encounter. For example, an NPC may think favorably of half-orcs and be suspicious of elves. If the NPC's biases affect a PC, apply a +2 or -2 circumstance modifier on that PC's influence checks, depending on whether the bias is in the PC's favor or not. If an NPC is strongly biased for or against a PC, the modifier may be even greater, but such strong biases are readily apparent. PCs can detect a bias with a successful DC 20 Sense Motive check.",
 			"",
-			"@HL[Skills and Saves:] Only a few of the NPC's skills are likely to be relevant. Sense Motive and Perception are almost always necessary. If the NPC is hiding something major from the PCs, Bluff and Disguise are also important. This section should also include Spellcraft and likely saving throw modifiers if the spellcasting might occur during the event; Will saving throws are the most common for intrigue-related spells such as {spell/charm person} or {spell/detect thoughts}.",
+			"@HL[Skills and Saves:] Only a few of the NPC's skills are likely to be relevant. Sense Motive and Perception are almost always necessary. If the NPC is hiding something major from the PCs, Bluff and Disguise are also important. This section should also include Spellcraft and likely saving throw modifiers if the spellcasting might occur during the event; Will saving throws are the most common for intrigue-related spells such as ‹spell/charm person› or ‹spell/detect thoughts›.",
 			"",
 			"@HL[Analyze:] A PC who succeeds at the listed check learns details about what skills or checks can influence the NPC. Each sentence should contain the information a single successful discovery check reveals.",
 			"",
-			"@HL[Strengths:] An NPC may be particularly resistant to certain tactics; such tactics are referred to as that NPC's strengths. For example, a person with little patience for flattery may think less favorably of someone who showers her with compliments. The skills and DCs required to discover these strengths are listed here. A PC who incorporates an NPC's strength into an influence check takes a -4 penalty on the check. Knowledge of an NPC's strengths can be a powerful tool for sabotaging someone else's attempt to gain influence over her - see the {rule/Countering Influence} section for more information.",
+			"@HL[Strengths:] An NPC may be particularly resistant to certain tactics; such tactics are referred to as that NPC's strengths. For example, a person with little patience for flattery may think less favorably of someone who showers her with compliments. The skills and DCs required to discover these strengths are listed here. A PC who incorporates an NPC's strength into an influence check takes a -4 penalty on the check. Knowledge of an NPC's strengths can be a powerful tool for sabotaging someone else's attempt to gain influence over her - see the ‹rule/Countering Influence› section for more information.",
 			"",
 			"@HL[Weaknesses:] Most NPCs have at least one weakness. A weakness could be a deep-seated secret or insecurity, or a hobby that the NPC can talk about for days on end. The skills and DCs needed to discover these weaknesses are listed here. For each weakness a PC incorporates into her influence check, she gains a cumulative +2 bonus.",
 			"",
@@ -485,7 +485,7 @@
 		"name": "Using the Individual Influence System",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/108}",
+			"‹SOURCE Ultimate Intrigue/108›",
 			"",
 			"Individual influence is great for situations such as high-stakes auctions, political lobbying, or convincing a guard to let the PCs go after they are framed and imprisoned. The following example uses the influence rules as the framework for a classic murder mystery."
 		],
@@ -510,7 +510,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/108}",
+			"‹SOURCE Ultimate Intrigue/108›",
 			"",
 			"The PCs have been invited to a day of festivities at the estate of the hostess to discuss trade agreements and access to exotic markets. The hostess meets the PCs when they arrive late at night, sharing a drink with them before asking a servant to show them to their rooms in the nearby guest house (allow a single phase of influence or discovery checks against her during this time for the ostensible purpose of trade agreements). However, by the start of festivities the next morning, disaster strikes. A few minutes after the PCs and other guests begin arriving for breakfast, greeted by the hostess's second husband, the butler discovers the hostess's body. A brief argument ensues, with all the NPCs (and possibly the PCs as well) bickering about who should investigate and who might just be trying to hide evidence of the crime. Eventually, the NPCs agree that guards should accompany every person who leaves the drawing room, and the opportunity for influence begins. The PCs have a total of four phases in which to influence the NPCs and conduct their own investigations (under the guards' watchful eyes)."
 		],
@@ -531,7 +531,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/108}",
+			"‹SOURCE Ultimate Intrigue/108›",
 			"",
 			"The hostess's close friend is in serious financial trouble, which she has hidden, continuing to present a veneer of wealth. To fund her continued lifestyle, she began to steal from the hostess. When the hostess caught her in the act, the close friend lashed out with a nearby object and accidentally killed the hostess. Horrified at what she had done and afraid of being caught, the close friend cleaned up the blood, then activated a scroll of dress corpse from the hostess's first husband's supply of scrolls, applied poison stolen from the butler's supplies, and moved the body to the bedroom, all while avoiding the night guards through her careful study of their patterns used to assist her previous larceny."
 		],
@@ -551,7 +551,7 @@
 		"name": "The Value of Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/108}",
+			"‹SOURCE Ultimate Intrigue/108›",
 			"",
 			"Influenced NPCs allow the PCs access to additional clues or restricted areas, as mentioned in their social stat blocks."
 		],
@@ -572,7 +572,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/108}",
+			"‹SOURCE Ultimate Intrigue/108›",
 			"",
 			"The following characters are available for influence during the murder mystery (the hostess is not available, as she is dead): the spy, the butler, the close friend, the rival investigator, and the second husband. The spy is the most complicated (since she has a secret identity), and her social stat block can be found below. The others have descriptions to assist in building their social stat blocks.",
 			"",
@@ -632,7 +632,7 @@
 			"",
 			"### The Rival Investigator",
 			"",
-			"The hostess's accountant is also a fan of detective stories and fancies herself an amateur investigator. Extremely detail-oriented, she noticed the use of {spell/dress corpse}, keeping it to herself. She suspects the PCs because no one else present should have had access to the sort of magic adventurers do, and adventurers are known to kill people with weapons, rather than expensive poison. She is extremely antagonistic toward the PCs, attempting to deny them access at every turn. They can't influence her without sufficient evidence that they have been framed (evidence that they conclusively didn't plant), but once they do, she allows them access to the records room and shares the clues she has discovered so far (including the remains of the bloodstain at the true murder scene, if the PCs haven't noticed it yet).",
+			"The hostess's accountant is also a fan of detective stories and fancies herself an amateur investigator. Extremely detail-oriented, she noticed the use of ‹spell/dress corpse›, keeping it to herself. She suspects the PCs because no one else present should have had access to the sort of magic adventurers do, and adventurers are known to kill people with weapons, rather than expensive poison. She is extremely antagonistic toward the PCs, attempting to deny them access at every turn. They can't influence her without sufficient evidence that they have been framed (evidence that they conclusively didn't plant), but once they do, she allows them access to the records room and shares the clues she has discovered so far (including the remains of the bloodstain at the true murder scene, if the PCs haven't noticed it yet).",
 			"",
 			"### The Second Husband",
 			"",
@@ -654,7 +654,7 @@
 		"name": "Organizational Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/109}",
+			"‹SOURCE Ultimate Intrigue/109›",
 			"",
 			"The organizational influence system provides the GM with tools to track the PCs' social cachet within organizations. Small organizations seeking to make their mark on society may allow the PCs a great deal of clout within them, but are limited in what they can offer. Large organizations, on the other hand, are typically more difficult to influence, but can bring much more power to bear on an area at large."
 		],
@@ -686,17 +686,17 @@
 		"name": "Influence Points and Ranks",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/109}",
+			"‹SOURCE Ultimate Intrigue/109›",
 			"",
-			"The organizational influence system uses influence points to track the opinion of an organization concerning the PCs. When the PCs first interact with an organization, they typically start with 0 influence points, and hold no control over the organization's actions. If the PCs demonstrate their value to the organization, they can gain influence points, representing their growing ability to call in favors. If the PCs repeatedly fail or work against an organization, they lose influence points (see {rule/Gaining Influence Points} and {rule/Losing Influence Points}). The PCs' influence point total with an organization can be a negative number - the lower the total, the more resources the organization is willing to commit to actively oppose the PCs.",
+			"The organizational influence system uses influence points to track the opinion of an organization concerning the PCs. When the PCs first interact with an organization, they typically start with 0 influence points, and hold no control over the organization's actions. If the PCs demonstrate their value to the organization, they can gain influence points, representing their growing ability to call in favors. If the PCs repeatedly fail or work against an organization, they lose influence points (see ‹rule/Gaining Influence Points› and ‹rule/Losing Influence Points›). The PCs' influence point total with an organization can be a negative number - the lower the total, the more resources the organization is willing to commit to actively oppose the PCs.",
 			"",
-			"The PCs' influence points help determine the number of resources an organization is willing to commit to help or hinder them, but it is not the only component of that calculation. If the PCs seek to build a positive relationship with an organization, they may find themselves limited in what benefits they can gain until they perform certain tasks. For example, most organizations limit the number of resources they commit to non-members, so PCs may need to officially join to gain access. On the other hand, an organization at odds with the PCs should not provide the same response to minor insults from the PCs as it does to the PCs crippling one of its major operations. The nine influence ranks presented below take into account tasks that the PCs may accomplish to pass to fundamentally alter their relationship with an organization (see {rule/Table 3-1 under |Favors} for examples). To reach a new influence rank, the PCs must accumulate (or lose) a certain number of influence points, as decided by the GM, and perform any required tasks that the GM sets. See Influence Thresholds below for guidelines on setting the required number of influence points for each rank. The possible influence ranks, and their meanings, are presented below.",
+			"The PCs' influence points help determine the number of resources an organization is willing to commit to help or hinder them, but it is not the only component of that calculation. If the PCs seek to build a positive relationship with an organization, they may find themselves limited in what benefits they can gain until they perform certain tasks. For example, most organizations limit the number of resources they commit to non-members, so PCs may need to officially join to gain access. On the other hand, an organization at odds with the PCs should not provide the same response to minor insults from the PCs as it does to the PCs crippling one of its major operations. The nine influence ranks presented below take into account tasks that the PCs may accomplish to pass to fundamentally alter their relationship with an organization (see ‹rule/Table 3-1 under »Favors› for examples). To reach a new influence rank, the PCs must accumulate (or lose) a certain number of influence points, as decided by the GM, and perform any required tasks that the GM sets. See Influence Thresholds below for guidelines on setting the required number of influence points for each rank. The possible influence ranks, and their meanings, are presented below.",
 			"",
 			"### Influence Thresholds",
 			"",
 			"The number of influence points required to shift from one influence rank to the next sets the pace for how quickly the PCs' power in organizations can change. The three main factors that play into setting influence thresholds are the length of the campaign, the interest level of the players in exploring their interactions with organizations, and the power and personality of the organization itself. Short story arcs generally require lower thresholds than long campaigns. Some groups of players would rather slowly earn influence within a difficult organization, while others would rather see how quickly their PCs can become powerful in multiple organizations. Finally, within a campaign, weaker organizations typically allow the PCs to gain influence ranks more quickly than prominent ones.",
 			"",
-			"With all of these factors in mind, the following ranges provide guidelines for determining the number of total influence points a character must gain to reach positive ranks, or lose to reach negative ranks. These thresholds are for a weak organization. For a moderately prominent organization, multiply the numbers by 2. For a strong organization, multiply by 3, and for a preeminent organization, multiply by 4. For more details on deciding the prominence of an organization, see {rule/Prominence}.",
+			"With all of these factors in mind, the following ranges provide guidelines for determining the number of total influence points a character must gain to reach positive ranks, or lose to reach negative ranks. These thresholds are for a weak organization. For a moderately prominent organization, multiply the numbers by 2. For a strong organization, multiply by 3, and for a preeminent organization, multiply by 4. For more details on deciding the prominence of an organization, see ‹rule/Prominence›.",
 			"",
 			"@HL[Rank 1 or -1:] From 1 to 5 total influence points.",
 			"",
@@ -745,7 +745,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/109}",
+			"‹SOURCE Ultimate Intrigue/109›",
 			"",
 			"At these ranks, an organization either doesn't care about the PCs or considers them allies.",
 			"",
@@ -784,7 +784,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/110}",
+			"‹SOURCE Ultimate Intrigue/110›",
 			"",
 			"At these ranks, an organization actively opposes the PCs.",
 			"",
@@ -820,9 +820,9 @@
 		"name": "Gaining Influence Points",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/110}",
+			"‹SOURCE Ultimate Intrigue/110›",
 			"",
-			"As the PCs perform tasks that benefit an organization, they gain influence points. Performing favors requested by an organization is the most effective way for the PCs to accrue influence points with that organization. A typical favor earns the PCs from 2 to 5 influence points, depending upon how difficult and dangerous the favor is to complete. See the {rule/Favors} section for more details. The PCs can also accrue influence points with an organization by taking actions that coincidentally further the organization's interests. Such actions typically earn the PCs 1 or 2 influence points. For example, if the PCs apprehend a notorious jewel thief who has been stealing from their own coffers (as well as those of local nobles), they may gain an influence point with the local nobility. The PCs can also gain influence points by building trust with a member of the organization. The personal influence system found at the beginning of this section is one good way to create an encounter based around improving this NPC's opinion of the PCs, while the {rule/verbal duel/ing>s} system is another. The number of organizational influence points that the PCs can earn from gaining the approval of a single NPC within the organization typically ranges from 1 to 5. Backing a rank-and-file member of the organization is worth at most 1 influence point, while the backing of one of an organization's leaders is worth 5 influence points, and may be worth more in extraordinary circumstances, at the GM's discretion."
+			"As the PCs perform tasks that benefit an organization, they gain influence points. Performing favors requested by an organization is the most effective way for the PCs to accrue influence points with that organization. A typical favor earns the PCs from 2 to 5 influence points, depending upon how difficult and dangerous the favor is to complete. See the ‹rule/Favors› section for more details. The PCs can also accrue influence points with an organization by taking actions that coincidentally further the organization's interests. Such actions typically earn the PCs 1 or 2 influence points. For example, if the PCs apprehend a notorious jewel thief who has been stealing from their own coffers (as well as those of local nobles), they may gain an influence point with the local nobility. The PCs can also gain influence points by building trust with a member of the organization. The personal influence system found at the beginning of this section is one good way to create an encounter based around improving this NPC's opinion of the PCs, while the ‹rule/verbal duel«ing<s› system is another. The number of organizational influence points that the PCs can earn from gaining the approval of a single NPC within the organization typically ranges from 1 to 5. Backing a rank-and-file member of the organization is worth at most 1 influence point, while the backing of one of an organization's leaders is worth 5 influence points, and may be worth more in extraordinary circumstances, at the GM's discretion."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -848,7 +848,7 @@
 		"name": "Losing Influence Points",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/110}",
+			"‹SOURCE Ultimate Intrigue/110›",
 			"",
 			"The PCs generally won't actively seek to lose influence points with an organization. However, the PCs' actions over the course of a campaign are likely to put them at odds with one or more organizations, and the PCs may inadvertently harm organizations that they do not wish to antagonize. Whenever the PCs actively sabotage an organization's interests, they lose from 2 to 5 influence points with the organization. If the PCs take actions that coincidentally work against the organization's interests, they instead lose 1 or 2 influence points. If the PCs horribly botch an attempt to perform a favor for an organization, they may similarly lose 1 or 2 influence points. If the PCs damage a prominent member's reputation or finances, they lose from 1 to 3 influence points, depending on the extent of the damage and the power that member wields within the organization. The PCs also lose influence points if they harm a prominent member of the organization. Killing members of any organization is a particularly effective way to lose influence. For most organizations, any time the PCs kill one or more members of an organization, they lose at least 5 influence points per incident. If the organization is a primary antagonist of the campaign or story arc, the GM may consider using the [nemesis system](rule/nemeses) to complement the organization influence rules, particularly if the organization is led by a single individual.",
 			"",
@@ -879,7 +879,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/111}",
+			"‹SOURCE Ultimate Intrigue/111›",
 			"",
 			"The PCs' interactions with organizations are often only a piece of a larger political tapestry. Alliances and rivalries between organizations shape how each organization reacts to the PCs' actions. If two organizations are rivals, they typically require the PCs to choose a side. The PCs may automatically lose influence points with one for supporting the other. For example, if the PCs perform a favor for one faction during a war and gain influence points with that faction, they lose an equal number of influence points with that faction's rivals. In less extreme circumstances, the PCs may lose half as many influence points as they gain.",
 			"",
@@ -912,7 +912,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/111}",
+			"‹SOURCE Ultimate Intrigue/111›",
 			"",
 			"An organization's prominence represents the political and social power of that organization in its home community or area of influence. The categories of prominence are weak, moderate, strong, and preeminent. In general, a weak organization can provide only simple assistance within its limited area of concern. Most weak organizations are eager to recruit new members to increase their prominence, though some appreciate the lack of attention they draw from outside forces. A gang of pickpockets is an example of a weak organization. In comparison, a moderate organization holds an established place in the power structure of its local area, and has some connections and contacts with other local organizations. A thieves' guild is likely to be a moderate organization. A strong organization, on the other hand, may be at the top of the power structure for its area of concern, or it may be one of several organizations that hold power on a regional or national scale. The cathedral of a major deity in a state with multiple religious traditions is likely to be a strong organization. Finally, a preeminent organization is the undisputed head of the power structure in its sizable area of concern - the ruling body of a nation is an example of a preeminent organization, as is a merchants' guild that effectively controls trade in a large region."
 		],
@@ -941,7 +941,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/112}",
+			"‹SOURCE Ultimate Intrigue/112›",
 			"",
 			"Favors lie at the heart of the organizational influence system. When the PCs perform a favor for an organization, they can either gain influence points, or they can earn a favor from the organization in return. The PCs can spend favors that they have earned to gain benefits from the organization. The PCs can slowly earn favors over time, after a certain number of sessions or amount of in-game time that is appropriate for the campaign. This rate also provides a guideline for modeling the behavior of organizations.",
 			"",
@@ -949,7 +949,7 @@
 			"",
 			"@HL[Favors:] Sometimes, tasks for the PCs to complete as favors to an organization arise naturally out of the events of the campaign. However, at other times, the PCs may actively seek to assist an organization at a time when such tasks are not so forthcoming. The 28 favors on Table 3-1 are generic enough to apply to almost any organization. Some of the tasks near the top of the chart are too inconsequential for established members, while the tasks at the bottom of the chart are too significant for initiates. To use this chart, roll a d20, and add twice the PCs' influence rank to the result.",
 			"",
-			"@HL[Benefits:] Each organization provides its own unique set of possible benefits to the PCs based on their influence rank. The PCs can spend a favor that they have earned to gain one of the benefits that they have unlocked. Some benefits become free once the PCs become sufficiently influential in an organization, allowing the PCs to make use of them without expending a favor (see Benefits under {rule/Organization Stat Block}).",
+			"@HL[Benefits:] Each organization provides its own unique set of possible benefits to the PCs based on their influence rank. The PCs can spend a favor that they have earned to gain one of the benefits that they have unlocked. Some benefits become free once the PCs become sufficiently influential in an organization, allowing the PCs to make use of them without expending a favor (see Benefits under ‹rule/Organization Stat Block›).",
 			"",
 			"### Table 3-1: Favors",
 			"",
@@ -1009,13 +1009,13 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/112}",
+			"‹SOURCE Ultimate Intrigue/112›",
 			"",
 			"The base organizational influence system assumes that the PCs act as a unified group and do not take extraordinary effort to conceal their identities and activities. In an intrigue-based campaign, these assumptions are not always accurate. The simplest type of clandestine operation to adjudicate is a single secret favor. If the PCs perform a favor for an organization and conceal their actions, do not decrease the PCs' influence points with that organization's enemies. The PCs can use secret identities to perform more complicated maneuvers, such as playing multiple sides of a conflict, or perhaps even infiltrating an organization as spies. As long as an organization knows that the PCs are infiltrating its rivals, that organization's members continue to believe that they have the PCs' loyalty; they typically overlook minor actions that the PCs take against the organization, so long as the PCs provide a plausible justification for their misdeeds.",
 			"",
-			"If the PCs use secret identities, track their influence under each set of identities separately as long as they maintain the ruse. Maintaining two distinct sets of identities over a long period of time should be challenging, but not impossible if the PCs are careful. Common features between the identities - anything from physical features or mannerisms to equipment, fighting style, or associates - present the threat of exposure. If the PCs rise to high influence ranks in two opposing organizations, their risk of being caught increases significantly. The {class/vigilante} class is particularly well suited to the challenge of maintaining multiple identities.",
+			"If the PCs use secret identities, track their influence under each set of identities separately as long as they maintain the ruse. Maintaining two distinct sets of identities over a long period of time should be challenging, but not impossible if the PCs are careful. Common features between the identities - anything from physical features or mannerisms to equipment, fighting style, or associates - present the threat of exposure. If the PCs rise to high influence ranks in two opposing organizations, their risk of being caught increases significantly. The ‹class/vigilante› class is particularly well suited to the challenge of maintaining multiple identities.",
 			"",
-			"If an organization figures out that the PCs are maintaining two separate identities, the PCs' influence point total for that organization may change drastically. If both sets of the PCs' identities are aligned with an organization, the PCs' influence point total may go as high as the sum of the points they earned under both identities. Conversely, if both sets of the PCs' identities are aligned against an organization, the PCs' influence point total may go as low as a negative number equal to the sum of the two. Adding the two values sometimes allows a single action to count twice - this reflects that the organization may either respect the PCs' dedication to their cause, or revile the PCs for their dedication to opposing it. In most cases, however, the resulting change in influence should be less extreme than a direct sum, even if the organization has a favorable opinion of both identities. If the PCs are working for two opposed organizations, see the last paragraph of {rule/Losing Influence>_points} for details on how an organization responds to being betrayed."
+			"If an organization figures out that the PCs are maintaining two separate identities, the PCs' influence point total for that organization may change drastically. If both sets of the PCs' identities are aligned with an organization, the PCs' influence point total may go as high as the sum of the points they earned under both identities. Conversely, if both sets of the PCs' identities are aligned against an organization, the PCs' influence point total may go as low as a negative number equal to the sum of the two. Adding the two values sometimes allows a single action to count twice - this reflects that the organization may either respect the PCs' dedication to their cause, or revile the PCs for their dedication to opposing it. In most cases, however, the resulting change in influence should be less extreme than a direct sum, even if the organization has a favorable opinion of both identities. If the PCs are working for two opposed organizations, see the last paragraph of ‹rule/Losing Influence<_points› for details on how an organization responds to being betrayed."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -1042,13 +1042,13 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/113}",
+			"‹SOURCE Ultimate Intrigue/113›",
 			"",
 			"An organization's stat block is arranged as follows.",
 			"",
 			"@HL[Name:] The organization's name.",
 			"",
-			"@HL[Alignment and Prominence:] An organization's alignment is the alignment that most closely represents its policies and actions. While individual members of an organization may be of any alignment, an organization's key NPCs are typically within one step of the organization's overall alignment. An organization's prominence may be weak, moderate, strong, or preeminent. More details on prominence appear under {rule/Prominence}.",
+			"@HL[Alignment and Prominence:] An organization's alignment is the alignment that most closely represents its policies and actions. While individual members of an organization may be of any alignment, an organization's key NPCs are typically within one step of the organization's overall alignment. An organization's prominence may be weak, moderate, strong, or preeminent. More details on prominence appear under ‹rule/Prominence›.",
 			"",
 			"@HL[Size:] An organization's size is an approximation of its number of active members.",
 			"",
@@ -1095,7 +1095,7 @@
 		"subtitle": "Organizations, Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/114}",
+			"‹SOURCE Ultimate Intrigue/114›",
 			"",
 			"The following benefits appear in many organizations' stat blocks, and are defined below.",
 			"",
@@ -1134,7 +1134,7 @@
 		"subtitle": "Influence",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/114}",
+			"‹SOURCE Ultimate Intrigue/114›",
 			"",
 			"The sample organizations in this section span all possible levels of influence. The organizations that are relevant to each GM depend upon the campaign.",
 			"",
@@ -1210,7 +1210,7 @@
 			"",
 			"**Membership Requirements** The PCs must steal an item worth at least 250 gp, and donate half the value of the item to the thieves' guild.",
 			"",
-			"**Influence Limitations** A PC must formally join the thieves' guild to rise to Rank 2. To rise to Rank 4, the PCs must execute a complex {rule/heist>s}.",
+			"**Influence Limitations** A PC must formally join the thieves' guild to rise to Rank 2. To rise to Rank 4, the PCs must execute a complex ‹rule/heist<s›.",
 			"",
 			"**Benefits** While this thieves' guild cannot operate openly, it helps its members scope out potential jobs.",
 			"",
@@ -1276,7 +1276,7 @@
 			"",
 			"**New Benefits** The mages' guild grants the following unusual benefits.",
 			"",
-			"**Arcane Library:** The PCs gain access to the guild's library, allowing them to potentially learn secrets relevant to their current adventures (consider using the {rule/research/ system} to handle research in the arcane library).",
+			"**Arcane Library:** The PCs gain access to the guild's library, allowing them to potentially learn secrets relevant to their current adventures (consider using the ‹rule/research« system› to handle research in the arcane library).",
 			"",
 			"**Item Crafting:** The mages' guild crafts a custom-ordered collection of scrolls, potions, or wondrous items for the PCs. The items cost their usual market value in gold pieces plus 1 favor for every 2 days of crafting required.",
 			"",
@@ -1336,7 +1336,7 @@
 			"",
 			"**Lookout:** A group of thieves act as a lookouts, monitoring up to four directions for oncoming guards or witnesses. The thieves' total Perception skill bonuses are +15. This ability costs 2 favors. Alternatively, the PCs can purchase the lookout ability as listed under the thieves' guild for 1 favor.",
 			"",
-			"**Market Manipulation:** The crime syndicate can manipulate market forces to drive business away from the PCs' rivals and toward any businesses the PCs own. This ability produces an amount of additional money for the PCs that depends upon the extent of the manipulation. This windfall comes in the form of increased results using whichever rules you are using to determine the success of the PCs' businesses (such as the {rule/downtime/ rules}). For each favor spent, the PCs can earn at most 1,000 gp (to a maximum of 5,000 gp).",
+			"**Market Manipulation:** The crime syndicate can manipulate market forces to drive business away from the PCs' rivals and toward any businesses the PCs own. This ability produces an amount of additional money for the PCs that depends upon the extent of the manipulation. This windfall comes in the form of increased results using whichever rules you are using to determine the success of the PCs' businesses (such as the ‹rule/downtime« rules›). For each favor spent, the PCs can earn at most 1,000 gp (to a maximum of 5,000 gp).",
 			"",
 			"**Remove Evidence:** Per the benefit under thieves' guild.",
 			"",
@@ -1384,7 +1384,7 @@
 			"",
 			"**Command Legion:** The national military grants the PCs command of a [medium army](rule/army_statistics) for 1 week per favor expended. This force comprises 100 2nd-level fighters who follow the PCs loyally. If the PCs do not clearly use this force to further the military's goals or the PCs are reckless with the soldiers' lives, the PCs' influence rank is reduced to 3. Bringing the soldiers into a dungeon that is level-appropriate for the PCs counts as reckless endangerment.",
 			"",
-			"**Retrain:** Military trainers work together with the PCs, allowing them to retrain archetypes, class features, feats, or skill ranks, as per the {rule/retraining/ rules}. At Rank 2, each week of retraining costs 1 favor and the standard cost in gold pieces. At Rank 3, the military covers the gold piece cost. At Rank 4, the PCs can retrain without expending favors or money."
+			"**Retrain:** Military trainers work together with the PCs, allowing them to retrain archetypes, class features, feats, or skill ranks, as per the ‹rule/retraining« rules›. At Rank 2, each week of retraining costs 1 favor and the standard cost in gold pieces. At Rank 3, the military covers the gold piece cost. At Rank 4, the PCs can retrain without expending favors or money."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -1410,7 +1410,7 @@
 		"name": "Investment",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/164}",
+			"‹SOURCE Ultimate Campaign/164›",
 			"",
 			"From the lowly copper piece to treasure chests bulging with precious gemstones, the anchor of most parties is treasure. But what is the purpose of a PC collecting this money if not to better her life? Once she's acquired it, shouldn't she put it to work for her? After all, adventuring is not a certain prospect; investments are a much safer bet, and the return they offer on the money invested comes without all the dangers involved in adventuring.",
 			"",
@@ -1447,7 +1447,7 @@
 		"name": "Investment Mechanics",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/164}",
+			"‹SOURCE Ultimate Campaign/164›",
 			"",
 			"When a PC decides to invest, ask the player how much money the PC provides for the investment. This is the seed money, and has a direct effect on how much money the investment earns each year (see below).",
 			"",
@@ -1502,7 +1502,7 @@
 		"name": "Example Investments and Problems",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/165}",
+			"‹SOURCE Ultimate Campaign/165›",
 			"",
 			"The list of investments provided is not meant to be exhaustive; NPC ingenuity could open up all sorts of investments. Some research on medieval and Renaissance technology reveals many ideas the people of those times used to make their lives easier, and some of those ideas can easily become an investment opportunity for the PCs. This section details how particular investments might serve as plot hooks for the PCs involved.",
 			"",
@@ -1545,7 +1545,7 @@
 		"name": "Primal Magic",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
-			"{SOURCE Inner Sea Magic/12}  ",
+			"‹SOURCE Inner Sea Magic/12›  ",
 			"In its raw form, magic is not an ordered force - it is the all-encompassing chaos of possibility. The same energies that can be shaped to create explosive fireballs, raise the dead, divine the future, heal the sick, and summon demons can do that and more without the direction of skilled spellcasters. Normally, this unfocused magical potential does not exist in reality; it lies beyond reality, where it waits to be tapped. Where exactly magic comes from remains a lively debate today, but when magic is unleashed without any attempt to focus it - when it leaks into the world in its raw form - the result is known as primal magic.",
 			"",
 			"In some realms, particularly in planes like the Maelstrom or the Abyss in the Great Beyond, magic is left to indulge in its raw chaos as it wishes - here, primal magic is often called \"wild magic.\" On the Material Plane, the world feels the touch of primal magic when the laws of reality themselves have been damaged. Here, magic flows in unpredictable tides and currents. At one moment, a region might function normally while at another, magic won't function at all. Usually, though, primal magic holds sway.",
@@ -1554,11 +1554,11 @@
 			"",
 			"When primal magic manifests, roll on the sample Primal Magic Events table to determine what occurs. As the primal magic exerts its power, consider crossing off the effect that occurs and designing replacement events and effects. If you want primal magic to play a big role in your campaign, you should try to ensure that no two effects are ever quite the same. One easy way to achieve this is to simply substitute random spell effects with unusual descriptions in place of normal ones, such as a black fireball that smells of roses and deals acid damage.",
 			"",
-			"Spontaneous primal magic effects can occur as often or as infrequently as you wish, but as a general rule, try to limit the effects to one per combat encounter at most. The majority of primal magic effects should instead occur when creatures activate magic items, use spell-like abilities, or cast spells in such an area (simply carrying a magic item or gaining the benefits of a constant-use item or spell effect isn't enough - it's the actual act of activation or casting that triggers primal magic). When a creature activates a magic item, casts a spell, or uses a spell-like ability in an area infused with primal magic, there's a 50% chance that the spell effect is replaced by a primal magic effect. A spellcaster casting a spell, using a spell-like ability, or activating a spell completion or spell trigger magic item can make a {rule/concentration} check (DC = 15 + twice the spell's level) to focus the magic and avoid triggering a primal magic effect. Creatures activating other kinds of magic items do not have the option of making a spellcraft check to avoid triggering a primal magic effect.",
+			"Spontaneous primal magic effects can occur as often or as infrequently as you wish, but as a general rule, try to limit the effects to one per combat encounter at most. The majority of primal magic effects should instead occur when creatures activate magic items, use spell-like abilities, or cast spells in such an area (simply carrying a magic item or gaining the benefits of a constant-use item or spell effect isn't enough - it's the actual act of activation or casting that triggers primal magic). When a creature activates a magic item, casts a spell, or uses a spell-like ability in an area infused with primal magic, there's a 50% chance that the spell effect is replaced by a primal magic effect. A spellcaster casting a spell, using a spell-like ability, or activating a spell completion or spell trigger magic item can make a ‹rule/concentration› check (DC = 15 + twice the spell's level) to focus the magic and avoid triggering a primal magic effect. Creatures activating other kinds of magic items do not have the option of making a spellcraft check to avoid triggering a primal magic effect.",
 			"",
 			"When a primal magic effect occurs naturally, it targets a random creature or location in the vicinity around the PCs or whatever region you wish to inflict the event upon. When the effect occurs, you need to determine the CR of the event. If the event is triggered by a spellcaster or a magic item, the event's CR is equal to the spellcaster's or item's caster level. When an event occurs naturally, you can roll 1d20 to determine the CR. Of course, you should strongly consider lowering primal magic event CRs to match or at least closely approximate the average party level of your PCs. Not all primal magic events are harmful, but it's neither fun nor fair for players to frequently be hit with an effect that's too far beyond their ability to deal with.",
 			"",
-			"Primal magic events often linger for minutes, hours, or even days. These effects can be dispelled via {spell/dispel magic} and similar spells. Treat the event's CR as its caster level in this case.",
+			"Primal magic events often linger for minutes, hours, or even days. These effects can be dispelled via ‹spell/dispel magic› and similar spells. Treat the event's CR as its caster level in this case.",
 			"",
 			"In the sample Primal Magic Events table, the abbreviation \"CR\" is used to indicate a mathematical value; use the primal magic's CR to set this number. For example, a CR 11 primal magic event that lasts for \"CR minutes and affects an area with a radius of CR &times; 5 feet\" lasts for 11 minutes and affects an area with a radius of 55 feet.",
 			"",
@@ -1574,23 +1574,23 @@
 			"| 07-10 | A number of strangely colored [centipedes](monster/house_centipede) appear in the area. These centipedes ignore non-spellcasters and attack only creatures capable of casting spells or using spell-like abilities. This encounter should be a mix of centipedes that equals the CR of the primal magic event. The corpses of any slain centipedes pivot until their heads point in the direction of the Pit of Gormuz. |",
 			"| 11-14 | Strange music fills the air for CR minutes. Possible choices include the following (roll 1d4): Ulfen battle chants, Chelish opera arias, Desnan prayers, or Vudrani monastic chants. The music instills in those who hear it a strong urge to sing or dance along. A creature who does so gains a +2 morale bonus on attack rolls and saving throws for the duration of the music. |",
 			"| 15-18 | A zone of unluck and a strange pale violet radiance equivalent to candlelight fills a CR &times; 5 foot radius for CR hours. All d20 rolls made in this area must be rolled twice, taking the lower of the two rolls. |",
-			"| 19-22 | One creature's body and all its possessions reverse into a mirror image of themselves. The binding of any book in its possession is reversed, though the text within remains normal and legible. This effect is unusual but has no actual game effect. Reversing this effect is possible via {spell/break enchantment}, {spell/limited wish}, {spell/miracle}, {spell/polymorph any object}, or {spell/wish}. |",
-			"| 23-26 | A circular pit opens under the feet of a random target. The pit creates an extradimensional space in the ground, not an actual pit. The pit is 10 feet deep per CR, but otherwise functions as {spell/create pit}. |",
-			"| 27-32 | A rain of small objects (anything from flowers to rotten fruit) pelts an area with a radius equal to 5 &times; CR for CR rounds. This strange hail is not harmful, but during this time all creatures in the area gain {rule/concealment} and must make concentration checks (DC 15 + the spell's level) to cast spells. |",
-			"| 33-38 | Positive energy affects a number of creatures not to exceed CR in total. These creatures are affected by a {spell/heal} spell (caster level = CR). |",
-			"| 39-44 | Negative energy affects a number of creatures not to exceed CR in total. These creatures are affected by a {spell/harm} spell (caster level = CR). |",
-			"| 45-48 | An area with a radius of CR &times; 10 feet becomes utterly dark, as if from a {spell/deeper darkness} spell. |",
+			"| 19-22 | One creature's body and all its possessions reverse into a mirror image of themselves. The binding of any book in its possession is reversed, though the text within remains normal and legible. This effect is unusual but has no actual game effect. Reversing this effect is possible via ‹spell/break enchantment›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/polymorph any object›, or ‹spell/wish›. |",
+			"| 23-26 | A circular pit opens under the feet of a random target. The pit creates an extradimensional space in the ground, not an actual pit. The pit is 10 feet deep per CR, but otherwise functions as ‹spell/create pit›. |",
+			"| 27-32 | A rain of small objects (anything from flowers to rotten fruit) pelts an area with a radius equal to 5 &times; CR for CR rounds. This strange hail is not harmful, but during this time all creatures in the area gain ‹rule/concealment› and must make concentration checks (DC 15 + the spell's level) to cast spells. |",
+			"| 33-38 | Positive energy affects a number of creatures not to exceed CR in total. These creatures are affected by a ‹spell/heal› spell (caster level = CR). |",
+			"| 39-44 | Negative energy affects a number of creatures not to exceed CR in total. These creatures are affected by a ‹spell/harm› spell (caster level = CR). |",
+			"| 45-48 | An area with a radius of CR &times; 10 feet becomes utterly dark, as if from a ‹spell/deeper darkness› spell. |",
 			"| 49-54 | The environment itself suddenly springs to life and attacks all non-elemental creatures in the immediate area. Treat this event as an encounter with various elementals drawn from the immediate surroundings as appropriate, tailored to be an encounter of a CR equal to that of the primal magic event. |",
 			"| 55-62 | Strange, shifting curtains of color, akin to an aurora borealis, manifest in the sky but are visible only to those in an area equal to CR &times; 10 feet in radius. Every creature in this area must make a Will save (DC 10 + CR) or be dazed by the shifting colors for 1 round. The colors persist for 1 round per CR. Creatures must make a new save each round to avoid becoming dazed. This is a mind-affecting pattern effect. |",
 			"| 63-68 | A random number of creatures not to exceed the event's CR become confused unless they succeed at a Will save (DC = 10 + CR). For each affected creature, this effect persists until that creature's confusion effect results in \"act normally,\" at which point the effect ends for the creature. This is a mind-affecting effect. |",
 			"| 69-74 | A storm of energy (with an equal chances of being acid, cold, electricity, or fire) sweeps through the area in a CR &times; 5-foot radius spread. Each round, the storm inflicts 2 hit points of damage per CR; a Reflex save (DC 10 + CR) halves the damage done. The storm persists for CR rounds. |",
 			"| 75-78 | Strange telekinetic forces rip through the area, attempting to trip all creatures in a CR &times; 10 foot radius. The event makes a trip combat maneuver check against all available targets, using a CMB of 10 + CR. Any creature tripped by the event has its equipment reorganized and tangled by the mischievous telekinesis. Until a creature takes a minute to reorganize its belongings, retrieving a stowed item is a full-round action. |",
-			"| 79-88 | Choose two random creatures in the area, then randomly pick one to be the \"wielder\" and one to be the \"target.\" Roll on the {magic-rod/rod of wonder} table to determine what sort of strange effect occurs between these two creatures. |",
+			"| 79-88 | Choose two random creatures in the area, then randomly pick one to be the \"wielder\" and one to be the \"target.\" Roll on the ‹magic-rod/rod of wonder› table to determine what sort of strange effect occurs between these two creatures. |",
 			"| 89-94 | A teleportation storm occurs. All creatures in the area must make a Will saving throw (DC = 10 + CR). Those who fail are teleported, as if via dimension door, so that they randomly shift places. If this places a creature in an area too small to accept its space, it instead appears in the closest adjacent space that can contain it. If only one creature is affected, it teleports a number of feet equal to CR &times; 5 in a random direction. |",
-			"| 95-98 | A {spell/magic jar}-like effect affects two creatures. A Will save (DC = 10 + CR) negates the effect. If one creature fails this save but the other succeeds, the creature that fails the save is merely stunned for 1d4 rounds. If both creatures fail the save, their minds are switched into each other's bodies for a number of rounds equal to the event's CR. |",
+			"| 95-98 | A ‹spell/magic jar›-like effect affects two creatures. A Will save (DC = 10 + CR) negates the effect. If one creature fails this save but the other succeeds, the creature that fails the save is merely stunned for 1d4 rounds. If both creatures fail the save, their minds are switched into each other's bodies for a number of rounds equal to the event's CR. |",
 			"| 99-100 | Roll twice, discounting results of 99-100. Both events generated by these rolls occur simultaneously. |",
 			"",
-			"@HL[Compare:] Wild Magic under {rule/Planar |Magic Traits}, {rule/Unchained |Wild Magic}"
+			"@HL[Compare:] Wild Magic under ‹rule/Planar »Magic Traits›, ‹rule/Unchained »Wild Magic›"
 		],
 		"parent_topics": [ "optional_subsystems" ],
 		"siblings": [
@@ -1617,9 +1617,9 @@
 		"name": "Provision Points",
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
 		"description": [
-			"{SOURCE Pathfinder #115: Trail of the Hunted/23}",
+			"‹SOURCE Pathfinder #115: Trail of the Hunted/23›",
 			"",
-			"The basic rules for {rule/starvation and thirst} can be found on in the basic rules. The resources the PCs and their followers need to survive are abstracted throughout this adventure as @HL[Provision Points.] One Provision Point sustains a person for 1 day and consists of a half-gallon of fluid (clean water, or ale, broth, cider, goat's milk, or sheep's milk) and 3 to 5 pounds of stable food (apples, berries, bread, dried boar, dried venison, hard cheese, mushrooms, nuts, pickled vegetables, and smoked trout). The PCs' followers carry their resources in a hodgepodge of bottles, jars, and satchels stuffed into improvised backpacks. Each Provision Point of resources weighs about 10 pounds. Together one trail ration and a waterskin also translate to 1 Provision Point, but weigh only 5 pounds.",
+			"The basic rules for ‹rule/starvation and thirst› can be found on in the basic rules. The resources the PCs and their followers need to survive are abstracted throughout this adventure as @HL[Provision Points.] One Provision Point sustains a person for 1 day and consists of a half-gallon of fluid (clean water, or ale, broth, cider, goat's milk, or sheep's milk) and 3 to 5 pounds of stable food (apples, berries, bread, dried boar, dried venison, hard cheese, mushrooms, nuts, pickled vegetables, and smoked trout). The PCs' followers carry their resources in a hodgepodge of bottles, jars, and satchels stuffed into improvised backpacks. Each Provision Point of resources weighs about 10 pounds. Together one trail ration and a waterskin also translate to 1 Provision Point, but weigh only 5 pounds.",
 			"",
 			"Consuming only half a Provision Point per day sustains a character, but leaves that person distracted and irritable. A character who eats only a half portion takes a -2 penalty on attack rolls, damage rolls, ability checks, skill checks, and saving throws until she consumes a full portion. If a person eats half provisions more than 3 days a week, she doesn't have enough body fat to endure starvation for long, and must begin making Constitution checks each day to avoid taking nonlethal damage.",
 			"",
@@ -1650,7 +1650,7 @@
 		"name": "Relationships",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/176}",
+			"‹SOURCE Ultimate Campaign/176›",
 			"",
 			"No villain ever seems to understand that when he threatens a hero's family, things go south for him. After all, nothing gives the beleaguered champion one last surge of strength like the sight of a loved one in peril. Relationships are the cornerstone of all that heroes are and can be.",
 			"",
@@ -1691,7 +1691,7 @@
 		"name": "Relationship Levels",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/176}",
+			"‹SOURCE Ultimate Campaign/176›",
 			"",
 			"Your @HL[Relationship Level] with an NPC is based on your @HL[Relationship Score,] which can increase in play (see Growing Relationships). You gain new benefits when an NPC's relationship with you progresses to a new level.",
 			"",
@@ -1710,7 +1710,7 @@
 			"",
 			"@HL[Devotion/Enmity:] You and the NPC are devoted to each other or actively opposed to one another. Whenever you gain this Relationship Level with an NPC for the first time, your party gains 1,600 XP. The first time you gain this benefit in a campaign, your party gains an additional 1,600 XP.",
 			"",
-			"When a relationship with an NPC reaches this strength, it grants you a bonus {rule/trait>s}, whether your relationship is friendly or competitive and whether this is your first relationship to do so or the latest in a series of strong relationships. The nature of this trait is decided by the GM, and is specific to the NPC and the campaign (for example, the bonus trait from a notable NPC fighter is probably about combat rather than improving spell DCs). You keep this trait for as long as the NPC is alive and active in the campaign; if the NPC dies, retires, or otherwise is no longer an active part of the campaign, you lose the trait.",
+			"When a relationship with an NPC reaches this strength, it grants you a bonus ‹rule/trait<s›, whether your relationship is friendly or competitive and whether this is your first relationship to do so or the latest in a series of strong relationships. The nature of this trait is decided by the GM, and is specific to the NPC and the campaign (for example, the bonus trait from a notable NPC fighter is probably about combat rather than improving spell DCs). You keep this trait for as long as the NPC is alive and active in the campaign; if the NPC dies, retires, or otherwise is no longer an active part of the campaign, you lose the trait.",
 			"",
 			"The bonus XP from a relationship is divided among all PCs, just like other campaign-based XP awards. You can't gain XP bonuses from reaching a particular new Relationship Level with an individual NPC more than once (such as if you decrease your Relationship Level with an NPC or change its nature and bring it back up)."
 		],
@@ -1729,13 +1729,13 @@
 		"name": "Growing Relationships",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/177}",
+			"‹SOURCE Ultimate Campaign/177›",
 			"",
 			"You can change your Relationship Score with an NPC in the following ways.",
 			"",
 			"@HL[Campaign Trait:] If your GM is using [campaign traits](main/traits_campaign) for this campaign, and you have a campaign trait associated with a specific NPC, your Relationship Score with that NPC gains a one-time increase of 4 points.",
 			"",
-			"@HL[Charisma:] Since your base Relationship Score with any NPC is equal to your Charisma modifier, when your Charisma score changes permanently (such as from Charisma drain or a {magic-wondrous/headband of alluring charisma}), your Relationship Scores with NPCs change with it. Temporary changes, such as from ability damage or bonuses from spells like {spell/eagle's splendor}, do not alter Relationship Scores.",
+			"@HL[Charisma:] Since your base Relationship Score with any NPC is equal to your Charisma modifier, when your Charisma score changes permanently (such as from Charisma drain or a ‹magic-wondrous/headband of alluring charisma›), your Relationship Scores with NPCs change with it. Temporary changes, such as from ability damage or bonuses from spells like ‹spell/eagle's splendor›, do not alter Relationship Scores.",
 			"",
 			"@HL[Companionship:] Every time you gain a character level, you may increase your Relationship Score with one NPC still active in the campaign by 1 point.",
 			"",
@@ -1762,7 +1762,7 @@
 		"name": "Reversing Relationships",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/177}",
+			"‹SOURCE Ultimate Campaign/177›",
 			"",
 			"If you want to deliberately change a relationship from friendly to competitive, you can do so by insulting or rejecting the NPC. This also automatically reduces your Relationship Score with that NPC by half.",
 			"",
@@ -1783,7 +1783,7 @@
 		"name": "Example Relationships",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/177}",
+			"‹SOURCE Ultimate Campaign/177›",
 			"",
 			"Listed below are some of the familial relationships likely to be significant to a character, as well as adventure hooks, roleplaying advice, and ways to make the relationship grow over time."
 		],
@@ -1809,7 +1809,7 @@
 		"subtitle": "Relationships",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/177}",
+			"‹SOURCE Ultimate Campaign/177›",
 			"",
 			"Whether a progenitor or a parental figure (like a mentor or teacher), a parent often embodies the sense of debt and responsibility a character has for his origins and past.",
 			"",
@@ -1840,7 +1840,7 @@
 		"subtitle": "Relationships",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/178}",
+			"‹SOURCE Ultimate Campaign/178›",
 			"",
 			"Sibling relationships have been the basis of folklore and mythology for ages, and for good reason. Unlike a parent, a sibling is your direct peer, a living mirror who forces you to confront your past deeds and future potential.",
 			"",
@@ -1873,7 +1873,7 @@
 		"subtitle": "Relationships",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/178}",
+			"‹SOURCE Ultimate Campaign/178›",
 			"",
 			"A childhood rival might be someone who used to bully you, an apprentice of the same mentor who competed against you for privileges, or a contemporary in your field who resented your opportunities or scoffed at your inferior birth status. This rival might openly hate you, pretend to like you while plotting your downfall, or respect you but have goals that conflict with yours. Backstabbing, cliques, peer pressure, and rumors are her weapons - the rival is someone who has known you for a long time and knows what buttons to push to annoy or distract you.",
 			"",
@@ -1908,7 +1908,7 @@
 		"subtitle": "Relationships",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/179}",
+			"‹SOURCE Ultimate Campaign/179›",
 			"",
 			"Romantic entanglements can be the stuff of roleplaying dreams. They add drama, tension, and excitement, and can raise the campaign stakes to unprecedented levels. Perhaps the most important facet of your relationship with your spouse hinges on how the two of you met. Furthermore, your spouse's role in the campaign affects you and the other PCs. When your paladin falls in love with the party cleric, marriage might not adversely affect the group dynamic - but if you marry the innkeeper in your favorite town, it could lead to a sedentary lifestyle and a divided loyalty between your fellow adventurers and your spouse's community.",
 			"",
@@ -1938,7 +1938,7 @@
 		"name": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/180}",
+			"‹SOURCE Ultimate Campaign/180›",
 			"",
 			"Though some heroes content themselves with living off the spoils of their exploits or cloaking themselves in humility, others seek to live forever through the sagas and songs of their epic deeds. History measures a hero's success by tales of triumph and bravery that are retold down the ages. A hero with no one to tell her story quickly fades into obscurity along with her unsung accomplishments. How others tell of a hero's deeds becomes the weight by which she is measured, sculpting both her identity and reputation.",
 			"",
@@ -1980,7 +1980,7 @@
 		"name": "Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/181}",
+			"‹SOURCE Ultimate Campaign/181›",
 			"",
 			"You begin play with a Fame equal to your character level + your Charisma modifier. Your Fame ranges from -100 to 100, with 0 representing a lack of any notoriety. Through the course of the campaign, your words and deeds help you build a reputation. Though an adventurer performs many deeds, not all are significant enough to warrant a change in Fame. If possible, the GM should stick to those deeds that directly affect the story or campaign and not reward points for minor victories. The significance of specific deeds should generally be left up to the GM, though Table 3-5 details some specific examples.",
 			"",
@@ -2065,7 +2065,7 @@
 		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/181}",
+			"‹SOURCE Ultimate Campaign/181›",
 			"",
 			"Your reputation travels only as far as the tales of your deeds. Even if you are a great hero in your homeland, when traveling elsewhere you will soon discover that your reputation diminishes until you eventually reach regions where you are completely unrecognized. The greater your reputation, the farther it travels and the broader your Sphere of Influence.",
 			"",
@@ -2106,7 +2106,7 @@
 		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/182}",
+			"‹SOURCE Ultimate Campaign/182›",
 			"",
 			"Prestige Points represent your ability to leverage your Fame. You earn Prestige Points (PP) by completing objectives during the course of play. The GM decides which deeds, goals, or story elements are most important and awards players for completing them accordingly. Each time your Fame increases, you also gain 1 Prestige Point. In a typical campaign, you should gain approximately 4 to 6 Prestige Points per character level. Your current Prestige Points can never exceed your Fame. You can't share Prestige Points with other characters; only the character who earned them can spend them. Most of the time, you spend points on rewards: titles, temporary abilities, or bonuses on tasks associated with your interests.",
 			"",
@@ -2143,7 +2143,7 @@
 		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/182}",
+			"‹SOURCE Ultimate Campaign/182›",
 			"",
 			"This is the starting Fame for a new 1st-level adventurer.",
 			"",
@@ -2151,7 +2151,7 @@
 			"",
 			"@HL[Palm Greaser (Title, 4 PP):] In any settlement of at least 5,000 inhabitants, you may locate a corrupt official. If you're imprisoned or fined for crimes committed in the settlement's jurisdiction, you may take advantage of this contact. You pay no fines and escape sentencing if you can make a Diplomacy check (DC 15 for petty crimes, 20 for serious crimes, or 25 for capital crimes). You can use this ability once per game session. You may select this title once for each settlement in your Sphere of Influence; each time you select it, choose one settlement where you may use the award.",
 			"",
-			"@HL[Planar Pact (5 PP):] You gain the services of an imp, mephit, quasit, or similar extraplanar creature from the {feat/Improved Familiar} list. You can choose a creature with an alignment up to 1 step away from yours on each alignment axis. The creature acts as your willing servant for a number of encounters equal to your Intelligence, Wisdom, or Charisma bonus (whichever is highest), but remains for no more than 24 hours. The creature is a called outsider and automatically returns to its home plane at the end of this service."
+			"@HL[Planar Pact (5 PP):] You gain the services of an imp, mephit, quasit, or similar extraplanar creature from the ‹feat/Improved Familiar› list. You can choose a creature with an alignment up to 1 step away from yours on each alignment axis. The creature acts as your willing servant for a number of encounters equal to your Intelligence, Wisdom, or Charisma bonus (whichever is highest), but remains for no more than 24 hours. The creature is a called outsider and automatically returns to its home plane at the end of this service."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -2172,7 +2172,7 @@
 		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/182}",
+			"‹SOURCE Ultimate Campaign/182›",
 			"",
 			"This is the typical Fame of a character who has completed a couple of adventures.",
 			"",
@@ -2203,7 +2203,7 @@
 		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/183}",
+			"‹SOURCE Ultimate Campaign/183›",
 			"",
 			"This is the typical Fame of an adventurer who has completed several adventures and whom the public is starting to take notice of.",
 			"",
@@ -2223,7 +2223,7 @@
 			"",
 			"@HL[Sage (Title, 5 PP):] Select one Knowledge skill. You can make untrained checks with this skill up to a maximum of DC 20 instead of the normal limit of DC 10. You may select this title multiple times, each time selecting a different Knowledge skill.",
 			"",
-			"@HL[Temporary Cohort (1 PP):] Gain a cohort as if you had the {feat/Leadership} feat. This character remains in your service for 24 hours.",
+			"@HL[Temporary Cohort (1 PP):] Gain a cohort as if you had the ‹feat/Leadership› feat. This character remains in your service for 24 hours.",
 			"",
 			"@HL[Vindicator (Title, 2 PP):] Pick one rival organization as your hated enemy. You gain a +1 bonus on attack and damage rolls against members of that organization. This is a favored enemy bonus."
 		],
@@ -2246,7 +2246,7 @@
 		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/183}",
+			"‹SOURCE Ultimate Campaign/183›",
 			"",
 			"This is the Fame of a successful adventurer whose exploits have made her a local hero.",
 			"",
@@ -2281,7 +2281,7 @@
 		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/184}",
+			"‹SOURCE Ultimate Campaign/184›",
 			"",
 			"This is the Fame of an adventurer who has achieved celebrity status.",
 			"",
@@ -2310,7 +2310,7 @@
 		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/184}",
+			"‹SOURCE Ultimate Campaign/184›",
 			"",
 			"At this Fame level and higher, the character is idolized and easily recognized for his or her achievements.",
 			"",
@@ -2337,7 +2337,7 @@
 		"subtitle": "Reputation and Fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/185}",
+			"‹SOURCE Ultimate Campaign/185›",
 			"",
 			"Sometimes situations should take into account the Fame values of multiple characters. This usually occurs when all the PCs continually operate as a single entity, such as King Arthur's Knights of the Round Table, Robin Hood's Merry Men, or Captain Kidd's pirate crew. Instead of the fame of individuals contributing to the fame of a group, the group's fame is independent of its members (a group may start in the first category and evolve into the second as it gains more members and the founders take a less direct role in its activities). A group like this develops its own Fame; if you are a member of that group, you use its Fame instead your own. If you and your allies are part of such a group, the Fame rules work the same, except the GM only tracks one Fame value for the entire group instead of individual values for each PC; each character's actions that would increase or decrease the Fame contribute to that score. You still gain and spend your own Prestige Points, but use the group's Fame for everything else."
 		],
@@ -2359,7 +2359,7 @@
 		"tags": "fame",
 		"sources": [ "Ultimate Campaign" ],
 		"description": [
-			"{SOURCE Ultimate Campaign/185}",
+			"‹SOURCE Ultimate Campaign/185›",
 			"",
 			"Throughout the course of your adventuring career, your public persona and your true personality might drift begin to drift apart or become notably disparate. When this occurs, you may change your name and adopt an alter ego or alias in order to rid yourself of your prior reputation. In this case, your Fame and Prestige Points remain with your former name, allowing you to shed your former life and start a new one.",
 			"",
@@ -2383,7 +2383,7 @@
 		"name": "Research",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/148}",
+			"‹SOURCE Ultimate Intrigue/148›",
 			"",
 			"Knowledge is power, and this is just as true in an ancient dungeon as in a queen's court. In the Pathfinder Roleplaying Game, the various Knowledge skills represent a character's familiarity with different fields of study. Knowledge checks can often answer specific questions, but sometimes a character either fails the Knowledge check or has no hope of success, such as when the knowledge she seeks is forgotten, hidden, or important enough to the story that uncovering it with a simple skill check would be anticlimactic.",
 			"",
@@ -2422,7 +2422,7 @@
 		"subtitle": "Research",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/148}",
+			"‹SOURCE Ultimate Intrigue/148›",
 			"",
 			"Every library has two primary statistics: a Complexity rating, which reflects the intricacy or confusing nature of the library's contents, and knowledge points (abbreviated kp), which are an abstract representation of the sum of the library's collected information.",
 			"",
@@ -2430,7 +2430,7 @@
 			"",
 			"Attempting a Research check requires an uninterrupted 8-hour period of research, and a character cannot take 10 or 20 on a Research check. Each 8-hour period of research grants a cumulative +1 bonus on Research checks. If a researcher stops researching at the same library for a month or more, she loses any cumulative bonuses gained for that library thus far. Up to two additional characters can use the aid another action to assist a primary researcher. In addition, some libraries grant a Knowledge bonus - a bonus on specific Knowledge checks (including Research checks) attempted within that library - due to the depth and completeness of its collections. Research checks cannot normally be attempted untrained unless the library's Complexity is 10 or lower, the Research check involves a skill that allows untrained checks, or the library's collection is extensive enough to allow untrained checks, as detailed in the library's stat block.",
 			"",
-			"Succeeding at a Research check reduces a library's knowledge points, similar to dealing damage to a creature's hit points. As its knowledge points decrease, a library reveals its secrets. Characters learn information when a library's knowledge points reach various research thresholds, as detailed in each library's stat block. The amount of knowledge points reduced on a successful Research check depends on the nature of the primary researcher and the type of library. It is generally a reflection of the character's training and Intelligence score, represented by a die roll modified by the character's ability modifier (see {rule/Research by Expertise}).",
+			"Succeeding at a Research check reduces a library's knowledge points, similar to dealing damage to a creature's hit points. As its knowledge points decrease, a library reveals its secrets. Characters learn information when a library's knowledge points reach various research thresholds, as detailed in each library's stat block. The amount of knowledge points reduced on a successful Research check depends on the nature of the primary researcher and the type of library. It is generally a reflection of the character's training and Intelligence score, represented by a die roll modified by the character's ability modifier (see ‹rule/Research by Expertise›).",
 			"",
 			"In addition to these base amounts, for every 5 by which a Research check exceeds the library's Complexity rating, the library's knowledge points are reduced by 1 additional point. Rolling a natural 20 on a Research check acts like a critical threat. If the researcher confirms the critical hit by succeeding at a second Research check with all the same modifiers (this takes no additional time), the resulting knowledge point reduction is doubled. Conversely, rolling a natural 1 on a Research check automatically results in failure, and the library's knowledge points increase by 1/4 of the library's maximum knowledge points as the library's complexity causes a researcher to follow a wrong avenue of investigation.",
 			"",
@@ -2451,9 +2451,9 @@
 		"name": "Research by Expertise",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/148}",
+			"‹SOURCE Ultimate Intrigue/148›",
 			"",
-			"A successful Research check reduces a library's knowledge points by a certain amount, just as a successful attack roll in combat reduces a creature's hit points, and this amount depends on the primary researcher's training in the skill she used for the Research check. A primary researcher reduces a library's kp by 1d12 + her Intelligence modifier if she has either 10 ranks in the skill, {feat/Skill Focus} in the skill, or both 5 ranks in the skill and the skill as a class skill. She reduces a library's kp by 1d8 + her Intelligence modifier if she has either 5 ranks in the skill or the skill is a class skill for her (but not both). Otherwise, she reduces a library's kp by 1d4 + her Intelligence modifier.",
+			"A successful Research check reduces a library's knowledge points by a certain amount, just as a successful attack roll in combat reduces a creature's hit points, and this amount depends on the primary researcher's training in the skill she used for the Research check. A primary researcher reduces a library's kp by 1d12 + her Intelligence modifier if she has either 10 ranks in the skill, ‹feat/Skill Focus› in the skill, or both 5 ranks in the skill and the skill as a class skill. She reduces a library's kp by 1d8 + her Intelligence modifier if she has either 5 ranks in the skill or the skill is a class skill for her (but not both). Otherwise, she reduces a library's kp by 1d4 + her Intelligence modifier.",
 			"",
 			"@HL[Alternate Ability Scores:] At the GM's discretion, a character with an ability that replaces her Intelligence score with another ability score for the purpose of Knowledge checks (such as a lore oracle or shaman) can also use that ability score instead of Intelligence to determine the reduction of kp. Beyond that, characters well suited for research in a particular library might modify the result of the die roll with a different ability modifier. For instance, a brawler or fighter carrying out research in a fighting school's library might add her Strength modifier instead of her Intelligence modifier to the result. With the variety of options available to characters in the form of character classes, archetypes, prestige classes, and other customizable selections, it's ultimately up to the GM to decide which characters are best suited for research in a particular library.",
 			"",
@@ -2473,7 +2473,7 @@
 		"subtitle": "Research",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/149}",
+			"‹SOURCE Ultimate Intrigue/149›",
 			"",
 			"Although some sample libraries are presented at the end of this section, the research rules are most rewarding when used in conjunction with libraries specifically designed to interact with an adventure's story and characters. You can use the following guidelines to create libraries tailored to your campaign's needs.",
 			"",
@@ -2483,7 +2483,7 @@
 			"",
 			"@HL[Step 3-Determine Knowledge Bonus:] Decide if the library grants a bonus on Knowledge checks used for Research checks in the library. Not every library grants a bonus, but a library focusing on a particular field of study almost always grants a Knowledge bonus to the associated Knowledge skill. A typical library grants a Knowledge bonus from +2 to +5, depending on the size of the library and the quality of its collections.",
 			"",
-			"@HL[Step 4-Determine CR:] Establish the library's CR according to the needs of a specific adventure or campaign, typically basing it on the Average Party Level (APL) of the player characters. The higher the CR, the more challenging it is for characters to complete their research. Refer to [Table 12-1](rule/designing_encounters) to determine the appropriate CR for your group, using the same difficulty guidelines as encounters (easy, average, challenging, hard, epic). For example, for a party of four 6th-level PCs, a CR 6 library is average difficulty, CR 5 is easy, CR 7 is challenging, CR 8 is hard, and CR 9 is an epic challenge. Keep in mind that increasing the CR of a library still doesn't stop successful research from eventually happening without either time pressure (see Step 7) or penalties for failure (see {rule/Additional Elements}). If you set an extremely high-CR library against a low-level party without either of those elements, determine the XP they receive accordingly (low or no experience), rather than as per a monster of that CR.",
+			"@HL[Step 4-Determine CR:] Establish the library's CR according to the needs of a specific adventure or campaign, typically basing it on the Average Party Level (APL) of the player characters. The higher the CR, the more challenging it is for characters to complete their research. Refer to [Table 12-1](rule/designing_encounters) to determine the appropriate CR for your group, using the same difficulty guidelines as encounters (easy, average, challenging, hard, epic). For example, for a party of four 6th-level PCs, a CR 6 library is average difficulty, CR 5 is easy, CR 7 is challenging, CR 8 is hard, and CR 9 is an epic challenge. Keep in mind that increasing the CR of a library still doesn't stop successful research from eventually happening without either time pressure (see Step 7) or penalties for failure (see ‹rule/Additional Elements›). If you set an extremely high-CR library against a low-level party without either of those elements, determine the XP they receive accordingly (low or no experience), rather than as per a monster of that CR.",
 			"",
 			"@HL[Step 5-Determine Complexity:] A library's Complexity should be fairly challenging since the rules for research assume that the best researcher is the primary researcher, allow two checks to aid another, often add an additional bonus on the Research check, and offer a cumulative bonus on future Research checks. For simple libraries, see Table 3-3 for sample base DCs. For an average library, add 5 to the DC; for a difficult library, add 10. For extremely challenging libraries, you can increase the Complexity by even more, but be aware that research in such a library will be exceptionally difficult, so it might make more sense to increase the library's CR instead. Step 6-Calculate Knowledge Points: A library's knowledge point total is often equal to the library's CR &times; 3.",
 			"",
@@ -2512,7 +2512,7 @@
 			"| 19 | 38 |",
 			"| 20 | 40 |",
 			"",
-			"@HL[Step 7-Determine the Time Pressure:] Thanks to the cumulative bonus on Research checks, eventually even a 1st-level character trained in one of the research skills will fully research a CR 20 library. If there is no sense of time pressure or penalty for failure (see {rule/Additional Elements}), the {rule/research/ system} becomes merely an unnecessary delay in the story's progress since the result isn't in question. For this reason, most research tasks should include a hard limit on how many days the PCs have to succeed. Since the PCs' ability to reduce a library's knowledge points does not scale up as quickly as the library's knowledge points, low-level libraries usually require only 1 or 2 successful Research checks to reach 0 kp; on the other hand, even the most scholarly character can only hope to reduce a CR 20 library to 0 kp in 6 successes (and a more modest lead researcher is likely to need at least 12 successes). Thus, low-CR libraries merit a time pressure of a week or less, whereas high-CR libraries need at least 2 weeks to a month to give most groups enough time to complete them. As always, know your group when designing the time pressure. If a high-level group doesn't have anyone with more than a few ranks in any of the associated skills, it will need more time to build up cumulative bonuses before it can crack the library.",
+			"@HL[Step 7-Determine the Time Pressure:] Thanks to the cumulative bonus on Research checks, eventually even a 1st-level character trained in one of the research skills will fully research a CR 20 library. If there is no sense of time pressure or penalty for failure (see ‹rule/Additional Elements›), the ‹rule/research« system› becomes merely an unnecessary delay in the story's progress since the result isn't in question. For this reason, most research tasks should include a hard limit on how many days the PCs have to succeed. Since the PCs' ability to reduce a library's knowledge points does not scale up as quickly as the library's knowledge points, low-level libraries usually require only 1 or 2 successful Research checks to reach 0 kp; on the other hand, even the most scholarly character can only hope to reduce a CR 20 library to 0 kp in 6 successes (and a more modest lead researcher is likely to need at least 12 successes). Thus, low-CR libraries merit a time pressure of a week or less, whereas high-CR libraries need at least 2 weeks to a month to give most groups enough time to complete them. As always, know your group when designing the time pressure. If a high-level group doesn't have anyone with more than a few ranks in any of the associated skills, it will need more time to build up cumulative bonuses before it can crack the library.",
 			"",
 			"@HL[Step 8-Determine Research Thresholds:] The final step in designing a library is creating its research thresholds. In general, a library with 25 kp or fewer has one research threshold for every 5 kp, revealed at 5-kp intervals, while a library with 30 kp or more has one research threshold for every 10 kp, revealed at 10-kp intervals. However, this is just a guideline, and the exact number of research thresholds and their frequency should be determined by how much information the library contains or the plot requires. For example, a library with 30 kp could have research thresholds at 20 kp, 10 kp, and 0 kp, but it could instead reveal information at 25 kp, 20 kp, 10 kp, 8 kp, and 0 kp.",
 			"",
@@ -2534,25 +2534,25 @@
 		"subtitle": "Research",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/151}",
+			"‹SOURCE Ultimate Intrigue/151›",
 			"",
 			"Libraries can be further customized to make research more challenging, rewarding, or dangerous by incorporating the following elements.",
 			"",
-			"@HL[Additional Languages:] A library could consist entirely of volumes written in {misc/languages} other than Common. To attempt a Research check in such a library, characters who don't speak the language must succeed at a Linguistics check or have access to magic such as {spell/comprehend languages}, and the magic must be active for the entire 8-hour research session. The DC of the Linguistics check depends on the language and the researcher. For modern human languages, such as ethnic or national languages, or non-human tongues that are included in a character's racial bonus languages (such as an elf attempting to research Sylvan writings), the DC is 20. For other non-human tongues that are not part of a character's racial bonus languages (such as a dwarf trying to do research in a gnoll library) or secret languages (such as Druidic), the DC is 25. For ancient, archaic, forgotten, otherworldly, or exceptionally rare languages, the DC is 30. A character using Linguistics to translate proceeds at 1/3 the normal rate (requiring three 8-hour sessions instead of one for each Research check and to gain the +1 cumulative bonus), and a character using Linguistics or magic takes a -2 penalty on Research checks due to the possibility of losing context that would have been more obvious in his native language.",
+			"@HL[Additional Languages:] A library could consist entirely of volumes written in ‹misc/languages› other than Common. To attempt a Research check in such a library, characters who don't speak the language must succeed at a Linguistics check or have access to magic such as ‹spell/comprehend languages›, and the magic must be active for the entire 8-hour research session. The DC of the Linguistics check depends on the language and the researcher. For modern human languages, such as ethnic or national languages, or non-human tongues that are included in a character's racial bonus languages (such as an elf attempting to research Sylvan writings), the DC is 20. For other non-human tongues that are not part of a character's racial bonus languages (such as a dwarf trying to do research in a gnoll library) or secret languages (such as Druidic), the DC is 25. For ancient, archaic, forgotten, otherworldly, or exceptionally rare languages, the DC is 30. A character using Linguistics to translate proceeds at 1/3 the normal rate (requiring three 8-hour sessions instead of one for each Research check and to gain the +1 cumulative bonus), and a character using Linguistics or magic takes a -2 penalty on Research checks due to the possibility of losing context that would have been more obvious in his native language.",
 			"",
 			"@HL[Labyrinths and Secret Chambers:] Some libraries are labyrinthine, either so disorganized as to become puzzles or purposely designed to hide their greatest secrets. Other libraries could be less maze-like, but their deeper secrets might lie behind hidden doors or within concealed chambers only the most determined can discover.",
 			"",
 			"In the case of labyrinths, each threshold of knowledge achieved takes the researcher deeper into the library's confusing twists and turns. Finding one's way out or finding the path to the next knowledge threshold requires either careful planning (a trail of objects, or using string to navigate the way back) or a successful Intelligence check to find the way. The Intelligence check can have a DC of 10, 15, or even 20, and should take an amount of time appropriate for the size of the library. Each attempt could be a manner of minutes, hours, or even days if the library is truly massive or extradimensional. Further research cannot be conducted while a researcher finds her way out.",
 			"",
-			"In the case of secret chambers, typically the doors to such locations must be found before a kp threshold can be breached, or such chambers can be more symbolic, such as the case of print written in invisible ink, hidden with {spell/secret page}, or requiring a {rule/psychic duel>s} before the secrets are revealed and further research progress can be made.",
+			"In the case of secret chambers, typically the doors to such locations must be found before a kp threshold can be breached, or such chambers can be more symbolic, such as the case of print written in invisible ink, hidden with ‹spell/secret page›, or requiring a ‹rule/psychic duel<s› before the secrets are revealed and further research progress can be made.",
 			"",
-			"@HL[Library Encounters:] Books and scrolls aren't the only things found in libraries. A library can be turned into an adventure or dungeon all its own with separate chambers and rooms serving as different encounter locations. As PCs undertake their research in the library, they can fight monsters inhabiting the library, roleplay with NPCs engaged in their own research, or overcome hazards, traps, and other obstacles, such as collapsing ceilings and walls, {spell/explosive runes}, {spell/fire trap/s}, {spell/glyph[s] of warding}, *secret page,* symbols, or simply rickety ladders and unstable shelves.",
+			"@HL[Library Encounters:] Books and scrolls aren't the only things found in libraries. A library can be turned into an adventure or dungeon all its own with separate chambers and rooms serving as different encounter locations. As PCs undertake their research in the library, they can fight monsters inhabiting the library, roleplay with NPCs engaged in their own research, or overcome hazards, traps, and other obstacles, such as collapsing ceilings and walls, ‹spell/explosive runes›, ‹spell/fire trap«s›, ‹spell/glyph«s» of warding›, *secret page,* symbols, or simply rickety ladders and unstable shelves.",
 			"",
 			"In addition, researching in a given room of the library might allow characters to reduce the library's knowledge points only by a limited amount. In order to fully reduce the library's kp to 0, perhaps PCs must visit multiple collections in the library, encountering all of the dangers in those rooms before their research is complete. Certain libraries might generate guardians on a regular basis, thus forcing encounters every day or every week until the PCs manage to reduce the library's kp to 0.",
 			"",
 			"@HL[Penalty for Failure:] Some libraries are so convoluted and bewildering that failing a Research check can hamper a researcher's progress, or even thwart it entirely. This can be the result of excessively poor organization, such as in a senile old wizard's hodgepodge of books accumulated over decades, or due to deliberate obfuscation, as in the case of infernal contracts. In such libraries, various unusual penalties or consequences might occur after a particular number of Research checks or after a failed Research check. Such a library might not allow the cumulative bonus on further Research checks for each 8-hour period. Furthermore, failing two consecutive Research checks means the researcher has reached a dead end in her studies and is unable to further decrease the library's knowledge points. In this case, the library's knowledge points return to maximum and the researcher can't attempt to research in that particular library again until she gains a rank in at least one of the library's associated skills or recovers some key or clue to help decipher it.",
 			"",
-			"@HL[Research Rewards:] Characters can gain more than just knowledge in libraries; they might also find valuable treasures. You can place treasures in a library that are uncovered only when the library's kp are reduced to specific research thresholds. Such treasures often take the form of scrolls, spellbooks, and magic manuals and tomes, or \"intellectual\" items such as a {magic-wondrous/headband of vast intelligence} or a {magic-wondrous/helm of comprehend languages and read magic}. Other objects such as rods, wands, figurines of wondrous power, or even crystal balls might be buried or hidden behind larger stacks of books, just waiting to be discovered by diligent researchers.",
+			"@HL[Research Rewards:] Characters can gain more than just knowledge in libraries; they might also find valuable treasures. You can place treasures in a library that are uncovered only when the library's kp are reduced to specific research thresholds. Such treasures often take the form of scrolls, spellbooks, and magic manuals and tomes, or \"intellectual\" items such as a ‹magic-wondrous/headband of vast intelligence› or a ‹magic-wondrous/helm of comprehend languages and read magic›. Other objects such as rods, wands, figurines of wondrous power, or even crystal balls might be buried or hidden behind larger stacks of books, just waiting to be discovered by diligent researchers.",
 			"",
 			"@HL[Specialized Skills:] Instead of assigning specific Knowledge skills to a library's Research check, you can use Linguistics as the default Research check skill, and assign specialized skills that reflect the specific nature of the library's collections. To carry out research in such a library, a character must succeed at a Linguistics check or at one of the specialized skill checks listed in the library's stat block. The Linguistics check follows all of the normal rules for Research checks, but if a researcher uses the more specialized check to perform her research, she gains a +2 circumstance bonus on the check for using precisely the correct skill for that library, as opposed to the more general use of Linguistics. This element otherwise follows all of the other rules for Research checks. Any skill, not just Knowledge skills, can be a specialized skill. For example, a military library might have Profession (soldier) as a specialized skill, an archive of famous plays might use Perform (act), or a tome of arcane magic might allow Spellcraft as a specialized skill. The circumstance bonus from specialized skills replaces the general bonus to Knowledge checks a library would otherwise grant; thus if the library is particularly helpful, it might grant more than a +2 circumstance bonus."
 		],
@@ -2569,7 +2569,7 @@
 		"subtitle": "Research",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
-			"{SOURCE Ultimate Intrigue/152}",
+			"‹SOURCE Ultimate Intrigue/152›",
 			"",
 			"Libraries can exist in a wide variety of forms, from actual collections of printed books, handwritten scrolls, and indexed volumes to single, encyclopedic tomes of abstruse wisdom or painstakingly detailed legal contracts full of impenetrable language. The following are some examples of types of libraries characters might visit to conduct research. Rather than a specific name, each of these sample libraries is given a generic title that indicates the nature of its collections or where it might be located. GMs can use these examples as guidelines for creating their own custom libraries.",
 			"",
@@ -2583,7 +2583,7 @@
 			"",
 			"@HL[Complexity:] This value is the DC of the Research check required to reduce the library's kp.",
 			"",
-			"@HL[Languages:] This lists the {misc/languages} necessary to navigate the library without magical aid or Linguistic checks. If a library has multiple languages, and the researcher does not possess the ability to read all the listed languages, she can still attempt checks, but for each language she doesn't know, she takes a -2 penalty on Research checks.",
+			"@HL[Languages:] This lists the ‹misc/languages› necessary to navigate the library without magical aid or Linguistic checks. If a library has multiple languages, and the researcher does not possess the ability to read all the listed languages, she can still attempt checks, but for each language she doesn't know, she takes a -2 penalty on Research checks.",
 			"",
 			"@HL[Research Check:] This entry lists the skills (usually Knowledge skills) that can be used to attempt Research checks. If a library allows untrained Knowledge checks due to the extensiveness of its collections, that is noted in this section as well.",
 			"",
@@ -2627,13 +2627,13 @@
 			"",
 			"#### Research Thresholds",
 			"",
-			"**kp 15** The wizard's spellbook is warded with a {spell/fire trap}.",
+			"**kp 15** The wizard's spellbook is warded with a ‹spell/fire trap›.",
 			"",
 			"**kp 10** The password to bypass the spellbook's *fire trap* is \"everiss.\"",
 			"",
-			"**kp 5** The {template/ghost} the wizard keeps locked away in the tower can only be permanently destroyed if her wedding ring is returned to her descendants. The wizard hid the wedding ring in his extraplanar stronghold.",
+			"**kp 5** The ‹template/ghost› the wizard keeps locked away in the tower can only be permanently destroyed if her wedding ring is returned to her descendants. The wizard hid the wedding ring in his extraplanar stronghold.",
 			"",
-			"**kp 0** The {monster/elder |xorn} Gissijaak has a taste for garnets, and can be convinced to guide people to the wizard's extraplanar stronghold on the Plane of Earth if bribed with a particularly large stone.",
+			"**kp 0** The ‹monster/elder »xorn› Gissijaak has a taste for garnets, and can be convinced to guide people to the wizard's extraplanar stronghold on the Plane of Earth if bribed with a particularly large stone.",
 			"",
 			"### Imperial War College",
 			"",
@@ -2661,7 +2661,7 @@
 			"",
 			"### Astral Dragon's Memory Palace",
 			"",
-			"This esoteric library is an {rule/immersive mindscape>s} where an {monster/ancient astral dragon} stores her knowledge and memories in an elaborate cloud palace. The mindscape is overt and has a self-contained shape. Its feedback is harmless, and it has normal gravity, normal time, and magic works normally within it.",
+			"This esoteric library is an ‹rule/immersive mindscape<s› where an ‹monster/ancient astral dragon› stores her knowledge and memories in an elaborate cloud palace. The mindscape is overt and has a self-contained shape. Its feedback is harmless, and it has normal gravity, normal time, and magic works normally within it.",
 			"",
 			"The dragon's memory palace is extremely complex, and filled with nearly all of her experiences from her millennia of existence, categorized in a very occult fashion. What is even more challenging is that outsiders can access the mindscape only while the dragon sleeps. While the dragon tends to slumber for long periods (typically between 7-13 days), when it awakens any intruders are expelled from the mindscape - unless they discover the secret that lets them stay within the mindscape while the dragon is awake.",
 			"",
@@ -2675,19 +2675,19 @@
 			"",
 			"#### Research Thresholds",
 			"",
-			"**kp 50** The dragon saved a group of {monster/shulsaga/s} and, in return for the assistance, those strange disk-riding humanoids gave her a password that allows the dragon or any of her allies to enter shulsaga territory unhindered.",
+			"**kp 50** The dragon saved a group of ‹monster/shulsaga«s› and, in return for the assistance, those strange disk-riding humanoids gave her a password that allows the dragon or any of her allies to enter shulsaga territory unhindered.",
 			"",
 			"**kp 40** The shulsaga password is \"kayith namast.\"",
 			"",
 			"**kp 30** Deep in a particularly volatile section of the Astral Plane, the shulsagas are building a large vessel that they plan to use to raid other planes. They seem especially fixated on raiding the Boneyard, the Negative Energy Plane, and the Positive Energy Plane.",
 			"",
-			"**kp 20** There is a way that interlopers can stay within the memory palace while the dragon is awake. They must first have {spell/dimensional anchor} cast upon them while in the memory palace and must refrain from eating, drinking, or sleeping while the dragon is awake.",
+			"**kp 20** There is a way that interlopers can stay within the memory palace while the dragon is awake. They must first have ‹spell/dimensional anchor› cast upon them while in the memory palace and must refrain from eating, drinking, or sleeping while the dragon is awake.",
 			"",
-			"**kp 10** A planar map shows many portals scattered around the Astral Plane that allow passage to most of the other known planes. The dragon believes that the portals were created by {family/manasaputra/s}, but has not been able to learn why they were created or what keys are needed to open them.",
+			"**kp 10** A planar map shows many portals scattered around the Astral Plane that allow passage to most of the other known planes. The dragon believes that the portals were created by ‹family/manasaputra«s›, but has not been able to learn why they were created or what keys are needed to open them.",
 			"",
-			"**kp 5** The astral dragon has accumulated a substantial treasury kept on the Positive Energy Plane in the care of a group of {monster/jyoti}. The dragon worries that the jyoti have no plans to return her hoard.",
+			"**kp 5** The astral dragon has accumulated a substantial treasury kept on the Positive Energy Plane in the care of a group of ‹monster/jyoti›. The dragon worries that the jyoti have no plans to return her hoard.",
 			"",
-			"**kp 0** A map and occult ritual found in the library claims to allow living creatures to enter the {rule/Akashic Record}, a demiplane in the Astral Plane tied to the heart of occult philosophy."
+			"**kp 0** A map and occult ritual found in the library claims to allow living creatures to enter the ‹rule/Akashic Record›, a demiplane in the Astral Plane tied to the heart of occult philosophy."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -2703,7 +2703,7 @@
 		"name": "Spellcasting Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/146}",
+			"‹SOURCE Pathfinder Unchained/146›",
 			"",
 			"The following optional rules alter normal spellcasting in fun new ways. Each system is fairly simple in concept, but could generate ramifications not fully detailed below, and GMs should be ready to reconcile or arbitrate unexpected effects."
 		],
@@ -2738,7 +2738,7 @@
 		"subtitle": "Spellcasting Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/146}",
+			"‹SOURCE Pathfinder Unchained/146›",
 			"",
 			"As a character gains caster levels under the normal magic system, the efficacy of her spells can swing wildly, necessitating a constant reevaluation of each spell's utility. The limited magic rules are meant to keep spells' power more tightly tiered by spell level and reduce the amount by which a caster's power level escalates.",
 			"",
@@ -2763,19 +2763,19 @@
 			"",
 			"### Limited Magic Items",
 			"",
-			"Spells from magic items use the same rules as above. That means a {spell/fireball} cast from a wand created by a sorcerer or wizard has the same save DC and amount of damage dice as a *fireball* cast by any sorcerer or wizard. When calculating the base cost or price of a magic item, always use the minimum CL as defined by this system (even if the item's creator would have had a higher caster level). Potions and scrolls always default to the appropriate cleric, druid, or wizard spell level to determine their base costs.",
+			"Spells from magic items use the same rules as above. That means a ‹spell/fireball› cast from a wand created by a sorcerer or wizard has the same save DC and amount of damage dice as a *fireball* cast by any sorcerer or wizard. When calculating the base cost or price of a magic item, always use the minimum CL as defined by this system (even if the item's creator would have had a higher caster level). Potions and scrolls always default to the appropriate cleric, druid, or wizard spell level to determine their base costs.",
 			"",
 			"### Heighten Spell",
 			"",
-			"Under this system, spells can still be improved using {feat/Heighten Spell}. A heightened spell uses the minimum CL, but does so as though it were a higher-level spell. For example, a *fireball* heightened to 5th level would have a DC of 17 and deal 9d6 points of damage, the same as a {spell/cone of cold} cast in the same slot.",
+			"Under this system, spells can still be improved using ‹feat/Heighten Spell›. A heightened spell uses the minimum CL, but does so as though it were a higher-level spell. For example, a *fireball* heightened to 5th level would have a DC of 17 and deal 9d6 points of damage, the same as a ‹spell/cone of cold› cast in the same slot.",
 			"",
 			"### Other Considerations",
 			"",
-			"Limited magic can take some getting used to. It reduces the power of most spellcasters dramatically, but can speed the game up by requiring less research into the caster levels of monsters, NPCs, and magic items. Limited magic can also encourage better-rounded spellcaster characters, especially if you're using the purchase system to generate ability scores, as there's less reward for focusing solely on their spellcasting attributes. Using this system means that if a class gets a spell at a lower level than another class does, that spell's effects are weaker for the former class. A bard's {spell/heroism} is not as good as a wizard's. However, classes with slower spell progressions (such as the bard, paladin, and ranger) have other abilities that keep them competitive when limited magic weakens the overall power of spells.",
+			"Limited magic can take some getting used to. It reduces the power of most spellcasters dramatically, but can speed the game up by requiring less research into the caster levels of monsters, NPCs, and magic items. Limited magic can also encourage better-rounded spellcaster characters, especially if you're using the purchase system to generate ability scores, as there's less reward for focusing solely on their spellcasting attributes. Using this system means that if a class gets a spell at a lower level than another class does, that spell's effects are weaker for the former class. A bard's ‹spell/heroism› is not as good as a wizard's. However, classes with slower spell progressions (such as the bard, paladin, and ranger) have other abilities that keep them competitive when limited magic weakens the overall power of spells.",
 			"",
-			"Consider altering other rules to account for a landscape with lower average DCs. For instance, {feat/Great Fortitude}, {feat/Iron Will}, and {feat/Lightning Reflexes} might provide only a +1 bonus on saves, or the increases to spell DCs from {feat/Spell Focus} and {feat/Greater Spell Focus} could go up to 2.",
+			"Consider altering other rules to account for a landscape with lower average DCs. For instance, ‹feat/Great Fortitude›, ‹feat/Iron Will›, and ‹feat/Lightning Reflexes› might provide only a +1 bonus on saves, or the increases to spell DCs from ‹feat/Spell Focus› and ‹feat/Greater Spell Focus› could go up to 2.",
 			"",
-			"@HL[With Esoteric Spell Components:] This system works especially well with the {rule/esoteric material components/ system}. Using both systems means that spellcasting in the campaign is weaker overall, but can be boosted on occasion by characters willing to spend money to increase the potency of their spells."
+			"@HL[With Esoteric Spell Components:] This system works especially well with the ‹rule/esoteric material components« system›. Using both systems means that spellcasting in the campaign is weaker overall, but can be boosted on occasion by characters willing to spend money to increase the potency of their spells."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -2792,9 +2792,9 @@
 		"subtitle": "Spellcasting Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/147}",
+			"‹SOURCE Pathfinder Unchained/147›",
 			"",
-			"Though many spellcasters like to consider their use of magic a science, the effects of magic are not always easy to predict. Wild, uncontrolled magic sometimes surges as a side effect of spellcasting or magical experimentation. Wild magic can be used in any situation where magic might cause randomness and chaotic effects. When a character casts a spell or takes an action that could trigger a surge of wild magic (see {rule/Implementing Wild Magic}), roll on Table 4-4: Wild Magic Surge.",
+			"Though many spellcasters like to consider their use of magic a science, the effects of magic are not always easy to predict. Wild, uncontrolled magic sometimes surges as a side effect of spellcasting or magical experimentation. Wild magic can be used in any situation where magic might cause randomness and chaotic effects. When a character casts a spell or takes an action that could trigger a surge of wild magic (see ‹rule/Implementing Wild Magic›), roll on Table 4-4: Wild Magic Surge.",
 			"",
 			"Roll to determine the surge effect before the spell is cast, but apply the effect after the spell is cast unless it alters the spell itself in some way (such as changing the effective caster level). Any reference on the table to the spell or the spell's level applies to the spell being cast, supernatural ability being used, or magic item effect being activated. Similarly, any reference to the caster applies to the character who triggers the surge. If an effect requires a caster level, use the caster's full character level.",
 			"",
@@ -2805,38 +2805,38 @@
 			"| d% | Surge Effect |",
 			"| --- | --- |",
 			"| 01-02 | The caster takes 1d6 points of damage per spell level. |",
-			"| 03-04 | The caster is affected by a {spell/slow} spell for 5 rounds. |",
+			"| 03-04 | The caster is affected by a ‹spell/slow› spell for 5 rounds. |",
 			"| 05 | The spell takes effect at a random location within the spell's range. |",
-			"| 06 | The caster is confused for 1 round (as {spell/confusion}). |",
+			"| 06 | The caster is confused for 1 round (as ‹spell/confusion›). |",
 			"| 07 | The caster takes 1 point of Constitution bleed. |",
 			"| 08 | The caster takes 1 point of ability bleed that matches her spellcasting ability score (determine randomly if the creature isn't a spellcaster). |",
-			"| 09-10 | The caster is dazed for 1 round (as {spell/daze monster}). |",
+			"| 09-10 | The caster is dazed for 1 round (as ‹spell/daze monster›). |",
 			"| 11-12 | The spell deals half as much damage as normal. |",
 			"| 13 | The caster takes 1d4 points of bleed damage. |",
-			"| 14 | The caster falls asleep for 1 minute (as {spell/sleep}). |",
+			"| 14 | The caster falls asleep for 1 minute (as ‹spell/sleep›). |",
 			"| 15-16 | The caster can't cast or concentrate on spells for 1 round. |",
-			"| 17 | The caster is affected by {spell/reduce person} for 1 minute. |",
+			"| 17 | The caster is affected by ‹spell/reduce person› for 1 minute. |",
 			"| 18-19 | The caster becomes sickened for 5 rounds. |",
-			"| 20 | A {spell/zone of truth} appears, centered on the caster. |",
+			"| 20 | A ‹spell/zone of truth› appears, centered on the caster. |",
 			"| 21-29 | The caster is affected as if targeted by the spell. |",
-			"| 30-32 | All targets of the spell are affected by {spell/lesser restoration}. |",
+			"| 30-32 | All targets of the spell are affected by ‹spell/lesser restoration›. |",
 			"| 33-38 | All targets of the spell are healed of 1d8+1 points of damage. This is a positive energy effect. |",
-			"| 39-43 | The spell's area or the targets of the spell become affected by {spell/silence} for 3 rounds. |",
-			"| 44-50 | All targets of the spell become invisible for 1 round (as {spell/invisibility}). |",
-			"| 51-58 | The area of the spell is filled with {spell/daylight}. |",
-			"| 59-64 | A {spell/shatter} spell affects a 5-foot radius around each target of the spell (or the spell's area). |",
-			"| 65-71 | The spell's area is coated in {spell/grease}. |",
-			"| 72-74 | One random tree or animal targeted by the spell or in the spell's area is affected by {spell/awaken}. |",
-			"| 75-78 | An instrument appears adjacent to each target (as {spell/summon instrument}). |",
-			"| 79-80 | Every door within 100 feet of the caster is affected by a {spell/knock} spell. |",
+			"| 39-43 | The spell's area or the targets of the spell become affected by ‹spell/silence› for 3 rounds. |",
+			"| 44-50 | All targets of the spell become invisible for 1 round (as ‹spell/invisibility›). |",
+			"| 51-58 | The area of the spell is filled with ‹spell/daylight›. |",
+			"| 59-64 | A ‹spell/shatter› spell affects a 5-foot radius around each target of the spell (or the spell's area). |",
+			"| 65-71 | The spell's area is coated in ‹spell/grease›. |",
+			"| 72-74 | One random tree or animal targeted by the spell or in the spell's area is affected by ‹spell/awaken›. |",
+			"| 75-78 | An instrument appears adjacent to each target (as ‹spell/summon instrument›). |",
+			"| 79-80 | Every door within 100 feet of the caster is affected by a ‹spell/knock› spell. |",
 			"| 81-83 | The caster teleports to a square of her choice adjacent to the spell's target or within the spell's area. |",
-			"| 84-86 | The next spell targeting the caster is turned back, as {spell/spell turning}. |",
+			"| 84-86 | The next spell targeting the caster is turned back, as ‹spell/spell turning›. |",
 			"| 87-90 | The caster gains 2d6 temporary hit points that last 1 hour and don't stack with any other temporary hit points. |",
-			"| 91-92 | A random creature from the {spell/summon monster I} list is summoned in a square adjacent to the caster. It is under the caster's control. |",
+			"| 91-92 | A random creature from the ‹spell/summon monster I› list is summoned in a square adjacent to the caster. It is under the caster's control. |",
 			"| 93-95 | The caster is affected by tongues for 10 minutes. |",
 			"| 96-97 | The caster is affected by haste for 5 rounds. |",
-			"| 98 | The spell is {feat/extended}. |",
-			"| 99 | The spell is {feat/maximized}. |",
+			"| 98 | The spell is ‹feat/extended›. |",
+			"| 99 | The spell is ‹feat/maximized›. |",
 			"| 100 | The spell slot used to cast the spell is not expended. |",
 			"",
 			"### Table 4-5: Universal Surge Effects",
@@ -2844,10 +2844,10 @@
 			"| d% | Surge Effect |",
 			"| --- | --- |",
 			"| 01-20 | The caster takes 1d6 points of damage that can't be prevented in any way. |",
-			"| 21-80 | The caster is affected by {spell/faerie fire} for 1 round. |",
+			"| 21-80 | The caster is affected by ‹spell/faerie fire› for 1 round. |",
 			"| 81-100 | The caster gains 1d6 temporary hit points that last for 1 hour. These don't stack with other temporary hit points. |",
 			"",
-			"@HL[Compare:] {rule/Primal Magic}, Wild Magic under {rule/Planar |Magic Traits}"
+			"@HL[Compare:] ‹rule/Primal Magic›, Wild Magic under ‹rule/Planar »Magic Traits›"
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -2865,17 +2865,17 @@
 		"subtitle": "Spellcasting Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/147}",
+			"‹SOURCE Pathfinder Unchained/147›",
 			"",
 			"Though the rules on when to use wild magic are deliberately vague to give the GM leeway, here are some suggestions, presented in order from simplest to most complex.",
 			"",
-			"@HL[Failed Concentration:] When a caster fails a {rule/concentration} check, and thereby loses a spell, some of the spell's energy escapes in a wild magic surge.",
+			"@HL[Failed Concentration:] When a caster fails a ‹rule/concentration› check, and thereby loses a spell, some of the spell's energy escapes in a wild magic surge.",
 			"",
 			"@HL[Dispel and Counterspell:] When a spell or magical effect is dispelled or counterspelled, it triggers a wild magic surge on the caster or subject.",
 			"",
 			"@HL[Wild Zones:] Some places are magically unstable. When a creature casts a spell, uses a spell-like ability, or activates a magic item in such an area, it causes a wild magic surge.",
 			"",
-			"@HL[Boost Casting:] A caster can attempt to use a {main/metamagic feat} she has with a spell she's casting without expending a higher-level spell slot, needing to prepare the spell at a higher level (if a prepared caster), or increasing the casting time (if a spontaneous caster). To do so, she must attempt a caster level check with a DC equal to 10 + the spell's level + 5 for every increase in spell level the metamagic feat would normally cause. If she succeeds, her spell gains the metamagic feat's benefit and she causes a wild magic surge. If she fails, she still rolls on Table 4-4, but subtracts from the result a number equal to the amount by which she failed the check."
+			"@HL[Boost Casting:] A caster can attempt to use a ‹main/metamagic feat› she has with a spell she's casting without expending a higher-level spell slot, needing to prepare the spell at a higher level (if a prepared caster), or increasing the casting time (if a spontaneous caster). To do so, she must attempt a caster level check with a DC equal to 10 + the spell's level + 5 for every increase in spell level the metamagic feat would normally cause. If she succeeds, her spell gains the metamagic feat's benefit and she causes a wild magic surge. If she fails, she still rolls on Table 4-4, but subtracts from the result a number equal to the amount by which she failed the check."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -2889,7 +2889,7 @@
 		"subtitle": "Spellcasting Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/148}",
+			"‹SOURCE Pathfinder Unchained/148›",
 			"",
 			"Under the core rules, a spellcaster is largely passive when resolving the effects of her spells. She announces which spell she's casting, and the targets roll their saves in response. Compare this with attacks, where the attacker rolls all the dice. The following variants help spellcasters feel more involved in the resolution of spells."
 		],
@@ -2914,15 +2914,15 @@
 		"subtitle": "Active Spellcasting, Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/148}",
+			"‹SOURCE Pathfinder Unchained/148›",
 			"",
 			"Using the overclocked spells variant, confident spellcasters can attempt to weave more power into their spells as they cast them. This is not without risk: deviating from the stable, standard formulation of the spell risks collapse of the spell and the magical energy therein.",
 			"",
 			"As a swift action while casting a spell, a spellcaster can attempt to increase either the spell's DC or her caster level for the spell. She must attempt a Spellcraft check with a DC equal to 15 + the spell's level + the minimum caster level of that spell for her class. If she succeeds, she can increase either her caster level or the DC of the spell by 2. If she fails, the spell is not cast and she loses the prepared spell or spell slot. If she fails the Spellcraft check by 5 or more, she also suffers a mishap, similar to a [scroll mishap](rule/scrolls).",
 			"",
-			"@HL[With Limited Magic:] If you are using the {rule/limited magic/ rules}, instead of increasing the caster level or DC by 2 on a successfully overclocked spell, instead allow the caster to gain the standard benefits of her full caster level and ability scores.",
+			"@HL[With Limited Magic:] If you are using the ‹rule/limited magic« rules›, instead of increasing the caster level or DC by 2 on a successfully overclocked spell, instead allow the caster to gain the standard benefits of her full caster level and ability scores.",
 			"",
-			"@HL[With Spell Fumbles:] Apply the results of a {rule/spell fumble>s} in place of a mishap."
+			"@HL[With Spell Fumbles:] Apply the results of a ‹rule/spell fumble<s› in place of a mishap."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -2941,11 +2941,11 @@
 		"subtitle": "Active Spellcasting, Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/148}",
+			"‹SOURCE Pathfinder Unchained/148›",
 			"",
-			"When casting a spell or using a magical effect that allows a saving throw, the caster makes a spell attack roll, rolling 1d20 with a bonus equal to her spellcasting ability modifier plus the spell's level. Any bonuses that would normally make the spell more difficult to avoid (such as the {feat/Spell Focus} feat) also apply. The DC of this roll is equal to 11 + the target's relevant save bonus. If the caster succeeds, treat the spell or effect as if the target had failed its save. Otherwise, treat it as if the target succeeded at its save. Just like an ordinary attack roll, a natural 1 is an automatic failure, while a natural 20 is an automatic success. This rule does not change the chances of success; it just changes who is rolling the die.",
+			"When casting a spell or using a magical effect that allows a saving throw, the caster makes a spell attack roll, rolling 1d20 with a bonus equal to her spellcasting ability modifier plus the spell's level. Any bonuses that would normally make the spell more difficult to avoid (such as the ‹feat/Spell Focus› feat) also apply. The DC of this roll is equal to 11 + the target's relevant save bonus. If the caster succeeds, treat the spell or effect as if the target had failed its save. Otherwise, treat it as if the target succeeded at its save. Just like an ordinary attack roll, a natural 1 is an automatic failure, while a natural 20 is an automatic success. This rule does not change the chances of success; it just changes who is rolling the die.",
 			"",
-			"For example, a wizard with an Intelligence score of 18 casts {spell/charm person} on an orc guard. Normally, the orc would attempt a DC 15 Will saving throw (10 + 1 for a 1st-level spell + 4 for the wizard's Intelligence bonus). Since the orc's Will save modifier is -1, he has to roll a 16 to succeed, and thus will fail his save 80% of the time. Under the spell attack roll rules, rather than the orc attempting a Will save, the wizard makes a spell attack roll with a +5 bonus (the spell's DC of 15 - 10) against a DC of 10 (11 + the orc's -1 Will save modifier). The wizard has to roll at least a 5 to succeed, so he still affects his target 80% of the time.",
+			"For example, a wizard with an Intelligence score of 18 casts ‹spell/charm person› on an orc guard. Normally, the orc would attempt a DC 15 Will saving throw (10 + 1 for a 1st-level spell + 4 for the wizard's Intelligence bonus). Since the orc's Will save modifier is -1, he has to roll a 16 to succeed, and thus will fail his save 80% of the time. Under the spell attack roll rules, rather than the orc attempting a Will save, the wizard makes a spell attack roll with a +5 bonus (the spell's DC of 15 - 10) against a DC of 10 (11 + the orc's -1 Will save modifier). The wizard has to roll at least a 5 to succeed, so he still affects his target 80% of the time.",
 			"",
 			"This variant puts more dice in the hands of the players. Consider running NPC spellcasters under the core rules instead, so that players can feel responsible for their own saves. It's usually easiest for the player to write down the spell attack roll bonus for each level.",
 			"",
@@ -2968,15 +2968,15 @@
 		"subtitle": "Active Spellcasting, Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/149}",
+			"‹SOURCE Pathfinder Unchained/149›",
 			"",
-			"Spells that require attack rolls follow the standard critical hit rules as described in the Core Rulebook. With this variant, spells that require a saving throw gain the same benefit. If a creature rolls a natural 1 on its saving throw, the spell threatens a critical hit. That creature rolls the save again, and if it fails on this second roll, the critical hit is confirmed, and any numeric effect of the spell is doubled. For spells that lack a direct numeric effect, such as {spell/charm person}, the duration is doubled instead. A spell that requires both an attack roll and a saving throw (such as {spell/ray of enfeeblement}) can threaten a critical hit only on the attack roll.",
+			"Spells that require attack rolls follow the standard critical hit rules as described in the Core Rulebook. With this variant, spells that require a saving throw gain the same benefit. If a creature rolls a natural 1 on its saving throw, the spell threatens a critical hit. That creature rolls the save again, and if it fails on this second roll, the critical hit is confirmed, and any numeric effect of the spell is doubled. For spells that lack a direct numeric effect, such as ‹spell/charm person›, the duration is doubled instead. A spell that requires both an attack roll and a saving throw (such as ‹spell/ray of enfeeblement›) can threaten a critical hit only on the attack roll.",
 			"",
 			"The GM is encouraged to apply other types of doubling where appropriate. For instance, a poison spell might afflict a target with 2 doses of poison on a critical hit instead of doubling the effect of the poison.",
 			"",
-			"@HL[With Spell Attack Rolls:] This rule combines well with the {rule/spell attack roll/ rule>s}. If you roll a natural 20 on your spell attack roll, you threaten a critical hit, then roll the attack roll again to confirm the critical. Avoid the faster variant of spell attack rolls if you're also using spell critical hits, or at the very least roll to confirm each one separately.",
+			"@HL[With Spell Attack Rolls:] This rule combines well with the ‹rule/spell attack roll« rule<s›. If you roll a natural 20 on your spell attack roll, you threaten a critical hit, then roll the attack roll again to confirm the critical. Avoid the faster variant of spell attack rolls if you're also using spell critical hits, or at the very least roll to confirm each one separately.",
 			"",
-			"@HL[With Spell Fumbles:] This system is meant to be used in a campaign alongside the {rule/spell fumbles/ variant}, though the two can be used separately."
+			"@HL[With Spell Fumbles:] This system is meant to be used in a campaign alongside the ‹rule/spell fumbles« variant›, though the two can be used separately."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -2995,7 +2995,7 @@
 		"subtitle": "Active Spellcasting, Alterations",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/149}",
+			"‹SOURCE Pathfinder Unchained/149›",
 			"",
 			"Spells have a chance to automatically miss, just like any other attack. Normally, this is represented by the target rolling a natural 20 on its save. However, you might be interested in a more dramatic \"fumble\" result. If an enemy rolls a natural 20 on its save, it rolls the save again. If it succeeds at the second save, then the spell was fumbled, resulting in an accident similar to a scroll mishap. Roll 1d10 and consult Table 4-6: Spell Fumbles. You can fumble only once per spell cast. If more than one target rolls a 20, only the first target rolls to confirm the fumble.",
 			"",
@@ -3016,9 +3016,9 @@
 			"",
 			"@HL[With the Critical Fumble Deck:] If you're using the *Pathfinder Cards: Critical Fumble Deck* in your game, draw a fumble card and apply the Magic result instead of rolling on the fumble table. You can use the Critical Fumble Deck for spell fumbles in your game even if you aren't using it to add other fumbles.",
 			"",
-			"@HL[With Wild Magic:] You can use {rule/Table 4-4: |Wild Magic/ Surge} instead of Table 4-6: Spell Fumbles. If you use that table, roll 1d20 instead of d%.",
+			"@HL[With Wild Magic:] You can use ‹rule/Table 4-4: »Wild Magic« Surge› instead of Table 4-6: Spell Fumbles. If you use that table, roll 1d20 instead of d%.",
 			"",
-			"@HL[With Spell Attack Rolls:] When using the {rule/spell attack roll/ variant>s}, a fumble might occur if you roll a natural 1 on the attack roll. Roll the attack roll a second time - if it would miss again, the spell has fumbled."
+			"@HL[With Spell Attack Rolls:] When using the ‹rule/spell attack roll« variant<s›, a fumble might occur if you roll a natural 1 on the attack roll. Roll the attack roll a second time - if it would miss again, the spell has fumbled."
 		],
 		"parent_topics": [
 			"optional_subsystems",
@@ -3036,7 +3036,7 @@
 		"name": "Stamina and Combat Tricks",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/112}",
+			"‹SOURCE Pathfinder Unchained/112›",
 			"",
 			"While magic deals with complex formulae, precise manipulation of components, and intense concentration, martial acumen often relies on seizing opportunities and pushing the body and the will to carve a path to victory on the battlefield. Those who make their way in the world by skill at arms know that the determination to test the limits of endurance often separates the living from the dead and the vanquished from the victorious.",
 			"",
@@ -3044,11 +3044,11 @@
 			"",
 			"There are several ways you can implement this system in your game.",
 			"",
-			"@HL[Feat Access:] The easiest way to introduce stamina and combat tricks into your game is to grant access to the {feat/Combat Stamina} feat, detailed below. This allows those taking the feat to opt into the system, gain a stamina pool, and use stamina to increase the utility of combat feats and class features they already have or will gain in the future. In general, the Combat Stamina feat is quite strong for martial characters with a variety of combat feats.",
+			"@HL[Feat Access:] The easiest way to introduce stamina and combat tricks into your game is to grant access to the ‹feat/Combat Stamina› feat, detailed below. This allows those taking the feat to opt into the system, gain a stamina pool, and use stamina to increase the utility of combat feats and class features they already have or will gain in the future. In general, the Combat Stamina feat is quite strong for martial characters with a variety of combat feats.",
 			"",
-			"@HL[Free for Fighters:] If your goal is to provide an additional edge to the {class/fighter} class, you can allow fighters to gain the Combat Stamina feat as an additional bonus feat at 1st level.",
+			"@HL[Free for Fighters:] If your goal is to provide an additional edge to the ‹class/fighter› class, you can allow fighters to gain the Combat Stamina feat as an additional bonus feat at 1st level.",
 			"",
-			"@HL[Fighter Bonus Feats Only:] If you want to significantly strengthen fighters compared to all other classes and keep this system as a special fighter-only perk, you can restrict the Combat Stamina feat to fighters and limit the feats a character can use with his stamina pool to those gained with the fighter's bonus feats. A multiclass fighter can't use stamina with bonus feats he gained from any other class, even if that class can take fighter-only feats as bonus feats (like the {class/warpriest} and the {class/swashbuckler}). In this version, if a character really wants the stamina ability of a few key feats, he will need to diversify his martial training by taking a level in fighter.",
+			"@HL[Fighter Bonus Feats Only:] If you want to significantly strengthen fighters compared to all other classes and keep this system as a special fighter-only perk, you can restrict the Combat Stamina feat to fighters and limit the feats a character can use with his stamina pool to those gained with the fighter's bonus feats. A multiclass fighter can't use stamina with bonus feats he gained from any other class, even if that class can take fighter-only feats as bonus feats (like the ‹class/warpriest› and the ‹class/swashbuckler›). In this version, if a character really wants the stamina ability of a few key feats, he will need to diversify his martial training by taking a level in fighter.",
 			"",
 			"@HL[Free for Everyone:] If your goal is to immediately boost all martial characters and the whole group is ready to handle the stamina and combat tricks system, you can grant Combat Stamina as an additional bonus feat for all martial characters, or even for all characters.",
 			"",
@@ -3084,13 +3084,13 @@
 		"name": "Combat Stamina",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
-			"{SOURCE Pathfinder Unchained/112}",
+			"‹SOURCE Pathfinder Unchained/112›",
 			"",
 			"When you have an ability that grants you stamina points, you gain a stamina pool with a maximum number of stamina points equal to your base attack bonus + your Constitution modifier. During combat, you can spend stamina points from this pool to perform a combat trick, the specific effects of which are dictated by a combat feat you possess. Spending stamina points in this way is not an action, but you can't do so if you are unconscious, fatigued, or exhausted. You can use as many combat tricks on the same action or attack as you like (as long as you have the stamina points to spend), but you can't use the same combat trick twice within its scope. For instance, if you have a combat trick that affects a single attack, you can't use that combat trick more than once on the same attack.",
 			"",
 			"Dropping to 0 stamina points causes you to become fatigued until you have 1 or more points in your stamina pool.",
 			"",
-			"Temporary increases to your Constitution score, such as those granted by the core {class/barbarian/'s} rage class feature or {spell/bear's endurance}, do not increase the number of stamina points in your pool or your pool's maximum number of stamina points. However, permanent increases to Constitution, such as the bonus granted by a {magic-wondrous/belt of mighty constitution} worn for more than 24 hours, do adjust your stamina points.",
+			"Temporary increases to your Constitution score, such as those granted by the core ‹class/barbarian«'s› rage class feature or ‹spell/bear's endurance›, do not increase the number of stamina points in your pool or your pool's maximum number of stamina points. However, permanent increases to Constitution, such as the bonus granted by a ‹magic-wondrous/belt of mighty constitution› worn for more than 24 hours, do adjust your stamina points.",
 			"",
 			"You regain stamina points by resting for short periods of time. You don't have to sleep while resting in this way, but you can't exert yourself. You stop regaining stamina points if you enter combat; take an action that requires a Strength-, Dexterity-, or Constitution-based skill check or an ability check tied to one of those ability scores; or take more than one move action or standard action in a round (you can still take free, immediate, and swift actions). This reduction in your number of actions per round also effectively halves your overland speed. For each uninterrupted minute you rest in this way, you regain 1 stamina point. If you are suffering from any of the following conditions, you can't regain stamina points: confused, cowering, dazed, dead, disabled, exhausted, fascinated, frightened, helpless, nauseated, panicked, paralyzed, petrified, shaken, sickened, staggered, or stunned."
 		],
@@ -3104,7 +3104,7 @@
 		"name": "Undead Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
-			"{SOURCE Blood of the Night/22}  ",
+			"‹SOURCE Blood of the Night/22›  ",
 			"\"Hunger\" is perhaps a misleading term to describe a vampire's lust for flesh, consciousness, or youth. As unliving things, they technically require no sustenance, and yet ravenousness is often considered a key characteristic of those who walk without life. In truth, this desire is driven not by need, but by psychological greed. Feasting grants the undead no physical nourishment, but does fill them with a pleasure and power they can't attain by any other means. For undead, the act of feeding can be likened to that of an addict satiating her inner demon.",
 			"",
 			"The basest monsters pursue their addiction to the exclusion of anything else, but vampires and other greater undead are closer to functioning addicts - simultaneously managing their hunger and their more high-minded schemes. If denied living nectar for too long, however, even the sharpest creatures hurl themselves at whichever warm, soft parts of the living they most covet.",
@@ -3143,7 +3143,7 @@
 		"subtitle": "Undead Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
-			"{SOURCE Blood of the Night/22}  ",
+			"‹SOURCE Blood of the Night/22›  ",
 			"For vampires, managing their hunger is an integral part of unlife. Some revel in the feast, but for others it is nothing but a constant source of stress and shame. A vampire who refuses to feed on intelligent beings is relegated to the dull taste of animal blood out of necessity, and forsakes the euphoria of a true feed.",
 			"",
 			"Some see little choice but to give in to their desires with resignation. The joy dulls and the process becomes rote, but they accept it as part of their nature and never seek to break the cycle. This is especially true of spawn still under the control of their creator, who often view their hunger as just another restriction on their freedom.",
@@ -3168,10 +3168,10 @@
 		"subtitle": "Undead Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
-			"{SOURCE Blood of the Night/22}  ",
+			"‹SOURCE Blood of the Night/22›  ",
 			"Where the living suffer physically from starvation, undead suffer mentally. After long enough without a \"meal,\" even the most arrogant vampire becomes a bestial creature of instinct. Withdrawal weakens the monster, and as its natural defenses fail, its behavior becomes irrational, particularly when it's around sources of what it is denied or has denied itself.",
 			"",
-			"A carnivorous or otherwise life-draining undead may safely go a number of days equal to its Hit Dice without a dose of its preferred meal before it starts to feel the effects of hunger. Each additional day after this grace period, the undead must make a Will save (DC 10 + 1/2 the undead creature's Hit Dice, + 1 for each previous check). If the undead creature fails its save, it enters withdrawal and begins to take penalties according to the [Withdrawal Penalties table](rule/withdrawal_effects). It must continue to save each day until it feeds again. Additional failed checks increase the penalties as shown on the table. Feats and abilities that affect mortal hunger (such as {feat/Endurance} or a {magic-ring/ring of sustenance}) do not apply to vampire hunger.",
+			"A carnivorous or otherwise life-draining undead may safely go a number of days equal to its Hit Dice without a dose of its preferred meal before it starts to feel the effects of hunger. Each additional day after this grace period, the undead must make a Will save (DC 10 + 1/2 the undead creature's Hit Dice, + 1 for each previous check). If the undead creature fails its save, it enters withdrawal and begins to take penalties according to the [Withdrawal Penalties table](rule/withdrawal_effects). It must continue to save each day until it feeds again. Additional failed checks increase the penalties as shown on the table. Feats and abilities that affect mortal hunger (such as ‹feat/Endurance› or a ‹magic-ring/ring of sustenance›) do not apply to vampire hunger.",
 			"",
 			"An undead that is suffering from withdrawal grows increasingly drawn and gaunt (or diaphanous and tattered, for incorporeal undead). Any attempts by the creature to conceal its undead nature with the Disguise skill are penalized as noted on the table.",
 			"",
@@ -3193,7 +3193,7 @@
 		"subtitle": "Undead Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
-			"{SOURCE Blood of the Night/22}  ",
+			"‹SOURCE Blood of the Night/22›  ",
 			"An undead that hasn't fed recently suffers from withdrawal, depending on the number of hunger saves it has failed. As shown on the Withdrawal Penalties table, an undead creature suffering from withdrawal takes penalties to channel resistance, on Will saves, to Strength and Charisma scores, to damage reduction, to fast healing, and on Disguise checks. The withdrawal penalties apply only if the creature has the ability in question. For example, a hungry moroi's damage reduction decreases, but a hungry ghoul ignores that column because it doesn't have damage reduction. All penalties are removed when the creature completes a single feeding. This only ends the withdrawal penalties, and does not grant the creature any feeding bonuses beyond those granted by the creature's ability associated with feeding.",
 			"",
 			"If the undead's Strength or Charisma penalties equal its Strength or Charisma, it becomes inert, helpless, and wracked by nightmares of hunger; it only revives if fed by another. An undead creature's channel resistance, damage reduction, and fast healing cannot fall below 0.",
@@ -3229,7 +3229,7 @@
 		"subtitle": "Undead Hunger",
 		"sources": [ "Blood of the Night" ],
 		"description": [
-			"{SOURCE Blood of the Night/23}  ",
+			"‹SOURCE Blood of the Night/23›  ",
 			"What constitutes a feeding differs for each undead creature according to its own addiction. For creatures with a blood drain, level drain, or ability drain ability, each use of that ability counts as a feeding. Hungering creatures that lack a drain ability, such as zombies and ghouls, count consuming 1 pound of flesh as feeding (larger and smaller undead require proportionately more or less flesh). For these creatures, the flesh of a creature that has been dead for more than 1 hour staves off withdrawal but does not grant any other benefits, such as feeding bonuses (see below).",
 			"",
 			"If an undead creature can sate its hunger by feeding on a living creature with an Intelligence score of 5 or higher, it gains the following benefits from the feeding. These benefits are in addition to any listed in the creature's feeding-related ability.",

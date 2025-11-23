@@ -5,17 +5,17 @@
 		"description": [
 			"## Grabbing Vines",
 			"",
-			"{SOURCE Ultimate Wilderness/248}  ",
+			"‹SOURCE Ultimate Wilderness/248›  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 2,000 gp; **Weight** 50 lbs.",
 			"",
-			"These thick green vines grow leaves sparingly. When fully mature, they fill an area 20 feet square to a height of 5 feet. Any creature moving through the area must attempt a DC 15 Strength check in the first square they try to leave within the area. Failure means that the creature cannot move any farther that round. Success allows a creature to move as if in {rule/difficult terrain}, while success by 5 or more allows a creature to move normally.",
+			"These thick green vines grow leaves sparingly. When fully mature, they fill an area 20 feet square to a height of 5 feet. Any creature moving through the area must attempt a DC 15 Strength check in the first square they try to leave within the area. Failure means that the creature cannot move any farther that round. Success allows a creature to move as if in ‹rule/difficult terrain›, while success by 5 or more allows a creature to move normally.",
 			"",
 			"Grabbing vines have a 13-week growing season, though the season depends on when the vines were first cultivated; the grabbing vines return for 13 weeks during the same season each year.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/entangle}, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/entangle›, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,000 gp"
 		]
 	},
 	"tree_of_knowledge": {
@@ -24,7 +24,7 @@
 		"description": [
 			"## Tree of Knowledge",
 			"",
-			"{SOURCE Ultimate Wilderness/250}  ",
+			"‹SOURCE Ultimate Wilderness/250›  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** none; **Price** 3,000 gp; **Weight** 500 lbs.",
 			"",
@@ -34,7 +34,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/augury}, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,500 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/augury›, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,500 gp"
 		]
 	},
 	"restful_birch": {
@@ -43,11 +43,11 @@
 		"description": [
 			"## Restful Birch",
 			"",
-			"{SOURCE Ultimate Wilderness/249}  ",
+			"‹SOURCE Ultimate Wilderness/249›  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 4,000 gp; **Weight** 500 lbs.",
 			"",
-			"This tree's papery bark flakes off in strips. When a creature consumes a piece of the bark, it reduces the amount of sleep it needs that night by 2 hours (to a minimum of 6 hours). If the creature consumes additional pieces of bark, it is {misc/sickened} for 8 hours and gains no additional benefit.",
+			"This tree's papery bark flakes off in strips. When a creature consumes a piece of the bark, it reduces the amount of sleep it needs that night by 2 hours (to a minimum of 6 hours). If the creature consumes additional pieces of bark, it is ‹misc/sickened› for 8 hours and gains no additional benefit.",
 			"",
 			"The bark's potency is increased if it's brewed into a tea. A piece of bark brewed into a tea reduces the amount of sleep the imbiber needs by 4 hours (to a minimum of 4 hours). The tea of the restful birch is considerably safer than consuming the bark raw - multiple doses grant no additional benefit but also cause no penalties.",
 			"",
@@ -55,7 +55,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/sleep}, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/sleep›, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,000 gp"
 		]
 	},
 	"fireapple_tree": {
@@ -64,17 +64,17 @@
 		"description": [
 			"## Fireapple Tree",
 			"",
-			"{SOURCE Ultimate Wilderness/248}  ",
+			"‹SOURCE Ultimate Wilderness/248›  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 500 lbs.",
 			"",
-			"This large deciduous tree has reddish-brown bark and bright yellow leaves. It grows misshapen red apples that are warm to the touch. Once harvested, an apple can be thrown like a bomb, bursting in a spray of scalding liquid. Treat this as a {rule/splash weapon} that deals 5d6 points of fire damage to a target directly hit and half that amount to creatures within 10 feet (Reflex DC 14 negates).",
+			"This large deciduous tree has reddish-brown bark and bright yellow leaves. It grows misshapen red apples that are warm to the touch. Once harvested, an apple can be thrown like a bomb, bursting in a spray of scalding liquid. Treat this as a ‹rule/splash weapon› that deals 5d6 points of fire damage to a target directly hit and half that amount to creatures within 10 feet (Reflex DC 14 negates).",
 			"",
 			"A fireapple tree produces one apple each week of its growing season, which is 13 weeks each summer. A tree has no more than three viable fruit at a time.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/fireball}, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,500 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/fireball›, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,500 gp"
 		]
 	},
 	"cleanthistle": {
@@ -83,17 +83,17 @@
 		"description": [
 			"## Cleanthistle",
 			"",
-			"{SOURCE Wilderness Origins/16}  ",
+			"‹SOURCE Wilderness Origins/16›  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 7,200 gp; **Weight** 50 lbs.",
 			"",
-			"The needles of this bitter, black herb grow in Numeria and are used to alleviate the effects of {rule/radiation/ poisoning}. A creature that drinks tea made from the needles of cleanthistle is affected by a *neutralize poison* effect (CL 9th) except that the effect can neutralize only the oldest poison affecting the creature.",
+			"The needles of this bitter, black herb grow in Numeria and are used to alleviate the effects of ‹rule/radiation« poisoning›. A creature that drinks tea made from the needles of cleanthistle is affected by a *neutralize poison* effect (CL 9th) except that the effect can neutralize only the oldest poison affecting the creature.",
 			"",
 			"A cleanthistle stalk has a single 26-week growing period, through spring and summer. During this period, enough needles for a single dose of tea regrow 4 days after being harvested. The needles remain potent enough to brew for 1 week after being harvested.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/neutralize poison}, cultivator must have 5 ranks in Knowledge (nature); **Cost** 3,600 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/neutralize poison›, cultivator must have 5 ranks in Knowledge (nature); **Cost** 3,600 gp"
 		]
 	},
 	"goodberry_bush": {
@@ -102,17 +102,17 @@
 		"description": [
 			"## Goodberry Bush",
 			"",
-			"{SOURCE Ultimate Wilderness/248}  ",
+			"‹SOURCE Ultimate Wilderness/248›  ",
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 50 lbs.",
 			"",
-			"This vibrant red bush grows luscious, deep-red berries. These berries provide nourishment and healing as if the creature had consumed a berry affected by *goodberry.* A creature can gain the effects of *goodberry* up to eight berries consumed per day. A creature that eats more than this number must succeed at a DC 11 Fortitude save or become {misc/sickened} for 10 minutes.",
+			"This vibrant red bush grows luscious, deep-red berries. These berries provide nourishment and healing as if the creature had consumed a berry affected by *goodberry.* A creature can gain the effects of *goodberry* up to eight berries consumed per day. A creature that eats more than this number must succeed at a DC 11 Fortitude save or become ‹misc/sickened› for 10 minutes.",
 			"",
 			"A goodberry bush produces up to six berries per day, and it grows year round. A bush has no more than 50 berries at a time. It is resilient enough to grow in most environments, even occasionally found clinging to otherwise lifeless cliff faces.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/goodberry}, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/goodberry›, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
 		]
 	},
 	"salvation_cactus": {
@@ -121,17 +121,17 @@
 		"description": [
 			"## Salvation Cactus",
 			"",
-			"{SOURCE Ultimate Wilderness/249}  ",
+			"‹SOURCE Ultimate Wilderness/249›  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 50 lbs.",
 			"",
-			"This green cactus grows in even the most arid environments, and it has a number of medicinal qualities. Its flowers can be mashed into a paste and spread over a creature's skin to grant fire resistance 3 for 1 hour. This paste can also be spread on the skin of a creature that has taken lethal fire damage within the last minute to restore 1d8+1 hit points. The fluids of the cactus can be consumed to remove negative effects caused by {rule/extreme |heat}, including exhaustion, fatigue, and nonlethal damage. This does not heal any lethal damage a creature has taken from extreme heat.",
+			"This green cactus grows in even the most arid environments, and it has a number of medicinal qualities. Its flowers can be mashed into a paste and spread over a creature's skin to grant fire resistance 3 for 1 hour. This paste can also be spread on the skin of a creature that has taken lethal fire damage within the last minute to restore 1d8+1 hit points. The fluids of the cactus can be consumed to remove negative effects caused by ‹rule/extreme »heat›, including exhaustion, fatigue, and nonlethal damage. This does not heal any lethal damage a creature has taken from extreme heat.",
 			"",
 			"A salvation cactus generates one flower per week of its growing period and replenishes 1 dose of its fluid per day. It holds 4 doses of fluid and up to four flowers at a time. If all 4 doses of fluid are consumed without allowing the cactus to replenish any, the cactus dies. A salvation cactus has a growing season of 13 weeks in the summer.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/cure light wounds}, {spell/lesser restoration}, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/cure light wounds›, ‹spell/lesser restoration›, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
 		]
 	},
 	"palm_of_decadent_feasts": {
@@ -140,7 +140,7 @@
 		"description": [
 			"## Palm of Decadent Feasts",
 			"",
-			"{SOURCE Ultimate Wilderness/249}  ",
+			"‹SOURCE Ultimate Wilderness/249›  ",
 			"**Aura** strong conjuration; **CL** 11th  ",
 			"**Slot** none; **Price** 9,600 gp; **Weight** 500 lbs.",
 			"",
@@ -150,7 +150,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/heroes' feast}, cultivator must have 6 ranks in Knowledge (nature); **Cost** 4,800 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/heroes' feast›, cultivator must have 6 ranks in Knowledge (nature); **Cost** 4,800 gp"
 		]
 	},
 	"breezeblown_dandelion": {
@@ -159,17 +159,17 @@
 		"description": [
 			"## Breezeblown Dandelion",
 			"",
-			"{SOURCE Ultimate Wilderness/25}  ",
+			"‹SOURCE Ultimate Wilderness/25›  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 5 lbs.",
 			"",
-			"This broad-stalked shrub branches into dozens of oversized dandelion flowers. A Small or smaller creature weighing less than 50 pounds can use a flower as a move action to slow her fall to a rate of 10 feet per round. While she is so slowed, the flower also carries her in the direction of the wind. Light winds carry her 10 feet, moderate winds carry her 20 feet, strong winds carry her 50 feet, and severe winds carry her 100 feet. If a flower is exposed to {rule/winds} of windstorm strength or greater, all of its seeds immediately blow away and the dandelion provides no further benefit. The benefits also end after 4 minutes or once the bearer hits the ground, whichever comes first.",
+			"This broad-stalked shrub branches into dozens of oversized dandelion flowers. A Small or smaller creature weighing less than 50 pounds can use a flower as a move action to slow her fall to a rate of 10 feet per round. While she is so slowed, the flower also carries her in the direction of the wind. Light winds carry her 10 feet, moderate winds carry her 20 feet, strong winds carry her 50 feet, and severe winds carry her 100 feet. If a flower is exposed to ‹rule/winds› of windstorm strength or greater, all of its seeds immediately blow away and the dandelion provides no further benefit. The benefits also end after 4 minutes or once the bearer hits the ground, whichever comes first.",
 			"",
 			"The plant produces one dandelion every day during its 13-week growing period during the spring, to a maximum of 20 dandelions at any one time. Unlike many magical plants, the fluffy blooms of the breezeblown dandelion remain potent until used.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/glide}; **Cost** 5,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/glide›; **Cost** 5,000 gp"
 		]
 	},
 	"ghostblossom": {
@@ -178,17 +178,17 @@
 		"description": [
 			"## Ghostblossom",
 			"",
-			"{SOURCE Wilderness Origins/16}  ",
+			"‹SOURCE Wilderness Origins/16›  ",
 			"**Aura** moderate enchantment; **CL** 10th  ",
 			"**Slot** none; **Price** 10,500 gp; **Weight** 50 lbs.",
 			"",
-			"The eyes of those who chew these pale white flowers widen and turn a milky white. The flowers send the user into a furious rage similar to that of a {class/barbarian}, granting a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a -2 penalty to AC. These effects remain active for as long as she chews the flower, up to 1 minute. A creature can begin chewing ghostblossom as a move action and can continue to chew as a free action every round.",
+			"The eyes of those who chew these pale white flowers widen and turn a milky white. The flowers send the user into a furious rage similar to that of a ‹class/barbarian›, granting a +2 morale bonus to Strength and Constitution, a +1 morale bonus on Will saves, and a -2 penalty to AC. These effects remain active for as long as she chews the flower, up to 1 minute. A creature can begin chewing ghostblossom as a move action and can continue to chew as a free action every round.",
 			"",
 			"A ghostblossom vine flowers once daily through a single 13-week growing period every summer.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/rage}, cultivator must have 3 ranks in Knowledge (nature); **Cost** 5,250 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/rage›, cultivator must have 3 ranks in Knowledge (nature); **Cost** 5,250 gp"
 		]
 	},
 	"acidic_lemon_tree": {
@@ -197,7 +197,7 @@
 		"description": [
 			"## Acidic Lemon Tree",
 			"",
-			"{SOURCE Ultimate Wilderness/248}  ",
+			"‹SOURCE Ultimate Wilderness/248›  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 500 lbs.",
 			"",
@@ -207,7 +207,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/acid arrow}, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/acid arrow›, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
 		]
 	},
 	"altitude_fern": {
@@ -216,7 +216,7 @@
 		"description": [
 			"## Altitude Fern",
 			"",
-			"{SOURCE Ultimate Wilderness/248}  ",
+			"‹SOURCE Ultimate Wilderness/248›  ",
 			"**Aura** moderate abjuration; **CL** 6th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 50 lbs.",
 			"",
@@ -226,7 +226,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/endure elements}, cultivator must have 3 ranks in Knowledge (nature); **Cost** 6,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/endure elements›, cultivator must have 3 ranks in Knowledge (nature); **Cost** 6,000 gp"
 		]
 	},
 	"helping_hands_vine": {
@@ -235,7 +235,7 @@
 		"description": [
 			"## Helping Hands Vine",
 			"",
-			"{SOURCE Ultimate Wilderness/249}  ",
+			"‹SOURCE Ultimate Wilderness/249›  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 50 lbs.",
 			"",
@@ -245,7 +245,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/feather fall}, {spell/spider climb}, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/feather fall›, ‹spell/spider climb›, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
 		]
 	},
 	"sheltershrub": {
@@ -254,7 +254,7 @@
 		"description": [
 			"## Sheltershrub",
 			"",
-			"{SOURCE Ultimate Wilderness/250}  ",
+			"‹SOURCE Ultimate Wilderness/250›  ",
 			"**Aura** faint abjuration; **CL** 1st  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 50 lbs.",
 			"",
@@ -264,7 +264,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/endure elements}, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/endure elements›, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
 		]
 	},
 	"gravebane_petals": {
@@ -273,17 +273,17 @@
 		"description": [
 			"## Gravebane Petals",
 			"",
-			"{SOURCE Wilderness Origins/16}  ",
+			"‹SOURCE Wilderness Origins/16›  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** none; **Price** 16,000 gp; **Weight** 50 lbs.",
 			"",
-			"When packed tightly within the mouth of a corpse or undead creature, the deep red petals of the gravebane flower prevent any decay, as if the corpse were under the effects of {spell/gentle repose}, and they completely mask any stench with a sickly sweet fragrance. These effects persist for 1 month.",
+			"When packed tightly within the mouth of a corpse or undead creature, the deep red petals of the gravebane flower prevent any decay, as if the corpse were under the effects of ‹spell/gentle repose›, and they completely mask any stench with a sickly sweet fragrance. These effects persist for 1 month.",
 			"",
 			"A single bush grows one new flower each day, and it takes 1 month to accumulate enough gravebane petals to preserve a single corpse. The plant has a 52-week growing period.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/rage}, cultivator must have 3 ranks in Knowledge (nature); **Cost** 8,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/rage›, cultivator must have 3 ranks in Knowledge (nature); **Cost** 8,000 gp"
 		]
 	},
 	"tree_of_woe": {
@@ -292,7 +292,7 @@
 		"description": [
 			"## Tree of Woe",
 			"",
-			"{SOURCE Ultimate Wilderness/250}  ",
+			"‹SOURCE Ultimate Wilderness/250›  ",
 			"**Aura** strong enchantment; **CL** 11th  ",
 			"**Slot** none; **Price** 20,000 gp; **Weight** 500 lbs.",
 			"",
@@ -302,7 +302,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/charm monster}, {spell/zone of truth}, cultivator must have 6 ranks in Knowledge (nature); **Cost** 10,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/charm monster›, ‹spell/zone of truth›, cultivator must have 6 ranks in Knowledge (nature); **Cost** 10,000 gp"
 		]
 	},
 	"ambrosial_lotus": {
@@ -311,17 +311,17 @@
 		"description": [
 			"## Ambrosial Lotus",
 			"",
-			"{SOURCE Wilderness Origins/16}  ",
+			"‹SOURCE Wilderness Origins/16›  ",
 			"**Aura** strong enchantment; **CL** 12th  ",
 			"**Slot** none; **Price** 25,000 gp; **Weight** 50 lbs.",
 			"",
-			"A creature who consumes an ambrosial lotus must succeed at a DC 17 Will save or be overtaken by such a state of total bliss so as to be almost oblivious to the world around him. The creature's Intelligence and Charisma scores drop to 1, and the creature can no longer cast spells, understand language, or communicate. These effects are permanent unless removed with a {spell/heal}, {spell/limited wish}, {spell/miracle}, or {spell/wish} spell.",
+			"A creature who consumes an ambrosial lotus must succeed at a DC 17 Will save or be overtaken by such a state of total bliss so as to be almost oblivious to the world around him. The creature's Intelligence and Charisma scores drop to 1, and the creature can no longer cast spells, understand language, or communicate. These effects are permanent unless removed with a ‹spell/heal›, ‹spell/limited wish›, ‹spell/miracle›, or ‹spell/wish› spell.",
 			"",
 			"An ambrosial lotus stalk grows one flower per day during its 13-week growing period in spring.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/feeblemind}, cultivator must have 10 ranks in Knowledge (nature); **Cost** 12,500 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/feeblemind›, cultivator must have 10 ranks in Knowledge (nature); **Cost** 12,500 gp"
 		]
 	},
 	"fishweed": {
@@ -330,7 +330,7 @@
 		"description": [
 			"## Fishweed",
 			"",
-			"{SOURCE Ultimate Wilderness/248}  ",
+			"‹SOURCE Ultimate Wilderness/248›  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 30,000 gp; **Weight** 50 lbs.",
 			"",
@@ -340,7 +340,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/water breathing}, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/water breathing›, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
 		]
 	},
 	"waterwalk_reeds": {
@@ -349,7 +349,7 @@
 		"description": [
 			"## Waterwalk Reeds",
 			"",
-			"{SOURCE Ultimate Wilderness/250}  ",
+			"‹SOURCE Ultimate Wilderness/250›  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 30,000 gp; **Weight** 50 lbs.",
 			"",
@@ -359,7 +359,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/water walk}, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/water walk›, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
 		]
 	},
 	"portal_oak": {
@@ -368,7 +368,7 @@
 		"description": [
 			"## Portal Oak",
 			"",
-			"{SOURCE Ultimate Wilderness/249}  ",
+			"‹SOURCE Ultimate Wilderness/249›  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 45,000 gp; **Weight** 500 lbs.",
 			"",
@@ -378,7 +378,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/tree stride}, cultivator must have 3 ranks in Knowledge (nature); **Cost** 22,500 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/tree stride›, cultivator must have 3 ranks in Knowledge (nature); **Cost** 22,500 gp"
 		]
 	},
 	"poison_siphon_tree": {
@@ -387,7 +387,7 @@
 		"description": [
 			"## Poison Siphon Tree",
 			"",
-			"{SOURCE Ultimate Wilderness/249}  ",
+			"‹SOURCE Ultimate Wilderness/249›  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 56,000 gp; **Weight** 500 lbs.",
 			"",
@@ -397,7 +397,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** {feat/Cultivate Magic Plants}, {spell/neutralize poison}, cultivator must have 3 ranks in Knowledge (nature); **Cost** 28,000 gp"
+			"**Requirements** ‹feat/Cultivate Magic Plants›, ‹spell/neutralize poison›, cultivator must have 3 ranks in Knowledge (nature); **Cost** 28,000 gp"
 		]
 	}
 }
