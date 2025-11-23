@@ -5,7 +5,7 @@ const convertEncodedInfo = (input) => {
 	let m;
 	let test = input;
 	let output = "";
-	while(m = checkForEncodedLink(test, {percent: true})) {
+	while(m = checkForEncodedLink(test)) {
 		const [pre, fulllink, text, post] = m;
 		output = output + `${pre}[${text}](${fulllink})`;
 		test = post;

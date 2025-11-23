@@ -1,38 +1,39 @@
 // Basic link format:
-//   {rule/Link text} => [Link text](rule/link_text)
+//   ‹rule/Link text› => [Link text](rule/link_text)
 // The first part, up to and including the slash, is used verbatim.
 // The rest of the text is converted to a link following these steps:
 //   All letters are converted to lowercase
 //   Spaces and dashes are turned into underscores
 //   All other non-letter, non-number, non-underscore characters are deleted
 // Advanced forms:
-//   A second slash adds to the text, not the link:
-//     {rule/Link/ plus additional text} => [Link plus additional text](rule/link)
 //   Using an actual slash in the text is possible, and it gets converted to an underscore in the link:
-//     {rule/Link//Text} => [Link/Text](rule/link_text)
-//   Using a pipe works like slash, but in reverse:
-//     {rule/Additional text |link} => [Additional text link](rule/link)
-//   Using > appends link-formatted text to the link:
-//     {rule/Link>_2} => [Link](rule/link_2)
-//   Using < prepends link-formatted text to the link:
-//     {rule/special_<Link} => [Link](rule/special_link)
-//   Using [brackets] removes text from a link, but preserves it in the text:
-//     {rule/rule[s] of cool} => [rules of cool](rule/rule_of_cool)
-//   Using «quotes» adds text to a link, but not in the text:
-//     {rule/something «with_a_»complicated>_name} => [something complicated](rule/something_with_a_complicated_name)
-// The advanced forms can be used together in the order <|/>
-//   {rule/special_<Pre |Link//Text/ Stuff>_info} => [Pre Link/Text Stuff](rule/special_link_text_info)
+//     ‹rule/Link/Text› => [Link/Text](rule/link_text)
+//   An unmatched « at the end appends to the text, not the link:
+//     ‹rule/Link« plus additional text› => [Link plus additional text](rule/link)
+//   Using an unmatched » at the beginning prepends text:
+//     ‹rule/Additional text »link› => [Additional text link](rule/link)
+//   Using an unmatched < at the end appends link-formatted text to the link:
+//     ‹rule/Link<_2› => [Link](rule/link_2)
+//   Using an unmatched > at the start prepends link-formatted text to the link:
+//     ‹rule/special_>Link› => [Link](rule/special_link)
+//   Using «angle quotes» removes text from a link, but preserves it in the text:
+//     ‹rule/rule«s» of cool› => [rules of cool](rule/rule_of_cool)
+//   Using <angle brackets> adds text to a link, but not in the text:
+//     ‹rule/something <with_a_>complicated<_name› => [something complicated](rule/something_with_a_complicated_name)
+// The advanced forms can be used together.
+//   ‹rule/special_>Pre »Link/Text« Stuff<_info› => [Pre Link/Text Stuff](rule/special_link_text_info)
 
 // Below needs to be copied to src/components/convertLinks.tsx (with Typescript) when changed
 
 const checkForEncodedLink = (input, options = {}) => {
-	const { basic, bare, percent } = options;
+	const { basic, bare } = options;
 	let m = input.match(
-		bare ? /^([-a-z_]+?)[/](.+)($)/          // [ full, protocol, matchedx ]
-		: percent ? /(^.*?)(?:\{|%%)([-a-z_]*)[/]([^}]*?)(?:\}|%%)(.*$)/  // [ full, pre, protocol, matchedx, post ]
-			: /(^.*?)\{([-a-z_]*)[/]([^}]*?)\}(.*$)/  // [ full, pre, protocol, matchedx, post ]
+		bare ? /^([-a-z_]+?)[/](.+)($)/       // [ full, protocol, matchedx ]
+		: /(^.*?)‹([-a-z_]+)[/]([^›]*)›(.*$)/ // [ full, pre, protocol, matchedx, post ]
 	);
-	const m2 = basic && input.match(/(^.*?)\[([^\]]+)\]\(([-a-z_]+)[/]([^)]+)\)(.*$)/); // [ pre, text, protocol, link, post ]
+	const m2 = basic && input.match(
+		/(^.*?)\[([^\]]+)\]\(([-a-z_]+)[/]([^)]+)\)(.*$)/
+	); // [ pre, text, protocol, link, post ]
 	if(!m && !m2) {
 		return false;
 	} else if (bare && m) {
@@ -54,39 +55,31 @@ const checkForEncodedLink = (input, options = {}) => {
 	}
 	const [, pre, protocol, matchedx, post] = m;
 	let matched = matchedx, linkpre = "", linkpost = "", textpre = "", textpost = "";
-	// pre_<link
-	if(m = matched.match(/(^.*?)<(.*$)/)) {
+	// pre_>link
+	if(m = matched.match(/(^[^<]*?)>(.*$)/)) {
 		matched = m[2];
 		linkpre = m[1];
 	}
-	// post>_link
-	if(m = matched.match(/(^.*)>(.*$)/)) {
+	// post<_link
+	if(m = matched.match(/(^.*)<([^>]*$)/)) {
 		matched = m[1];
 		linkpost = m[2];
 	}
-	// Double-slashes
-	while(m = matched.match(/(^.*?)[/]{2}(.*$)/)) {
-		matched = `${m[1]}=slAsh=${m[2]}`;
-	}
-	// Slashes in [brackets]
-	while(m = matched.match(/(^.*?\[[^\[\]]*)[/]([^\[\]]*\].*$)/)) {
-		matched = `${m[1]}=slAsh=${m[2]}`;
-	}
-	// pre|text
-	if(m = matched.match(/(^.*?)\|(.*$)/)) {
+	// pre»text
+	if(m = matched.match(/([^»]*?)»(.*$)/)) {
 		matched = m[2];
 		textpre = m[1];
 	}
-	// post/text
-	if(m = matched.match(/(^.*?)[/](.*$)/)) {
+	// post«text
+	if(m = matched.match(/(^.*?)«([^«]*$)/)) {
 		matched = m[1];
 		textpost = m[2];
 	}
-	// enclosed [extra]«link_and» text
+	// enclosed «extra»<link_and> text
 	let temp = matched;
 	let linkmatched = "";
 	matched = "";
-	while(m = temp.match(/^(.*?)(?:(?:\[|&#91[&;])(.*?)(?:\]|&#93[&;])|«(.*?)»)(.*)$/)) {
+	while(m = temp.match(/^(.*?)(?:«(.*?)»|<(.*?)>)(.*)$/)) {
 		const [, pre, extraText, extraLink, post] = m;
 		matched = matched + pre + (extraText || "");
 		linkmatched = linkmatched + pre + (extraLink || "");
@@ -94,13 +87,12 @@ const checkForEncodedLink = (input, options = {}) => {
 	}
 	matched = matched + temp;
 	linkmatched = linkmatched + temp;
-	const text = `${textpre}${matched}${textpost}`
-		.replace(/=slAsh=/g, "/");
+	const text = `${textpre}${matched}${textpost}`;
 	const property = `${linkpre}${linkmatched}${linkpost}`
-		.replace(/[- ]|=slAsh=/g, "_")
+		.replace(/[- /]/g, "_")
 		.toLowerCase()
 		.replace(/[^a-z0-9_]/g, "");
-	return [pre, `${protocol}/${property}`, text, post, protocol, property, `{${protocol}/${matchedx}}`];
+	return [pre, `${protocol}/${property}`, text, post, protocol, property, `‹${protocol}/${matchedx}›`];
 };
 
 export const convertTextToLink = (input) => {
@@ -109,35 +101,27 @@ export const convertTextToLink = (input) => {
 
 export const convertSpecialTextToLink = (input) => {
 	let m, matched = input;
-	// pre_<link
-	if(m = matched.match(/(^.*?)<(.*$)/)) {
+	// pre_>link
+	if(m = matched.match(/(^[^<]*?)>(.*$)/)) {
 		matched = m[2];
 	}
-	// post>_link
-	if(m = matched.match(/(^.*)>(.*$)/)) {
+	// post<_link
+	if(m = matched.match(/(^.*)<([^>]*$)/)) {
 		matched = m[1];
 	}
-	// Double-slashes
-	while(m = matched.match(/(^.*?)[/]{2}(.*$)/)) {
-		matched = `${m[1]}_${m[2]}`;
-	}
-	// Slashes in [brackets]
-	while(m = matched.match(/(^.*?\[[^\[\]]*)[/]([^\[\]]*\].*$)/)) {
-		matched = `${m[1]}${m[2]}`;
-	}
-	// pre|text
-	if(m = matched.match(/(^.*?)\|(.*$)/)) {
+	// pre»text
+	if(m = matched.match(/([^»]*?)»(.*$)/)) {
 		matched = m[2];
 	}
-	// post/text
-	if(m = matched.match(/(^.*?)[/](.*$)/)) {
+	// post«text
+	if(m = matched.match(/(^.*?)«([^«]*$)/)) {
 		matched = m[1];
 	}
-	// enclosed [extra]«link_and» text
+	// enclosed «extra»<link_and> text
 	let temp = matched;
 	let linkmatched = "";
 	matched = "";
-	while(m = temp.match(/^(.*?)(?:(?:\[|&#91[&;])(.*?)(?:\]|&#93[&;])|«(.*?)»)(.*)$/)) {
+	while(m = temp.match(/^(.*?)(?:«(.*?)»|<(.*?)>)(.*)$/)) {
 		const [, pre, , extraLink, post] = m;
 		linkmatched = linkmatched + pre + (extraLink || "");
 		temp = post;
@@ -148,41 +132,32 @@ export const convertSpecialTextToLink = (input) => {
 
 export const getCleanText = (input) => {
 	let m, matched = input;
-	// pre_<link
-	if(m = matched.match(/(^.*?)<(.*$)/)) {
+	// pre_>link
+	if(m = matched.match(/(^[^<]*?)>(.*$)/)) {
 		matched = m[2];
 	}
-	// post>_link
-	if(m = matched.match(/(^.*)>(.*$)/)) {
+	// post<_link
+	if(m = matched.match(/(^.*)<([^>]*$)/)) {
 		matched = m[1];
 	}
-	// Double-slashes
-	while(m = matched.match(/(^.*?)[/]{2}(.*$)/)) {
-		matched = `${m[1]}=SLASH=${m[2]}`;
-	}
-	// Slashes in [brackets]
-	while(m = matched.match(/(^.*?\[[^\[\]]*)[/]([^\[\]]*\].*$)/)) {
-		matched = `${m[1]}=SLASH=${m[2]}`;
-	}
-	// pre|text
-	if(m = matched.match(/(^.*?)\|(.*$)/)) {
+	// pre»text
+	if(m = matched.match(/([^»]*?)»(.*$)/)) {
 		matched = m[1] + m[2];
 	}
-	// post/text
-	if(m = matched.match(/(^.*?)[/](.*$)/)) {
+	// post«text
+	if(m = matched.match(/(^.*?)«([^«]*$)/)) {
 		matched = m[1] + m[2];
 	}
-	// enclosed [extra]«link_and» text
+	// enclosed «extra»<link_and> text
 	let temp = matched;
 	let textmatched = "";
 	matched = "";
-	while(m = temp.match(/^(.*?)(?:(?:\[|&#91[&;])(.*?)(?:\]|&#93[&;])|«(.*?)»)(.*)$/)) {
+	while(m = temp.match(/^(.*?)(?:«(.*?)»|<(.*?)>)(.*)$/)) {
 		const [, pre, bracketed, , post] = m;
 		textmatched = textmatched + pre + (bracketed || "");
 		temp = post;
 	}
-	textmatched = textmatched + temp;
-	return textmatched.replace(/=SLASH=/g, "/");
+	return textmatched + temp;
 };
 
 export default checkForEncodedLink;

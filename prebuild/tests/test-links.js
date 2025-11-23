@@ -8,15 +8,11 @@ const [ , source ] = sources;
 
 const checkForMalformedLinks = (line) => {
 	let m;
-	// 1: isn't a block directive like ::directive[text]{attrs}
-	// 2: isn't a container directive like :::div{attrs}
-	// 3: isn't a container directive like :::blockquote{attrs}
-	// 4: isn't a container directive like :::archetype{attrs}
-	// 5: what follows isn't a {valid/link}
-	// 6: what follows isn't a SOURCE tag, jumplist marker, or table reference
-	//                   1           2         3                   4                    5                 6
-	if(m = line.match(/(?<!\])(?<!(?::::|;;;)div|::drug|::trap|::meco|::prof)(?<!(?::::|;;;)blockquote)(?<!::archetype|::spelllist)(?<!::ab)(?<!::aff)(?<!::haunt|::spell|::minfo|::class)(?<!:::mythic)(?<!::mdefense|::moffense)(?<!::mspell|::mstats|::prereq)\{(?![-a-z_]+[/][^}]+\})(?!SOURCE|table[0-9]+|jumplist).{0,10}/)) {
-		return `Malformed {link}: ${m[0]}\n\t\t => "${line}"`;
+	// 1: what follows isn't a {valid/link}
+	// 2: what follows isn't a SOURCE tag, jumplist marker, or table reference
+	//                            1                 2
+	if(m = line.match(/‹(?![-a-z_]+[/][^›]+›)(?!SOURCE|table[0-9]+|jumplist).{0,10}/)) {
+		return `Malformed ‹link›: ${m[0]}\n\t\t => "${line}"`;
 	}
 	// 1: has the markdown link format ](
 	//      AND
@@ -28,14 +24,14 @@ const checkForMalformedLinks = (line) => {
 	else if(m = line.match(/\]\((?!settings\))(\)|[^-a-z_]+[/]|[-a-z_]+[/]?\))/)) {
 		return `Malformed [link]: ${m[0]}\n\t\t => "${line}"`;
 	}
-	// 1: Checks for extraneous }s at the end of a valid link
-	// 2: Checks for extraneous {s at the start of a valid link
+	// 1: Checks for extraneous ›s at the end of a valid link
+	// 2: Checks for extraneous ‹s at the start of a valid link
 	//                        1                        2
-	else if(m = line.match(/\{+[-a-z_]+[/][^}]+\}{2,}|\{{2,}[-a-z_]+[/][^}]+\}+/)) {
+	else if(m = line.match(/‹+[-a-z_]+[/][^›]+›{2,}|‹{2,}[-a-z_]+[/][^›]+›+/)) {
 		return `Possibly malformed link: ${m[0]}\n\t\t => "${line}"`
 	}
-	// Checks for [{turducken/links}](turducken/links)
-	else if(m = line.match(/\[\{[-a-z_]+[/][^}]+\}\]\([-a-z_]+[/][a-z_0-9]+\)/)) {
+	// Checks for [‹turducken/links›](turducken/links)
+	else if(m = line.match(/\[‹[-a-z_]+[/][^›]+›\]\([-a-z_]+[/][a-z_0-9]+\)/)) {
 		return `Double-encoded link: ${m[0]}\n\t\t => "${line}"`
 	}
 };
@@ -117,7 +113,7 @@ const testLinks = () => {
 				}
 				temp = line;
 				// Testing {SOURCE Title/##}
-				while(m = temp.match(/\{SOURCE ([^}]+)\}(.*$)/)) {
+				while(m = temp.match(/‹SOURCE ([^›]+)›(.*$)/)) {
 					if (m) {
 						m[1].split(/;/).forEach(bit => {
 							const xx = bit.match(/([^/]+)([/][-, 0-9]+)?$/);
@@ -132,7 +128,7 @@ const testLinks = () => {
 				}
 				temp = line;
 				// Testing ::main[text]{to=some/where}
-				while(m = temp.match(/::main\[.+?\]\{.*?\bto=([-a-z_]+)[/]([a-z_0-9]+).*?\}(.*$)/)) {
+				while(m = temp.match(/::main\[.+?\]‹.*?\bto=([-a-z_]+)[/]([a-z_0-9]+).*?›(.*$)/)) {
 					if(m[1] === "source") {
 						if(!source[m[2]]) {
 							invalid.push(m[1] + "/" + m[2]);
@@ -161,8 +157,8 @@ const testLinks = () => {
 					temp = m[2];
 				}
 				temp = line;
-				// Testing for {link/text} and %%link/text%%
-				while(m = checkForEncodedLink(temp, {percent: true})) {
+				// Testing for ‹link/text›
+				while(m = checkForEncodedLink(temp)) {
 					// [pre, `${protocol}/${property}`, text, post, protocol, property, `{${protocol}/${matchedx}}`]
 					const [ , potential, , post, protocol, property, fulltext ] = m;
 					if(protocol === "source") {
@@ -170,7 +166,7 @@ const testLinks = () => {
 							invalid.push(fulltext === `{${potential}}` ? fulltext : `${fulltext} => ${potential}`);
 						}
 					} else if (!$KnownProps[protocol] || !$KnownProps[protocol][property]) {
-						invalid.push(fulltext === `{${potential}}` ? fulltext : `${fulltext} => ${potential}`)
+						invalid.push(fulltext === `‹${potential}›` ? fulltext : `${fulltext} => ${potential}`)
 					}
 					temp = post;
 				}

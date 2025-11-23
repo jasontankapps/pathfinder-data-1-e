@@ -59,8 +59,8 @@ const parseSOURCE = (input, plain = false) => {
 	// Changes {SOURCE Source Title/1;Source Title} using makeSourceLink() below
 	let m = false;
 	let newline = "";
-	let tester = plain ? `{SOURCE ${input}}` : input;
-	while(m = tester.match(/^(.*)(?:\{|&#123;)SOURCE ([^}]+?)(?:\}|&#125;)(.*)$/)) {
+	let tester = plain ? `‹SOURCE ${input}›` : input;
+	while(m = tester.match(/^(.*)‹SOURCE ([^›]+?)›(.*)$/)) {
 		const sources = m[2].split(/;/).map(source => makeSourceLink(source));
 		newline = newline + `${m[1]}**Sources** ${sources.join(", ")}`;
 		tester = m[3];
@@ -357,7 +357,7 @@ const postprocess = (tables) => {
 		//{table0}
 		//Add <DisplayTable> for plain-text table refs.
 		// Check for curly brackets or their HTML entities, as they may get accidentally converted along the way.
-		while(m = text.match(/^(.*?)<p>(?:\{|&#123;)table([0-9]+)(?:\}|&#125;)<[/]p>(.*)$/)) {
+		while(m = text.match(/^(.*?)<p>‹table([0-9]+)›<[/]p>(.*)$/)) {
 			const [, pre, table, post] = m;
 			output = output + pre;
 			const index = parseInt(table);
@@ -365,8 +365,8 @@ const postprocess = (tables) => {
 				output = output + `<DisplayTable table={${JSON.stringify(tables[index])}} />`;
 				flags.displaytable = true;
 			} else {
-				output = output + `<p><code>\{table${table}\}</code></p>`;
-				logError(`ERROR: Bad Table: "{table${table}}" in ${prefix}`);
+				output = output + `<p><code>‹table${table}›</code></p>`;
+				logError(`ERROR: Bad Table: "‹table${table}›" in ${prefix}`);
 			}
 			text = post;
 		}
@@ -413,7 +413,7 @@ const postprocess = (tables) => {
 			div = div + `</ul></div>`;
 			flags.jumplist = true;
 			// Use a marker if a jumplist needs to be placed specially.
-			const m = output.match(/^(.*)<p>(?:\{|&#123;)jumplist(?:\}|&#125;)<[/]p>(.*)$/);
+			const m = output.match(/^(.*)<p>‹jumplist›<[/]p>(.*)$/);
 			if(m) {
 				const [, one, two] = m;
 				output = one + div + two;
@@ -714,10 +714,10 @@ const entities_in_tables = [
 	//   replacement RegExp with global flag,
 	//   code point to be the replacement (a number)
 	// ]
-	[/\{[^}]+&dagger;/, /&dagger;/g, 0x2020],
-	[/\{[^}]+&Dagger;/, /&Dagger;/g, 0x2021],
-	[/\{[^}]+&eacute;/, /&eacute;/g, 0x00E9],
-	[/\{[^}]+&times;/, /&times;/g, 0x00D7]
+	[/‹[^›]+&dagger;/, /&dagger;/g, 0x2020],
+	[/‹[^›]+&Dagger;/, /&Dagger;/g, 0x2021],
+	[/‹[^›]+&eacute;/, /&eacute;/g, 0x00E9],
+	[/‹[^›]+&times;/, /&times;/g, 0x00D7]
 ];
 
 // DO THE THINGS

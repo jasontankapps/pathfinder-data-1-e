@@ -3,8 +3,8 @@ import { convertSpecialTextToLink, convertTextToLink } from './checkForEncodedLi
 
 const checkForSourceLinks = (desc) => {
 	const found = [];
-	const single = /^.*?(?:\]\(source[/]([a-z_0-9]+)\)|\{source[/]([^\}]+)\})(.*$)/;
-	const multi = /^>*\{SOURCE ([^\}]+)\}(?:  )?$/;
+	const single = /^.*?(?:\]\(source[/]([a-z_0-9]+)\)|‹source[/]([^›]+)›)(.*$)/;
+	const multi = /^>*‹SOURCE ([^›]+)›(?:  )?$/;
 	// Template headers, spell statblocks, and monster info blocks store source information
 	const th = /^::(?:th|minfo)\[[^\]]+\]\{[^\}]*\bsource="([^"}]+)"[^}]+\}?$/;
 	const sp = /^::(?:spell|minfo)\{[^\}]*\bsource="([^"}]+)"[^}]+\}?$/;
@@ -60,8 +60,8 @@ const sourcesTest = () => {
 				});
 			}
 			if (description.some(line =>
-				line.match(/^>*[^>].*\{SOURCE/)
-				|| line.match(/^>*\{SOURCE[^}]+\}(?!  $).+$/)
+				line.match(/^>*[^>].*‹SOURCE/)
+				|| line.match(/^>*‹SOURCE[^›]+›(?!  $).+$/)
 			)) {
 				msg.push(`<+> ${item} has bad {SOURCE} multisource`);
 				// No point in going further since the error will probably mess with the other things.
