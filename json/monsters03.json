@@ -1875,9 +1875,9 @@
 			"Some ancient raveners retain a measure of their original sentience, occasionally renewing their relationships with the gods to serve as avatars or guardians. Others choose to remain aloof, pursuing their own goals independent of those who created them. These more potent behemoths sustain themselves through divine rituals learned when they served the gods and passed down from one generation to the next. They use their spell-like abilities to enhance the land and better support their enormous appetites. To replicate these more intelligent and independent raveners, add the following abilities to the standard behemoth. A ravener with these abilities is CR 19 and has Int 14, Wis 18, and Cha 18. It speaks Celestial, Sylvan, and Terran.",
 			"",
 			"**Spell-Like Abilities (CL 15th):**  ",
-			"*Always active*-{spell/nondetection;}  ",
-			"*At will*-{spell/create water}, {spell/detect animals or plants}, {spell/purify food and drink}, {spell/soften earth and stone;}  ",
-			"*3/day*-{spell/cure critical wounds}, {spell/heroes' feast}, {spell/move earth}, {spell/plant growth;}  ",
+			"*Always active*-{spell/nondetection};  ",
+			"*At will*-{spell/create water}, {spell/detect animals or plants}, {spell/purify food and drink}, {spell/soften earth and stone};  ",
+			"*3/day*-{spell/cure critical wounds}, {spell/heroes' feast}, {spell/move earth}, {spell/plant growth};  ",
 			"*1/day*-{spell/find the path}, {spell/restoration}",
 			"",
 			"**Family:** {family/Behemoth}"
