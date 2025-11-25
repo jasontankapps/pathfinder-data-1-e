@@ -11,6 +11,7 @@ import makeMonsterStatisticsBlock from './block/mstats.js';
 import makeMonsterEcologyBlock from './block/meco.js';
 import makePrerequisiteBlock from './block/prereq.js';
 import makeAbilityBlock from './block/ab.js';
+import makeSpellAbilityBlock from './block/spellAb.js';
 import makeSpellListBlock from './block/spelllist.js';
 import makeListBlock from './block/list.js';
 import { makeClassBlock, makeProfBlock } from './block/class.js';
@@ -19,10 +20,11 @@ const churn = (n, attrs, list, regex, logError) => {
 	const found = [];
 	const listing = new Set(list);
 	Object.keys(attrs).forEach(key => {
-		(!listing.has(key))
-			&& (regex.length > 0)
-			&& regex.every(rx => !key.match(rx))
-			&& found.push([key, attrs[key]]);
+		if(!listing.has(key)) {
+			if(regex.length === 0 || regex.every(rx => !key.match(rx))) {
+				found.push([key, attrs[key]]);
+			}
+		}
 	});
 	if(found.length) {
 		logError("\n" + found.map(([key, value]) => `--> ::${n}{${key}=${JSON.stringify(value)}}`).join("\n"));
@@ -396,6 +398,28 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					marked2, prefix, jlid, text,
 					convertEncodedInfo, maybeClear,
 					attrs, logError
+				});
+			} else if (n === "spellAb") {
+				churn(n, attrs, [
+					"stat", "m",
+					"learn", "prepare",
+					"zeroMsg",
+					"type", "caster",
+					"alignLimit",
+					"spontaneous",
+					"occultist", "bard", "skald",
+					"ritualDivine", "choice", "druid", "meditate", "shaman", "oracle", "medium",
+					"ritualArcane", "witch",
+					"limited", "limitedFull", "cureInflict", "summonNature",
+					"trade", "tradeLimit"
+				], [], logError);
+				flags.icon = true;
+				flags.link = true;
+				const jlid = prefix + "spells";
+				addToJumpList("Spells", jlid, "jl");
+				return makeSpellAbilityBlock({
+					prefix, jlid, logError,
+					maybeClear, attrs
 				});
 			} else if (n === "list") {
 				churn(n, attrs, [
