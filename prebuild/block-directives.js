@@ -451,7 +451,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"dis", "ddev", "ea", "fly", "ha", "heal", "intm",
 					"ka", "kd", "ke", "kg", "kh", "kl", "kna", "kno", "kp", "kr",
 					"ling", "per", "perf", "prof", "ride", "sm", "soh",
-					"spc", "stl", "sur", "swim", "umd"
+					"spc", "stl", "sur", "swim", "umd", "skillNote"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				flags.link = true;

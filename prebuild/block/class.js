@@ -18,7 +18,7 @@ export const makeClassBlock = ({maybeClear, attrs, marked2, convertEncodedInfo})
 		dis, ddev, ea, fly, ha, heal, intm,
 		ka, kd, ke, kg, kh, kl, kna, kno, kp, kr,
 		ling, per, perf, prof, ride, sm, soh,
-		spc, stl, sur, swim, umd
+		spc, stl, sur, swim, umd, skillNote
 	} = attrs;
 	//
 	// START CODE
@@ -100,7 +100,8 @@ export const makeClassBlock = ({maybeClear, attrs, marked2, convertEncodedInfo})
 		["Survival", sur]
 	].filter(x => x[1]);
 	const all = [["(STR)", str], ["(DEX)", dex], ["(INT)", int], ["(WIS)", wis], ["(CHA)", cha]].filter(x => x[1].length > 0);
-	output.push(`<tr><th scope="row" rowSpan={${all.length}} className="sw">Class Skills</th>`);
+
+	output.push(`<tr><th scope="row" rowSpan={${all.length + (skillNote ? 1 : 0)}} className="sw">Class Skills</th>`);
 	let found = false;
 	while(all.length > 0) {
 		const [stat, skills] = all.shift();
@@ -109,8 +110,11 @@ export const makeClassBlock = ({maybeClear, attrs, marked2, convertEncodedInfo})
 				.map(x => x[0])
 				.map(x => `<Link to="/skill/${convertTextToLink(x)}">${x}</Link>`)
 				.join(", ")
-		}</td><td className="c${all.length > 0 ? "" : " se"}">${stat}</td></tr>`);
+		}</td><td className="c${(skillNote || all.length > 0) ? "" : " se"}">${stat}</td></tr>`);
 		found = true;
+	}
+	if(skillNote) {
+		output.push(`<tr><td colSpan={2} className="se">${marked2.parseInline(convertEncodedInfo(skillNote))}</td></tr>`);
 	}
 	//
 	// END CODE BLOCK	

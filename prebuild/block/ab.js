@@ -1,6 +1,21 @@
 import ordinal from "../ordinal.js";
 import writtenNumber from "written-number";
 
+const mapAbs = (attrs) => {
+	const { standard, swift, immediate, fullround, move, free, passive, ability, usage } = attrs;
+	return {
+		s: standard,
+		w: swift,
+		i: immediate,
+		r: fullround,
+		m: move,
+		f: free,
+		p: passive,
+		a: ability,
+		u: usage
+	};
+};
+
 const abPairOpen = 	'<div className="abPair">';
 const abPairStartOpen = '<div className="abStart"><div className="box">';
 const abPairEndOpen = '<div className="abEnd"><div className="box">';
@@ -38,6 +53,101 @@ export const makeAbilityBlock = ({
 	} = attrs;
 	const output = [];
 	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
+	//
+	// DETERMINE ANY USAGE LIMITS
+	//
+	const use = (() => {
+		const base = (() => {
+			if (usage) {
+				return [doParse(usage), "error"];
+			} else if (useInc) {
+				const [inc, clss, base] = useInc.split(/~/);
+				const unit = useUnit || "round";
+				if(!base) {
+					return [`1 ${unit}/day per ${writtenNumber(Number(inc))} ${clss} levels`, unit];
+					//useInc=2~cleric =>
+					//1 round/day per two cleric levels
+				}
+				return [
+					`1 ${unit}/day + 1 per ${
+						writtenNumber(Number(inc))
+					} ${clss} levels beyond ${ordinal(base)}`,
+					unit
+				];
+				//useInc=4~cleric~8 =>
+				//1 time/day + 1 per four cleric levels beyond 8th
+			} else if (useL3) {
+				const unit = useUnit || "round";
+				return [`3 ${unit}s/day + 1 ${unit} per ${useL3} level`, unit];
+				//3 rounds/day + 1 round per cleric level
+			} else if (useL) {
+				const unit = useUnit || "round";
+				return [`1 ${unit}/day per ${useL} level`, unit];
+				//1 round/day per cleric level
+			} else if (useMod) {
+				const unit = useUnit || "time";
+				return [`${useMod} modifier ${unit}s/day`, unit]
+				//Wis modifier times/day
+			} else if (useMod3) {
+				const unit = useUnit || "time";
+				return [`3 + ${useMod3} modifier ${unit}s/day`, unit]
+				//3 + Wis modifier times/day
+			} else if (useMod4) {
+				const unit = useUnit || "time";
+				return [`4 + ${useMod4} modifier ${unit}s/day`, unit]
+				//4 + Cha modifier times/day
+			}
+			return null;
+		})();
+		if(!base) {
+			return base;
+		}
+		const [u, unit] = base;
+		const min = !useM ? "" : (
+			useM === "useM" ? " (minimum 1)" : ` (minimum ${useM})`
+		);
+		const consecutive = () => {
+			if(useNC) {
+				if (useNC === "useNC") {
+					return `; these ${unit}s need not be consecutive`;
+				}
+				return `; these ${unit}s need not be consecutive, but they must be spent in ${useNC}-${unit} increments`;
+			}
+			return "";
+		};
+		return `${u}${min}${consecutive()}`;
+	})();
+	//
+	// CHECK ABILITIES
+	//
+	if(order) {
+		const map = {
+			s: standard,
+			w: swift,
+			i: immediate,
+			r: fullround,
+			m: move,
+			f: free,
+			p: passive,
+			a: ability,
+			u: use
+		};
+		const missing = [];
+		order.split("").forEach(x => {
+			if(!map[x]) { missing.push(`"order" prop declares missing value [${x}]`) } else { delete map[x]; }
+		});
+		Object.entries(map).forEach(([a, v]) => {
+			v && missing.push(`"order" prop missing value [${a}]`);
+		});
+		while(missing.length > 0) {
+			logError(missing.shift());
+		}
+	} else {
+		const all = [standard, swift, immediate, fullround, move, free, passive, ability].filter(x => x);
+		if(all.length > 1) {
+			logError(`${all.length} abilities found, but no "order" prop was given.`);
+		}
+	}
 	//
 	// CONSTRUCT ICON
 	//
@@ -173,70 +283,6 @@ export const makeAbilityBlock = ({
 			+ abPairClose
 		);
 	}
-	//
-	// DETERMINE ANY USAGE LIMITS
-	//
-	const use = (() => {
-		const base = (() => {
-			if (usage) {
-				return [doParse(usage), "error"];
-			} else if (useInc) {
-				const [inc, clss, base] = useInc.split(/~/);
-				const unit = useUnit || "round";
-				if(!base) {
-					return [`1 ${unit}/day per ${writtenNumber(Number(inc))} ${clss} levels`, unit];
-					//useInc=2~cleric =>
-					//1 round/day per two cleric levels
-				}
-				return [
-					`1 ${unit}/day + 1 per ${
-						writtenNumber(Number(inc))
-					} ${clss} levels beyond ${ordinal(base)}`,
-					unit
-				];
-				//useInc=4~cleric~8 =>
-				//1 time/day + 1 per four cleric levels beyond 8th
-			} else if (useL3) {
-				const unit = useUnit || "round";
-				return [`3 ${unit}s/day + 1 ${unit} per ${useL3} level`, unit];
-				//3 rounds/day + 1 round per cleric level
-			} else if (useL) {
-				const unit = useUnit || "round";
-				return [`1 ${unit}/day per ${useL} level`, unit];
-				//1 round/day per cleric level
-			} else if (useMod) {
-				const unit = useUnit || "time";
-				return [`${useMod} modifier ${unit}s/day`, unit]
-				//Wis modifier times/day
-			} else if (useMod3) {
-				const unit = useUnit || "time";
-				return [`3 + ${useMod3} modifier ${unit}s/day`, unit]
-				//3 + Wis modifier times/day
-			} else if (useMod4) {
-				const unit = useUnit || "time";
-				return [`4 + ${useMod4} modifier ${unit}s/day`, unit]
-				//4 + Cha modifier times/day
-			}
-			return null;
-		})();
-		if(!base) {
-			return base;
-		}
-		const [u, unit] = base;
-		const min = !useM ? "" : (
-			useM === "useM" ? " (minimum 1)" : ` (minimum ${useM})`
-		);
-		const consecutive = () => {
-			if(useNC) {
-				if (useNC === "useNC") {
-					return `; these ${unit}s need not be consecutive`;
-				}
-				return `; these ${unit}s need not be consecutive, but they must be spent in ${useNC}-${unit} increments`;
-			}
-			return "";
-		};
-		return `${u}${min}${consecutive()}`;
-	})();
 	//
 	// ACTION
 	//

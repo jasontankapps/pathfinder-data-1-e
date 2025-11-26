@@ -112,15 +112,15 @@ const testLinks = () => {
 					}
 				}
 				temp = line;
-				// Testing {SOURCE Title/##}
+				// Testing ‹SOURCE Title/##›
 				while(m = temp.match(/‹SOURCE ([^›]+)›(.*$)/)) {
 					if (m) {
 						m[1].split(/;/).forEach(bit => {
 							const xx = bit.match(/([^/]+)([/][-, 0-9]+)?$/);
 							if(!xx) {
-								msg.push(`\t{SOURCE} error [${bit}]`);
+								msg.push(`\t‹SOURCE› error [${bit}]`);
 							} else if (!source[convertTextToLink(xx[1])]) {
-								invalid.push("{SOURCE " + xx[1] + "}");
+								invalid.push("‹SOURCE " + xx[1] + "›");
 							}
 						});
 						temp = m[2];
@@ -158,8 +158,8 @@ const testLinks = () => {
 				}
 				temp = line;
 				// Testing for ‹link/text›
-				while(m = checkForEncodedLink(temp)) {
-					// [pre, `${protocol}/${property}`, text, post, protocol, property, `{${protocol}/${matchedx}}`]
+				while(m = checkForEncodedLink(temp, {testing: true})) {
+					// [pre, `${protocol}/${property}`, text, post, protocol, property, `‹${protocol}/${matchedx}›`]
 					const [ , potential, , post, protocol, property, fulltext ] = m;
 					if(protocol === "source") {
 						if(!source[property]) {

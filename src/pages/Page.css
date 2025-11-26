@@ -8,7 +8,7 @@ ion-content{
 p,
 div.p {
 	margin-block: 1rem;
-	line-height: 1.75em;
+	line-height: 1.5em;
 }
 
 ion-toast {
@@ -693,6 +693,7 @@ div.sideNoteWrap.optional table tbody tr th.thLink ion-icon {
 }
 div.sideNoteWrap table tbody tr th.thLink {
 	cursor: pointer;
+	overflow: hidden;
 }
 div.sideNoteWrap.delist table ul {
 	margin-block: 0;

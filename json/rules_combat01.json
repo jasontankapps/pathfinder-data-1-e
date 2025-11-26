@@ -3331,6 +3331,8 @@
 			"prone"
 		]
 	},
+	"paralyze": { "redirect": "paralyzed" },
+	"paralyzes": { "redirect": "paralyzed" },
 	"petrified": {
 		"name": "Petrified",
 		"subtitle": "Condition",

@@ -26,7 +26,7 @@
 // Below needs to be copied to src/components/convertLinks.tsx (with Typescript) when changed
 
 const checkForEncodedLink = (input, options = {}) => {
-	const { basic, bare } = options;
+	const { basic, bare, testing } = options;
 	let m = input.match(
 		bare ? /^([-a-z_]+?)[/](.+)($)/       // [ full, protocol, matchedx ]
 		: /(^.*?)‹([-a-z_]+)[/]([^›]*)›(.*$)/ // [ full, pre, protocol, matchedx, post ]
@@ -43,7 +43,7 @@ const checkForEncodedLink = (input, options = {}) => {
 		m.push("");
 		// `m` is now [full, "", protocol, matchedx, ""]
 	} else if (m2) {
-		// See if we have a {match}, and if so figure out who has the earlier match.
+		// See if we have a ‹match›, and if so figure out who has the earlier match.
 		if(!m || (m[1].length > m2[1].length)) {
 			// [match] wins
 			const [, pre, text, protocol, property, post] = m2;
@@ -54,34 +54,36 @@ const checkForEncodedLink = (input, options = {}) => {
 		}
 	}
 	const [, pre, protocol, matchedx, post] = m;
-	// Check for links inside props of directives. DO NOT expand them.
-	let toFindTheEnd = null;
-	if(!basic || bare) {
-		if (pre.match(/="[^"]*$/)) {
-			toFindTheEnd = /^([^"]*")(.*$)/;
-		} else if (pre.match(/(::|;;;|@)[a-zA-Z0-9]+\[[^\]]*$/)) {
-			toFindTheEnd = /^([^\]]*\])(.*$)/;
+	if(!testing) {
+		// Check for links inside props of directives. DO NOT expand them.
+		let toFindTheEnd = null;
+		if(!basic || bare) {
+			if (pre.match(/="[^"]*$/)) {
+				toFindTheEnd = /^([^"]*")(.*$)/;
+			} else if (pre.match(/(::|;;;|@)[a-zA-Z0-9]+\[[^\]]*$/)) {
+				toFindTheEnd = /^([^\]]*\])(.*$)/;
+			}
 		}
-	}
-	if(toFindTheEnd) {
-		// We found one. Run the excess through the wringer again.
-		const findEndOfProp = post.match(toFindTheEnd);
-		if(!findEndOfProp) {
-			console.log("ERROR FINDING END OF PROP");
-			console.log(pre);
-			console.log(post);
-			return false;
+		if(toFindTheEnd) {
+			// We found one. Run the excess through the wringer again.
+			const findEndOfProp = post.match(toFindTheEnd);
+			if(!findEndOfProp) {
+				console.log("ERROR FINDING END OF PROP");
+				console.log(pre);
+				console.log(post);
+				return false;
+			}
+			const [, endOfProp, next] = findEndOfProp;
+			const mm = checkForEncodedLink(next, {});
+			if(!mm) {
+				return false;
+			}
+			const [xpre, ...etc] = mm;
+			return [
+				pre + `${protocol}/${matchedx}` + endOfProp + xpre,
+				...etc
+			];
 		}
-		const [, endOfProp, next] = findEndOfProp;
-		const mm = checkForEncodedLink(next, {});
-		if(!mm) {
-			return false;
-		}
-		const [xpre, ...etc] = mm;
-		return [
-			pre + `${protocol}/${matchedx}` + endOfProp + xpre,
-			...etc
-		];
 	}
 	let matched = matchedx, linkpre = "", linkpost = "", textpre = "", textpost = "";
 	// pre_>link
