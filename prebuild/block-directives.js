@@ -15,6 +15,7 @@ import makeSpellAbilityBlock from './block/spellAb.js';
 import makeSpellListBlock from './block/spelllist.js';
 import makeListBlock from './block/list.js';
 import { makeClassBlock, makeProfBlock } from './block/class.js';
+import makeCapstoneBlock from './block/altCapstone.js';
 
 const churn = (n, attrs, list, regex, logError) => {
 	const found = [];
@@ -484,6 +485,19 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 						icon: "magic",
 						ability: `You learn a number of ${c}, or 0-level ${type} spells. These spells are ${prepcast} like any other spell, but they ${p ? "are not expended when cast and may" : "don't consume slots and can"} be used again. ${text} ${prepcast} using other spell slots, such as those due to metamagic feats, ${p ? "are expended" : "consume slots"} normally.`
 					}
+				});
+			} else if (n === "altCapstone") {
+				churn(n, attrs, [
+					"clear", "capstone",
+					"deepMagics", "walkingLibrary", "greatBeast",
+					"oldDogNewTricks", "kiSage", "theRightSpot",
+					"archFamiliar", "soulChannel"
+				], [], logError);
+				const marked2 = makeNewMarkedInstance();
+				return makeCapstoneBlock({
+					marked2, text,
+					convertEncodedInfo,
+					maybeClear, attrs
 				});
 			}
 			return false;

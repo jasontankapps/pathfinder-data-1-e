@@ -74,6 +74,9 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 					inline: true,
 					maybeClear: ""
 				});
+			} else if (tag === "altCapstoneDesc") {
+				flags.link = true;
+				return "When a character reaches the 20th level of a class, she gains a powerful class feature or ability, sometimes referred to as a capstone. The following section provides <Link to=\"/ability/capstones\">new capstones</Link> for characters to select at 20th level. A character can select one of the following capstones in place of the capstone provided by her class. Some capstones are for specific classes, while others are for a range of classes that qualify for them. In some cases, a capstone specifies what ability it replaces. A character can't select a new capstone if she has previously traded away her class capstone via an archetype. Clerics and wizards can receive a capstone at 20th level, despite not having one to begin with. A character that gains certain abilities may be eligible for capstones other than those listed below.";
 			}
 			switch(tag) {
 				case "primary":

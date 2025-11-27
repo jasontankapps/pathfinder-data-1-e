@@ -1,21 +1,6 @@
 import ordinal from "../ordinal.js";
 import writtenNumber from "written-number";
 
-const mapAbs = (attrs) => {
-	const { standard, swift, immediate, fullround, move, free, passive, ability, usage } = attrs;
-	return {
-		s: standard,
-		w: swift,
-		i: immediate,
-		r: fullround,
-		m: move,
-		f: free,
-		p: passive,
-		a: ability,
-		u: usage
-	};
-};
-
 const abPairOpen = 	'<div className="abPair">';
 const abPairStartOpen = '<div className="abStart"><div className="box">';
 const abPairEndOpen = '<div className="abEnd"><div className="box">';
