@@ -444,7 +444,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				});
 			} else if (n === "class") {
 				churn(n, attrs, [
- 					"clear", "al", "any", "alSpecial",
+ 					"clear", "al", "any", "noAlignmentTable",
 					"lg", "ln", "le", "ng", "n", "ne", "cg", "cn", "ce",
 					"hd", "parent", "wealth", "skp",
 					"acro", "app", "bluff", "climb", "craft", "diplo",
