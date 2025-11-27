@@ -866,7 +866,7 @@
 			"",
 			"::spellAb{caster=magus stat=Intelligence type=arcane m learn prepare ritualArcane}",
 			"",
-			"**Cantrips:** A magus can prepare a number of cantrips, or 0-level spells, each day, as noted in the table above under \"Spells per Day.\" These spells are cast like any other spell, but they are not expended when cast and may be used again.",
+			"::cantrips{p}",
 			"",
 			"**Spellbooks:** A magus must study his spellbook each day to prepare his spells. He cannot prepare any spell not recorded in his spellbook except for ‹spell/read magic›, which all magi can prepare from memory. A magus begins play with a spellbook containing all 0-level magus spells plus three 1st-level magus spells of his choice. The magus also selects a number of additional 1st-level magus spells equal to his Intelligence modifier to add to his spellbook. At each new magus level, he gains two new magus spells of any spell level or levels that he can cast (based on his new magus level) for his spellbook. At any time, a magus can also add spells found in other spellbooks to his own.",
 			"",

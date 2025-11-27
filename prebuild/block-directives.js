@@ -466,6 +466,25 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				return makeProfBlock({maybeClear, attrs, marked2, flags, convertEncodedInfo})
+			} else if (n === "cantrips") {
+				churn(n, attrs, ["c", "p", "clear"], [], logError);
+				const {c = "cantrips", p} = attrs;
+				const type = (c === "knacks") ? "psychic" : ((c === "orisons") ? "divine" : "arcane");
+				const text = c.slice(0,1).toUpperCase() + c.slice(1);
+				const prepcast = p ? "prepared" : "cast";
+				flags.icon = true;
+				flags.link = true;
+				return makeAbilityBlock({
+					maybeClear, prefix, logError, text,
+					marked2: { parseInline: (x) => x },
+					jlid: prefix + (attrs.id || makeValidID(text)),
+					convertEncodedInfo: (x) => x,
+					attrs: {
+						l: 1,
+						icon: "magic",
+						ability: `You learn a number of ${c}, or 0-level ${type} spells. These spells are ${prepcast} like any other spell, but they ${p ? "are not expended when cast and may" : "don't consume slots and can"} be used again. ${text} ${prepcast} using other spell slots, such as those due to metamagic feats, ${p ? "are expended" : "consume slots"} normally.`
+					}
+				});
 			}
 			return false;
 		}
