@@ -31,8 +31,7 @@ ion-alert.horizontalButtons div.alert-button-group {
 ion-alert.horizontalButtons div.alert-button-group button.alert-button {
 	margin: 0.25rem;
 }
-ion-alert button.alert-button.delete,
-ion-alert button.alert-button.overwrite {
+ion-alert button.alert-button:is(.delete,.overwrite) {
 	background: var(--ion-color-danger);
 	color: var(--ion-color-danger-contrast);
 }
@@ -82,8 +81,7 @@ blockquote.hanging {
 	border-radius: 0.25rem 1rem 1rem 0.25rem;
 }
 
-p.no-top-margin,
-blockquote.no-top-margin {
+:is(blockquote,p).no-top-margin {
 	margin-block-start: 0 !important;
 }
 p.no-bottom-margin {
@@ -99,8 +97,7 @@ div.columnar {
 	margin-inline: auto;
 	margin-block: 1em;
 }
-div.columnar ul,
-div.columnar ol {
+div.columnar :is(ul,ol) {
 	margin-block: 0;
 }
 @media (34rem > width > 25rem) {
@@ -737,14 +734,14 @@ div.compilation div.sideNoteWrap table :is(th, td) {
 ion-content.noStamina div.sideNoteWrap.stamina,
 ion-content.noMythic div.sideNoteWrap.mythic,
 ion-content.noElephant div.sideNoteWrap.elephant,
-blockquote.showIfNoStamina,
-blockquote.showIfNoMythic,
-blockquote.showIfNoElephant {
+blockquote:is(.showIfNoStamina,.showIfNoMythic,.showIfNoElephant) {
 	display: none;
 }
-ion-content.noStamina div.sideNoteWrap.stamina + div.sideNoteWrap,
-ion-content.noMythic div.sideNoteWrap.mythic + div.sideNoteWrap,
-ion-content.noElephant div.sideNoteWrap.elephant + div.sideNoteWrap {
+:is(
+	ion-content.noStamina div.sideNoteWrap.stamina,
+	ion-content.noMythic div.sideNoteWrap.mythic,
+	ion-content.noElephant div.sideNoteWrap.elephant
+) + div.sideNoteWrap {
 	margin-block-start: 0;
 }
 ion-content#main.noMythic:not(.noStamina):not(.noElephant) div.sideNoteWrap.stamina + div.sideNoteWrap.mythic + div.sideNoteWrap.elephant {
@@ -1103,7 +1100,7 @@ div.abSingle.title {
 div.abSingle.title div.flavor {
 	font-style: italic;
 	font-weight: normal;
-	margin: 0 auto;
+	margin: 0 0.25rem;
 	font-size: 0.9em;
 	line-height: 1em;
 	text-align: center;
@@ -1111,8 +1108,7 @@ div.abSingle.title div.flavor {
 div.abPair {
 	display: contents;
 }
-div.abStart,
-div.abEnd {
+div:is(.abStart,.abEnd) {
 	font-size: 1rem;
 	line-height: 1.25em;
 	border-style: solid;

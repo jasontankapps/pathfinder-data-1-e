@@ -10,7 +10,7 @@ const convertEncodedInfo = (input) => {
 		output = output + `${pre}[${text}](${fulllink})`;
 		test = post;
 	}
-	return (output + test).replace(/&(times|quot|mdash|#[0-9]+)&/g, "&$1;");
+	return (output + test).replace(/&(times|quot|mdash|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;");
 };
 
 const getContainerDirectives = (globalVariable, marker = ":::") => {
