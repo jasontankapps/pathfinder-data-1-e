@@ -76,13 +76,6 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 						`<div className="compressed">${removeCurlyBrackets(marked2.parse(text))}</div>`
 					);
 				}
-				case "div": {
-					const { className = "" } = attrs;
-					const marked2 = makeNewMarkedInstance();
-					return (
-						`<div className="${className}">${removeCurlyBrackets(marked2.parse(text))}</div>`
-					);
-				}
 				case "stamina": {
 					link = "/feat/combat_stamina";
 					icon = "shield-bash.svg";
