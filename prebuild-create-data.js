@@ -71,8 +71,27 @@ const parseSOURCE = (input, plain = false) => {
 // Remove curly brackets
 const removeCurlyBrackets = (input, inlineText) => {
 	const replacer = (input) => input.replace(/\{/g, "&#123;").replace(/\}/g, "&#125;");
+	const obfuscate = (input) => {
+		return input.replace(/=>/g, "-=ARROW=-").split("‹").map((bit, i) => {
+			let m;
+			if(i === 0) {
+				//ignore
+				return bit;
+			} else if (m = bit.match(/(^.*?›)(.*$)/)) {
+				// Obfuscate <> inside of ‹links›
+				const [, pre, post] = m;
+				return pre.replace(/</g, "-=LEFT=-").replace(/>/g, "-=RIGHT=-") + post;
+			}
+			logError("Huh?", bit);
+			return bit;
+		}).join("‹");
+	};
+	const deobfuscate = input => input
+		.replace(/-=LEFT=-/g, "<")
+		.replace(/-=RIGHT=-/g, ">")
+		.replace(/-=ARROW=-/g, "=>");
 	return input.split(/\n/).map(line => {
-		let test = line;
+		let test = obfuscate(line);
 		let m;
 		let final = "";
 		if(inlineText) {
@@ -82,7 +101,7 @@ const removeCurlyBrackets = (input, inlineText) => {
 				test = next || "";
 			}
 		}
-		while(test && (m = test.match(/(^<.*?(?<!=)>(?![a-z_0-9]+\}))([^<]*)(.*$)/))) {
+		while(test && (m = test.match(/(^<.*?>)([^<]*)(.*$)/))) {
 			const [, tag, content, etc] = m;
 			final = final + tag + replacer(content);
 			test = etc;
@@ -94,7 +113,7 @@ const removeCurlyBrackets = (input, inlineText) => {
 				logError(`Incomplete tag? <${line}>\n>> ${test}`);
 			}
 		}
-		return final;
+		return deobfuscate(final);
 	}).join("\n");
 };
 

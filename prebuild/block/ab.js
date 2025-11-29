@@ -125,7 +125,7 @@ export const makeAbilityBlock = ({
 			v && missing.push(`"order" prop missing value [${a}]`);
 		});
 		while(missing.length > 0) {
-			logError(missing.shift());
+			logError(`[${text}] ` + missing.shift());
 		}
 	} else {
 		const all = [standard, swift, immediate, fullround, move, free, passive, ability].filter(x => x);
