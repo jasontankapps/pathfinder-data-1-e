@@ -130,7 +130,7 @@ export const makeAbilityBlock = ({
 	} else {
 		const all = [standard, swift, immediate, fullround, move, free, passive, ability].filter(x => x);
 		if(all.length > 1) {
-			logError(`${all.length} abilities found, but no "order" prop was given.`);
+			logError(`${all.length} abilities found, but no "order" prop was given. [${text}]`);
 		}
 	}
 	//
