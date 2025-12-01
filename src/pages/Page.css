@@ -1053,7 +1053,7 @@ div.ability {
 	background: var(--table-bg);
 	margin-inline: 0.25rem;
 	display: grid;
-	grid-template-columns: 2.5rem minmax(min-content, 1fr) 3fr;
+	grid-template-columns: 2.5rem 4fr;
 	grid-auto-rows: min-content;
 	justify-content: center;
 	border-radius: 0.75rem;
@@ -1079,7 +1079,7 @@ div.abIcon a {
 div.abSingle {
 	font-size: 1rem;
 	line-height: 1.15em;
-	grid-column: 2 / span 2;
+	grid-column: 2;
 	place-self: stretch;
 	border-style: solid;
 	border-color: var(--table-border-color);
@@ -1087,8 +1087,8 @@ div.abSingle {
 	border-block-end-width: 2px;
 }
 div.abSingle.title {
-	color: var(--table-header-fg);
-	background: var(--table-header-bg);
+	color: var(--ion-color-step-950);
+	background: var(--ion-color-step-200);
 	border-start-end-radius: 0.75rem;
 	font-weight: bold;
 	text-align: center;
@@ -1106,29 +1106,33 @@ div.abSingle.title div.flavor {
 	text-align: center;
 }
 div.abPair {
-	display: contents;
-}
-div:is(.abStart,.abEnd) {
-	font-size: 1rem;
-	line-height: 1.25em;
+	grid-column: 2;
+	place-self: stretch;
 	border-style: solid;
 	border-color: var(--table-border-color);
 	border-width: 0;
 	border-block-end-width: 2px;
 	border-inline-start-width: 2px;
-	grid-column: 3;
-	place-self: stretch;
+	position: relative;
+}
+div:is(.abStart,.abEnd) {
+	font-size: 1rem;
+	line-height: 1.25em;
+	border-width: 0;
 	text-align: start;
+}
+div.abStart {
+	float: inline-start;
+	text-align: end;
+	width: 25%;
+	max-width: 25%;
+	background-color: var(--ion-color-step-150);
+	margin: 0;
+	margin-inline-end: 0.5rem;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
-	justify-content: flex-start;
-}
-div.abStart {
-	grid-column: 2;
-	text-align: end;
 	justify-content: flex-end;
-	align-items: flex-start;
 }
 div.abEnd.simple a {
 	text-decoration: none;
@@ -1137,12 +1141,13 @@ div.abStart:not(.plain) {
 	font-weight: bold;
 }
 div.abSingle:last-child,
-div.abPair:last-child div:is(.abStart,.abEnd) {
+div.abPair:last-child {
 	border-block-end-width: 0;
 }
 div.abSingle,
-div.abPair div:is(.abStart,.abEnd) {
-	min-height: 2rem;
+div.abPair,
+div.abStart {
+	min-height: 1.75rem;
 }
 div.ability.hasSubs {
 	margin-block-start: 1rem;
@@ -1150,7 +1155,7 @@ div.ability.hasSubs {
 	border-radius: 0.75rem 0.75rem 0 0.75rem;
 	counter-reset: subcount 0;
 }
-div.ability.hasSubs :is(div.abSingle:last-child, div.abPair:last-child > div) {
+div.ability.hasSubs :is(div.abSingle:last-child, div.abPair:last-child) {
 	border-block-end: 2px solid var(--table-border-color);
 }
 div.subAbility {
@@ -1160,14 +1165,14 @@ div.subAbility {
 	margin-block-start: 0;
 	margin-block-end: 0;
 	border-radius: 0;
-	grid-template-columns: 2.5rem minmax(min-content, 1fr) 4fr;
+	grid-template-columns: 2.5rem 4fr;
 }
 div.subAbility div.abIcon {
 	grid-column: 1;
 	grid-row: 2 / span 19;
 }
 div.subAbility div.abIcon + div.abSingle {
-	grid-column: 1 / span 3;
+	grid-column: 1 / span 2;
 	border-inline-start-width: 0;
 }
 div.subAbility div.abSingle.title {
@@ -1178,6 +1183,9 @@ div.subAbility div.abSingle.title {
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: flex-start;
+}
+div.subAbility div.abStart {
+	background: var(--table-bg);
 }
 div.subAbility + div.subAbility {
 	border-block-start: 2px solid var(--table-border-color);
@@ -1194,7 +1202,7 @@ div.subAbility:last-child {
 	border-radius: 0 0 0.75rem 0.75rem;
 }
 div:is(.ability, .subAbility) div.box {
-	display: inline-block;
+	/*display: inline-block;*/
 	padding-block: 0.25rem;
 	padding-inline: 0.5rem;
 }
