@@ -416,7 +416,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"ritualDivine", "choice", "druid", "meditate", "shaman", "oracle", "medium",
 					"ritualArcane", "witch",
 					"limited", "limitedFull", "cureInflict", "summonNature",
-					"trade", "tradeLimit"
+					"trade53", "trade42", "tradeLimit"
 				], [], logError);
 				flags.icon = true;
 				flags.link = true;

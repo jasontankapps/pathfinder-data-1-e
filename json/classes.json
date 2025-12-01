@@ -1039,7 +1039,7 @@
 			"",
 			"::prof{simple weaps=\"longsword~rapier~sap~short sword~shortbow~whip\" light shields extra=\"You can cast bard spells while wearing light armor and use a shield without incurring the normal arcane spell failure chance. Like any other arcane spellcaster, wearing medium or heavy armor incurs a chance of arcane spell failure if the spell in question has a somatic component. A multiclass bard still incurs the normal arcane spell failure chance for arcane spells received from other classes.\"}",
 			"",
-			"::spellAb{stat=Charisma m learn type=arcane caster=bard spontaneous bard limited trade=\"5~3\" tradeLimit}",
+			"::spellAb{stat=Charisma m learn type=arcane caster=bard spontaneous bard limited trade53 tradeLimit}",
 			"",
 			"::cantrips",
 			"",

@@ -48,7 +48,7 @@ export const makeSpellAbilityBlock = ({
 		ritualDivine, choice, druid, meditate, shaman, medium, oracle,
 		ritualArcane, witch,
 		limited, limitedFull, cureInflict, summonNature,
-		trade, tradeLimit
+		trade53, trade42, tradeLimit
 	} = attrs;
 	const [ her, she, She ] =
 		m ? [ "his", "he", "He" ]
@@ -108,8 +108,8 @@ export const makeSpellAbilityBlock = ({
 		};
 		return false;
 	})();
-	if(trade) {
-		const [ begin, jump ] = trade.split("~").map(t => Number(t));
+	if(trade53 || trade42) {
+		const [ begin, jump ] = trade53 ? [5, 3] : [4, 2];
 		block.push(
 			`<p>At ${ordinal(begin)} level, and every ${
 				writtenNumber(jump)

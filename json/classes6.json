@@ -72,7 +72,7 @@
 			"",
 			"::prof{simple light medium}",
 			"",
-			"::spellAb{caster=medium type=psychic m stat=Charisma limitedFull medium trade=\"5~3\" learn}",
+			"::spellAb{caster=medium type=psychic m stat=Charisma limitedFull medium trade53 learn}",
 			"",
 			"::cantrips{c=knacks}",
 			"",
