@@ -7,6 +7,28 @@ const abPairEndOpen = '<div className="abEnd"><div className="box">';
 const abPairPartClose = "</div></div>";
 const abPairClose = "</div>";
 
+const parseAtts = (attrs) => {
+	const {standard, move, free, immediate, swift, passive, ability, fullround} = attrs;
+	if(passive) {
+		return [passive, "Passive Ability", attrs.hPassive];
+	} else if (ability) {
+		return [ability, "Ability", attrs.hAbility];
+	} else if (standard) {
+		return [standard, "Standard Action", attrs.hStandard];
+	} else if (swift) {
+		return [swift, "Swift Action", attrs.hSwift];
+	} else if (move) {
+		return [move, "Move-Equivalent Action", attrs.hMove];
+	} else if (fullround) {
+		return [fullround, "Full-Round Action", attrs.hFullround];
+	} else if (immediate) {
+		return [immediate, "Immediate Action", attrs.hImmediate];
+	} else if (free) {
+		return [free, "Free Action", attrs.hFree];
+	}
+	return false;
+};
+
 export const makeAbilityBlock = ({
 	marked2,
 	prefix,
@@ -29,6 +51,7 @@ export const makeAbilityBlock = ({
 		fullround, move, free,
 		provokes, special,
 		passive, ability,
+		hSpecial, hImp,
 		order,
 		usage, useNC,
 		useL, useM, useInc, useL3, // default useUnit is "round"
@@ -37,7 +60,18 @@ export const makeAbilityBlock = ({
 		containerInfo
 	} = attrs;
 	const output = [];
-	const doParse = (input) => marked2.parseInline(convertEncodedInfo(input));
+	const doParse = (input, highlight = false) => {
+		if(highlight) {
+			let m, highlights = "", checking = convertEncodedInfo(input);
+			while(m = checking.match(/^(.*?)[*]{3}(.+?)[*]{3}(.*)$/)) {
+				const [, pre, found, post] = m;
+				highlights = `${highlights}${pre}@HL[${found}]`;
+				checking = post;
+			}
+			return marked2.parseInline(highlights + checking);
+		}
+		return marked2.parseInline(convertEncodedInfo(input));
+	};
 	//
 	// DETERMINE ANY USAGE LIMITS
 	//
@@ -287,7 +321,7 @@ export const makeAbilityBlock = ({
 	} else if (order) {
 		const path = order.split("");
 		path.forEach(ab => {
-			let title = "", what = "";
+			let title = "", what = "", h = false;
 			switch(ab) {
 				case "u":
 					title = "Usage";
@@ -296,34 +330,42 @@ export const makeAbilityBlock = ({
 				case "s":
 					title = "Standard Action";
 					what = standard;
+					h = attrs.hStandard;
 					break;
 				case "m":
 					title = "Move-Equivalent Action";
 					what = move;
+					h = attrs.hMove;
 					break;
 				case "w":
 					title = "Swift Action";
 					what = swift;
+					h = attrs.hSwift;
 					break;
 				case "i":
 					title = "Immediate Action";
 					what = immediate;
+					h = attrs.hImmediate;
 					break;
 				case "r":
 					title = "Full-Round Action";
 					what = fullround;
+					h = attrs.hFullround;
 					break;
 				case "f":
 					title = "Free Action";
 					what = free;
+					h = attrs.hFree;
 					break;
 				case "p":
 					title = "Passive Ability";
 					what = passive;
+					h = attrs.hPassive;
 					break;
 				case "a":
 					title = "Ability";
 					what = ability;
+					h = attrs.hAbility;
 					break;
 				default:
 					logError(`Invalid token [${ab}] in order attribute [${text}]`);
@@ -335,7 +377,7 @@ export const makeAbilityBlock = ({
 				+ title
 				+ abPairPartClose
 				+ abPairEndOpen
-				+ doParse(what)
+				+ doParse(what, h)
 				+ abPairPartClose
 				+ abPairClose
 			);
@@ -353,40 +395,19 @@ export const makeAbilityBlock = ({
 				+ abPairClose
 			);
 		}
-		if(standard || swift || fullround || move || immediate || free) {
+		const ab = parseAtts(attrs);
+		if(ab) {
+			const [description, title, highlight] = ab;
 			output.push(
-					abPairOpen
-					+ abPairStartOpen
-					+ (
-						standard ? "Standard" : (
-							swift ? "Swift" : (
-								fullround ? "Full-Round" : (
-									move ? "Move-Equivalent" : (
-										immediate ? "Immediate" : "Free"
-									)
-								)
-							)
-						)
-					)
-					+ " Action"
-					+ abPairPartClose
-					+ abPairEndOpen
-					+ doParse(standard || swift || fullround || move || immediate || free)
-					+ abPairPartClose
-					+ abPairClose
-				);
-		} else if (passive || ability) {
-			output.push(
-					abPairOpen
-					+ abPairStartOpen
-					+ (passive ? "Passive " : "")
-					+ "Ability"
-					+ abPairPartClose
-					+ abPairEndOpen
-					+ doParse(passive || ability)
-					+ abPairPartClose
-					+ abPairClose
-				);
+				abPairOpen
+				+ abPairStartOpen
+				+ title
+				+ abPairPartClose
+				+ abPairEndOpen
+				+ doParse(description, highlight)
+				+ abPairPartClose
+				+ abPairClose
+			);
 		}
 	}
 	//
@@ -420,19 +441,21 @@ export const makeAbilityBlock = ({
 			if(!text) {
 				return;
 			}
-			const level = ordinal(i + 1);
 			output.push(
 				abPairOpen
 				+ abPairStartOpen
-				+ `At ${level} Level`
+				+ `At ${ordinal(i + 1)} Level`
 				+ abPairPartClose
 				+ abPairEndOpen
-				+ doParse(text)
+				+ doParse(text, hImp)
 				+ abPairPartClose
 				+ abPairClose
 			);
 		});
 	}
+	//
+	// SPECIAL
+	//
 	if(special) {
 		output.push(
 				abPairOpen
@@ -440,7 +463,7 @@ export const makeAbilityBlock = ({
 				+ "Special"
 				+ abPairPartClose
 				+ abPairEndOpen
-				+ doParse(special)
+				+ doParse(special, hSpecial)
 				+ abPairPartClose
 				+ abPairClose
 			);

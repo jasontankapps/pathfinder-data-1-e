@@ -387,7 +387,11 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"useL", "useM",
 					"useL3",
 					"useUnit"
-				], [ /^(([sl]|imp)(1?[1-9]|[12]0)|s0)$/, /^use(Mod|Inc)[1-9]?$/ ], logError);
+				], [
+					/^(([sl]|imp)(1?[1-9]|[12]0)|s0)$/,
+					/^use(Mod|Inc)[1-9]?$/,
+					/^h(Special|Standard|Swift|Ability|Free|Fullround|Imp|Immediate|Passive|Move)$/
+				], logError);
 				flags.icon = true;
 				flags.link = true;
 				const marked2 = makeNewMarkedInstance();

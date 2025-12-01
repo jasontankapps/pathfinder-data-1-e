@@ -110,7 +110,7 @@
 			"",
 			"::ab[Swift Alchemy (ex)]{jl=\"Other Abilities\" l=3 icon=boost order=pm flavor=\"You can create alchemical items with astounding speed.\" passive=\"It takes you half the normal amount of time to create alchemical items.\" move=\"You can apply poison to a weapon. (This is normally a standard action.)\"}",
 			"",
-			"::ab[Swift Poisoning (Ex)]{l=6 icon=boost swift=\"You can now apply a dose of poison to a weapon as a **swift action.**\"}",
+			"::ab[Swift Poisoning (Ex)]{l=6 icon=boost swift=\"You can now apply a dose of poison to a weapon as a ***swift action.***\" hSwift}",
 			"",
 			"::ab[Persistent Mutagen (Su)]{l=14 icon=boost passive=\"The effects of a mutagen now last for 1 hour per level.\"}",
 			"",
