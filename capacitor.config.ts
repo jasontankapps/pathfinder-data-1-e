@@ -11,7 +11,8 @@ const config: CapacitorConfig = {
     Keyboard: {
       resizeOnFullScreen: true
     },
-  }
+  },
+  zoomEnabled: true
 };
 
 export default config;
