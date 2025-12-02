@@ -178,14 +178,14 @@
 			"Pathfinder RPG Bestiary",
 			"Ultimate Magic",
 			"Pathfinder #30: The Twice-Damned Prince",
-			"Pathfinder #43: The Haunting of Harrowstone"
+			"Pathfinder #43: Haunting of Harrowstone"
 		],
 		"description": [
 			"*The skeleton locked within rattles as this animated cage lurches forward on chain legs in search of new prisoners.*",
 			"",
 			"::mh[Animated Object]{cr=3}",
 			"",
-			"::minfo{source=\"Pathfinder RPG Bestiary/14;Ultimate Magic/111;Pathfinder #30: The Twice-Damned Prince/68;Pathfinder #43: The Haunting of Harrowstone/80\" xp=800 n medium construct init=+0 dv=60 llv pcp=-5}",
+			"::minfo{source=\"Pathfinder RPG Bestiary/14;Ultimate Magic/111;Pathfinder #30: The Twice-Damned Prince/68;Pathfinder #43: Haunting of Harrowstone/80\" xp=800 n medium construct init=+0 dv=60 llv pcp=-5}",
 			"",
 			"::mdefense{ac=\"14/10/12\" mod=\"+4 natural\" hp=\"36~3d10+20\" fort=+1 ref=+1 will=-4 def=\"hardness 5 (or more)\" immune=\"‹umr/construct traits›\"}",
 			"",
@@ -248,8 +248,8 @@
 			"[^U]: {source/Ultimate Magic/ pg. 111}",
 			"[^T]: {source/Pathfinder #30: The Twice-Damned Prince/ pg. 68}",
 			"[^D]: Pathfinder #30: The Twice-Damned Prince pg. 69",
-			"[^S]: {source/Pathfinder #43: The Haunting of Harrowstone/ pg. 80}",
-			"[^H]: Pathfinder #43: The Haunting of Harrowstone pg. 81"
+			"[^S]: {source/Pathfinder #43: Haunting of Harrowstone/ pg. 80}",
+			"[^H]: Pathfinder #43: Haunting of Harrowstone pg. 81"
 		]
 	},
 	"animate_hoard": {
