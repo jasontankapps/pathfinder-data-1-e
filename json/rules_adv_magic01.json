@@ -918,7 +918,6 @@
 		"parent_topics": [ "advanced_magic_topics" ],
 		"subtopics": [
 			"animated_objects",
-			"new_animated_object_abilities",
 			"building_new_constructs",
 			"repairing_constructs",
 			"construct_modifications"
@@ -936,13 +935,19 @@
 	"animated_objects": {
 		"name": "Animated Objects",
 		"subtitle": "Constructs",
-		"sources": [ "Ultimate Magic" ],
+		"sources": [
+			"Ultimate Magic",
+			"The Haunting of Harrowstone"
+		],
 		"description": [
 			"‹SOURCE Ultimate Magic/111›",
 			"",
 			"Not all constructs are built with the ‹feat/Craft Construct› feat. Spells like ‹spell/animate objects› allow a caster to temporarily animate an existing object. These constructs are in many ways weaker than manufactured constructs, as they are susceptible to dispelling and antimagic.",
 			"",
-			"A caster can use the *animate objects* spell to instantly create a temporary construct. A ‹spell/permanency› spell cast upon an animated object makes the construct permanent; however, it can still be dispelled or suppressed by antimagic. Craft Construct creates permanent animated objects not susceptible to dispelling and antimagic. The CR of a potential animated object depends on its size and abilities, as explained in the ‹monster/animated object« monster entry›."
+			"A caster can use the *animate objects* spell to instantly create a temporary construct. A ‹spell/permanency› spell cast upon an animated object makes the construct permanent; however, it can still be dispelled or suppressed by antimagic. Craft Construct creates permanent animated objects not susceptible to dispelling and antimagic. The CR of a potential animated object depends on its size and abilities, as explained in the ‹monster/animated object« monster entry›.",
+			"",
+			"‹SOURCE Pathfinder #43: The Haunting of Harrowstone/81›",
+			"Magic-users can create permanent animated objects in one of two ways, either by using the *animate objects* spell in conjunction with *permanency,* or by making use of the Craft Construct feat. Using the Craft Construct feat requires the creator to construct or purchase the object he wishes to animate. He must then spend an amount of gold on reagents - to determine the amount, add the animated object's HD to its CP, and multiply the total by 1,000. The creator must be of a caster level equal to or higher than the animated object's Hit Dice."
 		],
 		"parent_topics": [
 			"advanced_magic_topics",
@@ -950,42 +955,6 @@
 		],
 		"siblings": [
 			"animated_objects",
-			"new_animated_object_abilities",
-			"building_new_constructs",
-			"repairing_constructs",
-			"construct_modifications"
-		]
-	},
-	"new_animated_object_abilities": {
-		"name": "New Animated Object Abilities",
-		"subtitle": "Constructs",
-		"sources": [ "Ultimate Magic" ],
-		"description": [
-			"‹SOURCE Ultimate Magic/111›",
-			"",
-			"The following are new abilities that can be applied to animated objects, whether created by the animate objects spell or with the ‹feat/Craft Construct› feat. Adding to these abilities requires the expenditure of Construction Points (CP), as described in the ‹monster/Animated Object« monster entry›.",
-			"",
-			"@HL[Augmented Critical (Ex, 1 CP):] Increase the threat range for the animated object's melee attacks by 1 or the threat multiplier by 1. This cannot combine with itself or with the piercing attack or slashing attack object abilities.",
-			"",
-			"@HL[Exceptional Reach (Ex, 1 CP):] The object gains +5 feet of reach with one melee attack. Increase reach on all attacks for an additional +1 CP.",
-			"",
-			"@HL[Improved Attack (Ex, 1 CP):] All the animated object's melee or ranged attacks do damage as though it were one size category larger. A crafter must purchase Improved Attack separately for melee and ranged attacks.",
-			"",
-			"@HL[Piercing Attack (Ex, 1 CP):] Replace one melee attack with an attack that does the same amount of piercing damage and has a &times;3 multiplier. Replace all melee attacks for an additional +1 CP. Object abilities that specify slam attacks do not work on piercing attacks.",
-			"",
-			"@HL[Ranged Attack (Ex, 2 CP):] Replace one slam attack with a ranged attack. It does the same amount of damage, and has a range of 20 feet. Replace all attacks for an additional +2 CP. Object abilities that specify slam attacks do not work on ranged attacks.",
-			"",
-			"@HL[Slashing Attack (Ex, 1 CP):] Replace one slam attack with an attack that does slashing damage and has either a 19-20 threat range (for blade-like attacks) or a &times;3 threat multiplier (for axe- or scythe-like attacks). Replace all melee attacks for an additional +1 CP. Object abilities that specify slam attacks do not work on slashing attacks.",
-			"",
-			"@HL[Trip (Ex, 2 CP):] The object gains the trip special ability with one of its slam attacks."
-		],
-		"parent_topics": [
-			"advanced_magic_topics",
-			"building_and_modifying_constructs"
-		],
-		"siblings": [
-			"animated_objects",
-			"new_animated_object_abilities",
 			"building_new_constructs",
 			"repairing_constructs",
 			"construct_modifications"
@@ -1008,7 +977,6 @@
 		"subtopics": [ "pricing_a_new_construct" ],
 		"siblings": [
 			"animated_objects",
-			"new_animated_object_abilities",
 			"building_new_constructs",
 			"repairing_constructs",
 			"construct_modifications"
@@ -1057,7 +1025,6 @@
 		],
 		"siblings": [
 			"animated_objects",
-			"new_animated_object_abilities",
 			"building_new_constructs",
 			"repairing_constructs",
 			"construct_modifications"
@@ -1129,7 +1096,6 @@
 		],
 		"siblings": [
 			"animated_objects",
-			"new_animated_object_abilities",
 			"building_new_constructs",
 			"repairing_constructs",
 			"construct_modifications"
