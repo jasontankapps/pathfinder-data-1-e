@@ -10,27 +10,29 @@
 			"",
 			"**Weapon and Armor Proficiency:** Brawling blademasters are proficient with all simple and martial weapons, plus the ‹eq-weapon/katana› and ‹eq-weapon/wakizashi›. Brawling blademasters are proficient with light armor, but not with shields.",
 			"",
-			"This alters the samurai's weapon and armor proficiency.",
+			"This alters the samurai's @HL[weapon and armor proficiency].",
 			"",
 			"**Empty Hand (Ex):** A brawling blademaster gains ‹feat/Improved Unarmed Strike› as a bonus feat. She uses her samurai level as her ‹class/monk› level for determining the amount of damage she deals with an unarmed strike. These levels stack with monk levels to determine the brawling blademaster's unarmed strike damage.",
 			"",
-			"This replaces mount.",
+			"This replaces @HL[mount].",
 			"",
 			"**Nimble (Ex):** At 2nd level, a brawling blademaster gains the ‹class/gunslinger«'s› nimble class feature, using her samurai level as his gunslinger level.",
 			"",
-			"**Dual Expertise (Ex):** At 3rd level, a brawling blademaster gains ‹feat/Two-Weapon Fighting› as a bonus feat, even if she doesn't meet the prerequisites. Furthermore, when the brawling blademaster selects a feat with the bonus feat class feature, she can ignore any Dexterity requirements for the feat if its prerequisites include the Two-Weapon Fighting feat. This replaces weapon expertise.",
+			"**Dual Expertise (Ex):** At 3rd level, a brawling blademaster gains ‹feat/Two-Weapon Fighting› as a bonus feat, even if she doesn't meet the prerequisites. Furthermore, when the brawling blademaster selects a feat with the bonus feat class feature, she can ignore any Dexterity requirements for the feat if its prerequisites include the Two-Weapon Fighting feat.",
+			"",
+			"This replaces @HL[weapon expertise].",
 			"",
 			"**Harmonious Flow (Ex):** At 4th level, the brawling blademaster becomes skilled at combining weapon attacks and unarmed strikes into a harmonious combat style. When attacking the target of her challenge, the brawling blademaster doesn't take the usual -2 penalty on attack rolls associated with attacking with two weapons if her main-hand weapon is a light or one-handed manufactured weapon and her off-hand weapon is an unarmed strike (or vice versa). While she's using this ability, one of her hands must be empty even if she uses another body part to make an unarmed strike.",
 			"",
-			"This replaces mounted archer.",
+			"This replaces @HL[mounted archer].",
 			"",
 			"**Perfect Clarity (Ex):** At 5th level, the brawling blademaster sees all her foes with perfect clarity even when focused on one opponent. She no longer takes a penalty to her AC during a challenge.",
 			"",
-			"This ability replaces banner.",
+			"This ability replaces @HL[banner].",
 			"",
 			"**Superior Focus (Ex):** At 14th level, the brawling blademaster gains a +2 bonus on saving throws during a challenge.",
 			"",
-			"This replaces greater banner."
+			"This replaces @HL[greater banner]."
 		]
 	},
 	"ironbound_sword": {
@@ -44,15 +46,15 @@
 			"",
 			"**Merciful Combatant (Ex):** At 3rd level, an ironbound sword becomes an expert at defeating foes without killing them. An ironbound sword can use any weapon to deal nonlethal damage without taking the normal -4 penalty on attack rolls. Additionally, the ironbound sword gains a +2 bonus on combat maneuvers against a target so long as the last successful attack she made against that target dealt nonlethal damage. Her samurai levels count as fighter levels and stack with fighter levels for the purposes of fighter and samurai prerequisites and class features.",
 			"",
-			"This replaces weapon expertise.",
+			"This replaces @HL[weapon expertise].",
 			"",
 			"**Subduing Knockout (Ex):** At 5th level, once per day, an ironbound sword can unleash a devastating attack that can instantly knock a target unconscious. She must announce this intent before making her attack roll. If the ironbound sword's attack hits and the target takes damage from the blow, the target must succeed at a Fortitude saving throw (DC = 10 + half the ironbound sword's level + the higher of the ironbound sword's Strength or Dexterity modifier) or fall unconscious for 1d6 rounds. Each round on its turn, the unconscious target can attempt a new saving throw to end the effect as a full-round action that does not provoke attacks of opportunity. Creatures immune to critical hits or nonlethal damage are immune to this ability. At 10th level, the ironbound sword can use this ability twice per day; at 15th level, she can use it three times per day.",
 			"",
-			"This replaces banner.",
+			"This replaces @HL[banner].",
 			"",
 			"**Blade Reversal (Ex):** At 14th level, an ironbound sword can turn the force of an opponent's attacks back against them. Whenever the ironbound sword takes a ‹misc/full defense› action, she can expend an attack of opportunity to attempt to counter melee attacks made against her. This counter is a single attack roll at the ironbound blade's full base attack bonus that resolves before the enemy's attack. If the counter successfully hits the attacking enemy's AC and if the ironbound sword's attack roll is higher than the attacking creature's attack roll, the ironbound sword takes no damage from the enemy's attack and can initiate a disarm combat maneuver against the attacking enemy as a free action. If the triggering attack was made with a natural attack or unarmed strike, a successful disarm combat maneuver renders that natural attack or unarmed strike unusable until the victim spends a standard action to reset dislocated joints. In addition, the ironbound sword can spend one use of her resolve when she hits with a nonlethal attack to initiate a disarm combat maneuver against her target as a free action.",
 			"",
-			"This replaces greater banner."
+			"This replaces @HL[greater banner]."
 		]
 	},
 	"sovereign_blade": {
@@ -68,15 +70,15 @@
 			"",
 			"**Dogmatic Denial (Ex):** A sovereign blade gains a +2 bonus on saving throws against spells with any of the following descriptors that don't match part of the character's own alignment: chaotic, evil, good, or lawful.",
 			"",
-			"This ability replaces mount.",
+			"This ability replaces @HL[mount].",
 			"",
 			"**Golden Armor (Su):** At 4th level, a sovereign blade can spend one use of her resolve to cause her armor to become golden for 1 round per class level, gaining energy resistance equal to 1/2 her samurai level against one energy type of her choice.",
 			"",
-			"This ability replaces mounted archer.",
+			"This ability replaces @HL[mounted archer].",
 			"",
 			"**Sovereign Breath (Sp):** At 6th level, the sovereign blade can issue forth an immense roar similar to the breath weapon of a ‹family/sovereign dragon›. This functions as dragon's breath, except it deals sonic damage in a 30-foot cone and has a caster level equal to half the sovereign blade's samurai level. The sovereign blade can use this ability once per day, plus one additional time per day at 12th and 18th levels.",
 			"",
-			"This replaces the bonus feats a samurai gained at 6th, 12th, and 18th level."
+			"This replaces the @HL[bonus feats] a samurai gained at 6th, 12th, and 18th level."
 		]
 	},
 	"sword_saint": {
@@ -94,13 +96,19 @@
 			"",
 			"At 10th level, a sword saint learns to focus faster and is able to make an iaijutsu strike as a standard action, and the penalty to his AC is reduced to -2.",
 			"",
-			"This ability replaces a samurai's mount.",
+			"This ability replaces a samurai's @HL[mount].",
 			"",
-			"**Brutal Slash (Ex):** At 3rd level, a sword saint's iaijutsu strike becomes even more deadly. If a sword saint threatens a critical hit with his iaijutsu strike, he adds a bonus equal to 1/2 his class level to the attack roll to confirm a critical hit. This ability replaces mounted charge.",
+			"**Brutal Slash (Ex):** At 3rd level, a sword saint's iaijutsu strike becomes even more deadly. If a sword saint threatens a critical hit with his iaijutsu strike, he adds a bonus equal to 1/2 his class level to the attack roll to confirm a critical hit.",
 			"",
-			"**Terrifying Iaijutsu (Ex):** At 5th level, a sword saint's iaijutsu strike devastates the morale of foes that witness it. When a sword saint successfully hits with an iaijutsu strike, all foes within 30 feet must succeed at a Will save (DC 10 + 1/2 the sword saint's class level + the sword saint's Cha modifier) or become shaken for 1d4+1 rounds. This ability replaces banner.",
+			"This ability replaces @HL[mounted charge].",
 			"",
-			"**Roaring Iaijutsu (Ex):** At 14th level, a sword saint's iaijutsu strike deafens foes upon impact. When a sword saint successfully hits with an iaijutsu strike, all foes within 30 feet must succeed at a Fortitude save (DC 10 + 1/2 the sword saint's class level + the sword saint's Str modifier) or be deafened for 1d4 minutes. This ability replaces greater banner."
+			"**Terrifying Iaijutsu (Ex):** At 5th level, a sword saint's iaijutsu strike devastates the morale of foes that witness it. When a sword saint successfully hits with an iaijutsu strike, all foes within 30 feet must succeed at a Will save (DC 10 + 1/2 the sword saint's class level + the sword saint's Cha modifier) or become shaken for 1d4+1 rounds.",
+			"",
+			"This ability replaces @HL[banner].",
+			"",
+			"**Roaring Iaijutsu (Ex):** At 14th level, a sword saint's iaijutsu strike deafens foes upon impact. When a sword saint successfully hits with an iaijutsu strike, all foes within 30 feet must succeed at a Fortitude save (DC 10 + 1/2 the sword saint's class level + the sword saint's Str modifier) or be deafened for 1d4 minutes.",
+			"",
+			"This ability replaces @HL[greater banner]."
 		]
 	},
 	"ward_speaker": {
@@ -112,7 +120,9 @@
 			"‹SOURCE Disciple's Doctrine/26›  ",
 			"The ward speaker draws power from simple rituals to honor the spirits found throughout the world so that he might better protect those entrusted to his care.",
 			"",
-			"**Alignment:** A ward speaker must be of a nonevil alignment. This alters the samurai's alignment.",
+			"**Alignment:** A ward speaker must be of a nonevil alignment.",
+			"",
+			"This alters the samurai's @HL[alignment].",
 			"",
 			"**Propitiation (Ex, Su, Sp):** A ward speaker can perform a special ritual to propitiate ‹family/kami› and gain a sliver of their power. This ritual must be performed at a shrine or a location warded by a specific type of kami. The propitiation takes 1 minute and involves clapping, ringing bells, bowing, and token offerings of coins, food, incense, or other gifts. The ward speaker's propitiation must be performed uninterrupted to receive any benefits from it. At the end of this ritual, the ward speaker immediately gains a fortune depending on the type of kami he sought to propitiate.",
 			"",
@@ -120,7 +130,7 @@
 			"",
 			"The ward speaker can perform this ritual once per day at 1st level, plus one additional time per day for every 3 levels beyond 1st, to a maximum of seven times per day at 19th level. He can maintain only one fortune at a time; performing a propitiation while he already has a fortune active ends the previous fortune and its benefits.",
 			"",
-			"This replaces resolve, greater resolve, and true resolve.",
+			"This replaces @HL[resolve], @HL[greater resolve], and @HL[true resolve].",
 			"",
 			">**Jinushigami (Ex, Sp):** The ward speaker (and his mount, if he has one) gains a 10-foot enhancement bonus to base speed. At 9th level, this enhancement bonus increases to 20 feet. At 17th level, once per day, he can dismiss this fortune as an immediate action to cast ‹spell/earthquake› as a spell-like ability, using his samurai level as his caster level.",
 			">",
@@ -134,7 +144,7 @@
 			"",
 			"**Resilient Stand (Ex):** At 11th level, the spirits can bolster a ward speaker's willpower and resolve, granting him an inner reservoir he can use when he needs it most. If a ward speaker has not expended his daily uses of propitiation, he can call upon the spirits to reroll a saving throw during an honorable stand instead of expending a use of resolve to do so. He must take the result of the second roll, even if it is worse. This expends a daily use of propitiation.",
 			"",
-			"This alters honorable stand."
+			"This alters @HL[honorable stand]."
 		]
 	},
 	"warrior_poet": {
@@ -148,7 +158,7 @@
 			"",
 			"**Dancer's Grace (Ex):** When wearing no armor and not using a shield, the warrior poet gains a bonus to Armor Class equal to her Charisma bonus (to a maximum of her samurai level). A warrior poet loses this bonus while flat-footed or otherwise denied her Dexterity bonus.",
 			"",
-			"This replaces the samurai's proficiency with medium armor, heavy armor, and shields.",
+			"This replaces the samurai's @HL[proficiency with medium armor, heavy armor, and shields].",
 			"",
 			"**Flourish (Ex):** The warrior poet is skilled at performing elegant moves in battle. At 1st level, the warrior poet gains a flourish of her choice from the list below. She gains another flourish at 3rd, 5th, 9th, 13th, 17th, and 20th levels.",
 			"",
@@ -166,21 +176,21 @@
 			">",
 			">**Wrath of the Heavens:** The warrior poet gains ‹feat/Shot on the Run› as a bonus feat, ignoring its prerequisites.",
 			"",
-			"This replaces mount, weapon expertise, banner, and greater banner.",
+			"This replaces @HL[mount], @HL[weapon expertise], @HL[banner], and @HL[greater banner].",
 			"",
 			"**Graceful Warrior (Ex):** The warrior poet gains ‹feat/Weapon Finesse› as a bonus feat and can apply its benefits to ‹eq-weapon/glaive«s›, ‹eq-weapon/katana«s›, and ‹eq-weapon/naginata«s› as if they were light weapons. This does not alter the weapons' properties for the purposes of any other effects.",
 			"",
 			"**Skirmisher's Challenge (Ex):** The warrior poet adds her samurai level to her damage rolls only on her first successful attack against a challenged target each round.",
 			"",
-			"This modifies challenge.",
+			"This modifies @HL[challenge].",
 			"",
 			"**Graceful Strike (Ex):** At 4th level, when the warrior poet uses Weapon Finesse to make a melee attack that adds her Dexterity bonus to attack rolls and her Strength bonus to damage rolls, she also adds half her samurai level to damage rolls.",
 			"",
-			"This replaces mounted archer and demanding challenge.",
+			"This replaces @HL[mounted archer] and @HL[demanding challenge].",
 			"",
 			"**Battle Dance (Ex):** At 6th level, the warrior poet gains Spring Attack as a bonus feat. At 12th level, she gains ‹feat/Improved Spring Attack› as a bonus feat, and at 18th level, she gains ‹feat/Greater Spring Attack› as a bonus feat. The warrior poet does not need to meet the prerequisites for these feats.",
 			"",
-			"This replaces the samurai's bonus combat feats."
+			"This replaces the samurai's @HL[bonus combat feats]."
 		]
 	},
 	"yojimbo": {
@@ -194,15 +204,15 @@
 			"",
 			"**Resolute Defense (Ex):** At 1st level, whenever a yojimbo issues a challenge, he can select one ally as his ward for the duration of the challenge. Whenever the yojimbo is adjacent to his ward, he can use resolve, greater resolve, and true resolve on his ward rather than targeting himself.",
 			"",
-			"This ability replaces mount.",
+			"This ability replaces @HL[mount].",
 			"",
 			"**Armor Expertise (Ex):** At 3rd level, a yojimbo selects one type of armor, such as ‹eq-armor/chain shirt› or ‹eq-armor/scale mail›. The yojimbo gains armor training, treating his samurai level as his ‹class/fighter› level, when wearing the selected armor.",
 			"",
-			"This ability replaces weapon expertise.",
+			"This ability replaces @HL[weapon expertise].",
 			"",
 			"**Intercept (Ex):** At 4th level, a yojimbo learns to better disrupt the attacks of his enemies. He gains ‹feat/Bodyguard› as a bonus feat, even if he does not meet the prerequisite. In addition, whenever the yojimbo uses the aid another action to increase an ally's Armor Class, the bonus to Armor Class from the aid another action increases by 1.",
 			"",
-			"This ability replaces mounted archer."
+			"This ability replaces @HL[mounted archer]."
 		]
 	}
 }

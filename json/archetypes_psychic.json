@@ -14,7 +14,9 @@
 			"",
 			"An amnesiac's faulty memory makes remembering and casting spells difficult, but the increased flexibility can be a great benefit. Instead of choosing a number of spells known from the ‹class/psychic«'s› Spells Known table, an amnesiac accesses spells she knew the previous day from the recesses of her mind. This requires 1 hour of meditation. Each day, for each spell level the amnesiac can cast, she retains a number of spells known equal to half the number listed on the Spells Known table, rounded up. These spells must be selected from spells the amnesiac knew the previous day (including any spells she remembered using spell recollection; see below). The remainder of her spells known (half that of a normal psychic, rounded down) become amnesia slots, which the amnesiac can use with her spell recollection ability (see below). To determine the spells she knows on the day when she first takes this archetype, the amnesiac picks any one 1st-level spell from the psychic spell list.",
 			"",
-			"This change to spells doesn't apply to knacks (0-level spells) or discipline spells, which function the same way they do for a normal psychic. When the amnesiac gains access to 3rd-level spells, she gains full recall of her 1st-level spells and no longer gains 1st-level amnesia slots, instead gaining the full number of 1st-level spells known from the Spells Known table and casting them as a normal psychic. When this happens, the amnesiac can select any level-appropriate spells from the psychic spell list as her spells known, even if they were never among the spells she prepared or recalled; once selected, these spells can no longer be changed, as with a normal psychic. Each time the psychic gains access to a new level of spells, she gains full memory of spells 2 levels lower in the same way (gaining full memory and permanently selecting her 2nd-level spells when she gains access to 4th-level spells, and so on). This ability alters spellcasting.",
+			"This change to spells doesn't apply to knacks (0-level spells) or discipline spells, which function the same way they do for a normal psychic. When the amnesiac gains access to 3rd-level spells, she gains full recall of her 1st-level spells and no longer gains 1st-level amnesia slots, instead gaining the full number of 1st-level spells known from the Spells Known table and casting them as a normal psychic. When this happens, the amnesiac can select any level-appropriate spells from the psychic spell list as her spells known, even if they were never among the spells she prepared or recalled; once selected, these spells can no longer be changed, as with a normal psychic. Each time the psychic gains access to a new level of spells, she gains full memory of spells 2 levels lower in the same way (gaining full memory and permanently selecting her 2nd-level spells when she gains access to 4th-level spells, and so on).",
+			"",
+			"This ability alters @HL[spellcasting].",
 			"",
 			"**Spell Recollection (Ex):** Once per hour as a swift action, an amnesiac can attempt to remember any spell from the psychic spell list of her choice from either of the 2 highest spell levels she can cast. When she does, she rolls on the table below to determine the result. Because the mental stress of combat brings memories to the surface more easily, the amnesiac adds 1d10 to this roll's result if she's in combat when she attempts to recall a spell. Regardless of the result, the amnesiac expends an amnesia slot of the appropriate level for the spell she is attempting to remember; she must cast the spell remembered (if any) using that amnesia slot during the same round, or the spell slot is lost without effect. Once a spell has been remembered in this way, the amnesiac can cast it as one of her spells known for the rest of the day (even if she failed to cast the spell during the round in which she remembered it), unless spell recollection allowed her to cast a spell of a higher level than she would normally be able to cast.",
 			"",
@@ -63,7 +65,7 @@
 			">",
 			">**The Follower:** ‹spell/forced quiet› (1st), ‹spell/darkness› (2nd), ‹spell/vision of hell› (3rd), ‹spell/enervation› (4th), ‹spell/waves of fatigue› (5th), ‹spell/shadow walk› (6th), ‹spell/simulacrum› (7th), ‹spell/destruction› (8th), ‹spell/energy drain› (9th).",
 			"",
-			"This replaces the bonus spells normally granted by the psychic's discipline and the phrenic amplifications gained at 1st and 11th levels.",
+			"This replaces the @HL[bonus spells] normally granted by the psychic's discipline and the @HL[phrenic amplifications] gained at 1st and 11th levels.",
 			"",
 			"**Major Amplifications:** An esoteric starseeker gains this ability at 15th level."
 		]
@@ -77,7 +79,9 @@
 			"‹SOURCE Occult Adventures/104›  ",
 			"Formless adepts master their psychic powers to unshackle themselves from the confines of the flesh and empower their spellcasting. They learn to assume increasingly insubstantial forms until they become like living ghosts.",
 			"",
-			"**Phrenic Charisma:** A formless adept uses his Charisma modifier to determine the number of points in his phrenic pool. This ability alters phrenic pool.",
+			"**Phrenic Charisma:** A formless adept uses his Charisma modifier to determine the number of points in his phrenic pool.",
+			"",
+			"This ability alters @HL[phrenic pool].",
 			"",
 			"**Formless Body:** A formless adept gradually sheds his body, taking on increasingly nebulous forms. A formless adept can assume a formless body as a standard action. He can remain in each formless body type for a number of rounds per day equal to 3 + his Charisma modifier. The rounds don't have to be used consecutively, but must be used in 1-round increments. Resuming his physical form takes another standard action; otherwise, the formless adept continues spending rounds of formless body until he runs out of them. The formless adept must return to his physical form before assuming a different formless body.",
 			"",
@@ -87,15 +91,23 @@
 			">",
 			">**Incorporeal Body (Su):** At 13th level, a formless adept can become ‹umr/incorporeal›.",
 			"",
-			"This ability replaces the psychic discipline and discipline powers class features.",
+			"This ability replaces the @HL[psychic discipline] and @HL[discipline powers] class features.",
 			"",
-			"**Formless Spell:** At 1st level, a formless adept gains the formless spell phrenic amplification. He can spend 1 point from his phrenic pool to cast a spell with a standard-action casting time as part of the action he uses to assume his formless body, expending the spell slot as normal. This ability replaces the 1st-level phrenic amplification.",
+			"**Formless Spell:** At 1st level, a formless adept gains the formless spell phrenic amplification. He can spend 1 point from his phrenic pool to cast a spell with a standard-action casting time as part of the action he uses to assume his formless body, expending the spell slot as normal.",
 			"",
-			"**Bonus Spells:** The formless adept adds extra spells to his list of spells known while he's in a formless body (including when he uses the formless spell phrenic amplification). Spells with a duration last for their full duration, even if the psychic reverts to his physical form. For feats and other abilities that require these spells as prerequisites, the psychic counts as knowing the spells but can benefit from the feats and abilities only while in a formless body. The formless adept gains the following spells at the appropriate levels: ‹spell/chill touch› and ‹spell/expeditious retreat› (1st), ‹spell/levitate› and ‹spell/stricken heart› (4th), *gaseous form* and ‹spell/vampiric touch› (6th), ‹spell/shadow step› and ‹spell/telekinesis› (8th), ‹spell/dominate person› and ‹spell/synapse overload› (10th), ‹spell/disintegrate› and ‹spell/enemy hammer› (12th), ‹spell/finger of death› and ‹spell/telekinetic sphere› (14th), ‹spell/etherealness› and ‹spell/power word stun› (16th), and ‹spell/dominate monster› and ‹spell/telekinetic storm› (18th). This ability replaces discipline spells.",
+			"This ability replaces the 1st-level @HL[phrenic amplification].",
 			"",
-			"**Psychic Possession (Su):** At 15th level, while using his incorporeal body ability, a formless adept can attempt to psychically possess another living creature. To use this ability, the formless adept must be adjacent to the target. This effect works as the ‹spell/greater possession› spell and can be maintained only as long as the formless adept maintains his incorporeal body form. The target can attempt a Will save with a DC equal to 10 + 1/2 the formless adept's class level + the formless adept's Intelligence modifier to resist the effect. A creature that successfully saves is immune to the formless adept's psychic possession for 24 hours. This ability replaces the 15th-level phrenic amplification.",
+			"**Bonus Spells:** The formless adept adds extra spells to his list of spells known while he's in a formless body (including when he uses the formless spell phrenic amplification). Spells with a duration last for their full duration, even if the psychic reverts to his physical form. For feats and other abilities that require these spells as prerequisites, the psychic counts as knowing the spells but can benefit from the feats and abilities only while in a formless body. The formless adept gains the following spells at the appropriate levels: ‹spell/chill touch› and ‹spell/expeditious retreat› (1st), ‹spell/levitate› and ‹spell/stricken heart› (4th), *gaseous form* and ‹spell/vampiric touch› (6th), ‹spell/shadow step› and ‹spell/telekinesis› (8th), ‹spell/dominate person› and ‹spell/synapse overload› (10th), ‹spell/disintegrate› and ‹spell/enemy hammer› (12th), ‹spell/finger of death› and ‹spell/telekinetic sphere› (14th), ‹spell/etherealness› and ‹spell/power word stun› (16th), and ‹spell/dominate monster› and ‹spell/telekinetic storm› (18th).",
 			"",
-			"**Formless Master (Su):** At 20th level, a formless adept can assume any formless body as a swift action and change between formless body types as a standard action (without returning to his physical form first). He can use the formless spell phrenic amplification to cast any spell with a swift action casting time when assuming a formless body or any spell with a standard-action casting time while switching between formless bodies. The formless adept also adds his Charisma bonus as a deflection bonus to his AC while in a formless body. A formless adept can attempt a saving throw to bypass any spells that prevent entry of incorporeal creatures (such as ‹spell/anti-incorporeal shell›), even if the spells don't normally allow one. This ability replaces remade self."
+			"This ability replaces @HL[discipline spells].",
+			"",
+			"**Psychic Possession (Su):** At 15th level, while using his incorporeal body ability, a formless adept can attempt to psychically possess another living creature. To use this ability, the formless adept must be adjacent to the target. This effect works as the ‹spell/greater possession› spell and can be maintained only as long as the formless adept maintains his incorporeal body form. The target can attempt a Will save with a DC equal to 10 + 1/2 the formless adept's class level + the formless adept's Intelligence modifier to resist the effect. A creature that successfully saves is immune to the formless adept's psychic possession for 24 hours.",
+			"",
+			"This ability replaces the 15th-level @HL[phrenic amplification].",
+			"",
+			"**Formless Master (Su):** At 20th level, a formless adept can assume any formless body as a swift action and change between formless body types as a standard action (without returning to his physical form first). He can use the formless spell phrenic amplification to cast any spell with a swift action casting time when assuming a formless body or any spell with a standard-action casting time while switching between formless bodies. The formless adept also adds his Charisma bonus as a deflection bonus to his AC while in a formless body. A formless adept can attempt a saving throw to bypass any spells that prevent entry of incorporeal creatures (such as ‹spell/anti-incorporeal shell›), even if the spells don't normally allow one.",
+			"",
+			"This ability replaces @HL[remade self]."
 		]
 	},
 	"magaambyan_telepath": {
@@ -109,21 +121,21 @@
 			"",
 			"**Primal Spells:** A Magaambyan telepath adds one 1st-level spell from the ‹main/druid spell« list› to the psychic spell list and her spells known. Each time a Magaambyan telepath gains the ability to cast a new level of spell, she can add one spell of that level from the druid spell list to both the psychic spell list and her spells known. She casts these spells as psychic spells, and once the spells are selected these choices cannot be changed.",
 			"",
-			"This replaces discipline spells.",
+			"This replaces @HL[discipline spells].",
 			"",
 			"**Nature's Command (Ex):** The Magaambyan telepath's mind-affecting spells can affect even plant creatures. When she casts a mind-affecting spell, the Magaambyan telepath can spend 2 points from her phrenic pool to overcome a plant creature's immunity to mind-affecting effects for the purposes of that spell. This ability functions even on mindless plant creatures, but it has no effect on creatures that aren't plants.",
 			"",
 			"At 11th level, when the Magaambyan telepath casts a mind-affecting or language-dependent spell, the psychic can spend 2 points from her phrenic pool to cause the spell to affect creatures of the plant and animal types as if they were humanoids that understood her language.",
 			"",
-			"This replaces the phrenic amplifications gained at 1st and 11th levels.",
+			"This replaces the @HL[phrenic amplifications] gained at 1st and 11th levels.",
 			"",
 			"**Know the Land (Sp):** At 9th level, the Magaambyan telepath can cast ‹spell/commune with nature› as a spell-like ability once per day, using her psychic level as her caster level. She can also expend any unused spell slot of 5th level or higher to cast commune with nature.",
 			"",
-			"This replaces telepathic bond.",
+			"This replaces @HL[telepathic bond].",
 			"",
 			"**Wild Mind (Su):** At 17th level, when the Magaambyan telepath gains the telepathy ability, she can also mentally communicate with any animal or plant creature as if it had a language.",
 			"",
-			"This alters telepathy."
+			"This alters @HL[telepathy]."
 		]
 	},
 	"mutation_mind": {
@@ -135,7 +147,9 @@
 			"‹SOURCE Occult Adventures/105›  ",
 			"Exposure to unintended spell effects, curses, or sources of radiation cause some to manifest psychic powers. When a mutation mind uses her psychic abilities, her physical body changes under the stress, and she risks losing control if she pushes too far.",
 			"",
-			"**Physical Mutation (Su):** A mutation mind's psychic powers warp her body, allowing her to physically mutate herself as a swift action, which grants her a +4 enhancement bonus to Strength and a -2 penalty to Intelligence. At 12th level, the bonus to Strength increases to +6. A mutation mind can assume her physically mutated form for a number of minutes per day equal to her psychic level. The minutes don't have to be used consecutively, but must be used in 1-minute increments. When the duration runs out, the mutation mind can spend 1 point from her phrenic pool to extend the duration by 1 round. She can continue extending it in this way until she runs out of points. After the mutation ends, the mutation mind is fatigued and can't activate a physical mutation again for 1 round. Turning back to normal before the end of a 1-minute increment takes a standard action. This ability replaces the 1st-level phrenic amplification.",
+			"**Physical Mutation (Su):** A mutation mind's psychic powers warp her body, allowing her to physically mutate herself as a swift action, which grants her a +4 enhancement bonus to Strength and a -2 penalty to Intelligence. At 12th level, the bonus to Strength increases to +6. A mutation mind can assume her physically mutated form for a number of minutes per day equal to her psychic level. The minutes don't have to be used consecutively, but must be used in 1-minute increments. When the duration runs out, the mutation mind can spend 1 point from her phrenic pool to extend the duration by 1 round. She can continue extending it in this way until she runs out of points. After the mutation ends, the mutation mind is fatigued and can't activate a physical mutation again for 1 round. Turning back to normal before the end of a 1-minute increment takes a standard action.",
+			"",
+			"This ability replaces the 1st-level @HL[phrenic amplification].",
 			"",
 			"**Bodily Mutations:** Starting at 3rd level, whenever a mutation mind gains a phrenic amplification, she can select either a phrenic amplification or a bodily mutation. A bodily mutation grants its benefit only when the mutation mind is affected by her physical mutation. Each time she activates her physical mutation, she can activate any number of bodily mutations she possesses.",
 			"",
@@ -159,7 +173,7 @@
 			">",
 			">**Slimy (Ex):** The mutation mind exudes a thin layer of oily slime over her body, granting her a +4 bonus to CMD.",
 			"",
-			"This ability alters phrenic amplifications.",
+			"This ability alters @HL[phrenic amplifications].",
 			"",
 			"**Phrenic Empowerment (Su):** At 7th level, a mutation mind's phrenic amplifications empower her physical mutation. Whenever a mutation mind modifies a spell with a phrenic amplification while affected by her physical mutation, she can increase the bonus to her Strength score from her physical mutation by 2 for a number of rounds equal to the level of the spell she cast. This bonus doesn't stack; if the mutation mind activates it again, she uses the longer duration but doesn't increase the bonus. While under the effect of phrenic empowerment, whenever the mutation mind takes damage, she risks losing control of her powers. At the end of each turn that she takes hit point damage, the mutation mind must succeed at a Will save (DC = 15 + 1/2 her character level) or take a -2 penalty on Will saving throws and to Intelligence. These penalties last for 1 hour after the physical mutation ends and stack with themselves. If the penalty lowers her Intelligence score to 0, the mutation mind is comatose until 1 hour after physical mutation ends.",
 			"",
@@ -177,7 +191,7 @@
 			">",
 			">**Wings (Ex):** The mutation mind sprouts a pair of fleshy, bat-like wings, giving her a fly speed of 60 feet with average maneuverability.",
 			"",
-			"This ability alters major amplifications."
+			"This ability alters @HL[major amplifications]."
 		]
 	},
 	"psychic_duelist": {
@@ -189,7 +203,9 @@
 			"‹SOURCE Occult Adventures/107›  ",
 			"Psychic duelists hone their mental powers for combat, much as warriors do with their blades. They specialize in psychic duels, perfecting their thought-form creatures into mighty weapons.",
 			"",
-			"**Psychic Duel Acumen (Ex):** At 4th level, a psychic duelist adds ‹spell/instigate psychic duel› to her list of spells known, and the save DC of any instigate psychic duel spell she casts increases by 1. Beginning at 6th level, she can also expend any unused psychic spell slot of 3rd level or higher to cast instigate psychic duel. If she does so, she uses the level of the spell slot expended to determine the Will save DC. In addition, when the psychic duelist sacrifices points from her phrenic pool to generate manifestation points for an offensive manifestation, she uses d8s for damage dice instead of d4s. This ability replaces the 4th-level discipline spell.",
+			"**Psychic Duel Acumen (Ex):** At 4th level, a psychic duelist adds ‹spell/instigate psychic duel› to her list of spells known, and the save DC of any instigate psychic duel spell she casts increases by 1. Beginning at 6th level, she can also expend any unused psychic spell slot of 3rd level or higher to cast instigate psychic duel. If she does so, she uses the level of the spell slot expended to determine the Will save DC. In addition, when the psychic duelist sacrifices points from her phrenic pool to generate manifestation points for an offensive manifestation, she uses d8s for damage dice instead of d4s.",
+			"",
+			"This ability replaces the 4th-level @HL[discipline spell].",
 			"",
 			"**Manifestation Amplifications:** At 7th level, a psychic duelist gains a manifestation amplification instead of a phrenic amplification; thereafter, whenever the psychic duelist gains a phrenic amplification, she can select either a phrenic amplification or a manifestation amplification. A manifestation amplification functions for a manifestation as a phrenic amplification does for a spell, with the same restrictions. The manifestation being amplified is called the linked manifestation. Phrenic pool points spent toward manifestation amplifications are separate from points sacrificed to generate manifestation points. For example, a psychic duelist capable of casting 4th-level spells (with a maximum of 4 MP per manifestation) could turn 4 points from her phrenic pool into MP and spend 2 points on a manifestation amplification, expending a total of 6 points from her phrenic pool.",
 			"",
@@ -201,11 +217,15 @@
 			">",
 			">**Reciprocal Defense (Su):** The psychic duelist can spend 1 point from her phrenic pool when using a defensive manifestation to improve her defenses in the real world as well. Her physical body gains a +2 insight bonus to AC for the number of rounds the defensive manifestation lasts, or for 1 round if the manifestation doesn't have a duration. This bonus increases to +3 at 11th level and to +4 at 15th level. This amplification can be linked only to defensive manifestations.",
 			"",
-			"This ability replaces the 7th-level phrenic amplification and alters phrenic amplifications.",
+			"This ability replaces the 7th-level @HL[phrenic amplification] and alters phrenic amplifications.",
 			"",
-			"**Thought Made Real (Su):** At 9th level, a psychic duelist can bring offensive manifestations directly into her foes' minds, attacking with them without entering a psychic duel. When doing so, she can generate manifestation points only by sacrificing a spell, not through any other methods. Using an offensive manifestation in this way functions as casting a spell with a full-round-action casting time. Conditions imposed by these offensive manifestations last for their full duration, even though the target isn't in a psychic duel. The psychic duelist can use manifestation amplifications on offensive manifestations created this way. Such offensive manifestations can't affect thought-form creatures. This is a mind-affecting illusion (phantasm) effect. A thoughtform creature manifested in this way is visible only to its target. This ability replaces telepathic bond.",
+			"**Thought Made Real (Su):** At 9th level, a psychic duelist can bring offensive manifestations directly into her foes' minds, attacking with them without entering a psychic duel. When doing so, she can generate manifestation points only by sacrificing a spell, not through any other methods. Using an offensive manifestation in this way functions as casting a spell with a full-round-action casting time. Conditions imposed by these offensive manifestations last for their full duration, even though the target isn't in a psychic duel. The psychic duelist can use manifestation amplifications on offensive manifestations created this way. Such offensive manifestations can't affect thought-form creatures. This is a mind-affecting illusion (phantasm) effect. A thoughtform creature manifested in this way is visible only to its target.",
 			"",
-			"**Expert Manifester (Ex):** At 17th level, a psychic duelist doesn't have to expend as many resources to create manifestations. She gains 1 additional MP each time she creates a psychic manifestation, in addition to the MP she gains by sacrificing resources. This doesn't increase the maximum number of points she can spend per manifestation, but does allow her to create a manifestation costing 1 MP without sacrificing any resources. This ability replaces telepathy."
+			"This ability replaces @HL[telepathic bond].",
+			"",
+			"**Expert Manifester (Ex):** At 17th level, a psychic duelist doesn't have to expend as many resources to create manifestations. She gains 1 additional MP each time she creates a psychic manifestation, in addition to the MP she gains by sacrificing resources. This doesn't increase the maximum number of points she can spend per manifestation, but does allow her to create a manifestation costing 1 MP without sacrificing any resources.",
+			"",
+			"This ability replaces @HL[telepathy]."
 		]
 	},
 	"psychic_marauder": {
@@ -223,7 +243,7 @@
 			"",
 			"**Skewed Mentality (Ex):** At 2nd level, a psychic marauder becomes alienated from reality as others perceive it. The psychic marauder uses her Charisma modifier on Will saves instead of her Wisdom modifier.",
 			"",
-			"This ability replaces detect thoughts.",
+			"This ability replaces @HL[detect thoughts].",
 			"",
 			"**Aura of Insanity (Su):** At 3rd level, a psychic marauder's madness begins to leak out. As a standard action, the psychic marauder can spend 1 point from her phrenic pool to manifest an aura of insanity, letting bits of her psyche penetrate the minds of those around her. The aura is centered on the psychic marauder and has a radius of 10 feet, increasing by 5 feet for every 3 class levels beyond 3rd. Any creature starting its turn within the aura must succeed at a Will save (DC = 10 + half the psychic marauder's level + the psychic marauder's Charisma modifier) or be confused for 1 round. The psychic marauder can exclude a number of targets inside the radius equal to 1 + 1 for every 3 class levels beyond 3rd, shielding them from her madness. The aura of insanity lasts for a number of rounds equal to the psychic marauder's Charisma modifier. This is a mind-affecting effect.",
 			"",
@@ -231,15 +251,15 @@
 			"",
 			"At 19th level, when a creature would roll to determine the effects of a confusion effect while within the aura of insanity, the psychic marauder can spend 2 points from her phrenic pool to select the result of the affected creature's confused condition without rolling. This does not allow the psychic marauder to control how that result is applied.",
 			"",
-			"This ability replaces the phrenic amplifications gained at 3rd, 11th, and 19th levels.",
+			"This ability replaces the @HL[phrenic amplifications] gained at 3rd, 11th, and 19th levels.",
 			"",
 			"**Cracked Perspectives (Ex):** At 9th level, a psychic marauder's growing madness renders her immune to confusion and insanity effects.",
 			"",
-			"This ability replaces telepathic bond.",
+			"This ability replaces @HL[telepathic bond].",
 			"",
 			"**Unreal Understanding (Ex):** At 20th level, a psychic marauder's mindset becomes completely aberrant, to the point that no outside force can penetrate her psyche. Because of this, the psychic marauder becomes immune to all mind-affecting effects.",
 			"",
-			"This ability replaces remade self."
+			"This ability replaces @HL[remade self]."
 		]
 	},
 	"terror_weaver": {
@@ -253,15 +273,15 @@
 			"",
 			"**Manipulation (Sp):** At 2nd level, a terror weaver can cast ‹spell/charm person› once per day as a spell-like ability. He can also expend any unused spell slot of 1st level or higher to cast charm person. If he does so, he uses the level of the spell slot expended to determine the save DC. When a terror weaver gains this ability, if he already knows charm person, he can learn a different 1st-level spell in place of charm person, losing the old spell in exchange for the new one.",
 			"",
-			"This replaces detect thoughts.",
+			"This replaces @HL[detect thoughts].",
 			"",
 			"**Aura of Intimidation (Sp):** Because he lacks the physical prowess of most orcs, a terror weaver seeks to end fights before they start. At 9th level, he can cast ‹spell/aura of doom› as a spell-like ability once per day. He can also expend any unused spell slot of 4th level or higher to cast aura of doom. Casting the spell using a higher-level spell slot gives no benefit on its own, but the terror weaver can apply metamagic feats that would increase the spell level to the appropriate level. At 11th level, a terror weaver's aura of doom causes enemies to become frightened instead of shaken. At 19th level, it causes enemies to become panicked.",
 			"",
-			"This replaces telepathic bond and the phrenic amplifications gained at 11th and 19th levels.",
+			"This replaces @HL[telepathic bond] and the @HL[phrenic amplifications] gained at 11th and 19th levels.",
 			"",
 			"**Persistent Nightmare (Sp):** Gloomkin often suffer from lifetimes of cruelty and abuse, and a terror weaver repays that suffering back onto his tormentors. At 15th level, when he successfully casts a mind-affecting spell on a target, he can spend 2 points from his phrenic pool to afflict the target with a ‹spell/nightmare› spell the next time it goes to sleep. The day after nightmare has taken effect, regardless of the victim's saving throw, the target takes a -2 penalty on Will saves against the terror weaver's mind-affecting spells and abilities for 24 hours.",
 			"",
-			"This ability replaces the phrenic amplification gained at 15th level."
+			"This ability replaces the @HL[phrenic amplification] gained at 15th level."
 		]
 	}
 }

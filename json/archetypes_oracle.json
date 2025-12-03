@@ -8,9 +8,13 @@
 			"‹SOURCE Advanced Race Guide/24›  ",
 			"The ancient lorekeeper is a repository for all the beliefs and vast knowledge of an ‹race/elve«n<s› people. She shows a strong interest in and understanding of histories and creation legends at a young age, and as she matures her calling to serve as the memory of her long-lived people becomes clear to all who know her. An ancient lorekeeper has the following class features.",
 			"",
-			"**Class Skills:** An ancient lorekeeper adds Knowledge (arcane) and Knowledge (local) to her list of class skills. Whenever she makes a Knowledge check of any kind about a question regarding elves (creatures of the elf subtype), the ancient lorekeeper adds half her class level on her check. This replaces the bonus skills the ancient lorekeeper gains from her mystery.",
+			"**Class Skills:** An ancient lorekeeper adds Knowledge (arcane) and Knowledge (local) to her list of class skills. Whenever she makes a Knowledge check of any kind about a question regarding elves (creatures of the elf subtype), the ancient lorekeeper adds half her class level on her check.",
 			"",
-			"**Elven Arcana (Ex):** At 2nd level, an ancient lorekeeper's mastery of elven legends and philosophy has allowed her to master one spell used by elven wizards. She selects one spell from the ‹main/spells>sorcerer»/wizard« spell list› that is at least one level lower than the highest-level oracle spell she can cast. The ancient lorekeeper gains this as a bonus spell known. The spell is treated as one level higher than its true level for all purposes. The ancient lorekeeper may choose an additional spell at 4th, 6th, 8th, 10th, 12th, 14th, 16th, and 18th levels. This ability replaces the bonus spells she would normally gain at these levels from her chosen mystery.",
+			"This replaces the @HL[bonus skills] the ancient lorekeeper gains from her mystery.",
+			"",
+			"**Elven Arcana (Ex):** At 2nd level, an ancient lorekeeper's mastery of elven legends and philosophy has allowed her to master one spell used by elven wizards. She selects one spell from the ‹main/spells>sorcerer»/wizard« spell list› that is at least one level lower than the highest-level oracle spell she can cast. The ancient lorekeeper gains this as a bonus spell known. The spell is treated as one level higher than its true level for all purposes. The ancient lorekeeper may choose an additional spell at 4th, 6th, 8th, 10th, 12th, 14th, 16th, and 18th levels.",
+			"",
+			"This ability replaces the @HL[bonus spells] she would normally gain at these levels from her chosen mystery.",
 			"",
 			"**Mysteries:** The following oracle mysteries complement the ancient lorekeeper archetype: ‹mystery/Lore›, ‹mystery/Nature›, ‹mystery/Waves›, ‹mystery/Wind›, ‹mystery/Ancestor›, ‹mystery/Time›, ‹mystery/Wood›."
 		]
@@ -26,7 +30,9 @@
 			"",
 			"See below for rules on the black blood itself, but note that a black-blooded oracle does not require access to this eldritch substance to function.",
 			"",
-			"**Curse of Black Blood (Su):** All black-blooded oracles effectively share the same curse: the curse of black blood. The material affects these oracles physically and mentally, altering both physiology and mystic powers. The blood of a black-blooded oracle actually runs black, and wounds she suffers are infected by her own power and are difficult to heal. She is immune to the effects (both beneficial and destructive) of black blood. Positive and negative energy affect a black-blooded oracle as if she were undead: positive energy harms her, while negative energy heals her (this aspect of the curse has no effect if the oracle is undead). The curse also dulls the oracle's coordination somewhat, imparting a -4 penalty on all Dexterity-based skill checks. At 5th level, she gains cold resistance 5. This increases to cold resistance 10 at 10th level, and immunity to cold at 15th level. This ability replaces the oracle's curse.",
+			"**Curse of Black Blood (Su):** All black-blooded oracles effectively share the same curse: the curse of black blood. The material affects these oracles physically and mentally, altering both physiology and mystic powers. The blood of a black-blooded oracle actually runs black, and wounds she suffers are infected by her own power and are difficult to heal. She is immune to the effects (both beneficial and destructive) of black blood. Positive and negative energy affect a black-blooded oracle as if she were undead: positive energy harms her, while negative energy heals her (this aspect of the curse has no effect if the oracle is undead). The curse also dulls the oracle's coordination somewhat, imparting a -4 penalty on all Dexterity-based skill checks. At 5th level, she gains cold resistance 5. This increases to cold resistance 10 at 10th level, and immunity to cold at 15th level.",
+			"",
+			"This ability replaces the oracle's @HL[curse].",
 			"",
 			"**Black Blood Revelations:** All black-blooded oracles have access to the following revelations, regardless of what mystery they choose.",
 			"",
@@ -76,11 +82,17 @@
 			"",
 			"**Oracle's Curse:** A cyclopean seer must choose the ‹oraclecurse/haunted›, ‹oraclecurse/hunger›, ‹oraclecurse/powerless prophecy›, or ‹oraclecurse/tongues› curse at 1st level.",
 			"",
-			"**Bonus Spells:** Each time a cyclopean seer would gain a bonus spell from her mystery, she instead selects a ‹main/spells_>divination› spell from any class's spell list. If the spell is not on the cleric/oracle spell list, it must be at least 1 level lower than the highest-level oracle spell the cyclopean seer can cast. This ability alters the bonus spells granted by the oracle's mystery.",
+			"**Bonus Spells:** Each time a cyclopean seer would gain a bonus spell from her mystery, she instead selects a ‹main/spells_>divination› spell from any class's spell list. If the spell is not on the cleric/oracle spell list, it must be at least 1 level lower than the highest-level oracle spell the cyclopean seer can cast.",
 			"",
-			"**Assume Fate (Su):** As an immediate action when targeted by an effect that requires a saving throw, you can choose another creature within line of sight that is attempting a save against the same effect. The target takes a penalty on its saving throw equal to 1d4 + 1 for every 4 levels you possess. You gain the value of their penalty as a luck bonus on your saving throw. You can use this ability a number of times per day equal to your Charisma bonus. This replaces the revelation gained at 1st level.",
+			"This ability alters the @HL[bonus spells] granted by the oracle's mystery.",
 			"",
-			"**Brutal Trance (Su):** Once per day as a standard action, you can enter a trance that lasts 1 round per oracle level you possess. While in this trance, you are ‹misc/confused›, but each round that you can act normally, you can ask a single question as if using ‹spell/commune›. This replaces the revelation gained at 7th level.",
+			"**Assume Fate (Su):** As an immediate action when targeted by an effect that requires a saving throw, you can choose another creature within line of sight that is attempting a save against the same effect. The target takes a penalty on its saving throw equal to 1d4 + 1 for every 4 levels you possess. You gain the value of their penalty as a luck bonus on your saving throw. You can use this ability a number of times per day equal to your Charisma bonus.",
+			"",
+			"This replaces the @HL[revelation] gained at 1st level.",
+			"",
+			"**Brutal Trance (Su):** Once per day as a standard action, you can enter a trance that lasts 1 round per oracle level you possess. While in this trance, you are ‹misc/confused›, but each round that you can act normally, you can ask a single question as if using ‹spell/commune›.",
+			"",
+			"This replaces the @HL[revelation] gained at 7th level.",
 			"",
 			"**Revelations:** All cyclopean seers have access to the following revelations, regardless of their chosen mysteries.",
 			"",
@@ -90,9 +102,11 @@
 			">",
 			">**Prescience (Ex):** You gain a +2 bonus to your Armor Class against attacks of opportunity and a +2 bonus on ‹rule/concentration› checks. At 5th level and every 5 levels thereafter, these bonuses increase by 1.",
 			"",
-			"This ability alters the revelation class feature.",
+			"This ability alters the @HL[revelation] class feature.",
 			"",
-			"**Final Revelation:** Upon reaching 20th level, you embody ancient cyclopes' insight. You can use each of the following once per day as a spell-like ability: ‹spell/discern location›, ‹spell/prying eyes›, and ‹spell/stone tell›. In addition, using flash of insight to select a d20 roll result equal to or lower than your Charisma modifier doesn't expend that ability. This replaces the final revelation of the oracle's mystery."
+			"**Final Revelation:** Upon reaching 20th level, you embody ancient cyclopes' insight. You can use each of the following once per day as a spell-like ability: ‹spell/discern location›, ‹spell/prying eyes›, and ‹spell/stone tell›. In addition, using flash of insight to select a d20 roll result equal to or lower than your Charisma modifier doesn't expend that ability.",
+			"",
+			"This replaces the @HL[final revelation] of the oracle's mystery."
 		]
 	},
 	"divine_numerologist": {
@@ -176,7 +190,7 @@
 			">",
 			">**Elemental Revelation (Su):** At 20th level, you fully harness the power of the elements. You can apply the ‹feat/Elemental Spell› metamagic feat to spells you cast without increasing the level or casting time. You can choose acid, cold, electricity, or fire each time you use this ability. Whenever you score a critical hit with an attack that deals energy damage, you ignore the target's energy resistance (if any). If you score such a critical hit against a creature that has immunity to the energy type you are attacking with, the creature takes half damage from the attack.",
 			">",
-			">This replaces final revelation."
+			"This replaces @HL[final revelation]."
 		]
 	},
 	"enlightened_philosopher": {
@@ -200,7 +214,9 @@
 			"",
 			">**Mental Acuity (Ex):** As the ‹mystery/lore« mystery› revelation.",
 			"",
-			"**Final Revelation:** Upon achieving 20th level, you achieve true enlightenment and become one with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You become immune to confusion, exhaustion, fatigue, nausea, and sickened effects. You can take 20 on all Knowledge skill checks. Should you die, you are reborn 3 days later as a living example of the summoning of your chosen philosophy (treat as the ‹spell/reincarnate› spell). This replaces the final revelation of the oracle's mystery."
+			"**Final Revelation:** Upon achieving 20th level, you achieve true enlightenment and become one with the universe. You receive a bonus on all saving throws equal to your Charisma modifier. You become immune to confusion, exhaustion, fatigue, nausea, and sickened effects. You can take 20 on all Knowledge skill checks. Should you die, you are reborn 3 days later as a living example of the summoning of your chosen philosophy (treat as the ‹spell/reincarnate› spell).",
+			"",
+			"This replaces the @HL[final revelation] of the oracle's mystery."
 		]
 	},
 	"hermit": {
@@ -300,7 +316,7 @@
 			"",
 			"**Inspiring Song (Ex):** The voice of an ocean's echo provides inspiration to allies. This ability is identical to ‹ability/bardic performance› (using Perform [sing] only), allowing her to ‹performance/inspire courage› at 1st level, ‹performance/inspire competence› at 3rd level, and ‹performance/inspire heroics› at 15th level, as a bard of the ocean's echo's level. It is usable a total number of rounds per day equal to her level + her Charisma modifier (minimum 1).",
 			"",
-			"This ability replaces the revelations gained at 1st, 3rd, and 15th level.",
+			"This ability replaces the @HL[revelations] gained at 1st, 3rd, and 15th level.",
 			"",
 			"**Recommended Mysteries:** ‹mystery/Ancestor›, ‹mystery/heavens›, ‹mystery/life›, ‹mystery/lore›, ‹mystery/nature›, ‹mystery/time›, ‹mystery/waves›, ‹mystery/wind›."
 		]
@@ -318,11 +334,11 @@
 			"",
 			"**Master Herbalist (Su):** A Pei Zin practitioner has mastered countless alchemical techniques that supplement her divine powers and greatly aid her when she heals the sick and wounded. She gains a competence bonus on Profession (herbalist) checks equal to 1/2 her oracle level (minimum 1), and uses her Charisma modifier in place of her Wisdom modifier when attempting Profession (herbalist) checks. Additionally, a Pei Zin practitioner can identify potions as if via ‹spell/detect magic› using Profession (herbalist) instead of Spellcraft, and she can attempt such a check after holding a potion for 1 round.",
 			"",
-			"This ability replaces the additional class skills the oracle gains from her mystery.",
+			"This ability replaces the additional @HL[class skills] the oracle gains from her mystery.",
 			"",
 			"**Healer's Way (Su):** A Pei Zin practitioner combines alchemy, acupuncture, and divine magic to heal wounds by touch. She can use this ability a number of times per day equal to 1 + her Charisma modifier. With one use of this ability, she uses positive energy to heal the target of 1d6 hit points for every 2 oracle levels she has. Using this ability is a standard action unless the oracle targets herself, in which case it is a swift action. Using this ability requires only one free hand. This ability counts as a paladin's ‹ability/lay on hands› ability for the purposes of feats, spells, and effects that work with that class feature when it is used for healing purposes. Unlike lay on hands, this ability cannot be used to harm undead.",
 			"",
-			"This ability replaces the revelation gained at 1st level.",
+			"This ability replaces the @HL[revelation] gained at 1st level.",
 			"",
 			"**Master Healing Technique (Su):** At 7th level, whenever a Pei Zin practitioner heals a living creature with her healer's way ability, as a free action she can attempt a Profession (herbalist) check to remove a condition from the target, with each condition having an accompanying Profession (herbalist) DC (see the list below). She cannot take 10 or 20 on this check, nor can she receive aid from any creature except another Pei Zin practitioner (though the practitioner need not be an oracle). Failure by 5 or more causes the target to become sickened for 1 round (if the Pei Zin practitioner is attempting to remove the sickened condition, this extends it by 1 round). Similarly, failure by 10 or more instead causes the target to become nauseated for 1 round or to have its existing nauseated condition extended by 1 round. A creature that cannot be sickened or nauseated cannot have conditions removed by this ability.",
 			"",
@@ -334,7 +350,7 @@
 			">",
 			">**Dire Conditions (DC 35):** Blinded, deafened, paralyzed, and stunned.",
 			"",
-			"This ability replaces the revelation gained at 7th level.",
+			"This ability replaces the @HL[revelation] gained at 7th level.",
 			"",
 			"**Recommended Mysteries:** ‹mystery/Life›, ‹mystery/nature›, ‹mystery/succor›."
 		]
@@ -356,7 +372,9 @@
 			"",
 			">**Planar Resistance (Su):** At 3rd level, you gain energy resistance 10 against one energy type associated with your chosen plane. At 11th level, your energy resistance increases to 20.",
 			"",
-			"**Final Revelation:** At 20th level, you become an extraplanar creature. Choose one outer plane, such as Heaven or the Abyss. You gain superficial physical characteristics as appropriate to natives of your chosen outer plane. For example, if your chosen plane is Heaven, you gain angelic features such as a halo and metallic skin. This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Your type changes to \"outsider (extraplanar),\" except on your associated plane, where your type is \"outsider (native).\" In addition, you gain immunity to your associated energy type and gain damage reduction 10/magic. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type. This replaces the final revelation of the oracle's mystery."
+			"**Final Revelation:** At 20th level, you become an extraplanar creature. Choose one outer plane, such as Heaven or the Abyss. You gain superficial physical characteristics as appropriate to natives of your chosen outer plane. For example, if your chosen plane is Heaven, you gain angelic features such as a halo and metallic skin. This change does not alter your Hit Dice, hit points, saving throws, skill points, class skills, or proficiencies. Your type changes to \"outsider (extraplanar),\" except on your associated plane, where your type is \"outsider (native).\" In addition, you gain immunity to your associated energy type and gain damage reduction 10/magic. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type.",
+			"",
+			"This replaces the @HL[final revelation] of the oracle's mystery."
 		]
 	},
 	"possessed_oracle": {
@@ -390,9 +408,13 @@
 			"",
 			"**Bonus Spells:** ‹spell/Augury› (4th), ‹spell/locate object› (6th), ‹spell/divination› (8th), ‹spell/find the path› (12th), ‹spell/discern location› (16th), ‹spell/foresight› (18th). These bonus spells replace the oracle's normal mystery bonus spells at these levels.",
 			"",
-			"**Inspiration (Ex):** At 2nd level, a psychic searcher gains an inspiration pool, as the ‹class/investigator› class ability. A psychic searcher uses her oracle level as her investigator level to determine the effects of this ability. She gains free uses of inspiration on Diplomacy, Knowledge (arcana, history, local, nobility, planes, religion), and Sense Motive skill checks without spending a use of inspiration, provided she's trained in that skill. A psychic searcher's inspiration pool refreshes each day, usually when she refreshes her spells. A psychic searcher's inspiration pool is based on her Charisma modifier, not her Intelligence modifier. This ability replaces the mystery spell gained at 2nd level.",
+			"**Inspiration (Ex):** At 2nd level, a psychic searcher gains an inspiration pool, as the ‹class/investigator› class ability. A psychic searcher uses her oracle level as her investigator level to determine the effects of this ability. She gains free uses of inspiration on Diplomacy, Knowledge (arcana, history, local, nobility, planes, religion), and Sense Motive skill checks without spending a use of inspiration, provided she's trained in that skill. A psychic searcher's inspiration pool refreshes each day, usually when she refreshes her spells. A psychic searcher's inspiration pool is based on her Charisma modifier, not her Intelligence modifier.",
 			"",
-			"**Psychic Talent (Su):** At 3rd level, a psychic searcher's mastery of her supernatural insight grows, granting her a new investigator talent from the following list: ‹invtalent/amazing inspiration›, ‹invtalent/eidetic recollection›, ‹invtalent/empathy›, ‹invtalent/inspired alertness›, ‹invtalent/item lore›, ‹invtalent/perceptive tracking› (except using Sense Motive instead of Perception or Survival), ‹invtalent/rogue talent› (only for ‹talent/hard to fool›), and ‹invtalent/tenacious inspiration›. Whenever a psychic searcher can select a new revelation, she can instead select an investigator or rogue talent from the above list. This ability replaces the revelation gained at 3rd level.",
+			"This ability replaces the @HL[mystery spell] gained at 2nd level.",
+			"",
+			"**Psychic Talent (Su):** At 3rd level, a psychic searcher's mastery of her supernatural insight grows, granting her a new investigator talent from the following list: ‹invtalent/amazing inspiration›, ‹invtalent/eidetic recollection›, ‹invtalent/empathy›, ‹invtalent/inspired alertness›, ‹invtalent/item lore›, ‹invtalent/perceptive tracking› (except using Sense Motive instead of Perception or Survival), ‹invtalent/rogue talent› (only for ‹talent/hard to fool›), and ‹invtalent/tenacious inspiration›. Whenever a psychic searcher can select a new revelation, she can instead select an investigator or rogue talent from the above list.",
+			"",
+			"This ability replaces the @HL[revelation] gained at 3rd level.",
 			"",
 			"**Recommended Mysteries:** ‹mystery/Ancestor›, ‹mystery/lore›, ‹mystery/nature›."
 		]
@@ -462,7 +484,7 @@
 			"",
 			"**Class Skills:** A river soul oracle adds Escape Artist, Knowledge (nature), Survival, and Swim to his list of class skills.",
 			"",
-			"This replaces the class skills granted by the oracle's mystery and alters the oracle's class skills.",
+			"This replaces the class skills granted by the oracle's @HL[mystery] and alters the oracle's @HL[class skills].",
 			"",
 			"**Recommended Mysteries:** ‹mystery/Life›, ‹mystery/nature›, ‹mystery/stone›, ‹mystery/waves›.",
 			"",
@@ -470,7 +492,7 @@
 			"",
 			"**River Bound Curse (Su):** You bind your power to one particular river, which is the source of your spells and class abilities. You must carry a small vessel containing water from the river you are bound to at all times. If the vessel is destroyed or travels more than 10 feet away from you, you are unable to cast oracle spells or use your supernatural or spell-like class abilities until you recover the vessel or fill a new one with water from the river to which you are bound. Once per month, you can bond with a different river in a ceremony at that river that takes 12 hours to complete. You lose your bond with the previous river in the process.",
 			"",
-			"This replaces oracle's curse.",
+			"This replaces @HL[oracle's curse].",
 			"",
 			"**Revelations:** A river soul oracle must take the following revelations at the listed levels.",
 			"",
@@ -480,7 +502,7 @@
 			">",
 			">**River Soul Revelation (Su):** At 20th level, you strengthen your ties to the river with which you bonded. While traveling on or immersed in the river, you gain ‹umr/fast healing› 10 and immunity to bleed, death attacks, exhaustion, fatigue, nausea effects, negative levels, and sickened effects. Additionally, if you are slain and your body or some part of your body (including your ashes, if applicable) is floated down the river in a specially prepared vessel costing 5,000 gp, you return to life as per ‹spell/resurrection› once you reach the mouth of the river, as long as the trip has taken 24 hours or longer.",
 			"",
-			"This replaces final revelation."
+			"This replaces @HL[final revelation]."
 		]
 	},
 	"seeker": {
@@ -492,11 +514,17 @@
 			"‹SOURCE Pathfinder Society Field Guide/29›  ",
 			"Oracles and sorcerers gain their magical powers through strange and mysterious ways, be they chosen by fate or blood. While most might be content with their strange powers, some oracles and sorcerers join the Pathfinders specifically to find out more about their mysteries and bloodlines and determine the genesis and history of their eldritch talents. These spellcasters are known among the Spells as seekers, after their obsession with researching ancient texts and obscure ruins for any clues they can find about their heritage and histories. A seeker has the following class features.",
 			"",
-			"**Tinkering (Ex):** Seekers often look to ancient devices, old tomes, and strange magical items in order to learn more about their oracle mysteries. As a result of this curiosity and thanks to an innate knack at deciphering the strange and weird, a seeker gains Disable Device as a class skill. In addition, at 1st level, a seeker adds half his oracle level on Perception checks made to locate traps and on all Disable Device skill checks (minimum +1). A seeker can use Disable Device to disarm magical traps. If the seeker also possesses levels in ‹class/rogue› or another class that provides the ‹ability/trapfinding› ability, those levels stack with his oracle levels for determining his overall bonus on these skill checks. This ability replaces all of the bonus class skills he would otherwise normally gain from his mystery.",
+			"**Tinkering (Ex):** Seekers often look to ancient devices, old tomes, and strange magical items in order to learn more about their oracle mysteries. As a result of this curiosity and thanks to an innate knack at deciphering the strange and weird, a seeker gains Disable Device as a class skill. In addition, at 1st level, a seeker adds half his oracle level on Perception checks made to locate traps and on all Disable Device skill checks (minimum +1). A seeker can use Disable Device to disarm magical traps. If the seeker also possesses levels in ‹class/rogue› or another class that provides the ‹ability/trapfinding› ability, those levels stack with his oracle levels for determining his overall bonus on these skill checks.",
 			"",
-			"**Seeker Lore (Ex):** By 3rd level, a seeker has already learned much about his mystery, and is more comfortable using the bonus spells gained by that mystery. He gains a +4 bonus on all ‹rule/concentration› checks, on caster level checks made to overcome spell resistance, and on all Knowledge (arcana) and Spellcraft checks made on topics associated with his bonus spells. This ability replaces the revelation gained at 3rd level.",
+			"This ability replaces all of the bonus @HL[class skills] he would otherwise normally gain from his mystery.",
 			"",
-			"**Seeker Magic (Su):** At 15th level, a seeker becomes skilled at modifying his mystery spells with metamagic. When a seeker applies a metamagic feat to any bonus spells granted by his mystery, he reduces the metamagic feat's spell level adjustment by 1. Thus, applying a Metamagic feat like ‹feat/Still Spell› to a spell does not change its effective spell level at all, while applying ‹feat/Quicken Spell› only increases the spell's effective spell level by 3 instead of by 4. This reduction to the spell level adjustment for Metamagic feats does not stack with similar reductions from other abilities. This ability replaces the revelation gained at 15th level."
+			"**Seeker Lore (Ex):** By 3rd level, a seeker has already learned much about his mystery, and is more comfortable using the bonus spells gained by that mystery. He gains a +4 bonus on all ‹rule/concentration› checks, on caster level checks made to overcome spell resistance, and on all Knowledge (arcana) and Spellcraft checks made on topics associated with his bonus spells.",
+			"",
+			"This ability replaces the @HL[revelation] gained at 3rd level.",
+			"",
+			"**Seeker Magic (Su):** At 15th level, a seeker becomes skilled at modifying his mystery spells with metamagic. When a seeker applies a metamagic feat to any bonus spells granted by his mystery, he reduces the metamagic feat's spell level adjustment by 1. Thus, applying a Metamagic feat like ‹feat/Still Spell› to a spell does not change its effective spell level at all, while applying ‹feat/Quicken Spell› only increases the spell's effective spell level by 3 instead of by 4. This reduction to the spell level adjustment for Metamagic feats does not stack with similar reductions from other abilities.",
+			"",
+			"This ability replaces the @HL[revelation] gained at 15th level."
 		]
 	},
 	"seer": {
@@ -546,11 +574,13 @@
 			">",
 			">**Ki Insight:** Gain a +4 insight bonus on Spellcraft checks for 1 round.",
 			"",
-			"This ability replaces the shigenjo's 7th-level revelation.",
+			"This ability replaces the shigenjo's 7th-level @HL[revelation].",
 			"",
 			"**Quivering Palm (Su):** At 15th level, a shigenjo may learn quivering palm as the ‹class/monk› ability of the same name in place of a revelation. She treats her oracle level as her monk level for this ability, and the DC is based on her Charisma bonus instead of her Wisdom bonus.",
 			"",
-			"**Final Revelation:** Upon reaching 20th level, you achieve true enlightenment and becomes one with the celestial spirits. You gain the ability to speak with any creature that uses a language. For a number of days equal to your Wisdom score, you can ignore the negative effects of extreme weather, starvation, thirst, and exhaustion. If you die, your powerful connection to the celestial realm allows you to be reborn 3 days later (as ‹spell/reincarnate›). This replaces the final revelation of the shigenjo's mystery."
+			"**Final Revelation:** Upon reaching 20th level, you achieve true enlightenment and becomes one with the celestial spirits. You gain the ability to speak with any creature that uses a language. For a number of days equal to your Wisdom score, you can ignore the negative effects of extreme weather, starvation, thirst, and exhaustion. If you die, your powerful connection to the celestial realm allows you to be reborn 3 days later (as ‹spell/reincarnate›).",
+			"",
+			"This replaces the @HL[final revelation] of the shigenjo's mystery."
 		]
 	},
 	"spirit_guide": {
@@ -562,7 +592,9 @@
 			"‹SOURCE Advanced Class Guide/106›  ",
 			"Through her exploration of the universe's mysteries, a spirit guide opens connections to the spirit world and forms bonds with the entities that inhabit it.",
 			"",
-			"**Class Skills:** A spirit guide gains all Knowledge skills as class skills. This replaces the bonus class skills gained from the oracle's mystery.",
+			"**Class Skills:** A spirit guide gains all Knowledge skills as class skills.",
+			"",
+			"This replaces the @HL[bonus class skills] gained from the oracle's mystery.",
 			"",
 			"**Bonded Spirit (Su):** At 3rd level, a spirit guide can form a temporary bond with a spirit, as the ‹class/shaman«'s› wandering spirit class feature. She must make this selection each day when she refreshes her spells. A spirit guide cannot bond with a spirit that is incompatible with her alignment, ethos, or mystery (GM's discretion).",
 			"",
@@ -570,7 +602,7 @@
 			"",
 			"At 4th level, she adds the bonded spirit's spirit magic spells to her oracle spells known for that day, but only of spell levels she can cast. At 7th level, she gains the spirit ability of her current bonded spirit. At 15th level, she gains the greater spirit ability of her current bonded spirit.",
 			"",
-			"This ability replaces the revelations gained at 3rd, 7th, and 15th levels.",
+			"This ability replaces the @HL[revelations] gained at 3rd, 7th, and 15th levels.",
 			"",
 			"**Recommended Mysteries:** ‹mystery/Ancestor›, ‹mystery/heavens›, ‹mystery/lore›."
 		]
@@ -608,7 +640,7 @@
 			"",
 			"**Class Skills:** A tree soul adds Acrobatics, Climb, Knowledge (nature), and Survival to her list of class skills.",
 			"",
-			"This replaces the class skills granted by the oracle's mystery and class skills.",
+			"This replaces the class skills granted by the oracle's @HL[mystery] and @HL[class skills].",
 			"",
 			"**Weapon and Armor Proficiency:** Tree souls are proficient with light and medium armor but are prohibited from wearing metal armor. A tree soul can also wear wooden armor that has been altered by the *ironwood* spell so that it functions as though it were steel. Tree souls are proficient with shields (except tower shields) but can use only those crafted from wood.",
 			"",
@@ -620,7 +652,7 @@
 			"",
 			"**Tree Bound Curse (Su):** You bind your power to a specific tree. Any damage to the tree deals the same amount of damage to you, overcoming DR, energy resistance, and immunities. Damage you take in this way cannot be healed by normal or magical means until your bonded tree is healed or destroyed. The damage can reduce you to 0 hit points but not below. If the tree is destroyed, you are considered to be staggered and are unable to cast oracle spells or use supernatural or spell-like class abilities until you bond with a new tree in a ceremony that takes 12 hours to complete. Once per month, you can create a new bond with a different tree in a ceremony at that tree that takes 12 hours to complete. You lose your bond with your previous tree in the process.",
 			"",
-			"This replaces oracle's curse.",
+			"This replaces the oracle's @HL[curse].",
 			"",
 			"**Revelations:** A tree soul oracle must take the following revelations at the listed levels.",
 			"",
@@ -630,7 +662,7 @@
 			">",
 			">**Tree Soul Revelation (Su):** At 20th level, your skin takes on the appearance and properties of a tree trunk. This bark-like skin grants you a +4 natural armor bonus to your Armor Class and DR 10/slashing. You also regrow any severed limbs except your head within 24 hours as per ‹spell/regenerate›. Finally, once a day as a standard action, you can assume the form of a ‹monster/treant›, as per ‹spell/plant shape III›, for a number of minutes equal to 3 + your Charisma modifier (minimum 1).",
 			">",
-			">This replaces final revelation."
+			"This replaces @HL[final revelation]."
 		]
 	},
 	"warsighted": {
@@ -654,7 +686,7 @@
 			"",
 			"At 15th level, a warsighted can use this ability to gain the benefit of one combat feat as an immediate action or three combat feats as a swift action.",
 			"",
-			"This ability replaces the revelations gained at 1st, 7th, 11th, and 15th levels.",
+			"This ability replaces the @HL[revelations] gained at 1st, 7th, 11th, and 15th levels.",
 			"",
 			"**Recommended Mysteries:** ‹mystery/Battle›, ‹mystery/bones›, ‹mystery/nature›, ‹mystery/metal›."
 		]

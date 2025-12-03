@@ -10,11 +10,11 @@
 			"",
 			"**Construct Eidolon (Ex):** A construct caller must select the ‹eidolon/inevitable› subtype for her eidolon. A construct eidolon functions as an inevitable eidolon except as noted here. A construct eidolon can be of any alignment. It has no Constitution score and gains bonus hit points appropriate for a construct of its size. At 12th level, the construct eidolon gains DR 5/adamantine instead of DR 5/chaotic.",
 			"",
-			"This alters eidolon.",
+			"This alters @HL[eidolon].",
 			"",
 			"**Planar Tinkering (Ex):** At 3rd level, a construct caller learns to better shape planar energy to improve her eidolon. The number of points in her eidolon's evolution pool increases by 1. The number of points in the eidolon's evolution pool increases by an additional 1 at 7th level and every 4 levels thereafter, for a total of 5 additional points at 19th level.",
 			"",
-			"This replaces summon monster I."
+			"This replaces @HL[summon monster I]."
 		]
 	},
 	"devil_binder": {
@@ -32,19 +32,19 @@
 			"",
 			"**Infernal Binding (Ex):** A devil binder must select an eidolon of the ‹eidolon/devil› subtype. The devil binder's eidolon never increases its maximum number of attacks, and its base attack bonus is equal to half its Hit Dice. At 4th level and every 4 levels thereafter, the eidolon's Charisma score increases by 2.",
 			"",
-			"This alters the summoner's eidolon.",
+			"This alters the summoner's @HL[eidolon].",
 			"",
 			"**Infernal Arcana (Sp):** At 1st level and every 2 levels thereafter, the devil binder's eidolon gains the following spell-like abilities: ‹spell/protection from chaos› (1st), ‹spell/scorching ray› (3rd), ‹spell/suggestion› (5th), ‹spell/charm monster› (7th), ‹spell/dominate person› (9th), ‹spell/planar binding› (devils only) (11th), ‹spell/greater teleport› (13th), ‹spell/power word stun› (15th), ‹spell/meteor swarm› (17th). Each of these spell-like abilities is usable once per day, and the eidolon's caster level is equal to the devil binder's summoner level. When the eidolon casts planar binding this way, the devil binder is considered to be the spell's caster instead. At 19th level, the devil binder's eidolon can use each of its infernal arcana spell-like abilities three times per day.",
 			"",
-			"This replaces the summon monster I summoner class feature.",
+			"This replaces the @HL[summon monster I] summoner class feature.",
 			"",
 			"**Infernal Affinity (Ex, Su, or Sp):** A devil binder wrenches Hell's power from her eidolon. This grants the devil binder the bloodline powers of the ‹sorcbloodline/infernal› sorcerer bloodline (gained at the following levels): corrupting touch (4th), infernal resistances (8th), hellfire (12th), on dark wings (16th), and power of the Pit (20th). The devil binder treats her summoner level as her sorcerer level for the purpose of determining their effects.",
 			"",
-			"This replaces bond senses, shield ally, transposition, greater shield ally, merge forms, and twin eidolon.",
+			"This replaces @HL[bond senses], @HL[shield ally], @HL[transposition], @HL[greater shield ally], @HL[merge forms], and @HL[twin eidolon].",
 			"",
 			"**Smite Chaos (Su):** At 6th level, the summoner's eidolon gains the ability to smite chaos as a ‹pclass/Hellknight› of its Hit Dice. This ability can be used once per day and an additional time for every 4 levels beyond 6th.",
 			"",
-			"This ability replaces maker's call and the eidolon's devotion ability."
+			"This ability replaces @HL[maker's call] and the @HL[eidolon's devotion] ability."
 		]
 	},
 	"devil_impostor": {
@@ -56,19 +56,31 @@
 			"‹SOURCE Agents of Evil/17›  ",
 			"Some summoners can't abide the cruelty of devils, or simply can't outwit them, but must appear to do so to get by in Cheliax, the Outer Planes, or similar areas of infernal influence. Rather than risk binding true devils, they reshape their eidolons into deceptive forms.",
 			"",
-			"**Skills:** A devil impostor adds Bluff and Intimidate to her list of class skills. This alters the unchained summoner's class skills.",
+			"**Skills:** A devil impostor adds Bluff and Intimidate to her list of class skills.",
 			"",
-			"**Bond Alignment (Su):** At 2nd level, a devil impostor and her eidolon both radiate alignment auras of lawful evil for the purpose of divination spells that reveal auras (such as ‹spell/detect evil›), as long as they remain within 1,000 feet of one another. This does not affect other abilities that depend on alignment (such as smite evil). The devil impostor can suppress this effect for 1 minute as a standard action. This ability replaces bond senses.",
+			"This alters the unchained summoner's @HL[class skills].",
+			"",
+			"**Bond Alignment (Su):** At 2nd level, a devil impostor and her eidolon both radiate alignment auras of lawful evil for the purpose of divination spells that reveal auras (such as ‹spell/detect evil›), as long as they remain within 1,000 feet of one another. This does not affect other abilities that depend on alignment (such as smite evil). The devil impostor can suppress this effect for 1 minute as a standard action.",
+			"",
+			"This ability replaces @HL[bond senses].",
 			"",
 			"**Deceptive Eidolon:** A devil impostor's eidolon always resembles a specific type of devil of the same size (caster's choice), and radiates the aura of a lawful evil outsider under magical effects such as detect evil, regardless of its actual alignment. The eidolon still uses its actual alignment when resolving all other alignment-dependent abilities, effects, and spells. The eidolon can have any subtype, though its appearance always remains that of a devil, and it can select only evolutions available to its true subtype. This modifies the normal eidolon rules.",
 			"",
-			"**Fiendish Summons (Sp):** A devil impostor must apply the ‹template/fiendish› template to any creatures summoned via her summon monster spell-like ability regardless of her alignment. This alters the unchained summoner's summon monster ability.",
+			"**Fiendish Summons (Sp):** A devil impostor must apply the ‹template/fiendish› template to any creatures summoned via her summon monster spell-like ability regardless of her alignment.",
 			"",
-			"**Devil's Flesh (Ex):** At 4th level, a devil impostor's eidolon adopts several fiendish traits. The devil impostor's eidolon gains the skilled (Bluff) and resistance (fire) evolutions (or immunity [fire] if it already has resistance to fire). The eidolon can select additional evolutions available to the devil subtype. This ability replaces shield ally.",
+			"This alters the unchained summoner's @HL[summon monster] ability.",
 			"",
-			"**Devil's Tongue (Ex):** At 12th level, the devil impostor's eidolon can apply its master's skill ranks and proficiency bonuses when attempting Bluff, Diplomacy, and Intimidate skill checks. This ability replaces greater shield ally.",
+			"**Devil's Flesh (Ex):** At 4th level, a devil impostor's eidolon adopts several fiendish traits. The devil impostor's eidolon gains the skilled (Bluff) and resistance (fire) evolutions (or immunity [fire] if it already has resistance to fire). The eidolon can select additional evolutions available to the devil subtype.",
 			"",
-			"**Fiendish Appearance (Su):** At 8th level, a devil impostor can use her maker's call ability to immediately dismiss her eidolon and take on its appearance. This functions as a modified ‹spell/alter self› spell, transforming the devil impostor into a replica of her eidolon. She gains a single natural attack possessed by her eidolon, and if her eidolon is smaller than Small or larger than Medium, she assumes the form of a Small- or Medium-sized version of her eidolon, respectively. The transformation lasts for 10 minutes &times; her unchained summoner level or until the eidolon is resummoned. This ability replaces transposition."
+			"This ability replaces @HL[shield ally].",
+			"",
+			"**Devil's Tongue (Ex):** At 12th level, the devil impostor's eidolon can apply its master's skill ranks and proficiency bonuses when attempting Bluff, Diplomacy, and Intimidate skill checks.",
+			"",
+			"This ability replaces @HL[greater shield ally].",
+			"",
+			"**Fiendish Appearance (Su):** At 8th level, a devil impostor can use her maker's call ability to immediately dismiss her eidolon and take on its appearance. This functions as a modified ‹spell/alter self› spell, transforming the devil impostor into a replica of her eidolon. She gains a single natural attack possessed by her eidolon, and if her eidolon is smaller than Small or larger than Medium, she assumes the form of a Small- or Medium-sized version of her eidolon, respectively. The transformation lasts for 10 minutes &times; her unchained summoner level or until the eidolon is resummoned.",
+			"",
+			"This ability replaces @HL[transposition]."
 		]
 	},
 	"fey_caller": {
@@ -82,11 +94,11 @@
 			"",
 			"**Class Skills:** A fey caller adds Bluff, Diplomacy, Disguise, Knowledge (nature), Knowledge (planes), and Survival to his list of class skills, instead of all Knowledge skills.",
 			"",
-			"This alters the unchained summoner's class skills.",
+			"This alters the unchained summoner's @HL[class skills].",
 			"",
 			"**Nature's Call:** Instead of summoning creatures from the summon monster list, the fey caller's summoning spell-like ability summons creatures from the list for the ‹spell/summon nature's ally› spell of the same level. It still follows the other rules and restrictions for the summoner's summon monster spell-like ability.",
 			"",
-			"This ability alters the summoner's summon monster spell-like ability.",
+			"This ability alters the summoner's @HL[summon monster] spell-like ability.",
 			"",
 			"**Fey Eidolon:** A fey caller's eidolon is still an outsider, and its base statistics don't change, but it also counts as a fey. A fey caller's eidolon has the new subtype below.",
 			"",
@@ -124,27 +136,27 @@
 			"",
 			"**Class Skills:** A god caller adds Diplomacy and Intimidate to his list of class skills, instead of Knowledge (dungeoneering, engineering, geography, and nature) and Use Magic Device.",
 			"",
-			"This ability alters the summoner's class skills.",
+			"This ability alters the summoner's @HL[class skills].",
 			"",
 			"**Guidance (Sp):** A god caller's eidolon has a tiny spark of divinity. It can use ‹spell/guidance› as a spell-like ability at will. However, the eidolon and the god caller must remain within 50 feet of one another for the eidolon to remain at full strength. If the eidolon is beyond 50 feet but closer than 1,000 feet, its current and maximum hit point totals are reduced by half.",
 			"",
-			"This ability alters life link.",
+			"This ability alters @HL[life link].",
 			"",
 			"**Divine Word (Ex):** At 8th level, if a god caller's eidolon would grant him a bonus with the aid another action on a Diplomacy or Intimidate check, the god caller can instead choose to roll twice and take the better result. He makes the choice before rolling. Once per day while his eidolon uses the aid another action to assist him in such a check, if the god caller would improve a target's attitude toward him, or gain a success if using the individual ‹rule/influence› rules, he instead improves that target's attitude by 2 steps or it counts as 2 successes.",
 			"",
-			"This ability replaces transposition.",
+			"This ability replaces @HL[transposition].",
 			"",
 			"**Divine Awareness (Sp):** At 10th level, after 10 minutes of concentration, a god caller's eidolon can see from afar as per ‹spell/clairaudience/clairvoyance›. The eidolon can do this once per day at 10th level, and an additional time per day every 4 summoner levels thereafter (maximum of 3 times per day at 18th level).",
 			"",
-			"This ability replaces aspect.",
+			"This ability replaces @HL[aspect].",
 			"",
 			"**Divine Might (Ex):** At 18th level, a god caller's eidolon's attacks are treated as epic for the purpose of overcoming damage reduction and harming mythic creatures.",
 			"",
-			"This ability replaces greater aspect.",
+			"This ability replaces @HL[greater aspect].",
 			"",
 			"**Overwhelming Presence (Sp):** At 20th level, a god caller's eidolon can use ‹spell/overwhelming presence› three times per day. The save DC is equal to 19 + the eidolon's Charisma modifier.",
 			"",
-			"This ability replaces twin eidolon."
+			"This ability replaces @HL[twin eidolon]."
 		]
 	},
 	"leshy_caller": {
@@ -178,11 +190,11 @@
 			"",
 			":::",
 			"",
-			"This alters the summoner's eidolon.",
+			"This alters the summoner's @HL[eidolon].",
 			"",
 			"**Summon Nature's Ally (Sp):** A leshy caller can cast ‹spell/summon nature's ally› as a spell-like ability a number of times per day equal to 3 + her Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the leshy caller instead gains the equivalent summon nature's ally spell; at 19th level, she can cast ‹spell/summon nature's ally IX› or ‹spell/gate›. When a leshy caller gains a summon nature's ally spell as a spell-like ability, she adds it to her class spell list (though she must still select it as a spell known if she wants to gain the ability to cast it as a normal spell). She adds ‹monster/leaf leshy«s›, ‹monster/gourd leshy«s›, ‹monster/fungus leshy«s›, ‹monster/seaweed leshy«s›, and ‹monster/lotus leshy«s› to her list of creatures for summon nature's ally I, II, III, IV, and V, respectively.",
 			"",
-			"This alters summon monster."
+			"This alters @HL[summon monster]."
 		]
 	},
 	"morphic_savant": {
@@ -196,7 +208,9 @@
 			"",
 			"**Alignment:** Any chaotic.",
 			"",
-			"**Eidolon of Chaos:** A morphic savant's eidolon must have the ‹eidolon/azata›, ‹eidolon/demon›, or ‹eidolon/protean› subtype. The morphic savant's eidolon has three base forms: biped, quadruped, and serpentine. Each form has the same feats and skills, but has its own set of ‹ability/unchained_>evolutions›. When the summoner meditates and regains his spell slots for the day, he can select any of the three base forms of his eidolon. The eidolon has 1 fewer evolution point than normal for an eidolon of the morphic savant's summoner level, and has 1 fewer skill point per Hit Die. This ability alters eidolon.",
+			"**Eidolon of Chaos:** A morphic savant's eidolon must have the ‹eidolon/azata›, ‹eidolon/demon›, or ‹eidolon/protean› subtype. The morphic savant's eidolon has three base forms: biped, quadruped, and serpentine. Each form has the same feats and skills, but has its own set of ‹ability/unchained_>evolutions›. When the summoner meditates and regains his spell slots for the day, he can select any of the three base forms of his eidolon. The eidolon has 1 fewer evolution point than normal for an eidolon of the morphic savant's summoner level, and has 1 fewer skill point per Hit Die.",
+			"",
+			"This ability alters @HL[eidolon].",
 			"",
 			"**Morphic Monsters:** Since a morphic savant's power is drawn from planar energies aligned with chaos, all the creatures he summons must be of a chaotic alignment. If a creature would normally be celestial or fiendish, it is instead an ‹template/entropic« creature›.",
 			"",
@@ -204,9 +218,11 @@
 			"",
 			"Also, starting at 2nd level, the morphic savant can grant one 1-point evolutions to all the creatures he summons with his summon monster spell-like ability. He can't grant an evolution that duplicates the function of, or has the same name as, any ability the summoned creatures already possess (for example, he can't grant a creature with a bite attack another bite attack), nor can he add an evolution that causes the summoned monsters to have more attacks than his eidolon's maximum number of attacks. The creatures do not have to be of the correct subtype to gain an evolution, but do have to meet any other prerequisites.",
 			"",
-			"This ability alters summon monster.",
+			"This ability alters @HL[summon monster].",
 			"",
-			"**Chaos Magic:** A morphic savant gains the following bonus spells known at the listed spell level: 1st-‹spell/protection from law›, 2nd-‹spell/shard of chaos›, 3rd-‹spell/magic circle against law›, 4th-‹spell/chaos hammer›, 5th-‹spell/dispel law›, 6th-‹spell/word of chaos›. The morphic savant gains one fewer spell known per spell level for spell levels 1-6. This ability alters the summoner's spells known."
+			"**Chaos Magic:** A morphic savant gains the following bonus spells known at the listed spell level: 1st-‹spell/protection from law›, 2nd-‹spell/shard of chaos›, 3rd-‹spell/magic circle against law›, 4th-‹spell/chaos hammer›, 5th-‹spell/dispel law›, 6th-‹spell/word of chaos›. The morphic savant gains one fewer spell known per spell level for spell levels 1-6.",
+			"",
+			"This ability alters the summoner's @HL[spells] known."
 		]
 	},
 	"soulbound_summoner": {
@@ -222,11 +238,11 @@
 			"",
 			"The glowing rune that the soulbound summoner shares with his eidolon always appears on a place symbolic of his pactbond curse. For example, a summoner who chooses the ‹oraclecurse/clouded vision› curse might have his summoner's rune manifest on one of his eyes, while a summoner who chooses the ‹oraclecurse/tongues› curse might have his summoner's rune appear on his lips. A soulbound summoner's eidolon is summoned from his own psyche rather than a different plane, so spells such as ‹spell/banishment› and ‹spell/dismissal› do not work when cast on the eidolon.",
 			"",
-			"This alters the eidolon class feature.",
+			"This alters the @HL[eidolon] class feature.",
 			"",
 			"**Soulbound Life Link (Su):** The essence of a soulbound summoner's eidolon resides within the summoner's mind and soul instead of a home plane, and he can use this connection to restore his eidolon with his own vitality. The summoner can use his life link ability to sacrifice any number of his hit points without using an action. Each hit point sacrificed in this way heals the eidolon for 1 point of damage. The soulbound summoner can use this ability even after the eidolon has been killed and sent back to its summoner's mind; if the eidolon is healed enough that its hit point total is above 0, it can be summoned again as normal.",
 			"",
-			"This alters life link.",
+			"This alters @HL[life link].",
 			"",
 			"**Weakened Summoning:** A soulbound summoner's eidolon is usually the result of unintended magic, trauma, or a singular pact, instead of rigorous arcane study. Soulbound summoners do not gain the ability to cast the ‹spell/summon monster› or ‹spell/gate› spells as a spell-like ability.",
 			"",
@@ -246,7 +262,7 @@
 			"",
 			"**Stormy Eidolon:** A storm caller must select an eidolon subtype that gains ‹unchevolution/resistance› or ‹unchevolution/immunity› to electricity at 1st level, such as the ‹eidolon/elemental› eidolon or ‹eidolon/genie› eidolon. If the eidolon has neither of these evolutions, it becomes nauseated until it regains one of them.",
 			"",
-			"This ability alters eidolon.",
+			"This ability alters @HL[eidolon].",
 			"",
 			"**Summon Storm's Fury (Sp):** A storm caller can summon creatures infused with the power of the storm to help him. This functions as the summoner's summon monster I-IX abilities, except the storm caller can summon only the following creatures at the indicated spell levels: I-‹monster/eagle›; II-‹monster/small air elemental›, ‹monster/small lightning elemental›; III-‹monster/dire bat›; IV-‹monster/medium air elemental›, ‹monster/medium lightning elemental›, ‹monster/pteranodon›; V-‹monster/large air elemental›, ‹monster/large lightning elemental›; VI-‹monster/huge air elemental›, ‹monster/huge lightning elemental›; VII-roc; VIII-‹monster/elder air elemental›, ‹monster/elder lightning elemental›; IX-‹template/advanced› elder air elemental, advanced elder lightning elemental. Any creatures summoned with this ability gain immunity to electricity.",
 			"",
@@ -256,13 +272,13 @@
 			"",
 			"The storm caller adds call lightning to his summoner spell list as a 3rd-level spell and ‹spell/call lightning storm› to his summoner spell list as a 5th-level spell, but he does not automatically add them to his list of spells known.",
 			"",
-			"This alters the summoner's summon monster I-IX abilities.",
+			"This alters the summoner's @HL[summon monster I-IX] abilities.",
 			"",
 			"**Electrical Polarity (Su):** At 4th level, a storm caller and his eidolon can temporarily form an electrical current between them. The storm caller can expend a use of his summon storm's fury ability as a standard action to create an instantaneous line of lightning between him and his eidolon, provided that the eidolon is within 60 feet of him. The lightning arc deals the same amount of damage to all creatures in the line and has the same save DC as a bolt of lightning from the summon storm's fury ability (unlike call lightning, this damage is dealt only once). The storm caller and his eidolon are not affected by this lightning.",
 			"",
 			"At 12th level, the storm caller gains the benefit of his eidolon's resistance (electricity) or immunity (electricity) evolution whenever he is within 30 feet of the eidolon.",
 			"",
-			"This ability replaces shield ally and greater shield ally.",
+			"This ability replaces @HL[shield ally] and @HL[greater shield ally].",
 			"",
 			"**Storm's Wings (Su):** At 6th level, a storm caller can borrow some of his eidolon's elemental might. He can gain the ‹unchevolution/flight› evolution as though he were using the summoner's aspect ability, deducting 2 evolution points from the eidolon's evolution pool. If he does so, his eidolon is unable to take the flight evolution as long as the storm caller has that evolution.",
 			"",
@@ -270,7 +286,7 @@
 			"",
 			"At 10th level, the storm caller automatically gains the flight evolution without reducing the number of evolution points available to the eidolon. He can use the aspect ability (and at 18th level, the greater aspect ability) to gain additional evolutions.",
 			"",
-			"This ability replaces maker's call and transposition."
+			"This ability replaces @HL[maker's call] and @HL[transposition]."
 		]
 	},
 	"twinned_summoner": {
@@ -286,15 +302,15 @@
 			"",
 			"**Teamwork Feats (Ex):** At 4th level and at 12th level, a twinned summoner gains a bonus ‹main/teamwork feat›. He must meet the prerequisites of the selected teamwork feat. The twinned summoner automatically grants all of his teamwork feats to his eidolon. The eidolon doesn't need to meet the prerequisites of these teamwork feats.",
 			"",
-			"This ability replaces shield ally and greater shield ally.",
+			"This ability replaces @HL[shield ally] and @HL[greater shield ally].",
 			"",
 			"**Twinned Transposition (Su):** At 6th level, as a standard action, a twinned summoner can swap locations with his eidolon as if each were using ‹spell/dimension door›, using the twinned summoner's caster level. If the eidolon is out of range, the ability is wasted. If either the twinned summoner or his eidolon occupies more squares than the other, each must occupy one or more squares that were occupied by the other if possible, or as close as possible if not. The twinned summoner can use this ability once per day at 6th level, plus one additional time per day for every 4 levels beyond 6th. At 8th level, he can use this ability as a swift action.",
 			"",
-			"This ability replaces maker's call and transposition.",
+			"This ability replaces @HL[maker's call] and @HL[transposition].",
 			"",
 			"**Twin Summoner (Su):** At 16th level, a twinned summoner can touch his eidolon as a standard action, enhancing its similarity to the summoner. The eidolon loses any natural weapons or size increases gained from evolutions, and its Intelligence, Wisdom, and Charisma scores change to match the base scores of the summoner. The eidolon can cast any of the summoner's spells known using the summoner's caster level and spell slots. It doesn't gain the benefit of any of the summoner's items, feats, or other effects that affect spellcasting. The eidolon can keep this form for a number of minutes per day equal to the summoner's class level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. The summoner can end this effect as a free action.",
 			"",
-			"This ability replaces the merge forms class feature."
+			"This ability replaces the @HL[merge forms] class feature."
 		]
 	}
 }
