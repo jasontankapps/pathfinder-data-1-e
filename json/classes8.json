@@ -1234,7 +1234,7 @@
 			"",
 			"::archetype[Heister]{c=rogue r=\"2nd, 4th, 8th-level Rogue Talent; Uncanny Dodge; Improved Uncanny Dodge\" e=\"Notorious for their stealth, imagination, and elaborately planned thefts and capers, heisters specialize in breaking into secure locations, stealing items of value, and escaping undetected.\"}",
 			"",
-			"::archetype[Investigator]{c=rogue r=\"Trapfinding\" e=\"Not all rogues work against the law. Investigators use their skills to serve the law, often in the employ of nobles or in the pursuit of noble causes.\"}",
+			"::archetype[Investigator]{c=rogue r=Trapfinding e=\"Not all rogues work against the law. Investigators use their skills to serve the law, often in the employ of nobles or in the pursuit of noble causes.\"}",
 			"",
 			"::archetype[Kintargo Rebel]{c=rogue r=\"Trap Sense; Uncanny Dodge\" e=\"Whenever the Chelish navy sails into the port, these rebels are quick to appear agreeably subservient in order to conceal their non-compliance and avoid retribution.\"}",
 			"",

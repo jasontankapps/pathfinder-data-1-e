@@ -768,7 +768,7 @@
 			"",
 			"::mspell{sla cl=12 con=+17 atWill=\"arcane mark~illusory script|DC 18~telekinesis|sustained force only, DC 20\" day=\"3~explosive runes|DC 18~greater glyph of warding|DC 21~sepia snake sigil|DC 18\"}",
 			"",
-			"::mstats{str=\"-\" dex=32 con=18 int=15 wis=14 cha=20 bab=+13 cmb=+13 cmd=\"41 (can't be tripped)\" feats=\"Alertness~Combat Expertise~Deceitful~Dodge~Improved Initiative~Iron Will~Mobility~Skill Focus=Stealth~Spring Attack\" skills=\"Acrobatics +15~Bluff +15~Climb +12~Disguise +7~Knowledge (arcana) +15~Knowledge (history) +15~Knowledge (planes) +15~Knowledge (religion) +15~Perception +27~Sense Motive +19~Stealth +35\" lang=\"truescript\" sq=\"camouflage, ‹umr/compression›, two-dimensional\"}",
+			"::mstats{str=\"-\" dex=32 con=18 int=15 wis=14 cha=20 bab=+13 cmb=+13 cmd=\"41 (can't be tripped)\" feats=\"Alertness~Combat Expertise~Deceitful~Dodge~Improved Initiative~Iron Will~Mobility~Skill Focus=Stealth~Spring Attack\" skills=\"Acrobatics +15~Bluff +15~Climb +12~Disguise +7~Knowledge (arcana) +15~Knowledge (history) +15~Knowledge (planes) +15~Knowledge (religion) +15~Perception +27~Sense Motive +19~Stealth +35\" lang=truescript sq=\"camouflage, ‹umr/compression›, two-dimensional\"}",
 			"",
 			"::meco{env=any org=\"solitary, pair, or string (3-4)\" treasure=incidental}",
 			"",

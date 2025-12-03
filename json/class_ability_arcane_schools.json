@@ -787,7 +787,7 @@
 			"‹SOURCE Ultimate Magic/88›  ",
 			"Wood represents flexibility, warmth, wind, generosity, cooperation, and idealism. Practitioners of this elemental magic often resemble druids in character and in the use of their magic.",
 			"",
-			"::ab[Wood Magic]{icon=learn s2=\"entangle\" s3=\"tree shape\" s4=\"plant growth\" s5=\"command plants\" s6=\"tree stride\" s7=\"liveoak\" s8=\"transmute metal to wood\" s9=\"control plants\" passive=\"Add these spells to your wizard spell list at the listed spell level.\"}",
+			"::ab[Wood Magic]{icon=learn s2=entangle s3=\"tree shape\" s4=\"plant growth\" s5=\"command plants\" s6=\"tree stride\" s7=liveoak s8=\"transmute metal to wood\" s9=\"control plants\" passive=\"Add these spells to your wizard spell list at the listed spell level.\"}",
 			"",
 			"::ab[Flexible Enhancement (Su)]{l=1 icon=def passive=\"A master of the wood element is able to bend like bamboo when stressed and snap back into place. You gain a +1 enhancement bonus to your Dexterity, Constitution, or Wisdom ability score. You can change this bonus to a new ability score when you prepare spells.\" imp5=\"The bonus becomes +2.\" imp10=\"The bonus becomes +3.\" imp15=\"The bonus becomes +4.\" imp20=\"The bonus becomes +5. In addition, this bonus applies to two of these ability scores of your choice.\"}",
 			"",

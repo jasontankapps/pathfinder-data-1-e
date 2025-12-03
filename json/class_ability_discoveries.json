@@ -864,7 +864,7 @@
 		"category": "Extract Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=10 c=alchemist g1=\"infusion\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=10 c=alchemist g1=infusion g1info=\"Discovery~discovery\"}",
 			"",
 			"The alchemist creates an inhaled version of an extract that is shared among multiple creatures. He must decide that an extract is an aromatic extract when he makes it. When used, the extract grants its benefit to all creatures within a 10-foot ‹misc/spread› of the extract. The aromatic extract is treated as having the minimum caster level required for the original extract. An aromatic extract expends one of the alchemist's daily extracts as if it were an extract 2 levels higher. This discovery can be applied only to extracts with a range of touch."
 		]
@@ -875,7 +875,7 @@
 		"category": "Extract Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=12 c=alchemist g1=\"infusion\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=12 c=alchemist g1=infusion g1info=\"Discovery~discovery\"}",
 			"",
 			"Once per day as part of his preparation of infusions, the alchemist can brew an infusion that shifts the imbiber's alignment to good. This change in alignment lasts for 10 minutes per alchemist level. An unwilling creature receives a Will save to resist this change. The alchemist may have only one such infusion at any one time. The effects of this infusion may have serious repercussions for a creature suddenly struggling with a new outlook. Many see it as little more than forced insanity, and some good faiths outlaw its use."
 		],
@@ -889,7 +889,7 @@
 		"category": "Extract Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{g1=\"infusion\" g1info=\"Discovery~discovery\"}",
+			"::prereq{g1=infusion g1info=\"Discovery~discovery\"}",
 			"",
 			"The alchemist can expend any prepared extract to produce a cube of glowing motes that act as per ‹spell/glitterdust›. The area must be adjacent to the alchemist and covers one 5-foot square per level of extract sacrificed, and the effect's save DC is calculated using the level of the sacrificed extract."
 		]
@@ -900,7 +900,7 @@
 		"category": "Extract Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{g1=\"infusion\" g1info=\"Discovery~discovery\"}",
+			"::prereq{g1=infusion g1info=\"Discovery~discovery\"}",
 			"",
 			"When the alchemist creates an infusion, he can mask a delayed poison within the mixture. A nostrum can contain only an ingested poison, and the save DC of the poison is reduced by 2. The poison takes effect a number of hours after being imbibed equal to the alchemist's Intelligence bonus (minimum 0) decided by the alchemist at the creation of the nostrum. The poison within a nostrum can be detected as normal by spells such as ‹spell/detect poison› and similar abilities. Until the nostrum is consumed or destroyed, it continues to occupy one of the alchemist's daily extract slots."
 		]

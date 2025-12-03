@@ -564,7 +564,7 @@
 			"",
 			"### Deathblade",
 			"",
-			"::aff{start iconP nolink type=\"poison, injury\" saveF=20 track=\"Constitution\" freqR=6 cure2c}",
+			"::aff{start iconP nolink type=\"poison, injury\" saveF=20 track=Constitution freqR=6 cure2c}",
 			"",
 			"**Original Poison** ‹eq-poison/Deathblade›",
 			"",
@@ -598,7 +598,7 @@
 			"",
 			"### Ungol Dust",
 			"",
-			"::aff{start iconP nolink type=\"poison, inhaled\" saveF=15 track=\"Charisma\" freqR=4 eff=\"Victim does not recover past weakened without ‹spell/heal› or ‹spell/restoration›\" cure1}",
+			"::aff{start iconP nolink type=\"poison, inhaled\" saveF=15 track=Charisma freqR=4 eff=\"Victim does not recover past weakened without ‹spell/heal› or ‹spell/restoration›\" cure1}",
 			"",
 			"**Original Poison** ‹eq-poison/Ungol Dust›"
 		],

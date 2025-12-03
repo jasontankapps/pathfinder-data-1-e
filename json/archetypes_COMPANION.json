@@ -14,7 +14,7 @@
 			"",
 			"::ab[Aberrant Sight (Ex)]{icon=power passive=\"An aberrant companion gains darkvision with a range of 60 feet.\" replace=\"Share Spells\"}",
 			"",
-			"::ab[Alien Mind (Ex)]{l=6 icon=def passive=\"An aberrant companion is immune to mind-affecting effects that specifically target animals, such as ‹spell/charm animal›. Anyone who attempts to use such an effect against it takes 1d4 points of ‹rule/Wisdom damage› (Will DC 20 half).\" replace=\"Devotion\"}",
+			"::ab[Alien Mind (Ex)]{l=6 icon=def passive=\"An aberrant companion is immune to mind-affecting effects that specifically target animals, such as ‹spell/charm animal›. Anyone who attempts to use such an effect against it takes 1d4 points of ‹rule/Wisdom damage› (Will DC 20 half).\" replace=Devotion}",
 			"",
 			"::ab[Fluid Bones (Ex)]{l=9 icon=power passive=\"An aberrant companion gains ‹umr/compression› as per the universal monster rule, though it can use the ability while carrying a rider only if the rider has compression.\" replace=\"Multiattack~The +2 natural armor increase at 9th level\"}"
 		]
@@ -84,7 +84,7 @@
 			"",
 			"::ab[Native Environment (Ex)]{icon=power-boost passive=\"An apex species selects a specific terrain type from the ‹class/ranger› list of ‹ability/favored terrain«s›. While in that terrain, the apex species gains a bonus equal to half its level on checks and saves to deal with environmental hazards. An apex species may not select a plane as its native environment.\" replace=\"Share Spells\"}",
 			"",
-			"::ab[Favored Terrain (Ex)]{l=3 icon=boost passive=\"The apex species gains the ranger's ‹ability/favored terrain› ability for the terrain that matches its native environment, except that the bonus is +1 instead of the ranger's +2.\" imp8=\"The bonus becomes +2.\" imp13=\"The bonus becomes +2.\" imp18=\"The bonus becomes +2.\" special=\"The animal companion does not gain additional favored terrains.\" replace=\"Evasion\"}",
+			"::ab[Favored Terrain (Ex)]{l=3 icon=boost passive=\"The apex species gains the ranger's ‹ability/favored terrain› ability for the terrain that matches its native environment, except that the bonus is +1 instead of the ranger's +2.\" imp8=\"The bonus becomes +2.\" imp13=\"The bonus becomes +2.\" imp18=\"The bonus becomes +2.\" special=\"The animal companion does not gain additional favored terrains.\" replace=Evasion}",
 			"",
 			":::ab{l=6 title=\"Natural Selection (Ex)\" ability=Ability icon=def replace=\"Devotion~Improved Evasion\"}",
 			"",
@@ -104,7 +104,7 @@
 			"",
 			":::",
 			"",
-			":::ab{l=9 title=\"Master of the Wild (Ex)\" icon=power-def ability=\"Ability\" replace=\"Multiattack\"}",
+			":::ab{l=9 title=\"Master of the Wild (Ex)\" icon=power-def ability=Ability replace=Multiattack}",
 			"",
 			"The apex species gains an ability based on its favored terrain, as follows.",
 			"",
@@ -140,7 +140,7 @@
 			"",
 			"::ab[Augmented Sight (Ex)]{icon=power passive=\"An augmented companion gains low-light vision and darkvision to a range of 60 feet.\" replace=\"Share Spells\"}",
 			"",
-			"::ab[Constructed Form (Ex)]{l=6 icon=def passive=\"An augmented companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or constructs, and it takes only half damage from bleed effects. However, it can be affected by attacks that specifically target constructs.\" replace=\"Devotion\"}"
+			"::ab[Constructed Form (Ex)]{l=6 icon=def passive=\"An augmented companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or constructs, and it takes only half damage from bleed effects. However, it can be affected by attacks that specifically target constructs.\" replace=Devotion}"
 		]
 	},
 	"auspice": {
@@ -175,9 +175,9 @@
 			"",
 			"::ab[Shared Vigilance (Ex)]{icon=power passive=\"Both a bodyguard and its master gain ‹feat/Alertness› as a bonus feat whenever they are adjacent.\" replace=\"Share Spells\"}",
 			"",
-			"::ab[Tenacious Guardian (Ex)]{l=3 icon=boost-melee passive=\"A bodyguard can always act in a surprise round (though it remains ‹rule/flat-footed› until it acts). As long as its master is adjacent, a bodyguard remains conscious (though it becomes ‹misc/staggered›) when its hit points fall below 0. While below 0 hit points, the bodyguard loses 1 hit point per round but gains a +2 morale bonus on attack rolls, saving throws, and skill checks, dying only if its hit points reach a negative total equal to its Constitution score plus its master's class level.\" replace=\"Evasion\"}",
+			"::ab[Tenacious Guardian (Ex)]{l=3 icon=boost-melee passive=\"A bodyguard can always act in a surprise round (though it remains ‹rule/flat-footed› until it acts). As long as its master is adjacent, a bodyguard remains conscious (though it becomes ‹misc/staggered›) when its hit points fall below 0. While below 0 hit points, the bodyguard loses 1 hit point per round but gains a +2 morale bonus on attack rolls, saving throws, and skill checks, dying only if its hit points reach a negative total equal to its Constitution score plus its master's class level.\" replace=Evasion}",
 			"",
-			"::ab[Uncanny Dodge (Ex)]{l=9 icon=def passive=\"A bodyguard gains ‹ability/uncanny dodge› as per the ‹class/rogue› class feature of the same name.\" replace=\"Multiattack\"}",
+			"::ab[Uncanny Dodge (Ex)]{l=9 icon=def passive=\"A bodyguard gains ‹ability/uncanny dodge› as per the ‹class/rogue› class feature of the same name.\" replace=Multiattack}",
 			"",
 			"::ab[Greater Tenacity (Ex)]{l=15 icon=melee-def passive=\"A bodyguard with fewer than 0 hit points gains a +4 morale bonus on attack rolls, saving throws, and skill checks; immunity to fear effects; and temporary hit points equal to its master's class level (maximum 20). It dies only if its hit points reach a negative total equal to twice its Constitution score plus its master's class level.\" replace=\"Improved Evasion\"}"
 		]
@@ -193,7 +193,7 @@
 			"",
 			"::ab[Bully Feats]{icon=power passive=\"In addition to the standard feats available to animal companions, a bully can select ‹feat/Greater Bull Rush›, ‹feat/Greater Overrun›, ‹feat/Greater Reposition›, ‹feat/Greater Trip›, ‹feat/Improved Reposition›, and ‹feat/Improved Trip›. It can use ‹feat/Power Attack› instead of ‹feat/Combat Expertise› as a prerequisite to qualify for feats on this list.\" replace=\"Share Spells\"}",
 			"",
-			"::ab[Bullying Thrill (Ex)]{l=9 icon=melee passive=\"Whenever a bully succeeds at a bull rush, overrun, reposition, or trip combat maneuver check, after fully resolving the combat maneuver, it gains a +2 morale bonus on attack and damage rolls until the end of its next turn.\" replace=\"Multiattack\"}"
+			"::ab[Bullying Thrill (Ex)]{l=9 icon=melee passive=\"Whenever a bully succeeds at a bull rush, overrun, reposition, or trip combat maneuver check, after fully resolving the combat maneuver, it gains a +2 morale bonus on attack and damage rolls until the end of its next turn.\" replace=Multiattack}"
 		]
 	},
 	"charger": {
@@ -213,7 +213,7 @@
 			"",
 			"::ab[Barding Training (Ex)]{l=3 icon=boost passive=\"A charger's armor check penalty for wearing barding or for ‹rule/carrying «a medium load<capacity› is reduced by 1 and the maximum Dexterity bonus for its armor and load increases by 1. In addition, the charger's speed does not decrease when wearing medium armor or carrying a medium load.\" imp9=\"The armor check penalty is now reduced by 2, and the maximum Dex bonus now increases by 2. In addition, a charger can move at normal speed in heavy armor or while carrying a heavy load.\" imp15=\"The armor check penalty is now reduced by 3, and the maximum Dex bonus now increases by 3.\" replace=\"Evasion~Multiattack\"}",
 			"",
-			"::ab[Indefatigable (Ex)]{l=6 icon=def passive=\"A charger becomes immune to ‹misc/fatigue›.\" replace=\"Devotion\"}",
+			"::ab[Indefatigable (Ex)]{l=6 icon=def passive=\"A charger becomes immune to ‹misc/fatigue›.\" replace=Devotion}",
 			"",
 			"::ab[Stalwart Steed (Ex)]{l=15 icon=def passive=\"Whenever the charger succeeds at a Fortitude or Will save that would normally result in a reduced or partial effect, the charger is unaffected.\" replace=\"Improved Evasion\"}"
 		]
@@ -229,9 +229,9 @@
 			"",
 			"::ab[Artful Acrobat (Ex)]{icon=boost passive=\"A daredevil gains a competence bonus on Acrobatics checks equal to half its Hit Dice.\" replace=\"Share Spells\"}",
 			"",
-			"::ab[Uncanny Dodge (Ex)]{l=6 icon=power ability=\"A daredevil gains ‹feat/Mobility› as a bonus feat without needing to meet the prerequisites. If it already has Mobility, it gains ‹feat/Spring Attack› instead.\" replace=\"Devotion\"}",
+			"::ab[Uncanny Dodge (Ex)]{l=6 icon=power ability=\"A daredevil gains ‹feat/Mobility› as a bonus feat without needing to meet the prerequisites. If it already has Mobility, it gains ‹feat/Spring Attack› instead.\" replace=Devotion}",
 			"",
-			"::ab[Devil May Care (Ex)]{l=9 icon=def passive=\"A daredevil can't be flanked.\" replace=\"Multiattack\"}"
+			"::ab[Devil May Care (Ex)]{l=9 icon=def passive=\"A daredevil can't be flanked.\" replace=Multiattack}"
 		]
 	},
 	"deathtouched_companion": {
@@ -251,7 +251,7 @@
 			"",
 			"::ab[Negative Energy Affinity (Ex)]{icon=down passive=\"Though a living creature, a deathtouched companion reacts to positive and negative energy as if it were undead - positive energy harms it, while negative energy heals it.\"}",
 			"",
-			"::ab[One Foot in the Grave (Ex)]{l=6 icon=def passive=\"A deathtouched companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or undead, and it takes only half damage from bleed effects. However, it can be affected by attacks that specifically target undead, such as ‹spell/halt undead›.\" replace=\"Devotion\"}"
+			"::ab[One Foot in the Grave (Ex)]{l=6 icon=def passive=\"A deathtouched companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or undead, and it takes only half damage from bleed effects. However, it can be affected by attacks that specifically target undead, such as ‹spell/halt undead›.\" replace=Devotion}"
 		]
 	},
 	"draconic_companion": {
@@ -269,9 +269,9 @@
 			"",
 			"::ab[Draconic Sight (Ex)]{icon=power passive=\"A draconic companion gains low-light vision and darkvision to a range of 60 feet.\" replace=\"Share Spells\"}",
 			"",
-			"::ab[Draconic Resistance (Ex)]{l=3 icon=def passive=\"Choose acid, cold, electricity, or fire, based on the draconic companion's draconic ancestor. The draconic companion gains resistance 5 against the chosen energy type, as well as a +2 racial bonus on saves against paralysis and sleep.\" replace=\"Evasion\"}",
+			"::ab[Draconic Resistance (Ex)]{l=3 icon=def passive=\"Choose acid, cold, electricity, or fire, based on the draconic companion's draconic ancestor. The draconic companion gains resistance 5 against the chosen energy type, as well as a +2 racial bonus on saves against paralysis and sleep.\" replace=Evasion}",
 			"",
-			"::ab[Improved Draconic Resistance (Ex)]{l=6 icon=def passive=\"A draconic companion becomes immune to paralysis and sleep, and its energy resistance increases to 10.\" imp15=\"Its energy resistance increases to 20.\" replace=\"Devotion\"}",
+			"::ab[Improved Draconic Resistance (Ex)]{l=6 icon=def passive=\"A draconic companion becomes immune to paralysis and sleep, and its energy resistance increases to 10.\" imp15=\"Its energy resistance increases to 20.\" replace=Devotion}",
 			"",
 			"::ab[Breath Weapon (Ex)]{l=9 icon=cone-line usage=\"Once a day.\" ability=\"A draconic companion gains a breath weapon that deals 1d6 points of damage per Hit Dice of the energy type matching its draconic resistance in either a 30-foot cone or a 60-foot line (chosen when the draconic companion gains this ability).\" imp15=\"It can use the breath weapon three times per day, but it must wait 1d4 rounds between uses.\" special=\"Targets of this breath weapon can attempt a Reflex save (DC = 10 + half the draconic companion's Hit Dice + the draconic companion's Constitution modifier) for half damage.\" replace=\"Multiattack~Improved Evasion\"}"
 		]
@@ -289,7 +289,7 @@
 			"",
 			"::ab[Lesser Elemental Manifestation (Ex)]{l=2 icon=def-power hPassive passive=\"An elemental companion gains one or more special abilities based on its element. An ***air*** companion gains a 20% miss chance against ranged attacks. An ***earth*** companion gains DR 1/adamantine, and this damage reduction increases by 1 for every 4 druid levels the master has. A ***fire*** companion can see through fire, fog, and smoke without penalty, and it gains ‹feat/Nimble Moves› as a bonus feat. A ***water*** companion can breathe underwater, gains a swim speed of 20 feet, and gains a +2 dodge bonus to AC against attacks of opportunity; a water companion that already has a swim speed instead increases its swim speed by 10 feet.\" replace=\"Evasion~Improved Evasion\"}",
 			"",
-			"::ab[Greater Elemental Manifestation (Su)]{l=9 icon=power-melee hAbility ability=\"An elemental companion gains an additional ability based on its element. An ***air*** companion gains a fly speed of 20 feet (good maneuverability); an air companion that already has a fly speed instead improves its maneuverability by one category. An ***earth*** companion's natural attacks overcome damage reduction as though they were adamantine, cold iron, and silver weapons. For a ***fire*** companion, choose one natural attack; that attack deals an additional 1d6 points of fire damage for every 5 Hit Dice the companion has. For a ***water*** companion, choose one melee natural attack; that attack gains the ‹umr/push« (10 feet)› special ability.\" replace=\"Multiattack\"}"
+			"::ab[Greater Elemental Manifestation (Su)]{l=9 icon=power-melee hAbility ability=\"An elemental companion gains an additional ability based on its element. An ***air*** companion gains a fly speed of 20 feet (good maneuverability); an air companion that already has a fly speed instead improves its maneuverability by one category. An ***earth*** companion's natural attacks overcome damage reduction as though they were adamantine, cold iron, and silver weapons. For a ***fire*** companion, choose one natural attack; that attack deals an additional 1d6 points of fire damage for every 5 Hit Dice the companion has. For a ***water*** companion, choose one melee natural attack; that attack gains the ‹umr/push« (10 feet)› special ability.\" replace=Multiattack}"
 		]
 	},
 	"feytouched_companion": {
@@ -344,7 +344,7 @@
 			"",
 			"::ab[Fast Movement (Ex)]{icon=boost passive=\"A racer's speed is 10 feet greater than that of typical animals of its kind when it is wearing no armor and carrying a light load.\" replace=\"Share Spells\"}",
 			"",
-			"::ab[Sprint (Ex)]{l=6 icon=boost usage=\"Once per hour.\" ability=\"A racer can move at 10 times its normal speed when it makes a ‹rule/charge› or uses the ‹rule/run› action.\" replace=\"Devotion\"}"
+			"::ab[Sprint (Ex)]{l=6 icon=boost usage=\"Once per hour.\" ability=\"A racer can move at 10 times its normal speed when it makes a ‹rule/charge› or uses the ‹rule/run› action.\" replace=Devotion}"
 		]
 	},
 	"totem_guide": {
@@ -359,11 +359,11 @@
 			"‹SOURCE Ultimate Wilderness/189;Animal Archive/21›  ",
 			"Totem guides embody the wisdom and spirituality of the natural world, providing guidance as well as aid in combat. Once a totem guide is chosen, a character can replace the companion if it is slain but must choose the same kind of totem guide.",
 			"",
-			"::ab[Spiritual Guidance (Sp)]{l=3 icon=power-magic l=3 fullround=\"A totem guide can use ‹spell/guidance› as a spell-like ability at will, targeting itself or its master.\" ability=\"A totem guide's master can spontaneously cast the following spells while adjacent to the totem guide by sacrificing a spell slot of equal or higher level: ‹spell/detect animals or plants› (1st), ‹spell/augury› (2nd), ‹spell/helping hand› (3rd), ‹spell/divination› (4th), ‹spell/commune with nature› (5th), and ‹spell/find the path› (6th). The totem guide serves as a divine focus for these spells, but costly material components must still be provided.\" order=ra replace=\"Evasion\"}",
+			"::ab[Spiritual Guidance (Sp)]{l=3 icon=power-magic l=3 fullround=\"A totem guide can use ‹spell/guidance› as a spell-like ability at will, targeting itself or its master.\" ability=\"A totem guide's master can spontaneously cast the following spells while adjacent to the totem guide by sacrificing a spell slot of equal or higher level: ‹spell/detect animals or plants› (1st), ‹spell/augury› (2nd), ‹spell/helping hand› (3rd), ‹spell/divination› (4th), ‹spell/commune with nature› (5th), and ‹spell/find the path› (6th). The totem guide serves as a divine focus for these spells, but costly material components must still be provided.\" order=ra replace=Evasion}",
 			"",
-			"::ab[Beast Speech (Ex)]{l=6 icon=power passive=\"A totem guide can speak with its master as though the two share a common language, and it can speak with other animals of its species (or, at the GM's discretion, other creatures with similar types).\" replace=\"Devotion\"}",
+			"::ab[Beast Speech (Ex)]{l=6 icon=power passive=\"A totem guide can speak with its master as though the two share a common language, and it can speak with other animals of its species (or, at the GM's discretion, other creatures with similar types).\" replace=Devotion}",
 			"",
-			"::ab[Eldritch Claws]{icon=power-melee l=9 passive=\"A totem guide gains ‹feat/Eldritch Claws› as a bonus feat.\" replace=\"Multiattack\"}",
+			"::ab[Eldritch Claws]{icon=power-melee l=9 passive=\"A totem guide gains ‹feat/Eldritch Claws› as a bonus feat.\" replace=Multiattack}",
 			"",
 			"::ab[Ghost Guardian (Ex)]{l=15 icon=melee-def-boost passive=\"A totem guide's natural weapons deal full damage to incorporeal creatures, and its natural armor bonus applies against incorporeal touch attacks. A totem guide can never be transformed into or animated as an undead creature.\" replace=\"Improved Evasion\"}"
 		]

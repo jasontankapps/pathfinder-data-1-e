@@ -486,7 +486,7 @@
 			"",
 			"::archetype[Sczarni Executioner]{c=slayer r=\"Class Skills; Studied Target; 4th-level Slayer Talent; Swift Tracker; Quarry; Improved Quarry\" e=\"These professional killers are trained and used almost exclusively by the various Sczarni crime families.\"}",
 			"",
-			"::archetype[Sniper]{c=slayer r=\"Track\" e=\"Whether it's with a bullet from a sling, a quarrel from a crossbow, or even an expertly thrown dagger, the sniper ensures that a single shot disables his targets.\"}",
+			"::archetype[Sniper]{c=slayer r=Track e=\"Whether it's with a bullet from a sling, a quarrel from a crossbow, or even an expertly thrown dagger, the sniper ensures that a single shot disables his targets.\"}",
 			"",
 			"::archetype[Spawn Slayer]{c=slayer r=\"Studied Target; Stalker; Master Slayer\" e=\"Generations of Ninshaburian warriors fought the Spawn of Rovagug, holding the line against impossible odds. Some of their ancient techniques persist to this day.\"}",
 			"",
