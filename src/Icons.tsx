@@ -95,6 +95,12 @@ const Icons: React.FC = () => {
 						</IonLabel>
 					</IonItem>
 					<IonItem>
+						<IonIcon icon="/icons/broken-shield.svg" color="secondary" slot="start" />
+						<IonLabel className="ion-text-wrap">
+							<p>A change to class skills.</p>
+						</IonLabel>
+					</IonItem>
+					<IonItem>
 						<IonIcon icon="/icons/embraced-energy.svg" color="secondary" slot="start" />
 						<IonLabel className="ion-text-wrap">
 							<p>Boost your own abilities, or an ally's.</p>

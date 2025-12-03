@@ -224,6 +224,9 @@ export const makeAbilityBlock = ({
 				case "down": { // a strict downgrade of your own abilities
 					return "broken-shield";
 				}
+				case "skill": { // modifying class skills
+					return "skills";
+				}
 			}
 			logError(`---> Missing or invalid icon [${i}][${text}]`);
 			return "confirmed";

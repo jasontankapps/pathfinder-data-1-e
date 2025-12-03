@@ -687,7 +687,7 @@
 			"",
 			"::cantrips{c=orisons}",
 			"",
-			"::ab[Mystery]{jl=strip l=1 icon=power-magic flavor=\"Each oracle draws upon a divine mystery to grant her spells and powers.\" ability=\"You must pick one ‹ability/mystery› upon taking your first level of oracle. Once made, this choice cannot be changed. This mystery grants additional class skills and other special abilities.\" imp2=\"At 2nd level, and every two levels thereafter (4th, 6th, 8th, and so on), you learn an additional spell derived from your mystery. These spells are in addition to the number of spells gained each level. They cannot be exchanged for different spells at higher levels.\"}",
+			"::ab[Mystery]{jl=strip l=1 icon=power-magic-skill flavor=\"Each oracle draws upon a divine mystery to grant her spells and powers.\" ability=\"You must pick one ‹ability/mystery› upon taking your first level of oracle. Once made, this choice cannot be changed. This mystery grants additional class skills and other special abilities.\" imp2=\"At 2nd level, and every two levels thereafter (4th, 6th, 8th, and so on), you learn an additional spell derived from your mystery. These spells are in addition to the number of spells gained each level. They cannot be exchanged for different spells at higher levels.\"}",
 			"",
 			"An oracle's mystery can represent a devotion to one ideal, prayers to deities that support the concept, or a natural calling to champion a cause. For example, an oracle with the ‹mystery/waves› mystery might have been born at sea and found a natural calling to worship the gods of the oceans, rivers, and lakes, be they benign or malevolent. Regardless of its source, the mystery manifests in a number of ways as the oracle gains levels.",
 			"",

@@ -1470,7 +1470,7 @@
 			"",
 			"::prof{simple light}",
 			"",
-			"::ab[Elemental Focus (Su)]{jl=strip l=1 icon=power order=pa passive=\"You choose one primary ‹ability/element<s› on which to focus. This element determines how you access the raw power of the Ethereal Plane, and grants you access to specific wild talents and additional class skills.\" ability=\"You gain your selected element's basic utility wild talent as a bonus wild talent.\"}",
+			"::ab[Elemental Focus (Su)]{jl=strip l=1 icon=power-skill order=pa passive=\"You choose one primary ‹ability/element<s› on which to focus. This element determines how you access the raw power of the Ethereal Plane, and grants you access to specific wild talents and additional class skills.\" ability=\"You gain your selected element's basic utility wild talent as a bonus wild talent.\"}",
 			"",
 			"::ab[Wild Talents (Basics)]{jl=strip icon=power l=1 ability=\"You can use wild talents - magical abilities similar to spells but drawn from your innate psychic talent and usable at will. Wild talents are typically spell-like abilities (though some are supernatural abilities), and take a standard action to use unless otherwise noted.\" special=\"Unless otherwise noted, the DC for a saving throw against a wild talent is equal to 10 + the wild talent's effective spell level + your Constitution modifier. You use your Constitution modifier on all ‹rule/concentration› checks for wild talents.\"}",
 			"",
