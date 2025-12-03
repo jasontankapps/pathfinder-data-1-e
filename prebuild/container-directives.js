@@ -3,14 +3,14 @@ import makeAbilityBlock from './block/ab.js';
 
 const convertEncodedInfo = (input) => {
 	let m;
-	let test = input;
+	let test = input.replace(/\n/g, "-=NR=-");
 	let output = "";
 	while(m = checkForEncodedLink(test)) {
 		const [pre, fulllink, text, post] = m;
 		output = output + `${pre}[${text}](${fulllink})`;
 		test = post;
 	}
-	return (output + test).replace(/&(times|quot|mdash|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;");
+	return (output + test).replace(/&(times|quot|mdash|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;").replace(/-=NR=-/g, "\n");
 };
 
 const getContainerDirectives = (globalVariable, marker = ":::") => {
@@ -31,11 +31,25 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 					flags.icon = true;
 					flags.link = true;
 					const {logError} = $;
-					const {title, ability, ...etc} = attrs;
+					const {title, ability, highlight, ...etc} = attrs;
+					let text2 = text;
+					if(highlight) {
+						let m, highlights = "", checking = convertEncodedInfo(text);
+						while(m = checking.match(/^(.*?)[*]{3}(.+?)[*]{3}(.*)$/)) {
+							const [, pre, found, post] = m;
+							highlights = `${highlights}${pre}@HL[${found}]`;
+							checking = post;
+						}
+						text2 = highlights + checking;
+					}
 					const myAttrs = {
 						containerInfo: {
 							ability,
-							contents: removeCurlyBrackets(marked2.parse(text)).replace(/<[/]p>\s*<p>/g, "<br /><br />").replace(/<[/]?p>/g, "")
+							contents: removeCurlyBrackets(
+								marked2
+									.parse(text2))
+									.replace(/<[/]p>\s*<p>/g, "<br /><br />")
+									.replace(/<[/]?p>/g, "")
 						},
 						...etc
 					};
@@ -46,7 +60,16 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 					if(jl) {
 						addToJumpList(title, jlid, jl);
 					}
-					return makeAbilityBlock({ marked2, prefix, jlid, text: title, convertEncodedInfo, maybeClear: "", attrs: myAttrs, logError });
+					return makeAbilityBlock({
+						marked2,
+						prefix,
+						jlid,
+						text: title,
+						convertEncodedInfo,
+						maybeClear: "",
+						attrs: myAttrs,
+						logError
+					});
 				}
 				case "item": {
 					flags.item = true;
@@ -61,7 +84,11 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 				case "fakeFootnotes": {
 					const marked2 = makeNewMarkedInstance();
 					return (
-						`<section data-footnotes><h3 id="${$.prefix}label">Footnotes</h3><ol>${removeCurlyBrackets(marked2.parseInline(text))}</ol></section>`
+						`<section data-footnotes><h3 id="${
+							$.prefix
+						}label">Footnotes</h3><ol>${
+							removeCurlyBrackets(marked2.parseInline(text))
+						}</ol></section>`
 					);
 				}
 				case "aside": {
@@ -82,7 +109,9 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 					label = "Combat Tricks and Stamina";
 					id = prefix + "combat_trick";
 					jl && addToJumpList("Combat Trick", id, jl);
-					title = `<th scope="col"${id ? ` id="${id}" data-hash-target` : ""}>Combat Trick</th></tr><tr>`;
+					title = `<th scope="col"${
+						id ? ` id="${id}" data-hash-target` : ""
+					}>Combat Trick</th></tr><tr>`;
 					// Pass-through
 				}
 				case "elephant": {
@@ -112,7 +141,21 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 					flags.thlink = true;
 					flags.icon = true;
 					return (
-						`<div className="sideNoteWrap singular optional ${n}"><table><tbody><tr><ThLink scope="row" to="${link}"${rowspan}><IonIcon aria-label="${label}" icon="/icons/${icon}" /></ThLink>${title}<td>${removeCurlyBrackets(marked2.parse(text))}</td></tr></tbody></table></div>`
+						`<div className="sideNoteWrap singular optional ${
+							n
+						}"><table><tbody><tr><ThLink scope="row" to="${
+							link
+						}"${
+							rowspan
+						}><IonIcon aria-label="${
+							label
+						}" icon="/icons/${
+							icon
+						}" /></ThLink>${
+							title
+						}<td>${
+							removeCurlyBrackets(marked2.parse(text))
+						}</td></tr></tbody></table></div>`
 					);
 				}
 			}

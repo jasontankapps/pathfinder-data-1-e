@@ -112,6 +112,12 @@ const Icons: React.FC = () => {
 							<p>An effect that lowers the defenses of others.</p>
 						</IonLabel>
 					</IonItem>
+					<IonItem>
+						<IonIcon icon="/icons/broken-shield.svg" color="secondary" slot="start" />
+						<IonLabel className="ion-text-wrap">
+							<p>A downgrade of your own abilities, or an ally's.</p>
+						</IonLabel>
+					</IonItem>
 				</IonList>
 			</IonContent>
 			<PageFooter />

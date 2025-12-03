@@ -386,7 +386,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"usage", "useNC",
 					"useL", "useM",
 					"useL3",
-					"useUnit"
+					"useUnit",
+					"replace", "alter"
 				], [
 					/^(([sl]|imp)(1?[1-9]|[12]0)|s0)$/,
 					/^use(Mod|Inc)[1-9]?$/,

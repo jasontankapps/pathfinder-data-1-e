@@ -8,21 +8,15 @@
 			"‹SOURCE Ultimate Wilderness/186›  ",
 			"There's something oddly wrong about aberrant companions. Though they're touched by eldritch magic or mutated by strange influences, they are still loyal, if unnatural, allies.",
 			"",
-			"**Aberrant Skills:** Aberrant companions treat Escape Artist and Intimidate as class skills.",
+			"::ab[Aberrant Skills]{icon=power passive=\"Aberrant companions treat Escape Artist and Intimidate as class skills.\"}",
 			"",
-			"**Not Quite Animal:** The DC to use Handle Animal on an aberrant companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.",
+			"::ab[Not Quite Animal]{icon=def passive=\"The DC to use Handle Animal on an aberrant companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.\"}",
 			"",
-			"**Aberrant Sight (Ex):** An aberrant companion gains darkvision with a range of 60 feet.",
+			"::ab[Aberrant Sight (Ex)]{icon=power passive=\"An aberrant companion gains darkvision with a range of 60 feet.\" replace=\"Share Spells\"}",
 			"",
-			"This replaces @HL[share spells].",
+			"::ab[Alien Mind (Ex)]{l=6 icon=def passive=\"An aberrant companion is immune to mind-affecting effects that specifically target animals, such as ‹spell/charm animal›. Anyone who attempts to use such an effect against it takes 1d4 points of ‹rule/Wisdom damage› (Will DC 20 half).\" replace=\"Devotion\"}",
 			"",
-			"**Alien Mind (Ex):** At 6th level, an aberrant companion is immune to mind-affecting effects that specifically target animals, such as ‹spell/charm animal›. Anyone who attempts to use such an effect against it takes 1d4 points of ‹rule/Wisdom damage› (Will DC 20 half).",
-			"",
-			"This replaces @HL[devotion].",
-			"",
-			"**Fluid Bones (Ex):** At 9th level, an aberrant companion gains ‹umr/compression› as per the universal monster rule, though it can use the ability while carrying a rider only if the rider has compression.",
-			"",
-			"This replaces @HL[Multiattack] and @HL[the +2 natural armor increase at 9th level]."
+			"::ab[Fluid Bones (Ex)]{l=9 icon=power passive=\"An aberrant companion gains ‹umr/compression› as per the universal monster rule, though it can use the ability while carrying a rider only if the rider has compression.\" replace=\"Multiattack~The +2 natural armor increase at 9th level\"}"
 		]
 	},
 	"accursed_companion": {
@@ -48,21 +42,21 @@
 			"",
 			"When an accursed companion manifests its condition, the companion's master can resist or mitigate the debilitating side effect with a successful Will save (DC = 10 + 1/2 the accursed companion's HD + the accursed companion's Wisdom modifier [minimum +0]). However, manifestations that are constant (such as *festering flesh* or *unsavory friends*) have an equally constant effect on the companion's master, and these effects cannot be mitigated or resisted in any way. An accursed companion can only be affected by a manifestation once per hour unless the manifestation is constant. All side effects on an accursed companion's master are mind-affecting effects.",
 			"",
-			"**Bestial Flashes (Su):** The companion is haunted by the previous companion's fear and pain during its death. This manifestation is triggered automatically whenever the accursed companion takes damage from a single blow in excess of half its current hit points. When an accursed companion suffers bestial flashes, it gains a +2 morale bonus on all attack rolls and damage rolls made on natural attacks, and gains a +4 morale bonus on rolls to confirm critical hits. Once triggered, a bestial flash lasts for 1 minute. When a bestial flash occurs, the mind of the companion's master is overwhelmed with images of feral savagery. She becomes ‹misc/confused› for 1d4 rounds and is then ‹misc/sickened› for the remainder of the minute that the bestial flash persists. On a successful Will save, the master is instead sickened for only 1d4 rounds.",
+			"::ab[Bestial Flashes (Su)]{icon=melee-down passive=\"The companion is haunted by the previous companion's fear and pain during its death. This manifestation is triggered automatically whenever the accursed companion takes damage from a single blow in excess of half its current hit points. When an accursed companion suffers bestial flashes, it gains a +2 morale bonus on all attack rolls and damage rolls made on natural attacks, and gains a +4 morale bonus on rolls to confirm critical hits.\" special=\"Once triggered, a bestial flash lasts for 1 minute. When a bestial flash occurs, the mind of the companion's master is overwhelmed with images of feral savagery. She becomes ‹misc/confused› for 1d4 rounds and is then ‹misc/sickened› for the remainder of the minute that the bestial flash persists. On a successful Will save, the master is instead sickened for only 1d4 rounds.\"}",
 			"",
-			"**Bloodthirsty (Su):** The companion becomes consumed with bloodlust that drives it into a frenzy of savage ferocity. This manifestation is triggered automatically whenever the accursed companion makes a successful critical hit with a natural attack. When the companion becomes bloodthirsty, it flies into a rage and gains +2 Constitution and +2 Strength, but it also takes a -2 penalty to its AC. The rage lasts until the battle is over or for 1 minute, whichever is shorter. It cannot end its rage voluntarily. The companion's master is overwhelmed with rage as well for this period, although this rage is unfocused and distracting, preventing the master from doing anything but growling, hissing, shrieking, and making other animalistic howls, during which time the master cannot speak or use spells with verbal components. A successful Will save reduces the duration of the master's rage to 1 round.",
+			"::ab[Bloodthirsty (Su)]{icon=boost-down passive=\"The companion becomes consumed with bloodlust that drives it into a frenzy of savage ferocity. This manifestation is triggered automatically whenever the accursed companion makes a successful critical hit with a natural attack.\" special=\"When the companion becomes bloodthirsty, it flies into a rage and gains +2 Constitution and +2 Strength, but it also takes a -2 penalty to its AC. The rage lasts until the battle is over or for 1 minute, whichever is shorter. It cannot end its rage voluntarily. The companion's master is overwhelmed with rage as well for this period, although this rage is unfocused and distracting, preventing the master from doing anything but growling, hissing, shrieking, and making other animalistic howls, during which time the master cannot speak or use spells with verbal components. A successful Will save reduces the duration of the master's rage to 1 round.\"}",
 			"",
-			"**Festering Flesh (Su):** The companion looks horrific and smells worse. Its rancid flesh reeks of rot and crawls with fleas, ticks, and other vile parasites. Despite its obvious grotesqueness, the creature is quite affectionate, perhaps even overly and inappropriately so. This manifestation is always active - the accursed companion is immune to the sickened and nauseated condition. The master, on the other hand, becomes consumed by fears of contagion to the extent that she takes a -2 penalty on all saving throws against disease effects.",
+			"::ab[Festering Flesh (Su)]{icon=def-down passive=\"The companion looks horrific and smells worse. Its rancid flesh reeks of rot and crawls with fleas, ticks, and other vile parasites. Despite its obvious grotesqueness, the creature is quite affectionate, perhaps even overly and inappropriately so.\" special=\"This manifestation is always active - the accursed companion is immune to the sickened and ‹misc/nauseated› condition. The master, on the other hand, becomes consumed by fears of contagion to the extent that she takes a -2 penalty on all saving throws against disease effects.\"}",
 			"",
-			"**Palsy (Su):** The poor creature is stricken with palsy. It drools constantly and its muscles spasm with tics and twitches. The palsy doesn't impact its abilities, and actually aids the accursed companion when it loses mobility from other sources. The first time each day that the accursed companion becomes paralyzed, grappled or otherwise has its movement impaired, a ‹spell/freedom of movement› effect automatically activates on the accursed companion. This effect persists for 1 minute, during which time the companion's master becomes nauseated unless she succeeds at a Will save (in which case she is merely sickened for the duration).",
+			"::ab[Palsy (Su)]{icon=def-down passive=\"The poor creature is stricken with palsy. It drools constantly and its muscles spasm with tics and twitches. The palsy doesn't impact its abilities, and actually aids the accursed companion when it loses mobility from other sources.\" special=\"The first time each day that the accursed companion becomes paralyzed, grappled or otherwise has its movement impaired, a ‹spell/freedom of movement› effect automatically activates on the accursed companion. This effect persists for 1 minute, during which time the companion's master becomes nauseated unless she succeeds at a Will save (in which case she is merely sickened for the duration).\"}",
 			"",
-			"**Rabid Vomit (Ex):** A crust of froth lines the rim of the accursed companion's mouth. This manifestation is triggered automatically on the third round of any combat - on this round, the accursed companion always takes a standard action to vomit diseased pus and bile in a 15-foot cone (after moving, if it can, to capture as many enemies in the area of effect as possible). All creatures in this area must succeed at a Fortitude saving throw (DC = 10 + 1/2 the accursed companion's HD + the accursed companion's Constitution modifier) or become nauseated for 1d4 rounds and contract ‹disease/rabies›. On a successful save, the targets are merely sickened for 1d4 rounds. When the accursed companion makes this vomit attack, its master is overwhelmed by the sensation of a mouthful of diseased bile. She is stunned for 1 round and nauseated for 1d4 rounds thereafter unless she succeeds at a Will save, in which case she is merely sickened for 1d4 rounds.",
+			"::ab[Rabid Vomit (Ex)]{icon=cone-down passive=\"A crust of froth lines the rim of the accursed companion's mouth. This manifestation is triggered automatically on the third round of any combat - on this round, the accursed companion always takes a standard action to vomit diseased pus and bile in a 15-foot cone (after moving, if it can, to capture as many enemies in the area of effect as possible). All creatures in this area must succeed at a Fortitude saving throw (DC = 10 + 1/2 the accursed companion's HD + the accursed companion's Constitution modifier) or become nauseated for 1d4 rounds and contract ‹disease/rabies›. On a successful save, the targets are merely sickened for 1d4 rounds.\" special=\"When the accursed companion makes this vomit attack, its master is overwhelmed by the sensation of a mouthful of diseased bile. She is stunned for 1 round and nauseated for 1d4 rounds thereafter unless she succeeds at a Will save, in which case she is merely sickened for 1d4 rounds.\"}",
 			"",
-			"**Scavenger (Su):** This companion is particularly intrigued by undeath, often playing with carcasses and presenting decaying body parts as gifts to its master. This manifestation is triggered automatically when the companion successfully damages a corporeal undead with a natural attack. For 1 minute, the companion gains a +2 bonus on all attack rolls, damage rolls, and saving throws against undead. During this time, the companion's master becomes more susceptible to the undead, and takes a -2 penalty to all mind-affecting effects created by any undead creature.",
+			"::ab[Scavenger (Su)]{icon=boost-def-down passive=\"This companion is particularly intrigued by undeath, often playing with carcasses and presenting decaying body parts as gifts to its master.\" special=\"This manifestation is triggered automatically when the companion successfully damages a corporeal undead with a natural attack. For 1 minute, the companion gains a +2 bonus on all attack rolls, damage rolls, and saving throws against undead. During this time, the companion's master becomes more susceptible to the undead, and takes a -2 penalty to all mind-affecting effects created by any undead creature.\"}",
 			"",
-			"**Unexpected Frenzy (Su):** The accursed companion looks normal, but some conditions or phrases cause the animal to fly into a murderous frenzy. When an accursed companion gains this condition, the GM determines three specific situations that can trigger the manifestation of the unexpected frenzy, such as a character petting the companion on the head, a keyword or key phrase such as \"good dog,\" or the sight of a specific type of creature within 10 feet. The first time each day one of the three triggers occurs, the accursed companion flies into its frenzy. Its eyes glow, and any sounds it makes take on an eerie, hollow echo. The companion acts as if under the effects of ‹spell/haste› for 1d4 rounds before returning to normal, and it typically attacks the source of its trigger. While her companion is frenzied, the master is overwhelmed with shame and despair, suffering as if under the effects of a ‹spell/crushing despair› spell for twice the length of the accursed companion's frenzy. A successful Will save negates this effect.",
+			"::ab[Unexpected Frenzy (Su)]{icon=boost-down passive=\"The accursed companion looks normal, but some conditions or phrases cause the animal to fly into a murderous frenzy.\" special=\"When an accursed companion gains this condition, the GM determines three specific situations that can trigger the manifestation of the unexpected frenzy, such as a character petting the companion on the head, a keyword or key phrase such as &quot&good dog,&quot& or the sight of a specific type of creature within 10 feet. The first time each day one of the three triggers occurs, the accursed companion flies into its frenzy. Its eyes glow, and any sounds it makes take on an eerie, hollow echo. The companion acts as if under the effects of ‹spell/haste› for 1d4 rounds before returning to normal, and it typically attacks the source of its trigger. While her companion is frenzied, the master is overwhelmed with shame and despair, suffering as if under the effects of a ‹spell/crushing despair› spell for twice the length of the accursed companion's frenzy. A successful Will save negates this effect.\"}",
 			"",
-			"**Unsavory Friends (Su):** The companion manages to attract the company of less desirable species. It has an uncanny knack for finding centipedes, bats, mice, and other vermin, even in areas where such pests might not be all that common. Even more unusual, the companion makes it a habit to play with such creatures and becomes angry and defensive if anything threatens its vermin friends. This manifestation is constant. Immune to the ‹umr/distraction› effect caused by all ‹subtype/swarm«s›, the animal companion is comfortable and even welcomes the nauseating sensation of its crawling friends. The companion's master, unfortunately, never gets used to finding squirming bugs or wriggling maggots in the companion's vicinity and takes a -4 penalty on all saving throws against any swarm's distraction ability."
+			"::ab[Unsavory Friends (Su)]{icon=def-down passive=\"The companion manages to attract the company of less desirable species. It has an uncanny knack for finding centipedes, bats, mice, and other vermin, even in areas where such pests might not be all that common. Even more unusual, the companion makes it a habit to play with such creatures and becomes angry and defensive if anything threatens its vermin friends. This manifestation is constant. Immune to the ‹umr/distraction› effect caused by all ‹subtype/swarm«s›, the animal companion is comfortable and even welcomes the nauseating sensation of its crawling friends. The companion's master, unfortunately, never gets used to finding squirming bugs or wriggling maggots in the companion's vicinity and takes a -4 penalty on all saving throws against any swarm's distraction ability.\"}"
 		]
 	},
 	"ambusher": {
@@ -74,13 +68,9 @@
 			"‹SOURCE Ultimate Wilderness/186›  ",
 			"Ambushers sneak up on unsuspecting prey, pouncing on targets when they least expect it.",
 			"",
-			"**Camouflage (Ex):** An ambusher gains a +4 racial bonus on Stealth checks in its natural environment (if this is unclear, use the environment in its Bestiary entry). At 15th level, an ambusher can use the Stealth skill to hide in its natural environment, even if the environment doesn't grant ‹rule/cover› or ‹rule/concealment›.",
+			"::ab[Camouflage (Ex)]{icon=boost passive=\"An ambusher gains a +4 racial bonus on Stealth checks in its natural environment (if this is unclear, use the environment in its Bestiary entry).\" imp15=\"An ambusher can use the Stealth skill to hide in its natural environment, even if the environment doesn't grant ‹rule/cover› or ‹rule/concealment›.\" replace=\"Share Spells~Improved Evasion\"}",
 			"",
-			"This replaces @HL[share spells] and @HL[improved evasion].",
-			"",
-			"**Cunning Ambusher (Ex):** At 3rd level, an ambusher gains ‹ability/uncanny dodge›. At 6th level, an ambusher gains a +2 racial bonus on initiative checks, and during the surprise round, opponents are always considered flat-footed against the ambusher's attacks, even if they have already acted. At 9th level, an ambusher gains a +2 morale bonus on attack and damage rolls during a surprise round.",
-			"",
-			"This replaces @HL[evasion], @HL[devotion], and @HL[Multiattack]."
+			"::ab[Cunning Ambusher (Ex)]{l=3 icon=def-boost-lower passive=\"An ambusher gains ‹ability/uncanny dodge›.\" imp6=\"An ambusher gains a +2 racial bonus on initiative checks, and during the surprise round, opponents are always considered ‹rule/flat-footed› against the ambusher's attacks, even if they have already acted.\" imp9=\"An ambusher gains a +2 morale bonus on attack and damage rolls during a surprise round.\" replace=\"Evasion~Devotion~Multiattack\"}"
 		]
 	},
 	"apex_species": {
@@ -92,47 +82,47 @@
 			"‹SOURCE Wilderness Origins/20›  ",
 			"Some animals have no serious competitors and no real predators. They are masters of their habitats, perfectly evolved to take advantage of their native terrain. They need not be predators, of course - some herbivores are just as lethally suited to their homes.",
 			"",
-			"**Native Environment (Ex):** An apex species selects a specific terrain type from the ‹class/ranger› list of ‹ability/favored terrain«s›. While in that terrain, the apex species gains a bonus equal to half its level on checks and saves to deal with environmental hazards. An apex species may not select a plane as its native environment.",
+			"::ab[Native Environment (Ex)]{icon=power-boost passive=\"An apex species selects a specific terrain type from the ‹class/ranger› list of ‹ability/favored terrain«s›. While in that terrain, the apex species gains a bonus equal to half its level on checks and saves to deal with environmental hazards. An apex species may not select a plane as its native environment.\" replace=\"Share Spells\"}",
 			"",
-			"This replaces @HL[share spells].",
+			"::ab[Favored Terrain (Ex)]{l=3 icon=boost passive=\"The apex species gains the ranger's ‹ability/favored terrain› ability for the terrain that matches its native environment, except that the bonus is +1 instead of the ranger's +2.\" imp8=\"The bonus becomes +2.\" imp13=\"The bonus becomes +2.\" imp18=\"The bonus becomes +2.\" special=\"The animal companion does not gain additional favored terrains.\" replace=\"Evasion\"}",
 			"",
-			"**Favored Terrain (Ex):** At 3rd level, the apex species gains the ranger's ‹ability/favored terrain› ability for the terrain that matches its native environment, except that the bonus is +1 instead of the ranger's +2. The bonus improves by 1 at 8th, 13th, and 18th levels, but the animal companion does not gain additional favored terrains.",
+			":::ab{l=6 title=\"Natural Selection (Ex)\" ability=Ability icon=def replace=\"Devotion~Improved Evasion\"}",
 			"",
-			"This replaces @HL[evasion].",
+			"The apex species gains an ability based on their favored terrain, as follows:",
 			"",
-			"**Natural Selection (Ex):** At 6th level, the apex species gains an ability based on their favored terrain, as follows:",
+			"***Cold:*** The apex species gains cold resistance 5, increasing to 15 at 15th level.",
 			"",
-			">**Cold:** The apex species gains cold resistance 5, increasing to 15 at 15th level.",
-			">",
-			">**Desert:** The apex species gains fire resistance 5, increasing to 15 at 15th level.",
-			">",
-			">**Forest, Jungle:** The apex species gains a +1 dodge bonus to CMD, increasing to +3 at 15th level.",
-			">",
-			">**Mountains, Plains:** The apex species gains electricity resistance 5, increasing to 15 at 15th level.",
-			">",
-			">**Water, Underground:** The apex species gains acid resistance 5, increasing to 15 at 15th level.",
-			">",
-			">**Swamp, Urban:** The apex species gains a +4 racial bonus on saves against disease and poison. At 15th level, the apex species becomes immune to disease and poison.",
+			"***Desert:*** The apex species gains fire resistance 5, increasing to 15 at 15th level.",
 			"",
-			"This replaces @HL[devotion] and @HL[improved evasion].",
+			"***Forest, Jungle:*** The apex species gains a +1 dodge bonus to CMD, increasing to +3 at 15th level.",
 			"",
-			"**Master of the Wild (Ex):** At 9th level, the apex species gains an ability based on its favored terrain, as follows.",
+			"***Mountains, Plains:*** The apex species gains electricity resistance 5, increasing to 15 at 15th level.",
 			"",
-			">**Cold:** The apex species can see through weather conditions (including blizzards, rain, fog, and mist) without penalty, ignoring any cover or concealment from such effects. If the effect is created by magic, the apex species instead triples the distance it can see without penalty.",
-			">",
-			">**Desert:** The apex species gains a +4 morale bonus on Will saves against illusion spells and effects.",
-			">",
-			">**Forest, Urban:** The apex species gains ‹feat/Skill Focus› (Stealth) as a bonus feat.",
-			">",
-			">**Jungle, Mountains:** The apex species gains a climb speed equal to half its base land speed, or increases its existing climb speed by 10 feet.",
-			">",
-			">**Plains:** The apex species increases its base land speed by 10 feet.",
-			">",
-			">**Swamp, Water:** The apex species gains a swim speed equal to half its base land speed, or increases its existing swim speed by 10 feet.",
-			">",
-			">**Underground:** The apex species gains a burrow speed equal to half its base land speed, or increases its existing burrow speed by 10 feet.",
+			"***Water, Underground:*** The apex species gains acid resistance 5, increasing to 15 at 15th level.",
 			"",
-			"This replaces @HL[multiattack]."
+			"***Swamp, Urban:*** The apex species gains a +4 racial bonus on saves against disease and poison. At 15th level, the apex species becomes immune to disease and poison.",
+			"",
+			":::",
+			"",
+			":::ab{l=9 title=\"Master of the Wild (Ex)\" icon=power-def ability=\"Ability\" replace=\"Multiattack\"}",
+			"",
+			"The apex species gains an ability based on its favored terrain, as follows.",
+			"",
+			"***Cold:*** The apex species can see through weather conditions (including blizzards, rain, fog, and mist) without penalty, ignoring any cover or concealment from such effects. If the effect is created by magic, the apex species instead triples the distance it can see without penalty.",
+			"",
+			"***Desert:*** The apex species gains a +4 morale bonus on Will saves against illusion spells and effects.",
+			"",
+			"***Forest, Urban:*** The apex species gains ‹feat/Skill Focus› (Stealth) as a bonus feat.",
+			"",
+			"***Jungle, Mountains:*** The apex species gains a climb speed equal to half its base land speed, or increases its existing climb speed by 10 feet.",
+			"",
+			"***Plains:*** The apex species increases its base land speed by 10 feet.",
+			"",
+			"***Swamp, Water:*** The apex species gains a swim speed equal to half its base land speed, or increases its existing swim speed by 10 feet.",
+			"",
+			"***Underground:*** The apex species gains a burrow speed equal to half its base land speed, or increases its existing burrow speed by 10 feet.",
+			"",
+			":::"
 		]
 	},
 	"augmented_companion": {
@@ -144,17 +134,13 @@
 			"‹SOURCE Ultimate Wilderness/186›  ",
 			"Augmented companions have suffered an injury, such as the loss of a wing, and parts of their bodies have been replaced by a master construct crafter. This procedure grants them unusual abilities.",
 			"",
-			"**Not Quite Animal:** The DC to use Handle Animal on an augmented companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.",
+			"::ab[Not Quite Animal]{icon=def passive=\"The DC to use Handle Animal on an augmented companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.\"}",
 			"",
-			"**Augmented Body (Ex):** An augmented companion heals only half as much as normal from positive energy healing effects but also heals half the usual amount from effects that specifically heal constructs.",
+			"::ab[Augmented Body (Ex)]{icon=down passive=\"An augmented companion heals only half as much as normal from positive energy healing effects but also heals half the usual amount from effects that specifically heal constructs.\"}",
 			"",
-			"**Augmented Sight (Ex):** An augmented companion gains low-light vision and darkvision to a range of 60 feet.",
+			"::ab[Augmented Sight (Ex)]{icon=power passive=\"An augmented companion gains low-light vision and darkvision to a range of 60 feet.\" replace=\"Share Spells\"}",
 			"",
-			"This replaces @HL[share spells].",
-			"",
-			"**Constructed Form (Ex):** At 6th level, an augmented companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or constructs, and it takes only half damage from bleed effects. However, it can be affected by attacks that specifically target constructs.",
-			"",
-			"This replaces @HL[devotion]."
+			"::ab[Constructed Form (Ex)]{l=6 icon=def passive=\"An augmented companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or constructs, and it takes only half damage from bleed effects. However, it can be affected by attacks that specifically target constructs.\" replace=\"Devotion\"}"
 		]
 	},
 	"auspice": {
@@ -166,15 +152,11 @@
 			"‹SOURCE Ultimate Wilderness/187›  ",
 			"Auspices were born with a birthmark or other feature that seems to be in the shape of their master's deity's holy symbol; they are usually animal sacred to that deity's religion.",
 			"",
-			"**Aligned (Ex):** Even though an auspice is an animal, its connection to its associated deity allows it to be chaotic neutral, lawful neutral, neutral evil, or neutral good, whichever is closest to the deity's alignment, or it can remain true neutral.",
+			"::ab[Aligned (Ex)]{icon=power passive=\"Even though an auspice is an animal, its connection to its associated deity allows it to be chaotic neutral, lawful neutral, neutral evil, or neutral good, whichever is closest to the deity's alignment, or it can remain true neutral.\"}",
 			"",
-			"**Auspicious Boon (Sp, Su):** At 1st level, the auspice can cast ‹spell/guidance› as a spell-like ability at will as a full-round action. At 3rd level, the auspice can access a spark of its associated deity's favor. Choose one of that deity's domains that grants a 1st-level domain power usable a number of times per day equal to 3 + the user's Wisdom modifier. The auspice can use that power once per day.",
+			"::ab[Auspicious Boon (Sp, Su)]{l=1 icon=power-magic fullround=\"The auspice can cast ‹spell/guidance› as a spell-like ability at will.\" imp3=\"The auspice can access a spark of its associated deity's favor. Choose one of that deity's domains that grants a 1st-level domain power usable a number of times per day equal to 3 + the user's Wisdom modifier. The auspice can use that power once per day.\" replace=\"Share Spells~Evasion\"}",
 			"",
-			"This replaces @HL[share spells] and @HL[evasion].",
-			"",
-			"**Aligned Strike (Ex):** At 15th level, an auspice's attacks count as chaotic, evil, good, or lawful (whichever matches its alignment) for the purpose of overcoming damage reduction, unless the auspice is true neutral.",
-			"",
-			"This replaces @HL[improved evasion]."
+			"::ab[Aligned Strike (Ex)]{l=15 icon=melee passive=\"An auspice's attacks count as chaotic, evil, good, or lawful (whichever matches its alignment) for the purpose of overcoming damage reduction, unless the auspice is true neutral.\" replace=\"Improved Evasion\"}"
 		]
 	},
 	"bodyguard": {
@@ -189,23 +171,15 @@
 			"‹SOURCE Ultimate Wilderness/187;Animal Archive/20›  ",
 			"Some companions live lives of faithful devotion and steady vigilance, standing watch through long hours and always ready to leap into action to protect their masters.",
 			"",
-			"**Animal Feats:** In addition to the standard feats available to animal companions, a bodyguard can select ‹feat/Bodyguard›, ‹feat/Combat Patrol›, ‹feat/Heroic Defiance›, ‹feat/Heroic Recovery›, and ‹feat/In Harm's Way›.",
+			"::ab[Animal Feats]{icon=power passive=\"In addition to the standard feats available to animal companions, a bodyguard can select ‹feat/Bodyguard›, ‹feat/Combat Patrol›, ‹feat/Heroic Defiance›, ‹feat/Heroic Recovery›, and ‹feat/In Harm's Way›.\"}",
 			"",
-			"**Shared Vigilance (Ex):** Both a bodyguard and its master gain ‹feat/Alertness› as a bonus feat whenever they are adjacent.",
+			"::ab[Shared Vigilance (Ex)]{icon=power passive=\"Both a bodyguard and its master gain ‹feat/Alertness› as a bonus feat whenever they are adjacent.\" replace=\"Share Spells\"}",
 			"",
-			"This replaces @HL[share spells].",
+			"::ab[Tenacious Guardian (Ex)]{l=3 icon=boost-melee passive=\"A bodyguard can always act in a surprise round (though it remains ‹rule/flat-footed› until it acts). As long as its master is adjacent, a bodyguard remains conscious (though it becomes ‹misc/staggered›) when its hit points fall below 0. While below 0 hit points, the bodyguard loses 1 hit point per round but gains a +2 morale bonus on attack rolls, saving throws, and skill checks, dying only if its hit points reach a negative total equal to its Constitution score plus its master's class level.\" replace=\"Evasion\"}",
 			"",
-			"**Tenacious Guardian (Ex):** At 3rd level, a bodyguard can always act in a surprise round (though it remains flat-footed until it acts). As long as its master is adjacent, a bodyguard remains conscious (though it becomes staggered) when its hit points fall below 0. While below 0 hit points, the bodyguard loses 1 hit point per round but gains a +2 morale bonus on attack rolls, saving throws, and skill checks, dying only if its hit points reach a negative total equal to its Constitution score plus its master's class level.",
+			"::ab[Uncanny Dodge (Ex)]{l=9 icon=def passive=\"A bodyguard gains ‹ability/uncanny dodge› as per the ‹class/rogue› class feature of the same name.\" replace=\"Multiattack\"}",
 			"",
-			"This replaces @HL[evasion].",
-			"",
-			"**Uncanny Dodge (Ex):** At 9th level, a bodyguard gains ‹ability/uncanny dodge› as per the ‹class/rogue› class feature of the same name.",
-			"",
-			"This replaces @HL[Multiattack].",
-			"",
-			"**Greater Tenacity (Ex):** At 15th level, a bodyguard with fewer than 0 hit points gains a +4 morale bonus on attack rolls, saving throws, and skill checks; immunity to fear effects; and temporary hit points equal to its master's class level (maximum 20). It dies only if its hit points reach a negative total equal to twice its Constitution score plus its master's class level.",
-			"",
-			"This replaces @HL[improved evasion]."
+			"::ab[Greater Tenacity (Ex)]{l=15 icon=melee-def passive=\"A bodyguard with fewer than 0 hit points gains a +4 morale bonus on attack rolls, saving throws, and skill checks; immunity to fear effects; and temporary hit points equal to its master's class level (maximum 20). It dies only if its hit points reach a negative total equal to twice its Constitution score plus its master's class level.\" replace=\"Improved Evasion\"}"
 		]
 	},
 	"bully": {
@@ -217,13 +191,9 @@
 			"‹SOURCE Ultimate Wilderness/187›  ",
 			"Bigger than others of its kind, a bully is used to winning fights and displays of dominance for its choice of mates, territory, or other privileges.",
 			"",
-			"**Bully Feats:** In addition to the standard feats available to animal companions, a bully can select ‹feat/Greater Bull Rush›, ‹feat/Greater Overrun›, ‹feat/Greater Reposition›, ‹feat/Greater Trip›, ‹feat/Improved Reposition›, and ‹feat/Improved Trip›. It can use ‹feat/Power Attack› instead of ‹feat/Combat Expertise› as a prerequisite to qualify for feats on this list.",
+			"::ab[Bully Feats]{icon=power passive=\"In addition to the standard feats available to animal companions, a bully can select ‹feat/Greater Bull Rush›, ‹feat/Greater Overrun›, ‹feat/Greater Reposition›, ‹feat/Greater Trip›, ‹feat/Improved Reposition›, and ‹feat/Improved Trip›. It can use ‹feat/Power Attack› instead of ‹feat/Combat Expertise› as a prerequisite to qualify for feats on this list.\" replace=\"Share Spells\"}",
 			"",
-			"This replaces @HL[share spells].",
-			"",
-			"**Bullying Thrill (Ex):** At 9th level, whenever a bully succeeds at a bull rush, overrun, reposition, or trip combat maneuver check, after fully resolving the combat maneuver, it gains a +2 morale bonus on attack and damage rolls until the end of its next turn.",
-			"",
-			"This replaces @HL[Multiattack]."
+			"::ab[Bullying Thrill (Ex)]{l=9 icon=melee passive=\"Whenever a bully succeeds at a bull rush, overrun, reposition, or trip combat maneuver check, after fully resolving the combat maneuver, it gains a +2 morale bonus on attack and damage rolls until the end of its next turn.\" replace=\"Multiattack\"}"
 		]
 	},
 	"charger": {
@@ -235,25 +205,17 @@
 			"‹SOURCE Animal Archive/20›  ",
 			"The mighty charger is a boon to heavily armored and armed champions, bearing them and their ironmongery into battle without hesitation.",
 			"",
-			"**Animal Feats:** In addition to the standard animal companion feats, a charger may select ‹feat/Charge Through›, ‹feat/Greater Overrun›, ‹feat/Improved Great Fortitude›, and ‹feat/Improved Iron Will›.",
+			"::ab[Animal Feats]{icon=power passive=\"In addition to the standard animal companion feats, a charger may select ‹feat/Charge Through›, ‹feat/Greater Overrun›, ‹feat/Improved Great Fortitude›, and ‹feat/Improved Iron Will›.\"}",
 			"",
-			"**Animal Skills:** Chargers treat Intimidate as a class skill.",
+			"::ab[Animal Skills]{icon=power passive=\"Chargers treat Intimidate as a class skill.\"}",
 			"",
-			"**Mounted Challenge (Ex):** When ridden by a ‹class/cavalier›, chargers gain half of the bonuses and penalties granted by the cavalier's challenge class feature.",
+			"::ab[Mounted Challenge (Ex)]{icon=boost passive=\"When ridden by a ‹class/cavalier›, chargers gain half of the bonuses and penalties granted by the cavalier's challenge class feature.\" replace=\"Share Spells\"}",
 			"",
-			"This ability replaces @HL[share spells].",
+			"::ab[Barding Training (Ex)]{l=3 icon=boost passive=\"A charger's armor check penalty for wearing barding or for ‹rule/carrying «a medium load<capacity› is reduced by 1 and the maximum Dexterity bonus for its armor and load increases by 1. In addition, the charger's speed does not decrease when wearing medium armor or carrying a medium load.\" imp9=\"The armor check penalty is now reduced by 2, and the maximum Dex bonus now increases by 2. In addition, a charger can move at normal speed in heavy armor or while carrying a heavy load.\" imp15=\"The armor check penalty is now reduced by 3, and the maximum Dex bonus now increases by 3.\" replace=\"Evasion~Multiattack\"}",
 			"",
-			"**Barding Training (Ex):** At 3rd level, a charger's armor check penalty for wearing barding or for ‹rule/carrying «a medium load<capacity› is reduced by 1 and the maximum Dexterity bonus for its armor and load increases by 1. Reduce the armor check and medium load penalties by an additional 1 for every 6 levels after 3rd; increase the maximum Dexterity bonus for the charger's armor by an additional 1 for every 6 levels after 3rd. In addition, the charger's speed does not decrease when wearing medium armor or carrying a medium load. At 9th level, a charger can move at normal speed in heavy armor or while carrying a heavy load.",
+			"::ab[Indefatigable (Ex)]{l=6 icon=def passive=\"A charger becomes immune to ‹misc/fatigue›.\" replace=\"Devotion\"}",
 			"",
-			"This ability replaces @HL[evasion] and @HL[Multiattack].",
-			"",
-			"**Indefatigable (Ex):** At 6th level, a charger becomes immune to ‹misc/fatigue›.",
-			"",
-			"This ability replaces @HL[devotion].",
-			"",
-			"**Stalwart Steed (Ex):** At 15th level, the charger gains the ability to withstand great punishment and stress. Whenever the charger succeeds at a Fortitude or Will save that would normally result in a reduced or partial effect, the charger is unaffected.",
-			"",
-			"This ability replaces @HL[improved evasion]."
+			"::ab[Stalwart Steed (Ex)]{l=15 icon=def passive=\"Whenever the charger succeeds at a Fortitude or Will save that would normally result in a reduced or partial effect, the charger is unaffected.\" replace=\"Improved Evasion\"}"
 		]
 	},
 	"daredevil": {
@@ -265,17 +227,11 @@
 			"‹SOURCE Ultimate Wilderness/187›  ",
 			"Daredevil companions join the fray with graceful leaps or swooping dives, heedless of the danger.",
 			"",
-			"**Artful Acrobat (Ex):** A daredevil gains a competence bonus on Acrobatics checks equal to half its Hit Dice.",
+			"::ab[Artful Acrobat (Ex)]{icon=boost passive=\"A daredevil gains a competence bonus on Acrobatics checks equal to half its Hit Dice.\" replace=\"Share Spells\"}",
 			"",
-			"This replaces @HL[share spells].",
+			"::ab[Uncanny Dodge (Ex)]{l=6 icon=power ability=\"A daredevil gains ‹feat/Mobility› as a bonus feat without needing to meet the prerequisites. If it already has Mobility, it gains ‹feat/Spring Attack› instead.\" replace=\"Devotion\"}",
 			"",
-			"**Uncanny Dodge (Ex):** At 6th level, a daredevil gains ‹feat/Mobility› as a bonus feat without needing to meet the prerequisites. If it already has Mobility, it gains ‹feat/Spring Attack› instead.",
-			"",
-			"This replaces @HL[devotion].",
-			"",
-			"**Devil May Care (Ex):** At 9th level, a daredevil can't be flanked.",
-			"",
-			"This replaces @HL[Multiattack]."
+			"::ab[Devil May Care (Ex)]{l=9 icon=def passive=\"A daredevil can't be flanked.\" replace=\"Multiattack\"}"
 		]
 	},
 	"deathtouched_companion": {
@@ -287,19 +243,15 @@
 			"‹SOURCE Ultimate Wilderness/187›  ",
 			"Whether the result of a partially successful attempt at revival, a strange blight, or repeated exposure to undead, deathtouched companions are living animals with a trace of the undead, somewhat like ‹race/dhampir«s›.",
 			"",
-			"**Deathtouched Skills:** Deathtouched companions treat Intimidate as a class skill.",
+			"::ab[Deathtouched Skills]{icon=boost passive=\"Deathtouched companions treat Intimidate as a class skill.\"}",
 			"",
-			"**Not Quite Animal:** The DC to use Handle Animal on a deathtouched companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2. It doesn't count as an animal for the purpose of an undead's unnatural aura.",
+			"::ab[Not Quite Animal]{icon=def passive=\"The DC to use Handle Animal on a deathtouched companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2. It doesn't count as an animal for the purpose of an undead's unnatural aura.\"}",
 			"",
-			"**Dead Sight (Ex):** A deathtouched companion gains darkvision to a range of 60 feet.",
+			"::ab[Dead Sight (Ex)]{icon=power passive=\"A deathtouched companion gains darkvision to a range of 60 feet.\" replace=\"Share Spells\"}",
 			"",
-			"This replaces @HL[share spells].",
+			"::ab[Negative Energy Affinity (Ex)]{icon=down passive=\"Though a living creature, a deathtouched companion reacts to positive and negative energy as if it were undead - positive energy harms it, while negative energy heals it.\"}",
 			"",
-			"**Negative Energy Affinity (Ex):** Though a living creature, a deathtouched companion reacts to positive and negative energy as if it were undead - positive energy harms it, while negative energy heals it.",
-			"",
-			"**One Foot in the Grave (Ex):** At 6th level, a deathtouched companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or undead, and it takes only half damage from bleed effects. However, it can be affected by attacks that specifically target undead, such as ‹spell/halt undead›.",
-			"",
-			"This replaces @HL[devotion]."
+			"::ab[One Foot in the Grave (Ex)]{l=6 icon=def passive=\"A deathtouched companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or undead, and it takes only half damage from bleed effects. However, it can be affected by attacks that specifically target undead, such as ‹spell/halt undead›.\" replace=\"Devotion\"}"
 		]
 	},
 	"draconic_companion": {
@@ -311,25 +263,17 @@
 			"‹SOURCE Ultimate Wilderness/188›  ",
 			"Draconic companions bear a faint trace of dragon blood that grants them special abilities.",
 			"",
-			"**Draconic Skills:** Draconic companions treat Intimidate as a class skill.",
+			"::ab[Draconic Skills]{icon=power passive=\"Draconic companions treat Intimidate as a class skill.\"}",
 			"",
-			"**Not Quite Animal:** The DC to use Handle Animal on a draconic companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.",
+			"::ab[Not Quite Animal]{icon=def passive=\"The DC to use Handle Animal on a draconic companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.\"}",
 			"",
-			"**Draconic Sight (Ex):** A draconic companion gains low-light vision and darkvision to a range of 60 feet.",
+			"::ab[Draconic Sight (Ex)]{icon=power passive=\"A draconic companion gains low-light vision and darkvision to a range of 60 feet.\" replace=\"Share Spells\"}",
 			"",
-			"This replaces @HL[share spells].",
+			"::ab[Draconic Resistance (Ex)]{l=3 icon=def passive=\"Choose acid, cold, electricity, or fire, based on the draconic companion's draconic ancestor. The draconic companion gains resistance 5 against the chosen energy type, as well as a +2 racial bonus on saves against paralysis and sleep.\" replace=\"Evasion\"}",
 			"",
-			"**Draconic Resistance (Ex):** At 3rd level, choose acid, cold, electricity, or fire, based on the draconic companion's draconic ancestor. The draconic companion gains resistance 5 against the chosen energy type, as well as a +2 racial bonus on saves against paralysis and sleep.",
+			"::ab[Improved Draconic Resistance (Ex)]{l=6 icon=def passive=\"A draconic companion becomes immune to paralysis and sleep, and its energy resistance increases to 10.\" imp15=\"Its energy resistance increases to 20.\" replace=\"Devotion\"}",
 			"",
-			"This replaces @HL[evasion].",
-			"",
-			"**Improved Draconic Resistance (Ex):** At 6th level, a draconic companion becomes immune to paralysis and sleep, and its energy resistance increases to 10. At 15th level, its energy resistance increases to 20.",
-			"",
-			"This replaces @HL[devotion].",
-			"",
-			"**Breath Weapon (Ex):** At 9th level, a draconic companion gains a breath weapon, usable once per day, that deals 1d6 points of damage per Hit Dice of the energy type matching its draconic resistance in either a 30-foot cone or a 60-foot line (chosen when the draconic companion gains this ability). At 15th level, it can use the breath weapon three times per day, but it must wait 1d4 rounds between uses. Targets of this breath weapon can attempt a Reflex save (DC = 10 + half the draconic companion's Hit Dice + the draconic companion's Constitution modifier) for half damage.",
-			"",
-			"This replaces @HL[Multiattack] and @HL[improved evasion]."
+			"::ab[Breath Weapon (Ex)]{l=9 icon=cone-line usage=\"Once a day.\" ability=\"A draconic companion gains a breath weapon that deals 1d6 points of damage per Hit Dice of the energy type matching its draconic resistance in either a 30-foot cone or a 60-foot line (chosen when the draconic companion gains this ability).\" imp15=\"It can use the breath weapon three times per day, but it must wait 1d4 rounds between uses.\" special=\"Targets of this breath weapon can attempt a Reflex save (DC = 10 + half the draconic companion's Hit Dice + the draconic companion's Constitution modifier) for half damage.\" replace=\"Multiattack~Improved Evasion\"}"
 		]
 	},
 	"elemental_companion": {
@@ -341,15 +285,11 @@
 			"‹SOURCE Plane-Hopper's Handbook/26›  ",
 			"The heart of this companion beats with primal energy.",
 			"",
-			"**Elemental Type (Ex):** An elemental companion gains a subtype that matches its element: air, earth, fire, or water.",
+			"::ab[Elemental Type (Ex)]{icon=power passive=\"An elemental companion gains a subtype that matches its element: air, earth, fire, or water.\"}",
 			"",
-			"**Lesser Elemental Manifestation (Ex):** At 2nd level, an elemental companion gains one or more special abilities based on its element. An air companion gains a 20% miss chance against ranged attacks. An earth companion gains DR 1/adamantine, and this damage reduction increases by 1 for every 4 druid levels the master has. A fire companion can see through fire, fog, and smoke without penalty, and it gains ‹feat/Nimble Moves› as a bonus feat. A water companion can breathe underwater, gains a swim speed of 20 feet, and gains a +2 dodge bonus to AC against attacks of opportunity; a water companion that already has a swim speed instead increases its swim speed by 10 feet.",
+			"::ab[Lesser Elemental Manifestation (Ex)]{l=2 icon=def-power hPassive passive=\"An elemental companion gains one or more special abilities based on its element. An ***air*** companion gains a 20% miss chance against ranged attacks. An ***earth*** companion gains DR 1/adamantine, and this damage reduction increases by 1 for every 4 druid levels the master has. A ***fire*** companion can see through fire, fog, and smoke without penalty, and it gains ‹feat/Nimble Moves› as a bonus feat. A ***water*** companion can breathe underwater, gains a swim speed of 20 feet, and gains a +2 dodge bonus to AC against attacks of opportunity; a water companion that already has a swim speed instead increases its swim speed by 10 feet.\" replace=\"Evasion~Improved Evasion\"}",
 			"",
-			"This replaces @HL[evasion] and @HL[improved evasion].",
-			"",
-			"**Greater Elemental Manifestation (Su):** At 9th level, an elemental companion gains an additional ability based on its element. An air companion gains a fly speed of 20 feet (good maneuverability); an air companion that already has a fly speed instead improves its maneuverability by one category. An earth companion's natural attacks overcome damage reduction as though they were adamantine, cold iron, and silver weapons. For a fire companion, choose one natural attack; that attack deals an additional 1d6 points of fire damage for every 5 Hit Dice the companion has. For a water companion, choose one melee natural attack; that attack gains the ‹umr/push« (10 feet)› special ability.",
-			"",
-			"This replaces @HL[multiattack]."
+			"::ab[Greater Elemental Manifestation (Su)]{l=9 icon=power-melee hAbility ability=\"An elemental companion gains an additional ability based on its element. An ***air*** companion gains a fly speed of 20 feet (good maneuverability); an air companion that already has a fly speed instead improves its maneuverability by one category. An ***earth*** companion's natural attacks overcome damage reduction as though they were adamantine, cold iron, and silver weapons. For a ***fire*** companion, choose one natural attack; that attack deals an additional 1d6 points of fire damage for every 5 Hit Dice the companion has. For a ***water*** companion, choose one melee natural attack; that attack gains the ‹umr/push« (10 feet)› special ability.\" replace=\"Multiattack\"}"
 		]
 	},
 	"feytouched_companion": {
@@ -361,21 +301,17 @@
 			"‹SOURCE Ultimate Wilderness/188›  ",
 			"Feytouched companions are strangely colored fauna native to the First World, the primal realm of the fey. They gain strange abilities tied to the fey.",
 			"",
-			"**Feytouched Skills:** Feytouched companions treat Perform as a class skill.",
+			"@HL[Small:] A feytouched companion must be an animal companion that normally starts as Small or smaller.",
 			"",
-			"**Not Quite Animal:** The DC to use Handle Animal on a feytouched companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.",
+			"::ab[Feytouched Skills]{icon=power passive=\"Feytouched companions treat Perform as a class skill.\"}",
 			"",
-			"**Small but Fierce (Ex):** A feytouched companion must be an animal companion that normally starts as Small or smaller. At 4th or 7th level, whenever the feytouched companion would normally gain the choice of a listed advancement or a +2 bonus to its Dexterity and Constitution scores, it instead gains a +2 bonus to its Strength, Dexterity, and Constitution scores.",
+			"::ab[Not Quite Animal]{icon=def passive=\"The DC to use Handle Animal on a feytouched companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.\"}",
 			"",
-			"This replaces @HL[the 4th- or 7th-level ability score and size advancement].",
+			"::ab[Small but Fierce (Ex)]{icon=boost passive=\"At 4th or 7th level, whenever the feytouched companion would normally gain the choice of a listed advancement or a +2 bonus to its Dexterity and Constitution scores, it instead gains a +2 bonus to its Strength, Dexterity, and Constitution scores.\" replace=\"The 4th- or 7th-level ability score and size advancement\"}",
 			"",
-			"**Fey Magic (Sp):** A feytouched companion can cast ‹spell/dancing lights› at will as a spell-like ability as a full-round action. At 3rd level, a feytouched companion can ready an action for its master's spellcasting while adjacent to its master, to allow its master to spontaneously cast one of the following spells by sacrificing a spell slot of equal or higher level: ‹spell/faerie fire› (1st), ‹spell/glitterdust› (2nd), ‹spell/deep slumber› (3rd), ‹spell/major image› (4th), ‹spell/confusion› (5th), ‹spell/feeblemind› (7th), ‹spell/mislead› (8th). A feytouched companion's master can cast each of the spells on the list only once each day in this way.",
+			"::ab[Fey Magic (Sp)]{icon=power-magic fullround=\"A feytouched companion can cast ‹spell/dancing lights› at will as a spell-like ability.\" imp3=\"A feytouched companion can ‹rule/ready› an action for its master's spellcasting while adjacent to its master, to allow its master to spontaneously cast one of the following spells by sacrificing a spell slot of equal or higher level: ‹spell/faerie fire› (1st), ‹spell/glitterdust› (2nd), ‹spell/deep slumber› (3rd), ‹spell/major image› (4th), ‹spell/confusion› (5th), ‹spell/feeblemind› (7th), ‹spell/mislead› (8th). A feytouched companion's master can cast each of the spells on the list only once each day in this way.\" replace=\"Share Spells~Multiattack\"}",
 			"",
-			"This replaces @HL[share spells] and @HL[Multiattack].",
-			"",
-			"**Iron Bane (Ex):** At 3rd level, a feytouched companion gains damage reduction 1/cold iron. This damage reduction increases by 1 for every 3 levels beyond 3rd. Any creature holding or wearing an item made out of cold iron takes a -10 penalty on Handle Animal checks to handle the feytouched companion.",
-			"",
-			"This replaces @HL[evasion], @HL[devotion], and @HL[improved evasion]."
+			"::ab[Iron Bane (Ex)]{l=3 icon=def passive=\"A feytouched companion gains ‹rule/damage reduction› 1/cold iron. This damage reduction increases by 1 for every 3 levels beyond 3rd.\" special=\"Any creature holding or wearing an item made out of cold iron takes a -10 penalty on Handle Animal checks to handle the feytouched companion.\" replace=\"Evasion~Devotion~Improved Evasion\"}"
 		]
 	},
 	"precocious_companion": {
@@ -387,13 +323,9 @@
 			"‹SOURCE Ultimate Wilderness/188›  ",
 			"Precocious companions are able to learn far more tricks than other companions; this ability to learn allows their masters to use them for a wider variety of tasks.",
 			"",
-			"**Expanded Tricks (Ex):** At 3rd level, a precocious companion gains twice as many bonus tricks as normal for an animal companion. A ‹class/hunter«'s› animal companion can't use the additional bonus tricks to learn hunter's tricks. At 15th level, the DC of the Handle Animal check to push a precocious companion to perform an unlearned trick is only 15, instead of 25.",
+			"::ab[Expanded Tricks (Ex)]{l=3 icon=boost passive=\"A precocious companion gains twice as many bonus tricks as normal for an animal companion. A ‹class/hunter«'s› animal companion can't use the additional bonus tricks to learn hunter's tricks.\" imp15=\"The DC of the Handle Animal check to push a precocious companion to perform an unlearned trick is only 15, instead of 25.\" replace=\"Evasion~Improved Evasion\"}",
 			"",
-			"This replaces @HL[evasion] and @HL[improved evasion].",
-			"",
-			"**Perspicacious Mind (Ex):** At 4th or 7th level, whenever the precocious companion would normally gain the choice of a listed score advancement or a +2 bonus to Dexterity and Constitution, it instead gains a +2 bonus to its Intelligence score and a +4 bonus to its Wisdom and Charisma scores.",
-			"",
-			"This replaces @HL[the 4th- or 7th-level ability score advancement]."
+			"::ab[Perspicacious Mind (Ex)]{icon=boost ability=\"At 4th or 7th level, whenever the precocious companion would normally gain the choice of a listed score advancement or a +2 bonus to Dexterity and Constitution, it instead gains a +2 bonus to its Intelligence score and a +4 bonus to its Wisdom and Charisma scores.\" replace=\"The 4th- or 7th-level ability score advancement\"}"
 		]
 	},
 	"racer": {
@@ -408,15 +340,11 @@
 			"‹SOURCE Ultimate Wilderness/188;Animal Archive/21›  ",
 			"Some companions have uncanny speed, providing their masters with swift transport.",
 			"",
-			"**Racer Feats:** In addition to the standard feats available to animal companions, a racer can select ‹feat/Acrobatic Steps›, ‹feat/Charge Through›, ‹feat/Improved Lightning Reflexes›, ‹feat/Lightning Stance›, ‹feat/Nimble Moves›, and ‹feat/Wind Stance›.",
+			"::ab[Racer Feats]{icon=power passive=\"In addition to the standard feats available to animal companions, a racer can select ‹feat/Acrobatic Steps›, ‹feat/Charge Through›, ‹feat/Improved Lightning Reflexes›, ‹feat/Lightning Stance›, ‹feat/Nimble Moves›, and ‹feat/Wind Stance›.\"}",
 			"",
-			"**Fast Movement (Ex):** A racer's speed is 10 feet greater than that of typical animals of its kind when it is wearing no armor and carrying a light load.",
+			"::ab[Fast Movement (Ex)]{icon=boost passive=\"A racer's speed is 10 feet greater than that of typical animals of its kind when it is wearing no armor and carrying a light load.\" replace=\"Share Spells\"}",
 			"",
-			"This replaces @HL[share spells].",
-			"",
-			"**Sprint (Ex):** At 6th level, once per hour a racer can move at 10 times its normal speed when it makes a charge or uses the run action.",
-			"",
-			"This replaces @HL[devotion]."
+			"::ab[Sprint (Ex)]{l=6 icon=boost usage=\"Once per hour.\" ability=\"A racer can move at 10 times its normal speed when it makes a ‹rule/charge› or uses the ‹rule/run› action.\" replace=\"Devotion\"}"
 		]
 	},
 	"totem_guide": {
@@ -431,21 +359,13 @@
 			"‹SOURCE Ultimate Wilderness/189;Animal Archive/21›  ",
 			"Totem guides embody the wisdom and spirituality of the natural world, providing guidance as well as aid in combat. Once a totem guide is chosen, a character can replace the companion if it is slain but must choose the same kind of totem guide.",
 			"",
-			"**Spiritual Guidance (Sp):** At 3rd level, a totem guide can use ‹spell/guidance› as a spell-like ability at will as a full-round action, targeting itself or its master. In addition, a totem guide's master can spontaneously cast the following spells while adjacent to the totem guide by sacrificing a spell slot of equal or higher level: ‹spell/detect animals or plants› (1st), ‹spell/augury› (2nd), ‹spell/helping hand› (3rd), ‹spell/divination› (4th), ‹spell/commune with nature› (5th), and ‹spell/find the path› (6th). The totem guide serves as a divine focus for these spells, but costly material components must still be provided.",
+			"::ab[Spiritual Guidance (Sp)]{l=3 icon=power-magic l=3 fullround=\"A totem guide can use ‹spell/guidance› as a spell-like ability at will, targeting itself or its master.\" ability=\"A totem guide's master can spontaneously cast the following spells while adjacent to the totem guide by sacrificing a spell slot of equal or higher level: ‹spell/detect animals or plants› (1st), ‹spell/augury› (2nd), ‹spell/helping hand› (3rd), ‹spell/divination› (4th), ‹spell/commune with nature› (5th), and ‹spell/find the path› (6th). The totem guide serves as a divine focus for these spells, but costly material components must still be provided.\" order=ra replace=\"Evasion\"}",
 			"",
-			"This replaces @HL[evasion].",
+			"::ab[Beast Speech (Ex)]{l=6 icon=power passive=\"A totem guide can speak with its master as though the two share a common language, and it can speak with other animals of its species (or, at the GM's discretion, other creatures with similar types).\" replace=\"Devotion\"}",
 			"",
-			"**Beast Speech (Ex):** At 6th level, a totem guide can speak with its master as though the two share a common language, and it can speak with other animals of its species (or, at the GM's discretion, other creatures with similar types).",
+			"::ab[Eldritch Claws]{icon=power-melee l=9 passive=\"A totem guide gains ‹feat/Eldritch Claws› as a bonus feat.\" replace=\"Multiattack\"}",
 			"",
-			"This replaces @HL[devotion].",
-			"",
-			"**Eldritch Claws:** At 9th level, a totem guide gains ‹feat/Eldritch Claws› as a bonus feat.",
-			"",
-			"This replaces @HL[Multiattack].",
-			"",
-			"**Ghost Guardian (Ex):** At 15th level, a totem guide's natural weapons deal full damage to incorporeal creatures, and its natural armor bonus applies against incorporeal touch attacks. A totem guide can never be transformed into or animated as an undead creature.",
-			"",
-			"This replaces @HL[improved evasion]."
+			"::ab[Ghost Guardian (Ex)]{l=15 icon=melee-def-boost passive=\"A totem guide's natural weapons deal full damage to incorporeal creatures, and its natural armor bonus applies against incorporeal touch attacks. A totem guide can never be transformed into or animated as an undead creature.\" replace=\"Improved Evasion\"}"
 		]
 	},
 	"tracker": {
@@ -457,13 +377,11 @@
 			"‹SOURCE Ultimate Wilderness/189›  ",
 			"Some companions are expert trackers, able to use their scent ability to follow any trail.",
 			"",
-			"**Keen Nose:** A tracker must be an animal companion with the ‹umr/scent› ability.",
+			"@HL[Keen Nose:] A tracker must be an animal companion with the ‹umr/scent› ability.",
 			"",
-			"**Tracker Skills:** Trackers treat Survival as a class skill.",
+			"::ab[Tracker Skills]{icon=boost passive=\"Trackers treat Survival as a class skill.\"}",
 			"",
-			"**Expert Tracker (Ex):** A tracker gains a competence bonus on Survival checks to track via scent equal to half its total Hit Dice. At 6th level, it can move at its normal speed while using Survival to follow tracks without taking the normal -5 penalty. It takes only a -10 penalty (instead of the normal -20 penalty) when moving at up to twice its normal speed while tracking.",
-			"",
-			"This replaces @HL[share spells] and @HL[devotion]."
+			"::ab[Expert Tracker (Ex)]{icon=boost passive=\"A tracker gains a competence bonus on Survival checks to track via scent equal to half its total Hit Dice.\" imp6=\"It can move at its normal speed while using Survival to follow tracks without taking the normal -5 penalty. It takes only a -10 penalty (instead of the normal -20 penalty) when moving at up to twice its normal speed while tracking.\" replace=\"Share Spells~Devotion\"}"
 		]
 	},
 	"unexpected_intellectual": {
@@ -475,11 +393,9 @@
 			"‹SOURCE Wilderness Origins/20›  ",
 			"Sometimes, when an insect or other vermin is chosen to be an animal companion, it proves cleverer than expected. On occasion, it proves much cleverer.",
 			"",
-			"**Special Requirement:** Only vermin companions may become unexpected intellectuals.",
+			"@HL[Special Requirement:] Only vermin companions may become unexpected intellectuals.",
 			"",
-			"**Genius that Creeps and Crawls (Ex):** The unexpected intellectual gains an Intelligence score of 2 and can gain skills and feats. It loses the mindless quality.",
-			"",
-			"This replaces @HL[share spells]."
+			"::ab[Genius that Creeps and Crawls (Ex)]{icon=boost passive=\"The unexpected intellectual gains an Intelligence score of 2 and can gain skills and feats. It loses the mindless quality.\" replace=\"Share Spells\"}"
 		]
 	},
 	"verdant_companion": {
@@ -491,13 +407,11 @@
 			"‹SOURCE Ultimate Wilderness/189›  ",
 			"Favorites of druids who balance their responsibilities between flora and fauna, verdant companions are animals with some of the abilities and physical aspects of plants.",
 			"",
-			"**Not Quite Animal:** The DC to use Handle Animal on a verdant companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.",
+			"::ab[Not Quite Animal]{icon=def passive=\"The DC to use Handle Animal on a verdant companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.\"}",
 			"",
-			"**Photosynthesis (Ex):** As long as it stays in the sunlight for at least 8 hours per day, a verdant companion doesn't need to eat. Otherwise, it eats normally for an animal of its kind.",
+			"::ab[Photosynthesis (Ex)]{icon=power passive=\"As long as it stays in the sunlight for at least 8 hours per day, a verdant companion doesn't need to eat. Otherwise, it eats normally for an animal of its kind.\"}",
 			"",
-			"**Verdant Resistance (Ex):** A verdant companion gains a +1 racial bonus on saving throws against mind-affecting effects, paralysis, poison, polymorph, sleep effects, and stunning. This bonus increases to +2 at 3rd level, +3 at 6th level, and +4 at 15th level. At 6th level, a verdant companion gains roots it can plant or retract as a swift action. With its roots planted, it can't move, but it gains a +4 bonus to its CMD against bull rush, pull, push, reposition, trip, and other combat maneuvers that would knock it over or move it.",
-			"",
-			"This replaces @HL[share spells], @HL[evasion], @HL[devotion], and @HL[improved evasion]."
+			"::ab[Verdant Resistance (Ex)]{icon=def passive=\"A verdant companion gains a +1 racial bonus on saving throws against mind-affecting effects, paralysis, poison, polymorph, sleep effects, and stunning.\" imp3=\"This bonus increases to +2.\" imp6=\"This bonus increases to +3 and it gains roots it can plant or retract as a ***swift action.*** With its roots planted, it can't move, but it gains a +4 bonus to its CMD against bull rush, pull, push, reposition, trip, and other combat maneuvers that would knock it over or move it.\" imp15=\"This bonus increases to +4.\" hImp replace=\"Share Spells~Evasion~Devotion~Improved Evasion\"}"
 		]
 	},
 	"wrecker": {
@@ -509,11 +423,9 @@
 			"‹SOURCE Ultimate Wilderness/189›  ",
 			"Like unruly pets, some companions have a tendency to destroy nearby objects while unsupervised, and their masters can channel these destructive impulses into an advantage in battle.",
 			"",
-			"**Wrecker Feats:** In addition to the standard feats available to animal companions, a wrecker can select ‹feat/Improved Sunder› and ‹feat/Greater Sunder›.",
+			"::ab[Wrecker Feats]{icon=boost passive=\"In addition to the standard feats available to animal companions, a wrecker can select ‹feat/Improved Sunder› and ‹feat/Greater Sunder›.\"}",
 			"",
-			"**Destructive Wrecker (Ex):** A wrecker's natural attacks ignore an inanimate object's first 5 points of hardness. At 9th level, a wrecker's natural attacks count as if they were ‹eq-material/adamantine› for the purpose of overcoming a construct's damage reduction.",
-			"",
-			"This replaces @HL[share spells] and @HL[Multiattack]."
+			"::ab[Destructive Wrecker (Ex)]{icon=melee l1=\"A wrecker's natural attacks ignore an inanimate object's first 5 points of hardness.\" l9=\"A wrecker's natural attacks count as if they were ‹eq-material/adamantine› for the purpose of overcoming a construct's damage reduction.\" replace=\"Share Spells~Multiattack\"}"
 		]
 	}
 }

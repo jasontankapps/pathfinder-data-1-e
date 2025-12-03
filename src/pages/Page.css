@@ -233,11 +233,13 @@ section[data-footnotes] ol li p {
 	display: contents;
 }
 
-strong.hl {
+strong.hl,
+div.hl {
 	color: var(--ion-color-tertiary);
 }
 
-strong.hl a {
+strong.hl a,
+div.hl a {
 	color: var(--ion-color-secondary);
 }
 

@@ -221,6 +221,9 @@ export const makeAbilityBlock = ({
 				case "roll": { // change to how you roll dice
 					return "rolling-dices";
 				}
+				case "down": { // a strict downgrade of your own abilities
+					return "broken-shield";
+				}
 			}
 			logError(`---> Missing or invalid icon [${i}][${text}]`);
 			return "confirmed";
@@ -237,6 +240,31 @@ export const makeAbilityBlock = ({
 	}</div>${
 		flavor ? `<div className="flavor">${doParse(flavor)}</div>` : ""
 	}</div>`);
+	//
+	// REPLACES/ALTERS ABILITY
+	//
+	if(replace) {
+		output.push(
+			abPairOpen
+			+ `<div className="abStart"><div className="box hl">Replaces`
+			+ abPairPartClose
+			+ abPairEndOpen
+			+ doParse(replace.replace(/~/g, ", "))
+			+ abPairPartClose
+			+ abPairClose
+		);
+	}
+	if(alter) {
+		output.push(
+			abPairOpen
+			+ `<div className="abStart"><div className="box hl">Alters`
+			+ abPairPartClose
+			+ abPairEndOpen
+			+ doParse(alter.replace(/~/g, ", "))
+			+ abPairPartClose
+			+ abPairClose
+		);
+	}
 	//
 	// LEVEL-BASED NOTES
 	//
