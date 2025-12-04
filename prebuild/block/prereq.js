@@ -72,7 +72,7 @@ const makePrerequisiteBlock = (marked2, flags, maybeClear, attrs, convertEncoded
 	//
 	flags.icon = true;
 	flags.thlink = true;
-	output.push(`<ThLink scope="row" to="/icons"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink>`);
+	output.push(`<ThLink scope="row" to="/icons/confirmed"><IonIcon aria-label="Prerequisites" icon="/icons/confirmed.svg" /></ThLink>`);
 	//
 	// ADD PREREQUISITES
 	//

@@ -233,7 +233,7 @@ export const makeAbilityBlock = ({
 			return "confirmed";
 		});
 	};
-	const iconBox = svg().map(svg => `<IonIcon icon="/icons/${svg}.svg" color="secondary" />`).join("");
+	const iconBox = svg().map(svg => `<Link to="/icons/${svg}"><IonIcon icon="/icons/${svg}.svg" color="secondary" /></Link>`).join("");
 	//
 	// TITLE
 	//
@@ -515,7 +515,7 @@ export const makeAbilityBlock = ({
 	}
 
 	return `${maybeClear}<div className="ability ${sub ? "subAbility" : (head ? "hasSubs" : "p")}">`
-		+ `<div className="abIcon"><Link to="/icons">${iconBox}</Link></div>\n`
+		+ `<div className="abIcon">${iconBox}</div>\n`
 		+ `${output.join("\n")}</div>\n`;
 };
 
