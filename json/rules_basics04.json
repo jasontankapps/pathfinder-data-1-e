@@ -1761,6 +1761,7 @@
 			"transmutation"
 		]
 	},
+	"polymorph": { "redirect": "transmutation" },
 	"level": {
 		"name": "Level, Components",
 		"subtitle": "Spell Description",

@@ -57,7 +57,8 @@ export const makeAbilityBlock = ({
 		useL, useM, useInc, useL3, // default useUnit is "round"
 		useMod, useMod3, useMod4, // default useUnit is "time"
 		useUnit,
-		containerInfo
+		containerInfo,
+		replace, alter, type
 	} = attrs;
 	const output = [];
 	const doParse = (input, highlight = false) => {
@@ -243,6 +244,19 @@ export const makeAbilityBlock = ({
 	}</div>${
 		flavor ? `<div className="flavor">${doParse(flavor)}</div>` : ""
 	}</div>`);
+	//
+	// TYPE/CATEGORY
+	//
+	type && output.push(
+			abPairOpen
+			+ abPairStartOpen
+			+ "Type"
+			+ abPairPartClose
+			+ '<div className="abEnd"><div className="box hl">'
+			+ doParse(type)
+			+ abPairPartClose
+			+ abPairClose
+		);
 	//
 	// REPLACES/ALTERS ABILITY
 	//

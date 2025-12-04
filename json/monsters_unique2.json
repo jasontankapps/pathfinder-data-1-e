@@ -756,7 +756,7 @@
 			"",
 			"::mh[End's Voice]{cr=15}",
 			"",
-			"::minfo{source=\"Pathfinder #64: Beyond the Doomsday Door/84\" xp=\"51,200\" cn large outsider subs=\"chaotic,extraplanar\" init=+7 sen=trueseeing dv=60 pcp=+21}",
+			"::minfo{source=\"Pathfinder #64: Beyond the Doomsday Door/84\" xp=\"51,200\" cn large outsider subs=\"chaotic,extraplanar\" init=+7 sen=\"trueseeing\" dv=60 pcp=+21}",
 			"",
 			"::mdefense{ac=\"31/15/27\" mod=\"+3 Dex, +1 dodge, +2 insight, +16 natural, -1 size; never surprised or flat-footed\" hp=\"225~18d10+126\" fh=5 fort=+18 ref=+11 will=+19 dr=\"10/law and magic\" immune=\"confusion, insanity\" resist=\"acid 30, cold 30, electricity 30, fire 30\" sr=26}",
 			"",

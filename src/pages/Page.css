@@ -1235,3 +1235,7 @@ ion-list.aboutPage ion-item ion-label p:first-child {
 ion-list.aboutPage ion-item ion-label p:last-child {
 	margin-block-end: 0.25rem;
 }
+
+ion-item.user-focus::part(native) {
+	background: rgba( var(--ion-color-tertiary-rgb) , 0.25);
+}
