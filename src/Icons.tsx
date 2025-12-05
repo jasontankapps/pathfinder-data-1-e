@@ -36,6 +36,16 @@ const Icons: FC = () => {
 			<PageHeader title="Icons" notBookmarkable />
 			<IonContent className="standalone">
 				<IonList lines="full">
+					<IonItem className={maybeHighlightBG(icon, "info")} id="info">
+						<IonIcon
+							icon="/icons/info.svg"
+							color={maybeHighlightIcon(icon, "info")}
+							slot="start"
+						/>
+						<IonLabel className="ion-text-wrap">
+							<p>A simple note about an ability or thing.</p>
+						</IonLabel>
+					</IonItem>
 					<IonItem className={maybeHighlightBG(icon, "confirmed")} id="confirmed">
 						<IonIcon
 							icon="/icons/confirmed.svg"

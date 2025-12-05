@@ -61,6 +61,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 					<IonIcon icon="/icons/cherish.svg" />
 					<IonIcon icon="/icons/rolling-dices.svg" />
 					<IonIcon icon="/icons/spell-book.svg" />
+					<IonIcon icon="/icons/info.svg" />
 				</p>
 			</IonLabel></IonItem>
 			<IonItem>

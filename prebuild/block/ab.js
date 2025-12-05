@@ -8,7 +8,7 @@ const abPairPartClose = "</div></div>";
 const abPairClose = "</div>";
 
 const parseAtts = (attrs) => {
-	const {standard, move, free, immediate, swift, passive, ability, fullround} = attrs;
+	const {standard, move, free, immediate, swift, passive, ability, fullround, note} = attrs;
 	if(passive) {
 		return [passive, "Passive Ability", attrs.hPassive];
 	} else if (ability) {
@@ -25,6 +25,8 @@ const parseAtts = (attrs) => {
 		return [immediate, "Immediate Action", attrs.hImmediate];
 	} else if (free) {
 		return [free, "Free Action", attrs.hFree];
+	} else if (note) {
+		return [note, "Info", attrs.hNote];
 	}
 	return false;
 };
@@ -49,7 +51,7 @@ export const makeAbilityBlock = ({
 		imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20,
 		standard, swift, immediate,
 		fullround, move, free,
-		provokes, special,
+		provokes, special, note,
 		passive, ability,
 		hSpecial, hImp,
 		order,
@@ -58,7 +60,7 @@ export const makeAbilityBlock = ({
 		useMod, useMod3, useMod4, // default useUnit is "time"
 		useUnit,
 		containerInfo,
-		replace, alter, type
+		replace, alter, type, prereq
 	} = attrs;
 	const output = [];
 	const doParse = (input, highlight = false) => {
@@ -150,7 +152,8 @@ export const makeAbilityBlock = ({
 			f: free,
 			p: passive,
 			a: ability,
-			u: use
+			u: use,
+			n: note
 		};
 		const missing = [];
 		order.split("").forEach(x => {
@@ -163,7 +166,7 @@ export const makeAbilityBlock = ({
 			logError(`[${text}] ` + missing.shift());
 		}
 	} else {
-		const all = [standard, swift, immediate, fullround, move, free, passive, ability].filter(x => x);
+		const all = [standard, swift, immediate, fullround, move, free, passive, ability, note].filter(x => x);
 		if(all.length > 1) {
 			logError(`${all.length} abilities found, but no "order" prop was given. [${text}]`);
 		}
@@ -228,6 +231,9 @@ export const makeAbilityBlock = ({
 				case "skill": { // modifying class skills
 					return "skills";
 				}
+				case "info": { // just a simple note
+					return "info";
+				}
 			}
 			logError(`---> Missing or invalid icon [${i}][${text}]`);
 			return "confirmed";
@@ -254,6 +260,19 @@ export const makeAbilityBlock = ({
 			+ abPairPartClose
 			+ '<div className="abEnd"><div className="box hl">'
 			+ doParse(type)
+			+ abPairPartClose
+			+ abPairClose
+		);
+	//
+	// PREREQUISITES
+	//
+	prereq && output.push(
+			abPairOpen
+			+ abPairStartOpen
+			+ "Prerequisites"
+			+ abPairPartClose
+			+ abPairEndOpen
+			+ doParse(prereq)
 			+ abPairPartClose
 			+ abPairClose
 		);
@@ -411,6 +430,11 @@ export const makeAbilityBlock = ({
 					title = "Ability";
 					what = ability;
 					h = attrs.hAbility;
+					break;
+				case "n":
+					title = "Note";
+					what = note;
+					h = attrs.hNote;
 					break;
 				default:
 					logError(`Invalid token [${ab}] in order attribute [${text}]`);
