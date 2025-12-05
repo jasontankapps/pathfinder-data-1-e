@@ -891,6 +891,7 @@
 	},
 	"light_level": { "redirect": "vision_and_light" },
 	"illumination_level": { "redirect": "vision_and_light" },
+	"illumination": { "redirect": "vision_and_light" },
 	"dim_light": { "redirect": "vision_and_light" },
 	"bright_light": { "redirect": "vision_and_light" },
 	"breaking_things": {

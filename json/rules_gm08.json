@@ -2666,6 +2666,7 @@
 	},
 	"catch_on_fire": { "redirect": "catching_on_fire" },
 	"catch_fire": { "redirect": "catching_on_fire" },
+	"sets_on_fire": { "redirect": "catching_on_fire" },
 	"lava_effects": {
 		"name": "Lava Effects",
 		"subtitle": "Environmental Rules",

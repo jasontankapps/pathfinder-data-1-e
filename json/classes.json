@@ -191,7 +191,7 @@
 			"",
 			"::archetype[Aerochemist]{c=alchemist r=\"Mutagen; Swift Poisoning; Persistent Mutagen; Poison Use; Swift Alchemy; Poison Resistance\" e=\"Aerochemists use scraps of Shory's magic in their concoctions to gain personal powers of flight.\"}",
 			"",
-			"::archetype[Alchemical Sapper]{c=alchemist r=\"Class Skills; Bomb; Mutagen; Poison Resistance; Swift Alchemy; 6th-level Discovery; Poison Immunity\" e=\"Alchemical sappers are trained to create explosives.\"}",
+			"::archetype[Alchemical Sapper]{c=alchemist r=\"Class Skills; Bomb; Extracts; Mutagen; Poison Resistance; Swift Alchemy; 6th-level Discovery; Poison Immunity\" e=\"Alchemical sappers are trained to create explosives.\"}",
 			"",
 			"::archetype[Alchemical Trapper]{c=alchemist r=\"2nd and 4th-level Discoveries\" e=\"(Kobold Only) Because kobolds rely on traps to soften up enemies, kobold alchemists learn to turn bombs into traps.\"}",
 			"",
@@ -395,7 +395,7 @@
 				],
 				"data": [
 					[ "‹arc-alchemist/Aerochemist›", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", "X", null, "X", null, null, null, "X", "X", "X", null, null ],
-					[ "‹arc-alchemist/Alchemical Sapper›", null, null, "X", null, null, null, null, null, null, null, null, null, null, null, "X", null, "X", null, null, null, null, null, null, "X", null, "X", "X", null, null, null, null, "X", null, null, null ],
+					[ "‹arc-alchemist/Alchemical Sapper›", null, null, "X", null, null, null, null, null, null, null, null, null, null, null, "X", null, "X", null, null, "X", null, null, null, "X", null, "X", "X", null, null, null, null, "X", null, null, null ],
 					[ "‹arc-alchemist/Alchemical Trapper›", "X", "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
 					[ "‹arc-alchemist/Aquachymist›", "X", null, null, null, null, null, null, null, null, null, null, null, null, null, "X", null, "X", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
 					[ "‹arc-alchemist/Beastmorph›", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "X", "X", null, null, null, null, null, "X", "X", null, null ],
