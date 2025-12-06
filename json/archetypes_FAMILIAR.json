@@ -12,9 +12,9 @@
 			"",
 			"::ab[Ambassador Skills]{icon=skill passive=\"An ambassador treats Bluff, Diplomacy, and Intimidate as class skills.\"}",
 			"",
-			"::ab[Persuasive (Ex)]{icon=power passive=\"An ambassador gains ‹feat/Persuasive› as a bonus feat.\" replace=alertness}",
+			"::ab[Persuasive (Ex)]{icon=power passive=\"An ambassador gains ‹feat/Persuasive› as a bonus feat.\" replace=Alertness}",
 			"",
-			"::ab[Enhanced Personality (Ex)]{icon=boost-down passive=\"An ambassador gains a Charisma score equal to the typical Intelligence score of a familiar of its level, if that would be higher than its normal Charisma score. The familiar's Intelligence score remains 6 (or its normal starting Intelligence for an improved familiar) and doesn't increase by level.\" replace=\"the familiar's Intelligence score advancement\"}"
+			"::ab[Enhanced Personality (Ex)]{icon=boost-down passive=\"An ambassador gains a Charisma score equal to the typical Intelligence score of a familiar of its level, if that would be higher than its normal Charisma score. The familiar's Intelligence score remains 6 (or its normal starting Intelligence for an improved familiar) and doesn't increase by level.\" replace=\"The familiar's Intelligence score advancement\"}"
 		]
 	},
 	"animal_exemplar": {
@@ -30,7 +30,7 @@
 			"",
 			"::ab[Animal Exemplar Skills]{icon=skill passive=\"An animal exemplar treats Handle Animal as a class skill.\"}",
 			"",
-			"::ab[Influence Animals (Ex, Sp)]{icon=boost-power-magic l3=\"An animal exemplar gains speak with animals with respect to others of its kind at 3rd level instead of 7th level.\" l7=\"It gains the ability to influence animals of its kind, as per the ‹ability/wild empathy› ability of a ‹class/druid› of its master's level with a +4 racial bonus on the check, but only for animals of its kind.\" l11=\"It can cast ‹spell/charm animal› three times per day as a spell-like ability against animals of its kind\" l13=\"It can cast ‹spell/dominate animal› once per day as a spell-like ability against animals of its kind.\" alter=\"speak with animals of its kind\" replace=\"deliver touch spells~spell resistance~scry on familiar\"}"
+			"::ab[Influence Animals (Ex, Sp)]{icon=boost-power-magic l3=\"An animal exemplar gains speak with animals with respect to others of its kind at 3rd level instead of 7th level.\" l7=\"It gains the ability to influence animals of its kind, as per the ‹ability/wild empathy› ability of a ‹class/druid› of its master's level with a +4 racial bonus on the check, but only for animals of its kind.\" l11=\"It can cast ‹spell/charm animal› three times per day as a spell-like ability against animals of its kind\" l13=\"It can cast ‹spell/dominate animal› once per day as a spell-like ability against animals of its kind.\" alter=\"Speak with animals of its kind\" replace=\"Deliver touch spells~spell resistance~scry on familiar\"}"
 		]
 	},
 	"arcane_amplifier": {
@@ -44,9 +44,9 @@
 			"",
 			"::ab[Echo (Su)]{icon=magic l1=\"Once per day when delivering a touch spell, an arcane amplifier can apply the ‹feat/Extend Spell› metamagic feat to the spell.\" l8=\"It can use this ability twice per day.\" l13=\"It can use this ability three times per day.\" replace=\"Alertness~improved evasion\"}",
 			"",
-			"::ab[Reverberate (Su)]{icon=magic l7=\"Once per day when delivering a touch spell, an arcane amplifier can apply either the ‹feat/Empower Spell› metamagic feat to the spell or use the ‹feat/Heighten Spell› metamagic feat to increase its spell level by 2.\" l11=\"It can use this ability twice per day.\" replace=\"speak with animals of its kind~spell resistance\"}",
+			"::ab[Reverberate (Su)]{icon=magic l7=\"Once per day when delivering a touch spell, an arcane amplifier can apply either the ‹feat/Empower Spell› metamagic feat to the spell or use the ‹feat/Heighten Spell› metamagic feat to increase its spell level by 2.\" l11=\"It can use this ability twice per day.\" replace=\"Speak with animals of its kind~spell resistance\"}",
 			"",
-			"::ab[Resonate (Su)]{icon=magic l13=\"Once per day when delivering a touch spell, an arcane amplifier can apply the ‹feat/Maximize Spell› metamagic feat to the spell.\" replace=\"scry on familiar\"}",
+			"::ab[Resonate (Su)]{icon=magic l13=\"Once per day when delivering a touch spell, an arcane amplifier can apply the ‹feat/Maximize Spell› metamagic feat to the spell.\" replace=\"Scry on familiar\"}",
 			"",
 			"@HL[NOTE:] An arcane amplifier can apply only **one** metamagic effect to a single casting of a spell using its echo, reverberate, or resonate abilities."
 		]
@@ -62,11 +62,11 @@
 			"",
 			"::ab[Class Skills]{icon=skill passive=\"A decoy treats Bluff as a class skill.\"}",
 			"",
-			"::ab[Deceitful]{icon=power passive=\"A decoy gains ‹feat/Deceitful› as a bonus feat.\" replace=alertness}",
+			"::ab[Deceitful]{icon=power passive=\"A decoy gains ‹feat/Deceitful› as a bonus feat.\" replace=Alertness}",
 			"",
-			"::ab[Mockingbird (Ex)]{icon=power l5=\"A decoy can speak any of its master's languages.\" l7=\"It can mimic its master's voice and intonation perfectly.\" replace=\"speak with master~speak with animals of its kind\"}",
+			"::ab[Mockingbird (Ex)]{icon=power l5=\"A decoy can speak any of its master's languages.\" l7=\"It can mimic its master's voice and intonation perfectly.\" replace=\"Speak with master~speak with animals of its kind\"}",
 			"",
-			"::ab[Master's Guise (Sp)]{l=11 icon=magic standard=\"A decoy can transform into a perfect likeness of its master, as the ‹spell/alter self› spell.\" special=\"It can hold this form for up to 1 minute per caster level; upon changing back, the decoy must remain in its natural form for an equal amount of time before transforming again.\" replace=\"spell resistance\"}"
+			"::ab[Master's Guise (Sp)]{l=11 icon=magic standard=\"A decoy can transform into a perfect likeness of its master, as the ‹spell/alter self› spell.\" special=\"It can hold this form for up to 1 minute per caster level; upon changing back, the decoy must remain in its natural form for an equal amount of time before transforming again.\" replace=\"Spell resistance\"}"
 		]
 	},
 	"egotist": {
@@ -80,13 +80,13 @@
 			"",
 			"::ab[Egotist Skills]{icon=skill passive=\"An egotist treats Intimidate as a class skill.\"}",
 			"",
-			"::ab[Song of Myself (Ex)]{icon=power passive=\"An egotist gains ‹feat/Alertness› as a bonus feat rather than providing that feat to its master. It gains the variable familiar bonus (such as the ‹monster/bat«'s› +3 bonus on Fly checks) instead of granting the bonus to its master.\" alter=\"alertness~the variable familiar bonus\"}",
+			"::ab[Song of Myself (Ex)]{icon=power passive=\"An egotist gains ‹feat/Alertness› as a bonus feat rather than providing that feat to its master. It gains the variable familiar bonus (such as the ‹monster/bat«'s› +3 bonus on Fly checks) instead of granting the bonus to its master.\" alter=\"Alertness~the variable familiar bonus\"}",
 			"",
-			"::ab[Order Master (Ex)]{l=3 icon=power passive=\"An egotist gains speak with master at 3rd level instead of 5th level.\" alter=\"speak with master\"}",
+			"::ab[Order Master (Ex)]{l=3 icon=power passive=\"An egotist gains speak with master at 3rd level instead of 5th level.\" alter=\"Speak with master\"}",
 			"",
-			"::ab[Receive Touch Spells (Ex)]{l=5 icon=magic-power standard=\"An egotist can demand a particular touch spell.\" special=\"If it does so, until the egotist's next turn, its master can cast that spell on the egotist once as a ranged touch within close range, as if using ‹feat/Reach Spell›.\" replace=\"deliver touch spells\"}",
+			"::ab[Receive Touch Spells (Ex)]{l=5 icon=magic-power standard=\"An egotist can demand a particular touch spell.\" special=\"If it does so, until the egotist's next turn, its master can cast that spell on the egotist once as a ranged touch within close range, as if using ‹feat/Reach Spell›.\" replace=\"Deliver touch spells\"}",
 			"",
-			"::ab[Scry on Master (Sp)]{l=11 icon=magic usage=\"Once a day.\" ability=\"At 11th level, an egotist can scry on its master (as if casting the ‹spell/scrying› spell).\" replace=\"scry on familiar\"}"
+			"::ab[Scry on Master (Sp)]{l=11 icon=magic usage=\"Once a day.\" ability=\"At 11th level, an egotist can scry on its master (as if casting the ‹spell/scrying› spell).\" replace=\"Scry on familiar\"}"
 		]
 	},
 	"elemental_familiar": {
@@ -100,7 +100,7 @@
 			"",
 			"::ab[Elemental Type (Ex)]{icon=boost passive=\"An elemental familiar gains a subtype that matches its element: air, earth, fire, or water.\"}",
 			"",
-			"::ab[Elemental Manifestation (Ex)]{icon=power head passive=\"An elemental familiar gains one or more special abilities based on its element.\" replace=\"improved evasion\"}",
+			"::ab[Elemental Manifestation (Ex)]{icon=power head passive=\"An elemental familiar gains one or more special abilities based on its element.\" replace=\"Improved evasion\"}",
 			"",
 			"::ab[Air Familiar]{sub icon=power-boost passive=\"An air familiar gains a fly speed of 20 feet (good maneuverability); an air familiar that already has a fly speed instead improves its maneuverability by one category or increases its fly speed by 10 feet. An air familiar is considered three size categories larger than its actual size when calculating whether it can be moved by wind.\"}",
 			"",
@@ -110,7 +110,7 @@
 			"",
 			"::ab[Water Familiar]{sub icon=power-def passive=\"A water familiar can breathe underwater and gains a swim speed of 20 feet; a water familiar that already has a swim speed instead increases its swim speed by 10 feet. A water familiar also gains a bonus to its CMD when resisting bull rush, drag, reposition, and trip combat maneuvers; this bonus is equal to the natural armor adjustment gained from its master's level.\"}",
 			"",
-			"::ab[Elemental Speech (Ex)]{icon=power passive=\"An elemental familiar gains the ability to speak and understand a language based on its element: Aquan (water), Auran (air), Ignan (fire), or Terran (earth).\" replace=\"speak with animals of its kind\"}"
+			"::ab[Elemental Speech (Ex)]{icon=power passive=\"An elemental familiar gains the ability to speak and understand a language based on its element: Aquan (water), Auran (air), Ignan (fire), or Terran (earth).\" replace=\"Speak with animals of its kind\"}"
 		]
 	},
 	"emissary": {
@@ -129,11 +129,11 @@
 			"",
 			"::ab[Emissary Skills]{icon=skill passive=\"An emissary treats Heal, Knowledge (religion), and Sense Motive as class skills.\"}",
 			"",
-			"::ab[Divine Guidance (Sp)]{icon=magic standard=\"An emissary can cast ‹spell/guidance› at will.\" replace=alertness}",
+			"::ab[Divine Guidance (Sp)]{icon=magic standard=\"An emissary can cast ‹spell/guidance› at will.\" replace=Alertness}",
 			"",
-			"::ab[Share Will (Su)]{icon=def-protect passive=\"Whenever an emissary or its master fails a saving throw against a mind-affecting effect that affects only one of them, the other can attempt the saving throw as well. If this second saving throw is a success, treat the original result as a success, and the emissary and its master can't use this ability again for 24 hours. On a failure, both the emissary and its master suffer the effects of the failed saving throw, even if one of them wouldn't ordinarily be a valid target.\" replace=\"share spells\"}",
+			"::ab[Share Will (Su)]{icon=def-protect passive=\"Whenever an emissary or its master fails a saving throw against a mind-affecting effect that affects only one of them, the other can attempt the saving throw as well. If this second saving throw is a success, treat the original result as a success, and the emissary and its master can't use this ability again for 24 hours. On a failure, both the emissary and its master suffer the effects of the failed saving throw, even if one of them wouldn't ordinarily be a valid target.\" replace=\"Share spells\"}",
 			"",
-			"::ab[Domain Influence (Sp or Su)]{icon=magic l=3 passive=\"The emissary gains a spark of divine power from the deity its master worships. Choose one of that deity's domains that grants a 1st-level domain power usable a number of times per day equal to 3 + the user's Wisdom modifier. The emissary can use that power once per day.\" replace=\"deliver touch spells\"}"
+			"::ab[Domain Influence (Sp or Su)]{icon=magic l=3 passive=\"The emissary gains a spark of divine power from the deity its master worships. Choose one of that deity's domains that grants a 1st-level domain power usable a number of times per day equal to 3 + the user's Wisdom modifier. The emissary can use that power once per day.\" replace=\"Deliver touch spells\"}"
 		]
 	},
 	"figment": {
@@ -148,9 +148,9 @@
 			"‹SOURCE Ultimate Wilderness/211;Familiar Folio/10›  ",
 			"Figments are born from their masters' imaginations rather than being ordinary creatures that are awakened.",
 			"",
-			"::ab[Recurring Dream (Su)]{icon=down passive=\"A figment has a total number of hit points equal to 1/4 of its master's total hit points. If the figment dies, it vanishes, appearing again with 1 hit point after its master awakens from a full night's sleep. If a figment ever strays more than 100 feet from its master or enters an antimagic field, or if a figment's master is unconscious or asleep, the figment disappears until the next time its master prepares spells or regains her spells per day. Because it is a being of its master's mind, a figment can never serve as a witch's familiar, a shaman's spirit animal, or any other spell-granting familiar, and it can't use any divination spells or spell-like abilities the base creature has.\" replace=\"improved evasion\"}",
+			"::ab[Recurring Dream (Su)]{icon=down passive=\"A figment has a total number of hit points equal to 1/4 of its master's total hit points. If the figment dies, it vanishes, appearing again with 1 hit point after its master awakens from a full night's sleep. If a figment ever strays more than 100 feet from its master or enters an antimagic field, or if a figment's master is unconscious or asleep, the figment disappears until the next time its master prepares spells or regains her spells per day. Because it is a being of its master's mind, a figment can never serve as a witch's familiar, a shaman's spirit animal, or any other spell-granting familiar, and it can't use any divination spells or spell-like abilities the base creature has.\" replace=\"Improved evasion\"}",
 			"",
-			"::ab[Manifest Dreams (Su)]{l=3 icon=power ability=\"A figment is shaped by its master's dreams. Each time the master awakens from a full night's rest, he can apply to the figment 1 evolution point's worth of ‹ability/eidolon »evolutions› that don't have a base form requirement.\" imp7=\"He can apply 2 points' worth of eidolon evolutions.\" imp13=\"He can apply 3 points' worth of eidolon evolutions.\" replace=\"deliver touch spells~speak with animals of its kind~scry on familiar\"}"
+			"::ab[Manifest Dreams (Su)]{l=3 icon=power ability=\"A figment is shaped by its master's dreams. Each time the master awakens from a full night's rest, he can apply to the figment 1 evolution point's worth of ‹ability/eidolon »evolutions› that don't have a base form requirement.\" imp7=\"He can apply 2 points' worth of eidolon evolutions.\" imp13=\"He can apply 3 points' worth of eidolon evolutions.\" replace=\"Deliver touch spells~speak with animals of its kind~scry on familiar\"}"
 		]
 	},
 	"infiltrator": {
@@ -167,15 +167,15 @@
 			"",
 			"::ab[Infiltrator Skills]{icon=skill passive=\"An infiltrator treats Bluff and Disguise as class skills.\"}",
 			"",
-			"::ab[Alertness (Ex)]{icon=power passive=\"An infiltrator gains ‹feat/Alertness› as a bonus feat rather than providing that feat to its master.\" alter=alertness}",
+			"::ab[Alertness (Ex)]{icon=power passive=\"An infiltrator gains ‹feat/Alertness› as a bonus feat rather than providing that feat to its master.\" alter=Alertness}",
 			"",
-			"::ab[Share Spells (Ex)]{icon=down passive=\"An infiltrator can share only divination spells that have a target of &quot&you&quot& via this ability.\" alter=\"share spells\"}",
+			"::ab[Share Spells (Ex)]{icon=down passive=\"An infiltrator can share only divination spells that have a target of &quot&you&quot& via this ability.\" alter=\"Share spells\"}",
 			"",
-			"::ab[Uncanny Stealth (Ex)]{icon=def passive=\"An infiltrator gains ‹ability/uncanny dodge› and ‹ability/improved uncanny dodge›, treating its master's level as its effective ‹class/rogue› level.\" replace=\"improved evasion\"}",
+			"::ab[Uncanny Stealth (Ex)]{icon=def passive=\"An infiltrator gains ‹ability/uncanny dodge› and ‹ability/improved uncanny dodge›, treating its master's level as its effective ‹class/rogue› level.\" replace=\"Improved evasion\"}",
 			"",
-			"::ab[Scry on Familiar (Sp)]{l=7 icon=power ability=\"An infiltrator's master can ‹spell/scry<ing› on it for up to 1 minute per level per day. The duration does not need to be consecutive, but it must be used in 1-minute increments.\" replace=\"speak with animals of its kind\"}",
+			"::ab[Scry on Familiar (Sp)]{l=7 icon=power ability=\"An infiltrator's master can ‹spell/scry<ing› on it for up to 1 minute per level per day. The duration does not need to be consecutive, but it must be used in 1-minute increments.\" replace=\"Speak with animals of its kind\"}",
 			"",
-			"::ab[Telepathic Bond (Sp)]{l=11 icon=power passive=\"An infiltrator gains a permanent ‹spell/telepathic bond› with its master. This bond has no range limit as long as the familiar and its master are on the same plane.\" replace=\"spell resistance\"}"
+			"::ab[Telepathic Bond (Sp)]{l=11 icon=power passive=\"An infiltrator gains a permanent ‹spell/telepathic bond› with its master. This bond has no range limit as long as the familiar and its master are on the same plane.\" replace=\"Spell resistance\"}"
 		]
 	},
 	"mascot": {
@@ -192,17 +192,17 @@
 			"",
 			"::ab[Mascot Skills]{icon=skill passive=\"A mascot treats all Perform skills as class skills.\"}",
 			"",
-			"::ab[Affinity for My Team (Su)]{icon=power-boost ability=\"A mascot is the heart and soul of its team. At first, the team consists of only the familiar and its master, but at 3rd level and every 3 levels thereafter, a mascot can add an additional member to its team. A mascot's *empathic link* extends to all members of its team. A mascot can add or remove one team member over the course of a day.\" replace=alertness alter=\"empathic link\"}",
+			"::ab[Affinity for My Team (Su)]{icon=power-boost ability=\"A mascot is the heart and soul of its team. At first, the team consists of only the familiar and its master, but at 3rd level and every 3 levels thereafter, a mascot can add an additional member to its team. A mascot's *empathic link* extends to all members of its team. A mascot can add or remove one team member over the course of a day.\" replace=Alertness alter=\"Empathic link\"}",
 			"",
-			"::ab[Lucky Mascot (Su)]{icon=boost passive=\"Whenever a mascot uses the aid another action to improve a team member's attack roll or AC, that team member also gains a +1 luck bonus to AC for 1 round.\" replace=\"improved evasion\"}",
+			"::ab[Lucky Mascot (Su)]{icon=boost passive=\"Whenever a mascot uses the aid another action to improve a team member's attack roll or AC, that team member also gains a +1 luck bonus to AC for 1 round.\" replace=\"Improved evasion\"}",
 			"",
-			"::ab[Share Spells (Ex)]{l=3 icon=down-power passive=\"Spells that target a mascot via its *share spells* ability function at its master's caster level - 2. The mascot also benefit from the spells of any team member when it is using *share spells.*\" alter=\"share spells\"}",
+			"::ab[Share Spells (Ex)]{l=3 icon=down-power passive=\"Spells that target a mascot via its *share spells* ability function at its master's caster level - 2. The mascot also benefit from the spells of any team member when it is using *share spells.*\" alter=\"Share spells\"}",
 			"",
-			"::ab[Deliver Touch Spells (Su)]{l=5 icon=down-power passive=\"Spells delivered by a mascot's *deliver touch spells* ability function at its master's caster level - 2. The mascot can deliver the touch spells of any of its team members.\" alter=\"deliver touch spells\"}",
+			"::ab[Deliver Touch Spells (Su)]{l=5 icon=down-power passive=\"Spells delivered by a mascot's *deliver touch spells* ability function at its master's caster level - 2. The mascot can deliver the touch spells of any of its team members.\" alter=\"Deliver touch spells\"}",
 			"",
-			"::ab[Speak with Team (Ex)]{l=7 icon=power passive=\"A mascot gains the ability to speak with all members of its team verbally as if using *speak with master.*\" replace=\"speak with master~speak with animals of its kind\"}",
+			"::ab[Speak with Team (Ex)]{l=7 icon=power passive=\"A mascot gains the ability to speak with all members of its team verbally as if using *speak with master.*\" replace=\"Speak with master~speak with animals of its kind\"}",
 			"",
-			"::ab[Heart of the Team (Ex)]{l=13 icon=boost usage=\"Once per day.\" fullround=\"A mascot can designate any member of its team as its master for the purpose of calculating its base attack bonus, Hit Dice, hit points, saving throws, and skill ranks.\" replace=\"spell resistance~scry on familiar\"}"
+			"::ab[Heart of the Team (Ex)]{l=13 icon=boost usage=\"Once per day.\" fullround=\"A mascot can designate any member of its team as its master for the purpose of calculating its base attack bonus, Hit Dice, hit points, saving throws, and skill ranks.\" replace=\"Spell resistance~scry on familiar\"}"
 		]
 	},
 	"mauler": {
@@ -219,13 +219,13 @@
 			"",
 			"::ab[Mauler Skills]{icon=skill passive=\"A mauler treats Intimidate as a class skill.\"}",
 			"",
-			"::ab[Bond Forged in Blood (Su)]{icon=down-boost l1=\"A mauler can't speak or communicate via language in any way, even if it's a type of creature that normally could.\" l5=\"Whenever the mauler's master drops a foe whose Hit Dice are at least half its level to below 0 hit points, the mauler's empathic link surges with power, granting both the mauler and its master a +2 morale bonus on attack and damage rolls for 1 round.\" replace=\"speak with master~speak with animals of its kind\"}",
+			"::ab[Bond Forged in Blood (Su)]{icon=down-boost l1=\"A mauler can't speak or communicate via language in any way, even if it's a type of creature that normally could.\" l5=\"Whenever the mauler's master drops a foe whose Hit Dice are at least half its level to below 0 hit points, the mauler's empathic link surges with power, granting both the mauler and its master a +2 morale bonus on attack and damage rolls for 1 round.\" replace=\"Speak with master~speak with animals of its kind\"}",
 			"",
-			"::ab[Increased Strength (Ex)]{icon=boost-down passive=\"Starting at 3rd level, a mauler's Strength score increases by 1 at every odd-numbered level (3rd, 5th, 7th, 9th, and so on). The familiar's Intelligence score remains 6; a mauler can never have an Intelligence score higher than 6.\" alter=\"the familiar's Intelligence score advancement\"}",
+			"::ab[Increased Strength (Ex)]{icon=boost-down passive=\"Starting at 3rd level, a mauler's Strength score increases by 1 at every odd-numbered level (3rd, 5th, 7th, 9th, and so on). The familiar's Intelligence score remains 6; a mauler can never have an Intelligence score higher than 6.\" alter=\"The familiar's Intelligence score advancement\"}",
 			"",
-			"::ab[Battle Form (Su)]{icon=power l=3 standard=\"A mauler gains the ability to transform into a larger, more ferocious form and back three times per day.\" special=\"In battle form, the mauler's size becomes Medium and it gains a +2 size bonus to its Strength score. Since many familiars are Tiny or Diminutive, be sure to check for any additional Strength and Dexterity adjustments for increasing in size from Tiny or Diminutive to Medium (using the ‹rule/polymorph« table›). This is a polymorph effect.\" replace=\"deliver touch spells\"}",
+			"::ab[Battle Form (Su)]{icon=power l=3 standard=\"A mauler gains the ability to transform into a larger, more ferocious form and back three times per day.\" special=\"In battle form, the mauler's size becomes Medium and it gains a +2 size bonus to its Strength score. Since many familiars are Tiny or Diminutive, be sure to check for any additional Strength and Dexterity adjustments for increasing in size from Tiny or Diminutive to Medium (using the ‹rule/polymorph« table›). This is a polymorph effect.\" replace=\"Deliver touch spells\"}",
 			"",
-			"::ab[Damage Reduction (Su)]{l=11 icon=def passive=\"A mauler gains DR 5/magic.\" replace=\"spell resistance\"}"
+			"::ab[Damage Reduction (Su)]{l=11 icon=def passive=\"A mauler gains DR 5/magic.\" replace=\"Spell resistance\"}"
 		]
 	},
 	"occult_messenger": {
@@ -239,7 +239,7 @@
 			"",
 			"::ab[See the Unseen (Ex)]{icon=power passive=\"While an occult messenger is within arm's reach, the master gains the ‹feat/Psychic Sensitivity› feat.\" replace=Alertness}",
 			"",
-			"::ab[Teacher from Afar (Ex)]{icon=boost passive=\"When the occult messenger's master uses a ‹rule/occult>psychic» skill unlock<s› while the occult messenger is within arm's reach, the master gains a competence bonus on skill unlocks equal to half the occult messenger's level.\" replace=\"deliver touch spells\"}"
+			"::ab[Teacher from Afar (Ex)]{icon=boost passive=\"When the occult messenger's master uses a ‹rule/occult>psychic» skill unlock<s› while the occult messenger is within arm's reach, the master gains a competence bonus on skill unlocks equal to half the occult messenger's level.\" replace=\"Deliver touch spells\"}"
 		]
 	},
 	"parasite": {
@@ -257,11 +257,11 @@
 			"",
 			"Despite the gaping wound, this process is curiously painless. Assuming that the location of the wound and the resultant blood is not obvious (most parasites infest from the back for this reason), the victim must succeed at a Heal or Sense Motive check opposed by the familiar's Bluff check to notice that something is amiss.",
 			"",
-			"Removing a parasite requires a successful Heal check opposed by the familiar's Stealth check, or a successful casting of ‹spell/break enchantment› against a DC of 11 + the parasite's level. If successful, the parasite is destroyed. The parasite can leave the host willingly as a @HL[full-round action]. If the host is killed, the parasite must succeed at a DC 20 Fortitude save or be killed as well.\" replace=\"improved evasion~share spells\"}",
+			"Removing a parasite requires a successful Heal check opposed by the familiar's Stealth check, or a successful casting of ‹spell/break enchantment› against a DC of 11 + the parasite's level. If successful, the parasite is destroyed. The parasite can leave the host willingly as a @HL[full-round action]. If the host is killed, the parasite must succeed at a DC 20 Fortitude save or be killed as well.\" replace=\"Improved evasion~share spells\"}",
 			"",
 			":::",
 			"",
-			"::ab[Puppeteer (Sp)]{l=3 icon=power-magic usage=\"Once a day.\" standard=\"The parasite can attempt to control its host. This functions as ‹spell/suggestion›.\" imp7=\"The parasite can use this ability to replicate ‹spell/dominate person› instead.\" imp15=\"The parasite can replicate ‹spell/dominate monster›.\" special=\"The DC for this ability is calculated as if the parasite's master had cast the spell (defaulting to Charisma if the owner has no spellcasting ability).\" replace=\"deliver touch spells~speak with animals of its kind~spell resistance~scry on familiar\"}"
+			"::ab[Puppeteer (Sp)]{l=3 icon=power-magic usage=\"Once a day.\" standard=\"The parasite can attempt to control its host. This functions as ‹spell/suggestion›.\" imp7=\"The parasite can use this ability to replicate ‹spell/dominate person› instead.\" imp15=\"The parasite can replicate ‹spell/dominate monster›.\" special=\"The DC for this ability is calculated as if the parasite's master had cast the spell (defaulting to Charisma if the owner has no spellcasting ability).\" replace=\"Deliver touch spells~speak with animals of its kind~spell resistance~scry on familiar\"}"
 		]
 	},
 	"pilferer": {
@@ -278,13 +278,13 @@
 			"",
 			"::ab[Pilferer Skills]{icon=skill passive=\"A pilferer treats Disable Device, Escape Artist, and Sleight of Hand as class skills.\"}",
 			"",
-			"::ab[Improved Steal (Ex)]{icon=power passive=\"A pilferer gains ‹feat/Improved Steal› as a bonus feat.\" replace=alertness}",
+			"::ab[Improved Steal (Ex)]{icon=power passive=\"A pilferer gains ‹feat/Improved Steal› as a bonus feat.\" replace=Alertness}",
 			"",
-			"::ab[Nondetection (Su)]{icon=def passive=\"A pilferer is under the constant effect of ‹spell/nondetection› with a caster level equal to its master's class level. The DC of the caster level check to penetrate this nondetection effect is equal to 15 + the master's caster level.\" replace=\"improved evasion\"}",
+			"::ab[Nondetection (Su)]{icon=def passive=\"A pilferer is under the constant effect of ‹spell/nondetection› with a caster level equal to its master's class level. The DC of the caster level check to penetrate this nondetection effect is equal to 15 + the master's caster level.\" replace=\"Improved evasion\"}",
 			"",
-			"::ab[Sneak (Ex)]{l=3 icon=boost passive=\"A pilferer gains a competence bonus equal to half its master's class level on Sleight of Hand and Stealth checks.\" replace=\"deliver touch spells\"}",
+			"::ab[Sneak (Ex)]{l=3 icon=boost passive=\"A pilferer gains a competence bonus equal to half its master's class level on Sleight of Hand and Stealth checks.\" replace=\"Deliver touch spells\"}",
 			"",
-			"::ab[Greater Steal (Ex)]{l=9 icon=power passive=\"A pilferer gains ‹feat/Greater Steal› as a bonus feat.\" replace=\"speak with animals of its kind\"}"
+			"::ab[Greater Steal (Ex)]{l=9 icon=power passive=\"A pilferer gains ‹feat/Greater Steal› as a bonus feat.\" replace=\"Speak with animals of its kind\"}"
 		]
 	},
 	"prankster": {
@@ -298,17 +298,17 @@
 			"",
 			"::ab[Prankster Skills]{icon=skill passive=\"A prankster treats Bluff, Disguise, Perform (comedy), and Sleight of Hand as class skills.\"}",
 			"",
-			"::ab[Autonomous Link (Ex)]{icon=power ability=\"A prankster can hide its feelings from its master via its *empathic link* at will. It can also try to project a false emotion through the link by attempting a Bluff check opposed by its master's Sense Motive.\" alter=\"empathic link\"}",
+			"::ab[Autonomous Link (Ex)]{icon=power ability=\"A prankster can hide its feelings from its master via its *empathic link* at will. It can also try to project a false emotion through the link by attempting a Bluff check opposed by its master's Sense Motive.\" alter=\"Empathic link\"}",
 			"",
-			"::ab[Improved Dirty Trick (Ex)]{icon=power passive=\"A prankster gains ‹feat/Improved Dirty Trick› as a bonus feat.\" replace=alertness}",
+			"::ab[Improved Dirty Trick (Ex)]{icon=power passive=\"A prankster gains ‹feat/Improved Dirty Trick› as a bonus feat.\" replace=Alertness}",
 			"",
-			"::ab[Magical Pranks (Sp)]{icon=magic standard=\"A prankster can cast ‹spell/ghost sound›, ‹spell/mage hand›, and ‹spell/prestidigitation› at will as spell-like abilities.\" replace=\"improved evasion~share spells\"}",
+			"::ab[Magical Pranks (Sp)]{icon=magic standard=\"A prankster can cast ‹spell/ghost sound›, ‹spell/mage hand›, and ‹spell/prestidigitation› at will as spell-like abilities.\" replace=\"Improved evasion~share spells\"}",
 			"",
-			"::ab[Glib Comedy (Ex)]{icon=boost l=3 passive=\"A prankster gains a competence bonus equal to half its master's class level on Bluff, Disguise, and Perform (comedy) checks.\" replace=\"deliver touch spells\"}",
+			"::ab[Glib Comedy (Ex)]{icon=boost l=3 passive=\"A prankster gains a competence bonus equal to half its master's class level on Bluff, Disguise, and Perform (comedy) checks.\" replace=\"Deliver touch spells\"}",
 			"",
-			"::ab[Greater Dirty Trick (Ex)]{l=11 icon=power passive=\"A prankster gains ‹feat/Greater Dirty Trick› as a bonus feat.\" replace=\"spell resistance\"}",
+			"::ab[Greater Dirty Trick (Ex)]{l=11 icon=power passive=\"A prankster gains ‹feat/Greater Dirty Trick› as a bonus feat.\" replace=\"Spell resistance\"}",
 			"",
-			"::ab[Unreliable Narrator (Sp)]{l=13 icon=power-magic ability=\"Whenever its master uses *scry on familiar,* a prankster can use false vision to fool that ability; this doesn't affect any other divination (scrying) effects in the area, only its master's *scry on familiar* ability.\" alter=\"scry on familiar\"}"
+			"::ab[Unreliable Narrator (Sp)]{l=13 icon=power-magic ability=\"Whenever its master uses *scry on familiar,* a prankster can use false vision to fool that ability; this doesn't affect any other divination (scrying) effects in the area, only its master's *scry on familiar* ability.\" alter=\"Scry on familiar\"}"
 		]
 	},
 	"protector": {
@@ -323,11 +323,11 @@
 			"‹SOURCE Ultimate Wilderness/212;Familiar Folio/11›  ",
 			"Protector familiars are so devoted that they would give their lives for their masters. A tumor familiar can't be a protector.",
 			"",
-			"::ab[Loyal Bodyguard (Ex)]{icon=power-protect passive=\"A protector gains ‹feat/Bodyguard› and ‹feat/Combat Reflexes› as bonus feats.\" ability=\"If the familiar is sharing its master's square, it can use Bodyguard to aid another to improve its master's AC even if it doesn't threaten the attacking foe, though it still needs line of effect to its master and the attacker.\" order=pa replace=\"alertness~improved evasion\"}",
+			"::ab[Loyal Bodyguard (Ex)]{icon=power-protect passive=\"A protector gains ‹feat/Bodyguard› and ‹feat/Combat Reflexes› as bonus feats.\" ability=\"If the familiar is sharing its master's square, it can use Bodyguard to aid another to improve its master's AC even if it doesn't threaten the attacking foe, though it still needs line of effect to its master and the attacker.\" order=pa replace=\"Alertness~improved evasion\"}",
 			"",
-			"::ab[Shield Master (Su)]{l=5 icon=def ability=\"Whenever a protector or its master takes hit point damage, as long as the protector and its master are touching, its master can split the damage evenly between them as if under the effects of ‹spell/shield other›.\" replace=\"deliver touch spells~speak with animals of its kind\"}",
+			"::ab[Shield Master (Su)]{l=5 icon=def ability=\"Whenever a protector or its master takes hit point damage, as long as the protector and its master are touching, its master can split the damage evenly between them as if under the effects of ‹spell/shield other›.\" replace=\"Deliver touch spells~speak with animals of its kind\"}",
 			"",
-			"::ab[Able Defender (Ex)]{l=11 icon=power-boost passive=\"A protector gains ‹feat/In Harm's Way› as a bonus feat. In addition, the familiar's hit points are now equal to its master's total hit points (not including temporary hit points), regardless of its actual Hit Dice.\" replace=\"spell resistance\"}"
+			"::ab[Able Defender (Ex)]{l=11 icon=power-boost passive=\"A protector gains ‹feat/In Harm's Way› as a bonus feat. In addition, the familiar's hit points are now equal to its master's total hit points (not including temporary hit points), regardless of its actual Hit Dice.\" replace=\"Spell resistance\"}"
 		]
 	},
 	"sage": {
@@ -344,9 +344,9 @@
 			"",
 			"::ab[Sage Skills]{icon=skill passive=\"A sage treats all Knowledge skills as class skills.\"}",
 			"",
-			"::ab[Dazzling Intellect (Ex)]{icon=boost-down passive=\"A sage's Intelligence score is always equal to 5 + its master's class level, but it gains natural armor increases as if its master's class level were half what of the actual class level.\" alter=\"the familiar's Intelligence score and natural armor adjustment\"}",
+			"::ab[Dazzling Intellect (Ex)]{icon=boost-down passive=\"A sage's Intelligence score is always equal to 5 + its master's class level, but it gains natural armor increases as if its master's class level were half what of the actual class level.\" alter=\"The familiar's Intelligence score and natural armor adjustment\"}",
 			"",
-			"::ab[Sage's Knowledge (Ex)]{icon=power-boost passive=\"A sage stores information on every topic and is happy to lecture its master on the finer points of a subject. A sage can attempt all Knowledge checks untrained and gains a bonus on Knowledge checks equal to half its master's class level. Additionally, a sage gains 2 skill ranks each time its master gains a class level. Its maximum number of ranks in any given skill is equal to its master's class level.\" replace=\"alertness~the familiar's ability to share its master's skill ranks\"}"
+			"::ab[Sage's Knowledge (Ex)]{icon=power-boost passive=\"A sage stores information on every topic and is happy to lecture its master on the finer points of a subject. A sage can attempt all Knowledge checks untrained and gains a bonus on Knowledge checks equal to half its master's class level. Additionally, a sage gains 2 skill ranks each time its master gains a class level. Its maximum number of ranks in any given skill is equal to its master's class level.\" replace=\"Alertness~the familiar's ability to share its master's skill ranks\"}"
 		]
 	},
 	"school_familiar": {
@@ -444,9 +444,9 @@
 			"‹SOURCE Ultimate Wilderness/213›  ",
 			"Soulbound familiars are born when a master uses the magical principles behind soulbound dolls to bind a soul fragment to an animal.",
 			"",
-			"::ab[Soul Focus (Ex)]{icon=power-boost order=pa ability=\"The soulbound familiar gains ‹feat/Skill Focus› in a skill important to the creature whose soul provided the fragment.\" passive=\"The soul fragment bound to the familiar lives within a focus crystal surgically inserted into the animal. As long as this soul focus remains intact, it can be used to bind the soul fragment into another familiar, with the same cost and time requirements as replacing a familiar. Once bound into the soul focus, the soul continues to learn, and so if it is later put into a new familiar body, the soul retains its personality and memories from its previous body or bodies. A soul focus has hardness 8, 12 hit points, and a break DC of 20, though it can be attacked only when surgically removed from the familiar. If the soul focus is destroyed, creating a new soul focus with none of the old one's memories costs as much as replacing a familiar, in addition to the normal cost of replacing the familiar itself.\" special=\"Because it is born of another creature's soul, a soulbound familiar can never serve as a witch's familiar, a shaman's spirit animal, or any other spell-granting familiar.\" replace=alertness}",
+			"::ab[Soul Focus (Ex)]{icon=power-boost order=pa ability=\"The soulbound familiar gains ‹feat/Skill Focus› in a skill important to the creature whose soul provided the fragment.\" passive=\"The soul fragment bound to the familiar lives within a focus crystal surgically inserted into the animal. As long as this soul focus remains intact, it can be used to bind the soul fragment into another familiar, with the same cost and time requirements as replacing a familiar. Once bound into the soul focus, the soul continues to learn, and so if it is later put into a new familiar body, the soul retains its personality and memories from its previous body or bodies. A soul focus has hardness 8, 12 hit points, and a break DC of 20, though it can be attacked only when surgically removed from the familiar. If the soul focus is destroyed, creating a new soul focus with none of the old one's memories costs as much as replacing a familiar, in addition to the normal cost of replacing the familiar itself.\" special=\"Because it is born of another creature's soul, a soulbound familiar can never serve as a witch's familiar, a shaman's spirit animal, or any other spell-granting familiar.\" replace=Alertness}",
 			"",
-			"::ab[Alignment Variation (Ex)]{icon=magic passive=\"A soulbound familiar's alignment is always at least partially neutral, although it can also be chaotic, evil, good, or lawful, depending on the creature whose soul provided the fragment rather than on the master's alignment (unless the master donates a fragment of her own soul).\" imp8=\"It gains one of the following spell-like abilities, usable once per day and based on its alignment (caster level = its master's caster level - 3): chaotic neutral: ‹spell/rage›; lawful neutral: ‹spell/suggestion›; neutral: ‹spell/deep slumber›; neutral evil: ‹spell/inflict serious wounds›; or neutral good: ‹spell/heroism›.\" imp13=\"Its caster level increases to its master's caster level.\" replace=\"speak with animals of its kind~scry on familiar\"}"
+			"::ab[Alignment Variation (Ex)]{icon=magic passive=\"A soulbound familiar's alignment is always at least partially neutral, although it can also be chaotic, evil, good, or lawful, depending on the creature whose soul provided the fragment rather than on the master's alignment (unless the master donates a fragment of her own soul).\" imp8=\"It gains one of the following spell-like abilities, usable once per day and based on its alignment (caster level = its master's caster level - 3): chaotic neutral: ‹spell/rage›; lawful neutral: ‹spell/suggestion›; neutral: ‹spell/deep slumber›; neutral evil: ‹spell/inflict serious wounds›; or neutral good: ‹spell/heroism›.\" imp13=\"Its caster level increases to its master's caster level.\" replace=\"Speak with animals of its kind~scry on familiar\"}"
 		]
 	},
 	"valet": {
@@ -463,17 +463,17 @@
 			"",
 			"::ab[Valet Skills]{icon=skill passive=\"A valet treats Craft, Perform, and Profession as class skills.\"}",
 			"",
-			"::ab[Able Assistant (Ex)]{icon=power passive=\"A valet's master treats the valet as if it had the ‹feat/Cooperative Crafting› feat and shares Craft skills and item creation feats with the valet.\" replace=alertness}",
+			"::ab[Able Assistant (Ex)]{icon=power passive=\"A valet's master treats the valet as if it had the ‹feat/Cooperative Crafting› feat and shares Craft skills and item creation feats with the valet.\" replace=Alertness}",
 			"",
-			"::ab[Magical Manipulation (Sp)]{icon=magic standard=\"A valet can cast ‹spell/open/close› and ‹spell/prestidigitation› at will.\" replace=\"share spells\"}",
+			"::ab[Magical Manipulation (Sp)]{icon=magic standard=\"A valet can cast ‹spell/open/close› and ‹spell/prestidigitation› at will.\" replace=\"Share spells\"}",
 			"",
-			"::ab[Teammate (Ex)]{icon=power passive=\"A valet is considered to have all the ‹main/teamwork feat«s› its master has.\" replace=\"improved evasion\"}",
+			"::ab[Teammate (Ex)]{icon=power passive=\"A valet is considered to have all the ‹main/teamwork feat«s› its master has.\" replace=\"Improved evasion\"}",
 			"",
-			"::ab[Deliver Touch Spells (Su)]{icon=boost l=3 passive=\"When delivering a harmless touch spell to a willing creature, a valet can move before and after delivering the spell, as long as its total movement does not exceed its speed.\" alter=\"deliver touch spells\"}",
+			"::ab[Deliver Touch Spells (Su)]{icon=boost l=3 passive=\"When delivering a harmless touch spell to a willing creature, a valet can move before and after delivering the spell, as long as its total movement does not exceed its speed.\" alter=\"Deliver touch spells\"}",
 			"",
-			"::ab[Deliver Aid (Ex)]{l=7 icon=boost passive=\"A valet can move before and after using the aid another action, as long as its total movement does not exceed its speed.\" replace=\"speak with animals of its kind\"}",
+			"::ab[Deliver Aid (Ex)]{l=7 icon=boost passive=\"A valet can move before and after using the aid another action, as long as its total movement does not exceed its speed.\" replace=\"Speak with animals of its kind\"}",
 			"",
-			"::ab[Aide to All (Ex)]{l=13 icon=boost fullround=\"A valet can use the aid another action to grant up to three adjacent creatures bonuses from this action. Each bonus can apply to the same action or check or to different actions or checks.\" replace=\"scry on familiar\"}"
+			"::ab[Aide to All (Ex)]{l=13 icon=boost fullround=\"A valet can use the aid another action to grant up to three adjacent creatures bonuses from this action. Each bonus can apply to the same action or check or to different actions or checks.\" replace=\"Scry on familiar\"}"
 		]
 	}
 }

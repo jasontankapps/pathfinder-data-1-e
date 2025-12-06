@@ -1,5 +1,5 @@
 const constructDC = ({ dcF, dcW, dcR, dcYou, dcIt, dcPoss, dcLev, dcHD, dcMod }) => {
-	if(!(dcF || dcW || dcR || dcLev || dcHD)) {
+	if(!(dcF || dcW || dcR) || !(dcLev || dcHD)) {
 		return "";
 	}
 	const parts = [ "10 + 1/2" ];

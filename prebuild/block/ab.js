@@ -432,7 +432,7 @@ export const makeAbilityBlock = ({
 					h = attrs.hAbility;
 					break;
 				case "n":
-					title = "Note";
+					title = "Info";
 					what = note;
 					h = attrs.hNote;
 					break;
