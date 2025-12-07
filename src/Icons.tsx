@@ -93,7 +93,7 @@ const Icons: FC = () => {
 							slot="start"
 						/>
 						<IonLabel className="ion-text-wrap">
-							<p>Some sort of magical ranged attack.</p>
+							<p>A ranged touch attack, or some sort of magical ranged attack.</p>
 						</IonLabel>
 					</IonItem>
 					<IonItem className={maybeHighlightBG(icon, "magic-swirl")} id="magic-swirl">

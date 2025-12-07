@@ -368,14 +368,14 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				if(!e) { logError("Missing e in "+ text) }
 				return (
 					`<div className="archetype">`
-					+ `<p><Link to="/arc-${c}/${link}">${text}</Link></p>`
+					+ `<p><Link to="/arc-${c}/${link}">${marked2.parseInline(convertEncodedInfo(text))}</Link></p>`
 					+ `<p><strong>Modifies or Replaces:</strong> ${removeCurlyBrackets(marked2.parseInline(r), true)}</p>`
 					+ `<p>${removeCurlyBrackets(marked2.parseInline(convertEncodedInfo(e)), true)}</p>`
 					+ `</div>\n`
 				);
 			} else if (n === "ab") {
 				churn(n, attrs, [
-					"clear", "jl", "id", "flavor",
+					"clear", "jl", "id", "flavor", "indent",
 					"sub", "head", "icon",
 					"l", "imp",
 					"standard", "swift", "immediate",

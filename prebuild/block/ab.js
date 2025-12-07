@@ -42,7 +42,7 @@ export const makeAbilityBlock = ({
 	logError
 }) => {
 	const {
-		id, sub, head, icon, l, flavor,
+		id, sub, head, icon, l, flavor, indent,
 		l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,
 		l11,l12,l13,l14,l15,l16,l17,l18,l19,l20,
 		s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,
@@ -538,7 +538,13 @@ export const makeAbilityBlock = ({
 			);
 	}
 
-	return `${maybeClear}<div className="ability ${sub ? "subAbility" : (head ? "hasSubs" : "p")}">`
+	const indentation = indent ? (indent === "indent" ? 1 : Number(indent)) : 0;
+
+	return `${maybeClear}<div className="ability ${
+			sub ? "subAbility" : (head ? "hasSubs" : "p")
+		}${
+			indentation ? (indentation === 1 ? " indent" : " indent2") : ""
+		}">`
 		+ `<div className="abIcon">${iconBox}</div>\n`
 		+ `${output.join("\n")}</div>\n`;
 };
