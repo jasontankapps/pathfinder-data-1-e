@@ -197,9 +197,9 @@
 						}
 					},
 					"unevaluatedProperties": false
-				},
-				"required": [ "light", "dark" ]
+				}
 			},
+			"required": [ "light", "dark" ],
 			"unevaluatedProperties": false
 		}
 	],
@@ -251,6 +251,7 @@
 		},
 		"uniqueArray": {
 			"$anchor": "uniqueArray",
+			"description": "An array of unique strings of any type.",
 			"type": "array",
 			"items": { "type": "string" },
 			"uniqueItems": true,
@@ -258,6 +259,7 @@
 		},
 		"uniquePropArray": {
 			"$anchor": "uniquePropArray",
+			"description": "An array of unique strings, but they must be able to be used as properties.",
 			"type": "array",
 			"items": {
 				"type": "string",
@@ -268,6 +270,7 @@
 		},
 		"link": {
 			"$anchor": "link",
+			"description": "A 2-member string array where the first is linked text and the second is the link itself.",
 			"type": "array",
 			"prefixItems": [
 				{ "type": "string" },
@@ -302,7 +305,7 @@
 								},
 								"ripple": { "type": "boolean" }
 							},
-							"requires": [ "header" ]
+							"required": [ "header" ]
 						},
 						"minItems": 1,
 						"unevaluatedItems": false
@@ -330,7 +333,7 @@
 										},
 										"labels": { "$ref": "#uniqueArray" }
 									},
-									"requires": [ "range", "col" ],
+									"required": [ "range", "col" ],
 									"unevaluatedProperties": false
 								},
 								{
@@ -344,7 +347,7 @@
 										},
 										"labels": { "$ref": "#uniqueArray" }
 									},
-									"requires": [ "equals", "col" ],
+									"required": [ "equals", "col" ],
 									"unevaluatedProperties": false
 								},
 								{
@@ -355,7 +358,7 @@
 										"word": { "type": "boolean" },
 										"labels": { "$ref": "#uniqueArray" }
 									},
-									"requires": [ "has", "col" ],
+									"required": [ "has", "col" ],
 									"unevaluatedProperties": false
 								}
 							]
@@ -386,9 +389,9 @@
 							"unevaluatedItems": false
 						},
 						"unevaluatedItems": false
-					},
-					"requires": [ "id", "columns", "data", "initialColumn" ]
+					}
 				},
+				"required": [ "id", "columns", "data", "initialColumn" ],
 				"unevaluatedProperties": false
 			},
 			"minItems": 1,
