@@ -45,7 +45,7 @@
 		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=6 c=alchemist g1=\"anguish bomb\" g1info=\"Class Feature or Discovery~discovery\"}",
+			"::prereq{l=6 c=alchemist g1=\"anguish bomb\" g1title=\"Class Feature or Discovery\" g1protocol=discovery}",
 			"",
 			"Your anguish bombs are tainted with fear and dread. Creatures who take damage from your anguish bombs become ‹misc/frightened› for 1d6 rounds. A target that succeeds at a Will saving throw is instead ‹misc/shaken› for a single round."
 		],
@@ -57,7 +57,7 @@
 		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=10 c=alchemist g1=\"anguish bomb\" g1info=\"Class Feature or Discovery~discovery\"}",
+			"::prereq{l=10 c=alchemist g1=\"anguish bomb\" g1title=\"Class Feature or Discovery\" g1protocol=discovery}",
 			"",
 			"Your anguish bombs are filled with memories of sadness and regret. Creatures who take damage from your anguish bombs are also affected as per ‹spell/crushing despair› for 1 round per alchemist level, or a single round if the target succeeds at a Will saving throw."
 		],
@@ -94,7 +94,7 @@
 		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=10 c=alchemist g1=\"blinding bomb\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=10 c=alchemist g1=\"blinding bomb\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist can throw bombs that explode with a searing radiance equivalent to that of sunlight and that act as blinding bombs. Undead, fungi, molds, oozes, slimes, and creatures to which sunlight is harmful or unnatural take +2 damage per die from the bomb. Undead that are harmed by sunlight and that fail their saves against the bomb are ‹misc/staggered› for 1 round."
 
@@ -106,7 +106,7 @@
 		"compilationSources": [ [ "Undead Slayer's Handbook" ] ],
 		"category": "Primary Bomb Discoveries",
 		"description": [
-			"::prereq{g1=\"alchemical zombie\" g1info=\"Discovery~discovery\"}",
+			"::prereq{g1=\"alchemical zombie\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"This discovery is popular among necromancers and necrologists alike; aside from its offensive potential, necrologists sometimes use it to turn uncooperative live creatures they wish to question into pliable undead. The alchemist's bomb deals piercing damage instead of fire damage, and creatures that take a direct hit from a boneshard bomb must succeed at a Fortitude save or take 1d4 points of ‹rule/bleed› damage in addition to normal damage. If a creature is killed by a boneshard bomb or the resulting bleed effect, its corpse immediately reanimates as an undead creature with the ‹template/skeleton« template›. Skeletons that are created in this manner count as undead created by ‹spell/animate dead› for the purposes of determining how many undead the alchemist can control."
 		],
@@ -222,7 +222,7 @@
 		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=9 c=alchemist g1=\"explosive bomb\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=9 c=alchemist g1=\"explosive bomb\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"This discovery is available to ‹race/tiefling› alchemists. When the alchemist creates a bomb, he can have it act as an explosive bomb, but deal half of its damage as fire damage and half as unholy damage that is not subject to fire resistance or immunity."
 		],
@@ -234,7 +234,7 @@
 		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=12 c=alchemist g1=\"explosive bomb\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=12 c=alchemist g1=\"explosive bomb\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"As a standard action, the alchemist infuses a single piece of ammunition on a loaded siege weapon with the power of his bomb. As long as the siege engine with this ammunition is fired before the start of the alchemist's next turn, the ammunition does damage normally, and also deals the damage of the alchemist's bomb. The splash radius of the bomb effect is 20 feet rather than 5 feet. Creatures that take the bomb's damage (either direct damage or splash damage), take 1d6 points of fire damage each round until the fire is extinguished. Extinguishing the flames is a full-round action that requires a Reflex save. Rolling on the ground provides the target with a +2 bonus on the save. Dousing the target with at least 2 gallons of water automatically extinguishes the flames."
 		],
@@ -478,7 +478,7 @@
 		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=16 c=alchemist g1=\"smoke bomb\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=16 c=alchemist g1=\"smoke bomb\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The effects of the smoke created by an alchemist's bomb duplicate the effects of ‹spell/incendiary cloud› instead of ‹spell/fog cloud›, filling an area equal to twice the bomb's splash radius for 1 round per level."
 		],
@@ -490,7 +490,7 @@
 		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=8 c=alchemist g1=\"smoke bomb\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=8 c=alchemist g1=\"smoke bomb\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The effects of the smoke created by an alchemist's bomb duplicates the effects of ‹spell/contagion› instead of ‹spell/fog cloud›, filling an area equal to twice the bomb's splash area for 1 round per level."
 		],
@@ -506,7 +506,7 @@
 		"category": "Primary Bomb Discoveries",
 		"level": 2,
 		"description": [
-			"::prereq{l=16 c=alchemist g1=\"smoke bomb~plague bomb\" g1info=\"Discoveries~discovery\"}",
+			"::prereq{l=16 c=alchemist g1=\"smoke bomb~plague bomb\" g1title=\"Discoveries\" g1protocol=discovery}",
 			"",
 			"The effects of the smoke created by an alchemist's bomb duplicates the effects of ‹spell/greater contagion› instead of ‹spell/fog cloud›, filling an area equal to twice the bomb's splash radius for 1 round per level."
 		],
@@ -518,7 +518,7 @@
 		"category": "Primary Bomb Discoveries",
 		"level": 2,
 		"description": [
-			"::prereq{l=14 c=alchemist g1=\"smoke bomb~plague bomb\" g1info=\"Discoveries~discovery\"}",
+			"::prereq{l=14 c=alchemist g1=\"smoke bomb~plague bomb\" g1title=\"Discoveries\" g1protocol=discovery}",
 			"",
 			"The effects of the alchemist's plague bomb operate as normal except for the following changes. The chosen disease's save DC is equal to 10 + 1/2 the alchemist's level + his Intelligence modifier. Any creatures affected by the chosen disease become vectors for it, spreading the disease to any creatures they come in physical contact with for a number of days equal to the alchemist's Intelligence modifier (minimum 1). The save DC to avoid contracting the disease from the vector is the same as the DC used for this discovery."
 		],
@@ -530,7 +530,7 @@
 		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=12 c=alchemist g1=\"smoke bomb\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=12 c=alchemist g1=\"smoke bomb\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The effects of the smoke created by an alchemist's bomb duplicates the effects of ‹spell/cloudkill› instead of ‹spell/fog cloud›, filling an area equal to twice the bomb's splash radius for 1 round per level."
 		],
@@ -542,7 +542,7 @@
 		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{g1=\"smoke bomb\" g1info=\"Discovery~discovery\"}",
+			"::prereq{g1=\"smoke bomb\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The effects of the smoke created by an alchemist's bomb can duplicate the effects of ‹spell/stinking cloud› instead of ‹spell/fog cloud›, filling an area equal to twice the bomb's splash radius for 1 round. An alchemist must possess the ‹discovery/smoke bomb› discovery before selecting this discovery."
 		],
@@ -607,7 +607,7 @@
 		"category": "Primary Bomb Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{g1=\"void bomb\" g1info=\"Discovery~discovery\"}",
+			"::prereq{g1=\"void bomb\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"This bomb crushes the target like a void bomb, then repels nearby creatures with a burst of gravity. The target takes damage as if hit by a void bomb. All other creatures within 5 feet of the target are subject to a ‹rule/bull rush›. The alchemist uses his alchemist class level in place of his Combat Maneuver Bonus, and adds his Intelligence modifier in place of his Strength or Dexterity modifier to resolve the bull rush attempts. Creatures moved by a blackstar bomb are pushed directly away from the target's square."
 		],
@@ -655,7 +655,7 @@
 		"category": "Other Bomb Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=4 c=alchemist g1=\"divine inks\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=4 c=alchemist g1=\"divine inks\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist's unique dyes allow him to create images accompanied by sound. If he expends an additional daily use of his bombs, the image he creates with the divine inks discovery also produces minor sounds, as ‹spell/minor image›."
 		],
@@ -669,7 +669,7 @@
 		"category": "Other Bomb Discoveries",
 		"level": 2,
 		"description": [
-			"::prereq{l=6 c=alchemist g1=\"divine inks~improved divine inks\" g1info=\"Discoveries~discovery\"}",
+			"::prereq{l=6 c=alchemist g1=\"divine inks~improved divine inks\" g1title=\"Discoveries\" g1protocol=discovery}",
 			"",
 			"The alchemist's unique dyes allow him to create lifelike images. If he expends an additional daily use of his bombs, the image he creates with the divine inks discovery also produces sound, smell, and heat, as ‹spell/major image›."
 		]
@@ -680,7 +680,7 @@
 		"category": "Other Bomb Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=8 c=alchemist g1=\"divine inks\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=8 c=alchemist g1=\"divine inks\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist's dyes congeal and solidify, allowing him to make physical objects from them. The alchemist can expend two uses of his daily bombs to create a nonmagical object, as ‹spell/minor creation›, using his alchemist level as the spell's caster level."
 		],
@@ -694,7 +694,7 @@
 		"category": "Other Bomb Discoveries",
 		"level": 2,
 		"description": [
-			"::prereq{l=10 c=alchemist g1=\"divine inks~constructive dyes\" g1info=\"Discoveries~discovery\"}",
+			"::prereq{l=10 c=alchemist g1=\"divine inks~constructive dyes\" g1title=\"Discoveries\" g1protocol=discovery}",
 			"",
 			"The alchemist expands the set of objects he can create with his constructive dyes. The alchemist can expend one additional use of his daily bombs when using his constructive dyes discovery to create objects, as ‹spell/major creation›."
 		]
@@ -705,7 +705,7 @@
 		"category": "Other Bomb Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{g1=\"divine inks\" g1info=\"Discovery~discovery\"}",
+			"::prereq{g1=\"divine inks\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist infuses his inks and dyes with a spark of animating force. As a standard action, he can expend one daily use of his bombs and a 1st-level extract he has prepared to create a creature, as ‹spell/summon monster I›, using his level as the spell's caster level. The extract is expended as if the alchemist had consumed it. The alchemist can expend a higher-level extract when using this ability to create a creature using a ‹spell/summon monster› spell of a level equal to the level of extract expended. For example, if the alchemist expends a 4th-level extract, he can create a creature as if using ‹spell/summon monster IV›. Additionally, the alchemist can expend an additional use of his daily bombs when creating a creature in this way to grant the creature the ‹template/celestial› or ‹template/fiendish› template."
 		]
@@ -864,7 +864,7 @@
 		"category": "Extract Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=10 c=alchemist g1=infusion g1info=\"Discovery~discovery\"}",
+			"::prereq{l=10 c=alchemist g1=infusion g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist creates an inhaled version of an extract that is shared among multiple creatures. He must decide that an extract is an aromatic extract when he makes it. When used, the extract grants its benefit to all creatures within a 10-foot ‹misc/spread› of the extract. The aromatic extract is treated as having the minimum caster level required for the original extract. An aromatic extract expends one of the alchemist's daily extracts as if it were an extract 2 levels higher. This discovery can be applied only to extracts with a range of touch."
 		]
@@ -875,7 +875,7 @@
 		"category": "Extract Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=12 c=alchemist g1=infusion g1info=\"Discovery~discovery\"}",
+			"::prereq{l=12 c=alchemist g1=infusion g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"Once per day as part of his preparation of infusions, the alchemist can brew an infusion that shifts the imbiber's alignment to good. This change in alignment lasts for 10 minutes per alchemist level. An unwilling creature receives a Will save to resist this change. The alchemist may have only one such infusion at any one time. The effects of this infusion may have serious repercussions for a creature suddenly struggling with a new outlook. Many see it as little more than forced insanity, and some good faiths outlaw its use."
 		],
@@ -889,7 +889,7 @@
 		"category": "Extract Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{g1=infusion g1info=\"Discovery~discovery\"}",
+			"::prereq{g1=infusion g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist can expend any prepared extract to produce a cube of glowing motes that act as per ‹spell/glitterdust›. The area must be adjacent to the alchemist and covers one 5-foot square per level of extract sacrificed, and the effect's save DC is calculated using the level of the sacrificed extract."
 		]
@@ -900,7 +900,7 @@
 		"category": "Extract Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{g1=infusion g1info=\"Discovery~discovery\"}",
+			"::prereq{g1=infusion g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"When the alchemist creates an infusion, he can mask a delayed poison within the mixture. A nostrum can contain only an ingested poison, and the save DC of the poison is reduced by 2. The poison takes effect a number of hours after being imbibed equal to the alchemist's Intelligence bonus (minimum 0) decided by the alchemist at the creation of the nostrum. The poison within a nostrum can be detected as normal by spells such as ‹spell/detect poison› and similar abilities. Until the nostrum is consumed or destroyed, it continues to occupy one of the alchemist's daily extract slots."
 		]
@@ -911,7 +911,7 @@
 		"category": "Extract Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{g1=\"delayed bomb~infusion\" g1info=\"Discoveries~discovery\"}",
+			"::prereq{g1=\"delayed bomb~infusion\" g1title=\"Discoveries\" g1protocol=discovery}",
 			"",
 			"The alchemist can mask murder behind beneficence. When preparing an extract with the infusion discovery, he can lace the extract with one of his bombs as long as the extract has a duration greater than instantaneous. If he chooses, the alchemist can reduce the duration of the extract to 1 round. As soon as the extract's duration expires, it detonates, dealing 150% of the alchemist's bomb damage to the drinker. This effect does not produce a splash radius. Producing a tainted extract consumes both an infusion slot and a daily bomb use."
 		]
@@ -921,7 +921,7 @@
 		"compilationSources": [ [ "Champions of Balance" ] ],
 		"category": "Extract Discoveries",
 		"description": [
-			"::prereq{l=4 c=alchemist g1=cognatogen g1info=\"Discovery~discovery\"}",
+			"::prereq{l=4 c=alchemist g1=cognatogen g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"If the alchemist drinks an extract of the divination school while under the effects of a cognatogen, his effective caster level temporarily increases by 2. In addition, while under the effects of a cognatogen, the alchemist may use ‹spell/augury› once as a spell-like ability (caster level equal to his alchemist level). At 10th level, he can use ‹spell/divination› instead."
 		]
@@ -1002,7 +1002,7 @@
 		"category": "Mutagen Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{g1=cognatogen g1info=\"Discovery~discovery\"}",
+			"::prereq{g1=cognatogen g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"While under the effects of a cognatogen, the alchemist adds half his class level on all Knowledge skill checks and may attempt all Knowledge skill checks untrained. This bonus does not stack with the second Intelligence bonus granted by the mindchemist archetype's perfect recall class feature."
 		]
@@ -1013,7 +1013,7 @@
 		"category": "Mutagen Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=12 c=alchemist g1=cognatogen g1info=\"Discovery or Class Feature~discovery\"}",
+			"::prereq{l=12 c=alchemist g1=cognatogen g1title=\"Discovery or Class Feature\" g1protocol=discovery}",
 			"",
 			"The alchemist's mutagen now grants a +4 natural armor bonus, a +6 alchemical bonus to one mental ability score (Intelligence, Wisdom, or Charisma), and a +4 alchemical bonus to a second mental ability score. The alchemist takes a -2 penalty on both associated physical ability scores as long as the mutagen persists, and takes 2 points of ability damage to both associated physical ability scores when the cognatogen ends."
 		],
@@ -1027,7 +1027,7 @@
 		"category": "Mutagen Discoveries",
 		"level": 2,
 		"description": [
-			"::prereq{l=16 c=alchemist g1=\"cognatogen~greater cognatogen\" g1info=\"Discoveries or Class Abilities~discovery\"}",
+			"::prereq{l=16 c=alchemist g1=\"cognatogen~greater cognatogen\" g1title=\"Discoveries or Class Abilities\" g1protocol=discovery}",
 			"",
 			"The alchemist's cognatogen now grants a +6 natural armor bonus, a +8 alchemical bonus to one mental ability score (Intelligence, Wisdom, or Charisma), a +6 alchemical bonus to a second mental ability score, and a +4 alchemical bonus to a third mental ability score. The alchemist takes a -2 penalty to his Strength, Dexterity, and Constitution as long as the cognatogen persists, and takes 2 points of ability damage to each physical ability score when the cognatogen ends."
 		]
@@ -1066,7 +1066,7 @@
 		"category": "Mutagen Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=12 c=alchemist g1=\"fey mutagen\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=12 c=alchemist g1=\"fey mutagen\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist's fey mutagen now grants a +4 alchemical bonus to Dexterity and Charisma, a -2 penalty to his Strength, DR 5/cold iron, and the druid's ‹ability/woodland stride› class feature."
 		],
@@ -1080,7 +1080,7 @@
 		"category": "Mutagen Discoveries",
 		"level": 2,
 		"description": [
-			"::prereq{l=16 c=alchemist g1=\"fey mutagen~greater fey mutagen\" g1info=\"Discoveries~discovery\"}",
+			"::prereq{l=16 c=alchemist g1=\"fey mutagen~greater fey mutagen\" g1title=\"Discoveries\" g1protocol=discovery}",
 			"",
 			"The alchemist's fey mutagen now grants a +6 alchemical bonus to Dexterity and Charisma, a -2 penalty to his Strength, DR 10/cold iron, and the druid's ‹ability/woodland stride› class feature. In addition, he can choose not to allow spells and effects to affect him if they would not be capable of affecting both his original creature type and the fey creature type."
 		]
@@ -1104,7 +1104,7 @@
 		"category": "Mutagen Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=16 c=alchemist g1=\"greater mutagen\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=16 c=alchemist g1=\"greater mutagen\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist's mutagen now grants a +6 natural armor bonus, a +8 alchemical bonus to one ability score (Strength, Dexterity, or Constitution), a +6 alchemical bonus to a second physical ability score, and a +4 alchemical bonus to a third physical ability score. The alchemist takes a -2 penalty to his Intelligence, Wisdom, and Charisma as long as the mutagen persists."
 		],
@@ -1131,7 +1131,7 @@
 		"category": "Mutagen Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=16 c=alchemist g1=\"greater rasugen\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=16 c=alchemist g1=\"greater rasugen\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist's rasugen now grants a +6 alchemical bonus on all saving throws, 4 ‹rule/temporary hit points› per alchemist level, and immunity to disease, mind-affecting effects, and poison. The alchemist takes a -6 penalty to Intelligence and a -2 penalty to Charisma and Wisdom as long as the grand rasugen persists."
 		]
@@ -1166,7 +1166,7 @@
 		"category": "Mutagen Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=12 c=alchemist g1=\"inspiring cognatogen\" g1info=\"Discovery or Class Feature~discovery\"}",
+			"::prereq{l=12 c=alchemist g1=\"inspiring cognatogen\" g1title=\"Discovery or Class Feature\" g1protocol=discovery}",
 			"",
 			"The alchemist's inspiring cognatogen now grants a +2 dodge bonus to AC and a +2 bonus to Reflex saving throws; a -4 penalty to Strength and Constitution; and the effects of having the ‹invtalent/amazing inspiration›, ‹invtalent/eidetic recollection›, and ‹invtalent/expanded inspiration› investigator talents."
 		],
@@ -1180,7 +1180,7 @@
 		"category": "Mutagen Discoveries",
 		"level": 2,
 		"description": [
-			"::prereq{l=16 c=alchemist g1=\"greater inspiring cognatogen\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=16 c=alchemist g1=\"greater inspiring cognatogen\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist's inspiring cognatogen now grants a +4 dodge bonus to AC and a +4 bonus to Reflex saving throws; a -6 penalty to Strength and Constitution; and the effects of having the ‹invtalent/item lore›, ‹invtalent/tenacious inspiration›, and ‹invtalent/underworld inspiration› investigator talents."
 		]
@@ -1367,7 +1367,7 @@
 		"compilationSources": [ [ "Advanced Player's Guide" ] ],
 		"category": "Potion/Elixir Discoveries",
 		"description": [
-			"::prereq{l=16 c=alchemist g1=\"extend potion\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=16 c=alchemist g1=\"extend potion\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"If an alchemist drinks a potion that he extends, the effects of that potion become permanent until he chooses to make another potion effect permanent."
 		]
@@ -1410,7 +1410,7 @@
 		"category": "Other Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=10 c=alchemist g1=\"alchemical simulacrum\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=10 c=alchemist g1=\"alchemical simulacrum\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist learns how to create a ‹spell/simulacrum›, a soulless duplicate, into which he can project his consciousness. As a full-round action, he may shift his consciousness from his current body to any one of his available doppelganger simulacra, which must be on the same plane as the alchemist. If killed in a simulacrum, he transfers to his own body automatically; if killed in his own body, he is dead. Unused simulacra (including his abandoned original body) appear to be lifeless corpses, though they do not decay. Creating a duplicate costs 1,000 gp in alchemical materials and requires 1 week to grow. The created simulacrum is a creature, not a supernatural effect."
 		]
@@ -1421,7 +1421,7 @@
 		"category": "Other Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=14 c=alchemist g1=\"alchemical simulacrum\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=14 c=alchemist g1=\"alchemical simulacrum\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist gains the ability to create a simulacrum. This works like the ‹spell/simulacrum› spell, except it costs 100 gp in alchemical materials per Hit Die of the simulacrum, requires 24 hours to grow, and decays into inert flesh rather than ice or snow if killed. The created simulacrum is a creature, not a supernatural effect."
 		]
@@ -1544,7 +1544,7 @@
 		"category": "Other Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=10 c=alchemist g1=\"preserve organs\" g1info=\"Discovery~discovery\"}",
+			"::prereq{l=10 c=alchemist g1=\"preserve organs\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist has mastered preserving flesh and applied this knowledge to his own body, turning himself into an undead-like creature. After learning this discovery, the alchemist must perform a 30-day regimen of a special diet, rigorous exercise, and drinking a mildly poisonous alchemical tea. At the end of this regimen, he falls unconscious for 24 hours, then awakens as a \"living mummy.\" The alchemist's type does not change, but he becomes immune to cold, nonlethal damage, paralysis, and sleep."
 		]
@@ -1614,7 +1614,7 @@
 		"category": "Other Discoveries",
 		"level": 1,
 		"description": [
-			"::prereq{l=6 c=alchemist g1=\"spontaneous healing\" g1info=\"Discovery or Class Ability~discovery\"}",
+			"::prereq{l=6 c=alchemist g1=\"spontaneous healing\" g1title=\"Discovery or Class Ability\" g1protocol=discovery}",
 			"",
 			"The alchemist gains the ability to heal other creatures. As a standard action, he may touch a creature and apply 1 round's effect of his spontaneous healing discovery to that creature; this counts toward his spontaneous healing limit for the day. The alchemist's daily limit for hit points healed by spontaneous healing increases to 5 &times; his alchemist level. This ability only functions if the target is the same type of creature (humanoid, undead, and so on) as the alchemist"
 		]
@@ -1675,7 +1675,7 @@
 		"category": "Other Discoveries",
 		"level": 2,
 		"description": [
-			"::prereq{g1=\"parasitic twin\" g1info=\"Discovery~discovery\"}",
+			"::prereq{g1=\"parasitic twin\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"As the alchemist grows in power, his parasitic twin laps up a portion of his soul, like a dog feeding on its master's scraps. The alchemist's parasitic twin can now manifest or hide within the alchemist's torso as a move action. As a standard action, the alchemist can cause his manifested twin to babble, driving listeners insane. All creatures without the insanity special ability (although see below) that are within 60 feet of the alchemist must succeed at a Will save or be affected by ‹spell/confusion› for 1 round per alchemist level. The alchemist can urge his parasitic twin to babble a number of times per day equal to 3 + the alchemist's Intelligence modifier. Creatures that successfully save can't be affected by this effect for 24 hours. The alchemist is immune to its sibling's babbling. This is a sonic, mind-affecting compulsion effect.",
 			"",
@@ -1730,7 +1730,7 @@
 		"category": "Grand Discoveries",
 		"topLink": [ "Grand Discoveries", "ability/grand_discoveries" ],
 		"description": [
-			"::prereq{g1=\"change alignment~infusion\" g1info=\"Discoveries~discovery\"}",
+			"::prereq{g1=\"change alignment~infusion\" g1title=\"Discoveries\" g1protocol=discovery}",
 			"",
 			"The effects of the alchemist's change alignment infusion become permanent and can only be reversed by a ‹spell/wish› or ‹spell/miracle›. A permanent, forced change of alignment may be devastating, and some believe it is little better than zealous slavery or mind control. Others consider a good alignment brought about by any means but purity of heart an affront to freedom. This discovery remains controversial at best."
 		]
@@ -1777,7 +1777,7 @@
 		"category": "Grand Discoveries",
 		"topLink": [ "Grand Discoveries", "ability/grand_discoveries" ],
 		"description": [
-			"::prereq{g1=\"grand mutagen\" g1info=\"Discovery~discovery\"}",
+			"::prereq{g1=\"grand mutagen\" g1title=\"Discovery\" g1protocol=discovery}",
 			"",
 			"The alchemist's mutagen now grants a +8 natural armor bonus and a +8 alchemical bonus to Strength, Dexterity, and Constitution. The alchemist takes a -2 penalty to his Intelligence, Wisdom, and Charisma as long as the mutagen persists."
 		]

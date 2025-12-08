@@ -40,7 +40,8 @@ const convertEncodedInfo = (input) => {
 		output = output + `${pre}[${text}](${fulllink})`;
 		test = post;
 	}
-	return (output + test).replace(/&(times|quot|mdash|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;");
+	return (output + test)
+		.replace(/&(times|quot|[nm]dash|deg|[dD]agger|#[0-9]+|#x[0-9a-fA-F]+)&/g, "&$1;");
 };
 
 const getBlockDirectives = (globalVariable, marker = "::") => {
@@ -193,7 +194,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "prereq") {
 				churn(n, attrs, [
 					"clear","l","c","r",
-					"g1","g1info",
+					"g1","g1title","g1protocol",
 					"other","sep"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();

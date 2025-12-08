@@ -163,7 +163,7 @@ const testLinks = () => {
 					const [ , potential, , post, protocol, property, fulltext ] = m;
 					if(protocol === "source") {
 						if(!source[property]) {
-							invalid.push(fulltext === `{${potential}}` ? fulltext : `${fulltext} => ${potential}`);
+							invalid.push(fulltext === `‹${potential}›` ? fulltext : `${fulltext} => ${potential}`);
 						}
 					} else if (!$KnownProps[protocol] || !$KnownProps[protocol][property]) {
 						invalid.push(fulltext === `‹${potential}›` ? fulltext : `${fulltext} => ${potential}`)

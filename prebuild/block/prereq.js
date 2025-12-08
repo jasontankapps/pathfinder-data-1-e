@@ -1,7 +1,6 @@
 import { convertTextToLink } from '../tests/checkForEncodedLink.js';
 
-const handleInfo = (m, list, info, sep, flags, convertEncodedInfo) => {
-	const [title, prefix] = info.split(sep);
+const handleInfo = (m, list, title, prefix, sep, flags, convertEncodedInfo) => {
 	const output = [ ];
 	if(title) {
 		output.push(`<strong>${title}:</strong>`);
@@ -22,7 +21,7 @@ const handleInfo = (m, list, info, sep, flags, convertEncodedInfo) => {
 const makePrerequisiteBlock = (marked2, flags, maybeClear, attrs, convertEncodedInfo) => {
 	const {
 		l, c, r,
-		g1, g1info,
+		g1, g1title, g1protocol,
 		other, sep = "~"
 	} = attrs;
 	//
@@ -50,8 +49,8 @@ const makePrerequisiteBlock = (marked2, flags, maybeClear, attrs, convertEncoded
 		flags.link = true;
 		lines.push(`<Link to="/race/${convertTextToLink(r)}">${r}</Link>`)
 	}
-	if(g1 && g1info) {
-		lines.push(handleInfo(marked2, g1, g1info, sep, flags, convertEncodedInfo));
+	if(g1 && g1protocol) {
+		lines.push(handleInfo(marked2, g1, g1title, g1protocol, sep, flags, convertEncodedInfo));
 	}
 	if(other) {
 		lines.push(marked2.parseInline(convertEncodedInfo(other)));

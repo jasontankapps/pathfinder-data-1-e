@@ -536,7 +536,7 @@ const convertCompileableDescription = (
 			dSource.push(title);
 		}
 	});
-	const sourceText = dSource.length > 0 ? `{SOURCE ${dSource.join(";")}}` : "";
+	const sourceText = dSource.length > 0 ? `‹SOURCE ${dSource.join(";")}›` : "";
 
 	// Parse the text
 	const parsed = marked.parse(
@@ -647,7 +647,14 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 					return footnotes[detail];
 				});
 				const dd = (rx ? d.replace(rx, replacement) : d).split(/!-N-!/);
-				const parsing = parseTemplate(template, obj.name, obj.nameSuffix, `{SOURCE ${sources.join(";")}}`, dd, false);
+				const parsing = parseTemplate(
+					template,
+					obj.name,
+					obj.nameSuffix,
+					`‹SOURCE ${sources.join(";")}›`,
+					dd,
+					false
+				);
 				const final = parsing
 					.replace(/!-\^S-!/g, sources.join(" "))
 					.replace(/!-BQ-!/g, bq);

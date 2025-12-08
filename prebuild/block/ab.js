@@ -446,7 +446,7 @@ export const makeAbilityBlock = ({
 				+ title
 				+ abPairPartClose
 				+ abPairEndOpen
-				+ doParse(what, h)
+				+ doParse(what || "MISSING", h)
 				+ abPairPartClose
 				+ abPairClose
 			);

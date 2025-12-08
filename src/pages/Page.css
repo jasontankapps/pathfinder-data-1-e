@@ -46,6 +46,10 @@ ion-alert button.alert-button.cancel {
 ion-alert h3.alert-sub-title {
 	border-block-start: 0;
 }
+ion-alert div.alert-wrapper {
+	border: 0.25rem solid var(--ion-color-step-250);
+	border-radius: 0.5rem !important;
+}
 
 div.hanging {
 	margin-block: 1rem;
