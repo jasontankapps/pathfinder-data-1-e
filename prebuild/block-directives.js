@@ -153,7 +153,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					output = output + `bottom="${bottom}" `;
 				}
 				return `${maybeClear}${output}info="${text}" />`;
-			} else if ("h2h3h4h5h6".indexOf(n) >= 0) {
+			} else if ((n.length === 2) && (("h2h3h4h5h6".indexOf(n) % 2) === 0)) {
 				churn(n, attrs, ["clear","jl","id","extra"], [], logError);
 				if(attrs.jl) {
 					const id = prefix + (attrs.id || makeValidID(text));
@@ -164,18 +164,18 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					return `${maybeClear}<${n} id="${id}" data-hash-target>${text}</${n}>\n`;
 				}
 				return `${maybeClear}<${n}>${text}</${n}>`;
-			} else if ("hl2hl3hl4hl5hl6".indexOf(n) >= 0) {
+			} else if ((n.length === 3) && (("hl2hl3hl4hl5hl6".indexOf(n) % 3) === 0)) {
 				churn(n, attrs, ["clear","pre","post","extra","jl","id"], [], logError);
 				const m = checkForEncodedLink(text, { bare: true });
-				const t = "h" + n.slice(-1);
+				const tag = "h" + n.slice(-1);
 				if(!m) {
 					logError(`Bad ::${n} => [${text}]`);
-					return `${maybeClear}<${t}>${text}</${t}>\n`;
+					return `${maybeClear}<${tag}>${text}</${tag}>\n`;
 				}
 				flags.link = true;
 				const { pre, post, extra } = attrs;
 				const [, link, linktext] = m;
-				let inner = `<Link to="${link}">${linktext}</Link>`;
+				let inner = `<Link to="/${link}">${linktext}</Link>`;
 				if(pre) {
 					inner = pre + inner;
 				}
@@ -188,9 +188,9 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				if(attrs.jl) {
 					const id = prefix + (attrs.id || makeValidID(linktext));
 					addToJumpList(linktext, id, attrs.jl);
-					return `${maybeClear}<${t} id="${id}" data-hash-target>${inner}</${t}>\n`;
+					return `${maybeClear}<${tag} id="${id}" data-hash-target>${inner}</${tag}>\n`;
 				}
-				return `${maybeClear}<${t}>${inner}</${t}>`;
+				return `${maybeClear}<${tag}>${inner}</${tag}>`;
 			} else if (n === "prereq") {
 				churn(n, attrs, [
 					"clear","l","c","r",

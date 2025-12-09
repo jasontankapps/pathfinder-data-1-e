@@ -57,7 +57,7 @@ const checkForEncodedLink = (input, options = {}) => {
 	if(!testing) {
 		// Check for links inside props of directives. DO NOT expand them.
 		let toFindTheEnd = null;
-		if(!basic || bare) {
+		if(!basic || !bare) {
 			if (pre.match(/="[^"]*$/)) {
 				toFindTheEnd = /^([^"]*")(.*$)/;
 			} else if (pre.match(/(::|;;;|@)[a-zA-Z0-9]+\[[^\]]*$/)) {

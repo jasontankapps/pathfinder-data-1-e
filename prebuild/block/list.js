@@ -1,6 +1,6 @@
 import { convertTextToLink } from '../tests/checkForEncodedLink.js';
 
-// ::link[Header]{all="one~two~three..." link="protocol" and? hl? sep?="~" comma?=", "}
+// ::list[Header]{all="one~two~three..." link="protocol" and? hl? sep?="~" comma?=", "}
 export const makeListBlock = ({
 	text,
 	maybeClear,

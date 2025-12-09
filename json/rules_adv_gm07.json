@@ -1744,7 +1744,7 @@
 			"",
 			"| d% | Lesser Medium Rod | Price |",
 			"| --- | --- | --- |",
-			"| 01 | @rippple[magic-rod/rod_of_<Metamagic, merciful, lesser] | 1,500 gp |",
+			"| 01 | @ripple[magic-rod/rod_of_>Metamagic, merciful, lesser] | 1,500 gp |",
 			"| 02-34 | Metamagic (+1 spell level), lesser | 3,000 gp |",
 			"| 35-49 | @ripple[magic-rod/Immovable rod] | 5,000 gp |",
 			"| 50-59 | @ripple[magic-rod/Rod of thunderous force] | 5,400 gp |",
