@@ -165,7 +165,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				}
 				return `${maybeClear}<${n}>${text}</${n}>`;
 			} else if ((n.length === 3) && (("hl2hl3hl4hl5hl6".indexOf(n) % 3) === 0)) {
-				churn(n, attrs, ["clear","pre","post","extra","jl","id"], [], logError);
+				churn(n, attrs, ["clear","pre","post","jl","id"], [], logError);
 				const m = checkForEncodedLink(text, { bare: true });
 				const tag = "h" + n.slice(-1);
 				if(!m) {
@@ -173,7 +173,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					return `${maybeClear}<${tag}>${text}</${tag}>\n`;
 				}
 				flags.link = true;
-				const { pre, post, extra } = attrs;
+				const { pre, post } = attrs;
 				const [, link, linktext] = m;
 				let inner = `<Link to="/${link}">${linktext}</Link>`;
 				if(pre) {
@@ -181,9 +181,6 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				}
 				if(post) {
 					inner = inner + post;
-				}
-				if(extra) {
-					inner = `${inner} ${extra}`;
 				}
 				if(attrs.jl) {
 					const id = prefix + (attrs.id || makeValidID(linktext));
@@ -377,7 +374,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "ab") {
 				churn(n, attrs, [
 					"clear", "jl", "id", "flavor", "indent",
-					"sub", "head", "icon",
+					"sub", "head", "icon", "next",
 					"l", "imp",
 					"standard", "swift", "immediate",
 					"fullround", "move", "free",

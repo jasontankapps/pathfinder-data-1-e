@@ -2256,7 +2256,7 @@
 			"**Prerequisites:** ‹feat/Light Armor Proficiency›.  ",
 			"**Benefit:** See Light Armor Proficiency.  ",
 			"**Normal:** See Light Armor Proficiency.  ",
-			"**Special:** Aristocrats, Barbarians, bloodragers, cavaliers, clerics, druids, fighters, hunters, inquisitors, mediums, occultists, oracles, paladins, rangers, shamans, shifters, skalds, slayers, vigilantes, and warriors automatically have Medium Armor Proficiency as a bonus feat. They need not select it."
+			"**Special:** Aristocrats, barbarians, bloodragers, cavaliers, clerics, druids, fighters, hunters, inquisitors, mediums, occultists, oracles, paladins, rangers, shamans, shifters, skalds, slayers, vigilantes, and warriors automatically have Medium Armor Proficiency as a bonus feat. They need not select it."
 		]
 	},
 	"medium_armor_proficiency": { "redirect": "armor_proficiency_medium" },

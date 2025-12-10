@@ -557,9 +557,9 @@
 			"",
 			"@HL[Secondary Ability DC:] This is the average DC for spells and special abilities for a creature that does not rely on such attacks in combat. Generally, an ability's DC should not be lower than this number.",
 			"",
-			"@HL[Good Save:] This is the average saving throw bonus for a creature of this CR, if the saving throw is one of the creature's good saving throws.",
+			"@HL[Good Save:] This is the average saving throw bonus for a creature of this CR, if the saving throw is one of the creature's ‹misc/good saving throws›.",
 			"",
-			"@HL[Poor Save:] This is the average saving throw bonus for a creature of this CR, if the saving throw is one of the creature's poor saving throws."
+			"@HL[Poor Save:] This is the average saving throw bonus for a creature of this CR, if the saving throw is one of the creature's ‹misc/poor saving throws›."
 		],
 		"parent_topics": [
 			"gm_specific_campaigns",

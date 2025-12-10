@@ -1053,5 +1053,28 @@
 		],
 		"searchgroup": "rule",
 		"type": "Rule"
-	}
+	},
+	"good_saves": {
+		"name": "Good and Poor Saves",
+		"tags": "saving throws, bad saves",
+		"description": [
+			"## \"Good\" and \"Poor\" Saves",
+			"",
+			"There are two saving throw progressions in Pathfinder, commonly called \"good\" and \"poor\" (or \"bad\").",
+			"",
+			"@HL[Good saving throw progression]: The base save bonus is 2 + half your level (or hit dice).",
+			"",
+			"@HL[Poor saving throw progression]: The bonus to the saving throw is one third your level (or hit dice).",
+			"",
+			"The ‹class/fighter›, for example, has @HL[good] Fortitude saves, and @HL[poor] Reflex and Will saves."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Saving Throws", "rule/saving_throws"]
+	},
+	"bad_saves": { "redirect": "good_saves" },
+	"poor_saves": { "redirect": "good_saves" },
+	"good_saving_throws": { "redirect": "good_saves" },
+	"bad_saving_throws": { "redirect": "good_saves" },
+	"poor_saving_throws": { "redirect": "good_saves" }
 }

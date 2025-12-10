@@ -794,7 +794,7 @@
 			"",
 			"- Low-light vision.",
 			"- @HL[Constructed (Ex):] Although inevitables are living outsiders, their bodies are constructed of physical components and in many ways they function as constructs. For the purposes of effects targeting creatures by type (such as a ranger's ‹ability/favored enemy› and ‹magic-enh/bane› weapons), inevitables count as both outsiders and constructs. They are ‹umr/immune› to death effects, disease, mind-affecting effects, necromancy effects, paralysis, poison, sleep, stun, and any effect that requires a Fortitude save (unless the effect also works on objects, or is harmless). Inevitables are not subject to nonlethal damage, ability damage, ability drain, fatigue, exhaustion, or energy drain. They are not at risk of death from massive damage. They have bonus hit points as ‹type/construct«s› of their size.",
-			"- @HL[Saves:] An inevitable's good saving throws are Fortitude and Will.",
+			"- @HL[Saves:] An inevitable's ‹misc/good saving throws› are Fortitude and Will.",
 			"- @HL[Skills:] In addition to the class skills all ‹type/outsider«s› have, inevitables have ‹skill/Acrobatics›, ‹skill/Diplomacy›, ‹skill/Intimidate›, and ‹skill/Survival› as class skills.",
 			"- @HL[Regeneration (Ex):] Inevitables have ‹umr/regeneration› (chaotic). The regeneration amount varies by the type of inevitable.",
 			"- @HL[Truespeech (Su):] An inevitable can speak with any creature that has a language, as if using a ‹spell/tongues› spell (caster level 14th). This ability is always active."
@@ -953,7 +953,7 @@
 			"A mortic is a ‹type/humanoid› creature infused with necromantic energy but not truly undead. Although mortics reproduce to create others of their kind, usually living in tight-knit communities, a humanoid of any type might become a mortic through overwhelming exposure to negative energy. Mortics vary in their abilities based on their original humanoid type, and each mortic has a humanoid subtype in addition to the mortic subtype. Mortics have racial Hit Dice and never substitute such Hit Dice for class levels like some humanoids do. All mortics have the following traits unless otherwise noted in a specific creature's entry.",
 			"",
 			"- Darkvision 60 ft.",
-			"- A mortic's good save is always Fortitude.",
+			"- A mortic's ‹misc/good save<s› is always Fortitude.",
 			"- ‹umr/Negative energy affinity›.",
 			"- A mortic treats ‹skill/Intimidate›, ‹skill/Perception›, and ‹skill/Stealth› as class skills.",
 			"- @HL[Death Gasp (Su):] A mortic that holds her breath suspends the majority of her living processes. While holding her breath, a mortic is immune to ability drain, energy drain, and sleep effects. A mortic who holds her breath is also immune to bleed effects, disease, and poison; any such effects are suspended for as long as the mortic holds her breath, although this doesn't cure any damage that the bleed effect, disease, or poison has already done. A mortic can ‹misc/hold her breath› for a number of rounds equal to 4 times her Constitution score.",

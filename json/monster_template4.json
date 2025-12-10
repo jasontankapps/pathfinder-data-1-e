@@ -1156,7 +1156,7 @@
 			"",
 			"@HL[Alignment:] Any.",
 			"",
-			"@HL[Type:] The creature's type changes to ‹type/outsider› (‹subtype/kami›, ‹subtype/native›). Tsukumogami have good Reflex and Will saves, so increase the base creature's Reflex and Will saves to 2 + 1/2 its Hit Dice + the relevant ability modifier.",
+			"@HL[Type:] The creature's type changes to ‹type/outsider› (‹subtype/kami›, ‹subtype/native›). Tsukumogami have ‹misc/good« Reflex and Will» saves›, so increase the base creature's Reflex and Will saves to 2 + 1/2 its Hit Dice + the relevant ability modifier.",
 			"",
 			"@HL[AC:] A tsukumogami's natural armor bonus increases by 2.",
 			"",

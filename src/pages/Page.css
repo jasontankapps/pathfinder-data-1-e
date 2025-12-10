@@ -1197,13 +1197,16 @@ div.subAbility div.abSingle.title {
 	align-items: center;
 	justify-content: flex-start;
 }
+div.subAbility.numbered div.abSingle.title {
+	counter-increment: subcount 1;
+}
 div.subAbility div.abStart {
 	background: var(--table-bg);
 }
 div.subAbility + div.subAbility {
 	border-block-start: 2px solid var(--table-border-color);
 }
-div.subAbility div.abSingle.title::before {
+div.subAbility.numbered div.abSingle.title::before {
 	padding-inline-start: 0.5rem;
 	content: "(" counter(subcount) ") ";
 }

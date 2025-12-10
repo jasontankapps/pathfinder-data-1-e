@@ -1104,7 +1104,7 @@
 			"",
 			"@HL[Senses:] An AI needs access to a robot, cameras, microphones, or other mechanical sensory tools in order to be able to notice things in the outside world. These senses should be listed in the appropriate encounter areas, not in the AI's stats, since it's likely that an AI will have access to a variety of sensory devices over a large area.",
 			"",
-			"@HL[Defenses:] An AI doesn't have an AC, hit points, or other statistics related to a physical form; it relies on its host robot or structure for those scores. An AI uses its own saving throws only against attacks that target its mind - in most cases, this means it primarily uses its Will save. An AI uses its CR as its effective Hit Dice for determining its base saves - it has good Will saves and poor Fortitude and Reflex saves.",
+			"@HL[Defenses:] An AI doesn't have an AC, hit points, or other statistics related to a physical form; it relies on its host robot or structure for those scores. An AI uses its own saving throws only against attacks that target its mind - in most cases, this means it primarily uses its Will save. An AI uses its CR as its effective Hit Dice for determining its base saves - it has ‹misc/good« Will saves and poor Fortitude and Reflex» saves›.",
 			"",
 			"@HL[Ability Scores:] An AI's base ability scores are 14, 12, and 10. Arrange them in any order desired. For every 2 points of CR it possesses, it gains a +2 bonus to an ability score (assigned by the GM).",
 			"",
