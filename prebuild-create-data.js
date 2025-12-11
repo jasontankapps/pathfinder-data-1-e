@@ -72,49 +72,52 @@ const parseSOURCE = (input, plain = false) => {
 const removeCurlyBrackets = (input, inlineText) => {
 	const replacer = (input) => input.replace(/\{/g, "&#123;").replace(/\}/g, "&#125;");
 	const obfuscate = (input) => {
-		return input.replace(/=>/g, "-=ARROW=-").split("‹").map((bit, i) => {
-			let m;
-			if(i === 0) {
-				//ignore
+		return input
+			.replace(/\n/g, "<span data-hiding></span>")
+			.replace(/=>/g, "-=ARROW=-")
+			.split("‹").map((bit, i) => {
+				let m;
+				if(i === 0) {
+					//ignore
+					return bit;
+				} else if (m = bit.match(/(^.*?›)(.*$)/)) {
+					// Obfuscate <> inside of ‹links›
+					const [, pre, post] = m;
+					return pre.replace(/</g, "-=LEFT=-").replace(/>/g, "-=RIGHT=-") + post;
+				}
+				logError("Huh?", bit);
 				return bit;
-			} else if (m = bit.match(/(^.*?›)(.*$)/)) {
-				// Obfuscate <> inside of ‹links›
-				const [, pre, post] = m;
-				return pre.replace(/</g, "-=LEFT=-").replace(/>/g, "-=RIGHT=-") + post;
-			}
-			logError("Huh?", bit);
-			return bit;
-		}).join("‹");
+			}).join("‹");
 	};
 	const deobfuscate = input => input
 		.replace(/-=LEFT=-/g, "<")
 		.replace(/-=RIGHT=-/g, ">")
-		.replace(/-=ARROW=-/g, "=>");
-	return input.split(/\n/).map(line => {
-		let test = obfuscate(line);
-		let m;
-		let final = "";
+		.replace(/-=ARROW=-/g, "=>")
+		.replace(/<span data-hiding><[/]span>/g, "\n");
+	let test = obfuscate(input);
+	let m;
+	let final = "";
+	if(inlineText) {
+		if(m = test.match(/^(.+)(<.*)?$/)) {
+			const [, content, next] = m;
+			final = replacer(content);
+			test = next || "";
+		}
+	}
+	while(test && (m = test.match(/(^<.*?>)([^<]*)(.*$)/))) {
+		const [, tag, content, etc] = m;
+		final = final + tag + replacer(content);
+		test = etc;
+	}
+	if(test) {
 		if(inlineText) {
-			if(m = test.match(/^(.+)(<.*)?$/)) {
-				const [, content, next] = m;
-				final = replacer(content);
-				test = next || "";
-			}
+			final = final + replacer(test);
+		} else {
+			logError(`Incomplete tag? <${input}>\n>> ${test}`);
 		}
-		while(test && (m = test.match(/(^<.*?>)([^<]*)(.*$)/))) {
-			const [, tag, content, etc] = m;
-			final = final + tag + replacer(content);
-			test = etc;
-		}
-		if(test) {
-			if(inlineText) {
-				final = final + replacer(test);
-			} else {
-				logError(`Incomplete tag? <${line}>\n>> ${test}`);
-			}
-		}
-		return deobfuscate(final);
-	}).join("\n");
+	}
+	return deobfuscate(final);
+
 };
 
 // Globally available variables and functions
@@ -581,7 +584,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 				});
 			} else if (limit.omit) {
 				Object.entries(found).forEach(([prop, v]) => {
-					(limit.omit.indexOf(prop) === -1) && !v.redirect && !v.copyof && pool.push(v);
+					!limit.omit.includes(prop) && !v.redirect && !v.copyof && pool.push(v);
 				});
 			} else if (limit.only) {
 				pool.push(...limit.only.map(prop => found[prop]));

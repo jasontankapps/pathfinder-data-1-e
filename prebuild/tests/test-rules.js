@@ -20,7 +20,7 @@ function isGood(value) {
 			} else if (siblings.some(bit => {
 				if(!rules[bit]) {
 					return true;
-				} else if(!rules[bit].siblings || rules[bit].siblings.indexOf(prop) < 0) {
+				} else if(!rules[bit].siblings || !rules[bit].siblings.includes(prop)) {
 					found = true;
 					msg.push(`${prop}.siblings => ${bit} is not reciprocal`);
 					return true;
@@ -48,7 +48,7 @@ function isGood(value) {
 				if((immediateParent.parent_topics || []).join(",") !== ancestry) {
 					msg.push(`${prop}.parent_topics does not correspond to ${parentProp}.parent_topics`);
 					return true;
-				} else if ((immediateParent.subtopics || []).indexOf(prop) < 0) {
+				} else if (!(immediateParent.subtopics || []).includes(prop)) {
 					msg.push(`${prop} not found in ${parentProp}.subtopics`);
 					return true;
 				}

@@ -54,7 +54,7 @@ export const makeSpellAbilityBlock = ({
 		m ? [ "his", "he", "He" ]
 		: [ "her", "she", "She" ];
 	const [ an, An ]
-		= "aeiou".indexOf(caster.slice(0,1)) > -1
+		= "aeiou".includes(caster.slice(0,1))
 		? ["an", "An"]
 		: ["a", "A"];
 

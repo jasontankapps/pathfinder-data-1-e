@@ -36,7 +36,7 @@ const checkForBadTables = (tables, objectDescription) => {
 							let bad = '';
 							if(!header) {
 								bad = "missing 'header' property"
-							} else if (type && ["gp", "gp+", "lbs", "lbs+", "bonus", "num", "pct"].indexOf(type) === -1) {
+							} else if (type && !["gp", "gp+", "lbs", "lbs+", "bonus", "num", "pct"].includes(type)) {
 								bad = `bad 'type' property "${type}"`
 							} else if (unsortable !== undefined && unsortable !== false && unsortable !== true) {
 								bad = "bad 'unsortable' property";
@@ -123,7 +123,17 @@ const checkForBadTables = (tables, objectDescription) => {
 					found = found || `Bad filter property at ${tableDesc} (${id})`;
 					return true;
 				} else if (data.some((line, j) => {
-					const correspondingType = columns.map(col => ["gp", "gp+", "lbs", "lbs+", "bonus", "num", "pct"].indexOf(col.type) === -1 ? "string" : "number");
+					const correspondingType = columns.map(
+						col => ![
+							"gp",
+							"gp+",
+							"lbs",
+							"lbs+",
+							"bonus",
+							"num",
+							"pct"
+						].includes(col.type) ? "string" : "number"
+					);
 					// Check data
 					if(
 						!Array.isArray(line)
@@ -175,7 +185,7 @@ const checkForBadTables = (tables, objectDescription) => {
 							etc.forEach(e => {
 								if(targets.every(t => {
 									if(!regex) {
-										return String(t).indexOf(e) === -1;
+										return !String(t).includes(e);
 									}
 									let m;
 									try {
