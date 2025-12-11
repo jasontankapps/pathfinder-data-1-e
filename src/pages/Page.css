@@ -1059,7 +1059,7 @@ div.ability {
 	background: var(--table-bg);
 	margin-inline: 0.25rem;
 	display: grid;
-	grid-template-columns: 2.5rem 4fr;
+	grid-template-columns: calc(2.5rem + 2px) 4fr;
 	grid-auto-rows: min-content;
 	justify-content: center;
 	border-radius: 0.75rem;
@@ -1073,7 +1073,7 @@ div.ability.indent2 {
 div.abIcon {
 	grid-column: 1;
 	grid-row: 1 / span 20;
-	place-self: center;
+	place-self: stretch;
 	font-size: 2rem;
 	padding: 0.25rem;
 	display: flex;
@@ -1081,6 +1081,10 @@ div.abIcon {
 	align-items: center;
 	justify-content: center;
 	gap: 1rem;
+	border-color: var(--table-border-color);
+	border-style: solid;
+	border-width: 0;
+	border-inline-end-width: 2px;
 }
 div.abIcon a {
 	display: flex;
@@ -1104,7 +1108,7 @@ div.abSingle.title {
 	border-start-end-radius: 0.75rem;
 	font-weight: bold;
 	text-align: center;
-	border-inline-start-width: 2px;
+	/*border-inline-start-width: 2px;*/
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
@@ -1124,7 +1128,7 @@ div.abPair {
 	border-color: var(--table-border-color);
 	border-width: 0;
 	border-block-end-width: 2px;
-	border-inline-start-width: 2px;
+	/*border-inline-start-width: 2px;*/
 	position: relative;
 }
 div:is(.abStart,.abEnd) {
@@ -1186,7 +1190,7 @@ div.subAbility div.abIcon {
 }
 div.subAbility div.abIcon + div.abSingle {
 	grid-column: 1 / span 2;
-	border-inline-start-width: 0;
+	/* border-inline-start-width: 0; */
 }
 div.subAbility div.abSingle.title {
 	background: var(--table-bg);

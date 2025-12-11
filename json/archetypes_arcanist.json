@@ -8,7 +8,7 @@
 			"‹SOURCE Blood of the Ancients/24›  ",
 			"The Shory were the undisputed masters of wind and sky, and they unlocked numerous secrets of air magic. The vast majority of these secrets were lost when their civilization collapsed, but a few of their magical traditions have been preserved through the years. While the practice of aeromancy is rare, some arcanists today are able to rival the aerial mastery of the ancient Shory aeromancers.",
 			"",
-			"::ab[Air Mastery (Su)]{icon=boost flavor=\"Aeromancers specialize in magic that manipulates the wind and sky.\" passive=\"Whenever an aeromancer expends a point from her arcane reservoir to increase the caster level of a spell with the air, cold, electricity, or sonic descriptor, she increases that bonus by an additional 1. Alternatively, if the aeromancer expends a point from her arcane reservoir to increase the saving throw DC of a spell with the air, cold, electricity, or sonic descriptor, she increases it by an additional 1.\" imp5=\"The caster level improvement becomes an additional 2.\" imp10=\"The caster level improvement becomes an additional 3, and the saving throw DC increases by an additional 2.\" imp15=\"The caster level improvement becomes an additional 4.\" imp20=\"The caster level improvement becomes an additional 5.\" replace=\"The arcane exploit gained at 1st level\"}",
+			"::ab[Air Mastery (Su)]{icon=boost flavor=\"Aeromancers specialize in magic that manipulates the wind and sky.\" passive=\"Whenever an aeromancer expends a point from her arcane reservoir to increase the caster level of a spell with the air, cold, electricity, or sonic descriptor, she increases that bonus by an additional 1. Alternatively, if the aeromancer expends a point from her arcane reservoir to increase the saving throw DC of a spell with the air, cold, electricity, or sonic descriptor, she increases it by an additional 1.\" imp5=\"The caster level improvement becomes an additional 2.\" imp10=\"The caster level improvement becomes an additional 3, and the saving throw DC increase becomes an additional 2.\" imp15=\"The caster level improvement becomes an additional 4.\" imp20=\"The caster level improvement becomes an additional 5.\" replace=\"The arcane exploit gained at 1st level\"}",
 			"",
 			"::ab[Wind's Embrace (Su)]{l=5 icon=magic ability=\"An aeromancer can expend 2 points from her arcane reservoir to call upon the winds to gently carry her through the air while protecting her from harm. She is affected as though by the spell ‹spell/air walk› and is surrounded by protective winds that function similarly to a ‹spell/wind wall› spell, except the effect surrounds only the aeromancer and moves with her wherever she goes. Both of these effects last for 1 minute.\" replace=\"The arcane exploit gained at 5th level\"}",
 			"",
@@ -140,11 +140,11 @@
 			"",
 			"::ab[Psychic Reader (Ex)]{l=1 icon=power-skill passive=\"A Harrowed Society student gains ‹feat/Psychic Sensitivity› as a bonus feat and adds Diplomacy, Perception, and Sense Motive to her list of class skills.\" replace=\"The 1st-level arcanist exploit\"}",
 			"",
-			"::ab[Harrow Reservoir (Ex)]{l=1 icon=magic-boost ability=\"Once per day, a Harrowed Society student can perform a harrow reading as a 5-minute ritual. She decides which suit most closely aligns with her task at hand and deals a nine-card spread. Each time that suit appears in her spread, she adds 1 point to her arcane reservoir, to a maximum of 1 point per 2 arcanist levels. Points gained in excess of her reservoir's maximum are lost.\" imp8=\"This can be done twice a day.\" imp16=\"This can be done twice a day.\" replace=\"Consume spells\"}",
+			"::ab[Harrow Reservoir (Ex)]{l=1 icon=magic-boost ability=\"Once per day, a Harrowed Society student can perform a harrow reading as a 5-minute ritual. She decides which suit most closely aligns with her task at hand and deals a nine-card spread. Each time that suit appears in her spread, she adds 1 point to her arcane reservoir, to a maximum of 1 point per 2 arcanist levels. Points gained in excess of her reservoir's maximum are lost.\" imp8=\"This can be done twice a day.\" imp16=\"This can be done three times a day.\" replace=\"Consume spells\"}",
 			"",
-			"::ab[Divine the Mysteries (Ex)]{l=5 icon=learn ability=\"A Harrowed Society student can select a divination spell from the spell list of any class, including classes that cast divine or psychic spells, and add it to her list of spells known. This spell must be at least 1 level lower than the highest-level spell she can cast.\" special=\"At every odd-numbered level beyond 5th (7th, 9th, 11th, and so on), a Harrowed Society student can select a new divination spell, following the same restrictions as above. She casts these spells as arcane spells, using her normal spell slots, but must use a harrow deck as an additional focus component. If such a spell is normally a psychic spell with an emotion or thought component, she must also add that component.\"}",
+			"::ab[Divine the Mysteries (Ex)]{l=5 icon=learn ability=\"A Harrowed Society student can select a ‹main/spells_>divination› spell from the spell list of any class, including classes that cast divine or psychic spells, and add it to her list of spells known. This spell must be at least 1 level lower than the highest-level spell she can cast.\" special=\"At every odd-numbered level beyond 5th (7th, 9th, 11th, and so on), a Harrowed Society student can select a new divination spell, following the same restrictions as above. She casts these spells as arcane spells, using her normal spell slots, but must use a harrow deck as an additional focus component. If such a spell is normally a psychic spell with an emotion or thought component, she must also add that component.\"}",
 			"",
-			":::ab{l=9 icon=boost-aid ability=Standard title=\"Trump Card (Su)\" replace=\"The 9th-level arcanist exploit\"}",
+			":::ab{l=9 icon=boost-aid-lower ability=Standard title=\"Trump Card (Su)\" replace=\"The 9th-level arcanist exploit\"}",
 			"",
 			"A Harrowed Society student can expend 1 point from her arcane reservoir and draw a card from her harrow deck to learn her own fate or that of an ally within 30 feet. The target's fate depends on the suit of the card drawn from the deck.",
 			"",
@@ -160,7 +160,11 @@
 			">",
 			">**Stars:** The target gains a +4 insight bonus on her next skill check.",
 			"",
-			"A creature cannot have more than one trump card in effect at one time; drawing a new trump card for a target negates the effect of the previous trump card. A Harrow Society student can attempt to read the fate of an enemy within 30 feet, resulting in a penalty for that target equal to the bonus granted above, but the target is entitled to a Will save (DC = 10 + 1/2 the Harrowed Society student's arcanist level + her Charisma modifier) to negate the effect. This is considered a curse effect. A Harrow Society student can have trump cards in effect for multiple creatures at the same time.",
+			"A creature cannot have more than one trump card in effect at one time; drawing a new trump card for a target negates the effect of the previous trump card.",
+			"",
+			"A Harrow Society student can attempt to read the fate of an enemy within 30 feet, resulting in a penalty for that target equal to the bonus granted above, but the target is entitled to a Will save (DC = 10 + 1/2 the Harrowed Society student's arcanist level + her Charisma modifier) to negate the effect. This is considered a curse effect.",
+			"",
+			"A Harrow Society student can have trump cards in effect for multiple creatures at the same time.",
 			"",
 			":::"
 		]
@@ -207,7 +211,7 @@
 			"",
 			"::ab[Planar Contact (Sp)]{l=7 icon=magic ability=\"An occultist can cast ‹spell/augury› once per day and ‹spell/contact other plane› once per week, using her arcanist level as her caster level.\" replace=\"The arcanist exploit gained at 7th level\"}",
 			"",
-			"::ab[Perfect Summoner]{l=20 icon=magic ability=\"An occultist can use her conjurer's focus without spending points from her arcane reservoir, and the creatures summoned last until dismissed.\" replace=\"Magical supremacy\"}"
+			"::ab[Perfect Summoner]{l=20 icon=magic ability=\"An occultist can use her *conjurer's focus* without spending points from her arcane reservoir, and the creatures summoned last until dismissed.\" replace=\"Magical supremacy\"}"
 		]
 	},
 	"school_savant": {
@@ -241,7 +245,7 @@
 			"",
 			"::ab[Dismiss (Su)]{sub icon=boost swift=\"A spell specialist can ‹misc/dismiss› a signature spell as a swift action instead of a standard action. Alternatively, the spell specialist can dismiss a signature spell that has a duration but isn't normally dismissible.\"}",
 			"",
-			"::ab[Spell Bender (Su)]{sub icon=magic ability=\"The spell specialist can bend the line of a spell that has a line area of effect up to 90 degrees at any single point along the line's length.\"}",
+			"::ab[Spell Bender (Su)]{sub icon=magic-line ability=\"The spell specialist can bend the line of a spell that has a line area of effect up to 90 degrees at any single point along the line's length.\"}",
 			"",
 			"::ab[Spellwarp (Su)]{sub icon=aura-cone-line ability=\"A spell specialist can reduce the radius of a ‹misc/spread« or burst› effect or shorten the length of a cone. All changes must occur in 5-foot increments, to a minimum of 5 feet. Alternatively, the spell specialist can change the area of effect of a cone spell to a line with a length equal to the spell's range.\"}"
 		]
@@ -277,7 +281,7 @@
 			"",
 			"::ab[Familiar]{icon=power ability=\"An unlettered arcanist does not keep a spellbook. Instead, she gains a ‹ability/familiar› in which she stores her spells as a ‹class/witch› does, though she does not gain a witch's patron. Treat her arcanist level as her witch level for determining the abilities and benefits granted by the ‹sidekick/familiar›. Anything that would allow an unlettered arcanist to add spells to her spellbook allows her to add spells to her familiar instead.\" replace=Spellbooks}",
 			"",
-			"::ab[Witch Spells]{icon=magic passive=\"An unlettered arcanist follows a different arcane tradition. She uses the ‹main/witch spell« list› instead of the ‹main/spells_>wizard«/sorcerer spell list»›.\" alter=Spells}"
+			"::ab[Witch Spells]{icon=magic passive=\"An unlettered arcanist follows a different arcane tradition. She uses the ‹main/witch spell« list› instead of the ‹main/spells_>arcanist« spell list»›.\" alter=Spells}"
 		]
 	},
 	"white_mage": {
