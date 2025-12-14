@@ -1490,7 +1490,7 @@
 			"",
 			"@HL[Replacement Power:] The following granted power replaces the [remote viewing](#rem) ability of the Knowledge domain. ‹family/Aeon«s› are a race of neutral outsiders.",
 			"",
-			"::ab[Void Form (Su)]{l=6 icon=boost standard=\"You can become semi-tangible. While in this form, you are immune to critical hits and gain a +1 deflection bonus to AC.\" useL=cleric useNC imp8=\"The defelection bonus improves to +2.\" imp12=\"The defelection bonus improves to +3.\" imp16=\"The defelection bonus improves to +4.\" imp20=\"The defelection bonus improves to +4.\"}",
+			"::ab[Void Form (Su)]{l=6 icon=boost standard=\"You can become semi-tangible. While in this form, you are immune to critical hits and gain a +1 deflection bonus to AC.\" useL=cleric useNC imp8=\"The defelection bonus improves to +2.\" imp12=\"The defelection bonus improves to +3.\" imp16=\"The defelection bonus improves to +4.\" imp20=\"The defelection bonus improves to +5.\"}",
 			"",
 			"::spelllist[Replacement Domain Spells]{from=domain l1=sanctuary l5=\"telepathic bond\" l6=\"planar binding|aeons only\"}",
 			"",

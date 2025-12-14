@@ -2641,6 +2641,7 @@
 	},
 	"heat": { "redirect": "heat_dangers" },
 	"hot_environmental_conditions": { "redirect": "heat_dangers" },
+	"hot_weather": { "redirect": "heat_dangers" },
 	"catching_on_fire": {
 		"name": "Catching on Fire",
 		"subtitle": "Environmental Rules",
