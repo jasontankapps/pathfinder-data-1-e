@@ -32,7 +32,7 @@
 			"",
 			"::ab[Savage Rapport (Ex)]{l=1 icon=boost passive=\"A beastkin berserker gains a spiritual connection to a specific kind of creature with the animal type (such as a ‹monster/badger› or a ‹monster/triceratops›). She adds half her level (minimum 1) on Handle Animal, Intimidate, and Sense Motive checks involving the chosen type of animal.\" imp5=\"The beastkin berserker can select a second kind of animal to which these bonuses apply.\" imp10=\"The beastkin berserker can select a third kind of animal to which these bonuses apply.\" imp15=\"The beastkin berserker can select a fourth kind of animal to which these bonuses apply.\" imp20=\"The beastkin berserker can select a fifth kind of animal to which these bonuses apply.\" replace=\"Fast movement\"}",
 			"",
-			"::ab[Feral Transformation (Su)]{l=4 icon=magic ability=\"When entering a rage, a beastkin berserker can take the form of a Small or Medium animal. This functions as ‹spell/beast shape I›, except the duration is for as long as the beastkin berserker rages and the animal must be one she has chosen with her *savage rapport.*\" imp8=\"The beastkin berserker can use *feral transformation* to take the form of a Large or Tiny animal that she has chosen with her savage rapport. *Feral transformation* now acts as ‹spell/beast shape II›.\" imp12=\"A beastkin berserker is able to use *feral transformation* to take the form of a Huge or Diminutive animal that she has chosen with her savage rapport. *Feral transformation* now functions as ‹spell/beast shape III›.\" replace=\"Rage powers gained at 4th, 8th, and 12th levels.\"}"
+			"::ab[Feral Transformation (Su)]{l=4 icon=magic ability=\"When entering a rage, a beastkin berserker can take the form of a Small or Medium animal. This functions as ‹spell/beast shape I›, except the duration is for as long as the beastkin berserker rages and the animal must be one she has chosen with her *savage rapport.*\" imp8=\"The beastkin berserker can use *feral transformation* to take the form of a Large or Tiny animal that she has chosen with her savage rapport. *Feral transformation* now acts as ‹spell/beast shape II›.\" imp12=\"A beastkin berserker is able to use *feral transformation* to take the form of a Huge or Diminutive animal that she has chosen with her savage rapport. *Feral transformation* now functions as ‹spell/beast shape III›.\" replace=\"4th, 8th, and 12th level rage powers\"}"
 		]
 	},
 	"breaker": {
@@ -86,7 +86,7 @@
 			"",
 			"::ab[Stubborn (Ex)]{l=3 icon=def passive=\"A brutish swamper resists any attempts to change her attitude or compel her to action. Diplomacy and Intimidate checks against her take a -2 penalty, and no result can shift her attitude more than one step in a 24-hour period.\" imp6=\"The penalty becomes -4.\" imp9=\"The penalty becomes -6.\" imp12=\"The penalty becomes -8.\" imp15=\"The penalty becomes -10.\" imp18=\"The penalty becomes -12.\" replace=\"Trap sense\"}",
 			"",
-			"::ab[Wrastlin (Ex)]{l=6 icon=def-melee passive=\"While raging, a brutish swamper gains a +2 bonus to her CMD against ‹rule/grapple› combat maneuvers and a +2 bonus on damage rolls made as part of successful grapple combat maneuver checks.\" replace=\"Rage power normally gained at 6th level.\"}",
+			"::ab[Wrastlin (Ex)]{l=6 icon=def-melee passive=\"While raging, a brutish swamper gains a +2 bonus to her CMD against ‹rule/grapple› combat maneuvers and a +2 bonus on damage rolls made as part of successful grapple combat maneuver checks.\" replace=\"6th-level rage power\"}",
 			"",
 			"@HL[Rage Powers:] The following rage powers complement the brutish swamper archetype: ‹ragepower/brawler›, ‹ragepower/greater brawler›, ‹ragepower/greater tyrant totem›, ‹ragepower/lesser tyrant totem›, ‹ragepower/lizard stride›, ‹ragepower/low-light vision›, ‹ragepower/superstition›, ‹ragepower/tyrant totem›."
 		]
@@ -182,7 +182,7 @@
 			"",
 			"::ab[Improved Staggering Evasion (Ex)]{l=5 icon=def passive=\"As long as she has at least 2 drunken rage points, a drunken rager gains ‹talent/improved evasion›, as the advanced rogue talent of the same name.\" replace=\"Improved uncanny dodge\"}",
 			"",
-			"::ab[Drunken Swing (Ex)]{l=12 icon=melee-boost swift=\"A drunken rager can spend 1 drunken rage point before making a melee attack to drastically increase the deadliness of her attack. The critical threat range of her next attack that round increases by 1 (for example, a critical threat range of 20 would increase to 19-20).\" special=\"This ability does not stack with any other effect that expands the critical threat range of a weapon.\" imp16=\"She can instead spend 2 drunken rage points to increase the critical threat range of her next attack by 2.\" imp20=\"She can instead spend 3 drunken rage points to increase the critical threat range of her next attack by 3.\" replace=\"The rage power gained at 12th level\"}"
+			"::ab[Drunken Swing (Ex)]{l=12 icon=melee-boost swift=\"A drunken rager can spend 1 drunken rage point before making a melee attack to drastically increase the deadliness of her attack. The critical threat range of her next attack that round increases by 1 (for example, a critical threat range of 20 would increase to 19-20).\" special=\"This ability does not stack with any other effect that expands the critical threat range of a weapon.\" imp16=\"She can instead spend 2 drunken rage points to increase the critical threat range of her next attack by 2.\" imp20=\"She can instead spend 3 drunken rage points to increase the critical threat range of her next attack by 3.\" replace=\"12th-level rage power\"}"
 		]
 	},
 	"elemental_kin": {
@@ -232,7 +232,7 @@
 			"",
 			"::ab[Savage Bite (Ex)]{l=1 icon=power-melee ability=\"A feral gnasher gains a savage bite attack. This is a primary ‹umr/natural attack› that deals 1d4 points of damage. If the goblin already has the *hard head, big teeth* racial trait, the damage increases to 1d6.\" imp10=\"The damage from a feral gnasher's bite increases to 1d6 (or 1d8 if the goblin has the hard head, big teeth racial trait) and deals &times&3 damage on a critical hit.\" replace=\"Fast movement\"}",
 			"",
-			"::ab[Impromptu Armament (Ex)]{icon=power hAbility ability=\"A feral gnasher gains ‹feat/Throw Anything› as a bonus feat and can pick up an unattended object that can be wielded in one hand as a ***free action.*** Additionally, the feral gnasher can take ‹feat/Catch Off-Guard› in place of a rage power.\" replace=\"The rage power gained at second level\"}",
+			"::ab[Impromptu Armament (Ex)]{icon=power hAbility ability=\"A feral gnasher gains ‹feat/Throw Anything› as a bonus feat and can pick up an unattended object that can be wielded in one hand as a ***free action.*** Additionally, the feral gnasher can take ‹feat/Catch Off-Guard› in place of a rage power.\" replace=\"2nd-level rage power\"}",
 			"",
 			"::ab[Lockjaw (Ex)]{l=3 icon=power-melee ability=\"A feral gnasher gains the ‹umr/grab› ability with her bite attack. A feral gnasher can use this ability on a creature up to one size category larger than she is.\" replace=\"Trap sense +1\"}",
 			"",
@@ -284,7 +284,7 @@
 			"",
 			"::ab[Haunt Channeler (Su)]{l=3 icon=power ability=\"A geminate invoker gains the power to sense and absorb lingering spiritual energy. This functions identically to the ‹class/medium› class ability of the same name, except the geminate invoker deals 1d6 points of damage to haunts for every 3 barbarian levels he has.\" replace=\"Trap sense\"}",
 			"",
-			"::ab[Spirit Conduit (Su)]{l=4 icon=power ability=\"A geminate invoker can invite a spirit into his body each time he enters a trance, gaining a lesser ‹arc-barbarian/totem rage power› for the duration of his trance. He can select a new totem each time he enters his trance, though the GM might rule that certain totem spirits are simply not available in certain locations (such as channeling a celestial totem in an evil god's temple). Invoking a totem counter to his alignment (such as a neutral good character invoking a fiend totem) requires the geminate invoker to succeed at a DC 12 Charisma check each round to dominate the spirit. Failure indicates the spirit escapes, immediately ending the trance.\" imp8=\"The geminate invoker gains a second totem rage power, though it must use the previously granted *lesser totem rage power* as a prerequisite.\" imp12=\"He now also gains the *greater totem rage power* that uses the previously granted powers as prerequisites.\" replace=\"Rage powers gained at 4th, 8th, and 12th levels.\"}"
+			"::ab[Spirit Conduit (Su)]{l=4 icon=power ability=\"A geminate invoker can invite a spirit into his body each time he enters a trance, gaining a lesser ‹arc-barbarian/totem rage power› for the duration of his trance. He can select a new totem each time he enters his trance, though the GM might rule that certain totem spirits are simply not available in certain locations (such as channeling a celestial totem in an evil god's temple). Invoking a totem counter to his alignment (such as a neutral good character invoking a fiend totem) requires the geminate invoker to succeed at a DC 12 Charisma check each round to dominate the spirit. Failure indicates the spirit escapes, immediately ending the trance.\" imp8=\"The geminate invoker gains a second totem rage power, though it must use the previously granted *lesser totem rage power* as a prerequisite.\" imp12=\"He now also gains the *greater totem rage power* that uses the previously granted powers as prerequisites.\" replace=\"4th, 8th, and 12th level rage powers\"}"
 		]
 	},
 	"giant_stalker": {
@@ -326,7 +326,7 @@
 			"",
 			"::ab[Reduced Rage (Ex)]{icon=down note=\"At 2nd level and every level thereafter, a hateful rager only gains 1 additional round of rage per day instead of the normal 2 additional rounds of rage per day.\"}",
 			"",
-			"::ab[Favored Enemy (Ex)]{icon=power-boost-down l=2 ability=\"A hateful rager selects a ‹ability/favored enemy›. This ability works identically to the ‹class/ranger› ability of the same name. While raging, the hateful rager makes every effort to fight a favored enemy rather than other opponents. If aware of the presence of a favored enemy, the hateful rager must make a DC 20 Will save each round to attack another creature; failure means the barbarian must attack the favored enemy or move closer to that enemy. She may freely attack creatures preventing her from reaching that favored enemy (regardless of whether they are actively trying to prevent her attacks or merely in the way). She can avoid harmful obstacles normally in her attempts to reach the target and is not forced to take the shortest route.\" replace=\"The rage powers gained at 2nd, 8th, 14th, and 20th level.\" imp8=\"The hateful rager selects a second favored enemy and increases her bonus against one favored enemy type, as described in the ranger class.\" imp14=\"The hateful rager selects a third favored enemy and increases her bonus against one favored enemy type.\" imp20=\"The hateful rager selects a fourth favored enemy and increases her bonus against one favored enemy type.\"}",
+			"::ab[Favored Enemy (Ex)]{icon=power-boost-down l=2 ability=\"A hateful rager selects a ‹ability/favored enemy›. This ability works identically to the ‹class/ranger› ability of the same name. While raging, the hateful rager makes every effort to fight a favored enemy rather than other opponents. If aware of the presence of a favored enemy, the hateful rager must make a DC 20 Will save each round to attack another creature; failure means the barbarian must attack the favored enemy or move closer to that enemy. She may freely attack creatures preventing her from reaching that favored enemy (regardless of whether they are actively trying to prevent her attacks or merely in the way). She can avoid harmful obstacles normally in her attempts to reach the target and is not forced to take the shortest route.\" replace=\"2nd, 8th, 14th, and 20th level rage powers\" imp8=\"The hateful rager selects a second favored enemy and increases her bonus against one favored enemy type, as described in the ranger class.\" imp14=\"The hateful rager selects a third favored enemy and increases her bonus against one favored enemy type.\" imp20=\"The hateful rager selects a fourth favored enemy and increases her bonus against one favored enemy type.\"}",
 			"",
 			"::ab[Feed the Rage (Ex)]{l=5 icon=boost ability=\"A hateful rager gains 1 additional round of rage for each favored enemy she knocks unconscious or kills in combat. These current rounds of rage can only be used to add to the duration of her rage, and disappear when the rage ends.\" replace=\"Improved uncanny dodge\"}",
 			"",
@@ -394,7 +394,7 @@
 			"‹SOURCE Animal Archive/7›  ",
 			"Though named for the wild savages who fight alongside rabid dogs, mad dogs employ all manner of beasts as their battle brethren.",
 			"",
-			"::ab[War Beast (Ex)]{icon=power ability=\"A mad dog gains the service of an ‹ability/animal companion›, using the barbarian's level as her effective druid level.\" replace=\"Rage powers gained at 2nd, 6th, 10th, 14th, and 18th level.\"}",
+			"::ab[War Beast (Ex)]{icon=power ability=\"A mad dog gains the service of an ‹ability/animal companion›, using the barbarian's level as her effective druid level.\" replace=\"2nd, 6th, 10th, 14th, and 18th level rage powers\"}",
 			"",
 			"::ab[Pack Tactics (Ex)]{l=2 icon=boost passive=\"A mad dog and her *war beast* gain a +4 bonus on attack rolls while flanking the same opponent (instead of the normal +2 bonus).\" replace=\"Uncanny dodge\"}",
 			"",
@@ -478,7 +478,7 @@
 			"",
 			"::ab[In and Out (Ex)]{l=3 icon=def passive=\"A pack hunter gains a dodge bonus to AC against attacks of opportunity. This bonus is equal to one-third of her barbarian level.\" replace=\"Trap sense\"}",
 			"",
-			"::ab[Sympathetic Rage (Ex)]{l=6 icon=boost passive=\"If an ally within 30 feet is bloodraging or raging, a pack hunter counts as raging even if knocked unconscious. She has to have been raging when incapacitated to maintain her rage, and she ceases raging normally if she depletes her maximum number of rounds of rage in a day.\" replace=\"The rage power normally gained at 6th level\"}",
+			"::ab[Sympathetic Rage (Ex)]{l=6 icon=boost passive=\"If an ally within 30 feet is bloodraging or raging, a pack hunter counts as raging even if knocked unconscious. She has to have been raging when incapacitated to maintain her rage, and she ceases raging normally if she depletes her maximum number of rounds of rage in a day.\" replace=\"6th-level rage power\"}",
 			"",
 			"@HL[Rage Powers:] The following rage powers complement the pack hunter archetype: ‹ragepower/contagious rage›, ‹ragepower/increased damage reduction›, ‹ragepower/no escape›, ‹ragepower/pack rage›, ‹ragepower/quick reflexes›, ‹ragepower/unexpected strike›."
 		]
@@ -492,9 +492,9 @@
 			"‹SOURCE Monster Codex/92›  ",
 			"Barbarian rages can be a thing of savage beauty, exhibiting a lethal grace. While such uncontrolled displays of carnage often disregard group tactics, there are those barbarians whose rages inspire and spur on their allies during the ferocious dance of death.",
 			"",
-			"::ab[Bonus Feat]{icon=power ability=\"The pack rager can take a bonus ‹main/teamwork feat›. This teamwork feat must also be a combat feat.\" imp6=\"The pack rager can take another bonus teamwork feat that is also a combat feat.\" imp10=\"The pack rager can take another bonus teamwork feat that is also a combat feat.\" imp14=\"The pack rager can take another bonus teamwork feat that is also a combat feat.\" imp18=\"The pack rager can take another bonus teamwork feat that is also a combat feat.\" replace=\"Rage powers gained at 2nd, 6th, 10th, 14th, and 18th level.\"}",
+			"::ab[Bonus Feat]{icon=power ability=\"The pack rager can take a bonus ‹main/teamwork feat›. This teamwork feat must also be a combat feat.\" imp6=\"The pack rager can take another bonus teamwork feat that is also a combat feat.\" imp10=\"The pack rager can take another bonus teamwork feat that is also a combat feat.\" imp14=\"The pack rager can take another bonus teamwork feat that is also a combat feat.\" imp18=\"The pack rager can take another bonus teamwork feat that is also a combat feat.\" replace=\"2nd, 6th, 10th, 14th, and 18th level rage powers\"}",
 			"",
-			"::ab[Raging Tactician]{l=7 icon=boost passive=\"While a pack rager is raging, she grants a single teamwork feat she knows to all allies within 30 feet who can see and hear her. She chooses the feat at the start of the rage, and cannot change it during the rage. An ally who moves more than 30 feet away from the raging pack rager loses access to the feat, but regains it again each time he moves back within 30 feet of the raging pack rager. Allies do not need to meet the prerequisites of these teamwork feats.\" imp13=\"The pack rager chooses two teamwork feats when she enters a rage, and grants her allies the use of both of those feats when they are within 30 feet of her.\" imp16=\"The pack rager grants these teamwork feats as long as her allies are within 60 feet of her.\" imp19=\"The pack rager chooses three teamwork feats when she enters a rage, and grants her allies the use of all three feats when they are within 60 feet of her.\" replace=\"Damage reduction class feature.\"}"
+			"::ab[Raging Tactician]{l=7 icon=boost passive=\"While a pack rager is raging, she grants a single teamwork feat she knows to all allies within 30 feet who can see and hear her. She chooses the feat at the start of the rage, and cannot change it during the rage. An ally who moves more than 30 feet away from the raging pack rager loses access to the feat, but regains it again each time he moves back within 30 feet of the raging pack rager. Allies do not need to meet the prerequisites of these teamwork feats.\" imp13=\"The pack rager chooses two teamwork feats when she enters a rage, and grants her allies the use of both of those feats when they are within 30 feet of her.\" imp16=\"The pack rager grants these teamwork feats as long as her allies are within 60 feet of her.\" imp19=\"The pack rager chooses three teamwork feats when she enters a rage, and grants her allies the use of all three feats when they are within 60 feet of her.\" replace=\"Damage reduction class feature\"}"
 		]
 	},
 	"primal_hunter": {
@@ -563,23 +563,17 @@
 			"‹SOURCE Technology Guide/13›  ",
 			"Savage technologists exhort Kellids to rise up against the depredations of the Technic League. But rather than rejecting technology, they wield the League's own weapons against it. A savage technologist has the following class features.",
 			"",
-			"**Class skills:** Acrobatics (Dex), Climb (Str), Craft (Int), Diplomacy (Cha), Intimidate (Cha), Knowledge (local) (Int), Perception (Wis), Sense Motive Wis), Ride (Dex), Survival (Wis), and Swim (Str).",
+			"::ab[Class skills]{icon=skill note=\"The savage technologist loses Knowledge (nature) and Handle Animal as class skills, but gains Diplomacy, Knowledge (local), and Sense Motive instead.\"}",
 			"",
-			"**Weapon and Armor Proficiency:** A savage technologist is proficient with all simple and martial weapons, all firearms, light armor, and shields (except tower shields).",
+			"::ab[Weapon and Armor Proficiency]{icon=power-down note=\"A savage technologist is proficient in all firearms, but is not proficient with medium armor.\"}",
 			"",
-			"**Rage (Ex):** A savage technologist can enter rage as a barbarian, except she gains a morale bonus to Strength and Dexterity instead of Strength and Constitution, and she does not take a penalty to Armor Class. She retains the bonus on Will saving throws. When a barbarian ability would increase the savage technologist's Strength while raging, it increases her Dexterity instead.",
+			"::ab[Rage (Ex)]{icon=info note=\"A savage technologist can enter rage as a barbarian, except she gains a morale bonus to Strength and Dexterity instead of Strength and Constitution, and she does not take a penalty to Armor Class. She retains the bonus on Will saving throws. When a barbarian ability would increase the savage technologist's Strength while raging, it increases her Dexterity instead.\" alter=Rage}",
 			"",
-			"This ability alters @HL[rage].",
+			"::ab[Sword and Gun (Ex)]{l=2 icon=def-boost passive=\"When a raging savage technologist wields a one-handed firearm in one hand and a light or one-handed melee weapon in the other, she can make ranged attacks with the firearm without provoking attacks of opportunity. She also gains the benefits of the ‹feat/Two-Weapon Fighting› feat, but only if all attacks are made with those weapons.\" replace=\"Uncanny Dodge\"}",
 			"",
-			"**Sword and Gun (Ex):** At 2nd level, when a raging savage technologist wields a one-handed firearm in one hand and a light or one-handed melee weapon in the other, she can make ranged attacks with the firearm without provoking attacks of opportunity. She also gains the benefits of the ‹feat/Two-Weapon Fighting› feat, but only if all attacks are made with those weapons.",
+			"::ab[Primal Magnetism (Ex)]{l=3 icon=boost passive=\"A savage technologist adds her Strength modifier on Diplomacy checks when interacting with tribal cultures.\" order=pa ability=\"She can expend 2 rounds of rage (even if not raging) to add a bonus equal to 1/2 his barbarian level on a Diplomacy check.\"}",
 			"",
-			"This ability replaces @HL[Uncanny Dodge].",
-			"",
-			"**Primal Magnetism (Ex):** At 3rd level, a savage technologist adds her Strength modifier on Diplomacy checks when interacting with tribal cultures. She can expend 2 rounds of rage (even if not raging) to add a bonus equal to 1/2 his barbarian level on a Diplomacy check.",
-			"",
-			"**Crack Shot (Ex):** At 5th level, a savage technologist adds her Dexterity modifier to her damage rolls when making ranged attacks with a firearm while raging.",
-			"",
-			"This ability replaces @HL[Improved Uncanny Dodge]."
+			"::ab[Crack Shot (Ex)]{l=5 icon=boost-ranged passive=\"A savage technologist adds her Dexterity modifier to her damage rolls when making ranged attacks with a firearm while raging.\" replace=\"Improved Uncanny Dodge\"}"
 		]
 	},
 	"scarred_rager": {
@@ -591,23 +585,15 @@
 			"‹SOURCE Ultimate Combat/29›  ",
 			"Some barbarians wear marks of prowess and savagery upon their bodies. The scarred rager believes each wound tells the tales of her prowess and bravery. She augments these ragged trophies with brands and tattoos in order to win the notice and favor of her gods, ancestors, or totem spirits. The scarred rager's gnarled and exotic appearance terrifies civilized onlookers, but is awe-inspiring to her savage kin.",
 			"",
-			"**Terrifying Visage (Ex):** A scarred rager adds 1/2 her barbarian level on Intimidate checks against humanoids who are not members of barbarian tribes. When dealing with barbarians, the scarred rager may choose to add this bonus on Diplomacy checks instead. The DC of any fear effect created by the scarred rager also increases by 1.",
+			"::ab[Terrifying Visage (Ex)]{icon=boost-lower passive=\"A scarred rager adds 1/2 her barbarian level on Intimidate checks against humanoids who are not members of barbarian tribes. When dealing with barbarians, the scarred rager may choose to add this bonus on Diplomacy checks instead. The DC of any fear effect created by the scarred rager also increases by 1.\" replace=\"Fast movement\"}",
 			"",
-			"This ability replaces @HL[fast movement].",
+			"::ab[Tolerance (Ex)]{l=2 icon=def passive=\"A scarred rager who fails a save against an effect that causes her to become nauseated, sickened, fatigued, or exhausted can make a second save to negate the effect on the start of her next turn. Only one additional save is allowed. If the effect does not allow a saving throw, its duration is halved instead (minimum of 1 round).\" replace=\"Uncanny dodge\"}",
 			"",
-			"**Tolerance (Ex):** At 2nd level, a scarred rager who fails a save against an effect that causes her to become nauseated, sickened, fatigued, or exhausted can make a second save to negate the effect on the start of her next turn. Only one additional save is allowed. If the effect does not allow a saving throw, its duration is halved instead (minimum of 1 round).",
+			"::ab[Scarification (Ex)]{l=3 icon=def passive=\"A scarred rager can ignore a number of points of bleed damage per round. This number is equal to one-third her barbarian level.\" imp15=\"A scarred rager can ignore 1 bleed effect each round.\" replace=\"Trap sense\"}",
 			"",
-			"This ability replaces @HL[uncanny dodge].",
+			"::ab[Improved Tolerance (Ex)]{l=5 icon=def passive=\"A scarred rager's *tolerance* ability also applies to effects that would cause her to become dazed, frightened, shaken, or stunned.\" replace=\"Improved uncanny dodge\"}",
 			"",
-			"**Scarification (Ex):** At 3rd level, a scarred rager can ignore 1 point of bleed damage per round. This amount increases by 1 every three levels beyond 3rd. At 15th level, a scarred rager can ignore 1 bleed effect each round.",
-			"",
-			"This ability replaces @HL[trap sense].",
-			"",
-			"**Improved Tolerance (Ex):** At 5th level, a scarred rager's tolerance ability also applies to effects that would cause her to become dazed, frightened, shaken, or stunned.",
-			"",
-			"This replaces @HL[improved uncanny dodge].",
-			"",
-			"**Rage Powers:** The following rage powers complement the scarred rager archetype: ‹ragepower/auspicious mark›, ‹ragepower/body bludgeon›, ‹ragepower/come and get me›, ‹ragepower/increased damage reduction›, ‹ragepower/inspire ferocity›, ‹ragepower/internal fortitude›, ‹ragepower/intimidating glare›, ‹ragepower/reckless abandon›, ‹ragepower/regenerative vigor›, ‹ragepower/renewed life›, ‹ragepower/renewed vigor›, ‹ragepower/renewed vitality›, ‹ragepower/roused anger›, ‹ragepower/terrifying howl›."
+			"@HL[Rage Powers:] The following rage powers complement the scarred rager archetype: ‹ragepower/auspicious mark›, ‹ragepower/body bludgeon›, ‹ragepower/come and get me›, ‹ragepower/increased damage reduction›, ‹ragepower/inspire ferocity›, ‹ragepower/internal fortitude›, ‹ragepower/intimidating glare›, ‹ragepower/reckless abandon›, ‹ragepower/regenerative vigor›, ‹ragepower/renewed life›, ‹ragepower/renewed vigor›, ‹ragepower/renewed vitality›, ‹ragepower/roused anger›, ‹ragepower/terrifying howl›."
 		]
 	},
 	"sea_reaver": {
@@ -619,25 +605,17 @@
 			"‹SOURCE Ultimate Combat/29›  ",
 			"Not all barbarians hunt forests, plains, and mountains. Some are raiding terrors on the sea and coasts, pillaging those who hoard treasure and pursuing monsters of the deep. Some sea reavers are no more than hunters of the open sea, while others are raiders striking fear into coastal settlements within reach of the sea reavers' longships.",
 			"",
-			"**Weapon and Armor Proficiency:** A sea reaver is not proficient with medium armor.",
+			"::ab[Weapon and Armor Proficiency]{icon=down note=\"A sea reaver is not proficient with medium armor.\"}",
 			"",
-			"**Marine Terror (Ex):** A sea reaver can ‹misc/hold her breath› for a number of rounds equal to four times her Constitution score. In addition, a sea reaver can move normally though squares of standing water or bog that is 1 foot deep. It does not cost her extra movement to traverse these terrains. Lastly, a sea reaver ignores the normal cover bonus to AC when attacking creatures that are partially immersed in water.",
+			"::ab[Marine Terror (Ex)]{icon=power-boost-lower passive=\"A sea reaver can ‹misc/hold her breath› for a number of rounds equal to four times her Constitution score. In addition, a sea reaver can move normally though squares of standing water or bog that is 1 foot deep. It does not cost her extra movement to traverse these terrains. Lastly, a sea reaver ignores the normal ‹rule/cover› bonus to AC when attacking creatures that are partially immersed in water.\" replace=\"Fast movement\"}",
 			"",
-			"This ability replaces @HL[fast movement].",
+			"::ab[Eyes of the Storm (Ex)]{l=2 icon=lower-boost passive=\"A sea reaver ignores any ‹rule/concealment› provided by fog, rain, sleet, mist, wind, or other weather effects that is less than total concealment, and any penalties weather applies on Perception checks are halved.\" replace=\"Uncanny dodge\"}",
 			"",
-			"**Eyes of the Storm (Ex):** At 2nd level, a sea reaver ignores any ‹rule/concealment› provided by fog, rain, sleet, mist, wind, or other weather effects that is less than total concealment, and any penalties weather applies on Perception checks are halved.",
+			"::ab[Savage Sailor (Ex)]{l=3 icon=boost passive=\"A sea reaver gains a bonus on Acrobatics, Climb, Profession (sailor), Survival, and Swim checks made in aquatic terrain, including aboard a ship or along shorelines. This bonus is equal to one-third your barbarian level.\" replace=\"Trap sense\"}",
 			"",
-			"This ability replaces @HL[uncanny dodge].",
+			"::ab[Sure-Footed (Ex)]{l=5 icon=boost passive=\"A sea reaver takes no penalties when moving across slick surfaces, whether natural or magical (e.g., ‹spell/grease›, ‹spell/ice storm›, and ‹spell/sleet storm›). She is not at risk of falling, is not denied her Dexterity bonus when moving across such areas, and does not treat them as difficult terrain.\" replace=\"Improved uncanny dodge\"}",
 			"",
-			"**Savage Sailor (Ex):** At 3rd level, a sea reaver gains a +1 bonus on Acrobatics, Climb, Profession (sailor), Survival, and Swim checks made in aquatic terrain, including aboard a ship or along shorelines. These bonuses improve by +1 every three levels after 3rd.",
-			"",
-			"This ability replaces @HL[trap sense].",
-			"",
-			"**Sure-Footed (Ex):** At 5th level, a sea reaver takes no penalties when moving across slick surfaces, whether natural or magical (e.g., ‹spell/grease›, ‹spell/ice storm›, and ‹spell/sleet storm›). She is not at risk of falling, is not denied her Dexterity bonus when moving across such areas, and does not treat them as difficult terrain.",
-			"",
-			"This ability replaces @HL[improved uncanny dodge].",
-			"",
-			"**Rage Powers:** The following rage powers complement the sea reaver archetype: ‹ragepower/bestial leaper›, ‹ragepower/bestial swimmer›, ‹ragepower/come and get me›, ‹ragepower/hurling charge›, ‹ragepower/raging leaper›, ‹ragepower/raging swimmer›, ‹ragepower/rolling dodge›, ‹ragepower/smasher›."
+			"@HL[Rage Powers:] The following rage powers complement the sea reaver archetype: ‹ragepower/bestial leaper›, ‹ragepower/bestial swimmer›, ‹ragepower/come and get me›, ‹ragepower/hurling charge›, ‹ragepower/raging leaper›, ‹ragepower/raging swimmer›, ‹ragepower/rolling dodge›, ‹ragepower/smasher›."
 		]
 	},
 	"sharptooth": {
@@ -649,23 +627,15 @@
 			"‹SOURCE Ultimate Wilderness/39›  ",
 			"Coastal hunters and agents of the ocean's rage, sharptooth barbarians emulate the greatest predators of the sea. Sharks, in particular, are respected and admired by many such tribes, if not as manifestations of divine power, then merely as scions of the power and fury of the natural world.",
 			"",
-			"**Swim Like a Fish (Ex):** A sharptooth gains a swim speed of 10 feet. At 5th level and every 5 levels thereafter, her swim speed increases by 5 feet.",
+			"::ab[Swim Like a Fish (Ex)]{icon=power ability=\"A sharptooth gains a swim speed of 10 feet.\" imp5=\"The swim speed becomes 15 feet.\" imp10=\"The swim speed becomes 20 feet.\" imp15=\"The swim speed becomes 25 feet.\" imp20=\"The swim speed becomes 30 feet.\" replace=\"Fast movement\"}",
 			"",
-			"This replaces @HL[fast movement].",
+			"::ab[Scent of Blood (Ex)]{l=2 icon=power ability=\"A sharptooth gains ‹umr/scent›.\" imp5=\"She also gains ‹umr/keen scent›.\" replace=\"Uncanny dodge~improved uncanny dodge\"}",
 			"",
-			"**Scent of Blood (Ex):** At 2nd level, a sharptooth gains ‹umr/scent› as per the universal monster rule. At 5th level, she also gains ‹umr/keen scent› as per the universal monster rule.",
+			"::ab[Ocean Breath (Ex)]{l=3 icon=boost passive=\"A sharptooth gains a bonus equal to one-third her barbarian level. She adds this number to her Constitution score for the purposes of ‹misc/hold«ing» her breath›. She also adds it as a bonus on Constitution checks to continue holding her breath.\" replace=\"Trap sense\"}",
 			"",
-			"This replaces @HL[both uncanny dodge] and @HL[improved uncanny dodge].",
+			"::ab[Blood in the Water (Ex)]{l=6 icon=boost flavor=\"A sharptooth can tear the flesh from living creatures.\" passive=\"Her attacks add 3 points of ‹rule/bleed› damage while she is raging.\" imp12=\"This bleed damage increases to equal her Constitution modifier if it's higher.\" replace=\"6th- and 12th-level rage powers\"}",
 			"",
-			"**Ocean Breath (Ex):** At 3rd level, a sharptooth counts her Constitution score as 1 higher for the purposes of holding her breath. She also gains a +1 bonus on Constitution checks to continue holding her breath. This bonus and the addition to her effective Constitution score both increase by 1 at 6th level and every 3 levels thereafter, to a maximum bonus of +6 at 18th level.",
-			"",
-			"This replaces @HL[trap sense].",
-			"",
-			"**Blood in the Water (Ex):** At 6th level, a sharptooth can tear the flesh from living creatures. Her attacks add 3 points of bleed damage while she is raging. At 12th level, this bleed damage increases to equal her Constitution modifier if it's higher.",
-			"",
-			"This replaces the @HL[rage powers] normally gained at 6th and 12th levels.",
-			"",
-			"**Rage Powers:** The following rage powers complement the sharptooth archetype: ‹ragepower/animal fury›, ‹ragepower/bleeding blow›, ‹ragepower/contagious rage›, ‹ragepower/pack rage›, ‹ragepower/powerful blow›, ‹ragepower/primal scent›, ‹ragepower/raging swimmer›, ‹ragepower/scent›."
+			"@HL[Rage Powers:] The following rage powers complement the sharptooth archetype: ‹ragepower/animal fury›, ‹ragepower/bleeding blow›, ‹ragepower/contagious rage›, ‹ragepower/pack rage›, ‹ragepower/powerful blow›, ‹ragepower/primal scent›, ‹ragepower/raging swimmer›, ‹ragepower/scent›."
 		]
 	},
 	"shoanti_burn_rider": {
@@ -677,27 +647,17 @@
 			"‹SOURCE Inner Sea Combat/44›  ",
 			"The Shoanti tribes who live in the Cinderlands have turned the deadly emberstorms that plague the region into a rite of passage. A few who survive the experience begin to embrace the adrenaline and surge of joy that comes from dancing along the edge of a whirling firestorm. These thrill-seekers are known as burn riders, and their exploits are celebrated by all Shoanti. Burn riders learn early on that speed and lightning-quick reactions are essential to avoid becoming trapped by the fickle whims of a raging emberstorm. They have an uncanny understanding of fire and can read the currents in the smoke.",
 			"",
-			"**Flame Runner (Ex):** At 1st level, once per rage, a burn rider can goad her mount into a burst of incredible speed. The mount's speed increases by 10 feet until the end of the burn rider's turn. This bonus to speed increases by 10 feet at 9th level and again at 15th level.",
+			"::ab[Flame Runner (Ex)]{l=1 icon=boost usage=\"Once per rage\" flavor=\"A burn rider can goad her mount into a burst of incredible speed.\" ability=\"Her mount's speed increases by 10 feet until the end of the burn rider's turn.\" imp9=\"Her mount's speed now increases by 20 feet.\" imp15=\"Her mount's speed now increases by 30 feet.\" replace=\"Fast movement\"}",
 			"",
-			"This ability replaces @HL[fast movement].",
+			"::ab[Cinder Sight (Ex)]{l=2 icon=power passive=\"A Shoanti burn rider can see through fire, fog, and smoke without penalty as long as the light is sufficient to allow her to see normally.\" replace=\"Uncanny dodge\"}",
 			"",
-			"**Cinder Sight (Ex):** At 2nd level, a Shoanti burn rider can see through fire, fog, and smoke without penalty as long as the light is sufficient to allow her to see normally.",
+			"::ab[Cinder Dance (Ex)]{l=3 icon=power-def immediate=\"When a burn rider succeeds at a Reflex save to avoid fire damage, she can move up to half her speed. If the burn rider ends this movement outside the area of effect, she takes no damage from the effect.\" special=\"After this sudden movement, the burn rider is ‹misc/staggered› until the end of her next turn. If the burn rider is mounted, her mount makes the movement instead, and both the mount and the burn rider are staggered until the end of the burn rider's next turn.\" replace=\"Trap sense\"}",
 			"",
-			"This ability replaces @HL[uncanny dodge].",
+			"::ab[Mount]{l=4 icon=power ability=\"A burn rider gains a loyal mount. This ability functions like the druid's ‹sidekick/animal companion› ability, except that the burn rider always gains a ‹companion/horse› or ‹companion/pony› (though she can gain additional options at the GM's discretion) and her effective druid level is equal to her Shoanti burn rider level - 3.\" replace=\"4th, 8th, 12th, and 16th level rage powers\"}",
 			"",
-			"**Cinder Dance (Ex):** At 3rd level, when a burn rider succeeds at a Reflex save to avoid fire damage, she can spend an immediate action to move up to half her speed. If the burn rider ends this movement outside the area of effect, she takes no damage from the effect. After this sudden movement, the burn rider is staggered until the end of her next turn. If the burn rider is mounted, her mount makes the movement instead, and both the mount and the burn rider are staggered until the end of the burn rider's next turn.",
+			"::ab[Give Me Fire (Ex)]{l=5 icon=boost passive=\"If a Shoanti burn rider takes fire damage while raging, she regains 1 round of rage. The burn rider regains the round of rage only if the fire damage bypasses or exceeds any energy resistance or other protections in effect.\" special=\"The burn rider can only regain 1 round of rage per round.\" replace=\"Improved uncanny dodge\"}",
 			"",
-			"This ability replaces @HL[trap sense].",
-			"",
-			"**Mount:** At 4th level, a burn rider gains a loyal mount. This ability functions like the ‹class/druid«'s› ‹sidekick/animal companion› ability (as described in the nature bond class feature), except that the burn rider always gains a ‹companion/horse› or ‹companion/pony› (though she can gain additional options at the GM's discretion) and her effective druid level is equal to her Shoanti burn rider level - 3.",
-			"",
-			"This ability replaces the @HL[rage powers] gained at 4th, 8th, 12th, and 16th level.",
-			"",
-			"**Give Me Fire (Ex):** At 5th level, if a Shoanti burn rider takes fire damage while raging, she regains 1 round of rage. The burn rider regains the round of rage only if the fire damage bypasses or exceeds any energy resistance or other protections in effect. The burn rider can only regain 1 round of rage per round.",
-			"",
-			"This ability replaces @HL[improved uncanny dodge].",
-			"",
-			"**Rage Powers:** The following rage powers complement the Shoanti burn rider archetype: ‹ragepower/elemental rage›, ‹ragepower/energy resistance›, ‹ragepower/ferocious mount›, ‹ragepower/ferocious trample›, ‹ragepower/increased damage reduction›, ‹ragepower/low-light vision›, ‹ragepower/night vision›, ‹ragepower/renewed vigor›, ‹ragepower/scent›, ‹ragepower/spirit steed›, ‹ragepower/sprint›, ‹ragepower/swift foot›."
+			"@HL[Rage Powers:] The following rage powers complement the Shoanti burn rider archetype: ‹ragepower/elemental rage›, ‹ragepower/energy resistance›, ‹ragepower/ferocious mount›, ‹ragepower/ferocious trample›, ‹ragepower/increased damage reduction›, ‹ragepower/low-light vision›, ‹ragepower/night vision›, ‹ragepower/renewed vigor›, ‹ragepower/scent›, ‹ragepower/spirit steed›, ‹ragepower/sprint›, ‹ragepower/swift foot›."
 		]
 	},
 	"superstitious": {
@@ -709,15 +669,11 @@
 			"‹SOURCE Advanced Player's Guide/79›  ",
 			"Many barbarians distrust magic. While most just shy away from magic, others focus their rage on users of such foul arts. These barbarians are naturally distrusting, and develop keen senses to protect them from harm. A superstitious barbarian has the following class features.",
 			"",
-			"**Sixth Sense (Ex):** At 3rd level, the superstitious barbarian gains a +1 bonus on initiative and a +1 insight bonus to AC during surprise rounds. This bonus increases by +1 for every three levels after 3rd.",
+			"::ab[Sixth Sense (Ex)]{l=3 icon=boost passive=\"The superstitious barbarian gains a bonus on initiative and an insight bonus to AC during surprise rounds. These bonuses are equal to one-third of her barbarian level.\" replace=\"Trap sense\"}",
 			"",
-			"This ability replaces @HL[trap sense].",
+			"::ab[Keen Senses (Ex)]{icon=power l7=\"The superstitious barbarian gains ‹umr/low-light vision› (triple normal vision range in dim light if she already has low-light vision).\" l10=\"She gains ‹umr/darkvision› 60 feet (or adds 60 feet to the range of any darkvision already possessed).\" l13=\"She gains ‹umr/scent›.\" l16=\"She gains ‹umr/blindsense› 30 feet.\" l19=\"She gains ‹umr/blindsight› 30 feet.\" replace=\"Damage reduction\"}",
 			"",
-			"**Keen Senses (Ex):** At 7th level, the superstitious barbarian gains ‹umr/low-light vision› (triple normal vision range in dim light if she already has low-light vision). At 10th level, she gains ‹umr/darkvision› 60 feet (or adds 60 feet to the range of any darkvision already possessed). At 13th level, she gains ‹umr/scent›. At 16th level, she gains ‹umr/blindsense› 30 feet. At 19th level, she gains ‹umr/blindsight› 30 feet.",
-			"",
-			"This ability replaces @HL[damage reduction].",
-			"",
-			"**Rage Powers:** The following rage powers complement the superstitious archetype: ‹ragepower/clear mind›, ‹ragepower/disruptive›, ‹ragepower/roused anger›, ‹ragepower/spellbreaker›, ‹ragepower/superstition›, ‹ragepower/witch hunter›."
+			"@HL[Rage Powers:] The following rage powers complement the superstitious archetype: ‹ragepower/clear mind›, ‹ragepower/disruptive›, ‹ragepower/roused anger›, ‹ragepower/spellbreaker›, ‹ragepower/superstition›, ‹ragepower/witch hunter›."
 		]
 	},
 	"titan_mauler": {
@@ -730,27 +686,17 @@
 			"",
 			"In lands overrun by giants, dragons, and other hulking beasts, entire fellowships of barbarians hone tactics and traditions with one purpose - to bring low these massive foes. While her enemies' size makes the creatures strong, the titan mauler is even stronger, taking up weapons from her fallen foes that no lesser warrior can lift, and using them when she beseeches the spirits to grant her increased size and greater ferocity against her titanic foes.",
 			"",
-			"**Big Game Hunter (Ex):** A titan mauler gains a +1 bonus on attack rolls and a +1 dodge bonus to AC in melee with creatures larger than themselves.",
+			"::ab[Big Game Hunter (Ex)]{l=1 icon=def passive=\"A titan mauler gains a +1 bonus on attack rolls and a +1 dodge bonus to AC in melee with creatures larger than themselves.\" replace=\"Fast movement\"}",
 			"",
-			"This ability replaces @HL[fast movement].",
+			"::ab[Jotungrip (Ex)]{l=2 icon=power-down ability=\"A titan mauler may choose to wield a two-handed melee weapon in one hand with a -2 penalty on attack rolls while doing so. The weapon must be appropriately sized for her, and it is treated as one-handed when determining the effect of ‹feat/Power Attack›, Strength bonus to damage, and the like.\" replace=\"Uncanny dodge\"}",
 			"",
-			"**Jotungrip (Ex):** At 2nd level, a titan mauler may choose to wield a two-handed melee weapon in one hand with a -2 penalty on attack rolls while doing so. The weapon must be appropriately sized for her, and it is treated as one-handed when determining the effect of ‹feat/Power Attack›, Strength bonus to damage, and the like.",
+			"::ab[Massive Weapons (Ex)]{l=3 icon=power-down ability=\"A titan mauler becomes skilled in the use of massive weapons looted from her titanic foes. She can use two-handed weapons meant for creatures one size category larger, but the penalty for doing so is increased by 4. However, the attack roll penalty for using weapons too large for her size is reduced by an amount equal to one-third of her barbarian level (to a minimum of 0).\" replace=\"Trap sense\"}",
 			"",
-			"This ability replaces @HL[uncanny dodge].",
+			"::ab[Evade Reach (Ex)]{l=5 icon=def swift=\"A titan mauler may choose one creature within her line of sight. Until the end of her turn, that target's reach is treated as if it were 5 feet shorter with respect to reaching the titan mauler.\" imp10=\"The target's reach is treated as 10 feet shorter.\" imp15=\"The target's reach is treated as 15 feet shorter.\" imp20=\"The target's reach is treated as 20 feet shorter.\" replace=\"Improved uncanny dodge\"}",
 			"",
-			"**Massive Weapons (Ex):** At 3rd level, a titan mauler becomes skilled in the use of massive weapons looted from her titanic foes. She can use two-handed weapons meant for creatures one size category larger, but the penalty for doing so is increased by 4. However, the attack roll penalty for using weapons too large for her size is reduced by 1, and this reduction increases by 1 for every three levels beyond 3rd (to a minimum of 0).",
+			"::ab[Titanic Rage (Su)]{l=14 icon=boost-down ability=\"A titan mauler may choose to gain the benefits of ‹spell/enlarge person› when she enters a rage. While using *titanic rage,* she must spend 2 rounds of rage per round, and she becomes ‹misc/exhausted› rather than fatigued when the rage ends.\" replace=\"Indomitable will\"}",
 			"",
-			"This ability replaces @HL[trap sense].",
-			"",
-			"**Evade Reach (Ex):** At 5th level, as a swift action, a titan mauler may choose one creature within her line of sight. Until the end of her turn, that target's reach is treated as if it were 5 feet shorter with respect to reaching the titan mauler, and this reduction increases by 5 feet for every five levels beyond 5th.",
-			"",
-			"This ability replaces @HL[improved uncanny dodge].",
-			"",
-			"**Titanic Rage (Su):** At 14th level, a titan mauler may choose to gain the benefits of enlarge person when she enters a rage. While using titanic rage, she must spend 2 rounds of rage per round, and she becomes exhausted rather than fatigued when the rage ends.",
-			"",
-			"This ability replaces @HL[indomitable will].",
-			"",
-			"**Rage Powers:** The following rage powers complement the titan mauler archetype: ‹ragepower/body bludgeon›, ‹ragepower/greater ground breaker›, ‹ragepower/ground breaker›, ‹ragepower/knockback›, ‹ragepower/mighty swing›, ‹ragepower/powerful blow›, ‹ragepower/smasher›, ‹ragepower/strength surge›."
+			"@HL[Rage Powers:] The following rage powers complement the titan mauler archetype: ‹ragepower/body bludgeon›, ‹ragepower/greater ground breaker›, ‹ragepower/ground breaker›, ‹ragepower/knockback›, ‹ragepower/mighty swing›, ‹ragepower/powerful blow›, ‹ragepower/smasher›, ‹ragepower/strength surge›."
 		]
 	},
 	"totem_warrior": {
@@ -765,7 +711,7 @@
 					"‹SOURCE Advanced Player's Guide/79›  ",
 					"A barbarian often has a special totem that is the patron of her tribe. While individual totems vary, those in the tribe that call upon a totem receive similar abilities. Totem warrior barbarians can select from totem rage powers that match their totem.",
 					"",
-					"**Rage Powers:** The totem warrior is based entirely upon his totem rage powers. In addition to the totem powers themselves, the following rage powers complement the totem warrior archtype (depending on the totem chosen): ‹ragepower/animal fury›, ‹ragepower/low-light vision›, ‹ragepower/night vision›, ‹ragepower/raging climber›, ‹ragepower/raging leaper›, ‹ragepower/raging swimmer›, and ‹ragepower/swift foot›.",
+					"@HL[Rage Powers:] The totem warrior is based entirely upon his totem rage powers. In addition to the totem powers themselves, the following rage powers complement the totem warrior archtype (depending on the totem chosen): ‹ragepower/animal fury›, ‹ragepower/low-light vision›, ‹ragepower/night vision›, ‹ragepower/raging climber›, ‹ragepower/raging leaper›, ‹ragepower/raging swimmer›, and ‹ragepower/swift foot›.",
 					"",
 					"### Totem Rage Powers",
 					"",
@@ -794,19 +740,15 @@
 			"‹SOURCE Ultimate Combat/30›  ",
 			"Isolated and xenophobic tribes that dwell in areas untouched by civilization often see anything from cities and organized settlements as strange, dangerous, and decadent. They gain power from their truly primitive nature; their bodies and spirits are hardened by the wild and untainted existence far from the pathetic softness of so-called civilization. Even when forced to mingle with civilization, the true primitive stays apart in both traditions and trappings.",
 			"",
-			"**Weapon and Armor Proficiency:** A true primitive is proficient with ‹eq-armor/hide armor› and armors made from ‹eq-material/bone›. A true primitive is also proficient with bone shields and the following weapons: ‹eq-weapon/battleaxe›, ‹eq-weapon/blowgun›, ‹eq-weapon/club›, ‹eq-weapon/greatclub›, ‹eq-weapon/handaxe›, ‹eq-weapon/longspear›, ‹eq-weapon/shortspear›, ‹eq-weapon/sling›, and ‹eq-weapon/spear›.",
+			"::ab[Weapon and Armor Proficiency]{icon=down note=\"A true primitive is proficient with ‹eq-armor/hide armor› and armors made from ‹eq-material/bone›. A true primitive is also proficient with bone shields and the following weapons: ‹eq-weapon/battleaxe›, ‹eq-weapon/blowgun›, ‹eq-weapon/club›, ‹eq-weapon/greatclub›, ‹eq-weapon/handaxe›, ‹eq-weapon/longspear›, ‹eq-weapon/shortspear›, ‹eq-weapon/sling›, and ‹eq-weapon/spear›.\" alter=\"The barbarian's armor and weapon proficiencies\"}",
 			"",
-			"**Illiteracy:** A true primitive cannot read or write, and her superstition about such things leads her to refuse to ever learn to read or write, even if she multiclasses into other classes.",
+			"::ab[Illiteracy]{icon=down note=\"A true primitive cannot read or write, and her superstition about such things leads her to refuse to ever learn to read or write, even if she multiclasses into other classes.\"}",
 			"",
-			"**Favored Terrain (Ex):** A true primitive has a ‹ability/favored terrain› representing her native homeland. This ability functions as the ‹class/ranger› class feature, and the true primitive's bonuses in that terrain improve by +2 at 5th level and every five levels thereafter. However, she does not gain any additional favored terrains.",
+			"::ab[Favored Terrain (Ex)]{icon=power ability=\"A true primitive has a ‹ability/favored terrain› representing her native homeland. This ability functions as the ranger class feature, and the true primitive's bonuses in that terrain improve by +2 at 5th level and every five levels thereafter. However, she does not gain any additional favored terrains.\" replace=\"Fast movement\"}",
 			"",
-			"This ability replaces @HL[fast movement].",
+			"::ab[Trophy Fetish (Ex)]{l=3 flavor=\"A true primitive collects teeth, bones, hair, and other trophies from vanquished enemies, representing their power and strength.\" icon=boost-def ability=\"A true primitive can attach a trophy fetish to one of the traditional true primitive weapons listed above. When wielding that weapon, the true primitive gains a +1 morale bonus on damage rolls. Furthermore, if that weapon has the ‹misc/fragile› property, once per day, the true primitive can ignore the effects of a single natural 1 roll. A trophy fetish can also be attached to a suit of hide or bone armor, granting the true primitive a +1 morale bonus on saving throws. Furthermore, if that armor has the fragile property, once per day, the true primitive can chose not to have the armor break on the confirmation of a critical hit made against her.\" imp8=\"A true primitive can use one additional trophy fetish. Multiple trophy fetishes can be attached to the same armor or weapon; their effects stack.\" imp13=\"She can now use three trophy fetishes.\" imp18=\"She can now use four trophy fetishes.\" special=\"A trophy fetish can be sundered (hardness 5, 1 hit point) but is not damaged by area attacks or attacks that do not specifically target it. It has no effect if attached to other types of weapons or armor.\" replace=\"Trap sense\"}",
 			"",
-			"**Trophy Fetish (Ex):** A true primitive collects teeth, bones, hair, and other trophies from vanquished enemies, representing their power and strength. At 3rd level, a true primitive can attach a trophy fetish to one of the traditional true primitive weapons listed above. When wielding that weapon, the true primitive gains a +1 morale bonus on damage rolls. Furthermore, if that weapon has the ‹misc/fragile› property, once per day, the true primitive can ignore the effects of a single natural 1 roll. A trophy fetish can also be attached to a suit of hide or bone armor, granting the true primitive a +1 morale bonus on saving throws. Furthermore, if that armor has the fragile property, once per day, the true primitive can chose not to have the armor break on the confirmation of a critical hit made against her. Every five levels beyond 3rd, a true primitive can use an additional trophy fetish. Multiple trophy fetishes can be attached to the same armor or weapon; their effects stack. A trophy fetish can be sundered (hardness 5, 1 hit point) but is not damaged by area attacks or attacks that do not specifically target it. It has no effect if attached to other types of weapons or armor.",
-			"",
-			"This ability replaces @HL[trap sense].",
-			"",
-			"**Rage Powers:** The following rage powers complement the true primitive archetype: ‹ragepower/animal fury›, ‹ragepower/eater of magic›, ‹ragepower/ghost rager›, ‹ragepower/low-light vision›, ‹ragepower/night vision›, ‹ragepower/primal scent›, ‹ragepower/scent›, ‹ragepower/spell sunder›, ‹ragepower/sunder enchantment›, ‹ragepower/superstition›, ‹ragepower/witch hunter›."
+			"@HL[Rage Powers:] The following rage powers complement the true primitive archetype: ‹ragepower/animal fury›, ‹ragepower/eater of magic›, ‹ragepower/ghost rager›, ‹ragepower/low-light vision›, ‹ragepower/night vision›, ‹ragepower/primal scent›, ‹ragepower/scent›, ‹ragepower/spell sunder›, ‹ragepower/sunder enchantment›, ‹ragepower/superstition›, ‹ragepower/witch hunter›."
 		]
 	},
 	"untamed_rager": {
@@ -818,21 +760,13 @@
 			"‹SOURCE Dirty Tactics Toolbox/15›  ",
 			"There are no rules in the wild. Some barbarians enter combat with only victory in mind and do anything in their power to achieve it.",
 			"",
-			"**Despicable Tactics:** At 2nd level, the untamed rager gains ‹feat/Improved Dirty Trick› as a bonus feat.",
+			"::ab[Despicable Tactics]{l=2 icon=power ability=\"The untamed rager gains ‹feat/Improved Dirty Trick› as a bonus feat.\" replace=\"Uncanny dodge\"}",
 			"",
-			"This ability replaces @HL[uncanny dodge].",
+			"::ab[Feral Appearance (Ex)]{l=3 icon=boost passive=\"The untamed rager gains a bonus on Intimidate checks equal to one-third of her barbarian level.\" replace=\"Trap sense\"}",
 			"",
-			"**Feral Appearance (Ex):** At 3rd level, the untamed rager gains a +1 bonus on Intimidate checks. This bonus increases by 1 every 3 barbarian levels thereafter.",
+			"::ab[Deplorable Tactics]{l=5 icon=power ability=\"The untamed rager gains ‹feat/Greater Dirty Trick› as a bonus feat.\" replace=\"Improved uncanny dodge\"}",
 			"",
-			"This ability replaces @HL[trap sense].",
-			"",
-			"**Deplorable Tactics:** At 5th level, the untamed rager gains ‹feat/Greater Dirty Trick› as a bonus feat.",
-			"",
-			"This ability replaces @HL[improved uncanny dodge].",
-			"",
-			"**Dishonorable (Ex):** At 7th level and every 3 barbarian levels thereafter, the untamed rager gains a +1 bonus on combat maneuver checks when performing dirty tricks and to her CMD to resist others' dirty tricks.",
-			"",
-			"This ability replaces @HL[damage reduction]."
+			"::ab[Dishonorable (Ex)]{l=7 icon=boost-melee-def passive=\"The untamed rager gains a +1 bonus on combat maneuver checks when performing dirty tricks and to her CMD to resist others' dirty tricks.\" imp10=\"This bonus becomes +2.\" imp13=\"This bonus becomes +3.\" imp16=\"This bonus becomes +4.\" imp19=\"This bonus becomes +5.\" replace=\"Damage reduction\"}"
 		]
 	},
 	"urban_barbarian": {
@@ -844,19 +778,15 @@
 			"‹SOURCE Ultimate Combat/31›  ",
 			"Every barbarian knows that city life can soften the spirit and the body, but some barbarians take on the trappings and ways of their adoptive homes and bend their savage powers to its challenges. While these urban barbarians' rough edges are smoothed into civility, they can use their primal nature and upbringing to move with the ebb and flow of civilization's natural rhythms.",
 			"",
-			"**Weapon and Armor Proficiency:** An urban barbarian is not proficient with medium armor.",
+			"::ab[Weapon and Armor Proficiency]{icon=down passive=\"An urban barbarian is not proficient with medium armor.\"}",
 			"",
-			"**Skills:** An urban barbarian does not gain Handle Animal (Cha), Knowledge (nature) (Int), or Survival (Wis) as class skills; instead, she gains Diplomacy (Cha), Knowledge (local) (Int), Knowledge (nobility) (Int), Linguistics (Int), and Profession (Wis) as class skills.",
+			"::ab[Skills]{icon=skill passive=\"An urban barbarian does not gain Handle Animal, Knowledge (nature), or Survival as class skills; instead, she gains Diplomacy (Cha), Knowledge (local) (Int), Knowledge (nobility) (Int), Linguistics (Int), and Profession (Wis) as class skills.\"}",
 			"",
-			"**Crowd Control (Ex):** At 1st level, an urban barbarian gains a +1 bonus on attack rolls and a +1 dodge bonus to AC when adjacent to two or more enemies. In addition, her movement is not impeded by crowds, and she gains a bonus equal to 1/2 her barbarian level on Intimidate checks to influence crowds.",
+			"::ab[Crowd Control (Ex)]{l=1 icon=boost-def passive=\"An urban barbarian gains a +1 bonus on attack rolls and a +1 dodge bonus to AC when adjacent to two or more enemies. In addition, her movement is not impeded by crowds, and she gains a bonus equal to 1/2 her barbarian level on Intimidate checks to influence crowds.\" replace=\"Fast movement\"}",
 			"",
-			"This ability replaces @HL[fast movement].",
+			"::ab[Controlled Rage (Ex)]{icon=boost-down ability=\"When an urban barbarian rages, instead of making a normal rage she applies a +4 morale bonus to her Strength, Dexterity, or Constitution. This bonus increases to +6 when she gains *greater rage* and +8 when she gains *mighty rage.* She may apply the full bonus to one ability score or may split the bonus between several scores in increments of +2. When using a controlled rage, an urban barbarian gains no bonus on Will saves, takes no penalties to AC, and can still use Intelligence-, Dexterity-, and Charisma-based skills. This ability otherwise follows the normal rules for rage.\" alter=Rage}",
 			"",
-			"**Controlled Rage (Ex):** When an urban barbarian rages, instead of making a normal rage she applies a +4 morale bonus to her Strength, Dexterity, or Constitution. This bonus increases to +6 when she gains greater rage and +8 when she gains mighty rage. She may apply the full bonus to one ability score or may split the bonus between several scores in increments of +2. When using a controlled rage, an urban barbarian gains no bonus on Will saves, takes no penalties to AC, and can still use Intelligence-, Dexterity-, and Charisma-based skills. This ability otherwise follows the normal rules for rage.",
-			"",
-			"This ability alters @HL[rage].",
-			"",
-			"**Rage Powers:** The following rage powers complement the urban barbarian archetype: ‹ragepower/boasting taunt›, ‹ragepower/clear mind›, ‹ragepower/deadly accuracy›, ‹ragepower/guarded stance›, ‹ragepower/intimidating glare›, ‹ragepower/lethal accuracy›, ‹ragepower/no escape›, ‹ragepower/quick reflexes›, ‹ragepower/perfect clarity›, ‹ragepower/sharpened accuracy›, ‹ragepower/surprise accuracy›, ‹ragepower/unexpected strike›."
+			"@HL[Rage Powers:] The following rage powers complement the urban barbarian archetype: ‹ragepower/boasting taunt›, ‹ragepower/clear mind›, ‹ragepower/deadly accuracy›, ‹ragepower/guarded stance›, ‹ragepower/intimidating glare›, ‹ragepower/lethal accuracy›, ‹ragepower/no escape›, ‹ragepower/quick reflexes›, ‹ragepower/perfect clarity›, ‹ragepower/sharpened accuracy›, ‹ragepower/surprise accuracy›, ‹ragepower/unexpected strike›."
 		]
 	},
 	"wild_rager": {
@@ -868,17 +798,13 @@
 			"‹SOURCE Ultimate Combat/31›  ",
 			"Rages are barely controlled, but there are those who wholly give in to their more savage side, letting their rages take them to a confusing and uncontrolled place of terrible savagery. These barbarians become beasts, consumed with absolute bloodlust to the point where they cannot tell friend from foe.",
 			"",
-			"**Uncontrolled Rage (Ex):** A wild rager's rage functions as normal, except that when she reduces a creature to 0 or fewer hit points, she must attempt a Will save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) or become confused. For the remainder of her current turn, she attacks the nearest creature other than herself. On the following round, refer to the ‹spell/confusion› spell to determine her actions. At the end of this round, and each round thereafter, she can attempt a new saving throw to end the confusion effect. The rounds during which she is confused do not count against the rounds she has spent raging that day, but she cannot end her rage voluntarily, nor can she use rage powers while confused.",
+			"::ab[Uncontrolled Rage (Ex)]{icon=down passive=\"A wild rager's rage functions as normal, except that when she reduces a creature to 0 or fewer hit points, she must attempt a Will save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) or become *confused.* For the remainder of her current turn, she attacks the nearest creature other than herself. On the following round, refer to the ‹spell/confusion› spell to determine her actions. At the end of this round, and each round thereafter, she can attempt a new saving throw to end the confusion effect.\" special=\"The rounds during which she is confused do not count against the rounds she has spent raging that day, but she cannot end her rage voluntarily, nor can she use rage powers while confused.\"}",
 			"",
-			"**Wild Fighting (Ex):** At 2nd level, even when not raging, wild ragers often fight with reckless, savage abandon. A wild rager using the full-attack action can make one extra attack per round at her highest base attack bonus. Until the beginning of her next turn, however, she takes a -2 penalty on attack rolls and -4 penalty to AC.",
+			"::ab[Wild Fighting (Ex)]{l=2 icon=boost-down flavor=\"Even when not raging, wild ragers often fight with reckless, savage abandon.\" ability=\"A wild rager using the full-attack action can make one extra attack per round at her highest base attack bonus. Until the beginning of her next turn, however, she takes a -2 penalty on attack rolls and -4 penalty to AC.\" replace=\"Uncanny dodge\"}",
 			"",
-			"This ability replaces @HL[uncanny dodge].",
+			"::ab[Rage Conversion (Ex)]{l=5 icon=def passive=\"A wild rager who fails a saving throw against any mind-affecting effect can attempt a new saving throw at the beginning of her next turn. If the save succeeds, that effect ends and she instead rages and becomes confused as noted above.\" replace=\"Improved uncanny dodge\"}",
 			"",
-			"**Rage Conversion (Ex):** At 5th level, a wild rager who fails a saving throw against any mind-affecting effect can attempt a new saving throw at the beginning of her next turn. If the save succeeds, that effect ends and she instead rages and becomes confused as noted above.",
-			"",
-			"This ability replaces @HL[improved uncanny dodge].",
-			"",
-			"**Rage Powers:** The following rage powers complement the wild rager archetype: ‹ragepower/animal fury›, ‹ragepower/bleeding blow›, ‹ragepower/body bludgeon›, ‹ragepower/brawler›, ‹ragepower/crippling blow›, ‹ragepower/greater brawler›, ‹ragepower/intimidating glare›, ‹ragepower/mighty swing›, ‹ragepower/no escape›, ‹ragepower/powerful blow›, ‹ragepower/quick reflexes›."
+			"@HL[Rage Powers:] The following rage powers complement the wild rager archetype: ‹ragepower/animal fury›, ‹ragepower/bleeding blow›, ‹ragepower/body bludgeon›, ‹ragepower/brawler›, ‹ragepower/crippling blow›, ‹ragepower/greater brawler›, ‹ragepower/intimidating glare›, ‹ragepower/mighty swing›, ‹ragepower/no escape›, ‹ragepower/powerful blow›, ‹ragepower/quick reflexes›."
 		]
 	},
 	"wildborn": {
@@ -890,25 +816,17 @@
 			"‹SOURCE Ultimate Wilderness/39›  ",
 			"Some barbarians are born or bred outside the reach of civilization. These wildborn fight and survive without ever seeing a forge or worked stone, and only dare a trip into the city when no other option is available.",
 			"",
-			"**Weapon and Armor Proficiency:** A wildborn is proficient with leather and hide armors (but not shields) and all simple weapons that can be crafted from bone, stone, or wood. In addition, a wildborn gains ‹feat/Improved Unarmed Strike› and ‹feat/Catch Off-Guard› as bonus feats at 1st level. If she uses any other kind of weapon or armor, she loses her abilities from this archetype (except illiteracy) for the next 24 hours.",
+			"::ab[Weapon and Armor Proficiency]{icon=down-power passive=\"A wildborn is proficient with leather and hide armors (but not shields) and all simple weapons that can be crafted from bone, stone, or wood. If she uses any other kind of weapon or armor, she loses her abilities from this archetype (except illiteracy) for the next 24 hours.\" order=pa ability=\"A wildborn gains ‹feat/Improved Unarmed Strike› and ‹feat/Catch Off-Guard› as bonus feats.\" alter=\"The barbarian's normal weapon and armor proficiencies\"}",
 			"",
-			"This alters @HL[the barbarian's normal weapon and armor proficiencies].",
+			"::ab[Illiteracy]{icon=down note=\"A wildborn cannot read or write. She can learn to read or write a language only if she takes a level in another class, and even then only by taking 1 or more ranks in Linguistics.\"}",
 			"",
-			"**Illiteracy:** A wildborn cannot read or write. She can learn to read or write a language only if she takes a level in another class, and even then only by taking 1 or more ranks in Linguistics.",
+			"::ab[Live Off the Land (Ex)]{l=3 icon=boost passive=\"A wildborn adds half her barbarian level as a bonus on Survival checks to hunt or gather food and gains a bonus on Fortitude saves to resist the effects of extreme temperatures or other environmental effects; the Fortitude save bonus is equal to one-third of her barbarian level.\" replace=\"Trap sense\"}",
 			"",
-			"**Live Off the Land (Ex):** At 3rd level, a wildborn can survive capably in the wilderness without any sort of manufactured equipment or gear. She adds half her barbarian level as a bonus on Survival checks to hunt or gather food and gains a +1 bonus on Fortitude saves to resist the effects of extreme temperatures or other environmental effects; the Fortitude save bonus increases by 1 at 6th level and every 3 levels thereafter.",
+			"::ab[Bonus Feats]{icon=power special=\"At 4th level, 10th level and 16th level, a wildborn can choose a bonus feat from the following rather than select a rage power: ‹feat/Alertness›, ‹feat/Animal Affinity›, ‹feat/Athletic›, ‹feat/Great Fortitude›, ‹feat/Improvised Weapon Mastery›, ‹feat/Iron Will›, ‹feat/Lightning Reflexes›, ‹feat/Self-Sufficient›, ‹feat/Stealthy›, or ‹feat/Throw Anything›.\" alter=\"Rage powers\"}",
 			"",
-			"This replaces @HL[trap sense].",
+			"::ab[Inexhaustible (Ex)]{icon=aid-def l=7 passive=\"A wildborn recovers nonlethal damage for each minute of rest as if an hour had passed. She applies twice her damage reduction gained from barbarian levels against nonlethal damage.\" alter=\"Damage reduction\"}",
 			"",
-			"**Bonus Feats:** At 4th level, 10th level and 16th level, a wildborn can choose a bonus feat from the following rather than select a rage power: ‹feat/Alertness›, ‹feat/Animal Affinity›, ‹feat/Athletic›, ‹feat/Great Fortitude›, ‹feat/Improvised Weapon Mastery›, ‹feat/Iron Will›, ‹feat/Lightning Reflexes›, ‹feat/Self-Sufficient›, ‹feat/Stealthy›, or ‹feat/Throw Anything›.",
-			"",
-			"This alters @HL[rage powers].",
-			"",
-			"**Inexhaustible (Ex):** Wildborn live ruggedly and sleep lightly. At 7th level, a wildborn recovers nonlethal damage for each minute of rest as if an hour had passed. She applies twice her damage reduction gained from barbarian levels against nonlethal damage.",
-			"",
-			"This alters @HL[damage reduction].",
-			"",
-			"**Rage Powers:** The following rage powers complement the wildborn archetype: ‹ragepower/animal fury›, ‹ragepower/beast totem›, ‹ragepower/bestial climber›, ‹ragepower/bestial swimmer›, ‹ragepower/greater beast totem›, ‹ragepower/lesser beast totem›, ‹ragepower/low-light vision›, ‹ragepower/raging climber›, ‹ragepower/raging leaper›, ‹ragepower/raging swimmer›, ‹ragepower/swift foot›."
+			"@HL[Rage Powers:] The following rage powers complement the wildborn archetype: ‹ragepower/animal fury›, ‹ragepower/beast totem›, ‹ragepower/bestial climber›, ‹ragepower/bestial swimmer›, ‹ragepower/greater beast totem›, ‹ragepower/lesser beast totem›, ‹ragepower/low-light vision›, ‹ragepower/raging climber›, ‹ragepower/raging leaper›, ‹ragepower/raging swimmer›, ‹ragepower/swift foot›."
 		]
 	}
 }
