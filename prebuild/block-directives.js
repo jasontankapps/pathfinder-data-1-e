@@ -16,6 +16,7 @@ import makeSpellListBlock from './block/spelllist.js';
 import makeListBlock from './block/list.js';
 import { makeClassBlock, makeProfBlock } from './block/class.js';
 import makeCapstoneBlock from './block/altCapstone.js';
+import makeRoomBlock from './block/room.js';
 
 const churn = (n, attrs, list, regex, logError) => {
 	const found = [];
@@ -502,6 +503,18 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					convertEncodedInfo,
 					maybeClear, attrs
 				});
+			} else if (n === "room") {
+				// Rooms
+				churn(n, attrs, [
+					"clear",
+					"eGp", "eGoods", "eMagic", "eInfluence", "eLabor", "e",
+					"cGoods", "cMagic", "cInfluence", "cLabor", "c",
+					"benefit", "t", "s1", "s2",
+					"earnings", "create", "time", "to", "from"
+				], [], logError);
+				const marked2 = makeNewMarkedInstance();
+				const id = prefix + makeValidID(text + "-room");
+				return makeRoomBlock({marked2, convertEncodedInfo, id, maybeClear, text, attrs, logError});
 			}
 			return false;
 		}

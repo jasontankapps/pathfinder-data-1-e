@@ -1076,5 +1076,1175 @@
 	"poor_saves": { "redirect": "good_saves" },
 	"good_saving_throws": { "redirect": "good_saves" },
 	"bad_saving_throws": { "redirect": "good_saves" },
-	"poor_saving_throws": { "redirect": "good_saves" }
+	"poor_saving_throws": { "redirect": "good_saves" },
+	"alchemy_lab": {
+		"name": "Alchemy Lab",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/94›",
+			"",
+			"::room[Alchemy Lab]{eGp eGoods eMagic e=10 benefit=\"Counts as an ‹eq-misc/alchemist's lab›\" cGoods=8 cInfluence=1 cMagic=1 cLabor=5 c=390 t=16 s1=8 s2=16}",
+			"",
+			"This room aids you when you're attempting Craft (alchemy) checks, researching new alchemist formulae, and performing similar alchemical tasks. Up to three people can use the room at a time."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"altar": {
+		"name": "Altar",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/94›",
+			"",
+			"::room[Altar]{eInfluence e=3 benefit=\"Counts as a permanent fixture dedicated to your deity for the purpose of ‹spell/consecrate› and similar spells\" cGoods=2 cInfluence=1 cMagic=1 cLabor=2 c=210 t=4 s1=2 s2=8}",
+			"",
+			"This spiritual focal point has the iconography and materials required for a ceremony. A typical Altar takes the form of a stone altar, but it could also be a sacred pool, a sacrificial pyre, a collection of statuettes, or a similar sacred convergence."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"animal_pen": {
+		"name": "Animal Pen",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/94›",
+			"",
+			"::room[Animal Pen]{eGp eGoods eLabor e=8 cGoods=6 cInfluence=1 cLabor=5 c=250 t=16 s1=4 s2=16 to=Habitat}",
+			"",
+			"An Animal Pen houses animals that need more attention than horses and cattle. It could be used to house animals for food (like chickens or pigs), display (like song birds or reptiles), or protection (like dogs or large cats). One animal pen can support 1 Large, 2 Medium, 4 Small, or 8 Tiny or smaller creatures, providing them with water and shelter. Food is not provided."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"armory": {
+		"name": "Armory",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/94›",
+			"",
+			"::room[Armory]{benefit=\"Provides for 1 Bunks or Guard Post, hastens donning armor\" cGoods=9 cInfluence=3 cLabor=6 c=390 t=16 s1=5 s2=15}",
+			"",
+			"An Armory stores a variety of armor and weapons, providing enough equipment to supply one Bunks or Guard Post with common equipment (the guards or soldiers leave their armor and weapons here, and you don't have to pay for individual equipment for them as long as this room is not broken). The room is typically supplied with medium armor and appropriate martial weapons for the guards or soldiers in the building. The Armory contains an array of helpful tools to allow you to don armor in the time it normally takes to don hastily."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"artisans_workshop": {
+		"name": "Artisan's Workshop",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/94›",
+			"",
+			"::room[Artisan's Workshop]{eGp eGoods eInfluence e=10 benefit=\"Counts as ‹eq-misc/masterwork artisan's tools› for one Craft skill\" cGoods=9 cLabor=9 c=360 t=20 s1=8 s2=16}",
+			"",
+			"This specialist's workshop provides a variety of tools and materials for a particular art form, such as glassworking, gemcutting, or sculpting, which you choose when you build the room. Up to three people can use the room at a time."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"auditorium": {
+		"name": "Auditorium",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/94›",
+			"",
+			"::room[Auditorium]{eGp eInfluence e=15 benefit=\"Bonus on Perform checks\" cGoods=19 cInfluence=1 cLabor=25 c=910 t=40 s1=40 s2=100 from=Ballroom}",
+			"",
+			"This large room is used for various artistic performances. It contains a stage, costumes, instruments, and seating for an audience. The superior acoustics and decor grant a +2 bonus on all Perform checks made in this room."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"ballroom": {
+		"name": "Ballroom",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/94›",
+			"",
+			"::room[Ballroom]{eGp eInfluence e=10 benefit=\"Bonus on Perform checks\" cGoods=19 cLabor=19 c=760 t=40 s1=40 s2=60 to=Auditorium from=\"Common Room\"}",
+			"",
+			"This large open room is intended for dances, receptions, and other elaborate events. The superior acoustics and decor grant a +2 bonus on all Perform checks made in this room."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"bar": {
+		"name": "Bar",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/95›",
+			"",
+			"::room[Bar]{eGp eInfluence e=10 benefit=\"Bonus on Diplomacy checks to gather information\" cGoods=6 cInfluence=1 cLabor=5 c=250 t=16 s1=10 s2=20}",
+			"",
+			"A Bar stores a selection of drinks and includes a counter for preparing them. After spending an hour with local people in this room, for the next 24 hours you gain a +1 bonus on Diplomacy checks you make to gather information in the settlement."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"bath": {
+		"name": "Bath",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/95›",
+			"",
+			"::room[Bath]{eGp eInfluence e=3 benefit=\"Bonus on Fortitude saves against disease\" cGoods=3 cInfluence=1 cLabor=2 c=130 t=8 s1=3 s2=6 from=Sauna}",
+			"",
+			"A Bath contains a single large bathtub or multiple smaller basins, along with a stove for heating water. After spending 1 hour in this room, you gain a +2 bonus on your next ongoing Fortitude save against disease."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"battle_ring": {
+		"name": "Battle Ring",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/95›",
+			"",
+			"::room[Battle Ring]{eGp eInfluence e=15 benefit=\"Contestant gains a bonus on Intimidate and ‹rule/performance combat› checks\" cGoods=18 cInfluence=4 cLabor=16 c=800 t=40 s1=40 s2=100 to=\"Sports Field\"}",
+			"",
+			"This enclosed field is used for some form of dangerous contest, from nonlethal sports like wrestling or boxing to lethal blood sports such as animal fights or gladiatorial combat. It includes seating for spectators, appropriate flooring (padded or sandy), and often some manner of barrier between the audience and combatants. Each day, the person in charge of the Battle Ring can grant one combatant a +2 bonus on Intimidate and performance combat checks. This benefit applies only within the settlement."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"bedroom": {
+		"name": "Bedroom",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/95›",
+			"",
+			"::room[Bedroom]{eGp eInfluence e=3 cGoods=8 cLabor=7 c=300 t=20 s1=4 s2=8}",
+			"",
+			"A Bedroom provides comfort and privacy for one to two people, and typically features one large bed or two smaller beds. Many also have furnishings or features, such as chairs, wardrobes, chests, tables, or small fireplaces. A Bedroom might be the sleeping place of a building's owner or a comfortable room for rent."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"bell_tower": {
+		"name": "Bell Tower",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/95›",
+			"",
+			"::room[Bell Tower]{earnings=\"Capital +1 (of a type the building already generates)\" cGoods=11 cInfluence=3 cLabor=7 c=450 t=28 s1=9 s2=25}",
+			"",
+			"This two-story room contains one or more bells suitable for warnings or music, along with bell pulls for operating the instruments from below. The bells can be heard up to 1 mile away."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"book_repository": {
+		"name": "Book Repository",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/95›",
+			"",
+			"::room[Book Repository]{eGp eInfluence e=8 benefit=\"Bonus on Knowledge checks of one type\" cGoods=8 cInfluence=2 cMagic=1 cLabor=7 c=460 t=16 s1=4 s2=12 to=\"Magical Repository\"}",
+			"",
+			"A Book Repository contains shelves upon shelves of books, in addition to chairs, desks, and tables for reading and studying. Most repositories contain books on a wide array of topics providing a general wealth of information, but some contain books focused on a specific topic. When you construct a Book Repository, select one Knowledge skill. If someone has a question relating to that Knowledge skill and is able to spend 1 hour researching in the Book Repository, she gains a +3 bonus on the Knowledge check to answer the question."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"brewery": {
+		"name": "Brewery",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/95›",
+			"",
+			"::room[Brewery]{eGp eInfluence e=10 cGoods=9 cInfluence=2 cLabor=7 c=380 t=24 s1=12 s2=24}",
+			"",
+			"A Brewery allows you to ferment or distill ingredients such as fruits and grain to create potent beverages."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"bunks": {
+		"name": "Bunks",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/95›",
+			"",
+			"::room[Bunks]{eGp eLabor e=8 cGoods=7 cInfluence=4 cLabor=7 c=400 t=24 s1=15 s2=35 to=Lodging}",
+			"",
+			"Bunks provide housing and limited storage for up to 10 people. Though hardly private, this space typically includes beds or cots, linens, small chests with poor locks, and chamber pots. If this room is part of an Inn, the building is more of a flophouse or hostel than a traveler's hotel, which would have private rooms. If part of a Hospital, this room houses patients."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"burial_ground": {
+		"name": "Burial Ground",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/95›",
+			"",
+			"::room[Burial Ground]{eGp eInfluence e=4 benefit=\"Prevents or creates undead\" cGoods=4 cInfluence=3 cMagic=1 cLabor=4 c=350 t=8 s1=20 s2=30 to=Crypt}",
+			"",
+			"This somber plot of land is dedicated to the internment of the dead. Up to 20 Medium or smaller corpses can be buried here, their plots clearly marked by gravestones, statues, or other markers. For an additional 200 gp, this area can be consecrated as holy or unholy ground. A corpse buried in holy ground cannot be animated as an undead creature. A corpse buried in unholy ground has a 5% chance every month of reanimating as an uncontrolled zombie. If you upgrade a Burial Ground, the area retains the consecration effect."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"cell": {
+		"name": "Cell",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/96›",
+			"",
+			"::room[Cell]{cGoods=5 cLabor=4 c=180 t=16 s1=1 s2=9}",
+			"",
+			"This uncomfortable room can imprison 1 to 4 captives. It is typically nothing more than a stone room with a straw-lined floor, though some might have the barest of comforts, like cots or chamber pots. One wall is typically constructed of sturdy bars and a door affixed with a simple lock. You can install manacles or masterwork manacles at the normal price of those items."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"ceremonial_room": {
+		"name": "Ceremonial Room",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/96›",
+			"",
+			"::room[Ceremonial Room]{earnings=\"Capital +10\" benefit=\"Bonus on Bluff, Diplomacy, and Intimidate checks (see below)\" cGoods=16 cInfluence=2 cMagic=5 cLabor=15 c=1180 t=40 s1=40 s2=100 to=\"Throne Room\" from=\"Common Room\"}",
+			"",
+			"This is a large, open room for important events such as religious services, town meetings, and weddings. It often features an elevated area for the focus or leader of the event, and might have seats for others in attendance. A person leading or officially speaking at the event gains a +1 bonus on Bluff, Diplomacy, and Intimidate checks to influence others at the event. This bonus ends when the event ends."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"classroom": {
+		"name": "Classroom",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/96›",
+			"",
+			"::room[Classroom]{earnings=\"Capital +8\" cGoods=6 cInfluence=1 cLabor=5 c=250 t=14 s1=5 s2=20}",
+			"",
+			"This small meeting place gives numerous attendees an unobstructed view of a single lecturer. Many classrooms contain seating for those in attendance, a lectern, and a display table or chalkboard."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"clockwork_shop": {
+		"name": "Clockwork Shop",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/96›",
+			"",
+			"::room[Clockwork Shop]{eGp eGoods eLabor e=10 benefit=\"Counts as ‹eq-misc/masterwork artisan's tools› for Craft (clockwork)\" cGoods=9 cLabor=9 c=360 t=20 s1=8 s2=16}",
+			"",
+			"This workshop provides all of the precision tools and workstations required for creating delicate clockwork goods. Up to three people can use the room at a time."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"common_room": {
+		"name": "Common Room",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/96›",
+			"",
+			"::room[Common Room]{eGp eInfluence e=7 cGoods=7 cLabor=8 c=300 t=16 s1=10 s2=30 to=\"Ballroom~Ceremonial Room~Throne Room\"}",
+			"",
+			"This versatile open area has enough space for many people to use at once. A Common Room is typically furnished with benches, chairs, cushions, mats, pews, or stools, and might have tables."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"confessional": {
+		"name": "Confessional",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/96›",
+			"",
+			"::room[Confessional]{benefit=\"Bonus on Stealth checks\" cGoods=2 cLabor=3 c=100 t=4 s1=2 s2=4}",
+			"",
+			"This pair of tiny, linked rooms allows for private conversations. Alternatively, you may construct a hidden space that allows you to watch another room without being observed, such as through a peephole in a tapestry or mosaic. One side of this room provides a +4 bonus on Stealth checks to hide from creatures in the adjoining room. A Confessional can be constructed in a way that allows this bonus to apply to creatures in both sides or just in one."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"courtyard": {
+		"name": "Courtyard",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/96›",
+			"",
+			"::room[Courtyard]{earnings=\"Capital +5 (of a type the building already generates)\" cGoods=4 cLabor=5 c=180 t=24 s1=20 s2=40}",
+			"",
+			"This large, open area might be constructed to feature decorative landscaping or be a more utilitarian space for drills, meetings, or storage."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"crypt": {
+		"name": "Crypt",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/96›",
+			"",
+			"::room[Crypt]{eGp eInfluence eMagic e=5 cGoods=5 cInfluence=3 cMagic=2 cLabor=5 c=490 t=16 s1=8 s2=30 from=\"Burial Ground\"}",
+			"",
+			"This space is dedicated to the storage of prominent corpses. Above ground this space might take the form of a tomb. The duration of spells that preserve or protect corpses (such as ‹spell/gentle repose›) are doubled when cast on a corpse that remains in this room."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"defensive_wall": {
+		"name": "Defensive Wall",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/96›",
+			"",
+			"::room[Defensive Wall]{cGoods=5 cInfluence=2 cLabor=5 c=260 t=12 s1=20 s2=40}",
+			"",
+			"This simple wooden wall, fence, or hedge surrounds your structure and provides a modicum of security. It is no taller than 10 feet, includes a single gate with a simple lock, and can be scaled with a DC 14 Climb check. It can be constructed as a stone wall - increasing the height by up to 10 feet and the Climb DC to 20 - by doubling the price. If combined with a Guard Post, this can be a walkable wall with a parapet."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"dock": {
+		"name": "Dock",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/97›",
+			"",
+			"::room[Dock]{eGp eGoods eInfluence eLabor e=12 cGoods=7 cInfluence=2 cLabor=6 c=320 t=20 s1=10 s2=30}",
+			"",
+			"This is a series of walkways and sturdy posts used to safely moor a water vessel such as a boat or ship. If attached to Storage, it allows you to easily move cargo to and from the water."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"dojo": {
+		"name": "Dojo",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/97›",
+			"",
+			"::room[Dojo]{eGp eInfluence eLabor e=8 benefit=\"Counts as a training facility for training or retraining\" cGoods=7 cInfluence=1 cLabor=7 c=310 t=20 s1=15 s2=30}",
+			"",
+			"This open area is used for practicing combat or other physical skills. If used for combat training, it includes humanoid-shaped training dummies or silhouettes for target practice. Most Dojos include simple floor mats or straw pallets to cushion falls, plus racks containing nonlethal versions of standard weapons. If used by a Thieves' Guild, instead of combat the Dojo might instead focus on evasion training, picking locks, and disabling traps. You can use a Dojo to train up to 10 people at a time. It can be used as Bunks, though it is much less comfortable than using actual beds or cots."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"drawbridge": {
+		"name": "Drawbridge",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/97›",
+			"",
+			"::room[Drawbridge]{cGoods=8 cInfluence=2 cLabor=5 c=320 t=6 s1=4 s2=8}",
+			"",
+			"This retractable bridge spans a pit, moat, or similar danger, allowing you to control access to an area. You can raise or lower the bridge by spending a full-round action to operate the mechanisms constructed on either side of the span. When raised, the bridge creates a wooden barrier (hardness 5, 40 hit points). If the Drawbridge is destroyed, it can be rebuilt in the same place for half the initial construction price."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"escape_route": {
+		"name": "Escape Route",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/97›",
+			"",
+			"::room[Escape Route]{cGoods=9 cLabor=9 c=360 t=16 s1=6 s2=12 from=\"Secret Room\"}",
+			"",
+			"This is a hallway or tunnel leading to a hidden exit from the building. The exit door is typically a simple wooden door with an average lock (Disable Device DC 20 to open). Either or both ends of the hallway can be secret doors (Perception DC 20 to notice)."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"false_front": {
+		"name": "False Front",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/97›",
+			"",
+			"::room[False Front]{eGp eGoods e=2 benefit=\"Bonus to Perception and Sense Motive DCs\" cGoods=4 cInfluence=1 cLabor=4 c=190 t=12 s1=10 s2=20 to=\"Storage and Storefront (see below)\"}",
+			"",
+			"This simple, nondescript business uses an innocuous front to hide criminal dealings. It might appear to be a low-quality pawnshop or ill-stocked market. It has the bare necessities for functioning as the kind of business it pretends to be, but its true purpose is to conceal the nature of the building - typically a criminal enterprise or secret meeting place, such as a cult's sanctuary or a den of thieves. The room includes a secret door leading to the rest of the building. The room increases Perception and Sense Motive DCs by 5 for those trying to notice unusual activity or determine whether the building is what it seems. Since a False Front contains both a false Storefront and false display area, its space can be upgraded to both Storage and a Storefront simultaneously (or upgraded to just one, leaving the remaining area unused)."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"farmland": {
+		"name": "Farmland",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/97›",
+			"",
+			"::room[Farmland]{eGp eGoods e=10 cGoods=15 cLabor=15 c=600 t=20 s1=60 s2=100}",
+			"",
+			"This large swath of fertile land is used for farming or fodder for livestock. The price for this room includes clearing the land, fertilizing the soil, and so on. At the GM's discretion, you might discover a plot of available land that automatically counts as a Farmland at no cost."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"forge": {
+		"name": "Forge",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/97›",
+			"",
+			"::room[Forge]{eGp eGoods e=10 benefit=\"Counts as ‹eq-misc/masterwork artisan's tools› for smithing skills\" cGoods=9 cInfluence=1 cLabor=8 c=370 t=20 s1=8 s2=16}",
+			"",
+			"A Forge includes a hearth, an anvil, a slack tub, metalworking tools, and other appropriate materials for shaping iron and other metals. A Forge counts as artisan's tools for up to three people working on metalworking skills such as Craft (armor) and Craft (weapons)."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"game_room": {
+		"name": "Game Room",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/97›",
+			"",
+			"::room[Game Room]{earnings=\"gp +10 (see below)\" benefit=\"Crime +1, Danger +10 (see below)\" cGoods=8 cLabor=7 c=300 t=16 s1=10 s2=20}",
+			"",
+			"A Game Room has tables for gambling or other forms of gaming, and is often used to make wagers on blood sports or other illicit activities. The listed earnings includes illegal gaming. If your building allows only legal gaming (whether recreational or using money), the earnings are gp +5 (not +10) and the benefit is Crime +0, Danger +0."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"garden": {
+		"name": "Garden",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/97›",
+			"",
+			"::room[Garden]{eGp eGoods e=8 cGoods=5 cLabor=4 c=180 t=12 s1=10 s2=20 to=Greenhouse}",
+			"",
+			"This area of carefully tended soil is fit for growing plants that require greater attention than crops, though you can use it to grow food crops if you choose."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"gatehouse": {
+		"name": "Gatehouse",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/97›",
+			"",
+			"::room[Gatehouse]{benefit=\"Defenders get bonus on initiative and Perception checks\" cGoods=15 cInfluence=3 cLabor=12 c=630 t=40 s1=8 s2=12 from=\"Gauntlet~Guard Post\"}",
+			"",
+			"This defensive structure prevents access to a building. It is normally arranged so defenders have a clear line of sight to all room entrances or a clear view of all approaches to the building. It includes a strong wooden door with a good lock. You can improve this to an iron door for 500 gp. You can add a wooden portcullis for 500 gp or an iron portcullis for 1,000 gp. For an additional 80 gp, you can also count this room as a Gauntlet, allowing defenders to fall back and trap intruders here. You can construct this room in a tower layout (at no additional cost), which includes a second story that also counts as a Gatehouse. The listed price includes the cost of having unskilled employees as guards (1st-level commoners or experts with uniforms, but no armor or weapons). If the building has an Armory, these employees are armed and armored, but still mostly for show. If you want trained guards who can defend against dangerous intruders, hire professional guards or recruit a team of Guards or Soldiers. You can use a Gatehouse as a Tollbooth, which provides the same Earnings (gp or Goods +4). Any defender using the Gatehouse's defenses gains a +1 bonus on initiative checks and on Perception checks against intruders at the Gatehouse."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"gauntlet": {
+		"name": "Gauntlet",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/98›",
+			"",
+			"::room[Gauntlet]{benefit=\"Defenders get improved cover\" cGoods=4 cLabor=4 c=160 t=10 s1=4 s2=8 to=Gatehouse}",
+			"",
+			"This is an area with murder holes or similar defenses that give defenders an advantage when attacking or spying upon intruders. It has good wooden doors with simple locks to allow defenders to trap invaders inside. Any defender using the Gauntlet's defenses has improved cover against intruders in the Gauntlet, though these defenses limit what attacks the defenders can make. For example, a defender can shoot through a murder hole with a spell, bow, or crossbow, or can pour boiling water through it, but she can't attack through it with an axe."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"greenhouse": {
+		"name": "Greenhouse",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/98›",
+			"",
+			"::room[Greenhouse]{eGp eGoods eInfluence e=12 cGoods=8 cLabor=7 c=300 t=16 s1=10 s2=20 from=Garden}",
+			"",
+			"This garden is protected by glass and has its interior climate deliberately regulated. Delicate or exotic plants raised in this area grow larger and healthier than in a normal garden. Certain types of rare plants can be raised only in a Greenhouse."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"guard_post": {
+		"name": "Guard Post",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/98›",
+			"",
+			"::room[Guard Post]{eGp eGoods e=4 benefit=\"Defenders get a bonus on initiative and Perception checks\" cGoods=7 cInfluence=2 cLabor=6 c=320 t=20 s1=6 s2=10 from=Tollbooth to=Gatehouse}",
+			"",
+			"This defensive structure prevents access to a building. It is normally arranged so defenders have a clear line of sight to all room entrances or a clear view of all approaches to the building. You can construct this room in a tower layout (at no additional cost), which includes a second story that also counts as a Guard Post. The listed price includes the cost of having unskilled employees as guards (1st-level commoners or experts with uniforms, but no armor or weapons). If the building has an Armory, these employees are armed and armored, but still mostly for show. If you want trained guards who can defend against dangerous intruders, hire professional guards or recruit a team of Guards or Soldiers. Any defender using the Guard Post's defenses gains a +1 bonus on initiative checks and on Perception checks against intruders at the Guard Post."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"habitat": {
+		"name": "Habitat",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/98›",
+			"",
+			"::room[Habitat]{eGp eInfluence e=12 cGoods=18 cInfluence=3 cLabor=17 c=790 t=40 s1=40 s2=60 from=\"Animal Pen~Stall\"}",
+			"",
+			"A Habitat houses animals. Unlike a Stall or Hatchery, a Habitat provides comfortable lodging for exotic or rare creatures. This room contains cages and walled chambers for the resident creatures, with at least one wall constructed of bars or windows to allow visitors to observe the creatures. A Habitat built to house birds is often constructed with tall poles and netting to keep the creatures from flying away."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"hatchery": {
+		"name": "Hatchery",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/99›",
+			"",
+			"::room[Hatchery]{eGp eGoods e=5 cGoods=4 cInfluence=1 cLabor=3 c=170 t=10 s1=2 s2=6}",
+			"",
+			"A Hatchery is used for nesting and hatching egg-laying creatures such as birds, lizards, owlbears, or dragons. Alternatively, it can be used for fish, shellfish, or other aquatic egg-laying creatures. This room might be on the roof to allow flying creatures to come and go, or might be connected to the building on ground level. It contains cages and soft bedding to cradle the eggs, and might contain a small wood-burning stove to keep the eggs warm if parent animals aren't available."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"infirmary": {
+		"name": "Infirmary",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/99›",
+			"",
+			"::room[Infirmary]{eGp eInfluence e=8 benefit=\"Counts as a ‹eq-misc/healer's kit› (see below)\" cGoods=6 cInfluence=1 cMagic=1 cLabor=6 c=370 t=16 s1=4 s2=12}",
+			"",
+			"An Infirmary is used for treating injured and sick people. It contains beds or cots, a wash basin, and medical supplies. This counts as having a healer's kit for up to two healers at a time. As long as the building doesn't have the broken condition, you don't need to track individual uses of these healer's kits."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"kitchen": {
+		"name": "Kitchen",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/99›",
+			"",
+			"::room[Kitchen]{eGp eGoods e=4 cGoods=4 cLabor=4 c=160 t=12 s1=2 s2=6}",
+			"",
+			"A Kitchen is used to prepare food. It contains a stove, sink, and small pantry with basic cooking tools and supplies. A Kitchen for a business that serves food, such as an Inn, probably also has Storage just for foodstuffs."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"labyrinth": {
+		"name": "Labyrinth",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/99›",
+			"",
+			"::room[Labyrinth]{eGp eInfluence e=5 cGoods=15 cLabor=15 c=370 t=30 s1=40 s2=100}",
+			"",
+			"A Labyrinth is a walled maze, hedge maze, or simple tiled pattern on the ground that those in need of tranquility can walk for quiet meditation."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"laundry": {
+		"name": "Laundry",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/99›",
+			"",
+			"::room[Laundry]{eGp eGoods e=3 benefit=\"Bonus on Fortitude saves against contracting disease\" cGoods=3 cLabor=3 c=120 t=8 s1=2 s2=6}",
+			"",
+			"A Laundry contains a large vat for soaking clothes, a cauldron to heat water, washboards, drying lines, and racks and bins for dry clothes. This might be an outside area adjacent to a building. Employees and regular users of a Laundry gain a +1 bonus on Fortitude saves to resist contracting a disease while they're in the settlement."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"lavatory": {
+		"name": "Lavatory",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/99›",
+			"",
+			"::room[Lavatory]{benefit=\"Bonus on Fortitude saves against contracting disease\" cGoods=3 cLabor=3 c=120 t=4 s1=1 s2=4 from=Shack}",
+			"",
+			"A Lavatory includes up to four 5-foot-by-5-foot private rooms for dealing with biological functions. If a building doesn't have a Lavatory, people in it must go elsewhere for this sort of activity. Depending on the building and settlement, a Lavatory might be an outhouse, a closet with a chamber pot, or a stool connected to an external system such as a cesspit or pig trough. If the building has a Sewer Access, you can automatically connect all Lavatories in the building to the settlement's sewer system. The sanitation improvement from having a Lavatory mean residents, guests, employees, and others who frequent the building gain a +2 bonus on Fortitude saves to resist contracting a disease while in the settlement."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"leather_workshop": {
+		"name": "Leather Workshop",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/99›",
+			"",
+			"::room[Leather Workshop]{eGp eGoods e=10 benefit=\"Counts as ‹eq-misc/masterwork artisan's tools› for leatherworking skills\" cGoods=7 cInfluence=1 cLabor=7 c=310 t=16 s1=4 s2=10}",
+			"",
+			"This workshop includes a sturdy table, stool, vats, drying racks, and tools designed for turning raw hides into leather. The Leather Workshop counts as masterwork artisan's tools for up to three people creating leather goods with skills such as Craft (leather) and Craft (shoes)."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"lodging": {
+		"name": "Lodging",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/99›",
+			"",
+			"::room[Lodging]{eGp e=12 cGoods=10 cInfluence=1 cLabor=10 c=430 t=30 s1=20 s2=35 from=Bunks}",
+			"",
+			"This area is subdivided into smaller chambers and provides private housing and limited storage for up to 10 people. Each chamber typically includes one or two small beds, linens, a chamber pot, and a small table and chair. The door to the chamber is a simple wooden door with a simple lock. You may upgrade individual locks by paying the price difference between a simple lock and the desired lock."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"magical_repository": {
+		"name": "Magical Repository",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/99›",
+			"",
+			"::room[Magical Repository]{eGp eInfluence eMagic e=12 benefit=\"Bonus on Knowledge (arcana), Spellcraft, and spell research checks\" cGoods=9 cInfluence=3 cMagic=3 cLabor=8 c=730 t=20 s1=4 s2=12 from=\"Book Repository\"}",
+			"",
+			"A Magical Repository is similar to a Book Repository, but specific to the study of the arcane arts. It contains shelves of books, comfortable chairs, and tables for studying and for scribing notes and scrolls. If you construct this room from scratch, it grants someone who studies there for 1 hour a +3 bonus on a Knowledge (arcana) check to answer a question. If you upgrade a Book Repository into this room, you either keep the original Book Repository's bonus on Knowledge checks or change its skill to Knowledge (arcana). An hour of study in this room also grants a +3 bonus on Spellcraft checks. The room grants an additional +1 bonus on Knowledge (arcana) and Spellcraft checks for spell research (see ‹rule/Research a Spell›) and crafting magic items."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"mill_room": {
+		"name": "Mill Room",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/100›",
+			"",
+			"::room[Mill Room]{eGp eGoods e=8 cGoods=8 cLabor=7 c=300 t=20 s1=20 s2=30}",
+			"",
+			"A Mill Room contains a mechanism to process grain, foodstuffs, and other raw materials. Most simple mills are powered by hand, but those powered by horses or other beasts of burden require a stable, those powered by water require running water for the water wheel, and those powered by wind require a tower."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"nursery": {
+		"name": "Nursery",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/100›",
+			"",
+			"::room[Nursery]{eGp eInfluence e=6 cGoods=6 cInfluence=1 cLabor=5 c=250 t=14 s1=8 s2=16}",
+			"",
+			"A Nursery is used to care for infants and children. It contains cribs and beds for children, toys for their entertainment, a table for changing, and cabinets for supplies."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"observation_dome": {
+		"name": "Observation Dome",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/100›",
+			"",
+			"::room[Observation Dome]{eGp eInfluence eMagic e=5 benefit=\"Bonus on Knowledge (geography), Knowledge (nature), and Knowledge (planes) checks\" cGoods=8 cMagic=1 cLabor=9 c=440 t=20 s1=10 s2=20}",
+			"",
+			"This elevated room is open to the sky, has a skylight, or has a retractable roof to allow you to observe the passing of celestial bodies. An Observation Dome includes shelves containing records and notes, a telescope, and other devices dedicated to celestial study. If someone spends 1 hour researching in the Observation Dome, she gains a +2 bonus on Knowledge (geography), Knowledge (nature), and Knowledge (planes) checks to answer a question about the heavens."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"office": {
+		"name": "Office",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/100›",
+			"",
+			"::room[Office]{cGoods=3 cLabor=3 c=120 t=8 s1=2 s2=5 from=Storage}",
+			"",
+			"This simple room includes a door with a simple lock, a chair, and a large desk that has two drawers with simple locks. An Office affords its user privacy and a refuge from other activity in the building."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"pit": {
+		"name": "Pit",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/100›",
+			"",
+			"::room[Pit]{eGp eLabor e=1 cGoods=1 cLabor=1 c=40 t=2 s1=1 s2=5}",
+			"",
+			"This is a place to dump things no longer needed. It can be used to contain refuse, dangerous waste, and piles of junk, or as a mass graveyard, communal latrine, or crude surface well. A typical pit is 5-15 feet deep with steep sides."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"printer": {
+		"name": "Printer",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/100›",
+			"",
+			"::room[Printer]{eGp eGoods eInfluence eLabor e=8 benefit=\"Counts as ‹eq-misc/masterwork artisan's tools› for writing and printing skills\" cGoods=9 cInfluence=2 cLabor=7 c=380 t=20 s1=5 s2=16 from=Scriptorium}",
+			"",
+			"This specialized workshop contains a printing press, storage for paper, and drying racks for finished books and pamphlets. Up to three people can use the room at a time."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"reliquary": {
+		"name": "Reliquary",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/100›",
+			"",
+			"::room[Reliquary]{eGp eInfluence e=5 benefit=\"Bonus on Knowledge (religion) checks relating to its contents\" cGoods=4 cMagic=1 cLabor=4 c=260 t=12 s1=1 s2=4 to=Vault}",
+			"",
+			"A Reliquary is built to securely store religious artifacts, and dedicated to a specific deity or philosophy. It contains shelves to house the items, special display cases to protect them, and sometimes chairs and tables to allow study. It's secured by a strong wooden door or grating with a good lock. Unlike a Vault, a Reliquary is intended to allow people to observe its contents. When stocked with relics appropriate to the chosen deity or philosophy, the room grants a +1 bonus on Knowledge (religion) checks relating to the history, powers, and purpose of those relics."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"sanctum": {
+		"name": "Sanctum",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/101›",
+			"",
+			"::room[Sanctum]{benefit=\"Bonus on one Will save\" cGoods=2 cInfluence=1 cMagic=1 cLabor=1 c=190 t=6 s1=1 s2=4}",
+			"",
+			"This is a basic room with simple and pleasing decorations, clean lines, and a calming environment perfect for meditation, prayer, and solitude. A person who spends at least 4 hours in a Sanctum doing nothing other than praying or meditating gains a +1 bonus on Will saves. This bonus ends once the person leaves the settlement or after the first time she attempts a Will save."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"sauna": {
+		"name": "Sauna",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/101›",
+			"",
+			"::room[Sauna]{eGp eInfluence e=3 benefit=\"Bonus on disease and negative level recovery saves\" cGoods=3 cLabor=3 c=120 t=8 s1=2 s2=5 to=Bath}",
+			"",
+			"This simple room contains benches, a central source of heat, stones, and a container of water with a ladle to help produce steam. Using a Sauna for an hour grants a person a +1 bonus on saving throws to overcome ongoing diseases (but not on saves to resist contracting diseases) and a +1 bonus on saving throws to recover from negative levels. This bonus goes away after 24 hours."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"scriptorium": {
+		"name": "Scriptorium",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/101›",
+			"",
+			"::room[Scriptorium]{eGp eGoods eInfluence eLabor eMagic e=5 benefit=\"Counts as masterwork artisan's tools for writing skills\" cGoods=7 cInfluence=2 cLabor=6 c=320 t=16 s1=5 s2=16 to=Printer}",
+			"",
+			"A Scriptorium is where scribes do their work. It contains chairs and writing desks, as well as ink, paper, and other supplies needed to create or copy written works. Up to three people can use the room at a time for scribing scrolls or using Craft (calligraphy) or Profession (scribe)."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"scrying_room": {
+		"name": "Scrying Room",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/101›",
+			"",
+			"::room[Scrying Room]{eGp eInfluence e=2 benefit=\"Increases the DC of scrying effects\" cGoods=6 cInfluence=1 cMagic=3 cLabor=5 c=550 t=16 s1=4 s2=16}",
+			"",
+			"A Scrying Room is built to be a quiet place for scrying, seances, and similar divinations. It contains a table, chairs, and either a pool of water (at no additional cost) or a suitable focus object for a ‹spell/scrying› spell (for an additional 1,000 gp). A caster using *scrying,* ‹spell/locate creature›, or a similar targeted divination from here increases the spell's DC by 1."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"secret_room": {
+		"name": "Secret Room",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/101›",
+			"",
+			"::room[Secret Room]{cGoods=5 cLabor=6 c=220 t=16 s1=6 s2=10 from=Vault to=\"Escape Route\"}",
+			"",
+			"This is either a room or a passage connecting two rooms in the building. The access to this space is controlled by a [secret door](rule/doors) (DC 20). A passage can have secret doors at both ends or a normal door at one end and a secret door at the other. If it's a room, it is typically used to hide someone or something you don't want discovered. If it's a passage, it's typically used for clandestine travel within the building, often for the purpose of smuggling or spying. For every 500 extra gp you spend, you can improve one secret door in the building to a well-hidden secret door (DC 30)."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"sewer_access": {
+		"name": "Sewer Access",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/101›",
+			"",
+			"::room[Sewer Access]{cGoods=2 cInfluence=1 cLabor=2 c=110 t=4 s1=4 s2=6}",
+			"",
+			"A Sewer Access might be a tunnel or room, or something as simple as a sturdy trap door in the floor. Constructing it requires a settlement with a sewer or septic system, and connects some part of the building to that system. You can use this as an Escape Route, but only to get to and from the sewer. The door to the sewer is a strong wooden door with a good lock. For an additional 500 gp, it has an iron door instead. If you have a Lavatory and Sewer Access, you may automatically connect the Lavatory to the sewer with indoor plumbing."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"sewing_room": {
+		"name": "Sewing Room",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/101›",
+			"",
+			"::room[Sewing Room]{eGp eGoods eInfluence e=10 benefit=\"Counts as ‹eq-misc/masterwork artisan's tools› for one Craft skill\" cGoods=8 cLabor=7 c=300 t=16 s1=6 s2=12}",
+			"",
+			"A Sewing Room is used for designing heraldry and making cloth garments, tapestries, blankets, carpets, linens, and other textiles. It contains a loom; a spinning wheel; tapestry frames; shelves for fabric; worktables; and tools for spinning, weaving, and sewing. Up to three people can use the room at once; gaining the benefit of masterwork artisan's tools for skills such as Craft (cloth) and Craft (clothing), and for related skills such as Craft (baskets)."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"shack": {
+		"name": "Shack",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/101›",
+			"",
+			"::room[Shack]{cGoods=3 cLabor=2 c=100 t=3 s1=2 s2=4 to=\"Lavatory~Storage\"}",
+			"",
+			"This no-frills wooden shelter contains a simple table, pallet bed, and stool. One person can build a shack with simple tools and basic materials. For an additional 1 point of Goods and 2 points of Labor, you can construct a brick or stone hut instead of a wooden shack."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"sitting_room": {
+		"name": "Sitting Room",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/102›",
+			"",
+			"::room[Sitting Room]{eInfluence e=4 benefit=\"Bonus on Bluff, Diplomacy, Intimidate, Knowledge (local), and Perform checks\" cGoods=12 cLabor=12 c=480 t=24 s1=6 s2=10}",
+			"",
+			"This is a room used for meeting and entertaining in a relaxed, comfortable setting, such as a den, dining room, or smoking room. It has furnishings appropriate to its function (chairs for a sitting room, table and chairs for a dining room, and so on). By spending an hour conversing with guests in a social manner, the host of the room gains a +1 bonus on Bluff, Diplomacy, Intimidate, Knowledge (local), and Perform checks to influence or learn about those guests for the next 24 hours."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"sports_field": {
+		"name": "Sports Field",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/102›",
+			"",
+			"::room[Sports Field]{eGp eInfluence e=10 cGoods=17 cInfluence=3 cLabor=18 c=790 t=20 s1=40 s2=100 from=\"Battle Ring\"}",
+			"",
+			"This outdoor area is used for jousting, athletics, war games, and other sports. A Sports Field contains a playing area, seats for spectators and equipment for one type of game."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"stall": {
+		"name": "Stall",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/102›",
+			"",
+			"::room[Stall]{eGp eGoods eLabor e=8 cGoods=6 cInfluence=1 cLabor=5 c=250 t=16 s1=6 s2=16 to=Habitat}",
+			"",
+			"A Stall is a place to keep 1-2 horses or other Large domestic animals. It contains gates, feed troughs, feed, and straw."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"statue": {
+		"name": "Statue",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/102›",
+			"",
+			"::room[Statue]{eGp eInfluence e=1 cGoods=1 cLabor=2 c=60 t=2 s1=1 s2=9}",
+			"",
+			"This area contains a statue, fountain, or other large decoration. If it has religious significance, it might serve as a shrine. The listed cost and time are only to install a completed wood, bronze, or stone feature - they don't include the cost and time to create the feature in the first place, but it must be installed to produce Earnings."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"storage": {
+		"name": "Storage",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/102›",
+			"",
+			"::room[Storage]{eGp e=2 cGoods=3 cLabor=3 c=120 t=8 s1=4 s2=8 from=\"False Front~Shack\" to=\"Office~Vault\"}",
+			"",
+			"Storage is any room used to store objects, keeping them out of the way for later use. Most Warehouses are just multiple Storage rooms built into a single building. A low-cost shop may allow its customers to browse items in the Storage area. A door to a Storage room includes an average lock."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"storefront": {
+		"name": "Storefront",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/103›",
+			"",
+			"::room[Storefront]{earnings=\"Capital +5 (of a type the building already generates)\" cGoods=5 cInfluence=1 cLabor=3 c=190 t=12 s1=2 s2=4 from=\"False Front\"}",
+			"",
+			"This is a simple storefront, holding a wooden counter, a ledger, shelves, and other necessities to run a business."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"summmoning_chamber": {
+		"name": "Summmoning Chamber",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/103›",
+			"",
+			"::room[Summmoning Chamber]{eMagic e=3 benefit=\"Bonus on Charisma, Diplomacy, Intimidate, and Knowledge (planes) checks\" cGoods=11 cInfluence=4 cMagic=5 cLabor=10 c=1040 t=28 s1=6 s2=16}",
+			"",
+			"A Summoning Chamber is used to perform magical rituals to conjure outsiders. It contains a well-drawn, nearly complete magic circle on the floor - which you can complete with just a few chalk marks - suitable for use with ‹spell/magic circle› spells, ‹spell/planar binding› spells, and so on. A person who uses a Summoning Chamber gains a +3 bonus on Knowledge (planes) checks relating to a creature being called or summoned, and a +3 bonus on Charisma checks, Diplomacy checks, and Intimidate checks to influence or bargain with a creature called or summoned here."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"throne_room": {
+		"name": "Throne Room",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/103›",
+			"",
+			"::room[Throne Room]{eInfluence e=15 benefit=\"Bonus on Bluff, Diplomacy, and Intimidate, Knowledge (local), and Perform checks\" cGoods=25 cInfluence=5 cMagic=5 cLabor=25 c=1650 t=40 s1=40 s2=80 from=\"Ceremonial Room~Common Room\"}",
+			"",
+			"A Throne Room is used to receive important visitors, such as nobles. The room contains a throne, various decorations, and a few seats for visitors. By spending an hour conversing with visitors, the host of the room gains a +1 bonus on Bluff, Diplomacy, Intimidate, Knowledge (local), and Perform checks to influence or learn about those guests for the next 24 hours."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"tollbooth": {
+		"name": "Tollbooth",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/103›",
+			"",
+			"::room[Tollbooth]{eGp eGoods e=4 cGoods=2 cInfluence=1 cLabor=2 c=110 t=6 s1=1 s2=5 to=\"Guard Post\"}",
+			"",
+			"A Tollbooth is a small shelter designed to restrict movement on a road or bridge so the owner can collect fees from travelers. If this room is built near a settlement, it requires 1 point of Influence per day to maintain - or might be illegal, depending on the settlement."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"torture_chamber": {
+		"name": "Torture Chamber",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/103›",
+			"",
+			"::room[Torture Chamber]{benefit=\"Bonus on Intimidate checks\" cGoods=7 cInfluence=3 cLabor=5 c=330 t=20 s1=6 s2=16}",
+			"",
+			"This grim room is used for interrogation as well as torture and other morally questionable acts. It contains structures to bind humanoids and various implements designed to inflict pain and discomfort. Interrogators in this room gain a +3 bonus on Intimidate checks to influence captives."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"trap": {
+		"name": "Trap",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/103›",
+			"",
+			"::room[Trap]{benefit=\"See below\" create=\"See below\" time=\"See below\" s1=1 s2=4}",
+			"",
+			"This can be a specific room in a building or an augmentation to another room. A Trap room might appear empty or it might be decorated to appear to be harmless in order to lure a target into the trap. Trap costs are explained in ‹rule/Designing a Trap›, and building one uses the ‹skill/craft«ing rules›, though you may spend Goods and Labor toward this cost."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"trophy_room": {
+		"name": "Trophy Room",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/103›",
+			"",
+			"::room[Trophy Room]{eGp eInfluence e=5 cGoods=6 cInfluence=1 cLabor=5 c=250 t=16 s1=4 s2=20}",
+			"",
+			"This is a place to hang trophies from your adventures, such as stuffed monster heads, rare paintings, strange statues, and old magic items you don't need any more. Because of the display cases and clutter, this room isn't much good for anything else, though it might include chairs or benches to allow people to sit while they admire your treasures. If you want to use your trophies to decorate another room instead of placing them in their own room, construct the Furnishings augmentation instead. A Museum makes money by charging visitors or sponsors to view items like these."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"vault": {
+		"name": "Vault",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/103›",
+			"",
+			"::room[Vault]{cGoods=8 cLabor=7 c=300 t=16 s1=4 s2=8 from=\"Reliquary~Storage\" to=\"Secret Room\"}",
+			"",
+			"This is a secure room designed to keep out intruders. The access to this space is controlled by an iron door with a good lock. If you upgrade this room to a Secret Room, the door retains its material and lock and also becomes a secret door."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"war_room": {
+		"name": "War Room",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/103›",
+			"",
+			"::room[War Room]{benefit=\"Bonus on mass combat and skill checks while scheming\" cGoods=8 cLabor=7 c=300 t=16 s1=4 s2=12}",
+			"",
+			"This is a room for planning military maneuvers, plotting grand heists, or providing briefings. It contains a large central table with plenty of chairs, maps, and figures to simulate troops and structures. When it's used for planning a battle, your army gains a +2 bonus on attack rolls and morale checks for their next battle within 24 hours. To grant the army this bonus, the army's commander must be present at the planning meeting for the battle or you must have some way of communicating these instructions to the commander. When used to ‹rule/scheme for an upcoming adventure›, a War Room allows you to use the scheme's planning bonus on two skill checks instead of one."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"workstation": {
+		"name": "Workstation",
+		"subtitle": "Rooms, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/103›",
+			"",
+			"::room[Workstation]{eGp eGoods eInfluence e=8 benefit=\"Counts as ‹eq-misc/masterwork artisan's tools› for one Craft or Profession skill\" cGoods=8 cLabor=7 c=300 t=16 s1=8 s2=16}",
+			"",
+			"This includes a table, chair, and appropriate masterwork artisan's tools for one Craft or Profession skill you choose when you build the room. For example, if intended for a carpenter, it has clamps, saws, nails, hammers, and a sturdy worktable. Up to three people can use the room at a time."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Rooms", "rule/rooms"]
+	}
 }

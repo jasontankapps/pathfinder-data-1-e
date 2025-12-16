@@ -1302,7 +1302,7 @@
 		"description": [
 			"::prereq{l=6 c=alchemist}",
 			"",
-			"By spending 1 minute, the alchemist can convert 1 dose of poison from its current type (contact, ingested, inhaled, or injury) to another type. For example, the alchemist can convert a dose of ‹eq-poison/Small centipede poison› (an injury poison) to an inhaled poison. This process requires an [alchemy lab](rule/rooms1)."
+			"By spending 1 minute, the alchemist can convert 1 dose of poison from its current type (contact, ingested, inhaled, or injury) to another type. For example, the alchemist can convert a dose of ‹eq-poison/Small centipede poison› (an injury poison) to an inhaled poison. This process requires an ‹misc/alchemy lab›."
 		]
 	},
 	"precise_poison": {
