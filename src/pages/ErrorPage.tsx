@@ -1,22 +1,13 @@
 import { useLocation } from "wouter";
-import fuseTranslatedIndex from '../json/_data__fuse-translated_data.json';
+import { prefixMatcher } from '../json/_data__prefixes';
 import BasicPage from './BasicPage';
 import './Page.css';
 
-// Gather data
-interface DataObject {
-	prefixes: string[]
-}
-function isData(value: unknown): asserts value is DataObject {}
-isData(fuseTranslatedIndex);
+const matcher = new RegExp("^/($|(" + prefixMatcher + ")/)");
 
-const { prefixes } = fuseTranslatedIndex;
-
-const matcher = new RegExp("^/($|(" + prefixes.join("|") + ")/)");
-
-// 201 = missing page
-// 202 = missing page or protocol
-// 211 = missing page, not found by protocol page
+// Error 201 = missing page
+// Error 202 = missing page or protocol
+// Error 211 = missing page, not found by protocol page
 
 const ErrorPage: React.FC<{id?: string}> = ({id}) => {
 	const [ path ] = useLocation();

@@ -7,7 +7,7 @@ import { createDirectives, presetDirectiveConfigs } from 'marked-directive';
 import basic_data_groups, { basic_data_by_link, templates_by_link } from './prebuild/basic_data_groups.js';
 import checkForEncodedLink, { convertTextToLink } from './prebuild/tests/checkForEncodedLink.js';
 import featTreeData from './json/feat_tree_data.json' with {type: 'json'};
-import featInfo from './src/json/_data__all_links.json' with {type: 'json'};
+import featInfo from './prebuild/__featNames.json' with {type: 'json'};
 import colorJSON from './json/colors.json' with {type: 'json'};
 import getInlineDirectives from './prebuild/inline-directives.js';
 import getBlockDirectives from './prebuild/block-directives.js';

@@ -1,4 +1,18 @@
 import { ReactElement } from "react";
+import { SearchIndex } from "./store/searchSlice"
+
+export interface Item {
+	name: string
+	subtitle?: string
+	tags?: string
+}
+
+export interface ParallelItem {
+	t: number // type
+	p: number // prefix
+	l: string // link
+	s: SearchIndex // searchgroup
+}
 
 // RangeInSliceFormat<desired start, desired end + 1>
 // This will fail if (END - START) >= 1000

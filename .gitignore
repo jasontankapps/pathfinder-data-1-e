@@ -30,6 +30,7 @@ yarn-error.log*
 .eslintcache
 
 # Build data
+public/_data*
 src/json/_data*
 src/pages/subpages/__*
 src/pages/subpages/_data_*

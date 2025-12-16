@@ -1,8 +1,4 @@
-import index from '../json/_data__all_links.json';
-import { Gen } from '../types';
-
-function isObject(value: unknown): asserts value is Gen<string, string> {}
-isObject(index);
+import index from '../json/_data__allLinks';
 
 const switchback = (link: string) => {
 	// This matches only the non-fused pages
@@ -33,13 +29,13 @@ const switchback = (link: string) => {
 export const doesPageExist = (id: string): boolean => {
 	// Remove initial slash ("/main" => "main")
 	const link = id.slice(1);
-	return (switchback(link) || index[(link as keyof typeof index)]) ? true : false;
+	return (switchback(link) || index[link]) ? true : false;
 };
 
 const getPageName = (id: string): string => {
 	// Remove initial slash ("/main" => "main")
 	const link = id.slice(1);
-	return switchback(link) || index[(link as keyof typeof index)] || `[Error: ${id} not found]`;
+	return switchback(link) || index[link] || `[Error: ${id} not found]`;
 };
 
 export default getPageName;

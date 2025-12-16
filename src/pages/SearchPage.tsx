@@ -6,8 +6,10 @@ import {
 	PropsWithChildren,
 	useCallback,
 	useState,
-	useTransition
+	useTransition,
+	useEffect
 } from 'react';
+import axios from 'axios';
 import AutoSizer from 'react-virtualized-auto-sizer';
 import { FixedSizeList } from 'react-window';
 import Fuse, { FuseResult } from 'fuse.js';
@@ -44,24 +46,12 @@ import SearchHelpModal from '../components/SearchHelpModal';
 import Link from '../components/Link';
 import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
 import { setSearchQuery, setSearchFilter, SearchIndex } from '../store/searchSlice';
-import fuseIndex from '../json/_data__fuse-index.json';
-import fuseTranslatedIndex from '../json/_data__fuse-translated_data.json';
-import { Gen } from '../types';
+import fuseIndex from '../json/_data__fuseIndex';
+import prefixes from '../json/_data__prefixes';
+//import fuseTranslatedIndex from '../json/_data__fuse-translated_data.json';
+import { Gen, Item, ParallelItem } from '../types';
 import './Page.css';
 import './SearchPage.css';
-
-interface Item {
-	name: string
-	subtitle?: string
-	tags?: string
-}
-
-interface ParallelItem {
-	t: number // type
-	p: number // prefix
-	l: string // link
-	s: SearchIndex // searchgroup
-}
 
 /*type SearchGroup =
 	"class" // 1
@@ -78,9 +68,6 @@ interface ParallelItem {
 	| "rule" // 12
 	| "source"
 */
-
-function isIndex(value: unknown): asserts value is Item[] {}
-isIndex(fuseIndex);
 
 const allSearchFiltersActive: SearchIndex[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 const nothingActive: SearchIndex[] = [];
@@ -118,28 +105,30 @@ const fuse = new Fuse(fuseIndex, options);
 interface DataObject {
 	data: ParallelItem[]
 	types: string[]
-	prefixes: string[]
 	searchindex: string[]
 }
-function isData(value: unknown): asserts value is DataObject {}
-isData(fuseTranslatedIndex);
 
-const { data, types, prefixes, searchindex } = fuseTranslatedIndex;
+const BlankDataObject: DataObject = {
+	data: [],
+	types: [],
+	searchindex: []
+};
 
 interface SearchResultItem {
 	index: number
 	style: Gen<string, any>
 	data: {
-		data: ParallelItem[]
 		results: FuseResult<Item>[]
 		filter?: number[]
+		fuseTranslatedIndex: DataObject
 	}
 }
 
 const SearchItem = ({index, style, data}: SearchResultItem) => {
-	const {results, data: d} = data;
+	const {results, fuseTranslatedIndex} = data;
+	const { data: d, types } = fuseTranslatedIndex;
 	const { refIndex } = results[index];
-	const {t, p, l} = d[refIndex]; // t = type, p = prefix, l = link
+	const {t, p, l} = d[refIndex] || {t: "", p: "", l: ""}; // t = type, p = prefix, l = link
 	const { name: title, subtitle } = fuseIndex[refIndex];
 	const displayName = subtitle ? `${title} (${subtitle})` : title;
 	return (
@@ -153,7 +142,13 @@ const SearchItem = ({index, style, data}: SearchResultItem) => {
 	);
 };
 
-const SearchResults: FC<{searchText: string, filter?: SearchIndex[]}> = ({searchText, filter}) => {
+interface SearchResultProps {
+	searchText: string
+	filter?: SearchIndex[]
+	fuseTranslatedIndex: DataObject
+}
+
+const SearchResults: FC<SearchResultProps> = ({searchText, filter, fuseTranslatedIndex}) => {
 	if(!searchText) {
 		return (
 			<IonList className="search">
@@ -162,7 +157,7 @@ const SearchResults: FC<{searchText: string, filter?: SearchIndex[]}> = ({search
 		);
 	}
 	const results = filter
-		? fuse.search(searchText).filter(el => (filter.indexOf(data[el.refIndex].s) > -1)).slice(0, 100)
+		? fuse.search(searchText).filter(el => (filter.indexOf(fuseTranslatedIndex.data[el.refIndex].s) > -1)).slice(0, 100)
 		: fuse.search(searchText, { limit: 100 });
 	if (results.length === 0) {
 		return (
@@ -179,7 +174,7 @@ const SearchResults: FC<{searchText: string, filter?: SearchIndex[]}> = ({search
 					width={width}
 					itemCount={results.length}
 					itemSize={70}
-					itemData={{data, results}}
+					itemData={{results, fuseTranslatedIndex}}
 				>{SearchItem}</FixedSizeList>
 			)
 		}</AutoSizer>
@@ -191,9 +186,10 @@ interface SearchModalProps {
 	setOpen: Dispatch<SetStateAction<boolean>>
 	filter: SearchIndex[],
 	setFilter: (input: SearchIndex[]) => void
+	searchindex: string[]
 }
 
-const SearchFilterModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOpen, filter, setFilter}) => {
+const SearchFilterModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOpen, filter, setFilter, searchindex}) => {
 	const dispatch = useAppDispatch();
 	const [temp, setTemp] = useState<SearchIndex[]>([...filter]);
 	const registerClick = (x: SearchIndex) => {
@@ -288,6 +284,15 @@ const SearchPage: FC = () => {
 
 	const [searchBar, refSearchBar] = useElement<HTMLIonSearchbarElement>(setFocusIfEmpty);
 
+	const [fuseTranslatedIndex, setFuseTranslatedIndex] = useState<DataObject>(BlankDataObject);
+
+	useEffect(() => {
+		axios.get("/_data__fuse-translated_data.json").then(res => {
+			const index = res.data || BlankDataObject;
+			setFuseTranslatedIndex(index);
+		});
+	}, []);
+
 	searchBar && searchtext && !searchBar.value && searchBar.getInputElement().then(input => {
 		if(!input.value) {
 			input.value = searchtext;
@@ -349,7 +354,13 @@ const SearchPage: FC = () => {
 				</IonToolbar>
 			</PageHeader>
 			<IonContent>
-				<SearchFilterModal open={filterOpen} setOpen={setFilterOpen} filter={filter} setFilter={doFilterUpdate} />
+				<SearchFilterModal
+					open={filterOpen}
+					setOpen={setFilterOpen}
+					filter={filter}
+					setFilter={doFilterUpdate}
+					searchindex={fuseTranslatedIndex.searchindex}
+				/>
 				<SearchHelpModal open={helpOpen} setOpen={setHelpOpen} />
 				{
 					isPending ? (
@@ -357,7 +368,11 @@ const SearchPage: FC = () => {
 							<IonItem><IonLabel>Searching... <IonSpinner /></IonLabel></IonItem>
 						</IonList>
 					) :
-						<SearchResults searchText={searchText} filter={filter.length ? filter : undefined} />
+						<SearchResults
+							fuseTranslatedIndex={fuseTranslatedIndex}
+							searchText={searchText}
+							filter={filter.length ? filter : undefined}
+						/>
 				}
 			</IonContent>
 			<PageFooter noSearchButton />

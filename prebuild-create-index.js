@@ -289,19 +289,77 @@ Object.entries($sources).forEach(([prop, value]) => {
 $allSourcesMap.push(`};\nexport default output;`)
 
 const $allLinks = {};
-$allIncludingCopies.forEach(([link, title]) => ($allLinks[link] = title || "BLANK"));
+const $featLinks = {};
+$allIncludingCopies.forEach(([link, title]) => {
+	$allLinks[link] = title || "BLANK";
+	if(link.match(/feat[/]/)) {
+		$featLinks[link] = title;
+	}
+});
+
+// Create regex matcher for prefixes
+const $matcher = [];
+let temp = [], previous = false;
+$allPrefixes.toSorted().forEach(p => {
+	const m = p.match(/^([^-]+)-(.+)$/);
+	if(m) {
+		if(previous === m[1]) {
+			temp.push(m[2]);
+			return;
+		} else if (previous) {
+			$matcher.push(`${previous}-(?:${temp.join("|")})`);
+		}
+		previous = m[1];
+		temp = [m[2]];
+		return;
+	} else if(previous) {
+		$matcher.push(`${previous}-(?:${temp.join("|")})`);
+		temp = [];
+		previous = false;
+	}
+	$matcher.push(p);
+});
 
 const $data_pairs = [
-	['./src/json/_data__fuse-translated_data.json', JSON.stringify({
-		data: $dataIndex,
-		types: $allTypes,
-		prefixes: $allPrefixes,
-		searchindex: SEARCHINDEX
-	})],
-	['./src/json/_data__fuse-index.json', JSON.stringify($fuseIndex)],
-	['./src/json/_data__all_links.json', JSON.stringify($allLinks)],
-	['./src/json/_data__redirects.json', JSON.stringify($redirects).trim()],
-	['./src/pages/subpages/_data__sources.tsx', $allSourcesElements.concat($allSourcesMap).join("")]
+	[
+		'./src/json/_data__prefixes.tsx',
+		`export const prefixMatcher = "${
+			$matcher.join("|")
+		}";\nconst prefixes: string[] = ${
+			JSON.stringify($allPrefixes)
+		};\nexport default prefixes;`
+	],
+	[
+		'./src/json/_data__fuseIndex.tsx',
+		`import {Item} from "../types";\nconst index: Item[] = ${
+			JSON.stringify($fuseIndex)
+		};\nexport default index;`
+	],
+	[
+		'./src/json/_data__allLinks.tsx',
+		`import {Gen} from "../types";\nconst links: Gen<string, string> = ${
+			JSON.stringify($allLinks)
+		};\nexport default links;`
+	],
+	[
+		'./src/json/_data__redirects.tsx',
+		`import {Gen} from "../types";\nconst links: Gen<string, string> = ${
+			JSON.stringify($redirects)
+		};\nexport default links;`
+	],
+	[
+		'./src/pages/subpages/_data__sources.tsx',
+		$allSourcesElements.concat($allSourcesMap).join("")
+	],
+	[
+		'./public/_data__fuse-translated_data.json',
+		JSON.stringify({
+			data: $dataIndex,
+			types: $allTypes,
+			searchindex: SEARCHINDEX
+		})
+],
+	['./prebuild/__featNames.json', JSON.stringify($featLinks)]
 ];
 
 $data_pairs.forEach(pair => {
