@@ -510,11 +510,22 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"eGp", "eGoods", "eMagic", "eInfluence", "eLabor", "e",
 					"cGoods", "cMagic", "cInfluence", "cLabor", "c",
 					"benefit", "t", "s1", "s2",
-					"earnings", "create", "time", "to", "from"
+					"earnings", "create", "time", "size", "to", "from"
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				const id = prefix + makeValidID(text + "-room");
 				return makeRoomBlock({marked2, convertEncodedInfo, id, maybeClear, text, attrs, logError});
+			} else if (n === "team") {
+				// Teams
+				churn(n, attrs, [
+					"clear",
+					"eGp", "eGoods", "eMagic", "eInfluence", "eLabor", "e",
+					"cGoods", "cMagic", "cInfluence", "cLabor", "c",
+					"t", "s", "to", "from"
+				], [], logError);
+				const marked2 = makeNewMarkedInstance();
+				const id = prefix + makeValidID(text + "-team");
+				return makeRoomBlock({marked2, convertEncodedInfo, id, maybeClear, text, attrs, logError, team: true});
 			}
 			return false;
 		}

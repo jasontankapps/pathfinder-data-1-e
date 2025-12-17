@@ -1,9 +1,9 @@
-const makeRoomBlock = ({marked2, convertEncodedInfo, id, maybeClear, text, attrs, logError}) => {
+const makeRoomBlock = ({marked2, convertEncodedInfo, id, maybeClear, text, attrs, logError, team}) => {
 	const {
 		eGp, eGoods, eMagic, eInfluence, eLabor, e,
 		cGoods, cMagic, cInfluence, cLabor, c,
-		benefit, t, s1, s2,
-		earnings, create, time,
+		benefit, t, s1, s2, s,
+		earnings, create, time, size,
 		to, from
 	} = attrs;
 	//
@@ -28,7 +28,7 @@ const makeRoomBlock = ({marked2, convertEncodedInfo, id, maybeClear, text, attrs
 	//
 	const earn = [];
 	if(earnings) {
-		earn.push(earn);
+		earn.push(earnings);
 	} else {
 		eGp && earn.push("gp");
 		eGoods && earn.push("Goods");
@@ -91,7 +91,9 @@ const makeRoomBlock = ({marked2, convertEncodedInfo, id, maybeClear, text, attrs
 		`<th id="${id}-time">Time</th>`,
 		`<td headers=\"${id}-time">${time || `${t} days`}</td>`,
 		`<th id="${id}-size">Size</th>`,
-		`<td headers="${id}-size">${s1}-${s2} squares</td>`,
+		`<td headers="${id}-size">${
+			team ? (s === 1 ? "1 person" : `${s} people`) : (size || `${s1}-${s2} squares`)
+		}</td>`,
 		`</tr>`
 	);
 	//

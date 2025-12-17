@@ -1626,7 +1626,9 @@
 			"",
 			"::room[Greenhouse]{eGp eGoods eInfluence e=12 cGoods=8 cLabor=7 c=300 t=16 s1=10 s2=20 from=Garden}",
 			"",
-			"This garden is protected by glass and has its interior climate deliberately regulated. Delicate or exotic plants raised in this area grow larger and healthier than in a normal garden. Certain types of rare plants can be raised only in a Greenhouse."
+			"This garden is protected by glass and has its interior climate deliberately regulated. Delicate or exotic plants raised in this area grow larger and healthier than in a normal garden. Certain types of rare plants can be raised only in a Greenhouse.",
+			"",
+			">*This room can upgrade into the Mystic Greenhouse in ‹rule/Wilderness Rooms›.*"
 		],
 		"searchgroup": "rule",
 		"type": "Rule",
@@ -2246,5 +2248,347 @@
 		"searchgroup": "rule",
 		"type": "Rule",
 		"topLink": ["Rooms", "rule/rooms"]
+	},
+	"acolyte": {
+		"name": "Acolyte",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/104›",
+			"",
+			"::team[Acolyte]{eGp eInfluence eMagic e=4 cGoods=2 cInfluence=2 cLabor=2 cMagic=3 c=440 t=3 s=1 to=\"Priest~Sage\"}",
+			"",
+			"An Acolyte is a newly trained divine spellcaster, sufficient for tending to the sick or advising on religious matters. An Acolyte is typically a 1st-level adept, cleric, druid, or oracle, with light armor (or no armor if an adept) and a weapon appropriate to her faith."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"apprentice": {
+		"name": "Apprentice",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/104›",
+			"",
+			"::team[Apprentice]{eGp eInfluence eMagic e=4 cGoods=2 cInfluence=2 cLabor=1 cMagic=4 c=520 t=3 s=1 to=\"Mage~Sage\"}",
+			"",
+			"An Apprentice is a newly-trained arcane spellcaster, sufficient for helping with magical rituals, generating flashy effects, or advising on magical matters. An Apprentice is typically a 1st-level bard, sorcerer, summoner, witch, or wizard."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"archers": {
+		"name": "Archers",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/104›",
+			"",
+			"::team[Archers]{eGp eInfluence eLabor e=6 cGoods=4 cInfluence=3 cLabor=7 c=310 t=4 s=5 to=\"Elite Archers\" from=Soliders}",
+			"",
+			"Archers are soldiers trained to use projectile weapons. They are typically 1st-level warriors, each with scale mail, a longbow, a buckler, and a longsword.",
+			"",
+			">*This can also be upgraded into [Skirmishers](rule/wilderness_teams).*"
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"bureaucrats": {
+		"name": "Bureaucrats",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/104›",
+			"",
+			"::team[Bureaucrats]{eGp eInfluence e=4 cGoods=2 cInfluence=4 cLabor=2 c=200 t=2 s=5 from=\"Scofflaws~Soldiers\"}",
+			"",
+			"Bureaucrats interface with local government and deal with annoying paperwork related to running a business or organization. This type of team could include accountants, diplomats, lawyers, and scribes. A typical bureaucrat is a 1st-, 2nd-, or 3rd-level expert with ranks in Bluff, Diplomacy, Intimidate, Knowledge (local), Linguistics, and Profession (barrister, clerk, or scribe)."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"cavalry": {
+		"name": "Cavalry",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/104›",
+			"",
+			"::team[Cavalry]{eGp eInfluence eLabor e=7 cGoods=8 cInfluence=8 eLabor=8 c=410 t=6 s=5 from=\"Elite Soldiers~Soldiers\" to=\"Cavalry Archers\"}",
+			"",
+			"Cavalry are soldiers trained to ride mounts in combat. They are typically 3rd-level warriors, each equipped with breastplate armor, a longsword, a lance, and a heavy steel shield and riding a combat-trained light horse."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"cavalry_archers": {
+		"name": "Cavalry Archers",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/104›",
+			"",
+			"::team[Cavalry Archers]{eGp eInfluence eLabor e=8 cGoods=9 cInfluence=3 cLabor=10 c=470 t=7 s=5 from=\"Cavalry~Elite Archers\"}",
+			"",
+			"Cavalry Archers are soldiers trained to ride mounts and use ranged weapons in combat before closing to melee. They are typically 3rd-level warriors, each equipped with breastplate armor, a short bow, a longsword, a lance, and a heavy steel shield and riding a combat-trained light horse."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"craftspeople": {
+		"name": "Craftspeople",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/105›",
+			"",
+			"::team[Craftspeople]{eGp eGoods eLabor e=4 cGoods=3 cInfluence=2 cLabor=4 c=200 t=2 s=3}",
+			"",
+			"Craftspeople are trained in a particular Craft or Profession skill and make a living using that skill. Examples of this team are alchemists, carpenters, leatherworkers, masons, and smiths. A typical carpenter is a 4th-level expert with 4 ranks each in Climb, Craft (carpentry), Diplomacy, and Knowledge (engineering and local). Craftspeople in other fields have a similar skill arrangement."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"cutpurses": {
+		"name": "Cutpurses",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/105›",
+			"",
+			"::team[Cutpurses]{eGp eGoods eLabor e=3 cInfluence=3 cLabor=1 c=110 t=1 s=5 to=Robbers}",
+			"",
+			"Cutpurses are minor thieves (often youths) who earn money from petty crimes such as pickpocketing or stealing items from market stalls. They are typically 1st-level commoners, experts, or rogues with 1 rank in Perception, Sleight of Hand, and Stealth."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"driver": {
+		"name": "Driver",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/105›",
+			"",
+			"::team[Driver]{eGp eGoods eLabor e=2 cGoods=2 cInfluence=1 cLabor=1 c=90 t=0 s=1 from=Laborers to=Lackeys}",
+			"",
+			"Drivers are trained to handle and move common animals' managing ox-drawn carts, herding cattle, or training riding horses. A Driver is typically 1st-level expert with ranks in Handle Animal, Knowledge (geography), Profession (driver), Ride, and Survival."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"elite_archers": {
+		"name": "Elite Archers",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/105›",
+			"",
+			"::team[Elite Archers]{eGp eInfluence eLabor e=7 cGoods=5 cInfluence=4 cLabor=8 c=380 t=6 s=5 from=\"Archers~Elite Soldiers\" to=\"Cavalry Archers\"}",
+			"",
+			"An Elite Archers team consists of 3rd-level warriors, each with scale mail, a longbow, a buckler, and a longsword."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"elite_guards": {
+		"name": "Elite Guards",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/105›",
+			"",
+			"::team[Elite Guards]{eGp eInfluence eLabor e=4 cGoods=3 cInfluence=1 cLabor=4 c=170 t=2 s=5 from=Guards to=\"Elite Soldiers\"}",
+			"",
+			"Like Guards, this team defends a location but doesn't take on an active role. An Elite Guards team consists of 3rd-level warriors, each wearing a chain shirt or banded mail and using a heavy steel shield and shortspear, a guisarme, or a halberd."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"elite_soldiers": {
+		"name": "Elite Soldiers",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/105›",
+			"",
+			"::team[Elite Soldiers]{eGp eInfluence eLabor e=6 cGoods=5 cInfluence=3 cLabor=7 c=330 t=5 s=5 from=\"Elite Guards~Soldiers\" to=\"Cavalry~Elite Archers\"}",
+			"",
+			"Like Soldiers, this team will take aggressive action and seek out your enemies to kill them. An Elite Soldiers team consists of 3rd-level warriors, each wearing a chain shirt or banded mail and using a guisarme, a halberd, or a heavy steel shield and a shortspear."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"guards": {
+		"name": "Guards",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/106›",
+			"",
+			"::team[Guards]{eGp eInfluence eLabor e=2 cGoods=2 cLabor=3 c=100 t=1 s=5 from=Laborers to=\"Elite Guards~Soldiers\"}",
+			"",
+			"Guards train to watch over a person or location and defend that person or location if necessary. Unlike soldiers, guards are not expected to seek out trouble or take an aggressive role. Their purpose is to intimidate casual threats into leaving and defend against active threats. Each guard is typically a 1st-level warrior wearing scale mail and using either a glaive or a heavy wooden shield and shortspear.",
+			"",
+			">*This can also be upgraded into [Skirmishers](rule/wilderness_teams).*"
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"laborers": {
+		"name": "Laborers",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/106›",
+			"",
+			"### Laborers",
+			"",
+			"::team[Laborers]{eGp eLabor e=2 cInfluence=1 cLabor=2 c=70 t=0 s=5 to=\"Drivers~Guards~Lackeys~Sailors~Scofflaws\"}",
+			"",
+			"Laborers are unskilled workers who carry out basic orders. In most cases, their work is physical labor, though you may recruit laborers for specialized tasks such as begging for your thieves' guild, being professional mourners for your cult, or filling out the cast of a theater performance. They are typically 1st-level commoners with no ranks in Craft or Profession.",
+			"",
+			">*This can also be upgraded into [Stewards](rule/wilderness_teams).*"
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"lackeys": {
+		"name": "Lackeys",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/106›",
+			"",
+			"::team[Lackeys]{eInfluence eLabor e=2 cGoods=1 cInfluence=2 cLabor=2 c=120 t=1 s=5 from=\"Drivers~Laborers\"}",
+			"",
+			"Lackeys wait on you hand and foot and take care of common domestic and traveling issues; their ranks include butlers, valets, maids, heralds, footmen, ladies-in-waiting, and similar service personnel. Skilled Lackeys anticipate your needs and coordinate with your other employees as well as those of your guests or host. A typical Lackey is a 1st-level commoner or expert with ranks in a subset of Diplomacy, Disguise, Intimidate, Knowledge (local), Knowledge (nobility), Linguistics, Perception, and Sense Motive."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"mage": {
+		"name": "Mage",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/106›",
+			"",
+			"::team[Mage]{eGp eInfluence eMagic e=7 cGoods=3 cInfluence=2 cLabor=2 cMagic=8 c=960 t=7 s=1 from=Apprentice}",
+			"",
+			"A Mage is a skilled but not especially remarkable arcane spellcaster, often a 3rd-level bard, sorcerer, summoner, witch, or wizard."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"priest": {
+		"name": "Priest",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/106›",
+			"",
+			"::team[Priest]{eGp eInfluence eMagic e=7 cGoods=3 cInfluence=3 cLabor=3 cMagic=6 c=810 t=7 s=1 from=Acolyte}",
+			"",
+			"A Priest is a skilled but unremarkable divine spellcaster, typically a 3rd-level adept, cleric, druid, or oracle, with light armor (or no armor, if an adept) and a weapon appropriate to her faith."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"robbers": {
+		"name": "Robbers",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/106›",
+			"",
+			"::team[Robbers]{eGp eGoods eInfluence e=4 cGoods=1 cInfluence=4 cLabor=3 c=200 t=3 s=5 from=Cutpurses}",
+			"",
+			"Robbers are expert thieves who commit burglary, robbery, and other violent crimes for profit. A typical robber is a 3rd-level expert or rogue with 3 ranks each in Climb, Disable Device, Intimidate, Perception, and Stealth.",
+			"",
+			">*This can also be upgraded into [Skirmishers](rule/wilderness_teams).*"
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"sage": {
+		"name": "Sage",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/106›",
+			"",
+			"::team[Sage]{eGp eInfluence e=5 cGoods=5 cInfluence=2 cLabor=2 c=200 t=4 s=1 from=\"Acolyte~Apprentice\"}",
+			"",
+			"A sage is a person with extensive knowledge in one or more related areas who can advise you about his areas of expertise. A typical sage is a 3rd-level expert with 3 ranks each in skills such as Appraise, Knowledge, Linguistics, Profession, and Spellcraft."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"sailors": {
+		"name": "Sailors",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/106›",
+			"",
+			"::team[Sailors]{eGp eGoods eLabor e=2 cGoods=1 cInfluence=1 cLabor=2 c=90 t=0 s=5 from=Laborers}",
+			"",
+			"Sailors know how to sail a ship, navigate while at sea, and defend the vessel against pirates and other hostile boarders. A typical sailor is a [2nd-level expert](npc/old_sailor) with 2 ranks each in Acrobatics, Climb, Perception, Profession (sailor), Survival, and Swim."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"scofflaws": {
+		"name": "Scofflaws",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/106›",
+			"",
+			"::team[Scofflaws]{eGp eGoods eInfluence e=2 cInfluence=3 cLabor=2 c=130 t=1 s=5 from=Laborers to=Bureaucrats}",
+			"",
+			"Scofflaws provide illegal but consensual services such as gambling, moonshining, or underground fighting. Note that other kinds of teams might perform these services (you could recruit a Laborers team to work as prostitutes or a Guards team to run an arena, for example), but this kind of team is skilled at these tasks."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
+	},
+	"soldiers": {
+		"name": "Soldiers",
+		"subtitle": "Teams, Downtime",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			"‹SOURCE Ultimate Campaign/106›",
+			"",
+			"::team[Soldiers]{eGp eInfluence eLabor e=5 cGoods=3 cInfluence=2 cLabor=5 c=220 t=2 s=5 from=Guards to=\"Archers~Bureaucrats~Cavalry~Elite Soldiers\"}",
+			"",
+			"Soldiers are trained in combat and have the means and will to kill your enemies. Unlike Guards, Soldiers actively engage in fighting on behest of a leader (although you can make Soldiers act as Guards). Depending on the nature of your organization, they might be enforcers rather than military-style soldiers. They are typically 1st-level warriors, each with scale mail, a longsword, a heavy wooden shield, and javelins.",
+			"",
+			">*This can also be upgraded into [Skirmishers](rule/wilderness_teams).*"
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Teams", "rule/teams"]
 	}
 }
