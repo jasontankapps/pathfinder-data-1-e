@@ -379,7 +379,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"l", "imp",
 					"standard", "swift", "immediate",
 					"fullround", "move", "free",
-					"provokes", "special", "note",
+					"provokes", "special", "note", "choice",
 					"ability", "passive",
 					"order",
 					"usage", "useNC",
@@ -390,7 +390,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], [
 					/^(([sl]|imp)(1?[1-9]|[12]0)|s0)$/,
 					/^use(Mod|Inc)[1-9]?$/,
-					/^h(Special|Standard|Swift|Ability|Free|Fullround|Imp|Immediate|Passive|Move|Note)$/
+					/^h(Special|Standard|Swift|Ability|Free|Fullround|Imp|Immediate|Passive|Move|Note|Choice)$/
 				], logError);
 				flags.icon = true;
 				flags.link = true;

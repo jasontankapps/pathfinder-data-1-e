@@ -8,7 +8,7 @@ const abPairPartClose = "</div></div>";
 const abPairClose = "</div>";
 
 const parseAtts = (attrs) => {
-	const {standard, move, free, immediate, swift, passive, ability, fullround, note} = attrs;
+	const {standard, move, free, immediate, swift, passive, ability, fullround, note, choice} = attrs;
 	if(passive) {
 		return [passive, "Passive Ability", attrs.hPassive];
 	} else if (ability) {
@@ -27,6 +27,8 @@ const parseAtts = (attrs) => {
 		return [free, "Free Action", attrs.hFree];
 	} else if (note) {
 		return [note, "Info", attrs.hNote];
+	} else if (choice) {
+		return [choice, "Choice", attrs.hChoice];
 	}
 	return false;
 };
@@ -51,7 +53,7 @@ export const makeAbilityBlock = ({
 		imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20,
 		standard, swift, immediate,
 		fullround, move, free,
-		provokes, special, note,
+		provokes, special, note, choice,
 		passive, ability,
 		hSpecial, hImp,
 		order,
@@ -153,7 +155,8 @@ export const makeAbilityBlock = ({
 			p: passive,
 			a: ability,
 			u: use,
-			n: note
+			n: note,
+			c: choice
 		};
 		const missing = [];
 		order.split("").forEach(x => {
@@ -166,7 +169,7 @@ export const makeAbilityBlock = ({
 			logError(`[${text}] ` + missing.shift());
 		}
 	} else {
-		const all = [standard, swift, immediate, fullround, move, free, passive, ability, note].filter(x => x);
+		const all = [standard, swift, immediate, fullround, move, free, passive, ability, note, choice].filter(x => x);
 		if(all.length > 1) {
 			logError(`${all.length} abilities found, but no "order" prop was given. [${text}]`);
 		}
@@ -435,6 +438,11 @@ export const makeAbilityBlock = ({
 					title = "Info";
 					what = note;
 					h = attrs.hNote;
+					break;
+				case "c":
+					title = "Choice";
+					what = choice;
+					h = attrs.hChoice;
 					break;
 				default:
 					logError(`Invalid token [${ab}] in order attribute [${text}]`);
