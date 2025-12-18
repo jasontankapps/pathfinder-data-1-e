@@ -606,6 +606,8 @@
 		]
 	},
 	"hypnotism": { "redirect": "diplomacy" },
+	"improve_the_attitude": { "redirect": "diplomacy" },
+	"attitude": { "redirect": "diplomacy" },
 	"disable_device": {
 		"name": "Disable Device",
 		"sources": [
@@ -1193,6 +1195,7 @@
 			"**20 Ranks:** If you exceed the DC to demoralize a target by at least 20, it is cowering for 1d4 rounds and panicked thereafter.\\* A Will save (DC = 10 + your number of ranks in Intimidate) negates the cowering and panicked conditions, but the target is still shaken, even if it has the stalwart ability."
 		]
 	},
+	"demoralize": { "redirect": "intimidate" },
 	"knowledge_all": {
 		"name": "Knowledge",
 		"sources": [

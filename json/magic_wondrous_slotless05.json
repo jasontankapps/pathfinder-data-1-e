@@ -433,7 +433,7 @@
 			"**Aura** strong enchantment; **CL** 15th  ",
 			"**Slot** none; **Price** 3,000 gp; **Weight** -",
 			"",
-			"This potent preparation causes a creature who drinks it to fall madly in love with the first creature he or she perceives after consuming it. The drinker's attitude toward that creature becomes [helpful](skill/diplomacy). If a romantic attraction is possible toward the first person viewed, the drinker falls in love with that person. Otherwise, the drinker's love is a platonic adoration. The effects of the philter are permanent unless removed by a ‹spell/break enchantment›, ‹spell/dispel magic›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/remove curse›, or ‹spell/wish›.",
+			"This potent preparation causes a creature who drinks it to fall madly in love with the first creature he or she perceives after consuming it. The drinker's ‹skill/attitude› toward that creature becomes helpful. If a romantic attraction is possible toward the first person viewed, the drinker falls in love with that person. Otherwise, the drinker's love is a platonic adoration. The effects of the philter are permanent unless removed by a ‹spell/break enchantment›, ‹spell/dispel magic›, ‹spell/limited wish›, ‹spell/miracle›, ‹spell/remove curse›, or ‹spell/wish›.",
 			"",
 			"### Construction",
 			"",
