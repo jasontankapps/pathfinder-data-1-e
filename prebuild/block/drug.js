@@ -1,4 +1,4 @@
-const makeDrugBlock = (marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError) => {
+const makeDrugBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError}) => {
 	const {
 		type, addict, minor, moderate, severe, dc,
 		price, eff1, eff2,

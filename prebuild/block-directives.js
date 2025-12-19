@@ -223,7 +223,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				const id = prefix + makeValidID(text + "-haunt");
-				return makeDrugBlock(marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError);
+				return makeDrugBlock({marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError});
 			} else if (n === "trap") {
 				// Trap
 				churn(n, attrs, [
@@ -234,7 +234,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				const id = prefix + makeValidID(text + "-haunt");
-				return makeTrapBlock(marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError);
+				return makeTrapBlock({marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError});
 			} else if (n === "haunt") {
 				// Haunt
 				churn(n, attrs, [
@@ -243,7 +243,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				], [], logError);
 				const marked2 = makeNewMarkedInstance();
 				const id = prefix + makeValidID(text + "-haunt");
-				return makeHauntBlock(marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError);
+				return makeHauntBlock({marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError});
 			} else if (n === "spell") {
 				// Spell
 				churn(n, attrs, [
@@ -527,6 +527,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				const id = prefix + makeValidID(text + "-team");
 				return makeRoomBlock({marked2, convertEncodedInfo, id, maybeClear, text, attrs, logError, team: true});
 			}
+			console.log(`Unknown block directive [::${n}]`);
 			return false;
 		}
 	};

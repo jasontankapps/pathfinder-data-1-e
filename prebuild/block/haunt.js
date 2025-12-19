@@ -1,4 +1,4 @@
-const makeHauntBlock = (marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError) => {
+const makeHauntBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError}) => {
 	const {
 		notice, hp, weak, trigger, reset,
 		start

@@ -1,4 +1,4 @@
-const makeTrapBlock = (marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError) => {
+const makeTrapBlock = ({marked2, flags, convertEncodedInfo, id, maybeClear, text, attrs, logError}) => {
 	const {
 		cr, magic, mechanical, terrain,
 		pdc, dddc, trigger,
