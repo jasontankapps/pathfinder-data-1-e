@@ -86,7 +86,7 @@ export const makeAbilityBlock = ({
 				return [doParse(usage), "error"];
 			} else if (useInc) {
 				const [inc, clss, base] = useInc.split(/~/);
-				const unit = useUnit || "round";
+				const unit = useUnit || "time";
 				if(!base) {
 					return [`1 ${unit}/day per ${writtenNumber(Number(inc))} ${clss} levels`, unit];
 					//useInc=2~cleric =>

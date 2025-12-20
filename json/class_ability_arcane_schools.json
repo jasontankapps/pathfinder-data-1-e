@@ -47,7 +47,7 @@
 			"",
 			"::ab[Counterspell Mastery-Feat (Su)]{l=6 icon=power passive=\"You gain ‹feat/Improved Counterspell› as a bonus feat.\"}",
 			"",
-			"::ab[Counterspell Mastery-Immediate (Su)]{l=6 icon=magic immediate=\"You may attempt to counterspell an opponent's spell. You must use a spell at least one level higher than the spell being countered to use this ability.\" useInc=\"4~wizard~6\" useUnit=time}"
+			"::ab[Counterspell Mastery-Immediate (Su)]{l=6 icon=magic immediate=\"You may attempt to counterspell an opponent's spell. You must use a spell at least one level higher than the spell being countered to use this ability.\" useInc=\"4~wizard~6\"}"
 		]
 	},
 	"conjuration": {
@@ -100,7 +100,7 @@
 			"",
 			"::ab[Create Gear (Su)]{l=1 icon=magic standard=\"You can create any object that weighs no more than 1 pound per wizard level you possess. The item remains for 1 minute before fading away, although it disappears after one round if it leaves your possession. Creating an item to an exact specification might require a ‹skill/Craft› skill check, subject to GM discretion. The object must be made of simple materials, such as wood, stone, glass, or metal, and cannot contain any moving parts. You could use this ability to create a ‹eq-weapon/dagger›, but not a vial of ‹eq-weapon/alchemist's fire.›\" useMod3=Int}",
 			"",
-			"::ab[Creator's Will (Sp)]{l=8 icon=magic standard=\"You can cast ‹spell/minor creation› as a spell-like ability. You can have no more than one minor creation active at a time. If you cast the spell again, the previous casting immediately ends.\" imp12=\"This ability improves to ‹spell/major creation›.\" useInc=\"2~wizard\" useUnit=time}",
+			"::ab[Creator's Will (Sp)]{l=8 icon=magic standard=\"You can cast ‹spell/minor creation› as a spell-like ability. You can have no more than one minor creation active at a time. If you cast the spell again, the previous casting immediately ends.\" imp12=\"This ability improves to ‹spell/major creation›.\" useInc=\"2~wizard\"}",
 			"",
 			"::h3[Extradimension School]{jl}",
 			"",
@@ -579,7 +579,7 @@
 			"",
 			"::ab[Magma Furrow (Su)]{l=1 icon=line standard=\"You can send forth a 20-foot line of magma. Any creature in this line takes 1d6 points of fire damage + 1 point for every 2 wizard levels you have. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) halves this damage. In addition, the ground in this area remains molten for another 1d4 rounds. Creatures that begin their turns in the area can move out that turn without penalty, but those that enter the area each take 1d6 points of fire damage.\" useMod3=Int}",
 			"",
-			"::ab[Lava Shield (Su)]{l=8 icon=def standard=\"You can create a barrier of lava to protect you for 1 round. Choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total ‹rule/cover› from attacks that pass through this edge, and you gain the benefits of ‹spell/fire shield› (warm shield) while adjacent to the lava shield. You can dismiss the lava shield as a free action, and it disappears immediately if you leave your space.\" useInc=\"2~wizard\"}",
+			"::ab[Lava Shield (Su)]{l=8 icon=def standard=\"You can create a barrier of lava to protect you for 1 round. Choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total ‹rule/cover› from attacks that pass through this edge, and you gain the benefits of ‹spell/fire shield› (warm shield) while adjacent to the lava shield. You can dismiss the lava shield as a free action, and it disappears immediately if you leave your space.\" useInc=\"2~wizard\" useUnit=round}",
 			"",
 			"::h3[Mud School]{jl}",
 			"",
@@ -633,7 +633,7 @@
 			"",
 			"::ab[Magma Furrow (Su)]{l=1 icon=line standard=\"You can send forth a 20-foot line of magma. Any creature in this line takes 1d6 points of fire damage + 1 point for every 2 wizard levels you have. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) halves this damage. In addition, the ground in this area remains molten for another 1d4 rounds. Creatures that begin their turns in the area can move out that turn without penalty, but those that enter the area each take 1d6 points of fire damage.\" useMod3=Int}",
 			"",
-			"::ab[Lava Shield (Su)]{l=8 icon=def standard=\"You can create a barrier of lava to protect you for 1 round. Choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total ‹rule/cover› from attacks that pass through this edge, and you gain the benefits of ‹spell/fire shield› (warm shield) while adjacent to the lava shield. You can dismiss the lava shield as a free action, and it disappears immediately if you leave your space.\" useInc=\"2~wizard\"}",
+			"::ab[Lava Shield (Su)]{l=8 icon=def standard=\"You can create a barrier of lava to protect you for 1 round. Choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total ‹rule/cover› from attacks that pass through this edge, and you gain the benefits of ‹spell/fire shield› (warm shield) while adjacent to the lava shield. You can dismiss the lava shield as a free action, and it disappears immediately if you leave your space.\" useInc=\"2~wizard\" useUnit=round}",
 			"",
 			"::h3[Smoke School]{jl}",
 			"",
@@ -740,7 +740,7 @@
 			"",
 			"::ab[Cold Blast (Su)]{l=1 icon=aura standard=\"You can unleash a blast of freezing cold. This blast deals 1d6 points of cold damage + 1 point for every two wizard levels you possess to all creatures within 5 feet of you and ‹misc/stagger«s› them for 1 round. A successful Reflex save negates the staggered effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier.\" useMod3=Int}",
 			"",
-			"::ab[Wave (Su)]{l=8 icon=line standard=\"You can create a wave of water that starts at your location and moves 30 feet per round away from you in a direction of your choosing. Creatures struck by the wave might be knocked down and pushed away. Make a caster level check against the CMD of each creature struck. If you succeed, the creature is knocked ‹rule/prone›. If your check exceeds the CMD of the creature by 5 or more, it is carried with the wave during the wave's movement this round. You receive a +5 bonus on this check if the creature shares its space with the wave at the start of your turn (when the wave moves). Creatures carried in this way can move out of the wave on their turn if they succeed on a Strength check (DC = 10 + 1/2 your caster level + your Intelligence modifier), but they cannot breathe while sharing space with the wave. The wave is up to 20 feet high and up to 5 feet long for each wizard level you possess. Nonmagical fires hit by the wave are automatically extinguished. Magical fire effects are unaffected.\" useInc=\"2~wizard\"}",
+			"::ab[Wave (Su)]{l=8 icon=line standard=\"You can create a wave of water that starts at your location and moves 30 feet per round away from you in a direction of your choosing. Creatures struck by the wave might be knocked down and pushed away. Make a caster level check against the CMD of each creature struck. If you succeed, the creature is knocked ‹rule/prone›. If your check exceeds the CMD of the creature by 5 or more, it is carried with the wave during the wave's movement this round. You receive a +5 bonus on this check if the creature shares its space with the wave at the start of your turn (when the wave moves). Creatures carried in this way can move out of the wave on their turn if they succeed on a Strength check (DC = 10 + 1/2 your caster level + your Intelligence modifier), but they cannot breathe while sharing space with the wave. The wave is up to 20 feet high and up to 5 feet long for each wizard level you possess. Nonmagical fires hit by the wave are automatically extinguished. Magical fire effects are unaffected.\" useInc=\"2~wizard\" useUnit=round}",
 			"",
 			"::h3[Ice School]{jl}",
 			"",
