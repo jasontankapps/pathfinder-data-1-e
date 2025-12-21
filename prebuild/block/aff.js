@@ -53,35 +53,35 @@ const constructEffect = (attrs, convertEncodedInfo) => {
 	if(effStr) {
 		output.push(`${effStr} ${link("Str damage")}`);
 	}
-	if(effStrD) {
-		output.push(`${effStrD} ${link("Str drain")}`);
-	}
 	if(effDex) {
 		output.push(`${effDex} ${link("Dex damage")}`);
-	}
-	if(effDexD) {
-		output.push(`${effDexD} ${link("Dex drain")}`);
 	}
 	if(effCon) {
 		output.push(`${effCon} ${link("Con damage")}`);
 	}
-	if(effConD) {
-		output.push(`${effConD} ${link("Con drain")}`);
-	}
 	if(effInt) {
 		output.push(`${effInt} ${link("Int damage")}`);
-	}
-	if(effIntD) {
-		output.push(`${effIntD} ${link("Int drain")}`);
 	}
 	if(effWis) {
 		output.push(`${effWis} ${link("Wis damage")}`);
 	}
-	if(effWisD) {
-		output.push(`${effWisD} ${link("Wis drain")}`);
-	}
 	if(effCha) {
 		output.push(`${effCha} ${link("Cha damage")}`);
+	}
+	if(effStrD) {
+		output.push(`${effStrD} ${link("Str drain")}`);
+	}
+	if(effDexD) {
+		output.push(`${effDexD} ${link("Dex drain")}`);
+	}
+	if(effConD) {
+		output.push(`${effConD} ${link("Con drain")}`);
+	}
+	if(effIntD) {
+		output.push(`${effIntD} ${link("Int drain")}`);
+	}
+	if(effWisD) {
+		output.push(`${effWisD} ${link("Wis drain")}`);
 	}
 	if(effChaD) {
 		output.push(`${effChaD} ${link("Cha drain")}`);
@@ -106,7 +106,7 @@ const constructEffect = (attrs, convertEncodedInfo) => {
 	return convertEncodedInfo(last);
 };
 
-const makeAfflictionBlock = (marked2, flags, convertEncodedInfo, maybeClear, text, attrs, logError) => {
+const makeAfflictionBlock = ({marked2, flags, convertEncodedInfo, maybeClear, text, attrs, logError}) => {
 	const {
 		iconP, iconI, iconC, iconD, iconA,
 		poison, curse, infest, disease,
@@ -139,11 +139,13 @@ const makeAfflictionBlock = (marked2, flags, convertEncodedInfo, maybeClear, tex
 	//
 	// CONFIGURE TYPE BOX
 	//
-	let supertype = poison ? "Poison" : curse ? "Curse" : infest ? "Infestation" : disease ? "Disease" : "Affliction";
+	let supertype = poison ? "Poison" : curse ? "Curse" : infest ? "Infestation" : disease ? "Disease" : "";
 	if(type && supertype) {
 		supertype = supertype + "; " + type;
 	} else if (type) {
 		supertype = type;
+	} else if (!supertype) {
+		supertype = "Affliction";
 	}
 	//
 	// CONFIGURE SAVE DC

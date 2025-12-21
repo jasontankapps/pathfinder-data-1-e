@@ -211,7 +211,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"extra","start","nolink"
 				], [ /^(in|sec)?eff((Str|Int|Dex|Con|Wis|Cha)D?|Extra|Or)$/ ], logError);
 				const marked2 = makeNewMarkedInstance();
-				return makeAfflictionBlock(marked2, flags, convertEncodedInfo, maybeClear, text, attrs, logError);
+				return makeAfflictionBlock({marked2, flags, convertEncodedInfo, maybeClear, text, attrs, logError});
 			} else if (n === "drug") {
 				// Drug
 				churn(n, attrs, [
