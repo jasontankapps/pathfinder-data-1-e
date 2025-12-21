@@ -1211,7 +1211,7 @@
 			"",
 			"**Size** Medium; **Speed** 30 ft., fly 40 ft. (average); **Attack** bite (1d6 plus poison), 2 claws (1d6); **Ability Scores Str** +4, **Dex** -2; **Special Attacks** poison.",
 			"",
-			"::aff[Homunculus Poison]{iconP type=bite-injury saveF=13 freqM=60 eff=\"sleep for 1 minute\" cure1 extra=\"Con-based DC with a +2 racial bonus\"}"
+			"::aff[Homunculus Poison]{iconP type=Bite-injury saveF=13 freqM=60 eff=\"sleep for 1 minute\" cure1 extra=\"Con-based DC with a +2 racial bonus\"}"
 		]
 	},
 	"psychonaut": {

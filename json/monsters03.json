@@ -2120,7 +2120,7 @@
 			"",
 			"**Disease (Ex)** While a benaioh is immune to disease, it carries a contagion with which it both infects other creatures and propagates itself. Any creature struck by the benaioh's spray slime ability is exposed to this disease.",
 			"",
-			"::aff[Wormrot]{iconD type=contact saveF=20 onset=\"1 minute\" freq=\"1/day\" effCon=\"1d3\" effExtra=\"‹misc/sickened›\" cure2c extra=\"The save DC is Constitution-based. A creature that dies of wormrot transforms into a benaioh over the course of the next 24 hours.\"}",
+			"::aff[Wormrot]{iconD type=Contact saveF=20 onset=\"1 minute\" freq=\"1/day\" effCon=\"1d3\" effExtra=\"‹misc/sickened›\" cure2c extra=\"The save DC is Constitution-based. A creature that dies of wormrot transforms into a benaioh over the course of the next 24 hours.\"}",
 			"",
 			"**Spray Slime (Ex)** Once every 1d4 rounds (but no more than 6 times per day), a benaioh in its clay shell can force a stream of itself in a 20-foot line of worm-laden slime from one of the clay shell's orifices. The putrescent sludge deals 3d6 points of acid damage and exposes the target to wormrot.",
 			"",

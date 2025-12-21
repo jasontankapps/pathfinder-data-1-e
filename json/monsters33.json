@@ -1218,7 +1218,7 @@
 			"",
 			"**Retributive Miasma (Ex)** Any attack that overcomes the damage reduction of the lead golem causes fine lead particles to fill the air within a 5-foot radius of the lead golem. This cloud of lead persists for 1 round; any creatures within the area or that pass through the cloud are exposed to the cloud's poisonous effects. Subsequent attacks damaging the golem increase the duration of the cloud by 1 round each.",
 			"",
-			"::aff[Poison Cloud]{iconP type=inhaled saveF=16 freqR=6 effCon=\"1d3\" effWis=\"1d3\" cure2 extra=\"The save DC is Con-based.\"}",
+			"::aff[Poison Cloud]{iconP type=Inhaled saveF=16 freqR=6 effCon=\"1d3\" effWis=\"1d3\" cure2 extra=\"The save DC is Con-based.\"}",
 			"",
 			"::sh[Description]",
 			"",

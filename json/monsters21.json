@@ -2605,7 +2605,7 @@
 			"",
 			"**Plague Shadow (CR +1):** Plague shadows appear as Medium-sized shadows of animals associated with disease: typically rats or bats. Rather than simply draining a victim's Strength on a hit, plague shadows also inflict a dreaded curse known as shadow blight. Victims of this supernatural disease quickly weaken and die, at which point they spawn new plague shadows to further spread the contagion. A plague shadow has the Advanced creature simple template, but does not gain a natural armor bonus to its AC.",
 			"",
-			"::aff[Shadow blight]{iconC type=\"curse and disease\" saveF=16 onset=\"1 minute\" freq=\"1/day\" effStr=\"1d8\" cure=\"Successfully casting both ‹spell/remove curse› and ‹spell/remove disease› within 1 minute of each other.\" extra=\"Upon death, the victim becomes a plague shadow\"}",
+			"::aff[Shadow blight]{iconC type=\"Curse and disease\" saveF=16 onset=\"1 minute\" freq=\"1/day\" effStr=\"1d8\" cure=\"Successfully casting both ‹spell/remove curse› and ‹spell/remove disease› within 1 minute of each other.\" extra=\"Upon death, the victim becomes a plague shadow\"}",
 			"",
 			"**Shadetouch Shadow (CR +0):** Shadetouch shadows are infused with partially real shadowstuff from the Shadow Plane. They treat the Shadow Plane as their home plane (and thus gain the \"extraplanar\" subtype on the Material Plane). A shadetouch shadow lacks the typical shadow's incorporeal touch-instead, it possesses two claw attacks that each deal 1d8 points of damage on a hit, in addition to the normal amount of Strength damage shadows inflict.",
 			"",

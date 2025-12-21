@@ -213,7 +213,7 @@
 			">",
 			">**Disease (Su):** Even though Mana Wastes mutants are immune to disease, they carry a deadly magical contagion that they spread with their slam attacks.",
 			">",
-			">::aff[Mana Fever]{iconD type=injury dcF dcHD=\"Mana Wastes mutant\" dcIt=its dcMod=Con onset=\"1d4 minutes\" freq=\"1/day\" effCon=\"1d2\" effChaD=\"1d2\" extra=\"If the base creature has 8 HD or more, the Con damage and Cha drain both increase to 1d3.\" cure2c}",
+			">::aff[Mana Fever]{iconD type=Injury dcF dcHD=\"Mana Wastes mutant\" dcIt=its dcMod=Con onset=\"1d4 minutes\" freq=\"1/day\" effCon=\"1d2\" effChaD=\"1d2\" extra=\"If the base creature has 8 HD or more, the Con damage and Cha drain both increase to 1d3.\" cure2c}",
 			">",
 			">Anyone who lives with mana fever for a week straight without dying becomes immune to the disease, but also becomes a Mana Wastes mutant.",
 			">",

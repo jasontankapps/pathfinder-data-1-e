@@ -28,7 +28,7 @@
 			"",
 			"‹SOURCE GameMastery Guide/237›",
 			"",
-			"::drug{start type=\"inhaled or ingested\" minor dc=12 price=10 eff1=\"1 hour; +2 alchemical bonus on saves against mind-affecting effects, ‹misc/fatigue›\" dmgWis=1}"
+			"::drug{start type=\"Inhaled or ingested\" minor dc=12 price=10 eff1=\"1 hour; +2 alchemical bonus on saves against mind-affecting effects, ‹misc/fatigue›\" dmgWis=1}"
 		]
 	},
 	"morgod_jelly": {
@@ -39,7 +39,7 @@
 			"",
 			"‹SOURCE Pathfinder #99: Dance of the Damned/86›",
 			"",
-			"::drug{start type=\"ingested or injury\" addict=\"special (see below)\" dc=15 price=10 eff1=\"1 hour; +1d2 Cha and all creatures are considered to have ‹rule/concealment› against the user\" dmgCha=\"1d2\" dmgWis=\"1d2\"}",
+			"::drug{start type=\"Ingested or injury\" addict=\"special (see below)\" dc=15 price=10 eff1=\"1 hour; +1d2 Cha and all creatures are considered to have ‹rule/concealment› against the user\" dmgCha=\"1d2\" dmgWis=\"1d2\"}",
 			"",
 			"Morgod jelly causes vivid hallucinations and a sense of euphoria, and proves remarkably addictive to most humanoids. ‹monster/Morgodea«s› not only coat their stingers in this jelly, but also collect it in vials or wax-covered paper to sell to victims once they become addicted.",
 			"",
@@ -80,7 +80,7 @@
 			"",
 			"‹SOURCE GameMastery Guide/237›",
 			"",
-			"::drug{start type=\"ingested or inhaled\" moderate dc=20 price=15 eff1=\"1 hour; +1d2 alchemical bonus to Strength, -2 penalty on saves against illusions and mind-affecting effects\" eff2=\"after 1 hour; 1d2 hours of ‹misc/fatigue›\" dmgCon=\"1d2\" dmgWis=\"1d2\"}"
+			"::drug{start type=\"Ingested or inhaled\" moderate dc=20 price=15 eff1=\"1 hour; +1d2 alchemical bonus to Strength, -2 penalty on saves against illusions and mind-affecting effects\" eff2=\"after 1 hour; 1d2 hours of ‹misc/fatigue›\" dmgCon=\"1d2\" dmgWis=\"1d2\"}"
 		]
 	},
 	"vigilance": {
@@ -154,7 +154,7 @@
 			"",
 			"‹SOURCE GameMastery Guide/237›",
 			"",
-			"::drug{start type=\"inhaled, ingested, or injury\" severe dc=20 price=25 eff1=\"1 hour; +1d8 temporary hit points, +2 alchemical bonus on Fortitude saves, ‹misc/fatigue›\" dmgCon=\"1d4\" dmgWis=\"1d4\"}"
+			"::drug{start type=\"Inhaled, ingested, or injury\" severe dc=20 price=25 eff1=\"1 hour; +1d8 temporary hit points, +2 alchemical bonus on Fortitude saves, ‹misc/fatigue›\" dmgCon=\"1d4\" dmgWis=\"1d4\"}"
 		]
 	},
 	"tears_of_razmir": {
@@ -178,7 +178,7 @@
 			"",
 			"‹SOURCE GameMastery Guide/237›",
 			"",
-			"::drug{start type=\"ingested or inhaled\" severe dc=24 price=45 eff1=\"3 hours; +1d4 alchemical bonus to Dexterity, -1d4 penalty to Wisdom\" dmgCon=\"1d6\"}"
+			"::drug{start type=\"Ingested or inhaled\" severe dc=24 price=45 eff1=\"3 hours; +1d4 alchemical bonus to Dexterity, -1d4 penalty to Wisdom\" dmgCon=\"1d6\"}"
 		]
 	},
 	"stings_savor": {
@@ -328,7 +328,7 @@
 			"",
 			"‹SOURCE Undead Slayer's Handbook/9›",
 			"",
-			"::drug{start type=\"ingested or injury\" moderate dc=14 price=150 eff1=\"1 hour; +2 alchemical bonus on saving throws against spells and effects with the curse or disease descriptor, fatigue\" dmgWis=\"1d2\"}",
+			"::drug{start type=\"Ingested or injury\" moderate dc=14 price=150 eff1=\"1 hour; +2 alchemical bonus on saving throws against spells and effects with the curse or disease descriptor, fatigue\" dmgWis=\"1d2\"}",
 			"",
 			"A laboratory-created version of the expensive and infamous Osirian drug ‹drug/mumia›, ‹eq-misc/synthetic mumia› is a mixture of honey, embalming fluids, and various animal organs. The murky liquid comes enclosed in small packets made of intestine. Mumia and synthetic mumia may be taken interchangeably to stave off the effects of addiction to either substance, and is thus used by some mumia junkies hoping to quit their addiction."
 		]
@@ -354,7 +354,7 @@
 			"",
 			"‹SOURCE Numeria, Land of Fallen Stars/25›",
 			"",
-			"::drug{start type=\"ingested or inhaled\" severe dc=15 price=300 eff1=\"1 hour; gains darkvision with a range of 60 feet, the ability to see invisible creatures (as ‹spell/see invisibility›), and vulnerability to sonic damage\" dmgCon=\"1d2\" dmg=\"1 Wisdom drain\"}",
+			"::drug{start type=\"Ingested or inhaled\" severe dc=15 price=300 eff1=\"1 hour; gains darkvision with a range of 60 feet, the ability to see invisible creatures (as ‹spell/see invisibility›), and vulnerability to sonic damage\" dmgCon=\"1d2\" dmg=\"1 Wisdom drain\"}",
 			"",
 			"A resilient, iridescent mold that blooms with a peridot-colored encrustation before releasing invisible spores, starspore grows on ‹eq-material/adamantine› and other ‹eq-material/skymetal«s› as well as their alloys. It requires trace toxins found in the rains and water of Numeria to grow. Ingesting or inhaling starspore opens the mind, enhances the senses, and bestows a feeling of invulnerability upon the user, but these sensations come at a price."
 		]
@@ -378,7 +378,7 @@
 			"",
 			"‹SOURCE Lost Kingdoms/22›",
 			"",
-			"::drug{start type=\"inhaled, ingested, or injury\" severe dc=18 price=500 eff1=\"1 hour; +1d8 temporary hit points, +2 alchemical bonus on saving throws made against spells and effects with the curse or disease descriptor, ‹misc/fatigue›. If the user is addicted for more than a week straight, she has a cumulative +5% chance of transforming into a ‹monster/ghoul› every week she remains addicted.\" dmgWis=\"1d2\"}",
+			"::drug{start type=\"Inhaled, ingested, or injury\" severe dc=18 price=500 eff1=\"1 hour; +1d8 temporary hit points, +2 alchemical bonus on saving throws made against spells and effects with the curse or disease descriptor, ‹misc/fatigue›. If the user is addicted for more than a week straight, she has a cumulative +5% chance of transforming into a ‹monster/ghoul› every week she remains addicted.\" dmgWis=\"1d2\"}",
 			"",
 			"Perhaps the strangest of the valuables removed from the dusty tombs of Osirion is the flesh of the dead itself. During the years of satrapy-dominated Osirion and later under the rule of Keleshite sultans, a highly prized royal physician of Osirian descent by the name of Merenfren used a previously unknown black, tar-like substance as an ingredient in numerous salves, potions, and pills she concocted to treat ailments and revitalize her wealthy clientele.",
 			"",
@@ -466,7 +466,7 @@
 			"",
 			"‹SOURCE GameMastery Guide/237›",
 			"",
-			"::drug{start type=\"injury or ingested\" severe dc=18 price=500 eff1=\"variable; 50% chance to sleep for 1d4 hours or gain immunity to fear for 1d4 minutes\" dmgCon=\"1d2\"}"
+			"::drug{start type=\"Injury or ingested\" severe dc=18 price=500 eff1=\"variable; 50% chance to sleep for 1d4 hours or gain immunity to fear for 1d4 minutes\" dmgCon=\"1d2\"}"
 		]
 	},
 	"wyrm_pesh": {
@@ -477,7 +477,7 @@
 			"",
 			"‹SOURCE Dragonslayer's Handbook/19›",
 			"",
-			"::drug{start type=\"ingested or inhaled\" severe dc=24 price=500 eff1=\"1 hour; 25 temporary hit points\" eff2=\"1 day; +2 alchemical bonus on saves against sleep and paralysis effects\" dmgWis=\"1d2\"}",
+			"::drug{start type=\"Ingested or inhaled\" severe dc=24 price=500 eff1=\"1 hour; 25 temporary hit points\" eff2=\"1 day; +2 alchemical bonus on saves against sleep and paralysis effects\" dmgWis=\"1d2\"}",
 			"",
 			"This rare and expensive [variant](eq-misc/wyrm_pesh) of standard Garundi ‹drug/pesh› is produced by introducing a vial of dragon's blood into a dose of pesh during the refining process, and has a noticeable reddish tint. While the drug provides a more potent high and fewer immediate penalties, it is highly addictive, and unless a user has a steady supply of dragon's blood, the cost to her well-being can be severe."
 		]
