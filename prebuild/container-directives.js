@@ -50,8 +50,8 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 							contents: removeCurlyBrackets(
 									marked2.parse(text2), true
 								)
-								.replace(/<[/]p>\s*<p>/g, "<br /><br />")
-								.replace(/<[/]?p>/g, "")
+//								.replace(/<[/]p>\s*<p>/g, "<br /><br />")
+//								.replace(/<[/]?p>/g, "")
 						},
 						...etc
 					};

@@ -1137,11 +1137,18 @@ div.abPair {
 	/*border-inline-start-width: 2px;*/
 	position: relative;
 }
-div:is(.abStart,.abEnd) {
+div:is(.abStart,.abEnd),
+div.abEnd p {
 	font-size: 1rem;
 	line-height: 1.25em;
 	border-width: 0;
 	text-align: start;
+}
+div.abEnd p:first-child {
+	margin-block-start: 0;
+}
+div.abEnd p:last-child {
+	margin-block-end: 0;
 }
 div.abStart {
 	float: inline-start;
@@ -1156,6 +1163,9 @@ div.abStart {
 	flex-flow: row nowrap;
 	align-items: center;
 	justify-content: flex-end;
+}
+div.abEnd li + li {
+	margin-block-start: 0.1rem;
 }
 div.abEnd.simple a {
 	text-decoration: none;
