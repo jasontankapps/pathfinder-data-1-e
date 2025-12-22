@@ -9,7 +9,7 @@ type Data = typeof equipment;
 
 type Params = { id?: keyof Data };
 
-const topLink: Hierarchy = ["Spellbooks", "main/equipment_spellbook"];
+const topLink: Hierarchy = ["Spellbooks", "main/equipment_spellbooks"];
 
 const EquipmentSpellbookPage: React.FC = () => {
 
