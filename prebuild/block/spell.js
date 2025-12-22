@@ -205,7 +205,8 @@ const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, at
 			|| (cFDFp && cFp) // multiple foci
 
 			|| (cDF && cMDF)
-			|| (cDF && cFDFp) // multiple divine foci
+			|| (cDF && cFDFp)
+			|| (cMDF && cFDFp) // multiple divine foci
 		)) {
 			logError(`Found multiple components`);
 		}
@@ -330,7 +331,7 @@ const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, at
 	if(saving && resist) {
 		output.push(`<strong>Saving Throw</strong> ${saving}; <strong>Spell Resistance</strong> ${resist}`);
 	} else if (saving || resist) {
-		logError("Missing either saving throw or spell resistance info")
+		logError(`Missing ${resist ? "saving throw" : "spell resistance"} info`)
 	}
 	return `${maybeClear}<p>${output.join("<br>")}</p>`;
 };

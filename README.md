@@ -17,3 +17,7 @@ The non-OGC content of *Pf Data 1e* is Copyright 2024 by Jason Tamez. It is also
 After installing this project, you will need to run `npm run index` to generate the search index and many helper files, followed by `npm run makedata` to generate the majority of the app's files. If you alter the `.json` files, you will need to run the scripts again. (You can doublecheck the integrity of modified JSON files by running `npm run tester` and using the provided schema.)
 
 These extra files are not included in the main repository because they rely on the main `.json` files for their data. Per the Open Game License, the raw game data must remain human-readable. The search index, helper files, and the other generated files are not as readable, and they would contain duplicated data. Therefore we generate them as needed, keeping a separation between the human-readable data and the computer-usable data. This also means that you only need to keep track of the game data in one place, and update everything else as needed.
+
+## JSON Files
+
+Most text is in Markdown, with a few extras. See the [JSON](./JSON.md) help file for specifics.
