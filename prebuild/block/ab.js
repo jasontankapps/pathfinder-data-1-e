@@ -237,6 +237,9 @@ export const makeAbilityBlock = ({
 				case "info": { // just a simple note
 					return "info";
 				}
+				case "warning": {
+					return "hazard-sign";
+				}
 			}
 			logError(`---> Missing or invalid icon [${i}][${text}]`);
 			return "confirmed";

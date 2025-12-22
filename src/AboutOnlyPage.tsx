@@ -43,6 +43,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 					<IonIcon icon="/icons/shield-reflect.svg" />
 					<IonIcon icon="/icons/smoking-finger.svg" />
 					<IonIcon icon="/icons/tornado-discs.svg" />
+					<IonIcon icon="/icons/hazard-sign.svg" />
 				</p>
 			</IonLabel></IonItem>
 			<IonItem><IonLabel>
