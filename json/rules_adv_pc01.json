@@ -1569,6 +1569,7 @@
 			"effects_of_rumors"
 		]
 	},
+	"spread_a_rumor": { "redirect": "influencing_a_rumor" },
 	"effects_of_rumors": {
 		"name": "Rumors",
 		"sources": [ "Inner Sea Intrigue" ],
