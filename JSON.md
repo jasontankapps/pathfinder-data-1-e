@@ -14,7 +14,7 @@ A string is converted into a link if it is surrounded by `‹angle quotes›` be
 
 ### Simple form
 
-`‹protocol/link text›` is transformed into `[link text](protocol/link_text)`.
+`‹protocol/link text›` is transformed into `[link text](protocol/link_url)`.
 
 `Link text` is converted into `link_url` by first converting the text to lowercase. Next, all spaces, dashes and slashes `[- /]` are converted into underscores `_`. Finally, all non-alphanumeric and non-underscore characters are deleted.
 
@@ -196,16 +196,6 @@ This is the main workhouse of most "main" pages. It inserts a link to somewhere 
 - `endem` is the same as `end` but the text will be italicized
 - `bottom` is a string that will be shrunk, italicized, and put below the link
 
-| Simple Main-page Directives | Description |
-| --- | --- |
-| `@FN[X]` | Creates a "fake" footnote with the character X. |
-| `@FN[Body of footnote]{from=X}` | Creates a "fake" footnote that links back to (and is linked to by) footnote X. |
-| `@altCapstoneDesc` | Creates a preamble for the Alternate Capstones section of a class. |
-| `@span[text]` | Puts text in a `<span>` block. |
-| `@span[text]{className=special}` | As above, but has properties that will be included in the `<span>` tag. |
-| `@b[text]`, `@strong[text]` | As above, but puts text in a `<strong>` block. Use only to include properties like `className`. |
-| `@i[text]`, `@em[text]` | As above, but puts text in an `<em>` block. Use only to include properties like `className`. |
-
 #### ::prereq
 
 Used to make a simple prerequisites block.
@@ -229,6 +219,17 @@ This inserts a simple aside into a spell.
 <aside>Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity always treat the spell as common, and need not research it in order to prepare or learn it. This spell is available to members of other faiths, though some temples or religious organizations may proscribe the use of specific spells. -- \[Inner Sea Gods pg. 228\]\(source/inner_sea_gods\)</aside>
 ```
 
+#### ::archetype
+
+Creates a small archetype description for a class page.
+
+`::archetype[Name of Archetype]{c="" r="" e=""}`
+
+- `c` is the class this is an archetype for
+    - Must be in `link_url` format, i.e. `c=unchained_monk` and not `c="unchained monk"`
+- `r` is the list of abilities the archetype replaces or modifies
+- `e` is a short description of the archetype
+
 #### ::drug
 
 This inserts a block describing a drug.
@@ -236,17 +237,17 @@ This inserts a block describing a drug.
 `::drug[Name (optional)]{start? <addictionPotential> dc=## price=## type="" eff1="" eff2?="" <drugDamage>}`
 
 - `start` indicates the block should start-align (end-align is default)
-- `<addictionPotential>`: `minor | moderate | severe | addict`
+- `<addictionPotential>`: `minor | moderate | severe | addict=""`
     - A minor `minor`, `moderate`, or `severe` prop indicate the drug's addiction potential
-    - If none of those are given, an `addict` prop **must** be given with the addiction info
+    - The `addict` prop contains addiction info that doesn't neatly fit into the three categories
 - `dc` is the drug's Fortitude save DC to avoid addiction
 - `price` is the cost in gp (use decimals for silver or copper)
 - `type` indicates the type of drug (usually ingested, injury, inhaled, or some combination of the three)
 - `eff1` and `eff2` are used to describe the drug's effects; usually, only `eff1` is needed
-- `<drugDamage>`: `dmgStr=## | dmgDex=## | dmgCon=## | dmgInt=## | dmgWis=## | dmgCha=## | dmg=""`
+- `<drugDamage>`: `dmgStr?=## dmgDex?=## dmgCon?=## dmgInt?=## dmgWis?=## dmgCha?=## dmg=?""`
     - `dmgStr` is the amount of strength damage the drug deals; `dmgDex` and so on work the same way
     - `dmg` is any extra damage the drug may do
-    - **At least one** `dmg*` prop must be used
+    - **At least one** of these props must be used
 
 #### ::trap
 
@@ -255,7 +256,7 @@ This inserts a block describing a trap.
 `::trap[Name (Optional)]{start? <typing> cr=## terrain?="" pdc="" dddc="" trigger="" <reset>? eff=""}`
 
 - `start` indicates the block should start-align (end-align is default)
-- `<typing>`: `<magic | mechanical>`
+- `<typing>`: `magic | mechanical`
     - Either a `magic` or `mechanical` prop must be provided to indicate what type of trap this is
 - `cr` is the CR of the trap
 - `terrain` is any associated terrain(s) the trap may have
@@ -291,7 +292,6 @@ This inserts an affliction block, usually poison, curse, disease, or infestation
 
 - `start` indicates the block should start-align (end-align is default)
 - `<icon>`: `iconP | iconI | iconC | iconD | iconA`
-    - **At least one** of these props must be present
     - Determines what icon to use with the block, and where it links to
     - `iconP` indicates poison, `iconI` is an infestation, `iconC` is for a curse, `iconD` is a disease, and `iconA` is for a general affliction that doesn't fall into any previous category
 - If `nolink` is present, the icon will **not** link anywhere
@@ -330,10 +330,10 @@ This inserts an affliction block, usually poison, curse, disease, or infestation
 - `onset` describes the onset time of the affliction, if any
 - `track` describes what attribute track the affliction uses, if any (this is for Unchained afflictions)
     - `trackmod` gives a new track for the affliction to follow, if needed
-- `<effects>`: `eff="" | (ineff="" seceff="") | <effects2> | (<initialeffects> <secondaryeffects>)`
+- `<effects>`: `eff="" | ineff="" seceff="" | <effects2> | <initialeffects> <secondaryeffects>`
     - `eff` describes the effects of the affliction
     - `ineff` describes the initial effects of the affliction, while `seceff` describes any secondary effects
-    - `<effects2>`: `(<statdamage> <statdrain> effExtra?="") effOr?`
+    - `<effects2>`: `<statdamage>? <statdrain>? effExtra?="" effOr?`
         - `<statdamage>`: `effStr="" effDex="" effCon="" effInt="" effWis="" effCha=""`
             - `effStr` is the amount of Strength *damage* the affliction causes
             - `effDex` through `effCha` target the other attributes
@@ -498,3 +498,47 @@ This creates a stat block for a spell.
     - `srObject` means (object) should be appended to the spell resistance info
     - `harmless` means (harmless) should be appended to BOTH
     - `object` means (object) should be appended to BOTH
+
+#### minfo
+
+This prints out the first part of a monster's stat block
+
+`minfo[Optional race/class]{source="" xp=## <alignment> <size> <type> <subtyping>? init="" <senses> aura?=""}`
+
+- `source` is the monster's source information, in `SOURCE text` format
+- `xp` is the amount of XP the monster is worth
+- `<alignment>`: `al="" | lg | ln | le | ng | n | ne | cg | cn | ce`
+    - If `al` is provided, it is used verbatim
+    - Otherwise, the given alignment will be used (`lg` = `LG` (lawful good))
+- `<size>`: `fine | diminutive | tiny | small | medium | large | huge | gargantuan | colossal`
+    - Indicates the monster's size category
+- `<type>`: `aberration | animal | construct | dragon | fey | humanoid | magicalBeast | monstrousHumanoid | ooze | outsider | plant | undead | vermin`
+    - Indicates the monster's type
+        - `monstrousHumanoid` = monstrous humanoid
+        - `magicalBeast` = magical beast
+- `<subtyping>`: `subtypes="" | subs?="" othersubs?="" augment?=""
+    - If `subtypes` is present, it will be surrounded by parentheses and added to the text
+    - `subs` is a list of subtypes that have entries in `subtypes.json`, separated by `"~"`
+    - `othersubs` is a list of other subtypes the monster has, also separated by `"~"`
+    - `augment` indicates the special augmented subtype, and the text should be the type being augmented
+        - Example: `augment:humanoid` is an augmented humanoid, while `augment:"monstrous humanoid"` is an augmented monstrous humanoid
+- `init` is the initiative modifier, either `"+##"` or `"-##"`
+- `<senses>`: `sen?="" senSpell?="" dv?=## llv? keenscent? scent? thoughtsense?=## greensight? lifesense? blindsight?=## blindsense?=## tremorsense?=## mistsight? xray? aav? sid? pcp?=""`
+    - `sen` is a list of senses not covered by any other prop, separated by `"~"`
+    - `senSpell` is a list of spells listed in the monster's senses, separated by `"~"`
+    - `dv` indicates darkvision, e.g. `dv=60` = darkvision 60 ft
+    - `llv` indicates low-light vision
+    - `keenscent` is the keen scent trait
+    - `scent` is the scent trait
+    - `thoughtsense` indicates the range of the monster's thoughtsense
+    - `greensight` indicates the greensight ability
+        - It may optionally include the distance, e.g. `greensight=60` is greensight 60 ft.
+    - `lifesense` is the lifesense ability, and may optionally include a distance as `greensight` does
+    - `blindsight`, `blindsense` and `tremorsense` all indicate their respective abilities, and must include a distance
+        - Example: `tremorsense=60` = tremorsense 60 ft.
+    - `mistsight` is the rare mistsight ability
+    - `xray` indicates x-ray vision
+    - `aav` indicates all-around vision
+    - `sid` is the see in darkness ability
+    - `pcp` is the monster's Perception modifier, either `"+##"` or `"-##"`
+- `aura` is text describing any auras the monster emanates
