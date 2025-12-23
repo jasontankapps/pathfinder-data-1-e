@@ -313,7 +313,7 @@
 			"| 19th | +19/+14/+9/+4 | +11 | +6 | +6 | Challenge 7/day |",
 			"| 20th | +20/+15/+10/+5 | +12 | +6 | +6 | Last stand |",
 			"",
-			"::prof{simple martial weaps=\"katana~naginata~wakizashi\" light medium heavy shields}",
+			"::prof{simple martial weaps=katana~naginata~wakizashi light medium heavy shields}",
 			"",
 			"::ab[Challenge (Ex)]{jl=strip l=1 usage=\"Once a day.\" icon=melee flavor=\"A samurai can challenge a foe to combat.\" swift=\"You choose one target within sight to challenge. Your melee attacks deal extra damage when made against the target of your *challenge.* This extra damage is equal to your level. Challenging a foe requires much of your concentration. You take a -2 penalty to your Armor Class, except against attacks made by the target of your *challenge.*\" special=\"The *challenge* remains in effect until the target is dead or unconscious or until the combat ends. Each samurai's *challenge* also includes another effect which is listed in the section describing your *order.*\" imp4=\"You can *challenge* twice a day.\" imp7=\"You can *challenge* 3 times a day.\" imp10=\"You can *challenge* 4 times a day.\" imp13=\"You can *challenge* 5 times a day.\" imp16=\"You can *challenge* 6 times a day.\" imp19=\"You can *challenge* 7 times a day.\"}",
 			"",

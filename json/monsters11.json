@@ -1397,7 +1397,7 @@
 			"",
 			"::mh[Fire Giant]{cr=10}",
 			"",
-			"::minfo{source=\"Pathfinder RPG Bestiary/148\" xp=\"9,600\" le large humanoid subs=\"fire,giant\" init=-1 llv pcp=+14}",
+			"::minfo{source=\"Pathfinder RPG Bestiary/148\" xp=\"9,600\" le large humanoid subs=fire~giant init=-1 llv pcp=+14}",
 			"",
 			"::mdefense{ac=\"24/8/24\" mod=\"+8 armor, -1 Dex, +8 natural, -1 size\" hp=\"142~15d8+75\" fort=+14 ref=+4 will=+9 rockCt immune=fire vulner=cold}",
 			"",
@@ -1430,7 +1430,7 @@
 		"description": [
 			"::mh[Fire Giant Doombringer]{cr=18}",
 			"",
-			"::minfo[‹monster/Fire giant› ‹class/oracle› 16]{source=\"Monster Codex/61\" xp=\"153,600\" le large humanoid subs=\"fire,giant\" init=+6 llv pcp=+32}",
+			"::minfo[‹monster/Fire giant› ‹class/oracle› 16]{source=\"Monster Codex/61\" xp=\"153,600\" le large humanoid subs=fire~giant init=+6 llv pcp=+32}",
 			"",
 			"::mdefense{ac=\"32/12/30\" mod=\"+9 armor, +1 deflection, +2 Dex, +8 natural, +3 shield, -1 size\" hp=\"341~31d8+202\" fort=+20 ref=+12 will=\"+20; +4 vs. disease, death effects, mind-affecting effects, poison, sleep, stunning\" rockCt dr=\"2/-\" immune=fire vulner=cold}",
 			"",
@@ -1456,7 +1456,7 @@
 		"description": [
 			"::mh[Fire Giant Glaive]{cr=12}",
 			"",
-			"::minfo[‹monster/Fire giant› ‹class/fighter› (‹arc-fighter/polearm master›) 2]{source=\"Monster Codex/58\" xp=\"19,200\" le large humanoid subs=\"fire,giant\" init=+5 llv pcp=+23}",
+			"::minfo[‹monster/Fire giant› ‹class/fighter› (‹arc-fighter/polearm master›) 2]{source=\"Monster Codex/58\" xp=\"19,200\" le large humanoid subs=fire~giant init=+5 llv pcp=+23}",
 			"",
 			"::mdefense{ac=\"24/10/23\" mod=\"+6 armor, +1 Dex, +8 natural, -1 size\" hp=\"197~15d8+2d10+119~17\" fort=+19 ref=+6 will=+10 rockCt immune=fire vulner=cold}",
 			"",
@@ -1478,7 +1478,7 @@
 		"description": [
 			"::mh[Fire Giant King]{cr=20}",
 			"",
-			"::minfo[‹monster/Fire giant› ‹class/ranger› 10]{source=\"Monster Codex/63\" xp=\"307,200\" le large humanoid subs=\"fire,giant\" init=+2 llv pcp=+38}",
+			"::minfo[‹monster/Fire giant› ‹class/ranger› 10]{source=\"Monster Codex/63\" xp=\"307,200\" le large humanoid subs=fire~giant init=+2 llv pcp=+38}",
 			"",
 			"::mdefense{ac=\"34/10/34\" mod=\"+11 armor, +3 deflection, -2 Dex, +13 natural, -1 size\" hp=\"382~15d8+10d10+260~25\" fort=+26 ref=+10 will=+14 rockCt eva immune=fire vulner=cold}",
 			"",
@@ -1508,7 +1508,7 @@
 		"description": [
 			"::mh[Fire Giant Lieutenant]{cr=16}",
 			"",
-			"::minfo[‹monster/Fire giant› ‹class/cavalier› 6]{source=\"Monster Codex/59\" xp=\"76,800\" le large humanoid subs=\"fire,giant\" init=+4 llv pcp=+19}",
+			"::minfo[‹monster/Fire giant› ‹class/cavalier› 6]{source=\"Monster Codex/59\" xp=\"76,800\" le large humanoid subs=fire~giant init=+4 llv pcp=+19}",
 			"",
 			"::mdefense{ac=\"32/10/32\" mod=\"+10 armor, +1 deflection, +8 natural, +4 shield, -1 size\" hp=\"253~15d8+6d10+153~21\" fort=+21 ref=+7 will=+12 rockCt immune=fire vulner=cold}",
 			"",
@@ -1537,7 +1537,7 @@
 		"description": [
 			"::mh[Fire Giant Magmablade]{cr=17}",
 			"",
-			"::minfo[‹monster/Fire giant› ‹class/magus› 14]{source=\"Monster Codex/60\" xp=\"102,400\" le large humanoid subs=\"fire,giant\" init=+0 llv pcp=+35}",
+			"::minfo[‹monster/Fire giant› ‹class/magus› 14]{source=\"Monster Codex/60\" xp=\"102,400\" le large humanoid subs=fire~giant init=+0 llv pcp=+35}",
 			"",
 			"::mdefense{ac=\"35/10/35\" mod=\"+11 armor, +1 deflection, +10 natural, +4 shield, -1 size\" hp=\"253~29d8+123\" fort=+23 ref=+10 will=+20 rockCt dr=\"10/adamantine (140 points)\" immune=\"fire, magic missile\" vulner=cold}",
 			"",
@@ -1567,7 +1567,7 @@
 		"description": [
 			"::mh[Fire Giant Queen]{cr=19}",
 			"",
-			"::minfo[‹monster/Fire giant› ‹class/fighter› 5/‹class/sorcerer› 8]{source=\"Monster Codex/62\" xp=\"204,800\" le large humanoid subs=\"fire,giant\" init=+2 llv pcp=+33}",
+			"::minfo[‹monster/Fire giant› ‹class/fighter› 5/‹class/sorcerer› 8]{source=\"Monster Codex/62\" xp=\"204,800\" le large humanoid subs=fire~giant init=+2 llv pcp=+33}",
 			"",
 			"::mdefense{ac=\"31/14/28\" mod=\"+7 armor, +2 deflection, +2 Dex, +1 dodge, +10 natural, -1 size\" hp=\"326~15d8+5d10+8d6+204~28\" fort=+22 ref=+10 will=\"+16 (+1 vs. fear)\" rockCt def=\"bravery +1\" immune=fire vulner=cold}",
 			"",
@@ -1597,7 +1597,7 @@
 		"description": [
 			"::mh[Fire Giant Strongarm]{cr=13}",
 			"",
-			"::minfo[‹monster/Fire giant› ‹class/fighter› 3]{source=\"Monster Codex/58\" xp=\"25,600\" le large humanoid subs=\"fire,giant\" init=+1 llv pcp=+24}",
+			"::minfo[‹monster/Fire giant› ‹class/fighter› 3]{source=\"Monster Codex/58\" xp=\"25,600\" le large humanoid subs=fire~giant init=+1 llv pcp=+24}",
 			"",
 			"::mdefense{ac=\"31/11/30\" mod=\"+9 armor, +1 deflection, +1 Dex, +8 natural, +3 shield, -1 size\" hp=\"158~15d8+3d10+75~18\" fort=+16 ref=+7 will=\"+11 (+1 vs. fear)\" rockCt def=\"bravery +1\" immune=fire vulner=cold}",
 			"",
@@ -1621,7 +1621,7 @@
 			"",
 			"::mh[Frost Giant]{cr=9}",
 			"",
-			"::minfo{source=\"Pathfinder RPG Bestiary/149\" xp=\"6,400\" ce large humanoid subs=\"cold,giant\" init=-1 llv pcp=+10}",
+			"::minfo{source=\"Pathfinder RPG Bestiary/149\" xp=\"6,400\" ce large humanoid subs=cold~giant init=-1 llv pcp=+10}",
 			"",
 			"::mdefense{ac=\"21/8/21\" mod=\"+4 armor, -1 Dex, +9 natural, -1 size\" hp=\"133~14d8+70\" fort=+14 ref=+3 will=+6 rockCt immune=cold vulner=fire}",
 			"",
@@ -1649,7 +1649,7 @@
 		"description": [
 			"::mh[Frost Giant Battle Priest]{cr=13}",
 			"",
-			"::minfo[‹monster/Frost giant› ‹class/cleric› 8]{source=\"Monster Codex/73\" xp=\"25,600\" ce large humanoid subs=\"cold,giant\" init=-1 llv pcp=+30}",
+			"::minfo[‹monster/Frost giant› ‹class/cleric› 8]{source=\"Monster Codex/73\" xp=\"25,600\" ce large humanoid subs=cold~giant init=-1 llv pcp=+30}",
 			"",
 			"::mdefense{ac=\"27/9/27\" mod=\"+8 armor, +1 deflection, -1 Dex, +10 natural, -1 size\" hp=\"195~22d8+96\" fort=+19 ref=+7 will=+16 rockCt immune=cold vulner=fire}",
 			"",
@@ -1684,7 +1684,7 @@
 		"description": [
 			"::mh[Frost Giant Elite Scout]{cr=13}",
 			"",
-			"::minfo[‹monster/Frost giant› ‹class/ranger› 4]{source=\"Monster Codex/71\" xp=\"25,600\" ce large humanoid subs=\"cold,giant\" init=+3 llv pcp=+30}",
+			"::minfo[‹monster/Frost giant› ‹class/ranger› 4]{source=\"Monster Codex/71\" xp=\"25,600\" ce large humanoid subs=cold~giant init=+3 llv pcp=+30}",
 			"",
 			"::mdefense{ac=\"30/14/26\" mod=\"+6 armor, +1 deflection, +3 Dex, +1 dodge, +10 natural, -1 size\" hp=\"197~14d8+4d10+112~18\" fort=+19 ref=+11 will=+10 rockCt}",
 			"",
@@ -1708,7 +1708,7 @@
 		"description": [
 			"::mh[Frost Giant Houndmaster]{cr=14}",
 			"",
-			"::minfo[Frost giant ‹class/druid› (‹arc-druid/arctic druid›) 10]{source=\"Monster Codex/74\" xp=\"38,400\" ne large humanoid subs=\"cold,giant\" init=+4 sen=snowcaster llv pcp=+29}",
+			"::minfo[Frost giant ‹class/druid› (‹arc-druid/arctic druid›) 10]{source=\"Monster Codex/74\" xp=\"38,400\" ne large humanoid subs=cold~giant init=+4 sen=snowcaster llv pcp=+29}",
 			"",
 			"::mdefense{ac=\"28/10/28\" mod=\"+7 armor, +1 deflection, +11 natural, -1 size\" hp=\"262~24d8+154\" fort=+22 ref=+10 will=+18 rockCt immune=\"cold, dazzled\" vulner=fire}",
 			"",
@@ -1737,7 +1737,7 @@
 		"description": [
 			"::mh[Frost Giant Hunter]{cr=11}",
 			"",
-			"::minfo[‹monster/Frost giant› ‹class/ranger› 2]{source=\"Monster Codex/71\" xp=\"12,800\" ce large humanoid subs=\"cold,giant\" init=+2 llv pcp=+22}",
+			"::minfo[‹monster/Frost giant› ‹class/ranger› 2]{source=\"Monster Codex/71\" xp=\"12,800\" ce large humanoid subs=cold~giant init=+2 llv pcp=+22}",
 			"",
 			"::mdefense{ac=\"27/12/25\" mod=\"+5 armor, +1 deflection, +2 Dex, +10 natural, -1 size\" hp=\"170~14d8+2d10+96~16\" fort=+18 ref=+9 will=+9 rockCt immune=cold vulner=fire}",
 			"",
@@ -1759,7 +1759,7 @@
 		"description": [
 			"::mh[Frost Giant Ice Mage]{cr=12}",
 			"",
-			"::minfo[‹monster/Frost giant› ‹class/sorcerer› 6]{source=\"Monster Codex/72\" xp=\"19,200\" ce large humanoid subs=\"cold,giant\" init=+4 llv pcp=+25}",
+			"::minfo[‹monster/Frost giant› ‹class/sorcerer› 6]{source=\"Monster Codex/72\" xp=\"19,200\" ce large humanoid subs=cold~giant init=+4 llv pcp=+25}",
 			"",
 			"::mdefense{ac=\"26/10/26\" mod=\"+2 armor, +1 deflection, +10 natural, +4 shield, -1 size\" hp=\"204~14d8+6d6+120~20\" fort=+17 ref=+8 will=+11 rockCt immune=cold vulner=fire}",
 			"",
@@ -1792,7 +1792,7 @@
 		"description": [
 			"::mh[Frost Giant Jarl]{cr=18}",
 			"",
-			"::minfo[‹monster/Frost giant› ‹class/ranger› 9]{source=\"Monster Codex/75\" xp=\"153,600\" ce large humanoid subs=\"cold,giant\" init=+4 llv pcp=+24}",
+			"::minfo[‹monster/Frost giant› ‹class/ranger› 9]{source=\"Monster Codex/75\" xp=\"153,600\" ce large humanoid subs=cold~giant init=+4 llv pcp=+24}",
 			"",
 			"::mdefense{ac=\"35/15/31\" mod=\"+9 armor, +2 deflection, +4 Dex, +11 natural, -1 size\" hp=\"328~14d8+9d10+216~23\" fort=+26 ref=+17 will=+13 rockCt eva immune=cold vulner=fire}",
 			"",
@@ -1821,7 +1821,7 @@
 		"description": [
 			"::mh[Frost Giant Raider]{cr=11}",
 			"",
-			"::minfo[‹monster/Frost giant› ‹class/barbarian› 2]{source=\"Monster Codex/70\" xp=\"12,800\" ce large humanoid subs=\"cold,giant\" init=+0 llv pcp=+22}",
+			"::minfo[‹monster/Frost giant› ‹class/barbarian› 2]{source=\"Monster Codex/70\" xp=\"12,800\" ce large humanoid subs=cold~giant init=+0 llv pcp=+22}",
 			"",
 			"::mdefense{ac=\"23/8/23\" mod=\"+5 armor, +1 deflection, +10 natural, -2 rage, -1 size\" hp=\"227~14d8+2d12+146~16\" fort=+22 ref=+5 will=+10 rockCt unc immune=cold vulner=fire}",
 			"",
@@ -1852,7 +1852,7 @@
 			"",
 			"::mh[Giant Ant Spore Zombie]{cr=3}",
 			"",
-			"::minfo{source=\"Bestiary 6/287\" xp=800 ce medium undead subs=\"augmented:vermin\" init=+4 scent dv=60 pcp=+12}",
+			"::minfo{source=\"Bestiary 6/287\" xp=800 ce medium undead augment=vermin init=+4 scent dv=60 pcp=+12}",
 			"",
 			"::mdefense{ac=\"17/10/17\" mod=\"+7 natural\" hp=\"34~4d8+16\" fort=+4 ref=+3 will=+5 immune=\"‹umr/undead traits›\"}",
 			"",

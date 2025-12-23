@@ -286,7 +286,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"fine", "diminutive", "tiny", "small", "medium", "large", "huge", "gargantuan", "colossal",
 					"aberration", "animal", "construct", "dragon", "fey", "humanoid", "magicalBeast",
 						"monstrousHumanoid", "ooze", "outsider", "plant", "undead", "vermin",
-					"subs", "subtypes", "init",
+					"subs", "othersubs", "augment", "subtypes", "init",
 					"sen", "senSpell", "dv", "llv", "keenScent", "scent", "thoughtsense", "greensight", "lifesense",
 						"xray", "aav", "mistsight", "sid", "blindsight", "blindsense", "tremorsense", "pcp",
 					"aura"
@@ -367,7 +367,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				if(!e) { logError("Missing e in "+ text) }
 				return (
 					`<div className="archetype">`
-					+ `<p><Link to="/arc-${c}/${link}">${marked2.parseInline(convertEncodedInfo(text))}</Link></p>`
+					+ `<p><Link to="/arc-${c}/${link}">${text}</Link></p>`
 					+ `<p><strong>Modifies or Replaces:</strong> ${removeCurlyBrackets(marked2.parseInline(r), true)}</p>`
 					+ `<p>${removeCurlyBrackets(marked2.parseInline(convertEncodedInfo(e)), true)}</p>`
 					+ `</div>\n`

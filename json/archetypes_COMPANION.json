@@ -70,7 +70,7 @@
 			"",
 			"::ab[Camouflage (Ex)]{icon=boost passive=\"An ambusher gains a +4 racial bonus on Stealth checks in its natural environment (if this is unclear, use the environment in its Bestiary entry).\" imp15=\"An ambusher can use the Stealth skill to hide in its natural environment, even if the environment doesn't grant ‹rule/cover› or ‹rule/concealment›.\" replace=\"Share Spells~Improved Evasion\"}",
 			"",
-			"::ab[Cunning Ambusher (Ex)]{l=3 icon=def-boost-lower passive=\"An ambusher gains ‹ability/uncanny dodge›.\" imp6=\"An ambusher gains a +2 racial bonus on initiative checks, and during the surprise round, opponents are always considered ‹rule/flat-footed› against the ambusher's attacks, even if they have already acted.\" imp9=\"An ambusher gains a +2 morale bonus on attack and damage rolls during a surprise round.\" replace=\"Evasion~Devotion~Multiattack\"}"
+			"::ab[Cunning Ambusher (Ex)]{l=3 icon=def-boost-lower passive=\"An ambusher gains ‹ability/uncanny dodge›.\" imp6=\"An ambusher gains a +2 racial bonus on initiative checks, and during the surprise round, opponents are always considered ‹rule/flat-footed› against the ambusher's attacks, even if they have already acted.\" imp9=\"An ambusher gains a +2 morale bonus on attack and damage rolls during a surprise round.\" replace=Evasion~Devotion~Multiattack}"
 		]
 	},
 	"apex_species": {
@@ -211,7 +211,7 @@
 			"",
 			"::ab[Mounted Challenge (Ex)]{icon=boost passive=\"When ridden by a ‹class/cavalier›, chargers gain half of the bonuses and penalties granted by the cavalier's challenge class feature.\" replace=\"Share Spells\"}",
 			"",
-			"::ab[Barding Training (Ex)]{l=3 icon=boost passive=\"A charger's armor check penalty for wearing barding or for ‹rule/carrying «a medium load<capacity› is reduced by 1 and the maximum Dexterity bonus for its armor and load increases by 1. In addition, the charger's speed does not decrease when wearing medium armor or carrying a medium load.\" imp9=\"The armor check penalty is now reduced by 2, and the maximum Dex bonus now increases by 2. In addition, a charger can move at normal speed in heavy armor or while carrying a heavy load.\" imp15=\"The armor check penalty is now reduced by 3, and the maximum Dex bonus now increases by 3.\" replace=\"Evasion~Multiattack\"}",
+			"::ab[Barding Training (Ex)]{l=3 icon=boost passive=\"A charger's armor check penalty for wearing barding or for ‹rule/carrying «a medium load<capacity› is reduced by 1 and the maximum Dexterity bonus for its armor and load increases by 1. In addition, the charger's speed does not decrease when wearing medium armor or carrying a medium load.\" imp9=\"The armor check penalty is now reduced by 2, and the maximum Dex bonus now increases by 2. In addition, a charger can move at normal speed in heavy armor or while carrying a heavy load.\" imp15=\"The armor check penalty is now reduced by 3, and the maximum Dex bonus now increases by 3.\" replace=Evasion~Multiattack}",
 			"",
 			"::ab[Indefatigable (Ex)]{l=6 icon=def passive=\"A charger becomes immune to ‹misc/fatigue›.\" replace=Devotion}",
 			"",

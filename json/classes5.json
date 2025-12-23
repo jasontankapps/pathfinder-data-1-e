@@ -696,7 +696,7 @@
 			"| 19th | +14/+9/+4 | +11 | +6 | +11 | - | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 3 |",
 			"| 20th | +15/+10/+5 | +12 | +6 | +12 | Wild shape (at will) | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 |",
 			"",
-			"::prof{weaps=\"club~dagger~dart~quarterstaff~scimitar~scythe~sickle~shortspear~sling~spear\" wExtra=\"All natural attacks (claw, bite, and so forth) of any form the druid assumes with wild shape\" light medium shields aExtra=\"Druids are prohibited from wearing metal armor or using metal shields, but is allowed to wear wooden armor that has been altered by the ‹spell/ironwood› spell so that it functions as though it were steel.\" extra=\"A druid who wears prohibited armor or uses a prohibited shield is unable to cast druid spells or use any of her supernatural or spell-like class abilities while doing so and for 24 hours thereafter.\"}",
+			"::prof{weaps=club~dagger~dart~quarterstaff~scimitar~scythe~sickle~shortspear~sling~spear wExtra=\"All natural attacks (claw, bite, and so forth) of any form the druid assumes with wild shape\" light medium shields aExtra=\"Druids are prohibited from wearing metal armor or using metal shields, but is allowed to wear wooden armor that has been altered by the ‹spell/ironwood› spell so that it functions as though it were steel.\" extra=\"A druid who wears prohibited armor or uses a prohibited shield is unable to cast druid spells or use any of her supernatural or spell-like class abilities while doing so and for 24 hours thereafter.\"}",
 			"",
 			"::spellAb{type=divine druid alignLimit prepare ritualDivine stat=Wisdom caster=druid}",
 			"",

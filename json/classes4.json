@@ -930,7 +930,7 @@
 			"| 19th | 6 | 6 | 6 | 6 | 5 | 5 | 4 |",
 			"| 20th | 6 | 6 | 6 | 6 | 6 | 5 | 5 |",
 			"",
-			"::prof{simple light weaps=\"kukri~sap~scythe\"}",
+			"::prof{simple light weaps=kukri~sap~scythe}",
 			"",
 			"::spellAb{type=psychic spontaneous caster=spiritualist stat=Wisdom limitedFull trade53 tradeLimit}",
 			"",

@@ -2300,7 +2300,7 @@
 			"",
 			"These teams help wilderness outposts run smoothly.",
 			"",
-			"::team[Skirmishers]{eGp eInfluence eLabor e=6 cGoods=5 cInfluence=4 cLabor=7 c=360 t=6 s=5 from=\"Archers~Guards~Robbers~Soldiers\"}",
+			"::team[Skirmishers]{eGp eInfluence eLabor e=6 cGoods=5 cInfluence=4 cLabor=7 c=360 t=6 s=5 from=Archers~Guards~Robbers~Soldiers}",
 			"",
 			"Skirmishers are teams of archers and soldiers trained in the ambush, scouting, and stealth tactics necessary for operating in areas heavy with vegetation or other non-uniform terrain. They are typically 3rd-level warriors equipped with leather armor, a longbow or shortbow, and a handaxe or short sword. The team also has necessary equipment for travel in one type of wilderness environment.",
 			"",

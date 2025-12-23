@@ -4,7 +4,7 @@ const makeMonsterInfoBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeCle
 		fine, diminutive, tiny, small, medium, large, huge, gargantuan, colossal,
 		aberration, animal, construct, dragon, fey, humanoid, magicalBeast,
 			monstrousHumanoid, ooze, outsider, plant, undead, vermin,
-		subs, subtypes, init,
+		subs, othersubs, augment, subtypes, init,
 		sen, senSpell, dv, llv, keenScent, scent, thoughtsense, greensight, lifesense,
 			xray, aav, mistsight, sid, blindsight, blindsense, tremorsense, pcp,
 		aura
@@ -75,24 +75,30 @@ const makeMonsterInfoBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeCle
 	}
 	if(subtypes) {
 		line = line + " (" + subtypes + ")";
-	} else if (subs) {
-		const s = subs.split(/,/);
-		line = line
-			+ " ("
-			+ s.map(
-				sub => {
-					let m;
-					if(sub.match(/^(automaton|boggard|charau-ka|dhampir|gnoll|herald|kuru|lashunta|skulk|strix|syrinx|tengu|triaxian|udaeus|varies)$/)) {
-						// No subtype entry exists
-						return sub;
-					} else if (m = sub.match(/^augmented:(.+)$/)) {
-						return `‹subtype/augmented› ‹type/${m[1]}›`;
-					} else {
-						return `‹subtype/${sub}›`;
-					}
-				}
-			).join(", ")
-			+ ")";
+	} else {
+		const found = [];
+		if(augment) {
+			found.push([`augmented ${augment}`, `‹subtype/augmented› ‹type/${augment}›`]);
+		}
+		if (subs) {
+			const s = subs.split(/~/);
+			s.forEach(sub => {
+				found.push([sub, `‹subtype/${sub}›`]);
+			});
+		}
+		if(othersubs) {
+			const s = othersubs.split(/~/);
+			s.forEach(sub => {
+				found.push([sub, sub]);
+			});
+		}
+		if(found.length) {
+			const q = found.toSorted((a,b) => a[0].localeCompare(b[0])).map(f => f[0]).join("~");
+			if(q !== subs) console.log(q);
+			line = line + ` (${
+				found.toSorted((a,b) => a[0].localeCompare(b[0])).map(f => f[1]).join(", ")
+			})`;
+		}
 	}
 	output.push(doParse(line));
 	//
@@ -104,8 +110,8 @@ const makeMonsterInfoBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeCle
 	} else {
 		logError("No initiative");
 	}
-	const senses = sen ? sen.split(/,/).map(x => [x, x]) : [];
-	if(senSpell) { senses.push(...senSpell.split(/,/).map(x => [x, `*${x}*`])) }
+	const senses = sen ? sen.split(/~/).map(x => [x, x]) : [];
+	if(senSpell) { senses.push(...senSpell.split(/~/).map(x => [x, `*${x}*`])) }
 	if(dv) { senses.push(["darkvision", `darkvision ${dv} ft.`]); }
 	if(llv) { senses.push(["low-light vision", "low-light vision"]); }
 	if(keenScent) {
@@ -137,8 +143,8 @@ const makeMonsterInfoBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeCle
 				.sort((a, b) => a[0].localeCompare(b[0]))
 				.map(x => x[1])
 				.join(", ")
-				.replace(/\*, \*/g, ", ")
-				.replace(/\*,/g, ",*")
+				.replace(/(\*+), \1(?!\*)/g, ", ")
+				.replace(/(\*+),/g, ",$1")
 	}
 	if(pcp !== undefined) {
 		line = line + `; Perception ${pcp}`;

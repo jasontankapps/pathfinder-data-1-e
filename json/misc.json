@@ -2016,7 +2016,7 @@
 		"description": [
 			"‹SOURCE Ultimate Campaign/101›",
 			"",
-			"::room[Shack]{cGoods=3 cLabor=2 c=100 t=3 s1=2 s2=4 to=\"Lavatory~Storage\"}",
+			"::room[Shack]{cGoods=3 cLabor=2 c=100 t=3 s1=2 s2=4 to=Lavatory~Storage}",
 			"",
 			"This no-frills wooden shelter contains a simple table, pallet bed, and stool. One person can build a shack with simple tools and basic materials. For an additional 1 point of Goods and 2 points of Labor, you can construct a brick or stone hut instead of a wooden shack."
 		],
@@ -2091,7 +2091,7 @@
 		"description": [
 			"‹SOURCE Ultimate Campaign/102›",
 			"",
-			"::room[Storage]{eGp e=2 cGoods=3 cLabor=3 c=120 t=8 s1=4 s2=8 from=\"False Front~Shack\" to=\"Office~Vault\"}",
+			"::room[Storage]{eGp e=2 cGoods=3 cLabor=3 c=120 t=8 s1=4 s2=8 from=\"False Front~Shack\" to=Office~Vault}",
 			"",
 			"Storage is any room used to store objects, keeping them out of the way for later use. Most Warehouses are just multiple Storage rooms built into a single building. A low-cost shop may allow its customers to browse items in the Storage area. A door to a Storage room includes an average lock."
 		],
@@ -2211,7 +2211,7 @@
 		"description": [
 			"‹SOURCE Ultimate Campaign/103›",
 			"",
-			"::room[Vault]{cGoods=8 cLabor=7 c=300 t=16 s1=4 s2=8 from=\"Reliquary~Storage\" to=\"Secret Room\"}",
+			"::room[Vault]{cGoods=8 cLabor=7 c=300 t=16 s1=4 s2=8 from=Reliquary~Storage to=\"Secret Room\"}",
 			"",
 			"This is a secure room designed to keep out intruders. The access to this space is controlled by an iron door with a good lock. If you upgrade this room to a Secret Room, the door retains its material and lock and also becomes a secret door."
 		],
@@ -2256,7 +2256,7 @@
 		"description": [
 			"‹SOURCE Ultimate Campaign/104›",
 			"",
-			"::team[Acolyte]{eGp eInfluence eMagic e=4 cGoods=2 cInfluence=2 cLabor=2 cMagic=3 c=440 t=3 s=1 to=\"Priest~Sage\"}",
+			"::team[Acolyte]{eGp eInfluence eMagic e=4 cGoods=2 cInfluence=2 cLabor=2 cMagic=3 c=440 t=3 s=1 to=Priest~Sage}",
 			"",
 			"An Acolyte is a newly trained divine spellcaster, sufficient for tending to the sick or advising on religious matters. An Acolyte is typically a 1st-level adept, cleric, druid, or oracle, with light armor (or no armor if an adept) and a weapon appropriate to her faith."
 		],
@@ -2271,7 +2271,7 @@
 		"description": [
 			"‹SOURCE Ultimate Campaign/104›",
 			"",
-			"::team[Apprentice]{eGp eInfluence eMagic e=4 cGoods=2 cInfluence=2 cLabor=1 cMagic=4 c=520 t=3 s=1 to=\"Mage~Sage\"}",
+			"::team[Apprentice]{eGp eInfluence eMagic e=4 cGoods=2 cInfluence=2 cLabor=1 cMagic=4 c=520 t=3 s=1 to=Mage~Sage}",
 			"",
 			"An Apprentice is a newly-trained arcane spellcaster, sufficient for helping with magical rituals, generating flashy effects, or advising on magical matters. An Apprentice is typically a 1st-level bard, sorcerer, summoner, witch, or wizard."
 		],
@@ -2303,7 +2303,7 @@
 		"description": [
 			"‹SOURCE Ultimate Campaign/104›",
 			"",
-			"::team[Bureaucrats]{eGp eInfluence e=4 cGoods=2 cInfluence=4 cLabor=2 c=200 t=2 s=5 from=\"Scofflaws~Soldiers\"}",
+			"::team[Bureaucrats]{eGp eInfluence e=4 cGoods=2 cInfluence=4 cLabor=2 c=200 t=2 s=5 from=Scofflaws~Soldiers}",
 			"",
 			"Bureaucrats interface with local government and deal with annoying paperwork related to running a business or organization. This type of team could include accountants, diplomats, lawyers, and scribes. A typical bureaucrat is a 1st-, 2nd-, or 3rd-level expert with ranks in Bluff, Diplomacy, Intimidate, Knowledge (local), Linguistics, and Profession (barrister, clerk, or scribe)."
 		],
@@ -2457,7 +2457,7 @@
 			"",
 			"### Laborers",
 			"",
-			"::team[Laborers]{eGp eLabor e=2 cInfluence=1 cLabor=2 c=70 t=0 s=5 to=\"Drivers~Guards~Lackeys~Sailors~Scofflaws\"}",
+			"::team[Laborers]{eGp eLabor e=2 cInfluence=1 cLabor=2 c=70 t=0 s=5 to=Drivers~Guards~Lackeys~Sailors~Scofflaws}",
 			"",
 			"Laborers are unskilled workers who carry out basic orders. In most cases, their work is physical labor, though you may recruit laborers for specialized tasks such as begging for your thieves' guild, being professional mourners for your cult, or filling out the cast of a theater performance. They are typically 1st-level commoners with no ranks in Craft or Profession.",
 			"",
@@ -2474,7 +2474,7 @@
 		"description": [
 			"‹SOURCE Ultimate Campaign/106›",
 			"",
-			"::team[Lackeys]{eInfluence eLabor e=2 cGoods=1 cInfluence=2 cLabor=2 c=120 t=1 s=5 from=\"Drivers~Laborers\"}",
+			"::team[Lackeys]{eInfluence eLabor e=2 cGoods=1 cInfluence=2 cLabor=2 c=120 t=1 s=5 from=Drivers~Laborers}",
 			"",
 			"Lackeys wait on you hand and foot and take care of common domestic and traveling issues; their ranks include butlers, valets, maids, heralds, footmen, ladies-in-waiting, and similar service personnel. Skilled Lackeys anticipate your needs and coordinate with your other employees as well as those of your guests or host. A typical Lackey is a 1st-level commoner or expert with ranks in a subset of Diplomacy, Disguise, Intimidate, Knowledge (local), Knowledge (nobility), Linguistics, Perception, and Sense Motive."
 		],
@@ -2536,7 +2536,7 @@
 		"description": [
 			"‹SOURCE Ultimate Campaign/106›",
 			"",
-			"::team[Sage]{eGp eInfluence e=5 cGoods=5 cInfluence=2 cLabor=2 c=200 t=4 s=1 from=\"Acolyte~Apprentice\"}",
+			"::team[Sage]{eGp eInfluence e=5 cGoods=5 cInfluence=2 cLabor=2 c=200 t=4 s=1 from=Acolyte~Apprentice}",
 			"",
 			"A sage is a person with extensive knowledge in one or more related areas who can advise you about his areas of expertise. A typical sage is a 3rd-level expert with 3 ranks each in skills such as Appraise, Knowledge, Linguistics, Profession, and Spellcraft."
 		],
