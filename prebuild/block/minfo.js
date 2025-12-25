@@ -93,8 +93,6 @@ const makeMonsterInfoBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeCle
 			});
 		}
 		if(found.length) {
-			const q = found.toSorted((a,b) => a[0].localeCompare(b[0])).map(f => f[0]).join("~");
-			if(q !== subs) console.log(q);
 			line = line + ` (${
 				found.toSorted((a,b) => a[0].localeCompare(b[0])).map(f => f[1]).join(", ")
 			})`;
