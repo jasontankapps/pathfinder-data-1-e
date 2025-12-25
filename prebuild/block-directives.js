@@ -388,9 +388,9 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"useUnit",
 					"replace", "alter", "type", "prereq"
 				], [
-					/^(([sl]|imp)(1?[1-9]|[12]0)|s0)$/,
+					/^(s0|([sl]|imp)(1?[1-9]|[12]0))$/,
 					/^use(Mod|Inc)[1-9]?$/,
-					/^h(Special|Standard|Swift|Ability|Free|Fullround|Imp|Immediate|Passive|Move|Note|Choice)$/
+					/^h(S(pecial|tandard|wift)|Ability|Free|Fullround|Imp|Immediate|Passive|Move|Note|Choice|L)$/
 				], logError);
 				flags.icon = true;
 				flags.link = true;

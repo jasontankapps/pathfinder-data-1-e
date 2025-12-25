@@ -3,7 +3,7 @@ import { convertSpecialTextToLink, convertTextToLink } from './checkForEncodedLi
 
 const checkForSourceLinks = (desc) => {
 	const found = [];
-	const single = /^.*?(?:\]\(source[/]([a-z_0-9]+)\)|‹source[/]([^›]+)›)(.*$)/;
+	const single = /^(?!\[\^NoSource\]:).*?(?:\]\(source[/]([a-z_0-9]+)\)|‹source[/]([^›]+)›)(.*$)/;
 	const multi = /^>*‹SOURCE ([^›]+)›(?:  )?$/;
 	// Template headers, spell statblocks, and monster info blocks store source information
 	const th = /^::(?:th|minfo)\[[^\]]+\]\{[^\}]*\bsource="([^"}]+)"[^}]+\}?$/;

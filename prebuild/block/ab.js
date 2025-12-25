@@ -55,7 +55,7 @@ export const makeAbilityBlock = ({
 		fullround, move, free,
 		provokes, special, note, choice,
 		passive, ability,
-		hSpecial, hImp,
+		hSpecial, hImp, hL,
 		order,
 		usage, useNC,
 		useL, useM, useInc, useL3, // default useUnit is "round"
@@ -311,32 +311,6 @@ export const makeAbilityBlock = ({
 	// LEVEL-BASED NOTES
 	//
 	if(
-		s0 || s1 || s2 || s3 || s4 || s5 || s6 || s7 || s8 || s9 || s10
-		|| s11 || s12 || s13 || s14 || s15 || s16 || s17 || s18 || s19 || s20
-	) {
-		// Spells granted based on character level
-		// Title should indicate how the spells are gained, what the level column means, etc.
-		[s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20]
-			.forEach((bit, i) => {
-				if(!bit) {
-					return;
-				}
-				const spells = bit.split(/~~/).map(line => {
-					const [text, extra] = line.split(/~/);
-					return `‹spell/${text}›${extra || ""}`;
-				}).join(", ");
-				const level = i && ordinal(i);
-				output.push(
-					abPairOpen
-					+ `<div className="abStart plain"><div className="box">${level}`
-					+ abPairPartClose
-					+ `<div className="abEnd simple"><div className="box">${doParse(spells)}`
-					+ abPairPartClose
-					+ abPairClose
-				);
-			}
-		);
-	} else if(
 		l1 || l2 || l3 || l4 || l5 || l6 || l7 || l8 || l9 || l10
 		|| l11 || l12 || l13 || l14 || l15 || l16 || l17 || l18 || l19 || l20
 	) {
@@ -353,7 +327,7 @@ export const makeAbilityBlock = ({
 					+ `At ${level} Level`
 					+ abPairPartClose
 					+ abPairEndOpen
-					+ doParse(text)
+					+ doParse(text, hL)
 					+ abPairPartClose
 					+ abPairClose
 				);
@@ -508,9 +482,35 @@ export const makeAbilityBlock = ({
 			);
 	}
 	//
-	// LEVEL-BASED ACTION IMPROVEMENTS
+	// LEVEL-BASED NOTES
 	//
 	if(
+		s0 || s1 || s2 || s3 || s4 || s5 || s6 || s7 || s8 || s9 || s10
+		|| s11 || s12 || s13 || s14 || s15 || s16 || s17 || s18 || s19 || s20
+	) {
+		// Spells granted based on character level
+		// Title should indicate how the spells are gained, what the level column means, etc.
+		[s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20]
+			.forEach((bit, i) => {
+				if(!bit) {
+					return;
+				}
+				const spells = bit.split(/~~/).map(line => {
+					const [text, extra] = line.split(/~/);
+					return `‹spell/${text}›${extra || ""}`;
+				}).join(", ");
+				const level = i && ordinal(i);
+				output.push(
+					abPairOpen
+					+ `<div className="abStart plain"><div className="box">${level}`
+					+ abPairPartClose
+					+ `<div className="abEnd simple"><div className="box">${doParse(spells)}`
+					+ abPairPartClose
+					+ abPairClose
+				);
+			}
+		);
+	} else if(
 		imp1 || imp2 || imp3 || imp4 || imp5 || imp6 || imp7 || imp8 || imp9 || imp10
 		|| imp11 || imp12 || imp13 || imp14 || imp15 || imp16 || imp17 || imp18 || imp19 || imp20
 	) {
