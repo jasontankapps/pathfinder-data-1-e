@@ -1,12 +1,12 @@
 import getItem from '../components/getItem';
-import witch from './subpages/__arc-witch';
+import alchemist from './subpages/__arc-alchemist';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...witch
+	...alchemist
 };
 
 type Data = typeof archetypes;

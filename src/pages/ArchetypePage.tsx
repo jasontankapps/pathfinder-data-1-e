@@ -47,7 +47,6 @@ const classes: GenStrict<string, [number, string]> = {
 	monk: [1, "Monk"],
 	samurai: [1, "Samurai"],
 
-	bard: [2, "Bard"], // conflicts with companion, familiar, gunslinger, rogue
 	summoner: [2, "Summoner"], // conflicts with unchained summoner, occultist, spiritualist
 	swashbuckler: [2, "Swashbuckler"], // conflicts with cavalier
 
@@ -65,7 +64,6 @@ const classes: GenStrict<string, [number, string]> = {
 	ranger: [5, "Ranger"], // conflicts with fighter, familiar, inquisitor, investigator
 	bloodrager: [5, "Bloodrager"], // conflicts with shifter, wizard
 
-	alchemist: [6, "Alchemist"],
 	witch: [6, "Witch"],
 
 	rogue: [7, "Rogue"], // conflicts with bard, slayer, hunter
@@ -73,7 +71,6 @@ const classes: GenStrict<string, [number, string]> = {
 	unchained_summoner: [7, "Unchained Summoner"], // conflicts with summoner
 
 	brawler: [8, "Brawler"],
-	barbarian: [8, "Barbarian"], // conflicts with vigilante
 	mesmerist: [8, "Mesmerist"],
 
 	druid: [9, "Druid"],
@@ -101,6 +98,11 @@ const classes: GenStrict<string, [number, string]> = {
 	familiar: [14, "Familiar"], // conflicts with cavalier, bard, inquisitor, investigator, ranger
 	wizard: [14, "Wizard"], // conflicts with cleric, bloodrager
 
+	bard: [15, "Bard"], // conflicts with companion, familiar, gunslinger, rogue
+
+	alchemist: [16, "Alchemist"],
+
+	barbarian: [17, "Barbarian"], // conflicts with vigilante
 };
 
 type Params = { id?: string, parent?: string };

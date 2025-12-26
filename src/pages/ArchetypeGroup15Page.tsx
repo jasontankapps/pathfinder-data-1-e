@@ -1,17 +1,17 @@
 import getItem from '../components/getItem';
-import witch from './subpages/__arc-witch';
+import bard from './subpages/__arc-bard';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
 import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...witch
+	...bard // conflicts with companion, familiar, gunslinger, rogue
 };
 
 type Data = typeof archetypes;
 
-const ArchetypeGroup6Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+const ArchetypeGroup2Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
 
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
@@ -29,4 +29,4 @@ const ArchetypeGroup6Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 	>{jsx}</BasicPage>;
 };
 
-export default ArchetypeGroup6Page;
+export default ArchetypeGroup2Page;

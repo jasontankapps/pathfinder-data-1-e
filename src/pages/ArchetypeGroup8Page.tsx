@@ -1,6 +1,5 @@
 import getItem from '../components/getItem';
 import brawler from './subpages/__arc-brawler';
-import barbarian from './subpages/__arc-barbarian';
 import mesmerist from './subpages/__arc-mesmerist';
 import { ArchetypeProps } from './ArchetypePage';
 import BasicPage from './BasicPage';
@@ -9,7 +8,6 @@ import './Page.css';
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
 	...brawler,
-	...barbarian, // conflicts with vigilante
 	...mesmerist
 };
 

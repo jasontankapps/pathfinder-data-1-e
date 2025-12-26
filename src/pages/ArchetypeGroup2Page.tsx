@@ -1,5 +1,4 @@
 import getItem from '../components/getItem';
-import bard from './subpages/__arc-bard';
 import summoner from './subpages/__arc-summoner';
 import swashbuckler from './subpages/__arc-swashbuckler';
 import { ArchetypeProps } from './ArchetypePage';
@@ -8,7 +7,6 @@ import './Page.css';
 
 const archetypes = {
 	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...bard, // conflicts with companion, familiar, gunslinger, rogue
 	...summoner, // conflicts with unchained summoner, occultist, spiritualist
 	...swashbuckler // conflicts with cavalier
 };
