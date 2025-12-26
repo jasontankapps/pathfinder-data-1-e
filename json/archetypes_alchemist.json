@@ -1495,7 +1495,7 @@
 			"",
 			"::ab[Class Skills]{icon=skill passive=\"A winged marauder gains Acrobatics, Handle Animal, and Ride as class skills. These replace Disable Device, Sleight of Hand, and Use Magic Device as class skills.\" alter=\"The alchemist's class skills\"}",
 			"",
-			"::ab[Flying Beast Tamer (Ex)]{l=1 icon=power ability=\"A winged marauder acquires a flying mount as an ‹sidekick/animal companion›. This works as the druid ‹ability/animal companion› class feature, except the marauder must select a ‹companion/dire bat› or ‹companion/giant vulture›. The marauder's effective druid level is equal to his alchemist level.\" special=\"A marauder and his companion don't gain the *share spells* ability.\" replace=\"The mutagen~persistent mutagen class features\"}",
+			"::ab[Flying Beast Tamer (Ex)]{l=1 icon=power ability=\"A winged marauder acquires a flying mount as an ‹sidekick/animal companion›. This works as the druid ‹ability/animal companion› class feature, except the marauder must select a ‹companion/dire bat› or ‹companion/giant vulture›. The marauder's effective druid level is equal to his alchemist level.\" special=\"A marauder and his companion don't gain the *share spells* ability.\" replace=\"Mutagen~persistent mutagen\"}",
 			"",
 			"::ab[Discovery]{icon=power head passive=\"A winged marauder can select the following additional discovery.\"}",
 			"",

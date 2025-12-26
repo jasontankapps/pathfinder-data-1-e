@@ -23,6 +23,9 @@ const ArchetypeGroup11Page = lazy(() => import("./ArchetypeGroup11Page"));
 const ArchetypeGroup12Page = lazy(() => import("./ArchetypeGroup12Page"));
 const ArchetypeGroup13Page = lazy(() => import("./ArchetypeGroup13Page"));
 const ArchetypeGroup14Page = lazy(() => import("./ArchetypeGroup14Page"));
+const ArchetypeGroup15Page = lazy(() => import("./ArchetypeGroup15Page"));
+const ArchetypeGroup16Page = lazy(() => import("./ArchetypeGroup16Page"));
+const ArchetypeGroup17Page = lazy(() => import("./ArchetypeGroup17Page"));
 
 interface ArchGroupPageProps {id: string, parent: string, classTitle: string};
 
@@ -40,7 +43,10 @@ const pages: ((x: ArchGroupPageProps) => ReactNode)[] = [
 	({id, parent, classTitle}) => <ArchetypeGroup11Page id={id} parent={parent} classTitle={classTitle} />,
 	({id, parent, classTitle}) => <ArchetypeGroup12Page id={id} parent={parent} classTitle={classTitle} />,
 	({id, parent, classTitle}) => <ArchetypeGroup13Page id={id} parent={parent} classTitle={classTitle} />,
-	({id, parent, classTitle}) => <ArchetypeGroup14Page id={id} parent={parent} classTitle={classTitle} />
+	({id, parent, classTitle}) => <ArchetypeGroup14Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup15Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup16Page id={id} parent={parent} classTitle={classTitle} />,
+	({id, parent, classTitle}) => <ArchetypeGroup17Page id={id} parent={parent} classTitle={classTitle} />
 ];
 
 const classes: GenStrict<string, [number, string]> = {

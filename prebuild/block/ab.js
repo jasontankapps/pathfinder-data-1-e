@@ -482,7 +482,7 @@ export const makeAbilityBlock = ({
 			);
 	}
 	//
-	// LEVEL-BASED NOTES
+	// LEVEL-BASED SPELLS
 	//
 	if(
 		s0 || s1 || s2 || s3 || s4 || s5 || s6 || s7 || s8 || s9 || s10
@@ -510,7 +510,11 @@ export const makeAbilityBlock = ({
 				);
 			}
 		);
-	} else if(
+	}
+	//
+	// LEVEL-BASED IMPROVEMENTS
+	//
+	if(
 		imp1 || imp2 || imp3 || imp4 || imp5 || imp6 || imp7 || imp8 || imp9 || imp10
 		|| imp11 || imp12 || imp13 || imp14 || imp15 || imp16 || imp17 || imp18 || imp19 || imp20
 	) {

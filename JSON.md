@@ -82,11 +82,11 @@ Inline directives start with `@`.
 | Simple Inline Directives | Description |
 | --- | --- |
 | `@ripple[protocol/link text]` | Adds a link with IonRippleEffect. The bracketed text follows the link system, above. |
-| `@hll[protocol/link text]` | Adds a link in a highlighted link color.  The bracketed text follows the link system, above. |
+| `@hll[protocol/link text]` | Adds a link in a highlighted link color. The bracketed text follows the link system, above. |
 | `@HL[text]` | Adds highlighted text. |
 | `@hl[text]` | Adds highlighted text. |
 | `@FN[X]` | Creates a "fake" footnote with the character X. |
-| `@FN[Body of footnote]{from=X}` | Creates a "fake" footnote that links back to (and is linked to by) footnote X. |
+| `@FN[Body of footnote]{from=X}` | Creates a "fake" footnote that links back to (and is linked to by) footnote X. This should be placed in a `:::fakeFootnotes` container. |
 | `@altCapstoneDesc` | Creates a preamble for the Alternate Capstones section of a class. |
 | `@span[text]` | Puts text in a `<span>` block. |
 | `@span[text]{className?=""}` | As above, but has properties that will be included in the `<span>` tag. |
@@ -141,7 +141,7 @@ All block-level elements can take a `clear` attribute, which puts them below any
 >`::hl3[Link]{pre?="" post?=""}`  
 >`::hl4[Link]{pre?="" post?=""}`  
 >`::hl5[Link]{pre?="" post?=""}`  
->`::hl6[Link]{pre?="" post?=""}`  
+>`::hl6[Link]{pre?="" post?=""}`
 
 - `::hl2[Link]` renders an `<h2>` block, but the `Link` is treated as `Link text` and renders an actual link inside the `<h2>`
     - if `pre` is provided, it is prepended as plain text
