@@ -61,6 +61,20 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-tertiary-shade: #00706e;
   --ion-color-tertiary-tint: #1d8d8a;
 
+  /** quaternary **/
+  --ion-color-quaternary: #dfe7f6;
+  --ion-color-quaternary-subheader: #cfdbf2;
+  --ion-color-quaternary-header: #bfcfed;
+  --ion-color-quaternary-bg: #eff3fb;
+  --ion-color-quaternary-border: #799fdc;
+
+  /** quinary **/
+  --ion-color-quinary: #d8e2e9;
+  --ion-color-quinary-subheader: #cad9e2;
+  --ion-color-quinary-header: #d8e2e9;
+  --ion-color-quinary-bg: #e5ecf0;
+  --ion-color-quinary-border: #89a9be;
+
   /** success **/
   --ion-color-success: #2dd36f;
   --ion-color-success-rgb: 45, 211, 111;
@@ -176,6 +190,20 @@ http://ionicframework.com/docs/theming/ */
     --ion-color-tertiary-contrast-rgb: 0, 0, 0;
     --ion-color-tertiary-shade: #e0bb2e;
     --ion-color-tertiary-tint: #ffd948;
+
+    /** quaternary **/
+    --ion-color-quaternary: #1d2c35;
+    --ion-color-quaternary-subheader: #243742;
+    --ion-color-quaternary-header: #2b4150;
+    --ion-color-quaternary-bg: #162127;
+    --ion-color-quaternary-border: #486d84;
+
+    /** quinary **/
+    --ion-color-quinary: #112c24;
+    --ion-color-quinary-subheader: #173b30;
+    --ion-color-quinary-header: #1d493c;
+    --ion-color-quinary-bg: #0b1d18;
+    --ion-color-quinary-border: #399378;
 
     --ion-color-success: #2fdf75;
     --ion-color-success-rgb: 47,223,117;
