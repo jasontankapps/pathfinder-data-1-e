@@ -200,11 +200,18 @@ function isGood(archValue, what) {
 		return false;
 	})) {
 		msg.push("Test passed.");
-	} else { found = true; }
+	} else {
+		found = true;
+	}
 	return [found, what, msg];
 }
 
 // isGood(arch);
-const archTest = () => arch.map((a, i) => isGood(a, whats[i]));
+const archTest = (specifics) => {
+	if(specifics) {
+		return specifics.map(([a, i]) => isGood(a, i));
+	}
+	return arch.map((a, i) => isGood(a, whats[i]));
+};
 
 export default archTest;

@@ -34,9 +34,16 @@ const checkForSourceLinks = (desc) => {
 	return found;
 };
 
-const sourcesTest = () => {
-	const $info = {...basic_data_groups};
-	delete $info.sources;
+const sourcesTest = (incoming) => {
+	const $info = incoming ? {} : {...basic_data_groups};
+	if(incoming) {
+		incoming.forEach(f => {
+			const [file, key] = f;
+			$info[key] = file;
+		});
+	} else {
+		delete $info.sources;
+	}
 	const result = [];
 	Object.entries($info).forEach((pair) => {
 		const [prop, file] = pair;

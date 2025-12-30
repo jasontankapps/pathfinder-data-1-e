@@ -50,10 +50,10 @@ const parseTree = (tree) => {
 	return [...found];
 };
 
-const testLinks = () => {
+const testLinks = (all, tree = true) => {
 	const msg = [ "\n...beginning link validation tests\n" ];
 	let found = false;
-	$All.forEach(([link, object]) => {
+	(all || $All).forEach(([link, object]) => {
 		// validate links
 		// `invalid links in ${link} files:`
 		const invalid = [];
@@ -187,7 +187,7 @@ const testLinks = () => {
 		(invalid.length > 0) && msg.push(`\tInvalid links in ${link} files:`, ...invalid.map(x => `\t\t${x}`));
 		msg.length > 1 && (found = true);
 	});
-	const bad = parseTree(featTreeData);
+	const bad = tree ? parseTree(featTreeData) : [];
 	if(bad.length > 0) {
 		found = true;
 		msg.push(`\tInvalid links in feat_tree_data.json:`, ...bad.map(x => `\t\t${x}`));

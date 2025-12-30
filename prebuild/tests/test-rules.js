@@ -101,6 +101,6 @@ function isGood(value) {
 
 // isGood(rules);
 
-const rulesTest = () => isGood(rules);
+const rulesTest = (found) => isGood(found || rules);
 
 export default rulesTest;
