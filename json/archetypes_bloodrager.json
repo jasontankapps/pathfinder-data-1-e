@@ -91,7 +91,7 @@
 			"",
 			"::ab[Bloody Knuckles]{icon=down note=\"The bloody-knuckled rowdy does not gain damage reduction.\"}",
 			"",
-			"::ab[Reduced Spells Known]{icon=down note=\"The bloody-knuckled rowdy focuses more on fighting tactics and less on his natural arcane powers. He receives one fewer spell known at each spell level.\" alter=\"Spellcasting\"}",
+			"::ab[Reduced Spells Known]{icon=down note=\"The bloody-knuckled rowdy focuses more on fighting tactics and less on his natural arcane powers. He receives one fewer spell known at each spell level.\" alter=Spellcasting}",
 			"",
 			"::ab[Pugilist (Ex)]{icon=power l=1 ability=\"A bloody-knuckled rowdy gains ‹feat/Improved Unarmed Strike› as a bonus feat.\" replace=\"Fast movement\"}",
 			"",
@@ -217,7 +217,7 @@
 			"",
 			":::",
 			"",
-			"::ab[Atavistic Caster]{icon=magic l4=\"An id rager's bloodrager spells are treated as ‹rule/psychic magic›. The bloodrager's bloodrage does not prevent him from casting spells with emotional components, and he is considered to be a psychic spellcaster for the purposes of prerequisites (such as for the prerequisites of psychic duels and occult skill unlocks).\" alter=\"Spellcasting\" replace=\"Eschew materials\"}",
+			"::ab[Atavistic Caster]{icon=magic l4=\"An id rager's bloodrager spells are treated as ‹rule/psychic magic›. The bloodrager's bloodrage does not prevent him from casting spells with emotional components, and he is considered to be a psychic spellcaster for the purposes of prerequisites (such as for the prerequisites of psychic duels and occult skill unlocks).\" alter=Spellcasting replace=\"Eschew materials\"}",
 			"",
 			"::ab[Bonus Feats]{icon=power l6=\"An id rager can select one of the following feats as a bonus feat: ‹feat/Combat Casting›, ‹feat/Empath›, ‹feat/Extra Rage›, ‹feat/Intuitive Spell›, ‹feat/Logical Spell›, ‹feat/Psychic Combatant›, ‹feat/Psychic Defender›, ‹feat/Psychic Healing›, ‹feat/Psychic Maestro›, ‹feat/Psychic Virtuoso›, ‹feat/Raging Concentration›, ‹feat/Spell Focus›, or ‹feat/Spell Penetration›.\" l9=\"He can select a second bonus feat from the list.\" l12=\"He can select a third bonus feat from the list.\" l15=\"He can select a fourth bonus feat from the list.\" l18=\"He can select a fifth and final bonus feat from the list.\" replace=\"All bloodline feats\"}",
 			"",
@@ -250,7 +250,7 @@
 			"‹SOURCE Advanced Class Guide/84›  ",
 			"While bloodrage powers come from the very essence of a bloodrager's being and are often strict and immutable, some bloodragers tap into ancient traditions and primitive wisdom to enhance their rages with something more primal. The primalist mixes his bloodline with more traditional rage powers.",
 			"",
-			"::ab[Primal Choices]{icon=power l=4 choice=\"At 4th level and every four levels thereafter, a primalist can choose to take either his bloodline power or two ‹ability/barbarian »rage powers›. If the primalist chooses rage powers, those rage powers can be used in conjunction with his bloodrage, and his bloodrager level acts as his barbarian level when determining the effect of those bloodrage powers and any prerequisites. Any other prerequisites for a rage power must be met before a primalist can choose it.\" special=\"This ability does not count as the rage power class feature for determining feat prerequisites and other requirements.\" alter=\"Bloodline\"}"
+			"::ab[Primal Choices]{icon=power l=4 choice=\"At 4th level and every four levels thereafter, a primalist can choose to take either his bloodline power or two ‹ability/barbarian »rage powers›. If the primalist chooses rage powers, those rage powers can be used in conjunction with his bloodrage, and his bloodrager level acts as his barbarian level when determining the effect of those bloodrage powers and any prerequisites. Any other prerequisites for a rage power must be met before a primalist can choose it.\" special=\"This ability does not count as the rage power class feature for determining feat prerequisites and other requirements.\" alter=Bloodline}"
 		]
 	},
 	"prowler_at_worlds_end": {
