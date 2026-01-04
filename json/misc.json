@@ -2591,5 +2591,20 @@
 		"searchgroup": "rule",
 		"type": "Rule",
 		"topLink": ["Teams", "rule/teams"]
-	}
+	},
+	"fractions_and_rounding": {
+		"name": "Fractions and Rounding",
+		"sources": [ "PRPG Core Rulebook" ],
+		"description": [
+			"‹SOURCE PRPG Core Rulebook/12›",
+			"",
+			"@HL[Rounding:] Occasionally the rules ask you to round a result or value. Unless otherwise stated, always round down. For example, if you are asked to take half of 7, the result would be 3."
+		],
+		"searchgroup": "rule",
+		"type": "Rule",
+		"topLink": ["Common Terms", "rule/common_terms"]
+	},
+	"one_fifth": { "redirect": "fractions_and_rounding" },
+	"one_third": { "redirect": "fractions_and_rounding" },
+	"one_quarter": { "redirect": "fractions_and_rounding" }
 }
