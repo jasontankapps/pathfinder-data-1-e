@@ -33,25 +33,14 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 					flags.icon = true;
 					flags.link = true;
 					const {logError} = $;
-					const {title, ability, highlight, ...etc} = attrs;
+					const {title, action, ...etc} = attrs;
 					let text2 = text;
-					if(highlight) {
-						let m, highlights = "", checking = convertEncodedInfo(text);
-						while(m = checking.match(/^(.*?)[*]{3}(.+?)[*]{3}(.*)$/)) {
-							const [, pre, found, post] = m;
-							highlights = `${highlights}${pre}@HL[${found}]`;
-							checking = post;
-						}
-						text2 = highlights + checking;
-					}
 					const myAttrs = {
 						containerInfo: {
-							ability,
+							action,
 							contents: removeCurlyBrackets(
 									marked2.parse(text2), true
 								)
-//								.replace(/<[/]p>\s*<p>/g, "<br /><br />")
-//								.replace(/<[/]?p>/g, "")
 						},
 						...etc
 					};

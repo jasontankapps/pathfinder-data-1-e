@@ -156,7 +156,8 @@ export const makeAbilityBlock = ({
 			a: ability,
 			u: use,
 			n: note,
-			c: choice
+			c: choice,
+			C: containerInfo
 		};
 		const missing = [];
 		order.split("").forEach(x => {
@@ -169,7 +170,11 @@ export const makeAbilityBlock = ({
 			logError(`[${text}] ` + missing.shift());
 		}
 	} else {
-		const all = [standard, swift, immediate, fullround, move, free, passive, ability, note, choice].filter(x => x);
+		const all = [
+			standard, swift, immediate, fullround,
+			move, free, passive, ability, note,
+			choice, containerInfo
+		].filter(x => x);
 		if(all.length > 1) {
 			logError(`${all.length} abilities found, but no "order" prop was given. [${text}]`);
 		}
@@ -349,24 +354,18 @@ export const makeAbilityBlock = ({
 	//
 	// ACTION
 	//
-	if(containerInfo) {
-		// This was pre-parsed and passed in from container-directives.
-		const {ability, contents} = containerInfo;
-		output.push(
-			abPairOpen
-			+ abPairStartOpen
-			+ ability
-			+ abPairPartClose
-			+ abPairEndOpen
-			+ contents
-			+ abPairPartClose
-			+ abPairClose
-		);
-	} else if (order) {
+	if (order) {
 		const path = order.split("");
 		path.forEach(ab => {
-			let title = "", what = "", h = false;
+			let title = "", what = "", h = false, parsed = false;
 			switch(ab) {
+				case "C": {
+					const {action, contents} = containerInfo;
+					title = action;
+					what = contents;
+					parsed = true;
+					break;
+				}
 				case "u":
 					title = "Usage";
 					what = use;
@@ -425,13 +424,13 @@ export const makeAbilityBlock = ({
 					logError(`Invalid token [${ab}] in order attribute [${text}]`);
 					return;
 			}
-		output.push(
+			output.push(
 				abPairOpen
 				+ abPairStartOpen
 				+ title
 				+ abPairPartClose
 				+ abPairEndOpen
-				+ doParse(what || "MISSING", h)
+				+ (parsed ? what : doParse(what || "MISSING", h))
 				+ abPairPartClose
 				+ abPairClose
 			);
@@ -449,19 +448,34 @@ export const makeAbilityBlock = ({
 				+ abPairClose
 			);
 		}
-		const ab = parseAtts(attrs);
-		if(ab) {
-			const [description, title, highlight] = ab;
+		if(containerInfo) {
+			// This was pre-parsed and passed in from container-directives.
+			const {action, contents} = containerInfo;
 			output.push(
 				abPairOpen
 				+ abPairStartOpen
-				+ title
+				+ action
 				+ abPairPartClose
 				+ abPairEndOpen
-				+ doParse(description, highlight)
+				+ contents
 				+ abPairPartClose
 				+ abPairClose
 			);
+		} else {
+			const ab = parseAtts(attrs);
+			if(ab) {
+				const [description, title, highlight] = ab;
+				output.push(
+					abPairOpen
+					+ abPairStartOpen
+					+ title
+					+ abPairPartClose
+					+ abPairEndOpen
+					+ doParse(description, highlight)
+					+ abPairPartClose
+					+ abPairClose
+				);
+			}
 		}
 	}
 	//

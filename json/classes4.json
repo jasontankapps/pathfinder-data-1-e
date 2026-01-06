@@ -80,7 +80,7 @@
 			"",
 			"::ab[Scribe Scroll]{l=1 icon=power ability=\"You gain ‹feat/Scribe Scroll› as a bonus feat.\"}",
 			"",
-			":::ab{jl=\"Raging Song\" l=1 icon=power-aura flavor=\"A skald is trained to use music, oration, and similar performances to inspire his allies to feats of strength and ferocity.\" title=\"Raging Song (Su) (Basics)\" ability=\"Standard Action\" usage=\"1 + twice your skald level + your Cha modifier rounds/day.\" imp7=\"You can begin a raging song as a move-equivalent action.\" imp13=\"You can begin a raging song as a swift action.\"}",
+			":::ab{jl=\"Raging Song\" l=1 icon=power-aura flavor=\"A skald is trained to use music, oration, and similar performances to inspire his allies to feats of strength and ferocity.\" title=\"Raging Song (Su) (Basics)\" action=\"Standard Action\" usage=\"1 + twice your skald level + your Cha modifier rounds/day.\" imp7=\"You can begin a raging song as a move-equivalent action.\" imp13=\"You can begin a raging song as a swift action.\"}",
 			"",
 			"Each round, you can produce any one of the types of raging song that you have mastered, as indicated by your level.",
 			"",
