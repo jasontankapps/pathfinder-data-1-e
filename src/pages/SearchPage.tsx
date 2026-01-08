@@ -148,6 +148,12 @@ interface SearchResultProps {
 	fuseTranslatedIndex: DataObject
 }
 
+const LoadingNotice: FC = () => (
+	<IonList className="search">
+		<IonItem><IonLabel>Searching... <IonSpinner /></IonLabel></IonItem>
+	</IonList>
+);
+
 const SearchResults: FC<SearchResultProps> = ({searchText, filter, fuseTranslatedIndex}) => {
 	if(!searchText) {
 		return (
@@ -155,6 +161,10 @@ const SearchResults: FC<SearchResultProps> = ({searchText, filter, fuseTranslate
 				<IonItem><IonLabel>Search results will appear here.</IonLabel></IonItem>
 			</IonList>
 		);
+	} else if (fuseTranslatedIndex.data.length === 0) {
+		// Switching here while a filter is saved will cause errors
+		//   until the index is loaded up again. So, we wait.
+		return <LoadingNotice />;
 	}
 	const results = filter
 		? fuse.search(searchText).filter(el => (filter.indexOf(fuseTranslatedIndex.data[el.refIndex].s) > -1)).slice(0, 100)
@@ -363,11 +373,8 @@ const SearchPage: FC = () => {
 				/>
 				<SearchHelpModal open={helpOpen} setOpen={setHelpOpen} />
 				{
-					isPending ? (
-						<IonList className="search">
-							<IonItem><IonLabel>Searching... <IonSpinner /></IonLabel></IonItem>
-						</IonList>
-					) :
+					isPending ? <LoadingNotice />
+					:
 						<SearchResults
 							fuseTranslatedIndex={fuseTranslatedIndex}
 							searchText={searchText}
