@@ -88,18 +88,22 @@ export const makeAbilityBlock = ({
 				const [inc, clss, base] = useInc.split(/~/);
 				const unit = useUnit || "time";
 				if(!base) {
-					return [`1 ${unit}/day per ${writtenNumber(Number(inc))} ${clss} levels`, unit];
 					//useInc=2~cleric =>
-					//1 round/day per two cleric levels
+					//1 time/day per two cleric levels
+					return [`1 ${unit}/day per ${writtenNumber(Number(inc))} ${clss} levels`, unit];
+				} else if(base === "+") {
+					//useInc=3~cleric~+ =>
+					//1 time/day + 1 per three cleric levels
+					return [`1 ${unit}/day + 1 per ${writtenNumber(Number(inc))} ${clss} levels`, unit];
 				}
+				//useInc=4~cleric~8 =>
+				//1 time/day + 1 per four cleric levels beyond 8th
 				return [
 					`1 ${unit}/day + 1 per ${
 						writtenNumber(Number(inc))
 					} ${clss} levels beyond ${ordinal(base)}`,
 					unit
 				];
-				//useInc=4~cleric~8 =>
-				//1 time/day + 1 per four cleric levels beyond 8th
 			} else if (useL3) {
 				const unit = useUnit || "round";
 				return [`3 ${unit}s/day + 1 ${unit} per ${useL3} level`, unit];
