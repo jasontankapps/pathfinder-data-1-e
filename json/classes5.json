@@ -71,7 +71,7 @@
 			"",
 			"::ab[Expert Trainer (Ex)]{jl=strip l=4 icon=boost passive=\"You receive a bonus equal to 1/2 your cavalier level whenever you use ‹skill/Handle Animal› on an animal that serves as a mount. In addition, you can reduce the time needed to teach a mount a new ‹ability/animal_>trick<s› or train a mount for a general purpose to 1 day per 1 week required by increasing the DC by +5. You can also train more than one mount at once, although each mount after the first adds +2 to the DC.\"}",
 			"",
-			"::ab[Banner (Ex)]{jl=strip l=5 flavor=\"A cavalier's banner becomes a symbol of inspiration to his allies and companions.\" icon=def-melee passive=\"As long as your banner is clearly visible, all allies within 60 feet receive a +2 morale bonus on saving throws against fear and a +1 morale bonus on attack rolls made as part of a charge.\" special=\"The banner must be at least Small or larger and must be carried or displayed by you or your mount to function.\" imp10=\"The save bonus becomes +3 and the melee bonus becomes +2.\" imp15=\"The bonuses become +4 and +3.\" imp20=\"The bonuses become +5 and +4.\"}",
+			"::ab[Banner (Ex)]{jl=strip l=5 flavor=\"A cavalier's banner becomes a symbol of inspiration to his allies and companions.\" icon=def-melee passive=\"As long as your banner is clearly visible, all allies within 60 feet receive a +2 morale bonus on saving throws against fear and a +1 morale bonus on attack rolls made as part of a charge. The save bonus is equal to 1 + ‹misc/one-fifth› your cavalier level, while the charge bonus is equal to one-fifth your cavalier level.\" special=\"The banner must be at least Small or larger and must be carried or displayed by you or your mount to function.\"}",
 			"",
 			":::aside",
 			"",
