@@ -86,7 +86,7 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 		deff.push([`channel resistance ${chanRes}`, `‹umr/channel resistance› ${chanRes}`]);
 	}
 	if(fortif) {
-		deff.push([`fortification (${fortif})`, `‹umr/fortification› (${fortif})`]);
+		deff.push([`fortification (${fortif}%)`, `‹umr/fortification› (${fortif}%)`]);
 	}
 	if(split) {
 		deff.push([`split (${split})`, `‹umr/split› (${split})`]);
