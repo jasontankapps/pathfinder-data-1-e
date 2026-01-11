@@ -499,9 +499,9 @@ This creates a stat block for a spell.
     - `harmless` means (harmless) should be appended to BOTH
     - `object` means (object) should be appended to BOTH
 
-#### minfo
+#### ::minfo
 
-This prints out the first part of a monster's stat block
+This prints out the first part of a monster's stat block.
 
 `minfo[Optional race/class]{source="" xp=## <alignment> <size> <type> <subtyping>? init="" <senses> aura?=""}`
 
@@ -542,3 +542,53 @@ This prints out the first part of a monster's stat block
     - `sid` is the see in darkness ability
     - `pcp` is the monster's Perception modifier, either `"+##"` or `"-##"`
 - `aura` is text describing any auras the monster emanates
+
+#### ::mdefense
+
+This prints out the second part of a monster's stat block.
+
+`mdefense{ac="" mod?="" <hp expression> fort="" ref="" will="" def?="" chanRes?="" fortif?=## split?="" ink?=## pBlood?="" trapS?="" unstop? blockAt? rockCt? secSave? ferocity? amorph? aav? incorp? noB? eva? unc? impEva? impUnc? dr?="" immune?="" resist?="" sr?="" vulner?="" weak?=""}`
+
+- `ac` describes the monster's AC in "x/y/z" format
+    - *x* is the overall AC
+    - *y* is the touch AC
+    - *z* is the flat-footed AC
+- `mod` describes what modifiers contribute to the AC; this is appended to the AC inside of parentheses
+    - Example: `mod="+1 Dex, +10 natural, -1 size"`
+- `<hp expression>`: `hpRaw | hp="" fh?="" regen?=""`
+    - If `hpRaw` is provided, it is used verbatim
+    - `hp` indicates the monster's hit points and should be in the format `"n~e"` where `n` is the raw amount of hp and `e` is the expression describing what creates it
+        - Example: `hp="51~6d10+18"`
+    - `fh` indicates the amount of *fast healing* the monster has
+    - `regen` indicates the monster has *regeneration* and should be in the format `"n (d)"` where `n` is the amount of regeneration and `d` indicates what disables it
+- `fort` indicates the Fortitude save bonus or penalty
+- `ref` is the Reflex save modifier
+- `will` is the Will save modifier
+- `def` is a tilde-delimitated list of defensive abilities; where possible, use any of these other attributes instead
+    - `chanRes` is the monster's amount of *channel resistance*
+    - `fortif` is the percentage amount of *fortification* the monster has
+        - Example: `fortif=50`
+    - `split` describes the monster's *split* ability in the format `"TYPE, X hp"` where `TYPE` describes what type of damage initiates the *split,* and `X` is the amount of hp where the *split* ability stops working
+        - Example: `split="slashing, 20 hp"`
+    - `ink` is the radius of the monster's *ink cloud* ability
+    - `pBlood` is the name of the poison (in `link text` format) that makes up the monster's *poisonous blood* ability
+    - `trapS` is the *trap sense* bonus the monster has
+    - `unstop` indicates *unstoppable*
+    - `blockAt` indicates *block attacks*
+    - `rockCt` indicates *rock catching*
+    - `secSave` indicates *second save*
+    - `ferocity` indicates *ferocity*
+    - `amorph` indicates *amorphous*
+    - `aav` indicates *all-around vision*
+    - `incorp` indicates *incorporeal*
+    - `noB` indicates *no breath*
+    - `eva` indicates *evasion*
+    - `unc` indicates *uncanny dodge*
+    - `impEva` indicates *improved evasion*
+    - `impUnc` indicates *improved uncanny dodge*
+- `dr` is the amount of DR (damage reduction) the monster has, and what overcomes it
+- `immune` is a description of any immunities the monster has
+- `resist` is a description of the monster's resistances
+- `sr` is the amount of SR (spell resistance) the monster has
+- `vulner` is a string listing what the monster is vulnerable to
+- `weak` is a tilde-deliminated list of the monster's weaknesses
