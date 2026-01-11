@@ -85,23 +85,39 @@ export const makeAbilityBlock = ({
 			if (usage) {
 				return [doParse(usage), "error"];
 			} else if (useInc) {
-				const [inc, clss, base] = useInc.split(/~/);
+				const [levelInterval, levelClass, startFromLevel, initial = "1"] = useInc.split(/~/);
+				const starting = Number(initial) || 1;
 				const unit = useUnit || "time";
-				if(!base) {
+				const plurality = starting === 1 ? "" : "s";
+				if(!startFromLevel) {
 					//useInc=2~cleric =>
 					//1 time/day per two cleric levels
-					return [`1 ${unit}/day per ${writtenNumber(Number(inc))} ${clss} levels`, unit];
-				} else if(base === "+") {
+					return [
+						`${starting} ${unit + plurality}/day per ${
+							writtenNumber(Number(levelInterval))
+						} ${levelClass} levels`,
+						unit
+					];
+				} else if(startFromLevel === "+") {
 					//useInc=3~cleric~+ =>
 					//1 time/day + 1 per three cleric levels
-					return [`1 ${unit}/day + 1 per ${writtenNumber(Number(inc))} ${clss} levels`, unit];
+					//useInc=3~cleric~+~3 =>
+					//3 times/day + 1 per three cleric levels
+					return [
+						`${starting} ${unit + plurality}/day + 1 per ${
+							writtenNumber(Number(levelInterval))
+						} ${levelClass} levels`,
+						unit
+					];
 				}
 				//useInc=4~cleric~8 =>
 				//1 time/day + 1 per four cleric levels beyond 8th
+				//useInc=4~cleric~8~3 =>
+				//3 times/day + 1 per four cleric levels beyond 8th
 				return [
-					`1 ${unit}/day + 1 per ${
-						writtenNumber(Number(inc))
-					} ${clss} levels beyond ${ordinal(base)}`,
+					`${starting} ${unit + plurality}/day + 1 per ${
+						writtenNumber(Number(levelInterval))
+					} ${levelClass} levels beyond ${ordinal(startFromLevel)}`,
 					unit
 				];
 			} else if (useL3) {
@@ -130,7 +146,7 @@ export const makeAbilityBlock = ({
 		if(!base) {
 			return base;
 		}
-		const [u, unit] = base;
+		const [text, unit] = base;
 		const min = !useM ? "" : (
 			useM === "useM" ? " (minimum 1)" : ` (minimum ${useM})`
 		);
@@ -143,7 +159,7 @@ export const makeAbilityBlock = ({
 			}
 			return "";
 		};
-		return `${u}${min}${consecutive()}`;
+		return `${text}${min}${consecutive()}`;
 	})();
 	//
 	// CHECK ABILITIES
