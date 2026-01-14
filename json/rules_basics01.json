@@ -377,6 +377,7 @@
 			"the_abilities"
 		]
 	},
+	"bonus_spells": { "redirect": "determine_bonuses" },
 	"the_abilities": {
 		"name": "The Abilities",
 		"sources": [ "PRPG Core Rulebook" ],
