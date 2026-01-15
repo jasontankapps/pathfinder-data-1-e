@@ -155,9 +155,7 @@ export const makeSpellAbilityBlock = ({
 	//
 	output.push(`<div className="title abSingle" id="${
 		jlid || prefix + id
-	}" data-hash-target><div className="box">Spells${
-		block.length > 0 ? " (Basics)" : ""
-	}</div></div>`);
+	}" data-hash-target><div className="box">Spells</div></div>`);
 	output.push(
 		abPairOpen
 			+ abPairStartOpen
@@ -277,29 +275,33 @@ export const makeSpellAbilityBlock = ({
 		"Oracles do not need to provide a divine focus to cast "
 		+ "spells that list divine focus (DF) as part of the components."
 	);
-	if(special.length > 0) {
-		output.push(
-				abPairOpen
-				+ abPairStartOpen
-				+ "Special"
-				+ abPairPartClose
-				+ abPairEndOpen
-				+ special.join(" ")
-				+ abPairPartClose
-				+ abPairClose
-			);
-	}
 
-
-	return [
-		`${maybeClear}<div className="ability">`
-			+ `<div className="abIcon"><Link to="/icons">`
-			+ `<IonIcon icon="/icons/magic-swirl.svg" color="secondary" />`
-			+ "</Link></div>\n"
-			+ output.join("\n")
-			+ "</div>",
-		...block
-	].join("\n");
+	return `${maybeClear}<div className="ability">`
+		+ `<div className="abIcon"><Link to="/icons">`
+		+ `<IonIcon icon="/icons/magic-swirl.svg" color="secondary" />`
+		+ "</Link></div>\n"
+		+ output.join("\n")
+		+ (block.length ? 
+			abPairOpen
+			+ abPairStartOpen
+			+ "Info"
+			+ abPairPartClose
+			+ abPairEndOpen
+			+ block.join("\n")
+			+ abPairPartClose
+			+ abPairClose
+		: "")
+		+ (special.length ?
+			abPairOpen
+			+ abPairStartOpen
+			+ "Special"
+			+ abPairPartClose
+			+ abPairEndOpen
+			+ special.join(" ")
+			+ abPairPartClose
+			+ abPairClose
+		: "")
+		+ "</div>";
 
 };
 
