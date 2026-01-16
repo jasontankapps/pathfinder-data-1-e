@@ -406,7 +406,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				});
 			} else if (n === "spellAb") {
 				churn(n, attrs, [
-					"stat", "m",
+					"stat",
 					"learn", "prepare",
 					"zeroMsg",
 					"type", "caster",

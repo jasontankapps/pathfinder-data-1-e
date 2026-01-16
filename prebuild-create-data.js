@@ -74,6 +74,7 @@ const removeCurlyBrackets = (input, inlineText) => {
 	const obfuscate = (input) => {
 		return input
 			.replace(/\n/g, "<span data-hiding></span>")
+			.replace(/Span=\{([0-9]+)\}/g, "Span-=SpanNum$1=-")
 			.replace(/=>/g, "-=ARROW=-")
 			.split("‹").map((bit, i) => {
 				let m;
@@ -93,6 +94,7 @@ const removeCurlyBrackets = (input, inlineText) => {
 		.replace(/-=LEFT=-/g, "<")
 		.replace(/-=RIGHT=-/g, ">")
 		.replace(/-=ARROW=-/g, "=>")
+		.replace(/-=SpanNum([0-9]+)=-/g, "={$1}")
 		.replace(/<span data-hiding><[/]span>/g, "\n");
 	let test = obfuscate(input);
 	let m;
