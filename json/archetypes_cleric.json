@@ -386,7 +386,7 @@
 			"",
 			"::ab[Artificer]{icon=down note=\"A forgemaster gains only one domain, which must be the Artifice domain (not including subdomains).\"}",
 			"",
-			"::ab[Steel Spells]{icon=learn note=\"A forgemaster adds the following spells to her spell list at the listed spell level.\" s1=\"crafter's curse~~crafter's fortune~~lead blades\" s2=\"chill metal~~heat metal~~shatter\" s3=\"keen edge~~versatile weapon\" s8=\"iron body~~repel metal or stone\"}",
+			"::ab[Steel Spells]{icon=learn note=\"A forgemaster adds the following spells to her spell list at the listed spell level.\" s1=\"Crafter's curse~~crafter's fortune~~lead blades\" s2=\"Chill metal~~heat metal~~shatter\" s3=\"Keen edge~~versatile weapon\" s8=\"Iron body~~repel metal or stone\"}",
 			"",
 			"::ab[Divine Smith (Su)]{icon=boost passive=\"Whenever a forgemaster casts a spell that targets a weapon, shield, or armor, the spell takes effect at +1 caster level. If the spell has one or more metamagic feats applied, she reduces the total level adjustment to the spell by 1 (minimum 0).\"}",
 			"",
@@ -610,15 +610,15 @@
 			"‹SOURCE Ultimate Combat/41›  ",
 			"The merciful healer is a master of battlefield revivification, sustaining and restoring allies to keep them in the fight.",
 			"",
-			"**Willing Healer:** A merciful healer must choose the ‹domain/Healing› domain. She does not gain a second domain. If the cleric worships a deity, that deity must be one that grants the Healing domain. A merciful healer must channel positive energy.",
+			"::ab[Willing Healer]{icon=down note=\"A merciful healer must choose the ‹domain/Healing› domain. She does not gain a second domain. If the cleric worships a deity, that deity must be one that grants the Healing domain.\"}",
 			"",
-			"**Channel Energy (Su):** As the cleric ability, save that a merciful healer must channel positive energy, and when she does, she cannot choose to target undead. This ability is otherwise identical to the cleric ability of the same name.",
+			"::ab[Channel Energy (Su)]{l=1 icon=power ability=\"As the cleric ability, save that a merciful healer must channel positive energy, and when she does, she cannot choose to target undead. This ability is otherwise identical to the cleric ability of the same name.\" replace=\"Channel energy\"}",
 			"",
-			"**Combat Medic (Ex):** A merciful healer does not provoke attacks of opportunity when using the Heal skill to stabilize another creature or casting healing spells.",
+			"::ab[Combat Medic (Ex)]{icon=def passive=\"A merciful healer does not provoke attacks of opportunity when using the Heal skill to stabilize another creature or casting healing spells.\"}",
 			"",
-			"**Merciful Healing (Su):** At 3rd level, a merciful healer can channel positive energy to relieve one or more harmful conditions. The merciful healer chooses one of the following harmful conditions at 3rd level: fatigued, shaken, or sickened. When the merciful healer channels energy she can remove the chosen condition from one living creature that she heals within her channel energy burst. At 6th level, she can choose another condition. It can be one of those she didn't choose at 3rd level, or one of the following conditions: dazed, diseased, or staggered. She can remove the selected condition or the one she chose at 3rd level from up to two creatures within her channel energy burst. She gains another condition at 9th level, and can choose an above condition or one of the following conditions: cursed, exhausted, frightened, nauseated, or poisoned. She can remove that condition, or a condition she previously chose, from one or two creatures within the burst. Finally, at 12th level, she can choose a lower-level condition or one of the following conditions: blinded, deafened, paralyzed, or stunned. She can remove that condition or one she previously chose from one, two, or three creatures within her channel energy burst. Feats and effects that affect a ‹class/paladin«'s› mercy also affect this ability.",
+			"::ab[Merciful Healing (Su)]{icon=power-aid l3=\"A merciful healer can channel positive energy to relieve one or more harmful conditions. The merciful healer chooses one of the following harmful conditions: ‹misc/fatigued›, ‹misc/shaken›, or ‹misc/sickened›. When the merciful healer channels energy she can remove the chosen condition from one living creature that she heals within her channel energy burst.\" l6=\"She can choose another condition. It can be one of those she didn't choose at 3rd level, or one of the following conditions: ‹misc/dazed›, diseased, or ‹misc/staggered›. She can remove either selected condition from up to two creatures within her channel energy burst.\" l9=\"She gains another condition, and can choose an above condition or one of the following conditions: cursed, ‹misc/exhausted›, ‹misc/frightened›, ‹misc/nauseated›, or poisoned. She can remove that condition, or a condition she previously chose, from one or two creatures within the burst.\" l12=\"She can choose a lower-level condition or one of the following conditions: ‹misc/blinded›, ‹misc/deafened›, ‹rule/paralyzed›, or ‹misc/stunned›. She can remove that condition or one she previously chose from one, two, or three creatures within her channel energy burst.\" special=\"Feats and effects that affect a paladin's ‹ability/mercy› also affect this ability.\"}",
 			"",
-			"**True Healer (Su):** At 8th level, when a merciful healer channels holy energy, she can choose to apply the benefits of merciful healing or to reroll any 1s when determining how much damage she heals with the holy energy. She must choose which benefit to take before she rolls to see how much damage she heals."
+			"::ab[True Healer (Su)]{l=8 icon=power-roll ability=\"When a merciful healer channels holy energy, she can choose to apply the benefits of *merciful healing* or to reroll any 1s when determining how much damage she heals with the holy energy. She must choose which benefit to take before she rolls to see how much damage she heals.\"}"
 		]
 	},
 	"roaming_exorcist": {
@@ -630,19 +630,19 @@
 			"‹SOURCE Undead Slayer's Handbook/18›  ",
 			"The roaming exorcist travels far and wide to root out possessions, hauntings, and hidden evils. The roaming exorcist extracts unruly spirits from not only victims of possession, but also haunted sites and accursed items.",
 			"",
-			"**Skill Ranks per Level:** 4 + Int modifier.",
+			"::ab[Skill Ranks per Level]{icon=skill note=\"4 + Int modifier.\"}",
 			"",
-			"**Dedicated Wanderer:** A roaming exorcist is dedicated to her cause and affords no time to other pursuits typical of clerics. A roaming exorcist must choose to channel positive energy. She may choose only one domain from her deity's list of domains, rather than the normal two domains, and she does not gain Medium Armor Proficiency or Shield Proficiency.",
+			"::ab[Dedicated Wanderer]{flavor=\"A roaming exorcist is dedicated to her cause and affords no time to other pursuits typical of clerics.\" icon=down note=\"A roaming exorcist must choose to channel positive energy. She may choose only one domain from her deity's list of domains, rather than the normal two domains, and she does not gain Medium Armor Proficiency or Shield Proficiency.\" alter=\"Domains~channel energy~armor proficiency\"}",
 			"",
-			"**Unseen Revealed (Ex):** At 1st level, a roaming exorcist gains a bonus equal to 1/2 her cleric level (minimum +1) on Perception checks to detect haunts and incorporeal creatures and on Sense Motive checks to determine whether a creature is possessed, under the effects of an enchantment or curse, or otherwise magically controlled.",
+			"::ab[Unseen Revealed (Ex)]{l=1 passive=\"A roaming exorcist gains a bonus equal to 1/2 her cleric level (minimum +1) on Perception checks to detect haunts and incorporeal creatures and on Sense Motive checks to determine whether a creature is possessed, under the effects of an enchantment or curse, or otherwise magically controlled.\" icon=boost}",
 			"",
-			"**Spirit Sleuth (Ex):** At 2nd level, upon interacting with a rejuvenating spirit or haunt for the first time (such as by attacking the spirit or channeling energy to damage the haunt), a roaming exorcist can attempt a Sense Motive check as a free action to determine the specific course of action required to permanently neutralize the spirit or haunt (DC = 10 + the undead creature's Hit Dice or the haunt's CR).",
+			"::ab[Spirit Sleuth (Ex)]{l=2 icon=power free=\"Upon interacting with a rejuvenating spirit or haunt for the first time (such as by attacking the spirit or channeling energy to damage the haunt), a roaming exorcist can attempt a Sense Motive check to determine the specific course of action required to permanently neutralize the spirit or haunt (DC = 10 + the undead creature's Hit Dice or the haunt's CR).\"}",
 			"",
-			"**Curse Seeker (Su):** At 5th level, a roaming exorcist can more readily identify cursed items. When identifying a magic item, the roaming exorcist needs to exceed the item's DC by only 5 (instead of by 10) in order to determine whether the item is cursed.",
+			"::ab[Curse Seeker (Su)]{l=5 icon=boost flavor=\"A roaming exorcist can more readily identify cursed items.\" passive=\"When identifying a magic item, the roaming exorcist needs to exceed the item's DC by only 5 (instead of by 10) in order to determine whether the item is cursed.\"}",
 			"",
-			"**Dispossession (Su):** At 8th level, a roaming exorcist can expend one use of her channel energy ability to force a possessing creature from its host body. The exorcist must make a melee touch attack against the possessed creature; if successful, the roaming exorcist deals damage to the possessing creature as if it were targeted by the roaming exorcist's channel energy ability (regardless of the possessing creature's creature type), and the possession effect ceases as the possessing creature is ejected from the host body. A successful Will save (DC = the roaming exorcist's channel energy DC) halves the damage taken, and the possessing creature resists being ejected from its host.",
+			"::ab[Dispossession (Su)]{l=8 icon=power ability=\"A roaming exorcist can expend one use of her *channel energy* ability to force a possessing creature from its host body. The exorcist must make a melee touch attack against the possessed creature; if successful, the roaming exorcist deals damage to the possessing creature as if it were targeted by the roaming exorcist's *channel energy* ability (regardless of the possessing creature's creature type), and the possession effect ceases as the possessing creature is ejected from the host body. A successful Will save (DC = the roaming exorcist's *channel energy* DC) halves the damage taken, and the possessing creature resists being ejected from its host.\"}",
 			"",
-			"**Curse Eater (Su):** At 11th level, a roaming exorcist gains ‹feat/Improved Disarm› as a bonus feat, regardless of whether she meets the feat's prerequisites. The roaming exorcist gains a +2 bonus on combat maneuver checks to disarm a creature of a magic item she knows to be cursed. If the roaming exorcist successfully disarms a creature of a cursed item without using a weapon, she may automatically pick up the disarmed cursed item without immediately succumbing to the item's curse. She may wield or hold this cursed item for a number of rounds equal to her Charisma modifier (minimum 1 round) - during which time she may use the item normally, as if it were not cursed - before the item's curse manifests again."
+			"::ab[Curse Eater (Su)]{l=11 icon=power-boost-def ability=\"A roaming exorcist gains ‹feat/Improved Disarm› as a bonus feat, regardless of whether she meets the feat's prerequisites.\" passive=\"The roaming exorcist gains a +2 bonus on combat maneuver checks to disarm a creature of a magic item she knows to be cursed.\" special=\"If the roaming exorcist successfully disarms a creature of a cursed item without using a weapon, she may automatically pick up the disarmed cursed item without immediately succumbing to the item's curse. She may wield or hold this cursed item for a number of rounds equal to her Charisma modifier (minimum 1 round) - during which time she may use the item normally, as if it were not cursed - before the item's curse manifests again.\" order=ap}"
 		]
 	},
 	"sacred_attendant": {
@@ -654,21 +654,15 @@
 			"‹SOURCE Healer's Handbook/4›  ",
 			"Sacred attendants bring out the varied beauty in everyone they help, and they typically worship deities of beauty, love, and sex.",
 			"",
-			"**Channel Beauty (Su):** Whenever a sacred attendant channels energy to heal, she can opt to reduce the number of dice she rolls by 1 or more. For every die the sacred attendant subtracts, each of the targets of the channeled energy is healed of 1 point of ‹rule/Charisma damage›.",
+			"::ab[Channel Beauty (Su)]{icon=power ability=\"Whenever a sacred attendant channels energy to heal, she can opt to reduce the number of dice she rolls by 1 or more. For every die the sacred attendant subtracts, each of the targets of the channeled energy is healed of 1 point of ‹rule/Charisma damage›.\" alter=\"Channel energy\"}",
 			"",
-			"This ability alters @HL[channel energy].",
+			"::ab[Domains]{icon=down note=\"The sacred attendant can choose only one domain from those belonging to her deity.\" alter=Domains}",
 			"",
-			"**Domains:** The sacred attendant can choose only one domain from those belonging to her deity.",
+			"::ab[Nimble (Ex)]{icon=def l1=\"The sacred attendant gains a +1 dodge bonus to AC and CMD when unarmored, unencumbered, and not denied her Dexterity bonus to AC (regardless of whether she has a Dexterity bonus).\" l2=\"The dodge bonus becomes +2.\" l6=\"The dodge bonus becomes +3.\" l10=\"The dodge bonus becomes +4.\" l14=\"The dodge bonus becomes +5.\" l18=\"The dodge bonus becomes +6.\" replace=\"Proficiency with light and medium armor\"}",
 			"",
-			"This ability alters @HL[domains].",
+			"::ab[Nurture Grace (Su)]{l=1 icon=boost standard=\"The sacred attendant can coax forth the charm and beauty within a willing, touched creature. For 1 round, the subject gains an enhancement bonus equal to 1/2 the sacred attendant's cleric level (minimum +1) on Charisma checks and Charisma-based skill checks. The sacred attendant can spend two uses of this ability to instead counsel a subject for 10 minutes; in this case, the ability's duration lasts for 1 day.\" useMod3=Wis}",
 			"",
-			"**Nimble (Ex):** The sacred attendant gains a +1 dodge bonus to AC and CMD when unarmored, unencumbered, and not denied her Dexterity bonus to AC (regardless of whether she has a Dexterity bonus). At 2nd level and every 4 cleric levels thereafter, the dodge bonus increases by 1 (to a maximum of +6 at 18th level).",
-			"",
-			"This ability replaces the cleric's @HL[proficiency with light and medium armor].",
-			"",
-			"**Nurture Grace (Su):** The sacred attendant can coax forth the charm and beauty within a willing, touched creature as a standard action. For 1 round, the subject gains an enhancement bonus equal to 1/2 the sacred attendant's cleric level (minimum +1) on Charisma checks and Charisma-based skill checks. The sacred attendant can spend two uses of this ability to instead counsel a subject for 10 minutes; in this case, the ability's duration lasts for 1 day. The sacred attendant can use this ability a number of times per day equal to 3 + her Wisdom modifier.",
-			"",
-			"**Inspiring Camaraderie (Sp):** At 8th level, as a swift action whenever a sacred attendant casts a cure spell [(a spell with \"cure\" in its name)](main/spell_groupings) that targets a single ally, the sacred attendant can infuse that ally with inspired vigor. For a number of rounds equal to 1/2 the sacred attendant's cleric level, the ally's attack rolls gain a competence bonus equal to the sacred attendant's cleric level. These rounds begin as soon as the sacred attendant uses this ability and elapse consecutively. The sacred attendant can use this ability once per day at 8th level, and an additional time per day for every 4 cleric levels beyond 8th."
+			"::ab[Inspiring Camaraderie (Sp)]{l=8 icon=boost swift=\"Whenever a sacred attendant casts a ‹main/cure spell<s› that targets a single ally, the sacred attendant can infuse that ally with inspired vigor. For a number of rounds equal to 1/2 the sacred attendant's cleric level, the ally's attack rolls gain a competence bonus equal to the sacred attendant's cleric level. These rounds begin as soon as the sacred attendant uses this ability and elapse consecutively.\" useInc=\"4~cleric~8\"}"
 		]
 	},
 	"scroll_scholar": {
@@ -680,17 +674,11 @@
 			"‹SOURCE Pathfinder Society Field Guide/26›  ",
 			"A scroll scholar values knowledge and learning as much as her other abilities, trading a portion of her potential in her chosen class for greater breadth of skill at deciphering old texts, piecing together strange fragments of esoteric lore, and deciphering the hidden qualities of strange and unusual magical items. The scroll scholar archetype can be taken by either clerics or wizards - they give up [different class abilities](arc-wizard/scroll_scholar) for the new abilities granted by this archetype. A scroll scholar has the following class features.",
 			"",
-			"**Diligent Student (Ex):** At 1st level, a scroll scholar chooses one Knowledge skill. This becomes a class skill if it is not already one. The scroll scholar adds half her class level to all Knowledge checks of this type (minimum 1). At 5th level and every five levels thereafter, a scroll scholar chooses 1 additional Knowledge skill to receive this bonus.",
+			"::ab[Diligent Student (Ex)]{icon=skill-boost l1=\"A scroll scholar chooses one Knowledge skill. This becomes a class skill if it is not already one. The scroll scholar adds half her class level to all Knowledge checks of this type (minimum 1).\" l5=\"A scroll scholar chooses 1 additional Knowledge skill to receive this bonus.\" l10=\"A scroll scholar chooses a third additional Knowledge skill to receive this bonus.\" l15=\"A scroll scholar chooses a fourth Knowledge skill to receive this bonus.\" l20=\"A scroll scholar chooses a fifth Knowledge skill to receive this bonus.\" replace=\"One of the 1st-level granted powers from her domains - the character gets to choose which of her two 1st-level granted powers it replaces.\"}",
 			"",
-			"This ability replaces @HL[one of the 1st-level granted powers] from her domains - the character gets to choose which of her two 1st-level granted powers it replaces.",
+			"::ab[Secrets Revealed (Sp)]{icon=power-magic l5=\"A scroll scholar gains the ability to cast ‹spell/comprehend languages› and ‹spell/identify› as spell-like abilities. Her caster level is equal to her character level in whatever class she took the scroll scholar archetype for. She can cast these spells once per day.\" l7=\"She can now cast these spells twice per day each.\" l9=\"She can now cast these spells three times per day each.\" l11=\"One of these spell-like abilities (scholar's choice) becomes a constant spell-like ability.\" l13=\"The second one becomes a constant spell-like ability.\" replace=\"Channel energy damage boost at 5th level\" special=\"Her *channel energy* damage increases to 3d6 at 7th level, and for the rest of her career as a cleric lags 1d6 behind normal.\"}",
 			"",
-			"**Secrets Revealed (Sp):** At 5th level, a scroll scholar gains the ability to cast ‹spell/comprehend languages› and ‹spell/identify› as spell-like abilities. Her caster level is equal to her character level in whatever class she took the scroll scholar archetype for. She can cast these spells once per day each at 5th level, twice per day each at 7th level, and three times per day each at 9th level. At 11th level, one of these spell-like abilities (scholar's choice) becomes a constant spell-like ability, and at 13th level, the second one becomes a constant spell-like ability.",
-			"",
-			"This ability replaces the @HL[increase to her channel energy] damage normally gained at 5th level - her channel energy damage increases to 3d6 at 7th level instead, and for the rest of her career as a cleric lags 1d6 behind normal.",
-			"",
-			"**Flash of Insight (Su):** At 10th level, once per day, a scroll scholar can gain a +5 bonus on a single attack roll, caster level check, or saving throw as an immediate action. This decision must be made before the results of the roll are known, but can be made after the die is rolled. This ability can be used twice per day at 15th level, and 3 times per day at 20th level.",
-			"",
-			"This ability replaces the normal addition of @HL[a new 4th-level spell slot] to the character's spells per day; from this point on, the cleric has one fewer 4th-level spell slot than other clerics."
+			"::ab[Flash of Insight (Su)]{icon=boost-def l=10 immediate=\"Once per day, a scroll scholar can gain a +5 bonus on a single attack roll, caster level check, or saving throw. This decision must be made before the results of the roll are known, but can be made after the die is rolled.\" imp15=\"You can use this ability twice a day.\" imp20=\"You can do this three times a day.\" replace=\"The normal addition of a new 4th-level spell slot to the character's spells per day.\" special=\"From this point on, the cleric has one fewer 4th-level spell slot than other clerics.\"}"
 		]
 	},
 	"separatist": {
@@ -702,13 +690,11 @@
 			"‹SOURCE Ultimate Magic/32›  ",
 			"A radical cleric, unsatisfied with the orthodoxy of her deity's teachings, forges her own path of defiant divine expression. Though most members of her faith would call her a separatist or heretic, she continues to receive spells from her deity. Charismatic separatists may develop a large following of like-minded believers and eventually found a splinter church of their deity - and they are just as likely to be the cause of a holy civil war as the branches of the religion fight to determine which is the true faith.",
 			"",
-			"A cleric who does not serve a deity cannot take the separatist archetype. A separatist has the following class features.",
+			"::prereq{other=\"Must worship a deity.\"}",
 			"",
-			"**Weapon and Armor Proficiency:** Separatists do not gain proficiency in their deity's favored weapon (though they are not prohibited from using it or learning its use).",
+			"::ab[Weapon and Armor Proficiency]{icon=down note=\"Separatists do not gain proficiency in their deity's favored weapon (though they are not prohibited from using it or learning its use).\"}",
 			"",
-			"**Forbidden Rites:** A separatist selects one domain from her deity's domain list, and a second domain that is not on her deity's domain list. This second domain cannot be an alignment domain that doesn't match the cleric's or her deity's alignment. For example, a lawful good separatist cleric of a neutral good deity cannot choose the ‹domain/Chaos› or ‹domain/Evil› domain with this ability, but can select the ‹domain/Law› domain even though her deity isn't lawful.",
-			"",
-			"Granted powers from the cleric's second domain function as if the cleric's level, Wisdom, and Charisma were 2 lower than normal (minimum level 1) in terms of effect, DC, and uses per day. This also means the separatist doesn't gain the domain's higher-level ability until 2 levels later than normal. If the second domain grants additional class skills, the separatist gains these as normal. In all other respects, this ability works like and replaces the standard cleric's domain ability."
+			"::ab[Forbidden Rites]{icon=down-power choice=\"A separatist selects one domain from her deity's domain list, and a second domain that is not on her deity's domain list. This second domain cannot be an alignment domain that doesn't match the cleric's or her deity's alignment. For example, a lawful good separatist cleric of a neutral good deity cannot choose the ‹domain/Chaos› or ‹domain/Evil› domain with this ability, but can select the ‹domain/Law› domain even though her deity isn't lawful.\" passive=\"Granted powers from the cleric's second domain function as if the cleric's level, Wisdom, and Charisma were 2 lower than normal (minimum level 1) in terms of effect, DC, and uses per day. This also means the separatist doesn't gain the domain's higher-level ability until 2 levels later than normal. If the second domain grants additional class skills, the separatist gains these as normal. In all other respects, this ability works like the standard cleric's domain ability.\" replace=Domains order=cp}"
 		]
 	},
 	"stoic_caregiver": {
@@ -720,21 +706,23 @@
 			"‹SOURCE Healer's Handbook/6›  ",
 			"Stoic caregivers are champions of life in defiance of untimely death as well as undeath. Stoic caregivers are sent to protect and help those who find themselves in dangerous situations, especially children and expectant mothers, and they provide aid and comfort to individuals acting to fulfill prophecy.",
 			"",
-			"**Positive Channeler (Su):** A stoic caregiver must choose to channel positive energy, even if she worships a deity who is neutral or if she is not devoted to a particular deity. A stoic caregiver cannot worship a deity who is evil.",
+			"::prereq{other=\"Cannot worship a deity who is evil.\"}",
 			"",
-			"This ability alters @HL[channel energy].",
+			"::ab[Positive Channeler (Su)]{icon=info note=\"A stoic caregiver must choose to channel positive energy, even if she worships a deity who is neutral or if she is not devoted to a particular deity.\" alter=\"Channel energy\"}",
 			"",
-			"**Domains:** A stoic caregiver chooses only one domain.",
+			"::ab[Domains]{icon=down note=\"A stoic caregiver chooses only one domain.\" alter=Domains}",
 			"",
-			"This ability alters @HL[domains].",
+			":::ab{icon=boost-def flavor=\"A stoic caregiver is an expert at caring for lives that are in the process of being formed as well as the bodies of those who expect to usher new life into the world.\" title=\"Midwife Training (Su)\" action=Ability}",
 			"",
-			"**Midwife Training (Su):** A stoic caregiver is an expert at caring for lives that are in the process of being formed as well as the bodies of those who expect to usher new life into the world. The stoic caregiver gains a +2 bonus on Heal checks to treat expectant mothers and children. Any Heal check by the stoic caregiver that deals damage to the patient always deals the minimum amount of damage.",
+			"The stoic caregiver gains a +2 bonus on Heal checks to treat expectant mothers and children. Any Heal check by the stoic caregiver that deals damage to the patient always deals the minimum amount of damage.",
 			"",
 			"Whenever a stoic caregiver stops bleeding with the Heal skill or magical healing, or restores hit points with a healing spell or channeled positive energy, the healed creature gains partial resistance to bleed damage and negative energy for a number of minutes equal to 1/2 the stoic caregiver's cleric level. Any bleed damage a target takes during that time is halved. Additionally, when protected creatures take negative energy damage (such as from an evil cleric's or an antipaladin's negative channeled energy, or spells such as ‹spell/inflict light wounds›), the amount of that damage is reduced by 5.",
 			"",
-			"**Fated Cures (Su):** Creatures must roll twice and take the lower result when they make any saving throws against a stoic caregiver's spells of the healing subschool.",
+			":::",
 			"",
-			"**Three-Aspect Channel (Su):** At 6th level, a stoic caregiver can channel positive energy to heal and harm simultaneously. When she does so, she restores only 1/2 the usual amount of hit points and deals only 1/2 the usual number of points of damage (or 1/4 on a successful saving throw)."
+			"::ab[Fated Cures (Su)]{icon=lower-roll passive=\"Creatures must roll twice and take the lower result when they make any saving throws against a stoic caregiver's spells of the healing subschool.\"}",
+			"",
+			"::ab[Three-Aspect Channel (Su)]{l=6 icon=power ability=\"A stoic caregiver can channel positive energy to heal and harm simultaneously. When she does so, she restores only 1/2 the usual amount of hit points and deals only 1/2 the usual number of points of damage (or 1/4 on a successful saving throw).\"}"
 		]
 	},
 	"theologian": {
@@ -746,11 +734,15 @@
 			"‹SOURCE Ultimate Magic/32›  ",
 			"A theologian is an expert on one particular area of her religion. She is so focused on that area that she eschews the broader sweep of her deity's dogma and focuses intensely upon that aspect of it, embodying its power in all she does. Theologians tend to be more zealous than other clerics, and many crusades are started by theologians. A theologian has the following class features.",
 			"",
-			"**Focused Domain:** A theologian chooses only one domain from her deity's portfolio rather than the normal two domains. All level-dependent effects of the granted powers from the theologian's domain function as if she were two cleric levels higher than her actual cleric level. This does not allow her to gain domain-granted powers earlier than normal.",
+			":::ab{icon=down-boost-magic title=\"Focused Domain\" action=Ability replace=Domains}",
+			"",
+			"A theologian chooses only one domain from her deity's portfolio rather than the normal two domains. All level-dependent effects of the granted powers from the theologian's domain function as if she were two cleric levels higher than her actual cleric level. This does not allow her to gain domain-granted powers earlier than normal.",
 			"",
 			"A theologian can prepare domain spells using her non-domain slots. She cannot use her spontaneous casting ability on domain spells, even if they are prepared in non-domain slots. In all other respects, this works like and replaces the standard cleric domain ability.",
 			"",
-			"**Domain Secret (Ex):** At 5th level, the theologian chooses one domain spell. That spell becomes permanently modified with one of the following metamagic feats: ‹feat/Bouncing Spell›, ‹feat/Disruptive Spell›, ‹feat/Ectoplasmic Spell›, ‹feat/Enlarge Spell›, ‹feat/Extend Spell›, ‹feat/Focused Spell›, ‹feat/Intensified Spell›, ‹feat/Silent Spell›, ‹feat/Still Spell›. This metamagic feat does not increase the level of the spell. Once chosen, this modification cannot be changed. The domain specialist need not have the metamagic feat to apply it to a spell using this ability. At every 5 levels after 5th, the domain specialist may choose an additional domain spell to modify in this way. She cannot modify the same spell more than once."
+			":::",
+			"",
+			"::ab[Domain Secret (Ex)]{l=5 icon=boost-magic choice=\"The theologian chooses one domain spell. That spell becomes permanently modified with one of the following metamagic feats: ‹feat/Bouncing Spell›, ‹feat/Disruptive Spell›, ‹feat/Ectoplasmic Spell›, ‹feat/Enlarge Spell›, ‹feat/Extend Spell›, ‹feat/Focused Spell›, ‹feat/Intensified Spell›, ‹feat/Silent Spell›, ‹feat/Still Spell›. This metamagic feat does not increase the level of the spell. Once chosen, this modification cannot be changed. The domain specialist need not have the metamagic feat to apply it to a spell using this ability.\" imp10=\"The domain specialist may choose an additional domain spell to modify in this way. She cannot modify the same spell more than once.\" imp15=\"The domain specialist may choose an additional domain spell to modify in this way, following the restrictions above.\" imp20=\"The domain specialist may choose an additional domain spell to modify in this way, following the restrictions above.\"}"
 		]
 	},
 	"triadic_priest": {
@@ -762,23 +754,23 @@
 			"‹SOURCE Blood of the Coven/19›  ",
 			"Power comes not just from communion with one's deity, but also from the formation of divine triumvirates. At the head of these groups are triadic priests. Although witch covens and changelings are the most likely to pursue this tradition, the practice sometimes appears among other faiths.",
 			"",
-			"**Triadic Bond (Su):** A triadic priest can perform a 10-minute ritual with exactly two allies in order to create an enduring bond between them that lasts until the triadic priest either dissolves the bond (a process that takes 1 minute of concentration) or creates a new bond. When performing the bonding ritual, the triadic priest can also include any of her allies' familiars or spirit animals; these creatures gain the benefits of the bonded channeler ability and the drawbacks of being in the bond, but they are not treated as bonded allies for the purpose of the triadic priest's bonded domain. Only intelligent and fully independent creatures can serve as her two bonded companions. Animal companions, eidolons, familiars, phantoms, and similar nonsentient or dependent creatures are not suitable.",
+			":::ab{title=\"Triadic Bond (Su)\" action=Ability icon=power}",
 			"",
-			"The bonded allies gain numerous benefits and can help empower the triadic priest's spellcasting, as noted in the abilities below. However, if a bonded ally dies, the other members of the bond must each succeed at a Fortitude save (DC = 10 + the triadic priest's class level) or gain 1 permanent negative level.",
+			"A triadic priest can perform a 10-minute ritual with exactly two allies in order to create an enduring bond between them that lasts until the triadic priest either dissolves the bond (a process that takes 1 minute of concentration) or creates a new bond. When performing the bonding ritual, the triadic priest can also include any of her allies' familiars or spirit animals; these creatures gain the benefits of the *bonded channeler* ability and the drawbacks of being in the bond, but they are not treated as bonded allies for the purpose of the triadic priest's *bonded domain.* Only intelligent and fully independent creatures can serve as her two bonded companions. Animal companions, eidolons, familiars, phantoms, and similar nonsentient or dependent creatures are not suitable.",
 			"",
-			"**Bonded Channeler (Su):** When a triadic priest uses her channel energy ability, she must choose to affect either only her bonded allies or everyone except her bonded allies.",
+			"The bonded allies gain numerous benefits and can help empower the triadic priest's spellcasting, as noted in the abilities below. However, if a bonded ally dies, the other members of the bond must each succeed at a Fortitude save (DC = 10 + the triadic priest's class level) or gain 1 permanent ‹rule/negative level›.",
 			"",
-			"**Bonded Domain (Su):** A triadic priest selects only one domain granted by her deity. However, while she is within 10 feet of least one of her bonded allies, she gains the following benefits.",
+			":::",
 			"",
-			"This alters the @HL[domains] class feature.",
+			"::ab[Bonded Channeler (Su)]{icon=aura choice=\"When a triadic priest uses her channel energy ability, she must choose to affect either only her bonded allies or everyone except her bonded allies.\"}",
 			"",
-			">**Bonded Power (Su):** A triadic priest gains either a witch's coven ‹ability/hex<es› or the ‹feat/Allied Spellcaster› feat as a bonus feat.",
-			">",
-			">**Bonded Unity (Su):** As a move action, a triadic priest can share one ‹main/teamwork feat› she has with up to two bonded companions that are within 10 feet of her. Her bonded companions do not need to meet the feat's prerequisites and gain the benefits of the feat for 1 round plus 1 additional round for every 5 class levels the triadic priest has. A bonded companion can gain only one teamwork feat in this way at a time. The triadic priest can use this ability a number of times per day equal to 3 + her Wisdom modifier.",
-			">",
-			">**Bonded Ritual:** A triadic priest can prepare any of the spells below as though they were domain spells, though she can cast these domain spells only while she is within 10 feet of one of her bonded allies. At 8th level, once per day while within 10 feet of both her bonded allies, a triadic priest can cast any one of her domain spells of a spell level she can cast, whether she has prepared the spell or not, without expending a spell slot. If one of these domain spells has a casting time of more than one standard action, the triadic priest must succeed at a ‹rule/concentration› check (DC = 20 + double the spell's level) or lose the spell if at any point during the casting she does not have a bonded ally within 10 feet.",
-			">",
-			">**Domain Spells:** 1st-‹spell/ill omen›, 2nd-‹spell/blindness/deafness›, 3rd-‹spell/bestow curse›, 4th-‹spell/charm monster›, 5th-‹spell/baleful polymorph›, 6th-‹spell/control weather›, 7th-‹spell/forcecage›, 8th-‹spell/mind blank›, 9th-‹spell/astral projection›."
+			"::ab[Bonded Domain (Su)]{head icon=down ability=\"A triadic priest selects only one domain granted by her deity. However, while she is within 10 feet of least one of her bonded allies, she gains the following benefits.\" alter=\"Domains class feature.\"}",
+			"",
+			"::ab[Bonded Power (Su)]{next icon=power ability=\"A triadic priest gains either a witch's ‹hex/coven› hex or the ‹feat/Allied Spellcaster› feat as a bonus feat.\"}",
+			"",
+			"::ab[Bonded Unity (Su)]{next icon=power move=\"A triadic priest can share one ‹main/teamwork feat› she has with up to two bonded companions that are within 10 feet of her. Her bonded companions do not need to meet the feat's prerequisites and gain the benefits of the feat for 1 round plus 1 additional round for every 5 class levels the triadic priest has. A bonded companion can gain only one teamwork feat in this way at a time.\" useMod3=Wis}",
+			"",
+			"::ab[Bonded Ritual]{next icon=magic l1=\"A triadic priest can prepare any of the spells below as though they were domain spells, though she can cast these domain spells only while she is within 10 feet of one of her bonded allies.\" l8=\"Once per day while within 10 feet of both her bonded allies, a triadic priest can cast any one of her domain spells of a spell level she can cast, whether she has prepared the spell or not, without expending a spell slot. If one of these domain spells has a casting time of more than one standard action, the triadic priest must succeed at a ‹rule/concentration› check (DC = 20 + double the spell's level) or lose the spell if at any point during the casting she does not have a bonded ally within 10 feet.\" note=\"The spells below are listed by spell level.\" s1=\"Ill omen\" s2=\"Blindness/deafness\" s3=\"Bestow curse\" s4=\"Charm monster\" s5=\"Baleful polymorph\" s6=\"Control weather\" s7=Forcecage s8=\"Mind blank\" s9=\"Astral projection\"}"
 		]
 	},
 	"undead_lord": {
@@ -790,15 +782,15 @@
 			"‹SOURCE Ultimate Magic/32›  ",
 			"An undead lord is a cleric focused on using necromancy to control undead. Her flock is the walking dead and her choir the keening spirits of the damned. This unliving congregation is the manifestation of her unceasing love affair with death.",
 			"",
-			"A cleric cannot take the undead lord archetype unless her deity's portfolio includes the ‹domain/Death› domain or a similar domain that promotes undeath. An undead lord has the following class features.",
+			"::prereq{other=\"Deity's portfolio must include the Death domain, or a similar domain that promotes undeath.\"}",
 			"",
-			"**Death Magic:** An undead lord must select the Death domain (and the ‹domain/Undead› subdomain, if available in the campaign). She does not gain a second domain. In all other respects, this works like and replaces the standard cleric's domain ability.",
+			"::ab[Death Magic]{icon=down note=\"An undead lord must select the ‹domain/Death› domain (and the ‹domain/Undead› subdomain, if available in the campaign). She does not gain a second domain. In all other respects, this works like the standard cleric's domain ability.\" replace=Domains}",
 			"",
-			"**Corpse Companion (Su):** With a ritual requiring 8 hours, an undead lord can animate a single ‹template/skeleton› or ‹template/zombie› whose Hit Dice do not exceed her cleric level. This corpse companion automatically follows her commands and does not need to be controlled by her. She cannot have more than one corpse companion at a time. It does not count against the number of Hit Dice of undead controlled by other methods. She can use this ability to create a variant skeleton such as a bloody or burning skeleton, but its Hit Dice cannot exceed half her cleric level. She can dismiss her companion as a standard action, which destroys it.",
+			"::ab[Corpse Companion (Su)]{icon=power hAbility ability=\"With a ritual requiring 8 hours, an undead lord can animate a single ‹template/skeleton› or ‹template/zombie› whose Hit Dice do not exceed her cleric level. This corpse companion automatically follows her commands and does not need to be controlled by her. She cannot have more than one corpse companion at a time. It does not count against the number of Hit Dice of undead controlled by other methods. She can use this ability to create a variant skeleton such as a bloody or burning skeleton, but its Hit Dice cannot exceed half her cleric level. She can dismiss her companion as a ***standard action,*** which destroys it.\"}",
 			"",
-			"**Bonus Feats:** All undead lords gain ‹feat/Command Undead› as a bonus feat. In addition, at 10th level, she may select one of the following as a bonus feat: ‹feat/Channel Smite›, ‹feat/Extra Channel›, ‹feat/Improved Channel›, ‹feat/Quick Channel›, ‹feat/Skeleton Summoner›, ‹feat/Undead Master›.",
+			"::ab[Bonus Feats]{icon=power l1=\"All undead lords gain ‹feat/Command Undead› as a bonus feat.\" l10=\"She may select one of the following as a bonus feat: ‹feat/Channel Smite›, ‹feat/Extra Channel›, ‹feat/Improved Channel›, ‹feat/Quick Channel›, ‹feat/Skeleton Summoner›, ‹feat/Undead Master›.\"}",
 			"",
-			"**Unlife Healer (Su):** At 8th level, the undead lord's spells, spell-like abilities, and supernatural abilities used to heal undead heal an extra 50% damage. At 16th level, these effects automatically heal the maximum possible damage for the effect + the extra 50%. This does not stack with abilities or feats such as ‹feat/Empower Spell› or ‹feat/Maximize Spell›."
+			"::ab[Unlife Healer (Su)]{icon=aid l8=\"The undead lord's spells, spell-like abilities, and supernatural abilities used to heal undead heal an extra 50% damage.\" l16=\"These effects automatically heal the maximum possible damage for the effect + the extra 50%. This does not stack with abilities or feats such as ‹feat/Empower Spell› or ‹feat/Maximize Spell›.\"}"
 		]
 	},
 	"varisian_pilgrim": {
@@ -812,15 +804,11 @@
 			"",
 			"A Varisian pilgrim has the following class features.",
 			"",
-			"**Fortunate Road:** At 1st level, a Varisian pilgrim must select the ‹domain/Chaos›, ‹domain/Community›, ‹domain/Liberation›, ‹domain/Luck›, ‹domain/Travel›, or ‹domain/Weather› domain (or the ‹domain/Exploration›, ‹domain/Fate›, ‹domain/Freedom›, ‹domain/Trade›, or ‹domain/Seasons› subdomains, if available in the campaign) as one of her domains. If the cleric worships a deity that doesn't normally grant one of these domains, she gains access to this domain but can only pick this one domain - she effectively loses the option to pick a second domain. As a result, very few clerics who worship deities who don't grant access to one of the domains or subdomains listed above opt to become Varisian pilgrims. In all other respects, this works like and replaces the standard cleric's domain ability.",
+			"::ab[Fortunate Road]{l=1 icon=power choice=\"A Varisian pilgrim must select the ‹domain/Chaos›, ‹domain/Community›, ‹domain/Liberation›, ‹domain/Luck›, ‹domain/Travel›, or ‹domain/Weather› domain (or the ‹domain/Exploration›, ‹domain/Fate›, ‹domain/Freedom›, ‹domain/Trade›, or ‹domain/Seasons› subdomains, if available in the campaign) as one of her domains. If the cleric worships a deity that doesn't normally grant one of these domains, she gains access to this domain but can only pick this one domain - she effectively loses the option to pick a second domain. As a result, very few clerics who worship deities who don't grant access to one of the domains or subdomains listed above opt to become Varisian pilgrims. In all other respects, this works like the standard cleric's domain ability.\" replace=Domains}",
 			"",
-			"**Caravan Bond (Su):** At 1st level, by leading a group prayer for 1 minute, a Varisian pilgrim can select a number of traveling companions equal to her cleric level + her Wisdom bonus. She may use her domain-granted powers on any of these traveling companions as if they were her. She can use these abilities on her traveling companions at a range of up to 30 feet, even if the ability normally requires her touch.",
+			"::ab[Caravan Bond (Su)]{l=1 icon=power ability=\"By leading a group prayer for 1 minute, a Varisian pilgrim can select a number of traveling companions equal to her cleric level + her Wisdom bonus. She may use her domain-granted powers on any of these traveling companions as if they were her. She can use these abilities on her traveling companions at a range of up to 30 feet, even if the ability normally requires her touch.\" replace=\"Proficiency with medium armor and shields - she retains proficiency with light armor only.\"}",
 			"",
-			"This ability replaces the cleric's @HL[proficiency with medium armor and shields] - she retains proficiency with light armor only.",
-			"",
-			"**Blessing of the Harrow (Su):** At 8th level, once per day the pilgrim may perform a harrowing for herself or another creature. This is otherwise identical to the blessing of the harrow from the ‹pclass/harrower« prestige class›.",
-			"",
-			"This replaces @HL[an 8th-level domain power] of the Varisian pilgrim's choice."
+			"::ab[Blessing of the Harrow (Su)]{l=8 icon=power ability=\"Once per day the pilgrim may perform a harrowing for herself or another creature. This is otherwise identical to the *blessing of the harrow* from the ‹pclass/harrower« prestige class›.\" replace=\"An 8th-level domain power of the Varisian pilgrim's choice.\"}"
 		]
 	}
 }
