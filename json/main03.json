@@ -46,7 +46,7 @@
 		"title": "All Traits",
 		"searchgroup": "trait",
 		"description": [
-			":::item",
+			";;;item",
 			"",
 			"Character traits are abilities that are not tied to your race or class. They can enhance your skills, racial abilities, class abilities, or other statistics, allowing you further customization.",
 			"",
@@ -54,7 +54,7 @@
 			"",
 			"The @HL[Benefit] column will give a brief description of the trait's benefits. It may use the following abbreviations:",
 			"",
-			";;;div{className=lastColumnStart}",
+			":::div{className=lastColumnStart}",
 			"",
 			"| Abbrev. | Meaning |",
 			"| --- | --- |",
@@ -123,9 +123,9 @@
 			"| Unt: *skill* | Can attempt *skill* checks untrained |",
 			"| VCirc: *benefit* | *Benefit* only applies in **very specific** circumstances |",
 			"",
-			";;;",
-			"",
 			":::",
+			"",
+			";;;",
 			"",
 			":::item",
 			"",
@@ -155,7 +155,7 @@
 						"col": 1,
 						"has": [ "\\bAcrb\\b", "\\bAoOs?\\b", "\\bAppr\\b", "\\batt\\b", "\\batt/dmg\\b", "\\bBluff\\b", "\\bCft\\b", "\\bCha\\b", "\\bClimb\\b", "\\bCMB?\\b", "\\bCMD\\b", "\\bCon\\b", "\\bConc\\b", "\\bcrits?\\b", "\\bCS:", "\\bDex\\b", "\\bDiplo\\b", "\\bDisg\\b", "\\bdmg\\b", "\\bDsDv\\b", "\\bEscAr\\b", "\\bFly\\b", "\\bFortitude\\b", "\\bHeal\\b", "\\bHnAn\\b", "\\bInit\\b", "\\bInt\\b", "\\bIntmd\\b", "\\bK\\(a\\)", "\\bK\\(d\\)", "\\bK\\(e\\)", "\\bK\\(g\\)", "\\bK\\(h\\)", "\\bK\\(l\\)", "\\bK\\(nt\\)", "\\bK\\(nb\\)", "\\bK\\(p\\)", "\\bK\\(r\\)", "\\bKnow\\b", "\\bLing\\b", "\\bPcpn\\b", "\\bPerf\\b", "\\bPrfn\\b", "\\bProf\\b", "\\bReflex\\b", "\\bRide\\b", "\\bSLAs?\\b", "\\bSnMtv\\b", "\\bSoH\\b", "\\bspells?\\b", "\\bSpCft\\b", "\\bStlth\\b", "\\bStr\\b", "\\bSurv\\b", "\\bSwim\\b", "\\bUMD\\b", "\\bWill\\b", "\\bWis\\b" ],
 						"regex": true,
-						"labels": [ "Acrb", "AoO", "Appr", "att", "att/dmg", "Bluff", "Cft", "Cha", "Climb", "CM/CMB", "CMD", "Con", "Conc", "crit/crits", "CS:", "Dex", "Diplo", "Disg", "dmg", "DsDv", "EscAr", "Fly", "Fortitude", "Heal", "HnAn", "Init", "Int", "Intmd", "K(a)", "K(d)", "K(e)", "K(g)", "K(h)", "K(l)", "K(nt)", "K(nb)", "K(p)", "K(r)", "Know", "Ling", "Pcpn", "Perf", "Prfn", "Prof", "Reflex", "Ride", "SLA", "SnMtv", "SoH", "spell", "SpCft", "Stlth", "Str", "Surv", "Swim", "UMD", "Will", "Wis" ]
+						"labels": [ "Acrb (Acrobatics)", "AoO (Attack of Opp.)", "Appr(aise)", "att(ack)", "att/dmg (attack and damage)", "Bluff", "Cft (Craft)", "Cha(risma)", "Climb", "CM/CMB", "CMD", "Con(stitution)", "Conc(entration)", "crit/crits", "CS: (Class Skill)", "Dex(terity)", "Diplo(macy)", "Disg(uise)", "dmg (damage)", "DsDv (Disable Device)", "EscAr (Escape Artist)", "Fly", "Fortitude", "Heal", "HnAn (Handle Animal)", "Init(iative)", "Int(elligence)", "Intmd (Intimidate)", "K(a) [Knowledge:arcana]", "K(d) [Knowledge:dungeoneering]", "K(e) [Knowledge:engineering]", "K(g) [Knowledge:geography]", "K(h) [Knowledge:history]", "K(l) [Knowledge:local]", "K(nt) [Knowledge:nature]", "K(nb) [Knowledge:nobility]", "K(p) [Knowledge:planes]", "K(r) [Knowledge:religion]", "Know(ledge)", "Ling(uistics)", "Pcpn (Perception)", "Perf(orm)", "Prfn (Profession)", "Prof(iciency)", "Reflex", "Ride", "SLA (spell-like ability)", "SnMtv (Sense Motice)", "SoH (Sleight of Hand)", "spell", "SpCft (Spellcraft)", "St(ea)lth", "Str(ength)", "Surv(ival)", "Swim", "UMD (Use Magic Device)", "Will", "Wis(dom)" ]
 					},
 					{ "col": 2, "equals": [ "Campaign", "Combat", "Cosmic", "Drawback", "Equipment", "Faith", "Family", "Magic", "Mount", "Race", "Regional", "Religion", "Social" ] }
 				],

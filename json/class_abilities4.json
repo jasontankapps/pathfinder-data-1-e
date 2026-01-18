@@ -481,6 +481,7 @@
 		},
 		"topLink": [ "Paladin", "class/paladin" ]
 	},
+	"mercy": { "redirect": "mercies" },
 	"mysteries": {
 		"name": "Oracle Mysteries",
 		"sources": [ "Advanced Player's Guide" ],
