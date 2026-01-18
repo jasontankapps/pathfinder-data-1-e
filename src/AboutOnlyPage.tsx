@@ -39,7 +39,6 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 					<IonIcon icon="/icons/magic-palm.svg" />
 					<IonIcon icon="/icons/magic-swirl.svg" />
 					<IonIcon icon="/icons/mailed-fist.svg" />
-					<IonIcon icon="/icons/muscle-up.svg" />
 					<IonIcon icon="/icons/shield-reflect.svg" />
 					<IonIcon icon="/icons/smoking-finger.svg" />
 					<IonIcon icon="/icons/tornado-discs.svg" />
@@ -55,6 +54,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 					<IonIcon icon="/icons/sparkles.svg" />
 					<IonIcon icon="/icons/ancient-sword.svg" />
 					<IonIcon icon="/icons/shield-bash.svg" />
+					<IonIcon icon="/icons/stairs-goal.svg" />
 					<IonIcon icon="/icons/elephant.svg" />
 					<IonIcon icon="/icons/confirmed.svg" />
 					<IonIcon icon="/icons/armor-downgrade.svg" />

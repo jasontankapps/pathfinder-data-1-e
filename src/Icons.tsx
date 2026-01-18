@@ -64,7 +64,7 @@ const Icons: FC = () => {
 					<Icon incoming={icon} icon="rolling-dices">A change to the outcome of a die roll.</Icon>
 					<Icon incoming={icon} icon="armor-upgrade">A defensive ability.</Icon>
 					<Icon incoming={icon} icon="shield-reflect">An ability that provides protection to another.</Icon>
-					<Icon incoming={icon} icon="muscle-up">Gain a new ability or companion.</Icon>
+					<Icon incoming={icon} icon="stairs-goal">Gain a new ability or companion.</Icon>
 					<Icon incoming={icon} icon="skills">A change to class skills.</Icon>
 					<Icon incoming={icon} icon="embraced-energy">Boost your own abilities, or an ally's.</Icon>
 					<Icon incoming={icon} icon="cherish">Some sort of healing or otherwise helpful action.</Icon>

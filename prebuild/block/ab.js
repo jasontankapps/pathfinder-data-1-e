@@ -236,7 +236,7 @@ export const makeAbilityBlock = ({
 					return "abstract-091";
 				}
 				case "power": { // gain a new ability or companion
-					return "muscle-up";
+					return "stairs-goal";
 				}
 				case "boost": { // boost your own abilities, or an ally's
 					return "embraced-energy";
