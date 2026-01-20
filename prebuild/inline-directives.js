@@ -1,5 +1,6 @@
 import checkForEncodedLink from './tests/checkForEncodedLink.js';
 import makeListBlock from './block/list.js';
+import fn from './inline/fn.js';
 
 const getInlineDirectives = (globalVariable, marker = "@") => {
 	const $ = globalVariable;
@@ -56,16 +57,11 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 			} else if (tag === "FN") {
 				// Fake footnotes
 				const { from } = attrs;
-				flags.innerlink = true;
-				if(from) {
-					const marked2 = makeNewMarkedInstance();
-					const id = `${prefix}fake-fn-${from}`;
-					return `<li id="${id}-target"><p>${marked2.parseInline(text)} <InnerLink aria-label="Back to reference ${from}" id="backlink-${id}" data-hash-target to="${id}">↩</InnerLink></p></li>`;
-				}
-				else {
-					const id = `${prefix}fake-fn-${text}`;
-					return `<sup><InnerLink showBacklink="backlink-${id}" id="${id}" data-hash-target to="${id}-target">${text}</InnerLink></sup>`;
-				}
+				return fn({text, prefix, from, makeNewMarkedInstance, flags});
+			} else if (tag.startsWith("FN")) {
+				// Fake footnotes
+				const { from } = attrs;
+				return fn({text: tag.slice(2), prefix, from, makeNewMarkedInstance, flags});
 			} else if (tag === "list") {
 				return makeListBlock({
 					text,
