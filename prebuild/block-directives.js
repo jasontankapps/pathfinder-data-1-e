@@ -429,7 +429,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 			} else if (n === "list") {
 				churn(n, attrs, [
 					"clear", "all", "link", "and",
-					"hl", "sep", "comma"
+					"hl", "em", "sep", "comma"
 				], [], logError);
 				attrs.link && (flags.link = true);
 				return makeListBlock({

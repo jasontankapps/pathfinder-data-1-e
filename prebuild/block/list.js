@@ -1,6 +1,6 @@
 import { convertTextToLink } from '../tests/checkForEncodedLink.js';
 
-// ::list[Header]{all="one~two~three..." link="protocol" and? hl? sep?="~" comma?=", "}
+// ::list[Header]{all="one~two~three..." link="protocol" and?="and" hl? sep?="~" comma?=", "}
 export const makeListBlock = ({
 	text,
 	maybeClear,
@@ -9,7 +9,7 @@ export const makeListBlock = ({
 	inline = false
 }) => {
 	const {
-		all, link, and, hl,
+		all, link, and, hl, em,
 		sep = "~",
 		comma = ", "
 	} = attrs;
@@ -24,7 +24,7 @@ export const makeListBlock = ({
 	//
 	// HEADER
 	//
-	const head = `${maybeClear}${inline ? "" : "<p>"}<strong${hl ? ` className="hl"` : ""}>${text}:</strong>`;
+	const head = `${maybeClear}${inline ? "" : "<p>"}<strong${hl ? ` className="hl"` : ""}>${em ? "<em>" : ""}${text}:${em ? "</em>" : ""}</strong>`;
 	const tail = inline ? "" : "</p>";
 	//
 	// CONSTRUCT LINKS
@@ -36,9 +36,9 @@ export const makeListBlock = ({
 		// Return list with 'and' if needed
 		if(output.length >= 3) {
 			const pop = output.pop();
-			return head + " " + output.join(comma) + comma + "and " + pop + tail;
+			return head + " " + output.join(comma) + comma + `${and} ` + pop + tail;
 		} else if (output.length === 2) {
-			return `${head} ${output[0]}${and ? " and" : comma} ${output[1]}${tail}`;
+			return `${head} ${output[0]}${and ? ` ${and}` : comma} ${output[1]}${tail}`;
 		}
 	}
 	return head + " " + output.join(comma) + tail;
