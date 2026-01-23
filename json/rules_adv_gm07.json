@@ -1162,13 +1162,13 @@
 		]
 	},
 	"tfwi_wrists": {
-		"name": "Random Wrists Slot Wondrous Items",
+		"name": "Random Wrist Slot Wondrous Items",
 		"subtitle": "Type F, Treasure Generator",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"‹SOURCE Ultimate Equipment/271›",
 			"",
-			"### Table 5-12: Wrists Slot Wondrous Items",
+			"### Table 5-12: Wrist Slot Wondrous Items",
 			"",
 			"| d% | Lesser Minor Wrists Item | Price |",
 			"| --- | --- | --- |",

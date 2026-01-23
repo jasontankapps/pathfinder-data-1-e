@@ -994,6 +994,10 @@
 			"magic_item_creation"
 		]
 	},
+	"head_slot": { "redirect": "magic_items_on_the_body" },
+	"wrist_slot": { "redirect": "magic_items_on_the_body" },
+	"neck_slot": { "redirect": "magic_items_on_the_body" },
+	"body_slot": { "redirect": "magic_items_on_the_body" },
 	"saving_throws_against_magic_item_powers": {
 		"name": "Saving Throws Against Magic Item Powers",
 		"sources": [ "PRPG Core Rulebook" ],
