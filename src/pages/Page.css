@@ -1089,6 +1089,10 @@ div.ability.indent {
 div.ability.indent2 {
 	margin-inline-start: 2.25rem;
 }
+div.ability div.sideNoteWrap div.tableWrap {
+	max-width: 100%;
+	width: auto;
+}
 div.abIcon {
 	grid-column: 1;
 	grid-row: 1 / span 20;

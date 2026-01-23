@@ -83,7 +83,7 @@ export const makeAbilityBlock = ({
 	const use = (() => {
 		const base = (() => {
 			if (usage) {
-				return [doParse(usage), "error"];
+				return [doParse(usage), useUnit || "round"];
 			} else if (useInc) {
 				const [levelInterval, levelClass, startFromLevel, initial = "1"] = useInc.split(/~/);
 				const starting = Number(initial) || 1;

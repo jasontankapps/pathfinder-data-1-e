@@ -384,12 +384,12 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"order",
 					"usage", "useNC",
 					"useL", "useM",
-					"useL3",
+					"useL3", "useInc",
 					"useUnit",
 					"replace", "alter", "type", "prereq"
 				], [
 					/^(s0|([sl]|imp)(1?[1-9]|[12]0))$/,
-					/^use(Mod|Inc)[1-9]?$/,
+					/^useMod[1-9]?$/,
 					/^h(S(pecial|tandard|wift)|Ability|Free|Fullround|Imp|Immediate|Passive|Move|Note|Choice|L)$/
 				], logError);
 				flags.icon = true;
