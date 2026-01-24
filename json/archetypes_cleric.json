@@ -34,7 +34,7 @@
 			"",
 			"::ab[Aura (Ex)]{icon=info note=\"An appeaser always has an evil aura regardless of his actual alignment.\" alter=Aura}",
 			"",
-			"::ab[Channel Utility (Su)]{icon=power note=\"An appeaser channels negative energy, but also gains limited access to positive energy.\" hImp imp5=\"An appeaser can channel positive energy as a ***full-round action,*** but he treats his cleric level as if it were 4 lower when determining the amount of damage he can deal to undead and the amount of hit points he can restore to living creatures.\" alter=\"Channel energy\"}",
+			"::ab[Channel Utility (Su)]{icon=power note=\"An appeaser channels negative energy, but also gains limited access to positive energy.\" imp5=\"An appeaser can channel positive energy as a @HLfull-round_action, but he treats his cleric level as if it were 4 lower when determining the amount of damage he can deal to undead and the amount of hit points he can restore to living creatures.\" alter=\"Channel energy\"}",
 			"",
 			"::ab[Divine Apologist (Ex)]{icon=info-down note=\"An appeaser must worship an evil god. His alignment must be within one step of his deity's, but he himself cannot have an evil alignment. An appeaser cannot cast any spells with the good or evil descriptor.\" alter=Alignment~spells}",
 			"",
@@ -138,7 +138,7 @@
 			"",
 			"::ab[Well-Read (Ex)]{l=2 icon=boost-def passive=\"A cloistered cleric gains a +2 bonus on skill checks, caster level checks, and saving throws if such rolls pertain to mundane or magical glyphs, runes, scrolls, symbols, and other writings.\"}",
 			"",
-			"::ab[Verbal Instruction (Ex)]{l=3 hAbility icon=boost ability=\"A cloistered cleric can use the ‹rule/aid another› action to assist an ally (or multiple allies) within 30 feet on a skill or ability check. She can instruct a number of allies equal to ‹misc/one-third› of her cleric level with the same action. The allies must be able to hear and understand the cleric's instructions. If all allies are not engaged in the same task, using this ability is a ***full-round action*** rather than a ***standard action.***\"}",
+			"::ab[Verbal Instruction (Ex)]{l=3 icon=boost ability=\"A cloistered cleric can use the ‹rule/aid another› action to assist an ally (or multiple allies) within 30 feet on a skill or ability check. She can instruct a number of allies equal to ‹misc/one-third› of her cleric level with the same action. The allies must be able to hear and understand the cleric's instructions. If all allies are not engaged in the same task, using this ability is a @HLfull-round_action rather than a @HLstandard_action.\"}",
 			"",
 			"::ab[Scribe Scroll (Su)]{icon=power l=4 ability=\"A cloistered cleric gains ‹feat/Scribe Scroll› as a bonus feat.\"}"
 		]
@@ -786,7 +786,7 @@
 			"",
 			"::ab[Death Magic]{icon=down note=\"An undead lord must select the ‹domain/Death› domain (and the ‹domain/Undead› subdomain, if available in the campaign). She does not gain a second domain. In all other respects, this works like the standard cleric's domain ability.\" replace=Domains}",
 			"",
-			"::ab[Corpse Companion (Su)]{icon=power hAbility ability=\"With a ritual requiring 8 hours, an undead lord can animate a single ‹template/skeleton› or ‹template/zombie› whose Hit Dice do not exceed her cleric level. This corpse companion automatically follows her commands and does not need to be controlled by her. She cannot have more than one corpse companion at a time. It does not count against the number of Hit Dice of undead controlled by other methods. She can use this ability to create a variant skeleton such as a bloody or burning skeleton, but its Hit Dice cannot exceed half her cleric level. She can dismiss her companion as a ***standard action,*** which destroys it.\"}",
+			"::ab[Corpse Companion (Su)]{icon=power ability=\"With a ritual requiring 8 hours, an undead lord can animate a single ‹template/skeleton› or ‹template/zombie› whose Hit Dice do not exceed her cleric level. This corpse companion automatically follows her commands and does not need to be controlled by her. She cannot have more than one corpse companion at a time. It does not count against the number of Hit Dice of undead controlled by other methods. She can use this ability to create a variant skeleton such as a bloody or burning skeleton, but its Hit Dice cannot exceed half her cleric level. She can dismiss her companion as a @HLstandard_action, which destroys it.\"}",
 			"",
 			"::ab[Bonus Feats]{icon=power l1=\"All undead lords gain ‹feat/Command Undead› as a bonus feat.\" l10=\"She may select one of the following as a bonus feat: ‹feat/Channel Smite›, ‹feat/Extra Channel›, ‹feat/Improved Channel›, ‹feat/Quick Channel›, ‹feat/Skeleton Summoner›, ‹feat/Undead Master›.\"}",
 			"",

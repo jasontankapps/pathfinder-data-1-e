@@ -10,25 +10,25 @@ const abPairClose = "</div>";
 const parseAtts = (attrs) => {
 	const {standard, move, free, immediate, swift, passive, ability, fullround, note, choice} = attrs;
 	if(passive) {
-		return [passive, "Passive Ability", attrs.hPassive];
+		return [passive, "Passive Ability"];
 	} else if (ability) {
-		return [ability, "Ability", attrs.hAbility];
+		return [ability, "Ability"];
 	} else if (standard) {
-		return [standard, "Standard Action", attrs.hStandard];
+		return [standard, "Standard Action"];
 	} else if (swift) {
-		return [swift, "Swift Action", attrs.hSwift];
+		return [swift, "Swift Action"];
 	} else if (move) {
-		return [move, "Move-Equivalent Action", attrs.hMove];
+		return [move, "Move-Equivalent Action"];
 	} else if (fullround) {
-		return [fullround, "Full-Round Action", attrs.hFullround];
+		return [fullround, "Full-Round Action"];
 	} else if (immediate) {
-		return [immediate, "Immediate Action", attrs.hImmediate];
+		return [immediate, "Immediate Action"];
 	} else if (free) {
-		return [free, "Free Action", attrs.hFree];
+		return [free, "Free Action"];
 	} else if (note) {
-		return [note, "Info", attrs.hNote];
+		return [note, "Info"];
 	} else if (choice) {
-		return [choice, "Choice", attrs.hChoice];
+		return [choice, "Choice"];
 	}
 	return false;
 };
@@ -55,7 +55,6 @@ export const makeAbilityBlock = ({
 		fullround, move, free,
 		provokes, special, note, choice,
 		passive, ability,
-		hSpecial, hImp, hL,
 		order,
 		usage, useNC,
 		useL, useM, useInc, useL3, // default useUnit is "round"
@@ -65,16 +64,7 @@ export const makeAbilityBlock = ({
 		replace, alter, type, prereq
 	} = attrs;
 	const output = [];
-	const doParse = (input, highlight = false) => {
-		if(highlight) {
-			let m, highlights = "", checking = convertEncodedInfo(input);
-			while(m = checking.match(/^(.*?)[*]{3}(.+?)[*]{3}(.*)$/)) {
-				const [, pre, found, post] = m;
-				highlights = `${highlights}${pre}@HL[${found}]`;
-				checking = post;
-			}
-			return marked2.parseInline(highlights + checking);
-		}
+	const doParse = (input) => {
 		return marked2.parseInline(convertEncodedInfo(input));
 	};
 	//
@@ -352,7 +342,7 @@ export const makeAbilityBlock = ({
 					+ `At ${level} Level`
 					+ abPairPartClose
 					+ abPairEndOpen
-					+ doParse(text, hL)
+					+ doParse(text)
 					+ abPairPartClose
 					+ abPairClose
 				);
@@ -377,7 +367,7 @@ export const makeAbilityBlock = ({
 	if (order) {
 		const path = order.split("");
 		path.forEach(ab => {
-			let title = "", what = "", h = false, parsed = false;
+			let title = "", what = "", parsed = false;
 			switch(ab) {
 				case "C": {
 					const {action, contents} = containerInfo;
@@ -393,52 +383,42 @@ export const makeAbilityBlock = ({
 				case "s":
 					title = "Standard Action";
 					what = standard;
-					h = attrs.hStandard;
 					break;
 				case "m":
 					title = "Move-Equivalent Action";
 					what = move;
-					h = attrs.hMove;
 					break;
 				case "w":
 					title = "Swift Action";
 					what = swift;
-					h = attrs.hSwift;
 					break;
 				case "i":
 					title = "Immediate Action";
 					what = immediate;
-					h = attrs.hImmediate;
 					break;
 				case "r":
 					title = "Full-Round Action";
 					what = fullround;
-					h = attrs.hFullround;
 					break;
 				case "f":
 					title = "Free Action";
 					what = free;
-					h = attrs.hFree;
 					break;
 				case "p":
 					title = "Passive Ability";
 					what = passive;
-					h = attrs.hPassive;
 					break;
 				case "a":
 					title = "Ability";
 					what = ability;
-					h = attrs.hAbility;
 					break;
 				case "n":
 					title = "Info";
 					what = note;
-					h = attrs.hNote;
 					break;
 				case "c":
 					title = "Choice";
 					what = choice;
-					h = attrs.hChoice;
 					break;
 				default:
 					logError(`Invalid token [${ab}] in order attribute [${text}]`);
@@ -450,7 +430,7 @@ export const makeAbilityBlock = ({
 				+ title
 				+ abPairPartClose
 				+ abPairEndOpen
-				+ (parsed ? what : doParse(what || "MISSING", h))
+				+ (parsed ? what : doParse(what || "MISSING"))
 				+ abPairPartClose
 				+ abPairClose
 			);
@@ -484,14 +464,14 @@ export const makeAbilityBlock = ({
 		} else {
 			const ab = parseAtts(attrs);
 			if(ab) {
-				const [description, title, highlight] = ab;
+				const [description, title] = ab;
 				output.push(
 					abPairOpen
 					+ abPairStartOpen
 					+ title
 					+ abPairPartClose
 					+ abPairEndOpen
-					+ doParse(description, highlight)
+					+ doParse(description)
 					+ abPairPartClose
 					+ abPairClose
 				);
@@ -565,7 +545,7 @@ export const makeAbilityBlock = ({
 				+ `At ${ordinal(i + 1)} Level`
 				+ abPairPartClose
 				+ abPairEndOpen
-				+ doParse(text, hImp)
+				+ doParse(text)
 				+ abPairPartClose
 				+ abPairClose
 			);
@@ -581,7 +561,7 @@ export const makeAbilityBlock = ({
 				+ "Special"
 				+ abPairPartClose
 				+ abPairEndOpen
-				+ doParse(special, hSpecial)
+				+ doParse(special)
 				+ abPairPartClose
 				+ abPairClose
 			);

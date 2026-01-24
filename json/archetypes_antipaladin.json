@@ -206,7 +206,7 @@
 			"",
 			"::ab[Aura of Death (Su)]{l=8 icon=aura-def passive=\"A seal-breaker radiates an aura that causes undead creatures within 10 feet to gain a profane bonus on all saving throws.\" replace=\"Aura of despair\"}",
 			"",
-			"::ab[Aura of Rebirth (Su)]{l=11 icon=magic standard=\"If a living creature is slain within 10 feet of the seal-breaker, the seal-breaker can spend two uses of his *smite good* ability at the start of his next turn to summon the spirit of a dead murderer to reanimate the corpse as a ‹monster/mohrg›. The mohrg immediately rises and attacks the seal breaker's foes, acting under the antipaladin's command. After 1 minute, the murderer's soul leaves the body, which collapses, again lifeless.\" imp15=\"The seal-breaker can activate this ability as a ***move action.***\" hImp imp19=\"He can activate this ability as a ***swift action.***\" replace=\"Aura of vengeance\"}"
+			"::ab[Aura of Rebirth (Su)]{l=11 icon=magic standard=\"If a living creature is slain within 10 feet of the seal-breaker, the seal-breaker can spend two uses of his *smite good* ability at the start of his next turn to summon the spirit of a dead murderer to reanimate the corpse as a ‹monster/mohrg›. The mohrg immediately rises and attacks the seal breaker's foes, acting under the antipaladin's command. After 1 minute, the murderer's soul leaves the body, which collapses, again lifeless.\" imp15=\"The seal-breaker can activate this ability as a @HLmove_action.\" imp19=\"He can activate this ability as a @HLswift_action.\" replace=\"Aura of vengeance\"}"
 		]
 	},
 	"tyrant": {

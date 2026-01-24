@@ -424,7 +424,7 @@
 			"",
 			"::ab[Spirit Warden (Su)]{icon=boost-touch order=pa passive=\"Whenever the familiar successfully uses aid another to aid an attack, that attack deals full damage to incorporeal creatures.\" ability=\"When encountering a haunt, the familiar always acts on the surprise round, and can make touch attacks against the haunt that deal 1d6 points of damage per 2 levels its master possesses.\" type=\"Lesser Power\"}",
 			"",
-			"::ab[One With the Negative (Su)]{icon=down-def-melee order=pa passive=\"The familiar is healed by negative energy as if undead. It is immune to energy drain. It's constantly affected by ‹spell/hide from undead›; if it breaks this effect by attacking, it can activate the effect again as a ***standard action.***\" hPassive ability=\"Whenever the familiar hits a living creature with a natural attack, that creature gains 1 negative level. A given creature can receive a negative level from the familiar only once per day.\" type=\"Greater Power\"}",
+			"::ab[One With the Negative (Su)]{icon=down-def-melee order=pa passive=\"The familiar is healed by negative energy as if undead. It is immune to energy drain. It's constantly affected by ‹spell/hide from undead›; if it breaks this effect by attacking, it can activate the effect again as a @HLstandard_action.\" ability=\"Whenever the familiar hits a living creature with a natural attack, that creature gains 1 negative level. A given creature can receive a negative level from the familiar only once per day.\" type=\"Greater Power\"}",
 			"",
 			"::h3[Transmutation]{jl}",
 			"",

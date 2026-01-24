@@ -570,6 +570,8 @@
 			"‹SOURCE Pathfinder Unchained›  ",
 			"An eidolon's abilities are determined by the ‹class/summoner«'s› level and by the choices made using its evolution pool. Each eidolon possesses a base form that modifies these base statistics. Eidolons are outsiders for the purpose of determining which spells affect them.",
 			"",
+			"The first time a summoner calls his eidolon, he must decide on its ‹ability/unchained_eidolon_>subtype<s›. The eidolon's subtype determines a number of its base statistics and abilities, as well as its overall look and theme. The subtype also determines what sort of evolutions the summoner can select for his eidolon using the evolution pool. Once the choice of subtype is made, it cannot be changed.",
+			"",
 			"::h3[Base Forms]{jl}",
 			"",
 			"Each eidolon has one of the following base forms that determines its starting size, speed, AC, attacks, and ability scores. All natural attacks are made using the eidolon's full base attack bonus unless otherwise noted (such as in the case of secondary attacks). An eidolon's attacks add the eidolon's Strength modifier to the damage rolls, unless the eidolon has only one attack, in which case the attack adds 1-1/2 times the eidolon's Strength modifier.",

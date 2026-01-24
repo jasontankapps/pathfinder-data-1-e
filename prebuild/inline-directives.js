@@ -54,6 +54,11 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				const marked2 = makeNewMarkedInstance();
 				const id = maybeJL(attrs, text);
 				return `<strong className="hl"${id ? ` id="${id}" data-hash-target` : ""}>${marked2.parseInline(text)}</strong>`;
+			} else if (tag.startsWith("HL")) {
+				// Highlight
+				const marked2 = makeNewMarkedInstance();
+				const txt = tag.slice(2).replace(/_/g, " ");
+				return `<strong className="hl">${marked2.parseInline(txt)}</strong>`;
 			} else if (tag === "FN") {
 				// Fake footnotes
 				const { from } = attrs;
