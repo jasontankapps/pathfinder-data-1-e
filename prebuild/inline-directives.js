@@ -59,6 +59,14 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				const marked2 = makeNewMarkedInstance();
 				const txt = tag.slice(2).replace(/_/g, " ");
 				return `<strong className="hl">${marked2.parseInline(txt)}</strong>`;
+			} else if (tag.startsWith("LINK")) {
+				// Inner link
+				const marked2 = makeNewMarkedInstance();
+				const base = tag.slice(4);
+				const txt = base.replace(/_/g, " ");
+				const id = prefix + (attrs.id || base.toLowerCase().replace(/_+/g, "-").replace(/[^-a-z0-9]/g, ""));
+				flags.innerlink = true;
+				return `<InnerLink toTop to="${id}">${marked2.parseInline(txt)}</InnerLink>`;
 			} else if (tag === "FN") {
 				// Fake footnotes
 				const { from } = attrs;
