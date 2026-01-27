@@ -1,29 +1,18 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
-import { Hierarchy } from '../types';
 import mysteries from './subpages/__mystery';
-import BasicPage from './BasicPage';
 import './Page.css';
 
 type Data = typeof mysteries;
 
 type Params = { id?: keyof Data };
 
-const topLink: Hierarchy = ["Oracle Mysteries", "ability/mysteries"];
-
 const MysteryPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, mysteries);
+	const Page = id ? mysteries[id] || mysteries.not_found : mysteries.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/mystery/" + id}
-		topLink={topLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default MysteryPage;

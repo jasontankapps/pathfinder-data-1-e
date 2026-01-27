@@ -1,29 +1,18 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
 import skills from './subpages/__skill';
-import BasicPage from './BasicPage';
-import { Hierarchy } from '../types';
 import './Page.css';
 
 type Data = typeof skills;
 
 type Params = { id?: keyof Data };
 
-const topLink: Hierarchy = ["All Skills", "main/skills"];
-
 const SkillPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, skills);
+	const Page = id ? skills[id] || skills.not_found : skills.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/skill/" + id}
-		topLink={topLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default SkillPage;

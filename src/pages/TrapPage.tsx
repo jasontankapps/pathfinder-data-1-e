@@ -1,28 +1,18 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
 import traps from './subpages/__trap';
-import BasicPage from './BasicPage';
 import './Page.css';
 
 type Data = typeof traps;
 
 type Params = { id?: keyof Data };
 
-const trapLink: [string, string] = ["Sample Traps", "rule/sample_traps"];
-
 const TrapPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, traps);
+	const Page = id ? traps[id] || traps.not_found : traps.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/trap/" + id}
-		topLink={trapLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default TrapPage;

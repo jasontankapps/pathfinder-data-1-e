@@ -1,7 +1,5 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
 import talents from './subpages/__kinetic';
-import BasicPage from './BasicPage';
 import './Page.css';
 
 type Data = typeof talents;
@@ -12,15 +10,9 @@ const KineticPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, topLink, notBookmarkable } = getItem<Data>(id, talents);
+	const Page = id ? talents[id] || talents.not_found : talents.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/kinetic/" + id}
-		topLink={topLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default KineticPage;

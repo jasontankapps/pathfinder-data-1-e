@@ -429,10 +429,12 @@ const postprocess = (tables) => {
 		output = output + text;
 		//Create implicit jumplists
 		if(flags.implicitJumplist) {
+			// WHY isn't this just InnerLink??
 			let div = `<div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
 			flags.implicitJumplist.forEach(pair => {
 				const [text, id] = pair;
-				div = div + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${id}")} onClick={()=>jumpScroller("${id}")}>${text}</li>`;
+//-				div = div + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${id}")} onClick={()=>jumpScroller("${id}")}>${text}</li>`;
+				div = div + `<li><InnerLink toTop id="${id}">${text}</InnerLink></li>`;
 			});
 			div = div + `</ul></div>`;
 			flags.jumplist = true;
@@ -738,6 +740,140 @@ const createCopyItem = (info, prop, copy) => {
 	return output + "};";
 };
 
+// NEW
+const interpretFlags = (flags) => {
+	const imports = [];
+	const ionic = [];
+	// Check flags for Ionic components
+	flags.list && ionic.push("IonList");
+	flags.item && ionic.push("IonItem");
+	flags.label && ionic.push("IonLabel");
+	flags.divider && ionic.push("IonItemDivider");
+	flags.ripple && ionic.push("IonRippleEffect");
+	flags.icon && ionic.push("IonIcon");
+	ionic.length > 0 && imports.push(`import {${ionic.join(",")}} from '@ionic/react';`);
+	// Check flags for other components
+	flags.displaytable && imports.push(`import DisplayTable from '../../components/DisplayTable';`);
+	flags.link && flags.thlink && imports.push(`import Link, {ThLink} from '../../components/Link';`);
+	flags.link && !flags.thlink && imports.push(`import Link from '../../components/Link';`);
+	!flags.link && flags.thlink && imports.push(`import {ThLink} from '../../components/Link';`);
+	flags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
+	flags.innerlink && imports.push(`import InnerLink from '../../components/InnerLink';`);
+	flags.scrollContainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
+	/*flags.jumplist && imports.push(
+		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);if(el){el.classList.add(\"highlight\");setTimeout(()=>el.classList.remove(\"highlight\"),500)}el&&el.scrollIntoView({behavior:\"smooth\",block:\"start\",inline:\"nearest\"})};"
+	);*/
+	//flags.jumplist && imports.push(`import jumpScroller from '../../components/jumpScroller';`);
+	imports.push(`import BasicPage from '../BasicPage';`);
+	return imports;
+};
+
+const makePageName = prop => prop.replace(/(?:^|_)([a-z])/g, (m, l) => l.toUpperCase()).replace(/_/g, "");
+
+const _createItem = (prop, link, exx, info, flags, copiesLogged) => {
+	// Need to create the tsx file, save it to disk as a file.
+	// Need to add in copies as separate files that rely on the original tsx?
+	//   Or can they be added as exports to the original tsx?
+	const {topLink: tL, className: cN, ...extra} = exx;
+	const {
+		title, description,
+		parent_topics, siblings, subtopics,
+		topLink = tL, noFinder, addenda, tree,
+		disambiguation, className = cN
+	} = info;
+	const PageName = makePageName(prop);
+	const output = interpretFlags(flags);
+	let tag = `<BasicPage pageId={pageId || "/${link}/${prop}"} title={title || "${title}"}`;
+	flags.jumplist && (tag = tag + ` hasJL`);
+	parent_topics && (tag = tag + ` parent_topics={${JSON.stringify(parent_topics)}}`);
+	siblings && (tag = tag + ` siblings={${JSON.stringify(siblings)}}`);
+	subtopics && (tag = tag + ` subtopics={${JSON.stringify(subtopics)}}`);
+	topLink && (tag = tag + ` topLink={${JSON.stringify(topLink)}}`);
+	noFinder && (tag = tag + " noFinder");
+	addenda && (tag = tag + ` addenda={${JSON.stringify(addenda)}}`);
+	tree && (tag = tag + ` tree={${JSON.stringify(tree)}}`);
+	className && (tag = tag + ` className="${className}"`);
+	disambiguation && (tag = tag + ` notBookmarkable`);
+	Object.entries(extra).forEach(([prop, value]) => {
+		if(typeof value === "string") {
+			tag = tag + ` ${prop}="${value}"`;
+		} else {
+			tag = tag + ` ${prop}={${JSON.stringify(value)}}`;
+		}
+	});
+	tag = tag + `>${description}</BasicPage>`;
+	output.push(
+		"",
+		"interface Props {title?: string, pageId?: string}",
+		"",
+		`const ${PageName}: React.FC<Props> = ({title, pageId}) => ${tag};`,
+		"",
+		`export default ${PageName};`
+	);
+
+	// Find copies
+	const found = [ [prop] ];
+	let somethingChanged = false;
+	let remainder = Object.entries(copiesLogged);
+	let FAILSAFE = 0;
+	do {
+		somethingChanged = false;
+		const remains = [];
+		remainder.forEach((pair) => {
+			const [copyprop, arr] = pair;
+			const [title, copyof] = arr;
+			const additions = [];
+			if(found.every(([prop]) => {
+				if(prop === copyof) {
+					somethingChanged = true;
+					typeof copyprop !== "string" && console.log(prop, copyprop);
+					const CopyPageName = makePageName(copyprop);
+					additions.push([copyprop, CopyPageName]);
+					output.push(
+						"",
+						`export const ${CopyPageName}: React.FC<Props> = ({title, pageId}) => <${PageName} pageId={pageId || "/${link}/${copyprop}"} title={title || "${title}"}/>;`
+					);
+					return false;
+				}
+				return true;
+			})) {
+				remains.push(pair);
+			}
+			found.push(...additions);
+		});
+		remainder = remains;
+		if(++FAILSAFE > 500) {
+			somethingChanged = false;
+		}
+	} while (remainder.length > 0 && somethingChanged);
+	// Remove original prop from found
+	found.shift();
+
+	return {found, output, PageName};
+	/*
+		const Page: React.FC = () => <BasicPage
+			hasJL={hasJL}
+			title={title}
+			pageId={"/aspect/" + id}
+			topLink={topLink}
+			notBookmarkable={notBookmarkable}
+		>{jsx}</BasicPage>;
+
+		export default Page;
+
+	Archetype:
+	return <BasicPage
+		hasJL={hasJL}
+		title={title}
+		pageId={pageId}
+		topLink={[classTitle, "class/" + parent]}
+		notBookmarkable={notBookmarkable}
+	>{jsx}</BasicPage>;
+	*/
+};
+// END
+
+
 // If entities are used inside links inside tables.data, they must be converted before being saved to a file.
 const entities_in_tables = [
 	// [
@@ -862,22 +998,36 @@ const getParsing = () => {
 };
 const [all_usable_groups, number_of_groups] = getParsing();
 
+$.GROUPS = Object.entries(all_usable_groups);
+$.FILES = {};
+$.GROUPS.forEach(g => {
+	const {link} = g[1];
+	$.FILES[link] = ($.FILES[link] || []);
+	$.FILES[link].push(g);
+});
+$.GROUPS = Object.entries($.FILES);
+delete $.FILES;
+
 //   Create all other files, including ___link.tsx files.
-Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
+$.GROUPS.forEach(([link, related_groups]) => {
+	$.RECORD = [];
+related_groups.forEach((pairing, groupindex) => {
 	const [groupProp, group] = pairing;
 	const {
 		data,
 		datatype,
-		link,
-		num
+		num = 0,
+		extra = {}
 	} = group;
+	const padNum = num && (num < 10 ? `0${num}` : `${num}`);
 	const final = [];
-	const baselink = num ? `${link}${num}` : link;
+	const baselink = num ? `${link}${padNum}` : link;
 	const copies = [];
 	const copyRecord = {};
-	const groupFlags = {};
 	const template = templates_by_link[link] || templates_by_link._basic;
+	// Go through every prop in the object
 	Object.entries(data).forEach(([prop, value]) => {
+		const groupFlags = {};
 		$.current = `${groupProp}/${prop}`;
 		// Temporary flags should NEVER match regular flags.
 		const temporaryFlags = {};
@@ -975,18 +1125,21 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 			copies.push([prop, copyof, {...info}]);
 		} else if (!redirect) {
 			copyRecord[prop] = true;
-			final.push([prop, createItem(info, prop)]);
+//-			final.push([prop, createItem(info, prop)]);
+			final.push([prop, info, groupFlags]);
 		}
 	});
 	$.current = groupProp;
 	let somethingChanged;
 	let remaining = [...copies];
+	const copiesLogged = {};
 	do {
 		somethingChanged = false;
 		const missing = [];
 		remaining.forEach(([prop, copyof, info]) => {
 			if(copyRecord[copyof]) {
-				final.push([prop, createCopyItem(info, prop, copyof)]);
+//				final.push([prop, createCopyItem(info, prop, copyof)]);
+				copiesLogged[prop] = [info.title, copyof];
 				copyRecord[prop] = true;
 				somethingChanged = true;
 			} else {
@@ -998,40 +1151,88 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	remaining.forEach(([prop, copyof]) => {
 		logError(`MISSING "${copyof}" property in ${prop}.copyof`);
 	});
-	const imports = [];
-	const ionic = [];
-	// Check groupFlags for Ionic components
-	groupFlags.list && ionic.push("IonList");
-	groupFlags.item && ionic.push("IonItem");
-	groupFlags.label && ionic.push("IonLabel");
-	groupFlags.divider && ionic.push("IonItemDivider");
-	groupFlags.ripple && ionic.push("IonRippleEffect");
-	groupFlags.icon && ionic.push("IonIcon");
-	ionic.length > 0 && imports.push(`import {${ionic.join(",")}} from '@ionic/react';`);
-	// Check groupFlags for other components
-	groupFlags.displaytable && imports.push(`import DisplayTable from '../../components/DisplayTable';`);
-	groupFlags.link && groupFlags.thlink && imports.push(`import Link, {ThLink} from '../../components/Link';`);
-	groupFlags.link && !groupFlags.thlink && imports.push(`import Link from '../../components/Link';`);
-	!groupFlags.link && groupFlags.thlink && imports.push(`import {ThLink} from '../../components/Link';`);
-	groupFlags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
-	groupFlags.innerlink && imports.push(`import InnerLink from '../../components/InnerLink';`);
-	groupFlags.scrollContainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
-	groupFlags.jumplist && imports.push(
-//		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);if(el){el.classList.add(\"highlight\");setTimeout(()=>el.classList.remove(\"highlight\"),500)}let w=el&&el.parentElement;while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w=w.parentElement}const yCoordinate=el?el.getBoundingClientRect().top+window.scrollY:80;w&&(w as HTMLIonContentElement).scrollByPoint(0,yCoordinate-80,500)};"
-		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);if(el){el.classList.add(\"highlight\");setTimeout(()=>el.classList.remove(\"highlight\"),500)}el&&el.scrollIntoView({behavior:\"smooth\",block:\"start\",inline:\"nearest\"})};"
-	);
-	// Add saved info;
-	const allprops = [];
-	const output = imports.concat(final.map(([prop, object]) => {
-		allprops.push(prop);
-		if(groupFlags.jumplist && object.match(/="jumpList"/)) {
-			return object.replace(/\{title:/, "{hasJL:true,title:");
-		}
-		return object;
-	}));
-	// Add an export
-	output.push(`export default {${allprops.map(prop => `${prop}:_${prop}`).join(",")}}`);
 
+	// Go through the new `final`
+	//   [ prop, info, groupFlags ]
+	// _createItem(info, prop, flags, copylog) = make indiv files
+	// But also gather info for a master TSX file that will lazy-load everything as needed.
+	//   Master file should utilize `num` variable
+	// basic_data_groups may need to be updated with various properties to pass in
+
+	// ALSO will need to add not_found to archetype pages
+	// MAKE NEW BRANCH to push to
+	//const filename = `./src/pages/subpages/__${baselink}.tsx`;
+
+	const collection = [];
+	const imports = [];
+	const path = "./src/pages/subpages/";
+	final.forEach(([prop, info, groupFlags]) => {
+		const filename = `__${baselink}__${prop}`;
+		const fullFilename = path + filename + ".tsx";
+		//const fullFilename = "./" + filename;
+		const testfile = get(fullFilename).trim();
+//console.log(prop, groupFlags, info);
+		const {found, output, PageName} = _createItem(prop, link, extra, info, groupFlags, copiesLogged);
+		const newfile = output.join("\n").trim();
+		if(newfile !== testfile) {
+			// File has changed. Save it.
+			fs.writeFileSync(fullFilename, newfile);
+			console.log(`SAVED ${filename}.`);
+		} else {
+			console.log(`${filename} unchanged.`);
+		}
+		imports.push(`const ${PageName} = lazy(() => import("./${filename}"));`);
+		collection.push(`${prop}: () => <${PageName} />`);
+		found.forEach(([cprop, CopyPageName]) => {
+			imports.push(
+				`const ${
+					CopyPageName
+				} = lazy(() => import("./${
+					filename
+				}").then((module) => ({ default: module.${CopyPageName} })));`
+			);
+			collection.push(`${cprop}: () => <${CopyPageName} />`)
+		});
+	});
+	const indexfile = `${path}__${baselink}.tsx`;
+//	const indexfile = `./__${baselink}.tsx`;
+	const testindex = get(indexfile).trim();
+	const index =
+		`import { lazy } from "react";\n\n`
+		+ imports.join("\n")
+		+ "\n\n"
+		+ `const all = {\n\t`
+		+ collection.join(",\n\t")
+		+ "\n};\n\nexport default all;"
+	if(testindex !== index) {
+		// File has changed. Save it.
+		fs.writeFileSync(indexfile, index);
+		console.log(`SAVED ${indexfile}.`);
+	} else {
+		console.log(`${indexfile} unchanged.`);
+	}
+
+	/*
+	const filename = `__${baselink}__{prop}.tsx`;
+	const fullFilename = `./src/pages/subpages/${filename}`;
+	const testfile = get(fullFilename).trim();
+	//const theOutput = output.join("\n").trim();
+
+	fs.writeFileSync(
+		`./__DATA.js`,
+		`const final = [\n\t${
+			final.map(
+				arr => `[\n\t\t${arr.map(x => JSON.stringify(x)).join(",\n\t\t")}\n\t]`
+			).join(",\n\t")
+		}\n];\n\nconst copiesLogged = ${
+			JSON.stringify(copiesLogged)
+		};\n\nconst copyRecord = ${
+			JSON.stringify(copyRecord)
+		};\n`
+	);
+	*/
+
+if(0){
 	const filename = `./src/pages/subpages/__${baselink}.tsx`;
 	const testfile = get(filename).trim();
 	const theOutput = output.join("\n").trim();
@@ -1053,6 +1254,11 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 		$.savedCount++;
 	}
 	$.parsedCount++;
+}
+});
+
+// At this point, we have gone through all of the files that share the same `link`.
+
 });
 
 console.log(`\n\n>> Saved [${$.savedCount}] new files (out of ${$.parsedCount}).`);

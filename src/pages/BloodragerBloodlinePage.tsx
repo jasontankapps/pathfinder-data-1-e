@@ -1,29 +1,18 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
-import { Hierarchy } from '../types';
 import bloodlines from './subpages/__blrgbloodline';
-import BasicPage from './BasicPage';
 import './Page.css';
 
 type Data = typeof bloodlines;
 
 type Params = { id?: keyof Data };
 
-const topLink: Hierarchy = ["Bloodrager Bloodlines", "ability/bloodrager_bloodlines"];
-
 const BloodragerBloodlinePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, bloodlines);
+	const Page = id ? bloodlines[id] || bloodlines.not_found : bloodlines.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/blrgbloodline/" + id}
-		topLink={topLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default BloodragerBloodlinePage;

@@ -403,7 +403,10 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "skill",
 		num: 0,
-		type: "Skill"
+		type: "Skill",
+		extra: {
+			topLink: ["All Skills", "main/skills"]
+		}
 	},
 	"rules_basics01": {
 		data: rule1,
@@ -777,7 +780,10 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "umr",
 		num: 0,
-		type: "Universal Monster Rule"
+		type: "Universal Monster Rule",
+		extra: {
+			topLink: ["Universal Monster Rules", "main/umr"]
+		}
 	},
 	"races": {
 		data: race1,
@@ -910,21 +916,30 @@ const basic_data_groups = {
 		searchgroup: 1, // classes
 		link: "arcaneschool",
 		num: 0,
-		type: "Arcane School"
+		type: "Arcane School",
+		extra: {
+			topLink: ["Arcane Schools", "ability/arcane_schools"]
+		}
 	},
 	"class_ability_aspects": {
 		data: aspect,
 		searchgroup: 1, // classes
 		link: "aspect",
 		num: 0,
-		type: "Shifter Aspect"
+		type: "Shifter Aspect",
+		extra: {
+			"topLink": ["Shifter Aspects", "ability/aspects"]
+		}
 	},
 	"class_ability_bardic_masterpieces": {
 		data: masterpiece,
 		searchgroup: 1, // classes
 		link: "masterpiece",
 		num: 0,
-		type: "Bardic Masterpiece"
+		type: "Bardic Masterpiece",
+		extra: {
+			topLink: ["Bardic Masterpieces", "ability/bardic_masterpieces"]
+		}
 	},
 	"class_ability_bardic_performances": {
 		data: performance,
@@ -938,91 +953,130 @@ const basic_data_groups = {
 		searchgroup: 1, // classes
 		link: "blrgbloodline",
 		num: 0,
-		type: "Bloodrager Bloodline"
+		type: "Bloodrager Bloodline",
+		extra: {
+			topLink: ["Bloodrager Bloodlines", "ability/bloodrager_bloodlines"]
+		}
 	},
 	"class_ability_curses": {
 		data: oraclecurse,
 		searchgroup: 1, // classes
 		link: "oraclecurse",
 		num: 0,
-		type: "Oracle Curse"
+		type: "Oracle Curse",
+		extra: {
+			topLink: ["Oracle Curses", "ability/oracle_curses"]
+		}
 	},
 	"class_ability_disciplines": {
 		data: discipline,
 		searchgroup: 1, // classes
 		link: "discipline",
 		num: 0,
-		type: "Psychic Discipline"
+		type: "Psychic Discipline",
+		extra: {
+			topLink: ["Psychic Disciplines", "ability/disciplines"]
+		}
 	},
 	"class_ability_domains1": {
 		data: domain1,
 		searchgroup: 1, // classes
 		link: "domain",
 		num: 1,
-		type: "Cleric Domain"
+		type: "Cleric Domain",
+		extra: {
+			topLink: ["Domains", "ability/domains"]
+		}
 	},
 	"class_ability_domains2": {
 		data: domain2,
 		searchgroup: 1, // classes
 		link: "domain",
 		num: 2,
-		type: "Cleric Domain"
+		type: "Cleric Domain",
+		extra: {
+			topLink: ["Domains", "ability/domains"]
+		}
 	},
 	"class_ability_blessings": {
 		data: blessing,
 		searchgroup: 1, // classes
 		link: "blessing",
 		num: 0,
-		type: "Warpriest Blessing"
+		type: "Warpriest Blessing",
+		extra: {
+			topLink: ["Warpriest Blessings", "ability/blessings"]
+		}
 	},
 	"class_ability_druid_companions": {
 		data: companion,
 		searchgroup: 1, // classes
 		link: "companion",
 		num: 0,
-		type: "Animal Companion"
+		type: "Animal Companion",
+		extra: {
+			topLink: ["Animal Companions", "ability/druid_companions"]
+		}
 	},
 	"class_ability_druid_domains": {
 		data: druiddomain,
 		searchgroup: 1, // classes
 		link: "druiddomain",
 		num: 0,
-		type: "Druid Domain"
+		type: "Druid Domain",
+		extra: {
+			topLink: ["Druid Domains", "ability/druid_domains"]
+		}
 	},
 	"class_ability_emotional_focus": {
 		data: emotionalfocus,
 		searchgroup: 1, // classes
 		link: "emotionalfocus",
 		num: 0,
-		type: "Phantom Emotional Focus"
+		type: "Phantom Emotional Focus",
+		extra: {
+			topLink: ["Phantom Emotional Focus", "ability/emotional_focus"]
+		}
 	},
 	"class_ability_exploits": {
 		data: exploit,
 		searchgroup: 1, // classes
 		link: "exploit",
 		num: 0,
-		type: "Arcanist Exploit"
+		type: "Arcanist Exploit",
+		extra: {
+			topLink: ["Exploits", "ability/exploits"]
+		}
 	},
 	"class_ability_hellknight_orders": {
 		data: hkorder,
 		searchgroup: 1, // classes
 		link: "hkorder",
 		num: 0,
-		type: "Hellknight Order"
+		type: "Hellknight Order",
+		extra: {
+			topLink: ["Hellknight Orders", "ability/hellknight_orders"]
+		}
 	},
 	"class_ability_implements": {
 		data: implement,
 		searchgroup: 1, // classes
 		link: "implement",
 		num: 0,
-		type: "Occultist Implement"
+		type: "Occultist Implement",
+		extra: {
+			topLink: ["Occultist Implements", "ability/implements"]
+		}
 	},
 	"class_ability_inquisitions": {
 		data: inquisition,
 		searchgroup: 1, // classes
 		link: "inquisition",
 		num: 0,
-		type: "Inquisition"
+		type: "Inquisition",
+		extra: {
+			topLink: ["Inquisitions", "ability/inquisitions"]
+		}
 	},
 	"class_ability_kinetic_talents": {
 		data: kinetic,
@@ -1036,28 +1090,40 @@ const basic_data_groups = {
 		searchgroup: 1, // classes
 		link: "arcana",
 		num: 0,
-		type: "Magus Arcana"
+		type: "Magus Arcana",
+		extra: {
+			topLink: ["Magus Arcana", "ability/magus_arcana"]
+		}
 	},
 	"class_ability_mysteries": {
 		data: mystery,
 		searchgroup: 1, // classes
 		link: "mystery",
 		num: 0,
-		type: "Oracle Mystery"
+		type: "Oracle Mystery",
+		extra: {
+			topLink: ["Oracle Mysteries", "ability/mysteries"]
+		}
 	},
 	"class_ability_oaths": {
 		data: oath,
 		searchgroup: 1, // classes
 		link: "oath",
 		num: 0,
-		type: "Monk Oath"
+		type: "Paladin Oath",
+		extra: {
+			topLink: ["Paladin Oaths", "ability/oaths"]
+		}
 	},
 	"class_ability_orders": {
 		data: order,
 		searchgroup: 1, // classes
 		link: "order",
 		num: 0,
-		type: "Cavalier/Samurai Order"
+		type: "Cavalier/Samurai Order",
+		extra: {
+			topLink: ["Cavalier/Samurai Orders", "ability/orders"]
+		}
 	},
 	"class_ability_rage_powers": {
 		data: ragepower,
@@ -1071,21 +1137,30 @@ const basic_data_groups = {
 		searchgroup: 1, // classes
 		link: "shamanspirit",
 		num: 0,
-		type: "Shaman Spirit"
+		type: "Shaman Spirit",
+		extra: {
+			topLink: ["Shaman Spirits", "ability/shaman_spirits"]
+		}
 	},
 	"class_ability_sorcerer_bloodlines": {
 		data: sorcbloodline,
 		searchgroup: 1, // classes
 		link: "sorcbloodline",
 		num: 0,
-		type: "Sorcerer Bloodline"
+		type: "Sorcerer Bloodline",
+		extra: {
+			topLink: ["Sorcerer Bloodlines", "ability/sorcerer_bloodlines"]
+		}
 	},
 	"class_ability_spirits": {
 		data: spirit,
 		searchgroup: 1, // classes
 		link: "spirit",
 		num: 0,
-		type: "Medium Spirit"
+		type: "Medium Spirit",
+		extra: {
+			topLink: ["Medium Spirits", "ability/spirits"]
+		}
 	},
 	"class_ability_rogue_talents": {
 		data: talent,
@@ -1664,7 +1739,10 @@ const basic_data_groups = {
 		link: "eq-reagent",
 		exportablelink: "eqreagent",
 		num: 0,
-		type: "Alchemical Reagent"
+		type: "Alchemical Reagent",
+		extra: {
+			topLink: ["Alchemical Reagents", "main/equipment_reagents"]
+		}
 	},
 	"equipment_armor": {
 		data: eqarmor,
@@ -1672,7 +1750,10 @@ const basic_data_groups = {
 		link: "eq-armor",
 		exportablelink: "eqarmor",
 		num: 0,
-		type: "Armor"
+		type: "Armor",
+		extra: {
+			topLink: ["Armor", "main/equipment_armor"]
+		}
 	},
 	"equipment_armor_enhancements": {
 		data: eqarmorenh,
@@ -1680,7 +1761,10 @@ const basic_data_groups = {
 		link: "eq-armorenh",
 		exportablelink: "eqarmorenh",
 		num: 0,
-		type: "Armor Enhancement"
+		type: "Armor Enhancement",
+		extra: {
+			topLink: ["Armor Enhancements", "main/equipment_armorenhancements"]
+		}
 	},
 	"equipment_misc": {
 		data: equipmentmisc1,
@@ -1720,7 +1804,10 @@ const basic_data_groups = {
 		link: "eq-poison",
 		exportablelink: "eqpoison",
 		num: 0,
-		type: "Poison"
+		type: "Poison",
+		extra: {
+			topLink: ["Poisons", "main/equipment_poisons"]
+		}
 	},
 	"equipment_siege_engines": {
 		data: eqsiegeengine,
@@ -1728,7 +1815,10 @@ const basic_data_groups = {
 		link: "eq-siegeengine",
 		exportablelink: "eqsiegeengine",
 		num: 0,
-		type: "Siege Engine"
+		type: "Siege Engine",
+		extra: {
+			topLink: ["Siege Engine", "main/equipment_siegeengines"]
+		}
 	},
 	"equipment_special_materials": {
 		data: eqmaterial,
@@ -1736,7 +1826,10 @@ const basic_data_groups = {
 		link: "eq-material",
 		exportablelink: "eqmaterial",
 		num: 0,
-		type: "Special Material"
+		type: "Special Material",
+		extra: {
+			topLink: ["Special Materials", "main/equipment_materials"]
+		}
 	},
 	"equipment_spellbooks": {
 		data: eqspellbook,
@@ -1744,7 +1837,10 @@ const basic_data_groups = {
 		link: "eq-spellbook",
 		exportablelink: "eqspellbook",
 		num: 0,
-		type: "Spellbook"
+		type: "Spellbook",
+		extra: {
+			topLink: ["Spellbooks", "main/equipment_spellbooks"]
+		}
 	},
 	"equipment_tech_armor": {
 		data: techarmor,
@@ -1752,7 +1848,10 @@ const basic_data_groups = {
 		link: "tech-armor",
 		exportablelink: "techarmor",
 		num: 0,
-		type: "Tech Armor"
+		type: "Tech Armor",
+		extra: {
+			topLink: ["Tech Armor", "main/tech_armor"]
+		}
 	},
 	"equipment_tech_artifacts": {
 		data: techartifact,
@@ -1760,7 +1859,10 @@ const basic_data_groups = {
 		link: "tech-artifact",
 		exportablelink: "techartifact",
 		num: 0,
-		type: "Tech Artifact"
+		type: "Tech Artifact",
+		extra: {
+			topLink: ["Tech Artifacts", "main/tech_artifacts"]
+		}
 	},
 	"equipment_tech_cybertech": {
 		data: techcyber,
@@ -1768,7 +1870,10 @@ const basic_data_groups = {
 		link: "tech-cyber",
 		exportablelink: "techcyber",
 		num: 0,
-		type: "Tech Cybertech"
+		type: "Tech Cybertech",
+		extra: {
+			topLink: ["Cybertech", "main/tech_cybertech"]
+		}
 	},
 	"equipment_tech_misc": {
 		data: techmisc,
@@ -1776,7 +1881,10 @@ const basic_data_groups = {
 		link: "tech-misc",
 		exportablelink: "techmisc",
 		num: 0,
-		type: "Misc. Tech"
+		type: "Misc. Tech",
+		extra: {
+			topLink: ["Miscellaneous Tech", "main/tech_misc"]
+		}
 	},
 	"equipment_tech_pharmaceuticals": {
 		data: techpharma,
@@ -1784,7 +1892,10 @@ const basic_data_groups = {
 		link: "tech-pharma",
 		exportablelink: "techpharma",
 		num: 0,
-		type: "Tech Pharmaceutical"
+		type: "Tech Pharmaceutical",
+		extra: {
+			topLink: ["Tech Pharmaceuticals", "main/tech_pharmaceuticals"]
+		}
 	},
 	"equipment_tech_weapons": {
 		data: techweapon,
@@ -1792,7 +1903,10 @@ const basic_data_groups = {
 		link: "tech-weapon",
 		exportablelink: "techweapon",
 		num: 0,
-		type: "Tech Weapon"
+		type: "Tech Weapon",
+		extra: {
+			topLink: ["Tech Weapons", "main/tech_weapons"]
+		}
 	},
 	"equipment_weapons1": {
 		data: equipmentweapon1,
@@ -1816,7 +1930,10 @@ const basic_data_groups = {
 		link: "eq-weaponenh",
 		exportablelink: "eqweaponenh",
 		num: 0,
-		type: "Weapon Enhancement"
+		type: "Weapon Enhancement",
+		extra: {
+			topLink: ["Weapon Enhancements", "main/equipment_weaponenhancements"]
+		}
 	},
 	"traits01": {
 		data: trait1,
@@ -2054,7 +2171,10 @@ const basic_data_groups = {
 		link: "magic-armor",
 		exportablelink: "magicarmor",
 		num: 0,
-		type: "Magic Armor"
+		type: "Magic Armor",
+		extra: {
+			topLink: ["Magic Armor", "main/magic_armor"]
+		}
 	},
 	"magic_artifact": {
 		data: magicartifact1,
@@ -2158,7 +2278,10 @@ const basic_data_groups = {
 		link: "magic-ioun",
 		exportablelink: "magicioun",
 		num: 0,
-		type: "Ioun Stone"
+		type: "Ioun Stone",
+		extra: {
+			topLink: ["Ioun Stone", "magic-wondrous/ioun_stone"]
+		}
 	},
 	"magic_juju_fetishes": {
 		data: magicfetish,
@@ -2214,7 +2337,10 @@ const basic_data_groups = {
 		link: "magic-ring",
 		exportablelink: "magicring",
 		num: 0,
-		type: "Magic Ring"
+		type: "Magic Ring",
+		extra: {
+			topLink: ["Magic Rings", "main/magic_rings"]
+		}
 	},
 	"magic_rod": {
 		data: magicrod,
@@ -2222,7 +2348,10 @@ const basic_data_groups = {
 		link: "magic-rod",
 		exportablelink: "magicrod",
 		num: 0,
-		type: "Magic Rod"
+		type: "Magic Rod",
+		extra: {
+			topLink: ["Magic Rods", "main/magic_rods"]
+		}
 	},
 	"magic_set": {
 		data: magicset,
@@ -2246,7 +2375,10 @@ const basic_data_groups = {
 		link: "magic-staff",
 		exportablelink: "magicstaff",
 		num: 0,
-		type: "Magic Staff"
+		type: "Magic Staff",
+		extra: {
+			topLink: ["Magic Staves", "main/magic_staves"]
+		}
 	},
 	"magic_tattoo": {
 		data: magictattoo,
@@ -2492,14 +2624,20 @@ const basic_data_groups = {
 		searchgroup: 8, // spell
 		link: "spelldef",
 		num: 0,
-		type: "Spell Definition"
+		type: "Spell Definition",
+		extra: {
+			topLink: ["Spell Definitions", "main/spell_definitions"]
+		}
 	},
 	"corruptions": {
 		data: corruption,
 		searchgroup: 12, // rule
 		link: "corruption",
 		num: 0,
-		type: "Corruption"
+		type: "Corruption",
+		extra: {
+			topLink: ["Corruption (Rules)", "rule/corruption"]
+		}
 	},
 	"curses": {
 		data: curse,
@@ -2520,14 +2658,21 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "drug",
 		num: 0,
-		type: "Drug"
+		type: "Drug",
+		extra: {
+			topLink: ["Drugs", "main/drugs"]
+		}
 	},
 	"haunts": {
 		data: haunt,
 		searchgroup: 12, // rule
 		link: "haunt",
 		num: 0,
-		type: "Haunt"
+		type: "Haunt",
+		extra: {
+			className: "simple hasStatblock",
+			topLink: ["Haunts", "main/haunts"]
+		}
 	},
 	"infestations": {
 		data: infestation,
@@ -2541,14 +2686,20 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "madness",
 		num: 0,
-		type: "Madness"
+		type: "Madness",
+		extra: {
+			topLink: ["Madness", "rule/madness"]
+		}
 	},
 	"traps": {
 		data: trap,
 		searchgroup: 12, // rule
 		link: "trap",
 		num: 0,
-		type: "Trap"
+		type: "Trap",
+		extra: {
+			topLink: ["Sample Traps", "rule/sample_traps"]
+		}
 	},
 	"main01": {
 		data: main1,
@@ -3290,7 +3441,10 @@ const basic_data_groups = {
 		searchgroup: 5, // magic
 		link: "constructmod",
 		num: 0,
-		type: "Construct Modification"
+		type: "Construct Modification",
+		extra: {
+			topLink: ["Construct Modifications", "rule/construct_modifications"]
+		}
 	}
 };
 

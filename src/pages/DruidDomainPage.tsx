@@ -1,29 +1,18 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
-import { Hierarchy } from '../types';
 import domains from './subpages/__druiddomain';
-import BasicPage from './BasicPage';
 import './Page.css';
 
 type Data = typeof domains;
 
 type Params = { id?: keyof Data };
 
-const topLink: Hierarchy = ["Druid Domains", "ability/druid_domains"];
-
 const DruidDomainPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, domains);
+	const Page = id ? domains[id] || domains.not_found : domains.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/druiddomain/" + id}
-		topLink={topLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default DruidDomainPage;

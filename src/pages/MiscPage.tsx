@@ -1,7 +1,5 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
 import misc from './subpages/__misc';
-import BasicPage from './BasicPage';
 import './Page.css';
 
 type Data = typeof misc;
@@ -12,15 +10,9 @@ const MiscPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, topLink, notBookmarkable } = getItem<Data>(id, misc);
+	const Page = id ? misc[id] || misc.not_found : misc.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/misc/" + id}
-		topLink={topLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default MiscPage;

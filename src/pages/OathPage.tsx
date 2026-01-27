@@ -1,29 +1,18 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
-import { Hierarchy } from '../types';
 import oaths from './subpages/__oath';
-import BasicPage from './BasicPage';
 import './Page.css';
 
 type Data = typeof oaths;
 
 type Params = { id?: keyof Data };
 
-const topLink: Hierarchy = ["Paladin Oaths", "ability/oaths"];
-
 const OathPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, oaths);
+	const Page = id ? oaths[id] || oaths.not_found : oaths.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/oath/" + id}
-		topLink={topLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default OathPage;

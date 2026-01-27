@@ -1,29 +1,18 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
-import { Hierarchy } from '../types';
 import equipment from './subpages/__eq-weaponenh';
-import BasicPage from './BasicPage';
 import './Page.css';
 
 type Data = typeof equipment;
 
 type Params = { id?: keyof Data };
 
-const topLink: Hierarchy = ["Weapon Enhancements", "main/equipment_weaponenhancements"];
-
 const EquipmentWeaponEnhancementsPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, equipment);
+	const Page = id ? equipment[id] || equipment.not_found : equipment.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/eq-weaponenh/" + id}
-		topLink={topLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default EquipmentWeaponEnhancementsPage;

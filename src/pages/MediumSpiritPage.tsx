@@ -1,28 +1,17 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
 import spirits from './subpages/__spirit';
-import BasicPage from './BasicPage';
-import { Hierarchy } from '../types';
 import './Page.css';
 
 type Data = typeof spirits;
 
 type Params = { id?: keyof Data };
 
-const tL: Hierarchy = ["Medium Spirits", "ability/spirits"];
-
 const MediumSpiritPage: React.FC = () => {
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, topLink, notBookmarkable } = getItem<Data>(id, spirits);
+	const Page = id ? spirits[id] || spirits.not_found : spirits.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/spirit/" + id}
-		topLink={topLink || tL}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default MediumSpiritPage;

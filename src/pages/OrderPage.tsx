@@ -1,29 +1,18 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
-import { Hierarchy } from '../types';
 import orders from './subpages/__order';
-import BasicPage from './BasicPage';
 import './Page.css';
 
 type Data = typeof orders;
 
 type Params = { id?: keyof Data };
 
-const topLink: Hierarchy = ["Cavalier/Samurai Orders", "ability/orders"];
-
 const OrderPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, orders);
+	const Page = id ? orders[id] || orders.not_found : orders.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/order/" + id}
-		topLink={topLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default OrderPage;

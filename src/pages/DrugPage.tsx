@@ -1,29 +1,18 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
-import { Hierarchy } from '../types';
 import drugs from './subpages/__drug';
-import BasicPage from './BasicPage';
 import './Page.css';
 
 type Data = typeof drugs;
 
 type Params = { id?: keyof Data };
 
-const topLink: Hierarchy = ["Drugs", "main/drugs"];
-
 const DrugPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, drugs);
+	const Page = id ? drugs[id] || drugs.not_found : drugs.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/drug/" + id}
-		topLink={topLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default DrugPage;

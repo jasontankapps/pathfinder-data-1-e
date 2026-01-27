@@ -1,11 +1,6 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
 import magic from './subpages/__magic-staff';
-import BasicPage from './BasicPage';
-import { Hierarchy } from '../types';
 import './Page.css';
-
-const topLink: Hierarchy = ["Magic Staves", "main/magic_staves"];
 
 type Data = typeof magic;
 
@@ -15,15 +10,9 @@ const MagicPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, magic);
+	const Page = id ? magic[id] || magic.not_found : magic.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/magic-staff/" + id}
-		topLink={topLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default MagicPage;

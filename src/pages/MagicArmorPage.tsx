@@ -1,29 +1,18 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
 import magic from './subpages/__magic-armor';
-import BasicPage from './BasicPage';
-import { Hierarchy } from '../types';
 import './Page.css';
 
 type Data = typeof magic;
 
 type Params = { id?: keyof Data };
 
-const topLink: Hierarchy = ["Magic Armor", "main/magic_armor"];
-
 const MagicPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, magic);
+	const Page = id ? magic[id] || magic.not_found : magic.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={"/magic-armor/" + id}
-		topLink={topLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default MagicPage;
