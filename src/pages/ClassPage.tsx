@@ -1,40 +1,30 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_class.json';
-import ErrorPage from './ErrorPage';
+import class1 from './subpages/__class01';
+import class2 from './subpages/__class02';
+import class3 from './subpages/__class03';
+import class4 from './subpages/__class04';
+import class5 from './subpages/__class05';
+import class6 from './subpages/__class06';
+import class7 from './subpages/__class07';
+import class8 from './subpages/__class08';
 import './Page.css';
 
-interface Params {
-	id?: keyof typeof data
-};
+type Data =
+	typeof class1 | typeof class2 | typeof class3 | typeof class4
+	| typeof class5 | typeof class6 | typeof class7 | typeof class8;
 
-const ClassGroup1Page = lazy(() => import("./ClassGroup1Page"));
-const ClassGroup2Page = lazy(() => import("./ClassGroup2Page"));
-const ClassGroup3Page = lazy(() => import("./ClassGroup3Page"));
-const ClassGroup4Page = lazy(() => import("./ClassGroup4Page"));
-const ClassGroup5Page = lazy(() => import("./ClassGroup5Page"));
-const ClassGroup6Page = lazy(() => import("./ClassGroup6Page"));
-const ClassGroup7Page = lazy(() => import("./ClassGroup7Page"));
-const ClassGroup8Page = lazy(() => import("./ClassGroup8Page"));
-
-const pages = [
-	({id}: {id: string}) => <ClassGroup1Page id={id} />,
-	({id}: {id: string}) => <ClassGroup2Page id={id} />,
-	({id}: {id: string}) => <ClassGroup3Page id={id} />,
-	({id}: {id: string}) => <ClassGroup4Page id={id} />,
-	({id}: {id: string}) => <ClassGroup5Page id={id} />,
-	({id}: {id: string}) => <ClassGroup6Page id={id} />,
-	({id}: {id: string}) => <ClassGroup7Page id={id} />,
-	({id}: {id: string}) => <ClassGroup8Page id={id} />,
-];
+type Params = { id?: keyof Data };
 
 const ClassPage: React.FC<Params> = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (
+		class1[id] || class2[id] || class3[id] || class4[id]
+		|| class5[id] || class6[id] || class7[id] || class8[id]
+	) || class1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

@@ -1,26 +1,19 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_domain.json';
-import ErrorPage from './ErrorPage';
+import domains1 from './subpages/__domain01';
+import domains2 from './subpages/__domain02';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data = typeof domains1 | typeof domains2;
 
-const DomainGroup1Page = lazy(() => import("./DomainGroup1Page"));
-const DomainGroup2Page = lazy(() => import("./DomainGroup2Page"));
-
-const pages = [
-	({id}: {id: string}) => <DomainGroup1Page id={id} />,
-	({id}: {id: string}) => <DomainGroup2Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const DomainPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (domains1[id] || domains2[id]) || domains1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

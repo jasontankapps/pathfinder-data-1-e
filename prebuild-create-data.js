@@ -434,7 +434,7 @@ const postprocess = (tables) => {
 			flags.implicitJumplist.forEach(pair => {
 				const [text, id] = pair;
 //-				div = div + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${id}")} onClick={()=>jumpScroller("${id}")}>${text}</li>`;
-				div = div + `<li><InnerLink toTop id="${id}">${text}</InnerLink></li>`;
+				div = div + `<li><InnerLink toTop to="${id}">${text}</InnerLink></li>`;
 			});
 			div = div + `</ul></div>`;
 			flags.jumplist = true;
@@ -758,7 +758,7 @@ const interpretFlags = (flags) => {
 	flags.link && !flags.thlink && imports.push(`import Link from '../../components/Link';`);
 	!flags.link && flags.thlink && imports.push(`import {ThLink} from '../../components/Link';`);
 	flags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
-	flags.innerlink && imports.push(`import InnerLink from '../../components/InnerLink';`);
+	(flags.innerlink || flags.jumplist) && imports.push(`import InnerLink from '../../components/InnerLink';`);
 	flags.scrollContainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
 	/*flags.jumplist && imports.push(
 		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);if(el){el.classList.add(\"highlight\");setTimeout(()=>el.classList.remove(\"highlight\"),500)}el&&el.scrollIntoView({behavior:\"smooth\",block:\"start\",inline:\"nearest\"})};"

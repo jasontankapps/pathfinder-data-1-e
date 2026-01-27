@@ -1,40 +1,33 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_faith.json';
-import ErrorPage from './ErrorPage';
+import faith1 from './subpages/__faith01';
+import faith2 from './subpages/__faith02';
+import faith3 from './subpages/__faith03';
+import faith4 from './subpages/__faith04';
+import faith5 from './subpages/__faith05';
+import faith6 from './subpages/__faith06';
+import faith7 from './subpages/__faith07';
+import faith8 from './subpages/__faith08';
+import faith9 from './subpages/__faith09';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data =
+	typeof faith1 | typeof faith2 | typeof faith3
+	| typeof faith4 | typeof faith5 | typeof faith6
+	| typeof faith7 | typeof faith8 | typeof faith9;
 
-const FaithGroup1Page = lazy(() => import("./FaithGroup1Page"));
-const FaithGroup2Page = lazy(() => import("./FaithGroup2Page"));
-const FaithGroup3Page = lazy(() => import("./FaithGroup3Page"));
-const FaithGroup4Page = lazy(() => import("./FaithGroup4Page"));
-const FaithGroup5Page = lazy(() => import("./FaithGroup5Page"));
-const FaithGroup6Page = lazy(() => import("./FaithGroup6Page"));
-const FaithGroup7Page = lazy(() => import("./FaithGroup7Page"));
-const FaithGroup8Page = lazy(() => import("./FaithGroup8Page"));
-const FaithGroup9Page = lazy(() => import("./FaithGroup9Page"));
-
-const pages = [
-	({id}: {id: string}) => <FaithGroup1Page id={id} />,
-	({id}: {id: string}) => <FaithGroup2Page id={id} />,
-	({id}: {id: string}) => <FaithGroup3Page id={id} />,
-	({id}: {id: string}) => <FaithGroup4Page id={id} />,
-	({id}: {id: string}) => <FaithGroup5Page id={id} />,
-	({id}: {id: string}) => <FaithGroup6Page id={id} />,
-	({id}: {id: string}) => <FaithGroup7Page id={id} />,
-	({id}: {id: string}) => <FaithGroup8Page id={id} />,
-	({id}: {id: string}) => <FaithGroup9Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const FaithPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (
+		faith1[id] || faith2[id] || faith3[id]
+		|| faith4[id] || faith5[id] || faith6[id]
+		|| faith7[id] || faith8[id] || faith9[id]
+	) || faith1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

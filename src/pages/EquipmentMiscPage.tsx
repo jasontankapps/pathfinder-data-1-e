@@ -1,30 +1,23 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_eq-misc.json';
-import ErrorPage from './ErrorPage';
+import eqmisc1 from './subpages/__eq-misc01';
+import eqmisc2 from './subpages/__eq-misc02';
+import eqmisc3 from './subpages/__eq-misc03';
+import eqmisc4 from './subpages/__eq-misc04';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data = typeof eqmisc1 | typeof eqmisc2 | typeof eqmisc3 | typeof eqmisc4;
 
-const EquipmentMiscGroup1Page = lazy(() => import("./EquipmentMiscGroup1Page"));
-const EquipmentMiscGroup2Page = lazy(() => import("./EquipmentMiscGroup2Page"));
-const EquipmentMiscGroup3Page = lazy(() => import("./EquipmentMiscGroup3Page"));
-const EquipmentMiscGroup4Page = lazy(() => import("./EquipmentMiscGroup4Page"));
-
-const pages = [
-	({id}: {id: string}) => <EquipmentMiscGroup1Page id={id} />,
-	({id}: {id: string}) => <EquipmentMiscGroup2Page id={id} />,
-	({id}: {id: string}) => <EquipmentMiscGroup3Page id={id} />,
-	({id}: {id: string}) => <EquipmentMiscGroup4Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const EquipmentMiscPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (
+		eqmisc1[id] || eqmisc2[id] || eqmisc3[id] || eqmisc4[id]
+	) || eqmisc1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

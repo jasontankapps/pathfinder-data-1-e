@@ -1,34 +1,25 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_ability.json';
-import ErrorPage from './ErrorPage';
+import ability1 from './subpages/__ability01';
+import ability2 from './subpages/__ability02';
+import ability3 from './subpages/__ability03';
+import ability4 from './subpages/__ability04';
+import ability5 from './subpages/__ability05';
+import ability6 from './subpages/__ability06';
 import './Page.css';
 
-type ID = keyof typeof data;
+type Data = typeof ability1 | typeof ability2 | typeof ability3 | typeof ability4 | typeof ability5 | typeof ability6;
 
-const ClassAbilityGroup1Page = lazy(() => import("./ClassAbilityGroup1Page"));
-const ClassAbilityGroup2Page = lazy(() => import("./ClassAbilityGroup2Page"));
-const ClassAbilityGroup3Page = lazy(() => import("./ClassAbilityGroup3Page"));
-const ClassAbilityGroup4Page = lazy(() => import("./ClassAbilityGroup4Page"));
-const ClassAbilityGroup5Page = lazy(() => import("./ClassAbilityGroup5Page"));
-const ClassAbilityGroup6Page = lazy(() => import("./ClassAbilityGroup6Page"));
-
-const pages = [
-	({id}: {id: ID}) => <ClassAbilityGroup1Page id={id} />,
-	({id}: {id: ID}) => <ClassAbilityGroup2Page id={id} />,
-	({id}: {id: ID}) => <ClassAbilityGroup3Page id={id} />,
-	({id}: {id: ID}) => <ClassAbilityGroup4Page id={id} />,
-	({id}: {id: ID}) => <ClassAbilityGroup5Page id={id} />,
-	({id}: {id: ID}) => <ClassAbilityGroup6Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const ClassAbilityPage: React.FC = () => {
 
-	const { id } = useParams<{id:ID}>();
+	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (
+		ability1[id] || ability2[id] || ability3[id] || ability4[id] || ability5[id] || ability6[id]
+	) || ability1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

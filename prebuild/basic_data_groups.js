@@ -1772,7 +1772,10 @@ const basic_data_groups = {
 		link: "eq-misc",
 		exportablelink: "eqmisc",
 		num: 1,
-		type: "Equipment"
+		type: "Equipment",
+		extra: {
+			topLink: ["Equipment", "main/equipment"]
+		}
 	},
 	"equipment_misc2": {
 		data: equipmentmisc2,
@@ -1780,7 +1783,10 @@ const basic_data_groups = {
 		link: "eq-misc",
 		exportablelink: "eqmisc",
 		num: 2,
-		type: "Equipment"
+		type: "Equipment",
+		extra: {
+			topLink: ["Equipment", "main/equipment"]
+		}
 	},
 	"equipment_misc3": {
 		data: equipmentmisc3,
@@ -1788,7 +1794,10 @@ const basic_data_groups = {
 		link: "eq-misc",
 		exportablelink: "eqmisc",
 		num: 3,
-		type: "Equipment"
+		type: "Equipment",
+		extra: {
+			topLink: ["Equipment", "main/equipment"]
+		}
 	},
 	"equipment_misc4": {
 		data: equipmentmisc4,
@@ -1796,7 +1805,10 @@ const basic_data_groups = {
 		link: "eq-misc",
 		exportablelink: "eqmisc",
 		num: 4,
-		type: "Equipment"
+		type: "Equipment",
+		extra: {
+			topLink: ["Equipment", "main/equipment"]
+		}
 	},
 	"equipment_poisons": {
 		data: eqpoison,
@@ -1914,7 +1926,10 @@ const basic_data_groups = {
 		link: "eq-weapon",
 		exportablelink: "eqweapon",
 		num: 1,
-		type: "Weapon"
+		type: "Weapon",
+		extra: {
+			topLink: ["Weapons", "main/equipment_weapons"]
+		}
 	},
 	"equipment_weapons2": {
 		data: equipmentweapon2,
@@ -1922,7 +1937,10 @@ const basic_data_groups = {
 		link: "eq-weapon",
 		exportablelink: "eqweapon",
 		num: 2,
-		type: "Weapon"
+		type: "Weapon",
+		extra: {
+			topLink: ["Weapons", "main/equipment_weapons"]
+		}
 	},
 	"equipment_weapon_enhancements": {
 		data: eqweaponenh,
@@ -1980,63 +1998,90 @@ const basic_data_groups = {
 		searchgroup: 10, // faith
 		link: "faith",
 		num: 1,
-		type: "Deity/Faith"
+		type: "Deity/Faith",
+		extra: {
+			topLink: ["Faiths/Deities", "main/faiths"]
+		}
 	},
 	"faiths2": {
 		data: faith2,
 		searchgroup: 10, // faith
 		link: "faith",
 		num: 2,
-		type: "Deity/Faith"
+		type: "Deity/Faith",
+		extra: {
+			topLink: ["Faiths/Deities", "main/faiths"]
+		}
 	},
 	"faiths3": {
 		data: faith3,
 		searchgroup: 10, // faith
 		link: "faith",
 		num: 3,
-		type: "Deity/Faith"
+		type: "Deity/Faith",
+		extra: {
+			topLink: ["Faiths/Deities", "main/faiths"]
+		}
 	},
 	"faiths4": {
 		data: faith4,
 		searchgroup: 10, // faith
 		link: "faith",
 		num: 4,
-		type: "Deity/Faith"
+		type: "Deity/Faith",
+		extra: {
+			topLink: ["Faiths/Deities", "main/faiths"]
+		}
 	},
 	"faiths5": {
 		data: faith5,
 		searchgroup: 10, // faith
 		link: "faith",
 		num: 5,
-		type: "Deity/Faith"
+		type: "Deity/Faith",
+		extra: {
+			topLink: ["Faiths/Deities", "main/faiths"]
+		}
 	},
 	"faiths6": {
 		data: faith6,
 		searchgroup: 10, // faith
 		link: "faith",
 		num: 6,
-		type: "Deity/Faith"
+		type: "Deity/Faith",
+		extra: {
+			topLink: ["Faiths/Deities", "main/faiths"]
+		}
 	},
 	"faiths7": {
 		data: faith7,
 		searchgroup: 10, // faith
 		link: "faith",
 		num: 7,
-		type: "Deity/Faith"
+		type: "Deity/Faith",
+		extra: {
+			topLink: ["Faiths/Deities", "main/faiths"]
+		}
 	},
 	"faiths8": {
 		data: faith8,
 		searchgroup: 10, // faith
 		link: "faith",
 		num: 8,
-		type: "Deity/Faith"
+		type: "Deity/Faith",
+		extra: {
+			topLink: ["Faiths/Deities", "main/faiths"]
+		}
 	},
 	"faiths9": {
 		data: faith9,
 		searchgroup: 10, // faith
 		link: "faith",
 		num: 9,
-		type: "Deity/Faith"
+		type: "Deity/Faith",
+		extra: {
+			topLink: ["Faiths/Deities", "main/faiths"]
+		}
 	},
 	"feat01": {
 		data: feat1,

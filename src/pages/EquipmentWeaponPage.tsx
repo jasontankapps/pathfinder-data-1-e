@@ -1,26 +1,19 @@
-import { Suspense, lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_eq-weapon.json';
-import ErrorPage from './ErrorPage';
+import eqweapon1 from './subpages/__eq-weapon01';
+import eqweapon2 from './subpages/__eq-weapon02';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data = typeof eqweapon1 | typeof eqweapon2;
 
-const EquipmentWeaponGroup1Page = lazy(() => import("./EquipmentWeaponGroup1Page"));
-const EquipmentWeaponGroup2Page = lazy(() => import("./EquipmentWeaponGroup2Page"));
-
-const pages = [
-	({id}: {id: string}) => <EquipmentWeaponGroup1Page id={id} />,
-	({id}: {id: string}) => <EquipmentWeaponGroup2Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const EquipmentWeaponPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (eqweapon1[id] || eqweapon2[id]) || eqweapon1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 
