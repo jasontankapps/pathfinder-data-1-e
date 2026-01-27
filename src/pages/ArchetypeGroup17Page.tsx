@@ -11,7 +11,7 @@ const archetypes = {
 
 type Data = typeof archetypes;
 
-const ArchetypeGroup8Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+const ArchetypeGroup17Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
 
 	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
 	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
@@ -29,4 +29,4 @@ const ArchetypeGroup8Page: React.FC<ArchetypeProps> = ({id, parent, classTitle})
 	>{jsx}</BasicPage>;
 };
 
-export default ArchetypeGroup8Page;
+export default ArchetypeGroup17Page;
