@@ -1,4 +1,4 @@
-import { BookmarkGroup, universalBookmarkDividerId, colorNames, Color } from "../store/bookmarksSlice";
+import { BookmarkGroup, universalBookmarkDividerId, colorNames } from "../store/bookmarksSlice";
 import { doesPageExist } from "../components/getPageName";
 
 type BG = Omit<BookmarkGroup, "hidden">;
@@ -54,6 +54,7 @@ const parseArrayInput = (data: unknown[], cat: number, errorWhat: string = "impo
 			return false; // data.every fails
 		}
 		// Check for hidden, just in case it slipped through somewhere.
+		// eslint-disable-next-line @typescript-eslint/no-unused-vars
 		const { color, title, contents, hidden, ...etc } = x as BookmarkGroup;
 		if (
 			Object.keys(etc).length > 0

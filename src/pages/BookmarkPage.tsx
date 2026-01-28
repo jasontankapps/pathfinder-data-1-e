@@ -239,7 +239,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	const maybeSaveColor = useCallback((color: Color) => {
 		dispatch(changeGroupColor({id, color}));
 		setOpenModal(false);
-	}, [dispatch, setOpenModal]);
+	}, [dispatch, setOpenModal, id]);
 
 	const members = useMemo(() => {
 		return contents.map((info, position) => {
@@ -249,7 +249,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 			}
 			return <BookmarkItem id={id} link={link} index={position} title={title} doEdit={doEdit} key={`orderable-bookmark-${link}-in-group-${id || ""}`} />;
 		});
-	} , [contents, id, color, doEdit, dispatch]);
+	} , [contents, id, color, doEdit]);
 
 	const openColorModal = () => {
 		setNewColor(color);
@@ -323,7 +323,7 @@ const KeyedBookmarkPage: FC<{id: string}> = ({id}) => {
 	);
 };
 
-const BookmarkPage: FC<{}> = () => {
+const BookmarkPage: FC = () => {
 	const { id } = useParams<Params>();
 	return <KeyedBookmarkPage id={id} key={`bookmarkpage-${id}`} />;
 };
