@@ -1,30 +1,24 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_pclass.json';
-import ErrorPage from './ErrorPage';
+import pclass1 from './subpages/__pclass01';
+import pclass2 from './subpages/__pclass02';
+import pclass3 from './subpages/__pclass03';
+import pclass4 from './subpages/__pclass04';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data =
+	typeof pclass1 | typeof pclass2 | typeof pclass3 | typeof pclass4;
 
-const PrestigeClassGroup1Page = lazy(() => import("./PrestigeClassGroup1Page"));
-const PrestigeClassGroup2Page = lazy(() => import("./PrestigeClassGroup2Page"));
-const PrestigeClassGroup3Page = lazy(() => import("./PrestigeClassGroup3Page"));
-const PrestigeClassGroup4Page = lazy(() => import("./PrestigeClassGroup4Page"));
-
-const pages = [
-	({id}: {id: string}) => <PrestigeClassGroup1Page id={id} />,
-	({id}: {id: string}) => <PrestigeClassGroup2Page id={id} />,
-	({id}: {id: string}) => <PrestigeClassGroup3Page id={id} />,
-	({id}: {id: string}) => <PrestigeClassGroup4Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const PrestigeClassPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (
+		pclass1[id] || pclass2[id] || pclass3[id] || pclass4[id]
+	) || pclass1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

@@ -1,30 +1,24 @@
-import { FC, lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_template.json';
-import ErrorPage from './ErrorPage';
+import template1 from './subpages/__template01';
+import template2 from './subpages/__template02';
+import template3 from './subpages/__template03';
+import template4 from './subpages/__template04';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data =
+	typeof template1 | typeof template2 | typeof template3 | typeof template4;
 
-const MonsterTemplateGroup1Page = lazy(() => import("./MonsterTemplateGroup1Page"));
-const MonsterTemplateGroup2Page = lazy(() => import("./MonsterTemplateGroup2Page"));
-const MonsterTemplateGroup3Page = lazy(() => import("./MonsterTemplateGroup3Page"));
-const MonsterTemplateGroup4Page = lazy(() => import("./MonsterTemplateGroup4Page"));
+type Params = { id?: keyof Data };
 
-const pages = [
-	({id}: {id: string}) => <MonsterTemplateGroup1Page id={id} />,
-	({id}: {id: string}) => <MonsterTemplateGroup2Page id={id} />,
-	({id}: {id: string}) => <MonsterTemplateGroup3Page id={id} />,
-	({id}: {id: string}) => <MonsterTemplateGroup4Page id={id} />,
-]
-
-const MonsterTemplatePage: FC = () => {
+const MonsterTemplatePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (
+		template1[id] || template2[id] || template3[id] || template4[id]
+	) || template1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

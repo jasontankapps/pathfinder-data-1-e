@@ -1,26 +1,19 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_magic-weapon.json';
-import ErrorPage from './ErrorPage';
+import magicweapon1 from './subpages/__magic-weapon01';
+import magicweapon2 from './subpages/__magic-weapon02';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data = typeof magicweapon1 | typeof magicweapon2;
 
-const MagicWeaponGroup1Page = lazy(() => import("./MagicWeaponGroup1Page"));
-const MagicWeaponGroup2Page = lazy(() => import("./MagicWeaponGroup2Page"));
-
-const pages = [
-	({id}: {id: string}) => <MagicWeaponGroup1Page id={id} />,
-	({id}: {id: string}) => <MagicWeaponGroup2Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const MagicWeaponPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (magicweapon1[id] || magicweapon2[id]) || magicweapon1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

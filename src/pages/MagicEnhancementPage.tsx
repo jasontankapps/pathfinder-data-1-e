@@ -1,26 +1,19 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_magic-enh.json';
-import ErrorPage from './ErrorPage';
+import magicenh1 from './subpages/__magic-enh01';
+import magicenh2 from './subpages/__magic-enh02';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data = typeof magicenh1 | typeof magicenh2;
 
-const MagicEnhancementGroup1Page = lazy(() => import("./MagicEnhancementGroup1Page"));
-const MagicEnhancementGroup2Page = lazy(() => import("./MagicEnhancementGroup2Page"));
-
-const pages = [
-	({id}: {id: string}) => <MagicEnhancementGroup1Page id={id} />,
-	({id}: {id: string}) => <MagicEnhancementGroup2Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const MagicEnhancementPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (magicenh1[id] || magicenh2[id]) || magicenh1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

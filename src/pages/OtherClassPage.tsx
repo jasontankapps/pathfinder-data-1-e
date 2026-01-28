@@ -1,50 +1,20 @@
-import { ReactElement } from 'react';
-import { useLocation, useParams } from 'wouter';
-import npcclasses from './subpages/__npcclass';
-import sidekicks from './subpages/__sidekick';
-import BasicPage from './BasicPage';
+import { useParams } from 'wouter';
+import npcclass from './subpages/__npcclass';
+import sidekick from './subpages/__sidekick';
 import './Page.css';
 
-const classes = {...npcclasses, ...sidekicks};
-
-type Data = typeof classes;
+type Data = typeof npcclass | typeof sidekick;
 
 type Params = { id?: keyof Data };
-
-interface JsonDataPropsClass {
-	hasJL?: boolean
-	title: string,
-	jsx: ReactElement,
-	notBookmarkable?: boolean
-}
 
 const OtherClassPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const [ path ] = useLocation();
+	const Page = id && (npcclass[id] || sidekick[id]) || npcclass.not_found;
 
-	const m = path.match(/^[/](sidekick|npcclass)[/]/)
+	return <Page />;
 
-	const solidId = (id && classes[id] ? id : "not_found") as keyof Data;
-
-	const {
-		hasJL,
-		title,
-		jsx,
-		notBookmarkable
-	} = (classes[solidId] as JsonDataPropsClass);
-
-	const pageId = ((m && m[0]) || "/otherclasses/") + id;
-
-	return (
-		<BasicPage
-			hasJL={hasJL}
-			title={title}
-			pageId={pageId}
-			notBookmarkable={notBookmarkable}
-		>{jsx}</BasicPage>
-	);
 };
 
 export default OtherClassPage;

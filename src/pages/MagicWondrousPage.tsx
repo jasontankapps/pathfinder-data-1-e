@@ -1,44 +1,37 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_magic-wondrous.json';
-import ErrorPage from './ErrorPage';
+import magicwondrous1 from './subpages/__magic-wondrous01';
+import magicwondrous2 from './subpages/__magic-wondrous02';
+import magicwondrous3 from './subpages/__magic-wondrous03';
+import magicwondrous4 from './subpages/__magic-wondrous04';
+import magicwondrous5 from './subpages/__magic-wondrous05';
+import magicwondrous6 from './subpages/__magic-wondrous06';
+import magicwondrous7 from './subpages/__magic-wondrous07';
+import magicwondrous8 from './subpages/__magic-wondrous08';
+import magicwondrous9 from './subpages/__magic-wondrous09';
+import magicwondrous10 from './subpages/__magic-wondrous10';
+import magicwondrous11 from './subpages/__magic-wondrous11';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data =
+	typeof magicwondrous1 | typeof magicwondrous2 | typeof magicwondrous3
+	| typeof magicwondrous4 | typeof magicwondrous5 | typeof magicwondrous6
+	| typeof magicwondrous7 | typeof magicwondrous8 | typeof magicwondrous9
+	| typeof magicwondrous10 | typeof magicwondrous11;
 
-const MagicWondrousGroup1Page = lazy(() => import("./MagicWondrousGroup1Page"));
-const MagicWondrousGroup2Page = lazy(() => import("./MagicWondrousGroup2Page"));
-const MagicWondrousGroup3Page = lazy(() => import("./MagicWondrousGroup3Page"));
-const MagicWondrousGroup4Page = lazy(() => import("./MagicWondrousGroup4Page"));
-const MagicWondrousGroup5Page = lazy(() => import("./MagicWondrousGroup5Page"));
-const MagicWondrousGroup6Page = lazy(() => import("./MagicWondrousGroup6Page"));
-const MagicWondrousGroup7Page = lazy(() => import("./MagicWondrousGroup7Page"));
-const MagicWondrousGroup8Page = lazy(() => import("./MagicWondrousGroup8Page"));
-const MagicWondrousGroup9Page = lazy(() => import("./MagicWondrousGroup9Page"));
-const MagicWondrousGroup10Page = lazy(() => import("./MagicWondrousGroup10Page"));
-const MagicWondrousGroup11Page = lazy(() => import("./MagicWondrousGroup11Page"));
-
-const pages = [
-	({id}: {id: string}) => <MagicWondrousGroup1Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup2Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup3Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup4Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup5Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup6Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup7Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup8Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup9Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup10Page id={id} />,
-	({id}: {id: string}) => <MagicWondrousGroup11Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const MagicWondrousPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (
+		magicwondrous1[id] || magicwondrous2[id] || magicwondrous3[id]
+		|| magicwondrous4[id] || magicwondrous5[id] || magicwondrous6[id]
+		|| magicwondrous7[id] || magicwondrous8[id] || magicwondrous9[id]
+		|| magicwondrous10[id] || magicwondrous11[id]
+	) || magicwondrous1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

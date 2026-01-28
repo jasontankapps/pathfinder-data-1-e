@@ -1,32 +1,25 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_trait.json';
-import ErrorPage from './ErrorPage';
+import trait1 from './subpages/__trait01';
+import trait2 from './subpages/__trait02';
+import trait3 from './subpages/__trait03';
+import trait4 from './subpages/__trait04';
+import trait5 from './subpages/__trait05';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data =
+	typeof trait1 | typeof trait2 | typeof trait3 | typeof trait4 | typeof trait5;
 
-const TraitGroup1Page = lazy(() => import("./TraitGroup1Page"));
-const TraitGroup2Page = lazy(() => import("./TraitGroup2Page"));
-const TraitGroup3Page = lazy(() => import("./TraitGroup3Page"));
-const TraitGroup4Page = lazy(() => import("./TraitGroup4Page"));
-const TraitGroup5Page = lazy(() => import("./TraitGroup5Page"));
-
-const pages = [
-	({id}: {id: string}) => <TraitGroup1Page id={id} />,
-	({id}: {id: string}) => <TraitGroup2Page id={id} />,
-	({id}: {id: string}) => <TraitGroup3Page id={id} />,
-	({id}: {id: string}) => <TraitGroup4Page id={id} />,
-	({id}: {id: string}) => <TraitGroup5Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const TraitPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (
+		trait1[id] || trait2[id] || trait3[id] || trait4 || trait5[id]
+	) || trait1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

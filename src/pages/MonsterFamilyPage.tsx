@@ -1,26 +1,19 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_family.json';
-import ErrorPage from './ErrorPage';
+import family1 from './subpages/__family01';
+import family2 from './subpages/__family02';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data = typeof family1 | typeof family2;
 
-const MonsterFamilyGroup1Page = lazy(() => import("./MonsterFamilyGroup1Page"));
-const MonsterFamilyGroup2Page = lazy(() => import("./MonsterFamilyGroup2Page"));
-
-const pages = [
-	({id}: {id: string}) => <MonsterFamilyGroup1Page id={id} />,
-	({id}: {id: string}) => <MonsterFamilyGroup2Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const MonsterFamilyPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (family1[id] || family2[id]) || family1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

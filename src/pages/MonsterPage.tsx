@@ -1,118 +1,90 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_monster.json';
-import ErrorPage from './ErrorPage';
+import monster1 from './subpages/__monster01';
+import monster2 from './subpages/__monster02';
+import monster3 from './subpages/__monster03';
+import monster4 from './subpages/__monster04';
+import monster5 from './subpages/__monster05';
+import monster6 from './subpages/__monster06';
+import monster7 from './subpages/__monster07';
+import monster8 from './subpages/__monster08';
+import monster9 from './subpages/__monster09';
+import monster10 from './subpages/__monster10';
+import monster11 from './subpages/__monster11';
+import monster12 from './subpages/__monster12';
+import monster13 from './subpages/__monster13';
+import monster14 from './subpages/__monster14';
+import monster15 from './subpages/__monster15';
+import monster16 from './subpages/__monster16';
+import monster17 from './subpages/__monster17';
+import monster18 from './subpages/__monster18';
+import monster19 from './subpages/__monster19';
+import monster20 from './subpages/__monster20';
+import monster21 from './subpages/__monster21';
+import monster22 from './subpages/__monster22';
+import monster23 from './subpages/__monster23';
+import monster24 from './subpages/__monster24';
+import monster25 from './subpages/__monster25';
+import monster26 from './subpages/__monster26';
+import monster27 from './subpages/__monster27';
+import monster28 from './subpages/__monster28';
+import monster29 from './subpages/__monster29';
+import monster30 from './subpages/__monster30';
+import monster31 from './subpages/__monster31';
+import monster32 from './subpages/__monster32';
+import monster33 from './subpages/__monster33';
+import monster34 from './subpages/__monster34';
+import monster35 from './subpages/__monster35';
+import monster36 from './subpages/__monster36';
+import monster37 from './subpages/__monster37';
+import monster38 from './subpages/__monster38';
+import monster39 from './subpages/__monster39';
+import monster40 from './subpages/__monster40';
+import monster41 from './subpages/__monster41';
+import monster42 from './subpages/__monster42';
+import monster43 from './subpages/__monster43';
+import monster44 from './subpages/__monster44';
+import monster45 from './subpages/__monster45';
+import monster46 from './subpages/__monster46';
+import monster47 from './subpages/__monster47';
+import monster48 from './subpages/__monster48';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data =
+	typeof monster1 | typeof monster2 | typeof monster3 | typeof monster4
+	| typeof monster5 | typeof monster6 | typeof monster7 | typeof monster8
+	| typeof monster9 | typeof monster10 | typeof monster11 | typeof monster12
+	| typeof monster13 | typeof monster14 | typeof monster15 | typeof monster16
+	| typeof monster17 | typeof monster18 | typeof monster19 | typeof monster20
+	| typeof monster21 | typeof monster22 | typeof monster23 | typeof monster24
+	| typeof monster25 | typeof monster26 | typeof monster27 | typeof monster28
+	| typeof monster29 | typeof monster30 | typeof monster31 | typeof monster32
+	| typeof monster33 | typeof monster34 | typeof monster35 | typeof monster36
+	| typeof monster37 | typeof monster38 | typeof monster39 | typeof monster40
+	| typeof monster41 | typeof monster42 | typeof monster43 | typeof monster44
+	| typeof monster45 | typeof monster46 | typeof monster47 | typeof monster48;
 
-const MonsterGroup01Page = lazy(() => import("./MonsterGroup01Page"));
-const MonsterGroup02Page = lazy(() => import("./MonsterGroup02Page"));
-const MonsterGroup03Page = lazy(() => import("./MonsterGroup03Page"));
-const MonsterGroup04Page = lazy(() => import("./MonsterGroup04Page"));
-const MonsterGroup05Page = lazy(() => import("./MonsterGroup05Page"));
-const MonsterGroup06Page = lazy(() => import("./MonsterGroup06Page"));
-const MonsterGroup07Page = lazy(() => import("./MonsterGroup07Page"));
-const MonsterGroup08Page = lazy(() => import("./MonsterGroup08Page"));
-const MonsterGroup09Page = lazy(() => import("./MonsterGroup09Page"));
-const MonsterGroup10Page = lazy(() => import("./MonsterGroup10Page"));
-const MonsterGroup11Page = lazy(() => import("./MonsterGroup11Page"));
-const MonsterGroup12Page = lazy(() => import("./MonsterGroup12Page"));
-const MonsterGroup13Page = lazy(() => import("./MonsterGroup13Page"));
-const MonsterGroup14Page = lazy(() => import("./MonsterGroup14Page"));
-const MonsterGroup15Page = lazy(() => import("./MonsterGroup15Page"));
-const MonsterGroup16Page = lazy(() => import("./MonsterGroup16Page"));
-const MonsterGroup17Page = lazy(() => import("./MonsterGroup17Page"));
-const MonsterGroup18Page = lazy(() => import("./MonsterGroup18Page"));
-const MonsterGroup19Page = lazy(() => import("./MonsterGroup19Page"));
-const MonsterGroup20Page = lazy(() => import("./MonsterGroup20Page"));
-const MonsterGroup21Page = lazy(() => import("./MonsterGroup21Page"));
-const MonsterGroup22Page = lazy(() => import("./MonsterGroup22Page"));
-const MonsterGroup23Page = lazy(() => import("./MonsterGroup23Page"));
-const MonsterGroup24Page = lazy(() => import("./MonsterGroup24Page"));
-const MonsterGroup25Page = lazy(() => import("./MonsterGroup25Page"));
-const MonsterGroup26Page = lazy(() => import("./MonsterGroup26Page"));
-const MonsterGroup27Page = lazy(() => import("./MonsterGroup27Page"));
-const MonsterGroup28Page = lazy(() => import("./MonsterGroup28Page"));
-const MonsterGroup29Page = lazy(() => import("./MonsterGroup29Page"));
-const MonsterGroup30Page = lazy(() => import("./MonsterGroup30Page"));
-const MonsterGroup31Page = lazy(() => import("./MonsterGroup31Page"));
-const MonsterGroup32Page = lazy(() => import("./MonsterGroup32Page"));
-const MonsterGroup33Page = lazy(() => import("./MonsterGroup33Page"));
-const MonsterGroup34Page = lazy(() => import("./MonsterGroup34Page"));
-const MonsterGroup35Page = lazy(() => import("./MonsterGroup35Page"));
-const MonsterGroup36Page = lazy(() => import("./MonsterGroup36Page"));
-const MonsterGroup37Page = lazy(() => import("./MonsterGroup37Page"));
-const MonsterGroup38Page = lazy(() => import("./MonsterGroup38Page"));
-const MonsterGroup39Page = lazy(() => import("./MonsterGroup39Page"));
-const MonsterGroup40Page = lazy(() => import("./MonsterGroup40Page"));
-const MonsterGroup41Page = lazy(() => import("./MonsterGroup41Page"));
-const MonsterGroup42Page = lazy(() => import("./MonsterGroup42Page"));
-const MonsterUniqueGroup01Page = lazy(() => import("./MonsterUniqueGroup01Page"));
-const MonsterUniqueGroup02Page = lazy(() => import("./MonsterUniqueGroup02Page"));
-const MonsterUniqueGroup03Page = lazy(() => import("./MonsterUniqueGroup03Page"));
-const MonsterUniqueGroup04Page = lazy(() => import("./MonsterUniqueGroup04Page"));
-const MonsterMythicGroup01Page = lazy(() => import("./MonsterMythicGroup01Page"));
-const MonsterMythicGroup02Page = lazy(() => import("./MonsterMythicGroup02Page"));
-
-const pages = [
-	({id}: {id: string}) => <MonsterGroup01Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup02Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup03Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup04Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup05Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup06Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup07Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup08Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup09Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup10Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup11Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup12Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup13Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup14Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup15Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup16Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup17Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup18Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup19Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup20Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup21Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup22Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup23Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup24Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup25Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup26Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup27Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup28Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup29Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup30Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup31Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup32Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup33Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup34Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup35Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup36Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup37Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup38Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup39Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup40Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup41Page id={id} />,
-	({id}: {id: string}) => <MonsterGroup42Page id={id} />,
-	({id}: {id: string}) => <MonsterUniqueGroup01Page id={id} />,
-	({id}: {id: string}) => <MonsterUniqueGroup02Page id={id} />,
-	({id}: {id: string}) => <MonsterUniqueGroup03Page id={id} />,
-	({id}: {id: string}) => <MonsterUniqueGroup04Page id={id} />,
-	({id}: {id: string}) => <MonsterMythicGroup01Page id={id} />,
-	({id}: {id: string}) => <MonsterMythicGroup02Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const MonsterPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (
+		monster1[id] || monster2[id] || monster3[id] || monster4[id]
+		|| monster5[id] || monster6[id] || monster7[id] || monster8[id]
+		|| monster9[id] || monster10[id] || monster11[id] || monster12[id]
+		|| monster13[id] || monster14[id] || monster15[id] || monster16[id]
+		|| monster17[id] || monster18[id] || monster19[id] || monster20[id]
+		|| monster21[id] || monster22[id] || monster23[id] || monster24[id]
+		|| monster25[id] || monster26[id] || monster27[id] || monster28[id]
+		|| monster29[id] || monster30[id] || monster31[id] || monster32[id]
+		|| monster33[id] || monster34[id] || monster35[id] || monster36[id]
+		|| monster37[id] || monster38[id] || monster39[id] || monster40[id]
+		|| monster41[id] || monster42[id] || monster43[id] || monster44[id]
+		|| monster45[id] || monster46[id] || monster47[id] || monster48[id]
+	) || monster1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

@@ -1,28 +1,18 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
-import rage_powers from './subpages/__ragepower';
-import BasicPage from './BasicPage';
-import { Hierarchy } from '../types';
+import ragepowers from './subpages/__ragepower';
 import './Page.css';
 
-const tL: Hierarchy = ["Rage Powers", "ability/rage_powers"];
-
-type Data = typeof rage_powers;
+type Data = typeof ragepowers;
 
 type Params = { id?: keyof Data };
 
 const RagePowerPage: React.FC = () => {
+
 	const { id } = useParams<Params>();
 
-	const { hasJL, title, jsx, topLink, notBookmarkable } = getItem<Data>(id, rage_powers);
+	const Page = id ? ragepowers[id] || ragepowers.not_found : ragepowers.not_found;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={`/ragepower/${id}`}
-		topLink={topLink || tL}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default RagePowerPage;

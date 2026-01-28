@@ -128,6 +128,9 @@ span.innerlink {
 	text-decoration: underline;
 	cursor: pointer;
 }
+div.jumpList span.innerlink {
+	text-decoration: none;
+}
 h1, h2, h3, h4, h5, h6, div.headerLike {
 	border-block-start-width: 0.3125rem;
 	border-block-end-width: 0.125rem;
@@ -402,7 +405,7 @@ div.main.basicContent ion-list ion-item.mainItem.basic ion-label p {
 	color: var(--ion-text-color);
 	margin-block-end: 0.85rem;
 }
-div.main.basicContent ion-list ion-item.mainItem.basic ion-label :is(th td) p {
+div.main.basicContent ion-list ion-item.mainItem.basic ion-label :is(th,td) p {
 	margin-block-end: 0;
 }
 div.main.basicContent ion-list ion-item.mainItem.basic ion-label h2 {

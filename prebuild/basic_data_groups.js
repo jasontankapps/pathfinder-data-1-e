@@ -928,7 +928,7 @@ const basic_data_groups = {
 		num: 0,
 		type: "Shifter Aspect",
 		extra: {
-			"topLink": ["Shifter Aspects", "ability/aspects"]
+			topLink: ["Shifter Aspects", "ability/aspects"]
 		}
 	},
 	"class_ability_bardic_masterpieces": {
@@ -946,7 +946,10 @@ const basic_data_groups = {
 		searchgroup: 1, // classes
 		link: "performance",
 		num: 0,
-		type: "Bardic Performance"
+		type: "Bardic Performance",
+		extra: {
+			topLink: [ "Bardic Performances", "ability/bardic_performances" ]
+		}
 	},
 	"class_ability_bloodrager_bloodlines": {
 		data: blrgbloodline,
@@ -1130,7 +1133,10 @@ const basic_data_groups = {
 		searchgroup: 1, // classes
 		link: "ragepower",
 		num: 0,
-		type: "Barbarian Rage Power"
+		type: "Barbarian Rage Power",
+		extra: {
+			topLink: ["Rage Powers", "ability/rage_powers"]
+		}
 	},
 	"class_ability_shaman_spirits": {
 		data: shamanspirit,
@@ -1168,7 +1174,13 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "talent",
 		num: 0,
-		type: "Rogue Talent"
+		type: "Rogue Talent",
+		extra: {
+			topLink: [ "Rogue Talent", "ability/rogue_talents" ],
+			addendaObj: {
+				sneakattack: "This type of talent adds effects to a rogue's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made."
+			}
+		}
 	},
 	"class_ability_investigator_talents": {
 		data: invtalent,
@@ -1176,7 +1188,13 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "invtalent",
 		num: 0,
-		type: "Investigator Talent"
+		type: "Investigator Talent",
+		extra: {
+			topLink: [ "Investigator Talents", "ability/investigator_talents" ],
+			addendaObj: {
+				studiedstrike: "This type of talent adds effects to an investigator's studied combat or studied strike, and has this limitation: Only one of these talents can be applied to an individual attack, but the decision can be made when the damage is dealt."
+			}
+		}
 	},
 	"class_ability_slayer_talents": {
 		data: slayertalent,
@@ -1184,7 +1202,13 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "slayertalent",
 		num: 0,
-		type: "Slayer Talent"
+		type: "Slayer Talent",
+		extra: {
+			topLink: [ "Slayer Talents", "ability/slayer_talents" ],
+			addendaObj: {
+				slayersneak: "This type of talent adds effects to a slayer's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made."
+			}
+		}
 	},
 	"class_ability_vigilante_talents": {
 		data: vigtalent,
@@ -1192,7 +1216,15 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "vigtalent",
 		num: 0,
-		type: "Vigilante Talent"
+		type: "Vigilante Talent",
+		extra: {
+			topLink: [ "Vigilante Talents", "ability/vigilante_talents" ],
+			addendaObj: {
+				avenger: "This talent can only be taken by avenger vigilantes.",
+				stalker: "This talent can only be taken by stalker vigilantes.",
+				hiddenstrike: "This type of talent can only be taken by stalker vigilantes, and it has a limitation: only one talent of this type can be added to a given hidden strike, and only when that hidden strike is dealt against a foe that is unaware of the stalker vigilante's presence (or who considers him an ally), unless otherwise noted."
+			}
+		}
 	},
 	"class_ability_social_talents": {
 		data: soctalent,
@@ -1200,7 +1232,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "soctalent",
 		num: 0,
-		type: "Social Talent (Vigilante)"
+		type: "Social Talent (Vigilante)",
+		extra: {
+			topLink: [ "Social Talents", "ability/social_talents" ]
+		}
 	},
 	"class_ability_tricks": {
 		data: trick,
@@ -1208,7 +1243,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "trick",
 		num: 0,
-		type: "Mesmerist Trick"
+		type: "Mesmerist Trick",
+		extra: {
+			topLink: [ "Mesmerist Tricks", "ability/tricks" ]
+		}
 	},
 	"class_ability_stares": {
 		data: stare,
@@ -1216,7 +1254,13 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "stare",
 		num: 0,
-		type: "Mesmerist Stare"
+		type: "Mesmerist Stare",
+		extra: {
+			topLink: [ "Mesmerist Stares", "ability/stares" ],
+			addendaObj: {
+				devilbane: "Devilbane gazes tend to be more limited in their scope than standard bold stare improvements, but cut to the core of an outsider's being. When a devilbane gaze is used against a creature with the outsider type, double the hypnotic stare penalty applied by the devilbane gaze improvement (but not the Will save penalty the original hypnotic stare imposes). Despite their moniker, devilbane gazes affect all outsiders equally well."
+			}
+		}
 	},
 	"class_ability_ninja_tricks": {
 		data: ninjatrick,
@@ -1224,7 +1268,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "ninjatrick",
 		num: 0,
-		type: "Ninja Trick"
+		type: "Ninja Trick",
+		extra: {
+			topLink: [ "Ninja Tricks", "ability/ninja_tricks" ]
+		}
 	},
 	"class_ability_hexes": {
 		data: hex,
@@ -1232,7 +1279,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "hex",
 		num: 0,
-		type: "Witch Hex"
+		type: "Witch Hex",
+		extra: {
+			topLink: [ "Witch Hexes", "ability/hexes" ]
+		}
 	},
 	"class_ability_patrons": {
 		data: patron,
@@ -1240,7 +1290,13 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "patron",
 		num: 0,
-		type: "Witch Patron"
+		type: "Witch Patron",
+		extra: {
+			topLink: [ "Witch Patrons", "ability/patrons" ],
+			addendaObj: {
+				uniquepatron: "This is a unique patron that modifies aspects of a base patron."
+			}
+		}
 	},
 	"class_ability_shaman_hexes": {
 		data: shamanhex,
@@ -1248,7 +1304,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "shamanhex",
 		num: 0,
-		type: "Shaman Hex"
+		type: "Shaman Hex",
+		extra: {
+			topLink: [ "Shaman Hexes", "ability/shaman_hexes" ]
+		}
 	},
 	"class_ability_discoveries": {
 		data: discovery,
@@ -1256,7 +1315,13 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "discovery",
 		num: 0,
-		type: "Alchemist Discovery"
+		type: "Alchemist Discovery",
+		extra: {
+			topLink: [ "Alchemist Discoveries", "ability/discoveries" ],
+			addendaObj: {
+				primarybomb: "This discovery modifies an alchemist's bomb, and has this limitation: These discoveries do not stack - only one such discovery can be applied to an individual bomb."
+			}
+		}
 	},
 	"class_ability_mercies": {
 		data: mercy,
@@ -1264,7 +1329,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "mercy",
 		num: 0,
-		type: "Paladin Mercy"
+		type: "Paladin Mercy",
+		extra: {
+			topLink: [ "Paladin Mercies", "ability/mercies" ]
+		}
 	},
 	"class_ability_arcane_discoveries": {
 		data: arcanedisc,
@@ -1272,7 +1340,13 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "arcanedisc",
 		num: 0,
-		type: "Arcane Discovery"
+		type: "Arcane Discovery",
+		extra: {
+			topLink: [ "Arcane Discoveries", "ability/arcane_discoveries" ],
+			things: {
+				arcanedisc: "arcane discovery"
+			}
+		}
 	},
 	"class_ability_phrenic_amplifications": {
 		data: phrenicamp,
@@ -1280,7 +1354,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "phrenicamp",
 		num: 0,
-		type: "Phrenic Amplification"
+		type: "Phrenic Amplification",
+		extra: {
+			topLink: [ "Phrenic Amplifications", "ability/phrenic_amplifications" ]
+		}
 	},
 	"class_ability_deeds": {
 		data: deed,
@@ -1288,7 +1365,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "deed",
 		num: 0,
-		type: "Deeds"
+		type: "Deeds",
+		extra: {
+			topLink: [ "Gunslinger Deeds", "ability/gunslinger_deeds" ]
+		}
 	},
 	"class_ability_swashbuckler_deeds": {
 		data: swashdeed,
@@ -1296,7 +1376,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "swashdeed",
 		num: 0,
-		type: "Swashbuckler Deed"
+		type: "Swashbuckler Deed",
+		extra: {
+			topLink: [ "Swashbuckler Deeds", "ability/swashbuckler_deeds" ]
+		}
 	},
 	"class_ability_hellknight_disciplines": {
 		data: hkdiscipline,
@@ -1304,7 +1387,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "hkdiscipline",
 		num: 0,
-		type: "Hellknight Discipline"
+		type: "Hellknight Discipline",
+		extra: {
+			topLink: [ "Hellknight Disciplines", "ability/hellknight_disciplines" ]
+		}
 	},
 	"class_ability_ki_powers": {
 		data: kipower,
@@ -1312,7 +1398,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "kipower",
 		num: 0,
-		type: "Ki Power"
+		type: "Ki Power",
+		extra: {
+			topLink: [ "Ki Powers", "ability/ki_powers" ]
+		}
 	},
 	"class_ability_style_strikes": {
 		data: stylestrike,
@@ -1320,7 +1409,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "stylestrike",
 		num: 0,
-		type: "Unchained Monk Style Strike"
+		type: "Unchained Monk Style Strike",
+		extra: {
+			topLink: [ "Style Strikes", "ability/style_strikes" ]
+		}
 	},
 	"class_ability_evolutions": {
 		data: evolution,
@@ -1328,7 +1420,16 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "evolution",
 		num: 0,
-		type: "Eidolon Evolution"
+		type: "Eidolon Evolution",
+		extra: {
+			topLink: [ "Eidolon Evolutions", "ability/evolutions" ],
+			addendaObj: {
+				"1pt": "This is a 1-point evolution.",
+				"2pts": "This is a 2-point evolution.",
+				"3pts": "This is a 3-point evolution.",
+				"4pts": "This is a 4-point evolution."
+			}
+		}
 	},
 	"class_ability_unchained_evolutions": {
 		data: unchevolution,
@@ -1336,7 +1437,16 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "unchevolution",
 		num: 0,
-		type: "Unchained Eidolon Evolution"
+		type: "Unchained Eidolon Evolution",
+		extra: {
+			topLink: [ "Unchained Eidolon Evolutions", "ability/unchained_evolutions" ],
+			addendaObj: {
+				"1pt": "This is a 1-point evolution.",
+				"2pts": "This is a 2-point evolution.",
+				"3pts": "This is a 3-point evolution.",
+				"4pts": "This is a 4-point evolution."
+			}
+		}
 	},
 	"class_ability_unchained_eidolons": {
 		data: eidolon,
@@ -1344,7 +1454,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "eidolon",
 		num: 0,
-		type: "Unchained Eidolon Subtype"
+		type: "Unchained Eidolon Subtype",
+		extra: {
+			topLink: [ "Unchained Eidolon Subtypes", "ability/unchained_eidolon_subtypes" ]
+		}
 	},
 	"class_ability_ranger_traps": {
 		data: rangertrap,
@@ -1352,7 +1465,10 @@ const basic_data_groups = {
 		searchgroup: 1, //classes
 		link: "rangertrap",
 		num: 0,
-		type: "Ranger Trap"
+		type: "Ranger Trap",
+		extra: {
+			topLink: [ "Ranger Traps", "ability/ranger_traps" ]
+		}
 	},
 	"sidekicks": {
 		data: sidekick,
@@ -1959,7 +2075,10 @@ const basic_data_groups = {
 		searchgroup: 4, // trait
 		link: "trait",
 		num: 1,
-		type: "Trait"
+		type: "Trait",
+		extra: {
+			topLink: ["Traits", "main/traits"]
+		}
 	},
 	"traits02": {
 		data: trait2,
@@ -1967,7 +2086,10 @@ const basic_data_groups = {
 		searchgroup: 4, // trait
 		link: "trait",
 		num: 2,
-		type: "Trait"
+		type: "Trait",
+		extra: {
+			topLink: ["Traits", "main/traits"]
+		}
 	},
 	"traits03": {
 		data: trait3,
@@ -1975,7 +2097,10 @@ const basic_data_groups = {
 		searchgroup: 4, // trait
 		link: "trait",
 		num: 3,
-		type: "Trait"
+		type: "Trait",
+		extra: {
+			topLink: ["Traits", "main/traits"]
+		}
 	},
 	"traits04": {
 		data: trait4,
@@ -1983,7 +2108,10 @@ const basic_data_groups = {
 		searchgroup: 4, // trait
 		link: "trait",
 		num: 4,
-		type: "Trait"
+		type: "Trait",
+		extra: {
+			topLink: ["Traits", "main/traits"]
+		}
 	},
 	"traits05": {
 		data: trait5,
@@ -1991,7 +2119,10 @@ const basic_data_groups = {
 		searchgroup: 4, // trait
 		link: "trait",
 		num: 5,
-		type: "Trait"
+		type: "Trait",
+		extra: {
+			topLink: ["Traits", "main/traits"]
+		}
 	},
 	"faiths": {
 		data: faith1,
@@ -2208,7 +2339,10 @@ const basic_data_groups = {
 		link: "magic-altar",
 		exportablelink: "magicaltar",
 		num: 0,
-		type: "Magic Altar"
+		type: "Magic Altar",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_armor": {
 		data: magicarmor,
@@ -2227,7 +2361,10 @@ const basic_data_groups = {
 		link: "magic-artifact",
 		exportablelink: "magicartifact",
 		num: 1,
-		type: "Artifact"
+		type: "Artifact",
+		extra: {
+			topLink: ["Artifacts", "main/magic_artifacts"]
+		}
 	},
 	"magic_artifact2": {
 		data: magicartifact2,
@@ -2235,7 +2372,10 @@ const basic_data_groups = {
 		link: "magic-artifact",
 		exportablelink: "magicartifact",
 		num: 2,
-		type: "Artifact"
+		type: "Artifact",
+		extra: {
+			topLink: ["Artifacts", "main/magic_artifacts"]
+		}
 	},
 	"magic_artifact3": {
 		data: magicartifact3,
@@ -2243,7 +2383,10 @@ const basic_data_groups = {
 		link: "magic-artifact",
 		exportablelink: "magicartifact",
 		num: 3,
-		type: "Artifact"
+		type: "Artifact",
+		extra: {
+			topLink: ["Artifacts", "main/magic_artifacts"]
+		}
 	},
 	"magic_demonic_implants": {
 		data: magicimplant,
@@ -2251,7 +2394,10 @@ const basic_data_groups = {
 		link: "magic-implant",
 		exportablelink: "magicimplant",
 		num: 0,
-		type: "Demoic Implant"
+		type: "Demonic Implant",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_devil_talismans": {
 		data: magictalisman,
@@ -2259,7 +2405,10 @@ const basic_data_groups = {
 		link: "magic-talisman",
 		exportablelink: "magictalisman",
 		num: 0,
-		type: "Devil Talisman"
+		type: "Devil Talisman",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_elemental_augmentations": {
 		data: magicaug,
@@ -2267,7 +2416,10 @@ const basic_data_groups = {
 		link: "magic-aug",
 		exportablelink: "magicaug",
 		num: 0,
-		type: "Elemental Augmentation"
+		type: "Elemental Augmentation",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_enhancements1": {
 		data: magicenhancement1,
@@ -2275,7 +2427,10 @@ const basic_data_groups = {
 		link: "magic-enh",
 		exportablelink: "magicenh",
 		num: 1,
-		type: "Armor/Weapon Enchantment"
+		type: "Armor/Weapon Enchantment",
+		extra: {
+			topLink: ["Magical Enhancements", "main/magic_enhancements"]
+		}
 	},
 	"magic_enhancements2": {
 		data: magicenhancement2,
@@ -2283,7 +2438,10 @@ const basic_data_groups = {
 		link: "magic-enh",
 		exportablelink: "magicenh",
 		num: 2,
-		type: "Armor/Weapon Enchantment"
+		type: "Armor/Weapon Enchantment",
+		extra: {
+			topLink: ["Magical Enhancements", "main/magic_enhancements"]
+		}
 	},
 	"magic_favor": {
 		data: magicfavor,
@@ -2291,7 +2449,10 @@ const basic_data_groups = {
 		link: "magic-favor",
 		exportablelink: "magicfavor",
 		num: 0,
-		type: "Court Favor"
+		type: "Court Favor",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_fleshcrafting": {
 		data: magicfleshcraft,
@@ -2299,7 +2460,10 @@ const basic_data_groups = {
 		link: "magic-fleshcraft",
 		exportablelink: "magicfleshcraft",
 		num: 0,
-		type: "Fleshcrafting"
+		type: "Fleshcrafting",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_fungal_grafts": {
 		data: magicgraft,
@@ -2307,7 +2471,10 @@ const basic_data_groups = {
 		link: "magic-graft",
 		exportablelink: "magicgraft",
 		num: 0,
-		type: "Fungal Graft"
+		type: "Fungal Graft",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_infused_poisons": {
 		data: magicpoison,
@@ -2315,7 +2482,10 @@ const basic_data_groups = {
 		link: "magic-poison",
 		exportablelink: "magicpoison",
 		num: 0,
-		type: "Infused Poison"
+		type: "Infused Poison",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_ioun_stones": {
 		data: magicioun,
@@ -2334,7 +2504,10 @@ const basic_data_groups = {
 		link: "magic-fetish",
 		exportablelink: "magicfetish",
 		num: 0,
-		type: "Juju Fetish"
+		type: "Juju Fetish",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_legacy_items": {
 		data: magiclegacy,
@@ -2342,7 +2515,10 @@ const basic_data_groups = {
 		link: "magic-legacy",
 		exportablelink: "magiclegacy",
 		num: 0,
-		type: "Legacy Item"
+		type: "Legacy Item",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_necrografts": {
 		data: magicnecrograft,
@@ -2350,7 +2526,10 @@ const basic_data_groups = {
 		link: "magic-necrograft",
 		exportablelink: "magicnecrograft",
 		num: 0,
-		type: "Necrograft"
+		type: "Necrograft",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_necrotoxins": {
 		data: magicnecrotoxin,
@@ -2358,7 +2537,10 @@ const basic_data_groups = {
 		link: "magic-necrotoxin",
 		exportablelink: "magicnecrotoxin",
 		num: 0,
-		type: "Necrotoxin"
+		type: "Necrotoxin",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_plant": {
 		data: magicplant,
@@ -2366,7 +2548,10 @@ const basic_data_groups = {
 		link: "magic-plant",
 		exportablelink: "magicplant",
 		num: 0,
-		type: "Magical Plant"
+		type: "Magical Plant",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_relics": {
 		data: magicrelic,
@@ -2374,7 +2559,10 @@ const basic_data_groups = {
 		link: "magic-relic",
 		exportablelink: "magicrelic",
 		num: 0,
-		type: "Relic"
+		type: "Relic",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_ring": {
 		data: magicring,
@@ -2404,7 +2592,10 @@ const basic_data_groups = {
 		link: "magic-set",
 		exportablelink: "magicset",
 		num: 0,
-		type: "Magic Set"
+		type: "Magic Set",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_shadow_piercings": {
 		data: magicpiercing,
@@ -2412,7 +2603,10 @@ const basic_data_groups = {
 		link: "magic-piercing",
 		exportablelink: "magicpiercing",
 		num: 0,
-		type: "Shadow Piercing"
+		type: "Shadow Piercing",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_staff": {
 		data: magicstaff,
@@ -2431,7 +2625,10 @@ const basic_data_groups = {
 		link: "magic-tattoo",
 		exportablelink: "magictattoo",
 		num: 0,
-		type: "Magic Tattoo"
+		type: "Magic Tattoo",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_throne": {
 		data: magicthrone,
@@ -2439,7 +2636,10 @@ const basic_data_groups = {
 		link: "magic-throne",
 		exportablelink: "magicthrone",
 		num: 0,
-		type: "Magic Throne"
+		type: "Magic Throne",
+		extra: {
+			topLink: ["Miscellaneous Magic Items", "main/magic_misc"]
+		}
 	},
 	"magic_weapon": {
 		data: magicweapon1,
@@ -2447,7 +2647,10 @@ const basic_data_groups = {
 		link: "magic-weapon",
 		exportablelink: "magicweapon",
 		num: 1,
-		type: "Magic Weapon"
+		type: "Magic Weapon",
+		extra: {
+			topLink: ["Magic Weapons", "main/magic_weapons"]
+		}
 	},
 	"magic_weapon2": {
 		data: magicweapon2,
@@ -2455,7 +2658,10 @@ const basic_data_groups = {
 		link: "magic-weapon",
 		exportablelink: "magicweapon",
 		num: 2,
-		type: "Magic Weapon"
+		type: "Magic Weapon",
+		extra: {
+			topLink: ["Magic Weapons", "main/magic_weapons"]
+		}
 	},
 	"magic_wondrous_belt_body_chest": {
 		data: magicwondrous1,
@@ -2463,7 +2669,10 @@ const basic_data_groups = {
 		link: "magic-wondrous",
 		exportablelink: "magicwondrous",
 		num: 1,
-		type: "Wondrous Item"
+		type: "Wondrous Item",
+		extra: {
+			topLink: ["Wondrous Items", "main/magic_wondrous"]
+		}
 	},
 	"magic_wondrous_eyes_feet_hands": {
 		data: magicwondrous2,
@@ -2471,7 +2680,10 @@ const basic_data_groups = {
 		link: "magic-wondrous",
 		exportablelink: "magicwondrous",
 		num: 2,
-		type: "Wondrous Item"
+		type: "Wondrous Item",
+		extra: {
+			topLink: ["Wondrous Items", "main/magic_wondrous"]
+		}
 	},
 	"magic_wondrous_head_headband": {
 		data: magicwondrous3,
@@ -2479,7 +2691,10 @@ const basic_data_groups = {
 		link: "magic-wondrous",
 		exportablelink: "magicwondrous",
 		num: 3,
-		type: "Wondrous Item"
+		type: "Wondrous Item",
+		extra: {
+			topLink: ["Wondrous Items", "main/magic_wondrous"]
+		}
 	},
 	"magic_wondrous_neck": {
 		data: magicwondrous4,
@@ -2487,7 +2702,10 @@ const basic_data_groups = {
 		link: "magic-wondrous",
 		exportablelink: "magicwondrous",
 		num: 4,
-		type: "Wondrous Item"
+		type: "Wondrous Item",
+		extra: {
+			topLink: ["Wondrous Items", "main/magic_wondrous"]
+		}
 	},
 	"magic_wondrous_shoulders_wrists": {
 		data: magicwondrous5,
@@ -2495,7 +2713,10 @@ const basic_data_groups = {
 		link: "magic-wondrous",
 		exportablelink: "magicwondrous",
 		num: 5,
-		type: "Wondrous Item"
+		type: "Wondrous Item",
+		extra: {
+			topLink: ["Wondrous Items", "main/magic_wondrous"]
+		}
 	},
 	"magic_wondrous_slotless01": {
 		data: magicwondrous6,
@@ -2503,7 +2724,10 @@ const basic_data_groups = {
 		link: "magic-wondrous",
 		exportablelink: "magicwondrous",
 		num: 6,
-		type: "Wondrous Item"
+		type: "Wondrous Item",
+		extra: {
+			topLink: ["Wondrous Items", "main/magic_wondrous"]
+		}
 	},
 	"magic_wondrous_slotless02": {
 		data: magicwondrous7,
@@ -2511,7 +2735,10 @@ const basic_data_groups = {
 		link: "magic-wondrous",
 		exportablelink: "magicwondrous",
 		num: 7,
-		type: "Wondrous Item"
+		type: "Wondrous Item",
+		extra: {
+			topLink: ["Wondrous Items", "main/magic_wondrous"]
+		}
 	},
 	"magic_wondrous_slotless03": {
 		data: magicwondrous8,
@@ -2519,7 +2746,10 @@ const basic_data_groups = {
 		link: "magic-wondrous",
 		exportablelink: "magicwondrous",
 		num: 8,
-		type: "Wondrous Item"
+		type: "Wondrous Item",
+		extra: {
+			topLink: ["Wondrous Items", "main/magic_wondrous"]
+		}
 	},
 	"magic_wondrous_slotless04": {
 		data: magicwondrous9,
@@ -2527,7 +2757,10 @@ const basic_data_groups = {
 		link: "magic-wondrous",
 		exportablelink: "magicwondrous",
 		num: 9,
-		type: "Wondrous Item"
+		type: "Wondrous Item",
+		extra: {
+			topLink: ["Wondrous Items", "main/magic_wondrous"]
+		}
 	},
 	"magic_wondrous_slotless05": {
 		data: magicwondrous10,
@@ -2535,7 +2768,10 @@ const basic_data_groups = {
 		link: "magic-wondrous",
 		exportablelink: "magicwondrous",
 		num: 10,
-		type: "Wondrous Item"
+		type: "Wondrous Item",
+		extra: {
+			topLink: ["Wondrous Items", "main/magic_wondrous"]
+		}
 	},
 	"magic_wondrous_slotless06": {
 		data: magicwondrous11,
@@ -2543,7 +2779,10 @@ const basic_data_groups = {
 		link: "magic-wondrous",
 		exportablelink: "magicwondrous",
 		num: 11,
-		type: "Wondrous Item"
+		type: "Wondrous Item",
+		extra: {
+			topLink: ["Wondrous Items", "main/magic_wondrous"]
+		}
 	},
 	"spells": {
 		data: spell1,
@@ -3024,343 +3263,538 @@ const basic_data_groups = {
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 1,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters02": {
 		data: monster2,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 2,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters03": {
 		data: monster3,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 3,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters04": {
 		data: monster4,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 4,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters05": {
 		data: monster5,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 5,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters06": {
 		data: monster6,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 6,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters07": {
 		data: monster7,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 7,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters08": {
 		data: monster8,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 8,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters09": {
 		data: monster9,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 9,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters10": {
 		data: monster10,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 10,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters11": {
 		data: monster11,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 11,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters12": {
 		data: monster12,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 12,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters13": {
 		data: monster13,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 13,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters14": {
 		data: monster14,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 14,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters15": {
 		data: monster15,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 15,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters16": {
 		data: monster16,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 16,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters17": {
 		data: monster17,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 17,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters18": {
 		data: monster18,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 18,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters19": {
 		data: monster19,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 19,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters20": {
 		data: monster20,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 20,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters21": {
 		data: monster21,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 21,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters22": {
 		data: monster22,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 22,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters23": {
 		data: monster23,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 23,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters24": {
 		data: monster24,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 24,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters25": {
 		data: monster25,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 25,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters26": {
 		data: monster26,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 26,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters27": {
 		data: monster27,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 27,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters28": {
 		data: monster28,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 28,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters29": {
 		data: monster29,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 29,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters30": {
 		data: monster30,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 30,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters31": {
 		data: monster31,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 31,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters32": {
 		data: monster32,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 32,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters33": {
 		data: monster33,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 33,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters34": {
 		data: monster34,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 34,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters35": {
 		data: monster35,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 35,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters36": {
 		data: monster36,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 36,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters37": {
 		data: monster37,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 37,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters38": {
 		data: monster38,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 38,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters39": {
 		data: monster39,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 39,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters40": {
 		data: monster40,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 40,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters41": {
 		data: monster41,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 41,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters42": {
 		data: monster42,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 42,
-		type: "Monster"
+		type: "Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters_unique": {
 		data: monsteru1,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 43,
-		type: "Unique Monster"
+		type: "Unique Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters_unique2": {
 		data: monsteru2,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 44,
-		type: "Unique Monster"
+		type: "Unique Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters_unique3": {
 		data: monsteru3,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 45,
-		type: "Unique Monster"
+		type: "Unique Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters_unique4": {
 		data: monsteru4,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 46,
-		type: "Unique Monster"
+		type: "Unique Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters_mythic1": {
 		data: monsterm1,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 47,
-		type: "Mythic Monster"
+		type: "Mythic Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monsters_mythic2": {
 		data: monsterm2,
 		searchgroup: 11, // monster
 		link: "monster",
 		num: 48,
-		type: "Mythic Monster"
+		type: "Mythic Monster",
+		extra: {
+			topLink: ["Reading a Stat Block", "rule/stat_block"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monster_subtypes": {
 		data: subtype,
 		searchgroup: 11, // monster
 		link: "subtype",
 		num: 0,
-		type: "Creature Subtype"
+		type: "Creature Subtype",
+		extra: {
+			topLink: ["Creature Subtypes", "main/umr_subtypes"]
+		}
 	},
 	"monster_families1": {
 		data: family1,
@@ -3381,91 +3815,142 @@ const basic_data_groups = {
 		searchgroup: 11, // monster
 		link: "template",
 		num: 1,
-		type: "Creature Template"
+		type: "Creature Template",
+		extra: {
+			topLink: ["Monster Templates", "main/monster_templates"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monster_template2": {
 		data: template2,
 		searchgroup: 11, // monster
 		link: "template",
 		num: 2,
-		type: "Creature Template"
+		type: "Creature Template",
+		extra: {
+			topLink: ["Monster Templates", "main/monster_templates"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monster_template3": {
 		data: template3,
 		searchgroup: 11, // monster
 		link: "template",
 		num: 3,
-		type: "Creature Template"
+		type: "Creature Template",
+		extra: {
+			topLink: ["Monster Templates", "main/monster_templates"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monster_template4": {
 		data: template4,
 		searchgroup: 11, // monster
 		link: "template",
 		num: 4,
-		type: "Creature Template"
+		type: "Creature Template",
+		extra: {
+			topLink: ["Monster Templates", "main/monster_templates"],
+			className: "hasStatblock simple"
+		}
 	},
 	"monster_types": {
 		data: mtype,
 		searchgroup: 11, // monster
 		link: "type",
 		num: 0,
-		type: "Creature Type"
+		type: "Creature Type",
+		extra: {
+			topLink: ["Creature Types", "main/umr_types"]
+		}
 	},
 	"npcs": {
 		data: npc1,
 		searchgroup: 11, // monster
 		link: "npc",
 		num: 1,
-		type: "NPC"
+		type: "NPC",
+		extra: {
+			topLink: ["All NPCs", "main/npcs"],
+			className: "hasStatblock simple"
+		}
 	},
 	"npcs2": {
 		data: npc2,
 		searchgroup: 11, // monster
 		link: "npc",
 		num: 2,
-		type: "NPC"
+		type: "NPC",
+		extra: {
+			topLink: ["All NPCs", "main/npcs"],
+			className: "hasStatblock simple"
+		}
 	},
 	"npcs3": {
 		data: npc3,
 		searchgroup: 11, // monster
 		link: "npc",
 		num: 3,
-		type: "NPC"
+		type: "NPC",
+		extra: {
+			topLink: ["All NPCs", "main/npcs"],
+			className: "hasStatblock simple"
+		}
 	},
 	"npcs4": {
 		data: npc4,
 		searchgroup: 11, // monster
 		link: "npc",
 		num: 4,
-		type: "NPC"
+		type: "NPC",
+		extra: {
+			topLink: ["All NPCs", "main/npcs"],
+			className: "hasStatblock simple"
+		}
 	},
 	"npcs5": {
 		data: npc5,
 		searchgroup: 11, // monster
 		link: "npc",
 		num: 5,
-		type: "NPC"
+		type: "NPC",
+		extra: {
+			topLink: ["All NPCs", "main/npcs"],
+			className: "hasStatblock simple"
+		}
 	},
 	"npcs6": {
 		data: npc6,
 		searchgroup: 11, // monster
 		link: "npc",
 		num: 6,
-		type: "NPC"
+		type: "NPC",
+		extra: {
+			topLink: ["All NPCs", "main/npcs"],
+			className: "hasStatblock simple"
+		}
 	},
 	"npcs7": {
 		data: npc7,
 		searchgroup: 11, // monster
 		link: "npc",
 		num: 7,
-		type: "NPC"
+		type: "NPC",
+		extra: {
+			topLink: ["All NPCs", "main/npcs"],
+			className: "hasStatblock simple"
+		}
 	},
 	"npcs8": {
 		data: npc8,
 		searchgroup: 11, // monster
 		link: "npc",
 		num: 8,
-		type: "NPC"
+		type: "NPC",
+		extra: {
+			topLink: ["All NPCs", "main/npcs"],
+			className: "hasStatblock simple"
+		}
 	},
 	"npc_classes": {
 		data: npcclass,

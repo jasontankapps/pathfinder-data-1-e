@@ -1,17 +1,9 @@
-import { useLocation, useParams } from 'wouter';
-import getItem from '../components/getItem';
-import { Hierarchy } from '../types';
+import { useParams } from 'wouter';
 import monster_types from './subpages/__type';
 import monster_subtypes from './subpages/__subtype';
-import BasicPage from './BasicPage';
 import './Page.css';
 
-const topLinkT: Hierarchy = ["Creature Types", "main/umr_types"];
-const topLinkS: Hierarchy = ["Creature Subtypes", "main/umr_subtypes"];
-
-const typings = {...monster_types, ...monster_subtypes};
-
-type Data = typeof typings;
+type Data = typeof monster_types | typeof monster_subtypes;
 
 type Params = { id?: keyof Data };
 
@@ -19,19 +11,9 @@ const MonsterTypingPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const [ path ] = useLocation();
+	const Page = id && (monster_types[id] || monster_subtypes[id]) || monster_types.not_found;
 
-	const m = path.match(/^[/](sub)?type[/]/);
-
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, typings);
-
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={((m && m[0]) || "/type/") + id}
-		topLink={(m && m[1]) ? topLinkS : topLinkT}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default MonsterTypingPage;

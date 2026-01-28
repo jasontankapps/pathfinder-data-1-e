@@ -1,28 +1,23 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_magic-artifact.json';
-import ErrorPage from './ErrorPage';
+import magicartifact1 from './subpages/__magic-artifact01';
+import magicartifact2 from './subpages/__magic-artifact02';
+import magicartifact3 from './subpages/__magic-artifact03';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data =
+	typeof magicartifact1 | typeof magicartifact2 | typeof magicartifact3;
 
-const MagicArtifactGroup1Page = lazy(() => import("./MagicArtifactGroup1Page"));
-const MagicArtifactGroup2Page = lazy(() => import("./MagicArtifactGroup2Page"));
-const MagicArtifactGroup3Page = lazy(() => import("./MagicArtifactGroup3Page"));
-
-const pages = [
-	({id}: {id: string}) => <MagicArtifactGroup1Page id={id} />,
-	({id}: {id: string}) => <MagicArtifactGroup2Page id={id} />,
-	({id}: {id: string}) => <MagicArtifactGroup3Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const MagicArtifactPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (
+		magicartifact1[id] || magicartifact2[id] || magicartifact3[id]
+	) || magicartifact1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

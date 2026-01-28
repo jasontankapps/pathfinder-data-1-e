@@ -1,5 +1,4 @@
 import { useParams } from 'wouter';
-import { Hierarchy } from '../types';
 import bloodlines from './subpages/__sorcbloodline';
 import './Page.css';
 

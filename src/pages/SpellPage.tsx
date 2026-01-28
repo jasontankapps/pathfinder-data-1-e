@@ -1,56 +1,45 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_spell.json';
-import ErrorPage from './ErrorPage';
+import spell1 from './subpages/__spell01';
+import spell2 from './subpages/__spell02';
+import spell3 from './subpages/__spell03';
+import spell4 from './subpages/__spell04';
+import spell5 from './subpages/__spell05';
+import spell6 from './subpages/__spell06';
+import spell7 from './subpages/__spell07';
+import spell8 from './subpages/__spell08';
+import spell9 from './subpages/__spell09';
+import spell10 from './subpages/__spell10';
+import spell11 from './subpages/__spell11';
+import spell12 from './subpages/__spell12';
+import spell13 from './subpages/__spell13';
+import spell14 from './subpages/__spell14';
+import spell15 from './subpages/__spell15';
+import spell16 from './subpages/__spell16';
+import spell17 from './subpages/__spell17';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data =
+	typeof spell1 | typeof spell2 | typeof spell3 | typeof spell4
+	| typeof spell5 | typeof spell6 | typeof spell7 | typeof spell8
+	| typeof spell9 | typeof spell10 | typeof spell11 | typeof spell12
+	| typeof spell13 | typeof spell14 | typeof spell15 | typeof spell16
+	| typeof spell17;
 
-const SpellGroup1Page = lazy(() => import("./SpellGroup01Page"));
-const SpellGroup2Page = lazy(() => import("./SpellGroup02Page"));
-const SpellGroup3Page = lazy(() => import("./SpellGroup03Page"));
-const SpellGroup4Page = lazy(() => import("./SpellGroup04Page"));
-const SpellGroup5Page = lazy(() => import("./SpellGroup05Page"));
-const SpellGroup6Page = lazy(() => import("./SpellGroup06Page"));
-const SpellGroup7Page = lazy(() => import("./SpellGroup07Page"));
-const SpellGroup8Page = lazy(() => import("./SpellGroup08Page"));
-const SpellGroup9Page = lazy(() => import("./SpellGroup09Page"));
-const SpellGroup10Page = lazy(() => import("./SpellGroup10Page"));
-const SpellGroup11Page = lazy(() => import("./SpellGroup11Page"));
-const SpellGroup12Page = lazy(() => import("./SpellGroup12Page"));
-const SpellGroup13Page = lazy(() => import("./SpellGroup13Page"));
-const SpellGroup14Page = lazy(() => import("./SpellGroup14Page"));
-const SpellGroup15Page = lazy(() => import("./SpellGroup15Page"));
-const SpellGroup16Page = lazy(() => import("./SpellGroup16Page"));
-const OccultRitualGroupPage = lazy(() => import("./SpellOccultRitualGroupPage"));
-
-const pages = [
-	({id}: {id: string}) => <SpellGroup1Page id={id} />,
-	({id}: {id: string}) => <SpellGroup2Page id={id} />,
-	({id}: {id: string}) => <SpellGroup3Page id={id} />,
-	({id}: {id: string}) => <SpellGroup4Page id={id} />,
-	({id}: {id: string}) => <SpellGroup5Page id={id} />,
-	({id}: {id: string}) => <SpellGroup6Page id={id} />,
-	({id}: {id: string}) => <SpellGroup7Page id={id} />,
-	({id}: {id: string}) => <SpellGroup8Page id={id} />,
-	({id}: {id: string}) => <SpellGroup9Page id={id} />,
-	({id}: {id: string}) => <SpellGroup10Page id={id} />,
-	({id}: {id: string}) => <SpellGroup11Page id={id} />,
-	({id}: {id: string}) => <SpellGroup12Page id={id} />,
-	({id}: {id: string}) => <SpellGroup13Page id={id} />,
-	({id}: {id: string}) => <SpellGroup14Page id={id} />,
-	({id}: {id: string}) => <SpellGroup15Page id={id} />,
-	({id}: {id: string}) => <SpellGroup16Page id={id} />,
-	({id}: {id: string}) => <OccultRitualGroupPage id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const SpellPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (
+		spell1[id] || spell2[id] || spell3[id] || spell4[id]
+		|| spell5[id] || spell6[id] || spell7[id] || spell8[id]
+		|| spell9[id] || spell10[id] || spell11[id] || spell12[id]
+		|| spell13[id] || spell14[id] || spell15[id] || spell16[id]
+		|| spell17[id]
+	) || spell1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

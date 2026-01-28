@@ -774,7 +774,7 @@ const _createItem = (prop, link, exx, info, flags, copiesLogged) => {
 	// Need to create the tsx file, save it to disk as a file.
 	// Need to add in copies as separate files that rely on the original tsx?
 	//   Or can they be added as exports to the original tsx?
-	const {topLink: tL, className: cN, ...extra} = exx;
+	const {topLink: tL, className: cN, addendaObj, things = {}, ...extra} = exx;
 	const {
 		title, description,
 		parent_topics, siblings, subtopics,
@@ -790,8 +790,6 @@ const _createItem = (prop, link, exx, info, flags, copiesLogged) => {
 	subtopics && (tag = tag + ` subtopics={${JSON.stringify(subtopics)}}`);
 	topLink && (tag = tag + ` topLink={${JSON.stringify(topLink)}}`);
 	noFinder && (tag = tag + " noFinder");
-	addenda && (tag = tag + ` addenda={${JSON.stringify(addenda)}}`);
-	tree && (tag = tag + ` tree={${JSON.stringify(tree)}}`);
 	className && (tag = tag + ` className="${className}"`);
 	disambiguation && (tag = tag + ` notBookmarkable`);
 	Object.entries(extra).forEach(([prop, value]) => {
@@ -801,12 +799,31 @@ const _createItem = (prop, link, exx, info, flags, copiesLogged) => {
 			tag = tag + ` ${prop}={${JSON.stringify(value)}}`;
 		}
 	});
-	tag = tag + `>${description}</BasicPage>`;
+	tag = tag + `>\n\n${description}`;
+	if(addenda && addendaObj) {
+		addenda.forEach(bit => {
+			const info = addendaObj[bit];
+			if(info) {
+				tag = tag + `\n\n<aside><p><em>${info}</em></p></aside>`;
+			}
+		});
+	}
+	if(tree) {
+		const found = [];
+		tree.forEach(bit => {
+			const url = convertTextToLink(bit);
+			found.push(`<li><Link to="/${link}/${url}">${bit}</Link></li>`);
+		});
+		tag = tag + `\n<section className="talentTree"><p>This ${things[link] || link}`
+			+ ` is a prerequisite for:</p><ul>${found.join("")}</ul></section>`;
+	}
+	tag = tag + "\n\n</BasicPage>";
 	output.push(
 		"",
 		"interface Props {title?: string, pageId?: string}",
 		"",
-		`const ${PageName}: React.FC<Props> = ({title, pageId}) => ${tag};`,
+		`const ${PageName}: React.FC<Props> = ({title, pageId}) => (${tag}`,
+		");",
 		"",
 		`export default ${PageName};`
 	);

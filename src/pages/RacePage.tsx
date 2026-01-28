@@ -1,30 +1,24 @@
-import { lazy } from 'react';
 import { useParams } from 'wouter';
-import data from '../json/_data_race.json';
-import ErrorPage from './ErrorPage';
+import race1 from './subpages/__race01';
+import race2 from './subpages/__race02';
+import race3 from './subpages/__race03';
+import race4 from './subpages/__race04';
 import './Page.css';
 
-type Params = { id?: keyof typeof data };
+type Data =
+	typeof race1 | typeof race2 | typeof race3 | typeof race4;
 
-const RaceGroup1Page = lazy(() => import("./RaceGroup1Page"));
-const RaceGroup2Page = lazy(() => import("./RaceGroup2Page"));
-const RaceGroup3Page = lazy(() => import("./RaceGroup3Page"));
-const RaceGroup4Page = lazy(() => import("./RaceGroup4Page"));
-
-const pages = [
-	({id}: {id: string}) => <RaceGroup1Page id={id} />,
-	({id}: {id: string}) => <RaceGroup2Page id={id} />,
-	({id}: {id: string}) => <RaceGroup3Page id={id} />,
-	({id}: {id: string}) => <RaceGroup4Page id={id} />,
-]
+type Params = { id?: keyof Data };
 
 const RacePage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const Page = pages[id ? ((data[id] || 1) - 1) : 0] || ErrorPage;
+	const Page = id && (
+		race1[id] || race2[id] || race3[id] || race4[id]
+	) || race1.not_found;
 
-	return <Page id={id || "not_found"} />;
+	return <Page />;
 
 };
 

@@ -265,7 +265,7 @@ const SearchFilterModal: FC<PropsWithChildren<SearchModalProps>> = ({open, setOp
 
 // Debouncer
 let debounceTask = 0;
-const debounce = (fn: Function, delay: number = 300) => {
+const debounce = (fn: (() => void), delay: number = 300) => {
 	if (debounceTask) {
 		clearTimeout(debounceTask);
 	}
@@ -329,11 +329,11 @@ const SearchPage: FC = () => {
 		// Only needed because `showClearButton="always"` doesn't work!
 		searchBar && searchBar.getInputElement().then(input => {
 			input.value = "";
-			() => setSearchText("");
+			setSearchText("");
 			searchBar.setFocus();
 			//dispatch(setSearchQuery(""));
 		});
-	}, [setSearchText, dispatch, searchBar]);
+	}, [setSearchText, searchBar]);
 
 	// Might want to store scroll state, too?
 

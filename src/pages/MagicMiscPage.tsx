@@ -1,6 +1,4 @@
-import { useLocation, useParams } from 'wouter';
-import getItem from '../components/getItem';
-import construct_mods from './subpages/__constructmod';
+import { useParams } from 'wouter';
 import magic_altar from './subpages/__magic-altar';
 import magic_demonic_implants from './subpages/__magic-implant';
 import magic_devil_talismans from './subpages/__magic-talisman';
@@ -19,8 +17,6 @@ import magic_set from './subpages/__magic-set';
 import magic_shadow_piercings from './subpages/__magic-piercing';
 import magic_tattoo from './subpages/__magic-tattoo';
 import magic_throne from './subpages/__magic-throne';
-import BasicPage from './BasicPage';
-import { Hierarchy } from '../types';
 import './Page.css';
 
 const magic = {
@@ -41,32 +37,19 @@ const magic = {
 	...magic_set,
 	...magic_shadow_piercings,
 	...magic_tattoo,
-	...magic_throne,
-	...construct_mods
+	...magic_throne
 };
 type Data = typeof magic;
 
 type Params = { id?: keyof Data };
 
-const misc: Hierarchy = ["Miscellaneous Magic Items", "main/magic_misc"];
-
 const MagicMiscPage: React.FC = () => {
 
 	const { id } = useParams<Params>();
 
-	const [ path ] = useLocation();
+	const Page = id && magic[id] || magic.not_found;
 
-	const m = path.match(/^([/]magic-[a-z]+[/])/);
-
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id, magic);
-
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={(m ? m[1] : "/magic-misc/") + id}
-		topLink={misc}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	return <Page />;
 };
 
 export default MagicMiscPage;

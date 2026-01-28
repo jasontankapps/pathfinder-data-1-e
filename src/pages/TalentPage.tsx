@@ -1,5 +1,4 @@
 import { useParams } from 'wouter';
-import getItem from '../components/getItem';
 import talent from './subpages/__talent';
 import slayertalent from './subpages/__slayertalent';
 import phrenicamp from './subpages/__phrenicamp';
@@ -7,8 +6,6 @@ import deed from './subpages/__deed';
 import swashdeed from './subpages/__swashdeed';
 import hkdiscipline from './subpages/__hkdiscipline';
 import rangertrap from './subpages/__rangertrap';
-import BasicTalentPage from './BasicTalentPage';
-import { Gen, GenStrict } from '../types';
 import './Page.css';
 
 const allTalents = {
@@ -23,43 +20,20 @@ const allTalents = {
 
 type Talent = keyof typeof allTalents;
 
-const info: GenStrict<Talent, [string, string]> = {
-	"talent": [ "Rogue Talent", "ability/rogue_talents" ],
-	"slayertalent": [ "Slayer Talents", "ability/slayer_talents" ],
-	"phrenicamp": [ "Phrenic Amplifications", "ability/phrenic_amplifications" ],
-	"rangertrap": [ "Ranger Traps", "ability/ranger_traps" ],
-	"deed": [ "Gunslinger Deeds", "ability/gunslinger_deeds" ],
-	"swashdeed": [ "Swashbuckler Deeds", "ability/swashbuckler_deeds" ],
-	"hkdiscipline": [ "Hellknight Disciplines", "ability/hellknight_disciplines" ],
-};
-const things: Gen<Talent, string> = {};
-const addendaObj: GenStrict<string, string> = {
-	sneakattack: "This type of talent adds effects to a rogue's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made.",
-	slayersneak: "This type of talent adds effects to a slayer's sneak attack, and has this limitation: Only one of these talents can be applied to an individual attack and the decision must be made before the attack roll is made."
-};
+type Data =
+	typeof talent | typeof slayertalent | typeof phrenicamp
+	| typeof deed | typeof swashdeed | typeof hkdiscipline
+	| typeof rangertrap;
+
+type Params = { id?: keyof Data };
 
 const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
-	const data = allTalents[prefix];
 
-	type Data = typeof data;
-	type Params = { id?: keyof Data };
+	const { id } = useParams<Params>();
 
-	const { id = "not_found" } = useParams<Params>();
-	const { hasJL, title, jsx, topLink, addenda, notBookmarkable, tree } = getItem<Data>(id, data);
+	const Page = id && allTalents[prefix][id] || allTalents[prefix].not_found;
 
-	return <BasicTalentPage
-		id={id}
-		hasJL={hasJL}
-		title={title}
-		prefix={prefix}
-		topLink={topLink}
-		topLinkInfo={info}
-		notBookmarkable={notBookmarkable}
-		tree={tree}
-		things={things}
-		addenda={addenda}
-		addendaObj={addendaObj}
-	>{jsx}</BasicTalentPage>;
+	return <Page />;
 };
 
 export default TalentPage;
