@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const DrugPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? drugs[id] || drugs.not_found : drugs.not_found;
+	const Page = drugs[id] || drugs.not_found;
 
 	return <Page />;
 };

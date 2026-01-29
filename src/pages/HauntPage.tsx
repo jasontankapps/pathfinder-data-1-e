@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const HauntPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? haunts[id] || haunts.not_found : haunts.not_found;
+	const Page = haunts[id] || haunts.not_found;
 
 	return <Page />;
 };

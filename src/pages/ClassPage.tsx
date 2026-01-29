@@ -17,12 +17,11 @@ type Params = { id?: keyof Data };
 
 const ClassPage: React.FC<Params> = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		class1[id] || class2[id] || class3[id] || class4[id]
+	const Page = class1[id] || class2[id] || class3[id] || class4[id]
 		|| class5[id] || class6[id] || class7[id] || class8[id]
-	) || class1.not_found;
+		|| class1.not_found;
 
 	return <Page />;
 

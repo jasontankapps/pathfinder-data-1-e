@@ -11,11 +11,10 @@ type Params = { id?: keyof Data };
 
 const MagicArtifactPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		magicartifact1[id] || magicartifact2[id] || magicartifact3[id]
-	) || magicartifact1.not_found;
+	const Page = magicartifact1[id] || magicartifact2[id]
+		|| magicartifact3[id] || magicartifact1.not_found;
 
 	return <Page />;
 

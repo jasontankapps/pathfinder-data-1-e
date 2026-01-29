@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const AspectPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? aspects[id] || aspects.not_found : aspects.not_found;
+	const Page = aspects[id] || aspects.not_found;
 
 	return <Page />;
 };

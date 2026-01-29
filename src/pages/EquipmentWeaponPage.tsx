@@ -9,9 +9,9 @@ type Params = { id?: keyof Data };
 
 const EquipmentWeaponPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (eqweapon1[id] || eqweapon2[id]) || eqweapon1.not_found;
+	const Page = eqweapon1[id] || eqweapon2[id] || eqweapon1.not_found;
 
 	return <Page />;
 

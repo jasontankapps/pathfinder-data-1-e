@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const ArcanaPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? emotionalfocus[id] || emotionalfocus.not_found : emotionalfocus.not_found;
+	const Page = emotionalfocus[id] || emotionalfocus.not_found;
 
 	return <Page />;
 };

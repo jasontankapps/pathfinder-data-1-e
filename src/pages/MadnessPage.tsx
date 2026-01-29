@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const MadnessPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? madnesses[id] || madnesses.not_found : madnesses.not_found;
+	const Page = madnesses[id] || madnesses.not_found;
 
 	return <Page />;
 };

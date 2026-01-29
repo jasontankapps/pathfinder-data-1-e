@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const ConstructModPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? constructmods[id] || constructmods.not_found : constructmods.not_found;
+	const Page = constructmods[id] || constructmods.not_found;
 
 	return <Page />;
 };

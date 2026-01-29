@@ -13,11 +13,11 @@ type Params = { id?: keyof Data };
 
 const ClassAbilityPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		ability1[id] || ability2[id] || ability3[id] || ability4[id] || ability5[id] || ability6[id]
-	) || ability1.not_found;
+	const Page = ability1[id] || ability2[id] || ability3[id]
+		|| ability4[id] || ability5[id] || ability6[id]
+		|| ability1.not_found;
 
 	return <Page />;
 

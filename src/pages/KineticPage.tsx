@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const KineticPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? talents[id] || talents.not_found : talents.not_found;
+	const Page = talents[id] || talents.not_found;
 
 	return <Page />;
 };

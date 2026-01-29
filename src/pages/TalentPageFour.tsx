@@ -26,9 +26,9 @@ type Params = { id?: keyof Data };
 
 const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && allTalents[prefix][id] || allTalents[prefix].not_found;
+	const Page = allTalents[prefix][id] || allTalents[prefix].not_found;
 
 	return <Page />;
 };

@@ -17,12 +17,11 @@ type Params = { id?: keyof Data };
 
 const NPCPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		npc1[id] || npc2[id] || npc3[id] || npc4[id]
+	const Page = npc1[id] || npc2[id] || npc3[id] || npc4[id]
 		|| npc5[id] || npc6[id] || npc7[id] || npc8[id]
-	) || npc1.not_found;
+		|| npc1.not_found;
 
 	return <Page />;
 

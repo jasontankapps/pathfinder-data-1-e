@@ -67,10 +67,9 @@ type Params = { id?: keyof Data };
 
 const MonsterPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		monster1[id] || monster2[id] || monster3[id] || monster4[id]
+	const Page = monster1[id] || monster2[id] || monster3[id] || monster4[id]
 		|| monster5[id] || monster6[id] || monster7[id] || monster8[id]
 		|| monster9[id] || monster10[id] || monster11[id] || monster12[id]
 		|| monster13[id] || monster14[id] || monster15[id] || monster16[id]
@@ -82,7 +81,7 @@ const MonsterPage: React.FC = () => {
 		|| monster37[id] || monster38[id] || monster39[id] || monster40[id]
 		|| monster41[id] || monster42[id] || monster43[id] || monster44[id]
 		|| monster45[id] || monster46[id] || monster47[id] || monster48[id]
-	) || monster1.not_found;
+		|| monster1.not_found;
 
 	return <Page />;
 

@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const DruidDomainPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? domains[id] || domains.not_found : domains.not_found;
+	const Page = domains[id] || domains.not_found;
 
 	return <Page />;
 };

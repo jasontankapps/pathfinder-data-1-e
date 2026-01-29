@@ -9,9 +9,9 @@ type Params = { id?: keyof Data };
 
 const MonsterFamilyPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (family1[id] || family2[id]) || family1.not_found;
+	const Page = family1[id] || family2[id] || family1.not_found;
 
 	return <Page />;
 

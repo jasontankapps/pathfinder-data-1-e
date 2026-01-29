@@ -22,14 +22,13 @@ type Params = { id?: keyof Data };
 
 const MagicWondrousPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		magicwondrous1[id] || magicwondrous2[id] || magicwondrous3[id]
+	const Page = magicwondrous1[id] || magicwondrous2[id] || magicwondrous3[id]
 		|| magicwondrous4[id] || magicwondrous5[id] || magicwondrous6[id]
 		|| magicwondrous7[id] || magicwondrous8[id] || magicwondrous9[id]
 		|| magicwondrous10[id] || magicwondrous11[id]
-	) || magicwondrous1.not_found;
+		|| magicwondrous1.not_found;
 
 	return <Page />;
 

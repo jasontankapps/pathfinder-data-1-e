@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const OrderPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? orders[id] || orders.not_found : orders.not_found;
+	const Page = orders[id] || orders.not_found;
 
 	return <Page />;
 };

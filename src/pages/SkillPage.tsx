@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const SkillPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? skills[id] || skills.not_found : skills.not_found;
+	const Page = skills[id] || skills.not_found;
 
 	return <Page />;
 };

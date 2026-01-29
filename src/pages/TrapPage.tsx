@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const TrapPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? traps[id] || traps.not_found : traps.not_found;
+	const Page = traps[id] || traps.not_found;
 
 	return <Page />;
 };

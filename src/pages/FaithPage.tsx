@@ -19,13 +19,12 @@ type Params = { id?: keyof Data };
 
 const FaithPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		faith1[id] || faith2[id] || faith3[id]
+	const Page = faith1[id] || faith2[id] || faith3[id]
 		|| faith4[id] || faith5[id] || faith6[id]
 		|| faith7[id] || faith8[id] || faith9[id]
-	) || faith1.not_found;
+		|| faith1.not_found;
 
 	return <Page />;
 

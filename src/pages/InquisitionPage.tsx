@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const InquisitionPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? inquisitions[id] || inquisitions.not_found : inquisitions.not_found;
+	const Page = inquisitions[id] || inquisitions.not_found;
 
 	return <Page />;
 };

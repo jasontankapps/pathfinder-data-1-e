@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const CorruptionPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? corruptions[id] || corruptions.not_found : corruptions.not_found;
+	const Page = corruptions[id] || corruptions.not_found;
 
 	return <Page />;
 };

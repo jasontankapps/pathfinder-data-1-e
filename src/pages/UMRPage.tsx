@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const UMRPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? umr[id] || umr.not_found : umr.not_found;
+	const Page = umr[id] || umr.not_found;
 
 	return <Page />;
 };

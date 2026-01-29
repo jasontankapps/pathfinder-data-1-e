@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const CompanionPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? companions[id] || companions.not_found : companions.not_found;
+	const Page = companions[id] || companions.not_found;
 
 	return <Page />;
 };

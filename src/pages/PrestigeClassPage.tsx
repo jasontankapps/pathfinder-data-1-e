@@ -12,11 +12,10 @@ type Params = { id?: keyof Data };
 
 const PrestigeClassPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		pclass1[id] || pclass2[id] || pclass3[id] || pclass4[id]
-	) || pclass1.not_found;
+	const Page = pclass1[id] || pclass2[id] || pclass3[id]
+		|| pclass4[id] || pclass1.not_found;
 
 	return <Page />;
 

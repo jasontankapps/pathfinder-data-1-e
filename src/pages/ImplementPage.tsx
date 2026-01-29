@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const ImplementPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? occult_implements[id] || occult_implements.not_found : occult_implements.not_found;
+	const Page = occult_implements[id] || occult_implements.not_found;
 
 	return <Page />;
 };

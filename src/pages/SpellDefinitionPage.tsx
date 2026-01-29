@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const SpellDefPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? defs[id] || defs.not_found : defs.not_found;
+	const Page = defs[id] || defs.not_found;
 
 	return <Page />;
 };

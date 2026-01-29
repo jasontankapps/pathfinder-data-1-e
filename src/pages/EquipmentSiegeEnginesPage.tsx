@@ -9,9 +9,9 @@ type Params = { id?: keyof Data };
 
 const EquipmentSiegeEnginePage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? equipment[id] || equipment.not_found : equipment.not_found;
+	const Page = equipment[id] || equipment.not_found;
 
 	return <Page />;
 };

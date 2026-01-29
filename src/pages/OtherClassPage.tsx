@@ -9,9 +9,9 @@ type Params = { id?: keyof Data };
 
 const OtherClassPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (npcclass[id] || sidekick[id]) || npcclass.not_found;
+	const Page = npcclass[id] || sidekick[id] || npcclass.not_found;
 
 	return <Page />;
 

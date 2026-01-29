@@ -29,15 +29,13 @@ type Params = { id?: keyof Data };
 
 const SpellPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		spell1[id] || spell2[id] || spell3[id] || spell4[id]
+	const Page = spell1[id] || spell2[id] || spell3[id] || spell4[id]
 		|| spell5[id] || spell6[id] || spell7[id] || spell8[id]
 		|| spell9[id] || spell10[id] || spell11[id] || spell12[id]
 		|| spell13[id] || spell14[id] || spell15[id] || spell16[id]
-		|| spell17[id]
-	) || spell1.not_found;
+		|| spell17[id] || spell1.not_found;
 
 	return <Page />;
 

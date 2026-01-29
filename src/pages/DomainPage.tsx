@@ -9,9 +9,9 @@ type Params = { id?: keyof Data };
 
 const DomainPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (domains1[id] || domains2[id]) || domains1.not_found;
+	const Page = domains1[id] || domains2[id] || domains1.not_found;
 
 	return <Page />;
 

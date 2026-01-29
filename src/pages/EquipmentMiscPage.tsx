@@ -11,11 +11,10 @@ type Params = { id?: keyof Data };
 
 const EquipmentMiscPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		eqmisc1[id] || eqmisc2[id] || eqmisc3[id] || eqmisc4[id]
-	) || eqmisc1.not_found;
+	const Page = eqmisc1[id] || eqmisc2[id] || eqmisc3[id]
+		|| eqmisc4[id] || eqmisc1.not_found;
 
 	return <Page />;
 

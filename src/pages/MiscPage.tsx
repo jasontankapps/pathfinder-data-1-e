@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const MiscPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? misc[id] || misc.not_found : misc.not_found;
+	const Page = misc[id] || misc.not_found;
 
 	return <Page />;
 };

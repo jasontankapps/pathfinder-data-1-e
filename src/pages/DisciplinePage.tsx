@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const DiscliplinePage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? disciplines[id] || disciplines.not_found : disciplines.not_found;
+	const Page = disciplines[id] || disciplines.not_found;
 
 	return <Page />;
 };

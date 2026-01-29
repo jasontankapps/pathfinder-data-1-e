@@ -12,11 +12,10 @@ type Params = { id?: keyof Data };
 
 const RacePage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		race1[id] || race2[id] || race3[id] || race4[id]
-	) || race1.not_found;
+	const Page = race1[id] || race2[id]
+		|| race3[id] || race4[id] || race1.not_found;
 
 	return <Page />;
 

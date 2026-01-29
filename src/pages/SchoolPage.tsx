@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const SchoolPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? schools[id] || schools.not_found : schools.not_found;
+	const Page = schools[id] || schools.not_found;
 
 	return <Page />;
 };

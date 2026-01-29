@@ -31,16 +31,15 @@ type Params = { id?: keyof Data };
 
 const FeatPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		feat1[id] || feat2[id] || feat3[id]
+	const Page = feat1[id] || feat2[id] || feat3[id]
 		|| feat4[id] || feat5[id] || feat6[id]
 		|| feat7[id] || feat8[id] || feat9[id]
 		|| feat10[id] || feat11[id] || feat12[id]
 		|| feat13[id] || feat14[id] || feat15[id]
 		|| feat16[id] || feat17[id]
-	) || feat1.not_found;
+		|| feat1.not_found;
 
 	return <Page />;
 

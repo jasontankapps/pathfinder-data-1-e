@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const SorcererBloodlinePage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? bloodlines[id] || bloodlines.not_found : bloodlines.not_found;
+	const Page = bloodlines[id] || bloodlines.not_found;
 
 	return <Page />;
 };

@@ -8,9 +8,9 @@ type Params = { id?: keyof Data };
 
 const RagePowerPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id ? ragepowers[id] || ragepowers.not_found : ragepowers.not_found;
+	const Page = ragepowers[id] || ragepowers.not_found;
 
 	return <Page />;
 };

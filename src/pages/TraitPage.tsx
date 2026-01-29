@@ -13,11 +13,10 @@ type Params = { id?: keyof Data };
 
 const TraitPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		trait1[id] || trait2[id] || trait3[id] || trait4 || trait5[id]
-	) || trait1.not_found;
+	const Page = trait1[id] || trait2[id] || trait3[id]
+		|| trait4 || trait5[id] || trait1.not_found;
 
 	return <Page />;
 

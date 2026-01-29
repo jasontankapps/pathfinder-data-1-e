@@ -9,9 +9,9 @@ type Params = { id?: keyof Data };
 
 const MonsterTypingPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (monster_types[id] || monster_subtypes[id]) || monster_types.not_found;
+	const Page = monster_types[id] || monster_subtypes[id] || monster_types.not_found;
 
 	return <Page />;
 };

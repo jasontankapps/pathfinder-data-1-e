@@ -12,11 +12,10 @@ type Params = { id?: keyof Data };
 
 const MonsterTemplatePage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (
-		template1[id] || template2[id] || template3[id] || template4[id]
-	) || template1.not_found;
+	const Page = template1[id] || template2[id] || template3[id] || template4[id]
+		|| template1.not_found;
 
 	return <Page />;
 

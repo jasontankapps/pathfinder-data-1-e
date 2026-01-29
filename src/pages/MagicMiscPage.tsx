@@ -45,9 +45,9 @@ type Params = { id?: keyof Data };
 
 const MagicMiscPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && magic[id] || magic.not_found;
+	const Page = magic[id] || magic.not_found;
 
 	return <Page />;
 };

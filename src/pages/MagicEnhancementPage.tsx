@@ -9,9 +9,9 @@ type Params = { id?: keyof Data };
 
 const MagicEnhancementPage: React.FC = () => {
 
-	const { id } = useParams<Params>();
+	const { id = "not_found" } = useParams<Params>();
 
-	const Page = id && (magicenh1[id] || magicenh2[id]) || magicenh1.not_found;
+	const Page = magicenh1[id] || magicenh2[id] || magicenh1.not_found;
 
 	return <Page />;
 
