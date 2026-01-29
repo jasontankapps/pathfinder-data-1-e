@@ -1,34 +1,42 @@
-import getItem from '../components/getItem';
-import brawler from './subpages/__arc-brawler';
-import mesmerist from './subpages/__arc-mesmerist';
-import { ArchetypeProps } from './ArchetypePage';
-import BasicPage from './BasicPage';
+import { useParams } from 'wouter';
+import rogue from './subpages/__arc-rogue';
+import samurai from './subpages/__arc-samurai';
+import skald from './subpages/__arc-skald';
+import sorcerer from './subpages/__arc-sorcerer';
+import swashbuckler from './subpages/__arc-shifter';
 import './Page.css';
 
+/*
+	rogue: [8, "Rogue"], //78; conflicts with bard, slayer, hunter
+	samurai: [8, "Samurai"], //7
+	skald: [8, "Skald"], //26; conflicts with fighter
+	sorcerer: [8, "Sorcerer"], //13; conflicts with oracle
+	swashbuckler: [8, "Swashbuckler"], //20; conflicts with cavalier
+*/
+
 const archetypes = {
-	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...brawler,
-	...mesmerist
+	rogue,
+	samurai,
+	skald,
+	sorcerer,
+	swashbuckler
 };
 
-type Data = typeof archetypes;
+type Data = typeof rogue | typeof samurai | typeof skald | typeof sorcerer | typeof swashbuckler;
 
-const ArchetypeGroup8Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+type Classes = keyof typeof archetypes;
 
-	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
-	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
+type Params = { id?: keyof Data, parent?: Classes };
 
-	const pageId = `/arc-${parent}/${id}`;
+const ArchetypeGroup2Page: React.FC = () => {
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, arches);
+	const { id = "not_found", parent = "samurai" } = useParams<Params>();
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={pageId}
-		topLink={parent === "familiar" ? [ classTitle, "sidekick/familiar" ] : [classTitle, "class/" + parent]}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	const base = archetypes[parent] || archetypes.samurai;
+
+	const Page = base[id];
+
+	return <Page />;
 };
 
-export default ArchetypeGroup8Page;
+export default ArchetypeGroup2Page;

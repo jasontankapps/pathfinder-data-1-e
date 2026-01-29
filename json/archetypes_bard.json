@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested bard archetype."
+		]
+	},
 	"animal_speaker": {
 		"name": "Animal Speaker",
 		"sources": [ "Ultimate Magic" ],

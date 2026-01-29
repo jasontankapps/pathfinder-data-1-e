@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested familiar archetype."
+		]
+	},
 	"ambassador": {
 		"name": "Ambassador",
 		"sources": [ "Ultimate Wilderness" ],

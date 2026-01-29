@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested swashbuckler archetype."
+		]
+	},
 	"arrow_champion": {
 		"name": "Arrow Champion",
 		"sources": [ "Ultimate Wilderness" ],

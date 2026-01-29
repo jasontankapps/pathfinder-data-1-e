@@ -1,36 +1,42 @@
-import getItem from '../components/getItem';
-import druid from './subpages/__arc-druid';
-import medium from './subpages/__arc-medium';
-import ninja from './subpages/__arc-ninja';
-import { ArchetypeProps } from './ArchetypePage';
-import BasicPage from './BasicPage';
+import { useParams } from 'wouter';
+import slayer from './subpages/__arc-slayer';
+import spiritualist from './subpages/__arc-spiritualist';
+import summoner from './subpages/__arc-summoner';
+import vigilante from './subpages/__arc-vigilante';
+import witch from './subpages/__arc-shifter';
 import './Page.css';
 
+/*
+	slayer: [9, "Slayer"], //26; conflicts with rogue
+	spiritualist: [9, "Spiritualist"], //24; conflicts with summoner
+	summoner: [9, "Summoner"], //22; conflicts with unchained summoner, occultist, spiritualist
+	vigilante: [9, "Vigilante"], //28; conflicts with barbarian
+	witch: [9, "Witch"], //43
+*/
+
 const archetypes = {
-	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...druid,
-	...medium,
-	...ninja
+	slayer,
+	spiritualist,
+	summoner,
+	vigilante,
+	witch
 };
 
-type Data = typeof archetypes;
+type Data = typeof slayer | typeof spiritualist | typeof summoner | typeof vigilante | typeof witch;
 
-const ArchetypeGroup9Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+type Classes = keyof typeof archetypes;
 
-	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
-	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
+type Params = { id?: keyof Data, parent?: Classes };
 
-	const pageId = `/arc-${parent}/${id}`;
+const ArchetypeGroup2Page: React.FC = () => {
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, arches);
+	const { id = "not_found", parent = "summoner" } = useParams<Params>();
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={pageId}
-		topLink={[classTitle, "class/" + parent]}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	const base = archetypes[parent] || archetypes.summoner;
+
+	const Page = base[id];
+
+	return <Page />;
 };
 
-export default ArchetypeGroup9Page;
+export default ArchetypeGroup2Page;

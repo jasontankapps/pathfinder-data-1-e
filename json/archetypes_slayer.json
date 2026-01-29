@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested slayer archetype."
+		]
+	},
 	"ankous_shadow": {
 		"name": "Ankou's Shadow",
 		"sources": [ "Legacy of the First World" ],

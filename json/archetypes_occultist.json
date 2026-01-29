@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested occultist archetype."
+		]
+	},
 	"ancestral_aspirant": {
 		"name": "Ancestral Aspirant",
 		"sources": [ "Ultimate Intrigue" ],

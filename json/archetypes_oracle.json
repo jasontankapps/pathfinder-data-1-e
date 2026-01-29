@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested oracle archetype."
+		]
+	},
 	"ancient_lorekeeper": {
 		"name": "Ancient Lorekeeper",
 		"sources": [ "Advanced Race Guide" ],

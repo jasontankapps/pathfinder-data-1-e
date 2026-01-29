@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested shaman archetype."
+		]
+	},
 	"animist": {
 		"name": "Animist",
 		"sources": [ "Advanced Class Guide" ],

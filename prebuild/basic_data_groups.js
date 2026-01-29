@@ -1511,7 +1511,10 @@ const basic_data_groups = {
 		link: "arc-alchemist",
 		exportablelink: "archetypealchemist",
 		num: 0,
-		type: "Alchemist Archetype"
+		type: "Alchemist Archetype",
+		extra: {
+			topLink: [ "Alchemist", "class/alchemist" ]
+		}
 	},
 	"archetypes_antipaladin": {
 		data: archetypeantipaladin,
@@ -1519,7 +1522,10 @@ const basic_data_groups = {
 		link: "arc-antipaladin",
 		exportablelink: "archetypeantipaladin",
 		num: 0,
-		type: "Antipaladin Archetype"
+		type: "Antipaladin Archetype",
+		extra: {
+			topLink: [ "Antipaladin", "class/antipaladin" ]
+		}
 	},
 	"archetypes_arcanist": {
 		data: archetypearcanist,
@@ -1527,7 +1533,10 @@ const basic_data_groups = {
 		link: "arc-arcanist",
 		exportablelink: "archetypearcanist",
 		num: 0,
-		type: "Arcanist Archetype"
+		type: "Arcanist Archetype",
+		extra: {
+			topLink: [ "Arcanist", "class/arcanist" ]
+		}
 	},
 	"archetypes_barbarian": {
 		data: archetypebarbarian,
@@ -1535,7 +1544,10 @@ const basic_data_groups = {
 		link: "arc-barbarian",
 		exportablelink: "archetypebarbarian",
 		num: 0,
-		type: "Barbarian Archetype"
+		type: "Barbarian Archetype",
+		extra: {
+			topLink: [ "Barbarian", "class/barbarian" ]
+		}
 	},
 	"archetypes_bard": {
 		data: archetypebard,
@@ -1543,7 +1555,10 @@ const basic_data_groups = {
 		link: "arc-bard",
 		exportablelink: "archetypebard",
 		num: 0,
-		type: "Bard Archetype"
+		type: "Bard Archetype",
+		extra: {
+			topLink: [ "Bard", "class/bard" ]
+		}
 	},
 	"archetypes_bloodrager": {
 		data: archetypebloodrager,
@@ -1551,7 +1566,10 @@ const basic_data_groups = {
 		link: "arc-bloodrager",
 		exportablelink: "archetypebloodrager",
 		num: 0,
-		type: "Bloodrager Archetype"
+		type: "Bloodrager Archetype",
+		extra: {
+			topLink: [ "Bloodrager", "class/bloodrager" ]
+		}
 	},
 	"archetypes_brawler": {
 		data: archetypebrawler,
@@ -1559,7 +1577,10 @@ const basic_data_groups = {
 		link: "arc-brawler",
 		exportablelink: "archetypebrawler",
 		num: 0,
-		type: "Brawler Archetype"
+		type: "Brawler Archetype",
+		extra: {
+			topLink: [ "Brawler", "class/brawler" ]
+		}
 	},
 	"archetypes_cavalier": {
 		data: archetypecavalier,
@@ -1567,7 +1588,10 @@ const basic_data_groups = {
 		link: "arc-cavalier",
 		exportablelink: "archetypecavalier",
 		num: 0,
-		type: "Cavalier Archetype"
+		type: "Cavalier Archetype",
+		extra: {
+			topLink: [ "Cavalier", "class/cavalier" ]
+		}
 	},
 	"archetypes_cleric": {
 		data: archetypecleric,
@@ -1575,7 +1599,10 @@ const basic_data_groups = {
 		link: "arc-cleric",
 		exportablelink: "archetypecleric",
 		num: 0,
-		type: "Cleric Archetype"
+		type: "Cleric Archetype",
+		extra: {
+			topLink: [ "Cleric", "class/cleric" ]
+		}
 	},
 	"archetypes_COMPANION": {
 		data: archetypecompanion,
@@ -1583,7 +1610,10 @@ const basic_data_groups = {
 		link: "arc-companion",
 		exportablelink: "archetypecompanion",
 		num: 0,
-		type: "Companion Archetype"
+		type: "Companion Archetype",
+		extra: {
+			topLink: [ "Companion", "sidekick/animal_companion" ]
+		}
 	},
 	"archetypes_druid": {
 		data: archetypedruid,
@@ -1591,7 +1621,10 @@ const basic_data_groups = {
 		link: "arc-druid",
 		exportablelink: "archetypedruid",
 		num: 0,
-		type: "Druid Archetype"
+		type: "Druid Archetype",
+		extra: {
+			topLink: [ "Druid", "class/druid" ]
+		}
 	},
 	"archetypes_FAMILIAR": {
 		data: archetypefamiliar,
@@ -1599,7 +1632,10 @@ const basic_data_groups = {
 		link: "arc-familiar",
 		exportablelink: "archetypefamiliar",
 		num: 0,
-		type: "Familiar Archetype"
+		type: "Familiar Archetype",
+		extra: {
+			topLink: [ "Familiar", "sidekick/familiar" ]
+		}
 	},
 	"archetypes_fighter": {
 		data: archetypefighter,
@@ -1607,7 +1643,10 @@ const basic_data_groups = {
 		link: "arc-fighter",
 		exportablelink: "archetypefighter",
 		num: 0,
-		type: "Fighter Archetype"
+		type: "Fighter Archetype",
+		extra: {
+			topLink: [ "Fighter", "class/fighter" ]
+		}
 	},
 	"archetypes_gunslinger": {
 		data: archetypegunslinger,
@@ -1615,7 +1654,10 @@ const basic_data_groups = {
 		link: "arc-gunslinger",
 		exportablelink: "archetypegunslinger",
 		num: 0,
-		type: "Gunslinger Archetype"
+		type: "Gunslinger Archetype",
+		extra: {
+			topLink: [ "Gunslinger", "class/gunslinger" ]
+		}
 	},
 	"archetypes_hunter": {
 		data: archetypehunter,
@@ -1623,7 +1665,10 @@ const basic_data_groups = {
 		link: "arc-hunter",
 		exportablelink: "archetypehunter",
 		num: 0,
-		type: "Hunter Archetype"
+		type: "Hunter Archetype",
+		extra: {
+			topLink: [ "Hunter", "class/hunter" ]
+		}
 	},
 	"archetypes_inquisitor": {
 		data: archetypeinquisitor,
@@ -1631,7 +1676,10 @@ const basic_data_groups = {
 		link: "arc-inquisitor",
 		exportablelink: "archetypeinquisitor",
 		num: 0,
-		type: "Inquisitor Archetype"
+		type: "Inquisitor Archetype",
+		extra: {
+			topLink: [ "Inquisitor", "class/inquisitor" ]
+		}
 	},
 	"archetypes_investigator": {
 		data: archetypeinvestigator,
@@ -1639,7 +1687,10 @@ const basic_data_groups = {
 		link: "arc-investigator",
 		exportablelink: "archetypeinvestigator",
 		num: 0,
-		type: "Investigator Archetype"
+		type: "Investigator Archetype",
+		extra: {
+			topLink: [ "Investigator", "class/investigator" ]
+		}
 	},
 	"archetypes_kineticist": {
 		data: archetypekineticist,
@@ -1647,7 +1698,10 @@ const basic_data_groups = {
 		link: "arc-kineticist",
 		exportablelink: "archetypekineticist",
 		num: 0,
-		type: "Kineticist Archetype"
+		type: "Kineticist Archetype",
+		extra: {
+			topLink: [ "Kineticist", "class/kineticist" ]
+		}
 	},
 	"archetypes_magus": {
 		data: archetypemagus,
@@ -1655,7 +1709,10 @@ const basic_data_groups = {
 		link: "arc-magus",
 		exportablelink: "archetypemagus",
 		num: 0,
-		type: "Magus Archetype"
+		type: "Magus Archetype",
+		extra: {
+			topLink: [ "Magus", "class/magus" ]
+		}
 	},
 	"archetypes_medium": {
 		data: archetypemedium,
@@ -1663,7 +1720,10 @@ const basic_data_groups = {
 		link: "arc-medium",
 		exportablelink: "archetypemedium",
 		num: 0,
-		type: "Medium Archetype"
+		type: "Medium Archetype",
+		extra: {
+			topLink: [ "Medium", "class/medium" ]
+		}
 	},
 	"archetypes_mesmerist": {
 		data: archetypemesmerist,
@@ -1671,7 +1731,10 @@ const basic_data_groups = {
 		link: "arc-mesmerist",
 		exportablelink: "archetypemesmerist",
 		num: 0,
-		type: "Mesmerist Archetype"
+		type: "Mesmerist Archetype",
+		extra: {
+			topLink: [ "Mesmerist", "class/mesmerist" ]
+		}
 	},
 	"archetypes_monk": {
 		data: archetypemonk,
@@ -1679,7 +1742,10 @@ const basic_data_groups = {
 		link: "arc-monk",
 		exportablelink: "archetypemonk",
 		num: 0,
-		type: "Monk Archetype"
+		type: "Monk Archetype",
+		extra: {
+			topLink: [ "Monk", "class/monk" ]
+		}
 	},
 	"archetypes_ninja": {
 		data: archetypeninja,
@@ -1687,7 +1753,10 @@ const basic_data_groups = {
 		link: "arc-ninja",
 		exportablelink: "archetypeninja",
 		num: 0,
-		type: "Ninja Archetype"
+		type: "Ninja Archetype",
+		extra: {
+			topLink: [ "Ninja", "class/ninja" ]
+		}
 	},
 	"archetypes_occultist": {
 		data: archetypeoccultist,
@@ -1695,7 +1764,10 @@ const basic_data_groups = {
 		link: "arc-occultist",
 		exportablelink: "archetypeoccultist",
 		num: 0,
-		type: "Occultist Archetype"
+		type: "Occultist Archetype",
+		extra: {
+			topLink: [ "Occultist", "class/occultist" ]
+		}
 	},
 	"archetypes_oracle": {
 		data: archetypeoracle,
@@ -1703,7 +1775,10 @@ const basic_data_groups = {
 		link: "arc-oracle",
 		exportablelink: "archetypeoracle",
 		num: 0,
-		type: "Oracle Archetype"
+		type: "Oracle Archetype",
+		extra: {
+			topLink: [ "Oracle", "class/oracle" ]
+		}
 	},
 	"archetypes_paladin": {
 		data: archetypepaladin,
@@ -1711,7 +1786,10 @@ const basic_data_groups = {
 		link: "arc-paladin",
 		exportablelink: "archetypepaladin",
 		num: 0,
-		type: "Paladin Archetype"
+		type: "Paladin Archetype",
+		extra: {
+			topLink: [ "Paladin", "class/paladin" ]
+		}
 	},
 	"archetypes_psychic": {
 		data: archetypepsychic,
@@ -1719,7 +1797,10 @@ const basic_data_groups = {
 		link: "arc-psychic",
 		exportablelink: "archetypepsychic",
 		num: 0,
-		type: "Psychic Archetype"
+		type: "Psychic Archetype",
+		extra: {
+			topLink: [ "Psychic", "class/psychic" ]
+		}
 	},
 	"archetypes_ranger": {
 		data: archetyperanger,
@@ -1727,7 +1808,10 @@ const basic_data_groups = {
 		link: "arc-ranger",
 		exportablelink: "archetyperanger",
 		num: 0,
-		type: "Ranger Archetype"
+		type: "Ranger Archetype",
+		extra: {
+			topLink: [ "Ranger", "class/ranger" ]
+		}
 	},
 	"archetypes_rogue": {
 		data: archetyperogue,
@@ -1735,7 +1819,10 @@ const basic_data_groups = {
 		link: "arc-rogue",
 		exportablelink: "archetyperogue",
 		num: 0,
-		type: "Rogue Archetype"
+		type: "Rogue Archetype",
+		extra: {
+			topLink: [ "Rogue", "class/rogue" ]
+		}
 	},
 	"archetypes_samurai": {
 		data: archetypesamurai,
@@ -1743,7 +1830,10 @@ const basic_data_groups = {
 		link: "arc-samurai",
 		exportablelink: "archetypesamurai",
 		num: 0,
-		type: "Samurai Archetype"
+		type: "Samurai Archetype",
+		extra: {
+			topLink: [ "Samurai", "class/samurai" ]
+		}
 	},
 	"archetypes_shaman": {
 		data: archetypeshaman,
@@ -1751,7 +1841,10 @@ const basic_data_groups = {
 		link: "arc-shaman",
 		exportablelink: "archetypeshaman",
 		num: 0,
-		type: "Shaman Archetype"
+		type: "Shaman Archetype",
+		extra: {
+			topLink: [ "Shaman", "class/shaman" ]
+		}
 	},
 	"archetypes_shifter": {
 		data: archetypeshifter,
@@ -1759,7 +1852,10 @@ const basic_data_groups = {
 		link: "arc-shifter",
 		exportablelink: "archetypeshifter",
 		num: 0,
-		type: "Shifter Archetype"
+		type: "Shifter Archetype",
+		extra: {
+			topLink: [ "Shifter", "class/shifter" ]
+		}
 	},
 	"archetypes_skald": {
 		data: archetypeskald,
@@ -1767,7 +1863,10 @@ const basic_data_groups = {
 		link: "arc-skald",
 		exportablelink: "archetypeskald",
 		num: 0,
-		type: "Skald Archetype"
+		type: "Skald Archetype",
+		extra: {
+			topLink: [ "Skald", "class/skald" ]
+		}
 	},
 	"archetypes_slayer": {
 		data: archetypeslayer,
@@ -1775,7 +1874,10 @@ const basic_data_groups = {
 		link: "arc-slayer",
 		exportablelink: "archetypeslayer",
 		num: 0,
-		type: "Slayer Archetype"
+		type: "Slayer Archetype",
+		extra: {
+			topLink: [ "Slayer", "class/slayer" ]
+		}
 	},
 	"archetypes_sorcerer": {
 		data: archetypesorcerer,
@@ -1783,7 +1885,10 @@ const basic_data_groups = {
 		link: "arc-sorcerer",
 		exportablelink: "archetypesorcerer",
 		num: 0,
-		type: "Sorcerer Archetype"
+		type: "Sorcerer Archetype",
+		extra: {
+			topLink: [ "Sorcerer", "class/sorcerer" ]
+		}
 	},
 	"archetypes_spiritualist": {
 		data: archetypespiritualist,
@@ -1791,7 +1896,10 @@ const basic_data_groups = {
 		link: "arc-spiritualist",
 		exportablelink: "archetypespiritualist",
 		num: 0,
-		type: "Spiritualist Archetype"
+		type: "Spiritualist Archetype",
+		extra: {
+			topLink: [ "Spiritualist", "class/spiritualist" ]
+		}
 	},
 	"archetypes_summoner": {
 		data: archetypesummoner,
@@ -1799,7 +1907,10 @@ const basic_data_groups = {
 		link: "arc-summoner",
 		exportablelink: "archetypesummoner",
 		num: 0,
-		type: "Summoner Archetype"
+		type: "Summoner Archetype",
+		extra: {
+			topLink: [ "Summoner", "class/summoner" ]
+		}
 	},
 	"archetypes_summoner_UC": {
 		data: archetypeunchained_summoner,
@@ -1807,7 +1918,10 @@ const basic_data_groups = {
 		link: "arc-unchained_summoner",
 		exportablelink: "archetypeunchained_summoner",
 		num: 0,
-		type: "Unchained Summoner Archetype"
+		type: "Unchained Summoner Archetype",
+		extra: {
+			topLink: [ "Unchained Summoner", "class/unchained_summoner" ]
+		}
 	},
 	"archetypes_swashbuckler": {
 		data: archetypeswashbuckler,
@@ -1815,7 +1929,10 @@ const basic_data_groups = {
 		link: "arc-swashbuckler",
 		exportablelink: "archetypeswashbuckler",
 		num: 0,
-		type: "Swashbuckler Archetype"
+		type: "Swashbuckler Archetype",
+		extra: {
+			topLink: [ "Swashbuckler", "class/swashbuckler" ]
+		}
 	},
 	"archetypes_vigilante": {
 		data: archetypevigilante,
@@ -1823,7 +1940,10 @@ const basic_data_groups = {
 		link: "arc-vigilante",
 		exportablelink: "archetypevigilante",
 		num: 0,
-		type: "Vigilante Archetype"
+		type: "Vigilante Archetype",
+		extra: {
+			topLink: [ "Vigilante", "class/vigilante" ]
+		}
 	},
 	"archetypes_warpriest": {
 		data: archetypewarpriest,
@@ -1831,7 +1951,10 @@ const basic_data_groups = {
 		link: "arc-warpriest",
 		exportablelink: "archetypewarpriest",
 		num: 0,
-		type: "Warpriest Archetype"
+		type: "Warpriest Archetype",
+		extra: {
+			topLink: [ "Warpriest", "class/warpriest" ]
+		}
 	},
 	"archetypes_witch": {
 		data: archetypewitch,
@@ -1839,7 +1962,10 @@ const basic_data_groups = {
 		link: "arc-witch",
 		exportablelink: "archetypewitch",
 		num: 0,
-		type: "Witch Archetype"
+		type: "Witch Archetype",
+		extra: {
+			topLink: [ "Witch", "class/witch" ]
+		}
 	},
 	"archetypes_wizard": {
 		data: archetypewizard,
@@ -1847,7 +1973,10 @@ const basic_data_groups = {
 		link: "arc-wizard",
 		exportablelink: "archetypewizard",
 		num: 0,
-		type: "Wizard Archetype"
+		type: "Wizard Archetype",
+		extra: {
+			topLink: [ "Wizard", "class/wizard" ]
+		}
 	},
 	"equipment_alchemical_reagents": {
 		data: eqreagent,
@@ -2928,14 +3057,20 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "curse",
 		num: 0,
-		type: "Curse"
+		type: "Curse",
+		extra: {
+			topLink: ["Curses", "rule/curses"]
+		}
 	},
 	"diseases": {
 		data: disease,
 		searchgroup: 12, // rule
 		link: "disease",
 		num: 0,
-		type: "Disease"
+		type: "Disease",
+		extra: {
+			topLink: ["Diseases", "rule/diseases"]
+		}
 	},
 	"drugs": {
 		data: drug,
@@ -2963,7 +3098,10 @@ const basic_data_groups = {
 		searchgroup: 12, // rule
 		link: "infestation",
 		num: 0,
-		type: "Infestation"
+		type: "Infestation",
+		extra: {
+			topLink: ["Infestations", "rule/infestations"]
+		}
 	},
 	"madness": {
 		data: madness,

@@ -1,36 +1,39 @@
-import getItem from '../components/getItem';
-import rogue from './subpages/__arc-rogue';
-import sorcerer from './subpages/__arc-sorcerer';
-import unchained_summoner from './subpages/__arc-unchained_summoner';
-import { ArchetypeProps } from './ArchetypePage';
-import BasicPage from './BasicPage';
+import { useParams } from 'wouter';
+import oracle from './subpages/__arc-oracle';
+import paladin from './subpages/__arc-paladin';
+import ranger from './subpages/__arc-ranger';
+import shifter from './subpages/__arc-shifter';
 import './Page.css';
 
+/*
+	oracle: [7, "Oracle"], //26; conflicts with sorcerer
+	paladin: [7, "Paladin"], //47; conflicts with hunter
+	ranger: [7, "Ranger"], //62; conflicts with fighter, familiar, inquisitor, investigator
+	shifter: [7, "Shifter"], //14; conflicts with bloodrager
+*/
+
 const archetypes = {
-	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...rogue, // conflicts with bard, slayer, hunter
-	...sorcerer, // conflicts with oracle
-	...unchained_summoner // conflicts with summoner
+	oracle,
+	paladin,
+	ranger,
+	shifter
 };
 
-type Data = typeof archetypes;
+type Data = typeof oracle | typeof paladin | typeof ranger | typeof shifter;
 
-const ArchetypeGroup7Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+type Classes = keyof typeof archetypes;
 
-	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
-	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
+type Params = { id?: keyof Data, parent?: Classes };
 
-	const pageId = `/arc-${parent}/${id}`;
+const ArchetypeGroup2Page: React.FC = () => {
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, arches);
+	const { id = "not_found", parent = "shifter" } = useParams<Params>();
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={pageId}
-		topLink={[classTitle, "class/" + parent]}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	const base = archetypes[parent] || archetypes.shifter;
+
+	const Page = base[id];
+
+	return <Page />;
 };
 
-export default ArchetypeGroup7Page;
+export default ArchetypeGroup2Page;

@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested gunslinger archetype."
+		]
+	},
 	"black_powder_vaulter": {
 		"name": "Black Powder Vaulter",
 		"sources": [ "Martial Arts Handbook" ],

@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested cavalier archetype."
+		]
+	},
 	"beast_rider": {
 		"name": "Beast Rider",
 		"sources": [ "Ultimate Combat" ],

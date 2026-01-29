@@ -40,7 +40,6 @@ setupIonicReact({
 
 // Multi-Pages
 
-const ArchetypePage = lazy(() => import("./pages/ArchetypePage"));
 const ClassPage = lazy(() => import("./pages/ClassPage"));
 const ClassAbilityPage = lazy(() => import("./pages/ClassAbilityPage"));
 const EquipmentMiscPage = lazy(() => import("./pages/EquipmentMiscPage"));
@@ -58,6 +57,18 @@ const RacePage = lazy(() => import("./pages/RacePage"));
 const RulesPage = lazy(() => import("./pages/RulesPage"));
 const SpellPage = lazy(() => import("./pages/SpellPage"));
 const TraitPage = lazy(() => import("./pages/TraitPage"));
+
+// Archetype Pages
+
+const ArchetypePage1 = lazy(() => import("./pages/ArchetypeGroup1Page"));
+const ArchetypePage2 = lazy(() => import("./pages/ArchetypeGroup2Page"));
+const ArchetypePage3 = lazy(() => import("./pages/ArchetypeGroup3Page"));
+const ArchetypePage4 = lazy(() => import("./pages/ArchetypeGroup4Page"));
+const ArchetypePage5 = lazy(() => import("./pages/ArchetypeGroup5Page"));
+const ArchetypePage6 = lazy(() => import("./pages/ArchetypeGroup6Page"));
+const ArchetypePage7 = lazy(() => import("./pages/ArchetypeGroup7Page"));
+const ArchetypePage8 = lazy(() => import("./pages/ArchetypeGroup8Page"));
+const ArchetypePage9 = lazy(() => import("./pages/ArchetypeGroup9Page"));
 
 // Special Pages
 
@@ -191,9 +202,49 @@ const App: FC = () => {
 								<ClassAbilityPage />
 							</Suspense>
 						</Route>
-						<Route path={/^[/]arc-(?<parent>[a-z_]+)[/](?<id>[a-z_0-9]+)[/]?$/}>
+						<Route path={/^[/]arc-(?<parent>alchemist|antipaladin|arcanist|barbarian|medium)[/](?<id>[a-z_0-9]+)[/]?$/}>
 							<Suspense fallback={<Loading text="Researching archetypes..." />}>
-								<ArchetypePage />
+								<ArchetypePage1 />
+							</Suspense>
+						</Route>
+						<Route path={/^[/]arc-(?<parent>bard|bloodrager|brawler|cavalier)[/](?<id>[a-z_0-9]+)[/]?$/}>
+							<Suspense fallback={<Loading text="Researching archetypes..." />}>
+								<ArchetypePage2 />
+							</Suspense>
+						</Route>
+						<Route path={/^[/]arc-(?<parent>cleric|companion|druid|shaman)[/](?<id>[a-z_0-9]+)[/]?$/}>
+							<Suspense fallback={<Loading text="Researching archetypes..." />}>
+								<ArchetypePage3 />
+							</Suspense>
+						</Route>
+						<Route path={/^[/]arc-(?<parent>familiar|fighter|gunslinger|hunter|psychic)[/](?<id>[a-z_0-9]+)[/]?$/}>
+							<Suspense fallback={<Loading text="Researching archetypes..." />}>
+								<ArchetypePage4 />
+							</Suspense>
+						</Route>
+						<Route path={/^[/]arc-(?<parent>inquisitor|kineticist|magus|mesmerist|ninja|wizard)[/](?<id>[a-z_0-9]+)[/]?$/}>
+							<Suspense fallback={<Loading text="Researching archetypes..." />}>
+								<ArchetypePage5 />
+							</Suspense>
+						</Route>
+						<Route path={/^[/]arc-(?<parent>investigator|monk|occultist|warpriest|unchained_summoner)[/](?<id>[a-z_0-9]+)[/]?$/}>
+							<Suspense fallback={<Loading text="Researching archetypes..." />}>
+								<ArchetypePage6 />
+							</Suspense>
+						</Route>
+						<Route path={/^[/]arc-(?<parent>oracle|paladin|ranger|shifter)[/](?<id>[a-z_0-9]+)[/]?$/}>
+							<Suspense fallback={<Loading text="Researching archetypes..." />}>
+								<ArchetypePage7 />
+							</Suspense>
+						</Route>
+						<Route path={/^[/]arc-(?<parent>rogue|samurai|skald|sorcerer|swashbuckler)[/](?<id>[a-z_0-9]+)[/]?$/}>
+							<Suspense fallback={<Loading text="Researching archetypes..." />}>
+								<ArchetypePage8 />
+							</Suspense>
+						</Route>
+						<Route path={/^[/]arc-(?<parent>slayer|spiritualist|summoner|vigilante|witch)[/](?<id>[a-z_0-9]+)[/]?$/}>
+							<Suspense fallback={<Loading text="Researching archetypes..." />}>
+								<ArchetypePage9 />
 							</Suspense>
 						</Route>
 						<Route path="/aspect/:id">

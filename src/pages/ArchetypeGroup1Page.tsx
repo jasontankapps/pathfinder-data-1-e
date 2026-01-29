@@ -1,41 +1,42 @@
-import getItem from '../components/getItem';
-import monk from './subpages/__arc-monk';
-import samurai from './subpages/__arc-samurai';
-import { ArchetypeProps } from './ArchetypePage';
-import BasicPage from './BasicPage';
+import { useParams } from 'wouter';
+import alchemist from './subpages/__arc-alchemist';
+import antipaladin from './subpages/__arc-antipaladin';
+import arcanist from './subpages/__arc-arcanist';
+import barbarian from './subpages/__arc-barbarian';
+import medium from './subpages/__arc-medium';
 import './Page.css';
 
+/*
+	alchemist: [1, "Alchemist"], //63
+	antipaladin: [1, "Antipaladin"], //9
+	arcanist: [1, "Arcanist"], //15
+	barbarian: [1, "Barbarian"], //42; conflicts with vigilante
+	medium: [1, "Medium"], //15
+*/
+
 const archetypes = {
-	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...monk,
-	...samurai
+	alchemist,
+	antipaladin,
+	arcanist,
+	barbarian,
+	medium
 };
 
-type Data = typeof archetypes;
+type Data = typeof alchemist | typeof antipaladin | typeof arcanist | typeof barbarian | typeof medium;
 
-const ArchetypeGroup1Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+type Classes = keyof typeof archetypes;
 
-	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
-	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
+type Params = { id?: keyof Data, parent?: Classes };
 
-	const pageId = `/arc-${parent}/${id}`;
+const ArchetypeGroup1Page: React.FC = () => {
 
-	// Monk archetypes may be Unchained Monk archetypes...
-	const {
-		hasJL,
-		title,
-		jsx,
-		topLink = [classTitle, "class/" + parent],
-		notBookmarkable
-	} = getItem<Data>(id as keyof Data, arches);
+	const { id = "not_found", parent = "barbarian" } = useParams<Params>();
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={pageId}
-		topLink={topLink}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	const base = archetypes[parent] || archetypes.barbarian;
+
+	const Page = base[id];
+
+	return <Page />;
 };
 
 export default ArchetypeGroup1Page;

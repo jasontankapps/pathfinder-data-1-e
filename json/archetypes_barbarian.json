@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested barbarian archetype."
+		]
+	},
 	"armored_hulk": {
 		"name": "Armored Hulk",
 		"sources": [ "Ultimate Combat" ],

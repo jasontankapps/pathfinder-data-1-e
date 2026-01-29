@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested brawler archetype."
+		]
+	},
 	"battle_dancer": {
 		"name": "Battle Dancer",
 		"sources": [ "Martial Arts Handbook" ],

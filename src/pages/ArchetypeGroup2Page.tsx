@@ -1,34 +1,39 @@
-import getItem from '../components/getItem';
-import summoner from './subpages/__arc-summoner';
-import swashbuckler from './subpages/__arc-swashbuckler';
-import { ArchetypeProps } from './ArchetypePage';
-import BasicPage from './BasicPage';
+import { useParams } from 'wouter';
+import bard from './subpages/__arc-bard';
+import bloodrager from './subpages/__arc-bloodrager';
+import brawler from './subpages/__arc-brawler';
+import cavalier from './subpages/__arc-cavalier';
 import './Page.css';
 
+/*
+	bard: [2, "Bard"], //73; conflicts with companion, familiar, gunslinger, rogue
+	bloodrager: [2, "Bloodrager"], //19; conflicts with shifter, wizard
+	brawler: [2, "Brawler"], // 19
+	cavalier: [2, "Cavalier"], //37; conflicts with companion, familiar, swashbuckler
+*/
+
 const archetypes = {
-	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...summoner, // conflicts with unchained summoner, occultist, spiritualist
-	...swashbuckler // conflicts with cavalier
+	bard,
+	bloodrager,
+	brawler,
+	cavalier
 };
 
-type Data = typeof archetypes;
+type Data = typeof bard | typeof bloodrager | typeof brawler | typeof cavalier;
 
-const ArchetypeGroup2Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+type Classes = keyof typeof archetypes;
 
-	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
-	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
+type Params = { id?: keyof Data, parent?: Classes };
 
-	const pageId = `/arc-${parent}/${id}`;
+const ArchetypeGroup2Page: React.FC = () => {
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, arches);
+	const { id = "not_found", parent = "brawler" } = useParams<Params>();
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={pageId}
-		topLink={[classTitle, "class/" + parent]}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	const base = archetypes[parent] || archetypes.brawler;
+
+	const Page = base[id];
+
+	return <Page />;
 };
 
 export default ArchetypeGroup2Page;

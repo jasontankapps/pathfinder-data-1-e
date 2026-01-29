@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested wizard archetype."
+		]
+	},
 	"absalom_arcanamirium_crafter": {
 		"name": "Absalom: Arcanamirium Crafter",
 		"sources": [ "Inner Sea Primer" ],

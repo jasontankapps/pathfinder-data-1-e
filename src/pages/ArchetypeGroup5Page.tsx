@@ -1,39 +1,45 @@
-import getItem from '../components/getItem';
-import companion from './subpages/__arc-companion';
-import ranger from './subpages/__arc-ranger';
-import bloodrager from './subpages/__arc-bloodrager';
-import { Hierarchy } from '../types';
-import { ArchetypeProps } from './ArchetypePage';
-import BasicPage from './BasicPage';
+import { useParams } from 'wouter';
+import inquisitor from './subpages/__arc-inquisitor';
+import kineticist from './subpages/__arc-kineticist';
+import magus from './subpages/__arc-magus';
+import mesmerist from './subpages/__arc-mesmerist';
+import ninja from './subpages/__arc-ninja';
+import wizard from './subpages/__arc-wizard';
 import './Page.css';
 
+/*
+	inquisitor: [5, "Inquisitor"], //38; conflicts with familiar, investigator, ranger
+	kineticist: [5, "Kineticist"], //19
+	magus: [5, "Magus"], //31
+	mesmerist: [5, "Mesmerist"], //21
+	ninja: [5, "Ninja"], //18
+	wizard: [5, "Wizard"], //10; conflicts with cleric, bloodrager
+*/
+
 const archetypes = {
-	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...companion, // conflicts with cavalier, bard
-	...ranger, // conflicts with fighter, familiar, inquisitor, investigator
-	...bloodrager // conflicts with shifter, wizard
+	inquisitor,
+	kineticist,
+	magus,
+	mesmerist,
+	ninja,
+	wizard
 };
 
-type Data = typeof archetypes;
+type Data = typeof inquisitor | typeof kineticist | typeof magus | typeof mesmerist | typeof ninja | typeof wizard;
 
-const companionTopLink: Hierarchy = [ "Animal Companion", "sidekick/animal_companion" ];
+type Classes = keyof typeof archetypes;
 
-const ArchetypeGroup5Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+type Params = { id?: keyof Data, parent?: Classes };
 
-	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
-	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
+const ArchetypeGroup2Page: React.FC = () => {
 
-	const pageId = `/arc-${parent}/${id}`;
+	const { id = "not_found", parent = "wizard" } = useParams<Params>();
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, arches);
+	const base = archetypes[parent] || archetypes.wizard;
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={pageId}
-		topLink={parent === "companion" ? companionTopLink : [classTitle, "class/" + parent]}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	const Page = base[id];
+
+	return <Page />;
 };
 
-export default ArchetypeGroup5Page;
+export default ArchetypeGroup2Page;

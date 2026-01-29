@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested ranger archetype."
+		]
+	},
 	"abendego_diver": {
 		"name": "Abendego Diver",
 		"sources": [ "Elemental Master's Handbook" ],

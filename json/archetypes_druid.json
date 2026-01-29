@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested druid archetype."
+		]
+	},
 	"aerie_protector": {
 		"name": "Aerie Protector",
 		"sources": [ "Ultimate Wilderness" ],

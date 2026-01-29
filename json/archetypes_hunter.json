@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested hunter archetype."
+		]
+	},
 	"aquatic_beastmaster": {
 		"name": "Aquatic Beastmaster",
 		"sources": [ "Blood of the Sea" ],

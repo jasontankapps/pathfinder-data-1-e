@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested arcanist archetype."
+		]
+	},
 	"aeromancer": {
 		"name": "Aeromancer",
 		"sources": [ "Blood of the Ancients" ],

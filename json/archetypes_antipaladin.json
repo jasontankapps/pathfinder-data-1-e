@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested antipaladin archetype."
+		]
+	},
 	"blighted_myrmidon": {
 		"name": "Blighted Myrmidon",
 		"sources": [ "Ultimate Wilderness" ],

@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested sorcerer archetype."
+		]
+	},
 	"bloodline_familiars": {
 		"name": "Bloodline Familiars",
 		"sources": [ "Familiar Folio" ],

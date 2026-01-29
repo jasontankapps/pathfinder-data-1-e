@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested spiritualist archetype."
+		]
+	},
 	"drowned_channeler": {
 		"name": "Drowned Channeler",
 		"sources": [ "Aquatic Adventures" ],

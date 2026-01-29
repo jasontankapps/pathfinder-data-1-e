@@ -1,38 +1,39 @@
-import getItem from '../components/getItem';
-import inquisitor from './subpages/__arc-inquisitor';
-import paladin from './subpages/__arc-paladin';
-import skald from './subpages/__arc-skald';
-import warpriest from './subpages/__arc-warpriest';
-import { ArchetypeProps } from './ArchetypePage';
-import BasicPage from './BasicPage';
+import { useParams } from 'wouter';
+import cleric from './subpages/__arc-cleric';
+import companion from './subpages/__arc-companion';
+import druid from './subpages/__arc-druid';
+import shaman from './subpages/__arc-shaman';
 import './Page.css';
 
+/*
+	cleric: [3, "Cleric"], //35; conflicts with wizard
+	companion: [3, "Companion"], //21; conflicts with cavalier, bard
+	druid: [3, "Druid"], //75
+	shaman: [3, "Shaman"], //17
+*/
+
 const archetypes = {
-	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...inquisitor, // conflicts with familiar, investigator, ranger
-	...paladin, // conflicts with hunter
-	...skald, // conflicts with fighter
-	...warpriest
+	cleric,
+	companion,
+	druid,
+	shaman
 };
 
-type Data = typeof archetypes;
+type Data = typeof cleric | typeof companion | typeof druid | typeof shaman;
 
-const ArchetypeGroup3Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+type Classes = keyof typeof archetypes;
 
-	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
-	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
+type Params = { id?: keyof Data, parent?: Classes };
 
-	const pageId = `/arc-${parent}/${id}`;
+const ArchetypeGroup2Page: React.FC = () => {
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, arches);
+	const { id = "not_found", parent = "shaman" } = useParams<Params>();
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={pageId}
-		topLink={[classTitle, "class/" + parent]}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	const base = archetypes[parent] || archetypes.shaman;
+
+	const Page = base[id];
+
+	return <Page />;
 };
 
-export default ArchetypeGroup3Page;
+export default ArchetypeGroup2Page;

@@ -1,38 +1,42 @@
-import getItem from '../components/getItem';
-import cleric from './subpages/__arc-cleric';
-import magus from './subpages/__arc-magus';
-import occultist from './subpages/__arc-occultist';
-import oracle from './subpages/__arc-oracle';
-import { ArchetypeProps } from './ArchetypePage';
-import BasicPage from './BasicPage';
+import { useParams } from 'wouter';
+import familiar from './subpages/__arc-familiar';
+import fighter from './subpages/__arc-fighter';
+import gunslinger from './subpages/__arc-gunslinger';
+import hunter from './subpages/__arc-hunter';
+import psychic from './subpages/__arc-psychic';
 import './Page.css';
 
+/*
+	familiar: [4, "Familiar"], //20; conflicts with cavalier, bard, inquisitor, investigator, ranger
+	fighter: [4, "Fighter"], //67; conflicts with ranger, skald
+	gunslinger: [4, "Gunslinger"], //23; conflicts with bard
+	hunter: [4, "Hunter"], //21; conflicts with paladin, rogue
+	psychic: [4, "Psychic"], //8
+*/
+
 const archetypes = {
-	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...cleric, // conflicts with wizard
-	...magus,
-	...occultist, // conflicts with summoner
-	...oracle // conflicts with sorcerer
+	familiar,
+	fighter,
+	gunslinger,
+	hunter,
+	psychic
 };
 
-type Data = typeof archetypes;
+type Data = typeof familiar | typeof fighter | typeof gunslinger | typeof hunter | typeof psychic;
 
-const ArchetypeGroup4Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+type Classes = keyof typeof archetypes;
 
-	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
-	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
+type Params = { id?: keyof Data, parent?: Classes };
 
-	const pageId = `/arc-${parent}/${id}`;
+const ArchetypeGroup2Page: React.FC = () => {
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, arches);
+	const { id = "not_found", parent = "psychic" } = useParams<Params>();
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={pageId}
-		topLink={[classTitle, "class/" + parent]}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	const base = archetypes[parent] || archetypes.psychic;
+
+	const Page = base[id];
+
+	return <Page />;
 };
 
-export default ArchetypeGroup4Page;
+export default ArchetypeGroup2Page;

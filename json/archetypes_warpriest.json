@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested warpriest archetype."
+		]
+	},
 	"calamity_caller": {
 		"name": "Calamity Caller",
 		"sources": [ "Heroes from the Fringe" ],

@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested samurai archetype."
+		]
+	},
 	"brawling_blademaster": {
 		"name": "Brawling Blademaster",
 		"sources": [ "Martial Arts Handbook" ],

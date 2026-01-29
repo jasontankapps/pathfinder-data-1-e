@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested ninja archetype."
+		]
+	},
 	"frozen_shadow": {
 		"name": "Frozen Shadow",
 		"sources": [ "Inner Sea Intrigue" ],

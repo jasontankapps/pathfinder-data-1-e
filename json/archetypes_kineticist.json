@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested kineticist archetype."
+		]
+	},
 	"aquakinetcist": {
 		"name": "Aquakinetcist",
 		"sources": [ "Aquatic Adventures" ],

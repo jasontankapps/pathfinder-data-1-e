@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested medium archetype."
+		]
+	},
 	"fiend_keeper": {
 		"name": "Fiend Keeper",
 		"sources": [ "Blood of the Beast" ],

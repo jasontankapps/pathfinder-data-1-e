@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested rogue archetype."
+		]
+	},
 	"acrobat": {
 		"name": "Acrobat",
 		"sources": [ "Advanced Player's Guide" ],

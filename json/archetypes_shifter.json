@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested shifter archetype."
+		]
+	},
 	"adaptive_shifter": {
 		"name": "Adaptive Shifter",
 		"sources": [ "Distant Realms" ],

@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested magus archetype."
+		]
+	},
 	"armored_battlemage": {
 		"name": "Armored Battlemage",
 		"sources": [ "Armor Master's Handbook" ],

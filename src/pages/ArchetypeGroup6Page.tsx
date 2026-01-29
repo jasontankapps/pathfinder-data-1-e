@@ -1,32 +1,42 @@
-import getItem from '../components/getItem';
-import witch from './subpages/__arc-witch';
-import { ArchetypeProps } from './ArchetypePage';
-import BasicPage from './BasicPage';
+import { useParams } from 'wouter';
+import investigator from './subpages/__arc-investigator';
+import monk from './subpages/__arc-monk';
+import occultist from './subpages/__arc-occultist';
+import warpriest from './subpages/__arc-warpriest';
+import unchained_summoner from './subpages/__arc-unchained_summoner';
 import './Page.css';
 
+/*
+	investigator: [6, "Investigator"], //37; conflicts with familiar, inquisitor, ranger
+	monk: [6, "Monk"], //70
+	occultist: [6, "Occultist"], //20; conflicts with summoner
+	warpriest: [6, "Warpriest"], //18
+	unchained_summoner: [6, "Unchained Summoner"], //10; conflicts with summoner
+*/
+
 const archetypes = {
-	"not_found": { jsx: <><h2>Error</h2><p>Unable to find the requested archetype.</p></>, title: "Unknown"},
-	...witch
+	investigator,
+	monk,
+	occultist,
+	warpriest,
+	unchained_summoner
 };
 
-type Data = typeof archetypes;
+type Data = typeof investigator | typeof monk | typeof occultist | typeof warpriest | typeof unchained_summoner;
 
-const ArchetypeGroup6Page: React.FC<ArchetypeProps> = ({id, parent, classTitle}) => {
+type Classes = keyof typeof archetypes;
 
-	const arches: Data = {...archetypes, not_found: {...archetypes.not_found}};
-	arches.not_found.jsx = <><h2>Error</h2><p>Unable to find the requested {parent} archetype.</p></>;
+type Params = { id?: keyof Data, parent?: Classes };
 
-	const pageId = `/arc-${parent}/${id}`;
+const ArchetypeGroup2Page: React.FC = () => {
 
-	const { hasJL, title, jsx, notBookmarkable } = getItem<Data>(id as keyof Data, arches);
+	const { id = "not_found", parent = "unchained_summoner" } = useParams<Params>();
 
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={pageId}
-		topLink={[classTitle, "class/" + parent]}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
+	const base = archetypes[parent] || archetypes.unchained_summoner;
+
+	const Page = base[id];
+
+	return <Page />;
 };
 
-export default ArchetypeGroup6Page;
+export default ArchetypeGroup2Page;

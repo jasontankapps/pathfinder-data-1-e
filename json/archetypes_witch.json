@@ -1,4 +1,12 @@
 {
+	"not_found": {
+		"name": "Unknown",
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested witch archetype."
+		]
+	},
 	"alley_witch": {
 		"name": "Alley Witch",
 		"sources": [ "Heroes of the Streets" ],
