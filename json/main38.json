@@ -1,4 +1,682 @@
 {
+	"traits_campaign": {
+		"title": "Campaign Traits",
+		"description": [
+			"::main[Generic Campaign]{to=main/traits_campaign_generic endem=\"(3 traits)\"}",
+			"",
+			"::main[Carrion Crown]{to=main/traits_campaign_carrion_crown endem=\"(6 traits)\"}",
+			"",
+			"::main[Council of Thieves]{to=main/traits_campaign_council_of_thieves endem=\"(7 traits)\"}",
+			"",
+			"::main[Curse of the Crimson Throne]{to=main/traits_campaign_curse_of_the_crimson_throne endem=\"(8 traits)\"}",
+			"",
+			"::main[Giantslayer]{to=main/traits_campaign_giantslayer endem=\"(10 traits)\"}",
+			"",
+			"::main[Hell's Rebels]{to=main/traits_campaign_hells_rebels endem=\"(10 traits)\"}",
+			"",
+			"::main[Hell's Vengeance]{to=main/traits_campaign_hells_vengeance endem=\"(12 traits)\"}",
+			"",
+			"::main[Iron Gods]{to=main/traits_campaign_iron_gods endem=\"(6 traits)\"}",
+			"",
+			"::main[Ironfang Invasion]{to=main/traits_campaign_ironfang_invasion endem=\"(9 traits)\"}",
+			"",
+			"::main[Jade Regent]{to=main/traits_campaign_jade_regent endem=\"(11 traits)\"}",
+			"",
+			"::main[Kingmaker]{to=main/traits_campaign_kingmaker endem=\"(7 traits)\"}",
+			"",
+			"::main[Legacy of Fire]{to=main/traits_campaign_legacy_of_fire endem=\"(6 traits)\"}",
+			"",
+			"::main[Mummy's Mask]{to=main/traits_campaign_mummys_mask endem=\"(10 traits)\"}",
+			"",
+			"::main[Reign of Winter]{to=main/traits_campaign_reign_of_winter endem=\"(7 traits)\"}",
+			"",
+			"::main[Return of the Runelords]{to=main/traits_campaign_return_of_the_runelords endem=\"(7 traits)\"}",
+			"",
+			"::main[Rise of the Runelords]{to=main/traits_campaign_rise_of_the_runelords endem=\"(12 traits)\"}",
+			"",
+			"::main[Ruins of Azlant]{to=main/traits_campaign_ruins_of_azlant endem=\"(12 traits)\"}",
+			"",
+			"::main[Second Darkness]{to=main/traits_campaign_second_darkness endem=\"(9 traits)\"}",
+			"",
+			"::main[Serpent's Skull]{to=main/traits_campaign_serpents_skull endem=\"(10 traits)\"}",
+			"",
+			"::main[Shattered Star]{to=main/traits_campaign_shattered_star endem=\"(7 traits)\"}",
+			"",
+			"::main[Skull and Shackles]{to=main/traits_campaign_skull_and_shackles endem=\"(10 traits)\"}",
+			"",
+			"::main[Strange Aeons]{to=main/traits_campaign_strange_aeons endem=\"(10 traits)\"}",
+			"",
+			"::main[Tyrant's Grasp]{to=main/traits_campaign_tyrants_grasp endem=\"(8 traits)\"}",
+			"",
+			"::main[War for the Crown]{to=main/traits_campaign_war_for_the_crown endem=\"(7 traits)\"}",
+			"",
+			"::main[Wrath of the Righteous]{to=main/traits_campaign_wrath_of_the_righteous endem=\"(6 traits)\"}"
+		],
+		"searchgroup": "trait"
+	},
+	"traits_campaign_generic": {
+		"title": "Campaign Traits: Generic",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Generic Campaign",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_carrion_crown": {
+		"title": "Campaign Traits: Carrion Crown",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Carrion Crown",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_council_of_thieves": {
+		"title": "Campaign Traits: Council of Thieves",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Council of Thieves",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_curse_of_the_crimson_throne": {
+		"title": "Campaign Traits: Curse of the Crimson Throne",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Curse of the Crimson Throne",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_giantslayer": {
+		"title": "Campaign Traits: Giantslayer",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Giantslayer",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_hells_rebels": {
+		"title": "Campaign Traits: Hell's Rebels",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Hell's Rebels",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_hells_vengeance": {
+		"title": "Campaign Traits: Hell's Vengeance",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Hell's Vengeance",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_iron_gods": {
+		"title": "Campaign Traits: Iron Gods",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Iron Gods",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_ironfang_invasion": {
+		"title": "Campaign Traits: Ironfang Invasion",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Ironfang Invasion",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_jade_regent": {
+		"title": "Campaign Traits: Jade Regent",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Jade Regent",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_kingmaker": {
+		"title": "Campaign Traits: Kingmaker",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Kingmaker",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_legacy_of_fire": {
+		"title": "Campaign Traits: Legacy of Fire",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Legacy of Fire",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_mummys_mask": {
+		"title": "Campaign Traits: Mummy's Mask",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Mummy's Mask",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_reign_of_winter": {
+		"title": "Campaign Traits: Reign of Winter",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Reign of Winter",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_return_of_the_runelords": {
+		"title": "Campaign Traits: Return of the Runelords",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Return of the Runelords",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_rise_of_the_runelords": {
+		"title": "Campaign Traits: Rise of the Runelords",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Rise of the Runelords",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_ruins_of_azlant": {
+		"title": "Campaign Traits: Ruins of Azlant",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Ruins of Azlant",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_second_darkness": {
+		"title": "Campaign Traits: Second Darkness",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Second Darkness",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_serpents_skull": {
+		"title": "Campaign Traits: Serpent's Skull",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Serpent's Skull",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_shattered_star": {
+		"title": "Campaign Traits: Shattered Star",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Shattered Star",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_skull_and_shackles": {
+		"title": "Campaign Traits: Skull and Shackles",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Skull and Shackles",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_strange_aeons": {
+		"title": "Campaign Traits: Strange Aeons",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Strange Aeons",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_tyrants_grasp": {
+		"title": "Campaign Traits: Tyrant's Grasp",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Tyrant's Grasp",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_war_for_the_crown": {
+		"title": "Campaign Traits: War for the Crown",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "War for the Crown",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_campaign_wrath_of_the_righteous": {
+		"title": "Campaign Traits: Wrath of the Righteous",
+		"searchgroup": "trait",
+		"compileFrom": {
+			"source": "trait",
+			"targets": [
+				[
+					"::main[Back to Campaign Traits]{to=main/traits_campaign rev}",
+					""
+				],
+				{
+					"limit": "Wrath of the Righteous",
+					"join": [ "", "", "" ],
+					"modifyDescription": {
+						"regex": "((?:\\*\\*.+?!-N-!)+!-N-!)(.+)",
+						"replacement": "$1!-SOURCE-!  !-N-!$2"
+					},
+					"template": ":::item!-N-!!-N-!## ‹trait/!-TITLE-!›!-N-!!-N-!!-DESC-!!-N-!!-N-!:::"
+				}
+			]
+		}
+	},
+	"traits_race": {
+		"title": "Race Traits",
+		"sources": [ "Ultimate Campaign" ],
+		"description": [
+			":::item",
+			"",
+			"‹SOURCE Ultimate Campaign›  ",
+			"Race traits are tied to specific races. Your character must be of the specified race to select a race trait.",
+			"",
+			":::",
+			"",
+			"::mainheader[Core Races]",
+			"",
+			"::main[Generic Race Traits]{to=main/traits_race_generic endem=\"(4 traits)\"}",
+			"",
+			"::main[Dwarf Traits]{to=main/traits_race_dwarf endem=\"(19 traits)\"}",
+			"",
+			"::main[Elf Traits]{to=main/traits_race_elf endem=\"(15 traits)\"}",
+			"",
+			"::main[Gnome Traits]{to=main/traits_race_gnome endem=\"(11 traits)\"}",
+			"",
+			"::main[Half-elf Traits]{to=main/traits_race_half_elf endem=\"(10 traits)\"}",
+			"",
+			"::main[Half-orc Traits]{to=main/traits_race_half_orc endem=\"(15 traits)\"}",
+			"",
+			"::main[Halfling Traits]{to=main/traits_race_halfling endem=\"(14 traits)\"}",
+			"",
+			"::main[Human Traits]{to=main/traits_race_human endem=\"(90 traits)\"}",
+			"",
+			"::mainheader[Other Races]",
+			"",
+			"::main[Aasimar Traits]{to=main/traits_race_aasimar endem=\"(24 traits)\"}",
+			"",
+			"::main[Android Traits]{to=main/traits_race_android endem=\"(4 traits)\"}",
+			"",
+			"::main[Catfolk Traits]{to=main/traits_race_catfolk endem=\"(3 traits)\"}",
+			"",
+			"::main[Changeling Traits]{to=main/traits_race_changeling endem=\"(6 traits)\"}",
+			"",
+			"::main[Dhampir Traits]{to=main/traits_race_dhampir endem=\"(12 traits)\"}",
+			"",
+			"::main[Drow Traits]{to=main/traits_race_drow endem=\"(4 traits)\"}",
+			"",
+			"::main[Fetchling Traits]{to=main/traits_race_fetchling endem=\"(4 traits)\"}",
+			"",
+			"::main[Geniekin Traits]{to=main/traits_race_geniekin endem=\"(27 traits)\"}",
+			"",
+			"::main[Goblin Traits]{to=main/traits_race_goblin endem=\"(13 traits)\"}",
+			"",
+			"::main[Kasatha Traits]{to=main/traits_race_kasatha endem=\"(3 traits)\"}",
+			"",
+			"::main[Kitsune Traits]{to=main/traits_race_kitsune endem=\"(3 traits)\"}",
+			"",
+			"::main[Kobold Traits]{to=main/traits_race_kobold endem=\"(24 traits)\"}",
+			"",
+			"::main[Lashunta Traits]{to=main/traits_race_lashunta endem=\"(3 traits)\"}",
+			"",
+			"::main[Orc Traits]{to=main/traits_race_orc endem=\"(14 traits)\"}",
+			"",
+			"::main[Ratfolk Traits]{to=main/traits_race_ratfolk endem=\"(4 traits)\"}",
+			"",
+			"::main[Skinwalker Traits]{to=main/traits_race_skinwalker endem=\"(20 traits)\"}",
+			"",
+			"::main[Tiefling Traits]{to=main/traits_race_tiefling endem=\"(43 traits)\"}",
+			"",
+			"::main[Triaxian Traits]{to=main/traits_race_triaxian endem=\"(3 traits)\"}",
+			"",
+			"::main[Vampire Traits]{to=main/traits_race_vampire endem=\"(8 traits)\"}",
+			"",
+			"::main[Other Race Traits]{to=main/traits_race_other_races endem=\"(22 traits)\"}"
+		],
+		"searchgroup": "trait"
+	},
 	"traits_race_generic": {
 		"title": "Generic Race Traits",
 		"searchgroup": "trait",

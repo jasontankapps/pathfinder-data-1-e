@@ -48,7 +48,6 @@ const FeatPage = lazy(() => import("./pages/FeatPage"));
 const MagicArtifactPage = lazy(() => import("./pages/MagicArtifactPage"));
 const MagicWeaponPage = lazy(() => import("./pages/MagicWeaponPage"));
 const MagicWondrousPage = lazy(() => import("./pages/MagicWondrousPage"));
-const MainPage = lazy(() => import("./pages/MainPage"));
 const MonsterPage = lazy(() => import("./pages/MonsterPage"));
 const MonsterTemplatePage = lazy(() => import("./pages/MonsterTemplatePage"));
 const NPCPage = lazy(() => import("./pages/NPCPage"));
@@ -57,6 +56,18 @@ const RacePage = lazy(() => import("./pages/RacePage"));
 const RulesPage = lazy(() => import("./pages/RulesPage"));
 const SpellPage = lazy(() => import("./pages/SpellPage"));
 const TraitPage = lazy(() => import("./pages/TraitPage"));
+
+// Main Pages
+
+const MainPage1 = lazy(() => import("./pages/MainGroup01Page"));
+const MainPage2 = lazy(() => import("./pages/MainGroup02Page"));
+const MainPage3 = lazy(() => import("./pages/MainGroup03Page"));
+const MainPage4 = lazy(() => import("./pages/MainGroup04Page"));
+const MainPage5 = lazy(() => import("./pages/MainGroup05Page"));
+const MainPage6 = lazy(() => import("./pages/MainGroup06Page"));
+const MainPage7 = lazy(() => import("./pages/MainGroup07Page"));
+const MainPage8 = lazy(() => import("./pages/MainGroup08Page"));
+const MainPage9 = lazy(() => import("./pages/MainGroup09Page"));
 
 // Archetype Pages
 
@@ -172,9 +183,49 @@ const App: FC = () => {
 						<Route path="/about"><AboutOnlyPage /></Route>
 						<Route path="/icons/:icon"><Icons /></Route>
 						<Route path="/settings"><SettingsPage /></Route>
-						<Route path="/main/:mainpage">
+						<Route path={/main[/](?<id>traits.*)[/]?$/}>
 							<Suspense fallback={<Loading />}>
-								<MainPage />
+								<MainPage1 />
+							</Suspense>
+						</Route>
+						<Route path={/main[/](?<id>spells.*|occult_rituals|.+_spell)[/]?$/}>
+							<Suspense fallback={<Loading />}>
+								<MainPage2 />
+							</Suspense>
+						</Route>
+						<Route path={/main[/](?<id>npcs.*)[/]?$/}>
+							<Suspense fallback={<Loading />}>
+								<MainPage3 />
+							</Suspense>
+						</Route>
+						<Route path={/main[/](?<id>monster.*)[/]?$/}>
+							<Suspense fallback={<Loading />}>
+								<MainPage4 />
+							</Suspense>
+						</Route>
+						<Route path={/main[/](?<id>magic.*)[/]?$/}>
+							<Suspense fallback={<Loading />}>
+								<MainPage5 />
+							</Suspense>
+						</Route>
+						<Route path={/main[/](?<id>feats.*)[/]?$/}>
+							<Suspense fallback={<Loading />}>
+								<MainPage6 />
+							</Suspense>
+						</Route>
+						<Route path={/main[/](?<id>faiths.*|umr.*|spell_groupings|.+_spells)[/]?$/}>
+							<Suspense fallback={<Loading />}>
+								<MainPage7 />
+							</Suspense>
+						</Route>
+						<Route path={/main[/](?<id>equipment.*|tech_.*)[/]?$/}>
+							<Suspense fallback={<Loading />}>
+								<MainPage8 />
+							</Suspense>
+						</Route>
+						<Route path="/main/:id">
+							<Suspense fallback={<Loading />}>
+								<MainPage9 />
 							</Suspense>
 						</Route>
 						<Route path="/bookmarks">
@@ -467,7 +518,7 @@ const App: FC = () => {
 								<MagicWondrousPage />
 							</Suspense>
 						</Route>
-						<Route path={/^[/]magic-(altar|aug|favor|fetish|fleshcraft|graft|implant|necro(graft|toxin)|piercing|plant|poison|relic|set|talisman|tattoo|throne)[/](?<id>[a-z_0-9]+)[/]?$/}>
+						<Route path={/^[/]magic-(altar|aug|favor|fetish|fleshcraft|graft|implant|legacy|necro(graft|toxin)|piercing|plant|poison|relic|set|talisman|tattoo|throne)[/](?<id>[a-z_0-9]+)[/]?$/}>
 							<Suspense fallback={<Loading text="Loading magic..." />}>
 								<MagicMiscPage />
 							</Suspense>

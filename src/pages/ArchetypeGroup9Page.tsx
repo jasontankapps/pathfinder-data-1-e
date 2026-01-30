@@ -3,7 +3,7 @@ import slayer from './subpages/__arc-slayer';
 import spiritualist from './subpages/__arc-spiritualist';
 import summoner from './subpages/__arc-summoner';
 import vigilante from './subpages/__arc-vigilante';
-import witch from './subpages/__arc-shifter';
+import witch from './subpages/__arc-witch';
 import './Page.css';
 
 /*
@@ -28,15 +28,15 @@ type Classes = keyof typeof archetypes;
 
 type Params = { id?: keyof Data, parent?: Classes };
 
-const ArchetypeGroup2Page: React.FC = () => {
+const ArchetypeGroup9Page: React.FC = () => {
 
 	const { id = "not_found", parent = "summoner" } = useParams<Params>();
 
 	const base = archetypes[parent] || archetypes.summoner;
 
-	const Page = base[id];
+	const Page = base[id] || base.not_found;
 
 	return <Page />;
 };
 
-export default ArchetypeGroup2Page;
+export default ArchetypeGroup9Page;

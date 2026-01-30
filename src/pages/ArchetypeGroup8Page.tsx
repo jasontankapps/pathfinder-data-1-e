@@ -3,7 +3,7 @@ import rogue from './subpages/__arc-rogue';
 import samurai from './subpages/__arc-samurai';
 import skald from './subpages/__arc-skald';
 import sorcerer from './subpages/__arc-sorcerer';
-import swashbuckler from './subpages/__arc-shifter';
+import swashbuckler from './subpages/__arc-swashbuckler';
 import './Page.css';
 
 /*
@@ -28,15 +28,15 @@ type Classes = keyof typeof archetypes;
 
 type Params = { id?: keyof Data, parent?: Classes };
 
-const ArchetypeGroup2Page: React.FC = () => {
+const ArchetypeGroup8Page: React.FC = () => {
 
 	const { id = "not_found", parent = "samurai" } = useParams<Params>();
 
 	const base = archetypes[parent] || archetypes.samurai;
 
-	const Page = base[id];
+	const Page = base[id] || base.not_found;
 
 	return <Page />;
 };
 
-export default ArchetypeGroup2Page;
+export default ArchetypeGroup8Page;

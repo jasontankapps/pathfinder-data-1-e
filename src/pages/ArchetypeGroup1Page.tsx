@@ -34,7 +34,7 @@ const ArchetypeGroup1Page: React.FC = () => {
 
 	const base = archetypes[parent] || archetypes.barbarian;
 
-	const Page = base[id];
+	const Page = base[id] || base.not_found;
 
 	return <Page />;
 };

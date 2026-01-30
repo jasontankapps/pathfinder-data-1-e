@@ -220,7 +220,7 @@ import magicwondrous8 from '../json/magic_wondrous_slotless03.json' with {type: 
 import magicwondrous9 from '../json/magic_wondrous_slotless04.json' with {type: 'json'};
 import magicwondrous10 from '../json/magic_wondrous_slotless05.json' with {type: 'json'};
 import magicwondrous11 from '../json/magic_wondrous_slotless06.json' with {type: 'json'};
-import main1 from '../json/main.json' with {type: 'json'};
+import main1 from '../json/main01.json' with {type: 'json'};
 import main2 from '../json/main02.json' with {type: 'json'};
 import main3 from '../json/main03.json' with {type: 'json'};
 import main4 from '../json/main04.json' with {type: 'json'};
@@ -3128,273 +3128,390 @@ const basic_data_groups = {
 		datatype: "main",
 		link: "main",
 		num: 1,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main02": {
 		data: main2,
 		datatype: "main",
 		link: "main",
 		num: 2,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main03": {
 		data: main3,
 		datatype: "main",
 		link: "main",
 		num: 3,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main04": {
 		data: main4,
 		datatype: "main",
 		link: "main",
 		num: 4,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main05": {
 		data: main5,
 		datatype: "main",
 		link: "main",
 		num: 5,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main06": {
 		data: main6,
 		datatype: "main",
 		link: "main",
 		num: 6,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main07": {
 		data: main7,
 		datatype: "main",
 		link: "main",
 		num: 7,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main08": {
 		data: main8,
 		datatype: "main",
 		link: "main",
 		num: 8,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main09": {
 		data: main9,
 		datatype: "main",
 		link: "main",
 		num: 9,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main10": {
 		data: main10,
 		datatype: "main",
 		link: "main",
 		num: 10,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main11": {
 		data: main11,
 		datatype: "main",
 		link: "main",
 		num: 11,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main12": {
 		data: main12,
 		datatype: "main",
 		link: "main",
 		num: 12,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main13": {
 		data: main13,
 		datatype: "main",
 		link: "main",
 		num: 13,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main14": {
 		data: main14,
 		datatype: "main",
 		link: "main",
 		num: 14,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main15": {
 		data: main15,
 		datatype: "main",
 		link: "main",
 		num: 15,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main16": {
 		data: main16,
 		datatype: "main",
 		link: "main",
 		num: 16,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main17": {
 		data: main17,
 		datatype: "main",
 		link: "main",
 		num: 17,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main18": {
 		data: main18,
 		datatype: "main",
 		link: "main",
 		num: 18,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main19": {
 		data: main19,
 		datatype: "main",
 		link: "main",
 		num: 19,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main20": {
 		data: main20,
 		datatype: "main",
 		link: "main",
 		num: 20,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main21": {
 		data: main21,
 		datatype: "main",
 		link: "main",
 		num: 21,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main22": {
 		data: main22,
 		datatype: "main",
 		link: "main",
 		num: 22,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main23": {
 		data: main23,
 		datatype: "main",
 		link: "main",
 		num: 23,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main24": {
 		data: main24,
 		datatype: "main",
 		link: "main",
 		num: 24,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main25": {
 		data: main25,
 		datatype: "main",
 		link: "main",
 		num: 25,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main26": {
 		data: main26,
 		datatype: "main",
 		link: "main",
 		num: 26,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main27": {
 		data: main27,
 		datatype: "main",
 		link: "main",
 		num: 27,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main28": {
 		data: main28,
 		datatype: "main",
 		link: "main",
 		num: 28,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main29": {
 		data: main29,
 		datatype: "main",
 		link: "main",
 		num: 29,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main30": {
 		data: main30,
 		datatype: "main",
 		link: "main",
 		num: 30,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main31": {
 		data: main31,
 		datatype: "main",
 		link: "main",
 		num: 31,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main32": {
 		data: main32,
 		datatype: "main",
 		link: "main",
 		num: 32,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main33": {
 		data: main33,
 		datatype: "main",
 		link: "main",
 		num: 33,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main34": {
 		data: main34,
 		datatype: "main",
 		link: "main",
 		num: 34,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main35": {
 		data: main35,
 		datatype: "main",
 		link: "main",
 		num: 35,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main36": {
 		data: main36,
 		datatype: "main",
 		link: "main",
 		num: 36,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main37": {
 		data: main37,
 		datatype: "main",
 		link: "main",
 		num: 37,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main38": {
 		data: main38,
 		datatype: "main",
 		link: "main",
 		num: 38,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"main39": {
 		data: main39,
 		datatype: "main",
 		link: "main",
 		num: 39,
-		type: "General Info"
+		type: "General Info",
+		extra: {
+			className: "main"
+		}
 	},
 	"monsters01": {
 		data: monster1,

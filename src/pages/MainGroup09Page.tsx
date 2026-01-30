@@ -1,6 +1,29 @@
-import main from './subpages/__main9';
-import MainGroupBasic from './MainGroupBasic';
+import { useParams } from 'wouter';
+import m1 from './subpages/__main01';
+import ErrorPage from './ErrorPage';
+import './Page.css';
 
-const MainGroup09Page: React.FC<{id: string}> = ({id}) => <MainGroupBasic id={id} info={main} />;
+/*
+	Main pages
+*/
 
-export default MainGroup09Page;
+
+type Data = typeof m1;
+
+type Params = { id?: keyof Data };
+
+const MainGroup9Page: React.FC = () => {
+	console.log(9);
+
+	const { id = "main" } = useParams<Params>();
+
+	const Page = m1[id];
+
+	if(!Page) {
+		return <ErrorPage />;
+	}
+
+	return <Page />;
+};
+
+export default MainGroup9Page;

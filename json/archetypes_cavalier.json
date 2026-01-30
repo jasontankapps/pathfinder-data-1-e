@@ -52,7 +52,7 @@
 			"",
 			";;;ab{title=\"Ranger Animal Companions\" icon=power next action=Choice}",
 			"",
-			":::div{className=columnar}",
+			":::div{className=\"columnar clearBoth\"}",
 			"",
 			"- ‹companion/Antelope›",
 			"- ‹companion/Armorfish›",

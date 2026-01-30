@@ -28,15 +28,15 @@ type Classes = keyof typeof archetypes;
 
 type Params = { id?: keyof Data, parent?: Classes };
 
-const ArchetypeGroup2Page: React.FC = () => {
+const ArchetypeGroup6Page: React.FC = () => {
 
 	const { id = "not_found", parent = "unchained_summoner" } = useParams<Params>();
 
 	const base = archetypes[parent] || archetypes.unchained_summoner;
 
-	const Page = base[id];
+	const Page = base[id] || base.not_found;
 
 	return <Page />;
 };
 
-export default ArchetypeGroup2Page;
+export default ArchetypeGroup6Page;

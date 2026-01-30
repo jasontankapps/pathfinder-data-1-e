@@ -1,6 +1,29 @@
-import main from './subpages/__main7';
-import MainGroupBasic from './MainGroupBasic';
+import { useParams } from 'wouter';
+import m1 from './subpages/__main04';
+import ErrorPage from './ErrorPage';
+import './Page.css';
 
-const MainGroup07Page: React.FC<{id: string}> = ({id}) => <MainGroupBasic id={id} info={main} />;
+/*
+	Faiths, UMR, Spell groupings pages
+*/
 
-export default MainGroup07Page;
+
+type Data = typeof m1;
+
+type Params = { id?: keyof Data };
+
+const MainGroup7Page: React.FC = () => {
+	console.log(7);
+
+	const { id = "faiths" } = useParams<Params>();
+
+	const Page = m1[id];
+
+	if(!Page) {
+		return <ErrorPage />;
+	}
+
+	return <Page />;
+};
+
+export default MainGroup7Page;

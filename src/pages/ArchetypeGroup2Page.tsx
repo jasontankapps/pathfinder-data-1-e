@@ -31,7 +31,7 @@ const ArchetypeGroup2Page: React.FC = () => {
 
 	const base = archetypes[parent] || archetypes.brawler;
 
-	const Page = base[id];
+	const Page = base[id] || base.not_found;
 
 	return <Page />;
 };
