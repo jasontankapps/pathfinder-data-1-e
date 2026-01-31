@@ -3,9 +3,7 @@ import monster_types from './subpages/__type';
 import monster_subtypes from './subpages/__subtype';
 import './Page.css';
 
-type Data = typeof monster_types | typeof monster_subtypes;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MonsterTypingPage: React.FC = () => {
 

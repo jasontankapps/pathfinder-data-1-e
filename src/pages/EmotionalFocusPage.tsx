@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import emotionalfocus from './subpages/__emotionalfocus';
 import './Page.css';
 
-type Data = typeof emotionalfocus;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const ArcanaPage: React.FC = () => {
 

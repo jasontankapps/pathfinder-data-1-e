@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import inquisitions from './subpages/__inquisition';
 import './Page.css';
 
-type Data = typeof inquisitions;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const InquisitionPage: React.FC = () => {
 

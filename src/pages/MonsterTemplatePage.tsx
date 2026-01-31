@@ -5,10 +5,7 @@ import template3 from './subpages/__template03';
 import template4 from './subpages/__template04';
 import './Page.css';
 
-type Data =
-	typeof template1 | typeof template2 | typeof template3 | typeof template4;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MonsterTemplatePage: React.FC = () => {
 

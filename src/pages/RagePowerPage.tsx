@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import ragepowers from './subpages/__ragepower';
 import './Page.css';
 
-type Data = typeof ragepowers;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const RagePowerPage: React.FC = () => {
 

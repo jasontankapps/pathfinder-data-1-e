@@ -411,6 +411,7 @@ const basic_data_groups = {
 	"rules_basics01": {
 		data: rule1,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 1,
@@ -419,6 +420,7 @@ const basic_data_groups = {
 	"rules_basics02": {
 		data: rule2,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 2,
@@ -427,6 +429,7 @@ const basic_data_groups = {
 	"rules_basics03": {
 		data: rule3,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 3,
@@ -435,6 +438,7 @@ const basic_data_groups = {
 	"rules_basics04": {
 		data: rule4,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 4,
@@ -443,6 +447,7 @@ const basic_data_groups = {
 	"rules_combat01": {
 		data: rule5,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 5,
@@ -451,6 +456,7 @@ const basic_data_groups = {
 	"rules_gm01": {
 		data: rule6,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 6,
@@ -459,6 +465,7 @@ const basic_data_groups = {
 	"rules_gm02": {
 		data: rule7,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 7,
@@ -467,6 +474,7 @@ const basic_data_groups = {
 	"rules_gm03": {
 		data: rule8,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 8,
@@ -475,6 +483,7 @@ const basic_data_groups = {
 	"rules_gm04": {
 		data: rule9,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 9,
@@ -483,6 +492,7 @@ const basic_data_groups = {
 	"rules_gm05": {
 		data: rule10,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 10,
@@ -491,6 +501,7 @@ const basic_data_groups = {
 	"rules_gm06": {
 		data: rule11,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 11,
@@ -499,6 +510,7 @@ const basic_data_groups = {
 	"rules_gm07": {
 		data: rule12,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 12,
@@ -507,6 +519,7 @@ const basic_data_groups = {
 	"rules_gm08": {
 		data: rule13,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 13,
@@ -515,6 +528,7 @@ const basic_data_groups = {
 	"rules_adv_pc01": {
 		data: rule14,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 14,
@@ -523,6 +537,7 @@ const basic_data_groups = {
 	"rules_adv_gm01": {
 		data: rule15,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 15,
@@ -531,6 +546,7 @@ const basic_data_groups = {
 	"rules_adv_gm02": {
 		data: rule16,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 16,
@@ -539,6 +555,7 @@ const basic_data_groups = {
 	"rules_adv_gm03": {
 		data: rule17,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 17,
@@ -547,6 +564,7 @@ const basic_data_groups = {
 	"rules_adv_gm04": {
 		data: rule18,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 18,
@@ -555,6 +573,7 @@ const basic_data_groups = {
 	"rules_adv_gm05": {
 		data: rule19,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 19,
@@ -563,6 +582,7 @@ const basic_data_groups = {
 	"rules_adv_gm06": {
 		data: rule20,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 20,
@@ -571,6 +591,7 @@ const basic_data_groups = {
 	"rules_adv_gm07": {
 		data: rule21,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 21,
@@ -579,6 +600,7 @@ const basic_data_groups = {
 	"rules_adv_magic01": {
 		data: rule22,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 22,
@@ -587,6 +609,7 @@ const basic_data_groups = {
 	"rules_campaign_types01": {
 		data: rule23,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 23,
@@ -595,6 +618,7 @@ const basic_data_groups = {
 	"rules_campaign_types02": {
 		data: rule24,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 24,
@@ -603,6 +627,7 @@ const basic_data_groups = {
 	"rules_campaign_types03": {
 		data: rule25,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 25,
@@ -611,6 +636,7 @@ const basic_data_groups = {
 	"rules_campaign_types04": {
 		data: rule26,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 26,
@@ -619,6 +645,7 @@ const basic_data_groups = {
 	"rules_campaign_types05": {
 		data: rule27,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 27,
@@ -627,6 +654,7 @@ const basic_data_groups = {
 	"rules_campaign_types06": {
 		data: rule28,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 28,
@@ -635,6 +663,7 @@ const basic_data_groups = {
 	"rules_campaign_types07": {
 		data: rule29,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 29,
@@ -643,6 +672,7 @@ const basic_data_groups = {
 	"rules_campaign_types08": {
 		data: rule30,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 30,
@@ -651,6 +681,7 @@ const basic_data_groups = {
 	"rules_campaign_types09": {
 		data: rule31,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 31,
@@ -659,6 +690,7 @@ const basic_data_groups = {
 	"rules_campaign_types10": {
 		data: rule32,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 32,
@@ -667,6 +699,7 @@ const basic_data_groups = {
 	"rules_rulesets01": {
 		data: rule33,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 33,
@@ -675,6 +708,7 @@ const basic_data_groups = {
 	"rules_rulesets02": {
 		data: rule34,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 34,
@@ -683,6 +717,7 @@ const basic_data_groups = {
 	"rules_subsystems01": {
 		data: rule35,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 35,
@@ -691,6 +726,7 @@ const basic_data_groups = {
 	"rules_subsystems02": {
 		data: rule36,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 36,
@@ -699,6 +735,7 @@ const basic_data_groups = {
 	"rules_subsystems03": {
 		data: rule37,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 37,
@@ -707,6 +744,7 @@ const basic_data_groups = {
 	"rules_subsystems04": {
 		data: rule38,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 38,
@@ -715,6 +753,7 @@ const basic_data_groups = {
 	"rules_opt_skills01": {
 		data: rule39,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 39,
@@ -723,6 +762,7 @@ const basic_data_groups = {
 	"rules_opt_alignment01": {
 		data: rule40,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 40,
@@ -731,6 +771,7 @@ const basic_data_groups = {
 	"rules_opt_combat01": {
 		data: rule41,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 41,
@@ -739,6 +780,7 @@ const basic_data_groups = {
 	"rules_opt_pc_adv01": {
 		data: rule42,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 42,
@@ -747,6 +789,7 @@ const basic_data_groups = {
 	"rules_opt_magic01": {
 		data: rule43,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 43,
@@ -755,6 +798,7 @@ const basic_data_groups = {
 	"rules_opt_magic02": {
 		data: rule44,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 44,
@@ -763,6 +807,7 @@ const basic_data_groups = {
 	"rules_opt_magic03": {
 		data: rule45,
 		datatype: "rule",
+		basicPage: "BasicRulesPage",
 		searchgroup: 12, // rule
 		link: "rule",
 		num: 45,

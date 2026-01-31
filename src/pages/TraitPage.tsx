@@ -6,10 +6,7 @@ import trait4 from './subpages/__trait04';
 import trait5 from './subpages/__trait05';
 import './Page.css';
 
-type Data =
-	typeof trait1 | typeof trait2 | typeof trait3 | typeof trait4 | typeof trait5;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const TraitPage: React.FC = () => {
 

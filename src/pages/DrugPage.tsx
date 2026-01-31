@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import drugs from './subpages/__drug';
 import './Page.css';
 
-type Data = typeof drugs;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const DrugPage: React.FC = () => {
 

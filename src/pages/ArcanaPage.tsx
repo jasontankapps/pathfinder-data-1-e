@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import arcana from './subpages/__arcana';
 import './Page.css';
 
-type Data = typeof arcana;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const ArcanaPage: React.FC = () => {
 

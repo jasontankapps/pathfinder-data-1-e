@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import spirits from './subpages/__spirit';
 import './Page.css';
 
-type Data = typeof spirits;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MediumSpiritPage: React.FC = () => {
 	const { id = "not_found" } = useParams<Params>();

@@ -3,9 +3,7 @@ import { useParams } from 'wouter';
 import equipment from './subpages/__eq-siegeengine';
 import './Page.css';
 
-type Data = typeof equipment;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const EquipmentSiegeEnginePage: React.FC = () => {
 

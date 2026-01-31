@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import companions from './subpages/__companion';
 import './Page.css';
 
-type Data = typeof companions;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const CompanionPage: React.FC = () => {
 

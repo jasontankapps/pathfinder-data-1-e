@@ -3,9 +3,7 @@ import family1 from './subpages/__family01';
 import family2 from './subpages/__family02';
 import './Page.css';
 
-type Data = typeof family1 | typeof family2;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MonsterFamilyPage: React.FC = () => {
 

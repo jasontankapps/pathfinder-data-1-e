@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import domains from './subpages/__druiddomain';
 import './Page.css';
 
-type Data = typeof domains;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const DruidDomainPage: React.FC = () => {
 

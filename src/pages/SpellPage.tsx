@@ -18,14 +18,7 @@ import spell16 from './subpages/__spell16';
 import spell17 from './subpages/__spell17';
 import './Page.css';
 
-type Data =
-	typeof spell1 | typeof spell2 | typeof spell3 | typeof spell4
-	| typeof spell5 | typeof spell6 | typeof spell7 | typeof spell8
-	| typeof spell9 | typeof spell10 | typeof spell11 | typeof spell12
-	| typeof spell13 | typeof spell14 | typeof spell15 | typeof spell16
-	| typeof spell17;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const SpellPage: React.FC = () => {
 

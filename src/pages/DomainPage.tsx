@@ -3,9 +3,7 @@ import domains1 from './subpages/__domain01';
 import domains2 from './subpages/__domain02';
 import './Page.css';
 
-type Data = typeof domains1 | typeof domains2;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const DomainPage: React.FC = () => {
 

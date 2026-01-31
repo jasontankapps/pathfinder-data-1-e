@@ -20,12 +20,7 @@ const allTalents = {
 
 type Talent = keyof typeof allTalents;
 
-type Data =
-	typeof talent | typeof slayertalent | typeof phrenicamp
-	| typeof deed | typeof swashdeed | typeof hkdiscipline
-	| typeof rangertrap;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
 

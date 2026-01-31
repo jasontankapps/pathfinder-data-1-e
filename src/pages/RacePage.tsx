@@ -5,10 +5,7 @@ import race3 from './subpages/__race03';
 import race4 from './subpages/__race04';
 import './Page.css';
 
-type Data =
-	typeof race1 | typeof race2 | typeof race3 | typeof race4;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const RacePage: React.FC = () => {
 

@@ -22,11 +22,9 @@ const archetypes = {
 	medium
 };
 
-type Data = typeof alchemist | typeof antipaladin | typeof arcanist | typeof barbarian | typeof medium;
-
 type Classes = keyof typeof archetypes;
 
-type Params = { id?: keyof Data, parent?: Classes };
+type Params = { id?: string, parent?: Classes };
 
 const ArchetypeGroup1Page: React.FC = () => {
 

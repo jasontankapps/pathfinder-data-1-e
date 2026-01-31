@@ -18,15 +18,7 @@ import feat16 from './subpages/__feat16';
 import feat17 from './subpages/__feat17';
 import './Page.css';
 
-type Data =
-	typeof feat1 | typeof feat2 | typeof feat3
-	| typeof feat4 | typeof feat5 | typeof feat6
-	| typeof feat7 | typeof feat8 | typeof feat9
-	| typeof feat10 | typeof feat11 | typeof feat12
-	| typeof feat13 | typeof feat14 | typeof feat15
-	| typeof feat16 | typeof feat17;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 
 const FeatPage: React.FC = () => {

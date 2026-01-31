@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import spirits from './subpages/__shamanspirit';
 import './Page.css';
 
-type Data = typeof spirits;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const ShamanSpiritPage: React.FC = () => {
 

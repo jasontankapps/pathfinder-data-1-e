@@ -3,9 +3,7 @@ import eqweapon1 from './subpages/__eq-weapon01';
 import eqweapon2 from './subpages/__eq-weapon02';
 import './Page.css';
 
-type Data = typeof eqweapon1 | typeof eqweapon2;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const EquipmentWeaponPage: React.FC = () => {
 

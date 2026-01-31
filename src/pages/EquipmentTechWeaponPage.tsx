@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import equipment from './subpages/__tech-weapon';
 import './Page.css';
 
-type Data = typeof equipment;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const EquipmentTechWeaponPage: React.FC = () => {
 

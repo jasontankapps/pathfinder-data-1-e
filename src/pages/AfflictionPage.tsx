@@ -6,9 +6,7 @@ import './Page.css';
 
 type Affliction = "curse" | "disease" | "infestation";
 
-type Data = typeof curses | typeof diseases | typeof infestations;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const AfflictionPage: React.FC = () => {
 

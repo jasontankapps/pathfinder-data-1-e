@@ -9,13 +9,9 @@ import class7 from './subpages/__class07';
 import class8 from './subpages/__class08';
 import './Page.css';
 
-type Data =
-	typeof class1 | typeof class2 | typeof class3 | typeof class4
-	| typeof class5 | typeof class6 | typeof class7 | typeof class8;
+type Params = { id?: string };
 
-type Params = { id?: keyof Data };
-
-const ClassPage: React.FC<Params> = () => {
+const ClassPage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 

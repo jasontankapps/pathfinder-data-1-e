@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import blessings from './subpages/__blessing';
 import './Page.css';
 
-type Data = typeof blessings;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const BlessingPage: React.FC = () => {
 

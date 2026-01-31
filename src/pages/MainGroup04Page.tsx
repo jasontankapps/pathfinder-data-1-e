@@ -12,13 +12,11 @@ import './Page.css';
 */
 
 
-type Data = typeof m1 | typeof m2 | typeof m3 | typeof m4 | typeof m5;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MainGroup4Page: React.FC = () => {
-	console.log(4);
 
+	
 	const { id = "monsters" } = useParams<Params>();
 
 	const Page = m1[id] || m2[id] || m3[id] || m4[id] || m5[id];

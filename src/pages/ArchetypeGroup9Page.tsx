@@ -22,11 +22,9 @@ const archetypes = {
 	witch
 };
 
-type Data = typeof slayer | typeof spiritualist | typeof summoner | typeof vigilante | typeof witch;
-
 type Classes = keyof typeof archetypes;
 
-type Params = { id?: keyof Data, parent?: Classes };
+type Params = { id?: string, parent?: Classes };
 
 const ArchetypeGroup9Page: React.FC = () => {
 

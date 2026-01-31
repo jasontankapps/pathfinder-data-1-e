@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import occult_implements from './subpages/__implement';
 import './Page.css';
 
-type Data = typeof occult_implements;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const ImplementPage: React.FC = () => {
 

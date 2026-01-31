@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import haunts from './subpages/__haunt';
 import './Page.css';
 
-type Data = typeof haunts;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const HauntPage: React.FC = () => {
 

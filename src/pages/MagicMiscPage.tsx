@@ -39,9 +39,7 @@ const magic = {
 	...magic_tattoo,
 	...magic_throne
 };
-type Data = typeof magic;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MagicMiscPage: React.FC = () => {
 

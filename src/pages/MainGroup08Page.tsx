@@ -9,13 +9,11 @@ import './Page.css';
 */
 
 
-type Data = typeof m1 | typeof m2;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MainGroup8Page: React.FC = () => {
-	console.log(8);
 
+	
 	const { id = "equipment" } = useParams<Params>();
 
 	const Page = m1[id] || m2[id];

@@ -1,4 +1,4 @@
-import { FC, ReactElement, useMemo } from 'react';
+import { FC, PropsWithChildren, useMemo } from 'react';
 import { IonRippleEffect } from '@ionic/react';
 import Link from '../components/Link';
 import getPageName from '../components/getPageName';
@@ -15,12 +15,11 @@ type Name = keyof Data;
 interface BasicRulesProps {
 	hasJL?: boolean
 	title: string
-	jsx: ReactElement
 	parent_topics?: Name[]
 	subtopics?: Name[]
 	siblings?: Name[]
 	className?: string
-	id: Name | "not_found"
+	pageId: string
 	noFinder?: boolean
 }
 
@@ -41,17 +40,18 @@ const getName = (input: string) => {
 	return getPageName("/rule/" + input);
 };
 
-const BasicRulesPage: FC<BasicRulesProps> = ({
+const BasicRulesPage: FC<PropsWithChildren<BasicRulesProps>> = ({
 	hasJL,
 	title,
-	jsx,
 	subtopics,
 	className: cn,
-	id,
+	pageId,
 	parent_topics,
 	siblings,
-	noFinder
+	noFinder,
+	children
 }) => {
+	const id = pageId.replace(/^[/]rule[/]/, "");
 
 	const [previous, next]: (string[] | null)[] = useMemo(() => {
 		if(siblings && siblings.length > 1) {
@@ -88,11 +88,10 @@ const BasicRulesPage: FC<BasicRulesProps> = ({
 	}, [parent_topics]);
 
 	return (
-		<BasicPage title={title} pageId={`/rule/${id}`} hasJL={hasJL} noFinder={noFinder}>
+		<BasicPage title={title} pageId={pageId} hasJL={hasJL} noFinder={noFinder}>
 			<HierarchyRulesInset extraHierarchy={h} />
 			<div className={cn}>
-				<h2>{title}</h2>
-				{jsx}
+				{children}
 			</div>
 			{subs.length > 0 ? (
 				<div className="subtopics">

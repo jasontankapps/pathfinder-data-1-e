@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import masterpieces from './subpages/__masterpiece';
 import './Page.css';
 
-type Data = typeof masterpieces;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MasterpiecePage: React.FC = () => {
 

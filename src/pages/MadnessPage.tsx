@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import madnesses from './subpages/__madness';
 import './Page.css';
 
-type Data = typeof madnesses;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MadnessPage: React.FC = () => {
 

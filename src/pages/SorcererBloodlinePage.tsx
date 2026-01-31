@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import bloodlines from './subpages/__sorcbloodline';
 import './Page.css';
 
-type Data = typeof bloodlines;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const SorcererBloodlinePage: React.FC = () => {
 

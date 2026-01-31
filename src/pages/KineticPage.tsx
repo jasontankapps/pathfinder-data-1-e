@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import talents from './subpages/__kinetic';
 import './Page.css';
 
-type Data = typeof talents;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const KineticPage: React.FC = () => {
 

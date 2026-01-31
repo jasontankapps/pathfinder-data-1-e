@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import disciplines from './subpages/__discipline';
 import './Page.css';
 
-type Data = typeof disciplines;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const DiscliplinePage: React.FC = () => {
 

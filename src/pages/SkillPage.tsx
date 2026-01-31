@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import skills from './subpages/__skill';
 import './Page.css';
 
-type Data = typeof skills;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const SkillPage: React.FC = () => {
 

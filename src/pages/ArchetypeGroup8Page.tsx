@@ -22,11 +22,9 @@ const archetypes = {
 	swashbuckler
 };
 
-type Data = typeof rogue | typeof samurai | typeof skald | typeof sorcerer | typeof swashbuckler;
-
 type Classes = keyof typeof archetypes;
 
-type Params = { id?: keyof Data, parent?: Classes };
+type Params = { id?: string, parent?: Classes };
 
 const ArchetypeGroup8Page: React.FC = () => {
 

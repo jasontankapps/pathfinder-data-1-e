@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import schools from './subpages/__arcaneschool';
 import './Page.css';
 
-type Data = typeof schools;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const SchoolPage: React.FC = () => {
 

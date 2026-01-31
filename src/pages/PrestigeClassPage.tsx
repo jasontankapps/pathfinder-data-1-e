@@ -5,10 +5,7 @@ import pclass3 from './subpages/__pclass03';
 import pclass4 from './subpages/__pclass04';
 import './Page.css';
 
-type Data =
-	typeof pclass1 | typeof pclass2 | typeof pclass3 | typeof pclass4;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const PrestigeClassPage: React.FC = () => {
 

@@ -18,11 +18,7 @@ const allTalents = {
 
 type Talent = keyof typeof allTalents;
 
-type Data =
-	typeof trick | typeof stare | typeof discovery
-	| typeof arcanedisc | typeof mercy | typeof performance;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
 

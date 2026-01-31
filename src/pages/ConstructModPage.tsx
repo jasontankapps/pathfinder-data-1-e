@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import constructmods from './subpages/__constructmod';
 import './Page.css';
 
-type Data = typeof constructmods;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const ConstructModPage: React.FC = () => {
 

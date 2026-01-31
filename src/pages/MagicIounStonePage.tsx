@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import magic from './subpages/__magic-ioun';
 import './Page.css';
 
-type Data = typeof magic;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MagicPage: React.FC = () => {
 

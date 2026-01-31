@@ -22,11 +22,9 @@ const archetypes = {
 	psychic
 };
 
-type Data = typeof familiar | typeof fighter | typeof gunslinger | typeof hunter | typeof psychic;
-
 type Classes = keyof typeof archetypes;
 
-type Params = { id?: keyof Data, parent?: Classes };
+type Params = { id?: string, parent?: Classes };
 
 const ArchetypeGroup4Page: React.FC = () => {
 

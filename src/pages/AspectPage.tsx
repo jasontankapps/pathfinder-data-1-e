@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import aspects from './subpages/__aspect';
 import './Page.css';
 
-type Data = typeof aspects;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const AspectPage: React.FC = () => {
 

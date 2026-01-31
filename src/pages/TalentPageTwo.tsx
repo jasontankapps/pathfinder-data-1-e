@@ -18,11 +18,7 @@ const allTalents = {
 
 type Talent = keyof typeof allTalents;
 
-type Data =
-	typeof invtalent | typeof soctalent | typeof vigtalent
-	| typeof ninjatrick | typeof kipower | typeof stylestrike;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
 

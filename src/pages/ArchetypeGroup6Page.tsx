@@ -22,11 +22,9 @@ const archetypes = {
 	unchained_summoner
 };
 
-type Data = typeof investigator | typeof monk | typeof occultist | typeof warpriest | typeof unchained_summoner;
-
 type Classes = keyof typeof archetypes;
 
-type Params = { id?: keyof Data, parent?: Classes };
+type Params = { id?: string, parent?: Classes };
 
 const ArchetypeGroup6Page: React.FC = () => {
 

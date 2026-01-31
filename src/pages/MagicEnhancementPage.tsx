@@ -3,9 +3,7 @@ import magicenh1 from './subpages/__magic-enh01';
 import magicenh2 from './subpages/__magic-enh02';
 import './Page.css';
 
-type Data = typeof magicenh1 | typeof magicenh2;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MagicEnhancementPage: React.FC = () => {
 

@@ -7,9 +7,7 @@ import ability5 from './subpages/__ability05';
 import ability6 from './subpages/__ability06';
 import './Page.css';
 
-type Data = typeof ability1 | typeof ability2 | typeof ability3 | typeof ability4 | typeof ability5 | typeof ability6;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const ClassAbilityPage: React.FC = () => {
 

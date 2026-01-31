@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import misc from './subpages/__misc';
 import './Page.css';
 
-type Data = typeof misc;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MiscPage: React.FC = () => {
 

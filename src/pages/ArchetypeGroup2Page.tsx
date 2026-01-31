@@ -19,11 +19,9 @@ const archetypes = {
 	cavalier
 };
 
-type Data = typeof bard | typeof bloodrager | typeof brawler | typeof cavalier;
-
 type Classes = keyof typeof archetypes;
 
-type Params = { id?: keyof Data, parent?: Classes };
+type Params = { id?: string, parent?: Classes };
 
 const ArchetypeGroup2Page: React.FC = () => {
 

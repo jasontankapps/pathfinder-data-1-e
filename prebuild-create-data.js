@@ -132,6 +132,11 @@ const $ = {
 	savedCount: 0,
 	parsedCount: 0,
 	unsavedCount: 0,
+	everyfiletotalCount: 0,
+	everyfilesavedCount: 0,
+	thisgrouptotalCount: 0,
+	thisgroupsavedCount: 0,
+	groupsParsedCount: 0,
 	limit: false,
 	logError,
 	addToJumpList,
@@ -711,37 +716,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 	return convertDescription(temporaryFlags, desc, prefix, [], openTag, closeTag);
 };
 
-const createItem = (info, prop) => {
-	const { title, description, parent_topics, siblings, subtopics, topLink, noFinder, addenda, tree, disambiguation, className } = info;
-	let output = `const _${prop} = {title: "${title}"`;
-	parent_topics && (output = output + `, parent_topics: ${JSON.stringify(parent_topics)}`);
-	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
-	subtopics && (output = output + `, subtopics: ${JSON.stringify(subtopics)}`);
-	topLink && (output = output + `, topLink: ${JSON.stringify(topLink)}`);
-	noFinder && (output = output + ", noFinder: true");
-	addenda && (output = output + `, addenda: ${JSON.stringify(addenda)}`);
-	tree && (output = output + `, tree: ${JSON.stringify(tree)}`);
-	className && (output = output + `, className: "${className}"`);
-	disambiguation && (output = output + `, notBookmarkable: true`);
-	output = output + `, jsx: ${description}};`;
-	return output;
-};
-
-const createCopyItem = (info, prop, copy) => {
-	const { title, parent_topics, siblings, subtopics, topLink, noFinder, className } = info;
-	let output = `const _${prop} = {..._${copy}`;
-	title && (output = output + `, title: "${title}"`);
-	parent_topics && (output = output + `, parent_topics: ${JSON.stringify(parent_topics)}`);
-	siblings && (output = output + `, siblings: ${JSON.stringify(siblings)}`);
-	subtopics && (output = output + `, subtopics: ${JSON.stringify(subtopics)}`);
-	topLink && (output = output + `, topLink: ${JSON.stringify(topLink)}`);
-	noFinder && (output = output + ", noFinder: true");
-	className && (output = output + `, className: "${className}"`);
-	return output + "};";
-};
-
-// NEW
-const interpretFlags = (flags) => {
+const interpretFlags = (flags, basicPage) => {
 	const imports = [];
 	const ionic = [];
 	// Check flags for Ionic components
@@ -760,17 +735,13 @@ const interpretFlags = (flags) => {
 	flags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
 	(flags.innerlink || flags.jumplist) && imports.push(`import InnerLink from '../../components/InnerLink';`);
 	flags.scrollContainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
-	/*flags.jumplist && imports.push(
-		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);if(el){el.classList.add(\"highlight\");setTimeout(()=>el.classList.remove(\"highlight\"),500)}el&&el.scrollIntoView({behavior:\"smooth\",block:\"start\",inline:\"nearest\"})};"
-	);*/
-	//flags.jumplist && imports.push(`import jumpScroller from '../../components/jumpScroller';`);
-	imports.push(`import BasicPage from '../BasicPage';`);
+	imports.push(`import ${basicPage} from '../${basicPage}';`);
 	return imports;
 };
 
 const makePageName = prop => prop.replace(/(?:^|_)([a-z])/g, (m, l) => l.toUpperCase()).replace(/_/g, "");
 
-const _createItem = (prop, link, exx, info, flags, copiesLogged) => {
+const _createItem = (prop, link, exx, info, basicPage, flags, copiesLogged) => {
 	// Need to create the tsx file, save it to disk as a file.
 	// Need to add in copies as separate files that rely on the original tsx?
 	//   Or can they be added as exports to the original tsx?
@@ -782,29 +753,29 @@ const _createItem = (prop, link, exx, info, flags, copiesLogged) => {
 		disambiguation, className = cN
 	} = info;
 	const PageName = makePageName(prop);
-	const output = interpretFlags(flags);
-	let tag = `<BasicPage pageId={pageId || "/${link}/${prop}"} title={title || "${title}"}`;
-	flags.jumplist && (tag = tag + ` hasJL`);
-	parent_topics && (tag = tag + ` parent_topics={${JSON.stringify(parent_topics)}}`);
-	siblings && (tag = tag + ` siblings={${JSON.stringify(siblings)}}`);
-	subtopics && (tag = tag + ` subtopics={${JSON.stringify(subtopics)}}`);
-	topLink && (tag = tag + ` topLink={${JSON.stringify(topLink)}}`);
-	noFinder && (tag = tag + " noFinder");
-	className && (tag = tag + ` className="${className}"`);
-	disambiguation && (tag = tag + ` notBookmarkable`);
+	const output = interpretFlags(flags, basicPage);
+	let thisPage = "";
+	flags.jumplist && (thisPage = thisPage + ` hasJL`);
+	parent_topics && (thisPage = thisPage + ` parent_topics={${JSON.stringify(parent_topics)}}`);
+	siblings && (thisPage = thisPage + ` siblings={${JSON.stringify(siblings)}}`);
+	subtopics && (thisPage = thisPage + ` subtopics={${JSON.stringify(subtopics)}}`);
+	topLink && (thisPage = thisPage + ` topLink={${JSON.stringify(topLink)}}`);
+	noFinder && (thisPage = thisPage + " noFinder");
+	className && (thisPage = thisPage + ` className="${className}"`);
+	disambiguation && (thisPage = thisPage + ` notBookmarkable`);
 	Object.entries(extra).forEach(([prop, value]) => {
 		if(typeof value === "string") {
-			tag = tag + ` ${prop}="${value}"`;
+			thisPage = thisPage + ` ${prop}="${value}"`;
 		} else {
-			tag = tag + ` ${prop}={${JSON.stringify(value)}}`;
+			thisPage = thisPage + ` ${prop}={${JSON.stringify(value)}}`;
 		}
 	});
-	tag = tag + `>\n\n${description}`;
+	thisPage = thisPage + `>\n\n${description}`;
 	if(addenda && addendaObj) {
 		addenda.forEach(bit => {
 			const info = addendaObj[bit];
 			if(info) {
-				tag = tag + `\n\n<aside><p><em>${info}</em></p></aside>`;
+				thisPage = thisPage + `\n\n<aside><p><em>${info}</em></p></aside>\n`;
 			}
 		});
 	}
@@ -814,81 +785,89 @@ const _createItem = (prop, link, exx, info, flags, copiesLogged) => {
 			const url = convertTextToLink(bit);
 			found.push(`<li><Link to="/${link}/${url}">${bit}</Link></li>`);
 		});
-		tag = tag + `\n<section className="talentTree"><p>This ${things[link] || link}`
-			+ ` is a prerequisite for:</p><ul>${found.join("")}</ul></section>`;
+		thisPage = thisPage + `\n<section className="talentTree"><p>This ${things[link] || link}`
+			+ ` is a prerequisite for:</p><ul>${found.join("")}</ul></section>\n`;
 	}
-	tag = tag + "\n\n</BasicPage>";
-	output.push(
-		"",
-		"interface Props {title?: string, pageId?: string}",
-		"",
-		`const ${PageName}: React.FC<Props> = ({title, pageId}) => (${tag}`,
-		");",
-		"",
-		`export default ${PageName};`
-	);
+	thisPage = thisPage + `</${basicPage}>`;
 
 	// Find copies
-	const found = [ [prop] ];
+	const copiesThatPointHere = [ [prop] ];
 	let somethingChanged = false;
 	let remainder = Object.entries(copiesLogged);
 	let FAILSAFE = 0;
+	const copies = [];
+	const pagesWithCopies = {};
 	do {
 		somethingChanged = false;
 		const remains = [];
+		// Check ALL copies to see if they're a copy of this page
 		remainder.forEach((pair) => {
 			const [copyprop, arr] = pair;
 			const [title, copyof] = arr;
 			const additions = [];
-			if(found.every(([prop]) => {
+			if(copiesThatPointHere.every(([prop]) => {
 				if(prop === copyof) {
 					somethingChanged = true;
 					typeof copyprop !== "string" && console.log(prop, copyprop);
 					const CopyPageName = makePageName(copyprop);
-					additions.push([copyprop, CopyPageName]);
-					output.push(
-						"",
-						`export const ${CopyPageName}: React.FC<Props> = ({title, pageId}) => <${PageName} pageId={pageId || "/${link}/${copyprop}"} title={title || "${title}"}/>;`
-					);
+					copiesThatPointHere.push([copyprop, CopyPageName]);
+					copies.push([PageName, CopyPageName, copyprop, title]);
+					pagesWithCopies[PageName] = true;
 					return false;
 				}
+				// This returns true if NO copies of this page exist.
 				return true;
 			})) {
+				// No copies exist
 				remains.push(pair);
 			}
-			found.push(...additions);
 		});
 		remainder = remains;
 		if(++FAILSAFE > 500) {
 			somethingChanged = false;
+			console.log("FAILSAFE triggered:", prop);
 		}
 	} while (remainder.length > 0 && somethingChanged);
-	// Remove original prop from found
-	found.shift();
+	// Remove original [prop] from copiesThatPointHere
+	copiesThatPointHere.shift();
 
-	return {found, output, PageName};
-	/*
-		const Page: React.FC = () => <BasicPage
-			hasJL={hasJL}
-			title={title}
-			pageId={"/aspect/" + id}
-			topLink={topLink}
-			notBookmarkable={notBookmarkable}
-		>{jsx}</BasicPage>;
+	// Put everything together
+	if(copies.length) {
+		// Create an interface for props, make the main page use them so the copies can call it
+		output.push(
+			"",
+			"interface Props {title?: string, pageId?: string}",
+			"",
+			`const ${PageName}: React.FC<Props> = ({title, pageId}) => <${basicPage} pageId={pageId || "/${link}/${prop}"} title={title || "${title}"}${thisPage}`,
+			""
+		);
+		copies.forEach(arr => {
+			const [PageName, CopyPageName, copyprop, title] = arr;
+			if(pagesWithCopies[CopyPageName]) {
+				// Another copy uses this, so make it callable
+				output.push(
+					`export const ${CopyPageName}: React.FC<Props> = ({title, pageId}) => <${PageName} pageId={pageId || "/${link}/${copyprop}"} title={title || "${title}"}/>;`,
+					"",
+				)
+			} else {
+				// Nothing else calls this, so no props needed
+				output.push(
+					`export const ${CopyPageName}: React.FC = () => <${PageName} pageId="/${link}/${copyprop}" title="${title}" />;`,
+					""
+				);
+			}
+		});
+	} else {
+		// No copies? No need for props.
+		output.push(
+			`const ${PageName}: React.FC = () => <${basicPage} pageId="/${link}/${prop}" title="${title}"${thisPage};`,
+			""
+		);
+	}
+	output.push(`export default ${PageName};`)
 
-		export default Page;
-
-	Archetype:
-	return <BasicPage
-		hasJL={hasJL}
-		title={title}
-		pageId={pageId}
-		topLink={[classTitle, "class/" + parent]}
-		notBookmarkable={notBookmarkable}
-	>{jsx}</BasicPage>;
-	*/
+	return {found: copiesThatPointHere, output, PageName};
 };
-// END
 
 
 // If entities are used inside links inside tables.data, they must be converted before being saved to a file.
@@ -1027,258 +1006,224 @@ delete $.FILES;
 
 //   Create all other files, including ___link.tsx files.
 $.GROUPS.forEach(([link, related_groups]) => {
-	$.RECORD = [];
-related_groups.forEach((pairing, groupindex) => {
-	const [groupProp, group] = pairing;
-	const {
-		data,
-		datatype,
-		num = 0,
-		extra = {}
-	} = group;
-	const padNum = num && (num < 10 ? `0${num}` : `${num}`);
-	const final = [];
-	const baselink = num ? `${link}${padNum}` : link;
-	const copies = [];
-	const copyRecord = {};
-	const template = templates_by_link[link] || templates_by_link._basic;
-	// Go through every prop in the object
-	Object.entries(data).forEach(([prop, value]) => {
-		const groupFlags = {};
-		$.current = `${groupProp}/${prop}`;
-		// Temporary flags should NEVER match regular flags.
-		const temporaryFlags = {};
-		// Handle alternateOf
-		let base;
-		if(value.alternateOf) {
-			temporaryFlags.hasAlternateText = true;
-			base = {...data[value.alternateOf], ...value};
-		} else {
-			base = value;
-		}
-		// Get data
+	/*
+	everyfiletotalCount: 0,
+	everyfilesavedCount: 0,
+	thisgrouptotalCount: 0,
+	thisgroupsavedCount: 0,
+	*/
+	related_groups.forEach((pairing) => {
+		$.groupsParsedCount++;
+		const [groupProp, group] = pairing;
 		const {
-			name: n, title: t, description: d, copyof,
-			tables, topLink, parent_topics,
-			subtopics, siblings, noFinder, className,
-			nameSuffix, compilationSources, redirect,
-			compileFrom, addenda, disambiguation, tree
-		} = base;
-		// Convert entities in tables
-		tables && entities_in_tables.forEach(([matcher, replacer, codepoint]) => {
-			tables.forEach((table, ti) => {
-				table.data.forEach((row, ri) => {
-					row.forEach((col, ci) => {
-						if(typeof col === "string") {
-							// Don't bother testing non-strings
-							if (col.match(matcher)) {
-								const fixed = col.replace(replacer, String.fromCharCode(codepoint));
-								tables[ti].data[ri][ci] = fixed;
+			data,
+			datatype,
+			num = 0,
+			extra = {},
+			basicPage = "BasicPage"
+		} = group;
+		const padNum = num && (num < 10 ? `0${num}` : `${num}`);
+		const final = [];
+		const baselink = num ? `${link}${padNum}` : link;
+		const copies = [];
+		const copyRecord = {};
+		const template = templates_by_link[link] || templates_by_link._basic;
+		// Go through every prop in the object
+		Object.entries(data).forEach(([prop, value]) => {
+			const groupFlags = {};
+			$.current = `${groupProp}/${prop}`;
+			// Temporary flags should NEVER match regular flags.
+			const temporaryFlags = {};
+			// Handle alternateOf
+			let base;
+			if(value.alternateOf) {
+				temporaryFlags.hasAlternateText = true;
+				base = {...data[value.alternateOf], ...value};
+			} else {
+				base = value;
+			}
+			// Get data
+			const {
+				name: n, title: t, description: d, copyof,
+				tables, topLink, parent_topics,
+				subtopics, siblings, noFinder, className,
+				nameSuffix, compilationSources, redirect,
+				compileFrom, addenda, disambiguation, tree
+			} = base;
+			// Convert entities in tables
+			tables && entities_in_tables.forEach(([matcher, replacer, codepoint]) => {
+				tables.forEach((table, ti) => {
+					table.data.forEach((row, ri) => {
+						row.forEach((col, ci) => {
+							if(typeof col === "string") {
+								// Don't bother testing non-strings
+								if (col.match(matcher)) {
+									const fixed = col.replace(replacer, String.fromCharCode(codepoint));
+									tables[ti].data[ri][ci] = fixed;
+								}
+							} else if (Array.isArray(col) && col[1].match(matcher)) {
+								// The second half of an array in this context is always a displayed string
+								const fixed = col[1].replace(replacer, String.fromCharCode(codepoint));
+								tables[ti].data[ri][ci][1] = fixed;
 							}
-						} else if (Array.isArray(col) && col[1].match(matcher)) {
-							// The second half of an array in this context is always a displayed string
-							const fixed = col[1].replace(replacer, String.fromCharCode(codepoint));
-							tables[ti].data[ri][ci][1] = fixed;
-						}
+						})
 					})
 				})
 			})
-		})
-		const info = { className };
-		let converted = [undefined, {}];
-		switch (datatype) {
-			case "main":
-				info.title = t;
-				groupFlags.list = true;
-				if (compileFrom && !copyof && !redirect) {
-					temporaryFlags.mainCompilation = true;
-					converted = compile(compileFrom, `${link}-${prop}-`, temporaryFlags, "IonList lines=\"full\"", "IonList");
-				} else if (!copyof && !redirect) {
-					converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList");
-				}
-				break;
-			case "compileable":
-				if(!redirect) {
+			const info = { className };
+			let converted = [undefined, {}];
+			switch (datatype) {
+				case "main":
+					info.title = t;
+					groupFlags.list = true;
+					if (compileFrom && !copyof && !redirect) {
+						temporaryFlags.mainCompilation = true;
+						converted = compile(compileFrom, `${link}-${prop}-`, temporaryFlags, "IonList lines=\"full\"", "IonList");
+					} else if (!copyof && !redirect) {
+						converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables, "IonList lines=\"full\"", "IonList");
+					}
+					break;
+				case "compileable":
+					if(!redirect) {
+						info.title = n;
+						info.topLink = topLink;
+						info.addenda = addenda;
+						info.tree = tree;
+						converted = convertCompileableDescription(
+							temporaryFlags,
+							template,
+							d,
+							n,
+							nameSuffix,
+							`${link}-${prop}-`,
+							compilationSources
+						);
+					}
+					break;
+				case "rule":
+					info.parent_topics = parent_topics;
+					info.subtopics = subtopics;
+					info.siblings = siblings;
+					// passes through
+				default:
 					info.title = n;
 					info.topLink = topLink;
-					info.addenda = addenda;
-					info.tree = tree;
-					converted = convertCompileableDescription(
-						temporaryFlags,
-						template,
-						d,
-						n,
-						nameSuffix,
-						`${link}-${prop}-`,
-						compilationSources
-					);
-				}
-				break;
-			case "rule":
-				info.parent_topics = parent_topics;
-				info.subtopics = subtopics;
-				info.siblings = siblings;
-				// passes through
-			default:
-				info.title = n;
-				info.topLink = topLink;
-				if(!copyof && !redirect) {
-					if(d) {
-						converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables);
-					} else if (compileFrom) {
-						converted = compile(compileFrom, `${link}-${prop}-`, temporaryFlags, `div className="compilation"`, "div");
-					} else {
-						logError(`ERROR: ${link}/${prop} does not have a description or a compileFrom property.`);
-						converted = [ "ERROR: This entry has no description.", {} ];
+					if(!copyof && !redirect) {
+						if(d) {
+							converted = convertDescription(temporaryFlags, d, `${link}-${prop}-`, tables);
+						} else if (compileFrom) {
+							converted = compile(compileFrom, `${link}-${prop}-`, temporaryFlags, `div className="compilation"`, "div");
+						} else {
+							logError(`ERROR: ${link}/${prop} does not have a description or a compileFrom property.`);
+							converted = [ "ERROR: This entry has no description.", {} ];
+						}
 					}
-				}
-		}
-		const [convertedDescription, newflags] = converted;
-		convertedDescription !== undefined && (info.description = convertedDescription);
-		info.noFinder = noFinder;
-		info.disambiguation = disambiguation;
-		Object.keys(newflags).forEach((flag) => {groupFlags[flag] = true});
-		if(copyof) {
-			copies.push([prop, copyof, {...info}]);
-		} else if (!redirect) {
-			copyRecord[prop] = true;
-//-			final.push([prop, createItem(info, prop)]);
-			final.push([prop, info, groupFlags]);
-		}
-	});
-	$.current = groupProp;
-	let somethingChanged;
-	let remaining = [...copies];
-	const copiesLogged = {};
-	do {
-		somethingChanged = false;
-		const missing = [];
-		remaining.forEach(([prop, copyof, info]) => {
-			if(copyRecord[copyof]) {
-//				final.push([prop, createCopyItem(info, prop, copyof)]);
-				copiesLogged[prop] = [info.title, copyof];
+			}
+			const [convertedDescription, newflags] = converted;
+			convertedDescription !== undefined && (info.description = convertedDescription);
+			info.noFinder = noFinder;
+			info.disambiguation = disambiguation;
+			Object.keys(newflags).forEach((flag) => {groupFlags[flag] = true});
+			if(copyof) {
+				copies.push([prop, copyof, {...info}]);
+			} else if (!redirect) {
 				copyRecord[prop] = true;
-				somethingChanged = true;
-			} else {
-				missing.push([prop, copyof, info]);
+//-			final.push([prop, createItem(info, prop)]);
+				final.push([prop, info, groupFlags]);
 			}
 		});
-		remaining = missing;
-	} while ((remaining.length > 0) && somethingChanged);
-	remaining.forEach(([prop, copyof]) => {
-		logError(`MISSING "${copyof}" property in ${prop}.copyof`);
-	});
-
-	// Go through the new `final`
-	//   [ prop, info, groupFlags ]
-	// _createItem(info, prop, flags, copylog) = make indiv files
-	// But also gather info for a master TSX file that will lazy-load everything as needed.
-	//   Master file should utilize `num` variable
-	// basic_data_groups may need to be updated with various properties to pass in
-
-	// ALSO will need to add not_found to archetype pages
-	// MAKE NEW BRANCH to push to
-	//const filename = `./src/pages/subpages/__${baselink}.tsx`;
-
-	const collection = [];
-	const imports = [];
-	const path = "./src/pages/subpages/";
-	final.forEach(([prop, info, groupFlags]) => {
-		const filename = `__${baselink}__${prop}`;
-		const fullFilename = path + filename + ".tsx";
-		//const fullFilename = "./" + filename;
-		const testfile = get(fullFilename).trim();
-//console.log(prop, groupFlags, info);
-		const {found, output, PageName} = _createItem(prop, link, extra, info, groupFlags, copiesLogged);
-		const newfile = output.join("\n").trim();
-		if(newfile !== testfile) {
-			// File has changed. Save it.
-			fs.writeFileSync(fullFilename, newfile);
-			console.log(`SAVED ${filename}.`);
-		} else {
-			console.log(`${filename} unchanged.`);
-		}
-		imports.push(`const ${PageName} = lazy(() => import("./${filename}"));`);
-		collection.push(`${prop}: () => <${PageName} />`);
-		found.forEach(([cprop, CopyPageName]) => {
-			imports.push(
-				`const ${
-					CopyPageName
-				} = lazy(() => import("./${
-					filename
-				}").then((module) => ({ default: module.${CopyPageName} })));`
-			);
-			collection.push(`${cprop}: () => <${CopyPageName} />`)
+		$.current = groupProp;
+		let somethingChanged;
+		let remaining = [...copies];
+		const copiesLogged = {};
+		do {
+			somethingChanged = false;
+			const missing = [];
+			remaining.forEach(([prop, copyof, info]) => {
+				if(copyRecord[copyof]) {
+					copiesLogged[prop] = [info.title, copyof];
+					copyRecord[prop] = true;
+					somethingChanged = true;
+				} else {
+					missing.push([prop, copyof, info]);
+				}
+			});
+			remaining = missing;
+		} while ((remaining.length > 0) && somethingChanged);
+		remaining.forEach(([prop, copyof]) => {
+			logError(`MISSING "${copyof}" property in ${prop}.copyof`);
 		});
-	});
-	const indexfile = `${path}__${baselink}.tsx`;
-//	const indexfile = `./__${baselink}.tsx`;
-	const testindex = get(indexfile).trim();
-	const index =
-		`import { lazy } from "react";\n\n`
-		+ imports.join("\n")
-		+ "\n\n"
-		+ `const all = {\n\t`
-		+ collection.join(",\n\t")
-		+ "\n};\n\nexport default all;"
-	if(testindex !== index) {
-		// File has changed. Save it.
-		fs.writeFileSync(indexfile, index);
-		console.log(`SAVED ${indexfile}.`);
-	} else {
-		console.log(`${indexfile} unchanged.`);
-	}
 
-	/*
-	const filename = `__${baselink}__{prop}.tsx`;
-	const fullFilename = `./src/pages/subpages/${filename}`;
-	const testfile = get(fullFilename).trim();
-	//const theOutput = output.join("\n").trim();
-
-	fs.writeFileSync(
-		`./__DATA.js`,
-		`const final = [\n\t${
-			final.map(
-				arr => `[\n\t\t${arr.map(x => JSON.stringify(x)).join(",\n\t\t")}\n\t]`
-			).join(",\n\t")
-		}\n];\n\nconst copiesLogged = ${
-			JSON.stringify(copiesLogged)
-		};\n\nconst copyRecord = ${
-			JSON.stringify(copyRecord)
-		};\n`
-	);
-	*/
-
-if(0){
-	const filename = `./src/pages/subpages/__${baselink}.tsx`;
-	const testfile = get(filename).trim();
-	const theOutput = output.join("\n").trim();
-
-	if(testfile === theOutput) {
-		//console.log(`UNCHANGED: ${filename} (${groupindex + 1} of ${number_of_groups})`);
-		//return;
-		$.unsavedCount++;
-		if($.unsavedCount === 25) {
-			console.log(`... (passing ${groupindex + 1} of ${number_of_groups})`);
+		const collection = [];
+		const imports = [];
+		const path = "./src/pages/subpages/";
+		$.thisgroupsavedCount = 0;
+		final.forEach(([prop, info, groupFlags]) => {
+			const filename = `__${baselink}__${prop}`;
+			const fullFilename = path + filename + ".tsx";
+			//const fullFilename = "./" + filename;
+			const testfile = get(fullFilename).trim();
+			const {found, output, PageName} = _createItem(prop, link, extra, info, basicPage, groupFlags, copiesLogged);
+			const newfile = output.join("\n").trim();
+			if(newfile !== testfile) {
+				// File has changed. Save it.
+				fs.writeFileSync(fullFilename, newfile);
+				$.thisgroupsavedCount++;
+				$.everyfilesavedCount++;
+				console.log(`SAVED ${filename}.`);
+			} else {
+//				console.log(`${filename} unchanged.`);
+			}
+			$.everyfiletotalCount++;
+			imports.push(`const ${PageName} = lazy(() => import("./${filename}"));`);
+			collection.push(`${prop}: () => <${PageName} />`);
+			found.forEach(([cprop, CopyPageName]) => {
+				imports.push(
+					`const ${
+						CopyPageName
+					} = lazy(() => import("./${
+						filename
+					}").then((module) => ({ default: module.${CopyPageName} })));`
+				);
+				collection.push(`${cprop}: () => <${CopyPageName} />`)
+			});
+		});
+		const indexfile = `${path}__${baselink}.tsx`;
+		const testindex = get(indexfile).trim();
+		const index =
+			`import { lazy } from "react";\n\n`
+			+ imports.join("\n")
+			+ "\n\n"
+			+ `const all: {[key: string]: React.FC} = {\n\t`
+			+ collection.join(",\n\t")
+			+ "\n};\n\nexport default all;"
+		if(testindex !== index) {
+			// File has changed. Save it.
+			fs.writeFileSync(indexfile, index);
+			console.log(`SAVED ${indexfile} [and ${$.thisgroupsavedCount} of ${final.length}] >>> (${$.groupsParsedCount} of ${number_of_groups})`);
 			$.unsavedCount = 0;
+			$.savedCount++;
+		} else {
+			if ($.thisgroupsavedCount) {
+				$.unsavedcount = 0;
+				console.log(`>>> SAVED FROM [${baselink}] ${$.thisgroupsavedCount} of ${final.length} >>> (${$.groupsParsedCount} of ${number_of_groups})`);
+				$.savedCount++;
+			} else {
+				$.unsavedCount++;
+				if($.unsavedCount === 25) {
+					console.log(`... (passing ${$.groupsParsedCount} of ${number_of_groups})`);
+					$.unsavedCount = 0;
+				}
+			}
 		}
-	} else {
-		$.unsavedCount = 0;
-		// Write that file
-		fs.writeFileSync(filename, theOutput);
-		// Announce success
-		console.log(`Saved ${filename} (${groupindex + 1} of ${number_of_groups})`);
-		$.savedCount++;
-	}
-	$.parsedCount++;
-}
-});
+		$.parsedCount++;
+	});
 
 // At this point, we have gone through all of the files that share the same `link`.
 
 });
 
-console.log(`\n\n>> Saved [${$.savedCount}] new files (out of ${$.parsedCount}).`);
+console.log(`\n\n>> Saved [${$.savedCount} of ${$.parsedCount}] from files.\n\n>> Saved [${$.everyfilesavedCount} of ${$.everyfiletotalCount}] individual entries`);
 
 if($.errorCount) {
 	console.log(`\n\n>> Found [${$.errorCount}] errors.`);

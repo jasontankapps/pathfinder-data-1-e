@@ -5,9 +5,7 @@ import eqmisc3 from './subpages/__eq-misc03';
 import eqmisc4 from './subpages/__eq-misc04';
 import './Page.css';
 
-type Data = typeof eqmisc1 | typeof eqmisc2 | typeof eqmisc3 | typeof eqmisc4;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const EquipmentMiscPage: React.FC = () => {
 

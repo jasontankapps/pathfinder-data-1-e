@@ -19,11 +19,9 @@ const archetypes = {
 	shifter
 };
 
-type Data = typeof oracle | typeof paladin | typeof ranger | typeof shifter;
-
 type Classes = keyof typeof archetypes;
 
-type Params = { id?: keyof Data, parent?: Classes };
+type Params = { id?: string, parent?: Classes };
 
 const ArchetypeGroup7Page: React.FC = () => {
 

@@ -25,11 +25,9 @@ const archetypes = {
 	wizard
 };
 
-type Data = typeof inquisitor | typeof kineticist | typeof magus | typeof mesmerist | typeof ninja | typeof wizard;
-
 type Classes = keyof typeof archetypes;
 
-type Params = { id?: keyof Data, parent?: Classes };
+type Params = { id?: string, parent?: Classes };
 
 const ArchetypeGroup5Page: React.FC = () => {
 

@@ -26,16 +26,11 @@ import './Page.css';
 */
 
 
-type Data = typeof m1 | typeof m2 | typeof m3 | typeof m4 | typeof m5
-	| typeof m6 | typeof m6 | typeof m7 | typeof m8 | typeof m9 | typeof m10
-	| typeof m11 | typeof m12 | typeof m13 | typeof m14 | typeof m15
-	| typeof m16 | typeof m16 | typeof m17 | typeof m18 | typeof m19;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MainGroup2Page: React.FC = () => {
-	console.log(2);
 
+	
 	const { id = "spells" } = useParams<Params>();
 
 	const Page = m1[id] || m2[id] || m3[id] || m4[id] || m5[id]

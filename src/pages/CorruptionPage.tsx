@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import corruptions from './subpages/__corruption';
 import './Page.css';
 
-type Data = typeof corruptions;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const CorruptionPage: React.FC = () => {
 

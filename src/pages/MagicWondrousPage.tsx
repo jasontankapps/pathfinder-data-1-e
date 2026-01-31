@@ -12,13 +12,7 @@ import magicwondrous10 from './subpages/__magic-wondrous10';
 import magicwondrous11 from './subpages/__magic-wondrous11';
 import './Page.css';
 
-type Data =
-	typeof magicwondrous1 | typeof magicwondrous2 | typeof magicwondrous3
-	| typeof magicwondrous4 | typeof magicwondrous5 | typeof magicwondrous6
-	| typeof magicwondrous7 | typeof magicwondrous8 | typeof magicwondrous9
-	| typeof magicwondrous10 | typeof magicwondrous11;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MagicWondrousPage: React.FC = () => {
 

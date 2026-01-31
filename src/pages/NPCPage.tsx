@@ -9,11 +9,7 @@ import npc7 from './subpages/__npc07';
 import npc8 from './subpages/__npc08';
 import './Page.css';
 
-type Data =
-	typeof npc1 | typeof npc2 | typeof npc3 | typeof npc4
-	| typeof npc5 | typeof npc6 | typeof npc7 | typeof npc8;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const NPCPage: React.FC = () => {
 

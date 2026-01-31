@@ -18,11 +18,7 @@ const allTalents = {
 
 type Talent = keyof typeof allTalents;
 
-type Data =
-	typeof hex | typeof patron | typeof shamanhex
-	| typeof evolution | typeof unchevolution | typeof eidolon;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
 

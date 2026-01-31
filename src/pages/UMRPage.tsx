@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import umr from './subpages/__umr';
 import './Page.css';
 
-type Data = typeof umr;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const UMRPage: React.FC = () => {
 

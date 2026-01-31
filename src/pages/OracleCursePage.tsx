@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import curses from './subpages/__oraclecurse';
 import './Page.css';
 
-type Data = typeof curses;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const CursePage: React.FC = () => {
 

@@ -8,13 +8,11 @@ import './Page.css';
 */
 
 
-type Data = typeof m1;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MainGroup9Page: React.FC = () => {
-	console.log(9);
 
+	
 	const { id = "main" } = useParams<Params>();
 
 	const Page = m1[id];

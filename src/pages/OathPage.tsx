@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import oaths from './subpages/__oath';
 import './Page.css';
 
-type Data = typeof oaths;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const OathPage: React.FC = () => {
 

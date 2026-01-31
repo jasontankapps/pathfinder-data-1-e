@@ -10,12 +10,7 @@ import faith8 from './subpages/__faith08';
 import faith9 from './subpages/__faith09';
 import './Page.css';
 
-type Data =
-	typeof faith1 | typeof faith2 | typeof faith3
-	| typeof faith4 | typeof faith5 | typeof faith6
-	| typeof faith7 | typeof faith8 | typeof faith9;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const FaithPage: React.FC = () => {
 

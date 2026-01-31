@@ -22,9 +22,7 @@ function getItem<T extends { not_found: SourceProps }> (id: keyof T | undefined,
 	return data as SourceProps;
 };
 
-type Data = typeof sources;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 type SourceMap = keyof typeof sourceRefMap;
 

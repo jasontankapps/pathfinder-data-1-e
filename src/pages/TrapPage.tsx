@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import traps from './subpages/__trap';
 import './Page.css';
 
-type Data = typeof traps;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const TrapPage: React.FC = () => {
 

@@ -49,21 +49,7 @@ import monster47 from './subpages/__monster47';
 import monster48 from './subpages/__monster48';
 import './Page.css';
 
-type Data =
-	typeof monster1 | typeof monster2 | typeof monster3 | typeof monster4
-	| typeof monster5 | typeof monster6 | typeof monster7 | typeof monster8
-	| typeof monster9 | typeof monster10 | typeof monster11 | typeof monster12
-	| typeof monster13 | typeof monster14 | typeof monster15 | typeof monster16
-	| typeof monster17 | typeof monster18 | typeof monster19 | typeof monster20
-	| typeof monster21 | typeof monster22 | typeof monster23 | typeof monster24
-	| typeof monster25 | typeof monster26 | typeof monster27 | typeof monster28
-	| typeof monster29 | typeof monster30 | typeof monster31 | typeof monster32
-	| typeof monster33 | typeof monster34 | typeof monster35 | typeof monster36
-	| typeof monster37 | typeof monster38 | typeof monster39 | typeof monster40
-	| typeof monster41 | typeof monster42 | typeof monster43 | typeof monster44
-	| typeof monster45 | typeof monster46 | typeof monster47 | typeof monster48;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MonsterPage: React.FC = () => {
 

@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import mysteries from './subpages/__mystery';
 import './Page.css';
 
-type Data = typeof mysteries;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MysteryPage: React.FC = () => {
 

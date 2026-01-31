@@ -3,9 +3,7 @@ import magicweapon1 from './subpages/__magic-weapon01';
 import magicweapon2 from './subpages/__magic-weapon02';
 import './Page.css';
 
-type Data = typeof magicweapon1 | typeof magicweapon2;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const MagicWeaponPage: React.FC = () => {
 

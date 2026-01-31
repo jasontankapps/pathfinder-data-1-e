@@ -2,9 +2,7 @@ import { useParams } from 'wouter';
 import orders from './subpages/__order';
 import './Page.css';
 
-type Data = typeof orders;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const OrderPage: React.FC = () => {
 

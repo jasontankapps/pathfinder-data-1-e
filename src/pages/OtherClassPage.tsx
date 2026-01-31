@@ -3,9 +3,7 @@ import npcclass from './subpages/__npcclass';
 import sidekick from './subpages/__sidekick';
 import './Page.css';
 
-type Data = typeof npcclass | typeof sidekick;
-
-type Params = { id?: keyof Data };
+type Params = { id?: string };
 
 const OtherClassPage: React.FC = () => {
 
