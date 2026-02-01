@@ -23,11 +23,11 @@ const TdRouterLink: FC<PropsWithChildren<TdRouterLinkProps>> = ({ datum, align }
 			<td className={align === "end" ? "ion-text-end" : (align === "start" ? "ion-text-start" : undefined)}>LINK EXPECTED: {linkString}</td>
 		);
 	}
-	const [, originalLink, output] = m;
+	const { link: originalLink, text } = m;
 	const link = getLink(originalLink);
 	return (
 		<td className={"ion-activatable cell-link" + (align === "end" ? " ion-text-end" : (align === "start" ? " ion-text-start" : ""))} onClick={() => { navigate(`/${link}`); dispatch(goTo(`/${link}`)); }}>
-			{output}
+			{text}
 			<IonRippleEffect />
 		</td>
 	);

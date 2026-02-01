@@ -63,7 +63,7 @@ interface FilterProps {
 }
 const getLinkText = (input: string) => {
 	const m = checkForEncodedLink(input);
-	return m ? m[2] : input;
+	return m ? m.text : input;
 };
 
 const getValue = (x: RawDatum) => {
