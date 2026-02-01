@@ -6,6 +6,8 @@
 //   Spaces and dashes are turned into underscores
 //   All other non-letter, non-number, non-underscore characters are deleted
 // Advanced forms:
+//   Doubling the angle quotes indicates the link should be converted verbatim
+//     ‹‹has been decided/#ruling›› => [has been decided](#ruling)
 //   Using an actual slash in the text is possible, and it gets converted to an underscore in the link:
 //     ‹rule/Link/Text› => [Link/Text](rule/link_text)
 //   An unmatched « at the end appends to the text, not the link:
@@ -26,10 +28,11 @@
 // Below needs to be copied to src/components/convertLinks.tsx (with Typescript) when changed
 
 const checkForEncodedLink = (input, options = {}) => {
+	const flag = input.match(/Powerful Persuader/);
 	const { basic, bare, testing } = options;
 	let m = input.match(
 		bare ? /^([-a-z_]+?)[/](.+)($)/       // [ full, protocol, matchedx ]
-		: /(^.*?)‹([-a-z_]+)[/]([^›]*)›(.*$)/ // [ full, pre, protocol, matchedx, post ]
+		: /(^.*?)(‹+)([-a-z_]+|(?<=‹‹)[^‹›/]+)[/]([^›]*)›+(.*$)/ // [ full, pre, startbracket, protocol, matchedx, post ]
 	);
 	const m2 = basic && input.match(
 		/(^.*?)\[([^\]]+)\]\(([-a-z_]+)[/]([^)]+)\)(.*$)/
@@ -39,21 +42,26 @@ const checkForEncodedLink = (input, options = {}) => {
 	} else if (bare && m) {
 		// rearrange `m`, starting with: [full, protocol, matchedx]
 		const full = m.shift();
-		m.unshift(full, "");
+		m.unshift(full, "", "‹");
 		m.push("");
-		// `m` is now [full, "", protocol, matchedx, ""]
+		// `m` is now [fullmatch(ignored), ""(pre), "‹"(startbracket), protocol, matchedx, ""(post)]
 	} else if (m2) {
 		// See if we have a ‹match›, and if so figure out who has the earlier match.
 		if(!m || (m[1].length > m2[1].length)) {
 			// [match] wins
 			const [, pre, text, protocol, property, post] = m2;
-			return [
-				pre, `${protocol}/${property}`, text, post,
-				protocol, property, `[${text}](${protocol}/${property})`
-			];
+			return {
+				pre,
+				link: `${protocol}/${property}`,
+				text,
+				post,
+				protocol,
+				property,
+				original: `[${text}](${protocol}/${property})`
+			};
 		}
 	}
-	const [, pre, protocol, matchedx, post] = m;
+	const [, pre, startbracket, protocol, matchedx, post] = m;
 	if(!testing) {
 		// Check for links inside props of directives. DO NOT expand them.
 		let toFindTheEnd = null;
@@ -78,12 +86,25 @@ const checkForEncodedLink = (input, options = {}) => {
 			if(!mm) {
 				return false;
 			}
-			const [xpre, ...etc] = mm;
-			return [
-				pre + `${protocol}/${matchedx}` + endOfProp + xpre,
+			const {pre: xpre, ...etc} = mm;
+			return {
+				pre: pre + `${protocol}/${matchedx}` + endOfProp + xpre,
 				...etc
-			];
+			};
 		}
+	}
+	if (startbracket === "‹‹") {
+		// This is a verbatim link
+		// Sub in main.main as a fake link so we fool the invalidity tests
+		return {
+			pre,
+			link: matchedx,
+			text: protocol,
+			post,
+			protocol: "main",
+			property: "main",
+			original: `‹‹${protocol}/${matchedx}››`
+		};
 	}
 	let matched = matchedx, linkpre = "", linkpost = "", textpre = "", textpost = "";
 	// pre_>link
@@ -123,7 +144,15 @@ const checkForEncodedLink = (input, options = {}) => {
 		.replace(/[- /]/g, "_")
 		.toLowerCase()
 		.replace(/[^a-z0-9_]/g, "");
-	return [pre, `${protocol}/${property}`, text, post, protocol, property, `‹${protocol}/${matchedx}›`];
+	return {
+		pre,
+		link: `${protocol}/${property}`,
+		text,
+		post,
+		protocol,
+		property,
+		original: `‹${protocol}/${matchedx}›`
+	};
 };
 
 export const convertTextToLink = (input) => {

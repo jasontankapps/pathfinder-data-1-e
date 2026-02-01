@@ -8,10 +8,16 @@ const [ , source ] = sources;
 
 const checkForMalformedLinks = (line) => {
 	let m;
+	// 1: what follows isn't a ‹‹verbatim/link››
+	if(m = line.match(/‹‹(?![^‹›/]+[/][^‹›/]+››)/)) {
+		return `Malformed ‹‹verbatim/link››: ${m[0]}\n\t\t => "${line}"`;
+	} else if(m = line.match(/‹‹[^‹›/]+[/][^‹›/]+››/)) {
+		return; //correctly formed; ignore
+	}
 	// 1: what follows isn't a ‹valid/link›
 	// 2: what follows isn't a SOURCE tag, jumplist marker, or table reference
-	//                            1                 2
-	if(m = line.match(/‹(?![-a-z_]+[/][^›]+›)(?!SOURCE|table[0-9]+|jumplist).{0,10}/)) {
+	//                                     1                 2
+	else if(m = line.match(/‹(?![-a-z_]+[/][^›]+›)(?!SOURCE|table[0-9]+|jumplist).{0,10}/)) {
 		return `Malformed ‹link›: ${m[0]}\n\t\t => "${line}"`;
 	}
 	// 1: has the markdown link format ](
@@ -145,7 +151,7 @@ const testLinks = (all, tree = true) => {
 					if(!q) {
 						invalid.push(`@${m[1]}[${m[2]}]`)
 					} else {
-						let [, link, , , protocol, property] = q;
+						let {link, protocol, property} = q;
 						if(protocol === "source") {
 							if(!source[property]) {
 								invalid.push(`@${m[1]}[${link}]`);
@@ -160,7 +166,7 @@ const testLinks = (all, tree = true) => {
 				// Testing for ‹link/text›
 				while(m = checkForEncodedLink(temp, {testing: true})) {
 					// [pre, `${protocol}/${property}`, text, post, protocol, property, `‹${protocol}/${matchedx}›`]
-					const [ , potential, , post, protocol, property, fulltext ] = m;
+					const { link: potential, post, protocol, property, original: fulltext} = m;
 					if(protocol === "source") {
 						if(!source[property]) {
 							invalid.push(fulltext === `‹${potential}›` ? fulltext : `${fulltext} => ${potential}`);
