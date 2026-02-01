@@ -3,11 +3,11 @@
 		"title": "Feats with Combat Tricks",
 		"searchgroup": "feat",
 		"description": [
-			":::item",
+			";;;item",
 			"",
 			"These feats have additional options that can be unlocked with the ‹feat/Combat Stamina› feat.",
 			"",
-			";;;div{className=columnar}",
+			":::div{className=columnar}",
 			"",
 			"- ‹feat/Adder Strike›",
 			"- ‹feat/Agile Maneuvers›",
@@ -557,9 +557,9 @@
 			"- ‹feat/Winter's Strike›",
 			"- ‹feat/Wounded Paw Gambit›",
 			"",
-			";;;",
+			":::",
 			"",
-			":::"
+			";;;"
 		]
 	},
 	"feats_combat": {

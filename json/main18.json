@@ -1353,7 +1353,7 @@
 	},
 	"antipaladin_spell": { "redirect": "spells_antipaladin" },
 	"spells_arcanist": {
-		"title": "Spells",
+		"title": "Arcanist Spells",
 		"searchgroup": "spell",
 		"description": [
 			"::main[Arcanist Spells (Levels 0-1)]{endem=\"(280 spells)\" to=main/spells_arcanist_0_1}",
