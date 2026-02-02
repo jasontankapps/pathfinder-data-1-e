@@ -1,9 +1,9 @@
 import { useParams } from 'wouter';
-import rogue from './subpages/__arc-rogue';
-import samurai from './subpages/__arc-samurai';
-import skald from './subpages/__arc-skald';
-import sorcerer from './subpages/__arc-sorcerer';
-import swashbuckler from './subpages/__arc-swashbuckler';
+import Rogue, { test as test1 } from './subpages/__arc-rogue';
+import Skald, { test as test2 } from './subpages/__arc-skald';
+import Sorcerer, { test as test3 } from './subpages/__arc-sorcerer';
+import Swashbuckler, { test as test4 } from './subpages/__arc-swashbuckler';
+import Samurai, { test as test5 } from './subpages/__arc-samurai';
 import './Page.css';
 
 /*
@@ -14,27 +14,28 @@ import './Page.css';
 	swashbuckler: [8, "Swashbuckler"], //20; conflicts with cavalier
 */
 
-const archetypes = {
-	rogue,
-	samurai,
-	skald,
-	sorcerer,
-	swashbuckler
-};
-
-type Classes = keyof typeof archetypes;
-
-type Params = { id?: string, parent?: Classes };
+type Params = { id?: string, parent?: "rogue" | "skald" | "sorcerer" | "swashbuckler" | "samurai" };
 
 const ArchetypeGroup8Page: React.FC = () => {
 
 	const { id = "not_found", parent = "samurai" } = useParams<Params>();
 
-	const base = archetypes[parent] || archetypes.samurai;
+	switch (parent) {
+		case "rogue": {
+			return <Rogue id={test1(id) ? id : "not_found"} />;
+		}
+		case "skald": {
+			return <Skald id={test2(id) ? id : "not_found"} />;
+		}
+		case "sorcerer": {
+			return <Sorcerer id={test3(id) ? id : "not_found"} />;
+		}
+		case "swashbuckler": {
+			return <Swashbuckler id={test4(id) ? id : "not_found"} />;
+		}
+	}
 
-	const Page = base[id] || base.not_found;
-
-	return <Page />;
+	return <Samurai id={test5(id) ? id : "not_found"} />;
 };
 
 export default ArchetypeGroup8Page;

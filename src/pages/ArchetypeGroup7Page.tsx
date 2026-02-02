@@ -1,8 +1,8 @@
 import { useParams } from 'wouter';
-import oracle from './subpages/__arc-oracle';
-import paladin from './subpages/__arc-paladin';
-import ranger from './subpages/__arc-ranger';
-import shifter from './subpages/__arc-shifter';
+import Oracle, { test as test1 } from './subpages/__arc-oracle';
+import Paladin, { test as test2 } from './subpages/__arc-paladin';
+import Ranger, { test as test3 } from './subpages/__arc-ranger';
+import Shifter, { test as test4 } from './subpages/__arc-shifter';
 import './Page.css';
 
 /*
@@ -12,26 +12,25 @@ import './Page.css';
 	shifter: [7, "Shifter"], //14; conflicts with bloodrager
 */
 
-const archetypes = {
-	oracle,
-	paladin,
-	ranger,
-	shifter
-};
-
-type Classes = keyof typeof archetypes;
-
-type Params = { id?: string, parent?: Classes };
+type Params = { id?: string, parent?: "oracle" | "paladin" | "ranger" | "shifter" };
 
 const ArchetypeGroup7Page: React.FC = () => {
 
 	const { id = "not_found", parent = "shifter" } = useParams<Params>();
 
-	const base = archetypes[parent] || archetypes.shifter;
+	switch (parent) {
+		case "oracle": {
+			return <Oracle id={test1(id) ? id : "not_found"} />;
+		}
+		case "paladin": {
+			return <Paladin id={test2(id) ? id : "not_found"} />;
+		}
+		case "ranger": {
+			return <Ranger id={test3(id) ? id : "not_found"} />;
+		}
+	}
 
-	const Page = base[id] || base.not_found;
-
-	return <Page />;
+	return <Shifter id={test4(id) ? id : "not_found"} />;
 };
 
 export default ArchetypeGroup7Page;

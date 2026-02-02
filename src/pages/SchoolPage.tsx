@@ -1,5 +1,5 @@
 import { useParams } from 'wouter';
-import schools from './subpages/__arcaneschool';
+import School, { test } from './subpages/__arcaneschool';
 import './Page.css';
 
 type Params = { id?: string };
@@ -8,9 +8,7 @@ const SchoolPage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = schools[id] || schools.not_found;
-
-	return <Page />;
+	return <School id={test(id) ? id : "not_found"} />;
 };
 
 export default SchoolPage;

@@ -1,9 +1,9 @@
 import { useParams } from 'wouter';
-import investigator from './subpages/__arc-investigator';
-import monk from './subpages/__arc-monk';
-import occultist from './subpages/__arc-occultist';
-import warpriest from './subpages/__arc-warpriest';
-import unchained_summoner from './subpages/__arc-unchained_summoner';
+import Investigator, { test as test1 } from './subpages/__arc-investigator';
+import Monk, { test as test2 } from './subpages/__arc-monk';
+import Occultist, { test as test3 } from './subpages/__arc-occultist';
+import Warpriest, { test as test4 } from './subpages/__arc-warpriest';
+import UnchainedSummoner, { test as test5 } from './subpages/__arc-unchained_summoner';
 import './Page.css';
 
 /*
@@ -14,27 +14,28 @@ import './Page.css';
 	unchained_summoner: [6, "Unchained Summoner"], //10; conflicts with summoner
 */
 
-const archetypes = {
-	investigator,
-	monk,
-	occultist,
-	warpriest,
-	unchained_summoner
-};
-
-type Classes = keyof typeof archetypes;
-
-type Params = { id?: string, parent?: Classes };
+type Params = { id?: string, parent?: "investigator" | "monk" | "occultist" | "warpriest" | "unchained_summoner" };
 
 const ArchetypeGroup6Page: React.FC = () => {
 
 	const { id = "not_found", parent = "unchained_summoner" } = useParams<Params>();
 
-	const base = archetypes[parent] || archetypes.unchained_summoner;
+	switch (parent) {
+		case "investigator": {
+			return <Investigator id={test1(id) ? id : "not_found"} />;
+		}
+		case "monk": {
+			return <Monk id={test2(id) ? id : "not_found"} />;
+		}
+		case "occultist": {
+			return <Occultist id={test3(id) ? id : "not_found"} />;
+		}
+		case "warpriest": {
+			return <Warpriest id={test4(id) ? id : "not_found"} />;
+		}
+	}
 
-	const Page = base[id] || base.not_found;
-
-	return <Page />;
+	return <UnchainedSummoner id={test5(id) ? id : "not_found"} />;
 };
 
 export default ArchetypeGroup6Page;

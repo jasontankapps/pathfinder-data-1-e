@@ -1,5 +1,5 @@
 import { useParams } from 'wouter';
-import constructmods from './subpages/__constructmod';
+import Constructmod, { test } from './subpages/__constructmod';
 import './Page.css';
 
 type Params = { id?: string };
@@ -8,9 +8,7 @@ const ConstructModPage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = constructmods[id] || constructmods.not_found;
-
-	return <Page />;
+	return <Constructmod id={test(id) ? id : "not_found"} />;
 };
 
 export default ConstructModPage;

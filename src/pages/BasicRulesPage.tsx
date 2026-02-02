@@ -91,6 +91,7 @@ const BasicRulesPage: FC<PropsWithChildren<BasicRulesProps>> = ({
 		<BasicPage title={title} pageId={pageId} hasJL={hasJL} noFinder={noFinder}>
 			<HierarchyRulesInset extraHierarchy={h} />
 			<div className={cn}>
+				<h2>{title}</h2>
 				{children}
 			</div>
 			{subs.length > 0 ? (

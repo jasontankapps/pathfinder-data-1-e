@@ -1,5 +1,5 @@
 import { useParams } from 'wouter';
-import magic from './subpages/__magic-ioun';
+import Magic, { test } from './subpages/__magic-ioun';
 import './Page.css';
 
 type Params = { id?: string };
@@ -8,9 +8,7 @@ const MagicPage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = magic[id] || magic.not_found;
-
-	return <Page />;
+	return <Magic id={test(id) ? id : "not_found"} />;
 };
 
 export default MagicPage;

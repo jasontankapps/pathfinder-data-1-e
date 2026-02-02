@@ -1,8 +1,8 @@
 import { useParams } from 'wouter';
-import race1 from './subpages/__race01';
-import race2 from './subpages/__race02';
-import race3 from './subpages/__race03';
-import race4 from './subpages/__race04';
+import Race1, { test as test1 } from './subpages/__race01';
+import Race2, { test as test2 } from './subpages/__race02';
+import Race3, { test as test3 } from './subpages/__race03';
+import Race4, { test as test4 } from './subpages/__race04';
 import './Page.css';
 
 type Params = { id?: string };
@@ -11,10 +11,20 @@ const RacePage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = race1[id] || race2[id]
-		|| race3[id] || race4[id] || race1.not_found;
+	if(test1(id)) {
+		return <Race1 id={id} />;
+	}
+	if(test2(id)) {
+		return <Race2 id={id} />;
+	}
+	if(test3(id)) {
+		return <Race3 id={id} />;
+	}
+	if(test4(id)) {
+		return <Race4 id={id} />;
+	}
 
-	return <Page />;
+	return <Race1 id="not_found" />;
 
 };
 

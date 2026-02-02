@@ -1,5 +1,5 @@
 import { useParams } from 'wouter';
-import bloodlines from './subpages/__blrgbloodline';
+import Bloodline, { test } from './subpages/__blrgbloodline';
 import './Page.css';
 
 type Params = { id?: string };
@@ -8,9 +8,7 @@ const BloodragerBloodlinePage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = bloodlines[id] || bloodlines.not_found;
-
-	return <Page />;
+	return <Bloodline id={test(id) ? id : "not_found"} />;
 };
 
 export default BloodragerBloodlinePage;

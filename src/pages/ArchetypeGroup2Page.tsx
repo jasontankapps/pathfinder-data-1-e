@@ -1,8 +1,8 @@
 import { useParams } from 'wouter';
-import bard from './subpages/__arc-bard';
-import bloodrager from './subpages/__arc-bloodrager';
-import brawler from './subpages/__arc-brawler';
-import cavalier from './subpages/__arc-cavalier';
+import Bard, { test as test1 } from './subpages/__arc-bard';
+import Bloodrager, { test as test2 } from './subpages/__arc-bloodrager';
+import Cavalier, { test as test3 } from './subpages/__arc-cavalier';
+import Brawler, { test as test4 } from './subpages/__arc-brawler';
 import './Page.css';
 
 /*
@@ -12,26 +12,25 @@ import './Page.css';
 	cavalier: [2, "Cavalier"], //37; conflicts with companion, familiar, swashbuckler
 */
 
-const archetypes = {
-	bard,
-	bloodrager,
-	brawler,
-	cavalier
-};
-
-type Classes = keyof typeof archetypes;
-
-type Params = { id?: string, parent?: Classes };
+type Params = { id?: string, parent?: "bard" | "bloodrager" | "brawler" | "cavalier" };
 
 const ArchetypeGroup2Page: React.FC = () => {
 
 	const { id = "not_found", parent = "brawler" } = useParams<Params>();
 
-	const base = archetypes[parent] || archetypes.brawler;
+	switch (parent) {
+		case "bard": {
+			return <Bard id={test1(id) ? id : "not_found"} />;
+		}
+		case "bloodrager": {
+			return <Bloodrager id={test2(id) ? id : "not_found"} />;
+		}
+		case "cavalier": {
+			return <Cavalier id={test3(id) ? id : "not_found"} />;
+		}
+	}
 
-	const Page = base[id] || base.not_found;
-
-	return <Page />;
+	return <Brawler id={test4(id) ? id : "not_found"} />;
 };
 
 export default ArchetypeGroup2Page;

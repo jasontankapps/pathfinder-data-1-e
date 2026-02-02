@@ -1,22 +1,14 @@
 import { useParams } from 'wouter';
-import hex from './subpages/__hex';
-import patron from './subpages/__patron';
-import shamanhex from './subpages/__shamanhex';
-import evolution from './subpages/__evolution';
-import unchevolution from './subpages/__unchevolution';
-import eidolon from './subpages/__eidolon';
+import Hex, { test as test1 } from './subpages/__hex';
+import Patron, { test as test2 } from './subpages/__patron';
+import Shamanhex, { test as test3 } from './subpages/__shamanhex';
+import Evolution, { test as test4 } from './subpages/__evolution';
+import Unchevolution, { test as test5 } from './subpages/__unchevolution';
+import Eidolon, { test as test6 } from './subpages/__eidolon';
+import ErrorPage from './ErrorPage';
 import './Page.css';
 
-const allTalents = {
-	hex,
-	patron,
-	shamanhex,
-	evolution,
-	unchevolution,
-	eidolon
-};
-
-type Talent = keyof typeof allTalents;
+type Talent = "hex" | "patron" | "shamanhex" | "evolution" | "unchevolution" | "eidolon";
 
 type Params = { id?: string };
 
@@ -24,9 +16,28 @@ const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = allTalents[prefix][id] || allTalents[prefix].not_found;
+	switch(prefix) {
+		case "hex": {
+			return <Hex id={test1(id) ? id : "not_found"} />;
+		}
+		case "patron": {
+			return <Patron id={test2(id) ? id : "not_found"} />;
+		}
+		case "shamanhex": {
+			return <Shamanhex id={test3(id) ? id : "not_found"} />;
+		}
+		case "evolution": {
+			return <Evolution id={test4(id) ? id : "not_found"} />;
+		}
+		case "unchevolution": {
+			return <Unchevolution id={test5(id) ? id : "not_found"} />;
+		}
+		case "eidolon": {
+			return <Eidolon id={test6(id) ? id : "not_found"} />;
+		}
+	}
 
-	return <Page />;
+	return <ErrorPage />;
 };
 
 export default TalentPage;

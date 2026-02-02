@@ -1,5 +1,5 @@
 import { useParams } from 'wouter';
-import defs from './subpages/__spelldef';
+import Def, { test } from './subpages/__spelldef';
 import './Page.css';
 
 type Params = { id?: string };
@@ -8,9 +8,7 @@ const SpellDefPage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = defs[id] || defs.not_found;
-
-	return <Page />;
+	return <Def id={test(id) ? id : "not_found"} />;
 };
 
 export default SpellDefPage;

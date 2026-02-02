@@ -1,5 +1,5 @@
 import { useParams } from 'wouter';
-import emotionalfocus from './subpages/__emotionalfocus';
+import Emotionalfocus, { test } from './subpages/__emotionalfocus';
 import './Page.css';
 
 type Params = { id?: string };
@@ -8,9 +8,7 @@ const ArcanaPage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = emotionalfocus[id] || emotionalfocus.not_found;
-
-	return <Page />;
+	return <Emotionalfocus id={test(id) ? id : "not_found"} />;
 };
 
 export default ArcanaPage;

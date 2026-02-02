@@ -1196,7 +1196,11 @@ $.GROUPS.forEach(([link, related_groups]) => {
 			+ "\n\n"
 			+ `const all: {[key: string]: React.FC} = {\n\t`
 			+ collection.join(",\n\t")
-			+ "\n};\n\nexport default all;"
+			+ "\n};\n\nexport const test = (id: string) => (all[id] ? true : false);\n\n"
+			+ "const Output: React.FC<{id?: string}> = ({id}) => {\n"
+			+ "\tconst Page = all[id || \"\"];\n"
+			+ "\tif(Page) {\n\t\treturn <Page />;\n\t}\n"
+			+ "\treturn <></>;\n};\n\nexport default Output;";
 		if(testindex !== index) {
 			// File has changed. Save it.
 			fs.writeFileSync(indexfile, index);

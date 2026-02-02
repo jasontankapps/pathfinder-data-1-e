@@ -1,5 +1,5 @@
 import { useParams } from 'wouter';
-import aspects from './subpages/__aspect';
+import Aspect, { test } from './subpages/__aspect';
 import './Page.css';
 
 type Params = { id?: string };
@@ -8,9 +8,7 @@ const AspectPage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = aspects[id] || aspects.not_found;
-
-	return <Page />;
+	return <Aspect id={test(id) ? id : "not_found"} />;
 };
 
 export default AspectPage;

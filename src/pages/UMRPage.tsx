@@ -1,5 +1,5 @@
 import { useParams } from 'wouter';
-import umr from './subpages/__umr';
+import Umr, { test } from './subpages/__umr';
 import './Page.css';
 
 type Params = { id?: string };
@@ -8,9 +8,7 @@ const UMRPage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = umr[id] || umr.not_found;
-
-	return <Page />;
+	return <Umr id={test(id) ? id : "not_found"} />;
 };
 
 export default UMRPage;

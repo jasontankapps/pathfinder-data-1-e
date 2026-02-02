@@ -1,8 +1,8 @@
 import { useParams } from 'wouter';
-import cleric from './subpages/__arc-cleric';
-import companion from './subpages/__arc-companion';
-import druid from './subpages/__arc-druid';
-import shaman from './subpages/__arc-shaman';
+import Cleric, { test as test1 } from './subpages/__arc-cleric';
+import Companion, { test as test2 } from './subpages/__arc-companion';
+import Druid, { test as test3 } from './subpages/__arc-druid';
+import Shaman, { test as test4 } from './subpages/__arc-shaman';
 import './Page.css';
 
 /*
@@ -12,26 +12,25 @@ import './Page.css';
 	shaman: [3, "Shaman"], //17
 */
 
-const archetypes = {
-	cleric,
-	companion,
-	druid,
-	shaman
-};
-
-type Classes = keyof typeof archetypes;
-
-type Params = { id?: string, parent?: Classes };
+type Params = { id?: string, parent?: "cleric" | "companion" | "druid" | "shaman" };
 
 const ArchetypeGroup3Page: React.FC = () => {
 
 	const { id = "not_found", parent = "shaman" } = useParams<Params>();
 
-	const base = archetypes[parent] || archetypes.shaman;
+	switch (parent) {
+		case "cleric": {
+			return <Cleric id={test1(id) ? id : "not_found"} />;
+		}
+		case "companion": {
+			return <Companion id={test2(id) ? id : "not_found"} />;
+		}
+		case "druid": {
+			return <Druid id={test3(id) ? id : "not_found"} />;
+		}
+	}
 
-	const Page = base[id] || base.not_found;
-
-	return <Page />;
+	return <Shaman id={test4(id) ? id : "not_found"} />;
 };
 
 export default ArchetypeGroup3Page;

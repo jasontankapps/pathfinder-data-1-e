@@ -1,5 +1,5 @@
 import { useParams } from 'wouter';
-import domains from './subpages/__druiddomain';
+import DruidDomain, { test } from './subpages/__druiddomain';
 import './Page.css';
 
 type Params = { id?: string };
@@ -8,9 +8,7 @@ const DruidDomainPage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = domains[id] || domains.not_found;
-
-	return <Page />;
+	return <DruidDomain id={test(id) ? id : "not_found"} />;
 };
 
 export default DruidDomainPage;

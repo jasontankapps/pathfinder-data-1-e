@@ -1,5 +1,5 @@
 import { useParams } from 'wouter';
-import corruptions from './subpages/__corruption';
+import Corruption, { test } from './subpages/__corruption';
 import './Page.css';
 
 type Params = { id?: string };
@@ -8,9 +8,7 @@ const CorruptionPage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = corruptions[id] || corruptions.not_found;
-
-	return <Page />;
+	return <Corruption id={test(id) ? id : "not_found"} />;
 };
 
 export default CorruptionPage;

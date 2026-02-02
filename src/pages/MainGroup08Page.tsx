@@ -1,6 +1,6 @@
 import { useParams } from 'wouter';
-import m1 from './subpages/__main02';
-import m2 from './subpages/__main03';
+import M1, { test as test1 } from './subpages/__main02';
+import M2, { test as test2 } from './subpages/__main03';
 import ErrorPage from './ErrorPage';
 import './Page.css';
 
@@ -8,21 +8,20 @@ import './Page.css';
 	Equipment / Tech pages
 */
 
-
 type Params = { id?: string };
 
 const MainGroup8Page: React.FC = () => {
 
-	
 	const { id = "equipment" } = useParams<Params>();
 
-	const Page = m1[id] || m2[id];
-
-	if(!Page) {
-		return <ErrorPage />;
+	if(test1(id)) {
+		return <M1 id={id} />;
+	}
+	if(test2(id)) {
+		return <M2 id={id} />;
 	}
 
-	return <Page />;
+	return <ErrorPage />;
 };
 
 export default MainGroup8Page;

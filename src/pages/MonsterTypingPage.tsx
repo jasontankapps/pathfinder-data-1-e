@@ -1,6 +1,6 @@
 import { useParams } from 'wouter';
-import monster_types from './subpages/__type';
-import monster_subtypes from './subpages/__subtype';
+import MonsterType, { test as test1 } from './subpages/__type';
+import MonsterSubtype, { test as test2 } from './subpages/__subtype';
 import './Page.css';
 
 type Params = { id?: string };
@@ -9,9 +9,14 @@ const MonsterTypingPage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = monster_types[id] || monster_subtypes[id] || monster_types.not_found;
+	if(test1(id)) {
+		return <MonsterType id={id} />;
+	}
+	if(test2(id)) {
+		return <MonsterSubtype id={id} />;
+	}
 
-	return <Page />;
+	return <MonsterType id="not_found" />;
 };
 
 export default MonsterTypingPage;

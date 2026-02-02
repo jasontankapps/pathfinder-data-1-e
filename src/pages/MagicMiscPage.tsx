@@ -1,53 +1,86 @@
 import { useParams } from 'wouter';
-import magic_altar from './subpages/__magic-altar';
-import magic_demonic_implants from './subpages/__magic-implant';
-import magic_devil_talismans from './subpages/__magic-talisman';
-import magic_elemental_augmentations from './subpages/__magic-aug';
-import magic_favor from './subpages/__magic-favor';
-import magic_fleshcrafting from './subpages/__magic-fleshcraft';
-import magic_fungal_grafts from './subpages/__magic-graft';
-import magic_infused_poisons from './subpages/__magic-poison';
-import magic_juju_fetishes from './subpages/__magic-fetish';
-import magic_legacy from './subpages/__magic-legacy';
-import magic_necrografts from './subpages/__magic-necrograft';
-import magic_necrotoxins from './subpages/__magic-necrotoxin';
-import magic_plant from './subpages/__magic-plant';
-import magic_relics from './subpages/__magic-relic';
-import magic_set from './subpages/__magic-set';
-import magic_shadow_piercings from './subpages/__magic-piercing';
-import magic_tattoo from './subpages/__magic-tattoo';
-import magic_throne from './subpages/__magic-throne';
+import Altar, { test as test1 } from './subpages/__magic-altar';
+import DemonicImplant, { test as test2 } from './subpages/__magic-implant';
+import DevilTalisman, { test as test3 } from './subpages/__magic-talisman';
+import ElementalAugmentation, { test as test4 } from './subpages/__magic-aug';
+import Favor, { test as test5 } from './subpages/__magic-favor';
+import Fleshcrafting, { test as test6 } from './subpages/__magic-fleshcraft';
+import FungalGraft, { test as test7 } from './subpages/__magic-graft';
+import InfusedPoison, { test as test8 } from './subpages/__magic-poison';
+import JujuFetish, { test as test9 } from './subpages/__magic-fetish';
+import Legacy, { test as test10 } from './subpages/__magic-legacy';
+import Necrograft, { test as test11 } from './subpages/__magic-necrograft';
+import Necrotoxin, { test as test12 } from './subpages/__magic-necrotoxin';
+import Plant, { test as test13 } from './subpages/__magic-plant';
+import Relic, { test as test14 } from './subpages/__magic-relic';
+import MagicSet, { test as test15 } from './subpages/__magic-set';
+import ShadowPiercing, { test as test16 } from './subpages/__magic-piercing';
+import Tattoo, { test as test17 } from './subpages/__magic-tattoo';
+import Throne, { test as test18 } from './subpages/__magic-throne';
 import './Page.css';
 
-const magic = {
-	...magic_altar,
-	...magic_demonic_implants,
-	...magic_devil_talismans,
-	...magic_elemental_augmentations,
-	...magic_favor,
-	...magic_fleshcrafting,
-	...magic_fungal_grafts,
-	...magic_infused_poisons,
-	...magic_juju_fetishes,
-	...magic_legacy,
-	...magic_necrografts,
-	...magic_necrotoxins,
-	...magic_plant,
-	...magic_relics,
-	...magic_set,
-	...magic_shadow_piercings,
-	...magic_tattoo,
-	...magic_throne
-};
 type Params = { id?: string };
 
 const MagicMiscPage: React.FC = () => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = magic[id] || magic.not_found;
+	if(test1(id)) {
+		return <Altar id={id} />;
+	}
+	if(test2(id)) {
+		return <DemonicImplant id={id} />;
+	}
+	if(test3(id)) {
+		return <DevilTalisman id={id} />;
+	}
+	if(test4(id)) {
+		return <ElementalAugmentation id={id} />;
+	}
+	if(test5(id)) {
+		return <Favor id={id} />;
+	}
+	if(test6(id)) {
+		return <Fleshcrafting id={id} />;
+	}
+	if(test7(id)) {
+		return <FungalGraft id={id} />;
+	}
+	if(test8(id)) {
+		return <InfusedPoison id={id} />;
+	}
+	if(test9(id)) {
+		return <JujuFetish id={id} />;
+	}
+	if(test10(id)) {
+		return <Legacy id={id} />;
+	}
+	if(test11(id)) {
+		return <Necrograft id={id} />;
+	}
+	if(test12(id)) {
+		return <Necrotoxin id={id} />;
+	}
+	if(test13(id)) {
+		return <Plant id={id} />;
+	}
+	if(test14(id)) {
+		return <Relic id={id} />;
+	}
+	if(test15(id)) {
+		return <MagicSet id={id} />;
+	}
+	if(test16(id)) {
+		return <ShadowPiercing id={id} />;
+	}
+	if(test17(id)) {
+		return <Tattoo id={id} />;
+	}
+	if(test18(id)) {
+		return <Throne id={id} />;
+	}
 
-	return <Page />;
+	return <Altar id="not_found" />
 };
 
 export default MagicMiscPage;

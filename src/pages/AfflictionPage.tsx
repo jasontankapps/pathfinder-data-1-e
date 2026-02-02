@@ -1,7 +1,7 @@
 import { useLocation, useParams } from 'wouter';
-import curses from './subpages/__curse';
-import diseases from './subpages/__disease';
-import infestations from './subpages/__infestation';
+import Curse, { test as ctest } from './subpages/__curse';
+import Disease, { test as dtest } from './subpages/__disease';
+import Infestation, { test as itest } from './subpages/__infestation';
 import './Page.css';
 
 type Affliction = "curse" | "disease" | "infestation";
@@ -17,14 +17,15 @@ const AfflictionPage: React.FC = () => {
 
 	const type: Affliction = m ? m[1] as Affliction : "curse";
 
-	const Page =
-		(type === "curse")
-			? curses[id] || curses.not_found
-			: (type === "disease")
-				? diseases[id] || diseases.not_found
-				: infestations[id] || infestations.not_found;
-
-	return <Page />;
+	switch(type) {
+		"curse": {
+			return <Curse id={ctest(id) ? id : "not_found"} />;
+		}
+		"disease": {
+			return <Disease id={dtest(id) ? id : "not_found"} />;
+		}
+	}
+	return <Infestation id={itest(id) ? id : "not_found"} />;
 };
 
 export default AfflictionPage;

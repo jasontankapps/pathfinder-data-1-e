@@ -1,24 +1,15 @@
 import { useParams } from 'wouter';
-import talent from './subpages/__talent';
-import slayertalent from './subpages/__slayertalent';
-import phrenicamp from './subpages/__phrenicamp';
-import deed from './subpages/__deed';
-import swashdeed from './subpages/__swashdeed';
-import hkdiscipline from './subpages/__hkdiscipline';
-import rangertrap from './subpages/__rangertrap';
+import Talent, { test as test1 } from './subpages/__talent';
+import Slayertalent, { test as test2 } from './subpages/__slayertalent';
+import Phrenicamp, { test as test3 } from './subpages/__phrenicamp';
+import Deed, { test as test4 } from './subpages/__deed';
+import Swashdeed, { test as test5 } from './subpages/__swashdeed';
+import Hkdiscipline, { test as test6 } from './subpages/__hkdiscipline';
+import Rangertrap, { test as test7 } from './subpages/__rangertrap';
+import ErrorPage from './ErrorPage';
 import './Page.css';
 
-const allTalents = {
-	talent,
-	slayertalent,
-	phrenicamp,
-	deed,
-	swashdeed,
-	hkdiscipline,
-	rangertrap
-};
-
-type Talent = keyof typeof allTalents;
+type Talent = "talent" | "slayertalent" | "phrenicamp" | "deed" | "swashdeed" | "hkdiscipline" | "rangertrap";
 
 type Params = { id?: string };
 
@@ -26,9 +17,31 @@ const TalentPage: React.FC<{ prefix: Talent }> = ({prefix}) => {
 
 	const { id = "not_found" } = useParams<Params>();
 
-	const Page = allTalents[prefix][id] || allTalents[prefix].not_found;
+	switch(prefix) {
+		case "talent": {
+			return <Talent id={test1(id) ? id : "not_found"} />;
+		}
+		case "slayertalent": {
+			return <Slayertalent id={test2(id) ? id : "not_found"} />;
+		}
+		case "phrenicamp": {
+			return <Phrenicamp id={test3(id) ? id : "not_found"} />;
+		}
+		case "deed": {
+			return <Deed id={test4(id) ? id : "not_found"} />;
+		}
+		case "swashdeed": {
+			return <Swashdeed id={test5(id) ? id : "not_found"} />;
+		}
+		case "hkdiscipline": {
+			return <Hkdiscipline id={test6(id) ? id : "not_found"} />;
+		}
+		case "rangertrap": {
+			return <Rangertrap id={test7(id) ? id : "not_found"} />;
+		}
+	}
 
-	return <Page />;
+	return <ErrorPage />;
 };
 
 export default TalentPage;
