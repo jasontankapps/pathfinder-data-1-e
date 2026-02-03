@@ -3,11 +3,20 @@ interface Options {
 	basic?: boolean
 	bare?: boolean
 }
-export const checkForEncodedLink = (input: string, options: Options = {}): false | string[] => {
+interface EncodedLinkOutput {
+	pre: string
+	link: string
+	text: string
+	post: string
+	protocol: string
+	property: string
+	original: string
+}
+export const checkForEncodedLink = (input: string, options: Options = {}): false | EncodedLinkOutput => {
 	const { basic, bare } = options;
 	let m = input.match(
 		bare ? /^([-a-z_]+)[/](.+)($)/
-		: /(^.*?)‹([-a-z_]*)[/]([^›]*)›(.*$)/
+		: /(^.*?)(‹+)([-a-z_]*)[/]([^›]*)›+(.*$)/
 	);
 	const m2 = basic && input.match(/(^.*?)\[([^\]]+)\]\(([-a-z_]+)[/]([^)]+)\)(.*$)/);
 	if(!m && !m2) {
@@ -15,21 +24,39 @@ export const checkForEncodedLink = (input: string, options: Options = {}): false
 	} else if (bare && m) {
 		// rearrange `m`, starting with: [full, protocol, matchedx]
 		const full = m.shift()!;
-		m.unshift(full, "");
+		m.unshift(full, "", "");
 		m.push("");
-		// `m` is now [full, "", protocol, matchedx, ""]
+		// `m` is now [full, ""(pre), ""(startbrackets), protocol, matchedx, ""(post)]
 	} else if (m2) {
 		// See if we have a ‹match›, then figure out who has the earlier match.
 		if(!m || (m[1].length > m2[1].length)) {
 			// [match] wins
 			const [, pre, text, protocol, property, post] = m2;
-			return [
-				pre, `${protocol}/${property}`, text, post,
-				protocol, property, `[${text}](${protocol}/${property})`
-			];
+			return {
+				pre,
+				link: `${protocol}/${property}`,
+				text,
+				post,
+				protocol,
+				property,
+				original: `[${text}](${protocol}/${property})`
+			};
 		}
 	}
-	const [, pre, protocol, matchedx, post] = m!;
+	const [, pre, startbrackets, protocol, matchedx, post] = m;
+	if (startbrackets === "‹‹") {
+		// This is a verbatim link
+		// Sub in main.main as a fake link so we fool the invalidity tests
+		return {
+			pre,
+			link: matchedx,
+			text: protocol,
+			post,
+			protocol: "main",
+			property: "main",
+			original: `‹‹${protocol}/${matchedx}››`
+		};
+	}
 	let matched = matchedx, linkpre = "", linkpost = "", textpre = "", textpost = "";
 	// pre_>link
 	if(m = matched.match(/(^[^<]*?)>(.*$)/)) {
@@ -68,7 +95,15 @@ export const checkForEncodedLink = (input: string, options: Options = {}): false
 		.replace(/[- /]/g, "_")
 		.toLowerCase()
 		.replace(/[^a-z0-9_]/g, "");
-	return [pre, `${protocol}/${property}`, text, post, protocol, property, `‹${protocol}/${matchedx}›`];
+	return {
+		pre,
+		link: `${protocol}/${property}`,
+		text,
+		post,
+		protocol,
+		property,
+		original: `‹${protocol}/${matchedx}›`
+	};
 };
 
 // Basic link format:
@@ -104,7 +139,7 @@ const convertLinks = (input: string[]): string => {
 		let converted = "";
 		let base = line;
 		while(m = checkForEncodedLink(base)) {
-			const [pre, link, text, post] = m;
+			const {pre, link, text, post} = m;
 			converted = converted + `${pre}[${text}](${link})`;
 			base = post;
 		}

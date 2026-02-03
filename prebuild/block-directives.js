@@ -37,8 +37,8 @@ const convertEncodedInfo = (input) => {
 	let test = input;
 	let output = "";
 	while(m = checkForEncodedLink(test)) {
-		const [pre, fulllink, text, post] = m;
-		output = output + `${pre}[${text}](${fulllink})`;
+		const {pre, link, text, post} = m;
+		output = output + `${pre}[${text}](${link})`;
 		test = post;
 	}
 	return (output + test)
@@ -175,7 +175,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				}
 				flags.link = true;
 				const { pre, post } = attrs;
-				const [, link, linktext] = m;
+				const { link, text: linktext } = m;
 				let inner = `<Link to="/${link}">${linktext}</Link>`;
 				if(pre) {
 					inner = pre + inner;

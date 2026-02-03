@@ -76,12 +76,12 @@ const removeCurlyBrackets = (input, inlineText) => {
 			.replace(/\n/g, "<span data-hiding></span>")
 			.replace(/Span=\{([0-9]+)\}/g, "Span-=SpanNum$1=-")
 			.replace(/=>/g, "-=ARROW=-")
-			.split("‹").map((bit, i) => {
+			.split(/‹+/).map((bit, i) => {
 				let m;
 				if(i === 0) {
 					//ignore
 					return bit;
-				} else if (m = bit.match(/(^.*?›)(.*$)/)) {
+				} else if (m = bit.match(/(^.*?›+)(.*$)/)) {
 					// Obfuscate <> inside of ‹links›
 					const [, pre, post] = m;
 					return pre.replace(/</g, "-=LEFT=-").replace(/>/g, "-=RIGHT=-") + post;
@@ -234,7 +234,7 @@ const convertLinks = (input) => {
 		let converted = "";
 		let base = line;
 		while(m = checkForEncodedLink(base)) {
-			const [pre, link, text, post] = m;
+			const {pre, link, text, post} = m;
 			converted = converted + `${pre}[${text}](${link})`;
 			base = post;
 		}

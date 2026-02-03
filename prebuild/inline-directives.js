@@ -32,7 +32,7 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				flags.ripple = true;
 				const m = checkForEncodedLink(text, { bare: true });
 				if(m) {
-					const [, link, text] = m;
+					const {link, text} = m;
 					if(tag === "ripple") {
 						return `<Link to="/${link}">${text}<IonRippleEffect /></Link>`;
 					}

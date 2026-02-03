@@ -41,7 +41,7 @@ function getCheckableValue (item: RawDatum, nullish: string, fromArray: boolean 
 	}
 	const m = checkForEncodedLink(item);
 	return m ?
-		{string: m[5] + " "}
+		{string: m.property + " "}
 		: {string: item + " "};
 };
 const normalSort = (a: RawDatum, b: RawDatum) => {
