@@ -76,6 +76,7 @@ const maybeLaunchImportModal = (
 		let data: any;
 		try {
 			data = JSON.parse(ref.current.value);
+		// eslint-disable-next-line @typescript-eslint/no-unused-vars
 		} catch(e) {
 			data = null;
 			message = "ERR-0.1 Invalid JSON format"
@@ -286,6 +287,7 @@ const BookmarksImportExportPage: FC = () => {
 			if(newSelected.length) {
 				const temp: GenStrict<string, BG> = {};
 				toggle(toggling, selected).forEach(id => {
+					// eslint-disable-next-line @typescript-eslint/no-unused-vars
 					const {hidden, ...obj} = db[id]
 					temp[id] = obj;
 				});

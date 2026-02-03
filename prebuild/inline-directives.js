@@ -34,6 +34,7 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				if(m) {
 					const {link, text} = m;
 					if(tag === "ripple") {
+						flags.ripple = true;
 						return `<Link to="/${link}">${text}<IonRippleEffect /></Link>`;
 					}
 					// hll - highlighted link

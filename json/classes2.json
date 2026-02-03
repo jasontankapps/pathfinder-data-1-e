@@ -528,7 +528,7 @@
 			"",
 			"::ab[Nature Training (Ex)]{l=1 icon=boost passive=\"You count your total hunter level as both druid levels and ranger levels for the purpose of qualifying for feats, traits, and options that modify or improve an animal companion.\"}",
 			"",
-			":::ab{jl=\"Animal Focus\" title=\"Animal Focus (Su)\" l=1 icon=boost action=\"Swift Action\" useL=hunter useUnit=minute useNC=\"1-minute\"}",
+			":::ab{jl=\"Animal Focus\" title=\"Animal Focus (Su)\" l=1 icon=boost action=\"Swift Action\" useL=hunter useUnit=minute useNC=1}",
 			"",
 			"You can take on the ‹ability/aspect of an »animal<_foci›. You must select one type of animal to emulate, gaining a bonus or special ability based on the type of animal emulated and your hunter level. You can emulate only one animal at a time.",
 			"",

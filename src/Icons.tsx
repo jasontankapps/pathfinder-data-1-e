@@ -40,6 +40,7 @@ const Icons: FC = () => {
 				block: "center",
 				inline: "center"
 			}), 100);
+			// eslint-disable-next-line react-hooks/set-state-in-effect
 			setInitializedTo(icon);
 		}
 	}, [icon, initializedTo, setInitializedTo]);

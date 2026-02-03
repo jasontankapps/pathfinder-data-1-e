@@ -11,20 +11,20 @@ import { arrowUp, chevronBack, chevronForward, options } from 'ionicons/icons';
 import { useLocation, useRoute } from 'wouter';
 import { motion, AnimatePresence } from 'motion/react';
 import { useMarker } from "react-mark.js";
-import { setCaseSensitive, setSeparateWordSearch, setWholeWords } from '../store/searchSlice';
+import { setCaseSensitive, setSeparateWordSearch, /*setWholeWords*/ } from '../store/searchSlice';
 import { useAppDispatch, useAppSelector, useElement } from '../store/hooks';
 import { setPosition } from '../store/scrollSlice';
 import PageFooter from '../components/PageFooter';
 import PageHeader from '../components/PageHeader';
 import Link from '../components/Link';
 import { FinderContext } from '../components/contexts';
-import { DisplayItemProps, Gen } from '../types';
+import { DisplayItemProps, Gen, Hierarchy } from '../types';
 import './Page.css';
 
 interface PageProps extends Partial<DisplayItemProps> {
 	hasJL?: boolean
 	title: string
-	topLink?: [string, string]
+	topLink?: Hierarchy
 	noFinder?: boolean
 	pageId: string
 	error?: boolean
@@ -39,7 +39,7 @@ const unopaque = { opacity: 0 };
 
 const debounceNamespace: Gen<string, any> = {};
 
-const debounce = (fn: Function, ns: string, delay: number = 500) => {
+const debounce = (fn: () => void, ns: string, delay: number = 500) => {
 	if (debounceNamespace[ns]) {
 		if(debounceNamespace[ns] === "frozen") {
 			// Do not continue;
@@ -71,16 +71,16 @@ const checkElementsForText = (nodes: HTMLElement[], search: string, separateWord
 	let count = 0;
 	let hold: null | string = null;
 	let original: HTMLElement[] = [];
-	const text = search.replace(/[:;.,(){}\[\]!'?*"]/g, "").toLowerCase();
+	const text = search.replace(/[:;.,(){}[\]!'?*"]/g, "").toLowerCase();
 	//
 	// Need to create separate checkers for when separateWordSearch is true
 	//
 	const contents: (HTMLElement | HTMLElement[])[] = [];
 	if(separateWordSearch) {
-		const possibles = search.toLowerCase().split(/ +/).map(p => p.replace(/[:;.,(){}\[\]!'?*"]/g, ""));
+		const possibles = search.toLowerCase().split(/ +/).map(p => p.replace(/[:;.,(){}[\]!'?*"]/g, ""));
 		while(nodes.length > 0 ) {
 			const el = nodes.shift()!;
-			const test = (el.textContent || "").replace(/[:;.,(){}\[\]!'?*"]/g, "").toLowerCase();
+			const test = (el.textContent || "").replace(/[:;.,(){}[\]!'?*"]/g, "").toLowerCase();
 			if(hold !== null) {
 				hold = hold + test;
 				if(possibles.some(p => (hold === p || (hold!.indexOf(p) > -1)))) {
@@ -103,7 +103,7 @@ const checkElementsForText = (nodes: HTMLElement[], search: string, separateWord
 	} else {
 		while(nodes.length > 0) {
 			const el = nodes.shift()!;
-			const test = (el.textContent || "").replace(/[:;.,(){}\[\]!'?*"]/g, "").toLowerCase();
+			const test = (el.textContent || "").replace(/[:;.,(){}[\]!'?*"]/g, "").toLowerCase();
 			if(hold !== null) {
 				hold = hold + test;
 				if (hold === text || (hold.indexOf(text) > -1)) {
@@ -198,7 +198,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 				setGoToTopFlag(storedPos < 200);
 			}
 		}, pageId + "/enter", 10);
-	}, [path, pageId, contentObject]);
+	}, [path, pageId, contentObject, storedPos]);
 	useEffect(() => {
 		scrollHook && scrollHook(contentObject);
 	}, [scrollHook, pageId, contentObject]);
@@ -210,9 +210,10 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 	}, [pageId, dispatch, goToTopFlag, setGoToTopFlag, contentObject, hasJL]);
 	const goToTop = useCallback(
 		() => (contentObject && contentObject.scrollToTop(500)),
-		[pageId, contentObject]
+		[contentObject]
 	);
-	const [isMatch] = error ? [true] : useRoute(pageId);
+	const usingRoute = useRoute(pageId);
+	const [isMatch] = error ? [true] : usingRoute;
 	const cN = "basicContent " + (className || "simple") + (topLink ? " hasInset" : "");
 
 	const onInput = useCallback((input: FormEvent<HTMLIonSearchbarElement> | null) => {
@@ -231,7 +232,7 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 								//
 								//accuracy: wholeWords ? "exactly" : "partially",
 								//
-								done: (n) => {
+								done: (/*n*/) => {
 									//const found = Number(n);
 									const markers = (
 										markerRef
@@ -260,9 +261,9 @@ const BasicPage: FC<PropsWithChildren<PageProps>> = (props) => {
 		}
 		input || (findInPageSearchbarObj && (findInPageSearchbarObj.value = ""));
 	}, [
-		marker, markerRef, markers, findInPageSearchbarObj,
+		marker, markerRef, findInPageSearchbarObj,
 		setNumberOfTextsFound, setHighlightedText, setMarkers,
-		caseSensitive, wholeWords, separateWordSearch
+		caseSensitive, separateWordSearch
 	]);
 
 	const show = useCallback((mod: 1 | -1) => doFocus(

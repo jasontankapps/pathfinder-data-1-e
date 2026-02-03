@@ -429,10 +429,11 @@ const postprocess = (tables) => {
 		output = output + text;
 		//Create implicit jumplists
 		if(flags.implicitJumplist) {
+			// WHY isn't this just InnerLink??
 			let div = `<div className="jumpList" id="${prefix}jumplist"><h2>Jump to:</h2><ul>`;
 			flags.implicitJumplist.forEach(pair => {
 				const [text, id] = pair;
-				div = div + `<li tabIndex={0} role="link" onKeyDown={(e)=>e.key==="Enter"&&jumpScroller("${id}")} onClick={()=>jumpScroller("${id}")}>${text}</li>`;
+				div = div + `<li><InnerLink toTop to="${id}">${text}</InnerLink></li>`;
 			});
 			div = div + `</ul></div>`;
 			flags.jumplist = true;
@@ -643,7 +644,7 @@ const compile = (compileFrom, prefix, temporaryFlags, openTag, closeTag) => {
 				}) : obj.compilationSources.map(arr => {
 					// set up footnotes info
 					const [title, pg] = arr;
-					const detail = pg ? `‹source/${title}/ pg. ${pg}›` : `‹source/${title}›`;
+					const detail = pg ? `‹source/${title}« pg. ${pg}›` : `‹source/${title}›`;
 					if(!footnotes[detail]) {
 						const plain = pg ? `${title} pg. ${pg}` : title;
 						footnotes[detail] = `[^${footnoteNames[footnotes.count++]}]`;
@@ -1016,10 +1017,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	groupFlags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
 	groupFlags.innerlink && imports.push(`import InnerLink from '../../components/InnerLink';`);
 	groupFlags.scrollContainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
-	groupFlags.jumplist && imports.push(
-//		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);if(el){el.classList.add(\"highlight\");setTimeout(()=>el.classList.remove(\"highlight\"),500)}let w=el&&el.parentElement;while(w&&w.tagName.toUpperCase()!==\"ION-CONTENT\"){w=w.parentElement}const yCoordinate=el?el.getBoundingClientRect().top+window.scrollY:80;w&&(w as HTMLIonContentElement).scrollByPoint(0,yCoordinate-80,500)};"
-		"const jumpScroller=(id:string)=>{let el=document.getElementById(id);if(el){el.classList.add(\"highlight\");setTimeout(()=>el.classList.remove(\"highlight\"),500)}el&&el.scrollIntoView({behavior:\"smooth\",block:\"start\",inline:\"nearest\"})};"
-	);
+	(flags.innerlink || flags.jumplist) && imports.push(`import InnerLink from '../../components/InnerLink';`);
 	// Add saved info;
 	const allprops = [];
 	const output = imports.concat(final.map(([prop, object]) => {

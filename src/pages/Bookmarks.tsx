@@ -127,7 +127,7 @@ const BookmarksPage: FC = () => {
 				</IonItemSliding>
 			);
 		});
-	}, [db, order, location, dispatch, maybeDelete]);
+	}, [db, order, dispatch, maybeDelete, navigate, closeEm]);
 
 	const handleReorder = (event: CustomEvent<ItemReorderEventDetail>) => {
 		const {to, from, complete} = event.detail;

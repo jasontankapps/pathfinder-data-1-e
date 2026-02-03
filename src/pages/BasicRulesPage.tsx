@@ -71,7 +71,7 @@ const BasicRulesPage: FC<BasicRulesProps> = ({
 			];
 		}
 		return [null, null];
-	}, [siblings]);
+	}, [siblings, id]);
 	const prevNextClass = "prevNext" + (next && !previous ? " nextOnly" : "");
 
 	const subs: HierarchyArray = useMemo(
