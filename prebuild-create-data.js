@@ -1017,7 +1017,7 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	groupFlags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
 	groupFlags.innerlink && imports.push(`import InnerLink from '../../components/InnerLink';`);
 	groupFlags.scrollContainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
-	(flags.innerlink || flags.jumplist) && imports.push(`import InnerLink from '../../components/InnerLink';`);
+	(groupFlags.innerlink || groupFlags.jumplist) && imports.push(`import InnerLink from '../../components/InnerLink';`);
 	// Add saved info;
 	const allprops = [];
 	const output = imports.concat(final.map(([prop, object]) => {

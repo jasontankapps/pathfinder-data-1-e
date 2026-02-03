@@ -1921,7 +1921,7 @@
 			"special_abilities_2"
 		]
 	},
-	"on_higher_ground": { "redirect": "combat_modifiers" },
+	"higher_ground": { "redirect": "combat_modifiers" },
 	"cover": {
 		"name": "Cover",
 		"tags": "soft cover partial cover total cover improved cover",
