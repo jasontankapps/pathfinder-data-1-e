@@ -18,10 +18,10 @@ const AfflictionPage: React.FC = () => {
 	const type: Affliction = m ? m[1] as Affliction : "curse";
 
 	switch(type) {
-		"curse": {
+		case "curse": {
 			return <Curse id={ctest(id) ? id : "not_found"} />;
 		}
-		"disease": {
+		case "disease": {
 			return <Disease id={dtest(id) ? id : "not_found"} />;
 		}
 	}
