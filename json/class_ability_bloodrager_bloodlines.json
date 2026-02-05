@@ -215,7 +215,7 @@
 			"",
 			"::ab[Destined Strike (Su)]{l=1 icon=melee free=\"You can grant yourself an insight bonus equal to 1/2 your bloodrager level (minimum 1) on one melee attack.\" usage=\"3 times/day.\" imp12=\"You can use this five times a day.\"}",
 			"",
-			"::ab[Fated Bloodrager (Su)]{l=4 icon=def passive=\"You gain a +1 luck bonus to AC and on saving throws.\" imp8=\"The bonus increases to +2.\" imp12=\"The bonus increases to +3.\" imp16=\"The bonus increases to +4.\" imp20=\"The bonus increases to +5.\"}",
+			"::ab[Fated Bloodrager (Su)]{l=4 icon=def passive=\"You gain a luck bonus to AC and on saving throws. This bonus is equal to ‹misc/one-fourth› of your bloodrager level.\"}",
 			"",
 			"::ab[Certain Strike (Su)]{l=8 icon=roll ability=\"You may reroll an attack roll once during a bloodrage. You must decide to use this ability after the die is rolled, but before the GM reveals the results. You must take the second result, even if it's worse.\"}",
 			"",

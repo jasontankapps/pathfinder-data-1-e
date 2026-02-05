@@ -21,7 +21,7 @@
 			"",
 			"::ab[Resistance (Ex)]{l=1 icon=def passive=\"You gain ‹umr/resistance› 5 to an energy type of your choice, chosen when you prepare spells. This resistance can be changed each day.\" imp11=\"This resistance increases to 10.\" imp20=\"This resistance changes to ‹umr/immunity› to the chosen energy type.\"}",
 			"",
-			"::ab[Protective Ward (Su)]{l=1 icon=def-protect standard=\"As a standard action, you can create a 10-foot-radius field of protective magic centered on you that lasts for a number of rounds equal to your Intelligence modifier. All allies in this area (including you) receive a +1 deflection bonus to their AC. This bonus increases by +1 for every five wizard levels you possess.\" imp5=\"The bonus increases to +2.\" imp10=\"The bonus increases to +3.\" imp15=\"The bonus increases to +4.\" imp20=\"The bonus increases to +5.\" useMod3=Int}",
+			"::ab[Protective Ward (Su)]{l=1 icon=def-protect standard=\"As a standard action, you can create a 10-foot-radius field of protective magic centered on you that lasts for a number of rounds equal to your Intelligence modifier. All allies in this area (including you) receive a deflection bonus to their AC. This bonus is equal to 1 + ‹misc/one-fifth› of your wizard level.\" useMod3=Int}",
 			"",
 			"::ab[Energy Absorption (Su)]{l=6 icon=def passive=\"You gain an amount of energy absorption equal to 3 &times& your wizard level per day. Whenever you take energy damage, apply immunity, vulnerability (if any), and resistance first and apply the rest to this absorption, reducing your daily total by that amount. Any damage in excess of your absorption is applied to you normally.\"}",
 			"",
@@ -388,7 +388,7 @@
 			"",
 			"**Replacement Powers:** The following school power replaces the *grave touch* power of the necromancy school.",
 			"",
-			"::ab[Bolster (Sp)]{l=1 icon=boost standard=\"You can touch an undead creature and infuse it with negative energy. It gains a +1 profane bonus on all attack rolls and saving throws, as well as 1 temporary hit point per Hit Die and a +2 bonus to its ‹umr/channel resistance›. These bonuses last for a number of rounds equal to 1/2 your wizard level (minimum 1 round). The bonuses and temporary hit points are immediately dispelled if the creature is within the area of a ‹spell/consecrate› spell.\" imp5=\"The bonus on attack rolls and saving throws increases to +2.\" imp10=\"The bonus on attack rolls and saving throws increases to +3.\" imp15=\"The bonus on attack rolls and saving throws increases to +4.\" imp20=\"The bonus on attack rolls and saving throws increases to +5.\" useMod3=Int}"
+			"::ab[Bolster (Sp)]{l=1 icon=boost standard=\"You can touch an undead creature and infuse it with negative energy. It gains 1 temporary hit point per Hit Die and a +2 bonus to its ‹umr/channel resistance›, as well as a profane bonus on all attack rolls and saving throws; the profane bonus is equal to 1 + ‹misc/one-fifth› of your wizard level. These bonuses last for a number of rounds equal to 1/2 your wizard level (minimum 1 round). The bonuses and temporary hit points are immediately dispelled if the creature is within the area of a ‹spell/consecrate› spell.\" useMod3=Int}"
 		]
 	},
 	"necromancer": { "redirect": "necromancy" },
@@ -404,7 +404,7 @@
 			"‹SOURCE PRPG Core Rulebook/82›  ",
 			"Transmuters use magic to change the world around them.",
 			"",
-			"::ab[Physical Enhancement (Su)]{l=1 icon=boost passive=\"You gain a +1 enhancement bonus to one physical ability score (Strength, Dexterity, or Constitution). You can change this bonus to a new ability score when you prepare spells.\" imp5=\"The bonus becomes +2.\" imp10=\"The bonus becomes +3.\" imp15=\"The bonus becomes +4.\" imp20=\"The bonus becomes +5. This bonus applies to two physical ability scores of your choice.\"}",
+			"::ab[Physical Enhancement (Su)]{l=1 icon=boost passive=\"You gain an enhancement bonus to one physical ability score (Strength, Dexterity, or Constitution). This enhancement bonus is equal to 1 + ‹misc/one-fifth› of your wizard level. You can change this bonus to a new ability score when you prepare spells.\" imp20=\"This bonus now applies to two physical ability scores of your choice.\"}",
 			"",
 			"::ab[Telekinetic Fist (Sp)]{l=1 icon=zap standard=\"You can strike with a telekinetic fist, targeting any foe within 30 feet as a ranged touch attack. The telekinetic fist deals 1d4 points of bludgeoning damage + 1 for every two wizard levels you possess.\" useMod3=Int}",
 			"",
@@ -423,7 +423,7 @@
 			"",
 			"**Replacement Powers:** The following school powers replace the *telekinetic fist* and *change shape* powers of the transmutation school.",
 			"",
-			"::ab[Augment (Sp)]{l=1 icon=boost standard=\"You can touch a creature and grant it either a +2 enhancement bonus to a single ability score of your choice or a +1 bonus to natural armor that stacks with any natural armor the creature might possess. This augmentation lasts a number of rounds equal to 1/2 your wizard level (minimum 1 round).\" imp5=\"The natural armor bonus becomes +2.\" imp10=\"The enhancement bonus to one ability score increases to +4, and the natural armor bonus becomes +3.\" imp15=\"The natural armor bonus becomes +4.\" imp20=\"The natural armor bonus becomes +5.\" useMod3=Int}",
+			"::ab[Augment (Sp)]{l=1 icon=boost standard=\"You can touch a creature and grant it either a +2 enhancement bonus to a single ability score of your choice or a bonus to natural armor that stacks with any natural armor the creature might possess; this natural armor bonus is equal to 1 + ‹misc/one-fifth› of your wizard level. This augmentation lasts a number of rounds equal to 1/2 your wizard level (minimum 1 round).\" imp10=\"The enhancement bonus to one ability score increases to +4.\" useMod3=Int}",
 			"",
 			"::ab[Perfection of Self (Su)]{l=8 icon=boost swift=\"You can grant yourself an enhancement bonus to a single ability score equal to 1/2 your wizard level (maximum +10) for one round.\" useL=wizard}",
 			"",
@@ -434,7 +434,7 @@
 			"",
 			"**Replacement Powers:** The following school power replaces the *telekinetic fist* power of the transmutation school.",
 			"",
-			"::ab[Battleshaping (Su)]{l=1 icon=melee swift=\"As a swift action, you grow a single ‹umr/natural weapon›. The natural weapon lasts for 1 round. You can grow a claw, a bite, or a gore attack. These attacks deal the normal damage for a creature of your size. At 11th level, you can shape two natural weapons. You may not grow additional limbs or a tail with this ability.\" imp4=\"Your natural weapon gains a +1 enhancement bonus on attack and damage rolls.\" imp8=\"The bonus becomes +2.\" imp11=\"You can shape two natural weapons.\" imp12=\"The bonus becomes +3.\" imp16=\"The bonus becomes +4.\" imp20=\"The bonus becomes +5.\" useMod3=Int}"
+			"::ab[Battleshaping (Su)]{l=1 icon=melee swift=\"You grow a single ‹umr/natural weapon›. The natural weapon lasts for 1 round. You can grow a claw, a bite, or a gore attack. These attacks deal the normal damage for a creature of your size. You may not grow additional limbs or a tail with this ability.\" imp4=\"Your natural weapon gains an enhancement bonus on attack and damage rolls equal to ‹misc/one-fourth› of your wizard level.\" imp11=\"You can shape two natural weapons.\" useMod3=Int}"
 		]
 	},
 	"universalist": {
@@ -789,7 +789,7 @@
 			"",
 			"::ab[Wood Magic]{icon=learn s2=Entangle s3=\"Tree shape\" s4=\"Plant growth\" s5=\"Command plants\" s6=\"Tree stride\" s7=Liveoak s8=\"Transmute metal to wood\" s9=\"Control plants\" note=\"Add these spells to your wizard spell list at the listed spell level.\"}",
 			"",
-			"::ab[Flexible Enhancement (Su)]{l=1 icon=def passive=\"A master of the wood element is able to bend like bamboo when stressed and snap back into place. You gain a +1 enhancement bonus to your Dexterity, Constitution, or Wisdom ability score. You can change this bonus to a new ability score when you prepare spells.\" imp5=\"The bonus becomes +2.\" imp10=\"The bonus becomes +3.\" imp15=\"The bonus becomes +4.\" imp20=\"The bonus becomes +5. In addition, this bonus applies to two of these ability scores of your choice.\"}",
+			"::ab[Flexible Enhancement (Su)]{l=1 icon=def passive=\"A master of the wood element is able to bend like bamboo when stressed and snap back into place. You gain an enhancement bonus to your Dexterity, Constitution, or Wisdom ability score. This bonus is equal to 1 + ‹misc/one-fifth› of your wizard level. You can change this bonus to a new ability score when you prepare spells.\" imp20=\"This bonus now applies to two of these ability scores of your choice.\"}",
 			"",
 			"::ab[Splintered Spear (Su)]{l=1 icon=zap standard=\"You can create a wooden ‹eq-weapon/shortspear› appropriate to your size, which hurls itself as a ranged attack against one target within 100 feet (range penalties apply), using your Intelligence modifier as an attack bonus instead of your Strength or Dexterity modifier. The spear deals normal damage according to its size, plus your Intelligence modifier, then breaks into countless splinters; the target takes 1 point of ‹rule/bleed› damage each round on its turn.\" imp6=\"The spear gains a +1 enhancement bonus and the bleed damage increases to 2.\" imp12=\"The spear's bonus becomes +2 and the bleed damage increases to 3.\" imp18=\"The spear's bonus becomes +3 and the bleed damage increases to 4.\" useMod3=Int}",
 			"",

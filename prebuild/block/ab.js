@@ -33,6 +33,24 @@ const parseAtts = (attrs) => {
 	return false;
 };
 
+const mash = (previous, input) => {
+	if(previous) {
+		return `${input} ${previous}`;
+	}
+	return input;
+};
+
+let $swap = "";
+let $swaps = "";
+const swap = (plural) => {
+	if(plural) {
+		$swaps = ($swaps === "become") ? "increase to" : "become";
+		return $swaps;
+	}
+	$swap = ($swap === "becomes") ? "increases to" : "becomes";
+	return $swap;
+};
+
 export const makeAbilityBlock = ({
 	marked2,
 	prefix,
@@ -51,6 +69,7 @@ export const makeAbilityBlock = ({
 		s11,s12,s13,s14,s15,s16,s17,s18,s19,s20,
 		imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,
 		imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20,
+		repeat,repeatAt,repeatEnd,
 		standard, swift, immediate,
 		fullround, move, free,
 		provokes, special, note, choice,
@@ -531,11 +550,93 @@ export const makeAbilityBlock = ({
 	if(
 		imp1 || imp2 || imp3 || imp4 || imp5 || imp6 || imp7 || imp8 || imp9 || imp10
 		|| imp11 || imp12 || imp13 || imp14 || imp15 || imp16 || imp17 || imp18 || imp19 || imp20
+		|| repeat || repeatAt || repeatEnd
 	) {
-		[
-			imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,
-			imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20
-		].forEach((text, i) => {
+		const imps = [imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20];
+		if(repeat || repeatAt) {
+			// msg, lev start, lev inc, b start, b inc
+			// repeat   "(p!)This bonus~Ls~Li~Bs~Bi?"
+			// repeatAt "(p!)This bonus~L1~L2~L3...~Bs/Bi?"
+			const [message, ...etc] = (repeat || repeatAt).split(/~/);
+			let plural = false;
+			const msg = (() => {
+				if(message.startsWith("p!")) {
+					plural = true;
+					return message.slice(2);
+				}
+				return message;
+			})();
+			const end = repeatEnd ? " " + repeatEnd : ".";
+			const ats = [];
+			let bonus = 0;
+			let inc = 0;
+			if(repeat) {
+				if(etc.length < 3) {
+					logError(`Invalid length of \`repeat\` attribute.`);
+					etc.push("1", "1", "1");
+				}
+				const [start, add, bb, bi = 1] = etc.map(e => {
+					const n = Math.floor(Number(e));
+					if(!n) {
+						logError(`Invalid value [${e}] in \`repeat\` attribute.`);
+						return 1;
+					}
+					return n;
+				});
+				bonus = bb;
+				inc = bi;
+				let level = start + add;
+				if(level <= 0) {
+					logError(`Invalid level formula in \`repeat\` attribute: [${etc[0]} + ${etc[1]} = ${level}]`);
+					level = 25;
+				} else if (add <= 0) {
+					logError(`Invalid level increment [${add}] in \`repeat\` attribute.`);
+					level = 25;
+				}
+				while (level <= 20) {
+					ats.push(level);
+					level += add;
+				}
+			} else {
+				const bonuses = (etc.pop() || "").split(/[/]/);
+				const [bb, bi = 1] = bonuses.map(b => {
+					const n = Math.floor(Number(b));
+					if(!n) {
+						logError(`Invalid value [${b}] in \`repeat\` attribute.`);
+						return 1;
+					}
+					return n;
+				});
+				bonus = bb;
+				inc = bi;
+				let last = 0;
+				ats.push(...etc.map(e => {
+					const n = Math.floor(Number(e));
+					if(!n || n < 0 || n > 20) {
+						logError(`Invalid value [${e}] in \`repeatAt\` attribute.`);
+						return 0;
+					}
+					return n;
+				}).filter(n => n));
+			}
+			ats.sort((a,b) => (a - b));
+			let last = 0;
+			while(ats.length > 0) {
+				const next = ats.shift();
+				if(next === last) {
+					logError(`Duplicate value [${next}] in \`repeatAt\` attribute.`);
+				} else {
+					const i = next - 1;
+					const b = bonus >= 0 ? "+" + bonus : bonus;
+					imps[i] = mash(imps[i], `${msg} ${swap(plural)} ${b}${end}`);
+					last = next;
+					bonus += inc;
+				}
+			}
+		} else if (repeatEnd) {
+			logError("Extraneous `repeatEnd` attribute.")
+		}
+		imps.forEach((text, i) => {
 			if(!text) {
 				return;
 			}

@@ -46,7 +46,7 @@
 			"",
 			"::ab[Destructive (Ex)]{icon=melee-boost passive=\"Whenever the breaker barbarian makes a melee attack that targets an unattended object or makes a ‹rule/sunder› combat maneuver, she adds half her barbarian level (minimum +1) on the damage roll.\" replace=\"Fast movement\"}",
 			"",
-			"::ab[Battle Scavenger (Ex)]{l=3 icon=boost passive=\"The breaker barbarian suffers no penalty on attack rolls when using an ‹misc/improvised weapon› or a weapon with the ‹misc/broken› condition.\" imp6=\"She gains a +1 bonus on damage rolls with improvised or broken weapons.\" imp9=\"This bonus becomes +2.\" imp12=\"This bonus becomes +3.\" imp15=\"This bonus becomes +4.\" imp18=\"This bonus becomes +5.\" replace=\"Trap sense\"}",
+			"::ab[Battle Scavenger (Ex)]{l=3 icon=boost passive=\"The breaker barbarian suffers no penalty on attack rolls when using an ‹misc/improvised weapon› or a weapon with the ‹misc/broken› condition.\" imp6=\"She gains a +1 bonus on damage rolls with improvised or broken weapons.\" repeat=\"This bonus~6~3~2\" replace=\"Trap sense\"}",
 			"",
 			"@HL[Rage Powers:] The following rage powers complement the breaker archetype: ‹ragepower/ground breaker›, ‹ragepower/smasher›, ‹ragepower/strength surge›."
 		]
@@ -242,7 +242,7 @@
 			"",
 			"::ab[Greater Lockjaw (Ex)]{icon=boost l9=\"A feral gnasher is able to use her *lockjaw's* grab ability on creatures two size increments larger than her.\" l15=\"A feral gnasher is able to use her *lockjaw's* grab ability on creatures three size increments larger than her.\" replace=\"Trap sense +3~trap sense +5\"}",
 			"",
-			"::ab[Wicked Improvisation (Ex)]{l=12 icon=boost passive=\"The feral gnasher gains a +1 competence bonus on damage rolls when using natural attacks or improvised weapons while raging.\" imp14=\"The bonus becomes +2.\" imp16=\"The bonus becomes +3.\" imp18=\"The bonus becomes +4.\" imp20=\"The bonus becomes +5.\" special=\"This increase is not ‹misc/precision damage› and is thus multiplied on a critical hit.\" replace=\"Trap sense +4\"}",
+			"::ab[Wicked Improvisation (Ex)]{l=12 icon=boost passive=\"The feral gnasher gains a +1 competence bonus on damage rolls when using natural attacks or improvised weapons while raging.\" repeat=\"The bonus~12~2~2\" special=\"This increase is not ‹misc/precision damage› and is thus multiplied on a critical hit.\" replace=\"Trap sense +4\"}",
 			"",
 			"@HL[Rage Powers:] The following rage powers complement the feral gnasher archetype: ‹ragepower/increased damage reduction›, ‹ragepower/scent›, ‹ragepower/superstition›, ‹ragepower/beast totem›, ‹ragepower/greater beast totem›, ‹ragepower/lesser beast totem›, ‹ragepower/eater of magic›, ‹ragepower/ghost rager›."
 		]
@@ -547,9 +547,9 @@
 			"‹SOURCE Advanced Player's Guide/79›  ",
 			"Some barbarians are truly savage, having little training in modern arms. These savage barbarians learn to avoid blows and toughen up their skin. A savage barbarian has the following class features.",
 			"",
-			"::ab[Naked Courage (Ex)]{l=3 icon=def passive=\"The savage barbarian gains a +1 dodge bonus to AC and a +1 morale bonus on saving throws against fear when wearing no armor (shields are allowed).\" imp9=\"The bonuses become +2.\" imp15=\"The bonuses become +3.\" replace=\"Trap sense\"}",
+			"::ab[Naked Courage (Ex)]{l=3 icon=def passive=\"The savage barbarian gains a +1 dodge bonus to AC and a +1 morale bonus on saving throws against fear when wearing no armor (shields are allowed).\" repeat=\"p!The bonuses~3~6~2\" replace=\"Trap sense\"}",
 			"",
-			"::ab[Natural Toughness (Ex)]{l=7 icon=def passive=\"The savage barbarian gains a +1 natural armor bonus to AC when wearing no armor (shields are allowed).\" imp10=\"The bonus becomes +2.\" imp13=\"The bonus becomes +3.\" imp16=\"The bonus becomes +4.\" imp17=\"The bonus becomes +5.\" replace=\"Damage reduction\"}",
+			"::ab[Natural Toughness (Ex)]{l=7 icon=def passive=\"The savage barbarian gains a +1 natural armor bonus to AC when wearing no armor (shields are allowed).\" repeat=\"The bonus~7~3~2\" replace=\"Damage reduction\"}",
 			"",
 			"@HL[Rage Powers:] The following rage powers complement the savage barbarian archetype: ‹ragepower/flesh wound›, ‹ragepower/guarded stance›, ‹ragepower/increased damage reduction›, ‹ragepower/intimidating glare›, ‹ragepower/rolling dodge›, ‹ragepower/superstition›, ‹ragepower/terrifying howl›."
 		]
@@ -766,7 +766,7 @@
 			"",
 			"::ab[Deplorable Tactics]{l=5 icon=power ability=\"The untamed rager gains ‹feat/Greater Dirty Trick› as a bonus feat.\" replace=\"Improved uncanny dodge\"}",
 			"",
-			"::ab[Dishonorable (Ex)]{l=7 icon=boost-melee-def passive=\"The untamed rager gains a +1 bonus on combat maneuver checks when performing dirty tricks and to her CMD to resist others' dirty tricks.\" imp10=\"This bonus becomes +2.\" imp13=\"This bonus becomes +3.\" imp16=\"This bonus becomes +4.\" imp19=\"This bonus becomes +5.\" replace=\"Damage reduction\"}"
+			"::ab[Dishonorable (Ex)]{l=7 icon=boost-melee-def passive=\"The untamed rager gains a +1 bonus on combat maneuver checks when performing dirty tricks and to her CMD to resist others' dirty tricks.\" repeat=\"The bonus~7~3~2\" replace=\"Damage reduction\"}"
 		]
 	},
 	"urban_barbarian": {

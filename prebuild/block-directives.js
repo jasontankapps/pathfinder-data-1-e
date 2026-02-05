@@ -377,6 +377,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"clear", "jl", "id", "flavor", "indent",
 					"sub", "head", "icon", "next",
 					"l", "imp",
+					"repeat", "repeatAt", "repeatEnd",
 					"standard", "swift", "immediate",
 					"fullround", "move", "free",
 					"provokes", "special", "note", "choice",
