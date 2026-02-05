@@ -1015,7 +1015,6 @@ Object.entries(all_usable_groups).forEach((pairing, groupindex) => {
 	groupFlags.link && !groupFlags.thlink && imports.push(`import Link from '../../components/Link';`);
 	!groupFlags.link && groupFlags.thlink && imports.push(`import {ThLink} from '../../components/Link';`);
 	groupFlags.mainlink && imports.push(`import MainLink from '../../components/MainLink';`);
-	groupFlags.innerlink && imports.push(`import InnerLink from '../../components/InnerLink';`);
 	groupFlags.scrollContainer && imports.push(`import ScrollContainer from '../../components/ScrollContainer';`);
 	(groupFlags.innerlink || groupFlags.jumplist) && imports.push(`import InnerLink from '../../components/InnerLink';`);
 	// Add saved info;

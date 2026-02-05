@@ -1,5 +1,6 @@
 import { BookmarkGroup, universalBookmarkDividerId, colorNames } from "../store/bookmarksSlice";
 import { doesPageExist } from "../components/getPageName";
+import { hasRedirect } from "../components/getLink";
 
 type BG = Omit<BookmarkGroup, "hidden">;
 
@@ -46,7 +47,7 @@ const parseImport = (data: unknown) => {
 
 const parseArrayInput = (data: unknown[], cat: number, errorWhat: string = "import"): [true, BG[]] | [false, string] => {
 	let msg = "";
-	const error = `ERR-${cat}.`;
+	const error = `ERR-${cat}`;
 	const copy: BG[] = [];
 	if (data.every(x => {
 		if (!x || typeof x !== "object") {
@@ -68,19 +69,29 @@ const parseArrayInput = (data: unknown[], cat: number, errorWhat: string = "impo
 		) {
 			msg = error + ".1.2 Malformed format in " + errorWhat;
 			return false; // data.every fails
-		} else if (!contents.every((pair: any) => {
+		} else if (!contents.every((pair: any, index: number) => {
 			if (!Array.isArray(pair)) {
 				msg = error + ".2 Malformed formatting in " + errorWhat;
 				return false; // contents.every fails
 			}
 			const [link, title, ...etc] = pair;
-			if (
-				etc.length > 0
-				|| typeof link !== "string"
-				|| typeof title !== "string"
-				|| !(title === universalBookmarkDividerId || doesPageExist(link))
-			) {
-				msg = error + ".3 Malformed contents in " + errorWhat;
+			if(etc.length === 0 && typeof link === "string" && typeof title === "string") {
+				// Ok so far.
+				if(title === universalBookmarkDividerId || doesPageExist(link)) {
+					// Still ok
+				} else {
+					const maybe = hasRedirect(link.slice(1));
+					if(maybe) {
+						// Change the incoming link to the redirected link
+						contents[index][0] = "/" + maybe;
+						// Still ok
+					} else {
+						msg = error + ".3.2 Malformed contents in " + errorWhat;
+						return false; // contents.every fails
+					}
+				}
+			} else {
+				msg = error + ".3.1 Malformed contents in " + errorWhat;
 				return false; // contents.every fails
 			}
 			return true; // contents.every SUCCEEDS

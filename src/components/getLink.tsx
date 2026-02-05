@@ -7,4 +7,8 @@ const getLink = (to: string) => {
 	return link;
 };
 
+export const hasRedirect = (to: string) => {
+	return redirectIndex[to] || false;
+};
+
 export default getLink;

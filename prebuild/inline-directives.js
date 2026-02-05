@@ -29,7 +29,6 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 			if(tag === "ripple" || tag === "hll") {
 				// @ripple[link/Text]
 				flags.link = true;
-				flags.ripple = true;
 				const m = checkForEncodedLink(text, { bare: true });
 				if(m) {
 					const {link, text} = m;
