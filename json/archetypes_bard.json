@@ -638,7 +638,7 @@
 			"",
 			"::ab[Weapon and Armor Proficiency]{icon=power-down note=\"A dwarven scholar is proficient with one weapon of her choosing with the word &quot&dwarven&quot& in its name, in addition to her normal weapon proficiencies. She is not proficient with shields.\" alter=\"Weapon and armor proficiency\"}",
 			"",
-			"::ab[Studied Insight (Ex)]{icon=info note=\"A dwarven scholar uses her Wisdom modifier instead of her Charisma modifier to determine all class features and effects relating to her bard class, including her bardic performance ability, bonus spells per day, the maximum spell level she can cast, and the save DCs of her spells.\"}",
+			"::ab[Studied Insight (Ex)]{icon=info note=\"A dwarven scholar uses her Wisdom modifier instead of her Charisma modifier to determine all class features and effects relating to her bard class, including her bardic performance ability, ‹rule/bonus spells› per day, the maximum spell level she can cast, and the save DCs of her spells.\"}",
 			"",
 			"::ab[Dwarven Training (Ex)]{icon=power l2=\"A dwarven scholar masters one aspect of dwarven combat and gains a bonus ‹main/combat feat›. She must meet the prerequisites for this feat, but she treats her bard level as her base attack bonus (in addition to base attack bonuses gained from other classes and racial Hit Dice) for the purpose of qualifying for this feat.\" l6=\"She gains another bonus feat, following the restrictions above.\" l10=\"She gains another bonus feat, following the restrictions above.\" l14=\"She gains another bonus feat, following the restrictions above.\" l18=\"She gains another bonus feat, following the restrictions above.\" replace=\"Versatile performance\"}",
 			"",

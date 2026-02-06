@@ -3096,6 +3096,29 @@
 		],
 		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
 	},
+	"crossbow": {
+		"name": "Crossbow",
+		"disambiguation": true,
+		"description": [
+			"There are several types of crossbow.",
+			"",
+			"- ‹eq-weapon/Hand crossbow›",
+			"- ‹eq-weapon/Light crossbow›",
+			"- ‹eq-weapon/Heavy crossbow›",
+			"- ‹eq-weapon/Underwater light crossbow›",
+			"- ‹eq-weapon/Underwater heavy crossbow›",
+			"- ‹eq-weapon/Double crossbow›",
+			"- ‹eq-weapon/Launching crossbow›",
+			"- ‹eq-weapon/Light crank crossbow›",
+			"- ‹eq-weapon/Heavy crank crossbow›",
+			"- ‹eq-weapon/Light slaver's crossbow›",
+			"- ‹eq-weapon/Heavy slaver's crossbow›",
+			"- ‹eq-weapon/Repeating hand crossbow›",
+			"- ‹eq-weapon/Repeating light crossbow›",
+			"- ‹eq-weapon/Repeating heavy crossbow›"
+		],
+		"topLink": [ "Ranged Weapons", "main/equipment_weapons_ranged" ]
+	},
 	"light_crossbow": {
 		"name": "Light crossbow",
 		"sources": [
