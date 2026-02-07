@@ -69,12 +69,12 @@ const getInlineDirectives = (globalVariable, marker = "@") => {
 				return `<InnerLink toTop to="${id}">${marked2.parseInline(txt)}</InnerLink>`;
 			} else if (tag === "FN") {
 				// Fake footnotes
-				const { from } = attrs;
-				return fn({text, prefix, from, makeNewMarkedInstance, flags});
+				const { from, multi } = attrs;
+				return fn({text, prefix, from, multi, makeNewMarkedInstance, flags});
 			} else if (tag.startsWith("FN")) {
 				// Fake footnotes
-				const { from } = attrs;
-				return fn({text: tag.slice(2), prefix, from, makeNewMarkedInstance, flags});
+				const { from, multi } = attrs;
+				return fn({text: tag.slice(2), prefix, from, multi, makeNewMarkedInstance, flags});
 			} else if (tag === "list") {
 				return makeListBlock({
 					text,
