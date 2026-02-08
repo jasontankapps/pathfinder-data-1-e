@@ -42,12 +42,12 @@ const mash = (previous, input) => {
 
 let $swap = "";
 let $swaps = "";
-const swap = (plural) => {
+const swap = (plural, decreasing) => {
 	if(plural) {
-		$swaps = ($swaps === "become") ? "increase to" : "become";
+		$swaps = ($swaps === "become") ? `${decreasing ? "de" : "in"}crease to` : "become";
 		return $swaps;
 	}
-	$swap = ($swap === "becomes") ? "increases to" : "becomes";
+	$swap = ($swap === "becomes") ? `${decreasing ? "de" : "in"}creases to` : "becomes";
 	return $swap;
 };
 
@@ -545,7 +545,7 @@ export const makeAbilityBlock = ({
 		);
 	}
 	//
-	// LEVEL-BASED IMPROVEMENTS
+	// LEVEL-BASED IMPROVEMENTS, REPEAT
 	//
 	if(
 		imp1 || imp2 || imp3 || imp4 || imp5 || imp6 || imp7 || imp8 || imp9 || imp10
@@ -621,6 +621,7 @@ export const makeAbilityBlock = ({
 			}
 			ats.sort((a,b) => (a - b));
 			let last = 0;
+			const decreasing = inc < 0;
 			while(ats.length > 0) {
 				const next = ats.shift();
 				if(next === last) {
@@ -628,7 +629,7 @@ export const makeAbilityBlock = ({
 				} else {
 					const i = next - 1;
 					const b = bonus >= 0 ? "+" + bonus : bonus;
-					imps[i] = mash(imps[i], `${msg} ${swap(plural)} ${b}${end}`);
+					imps[i] = mash(imps[i], `${msg} ${swap(plural, decreasing)} ${b}${end}`);
 					last = next;
 					bonus += inc;
 				}
