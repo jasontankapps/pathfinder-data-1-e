@@ -69,7 +69,7 @@ export const makeAbilityBlock = ({
 		s11,s12,s13,s14,s15,s16,s17,s18,s19,s20,
 		imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,
 		imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20,
-		repeat,repeatAt,repeatEnd,
+		repeat,repeatAt,repeatEnd,repeatPlain,
 		standard, swift, immediate,
 		fullround, move, free,
 		provokes, special, note, choice,
@@ -77,7 +77,7 @@ export const makeAbilityBlock = ({
 		order,
 		usage, useNC,
 		useL, useM, useInc, useL3, // default useUnit is "round"
-		useMod, useMod3, useMod4, // default useUnit is "time"
+		useMod, useMod1, useMod3, useMod4, // default useUnit is "time"
 		useUnit,
 		containerInfo,
 		replace, alter, type, prereq
@@ -141,6 +141,10 @@ export const makeAbilityBlock = ({
 				const unit = useUnit || "time";
 				return [`${useMod} modifier ${unit}s/day`, unit]
 				//Wis modifier times/day
+			} else if (useMod1) {
+				const unit = useUnit || "time";
+				return [`1 + ${useMod1} modifier ${unit}s/day`, unit]
+				//3 + Wis modifier times/day
 			} else if (useMod3) {
 				const unit = useUnit || "time";
 				return [`3 + ${useMod3} modifier ${unit}s/day`, unit]
@@ -550,14 +554,16 @@ export const makeAbilityBlock = ({
 	if(
 		imp1 || imp2 || imp3 || imp4 || imp5 || imp6 || imp7 || imp8 || imp9 || imp10
 		|| imp11 || imp12 || imp13 || imp14 || imp15 || imp16 || imp17 || imp18 || imp19 || imp20
-		|| repeat || repeatAt || repeatEnd
+		|| repeat || repeatAt || repeatEnd || repeatPlain
 	) {
 		const imps = [imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20];
-		if(repeat || repeatAt) {
+		if(repeat || repeatPlain || repeatAt) {
 			// msg, lev start, lev inc, b start, b inc
-			// repeat   "(p!)This bonus~Ls~Li~Bs~Bi?"
-			// repeatAt "(p!)This bonus~L1~L2~L3...~Bs/Bi?"
-			const [message, ...etc] = (repeat || repeatAt).split(/~/);
+			//      repeat "(p!)?This bonus~Ls~Li~Bs~Bi?"
+			//    repeatAt "(p!)?This bonus~L1~L2~L3...~Bs/Bi?"
+			// repeatPlain "(p!)?This amount~Ls~Li~Bs~Bi?"
+			//   OR repeatPlain can be used as a flag with `repeat`
+			const [message, ...etc] = (repeat || repeatPlain || repeatAt).split(/~/);
 			let plural = false;
 			const msg = (() => {
 				if(message.startsWith("p!")) {
@@ -566,18 +572,19 @@ export const makeAbilityBlock = ({
 				}
 				return message;
 			})();
-			const end = repeatEnd ? " " + repeatEnd : ".";
+			const end = repeatEnd || ".";
 			const ats = [];
 			let bonus = 0;
 			let inc = 0;
-			if(repeat) {
+			if(repeat || repeatPlain) {
 				if(etc.length < 3) {
 					logError(`Invalid length of \`repeat\` attribute.`);
 					etc.push("1", "1", "1");
 				}
-				const [start, add, bb, bi = 1] = etc.map(e => {
+				const [start, add, bb, bi = 1] = etc.map((e, i) => {
 					const n = Math.floor(Number(e));
-					if(!n) {
+					if(!n && i) {
+						// `start` can be 0
 						logError(`Invalid value [${e}] in \`repeat\` attribute.`);
 						return 1;
 					}
@@ -609,7 +616,6 @@ export const makeAbilityBlock = ({
 				});
 				bonus = bb;
 				inc = bi;
-				let last = 0;
 				ats.push(...etc.map(e => {
 					const n = Math.floor(Number(e));
 					if(!n || n < 0 || n > 20) {
@@ -628,7 +634,7 @@ export const makeAbilityBlock = ({
 					logError(`Duplicate value [${next}] in \`repeatAt\` attribute.`);
 				} else {
 					const i = next - 1;
-					const b = bonus >= 0 ? "+" + bonus : bonus;
+					const b = (repeatPlain || (bonus <= 0)) ? bonus : "+" + bonus;
 					imps[i] = mash(imps[i], `${msg} ${swap(plural, decreasing)} ${b}${end}`);
 					last = next;
 					bonus += inc;
