@@ -32,7 +32,7 @@
 			"",
 			"A @HL[reinforcing boss] provides extra protection to a shield, increasing the shield's current and maximum hit points by 10. The boss makes the shield 10 pounds heavier and more unwieldy - if the shield imposes a penalty on attack rolls, as do bucklers and tower shields, the penalty increases by 1. Common improvements to the basic reinforcing boss include the following.",
 			"",
-			"@HL[Breakaway Boss:] The metal stud at the center of the reinforcing boss holds a compartment large enough to insert a single splash weapon, such as a vial of ‹eq-weapon/acid› or ‹eq-weapon/alchemist's fire›, as a full-round action. On a successful shield bash attack, the weapon vial breaks and deals damage to the target as though it were directly hit by the splash weapon. The shield takes the normal amount of splash damage for being adjacent to the target, but no other creatures adjacent to the target take splash damage from this effect. A new splash weapon must be inserted into the breakaway boss for it to be used again.",
+			"@HL[Breakaway Boss:] The metal stud at the center of the reinforcing boss holds a compartment large enough to insert a single splash weapon, such as a vial of ‹eq-weapon/acid› or ‹eq-weapon/alchemist's fire›, as a full-round action. On a successful ‹misc/shield bash› attack, the weapon vial breaks and deals damage to the target as though it were directly hit by the splash weapon. The shield takes the normal amount of splash damage for being adjacent to the target, but no other creatures adjacent to the target take splash damage from this effect. A new splash weapon must be inserted into the breakaway boss for it to be used again.",
 			"",
 			"@HL[Hooked Boss:] The struts on this reinforcing boss bear large, sturdy hooks, which can be used to snag an opponent's clothing or armor, causing it to stumble. You can attempt ‹rule/trip› combat maneuver checks with this shield. If the combat maneuver check is successful, the opponent does not fall prone, but is considered ‹rule/flat-footed› until the beginning of its next turn.",
 			"",
@@ -138,7 +138,7 @@
 			"**Category** One-Handed; **Proficiency** Martial  ",
 			"**‹ability/Weapon Group<s›** Close",
 			"",
-			"Deadly spikes and bladed projections extend from some shields, transforming such pieces of armor into weapon in their own right. Shield spikes turn a shield into a martial piercing weapon and increase the damage dealt by a shield bash as if the shield were designed for a creature ‹misc/one size category larger›. You can't put spikes on a buckler or a tower shield. Otherwise, attacking with a spiked shield is like making a shield bash attack.",
+			"Deadly spikes and bladed projections extend from some shields, transforming such pieces of armor into weapon in their own right. Shield spikes turn a shield into a martial piercing weapon and increase the damage dealt by a ‹misc/shield bash› as if the shield were designed for a creature ‹misc/one size category larger›. You can't put spikes on a buckler or a tower shield. Otherwise, attacking with a spiked shield is like making a shield bash attack.",
 			"",
 			"An enhancement bonus on a spiked shield does not improve the effectiveness of a shield bash made with it, but a spiked shield can be made into a magic weapon in its own right. Shield spikes cannot be disarmed."
 		]

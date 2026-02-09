@@ -1948,7 +1948,7 @@
 			"",
 			"Your shield bash causes your enemies to falter.  ",
 			"**Prerequisites:** ‹feat/Improved Shield Bash›, ‹feat/Shield Focus›, base attack bonus +6 or fighter level 4th.  ",
-			"**Benefit:** Creatures struck by your shield bash take a -2 penalty to their AC until the end of your next turn."
+			"**Benefit:** Creatures struck by your ‹misc/shield bash› take a -2 penalty to their AC until the end of your next turn."
 		]
 	},
 	"stunning_assault": {

@@ -13,7 +13,7 @@
 			"The creature cannot see. It takes a -2 penalty to Armor Class, loses its Dexterity bonus to AC (if any), and takes a -4 penalty on most Strength- and Dexterity-based skill checks and on opposed Perception skill checks. All checks and activities that rely on vision (such as reading and Perception checks based on sight) automatically fail. All opponents are considered to have total ‹rule/concealment› (50% miss chance) against the blinded character. Blind creatures must make a DC 10 Acrobatics skill check to move faster than half speed. Creatures that fail this check fall prone. Characters who remain blinded for a long time grow accustomed to these drawbacks and can overcome some of them. Also see: ‹rule/Darkness›."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
 	"blind": { "redirect": "blinded" },
@@ -37,7 +37,7 @@
 			"A confused creature who can't carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused creature. Any confused creature who is attacked automatically attacks its attackers on its next turn, as long as it is still confused when its turn comes. Note that a confused creature will not make attacks of opportunity against anything that it is not already devoted to attacking (either because of its most recent action or because it has just been attacked)."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
 	"confusion": { "redirect": "confused" },
@@ -49,7 +49,7 @@
 			"The creature is unable to act normally. A dazed creature can take no actions, but has no penalty to AC. A dazed condition typically lasts 1 round."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
 	"dazes": { "redirect": "dazed" },
@@ -62,7 +62,7 @@
 			"The creature is unable to see well because of overstimulation of the eyes. A dazzled creature takes a -1 penalty on attack rolls and sight-based Perception checks."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
 	"dazzle": { "redirect": "dazzled" },
@@ -74,7 +74,7 @@
 			"A deafened character cannot hear. He takes a -4 penalty on initiative checks, automatically fails Perception checks based on sound, takes a -4 penalty on opposed Perception checks, and has a 20% chance of spell failure when casting spells with verbal components. Characters who remain deafened for a long time grow accustomed to these drawbacks and can overcome some of them."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
 	"deafen": { "redirect": "deafened" },
@@ -87,7 +87,7 @@
 			"A fascinated creature is entranced by a supernatural or spell effect. The creature stands or sits quietly, taking no actions other than to pay attention to the fascinating effect, for as long as the effect lasts. It takes a -4 penalty on skill checks made as reactions, such as Perception checks. Any potential threat, such as a hostile creature approaching, allows the fascinated creature a new saving throw against the fascinating effect. Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a ranged weapon at the fascinated creature, automatically breaks the effect. A fascinated creature's ally may shake it free of the spell as a standard action."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
 	"fascinate": { "redirect": "fascinated" },
@@ -104,7 +104,7 @@
 			"Creatures that are immune to critical hits do not take critical damage, nor do they need to make Fortitude saves to avoid being killed by a *coup de grace.*"
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
 	"coup_de_grace": { "redirect": "helpless" },
@@ -116,7 +116,7 @@
 			"A staggered creature may take a single move action or standard action each round (but not both, nor can he take full-round actions). A staggered creature can still take free, swift, and immediate actions. A creature with nonlethal damage exactly equal to its current hit points gains the staggered condition."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
 	"stagger": { "redirect": "staggered" },
@@ -128,7 +128,7 @@
 			"A stunned creature drops everything held, can't take actions, takes a -2 penalty to AC, and loses its Dexterity bonus to AC (if any)."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
 	"stun": { "redirect": "stunned" },
@@ -140,7 +140,7 @@
 			"Unconscious creatures are knocked out and ‹misc/helpless›. Unconsciousness can result from having negative hit points (but not more than the creature's Constitution score), or from nonlethal damage in excess of current hit points."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Awareness Conditions", "rule/awareness_conditions" ]
 	},
 	"dead": {
@@ -151,7 +151,7 @@
 			"The character's hit points are reduced to a negative amount equal to his Constitution score, his Constitution drops to 0, or he is killed outright by a spell or effect. The character's soul leaves his body. Dead characters cannot benefit from normal or magical healing, but they can be restored to life via magic. A dead body decays normally unless magically preserved, but magic that restores a dead character to life also restores the body either to full health or to its condition at the time of death (depending on the spell or device). Either way, resurrected characters need not worry about rigor mortis, decomposition, and other conditions that affect dead bodies."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Dying Conditions", "rule/dying_conditions" ]
 	},
 	"disabled": {
@@ -164,7 +164,7 @@
 			"A disabled character with negative hit points recovers hit points naturally if he is being helped. Otherwise, each day he can attempt a DC 10 Constitution check after resting for 8 hours, to begin recovering hit points naturally. The character takes a penalty on this roll equal to his negative hit point total. Failing this check causes the character to lose 1 hit point, but this does not cause the character to become ‹misc/unconscious›. Once a character makes this check, he continues to heal naturally and is no longer in danger of losing hit points naturally."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Dying Conditions", "rule/dying_conditions" ]
 	},
 	"dying": {
@@ -175,7 +175,7 @@
 			"A dying creature is ‹misc/unconscious› and near death. Creatures that have negative hit points and have not ‹misc/stabilize«d› are dying. A dying creature can take no actions. On the character's next turn, after being reduced to negative hit points (but not dead), and on all subsequent turns, the character must make a DC 10 Constitution check to become ‹misc/stable›. The character takes a penalty on this roll equal to his negative hit point total. A character that is stable does not need to make this check. A natural 20 on this check is an automatic success. If the character fails this check, he loses 1 hit point. If a dying creature has an amount of negative hit points equal to its Constitution score, it dies."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Dying Conditions", "rule/dying_conditions" ]
 	},
 	"stabilization": { "redirect": "dying" },
@@ -189,7 +189,7 @@
 			"If a character has become stable on his own and hasn't had help, he is still at risk of losing hit points. Each hour he can make a Constitution check to become stable (as a character that has received aid), but each failed check causes him to lose 1 hit point."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Dying Conditions", "rule/dying_conditions" ]
 	},
 	"stabilize": { "redirect": "stable" },
@@ -201,7 +201,7 @@
 			"An exhausted character moves at half speed, cannot run or charge, and takes a -6 penalty to Strength and Dexterity. After 1 hour of complete rest, an exhausted character becomes ‹misc/fatigued›. A fatigued character becomes exhausted by doing something else that would normally cause fatigue."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Exhaustion Conditions", "rule/exhaustion_conditions" ]
 	},
 	"exhaustion": { "redirect": "exhausted" },
@@ -213,7 +213,7 @@
 			"A fatigued character can neither run nor charge and takes a -2 penalty to Strength and Dexterity. Doing anything that would normally cause fatigue causes the fatigued character to become ‹misc/exhausted›. After 8 hours of complete rest, fatigued characters are no longer fatigued."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Exhaustion Conditions", "rule/exhaustion_conditions" ]
 	},
 	"fatigue": { "redirect": "fatigued" },
@@ -225,7 +225,7 @@
 			"The character is frozen in fear and can take no actions. A cowering character takes a -2 penalty to Armor Class and loses his Dexterity bonus (if any)."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Fear Conditions", "rule/fear_conditions" ]
 	},
 	"cower": { "redirect": "cowering" },
@@ -239,7 +239,7 @@
 			"Frightened is like ‹misc/shaken›, except that the creature must flee if possible. ‹misc/Panicked› is a more extreme state of fear."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Fear Conditions", "rule/fear_conditions" ]
 	},
 	"panicked": {
@@ -252,7 +252,7 @@
 			"Panicked is a more extreme state of fear than ‹misc/shaken› or ‹misc/frightened›."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Fear Conditions", "rule/fear_conditions" ]
 	},
 	"shaken": {
@@ -263,7 +263,7 @@
 			"A shaken character takes a -2 penalty on attack rolls, saving throws, skill checks, and ability checks. Shaken is a less severe state of fear than ‹misc/frightened› or ‹misc/panicked›."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Fear Conditions", "rule/fear_conditions" ]
 	},
 	"sickened": {
@@ -274,7 +274,7 @@
 			"The character takes a -2 penalty on all attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Sickened Conditions", "rule/sickened_conditions" ]
 	},
 	"sicken": { "redirect": "sickened" },
@@ -287,7 +287,7 @@
 			"Creatures with the nauseated condition experience stomach distress. Nauseated creatures are unable to attack, cast spells, concentrate on spells, or do anything else requiring attention. The only action such a character can take is a single move action per turn."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Sickened Conditions", "rule/sickened_conditions" ]
 	},
 	"nauseate": { "redirect": "nauseated" },
@@ -302,7 +302,7 @@
 			">*Also see: ‹rule/Improvised Weapon Special Features›*"
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Encumbrance and Size", "rule/weapon_encumbrance" ]
 	},
 	"improvised_weapon": { "redirect": "improvised_weapons" },
@@ -372,7 +372,7 @@
 			">*&mdash; From ‹rule/Weapon Descriptions›*"
 		],
 		"searchgroup": "rule",
-		"type": "Rule"
+		"type": "Rules (Combat)"
 	},
 	"increase_the_damage_die": { "redirect": "damage_die_adjustments" },
 	"deal_less_damage": { "redirect": "damage_die_adjustments" },
@@ -430,7 +430,8 @@
 			"The rules for many character options in the Pathfinder RPG Core Rulebook and other Pathfinder RPG products often assume that creatures are Medium or Small. In the case of a handful of spells with areas that feature a \"radius emanation centered on you\" such as ‹spell/antimagic field›, ‹spell/aura of doom›, and ‹spell/zone of silence›, this can result in an area that is effectively useless when coming from a Large or larger caster. As an optional rule, when a creature casts an emanation or burst spell with the text \"centered on you,\" treat the creature's entire space as the spell's point of origin, and measure the spell's area or effect from the edge of the creature's space. For instance, an *antimagic field* cast by a fire giant would extend 10 feet beyond his space (effectively increasing the emanation's radius by 5 feet)."
 		],
 		"searchgroup": "rule",
-		"type": "Rule"
+		"type": "Rules (Basic)",
+		"topLink": [ "Aiming a Spell", "rule/aiming_a_spell" ]
 	},
 	"spread": {
 		"copyof": "burst",
@@ -452,7 +453,7 @@
 			"@HL[Blocking:] When you use this weapon to ‹misc/fight defensively›, you gain a +1 shield bonus to AC."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"brace": {
@@ -467,7 +468,7 @@
 			"@HL[Brace:] If you use a readied action to set a brace weapon against a ‹rule/charge›, you deal double damage on a successful hit against a charging character."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"broken": {
@@ -486,7 +487,7 @@
 			"Damage done by an attack against a weapon cannot be repaired by an effect that removes the broken condition."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"deadly": {
@@ -501,7 +502,7 @@
 			"@HL[Deadly:] When you use this weapon to deliver a ‹misc/coup de grace›, it gains a +4 bonus to damage when calculating the DC of the Fortitude saving throw to see whether the target of the coup de grace dies from the attack. The bonus is not added to the actual damage of the coup de grace attack."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"disarm": {
@@ -516,7 +517,7 @@
 			"@HL[Disarm:] When you use a disarm weapon, you get a +2 bonus on Combat Maneuver Checks to ‹rule/disarm› an enemy."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"distracting": {
@@ -531,7 +532,7 @@
 			"@HL[Distracting:] You gain a +2 bonus on Bluff skill checks to ‹rule/feint› in combat while wielding this weapon."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"double": {
@@ -546,7 +547,7 @@
 			"@HL[Double:] You can use a double weapon to fight as if fighting with ‹rule/two weapon«s<_fighting›, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon. You can choose to wield one end of a double weapon two-handed, but it cannot be used as a double weapon when wielded in this way - only one end of the weapon can be used in any given round."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"fragile": {
@@ -561,7 +562,7 @@
 			"@HL[Fragile:] Weapons and armor with the fragile quality cannot take the beating that sturdier weapons can. A fragile weapon gains the ‹rule/broken<_and_fragile› condition if the wielder rolls a natural 1 on an attack roll with the weapon. If a fragile weapon is already broken, the roll of a natural 1 destroys it instead. Masterwork and magical fragile weapons and armor lack these flaws unless otherwise noted in the item description or the special material description. If a weapon gains the broken condition in this way, that weapon is considered to have taken damage equal to half its hit points +1. This damage is repaired either by something that addresses the effect that granted the weapon the broken condition (like quick clear in the case of firearm misfires or the ‹feat/Field Repair› feat) or by the repair methods described in the broken condition. When an effect that grants the broken condition is removed, the weapon regains the hit points it lost when the broken condition was applied. Damage done by an attack against a weapon (such as from a ‹rule/sunder› combat maneuver) cannot be repaired by an effect that removes the broken condition."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"grapple": {
@@ -576,7 +577,7 @@
 			"@HL[Grapple:] On a successful critical hit with a weapon of this type, you can ‹rule/grapple› the target of the attack. The wielder can then attempt a combat maneuver check to grapple his opponent as a free action. This grapple attempt does not provoke an attack of opportunity from the creature you are attempting to grapple if that creature is not threatening you. While you grapple the target with a grappling weapon, you can only move or damage the creature on your turn. You are still considered ‹rule/grappled›, though you do not have to be adjacent to the creature to continue the grapple. If you move far enough away to be out of the weapon's reach, you end the grapple with that action."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"monk": {
@@ -591,7 +592,7 @@
 			"@HL[Monk:] A monk weapon can be used by a ‹class/monk› to perform a flurry of blows."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"nonlethal": {
@@ -606,7 +607,7 @@
 			"@HL[Nonlethal:] These weapons deal nonlethal damage."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"performance": {
@@ -621,7 +622,7 @@
 			"@HL[Performance:] When wielding this weapon, if an attack or combat maneuver made with this weapon prompts a ‹rule/combat »performance «check<combat›, you gain a +2 bonus on that check."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"reach": {
@@ -636,7 +637,7 @@
 			"@HL[Reach:] A reach weapon is a melee weapon that allows its wielder to strike at targets that aren't adjacent to him. Most reach weapons double the wielder's natural reach, meaning that a typical Small or Medium wielder of such a weapon can attack a creature 10 feet away, but not a creature in an adjacent square. A typical Large character wielding a reach weapon of the appropriate size can attack a creature 15 or 20 feet away, but not adjacent creatures or creatures up to 10 feet away."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"sunder": {
@@ -651,7 +652,7 @@
 			"@HL[Sunder:] When you use a sunder weapon, you get a +2 bonus on Combat Maneuver Checks to ‹rule/sunder› attempts."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"trip": {
@@ -666,7 +667,7 @@
 			"@HL[Trip:] You can use any weapon to make ‹rule/trip› attacks, but if you are tripped during your own trip attempt, you can drop a trip weapon to avoid being tripped. If the weapon has any other bonuses that apply during a trip attempt, those bonuses also apply during ‹rule/drag› and ‹rule/reposition› combat maneuvers."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"automatic": {
@@ -681,7 +682,7 @@
 			"@HL[Automatic:] This weapon can act as a ‹misc/semi-automatic› weapon, or it can fire a burst of shots with a single pull of the trigger to attack all creatures in a line. This line starts from any corner of the wielder's space and extends to the limit of the weapon's range or until it strikes a barrier it cannot penetrate. When using an automatic weapon to attack all creatures in a line, the wielder makes a separate attack roll against each creature in the line. Each creature in the line can be attacked with only one shot from each burst. Each attack roll takes a -2 penalty, and its damage cannot be modified by ‹misc/precision damage› or damage-increasing feats such as ‹feat/Vital Strike›. Effects that grant ‹rule/concealment›, such as fog or smoke, or the ‹spell/blur›, ‹spell/invisibility›, or ‹spell/mirror image› spells, do not affect an automatic weapon's line attack. Roll to confirm each attack roll that threatens a critical hit separately. A single burst with an automatic weapon consumes 10 charges. When taking a full-attack action with an automatic weapon, the wielder can fire as many bursts in a round as he has attacks, provided he has enough charges to make all of the attacks."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Specific Campaigns)",
 		"topLink": [ "Tech Weapons", "rule/tech_weapons" ]
 	},
 	"semi_automatic": {
@@ -696,7 +697,7 @@
 			"@HL[Semi-Automatic:] A semi-automatic weapon normally fires one shot as an attack. However, the user can take a full-attack action to fire twice, as if using the ‹feat/Rapid Shot› feat (including taking a -2 penalty on all attacks). If the wielder has the Rapid Shot feat, she can use the additional shot from that as well, but the penalty for all shots fired in that round increases to -6."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Specific Campaigns)",
 		"topLink": [ "Tech Weapons", "rule/tech_weapons" ]
 	},
 	"slow_firing": {
@@ -711,7 +712,7 @@
 			"@HL[Slow-Firing:] A slow-firing weapon requires a full-round action to use, and thus cannot be used to make iterative attacks."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Specific Campaigns)",
 		"topLink": [ "Tech Weapons", "rule/tech_weapons" ]
 	},
 	"touch": {
@@ -726,7 +727,7 @@
 			"@HL[Touch:] Attacks with the weapon resolve as touch attacks."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Specific Campaigns)",
 		"topLink": [ "Tech Weapons", "rule/tech_weapons" ]
 	},
 	"scatter": {
@@ -741,7 +742,7 @@
 			"@HL[Scatter:] A weapon with the scatter weapon quality can shoot two different types of ammunition. It can fire normal bullets that target one creature, or it can make a scattering shot, attacking all creatures within a cone. Cannons with the scatter weapon quality only fire grapeshot, unless their descriptions state otherwise. When a scatter weapon attacks all creatures within a cone, it makes a separate attack roll against each creature within the cone. Each attack roll takes a -2 penalty, and its attack damage cannot be modified by ‹misc/precision damage› or damage-increasing feats such as ‹feat/Vital Strike›. Effects that grant ‹rule/concealment›, such as fog or smoke, or the ‹spell/blur›, ‹spell/invisibility›, or ‹spell/mirror image› spells, do not foil a scatter attack. If any of the attack rolls threaten a critical, confirm the critical for that attack roll alone. A firearm that makes a scatter shot misfires only if all of the attack rolls made misfire. If a scatter weapon explodes on a misfire, it deals triple its damage to all creatures within the misfire radius."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Specific Campaigns)",
 		"topLink": [ "Weapon Special Features", "rule/weapon_special_features" ]
 	},
 	"alchemical_burn": {
@@ -753,7 +754,7 @@
 			"@HL[Alchemical Burn:] Some alchemical items allow you to accept alchemical burn. To accept alchemical burn, you voluntarily take 1 point of nonlethal damage per character level when imbibing the item to gain the listed benefit. This damage can't be healed by any means other than getting a full night's rest, which removes all alchemical burn and associated nonlethal damage. Nonlethal damage from alchemical burn can't be reduced or redirected, and if you are incapable of taking nonlethal damage, you gain no benefit from alchemical items that cause alchemical burn. You can accept alchemical burn only once per round, and can't accept both alchemical burn and burn from the ‹class/kineticist› class in the same round. A kineticist can use her internal buffer to avoid accepting alchemical burn. If you have accepted alchemical burn, you cannot benefit from abilities that allow you to ignore or alter the effects received from nonlethal damage. You can benefit from only one item that uses alchemical burn at a time. If you imbibe another, the second item has no effect."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Misc)",
 		"topLink": [ "Alchemical Items", "main/equipment_alchemical" ]
 	},
 	"alchemical_inspiration": {
@@ -765,7 +766,7 @@
 			"@HL[Alchemical Inspiration:] Items that grant alchemical inspiration function similar to the inspiration class feature of the ‹class/investigator› class. Such an alchemical item typically grants a number of uses of alchemical inspiration that can be used during the duration of the item. As a free action, you can expend one use of alchemical inspiration to add 1d6 to the result of a check of the type dictated by the alchemical item (as an alchemical bonus). This can be used even if you take 10 or 20. This choice is made after the check is rolled and before the results are revealed. You can use alchemical inspiration only once per check or roll, and can't use both inspiration and alchemical inspiration on the same check or roll. In addition, if you have the inspiration class feature, you gain an additional +1 bonus when using inspiration on the appropriate type of check, whether the inspiration came from your class feature or from alchemical inspiration. You can benefit from only one item that grants alchemical inspiration at a time. If you imbibe another during the duration, the second one has no effect, even if you have already used all of your alchemical inspiration from the first item."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Misc)",
 		"topLink": [ "Alchemical Items", "main/equipment_alchemical" ]
 	},
 	"signal": {
@@ -779,7 +780,7 @@
 			"Some items, like ‹tech-misc/chipfinder«s<_brown›, ‹tech-misc/commset«s›, and ‹tech-misc/detonator«s›, can remotely interact with other objects via @HL[signals]. Signals have a maximum range set by the device. Furthermore, a signal cannot penetrate solid barriers well. A signal is blocked by 1 foot of metal, 5 feet of stone, or 20 feet of organic matter. ‹tech-misc/Force field«s<_brown› do not block signals at all. ‹tech-misc/Signal booster«s› and ‹tech-misc/signal jammer«s› can also affect signal range."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Specific Campaigns)",
 		"topLink": [ "Miscellaneous Tech", "main/tech_misc" ]
 	},
 	"squeezing": {
@@ -796,7 +797,7 @@
 			"To squeeze through or into a space less than half your space's width, you must use the Escape Artist skill. You can't attack while using Escape Artist to squeeze through or into a narrow space, you take a -4 penalty to AC, and you lose any Dexterity bonus to AC."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Combat)",
 		"topLink": [ "Terrain and Obstacles", "rule/terrain_and_obstacles" ]
 	},
 	"squeeze": { "redirect": "squeezing" },
@@ -809,7 +810,7 @@
 			"The @HL[total defense] action lets you defend yourself as a ‹rule/standard action<s›. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with ‹misc/fighting defensively› or with the benefit of the ‹feat/Combat Expertise› feat. You can't make attacks of opportunity while using total defense."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Combat)",
 		"topLink": [ "Standard Actions", "rule/standard_actions" ]
 	},
 	"full_defense": { "redirect": "total_defense" },
@@ -828,7 +829,7 @@
 			":::"
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Combat)",
 		"topLink": [ "Attack", "rule/attack" ]
 	},
 	"fight_defensively": { "redirect": "fighting_defensively" },
@@ -844,7 +845,7 @@
 			"A spell that depends on concentration is dismissible by its very nature, and dismissing it does not take an action, since all you have to do to end the spell is to stop concentrating on your turn."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Spell Duration", "rule/duration" ]
 	},
 	"dismiss": { "redirect": "dismissible" },
@@ -856,7 +857,7 @@
 			"You can hold your breath for a number of rounds equal to twice your Constitution score, but only if you do nothing other than take move actions or free actions. If you take a standard action or a full-round action (such as making an attack), the remainder of the duration for which you can hold your breath is reduced by 1 round. (Effectively, a character in combat can hold his breath only half as long as normal.) After that period of time, you must make a DC 10 Constitution check every round to continue holding your breath. Each round, the DC for that check increases by 1. If you fail the Constitution check, you begin to ‹rule/suffocate›."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Swim", "skill/swim" ]
 	},
 	"hold_his_breath": { "redirect": "hold_your_breath" },
@@ -875,7 +876,7 @@
 			"[^M]: This is explained in the scrolls section."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Using Magic Items", "rule/using_items" ]
 	},
 	"spell_trigger": {
@@ -888,7 +889,7 @@
 			"Spell trigger activation is similar to ‹misc/spell completion›, but it's even simpler. No gestures or spell finishing is needed, just a special knowledge of spellcasting that an appropriate character would know, and a single word that must be spoken. Spell trigger items can be used by anyone whose class can cast the corresponding spell. This is the case even for a character who can't actually cast spells, such as a 3rd-level paladin. The user must still determine what spell is stored in the item before she can activate it. Activating a spell trigger item is a standard action and does not provoke attacks of opportunity."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": [ "Using Magic Items", "rule/using_items" ]
 	},
 	"precision_damage": {
@@ -896,10 +897,13 @@
 		"description": [
 			"## Precision Damage",
 			"",
-			"This is extra damage that is caused because of a well-aimed attack at a vulnerable area. It is not multiplied on a ‹rule/critical hit<s›. The most common type of precision damage is the ‹ability/sneak attack›. If an ability or attack deals precision damage, it will say so in its description. If something is immune to sneak attack damage and/or critical hits, it is usually immune to all precision damage."
+			"\"Precision damage\"[^N] is extra damage that is caused because of a well-aimed attack at a vulnerable area. It is not multiplied on a critical hit; in fact, critical hits are considered a *form* of precision damage. The most common type of precision damage is the ‹ability/sneak attack›. If an ability or attack deals precision damage, it will say so in its description. If something is immune to sneak attack damage and/or critical hits, it is usually immune to all precision damage.",
+			"",
+			"[^N]: There is no official, explicit defintion of this term, even though it is used a lot in the rulebooks. The above is a summary of what the rules imply."
 		],
 		"searchgroup": "rule",
-		"type": "Rule"
+		"type": "Rules (Combat)",
+		"topLink": [ "Critical Hits", "rule/critical_hits" ]
 	},
 	"languages": {
 		"name": "Languages",
@@ -1053,7 +1057,7 @@
 			":::"
 		],
 		"searchgroup": "rule",
-		"type": "Rule"
+		"type": "Rules (Basic)"
 	},
 	"good_saves": {
 		"name": "Good and Poor Saves",
@@ -1070,7 +1074,7 @@
 			"The ‹class/fighter›, for example, has @HL[good] Fortitude saves, and @HL[poor] Reflex and Will saves."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": ["Saving Throws", "rule/saving_throws"]
 	},
 	"bad_saves": { "redirect": "good_saves" },
@@ -1090,7 +1094,7 @@
 			"This room aids you when you're attempting Craft (alchemy) checks, researching new alchemist formulae, and performing similar alchemical tasks. Up to three people can use the room at a time."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"altar": {
@@ -1105,7 +1109,7 @@
 			"This spiritual focal point has the iconography and materials required for a ceremony. A typical Altar takes the form of a stone altar, but it could also be a sacred pool, a sacrificial pyre, a collection of statuettes, or a similar sacred convergence."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"animal_pen": {
@@ -1120,7 +1124,7 @@
 			"An Animal Pen houses animals that need more attention than horses and cattle. It could be used to house animals for food (like chickens or pigs), display (like song birds or reptiles), or protection (like dogs or large cats). One animal pen can support 1 Large, 2 Medium, 4 Small, or 8 Tiny or smaller creatures, providing them with water and shelter. Food is not provided."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"armory": {
@@ -1135,7 +1139,7 @@
 			"An Armory stores a variety of armor and weapons, providing enough equipment to supply one Bunks or Guard Post with common equipment (the guards or soldiers leave their armor and weapons here, and you don't have to pay for individual equipment for them as long as this room is not broken). The room is typically supplied with medium armor and appropriate martial weapons for the guards or soldiers in the building. The Armory contains an array of helpful tools to allow you to don armor in the time it normally takes to don hastily."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"artisans_workshop": {
@@ -1150,7 +1154,7 @@
 			"This specialist's workshop provides a variety of tools and materials for a particular art form, such as glassworking, gemcutting, or sculpting, which you choose when you build the room. Up to three people can use the room at a time."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"auditorium": {
@@ -1165,7 +1169,7 @@
 			"This large room is used for various artistic performances. It contains a stage, costumes, instruments, and seating for an audience. The superior acoustics and decor grant a +2 bonus on all Perform checks made in this room."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"ballroom": {
@@ -1180,7 +1184,7 @@
 			"This large open room is intended for dances, receptions, and other elaborate events. The superior acoustics and decor grant a +2 bonus on all Perform checks made in this room."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"bar": {
@@ -1195,7 +1199,7 @@
 			"A Bar stores a selection of drinks and includes a counter for preparing them. After spending an hour with local people in this room, for the next 24 hours you gain a +1 bonus on Diplomacy checks you make to gather information in the settlement."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"bath": {
@@ -1210,7 +1214,7 @@
 			"A Bath contains a single large bathtub or multiple smaller basins, along with a stove for heating water. After spending 1 hour in this room, you gain a +2 bonus on your next ongoing Fortitude save against disease."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"battle_ring": {
@@ -1225,7 +1229,7 @@
 			"This enclosed field is used for some form of dangerous contest, from nonlethal sports like wrestling or boxing to lethal blood sports such as animal fights or gladiatorial combat. It includes seating for spectators, appropriate flooring (padded or sandy), and often some manner of barrier between the audience and combatants. Each day, the person in charge of the Battle Ring can grant one combatant a +2 bonus on Intimidate and performance combat checks. This benefit applies only within the settlement."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"bedroom": {
@@ -1240,7 +1244,7 @@
 			"A Bedroom provides comfort and privacy for one to two people, and typically features one large bed or two smaller beds. Many also have furnishings or features, such as chairs, wardrobes, chests, tables, or small fireplaces. A Bedroom might be the sleeping place of a building's owner or a comfortable room for rent."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"bell_tower": {
@@ -1255,7 +1259,7 @@
 			"This two-story room contains one or more bells suitable for warnings or music, along with bell pulls for operating the instruments from below. The bells can be heard up to 1 mile away."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"book_repository": {
@@ -1270,7 +1274,7 @@
 			"A Book Repository contains shelves upon shelves of books, in addition to chairs, desks, and tables for reading and studying. Most repositories contain books on a wide array of topics providing a general wealth of information, but some contain books focused on a specific topic. When you construct a Book Repository, select one Knowledge skill. If someone has a question relating to that Knowledge skill and is able to spend 1 hour researching in the Book Repository, she gains a +3 bonus on the Knowledge check to answer the question."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"brewery": {
@@ -1285,7 +1289,7 @@
 			"A Brewery allows you to ferment or distill ingredients such as fruits and grain to create potent beverages."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"bunks": {
@@ -1300,7 +1304,7 @@
 			"Bunks provide housing and limited storage for up to 10 people. Though hardly private, this space typically includes beds or cots, linens, small chests with poor locks, and chamber pots. If this room is part of an Inn, the building is more of a flophouse or hostel than a traveler's hotel, which would have private rooms. If part of a Hospital, this room houses patients."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"burial_ground": {
@@ -1315,7 +1319,7 @@
 			"This somber plot of land is dedicated to the internment of the dead. Up to 20 Medium or smaller corpses can be buried here, their plots clearly marked by gravestones, statues, or other markers. For an additional 200 gp, this area can be consecrated as holy or unholy ground. A corpse buried in holy ground cannot be animated as an undead creature. A corpse buried in unholy ground has a 5% chance every month of reanimating as an uncontrolled zombie. If you upgrade a Burial Ground, the area retains the consecration effect."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"cell": {
@@ -1330,7 +1334,7 @@
 			"This uncomfortable room can imprison 1 to 4 captives. It is typically nothing more than a stone room with a straw-lined floor, though some might have the barest of comforts, like cots or chamber pots. One wall is typically constructed of sturdy bars and a door affixed with a simple lock. You can install manacles or masterwork manacles at the normal price of those items."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"ceremonial_room": {
@@ -1345,7 +1349,7 @@
 			"This is a large, open room for important events such as religious services, town meetings, and weddings. It often features an elevated area for the focus or leader of the event, and might have seats for others in attendance. A person leading or officially speaking at the event gains a +1 bonus on Bluff, Diplomacy, and Intimidate checks to influence others at the event. This bonus ends when the event ends."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"classroom": {
@@ -1360,7 +1364,7 @@
 			"This small meeting place gives numerous attendees an unobstructed view of a single lecturer. Many classrooms contain seating for those in attendance, a lectern, and a display table or chalkboard."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"clockwork_shop": {
@@ -1375,7 +1379,7 @@
 			"This workshop provides all of the precision tools and workstations required for creating delicate clockwork goods. Up to three people can use the room at a time."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"common_room": {
@@ -1390,7 +1394,7 @@
 			"This versatile open area has enough space for many people to use at once. A Common Room is typically furnished with benches, chairs, cushions, mats, pews, or stools, and might have tables."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"confessional": {
@@ -1405,7 +1409,7 @@
 			"This pair of tiny, linked rooms allows for private conversations. Alternatively, you may construct a hidden space that allows you to watch another room without being observed, such as through a peephole in a tapestry or mosaic. One side of this room provides a +4 bonus on Stealth checks to hide from creatures in the adjoining room. A Confessional can be constructed in a way that allows this bonus to apply to creatures in both sides or just in one."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"courtyard": {
@@ -1420,7 +1424,7 @@
 			"This large, open area might be constructed to feature decorative landscaping or be a more utilitarian space for drills, meetings, or storage."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"crypt": {
@@ -1435,7 +1439,7 @@
 			"This space is dedicated to the storage of prominent corpses. Above ground this space might take the form of a tomb. The duration of spells that preserve or protect corpses (such as ‹spell/gentle repose›) are doubled when cast on a corpse that remains in this room."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"defensive_wall": {
@@ -1450,7 +1454,7 @@
 			"This simple wooden wall, fence, or hedge surrounds your structure and provides a modicum of security. It is no taller than 10 feet, includes a single gate with a simple lock, and can be scaled with a DC 14 Climb check. It can be constructed as a stone wall - increasing the height by up to 10 feet and the Climb DC to 20 - by doubling the price. If combined with a Guard Post, this can be a walkable wall with a parapet."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"dock": {
@@ -1465,7 +1469,7 @@
 			"This is a series of walkways and sturdy posts used to safely moor a water vessel such as a boat or ship. If attached to Storage, it allows you to easily move cargo to and from the water."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"dojo": {
@@ -1480,7 +1484,7 @@
 			"This open area is used for practicing combat or other physical skills. If used for combat training, it includes humanoid-shaped training dummies or silhouettes for target practice. Most Dojos include simple floor mats or straw pallets to cushion falls, plus racks containing nonlethal versions of standard weapons. If used by a Thieves' Guild, instead of combat the Dojo might instead focus on evasion training, picking locks, and disabling traps. You can use a Dojo to train up to 10 people at a time. It can be used as Bunks, though it is much less comfortable than using actual beds or cots."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"drawbridge": {
@@ -1495,7 +1499,7 @@
 			"This retractable bridge spans a pit, moat, or similar danger, allowing you to control access to an area. You can raise or lower the bridge by spending a full-round action to operate the mechanisms constructed on either side of the span. When raised, the bridge creates a wooden barrier (hardness 5, 40 hit points). If the Drawbridge is destroyed, it can be rebuilt in the same place for half the initial construction price."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"escape_route": {
@@ -1510,7 +1514,7 @@
 			"This is a hallway or tunnel leading to a hidden exit from the building. The exit door is typically a simple wooden door with an average lock (Disable Device DC 20 to open). Either or both ends of the hallway can be secret doors (Perception DC 20 to notice)."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"false_front": {
@@ -1525,7 +1529,7 @@
 			"This simple, nondescript business uses an innocuous front to hide criminal dealings. It might appear to be a low-quality pawnshop or ill-stocked market. It has the bare necessities for functioning as the kind of business it pretends to be, but its true purpose is to conceal the nature of the building - typically a criminal enterprise or secret meeting place, such as a cult's sanctuary or a den of thieves. The room includes a secret door leading to the rest of the building. The room increases Perception and Sense Motive DCs by 5 for those trying to notice unusual activity or determine whether the building is what it seems. Since a False Front contains both a false Storefront and false display area, its space can be upgraded to both Storage and a Storefront simultaneously (or upgraded to just one, leaving the remaining area unused)."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"farmland": {
@@ -1540,7 +1544,7 @@
 			"This large swath of fertile land is used for farming or fodder for livestock. The price for this room includes clearing the land, fertilizing the soil, and so on. At the GM's discretion, you might discover a plot of available land that automatically counts as a Farmland at no cost."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"forge": {
@@ -1555,7 +1559,7 @@
 			"A Forge includes a hearth, an anvil, a slack tub, metalworking tools, and other appropriate materials for shaping iron and other metals. A Forge counts as artisan's tools for up to three people working on metalworking skills such as Craft (armor) and Craft (weapons)."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"game_room": {
@@ -1570,7 +1574,7 @@
 			"A Game Room has tables for gambling or other forms of gaming, and is often used to make wagers on blood sports or other illicit activities. The listed earnings includes illegal gaming. If your building allows only legal gaming (whether recreational or using money), the earnings are gp +5 (not +10) and the benefit is Crime +0, Danger +0."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"garden": {
@@ -1585,7 +1589,7 @@
 			"This area of carefully tended soil is fit for growing plants that require greater attention than crops, though you can use it to grow food crops if you choose."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"gatehouse": {
@@ -1600,7 +1604,7 @@
 			"This defensive structure prevents access to a building. It is normally arranged so defenders have a clear line of sight to all room entrances or a clear view of all approaches to the building. It includes a strong wooden door with a good lock. You can improve this to an iron door for 500 gp. You can add a wooden portcullis for 500 gp or an iron portcullis for 1,000 gp. For an additional 80 gp, you can also count this room as a Gauntlet, allowing defenders to fall back and trap intruders here. You can construct this room in a tower layout (at no additional cost), which includes a second story that also counts as a Gatehouse. The listed price includes the cost of having unskilled employees as guards (1st-level commoners or experts with uniforms, but no armor or weapons). If the building has an Armory, these employees are armed and armored, but still mostly for show. If you want trained guards who can defend against dangerous intruders, hire professional guards or recruit a team of Guards or Soldiers. You can use a Gatehouse as a Tollbooth, which provides the same Earnings (gp or Goods +4). Any defender using the Gatehouse's defenses gains a +1 bonus on initiative checks and on Perception checks against intruders at the Gatehouse."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"gauntlet": {
@@ -1615,7 +1619,7 @@
 			"This is an area with murder holes or similar defenses that give defenders an advantage when attacking or spying upon intruders. It has good wooden doors with simple locks to allow defenders to trap invaders inside. Any defender using the Gauntlet's defenses has improved cover against intruders in the Gauntlet, though these defenses limit what attacks the defenders can make. For example, a defender can shoot through a murder hole with a spell, bow, or crossbow, or can pour boiling water through it, but she can't attack through it with an axe."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"greenhouse": {
@@ -1632,7 +1636,7 @@
 			">*This room can upgrade into the Mystic Greenhouse in ‹rule/Wilderness Rooms›.*"
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"guard_post": {
@@ -1647,7 +1651,7 @@
 			"This defensive structure prevents access to a building. It is normally arranged so defenders have a clear line of sight to all room entrances or a clear view of all approaches to the building. You can construct this room in a tower layout (at no additional cost), which includes a second story that also counts as a Guard Post. The listed price includes the cost of having unskilled employees as guards (1st-level commoners or experts with uniforms, but no armor or weapons). If the building has an Armory, these employees are armed and armored, but still mostly for show. If you want trained guards who can defend against dangerous intruders, hire professional guards or recruit a team of Guards or Soldiers. Any defender using the Guard Post's defenses gains a +1 bonus on initiative checks and on Perception checks against intruders at the Guard Post."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"habitat": {
@@ -1662,7 +1666,7 @@
 			"A Habitat houses animals. Unlike a Stall or Hatchery, a Habitat provides comfortable lodging for exotic or rare creatures. This room contains cages and walled chambers for the resident creatures, with at least one wall constructed of bars or windows to allow visitors to observe the creatures. A Habitat built to house birds is often constructed with tall poles and netting to keep the creatures from flying away."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"hatchery": {
@@ -1677,7 +1681,7 @@
 			"A Hatchery is used for nesting and hatching egg-laying creatures such as birds, lizards, owlbears, or dragons. Alternatively, it can be used for fish, shellfish, or other aquatic egg-laying creatures. This room might be on the roof to allow flying creatures to come and go, or might be connected to the building on ground level. It contains cages and soft bedding to cradle the eggs, and might contain a small wood-burning stove to keep the eggs warm if parent animals aren't available."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"infirmary": {
@@ -1692,7 +1696,7 @@
 			"An Infirmary is used for treating injured and sick people. It contains beds or cots, a wash basin, and medical supplies. This counts as having a healer's kit for up to two healers at a time. As long as the building doesn't have the broken condition, you don't need to track individual uses of these healer's kits."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"kitchen": {
@@ -1707,7 +1711,7 @@
 			"A Kitchen is used to prepare food. It contains a stove, sink, and small pantry with basic cooking tools and supplies. A Kitchen for a business that serves food, such as an Inn, probably also has Storage just for foodstuffs."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"labyrinth": {
@@ -1722,7 +1726,7 @@
 			"A Labyrinth is a walled maze, hedge maze, or simple tiled pattern on the ground that those in need of tranquility can walk for quiet meditation."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"laundry": {
@@ -1737,7 +1741,7 @@
 			"A Laundry contains a large vat for soaking clothes, a cauldron to heat water, washboards, drying lines, and racks and bins for dry clothes. This might be an outside area adjacent to a building. Employees and regular users of a Laundry gain a +1 bonus on Fortitude saves to resist contracting a disease while they're in the settlement."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"lavatory": {
@@ -1752,7 +1756,7 @@
 			"A Lavatory includes up to four 5-foot-by-5-foot private rooms for dealing with biological functions. If a building doesn't have a Lavatory, people in it must go elsewhere for this sort of activity. Depending on the building and settlement, a Lavatory might be an outhouse, a closet with a chamber pot, or a stool connected to an external system such as a cesspit or pig trough. If the building has a Sewer Access, you can automatically connect all Lavatories in the building to the settlement's sewer system. The sanitation improvement from having a Lavatory mean residents, guests, employees, and others who frequent the building gain a +2 bonus on Fortitude saves to resist contracting a disease while in the settlement."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"leather_workshop": {
@@ -1767,7 +1771,7 @@
 			"This workshop includes a sturdy table, stool, vats, drying racks, and tools designed for turning raw hides into leather. The Leather Workshop counts as masterwork artisan's tools for up to three people creating leather goods with skills such as Craft (leather) and Craft (shoes)."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"lodging": {
@@ -1782,7 +1786,7 @@
 			"This area is subdivided into smaller chambers and provides private housing and limited storage for up to 10 people. Each chamber typically includes one or two small beds, linens, a chamber pot, and a small table and chair. The door to the chamber is a simple wooden door with a simple lock. You may upgrade individual locks by paying the price difference between a simple lock and the desired lock."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"magical_repository": {
@@ -1797,7 +1801,7 @@
 			"A Magical Repository is similar to a Book Repository, but specific to the study of the arcane arts. It contains shelves of books, comfortable chairs, and tables for studying and for scribing notes and scrolls. If you construct this room from scratch, it grants someone who studies there for 1 hour a +3 bonus on a Knowledge (arcana) check to answer a question. If you upgrade a Book Repository into this room, you either keep the original Book Repository's bonus on Knowledge checks or change its skill to Knowledge (arcana). An hour of study in this room also grants a +3 bonus on Spellcraft checks. The room grants an additional +1 bonus on Knowledge (arcana) and Spellcraft checks for spell research (see ‹rule/Research a Spell›) and crafting magic items."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"mill_room": {
@@ -1812,7 +1816,7 @@
 			"A Mill Room contains a mechanism to process grain, foodstuffs, and other raw materials. Most simple mills are powered by hand, but those powered by horses or other beasts of burden require a stable, those powered by water require running water for the water wheel, and those powered by wind require a tower."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"nursery": {
@@ -1827,7 +1831,7 @@
 			"A Nursery is used to care for infants and children. It contains cribs and beds for children, toys for their entertainment, a table for changing, and cabinets for supplies."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"observation_dome": {
@@ -1842,7 +1846,7 @@
 			"This elevated room is open to the sky, has a skylight, or has a retractable roof to allow you to observe the passing of celestial bodies. An Observation Dome includes shelves containing records and notes, a telescope, and other devices dedicated to celestial study. If someone spends 1 hour researching in the Observation Dome, she gains a +2 bonus on Knowledge (geography), Knowledge (nature), and Knowledge (planes) checks to answer a question about the heavens."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"office": {
@@ -1857,7 +1861,7 @@
 			"This simple room includes a door with a simple lock, a chair, and a large desk that has two drawers with simple locks. An Office affords its user privacy and a refuge from other activity in the building."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"pit": {
@@ -1872,7 +1876,7 @@
 			"This is a place to dump things no longer needed. It can be used to contain refuse, dangerous waste, and piles of junk, or as a mass graveyard, communal latrine, or crude surface well. A typical pit is 5-15 feet deep with steep sides."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"printer": {
@@ -1887,7 +1891,7 @@
 			"This specialized workshop contains a printing press, storage for paper, and drying racks for finished books and pamphlets. Up to three people can use the room at a time."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"reliquary": {
@@ -1902,7 +1906,7 @@
 			"A Reliquary is built to securely store religious artifacts, and dedicated to a specific deity or philosophy. It contains shelves to house the items, special display cases to protect them, and sometimes chairs and tables to allow study. It's secured by a strong wooden door or grating with a good lock. Unlike a Vault, a Reliquary is intended to allow people to observe its contents. When stocked with relics appropriate to the chosen deity or philosophy, the room grants a +1 bonus on Knowledge (religion) checks relating to the history, powers, and purpose of those relics."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"sanctum": {
@@ -1917,7 +1921,7 @@
 			"This is a basic room with simple and pleasing decorations, clean lines, and a calming environment perfect for meditation, prayer, and solitude. A person who spends at least 4 hours in a Sanctum doing nothing other than praying or meditating gains a +1 bonus on Will saves. This bonus ends once the person leaves the settlement or after the first time she attempts a Will save."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"sauna": {
@@ -1932,7 +1936,7 @@
 			"This simple room contains benches, a central source of heat, stones, and a container of water with a ladle to help produce steam. Using a Sauna for an hour grants a person a +1 bonus on saving throws to overcome ongoing diseases (but not on saves to resist contracting diseases) and a +1 bonus on saving throws to recover from negative levels. This bonus goes away after 24 hours."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"scriptorium": {
@@ -1947,7 +1951,7 @@
 			"A Scriptorium is where scribes do their work. It contains chairs and writing desks, as well as ink, paper, and other supplies needed to create or copy written works. Up to three people can use the room at a time for scribing scrolls or using Craft (calligraphy) or Profession (scribe)."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"scrying_room": {
@@ -1962,7 +1966,7 @@
 			"A Scrying Room is built to be a quiet place for scrying, seances, and similar divinations. It contains a table, chairs, and either a pool of water (at no additional cost) or a suitable focus object for a ‹spell/scrying› spell (for an additional 1,000 gp). A caster using *scrying,* ‹spell/locate creature›, or a similar targeted divination from here increases the spell's DC by 1."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"secret_room": {
@@ -1977,7 +1981,7 @@
 			"This is either a room or a passage connecting two rooms in the building. The access to this space is controlled by a [secret door](rule/doors) (DC 20). A passage can have secret doors at both ends or a normal door at one end and a secret door at the other. If it's a room, it is typically used to hide someone or something you don't want discovered. If it's a passage, it's typically used for clandestine travel within the building, often for the purpose of smuggling or spying. For every 500 extra gp you spend, you can improve one secret door in the building to a well-hidden secret door (DC 30)."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"sewer_access": {
@@ -1992,7 +1996,7 @@
 			"A Sewer Access might be a tunnel or room, or something as simple as a sturdy trap door in the floor. Constructing it requires a settlement with a sewer or septic system, and connects some part of the building to that system. You can use this as an Escape Route, but only to get to and from the sewer. The door to the sewer is a strong wooden door with a good lock. For an additional 500 gp, it has an iron door instead. If you have a Lavatory and Sewer Access, you may automatically connect the Lavatory to the sewer with indoor plumbing."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"sewing_room": {
@@ -2007,7 +2011,7 @@
 			"A Sewing Room is used for designing heraldry and making cloth garments, tapestries, blankets, carpets, linens, and other textiles. It contains a loom; a spinning wheel; tapestry frames; shelves for fabric; worktables; and tools for spinning, weaving, and sewing. Up to three people can use the room at once; gaining the benefit of masterwork artisan's tools for skills such as Craft (cloth) and Craft (clothing), and for related skills such as Craft (baskets)."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"shack": {
@@ -2022,7 +2026,7 @@
 			"This no-frills wooden shelter contains a simple table, pallet bed, and stool. One person can build a shack with simple tools and basic materials. For an additional 1 point of Goods and 2 points of Labor, you can construct a brick or stone hut instead of a wooden shack."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"sitting_room": {
@@ -2037,7 +2041,7 @@
 			"This is a room used for meeting and entertaining in a relaxed, comfortable setting, such as a den, dining room, or smoking room. It has furnishings appropriate to its function (chairs for a sitting room, table and chairs for a dining room, and so on). By spending an hour conversing with guests in a social manner, the host of the room gains a +1 bonus on Bluff, Diplomacy, Intimidate, Knowledge (local), and Perform checks to influence or learn about those guests for the next 24 hours."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"sports_field": {
@@ -2052,7 +2056,7 @@
 			"This outdoor area is used for jousting, athletics, war games, and other sports. A Sports Field contains a playing area, seats for spectators and equipment for one type of game."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"stall": {
@@ -2067,7 +2071,7 @@
 			"A Stall is a place to keep 1-2 horses or other Large domestic animals. It contains gates, feed troughs, feed, and straw."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"statue": {
@@ -2082,7 +2086,7 @@
 			"This area contains a statue, fountain, or other large decoration. If it has religious significance, it might serve as a shrine. The listed cost and time are only to install a completed wood, bronze, or stone feature - they don't include the cost and time to create the feature in the first place, but it must be installed to produce Earnings."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"storage": {
@@ -2097,7 +2101,7 @@
 			"Storage is any room used to store objects, keeping them out of the way for later use. Most Warehouses are just multiple Storage rooms built into a single building. A low-cost shop may allow its customers to browse items in the Storage area. A door to a Storage room includes an average lock."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"storefront": {
@@ -2112,7 +2116,7 @@
 			"This is a simple storefront, holding a wooden counter, a ledger, shelves, and other necessities to run a business."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"summmoning_chamber": {
@@ -2127,7 +2131,7 @@
 			"A Summoning Chamber is used to perform magical rituals to conjure outsiders. It contains a well-drawn, nearly complete magic circle on the floor - which you can complete with just a few chalk marks - suitable for use with ‹spell/magic circle› spells, ‹spell/planar binding› spells, and so on. A person who uses a Summoning Chamber gains a +3 bonus on Knowledge (planes) checks relating to a creature being called or summoned, and a +3 bonus on Charisma checks, Diplomacy checks, and Intimidate checks to influence or bargain with a creature called or summoned here."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"throne_room": {
@@ -2142,7 +2146,7 @@
 			"A Throne Room is used to receive important visitors, such as nobles. The room contains a throne, various decorations, and a few seats for visitors. By spending an hour conversing with visitors, the host of the room gains a +1 bonus on Bluff, Diplomacy, Intimidate, Knowledge (local), and Perform checks to influence or learn about those guests for the next 24 hours."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"tollbooth": {
@@ -2157,7 +2161,7 @@
 			"A Tollbooth is a small shelter designed to restrict movement on a road or bridge so the owner can collect fees from travelers. If this room is built near a settlement, it requires 1 point of Influence per day to maintain - or might be illegal, depending on the settlement."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"torture_chamber": {
@@ -2172,7 +2176,7 @@
 			"This grim room is used for interrogation as well as torture and other morally questionable acts. It contains structures to bind humanoids and various implements designed to inflict pain and discomfort. Interrogators in this room gain a +3 bonus on Intimidate checks to influence captives."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"trap": {
@@ -2187,7 +2191,7 @@
 			"This can be a specific room in a building or an augmentation to another room. A Trap room might appear empty or it might be decorated to appear to be harmless in order to lure a target into the trap. Trap costs are explained in ‹rule/Designing a Trap›, and building one uses the ‹skill/craft«ing rules›, though you may spend Goods and Labor toward this cost."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"trophy_room": {
@@ -2202,7 +2206,7 @@
 			"This is a place to hang trophies from your adventures, such as stuffed monster heads, rare paintings, strange statues, and old magic items you don't need any more. Because of the display cases and clutter, this room isn't much good for anything else, though it might include chairs or benches to allow people to sit while they admire your treasures. If you want to use your trophies to decorate another room instead of placing them in their own room, construct the Furnishings augmentation instead. A Museum makes money by charging visitors or sponsors to view items like these."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"vault": {
@@ -2217,7 +2221,7 @@
 			"This is a secure room designed to keep out intruders. The access to this space is controlled by an iron door with a good lock. If you upgrade this room to a Secret Room, the door retains its material and lock and also becomes a secret door."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"war_room": {
@@ -2232,7 +2236,7 @@
 			"This is a room for planning military maneuvers, plotting grand heists, or providing briefings. It contains a large central table with plenty of chairs, maps, and figures to simulate troops and structures. When it's used for planning a battle, your army gains a +2 bonus on attack rolls and morale checks for their next battle within 24 hours. To grant the army this bonus, the army's commander must be present at the planning meeting for the battle or you must have some way of communicating these instructions to the commander. When used to ‹rule/scheme for an upcoming adventure›, a War Room allows you to use the scheme's planning bonus on two skill checks instead of one."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"workstation": {
@@ -2247,7 +2251,7 @@
 			"This includes a table, chair, and appropriate masterwork artisan's tools for one Craft or Profession skill you choose when you build the room. For example, if intended for a carpenter, it has clamps, saws, nails, hammers, and a sturdy worktable. Up to three people can use the room at a time."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Rooms", "rule/rooms"]
 	},
 	"acolyte": {
@@ -2262,7 +2266,7 @@
 			"An Acolyte is a newly trained divine spellcaster, sufficient for tending to the sick or advising on religious matters. An Acolyte is typically a 1st-level adept, cleric, druid, or oracle, with light armor (or no armor if an adept) and a weapon appropriate to her faith."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"apprentice": {
@@ -2277,7 +2281,7 @@
 			"An Apprentice is a newly-trained arcane spellcaster, sufficient for helping with magical rituals, generating flashy effects, or advising on magical matters. An Apprentice is typically a 1st-level bard, sorcerer, summoner, witch, or wizard."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"archers": {
@@ -2294,7 +2298,7 @@
 			">*This can also be upgraded into [Skirmishers](rule/wilderness_teams).*"
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"bureaucrats": {
@@ -2309,7 +2313,7 @@
 			"Bureaucrats interface with local government and deal with annoying paperwork related to running a business or organization. This type of team could include accountants, diplomats, lawyers, and scribes. A typical bureaucrat is a 1st-, 2nd-, or 3rd-level expert with ranks in Bluff, Diplomacy, Intimidate, Knowledge (local), Linguistics, and Profession (barrister, clerk, or scribe)."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"cavalry": {
@@ -2324,7 +2328,7 @@
 			"Cavalry are soldiers trained to ride mounts in combat. They are typically 3rd-level warriors, each equipped with breastplate armor, a longsword, a lance, and a heavy steel shield and riding a combat-trained light horse."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"cavalry_archers": {
@@ -2339,7 +2343,7 @@
 			"Cavalry Archers are soldiers trained to ride mounts and use ranged weapons in combat before closing to melee. They are typically 3rd-level warriors, each equipped with breastplate armor, a short bow, a longsword, a lance, and a heavy steel shield and riding a combat-trained light horse."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"craftspeople": {
@@ -2354,7 +2358,7 @@
 			"Craftspeople are trained in a particular Craft or Profession skill and make a living using that skill. Examples of this team are alchemists, carpenters, leatherworkers, masons, and smiths. A typical carpenter is a 4th-level expert with 4 ranks each in Climb, Craft (carpentry), Diplomacy, and Knowledge (engineering and local). Craftspeople in other fields have a similar skill arrangement."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"cutpurses": {
@@ -2369,7 +2373,7 @@
 			"Cutpurses are minor thieves (often youths) who earn money from petty crimes such as pickpocketing or stealing items from market stalls. They are typically 1st-level commoners, experts, or rogues with 1 rank in Perception, Sleight of Hand, and Stealth."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"driver": {
@@ -2384,7 +2388,7 @@
 			"Drivers are trained to handle and move common animals' managing ox-drawn carts, herding cattle, or training riding horses. A Driver is typically 1st-level expert with ranks in Handle Animal, Knowledge (geography), Profession (driver), Ride, and Survival."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"elite_archers": {
@@ -2399,7 +2403,7 @@
 			"An Elite Archers team consists of 3rd-level warriors, each with scale mail, a longbow, a buckler, and a longsword."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"elite_guards": {
@@ -2414,7 +2418,7 @@
 			"Like Guards, this team defends a location but doesn't take on an active role. An Elite Guards team consists of 3rd-level warriors, each wearing a chain shirt or banded mail and using a heavy steel shield and shortspear, a guisarme, or a halberd."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"elite_soldiers": {
@@ -2429,7 +2433,7 @@
 			"Like Soldiers, this team will take aggressive action and seek out your enemies to kill them. An Elite Soldiers team consists of 3rd-level warriors, each wearing a chain shirt or banded mail and using a guisarme, a halberd, or a heavy steel shield and a shortspear."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"guards": {
@@ -2446,7 +2450,7 @@
 			">*This can also be upgraded into [Skirmishers](rule/wilderness_teams).*"
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"laborers": {
@@ -2465,7 +2469,7 @@
 			">*This can also be upgraded into [Stewards](rule/wilderness_teams).*"
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"lackeys": {
@@ -2480,7 +2484,7 @@
 			"Lackeys wait on you hand and foot and take care of common domestic and traveling issues; their ranks include butlers, valets, maids, heralds, footmen, ladies-in-waiting, and similar service personnel. Skilled Lackeys anticipate your needs and coordinate with your other employees as well as those of your guests or host. A typical Lackey is a 1st-level commoner or expert with ranks in a subset of Diplomacy, Disguise, Intimidate, Knowledge (local), Knowledge (nobility), Linguistics, Perception, and Sense Motive."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"mage": {
@@ -2495,7 +2499,7 @@
 			"A Mage is a skilled but not especially remarkable arcane spellcaster, often a 3rd-level bard, sorcerer, summoner, witch, or wizard."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"priest": {
@@ -2510,7 +2514,7 @@
 			"A Priest is a skilled but unremarkable divine spellcaster, typically a 3rd-level adept, cleric, druid, or oracle, with light armor (or no armor, if an adept) and a weapon appropriate to her faith."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"robbers": {
@@ -2527,7 +2531,7 @@
 			">*This can also be upgraded into [Skirmishers](rule/wilderness_teams).*"
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"sage": {
@@ -2542,7 +2546,7 @@
 			"A sage is a person with extensive knowledge in one or more related areas who can advise you about his areas of expertise. A typical sage is a 3rd-level expert with 3 ranks each in skills such as Appraise, Knowledge, Linguistics, Profession, and Spellcraft."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"sailors": {
@@ -2557,7 +2561,7 @@
 			"Sailors know how to sail a ship, navigate while at sea, and defend the vessel against pirates and other hostile boarders. A typical sailor is a [2nd-level expert](npc/old_sailor) with 2 ranks each in Acrobatics, Climb, Perception, Profession (sailor), Survival, and Swim."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"scofflaws": {
@@ -2572,7 +2576,7 @@
 			"Scofflaws provide illegal but consensual services such as gambling, moonshining, or underground fighting. Note that other kinds of teams might perform these services (you could recruit a Laborers team to work as prostitutes or a Guards team to run an arena, for example), but this kind of team is skilled at these tasks."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"soldiers": {
@@ -2589,7 +2593,7 @@
 			">*This can also be upgraded into [Skirmishers](rule/wilderness_teams).*"
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Opt. Subsystems)",
 		"topLink": ["Teams", "rule/teams"]
 	},
 	"fractions_and_rounding": {
@@ -2601,7 +2605,7 @@
 			"@HL[Rounding:] Occasionally the rules ask you to round a result or value. Unless otherwise stated, always round down. For example, if you are asked to take half of 7, the result would be 3."
 		],
 		"searchgroup": "rule",
-		"type": "Rule",
+		"type": "Rules (Basic)",
 		"topLink": ["Common Terms", "rule/common_terms"]
 	},
 	"one_sixth": { "redirect": "fractions_and_rounding" },
@@ -2609,5 +2613,17 @@
 	"one_fourth": { "redirect": "fractions_and_rounding" },
 	"one_third": { "redirect": "fractions_and_rounding" },
 	"one_quarter": { "redirect": "fractions_and_rounding" },
-	"one_half": { "redirect": "fractions_and_rounding" }
+	"one_half": { "redirect": "fractions_and_rounding" },
+	"shield_bash": {
+		"name": "Shield Bash",
+		"description": [
+			"‹SOURCE Ultimate Equipment/11-12;PRPG Core Rulebook/152›",
+			"",
+			"Shield bashes can be done with ‹eq-armor/light shield«s› or ‹eq-armor/heavy shield«s›.",
+			"",
+			"**Shield Bash Attacks:** You can bash an opponent with a light or heavy shield. Used this way, a shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon, and treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right."
+		],
+		"searchgroup": "equip",
+		"type": "Armor"
+	}
 }

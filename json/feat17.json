@@ -101,7 +101,7 @@
 			"",
 			"You can strike at weapons to upset enemy attacks.  ",
 			"**Prerequisites:** Dex 13, proficiency with bucklers.  ",
-			"**Benefit:** You can shield bash with a buckler as if it were a ‹eq-armor/light shield›, and you can use the buckler in conjunction with any feats or abilities that normally apply to light shields. While using this style, whenever you successfully deal damage to an opponent with a shield bash using your buckler, that opponent takes a -2 penalty on all attack rolls made against you until the start of your next turn."
+			"**Benefit:** You can ‹misc/shield bash› with a buckler as if it were a ‹eq-armor/light shield›, and you can use the buckler in conjunction with any feats or abilities that normally apply to light shields. While using this style, whenever you successfully deal damage to an opponent with a shield bash using your buckler, that opponent takes a -2 penalty on all attack rolls made against you until the start of your next turn."
 		]
 	},
 	"upsetting_strike": {
@@ -127,7 +127,7 @@
 			"",
 			"You punish those who fail to press their attack.  ",
 			"**Prerequisites:** Dex 13, ‹feat/Combat Reflexes›, ‹feat/Improved Shield Bash›, ‹feat/Upsetting Shield Style›, ‹feat/Upsetting Strike›, proficiency with bucklers.  ",
-			"**Benefit:** While using Upsetting Shield Style, the penalty on attack rolls foes take for being hit by your shield bash attack applies to their attacks against any target. If an adjacent foe taking this penalty makes an attack roll against any target and misses the target's AC by 5 or more, that foe provokes an attack of opportunity from you. You can only make one attack of opportunity against an opponent as a result of this feat or Upsetting Strike each round."
+			"**Benefit:** While using Upsetting Shield Style, the penalty on attack rolls foes take for being hit by your ‹misc/shield bash› attack applies to their attacks against any target. If an adjacent foe taking this penalty makes an attack roll against any target and misses the target's AC by 5 or more, that foe provokes an attack of opportunity from you. You can only make one attack of opportunity against an opponent as a result of this feat or Upsetting Strike each round."
 		]
 	},
 	"urban_forager": {
@@ -1873,7 +1873,7 @@
 			"",
 			"@HL[Confounding Shield] (Bluff 5 ranks): You can always take 10 on Bluff checks to ‹rule/feint› in combat.",
 			"",
-			"@HL[Feint and Bash] (‹feat/Improved Feint›, Bluff 10 ranks): When you feint successfully against a foe you threaten with your shield, that foe provokes an attack of opportunity from you. You can only perform a shield bash with this attack of opportunity.",
+			"@HL[Feint and Bash] (‹feat/Improved Feint›, Bluff 10 ranks): When you feint successfully against a foe you threaten with your shield, that foe provokes an attack of opportunity from you. You can only perform a ‹misc/shield bash› with this attack of opportunity.",
 			"",
 			"@HL[Shielded View] (Knowledge [dungeoneering] 1 rank): When you avert your eyes to avoid a ‹umr/gaze› attack, you have an 80% chance to avoid having to attempt a saving throw against the gaze.",
 			"",
