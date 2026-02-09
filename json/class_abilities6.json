@@ -1176,7 +1176,7 @@
 			"",
 			"::ab[Resiliency]{jl icon=def passive=\"You gain ‹rule/DR› 1/magic.\" imp5=\"You instead gain DR 2/magic.\" imp10=\"You instead gain DR 3/chaotic, evil, good, or lawful, whichever is opposite to your alignment. If you are opposite to two, choose only one of them. If you are true neutral, you gain DR 3/magic, instead.\" imp15=\"The DR increases to 4.\" imp20=\"The DR increases to 5.\"}",
 			"",
-			"::ab[Resistance]{jl icon=def passive=\"You gain ‹umr/resistance› 2 against one energy type (acid, cold, electricity, fire, or sonic) chosen when the judgment is declared.\" imp3=\"Your resistance increases to 4.\" imp6=\"Your resistance increases to 6.\" imp9=\"Your resistance increases to 8.\" imp12=\"Your resistance increases to 10.\" imp15=\"Your resistance increases to 12.\" imp18=\"Your resistance increases to 14.\"}",
+			"::ab[Resistance]{jl icon=def passive=\"You gain ‹umr/resistance› 2 against one energy type (acid, cold, electricity, fire, or sonic) chosen when the judgment is declared.\" repeatPlain=\"Your resistance~0~3~4~2\"}",
 			"",
 			"::ab[Smiting]{jl icon=boost passive=\"Your weapons count as magic for the purposes of bypassing ‹rule/damage reduction›.\" imp6=\"Your weapons also count as one alignment type (chaotic, evil, good, or lawful) for the purpose of bypassing damage reduction. The type selected must match one of your alignments. If you're true neutral, you do not receive this bonus.\" imp10=\"Your weapons also count as ‹eq-material/adamantine› for the purpose of overcoming damage reduction (but not for reducing hardness).\"}"
 		],

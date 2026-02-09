@@ -84,7 +84,7 @@
 			"",
 			"::ab[Home (Ex)]{l=2 icon=boost passive=\"A brutish swamper gains a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks when in swamps.\" imp5=\"The bonus becomes +3.\" imp8=\"The bonus becomes +4.\" imp11=\"The bonus becomes +5.\" imp14=\"The bonus becomes +6.\" imp17=\"The bonus becomes +7.\" imp20=\"The bonus becomes +8.\" replace=\"Uncanny dodge~improved uncanny dodge\"}",
 			"",
-			"::ab[Stubborn (Ex)]{l=3 icon=def passive=\"A brutish swamper resists any attempts to change her attitude or compel her to action. Diplomacy and Intimidate checks against her take a -2 penalty, and no result can shift her attitude more than one step in a 24-hour period.\" imp6=\"The penalty becomes -4.\" imp9=\"The penalty becomes -6.\" imp12=\"The penalty becomes -8.\" imp15=\"The penalty becomes -10.\" imp18=\"The penalty becomes -12.\" replace=\"Trap sense\"}",
+			"::ab[Stubborn (Ex)]{l=3 icon=def passive=\"A brutish swamper resists any attempts to change her attitude or compel her to action. Diplomacy and Intimidate checks against her take a -2 penalty, and no result can shift her attitude more than one step in a 24-hour period.\" repeat=\"The penalty~3~3~-4~-2\" replace=\"Trap sense\"}",
 			"",
 			"::ab[Wrastlin (Ex)]{l=6 icon=def-melee passive=\"While raging, a brutish swamper gains a +2 bonus to her CMD against ‹rule/grapple› combat maneuvers and a +2 bonus on damage rolls made as part of successful grapple combat maneuver checks.\" replace=\"6th-level rage power\"}",
 			"",
