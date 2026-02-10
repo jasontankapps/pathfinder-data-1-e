@@ -1980,7 +1980,7 @@
 			"",
 			"::ab[Favored Terrain (Ex)]{l=3 icon=power ability=\"The world walker gains the ranger's ‹ability/favored terrain› ability. She treats her druid level as her ranger level for this ability. If she has levels in both classes, both class's levels stack for determining the effect of this ability.\" replace=\"Trackless step~resist nature's lure\"}",
 			"",
-			"::ab[Path of Trees (Su)]{l=9 icon=magic ability=\"Once a day, a wanderer can step within a tree and then teleport from that tree to another one in a manner similar to the ‹spell/tree stride› spell.\" imp12=\"She can do this twice a day.\" imp13=\"She can use this ability to teleport to any other tree of its type up to 100 miles away.\" imp15=\"She can do this three times a day.\" replace=\"Both venom immunity~timeless body\"}"
+			"::ab[Path of Trees (Su)]{l=9 icon=magic ability=\"Once a day, a wanderer can step within a tree and then teleport from that tree to another one in a manner similar to the ‹spell/tree stride› spell.\" imp12=\"She can do this twice a day.\" imp13=\"She can use this ability to teleport to any other tree of its type up to 100 miles away.\" imp15=\"She can do this three times a day.\" replace=\"Venom immunity~timeless body\"}"
 		]
 	}
 }
