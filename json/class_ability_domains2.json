@@ -584,7 +584,7 @@
 			"",
 			"::ab[Resistant Touch (Sp)]{id=touch icon=protect standard=\"You can touch an ally to grant him your resistance bonus for 1 minute. When you use this ability, you lose your resistance bonus granted by the Protection domain for 1 minute.\" useMod3=Wis}",
 			"",
-			"::ab[Aura of Protection (Su)]{id=protect l=8 icon=protect standard=\"You can emit a 30-foot aura of protection. You and your allies within this aura gain a +1 deflection bonus to AC and ‹umr/resistance› 5 against all elements (acid, cold, electricity, fire, and sonic).\" useL=cleric useNC repeat=\"The deflection bonus~8~4~2\" imp14=\"The elemental resistance increases to 10.\"}",
+			"::ab[Aura of Protection (Su)]{id=protect l=8 icon=protect standard=\"You can emit a 30-foot aura of protection. You and your allies within this aura gain a +1 deflection bonus to AC and ‹umr/resistance› 5 against all elements (acid, cold, electricity, fire, and sonic).\" useL=cleric useNC repeat=\"The deflection bonus~8~4\" imp14=\"The elemental resistance increases to 10.\"}",
 			"",
 			"::spelllist[Domain Spells]{all=\"sanctuary~shield other~protection from energy~spell immunity~spell resistance~antimagic field~repulsion~mind blank~prismatic sphere\" save=domain}",
 			"",

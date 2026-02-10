@@ -18,7 +18,7 @@
 			"",
 			":::",
 			"",
-			"::ab[Bombs Away (Ex)]{l=2 icon=ranged passive=\"An aerochemist becomes an expert at attacking from above. He gains a +1 bonus on attack rolls made with thrown weapons against targets that are at least 10 feet below him.\" repeat=\"This bonus~2~4~2\" replace=\"Poison use~swift alchemy.\"}",
+			"::ab[Bombs Away (Ex)]{l=2 icon=ranged passive=\"An aerochemist becomes an expert at attacking from above. He gains a +1 bonus on attack rolls made with thrown weapons against targets that are at least 10 feet below him.\" repeat=\"This bonus~2~4\" replace=\"Poison use~swift alchemy.\"}",
 			"",
 			"::ab[Aerodynamic Prowess (Su)]{l=2 icon=boost passive=\"An aerochemist gains a +2 bonus on Fly checks.\" imp5=\"This bonus increases to +4.\" imp8=\"This bonus increases to +6.\" replace=\"Poison resistance\"}"
 		]

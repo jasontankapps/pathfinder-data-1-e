@@ -559,9 +559,9 @@ export const makeAbilityBlock = ({
 		const imps = [imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20];
 		if(repeat || repeatPlain || repeatAt) {
 			// msg, lev start, lev inc, b start, b inc
-			//      repeat "(p!)?This bonus~Ls~Li~Bs~Bi?"
+			//      repeat "(p!)?This bonus~Ls~Li~Bs?~Bi?"
 			//    repeatAt "(p!)?This bonus~L1~L2~L3...~Bs/Bi?"
-			// repeatPlain "(p!)?This amount~Ls~Li~Bs~Bi?"
+			// repeatPlain "(p!)?This amount~Ls~Li~Bs?~Bi?"
 			//   OR repeatPlain can be used as a flag with `repeat`
 			const [message, ...etc] = (repeat || repeatPlain || repeatAt).split(/~/);
 			let plural = false;
@@ -577,11 +577,11 @@ export const makeAbilityBlock = ({
 			let bonus = 0;
 			let inc = 0;
 			if(repeat || repeatPlain) {
-				if(etc.length < 3) {
+				if(etc.length < 2) {
 					logError(`Invalid length of \`repeat\` attribute.`);
-					etc.push("1", "1", "1");
+					etc.push("1", "1", "1"); // pad it out
 				}
-				const [start, add, bb, bi = 1] = etc.map((e, i) => {
+				const [start, add, bb = 2, bi = 1] = etc.map((e, i) => {
 					const n = Math.floor(Number(e));
 					if(!n && i) {
 						// `start` can be 0
@@ -605,11 +605,12 @@ export const makeAbilityBlock = ({
 					level += add;
 				}
 			} else {
+				//repeatAt
 				const bonuses = (etc.pop() || "").split(/[/]/);
 				const [bb, bi = 1] = bonuses.map(b => {
 					const n = Math.floor(Number(b));
 					if(!n) {
-						logError(`Invalid value [${b}] in \`repeat\` attribute.`);
+						logError(`Invalid value [${b}] at end of \`repeatAt\` attribute.`);
 						return 1;
 					}
 					return n;

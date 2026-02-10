@@ -1131,7 +1131,7 @@
 			"",
 			":::",
 			"",
-			"::ab[Nimble (Ex)]{jl=strip l=2 icon=def passive=\"You gain a +1 dodge bonus to AC while wearing light or no armor. Anything that causes you to lose your Dexterity bonus to AC also causes you to lose this dodge bonus.\" repeat=\"The dodge bonus~2~4~2\"}",
+			"::ab[Nimble (Ex)]{jl=strip l=2 icon=def passive=\"You gain a +1 dodge bonus to AC while wearing light or no armor. Anything that causes you to lose your Dexterity bonus to AC also causes you to lose this dodge bonus.\" repeat=\"The dodge bonus~2~4\"}",
 			"",
 			"::ab[Bonus Feats]{jl=strip l=4 icon=power ability=\"You gain a bonus feat in addition to those gained by normal advancement. These bonus feats must be ‹main/combat<_feat› or ‹main/feats_>grit› feats.\" imp8=\"You gain another bonus combat or grit feat.\" imp12=\"You gain another bonus combat or grit feat.\" imp16=\"You gain another bonus combat or grit feat.\" imp20=\"You gain another bonus combat or grit feat.\"}",
 			"",
