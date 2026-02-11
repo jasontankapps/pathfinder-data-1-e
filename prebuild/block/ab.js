@@ -566,8 +566,8 @@ export const makeAbilityBlock = ({
 			//      repeat "(p!)?This bonus~Ls~Li~Bs?~Bi?"
 			//    repeatAt "(p!)?This bonus~L1~L2~L3...~Bs/Bi?"
 			// repeatPlain "(p!)?This amount~Ls~Li~Bs?~Bi?"
-			//   OR repeatPlain can be used as a flag with `repeat`
-			const [message, ...etc] = (repeat || repeatPlain || repeatAt).split(/~/);
+			//   OR repeatPlain can be used as a flag with `repeat` OR `repeatAt`
+			const [message, ...etc] = (repeatAt || repeat || repeatPlain).split(/~/);
 			let plural = false;
 			const msg = (() => {
 				if(message.startsWith("p!")) {
@@ -580,7 +580,28 @@ export const makeAbilityBlock = ({
 			const ats = [];
 			let bonus = 0;
 			let inc = 0;
-			if(repeat || repeatPlain) {
+			if(repeatAt) {
+				const bonuses = (etc.pop() || "").split(/[/]/);
+				const [bb, bi = 1] = bonuses.map(b => {
+					const n = Math.floor(Number(b));
+					if(!n) {
+						logError(`Invalid value [${b}] at end of \`repeatAt\` attribute.`);
+						return 1;
+					}
+					return n;
+				});
+				bonus = bb;
+				inc = bi;
+				ats.push(...etc.map(e => {
+					const n = Math.floor(Number(e));
+					if(!n || n < 0 || n > 20) {
+						logError(`Invalid value [${e}] in \`repeatAt\` attribute.`);
+						return 0;
+					}
+					return n;
+				}).filter(n => n));
+			} else {
+				//repeat || repeatPlain
 				if(etc.length < 2) {
 					logError(`Invalid length of \`repeat\` attribute.`);
 					etc.push("1", "1", "1"); // pad it out
@@ -608,27 +629,6 @@ export const makeAbilityBlock = ({
 					ats.push(level);
 					level += add;
 				}
-			} else {
-				//repeatAt
-				const bonuses = (etc.pop() || "").split(/[/]/);
-				const [bb, bi = 1] = bonuses.map(b => {
-					const n = Math.floor(Number(b));
-					if(!n) {
-						logError(`Invalid value [${b}] at end of \`repeatAt\` attribute.`);
-						return 1;
-					}
-					return n;
-				});
-				bonus = bb;
-				inc = bi;
-				ats.push(...etc.map(e => {
-					const n = Math.floor(Number(e));
-					if(!n || n < 0 || n > 20) {
-						logError(`Invalid value [${e}] in \`repeatAt\` attribute.`);
-						return 0;
-					}
-					return n;
-				}).filter(n => n));
 			}
 			ats.sort((a,b) => (a - b));
 			let last = 0;
