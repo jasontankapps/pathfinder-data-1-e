@@ -42,16 +42,16 @@ const mash = (previous, input) => {
 
 let $swap = "";
 let $swaps = "";
-const swap = ({plural, decreasing, descriptor}) => {
+const swap = ({plural, descriptor}) => {
 	if(descriptor) {
 		const next = descriptor.shift();
 		descriptor.push(next);
 		return next;
 	} else if(plural) {
-		$swaps = ($swaps === "become") ? `${decreasing ? "de" : "in"}crease to` : "become";
+		$swaps = ($swaps === "become") ? "increase to" : "become";
 		return $swaps;
 	}
-	$swap = ($swap === "becomes") ? `${decreasing ? "de" : "in"}creases to` : "becomes";
+	$swap = ($swap === "becomes") ? "increases to" : "becomes";
 	return $swap;
 };
 
@@ -632,7 +632,6 @@ export const makeAbilityBlock = ({
 			}
 			ats.sort((a,b) => (a - b));
 			let last = 0;
-			const decreasing = inc < 0;
 			const descriptor = repeatDesc && repeatDesc.split(/~/);
 			while(ats.length > 0) {
 				const next = ats.shift();
@@ -641,7 +640,7 @@ export const makeAbilityBlock = ({
 				} else {
 					const i = next - 1;
 					const b = (repeatPlain || (bonus <= 0)) ? bonus : "+" + bonus;
-					imps[i] = mash(imps[i], `${msg} ${swap({plural, decreasing, descriptor})} ${b}${end}`);
+					imps[i] = mash(imps[i], `${msg} ${swap({plural, descriptor})} ${b}${end}`);
 					last = next;
 					bonus += inc;
 				}

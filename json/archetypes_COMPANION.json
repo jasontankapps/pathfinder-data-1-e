@@ -40,7 +40,7 @@
 			"",
 			"All manifestations grant a boon in combat to the animal companion but a disadvantage to the master. An animal companion's accursed manifestation can be activated in one of two ways: the companion's master can deliberately trigger a manifestation by making a successful DC 20 Handle Animal or ‹ability/wild empathy› check as a move action, or the manifestation can take place when a specific trigger occurs, as detailed in each manifestation's entry.",
 			"",
-			"When an accursed companion manifests its condition, the companion's master can resist or mitigate the debilitating side effect with a successful Will save (DC = 10 + 1/2 the accursed companion's HD + the accursed companion's Wisdom modifier [minimum +0]). However, manifestations that are constant (such as *festering flesh* or *unsavory friends*) have an equally constant effect on the companion's master, and these effects cannot be mitigated or resisted in any way. An accursed companion can only be affected by a manifestation once per hour unless the manifestation is constant. All side effects on an accursed companion's master are mind-affecting effects.",
+			"When an accursed companion manifests its condition, the companion's master can resist or mitigate the debilitating side effect with a successful Will save (DC = 10 + ‹misc/half› the accursed companion's HD + the accursed companion's Wisdom modifier [minimum +0]). However, manifestations that are constant (such as *festering flesh* or *unsavory friends*) have an equally constant effect on the companion's master, and these effects cannot be mitigated or resisted in any way. An accursed companion can only be affected by a manifestation once per hour unless the manifestation is constant. All side effects on an accursed companion's master are mind-affecting effects.",
 			"",
 			"::ab[Bestial Flashes (Su)]{icon=melee-down passive=\"The companion is haunted by the previous companion's fear and pain during its death. This manifestation is triggered automatically whenever the accursed companion takes damage from a single blow in excess of half its current hit points. When an accursed companion suffers bestial flashes, it gains a +2 morale bonus on all attack rolls and damage rolls made on natural attacks, and gains a +4 morale bonus on rolls to confirm critical hits.\" special=\"Once triggered, a bestial flash lasts for 1 minute. When a bestial flash occurs, the mind of the companion's master is overwhelmed with images of feral savagery. She becomes ‹misc/confused› for 1d4 rounds and is then ‹misc/sickened› for the remainder of the minute that the bestial flash persists. On a successful Will save, the master is instead sickened for only 1d4 rounds.\"}",
 			"",
@@ -82,7 +82,7 @@
 			"‹SOURCE Wilderness Origins/20›  ",
 			"Some animals have no serious competitors and no real predators. They are masters of their habitats, perfectly evolved to take advantage of their native terrain. They need not be predators, of course - some herbivores are just as lethally suited to their homes.",
 			"",
-			"::ab[Native Environment (Ex)]{icon=power-boost choice=\"An apex species selects a specific terrain type from the ranger's list of ‹ability/favored terrain«s›.\" order=cp passive=\"While in its chosen terrain, the apex species gains a bonus equal to half its level on checks and saves to deal with environmental hazards. An apex species may not select a plane as its native environment.\" replace=\"Share Spells\"}",
+			"::ab[Native Environment (Ex)]{icon=power-boost choice=\"An apex species selects a specific terrain type from the ranger's list of ‹ability/favored terrain«s›.\" order=cp passive=\"While in its chosen terrain, the apex species gains a bonus equal to ‹misc/half› its level on checks and saves to deal with environmental hazards. An apex species may not select a plane as its native environment.\" replace=\"Share Spells\"}",
 			"",
 			"::ab[Favored Terrain (Ex)]{l=3 icon=boost passive=\"The apex species gains the ranger's ‹ability/favored terrain› ability for the terrain that matches its native environment, except that the bonus is +1 instead of the ranger's +2.\" repeat=\"The bonus~3~5\" special=\"The animal companion does not gain additional favored terrains.\" replace=Evasion}",
 			"",
@@ -136,7 +136,7 @@
 			"",
 			"::ab[Not Quite Animal]{icon=def passive=\"The DC to use Handle Animal on an augmented companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.\"}",
 			"",
-			"::ab[Augmented Body (Ex)]{icon=down passive=\"An augmented companion heals only half as much as normal from positive energy healing effects but also heals half the usual amount from effects that specifically heal constructs.\"}",
+			"::ab[Augmented Body (Ex)]{icon=down passive=\"An augmented companion heals only ‹misc/half› as much as normal from positive energy healing effects but also heals half the usual amount from effects that specifically heal constructs.\"}",
 			"",
 			"::ab[Augmented Sight (Ex)]{icon=power passive=\"An augmented companion gains low-light vision and darkvision to a range of 60 feet.\" replace=\"Share Spells\"}",
 			"",
@@ -209,7 +209,7 @@
 			"",
 			"::ab[Animal Skills]{icon=skill passive=\"Chargers treat Intimidate as a class skill.\"}",
 			"",
-			"::ab[Mounted Challenge (Ex)]{icon=boost passive=\"When ridden by a ‹class/cavalier›, chargers gain half of the bonuses and penalties granted by the cavalier's challenge class feature.\" replace=\"Share Spells\"}",
+			"::ab[Mounted Challenge (Ex)]{icon=boost passive=\"When ridden by a ‹class/cavalier›, chargers gain ‹misc/half› of the bonuses and penalties granted by the cavalier's challenge class feature.\" replace=\"Share Spells\"}",
 			"",
 			"::ab[Barding Training (Ex)]{l=3 icon=boost passive=\"A charger's armor check penalty for wearing barding or for ‹rule/carrying «a medium load<capacity› is reduced by 1 and the maximum Dexterity bonus for its armor and load increases by 1. In addition, the charger's speed does not decrease when wearing medium armor or carrying a medium load.\" imp9=\"The armor check penalty is now reduced by 2, and the maximum Dex bonus now increases by 2. In addition, a charger can move at normal speed in heavy armor or while carrying a heavy load.\" imp15=\"The armor check penalty is now reduced by 3, and the maximum Dex bonus now increases by 3.\" replace=Evasion~Multiattack}",
 			"",
@@ -227,7 +227,7 @@
 			"‹SOURCE Ultimate Wilderness/187›  ",
 			"Daredevil companions join the fray with graceful leaps or swooping dives, heedless of the danger.",
 			"",
-			"::ab[Artful Acrobat (Ex)]{icon=boost passive=\"A daredevil gains a competence bonus on Acrobatics checks equal to half its Hit Dice.\" replace=\"Share Spells\"}",
+			"::ab[Artful Acrobat (Ex)]{icon=boost passive=\"A daredevil gains a competence bonus on Acrobatics checks equal to ‹misc/half› its Hit Dice.\" replace=\"Share Spells\"}",
 			"",
 			"::ab[Uncanny Dodge (Ex)]{l=6 icon=power ability=\"A daredevil gains ‹feat/Mobility› as a bonus feat without needing to meet the prerequisites. If it already has Mobility, it gains ‹feat/Spring Attack› instead.\" replace=Devotion}",
 			"",
@@ -251,7 +251,7 @@
 			"",
 			"::ab[Negative Energy Affinity (Ex)]{icon=down passive=\"Though a living creature, a deathtouched companion reacts to positive and negative energy as if it were undead - positive energy harms it, while negative energy heals it.\"}",
 			"",
-			"::ab[One Foot in the Grave (Ex)]{l=6 icon=def passive=\"A deathtouched companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or undead, and it takes only half damage from bleed effects. However, it can be affected by attacks that specifically target undead, such as ‹spell/halt undead›.\" replace=Devotion}"
+			"::ab[One Foot in the Grave (Ex)]{l=6 icon=def passive=\"A deathtouched companion gains a +4 morale bonus on Fortitude saves against effects that could not normally affect objects or undead, and it takes only ‹misc/half› damage from bleed effects. However, it can be affected by attacks that specifically target undead, such as ‹spell/halt undead›.\" replace=Devotion}"
 		]
 	},
 	"draconic_companion": {
@@ -273,7 +273,7 @@
 			"",
 			"::ab[Improved Draconic Resistance (Ex)]{l=6 icon=def passive=\"A draconic companion becomes immune to paralysis and sleep, and its energy resistance increases to 10.\" imp15=\"Its energy resistance increases to 20.\" replace=Devotion}",
 			"",
-			"::ab[Breath Weapon (Ex)]{l=9 icon=cone-line usage=\"Once a day.\" ability=\"A draconic companion gains a breath weapon that deals 1d6 points of damage per Hit Dice of the energy type matching its draconic resistance in either a 30-foot cone or a 60-foot line (chosen when the draconic companion gains this ability).\" imp15=\"It can use the breath weapon three times per day, but it must wait 1d4 rounds between uses.\" special=\"Targets of this breath weapon can attempt a Reflex save (DC = 10 + half the draconic companion's Hit Dice + the draconic companion's Constitution modifier) for half damage.\" replace=\"Multiattack~Improved Evasion\"}"
+			"::ab[Breath Weapon (Ex)]{l=9 icon=cone-line usage=\"Once a day.\" ability=\"A draconic companion gains a breath weapon that deals 1d6 points of damage per Hit Dice of the energy type matching its draconic resistance in either a 30-foot cone or a 60-foot line (chosen when the draconic companion gains this ability).\" imp15=\"It can use the breath weapon three times per day, but it must wait 1d4 rounds between uses.\" special=\"Targets of this breath weapon can attempt a Reflex save (DC = 10 + ‹misc/half› the draconic companion's Hit Dice + the draconic companion's Constitution modifier) for half damage.\" replace=\"Multiattack~Improved Evasion\"}"
 		]
 	},
 	"elemental_companion": {
@@ -381,7 +381,7 @@
 			"",
 			"::ab[Tracker Skills]{icon=boost passive=\"Trackers treat Survival as a class skill.\"}",
 			"",
-			"::ab[Expert Tracker (Ex)]{icon=boost passive=\"A tracker gains a competence bonus on Survival checks to track via scent equal to half its total Hit Dice.\" imp6=\"It can move at its normal speed while using Survival to follow tracks without taking the normal -5 penalty. It takes only a -10 penalty (instead of the normal -20 penalty) when moving at up to twice its normal speed while tracking.\" replace=\"Share Spells~Devotion\"}"
+			"::ab[Expert Tracker (Ex)]{icon=boost passive=\"A tracker gains a competence bonus on Survival checks to track via scent equal to ‹misc/half› its total Hit Dice.\" imp6=\"It can move at its normal speed while using Survival to follow tracks without taking the normal -5 penalty. It takes only a -10 penalty (instead of the normal -20 penalty) when moving at up to twice its normal speed while tracking.\" replace=\"Share Spells~Devotion\"}"
 		]
 	},
 	"unexpected_intellectual": {

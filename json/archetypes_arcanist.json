@@ -24,7 +24,7 @@
 			"‹SOURCE Construct Handbook/10›  ",
 			"All constructs are animated by magic in some capacity. Arcane tinkerers use their knowledge and understanding of magic to disrupt or even destroy constructs.",
 			"",
-			"::ab[Manipulate Construct (Su)]{icon=lower flavor=\"An arcane tinkerer can turn the animating magic of a construct against itself.\" standard=\"She can expend 1 point from her arcane reservoir to impose a -1 penalty on a single construct's attack and damage rolls for 1 round. The target can attempt a Will save to negate this effect (DC = 10 + half the arcane tinkerer's level + the arcane tinkerer's Charisma modifier).\" imp7=\"Instead of gaining an arcanist exploit, an arcane tinkerer can improve her *manipulate construct* ability to instead affect a construct with ‹spell/slow› for 1 round.\" imp13=\"If the arcane tinkerer has previously improved this ability, instead of gaining an arcanist exploit, she can improve this ability again to instead cause a construct to become ‹misc/helpless› for 1 round.\" replace=\"The arcanist exploit gained at 1st level\"}",
+			"::ab[Manipulate Construct (Su)]{icon=lower flavor=\"An arcane tinkerer can turn the animating magic of a construct against itself.\" standard=\"She can expend 1 point from her arcane reservoir to impose a -1 penalty on a single construct's attack and damage rolls for 1 round. The target can attempt a Will save to negate this effect (DC = 10 + ‹misc/half› the arcane tinkerer's level + the arcane tinkerer's Charisma modifier).\" imp7=\"Instead of gaining an arcanist exploit, an arcane tinkerer can improve her *manipulate construct* ability to instead affect a construct with ‹spell/slow› for 1 round.\" imp13=\"If the arcane tinkerer has previously improved this ability, instead of gaining an arcanist exploit, she can improve this ability again to instead cause a construct to become ‹misc/helpless› for 1 round.\" replace=\"The arcanist exploit gained at 1st level\"}",
 			"",
 			"::ab[Break Magic Immunity (Su)]{icon=magic l5=\"An arcane tinkerer can overcome a construct's immunity to magic. When targeting a construct with a spell, the construct is instead treated as if it has spell resistance equal to 15 + the construct's CR.\" l11=\"A construct is instead treated as if it has spell resistance equal to 11 + the construct's CR.\" replace=\"The arcanist exploits gained at 5th and 11th level\"}"
 		]
@@ -100,7 +100,7 @@
 			"",
 			"::ab[Greater Surge (Su)]{l=13 icon=roll-lower ability=\"An eldritch font can use her *eldritch surge* ability to force a creature to reroll a saving throw against one spell or arcanist exploit and take the lower value. The eldritch font must declare the use of this ability before the result of that creature's saving throw is revealed. If the spell or arcanist exploit affects more than one target, only one target is affected by this ability.\" replace=\"The arcanist exploit gained at 13th level\"}",
 			"",
-			"::ab[Bottomless Well]{l=20 icon=magic ability=\"An eldritch font can spend 1 hour studying her spellbook to refuel herself. Doing so allows her to prepare new spells and regain points of arcane reservoir equal to 1/2 her level. She can use this ability multiple times per day, however she still only regains spell slots once per day.\" replace=\"Magical supremacy\"}"
+			"::ab[Bottomless Well]{l=20 icon=magic ability=\"An eldritch font can spend 1 hour studying her spellbook to refuel herself. Doing so allows her to prepare new spells and regain points of arcane reservoir equal to ‹misc/half› her level. She can use this ability multiple times per day, however she still only regains spell slots once per day.\" replace=\"Magical supremacy\"}"
 		]
 	},
 	"elemental_master": {
@@ -162,7 +162,7 @@
 			"",
 			"A creature cannot have more than one trump card in effect at one time; drawing a new trump card for a target negates the effect of the previous trump card.",
 			"",
-			"A Harrow Society student can attempt to read the fate of an enemy within 30 feet, resulting in a penalty for that target equal to the bonus granted above, but the target is entitled to a Will save (DC = 10 + 1/2 the Harrowed Society student's arcanist level + her Charisma modifier) to negate the effect. This is considered a curse effect.",
+			"A Harrow Society student can attempt to read the fate of an enemy within 30 feet, resulting in a penalty for that target equal to the bonus granted above, but the target is entitled to a Will save (DC = 10 + ‹misc/half› the Harrowed Society student's arcanist level + her Charisma modifier) to negate the effect. This is considered a curse effect.",
 			"",
 			"A Harrow Society student can have trump cards in effect for multiple creatures at the same time.",
 			"",
@@ -189,7 +189,7 @@
 			"",
 			"::ab[Aura of Good (Ex)]{icon=aura passive=\"A Magaambyan arcanist radiates an aura of good as if she were a ‹class/cleric› of a level equal to her class level (see the ‹spell/detect good› spell).\"}",
 			"",
-			"::ab[Halcyon Spell Lore (Su)]{icon=learn flavor=\"A Magaambyan initiate's studies of the philanthropic teachings of Old-Mage Jatembe allow her to cast a limited number of spells per day beyond those she could normally prepare ahead of time.\" ability=\"At each class level, she chooses one spell from the druid spell list or one spell with the good descriptor from the cleric spell list. The spell must be of a spell level that she can cast, and cannot be a spell that already appears on her arcanist spell list. A Magaambyan initiate can cast a spell that she has chosen with this ability as if it were on her spell list and prepared by expending a number of points from her *arcane reservoir* equal to half the spell's level (minimum 1) and expending a spell slot of the spell's level.\" special=\"At 4th level and every 2 levels thereafter, a Magaambyan initiate can choose to lose a spell that she has chosen with this ability in exchange for a new spell of the same spell level that meets the same requirements.\" replace=\"The arcanist exploits gained at 1st, 9th, and 17th levels\"}",
+			"::ab[Halcyon Spell Lore (Su)]{icon=learn flavor=\"A Magaambyan initiate's studies of the philanthropic teachings of Old-Mage Jatembe allow her to cast a limited number of spells per day beyond those she could normally prepare ahead of time.\" ability=\"At each class level, she chooses one spell from the druid spell list or one spell with the good descriptor from the cleric spell list. The spell must be of a spell level that she can cast, and cannot be a spell that already appears on her arcanist spell list. A Magaambyan initiate can cast a spell that she has chosen with this ability as if it were on her spell list and prepared by expending a number of points from her *arcane reservoir* equal to ‹misc/half› the spell's level (minimum 1) and expending a spell slot of the spell's level.\" special=\"At 4th level and every 2 levels thereafter, a Magaambyan initiate can choose to lose a spell that she has chosen with this ability in exchange for a new spell of the same spell level that meets the same requirements.\" replace=\"The arcanist exploits gained at 1st, 9th, and 17th levels\"}",
 			"",
 			":::ab{l=5 title=\"Spell Mastery\" icon=power action=Ability special=\"The Magaambyan initiate can also select Spell Mastery as a feat gained from character advancement, allowing her to select the feat multiple times.\" replace=\"The arcanist exploit gained at 5th level\"}",
 			"",
@@ -263,7 +263,7 @@
 			"‹SOURCE Advanced Class Origins/6›  ",
 			"The twilight sages of Geb carry out experiments to solve the ultimate puzzle and unlock the secrets of life and death. While the twilight sages generally aren't actively malicious, most are willing to perform human experimentation in pursuit of knowledge with little regard for the casualties.",
 			"",
-			"::ab[Consume Life (Su)]{icon=magic flavor=\"By wresting a soul from life to death, a twilight sage gains a slightly deeper understanding of mortality, fueling her curiosity and eldritch power.\" fullround=\"She can consume the life energy of a helpless living creature, killing it. This creature must have 2 or more Hit Dice and be below 0 hit points. The twilight sage adds 2 points to her *arcane reservoir* if the creature's Hit Dice equaled or exceeded the sage's character level, or 1 point if the creature's Hit Dice equaled at least 1/2 her character level. This ability is a death effect.\" replace=\"Consume spells\"}",
+			"::ab[Consume Life (Su)]{icon=magic flavor=\"By wresting a soul from life to death, a twilight sage gains a slightly deeper understanding of mortality, fueling her curiosity and eldritch power.\" fullround=\"She can consume the life energy of a helpless living creature, killing it. This creature must have 2 or more Hit Dice and be below 0 hit points. The twilight sage adds 2 points to her *arcane reservoir* if the creature's Hit Dice equaled or exceeded the sage's character level, or 1 point if the creature's Hit Dice equaled at least ‹misc/half› her character level. This ability is a death effect.\" replace=\"Consume spells\"}",
 			"",
 			"::ab[Necromantic Focus (Ex)]{icon=magic note=\"Twilight sages consider their research into life and death to be paramount, beyond all other concerns. Each day, a twilight sage must prepare at least one necromancy spell of each spell level she can cast.\"}",
 			"",
@@ -301,7 +301,7 @@
 			"",
 			"::ab[Greater Exploit]{icon=power head note=\"A white mage can select the following greater exploit.\"}",
 			"",
-			"::ab[Fast Healing (Su)]{next prereq=\"11th-level arcanist\" icon=aid ability=\"A white mage can spend 1 point from her arcane reservoir and expend a spell slot of at least 2nd level to grant her allies the *fast healing* ability. Allies within 30 feet gain ‹umr/fast healing› equal to 1/2 the level of the spell slot sacrificed. This effect lasts for a number of rounds equal to the arcanist's Charisma modifier (minimum 1).\"}"
+			"::ab[Fast Healing (Su)]{next prereq=\"11th-level arcanist\" icon=aid ability=\"A white mage can spend 1 point from her arcane reservoir and expend a spell slot of at least 2nd level to grant her allies the *fast healing* ability. Allies within 30 feet gain ‹umr/fast healing› equal to ‹misc/half› the level of the spell slot sacrificed. This effect lasts for a number of rounds equal to the arcanist's Charisma modifier (minimum 1).\"}"
 		]
 	}
 }

@@ -2347,6 +2347,8 @@
 			"skill_descriptions"
 		]
 	},
+	"take_10": { "redirect": "taking_10_and_taking_20" },
+	"take_20": { "redirect": "taking_10_and_taking_20" },
 	"aid_another": {
 		"name": "Aid Another",
 		"sources": [ "PRPG Core Rulebook" ],

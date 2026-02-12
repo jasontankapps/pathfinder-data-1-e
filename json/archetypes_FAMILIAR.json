@@ -239,7 +239,7 @@
 			"",
 			"::ab[See the Unseen (Ex)]{icon=power passive=\"While an occult messenger is within arm's reach, the master gains the ‹feat/Psychic Sensitivity› feat.\" replace=Alertness}",
 			"",
-			"::ab[Teacher from Afar (Ex)]{icon=boost passive=\"When the occult messenger's master uses a ‹rule/occult>psychic» skill unlock<s› while the occult messenger is within arm's reach, the master gains a competence bonus on skill unlocks equal to half the occult messenger's level.\" replace=\"Deliver touch spells\"}"
+			"::ab[Teacher from Afar (Ex)]{icon=boost passive=\"When the occult messenger's master uses a ‹rule/occult>psychic» skill unlock<s› while the occult messenger is within arm's reach, the master gains a competence bonus on skill unlocks equal to ‹misc/half› the occult messenger's level.\" replace=\"Deliver touch spells\"}"
 		]
 	},
 	"parasite": {
@@ -282,7 +282,7 @@
 			"",
 			"::ab[Nondetection (Su)]{icon=def passive=\"A pilferer is under the constant effect of ‹spell/nondetection› with a caster level equal to its master's class level. The DC of the caster level check to penetrate this nondetection effect is equal to 15 + the master's caster level.\" replace=\"Improved evasion\"}",
 			"",
-			"::ab[Sneak (Ex)]{l=3 icon=boost passive=\"A pilferer gains a competence bonus equal to half its master's class level on Sleight of Hand and Stealth checks.\" replace=\"Deliver touch spells\"}",
+			"::ab[Sneak (Ex)]{l=3 icon=boost passive=\"A pilferer gains a competence bonus equal to ‹misc/half› its master's class level on Sleight of Hand and Stealth checks.\" replace=\"Deliver touch spells\"}",
 			"",
 			"::ab[Greater Steal (Ex)]{l=9 icon=power passive=\"A pilferer gains ‹feat/Greater Steal› as a bonus feat.\" replace=\"Speak with animals of its kind\"}"
 		]
@@ -304,7 +304,7 @@
 			"",
 			"::ab[Magical Pranks (Sp)]{icon=magic standard=\"A prankster can cast ‹spell/ghost sound›, ‹spell/mage hand›, and ‹spell/prestidigitation› at will as spell-like abilities.\" replace=\"Improved evasion~share spells\"}",
 			"",
-			"::ab[Glib Comedy (Ex)]{icon=boost l=3 passive=\"A prankster gains a competence bonus equal to half its master's class level on Bluff, Disguise, and Perform (comedy) checks.\" replace=\"Deliver touch spells\"}",
+			"::ab[Glib Comedy (Ex)]{icon=boost l=3 passive=\"A prankster gains a competence bonus equal to ‹misc/half› its master's class level on Bluff, Disguise, and Perform (comedy) checks.\" replace=\"Deliver touch spells\"}",
 			"",
 			"::ab[Greater Dirty Trick (Ex)]{l=11 icon=power passive=\"A prankster gains ‹feat/Greater Dirty Trick› as a bonus feat.\" replace=\"Spell resistance\"}",
 			"",
@@ -344,7 +344,7 @@
 			"",
 			"::ab[Sage Skills]{icon=skill passive=\"A sage treats all Knowledge skills as class skills.\"}",
 			"",
-			"::ab[Dazzling Intellect (Ex)]{icon=boost-down passive=\"A sage's Intelligence score is always equal to 5 + its master's class level, but it gains natural armor increases as if its master's class level were half what of the actual class level.\" alter=\"The familiar's Intelligence score and natural armor adjustment\"}",
+			"::ab[Dazzling Intellect (Ex)]{icon=boost-down passive=\"A sage's Intelligence score is always equal to 5 + its master's class level, but it gains natural armor increases as if its master's class level were ‹misc/half› what of the actual class level.\" alter=\"The familiar's Intelligence score and natural armor adjustment\"}",
 			"",
 			"::ab[Sage's Knowledge (Ex)]{icon=power-boost passive=\"A sage stores information on every topic and is happy to lecture its master on the finer points of a subject. A sage can attempt all Knowledge checks untrained and gains a bonus on Knowledge checks equal to half its master's class level. Additionally, a sage gains 2 skill ranks each time its master gains a class level. Its maximum number of ranks in any given skill is equal to its master's class level.\" replace=\"Alertness~the familiar's ability to share its master's skill ranks\"}"
 		]
@@ -374,7 +374,7 @@
 			"",
 			"An abjurer's familiar is an invaluable defensive aid.",
 			"",
-			"::ab[Energy Block (Su)]{icon=def-protect passive=\"The familiar is immune to ‹spell/magic missile› as if protected by ‹spell/shield›. Choose an energy type: acid, cold, electricity, fire, or sonic. The familiar gains energy resistance equal to 1/2 its master's level (minimum 1) to the chosen energy type and can share this resistance with one ally within 5 feet.\" order=ps standard=\"The familiar's master can change this energy type. \" type=\"Lesser Power\"}",
+			"::ab[Energy Block (Su)]{icon=def-protect passive=\"The familiar is immune to ‹spell/magic missile› as if protected by ‹spell/shield›. Choose an energy type: acid, cold, electricity, fire, or sonic. The familiar gains energy resistance equal to ‹misc/half› its master's level (minimum 1) to the chosen energy type and can share this resistance with one ally within 5 feet.\" order=ps standard=\"The familiar's master can change this energy type. \" type=\"Lesser Power\"}",
 			"",
 			"::ab[Disruptive Spirit (Su)]{icon=melee passive=\"Whenever the familiar hits a creature with a natural attack, that creature is subject to a targeted ‹spell/dispel magic› effect at the master's caster level. This ability can't be used while delivering a touch spell, and can't affect the same creature more than once in 24 hours.\" type=\"Greater Power\"}",
 			"",
