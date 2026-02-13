@@ -138,7 +138,7 @@
 			"",
 			":::",
 			"",
-			"::ab[Psychic Reader (Ex)]{l=1 icon=power-skill passive=\"A Harrowed Society student gains ‹feat/Psychic Sensitivity› as a bonus feat and adds Diplomacy, Perception, and Sense Motive to her list of class skills.\" replace=\"The 1st-level arcanist exploit\"}",
+			"::ab[Psychic Reader (Ex)]{l=1 icon=power-skill passive=\"A Harrowed Society student gains ‹feat/Psychic Sensitivity› as a bonus feat and adds ‹skill/Diplomacy› (CHA), ‹skill/Perception› (WIS), and ‹skill/Sense Motive› (WIS) to her list of class skills.\" replace=\"The 1st-level arcanist exploit\"}",
 			"",
 			"::ab[Harrow Reservoir (Ex)]{l=1 icon=magic-boost ability=\"Once per day, a Harrowed Society student can perform a harrow reading as a 5-minute ritual. She decides which suit most closely aligns with her task at hand and deals a nine-card spread. Each time that suit appears in her spread, she adds 1 point to her arcane reservoir, to a maximum of 1 point per 2 arcanist levels. Points gained in excess of her reservoir's maximum are lost.\" imp8=\"This can be done twice a day.\" imp16=\"This can be done three times a day.\" replace=\"Consume spells\"}",
 			"",

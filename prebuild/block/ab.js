@@ -55,7 +55,7 @@ const swap = ({plural, descriptor}) => {
 	return $swap;
 };
 
-export const makeAbilityBlock = ({
+const makeAbilityBlock = ({
 	marked2,
 	prefix,
 	jlid,

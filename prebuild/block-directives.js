@@ -17,6 +17,7 @@ import makeListBlock from './block/list.js';
 import { makeClassBlock, makeProfBlock } from './block/class.js';
 import makeCapstoneBlock from './block/altCapstone.js';
 import makeRoomBlock from './block/room.js';
+import makeClassSkillsAbilityBlock from './block/cskill.js';
 
 const churn = (n, attrs, list, regex, logError) => {
 	const found = [];
@@ -403,6 +404,17 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					marked2, prefix, jlid, text,
 					convertEncodedInfo, maybeClear,
 					attrs, logError
+				});
+			} else if (n === "cskill") {
+				churn(n, attrs, [
+					"gain", "lose", "pre", "post", "preTitle", "postTitle"
+				], [], logError);
+				const marked2 = makeNewMarkedInstance();
+				return makeClassSkillsAbilityBlock({
+					marked2, prefix, text,
+					convertEncodedInfo,
+					maybeClear, attrs,
+					id: makeValidID(text || "Class Skills")
 				});
 			} else if (n === "spellAb") {
 				churn(n, attrs, [
