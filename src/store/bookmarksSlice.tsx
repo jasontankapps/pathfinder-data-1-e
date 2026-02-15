@@ -277,16 +277,28 @@ export const bookmarkSlice = createSlice({
 		},
 		importBookmarkGroups: (state, action: PayloadAction<[string, Omit<BookmarkGroup, "hidden">][]>) => {
 			const payload = action.payload;
-			const {order: incoming, db: oldDb, catalog} = state;
+			const {order: incoming, db: oldDb, catalog: oldCat} = state;
 			const db = {...oldDb};
 			const order = [...incoming];
+			const catalog = {...oldCat};
 			payload.forEach(input => {
 				const [id, group] = input;
-				db[id] || order.push(id);
+				const flag = db[id] ? true : false;
+				flag || order.push(id);
 				db[id] = {
 					...group,
 					hidden: false
-				}
+				};
+				group.contents.forEach(pair => {
+					const [link] = pair;
+					if(flag) {
+						const set = new Set(catalog[link] || []);
+						set.add(id);
+						catalog[link] = Array.from(set);
+					} else {
+						catalog[link] = [...(catalog[link] || []), id];
+					}
+				});
 			});
 			const newState = { order, db, catalog };
 			return newState;

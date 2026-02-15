@@ -323,6 +323,27 @@ const migrations = {
 			...unchangedState,
 			displayTable
 		};
+	},
+	19: (state: any) => {
+		const {bookmarks: bm, ...unchangedState} = state;
+		// Fix any imported bookmarks
+		const {order, db} = bm;
+		const catalog: Catalog = {};
+		order.forEach((id: string) => {
+			((db[id] || {}).contents || []).forEach((pair: [string, string]) => {
+				const [link] = pair;
+				catalog[link] = [...(catalog[link] || []), id];
+			});
+		});
+		const bookmarks: BookmarkState = {
+			order,
+			db,
+			catalog
+		};
+		return {
+			...unchangedState,
+			bookmarks
+		};
 	}
 };
 
@@ -340,7 +361,7 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<InitialAppState> = {
 	key: 'root-pf-data',
-	version: 18,
+	version: 19,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),
