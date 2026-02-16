@@ -1112,6 +1112,7 @@
 			":::"
 		]
 	},
+	"grit_feat": { "redirect": "feats_grit" },
 	"feats_panache": {
 		"title": "Feats - Panache",
 		"searchgroup": "feat",
