@@ -201,7 +201,7 @@ export const makeSpellAbilityBlock = ({
 			+ abPairPartClose
 			+ abPairEndOpen
 			+ `You gain the ability to cast ${type} spells which are drawn from the `
-			+ `<Link to="/main/spells_${caster}">${caster} spell list</Link>`
+			+ `<Link to="/main/spells_${caster.replace(/ /g, "_")}">${caster} spell list</Link>`
 			+ `${
 				occultist
 					? ", limited by the implement groups you know"

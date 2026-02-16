@@ -156,7 +156,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				}
 				return `${maybeClear}${output}info="${text}" />`;
 			} else if ((n.length === 2) && (("h2h3h4h5h6".indexOf(n) % 2) === 0)) {
-				churn(n, attrs, ["clear","jl","id","extra"], [], logError);
+				churn(n, attrs, ["clear","jl","id","extra","anchor"], [], logError);
 				if(attrs.jl) {
 					const id = prefix + (attrs.id || makeValidID(text));
 					addToJumpList(text, id, attrs.jl);
@@ -164,8 +164,11 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 						return `${maybeClear}<${n} id="${id}" data-hash-target>${text} ${attrs.extra}</${n}>\n`;
 					}
 					return `${maybeClear}<${n} id="${id}" data-hash-target>${text}</${n}>\n`;
+				} else if (attrs.anchor) {
+					const id = prefix + (attrs.id || makeValidID(text));
+					return `${maybeClear}<${n} id="${id}" data-hash-target>${text}</${n}>\n`;
 				}
-				return `${maybeClear}<${n}>${text}</${n}>`;
+				return `${maybeClear}<${n}>${text}</${n}>\n`;
 			} else if ((n.length === 3) && (("hl2hl3hl4hl5hl6".indexOf(n) % 3) === 0)) {
 				churn(n, attrs, ["clear","pre","post","jl","id"], [], logError);
 				const m = checkForEncodedLink(text, { bare: true });

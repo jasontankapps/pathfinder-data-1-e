@@ -1802,7 +1802,7 @@
 			"",
 			"::ab[Wild Shape (Su)]{l=4 icon=down-boost ability=\"A treesinger gains the ability to *wild shape.* This ability functions at her actual druid level. A treesinger cannot use *wild shape* to adopt an animal or elemental form. Instead, she can assume the form of a Small or Medium plant. This functions as ‹spell/plant shape I›, except the treesinger does not yet gain access to the constrict or poison abilities of the plant form assumed.\" imp8=\"The treesinger's *wild shape* gains the full range of abilities available from plant shape I.\" imp10=\"A treesinger can assume the form of a Large or Tiny plant. Her *wild shape* ability now functions like ‹spell/plant shape II›.\" imp12=\"A treesinger can assume the form of a Huge plant. Her *wild shape* ability now functions like ‹spell/plant shape III›.\" special=\"This ability otherwise functions like the normal druid *wild shape* ability.\" replace=\"Wild shape\"}",
 			"",
-			"### Plant Companions",
+			"::h3[Plant Companions]{anchor}",
 			"",
 			"Each plant companion has different starting sizes, speed, attacks, ability scores, and special qualities. All plant attacks are made using the creature's full base attack bonus unless otherwise noted. Plant attacks add the plant's Strength modifier on the damage roll, unless it has only one attack, in which case it adds 1-1/2 times its Strength modifier. Some plant companions have special abilities, such as ‹umr/scent›. Plant companions cannot gain armor or weapon proficiency feats, even as they advance in hit dice, and cannot use manufactured weapons at all unless their description says otherwise.",
 			"",

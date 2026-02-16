@@ -163,10 +163,18 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 			currentHiddenHeaders={hiddenHeaders}
 			currentHiddenRows={hiddenRows}
 		/>
-			<IonButton className="tableFilterButton" disabled={finderIsOpen} color="tertiary" size="small" shape="round" fill="outline" onClick={() => setOpen(true)}>
+			<IonButton
+				className="tableFilterButton"
+				disabled={finderIsOpen}
+				color="tertiary"
+				size="small"
+				shape="round"
+				fill={(hiddenHeaders.length + hiddenRows.length) > 0 ? "solid" : "outline"}
+				onClick={() => setOpen(true)}
+			>
 				<IonIcon slot="icon-only" icon={filterIcon} />
 			</IonButton>
-		</>;
+	</>;
 
 	return (
 		<div className="displayTable">
