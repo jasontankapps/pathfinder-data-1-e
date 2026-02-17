@@ -34,6 +34,9 @@ const getContainerDirectives = (globalVariable, marker = ":::") => {
 					flags.link = true;
 					const {logError} = $;
 					const {title, action, ...etc} = attrs;
+					if(!action) {
+						logError("Missing action attribute in :::ab");
+					}
 					let text2 = text;
 					const myAttrs = {
 						containerInfo: {
