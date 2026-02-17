@@ -18,7 +18,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 			</IonLabel></IonItem>
 			<IonItemDivider><IonLabel>Credits</IonLabel></IonItemDivider>
 			<IonItem><IonLabel>
-				<p>App Icon is based on "Gift of Knowledge" by <a href="https://lorcblog.blogspot.com/">Lorc</a>. The following icons are also by Lorc.</p>
+				<p>App Icon is based on "Gift of Knowledge" by <a href="https://lorcblog.blogspot.com/">Lorc</a>. The following icons are also by Lorc. (CC BY 3.0)</p>
 				<p className="icons">
 					<IonIcon icon="/icons/battle-gear.svg" />
 					<IonIcon icon="/icons/croc-jaws.svg" />
@@ -68,25 +68,25 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 			<IonItem>
 				<IonIcon icon="/icons/abstract-091.svg" slot="start" />
 				<IonLabel>
-					<p>Icon by <a href="https://viscious-speed.deviantart.com/">Viscious Speed</a>.</p>
+					<p>Icon by <a href="https://viscious-speed.deviantart.com/">Viscious Speed</a>. (Public Domain)</p>
 				</IonLabel>
 			</IonItem>
 			<IonItem>
 				<IonIcon icon="/icons/orb-wand.svg" slot="start" />
 				<IonLabel>
-					<p>Icon by <a href="https://wjbstories.blogspot.com/">Wildabeast</a>.</p>
+					<p>Icon by <a href="https://wjbstories.blogspot.com/">Wildabeast</a>. (CC BY 3.0)</p>
 				</IonLabel>
 			</IonItem>
 			<IonItem>
 				<IonIcon icon="/icons/read.svg" slot="start" />
 				<IonLabel>
-					<p>Icon by <a href="https://game-icons.net/">Skoll</a>.</p>
+					<p>Icon by <a href="https://game-icons.net/">Skoll</a>. (CC BY 3.0)</p>
 				</IonLabel>
 			</IonItem>
 			<IonItem>
 				<IonIcon icon="/icons/spikes-half.svg" slot="start" />
 				<IonLabel>
-					<p>Icon by <a href="https://opengameart.org/content/95-game-icons">sbed</a>.</p>
+					<p>Icon by <a href="https://opengameart.org/content/95-game-icons">sbed</a>. (CC BY 3.0)</p>
 				</IonLabel>
 			</IonItem>
 			<IonItem>
