@@ -1,4 +1,4 @@
-const clean = (bit) => bit.replace(/\*/g, "").replace(/‹[-a-z_]+[/]([^%]+)›/g, "$1");
+const clean = (bit) => bit.replace(/\*/g, "").replace(/‹[-a-z_]+[/]([^›]+)›/g, "$1");
 
 const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs, logError) => {
 	const {
