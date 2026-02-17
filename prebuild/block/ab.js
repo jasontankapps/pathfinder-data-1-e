@@ -138,9 +138,18 @@ const makeAbilityBlock = ({
 				return [`3 ${unit}s/day + 1 ${unit} per ${useL3} level`, unit];
 				//3 rounds/day + 1 round per cleric level
 			} else if (useL) {
+				const [clss, amt = "1"] = useL.split(/~/);
 				const unit = useUnit || "round";
-				return [`1 ${unit}/day per ${useL} level`, unit];
+				const amount = Math.round(Number(amt));
+				if(!amount || amount < 0) {
+					logError(`Invalid amount [${amount}] from useL=\"${useL}\".`);
+					return [`1 ${unit}/day per ${clss} level`, unit];
+				}
+				return [`${amount} ${unit}${amount === 1 ? "" : "s"}/day per ${clss} level`, unit];
+				//useL=cleric
 				//1 round/day per cleric level
+				//useL="hunter~10"
+				//10 rounds/day per hunter level
 			} else if (useMod) {
 				const unit = useUnit || "time";
 				return [`${useMod} modifier ${unit}s/day`, unit]
