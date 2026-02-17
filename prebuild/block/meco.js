@@ -23,7 +23,7 @@ export const makeMonsterEcologyBlock = (marked2, convertEncodedInfo, maybeClear,
 	if(m) {
 		const [,type,parenthetical] = m;
 		const t = type === "npc" ? "NPC gear" : (type || false);
-		output.push(doParse(`**Treasure** ${t ? `%%rule/${t}%% (${parenthetical})` : parenthetical}`));
+		output.push(doParse(`**Treasure** ${t ? `‹rule/${t}› (${parenthetical})` : parenthetical}`));
 	}
 	return `${maybeClear}<p className="statblockSubHeader">Ecology</p>\n<p>${output.join("<br>")}</p>`;
 };

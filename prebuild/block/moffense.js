@@ -87,7 +87,7 @@ export const makeMonsterOffenseBlock = (marked2, convertEncodedInfo, maybeClear,
 	const spAtt = [];
 	if(specAtt) {
 		spAtt.push(...specAtt.split("~").map(x => {
-			const clean = x.replace(/%%[-a-z_]+[/]([^%]+?)%%/g, "$1").replace(/[^-a-zA-Z 0-9]/g, "");
+			const clean = x.replace(/‹[-a-z_]+[/]([^%]+?)›/g, "$1").replace(/[^-a-zA-Z 0-9]/g, "");
 			return [clean, x];
 		}));
 	}

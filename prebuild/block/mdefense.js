@@ -1,4 +1,4 @@
-const clean = (bit) => bit.replace(/\*/g, "").replace(/%%[-a-z_]+[/]([^%]+)%%/g, "$1");
+const clean = (bit) => bit.replace(/\*/g, "").replace(/‹[-a-z_]+[/]([^%]+)›/g, "$1");
 
 const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs, logError) => {
 	const {
@@ -42,10 +42,10 @@ const makeMonsterDefenseBlock = (marked2, convertEncodedInfo, maybeClear, attrs,
 			line = `<strong>hp</strong> ${h} (${paren})`;
 		}
 		if(fh) {
-			line = line + doParse(`; %%umr/fast healing%% ${fh}`);
+			line = line + doParse(`; ‹umr/fast healing› ${fh}`);
 		}
 		if(regen) {
-			line = line + doParse(`; %%umr/regeneration%% ${regen}`);
+			line = line + doParse(`; ‹umr/regeneration› ${regen}`);
 		}
 		output.push(line);
 	} else {
