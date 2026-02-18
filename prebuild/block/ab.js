@@ -266,10 +266,10 @@ const makeAbilityBlock = ({
 					return "stairs-goal";
 				}
 				case "boost": { // boost your own abilities, or an ally's
-					return "embraced-energy";
+					return "upgrade";
 				}
 				case "aid": { // aid another
-					return "cherish";
+					return "heart-plus";
 				}
 				case "protect": { // protect another
 					return "shield-reflect";

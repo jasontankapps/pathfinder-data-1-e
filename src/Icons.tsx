@@ -67,8 +67,8 @@ const Icons: FC = () => {
 					<Icon incoming={icon} icon="shield-reflect">An ability that provides protection to another.</Icon>
 					<Icon incoming={icon} icon="stairs-goal">Gain a new ability or companion.</Icon>
 					<Icon incoming={icon} icon="skills">A change to class skills.</Icon>
-					<Icon incoming={icon} icon="embraced-energy">Boost your own abilities, or an ally's.</Icon>
-					<Icon incoming={icon} icon="cherish">Some sort of healing or otherwise helpful action.</Icon>
+					<Icon incoming={icon} icon="upgrade">Boost your own abilities, or an ally's.</Icon>
+					<Icon incoming={icon} icon="heart-plus">Some sort of healing or otherwise helpful action.</Icon>
 					<Icon incoming={icon} icon="armor-downgrade">An effect that lowers the defenses of others.</Icon>
 					<Icon incoming={icon} icon="broken-shield">A downgrade of your own abilities, or an ally's.</Icon>
 				</IonList>

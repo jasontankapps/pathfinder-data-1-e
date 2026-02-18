@@ -35,7 +35,6 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 					<IonIcon icon="/icons/barbed-arrow.svg" />
 					<IonIcon icon="/icons/bowman.svg" />
 					<IonIcon icon="/icons/broken-shield.svg" />
-					<IonIcon icon="/icons/embraced-energy.svg" />
 					<IonIcon icon="/icons/magic-palm.svg" />
 					<IonIcon icon="/icons/magic-swirl.svg" />
 					<IonIcon icon="/icons/mailed-fist.svg" />
@@ -59,7 +58,7 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 					<IonIcon icon="/icons/confirmed.svg" />
 					<IonIcon icon="/icons/armor-downgrade.svg" />
 					<IonIcon icon="/icons/armor-upgrade.svg" />
-					<IonIcon icon="/icons/cherish.svg" />
+					<IonIcon icon="/icons/upgrade.svg" />
 					<IonIcon icon="/icons/rolling-dices.svg" />
 					<IonIcon icon="/icons/spell-book.svg" />
 					<IonIcon icon="/icons/info.svg" />
@@ -69,6 +68,12 @@ export const AboutInfo: React.FC<{className: string}> = ({className}) => (
 				<IonIcon icon="/icons/abstract-091.svg" slot="start" />
 				<IonLabel>
 					<p>Icon by <a href="https://viscious-speed.deviantart.com/">Viscious Speed</a>. (Public Domain)</p>
+				</IonLabel>
+			</IonItem>
+			<IonItem>
+				<IonIcon icon="/icons/heart-plus.svg" slot="start" />
+				<IonLabel>
+					<p>Icon by <a href="https://game-icons.net/">Zeromancer</a>. (Public Domain)</p>
 				</IonLabel>
 			</IonItem>
 			<IonItem>
