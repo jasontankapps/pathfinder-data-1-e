@@ -174,7 +174,7 @@
 			"",
 			"::ab[Experimental Firearm (Ex)]{l=1 icon=power ability=\"An experimental gunsmith begins play with an experimental firearm. This acts as the gunslinger's gunsmith ability, but the firearm the experimental gunsmith begins with has one *innovation* (see below). Further, the experimental gunsmith is treated as having the ‹feat/Gunsmithing› feat, but only in regard to his beginning firearm (or the construction of a replacement firearm of the same design, if the original is lost). This ability otherwise works like the standard gunslinger's abilities.\" replace=Gunsmith}",
 			"",
-			":::ab{head title=\"Innovations (Ex)\" icon=power replace=\"Gun training\" imp5=\"The gunslinger learns a second innovation.\" imp9=\"The gunslinger learns a third innovation.\" imp13=\"She learns a fourth innovation.\" imp17=\"She learns a fifth innovation.\" special=\"Once an innovation has been selected, it cannot be changed.\"}",
+			":::ab{head title=\"Innovations (Ex)\" icon=power action=Ability replace=\"Gun training\" imp5=\"The gunslinger learns a second innovation.\" imp9=\"The gunslinger learns a third innovation.\" imp13=\"She learns a fourth innovation.\" imp17=\"She learns a fifth innovation.\" special=\"Once an innovation has been selected, it cannot be changed.\"}",
 			"",
 			"An experimental gunsmith starts play with one innovation she can make to her experimental firearms, selected from the list below. This innovation is a radical change to the typical design of a firearm, and comes with both additional benefits and noteworthy drawbacks. The experimental gunsmith can maintain only one experimental firearm modified with one or more innovations, as it requires constant adjustments and much of her time is spent maintaining the weapon.",
 			"",
