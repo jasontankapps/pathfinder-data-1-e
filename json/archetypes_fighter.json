@@ -40,7 +40,7 @@
 			"",
 			"::ab[Flying Dodger (Ex)]{l=9 icon=def passive=\"When an airborne ambusher flies at least half its fly speed on its turn, it gains a +1 dodge bonus to AC for 1 round.\" imp11=\"The bonus becomes +2.\" imp17=\"The bonus increases to +4.\" replace=\"Weapon training 2\"}",
 			"",
-			"::ab[Plummeting Charge (Ex)]{l=13 icon=boost =\"If an airborne ambusher flies at least half its fly speed as part of a ‹rule/charge›, it gains a +2 racial bonus on the attack roll (in addition to the normal charge bonus) and a +4 bonus on its critical confirmation roll.\" imp17=\"These bonuses improve to +4 and +6.\" replace=\"Weapon training 3 and 4\"}"
+			"::ab[Plummeting Charge (Ex)]{l=13 icon=boost passive=\"If an airborne ambusher flies at least half its fly speed as part of a ‹rule/charge›, it gains a +2 racial bonus on the attack roll (in addition to the normal charge bonus) and a +4 bonus on its critical confirmation roll.\" imp17=\"These bonuses improve to +4 and +6.\" replace=\"Weapon training 3 and 4\"}"
 		]
 	},
 	"aldori_defender": {
@@ -223,7 +223,7 @@
 			"",
 			"::cskill{gain=\"Diplomacy~Knowledge (local)~Perception\" lose=\"Knowledge (dungeoneering), Knowledge (engineering)\"}",
 			"",
-			"::ab[Tenacious Tracker (Ex)]{l=2 icon=boost =\"A Calistrian hunter gains a +1 bonus on Diplomacy checks to gather information and on Survival checks made to identify or follow tracks.\" repeat=\"This bonus~2~4\" replace=Bravery}",
+			"::ab[Tenacious Tracker (Ex)]{l=2 icon=boost passive=\"A Calistrian hunter gains a +1 bonus on Diplomacy checks to gather information and on Survival checks made to identify or follow tracks.\" repeat=\"This bonus~2~4\" replace=Bravery}",
 			"",
 			"::ab[Vengeance (Ex)]{l=5 icon=boost-lower ability=\"A Calistrian hunter deals 1d4 points of ‹rule/bleed› damage when he damages a creature that has damaged him since the beginning of his last turn. Whenever a creature takes bleed damage from this effect, it also takes a -1 penalty on attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks for 1 round. This penalty is a ‹spelldef/pain› effect and does not stack with the effects of the ‹misc/sickened› condition.\" imp9=\"The bleed damage becomes 1d6.\" imp13=\"The bleed increases to 1d8.\" imp17=\"The bleed damage increases to 2d6.\" replace=\"Weapon training 1\"}",
 			"",
@@ -1170,7 +1170,7 @@
 			"",
 			"::ab[Safety in Numbers (Ex)]{icon=def flavor=\"A swarm fighter benefits greatly from the proximity of her allies.\" passive=\"She gains a morale bonus on saves against fear effects equal to the number of allies within 20 feet of her. This bonus can't exceed half her level.\" replace=Bravery}",
 			"",
-			"::ab[Bonus Teamwork Feats (Ex)]{l=2 icon=power =\"The swarm fighter gains a bonus ‹main/teamwork feat›.\" imp6=\"She gains a second teamwork feat.\" imp10=\"She gains a third teamwork feat.\" imp14=\"She gains a fourth teamwork feat.\" imp18=\"She gains a fifth teamwork feat.\" replace=\"The bonus combat feats the fighter normally receives at 2nd, 6th, 10th, 14th, and 12th levels\" special=\"She gains the other bonus combat feats as normal.\"}",
+			"::ab[Bonus Teamwork Feats (Ex)]{l=2 icon=power ability=\"The swarm fighter gains a bonus ‹main/teamwork feat›.\" repeatOrd=\"She~2~4\" repeatDesc=\"gains a\" repeatEnd=\" teamwork feat.\" replace=\"The bonus combat feats the fighter normally receives at 2nd, 6th, 10th, 14th, and 18th levels\" special=\"She gains the other bonus combat feats as normal.\"}",
 			"",
 			"::ab[Share Space (Ex)]{l=5 icon=power-def ability=\"The swarm fighter can move into the space of another creature at least one size category larger than she is. She may end her movement in, and make attacks from, that space. She must succeed at the Acrobatics check for moving through an occupied square to move into a space occupied by an enemy. While sharing the space of another creature, she gains a +2 shield bonus to AC and a +1 circumstance bonus on Reflex saves.\" replace=\"Weapon training 1\"}",
 			"",
@@ -1327,7 +1327,7 @@
 			"‹SOURCE Advanced Player's Guide/108›  ",
 			"Some fighters focus their efforts on finding the biggest, heaviest, most imposing weapon they can find and training to manage and harness the weight of their massive weapons for maximum impact. These fighting school benefits only apply when using two-handed weapons.",
 			"",
-			"::ab[Shattering Strike (Ex)]{l=2 icon=boost =\"A two-handed fighter gains a +1 bonus to CMB and CMD on ‹rule/sunder› attempts and on damage rolls made against objects.\" repeat=\"p!These bonuses~2~4\" replace=Bravery}",
+			"::ab[Shattering Strike (Ex)]{l=2 icon=boost passive=\"A two-handed fighter gains a +1 bonus to CMB and CMD on ‹rule/sunder› attempts and on damage rolls made against objects.\" repeat=\"p!These bonuses~2~4\" replace=Bravery}",
 			"",
 			"::ab[Overhand Chop (Ex)]{l=3 icon=boost passive=\"When a two-handed fighter makes a single attack (with the attack action or a ‹rule/charge›) with a two-handed weapon, he adds double his Strength bonus on damage rolls.\" replace=\"Armor training 1\"}",
 			"",

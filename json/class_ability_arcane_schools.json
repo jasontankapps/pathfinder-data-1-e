@@ -248,7 +248,7 @@
 			"",
 			"::ab[Force Missile (Sp)]{l=1 icon=zap standard=\"You can unleash a force missile that automatically strikes a foe, as ‹spell/magic missile›. The force missile deals 1d4 points of damage plus the damage from your intense spells evocation power. This is a force effect.\" useMod3=Int}",
 			"",
-			"::ab[Elemental Wall (Sp)]{l=8 icon=magic =\"You can create a wall of energy. This wall deals acid, cold, electricity, or fire damage, determined when you create it. The elemental wall otherwise functions like ‹spell/wall of fire›.\" useL=wizard useNC}",
+			"::ab[Elemental Wall (Sp)]{l=8 icon=magic standard=\"You can create a wall of energy. This wall deals acid, cold, electricity, or fire damage, determined when you create it. The elemental wall otherwise functions like ‹spell/wall of fire›.\" useL=wizard useNC}",
 			"",
 			"::h3[Admixture School]{jl}",
 			"",
