@@ -73,7 +73,8 @@ const makeAbilityBlock = ({
 		s11,s12,s13,s14,s15,s16,s17,s18,s19,s20,
 		imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,
 		imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20,
-		repeat,repeatAt,repeatEnd,repeatPlain,repeatDesc,
+		repeat,repeatAt,repeatEnd,
+		repeatPlain,repeatDesc,repeatOrd,
 		standard, swift, immediate,
 		fullround, move, free,
 		provokes, special, note, choice,
@@ -570,13 +571,12 @@ const makeAbilityBlock = ({
 		|| repeat || repeatAt || repeatEnd || repeatPlain
 	) {
 		const imps = [imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20];
-		if(repeat || repeatPlain || repeatAt) {
+		if(repeat || repeatPlain || repeatAt || repeatOrd) {
 			// msg, lev start, lev inc, b start, b inc
-			//      repeat "(p!)?This bonus~Ls~Li~Bs?~Bi?"
+			//      repeat "(p!)?This bonus~Ls~Li~Bs?~Bi?" (also repeatPlain and repeatOrd)
 			//    repeatAt "(p!)?This bonus~L1~L2~L3...~Bs/Bi?"
-			// repeatPlain "(p!)?This amount~Ls~Li~Bs?~Bi?"
-			//   OR repeatPlain can be used as a flag with `repeat` OR `repeatAt`
-			const [message, ...etc] = (repeatAt || repeat || repeatPlain).split(/~/);
+			//   OR repeatPlain/repeatOrd can be used as a flag with `repeat` OR `repeatAt`
+			const [message, ...etc] = (repeatAt || repeat || repeatPlain || repeatOrd).split(/~/);
 			let plural = false;
 			const msg = (() => {
 				if(message.startsWith("p!")) {
@@ -610,7 +610,7 @@ const makeAbilityBlock = ({
 					return n;
 				}).filter(n => n));
 			} else {
-				//repeat || repeatPlain
+				//repeat || repeatPlain || repeatOrd
 				if(etc.length < 2) {
 					logError(`Invalid length of \`repeat\` attribute.`);
 					etc.push("1", "1", "1"); // pad it out
@@ -648,7 +648,7 @@ const makeAbilityBlock = ({
 					logError(`Duplicate value [${next}] in \`repeatAt\` attribute.`);
 				} else {
 					const i = next - 1;
-					const b = (repeatPlain || (bonus <= 0)) ? bonus : "+" + bonus;
+					const b = repeatOrd ? ordinal(bonus) : ((repeatPlain || (bonus <= 0)) ? bonus : "+" + bonus);
 					imps[i] = mash(imps[i], `${msg} ${swap({plural, descriptor})} ${b}${end}`);
 					last = next;
 					bonus += inc;
