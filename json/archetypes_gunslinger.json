@@ -54,7 +54,7 @@
 			"",
 			"::ab[Crossbow Maven]{icon=down-power note=\"A bolt ace is proficient with all crossbows instead of all firearms and begins play with a masterwork ‹eq-weapon/crossbow› of her choice.\" alter=\"Weapon proficiencies\" replace=Gunsmith}",
 			"",
-			"::ab[Grit (Ex)]{icon=power passive=\"A bolt ace regains grit when she scores a critical hit or deals a killing blow with any kind of crossbow.\" alter=\"Grit class feature\"}",
+			"::ab[Grit (Ex)]{icon=power passive=\"A bolt ace regains grit when she scores a critical hit or deals a killing blow with any kind of crossbow.\" alter=Grit}",
 			"",
 			"::ab[Deeds]{head icon=power note=\"A bolt ace can perform the following deeds with a crossbow instead of a firearm: ‹deed/gunslinger initiative›, ‹deed/pistol-whip›, ‹deed/dead shot›, ‹deed/targeting›, ‹deed/bleeding wound›, ‹deed/death's shot›, and ‹deed/stunning shot›. The bolt ace swaps the following deeds.\"}",
 			"",
@@ -488,7 +488,7 @@
 			"",
 			":::",
 			"",
-			"::ab[Overload (Ex)]{next l=7 icon=boost flavor=\"A scatter gunner knows just how to hold his weapon to maximize its devastating scattering effects.\" fullround=\"A scatter gunner can make a scattering shot to fire a concentrated payload of pellets that strains his firearm. This doubles the area affected by the scattering shot (a 30-foot cone for most early firearms), increases the firearm's misfire value by 2, and causes each successful attack to deal an additional 1d6 points of damage that is not multiplied on a critical hit. The scatter gunner must spend 1 grit point to perform this deed.\" repeatPlain=\"The additional damage~7~6\" repeatEnd=\"d6.\" replace=\"‹deed/Dead shot› deed.\"}",
+			"::ab[Overload (Ex)]{next l=7 icon=boost flavor=\"A scatter gunner knows just how to hold his weapon to maximize its devastating scattering effects.\" fullround=\"A scatter gunner can make a scattering shot to fire a concentrated payload of pellets that strains his firearm. This doubles the area affected by the scattering shot (a 30-foot cone for most early firearms), increases the firearm's misfire value by 2, and causes each successful attack to deal an additional 1d6 points of damage that is not multiplied on a critical hit. The scatter gunner must spend 1 grit point to perform this deed.\" repeatPlain=\"The additional damage~7~6\" repeatEnd=\"d6.\" replace=\"‹deed/Dead shot› deed\"}",
 			"",
 			"::ab[Satchel Shot (Ex)]{next l=7 icon=ranged fullround=\"A scatter gunner can load and fire an explosive shell, consuming ammunition as though he had made a scattering shot. This functions like ‹rule/throw«ing a» splash weapon› at a grid intersection but uses his firearm's range increment, attack bonus, and magic special abilities (if any). The shell affects creatures in a 10-foot radius as though the scatter gunner had made a scattering shot against them, and damaged creatures must succeed at a Reflex save (DC = 10 + half the scatter gunner's level + the scatter gunner's Dexterity modifier) or ‹rule/catch fire›.\" replace=\"‹deed/Targeting› deed\"}"
 		]

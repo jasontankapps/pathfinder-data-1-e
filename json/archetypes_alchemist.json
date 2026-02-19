@@ -8,7 +8,7 @@
 			"‹SOURCE Blood of the Ancients/25›  ",
 			"Although the specifics of the Aeromantic Infadibulum are lost to time, aerochemists are able to emulate and replicate aspects of this lost magic. Aerochemists use scraps of Shory's magic in their concoctions to gain personal powers of flight.",
 			"",
-			":::ab{l=1 icon=power-boost title=\"Aeromantic Concoction (Su)\" action=Ability replace=\"Mutagen~swift poisoning~persistent mutagen.\" special=\"An aeromantic alchemist can never gain the *mutagen, cognatogen,* or *inspired cognatogen* ability, even from a discovery or another class.\" imp6=\"The aerochemist gains the benefits of ‹spell/fly› for the concoction's duration.\" imp10=\"The aerochemist can choose to gain the benefits of ‹spell/air walk› instead of *fly* for the concoction's duration.\" imp14=\"The duration of the concoction increases to 1 hour per alchemist level, or 10 minutes per alchemist level if shared.\"}",
+			":::ab{l=1 icon=power-boost title=\"Aeromantic Concoction (Su)\" action=Ability replace=\"Mutagen~swift poisoning~persistent mutagen\" special=\"An aeromantic alchemist can never gain the *mutagen, cognatogen,* or *inspired cognatogen* ability, even from a discovery or another class.\" imp6=\"The aerochemist gains the benefits of ‹spell/fly› for the concoction's duration.\" imp10=\"The aerochemist can choose to gain the benefits of ‹spell/air walk› instead of *fly* for the concoction's duration.\" imp14=\"The duration of the concoction increases to 1 hour per alchemist level, or 10 minutes per alchemist level if shared.\"}",
 			"",
 			"An aerochemist learns to craft a special alchemical concoction. It takes 10 minutes to brew a dose of this concoction, and once brewed, it remains potent until used. An aerochemist can maintain only 1 dose of this concoction at a time: if he brews a second dose, any existing concoction becomes inert. As with an extract or bomb, an aeromantic concoction that is not in the aerochemist's possession becomes inert until he picks it up again. Anyone other than the aerochemist who attempts to drink his aeromantic concoction is affected in the same fashion as is a non-alchemist who drinks an alchemist's mutagen.",
 			"",
@@ -18,7 +18,7 @@
 			"",
 			":::",
 			"",
-			"::ab[Bombs Away (Ex)]{l=2 icon=ranged passive=\"An aerochemist becomes an expert at attacking from above. He gains a +1 bonus on attack rolls made with thrown weapons against targets that are at least 10 feet below him.\" repeat=\"This bonus~2~4\" replace=\"Poison use~swift alchemy.\"}",
+			"::ab[Bombs Away (Ex)]{l=2 icon=ranged passive=\"An aerochemist becomes an expert at attacking from above. He gains a +1 bonus on attack rolls made with thrown weapons against targets that are at least 10 feet below him.\" repeat=\"This bonus~2~4\" replace=\"Poison use~swift alchemy\"}",
 			"",
 			"::ab[Aerodynamic Prowess (Su)]{l=2 icon=boost passive=\"An aerochemist gains a +2 bonus on Fly checks.\" imp5=\"This bonus increases to +4.\" imp8=\"This bonus increases to +6.\" replace=\"Poison resistance\"}"
 		]

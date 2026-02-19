@@ -1170,7 +1170,7 @@
 			"",
 			"::ab[Safety in Numbers (Ex)]{icon=def flavor=\"A swarm fighter benefits greatly from the proximity of her allies.\" passive=\"She gains a morale bonus on saves against fear effects equal to the number of allies within 20 feet of her. This bonus can't exceed half her level.\" replace=Bravery}",
 			"",
-			"::ab[Bonus Teamwork Feats (Ex)]{l=2 icon=power ability=\"The swarm fighter gains a bonus ‹main/teamwork feat›.\" repeatOrd=\"She~2~4\" repeatDesc=\"gains a\" repeatEnd=\" teamwork feat.\" replace=\"The bonus combat feats the fighter normally receives at 2nd, 6th, 10th, 14th, and 18th levels\" special=\"She gains the other bonus combat feats as normal.\"}",
+			"::ab[Bonus Teamwork Feats (Ex)]{l=2 icon=power ability=\"The swarm fighter gains a bonus ‹main/teamwork feat›.\" repeatOrd=She~2~4 repeatDesc=\"gains a\" repeatEnd=\" teamwork feat.\" replace=\"The bonus combat feats the fighter normally receives at 2nd, 6th, 10th, 14th, and 18th levels\" special=\"She gains the other bonus combat feats as normal.\"}",
 			"",
 			"::ab[Share Space (Ex)]{l=5 icon=power-def ability=\"The swarm fighter can move into the space of another creature at least one size category larger than she is. She may end her movement in, and make attacks from, that space. She must succeed at the Acrobatics check for moving through an occupied square to move into a space occupied by an enemy. While sharing the space of another creature, she gains a +2 shield bonus to AC and a +1 circumstance bonus on Reflex saves.\" replace=\"Weapon training 1\"}",
 			"",

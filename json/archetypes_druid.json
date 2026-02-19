@@ -800,7 +800,7 @@
 			"",
 			"::ab[Call of the Waves (Ex)]{icon=warning note=\"A kraken caller must choose ‹faith/Besmara› as her deity. If she ever changes her deity, she loses this archetype and becomes a normal druid.\"}",
 			"",
-			"::ab[Bonus Languages]{icon=info note=\"A kraken caller's bonus language options include Aquan instead of Sylvan.\" alter=\"Bonus languages class feature.\"}",
+			"::ab[Bonus Languages]{icon=info note=\"A kraken caller's bonus language options include Aquan instead of Sylvan.\" alter=\"Bonus languages\"}",
 			"",
 			"::ab[Dauntless Swimmer (Ex)]{l=2 icon=power ability=\"A kraken caller can always take 10 on Swim checks, even if she is rushed or threatened.\" replace=\"Woodland stride\"}",
 			"",

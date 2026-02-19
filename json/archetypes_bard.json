@@ -482,7 +482,7 @@
 			"",
 			"::ab[Dance of Fury (Su)]{l=12 icon=melee-boost ability=\"A dervish dancer can attack more than once as he moves while performing a *battle dance.* He can combine a full-attack action with a single move, taking the attacks at any point during his movement, but must move at least 5 feet between each attack. This movement provokes attacks of opportunity as normal.\" replace=\"Soothing performance\"}",
 			"",
-			"::ab[Battle Fury (Su)]{l=20 icon=melee-boost flavor=\"The dervish dancer can unleash a whirlwind of blows while performing a *battle dance.*\" fullround=\"He can take a single move action and unleash a single attack at his highest bonus against each target within his reach during any point of his move, up to a maximum number of attacks equal to the dervish dancer's character level. This movement provokes attacks of opportunity as normal.\" replace=\"Deadly performance.\"}"
+			"::ab[Battle Fury (Su)]{l=20 icon=melee-boost flavor=\"The dervish dancer can unleash a whirlwind of blows while performing a *battle dance.*\" fullround=\"He can take a single move action and unleash a single attack at his highest bonus against each target within his reach during any point of his move, up to a maximum number of attacks equal to the dervish dancer's character level. This movement provokes attacks of opportunity as normal.\" replace=\"Deadly performance\"}"
 		]
 	},
 	"detective": {
