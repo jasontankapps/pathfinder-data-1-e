@@ -389,13 +389,12 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"ability", "passive",
 					"order",
 					"usage", "useNC",
-					"useL", "useM",
+					"useL", "useM", "useMod",
 					"useL3", "useInc",
 					"useUnit",
 					"replace", "alter", "type", "prereq"
 				], [
-					/^(s0|([sl]|imp)(1?[1-9]|[12]0))$/,
-					/^useMod[1-9]?$/
+					/^(s0|([sl]|imp)(1?[1-9]|[12]0))$/
 				], logError);
 				flags.icon = true;
 				flags.link = true;

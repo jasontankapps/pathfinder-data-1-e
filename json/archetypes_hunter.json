@@ -537,7 +537,7 @@
 			"",
 			"::ab[Improved Unarmed Strike (Ex)]{l=2 icon=power ability=\"A treestrider gains ‹feat/Improved Unarmed Strike› as a bonus feat.\" replace=\"Precise companion\"}",
 			"",
-			"::ab[Tree Stride (Sp)]{l=10 icon=magic fullround=\"A treestrider can move between two trees, as per the spell ‹spell/tree stride›. Unlike the spell, this ability has a duration of instantaneous and the treestrider can make only a single transfer. She can bring her animal companion with her, but if she does, her companion can't take any actions that round.\" useMod3=Wis replace=\"Raise animal companion\"}"
+			"::ab[Tree Stride (Sp)]{l=10 icon=magic fullround=\"A treestrider can move between two trees, as per the spell ‹spell/tree stride›. Unlike the spell, this ability has a duration of instantaneous and the treestrider can make only a single transfer. She can bring her animal companion with her, but if she does, her companion can't take any actions that round.\" useMod=Wis3 replace=\"Raise animal companion\"}"
 		]
 	},
 	"uprooter_scout": {

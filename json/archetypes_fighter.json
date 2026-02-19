@@ -891,7 +891,7 @@
 			"",
 			"::ab[Burst of Speed (Ex)]{l=3 icon=def passive=\"A Dawnflower dervish takes only a -1 penalty to her AC after ‹rule/charging›.\" imp7=\"The Dawnflower dervish can charge with no penalty.\" replace=\"Armor training 1\"}",
 			"",
-			"::ab[Desert Stride (Ex)]{l=7 icon=power ability=\"A Dawnflower dervish can move through 10 feet of ‹rule/difficult terrain› each round as if it were normal terrain. This benefit stacks with the benefits provided by the ‹feat/Acrobatic Steps› and ‹feat/Nimble Moves› feats.\" replace=\"Armor training 2\"}",
+			"::ab[Desert Stride (Ex)]{l=7 icon=power passive=\"A Dawnflower dervish can move through 10 feet of ‹rule/difficult terrain› each round as if it were normal terrain. This benefit stacks with the benefits provided by the ‹feat/Acrobatic Steps› and ‹feat/Nimble Moves› feats.\" replace=\"Armor training 2\"}",
 			"",
 			"::ab[Rapid Attack (Ex)]{l=11 icon=power ability=\"A Dawnflower dervish can combine a ‹rule/full attack› with a single move. She must forgo the attack at her highest bonus but may take the remaining attacks at any point during her movement. This movement provokes attacks of opportunity as normal.\" replace=\"Armor training 3\"}",
 			"",
@@ -913,7 +913,7 @@
 			"",
 			"::ab[Improved Item Mastery (Su)]{l=3 icon=power ability=\"A relic master can use an ‹main/feats_>item mastery« feat› she knows with a magic item that doesn't have an appropriate spell in its construction requirements. The magic item must meet all other requirements of the item mastery feat. Alternatively, if she is using a magic item with an appropriate spell in its construction requirements, she can use an item mastery feat without it counting against the feat's total uses per day.\" useInc=\"4~fighter~3\" replace=\"Armor training\"}",
 			"",
-			"::ab[Relic Channeler (Su)]{l=5 icon=boost swift=\"A relic master can increase the potency of a magic item she wields by investing it with a bit of her vitality. If the item is armor, a shield, or a weapon, its enhancement bonus increases by 1 to a maximum of +5. If the magic item creates a spell or has a save DC, its effective caster level increases by 1.\" useMod1=Con useNC=1 useUnit=minute useM=1 replace=\"Weapon training\"}",
+			"::ab[Relic Channeler (Su)]{l=5 icon=boost swift=\"A relic master can increase the potency of a magic item she wields by investing it with a bit of her vitality. If the item is armor, a shield, or a weapon, its enhancement bonus increases by 1 to a maximum of +5. If the magic item creates a spell or has a save DC, its effective caster level increases by 1.\" useMod=Con1 useNC=1 useUnit=minute useM=1 replace=\"Weapon training\"}",
 			"",
 			"::ab[Improvised Item Mastery (Su)]{l=19 icon=power fullround=\"The relic master can select one item mastery feat whose prerequisites she meets but that she doesn't already have. She gains access to this feat, though she can't use it as a prerequisite for other feats or options. If she selects a different item mastery feat, she loses access to her previous use of *improvised item mastery* and any magic effect created with it ends immediately. Any daily uses of a selected *improvised item mastery* feat count against all *improvised mastery feats* selected in the same day.\" replace=\"Armor mastery\"}"
 		]
@@ -1067,7 +1067,7 @@
 			"",
 			"::ab[Breaker Rush (Ex)]{l=1 icon=def-boost ability=\"A siegebreaker can attempt ‹rule/bull rush› or ‹rule/overrun› combat maneuvers without provoking attacks of opportunity. When he performs either combat maneuver, he deals an amount of bludgeoning damage equal to his Strength bonus (minimum 1). If he has ‹feat/Improved Bull Rush› or ‹feat/Improved Overrun›, the damage dealt by the appropriate maneuver increases by 2 and he adds any enhancement bonus from his armor or shield (though such enhancement bonuses do not stack, if both armor and shield are magic).\" replace=\"The feat gained at 1st level\"}",
 			"",
-			"::ab[Armored Vigor (Ex)]{l=2 icon=def swift=\"A siegebreaker can gain 2 ‹rule/temporary hit points› that last for 1 minute.\" useMod3=Con special=\"He can use this ability only while wearing armor.\" repeatPlain=\"The amount of temporary hit points~2~6~4~2\" replace=Bravery}",
+			"::ab[Armored Vigor (Ex)]{l=2 icon=def swift=\"A siegebreaker can gain 2 ‹rule/temporary hit points› that last for 1 minute.\" useMod=Con3 special=\"He can use this ability only while wearing armor.\" repeatPlain=\"The amount of temporary hit points~2~6~4~2\" replace=Bravery}",
 			"",
 			"::ab[Breaker Momentum (Ex)]{l=2 icon=power free=\"When a siegebreaker successfully bull rushes a foe, he can attempt an overrun combat maneuver check against that foe.\" replace=\"The feat gained at 2nd level\"}",
 			"",
@@ -1202,7 +1202,7 @@
 			"",
 			"::ab[Cooperative Combatant (Ex)]{l=11 icon=power ability=\"When a tactician uses the ‹rule/aid another<_2› special attack, he may affect one additional ally per point of Intelligence bonus. For each ally that a tactician aids, he can pick whether to grant that ally the +2 bonus on its next attack against the opponent or the +2 bonus to AC against the opponent's next attack on that ally, and can grant different allies different bonuses.\" replace=\"Armor training 3\"}",
 			"",
-			"::ab[Battle Insight (Ex)]{l=15 icon=boost swift=\"A tactician can grant his Intelligence modifier as an insight bonus on the attack rolls made by a single ally within line of sight that can both see and hear the tactician. That ally gains the bonus until the end of the tactician's next turn.\" useMod3=Int replace=\"Armor training 4\"}"
+			"::ab[Battle Insight (Ex)]{l=15 icon=boost swift=\"A tactician can grant his Intelligence modifier as an insight bonus on the attack rolls made by a single ally within line of sight that can both see and hear the tactician. That ally gains the bonus until the end of the tactician's next turn.\" useMod=Int3 replace=\"Armor training 4\"}"
 		]
 	},
 	"taldor_rondelero_duelist": {

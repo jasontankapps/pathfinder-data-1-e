@@ -153,20 +153,15 @@ const makeAbilityBlock = ({
 				//10 rounds/day per hunter level
 			} else if (useMod) {
 				const unit = useUnit || "time";
-				return [`${useMod} modifier ${unit}s/day`, unit]
+				const [mod, plus] = useMod.split(/(?<![0-9])(?=[0-9]+)/);
+				if(plus) {
+					return [`${plus} + ${mod} modifier ${unit}s/day`, unit];
+					//useMod=Wis1
+					//1 + Wis modifier times/day
+				}
+				return [`${mod} modifier ${unit}s/day`, unit];
+				//useMod=Wis
 				//Wis modifier times/day
-			} else if (useMod1) {
-				const unit = useUnit || "time";
-				return [`1 + ${useMod1} modifier ${unit}s/day`, unit]
-				//3 + Wis modifier times/day
-			} else if (useMod3) {
-				const unit = useUnit || "time";
-				return [`3 + ${useMod3} modifier ${unit}s/day`, unit]
-				//3 + Wis modifier times/day
-			} else if (useMod4) {
-				const unit = useUnit || "time";
-				return [`4 + ${useMod4} modifier ${unit}s/day`, unit]
-				//4 + Cha modifier times/day
 			}
 			return null;
 		})();

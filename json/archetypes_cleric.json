@@ -158,7 +158,7 @@
 			"",
 			"::ab[Speech of the Sea]{icon=power-down note=\"A crashing wave's bonus language options include Aquan in addition to the bonus languages available to the character from her race. The crashing wave does not gain Abyssal, Celestial, or Infernal as bonus language options.\" alter=\"Bonus languages\"}",
 			"",
-			":::ab{l=1 title=\"Balanced Channel (Su)\" icon=aura-zap-aid flavor=\"A crashing wave can channel the pure balance of the ocean - its wildness, its calm, its cruelty, and its gentleness.\" action=Standard provokes=No replace=\"Channel energy\" useMod3=Cha special=\"The cleric must be able to present her holy symbol to use this ability.\"}",
+			":::ab{l=1 title=\"Balanced Channel (Su)\" icon=aura-zap-aid flavor=\"A crashing wave can channel the pure balance of the ocean - its wildness, its calm, its cruelty, and its gentleness.\" action=Standard provokes=No replace=\"Channel energy\" useMod=Cha3 special=\"The cleric must be able to present her holy symbol to use this ability.\"}",
 			"",
 			"This energy can be used to harm or heal creatures, as the crashing wave chooses. Channeling this energy causes a 30-foot-radius ‹misc/burst› centered on the cleric. A crashing wave can choose whether to include herself in the effect.",
 			"",
@@ -344,7 +344,7 @@
 			"",
 			"::prereq{r=Tiefling other=\"Alignment must match patron's\"}",
 			"",
-			"::ab[Domains]{icon=info note=\"A fiendish vessel must select the ‹domain/Daemon›, ‹domain/Demon›, or ‹domain/Devil› subdomain as one of her domain choices, based on the fiendish patron she chooses to serve.\" useMod3=Cha provokes=No}",
+			"::ab[Domains]{icon=info note=\"A fiendish vessel must select the ‹domain/Daemon›, ‹domain/Demon›, or ‹domain/Devil› subdomain as one of her domain choices, based on the fiendish patron she chooses to serve.\" useMod=Cha3 provokes=No}",
 			"",
 			":::ab{title=\"Channel Evil (Su)\" action=\"Standard Action\" icon=aura special=\"For the purposes of feats that affect channel energy, this ability counts as channeling negative energy. If the feat changes the way the fiendish vessel channels or deals damage with her channeling, use the amount of damage this ability heals evil creatures to determine the damage-dealing potential of the affected ability. For instance, if a 5th-level fiendish vessel takes the ‹feat/Channel Smite› feat, her channeling deals an additional 3d4 points of damage to living creatures on a successful hit (though they may save to negate the damage).\" replace=\"Channel energy\"}",
 			"",
@@ -390,7 +390,7 @@
 			"",
 			"::ab[Divine Smith (Su)]{icon=boost passive=\"Whenever a forgemaster casts a spell that targets a weapon, shield, or armor, the spell takes effect at +1 caster level. If the spell has one or more metamagic feats applied, she reduces the total level adjustment to the spell by 1 (minimum 0).\"}",
 			"",
-			"::ab[Runeforger (Su)]{head icon=power useMod3=Int fullround=\"A forgemaster may inscribe mystical runes upon a suit of armor, shield, or weapon. These runes last 1 round per cleric level, but inscribing the same rune twice on an item increases this duration to 1 minute per level, three times to 10 minutes per level, and four times to 1 hour per level.\" special=\"‹spell/Erase› affects runes as magical writing. A forgemaster learns *forgemaster's blessing* at 1st level and may learn one additional rune at 2nd level and every 2 levels thereafter. Only one type of rune marked with an asterisk (&#42&) may be placed on an item at any given time.\" replace=\"Channel energy\"}",
+			"::ab[Runeforger (Su)]{head icon=power useMod=Int3 fullround=\"A forgemaster may inscribe mystical runes upon a suit of armor, shield, or weapon. These runes last 1 round per cleric level, but inscribing the same rune twice on an item increases this duration to 1 minute per level, three times to 10 minutes per level, and four times to 1 hour per level.\" special=\"‹spell/Erase› affects runes as magical writing. A forgemaster learns *forgemaster's blessing* at 1st level and may learn one additional rune at 2nd level and every 2 levels thereafter. Only one type of rune marked with an asterisk (&#42&) may be placed on an item at any given time.\" replace=\"Channel energy\"}",
 			"",
 			"::ab[Ancient Splendor]{next icon=boost passive=\"The inscribed weapon, armor, or shield grants a +2 circumstance bonus on Diplomacy and Intimidate checks (+4 when interacting with dwarves).\"}",
 			"",
@@ -660,7 +660,7 @@
 			"",
 			"::ab[Nimble (Ex)]{icon=def l1=\"The sacred attendant gains a +1 dodge bonus to AC and CMD when unarmored, unencumbered, and not denied her Dexterity bonus to AC (regardless of whether she has a Dexterity bonus).\" l2=\"The dodge bonus becomes +2.\" l6=\"The dodge bonus becomes +3.\" l10=\"The dodge bonus becomes +4.\" l14=\"The dodge bonus becomes +5.\" l18=\"The dodge bonus becomes +6.\" replace=\"Proficiency with light and medium armor\"}",
 			"",
-			"::ab[Nurture Grace (Su)]{l=1 icon=boost standard=\"The sacred attendant can coax forth the charm and beauty within a willing, touched creature. For 1 round, the subject gains an enhancement bonus equal to ‹misc/half› the sacred attendant's cleric level (minimum +1) on Charisma checks and Charisma-based skill checks. The sacred attendant can spend two uses of this ability to instead counsel a subject for 10 minutes; in this case, the ability's duration lasts for 1 day.\" useMod3=Wis}",
+			"::ab[Nurture Grace (Su)]{l=1 icon=boost standard=\"The sacred attendant can coax forth the charm and beauty within a willing, touched creature. For 1 round, the subject gains an enhancement bonus equal to ‹misc/half› the sacred attendant's cleric level (minimum +1) on Charisma checks and Charisma-based skill checks. The sacred attendant can spend two uses of this ability to instead counsel a subject for 10 minutes; in this case, the ability's duration lasts for 1 day.\" useMod=Wis3}",
 			"",
 			"::ab[Inspiring Camaraderie (Sp)]{l=8 icon=boost swift=\"Whenever a sacred attendant casts a ‹main/cure spell<s› that targets a single ally, the sacred attendant can infuse that ally with inspired vigor. For a number of rounds equal to 1/2 the sacred attendant's cleric level, the ally's attack rolls gain a competence bonus equal to the sacred attendant's cleric level. These rounds begin as soon as the sacred attendant uses this ability and elapse consecutively.\" useInc=\"4~cleric~8\"}"
 		]
@@ -768,7 +768,7 @@
 			"",
 			"::ab[Bonded Power (Su)]{next icon=power ability=\"A triadic priest gains either a witch's ‹hex/coven› hex or the ‹feat/Allied Spellcaster› feat as a bonus feat.\"}",
 			"",
-			"::ab[Bonded Unity (Su)]{next icon=power move=\"A triadic priest can share one ‹main/teamwork feat› she has with up to two bonded companions that are within 10 feet of her. Her bonded companions do not need to meet the feat's prerequisites and gain the benefits of the feat for 1 round plus 1 additional round for every 5 class levels the triadic priest has. A bonded companion can gain only one teamwork feat in this way at a time.\" useMod3=Wis}",
+			"::ab[Bonded Unity (Su)]{next icon=power move=\"A triadic priest can share one ‹main/teamwork feat› she has with up to two bonded companions that are within 10 feet of her. Her bonded companions do not need to meet the feat's prerequisites and gain the benefits of the feat for 1 round plus 1 additional round for every 5 class levels the triadic priest has. A bonded companion can gain only one teamwork feat in this way at a time.\" useMod=Wis3}",
 			"",
 			"::ab[Bonded Ritual]{next icon=magic l1=\"A triadic priest can prepare any of the spells below as though they were domain spells, though she can cast these domain spells only while she is within 10 feet of one of her bonded allies.\" l8=\"Once per day while within 10 feet of both her bonded allies, a triadic priest can cast any one of her domain spells of a spell level she can cast, whether she has prepared the spell or not, without expending a spell slot. If one of these domain spells has a casting time of more than one standard action, the triadic priest must succeed at a ‹rule/concentration› check (DC = 20 + double the spell's level) or lose the spell if at any point during the casting she does not have a bonded ally within 10 feet.\" note=\"The spells below are listed by spell level.\" s1=\"Ill omen\" s2=\"Blindness/deafness\" s3=\"Bestow curse\" s4=\"Charm monster\" s5=\"Baleful polymorph\" s6=\"Control weather\" s7=Forcecage s8=\"Mind blank\" s9=\"Astral projection\"}"
 		]

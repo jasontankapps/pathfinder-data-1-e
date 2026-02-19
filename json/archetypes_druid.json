@@ -933,7 +933,7 @@
 			"",
 			"::ab[Spirit Sense (Sp)]{l=1 icon=power ability=\"A menhir savant can detect the presence of undead; fey; outsiders; and astral, ethereal, or incorporeal creatures. This ability functions like ‹spell/detect undead›, and the druid detects all of these creatures rather than trying to detect one kind.\" replace=\"Nature sense~wild empathy\"}",
 			"",
-			"::ab[Place Magic (Su)]{l=2 icon=boost flavor=\"A menhir savant learns to identify and tap into ley lines in different types of terrain.\" free=\"She can tap into the magic of a nearby ley line and increase her caster level by +1 for 1 round.\" useMod3=Wis replace=\"Woodland stride~trackless step\"}",
+			"::ab[Place Magic (Su)]{l=2 icon=boost flavor=\"A menhir savant learns to identify and tap into ley lines in different types of terrain.\" free=\"She can tap into the magic of a nearby ley line and increase her caster level by +1 for 1 round.\" useMod=Wis3 replace=\"Woodland stride~trackless step\"}",
 			"",
 			"::ab[Walk the Lines (Su)]{l=9 icon=magic ability=\"A menhir savant can use her connection to ley lines to cast ‹spell/transport via plants›.\" useMod=Wis}",
 			"",
