@@ -33,15 +33,12 @@ const parseAtts = (attrs) => {
 	return false;
 };
 
-const mash = (previous, input) => {
-	if(previous) {
-		return `${input} ${previous}`;
-	}
-	return input;
-};
-
 let $swap = "";
 let $swaps = "";
+const resetSwaps = () => {
+	$swap = "";
+	$swaps = "";
+};
 const swap = ({plural, descriptor}) => {
 	if(descriptor) {
 		const next = descriptor.shift();
@@ -81,12 +78,13 @@ const makeAbilityBlock = ({
 		passive, ability,
 		order,
 		usage, useNC,
-		useL, useM, useInc, useL3, // default useUnit is "round"
-		useMod, useMod1, useMod3, useMod4, // default useUnit is "time"
+		useL, useM, useL3, // default useUnit is "round"
+		useMod, useInc, // default useUnit is "time"
 		useUnit,
 		containerInfo,
 		replace, alter, type, prereq
 	} = attrs;
+	resetSwaps();
 	const output = [];
 	const doParse = (input) => {
 		return marked2.parseInline(convertEncodedInfo(input));
@@ -644,7 +642,7 @@ const makeAbilityBlock = ({
 				} else {
 					const i = next - 1;
 					const b = repeatOrd ? ordinal(bonus) : ((repeatPlain || (bonus <= 0)) ? bonus : "+" + bonus);
-					imps[i] = mash(imps[i], `${msg} ${swap({plural, descriptor})} ${b}${end}`);
+					imps[i] = `${msg} ${swap({plural, descriptor})} ${b}${end}${imps[i] ? " " + imps[i] : ""}`;
 					last = next;
 					bonus += inc;
 				}
