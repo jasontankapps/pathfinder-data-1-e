@@ -144,7 +144,7 @@
 			"",
 			"::ab[Divine the Mysteries (Ex)]{l=5 icon=learn ability=\"A Harrowed Society student can select a ‹main/spells_>divination› spell from the spell list of any class, including classes that cast divine or psychic spells, and add it to her list of spells known. This spell must be at least 1 level lower than the highest-level spell she can cast.\" special=\"At every odd-numbered level beyond 5th (7th, 9th, 11th, and so on), a Harrowed Society student can select a new divination spell, following the same restrictions as above. She casts these spells as arcane spells, using her normal spell slots, but must use a harrow deck as an additional focus component. If such a spell is normally a psychic spell with an emotion or thought component, she must also add that component.\"}",
 			"",
-			":::ab{l=9 icon=boost-aid-lower action=\"Standard Action\" title=\"Trump Card (Su)\" replace=\"The 9th-level arcanist exploit\"}",
+			":::ab{l=9 icon=boost-def-aid-lower action=\"Standard Action\" title=\"Trump Card (Su)\" replace=\"The 9th-level arcanist exploit\"}",
 			"",
 			"A Harrowed Society student can expend 1 point from her arcane reservoir and draw a card from her harrow deck to learn her own fate or that of an ally within 30 feet. The target's fate depends on the suit of the card drawn from the deck.",
 			"",

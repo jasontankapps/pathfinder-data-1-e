@@ -182,7 +182,7 @@
 			"",
 			"::list[Associated Deities]{hl link=faith all=\"Arshea~Black Butterfly~Desna~Eaqueo~Falayna~Feronia~Khepri~Llamolaek~Lorris~Milani~Neshen~Scal~Shei~Sun Wukong~Taraksun~Vevelor~Xhasnaphar~Zaigasnar\"}",
 			"",
-			"::ab[Liberty's Blessing (Sp)]{replace=\"The ‹‹liberation/#lib›› power of the Liberation domain\" icon=aid standard=\"You touch a willing creature as a standard action, granting it a boon. A creature with this boon can, as a swift action, make a saving throw against a single spell or effect it is suffering from that grants a save. The DC of the saving throw is equal to the original DC of the spell or effect. If the saving throw is successful, the effect ends. This boon lasts for 1 minute or until successfully used to remove a spell or effect, whichever duration is shorter.\" useMod=Wis3}",
+			"::ab[Liberty's Blessing (Sp)]{replace=\"The ‹‹liberation/#lib›› power of the Liberation domain\" icon=protect standard=\"You touch a willing creature as a standard action, granting it a boon. A creature with this boon can, as a swift action, make a saving throw against a single spell or effect it is suffering from that grants a save. The DC of the saving throw is equal to the original DC of the spell or effect. If the saving throw is successful, the effect ends. This boon lasts for 1 minute or until successfully used to remove a spell or effect, whichever duration is shorter.\" useMod=Wis3}",
 			"",
 			"::spelllist[Replacement Domain Spells]{from=domain l1=sanctuary l5=\"plane shift\"}",
 			"",
@@ -425,7 +425,7 @@
 			"",
 			"@HL[Granted Powers:] You are a great leader, an inspiration to all who follow the teachings of your faith.",
 			"",
-			"::ab[Inspiring Word (Sp)]{id=word icon=aid standard=\"You can speak an inspiring word to a creature within 30 feet. That creature receives a +2 morale bonus on attack rolls, skill checks, ability checks, and saving throws for a number of rounds equal to 1/2 your cleric level (minimum 1).\" useMod=Wis3}",
+			"::ab[Inspiring Word (Sp)]{id=word icon=boost-protect standard=\"You can speak an inspiring word to a creature within 30 feet. That creature receives a +2 morale bonus on attack rolls, skill checks, ability checks, and saving throws for a number of rounds equal to 1/2 your cleric level (minimum 1).\" useMod=Wis3}",
 			"",
 			"::ab[Leadership (Ex)]{id=lead l=8 icon=power ability=\"You receive ‹feat/Leadership› as a bonus feat. In addition, you gain a +2 bonus on your leadership score as long as you uphold the tenets of your deity (or divine concept if you do not venerate a deity).\"}",
 			"",
@@ -614,7 +614,7 @@
 			"",
 			"::list[Associated Deities]{hl link=faith all=\"Aesocar~Andoletta~Anubis~Chadali~Jaidz~Lymnieris~Maat~Milani~Nephthys~Ondisso~Qi Zhong~Selket~Shelyn~Shelyn (pre-Earthfall)~Soralyon~Wadjet~Winlas\"}",
 			"",
-			"::ab[Purifying Touch (Su)]{replace=\"The ‹‹aura of protection/#aura›› power of the Protection domain\" l=8 icon=aid standard=\"You can touch a willing creature with divine power, giving it a saving throw against each effect currently affecting it, using the original saving throw DC of the effect. Each successful saving throw ends the related effect. The creature can choose not to make a save against an effect.\" useInc=\"6~cleric~8\"}",
+			"::ab[Purifying Touch (Su)]{replace=\"The ‹‹aura of protection/#aura›› power of the Protection domain\" l=8 icon=protect standard=\"You can touch a willing creature with divine power, giving it a saving throw against each effect currently affecting it, using the original saving throw DC of the effect. Each successful saving throw ends the related effect. The creature can choose not to make a save against an effect.\" useInc=\"6~cleric~8\"}",
 			"",
 			"::spelllist[Replacement Domain Spells]{from=domain l1=\"protection from chaos/evil/good/law\" l3=\"remove blindness/deafness\" l5=atonement}",
 			"",
@@ -708,7 +708,7 @@
 			"",
 			"The Lady of Graves seeks the destruction of undead, be they corporeal or manifested spirits. Inquisitors of ‹faith/Pharasma› scour the world for signs of the undead, destroying such abominations on sight by means both traditional and esoteric in nature. As a result, most people come first to the church of Pharasma when seeking assistance against foul spirits. One unusual facet of Pharasma's faithful is their reluctance to excise non-undead spirits, such as demons or devils. Only the most altruistic of Pharasmin priests offer their services against possessing outsiders, as most faithful see battling such foes as being beyond their true calling.",
 			"",
-			"::ab[Exorcism of Undeath (Sp)]{replace=\"The ‹‹ward against death/#ward›› domain power of the Repose domain\" icon=aid fullround=\"You can try to end any possession spells or effects, or effects that directly exercise mental control over a creature, as long as the effect was caused by an undead creature. You must touch the affected creature (this requires a melee touch attack if the target is neither willing nor helpless) and use a vial of ‹eq-weapon/holy water› as a material component that is consumed as part of using this ability. The target must immediately attempt a new Will save against the original save DC of the controlling effect. If the save is successful, the possession effect immediately ends, as if the target had succeeded at its original saving throw. If the possessing force is a ‹template/ghost› or similar undead, it manifests adjacent to the target and is ‹misc/staggered› for 1 round.\" usage=\"Once per day\"}"
+			"::ab[Exorcism of Undeath (Sp)]{replace=\"The ‹‹ward against death/#ward›› domain power of the Repose domain\" icon=protect fullround=\"You can try to end any possession spells or effects, or effects that directly exercise mental control over a creature, as long as the effect was caused by an undead creature. You must touch the affected creature (this requires a melee touch attack if the target is neither willing nor helpless) and use a vial of ‹eq-weapon/holy water› as a material component that is consumed as part of using this ability. The target must immediately attempt a new Will save against the original save DC of the controlling effect. If the save is successful, the possession effect immediately ends, as if the target had succeeded at its original saving throw. If the possessing force is a ‹template/ghost› or similar undead, it manifests adjacent to the target and is ‹misc/staggered› for 1 round.\" usage=\"Once per day\"}"
 		]
 	},
 	"ancestors": { "redirect": "repose" },
@@ -1151,7 +1151,7 @@
 			"",
 			"While the church of ‹faith/Asmodeus› periodically endorses the use of possession for certain reasons, it is usually vehemently against unsanctioned possession and the creation of uncontrolled undead forces. Asmodeans have a particular hatred for celestials who partake in acts of possession. Such outsiders are hunted down, and the Church of Asmodeus may offer its exorcising agents' services pro bono for the chance to strike at a particularly hated celestial. The eventual consequence of such arrangements - often left unsaid - is that Asmodeans track those they have helped in this way, and often return to force those individuals to host a ‹family/devil› for a period of predetermined length as recompense for their prior service.",
 			"",
-			"::ab[Deceptive Reprieve (Sp)]{replace=\"The ‹‹copycat/#cat›› power of the Trickery domain\" icon=aid standard=\"When you touch a creature under direct mental control (such as that granted via ‹spell/dominate person›, but not via ‹spell/charm person›) or the victim of ‹rule/possession›, that creature can attempt a new Will save against the control or possession effect with a +2 bonus. If the creature succeeds, the effect or possession is temporarily halted, as per ‹spell/protection from evil›, for a number of rounds equal to 1/2 your character level. While this ability is active, the target takes a -2 penalty on saves against new mind-affecting effects and new attempts at possession.\" useMod=Wis3}"
+			"::ab[Deceptive Reprieve (Sp)]{replace=\"The ‹‹copycat/#cat›› power of the Trickery domain\" icon=protect standard=\"When you touch a creature under direct mental control (such as that granted via ‹spell/dominate person›, but not via ‹spell/charm person›) or the victim of ‹rule/possession›, that creature can attempt a new Will save against the control or possession effect with a +2 bonus. If the creature succeeds, the effect or possession is temporarily halted, as per ‹spell/protection from evil›, for a number of rounds equal to 1/2 your character level. While this ability is active, the target takes a -2 penalty on saves against new mind-affecting effects and new attempts at possession.\" useMod=Wis3}"
 		]
 	},
 	"ambush": { "redirect": "trickery" },
