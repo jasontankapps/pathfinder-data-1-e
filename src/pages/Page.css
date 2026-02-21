@@ -255,7 +255,7 @@ div.basicContent ion-item.mainItem {
 	user-select: text;
 }
 div.basicContent.simple {
-	padding-inline: 1em;
+	padding-inline: 1rem;
 	padding-block-end: 1rem;
 }
 ion-content hr {
@@ -525,9 +525,7 @@ div.tableWrap {
 	/*
 		56px page header, (3.5rem)
 		56px page footer, (3.5rem)
-		16px margin on filter button, (1rem)
-		filter button min-height (2.1em)
-	max-height: calc(100vh - 3.5rem - 3.5rem - 1rem - 2.1em - 1rem);
+		16px extra margin (1rem)
 	*/
 	max-height: calc(100vh - 3.5rem - 3.5rem - 1rem);
 	margin: 0 auto;
@@ -947,7 +945,6 @@ section.talentTree ul li {
 
 /* Scrolling via InnerLink */
 
-/*div,h2,h3,h4,h5,h6,p,b,i,strong,em,blockquote,aside,li,span,ion-item-divider*/
 *[data-hash-target],
 ion-item-divider[id],
 section[data-footnotes] li[id] {
@@ -1074,7 +1071,6 @@ div.ability:nth-of-type(even) {
 	--ab-border: var(--ion-color-quinary-border);
 }
 div.ability {
-	background: var(--table-bg);
 	background: var(--ab-background);
 	margin-inline: 0.25rem;
 	display: grid;
@@ -1104,7 +1100,6 @@ div.abIcon {
 	align-items: center;
 	justify-content: center;
 	gap: 1rem;
-	border-color: var(--table-border-color);
 	border-color: var(--ab-border);
 	border-style: solid;
 	border-width: 0;
@@ -1122,19 +1117,16 @@ div.abSingle {
 	grid-column: 2;
 	place-self: stretch;
 	border-style: solid;
-	border-color: var(--table-border-color);
 	border-color: var(--ab-border);
 	border-width: 0;
 	border-block-end-width: 2px;
 }
 div.abSingle.title {
 	color: var(--ion-color-step-950);
-	background: var(--ion-color-step-200);
 	background: var(--ab-header);
 	border-start-end-radius: 0.75rem;
 	font-weight: bold;
 	text-align: center;
-	/*border-inline-start-width: 2px;*/
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
@@ -1151,11 +1143,9 @@ div.abPair {
 	grid-column: 2;
 	place-self: stretch;
 	border-style: solid;
-	border-color: var(--table-border-color);
 	border-color: var(--ab-border);
 	border-width: 0;
 	border-block-end-width: 2px;
-	/*border-inline-start-width: 2px;*/
 	position: relative;
 }
 div:is(.abStart,.abEnd),
@@ -1177,7 +1167,6 @@ div.abStart {
 	width: min-content;
 	min-width: 25%;
 	max-width: 75%;
-	background-color: var(--ion-color-step-150);
 	background-color: var(--ab-subheader);
 	margin: 0;
 	margin-inline-end: 0.5rem;
@@ -1211,11 +1200,9 @@ div.ability.hasSubs {
 	counter-reset: subcount 0;
 }
 div.ability.hasSubs :is(div.abSingle:last-child, div.abPair:last-child) {
-	border-block-end: 2px solid var(--table-border-color);
 	border-block-end: 2px solid var(--ab-border);
 }
 div.subAbility {
-	/* background: var(--ion-item-background); */
 	--ab-background: var(--ion-color-quaternary-bg);
 	--ab-header: var(--ion-color-quaternary-subheader);
 	--ab-subheader: var(--ion-color-quaternary);
@@ -1224,10 +1211,9 @@ div.subAbility {
 	margin-block-start: 0;
 	margin-block-end: 0;
 	border-radius: 0;
-	grid-template-columns: 2.5rem 4fr;
+	grid-template-columns: calc(2.5rem + 2px) 4fr;
 }
 div.ability:nth-of-type(even):is(div.subAbility) {
-	/* background: var(--ion-item-background); */
 	--ab-background: var(--ion-color-quinary-bg);
 	--ab-header: var(--ion-color-quinary-subheader);
 	--ab-subheader: var(--ion-color-quinary);
@@ -1238,10 +1224,8 @@ div.subAbility div.abIcon {
 }
 div.subAbility div.abIcon + div.abSingle {
 	grid-column: 1 / span 2;
-	/* border-inline-start-width: 0; */
 }
 div.subAbility div.abSingle.title {
-	/* background: var(--table-bg); */
 	counter-increment: subcount 1;
 	text-align: start;
 	border-radius: 0;
@@ -1252,11 +1236,7 @@ div.subAbility div.abSingle.title {
 div.subAbility.numbered div.abSingle.title {
 	counter-increment: subcount 1;
 }
-/*div.subAbility div.abStart {
-	background: var(--table-bg);
-}*/
 div.subAbility + div.subAbility {
-	border-block-start: 2px solid var(--table-border-color);
 	border-block-start: 2px solid var(--ab-border);
 }
 div.subAbility div.abSingle.title {
@@ -1272,14 +1252,33 @@ div.subAbility.numbered div.abSingle.title::before {
 /* div.subAbility:not(div.subAbility + div.subAbility):has(+ *:not(div.subAbility)) */
 div.subAbility:has(+ *:not(div.subAbility)),
 div.subAbility:last-child {
-	/* background: var(--ion-item-background); */
 	margin-block-end: 1rem;
 	border-radius: 0 0 0.75rem 0.75rem;
 }
 div:is(.ability, .subAbility) div.box {
-	/*display: inline-block;*/
 	padding-block: 0.25rem;
 	padding-inline: 0.5rem;
+}
+div.ability div.box div.tableWrap {
+	width: auto;
+	max-width: calc(
+		100vw
+		- 1rem    /* .box padding */
+		- 2rem    /* div.basicContent.simple padding */
+		- 0.5rem  /* div.ability margin */
+		- 2.5rem  /* Icon column */
+		- 2px     /* Icon column border */
+	);
+}
+div.subAbility div.box div.tableWrap {
+	max-width: calc(
+		100vw
+		- 1rem    /* .box padding */
+		- 2rem    /* div.basicContent.simple padding */
+		- 3rem    /* div.subAbility margin */
+		- 2.5rem  /* Icon column */
+		- 2px     /* Icon column border */
+	);
 }
 
 
