@@ -567,23 +567,30 @@ const makeAbilityBlock = ({
 	) {
 		const imps = [imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20];
 		if(repeat) {
-			// msg ~ lev start ~ lev inc ~~ msg... ~~ msg...
+			// msg ~ lev start ~ lev inc (~ lev max)? ~~ msg... ~~ msg...
 			const all = repeat.split(/~~/);
 			while(all.length > 0) {
-				const [msg, starter, increment = 1] = all.shift().split(/~/);
+				const [msg, starter, increment = 1, maximum = 20] = all.shift().split(/~/);
+				const m = Number(maximum);
+				let max = 20;
+				if(m !== m || m < 2 || m >= 21) {
+					logError(`Invalid maximum level in \`repeat\` attribute [${maximum}].`);
+				} else {
+					max = Math.floor(m);
+				}
 				const l = Number(starter);
-				if(l !== l || l >= 20) {
+				if(l !== l || l > max) {
 					logError(`Invalid level in \`repeat\` attribute [${starter}].`);
 					continue;
 				}
-				const i = Number(starter);
+				const i = Number(increment);
 				if(i !== i || i < 1) {
 					logError(`Invalid increment in \`repeat\` attribute [${increment}].`);
 					continue;
 				}
 				let level = Math.floor(l) - 1; // imps array is 0-based
 				const inc = Math.floor(i);
-				while(level < 20) {
+				while(level < max) {
 					imps[level] = `${msg}${imps[level] ? " " + imps[level] : ""}`;
 					level += inc;
 				}
@@ -591,7 +598,7 @@ const makeAbilityBlock = ({
 		}
 		if(repeatAt) {
 			// msg ~ lev ~ lev ~ lev... ~~ msg ~ lev... ...
-			const all = repeat.split(/~~/);
+			const all = repeatAt.split(/~~/);
 			while(all.length > 0) {
 				const [msg, ...etc] = all.shift().split(/~/);
 				etc.map(e => {
@@ -602,7 +609,8 @@ const makeAbilityBlock = ({
 					}
 					return Math.floor(x);
 				}).filter(e => e).forEach(level => {
-					imps[level] = `${msg}${imps[level] ? " " + imps[level] : ""}`;
+					const lv = level - 1;  // imps is a 0-based array
+					imps[lv] = `${msg}${imps[lv] ? " " + imps[lv] : ""}`;
 				});
 			}
 		}
