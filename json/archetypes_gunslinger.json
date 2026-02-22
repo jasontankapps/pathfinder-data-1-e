@@ -266,7 +266,7 @@
 			"",
 			"::ab[Staggering Shot (Ex)]{next l=15 icon=lower passive=\"When the gulch gunner hits an adjacent target with a ranged firearm attack, the target must also make a Fortitude save (DC 10 + 1/2 the gulch gunner's level + the gulch gunner's Wisdom modifier) or be ‹misc/staggered› for 1d4 rounds.\" replace=\"‹deed/Menacing shot› deed\"}",
 			"",
-			"::ab[Belly Shot (Ex)]{l=9 icon=boost flavor=\"A gulch gunner can press her firearm directly against a vulnerable location of an adjacent target, dealing additional damage.\" ability=\"When the gulch gunner successfully hits an adjacent target with a ranged firearm attack, she deals +1d6 points of damage.\" special=\"Creatures immune to ‹misc/precision damage›, critical hits, or sneak attacks do not take this additional damage.\" repeat=\"The extra damage~9~4\" repeatEnd=\"d6.\" replace=\"Gun training ability gained at 9th, 13th, and 17th level\"}"
+			"::ab[Belly Shot (Ex)]{l=9 icon=boost flavor=\"A gulch gunner can press her firearm directly against a vulnerable location of an adjacent target, dealing additional damage.\" ability=\"When the gulch gunner successfully hits an adjacent target with a ranged firearm attack, she deals +1d6 points of damage.\" special=\"Creatures immune to ‹misc/precision damage›, critical hits, or sneak attacks do not take this additional damage.\" increment=\"The extra damage~9~4\" incrementEnd=\"d6.\" replace=\"Gun training ability gained at 9th, 13th, and 17th level\"}"
 		]
 	},
 	"gun_scavenger": {
@@ -298,7 +298,7 @@
 			"",
 			"::ab[Jury-Rig (Ex)]{next l=7 icon=power-magic standard=\"A gun scavenger can adjust a firearm she is currently wielding to fire in an unconventional way. She can spend 1 grit point to grant her firearm one of the following magic weapon enhancements for 1 round per gunslinger level: ‹magic-enh/distance›, ‹magic-enh/flaming›, ‹magic-enh/glamered<_w›, or ‹magic-enh/thundering›. If she spends 2 grit points, she can instead grant the firearm ‹magic-enh/flaming burst› or ‹magic-enh/stalking›.\" special=\"Multiple uses of this ability don't stack with themselves.\" replace=\"‹deed/Targeting› deed\"}",
 			"",
-			"::ab[Arbitrary Aim (Ex)]{l=2 icon=lower flavor=\"A gun scavenger's attacks with firearms are difficult to predict.\" passive=\"When shooting a firearm at a creature that has a dodge or insight bonus to its Armor Class, the gun scavenger treats the combined bonus as if it were 1 lower.\" repeatPlain=\"The reduction~2~4\" replace=Nimble}"
+			"::ab[Arbitrary Aim (Ex)]{l=2 icon=lower flavor=\"A gun scavenger's attacks with firearms are difficult to predict.\" passive=\"When shooting a firearm at a creature that has a dodge or insight bonus to its Armor Class, the gun scavenger treats the combined bonus as if it were 1 lower.\" incrementPlain=\"The reduction~2~4\" replace=Nimble}"
 		]
 	},
 	"gun_tank": {
@@ -380,7 +380,7 @@
 			"",
 			"::ab[Rapid Reloader]{l=1 icon=power ability=\"A musket master gains ‹feat/Rapid Reload› (muskets) as a bonus feat.\"}",
 			"",
-			"::ab[Musket Training (Ex)]{l=5 icon=boost-def ability=\"A musket master increases her skill with two-handed firearms. She gains a bonus on damage rolls equal to her Dexterity modifier, and when she misfires with a two-handed firearm, the misfire value increases by 2 instead of 4.\" repeat=\"The damage bonus~5~4~1\" replace=\"Firearm training 1, 2, 3, and 4\"}"
+			"::ab[Musket Training (Ex)]{l=5 icon=boost-def ability=\"A musket master increases her skill with two-handed firearms. She gains a bonus on damage rolls equal to her Dexterity modifier, and when she misfires with a two-handed firearm, the misfire value increases by 2 instead of 4.\" increment=\"The damage bonus~5~4~1\" replace=\"Firearm training 1, 2, 3, and 4\"}"
 		]
 	},
 	"mysterious_stranger": {
@@ -400,7 +400,7 @@
 			"",
 			"::ab[Clipping Shot (Ex)]{next l=11 icon=ranged ability=\"When the mysterious stranger misses with a firearm attack, she can spend 1 grit point to deal half the damage that attack would have dealt if it were a hit (roll damage normally). She can decide to use this deed and spend the grit point after making the attack. This deed has no effect if the attack used the *dead shot* deed.\" special=\"The cost of using this deed cannot be reduced with the ‹feat/Signature Deed› feat, the true grit class feature, or any similar effect.\" replace=\"‹deed/Bleeding wound› deed\"}",
 			"",
-			"::ab[Lucky (Ex)]{l=2 icon=def passive=\"A mysterious stranger gains a +1 luck bonus on Will saving throws.\" repeat=\"This bonus~2~4\" replace=Nimble}",
+			"::ab[Lucky (Ex)]{l=2 icon=def passive=\"A mysterious stranger gains a +1 luck bonus on Will saving throws.\" increment=\"This bonus~2~4\" replace=Nimble}",
 			"",
 			"::ab[Stranger's Fortune (Ex)]{l=5 icon=def free=\"A mysterious stranger can ignore a firearm misfire.\" useMod=Cha replace=\"Gun training 1\"}"
 		]
@@ -427,7 +427,7 @@
 			"",
 			"::ab[Twin Shot Knockdown (Ex)]{next l=11 icon=boost ability=\"When the pistolero hits a single target with two or more one-handed firearm attacks during her turn, she can spend 1 grit point to knock the target ‹rule/prone›. She can choose to spend the grit point after the attacks are made.\" replace=\"‹deed/Bleeding wound› deed\"}",
 			"",
-			"::ab[Pistol Training (Ex)]{l=5 icon=boost passive=\"A pistolero increases her skill with one-handed firearms. She gains a bonus on damage rolls equal to her Dexterity modifier, and when she misfires with a one-handed firearm, the misfire value increases by 2 instead of 4.\" repeat=\"The bonus on damage rolls~5~4\" replace=\"Gun training 1-4\"}"
+			"::ab[Pistol Training (Ex)]{l=5 icon=boost passive=\"A pistolero increases her skill with one-handed firearms. She gains a bonus on damage rolls equal to her Dexterity modifier, and when she misfires with a one-handed firearm, the misfire value increases by 2 instead of 4.\" increment=\"The bonus on damage rolls~5~4\" replace=\"Gun training 1-4\"}"
 		]
 	},
 	"planar_rifter": {
@@ -488,7 +488,7 @@
 			"",
 			":::",
 			"",
-			"::ab[Overload (Ex)]{next l=7 icon=boost flavor=\"A scatter gunner knows just how to hold his weapon to maximize its devastating scattering effects.\" fullround=\"A scatter gunner can make a scattering shot to fire a concentrated payload of pellets that strains his firearm. This doubles the area affected by the scattering shot (a 30-foot cone for most early firearms), increases the firearm's misfire value by 2, and causes each successful attack to deal an additional 1d6 points of damage that is not multiplied on a critical hit. The scatter gunner must spend 1 grit point to perform this deed.\" repeatPlain=\"The additional damage~7~6\" repeatEnd=\"d6.\" replace=\"‹deed/Dead shot› deed\"}",
+			"::ab[Overload (Ex)]{next l=7 icon=boost flavor=\"A scatter gunner knows just how to hold his weapon to maximize its devastating scattering effects.\" fullround=\"A scatter gunner can make a scattering shot to fire a concentrated payload of pellets that strains his firearm. This doubles the area affected by the scattering shot (a 30-foot cone for most early firearms), increases the firearm's misfire value by 2, and causes each successful attack to deal an additional 1d6 points of damage that is not multiplied on a critical hit. The scatter gunner must spend 1 grit point to perform this deed.\" incrementPlain=\"The additional damage~7~6\" incrementEnd=\"d6.\" replace=\"‹deed/Dead shot› deed\"}",
 			"",
 			"::ab[Satchel Shot (Ex)]{next l=7 icon=ranged fullround=\"A scatter gunner can load and fire an explosive shell, consuming ammunition as though he had made a scattering shot. This functions like ‹rule/throw«ing a» splash weapon› at a grid intersection but uses his firearm's range increment, attack bonus, and magic special abilities (if any). The shell affects creatures in a 10-foot radius as though the scatter gunner had made a scattering shot against them, and damaged creatures must succeed at a Reflex save (DC = 10 + half the scatter gunner's level + the scatter gunner's Dexterity modifier) or ‹rule/catch fire›.\" replace=\"‹deed/Targeting› deed\"}"
 		]
@@ -550,7 +550,7 @@
 			"",
 			"::cskill{gain=\"Sense Motive\" lose=Bluff}",
 			"",
-			"::ab[Hair-Trigger Reflexes (Ex)]{l=2 icon=power-boost order=ap ability=\"As long as she has at least 1 grit point, a thronewarden can act in a surprise round even if she doesn't notice her enemies, though she remains ‹rule/flat-footed› until she acts.\" passive=\"She gains a +1 bonus on initiative checks.\" repeat=\"The initiative bonus~2~4\" imp10=\"She can spend 1 grit point to take both a @HLstandard_action and a @HLmove_action (or a @HLfull-round_action) during the surprise round.\" replace=Nimble}",
+			"::ab[Hair-Trigger Reflexes (Ex)]{l=2 icon=power-boost order=ap ability=\"As long as she has at least 1 grit point, a thronewarden can act in a surprise round even if she doesn't notice her enemies, though she remains ‹rule/flat-footed› until she acts.\" passive=\"She gains a +1 bonus on initiative checks.\" increment=\"The initiative bonus~2~4\" imp10=\"She can spend 1 grit point to take both a @HLstandard_action and a @HLmove_action (or a @HLfull-round_action) during the surprise round.\" replace=Nimble}",
 			"",
 			"::ab[Eye for Trouble (Ex)]{l=4 icon=boost ability=\"A thronewarden can spend 1 grit point when she attempts a Perception or Sense Motive check to roll 1d6 and add the result to the check. She can do this after she attempts the check but only before the result is revealed.\" replace=\"The bonus feat gained at 4th level\"}",
 			"",

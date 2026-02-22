@@ -1229,7 +1229,7 @@
 			"",
 			"::ab[Evasion (Ex)]{jl=strip l=2 icon=def passive=\"If you make a successful Reflex saving throw against an attack that normally deals half damage on a successful save, you instead takes no damage.\" special=\"This only applies if you are wearing light armor or no armor, and are not ‹misc/helpless›\"}",
 			"",
-			"::ab[Fast Movement (Ex)]{jl=\"Third-Level Abilities\" l=3 icon=boost passive=\"You gain an enhancement bonus of +10 ft. to your land speed.\" repeat=\"The bonus~3~3~20~10\" repeatEnd=\" ft.\" special=\"If you wear armor or carry a medium or heavy load, you lose this extra speed.\"}",
+			"::ab[Fast Movement (Ex)]{jl=\"Third-Level Abilities\" l=3 icon=boost passive=\"You gain an enhancement bonus of +10 ft. to your land speed.\" increment=\"The bonus~3~3~20~10\" incrementEnd=\" ft.\" special=\"If you wear armor or carry a medium or heavy load, you lose this extra speed.\"}",
 			"",
 			"::ab[Maneuver Training (Ex)]{l=3 icon=melee passive=\"You use your monk level in place of your base attack bonus when calculating your Combat Maneuver Bonus. Base attack bonuses granted from other classes are unaffected and are added normally.\"}",
 			"",

@@ -70,8 +70,8 @@ const makeAbilityBlock = ({
 		s11,s12,s13,s14,s15,s16,s17,s18,s19,s20,
 		imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,
 		imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20,
-		repeat,repeatAt,repeatEnd,
-		repeatPlain,repeatDesc,repeatOrd,
+		increment,incrementAt,incrementEnd,
+		incrementPlain,incrementDesc,incrementOrd,
 		standard, swift, immediate,
 		fullround, move, free,
 		provokes, special, note, choice,
@@ -556,20 +556,20 @@ const makeAbilityBlock = ({
 		);
 	}
 	//
-	// LEVEL-BASED IMPROVEMENTS, REPEAT
+	// LEVEL-BASED IMPROVEMENTS, INCREMENT
 	//
 	if(
 		imp1 || imp2 || imp3 || imp4 || imp5 || imp6 || imp7 || imp8 || imp9 || imp10
 		|| imp11 || imp12 || imp13 || imp14 || imp15 || imp16 || imp17 || imp18 || imp19 || imp20
-		|| repeat || repeatAt || repeatEnd || repeatPlain
+		|| increment || incrementAt || incrementEnd || incrementPlain || incrementOrd || incrementDesc
 	) {
 		const imps = [imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20];
-		if(repeat || repeatPlain || repeatAt || repeatOrd) {
-			// msg, lev start, lev inc, b start, b inc
-			//      repeat "(p!)?This bonus~Ls~Li~Bs?~Bi?" (also repeatPlain and repeatOrd)
-			//    repeatAt "(p!)?This bonus~L1~L2~L3...~Bs/Bi?"
-			//   OR repeatPlain/repeatOrd can be used as a flag with `repeat` OR `repeatAt`
-			const [message, ...etc] = (repeatAt || repeat || repeatPlain || repeatOrd).split(/~/);
+		if(increment || incrementPlain || incrementAt || incrementOrd) {
+			// msg ~ lev start ~ lev inc ~ b start ~ b inc
+			//      increment "(p!)?This bonus~Ls~Li~Bs?~Bi?" (also incrementPlain and incrementOrd)
+			//    incrementAt "(p!)?This bonus~L1~L2~L3...~Bs/Bi?"
+			//   OR incrementPlain/incrementOrd can be used as a flag with `increment` OR `incrementAt`
+			const [message, ...etc] = (incrementAt || increment || incrementPlain || incrementOrd).split(/~/);
 			let plural = false;
 			const msg = (() => {
 				if(message.startsWith("p!")) {
@@ -578,53 +578,53 @@ const makeAbilityBlock = ({
 				}
 				return message;
 			})();
-			const end = repeatEnd || ".";
+			const end = incrementEnd || ".";
 			const ats = [];
 			let bonus = 0;
 			let inc = 0;
-			if(repeatAt) {
+			if(incrementAt) {
 				const bonuses = (etc.pop() || "").split(/[/]/);
 				const [bb, bi = 1] = bonuses.map(b => {
-					const n = Math.floor(Number(b));
+					const n = Number(b);
 					if(!n) {
-						logError(`Invalid value [${b}] at end of \`repeatAt\` attribute.`);
+						logError(`Invalid value [${b}] at end of \`incrementAt\` attribute.`);
 						return 1;
 					}
-					return n;
+					return Math.floor(n);
 				});
 				bonus = bb;
 				inc = bi;
 				ats.push(...etc.map(e => {
-					const n = Math.floor(Number(e));
+					const n = Number(e);
 					if(!n || n < 0 || n > 20) {
-						logError(`Invalid value [${e}] in \`repeatAt\` attribute.`);
+						logError(`Invalid value [${e}] in \`incrementAt\` attribute.`);
 						return 0;
 					}
-					return n;
+					return Math.floor(n);
 				}).filter(n => n));
 			} else {
-				//repeat || repeatPlain || repeatOrd
+				//increment || incrementPlain || incrementOrd
 				if(etc.length < 2) {
-					logError(`Invalid length of \`repeat\` attribute.`);
+					logError(`Invalid length of \`increment\` attribute.`);
 					etc.push("1", "1", "1"); // pad it out
 				}
 				const [start, add, bb = 2, bi = 1] = etc.map((e, i) => {
-					const n = Math.floor(Number(e));
+					const n = Number(e);
 					if(!n && i) {
 						// `start` can be 0
-						logError(`Invalid value [${e}] in \`repeat\` attribute.`);
+						logError(`Invalid value [${e}] in \`increment\` attribute.`);
 						return 1;
 					}
-					return n;
+					return Math.floor(n);
 				});
 				bonus = bb;
 				inc = bi;
 				let level = start + add;
 				if(level <= 0) {
-					logError(`Invalid level formula in \`repeat\` attribute: [${etc[0]} + ${etc[1]} = ${level}]`);
+					logError(`Invalid level formula in \`increment\` attribute: [${etc[0]} + ${etc[1]} = ${level}]`);
 					level = 25;
 				} else if (add <= 0) {
-					logError(`Invalid level increment [${add}] in \`repeat\` attribute.`);
+					logError(`Invalid level increment [${add}] in \`increment\` attribute.`);
 					level = 25;
 				}
 				while (level <= 20) {
@@ -634,21 +634,23 @@ const makeAbilityBlock = ({
 			}
 			ats.sort((a,b) => (a - b));
 			let last = 0;
-			const descriptor = repeatDesc && repeatDesc.split(/~/);
+			const descriptor = incrementDesc && incrementDesc.split(/~/);
 			while(ats.length > 0) {
 				const next = ats.shift();
 				if(next === last) {
-					logError(`Duplicate value [${next}] in \`repeatAt\` attribute.`);
+					logError(`Duplicate value [${next}] in \`incrementAt\` attribute.`);
 				} else {
 					const i = next - 1;
-					const b = repeatOrd ? ordinal(bonus) : ((repeatPlain || (bonus <= 0)) ? bonus : "+" + bonus);
+					const b = incrementOrd ? ordinal(bonus) : ((incrementPlain || (bonus <= 0)) ? bonus : "+" + bonus);
 					imps[i] = `${msg} ${swap({plural, descriptor})} ${b}${end}${imps[i] ? " " + imps[i] : ""}`;
 					last = next;
 					bonus += inc;
 				}
 			}
-		} else if (repeatEnd) {
-			logError("Extraneous `repeatEnd` attribute.")
+		} else if (incrementEnd) {
+			logError("Extraneous `incrementEnd` attribute.")
+		} else if (incrementDesc) {
+			logError("Extraneous `incrementDesc` attribute.")
 		}
 		imps.forEach((text, i) => {
 			if(!text) {

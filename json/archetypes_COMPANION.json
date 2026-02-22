@@ -84,7 +84,7 @@
 			"",
 			"::ab[Native Environment (Ex)]{icon=power-boost choice=\"An apex species selects a specific terrain type from the ranger's list of ‹ability/favored terrain«s›.\" order=cp passive=\"While in its chosen terrain, the apex species gains a bonus equal to ‹misc/half› its level on checks and saves to deal with environmental hazards. An apex species may not select a plane as its native environment.\" replace=\"Share Spells\"}",
 			"",
-			"::ab[Favored Terrain (Ex)]{l=3 icon=boost passive=\"The apex species gains the ranger's ‹ability/favored terrain› ability for the terrain that matches its native environment, except that the bonus is +1 instead of the ranger's +2.\" repeat=\"The bonus~3~5\" special=\"The animal companion does not gain additional favored terrains.\" replace=Evasion}",
+			"::ab[Favored Terrain (Ex)]{l=3 icon=boost passive=\"The apex species gains the ranger's ‹ability/favored terrain› ability for the terrain that matches its native environment, except that the bonus is +1 instead of the ranger's +2.\" increment=\"The bonus~3~5\" special=\"The animal companion does not gain additional favored terrains.\" replace=Evasion}",
 			"",
 			":::ab{l=6 title=\"Natural Selection (Ex)\" action=Ability icon=def replace=\"Devotion~Improved Evasion\"}",
 			"",

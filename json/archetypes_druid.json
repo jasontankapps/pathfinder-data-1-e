@@ -330,7 +330,7 @@
 			"",
 			"::ab[Fey Empathy (Ex)]{icon=boost passive=\"A defender of the true world gains a competence bonus on Bluff, Diplomacy, and Intimidate checks when interacting with fey creatures. This bonus is equal to 2 + ‹misc/one-fourth› of her druid level.\" replace=\"Wild empathy\"}",
 			"",
-			"::ab[Fey Stalker (Ex)]{l=3 icon=boost passive=\"The defender of the true world's animal companion and any creatures she summons with *summon nature's ally* gain a +1 morale bonus on attack and damage rolls against fey creatures.\" repeat=\"The bonus~3~5\" replace=\"Trackless step\"}",
+			"::ab[Fey Stalker (Ex)]{l=3 icon=boost passive=\"The defender of the true world's animal companion and any creatures she summons with *summon nature's ally* gain a +1 morale bonus on attack and damage rolls against fey creatures.\" increment=\"The bonus~3~5\" replace=\"Trackless step\"}",
 			"",
 			"::ab[Feybane (Ex)]{l=4 icon=down-boost passive=\"A defender of the true world doesn't gain a bonus on saving throws against spells and effects that utilize or target plants. She instead treats her natural attacks as cold iron for the purpose of overcoming damage reduction, and she gains a +2 bonus on caster level checks to overcome the spell resistance of fey creatures.\" alter=\"Resist nature's lure\"}",
 			"",
