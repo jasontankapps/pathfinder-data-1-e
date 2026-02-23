@@ -1089,7 +1089,7 @@
 			"",
 			"::cskill{gain=\"Bluff~Diplomacy~Disguise~Sense Motive~Perform« (any)~Stealth\" post=\"This also replaces the Nature Sense ability\"}",
 			"",
-			"::ab[Nature Bond (Su)]{icon=down-boost choice=\"A Nithveil adept cannot select an animal companion, and can take only a domain. If she worships an ‹main/Eldest»<faiths_pantheons›, the Nithveil trickster can choose any of the domains or subdomains granted by that Eldest in addition to those normally available to druids.\" alter=\"Nature bond\"}",
+			"::ab[Nature Bond (Su)]{icon=down-boost choice=\"A Nithveil adept cannot select an animal companion, and can take only a domain. If she worships an ‹rule/Eldest›, the Nithveil trickster can choose any of the domains or subdomains granted by that Eldest in addition to those normally available to druids.\" alter=\"Nature bond\"}",
 			"",
 			"::ab[Animal Speech (Su)]{icon=magic flavor=\"A Nithveil adept can imbue normal animals with the ability to speak for a brief period.\" standard=\"The Nithveil adept can touch an animal to grant it the ability to speak any language the druid knows for 1 minute per druid level. This does not increase the animal's Intelligence or improve its attitude, and the animal behaves as though communicating with someone under the effects of a ‹spell/speak with animals› spell, save that it can speak with anyone who understands the language the Nithveil adept grants it.\" usage=\"A number of times per day equal to 1 + ‹misc/one-fourth› of her druid level.\" replace=\"Spontaneous casting\"}",
 			"",

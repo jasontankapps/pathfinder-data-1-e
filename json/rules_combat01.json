@@ -2025,6 +2025,8 @@
 			"helpless_defenders"
 		]
 	},
+	"flank": { "redirect": "flanking" },
+	"flanks": { "redirect": "flanking" },
 	"flanked": { "redirect": "flanking" },
 	"helpless_defenders": {
 		"name": "Helpless Defenders",

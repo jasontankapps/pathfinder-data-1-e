@@ -993,7 +993,7 @@
 			"",
 			"::list[Associated Deities]{hl link=faith all=\"Ah Pook~Ananshea~Chamiaholom~Charg~Dachzerul~Hataam~Iggeret~Nameless~Ozranvial~Shawnari~Velgaas~Vermilion Mother~Xiquiripat~Zipacna\"}",
 			"",
-			"::ab[Touch of Paranoia (Su)]{replace=\"The ‹‹touch of evil/#touch›› power of the Evil domain\" icon=touch ability=\"You can imbue a target with great suspicion and doubt as a melee touch attack. A creature affected by your touch does not have allies and is not considered to be an ally to any other creature, including other creatures affected by this effect. The affected creature cannot move freely through its allies' spaces, ‹rule/flank<ed› creatures with them, cooperate with them using teamwork feats, or give or receive benefits from the ‹rule/aid another<_2› action or any spells or effect that affects only allies. This ability lasts for a number of rounds equal to 1/2 your cleric level (minimum 1).\" useMod=Wis3}",
+			"::ab[Touch of Paranoia (Su)]{replace=\"The ‹‹touch of evil/#touch›› power of the Evil domain\" icon=touch ability=\"You can imbue a target with great suspicion and doubt as a melee touch attack. A creature affected by your touch does not have allies and is not considered to be an ally to any other creature, including other creatures affected by this effect. The affected creature cannot move freely through its allies' spaces, ‹rule/flank› creatures with them, cooperate with them using teamwork feats, or give or receive benefits from the ‹rule/aid another<_2› action or any spells or effect that affects only allies. This ability lasts for a number of rounds equal to 1/2 your cleric level (minimum 1).\" useMod=Wis3}",
 			"",
 			"::spelllist[Replacement Domain Spells]{from=domain l2=\"haunting mists\" l4=\"they know\" l6=phobia}"
 		]
@@ -1185,7 +1185,7 @@
 			"",
 			"@HL[Granted Powers:] You have pledged your life and soul to goodness and purity.",
 			"",
-			"::ab[Touch of Good (Sp)]{id=touch icon=protect standard=\"You can touch a creature, granting a sacred bonus on attack rolls, skill checks, ability checks, and saving throws equal to half your cleric level (minimum 1) for 1 round.\" useMod=Wis3}",
+			"::ab[Touch of Good (Sp)]{id=touch icon=protect-boost standard=\"You can touch a creature, granting a sacred bonus on attack rolls, skill checks, ability checks, and saving throws equal to half your cleric level (minimum 1) for 1 round.\" useMod=Wis3}",
 			"",
 			"::ab[Holy Lance (Su)]{id=lance l=8 icon=boost standard=\"You can give a weapon you touch the ‹magic-enh/holy› special weapon quality for a number of rounds equal to 1/2 your cleric level.\" useInc=\"4~cleric~8\"}",
 			"",

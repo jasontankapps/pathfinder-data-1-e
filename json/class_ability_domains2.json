@@ -1209,7 +1209,7 @@
 			"",
 			"::list[Associated Deities]{hl link=faith all=\"Ah Pook~Atlach-Nacha~Iggeret~Inkariax~Maeha~Mneoc~Nhimbaloth~Nocticula (Redeemed)~Roqorolos~Shawnari~Uaransaph\"}",
 			"",
-			"::ab[Aura of Isolation (Su)]{replace=\"The ‹‹part the veil/#part›› power of the Void domain\" icon=lower standard=\"You can create a 20-foot aura that causes enemies within to be overcome with feelings of isolation and loss. Your enemies treat the aura as ‹rule/difficult terrain›, as they become sluggish within its area of effect. Furthermore, while within the aura, your enemies can't ‹rule/flank<ed› with one another, nor can they use or benefit from the ‹rule/aid another<_2› action. This is a mind-affecting emotion effect.\" useMod=Wis3 useUnit=round useNC}",
+			"::ab[Aura of Isolation (Su)]{replace=\"The ‹‹part the veil/#part›› power of the Void domain\" icon=lower standard=\"You can create a 20-foot aura that causes enemies within to be overcome with feelings of isolation and loss. Your enemies treat the aura as ‹rule/difficult terrain›, as they become sluggish within its area of effect. Furthermore, while within the aura, your enemies can't ‹rule/flank› with one another, nor can they use or benefit from the ‹rule/aid another<_2› action. This is a mind-affecting emotion effect.\" useMod=Wis3 useUnit=round useNC}",
 			"",
 			"::spelllist[Replacement Domain Spells]{from=domain l4=\"crushing despair\" l6=\"wall of force\" l8=\"prismatic wall\"}",
 			"",

@@ -6,7 +6,7 @@
 		"description": [
 			"‹SOURCE Ultimate Wilderness/128›",
 			"",
-			"Located before, between, and beyond the Material Plane, the First World is a dimension of extremes and unpredictability. While the Shadow Plane straddles the metaphysical gulf between the Material Plane and the Negative Energy Plane, the First World lies between the Material Plane and the Positive Energy Plane. The First World has been said to be a sort of \"first draft\" of reality - under a sky of whirling stars and moons that change shape and texture as they track their way through the vibrant heavens, inconsistent natural laws and wellsprings of ‹rule/primal magic› and natural splendor create vistas unfathomable to mortal minds. Here stand ancient forests as tall as mountains, living lakes and rivers, traveling faerie courts alternately benevolent or sadistic, and landscapes of all manner that constantly shift and reinvent themselves. And ruling over all in this realm are those powerful entities known as the Eldest. It is from this realm that dread linnorms, fey creatures, the original gnomes, and far stranger beings hail.",
+			"Located before, between, and beyond the Material Plane, the First World is a dimension of extremes and unpredictability. While the Shadow Plane straddles the metaphysical gulf between the Material Plane and the Negative Energy Plane, the First World lies between the Material Plane and the Positive Energy Plane. The First World has been said to be a sort of \"first draft\" of reality - under a sky of whirling stars and moons that change shape and texture as they track their way through the vibrant heavens, inconsistent natural laws and wellsprings of ‹rule/primal magic› and natural splendor create vistas unfathomable to mortal minds. Here stand ancient forests as tall as mountains, living lakes and rivers, traveling faerie courts alternately benevolent or sadistic, and landscapes of all manner that constantly shift and reinvent themselves. And ruling over all in this realm are those powerful entities known as the ‹rule/Eldest›. It is from this realm that dread linnorms, fey creatures, the original gnomes, and far stranger beings hail.",
 			"",
 			"### First World Planar Traits",
 			"",
@@ -129,6 +129,7 @@
 		],
 		"siblings": [ "the_eldest" ]
 	},
+	"eldest": { "redirect": "the_eldest" },
 	"getting_to_the_first_world": {
 		"name": "Getting to the First World",
 		"subtitle": "Planar Adventures",

@@ -1049,7 +1049,7 @@
 			"",
 			"::ab[Shield Buffet (Ex)]{l=9 icon=lower move=\"A shielded fighter may make a combat maneuver check to use his shield to impede an adjacent enemy. If successful, the target suffers a -2 penalty on its attack rolls against the shielded fighter and a -2 penalty to AC on attacks made by the shielded fighter until the beginning of his next turn.\" imp13=\"A shielded fighter may use this ability as a @HLswift_action.\" replace=\"Weapon training 2 and 3\"}",
 			"",
-			"::ab[Shield Guard (Ex)]{l=17 icon=def swift=\"A shielded fighter may designate one square adjacent to him. He may designate two squares if using a heavy shield or three squares if using a tower shield, but these squares must be contiguous. Enemies in these squares cannot ‹rule/flank<ing› the shielded fighter and do not count for flanking with other creatures. This effect lasts until he moves from his position or uses another swift action to change the affected squares.\" replace=\"Weapon training 4\"}",
+			"::ab[Shield Guard (Ex)]{l=17 icon=def swift=\"A shielded fighter may designate one square adjacent to him. He may designate two squares if using a heavy shield or three squares if using a tower shield, but these squares must be contiguous. Enemies in these squares cannot ‹rule/flank› the shielded fighter and do not count for flanking with other creatures. This effect lasts until he moves from his position or uses another swift action to change the affected squares.\" replace=\"Weapon training 4\"}",
 			"",
 			"::ab[Shield Mastery (Ex)]{l=19 icon=def passive=\"A shielded fighter gains DR 5/- when wielding a shield.\" replace=\"Armor mastery\"}",
 			"",
