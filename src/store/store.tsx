@@ -344,6 +344,25 @@ const migrations = {
 			...unchangedState,
 			bookmarks
 		};
+	},
+	20: (state: any) => {
+		const {displayTable: dt, ...unchangedState} = state;
+		const displayTable = {...dt};
+		// Reset tables that have been modified since the last update
+		const modifiedTables: string[] = [
+			"inquisitor archetypes",
+			"gunslinger archetypes",
+			"barbarian archetypes",
+			"unchained barbarian archetypes",
+			"brawler archetypes"
+		];
+		modifiedTables.forEach(id => {
+			delete displayTable[id];
+		});
+		return {
+			...unchangedState,
+			displayTable
+		}
 	}
 };
 
