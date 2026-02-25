@@ -354,7 +354,32 @@ const migrations = {
 			"gunslinger archetypes",
 			"barbarian archetypes",
 			"unchained barbarian archetypes",
-			"brawler archetypes"
+			"brawler archetypes",
+			"fighter archetypes",
+			"hunter archetypes",
+			"investigator archetypes",
+			"kineticist archetypes",
+			"alchemist archetypes",
+			"antipaladin archetypes",
+			"arcanist archetypes",
+			"bard archetypes",
+			"bloodrager archetypes",
+			"cavalier archetypes",
+			"cleric archetypes",
+			"druid archetypes",
+			"monk archetypes",
+			"unchained monk archetypes",
+			"ninja archetypes",
+			"occultist archetypes",
+			"oracle archetypes",
+			"paladin archetypes",
+			"psychic archetypes",
+			"skald archetypes",
+			"slayer archetypes",
+			"sorcerer archetypes",
+			"spiritualist archetypes",
+			"swashbuckler archetypes",
+			"vigilante archetypes"
 		];
 		modifiedTables.forEach(id => {
 			delete displayTable[id];
