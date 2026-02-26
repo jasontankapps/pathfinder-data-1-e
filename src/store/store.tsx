@@ -379,7 +379,19 @@ const migrations = {
 			"sorcerer archetypes",
 			"spiritualist archetypes",
 			"swashbuckler archetypes",
-			"vigilante archetypes"
+			"vigilante archetypes",
+			"ranger archetypes",
+			"shifter archetypes",
+			"magus archetypes",
+			"medium archetypes",
+			"samurai archetypes",
+			"shaman archetypes",
+			"warpriest archetypes",
+			"witch archetypes",
+			"summoner archetypes",
+			"unchained summoner archetypes",
+			"mesmerist archetypes",
+			"rogue archetypes"
 		];
 		modifiedTables.forEach(id => {
 			delete displayTable[id];
@@ -405,11 +417,11 @@ const stateReconciler = (incomingState: any, originalState: any, reducedState: a
 };
 const persistConfig: PersistConfig<InitialAppState> = {
 	key: 'root-pf-data',
-	version: 19,
+	version: 20,
 	storage,
 	stateReconciler,
 	migrate: createMigrate(migrations, { debug: false }),
-	// Only persist bookmarks and display tables
+	// Only persist bookmarks, display tables, and settings
 	whitelist: ['bookmarks', 'displayTable', 'settings']
 };
 const reducer = combineReducers(reducerConfig);

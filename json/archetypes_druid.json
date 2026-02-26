@@ -42,7 +42,7 @@
 			"",
 			"::ab[Community Bond (Ex)]{icon=info choice=\"An ancient guardian must choose the domain nature bond ability and select from the following domains: ‹domain/Community›, ‹domain/Healing›, ‹domain/Knowledge›, ‹domain/Protection›, or ‹domain/Repose›.\" alter=\"Nature bond\"}",
 			"",
-			"::ab[Patience of Nature (Ex)]{icon=skill-boost l2=\"An ancient guardian adds ‹skill/Diplomacy› (CHA), ‹skill/Perform «(oratory)› (CHA), and ‹skill/Sense Motive› (WIS) to her list of class skills and gains an insight bonus equal to ‹misc/half› her druid level on such checks.\" replace=\"Wild empathy\"}",
+			"::ab[Patience of Nature (Ex)]{icon=skill-boost l2=\"An ancient guardian adds ‹skill/Diplomacy› (CHA), ‹skill/Perform« (oratory)› (CHA), and ‹skill/Sense Motive› (WIS) to her list of class skills and gains an insight bonus equal to ‹misc/half› her druid level on such checks.\" replace=\"Wild empathy\"}",
 			"",
 			"::ab[Ancient Ways (Ex)]{icon=boost l=3 passive=\"An ancient guardian increases any climb, fly, or swim speeds she has or gains via her *wild shape* ability by 10 feet.\" replace=\"Trackless step~woodland stride\"}",
 			"",
