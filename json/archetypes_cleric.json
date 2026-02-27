@@ -106,7 +106,7 @@
 			"",
 			"The following archetype can be taken by an ex-cleric immediately upon becoming an ex-cleric, regardless of character level, replacing some or all of the lost class abilities. If another archetype the character had before she became an ex-cleric replaces the same ability as the ex-class archetype, she loses the old archetype in favor of the new one; otherwise, she can retain both archetypes as normal. Channelers of the unknown can gain further levels in the cleric class, even though becoming an ex-cleric normally prohibits further advancement in the class. While an ex-member of a class can recant her failings and atone for her fall from her original class (typically involving an ‹spell/atonement› spell), her acceptance of her ex-class archetype means she must atone both for her initial fall and for further straying from the path. As a result, such a character must be the target of two *atonement* spells or a similar effect to regain her lost class features. Upon doing so, she immediately loses this archetype and regains her original class (and archetype, if she had one).",
 			"",
-			"::prereq={other=\"Ex-cleric\"}",
+			"::prereq{other=Ex-cleric}",
 			"",
 			"::ab[Weapon/Armor Proficiency]{icon=down-power choice=\"A channeler of the unknown loses proficiency with her deity's favored weapon. She instead gains proficiency with one martial or exotic weapon, chosen when she first takes this archetype, which thereafter effectively functions as her holy or unholy symbol for the purposes of class abilities and spellcasting. The weapon chosen cannot be one associated with her former deity. Once she makes this choice, she can't later change it.\" alter=\"Weapon and armor proficiency\"}",
 			"",
