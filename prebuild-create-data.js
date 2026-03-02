@@ -86,7 +86,7 @@ const removeCurlyBrackets = (input, inlineText) => {
 					const [, pre, post] = m;
 					return pre.replace(/</g, "-=LEFT=-").replace(/>/g, "-=RIGHT=-") + post;
 				}
-				logError("Huh?", bit);
+				logError("Huh? Some sort of duplicated/missing ‹› issue?", bit);
 				return bit;
 			}).join("‹");
 	};
