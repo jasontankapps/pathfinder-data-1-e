@@ -556,7 +556,7 @@
 			"‹SOURCE Advanced Race Guide/164›  ",
 			"The shigenjo walks the path of enlightenment and transcendence by seeking oneness with the celestial spirits. In doing so, she unlocks the martial potential of her own spiritual power. A shigenjo has the following class features.",
 			"",
-			"::cskill{gain=\"Survival\" lose=\"Diplomacy\"}",
+			"::cskill{gain=sur lose=diplo}",
 			"",
 			"**Alignment:** Any neutral.",
 			"",

@@ -184,7 +184,7 @@
 			"‹SOURCE Wilderness Origins/28›  ",
 			"Among the Sun Clan's most noted champions are those who can tame the flames and bend them to their will. These kineticists are skilled riders, able to wield both weapons and fire with deadly skill.",
 			"",
-			"::cskill{gain=\"Handle Animal~Ride\" lose=\"Stealth, Use Magic Device\"}",
+			"::cskill{gain=ha~ride lose=stl~umd}",
 			"",
 			"This alters the kineticist's @HL[class skills].",
 			"",
