@@ -363,6 +363,7 @@
 			"whirlpools"
 		]
 	},
+	"pressure": { "redirect": "oceanic_zones" },
 	"currents_and_running_water": {
 		"name": "Currents and Running Water",
 		"subtitle": "Aquatic Adventures",
@@ -386,6 +387,7 @@
 		]
 	},
 	"current": { "redirect": "currents_and_running_water" },
+	"currents": { "redirect": "currents_and_running_water" },
 	"whirlpools": {
 		"name": "Whirlpools",
 		"subtitle": "Aquatic Adventures",
