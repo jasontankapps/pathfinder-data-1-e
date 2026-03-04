@@ -190,7 +190,7 @@
 		"description": [
 			"## Shared Training",
 			"",
-			"::spell{source=\"Blood of the Ancients/13\" mindAffecting divination arc=3 brd=2 clr=3 hnt=2 inq=2 mag=2 orc=3 pal=2 psy=3 rgr=2 skd=2 sor=3 war=3 wiz=3 ctSt cV cS rClose targets=\"you plus one willing creature per 3 levels, no two of which can be more than 30 ft. apart\" durML=10 saveNo srN}",
+			"::spell{source=\"Blood of the Ancients/15\" mindAffecting divination arc=3 brd=2 clr=3 hnt=2 inq=2 mag=2 orc=3 pal=2 psy=3 rgr=2 skd=2 sor=3 war=3 wiz=3 ctSt cV cS rClose targets=\"you plus one willing creature per 3 levels, no two of which can be more than 30 ft. apart\" durML=10 saveNo srN}",
 			"",
 			"Select one teamwork feat you have. You can grant this feat to allies within range for the duration of the spell. Allies do not need to meet the prerequisites of this teamwork feat. At caster level 9th, you can grant two teamwork feats you have to your allies. At caster level 13th, you can grant three teamwork feats, and at caster level 17th, you can grant up to four teamwork feats."
 		]
@@ -950,7 +950,7 @@
 		"description": [
 			"## Skim",
 			"",
-			"::spell{source=\"Blood of the Ancients/17\" divination alc=1 arc=1 brd=1 clr=1 inq=1 inv=1 mag=1 occ=1 orc=1 psy=1 sha=1 skd=1 sor=1 war=1 wit=1 wiz=1 ctSt cV cS cMDFp=\"a dog-eared page\" rPers target=you durHL=1}",
+			"::spell{source=\"Blood of the Ancients/19\" divination alc=1 arc=1 brd=1 clr=1 inq=1 inv=1 mag=1 occ=1 orc=1 psy=1 sha=1 skd=1 sor=1 war=1 wit=1 wiz=1 ctSt cV cS cMDFp=\"a dog-eared page\" rPers target=you durHL=1}",
 			"",
 			"This spell allows you to read written material in a quarter of the time it would normally take to read it. If you use this spell in conjunction with comprehend languages, you can read otherwise incomprehensible text four times faster than the spell indicates. If the text is fragmented, is particularly difficult to understand, or otherwise requires an ability check or skill check (such as a Linguistics check) to read quickly or at all, this spell doesn't directly increase your reading speed, but instead grants you a +8 bonus on the check. This bonus also applies to Research checks when you research a particular topic within a library."
 		]

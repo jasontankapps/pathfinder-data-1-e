@@ -633,7 +633,7 @@
 	},
 	"brave_words": {
 		"name": "Brave Words",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 25 ] ],
 		"category": "Casmaron-Ninshaburian",
 		"description": [
 			"**Type:** Regional  ",
@@ -1743,7 +1743,7 @@
 	},
 	"exhibition_fighter": {
 		"name": "Exhibition Fighter",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 23 ] ],
 		"category": "Lung Wa",
 		"description": [
 			"**Type:** Regional  ",
@@ -3241,7 +3241,7 @@
 	},
 	"naturalist": {
 		"name": "Naturalist",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 11 ] ],
 		"category": "Eye of Abendego-Yamasa",
 		"description": [
 			"**Type:** Regional  ",
@@ -4594,7 +4594,7 @@
 	},
 	"stargazer_region": {
 		"name": "Stargazer (Region)",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 11 ] ],
 		"category": "Eye of Abendego-Lirgen",
 		"description": [
 			"**Type:** Regional  ",

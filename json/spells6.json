@@ -2832,7 +2832,7 @@
 		"description": [
 			"## Mark of Buoyancy",
 			"",
-			"::spell{source=\"Blood of the Ancients/26\" transmutation arc=3 brd=3 clr=3 mag=3 occ=3 orc=3 psy=3 skd=3 sor=3 sum=3 usm=3 war=3 wiz=3 ctSt cV cS rTouch target=\"touched object weighing up to 10 lbs./level\" durD durHL=1 will srY object}",
+			"::spell{source=\"Blood of the Ancients/28\" transmutation arc=3 brd=3 clr=3 mag=3 occ=3 orc=3 psy=3 skd=3 sor=3 sum=3 usm=3 war=3 wiz=3 ctSt cV cS rTouch target=\"touched object weighing up to 10 lbs./level\" durD durHL=1 will srY object}",
 			"",
 			"You cause the touched object to become lighter than air, such that it floats if not weighted down. The object is effectively weightless and, if left unattended, will rise to a number of feet off the ground equal to twice your caster level, and then remain floating at that height. The object can be pushed, dragged, carried, or otherwise moved normally, and it can be carried by the wind if not held or secured. The object is buoyant enough that it can carry an additional weight of up to 10 pounds per caster level with it, potentially allowing it to be used to carry small objects or creatures.",
 			"",

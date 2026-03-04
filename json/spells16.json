@@ -948,7 +948,7 @@
 		"description": [
 			"## Summon Ship",
 			"",
-			"::spell{source=\"Blood of the Ancients/17\" conjuration creation arc=4 brd=4 clr=4 occ=3 orc=4 psy=4 skd=4 sor=4 sum=3 usm=3 war=4 wiz=4 ctM=10 cV cS cFp=\"a miniature ship; see text\" rClose effect=\"One conjured ship\" durDL=1 saveNo srN}",
+			"::spell{source=\"Blood of the Ancients/19\" conjuration creation arc=4 brd=4 clr=4 occ=3 orc=4 psy=4 skd=4 sor=4 sum=3 usm=3 war=4 wiz=4 ctM=10 cV cS cFp=\"a miniature ship; see text\" rClose effect=\"One conjured ship\" durDL=1 saveNo srN}",
 			"",
 			"When you cast this spell, you must hold out a miniature model of the ship you intend to create. The spell assembles a ship from raw materials conjured from other planes, taking a shape similar to the miniature ship in your hand. The miniature ship must be elaborately carved and worth 10% of the price of the type of ship it represents. The ship comes with all equipment necessary for sailing or rowing the ship but provides no crew or cargo. If you attempt to conjure the ship into a location where there isn't a sufficient amount of water to keep the ship afloat, the spell fails. The ship displaces all water and Medium or smaller aquatic animals within its space when it appears, but the location must be otherwise unoccupied at the time of casting the spell. You can cast this spell again to extend the duration of the conjured ship, replacing the remaining duration with the new spell's duration. When the spell's duration ends or the spell is dismissed, the ship instantly stops moving and then falls apart over the course of a minute.",
 			"",

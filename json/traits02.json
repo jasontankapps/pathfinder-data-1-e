@@ -12,7 +12,7 @@
 	},
 	"aeromantic_affinity": {
 		"name": "Aeromantic Affinity",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 29 ] ],
 		"description": [
 			"**Type:** Magic",
 			"",
@@ -56,7 +56,7 @@
 	},
 	"arcane_researcher": {
 		"name": "Arcane Researcher",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 29 ] ],
 		"description": [
 			"**Type:** Magic",
 			"",
@@ -582,7 +582,7 @@
 	},
 	"mechanical_aptitude": {
 		"name": "Mechanical Aptitude",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 19 ] ],
 		"description": [
 			"**Type:** Magic",
 			"",

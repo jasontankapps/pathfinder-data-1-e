@@ -5,7 +5,7 @@
 		"description": [
 			"## Antiquarian",
 			"",
-			"‹SOURCE Blood of the Ancients/14›  ",
+			"‹SOURCE Blood of the Ancients/16›  ",
 			"Antiquarians are collectors, explorers, and scholars who delve into ruined places in search of lost lore and artifacts.",
 			"",
 			":::ab{title=\"Relic Magic (Su)\" icon=learn action=Ability alter=\"Alchemy (including Extracts)\" special=\"An antiquarian doesn't gain a competence bonus on Craft (alchemy) checks to create alchemical items, and he cannot identify potions with that skill. Furthermore, he cannot select alchemist discoveries as investigator talents.\"}",
@@ -369,7 +369,7 @@
 		"description": [
 			"## Jinyiwei",
 			"",
-			"‹SOURCE Blood of the Ancients/19›  ",
+			"‹SOURCE Blood of the Ancients/21›  ",
 			"Lung Wa's corruption and political decay led to its eventual collapse, but the empire did not spend its last decades in surrender. A special task force of secret police, known as the jinyiwei, was one of Lung Wa's last bulwarks against this decline. The jinyiwei were unable to save the empire; they failed in their mission to root out, expose, and counteract their government's existing wrongdoing, and the organization itself ultimately fell prey to the same political decline that rotted Lung Wa's bureaucracy. However, their legacy now inspires purists who seek out and eliminate corruption wherever they find it. Since the earthly government of Lung Wa has failed, these new jinyiwei claim they act under the celestial government's mandate.",
 			"",
 			"::ab[Divine Inspiration]{icon=magic flavor=\"A jinyiwei follows a mandate from Heaven to combat corruption in the mortal world.\" note=\"A jinyiwei adds her Wisdom modifier to her *inspiration pool,* rather than her Intelligence modifier. Additionally, rather than dabbling in the arcane arts of alchemy, a jinyiwei is empowered by the forces of celestial bureaucracy. She casts spells as an ‹class/inquisitor› of the same level.\" alter=Inspiration replace=Alchemy}",
@@ -847,7 +847,7 @@
 		"description": [
 			"## Tekritanin Arbiter",
 			"",
-			"‹SOURCE Blood of the Ancients/31›  ",
+			"‹SOURCE Blood of the Ancients/33›  ",
 			"The Tekritanin League facilitated trade and settled disputes between a vast array of diverse cultures. The arbiters were the first line of diplomatic defense, solving problems before they could become disruptive.",
 			"",
 			"::ab[Tekritanin (Ex)]{icon=power-boost ability=\"A Tekritanin arbiter gains Tekritanin as a bonus language. Tekritanin is a fluid and evolving hybrid tongue which shares roots with many modern languages. When the arbiter speaks Tekritanin, any creature that speaks a common Inner Sea human language will understand him well enough to allow the arbiter to use the Diplomacy skill or affect the creature with language-dependent effects. At the GM's discretion, some human languages might be too divergent or unrelated to Tekritanin to use this ability immediately. In this case, the arbiter must interact with creatures speaking the language for at least 1 hour to permanently apply this ability to the foreign language.\" order=ap passive=\"A Tekritanin arbiter adds 1/2 his level (minimum 1) to Linguistics checks.\" replace=Trapfinding}",

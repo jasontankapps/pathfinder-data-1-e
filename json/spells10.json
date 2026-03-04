@@ -301,7 +301,7 @@
 			"",
 			"### Symbol of Storms",
 			"",
-			"::spell{source=\"Blood of the Ancients/26\" air electricity evocation arc=6 clr=6 drd=6 hnt=3 orc=6 rgr=3 sor=6 war=6 wit=6 wiz=6 ctM=10 cV cS cMp=\"powdered copper and pumice worth a total of 1,500 gp\" r=\"0 ft.; see text\" effect=\"one symbol\" dur=\"see text\" save=\"Reflex half; see text\" srY}",
+			"::spell{source=\"Blood of the Ancients/28\" air electricity evocation arc=6 clr=6 drd=6 hnt=3 orc=6 rgr=3 sor=6 war=6 wit=6 wiz=6 ctM=10 cV cS cMp=\"powdered copper and pumice worth a total of 1,500 gp\" r=\"0 ft.; see text\" effect=\"one symbol\" dur=\"see text\" save=\"Reflex half; see text\" srY}",
 			"",
 			"This spell functions as symbol of death, except that when triggered, a 30-foot-radius centered on the symbol fills with hurricane-force winds (75 mph). Each round, a bolt of lightning that deals 10d6 points of electricity damage strikes a random creature within the area. A successful Reflex save halves this damage. Unlike symbol of death, symbol of storms has no hit point limit. Regardless of the trigger method or methods chosen, a creature more than 30 feet from a symbol of storms can't trigger it (even if it meets one or more of the triggering conditions, such as reading the rune). Once triggered, a symbol of storms remains active for 1 minute per caster level."
 		]

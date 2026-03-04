@@ -1597,7 +1597,7 @@
 	},
 	"clockwork_surgeon": {
 		"name": "Clockwork Surgeon",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 13 ] ],
 		"category": "Azlanti-Aesocar",
 		"description": [
 			"**Type:** Religion  ",
@@ -2311,7 +2311,7 @@
 	},
 	"fruits_of_your_labor": {
 		"name": "Fruits of Your Labor",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 13 ] ],
 		"category": "Azlanti-Jaidi",
 		"description": [
 			"**Type:** Religion  ",
@@ -2925,7 +2925,7 @@
 	},
 	"planar_wayfarer": {
 		"name": "Planar Wayfarer",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 13 ] ],
 		"category": "Azlanti-Onos",
 		"description": [
 			"**Type:** Religion  ",
@@ -3082,7 +3082,7 @@
 	},
 	"rejected_emperor": {
 		"name": "Rejected Emperor",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 23 ] ],
 		"category": "LN-The Eternal Emperor",
 		"description": [
 			"**Type:** Religion  ",
@@ -3183,7 +3183,7 @@
 	},
 	"sacred_orienteer": {
 		"name": "Sacred Orienteer",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 13 ] ],
 		"category": "Azlanti-Elion",
 		"description": [
 			"**Type:** Religion  ",
@@ -3355,7 +3355,7 @@
 	},
 	"shared_ancestors": {
 		"name": "Shared Ancestors",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 13 ] ],
 		"category": "Azlanti-Myr",
 		"description": [
 			"**Type:** Religion  ",

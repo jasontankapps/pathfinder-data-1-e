@@ -5,7 +5,7 @@
 		"description": [
 			"## Aerochemist",
 			"",
-			"‹SOURCE Blood of the Ancients/25›  ",
+			"‹SOURCE Blood of the Ancients/27›  ",
 			"Although the specifics of the Aeromantic Infadibulum are lost to time, aerochemists are able to emulate and replicate aspects of this lost magic. Aerochemists use scraps of Shory's magic in their concoctions to gain personal powers of flight.",
 			"",
 			":::ab{l=1 icon=power-boost title=\"Aeromantic Concoction (Su)\" action=Ability replace=\"Mutagen~swift poisoning~persistent mutagen\" special=\"An aeromantic alchemist can never gain the *mutagen, cognatogen,* or *inspired cognatogen* ability, even from a discovery or another class.\" imp6=\"The aerochemist gains the benefits of ‹spell/fly› for the concoction's duration.\" imp10=\"The aerochemist can choose to gain the benefits of ‹spell/air walk› instead of *fly* for the concoction's duration.\" imp14=\"The duration of the concoction increases to 1 hour per alchemist level, or 10 minutes per alchemist level if shared.\"}",

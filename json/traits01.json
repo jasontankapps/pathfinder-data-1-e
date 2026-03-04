@@ -1008,7 +1008,7 @@
 	},
 	"natural_flyer": {
 		"name": "Natural Flyer",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 29 ] ],
 		"description": [
 			"**Type:** Combat",
 			"",
@@ -1461,7 +1461,7 @@
 	},
 	"tar_taargadth_trained": {
 		"name": "Tar Taargadth Trained",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 31 ] ],
 		"description": [
 			"**Type:** Combat",
 			"",
@@ -3221,7 +3221,7 @@
 	},
 	"ancestral_armor": {
 		"name": "Ancestral Armor",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 31 ] ],
 		"description": [
 			"**Type:** Social",
 			"",
@@ -3825,7 +3825,7 @@
 	},
 	"excellent_penmanship": {
 		"name": "Excellent Penmanship",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 23 ] ],
 		"description": [
 			"**Type:** Social",
 			"",
@@ -4116,7 +4116,7 @@
 	},
 	"jistkan_scholar": {
 		"name": "Jistkan Scholar",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 19 ] ],
 		"description": [
 			"**Type:** Social",
 			"",
@@ -4441,7 +4441,7 @@
 	},
 	"outsider_enemy": {
 		"name": "Outsider Enemy",
-		"compilationSources": [ [ "Blood of the Ancients" ] ],
+		"compilationSources": [ [ "Blood of the Ancients", 29 ] ],
 		"description": [
 			"**Type:** Social",
 			"",
