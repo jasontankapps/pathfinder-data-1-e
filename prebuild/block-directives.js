@@ -383,6 +383,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"l", "imp",
 					"increment", "incrementAt", "incrementEnd",
 					"incrementPlain", "incrementDesc", "incrementOrd",
+					"incrementTemplate", "incrementMax",
 					"repeat", "repeatAt",
 					"standard", "swift", "immediate",
 					"fullround", "move", "free",
@@ -413,6 +414,8 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 				churn(n, attrs, [
 					"gain", "lose", "pre", "post", "preTitle", "postTitle"
 				], [], logError);
+				flags.icon = true;
+				flags.link = true;
 				const marked2 = makeNewMarkedInstance();
 				return makeClassSkillsAbilityBlock({
 					marked2, prefix, text,

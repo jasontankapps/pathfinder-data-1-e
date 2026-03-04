@@ -52,6 +52,18 @@ const swap = ({plural, descriptor}) => {
 	return $swap;
 };
 
+const makeMax = (incrementMax, logError) => {
+	if(!incrementMax) {
+		return 20;
+	}
+	const m = Number(incrementMax);
+	if(m != m || m < 2 || m > 20) {
+		logError(`Invalid value [${incrementMax}] for \`incrementMax\` attr.`);
+		return 20;
+	}
+	return Math.floor(m);
+};
+
 const makeAbilityBlock = ({
 	marked2,
 	prefix,
@@ -72,6 +84,7 @@ const makeAbilityBlock = ({
 		imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20,
 		increment,incrementAt,incrementEnd,
 		incrementPlain,incrementDesc,incrementOrd,
+		incrementTemplate, incrementMax,
 		repeat, repeatAt,
 		standard, swift, immediate,
 		fullround, move, free,
@@ -563,7 +576,7 @@ const makeAbilityBlock = ({
 		imp1 || imp2 || imp3 || imp4 || imp5 || imp6 || imp7 || imp8 || imp9 || imp10
 		|| imp11 || imp12 || imp13 || imp14 || imp15 || imp16 || imp17 || imp18 || imp19 || imp20
 		|| increment || incrementAt || incrementEnd || incrementPlain || incrementOrd || incrementDesc
-		|| repeat || repeatAt
+		|| incrementTemplate || incrementMax || repeat || repeatAt
 	) {
 		const imps = [imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20];
 		if(repeat) {
@@ -614,7 +627,43 @@ const makeAbilityBlock = ({
 				});
 			}
 		}
-		if(increment || incrementPlain || incrementAt || incrementOrd) {
+		if(incrementTemplate) {
+			// msg ~ msg ~ ... ~ lev start / lev inc? / b start? / b inc?
+			const message = incrementTemplate.split(/~/);
+			const etc = (message.pop() || "/").split(/[/]/);
+			const [start, add = 1, b = 2, inc = 1] = etc.map((e, i) => {
+				const n = Number(e);
+				if(!n && (i || n !== n)) {
+					// `start` can be 0
+					logError(`Invalid value [${e}] in \`incrementTemplate\` attribute [index ${i}].`);
+					return 1;
+				}
+				return Math.floor(n);
+			});
+			const max = makeMax(incrementMax, logError);
+			let level = start + add;
+			let bonus = b;
+			if(level <= 0) {
+				logError(`Invalid level formula in \`incrementTemplate\` attribute: [${etc[0]} + ${etc[1]} = ${level}]`);
+				level = 25;
+			} else if (add <= 0) {
+				logError(`Invalid level increment [${etc[1]}] in \`incrementTemplate\` attribute.`);
+				level = 25;
+			}
+			const ats = [];
+			while (level <= max) {
+				ats.push(level);
+				level += add;
+			}
+			ats.sort((a,b) => (a - b));
+			while(ats.length > 0) {
+				const next = ats.shift();
+				const i = next - 1;
+				const joiner = incrementOrd ? ordinal(bonus) : String(bonus);
+				imps[i] = `${message.join(String(joiner))} ${imps[i] ? " " + imps[i] : ""}`;
+				bonus += inc;
+			}
+		} else if (increment || incrementPlain || incrementAt || incrementOrd) {
 			// msg ~ lev start ~ lev inc ~ b start ~ b inc
 			//      increment "(p!)?This bonus~Ls~Li~Bs?~Bi?" (also incrementPlain and incrementOrd)
 			//    incrementAt "(p!)?This bonus~L1~L2~L3...~Bs/Bi?"
@@ -632,6 +681,7 @@ const makeAbilityBlock = ({
 			const ats = [];
 			let bonus = 0;
 			let inc = 0;
+			const max = makeMax(incrementMax, logError);
 			if(incrementAt) {
 				const bonuses = (etc.pop() || "").split(/[/]/);
 				const [bb, bi = 1] = bonuses.map(b => {
@@ -644,10 +694,10 @@ const makeAbilityBlock = ({
 				});
 				bonus = bb;
 				inc = bi;
-				ats.push(...etc.map(e => {
+				ats.push(...etc.map((e, i) => {
 					const n = Number(e);
-					if(!n || n < 0 || n > 20) {
-						logError(`Invalid value [${e}] in \`incrementAt\` attribute.`);
+					if(!n || n < 0 || n > max) {
+						logError(`Invalid value [${e}] in \`incrementAt\` attribute [index ${i}].`);
 						return 0;
 					}
 					return Math.floor(n);
@@ -660,9 +710,9 @@ const makeAbilityBlock = ({
 				}
 				const [start, add, bb = 2, bi = 1] = etc.map((e, i) => {
 					const n = Number(e);
-					if(!n && i) {
+					if(!n && (i || n !== n)) {
 						// `start` can be 0
-						logError(`Invalid value [${e}] in \`increment\` attribute.`);
+						logError(`Invalid value [${e}] in \`increment\` attribute [index ${i}].`);
 						return 1;
 					}
 					return Math.floor(n);
@@ -677,7 +727,7 @@ const makeAbilityBlock = ({
 					logError(`Invalid level increment [${add}] in \`increment\` attribute.`);
 					level = 25;
 				}
-				while (level <= 20) {
+				while (level <= max) {
 					ats.push(level);
 					level += add;
 				}
@@ -688,7 +738,7 @@ const makeAbilityBlock = ({
 			while(ats.length > 0) {
 				const next = ats.shift();
 				if(next === last) {
-					logError(`Duplicate value [${next}] in \`incrementAt\` attribute.`);
+					logError(`Duplicate value [${next}] in \`increment\` attribute.`);
 				} else {
 					const i = next - 1;
 					const b = incrementOrd ? ordinal(bonus) : ((incrementPlain || (bonus <= 0)) ? bonus : "+" + bonus);
@@ -697,10 +747,16 @@ const makeAbilityBlock = ({
 					bonus += inc;
 				}
 			}
-		} else if (incrementEnd) {
-			logError("Extraneous `incrementEnd` attribute.")
-		} else if (incrementDesc) {
-			logError("Extraneous `incrementDesc` attribute.")
+		} else {
+			if (incrementMax) {
+				logError("Extraneous `incrementMax` attribute.")
+			}
+			if (incrementEnd) {
+				logError("Extraneous `incrementEnd` attribute.")
+			}
+			if (incrementDesc) {
+				logError("Extraneous `incrementDesc` attribute.")
+			}
 		}
 		imps.forEach((text, i) => {
 			if(!text) {
