@@ -27,25 +27,25 @@ const getSkillBaseAtt = (input, logError) => {
 		case "intm":
 			return "‹skill/Intimidate› (CHA)";
 		case "ka":
-			return "‹skill/Knowledge› (arcana) (INT)";
+			return "‹skill/Knowledge (arcana)› (INT)";
 		case "kd":
-			return "‹skill/Knowledge› (dungeoneering) (INT)";
+			return "‹skill/Knowledge (dungeoneering)› (INT)";
 		case "ke":
-			return "‹skill/Knowledge› (engineering) (INT)";
+			return "‹skill/Knowledge (engineering)› (INT)";
 		case "kg":
-			return "‹skill/Knowledge› (geography) (INT)";
+			return "‹skill/Knowledge (geography)› (INT)";
 		case "kh":
-			return "‹skill/Knowledge› (history) (INT)";
+			return "‹skill/Knowledge (history)› (INT)";
 		case "kl":
-			return "‹skill/Knowledge› (local) (INT)";
+			return "‹skill/Knowledge (local)› (INT)";
 		case "kna":
-			return "‹skill/Knowledge› (nature) (INT)";
+			return "‹skill/Knowledge (nature)› (INT)";
 		case "kno":
-			return "‹skill/Knowledge› (nobility) (INT)";
+			return "‹skill/Knowledge (nobility)› (INT)";
 		case "kp":
-			return "‹skill/Knowledge› (planes) (INT)";
+			return "‹skill/Knowledge (planes)› (INT)";
 		case "kr":
-			return "‹skill/Knowledge› (religion) (INT)";
+			return "‹skill/Knowledge (religion)› (INT)";
 		case "ling":
 			return "‹skill/Linguistics› (INT)";
 		case "per":
