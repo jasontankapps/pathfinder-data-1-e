@@ -184,6 +184,7 @@ const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, at
 		if(cFp) { comps.push(doParse(`F (${cFp})`)); }
 		if(cDF) { comps.push("DF"); }
 		if(cMDF) { comps.push("M/DF"); }
+		if(cFDF) { comps.push("F/DF"); }
 		if(cMDFp) { comps.push(doParse(`M/DF (${cMDFp})`)); }
 		if(cFDFp) { comps.push(doParse(`F/DF (${cFDFp})`)); }
 		if(comps.length === 0) {
@@ -202,10 +203,15 @@ const makeSpellBlock = (marked2, parseSOURCE, convertEncodedInfo, maybeClear, at
 
 			|| (cF && cFp)
 			|| (cF && cFDFp)
+			|| (cF && cFDF)
+			|| (cFDF && cFDFp)
+			|| (cFp && cFDF)
 			|| (cFDFp && cFp) // multiple foci
 
 			|| (cDF && cMDF)
 			|| (cDF && cFDFp)
+			|| (cDF && cFDF)
+			|| (cMDF && cFDF)
 			|| (cMDF && cFDFp) // multiple divine foci
 		)) {
 			logError(`Found multiple components`);
