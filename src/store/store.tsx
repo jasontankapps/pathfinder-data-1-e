@@ -400,6 +400,52 @@ const migrations = {
 			...unchangedState,
 			displayTable
 		}
+	},
+	21: (state: any) => {
+		const {bookmarks, ...unchangedState} = state;
+		// Fix all link changes since the last update
+		const {order, db: oldDB, catalog: oldCat} = bookmarks;
+		// FIX:
+		//   deleted rules/[spelldef],
+
+		const db: BookmarkDB = {};
+		const catalog: Catalog = {};
+
+		const replacerSpelldefs = /^([/]?)rule[/]((?:(?:ab|con)jur|divin|evoc|transmut)ation|enchantment|illusion|necromancy|polymorph)$/
+		const replacementSpelldefs = "$1spelldef/$2";
+		const replacerMA = /^([/]?spelldef[/]mind)(affecting$)/;
+		const replacementMA = "$1_$2";
+
+		Object.keys(oldDB).forEach(id => {
+			const {color, title, contents:c, hidden} = oldDB[id] as BookmarkGroup;
+			db[id] = {
+				color,
+				title,
+				contents: c.map(pair =>
+					[
+						pair[0]
+							.replace(replacerSpelldefs, replacementSpelldefs)
+							.replace(replacerMA, replacementMA),
+						pair[1]
+					] as [string, string]
+				),
+				hidden
+			}
+		});
+		Object.keys(oldCat).forEach(link => {
+			const newLink = link
+				.replace(replacerSpelldefs, replacementSpelldefs)
+				.replace(replacerMA, replacementMA);
+			catalog[newLink] = oldCat[link] as string[];
+		});
+		return {
+			...unchangedState,
+			bookmarks: {
+				order,
+				db,
+				catalog
+			}
+		};
 	}
 };
 
