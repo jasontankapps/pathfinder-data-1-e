@@ -2027,6 +2027,7 @@
 		],
 		"topLink": [ "Two-Handed Weapons", "main/equipment_weapons_two_handed" ]
 	},
+	"bladed_scarves": { "redirect": "bladed_scarf" },
 	"bo_staff": {
 		"name": "Bo staff",
 		"sources": [
