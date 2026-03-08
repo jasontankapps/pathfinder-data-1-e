@@ -1559,6 +1559,7 @@
 	"heals": { "redirect": "healing" },
 	"regain_hit_points": { "redirect": "healing" },
 	"recover_hit_points": { "redirect": "healing" },
+	"resting": { "redirect": "healing" },
 	"temporary_hit_points": {
 		"name": "Temporary Hit Points",
 		"sources": [ "PRPG Core Rulebook" ],
