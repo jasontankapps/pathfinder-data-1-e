@@ -84,7 +84,7 @@ const makeAbilityBlock = ({
 		imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20,
 		increment,incrementAt,incrementEnd,
 		incrementPlain,incrementDesc,incrementOrd,
-		incrementTemplate, incrementMax,
+		incrementMulti, incrementMax,
 		repeat, repeatAt,
 		standard, swift, immediate,
 		fullround, move, free,
@@ -576,7 +576,7 @@ const makeAbilityBlock = ({
 		imp1 || imp2 || imp3 || imp4 || imp5 || imp6 || imp7 || imp8 || imp9 || imp10
 		|| imp11 || imp12 || imp13 || imp14 || imp15 || imp16 || imp17 || imp18 || imp19 || imp20
 		|| increment || incrementAt || incrementEnd || incrementPlain || incrementOrd || incrementDesc
-		|| incrementTemplate || incrementMax || repeat || repeatAt
+		|| incrementMulti || incrementMax || repeat || repeatAt
 	) {
 		const imps = [imp1,imp2,imp3,imp4,imp5,imp6,imp7,imp8,imp9,imp10,imp11,imp12,imp13,imp14,imp15,imp16,imp17,imp18,imp19,imp20];
 		if(repeat) {
@@ -627,27 +627,55 @@ const makeAbilityBlock = ({
 				});
 			}
 		}
-		if(incrementTemplate) {
-			// msg ~ msg ~ ... ~ lev start / lev inc? / b start? / b inc?
-			const message = incrementTemplate.split(/~/);
-			const etc = (message.pop() || "/").split(/[/]/);
-			const [start, add = 1, b = 2, inc = 1] = etc.map((e, i) => {
-				const n = Number(e);
+		if(incrementMulti) {
+			// msg ~ msg ~ ... ~ lev start / lev inc? ; b start? / b inc? / ORD? ; ...
+			const message = incrementMulti.split(/~/);
+			const bonuses = [];
+			const [levelData, ...incrementData] = (message.pop() || "").trim().split(/ *; */);
+			const [start, add = 1] = levelData.split(/[/]/).map((x, i) => {
+				const n = Number(x);
 				if(!n && (i || n !== n)) {
 					// `start` can be 0
-					logError(`Invalid value [${e}] in \`incrementTemplate\` attribute [index ${i}].`);
+					logError(`Invalid level value [${x}] in \`incrementMulti\` attribute [index ${i}].`);
 					return 1;
 				}
 				return Math.floor(n);
 			});
+			incrementData.forEach(line => {
+				const [bs, bi, ord] = line.trim().split(/ *[/] */);
+				let s = Number(bs || 2);
+				if(s !== s || !s) {
+					logError(`Invalid bonus start [${bs}] in \`incrementMulti\` attribute.`);
+					s = 2;
+				}
+				let i = Number(bi || 1);
+				if(i !== i || !i) {
+					logError(`Invalid bonus increment [${bi}] in \`incrementMulti\` attribute.`);
+					i = 1;
+				}
+				const ordinal = ord ? ord.trim().toUpperCase() === "ORD" : false;
+				bonuses.push([s, i, ordinal]);
+			});
+			if(!bonuses.length) {
+				logError(`No bonuses present in \`incrementMulti\` attribute.`);
+				bonuses.push([2, 1, false]);
+			}
+			while(bonuses.length + 1 < message.length) {
+				// Pad out insufficient bonuses
+				const target = message.length - 1;
+				const dupes = [];
+				bonuses.forEach(b => { dupes.push([...b]) });
+				while(bonuses.length < target && dupes.length > 0) {
+					bonuses.push(dupes.shift());
+				}
+			}
 			const max = makeMax(incrementMax, logError);
 			let level = start + add;
-			let bonus = b;
 			if(level <= 0) {
-				logError(`Invalid level formula in \`incrementTemplate\` attribute: [${etc[0]} + ${etc[1]} = ${level}]`);
+				logError(`Invalid level formula in \`incrementMulti\` attribute`);
 				level = 25;
 			} else if (add <= 0) {
-				logError(`Invalid level increment [${etc[1]}] in \`incrementTemplate\` attribute.`);
+				logError(`Invalid level increment in \`incrementMulti\` attribute.`);
 				level = 25;
 			}
 			const ats = [];
@@ -659,9 +687,15 @@ const makeAbilityBlock = ({
 			while(ats.length > 0) {
 				const next = ats.shift();
 				const i = next - 1;
-				const joiner = incrementOrd ? ordinal(bonus) : String(bonus);
-				imps[i] = `${message.join(String(joiner))} ${imps[i] ? " " + imps[i] : ""}`;
-				bonus += inc;
+				let [msg, ...etc] = message;
+				do {
+					let [bonus, inc, ord] = bonuses.shift();
+					const joiner = ord ? ordinal(bonus) : String(bonus);
+					msg = msg + joiner + etc.shift();
+					bonus += inc;
+					bonuses.push([bonus, inc, ord]);
+				} while(etc.length > 0);
+				imps[i] = `${msg}${imps[i] ? " " + imps[i] : ""}`;
 			}
 		} else if (increment || incrementPlain || incrementAt || incrementOrd) {
 			// msg ~ lev start ~ lev inc ~ b start ~ b inc

@@ -383,7 +383,7 @@ const getBlockDirectives = (globalVariable, marker = "::") => {
 					"l", "imp",
 					"increment", "incrementAt", "incrementEnd",
 					"incrementPlain", "incrementDesc", "incrementOrd",
-					"incrementTemplate", "incrementMax",
+					"incrementMulti", "incrementMax",
 					"repeat", "repeatAt",
 					"standard", "swift", "immediate",
 					"fullround", "move", "free",
